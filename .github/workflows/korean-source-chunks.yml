@@ -1,0 +1,32 @@
+name: Korean source chunks
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/korean/build-source-chunks.py'
+      - '.github/workflows/korean-source-chunks.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Build compact source chunks
+        run: python3 tools/korean/build-source-chunks.py --out work/korean-source --max-bytes 48000
+      - name: Publish chunks to helper branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A work/korean-source
+          if git diff --cached --quiet; then
+            echo 'Source chunks unchanged.'
+            exit 0
+          fi
+          git commit -m 'Refresh Korean translation source chunks'
+          git push origin HEAD:korean-source-chunks
