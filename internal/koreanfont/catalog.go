@@ -9,6 +9,7 @@ package koreanfont
 import (
 	"bytes"
 	"fmt"
+	"sort"
 	"unicode/utf8"
 
 	"github.com/HK47196/zill/internal/zillfont"
@@ -111,6 +112,29 @@ func (catalog *Catalog) SourceRaster(r rune) (zillfont.Raster, bool) {
 	}
 	raster.Pixels = append([]uint8(nil), raster.Pixels...)
 	return raster, true
+}
+
+// RequireRunes verifies that the catalog covers every required rune. Input is
+// normalized so error output is deterministic even when callers use sets/maps.
+func (catalog *Catalog) RequireRunes(runes []rune) error {
+	if catalog == nil {
+		return fmt.Errorf("Korean raster catalog is nil")
+	}
+	set := make(map[rune]struct{}, len(runes))
+	for _, r := range runes {
+		set[r] = struct{}{}
+	}
+	missing := make([]rune, 0)
+	for r := range set {
+		if _, ok := catalog.rasters[r]; !ok {
+			missing = append(missing, r)
+		}
+	}
+	sort.Slice(missing, func(i, j int) bool { return missing[i] < missing[j] })
+	if len(missing) > 0 {
+		return fmt.Errorf("Korean raster catalog is missing %d required runes: %U", len(missing), missing)
+	}
+	return nil
 }
 
 // CellRasters selects every rune in a replacement plan and places its canonical
