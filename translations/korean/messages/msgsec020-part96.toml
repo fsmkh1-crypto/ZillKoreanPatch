@@ -1,0 +1,193 @@
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+["200026"]
+japanese = "下位の精霊魔法<end>"
+korean = "하위 정령 마법<end>"
+
+["200027"]
+japanese = "上位の精霊魔法<end>"
+korean = "상위 정령 마법<end>"
+
+["200028"]
+japanese = "ＨＰ回復系の魔法<end>"
+korean = "HP 회복 계열 마법<end>"
+
+["200029"]
+japanese = "神の力による、浄化と攻撃の魔法<end>"
+korean = "신의 힘으로 정화와 공격을 행하는 마법<end>"
+
+["200030"]
+japanese = "複合精霊魔法<end>"
+korean = "복합 정령 마법<end>"
+
+["200031"]
+japanese = "森羅万象の力を結集した最高魔法<end>"
+korean = "삼라만상의 힘을 결집한 최고위 마법<end>"
+
+["200032"]
+japanese = "邪悪な力による魔法<end>"
+korean = "사악한 힘을 이용하는 마법<end>"
+
+["200033"]
+japanese = "精神、ＭＰに影響を与える魔法<end>"
+korean = "정신과 MP에 영향을 주는 마법<end>"
+
+["200034"]
+japanese = "装備品に属性を付加する魔法<end>"
+korean = "장비에 속성을 부여하는 마법<end>"
+
+["200035"]
+japanese = "チャージにより発動するスキル<end>"
+korean = "차지로 발동하는 스킬<end>"
+
+["200036"]
+japanese = "攻撃を行うスキル<end>"
+korean = "공격을 가하는 스킬<end>"
+
+["200037"]
+japanese = "特殊な行動や、コマンドの補助となるスキル<end>"
+korean = "특수 행동이나 명령을 보조하는 스킬<end>"
+
+["200038"]
+japanese = "究極のソウルにより使用できるスキル<end>"
+korean = "궁극의 소울로 사용할 수 있는 스킬<end>"
+
+["200039"]
+japanese = "魔法を使用するスキル<end>"
+korean = "마법을 사용하는 스킬<end>"
+
+["200040"]
+japanese = "自動的に効果が発動するスキル<end>"
+korean = "효과가 자동으로 발동하는 스킬<end>"
+
+["200041"]
+japanese = "ポイント配分<end>"
+korean = "포인트 배분<end>"
+
+["200042"]
+japanese = "ソウル変更<end>"
+korean = "소울 변경<end>"
+
+["200043"]
+japanese = "ソウルポイント<end>"
+korean = "소울 포인트<end>"
+
+["200044"]
+japanese = "ｿｳﾙﾎﾟｲﾝﾄ<end>"
+korean = "소울 포인트<end>"
+
+["200045"]
+japanese = "Braveにポイントを配分<end>"
+korean = "Brave에 포인트 배분<end>"
+
+["200046"]
+japanese = "Kindにポイントを配分<end>"
+korean = "Kind에 포인트 배분<end>"
+
+["200047"]
+japanese = "Searchにポイントを配分<end>"
+korean = "Search에 포인트 배분<end>"
+
+["200048"]
+japanese = "Beliefにポイントを配分<end>"
+korean = "Belief에 포인트 배분<end>"
+
+["200049"]
+japanese = "Wildにポイントを配分<end>"
+korean = "Wild에 포인트 배분<end>"
+
+["200050"]
+japanese = "Coolにポイントを配分<end>"
+korean = "Cool에 포인트 배분<end>"
+
+["200051"]
+japanese = "アイテムを見る<end>"
+korean = "아이템 보기<end>"
+
+["200052"]
+japanese = "魔法を見る<end>"
+korean = "마법 보기<end>"
+
+["200053"]
+japanese = "パーティーの能力値を表示<end>"
+korean = "파티 능력치 표시<end>"
+
+["200054"]
+japanese = "装備を変更<end>"
+korean = "장비 변경<end>"
+
+["200055"]
+japanese = "スキルを習得<end>"
+korean = "스킬 습득<end>"
+
+["200056"]
+japanese = "ソウルポイント配分と、ソウルの変更<end>"
+korean = "소울 포인트 배분 및 소울 변경<end>"
+
+["200057"]
+japanese = "引き受けている仕事の確認と、相談<end>"
+korean = "맡은 의뢰 확인 및 상담<end>"
+
+["200058"]
+japanese = "セーブ・ロード、人物・歴史の閲覧、環境設定<end>"
+korean = "저장·불러오기, 인물·역사 열람, 환경 설정<end>"
+
+["200059"]
+japanese = "データのセーブを実行<end>"
+korean = "데이터 저장 실행<end>"
+
+["200060"]
+japanese = "データのロードを実行<end>"
+korean = "데이터 불러오기 실행<end>"
+
+["200061"]
+japanese = "人物のデータを閲覧<end>"
+korean = "인물 데이터 열람<end>"
+
+["200062"]
+japanese = "事件のデータを閲覧<end>"
+korean = "사건 데이터 열람<end>"
+
+["200063"]
+japanese = "プレイ環境の設定<end>"
+korean = "플레이 환경 설정<end>"
+
+["200064"]
+japanese = "メッセージを表示する速さ設定<end>"
+korean = "메시지 표시 속도 설정<end>"
+
+["200065"]
+japanese = "コントローラのボタンを設定<end>"
+korean = "컨트롤러 버튼 설정<end>"
+
+["200066"]
+japanese = "コントローラの振動のＯＮ／ＯＦＦ設定<end>"
+korean = "컨트롤러 진동 ON/OFF 설정<end>"
+
+["200067"]
+japanese = "サウンドのステレオ／モノラル設定<end>"
+korean = "사운드 스테레오/모노 설정<end>"
+
+["200068"]
+japanese = "ＢＧＭの音量調節<end>"
+korean = "BGM 음량 조절<end>"
+
+["200069"]
+japanese = "ＳＥの音量調節<end>"
+korean = "효과음 음량 조절<end>"
+
+["200070"]
+japanese = "画面の位置と明るさ調節<end>"
+korean = "화면 위치와 밝기 조절<end>"
+
+["200071"]
+japanese = "方向キー上下左右で画面位置調整<end>"
+korean = "방향키 상하좌우로 화면 위치 조정<end>"
+
+["200072"]
+japanese = "セーブファイルを選択"
+korean = "저장 파일 선택"
+
+["200073"]
+japanese = "ロードファイルを選択"
+korean = "불러올 파일 선택"
