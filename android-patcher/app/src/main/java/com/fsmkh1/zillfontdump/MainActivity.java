@@ -40,12 +40,12 @@ public final class MainActivity extends Activity {
         root.setPadding(pad, pad, pad, pad);
 
         TextView title = new TextView(this);
-        title.setText("Zill Infinite Plus – Korean Font PoC");
+        title.setText("Zill Infinite Plus – Korean Font Smoke Test");
         title.setTextSize(22);
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\n테스트용으로 일본어 'の' 글리프만 한글 '가'로 바꾼 새 ISO를 만듭니다.\n메시지 데이터와 PAF 구조는 수정하지 않습니다.");
+        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\n신규 시작 고정 화면에서 다음 8자를 확인합니다.\nの→가  無→나  我→다  応→라\n答→마  魂→바  示→사  者→아\nPAF 키·BST·메시지 데이터는 수정하지 않고 기존 atlas 셀만 바꿉니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -98,12 +98,12 @@ public final class MainActivity extends Activity {
                 FontExtractor.Inspection checked = FontExtractor.inspect(channel);
                 inspection = checked;
                 runOnUiThread(() -> {
-                    setBusy(false, "원본 검증 완료. " + PoCPatcher.patchByteCount() +
-                            "개의 atlas 바이트만 바꾼 새 ISO를 저장합니다.");
+                    setBusy(false, "원본 검증 완료. " + PoCPatcher.glyphCount() + "개 한글 셀 / " +
+                            PoCPatcher.patchByteCount() + " atlas 바이트를 바꾼 새 ISO를 저장합니다.");
                     Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
                     out.addCategory(Intent.CATEGORY_OPENABLE);
                     out.setType("application/octet-stream");
-                    out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_Font_PoC.iso");
+                    out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_8Glyph_Smoke.iso");
                     startActivityForResult(out, CREATE_PATCHED_ISO);
                 });
             } catch (Exception e) {
@@ -146,7 +146,7 @@ public final class MainActivity extends Activity {
                 }
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "완료. 새 ISO를 PPSSPP에서 실행하세요. 일본어 'の'가 표시되는 곳이 한글 '가'로 보이면 폰트 PoC 성공입니다."));
+                        "완료. PPSSPP에서 신규 게임을 시작해 가/나/다/라/마/바/사/아 8자가 고정 화면에 보이는지 확인하세요."));
             } catch (Exception e) {
                 final String error = message(e);
                 runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
