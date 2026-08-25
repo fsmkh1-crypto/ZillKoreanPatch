@@ -30,8 +30,7 @@ func runKoreanCheck(root string, args []string, stdout, stderr io.Writer) int {
 	// The release/font path still consumes corpus.KoreanProject. Until those
 	// callers are consolidated onto koreancorpus, make the CI-facing checker
 	// pass every non-empty accepted overlay through the stricter loader as well.
-	// This catches fixed-control corruption and loader drift without changing
-	// the proven retail-bank/PPSSPP materialization path.
+	// Both loaders must agree on semantic Korean and machine-owned layout.
 	if koreanSummary.Records != 0 {
 		strict, err := koreancorpus.Load(root, source)
 		if err != nil {
@@ -44,7 +43,7 @@ func runKoreanCheck(root string, args []string, stdout, stderr io.Writer) int {
 		}
 		for index, entry := range korean.Entries {
 			record := strict.Records[index]
-			if record.ID != entry.ID || record.Japanese != entry.Japanese || record.Text != entry.Korean {
+			if record.ID != entry.ID || record.Japanese != entry.Japanese || record.Text != entry.Korean || record.Layout != entry.Layout {
 				fmt.Fprintf(stderr, "zill: korean-check: loader disagreement at index %d: production ID %d, strict ID %d\n", index, entry.ID, record.ID)
 				return 1
 			}
