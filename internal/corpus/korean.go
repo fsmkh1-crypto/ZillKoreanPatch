@@ -17,8 +17,8 @@ import (
 
 const koreanLicenseLine = "# SPDX-License-Identifier: CC-BY-SA-4.0"
 
-var koreanControlToken = regexp.MustCompile(`<(?:end|line-break|value:\$[0-9A-F]{2})>`)
-var koreanSectionFilename = regexp.MustCompile(`^msgsec([0-9]{3})(?:-part([0-9]{2}))?\.toml$`)
+var koreanControlToken = regexp.MustCompile(`<(?:end|line-break|value:\$[0-9A-F]{2}|if|select|less-equal|equal)>`)
+var koreanSectionFilename = regexp.MustCompile(`^msgsec([0-9]{3})(?:(?:-part([0-9]{2}))|b)?\.toml$`)
 
 type KoreanEntry struct { ID int; Japanese, Korean, File string }
 type KoreanProject struct { Entries []KoreanEntry; byID map[int]int }
@@ -38,13 +38,17 @@ func LoadKoreanProject(root string, source *Project) (*KoreanProject, KoreanSumm
 	for _, entry := range entries {
 		if entry.IsDir() { return nil, KoreanSummary{}, fmt.Errorf("%s: unexpected directory %s", dir, entry.Name()) }
 		section, _, ok := parseKoreanSectionFilename(entry.Name())
-		if !ok { return nil, KoreanSummary{}, fmt.Errorf("%s: unexpected file %s; want msgsecNNN.toml or msgsecNNN-partNN.toml", dir, entry.Name()) }
+		if !ok { return nil, KoreanSummary{}, fmt.Errorf("%s: unexpected file %s; want msgsecNNN.toml, msgsecNNN-partNN.toml, or legacy msgsecNNNb.toml", dir, entry.Name()) }
 		if _, exists := seenFiles[entry.Name()]; exists { return nil, KoreanSummary{}, fmt.Errorf("%s: duplicate Korean overlay file %s", dir, entry.Name()) }
 		seenFiles[entry.Name()] = struct{}{}
 		seenSections[section] = struct{}{}
 		rows, err := readKoreanFile(filepath.Join(dir, entry.Name()), section, source); if err != nil { return nil, KoreanSummary{}, err }
 		for _, row := range rows {
-			if _, exists := project.byID[row.ID]; exists { return nil, KoreanSummary{}, fmt.Errorf("%s: duplicate Korean ID %d", row.File, row.ID) }
+			if i, exists := project.byID[row.ID]; exists {
+				prev := project.Entries[i]
+				if prev.Japanese == row.Japanese && prev.Korean == row.Korean { continue }
+				return nil, KoreanSummary{}, fmt.Errorf("%s: conflicting duplicate Korean ID %d (already in %s)", row.File, row.ID, prev.File)
+			}
 			project.byID[row.ID] = len(project.Entries); project.Entries = append(project.Entries, row)
 		}
 		summary.Records += len(rows)
