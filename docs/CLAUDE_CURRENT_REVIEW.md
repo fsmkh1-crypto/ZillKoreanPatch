@@ -1,4 +1,4 @@
-# Current Claude review request — renderer slot audit follow-up
+# Current Claude review request — first real Korean sentence PoC
 
 Last updated: 2026-08-25
 
@@ -7,116 +7,142 @@ Read these first:
 - `docs/CLAUDE_HANDOFF.md`
 - `docs/CLAUDE_REVIEW_PROTOCOL.md`
 - `docs/CLAUDE_REVIEW_LOG.md`
+- `research/first-korean-sentence-poc.md`
 
-This is the follow-up gate after Claude's first renderer-slot audit returned `BLOCKED`.
-Do not promote any renderer key from **candidate** to **safe/reusable** based on this review alone. The requested decision is only whether the implementation is sound enough to select a very small set of **PoC candidates** for empirical PPSSPP testing.
+The renderer-slot audit follow-up has already received Claude's gate decision:
 
-## First-review findings and changes
+`PASS FOR POC CANDIDATE SELECTION`
 
-Claude's blocking finding was valid:
+Do not re-review the already-closed pa→pami blocker unless this new implementation regressed it. This review is the next gate: the Android implementation that turns five audited candidate renderer keys plus one guarded retail startup record into the first end-to-end Korean sentence ISO PoC.
 
-- `cmd/zill/korean_font.go::loadRetailBindata` opened both `pa` and `pami` unconditionally.
-- The retail audit extraction subsequently confirmed `data/bindata.dat` is in `pa` (index 0), so requiring `pami` after it had already been found was unnecessary and could fail on an otherwise valid input tree.
+A pass here authorizes empirical PPSSPP testing only. It must not be interpreted as production-wide slot safety.
 
-The following changes are now on `main`:
+## Current implementation target
 
-- `f23b5a4cdddff59272a93e8c4a129ad2b85cd59e`
-  - `pa` is searched first and `pami` is opened only as a fallback when `data/bindata.dat` is absent from `pa`.
-  - Go now pins retail `data/bindata.dat` SHA-256 to `3241fc000f3d52fe8522baaa985fd866e29d64d3a0f23ac4e28b66dee957de3e`.
-  - `fixeddata.ApplyEquipment` remains a structural/source-layout consistency check rather than the sole authentication mechanism.
-- `aaa2db17abdc0919a3f12676a944973595c98af8`
-  - regression test proves a `pa`-resident `data/bindata.dat` succeeds when no `pami.bin`/`pami.arc` exists;
-  - regression test proves a wrong bindata fingerprint is rejected.
+Review current `main`, especially:
 
-## Additional blocker found during GPT integration review
-
-While validating the real audit ZIP, GPT found an issue that was not called out in the first review:
-
-- retail `SYSDIR/EBOOT.BIN` is a PSP `~PSP` executable container, not the decrypted ELF text image;
-- the canonical release pipeline authenticates `EBOOT.BIN`, but applies executable patches and fixed strings to `SYSDIR/BOOT.BIN`;
-- `patches/executable/manifest.toml` explicitly targets `SYSDIR/BOOT.BIN` and pins its source SHA-256 to `5e294dc84a7f0d50719ecd26cb24ffb3792f2d9445803690845a8f1fa1cb85a3`;
-- therefore treating raw `EBOOT.BIN` byte runs as executable CP932 literals was semantically wrong and could both create binary false positives and miss actual plaintext references.
-
-This has been corrected:
-
-- `3c63d3674fa5874f85f0c1057939ab28de2c1a97`
-  - `korean-slots` still authenticates retail `EBOOT.BIN` to bind the supported game/version;
-  - it separately authenticates retail decrypted `BOOT.BIN` with SHA-256 `5e294dc84a7f0d50719ecd26cb24ffb3792f2d9445803690845a8f1fa1cb85a3`;
-  - `ScanCP932Literals` now scans authenticated `BOOT.BIN`, not raw `EBOOT.BIN`;
-  - candidate output wording now says message/fixed/BOOT/bindata audit.
-- `08d78c3af26feeab5eded6b944234579173387dd`
-  - Android audit extraction authenticates and exports `SYSDIR/BOOT.BIN` in addition to `EBOOT.BIN`;
-  - audit manifest format is now v4 / extractor 0.5.0.
-- `b9ad631484f8adfaac91b03036f22d2a7f32e133`
-  - Android app version bumped to 0.5.0.
-
-The old v0.4 audit ZIP is therefore insufficient for the final candidate calculation because it does not contain `BOOT.BIN`. It did, however, authenticate the expected font members, EBOOT and bindata and confirmed bindata's archive location.
-
-## Current review target
-
-Review current `main`, with special attention to:
-
-- `cmd/zill/korean_font.go`
-  - `loadAuthenticatedRetailBOOT`
-  - `loadAuthenticatedRetailEBOOT`
-  - `loadBindataFromArchive`
-  - `loadRetailBindataWithSHA`
-  - `runKoreanSlots`
-- `cmd/zill/korean_font_test.go`
-- `internal/slotaudit/scan.go`
-- `internal/slotaudit/scan_test.go`
+- `android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/StartupMessage.java`
 - `android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FontExtractor.java`
+- `android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/PoCPatcher.java`
 - `android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/MainActivity.java`
-- `patches/executable/manifest.toml`
-- `internal/release/build.go::buildExecutable`
+- `android-patcher/app/src/test/java/com/fsmkh1/zillfontdump/StartupMessageTest.java`
+- `android-patcher/app/src/test/java/com/fsmkh1/zillfontdump/PoCPatcherTest.java`
+- `research/first-korean-sentence-poc.md`
 
-Do not spend time redesigning unrelated Gemini translation exchange code.
+Relevant implementation commits begin at `632421435f2b083f6d4512f9ced336dcb31f2d28` and continue through the current head.
 
-## Intended safety model
+The prior eight-glyph smoke code is no longer the active PoC path; compare with history only when useful for verifying the already-proven atlas swizzle/raster method.
 
-A key is removed from the current candidate set if referenced by any of these audited sources:
+## Intended PoC behavior
 
-1. current English message corpus;
-2. retail Japanese message corpus;
-3. canonical fixed EBOOT strings from `release/strings/eboot.toml`;
-4. canonical equipment strings from `release/strings/equipment.toml`;
-5. CP932-looking NUL-terminated literals recovered from the authenticated decrypted retail `BOOT.BIN`;
-6. CP932-looking NUL-terminated literals recovered from authenticated retail `data/bindata.dat`.
+The retail target is:
 
-The remaining set is still reported only as `AUDITED CANDIDATES ONLY`. Other archive/UI/script resources are not yet semantically parsed.
+- archive member: `message/msgsec001.dat`;
+- record index: 7;
+- canonical ID: 10007;
+- contributor display:
+  `汝、無限のソウルを持つ者よ<line-break>我に応ぜよ<line-break>我が問いに答え、その魂を我に示せ<end>`.
 
-`ScanCP932Literals` deliberately does not accept every random Shift-JIS-looking byte pair. The known tradeoff from the first review remains: a single two-byte glyph with no sufficient ASCII context can be missed. That limitation must be compensated for before a chosen PoC key is used, for example by exact byte-occurrence inspection of the selected key in authenticated plaintext/bindata sources and by reviewing remaining resource classes.
+The patch should make those three displayed lines read:
 
-## Follow-up questions Claude must answer
+```text
+테스트 성공
+테스트 성공
+테스트 성공
+```
 
-1. Is the original MUST-FIX actually closed, including the no-`pami` regression test?
-2. Is the explicit bindata SHA pin correctly enforced before scanner results affect candidate selection?
-3. Is `BOOT.BIN`, rather than the encrypted/raw `EBOOT.BIN`, now the correct executable plaintext source to scan according to the canonical build pipeline and executable manifest?
-4. Does the implementation still authenticate `EBOOT.BIN` sufficiently to bind the input to supported ULJM05410 v1.03 while scanning the authenticated `BOOT.BIN` plaintext?
-5. Can either the pa→pami fallback or BOOT/EBOOT trust boundary silently accept the wrong file/source?
-6. Re-evaluate `ScanCP932Literals` false-negative/false-positive behavior specifically on decrypted `BOOT.BIN` and bindata, not encrypted `EBOOT.BIN`.
-7. For a first real-sentence PoC using only a handful of candidate keys, what **minimum additional audit** is a hard blocker? In particular, distinguish:
-   - exact raw-byte occurrence checks for the selected key(s);
-   - other known plaintext/script/UI archive members that can reference the font;
-   - desirable whole-game completeness that can wait until after PoC.
-8. Search current output/docs for any accidental `safe`, `unused`, or `reusable` claim that exceeds the evidence.
+The five custom renderer assignments are:
 
-## Required output format
+| Korean | PAF key | Raw bytes | Existing PAF cell |
+| --- | --- | --- | --- |
+| 테 | `A1E1` | `E1 A1` | page1 x405 y123 11x12 |
+| 스 | `A1E9` | `E9 A1` | page1 x450 y123 12x11 |
+| 트 | `B8E2` | `E2 B8` | page1 x90 y273 11x11 |
+| 성 | `BBE6` | `E6 BB` | page1 x150 y288 12x11 |
+| 공 | `BFE6` | `E6 BF` | page1 x465 y303 12x11 |
 
-For each finding:
+Each chosen raw pair was additionally checked to occur zero times in authenticated retail `BOOT.BIN` and `data/bindata.dat`, as required by the previous Claude review. They remain PoC candidates, not production-safe slots.
+
+## Important retail-message detail
+
+Do not assume the TOML display projection is the retail byte spelling.
+
+`internal/corpus/bank.go::displayText` shows that retail records can contain `ESC K/H/k` kana-mode controls and half-width kana bytes that are omitted/normalized in contributor display, while:
+
+- `0x0A` projects to `<line-break>`;
+- `05 05 05` projects to `<end>`.
+
+`StartupMessage.inspect` therefore parses the actual retail record, reproduces the relevant display semantics, and requires an exact expected displayed source with exactly two native line breaks and one native end marker. It records the three natural-text byte segments.
+
+`StartupMessage.patchEdits` is supposed to edit only those three natural-text byte spans. It writes the 11-byte custom Korean line at the start of each span and fills the unused part of that span with ASCII spaces. It must leave the original line-break controls and `05 05 05` end terminator untouched. No message offset table entry or archive member size should change.
+
+## Review questions — MUST answer
+
+1. **Retail display parser fidelity**
+   - Is the subset implemented in `StartupMessage.scanDisplay` sufficient and fail-closed for this exact guarded record?
+   - Check direct Shift_JIS text, double-byte lead/trail handling, half-width kana, dakuten/handakuten, `ESC K/H/k`, NFKC normalization and katakana→hiragana conversion.
+   - Could a malformed or differently controlled record still produce the expected display and yield unsafe segment boundaries?
+
+2. **Control preservation**
+   - Prove that the two `0x0A` line breaks and `05 05 05` end terminator cannot be overwritten by `patchEdits` / `PoCPatcher.absoluteEdits`.
+   - Check off-by-one behavior at every segment boundary.
+   - Check that filling unused natural-text bytes with `0x20` cannot leak across a control or alter later records.
+
+3. **Message-bank integrity**
+   - Verify record offsets, member size and all downstream record positions stay unchanged.
+   - Determine whether leaving original bytes after `<end>`/NUL inside the record span can matter.
+   - Check the source guard is strong enough that a wrong section/record/member cannot be silently patched.
+
+4. **Renderer byte/key correspondence**
+   - Verify the custom message pairs correspond exactly to the PAF keys as little-endian renderer keys (`E1 A1` → `A1E1`, etc.).
+   - Verify all five atlas coordinates/page/cell sizes match the documented retail PAF records.
+   - Verify each 10x10 bitmap fits the selected cell and that the `(1,1)` placement/metrics assumption is consistent with the earlier empirically proven Hangul raster path.
+
+5. **Atlas edit isolation**
+   - Review `buildFontEdits`, swizzle calculation, nibble masks and merged-byte logic.
+   - Prove it edits only pixels in the five declared source cells.
+   - Check that cells cannot overlap or produce colliding byte edits unexpectedly.
+
+6. **Streaming ISO edit correctness**
+   - Review absolute-offset construction for both font and message edits.
+   - Check sorting, duplicate detection, chunk-boundary handling, source-size check and unapplied-edit detection.
+   - Look for any way an edit before the current streaming position could be silently skipped.
+
+7. **Source/output safety**
+   - Verify the app still opens the source read-only, uses a distinct output URI, re-inspects before writing, preserves ISO size, and deletes partial output on failure.
+   - Check whether the inspection comparison is strong enough for TOCTOU given that `fresh` performs all hashes/source guards again.
+
+8. **Tests**
+   - Assess whether `StartupMessageTest` and `PoCPatcherTest` actually exercise the intended invariants rather than merely mirroring implementation.
+   - Give a concrete missing regression test for every MUST-FIX finding.
+
+9. **Safety language**
+   - Ensure docs/UI/code do not call these five keys production-safe, globally unused or generally reusable.
+
+## Known out-of-scope/non-blocking items
+
+Unless the new implementation directly interacts with them, do not block this PoC for:
+
+- full whole-game UI/script/archive slot audit;
+- full Korean corpus translation;
+- final production atlas packing/metrics;
+- duplicated stock/Korean Go projection logic already logged as technical debt;
+- Gemini translation-exchange redesign.
+
+## Required output
+
+For each finding provide:
 
 - severity: MUST-FIX / SHOULD-FIX / NOTE;
 - file + function;
 - concrete failure mode;
 - minimal reproducible test or byte example when possible;
-- proposed fix direction;
-- whether it blocks selecting first PoC candidate keys.
+- fix direction;
+- whether it blocks generating/testing the first-sentence PoC ISO.
 
 End with exactly one gate decision:
 
 - `BLOCKED`; or
-- `PASS FOR POC CANDIDATE SELECTION`.
+- `PASS FOR FIRST-SENTENCE POC TEST`.
 
-A pass means only that candidate selection for empirical PoC is justified; it does **not** mean any slot is production-safe.
-
-If GitHub write access is unavailable, output the full review in chat for manual transfer to GPT.
+If GitHub write access is unavailable, output the complete review in chat for manual transfer to GPT.
