@@ -37,6 +37,7 @@ EXACT = {
     "ドワーフ<end>": "드워프<end>",
     "ハイエルフ<end>": "하이 엘프<end>",
     "魔人<end>": "마인<end>",
+    "ゴブリン<end>": "고블린<end>",
     "最大<end>": "최대<end>",
     "毒<end>": "독<end>",
     "電気<end>": "전기<end>",
@@ -51,6 +52,29 @@ EXACT = {
     "美しさ<end>": "아름다움<end>",
     "復讐？<end>": "복수?<end>",
     "聖杯？<end>": "성배?<end>",
+    "青竜将軍<end>": "청룡장군<end>",
+    "白虎将軍<end>": "백호장군<end>",
+    "朱雀将軍<end>": "주작장군<end>",
+    "玄武将軍<end>": "현무장군<end>",
+    "水の巫女<end>": "물의 무녀<end>",
+    "風の巫女<end>": "바람의 무녀<end>",
+    "地の巫女<end>": "땅의 무녀<end>",
+    "救世主<end>": "구세주<end>",
+
+    # Stable standalone menu/UI labels.
+    "アイテム<end>": "아이템<end>",
+    "システム<end>": "시스템<end>",
+    "メニュー<end>": "메뉴<end>",
+    "キャンセル<end>": "취소<end>",
+    "イベント<end>": "이벤트<end>",
+    "表示切替<end>": "표시 전환<end>",
+    "戦闘開始<end>": "전투 시작<end>",
+    "種類選択<end>": "종류 선택<end>",
+    "対象選択<end>": "대상 선택<end>",
+    "隊列変更<end>": "진형 변경<end>",
+    "人物切替<end>": "인물 전환<end>",
+    "全身表示<end>": "전신 표시<end>",
+    "通信機<end>": "통신기<end>",
 
     # Stable standalone NPC/job labels.  These deliberately exclude dialogue
     # fragments whose Korean register depends on speaker/context.
