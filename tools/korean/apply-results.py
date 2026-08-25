@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
-"""Validate and apply one or more Korean result JSONL files to sparse overlays.
+"""Validate and apply Korean result JSONL files to sparse overlays.
 
-Each input row must contain section/id/korean. Canonical Japanese is loaded locally.
-New translations are merged into deterministic msgsecNNN-part99.toml files.
-Re-applying the same translation is a no-op; conflicting existing translations fail.
+Supported input rows:
+  {"section":3,"id":"30000","korean":"..."}
+  {"section":3,"start":30000,"korean":["...","...",...]}
+
+The compact sequential form expands IDs from start and keeps large GPT result
+packets small. Canonical Japanese is always loaded locally and control tokens
+are validated after expansion.
 """
 from __future__ import annotations
 
@@ -84,6 +88,19 @@ def render(records: dict[str, dict[str, str]]) -> str:
     return "\n".join(out)
 
 
+def expanded_rows(obj: dict, input_path: Path, lineno: int):
+    section = int(obj["section"])
+    if "id" in obj:
+        yield section, str(obj["id"]), str(obj["korean"])
+        return
+    if "start" in obj and isinstance(obj.get("korean"), list):
+        start = int(obj["start"])
+        for offset, ko in enumerate(obj["korean"]):
+            yield section, str(start + offset), str(ko)
+        return
+    raise SystemExit(f"{input_path}:{lineno}: expected id+korean or start+korean[]")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("inputs", nargs="+", type=Path)
@@ -101,33 +118,33 @@ def main() -> None:
                 if not line.strip():
                     continue
                 obj = json.loads(line)
-                section, rid, ko = int(obj["section"]), str(obj["id"]), str(obj["korean"])
-                key = (section, rid)
-                if key in seen_input:
-                    if seen_input[key] != ko:
-                        raise SystemExit(f"{input_path}:{lineno}: conflicting duplicate input id {section}/{rid}")
-                    continue
-                seen_input[key] = ko
-                if not ko:
-                    raise SystemExit(f"{input_path}:{lineno}: empty Korean translation {section}/{rid}")
-                canon = canonical_cache.setdefault(section, canonical_for(section))
-                rec = canon.get(rid)
-                if rec is None or "japanese" not in rec:
-                    raise SystemExit(f"{input_path}:{lineno}: unknown canonical id {section}/{rid}")
-                ja = str(rec["japanese"])
-                if tokens(ja) != tokens(ko):
-                    raise SystemExit(
-                        f"{input_path}:{lineno}: control-token mismatch {section}/{rid}: "
-                        f"{tokens(ja)} != {tokens(ko)}"
-                    )
-                if key in existing:
-                    if existing[key] != ko:
-                        raise SystemExit(f"{input_path}:{lineno}: conflicting existing translation {section}/{rid}")
-                    unchanged += 1
-                    continue
-                auto.setdefault(section, {})[rid] = {"japanese": ja, "korean": ko}
-                existing[key] = ko
-                added += 1
+                for section, rid, ko in expanded_rows(obj, input_path, lineno):
+                    key = (section, rid)
+                    if key in seen_input:
+                        if seen_input[key] != ko:
+                            raise SystemExit(f"{input_path}:{lineno}: conflicting duplicate input id {section}/{rid}")
+                        continue
+                    seen_input[key] = ko
+                    if not ko:
+                        raise SystemExit(f"{input_path}:{lineno}: empty Korean translation {section}/{rid}")
+                    canon = canonical_cache.setdefault(section, canonical_for(section))
+                    rec = canon.get(rid)
+                    if rec is None or "japanese" not in rec:
+                        raise SystemExit(f"{input_path}:{lineno}: unknown canonical id {section}/{rid}")
+                    ja = str(rec["japanese"])
+                    if tokens(ja) != tokens(ko):
+                        raise SystemExit(
+                            f"{input_path}:{lineno}: control-token mismatch {section}/{rid}: "
+                            f"{tokens(ja)} != {tokens(ko)}"
+                        )
+                    if key in existing:
+                        if existing[key] != ko:
+                            raise SystemExit(f"{input_path}:{lineno}: conflicting existing translation {section}/{rid}")
+                        unchanged += 1
+                        continue
+                    auto.setdefault(section, {})[rid] = {"japanese": ja, "korean": ko}
+                    existing[key] = ko
+                    added += 1
 
     KOREAN.mkdir(parents=True, exist_ok=True)
     for section, records in sorted(auto.items()):
