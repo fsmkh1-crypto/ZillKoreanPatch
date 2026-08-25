@@ -7,8 +7,9 @@ Supported input rows:
 
 The compact sequential form expands IDs from start and keeps large GPT result
 packets small. Canonical Japanese is always loaded locally. Fixed runtime
-controls are validated after expansion; line breaks are intentionally excluded
-because Korean wrapping is build-owned layout.
+controls are validated after expansion. ``<line-break>`` is forbidden in the
+translator-owned ``korean`` field because wrapping belongs only in generated
+``layout`` metadata.
 """
 from __future__ import annotations
 
@@ -25,6 +26,7 @@ CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
 SECTION_RE = re.compile(r"^msgsec(\d{3})")
 AUTO_PART = 99
+LINE_BREAK = "<line-break>"
 
 
 def q(s: str) -> str:
@@ -131,6 +133,11 @@ def main() -> None:
                     seen_input[key] = ko
                     if not ko:
                         raise SystemExit(f"{input_path}:{lineno}: empty Korean translation {section}/{rid}")
+                    if LINE_BREAK in ko:
+                        raise SystemExit(
+                            f"{input_path}:{lineno}: semantic Korean {section}/{rid} contains {LINE_BREAK}; "
+                            "omit layout breaks from translation output"
+                        )
                     canon = canonical_cache.setdefault(section, canonical_for(section))
                     rec = canon.get(rid)
                     if rec is None or "japanese" not in rec:
