@@ -10,7 +10,7 @@ import org.junit.Test;
 public class PoCPatcherTest {
     @Test
     public void patchesOnlyDeclaredAtlasBytesAndPreservesSize() throws Exception {
-        int isoSize = 300000;
+        int isoSize = 900000;
         byte[] source = new byte[isoSize];
         for (int i = 0; i < source.length; i++) source[i] = (byte) (i * 31 + 7);
 
@@ -25,20 +25,24 @@ public class PoCPatcherTest {
         PoCPatcher.copyAndPatch(new ByteArrayInputStream(source), out, inspection);
         byte[] patched = out.toByteArray();
 
+        assertEquals(8, PoCPatcher.glyphCount());
         assertEquals(source.length, patched.length);
         long[] offsets = PoCPatcher.absoluteOffsets(inspection);
         assertEquals(PoCPatcher.patchByteCount(), offsets.length);
 
-        boolean[] changed = new boolean[source.length];
+        boolean[] declared = new boolean[source.length];
         int actualChanges = 0;
+        long previous = -1;
         for (long offset : offsets) {
+            assertNotEquals("duplicate or unsorted patch offset", previous, offset);
             int p = (int) offset;
-            changed[p] = true;
+            declared[p] = true;
             if (source[p] != patched[p]) actualChanges++;
+            previous = offset;
         }
         assertNotEquals(0, actualChanges);
         for (int i = 0; i < source.length; i++) {
-            if (!changed[i]) assertEquals("unexpected byte edit at " + i, source[i], patched[i]);
+            if (!declared[i]) assertEquals("unexpected byte edit at " + i, source[i], patched[i]);
         }
     }
 }
