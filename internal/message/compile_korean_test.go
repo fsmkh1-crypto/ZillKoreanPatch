@@ -75,3 +75,37 @@ func TestCompileBankKoreanRejectsUnmatchedReplacementID(t *testing.T) {
 		t.Fatalf("unmatched replacement ID returned %v", err)
 	}
 }
+
+func TestCompileBankKoreanRejectsLineBreakInSemanticText(t *testing.T) {
+	source := corpus.Record{ID: 10000, Raw: []byte("old\x00"), Tokens: []corpus.Token{
+		{Kind: "text", Raw: []byte("old")}, {Kind: "suffix", Raw: []byte{0}},
+	}}
+	bank := corpus.Bank{Name: "msgsec001.dat", Section: 1, Records: []corpus.Record{source}}
+	items := []corpus.Item{{Record: source, Translation: corpus.Translation{ID: source.ID, State: corpus.Todo}}}
+	mapping := koreanslots.Mapping{'가': cp932.GlyphKey(0xAC82)}
+	_, err := message.CompileBankKorean(bank, items, map[int]message.KoreanRecord{
+		source.ID: {Text: "가<line-break>가"},
+	}, mapping)
+	if err == nil || !strings.Contains(err.Error(), "layout break") {
+		t.Fatalf("semantic line break returned %v", err)
+	}
+}
+
+func TestCompileBankKoreanAllowsGeneratedLayoutBreak(t *testing.T) {
+	source := corpus.Record{ID: 10000, Raw: []byte("old\x00"), Tokens: []corpus.Token{
+		{Kind: "text", Raw: []byte("old")}, {Kind: "suffix", Raw: []byte{0}},
+	}}
+	bank := corpus.Bank{Name: "msgsec001.dat", Section: 1, Records: []corpus.Record{source}}
+	items := []corpus.Item{{Record: source, Translation: corpus.Translation{ID: source.ID, State: corpus.Todo}}}
+	mapping := koreanslots.Mapping{'가': cp932.GlyphKey(0xAC82)}
+	compiled, err := message.CompileBankKorean(bank, items, map[int]message.KoreanRecord{
+		source.ID: {Text: "가 가", Layout: "가<line-break>가"},
+	}, mapping)
+	if err != nil {
+		t.Fatal(err)
+	}
+	offset := binary.LittleEndian.Uint32(compiled[4:])
+	if got, want := compiled[offset:], []byte{0x82, 0xAC, 0x0A, 0x82, 0xAC, 0}; !bytes.Equal(got, want) {
+		t.Fatalf("layout record = % X, want % X", got, want)
+	}
+}
