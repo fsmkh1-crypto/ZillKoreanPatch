@@ -1,7 +1,9 @@
 package com.fsmkh1.zillfontdump;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -39,12 +41,17 @@ final class FontExtractor {
         final Iso9660.Entry bindataArc;
         final PaaIndex.Member bindata;
         final String bindataArchive;
+        final Iso9660.Entry startupMessageArc;
+        final PaaIndex.Member startupMessage;
+        final int startupRecordOffset;
 
         Inspection(String discId, String version, long isoSize,
                    Iso9660.Entry boot, Iso9660.Entry eboot,
                    Iso9660.Entry paBin, Iso9660.Entry paArc,
                    PaaIndex.Member zillfont, PaaIndex.Member jillbtn,
-                   Iso9660.Entry bindataArc, PaaIndex.Member bindata, String bindataArchive) {
+                   Iso9660.Entry bindataArc, PaaIndex.Member bindata, String bindataArchive,
+                   Iso9660.Entry startupMessageArc, PaaIndex.Member startupMessage,
+                   int startupRecordOffset) {
             this.discId = discId;
             this.version = version;
             this.isoSize = isoSize;
@@ -57,15 +64,18 @@ final class FontExtractor {
             this.bindataArc = bindataArc;
             this.bindata = bindata;
             this.bindataArchive = bindataArchive;
+            this.startupMessageArc = startupMessageArc;
+            this.startupMessage = startupMessage;
+            this.startupRecordOffset = startupRecordOffset;
         }
 
-        // Compatibility constructor used by the isolated smoke-patcher unit test.
-        // Audit-only fields are intentionally null because PoCPatcher never reads them.
+        // Compatibility constructor used by isolated tests that do not exercise
+        // the production inspection path.
         Inspection(String discId, String version, long isoSize,
                    Iso9660.Entry paBin, Iso9660.Entry paArc,
                    PaaIndex.Member zillfont, PaaIndex.Member jillbtn) {
             this(discId, version, isoSize, null, null, paBin, paArc,
-                    zillfont, jillbtn, null, null, "");
+                    zillfont, jillbtn, null, null, "", null, null, 0);
         }
     }
 
@@ -139,17 +149,29 @@ final class FontExtractor {
         validateSourceHash(iso, paArc, jillbtn, JILLBTN_SOURCE_SHA256);
 
         LocatedMember bindata = locateMember(iso, paIndex, paArc, "pa", "data/bindata.dat");
-        if (bindata == null) {
+        LocatedMember startupMessage = locateMember(iso, paIndex, paArc, "pa", StartupMessage.MEMBER_NAME);
+
+        if (bindata == null || startupMessage == null) {
             Iso9660.Entry pamiBin = require(iso, "PSP_GAME/USRDIR/pami.bin");
             Iso9660.Entry pamiArc = require(iso, "PSP_GAME/USRDIR/pami.arc");
             PaaIndex pamiIndex = PaaIndex.parse(iso.read(pamiBin));
-            bindata = locateMember(iso, pamiIndex, pamiArc, "pami", "data/bindata.dat");
+            if (bindata == null) {
+                bindata = locateMember(iso, pamiIndex, pamiArc, "pami", "data/bindata.dat");
+            }
+            if (startupMessage == null) {
+                startupMessage = locateMember(iso, pamiIndex, pamiArc, "pami", StartupMessage.MEMBER_NAME);
+            }
         }
         if (bindata == null) throw new IOException("Retail archives do not contain data/bindata.dat");
+        if (startupMessage == null) throw new IOException("Retail archives do not contain " + StartupMessage.MEMBER_NAME);
         validateSourceHash(iso, bindata.arc, bindata.member, BINDATA_SOURCE_SHA256);
 
+        StartupMessage.Record startupRecord = StartupMessage.inspect(
+                readMember(iso, startupMessage.arc, startupMessage.member));
+
         return new Inspection(discId, version, channel.size(), boot, eboot, paBin, paArc,
-                zillfont, jillbtn, bindata.arc, bindata.member, bindata.archive);
+                zillfont, jillbtn, bindata.arc, bindata.member, bindata.archive,
+                startupMessage.arc, startupMessage.member, startupRecord.offset);
     }
 
     static void export(FileChannel channel, Inspection inspection, OutputStream output,
@@ -186,6 +208,17 @@ final class FontExtractor {
             found = member;
         }
         return found == null ? null : new LocatedMember(archive, arc, found);
+    }
+
+    private static ByteBuffer readMember(Iso9660 iso, Iso9660.Entry arc,
+                                         PaaIndex.Member member) throws IOException {
+        if (member.size > Integer.MAX_VALUE) {
+            throw new IOException(member.name + " is too large for guarded in-memory inspection");
+        }
+        ByteArrayOutputStream out = new ByteArrayOutputStream((int) member.size);
+        long absolute = arc.extent * Iso9660.SECTOR_SIZE + member.offset;
+        iso.copyRange(absolute, member.size, out, null);
+        return ByteBuffer.wrap(out.toByteArray());
     }
 
     private static Exported exportIsoEntry(Iso9660 iso, ZipOutputStream zip,
