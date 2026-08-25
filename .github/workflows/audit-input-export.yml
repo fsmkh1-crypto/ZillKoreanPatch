@@ -1,0 +1,23 @@
+name: Audit source export
+
+on:
+  push:
+    paths:
+      - '.github/workflows/audit-input-export.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zill-slot-audit-source-inputs
+          path: |
+            translations/messages
+            release/strings
+          if-no-files-found: error
