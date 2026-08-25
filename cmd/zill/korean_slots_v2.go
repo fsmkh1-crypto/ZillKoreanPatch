@@ -23,18 +23,6 @@ func rendererKeySetSlice(set map[cp932.GlyphKey]struct{}) []cp932.GlyphKey {
 	return out
 }
 
-func finalKoreanRuntimeTexts(source *corpus.Project, korean *corpus.KoreanProject) []string {
-	texts := make([]string, 0, len(source.Items))
-	for _, item := range source.Items {
-		if row, ok := korean.Find(item.Record.ID); ok {
-			texts = append(texts, row.Korean)
-			continue
-		}
-		texts = append(texts, item.Translation.Japanese)
-	}
-	return texts
-}
-
 // runKoreanSlotsV2 computes the actual slot allocation required by the current
 // sparse Korean overlay. Accepted Korean rows replace Japanese source text;
 // untranslated rows keep Japanese, so stock glyph reservations shrink as the
@@ -100,7 +88,11 @@ func runKoreanSlotsV2(root string, args []string, stdout, stderr io.Writer) int 
 	mergeRendererKeys(reserved, bootScan.Keys)
 	mergeRendererKeys(reserved, bindataScan.Keys)
 
-	texts := finalKoreanRuntimeTexts(source, korean)
+	texts, err := korean.RuntimeTexts(source)
+	if err != nil {
+		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
+		return 1
+	}
 	installed := font.DoubleByteKeys()
 	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)
 	if err != nil {
