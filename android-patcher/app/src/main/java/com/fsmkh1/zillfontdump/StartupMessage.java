@@ -6,14 +6,13 @@ import java.nio.ByteOrder;
 import java.nio.CharBuffer;
 import java.nio.charset.CharacterCodingException;
 import java.nio.charset.CodingErrorAction;
-import java.nio.charset.StandardCharsets;
 import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Guards and rewrites the opening three-line invocation used for the first
- * end-to-end Korean sentence PoC.
+ * Guards the opening three-line invocation and rewrites only its first natural-
+ * text line for the first end-to-end Korean sentence PoC.
  *
  * The Japanese contributor text is a decoded display projection; retail records
  * may encode kana through ESC K/H/k mode controls and half-width bytes. Therefore
@@ -123,22 +122,25 @@ final class StartupMessage {
                 new Segment(scan.lineBreaks[0] + 1, scan.lineBreaks[1] - scan.lineBreaks[0] - 1),
                 new Segment(scan.lineBreaks[1] + 1, scan.endOffset - scan.lineBreaks[1] - 1)
         };
-        for (int i = 0; i < segments.length; i++) {
-            if (segments[i].length < KOREAN_LINE.length) {
-                throw new IOException("startup message line " + (i + 1)
-                        + " has only " + segments[i].length + " raw bytes; need " + KOREAN_LINE.length);
-            }
+        if (segments[0].length < KOREAN_LINE.length) {
+            throw new IOException("startup message first line has only " + segments[0].length
+                    + " raw bytes; need " + KOREAN_LINE.length);
         }
         return new Record(start, end - start, segments);
     }
 
     static ByteEdit[] patchEdits(Record record) {
-        List<ByteEdit> edits = new ArrayList<>();
-        for (Segment segment : record.segments) {
-            for (int i = 0; i < segment.length; i++) {
-                int value = i < KOREAN_LINE.length ? KOREAN_LINE[i] & 0xff : 0x20;
-                edits.add(new ByteEdit(segment.offset - record.offset + i, value));
-            }
+        if (record.segments == null || record.segments.length != 3) {
+            throw new IllegalArgumentException("startup record must have exactly three guarded text segments");
+        }
+        Segment first = record.segments[0];
+        if (first.length < KOREAN_LINE.length) {
+            throw new IllegalArgumentException("startup first-line segment is too short for Korean PoC text");
+        }
+        List<ByteEdit> edits = new ArrayList<>(first.length);
+        for (int i = 0; i < first.length; i++) {
+            int value = i < KOREAN_LINE.length ? KOREAN_LINE[i] & 0xff : 0x20;
+            edits.add(new ByteEdit(first.offset - record.offset + i, value));
         }
         return edits.toArray(new ByteEdit[0]);
     }
