@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -13,33 +14,38 @@ final class PoCPatcher {
     private static final int ATLAS_ROW_BYTES = 512 / 2; // 512px, 4bpp
     private static final int[] GIM_STARTS = {0xC0, 0x201B0, 0x402A0, 0x60390};
 
-    // Startup-screen smoke-test mapping. All eight source glyphs occur on the
-    // mandatory new-game intro screen. We only replace atlas pixels; PAF keys,
-    // metrics, BST links, record count and message bytes remain unchanged.
+    // First end-to-end Korean sentence PoC.
     //
-    // The 10x10 Korean bitmaps use the exact raster rule that produced the
-    // already PPSSPP-proven の -> 가 PoC: UnDotum 10px, text origin (0,-2),
-    // grayscale quantized to 4bpp (0..15). Larger Japanese source cells are
-    // cleared and the 10x10 Korean bitmap is positioned so its effective
-    // bearing matches the proven 가 cell (bearing X=1, Y=-9).
+    // These five renderer keys survived the message/fixed/BOOT/bindata audit,
+    // have zero exact raw-byte occurrences in authenticated BOOT.BIN and
+    // bindata.dat, and use suitable existing cells with advance=12 and
+    // bearing=(0,-10). They remain PoC candidates, not production-safe slots.
+    //
+    // The 10x10 Korean bitmaps use the exact raster rule already proven in
+    // PPSSPP by the earlier の -> 가 and eight-glyph smoke tests: UnDotum 10px,
+    // text origin (0,-2), grayscale rounded to 4bpp (0..15). Each bitmap is
+    // pasted at (1,1), yielding the proven effective Korean bearing (1,-9).
     private static final Glyph[] GLYPHS = {
-            new Glyph("の", "가", 1, 421, 379, 10, 10, 0, 0, "000000081000000009100ffff4091000008309100000a009fb0004900910003c10091007b100091016000009100000000400"),
-            new Glyph("無", "나", 1, 15, 243, 12, 12, 1, 1, "000000081005000009100b000009100b000009100b000009fb0b000359100dacdb5910054200091000000009100000000400"),
-            new Glyph("我", "다", 2, 435, 3, 12, 11, 1, 1, "000000081000000009101ffff60910190000091019000009fb19001559101dbcea3910054200091000000009100000000400"),
-            new Glyph("応", "라", 1, 195, 108, 12, 11, 1, 1, "00000008100ffff30910000073091000007309100ffff309fb0a000009100a012439100fedc9391000000009100000000400"),
-            new Glyph("答", "마", 1, 150, 93, 12, 11, 1, 1, "000000081000000009102ffff40910290074091029007409fb29007409102ffff40910000000091000000009100000000400"),
-            new Glyph("魂", "바", 1, 375, 213, 12, 12, 1, 1, "0100110810290065091029006509102ffff5091029006509fb29006509102ffff50910000000091000000009100000000400"),
-            new Glyph("示", "사", 1, 1, 169, 11, 10, 0, 0, "000000081000260009100048000910006a00091000ac0009fb03967009102c10b50910330016091000000009100000000400"),
-            new Glyph("者", "아", 1, 136, 423, 10, 11, 0, 1, "000000081001ce6009100952c109100b006509100a004709fb0b005509100952c1091002ce50091000000009100000000400")
+            new Glyph("癸", "테", 0xA1E1, 1, 405, 123, 11, 12, 1, 1,
+                    "00000021407fff519380730001938073000193807fff7f9380730001938073236293807fda62938000000193800000002130"),
+            new Glyph("鬘", "스", 0xA1E9, 1, 450, 123, 12, 11, 1, 1,
+                    "000000000000005500000000aa0000000776800004b7007b401830000281000000000000000000004ffffffff40000000000"),
+            new Glyph("篋", "트", 0xB8E2, 1, 90, 273, 11, 11, 1, 1,
+                    "000000000002ffffff40028000000002ffffff10028000000002ffffff40000000000000000000004ffffffff40000000000"),
+            new Glyph("貊", "성", 0xBBE6, 1, 150, 288, 12, 11, 1, 1,
+                    "0001000010001b000460003c00046000a947ff601a50a604602300040460004cffee7000c4001870005cefea100000000000"),
+            new Glyph("豼", "공", 0xBFE6, 1, 465, 303, 12, 11, 1, 1,
+                    "000000000006ffffff70000000065000007009300000a007004ffffffff4008dffd9100592002a5001aeffd8000000000000")
     };
 
-    private static final Edit[] EDITS = buildEdits();
+    private static final FontEdit[] FONT_EDITS = buildFontEdits();
 
     private PoCPatcher() {}
 
     private static final class Glyph {
         final String japanese;
         final String korean;
+        final int rendererKey;
         final int page;
         final int x;
         final int y;
@@ -49,10 +55,11 @@ final class PoCPatcher {
         final int pasteY;
         final String raster;
 
-        Glyph(String japanese, String korean, int page, int x, int y,
+        Glyph(String japanese, String korean, int rendererKey, int page, int x, int y,
               int width, int height, int pasteX, int pasteY, String raster) {
             this.japanese = japanese;
             this.korean = korean;
+            this.rendererKey = rendererKey;
             this.page = page;
             this.x = x;
             this.y = y;
@@ -65,25 +72,39 @@ final class PoCPatcher {
                 throw new IllegalStateException("10x10 raster length mismatch for " + korean);
             }
             if (pasteX < 0 || pasteY < 0 || pasteX + 10 > width || pasteY + 10 > height) {
-                throw new IllegalStateException("Korean raster does not fit source cell for " + japanese);
+                throw new IllegalStateException("Korean raster does not fit source cell for key "
+                        + Integer.toHexString(rendererKey));
             }
         }
     }
 
-    private static final class Edit {
+    private static final class FontEdit {
         final int relativeOffset;
         final int mask;
         final int value;
 
-        Edit(int relativeOffset, int mask, int value) {
+        FontEdit(int relativeOffset, int mask, int value) {
             this.relativeOffset = relativeOffset;
             this.mask = mask;
             this.value = value;
         }
     }
 
-    private static Edit[] buildEdits() {
-        // byte offset -> {mask,value}. TreeMap also guarantees streaming order.
+    private static final class AbsoluteEdit {
+        final long offset;
+        final int mask;
+        final int value;
+
+        AbsoluteEdit(long offset, int mask, int value) {
+            this.offset = offset;
+            this.mask = mask;
+            this.value = value;
+        }
+    }
+
+    private static FontEdit[] buildFontEdits() {
+        // byte offset -> {mask,value}. TreeMap guarantees deterministic ordering
+        // and merges two 4bpp pixels that share one underlying byte.
         TreeMap<Integer, int[]> merged = new TreeMap<>();
         for (Glyph glyph : GLYPHS) {
             if (glyph.page < 0 || glyph.page >= GIM_STARTS.length) {
@@ -115,11 +136,11 @@ final class PoCPatcher {
                 }
             }
         }
-        List<Edit> result = new ArrayList<>(merged.size());
+        List<FontEdit> result = new ArrayList<>(merged.size());
         for (Map.Entry<Integer, int[]> entry : merged.entrySet()) {
-            result.add(new Edit(entry.getKey(), entry.getValue()[0], entry.getValue()[1]));
+            result.add(new FontEdit(entry.getKey(), entry.getValue()[0], entry.getValue()[1]));
         }
-        return result.toArray(new Edit[0]);
+        return result.toArray(new FontEdit[0]);
     }
 
     private static int swizzledByteOffset(int pixelX, int pixelY) {
@@ -131,19 +152,44 @@ final class PoCPatcher {
                 + (byteX & 15);
     }
 
-    static long[] absoluteOffsets(FontExtractor.Inspection inspection) {
-        long memberStart = inspection.paArc.extent * (long) Iso9660.SECTOR_SIZE
-                + inspection.zillfont.offset;
-        long[] out = new long[EDITS.length];
-        for (int i = 0; i < out.length; i++) {
-            out[i] = memberStart + EDITS[i].relativeOffset;
+    private static AbsoluteEdit[] absoluteEdits(FontExtractor.Inspection inspection) {
+        if (inspection.startupMessageArc == null || inspection.startupMessage == null) {
+            throw new IllegalStateException("inspection is missing guarded startup message metadata");
         }
+        List<AbsoluteEdit> edits = new ArrayList<>(FONT_EDITS.length + StartupMessage.guardedLength());
+
+        long fontMemberStart = inspection.paArc.extent * (long) Iso9660.SECTOR_SIZE
+                + inspection.zillfont.offset;
+        for (FontEdit edit : FONT_EDITS) {
+            edits.add(new AbsoluteEdit(fontMemberStart + edit.relativeOffset, edit.mask, edit.value));
+        }
+
+        long messageStart = inspection.startupMessageArc.extent * (long) Iso9660.SECTOR_SIZE
+                + inspection.startupMessage.offset + inspection.startupRecordOffset;
+        byte[] messagePatch = StartupMessage.guardedPatchBytes();
+        for (int i = 0; i < messagePatch.length; i++) {
+            edits.add(new AbsoluteEdit(messageStart + i, 0xFF, messagePatch[i] & 0xFF));
+        }
+
+        edits.sort(Comparator.comparingLong(edit -> edit.offset));
+        for (int i = 1; i < edits.size(); i++) {
+            if (edits.get(i - 1).offset == edits.get(i).offset) {
+                throw new IllegalStateException("overlapping PoC edits at ISO offset " + edits.get(i).offset);
+            }
+        }
+        return edits.toArray(new AbsoluteEdit[0]);
+    }
+
+    static long[] absoluteOffsets(FontExtractor.Inspection inspection) {
+        AbsoluteEdit[] edits = absoluteEdits(inspection);
+        long[] out = new long[edits.length];
+        for (int i = 0; i < edits.length; i++) out[i] = edits[i].offset;
         return out;
     }
 
     static void copyAndPatch(InputStream input, OutputStream output,
                              FontExtractor.Inspection inspection) throws IOException {
-        long[] targets = absoluteOffsets(inspection);
+        AbsoluteEdit[] edits = absoluteEdits(inspection);
         byte[] buffer = new byte[1024 * 1024];
         long position = 0;
         int patchIndex = 0;
@@ -151,12 +197,11 @@ final class PoCPatcher {
         while ((read = input.read(buffer)) >= 0) {
             if (read == 0) continue;
             long end = position + read;
-            while (patchIndex < targets.length && targets[patchIndex] < end) {
-                long target = targets[patchIndex];
-                if (target >= position) {
-                    int index = (int) (target - position);
+            while (patchIndex < edits.length && edits[patchIndex].offset < end) {
+                AbsoluteEdit edit = edits[patchIndex];
+                if (edit.offset >= position) {
+                    int index = (int) (edit.offset - position);
                     int oldValue = buffer[index] & 0xFF;
-                    Edit edit = EDITS[patchIndex];
                     buffer[index] = (byte) ((oldValue & ~edit.mask) | (edit.value & edit.mask));
                 }
                 patchIndex++;
@@ -168,13 +213,13 @@ final class PoCPatcher {
             throw new IOException("ISO copy size mismatch: wrote " + position
                     + " bytes, expected " + inspection.isoSize);
         }
-        if (patchIndex != targets.length) {
-            throw new IOException("Not all Korean startup-screen glyph edits were applied");
+        if (patchIndex != edits.length) {
+            throw new IOException("Not all Korean sentence PoC edits were applied");
         }
     }
 
     static int patchByteCount() {
-        return EDITS.length;
+        return FONT_EDITS.length + StartupMessage.guardedLength();
     }
 
     static int glyphCount() {
