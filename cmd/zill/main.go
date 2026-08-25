@@ -20,22 +20,23 @@ import (
 const usage = `Usage: zill <command> [options]
 
 Commands:
-	check             Validate contributor translation data
-	context           Find and review recovered dialogue scenes
-	edit-record       Inspect or patch one inline dialogue variant as JSON
-	search            Search IDs, Japanese, and English
-	show              Show one record and nearby context
-	gemini-export     Export a strict JSONL batch for Gemini translation
-	gemini-check      Validate and normalize a Gemini JSONL result batch
-	font-status       Inspect validated retail font metadata
-	korean-check      Validate canonical Korean overlay and report glyph demand
-	korean-font-check Validate raster catalog coverage for Korean glyphs
-	korean-slots      Plan deterministic renderer slots for current Korean overlay
-	ppsspp-debugger   Control a running PPSSPP instance through JSON Lines
-	trinity-extract   Extract Trinity PS3 English or Japanese text assets
-	trinity-search    Search paired Trinity English or Japanese text
-	build             Maintainer-only: build PSP_GAME, ISO, and xdelta outputs
-	help              Show this help
+	check                 Validate contributor translation data
+	context               Find and review recovered dialogue scenes
+	edit-record           Inspect or patch one inline dialogue variant as JSON
+	search                Search IDs, Japanese, and English
+	show                  Show one record and nearby context
+	gemini-export         Export a strict JSONL batch for Gemini translation
+	gemini-check          Validate and normalize a Gemini JSONL result batch
+	font-status           Inspect validated retail font metadata
+	korean-check          Validate canonical Korean overlay and report glyph demand
+	korean-font-check     Validate raster catalog coverage for Korean glyphs
+	korean-font-generate  Render required Korean glyphs into deterministic catalog
+	korean-slots          Plan deterministic renderer slots for current Korean overlay
+	ppsspp-debugger       Control a running PPSSPP instance through JSON Lines
+	trinity-extract       Extract Trinity PS3 English or Japanese text assets
+	trinity-search        Search paired Trinity English or Japanese text
+	build                 Maintainer-only: build PSP_GAME, ISO, and xdelta outputs
+	help                  Show this help
 `
 
 func run(args []string, stdin io.Reader, stdout, stderr io.Writer) int {
@@ -75,6 +76,8 @@ func run(args []string, stdin io.Reader, stdout, stderr io.Writer) int {
 		return runKoreanCheck(root, args[1:], stdout, stderr)
 	case "korean-font-check":
 		return runKoreanFontCheck(root, args[1:], stdout, stderr)
+	case "korean-font-generate":
+		return runKoreanFontGenerate(root, args[1:], stdout, stderr)
 	case "korean-slots":
 		return runKoreanSlotsV2(root, args[1:], stdout, stderr)
 	case "ppsspp-debugger":
