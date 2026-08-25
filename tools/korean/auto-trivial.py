@@ -48,6 +48,9 @@ EXACT = {
     "配達<end>": "배달<end>",
     "護衛<end>": "호위<end>",
     "救出<end>": "구출<end>",
+    "美しさ<end>": "아름다움<end>",
+    "復讐？<end>": "복수?<end>",
+    "聖杯？<end>": "성배?<end>",
 
     # Stable standalone NPC/job labels.  These deliberately exclude dialogue
     # fragments whose Korean register depends on speaker/context.
@@ -79,6 +82,25 @@ EXACT = {
     "宿泊客<end>": "숙박객<end>",
     "常連客<end>": "단골손님<end>",
     "見物客<end>": "구경꾼<end>",
+
+    # Context-independent acknowledgements and pain/frustration interjections.
+    # More ambiguous dialogue fragments (e.g. いいよ, 待て, 誰だ) intentionally
+    # stay out of this table so speaker/register can be translated in context.
+    "はい。<end>": "네.<end>",
+    "はい！<end>": "네!<end>",
+    "いいえ<end>": "아니요<end>",
+    "ちっ。<end>": "칫.<end>",
+    "ちっ！<end>": "칫!<end>",
+    "…ちっ<end>": "…칫<end>",
+    "あ…。<end>": "아…<end>",
+    "…あ。<end>": "…아.<end>",
+    "うっ。<end>": "윽.<end>",
+    "うっ！<end>": "윽!<end>",
+    "くっ！<end>": "큭!<end>",
+    "くっ…<end>": "큭…<end>",
+    "痛っ！<end>": "아야!<end>",
+    "はぁ…<end>": "하아…<end>",
+    "うん…<end>": "응…<end>",
 }
 
 
