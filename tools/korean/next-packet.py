@@ -14,11 +14,12 @@ from pathlib import Path
 import re
 import tomllib
 
+from control_tags import RUNTIME_CONTROL_RE
+
 ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
 SECTION_RE = re.compile(r"^msgsec(\d{3})")
-CONTROL_RE = re.compile(r"<(?:end|line-break|value:\$[0-9A-Fa-f]+|if|select|less-equal|equal)>")
 COND_RE = re.compile(r"%\d+")
 JAPANESE_SCRIPT_RE = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uff66-\uff9d]")
 
@@ -83,7 +84,7 @@ def numeric_id_key(rid: str) -> tuple[int, str]:
 
 
 def visible_source_text(text: str) -> str:
-    rest = CONTROL_RE.sub("", text)
+    rest = RUNTIME_CONTROL_RE.sub("", text)
     return COND_RE.sub("", rest).strip()
 
 
