@@ -1,0 +1,397 @@
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+["20102"]
+japanese = "精霊力レベルが足りない<end>"
+korean = "정령력 레벨이 부족하다<end>"
+
+["20103"]
+japanese = "ＨＰ、ＭＰがフル状態でなければ使用できない<end>"
+korean = "ＨＰ와 ＭＰ가 모두 최대일 때만 사용할 수 있다<end>"
+
+["20104"]
+japanese = "敵が邪魔で攻撃できない<end>"
+korean = "적에게 가로막혀 공격할 수 없다<end>"
+
+["20105"]
+japanese = "攻撃<end>"
+korean = "공격<end>"
+
+["20106"]
+japanese = "スキル<end>"
+korean = "스킬<end>"
+
+["20107"]
+japanese = "魔法<end>"
+korean = "마법<end>"
+
+["20108"]
+japanese = "アイテム<end>"
+korean = "아이템<end>"
+
+["20109"]
+japanese = "チャージ<end>"
+korean = "차지<end>"
+
+["20110"]
+japanese = "かばう<end>"
+korean = "엄호<end>"
+
+["20111"]
+japanese = "移動<end>"
+korean = "이동<end>"
+
+["20112"]
+japanese = "逃げる<end>"
+korean = "도망<end>"
+
+["20113"]
+japanese = "は戦闘不能から復活した<end>"
+korean = "은 전투 불능에서 회복했다<end>"
+
+["20114"]
+japanese = "は気絶から復活した<end>"
+korean = "은 기절에서 회복했다<end>"
+
+["20115"]
+japanese = "のバリアを使用した<end>"
+korean = "의 배리어를 사용했다<end>"
+
+["20116"]
+japanese = "の魔法バリアを使用した<end>"
+korean = "의 마법 배리어를 사용했다<end>"
+
+["20117"]
+japanese = "チャージスキル<end>"
+korean = "차지 스킬<end>"
+
+["20118"]
+japanese = "アタックスキル<end>"
+korean = "공격 스킬<end>"
+
+["20119"]
+japanese = "サポートスキル<end>"
+korean = "지원 스킬<end>"
+
+["20120"]
+japanese = "コマンドスキル<end>"
+korean = "커맨드 스킬<end>"
+
+["20121"]
+japanese = "回復アイテム<end>"
+korean = "회복 아이템<end>"
+
+["20122"]
+japanese = "攻撃アイテム<end>"
+korean = "공격 아이템<end>"
+
+["20123"]
+japanese = "状態変化アイテム<end>"
+korean = "상태 변화 아이템<end>"
+
+["20124"]
+japanese = "能力変化アイテム<end>"
+korean = "능력 변화 아이템<end>"
+
+["20125"]
+japanese = "アクア<end>"
+korean = "아쿠아<end>"
+
+["20126"]
+japanese = "悪への誘惑<end>"
+korean = "악의 유혹<end>"
+
+["20127"]
+japanese = "デビルスラッシュ<end>"
+korean = "데빌 슬래시<end>"
+
+["20128"]
+japanese = "カッターハンド<end>"
+korean = "커터 핸드<end>"
+
+["20129"]
+japanese = "暴れる<end>"
+korean = "난동<end>"
+
+["20130"]
+japanese = "甘い香り<end>"
+korean = "달콤한 향기<end>"
+
+["20131"]
+japanese = "破壊の炎<end>"
+korean = "파괴의 불꽃<end>"
+
+["20132"]
+japanese = "泡<end>"
+korean = "거품<end>"
+
+["20133"]
+japanese = "イクスキュア<end>"
+korean = "익스큐어<end>"
+
+["20134"]
+japanese = "石斧<end>"
+korean = "돌도끼<end>"
+
+["20135"]
+japanese = "いたずら<end>"
+korean = "장난<end>"
+
+["20136"]
+japanese = "雄たけび<end>"
+korean = "포효<end>"
+
+["20137"]
+japanese = "カース<end>"
+korean = "커스<end>"
+
+["20138"]
+japanese = "火炎嵐<end>"
+korean = "화염 폭풍<end>"
+
+["20139"]
+japanese = "火炎掌<end>"
+korean = "화염장<end>"
+
+["20140"]
+japanese = "かぎ爪<end>"
+korean = "갈고리발톱<end>"
+
+["20141"]
+japanese = "裁きの雷<end>"
+korean = "심판의 번개<end>"
+
+["20142"]
+japanese = "かまいたち<end>"
+korean = "칼바람<end>"
+
+["20143"]
+japanese = "かみつき<end>"
+korean = "물어뜯기<end>"
+
+["20144"]
+japanese = "髪の毛<end>"
+korean = "머리카락<end>"
+
+["20145"]
+japanese = "岩石落し<end>"
+korean = "낙석<end>"
+
+["20146"]
+japanese = "岩盤返し<end>"
+korean = "암반 뒤집기<end>"
+
+["20147"]
+japanese = "キック<end>"
+korean = "킥<end>"
+
+["20148"]
+japanese = "キュア<end>"
+korean = "큐어<end>"
+
+["20149"]
+japanese = "キュアス<end>"
+korean = "큐어스<end>"
+
+["20150"]
+japanese = "吸血<end>"
+korean = "흡혈<end>"
+
+["20151"]
+japanese = "突き<end>"
+korean = "찌르기<end>"
+
+["20152"]
+japanese = "くいつき<end>"
+korean = "달라붙기<end>"
+
+["20153"]
+japanese = "虚無の剣<end>"
+korean = "허무의 검<end>"
+
+["20154"]
+japanese = "くちばし<end>"
+korean = "부리<end>"
+
+["20155"]
+japanese = "スマートエッジ<end>"
+korean = "스마트 엣지<end>"
+
+["20156"]
+japanese = "熊アッパー<end>"
+korean = "곰 어퍼컷<end>"
+
+["20157"]
+japanese = "くもの糸<end>"
+korean = "거미줄<end>"
+
+["20158"]
+japanese = "クライオス<end>"
+korean = "크라이오스<end>"
+
+["20159"]
+japanese = "暗闇の雲<end>"
+korean = "암흑의 구름<end>"
+
+["20160"]
+japanese = "グリードソード<end>"
+korean = "그리드 소드<end>"
+
+["20161"]
+japanese = "ゲイル<end>"
+korean = "게일<end>"
+
+["20162"]
+japanese = "幻覚<end>"
+korean = "환각<end>"
+
+["20163"]
+japanese = "幻覚の歌<end>"
+korean = "환각의 노래<end>"
+
+["20164"]
+japanese = "幻覚の霧<end>"
+korean = "환각의 안개<end>"
+
+["20165"]
+japanese = "拳骨<end>"
+korean = "주먹질<end>"
+
+["20166"]
+japanese = "光線<end>"
+korean = "광선<end>"
+
+["20167"]
+japanese = "氷の微笑<end>"
+korean = "얼음의 미소<end>"
+
+["20168"]
+japanese = "子蜂<end>"
+korean = "새끼 벌<end>"
+
+["20169"]
+japanese = "催眠ガス<end>"
+korean = "수면 가스<end>"
+
+["20170"]
+japanese = "サイレント<end>"
+korean = "사일런트<end>"
+
+["20171"]
+japanese = "サソリの尾<end>"
+korean = "전갈의 꼬리<end>"
+
+["20172"]
+japanese = "サプキュア<end>"
+korean = "서브큐어<end>"
+
+["20173"]
+japanese = "サンダーボルト<end>"
+korean = "썬더볼트<end>"
+
+["20174"]
+japanese = "サンドバッグ<end>"
+korean = "샌드백<end>"
+
+["20175"]
+japanese = "酸の海<end>"
+korean = "산성의 바다<end>"
+
+["20176"]
+japanese = "シーッ<end>"
+korean = "쉿<end>"
+
+["20177"]
+japanese = "地震<end>"
+korean = "지진<end>"
+
+["20178"]
+japanese = "実体化<end>"
+korean = "실체화<end>"
+
+["20179"]
+japanese = "しっぽ攻撃<end>"
+korean = "꼬리 공격<end>"
+
+["20180"]
+japanese = "しっぽ薙ぎ<end>"
+korean = "꼬리 휩쓸기<end>"
+
+["20181"]
+japanese = "死の血しぶき<end>"
+korean = "죽음의 핏보라<end>"
+
+["20182"]
+japanese = "死の大鎌<end>"
+korean = "죽음의 대낫<end>"
+
+["20183"]
+japanese = "自爆<end>"
+korean = "자폭<end>"
+
+["20184"]
+japanese = "地爆波<end>"
+korean = "지폭파<end>"
+
+["20185"]
+japanese = "月光<end>"
+korean = "월광<end>"
+
+["20186"]
+japanese = "剛刃<end>"
+korean = "강인<end>"
+
+["20187"]
+japanese = "ショートソード<end>"
+korean = "쇼트 소드<end>"
+
+["20188"]
+japanese = "触手<end>"
+korean = "촉수<end>"
+
+["20189"]
+japanese = "スキップ<end>"
+korean = "스킵<end>"
+
+["20190"]
+japanese = "呪いの霧<end>"
+korean = "저주의 안개<end>"
+
+["20191"]
+japanese = "スタラグ<end>"
+korean = "스탈라그<end>"
+
+["20192"]
+japanese = "ストーム<end>"
+korean = "스톰<end>"
+
+["20193"]
+japanese = "ストーン<end>"
+korean = "스톤<end>"
+
+["20194"]
+japanese = "砂煙<end>"
+korean = "모래먼지<end>"
+
+["20195"]
+japanese = "スネイクフィンガ<end>"
+korean = "스네이크 핑거<end>"
+
+["20196"]
+japanese = "スネイクレッグ<end>"
+korean = "스네이크 레그<end>"
+
+["20197"]
+japanese = "スパーク<end>"
+korean = "스파크<end>"
+
+["20198"]
+japanese = "スマッシュ<end>"
+korean = "스매시<end>"
+
+["20199"]
+japanese = "スリープ<end>"
+korean = "슬립<end>"
+
+["20200"]
+japanese = "石化のにらみ<end>"
+korean = "석화의 눈초리<end>"
