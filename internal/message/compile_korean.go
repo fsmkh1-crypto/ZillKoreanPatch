@@ -6,6 +6,7 @@ import (
 	"encoding/binary"
 	"fmt"
 	"math"
+	"sort"
 	"strings"
 
 	"github.com/HK47196/zill/internal/corpus"
@@ -33,6 +34,7 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		return nil, fmt.Errorf("%s: message count exceeds uint16", bank.Name)
 	}
 	records := make([][]byte, len(items))
+	matched := make(map[int]struct{}, len(replacements))
 	for index, item := range items {
 		source := bank.Records[index]
 		if item.Record.ID != source.ID || item.Translation.ID != source.ID {
@@ -43,6 +45,7 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			records[index] = append([]byte(nil), source.Raw...)
 			continue
 		}
+		matched[source.ID] = struct{}{}
 		projection, err := Project(source)
 		if err != nil {
 			return nil, err
@@ -68,6 +71,16 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		if err != nil {
 			return nil, fmt.Errorf("%s: ID %d Korean replacement: %w", bank.Name, source.ID, err)
 		}
+	}
+	if len(matched) != len(replacements) {
+		unmatched := make([]int, 0, len(replacements)-len(matched))
+		for id := range replacements {
+			if _, ok := matched[id]; !ok {
+				unmatched = append(unmatched, id)
+			}
+		}
+		sort.Ints(unmatched)
+		return nil, fmt.Errorf("%s: Korean replacements reference IDs not present in this bank: %v", bank.Name, unmatched)
 	}
 
 	tableEnd := uint64(4 + len(records)*4)
