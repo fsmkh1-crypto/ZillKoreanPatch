@@ -50,15 +50,19 @@ type koreanValue struct {
 
 // LoadKoreanProject loads translations/korean/messages as a sparse set of
 // msgsecNNN.toml files and binds every row to the authoritative Japanese field
-// already authenticated by LoadProject. Section files may be absent while work
-// is in progress, but every file that does exist is strict and every row must
-// match an existing source ID and Japanese reference exactly.
+// already authenticated by LoadProject. The directory itself and individual
+// section files may be absent before translation starts, but every file that
+// does exist is strict and every row must match an existing source ID and
+// Japanese reference exactly.
 func LoadKoreanProject(root string, source *Project) (*KoreanProject, KoreanSummary, error) {
 	if source == nil {
 		return nil, KoreanSummary{}, fmt.Errorf("load Korean corpus: nil source project")
 	}
 	dir := filepath.Join(root, "translations", "korean", "messages")
 	entries, err := os.ReadDir(dir)
+	if os.IsNotExist(err) {
+		return &KoreanProject{byID: make(map[int]int)}, KoreanSummary{}, nil
+	}
 	if err != nil {
 		return nil, KoreanSummary{}, fmt.Errorf("%s: list Korean section files: %w", dir, err)
 	}
