@@ -12,13 +12,85 @@ korean = "시스템<end>"
 japanese = "□隊列変更"
 korean = "□진형 변경"
 
+["200080"]
+japanese = "ページ切替１<end>"
+korean = "페이지 전환 1<end>"
+
+["200081"]
+japanese = "クイックヘルプ<end>"
+korean = "빠른 도움말<end>"
+
 ["200084"]
 japanese = "メニュー<end>"
 korean = "메뉴<end>"
 
+["200086"]
+japanese = "キャンセル<end>"
+korean = "취소<end>"
+
+["200089"]
+japanese = "SELECT<end>"
+korean = "SELECT<end>"
+
+["200090"]
+japanese = "隊列を変更<end>"
+korean = "진형 변경<end>"
+
+["200091"]
+japanese = "キャラクターを選択<end>"
+korean = "캐릭터 선택<end>"
+
+["200109"]
+japanese = "アイテムを選択<end>"
+korean = "아이템 선택<end>"
+
+["200110"]
+japanese = "捨てる装備品を選択<end>"
+korean = "버릴 장비 선택<end>"
+
+["200111"]
+japanese = "イベントアイテムを選択<end>"
+korean = "이벤트 아이템 선택<end>"
+
+["200112"]
+japanese = "並べ方を選択<end>"
+korean = "정렬 방식 선택<end>"
+
 ["200115"]
 japanese = "少ない順<end>"
 korean = "적은 순<end>"
+
+["200121"]
+japanese = "メッセージを表示する速さ設定<end>"
+korean = "메시지 표시 속도 설정<end>"
+
+["200122"]
+japanese = "インストールのＯＮ／ＯＦＦ設定<end>"
+korean = "설치 기능 ON/OFF 설정<end>"
+
+["200123"]
+japanese = "サウンドのステレオ／モノラル設定<end>"
+korean = "사운드 스테레오/모노 설정<end>"
+
+["200124"]
+japanese = "ＢＧＭの音量調節<end>"
+korean = "BGM 음량 조절<end>"
+
+["200125"]
+japanese = "ＳＥの音量調節<end>"
+korean = "효과음 음량 조절<end>"
+
+["200126"]
+japanese = "画面の位置と明るさ調節<end>"
+korean = "화면 위치와 밝기 조절<end>"
+
+["200127"]
+japanese = "設定を反映して完了<end>"
+korean = "설정을 적용하고 완료<end>"
+
+["200128"]
+japanese = "すべての設定を初期の状態に戻す<end>"
+korean = "모든 설정을 초기 상태로 되돌리기<end>"
 
 ["200131"]
 japanese = "長柄武器<end>"
@@ -28,6 +100,14 @@ korean = "장병기<end>"
 japanese = "布製防具<end>"
 korean = "천 방어구<end>"
 
+["200141"]
+japanese = "アクセサリー<end>"
+korean = "액세서리<end>"
+
+["200142"]
+japanese = "封印されています<end>"
+korean = "봉인되어 있습니다<end>"
+
 ["200145"]
 japanese = "アイテム<end>"
 korean = "아이템<end>"
@@ -35,6 +115,10 @@ korean = "아이템<end>"
 ["200147"]
 japanese = "イベント<end>"
 korean = "이벤트<end>"
+
+["200150"]
+japanese = "キャンセル<end>"
+korean = "취소<end>"
 
 ["200155"]
 japanese = "表示切替<end>"
@@ -63,3 +147,51 @@ korean = "인물 전환<end>"
 ["200161"]
 japanese = "全身表示<end>"
 korean = "전신 표시<end>"
+
+["200162"]
+japanese = "扱いやすい片手剣　ダブルブレードで二刀流可能<end>"
+korean = "다루기 쉬운 한손검. 더블 블레이드로 이도류 가능<end>"
+
+["200163"]
+japanese = "両手持ちの大きな剣　少々重いが威力は高い<end>"
+korean = "양손으로 드는 대검. 조금 무겁지만 위력은 높다<end>"
+
+["200164"]
+japanese = "両手持ちの槍　射程が少し長い<end>"
+korean = "양손으로 드는 창. 사거리가 조금 길다<end>"
+
+["200165"]
+japanese = "両手持ちの斧　最も威力が高い反面、重い<end>"
+korean = "양손으로 드는 도끼. 위력이 가장 높지만 무겁다<end>"
+
+["200166"]
+japanese = "軽く短めの剣　ダブルブレードで二刀流可能<end>"
+korean = "가볍고 짧은 검. 더블 블레이드로 이도류 가능<end>"
+
+["200167"]
+japanese = "唯一の飛び道具　遠くから攻撃可能<end>"
+korean = "유일한 원거리 무기. 먼 곳에서 공격 가능<end>"
+
+["200168"]
+japanese = "２連続攻撃可能の拳器　クリティカルが出やすい<end>"
+korean = "2회 연속 공격 가능한 권기. 치명타가 잘 발생한다<end>"
+
+["200169"]
+japanese = "騎士の証たる盾　敵の攻撃を防ぐ<end>"
+korean = "기사의 증표인 방패. 적의 공격을 막는다<end>"
+
+["200170"]
+japanese = "布でできた防具　軽いが防御力は低い<end>"
+korean = "천으로 만든 방어구. 가볍지만 방어력은 낮다<end>"
+
+["200171"]
+japanese = "標準的な胸当て　バランスの良い防具<end>"
+korean = "표준적인 흉갑. 균형 잡힌 방어구<end>"
+
+["200172"]
+japanese = "上半身を守る胴鎧　前列で戦う冒険者向け<end>"
+korean = "상반신을 보호하는 갑옷. 전열에서 싸우는 모험가용<end>"
+
+["200173"]
+japanese = "全身を覆う鎧　重いが防御力は最高<end>"
+korean = "전신을 덮는 갑옷. 무겁지만 방어력은 최고<end>"
