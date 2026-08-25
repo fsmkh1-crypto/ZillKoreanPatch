@@ -28,29 +28,42 @@ jobs:
         with:
           ref: translation/section001-batch2
           fetch-depth: 0
-      - name: Apply all result packets idempotently
+      - name: Apply pending result packets idempotently
         shell: bash
         run: |
           shopt -s nullglob
           files=(work/korean-results/*.jsonl)
           if [ ${#files[@]} -eq 0 ]; then
             echo 'No result packets found.'
+            : > /tmp/korean-processed-files
             exit 0
           fi
+          printf '%s\n' "${files[@]}" > /tmp/korean-processed-files
           python3 tools/korean/apply-results.py "${files[@]}"
       - name: Quarantine invalid legacy overlays
         run: python3 tools/korean/refresh-japanese-refs.py
       - name: Validate Korean corpus
         run: ./zill korean-check
-      - name: Commit generated overlays
+      - name: Commit generated overlays and consume processed packets
+        shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if [ -s /tmp/korean-processed-files ]; then
+            while IFS= read -r path; do
+              [ -e "$path" ] && git rm -- "$path"
+            done < /tmp/korean-processed-files
+          fi
           git add translations/korean/messages
           if git diff --cached --quiet; then
-            echo 'No overlay changes.'
+            echo 'No overlay or packet-consumption changes.'
           else
             git commit -m 'Apply Korean translation results'
+            # Result packets may be pushed while this job is validating. Rebase
+            # the generated overlay commit onto the newest branch head so those
+            # new packets are preserved for the next serialized run.
+            git fetch origin translation/section001-batch2
+            git rebase origin/translation/section001-batch2
             git push origin HEAD:translation/section001-batch2
           fi
       - name: Generate next untranslated packet
@@ -60,6 +73,7 @@ jobs:
           python3 tools/korean/next-packet.py \
             --max-records 2000 \
             --max-bytes 600000 \
+            --order shortest \
             --out /tmp/korean-packet/current.jsonl \
             --progress /tmp/korean-packet/progress.json
       - name: Publish next packet to helper branch
