@@ -1,0 +1,125 @@
+{"section":65,"id":"650000","japanese":"ティアナメッセージVOL2開始<end>"}
+{"section":65,"id":"650001","japanese":"？？？<line-break>　<line-break>　<line-break>なんの音かしら？<end>"}
+{"section":65,"id":"650002","japanese":"きゃっ！<end>"}
+{"section":65,"id":"650003","japanese":"あなた、いったいどなたですか？<line-break>こんなところから入ってくるなんて。<end>"}
+{"section":65,"id":"650004","japanese":"ティアナ王女に<line-break>会わせてほしいのですか？<end>"}
+{"section":65,"id":"650005","japanese":"何かわけありのようですね。<line-break>護衛を呼ぶのは簡単ですが…。<line-break>　<line-break>いいですよ。<line-break>お話を聞きましょう。<end>"}
+{"section":65,"id":"650006","japanese":"あのお人形…、<line-break>そういうことでしたの。<end>"}
+{"section":65,"id":"650007","japanese":"ええ、私がティアナです。<line-break>ごめんなさい、名乗らないで。<line-break>　<line-break>少し待っていてくださいね。<end>"}
+{"section":65,"id":"650008","japanese":"くすっ、そういうことだったのですか。<line-break>タルテュバ様からの贈り物にしては、<line-break>その…趣味がいいと思いました。<end>"}
+{"section":65,"id":"650009","japanese":"では、お返しします。<end>"}
+{"section":65,"id":"650010","japanese":"そのお人形…、<line-break>とても大切にされていたようですね。<line-break>本当に申しわけないことをしました。<line-break>ティアナが心から謝っていたと<line-break>女の子に伝えてください。<end>"}
+{"section":65,"id":"650011","japanese":"ふふふ…。<line-break>そんなに変ですか？ <line-break>　<line-break>一国の王女が見ず知らずの侵入者を<line-break>親しげにおもてなしするのが。<end>"}
+{"section":65,"id":"650012","japanese":"そうかもしれません。<line-break>…でも、あなたが悪い人には<line-break>とても見えないから…。<line-break>では、お名前だけでも<line-break>うかがいましょうか、<line-break>不法侵入者さん？<end>"}
+{"section":65,"id":"650013","japanese":"<if><value:$29><equal>%0<value:$28>…様？<line-break>レムオン様の弟君で、先ごろ<line-break>ノーブル伯になられた、あの…？<end><if><value:$29><equal>%1<value:$28>…様？<line-break>レムオン様の妹君で、先ごろ<line-break>ノーブル伯になられた、あの…？<end>"}
+{"section":65,"id":"650014","japanese":"<if><value:$29><equal>%0それではタルテュバ様の<line-break>従弟にあたられるのですね。<line-break>　<line-break>でも、それならどうして<line-break>そんな所からいらしたのです？<end><if><value:$29><equal>%1それではタルテュバ様の<line-break>従妹にあたられるのですね。<line-break>　<line-break>でも、それならどうして<line-break>そんな所からいらしたのです？<end>"}
+{"section":65,"id":"650015","japanese":"ふふ、確かに王女に会いたいと<line-break>言っても、面識のない門番の方は<line-break>連れてきてくれませんよね。<end>"}
+{"section":65,"id":"650016","japanese":"わかりました。<line-break>私から、話を通しておきますわ。<end>"}
+{"section":65,"id":"650017","japanese":"今度からは、堂々と正面から<line-break>お入りくださいね。<line-break>　<line-break>侵入者と間違えられて<line-break>騒ぎにでもなったら、あなたのお兄様に<line-break>迷惑がかかるでしょう？<end>"}
+{"section":65,"id":"650018","japanese":"<value:$28>…様。<line-break>素敵なお名前ですね。<end>"}
+{"section":65,"id":"650019","japanese":"ティアナ様、よろしいでしょうか？<line-break>陛下がおみえです。<end>"}
+{"section":65,"id":"650020","japanese":"お父様が？　大変！<end>"}
+{"section":65,"id":"650021","japanese":"<value:$28>様、<line-break>お人形のこと、お願いいたします。<line-break>私が謝っていたと伝えてください。<end>"}
+{"section":65,"id":"650022","japanese":"追い返すようで<line-break>申しわけありません。<line-break>では、また…。<end>"}
+{"section":65,"id":"650023","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650024","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650025","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650026","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650027","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650028","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650029","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650030","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650031","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650032","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650033","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650034","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650035","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650036","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650037","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650038","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650039","japanese":"ダミー<line-break><end>"}
+{"section":65,"id":"650040","japanese":"おい、<value:$28>。<end>"}
+{"section":65,"id":"650041","japanese":"今から王宮のティアナ王女を<line-break>訪ねる。お前も来い。<end>"}
+{"section":65,"id":"650042","japanese":"<if><value:$29><equal>%0ダメだ。お前は俺の弟なのだ。　　　<line-break>言うことを聞いてもらう。<line-break>　<line-break>それに王女に拝謁しておくのは<line-break>悪くはない。そろそろ貴族として<line-break>社交界にも名を売っておかないとな。<end>ダメだ。お前は俺の妹なのだ。　　　<line-break>言うことを聞いてもらう。<line-break>　<line-break>それに王女に拝謁しておくのは<line-break>悪くはない。そろそろ貴族として<line-break>社交界にも名を売っておかないとな。<end>"}
+{"section":65,"id":"650043","japanese":"言葉づかいや身だしなみには　　<line-break>細心の注意を払え。<line-break>　<line-break>相手はお前と同い年の小娘だが、<line-break>宮廷暮らしが長い上に<line-break>あのファーロスの雌狐の娘だ。<end>"}
+{"section":65,"id":"650044","japanese":"見破られるなよ、　　　　　　　<line-break><value:$28>。<line-break>　<end>"}
+{"section":65,"id":"650045","japanese":"レムオン様、<line-break>ようこそおいでくださいました。<end>"}
+{"section":65,"id":"650046","japanese":"これはティアナ王女、<line-break>今日は一段と美しい。<end>"}
+{"section":65,"id":"650047","japanese":"<if><value:$29><equal>%0くすっ、レムオン様ったら　<line-break>お上手ですこと。<line-break>　<line-break>弟君の前では<line-break>紳士で通すおつもりかしら？<end>くすっ、レムオン様ったら　<line-break>お上手ですこと。<line-break>　<line-break>妹君の前では<line-break>紳士で通すおつもりかしら？<end>"}
+{"section":65,"id":"650048","japanese":"<if><value:$29><equal>%0弟のことをご存じとは<line-break>お耳が早い。さすがは、<line-break>諜略に長けたエリスの娘だな。<end>妹のことをご存じとは<line-break>お耳が早い。さすがは、<line-break>諜略に長けたエリスの娘だな。<end>"}
+{"section":65,"id":"650049","japanese":"フフ、王宮中その噂で持ちきりです。<line-break>ファーロスの雌狐の娘で<line-break>なくても知っていますわ。<end>"}
+{"section":65,"id":"650050","japanese":"<if><value:$29><equal>%0まったく、くだらん噂話しか<line-break>能のない奴らが多すぎる。　　　<line-break>　<line-break>紹介する。我が弟、<line-break>ノーブル伯<value:$28>だ。<end>まったく、くだらん噂話しか<line-break>能のない奴らが多すぎる。　　　<line-break>　<line-break>紹介する。我が妹、<line-break>ノーブル伯<value:$28>だ。<end>"}
+{"section":65,"id":"650051","japanese":"お目にかかれて光栄です、<line-break>ノーブル伯。<end>"}
+{"section":65,"id":"650052","japanese":"俺は他にも用事がある。<line-break>お前はあとは好きにしろ。<end>"}
+{"section":65,"id":"650053","japanese":"ティアナ、<line-break>少ししか話せなくて残念だが<line-break>これで失礼する。<end>"}
+{"section":65,"id":"650054","japanese":"レムオン様、<line-break>またいらっしゃってください。<end>"}
+{"section":65,"id":"650055","japanese":"<value:$28>、<line-break>変な気は起こすなよ。　　　　　　　<line-break>　<line-break>王女にはもう、フィアンセがいる。<line-break>しかも、そいつは王妃エリスの実家<line-break>名家ファーロス家の跡取りだ。<end>"}
+{"section":65,"id":"650056","japanese":"フィアンセ殿に怒られなければな。<end>"}
+{"section":65,"id":"650057","japanese":"フィアンセだなんて！<line-break>存じません、そんな方！<end>"}
+{"section":65,"id":"650058","japanese":"貴族としての義務を果たさず、<line-break>酒とバクチにおぼれ、<line-break>宮廷にも近づこうとしない…。<line-break>いくら名家の出でも<line-break>あんな方と結婚なんて<line-break>考えられませんわ。<end>"}
+{"section":65,"id":"650059","japanese":"フィアンセ…ですか？　　　　　　　<line-break>　<line-break>　<line-break>お母様が決めたことです。<line-break>お母様の実家ファーロス家の跡取りで<line-break>従兄に当たる方ですけど…。<end>"}
+{"section":65,"id":"650060","japanese":"酒とバクチにおぼれ、<line-break>宮廷にも近づこうとしません。　　　<line-break>　<line-break>そんな方と結婚するだなんて<line-break>とても考えられません。<end>"}
+{"section":65,"id":"650061","japanese":"くすっ、<value:$28>様って<line-break>私が今までに出会った方々とは、<line-break>どこか違う雰囲気をお持ちですね。<line-break>また、いらしてくださいね。　　<line-break><value:$28>様。<line-break>　<end>"}
+{"section":65,"id":"650062","japanese":"<value:$28>、よく来た。　<end>"}
+{"section":65,"id":"650063","japanese":"今からティアナ王女の所へ行く。<line-break>お前も来い。<end>"}
+{"section":65,"id":"650064","japanese":"…いやに素直だな。<line-break>どこか身体の具合でも悪いのか？<end>"}
+{"section":65,"id":"650065","japanese":"フッ、さすがは<line-break>丈夫なだけが取り柄の奴だ。<end>"}
+{"section":65,"id":"650066","japanese":"ほめたつもりだが…。ふふっ。<line-break>不器用な兄を許してやってくれ。<end>"}
+{"section":65,"id":"650067","japanese":"これはレムオン様、<line-break>それに<value:$28>様。<line-break>　<line-break>ようこそ<line-break>お越しくださいました。<end>"}
+{"section":65,"id":"650068","japanese":"ティアナ様にもご機嫌うるわしく。<end>"}
+{"section":65,"id":"650069","japanese":"さぁ、ご遠慮なさらずに<line-break>奥へお入りくださいませ。<end>"}
+{"section":65,"id":"650070","japanese":"ずいぶん丁重な<line-break>もてなしようではないか？<end>"}
+{"section":65,"id":"650071","japanese":"お母様ですら一目置く<line-break>レムオン様のおいでですもの。<line-break>当然の応対ですわ。<end>"}
+{"section":65,"id":"650072","japanese":"笑える冗談だ。　　　　　　　　　<end>"}
+{"section":65,"id":"650073","japanese":"しかし、どういうものかな？<line-break>俺のような者を部屋に入れるとは。<end>"}
+{"section":65,"id":"650074","japanese":"フィアンセが聞いたら<line-break>怒るのではないか？　　　　　　　<end>"}
+{"section":65,"id":"650075","japanese":"婚約者といっても、<line-break>お母様が勝手に決めたこと。　　　<line-break>　<line-break>幼なじみのレムオン様とのことを<line-break>とやかく言われる筋合いは<line-break>ありません。<end>"}
+{"section":65,"id":"650076","japanese":"だいたい、酒とバクチにおぼれて<line-break>宮廷に近寄ろうともしない方を<line-break>ティアナは婚約者とは認めません。<end>"}
+{"section":65,"id":"650077","japanese":"いっそのこと、レムオン様が私の<line-break>夫になってくださればいいのです。<end>"}
+{"section":65,"id":"650078","japanese":"…それはできんな。<end>"}
+{"section":65,"id":"650079","japanese":"まぁ、意地悪！　　　　　　　　　　<line-break>　<line-break>　<line-break>でも、ふふふ…レムオン様らしいわ。<line-break>迷うそぶりくらい見せてくれても<line-break>バチは当たらなくてよ。<end>"}
+{"section":65,"id":"650080","japanese":"何も王が男子でなければならぬ<line-break>理由はない。<line-break>　<line-break>ティアナも、エリスのように<line-break>女王として君臨すれば、<line-break>無理に結婚することもなかろう？<end>"}
+{"section":65,"id":"650081","japanese":"女が出しゃばるのは<line-break>好きではありません。<line-break>　<line-break>特にお母様みたいに<line-break>出しゃばるのは…。<line-break>それに…。<end>"}
+{"section":65,"id":"650082","japanese":"どうする、<value:$28>？<line-break>　<line-break>　<line-break>お前、いつも<line-break>男なんかには負けないと<line-break>言い張っているではないか。<end>"}
+{"section":65,"id":"650083","japanese":"すみません。　　　　　　<end>"}
+{"section":65,"id":"650084","japanese":"<value:$28>様がどうこうと<line-break>申しあげるつもりはなかったのです。<end>"}
+{"section":65,"id":"650085","japanese":"許してやるのか…。　　<end>"}
+{"section":65,"id":"650086","japanese":"お前、もしかして<line-break>俺以外には寛大なのか？<end>"}
+{"section":65,"id":"650087","japanese":"私はファーロス家を発展させるための<line-break>道具ではありませんもの。<end>"}
+{"section":65,"id":"650088","japanese":"やれやれ、エリスも哀れだな。　<end>"}
+{"section":65,"id":"650089","japanese":"ファーロス家発展のために<line-break>知略の限りを尽くしたところが…<end>"}
+{"section":65,"id":"650090","japanese":"娘のわがままのせいで<line-break>その綿密な計画も水の泡か。　　<end>"}
+{"section":65,"id":"650091","japanese":"ひどいわ、レムオン様！<line-break>わがままだなんて。　　　　　　　<line-break>　<line-break>これでも、国のことを<line-break>いろいろと考えているつもりです。<end>"}
+{"section":65,"id":"650092","japanese":"これは失礼、ティアナ王女。<line-break>さすがはファーロスの…<end>"}
+{"section":65,"id":"650093","japanese":"ええ、<line-break>ファーロスの雌狐の娘です！<end>"}
+{"section":65,"id":"650094","japanese":"俺はいつかエリスの専政を打ち破る。<end>"}
+{"section":65,"id":"650095","japanese":"そして広場の千年樹に記されたとおり<line-break>貴族共和の政治を復活させる。<end>"}
+{"section":65,"id":"650096","japanese":"悲しいですわ。<line-break>ティアナはそのとき…、　　　<line-break>　<line-break>お母様と一緒に<line-break>ファーロスの一族として、<line-break>粛清されてしまうのですね…。<end>"}
+{"section":65,"id":"650097","japanese":"心配するな。幼なじみのよしみで<line-break>特別に大きな墓を建ててやる。<end>"}
+{"section":65,"id":"650098","japanese":"もう、レムオン様！<end>"}
+{"section":65,"id":"650099","japanese":"…冗談だ。王家と排除するべき敵の　　<line-break>区別は付いている。<line-break>ティアナをどうこうするつもりはない。<end>"}
+{"section":65,"id":"650100","japanese":"ふふ、<line-break>大事な幼なじみですものね。<end>"}
+{"section":65,"id":"650101","japanese":"そうだな。<line-break>大事な幼なじみ…だからな。<end>"}
+{"section":65,"id":"650102","japanese":"また、<line-break>いらしてくださいますよね。<line-break>レムオン様。<end>"}
+{"section":65,"id":"650103","japanese":"ああ、<line-break>くだらぬ噂の種にならぬ程度にな。<end>"}
+{"section":65,"id":"650104","japanese":"<value:$28>様も。<end>"}
+{"section":65,"id":"650105","japanese":"またお会いできる日を<line-break>楽しみにしています。<end>"}
+{"section":65,"id":"650106","japanese":"俺とティアナは幼なじみ。　　　　<line-break>ただ、それだけだ。<line-break>　<line-break>何を言い出すかと思えば…。<line-break>ふん、お前も宮廷のくだらぬ噂話に<line-break>毒されたな。<end>"}
+{"section":65,"id":"650107","japanese":"…今日は<line-break>無理に付き合わせて悪かった。　<line-break>これでも感謝しているつもりだ。<line-break>お前なら、<line-break>わかってくれるだろうが…。<end>"}
+{"section":65,"id":"650108","japanese":"くっ、クズどもが<line-break>コソコソ隠れやがって…。<line-break>さては、陰で俺を笑ってるんだな！<end>"}
+{"section":65,"id":"650109","japanese":"くそっ！　どいつもこいつも<line-break>俺のことバカにしやがって！<line-break>なめやがって！　なめやがってエ！<end>"}
+{"section":65,"id":"650110","japanese":"予備メッセージ３<line-break>ティアナ、ボリューム２<end>"}
+{"section":65,"id":"650111","japanese":"予備メッセージ４<line-break>ティアナ、ボリューム２<end>"}
+{"section":65,"id":"650112","japanese":"予備メッセージ５<line-break>ティアナ、ボリューム２<end>"}
+{"section":65,"id":"650113","japanese":"予備メッセージ６<line-break>ティアナ、ボリューム２<end>"}
+{"section":65,"id":"650114","japanese":"予備メッセージ７<line-break>ティアナ、ボリューム２<end>"}
+{"section":65,"id":"650115","japanese":"予備メッセージ８<line-break>ティアナ、ボリューム２<end>"}
+{"section":65,"id":"650116","japanese":"予備メッセージ９<line-break>ティアナ、ボリューム２<end>"}
+{"section":65,"id":"650117","japanese":"予備メッセージ１０<line-break>ティアナ、ボリューム２<end>"}
+{"section":65,"id":"650118","japanese":"…ゼネテスさん。すまない。<end>"}
+{"section":65,"id":"650119","japanese":"貴族だろうが国王だろうが、<line-break>人を踏みにじっていいやつなんか<line-break>いやしないんだ。<line-break>そのことだけは覚えておけ。<end>"}
+{"section":65,"id":"650120","japanese":"ま、タルテュバも<line-break>しばらくはおとなしくしてるだろ。<end>"}
+{"section":65,"id":"650121","japanese":"ありがとうよ、本当に。<line-break>助かったよ。<end>"}
+{"section":65,"id":"650122","japanese":"ゼネテスと同じくらいかっこよかったよ。<end>"}
+{"section":65,"id":"650123","japanese":"いつもゼネテスさんに<line-break>助けてもらえるわけじゃない。<line-break>それはわかってるんだが…。<end>"}
+{"section":65,"id":"650124","japanese":"ティアナメッセージVOL2終端<end>"}

@@ -1,0 +1,112 @@
+{"section":56,"id":"560841","japanese":"どうやら、俺の勝ちだな。<line-break>　<line-break>　<line-break>さぁ、こいつらを<line-break>引っとらえてくれ！<end>"}
+{"section":56,"id":"560842","japanese":"アンティノ・マモン！<line-break>貴様を逮捕する！<end>"}
+{"section":56,"id":"560843","japanese":"ば、バカな！　カルラは<line-break>俺の身柄を保障すると…。<end>"}
+{"section":56,"id":"560844","japanese":"聞いておらんな。<line-break>ただ、逮捕しろと命令されただけだ。<end>"}
+{"section":56,"id":"560845","japanese":"む、こっちにいるのは<line-break>クリュセイス・クロイス！<line-break>こいつも逮捕しろ！<end>"}
+{"section":56,"id":"560846","japanese":"くっ、カルラめ！<line-break>だましおったな！<end>"}
+{"section":56,"id":"560847","japanese":"<if><value:$01><equal>4<value:$28>ったら、<line-break>こんな所で、ディンガルの兵隊を<line-break>のしちゃってる。<line-break><value:$28>ってば、<line-break>もめごとを起こす天才かも！<end><if><value:$01><equal>5<value:$28>、<line-break>ここにいたのか。<line-break>早く逃げないとやばいぜ！<end><if><value:$01><equal>6あ、<value:$28>、<line-break>ここにいたんだ！<end><if><value:$01><equal>11<value:$28>！<end><if><value:$01><equal>12こんなとこにいたか、<line-break><value:$28>。<end><if><value:$01><equal>13…こんな所にいたか。<end><if><value:$01><equal>10大変だ、姉ちゃん。<line-break>ディンガル軍が攻めてきたぞ！！<line-break>早く脱出するんだ！<end><if><value:$01><equal>14<value:$28>！<line-break>カルラ軍が入り込んできおった。<end><if><value:$01><equal>15あ、<value:$28>、<line-break>ここにいたんだ！<end><if><value:$01><equal>17キャー！　戦争よぉ！　戦争！<line-break>ディンガル兵がなだれ込んできたわ！<line-break>下等生物が殺し合ってるわー！<line-break>なんで下等生物のこんな愚かな戦争に<line-break>この高貴なエルフであるアタクシが<line-break>巻き込まれないといけないのよー！<end><if><value:$01><equal>19<value:$28>、大変だよぉ！<line-break>ディンガル軍の兵士が大勢<line-break>街に入って来ちゃったよぉ。<end><if><value:$01><equal>20…ここにいたか。<end><if><value:$01><equal>27こんなとこにいたのか、<line-break><value:$28>。<end><if><value:$01><equal>26こんなところにいたのか。<end><if><value:$01><equal>193大変です<value:$28>さん！<line-break>ディンガル軍が町に！<end><if><value:$01><equal>191大変よ、<value:$28>。<line-break>ディンガル軍が攻めてきたわ。<end>大変だよ、<value:$28>！<line-break>ディンガル軍が攻め込んできたんだ。<line-break>街はもう大騒ぎだよ！<end>"}
+{"section":56,"id":"560848","japanese":"<if><value:$01><equal>4うふふっ、<value:$28>、<line-break>やっちゃったね。<line-break>早く、ここから離れないとね。<end><if><value:$01><equal>5ディンガル軍が入ってきやがった。<line-break>さっさと、<line-break>こんな所からずらかろうぜ！<end><if><value:$01><equal>6大変だよ、<value:$28>！<line-break>ディンガル軍が門を突破して<line-break>押し寄せてきたんだ。<line-break>とにかく、<line-break>今は早く逃げないと！<end><if><value:$01><equal>11ここは危険よ。<line-break>ひとまず脱出しなくては！<end><if><value:$01><equal>12取り込み中悪いが、<line-break>もうじきここは修羅場になる。<line-break>ずらかろうぜ。<end><if><value:$01><equal>13…ディンガル軍が来る。<line-break>早く脱出するぞ。<end><if><value:$01><equal>10姉ちゃん、くやしいけど、<line-break>今は撤退しよう。<line-break>カルラめ、あとで見てろよ！<end><if><value:$01><equal>14何をしておる！<line-break>ぐずぐずしとると<line-break>捕まってしまうぞ。<end><if><value:$01><equal>15大変だよ。<line-break>ディンガル軍が押し寄せてくる。<line-break>早く逃げないと。<end><if><value:$01><equal>17もうイヤ！　もうイヤ！　もぉうイヤ！<line-break>こんな所、さっさと逃げるのよー！<line-break><value:$28>！！<end><if><value:$01><equal>19急いで、急いで！<line-break>早く逃げないと、<line-break>カルラに捕まっちゃうよぉ！<end><if><value:$01><equal>20周囲は雑魚ばかり。<line-break>きりがない。<end><if><value:$01><equal>27ディンガル軍が攻めてきたぞ！！<line-break>早く脱出するんだ！<end><if><value:$01><equal>26ディンガル軍が攻めてきたぞ！！<line-break>早く脱出するのじゃ！<end><if><value:$01><equal>193早く逃げないと捕まっちゃいます！<end><if><value:$01><equal>191急いで、<value:$28>。<line-break>ぐずぐずしてると捕まるわ。<end>急いで急いで！<line-break>早くしないと捕まっちゃうよ！<end>"}
+{"section":56,"id":"560849","japanese":"わ、わたくし…。<end>"}
+{"section":56,"id":"560850","japanese":"この辺りはリベルダムの有力者の家だ。<line-break>全員逮捕しろ！　ひとりも逃がすな。<line-break>抵抗するようなら殺せ！<end>"}
+{"section":56,"id":"560851","japanese":"クリュセイス・クロイス！<line-break>反乱者の首魁だ！<line-break>捕らえろ！<end>"}
+{"section":56,"id":"560852","japanese":"ああ…、俺の商品が…<line-break>俺の財産が…、あああ…。<end>"}
+{"section":56,"id":"560853","japanese":"くすくす。無様ね。<line-break>アンティノ・マモン…。<end>"}
+{"section":56,"id":"560854","japanese":"こ、ここは私の秘密研究所だぞ！<line-break>誰だ！　そこにいるのは！<end>"}
+{"section":56,"id":"560855","japanese":"くすくす…あなたのご主人様よ。<end>"}
+{"section":56,"id":"560856","japanese":"き、貴様…！<line-break>デスギガースを持って<line-break>行方をくらましおったシェ…<end>"}
+{"section":56,"id":"560857","japanese":"それはこの身体の前の主の名前。<line-break>アンティノ・マモン？<end>"}
+{"section":56,"id":"560858","japanese":"あの娘に、無理矢理デスギガースを<line-break>作らせてくれてありがとう。<line-break>あの娘は本当に苦しんでいたわ。<line-break>あの娘はあの殺戮用の怪物を作ることを<line-break>苦しんで、悩んで…くすっ、おかげで<line-break>私との相性がグッとよくなったの。<end>"}
+{"section":56,"id":"560859","japanese":"…負の感情は闇の者の糧だから。<line-break>今の私がいるのもあなたのおかげ。<line-break>感謝しているのよ、アンティノ。<end>"}
+{"section":56,"id":"560860","japanese":"私はあの娘と違って<line-break>そういうことに理解があるの。<line-break> <line-break>ねえ、私の下僕になって<line-break>デスギガースをはるかに上回る<line-break>究極生物を作ってみないかしら？<end>"}
+{"section":56,"id":"560861","japanese":"お、お前はいったい…。<end>"}
+{"section":56,"id":"560862","japanese":"破壊神ウルグの円卓騎士<line-break>『心をなくすもの』アーギルシャイア。<end>"}
+{"section":56,"id":"560863","japanese":"そしてあなたは私の下僕。<end>"}
+{"section":56,"id":"560864","japanese":"…ごめんなさい。<end>"}
+{"section":56,"id":"560865","japanese":"謝っても許してもらえるとは<line-break>思っていません。でも、一度<line-break>はっきりと言っておきたかった。<line-break>おじさまの言ったことは本当です。<line-break>わたくしにはあなたに命をかけてまで<line-break>守ってもらえる資格はありません。<end>"}
+{"section":56,"id":"560866","japanese":"ずっと、謝ろうと思っていました。<line-break>でも、どうしても言い出せなかった。<line-break>一度言い出してしまうと…<line-break>一度言い出してしまうと、<line-break>もう、おさえが<line-break>きかなくなりそうだったから…<end>"}
+{"section":56,"id":"560867","japanese":"…泣いても、いいですか？<line-break>今まで、つらいことが…<end>"}
+{"section":56,"id":"560868","japanese":"…う…えぐ…<line-break>うう…<end>"}
+{"section":56,"id":"560869","japanese":"<if><value:$01><equal>4きゃっ、ちょっと緊急事態かも！<line-break>ディンガル兵が街中にウヨウヨしてる。<line-break>はやく、ずらかった方がいいかも…。<end><if><value:$01><equal>5おい、<value:$28>、<line-break>ここにいたのか。リベルダムが陥ちた！<line-break>ディンガル兵がウヨウヨしてるぜ！<end><if><value:$01><equal>6<value:$28>、ここにいたんだ！<line-break>大変だよ！　ディンガルの奴らが<line-break>リベルダムの中に…！<end><if><value:$01><equal>11これは…。<line-break><value:$28>、<line-break>とにかく早く脱出を…<end><if><value:$01><equal>12何があったのかは、後で聞く。<line-break>とにかく今はトンズラだ。<line-break>ディンガルがわんさと攻めてくるぜ！<end><if><value:$01><equal>13…<value:$28>、ここにいたか。<line-break>ディンガルがなだれ込んできたぞ。<line-break>こんな所で、グズグズ…。<end><if><value:$01><equal>10姉ちゃん、ここにいたのかよ。<line-break>リベルダムの城門が開いて<line-break>ディンガル兵が流れ込んで来たんだ！<end><if><value:$01><equal>14<value:$28>、ここにおったか！<line-break>大変じゃぞ！　ディンガルが<line-break>街中まで攻め込んできおった…。<end><if><value:$01><equal>15ねえ、大変だよ！<line-break>ディンガル軍が攻めてくる！<line-break>早くここから出ようよ！<end><if><value:$01><equal>17キャー！　戦争よぉ！　戦争！<line-break>ディンガル兵がなだれ込んできたわ！　<line-break>下等生物が殺し合ってるわー…って…。<end><if><value:$01><equal>19あ、<value:$28><line-break>ここにいたんだ。あのねあのね、<line-break>大変なんだよぉ…。<end><if><value:$01><equal>20…ここにいたか。<end><if><value:$01><equal>27ディンガル軍が攻めてきたぞ！！<line-break>早く脱出するんだ！<end><if><value:$01><equal>26ディンガル軍が攻めてきたぞ！！<line-break>早く脱出するのじゃ！<end><if><value:$01><equal>193大変です<value:$28>さん！<line-break>ディンガル軍が町に…！<line-break>…え！？<end><if><value:$01><equal>191大変よ、<value:$28>！<line-break>ディンガル軍が攻めてきたわ…！<end>大変だよぉ、<value:$28>！<line-break>ディンガルが街中まで攻め入ってきて<line-break>…あ。<end>"}
+{"section":56,"id":"560870","japanese":"…<value:$28><line-break>…ゴメン…なさ…い…。<end>"}
+{"section":56,"id":"560871","japanese":"ディンガル軍が<line-break>入城を始めたようだ。<line-break>俺が門を開いたのだ。<line-break>降伏しなければ、リベルダムは<line-break>ディンガルに破壊されてしまうのでな。<end>"}
+{"section":56,"id":"560872","japanese":"このリベルダムには手を付けないこと<line-break>そして、俺をここの総督にすることを<line-break>カルラは見返りに認めてくれている。<line-break>もう、あの偽善者ロティの親友の仮面も<line-break>必要なくなった。だから、<line-break>クリュセイスにも消えてもらった。<end>"}
+{"section":56,"id":"560873","japanese":"クリュセイスがいなくなり<line-break>俺がリベルダムの支配者となった以上<line-break>お前もどうでもいい存在だ。<line-break>もう、お前の生命を取る必要もない。<line-break>勝手にどこへでも行くがいい。<line-break><value:$28>…。クックック…。<end>"}
+{"section":56,"id":"560874","japanese":"大変です。カルラが！<line-break>街を破壊しています！<end>"}
+{"section":56,"id":"560875","japanese":"バカな！<line-break>約束が違うぞ！　あの小娘め！<end>"}
+{"section":56,"id":"560876","japanese":"くっ！　市民の誇りにかけて<line-break>リベルダムをやらせはせん！<line-break>戦闘用モンスターを放せ！<line-break>それから、アンティノ商会の<line-break>最強商品、デスギガースを出せ！<line-break>ディンガル兵を焼き殺してくれる！<end>"}
+{"section":56,"id":"560877","japanese":"<if><value:$01><equal>4きゃっ、私がとっても不似合いなくらい<line-break>シリアスな場面に来ちゃったみたい。<line-break>うふふ、どうしようかな…。<line-break>なんにしたって、逃げるが勝ちかも！<line-break>考えたら負けなのはハッキリしてるわ！<line-break>さ、早く、トンズラしよっ！　きゃっ！<end><if><value:$01><equal>5…とにかく、早く逃げないとヤバい。<line-break>さっさと、<line-break>こんな所からずらかろうぜ！<line-break>…クリュセイスのことは<line-break>あとから聞かせてもらうかんな。<line-break><value:$28>…。<end><if><value:$01><equal>6ク、クリュセイス…。<line-break> <line-break> <line-break>と、とにかく<line-break>今は、早く逃げないと！<line-break>ね、<value:$28>。<end><if><value:$01><equal>11クリュセイス…。<line-break><line-break><line-break><value:$28>、脱出を。<end><if><value:$01><equal>12<value:$28>、お前さん…。<line-break>まあいい、今はとにかく、<line-break>逃げるのが最優先だぜ。<end><if><value:$01><equal>13…いくぞ。<line-break>とにかく、今は<line-break>ここを脱出するのが急務だ。<end><if><value:$01><equal>10姉ちゃん…<line-break>どうして、クリュセイスを<line-break>クリュセイスのことを…。<line-break>…今はいいや。姉ちゃんには<line-break>姉ちゃんの考えがあるんだろうし…。<line-break>とにかく、ここを脱出しようよ。<end><if><value:$01><equal>14<value:$28>！<line-break>いったいどういうことなんじゃ！<line-break>どうして、この娘を助けなんだ！<line-break>…いや、今はお主を責めとる<line-break>場合ではないわい。<line-break>とにかく、この街を出るぞ！<end><if><value:$01><equal>15<value:$28><line-break>今は、早く、ここを出なきゃ。<line-break>ね？<line-break>…クリュセイスのことは<line-break>あとで聞かせてもらう。<line-break>とにかく、今は行こう？<end><if><value:$01><equal>17なんなのぉ？　ここでも下等生物の<line-break>茶番があったわけぇ？<line-break>まったく、どうしようもないのね！<line-break>とにかく、こんな野蛮なところはイヤ！<line-break>こんな所、さっさと逃げるのよぉ！<line-break>もうイヤ！　もうイヤ！　もぉうイヤ！<end><if><value:$01><equal>19<value:$28>！<line-break>クリュセイスお姉ちゃん、どうしたの？<line-break>なんで助けてあげなかったのぉ？<line-break>…とにかく、今はここを逃げなきゃ！<line-break><value:$28>、いくよ。<end><if><value:$01><equal>20…脱出するぞ。<end><if><value:$01><equal>27…<value:$28>。<line-break>とにかく、ここを脱出するぞ。<end><if><value:$01><equal>26いったいどういうことじゃ！<line-break>どうして…<line-break>　<line-break>…いや、今はまず<line-break>とにかく、この街を出るのじゃ！<end><if><value:$01><equal>193<value:$28>さん…！<line-break>ど、どうしてクリュセイスを！？<line-break>　<line-break>…取り乱してすいません。<line-break>い、今は逃げることが先決ですよね。<line-break>い、行かないと…！<end><if><value:$01><equal>191クリュセイス…<line-break>　<line-break>　<line-break>とりあえず逃げるわよ。<line-break>話はその後ね。<line-break>今は生きて脱出することだけ考えて。<end>…とにかく、今は<line-break>ここから出ることが先決だよ。<line-break>…行こう、<value:$28>。<end>"}
+{"section":56,"id":"560878","japanese":"この辺りはリベルダムの有力者の家だ。<line-break>全員逮捕しろ！　ひとりも逃がすな。<line-break>抵抗するようなら殺せ！<end>"}
+{"section":56,"id":"560879","japanese":"怪しい奴！　とらえろ！<end>"}
+{"section":56,"id":"560880","japanese":"くっ！　反抗する気か！<line-break>かまわん！　殺せ！！<end>"}
+{"section":56,"id":"560881","japanese":"ああ…、俺の商品が…<line-break>俺の財産が…、あああ…。<end>"}
+{"section":56,"id":"560882","japanese":"くすくす。無様ね。<line-break>アンティノ・マモン…。<end>"}
+{"section":56,"id":"560883","japanese":"こ、ここは私の秘密研究所だぞ！<line-break>誰だ！　そこにいるのは！<end>"}
+{"section":56,"id":"560884","japanese":"くすくす…あなたのご主人様よ。<end>"}
+{"section":56,"id":"560885","japanese":"き、貴様…！<line-break>デスギガースを持って<line-break>行方をくらましおったシェ…<end>"}
+{"section":56,"id":"560886","japanese":"それはこの身体の前の主の名前。<line-break>アンティノ・マモン？<end>"}
+{"section":56,"id":"560887","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560888","japanese":"あの娘に、無理矢理デスギガースを<line-break>作らせてくれてありがとう。<line-break>あの娘は本当に苦しんでいたわ。<line-break>あの娘はあの殺戮用の怪物を作ることを<line-break>苦しんで、悩んで…くすっ、おかげで<line-break>私との相性がグッとよくなったの。<end>"}
+{"section":56,"id":"560889","japanese":"…負の感情は闇の者の糧だから。<line-break>今の私がいるのもあなたのおかげ。<line-break>感謝しているのよ、アンティノ。<end>"}
+{"section":56,"id":"560890","japanese":"私はあの娘と違って<line-break>そういうことに理解があるの。<line-break> <line-break>ねえ、私の下僕になって<line-break>デスギガースをはるかに上回る<line-break>究極生物を作ってみないかしら？<end>"}
+{"section":56,"id":"560891","japanese":"お、お前はいったい…。<end>"}
+{"section":56,"id":"560892","japanese":"破壊神ウルグの円卓騎士<line-break>『心をなくすもの』アーギルシャイア。<end>"}
+{"section":56,"id":"560893","japanese":"そしてあなたは私の下僕。<end>"}
+{"section":56,"id":"560894","japanese":"<if><value:$01><equal>4クリュセイスって、おバカさんかも！<line-break>考えてないで、謝ればよかったのに<line-break>死ぬまで、考えていたんだもん！<line-break><value:$28>も、考えないで<line-break>信じて、助けちゃえばよかったのに、<line-break>考えて死なせちゃった！　きゃっ！<end><if><value:$01><equal>5自由都市リベルダムもこれで終わりか。<line-break>あっけないものだよな。<line-break>あんなに大きな街だったのによ。<line-break>…クリュセイス、ちょっと<line-break>かわいそうだったかもな。<line-break>どうして、見捨てたんだよ…。<end><if><value:$01><equal>6…こんなのって、ないよ。<line-break>ねぇ、<value:$28>。<line-break>どうしてこんなことになっちゃったの？<line-break>クリュセイス…いろいろあったけど、<line-break>やっぱり、かわいそうだった…。<line-break>最後の言葉、聞こえた？<end><if><value:$01><equal>11リベルダムが、崩壊してゆく…。<line-break>クリュセイスは、<line-break>生涯をこの町とともにしたのね…。<end><if><value:$01><equal>12…自分を責める必要はないさ。<line-break>ただ、無関係だと開き直ることも<line-break>いけねえ。<line-break>死んじまった人間はもう戻らない。<line-break>どうしようが、あるのは<line-break>たったひとつのその事実だけさ。<end><if><value:$01><equal>13…自分を殺そうとしていた女のために<line-break>お前は戦っていたというわけか。<line-break>フ、お前らしく間抜けな話だ。<line-break>これでお前の甘い考えが<line-break>治ればいいが…それにしても<line-break>街ひとつとは高い授業料だったな。<end><if><value:$01><equal>10自由都市リベルダムもこれで終わりか。<line-break>あっけないものなんだな。<line-break>あんなに大きな街だったのに。<line-break>…クリュセイス、<line-break>かわいそうだったよな。<end><if><value:$01><equal>14自由都市リベルダムも　　　　　　<line-break>これで終わりじゃな。<line-break>あっけないものじゃて。<line-break>アンティノは嫌らしい奴だったが、<line-break>あの嬢ちゃんはかわいそうな<line-break>ことじゃったな。<end><if><value:$01><equal>15あ、ねぇ、<value:$28>。<line-break>クリュセイスは、本当は<line-break>いい人だったんじゃ、ないかな。　　　<line-break>自分の命がなくなっちゃうってときに　<line-break>ごめんなさいって謝ってたもの。<line-break>きっと、前から謝りたかったんだよ…。<end><if><value:$01><equal>17はかない命の下等生物どもが作った街も<line-break>やっぱり、はかないわねー。もうパー？<line-break>８００年くらいしかもたないわけぇ？<line-break>人間が作って、戦争して、人間が壊す。<line-break>ずっとこの繰り返し。バカみたい！<line-break>ほーんと、よく飽きないわね～！<end><if><value:$01><equal>19…こんなのって、ないよぉ。<line-break>クリュセイス、かわいそうだよぉ。<line-break>最後の言葉、聞こえた？<line-break>ごめんなさいって言ってたよぉ。<line-break>ずっと前から<value:$28>に<line-break>謝ろうと思ってたんだと思うよ。<end><if><value:$01><equal>20………………。<end><if><value:$01><equal>24…<value:$28>様。<line-break>あなた様がご無事で、<line-break>ヴァイは何よりです。<line-break>ただ…。<end><if><value:$01><equal>25リベルダムが…燃えてく…。<line-break>一度壊れたものは、<line-break>もう二度と元には戻らないんだね…。<end><if><value:$01><equal>22自由都市リベルダム。<line-break>あんなにキレイだったのに…。<line-break>街の中はひどい有様だろうね。<line-break>…クリュセイス、<line-break>最後に、泣いてたね。<end><if><value:$01><equal>193リベルダムが…。<line-break>あんなに綺麗な街だったのに。<line-break>クリュセイスさん…。<line-break><value:$28>さん。<line-break>最後の言葉聞こえましたか？<line-break>ごめんなさいって言ってました。<end><if><value:$01><equal>191<value:$28>…。<line-break>つらくない？<line-break>大丈夫？<end><if><value:$01><equal>26リベルダムが、崩壊してゆく…。<line-break>クリュセイスは、<line-break>生涯をこの町とともにしたのか…。<end>"}
+{"section":56,"id":"560895","japanese":"<if><value:$01><equal>4<value:$28>も考えるバカだから、<line-break>燃える街見て、感傷に浸ってるわ。<line-break>なぐさめてあげたほうがいいかな…？<line-break>ほっとこうっと！<line-break>考えるバカにも、考えないバカにも<line-break>なに言っても、ムダだもん！<end><if><value:$01><equal>5最後の言葉、聞こえたか？<line-break>ごめんなさい…ずっとお前に<line-break>謝ろうと思ってたんだろうな。<line-break>結局、<line-break>俺たちが今まで戦ってきたのは<line-break>いったい、なんだったんだろうな…。<end><if><value:$01><equal>6ごめんなさい…<line-break>ずっと前から<value:$28>に<line-break>謝ろうと思ってたんだと思うよ。<line-break>おやじさんのロティが死んでから、<line-break>クリュセイスも必死だったんだ。<line-break>意地張って、弱みを見せまいと…。<end><if><value:$01><equal>11彼女は悲しんだかしら…？<line-break>もしかしたら…。<line-break><line-break>生まれ育った町と、自分の立場と…<line-break>それに一生をささげた彼女は、<line-break>私、とても立派だったと思うわ。<end><if><value:$01><equal>12もう行こう。<line-break>あんまりじっとにらんでても、<line-break>胸クソ悪くなるだけだぜ…。<end><if><value:$01><equal>13よく見ておくことだ。<line-break>この赤い空はお前の不覚が招いたのだ。<line-break>…気が済んだら、行くぞ。<end><if><value:$01><equal>10最後の言葉、聞こえた？<line-break>ごめんなさい…ずっと姉ちゃんに<line-break>謝ろうと思ってたんだろうな。<line-break>結局、俺たちがこれまで戦ってきたのは<line-break>いったい、なんだったんだろう…。<line-break>どうして、こうなっちまうんだろう？<end><if><value:$01><equal>14あの嬢ちゃんは、ずっとお前さんに<line-break>謝ろうと思って悩んでいたんじゃろう。<line-break>誰にも、言い出すこともできずにな。<line-break>結局、わしらがこれまで戦ってきたのは<line-break>いったい…<line-break>なんだったんじゃろうな…。<end><if><value:$01><equal>15自由都市リベルダムも、終わりだね。<line-break>これで、ひとつの街がなくなる。<line-break>あっけないものだね。<line-break>悲しいよね。<line-break>僕らはこんな結末を見るために<line-break>戦ってきたんじゃ、ないはずなのにね。<end><if><value:$01><equal>17ププ、ちょっとぉ、<value:$28>！<line-break>まさか、燃えてくだけの街を見て<line-break>感傷に浸ってるの？　笑っちゃうわ！！<line-break>それより、こんな所、早く離れるのよ！<line-break>アタクシはおフロに入りたいのー！<line-break>煙と汗で気持ち悪くってよぉ！<end><if><value:$01><equal>19ずっと、ずっとなやんできたんだよ。<line-break>なやみを、誰にもうちあけられないで、<line-break>なやみを、ずっと、ひた隠しにして…<line-break>クリュセイス、つらかったと思うよ。<line-break>ルルアンタたちが、してきたことって<line-break>いったい、なんだったんだろうね…。<end><if><value:$01><equal>20…世は無常なり。<line-break>…ただ、それだけだ。<end><if><value:$01><equal>24…いえ、なんでもありません。<line-break>なんでも…。<line-break><line-break>………………。<end><if><value:$01><equal>25私たちは、生きてる。<line-break>生きてかなくちゃならないんだ。<line-break>クリュセイスのためにもね…。<end><if><value:$01><equal>22彼女、<line-break>ごめんなさいって、ずっと前から<line-break>言いたかったんだよ、きっと。<line-break>でも、最期に言えて、よかったよね。<line-break>ぼくさ、彼女が最後の最後に<line-break>キレイな笑顔で笑った気がするんだ。<end><if><value:$01><equal>26生まれ育った町と、自分の立場と…<line-break>それに一生をささげた…<line-break>立派だと思わんか？<end><if><value:$01><equal>193きっとクリュセイスさんも<line-break>悩んでいたんだと思います。<line-break>ずっと…。<line-break><value:$28>さんへの思いを<line-break>胸に抱えて、うちあけられずに<line-break>ずっと…。<end><if><value:$01><equal>191生き残っちゃったね…。<line-break><line-break><line-break>生き残っちゃうと<line-break>つらいことも、あるから…。<end>"}
+{"section":56,"id":"560896","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560897","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560898","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560899","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560900","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560901","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560902","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560903","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560904","japanese":"こんにちは。<line-break>　<line-break>　<line-break>装備属性を変えて行きますか？<end>"}
+{"section":56,"id":"560905","japanese":"装備属性を変えたくなったら<line-break>いつでもいらしてくださいね。<end>"}
+{"section":56,"id":"560906","japanese":"そうですか…。<end>"}
+{"section":56,"id":"560907","japanese":"おねがいする<end>"}
+{"section":56,"id":"560908","japanese":"やめておく<end>"}
+{"section":56,"id":"560909","japanese":"装備属性を変更していきますか？<end>"}
+{"section":56,"id":"560910","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560911","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560912","japanese":"なんだって？<line-break>それじゃ親父、ギルドのくせに、<line-break>冒険者に仕事を譲れねえってのか？<end>"}
+{"section":56,"id":"560913","japanese":"そんなにはっきり言ってほしいか？<line-break>お前さんごときの力じゃ、<line-break>この仕事には力不足だってんだよ。<end>"}
+{"section":56,"id":"560914","japanese":"な、な、なんだと！<line-break>詳しい話を聞かせもしねえで…<line-break>冒険者を値踏みしようってのか！<end>"}
+{"section":56,"id":"560915","japanese":"いや、そうではないのだ…。<line-break>これは、あなたのために<line-break>言っておるのですぞ、お若いの。<line-break>その命、無駄に散らしてしまうのは<line-break>もったいない。<end>"}
+{"section":56,"id":"560916","japanese":"そうだぜ…っと。<end>"}
+{"section":56,"id":"560917","japanese":"おお！<line-break>こいつはいいところに。<line-break>あんた、<value:$28>じゃねえか！<end>"}
+{"section":56,"id":"560918","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560919","japanese":"神官さん、こいつはめぐり<line-break>合わせかもしれねえ。<line-break> <line-break><value:$28>…あんたに、<line-break>ぜひお願いしたい仕事があるんだ。<end>"}
+{"section":56,"id":"560920","japanese":"<if><value:$2A><greater-equal>50<value:$28>って、<line-break>あの<value:$2B>の、<line-break><value:$28>かよ！<end>な、なんだって？<line-break>まさかあんた…<line-break>あの<value:$28>かよ！<end>"}
+{"section":56,"id":"560921","japanese":"こ、こいつは俺の出番じゃねえ。<line-break>親父、じゃあな！<end>"}
+{"section":56,"id":"560922","japanese":"ま、聞いてのとおりだ。<line-break> <line-break> <line-break>生半可な冒険者には頼めない仕事が<line-break>あるんだが…<line-break>聞いてはくれないかね？<end>"}
+{"section":56,"id":"560923","japanese":"やめておく<end>"}
+{"section":56,"id":"560924","japanese":"話を聞く<end>"}
+{"section":56,"id":"560925","japanese":"そうですか。<line-break>あなたのように力量のある冒険者に<line-break>頼みたかったのですが…。<end>"}
+{"section":56,"id":"560926","japanese":"仕方ねえさ、神官さん。<line-break>依頼を受けるかどうか決めるのは、<line-break>命をかける冒険者だからな。<line-break><value:$28>、この話、<line-break>聞かなかったことにしてくれ。<end>"}
+{"section":56,"id":"560927","japanese":"ま、気長に待ちましょうや。<line-break>次に、見込みがあるのが来たら、<line-break>こっちからお知らせしますから。<end>"}
+{"section":56,"id":"560928","japanese":"よし来た！<line-break>あんたならきっと<line-break>そう言ってくれると思ってたよ。<line-break>よかったな、神官さん。<end>"}
+{"section":56,"id":"560929","japanese":"紹介するぜ。<line-break> <line-break> <line-break>こちら、アルノートゥンの神殿に<line-break>仕えてらっしゃる神官さんだ。<end>"}
+{"section":56,"id":"560930","japanese":"よろしくお願いします。<line-break>ご主人がそこまで推される方でしたら、<line-break>安心してお話ができます。<end>"}
+{"section":56,"id":"560931","japanese":"依頼ですが…<line-break> <line-break> <line-break>アルノートゥンの北東に眠る、<line-break>聖光石の坑道を<line-break>調べていただきたいというものです。<end>"}
+{"section":56,"id":"560932","japanese":"確かに、山の管理を神殿で<line-break>行っているなど、疑問に思われるのも<line-break>無理からぬことです。<line-break>実は、あの山には、<line-break>易々と語ってはならぬ<line-break>秘密があるのです。<end>"}
+{"section":56,"id":"560933","japanese":"それが、ディンガル軍が攻め入ってから<line-break>坑道で不気味な地鳴りが<line-break>聞かれるようになった…。<end>"}
+{"section":56,"id":"560934","japanese":"私も視察に行ったのですが、<line-break>鉱夫ではない身ながら、<line-break> <line-break>あれはどうも<line-break>ただの山鳴りではないように<line-break>思われました。<end>"}
+{"section":56,"id":"560935","japanese":"そこで、よくない結果を招くより早く、<line-break>屈強な方に真相を確かめてきて欲しいと<line-break>考えたのです。<line-break>行って何もなければ、それでよい。<line-break>それでも報酬は支払いましょう。<line-break>なにとぞ、よろしくお願いします。<end>"}
+{"section":56,"id":"560936","japanese":"聖光石の坑道は今では完全に封鎖し、<line-break>誰をも入れぬようになっています。<line-break> <line-break>機密を厳守するため、<line-break>機会は一度きりとさせていただきたい。<end>"}
+{"section":56,"id":"560937","japanese":"この条件をのんでいただけないのなら、<line-break>今でも遅くはありません。<line-break>ご辞退願いたい。<line-break>お覚悟は、よろしいですか？<end>"}
+{"section":56,"id":"560938","japanese":"まかせて<end>"}
+{"section":56,"id":"560939","japanese":"やっぱりやめる<end>"}
+{"section":56,"id":"560940","japanese":"追加メッセージここから<end>"}
+{"section":56,"id":"560941","japanese":"ありがたいです、<value:$28>殿。   <line-break>では、坑道の入り口までは<line-break>私がお送りしましょう。<line-break>そこから、頼りはあなた方のお力のみ。<line-break>どうかくれぐれもお気をつけ<line-break>なさるよう……。<end>"}
+{"section":56,"id":"560942","japanese":"それじゃ、頼んだぜ。<end>"}
+{"section":56,"id":"560943","japanese":"左様ですか…。<line-break>仕方がない、<line-break>他に頼れる方を探すとします。<end>"}
+{"section":56,"id":"560944","japanese":"仕方ねえさ、神官さん。<line-break>依頼を受けるかどうか決めるのは、<line-break>命をかける冒険者だからな。<line-break><value:$28>、この話、<line-break>聞かなかったことにしてくれ。<end>"}
+{"section":56,"id":"560945","japanese":"ま、気長に待ちましょうや。<line-break>次、見込みがあるのが来たら、<line-break>こっちからお知らせしますから。<end>"}
+{"section":56,"id":"560946","japanese":"フ…私自身の話など<line-break>面白いとも思わないが、<line-break>君が聞きたいと言うなら、少し話そう。<end>"}
+{"section":56,"id":"560947","japanese":"私を生んだ両親は、<line-break>ディンガル家の一族。しかし、<line-break>その地位は低く、生活は貧しかった。<end>"}
+{"section":56,"id":"560948","japanese":"話はつけてきたのか？<line-break>早く頼むよ。<end>"}
+{"section":56,"id":"560949","japanese":"フゴーと面識があるとは、<line-break>大した冒険者だ。<end>"}
+{"section":56,"id":"560950","japanese":"カルラ様もさすがに<line-break>フゴーには手を出せんよ。<line-break>金の力はすごいな。<end>"}
+{"section":56,"id":"560951","japanese":"クリュセイス様は、<line-break>今はいらっしゃらない。<line-break>日をあらためて、また来てくれ。<end>"}
+{"section":56,"id":"560952","japanese":"ノエル・ボリューム１その２終端<end>"}

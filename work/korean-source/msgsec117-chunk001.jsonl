@@ -1,0 +1,81 @@
+{"section":117,"id":"1170000","japanese":"ノエル２用メッセージＶ２開始<end>"}
+{"section":117,"id":"1170001","japanese":"あ、<value:$28>さん！<end>"}
+{"section":117,"id":"1170002","japanese":"わたしです。ノエルです！<line-break>シルヴァの村でお世話になりました。<end>"}
+{"section":117,"id":"1170003","japanese":"わたし、冒険者になったんです。<line-break>ソウルを抜かれた村のみんなを<line-break>もとに戻すために…。<line-break>それから、<value:$28>さん<line-break>みたいに強くなって…、<line-break>たくさんの人を助けるために。<end>"}
+{"section":117,"id":"1170004","japanese":"ノエルもがんばっているんだね<end>"}
+{"section":117,"id":"1170005","japanese":"人を助けるためじゃないよ<end>"}
+{"section":117,"id":"1170006","japanese":"はい！　わたし、もっともっと<line-break>がんばって、いつか必ず<line-break>村のみんなをもとに戻してみせます！<end>"}
+{"section":117,"id":"1170007","japanese":"え？　あの、その、でも…<line-break>わたし、<value:$28>さんは<line-break>いろんな人を助けてると思います…。<line-break>私も、<value:$28>さんに<line-break>助けられましたから…。<end>"}
+{"section":117,"id":"1170008","japanese":"あっ、そうだ、<line-break>わたしの仲間を紹介します！<end>"}
+{"section":117,"id":"1170009","japanese":"<if><value:$29><equal>%0初めまして、ボウヤ。<end>初めまして、子猫ちゃん。<end>"}
+{"section":117,"id":"1170010","japanese":"あ、この人は、カフィンです。<line-break>えと、で、こちらが…<end>"}
+{"section":117,"id":"1170011","japanese":"俺はレイヴン。<line-break> <line-break> <line-break>…よろしく。<end>"}
+{"section":117,"id":"1170012","japanese":"あ、えと、その…<end>"}
+{"section":117,"id":"1170013","japanese":"そう、それから、<line-break>こっちにいるのがナーシェスです。<end>"}
+{"section":117,"id":"1170014","japanese":"フフ。<line-break>…よろしく。<end>"}
+{"section":117,"id":"1170015","japanese":"さぁ、ノエル。もう用は済んだ。<line-break>そろそろ、行くとしよう。<end>"}
+{"section":117,"id":"1170016","japanese":"それでは、失礼する。<line-break>…無限のソウルを持つ者、<line-break><value:$28>。<end>"}
+{"section":117,"id":"1170017","japanese":"まったく、無愛想な男よね。<end>"}
+{"section":117,"id":"1170018","japanese":"えと、カフィンも、<line-break>レイヴンも、ナーシェスも、<line-break>とても腕が立つんですよ。<line-break>だから、わたし、<line-break>みんなが一緒に旅をしてくれて、<line-break>すごく心強いんです。<end>"}
+{"section":117,"id":"1170019","japanese":"ノエル、そろそろ行こう。<end>"}
+{"section":117,"id":"1170020","japanese":"あ、そうですね。<end>"}
+{"section":117,"id":"1170021","japanese":"それじゃあ、<line-break><value:$28>さん。<line-break>わたしたち、もう行きます。<line-break>あの、<value:$28>さんも<line-break>がんばってくださいね。<end>"}
+{"section":117,"id":"1170022","japanese":"えと、わたしもがんばりますから、<line-break>それじゃあ、失礼します！<end>"}
+{"section":117,"id":"1170023","japanese":"あ、ノエル。<line-break>…フフ、しょうがない子ね。<end>"}
+{"section":117,"id":"1170024","japanese":"<if><value:$29><equal>%0それじゃあ、ボウヤ。<line-break>またどこかで会いましょ。<end>それじゃあ、子猫ちゃん。<line-break>またどこかで会いましょ。<end>"}
+{"section":117,"id":"1170025","japanese":"失礼するよ、<line-break><value:$28>。<end>"}
+{"section":117,"id":"1170026","japanese":"…お、お前たち…。<end>"}
+{"section":117,"id":"1170027","japanese":"何かしら？<line-break>あたしたちにご用？<end>"}
+{"section":117,"id":"1170028","japanese":"あいさつもなしに刃物を向ける<line-break>なんて感心しないわ。<line-break>もてないわよ、そういうの。<end>"}
+{"section":117,"id":"1170029","japanese":"聞く耳もたぬって感じね。<line-break>…強引な男って嫌いじゃないけど<line-break>こういうのはいい気がしないわね。<line-break>ちょっと、痛い目に<line-break>あってもらうしかないかしら？<end>"}
+{"section":117,"id":"1170030","japanese":"<value:$28>さん！<end>"}
+{"section":117,"id":"1170031","japanese":"あ、あ、<value:$28>さん！<end>"}
+{"section":117,"id":"1170032","japanese":"あ、えと、また助けていただきました。<line-break>あの…本当にありがとうございます！<end>"}
+{"section":117,"id":"1170033","japanese":"無事か？<end>"}
+{"section":117,"id":"1170034","japanese":"ん？<line-break>ほう…これは…。<end>"}
+{"section":117,"id":"1170035","japanese":"ちょっと、ナーシェス！<line-break>あんた、どこに行ってたのよ！？<end>"}
+{"section":117,"id":"1170036","japanese":"すまなかったな。<line-break>…それで、襲ってきた連中の<line-break>目星はついたのか？<end>"}
+{"section":117,"id":"1170037","japanese":"これを見て。<line-break>みんなそろって刺青をしてるわ。<line-break>イヤねぇ…。<end>"}
+{"section":117,"id":"1170038","japanese":"ふむ、どうやら<line-break>この一件は施文院が<line-break>絡んでいるようだな。<end>"}
+{"section":117,"id":"1170039","japanese":"施文院ですって？<line-break>…あたしたち、<line-break>厄介なのに狙われてるわね。<end>"}
+{"section":117,"id":"1170040","japanese":"………………。<end>"}
+{"section":117,"id":"1170041","japanese":"えと、…せもんいん？<end>"}
+{"section":117,"id":"1170042","japanese":"施文院とは、天空神ノトゥーンに　<line-break>仕える宗派のひとつだ。<line-break>　<line-break>もともとは、<line-break>各地を巡って邪悪なものを<line-break>封印していたのだ。<end>"}
+{"section":117,"id":"1170043","japanese":"中世には神聖王サラミスによって<line-break>異端とされ、<line-break>ほとんどの宗徒が処刑された…。<line-break>だが、その生き残りは地下へ潜って<line-break>暗殺集団・告死天使を組織し、<line-break>歴史の裏舞台で暗躍を続けた。<end>"}
+{"section":117,"id":"1170044","japanese":"そして、現在もな…。<end>"}
+{"section":117,"id":"1170045","japanese":"それじゃ、この人たちは…。<end>"}
+{"section":117,"id":"1170046","japanese":"間違いない。<line-break>施文院の暗殺者、告死天使だ。<end>"}
+{"section":117,"id":"1170047","japanese":"<if><value:$29><equal>%0こんな、物騒な連中に<line-break>ねらわれるようなこと…<line-break>したかしら？<line-break>でも、ボウヤと再会できたのは<line-break>幸運だったわ…。<line-break>フフフッ。<end>こんな、物騒な連中に<line-break>ねらわれるようなこと…<line-break>したかしら？<line-break>でも、子猫ちゃんと再会できたのは<line-break>幸運だったわ…。<line-break>フフフッ。<end>"}
+{"section":117,"id":"1170048","japanese":"…とにかく、この場を離れよう。<line-break>奴らの連れがまだ<line-break>近くにいるかもしれない。<end>"}
+{"section":117,"id":"1170049","japanese":"フフ、その通りだな。<line-break>では、退散するとしようか。<end>"}
+{"section":117,"id":"1170050","japanese":"今日は助けてくれて、ありがと。<line-break>戦っているときの真剣な顔…<line-break>フフフ…、かわいかったわよ。<end>"}
+{"section":117,"id":"1170051","japanese":"あ、あの、それじゃ、<line-break>わたしはこれで失礼します！<end>"}
+{"section":117,"id":"1170052","japanese":"物騒な世の中になったものね。　<line-break>こんなところで、<line-break>白昼堂々襲ってくるなんて。<line-break>いったい、誰がお目当てか<line-break>知らないけど、<line-break>いいかげんにしてもらいたいわね。<end>"}
+{"section":117,"id":"1170053","japanese":"………………。<end>"}
+{"section":117,"id":"1170054","japanese":"ちょっと、レイヴン。<line-break>あんた、何びびってんのよ？<end>"}
+{"section":117,"id":"1170055","japanese":"い、いや、<line-break>そんなことは…ない。<end>"}
+{"section":117,"id":"1170056","japanese":"あ！<line-break><value:$28>さん！<end>"}
+{"section":117,"id":"1170057","japanese":"あ、<value:$28>さん、<line-break>ありがとうございます！<line-break>また助けてもらっちゃいました。<line-break>わたしも、一日も早く<line-break><value:$28>さんみたいな<line-break>一人前の冒険者になりたいな…。<end>"}
+{"section":117,"id":"1170058","japanese":"ふむ…また施文院の連中か？<end>"}
+{"section":117,"id":"1170059","japanese":"ええ、間違いないわ。　　　　　<line-break>　<line-break>　<line-break>…で、ナーシェス。あんた<line-break>どうして、こういうときに限って、<line-break>いつもいないのよ？<end>"}
+{"section":117,"id":"1170060","japanese":"言いがかりはよしてもらおう。<line-break>お前たちが、いつまでたっても<line-break>来ないから、見に来たまでだ。<end>"}
+{"section":117,"id":"1170061","japanese":"あ、あの、でも、どうして、<line-break>わたしたちを、ねらうのかな…。<end>"}
+{"section":117,"id":"1170062","japanese":"あたしは、告死天使の親玉を<line-break>たぶらかした覚えはないわよ。<end>"}
+{"section":117,"id":"1170063","japanese":"ああ、お前の色気に<line-break>ひっかかる程度の相手なら、<line-break>ありがたいのだがな。<end>"}
+{"section":117,"id":"1170064","japanese":"…どういう意味？<end>"}
+{"section":117,"id":"1170065","japanese":"………………。<end>"}
+{"section":117,"id":"1170066","japanese":"まぁ、ノエルが望むなら、<line-break>今度はあたしの美貌で、　　　　<line-break>問いただしてあげるわ。<line-break>さぁ、こんな物騒なところからは<line-break>早く離れましょ。<end>"}
+{"section":117,"id":"1170067","japanese":"そ、そうだな…。<end>"}
+{"section":117,"id":"1170068","japanese":"<if><value:$29><equal>%0ボウヤ、今回もありがと。<line-break>お礼はそのうち、させてもらうから<line-break>期待しててね？<end>子猫ちゃん、今回もありがと。<line-break>お礼はそのうち、させてもらうから<line-break>期待しててね？<end>"}
+{"section":117,"id":"1170069","japanese":"えと…、<value:$28>さん、　　　<line-break>ありがとうございました！<line-break>　<line-break>わたしも<value:$28>さんに<line-break>負けないくらい、強くなりますから！<end>"}
+{"section":117,"id":"1170070","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の１番目。<end>"}
+{"section":117,"id":"1170071","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の２番目。<end>"}
+{"section":117,"id":"1170072","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の３番目。<end>"}
+{"section":117,"id":"1170073","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の４番目。<end>"}
+{"section":117,"id":"1170074","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の５番目。<end>"}
+{"section":117,"id":"1170075","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の６番目。<end>"}
+{"section":117,"id":"1170076","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の７番目。<end>"}
+{"section":117,"id":"1170077","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の８番目。<end>"}
+{"section":117,"id":"1170078","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の９番目。<end>"}
+{"section":117,"id":"1170079","japanese":"予備メッセージだ。<line-break>ノエル２／Ｖ２の１０番目。<end>"}
+{"section":117,"id":"1170080","japanese":"ノエル用メッセージＶ２終端<end>"}

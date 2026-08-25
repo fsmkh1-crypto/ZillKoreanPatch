@@ -1,0 +1,130 @@
+{"section":59,"id":"590000","japanese":"アンギルダン・ボリューム２用開始<end>"}
+{"section":59,"id":"590001","japanese":"待ってください。<end>"}
+{"section":59,"id":"590002","japanese":"竜の死骸ですね…。<end>"}
+{"section":59,"id":"590003","japanese":"この世界にいる竜は７匹。<line-break>竜王、翔王、海王の３聖竜。　　　<line-break>　<line-break>…そして<line-break>アズラゴーザ、イシュバアル、<line-break>エルアザル、シャンマの４邪竜…。<end>"}
+{"section":59,"id":"590004","japanese":"これまで竜に打ち勝ったものはふたり。<line-break>賢王アルキュオネの忘れられた剣士と、<line-break>初代ドワーフ王のボルキスのみ。<line-break>ボルキスは邪竜を殺していませんから、<line-break>これは忘れられた剣士に殺された<line-break>邪竜エルアザルの死骸ですね。<end>"}
+{"section":59,"id":"590005","japanese":"…まだ怨念が残ってます。<line-break>どうやら<line-break>アンデッド化しているようです。<end>"}
+{"section":59,"id":"590006","japanese":"邪竜エルアザルは、<line-break>復活の時の闇の影響を受けて<line-break>いまにも復活しそうですね。<line-break>いずれは、これも<line-break>なんとかしないといけませんが、<line-break>今は保留しておきましょう。<end>"}
+{"section":59,"id":"590007","japanese":"あなたも邪竜にケンカをうって<line-break>勝てる自信ができるまで<line-break>ここには近づかない方がいいですよ。<end>"}
+{"section":59,"id":"590008","japanese":"この邪竜は、こうやって<line-break>生き物の精気を吸い取って<line-break>再び、立つ力を蓄えてるんです。<line-break>うかつに動くと、見つかって<line-break>さっきのピクシーのように<line-break>精気を吸い取られますよ。<end>"}
+{"section":59,"id":"590009","japanese":"さ、急いで！　…と言っても　　　<line-break>ゆっくりと、静かに<line-break>ここを出ましょう。<end>"}
+{"section":59,"id":"590010","japanese":"邪竜エルアザル、<line-break>復活の時の闇の影響を受けて、<line-break>いまにも復活しそうですね。<line-break>いずれは、あれも<line-break>なんとかしないといけませんが、<line-break>今は保留しておきましょう。<end>"}
+{"section":59,"id":"590011","japanese":"あなたも邪竜にケンカをうって<line-break>勝てる自信ができるまで<line-break>あそこでは静かにしてくださいね。　　<end>"}
+{"section":59,"id":"590012","japanese":"ディンガル帝国の傭兵募集だ。<line-break>詳細は機密でわからないが、<line-break>どうだ、やるかい？<end>"}
+{"section":59,"id":"590013","japanese":"引き受ける<end>"}
+{"section":59,"id":"590014","japanese":"引き受けない<end>"}
+{"section":59,"id":"590015","japanese":"そうこなくちゃ。<line-break>よしよし、今、登録して　　　　　　　<line-break>紹介状を送るからな…。<end>"}
+{"section":59,"id":"590016","japanese":"って、ちょっと待った。<line-break>あんた、アキュリュースの傭兵にも　　<line-break>なっているじゃないか！<line-break>敵味方を、かけもちするのはよくない。<line-break>どちらか片方にしてくれ。<line-break>どっちにするんだい？<end>"}
+{"section":59,"id":"590017","japanese":"やっぱりアキュリュース側<end>"}
+{"section":59,"id":"590018","japanese":"心機一転ディンガル側<end>"}
+{"section":59,"id":"590019","japanese":"それじゃ、今まで通り<line-break>アキュリュース側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"}
+{"section":59,"id":"590020","japanese":"って、ちょっと待った。<line-break>あんた、ロストールの傭兵にも　　　　<line-break>なっているじゃないか！<line-break>敵味方を、かけもちするのはよくない。<line-break>どちらか片方にしてくれ。<line-break>どっちにするんだい？<end>"}
+{"section":59,"id":"590021","japanese":"やっぱり、今まで通り<end>"}
+{"section":59,"id":"590022","japanese":"何がなんでも、ディンガル側<end>"}
+{"section":59,"id":"590023","japanese":"それじゃ、今まで通り<line-break>ロストール、アキュリュース側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"}
+{"section":59,"id":"590024","japanese":"<if><value:$2A><greater-equal>50じゃ、書類の方は送っとくから、<line-break>ディンガル政庁の方へ行ってくれ。　　<line-break>そこで詳しい話があるはずだ。<line-break>今後はディンガル兵ってことで。<line-break>んじゃ、よろしく頼んだぜ。<line-break><value:$2B>の<value:$28>。<end>じゃ、書類の方は送っとくから、<line-break>ディンガル政庁の方へ行ってくれ。　　<line-break>そこで詳しい話があるはずだ。<line-break>今後はディンガル兵ってことで。<line-break>んじゃ、よろしく頼んだぜ。<line-break><value:$28>。<end>"}
+{"section":59,"id":"590025","japanese":"って、ちょっと待った。<line-break>あんた、ロストールの傭兵にも　　　　<line-break>なっているじゃないか！<line-break>敵味方を、かけもちするのはよくない。<line-break>どちらか片方にしてくれ。<line-break>どっちにするんだい？<end>"}
+{"section":59,"id":"590026","japanese":"やっぱりロストール側<end>"}
+{"section":59,"id":"590027","japanese":"心機一転ディンガル側<end>"}
+{"section":59,"id":"590028","japanese":"それじゃ、今まで通り<line-break>ロストール側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"}
+{"section":59,"id":"590029","japanese":"そうかい。ま、傭兵ってのも<line-break>しがらみが多くて、考えもんだからな。<line-break>この話はここまでだ。<end>"}
+{"section":59,"id":"590030","japanese":"ああ、<value:$28>だな。<line-break>手紙がきてるよ。<end>"}
+{"section":59,"id":"590031","japanese":"久しいな。アンギルダンだ。　　　　　　<line-break><value:$28>、元気でいるか？<line-break>わしは、ますます元気だ。<line-break>　<line-break>お主の活躍を遠くで聞き<line-break>うれしく思っておった。<line-break>さて、本題に入ろう。<end>"}
+{"section":59,"id":"590032","japanese":"わしがディンガル帝国の朱雀将軍　　　　<line-break>南方攻略軍司令官となったことは<line-break>お主も知っているかと思う。<line-break>　<line-break>このたび、皇帝ネメア様より<line-break>ロストール攻略の許可を得て、<line-break>いよいよ、南征を開始することになった。<end>"}
+{"section":59,"id":"590033","japanese":"東のカルラには負けてはおられんからな。<line-break>ついては、お主の力を借りたい。<line-break>副将待遇で迎える。わしのとなりで活躍せよ。<line-break>　<line-break>エンシャントの政庁に来てくれ。<line-break>よい返事を待っている。<line-break>　<line-break>　　　　　　　　　　　アンギルダン<end>"}
+{"section":59,"id":"590034","japanese":"朱雀将軍から承っております。<line-break>どうぞお通りください！<end>"}
+{"section":59,"id":"590035","japanese":"よく来てくれた、　　　　　　　　<line-break><value:$28>。<line-break>　<line-break>いよいよ、ロストールへ進攻する。<line-break>ついては、お主に、わしの副将に<line-break>なってほしいのだ。<end>"}
+{"section":59,"id":"590036","japanese":"お主のことなら、<line-break>冒険者時代によく知っておる。<line-break>お主がおれば、百人力なのじゃが…。<end>"}
+{"section":59,"id":"590037","japanese":"引き受ける<end>"}
+{"section":59,"id":"590038","japanese":"断る<end>"}
+{"section":59,"id":"590039","japanese":"そうか、お主さえ来れば<line-break>他に待つものはない。<line-break>さっそく、出撃じゃ！<end>"}
+{"section":59,"id":"590040","japanese":"皇帝ネメアの世界統一構想のもと　　　<line-break>南方攻略軍司令、朱雀将軍アンギルダンが　<line-break>ついにロストール攻略に動き出した。　　<end>"}
+{"section":59,"id":"590041","japanese":"　　　　帝国軍が大兵力を投入すると　　　　　<line-break>　　予想したロストール側は、分断の山脈を　　<line-break>　　　越えてくるとは考えず、内海側の　　　　<line-break>　海路を封鎖し、敵の上陸時を叩く作戦に出た。<line-break>　これに対し、ロストール軍副指令ゼネテスは　<line-break>　　帝国が分断の山脈を越えてくると主張、　　<line-break>　山脈がわに兵を割いて防衛線を築くことを　　<line-break>　　提案したが、軍議で即時に却下された。　　<end>"}
+{"section":59,"id":"590042","japanese":"　　しかし、このゼネテスの予測は正しく、　　<line-break>　　　　アンギルダンは少数の精兵で　　　　　<line-break>　　　分断の山脈を越えると、大街道を　　　　<line-break>　　　　電撃的な早さで行軍してきた。　　　　<line-break>　　　　分断の山脈を軍隊が越えたのは　　　　<line-break>　　　　　　歴史上初の壮挙である。　　　　　<line-break>　　　　　こうしてディンガル軍は　　　　　　<line-break>　　　王都ロストール攻略に王手をかけた。　　<end>"}
+{"section":59,"id":"590043","japanese":"　　　事ここに及び、ロストール軍総司令　　　<line-break>　　　　ノヴィンは急きょ、軍を反転、　　　　<line-break>　　　アンギルダン率いるディンガル軍を　　　<line-break>　　　　　迎え撃つべく、急行した。　　　　　<end>"}
+{"section":59,"id":"590044","japanese":"どうにもロストールの将軍は無能よの。<line-break>これでは、その下で戦う<line-break>ロストールの兵がかわいそうだ。<line-break>ロストール軍はわしに戦いを挑むべく<line-break>隊列がバラバラになるのもかまわずに<line-break>夜を日に継いで急行軍で来とるという。<end>"}
+{"section":59,"id":"590045","japanese":"むざむざ、やられに来るようなものだ。<line-break>最初の一手を間違えたからには、<line-break>もう、ロストールには勝機はない。<line-break>どうやら連中は、地獄へ送って<line-break>頭も身体も冷たくしてやらねば、<line-break>冷静にものを考えられぬと見た。<end>"}
+{"section":59,"id":"590046","japanese":"皆の者！　出撃だ！<line-break>さんざんに破り、ディンガル帝国の名を<line-break>恐怖とともに奴らの脳髄にたたき込め！<end>"}
+{"section":59,"id":"590047","japanese":"<value:$28>、よくやった。<line-break>お主が最高殊勲者じゃ！<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"}
+{"section":59,"id":"590048","japanese":"ひざまづくがよい。<end>"}
+{"section":59,"id":"590049","japanese":"我、朱雀将軍アンギルダンは<line-break>皇帝ネメア・ランガスターの　　　　<line-break>代理として<line-break>戦場のことゆえ略式ではあるが、<line-break>汝、<value:$28>を<line-break>ディンガル帝国黒鎧騎士に叙任する。<end>"}
+{"section":59,"id":"590050","japanese":"スキル<line-break>グロリアシルドを手に入れた。<end>"}
+{"section":59,"id":"590051","japanese":"そして、これは恩賞じゃ。<line-break>さらに励んでくれ。<end>"}
+{"section":59,"id":"590052","japanese":"<value:$28>、よくやった。<line-break>すばらしい戦績じゃ！<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"}
+{"section":59,"id":"590053","japanese":"<value:$28>、<line-break>まずまずの戦功じゃな。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに、励んでくれ。<line-break>期待しておるぞ。<end>"}
+{"section":59,"id":"590054","japanese":"このようなことも<line-break>あるものなのかもしれんな。<end>"}
+{"section":59,"id":"590055","japanese":"さて、ロストールの本軍は叩いたが<line-break>まだ若干の王都守備軍が残っておる。<line-break>　<line-break>恐れるほどの敵ではないが、<line-break>地下王国を軍隊が通れないという制約上<line-break>包囲されたときには援軍はない。<end>"}
+{"section":59,"id":"590056","japanese":"物資の補給も断たれ、<line-break>我々は危機に陥るじゃろう。<line-break>　<line-break>つまり、奴らが動く前に、<line-break>こちらは辺りから物資を徴発して<line-break>備えを完全にしておく必要がある。<end>"}
+{"section":59,"id":"590057","japanese":"潰走しつつある敵の掃討作戦は行わず、<line-break>各隊は早急に付近の村から<line-break>物資を強制徴発してもらいたい。<end>"}
+{"section":59,"id":"590058","japanese":"<value:$28>殿の言うとおりです。<line-break>それは略奪行為です。<line-break>将軍、思いとどまってください。<end>"}
+{"section":59,"id":"590059","japanese":"戦争は血塗られた道よ。　　　<line-break>いかに取り繕おうともな。<line-break>　<line-break>せめて、流される血が少ないように<line-break>努力するまでじゃ。<line-break>責任はわしが持つ。任務の遂行を命ず。<end>"}
+{"section":59,"id":"590060","japanese":"<value:$28>様、<line-break>お気持ちはお察しいたします。<line-break>ですが、命令は遂行なさらないと…。<end>"}
+{"section":59,"id":"590061","japanese":"て、敵襲！<end>"}
+{"section":59,"id":"590062","japanese":"徴発隊が出払って手薄になった<line-break>中枢部に、敗残兵をまとめて<line-break>ロストール軍が攻め込んできました！<end>"}
+{"section":59,"id":"590063","japanese":"バカな…！<line-break>あそこまで崩れ去った兵を<line-break>まとめあげただと？<end>"}
+{"section":59,"id":"590064","japanese":"ありえない…！<line-break>敵将は誰だ！？<end>"}
+{"section":59,"id":"590065","japanese":"総司令ノヴィン・ファーロスの息子<line-break>ゼネテスです！<line-break>　<line-break>奇襲を受けた中枢部隊は壊滅！<line-break>アンギルダン様の生死は不明です！<end>"}
+{"section":59,"id":"590066","japanese":"出撃！　<value:$28>様に続け！<line-break>アンギルダン様をお救いするのだ！！<line-break>出撃！！<end>"}
+{"section":59,"id":"590067","japanese":"ゼネテス…、<line-break>そうか、お主がおったのか！　　　<line-break>　<line-break>お主ならば、あの敗軍を<line-break>まとめる器量がある！<line-break>くっ、ぬかったわ！<end>"}
+{"section":59,"id":"590068","japanese":"お主がおるとわかっておれば、<line-break>敗残兵の殲滅を優先させたものを！<line-break>　<end>"}
+{"section":59,"id":"590069","japanese":"…とっつぁん、<line-break>悪いが、命をもらう。　　<line-break>　<line-break>…ロストールの兵の<line-break>命がかかっているんでな。<end>"}
+{"section":59,"id":"590070","japanese":"はい、そうですかと<line-break>くれてやるわけにはいかんな。<line-break>　<line-break>こっちも<line-break>ディンガルの兵の命が<line-break>かかっておるのでな！<end>"}
+{"section":59,"id":"590071","japanese":"…<value:$28>！　お前も<line-break>アンギルダンのとっつぁんの側か！　<line-break>ちっ、人物は人物を呼ぶんだな。<line-break>こりゃあ、ちょっと分が悪いな。<line-break>ま、いい。なんとか運命の女神を<line-break>振り向かせるのには成功したようだ。<end>"}
+{"section":59,"id":"590072","japanese":"あばよ、とっつぁん、　　　　　　　<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"}
+{"section":59,"id":"590073","japanese":"ほう…。<line-break>ここまでたどり着いてくるとは<line-break>やるな…。<end>"}
+{"section":59,"id":"590074","japanese":"俺の名は<line-break>ゼネテス・ファーロス。　　　　　　　<line-break>ま、覚えといてくれや。<line-break>あんたのことは知ってる。<line-break><value:$28>…だよな？<line-break>やっぱ、人物は人物を呼ぶんだな。<end>"}
+{"section":59,"id":"590075","japanese":"今日のところは、退くとしよう。<line-break>なんとか運命の女神を<line-break>振り向かせるのに成功したようだしな。<line-break>あばよ、とっつぁん、<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"}
+{"section":59,"id":"590076","japanese":"心配するな！　ノーブル伯！<line-break>叔母貴には黙っておくからな！<end>"}
+{"section":59,"id":"590077","japanese":"フフ、さすがはゼネテスよ…。<line-break>やりおる。　　　　　　　　　　　　　<line-break>　<line-break>わしがもっと若ければな…。<line-break>そうすれば、お主と力を合わせて、<line-break>あの男を討ち取れていたかもしれんな。<end>"}
+{"section":59,"id":"590078","japanese":"だが、あきらめが肝要よ。負けじゃ。　<line-break>運命の女神のほほえみを<line-break>あの色男に持っていかれたわい！<end>"}
+{"section":59,"id":"590079","japanese":"撤退じゃ！　散れ！<line-break>地下王国を抜け、<line-break>生きて帰るのじゃ！<end>"}
+{"section":59,"id":"590080","japanese":"<value:$28>！　生きて会おうぞ！<line-break>エンシャントの政庁の前で待っておる。<end>"}
+{"section":59,"id":"590081","japanese":"　　　　山越えにより勝利を目前とした　　　　<line-break>　　ディンガル軍だったが、恐るべき早さで　　<line-break>　　敗残兵をまとめあげたゼネテスにより　　　<line-break>　手薄となった本陣を突かれ、総崩れとなった。<line-break>　　　　生き残ったディンガル兵は　　　　　　<line-break>　　　　今度は分断の山脈の地下、　　　　　　<line-break>　　　　　ドワーフの王国を抜け　　　　　　　<line-break>　ディンガル領へと撤退を余儀なくされた。　　<end>"}
+{"section":59,"id":"590082","japanese":"　ゼネテスはあえてこれを追撃せず、　<line-break>　　こうして、山越えに始まった　　　<line-break>　ディンガルのロストール侵攻戦は、　<line-break>　　失敗という結末で幕を閉じた。　　<line-break>　ゼネテスの声望は一気に高まり、　　<line-break>　奇跡の名将とまで呼ばれたが、　　　<line-break>　この戦いにおけるロストールの　　　<line-break>　被害は、甚大なものであった…。　　<end>"}
+{"section":59,"id":"590083","japanese":"フフ、運命の女神は残酷なものよ！<line-break>ここまで来て、わしを見限るとはな…。<line-break>　　　　　　　　　　　<line-break>ゼネテスよ…。<line-break>お主ほどの男が…ファーロスの…<line-break>跡取りだったとは…、うぐっ…。<end>"}
+{"section":59,"id":"590084","japanese":"退け！　バラバラに地下王国を通れ！<line-break>みな…生き延びるの…じゃ…！<end>"}
+{"section":59,"id":"590085","japanese":"　　　驚くべき早さで敗残兵をまとめあげた　　<line-break>　　　　　　ゼネテスの奇襲により　　　　　　<line-break>　　　　アンギルダンが討ち取られると　　　　<line-break>　　　　　帝国軍は総崩れとなった。　　　　　<line-break>　　　　生き残ったディンガル兵は　　　　　　<line-break>　　　　今度は分断の山脈の地下、　　　　　　<line-break>　　　　　ドワーフの王国を抜け　　　　　　　<line-break>　ディンガル領へと撤退を余儀なくされた。　　<end>"}
+{"section":59,"id":"590086","japanese":"　ゼネテスはあえてこれを追撃せず、　<line-break>　　こうして、山越えに始まった　　　<line-break>　ディンガルのロストール侵攻戦は、　<line-break>　　失敗という結末で幕を閉じた。　　<line-break>　ゼネテスの声望は一気に高まり、　　<line-break>　奇跡の名将とまで呼ばれたが、　　　<line-break>　この戦いにおけるロストールの　　　<line-break>　被害は、甚大なものであった…。　　<end>"}
+{"section":59,"id":"590087","japanese":"そうか…。残念じゃ。<end>"}
+{"section":59,"id":"590088","japanese":"傭兵志願者か。<line-break>案内する。ついてくるとよい。<end>"}
+{"section":59,"id":"590089","japanese":"ネメア陛下の世界統一構想に基づき、<line-break>南方攻略軍司令アンギルダン閣下に<line-break>ロストール攻略の大任が下された。<line-break>ついては、大兵力の動員のために、<line-break>傭兵を募集することになった。<line-break>君は、遠征軍に加わる気があるのか？<end>"}
+{"section":59,"id":"590090","japanese":"加わる<end>"}
+{"section":59,"id":"590091","japanese":"加わらない<end>"}
+{"section":59,"id":"590092","japanese":"それならば、さっそく出撃だ。<line-break>あらためて概要を説明しよう。　　　　　　　<line-break><value:$28>君。<line-break>君のことは調べがついている。<line-break>かなり評価できるようだ。<line-break>君には事実を話そう。<end>"}
+{"section":59,"id":"590093","japanese":"大兵力で進攻するというのはウソだ。　　　　<line-break>大兵力の輸送のために海路を使うと<line-break>敵に判断させるためのデマだ。<line-break>実際は精兵を率いて分断の山脈を越え、<line-break>ロストール領内に進攻し、電撃的に<line-break>大街道沿いの都市を占領する。<end>"}
+{"section":59,"id":"590094","japanese":"歴史上、類を見ない大胆な作戦だ。私も<line-break>最初に聞いたときは驚いたが、必ず成功する。<line-break>君にもこの作戦に参加して欲しい。<end>"}
+{"section":59,"id":"590095","japanese":"期待している。<end>"}
+{"section":59,"id":"590096","japanese":"ロストール軍が急遽、軍を返してきた。<line-break>おとなしくしておればよいものを<line-break>のこのこと、今さら！<line-break>敵は急行軍で隊列もバラバラ、<line-break>疲労しきっている。<line-break>楽勝だ！　存分に活躍せよ。<end>"}
+{"section":59,"id":"590097","japanese":"おお、<value:$28>ではないか。<line-break>お主もこの戦役に参加しとったか。<end>"}
+{"section":59,"id":"590098","japanese":"…では、論功行賞を行う。<line-break>最後は<value:$28>。<end>"}
+{"section":59,"id":"590099","japanese":"<value:$28>、<line-break>お主が最高殊勲者だ。<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"}
+{"section":59,"id":"590100","japanese":"<value:$28>、<line-break>お主はすばらしい戦績を残した。<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"}
+{"section":59,"id":"590101","japanese":"<value:$28>、<line-break>まずまずの戦功だ。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに、励むがよい。<line-break>期待しておるぞ。<end>"}
+{"section":59,"id":"590102","japanese":"<value:$28>、<line-break>特に功はなし、か。<end>"}
+{"section":59,"id":"590103","japanese":"…お主はわしとともに本軍に残れ。<line-break>以上、解散！<end>"}
+{"section":59,"id":"590104","japanese":"わしのやり方に<line-break>不満があるようじゃな。<end>"}
+{"section":59,"id":"590105","japanese":"…戦争は血塗られた道よ。　　<line-break>いかに取り繕おうともな。<line-break>　<line-break>仕方ないことじゃ、とは言わぬ。<line-break>だがわしには、流される血が少なく<line-break>なるように努力することしかできぬ。<end>"}
+{"section":59,"id":"590106","japanese":"て、て、敵襲ー！<end>"}
+{"section":59,"id":"590107","japanese":"ロストールが敗残兵を立て直し、<line-break>き、奇襲っ！　ぐわああっ！<end>"}
+{"section":59,"id":"590108","japanese":"略奪にディンガル兵が散らばってる間に<line-break>本体中枢部をつき、壊乱させる！<line-break>ゼネテス様の作戦は当たってるぞ！<end>"}
+{"section":59,"id":"590109","japanese":"俺たち、生き延びられるかもしれねえ！<line-break>いや、こうなったら、生き延びてやる！<line-break>ディンガルの奴らを倒してな！<end>"}
+{"section":59,"id":"590110","japanese":"ゆくぞ！<end>"}
+{"section":59,"id":"590111","japanese":"…<value:$28>！　お前も<line-break>アンギルダンのとっつぁんの側か！　<line-break>人物は人物を呼ぶんだな。<line-break>こりゃあ、ちょっと分が悪いな。<line-break>ま、いい。なんとか運命の女神を<line-break>振り向かせるのには成功したようだ。<end>"}
+{"section":59,"id":"590112","japanese":"ほう、ここまでたどり着いてくるとは<line-break>やるな…。<end>"}
+{"section":59,"id":"590113","japanese":"<value:$28>よ。<line-break>すまぬが、敗軍の将に<line-break>つきあってくれる気はあるか？<end>"}
+{"section":59,"id":"590114","japanese":"ならば、生きて会おう。<line-break>エンシャントの政庁前で待っておる！<end>"}
+{"section":59,"id":"590115","japanese":"退け！<line-break>バラバラに地下王国を通れ！<line-break>みな…生き延びるの…じゃ…！<end>"}
+{"section":59,"id":"590116","japanese":"そうか。それならば致し方ない。<line-break>立ち去るがよい。我々は大兵力だ。<line-break>情報が漏れても負けることはない。<end>"}
+{"section":59,"id":"590117","japanese":"朱雀将軍からお話は伺っております！<line-break>将軍は現在、留守にしておられます！<line-break>後日お越しくださいますようお願いいたします！<end>"}
+{"section":59,"id":"590118","japanese":"今、担当が席を外しておる。<line-break>またあとで来るといい。<end>"}
+{"section":59,"id":"590119","japanese":"アンギルダンが心配だ<end>"}
+{"section":59,"id":"590120","japanese":"あんな男、どうでもいい<end>"}
+{"section":59,"id":"590121","japanese":"予備メッセージ３<line-break>アンギルダン、ボリューム２<end>"}
+{"section":59,"id":"590122","japanese":"予備メッセージ４<line-break>アンギルダン、ボリューム２<end>"}
+{"section":59,"id":"590123","japanese":"予備メッセージ５<line-break>アンギルダン、ボリューム２<end>"}
+{"section":59,"id":"590124","japanese":"予備メッセージ６<line-break>アンギルダン、ボリューム２<end>"}
+{"section":59,"id":"590125","japanese":"予備メッセージ７<line-break>アンギルダン、ボリューム２<end>"}
+{"section":59,"id":"590126","japanese":"予備メッセージ８<line-break>アンギルダン、ボリューム２<end>"}
+{"section":59,"id":"590127","japanese":"予備メッセージ９<line-break>アンギルダン、ボリューム２<end>"}
+{"section":59,"id":"590128","japanese":"予備メッセージ１０<line-break>アンギルダン、ボリューム２<end>"}
+{"section":59,"id":"590129","japanese":"アンギルダン・ボリューム２終端<end>"}

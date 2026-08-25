@@ -1,0 +1,258 @@
+{"section":55,"id":"550000","japanese":"ノエル・ボリューム１開始<end>"}
+{"section":55,"id":"550001","japanese":"だ、だ、誰にも言わない！<line-break>た、たた助けてくれっ！<end>"}
+{"section":55,"id":"550002","japanese":"あ、あひっ！<line-break>た、たすけてくれー！<end>"}
+{"section":55,"id":"550003","japanese":"いいぞ、ノエル～！<line-break>あんたなら、できる！<end>"}
+{"section":55,"id":"550004","japanese":"がんばれよ。<line-break>気合い入れていけぇ！<end>"}
+{"section":55,"id":"550005","japanese":"ノエルお姉ちゃん、がんばって～！<end>"}
+{"section":55,"id":"550006","japanese":"よっ、勇者様～！<end>"}
+{"section":55,"id":"550007","japanese":"今日こそ、その大剣、天動地鳴が<line-break>抜ける日だ！<end>"}
+{"section":55,"id":"550008","japanese":"<if><value:$29><equal>%0おらおら、坊主！<line-break>じゃまするんじゃないぞ！<end>おらおら、姉ちゃん！<line-break>じゃましちゃダメだぜ！<end>"}
+{"section":55,"id":"550009","japanese":"かつて、この地には<line-break>魔物が住みついておった。　　　　　　<line-break>　<line-break>すべてを石に変えてしまう<line-break>恐ろしい魔物じゃ。<end>"}
+{"section":55,"id":"550010","japanese":"そこへ１人の勇者が現れ、<line-break>この神殿に魔物を封じた。<line-break>その勇者が使った剣があれじゃ。　　　<line-break>地中深く刺さったその剣は、<line-break>いかなる怪力の持ち主にも<line-break>引き抜くことができん。<end>"}
+{"section":55,"id":"550011","japanese":"この世を救う使命を負った勇者だけが、<line-break>あの剣を引き抜くことができるという…<line-break>古くからの言い伝えじゃ。<end>"}
+{"section":55,"id":"550012","japanese":"<select><value:$20>%2今までに何人があの剣に挑んだかねぇ。<line-break>でも成功したためしは一度もないよ。<end>あの娘は領主様の１人娘ノエルさ。<line-break>身体は小さいけど、剣の腕は確かだよ。<end>"}
+{"section":55,"id":"550013","japanese":"ときどき、こうやって村の力自慢や<line-break>通りがかりの冒険者が挑戦するのさ。<line-break>それをひやかすのが、わしの道楽でね。<end>"}
+{"section":55,"id":"550014","japanese":"<select><value:$20>%3ノエル様は、足におケガをなされた　　<line-break>お父上の代わりに、ときどき、付近の<line-break>怪物退治などにも活躍されている。<line-break>剣の腕もたつ、なかなか利発な<line-break>お嬢さんだ。しかし、惜しいことだ。<line-break>男だったら、竜騎士にもなれたものを。<end>ここの領主様は、<line-break>かつてこの地を荒らした石化獣を　　<line-break>倒した勇者の子孫さ。<line-break>つまり、ノエル様は<line-break>あの剣の持ち主の子孫というわけだ。<line-break>きっと、引き抜くことができるよ。<end>ノエル様からは<line-break>かねがね、英雄の気を感じていたのだ。<end>"}
+{"section":55,"id":"550015","japanese":"こんな地図にも載っていないような<line-break>珍しい村で、こんな珍しい風習があったなんて。<line-break>実際に世界を旅してないとわからなかったなあ。<line-break>あ、私は数が減って、珍しい存在になった<line-break>コーンスの旅人です。<line-break>う～ん、自分の目で確かめないとなあ。<end>"}
+{"section":55,"id":"550016","japanese":"…ふっ、<line-break>竜王様のおっしゃるとおりだ。<end>"}
+{"section":55,"id":"550017","japanese":"<value:$28>、見てよ。　　　　　<end>"}
+{"section":55,"id":"550018","japanese":"この人たち、みんな同じ刺青してる！<line-break>どういうこと？<end>"}
+{"section":55,"id":"550019","japanese":"そうね、実際に見て、確かめなくちゃ。<line-break>オッシ先生もそう言ってたしね。<line-break><line-break>行きましょ、<value:$28>。<line-break>あいつらが何してるか、確かめて<line-break>悪いことなら、くいとめなきゃ。<end>"}
+{"section":55,"id":"550020","japanese":"見てよ！　この人たち、<line-break>みんな、同じ刺青してる…。<line-break><line-break>天空神ノトゥーンの紋章…？<line-break>いや、ちょっと違う。<line-break>どこか、まがまがしい…。<end>"}
+{"section":55,"id":"550021","japanese":"うん、行ってみようよ。<line-break>すっごく、気になるしさ。<end>"}
+{"section":55,"id":"550022","japanese":"<if><value:$01><equal>13…みな同じ刺青がある。　<line-break>…天空神の紋章に似た模様。<line-break>そうか、これが…。<end><if><value:$01><equal>15ねえ、<value:$28>、<line-break>みんな同じ刺青があるよ。<line-break><line-break>ほら、テラネにもある天空神の<line-break>紋章に似てるけど…<line-break>なんか、気味が悪いね…。<end><if><value:$01><equal>14なんと！　　　　　<line-break>どいつもこいつも<line-break>同じ刺青をしておる。<end><if><value:$01><equal>19ねぇ、見て、見て、見てぇ！<line-break>みんな同じ目玉の　　　　　<line-break>刺青してるよぉ！<end>姉ちゃん、大発見だ！<line-break>こいつら、みんな同じ刺青してる。<line-break><line-break>なんだろう、この模様…。<line-break>目玉みたいだ！<end>"}
+{"section":55,"id":"550023","japanese":"＜無＞<end>"}
+{"section":55,"id":"550024","japanese":"<if><value:$01><equal>13…やめておけ。お前程度のひよっこが<line-break>首を突っ込むべきことではない。<line-break><line-break>…と言っても、<line-break>行く気なのだろう？<line-break>死んで後悔しても、知らんぞ。<end><if><value:$01><equal>14そうじゃな。<line-break>行ってみよう。<end><if><value:$01><equal>19そうだね。<line-break>行ってみよ？<end><if><value:$01><equal>10そうだね、姉ちゃん。<line-break>行ってみよう。<end>そうだね。<line-break>行ってみよう。<end>"}
+{"section":55,"id":"550025","japanese":"なるほど、ね。　　　　　　　　<end>"}
+{"section":55,"id":"550026","japanese":"そろって、同じ刺青してやがる。<line-break>しかも物騒な模様だぜ、これは。<end>"}
+{"section":55,"id":"550027","japanese":"…施文院だ。<end>"}
+{"section":55,"id":"550028","japanese":"説明はまたの機会だ。<line-break>連中を追っかけようぜ。<line-break><line-break>石化獣…とかいうのが<line-break>この村には封印されているそうだな。<line-break>急がないとヤバいかもしれない。<end>"}
+{"section":55,"id":"550029","japanese":"＜無＞<end>"}
+{"section":55,"id":"550030","japanese":"＜無＞<end>"}
+{"section":55,"id":"550031","japanese":"あ、みんな同じ刺青だわ。<line-break>ちょっと、個性がないかも。きゃっ！<end>"}
+{"section":55,"id":"550032","japanese":"この危険そうな奴らを追いかけるって…<line-break>どうしよっかな…。<line-break><line-break>ついていこうっと！　でもでも<line-break>こんな危険に飛び込もうとするなんて、<line-break>ちょっと、おバカさんかも！　きゃっ！<end>"}
+{"section":55,"id":"550033","japanese":"見ろよ！　<value:$28>！<line-break>こいつらみんな同じ刺青してる！<line-break><line-break>へへっ、わかったぜ！<line-break>ってことは、つまり…。<end>"}
+{"section":55,"id":"550034","japanese":"はやってるのかな？<end>"}
+{"section":55,"id":"550035","japanese":"よーし、行こうぜ。　　<line-break><value:$28>！<line-break><line-break>へへっ、<line-break>とめたって俺１人でも<line-break>行くつもりだったしな。<end>"}
+{"section":55,"id":"550036","japanese":"＜無＞<end>"}
+{"section":55,"id":"550037","japanese":"＜無＞<end>"}
+{"section":55,"id":"550038","japanese":"＜無＞<end>"}
+{"section":55,"id":"550039","japanese":"＜無＞<end>"}
+{"section":55,"id":"550040","japanese":"＜無＞<end>"}
+{"section":55,"id":"550041","japanese":"＜無＞<end>"}
+{"section":55,"id":"550042","japanese":"あ～！<line-break>みんな同じ刺青してる。　　<line-break><line-break>でも、<line-break>あんまりきれいじゃないね。<line-break>ま、モノがモノだからね。<end>"}
+{"section":55,"id":"550043","japanese":"こういうのってさ、<line-break>か～なり、危険なんだよ？<end>"}
+{"section":55,"id":"550044","japanese":"危険だからこそ行く価値があるんだよ。<line-break>それじゃ、追跡、かいし～！<end>"}
+{"section":55,"id":"550045","japanese":"＜無＞<end>"}
+{"section":55,"id":"550046","japanese":"＜無＞<end>"}
+{"section":55,"id":"550047","japanese":"＜無＞<end>"}
+{"section":55,"id":"550048","japanese":"＜無＞<end>"}
+{"section":55,"id":"550049","japanese":"＜無＞<end>"}
+{"section":55,"id":"550050","japanese":"＜無＞<end>"}
+{"section":55,"id":"550051","japanese":"＜無＞<end>"}
+{"section":55,"id":"550052","japanese":"＜無＞<end>"}
+{"section":55,"id":"550053","japanese":"＜無＞<end>"}
+{"section":55,"id":"550054","japanese":"＜無＞<end>"}
+{"section":55,"id":"550055","japanese":"＜無＞<end>"}
+{"section":55,"id":"550056","japanese":"＜無＞<end>"}
+{"section":55,"id":"550057","japanese":"＜無＞<end>"}
+{"section":55,"id":"550058","japanese":"＜無＞<end>"}
+{"section":55,"id":"550059","japanese":"＜無＞<end>"}
+{"section":55,"id":"550060","japanese":"＜無＞<end>"}
+{"section":55,"id":"550061","japanese":"＜無＞<end>"}
+{"section":55,"id":"550062","japanese":"なんなの、なんなの、なんなのぉ！？<line-break>いやっ！　最悪、最悪よ、最悪よぉ～！<end>"}
+{"section":55,"id":"550063","japanese":"そろって悪趣味な刺青してるわ！！<line-break>目玉よ、目玉！　め・だ・ま！<end>"}
+{"section":55,"id":"550064","japanese":"…え？　<line-break>天空神ノトゥーンの紋章に似てる？<line-break><line-break>…そ、そんなこと、高貴なエルフの<line-break>アタクシには、ちゃんとわかっててよ！<line-break>ア、アタクシが言いたいのはぁ、別！<end>"}
+{"section":55,"id":"550065","japanese":"そうよ、アタクシはあいつらの正体を<line-break>突き止めないとって言いたかったの！<line-break><line-break>も、もう！　アタクシのマネしないで！<line-break>ボケッとボサッとしてないで、<line-break>さっさと急いで追いかけるのよぉ！<end>"}
+{"section":55,"id":"550066","japanese":"む、面妖な！<line-break>全員、同じ刺青…。<end>"}
+{"section":55,"id":"550067","japanese":"兄弟子の意見が正しいでござる。　<end>"}
+{"section":55,"id":"550068","japanese":"この機会を逃したら<line-break>あの奇怪な奴らの正体はわからぬ！<end>"}
+{"section":55,"id":"550069","japanese":"む、面目もござらぬ。<end>"}
+{"section":55,"id":"550070","japanese":"（みんな同じ刺青がある…）<end>"}
+{"section":55,"id":"550071","japanese":"（奴らを追いかけなくちゃ！）<end>"}
+{"section":55,"id":"550072","japanese":"ノエルがやったぞ！<end>"}
+{"section":55,"id":"550073","japanese":"勇者だ！　勇者の誕生だ！<end>"}
+{"section":55,"id":"550074","japanese":"つ、ついに<line-break>剣が抜けるときが訪れたか…。<end>"}
+{"section":55,"id":"550075","japanese":"目にもとまらぬ<line-break>すばやさ、とはこのことだな。<line-break>だが、いくらすばやくても<line-break>攻撃がよめるんだよ。天使さん。<line-break>お前ら人形は単調だからな。<end>"}
+{"section":55,"id":"550076","japanese":"石化獣じゃ！<line-break>石化獣が復活しおった！<end>"}
+{"section":55,"id":"550077","japanese":"た、助けてくれ！<end>"}
+{"section":55,"id":"550078","japanese":"きゃ～っ！<end>"}
+{"section":55,"id":"550079","japanese":"な…！<line-break>遅かったか！<end>"}
+{"section":55,"id":"550080","japanese":"奴を追うぞ！<line-break><value:$28>！<end>"}
+{"section":55,"id":"550081","japanese":"…ソウルリープガキカナイ…。　　　<line-break>…無限ノ、ソウル…<line-break>他ノ対象ニモ予定ノ効果ハ現レナイ。<line-break>…シカシ障害ハコレニテ除去終了。<line-break>任務続行…。<end>"}
+{"section":55,"id":"550082","japanese":"追うわよ、<value:$28>！<end>"}
+{"section":55,"id":"550083","japanese":"私の心配なんてしてないで<line-break>さっさと奴を追うの！<line-break>もう！　ほんっとにグズなんだからぁ！<end>"}
+{"section":55,"id":"550084","japanese":"<if><value:$01><equal>22アイリーン、それはないよ。　　　　<line-break>少し、ひどいと思うなぁ。<line-break><value:$28>は君のこと<line-break>心配してくれてるんだよ？<line-break>やさしさ、理解してあげなきゃ。<end><if><value:$01><equal>15ねえ、アイリーン、それはないよ。　<line-break>少し、ひどいと思う。<line-break>　<line-break><value:$28>は君のこと<line-break>心配してくれてるんだよ？<line-break>やさしさ、理解してあげなきゃ。<end>アイリーン、ひどいよ。　　　　　<line-break>ルルアンタ、悲しい！<line-break>　<line-break>ねえ、<value:$28>は<line-break>アイリーンのこと<line-break>心配してくれてるんだよぉ？。<end>"}
+{"section":55,"id":"550085","japanese":"<if><value:$01><equal>22<value:$28>のこと<line-break>考えてるのはわかるけどさ。<line-break>きみ、彼の悪い保護者になってるよ。<end><if><value:$01><equal>15<value:$28>のこと考えてるの<line-break>わかるけど。君、<value:$28>の<line-break>悪い保護者になってるよ。　　　　　<end><value:$28>のこと考えてるの<line-break>わかるけど、もっと、<line-break>アイリーンも理解してあげなきゃ。<end>"}
+{"section":55,"id":"550086","japanese":"<if><value:$01><equal>22ぼくたちは、大丈夫だよ。<line-break>ちょっと、意識が遠くなったけど。<line-break>　<line-break>さ、アイリーンの言うとおり<line-break>あいつを追わなきゃ、だよ！<line-break><value:$28>。<end><if><value:$01><equal>15僕らは、大丈夫だよ。<line-break>ちょっと、意識が遠くなったけど。<line-break>　<line-break>ねえ、アイリーンの言うとおり<line-break>あいつを追わなくちゃ。<line-break><value:$28>。<end>ルルアンタたちは、大丈夫だよぉ。<line-break>ちょっと、クラッとなったけど。<line-break>　<line-break>さ、アイリーンの言うとおり<line-break>あいつを追わなきゃ！<line-break><value:$28>。<end>"}
+{"section":55,"id":"550087","japanese":"アイリーン、過保護な母親みたいね！<line-break><value:$28>はマザコンの子供！<line-break>　<line-break>人間って個の自立が足りなくてよ。<line-break>甘えて、依存して、馴れ合って<line-break>それで友情とか絆とか言っちゃって！<end>"}
+{"section":55,"id":"550088","japanese":"チャラチャラ親子ごっこしてないで<line-break>さ、行くわよ。<end>"}
+{"section":55,"id":"550089","japanese":"＜無＞<end>"}
+{"section":55,"id":"550090","japanese":"＜無＞<end>"}
+{"section":55,"id":"550091","japanese":"＜無＞<end>"}
+{"section":55,"id":"550092","japanese":"アイリーン、それはないよ。　　　　　<line-break>少し、ひどいと思う。<line-break>　<line-break><value:$28>はキミのこと<line-break>心配してくれてるんだぞ？<line-break>やさしさ、理解してあげなきゃ。<end>"}
+{"section":55,"id":"550093","japanese":"<value:$28>のこと考えてるの<line-break>わかるけど。キミ、<value:$28>の<line-break>悪い保護者になってるよ。　　　　　　<end>"}
+{"section":55,"id":"550094","japanese":"ハハ、ボクたちは、大丈夫さ。<line-break>…ちょっと、意識が遠くなったけど。<end>"}
+{"section":55,"id":"550095","japanese":"…やっぱ、ボクより先に<line-break>アイリーンのほうを心配する、よね。<end>"}
+{"section":55,"id":"550096","japanese":"あ、ハハ、アイリーンの言うとおり<line-break>急いで、あいつを追わなきゃ。<end>"}
+{"section":55,"id":"550097","japanese":"＜無＞<end>"}
+{"section":55,"id":"550098","japanese":"＜無＞<end>"}
+{"section":55,"id":"550099","japanese":"＜無＞<end>"}
+{"section":55,"id":"550100","japanese":"もう！　情けないんだからぁ！<line-break>さ、早く追わなきゃ！<end>"}
+{"section":55,"id":"550101","japanese":"…俺がこれで<line-break>黙っていると思ったか？<line-break>　<line-break>追うぞ！<line-break>逃がさん…。<end>"}
+{"section":55,"id":"550102","japanese":"なんじゃ？　なんじゃ？<line-break>一瞬、死んだ婆さんが見えたぞ！　　<end>"}
+{"section":55,"id":"550103","japanese":"<value:$28>、追うぞ！<line-break>とにかく、危険な奴じゃということは<line-break>わかったからの！<end>"}
+{"section":55,"id":"550104","japanese":"<if><value:$01><equal>17ムキー！　ド下等生物の分際で<line-break>いい根性していてよぉぉ！　ムキー！<line-break>　<line-break>高貴で優雅なエルフのこのアタクシが<line-break>天誅加えてさしあげてよぉぉぉ！<line-break>地面にめり込むほど土下座させてやる！<end>ちっくしょう！<line-break>この俺を本気で怒らせやがったな！<line-break>　<line-break>涙もハナミズも枯れ果てるまで<line-break>泣くほど、後悔させてやるぜ！！<line-break>行くぜ、<value:$28>！<end>"}
+{"section":55,"id":"550105","japanese":"＜無＞<end>"}
+{"section":55,"id":"550106","japanese":"＜無＞<end>"}
+{"section":55,"id":"550107","japanese":"＜無＞<end>"}
+{"section":55,"id":"550108","japanese":"＜無＞<end>"}
+{"section":55,"id":"550109","japanese":"＜無＞<end>"}
+{"section":55,"id":"550110","japanese":"あっは、ボ、ボクなら大丈夫だよ。<line-break>一瞬、死んだお母さんが見えたけどね。<end>"}
+{"section":55,"id":"550111","japanese":"そ、そうだね！<line-break>早く奴らを追わなきゃ！<end>"}
+{"section":55,"id":"550112","japanese":"死んだ本当のお母さんが見えた…。<line-break>やさしくて、なつかしい…。<end>"}
+{"section":55,"id":"550113","japanese":"…いけない、ちょっと考えちゃった。<line-break>考えると、悲しいだけなのに。<end>"}
+{"section":55,"id":"550114","japanese":"早く、あの人たちを追いかけよっと！<line-break>ね、<value:$28>！<end>"}
+{"section":55,"id":"550115","japanese":"＜無＞<end>"}
+{"section":55,"id":"550116","japanese":"＜無＞<end>"}
+{"section":55,"id":"550117","japanese":"…死んだ父ちゃんと母ちゃんが見えた。<line-break>なつかしかった…。<end>"}
+{"section":55,"id":"550118","japanese":"あ、ああ、姉ちゃんのいうとおりだ<line-break>早く追いかけなくちゃ！<end>"}
+{"section":55,"id":"550119","japanese":"＜無＞<end>"}
+{"section":55,"id":"550120","japanese":"＜無＞<end>"}
+{"section":55,"id":"550121","japanese":"＜無＞<end>"}
+{"section":55,"id":"550122","japanese":"＜無＞<end>"}
+{"section":55,"id":"550123","japanese":"うん、ルルアンタ、大丈夫だよぉ！<line-break>一瞬、フリントさんが見えたけどね…<line-break>　<line-break><value:$28>の方から<line-break>何かおっきなものがルルアンタを包んで<line-break>ルルアンタをここに連れ戻したんだよ。<end>"}
+{"section":55,"id":"550124","japanese":"それより、さっきの人<line-break>追いかけなきゃ！　村のみんなが…！<end>"}
+{"section":55,"id":"550125","japanese":"ソウルリープだってぇ？　　　　　<end>"}
+{"section":55,"id":"550126","japanese":"…<value:$28>がいなかったら<line-break>あの世行きだったよ。ふぅ…。　　<end>"}
+{"section":55,"id":"550127","japanese":"術者のレベルが魔人レベルだったら<line-break>どのみち、あの世行きだったけど。<end>"}
+{"section":55,"id":"550128","japanese":"<if><value:$29><equal>%0<value:$28>、カッコよかったなあ<line-break>って思っただけだよ。ふふ。<line-break>さ、奴を追いかけよう！<line-break>村のみんなが心配だよ。<line-break>急がなきゃ！<end><value:$28>、きれいだったなあ<line-break>って思っただけだよ。ふふ。<line-break>さ、奴を追いかけよう！<line-break>村のみんなが心配だよ。<line-break>急がなきゃ！<end>"}
+{"section":55,"id":"550129","japanese":"ねえ、<value:$28><line-break>大丈夫？<end>"}
+{"section":55,"id":"550130","japanese":"そうだね。<line-break>奴らを追わなくちゃ。<end>"}
+{"section":55,"id":"550131","japanese":"拙者のことならば心配無用！<line-break>ま、一瞬、母上の姿が見えましたが。<end>"}
+{"section":55,"id":"550132","japanese":"いや、拙者の母上は、<line-break>いまだ健在でござるよ。<end>"}
+{"section":55,"id":"550133","japanese":"拙者の母上は強力かつ大災害なお方。<end>"}
+{"section":55,"id":"550134","japanese":"それが目に浮かぶということは、<line-break>大変、恐ろしいことなのでござるぞ！<end>"}
+{"section":55,"id":"550135","japanese":"それよりも兄弟子！<line-break>奴を追わねば、村の人たちが！　　　<end>"}
+{"section":55,"id":"550136","japanese":"（奴を追わなきゃ…。）<end>"}
+{"section":55,"id":"550137","japanese":"石化獣じゃ！<line-break>石化獣が復活しおった！<end>"}
+{"section":55,"id":"550138","japanese":"た、助けてくれ！<end>"}
+{"section":55,"id":"550139","japanese":"きゃ～っ！<end>"}
+{"section":55,"id":"550140","japanese":"どういうことだよ！<line-break>みんな石になっちまってる！<end>"}
+{"section":55,"id":"550141","japanese":"…ヴァン？<end>"}
+{"section":55,"id":"550142","japanese":"違う！　俺じゃない！<line-break>俺は冗談を言ってねえ！<end>"}
+{"section":55,"id":"550143","japanese":"さ、さすが師匠！<end>"}
+{"section":55,"id":"550144","japanese":"<if><value:$01><equal>2う、うそ…<line-break>みんな…石になってる…！？<end><if><value:$01><equal>13…これだけの人数が石化している？<end>…いや、ただの石化ではない。　　<line-break>これは…。<end><if><value:$01><equal>4きゃっ、みんな、石になってる。<line-break>少し、ここに来たの、後悔してるかも！<end><if><value:$01><equal>14なんということじゃ！<line-break>村人を石に変えるとは！　おのれ…。<end><if><value:$01><equal>17な、なんなのよぉ！　石、石…！<line-break>み～んな石になってるじゃない！<end><if><value:$01><equal>19ひ、ひどい！<line-break>みんな…石になってるよぉ！<end><if><value:$01><equal>22みんな魂を抜かれて石にされてるよ。<line-break>さっきの男？　それともあの怪物？<end><if><value:$01><equal>10どういうことだよ！<line-break>みんな石にされちまってる！<end>ね、ねえ、<value:$28>…<line-break>みんな…石になってるよ…！<end>"}
+{"section":55,"id":"550145","japanese":"…ソウルリープ！　　　　　　　　　　<line-break>　<line-break><line-break>この状況…さっきの奴よりも<line-break>強力な使い手がいるってことか…。<line-break>石化獣って名前はダテじゃないんだな。<end>"}
+{"section":55,"id":"550146","japanese":"<value:$28>、気をつけろ！<line-break>魂抜かれて、石にされるぞ！<end>"}
+{"section":55,"id":"550147","japanese":"み、み、みんな…<line-break>石になってるよ！？<end>"}
+{"section":55,"id":"550148","japanese":"なんと！　みんな石になっておる！<line-break>いったい、何奴が！？<end>"}
+{"section":55,"id":"550149","japanese":"…少なくとも、自分の意志から<line-break>石になったわけではござらんな。<end>"}
+{"section":55,"id":"550150","japanese":"申しわけござらぬ。<line-break>不謹慎でござった。<end>"}
+{"section":55,"id":"550151","japanese":"＜無＞<end>"}
+{"section":55,"id":"550152","japanese":"＜無＞<end>"}
+{"section":55,"id":"550153","japanese":"＜無＞<end>"}
+{"section":55,"id":"550154","japanese":"＜無＞<end>"}
+{"section":55,"id":"550155","japanese":"＜無＞<end>"}
+{"section":55,"id":"550156","japanese":"＜無＞<end>"}
+{"section":55,"id":"550157","japanese":"＜無＞<end>"}
+{"section":55,"id":"550158","japanese":"＜無＞<end>"}
+{"section":55,"id":"550159","japanese":"＜無＞<end>"}
+{"section":55,"id":"550160","japanese":"＜無＞<end>"}
+{"section":55,"id":"550161","japanese":"＜無＞<end>"}
+{"section":55,"id":"550162","japanese":"＜無＞<end>"}
+{"section":55,"id":"550163","japanese":"＜無＞<end>"}
+{"section":55,"id":"550164","japanese":"＜無＞<end>"}
+{"section":55,"id":"550165","japanese":"わ、わたしが相手です！<end>"}
+{"section":55,"id":"550166","japanese":"……………！？<line-break>…ノ…エル…？<end>"}
+{"section":55,"id":"550167","japanese":"う…うあ…。<line-break>あ…あ……。<end>"}
+{"section":55,"id":"550168","japanese":"たぁーーーーーーーっ！<end>"}
+{"section":55,"id":"550169","japanese":"…ノエル！！<end>"}
+{"section":55,"id":"550170","japanese":"きゃぁっ！<end>"}
+{"section":55,"id":"550171","japanese":"うっ…！<end>"}
+{"section":55,"id":"550172","japanese":"<if><value:$01><equal>10姉ちゃん、いくぜ！<end><if><value:$01><equal>15ねえ、<value:$28>！<line-break>今だよ！<end><if><value:$01><equal>2<value:$28>！<line-break>今よ！<end><if><value:$01><equal>19<value:$28>！<line-break>今よ！<end><if><value:$01><equal>4今、スキをついて攻撃すると<line-break>卑怯だけど効果的かも。きゃっ！<end><if><value:$01><equal>13…いくぞ。<end><if><value:$01><equal>14<value:$28>！<line-break>今じゃ！<end><if><value:$01><equal>17<value:$28>！<end><if><value:$01><equal>18今でござる！<end><value:$28>！<line-break>今だ！<end>"}
+{"section":55,"id":"550173","japanese":"＜無＞<end>"}
+{"section":55,"id":"550174","japanese":"＜無＞<end>"}
+{"section":55,"id":"550175","japanese":"＜無＞<end>"}
+{"section":55,"id":"550176","japanese":"＜無＞<end>"}
+{"section":55,"id":"550177","japanese":"＜無＞<end>"}
+{"section":55,"id":"550178","japanese":"＜無＞<end>"}
+{"section":55,"id":"550179","japanese":"＜無＞<end>"}
+{"section":55,"id":"550180","japanese":"＜無＞<end>"}
+{"section":55,"id":"550181","japanese":"＜無＞<end>"}
+{"section":55,"id":"550182","japanese":"＜無＞<end>"}
+{"section":55,"id":"550183","japanese":"ちっくしょう！　あと少しで<line-break>あの怪ブツもおだブツだったのに！<line-break>…ププッ、今日も俺はさえてるぜ！<end>"}
+{"section":55,"id":"550184","japanese":"ヴァン…、<line-break>こういうときに、<line-break>そういう冗談やめようよ。<line-break>それよりも、<line-break>ねえ、<value:$28><line-break>あの黒づくめも…。<end>"}
+{"section":55,"id":"550185","japanese":"ホントだ。<end>"}
+{"section":55,"id":"550186","japanese":"し、師匠、すばらしい！<line-break>背筋がゾクッとくる寒さでござる！<end>"}
+{"section":55,"id":"550187","japanese":"へへっ、お前も修行を怠るなよ！<line-break>…で、あの黒づくめはどこ行ったんだ？<end>"}
+{"section":55,"id":"550188","japanese":"おいおい、どうしたんだ？<line-break>へへっ、あれしきで、へこたれんなよ。<end>"}
+{"section":55,"id":"550189","japanese":"ちっ、ホントなら<line-break>大ウケなのによ！<end>"}
+{"section":55,"id":"550190","japanese":"おーい、<value:$28>。<line-break>黒づくめもいねえぞ。どうすんだ？<end>"}
+{"section":55,"id":"550191","japanese":"<if><value:$01><equal>2あと少しだったのに…。<line-break>それに、あの、黒づくめも<line-break>逃がしちゃったみたいね…。<line-break><value:$28><line-break>だいじょうぶ？<line-break>ケガはない？<end><if><value:$01><equal>6怪物…逃げちゃった。ううん。<line-break>あのままじゃ、こっちが危なかった…<line-break>見逃してもらったって言うべきかな。<line-break>さっきの黒づくめの男もいない…。<end><if><value:$01><equal>12あの、黒づくめの男も　<line-break>逃がしちまったようだ。<line-break>ここをもとに戻す手がかりはなし、か。<end><if><value:$01><equal>13…黒づくめの方も<line-break>逃げたようだ。<end><if><value:$01><equal>10くそっ、逃がすかよ。<line-break>これ以上、誰かを石にさせるもんか！<line-break>姉ちゃん、追おう！<end><if><value:$01><equal>14逃げおったか…。<line-break>ま、わしらに勝てる相手ではない。<line-break>命があっただけでももうけものじゃな。<line-break>そう言えば、あの黒づくめは…？<line-break>あやつ、最後には、<line-break>改心しよった感じじゃったが。<end><if><value:$01><equal>15怪物も<line-break>…それに、あの黒ずくめの男も、<line-break>逃げちゃったね。<line-break>見逃してもらった、とか、<line-break>運がよかった、という方が<line-break>正しい言い方かもね…。<end><if><value:$01><equal>17高貴なエルフのアタクシにかかれば<line-break>あんな怪物、軽いわ！　物足りないわ！<line-break>楽勝だわ！<line-break>フフ、あの黒づくめも逃げたようね。<line-break>さ、ド下等生物の<value:$28>、<line-break>この偉大なアタクシを讃えてよくてよ！<end><if><value:$01><equal>18黒づくめもおりませぬ。<line-break>…逃げた様子ですな。<end><if><value:$01><equal>4きゃっ、怪物も逃げたし<line-break>黒づくめもいないわ。<line-break>これって、助かったのかも！<end><if><value:$01><equal>19あの怪物にも、黒づくめにも<line-break>逃げられちゃったね。<line-break><value:$28>。<line-break>でも、あの黒づくめの人、<line-break>頭が痛そうにしてたけど…<line-break>大丈夫かなあ。<end>あ～あ、逃げられちゃったよ。<line-break>でも、あんな怪物、<line-break>今のぼくたちには倒せないよぉ。<end>"}
+{"section":55,"id":"550192","japanese":"<if><value:$01><equal>2なぁに？　あの娘が気になるの？<line-break>私はいいけど、フェルムちゃんが<line-break>聞いたら、悲しむわよ？<end><if><value:$01><equal>6あの娘…。<line-break>相当、ショックみたいだよ。<line-break>助けにいって…あげなよ。<end><if><value:$01><equal>12とりあえずは<line-break>あの娘をなんとかしてやんなきゃ、な。<end><if><value:$01><equal>13…放っておけ。<line-break>どうせ、自決する。　　　<line-break>　<line-break>関わるだけ時間のムダだ。<line-break>死にたい奴は<line-break>勝手に死ねばいい。<end><if><value:$01><equal>10姉ちゃん、なにやってんだよ！<line-break>早く、追わなきゃ…って<line-break>あ…。<line-break>…そうだよな、姉ちゃん。<line-break>ひとり、助かってる人がいたんだ。<line-break>そっちが、先か。<end><if><value:$01><equal>14おお、そうじゃ。<line-break>助かった娘っこが<line-break>おったのじゃったな。<end><if><value:$01><equal>15そうだ、あの娘…。<end><if><value:$01><equal>17…って、なによぉぉお！<line-break>そんな下等生物なんて<line-break>放っておいて、アタクシを讃えるのよ！<end><if><value:$01><equal>18…その子供を助けるので？<line-break>兄弟子。<end><if><value:$01><equal>4うふふ、<value:$28>ったら<line-break>あそこの女の子を見つめてる。<line-break>　<line-break>あのノエルってコは<line-break>ショックで自分を失ってるのに<line-break>どうするつもりなのかな？<end><if><value:$01><equal>19あっ、そっか！<line-break>確かにあの人の心配してる<line-break>場合じゃなかった。<line-break>あのお姉ちゃん<line-break>…ノエル…だっけ？<line-break>助けなきゃだった。<end>…黒づくめの男にも逃げられた以上、<line-break>この村の人を救う方法はわからない。<line-break>　<line-break>とりあえず、彼女…ノエルだっけ？<line-break>そのノエルだけでも救わなくちゃだよ。<line-break>ね？　<value:$28>。<end>"}
+{"section":55,"id":"550193","japanese":"<if><value:$01><equal>2あ、ちょっと！<line-break><value:$28>！<end><if><value:$01><equal>6…<value:$28>。<end><if><value:$01><equal>12…なるほど<line-break>ノエル…って言ったっけ。<end><if><value:$01><equal>13…フッ、やれやれ、<line-break>しょうがない奴だ。<end><if><value:$01><equal>10姉ちゃん<line-break>そのコ、どうだ？<line-break>大丈夫か？<end><if><value:$01><equal>14…ショックじゃったのじゃろうな。<line-break>まるで、ふぬけのようじゃ。<end><if><value:$01><equal>15ショック…だろうな…。<end><if><value:$01><equal>17キー！　この高貴なエルフのアタクシを<line-break>置いてくなんて１００年早くてよぉ！！<end><if><value:$01><equal>18…その子もつらかろう。<line-break>自分の村がこの有様では…。<end><if><value:$01><equal>4きゃっ、<value:$28>ったら<line-break>あのコを助けにいくつもりかな？<line-break>かなり、おバカさんかも！<line-break>あのまま、死なせてあげた方が<line-break>あのコにはつらいことが少ないのに！<line-break>もう、ホントにおせっかいさん！<end><if><value:$01><equal>19ねえ、ノエルってお姉ちゃん、<line-break>だいじょうぶそう？<line-break><value:$28>。<end>…でも、立ち直れるかな。<line-break>彼女…。<end>"}
+{"section":55,"id":"550194","japanese":"＜無＞<end>"}
+{"section":55,"id":"550195","japanese":"＜無＞<end>"}
+{"section":55,"id":"550196","japanese":"＜無＞<end>"}
+{"section":55,"id":"550197","japanese":"＜無＞<end>"}
+{"section":55,"id":"550198","japanese":"＜無＞<end>"}
+{"section":55,"id":"550199","japanese":"＜無＞<end>"}
+{"section":55,"id":"550200","japanese":"＜無＞<end>"}
+{"section":55,"id":"550201","japanese":"＜無＞<end>"}
+{"section":55,"id":"550202","japanese":"＜無＞<end>"}
+{"section":55,"id":"550203","japanese":"＜無＞<end>"}
+{"section":55,"id":"550204","japanese":"＜無＞<end>"}
+{"section":55,"id":"550205","japanese":"＜無＞<end>"}
+{"section":55,"id":"550206","japanese":"＜無＞<end>"}
+{"section":55,"id":"550207","japanese":"＜無＞<end>"}
+{"section":55,"id":"550208","japanese":"＜無＞<end>"}
+{"section":55,"id":"550209","japanese":"＜無＞<end>"}
+{"section":55,"id":"550210","japanese":"＜無＞<end>"}
+{"section":55,"id":"550211","japanese":"＜無<end>"}
+{"section":55,"id":"550212","japanese":"＜無＞<end>"}
+{"section":55,"id":"550213","japanese":"＜無＞<end>"}
+{"section":55,"id":"550214","japanese":"＜無＞<end>"}
+{"section":55,"id":"550215","japanese":"＜無＞<end>"}
+{"section":55,"id":"550216","japanese":"＜無＞<end>"}
+{"section":55,"id":"550217","japanese":"＜無＞<end>"}
+{"section":55,"id":"550218","japanese":"＜無＞<end>"}
+{"section":55,"id":"550219","japanese":"＜無＞<end>"}
+{"section":55,"id":"550220","japanese":"＜無＞<end>"}
+{"section":55,"id":"550221","japanese":"＜無＞<end>"}
+{"section":55,"id":"550222","japanese":"＜無＞<end>"}
+{"section":55,"id":"550223","japanese":"＜無＞<end>"}
+{"section":55,"id":"550224","japanese":"＜無＞<end>"}
+{"section":55,"id":"550225","japanese":"＜無＞<end>"}
+{"section":55,"id":"550226","japanese":"＜無＞<end>"}
+{"section":55,"id":"550227","japanese":"＜無＞<end>"}
+{"section":55,"id":"550228","japanese":"＜無＞<end>"}
+{"section":55,"id":"550229","japanese":"＜無＞<end>"}
+{"section":55,"id":"550230","japanese":"＜無＞<end>"}
+{"section":55,"id":"550231","japanese":"＜無＞<end>"}
+{"section":55,"id":"550232","japanese":"＜無＞<end>"}
+{"section":55,"id":"550233","japanese":"＜無＞<end>"}
+{"section":55,"id":"550234","japanese":"＜無＞<end>"}
+{"section":55,"id":"550235","japanese":"＜無＞<end>"}
+{"section":55,"id":"550236","japanese":"＜無＞<end>"}
+{"section":55,"id":"550237","japanese":"＜無＞<end>"}
+{"section":55,"id":"550238","japanese":"＜無＞<end>"}
+{"section":55,"id":"550239","japanese":"…目が覚めるとキミがいた。<line-break>ボクは、眠りのお姫様…。<end>"}
+{"section":55,"id":"550240","japanese":"どーして、キミは<line-break>ボクにだけ、そーゆー態度取るかなあ！<end>"}
+{"section":55,"id":"550241","japanese":"…あ、あの娘。<line-break>…たぶん、ショックなんだと思うよ。<line-break>　<line-break>ねえ、<value:$28>…。<line-break>行って…あげてよ…。<end>"}
+{"section":55,"id":"550242","japanese":"よ、お目覚めかい？<line-break>どうやら、やっこさん、俺たちに<line-break>とどめを刺さずに行ったようだ。<line-break>あの、黒づくめのボウヤが<line-break>助けてくれたのかも、な。<end>"}
+{"section":55,"id":"550243","japanese":"それとも、あのノエルって<line-break>女の子かな？<end>"}
+{"section":55,"id":"550244","japanese":"俺は、女の名前なら<line-break>一度聞いたら忘れない。<line-break>　<line-break>ま、それが<line-break>半分の確率でってのが<line-break>つらいところだが、な。<end>"}
+{"section":55,"id":"550245","japanese":"こっちからも助けを出してやらないと<line-break>まずい状況みたいだぜ？　彼女。<end>"}
+{"section":55,"id":"550246","japanese":"イテテテ…お、俺としたことが、<line-break>怪ぶつにやられて、おだぶつ。<line-break>ププププ…。<end>"}
+{"section":55,"id":"550247","japanese":"ヴァン…、こういうときに、<line-break>そういう冗談やめようよ。<line-break>　<line-break>それよりも、<line-break>ねえ、<value:$28><line-break>あの黒づくめも…。<end>"}
+{"section":55,"id":"550248","japanese":"ホントだ。<end>"}
+{"section":55,"id":"550249","japanese":"し、師匠、すばらしい！<line-break>背筋も凍る寒さでござる！<end>"}
+{"section":55,"id":"550250","japanese":"へへっ、お前も修行を怠るなよ！<line-break>…で、あの黒づくめはどこ行ったんだ？<end>"}
+{"section":55,"id":"550251","japanese":"おいおい、どうしたんだ？<line-break>へへっ、あれしきで、へこたれんなよ。<end>"}
+{"section":55,"id":"550252","japanese":"ちっ、ホントなら<line-break>大ウケなのによ！<end>"}
+{"section":55,"id":"550253","japanese":"おーい、<value:$28>。<line-break>黒づくめもいねえぞ。どうすんだ？<end>"}
+{"section":55,"id":"550254","japanese":"<if><value:$01><equal>2<value:$28>、しっかりして！<line-break><value:$28>！<end><if><value:$01><equal>13…起きろ。<line-break>…いつまで寝ている。<end><if><value:$01><equal>10姉ちゃん、目を覚ましてくれよ。<line-break>姉ちゃん！！<end><if><value:$01><equal>14こら、しっかりせい。<line-break><value:$28>！<end><if><value:$01><equal>15ねえ、<value:$28>、<line-break>しっかり。しっかりしてよ。<end><if><value:$01><equal>17ちょっと！　ここで死んじゃうのぉ？<line-break>下等生物って短命なのはわかるけど<line-break>こんなに簡単に死なないでよぉ！<line-break>許さなくてよぉ！　高貴なエルフである<line-break>アタクシは許さなくてよぉ！<line-break>早く起きるのよぉ！　目を覚まして！<end><if><value:$01><equal>18兄弟子！<line-break>しっかりしてくだされ。<end><if><value:$01><equal>4もしかして<line-break>死んじゃってるかも…<end><if><value:$01><equal>19<value:$28>～！<line-break><value:$28>、しっかりしてぇ。<end><value:$28>、しっかりしてよぉ！<line-break><value:$28>てばぁ！<end>"}
+{"section":55,"id":"550255","japanese":"<if><value:$01><equal>2もう、びっくりさせないで！<line-break>死んだかと思ったじゃない。<end><if><value:$01><equal>13…フッ。<line-break>いらぬ心配をかけるな。<end><if><value:$01><equal>10姉ちゃん、<line-break>…よかった。<end><if><value:$01><equal>14<value:$28>、<line-break>ちゃんと生きておるか？<end><if><value:$01><equal>15…よかった。<line-break>ねえ、<value:$28>、<line-break>僕、心配しちゃたよ。<end><if><value:$01><equal>17な、な、な、な、なによ！<line-break>生きてるんなら、<line-break>さっさと起きなさいよ！<line-break>下等生物であるあなたが、<line-break>高貴なエルフであるアタクシに<line-break>心配かけるなんて５００年早くてよぉ！<end><if><value:$01><equal>18兄弟子…<line-break>お気がつかれましたか。<end><if><value:$01><equal>4きゃっ！　生きてたみたい！<end><if><value:$01><equal>19よかったあ！<line-break>大丈夫？<end>よかったぁ！<line-break>このまま目を開けなかったら<line-break>どうしようかと思った。<end>"}
+{"section":55,"id":"550256","japanese":"<if><value:$01><equal>2残念だけど、逃げられたようね。<end><if><value:$01><equal>13…逃げられた。<line-break>怪物にも、あの男にも…。<end><if><value:$01><equal>10怪物にも、あの黒づくめにも<line-break>逃げられちまったよ、姉ちゃん。<line-break>…ちくしょう！<end><if><value:$01><equal>14逃げおったか…。<line-break>ま、わしらに勝てる相手ではない。<line-break>命があっただけでももうけものじゃな。<line-break>そう言えば、あの黒づくめも…？<line-break>あやつ、最後には、<line-break>改心しよった感じじゃったが。<end><if><value:$01><equal>15ひどい目にあったけど<line-break>どうやら助かったみたいだ。<line-break>…見逃してもらったんだね。<line-break>いや、もしかしたら、<line-break>あの黒づくめに助けられたのかも…。<end><if><value:$01><equal>17もう怪物もあの黒づくめもいなくてよ。<line-break>まったく、だらしなくてよ、あなた。<line-break>　<line-break>ま、あなた１人、どんな目にあっても<line-break>別にかまわないけれど<line-break>高貴なエルフであるアタクシまで…<end><if><value:$01><equal>18どうやら助かった様子。<line-break>怪物にもとどめを刺されなんだとは、<line-break>あの黒づくめに助けられましたかな？<end><if><value:$01><equal>4私、アカデミーではいじめっ子に、<line-break>家ではお義母さんにいじめられてたから、<line-break>すごく、打たれ強いの！　きゃっ！<line-break>あ、それより、あの怪物も<line-break>黒づくめの人も逃げちゃったのね。　　<line-break>助かっちゃったかも！<end><if><value:$01><equal>19あの怪物にも、黒づくめにも<line-break>逃げられちゃったね。<line-break><value:$28>。<line-break>でも、あの黒づくめの人、<line-break>頭が痛そうにしてたけど…<line-break>大丈夫かなあ。<end>あ～あ、逃げられちゃったよ。<line-break>でも、あんな怪物、<line-break>今のぼくたちには倒せないよぉ。<end>"}
+{"section":55,"id":"550257","japanese":"<if><value:$01><equal>2なぁに？　気がついたら<line-break>すぐ女の子の方に行くわけ？<line-break>　<line-break>べ、別にあたしはいいけど<line-break>フェルムちゃんが悲しむんじゃ<line-break>ないかなーって、思ってさ。<end><if><value:$01><equal>13…放っておけ。<line-break>どうせ、自決する。　　　<line-break>　<line-break>関わるだけ時間のムダだ。<line-break>死にたい奴は<line-break>勝手に死ねばいい。<end><if><value:$01><equal>10…そっか。<line-break>失敗をくいるより<line-break>今、できること、か…、姉ちゃん。<end><if><value:$01><equal>14おお、そうじゃ。<line-break>助かった娘っこが<line-break>おったのじゃったな。<end><if><value:$01><equal>15あ、そうだ。<line-break>ノエルって言ったっけ。<line-break>あのコを助けなくちゃ…。<end><if><value:$01><equal>17何よぉ！　あんな下等生物助けても<line-break>ロクなことはなくてよぉ！　あんなのは<line-break>放っておいて、アタクシの話を聞くの！<end><if><value:$01><equal>18ボルダンには、敗北はこの上ない屈辱。<line-break>…あの人間の貴族の娘にとっても<line-break>そうなのでござろうか？<end><if><value:$01><equal>4あの人は、ずーっとあんな感じかな。　<line-break>たぶん、頭よすぎるのかも。<line-break>きゃっ！<line-break>うふふふ。頭いい人間に、私が<line-break>ひそかに嫉妬と悪感情を持ってるのが、<line-break>よくわかるセリフを言っちゃったかな！<end><if><value:$01><equal>19あっ、そっか！<line-break>確かにあの人の心配してる<line-break>場合じゃなかった。<line-break>あのお姉ちゃん<line-break>…ノエル…だっけ？<line-break>助けなきゃだった。<end>…黒づくめの男にも逃げられた以上、<line-break>この村の人を救う方法はわからない。<line-break>　<line-break>とりあえず、彼女…ノエルだっけ？<line-break>そのノエルだけでも救わなくちゃだよ。<line-break>ね？　<value:$28>。<end>"}

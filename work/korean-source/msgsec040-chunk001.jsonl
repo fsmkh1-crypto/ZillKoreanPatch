@@ -1,0 +1,249 @@
+{"section":40,"id":"400000","japanese":"ネメア・ボリューム１開始<end>"}
+{"section":40,"id":"400001","japanese":"あんた、ロストールの西にある<line-break>城塞都市跡に行ったことあるかい？<line-break>　<line-break>実はあの場所で、<line-break>怪現象が起こるって話があってさ。<line-break>ギルドで情報を集めてるんだ。<end>"}
+{"section":40,"id":"400002","japanese":"なんでも生きてるような黒い闇が　<line-break>現れるってんだが…。<line-break>　<line-break>あんた、もしなんかわかったら<line-break>知らせてくれないか？<line-break>ちゃんと報酬も用意しておくぜ。<end>"}
+{"section":40,"id":"400003","japanese":"お！　城塞都市の噂を突き止めたか！　<line-break>よしよし、聞かせてくれよ。<line-break>　<end>"}
+{"section":40,"id":"400004","japanese":"へー、円卓騎士バルザーねー。<line-break>そいつ、以前ディンガルを支配していた<line-break>魔王バロルが復活させたヤツだろ？<line-break>結局、バロルは、<line-break>ネメアに倒されちまったが、<line-break>またなんかたくらんでたのかな。<end>"}
+{"section":40,"id":"400005","japanese":"なんにせよ、ありがとよ。　　　　　　<line-break><value:$28>。<line-break>　<end>"}
+{"section":40,"id":"400006","japanese":"<if><value:$01><equal>2このことかしら…？<line-break>噂になってる怪現象って。 <end><if><value:$01><equal>4見るからに怪しげかな。<line-break>噂の怪現象って、これかも。 <end><if><value:$01><equal>5ギルドで言ってた怪現象って、<line-break>これじゃねえのか？ <end><if><value:$01><equal>6ねえ、<value:$28>。<line-break>怪現象って、これじゃないかな。 <end><if><value:$01><equal>12空 <end><if><value:$01><equal>13…これだな。<line-break>例の怪奇現象とやらは。 <end><if><value:$01><equal>10姉ちゃん、きっとこれだよ。<line-break>ギルドで言ってた怪現象って。 <end><if><value:$01><equal>14これは奇怪な。<line-break>ギルドで言っていたのは、<line-break>これかの？ <end><if><value:$01><equal>15ギルドで言ってた怪現象って、<line-break>きっとこれだね。 <end><if><value:$01><equal>17ギルドで言ってたとかいう<line-break>怪現象ってこのことね。<line-break>もちろん、アタクシは知っていてよ。 <end><if><value:$01><equal>19ギルドで言ってたのって、<line-break>これかな？<line-break>なんか気持ち悪いね。 <end><if><value:$01><equal>20空 <end><if><value:$01><equal>193ギルドで言っていた怪現象って<line-break>こ、これ…ですよね？<line-break>私、す、すごく怖い…！<end><if><value:$01><equal>191このことかしら？<line-break>ギルドで言ってた怪現象は。<end>ギルドで言ってたの、これだよね。<line-break>うわー、ほんとに怪現象だなー。<line-break>歌の題材になるよ。 <end>"}
+{"section":40,"id":"400007","japanese":"ここにもいないか…。<line-break>バルザーめ…、<line-break>どういうつもりだ。<end>"}
+{"section":40,"id":"400008","japanese":"大丈夫か？<end>"}
+{"section":40,"id":"400009","japanese":"空<end>"}
+{"section":40,"id":"400010","japanese":"空<end>"}
+{"section":40,"id":"400011","japanese":"<if><value:$01><equal>2ね、ネメアさん！？ <end><if><value:$01><equal>4あ！　あの英雄ネメアかも！？ <end><if><value:$01><equal>5あ！　ネメアじゃんか！？ <end><if><value:$01><equal>6あ！　英雄ネメア！？ <end><if><value:$01><equal>12空 <end><if><value:$01><equal>13お前は、<line-break>…ネメアか。 <end><if><value:$01><equal>10ね、ネメア…！？ <end><if><value:$01><equal>14…お主は、<line-break>…ね、ネメアか！？ <end><if><value:$01><equal>15…ね、ネメアさん！？ <end><if><value:$01><equal>17誰よ、誰よ、今度は誰なのよー！<line-break>…って、あなた、ネメア！？ <end><if><value:$01><equal>19あぁ！　ネメアさんだぁ！ <end><if><value:$01><equal>193あ、あなたは<line-break>英雄ネメアさん！？<end><if><value:$01><equal>191あなたは…ネメア！？<end>あ！　英雄ネメアだ！ <end>"}
+{"section":40,"id":"400012","japanese":"危ないところだったな。<end>"}
+{"section":40,"id":"400013","japanese":"そうだ。<line-break>以前話した闇の気配…。<line-break>それが、ここにある。<end>"}
+{"section":40,"id":"400014","japanese":"<if><value:$01><equal>2破壊神に仕える魔人…？<line-break>そんなヤツがここにいるなんて…。 <end><if><value:$01><equal>4破壊神って、神話に出てくる<line-break>悪者のことだったかな。<line-break>アカデミーで習ったかも。 <end><if><value:$01><equal>5破壊神の円卓騎士！？<line-break>ほんとかよ！？ <end><if><value:$01><equal>6破壊神て…神話に出てくる<line-break>邪神じゃない！<line-break>そんな奴がここにいるの！？ <end><if><value:$01><equal>12空 <end><if><value:$01><equal>13魔人だと…！？<line-break>アーギルシャイアの仲間か！ <end><if><value:$01><equal>10魔人て、オルファウスが<line-break>言ってたヤツの仲間かな？ <end><if><value:$01><equal>14あの破壊神の円卓騎士を<line-break>追っとるとは、<line-break>豪気な冒険をしとるの。 <end><if><value:$01><equal>15破壊神の円卓騎士…。<line-break>そんなにすごい魔人が<line-break>ここにいるなんて…。 <end><if><value:$01><equal>17やーね、魔人？<line-break>まったく、<value:$28>といると<line-break>ろくな目にあわないわ！ <end><if><value:$01><equal>18空 <end><if><value:$01><equal>19魔人だったら、<line-break>私たちも探してるよぉ。<line-break>ね、<value:$28>。 <end><if><value:$01><equal>20空 <end><if><value:$01><equal>193ま、魔人ですか！？<line-break>ま、魔人のいる迷宮なんて<line-break>伝説の勇者さんが挑むところですよね？<line-break>す、すみません！！<line-break>ろ、ロストールのウエイトレスなんかが<line-break>挑んでいい場所じゃありませんよね！？<end><if><value:$01><equal>191破壊神の円卓の騎士…<line-break>そんな恐ろしい相手が、<line-break>ここにいるというの！？<end>魔人に挑むネメアかー。<line-break>いい歌になりそうだなー。<line-break><value:$28>、ついていこうよ。 <end>"}
+{"section":40,"id":"400015","japanese":"…バルザーを知っているのか？<end>"}
+{"section":40,"id":"400016","japanese":"そうか。<line-break>ならば、話が早い。<end>"}
+{"section":40,"id":"400017","japanese":"なぜこの場所に来てしまったのかは<line-break>知らないが、<line-break>ここに長くとどまるのは危険だ。<line-break>ここはバルザーが作り出した異空間。<line-break>先ほどのモンスターもそうだが、<line-break>何が待ちかまえているかわからない。<end>"}
+{"section":40,"id":"400018","japanese":"行動を共にした方が<line-break>安全だと思うが、<line-break>構わないかな？<end>"}
+{"section":40,"id":"400019","japanese":"では、行こう。<line-break>おそらく、バルザーを倒さねば<line-break>この異空間は消えない。<line-break>ヤツのもとにたどり着き<line-break>雌雄を決さねばなるまい。<end>"}
+{"section":40,"id":"400020","japanese":"待っていた…。<end>"}
+{"section":40,"id":"400021","japanese":"…バルザー。<end>"}
+{"section":40,"id":"400022","japanese":"勇者ネメアよ。<end>"}
+{"section":40,"id":"400023","japanese":"私はネメアだ。<line-break>勇者ネメアなどではない。<end>"}
+{"section":40,"id":"400024","japanese":"運命に抗おうとする者…。<end>"}
+{"section":40,"id":"400025","japanese":"これを勇者と呼ばずして、<line-break>誰を勇者と呼ぶ？<end>"}
+{"section":40,"id":"400026","japanese":"…だが、ムダだ。<line-break>うぬとても運命には逆らえぬ。<end>"}
+{"section":40,"id":"400027","japanese":"我らが主、破壊神ウルグ様は<line-break>必ずや復活される…。<end>"}
+{"section":40,"id":"400028","japanese":"ゆくぞ、<value:$28>。<end>"}
+{"section":40,"id":"400029","japanese":"フ…フフ…我が事…成れり！<end>"}
+{"section":40,"id":"400030","japanese":"なんだと…？<end>"}
+{"section":40,"id":"400031","japanese":"死より生まれし獅子…槍の主を殺す。<line-break>我らの主は死の獅子に来る…。<line-break>…妖術宰相ゾフォルの予言だ。<end>"}
+{"section":40,"id":"400032","japanese":"ああ…。<end>"}
+{"section":40,"id":"400033","japanese":"フフ…奴の予言は…外れぬ。<line-break>　<line-break>　<line-break>疑うならば、エ、エルズの<line-break>巫女エアに確かめてみるが…よい。<line-break>奴は…天地千年を見通す能力がある。<end>"}
+{"section":40,"id":"400034","japanese":"最期の言葉は、それで終わりか？<end>"}
+{"section":40,"id":"400035","japanese":"確かに、聞いた。<end>"}
+{"section":40,"id":"400036","japanese":"あわてるな。<line-break>バルザーの死によって、<line-break>異空間がその姿を保てなくなったのだ。<line-break>今からテレポートで脱出する。<line-break>私の周りに集まれ。<end>"}
+{"section":40,"id":"400037","japanese":"リベルダムまで跳ぶ。<line-break>ゆくぞ。<end>"}
+{"section":40,"id":"400038","japanese":"…お前の負けだ。<line-break>破壊神の円卓騎士バルザーよ。<line-break>　<line-break>破壊神ウルグ、復活はさせぬ。<end>"}
+{"section":40,"id":"400039","japanese":"さすがだ…、ネメア。<line-break>　<line-break>　<line-break>破壊神の円卓騎士の中でも<line-break>１、２を争う力を持つ我を<line-break>こうもたやすく倒すとは…な…。<end>"}
+{"section":40,"id":"400040","japanese":"再会のあいさつは抜きだ。<line-break>それより、すぐにここを<line-break>出なければならない。<line-break>バルザーの死により、<line-break>ここはまもなく崩壊するだろう。<end>"}
+{"section":40,"id":"400041","japanese":"以前話した闇の気配が<line-break>まだ残っている。<line-break>これで終わりではないな…。<end>"}
+{"section":40,"id":"400042","japanese":"むしろ、<line-break>始まりかもしれん。<end>"}
+{"section":40,"id":"400043","japanese":"あわてるな。<line-break>今からテレポートで脱出する。<line-break>私の周りに集まれ。<end>"}
+{"section":40,"id":"400044","japanese":"<if><value:$01><equal>2すごい…。<line-break>一瞬で、<line-break>リベルダムに着いたわ。 <end><if><value:$01><equal>6すごい…。<line-break>一瞬で、<line-break>リベルダムに着いちゃった。 <end><if><value:$01><equal>19すっごーい！　すごいすごい！<line-break>一瞬で、<line-break>リベルダムに着いちゃったぁ。 <end><if><value:$01><equal>22すごいなぁ！<line-break>一瞬で、<line-break>リベルダムに着いちゃった。 <end><if><value:$01><equal>193すごいです！<line-break>一瞬で、<line-break>リベルダムに着いちゃいました。<end><if><value:$01><equal>191すごいわね。<line-break>一瞬でリベルダムに着いたわ。<end>すごい…。<line-break>一瞬で、<line-break>リベルダムに…。 <end>"}
+{"section":40,"id":"400045","japanese":"ネメアさん、<line-break>ありがとうございました！<end>"}
+{"section":40,"id":"400046","japanese":"こちらこそ。<end>"}
+{"section":40,"id":"400047","japanese":"<if><value:$01><equal>2それじゃ、町を出るときに<line-break>また会いましょ、<value:$28>。 <end><if><value:$01><equal>15それじゃ、<value:$28>。<line-break>また町を出るときに合流しよう。 <end><if><value:$01><equal>19それじゃ、<value:$28>。<line-break>また町を出るときに合流しようね。 <end><if><value:$01><equal>10それじゃ、姉ちゃん。<line-break>また町を出るときに合流しようぜ。 <end><if><value:$01><equal>193そ、それじゃ、失礼します！<line-break>町を出る時にまた！<end><if><value:$01><equal>191それじゃ、<line-break>町を出るときに合流しましょ。<end>"}
+{"section":40,"id":"400048","japanese":"<if><value:$01><equal>5ホントにリベルダムだぜ。<line-break>…すげえ。 <end>…ここは、…リベルダム。 <end>"}
+{"section":40,"id":"400049","japanese":"<if><value:$01><equal>5あ、あんた、本物の<line-break>勇者ネメアだったんだな！ <end>…さすがだ。 <end>"}
+{"section":40,"id":"400050","japanese":"<if><value:$01><equal>5…お、俺、いつか、あんたを<line-break>越えてやるぜ！<line-break>　<line-break>んじゃ、俺はちょっと町を見てくる。<line-break>町を出るときに<line-break>また会おうぜ、<value:$28>！ <end><if><value:$01><equal>14<value:$28>、<line-break>また町を出るときに合流じゃ。 <end>…先に行く。 <end>"}
+{"section":40,"id":"400051","japanese":"空<end>"}
+{"section":40,"id":"400052","japanese":"ホントにリベルダムだわ…。<line-break>これって、すごいかも！<end>"}
+{"section":40,"id":"400053","japanese":"ネメア様、今日は<line-break>ホントに楽しかったです！<end>"}
+{"section":40,"id":"400054","japanese":"…楽しかった？<end>"}
+{"section":40,"id":"400055","japanese":"ネメア様、あんまり<line-break>喜んでおられないみたいだわ…。<line-break>ま、いいか。ずらかろっと！<end>"}
+{"section":40,"id":"400056","japanese":"それじゃ、私、町を見てくるわ<line-break>じゃあね、<value:$28>！<end>"}
+{"section":40,"id":"400057","japanese":"あ、<value:$28>様でありますか。<line-break>アンギルダン将軍から承っております！<line-break>　<line-break>ただ、将軍は極秘視察で<line-break>１ケ月は戻ってこられません。<line-break>しばらくしてからまたお越しください。<end>"}
+{"section":40,"id":"400058","japanese":"傭兵志願者か。<line-break>担当は将軍とともに出ていて<line-break>１ケ月は政庁に戻ってこない。　　　　　　<line-break>ひと月以上たってから来るといい。<line-break>その間に強くなっておくことだ。<line-break>戦場で最後に頼れるのは自分の腕だからな。<end>"}
+{"section":40,"id":"400059","japanese":"あ、<value:$28>様でありますか。<line-break>アンギルダン将軍は出撃の準備に忙しく、<line-break>政庁においでではありません。<line-break>…これは極秘情報でありますが、<line-break>出撃はあと半月以上先になりそうです。<line-break>しばらくしてからまたお越しください。<end>"}
+{"section":40,"id":"400060","japanese":"傭兵志願者か。<line-break>担当は将軍とともに出ていて　　<line-break>半月は政庁に戻ってこない。<line-break>半月以上たってから来るといい。<line-break>その間に強くなっておくことだ。<line-break>帝国は武を尊ぶのだ。<end>"}
+{"section":40,"id":"400061","japanese":"空<end>"}
+{"section":40,"id":"400062","japanese":"空<end>"}
+{"section":40,"id":"400063","japanese":"空<end>"}
+{"section":40,"id":"400064","japanese":"空<end>"}
+{"section":40,"id":"400065","japanese":"空<end>"}
+{"section":40,"id":"400066","japanese":"空<end>"}
+{"section":40,"id":"400067","japanese":"おそらく、円卓騎士バルザー。<line-break>破壊神に仕える屈強の魔人のものだ。<end>"}
+{"section":40,"id":"400068","japanese":"あ、<value:$28>様でありますか。<line-break>アンギルダン将軍は出撃の準備に忙しく、<line-break>政庁においでではありません。<line-break>…これは極秘情報でありますが、<line-break>いよいよのようであります！<line-break>半月以内には出撃の用意が整うとか…。<end>"}
+{"section":40,"id":"400069","japanese":"傭兵志願者か。<line-break>担当は出ている。また来てくれ。　　　<line-break>だが、いよいよ出番らしいぞ。<line-break>あまり遠出はするなよ。<line-break>護衛も考えて引き受けることだ。<line-break>護衛を連れて戦場には出られんからな。<end>"}
+{"section":40,"id":"400070","japanese":"傭兵志願者か。<line-break>今のところ用はない。<line-break>ま、半月ぐらいあとにまた顔を出せ。<line-break>…しかし、傭兵など必要あるのか？<line-break>まったく、ファーロスのドラ息子様の<line-break>考えることはわからん。<end>"}
+{"section":40,"id":"400071","japanese":"これはノーブル伯。<line-break>なにやらお屋敷の方がお探しでした。<line-break>レムオン様のお屋敷に戻られては？<end>"}
+{"section":40,"id":"400072","japanese":"空<end>"}
+{"section":40,"id":"400073","japanese":"空<end>"}
+{"section":40,"id":"400074","japanese":"空<end>"}
+{"section":40,"id":"400075","japanese":"空<end>"}
+{"section":40,"id":"400076","japanese":"空<end>"}
+{"section":40,"id":"400077","japanese":"こちらこそ。<end>"}
+{"section":40,"id":"400078","japanese":"空<end>"}
+{"section":40,"id":"400079","japanese":"ホントにリベルダムだわ…。<end>"}
+{"section":40,"id":"400080","japanese":"………………。<end>"}
+{"section":40,"id":"400081","japanese":"アナタがお礼を言うのよ！<end>"}
+{"section":40,"id":"400082","japanese":"高貴なエルフが人間なんかに<line-break>頭下げていいはずないでしょ！<end>"}
+{"section":40,"id":"400083","japanese":"こちらこそ。<end>"}
+{"section":40,"id":"400084","japanese":"そ、それじゃ、また町を出るときに<line-break>合流するわ！<end>"}
+{"section":40,"id":"400085","japanese":"ここでお別れだな。<line-break>また会おう、<value:$28>。<end>"}
+{"section":40,"id":"400086","japanese":"空<end>"}
+{"section":40,"id":"400087","japanese":"空<end>"}
+{"section":40,"id":"400088","japanese":"ネメア様。<line-break>これはやはり…。<end>"}
+{"section":40,"id":"400089","japanese":"決定的ですね。<end>"}
+{"section":40,"id":"400090","japanese":"ん？　なんだと？<end>"}
+{"section":40,"id":"400091","japanese":"残念だ、エリュマルクよ。<end>"}
+{"section":40,"id":"400092","japanese":"ぐ…ぐほっ！<line-break>ネ、ネメ…ア…！<end>"}
+{"section":40,"id":"400093","japanese":"お前が闇に取り憑かれたことに<line-break>気づけなかった私を許せ…。<end>"}
+{"section":40,"id":"400094","japanese":"ぐ！　お、おのれぇぇ！<line-break>ネメアぁぁぁぁぁ！<end>"}
+{"section":40,"id":"400095","japanese":"運命にあらがうため。<line-break>以前から、それがネメア様の答えと、<line-break>エリュマルク帝から聞いておりました。<end>"}
+{"section":40,"id":"400096","japanese":"私も同様です。<line-break>しかし、まさか、<line-break>闇の力がこんなところにまで…。<end>"}
+{"section":40,"id":"400097","japanese":"もはや事態は一刻を争うようだな。<line-break>ベルゼーヴァ、用意は整っているな。<end>"}
+{"section":40,"id":"400098","japanese":"は。もちろんです。<end>"}
+{"section":40,"id":"400099","japanese":"なぜそれほど<line-break>闇の神器を欲しがるのだ？<end>"}
+{"section":40,"id":"400100","japanese":"あなたには関係ないわ。<line-break>ネメア様が必要としている。<line-break>だから、私たちは手に入れに来たの。<end>"}
+{"section":40,"id":"400101","japanese":"素直に渡さぬのならば、<line-break>力ずくで奪うことになる。<end>"}
+{"section":40,"id":"400102","japanese":"わしらも手荒なマネはしとうない。<line-break>　<line-break>　<line-break>闇の神器さえ手に入れば、<line-break>ウルカーンには、<line-break>軍を派遣することもなかろうて。<end>"}
+{"section":40,"id":"400103","japanese":"…仕方あるまい。<line-break>束縛の腕輪はここだ。<line-break>取りに来い。<end>"}
+{"section":40,"id":"400104","japanese":"う…！<line-break>か、体の自由が…。<end>"}
+{"section":40,"id":"400105","japanese":"ぬ！　こ、これは！？<line-break>力が…、抜けていく…。<end>"}
+{"section":40,"id":"400106","japanese":"バカめ！　うかつに近づいてきたな！<line-break>お前たちに渡す気などないわ！<end>"}
+{"section":40,"id":"400107","japanese":"なんと！　神器の力を解放しおったか！<line-break>力を吸いつくされる前に<line-break>ふたりを回復せねば！<end>"}
+{"section":40,"id":"400108","japanese":"お主、あの怪物の相手を頼む。<line-break>放っておけば、町にまで被害が及ぶ！<end>"}
+{"section":40,"id":"400109","japanese":"なんと、わしらの加勢も待たずに<line-break>奴を倒しおったか。大したものだ。<line-break>おかげで助かったわい。<end>"}
+{"section":40,"id":"400110","japanese":"あの時の我の負けは、<line-break>偶然ではなかったということか。<line-break>…おもしろい。<end>"}
+{"section":40,"id":"400111","japanese":"強くなっている…。<line-break>ネメアが言ったとおり、<line-break>我はすでにこの若者に…。<line-break>いや…、<line-break>そんなバカなことが…！<end>"}
+{"section":40,"id":"400112","japanese":"オイフェから話は聞いておる。<line-break>お主、やはり闇の神器を<line-break>集めるつもりじゃな？<end>"}
+{"section":40,"id":"400113","japanese":"次は…、渡さないわ！<end>"}
+{"section":40,"id":"400114","japanese":"闇の神器を集める限り、<line-break>お互いまたどこかで会おう。<line-break>その時はよろしくな。<end>"}
+{"section":40,"id":"400115","japanese":"………………。<end>"}
+{"section":40,"id":"400116","japanese":"気が付いたようじゃな。<line-break>お主のおかげで、<line-break>こちらの体勢を整えられた。<line-break>礼を言うぞ。<line-break>じゃが、闇の神器は<line-break>わしらがもらう。<end>"}
+{"section":40,"id":"400117","japanese":"あいつは、私たちが倒したわ。<end>"}
+{"section":40,"id":"400118","japanese":"言ったでしょう、<line-break>この件には手を出すなって。<line-break>　<line-break>時間を稼いでくれたことには<line-break>感謝するけど、あなたにはまだ、<line-break>荷が重いんじゃない？<end>"}
+{"section":40,"id":"400119","japanese":"これにこりて、もう手を引くことね。<end>"}
+{"section":40,"id":"400120","japanese":"久しぶりね。<end>"}
+{"section":40,"id":"400121","japanese":"闇の神器の探索を依頼された<line-break><value:$28>という冒険者、<line-break>あなただったのね。<end>"}
+{"section":40,"id":"400122","japanese":"手を引いた方がいいわよ。<line-break>闇の神器…、<line-break>ネメア様もその行方を追っているわ。<line-break>そして、私も<line-break>その旅に同行するつもりよ。<end>"}
+{"section":40,"id":"400123","japanese":"私は、ネメア様直属の<line-break>近衛騎士になったのよ。<line-break>　<line-break>私に生きろと言ったあの人が、<line-break>どんな生を歩むのか<line-break>見届けるためにね。<end>"}
+{"section":40,"id":"400124","japanese":"他にも、ボルダンのゼリグ、<line-break>ドワーフのドルドラムが同行するわ。<line-break>強力なパーティーよ。<end>"}
+{"section":40,"id":"400125","japanese":"あなたが闇の神器を探すつもりなら、<line-break>私たちを敵に回すことになるわ。<line-break>　<line-break>その時は…、<line-break>容赦しないわよ。<end>"}
+{"section":40,"id":"400126","japanese":"やあ、<value:$28>。<line-break>こんなところで会うなんて、<line-break>ふふ、うれしい偶然だね。<end>"}
+{"section":40,"id":"400127","japanese":"…闇の神器を探しているの？<end>"}
+{"section":40,"id":"400128","japanese":"確かに君の言うとおり、　<line-break>僕は闇の神器を<line-break>ひとつ持っているよ。<line-break>でも、今は渡せないよ。<line-break>あれは、きちんと<line-break>研究しなければならない。<end>"}
+{"section":40,"id":"400129","japanese":"闇の神器は全部で１２種類。<line-break>世界中に散らばってて、<line-break>それぞれにすごい威力を秘めてる。<line-break>でもそれは闇の力だ。<line-break>使い方を間違えると<line-break>恐ろしいことになる。<end>"}
+{"section":40,"id":"400130","japanese":"そうだね。本来は<line-break>破壊神を復活させるための物だと、<line-break>僕も聞いてるよ。<line-break>でも、使い道は<line-break>それだけじゃないはずだ。<line-break>あんなに強力な魔力を感じるもの。<end>"}
+{"section":40,"id":"400131","japanese":"僕は古代の力を信じる。<line-break>だから、研究を続けるよ。<line-break>　<line-break>きっと、何か他の使い道も<line-break>あるはずだから。<end>"}
+{"section":40,"id":"400132","japanese":"わかってくれるよね？<end>"}
+{"section":40,"id":"400133","japanese":"もちろん<end>"}
+{"section":40,"id":"400134","japanese":"時と場合による<end>"}
+{"section":40,"id":"400135","japanese":"それを聞いて安心したよ。<end>"}
+{"section":40,"id":"400136","japanese":"古代の魔法力を<line-break>甘く見ているわけではないよ。<line-break>　<line-break>でも、危険だからといって、<line-break>何もわからないまま、<line-break>手放すわけにはいかないよ。<end>"}
+{"section":40,"id":"400137","japanese":"ごめんね、<value:$28>。<line-break>残念だけど、今は渡せない。<line-break>　<line-break>何かわかったら<line-break>すぐに君に知らせるから、<line-break>待っててほしい。<end>"}
+{"section":40,"id":"400138","japanese":"ロストールの貴族街にある<line-break>リューガ邸に時々寄ってみてよ。<line-break>　<line-break>研究に進展があったら<line-break>伝言を残しておくから。<line-break>じゃあ、僕は行くよ。<end>"}
+{"section":40,"id":"400139","japanese":"わかった。闇の神器は<line-break>ネメアもねらっているんだね。<line-break>気をつけるよ。<end>"}
+{"section":40,"id":"400140","japanese":"…<value:$28>！<end>"}
+{"section":40,"id":"400141","japanese":"ネメア様のおっしゃったとおりだな。<end>"}
+{"section":40,"id":"400142","japanese":"この若者は勇敢にも<line-break>ネメア様に挑戦する気らしいぞ。<end>"}
+{"section":40,"id":"400143","japanese":"お前に先を越されるとは、　　　<line-break>うかつだったな。<end>"}
+{"section":40,"id":"400144","japanese":"くっ、なんてこと…！<line-break>せっかくここの闇の神器は<line-break>私たちだけに任せてもらえたのに！<end>"}
+{"section":40,"id":"400145","japanese":"そう功をあせるな、オイフェよ。<end>"}
+{"section":40,"id":"400146","japanese":"傲慢の首飾りを渡して、<line-break><value:$28>。<end>"}
+{"section":40,"id":"400147","japanese":"言ったはずよ。<line-break>敵対するなら、殺すって。<end>"}
+{"section":40,"id":"400148","japanese":"…ムキになるな。<end>"}
+{"section":40,"id":"400149","japanese":"ムキになんかなっていないわ！<end>"}
+{"section":40,"id":"400150","japanese":"感情的になってはいかんぞ。<line-break>それでは、普段の力が発揮できまい。<end>"}
+{"section":40,"id":"400151","japanese":"黙ってて、ドルドラム。<line-break>私は大丈夫。<line-break>いつも通り戦えるわ！<end>"}
+{"section":40,"id":"400152","japanese":"勇ましいな。<line-break>どれ、加勢しよう。<end>"}
+{"section":40,"id":"400153","japanese":"助けはいらないわ。<end>"}
+{"section":40,"id":"400154","japanese":"…俺の助けもか？<end>"}
+{"section":40,"id":"400155","japanese":"私ひとりで十分よ。<end>"}
+{"section":40,"id":"400156","japanese":"やれやれ、ほんに勇ましいことだ。<line-break>ならば、高みの見物としゃれ込もう。<line-break>　<line-break><value:$28>、<line-break>うちのオイフェを<line-break>あんまりいじめてくれるなよ。<end>"}
+{"section":40,"id":"400157","japanese":"黙ってて、ドルドラム！<line-break>　<line-break>　<line-break>いくわよ！<end>"}
+{"section":40,"id":"400158","japanese":"くっ…！<line-break>私が負けるなんて…！！<end>"}
+{"section":40,"id":"400159","japanese":"ソリアスの名にかけて<line-break>友情と努力の下に勝利を。<line-break>チームワークは大切じゃな。<line-break><value:$28>よ、<line-break>今回はわしらの負けじゃ。<line-break>ここはおとなしく退くわい。<end>"}
+{"section":40,"id":"400160","japanese":"傲慢の首飾りを失った。<end>"}
+{"section":40,"id":"400161","japanese":"次は、負けないわ！！<end>"}
+{"section":40,"id":"400162","japanese":"やれやれ。ま、このくらいの勇み足は<line-break>オイフェならば愛嬌じゃな。<line-break>ゆくぞ、ゼリグ。<end>"}
+{"section":40,"id":"400163","japanese":"<if><value:$2A><greater-equal>%15ここは、かつての魔王バロルの城じゃ。<line-break>今はバロルは滅びたが、闇の力は<line-break>いまだに城内にあふれているそうじゃ。<line-break>お前さんもよほどの腕なのじゃろうが<line-break>この城の門をくぐるのであれば<line-break>覚悟を決めて行くことじゃな。<end>ここは、かつての魔王バロルの城じゃ。<line-break>今はバロルは滅びたが、闇の力は<line-break>いまだに城内にあふれているそうじゃ。<line-break>お前さんも冒険者なら<line-break>中を探検したいのじゃろうが<line-break>危険すぎる。やめておくことじゃ。<end>"}
+{"section":40,"id":"400164","japanese":"ありがとう、それじゃ<end>"}
+{"section":40,"id":"400165","japanese":"強くなるにはどうすればいい？<end>"}
+{"section":40,"id":"400166","japanese":"冒険者として一流になりたいんなら　　　　　　<line-break>ソウルを鍛えていくことだ。<line-break>　<line-break>ソウルってのは、魂の形だな。<line-break>魂の形ってのは、すなわち<line-break>お前が持っている能力の象徴みたいなもんだ。<end>"}
+{"section":40,"id":"400167","japanese":"ソウルを鍛えていくことで、<line-break>お前の魂は形を変えていき、お前の成長を助け、<line-break>いろんな能力を与えてくれるだろうよ。<end>"}
+{"section":40,"id":"400168","japanese":"わかった。ありがとう<end>"}
+{"section":40,"id":"400169","japanese":"ソウルはどうやって鍛える？<end>"}
+{"section":40,"id":"400170","japanese":"ソウルを鍛えるには、<line-break>他人のために何かをしてあげればいい。　　<line-break>その心が、ソウルを育てる。<line-break>ま、ギルドのクエストをやりゃあいいのよ。<line-break>そしたら、ソウルが育つ。<line-break>どう育てるかは、お前次第だ。<end>"}
+{"section":40,"id":"400171","japanese":"おおざっぱに言うとだな、<line-break>Ｂｒａｖｅは勇敢さを、Ｗｉｌｄは荒々しさを、<line-break>Ｓｅａｒｃｈは探究心を、<line-break>Ｃｏｏｌは冷静さを、<line-break>Ｂｅｌｉｅｆは信心深さを、<line-break>Ｋｉｎｄはやさしさを、魂に与えてくれるのさ。<end>"}
+{"section":40,"id":"400172","japanese":"ありがとう、よくわかったよ<end>"}
+{"section":40,"id":"400173","japanese":"もう少し詳しく教えてほしいな<end>"}
+{"section":40,"id":"400174","japanese":"Ｂｒａｖｅについて教えてほしい<end>"}
+{"section":40,"id":"400175","japanese":"Ｋｉｎｄについて教えてほしい<end>"}
+{"section":40,"id":"400176","japanese":"Ｓｅａｒｃｈについて教えてほしい<end>"}
+{"section":40,"id":"400177","japanese":"Ｂｅｌｉｅｆについて教えてほしい<end>"}
+{"section":40,"id":"400178","japanese":"Ｗｉｌｄについて教えてほしい<end>"}
+{"section":40,"id":"400179","japanese":"Ｃｏｏｌについて教えてほしい<end>"}
+{"section":40,"id":"400180","japanese":"<select><value:$20>%4Ｋｉｎｄはやさしさ。<line-break>つまりは気高く正しい心のことさ。<line-break>勇者なら持っていてほしいよな。　　<line-break>あと、この資質がすぐれている奴には<line-break>弓の使い手が多いんだ。<line-break>パーティのサポート役ってとこだな。<end>Ｋｉｎｄはやさしさ。<line-break>つまりは気高く正しい心のことさ。<line-break>勇者なら持っていてほしいよな。　　<line-break>あと、この資質がすぐれている奴には<line-break>弓の使い手が多いんだ。<line-break>パーティのサポート役ってとこだな。<end>Ｋｉｎｄはやさしさ。<line-break>つまりは気高く正しい心のことさ。<line-break>勇者なら持っていてほしいよな。<line-break>ただ、<line-break>やさしすぎると得られない<line-break>闇のソウルもあるってウワサだぜ。<end>Ｋｉｎｄはやさしさ。<line-break>つまりは気高く正しい心のことさ。<line-break>勇者なら持っていてほしいよな。<line-break>尊敬される戦士になるには<line-break>やっぱ、やさしさや正義の心が<line-break>必要になってくるぜ。<end>"}
+{"section":40,"id":"400181","japanese":"<select><value:$20>%2Ｓｅａｒｃｈは探求心だ。<line-break>知識を求める心は<line-break>魔法を使うには必要だよな。　　<line-break>ただ、魔法を使うには<line-break>さらに精霊力が身についてないと<line-break>ダメなんだ。<end>Ｓｅａｒｃｈは探求心だ。<line-break>知識を求める心は<line-break>魔法を使うには必要だよな。　　　　　　<line-break>賢くなりたきゃ、この資質を上げるんだ。<line-break>さらに冷静さが加われば<line-break>大魔法使いにだってなれるさ。<end>"}
+{"section":40,"id":"400182","japanese":"Ｂｅｌｉｅｆは信仰心だ。<line-break>神に仕える神官や僧侶には<line-break>なくちゃならない資質だよな。<line-break>いやす力が欲しければ、<line-break>信仰心を持つこった。<end>"}
+{"section":40,"id":"400183","japanese":"<select><value:$20>%3Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を<line-break>身につけることができる。<line-break>人間を超えた動物の力は<line-break>きっと役に立つはずさ。<end>Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を<line-break>身につけることができる。<line-break>人間を超えた動物の力は<line-break>きっと役に立つはずさ。<end>Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を　　　　　　　<line-break>身につけることができる。<line-break>ただ、あんまりガサツじゃ<line-break>身につかないソウルもあるってウワサだ。<line-break>よく考えてから、のばしてくれ。<end>"}
+{"section":40,"id":"400184","japanese":"Ｃｏｏｌは冷静さ。<line-break>冷静な判断力は探検家には　　　　　　　<line-break>必要な能力だよな。<line-break>すばやくなりたいときや<line-break>器用になりたいときは<line-break>この資質をのばしてソウルを得るといい。<end>"}
+{"section":40,"id":"400185","japanese":"じゃあな。<line-break>お前の活躍、期待してるぜ。<end>"}
+{"section":40,"id":"400186","japanese":"Ｂｒａｖｅは勇敢さだ。<line-break>力強い戦士には<line-break>これがないと話にならねえよな。　　　　　　　<line-break>だけど勇敢なだけじゃあ、<line-break>いい戦士にはなれないぜ。<line-break>他の資質と組みあわせてのばしていきたいよな。<end>"}
+{"section":40,"id":"400187","japanese":"ラミリー山を探検していると、　　　　<line-break>光る場所が見つかることがある。<line-break>そんな時は、迷わず調べてみるのだ！<line-break>錬剛石が落ちているからな。<line-break>ただし、他の冒険者が拾うこともある。<line-break>早い者勝ちだぞ。<end>"}
+{"section":40,"id":"400188","japanese":"このあいだ先輩に連れられてゼグナ鉱山を<line-break>探検したんだよ。そしたら、光ってる場所が<line-break>あるんで、調べたら錬剛石を見つけたよ。<line-break>先輩の話だと、何週間に１回くらいは<line-break>こんなことがあるらしいよ。<line-break>君も行ってみたらどうだい？<end>"}
+{"section":40,"id":"400189","japanese":"この間、聖光石の廃鉱に行ってみたけど<line-break>聖光石は見つからなかったよ。<line-break>かけらなら採れたけどね。<line-break>やっぱり、良質な聖光石ってのは<line-break>採り尽したみたいだね。<end>"}
+{"section":40,"id":"400190","japanese":"虹色の山脈で光っている場所を見つけたので、<line-break>そこを調べたら錬剛石が落ちていましたぞ。<line-break>あそこで拾ったのは久しぶりですな。<line-break>あと１個残しておいたから、<line-break>急げば、まだ落ちているかもしれませんぞ。<end>"}
+{"section":40,"id":"400191","japanese":"あなた、錬剛石欲しくない？　　　　　　　　<line-break>鳳凰山に１個だけ落ちていたわよ。<line-break>私には必要ない物だから教えてあげるわ。<line-break>錬剛石が落ちている場所は光っていたから<line-break>行ってみればわかると思うわよ。<line-break>でも、誰かに拾われてても文句言わないでね。<end>"}
+{"section":40,"id":"400192","japanese":"死竜の洞窟を知っているよな。<line-break>あそこに、錬剛石が落ちていることがあるのは<line-break>知っていたかい？<line-break>この間も光っている場所を調べてみたら<line-break>錬剛石が落ちていたよ。<line-break>あと１個くらいは落ちてるんじゃないかな。<end>"}
+{"section":40,"id":"400193","japanese":"（穴の中に何かが見える…）<end>"}
+{"section":40,"id":"400194","japanese":"穴に飛び込みますか？<end>"}
+{"section":40,"id":"400195","japanese":"（暖炉の火は消えている…。）<end>"}
+{"section":40,"id":"400196","japanese":"火をつけてみますか？<end>"}
+{"section":40,"id":"400197","japanese":"おやじ、剣が古くなってきたから　　<line-break>新しいのを買いたいんだ。<line-break>いい剣はないか？<end>"}
+{"section":40,"id":"400198","japanese":"あんた、新米冒険者だね？　　　　　<line-break>　<line-break>　<end>"}
+{"section":40,"id":"400199","japanese":"え？<line-break>なんで新米だってわかったんだ？　　<line-break>　<end>"}
+{"section":40,"id":"400200","japanese":"武器はな、新しく買うよりも、<line-break>強化していった方が強くなるのさ。　<line-break>だから、そう思ったわけだ。<end>"}
+{"section":40,"id":"400201","japanese":"な、なるほど。<line-break>それなら、強化してくれないか。　　<line-break>　<end>"}
+{"section":40,"id":"400202","japanese":"武器の強化には、錬剛石が必要だが、<line-break>持ってるかい？<line-break>　<end>"}
+{"section":40,"id":"400203","japanese":"錬剛石？　いや、持ってないな。　　<line-break>その錬剛石って、どうすれば<line-break>手に入るんだ？<end>"}
+{"section":40,"id":"400204","japanese":"鉱山なんかへ行くと、ときどき<line-break>地面が光っていることがある。<line-break>そこを調べたら見つかるはずだ。　　<line-break>だが、錬剛石はきちんと<line-break>結晶化するまで時間がかかるし、<line-break>他の冒険者もねらってるからな。<end>"}
+{"section":40,"id":"400205","japanese":"なるほど。<line-break>冒険者は何ごとも冒険から　　　　　<line-break>ってことだな。<line-break>それじゃあ、おやじ。<line-break>錬剛石を手に入れたら、また来るよ。<end>"}
+{"section":40,"id":"400206","japanese":"おう！<line-break>ギアもいるから、貯めとけよ。　　　<line-break>　<end>"}
+{"section":40,"id":"400207","japanese":"だから、錬剛石がとれる山を　　　　<line-break>見つけたら、何度か足を<line-break>運んでみるのがいいだろうな。<end>"}
+{"section":40,"id":"400208","japanese":"空<end>"}
+{"section":40,"id":"400209","japanese":"空<end>"}
+{"section":40,"id":"400210","japanese":"空<end>"}
+{"section":40,"id":"400211","japanese":"空<end>"}
+{"section":40,"id":"400212","japanese":"空<end>"}
+{"section":40,"id":"400213","japanese":"空<end>"}
+{"section":40,"id":"400214","japanese":"空<end>"}
+{"section":40,"id":"400215","japanese":"空<end>"}
+{"section":40,"id":"400216","japanese":"空<end>"}
+{"section":40,"id":"400217","japanese":"空<end>"}
+{"section":40,"id":"400218","japanese":"空<end>"}
+{"section":40,"id":"400219","japanese":"空<end>"}
+{"section":40,"id":"400220","japanese":"空<end>"}
+{"section":40,"id":"400221","japanese":"空<end>"}
+{"section":40,"id":"400222","japanese":"空<end>"}
+{"section":40,"id":"400223","japanese":"ネメアが戻った？　　　　　　<line-break>私を見限り城を出たネメアが？<line-break>　<line-break>ふふふ、今頃なんの用か。<line-break>共に魔王バロルを倒したときの<line-break>思い出話でもしに来たか。<end>"}
+{"section":40,"id":"400224","japanese":"あるいは…、　　　　　　　　　　　<line-break>戦場で初めて出会われたときの話　　<line-break>かもしれませぬな。<line-break>なんのために戦うのかと陛下が<line-break>問われたとき、民のためにと<line-break>ネメア様は答えられたとか…。<end>"}
+{"section":40,"id":"400225","japanese":"ほう、そうか。　　　　　　　　　<line-break>そのようなこともあったか。<line-break>くくく…。<line-break>奴らしいではないか。<line-break>魔王を倒す男の言いそうなことだ。<end>"}
+{"section":40,"id":"400226","japanese":"………………。　　　　　<line-break>　<line-break>　<line-break>ネメア様をお連れしても、<line-break>よろしいでしょうか？<end>"}
+{"section":40,"id":"400227","japanese":"よかろう。<line-break>連れてまいれ。<end>"}
+{"section":40,"id":"400228","japanese":"ネメア様をお連れしました。<end>"}
+{"section":40,"id":"400229","japanese":"壮健そうでなによりだ、ネメアよ。<line-break>私の治世を確固たるものにするために、<line-break>お前はなんでもしてくれた。<line-break>かつて、余の下した１２の難事を<line-break>こともなく成し遂げてくれた恩は、<line-break>忘れておらんよ。<end>"}
+{"section":40,"id":"400230","japanese":"その恩に免じて、<line-break>ひとつ質問に答えてもらえるか？<line-break>我が友、エリュマルクよ。<end>"}
+{"section":40,"id":"400231","japanese":"いいだろう。<line-break>聞こうではないか。<end>"}
+{"section":40,"id":"400232","japanese":"初めてあったときの私の言葉を<line-break>覚えているか？<end>"}
+{"section":40,"id":"400233","japanese":"そんなことか。<line-break>たしか戦場だったと記憶している。<line-break>　<line-break>なんのために戦うのか、<line-break>と問うた余に、民のためにと<line-break>答えたのだったな。<end>"}
+{"section":40,"id":"400234","japanese":"エリュマルク帝は崩御された。<line-break>　<line-break>　<line-break>よって、エリュマルク帝の<line-break>姉上エスリン様の遺児である<line-break>ネメア様があとを継がれる。<end>"}
+{"section":40,"id":"400235","japanese":"…世界を手に入れる。<end>"}
+{"section":40,"id":"400236","japanese":"我らはこれより、<line-break>迫りくる闇の力に<line-break>対抗しうる勢力を作り上げる。<end>"}
+{"section":40,"id":"400237","japanese":"かつて、魔王バロルを倒し、　<line-break>勇者と呼ばれた男、ネメアは　　　<line-break>叔父であるエリュマルク帝を退け　　　<line-break>ディンガル帝国の帝位についた。　　　　　<end>"}
+{"section":40,"id":"400238","japanese":"そして、宰相ベルゼーヴァの　<line-break>指揮の下、豊富な国力を生かして　<line-break>大軍隊を組織。同時に、それを率いる　<line-break>４人の将軍を大抜擢した。　　　<end>"}
+{"section":40,"id":"400239","japanese":"魔道アカデミーを首席で卒業した　　<line-break>ザギヴ・ディンガルを　　　　　<line-break>帝国内務統括、玄武将軍に任命、　　<line-break>ベルゼーヴァの下で国内を掌握させ…　<end>"}
+{"section":40,"id":"400240","japanese":"さらに、少数種族である<line-break>コーンス族からジラークを登用、<line-break>西方攻略軍総司令、白虎将軍に任じ、<line-break>アキュリュースへの攻撃を命じ…<end>"}
+{"section":40,"id":"400241","japanese":"無名の兵卒であった　　　　　　<line-break>カルラ・コルキアを青竜将軍に　　　<line-break>抜擢。東方小国家連合、及び　　　　　　<line-break>商業都市リベルダムの攻略を命じ…　　　　　<end>"}
+{"section":40,"id":"400242","japanese":"かつてバロル帝のもとで名をはせた　<line-break>老将アンギルダン・ゼイエンを　　<line-break>南方攻略軍総司令、朱雀将軍に任じ、<line-break>大国ロストールの攻略を命じた。　<end>"}
+{"section":40,"id":"400243","japanese":"ディンガル帝国皇帝　　　　　　<line-break>ネメア・ランガスター・ディンガルは、<line-break>バイアシオン大陸のすべてに　　　　　　<line-break>戦いを挑んだのである。　　　　　　　　　　<end>"}
+{"section":40,"id":"400244","japanese":"かくして世界は、　　　　　　　<line-break>激動と混沌の時代を迎え　　　　　　<line-break>大きなうねりを描きはじめた…。　　　　<end>"}
+{"section":40,"id":"400245","japanese":"な、何者だ！<line-break>ディンガル帝国の者か？<end>"}
+{"section":40,"id":"400246","japanese":"その方たちは違う。<line-break>心配は無用だ。<end>"}
+{"section":40,"id":"400247","japanese":"シェムハザ長老！<end>"}
+{"section":40,"id":"400248","japanese":"この方たちのことならば<line-break>私がよく知っている。<end>"}

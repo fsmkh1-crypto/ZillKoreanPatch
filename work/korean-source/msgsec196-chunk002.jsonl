@@ -1,0 +1,605 @@
+{"section":196,"id":"1960396","japanese":"＃３４：奴隷剣闘士は宿から強制移動・ウル・宿泊時<end>"}
+{"section":196,"id":"1960397","japanese":"＃３４：奴隷剣闘士は宿から強制移動・アキ・宿泊時<end>"}
+{"section":196,"id":"1960398","japanese":"＃３４：奴隷剣闘士は宿から強制移動・エルズ・宿泊時<end>"}
+{"section":196,"id":"1960399","japanese":"＃３４：奴隷剣闘士は宿から強制移動・ドワ・宿泊時<end>"}
+{"section":196,"id":"1960400","japanese":"＃３４：奴隷剣闘士は宿から強制移動・アミ・宿泊時<end>"}
+{"section":196,"id":"1960401","japanese":"＃３５：奴隷剣闘士はにげられない・リベ・闘技場通路<end>"}
+{"section":196,"id":"1960402","japanese":"＃３６：ロティ殺しイベント・リベルダム・ギルド<end>"}
+{"section":196,"id":"1960403","japanese":"＃３７：クロイス邸への届けもの・リベルダム・居住区<end>"}
+{"section":196,"id":"1960404","japanese":"＃３８：カルラ進軍極秘情報・エンシャント・ギルド<end>"}
+{"section":196,"id":"1960405","japanese":"＃３８：カルラ進軍極秘情報・ロストール・ギルド<end>"}
+{"section":196,"id":"1960406","japanese":"＃３８：カルラ進軍極秘情報・ノーブル・ギルド<end>"}
+{"section":196,"id":"1960407","japanese":"＃３８：カルラ進軍極秘情報・ロセン・ギルド<end>"}
+{"section":196,"id":"1960408","japanese":"＃３８：カルラ進軍極秘情報・アルノートゥン・ギルド<end>"}
+{"section":196,"id":"1960409","japanese":"＃３８：カルラ進軍極秘情報・ウルカーン・ギルド<end>"}
+{"section":196,"id":"1960410","japanese":"＃３８：カルラ進軍極秘情報・アキュリュース・ギルド<end>"}
+{"section":196,"id":"1960411","japanese":"＃３８：カルラ進軍極秘情報・エルズ・ギルド<end>"}
+{"section":196,"id":"1960412","japanese":"＃３８：カルラ進軍極秘情報・ドワーフ王国・ギルド<end>"}
+{"section":196,"id":"1960413","japanese":"＃３８：カルラ進軍極秘情報・テラネ・ギルド<end>"}
+{"section":196,"id":"1960414","japanese":"＃３８：カルラ進軍極秘情報・アミラル・ギルド<end>"}
+{"section":196,"id":"1960415","japanese":"＃４０：ワールドマップ・任意の町に入った時<end>"}
+{"section":196,"id":"1960416","japanese":"＃４１：フゴー邸がさ入れ（登場ＯＮ）・リベ・居住区<end>"}
+{"section":196,"id":"1960417","japanese":"＃４１：フゴー邸がさ入れ（登場ＯＦ）・リベ・居住区<end>"}
+{"section":196,"id":"1960418","japanese":"＃４２：リベ門番チェック（登場ＯＮ）・リベ・門<end>"}
+{"section":196,"id":"1960419","japanese":"＃４２：リベ門番チェック（登場ＯＦ）・リベ・門<end>"}
+{"section":196,"id":"1960420","japanese":"＃４２：リベ門番チェック（カウ０）・リベ・門<end>"}
+{"section":196,"id":"1960421","japanese":"＃４３：解放軍本部（その１）・リベ・パルチザン本部<end>"}
+{"section":196,"id":"1960422","japanese":"＃４３：解放軍本部（その２）・リベ・パルチザン本部<end>"}
+{"section":196,"id":"1960423","japanese":"＃４３：解放軍本部（その３）・リベ・パルチザン本部<end>"}
+{"section":196,"id":"1960424","japanese":"＃４３：解放軍本部（その４）・リベ・パルチザン本部<end>"}
+{"section":196,"id":"1960425","japanese":"＃４５：ロセン支部（その１）・ロセ・パルチザン支部<end>"}
+{"section":196,"id":"1960426","japanese":"＃４５：ロセン支部（その２）・ロセ・パルチザン支部<end>"}
+{"section":196,"id":"1960427","japanese":"＃４５：ロセン支部（その３）・ロセ・パルチザン支部<end>"}
+{"section":196,"id":"1960428","japanese":"＃４５：ロセン支部（その４）・ロセ・パルチザン支部<end>"}
+{"section":196,"id":"1960429","japanese":"＃４６：クロイス邸Ａ・リベ・クロイス邸内<end>"}
+{"section":196,"id":"1960430","japanese":"＃４６：クロイス邸Ｂ・リベ・クロイス邸内<end>"}
+{"section":196,"id":"1960431","japanese":"＃４６：クロイス邸Ｃ・リベ・クロイス邸内<end>"}
+{"section":196,"id":"1960432","japanese":"＃４７：刺客襲撃Ａ・ロセンに接続する全街道<end>"}
+{"section":196,"id":"1960433","japanese":"＃４７：刺客襲撃Ｂ・ロセンに接続する全街道<end>"}
+{"section":196,"id":"1960434","japanese":"＃４７：刺客襲撃Ｃ・ロセンに接続する全街道<end>"}
+{"section":196,"id":"1960435","japanese":"＃４７：刺客襲撃Ｄ・ロセンに接続する全街道<end>"}
+{"section":196,"id":"1960436","japanese":"＃４８：新クリュセイス暗殺未遂・リベ・クロイス邸内<end>"}
+{"section":196,"id":"1960437","japanese":"詠唱<end>"}
+{"section":196,"id":"1960438","japanese":"ファドル<end>"}
+{"section":196,"id":"1960439","japanese":"ポイズン<end>"}
+{"section":196,"id":"1960440","japanese":"サイレント<end>"}
+{"section":196,"id":"1960441","japanese":"ダスト<end>"}
+{"section":196,"id":"1960442","japanese":"スリープ<end>"}
+{"section":196,"id":"1960443","japanese":"デルージョン<end>"}
+{"section":196,"id":"1960444","japanese":"エスケープ<end>"}
+{"section":196,"id":"1960445","japanese":"テレポート<end>"}
+{"section":196,"id":"1960446","japanese":"呪いガス<end>"}
+{"section":196,"id":"1960447","japanese":"精神ダメージガス<end>"}
+{"section":196,"id":"1960448","japanese":"麻痺ガス<end>"}
+{"section":196,"id":"1960449","japanese":"爆発<end>"}
+{"section":196,"id":"1960450","japanese":"モンスター出現（Ｍサイズ）<end>"}
+{"section":196,"id":"1960451","japanese":"モンスター出現（Ｌサイズ）<end>"}
+{"section":196,"id":"1960452","japanese":"モンスター出現（ＬＬサイズ）<end>"}
+{"section":196,"id":"1960453","japanese":"モンスター消滅（Ｍサイズ）<end>"}
+{"section":196,"id":"1960454","japanese":"モンスター消滅（Ｌサイズ）<end>"}
+{"section":196,"id":"1960455","japanese":"モンスター消滅（ＬＬサイズ）<end>"}
+{"section":196,"id":"1960456","japanese":"光１<end>"}
+{"section":196,"id":"1960457","japanese":"光２<end>"}
+{"section":196,"id":"1960458","japanese":"地震（ループ）<end>"}
+{"section":196,"id":"1960459","japanese":"紫雷（Ｍサイズ：ループ）<end>"}
+{"section":196,"id":"1960460","japanese":"紫雷（Ｌサイズ：ループ）<end>"}
+{"section":196,"id":"1960461","japanese":"紫雷（ＬＬサイズ：ループ）<end>"}
+{"section":196,"id":"1960462","japanese":"黒い爆発（小：Ｍサイズ：ループ）<end>"}
+{"section":196,"id":"1960463","japanese":"黒い爆発（小：Ｌサイズ：ループ）<end>"}
+{"section":196,"id":"1960464","japanese":"黒い爆発（小：ＬＬサイズ：ループ）<end>"}
+{"section":196,"id":"1960465","japanese":"黒い爆発（大：Ｍサイズ：ループ）<end>"}
+{"section":196,"id":"1960466","japanese":"黒い爆発（大：Ｌサイズ：ループ）<end>"}
+{"section":196,"id":"1960467","japanese":"黒い爆発（大：ＬＬサイズ：ループ）<end>"}
+{"section":196,"id":"1960468","japanese":"浮遊する玉１（１：ループ）<end>"}
+{"section":196,"id":"1960469","japanese":"浮遊する玉１（６：ループ）<end>"}
+{"section":196,"id":"1960470","japanese":"キュア<end>"}
+{"section":196,"id":"1960471","japanese":"バインドM<end>"}
+{"section":196,"id":"1960472","japanese":"バインドL<end>"}
+{"section":196,"id":"1960473","japanese":"バインドLL<end>"}
+{"section":196,"id":"1960474","japanese":"次元の輪<end>"}
+{"section":196,"id":"1960475","japanese":"闇に憑かれる.<end>"}
+{"section":196,"id":"1960476","japanese":"SMOKE<end>"}
+{"section":196,"id":"1960477","japanese":"ドラゴン系ボスが死ぬときのエフェクト.<end>"}
+{"section":196,"id":"1960478","japanese":"新ボス死にエフェクト.<end>"}
+{"section":196,"id":"1960479","japanese":"天上から土ぼこり 少なめ<end>"}
+{"section":196,"id":"1960480","japanese":"天上から土ぼこり 多め<end>"}
+{"section":196,"id":"1960481","japanese":"インビジブル.<end>"}
+{"section":196,"id":"1960482","japanese":"ストップ.<end>"}
+{"section":196,"id":"1960483","japanese":"マノンバリア.<end>"}
+{"section":196,"id":"1960484","japanese":"fl001.<end>"}
+{"section":196,"id":"1960485","japanese":"fl002.<end>"}
+{"section":196,"id":"1960486","japanese":"fl003.<end>"}
+{"section":196,"id":"1960487","japanese":"fl005.<end>"}
+{"section":196,"id":"1960488","japanese":"fl008m.<end>"}
+{"section":196,"id":"1960489","japanese":"fl008s.<end>"}
+{"section":196,"id":"1960490","japanese":"fl014.<end>"}
+{"section":196,"id":"1960491","japanese":"fl016.<end>"}
+{"section":196,"id":"1960492","japanese":"magic.<end>"}
+{"section":196,"id":"1960493","japanese":"magich.<end>"}
+{"section":196,"id":"1960494","japanese":"sprite.<end>"}
+{"section":196,"id":"1960495","japanese":"tb001.<end>"}
+{"section":196,"id":"1960496","japanese":"tb002.<end>"}
+{"section":196,"id":"1960497","japanese":"時代０：～旅立ち<end>"}
+{"section":196,"id":"1960498","japanese":"時代１：旅立ち～ネメア、皇帝になる<end>"}
+{"section":196,"id":"1960499","japanese":"時代２：ネメア、皇帝になる～ロセン陥落<end>"}
+{"section":196,"id":"1960500","japanese":"時代３：ロセン陥落～アンギルダンの山越え<end>"}
+{"section":196,"id":"1960501","japanese":"時代４：アンギルダンの山越え～リベルダム陥落<end>"}
+{"section":196,"id":"1960502","japanese":"時代５：リベルダム陥落～カルラ進軍<end>"}
+{"section":196,"id":"1960503","japanese":"時代６：カルラ進軍～ネメア死亡<end>"}
+{"section":196,"id":"1960504","japanese":"時代７：ネメア死亡～ネメア復活<end>"}
+{"section":196,"id":"1960505","japanese":"時代８：ネメア復活～<end>"}
+{"section":196,"id":"1960506","japanese":"Ｔｕｇ　ｏｆ　Ｓｔｒｅｅｔ<end>"}
+{"section":196,"id":"1960507","japanese":"だましもの<end>"}
+{"section":196,"id":"1960508","japanese":"迫撃！　トリプルゴブリン！<end>"}
+{"section":196,"id":"1960509","japanese":"はむかうもの<end>"}
+{"section":196,"id":"1960510","japanese":"Ｌｏｓｔ　Ｍｅｍｏｒｙ<end>"}
+{"section":196,"id":"1960511","japanese":"Ｍｅｓｓｅｎｇｅｒ<end>"}
+{"section":196,"id":"1960512","japanese":"Ｂｕｒｎｉｎ’！　親子鷹<end>"}
+{"section":196,"id":"1960513","japanese":"盗人村<end>"}
+{"section":196,"id":"1960514","japanese":"始まりの地<end>"}
+{"section":196,"id":"1960515","japanese":"風の行方<end>"}
+{"section":196,"id":"1960516","japanese":"Ｓｔｒａｎｇｅｒ<end>"}
+{"section":196,"id":"1960517","japanese":"かぐや姫<end>"}
+{"section":196,"id":"1960518","japanese":"精霊力ＭＡＸ一歩手前<end>"}
+{"section":196,"id":"1960519","japanese":"　遺跡でアドヴェントの守護者と戦う(Evエスト＃４)<end>"}
+{"section":196,"id":"1960520","japanese":"　レオニックの迷宮でベルゼーヴァと戦う(Evエスト＃４)<end>"}
+{"section":196,"id":"1960521","japanese":"　ベルゼーヴァが父と母について語る（Evエスト＃５）<end>"}
+{"section":196,"id":"1960522","japanese":"　解放軍を見捨てる<end>"}
+{"section":196,"id":"1960523","japanese":"　カルラはジラーク討伐に行ったカルラはジラーク討伐に行った<end>"}
+{"section":196,"id":"1960524","japanese":"　カルラVs.ジラーク（前半）<end>"}
+{"section":196,"id":"1960525","japanese":"　ロセンの鐘を鳴らせ<end>"}
+{"section":196,"id":"1960526","japanese":"　ロセンの鐘の英雄<end>"}
+{"section":196,"id":"1960527","japanese":"　カルラの仲間になった以上、解放軍からは抜けてもらう<end>"}
+{"section":196,"id":"1960528","japanese":"　クリュセイス暗殺未遂<end>"}
+{"section":196,"id":"1960529","japanese":"　クリュセイスと会う（解放軍復帰後）<end>"}
+{"section":196,"id":"1960530","japanese":"　アンティノとの対決<end>"}
+{"section":196,"id":"1960531","japanese":"　ザギヴの歌<end>"}
+{"section":196,"id":"1960532","japanese":"　ギルドでザギヴからの手紙を受け取る<end>"}
+{"section":196,"id":"1960533","japanese":"　ザギヴ警護<end>"}
+{"section":196,"id":"1960534","japanese":"　ベルゼーヴァ襲撃（ベルゼーヴァサイド）<end>"}
+{"section":196,"id":"1960535","japanese":"　予備<end>"}
+{"section":196,"id":"1960536","japanese":"　ザギヴ闇にのまれかける（Ｅｖザギヴ＃３８）<end>"}
+{"section":196,"id":"1960537","japanese":"　ザギヴ飛沫の群島で運命と闘うことを決意する<end>"}
+{"section":196,"id":"1960538","japanese":"　エンシャント虐殺<end>"}
+{"section":196,"id":"1960539","japanese":"　ゾフォルとの決着<end>"}
+{"section":196,"id":"1960540","japanese":"　エンシャント陥落告知<end>"}
+{"section":196,"id":"1960541","japanese":"　エルファスが神になる(アトレイア)<end>"}
+{"section":196,"id":"1960542","japanese":"　プレボス戦<end>"}
+{"section":196,"id":"1960543","japanese":"　最終決戦（ティアナ）<end>"}
+{"section":196,"id":"1960544","japanese":"　イオンズ登場<end>"}
+{"section":196,"id":"1960545","japanese":"　イオンズと会う<end>"}
+{"section":196,"id":"1960546","japanese":"　イズキヤルを語る<end>"}
+{"section":196,"id":"1960547","japanese":"　イズキヤルが子供と遊んでいる（Ｅｖジラーク＃４）<end>"}
+{"section":196,"id":"1960548","japanese":"　ジラーク鉱石採掘開始報告（Ｅｖジラーク＃１３）<end>"}
+{"section":196,"id":"1960549","japanese":"　ジラーク反乱中でアルノートゥンに入れない<end>"}
+{"section":196,"id":"1960550","japanese":"　ロセンの鐘、PM分岐（セラ、レルラ、エステル）<end>"}
+{"section":196,"id":"1960551","japanese":"　ナッジ分離告知<end>"}
+{"section":196,"id":"1960552","japanese":"　予備<end>"}
+{"section":196,"id":"1960553","japanese":"　アルノートゥンでナッジと戦う<end>"}
+{"section":196,"id":"1960554","japanese":"　予備<end>"}
+{"section":196,"id":"1960555","japanese":"　ウルカーンでネメアが束縛の腕輪を奪う<end>"}
+{"section":196,"id":"1960556","japanese":"　焦燥の耳飾りを巡って神器争奪<end>"}
+{"section":196,"id":"1960557","japanese":"　ティアナ救出<end>"}
+{"section":196,"id":"1960558","japanese":"　アトレイア救出<end>"}
+{"section":196,"id":"1960559","japanese":"　アーギラとの決戦（ロイＰＭ入り）<end>"}
+{"section":196,"id":"1960560","japanese":"　アーギラとの決戦（ロイ死亡、シェスター失踪）<end>"}
+{"section":196,"id":"1960561","japanese":"　イークレムンとミズチ<end>"}
+{"section":196,"id":"1960562","japanese":"　ロセン門衛のフィルタリング<end>"}
+{"section":196,"id":"1960563","japanese":"　空中都市<end>"}
+{"section":196,"id":"1960564","japanese":"　地の精霊神に会いパンタ・レイと戦う（エステルを助けるため）<end>"}
+{"section":196,"id":"1960565","japanese":"　サムスン襲撃報告<end>"}
+{"section":196,"id":"1960566","japanese":"　サムスンと戦う<end>"}
+{"section":196,"id":"1960567","japanese":"　ソウルイーター解放<end>"}
+{"section":196,"id":"1960568","japanese":"　カルラ進軍（ロストール#09）<end>"}
+{"section":196,"id":"1960569","japanese":"　アーギラとの決戦（ロイ死亡、シェスター失踪、セラＰＭを去る）<end>"}
+{"section":196,"id":"1960570","japanese":"　双子と闇の巨人１<end>"}
+{"section":196,"id":"1960571","japanese":"　（女主）ツェラシェルが苦しんでいる<end>"}
+{"section":196,"id":"1960572","japanese":"　ツェラシェルと夜中の会話<end>"}
+{"section":196,"id":"1960573","japanese":"　ツェラシェルが双子に邪険にする<end>"}
+{"section":196,"id":"1960574","japanese":"　双子と会話<end>"}
+{"section":196,"id":"1960575","japanese":"　双子仲間入り（兄さん影で死んでます）<end>"}
+{"section":196,"id":"1960576","japanese":"　シャリとツェラシェル<end>"}
+{"section":196,"id":"1960577","japanese":"　エルファスとツェラシェル<end>"}
+{"section":196,"id":"1960578","japanese":"　ツェラシェル忘却<end>"}
+{"section":196,"id":"1960579","japanese":"　（男主）双子と闇の巨人２<end>"}
+{"section":196,"id":"1960580","japanese":"　（男主）お兄ちゃんと呼ぶ理由<end>"}
+{"section":196,"id":"1960581","japanese":"　イオンズ導入<end>"}
+{"section":196,"id":"1960582","japanese":"　イズキヤル暴れる<end>"}
+{"section":196,"id":"1960583","japanese":"　アーギラとの決戦（セラ無しLost）<end>"}
+{"section":196,"id":"1960584","japanese":"　アーギラとの決戦（セラ無しLost以外）<end>"}
+{"section":196,"id":"1960585","japanese":"　ＶＳ邪竜（Ｖ７＃３）<end>"}
+{"section":196,"id":"1960586","japanese":"　ＶＳ魔人（Ｖ７＃６）<end>"}
+{"section":196,"id":"1960587","japanese":"　ＶＳイズキヤル<end>"}
+{"section":196,"id":"1960588","japanese":"　たたずむアイリーン<end>"}
+{"section":196,"id":"1960589","japanese":"　カルラのギルド依頼<end>"}
+{"section":196,"id":"1960590","japanese":"　カルラの依頼を受ける<end>"}
+{"section":196,"id":"1960591","japanese":"　ネモにヴァシュタールのことを聞く<end>"}
+{"section":196,"id":"1960592","japanese":"　アイリーン救出(オズワルト)<end>"}
+{"section":196,"id":"1960593","japanese":"　（発生1/2）アイリーンに会う（カルラ配下、リベルダム）Ev追加０２<end>"}
+{"section":196,"id":"1960594","japanese":"　（発生1/2）アイリーンに会う（カルラ配下、リベルダム）Ev追加０４<end>"}
+{"section":196,"id":"1960595","japanese":"　043-ﾘﾍﾞﾙﾀﾞﾑ陥落01<end>"}
+{"section":196,"id":"1960596","japanese":"　043-ﾘﾍﾞﾙﾀﾞﾑ陥落02<end>"}
+{"section":196,"id":"1960597","japanese":"　043-ﾘﾍﾞﾙﾀﾞﾑ陥落03<end>"}
+{"section":196,"id":"1960598","japanese":"　043-ﾘﾍﾞﾙﾀﾞﾑ陥落04<end>"}
+{"section":196,"id":"1960599","japanese":"　043-ﾘﾍﾞﾙﾀﾞﾑ陥落05<end>"}
+{"section":196,"id":"1960600","japanese":"　予備<end>"}
+{"section":196,"id":"1960601","japanese":"　083-シャリが語る<end>"}
+{"section":196,"id":"1960602","japanese":"　084-ウルグ降臨<end>"}
+{"section":196,"id":"1960603","japanese":"　086-エルファス神になる（ティアナ<end>"}
+{"section":196,"id":"1960604","japanese":"　136-C無限のソウルについて<end>"}
+{"section":196,"id":"1960605","japanese":"　138-ストラスエッジを手に入れる<end>"}
+{"section":196,"id":"1960606","japanese":"　復興団（ティアナ）門番処理<end>"}
+{"section":196,"id":"1960607","japanese":"　復興団（ティアナ）復興団発生お知らせ<end>"}
+{"section":196,"id":"1960608","japanese":"　復興団（ティアナ）サムスン襲撃予告その１<end>"}
+{"section":196,"id":"1960609","japanese":"　復興団（ティアナ）サムスン襲撃予告その２<end>"}
+{"section":196,"id":"1960610","japanese":"　復興団（ティアナ）親密度稼ぎの寄付イベント<end>"}
+{"section":196,"id":"1960611","japanese":"　復興団（ティアナ）タルテュバイベント<end>"}
+{"section":196,"id":"1960612","japanese":"　復興団（ティアナ）それ以降<end>"}
+{"section":196,"id":"1960613","japanese":"　復興団（ティアナ）サムスン撃破<end>"}
+{"section":196,"id":"1960614","japanese":"　復興団（アトレイア）門番処理<end>"}
+{"section":196,"id":"1960615","japanese":"　復興団（アトレイア）復興団発生お知らせ<end>"}
+{"section":196,"id":"1960616","japanese":"　復興団（アトレイア）サムスン襲撃予告その１<end>"}
+{"section":196,"id":"1960617","japanese":"　復興団（アトレイア）サムスン襲撃予告その２<end>"}
+{"section":196,"id":"1960618","japanese":"　復興団（アトレイア）親密度稼ぎの寄付イベント<end>"}
+{"section":196,"id":"1960619","japanese":"　復興団（アトレイア）タルテュバイベント<end>"}
+{"section":196,"id":"1960620","japanese":"　復興団（アトレイア）それ以降<end>"}
+{"section":196,"id":"1960621","japanese":"　復興団（アトレイア）サムスン撃破<end>"}
+{"section":196,"id":"1960622","japanese":"　クーデター「◆繁華街」部分<end>"}
+{"section":196,"id":"1960623","japanese":"　クーデター「◆ロストールの門」部分<end>"}
+{"section":196,"id":"1960624","japanese":"　クーデター「◆丘」部分<end>"}
+{"section":196,"id":"1960625","japanese":"　クーデター謁見の間ｱﾄﾚｲｱ<end>"}
+{"section":196,"id":"1960626","japanese":"　クーデター謁見の間ﾃｨｱﾅ<end>"}
+{"section":196,"id":"1960627","japanese":"　ゼネテス逮捕<end>"}
+{"section":196,"id":"1960628","japanese":"　予備<end>"}
+{"section":196,"id":"1960629","japanese":"　（マップ移動）ツェラシェルに物を奪われる<end>"}
+{"section":196,"id":"1960630","japanese":"　アイリーン救出(ロセン)<end>"}
+{"section":196,"id":"1960631","japanese":"　191-アンギルダンとイオンズ<end>"}
+{"section":196,"id":"1960632","japanese":"　C10-テジャワの変の話を聞いた<end>"}
+{"section":196,"id":"1960633","japanese":"　飛沫の群島で決意する（後半）<end>"}
+{"section":196,"id":"1960634","japanese":"　104ノエル再会<end>"}
+{"section":196,"id":"1960635","japanese":"　新エストの手紙<end>"}
+{"section":196,"id":"1960636","japanese":"　エルファス襲撃<end>"}
+{"section":196,"id":"1960637","japanese":"　ソウルイーター戦援軍<end>"}
+{"section":196,"id":"1960638","japanese":"　ソウルイーター戦<end>"}
+{"section":196,"id":"1960639","japanese":"　#110ｲｼｭﾊﾞｰﾙ退治依頼<end>"}
+{"section":196,"id":"1960640","japanese":"　#111ｲｼｭﾊﾞｰﾙ退治<end>"}
+{"section":196,"id":"1960641","japanese":"　#112ｲｼｭﾊﾞｰﾙ退治報酬<end>"}
+{"section":196,"id":"1960642","japanese":"　予備<end>"}
+{"section":196,"id":"1960643","japanese":"　予備<end>"}
+{"section":196,"id":"1960644","japanese":"　カルラVs.ジラーク(後半）<end>"}
+{"section":196,"id":"1960645","japanese":"　最終決戦（アトレイア）<end>"}
+{"section":196,"id":"1960646","japanese":"　クーデター王宮前イベント（ゼネテスルート）<end>"}
+{"section":196,"id":"1960647","japanese":"　アスティア１<end>"}
+{"section":196,"id":"1960648","japanese":"　アスティア２<end>"}
+{"section":196,"id":"1960649","japanese":"　アスティア３<end>"}
+{"section":196,"id":"1960650","japanese":"　クーデター謁見の間ｱﾄﾚｲｱ　完全版ルート<end>"}
+{"section":196,"id":"1960651","japanese":"　クーデター謁見の間ﾃｨｱﾅ　完全版ルート<end>"}
+{"section":196,"id":"1960652","japanese":"　予備<end>"}
+{"section":196,"id":"1960653","japanese":"　901-宿屋イベント_ｱﾄﾚｲｱ1<end>"}
+{"section":196,"id":"1960654","japanese":"　902-宿屋イベント_ｱﾄﾚｲｱ2<end>"}
+{"section":196,"id":"1960655","japanese":"　903-宿屋イベント_ｱﾝｷﾞﾙﾀﾞﾝ<end>"}
+{"section":196,"id":"1960656","japanese":"　904-宿屋イベント_ｲｰｸﾚﾑﾝ<end>"}
+{"section":196,"id":"1960657","japanese":"　905-宿屋イベント_イオンズ<end>"}
+{"section":196,"id":"1960658","japanese":"　906-宿屋イベント_ｴｱ<end>"}
+{"section":196,"id":"1960659","japanese":"　907-宿屋イベント_ｴｽﾃﾙ<end>"}
+{"section":196,"id":"1960660","japanese":"　908-宿屋イベント_ｶﾙﾗ<end>"}
+{"section":196,"id":"1960661","japanese":"　909-宿屋イベント_ｸﾘｭｾｲｽ<end>"}
+{"section":196,"id":"1960662","japanese":"　910-宿屋イベント_ザギヴ<end>"}
+{"section":196,"id":"1960663","japanese":"　911-宿屋イベント_ｾﾞﾈﾃｽ<end>"}
+{"section":196,"id":"1960664","japanese":"　912-宿屋イベント_ﾁｬｶ<end>"}
+{"section":196,"id":"1960665","japanese":"　913-宿屋イベント_ティアナ<end>"}
+{"section":196,"id":"1960666","japanese":"　914-宿屋イベント_ﾅｯｼﾞｳﾞｧﾝ<end>"}
+{"section":196,"id":"1960667","japanese":"　915-宿屋イベント_フェティ<end>"}
+{"section":196,"id":"1960668","japanese":"　916-宿屋イベント_ﾌﾚｱ<end>"}
+{"section":196,"id":"1960669","japanese":"　917-宿屋イベント_ﾍﾞﾙｾﾞｰｳﾞｧ<end>"}
+{"section":196,"id":"1960670","japanese":"　918-宿屋イベント_ﾚｰｸﾞ<end>"}
+{"section":196,"id":"1960671","japanese":"　919-宿屋イベント_ﾚﾑｵﾝ<end>"}
+{"section":196,"id":"1960672","japanese":"　920-宿屋イベント_ﾚﾙﾗ=ﾛﾝﾄﾝ1<end>"}
+{"section":196,"id":"1960673","japanese":"　921-宿屋イベント_ﾚﾙﾗ=ﾛﾝﾄﾝ2<end>"}
+{"section":196,"id":"1960674","japanese":"　922-宿屋イベント_ロイ<end>"}
+{"section":196,"id":"1960675","japanese":"　921-宿屋イベント_ﾚﾙﾗ=ﾛﾝﾄﾝ3<end>"}
+{"section":196,"id":"1960676","japanese":"　0800_ﾈﾒｱEnd#01<end>"}
+{"section":196,"id":"1960677","japanese":"　0801_ｾﾞﾈEnd#02<end>"}
+{"section":196,"id":"1960678","japanese":"　0808_ﾚｰｸﾞEnd#09<end>"}
+{"section":196,"id":"1960679","japanese":"　0810_ｱﾄﾚｲｱEnd#11<end>"}
+{"section":196,"id":"1960680","japanese":"　0812_ｴｽﾃﾙEnd#13<end>"}
+{"section":196,"id":"1960681","japanese":"　0814_ｶﾙﾗEnd#15<end>"}
+{"section":196,"id":"1960682","japanese":"　0815_ｸﾘｭEnd#16<end>"}
+{"section":196,"id":"1960683","japanese":"　0816_ｻﾞｷﾞｳﾞEnd#17<end>"}
+{"section":196,"id":"1960684","japanese":"　17クリュセイス　女主人公ver END<end>"}
+{"section":196,"id":"1960685","japanese":"　19ザギウ　女主人公ver END<end>"}
+{"section":196,"id":"1960686","japanese":"　21ティァナ　女主人公ver END<end>"}
+{"section":196,"id":"1960687","japanese":"　27レムオン_女主人公ver END<end>"}
+{"section":196,"id":"1960688","japanese":"　28ロイ　共通ver END<end>"}
+{"section":196,"id":"1960689","japanese":"　29ヴィア&ヴァイ　男主人公ver END<end>"}
+{"section":196,"id":"1960690","japanese":"　30ヴィア　共通ver END<end>"}
+{"section":196,"id":"1960691","japanese":"　31ヴァイ　共通ver END<end>"}
+{"section":196,"id":"1960692","japanese":"　32ベルゼーウァ　共通ver END<end>"}
+{"section":196,"id":"1960693","japanese":"　33シャリ　共通ver END<end>"}
+{"section":196,"id":"1960694","japanese":"　34エルファス　共通ver END<end>"}
+{"section":196,"id":"1960695","japanese":"　予備<end>"}
+{"section":196,"id":"1960696","japanese":"　36フレア　男主人公ver END<end>"}
+{"section":196,"id":"1960697","japanese":"　37エア　男主人公ver END<end>"}
+{"section":196,"id":"1960698","japanese":"　38イークレムン　共通ver END<end>"}
+{"section":196,"id":"1960699","japanese":"　40全員集合　共通ver END<end>"}
+{"section":196,"id":"1960700","japanese":"　41イオンズ　共通ver END<end>"}
+{"section":196,"id":"1960701","japanese":"　42ゴフゴブ団　共通ver END<end>"}
+{"section":196,"id":"1960702","japanese":"　43世界一の冒険家　共通ver END<end>"}
+{"section":196,"id":"1960703","japanese":"　44ガルドラン　共通ver END<end>"}
+{"section":196,"id":"1960704","japanese":"　45エスト　共通ver END<end>"}
+{"section":196,"id":"1960705","japanese":"　46シャローム　共通ver END<end>"}
+{"section":196,"id":"1960706","japanese":"　47竜王表意ノエル　共通ver END<end>"}
+{"section":196,"id":"1960707","japanese":"　48ネモ　共通ver END<end>"}
+{"section":196,"id":"1960708","japanese":"　オイフェ END<end>"}
+{"section":196,"id":"1960709","japanese":"　ティアナ　男主人公ver END<end>"}
+{"section":196,"id":"1960710","japanese":"　アスティアエンド<end>"}
+{"section":196,"id":"1960711","japanese":"　セラEND<end>"}
+{"section":196,"id":"1960712","japanese":"　アンギルダンEND<end>"}
+{"section":196,"id":"1960713","japanese":"　ナッジ＆ヴァンEND<end>"}
+{"section":196,"id":"1960714","japanese":"　デルガドEND<end>"}
+{"section":196,"id":"1960715","japanese":"　アイリーンEND<end>"}
+{"section":196,"id":"1960716","japanese":"　ユーリスEND<end>"}
+{"section":196,"id":"1960717","japanese":"　チャカEND<end>"}
+{"section":196,"id":"1960718","japanese":"　ザギヴ（男）END<end>"}
+{"section":196,"id":"1960719","japanese":"　フェティEND<end>"}
+{"section":196,"id":"1960720","japanese":"　ルルアンタEND<end>"}
+{"section":196,"id":"1960721","japanese":"　レルラ＝ロントンEND<end>"}
+{"section":196,"id":"1960722","japanese":"　ヒルダリア<end>"}
+{"section":196,"id":"1960723","japanese":"　ノエル　1940END<end>"}
+{"section":196,"id":"1960724","japanese":"　ノエルベストEND<end>"}
+{"section":196,"id":"1960725","japanese":"　一人旅END<end>"}
+{"section":196,"id":"1960726","japanese":"ジリオン１<end>"}
+{"section":196,"id":"1960727","japanese":"ジリオン２<end>"}
+{"section":196,"id":"1960728","japanese":"ジリオン３_1(ﾌｪﾃｨがいるばあい)<end>"}
+{"section":196,"id":"1960729","japanese":"ジリオン３_2(ﾅｯｼﾞがいるばあい)<end>"}
+{"section":196,"id":"1960730","japanese":"ジリオン３_3(ﾙﾙｱﾝﾀがいるばあい)<end>"}
+{"section":196,"id":"1960731","japanese":"ジリオン４<end>"}
+{"section":196,"id":"1960732","japanese":"ジリオン５<end>"}
+{"section":196,"id":"1960733","japanese":"ジリオン６<end>"}
+{"section":196,"id":"1960734","japanese":"ジリオン７<end>"}
+{"section":196,"id":"1960735","japanese":"ジリオン８<end>"}
+{"section":196,"id":"1960736","japanese":"ジリオン９<end>"}
+{"section":196,"id":"1960737","japanese":"ジリオン１１<end>"}
+{"section":196,"id":"1960738","japanese":"ジリオン１２<end>"}
+{"section":196,"id":"1960739","japanese":"ジリオン１３<end>"}
+{"section":196,"id":"1960740","japanese":"ジリオン１４<end>"}
+{"section":196,"id":"1960741","japanese":"ジリオン１７<end>"}
+{"section":196,"id":"1960742","japanese":"ジリオン１８<end>"}
+{"section":196,"id":"1960743","japanese":"ジリオン１９<end>"}
+{"section":196,"id":"1960744","japanese":"ジリオンＥＤ１<end>"}
+{"section":196,"id":"1960745","japanese":"ジリオンＥＤ２<end>"}
+{"section":196,"id":"1960746","japanese":"ジリオンＥＤ３<end>"}
+{"section":196,"id":"1960747","japanese":"新スタート２<end>"}
+{"section":196,"id":"1960748","japanese":"新スタート３<end>"}
+{"section":196,"id":"1960749","japanese":"新スタート４<end>"}
+{"section":196,"id":"1960750","japanese":"新スタート５<end>"}
+{"section":196,"id":"1960751","japanese":"新スタート６<end>"}
+{"section":196,"id":"1960752","japanese":"新スタート７<end>"}
+{"section":196,"id":"1960753","japanese":"新スタート８<end>"}
+{"section":196,"id":"1960754","japanese":"新スタート９<end>"}
+{"section":196,"id":"1960755","japanese":"新スタート１０<end>"}
+{"section":196,"id":"1960756","japanese":"新スタート１１<end>"}
+{"section":196,"id":"1960757","japanese":"新スタート１２<end>"}
+{"section":196,"id":"1960758","japanese":"新スタート１３<end>"}
+{"section":196,"id":"1960759","japanese":"新スタート１４_１<end>"}
+{"section":196,"id":"1960760","japanese":"新スタート１４_２<end>"}
+{"section":196,"id":"1960761","japanese":"新スタート１４_３<end>"}
+{"section":196,"id":"1960762","japanese":"新スタート１４_４<end>"}
+{"section":196,"id":"1960763","japanese":"新スタート１５<end>"}
+{"section":196,"id":"1960764","japanese":"新スタート１６<end>"}
+{"section":196,"id":"1960765","japanese":"新スタート１７<end>"}
+{"section":196,"id":"1960766","japanese":"新スタート１８<end>"}
+{"section":196,"id":"1960767","japanese":"新スタート１９＿１<end>"}
+{"section":196,"id":"1960768","japanese":"新スタート１９＿２<end>"}
+{"section":196,"id":"1960769","japanese":"新スタートED<end>"}
+{"section":196,"id":"1960770","japanese":"新スタートその他<end>"}
+{"section":196,"id":"1960771","japanese":"フレア１８－１－１<end>"}
+{"section":196,"id":"1960772","japanese":"フレア２０<end>"}
+{"section":196,"id":"1960773","japanese":"フレア２１_１<end>"}
+{"section":196,"id":"1960774","japanese":"フレア２１＿２<end>"}
+{"section":196,"id":"1960775","japanese":"フレア２１＿３<end>"}
+{"section":196,"id":"1960776","japanese":"フレア２１＿４<end>"}
+{"section":196,"id":"1960777","japanese":"フレア２１＿５<end>"}
+{"section":196,"id":"1960778","japanese":"フレア２１＿６<end>"}
+{"section":196,"id":"1960779","japanese":"フレア２１＿７<end>"}
+{"section":196,"id":"1960780","japanese":"フレア２１＿8<end>"}
+{"section":196,"id":"1960781","japanese":"フレア２１＿9<end>"}
+{"section":196,"id":"1960782","japanese":"フレア２１＿10<end>"}
+{"section":196,"id":"1960783","japanese":"エルファス１６<end>"}
+{"section":196,"id":"1960784","japanese":"エルファス１７<end>"}
+{"section":196,"id":"1960785","japanese":"エルファス１８<end>"}
+{"section":196,"id":"1960786","japanese":"エルファスED2<end>"}
+{"section":196,"id":"1960787","japanese":"フェルム１<end>"}
+{"section":196,"id":"1960788","japanese":"フェルム2<end>"}
+{"section":196,"id":"1960789","japanese":"フェルム3<end>"}
+{"section":196,"id":"1960790","japanese":"フェルム４－１<end>"}
+{"section":196,"id":"1960791","japanese":"フェルム４－２<end>"}
+{"section":196,"id":"1960792","japanese":"フェルム４－３<end>"}
+{"section":196,"id":"1960793","japanese":"フェルム４－４<end>"}
+{"section":196,"id":"1960794","japanese":"フェルム４－５<end>"}
+{"section":196,"id":"1960795","japanese":"フェルム４－６<end>"}
+{"section":196,"id":"1960796","japanese":"フェルム４－７<end>"}
+{"section":196,"id":"1960797","japanese":"フェルム４－８<end>"}
+{"section":196,"id":"1960798","japanese":"フェルム４－９<end>"}
+{"section":196,"id":"1960799","japanese":"フェルム４－１０<end>"}
+{"section":196,"id":"1960800","japanese":"フェルム５_1<end>"}
+{"section":196,"id":"1960801","japanese":"フェルム５_2<end>"}
+{"section":196,"id":"1960802","japanese":"フェルム５_3<end>"}
+{"section":196,"id":"1960803","japanese":"フェルム５_4<end>"}
+{"section":196,"id":"1960804","japanese":"フェルム５_5<end>"}
+{"section":196,"id":"1960805","japanese":"フェルム５_6<end>"}
+{"section":196,"id":"1960806","japanese":"フェルム５_7<end>"}
+{"section":196,"id":"1960807","japanese":"フェルム５_8<end>"}
+{"section":196,"id":"1960808","japanese":"フェルム５_9<end>"}
+{"section":196,"id":"1960809","japanese":"フェルム５_10<end>"}
+{"section":196,"id":"1960810","japanese":"フェルム６_1<end>"}
+{"section":196,"id":"1960811","japanese":"フェルム６_2<end>"}
+{"section":196,"id":"1960812","japanese":"フェルム６_3<end>"}
+{"section":196,"id":"1960813","japanese":"フェルム６_4<end>"}
+{"section":196,"id":"1960814","japanese":"フェルム６_5<end>"}
+{"section":196,"id":"1960815","japanese":"フェルム６_6<end>"}
+{"section":196,"id":"1960816","japanese":"フェルム６_7<end>"}
+{"section":196,"id":"1960817","japanese":"フェルム６_8<end>"}
+{"section":196,"id":"1960818","japanese":"フェルム６_9<end>"}
+{"section":196,"id":"1960819","japanese":"フェルム６_10<end>"}
+{"section":196,"id":"1960820","japanese":"フェルム７_1<end>"}
+{"section":196,"id":"1960821","japanese":"フェルム７_2<end>"}
+{"section":196,"id":"1960822","japanese":"フェルム７_3<end>"}
+{"section":196,"id":"1960823","japanese":"フェルム７_4<end>"}
+{"section":196,"id":"1960824","japanese":"フェルム７_5<end>"}
+{"section":196,"id":"1960825","japanese":"フェルム７_6<end>"}
+{"section":196,"id":"1960826","japanese":"フェルム７_7<end>"}
+{"section":196,"id":"1960827","japanese":"フェルム７_8<end>"}
+{"section":196,"id":"1960828","japanese":"フェルム７_9<end>"}
+{"section":196,"id":"1960829","japanese":"フェルム７_10<end>"}
+{"section":196,"id":"1960830","japanese":"フェルム８<end>"}
+{"section":196,"id":"1960831","japanese":"フェルム９_1<end>"}
+{"section":196,"id":"1960832","japanese":"フェルム９_2<end>"}
+{"section":196,"id":"1960833","japanese":"フェルム９_3<end>"}
+{"section":196,"id":"1960834","japanese":"フェルム９_4<end>"}
+{"section":196,"id":"1960835","japanese":"フェルム９_5<end>"}
+{"section":196,"id":"1960836","japanese":"フェルム９_6<end>"}
+{"section":196,"id":"1960837","japanese":"フェルム９_7<end>"}
+{"section":196,"id":"1960838","japanese":"フェルム９_8<end>"}
+{"section":196,"id":"1960839","japanese":"フェルム９_9<end>"}
+{"section":196,"id":"1960840","japanese":"フェルム９_10<end>"}
+{"section":196,"id":"1960841","japanese":"フェルム１０_1<end>"}
+{"section":196,"id":"1960842","japanese":"フェルム１０_2<end>"}
+{"section":196,"id":"1960843","japanese":"フェルム１０_3<end>"}
+{"section":196,"id":"1960844","japanese":"フェルム１０_4<end>"}
+{"section":196,"id":"1960845","japanese":"フェルム１０_5<end>"}
+{"section":196,"id":"1960846","japanese":"フェルム１０_6<end>"}
+{"section":196,"id":"1960847","japanese":"フェルム10_7<end>"}
+{"section":196,"id":"1960848","japanese":"フェルム10_8<end>"}
+{"section":196,"id":"1960849","japanese":"フェルム10_9<end>"}
+{"section":196,"id":"1960850","japanese":"フェルム10-10<end>"}
+{"section":196,"id":"1960851","japanese":"フェルム１１<end>"}
+{"section":196,"id":"1960852","japanese":"フェルム１２<end>"}
+{"section":196,"id":"1960853","japanese":"フェルム１３<end>"}
+{"section":196,"id":"1960854","japanese":"フェルム１４_1<end>"}
+{"section":196,"id":"1960855","japanese":"フェルム１４_2<end>"}
+{"section":196,"id":"1960856","japanese":"フェルム１４_3<end>"}
+{"section":196,"id":"1960857","japanese":"フェルム１４_4<end>"}
+{"section":196,"id":"1960858","japanese":"フェルム１４_5<end>"}
+{"section":196,"id":"1960859","japanese":"フェルム１４_6<end>"}
+{"section":196,"id":"1960860","japanese":"フェルム１４_7<end>"}
+{"section":196,"id":"1960861","japanese":"フェルム１４_8<end>"}
+{"section":196,"id":"1960862","japanese":"フェルム１４_9<end>"}
+{"section":196,"id":"1960863","japanese":"フェルム１４_10<end>"}
+{"section":196,"id":"1960864","japanese":"フェルム１５<end>"}
+{"section":196,"id":"1960865","japanese":"フェルム１６<end>"}
+{"section":196,"id":"1960866","japanese":"ロジクーニン１<end>"}
+{"section":196,"id":"1960867","japanese":"ロジクーニン２<end>"}
+{"section":196,"id":"1960868","japanese":"仲良しの1_1<end>"}
+{"section":196,"id":"1960869","japanese":"仲良しの1_2<end>"}
+{"section":196,"id":"1960870","japanese":"仲良しの1_3<end>"}
+{"section":196,"id":"1960871","japanese":"仲良しの1_4<end>"}
+{"section":196,"id":"1960872","japanese":"仲良しの1_5<end>"}
+{"section":196,"id":"1960873","japanese":"仲良しの1_6<end>"}
+{"section":196,"id":"1960874","japanese":"仲良しの1_7<end>"}
+{"section":196,"id":"1960875","japanese":"仲良しの1_8<end>"}
+{"section":196,"id":"1960876","japanese":"仲良しの1_9<end>"}
+{"section":196,"id":"1960877","japanese":"仲良しの1_10<end>"}
+{"section":196,"id":"1960878","japanese":"仲良しの2_1<end>"}
+{"section":196,"id":"1960879","japanese":"仲良しの2_2<end>"}
+{"section":196,"id":"1960880","japanese":"仲良しの2_3<end>"}
+{"section":196,"id":"1960881","japanese":"仲良しの2_4<end>"}
+{"section":196,"id":"1960882","japanese":"仲良しの2_5<end>"}
+{"section":196,"id":"1960883","japanese":"仲良しの2_6<end>"}
+{"section":196,"id":"1960884","japanese":"仲良しの2_7<end>"}
+{"section":196,"id":"1960885","japanese":"仲良しの2_8<end>"}
+{"section":196,"id":"1960886","japanese":"仲良しの2_9<end>"}
+{"section":196,"id":"1960887","japanese":"仲良しの2_10<end>"}
+{"section":196,"id":"1960888","japanese":"仲良しの3_1<end>"}
+{"section":196,"id":"1960889","japanese":"仲良しの3_2<end>"}
+{"section":196,"id":"1960890","japanese":"仲良しの3_3<end>"}
+{"section":196,"id":"1960891","japanese":"仲良しの3_4<end>"}
+{"section":196,"id":"1960892","japanese":"仲良しの3_5<end>"}
+{"section":196,"id":"1960893","japanese":"仲良しの3_6<end>"}
+{"section":196,"id":"1960894","japanese":"仲良しの3_7<end>"}
+{"section":196,"id":"1960895","japanese":"仲良しの3_8<end>"}
+{"section":196,"id":"1960896","japanese":"仲良しの3_9<end>"}
+{"section":196,"id":"1960897","japanese":"仲良しの3_10<end>"}
+{"section":196,"id":"1960898","japanese":"仲良しの4_1<end>"}
+{"section":196,"id":"1960899","japanese":"仲良しの4_2<end>"}
+{"section":196,"id":"1960900","japanese":"仲良しの4_3<end>"}
+{"section":196,"id":"1960901","japanese":"仲良しの4_4<end>"}
+{"section":196,"id":"1960902","japanese":"仲良しの4_5<end>"}
+{"section":196,"id":"1960903","japanese":"仲良しの4_6<end>"}
+{"section":196,"id":"1960904","japanese":"仲良しの4_7<end>"}
+{"section":196,"id":"1960905","japanese":"仲良しの4_8<end>"}
+{"section":196,"id":"1960906","japanese":"仲良しの4_9<end>"}
+{"section":196,"id":"1960907","japanese":"仲良しの4_10<end>"}
+{"section":196,"id":"1960908","japanese":"仲良しの5_1<end>"}
+{"section":196,"id":"1960909","japanese":"仲良しの5_2<end>"}
+{"section":196,"id":"1960910","japanese":"仲良しの5_3<end>"}
+{"section":196,"id":"1960911","japanese":"仲良しの5_4<end>"}
+{"section":196,"id":"1960912","japanese":"仲良しの5_5<end>"}
+{"section":196,"id":"1960913","japanese":"仲良しの5_6<end>"}
+{"section":196,"id":"1960914","japanese":"仲良しの5_7<end>"}
+{"section":196,"id":"1960915","japanese":"仲良しの5_8<end>"}
+{"section":196,"id":"1960916","japanese":"仲良しの5_9<end>"}
+{"section":196,"id":"1960917","japanese":"仲良しの5_10<end>"}
+{"section":196,"id":"1960918","japanese":"仲良しの6_1<end>"}
+{"section":196,"id":"1960919","japanese":"仲良しの6_2<end>"}
+{"section":196,"id":"1960920","japanese":"仲良しの6_3<end>"}
+{"section":196,"id":"1960921","japanese":"仲良しの6_4<end>"}
+{"section":196,"id":"1960922","japanese":"仲良しの6_5<end>"}
+{"section":196,"id":"1960923","japanese":"仲良しの6_6<end>"}
+{"section":196,"id":"1960924","japanese":"仲良しの6_7<end>"}
+{"section":196,"id":"1960925","japanese":"仲良しの6_8<end>"}
+{"section":196,"id":"1960926","japanese":"仲良しの6_9<end>"}
+{"section":196,"id":"1960927","japanese":"仲良しの6_10<end>"}
+{"section":196,"id":"1960928","japanese":"不良少年１<end>"}
+{"section":196,"id":"1960929","japanese":"不良少年２<end>"}
+{"section":196,"id":"1960930","japanese":"不良少年３<end>"}
+{"section":196,"id":"1960931","japanese":"不良少年３－２<end>"}
+{"section":196,"id":"1960932","japanese":"不良少年４<end>"}
+{"section":196,"id":"1960933","japanese":"不良少年５<end>"}
+{"section":196,"id":"1960934","japanese":"めいわきやく１<end>"}
+{"section":196,"id":"1960935","japanese":"めいわきやく２<end>"}
+{"section":196,"id":"1960936","japanese":"めいわきやく３<end>"}
+{"section":196,"id":"1960937","japanese":"めいわきやく４<end>"}
+{"section":196,"id":"1960938","japanese":"めいわきやく５<end>"}
+{"section":196,"id":"1960939","japanese":"組手勝負<end>"}
+{"section":196,"id":"1960940","japanese":"迷子イベント１<end>"}
+{"section":196,"id":"1960941","japanese":"迷子イベント２<end>"}
+{"section":196,"id":"1960942","japanese":"迷子イベント３<end>"}
+{"section":196,"id":"1960943","japanese":"迷子イベント４<end>"}
+{"section":196,"id":"1960944","japanese":"迷子イベント５<end>"}
+{"section":196,"id":"1960945","japanese":"誕生日イベント_1<end>"}
+{"section":196,"id":"1960946","japanese":"誕生日イベント_2<end>"}
+{"section":196,"id":"1960947","japanese":"誕生日イベント_3<end>"}
+{"section":196,"id":"1960948","japanese":"誕生日イベント_4<end>"}
+{"section":196,"id":"1960949","japanese":"誕生日イベント_5<end>"}
+{"section":196,"id":"1960950","japanese":"誕生日イベント_6<end>"}
+{"section":196,"id":"1960951","japanese":"誕生日イベント_7<end>"}
+{"section":196,"id":"1960952","japanese":"誕生日イベント_8<end>"}
+{"section":196,"id":"1960953","japanese":"誕生日イベント_9<end>"}
+{"section":196,"id":"1960954","japanese":"誕生日イベント_10<end>"}
+{"section":196,"id":"1960955","japanese":"迫害の<end>"}
+{"section":196,"id":"1960956","japanese":"新月の_1<end>"}
+{"section":196,"id":"1960957","japanese":"新月の_2<end>"}
+{"section":196,"id":"1960958","japanese":"新月の_3<end>"}
+{"section":196,"id":"1960959","japanese":"新月の_4<end>"}
+{"section":196,"id":"1960960","japanese":"新月の_5<end>"}
+{"section":196,"id":"1960961","japanese":"新月の_6<end>"}
+{"section":196,"id":"1960962","japanese":"新月の_7<end>"}
+{"section":196,"id":"1960963","japanese":"新月の_8<end>"}
+{"section":196,"id":"1960964","japanese":"新月の_9<end>"}
+{"section":196,"id":"1960965","japanese":"新月の_10<end>"}
+{"section":196,"id":"1960966","japanese":"初めての<end>"}
+{"section":196,"id":"1960967","japanese":"元救世主<end>"}
+{"section":196,"id":"1960968","japanese":"通信機<end>"}
+{"section":196,"id":"1960969","japanese":"異種族間の１<end>"}
+{"section":196,"id":"1960970","japanese":"異種族間の２<end>"}
+{"section":196,"id":"1960971","japanese":"異種族間の３<end>"}
+{"section":196,"id":"1960972","japanese":"異種族間の４<end>"}
+{"section":196,"id":"1960973","japanese":"異種族間の５－１<end>"}
+{"section":196,"id":"1960974","japanese":"異種族間の５－２<end>"}
+{"section":196,"id":"1960975","japanese":"異種族間の６<end>"}
+{"section":196,"id":"1960976","japanese":"異種族間の７<end>"}
+{"section":196,"id":"1960977","japanese":"異種族間の８<end>"}
+{"section":196,"id":"1960978","japanese":"異種族間の９<end>"}
+{"section":196,"id":"1960979","japanese":"憎悪<end>"}
+{"section":196,"id":"1960980","japanese":"蔑視<end>"}
+{"section":196,"id":"1960981","japanese":"知己<end>"}
+{"section":196,"id":"1960982","japanese":"好意<end>"}
+{"section":196,"id":"1960983","japanese":"友情<end>"}
+{"section":196,"id":"1960984","japanese":"信頼<end>"}
+{"section":196,"id":"1960985","japanese":"熱愛<end>"}
+{"section":196,"id":"1960986","japanese":"激愛<end>"}
+{"section":196,"id":"1960987","japanese":"旅立ち開始<end>"}
+{"section":196,"id":"1960988","japanese":"旅立ち終了<end>"}
+{"section":196,"id":"1960989","japanese":"木材調達<end>"}
+{"section":196,"id":"1960990","japanese":"木材調達Ｙｅｓ<end>"}
+{"section":196,"id":"1960991","japanese":"小屋の下で合流<end>"}
+{"section":196,"id":"1960992","japanese":"弁当の配達依頼<end>"}
+{"section":196,"id":"1960993","japanese":"弁当の配達完了<end>"}
+{"section":196,"id":"1960994","japanese":"広場の露店に向かう<end>"}
+{"section":196,"id":"1960995","japanese":"露店1に話し掛けた<end>"}
+{"section":196,"id":"1960996","japanese":"露店2に話し掛けた<end>"}
+{"section":196,"id":"1960997","japanese":"露店3に話し掛けた<end>"}
+{"section":196,"id":"1960998","japanese":"ガルドラン登場<end>"}
+{"section":196,"id":"1960999","japanese":"薬草が欲しいよ<end>"}
+{"section":196,"id":"1961000","japanese":"薬草入手<end>"}

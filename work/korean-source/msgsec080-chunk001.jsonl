@@ -1,0 +1,97 @@
+{"section":80,"id":"800000","japanese":"フゴー、Vol１用メッセージ開始<end>"}
+{"section":80,"id":"800001","japanese":"ふぉふぉふぉ、<line-break>妻に話しかけるんなら<line-break>わしにも話しかけてほしいのぉ。<line-break>昔っから、よく、<line-break>夫婦は一心同体というからのぉ。<end>"}
+{"section":80,"id":"800002","japanese":"ほーっほっほっ、<line-break>そーですわねー。<end>"}
+{"section":80,"id":"800003","japanese":"<select><value:$20>%3わしの祖先は、<line-break>ストラ＝フゴーと言ってのぉ。<line-break>えらい義賊だったそうじゃのぉ。<line-break>名誉なことじゃのぉ。<line-break>でも、わしは気にせんぞぉ。<end>冒険者ギルドの基礎は、<line-break>ストラ＝フゴーが作ったそうじゃのぉ。<line-break>えらい人じゃのぉ。<end>ストラ＝フゴー愛用の<line-break>短剣がどこかに<line-break>あるそうじゃのぉ。<line-break>どこにあるのかのぉ。<end>"}
+{"section":80,"id":"800004","japanese":"ほーっほっほっ、<line-break>そーですわねー。<end>"}
+{"section":80,"id":"800005","japanese":"ここはフゴー様のお屋敷です。<end>"}
+{"section":80,"id":"800006","japanese":"あ、ああ、あなたは、あの有名な<line-break><value:$2B>の<value:$28>！<line-break>どうぞ、お通りください。<end>"}
+{"section":80,"id":"800007","japanese":"あなたのような無名の方を<line-break>通すわけにはまいりません。<line-break>どうぞお引き取りください。<end>"}
+{"section":80,"id":"800008","japanese":"どんな意味のなさそうな言葉にも<line-break>言霊の力があり、<line-break>その力は意外な所で実を結ぶもの…。　<line-break>私の言葉を聞きなさい…。<end>"}
+{"section":80,"id":"800009","japanese":"…大いなる静寂が迫っているわ。<line-break>急いで時を進めないと<line-break>すべてが静寂に飲み込まれてしまう…。<end>"}
+{"section":80,"id":"800010","japanese":"日と月の運行は腕輪に影響を及ぼす…。<line-break>次に金環食が起こるのは<line-break>１２０７年８月２３日よ…。<end>"}
+{"section":80,"id":"800011","japanese":"日と月の運行は腕輪に影響を及ぼす…。<line-break>次に金環食が起こるのは<line-break>１２０５年４月２５日よ…。<end>"}
+{"section":80,"id":"800012","japanese":"日と月の運行は腕輪に影響を及ぼす…。<line-break>次に金環食が起こるのは<line-break>１２０４年１月２日よ…。<end>"}
+{"section":80,"id":"800013","japanese":"日と月の運行は腕輪に影響を及ぼす…。<line-break>次に金環食が起こるのは<line-break>１２０２年１０月１８日よ…。<end>"}
+{"section":80,"id":"800014","japanese":"<if><value:$01><equal>3金環食が始まったぞ。<line-break>終わるまで、Ｘ分と言うところか…。<end><if><value:$01><equal>4わぁ、金環食が始まったみたい。<line-break>終わるまで、あと、えーと、<line-break>Ｘ分ってとこかな。<end><if><value:$01><equal>5へっ、金環食だ。<line-break>ナイーブな奴がビックリした！<line-break>敏感ショーック！　ってな。ププッ。<line-break>今日も俺はさえてるぜ！<line-break>あと、Ｘ分ってとこだな。<line-break>おい、聞いてるか？<end><if><value:$01><equal>8金環食です。<line-break>あとＸ分続きます。<line-break>でも、うーん、どうなんでしょうねえ？<line-break>ま、いいでしょう。<line-break>何事も勉強ですから。<end><if><value:$01><equal>12美しい…。<line-break>金環食だぜ。<line-break>あとＸ分ってとこだな。<end><if><value:$01><equal>13…金環食だ。<line-break>あとＸ分か。<end><if><value:$01><equal>10姉ちゃん、金環食だ。<line-break>ウヒョー！<line-break>きれいだよなー。<line-break>…あ、そうそう、<line-break>あとＸ分だぜ。<line-break>姉ちゃん。<end><if><value:$01><equal>14見てみい。<line-break>金環食じゃ。<line-break>あとＸ分続くぞ。<end><if><value:$01><equal>15あ、ねえ、<value:$28>、<line-break>金環食が始まったみたいだ。<line-break>Ｘ分続くんだったよね、これ。<end><if><value:$01><equal>16金環食だ。<line-break>あとＸ分だな。<line-break>行くぞ。<end><if><value:$01><equal>17あ、あれ、あれが、金環食よ！<line-break>きれい…。<line-break>　<line-break>１６００年も生きてて、<line-break>何百回とあったはずなのに…。<line-break>ちゃんと見たの、初めて…。<end><if><value:$01><equal>18兄弟子、金環食ですぞ！<line-break>なんかイイ感触ですな！<line-break>………………。<line-break>いまいちであったか…。<line-break>ああ、それそれ、<line-break>あとＸ分ですぞ、兄弟子！<end><if><value:$01><equal>19ああーっ、金環食だよぉ！<line-break>ルルアンタ、はじめて！<line-break>きっれーい。<line-break>これがあとＸ分で<line-break>終わっちゃうのかぁ。<line-break>もったいないなぁー。<end><if><value:$01><equal>20…金環食だ。<line-break>　<line-break>　<line-break>…あとＸ分で終わる。<line-break>花も何もかも、<line-break>美しい者は…一瞬だ。<end><if><value:$01><equal>22きれいだあー。<line-break>金環食…。<line-break>あと、Ｘ分で終わっちゃうけどね。<end>金環食が始まったわ。<line-break>終わるまで、ざっとＸ分ってとこね。<end>"}
+{"section":80,"id":"800015","japanese":"ちょうど金環食が始まった。<line-break>あと、Ｘ分以内に、開かずの扉に<line-break>たどり着かないといけない。<line-break>…だけど、これはシャロームの罠だよ。<line-break>ボクの巫女の知識が<line-break>そう教えてくれている。<end>"}
+{"section":80,"id":"800016","japanese":"そのことをよく考えてね。<line-break>自分を封じているマノンを<line-break>キミに始末させようとしているんだ。<end>"}
+{"section":80,"id":"800017","japanese":"ちょうど金環食が始まった。<line-break>あと、Ｘ分以内に、開かずの扉に<line-break>たどり着かないといけない。<line-break>だけど、たどり着いてもムダだよ。<line-break>キミには、まだ、<line-break>扉を開けるソウル的な資格がない。<end>"}
+{"section":80,"id":"800018","japanese":"さぁーて、金環食が始まったぞ。<line-break>あと、ざっとみて<line-break>Ｘ分ってとこかな。<end>"}
+{"section":80,"id":"800019","japanese":"（金環食が始まる…。<line-break>　あとＸ分で終わりそうだ。）<end>"}
+{"section":80,"id":"800020","japanese":"はぁっ！？　なに？　どうして？　　　<line-break>あああ、ソウルが…ソウルが…<line-break>ソウルが共鳴する…。<line-break>ああ、私の力が弱まる金環食の時に<line-break>アガスティアとブラックバイパーの<line-break>ソウルを持つ者が…ここに来るなんて！<end>"}
+{"section":80,"id":"800021","japanese":"しかも、それが…私と同じ…<line-break>無限のソウルを持つ者だなんて…！　　<line-break>ソウルが共鳴して…！　はうぅっ！<end>"}
+{"section":80,"id":"800022","japanese":"いやあっ！<line-break>…扉が、開くぅ！<end>"}
+{"section":80,"id":"800023","japanese":"いやあっ！<line-break>ソウルが共鳴して…<line-break>入って…きちゃう！<end>"}
+{"section":80,"id":"800024","japanese":"シャロームの手の者…かしら？<line-break>ムダよ。<line-break>その扉は開かないわ。<line-break>金環食の間、いくら力が弱まっても<line-break>あなたにその扉を抜けられるほど<line-break>弱くはならないの。<end>"}
+{"section":80,"id":"800025","japanese":"導精魔道マノンをなめないで。<line-break>殺されたくなければ<line-break>おとなしく引き上げるのね。<end>"}
+{"section":80,"id":"800026","japanese":"…シャロームの手の者？<line-break>それとも、好奇心に脳が冒された　　　　　<line-break>冒険者…かしら…？<line-break>私は導精魔道マノン…<line-break>ソウル永続維持のため腕輪から失礼するわ。<line-break>愚かなる侵入者さん？<end>"}
+{"section":80,"id":"800027","japanese":"あなた、私のこのソウルが<line-break>目当てみたいだけど、<line-break>そうはいかない…消えてもらうわ…。　　　<line-break>私の力が弱まっている上に<line-break>ソウルの共鳴事故で力がほとんど出ないの。<line-break>手加減してあげられないから、死んで？<end>"}
+{"section":80,"id":"800028","japanese":"そんな…！<line-break>これで…シャロームが…！　ああ…！<line-break>数百年の…私の孤独はなんだった…の…？<end>"}
+{"section":80,"id":"800029","japanese":"よくやった。<line-break>無限のソウルを持つ者よ。<line-break>さあ、来たれ…！<end>"}
+{"section":80,"id":"800030","japanese":"よくやった、<line-break>これで英雄ソウル、マノンを<line-break>手に入れられよう。<end>"}
+{"section":80,"id":"800031","japanese":"<value:$28>は<line-break>英雄ソウル、マノンを修得した。<end>"}
+{"section":80,"id":"800032","japanese":"これで、汝は強大なる源羅の力を得た。<line-break>…いよいよの活躍、期待しているぞ。<line-break>人類の革新のために、な…。<end>"}
+{"section":80,"id":"800033","japanese":"エンシャントの廃城で<line-break>暴れておるレムゲドンの亡霊も<line-break>源羅の力でしか倒せぬ。<line-break>行け。そして奴を倒し<line-break>己が得た力に恍惚となるとよい。<line-break>力こそが超人類への道ゆえ、な…<end>"}
+{"section":80,"id":"800034","japanese":"あ～っ！<line-break>お客さんだよ！<end>"}
+{"section":80,"id":"800035","japanese":"ああ、このリルビーか。<line-break>ベテランの冒険者だよ。<line-break>名前はクリスピー…。<end>"}
+{"section":80,"id":"800036","japanese":"ぼくはレルラ＝ロントン。<line-break>キレイを探して旅をする<line-break>さすらいの吟遊詩人だよ。<line-break>さて、それじゃ、<line-break>きみの方は<line-break>何を求めているのかな…？<end>"}
+{"section":80,"id":"800037","japanese":"きみを守って姿を消した大事な人？<end>"}
+{"section":80,"id":"800038","japanese":"親の仇？　凶々しい魔道器？<line-break>聖杯？　妖艶な美女？<line-break>それとも…<end>"}
+{"section":80,"id":"800039","japanese":"世界に潜む、謎という謎？<end>"}
+{"section":80,"id":"800040","japanese":"親の仇？<line-break>父親の秘密？<line-break>それとも、世界に潜む謎という謎？<end>"}
+{"section":80,"id":"800041","japanese":"復讐？<end>"}
+{"section":80,"id":"800042","japanese":"魔人？<line-break>きみを守って姿を消した人？<end>"}
+{"section":80,"id":"800043","japanese":"名誉？<line-break>いるべき場所？<line-break>それとも、世界に潜む謎という謎？<end>"}
+{"section":80,"id":"800044","japanese":"聖杯？<end>"}
+{"section":80,"id":"800045","japanese":"失われた幼なじみ？<end>"}
+{"section":80,"id":"800046","japanese":"誰かの過去？　愛？<line-break>それとも…<line-break>世界に潜む謎という謎？<end>"}
+{"section":80,"id":"800047","japanese":"復讐？<end>"}
+{"section":80,"id":"800048","japanese":"友情？　力？<line-break>それとも…<line-break>世界に潜む謎という謎？<end>"}
+{"section":80,"id":"800049","japanese":"復讐？　魔人？　故郷？<line-break>それとも…<line-break>世界に潜む謎という謎？<end>"}
+{"section":80,"id":"800050","japanese":"誰かの果たせぬ夢？　技？<line-break>それとも…<line-break>世界に潜む謎という謎？<end>"}
+{"section":80,"id":"800051","japanese":"過去の事？<line-break>自分の可能性？<line-break>それとも…<line-break>世界に潜む謎という謎？<end>"}
+{"section":80,"id":"800052","japanese":"フフ、ぼくと一緒に旅しようよ？<line-break>仲間にしてよ。<end>"}
+{"section":80,"id":"800053","japanese":"仲間にする<end>"}
+{"section":80,"id":"800054","japanese":"仲間にしない<end>"}
+{"section":80,"id":"800055","japanese":"うわーい！　ねぇ、おじさん。<line-break>なんかデタラメに言ったもののうち、<line-break>いくつか当たってたみたい。<end>"}
+{"section":80,"id":"800056","japanese":"ははは、こういう奴だが、<line-break>弓の腕は一流だぜ。<line-break>連れていってやりなよ。<end>"}
+{"section":80,"id":"800057","japanese":"やったぁ！<line-break>それじゃ、町の外で待ってるよ。<end>"}
+{"section":80,"id":"800058","japanese":"気をつけるんだぜ。<end>"}
+{"section":80,"id":"800059","japanese":"やったぁ！<line-break>でも…今は、満員みたいだね。<end>"}
+{"section":80,"id":"800060","japanese":"え、猫屋敷で呼んでくれるの？　　　<line-break>でも猫屋敷って…。<line-break>　<line-break>すごいよ！<line-break>きみは猫屋敷にも入れたんだ！<line-break>ますます、おもしろくなってきたよ！<end>"}
+{"section":80,"id":"800061","japanese":"ぼく、ちょっと近くの森まで行って<line-break>今の感動を曲にしてくるよ！<end>"}
+{"section":80,"id":"800062","japanese":"気をつけるんだぜ。<end>"}
+{"section":80,"id":"800063","japanese":"きみからは無限の可能性を感じる…。<line-break>そしてきみはその可能性に怖じてない。<line-break>それは、とても、キレイなことなんだ。<end>"}
+{"section":80,"id":"800064","japanese":"ああ。クリスピーというのは<line-break>レルラ＝ロントンの本名だよ。　　　<line-break>　<line-break>本人に言わせるとキレイじゃないから<line-break>いにしえの詩人、レルラとロントンの<line-break>名前を合わせてつけたんだそうだよ。<end>"}
+{"section":80,"id":"800065","japanese":"レルラ＝ロントンはリルビーだから　<line-break>毒に強い。毒を持つ敵が多い所の<line-break>探索では頼りになるぜ。<end>"}
+{"section":80,"id":"800066","japanese":"そっか…。<end>"}
+{"section":80,"id":"800067","japanese":"ぼく…ちょっと近くの森まで行って<line-break>新しい曲をつくってくるね…。<end>"}
+{"section":80,"id":"800068","japanese":"気をつけるんだぜ。<end>"}
+{"section":80,"id":"800069","japanese":"あれで、結構いい奴なんだぜ。<line-break>一緒に連れてってやればよかったのに。<end>"}
+{"section":80,"id":"800070","japanese":"いつ見ても、<line-break>いい絵じゃのぉ。<end>"}
+{"section":80,"id":"800071","japanese":"ほーっほっほっ、<line-break>そーですわねー。<end>"}
+{"section":80,"id":"800072","japanese":"名画であると同時に、<line-break>歴史資料としても<line-break>非常に価値がございます。　　　　　　<line-break>この７枚の絵に描かれた戦神ソリアスと<line-break>破壊神ウルグの戦いの跡地は、今も<line-break>大陸各地に残っているとのことです。<end>"}
+{"section":80,"id":"800073","japanese":"それは興味深いのぉ。<line-break>いつか全部行ってみたいのぉ。<end>"}
+{"section":80,"id":"800074","japanese":"ほーっほっほっ、<line-break>そーですわねー。<end>"}
+{"section":80,"id":"800075","japanese":"かしこまりました。<line-break>至聖賢君ノクサも巡ったと伝えられる<line-break>神々の戦場、調べさせておきましょう。<end>"}
+{"section":80,"id":"800076","japanese":"んー。<line-break>楽しみじゃのぉ。<end>"}
+{"section":80,"id":"800077","japanese":"ほーっほっほっ、<line-break>そーですわねー。<end>"}
+{"section":80,"id":"800078","japanese":"お邪魔いたしました。<line-break>ゆっくりとご鑑賞ください。<end>"}
+{"section":80,"id":"800079","japanese":"大地神バイアスが、<line-break>破壊神ウルグに敗れた様子を描いた作品。<line-break>この後、闇の時代が始まったと伝えられる。<line-break>荘厳な城塞内がその舞台となっている。<end>"}
+{"section":80,"id":"800080","japanese":"戦神ソリアスと２匹の従者により、<line-break>破壊神ウルグが退けられた戦いを描いた作品。<line-break>両者の激突は、岩山をひとつ吹き飛ばすほどの<line-break>激しさであったと伝えられる。<end>"}
+{"section":80,"id":"800081","japanese":"ソリアスと２匹の従者が撤退を余儀なくされた<line-break>ウルグの１２の円卓騎士襲来を描いた作品。<line-break>この戦いでうがたれた穴に水がたまり、<line-break>乙女の鏡ができたと伝えられる。<end>"}
+{"section":80,"id":"800082","japanese":"６種の武器をたずさえた戦神ソリアスが、<line-break>１２の円卓騎士を倒した戦いを描いた作品。<line-break>ソリアス渾身の一撃は、<line-break>大地を深く貫いたと伝えられる。<end>"}
+{"section":80,"id":"800083","japanese":"魔剣ソルベンジュを手に入れたウルグが、<line-break>ソリアスの従者を倒した戦いを描いた作品。<line-break>ソルベンジュの黒き光は地を裂き、谷を作り、<line-break>従者は、その底で息絶えたと伝えられる。<end>"}
+{"section":80,"id":"800084","japanese":"戦神ソリアスと破壊神ウルグの<line-break>２度目の戦いを描いた作品。<line-break>大地は震え、火を噴き、流れ出した溶岩は、<line-break>地を覆ったと伝えられる。<end>"}
+{"section":80,"id":"800085","japanese":"戦神ソリアスと破壊神ウルグ、<line-break>大陸の形を変えた最後の戦いを描いた作品。<line-break>この戦いのあと、ウルグは眠りにつき、<line-break>ソリアスはこの地を去ったと伝えられる。<end>"}
+{"section":80,"id":"800086","japanese":"フゴーＶｏｌ１予備メッセージ１<end>"}
+{"section":80,"id":"800087","japanese":"フゴーＶｏｌ１予備メッセージ２<end>"}
+{"section":80,"id":"800088","japanese":"フゴーＶｏｌ１予備メッセージ３<end>"}
+{"section":80,"id":"800089","japanese":"フゴーＶｏｌ１予備メッセージ４<end>"}
+{"section":80,"id":"800090","japanese":"フゴーＶｏｌ１予備メッセージ５<end>"}
+{"section":80,"id":"800091","japanese":"フゴーＶｏｌ１予備メッセージ６<end>"}
+{"section":80,"id":"800092","japanese":"フゴーＶｏｌ１予備メッセージ７<end>"}
+{"section":80,"id":"800093","japanese":"フゴーＶｏｌ１予備メッセージ８<end>"}
+{"section":80,"id":"800094","japanese":"フゴーＶｏｌ１予備メッセージ９<end>"}
+{"section":80,"id":"800095","japanese":"フゴーＶｏｌ１予備メッセージ１０<end>"}
+{"section":80,"id":"800096","japanese":"フゴー、Vol１用メッセージ終端<end>"}
