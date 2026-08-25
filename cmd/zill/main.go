@@ -25,6 +25,8 @@ Commands:
 	edit-record       Inspect or patch one inline dialogue variant as JSON
 	search            Search IDs, Japanese, and English
 	show              Show one record and nearby context
+	font-status       Inspect validated retail font metadata
+	korean-slots      Report reusable two-byte renderer slots for Korean PoC
 	ppsspp-debugger   Control a running PPSSPP instance through JSON Lines
 	trinity-extract   Extract Trinity PS3 English or Japanese text assets
 	trinity-search    Search paired Trinity English or Japanese text
@@ -59,6 +61,10 @@ func run(args []string, stdin io.Reader, stdout, stderr io.Writer) int {
 		return runShow(root, args[1:], stdout, stderr)
 	case "search":
 		return runSearch(root, args[1:], stdout, stderr)
+	case "font-status":
+		return runFontStatus(args[1:], stdout, stderr)
+	case "korean-slots":
+		return runKoreanSlots(root, args[1:], stdout, stderr)
 	case "ppsspp-debugger":
 		return runPPSSPPDebugger(args[1:], stdin, stdout, stderr)
 	case "trinity-extract":
