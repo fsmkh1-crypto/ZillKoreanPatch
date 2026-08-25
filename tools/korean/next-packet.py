@@ -3,8 +3,8 @@
 
 Resume state comes from checked-in Korean overlays. By default untranslated rows
 are ordered by encoded JSONL size (shortest first) to maximize LLM throughput.
-Rows with no visible source text (empty/whitespace or runtime controls only) do
-not require a Korean overlay and are counted separately as skipped.
+Rows with no visible source text, or visible text containing no Japanese script,
+do not require a Korean overlay and are counted separately as skipped/passthrough.
 """
 from __future__ import annotations
 
@@ -20,6 +20,7 @@ KOREAN = ROOT / "translations" / "korean" / "messages"
 SECTION_RE = re.compile(r"^msgsec(\d{3})")
 CONTROL_RE = re.compile(r"<(?:end|line-break|value:\$[0-9A-Fa-f]+|if|select|less-equal|equal)>")
 COND_RE = re.compile(r"%\d+")
+JAPANESE_SCRIPT_RE = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uff66-\uff9d]")
 
 
 def section_from_path(path: Path) -> int:
@@ -81,10 +82,14 @@ def numeric_id_key(rid: str) -> tuple[int, str]:
         return (2**63 - 1, rid)
 
 
-def has_visible_source_text(text: str) -> bool:
+def visible_source_text(text: str) -> str:
     rest = CONTROL_RE.sub("", text)
-    rest = COND_RE.sub("", rest)
-    return bool(rest.strip())
+    return COND_RE.sub("", rest).strip()
+
+
+def needs_translation(text: str) -> bool:
+    visible = visible_source_text(text)
+    return bool(visible and JAPANESE_SCRIPT_RE.search(visible))
 
 
 def main() -> None:
@@ -105,10 +110,15 @@ def main() -> None:
     if orphaned:
         raise SystemExit(f"Korean overlays contain {len(orphaned)} non-canonical ids; first={orphaned[0]}")
 
-    no_text_keys = {(s, rid) for s, rid, ja in canonical if not has_visible_source_text(ja)}
+    no_text_keys = {(s, rid) for s, rid, ja in canonical if not visible_source_text(ja)}
+    passthrough_keys = {
+        (s, rid) for s, rid, ja in canonical
+        if visible_source_text(ja) and not JAPANESE_SCRIPT_RE.search(visible_source_text(ja))
+    }
+    skipped_keys = no_text_keys | passthrough_keys
     untranslated = [
         row for row in canonical
-        if (row[0], row[1]) not in translated and has_visible_source_text(row[2])
+        if (row[0], row[1]) not in translated and needs_translation(row[2])
     ]
     if args.order == "shortest":
         untranslated.sort(
@@ -142,13 +152,13 @@ def main() -> None:
         print(payload, end="")
 
     total = len(canonical)
-    skipped = len(no_text_keys)
-    translated_visible = len(translated - no_text_keys)
-    done_effective = translated_visible + skipped
+    translated_needed = len(translated - skipped_keys)
+    done_effective = translated_needed + len(skipped_keys)
     progress = {
         "records_total": total,
-        "records_translated": translated_visible,
-        "records_no_text_skipped": skipped,
+        "records_translated": translated_needed,
+        "records_no_text_skipped": len(no_text_keys),
+        "records_passthrough_skipped": len(passthrough_keys),
         "records_done_effective": done_effective,
         "records_remaining": total - done_effective,
         "percent_done": round(done_effective * 100.0 / total, 4) if total else 100.0,
