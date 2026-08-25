@@ -31,8 +31,9 @@ jobs:
           rm -rf /tmp/korean-packet
           mkdir -p /tmp/korean-packet
           python3 tools/korean/next-packet.py \
-            --max-records 1500 \
+            --max-records 2000 \
             --max-bytes 400000 \
+            --order shortest \
             --out /tmp/korean-packet/current.jsonl \
             --progress /tmp/korean-packet/progress.json
       - name: Publish packet to helper branch
