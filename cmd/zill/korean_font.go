@@ -3,14 +3,18 @@
 package main
 
 import (
+	"crypto/sha256"
 	"fmt"
 	"io"
+	"os"
 	"path/filepath"
 	"sort"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/cp932"
+	"github.com/HK47196/zill/internal/fixeddata"
 	"github.com/HK47196/zill/internal/gamefmt/paa"
+	"github.com/HK47196/zill/internal/slotaudit"
 	"github.com/HK47196/zill/internal/zillfont"
 )
 
@@ -18,6 +22,7 @@ const (
 	jillBtnMemberIndex = 13612
 	jillBtnMemberSize  = 0x18e60
 	pafMemberOffset    = 0x4490
+	retailEBOOTSHA256  = "2a52012be00c07512dcde932ff6e9eb9b96912c59dd5a25c7c26ef821c124d68"
 )
 
 func loadRetailPAF(gameDir string) (*zillfont.PAF, error) {
@@ -72,18 +77,120 @@ func runFontStatus(args []string, stdout, stderr io.Writer) int {
 }
 
 func collectRendererKeys(id int, label, text string, used map[cp932.GlyphKey]struct{}) error {
+	return collectTextRendererKeys(fmt.Sprintf("%s ID %d", label, id), text, used)
+}
+
+func collectTextRendererKeys(label, text string, used map[cp932.GlyphKey]struct{}) error {
 	for _, r := range text {
 		encoded, err := cp932.Encode(string(r))
 		if err != nil {
-			return fmt.Errorf("%s ID %d contains non-CP932 rune %U: %w", label, id, r, err)
+			return fmt.Errorf("%s contains non-CP932 rune %U: %w", label, r, err)
 		}
 		key, err := cp932.GlyphKeyFromBytes(encoded)
 		if err != nil {
-			return fmt.Errorf("%s ID %d rune %U: %w", label, id, r, err)
+			return fmt.Errorf("%s rune %U: %w", label, r, err)
 		}
 		used[key] = struct{}{}
 	}
 	return nil
+}
+
+func mergeRendererKeys(destination map[cp932.GlyphKey]struct{}, source map[cp932.GlyphKey]struct{}) {
+	for key := range source {
+		destination[key] = struct{}{}
+	}
+}
+
+func loadFixedRendererKeys(root string) (map[cp932.GlyphKey]struct{}, fixeddata.EquipmentTranslations, error) {
+	used := make(map[cp932.GlyphKey]struct{})
+	ebootData, err := os.ReadFile(filepath.Join(root, "release", "strings", "eboot.toml"))
+	if err != nil {
+		return nil, nil, fmt.Errorf("read release/strings/eboot.toml: %w", err)
+	}
+	eboot, err := fixeddata.ParseEBOOT(ebootData)
+	if err != nil {
+		return nil, nil, err
+	}
+	for offset, field := range eboot {
+		if err := collectTextRendererKeys(fmt.Sprintf("EBOOT source %#x", offset), field.Source, used); err != nil {
+			return nil, nil, err
+		}
+		if err := collectTextRendererKeys(fmt.Sprintf("EBOOT replacement %#x", offset), field.Replacement, used); err != nil {
+			return nil, nil, err
+		}
+	}
+	equipmentData, err := os.ReadFile(filepath.Join(root, "release", "strings", "equipment.toml"))
+	if err != nil {
+		return nil, nil, fmt.Errorf("read release/strings/equipment.toml: %w", err)
+	}
+	equipment, err := fixeddata.ParseEquipment(equipmentData)
+	if err != nil {
+		return nil, nil, err
+	}
+	for selector, field := range equipment {
+		if err := collectTextRendererKeys(fmt.Sprintf("equipment source %d", selector), field.Source, used); err != nil {
+			return nil, nil, err
+		}
+		if err := collectTextRendererKeys(fmt.Sprintf("equipment replacement %d", selector), field.Text, used); err != nil {
+			return nil, nil, err
+		}
+	}
+	return used, equipment, nil
+}
+
+func loadAuthenticatedRetailEBOOT(gameDir string) ([]byte, error) {
+	data, err := os.ReadFile(filepath.Join(gameDir, "SYSDIR", "EBOOT.BIN"))
+	if err != nil {
+		return nil, fmt.Errorf("read retail EBOOT.BIN: %w", err)
+	}
+	if got := fmt.Sprintf("%x", sha256.Sum256(data)); got != retailEBOOTSHA256 {
+		return nil, fmt.Errorf("unsupported retail EBOOT.BIN fingerprint %s", got)
+	}
+	return data, nil
+}
+
+func loadRetailBindata(gameDir string) ([]byte, error) {
+	var payload []byte
+	found := ""
+	for _, archive := range []string{"pa", "pami"} {
+		usrdir := filepath.Join(gameDir, "USRDIR")
+		pair, err := paa.Open(filepath.Join(usrdir, archive+".bin"), filepath.Join(usrdir, archive+".arc"))
+		if err != nil {
+			return nil, fmt.Errorf("open %s archive: %w", archive, err)
+		}
+		for _, member := range pair.Members() {
+			if member.Name != "data/bindata.dat" {
+				continue
+			}
+			if found != "" {
+				_ = pair.Close()
+				return nil, fmt.Errorf("data/bindata.dat appears in both %s and %s", found, archive)
+			}
+			payload, err = pair.Payload(member.Index)
+			if err != nil {
+				_ = pair.Close()
+				return nil, fmt.Errorf("read %s data/bindata.dat: %w", archive, err)
+			}
+			found = archive
+		}
+		if err := pair.Close(); err != nil {
+			return nil, fmt.Errorf("close %s archive: %w", archive, err)
+		}
+	}
+	if found == "" {
+		return nil, fmt.Errorf("retail archives do not contain data/bindata.dat")
+	}
+	return payload, nil
+}
+
+func installedReferenceCount(installed []cp932.GlyphKey, used map[cp932.GlyphKey]struct{}) int {
+	count := 0
+	for _, key := range installed {
+		if _, ok := used[key]; ok {
+			count++
+		}
+	}
+	return count
 }
 
 func runKoreanSlots(root string, args []string, stdout, stderr io.Writer) int {
@@ -115,37 +222,69 @@ func runKoreanSlots(root string, args []string, stdout, stderr io.Writer) int {
 		}
 	}
 
+	usedFixed, equipment, err := loadFixedRendererKeys(root)
+	if err != nil {
+		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
+		return 1
+	}
+	eboot, err := loadAuthenticatedRetailEBOOT(gameDir)
+	if err != nil {
+		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
+		return 1
+	}
+	ebootScan, err := slotaudit.ScanCP932Literals(eboot)
+	if err != nil {
+		fmt.Fprintf(stderr, "zill: korean-slots: scan EBOOT: %v\n", err)
+		return 1
+	}
+	bindata, err := loadRetailBindata(gameDir)
+	if err != nil {
+		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
+		return 1
+	}
+	// ApplyEquipment is used here as an authentication/source-guard check. The
+	// returned translated copy is intentionally discarded; the audit scans retail.
+	if _, err := fixeddata.ApplyEquipment(bindata, equipment); err != nil {
+		fmt.Fprintf(stderr, "zill: korean-slots: authenticate bindata.dat: %v\n", err)
+		return 1
+	}
+	bindataScan, err := slotaudit.ScanCP932Literals(bindata)
+	if err != nil {
+		fmt.Fprintf(stderr, "zill: korean-slots: scan bindata.dat: %v\n", err)
+		return 1
+	}
+
+	usedAll := make(map[cp932.GlyphKey]struct{})
+	mergeRendererKeys(usedAll, usedEnglish)
+	mergeRendererKeys(usedAll, usedJapanese)
+	mergeRendererKeys(usedAll, usedFixed)
+	mergeRendererKeys(usedAll, ebootScan.Keys)
+	mergeRendererKeys(usedAll, bindataScan.Keys)
+
 	installedTwoByte := font.DoubleByteKeys()
 	candidates := make([]cp932.GlyphKey, 0, len(installedTwoByte))
-	englishInstalled := 0
-	japaneseInstalled := 0
-	unionInstalled := 0
 	for _, key := range installedTwoByte {
-		_, english := usedEnglish[key]
-		_, japanese := usedJapanese[key]
-		if english {
-			englishInstalled++
+		if _, used := usedAll[key]; !used {
+			candidates = append(candidates, key)
 		}
-		if japanese {
-			japaneseInstalled++
-		}
-		if english || japanese {
-			unionInstalled++
-			continue
-		}
-		candidates = append(candidates, key)
 	}
 	sort.Slice(candidates, func(i, j int) bool { return candidates[i] < candidates[j] })
 
+	messageUnion := make(map[cp932.GlyphKey]struct{})
+	mergeRendererKeys(messageUnion, usedEnglish)
+	mergeRendererKeys(messageUnion, usedJapanese)
 	fmt.Fprintf(stdout, "Installed glyph slots: %d\n", len(font.Glyphs))
 	fmt.Fprintf(stdout, "Installed two-byte slots: %d\n", len(installedTwoByte))
-	fmt.Fprintf(stdout, "Two-byte slots referenced by current English message text: %d\n", englishInstalled)
-	fmt.Fprintf(stdout, "Two-byte slots referenced by retail Japanese message text: %d\n", japaneseInstalled)
-	fmt.Fprintf(stdout, "Two-byte slots referenced by either message corpus: %d\n", unionInstalled)
-	fmt.Fprintf(stdout, "Candidate two-byte slots unreferenced by both message corpora: %d\n", len(candidates))
-	fmt.Fprintln(stdout, "Safety status: CANDIDATES ONLY; UI/ELF/fixed-data references outside message banks are not yet excluded.")
+	fmt.Fprintf(stdout, "Two-byte slots referenced by current English message text: %d\n", installedReferenceCount(installedTwoByte, usedEnglish))
+	fmt.Fprintf(stdout, "Two-byte slots referenced by retail Japanese message text: %d\n", installedReferenceCount(installedTwoByte, usedJapanese))
+	fmt.Fprintf(stdout, "Two-byte slots referenced by either message corpus: %d\n", installedReferenceCount(installedTwoByte, messageUnion))
+	fmt.Fprintf(stdout, "Two-byte slots referenced by canonical EBOOT/equipment fixed strings: %d\n", installedReferenceCount(installedTwoByte, usedFixed))
+	fmt.Fprintf(stdout, "Recovered retail EBOOT CP932 literals: %d; installed two-byte keys referenced: %d\n", len(ebootScan.Literals), installedReferenceCount(installedTwoByte, ebootScan.Keys))
+	fmt.Fprintf(stdout, "Recovered authenticated bindata.dat CP932 literals: %d; installed two-byte keys referenced: %d\n", len(bindataScan.Literals), installedReferenceCount(installedTwoByte, bindataScan.Keys))
+	fmt.Fprintf(stdout, "Candidate two-byte slots after message/fixed/EBOOT/bindata audit: %d\n", len(candidates))
+	fmt.Fprintln(stdout, "Safety status: AUDITED CANDIDATES ONLY; other archive/UI/script resources are not yet semantically parsed, so these are not production-safe slots yet.")
 	if len(candidates) > 0 {
-		fmt.Fprintf(stdout, "First candidate keys:")
+		fmt.Fprintf(stdout, "First audited candidate keys:")
 		limit := min(16, len(candidates))
 		for _, key := range candidates[:limit] {
 			fmt.Fprintf(stdout, " %04X", uint16(key))
