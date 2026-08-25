@@ -12,6 +12,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strconv"
 	"strings"
@@ -22,6 +23,8 @@ import (
 )
 
 const licenseLine = "# SPDX-License-Identifier: CC-BY-SA-4.0"
+
+var sectionFilename = regexp.MustCompile(`^msgsec([0-9]{3})(?:(?:-part([0-9]{2}))|b)?\.toml$`)
 
 // Record is one canonical Korean replacement. Layout is optional generated
 // reflow text; when empty, Text is compiled directly.
@@ -45,9 +48,10 @@ type row struct {
 	Layout   *string `toml:"layout"`
 }
 
-// Load reads translations/korean/messages/msgsecNNN.toml. The directory is
-// sparse by design: only sections with at least one Korean replacement need a
-// file, which keeps incremental bulk translation and review practical.
+// Load reads the sparse Korean overlay. Large sections may be split into
+// msgsecNNN-partNN.toml files; legacy msgsecNNNb.toml is accepted while older
+// translation branches are being consolidated. Every row remains bound to the
+// canonical Japanese source and duplicate IDs must be byte-for-byte identical.
 func Load(root string, project *corpus.Project) (*Overlay, error) {
 	if project == nil {
 		return nil, fmt.Errorf("load Korean corpus: nil source project")
@@ -71,7 +75,7 @@ func Load(root string, project *corpus.Project) (*Overlay, error) {
 		}
 		section, ok := sectionFromName(entry.Name())
 		if !ok {
-			return nil, fmt.Errorf("%s: unexpected file %s; want msgsecNNN.toml", dir, entry.Name())
+			return nil, fmt.Errorf("%s: unexpected file %s; want msgsecNNN.toml, msgsecNNN-partNN.toml, or legacy msgsecNNNb.toml", dir, entry.Name())
 		}
 		path := filepath.Join(dir, entry.Name())
 		data, err := os.ReadFile(path)
@@ -83,8 +87,12 @@ func Load(root string, project *corpus.Project) (*Overlay, error) {
 			return nil, err
 		}
 		for _, record := range records {
-			if _, exists := overlay.byID[record.ID]; exists {
-				return nil, fmt.Errorf("%s: duplicate Korean ID %d", path, record.ID)
+			if index, exists := overlay.byID[record.ID]; exists {
+				previous := overlay.Records[index]
+				if previous.Japanese == record.Japanese && previous.Text == record.Text && previous.Layout == record.Layout {
+					continue
+				}
+				return nil, fmt.Errorf("%s: conflicting duplicate Korean ID %d (already in %s)", path, record.ID, previous.File)
 			}
 			overlay.byID[record.ID] = len(overlay.Records)
 			overlay.Records = append(overlay.Records, record)
@@ -215,13 +223,19 @@ func validateText(path string, id int, field, text string) error {
 }
 
 func sectionFromName(name string) (int, bool) {
-	if len(name) != len("msgsec000.toml") || !strings.HasPrefix(name, "msgsec") || !strings.HasSuffix(name, ".toml") {
+	match := sectionFilename.FindStringSubmatch(name)
+	if match == nil {
 		return 0, false
 	}
-	digits := name[len("msgsec") : len("msgsec")+3]
-	section, err := strconv.Atoi(digits)
-	if err != nil || section < 0 || section >= 279 || fmt.Sprintf("%03d", section) != digits {
+	section, err := strconv.Atoi(match[1])
+	if err != nil || section < 0 || section >= 279 || fmt.Sprintf("%03d", section) != match[1] {
 		return 0, false
+	}
+	if match[2] != "" {
+		part, err := strconv.Atoi(match[2])
+		if err != nil || part < 1 {
+			return 0, false
+		}
 	}
 	return section, true
 }
