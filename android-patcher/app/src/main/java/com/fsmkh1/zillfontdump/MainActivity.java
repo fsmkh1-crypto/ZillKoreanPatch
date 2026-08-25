@@ -47,7 +47,7 @@ public final class MainActivity extends Activity {
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\nISO 선택 시 BOOT/EBOOT/폰트/bindata와 시작 대사 원문을 다시 검증합니다.\n감사 ZIP 추출과 별도로, 아래 버튼에서 첫 실제 한글 문장 PoC ISO를 만들 수 있습니다.\n신규 게임 첫 화면의 3줄이 ‘테스트 성공’으로 나오면 custom renderer key + message remap 경로가 실기에서 성공한 것입니다.");
+        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\nISO 선택 시 BOOT/EBOOT/폰트/bindata와 시작 대사 원문을 다시 검증합니다.\n감사 ZIP 추출과 별도로, 아래 버튼에서 첫 실제 한글 문장 PoC ISO를 만들 수 있습니다.\n신규 게임 첫 화면의 첫 줄만 ‘테스트 성공’으로 바뀌고 뒤의 두 일본어 줄이 그대로면 custom renderer key + message remap 경로가 실기에서 성공한 것입니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -210,7 +210,7 @@ public final class MainActivity extends Activity {
                 }
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "완료. PPSSPP에서 신규 게임을 시작하세요. 첫 3줄이 ‘테스트 성공’으로 반복되면 성공입니다."));
+                        "완료. PPSSPP에서 신규 게임을 시작하세요. 첫 줄이 ‘테스트 성공’, 뒤 두 줄이 일본어 그대로면 성공입니다."));
             } catch (Exception e) {
                 final String error = message(e);
                 runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
