@@ -3,14 +3,15 @@
   "records_done": 2214,
   "records_remaining": 40902,
   "percent_done": 5.135,
-  "packet_records": 2000,
-  "packet_bytes": 363982,
+  "packet_order": "shortest",
+  "packet_records": 1500,
+  "packet_bytes": 81215,
   "packet_first": {
-    "section": 0,
-    "id": "1500"
+    "section": 136,
+    "id": "1360644"
   },
   "packet_last": {
-    "section": 22,
-    "id": "220004"
+    "section": 49,
+    "id": "490315"
   }
 }
