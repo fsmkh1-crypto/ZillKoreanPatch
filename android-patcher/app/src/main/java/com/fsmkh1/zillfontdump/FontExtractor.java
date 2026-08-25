@@ -2,6 +2,7 @@ package com.fsmkh1.zillfontdump;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -22,26 +23,37 @@ final class FontExtractor {
     private static final String ZILLFONT_SOURCE_SHA256 = "0d3d6d2648870e87a01636cdfc7cc7af8100ea40b71e5ed05f82ac197606584a";
     private static final long JILLBTN_MEMBER_SIZE = 0x18E60L;
     private static final String JILLBTN_SOURCE_SHA256 = "95b48379092db4db72f890d5a221ba8c4094dd438cb4c4eba98eb5520c7b17aa";
+    private static final String EBOOT_SOURCE_SHA256 = "2a52012be00c07512dcde932ff6e9eb9b96912c59dd5a25c7c26ef821c124d68";
+    private static final String BINDATA_SOURCE_SHA256 = "3241fc000f3d52fe8522baaa985fd866e29d64d3a0f23ac4e28b66dee957de3e";
 
     static final class Inspection {
         final String discId;
         final String version;
         final long isoSize;
+        final Iso9660.Entry eboot;
         final Iso9660.Entry paBin;
         final Iso9660.Entry paArc;
         final PaaIndex.Member zillfont;
         final PaaIndex.Member jillbtn;
+        final Iso9660.Entry bindataArc;
+        final PaaIndex.Member bindata;
+        final String bindataArchive;
 
         Inspection(String discId, String version, long isoSize,
-                   Iso9660.Entry paBin, Iso9660.Entry paArc,
-                   PaaIndex.Member zillfont, PaaIndex.Member jillbtn) {
+                   Iso9660.Entry eboot, Iso9660.Entry paBin, Iso9660.Entry paArc,
+                   PaaIndex.Member zillfont, PaaIndex.Member jillbtn,
+                   Iso9660.Entry bindataArc, PaaIndex.Member bindata, String bindataArchive) {
             this.discId = discId;
             this.version = version;
             this.isoSize = isoSize;
+            this.eboot = eboot;
             this.paBin = paBin;
             this.paArc = paArc;
             this.zillfont = zillfont;
             this.jillbtn = jillbtn;
+            this.bindataArc = bindataArc;
+            this.bindata = bindata;
+            this.bindataArchive = bindataArchive;
         }
     }
 
@@ -50,11 +62,26 @@ final class FontExtractor {
         final long payloadSize;
         final String sha256;
         final PaaIndex.Member member;
+        final String archive;
 
-        Exported(String path, long payloadSize, String sha256, PaaIndex.Member member) {
+        Exported(String path, long payloadSize, String sha256,
+                 PaaIndex.Member member, String archive) {
             this.path = path;
             this.payloadSize = payloadSize;
             this.sha256 = sha256;
+            this.member = member;
+            this.archive = archive;
+        }
+    }
+
+    private static final class LocatedMember {
+        final String archive;
+        final Iso9660.Entry arc;
+        final PaaIndex.Member member;
+
+        LocatedMember(String archive, Iso9660.Entry arc, PaaIndex.Member member) {
+            this.archive = archive;
+            this.arc = arc;
             this.member = member;
         }
     }
@@ -75,15 +102,18 @@ final class FontExtractor {
             throw new IOException("Unsupported game version: " + version + " (expected 1.03)");
         }
 
+        Iso9660.Entry eboot = require(iso, "PSP_GAME/SYSDIR/EBOOT.BIN");
+        validateIsoEntryHash(iso, eboot, "EBOOT.BIN", EBOOT_SOURCE_SHA256);
+
         Iso9660.Entry paBin = require(iso, "PSP_GAME/USRDIR/pa.bin");
         Iso9660.Entry paArc = require(iso, "PSP_GAME/USRDIR/pa.arc");
-        PaaIndex index = PaaIndex.parse(iso.read(paBin));
-        if (index.count() != EXPECTED_MEMBER_COUNT) {
-            throw new IOException("PAA member count=" + index.count() + " (expected " + EXPECTED_MEMBER_COUNT + ")");
+        PaaIndex paIndex = PaaIndex.parse(iso.read(paBin));
+        if (paIndex.count() != EXPECTED_MEMBER_COUNT) {
+            throw new IOException("PAA member count=" + paIndex.count() + " (expected " + EXPECTED_MEMBER_COUNT + ")");
         }
 
-        PaaIndex.Member zillfont = index.member(ZILLFONT_INDEX);
-        PaaIndex.Member jillbtn = index.member(JILLBTN_INDEX);
+        PaaIndex.Member zillfont = paIndex.member(ZILLFONT_INDEX);
+        PaaIndex.Member jillbtn = paIndex.member(JILLBTN_INDEX);
         validateMember(zillfont, "font/zillfont.par", ZILLFONT_MEMBER_SIZE);
         validateMember(jillbtn, "2d/font/jillbtn.par", JILLBTN_MEMBER_SIZE);
 
@@ -91,13 +121,21 @@ final class FontExtractor {
         if (paArc.size < required) {
             throw new IOException("pa.arc is smaller than the PAA index requires");
         }
-
-        // The PAA index is authoritative for member positions. The retail member
-        // hashes below bind those offsets to the exact ULJM-05410 v1.03 source
-        // files used by the upstream English patch.
         validateSourceHash(iso, paArc, zillfont, ZILLFONT_SOURCE_SHA256);
         validateSourceHash(iso, paArc, jillbtn, JILLBTN_SOURCE_SHA256);
-        return new Inspection(discId, version, channel.size(), paBin, paArc, zillfont, jillbtn);
+
+        LocatedMember bindata = locateMember(iso, paIndex, paArc, "pa", "data/bindata.dat");
+        if (bindata == null) {
+            Iso9660.Entry pamiBin = require(iso, "PSP_GAME/USRDIR/pami.bin");
+            Iso9660.Entry pamiArc = require(iso, "PSP_GAME/USRDIR/pami.arc");
+            PaaIndex pamiIndex = PaaIndex.parse(iso.read(pamiBin));
+            bindata = locateMember(iso, pamiIndex, pamiArc, "pami", "data/bindata.dat");
+        }
+        if (bindata == null) throw new IOException("Retail archives do not contain data/bindata.dat");
+        validateSourceHash(iso, bindata.arc, bindata.member, BINDATA_SOURCE_SHA256);
+
+        return new Inspection(discId, version, channel.size(), eboot, paBin, paArc,
+                zillfont, jillbtn, bindata.arc, bindata.member, bindata.archive);
     }
 
     static void export(FileChannel channel, Inspection inspection, OutputStream output,
@@ -106,9 +144,12 @@ final class FontExtractor {
         try (ZipOutputStream zip = new ZipOutputStream(output)) {
             List<Exported> files = new ArrayList<>();
             files.add(exportMember(iso, inspection.paArc, zip,
-                    "font/zillfont.par", inspection.zillfont));
+                    "font/zillfont.par", inspection.zillfont, "pa"));
             files.add(exportMember(iso, inspection.paArc, zip,
-                    "2d/font/jillbtn.par", inspection.jillbtn));
+                    "2d/font/jillbtn.par", inspection.jillbtn, "pa"));
+            files.add(exportIsoEntry(iso, zip, "SYSDIR/EBOOT.BIN", inspection.eboot));
+            files.add(exportMember(iso, inspection.bindataArc, zip,
+                    "data/bindata.dat", inspection.bindata, inspection.bindataArchive));
 
             String manifest = manifestJson(inspection, sourceName, files);
             zip.putNextEntry(new ZipEntry("manifest.json"));
@@ -117,29 +158,68 @@ final class FontExtractor {
         }
     }
 
-    private static Exported exportMember(Iso9660 iso, Iso9660.Entry paArc, ZipOutputStream zip,
-                                         String path, PaaIndex.Member member) throws IOException {
-        long absolute = paArc.extent * Iso9660.SECTOR_SIZE + member.offset;
+    private static LocatedMember locateMember(Iso9660 iso, PaaIndex index, Iso9660.Entry arc,
+                                               String archive, String wanted) throws IOException {
+        PaaIndex.Member found = null;
+        for (int i = 0; i < index.count(); i++) {
+            PaaIndex.Member member = index.member(i);
+            if (!wanted.equals(member.name)) continue;
+            if (found != null) throw new IOException(wanted + " is duplicated in " + archive + " archive");
+            if (member.offset + member.size > arc.size) {
+                throw new IOException(wanted + " extends past " + archive + ".arc");
+            }
+            found = member;
+        }
+        return found == null ? null : new LocatedMember(archive, arc, found);
+    }
+
+    private static Exported exportIsoEntry(Iso9660 iso, ZipOutputStream zip,
+                                            String path, Iso9660.Entry entry) throws IOException {
+        MessageDigest digest = sha256();
+        zip.putNextEntry(new ZipEntry(path));
+        long absolute = entry.extent * Iso9660.SECTOR_SIZE;
+        iso.copyRange(absolute, entry.size, zip, digest);
+        zip.closeEntry();
+        return new Exported(path, entry.size, hex(digest.digest()), null, "iso");
+    }
+
+    private static Exported exportMember(Iso9660 iso, Iso9660.Entry arc, ZipOutputStream zip,
+                                         String path, PaaIndex.Member member,
+                                         String archive) throws IOException {
+        long absolute = arc.extent * Iso9660.SECTOR_SIZE + member.offset;
         MessageDigest digest = sha256();
         zip.putNextEntry(new ZipEntry(path));
         iso.copyRange(absolute, member.size, zip, digest);
         zip.closeEntry();
-        return new Exported(path, member.size, hex(digest.digest()), member);
+        return new Exported(path, member.size, hex(digest.digest()), member, archive);
     }
 
-    private static void validateSourceHash(Iso9660 iso, Iso9660.Entry paArc,
+    private static void validateIsoEntryHash(Iso9660 iso, Iso9660.Entry entry,
+                                             String label, String expected) throws IOException {
+        MessageDigest digest = sha256();
+        iso.copyRange(entry.extent * Iso9660.SECTOR_SIZE, entry.size, nullSink(), digest);
+        String actual = hex(digest.digest());
+        if (!expected.equals(actual)) {
+            throw new IOException(label + " SHA-256=" + actual + " (unsupported source file)");
+        }
+    }
+
+    private static void validateSourceHash(Iso9660 iso, Iso9660.Entry arc,
                                            PaaIndex.Member member, String expected) throws IOException {
         MessageDigest digest = sha256();
-        OutputStream sink = new OutputStream() {
-            @Override public void write(int value) {}
-            @Override public void write(byte[] bytes, int offset, int length) {}
-        };
-        long absolute = paArc.extent * Iso9660.SECTOR_SIZE + member.offset;
-        iso.copyRange(absolute, member.size, sink, digest);
+        long absolute = arc.extent * Iso9660.SECTOR_SIZE + member.offset;
+        iso.copyRange(absolute, member.size, nullSink(), digest);
         String actual = hex(digest.digest());
         if (!expected.equals(actual)) {
             throw new IOException(member.name + " SHA-256=" + actual + " (unsupported source member)");
         }
+    }
+
+    private static OutputStream nullSink() {
+        return new OutputStream() {
+            @Override public void write(int value) {}
+            @Override public void write(byte[] bytes, int offset, int length) {}
+        };
     }
 
     private static void validateMember(PaaIndex.Member member, String expectedName,
@@ -171,25 +251,26 @@ final class FontExtractor {
     private static String manifestJson(Inspection i, String sourceName, List<Exported> files) {
         StringBuilder s = new StringBuilder();
         s.append("{\n");
-        s.append("  \"format\": \"zill-font-extract-v2\",\n");
-        s.append("  \"extractorVersion\": \"0.2.0\",\n");
+        s.append("  \"format\": \"zill-slot-audit-extract-v3\",\n");
+        s.append("  \"extractorVersion\": \"0.4.0\",\n");
         s.append("  \"target\": \"ULJM-05410 v1.03\",\n");
         s.append("  \"discId\": \"").append(json(i.discId)).append("\",\n");
         s.append("  \"discVersion\": \"").append(json(i.version)).append("\",\n");
         s.append("  \"sourceIso\": {\"name\": \"").append(json(sourceName))
                 .append("\", \"size\": ").append(i.isoSize).append("},\n");
-        s.append("  \"archive\": {\"paBinSize\": ").append(i.paBin.size)
-                .append(", \"paArcSize\": ").append(i.paArc.size)
-                .append(", \"memberCount\": ").append(EXPECTED_MEMBER_COUNT).append("},\n");
         s.append("  \"files\": [\n");
         for (int n = 0; n < files.size(); n++) {
             Exported f = files.get(n);
             s.append("    {\"path\": \"").append(json(f.path)).append("\", ")
                     .append("\"size\": ").append(f.payloadSize).append(", ")
                     .append("\"sha256\": \"").append(f.sha256).append("\", ")
-                    .append("\"paaIndex\": ").append(f.member.index).append(", ")
-                    .append("\"arcOffset\": \"").append(hex0x(f.member.offset)).append("\", ")
-                    .append("\"memberSize\": ").append(f.member.size).append("}");
+                    .append("\"source\": \"").append(json(f.archive)).append("\"");
+            if (f.member != null) {
+                s.append(", \"paaIndex\": ").append(f.member.index)
+                        .append(", \"arcOffset\": \"").append(hex0x(f.member.offset)).append("\"")
+                        .append(", \"memberSize\": ").append(f.member.size);
+            }
+            s.append('}');
             if (n + 1 < files.size()) s.append(',');
             s.append('\n');
         }
