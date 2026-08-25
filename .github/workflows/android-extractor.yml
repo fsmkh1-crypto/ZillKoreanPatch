@@ -1,0 +1,52 @@
+name: Android font extractor
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'android-patcher/**'
+      - '.github/workflows/android-extractor.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK platform
+        shell: bash
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Unit tests
+        run: gradle -p android-patcher :app:testDebugUnitTest --no-daemon --stacktrace
+
+      - name: Build debug APK
+        run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
+
+      - name: SHA-256
+        shell: bash
+        run: sha256sum android-patcher/app/build/outputs/apk/debug/app-debug.apk | tee android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zill-font-extractor-debug
+          path: |
+            android-patcher/app/build/outputs/apk/debug/app-debug.apk
+            android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
+          if-no-files-found: error
