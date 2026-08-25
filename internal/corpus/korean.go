@@ -17,7 +17,6 @@ import (
 
 const koreanLicenseLine = "# SPDX-License-Identifier: CC-BY-SA-4.0"
 
-var koreanMarkupToken = regexp.MustCompile(`<[^<>]+>`)
 var koreanSectionFilename = regexp.MustCompile(`^msgsec([0-9]{3})(?:(?:-part([0-9]{2}))|b)?\.toml$`)
 
 type KoreanEntry struct {
@@ -57,7 +56,6 @@ func LoadKoreanProject(root string, source *Project) (*KoreanProject, KoreanSumm
 		return nil, KoreanSummary{}, fmt.Errorf("%s: list Korean section files: %w", dir, err)
 	}
 	project := &KoreanProject{byID: make(map[int]int)}
-	summary := KoreanSummary{}
 	seenSections := make(map[int]struct{})
 	for _, entry := range entries {
 		if entry.IsDir() {
@@ -83,15 +81,13 @@ func LoadKoreanProject(root string, source *Project) (*KoreanProject, KoreanSumm
 			project.byID[row.ID] = len(project.Entries)
 			project.Entries = append(project.Entries, row)
 		}
-		summary.Records += len(rows)
 	}
-	summary.Sections = len(seenSections)
 	sort.Slice(project.Entries, func(i, j int) bool { return project.Entries[i].ID < project.Entries[j].ID })
 	project.byID = make(map[int]int, len(project.Entries))
 	for i, row := range project.Entries {
 		project.byID[row.ID] = i
 	}
-	return project, summary, nil
+	return project, KoreanSummary{Sections: len(seenSections), Records: len(project.Entries)}, nil
 }
 
 func (project *KoreanProject) Find(id int) (KoreanEntry, bool) {
@@ -106,8 +102,8 @@ func (project *KoreanProject) Find(id int) (KoreanEntry, bool) {
 }
 
 // Texts returns accepted Korean semantic text. Generated layout is deliberately
-// excluded: slot planning may use RuntimeTexts, while canonical translation QA
-// should operate on translator-owned text rather than machine-owned wrapping.
+// excluded: canonical translation QA should operate on translator-owned text,
+// while runtime planning may call RuntimeTexts when wrapping matters.
 func (project *KoreanProject) Texts() []string {
 	if project == nil {
 		return nil
@@ -304,23 +300,9 @@ func validateKoreanText(path string, id int, field, text string) error {
 	return nil
 }
 
-// fixedKoreanControls intentionally excludes <line-break>. Line wrapping is
-// build-owned layout; every other angle-bracket control remains source-owned
-// and must survive in identical order.
-func fixedKoreanControls(text string) []string {
-	all := koreanMarkupToken.FindAllString(text, -1)
-	controls := make([]string, 0, len(all))
-	for _, token := range all {
-		if token != "<line-break>" {
-			controls = append(controls, token)
-		}
-	}
-	return controls
-}
-
 func validateKoreanControls(path string, id int, japanese, translated, field string) error {
-	want := fixedKoreanControls(japanese)
-	got := fixedKoreanControls(translated)
+	want := FixedRuntimeControlTags(japanese)
+	got := FixedRuntimeControlTags(translated)
 	if len(want) != len(got) {
 		return fmt.Errorf("%s: ID %d: %s fixed control token sequence differs from Japanese source: got %v, want %v", path, id, field, got, want)
 	}
