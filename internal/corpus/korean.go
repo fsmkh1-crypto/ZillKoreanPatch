@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strconv"
 	"strings"
@@ -16,6 +17,8 @@ import (
 )
 
 const koreanLicenseLine = "# SPDX-License-Identifier: CC-BY-SA-4.0"
+
+var koreanControlToken = regexp.MustCompile(`<(?:end|line-break|value:\$[0-9A-F]{2})>`)
 
 // KoreanEntry is one canonical Korean translation paired to the authoritative
 // Japanese contributor reference. English is deliberately not stored here: it
@@ -147,6 +150,9 @@ func (project *KoreanProject) WithKorean(source *Project, id int, korean string)
 	if err := validateKoreanText("Korean translation update", id, korean); err != nil {
 		return nil, err
 	}
+	if err := validateKoreanControls("Korean translation update", id, item.Translation.Japanese, korean); err != nil {
+		return nil, err
+	}
 
 	updated := &KoreanProject{Entries: append([]KoreanEntry(nil), project.Entries...), byID: make(map[int]int, len(project.byID)+1)}
 	for key, value := range project.byID {
@@ -238,6 +244,9 @@ func readKoreanFile(path string, section int, source *Project) ([]KoreanEntry, e
 		if err := validateKoreanText(path, id, *value.Korean); err != nil {
 			return nil, err
 		}
+		if err := validateKoreanControls(path, id, *value.Japanese, *value.Korean); err != nil {
+			return nil, err
+		}
 		ids = append(ids, id)
 		values[id] = KoreanEntry{ID: id, Japanese: *value.Japanese, Korean: *value.Korean, File: path}
 	}
@@ -268,6 +277,20 @@ func validateKoreanText(path string, id int, text string) error {
 	for _, character := range text {
 		if unicode.IsControl(character) {
 			return fmt.Errorf("%s: ID %d: korean contains a raw Unicode control character", path, id)
+		}
+	}
+	return nil
+}
+
+func validateKoreanControls(path string, id int, japanese, korean string) error {
+	want := koreanControlToken.FindAllString(japanese, -1)
+	got := koreanControlToken.FindAllString(korean, -1)
+	if len(want) != len(got) {
+		return fmt.Errorf("%s: ID %d: Korean control token sequence differs from Japanese source: got %v, want %v", path, id, got, want)
+	}
+	for index := range want {
+		if want[index] != got[index] {
+			return fmt.Errorf("%s: ID %d: Korean control token sequence differs from Japanese source at token %d: got %q, want %q", path, id, index, got[index], want[index])
 		}
 	}
 	return nil
