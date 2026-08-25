@@ -13,122 +13,24 @@ final class PoCPatcher {
     private static final int ATLAS_ROW_BYTES = 512 / 2; // 512px, 4bpp
     private static final int[] GIM_STARTS = {0xC0, 0x201B0, 0x402A0, 0x60390};
 
-    // Startup-screen smoke-test mapping. These are existing CP932 glyph slots;
-    // their PAF keys, metrics, BST links, record count and message bytes stay intact.
+    // Startup-screen smoke-test mapping. All eight source glyphs occur on the
+    // mandatory new-game intro screen. We only replace atlas pixels; PAF keys,
+    // metrics, BST links, record count and message bytes remain unchanged.
     //
-    // の -> 가  page 1 x=421 y=379 w=10 h=10  (already proven in PPSSPP)
-    // 無 -> 나  page 1 x=15  y=243 w=12 h=12
-    // 我 -> 다  page 2 x=435 y=3   w=12 h=11
-    // 応 -> 라  page 1 x=195 y=108 w=12 h=11
-    // 答 -> 마  page 1 x=150 y=93  w=12 h=11
-    // 魂 -> 바  page 1 x=375 y=213 w=12 h=12
-    // 示 -> 사  page 1 x=1   y=169 w=11 h=10
-    // 者 -> 아  page 1 x=136 y=423 w=10 h=11
+    // The 10x10 Korean bitmaps use the exact raster rule that produced the
+    // already PPSSPP-proven の -> 가 PoC: UnDotum 10px, text origin (0,-2),
+    // grayscale quantized to 4bpp (0..15). Larger Japanese source cells are
+    // cleared and the 10x10 Korean bitmap is positioned so its effective
+    // bearing matches the proven 가 cell (bearing X=1, Y=-9).
     private static final Glyph[] GLYPHS = {
-            new Glyph("가", 1, 421, 379, new String[]{
-                    "0000000810",
-                    "0000000910",
-                    "0FFFF40910",
-                    "0000830910",
-                    "0000A009FB",
-                    "0004900910",
-                    "003C100910",
-                    "07B1000910",
-                    "1600000910",
-                    "11111FF811"
-            }),
-            new Glyph("나", 1, 15, 243, new String[]{
-                    "000000000000",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F000000FFF0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0FFFFFFF00F0",
-                    "000000000000"
-            }),
-            new Glyph("다", 2, 435, 3, new String[]{
-                    "000000000000",
-                    "0FFFFFFF00F0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F000000FFF0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0FFFFFFF00F0",
-                    "000000000000"
-            }),
-            new Glyph("라", 1, 195, 108, new String[]{
-                    "000000000000",
-                    "0FFFFFFF00F0",
-                    "0000000F00F0",
-                    "0000000F00F0",
-                    "0000000F00F0",
-                    "0FFFFFFFFFF0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0F00000000F0",
-                    "0FFFFFFF00F0",
-                    "000000000000"
-            }),
-            new Glyph("마", 1, 150, 93, new String[]{
-                    "000000000000",
-                    "0FFFFFFF00F0",
-                    "0F00000F00F0",
-                    "0F00000F00F0",
-                    "0F00000F00F0",
-                    "0F00000FFFF0",
-                    "0F00000F00F0",
-                    "0F00000F00F0",
-                    "0F00000F00F0",
-                    "0FFFFFFF00F0",
-                    "000000000000"
-            }),
-            new Glyph("바", 1, 375, 213, new String[]{
-                    "000000000000",
-                    "0FFFFFFF00F0",
-                    "0F00000F00F0",
-                    "0F00000F00F0",
-                    "0F00000F00F0",
-                    "0FFFFFFF00F0",
-                    "0F00000FFFF0",
-                    "0F00000F00F0",
-                    "0F00000F00F0",
-                    "0F00000F00F0",
-                    "0FFFFFFF00F0",
-                    "000000000000"
-            }),
-            new Glyph("사", 1, 1, 169, new String[]{
-                    "00000000000",
-                    "000F00000F0",
-                    "000F00000F0",
-                    "00F0F0000F0",
-                    "00F0F0000F0",
-                    "00F0F00FFF0",
-                    "00F0F0000F0",
-                    "0F000F000F0",
-                    "0F000F000F0",
-                    "00000000000"
-            }),
-            new Glyph("아", 1, 136, 423, new String[]{
-                    "0000000000",
-                    "00FFF000F0",
-                    "0FF0FF00F0",
-                    "0F000F00F0",
-                    "0F000F00F0",
-                    "0F000FFFF0",
-                    "0F000F00F0",
-                    "0F000F00F0",
-                    "0FF0FF00F0",
-                    "00FFF000F0",
-                    "0000000000"
-            })
+            new Glyph("の", "가", 1, 421, 379, 10, 10, 0, 0, "000000081000000009100ffff4091000008309100000a009fb0004900910003c10091007b100091016000009100000000400"),
+            new Glyph("無", "나", 1, 15, 243, 12, 12, 1, 1, "000000081005000009100b000009100b000009100b000009fb0b000359100dacdb5910054200091000000009100000000400"),
+            new Glyph("我", "다", 2, 435, 3, 12, 11, 1, 1, "000000081000000009101ffff60910190000091019000009fb19001559101dbcea3910054200091000000009100000000400"),
+            new Glyph("応", "라", 1, 195, 108, 12, 11, 1, 1, "00000008100ffff30910000073091000007309100ffff309fb0a000009100a012439100fedc9391000000009100000000400"),
+            new Glyph("答", "마", 1, 150, 93, 12, 11, 1, 1, "000000081000000009102ffff40910290074091029007409fb29007409102ffff40910000000091000000009100000000400"),
+            new Glyph("魂", "바", 1, 375, 213, 12, 12, 1, 1, "0100110810290065091029006509102ffff5091029006509fb29006509102ffff50910000000091000000009100000000400"),
+            new Glyph("示", "사", 1, 1, 169, 11, 10, 0, 0, "000000081000260009100048000910006a00091000ac0009fb03967009102c10b50910330016091000000009100000000400"),
+            new Glyph("者", "아", 1, 136, 423, 10, 11, 0, 1, "000000081001ce6009100952c109100b006509100a004709fb0b005509100952c1091002ce50091000000009100000000400")
     };
 
     private static final Edit[] EDITS = buildEdits();
@@ -136,18 +38,35 @@ final class PoCPatcher {
     private PoCPatcher() {}
 
     private static final class Glyph {
+        final String japanese;
         final String korean;
         final int page;
         final int x;
         final int y;
-        final String[] rows;
+        final int width;
+        final int height;
+        final int pasteX;
+        final int pasteY;
+        final String raster;
 
-        Glyph(String korean, int page, int x, int y, String[] rows) {
+        Glyph(String japanese, String korean, int page, int x, int y,
+              int width, int height, int pasteX, int pasteY, String raster) {
+            this.japanese = japanese;
             this.korean = korean;
             this.page = page;
             this.x = x;
             this.y = y;
-            this.rows = rows;
+            this.width = width;
+            this.height = height;
+            this.pasteX = pasteX;
+            this.pasteY = pasteY;
+            this.raster = raster;
+            if (raster.length() != 100) {
+                throw new IllegalStateException("10x10 raster length mismatch for " + korean);
+            }
+            if (pasteX < 0 || pasteY < 0 || pasteX + 10 > width || pasteY + 10 > height) {
+                throw new IllegalStateException("Korean raster does not fit source cell for " + japanese);
+            }
         }
     }
 
@@ -164,21 +83,26 @@ final class PoCPatcher {
     }
 
     private static Edit[] buildEdits() {
-        // byte offset -> {mask,value}; TreeMap also guarantees streaming order.
+        // byte offset -> {mask,value}. TreeMap also guarantees streaming order.
         TreeMap<Integer, int[]> merged = new TreeMap<>();
         for (Glyph glyph : GLYPHS) {
             if (glyph.page < 0 || glyph.page >= GIM_STARTS.length) {
                 throw new IllegalStateException("invalid GIM page for " + glyph.korean);
             }
-            for (int row = 0; row < glyph.rows.length; row++) {
-                String pixels = glyph.rows[row];
-                for (int column = 0; column < pixels.length(); column++) {
-                    int alpha = Character.digit(pixels.charAt(column), 16);
-                    if (alpha < 0) throw new IllegalStateException("invalid glyph pixel");
-                    int x = glyph.x + column;
-                    int y = glyph.y + row;
-                    int relative = GIM_STARTS[glyph.page] + IMAGE_DATA_OFFSET + swizzledByteOffset(x, y);
-                    boolean high = (x & 1) != 0;
+            for (int row = 0; row < glyph.height; row++) {
+                for (int column = 0; column < glyph.width; column++) {
+                    int alpha = 0;
+                    if (column >= glyph.pasteX && column < glyph.pasteX + 10
+                            && row >= glyph.pasteY && row < glyph.pasteY + 10) {
+                        int rasterIndex = (row - glyph.pasteY) * 10 + (column - glyph.pasteX);
+                        alpha = Character.digit(glyph.raster.charAt(rasterIndex), 16);
+                        if (alpha < 0) throw new IllegalStateException("invalid glyph pixel");
+                    }
+                    int pixelX = glyph.x + column;
+                    int pixelY = glyph.y + row;
+                    int relative = GIM_STARTS[glyph.page] + IMAGE_DATA_OFFSET
+                            + swizzledByteOffset(pixelX, pixelY);
+                    boolean high = (pixelX & 1) != 0;
                     int mask = high ? 0xF0 : 0x0F;
                     int value = high ? alpha << 4 : alpha;
                     int[] current = merged.get(relative);
@@ -208,9 +132,12 @@ final class PoCPatcher {
     }
 
     static long[] absoluteOffsets(FontExtractor.Inspection inspection) {
-        long memberStart = inspection.paArc.extent * (long) Iso9660.SECTOR_SIZE + inspection.zillfont.offset;
+        long memberStart = inspection.paArc.extent * (long) Iso9660.SECTOR_SIZE
+                + inspection.zillfont.offset;
         long[] out = new long[EDITS.length];
-        for (int i = 0; i < out.length; i++) out[i] = memberStart + EDITS[i].relativeOffset;
+        for (int i = 0; i < out.length; i++) {
+            out[i] = memberStart + EDITS[i].relativeOffset;
+        }
         return out;
     }
 
@@ -238,7 +165,8 @@ final class PoCPatcher {
             position = end;
         }
         if (position != inspection.isoSize) {
-            throw new IOException("ISO copy size mismatch: wrote " + position + " bytes, expected " + inspection.isoSize);
+            throw new IOException("ISO copy size mismatch: wrote " + position
+                    + " bytes, expected " + inspection.isoSize);
         }
         if (patchIndex != targets.length) {
             throw new IOException("Not all Korean startup-screen glyph edits were applied");
