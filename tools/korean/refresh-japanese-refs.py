@@ -2,9 +2,8 @@
 """Quarantine legacy Korean overlay records that no longer validate against canonical.
 
 Historical overlays may contain stale duplicated Japanese text or Korean strings whose
-runtime control-token sequence no longer matches canonical. Silently relabeling such rows
-would be unsafe, so this pre-validation pass removes them entirely. The deterministic
-next-packet flow will then emit those canonical IDs again for retranslation.
+fixed runtime control-token sequence no longer matches canonical. Korean ``<line-break>``
+is build-owned layout and is deliberately excluded from this destructive validation.
 """
 from __future__ import annotations
 
@@ -12,15 +11,12 @@ from pathlib import Path
 import re
 import tomllib
 
+from control_tags import fixed_tokens
+
 ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
 FILE_RE = re.compile(r"^msgsec([0-9]{3})")
-TOKEN_RE = re.compile(r"<(?:end|line-break|value:\$[0-9A-Fa-f]+|if|select|less-equal|equal)>")
-
-
-def tokens(text: str) -> list[str]:
-    return TOKEN_RE.findall(text)
 
 
 def load_canonical(section: int) -> dict[str, str]:
@@ -32,6 +28,16 @@ def load_canonical(section: int) -> dict[str, str]:
         for rid, rec in raw.items()
         if isinstance(rec, dict) and rec.get("japanese") is not None
     }
+
+
+def record_problem(expected: str, japanese: object, korean: object) -> str | None:
+    if japanese is None or korean is None or str(korean) == "":
+        return "missing/empty required field"
+    if str(japanese) != expected:
+        return "stale Japanese reference"
+    if fixed_tokens(expected) != fixed_tokens(str(korean)):
+        return "fixed control-token mismatch"
+    return None
 
 
 def remove_record(text: str, rid: str, path: Path) -> str:
@@ -69,16 +75,9 @@ def main() -> None:
             expected = canon.get(rid)
             if expected is None:
                 raise SystemExit(f"{path}: overlay ID {rid} does not exist in canonical source")
-            japanese = rec.get("japanese")
-            korean = rec.get("korean")
-            if japanese is None or korean is None or str(korean) == "":
-                bad.append((rid, "missing/empty required field"))
-                continue
-            if str(japanese) != expected:
-                bad.append((rid, "stale Japanese reference"))
-                continue
-            if tokens(expected) != tokens(str(korean)):
-                bad.append((rid, "control-token mismatch"))
+            reason = record_problem(expected, rec.get("japanese"), rec.get("korean"))
+            if reason is not None:
+                bad.append((rid, reason))
 
         if not bad:
             continue
