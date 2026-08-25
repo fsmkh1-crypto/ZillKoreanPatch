@@ -22,6 +22,7 @@ const (
 	jillBtnMemberIndex  = 13612
 	jillBtnMemberSize   = 0x18e60
 	pafMemberOffset     = 0x4490
+	retailBOOTSHA256    = "5e294dc84a7f0d50719ecd26cb24ffb3792f2d9445803690845a8f1fa1cb85a3"
 	retailEBOOTSHA256   = "2a52012be00c07512dcde932ff6e9eb9b96912c59dd5a25c7c26ef821c124d68"
 	retailBindataSHA256 = "3241fc000f3d52fe8522baaa985fd866e29d64d3a0f23ac4e28b66dee957de3e"
 )
@@ -139,6 +140,17 @@ func loadFixedRendererKeys(root string) (map[cp932.GlyphKey]struct{}, fixeddata.
 	return used, equipment, nil
 }
 
+func loadAuthenticatedRetailBOOT(gameDir string) ([]byte, error) {
+	data, err := os.ReadFile(filepath.Join(gameDir, "SYSDIR", "BOOT.BIN"))
+	if err != nil {
+		return nil, fmt.Errorf("read retail BOOT.BIN: %w", err)
+	}
+	if got := fmt.Sprintf("%x", sha256.Sum256(data)); got != retailBOOTSHA256 {
+		return nil, fmt.Errorf("unsupported retail BOOT.BIN fingerprint %s", got)
+	}
+	return data, nil
+}
+
 func loadAuthenticatedRetailEBOOT(gameDir string) ([]byte, error) {
 	data, err := os.ReadFile(filepath.Join(gameDir, "SYSDIR", "EBOOT.BIN"))
 	if err != nil {
@@ -247,14 +259,18 @@ func runKoreanSlots(root string, args []string, stdout, stderr io.Writer) int {
 		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
 		return 1
 	}
-	eboot, err := loadAuthenticatedRetailEBOOT(gameDir)
+	if _, err := loadAuthenticatedRetailEBOOT(gameDir); err != nil {
+		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
+		return 1
+	}
+	boot, err := loadAuthenticatedRetailBOOT(gameDir)
 	if err != nil {
 		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
 		return 1
 	}
-	ebootScan, err := slotaudit.ScanCP932Literals(eboot)
+	bootScan, err := slotaudit.ScanCP932Literals(boot)
 	if err != nil {
-		fmt.Fprintf(stderr, "zill: korean-slots: scan EBOOT: %v\n", err)
+		fmt.Fprintf(stderr, "zill: korean-slots: scan BOOT.BIN: %v\n", err)
 		return 1
 	}
 	bindata, err := loadRetailBindata(gameDir)
@@ -280,7 +296,7 @@ func runKoreanSlots(root string, args []string, stdout, stderr io.Writer) int {
 	mergeRendererKeys(usedAll, usedEnglish)
 	mergeRendererKeys(usedAll, usedJapanese)
 	mergeRendererKeys(usedAll, usedFixed)
-	mergeRendererKeys(usedAll, ebootScan.Keys)
+	mergeRendererKeys(usedAll, bootScan.Keys)
 	mergeRendererKeys(usedAll, bindataScan.Keys)
 
 	installedTwoByte := font.DoubleByteKeys()
@@ -301,9 +317,9 @@ func runKoreanSlots(root string, args []string, stdout, stderr io.Writer) int {
 	fmt.Fprintf(stdout, "Two-byte slots referenced by retail Japanese message text: %d\n", installedReferenceCount(installedTwoByte, usedJapanese))
 	fmt.Fprintf(stdout, "Two-byte slots referenced by either message corpus: %d\n", installedReferenceCount(installedTwoByte, messageUnion))
 	fmt.Fprintf(stdout, "Two-byte slots referenced by canonical EBOOT/equipment fixed strings: %d\n", installedReferenceCount(installedTwoByte, usedFixed))
-	fmt.Fprintf(stdout, "Recovered retail EBOOT CP932 literals: %d; installed two-byte keys referenced: %d\n", len(ebootScan.Literals), installedReferenceCount(installedTwoByte, ebootScan.Keys))
+	fmt.Fprintf(stdout, "Recovered authenticated retail BOOT.BIN CP932 literals: %d; installed two-byte keys referenced: %d\n", len(bootScan.Literals), installedReferenceCount(installedTwoByte, bootScan.Keys))
 	fmt.Fprintf(stdout, "Recovered authenticated bindata.dat CP932 literals: %d; installed two-byte keys referenced: %d\n", len(bindataScan.Literals), installedReferenceCount(installedTwoByte, bindataScan.Keys))
-	fmt.Fprintf(stdout, "Candidate two-byte slots after message/fixed/EBOOT/bindata audit: %d\n", len(candidates))
+	fmt.Fprintf(stdout, "Candidate two-byte slots after message/fixed/BOOT/bindata audit: %d\n", len(candidates))
 	fmt.Fprintln(stdout, "Safety status: AUDITED CANDIDATES ONLY; other archive/UI/script resources are not yet semantically parsed, so these are not production-safe slots yet.")
 	if len(candidates) > 0 {
 		fmt.Fprintf(stdout, "First audited candidate keys:")
