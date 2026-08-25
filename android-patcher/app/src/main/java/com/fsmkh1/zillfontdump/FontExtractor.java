@@ -18,13 +18,10 @@ final class FontExtractor {
     private static final int EXPECTED_MEMBER_COUNT = 14231;
     private static final int ZILLFONT_INDEX = 13611;
     private static final int JILLBTN_INDEX = 13612;
-    private static final long ZILLFONT_OFFSET = 0x3D8F510L;
     private static final long ZILLFONT_MEMBER_SIZE = 0x80470L;
     private static final String ZILLFONT_SOURCE_SHA256 = "0d3d6d2648870e87a01636cdfc7cc7af8100ea40b71e5ed05f82ac197606584a";
-    private static final long JILLBTN_OFFSET = 0x3E0F980L;
     private static final long JILLBTN_MEMBER_SIZE = 0x18E60L;
     private static final String JILLBTN_SOURCE_SHA256 = "95b48379092db4db72f890d5a221ba8c4094dd438cb4c4eba98eb5520c7b17aa";
-    private static final long WRAPPER_SIZE = 0x10L;
 
     static final class Inspection {
         final String discId;
@@ -87,13 +84,17 @@ final class FontExtractor {
 
         PaaIndex.Member zillfont = index.member(ZILLFONT_INDEX);
         PaaIndex.Member jillbtn = index.member(JILLBTN_INDEX);
-        validateMember(zillfont, "font/zillfont.par", ZILLFONT_OFFSET, ZILLFONT_MEMBER_SIZE);
-        validateMember(jillbtn, "2d/font/jillbtn.par", JILLBTN_OFFSET, JILLBTN_MEMBER_SIZE);
+        validateMember(zillfont, "font/zillfont.par", ZILLFONT_MEMBER_SIZE);
+        validateMember(jillbtn, "2d/font/jillbtn.par", JILLBTN_MEMBER_SIZE);
 
         long required = Math.max(zillfont.offset + zillfont.size, jillbtn.offset + jillbtn.size);
         if (paArc.size < required) {
-            throw new IOException("pa.arc is smaller than the validated ULJM-05410 layout");
+            throw new IOException("pa.arc is smaller than the PAA index requires");
         }
+
+        // The PAA index is authoritative for member positions. The retail member
+        // hashes below bind those offsets to the exact ULJM-05410 v1.03 source
+        // files used by the upstream English patch.
         validateSourceHash(iso, paArc, zillfont, ZILLFONT_SOURCE_SHA256);
         validateSourceHash(iso, paArc, jillbtn, JILLBTN_SOURCE_SHA256);
         return new Inspection(discId, version, channel.size(), paBin, paArc, zillfont, jillbtn);
@@ -118,13 +119,12 @@ final class FontExtractor {
 
     private static Exported exportMember(Iso9660 iso, Iso9660.Entry paArc, ZipOutputStream zip,
                                          String path, PaaIndex.Member member) throws IOException {
-        long payloadSize = member.size - WRAPPER_SIZE;
-        long absolute = paArc.extent * Iso9660.SECTOR_SIZE + member.offset + WRAPPER_SIZE;
+        long absolute = paArc.extent * Iso9660.SECTOR_SIZE + member.offset;
         MessageDigest digest = sha256();
         zip.putNextEntry(new ZipEntry(path));
-        iso.copyRange(absolute, payloadSize, zip, digest);
+        iso.copyRange(absolute, member.size, zip, digest);
         zip.closeEntry();
-        return new Exported(path, payloadSize, hex(digest.digest()), member);
+        return new Exported(path, member.size, hex(digest.digest()), member);
     }
 
     private static void validateSourceHash(Iso9660 iso, Iso9660.Entry paArc,
@@ -143,14 +143,10 @@ final class FontExtractor {
     }
 
     private static void validateMember(PaaIndex.Member member, String expectedName,
-                                       long expectedOffset, long expectedSize) throws IOException {
+                                       long expectedSize) throws IOException {
         if (!expectedName.equals(member.name)) {
             throw new IOException("PAA member " + member.index + " is " + member.name +
                     " (expected " + expectedName + ")");
-        }
-        if (member.offset != expectedOffset) {
-            throw new IOException(member.name + " offset=" + hex0x(member.offset) +
-                    " (expected " + hex0x(expectedOffset) + ")");
         }
         if (member.size != expectedSize) {
             throw new IOException(member.name + " size=" + hex0x(member.size) +
@@ -175,8 +171,8 @@ final class FontExtractor {
     private static String manifestJson(Inspection i, String sourceName, List<Exported> files) {
         StringBuilder s = new StringBuilder();
         s.append("{\n");
-        s.append("  \"format\": \"zill-font-extract-v1\",\n");
-        s.append("  \"extractorVersion\": \"0.1.0\",\n");
+        s.append("  \"format\": \"zill-font-extract-v2\",\n");
+        s.append("  \"extractorVersion\": \"0.2.0\",\n");
         s.append("  \"target\": \"ULJM-05410 v1.03\",\n");
         s.append("  \"discId\": \"").append(json(i.discId)).append("\",\n");
         s.append("  \"discVersion\": \"").append(json(i.version)).append("\",\n");
@@ -193,8 +189,7 @@ final class FontExtractor {
                     .append("\"sha256\": \"").append(f.sha256).append("\", ")
                     .append("\"paaIndex\": ").append(f.member.index).append(", ")
                     .append("\"arcOffset\": \"").append(hex0x(f.member.offset)).append("\", ")
-                    .append("\"memberSize\": ").append(f.member.size).append(", ")
-                    .append("\"wrapperBytesStripped\": 16}");
+                    .append("\"memberSize\": ").append(f.member.size).append("}");
             if (n + 1 < files.size()) s.append(',');
             s.append('\n');
         }
