@@ -748,9 +748,6 @@
 {"section":20,"id":"200042","japanese":"ソウル変更<end>"}
 {"section":20,"id":"200052","japanese":"魔法を見る<end>"}
 {"section":20,"id":"200054","japanese":"装備を変更<end>"}
-{"section":20,"id":"200086","japanese":"キャンセル<end>"}
-{"section":20,"id":"200090","japanese":"隊列を変更<end>"}
-{"section":20,"id":"200150","japanese":"キャンセル<end>"}
 {"section":21,"id":"210001","japanese":"山越え概要<end>"}
 {"section":21,"id":"210007","japanese":"ロセン陥落<end>"}
 {"section":22,"id":"220073","japanese":"ラドラス１<end>"}
@@ -1625,11 +1622,8 @@
 {"section":20,"id":"200030","japanese":"複合精霊魔法<end>"}
 {"section":20,"id":"200041","japanese":"ポイント配分<end>"}
 {"section":20,"id":"200055","japanese":"スキルを習得<end>"}
-{"section":20,"id":"200080","japanese":"ページ切替１<end>"}
 {"section":20,"id":"200083","japanese":"ページ切替２<end>"}
 {"section":20,"id":"200099","japanese":"毒５０％回避<end>"}
-{"section":20,"id":"200112","japanese":"並べ方を選択<end>"}
-{"section":20,"id":"200141","japanese":"アクセサリー<end>"}
 {"section":21,"id":"210006","japanese":"２ページ目へ<end>"}
 {"section":21,"id":"210010","japanese":"空中都市撃沈<end>"}
 {"section":21,"id":"210012","japanese":"３ページ目へ<end>"}
@@ -1998,3 +1992,9 @@
 {"section":97,"id":"970007","japanese":"やってみよう<end>"}
 {"section":98,"id":"980003","japanese":"もう一度…。<end>"}
 {"section":99,"id":"990005","japanese":"ひ、ひいい！<end>"}
+{"section":99,"id":"990065","japanese":"い、いやっ！<end>"}
+{"section":196,"id":"1960847","japanese":"フェルム10_7<end>"}
+{"section":196,"id":"1960848","japanese":"フェルム10_8<end>"}
+{"section":196,"id":"1960849","japanese":"フェルム10_9<end>"}
+{"section":196,"id":"1960877","japanese":"仲良しの1_10<end>"}
+{"section":196,"id":"1960887","japanese":"仲良しの2_10<end>"}
