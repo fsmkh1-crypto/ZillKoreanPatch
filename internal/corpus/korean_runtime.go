@@ -15,10 +15,22 @@ func (project *KoreanProject) RuntimeTexts(source *Project) ([]string, error) {
 	if source == nil {
 		return nil, fmt.Errorf("Korean runtime texts: nil source project")
 	}
+
+	overlay := make(map[int]string, len(project.Entries))
+	for _, row := range project.Entries {
+		if _, exists := overlay[row.ID]; exists {
+			return nil, fmt.Errorf("Korean runtime texts: duplicate Korean ID %d", row.ID)
+		}
+		if _, ok := source.Find(row.ID); !ok {
+			return nil, fmt.Errorf("Korean runtime texts: Korean ID %d does not exist in source project", row.ID)
+		}
+		overlay[row.ID] = row.Korean
+	}
+
 	texts := make([]string, 0, len(source.Items))
 	for _, item := range source.Items {
-		if row, ok := project.Find(item.Record.ID); ok {
-			texts = append(texts, row.Korean)
+		if korean, ok := overlay[item.Record.ID]; ok {
+			texts = append(texts, korean)
 			continue
 		}
 		texts = append(texts, item.Translation.Japanese)
