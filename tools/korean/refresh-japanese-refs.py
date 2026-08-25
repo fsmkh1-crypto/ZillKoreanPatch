@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Refresh stale Japanese reference fields in Korean overlays from canonical source.
+"""Remove stale Korean overlay records whose duplicated Japanese no longer matches canonical.
 
-This never changes Korean translations. It exists so historical overlays cannot block
-bulk result application solely because their duplicated Japanese reference text drifted.
-Canonical TOML remains the single source of truth.
+A Korean translation was produced for the Japanese text stored beside it. If that Japanese
+reference differs from the current canonical source, silently replacing only the Japanese
+field can mislabel an unrelated Korean translation as valid. For bulk work, the safe repair
+is to drop the stale overlay record entirely so the deterministic next-packet flow emits the
+canonical record again for retranslation.
 """
 from __future__ import annotations
 
-import json
 from pathlib import Path
 import re
 import tomllib
@@ -18,24 +19,37 @@ KOREAN = ROOT / "translations" / "korean" / "messages"
 FILE_RE = re.compile(r"^msgsec([0-9]{3})")
 
 
-def q(value: str) -> str:
-    return json.dumps(value, ensure_ascii=False)
-
-
 def load_canonical(section: int) -> dict[str, str]:
     path = CANON / f"msgsec{section:03d}.toml"
     with path.open("rb") as f:
         raw = tomllib.load(f)
-    out: dict[str, str] = {}
-    for rid, rec in raw.items():
-        if isinstance(rec, dict) and rec.get("japanese") is not None:
-            out[str(rid)] = str(rec["japanese"])
-    return out
+    return {
+        str(rid): str(rec["japanese"])
+        for rid, rec in raw.items()
+        if isinstance(rec, dict) and rec.get("japanese") is not None
+    }
+
+
+def remove_record(text: str, rid: str, path: Path) -> str:
+    header = f'["{rid}"]'
+    start = text.find(header)
+    if start < 0:
+        raise SystemExit(f"{path}: cannot locate record {rid}")
+    # Include the blank line immediately before a non-first record when present so repeated
+    # cleanup does not accumulate whitespace. Preserve the SPDX/comment preamble.
+    cut_start = start
+    if cut_start >= 2 and text[cut_start - 2 : cut_start] == "\n\n":
+        cut_start -= 1
+    next_header = text.find('\n["', start + len(header))
+    end = len(text) if next_header < 0 else next_header + 1
+    return text[:cut_start] + text[end:]
 
 
 def main() -> None:
     cache: dict[int, dict[str, str]] = {}
-    repaired = 0
+    removed = 0
+    details: list[str] = []
+
     for path in sorted(KOREAN.glob("msgsec*.toml")):
         match = FILE_RE.match(path.name)
         if not match:
@@ -44,39 +58,31 @@ def main() -> None:
         canon = cache.setdefault(section, load_canonical(section))
         with path.open("rb") as f:
             data = tomllib.load(f)
-        text = path.read_text(encoding="utf-8")
-        changed = False
+
+        stale: list[str] = []
         for rid, rec in data.items():
             if not isinstance(rec, dict) or rec.get("japanese") is None:
                 continue
             rid = str(rid)
             expected = canon.get(rid)
-            if expected is None or str(rec["japanese"]) == expected:
-                continue
-            # Overlay records are emitted as a table header followed by one-line fields.
-            # Replace only the Japanese field inside this record; preserve comments,
-            # Korean text, file splitting, and all unrelated formatting.
-            header = f'["{rid}"]'
-            start = text.find(header)
-            if start < 0:
-                raise SystemExit(f"{path}: cannot locate record {rid}")
-            next_header = text.find('\n["', start + len(header))
-            end = len(text) if next_header < 0 else next_header
-            block = text[start:end]
-            new_block, count = re.subn(
-                r"(?m)^japanese\s*=\s*.*$",
-                "japanese = " + q(expected),
-                block,
-                count=1,
-            )
-            if count != 1:
-                raise SystemExit(f"{path}: cannot locate japanese field for {rid}")
-            text = text[:start] + new_block + text[end:]
-            repaired += 1
-            changed = True
-        if changed:
-            path.write_text(text, encoding="utf-8")
-    print(f"refreshed {repaired} stale Japanese reference fields")
+            if expected is None:
+                raise SystemExit(f"{path}: overlay ID {rid} does not exist in canonical source")
+            if str(rec["japanese"]) != expected:
+                stale.append(rid)
+
+        if not stale:
+            continue
+
+        text = path.read_text(encoding="utf-8")
+        for rid in stale:
+            text = remove_record(text, rid, path)
+            removed += 1
+            details.append(f"{path.name}:{rid}")
+        path.write_text(text, encoding="utf-8")
+
+    print(f"removed {removed} stale Korean overlay records for retranslation")
+    for detail in details:
+        print(f"  {detail}")
 
 
 if __name__ == "__main__":
