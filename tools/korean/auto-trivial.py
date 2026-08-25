@@ -75,6 +75,13 @@ EXACT = {
     "人物切替<end>": "인물 전환<end>",
     "全身表示<end>": "전신 표시<end>",
     "通信機<end>": "통신기<end>",
+    "予選大会<end>": "예선대회<end>",
+    "決勝大会<end>": "결승대회<end>",
+    "小刀手斧<end>": "단검·손도끼<end>",
+    "長老の家<end>": "장로의 집<end>",
+    "領主邸前<end>": "영주 저택 앞<end>",
+    "だみぃ2_7<end>": "더미2_7<end>",
+    "だみぃ2_8<end>": "더미2_8<end>",
 
     # Stable standalone NPC/job labels.
     "冒険者<end>": "모험가<end>",
@@ -105,28 +112,62 @@ EXACT = {
     "宿泊客<end>": "숙박객<end>",
     "常連客<end>": "단골손님<end>",
     "見物客<end>": "구경꾼<end>",
+    "団長！<end>": "단장!<end>",
+    "親分！<end>": "두목!<end>",
+    "師匠？<end>": "스승님?<end>",
+
+    # Plain/casual Japanese forms already carry register.  These mappings are
+    # limited to rows whose core lexical meaning is also stable enough to make
+    # the default Korean banmal deterministic.  Ambiguous rows such as いいよ
+    # still stay out of EXACT and are translated with scene context.
+    "誰だ？<end>": "누구야?<end>",
+    "待て。<end>": "기다려.<end>",
+    "待て！<end>": "기다려!<end>",
+    "任せて<end>": "맡겨<end>",
+    "忙しい<end>": "바빠<end>",
+    "別に…<end>": "별로…<end>",
+    "行け！<end>": "가!<end>",
+    "いやだ<end>": "싫어<end>",
+    "殺せ！<end>": "죽여!<end>",
+    "なに？<end>": "뭐?<end>",
+    "大丈夫<end>": "괜찮아<end>",
+    "見たい<end>": "보고 싶어<end>",
+    "俺は…<end>": "나는…<end>",
+    "任せて！<end>": "맡겨!<end>",
+    "死ね！<end>": "죽어!<end>",
+    "聞いた<end>": "들었어<end>",
+    "暇です<end>": "한가합니다<end>",
+    "見える<end>": "보여<end>",
+    "言える<end>": "말할 수 있어<end>",
+    "誓う。<end>": "맹세해.<end>",
+    "寒い…。<end>": "추워…<end>",
+    "撃て！！<end>": "쏴!!<end>",
 
     # Context-independent acknowledgements and pain/frustration interjections.
-    # Plain Japanese forms already carry register: なんだ / 待て / 任せて etc.
-    # They should normally become Korean banmal. Some still stay out of EXACT
-    # when the best Korean lexical choice depends on scene meaning (for example
-    # 待て can mean 'wait' or 'stop', and いいよ can mean 'okay' or 'it's fine').
-    # Do not defer such rows merely to determine politeness level.
     "はい。<end>": "네.<end>",
     "はい！<end>": "네!<end>",
+    "はい？<end>": "네?<end>",
+    "ええ。<end>": "네.<end>",
     "いいえ<end>": "아니요<end>",
     "ちっ。<end>": "칫.<end>",
     "ちっ！<end>": "칫!<end>",
     "…ちっ<end>": "…칫<end>",
+    "ちぇ。<end>": "쳇.<end>",
     "あ…。<end>": "아…<end>",
     "…あ。<end>": "…아.<end>",
     "うっ。<end>": "윽.<end>",
     "うっ！<end>": "윽!<end>",
+    "うっ！！<end>": "윽!!<end>",
     "くっ！<end>": "큭!<end>",
     "くっ…<end>": "큭…<end>",
+    "ぐっ！<end>": "큭!<end>",
+    "ぐわっ！<end>": "크악!<end>",
     "痛っ！<end>": "아야!<end>",
     "はぁ…<end>": "하아…<end>",
     "うん…<end>": "응…<end>",
+    "うん。<end>": "응.<end>",
+    "え…？<end>": "어…?<end>",
+    "えっ？<end>": "어?<end>",
 }
 
 
