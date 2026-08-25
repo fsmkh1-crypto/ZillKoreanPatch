@@ -16,6 +16,9 @@ import java.util.zip.ZipOutputStream;
 final class FontExtractor {
     static final String EXPECTED_DISC_ID = "ULJM05410";
     static final String EXPECTED_VERSION = "1.03";
+    private static final int EXPECTED_MEMBER_COUNT = 14231;
+    private static final int ZILLFONT_INDEX = 13611;
+    private static final int JILLBTN_INDEX = 13612;
     private static final long ZILLFONT_OFFSET = 0x3D8F510L;
     private static final long ZILLFONT_MEMBER_SIZE = 0x80470L;
     private static final long JILLBTN_OFFSET = 0x3E0F980L;
@@ -28,14 +31,19 @@ final class FontExtractor {
         final long isoSize;
         final Iso9660.Entry paBin;
         final Iso9660.Entry paArc;
+        final PaaIndex.Member zillfont;
+        final PaaIndex.Member jillbtn;
 
         Inspection(String discId, String version, long isoSize,
-                   Iso9660.Entry paBin, Iso9660.Entry paArc) {
+                   Iso9660.Entry paBin, Iso9660.Entry paArc,
+                   PaaIndex.Member zillfont, PaaIndex.Member jillbtn) {
             this.discId = discId;
             this.version = version;
             this.isoSize = isoSize;
             this.paBin = paBin;
             this.paArc = paArc;
+            this.zillfont = zillfont;
+            this.jillbtn = jillbtn;
         }
     }
 
@@ -43,15 +51,13 @@ final class FontExtractor {
         final String path;
         final long payloadSize;
         final String sha256;
-        final long arcOffset;
-        final long memberSize;
+        final PaaIndex.Member member;
 
-        Exported(String path, long payloadSize, String sha256, long arcOffset, long memberSize) {
+        Exported(String path, long payloadSize, String sha256, PaaIndex.Member member) {
             this.path = path;
             this.payloadSize = payloadSize;
             this.sha256 = sha256;
-            this.arcOffset = arcOffset;
-            this.memberSize = memberSize;
+            this.member = member;
         }
     }
 
@@ -73,17 +79,21 @@ final class FontExtractor {
 
         Iso9660.Entry paBin = require(iso, "PSP_GAME/USRDIR/pa.bin");
         Iso9660.Entry paArc = require(iso, "PSP_GAME/USRDIR/pa.arc");
-        ByteBuffer binHead = iso.read(paBin);
-        if (binHead.remaining() < 4 || binHead.get(0) != 'P' || binHead.get(1) != 'A' ||
-                binHead.get(2) != 'A' || binHead.get(3) != 0) {
-            throw new IOException("pa.bin has unexpected magic; refusing fixed-offset extraction");
+        PaaIndex index = PaaIndex.parse(iso.read(paBin));
+        if (index.count() != EXPECTED_MEMBER_COUNT) {
+            throw new IOException("PAA member count=" + index.count() + " (expected " + EXPECTED_MEMBER_COUNT + ")");
         }
-        long required = Math.max(ZILLFONT_OFFSET + ZILLFONT_MEMBER_SIZE,
-                JILLBTN_OFFSET + JILLBTN_MEMBER_SIZE);
+
+        PaaIndex.Member zillfont = index.member(ZILLFONT_INDEX);
+        PaaIndex.Member jillbtn = index.member(JILLBTN_INDEX);
+        validateMember(zillfont, "font/zillfont.par", ZILLFONT_OFFSET, ZILLFONT_MEMBER_SIZE);
+        validateMember(jillbtn, "2d/font/jillbtn.par", JILLBTN_OFFSET, JILLBTN_MEMBER_SIZE);
+
+        long required = Math.max(zillfont.offset + zillfont.size, jillbtn.offset + jillbtn.size);
         if (paArc.size < required) {
             throw new IOException("pa.arc is smaller than the validated ULJM-05410 layout");
         }
-        return new Inspection(discId, version, channel.size(), paBin, paArc);
+        return new Inspection(discId, version, channel.size(), paBin, paArc, zillfont, jillbtn);
     }
 
     static void export(FileChannel channel, Inspection inspection, OutputStream output,
@@ -92,9 +102,9 @@ final class FontExtractor {
         try (ZipOutputStream zip = new ZipOutputStream(output)) {
             List<Exported> files = new ArrayList<>();
             files.add(exportMember(iso, inspection.paArc, zip,
-                    "font/zillfont.par", ZILLFONT_OFFSET, ZILLFONT_MEMBER_SIZE));
+                    "font/zillfont.par", inspection.zillfont));
             files.add(exportMember(iso, inspection.paArc, zip,
-                    "2d/font/jillbtn.par", JILLBTN_OFFSET, JILLBTN_MEMBER_SIZE));
+                    "2d/font/jillbtn.par", inspection.jillbtn));
 
             String manifest = manifestJson(inspection, sourceName, files);
             zip.putNextEntry(new ZipEntry("manifest.json"));
@@ -104,14 +114,30 @@ final class FontExtractor {
     }
 
     private static Exported exportMember(Iso9660 iso, Iso9660.Entry paArc, ZipOutputStream zip,
-                                         String path, long arcOffset, long memberSize) throws IOException {
-        long payloadSize = memberSize - WRAPPER_SIZE;
-        long absolute = paArc.extent * Iso9660.SECTOR_SIZE + arcOffset + WRAPPER_SIZE;
+                                         String path, PaaIndex.Member member) throws IOException {
+        long payloadSize = member.size - WRAPPER_SIZE;
+        long absolute = paArc.extent * Iso9660.SECTOR_SIZE + member.offset + WRAPPER_SIZE;
         MessageDigest digest = sha256();
         zip.putNextEntry(new ZipEntry(path));
         iso.copyRange(absolute, payloadSize, zip, digest);
         zip.closeEntry();
-        return new Exported(path, payloadSize, hex(digest.digest()), arcOffset, memberSize);
+        return new Exported(path, payloadSize, hex(digest.digest()), member);
+    }
+
+    private static void validateMember(PaaIndex.Member member, String expectedName,
+                                       long expectedOffset, long expectedSize) throws IOException {
+        if (!expectedName.equals(member.name)) {
+            throw new IOException("PAA member " + member.index + " is " + member.name +
+                    " (expected " + expectedName + ")");
+        }
+        if (member.offset != expectedOffset) {
+            throw new IOException(member.name + " offset=" + hex0x(member.offset) +
+                    " (expected " + hex0x(expectedOffset) + ")");
+        }
+        if (member.size != expectedSize) {
+            throw new IOException(member.name + " size=" + hex0x(member.size) +
+                    " (expected " + hex0x(expectedSize) + ")");
+        }
     }
 
     private static Iso9660.Entry require(Iso9660 iso, String path) throws IOException {
@@ -139,15 +165,17 @@ final class FontExtractor {
         s.append("  \"sourceIso\": {\"name\": \"").append(json(sourceName))
                 .append("\", \"size\": ").append(i.isoSize).append("},\n");
         s.append("  \"archive\": {\"paBinSize\": ").append(i.paBin.size)
-                .append(", \"paArcSize\": ").append(i.paArc.size).append("},\n");
+                .append(", \"paArcSize\": ").append(i.paArc.size)
+                .append(", \"memberCount\": ").append(EXPECTED_MEMBER_COUNT).append("},\n");
         s.append("  \"files\": [\n");
         for (int n = 0; n < files.size(); n++) {
             Exported f = files.get(n);
             s.append("    {\"path\": \"").append(json(f.path)).append("\", ")
                     .append("\"size\": ").append(f.payloadSize).append(", ")
                     .append("\"sha256\": \"").append(f.sha256).append("\", ")
-                    .append("\"arcOffset\": \"0x").append(Long.toHexString(f.arcOffset).toUpperCase(Locale.ROOT)).append("\", ")
-                    .append("\"memberSize\": ").append(f.memberSize).append(", ")
+                    .append("\"paaIndex\": ").append(f.member.index).append(", ")
+                    .append("\"arcOffset\": \"").append(hex0x(f.member.offset)).append("\", ")
+                    .append("\"memberSize\": ").append(f.member.size).append(", ")
                     .append("\"wrapperBytesStripped\": 16}");
             if (n + 1 < files.size()) s.append(',');
             s.append('\n');
@@ -167,6 +195,10 @@ final class FontExtractor {
     private static String json(String s) {
         return safe(s).replace("\\", "\\\\").replace("\"", "\\\"")
                 .replace("\n", "\\n").replace("\r", "\\r");
+    }
+
+    private static String hex0x(long value) {
+        return "0x" + Long.toHexString(value).toUpperCase(Locale.ROOT);
     }
 
     private static String hex(byte[] data) {
