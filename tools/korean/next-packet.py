@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Emit the next untranslated Korean work packet from canonical corpus.
 
-The translated set is derived from the checked-in Korean overlays, so resume state
+The translated set is derived from checked-in Korean overlays, so resume state
 never depends on a manually maintained cursor. Output is compact JSONL containing
 only section/id/Japanese source. A progress JSON file can be written alongside it.
 """
@@ -27,10 +27,9 @@ def section_from_path(path: Path) -> int:
 
 
 def load_translated() -> set[tuple[int, str]]:
-    translated: set[tuple[int, str]] = set()
+    values: dict[tuple[int, str], str] = {}
     owners: dict[tuple[int, str], Path] = {}
     for path in sorted(KOREAN.glob("msgsec*.toml")):
-        # Accept msgsec006.toml, msgsec003-part05.toml, and legacy msgsec001b.toml.
         section = section_from_path(path)
         with path.open("rb") as f:
             data = tomllib.load(f)
@@ -38,13 +37,18 @@ def load_translated() -> set[tuple[int, str]]:
             if not isinstance(rec, dict) or not rec.get("korean"):
                 continue
             key = (section, str(rid))
-            if key in translated:
-                raise SystemExit(
-                    f"duplicate Korean id {section}/{rid}: {owners[key]} and {path}"
-                )
-            translated.add(key)
+            ko = str(rec["korean"])
+            if key in values:
+                if values[key] != ko:
+                    raise SystemExit(
+                        f"conflicting Korean id {section}/{rid}: {owners[key]} and {path}"
+                    )
+                # Historical split files contain a few identical duplicates; they
+                # count once for progress and are harmless to resume selection.
+                continue
+            values[key] = ko
             owners[key] = path
-    return translated
+    return set(values)
 
 
 def canonical_rows() -> list[tuple[int, str, str]]:
@@ -81,7 +85,6 @@ def main() -> None:
     packet_bytes = 0
     first: tuple[int, str] | None = None
     last: tuple[int, str] | None = None
-
     for section, rid, ja in canonical:
         if (section, rid) in translated:
             continue
