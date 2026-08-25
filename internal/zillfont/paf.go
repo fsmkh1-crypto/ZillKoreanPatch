@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
 // Package zillfont parses the retail Zill O'll Infinite Plus font metadata
-// needed by the Korean slot-reuse PoC. It intentionally models the known
+// needed by the Korean slot-reuse PoC. It intentionally models the confirmed
 // ULJM-05410 v1.03 PAF shape rather than pretending the format is generic.
 package zillfont
 
@@ -14,18 +14,15 @@ import (
 )
 
 const (
-	PAFSize       = 0x149c0
-	RecordOffset  = 0x30
-	RecordStride  = 0x20
-	GlyphCount    = 2637
-	BSTRoot       = 1318
-	LastCoreSize  = 0x10
-	ExpectedVer   = 0x000c0201
+	PAFSize      = 0x149d0
+	RecordOffset = 0x30
+	RecordStride = 0x20
+	GlyphCount   = 2637
+	BSTRoot      = 1318
+	ExpectedVer  = 0x000c0201
 )
 
 // Glyph is the part of one PAF record needed for deterministic slot reuse.
-// HasTail is false for the retail file's final record, whose final 0x10 bytes
-// are omitted at EOF.
 type Glyph struct {
 	Index    int
 	Key      cp932.GlyphKey
@@ -39,7 +36,6 @@ type Glyph struct {
 	Left     int32
 	Right    int32
 	Page     uint32
-	HasTail  bool
 }
 
 // PAF is the validated retail font metadata view.
@@ -48,8 +44,8 @@ type PAF struct {
 	Glyphs  []Glyph
 }
 
-// ParsePAF parses the exact retail PAF shape confirmed for ULJM-05410 v1.03.
-// The parser deliberately preserves the final truncated-record anomaly.
+// ParsePAF parses the exact retail PAF shape confirmed from the authenticated
+// ULJM-05410 v1.03 jillbtn.par member.
 func ParsePAF(data []byte) (*PAF, error) {
 	if len(data) != PAFSize {
 		return nil, fmt.Errorf("PAF size %#x, want %#x", len(data), PAFSize)
@@ -61,21 +57,32 @@ func ParsePAF(data []byte) (*PAF, error) {
 	if version != ExpectedVer {
 		return nil, fmt.Errorf("PAF version %#08x, want %#08x", version, ExpectedVer)
 	}
+	count := binary.LittleEndian.Uint32(data[8:12])
+	if count != GlyphCount {
+		return nil, fmt.Errorf("PAF glyph count %d, want %d", count, GlyphCount)
+	}
+	root := binary.LittleEndian.Uint32(data[12:16])
+	if root != BSTRoot {
+		return nil, fmt.Errorf("PAF BST root %d, want %d", root, BSTRoot)
+	}
 
 	glyphs := make([]Glyph, 0, GlyphCount)
 	var previous cp932.GlyphKey
 	for index := 0; index < GlyphCount; index++ {
 		offset := RecordOffset + index*RecordStride
-		coreEnd := offset + LastCoreSize
-		if coreEnd > len(data) {
-			return nil, fmt.Errorf("glyph %d core extends past PAF", index)
+		tailEnd := offset + RecordStride
+		if tailEnd > len(data) {
+			return nil, fmt.Errorf("glyph %d extends past PAF", index)
 		}
 		key := cp932.GlyphKey(binary.LittleEndian.Uint16(data[offset : offset+2]))
 		if index > 0 && key <= previous {
 			return nil, fmt.Errorf("glyph keys are not strictly ascending at %d: %#04x <= %#04x", index, uint16(key), uint16(previous))
 		}
 		previous = key
-		glyph := Glyph{
+		if binary.LittleEndian.Uint32(data[offset+0x1c:tailEnd]) != 0 {
+			return nil, fmt.Errorf("glyph %d reserved tail is nonzero", index)
+		}
+		glyphs = append(glyphs, Glyph{
 			Index:    index,
 			Key:      key,
 			Width:    data[offset+2],
@@ -85,23 +92,13 @@ func ParsePAF(data []byte) (*PAF, error) {
 			BearingX: int16(binary.LittleEndian.Uint16(data[offset+8 : offset+10])),
 			BearingY: int16(binary.LittleEndian.Uint16(data[offset+10 : offset+12])),
 			Advance:  binary.LittleEndian.Uint32(data[offset+12 : offset+16]),
-		}
-		tailEnd := offset + RecordStride
-		if tailEnd <= len(data) {
-			glyph.Left = int32(binary.LittleEndian.Uint32(data[offset+0x10 : offset+0x14]))
-			glyph.Right = int32(binary.LittleEndian.Uint32(data[offset+0x14 : offset+0x18]))
-			glyph.Page = binary.LittleEndian.Uint32(data[offset+0x18 : offset+0x1c])
-			if binary.LittleEndian.Uint32(data[offset+0x1c:tailEnd]) != 0 {
-				return nil, fmt.Errorf("glyph %d reserved tail is nonzero", index)
-			}
-			glyph.HasTail = true
-		} else if index != GlyphCount-1 || coreEnd != len(data) {
-			return nil, fmt.Errorf("unexpected truncated PAF record %d", index)
-		}
-		glyphs = append(glyphs, glyph)
+			Left:     int32(binary.LittleEndian.Uint32(data[offset+0x10 : offset+0x14])),
+			Right:    int32(binary.LittleEndian.Uint32(data[offset+0x14 : offset+0x18])),
+			Page:     binary.LittleEndian.Uint32(data[offset+0x18 : offset+0x1c]),
+		})
 	}
-	if glyphs[len(glyphs)-1].HasTail {
-		return nil, fmt.Errorf("expected final PAF glyph tail to be omitted")
+	if RecordOffset+GlyphCount*RecordStride != len(data) {
+		return nil, fmt.Errorf("PAF record table does not end at EOF")
 	}
 	return &PAF{Version: version, Glyphs: glyphs}, nil
 }
@@ -118,14 +115,11 @@ func (p *PAF) DoubleByteKeys() []cp932.GlyphKey {
 	return out
 }
 
-// PageCounts reports only complete PAF records because the retail final glyph
-// omits the tail containing its page field.
+// PageCounts reports all PAF records by GIM page.
 func (p *PAF) PageCounts() map[uint32]int {
 	out := make(map[uint32]int)
 	for _, glyph := range p.Glyphs {
-		if glyph.HasTail {
-			out[glyph.Page]++
-		}
+		out[glyph.Page]++
 	}
 	return out
 }
