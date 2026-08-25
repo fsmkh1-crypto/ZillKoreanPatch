@@ -64,6 +64,29 @@ layout = "<value:$15>그대여<line-break>응답하라<end>"
 	}
 }
 
+func TestLoadKoreanProjectRejectsLineBreakInSemanticText(t *testing.T) {
+	root := t.TempDir()
+	dir := filepath.Join(root, "translations", "korean", "messages")
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	sourceText := "本文<line-break>続き<end>"
+	source := &Project{
+		Items: []Item{{Record: Record{ID: 10007, Index: 7, Display: sourceText}, Translation: Translation{ID: 10007, Japanese: sourceText}}},
+		byID:  map[int]int{10007: 0},
+	}
+	writeKoreanTestFile(t, dir, "msgsec001.toml", `# SPDX-License-Identifier: CC-BY-SA-4.0
+
+["10007"]
+japanese = "本文<line-break>続き<end>"
+korean = "본문<line-break>계속<end>"
+`)
+	_, _, err := LoadKoreanProject(root, source)
+	if err == nil || !strings.Contains(err.Error(), "wrapping belongs in layout") {
+		t.Fatalf("error = %v", err)
+	}
+}
+
 func TestWithKoreanRejectsFixedControlTokenDriftAndClearsLayout(t *testing.T) {
 	sourceText := "<value:$15>よ<end>"
 	source := &Project{
@@ -76,6 +99,9 @@ func TestWithKoreanRejectsFixedControlTokenDriftAndClearsLayout(t *testing.T) {
 	}
 	if _, err := project.WithKorean(source, 10007, "그대여<end>"); err == nil || !strings.Contains(err.Error(), "fixed control token sequence differs") {
 		t.Fatalf("error = %v", err)
+	}
+	if _, err := project.WithKorean(source, 10007, "<value:$15>그대<line-break>여<end>"); err == nil || !strings.Contains(err.Error(), "wrapping belongs in layout") {
+		t.Fatalf("semantic line break error = %v", err)
 	}
 	updated, err := project.WithKorean(source, 10007, "<value:$15>그대여<end>")
 	if err != nil {
