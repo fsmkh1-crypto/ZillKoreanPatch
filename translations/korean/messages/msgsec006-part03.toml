@@ -2,43 +2,53 @@
 
 ["60039"]
 japanese = "<if><value:$33><less-equal>2アンティノの野郎、武器だけでなく<line-break>戦争用の魔法生物まで売ってやがる。<line-break>人の命を何だと思ってるんだ。<end><if><value:$33><equal>3ここだけの話だが、ペウダはアンティノから<line-break>買った魔法生物のエサとして、近隣の村から<line-break>さらった若い娘を与えていたそうだ。鬼だな。<end><if><value:$33><equal>4ゼネテスのおかげでなんとか勝利したけど、<line-break>兵力の大半を失ったロストールに<line-break>ディンガルの再攻撃を防ぐ手だてはないね。<end><if><value:$33><equal>5この店の主人はたいしたもんだよ。<line-break>こんなひどい状況でも、店を開いて<line-break>いるんだからな。<end>エルファスの予言通り世界が滅んでしまうなら、<line-break>文句を言っていただけの俺の人生って<line-break>みじめだなあ…。<end>"
-korean = "<if><value:$33><less-equal>2안티노 그 자식, 무기뿐 아니라<line-break>전쟁용 마법생물까지 팔고 있어.<line-break>사람 목숨을 대체 뭐라고 생각하는 거야.<end><if><value:$33><equal>3여기서만 하는 말인데, 페우다는 안티노에게<line-break>산 마법생물의 먹이로 인근 마을에서<line-break>납치한 젊은 여자들을 줬다더군. 악마 같은 놈이지.<end><if><value:$33><equal>4제네테스 덕분에 어떻게든 이기긴 했지만,<line-break>병력 대부분을 잃은 로스토르에겐<line-break>딘갈의 재공격을 막을 방법이 없어.<end><if><value:$33><equal>5이 가게 주인은 대단한 사람이야.<line-break>이런 끔찍한 상황에서도 가게를 열고<line-break>있으니 말이야.<end>엘파스의 예언대로 세계가 멸망한다면,<line-break>불평만 하다 끝난 내 인생은<line-break>참 초라하겠군….<end>"
+korean = "<if><value:$33><less-equal>2안티노 그 자식, 무기뿐 아니라 전쟁용 마법생물까지 팔고 있어. 사람 목숨을 대체 뭐라고 생각하는 거야.<end><if><value:$33><equal>3여기서만 하는 말인데, 페우다는 안티노에게 산 마법생물의 먹이로 인근 마을에서 납치한 젊은 여자들을 줬다더군. 악마 같은 놈이지.<end><if><value:$33><equal>4제네테스 덕분에 어떻게든 이기긴 했지만, 병력 대부분을 잃은 로스토르에겐 딘갈의 재공격을 막을 방법이 없어.<end><if><value:$33><equal>5이 가게 주인은 대단한 사람이야. 이런 끔찍한 상황에서도 가게를 열고 있으니 말이야.<end>엘파스의 예언대로 세계가 멸망한다면, 불평만 하다 끝난 내 인생은 참 초라하겠군….<end>"
+layout = "<if><value:$33><less-equal>2안티노 그 자식, 무기뿐 아니라<line-break>전쟁용 마법생물까지 팔고 있어.<line-break>사람 목숨을 대체 뭐라고 생각하는 거야.<end><if><value:$33><equal>3여기서만 하는 말인데, 페우다는 안티노에게<line-break>산 마법생물의 먹이로 인근 마을에서<line-break>납치한 젊은 여자들을 줬다더군. 악마 같은 놈이지.<end><if><value:$33><equal>4제네테스 덕분에 어떻게든 이기긴 했지만,<line-break>병력 대부분을 잃은 로스토르에겐<line-break>딘갈의 재공격을 막을 방법이 없어.<end><if><value:$33><equal>5이 가게 주인은 대단한 사람이야.<line-break>이런 끔찍한 상황에서도 가게를 열고<line-break>있으니 말이야.<end>엘파스의 예언대로 세계가 멸망한다면,<line-break>불평만 하다 끝난 내 인생은<line-break>참 초라하겠군….<end>"
 
 ["60040"]
 japanese = "世界が大きく変わろうとしています。<line-break>その流れに、あなたも巻き込まれますが、<line-break>未来はまだ白紙です。<line-break>自分の思うように生きてみなさい。<line-break>それが、最良の選択となるでしょう。<end>"
-korean = "세계가 크게 변하려 하고 있습니다.<line-break>그 흐름에 당신도 휘말리겠지만,<line-break>미래는 아직 백지입니다.<line-break>자신이 원하는 대로 살아 보세요.<line-break>그것이 최선의 선택이 될 것입니다.<end>"
+korean = "세계가 크게 변하려 하고 있습니다. 그 흐름에 당신도 휘말리겠지만, 미래는 아직 백지입니다. 자신이 원하는 대로 살아 보세요. 그것이 최선의 선택이 될 것입니다.<end>"
+layout = "세계가 크게 변하려 하고 있습니다.<line-break>그 흐름에 당신도 휘말리겠지만,<line-break>미래는 아직 백지입니다.<line-break>자신이 원하는 대로 살아 보세요.<line-break>그것이 최선의 선택이 될 것입니다.<end>"
 
 ["60041"]
 japanese = "<select><value:$33>ふーん。そうかいそうかい。<line-break>私も見に行ってみたいもんだねえ。<end>ふーん。そうかいそうかい。<line-break>私も見に行ってみたいもんだねえ。<end>それは気の毒にねえ。<line-break>悪い人間にコーンスが襲われていたら<line-break>助けてあげておくれね。<end>おやまあ、そうなのかい。<line-break>でも、強いからってわざと毒蛇にかまれたり<line-break>しないでおくれよ。<end>へぇーそうなのかい。<line-break>ババは何にも知らなかったよ。<end>ディンガルの軍隊もスラムまでは<line-break>壊しにこなかったよ。ありがたいことじゃ。<end>そうかいそうかい、ありがとうねえ。<line-break>わたしは、あんたが来てくれるだけで<line-break>うれしいんだよ。<end>ありがとう…あんたはやさしい子だよ。<line-break>ババはアンタが生き残れるように、<line-break>いつも祈っておるからねぇ。<end>"
-korean = "<select><value:$33>흐음, 그렇구나 그렇구나.<line-break>나도 한번 보러 가고 싶구나.<end>흐음, 그렇구나 그렇구나.<line-break>나도 한번 보러 가고 싶구나.<end>그건 안됐구나.<line-break>나쁜 인간에게 콘스가 습격당하고 있으면<line-break>꼭 도와주렴.<end>어머나, 그렇구나.<line-break>그래도 강하다고 일부러 독사에게 물리거나<line-break>하진 말거라.<end>허어, 그런 거였구나.<line-break>할미는 아무것도 몰랐네.<end>딘갈 군대도 슬럼까지는<line-break>부수러 오지 않았단다. 참 다행이지.<end>그렇구나 그렇구나, 고맙다.<line-break>나는 네가 와 주는 것만으로도<line-break>기쁘단다.<end>고맙구나… 너는 참 착한 아이야.<line-break>할미는 네가 살아남도록<line-break>늘 기도하고 있단다.<end>"
+korean = "<select><value:$33>흐음, 그렇구나 그렇구나. 나도 한번 보러 가고 싶구나.<end>흐음, 그렇구나 그렇구나. 나도 한번 보러 가고 싶구나.<end>그건 안됐구나. 나쁜 인간에게 콘스가 습격당하고 있으면 꼭 도와주렴.<end>어머나, 그렇구나. 그래도 강하다고 일부러 독사에게 물리거나 하진 말거라.<end>허어, 그런 거였구나. 할미는 아무것도 몰랐네.<end>딘갈 군대도 슬럼까지는 부수러 오지 않았단다. 참 다행이지.<end>그렇구나 그렇구나, 고맙다. 나는 네가 와 주는 것만으로도 기쁘단다.<end>고맙구나… 너는 참 착한 아이야. 할미는 네가 살아남도록 늘 기도하고 있단다.<end>"
+layout = "<select><value:$33>흐음, 그렇구나 그렇구나.<line-break>나도 한번 보러 가고 싶구나.<end>흐음, 그렇구나 그렇구나.<line-break>나도 한번 보러 가고 싶구나.<end>그건 안됐구나.<line-break>나쁜 인간에게 콘스가 습격당하고 있으면<line-break>꼭 도와주렴.<end>어머나, 그렇구나.<line-break>그래도 강하다고 일부러 독사에게 물리거나<line-break>하진 말거라.<end>허어, 그런 거였구나.<line-break>할미는 아무것도 몰랐네.<end>딘갈 군대도 슬럼까지는<line-break>부수러 오지 않았단다. 참 다행이지.<end>그렇구나 그렇구나, 고맙다.<line-break>나는 네가 와 주는 것만으로도<line-break>기쁘단다.<end>고맙구나… 너는 참 착한 아이야.<line-break>할미는 네가 살아남도록<line-break>늘 기도하고 있단다.<end>"
 
 ["60042"]
 japanese = "<select><value:$33>ロストールには、<line-break>すっごーく大きな樹があってねえ<line-break>千年樹って呼ばれてるんだ。<end>ロストールには、<line-break>すっごーく大きな樹があってねえ<line-break>千年樹って呼ばれてるんだ。<end>コーンスは悪い人間に角をとられちゃうんだよ。<line-break>それでね、角をとられたコーンスは死ぬんだよ。<line-break>ぼくリルビーでよかったなぁ。<end>ぼくたちリルビーは、毒やマヒに強いんだよ。<line-break>だから毒虫や毒蛇なんてへっちゃらさ。<end>ぼくのおでこに付けボクロがあるでしょ。<line-break>これはね、人間の子供と間違わないように<line-break>生まれたときに埋められるんだ。<end>たいへんだよー！　たいへんだよー！<line-break>ディンガルの兵隊が時計塔も広場も<line-break>おうちもぜーんぶ壊しちゃったよ！<end>おばあさん、何か足りない物があったら<line-break>言ってよね。ぼくが手に入れてくるからさ。<end>ぼくねぇ、一生懸命祈ったから。<line-break>世界が滅亡したって、絶対おばあさんは<line-break>生き残れるはずだよ。<end>"
-korean = "<select><value:$33>로스토르에는<line-break>엄청나게 큰 나무가 있는데<line-break>천년수라고 불러.<end>로스토르에는<line-break>엄청나게 큰 나무가 있는데<line-break>천년수라고 불러.<end>콘스는 나쁜 인간에게 뿔을 빼앗긴대.<line-break>그리고 뿔을 빼앗긴 콘스는 죽는대.<line-break>난 릴비라서 다행이야.<end>우리 릴비는 독이나 마비에 강해.<line-break>그래서 독충이나 독사 정도는 아무렇지도 않아.<end>내 이마에 점 같은 게 붙어 있지?<line-break>이건 인간 아이와 헷갈리지 않게<line-break>태어났을 때 박아 넣는 거래.<end>큰일이야! 큰일이야!<line-break>딘갈 병사들이 시계탑도 광장도<line-break>집도 전부 부숴 버렸어!<end>할머니, 부족한 게 있으면<line-break>말해 줘. 내가 구해 올 테니까.<end>나 열심히 기도했어.<line-break>세상이 멸망해도 할머니는 절대로<line-break>살아남을 수 있을 거야.<end>"
+korean = "<select><value:$33>로스토르에는 엄청나게 큰 나무가 있는데 천년수라고 불러.<end>로스토르에는 엄청나게 큰 나무가 있는데 천년수라고 불러.<end>콘스는 나쁜 인간에게 뿔을 빼앗긴대. 그리고 뿔을 빼앗긴 콘스는 죽는대. 난 릴비라서 다행이야.<end>우리 릴비는 독이나 마비에 강해. 그래서 독충이나 독사 정도는 아무렇지도 않아.<end>내 이마에 점 같은 게 붙어 있지? 이건 인간 아이와 헷갈리지 않게 태어났을 때 박아 넣는 거래.<end>큰일이야! 큰일이야! 딘갈 병사들이 시계탑도 광장도 집도 전부 부숴 버렸어!<end>할머니, 부족한 게 있으면 말해 줘. 내가 구해 올 테니까.<end>나 열심히 기도했어. 세상이 멸망해도 할머니는 절대로 살아남을 수 있을 거야.<end>"
+layout = "<select><value:$33>로스토르에는<line-break>엄청나게 큰 나무가 있는데<line-break>천년수라고 불러.<end>로스토르에는<line-break>엄청나게 큰 나무가 있는데<line-break>천년수라고 불러.<end>콘스는 나쁜 인간에게 뿔을 빼앗긴대.<line-break>그리고 뿔을 빼앗긴 콘스는 죽는대.<line-break>난 릴비라서 다행이야.<end>우리 릴비는 독이나 마비에 강해.<line-break>그래서 독충이나 독사 정도는 아무렇지도 않아.<end>내 이마에 점 같은 게 붙어 있지?<line-break>이건 인간 아이와 헷갈리지 않게<line-break>태어났을 때 박아 넣는 거래.<end>큰일이야! 큰일이야!<line-break>딘갈 병사들이 시계탑도 광장도<line-break>집도 전부 부숴 버렸어!<end>할머니, 부족한 게 있으면<line-break>말해 줘. 내가 구해 올 테니까.<end>나 열심히 기도했어.<line-break>세상이 멸망해도 할머니는 절대로<line-break>살아남을 수 있을 거야.<end>"
 
 ["60043"]
 japanese = "<select><value:$20>%2わしが病気で寝たきりなばっかりに、<line-break>娘には苦労ばかりかけて…ごほごほ。<line-break>うう…、情けない…。<end>わしに人を見る目があれば、ロティなんぞに<line-break>だまされはしなかっただろうに。<line-break>あいつの人のよさそうな顔が憎い…。<end>"
-korean = "<select><value:$20>%2내가 병들어 누워만 있는 바람에,<line-break>딸에게 고생만 시키는구나… 콜록콜록.<line-break>으으… 한심하구나….<end>내가 사람 보는 눈만 있었어도 로티 따위에게<line-break>속지는 않았을 텐데.<line-break>그 녀석의 선량해 보이는 얼굴이 밉구나….<end>"
+korean = "<select><value:$20>%2내가 병들어 누워만 있는 바람에, 딸에게 고생만 시키는구나… 콜록콜록. 으으… 한심하구나….<end>내가 사람 보는 눈만 있었어도 로티 따위에게 속지는 않았을 텐데. 그 녀석의 선량해 보이는 얼굴이 밉구나….<end>"
+layout = "<select><value:$20>%2내가 병들어 누워만 있는 바람에,<line-break>딸에게 고생만 시키는구나… 콜록콜록.<line-break>으으… 한심하구나….<end>내가 사람 보는 눈만 있었어도 로티 따위에게<line-break>속지는 않았을 텐데.<line-break>그 녀석의 선량해 보이는 얼굴이 밉구나….<end>"
 
 ["60044"]
 japanese = "<select><value:$20>%3お父さん、私のことはいいから<line-break>早く病気を治してね。<end>父が仕事で失敗して、家も財産も失いましたが<line-break>親子で暮らせる時間が戻ってきました。<line-break>私は、それがうれしいです。<end>お父さん、もうすぐおかゆができるから、<line-break>ちょっと待っててね。<end>"
-korean = "<select><value:$20>%3아버지, 저는 괜찮으니까<line-break>빨리 병부터 나으세요.<end>아버지가 일에 실패해서 집도 재산도 잃었지만,<line-break>부녀가 함께 지낼 시간이 돌아왔어요.<line-break>저는 그게 기뻐요.<end>아버지, 곧 죽이 다 되니까<line-break>조금만 기다리세요.<end>"
+korean = "<select><value:$20>%3아버지, 저는 괜찮으니까 빨리 병부터 나으세요.<end>아버지가 일에 실패해서 집도 재산도 잃었지만, 부녀가 함께 지낼 시간이 돌아왔어요. 저는 그게 기뻐요.<end>아버지, 곧 죽이 다 되니까 조금만 기다리세요.<end>"
+layout = "<select><value:$20>%3아버지, 저는 괜찮으니까<line-break>빨리 병부터 나으세요.<end>아버지가 일에 실패해서 집도 재산도 잃었지만,<line-break>부녀가 함께 지낼 시간이 돌아왔어요.<line-break>저는 그게 기뻐요.<end>아버지, 곧 죽이 다 되니까<line-break>조금만 기다리세요.<end>"
 
 ["60045"]
 japanese = "ここはフゴー様のお屋敷です。<line-break>あなたのような無名の方を通すわけには<line-break>まいりません。お帰りください。<end>"
-korean = "여기는 후고 님의 저택입니다.<line-break>당신처럼 이름 없는 분을 들여보낼 수는<line-break>없습니다. 돌아가 주십시오.<end>"
+korean = "여기는 후고 님의 저택입니다. 당신처럼 이름 없는 분을 들여보낼 수는 없습니다. 돌아가 주십시오.<end>"
+layout = "여기는 후고 님의 저택입니다.<line-break>당신처럼 이름 없는 분을 들여보낼 수는<line-break>없습니다. 돌아가 주십시오.<end>"
 
 ["60046"]
 japanese = "ここはアンティノ様のお屋敷だ。<line-break>お前のような非市民が来るところじゃねえ。<line-break>痛い目みないうちに帰りやがれ。<end>"
-korean = "여기는 안티노 님의 저택이다.<line-break>너 같은 비시민이 올 곳이 아니야.<line-break>큰코다치기 전에 돌아가라.<end>"
+korean = "여기는 안티노 님의 저택이다. 너 같은 비시민이 올 곳이 아니야. 큰코다치기 전에 돌아가라.<end>"
+layout = "여기는 안티노 님의 저택이다.<line-break>너 같은 비시민이 올 곳이 아니야.<line-break>큰코다치기 전에 돌아가라.<end>"
 
 ["60047"]
 japanese = "ここはクロイス様のお屋敷です。<line-break>ご用のない方を通すわけにはいきません。<line-break>お帰りください。<end>"
-korean = "여기는 크로이스 님의 저택입니다.<line-break>용건이 없는 분을 들여보낼 수는 없습니다.<line-break>돌아가 주십시오.<end>"
+korean = "여기는 크로이스 님의 저택입니다. 용건이 없는 분을 들여보낼 수는 없습니다. 돌아가 주십시오.<end>"
+layout = "여기는 크로이스 님의 저택입니다.<line-break>용건이 없는 분을 들여보낼 수는 없습니다.<line-break>돌아가 주십시오.<end>"
 
 ["60048"]
 japanese = "<if><value:$2A><less-equal>%49おう、町を出るんだな。<line-break>船に乗るなら船賃をもらうぞ。<line-break>金がないなら陸路を行くんだな。<end><if><value:$2A><less-equal>%75ほほぉ、貴様が<value:$28>か。<line-break>船に乗る気なら、船賃３００ギアをもらうぞ。<line-break>町を出るつもりなんだろ？<end><if><value:$2A><less-equal>%130<value:$28>、町を出るつもりなのか？<line-break>船に乗るには金がかかるのはわかっているな。<line-break>もっとも、金には不自由してないだろうがな。<end>よう、天下の<value:$28>。<line-break>急ぎの旅なら船を使ってくれよ。<line-break>町を出るつもりなんだろう？<end>"
-korean = "<if><value:$2A><less-equal>%49오, 도시를 나갈 거구나.<line-break>배를 타려면 뱃삯을 받아야 해.<line-break>돈이 없으면 육로로 가라고.<end><if><value:$2A><less-equal>%75호오, 네가 <value:$28>인가.<line-break>배를 탈 거라면 뱃삯 ３００기어를 받겠다.<line-break>도시를 나갈 생각이지?<end><if><value:$2A><less-equal>%130<value:$28>, 도시를 나갈 생각인가?<line-break>배를 타려면 돈이 든다는 건 알고 있겠지.<line-break>뭐, 돈 걱정은 안 하겠지만 말이야.<end>여어, 천하의 <value:$28>.<line-break>급한 여행이라면 배를 이용해 줘.<line-break>도시를 나갈 생각이지?<end>"
+korean = "<if><value:$2A><less-equal>%49오, 도시를 나갈 거구나. 배를 타려면 뱃삯을 받아야 해. 돈이 없으면 육로로 가라고.<end><if><value:$2A><less-equal>%75호오, 네가 <value:$28>인가. 배를 탈 거라면 뱃삯 ３００기어를 받겠다. 도시를 나갈 생각이지?<end><if><value:$2A><less-equal>%130<value:$28>, 도시를 나갈 생각인가? 배를 타려면 돈이 든다는 건 알고 있겠지. 뭐, 돈 걱정은 안 하겠지만 말이야.<end>여어, 천하의 <value:$28>. 급한 여행이라면 배를 이용해 줘. 도시를 나갈 생각이지?<end>"
+layout = "<if><value:$2A><less-equal>%49오, 도시를 나갈 거구나.<line-break>배를 타려면 뱃삯을 받아야 해.<line-break>돈이 없으면 육로로 가라고.<end><if><value:$2A><less-equal>%75호오, 네가 <value:$28>인가.<line-break>배를 탈 거라면 뱃삯 ３００기어를 받겠다.<line-break>도시를 나갈 생각이지?<end><if><value:$2A><less-equal>%130<value:$28>, 도시를 나갈 생각인가?<line-break>배를 타려면 돈이 든다는 건 알고 있겠지.<line-break>뭐, 돈 걱정은 안 하겠지만 말이야.<end>여어, 천하의 <value:$28>.<line-break>급한 여행이라면 배를 이용해 줘.<line-break>도시를 나갈 생각이지?<end>"
 
 ["60049"]
 japanese = "町から出る<end>"

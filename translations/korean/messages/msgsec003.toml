@@ -1,20 +1,25 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 ["30001"]
 japanese = "<select><value:$20>%1ここより先は王宮です。<line-break>許可のない者を通すわけには<line-break>いきません。早々にお帰りください。<end>"
-korean = "<select><value:$20>%1이 앞은 왕궁입니다.<line-break>허가받지 않은 분을 통과시킬 수는<line-break>없습니다. 어서 돌아가 주십시오.<end>"
+korean = "<select><value:$20>%1이 앞은 왕궁입니다. 허가받지 않은 분을 통과시킬 수는 없습니다. 어서 돌아가 주십시오.<end>"
+layout = "<select><value:$20>%1이 앞은 왕궁입니다.<line-break>허가받지 않은 분을 통과시킬 수는<line-break>없습니다. 어서 돌아가 주십시오.<end>"
 
 ["30003"]
 japanese = "<select><value:$20>%2これは戦神ソリアスの像ですね。<line-break>ソリアスは神々の時代、破壊神ウルグを<line-break>倒すために異世界から呼ばれた神なのです。<end>強い憎しみや怒りから身体が闇に染まった　　<line-break>エルフを我々はダークエルフと呼んでいます。<line-break>ダークエルフは闇の使いなので抹殺すべし…<line-break>そう森では教えられましたが、世界を旅する<line-break>うちに疑問をもつようになりました。<line-break>自分の感情を隠すことは誤りではないかと…。<end>"
-korean = "<select><value:$20>%2이것은 전신 솔리아스의 상이군요.<line-break>솔리아스는 신들의 시대에 파괴신 울그를<line-break>쓰러뜨리기 위해 이세계에서 소환된 신입니다.<end>강한 증오와 분노로 몸이 어둠에 물든　　<line-break>엘프를 우리는 다크 엘프라고 부릅니다.<line-break>다크 엘프는 어둠의 사자이므로 말살해야 한다…<line-break>숲에서는 그렇게 배웠지만, 세계를 여행하면서<line-break>그 가르침에 의문을 품게 되었습니다.<line-break>자신의 감정을 숨기는 것이 오히려 잘못은 아닐까 하고….<end>"
+korean = "<select><value:$20>%2이것은 전신 솔리아스의 상이군요. 솔리아스는 신들의 시대에 파괴신 울그를 쓰러뜨리기 위해 이세계에서 소환된 신입니다.<end>강한 증오와 분노로 몸이 어둠에 물든 엘프를 우리는 다크 엘프라고 부릅니다. 다크 엘프는 어둠의 사자이므로 말살해야 한다… 숲에서는 그렇게 배웠지만, 세계를 여행하면서 그 가르침에 의문을 품게 되었습니다. 자신의 감정을 숨기는 것이 오히려 잘못은 아닐까 하고….<end>"
+layout = "<select><value:$20>%2이것은 전신 솔리아스의 상이군요.<line-break>솔리아스는 신들의 시대에 파괴신 울그를<line-break>쓰러뜨리기 위해 이세계에서 소환된 신입니다.<end>강한 증오와 분노로 몸이 어둠에 물든<line-break>엘프를 우리는 다크 엘프라고 부릅니다.<line-break>다크 엘프는 어둠의 사자이므로 말살해야 한다…<line-break>숲에서는 그렇게 배웠지만, 세계를 여행하면서<line-break>그 가르침에 의문을 품게 되었습니다.<line-break>자신의 감정을 숨기는 것이 오히려 잘못은 아닐까 하고….<end>"
 
 ["30004"]
 japanese = "<if><value:$2C><less-equal>%25上位の魔法を使えるようになりたいのなら　　　<line-break>探求心Ｓｅａｒｃｈだけでなく冷静さＣｏｏｌも<line-break>高めなさい。そうすればニルヴァーナが宿るわ。<line-break>強力な精霊力を制御するには冷静さが必要なの。<line-break>もちろん精霊力レベルが低いとスキルがあっても<line-break>魔法は使えないわよ。<end><if><value:$2C><less-equal>%40各属性にひとつずつ封印された禁呪があるの。<line-break>新月の塔と呼ばれる所にも、<line-break>禁呪が封印されているそうよ。<end>究極のソウルを宿すためには、マイティブロウ、<line-break>ニルヴァーナ、トリックスター、パトリアーク、<line-break>アルバレストが必要になるそうよ。<end>"
-korean = "<if><value:$2C><less-equal>%25상위 마법을 쓰고 싶다면　　　<line-break>탐구심 Ｓｅａｒｃｈ뿐 아니라 냉정함 Ｃｏｏｌ도<line-break>높이렴. 그러면 니르바나를 품을 수 있을 거야.<line-break>강력한 정령력을 제어하려면 냉정함이 필요해.<line-break>물론 정령력 레벨이 낮으면 스킬이 있어도<line-break>마법은 사용할 수 없단다.<end><if><value:$2C><less-equal>%40각 속성에는 하나씩 봉인된 금주가 있어.<line-break>신월의 탑이라 불리는 곳에도<line-break>금주가 봉인되어 있다고 해.<end>궁극의 소울을 품으려면 마이티 블로,<line-break>니르바나, 트릭스터, 패트리아크,<line-break>아르발레스트가 필요하다고 해.<end>"
+korean = "<if><value:$2C><less-equal>%25상위 마법을 쓰고 싶다면 탐구심 Ｓｅａｒｃｈ뿐 아니라 냉정함 Ｃｏｏｌ도 높이렴. 그러면 니르바나를 품을 수 있을 거야. 강력한 정령력을 제어하려면 냉정함이 필요해. 물론 정령력 레벨이 낮으면 스킬이 있어도 마법은 사용할 수 없단다.<end><if><value:$2C><less-equal>%40각 속성에는 하나씩 봉인된 금주가 있어. 신월의 탑이라 불리는 곳에도 금주가 봉인되어 있다고 해.<end>궁극의 소울을 품으려면 마이티 블로, 니르바나, 트릭스터, 패트리아크, 아르발레스트가 필요하다고 해.<end>"
+layout = "<if><value:$2C><less-equal>%25상위 마법을 쓰고 싶다면<line-break>탐구심 Ｓｅａｒｃｈ뿐 아니라 냉정함 Ｃｏｏｌ도<line-break>높이렴. 그러면 니르바나를 품을 수 있을 거야.<line-break>강력한 정령력을 제어하려면 냉정함이 필요해.<line-break>물론 정령력 레벨이 낮으면 스킬이 있어도<line-break>마법은 사용할 수 없단다.<end><if><value:$2C><less-equal>%40각 속성에는 하나씩 봉인된 금주가 있어.<line-break>신월의 탑이라 불리는 곳에도<line-break>금주가 봉인되어 있다고 해.<end>궁극의 소울을 품으려면 마이티 블로,<line-break>니르바나, 트릭스터, 패트리아크,<line-break>아르발레스트가 필요하다고 해.<end>"
 
 ["30005"]
 japanese = "<select><value:$20>%3ねえねえ、ゆうしゃってな～に？<line-break>世界を救うためなら何をしても<line-break>許される人のことなのぉ？<end>せんそーって、勝ったほうが<line-break>せいぎで、ただしーんだよねぇ。<line-break>だから、なんとしても勝つんだってぇ。<end>せっかく新しいソウルを身につけたのに<line-break>宿すのを忘れちゃったことなぁい？<end>"
-korean = "<select><value:$20>%3있잖아, 있잖아. 용사라는 게 뭐야~?<line-break>세계를 구하기 위해서라면 무슨 짓을 해도<line-break>용서받는 사람을 말하는 거야~?<end>전쟁은 이긴 쪽이<line-break>정의고 옳은 거지이?<line-break>그래서 무슨 수를 써서라도 이겨야 한대애.<end>모처럼 새로운 소울을 얻고도<line-break>품는 걸 깜빡한 적 없어어?<end>"
+korean = "<select><value:$20>%3있잖아, 있잖아. 용사라는 게 뭐야~? 세계를 구하기 위해서라면 무슨 짓을 해도 용서받는 사람을 말하는 거야~?<end>전쟁은 이긴 쪽이 정의고 옳은 거지이? 그래서 무슨 수를 써서라도 이겨야 한대애.<end>모처럼 새로운 소울을 얻고도 품는 걸 깜빡한 적 없어어?<end>"
+layout = "<select><value:$20>%3있잖아, 있잖아. 용사라는 게 뭐야~?<line-break>세계를 구하기 위해서라면 무슨 짓을 해도<line-break>용서받는 사람을 말하는 거야~?<end>전쟁은 이긴 쪽이<line-break>정의고 옳은 거지이?<line-break>그래서 무슨 수를 써서라도 이겨야 한대애.<end>모처럼 새로운 소울을 얻고도<line-break>품는 걸 깜빡한 적 없어어?<end>"
 
 ["30006"]
 japanese = "<if><value:$2C><less-equal>%10エンシャントの南にある賢者の森には<line-break>その名の通り賢者が住んでいるんだと。<line-break>だが、わしが行っても何もなかったけどな。<end><if><value:$2C><less-equal>%20ギルドで仕事を受けるときは、<line-break>自分の実力を考えて受けるんだぞ。<line-break>無理して死んでも仕方がないだろう。<end><if><value:$2C><less-equal>%30宝箱に仕掛けられている罠を解除するには、<line-break>アンチハードルのスキルが必須だぞ。<line-break>難易度の高い罠は、解除が難しいからな。<end>装備品は重いから持てる数に制限があるぞ。<line-break>だが聖や闇の属性を宿した武器は、自分で造る<line-break>ことができないから捨てたりせんようにな。<end>"
-korean = "<if><value:$2C><less-equal>%10엔션트 남쪽에 있는 현자의 숲에는<line-break>이름 그대로 현자가 산다고 하더군.<line-break>하지만 내가 가 봤을 때는 아무것도 없었지.<end><if><value:$2C><less-equal>%20길드에서 일을 받을 때는<line-break>자기 실력을 생각해서 받아야 한다.<line-break>무리하다 죽으면 아무 소용 없잖느냐.<end><if><value:$2C><less-equal>%30보물상자에 설치된 함정을 해제하려면<line-break>안티 허들 스킬이 필수다.<line-break>난도가 높은 함정은 해제하기도 어렵거든.<end>장비품은 무거워서 들고 다닐 수 있는 수에 제한이 있다.<line-break>하지만 성이나 어둠 속성을 품은 무기는 직접 만들 수<line-break>없으니 함부로 버리지 말거라.<end>"
+korean = "<if><value:$2C><less-equal>%10엔션트 남쪽에 있는 현자의 숲에는 이름 그대로 현자가 산다고 하더군. 하지만 내가 가 봤을 때는 아무것도 없었지.<end><if><value:$2C><less-equal>%20길드에서 일을 받을 때는 자기 실력을 생각해서 받아야 한다. 무리하다 죽으면 아무 소용 없잖느냐.<end><if><value:$2C><less-equal>%30보물상자에 설치된 함정을 해제하려면 안티 허들 스킬이 필수다. 난도가 높은 함정은 해제하기도 어렵거든.<end>장비품은 무거워서 들고 다닐 수 있는 수에 제한이 있다. 하지만 성이나 어둠 속성을 품은 무기는 직접 만들 수 없으니 함부로 버리지 말거라.<end>"
+layout = "<if><value:$2C><less-equal>%10엔션트 남쪽에 있는 현자의 숲에는<line-break>이름 그대로 현자가 산다고 하더군.<line-break>하지만 내가 가 봤을 때는 아무것도 없었지.<end><if><value:$2C><less-equal>%20길드에서 일을 받을 때는<line-break>자기 실력을 생각해서 받아야 한다.<line-break>무리하다 죽으면 아무 소용 없잖느냐.<end><if><value:$2C><less-equal>%30보물상자에 설치된 함정을 해제하려면<line-break>안티 허들 스킬이 필수다.<line-break>난도가 높은 함정은 해제하기도 어렵거든.<end>장비품은 무거워서 들고 다닐 수 있는 수에 제한이 있다.<line-break>하지만 성이나 어둠 속성을 품은 무기는 직접 만들 수<line-break>없으니 함부로 버리지 말거라.<end>"
