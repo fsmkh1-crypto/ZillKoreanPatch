@@ -1,0 +1,53 @@
+name: Korean next packet
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - translation/section001-batch2
+    paths:
+      - 'translations/korean/messages/**'
+      - 'translations/messages/**'
+      - 'tools/korean/next-packet.py'
+      - '.github/workflows/korean-next-packet.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: korean-next-packet
+  cancel-in-progress: true
+
+jobs:
+  packet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: translation/section001-batch2
+          fetch-depth: 0
+      - name: Generate next untranslated packet
+        run: |
+          rm -rf /tmp/korean-packet
+          mkdir -p /tmp/korean-packet
+          python3 tools/korean/next-packet.py \
+            --max-records 1500 \
+            --max-bytes 400000 \
+            --out /tmp/korean-packet/current.jsonl \
+            --progress /tmp/korean-packet/progress.json
+      - name: Publish packet to helper branch
+        run: |
+          git fetch origin korean-source-chunks
+          git checkout korean-source-chunks
+          mkdir -p work/korean-packets
+          cp /tmp/korean-packet/current.jsonl work/korean-packets/current.jsonl
+          cp /tmp/korean-packet/progress.json work/korean-packets/progress.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/korean-packets
+          if git diff --cached --quiet; then
+            echo 'Packet unchanged.'
+            exit 0
+          fi
+          git commit -m 'Refresh next Korean translation packet'
+          git push origin HEAD:korean-source-chunks
