@@ -19,10 +19,11 @@ import (
 )
 
 const (
-	jillBtnMemberIndex = 13612
-	jillBtnMemberSize  = 0x18e60
-	pafMemberOffset    = 0x4490
-	retailEBOOTSHA256  = "2a52012be00c07512dcde932ff6e9eb9b96912c59dd5a25c7c26ef821c124d68"
+	jillBtnMemberIndex  = 13612
+	jillBtnMemberSize   = 0x18e60
+	pafMemberOffset     = 0x4490
+	retailEBOOTSHA256   = "2a52012be00c07512dcde932ff6e9eb9b96912c59dd5a25c7c26ef821c124d68"
+	retailBindataSHA256 = "3241fc000f3d52fe8522baaa985fd866e29d64d3a0f23ac4e28b66dee957de3e"
 )
 
 func loadRetailPAF(gameDir string) (*zillfont.PAF, error) {
@@ -149,38 +150,57 @@ func loadAuthenticatedRetailEBOOT(gameDir string) ([]byte, error) {
 	return data, nil
 }
 
-func loadRetailBindata(gameDir string) ([]byte, error) {
+func loadBindataFromArchive(usrdir, archive string) ([]byte, bool, error) {
+	pair, err := paa.Open(filepath.Join(usrdir, archive+".bin"), filepath.Join(usrdir, archive+".arc"))
+	if err != nil {
+		return nil, false, fmt.Errorf("open %s archive: %w", archive, err)
+	}
 	var payload []byte
-	found := ""
-	for _, archive := range []string{"pa", "pami"} {
-		usrdir := filepath.Join(gameDir, "USRDIR")
-		pair, err := paa.Open(filepath.Join(usrdir, archive+".bin"), filepath.Join(usrdir, archive+".arc"))
+	found := false
+	for _, member := range pair.Members() {
+		if member.Name != "data/bindata.dat" {
+			continue
+		}
+		if found {
+			_ = pair.Close()
+			return nil, false, fmt.Errorf("data/bindata.dat appears more than once in %s archive", archive)
+		}
+		payload, err = pair.Payload(member.Index)
 		if err != nil {
-			return nil, fmt.Errorf("open %s archive: %w", archive, err)
+			_ = pair.Close()
+			return nil, false, fmt.Errorf("read %s data/bindata.dat: %w", archive, err)
 		}
-		for _, member := range pair.Members() {
-			if member.Name != "data/bindata.dat" {
-				continue
-			}
-			if found != "" {
-				_ = pair.Close()
-				return nil, fmt.Errorf("data/bindata.dat appears in both %s and %s", found, archive)
-			}
-			payload, err = pair.Payload(member.Index)
-			if err != nil {
-				_ = pair.Close()
-				return nil, fmt.Errorf("read %s data/bindata.dat: %w", archive, err)
-			}
-			found = archive
-		}
-		if err := pair.Close(); err != nil {
-			return nil, fmt.Errorf("close %s archive: %w", archive, err)
+		found = true
+	}
+	if err := pair.Close(); err != nil {
+		return nil, false, fmt.Errorf("close %s archive: %w", archive, err)
+	}
+	return payload, found, nil
+}
+
+func loadRetailBindataWithSHA(gameDir, expectedSHA string) ([]byte, error) {
+	usrdir := filepath.Join(gameDir, "USRDIR")
+	payload, found, err := loadBindataFromArchive(usrdir, "pa")
+	if err != nil {
+		return nil, err
+	}
+	if !found {
+		payload, found, err = loadBindataFromArchive(usrdir, "pami")
+		if err != nil {
+			return nil, err
 		}
 	}
-	if found == "" {
+	if !found {
 		return nil, fmt.Errorf("retail archives do not contain data/bindata.dat")
 	}
+	if got := fmt.Sprintf("%x", sha256.Sum256(payload)); got != expectedSHA {
+		return nil, fmt.Errorf("unsupported retail data/bindata.dat fingerprint %s", got)
+	}
 	return payload, nil
+}
+
+func loadRetailBindata(gameDir string) ([]byte, error) {
+	return loadRetailBindataWithSHA(gameDir, retailBindataSHA256)
 }
 
 func installedReferenceCount(installed []cp932.GlyphKey, used map[cp932.GlyphKey]struct{}) int {
@@ -242,10 +262,12 @@ func runKoreanSlots(root string, args []string, stdout, stderr io.Writer) int {
 		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
 		return 1
 	}
-	// ApplyEquipment is used here as an authentication/source-guard check. The
-	// returned translated copy is intentionally discarded; the audit scans retail.
+	// The SHA-256 pin above authenticates retail bindata.dat. ApplyEquipment
+	// remains a structural consistency check against the canonical fixed table;
+	// the returned translated copy is intentionally discarded because this audit
+	// scans the authenticated retail bytes.
 	if _, err := fixeddata.ApplyEquipment(bindata, equipment); err != nil {
-		fmt.Fprintf(stderr, "zill: korean-slots: authenticate bindata.dat: %v\n", err)
+		fmt.Fprintf(stderr, "zill: korean-slots: validate bindata.dat layout: %v\n", err)
 		return 1
 	}
 	bindataScan, err := slotaudit.ScanCP932Literals(bindata)
