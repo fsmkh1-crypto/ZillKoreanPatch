@@ -107,13 +107,17 @@ korean = "<value:$15>여 답하라"
 	}
 }
 
-func TestSectionFromNameIsStrict(t *testing.T) {
-	for _, name := range []string{"msgsec001.toml", "msgsec278.toml"} {
-		if _, ok := sectionFromName(name); !ok {
-			t.Fatalf("%s rejected", name)
+func TestSectionFromNameAcceptsCanonicalShardsAndRejectsDrift(t *testing.T) {
+	for _, name := range []string{"msgsec001.toml", "msgsec278.toml", "msgsec001-part01.toml", "msgsec001-part99.toml", "msgsec001b.toml"} {
+		section, ok := sectionFromName(name)
+		if !ok || section != map[string]int{"msgsec278.toml": 278}[name] && name == "msgsec278.toml" {
+			t.Fatalf("%s rejected or misparsed: section=%d ok=%v", name, section, ok)
+		}
+		if name != "msgsec278.toml" && section != 1 {
+			t.Fatalf("%s section=%d, want 1", name, section)
 		}
 	}
-	for _, name := range []string{"msgsec1.toml", "msgsec279.toml", "msgsec001.txt", "notes.toml"} {
+	for _, name := range []string{"msgsec1.toml", "msgsec279.toml", "msgsec001-part00.toml", "msgsec001-part1.toml", "msgsec001.txt", "notes.toml"} {
 		if _, ok := sectionFromName(name); ok {
 			t.Fatalf("%s accepted", name)
 		}
