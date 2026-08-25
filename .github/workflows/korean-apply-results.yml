@@ -8,6 +8,7 @@ on:
     paths:
       - 'work/korean-results/*.jsonl'
       - 'tools/korean/apply-results.py'
+      - 'tools/korean/refresh-japanese-refs.py'
       - 'internal/corpus/korean.go'
       - '.github/workflows/korean-apply-results.yml'
 
@@ -36,6 +37,8 @@ jobs:
             exit 0
           fi
           python3 tools/korean/apply-results.py "${files[@]}"
+      - name: Refresh canonical Japanese references
+        run: python3 tools/korean/refresh-japanese-refs.py
       - name: Validate Korean corpus
         run: ./zill korean-check
       - name: Commit generated overlays
