@@ -31,15 +31,25 @@ jobs:
           OUR_HEAD="$(git rev-parse HEAD)"
           UPSTREAM_HEAD="$(git rev-parse FETCH_HEAD)"
 
-          # Build a root tree from the pinned upstream snapshot, while retaining
-          # this one-shot bootstrap workflow. The resulting commit has both the
-          # private repository history and the complete upstream history as parents.
+          # Start from the exact pinned upstream root tree.
           git read-tree --reset -u "$UPSTREAM_HEAD"
-          mkdir -p .github/workflows
-          git show "$OUR_HEAD:.github/workflows/bootstrap-upstream.yml" > .github/workflows/bootstrap-upstream.yml
-          git add .github/workflows/bootstrap-upstream.yml
-          TREE="$(git write-tree)"
 
+          # Overlay Korean-project-owned paths so the bootstrap can safely run
+          # after Android/research work has already landed in this repository.
+          for path in \
+            android-patcher \
+            font-tools \
+            research \
+            tests \
+            .github/workflows/android-extractor.yml \
+            .github/workflows/bootstrap-upstream.yml
+          do
+            if git cat-file -e "$OUR_HEAD:$path" 2>/dev/null; then
+              git checkout "$OUR_HEAD" -- "$path"
+            fi
+          done
+
+          TREE="$(git write-tree)"
           COMMIT="$(printf '%s\n' \
             'Import HK47196/zill upstream history' \
             '' \
