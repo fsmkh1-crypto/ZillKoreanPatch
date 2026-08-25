@@ -735,10 +735,6 @@
 {"section":19,"id":"190356","japanese":"コーンス王<end>"}
 {"section":19,"id":"190361","japanese":"コーンス王<end>"}
 {"section":19,"id":"190366","japanese":"コーンス王<end>"}
-{"section":20,"id":"200014","japanese":"武器装備品<end>"}
-{"section":20,"id":"200015","japanese":"防具装備品<end>"}
-{"section":20,"id":"200016","japanese":"特殊装備品<end>"}
-{"section":20,"id":"200018","japanese":"魔法を選択<end>"}
 {"section":20,"id":"200042","japanese":"ソウル変更<end>"}
 {"section":20,"id":"200052","japanese":"魔法を見る<end>"}
 {"section":20,"id":"200054","japanese":"装備を変更<end>"}
@@ -1608,15 +1604,10 @@
 {"section":19,"id":"190376","japanese":"追い求める者<end>"}
 {"section":19,"id":"190378","japanese":"　４月　４日<end>"}
 {"section":19,"id":"190383","japanese":"　４月　４日<end>"}
-{"section":20,"id":"200010","japanese":"回復アイテム<end>"}
-{"section":20,"id":"200011","japanese":"攻撃アイテム<end>"}
-{"section":20,"id":"200019","japanese":"スキルを選択<end>"}
-{"section":20,"id":"200021","japanese":"ソウルを選択<end>"}
 {"section":20,"id":"200030","japanese":"複合精霊魔法<end>"}
 {"section":20,"id":"200041","japanese":"ポイント配分<end>"}
 {"section":20,"id":"200055","japanese":"スキルを習得<end>"}
 {"section":20,"id":"200083","japanese":"ページ切替２<end>"}
-{"section":20,"id":"200099","japanese":"毒５０％回避<end>"}
 {"section":21,"id":"210006","japanese":"２ページ目へ<end>"}
 {"section":21,"id":"210010","japanese":"空中都市撃沈<end>"}
 {"section":21,"id":"210012","japanese":"３ページ目へ<end>"}
@@ -1998,3 +1989,12 @@
 {"section":110,"id":"1100115","japanese":"<value:$28>か。<end>"}
 {"section":134,"id":"1340466","japanese":"<value:$28>様？<end>"}
 {"section":134,"id":"1340634","japanese":"<value:$28>様！<end>"}
+{"section":134,"id":"1340677","japanese":"<value:$28>様！<end>"}
+{"section":135,"id":"1350071","japanese":"<value:$28>様。<end>"}
+{"section":135,"id":"1350289","japanese":"<value:$28>様！<end>"}
+{"section":135,"id":"1350297","japanese":"<value:$28>様！<end>"}
+{"section":137,"id":"1370272","japanese":"<value:$28>ー！<end>"}
+{"section":137,"id":"1370446","japanese":"<value:$28>か。<end>"}
+{"section":140,"id":"1400090","japanese":"<value:$28>様！<end>"}
+{"section":141,"id":"1410327","japanese":"<value:$28>様！<end>"}
+{"section":159,"id":"1590025","japanese":"<value:$28>ー！<end>"}
