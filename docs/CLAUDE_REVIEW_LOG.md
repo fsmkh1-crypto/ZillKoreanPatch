@@ -1,6 +1,6 @@
 # Claude review log
 
-Last updated: 2026-08-25
+Last updated: 2026-08-26
 
 This file records adversarial review outcomes so later reviews can distinguish already-closed findings from open technical debt. Read it together with `docs/CLAUDE_HANDOFF.md` and `docs/CLAUDE_REVIEW_PROTOCOL.md`.
 
@@ -66,13 +66,9 @@ Affected areas:
 - `internal/message/projection.go`
 - `internal/message/korean_materialize.go`
 
-The stock and Korean paths duplicate substitution counting, printf-signature validation, reserved-markup checks, and materialization control traversal. Current behavior is consistent and covered by tests, so this does not block the first real-sentence PoC. However, future changes could drift if one path is updated without the other.
+The stock and Korean paths duplicated substitution counting, printf-signature validation, reserved-markup checks, and materialization control traversal. This was later refactored so both paths share the projection/control traversal and differ only where Korean renderer-slot encoding is required.
 
-Recommended future direction:
-
-- factor shared validation/control traversal into common helpers while injecting only the natural-text encoder/validator difference.
-
-Status: OPEN NON-BLOCKING TECHNICAL DEBT. Address before large-scale production translation/build work, not before the immediate PoC unless another change touches these duplicated rules.
+Status: CLOSED before continued bulk translation.
 
 ## Review 3 — renderer slot audit
 
@@ -137,36 +133,95 @@ Final gate decision:
 
 `PASS FOR FIRST-SENTENCE POC TEST`
 
-This authorizes empirical PPSSPP testing only. It does not establish production-wide slot safety.
+The subsequent PPSSPP test rendered `테스트 성공` correctly while leaving the following two Japanese lines intact, empirically proving the renderer/message-remap path. The short padded PoC text was horizontally offset, confirming that production layout must use rebuilt message lengths/offsets rather than trailing-space padding.
 
 ### SHOULD-FIX: full startup message member is not SHA-256 pinned
 
-Affected function:
+The PoC Android path guards the selected startup record but does not SHA-256 pin the whole `message/msgsec001.dat` member. This remains relevant only if that narrow in-place PoC pattern is reused; the production compiler is moving toward canonical authenticated bank rebuilding instead.
 
-- `android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FontExtractor.java` — `inspect`
+Status: OPEN NON-BLOCKING POC DEBT; reassess at final production source-authentication gate.
 
-Current behavior:
+## Review 5 — continued bulk Korean translation gate
 
-- `message/msgsec001.dat` is located and its target record is strongly guarded by `StartupMessage.inspect`;
-- unlike BOOT, EBOOT, zillfont, jillbtn and bindata, the full startup message member does not yet have an exact retail SHA-256 pin.
+Claude reviewed the canonical Korean corpus, Python import/refresh pipeline, control-token grammar, Korean semantic/layout ownership, compiler behavior, slot/font planning and representative overlays after roughly 3.3k Korean records had accumulated.
 
-Residual failure mode:
+Returned gate decision:
 
-- a different but structurally compatible retail/modified message bank could theoretically preserve record 7's exact displayed source while differing elsewhere in the member and still pass the record-level guard.
+`BLOCKED`
 
-Direction:
+The decision remains recorded exactly as returned. No second Claude review has been performed. Full findings and remediation details are in `docs/CLAUDE_REVIEW_5.md`.
 
-- obtain the authenticated retail SHA-256 for the whole `message/msgsec001.dat` member;
-- add a `STARTUP_MESSAGE_SOURCE_SHA256` constant and run `validateSourceHash` before `StartupMessage.inspect`;
-- add a regression test that rejects a member with the guarded record preserved but unrelated bytes changed elsewhere.
+### MUST-FIX 1: destructive refresh could delete valid reflowed Korean wording
 
-Status: OPEN SHOULD-FIX, NON-BLOCKING FOR THIS EMPIRICAL POC. Close before this pattern is promoted to the production full-corpus path.
+`tools/korean/refresh-japanese-refs.py` used a stale local control regex and included `<line-break>` in destructive control comparison. Because it runs automatically, a legitimate Korean line-break change could delete the entire translated row.
+
+Resolution:
+
+- refresh now imports shared `fixed_tokens` from `tools/korean/control_tags.py`;
+- `<line-break>` is excluded from destructive fixed-control comparison;
+- `next-packet.py` also imports the shared runtime-control grammar;
+- regression tests cover legitimate Korean reflow and the full fixed-control contract.
+
+Historical audit found that the old logic had removed eight rows in commit `7620fdd36aa141d32a2851657d1e6618b71b269d`. Exact source comparison showed:
+
+- `30000` and `60011`: false-positive removals with unchanged Japanese; safely restored;
+- `30007`, `30017`, `30018`, `30028`, `30029`, `30030`: canonical Japanese had changed; intentionally left for retranslation rather than restoring stale wording.
+
+Recovery commit: `8e246798baf3fcfd4b95af5fcd5ab0476be1f7f2`.
+
+Status: CLOSED.
+
+### MUST-FIX 2: semantic Korean carried legacy Japanese-derived line breaks
+
+Resolution:
+
+- translator-owned `korean` is now required to contain no `<line-break>`;
+- wrapping belongs only to optional build-owned `layout`;
+- Python import/apply paths and Go corpus loading enforce the invariant;
+- legacy semantic line breaks were deterministically migrated to spaces while old visual positions were retained in `layout`;
+- `CompileBankKorean` always compiles semantic text with layout disabled and validates optional layout separately;
+- translation edits invalidate stale layout.
+
+Status: CLOSED.
+
+### SHOULD-FIX: Hangul-boundary reflow
+
+Claude noted that whitespace-only reflow could not wrap an unspaced Korean word.
+
+Resolution:
+
+- semantic/layout comparison now tokenizes plain text at Unicode-rune granularity while keeping controls atomic;
+- generated layout may normalize a whitespace span, replace a whitespace span with a line break, or insert a line break between two adjacent precomposed Hangul syllables;
+- tests reject character/control changes, leading/trailing boundaries and repeated zero-width boundaries.
+
+Fix head: `fc98c5d22de5f44e8833c236074b37f171ffdf9a`.
+
+Status: CLOSED.
+
+### SHOULD-FIX: theoretical color/discard annotation edge
+
+A raw `%c` payload equal to literal `<` or `>` could theoretically produce an emitted `<color:c>` / `<discard:c:$XX>` annotation not matched by the current `[^<>]` recognizer. No such canonical emitted form has been found in repository search.
+
+Status: OPEN NON-BLOCKING ROBUSTNESS ITEM FOR FINAL ISO/CONTROL AUDIT.
+
+### Post-review CI/font state
+
+The source-aware recovery increased the required custom raster set from 931 to 932 runes. CI correctly failed closed on missing `U+AEBE`; the deterministic raster workflow regenerated and validated the catalog, committing `167a9fab788b8a36149983ee95df097297f57715`.
+
+Post-remediation CI at `91a09942ccbdf77c3f2db52324653934d01ef2f7` passed:
+
+- `go test ./...`;
+- `go vet ./...`;
+- Python syntax checks;
+- Python Korean tooling regression tests;
+- `./zill check`;
+- `./zill korean-check`;
+- `./zill korean-font-check`.
+
+Current unique accepted Korean corpus after recovery: 3,304 records; 932 custom renderer glyphs required.
 
 ## Current next review gate
 
-The first-sentence implementation gate has passed. The immediate next milestone is empirical PPSSPP observation of the generated ISO:
+Do not spend another Claude review merely to re-check the just-remediated bulk-translation blockers. Continued translation must obey the enforced invariant: preserve fixed runtime controls in exact order, emit no semantic `<line-break>`, and leave wrapping to build-owned layout.
 
-- expected first line: `테스트 성공`;
-- expected second and third lines: original Japanese, unchanged.
-
-If that observation passes, record the renderer/message-remap PoC as empirically successful and move the next architecture work toward production-safe slot selection, canonical Korean corpus storage/import and full message compilation. The duplicated stock/Korean production projection logic and the startup-message full-member SHA-256 pin remain open non-blocking technical debt until production integration.
+The next high-value adversarial review is the **final integrated Korean ISO/build gate**, covering full production message-bank/font application, source authentication, final renderer-slot safety evidence, layout generation and unchanged-byte/resource guarantees.
