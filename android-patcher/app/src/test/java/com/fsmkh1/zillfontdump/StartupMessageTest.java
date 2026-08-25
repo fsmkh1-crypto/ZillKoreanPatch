@@ -1,5 +1,6 @@
 package com.fsmkh1.zillfontdump;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -8,42 +9,62 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.charset.Charset;
+import java.util.Arrays;
 import org.junit.Test;
 
 public class StartupMessageTest {
     @Test
-    public void acceptsDirectShiftJisDisplayAndBuildsSegmentEdits() throws Exception {
+    public void rewritesOnlyFirstNaturalTextLineAndPreservesControlsAndLaterLines() throws Exception {
         byte[] bank = bankWithRecord(directRecord());
         StartupMessage.Record record = StartupMessage.inspect(ByteBuffer.wrap(bank));
         assertEquals(0x20, record.offset);
         assertEquals(3, record.segments.length);
-        for (StartupMessage.Segment segment : record.segments) {
-            assertTrue(segment.length >= StartupMessage.replacementLineLength());
-        }
+        assertTrue(record.segments[0].length >= StartupMessage.replacementLineLength());
 
+        byte[] original = bank.clone();
         StartupMessage.ByteEdit[] edits = StartupMessage.patchEdits(record);
-        int expectedEdits = 0;
-        for (StartupMessage.Segment segment : record.segments) expectedEdits += segment.length;
-        assertEquals(expectedEdits, edits.length);
-
-        byte[] patched = bank.clone();
+        assertEquals(record.segments[0].length, edits.length);
         for (StartupMessage.ByteEdit edit : edits) {
-            patched[record.offset + edit.relativeOffset] = (byte) edit.value;
+            bank[record.offset + edit.relativeOffset] = (byte) edit.value;
         }
-        for (StartupMessage.Segment segment : record.segments) {
-            int start = segment.offset;
-            assertEquals(0xE1, patched[start] & 0xff);
-            assertEquals(0xA1, patched[start + 1] & 0xff);
-            for (int i = StartupMessage.replacementLineLength(); i < segment.length; i++) {
-                assertEquals(0x20, patched[start + i] & 0xff);
-            }
+
+        StartupMessage.Segment first = record.segments[0];
+        assertEquals(0xE1, bank[first.offset] & 0xff);
+        assertEquals(0xA1, bank[first.offset + 1] & 0xff);
+        for (int i = StartupMessage.replacementLineLength(); i < first.length; i++) {
+            assertEquals(0x20, bank[first.offset + i] & 0xff);
         }
+
+        int firstBreak = first.offset + first.length;
+        assertEquals(10, original[firstBreak] & 0xff);
+        assertEquals(original[firstBreak], bank[firstBreak]);
+
+        StartupMessage.Segment second = record.segments[1];
+        StartupMessage.Segment third = record.segments[2];
+        assertArrayEquals(
+                Arrays.copyOfRange(original, second.offset, second.offset + second.length),
+                Arrays.copyOfRange(bank, second.offset, second.offset + second.length));
+        assertArrayEquals(
+                Arrays.copyOfRange(original, third.offset, third.offset + third.length),
+                Arrays.copyOfRange(bank, third.offset, third.offset + third.length));
+
+        int secondBreak = second.offset + second.length;
+        assertEquals(10, original[secondBreak] & 0xff);
+        assertEquals(original[secondBreak], bank[secondBreak]);
+        int endControl = third.offset + third.length;
+        assertEquals(5, original[endControl] & 0xff);
+        assertEquals(5, original[endControl + 1] & 0xff);
+        assertEquals(5, original[endControl + 2] & 0xff);
+        assertArrayEquals(
+                Arrays.copyOfRange(original, endControl, endControl + 3),
+                Arrays.copyOfRange(bank, endControl, endControl + 3));
     }
 
     @Test
     public void acceptsRendererKanaModeSpellingOfSoul() throws Exception {
         StartupMessage.Record record = StartupMessage.inspect(ByteBuffer.wrap(bankWithRecord(kanaModeRecord())));
         assertEquals(3, record.segments.length);
+        assertTrue(record.segments[0].length >= StartupMessage.replacementLineLength());
     }
 
     @Test(expected = IOException.class)
