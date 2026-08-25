@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Remove stale Korean overlay records whose duplicated Japanese no longer matches canonical.
+"""Quarantine legacy Korean overlay records that no longer validate against canonical.
 
-A Korean translation was produced for the Japanese text stored beside it. If that Japanese
-reference differs from the current canonical source, silently replacing only the Japanese
-field can mislabel an unrelated Korean translation as valid. For bulk work, the safe repair
-is to drop the stale overlay record entirely so the deterministic next-packet flow emits the
-canonical record again for retranslation.
+Historical overlays may contain stale duplicated Japanese text or Korean strings whose
+runtime control-token sequence no longer matches canonical. Silently relabeling such rows
+would be unsafe, so this pre-validation pass removes them entirely. The deterministic
+next-packet flow will then emit those canonical IDs again for retranslation.
 """
 from __future__ import annotations
 
@@ -17,6 +16,11 @@ ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
 FILE_RE = re.compile(r"^msgsec([0-9]{3})")
+TOKEN_RE = re.compile(r"<(?:end|line-break|value:\$[0-9A-Fa-f]+|if|select|less-equal|equal)>")
+
+
+def tokens(text: str) -> list[str]:
+    return TOKEN_RE.findall(text)
 
 
 def load_canonical(section: int) -> dict[str, str]:
@@ -35,8 +39,6 @@ def remove_record(text: str, rid: str, path: Path) -> str:
     start = text.find(header)
     if start < 0:
         raise SystemExit(f"{path}: cannot locate record {rid}")
-    # Include the blank line immediately before a non-first record when present so repeated
-    # cleanup does not accumulate whitespace. Preserve the SPDX/comment preamble.
     cut_start = start
     if cut_start >= 2 and text[cut_start - 2 : cut_start] == "\n\n":
         cut_start -= 1
@@ -59,28 +61,36 @@ def main() -> None:
         with path.open("rb") as f:
             data = tomllib.load(f)
 
-        stale: list[str] = []
+        bad: list[tuple[str, str]] = []
         for rid, rec in data.items():
-            if not isinstance(rec, dict) or rec.get("japanese") is None:
+            if not isinstance(rec, dict):
                 continue
             rid = str(rid)
             expected = canon.get(rid)
             if expected is None:
                 raise SystemExit(f"{path}: overlay ID {rid} does not exist in canonical source")
-            if str(rec["japanese"]) != expected:
-                stale.append(rid)
+            japanese = rec.get("japanese")
+            korean = rec.get("korean")
+            if japanese is None or korean is None or str(korean) == "":
+                bad.append((rid, "missing/empty required field"))
+                continue
+            if str(japanese) != expected:
+                bad.append((rid, "stale Japanese reference"))
+                continue
+            if tokens(expected) != tokens(str(korean)):
+                bad.append((rid, "control-token mismatch"))
 
-        if not stale:
+        if not bad:
             continue
 
         text = path.read_text(encoding="utf-8")
-        for rid in stale:
+        for rid, reason in bad:
             text = remove_record(text, rid, path)
             removed += 1
-            details.append(f"{path.name}:{rid}")
+            details.append(f"{path.name}:{rid} ({reason})")
         path.write_text(text, encoding="utf-8")
 
-    print(f"removed {removed} stale Korean overlay records for retranslation")
+    print(f"removed {removed} invalid legacy Korean overlay records for retranslation")
     for detail in details:
         print(f"  {detail}")
 
