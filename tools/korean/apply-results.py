@@ -6,8 +6,9 @@ Supported input rows:
   {"section":3,"start":30000,"korean":["...","...",...]}
 
 The compact sequential form expands IDs from start and keeps large GPT result
-packets small. Canonical Japanese is always loaded locally and control tokens
-are validated after expansion.
+packets small. Canonical Japanese is always loaded locally. Fixed runtime
+controls are validated after expansion; line breaks are intentionally excluded
+because Korean wrapping is build-owned layout.
 """
 from __future__ import annotations
 
@@ -17,20 +18,17 @@ from pathlib import Path
 import re
 import tomllib
 
+from control_tags import fixed_tokens
+
 ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
-TOKEN_RE = re.compile(r"<(?:end|line-break|value:\$[0-9A-Fa-f]+|if|select|less-equal|equal)>")
 SECTION_RE = re.compile(r"^msgsec(\d{3})")
 AUTO_PART = 99
 
 
 def q(s: str) -> str:
     return json.dumps(s, ensure_ascii=False)
-
-
-def tokens(s: str) -> list[str]:
-    return TOKEN_RE.findall(s)
 
 
 def section_from_path(path: Path) -> int:
@@ -73,10 +71,13 @@ def load_existing() -> tuple[dict[tuple[int, str], str], dict[int, dict[str, dic
             existing[key] = ko
             owners[key] = path
             if path == auto_path(section):
-                auto.setdefault(section, {})[str(rid)] = {
+                saved = {
                     "japanese": str(rec.get("japanese", "")),
                     "korean": ko,
                 }
+                if rec.get("layout"):
+                    saved["layout"] = str(rec["layout"])
+                auto.setdefault(section, {})[str(rid)] = saved
     return existing, auto
 
 
@@ -84,7 +85,10 @@ def render(records: dict[str, dict[str, str]]) -> str:
     out = ["# SPDX-License-Identifier: CC-BY-SA-4.0", ""]
     for rid in sorted(records, key=lambda x: int(x) if x.isdigit() else x):
         rec = records[rid]
-        out += [f"[{q(rid)}]", f"japanese = {q(rec['japanese'])}", f"korean = {q(rec['korean'])}", ""]
+        out += [f"[{q(rid)}]", f"japanese = {q(rec['japanese'])}", f"korean = {q(rec['korean'])}"]
+        if rec.get("layout"):
+            out.append(f"layout = {q(rec['layout'])}")
+        out.append("")
     return "\n".join(out)
 
 
@@ -132,10 +136,10 @@ def main() -> None:
                     if rec is None or "japanese" not in rec:
                         raise SystemExit(f"{input_path}:{lineno}: unknown canonical id {section}/{rid}")
                     ja = str(rec["japanese"])
-                    if tokens(ja) != tokens(ko):
+                    if fixed_tokens(ja) != fixed_tokens(ko):
                         raise SystemExit(
-                            f"{input_path}:{lineno}: control-token mismatch {section}/{rid}: "
-                            f"{tokens(ja)} != {tokens(ko)}"
+                            f"{input_path}:{lineno}: fixed-control mismatch {section}/{rid}: "
+                            f"{fixed_tokens(ja)} != {fixed_tokens(ko)}"
                         )
                     if key in existing:
                         if existing[key] != ko:
