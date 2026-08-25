@@ -1,0 +1,45 @@
+name: Gemini translation batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Zero-based batch number
+        required: true
+        default: "0"
+      count:
+        description: Records per batch (1-150)
+        required: true
+        default: "100"
+  push:
+    paths:
+      - .github/workflows/gemini-batch.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    env:
+      BATCH: ${{ github.event.inputs.batch || '0' }}
+      COUNT: ${{ github.event.inputs.count || '100' }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache: true
+      - name: Export JSONL batch
+        run: |
+          mkdir -p out
+          ./zill gemini-export --batch "$BATCH" --count "$COUNT" --out "out/gemini-batch-${BATCH}.source.jsonl"
+      - name: Validate generated source JSONL is nonempty
+        run: |
+          test -s "out/gemini-batch-${BATCH}.source.jsonl"
+          test "$(wc -l < "out/gemini-batch-${BATCH}.source.jsonl")" -le "$COUNT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gemini-batch-${{ env.BATCH }}
+          path: out/gemini-batch-${{ env.BATCH }}.source.jsonl
+          if-no-files-found: error
