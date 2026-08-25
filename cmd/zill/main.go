@@ -66,7 +66,7 @@ func run(args []string, stdin io.Reader, stdout, stderr io.Writer) int {
 	case "gemini-export":
 		return runGeminiExport(root, args[1:], stdout, stderr)
 	case "gemini-check":
-		return runGeminiCheck(args[1:], stdout, stderr)
+		return runGeminiCheck(root, args[1:], stdout, stderr)
 	case "font-status":
 		return runFontStatus(args[1:], stdout, stderr)
 	case "korean-slots":
