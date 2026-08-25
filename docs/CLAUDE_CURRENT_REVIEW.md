@@ -1,23 +1,14 @@
-# Current Claude review status — first real Korean sentence PoC
+# Current Claude review status — production-path gate pending
 
 Last updated: 2026-08-25
 
-The Android first-sentence implementation review is complete.
+The Android first-sentence implementation review is complete and the empirical PPSSPP test has now passed.
 
-Gate decision:
+Previous gate decision:
 
 `PASS FOR FIRST-SENTENCE POC TEST`
 
-Review details and the remaining non-blocking SHA-256 finding are recorded in:
-
-- `docs/CLAUDE_REVIEW_LOG.md` — Review 4;
-- `research/first-korean-sentence-poc.md`.
-
-## Reviewed empirical behavior
-
-Current `main` intentionally rewrites **only the first natural-text line** of `message/msgsec001.dat` record index 7 / canonical ID 10007.
-
-Expected PPSSPP opening display:
+Observed PPSSPP behavior:
 
 ```text
 테스트 성공
@@ -25,30 +16,37 @@ Expected PPSSPP opening display:
 我が問いに答え、その魂を我に示せ
 ```
 
-The second and third Japanese lines, both native `0x0A` line breaks, and the native `05 05 05` end terminator must remain unchanged.
+The first Korean line rendered correctly and the following two Japanese lines remained intact. The renderer/message-remap PoC is therefore empirically proven for the selected five candidate keys.
 
-The five custom renderer assignments remain PoC candidates only:
+See:
 
-| Korean | PAF key | Raw bytes | Existing PAF cell |
-| --- | --- | --- | --- |
-| 테 | `A1E1` | `E1 A1` | page1 x405 y123 11x12 |
-| 스 | `A1E9` | `E9 A1` | page1 x450 y123 12x11 |
-| 트 | `B8E2` | `E2 B8` | page1 x90 y273 11x11 |
-| 성 | `BBE6` | `E6 BB` | page1 x150 y288 12x11 |
-| 공 | `BFE6` | `E6 BF` | page1 x465 y303 12x11 |
+- `docs/CLAUDE_REVIEW_LOG.md` — Review 4 and subsequent empirical result;
+- `research/first-korean-sentence-poc.md`.
 
-## Open non-blocking finding
+## No immediate Claude review requested
 
-`FontExtractor.inspect` does not yet SHA-256 pin the full retail `message/msgsec001.dat` member. The target record is still strongly guarded by `StartupMessage.inspect`, so Claude did not block this empirical PoC test.
+Do **not** spend another adversarial review on the already-passed PoC unless a regression directly changes that path.
 
-Before the same pattern is promoted to the production full-corpus path:
+The next Claude review should be reserved for the higher-value **integrated production Korean translation path** after GPT has implemented and tested it.
 
-1. obtain the authenticated retail SHA-256 of the full `message/msgsec001.dat` member;
-2. add a startup-message hash constant and `validateSourceHash` call;
-3. add a regression test proving unrelated changes elsewhere in the member are rejected.
+## Work to complete before that review
 
-## Immediate next milestone
+The production-path review should not be requested until the following are substantially implemented:
 
-Generate the PoC ISO with the reviewed Android build and observe it in PPSSPP. If the first line renders `테스트 성공` and the following two Japanese lines remain unchanged, record the renderer/message-remap path as empirically successful.
+1. repository-owned canonical Korean corpus storage/import, with Japanese authoritative source and protected structural controls;
+2. production renderer-slot allocation driven by the actual Korean corpus glyph set rather than the five PoC glyphs;
+3. Korean message compilation connected to the normal build pipeline rather than only the selective PoC API;
+4. production font/atlas materialization for the allocated Korean glyph set;
+5. the duplicated stock/Korean validation/control traversal refactored or otherwise protected against drift;
+6. message-bank source authentication/fail-closed checks suitable for the production patcher;
+7. regression tests covering unchanged controls, replacement-ID consumption, deterministic slot mapping, overflow/capacity failure, and byte-isolation guarantees.
 
-Do not interpret a successful observation as production-wide slot safety, full-corpus capacity or final localization readiness.
+## Remaining known non-blocking debt
+
+- `internal/message/projection.go` and `internal/message/korean_materialize.go` duplicate common validation/control logic. This should be closed before the large translation/build phase.
+- the PoC Android path does not SHA-256 pin the entire retail `message/msgsec001.dat` member. A production-wide patcher must authenticate the source message data it patches or compile from canonical authenticated sources.
+- the 212 renderer slots are audited candidates, not globally production-safe slots; additional resource coverage and/or conservative allocation rules are still needed.
+
+## Next required Claude output
+
+When the integrated production path is ready, replace this document with a focused adversarial review request covering the implementation range and production failure modes. That review will be the gate immediately before starting the large translation batch.
