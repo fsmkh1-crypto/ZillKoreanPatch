@@ -61,7 +61,7 @@ func CompileBank(bank corpus.Bank, items []corpus.Item) ([]byte, error) {
 						return nil, fmt.Errorf("%s: ID %d semantic text: %w", bank.Name, source.ID, err)
 					}
 					if !preservesSemantics(item.Translation.Text, item.Layout) {
-						return nil, fmt.Errorf("%s: ID %d: layout changes semantic/control text; only complete whitespace spans may become line breaks", bank.Name, source.ID)
+						return nil, fmt.Errorf("%s: ID %d: layout changes semantic/control text; line breaks may replace complete whitespace spans or split adjacent Hangul syllables", bank.Name, source.ID)
 					}
 				}
 				text, layout = item.Layout, true
@@ -100,13 +100,17 @@ type semanticUnit struct{ kind, value string }
 
 var annotatedControl = regexp.MustCompile(`<[^<>]+>`)
 
+// semanticUnits tokenizes ordinary text at Unicode-rune granularity while
+// keeping annotated controls atomic. Rune granularity is deliberate: Korean
+// layout may need to wrap inside an unspaced Hangul word without changing the
+// translator-owned semantic string.
 func semanticUnits(text string) []semanticUnit {
 	var units []semanticUnit
 	for len(text) > 0 {
 		if location := annotatedControl.FindStringIndex(text); location != nil && location[0] == 0 {
 			value := text[:location[1]]
 			kind := "literal"
-			if value == "<line-break>" {
+			if value == lineBreak {
 				kind = "boundary"
 			}
 			units = append(units, semanticUnit{kind, value})
@@ -119,40 +123,60 @@ func semanticUnits(text string) []semanticUnit {
 		}
 		plain := text[:end]
 		for len(plain) > 0 {
-			first, _ := utf8.DecodeRuneInString(plain)
-			space := unicode.IsSpace(first)
-			cursor := 0
-			for cursor < len(plain) {
-				r, width := utf8.DecodeRuneInString(plain[cursor:])
-				if unicode.IsSpace(r) != space {
-					break
-				}
-				cursor += width
-			}
+			r, width := utf8.DecodeRuneInString(plain)
 			kind := "literal"
-			if space {
+			if unicode.IsSpace(r) {
 				kind = "whitespace"
 			}
-			units = append(units, semanticUnit{kind, plain[:cursor]})
-			plain = plain[cursor:]
+			units = append(units, semanticUnit{kind, plain[:width]})
+			plain = plain[width:]
 		}
 		text = text[end:]
 	}
 	return units
 }
 
-func preservesSemantics(semantic, layout string) bool {
-	want, got := semanticUnits(semantic), semanticUnits(layout)
-	if len(want) != len(got) {
+func isHangulSyllableUnit(unit semanticUnit) bool {
+	if unit.kind != "literal" {
 		return false
 	}
-	for index := range want {
-		if want[index] == got[index] {
+	r, width := utf8.DecodeRuneInString(unit.value)
+	return width == len(unit.value) && r >= 0xAC00 && r <= 0xD7A3
+}
+
+func preservesSemantics(semantic, layout string) bool {
+	want, got := semanticUnits(semantic), semanticUnits(layout)
+	wantIndex, gotIndex := 0, 0
+	for gotIndex < len(got) {
+		if wantIndex < len(want) && want[wantIndex] == got[gotIndex] {
+			wantIndex++
+			gotIndex++
 			continue
 		}
-		if want[index].kind != "whitespace" || got[index].kind != "whitespace" && got[index] != (semanticUnit{"boundary", lineBreak}) {
+		if got[gotIndex].kind != "boundary" {
 			return false
 		}
+
+		// Existing behavior: a generated line break may replace one complete
+		// semantic whitespace span. Consume the whole span so whitespace length
+		// cannot accidentally leak into semantic equivalence.
+		if wantIndex < len(want) && want[wantIndex].kind == "whitespace" {
+			for wantIndex < len(want) && want[wantIndex].kind == "whitespace" {
+				wantIndex++
+			}
+			gotIndex++
+			continue
+		}
+
+		// Korean-specific reflow: allow a zero-width layout boundary between two
+		// adjacent precomposed Hangul syllables. The boundary consumes no semantic
+		// rune, so insertion/deletion/reordering of text or controls still fails.
+		if wantIndex > 0 && wantIndex < len(want) &&
+			isHangulSyllableUnit(want[wantIndex-1]) && isHangulSyllableUnit(want[wantIndex]) {
+			gotIndex++
+			continue
+		}
+		return false
 	}
-	return true
+	return wantIndex == len(want)
 }
