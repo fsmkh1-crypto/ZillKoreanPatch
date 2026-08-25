@@ -29,6 +29,7 @@ Commands:
 	gemini-check      Validate and normalize a Gemini JSONL result batch
 	font-status       Inspect validated retail font metadata
 	korean-check      Validate canonical Korean overlay and report glyph demand
+	korean-font-check Validate raster catalog coverage for Korean glyphs
 	korean-slots      Plan deterministic renderer slots for current Korean overlay
 	ppsspp-debugger   Control a running PPSSPP instance through JSON Lines
 	trinity-extract   Extract Trinity PS3 English or Japanese text assets
@@ -72,6 +73,8 @@ func run(args []string, stdin io.Reader, stdout, stderr io.Writer) int {
 		return runFontStatus(args[1:], stdout, stderr)
 	case "korean-check":
 		return runKoreanCheck(root, args[1:], stdout, stderr)
+	case "korean-font-check":
+		return runKoreanFontCheck(root, args[1:], stdout, stderr)
 	case "korean-slots":
 		return runKoreanSlotsV2(root, args[1:], stdout, stderr)
 	case "ppsspp-debugger":
