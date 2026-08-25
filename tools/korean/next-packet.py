@@ -1,16 +1,10 @@
 #!/usr/bin/env python3
 """Emit the next untranslated Korean work packet from canonical corpus.
 
-The translated set is derived from checked-in Korean overlays, so resume state
-never depends on a manually maintained cursor. Output is compact JSONL containing
-only section/id/Japanese source. A progress JSON file can be written alongside it.
-
-By default untranslated rows are ordered by encoded JSONL size (shortest first).
-This keeps packet fetches dense for LLM translation while preserving deterministic
-selection, exact IDs, and fully resumable imports. Canonical rows whose Japanese
-source is the empty string are not translatable under the non-empty Korean overlay
-contract, so they are counted separately as blank/skipped and never emitted.
-Use --order canonical to restore strict source order when needed for debugging/review.
+Resume state comes from checked-in Korean overlays. By default untranslated rows
+are ordered by encoded JSONL size (shortest first) to maximize LLM throughput.
+Rows with no visible source text (empty/whitespace or runtime controls only) do
+not require a Korean overlay and are counted separately as skipped.
 """
 from __future__ import annotations
 
@@ -24,6 +18,8 @@ ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
 SECTION_RE = re.compile(r"^msgsec(\d{3})")
+CONTROL_RE = re.compile(r"<(?:end|line-break|value:\$[0-9A-Fa-f]+|if|select|less-equal|equal)>")
+COND_RE = re.compile(r"%\d+")
 
 
 def section_from_path(path: Path) -> int:
@@ -85,6 +81,12 @@ def numeric_id_key(rid: str) -> tuple[int, str]:
         return (2**63 - 1, rid)
 
 
+def has_visible_source_text(text: str) -> bool:
+    rest = CONTROL_RE.sub("", text)
+    rest = COND_RE.sub("", rest)
+    return bool(rest.strip())
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-records", type=int, default=2000)
@@ -103,10 +105,10 @@ def main() -> None:
     if orphaned:
         raise SystemExit(f"Korean overlays contain {len(orphaned)} non-canonical ids; first={orphaned[0]}")
 
-    blank_keys = {(s, rid) for s, rid, ja in canonical if ja == ""}
+    no_text_keys = {(s, rid) for s, rid, ja in canonical if not has_visible_source_text(ja)}
     untranslated = [
         row for row in canonical
-        if (row[0], row[1]) not in translated and row[2] != ""
+        if (row[0], row[1]) not in translated and has_visible_source_text(row[2])
     ]
     if args.order == "shortest":
         untranslated.sort(
@@ -140,16 +142,15 @@ def main() -> None:
         print(payload, end="")
 
     total = len(canonical)
-    blank = len(blank_keys)
-    translated_nonblank = len(translated - blank_keys)
-    done_effective = translated_nonblank + blank
-    remaining_effective = total - done_effective
+    skipped = len(no_text_keys)
+    translated_visible = len(translated - no_text_keys)
+    done_effective = translated_visible + skipped
     progress = {
         "records_total": total,
-        "records_translated": translated_nonblank,
-        "records_blank_skipped": blank,
+        "records_translated": translated_visible,
+        "records_no_text_skipped": skipped,
         "records_done_effective": done_effective,
-        "records_remaining": remaining_effective,
+        "records_remaining": total - done_effective,
         "percent_done": round(done_effective * 100.0 / total, 4) if total else 100.0,
         "packet_order": args.order,
         "packet_records": len(packet),
