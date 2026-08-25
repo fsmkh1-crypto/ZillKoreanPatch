@@ -117,14 +117,56 @@ For the first real-sentence PoC, five candidates were selected and then subjecte
 
 Status: PASS FOR EMPIRICAL POC CANDIDATE USE ONLY. Other UI/script/archive classes remain unaudited and these keys must not yet be described as production-safe or generally reusable.
 
+## Review 4 — first real Korean sentence PoC implementation
+
+Reviewed implementation range: `632421435f2b083f6d4512f9ced336dcb31f2d28` through head `828d38f5e29fe08cc2b2d89c5976b71e2c880502`.
+
+Claude checked the Android PoC implementation against the guarded retail startup record, renderer-key mapping, atlas edit isolation, streaming ISO patch path, source/output handling and regression tests.
+
+Verified points include:
+
+- all five custom message byte pairs map exactly to the intended little-endian PAF renderer keys and documented atlas cells;
+- all five 10x10 rasters fit their selected cells and the cells do not overlap;
+- the first natural-text segment rewrite cannot overwrite either native `0x0A` line break or the `05 05 05` end terminator;
+- later text segments remain byte-identical in the reviewed first-line-only variant;
+- `PoCPatcher.copyAndPatch` preserves ISO size and applies only sorted declared edits, with duplicate and unapplied-edit guards;
+- the app opens the source read-only, re-inspects immediately before writing, uses a separate output URI and deletes partial output on failure;
+- tests independently check later-line/control preservation and global unchanged-byte behavior outside declared edits.
+
+Final gate decision:
+
+`PASS FOR FIRST-SENTENCE POC TEST`
+
+This authorizes empirical PPSSPP testing only. It does not establish production-wide slot safety.
+
+### SHOULD-FIX: full startup message member is not SHA-256 pinned
+
+Affected function:
+
+- `android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FontExtractor.java` — `inspect`
+
+Current behavior:
+
+- `message/msgsec001.dat` is located and its target record is strongly guarded by `StartupMessage.inspect`;
+- unlike BOOT, EBOOT, zillfont, jillbtn and bindata, the full startup message member does not yet have an exact retail SHA-256 pin.
+
+Residual failure mode:
+
+- a different but structurally compatible retail/modified message bank could theoretically preserve record 7's exact displayed source while differing elsewhere in the member and still pass the record-level guard.
+
+Direction:
+
+- obtain the authenticated retail SHA-256 for the whole `message/msgsec001.dat` member;
+- add a `STARTUP_MESSAGE_SOURCE_SHA256` constant and run `validateSourceHash` before `StartupMessage.inspect`;
+- add a regression test that rejects a member with the guarded record preserved but unrelated bytes changed elsewhere.
+
+Status: OPEN SHOULD-FIX, NON-BLOCKING FOR THIS EMPIRICAL POC. Close before this pattern is promoted to the production full-corpus path.
+
 ## Current next review gate
 
-The slot-audit gate has passed for PoC candidate selection. The next required review target is the implementation of the first end-to-end Korean sentence PoC itself:
+The first-sentence implementation gate has passed. The immediate next milestone is empirical PPSSPP observation of the generated ISO:
 
-- guarded recognition of retail `msgsec001` record 7 / ID 10007;
-- preservation of native kana-mode, line-break and end controls;
-- custom renderer-byte remap for `테스트 성공`;
-- five atlas cell replacements using the audited PoC candidates above;
-- streaming ISO copy/patch safety and exact edit boundaries.
+- expected first line: `테스트 성공`;
+- expected second and third lines: original Japanese, unchanged.
 
-The PoC remains unproven until both the implementation review passes and the generated ISO is observed in PPSSPP. The duplicated stock/Korean production projection logic remains open non-blocking technical debt for later production integration.
+If that observation passes, record the renderer/message-remap PoC as empirically successful and move the next architecture work toward production-safe slot selection, canonical Korean corpus storage/import and full message compilation. The duplicated stock/Korean production projection logic and the startup-message full-member SHA-256 pin remain open non-blocking technical debt until production integration.
