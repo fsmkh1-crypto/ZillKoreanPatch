@@ -9,13 +9,15 @@ on:
       - 'cmd/zill/korean_font_generate.go'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-go@v7
         with:
           go-version-file: go.mod
@@ -39,3 +41,17 @@ jobs:
           path: build/korean-glyphs.toml
           if-no-files-found: error
           retention-days: 7
+      - name: Commit generated catalog to translation branch
+        if: github.event_name == 'push' && github.ref_name != 'main'
+        run: |
+          mkdir -p release/korean/font
+          cp build/korean-glyphs.toml release/korean/font/glyphs.toml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add release/korean/font/glyphs.toml
+          if git diff --cached --quiet; then
+            echo 'Raster catalog already current'
+            exit 0
+          fi
+          git commit -m 'Update generated Korean raster catalog'
+          git push origin HEAD:${{ github.ref_name }}
