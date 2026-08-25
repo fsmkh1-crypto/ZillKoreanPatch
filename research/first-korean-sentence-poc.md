@@ -2,7 +2,7 @@
 
 Date: 2026-08-25
 
-Status: implementation under review; PPSSPP observation pending.
+Status: implementation review passed; PPSSPP observation pending.
 
 This PoC is the first test that combines both halves of the intended Korean renderer path:
 
@@ -63,13 +63,15 @@ Contributor display projection:
 汝、無限のソウルを持つ者よ<line-break>我に応ぜよ<line-break>我が問いに答え、その魂を我に示せ<end>
 ```
 
-The PoC replacement is three lines of:
+For the reviewed PoC, only the first displayed line is replaced with:
 
 ```text
 테스트 성공
 ```
 
-Custom renderer bytes for one line:
+The second and third Japanese lines are intentionally left byte-identical. This makes the empirical pass/fail criterion stricter: the custom renderer-key/message-remap path must work for the first line without disturbing the following native text or controls.
+
+Custom renderer bytes for the replacement line:
 
 ```text
 E1 A1 E9 A1 E2 B8 20 E6 BB E6 BF
@@ -77,7 +79,7 @@ E1 A1 E9 A1 E2 B8 20 E6 BB E6 BF
 
 The retail record may contain renderer kana-mode escapes (`ESC K/H/k`) that are hidden by the contributor display projection. The Android guard therefore parses the retail record and verifies its displayed Japanese text and native control structure rather than assuming the visible TOML string is a direct byte-for-byte CP932 encoding.
 
-The two native `0x0A` line breaks and the native `05 05 05` `<end>` terminator are not overwritten. Only each natural-text byte segment is rewritten; unused capacity in the segment is filled with ASCII spaces so the member size and every downstream record offset remain unchanged.
+The two native `0x0A` line breaks and the native `05 05 05` `<end>` terminator are not overwritten. Only the first natural-text byte segment is rewritten; unused capacity in that first segment is filled with ASCII spaces so the member size and every downstream record offset remain unchanged. The second and third natural-text segments remain byte-identical.
 
 ## Glyph rasterization
 
@@ -105,14 +107,20 @@ The v0.6 patcher:
 - requires output size to equal source ISO size;
 - deletes partial output on failure.
 
+Claude's implementation review returned:
+
+`PASS FOR FIRST-SENTENCE POC TEST`
+
+The review also recorded one non-blocking SHOULD-FIX: the full `message/msgsec001.dat` member is not yet SHA-256 pinned. The guarded record parser still fails closed for this PoC target, so the review did not block empirical testing. A full-member retail fingerprint should be added before this pattern is reused as a production-wide translation path.
+
 ## Success criterion
 
-Start a new game in PPSSPP. The opening three-line invocation should render:
+Start a new game in PPSSPP. The opening invocation should render its first line as Korean while the following two lines remain Japanese:
 
 ```text
 테스트 성공
-테스트 성공
-테스트 성공
+我に応ぜよ
+我が問いに答え、その魂を我に示せ
 ```
 
 A successful observation proves, for the selected PoC path:
@@ -120,6 +128,7 @@ A successful observation proves, for the selected PoC path:
 - custom Korean message bytes reach the existing renderer lookup;
 - the chosen PAF keys resolve normally;
 - the matching Korean atlas bitmaps are read from the expected page/cells;
-- message remapping and font replacement work together without globally replacing common Japanese glyphs.
+- message remapping and font replacement work together without globally replacing common Japanese glyphs;
+- later text/control bytes in the same guarded record survive the first-line rewrite unchanged.
 
 It would still not prove production-wide slot safety, full-corpus capacity, final Korean metrics/layout, or whole-game translation correctness.
