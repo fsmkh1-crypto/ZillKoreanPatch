@@ -9,7 +9,7 @@ import (
 	"testing"
 )
 
-func TestLoadKoreanProjectRejectsControlTokenDrift(t *testing.T) {
+func TestLoadKoreanProjectRejectsFixedControlTokenDrift(t *testing.T) {
 	root := t.TempDir()
 	dir := filepath.Join(root, "translations", "korean", "messages")
 	if err := os.MkdirAll(dir, 0o755); err != nil {
@@ -24,23 +24,65 @@ func TestLoadKoreanProjectRejectsControlTokenDrift(t *testing.T) {
 
 ["10007"]
 japanese = "<value:$15>よ<line-break>我に応ぜよ<end>"
-korean = "그대여<line-break>응답하라<end>"
+korean = "그대여 응답하라<end>"
 `)
 	_, _, err := LoadKoreanProject(root, source)
-	if err == nil || !strings.Contains(err.Error(), "control token sequence differs") {
+	if err == nil || !strings.Contains(err.Error(), "fixed control token sequence differs") {
 		t.Fatalf("error = %v", err)
 	}
 }
 
-func TestWithKoreanRejectsControlTokenDrift(t *testing.T) {
+func TestLoadKoreanProjectAllowsLineBreakReflowAndSeparateLayout(t *testing.T) {
+	root := t.TempDir()
+	dir := filepath.Join(root, "translations", "korean", "messages")
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	sourceText := "<value:$15>よ<line-break>我に応ぜよ<end>"
+	source := &Project{
+		Items: []Item{{Record: Record{ID: 10007, Index: 7, Display: sourceText}, Translation: Translation{ID: 10007, Japanese: sourceText}}},
+		byID:  map[int]int{10007: 0},
+	}
+	writeKoreanTestFile(t, dir, "msgsec001-part01.toml", `# SPDX-License-Identifier: CC-BY-SA-4.0
+
+["10007"]
+japanese = "<value:$15>よ<line-break>我に応ぜよ<end>"
+korean = "<value:$15>그대여 응답하라<end>"
+layout = "<value:$15>그대여<line-break>응답하라<end>"
+`)
+	project, _, err := LoadKoreanProject(root, source)
+	if err != nil {
+		t.Fatal(err)
+	}
+	row, ok := project.Find(10007)
+	if !ok || row.Korean != "<value:$15>그대여 응답하라<end>" || row.Layout != "<value:$15>그대여<line-break>응답하라<end>" {
+		t.Fatalf("unexpected row: %#v, ok=%v", row, ok)
+	}
+	layouts := project.Layouts()
+	if layouts[10007] != row.Layout {
+		t.Fatalf("layouts = %#v", layouts)
+	}
+}
+
+func TestWithKoreanRejectsFixedControlTokenDriftAndClearsLayout(t *testing.T) {
 	sourceText := "<value:$15>よ<end>"
 	source := &Project{
 		Items: []Item{{Record: Record{ID: 10007, Index: 7, Display: sourceText}, Translation: Translation{ID: 10007, Japanese: sourceText}}},
 		byID:  map[int]int{10007: 0},
 	}
-	project := &KoreanProject{byID: map[int]int{}}
-	_, err := project.WithKorean(source, 10007, "그대여<end>")
-	if err == nil || !strings.Contains(err.Error(), "control token sequence differs") {
+	project := &KoreanProject{
+		Entries: []KoreanEntry{{ID: 10007, Japanese: sourceText, Korean: "<value:$15>기존<end>", Layout: "<value:$15>기<line-break>존<end>"}},
+		byID:    map[int]int{10007: 0},
+	}
+	if _, err := project.WithKorean(source, 10007, "그대여<end>"); err == nil || !strings.Contains(err.Error(), "fixed control token sequence differs") {
 		t.Fatalf("error = %v", err)
+	}
+	updated, err := project.WithKorean(source, 10007, "<value:$15>그대여<end>")
+	if err != nil {
+		t.Fatal(err)
+	}
+	row, _ := updated.Find(10007)
+	if row.Layout != "" {
+		t.Fatalf("translation edit retained stale layout %q", row.Layout)
 	}
 }
