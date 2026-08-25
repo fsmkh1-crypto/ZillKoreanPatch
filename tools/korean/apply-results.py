@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
 TOKEN_RE = re.compile(r"<(?:end|line-break|value:\$[0-9A-Fa-f]+|if|select|less-equal|equal)>")
+SECTION_RE = re.compile(r"^msgsec(\d{3})")
 
 
 def q(s: str) -> str:
@@ -25,6 +26,13 @@ def q(s: str) -> str:
 
 def tokens(s: str) -> list[str]:
     return TOKEN_RE.findall(s)
+
+
+def section_from_path(path: Path) -> int:
+    match = SECTION_RE.match(path.stem)
+    if not match:
+        raise SystemExit(f"cannot infer section from Korean overlay filename: {path}")
+    return int(match.group(1))
 
 
 def canonical_for(section: int) -> dict[str, dict[str, object]]:
@@ -41,8 +49,7 @@ def load_existing() -> tuple[dict[tuple[int, str], str], dict[int, dict[str, dic
     existing: dict[tuple[int, str], str] = {}
     auto: dict[int, dict[str, dict[str, str]]] = {}
     for path in sorted(KOREAN.glob("msgsec*.toml")):
-        prefix = path.stem.split("-", 1)[0]
-        section = int(prefix.removeprefix("msgsec"))
+        section = section_from_path(path)
         with path.open("rb") as f:
             data = tomllib.load(f)
         for rid, rec in data.items():
