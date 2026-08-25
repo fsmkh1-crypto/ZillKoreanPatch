@@ -7,6 +7,7 @@ import (
 	"io"
 
 	"github.com/HK47196/zill/internal/corpus"
+	"github.com/HK47196/zill/internal/koreancorpus"
 	"github.com/HK47196/zill/internal/koreanslots"
 )
 
@@ -25,6 +26,31 @@ func runKoreanCheck(root string, args []string, stdout, stderr io.Writer) int {
 		fmt.Fprintf(stderr, "zill: korean-check: %v\n", err)
 		return 1
 	}
+
+	// The release/font path still consumes corpus.KoreanProject. Until those
+	// callers are consolidated onto koreancorpus, make the CI-facing checker
+	// pass every non-empty accepted overlay through the stricter loader as well.
+	// This catches fixed-control corruption and loader drift without changing
+	// the proven retail-bank/PPSSPP materialization path.
+	if koreanSummary.Records != 0 {
+		strict, err := koreancorpus.Load(root, source)
+		if err != nil {
+			fmt.Fprintf(stderr, "zill: korean-check: strict corpus validation: %v\n", err)
+			return 1
+		}
+		if len(strict.Records) != len(korean.Entries) {
+			fmt.Fprintf(stderr, "zill: korean-check: loader disagreement: production loader has %d records, strict loader has %d\n", len(korean.Entries), len(strict.Records))
+			return 1
+		}
+		for index, entry := range korean.Entries {
+			record := strict.Records[index]
+			if record.ID != entry.ID || record.Japanese != entry.Japanese || record.Text != entry.Korean {
+				fmt.Fprintf(stderr, "zill: korean-check: loader disagreement at index %d: production ID %d, strict ID %d\n", index, entry.ID, record.ID)
+				return 1
+			}
+		}
+	}
+
 	custom := koreanslots.RequiredCustomRunes(korean.Texts())
 	fmt.Fprintf(stdout,
 		"OK: %d accepted Korean records across %d section files; %d/%d source records covered; %d custom renderer glyphs currently required\n",
