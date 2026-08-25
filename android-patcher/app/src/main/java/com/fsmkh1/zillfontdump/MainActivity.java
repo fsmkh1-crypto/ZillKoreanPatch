@@ -21,11 +21,13 @@ import java.util.concurrent.Executors;
 
 public final class MainActivity extends Activity {
     private static final int PICK_ISO = 1001;
+    private static final int CREATE_AUDIT_ZIP = 1002;
     private static final int CREATE_PATCHED_ISO = 1003;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private TextView status;
     private Button chooseButton;
+    private Button patchButton;
     private Uri sourceUri;
     private FontExtractor.Inspection inspection;
 
@@ -40,23 +42,31 @@ public final class MainActivity extends Activity {
         root.setPadding(pad, pad, pad, pad);
 
         TextView title = new TextView(this);
-        title.setText("Zill Infinite Plus – Korean Font Smoke Test");
+        title.setText("Zill Infinite Plus – Korean Patch Audit");
         title.setTextSize(22);
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\n신규 시작 고정 화면에서 다음 8자를 확인합니다.\nの→가  無→나  我→다  応→라\n答→마  魂→바  示→사  者→아\nPAF 키·BST·메시지 데이터는 수정하지 않고 기존 atlas 셀만 바꿉니다.");
+        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\nISO 선택 후 폰트 + EBOOT + bindata 감사 자료 ZIP을 먼저 저장합니다.\n이 ZIP만 전달하면 재사용 가능한 한글 renderer slot 후보를 좁힐 수 있습니다.\n기존 8글자 smoke ISO 생성 기능도 아래 버튼으로 남겨둡니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
         root.addView(info, infoParams);
 
         chooseButton = new Button(this);
-        chooseButton.setText("원본 ISO 선택");
+        chooseButton.setText("원본 ISO 선택 → 감사 ZIP 추출");
         chooseButton.setOnClickListener(v -> pickIso());
         LinearLayout.LayoutParams buttonParams = new LinearLayout.LayoutParams(-1, -2);
         buttonParams.topMargin = pad;
         root.addView(chooseButton, buttonParams);
+
+        patchButton = new Button(this);
+        patchButton.setText("기존 8글자 smoke ISO 만들기");
+        patchButton.setEnabled(false);
+        patchButton.setOnClickListener(v -> choosePatchedIsoDestination());
+        LinearLayout.LayoutParams patchParams = new LinearLayout.LayoutParams(-1, -2);
+        patchParams.topMargin = pad / 2;
+        root.addView(patchButton, patchParams);
 
         status = new TextView(this);
         status.setText("대기 중");
@@ -82,13 +92,16 @@ public final class MainActivity extends Activity {
         if (requestCode == PICK_ISO) {
             sourceUri = data.getData();
             inspectSelectedIso();
+        } else if (requestCode == CREATE_AUDIT_ZIP) {
+            exportAuditZip(data.getData());
         } else if (requestCode == CREATE_PATCHED_ISO) {
             createPatchedIso(data.getData());
         }
     }
 
     private void inspectSelectedIso() {
-        setBusy(true, "원본 ISO와 폰트 해시 확인 중…");
+        inspection = null;
+        setBusy(true, "원본 ISO, EBOOT, 폰트, bindata 해시 확인 중…");
         Uri uri = sourceUri;
         worker.execute(() -> {
             try (ParcelFileDescriptor pfd = getContentResolver().openFileDescriptor(uri, "r");
@@ -98,19 +111,70 @@ public final class MainActivity extends Activity {
                 FontExtractor.Inspection checked = FontExtractor.inspect(channel);
                 inspection = checked;
                 runOnUiThread(() -> {
-                    setBusy(false, "원본 검증 완료. " + PoCPatcher.glyphCount() + "개 한글 셀 / " +
-                            PoCPatcher.patchByteCount() + " atlas 바이트를 바꾼 새 ISO를 저장합니다.");
+                    setBusy(false, "원본 검증 완료. 감사 자료 ZIP 저장 위치를 선택하세요.");
                     Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
                     out.addCategory(Intent.CATEGORY_OPENABLE);
-                    out.setType("application/octet-stream");
-                    out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_8Glyph_Smoke.iso");
-                    startActivityForResult(out, CREATE_PATCHED_ISO);
+                    out.setType("application/zip");
+                    out.putExtra(Intent.EXTRA_TITLE, "zill-slot-audit-assets-ULJM05410-v103.zip");
+                    startActivityForResult(out, CREATE_AUDIT_ZIP);
                 });
             } catch (Exception e) {
                 inspection = null;
                 runOnUiThread(() -> setBusy(false, "검증 실패: " + message(e)));
             }
         });
+    }
+
+    private void exportAuditZip(Uri outputUri) {
+        if (sourceUri == null || inspection == null) {
+            status.setText("먼저 지원되는 원본 ISO를 선택해야 합니다.");
+            return;
+        }
+        if (sourceUri.equals(outputUri)) {
+            status.setText("원본 ISO와 같은 문서에는 쓸 수 없습니다.");
+            return;
+        }
+        setBusy(true, "감사 자료 추출 중… ISO는 읽기 전용입니다.");
+        Uri inputUri = sourceUri;
+        FontExtractor.Inspection checked = inspection;
+        String sourceName = displayName(inputUri);
+        worker.execute(() -> {
+            boolean success = false;
+            try (ParcelFileDescriptor inPfd = getContentResolver().openFileDescriptor(inputUri, "r");
+                 ParcelFileDescriptor outPfd = getContentResolver().openFileDescriptor(outputUri, "rwt");
+                 FileInputStream in = inPfd == null ? null : new FileInputStream(inPfd.getFileDescriptor());
+                 FileOutputStream out = outPfd == null ? null : new FileOutputStream(outPfd.getFileDescriptor());
+                 FileChannel channel = in == null ? null : in.getChannel()) {
+                if (channel == null || out == null) throw new IllegalStateException("입출력 파일을 열 수 없습니다.");
+                FontExtractor.Inspection fresh = FontExtractor.inspect(channel);
+                if (!fresh.discId.equals(checked.discId) || !fresh.version.equals(checked.version) ||
+                        fresh.isoSize != checked.isoSize) {
+                    throw new IllegalStateException("선택된 ISO가 검증 후 변경되었습니다.");
+                }
+                FontExtractor.export(channel, fresh, out, sourceName);
+                out.flush();
+                success = true;
+                runOnUiThread(() -> setBusy(false,
+                        "감사 ZIP 추출 완료. 이 ZIP만 GPT에 전달하면 됩니다. 원본 ISO는 변경되지 않았습니다."));
+            } catch (Exception e) {
+                final String error = message(e);
+                runOnUiThread(() -> setBusy(false, "감사 자료 추출 실패: " + error));
+            } finally {
+                if (!success) deleteQuietly(outputUri);
+            }
+        });
+    }
+
+    private void choosePatchedIsoDestination() {
+        if (sourceUri == null || inspection == null) {
+            status.setText("먼저 지원되는 원본 ISO를 선택하고 검증해야 합니다.");
+            return;
+        }
+        Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
+        out.addCategory(Intent.CATEGORY_OPENABLE);
+        out.setType("application/octet-stream");
+        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_8Glyph_Smoke.iso");
+        startActivityForResult(out, CREATE_PATCHED_ISO);
     }
 
     private void createPatchedIso(Uri outputUri) {
@@ -146,23 +210,26 @@ public final class MainActivity extends Activity {
                 }
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "완료. PPSSPP에서 신규 게임을 시작해 가/나/다/라/마/바/사/아 8자가 고정 화면에 보이는지 확인하세요."));
+                        "완료. PPSSPP에서 신규 게임을 시작해 가/나/다/라/마/바/사/아 8자를 확인하세요."));
             } catch (Exception e) {
                 final String error = message(e);
                 runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
             } finally {
-                if (!success) {
-                    try {
-                        DocumentsContract.deleteDocument(getContentResolver(), outputUri);
-                    } catch (Exception ignored) {
-                    }
-                }
+                if (!success) deleteQuietly(outputUri);
             }
         });
     }
 
+    private void deleteQuietly(Uri uri) {
+        try {
+            DocumentsContract.deleteDocument(getContentResolver(), uri);
+        } catch (Exception ignored) {
+        }
+    }
+
     private void setBusy(boolean busy, String text) {
         chooseButton.setEnabled(!busy);
+        patchButton.setEnabled(!busy && inspection != null);
         status.setText(text);
     }
 
