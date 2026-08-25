@@ -1,0 +1,16 @@
+{
+  "records_total": 43116,
+  "records_done": 722,
+  "records_remaining": 42394,
+  "percent_done": 1.6746,
+  "packet_records": 1500,
+  "packet_bytes": 88714,
+  "packet_first": {
+    "section": 0,
+    "id": "0"
+  },
+  "packet_last": {
+    "section": 0,
+    "id": "1499"
+  }
+}
