@@ -7,7 +7,6 @@ import (
 	"fmt"
 	"math"
 	"sort"
-	"strings"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/koreanslots"
@@ -22,10 +21,9 @@ type KoreanRecord struct {
 }
 
 // CompileBankKorean compiles only explicitly supplied Korean replacements and
-// copies every other retail record unchanged. It uses the same projection,
-// runtime-control, layout-semantics, and bank-capacity rules as CompileBank,
-// but natural text is validated and encoded with the supplied renderer-slot
-// mapping.
+// copies every other retail record unchanged. Semantic Korean must be layout-free;
+// optional generated Layout may insert line breaks only while preserving all
+// semantic/control text.
 func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[int]KoreanRecord, mapping koreanslots.Mapping) ([]byte, error) {
 	if len(items) != len(bank.Records) {
 		return nil, fmt.Errorf("%s: Korean compilation has %d items for %d source records", bank.Name, len(items), len(bank.Records))
@@ -50,26 +48,20 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		if err != nil {
 			return nil, err
 		}
-		authored := strings.Contains(replacement.Text, lineBreak)
-		text, layout := replacement.Text, authored
-		if replacement.Layout != "" {
-			if authored {
-				if replacement.Layout != replacement.Text {
-					return nil, fmt.Errorf("%s: ID %d: generated Korean layout changes explicitly authored line breaks", bank.Name, source.ID)
-				}
-			} else {
-				if _, err := projection.MaterializeKorean(replacement.Text, false, mapping); err != nil {
-					return nil, fmt.Errorf("%s: ID %d Korean semantic text: %w", bank.Name, source.ID, err)
-				}
-				if !preservesSemantics(replacement.Text, replacement.Layout) {
-					return nil, fmt.Errorf("%s: ID %d: Korean layout changes semantic/control text; only complete whitespace spans may become line breaks", bank.Name, source.ID)
-				}
-			}
-			text, layout = replacement.Layout, true
-		}
-		records[index], err = projection.MaterializeKorean(text, layout, mapping)
+		semantic, err := projection.MaterializeKorean(replacement.Text, false, mapping)
 		if err != nil {
-			return nil, fmt.Errorf("%s: ID %d Korean replacement: %w", bank.Name, source.ID, err)
+			return nil, fmt.Errorf("%s: ID %d Korean semantic text: %w", bank.Name, source.ID, err)
+		}
+		if replacement.Layout == "" {
+			records[index] = semantic
+			continue
+		}
+		if !preservesSemantics(replacement.Text, replacement.Layout) {
+			return nil, fmt.Errorf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID)
+		}
+		records[index], err = projection.MaterializeKorean(replacement.Layout, true, mapping)
+		if err != nil {
+			return nil, fmt.Errorf("%s: ID %d Korean layout: %w", bank.Name, source.ID, err)
 		}
 	}
 	if len(matched) != len(replacements) {
