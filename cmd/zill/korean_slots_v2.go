@@ -93,18 +93,20 @@ func runKoreanSlotsV2(root string, args []string, stdout, stderr io.Writer) int 
 		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
 		return 1
 	}
-	installed := font.DoubleByteKeys()
-	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)
+	installedTwoByte := font.DoubleByteKeys()
+	fontCompatible := font.KoreanCompatibleKeys()
+	plan, err := koreanslots.BuildPlan(texts, fontCompatible, rendererKeySetSlice(reserved), boot, eboot, bindata)
 	if err != nil {
 		fmt.Fprintf(stderr, "zill: korean-slots: plan allocation: %v\n", err)
 		return 1
 	}
 
 	fmt.Fprintf(stdout, "Korean coverage: %d/%d records across %d section files\n", koreanSummary.Records, sourceSummary.Records, koreanSummary.Sections)
-	fmt.Fprintf(stdout, "Installed two-byte slots: %d\n", len(installed))
+	fmt.Fprintf(stdout, "Installed two-byte slots: %d\n", len(installedTwoByte))
+	fmt.Fprintf(stdout, "Font-compatible Korean slots before resource audit: %d\n", len(fontCompatible))
 	fmt.Fprintf(stdout, "Final runtime stock renderer keys required: %d\n", len(plan.RequiredStock))
 	fmt.Fprintf(stdout, "Custom renderer glyphs required: %d\n", len(plan.CustomRunes))
-	fmt.Fprintf(stdout, "Reusable candidates after fixed/structured/exact-byte audit: %d\n", len(plan.Candidates))
+	fmt.Fprintf(stdout, "Reusable candidates after font/fixed/structured/exact-byte audit: %d\n", len(plan.Candidates))
 	fmt.Fprintf(stdout, "Allocated custom mappings: %d\n", len(plan.Mapping))
 	fmt.Fprintln(stdout, "Safety status: DETERMINISTIC AUTHENTICATED PLAN; archive/UI/script resource classes not supplied to this audit remain outside the production-safe claim.")
 	if len(plan.CustomRunes) > 0 {
