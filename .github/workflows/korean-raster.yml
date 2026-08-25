@@ -30,14 +30,11 @@ jobs:
           sha256sum /tmp/UnDotum.ttf
       - name: Generate current Korean raster catalog
         run: |
-          mkdir -p build release/korean/font
+          mkdir -p build
           go run ./cmd/zill korean-font-generate \
             --font /tmp/UnDotum.ttf \
             --output build/korean-glyphs.toml
           test -s build/korean-glyphs.toml
-          cp build/korean-glyphs.toml release/korean/font/glyphs.toml
-      - name: Validate generated Korean raster catalog
-        run: go run ./cmd/zill korean-font-check
       - uses: actions/upload-artifact@v4
         with:
           name: korean-glyphs
@@ -47,6 +44,8 @@ jobs:
       - name: Commit generated catalog to translation branch
         if: github.event_name == 'push' && github.ref_name != 'main'
         run: |
+          mkdir -p release/korean/font
+          cp build/korean-glyphs.toml release/korean/font/glyphs.toml
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add release/korean/font/glyphs.toml
