@@ -1,0 +1,1009 @@
+# SPDX-License-Identifier: CC-BY-SA-4.0
+format = "zill-glossary"
+version = 3
+
+[[entry]]
+japanese = "ソウル"
+english = "Soul"
+scope = "global_surface"
+
+[[entry]]
+japanese = "聖杯"
+english = "Grail"
+scope = "global_surface"
+
+[[entry]]
+japanese = "勇者"
+english = "Hero"
+scope = "global_surface"
+
+[[entry]]
+japanese = "禁断の聖杯"
+english = "Forbidden Grail"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ギルド"
+english = "Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エルフ"
+english = "Elf"
+scope = "global_surface"
+excluded_surfaces = ["エルファス"]
+
+[[entry]]
+japanese = "解放軍"
+english = "Liberation Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "邪竜"
+english = "Evil Dragon"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔物"
+english = "Monster"
+scope = "global_surface"
+
+[[entry]]
+japanese = "無限のソウル"
+english = "Infinite Soul"
+scope = "global_surface"
+
+[[entry]]
+japanese = "円卓騎士"
+english = "Knight of the Round Table"
+scope = "global_surface"
+
+[[entry]]
+japanese = "救世主"
+english = "Savior"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ミズチ"
+english = "Mizuchi"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔王"
+english = "Demon King"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ドワーフ"
+english = "Dwarf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "虚無"
+english = "Void"
+scope = "global_surface"
+
+[[entry]]
+japanese = "空中都市"
+english = "Floating City"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ダークエルフ"
+english = "Dark Elf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "闇の王女"
+english = "Princess of Darkness"
+scope = "global_surface"
+
+[[entry]]
+japanese = "究極生物"
+english = "Ultimate Life-Form"
+scope = "global_surface"
+
+[[entry]]
+japanese = "次元のはざま"
+english = "Interdimensional Rift"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ワッシャー海賊"
+english = "Washer Pirates"
+scope = "global_surface"
+
+[[entry]]
+japanese = "鳳凰"
+english = "Phoenix"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ソウルリープ"
+english = "Soul Leap"
+scope = "global_surface"
+
+[[entry]]
+japanese = "忘却の仮面"
+english = "Mask of Oblivion"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ギア"
+english = "Gea"
+scope = "global_surface"
+
+[[entry]]
+japanese = "伝説のフライパン"
+english = "Legendary Frying Pan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "束縛の腕輪"
+english = "Bracelet of Binding"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ハーフエルフ"
+english = "Half-Elf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レルラのハープ"
+english = "Relra's Harp"
+scope = "global_surface"
+
+[[entry]]
+japanese = "虚無の剣"
+english = "Sword of the Void"
+scope = "global_surface"
+
+[[entry]]
+japanese = "神代"
+english = "Age of the Gods"
+scope = "global_surface"
+
+[[entry]]
+japanese = "妖術宰相"
+english = "Sorcerous Chancellor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "宰相"
+english = "Chancellor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "世界の均衡"
+english = "Balance of the World"
+scope = "global_surface"
+
+[[entry]]
+japanese = "邪眼"
+english = "Evil Eye"
+scope = "global_surface"
+
+[[entry]]
+japanese = "暗闇"
+english = "Blindness"
+scope = "global_surface"
+
+[[entry]]
+japanese = "精霊属性"
+english = "Spirit Attribute"
+scope = "global_surface"
+
+[[entry]]
+japanese = "天空神"
+english = "Sky God"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ユニオンスペル"
+english = "Union Spell"
+scope = "global_surface"
+
+[[entry]]
+japanese = "円卓の騎士"
+english = "Knight of the Round Table"
+scope = "global_surface"
+
+[[entry]]
+japanese = "冒険者ギルド"
+english = "Adventurers' Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "竜王の覚醒"
+english = "Dragon King's Awakening"
+scope = "global_surface"
+
+[[entry]]
+japanese = "朱雀将軍"
+english = "Vermilion Bird General"
+scope = "global_surface"
+
+[[entry]]
+japanese = "邪眼帝"
+english = "Evil-Eyed Emperor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロストール王家"
+english = "Rostorl Royal House"
+scope = "global_surface"
+
+[[entry]]
+japanese = "破壊の化身"
+english = "Embodiment of Destruction"
+scope = "global_surface"
+
+[[entry]]
+japanese = "虚無の子"
+english = "Child of the Void"
+scope = "global_surface"
+
+[[entry]]
+japanese = "破壊神"
+english = "God of Destruction"
+scope = "global_surface"
+
+[[entry]]
+japanese = "剣聖"
+english = "Sword Saint"
+scope = "global_surface"
+
+[[entry]]
+japanese = "竜殺し"
+english = "Dragonslayer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "即死"
+english = "Instant Death"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ＶＩＴ"
+english = "ＶＩＴ"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ＩＮＴ"
+english = "ＩＮＴ"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ＳＴＲ"
+english = "ＳＴＲ"
+scope = "global_surface"
+
+[[entry]]
+japanese = "Ｋｉｎｄ"
+english = "Ｋｉｎｄ"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ＭＩＮ"
+english = "ＭＩＮ"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アドヴェント"
+english = "Advent"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エスケープ"
+english = "Escape"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エンチャント"
+english = "Enchant"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ディテクター"
+english = "Detector"
+scope = "global_surface"
+
+[[entry]]
+japanese = "バニティスペル"
+english = "Vanity Spell"
+scope = "global_surface"
+
+[[entry]]
+japanese = "マヒ"
+english = "Paralysis"
+scope = "global_surface"
+
+[[entry]]
+japanese = "二刀流"
+english = "Dual Wielding"
+scope = "global_surface"
+
+[[entry]]
+japanese = "傭兵登録"
+english = "Mercenary Registration"
+scope = "global_surface"
+
+[[entry]]
+japanese = "素手"
+english = "unarmed"
+scope = "global_surface"
+
+[[entry]]
+japanese = "転送"
+english = "Teleportation"
+scope = "global_surface"
+
+[[entry]]
+japanese = "スリープ"
+english = "Sleep"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ダブルブレード"
+english = "Double Blade"
+scope = "global_surface"
+
+[[entry]]
+japanese = "デモリッシュ"
+english = "Demolish"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ライトアロー"
+english = "Light Arrow"
+scope = "global_surface"
+
+[[entry]]
+japanese = "名声"
+english = "Fame"
+scope = "global_surface"
+
+[[entry]]
+japanese = "地下街道"
+english = "Underground Road"
+scope = "global_surface"
+
+[[entry]]
+japanese = "白虎将軍"
+english = "White Tiger General"
+scope = "global_surface"
+
+[[entry]]
+japanese = "禁呪"
+english = "Forbidden Spell"
+scope = "global_surface"
+
+[[entry]]
+japanese = "遭遇ポイント"
+english = "Encounter Point"
+scope = "global_surface"
+
+[[entry]]
+japanese = "護衛"
+english = "Escort"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ＡＧＩ"
+english = "ＡＧＩ"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ＤＥＸ"
+english = "ＤＥＸ"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アムドゥシアス"
+english = "Amdusias"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アルバレスト"
+english = "Arbalest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ウォーロック"
+english = "Warlock"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エレメンタル・キャパシティ"
+english = "Elemental Capacity"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エレメンタル・ステータス"
+english = "Elemental Status"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オーガ"
+english = "Ogre"
+scope = "global_surface"
+
+[[entry]]
+japanese = "カウンター攻撃"
+english = "counterattack"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ガーゴイル"
+english = "Gargoyle"
+scope = "global_surface"
+
+[[entry]]
+japanese = "キマイラ"
+english = "Chimera"
+scope = "global_surface"
+
+[[entry]]
+japanese = "クリティカル率"
+english = "critical hit rate"
+scope = "global_surface"
+
+[[entry]]
+japanese = "クレリック"
+english = "Cleric"
+scope = "global_surface"
+
+[[entry]]
+japanese = "コカトリス"
+english = "Cockatrice"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゴブリン"
+english = "Goblin"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゴーレム"
+english = "Golem"
+scope = "global_surface"
+
+[[entry]]
+japanese = "サラマンダー"
+english = "Salamander"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シルバードラゴン"
+english = "Silver Dragon"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジラークの乱"
+english = "Zsilak's Rebellion"
+scope = "global_surface"
+
+[[entry]]
+japanese = "スキルポイント"
+english = "Skill Points"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ステータス異常"
+english = "status ailment"
+scope = "global_surface"
+
+[[entry]]
+japanese = "スライム"
+english = "Slime"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ソウルポイント"
+english = "Soul Points"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ディード"
+english = "Deed"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ディードリング"
+english = "Deed Ring"
+scope = "global_surface"
+
+[[entry]]
+japanese = "トリックスター"
+english = "Trickster"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ドラゴン祭り"
+english = "Dragon Festival"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ニルヴァーナ"
+english = "Nirvana"
+scope = "global_surface"
+
+[[entry]]
+japanese = "バリア"
+english = "Barrier"
+scope = "global_surface"
+
+[[entry]]
+japanese = "パトリアーク"
+english = "Patriarch"
+scope = "global_surface"
+
+[[entry]]
+japanese = "パーティー"
+english = "party"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヒットポイント"
+english = "Hit Points"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ピクシー"
+english = "Pixie"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ファーロスの雌狐"
+english = "Vixen of Pharos"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フィジカルパラメータ"
+english = "Physical Parameters"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フェニックス"
+english = "Phoenix"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ブラックバイパー"
+english = "Black Viper"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ブルーフレア"
+english = "Blue Flare"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ホワイトファング"
+english = "White Fang"
+scope = "global_surface"
+
+[[entry]]
+japanese = "マイティブロウ"
+english = "Mighty Blow"
+scope = "global_surface"
+
+[[entry]]
+japanese = "マグマゴーレム"
+english = "Magma Golem"
+scope = "global_surface"
+
+[[entry]]
+japanese = "メンタルポイント"
+english = "Mental Points"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リッチ"
+english = "Lich"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ルーンファイター"
+english = "Rune Fighter"
+scope = "global_surface"
+
+[[entry]]
+japanese = "両手持ち"
+english = "two-handed"
+scope = "global_surface"
+
+[[entry]]
+japanese = "主神"
+english = "Chief God"
+scope = "global_surface"
+
+[[entry]]
+japanese = "人造人間"
+english = "artificial human"
+scope = "global_surface"
+
+[[entry]]
+japanese = "兵器モンスター"
+english = "weaponized monster"
+scope = "global_surface"
+
+[[entry]]
+japanese = "分かたれしもの"
+english = "The Divided One"
+scope = "global_surface"
+
+[[entry]]
+japanese = "剣狼"
+english = "Sword Wolf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "勇敢さ"
+english = "Brave"
+scope = "global_surface"
+
+[[entry]]
+japanese = "命中率"
+english = "accuracy"
+scope = "global_surface"
+
+[[entry]]
+japanese = "四天王"
+english = "Four Heavenly Kings"
+scope = "global_surface"
+
+[[entry]]
+japanese = "土属性"
+english = "Earth element"
+scope = "global_surface"
+
+[[entry]]
+japanese = "大地母神"
+english = "Earth Mother Goddess"
+scope = "global_surface"
+
+[[entry]]
+japanese = "大地神"
+english = "Earth God"
+scope = "global_surface"
+
+[[entry]]
+japanese = "妖刀・月光"
+english = "Demon Blade “Moonlight”"
+scope = "global_surface"
+
+[[entry]]
+japanese = "妖刀月光"
+english = "Demon Blade “Moonlight”"
+scope = "global_surface"
+
+[[entry]]
+japanese = "守護者"
+english = "Guardian"
+scope = "global_surface"
+
+[[entry]]
+japanese = "幻覚状態"
+english = "Hallucination"
+scope = "global_surface"
+
+[[entry]]
+japanese = "忘れられた剣士"
+english = "Forgotten Swordsman"
+scope = "global_surface"
+
+[[entry]]
+japanese = "攻撃アイテム"
+english = "attack item"
+scope = "global_surface"
+
+[[entry]]
+japanese = "攻撃力"
+english = "Attack Power"
+scope = "global_surface"
+
+[[entry]]
+japanese = "槍の主"
+english = "Lord of the Spear"
+scope = "global_surface"
+
+[[entry]]
+japanese = "死の商人"
+english = "Merchant of Death"
+scope = "global_surface"
+
+[[entry]]
+japanese = "水属性"
+english = "Water element"
+scope = "global_surface"
+
+[[entry]]
+japanese = "沈黙"
+english = "Silence"
+scope = "global_surface"
+
+[[entry]]
+japanese = "沈黙状態"
+english = "Silence"
+scope = "global_surface"
+
+[[entry]]
+japanese = "清浄の時代"
+english = "Age of Purity"
+scope = "global_surface"
+
+[[entry]]
+japanese = "火属性"
+english = "Fire element"
+scope = "global_surface"
+
+[[entry]]
+japanese = "火草"
+english = "Firegrass"
+scope = "global_surface"
+
+[[entry]]
+japanese = "炎属性"
+english = "Fire element"
+scope = "global_surface"
+
+[[entry]]
+japanese = "無限のソウルを持つ者"
+english = "Bearer of the Infinite Soul"
+scope = "global_surface"
+
+[[entry]]
+japanese = "無限の魂"
+english = "Infinite Soul"
+scope = "global_surface"
+
+[[entry]]
+japanese = "特殊効果"
+english = "special effect"
+scope = "global_surface"
+
+[[entry]]
+japanese = "獅子帝"
+english = "Lion Emperor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "異常状態"
+english = "status ailment"
+scope = "global_surface"
+
+[[entry]]
+japanese = "白竜騎士"
+english = "White Dragon Knight"
+scope = "global_surface"
+
+[[entry]]
+japanese = "盾"
+english = "shield"
+scope = "global_surface"
+
+[[entry]]
+japanese = "眠り"
+english = "Sleep"
+scope = "global_surface"
+
+[[entry]]
+japanese = "神官戦士"
+english = "priest-warrior"
+scope = "global_surface"
+
+[[entry]]
+japanese = "究極のソウル"
+english = "Ultimate Soul"
+scope = "global_surface"
+
+[[entry]]
+japanese = "経験値"
+english = "experience points (EXP)"
+scope = "global_surface"
+
+[[entry]]
+japanese = "縛られしもの"
+english = "The Bound One"
+scope = "global_surface"
+
+[[entry]]
+japanese = "縛られし者"
+english = "The Bound One"
+scope = "global_surface"
+
+[[entry]]
+japanese = "罠の解除"
+english = "trap disarming"
+scope = "global_surface"
+
+[[entry]]
+japanese = "聖光石"
+english = "Holy Light Stone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "聖剣・日光"
+english = "Holy Sword Sunlight"
+scope = "global_surface"
+
+[[entry]]
+japanese = "聖剣日光"
+english = "Holy Sword Sunlight"
+scope = "global_surface"
+
+[[entry]]
+japanese = "聖属性"
+english = "Holy element"
+scope = "global_surface"
+
+[[entry]]
+japanese = "聖母神"
+english = "Mother Goddess"
+scope = "global_surface"
+
+[[entry]]
+japanese = "英雄ソウル"
+english = "Hero Soul"
+scope = "global_surface"
+
+[[entry]]
+japanese = "装備品"
+english = "equipment"
+scope = "global_surface"
+
+[[entry]]
+japanese = "軍神"
+english = "War God"
+scope = "global_surface"
+
+[[entry]]
+japanese = "軽鎧"
+english = "light armor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "追加効果"
+english = "additional effect"
+scope = "global_surface"
+
+[[entry]]
+japanese = "通常攻撃"
+english = "normal attack"
+scope = "global_surface"
+
+[[entry]]
+japanese = "運命の女神"
+english = "Goddess of Fate"
+scope = "global_surface"
+
+[[entry]]
+japanese = "運命の書"
+english = "Book of Fate"
+scope = "global_surface"
+
+[[entry]]
+japanese = "野生"
+english = "Wild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "闇の王"
+english = "King of Darkness"
+scope = "global_surface"
+
+[[entry]]
+japanese = "闇属性"
+english = "Dark element"
+scope = "global_surface"
+
+[[entry]]
+japanese = "青竜将軍"
+english = "Azure Dragon General"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風属性"
+english = "Wind element"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魂吸いの指輪"
+english = "Soul-Draining Ring"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔法の宝箱"
+english = "Magic Treasure Chest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔法バリア"
+english = "Magic Barrier"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔獣商"
+english = "Monster Merchant"
+scope = "global_surface"
+
+[[entry]]
+japanese = "麻痺"
+english = "Paralysis"
+scope = "global_surface"
+
+[[entry]]
+japanese = "黒鎧騎士"
+english = "Black-Armored Knight"
+scope = "global_surface"
+
+[[entry]]
+japanese = "１２の難事"
+english = "Twelve Labors"
+scope = "global_surface"
+
+[[entry]]
+japanese = "３聖竜"
+english = "Three Sacred Dragons"
+scope = "global_surface"
+
+[[entry]]
+japanese = "４邪竜"
+english = "Four Evil Dragons"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ＨＰ"
+english = "HP"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ＭＰ"
+english = "MP"
+scope = "global_surface"
+
+[[entry]]
+japanese = "錬剛石"
+english = "Tempering Stone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "闇の神器"
+english = "Dark Artifact"
+scope = "global_surface"
+
+[[entry]]
+japanese = "色惑の瞳"
+english = "Eye of Allure"
+scope = "global_surface"
+
+[[entry]]
+japanese = "封士"
+english = "Sealer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "装備属性"
+english = "Spirit Attribute"
+scope = "global_surface"
+
+[[entry]]
+japanese = "人類の革新"
+english = "Humanity's Evolution"
+scope = "global_surface"
+
+[[entry]]
+japanese = "人類革新"
+english = "Humanity's Evolution"
+scope = "global_surface"
+
+[[entry]]
+japanese = "人間の革新"
+english = "Humanity's Evolution"
+scope = "global_surface"
+
+[[entry]]
+japanese = "人の革新"
+english = "Humanity's Evolution"
+scope = "global_surface"

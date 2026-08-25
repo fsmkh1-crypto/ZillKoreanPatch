@@ -1,0 +1,149 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+package fixeddata
+
+import (
+	"bytes"
+	"os"
+	"reflect"
+	"testing"
+
+	"github.com/HK47196/zill/internal/corpus"
+)
+
+func TestAuthoritativeFixedDataParsesWithCompleteCoverage(t *testing.T) {
+	tests := []struct {
+		path  string
+		parse func([]byte) error
+	}{
+		{"../../release/strings/eboot.toml", func(data []byte) error {
+			_, err := ParseEBOOT(data)
+			return err
+		}},
+		{"../../release/strings/equipment.toml", func(data []byte) error {
+			_, err := ParseEquipment(data)
+			return err
+		}},
+	}
+	for _, test := range tests {
+		t.Run(test.path, func(t *testing.T) {
+			data, err := os.ReadFile(test.path)
+			if err != nil {
+				t.Fatal(err)
+			}
+			if err := test.parse(data); err != nil {
+				t.Fatal(err)
+			}
+		})
+	}
+}
+
+func TestApplyFixedDataRejectsUnauthenticatedSourcesWithoutOutput(t *testing.T) {
+	eboot, err := ParseEBOOT(mustRead(t, "../../release/strings/eboot.toml"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if output, err := ApplyEBOOT([]byte("not the retail ELF"), eboot); err == nil || output != nil {
+		t.Fatalf("ApplyEBOOT returned output %x, error %v", output, err)
+	}
+	equipment, err := ParseEquipment(mustRead(t, "../../release/strings/equipment.toml"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if output, err := ApplyEquipment([]byte("not retail bindata"), equipment); err == nil || output != nil {
+		t.Fatalf("ApplyEquipment returned output %x, error %v", output, err)
+	}
+}
+
+func TestParseEBOOTRejectsReplacementBeyondFixedFieldCapacity(t *testing.T) {
+	authority := mustRead(t, "../../release/strings/eboot.toml")
+	authority = bytes.Replace(authority, []byte(`replacement = "Age Tea"`), []byte(`replacement = "This replacement cannot fit"`), 1)
+	if _, err := ParseEBOOT(authority); err == nil {
+		t.Fatal("ParseEBOOT accepted a replacement beyond its source field capacity")
+	}
+}
+
+func TestTerminologySearchIsStableAndRetainsSpellingVariant(t *testing.T) {
+	terms, err := ParseTerminology(
+		mustRead(t, "../../translations/terminology/names.toml"),
+		mustRead(t, "../../translations/terminology/glossary.toml"),
+	)
+	if err != nil {
+		t.Fatal(err)
+	}
+	first := terms.Search("Aqyurius")
+	second := terms.Search("Aqyurius")
+	if !reflect.DeepEqual(first, second) {
+		t.Fatal("identical terminology searches are not stable")
+	}
+	variants := terms.Search("アキュリュ－ス")
+	if len(variants) != 1 || variants[0].Kind != "name" || variants[0].Term.English != "Aqyurius" {
+		t.Fatalf("Aqyurius spelling variant missing from search: %#v", variants)
+	}
+}
+
+func TestTerminologyRejectsExactScopeTranslationMismatch(t *testing.T) {
+	terms := Terminology{Names: []Term{{Japanese: "名前", English: "Name", Scope: "source_records", SourceIDs: []int{7}}}}
+	project := &corpus.Project{Items: []corpus.Item{{
+		Record:      corpus.Record{ID: 7, Display: "名前<end>"},
+		Translation: corpus.Translation{ID: 7, State: corpus.Translated, Text: "Wrong<end>"},
+	}}}
+	if err := terms.Validate(project); err == nil {
+		t.Fatal("Validate accepted an exact-scope name with the wrong translation")
+	}
+}
+
+func TestTerminologyApplicableExcludesOnlyFalseSurfaceMatches(t *testing.T) {
+	terms := Terminology{
+		Names: []Term{
+			{Japanese: "クロン", English: "Kuron", Scope: "global_surface", ExcludedSurfaces: []string{"サイクロン"}},
+			{Japanese: "サイクロン", English: "Cyclone", Scope: "source_records", SourceIDs: []int{7, 8}},
+			{Japanese: "聖光石の廃鉱", English: "Old Holy Light Stone Mine", Scope: "global_surface"},
+		},
+		Glossary: []Term{{Japanese: "聖光石", English: "Holy Light Stone", Scope: "global_surface"}},
+	}
+	tests := []struct {
+		name   string
+		record corpus.Record
+		want   []SearchEntry
+	}{
+		{
+			name:   "embedded false match",
+			record: corpus.Record{ID: 7, Display: "サイクロン<end>"},
+			want:   []SearchEntry{{Kind: "name", Term: terms.Names[1]}},
+		},
+		{
+			name:   "standalone occurrence beside excluded surface",
+			record: corpus.Record{ID: 8, Display: "サイクロンとクロン<end>"},
+			want: []SearchEntry{
+				{Kind: "name", Term: terms.Names[0]},
+				{Kind: "name", Term: terms.Names[1]},
+			},
+		},
+		{
+			name:   "legitimate nested guidance",
+			record: corpus.Record{ID: 9, Display: "聖光石の廃鉱<end>"},
+			want: []SearchEntry{
+				{Kind: "name", Term: terms.Names[2]},
+				{Kind: "glossary", Term: terms.Glossary[0]},
+			},
+		},
+	}
+	for _, test := range tests {
+		t.Run(test.name, func(t *testing.T) {
+			got := terms.Applicable(corpus.Item{Record: test.record})
+			if !reflect.DeepEqual(got, test.want) {
+				t.Fatalf("Applicable() = %#v, want %#v", got, test.want)
+			}
+		})
+	}
+}
+
+func mustRead(t *testing.T, path string) []byte {
+	t.Helper()
+	data, err := os.ReadFile(path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	return data
+}

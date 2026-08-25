@@ -1,0 +1,4839 @@
+# SPDX-License-Identifier: CC-BY-SA-4.0
+format = "zill-names"
+version = 3
+
+[[entry]]
+japanese = "ノエル"
+english = "Noel"
+scope = "global_surface"
+
+[[entry]]
+japanese = "忌の守護者"
+english = "Guardian of the Forbidden"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヴァシュタール"
+english = "Vashtar"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エクリプス"
+english = "Eclipse"
+scope = "global_surface"
+
+[[entry]]
+japanese = "サムスン"
+english = "Samson"
+scope = "global_surface"
+
+[[entry]]
+japanese = "翔王"
+english = "Soaring King"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ドルドラム"
+english = "Doldrum"
+scope = "global_surface"
+
+[[entry]]
+japanese = "バルザー"
+english = "Baltzer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フゴー"
+english = "Hugo"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フゴー夫人"
+english = "Mrs. Hugo"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シャローム"
+english = "Shalom"
+scope = "global_surface"
+
+[[entry]]
+japanese = "改造人間１号"
+english = "Modified Human No. 1"
+scope = "source_records"
+source_ids = [63]
+
+[[entry]]
+japanese = "改造人間２号"
+english = "Modified Human No. 2"
+scope = "source_records"
+source_ids = [64]
+
+[[entry]]
+japanese = "ラドラスの核"
+english = "Core of Ladras"
+scope = "source_records"
+source_ids = [69, 685]
+
+[[entry]]
+japanese = "心の闇"
+english = "Darkness Within"
+scope = "source_records"
+source_ids = [70, 786]
+
+[[entry]]
+japanese = "マノンの腕輪"
+english = "Manon's Bracelet"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エリス"
+english = "Eris"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ケリュネイア"
+english = "Ceryneia"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ネモ"
+english = "Nemo"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヒルダリア"
+english = "Hildaria"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フェルム"
+english = "Ferme"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フレア"
+english = "Flare"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヴァンの父"
+english = "Van's Father"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヴァンの母"
+english = "Van's Mother"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オデビー"
+english = "Odeby"
+scope = "source_records"
+source_ids = [103]
+
+[[entry]]
+japanese = "セバスチャン"
+english = "Sebastian"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ドンパドン"
+english = "Donpadon"
+scope = "source_records"
+source_ids = [115]
+
+[[entry]]
+japanese = "ナロコル"
+english = "Narocor"
+scope = "source_records"
+source_ids = [116]
+
+[[entry]]
+japanese = "ネイト"
+english = "Nate"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フリント"
+english = "Flint"
+scope = "global_surface"
+
+[[entry]]
+japanese = "プレシオーネ"
+english = "Pressione"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ペウダ"
+english = "Peuda"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ボルボラ"
+english = "Bolbora"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ボンガ"
+english = "Bonga"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ボンガ夫人"
+english = "Mrs. Bonga"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロティ"
+english = "Lottie"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ハンナ"
+english = "Hannah"
+scope = "global_surface"
+
+[[entry]]
+japanese = "デルガドの弟子"
+english = "Dergado's Apprentice"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジリオンクリスタル"
+english = "Zillion Crystal"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヒューズ"
+english = "Hughes"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フィア"
+english = "Fia"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ユーリス"
+english = "Julls"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヴァン"
+english = "Van"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オイフェ"
+english = "Aoife"
+scope = "global_surface"
+
+[[entry]]
+japanese = "チャカ"
+english = "Chaka"
+scope = "global_surface"
+
+[[entry]]
+japanese = "デルガド"
+english = "Dergado"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ナッジ"
+english = "Nadge"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ネメア"
+english = "Nemea"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フェティ"
+english = "Fety"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ルルアンタ"
+english = "Lulluantha"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レーグ"
+english = "Reig"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レムオン"
+english = "Lemghon"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レルラ＝ロントン"
+english = "Relra-Lonton"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ベルゼーヴァ"
+english = "Beelzeva"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヴァイライラ"
+english = "Vailaila"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヴィアリアリ"
+english = "Vialiali"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロイ"
+english = "Roy"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジリオン"
+english = "Zillion"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レイヴン"
+english = "Raven"
+scope = "global_surface"
+
+[[entry]]
+japanese = "クリュセイス"
+english = "Khryuseis"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ティアナ"
+english = "Tiana"
+scope = "global_surface"
+
+[[entry]]
+japanese = "カッツ"
+english = "Katz"
+scope = "global_surface"
+
+[[entry]]
+japanese = "冒険者"
+english = "Adventurer"
+scope = "speaker_label"
+source_ids = [189, 314, 910, 911, 912]
+
+[[entry]]
+japanese = "傭兵"
+english = "Mercenary"
+scope = "speaker_label"
+source_ids = [190, 315, 713, 714, 906, 937]
+
+[[entry]]
+japanese = "魔道士"
+english = "Mage"
+scope = "speaker_label"
+source_ids = [191, 721, 722, 1670245]
+
+[[entry]]
+japanese = "吟遊詩人"
+english = "Bard"
+scope = "speaker_label"
+source_ids = [192, 317]
+
+[[entry]]
+japanese = "巡礼者"
+english = "Pilgrim"
+scope = "speaker_label"
+source_ids = [193]
+
+[[entry]]
+japanese = "旅行者"
+english = "Traveler"
+scope = "speaker_label"
+source_ids = [194, 316]
+
+[[entry]]
+japanese = "司祭"
+english = "Priest"
+scope = "speaker_label"
+source_ids = [195]
+
+[[entry]]
+japanese = "士官"
+english = "Officer"
+scope = "speaker_label"
+source_ids = [196]
+
+[[entry]]
+japanese = "政務官"
+english = "Civil Administrator"
+scope = "speaker_label"
+source_ids = [197]
+
+[[entry]]
+japanese = "裁判官"
+english = "Judge"
+scope = "speaker_label"
+source_ids = [198]
+
+[[entry]]
+japanese = "使いの者"
+english = "Messenger"
+scope = "speaker_label"
+source_ids = [199, 313]
+
+[[entry]]
+japanese = "実直な使いの者"
+english = "Upright Messenger"
+scope = "speaker_label"
+source_ids = [200]
+
+[[entry]]
+japanese = "執事"
+english = "Butler"
+scope = "speaker_label"
+source_ids = [201]
+
+[[entry]]
+japanese = "使用人"
+english = "Servant"
+scope = "speaker_label"
+source_ids = [202]
+
+[[entry]]
+japanese = "商人"
+english = "Merchant"
+scope = "speaker_label"
+source_ids = [203, 259]
+
+[[entry]]
+japanese = "料理人"
+english = "Cook"
+scope = "speaker_label"
+source_ids = [204]
+
+[[entry]]
+japanese = "工芸職人"
+english = "Artisan"
+scope = "speaker_label"
+source_ids = [205]
+
+[[entry]]
+japanese = "木彫り職人"
+english = "Woodcarver"
+scope = "speaker_label"
+source_ids = [206]
+
+[[entry]]
+japanese = "鉱山の男"
+english = "Miner"
+scope = "speaker_label"
+source_ids = [207]
+
+[[entry]]
+japanese = "鍛冶屋の弟子"
+english = "Blacksmith's Apprentice"
+scope = "speaker_label"
+source_ids = [208]
+
+[[entry]]
+japanese = "鍛冶屋の親方"
+english = "Master Blacksmith"
+scope = "speaker_label"
+source_ids = [209]
+
+[[entry]]
+japanese = "鍛冶屋の店員"
+english = "Blacksmith's Shop Clerk"
+scope = "speaker_label"
+source_ids = [210]
+
+[[entry]]
+japanese = "道具屋の店員"
+english = "Item Shop Clerk"
+scope = "speaker_label"
+source_ids = [211]
+
+[[entry]]
+japanese = "道具屋の配達人"
+english = "Item Shop Courier"
+scope = "speaker_label"
+source_ids = [212]
+
+[[entry]]
+japanese = "酒場の店員"
+english = "Tavern Worker"
+scope = "speaker_label"
+source_ids = [213]
+
+[[entry]]
+japanese = "交渉人"
+english = "Negotiator"
+scope = "speaker_label"
+source_ids = [214]
+
+[[entry]]
+japanese = "賓客"
+english = "Guest of Honor"
+scope = "speaker_label"
+source_ids = [215]
+
+[[entry]]
+japanese = "青年"
+english = "Young Man"
+scope = "speaker_label"
+source_ids = [216]
+
+[[entry]]
+japanese = "学生"
+english = "Student"
+scope = "speaker_label"
+source_ids = [217]
+
+[[entry]]
+japanese = "農場の男"
+english = "Farmhand"
+scope = "speaker_label"
+source_ids = [218]
+
+[[entry]]
+japanese = "自警団員"
+english = "Vigilante"
+scope = "speaker_label"
+source_ids = [219]
+
+[[entry]]
+japanese = "代表"
+english = "Representative"
+scope = "speaker_label"
+source_ids = [220]
+
+[[entry]]
+japanese = "船員"
+english = "Sailor"
+scope = "speaker_label"
+source_ids = [221]
+
+[[entry]]
+japanese = "修道女"
+english = "Nun"
+scope = "speaker_label"
+source_ids = [222]
+
+[[entry]]
+japanese = "哀愁の吟遊詩人"
+english = "Melancholy Bard"
+scope = "speaker_label"
+source_ids = [223]
+
+[[entry]]
+japanese = "若い娘"
+english = "Young Woman"
+scope = "speaker_label"
+source_ids = [224]
+
+[[entry]]
+japanese = "謎の魔道士"
+english = "Mysterious Mage"
+scope = "speaker_label"
+source_ids = [225]
+
+[[entry]]
+japanese = "道具屋の見習い"
+english = "Apprentice Item Shop Clerk"
+scope = "speaker_label"
+source_ids = [226]
+
+[[entry]]
+japanese = "酒場の見習い"
+english = "Tavern Apprentice"
+scope = "speaker_label"
+source_ids = [227]
+
+[[entry]]
+japanese = "キャラバン隊の男"
+english = "Male Caravan Member"
+scope = "speaker_label"
+source_ids = [229]
+
+[[entry]]
+japanese = "キャラバン隊の若者"
+english = "Young Caravan Member"
+scope = "speaker_label"
+source_ids = [230]
+
+[[entry]]
+japanese = "キャラバン隊の女"
+english = "Female Caravan Member"
+scope = "speaker_label"
+source_ids = [231]
+
+[[entry]]
+japanese = "キャラバン隊の娘"
+english = "Caravan Girl"
+scope = "speaker_label"
+source_ids = [232]
+
+[[entry]]
+japanese = "ならず者"
+english = "Ruffian"
+scope = "speaker_label"
+source_ids = [233]
+
+[[entry]]
+japanese = "頬に傷あるならず者"
+english = "Scar-Cheeked Ruffian"
+scope = "speaker_label"
+source_ids = [234]
+
+[[entry]]
+japanese = "凶悪そうな顔の男"
+english = "Menacing-Looking Man"
+scope = "speaker_label"
+source_ids = [235]
+
+[[entry]]
+japanese = "裏切りそうな男"
+english = "Untrustworthy-Looking Man"
+scope = "speaker_label"
+source_ids = [236]
+
+[[entry]]
+japanese = "キツネ目のならず者"
+english = "Fox-Eyed Ruffian"
+scope = "speaker_label"
+source_ids = [237]
+
+[[entry]]
+japanese = "眉毛の太いならず者"
+english = "Thick-Browed Ruffian"
+scope = "speaker_label"
+source_ids = [238]
+
+[[entry]]
+japanese = "町の少年"
+english = "Town Youth"
+scope = "speaker_label"
+source_ids = [239]
+
+[[entry]]
+japanese = "町の男の子"
+english = "Town Boy"
+scope = "speaker_label"
+source_ids = [240]
+
+[[entry]]
+japanese = "町の少女"
+english = "Town Maiden"
+scope = "speaker_label"
+source_ids = [241]
+
+[[entry]]
+japanese = "町の女の子"
+english = "Town Little Girl"
+scope = "speaker_label"
+source_ids = [242]
+
+[[entry]]
+japanese = "町の男"
+english = "Townsman"
+scope = "speaker_label"
+source_ids = [243]
+
+[[entry]]
+japanese = "町の青年"
+english = "Young Townsman"
+scope = "speaker_label"
+source_ids = [244]
+
+[[entry]]
+japanese = "町の女"
+english = "Townswoman"
+scope = "speaker_label"
+source_ids = [245]
+
+[[entry]]
+japanese = "町娘"
+english = "Town Girl"
+scope = "speaker_label"
+source_ids = [246]
+
+[[entry]]
+japanese = "町の老人"
+english = "Elderly Townsman"
+scope = "speaker_label"
+source_ids = [247]
+
+[[entry]]
+japanese = "町のお爺さん"
+english = "Old Townsman"
+scope = "speaker_label"
+source_ids = [248]
+
+[[entry]]
+japanese = "町の老女"
+english = "Elderly Townswoman"
+scope = "speaker_label"
+source_ids = [249]
+
+[[entry]]
+japanese = "町のお婆さん"
+english = "Old Townswoman"
+scope = "speaker_label"
+source_ids = [250]
+
+[[entry]]
+japanese = "侍女"
+english = "Lady-in-Waiting"
+scope = "speaker_label"
+source_ids = [251]
+
+[[entry]]
+japanese = "やさしそうな侍女"
+english = "Gentle-Looking Maidservant"
+scope = "speaker_label"
+source_ids = [252]
+
+[[entry]]
+japanese = "衛兵"
+english = "Guard"
+scope = "speaker_label"
+source_ids = [253]
+
+[[entry]]
+japanese = "強そうな衛兵"
+english = "Strong-Looking Guard"
+scope = "speaker_label"
+source_ids = [254]
+
+[[entry]]
+japanese = "ノヴィンの副官"
+english = "Novin's Adjutant"
+scope = "speaker_label"
+source_ids = [255]
+
+[[entry]]
+japanese = "竜騎士"
+english = "Dragon Knight"
+scope = "speaker_label"
+source_ids = [256, 711, 712]
+
+[[entry]]
+japanese = "ガーゴイルもどき"
+english = "Faux Gargoyle"
+scope = "speaker_label"
+source_ids = [257]
+
+[[entry]]
+japanese = "ギルドの助手"
+english = "Guild Assistant"
+scope = "speaker_label"
+source_ids = [258]
+
+[[entry]]
+japanese = "若い商人"
+english = "Young Merchant"
+scope = "speaker_label"
+source_ids = [260]
+
+[[entry]]
+japanese = "大商人"
+english = "Merchant Magnate"
+scope = "speaker_label"
+source_ids = [261]
+
+[[entry]]
+japanese = "闘技場の案内係"
+english = "Arena Guide"
+scope = "speaker_label"
+source_ids = [262]
+
+[[entry]]
+japanese = "きれいなお姉さん"
+english = "Pretty Young Woman"
+scope = "speaker_label"
+source_ids = [263]
+
+[[entry]]
+japanese = "農場働きの男"
+english = "Farm Laborer"
+scope = "speaker_label"
+source_ids = [264]
+
+[[entry]]
+japanese = "長老"
+english = "Elder"
+scope = "speaker_label"
+source_ids = [265]
+
+[[entry]]
+japanese = "きまじめな長老"
+english = "Earnest Elder"
+scope = "speaker_label"
+source_ids = [266]
+
+[[entry]]
+japanese = "がんこそうな長老"
+english = "Stubborn-Looking Elder"
+scope = "speaker_label"
+source_ids = [267]
+
+[[entry]]
+japanese = "一般兵"
+english = "Regular Soldier"
+scope = "speaker_label"
+source_ids = [268]
+
+[[entry]]
+japanese = "若い兵士"
+english = "Young Soldier"
+scope = "speaker_label"
+source_ids = [269]
+
+[[entry]]
+japanese = "ベテラン兵士"
+english = "Veteran Soldier"
+scope = "speaker_label"
+source_ids = [270]
+
+[[entry]]
+japanese = "熟年兵士"
+english = "Middle-Aged Soldier"
+scope = "speaker_label"
+source_ids = [271]
+
+[[entry]]
+japanese = "たくましい若者"
+english = "Robust Young Man"
+scope = "speaker_label"
+source_ids = [272]
+
+[[entry]]
+japanese = "黒鎧騎士"
+english = "Black-Armored Knight"
+scope = "speaker_label"
+source_ids = [273, 704, 705, 706]
+
+[[entry]]
+japanese = "やさしい黒鎧騎士"
+english = "Kind Black-Armored Knight"
+scope = "speaker_label"
+source_ids = [274]
+
+[[entry]]
+japanese = "やる気の黒鎧騎士"
+english = "Eager Black-Armored Knight"
+scope = "speaker_label"
+source_ids = [275]
+
+[[entry]]
+japanese = "力自慢の黒鎧騎士"
+english = "Brawny Black-Armored Knight"
+scope = "speaker_label"
+source_ids = [276]
+
+[[entry]]
+japanese = "足の速い竜騎士"
+english = "Swift Dragon Knight"
+scope = "speaker_label"
+source_ids = [277]
+
+[[entry]]
+japanese = "短気な竜騎士"
+english = "Hotheaded Dragon Knight"
+scope = "speaker_label"
+source_ids = [278]
+
+[[entry]]
+japanese = "高貴な竜騎士"
+english = "Noble Dragon Knight"
+scope = "speaker_label"
+source_ids = [279]
+
+[[entry]]
+japanese = "ディンガル歩兵"
+english = "Dyneskal Infantryman"
+scope = "speaker_label"
+source_ids = [280]
+
+[[entry]]
+japanese = "ディンガル兵長"
+english = "Dyneskal Sergeant"
+scope = "speaker_label"
+source_ids = [281]
+
+[[entry]]
+japanese = "ディンガル突撃兵"
+english = "Dyneskal Shock Trooper"
+scope = "speaker_label"
+source_ids = [282]
+
+[[entry]]
+japanese = "ロストール歩兵"
+english = "Rostorl Infantryman"
+scope = "speaker_label"
+source_ids = [283]
+
+[[entry]]
+japanese = "ロストール兵長"
+english = "Rostorl Sergeant"
+scope = "speaker_label"
+source_ids = [284]
+
+[[entry]]
+japanese = "ロストール突撃兵"
+english = "Rostorl Shock Trooper"
+scope = "speaker_label"
+source_ids = [285]
+
+[[entry]]
+japanese = "顔の見えない男"
+english = "Faceless Man"
+scope = "speaker_label"
+source_ids = [286]
+
+[[entry]]
+japanese = "茶装束の人"
+english = "Brown-Clad Figure"
+scope = "speaker_label"
+source_ids = [287]
+
+[[entry]]
+japanese = "賢そうなコーンス"
+english = "Intelligent-Looking Konsu"
+scope = "speaker_label"
+source_ids = [288]
+
+[[entry]]
+japanese = "弱気なコーンス"
+english = "Timid Konsu"
+scope = "speaker_label"
+source_ids = [289]
+
+[[entry]]
+japanese = "腕ききコーンス"
+english = "Skilled Konsu"
+scope = "speaker_label"
+source_ids = [290]
+
+[[entry]]
+japanese = "偉そうな神官"
+english = "Pompous Priest"
+scope = "speaker_label"
+source_ids = [291]
+
+[[entry]]
+japanese = "高位の神官"
+english = "High-Ranking Priest"
+scope = "speaker_label"
+source_ids = [292]
+
+[[entry]]
+japanese = "やさしい神官"
+english = "Kind Priest"
+scope = "speaker_label"
+source_ids = [293]
+
+[[entry]]
+japanese = "気弱な巫女"
+english = "Timid Priestess"
+scope = "speaker_label"
+source_ids = [294]
+
+[[entry]]
+japanese = "まじめな巫女"
+english = "Diligent Priestess"
+scope = "speaker_label"
+source_ids = [295]
+
+[[entry]]
+japanese = "強気の巫女"
+english = "Strong-Willed Priestess"
+scope = "speaker_label"
+source_ids = [296]
+
+[[entry]]
+japanese = "黒装束の男"
+english = "Black-Clad Man"
+scope = "speaker_label"
+source_ids = [297]
+
+[[entry]]
+japanese = "黒い暗殺者"
+english = "Black Assassin"
+scope = "speaker_label"
+source_ids = [298]
+
+[[entry]]
+japanese = "暗やみに隠れた男"
+english = "Man Hidden in the Dark"
+scope = "speaker_label"
+source_ids = [299]
+
+[[entry]]
+japanese = "黒ずくめの男"
+english = "Man in Black"
+scope = "speaker_label"
+source_ids = [300]
+
+[[entry]]
+japanese = "黒い１つ目"
+english = "Black One-Eye"
+scope = "speaker_label"
+source_ids = [301]
+
+[[entry]]
+japanese = "告死天使"
+english = "Death-Heralding Angel"
+scope = "speaker_label"
+source_ids = [302, 865, 866]
+
+[[entry]]
+japanese = "金持ち貴族"
+english = "Wealthy Noble"
+scope = "speaker_label"
+source_ids = [303]
+
+[[entry]]
+japanese = "下級貴族"
+english = "Minor Noble"
+scope = "speaker_label"
+source_ids = [304]
+
+[[entry]]
+japanese = "貴族"
+english = "Noble"
+scope = "speaker_label"
+source_ids = [305]
+
+[[entry]]
+japanese = "親思いの兵士"
+english = "Filial Soldier"
+scope = "speaker_label"
+source_ids = [306]
+
+[[entry]]
+japanese = "腕利き兵士"
+english = "Skilled Soldier"
+scope = "speaker_label"
+source_ids = [307]
+
+[[entry]]
+japanese = "勇気ある兵士"
+english = "Brave Soldier"
+scope = "speaker_label"
+source_ids = [308]
+
+[[entry]]
+japanese = "やる気の兵士"
+english = "Eager Soldier"
+scope = "speaker_label"
+source_ids = [309]
+
+[[entry]]
+japanese = "ソウルイーター"
+english = "Soul Eater"
+scope = "global_surface"
+
+[[entry]]
+japanese = "タルテュバの怪物"
+english = "Tartuba's Monster"
+scope = "speaker_label"
+source_ids = [311, 782]
+
+[[entry]]
+japanese = "典礼官"
+english = "Liturgical Officer"
+scope = "speaker_label"
+source_ids = [312]
+
+[[entry]]
+japanese = "酒場の看板娘"
+english = "Tavern Hostess"
+scope = "speaker_label"
+source_ids = [318]
+
+[[entry]]
+japanese = "老魔道士"
+english = "Old Mage"
+scope = "speaker_label"
+source_ids = [319]
+
+[[entry]]
+japanese = "女魔道士"
+english = "Female Mage"
+scope = "speaker_label"
+source_ids = [320, 723, 724]
+
+[[entry]]
+japanese = "見習い魔道士"
+english = "Apprentice Mage"
+scope = "speaker_label"
+source_ids = [321]
+
+[[entry]]
+japanese = "宿屋の女の子"
+english = "Inn Girl"
+scope = "speaker_label"
+source_ids = [322]
+
+[[entry]]
+japanese = "天経院神官"
+english = "Tenkeiin Priest"
+scope = "speaker_label"
+source_ids = [323]
+
+[[entry]]
+japanese = "ディンガル官憲"
+english = "Dyneskal Constable"
+scope = "speaker_label"
+source_ids = [324]
+
+[[entry]]
+japanese = "解放軍同志"
+english = "Liberation Army Comrade"
+scope = "speaker_label"
+source_ids = [325]
+
+[[entry]]
+japanese = "ディンガル士官"
+english = "Dyneskal Officer"
+scope = "speaker_label"
+source_ids = [326, 697, 698, 699]
+
+[[entry]]
+japanese = "スペクター"
+english = "Specter"
+scope = "speaker_label"
+source_ids = [327, 645]
+
+[[entry]]
+japanese = "ウルフ"
+english = "Wolf"
+scope = "speaker_label"
+source_ids = [328, 329, 587]
+
+[[entry]]
+japanese = "スラムの青年"
+english = "Slum Youth"
+scope = "speaker_label"
+source_ids = [330]
+
+[[entry]]
+japanese = "うっかり者の冒険者"
+english = "Careless Adventurer"
+scope = "speaker_label"
+source_ids = [331]
+
+[[entry]]
+japanese = "切れ者冒険者"
+english = "Sharp-Witted Adventurer"
+scope = "speaker_label"
+source_ids = [332]
+
+[[entry]]
+japanese = "実は美男子の冒険者"
+english = "Truly Handsome Adventurer"
+scope = "speaker_label"
+source_ids = [333]
+
+[[entry]]
+japanese = "副官"
+english = "Adjutant"
+scope = "speaker_label"
+source_ids = [334]
+
+[[entry]]
+japanese = "デスギガース"
+english = "Death Gigas"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ティラの娘"
+english = "Tiera's Daughter"
+scope = "speaker_label"
+source_ids = [336, 337, 338, 339, 340, 341, 342, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 935]
+
+[[entry]]
+japanese = "貴族の少女"
+english = "Noble Girl"
+scope = "speaker_label"
+source_ids = [343]
+
+[[entry]]
+japanese = "ハンナの母親"
+english = "Hannah's Mother"
+scope = "speaker_label"
+source_ids = [344]
+
+[[entry]]
+japanese = "細い目をした盗賊"
+english = "Narrow-Eyed Bandit"
+scope = "speaker_label"
+source_ids = [345]
+
+[[entry]]
+japanese = "人さらいのお頭"
+english = "Kidnapper Chief"
+scope = "speaker_label"
+source_ids = [346]
+
+[[entry]]
+japanese = "落ちつきない盗賊"
+english = "Restless Bandit"
+scope = "speaker_label"
+source_ids = [347]
+
+[[entry]]
+japanese = "船長"
+english = "Captain"
+scope = "speaker_label"
+source_ids = [348]
+
+[[entry]]
+japanese = "シャリの怪物"
+english = "Shalli's Monster"
+scope = "speaker_label"
+source_ids = [349]
+
+[[entry]]
+japanese = "大イカ"
+english = "Giant Squid"
+scope = "speaker_label"
+source_ids = [350, 789]
+
+[[entry]]
+japanese = "水の神殿の神官長"
+english = "Water Temple Chief Priest"
+scope = "speaker_label"
+source_ids = [351]
+
+[[entry]]
+japanese = "水の神殿の神官"
+english = "Water Temple Priest"
+scope = "speaker_label"
+source_ids = [352]
+
+[[entry]]
+japanese = "ドワーフ兵"
+english = "Dwarf Soldier"
+scope = "speaker_label"
+source_ids = [353, 354]
+
+[[entry]]
+japanese = "力自慢の山賊"
+english = "Strongman Bandit"
+scope = "speaker_label"
+source_ids = [355]
+
+[[entry]]
+japanese = "恐ろしい山賊"
+english = "Fearsome Bandit"
+scope = "speaker_label"
+source_ids = [356]
+
+[[entry]]
+japanese = "若い解放軍同志"
+english = "Young Liberation Comrade"
+scope = "speaker_label"
+source_ids = [357]
+
+[[entry]]
+japanese = "元商人の解放軍同志"
+english = "Liberation Army Ex-Merchant"
+scope = "speaker_label"
+source_ids = [358]
+
+[[entry]]
+japanese = "闘技場の下働き"
+english = "Arena Laborer"
+scope = "speaker_label"
+source_ids = [359]
+
+[[entry]]
+japanese = "暗殺者"
+english = "Assassin"
+scope = "speaker_label"
+source_ids = [360, 907, 909]
+
+[[entry]]
+japanese = "官憲"
+english = "Constable"
+scope = "speaker_label"
+source_ids = [363]
+
+[[entry]]
+japanese = "ペウダの怪物"
+english = "Peuda's Monster"
+scope = "speaker_label"
+source_ids = [365, 784]
+
+[[entry]]
+japanese = "レムゲドン"
+english = "Lemgedon"
+scope = "speaker_label"
+source_ids = [366, 688]
+
+[[entry]]
+japanese = "デヴィル"
+english = "Devil"
+scope = "speaker_label"
+source_ids = [367, 615, 821]
+
+[[entry]]
+japanese = "魔道具屋"
+english = "Magic-Item Dealer"
+scope = "speaker_label"
+source_ids = [368]
+
+[[entry]]
+japanese = "マンティコア"
+english = "Manticore"
+scope = "speaker_label"
+source_ids = [369, 678]
+
+[[entry]]
+japanese = "仮面の騎士"
+english = "Masked Knight"
+scope = "speaker_label"
+source_ids = [370]
+
+[[entry]]
+japanese = "馬"
+english = "Horse"
+scope = "speaker_label"
+source_ids = [371]
+
+[[entry]]
+japanese = "軍馬"
+english = "Warhorse"
+scope = "speaker_label"
+source_ids = [372, 373]
+
+[[entry]]
+japanese = "レルラ＝ロントンの弟子"
+english = "Relra-Lonton's Apprentice"
+scope = "speaker_label"
+source_ids = [374]
+
+[[entry]]
+japanese = "デルガドの一番弟子"
+english = "Dergado's First Apprentice"
+scope = "speaker_label"
+source_ids = [375, 417]
+
+[[entry]]
+japanese = "デルガドの二番弟子"
+english = "Dergado's Second Apprentice"
+scope = "speaker_label"
+source_ids = [376]
+
+[[entry]]
+japanese = "ノエルの母親"
+english = "Noel's Mother"
+scope = "speaker_label"
+source_ids = [377]
+
+[[entry]]
+japanese = "ノエルの父親"
+english = "Noel's Father"
+scope = "speaker_label"
+source_ids = [378]
+
+[[entry]]
+japanese = "海賊"
+english = "Pirate"
+scope = "speaker_label"
+source_ids = [379, 380, 719, 720, 862, 863, 864]
+
+[[entry]]
+japanese = "ギルドの主人"
+english = "Guildmaster"
+scope = "speaker_label"
+source_ids = [381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393]
+
+[[entry]]
+japanese = "宿屋の主人"
+english = "Innkeeper"
+scope = "speaker_label"
+source_ids = [394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 406]
+
+[[entry]]
+japanese = "鍛冶屋の主人"
+english = "Blacksmith"
+scope = "speaker_label"
+source_ids = [407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 418, 419]
+
+[[entry]]
+japanese = "道具屋の主人"
+english = "Item Shopkeeper"
+scope = "speaker_label"
+source_ids = [420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432]
+
+[[entry]]
+japanese = "酒場の主人"
+english = "Tavernkeeper"
+scope = "speaker_label"
+source_ids = [433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445]
+
+[[entry]]
+japanese = "スラム酒場の主人"
+english = "Slum Tavernkeeper"
+scope = "speaker_label"
+source_ids = [446]
+
+[[entry]]
+japanese = "小さい酒場の主人"
+english = "Small-Tavern Keeper"
+scope = "speaker_label"
+source_ids = [447]
+
+[[entry]]
+japanese = "闘技場の受付嬢"
+english = "Arena Receptionist"
+scope = "speaker_label"
+source_ids = [448, 449]
+
+[[entry]]
+japanese = "？？？？？？？？"
+english = "????????"
+scope = "speaker_label"
+source_ids = [450]
+
+[[entry]]
+japanese = "フラッフィプリカ"
+english = "Fluffy Prica"
+scope = "source_records"
+source_ids = [582]
+
+[[entry]]
+japanese = "リトルバンパイア"
+english = "Little Vampire"
+scope = "source_records"
+source_ids = [583]
+
+[[entry]]
+japanese = "インプ"
+english = "Imp"
+scope = "source_records"
+source_ids = [584]
+
+[[entry]]
+japanese = "スパンキー"
+english = "Spanky"
+scope = "source_records"
+source_ids = [585]
+
+[[entry]]
+japanese = "ピクシー"
+english = "Pixie"
+scope = "source_records"
+source_ids = [586]
+
+[[entry]]
+japanese = "シェイドラット"
+english = "Shade Rat"
+scope = "source_records"
+source_ids = [588]
+
+[[entry]]
+japanese = "ゼノプス"
+english = "Xenops"
+scope = "source_records"
+source_ids = [589]
+
+[[entry]]
+japanese = "メガロリーチ"
+english = "Megalo Leech"
+scope = "source_records"
+source_ids = [590]
+
+[[entry]]
+japanese = "ジャックランタン"
+english = "Jack-o'-Lantern"
+scope = "source_records"
+source_ids = [591]
+
+[[entry]]
+japanese = "タイガーワスプ"
+english = "Tiger Wasp"
+scope = "source_records"
+source_ids = [592]
+
+[[entry]]
+japanese = "イーグル"
+english = "Eagle"
+scope = "source_records"
+source_ids = [593]
+
+[[entry]]
+japanese = "バイパー"
+english = "Viper"
+scope = "source_records"
+source_ids = [594]
+
+[[entry]]
+japanese = "ウィル・ウィスプ"
+english = "Will-o'-Wisp"
+scope = "source_records"
+source_ids = [595]
+
+[[entry]]
+japanese = "コボルド"
+english = "Kobold"
+scope = "source_records"
+source_ids = [596]
+
+[[entry]]
+japanese = "クィーンワスプ"
+english = "Queen Wasp"
+scope = "source_records"
+source_ids = [597]
+
+[[entry]]
+japanese = "プレデター"
+english = "Predator"
+scope = "source_records"
+source_ids = [598]
+
+[[entry]]
+japanese = "ブラックドッグ"
+english = "Black Dog"
+scope = "source_records"
+source_ids = [599]
+
+[[entry]]
+japanese = "サンデュー"
+english = "Sundew"
+scope = "source_records"
+source_ids = [600]
+
+[[entry]]
+japanese = "ゴブリン"
+english = "Goblin"
+scope = "source_records"
+source_ids = [601]
+
+[[entry]]
+japanese = "サンドマン"
+english = "Sandman"
+scope = "source_records"
+source_ids = [602]
+
+[[entry]]
+japanese = "ルーパス"
+english = "Lupus"
+scope = "source_records"
+source_ids = [603]
+
+[[entry]]
+japanese = "ジオールスター"
+english = "The All-Star"
+scope = "source_records"
+source_ids = [604]
+
+[[entry]]
+japanese = "ダンシングトーチ"
+english = "Dancing Torch"
+scope = "source_records"
+source_ids = [605]
+
+[[entry]]
+japanese = "スピナスク"
+english = "Spinasque"
+scope = "source_records"
+source_ids = [606]
+
+[[entry]]
+japanese = "ゾンビ"
+english = "Zombie"
+scope = "source_records"
+source_ids = [607]
+
+[[entry]]
+japanese = "アクウィラ"
+english = "Aquila"
+scope = "source_records"
+source_ids = [608]
+
+[[entry]]
+japanese = "セイレーン"
+english = "Siren"
+scope = "source_records"
+source_ids = [609]
+
+[[entry]]
+japanese = "ウッドローヴァー"
+english = "Wood Rover"
+scope = "source_records"
+source_ids = [610]
+
+[[entry]]
+japanese = "スライム"
+english = "Slime"
+scope = "source_records"
+source_ids = [611]
+
+[[entry]]
+japanese = "ホムンクルス"
+english = "Homunculus"
+scope = "source_records"
+source_ids = [612]
+
+[[entry]]
+japanese = "ホブゴブリン"
+english = "Hobgoblin"
+scope = "source_records"
+source_ids = [613]
+
+[[entry]]
+japanese = "コブラ"
+english = "Cobra"
+scope = "source_records"
+source_ids = [614]
+
+[[entry]]
+japanese = "グレムリン"
+english = "Gremlin"
+scope = "source_records"
+source_ids = [616]
+
+[[entry]]
+japanese = "ゴースト"
+english = "Ghost"
+scope = "source_records"
+source_ids = [617]
+
+[[entry]]
+japanese = "スケルトン"
+english = "Skeleton"
+scope = "source_records"
+source_ids = [618]
+
+[[entry]]
+japanese = "ハーピー"
+english = "Harpy"
+scope = "source_records"
+source_ids = [619]
+
+[[entry]]
+japanese = "デヴィルズシリア"
+english = "Devil's Cilia"
+scope = "source_records"
+source_ids = [621]
+
+[[entry]]
+japanese = "ブラウンベア"
+english = "Brown Bear"
+scope = "source_records"
+source_ids = [622]
+
+[[entry]]
+japanese = "オーク"
+english = "Orc"
+scope = "source_records"
+source_ids = [623]
+
+[[entry]]
+japanese = "ブルーマン"
+english = "Blue Man"
+scope = "source_records"
+source_ids = [624]
+
+[[entry]]
+japanese = "ドラゴンマイム"
+english = "Dragon Mime"
+scope = "source_records"
+source_ids = [625]
+
+[[entry]]
+japanese = "ヒッポグリフ"
+english = "Hippogriff"
+scope = "source_records"
+source_ids = [626]
+
+[[entry]]
+japanese = "ジェリー"
+english = "Jelly"
+scope = "source_records"
+source_ids = [627]
+
+[[entry]]
+japanese = "アスプ"
+english = "Asp"
+scope = "source_records"
+source_ids = [628]
+
+[[entry]]
+japanese = "グール"
+english = "Ghoul"
+scope = "source_records"
+source_ids = [629]
+
+[[entry]]
+japanese = "イグニスファタス"
+english = "Ignis Fatuus"
+scope = "source_records"
+source_ids = [630]
+
+[[entry]]
+japanese = "バシリスク"
+english = "Basilisk"
+scope = "source_records"
+source_ids = [631]
+
+[[entry]]
+japanese = "ラミア"
+english = "Lamia"
+scope = "source_records"
+source_ids = [632]
+
+[[entry]]
+japanese = "リザードマン"
+english = "Lizardman"
+scope = "source_records"
+source_ids = [633]
+
+[[entry]]
+japanese = "サーベルタイガー"
+english = "Saber Tiger"
+scope = "source_records"
+source_ids = [634]
+
+[[entry]]
+japanese = "オーガ"
+english = "Ogre"
+scope = "source_records"
+source_ids = [635]
+
+[[entry]]
+japanese = "レッドキャップ"
+english = "Redcap"
+scope = "source_records"
+source_ids = [636]
+
+[[entry]]
+japanese = "コカトリス"
+english = "Cockatrice"
+scope = "source_records"
+source_ids = [637]
+
+[[entry]]
+japanese = "ゴーレム"
+english = "Golem"
+scope = "source_records"
+source_ids = [638]
+
+[[entry]]
+japanese = "ソーンナイト"
+english = "Thorn Knight"
+scope = "source_records"
+source_ids = [639]
+
+[[entry]]
+japanese = "ゴーティダイモン"
+english = "Goetic Daimon"
+scope = "source_records"
+source_ids = [640]
+
+[[entry]]
+japanese = "グレートブルー"
+english = "Great Blue"
+scope = "source_records"
+source_ids = [641]
+
+[[entry]]
+japanese = "ガーゴイル"
+english = "Gargoyle"
+scope = "source_records"
+source_ids = [642]
+
+[[entry]]
+japanese = "サラマンダー"
+english = "Salamander"
+scope = "source_records"
+source_ids = [643]
+
+[[entry]]
+japanese = "ジャイアント"
+english = "Giant"
+scope = "source_records"
+source_ids = [644]
+
+[[entry]]
+japanese = "ダークリザード"
+english = "Dark Lizard"
+scope = "source_records"
+source_ids = [646]
+
+[[entry]]
+japanese = "ラングスイル"
+english = "Langsuir"
+scope = "source_records"
+source_ids = [647]
+
+[[entry]]
+japanese = "ビーストギガース"
+english = "Beast Gigas"
+scope = "source_records"
+source_ids = [648]
+
+[[entry]]
+japanese = "デルピュネ"
+english = "Delphyne"
+scope = "source_records"
+source_ids = [649]
+
+[[entry]]
+japanese = "フェニックス"
+english = "Phoenix"
+scope = "source_records"
+source_ids = [650]
+
+[[entry]]
+japanese = "シービショップ"
+english = "Sea Bishop"
+scope = "source_records"
+source_ids = [651]
+
+[[entry]]
+japanese = "スノーマン"
+english = "Snowman"
+scope = "source_records"
+source_ids = [652]
+
+[[entry]]
+japanese = "アネモシルクス"
+english = "Anemosilux"
+scope = "source_records"
+source_ids = [653]
+
+[[entry]]
+japanese = "ミノタウロス"
+english = "Minotaur"
+scope = "source_records"
+source_ids = [655]
+
+[[entry]]
+japanese = "ダークソーサラー"
+english = "Dark Sorcerer"
+scope = "source_records"
+source_ids = [656]
+
+[[entry]]
+japanese = "リトルダイモン"
+english = "Little Daimon"
+scope = "source_records"
+source_ids = [657]
+
+[[entry]]
+japanese = "フューマスクス"
+english = "Fumascus"
+scope = "source_records"
+source_ids = [658]
+
+[[entry]]
+japanese = "スリンガー"
+english = "Slinger"
+scope = "source_records"
+source_ids = [659]
+
+[[entry]]
+japanese = "タキシム"
+english = "Taksim"
+scope = "source_records"
+source_ids = [660]
+
+[[entry]]
+japanese = "デュラハン"
+english = "Dullahan"
+scope = "source_records"
+source_ids = [661]
+
+[[entry]]
+japanese = "ブラックカウント"
+english = "Black Count"
+scope = "source_records"
+source_ids = [662]
+
+[[entry]]
+japanese = "マグマゴーレム"
+english = "Magma Golem"
+scope = "source_records"
+source_ids = [663]
+
+[[entry]]
+japanese = "イェティ"
+english = "Yeti"
+scope = "source_records"
+source_ids = [664]
+
+[[entry]]
+japanese = "キマイラ"
+english = "Chimera"
+scope = "source_records"
+source_ids = [665]
+
+[[entry]]
+japanese = "ワーム"
+english = "Wyrm"
+scope = "source_records"
+source_ids = [666]
+
+[[entry]]
+japanese = "ストーンドラゴン"
+english = "Stone Dragon"
+scope = "source_records"
+source_ids = [667]
+
+[[entry]]
+japanese = "トロル"
+english = "Troll"
+scope = "source_records"
+source_ids = [668]
+
+[[entry]]
+japanese = "フェンリル"
+english = "Fenrir"
+scope = "source_records"
+source_ids = [669]
+
+[[entry]]
+japanese = "コーヴァス"
+english = "Corvus"
+scope = "source_records"
+source_ids = [670]
+
+[[entry]]
+japanese = "マジックゴーレム"
+english = "Magic Golem"
+scope = "source_records"
+source_ids = [671, 689]
+
+[[entry]]
+japanese = "ゴルゴン"
+english = "Gorgon"
+scope = "source_records"
+source_ids = [672]
+
+[[entry]]
+japanese = "フィーンド"
+english = "Fiend"
+scope = "source_records"
+source_ids = [673]
+
+[[entry]]
+japanese = "ムスカ"
+english = "Musca"
+scope = "source_records"
+source_ids = [674]
+
+[[entry]]
+japanese = "グリフォン"
+english = "Griffin"
+scope = "source_records"
+source_ids = [675]
+
+[[entry]]
+japanese = "グローギガース"
+english = "Glow Gigas"
+scope = "source_records"
+source_ids = [676]
+
+[[entry]]
+japanese = "テュポン"
+english = "Typhon"
+scope = "source_records"
+source_ids = [677]
+
+[[entry]]
+japanese = "デス"
+english = "Death"
+scope = "source_records"
+source_ids = [679, 1057, 20219]
+
+[[entry]]
+japanese = "リザードデヴィル"
+english = "Lizard Devil"
+scope = "source_records"
+source_ids = [680]
+
+[[entry]]
+japanese = "リッチ"
+english = "Lich"
+scope = "source_records"
+source_ids = [681]
+
+[[entry]]
+japanese = "フューパラライズ"
+english = "Fyuparalyze"
+scope = "source_records"
+source_ids = [682]
+
+[[entry]]
+japanese = "デュアル"
+english = "Dual"
+scope = "source_records"
+source_ids = [683]
+
+[[entry]]
+japanese = "シルバードラゴン"
+english = "Silver Dragon"
+scope = "source_records"
+source_ids = [684]
+
+[[entry]]
+japanese = "触手"
+english = "Tentacle"
+scope = "source_records"
+source_ids = [686]
+
+[[entry]]
+japanese = "改造ナメクジ"
+english = "Modified Slug"
+scope = "source_records"
+source_ids = [690]
+
+[[entry]]
+japanese = "竜の座兵士"
+english = "Dragon Throne Soldier"
+scope = "source_records"
+source_ids = [691]
+
+[[entry]]
+japanese = "ディンガル兵"
+english = "Dyneskal Soldier"
+scope = "source_records"
+source_ids = [692, 693, 694, 695, 696]
+
+[[entry]]
+japanese = "ソリアス神官"
+english = "Solias Priest"
+scope = "source_records"
+source_ids = [700, 701, 702, 703]
+
+[[entry]]
+japanese = "ロストール兵"
+english = "Rostorl Soldier"
+scope = "source_records"
+source_ids = [707, 708]
+
+[[entry]]
+japanese = "竜教神官"
+english = "Dragon-Faith Priest"
+scope = "source_records"
+source_ids = [709, 710]
+
+[[entry]]
+japanese = "槍傭兵"
+english = "Spear Mercenary"
+scope = "source_records"
+source_ids = [715, 716]
+
+[[entry]]
+japanese = "ゲリラ"
+english = "Guerrilla"
+scope = "source_records"
+source_ids = [717, 718]
+
+[[entry]]
+japanese = "神官"
+english = "Priest"
+scope = "source_records"
+source_ids = [725, 726]
+
+[[entry]]
+japanese = "巫女"
+english = "Priestess"
+scope = "global_surface"
+
+[[entry]]
+japanese = "砂漠の一族"
+english = "Desert Clan Member"
+scope = "source_records"
+source_ids = [729]
+
+[[entry]]
+japanese = "ザハクの右蛇"
+english = "Zahhak's Right Serpent"
+scope = "source_records"
+source_ids = [730]
+
+[[entry]]
+japanese = "母の影"
+english = "Mother's Shadow"
+scope = "source_records"
+source_ids = [743]
+
+[[entry]]
+japanese = "エリスの影"
+english = "Eris's Shadow"
+scope = "source_records"
+source_ids = [744]
+
+[[entry]]
+japanese = "邪眼の守護者"
+english = "Evil-Eye Guardian"
+scope = "source_records"
+source_ids = [751]
+
+[[entry]]
+japanese = "グリードミューカス"
+english = "Greed Mucus"
+scope = "source_records"
+source_ids = [771, 956]
+
+[[entry]]
+japanese = "古代の魔物"
+english = "Ancient Monster"
+scope = "source_records"
+source_ids = [772, 773, 774, 775, 776, 777, 778, 779, 780]
+
+[[entry]]
+japanese = "炎系モンスター"
+english = "Fire-Type Monster"
+scope = "source_records"
+source_ids = [781]
+
+[[entry]]
+japanese = "巨大ナメクジ"
+english = "Giant Slug"
+scope = "source_records"
+source_ids = [785, 925]
+
+[[entry]]
+japanese = "改造手下"
+english = "Modified Minion"
+scope = "source_records"
+source_ids = [788]
+
+[[entry]]
+japanese = "グフトク"
+english = "Guftok"
+scope = "source_records"
+source_ids = [790]
+
+[[entry]]
+japanese = "銀狼"
+english = "Silver Wolf"
+scope = "source_records"
+source_ids = [791]
+
+[[entry]]
+japanese = "改造人間"
+english = "Modified Human"
+scope = "source_records"
+source_ids = [793]
+
+[[entry]]
+japanese = "イシュベノブ"
+english = "Ishbi-Benob"
+scope = "source_records"
+source_ids = [811]
+
+[[entry]]
+japanese = "ザハクの左蛇"
+english = "Zahhak's Left Serpent"
+scope = "source_records"
+source_ids = [812]
+
+[[entry]]
+japanese = "メネ"
+english = "Mene"
+scope = "source_records"
+source_ids = [840]
+
+[[entry]]
+japanese = "テケル"
+english = "Tekel"
+scope = "source_records"
+source_ids = [844]
+
+[[entry]]
+japanese = "パルシン"
+english = "Parsin"
+scope = "source_records"
+source_ids = [849]
+
+[[entry]]
+japanese = "ベモラベラモ"
+english = "Bemora Beramo"
+scope = "source_records"
+source_ids = [850]
+
+[[entry]]
+japanese = "ミラク"
+english = "Mirak"
+scope = "source_records"
+source_ids = [853]
+
+[[entry]]
+japanese = "コーンス"
+# English name from official prequel material.
+# Konsu is both singular and plural.
+english = "Konsu"
+scope = "global_surface"
+
+[[entry]]
+japanese = "山賊"
+english = "Bandit"
+scope = "source_records"
+source_ids = [859, 860, 861, 923]
+
+[[entry]]
+japanese = "盗賊"
+english = "Thief"
+scope = "source_records"
+source_ids = [900, 901, 902]
+
+[[entry]]
+japanese = "ゴロツキ"
+english = "Hoodlum"
+scope = "source_records"
+source_ids = [904, 926, 945]
+
+[[entry]]
+japanese = "ゴロツキ頭"
+english = "Hoodlum Leader"
+scope = "source_records"
+source_ids = [905, 927]
+
+[[entry]]
+japanese = "パルチザン"
+english = "Partisan"
+scope = "source_records"
+source_ids = [908]
+
+[[entry]]
+japanese = "アキュリュース兵"
+english = "Aqyurius Soldier"
+scope = "source_records"
+source_ids = [913, 914, 915]
+
+[[entry]]
+japanese = "アルノートゥン兵"
+english = "Alnortun Soldier"
+scope = "source_records"
+source_ids = [916, 917, 918]
+
+[[entry]]
+japanese = "イベント海賊"
+english = "Event Pirate"
+scope = "source_records"
+source_ids = [919]
+
+[[entry]]
+japanese = "山賊頭"
+english = "Bandit Leader"
+scope = "source_records"
+source_ids = [924]
+
+[[entry]]
+japanese = "コーンス兵"
+english = "Konsu Soldier"
+scope = "source_records"
+source_ids = [951]
+
+[[entry]]
+japanese = "ゾフォルの改造人間"
+english = "Zofor's Modified Human"
+scope = "source_records"
+source_ids = [953]
+
+[[entry]]
+japanese = "解放軍兵士"
+english = "Liberation Army Soldier"
+scope = "source_records"
+source_ids = [955]
+
+[[entry]]
+japanese = "バロル"
+english = "Balor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ブルーフレア"
+english = "Blue Flare"
+scope = "source_records"
+source_ids = [962]
+
+[[entry]]
+japanese = "グロウファイター"
+english = "Glow Fighter"
+scope = "source_records"
+source_ids = [963]
+
+[[entry]]
+japanese = "アークソード"
+english = "Arch Sword"
+scope = "source_records"
+source_ids = [964]
+
+[[entry]]
+japanese = "ルーンファイター"
+english = "Rune Fighter"
+scope = "source_records"
+source_ids = [965]
+
+[[entry]]
+japanese = "マイティブロウ"
+english = "Mighty Blow"
+scope = "source_records"
+source_ids = [966]
+
+[[entry]]
+japanese = "ロウフルブレード"
+english = "Lawful Blade"
+scope = "source_records"
+source_ids = [967]
+
+[[entry]]
+japanese = "ウォーロック"
+english = "Warlock"
+scope = "source_records"
+source_ids = [968]
+
+[[entry]]
+japanese = "ニルヴァーナ"
+english = "Nirvana"
+scope = "source_records"
+source_ids = [969]
+
+[[entry]]
+japanese = "アガスティア"
+english = "Agastya"
+scope = "source_records"
+source_ids = [970]
+
+[[entry]]
+japanese = "ボウガンナー"
+english = "Bowgunner"
+scope = "source_records"
+source_ids = [971]
+
+[[entry]]
+japanese = "アルバレスト"
+english = "Arbalest"
+scope = "source_records"
+source_ids = [972]
+
+[[entry]]
+japanese = "トリックスター"
+english = "Trickster"
+scope = "source_records"
+source_ids = [973]
+
+[[entry]]
+japanese = "グレモリイ"
+english = "Gremory"
+scope = "source_records"
+source_ids = [974]
+
+[[entry]]
+japanese = "ルナシャドウ"
+english = "Lunar Shadow"
+scope = "source_records"
+source_ids = [975]
+
+[[entry]]
+japanese = "クレリック"
+english = "Cleric"
+scope = "source_records"
+source_ids = [976]
+
+[[entry]]
+japanese = "パトリアーク"
+english = "Patriarch"
+scope = "source_records"
+source_ids = [977]
+
+[[entry]]
+japanese = "ネガヴァニティア"
+english = "Negavanitia"
+scope = "global_surface"
+
+[[entry]]
+japanese = "クロムハート"
+english = "Chrome Heart"
+scope = "source_records"
+source_ids = [979]
+
+[[entry]]
+japanese = "アムドゥシアス"
+english = "Amdusias"
+scope = "source_records"
+source_ids = [980]
+
+[[entry]]
+japanese = "ファニーフェイス"
+english = "Funny Face"
+scope = "source_records"
+source_ids = [981]
+
+[[entry]]
+japanese = "グレイテイルス"
+english = "Gray Tails"
+scope = "source_records"
+source_ids = [982]
+
+[[entry]]
+japanese = "ホワイトファング"
+english = "White Fang"
+scope = "source_records"
+source_ids = [983]
+
+[[entry]]
+japanese = "ブラックバイパー"
+english = "Black Viper"
+scope = "source_records"
+source_ids = [984]
+
+[[entry]]
+japanese = "シャイニングレオ"
+english = "Shining Leo"
+scope = "source_records"
+source_ids = [985]
+
+[[entry]]
+japanese = "イグザクス"
+english = "Igzax"
+scope = "source_records"
+source_ids = [986]
+
+[[entry]]
+japanese = "ライギロア"
+english = "Raigiroa"
+scope = "source_records"
+source_ids = [987]
+
+[[entry]]
+japanese = "マノン"
+english = "Manon"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノクサ"
+english = "Noxa"
+scope = "source_records"
+source_ids = [989]
+
+[[entry]]
+japanese = "アリアロ"
+english = "Ariaro"
+scope = "source_records"
+source_ids = [990]
+
+[[entry]]
+japanese = "ストラ"
+english = "Stra"
+scope = "source_records"
+source_ids = [991]
+
+[[entry]]
+japanese = "インフィニティア"
+english = "Infinitia"
+scope = "source_records"
+source_ids = [992]
+
+[[entry]]
+japanese = "ロストール"
+english = "Rostorl"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リベルダム"
+english = "Liberdam"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エンシャント"
+english = "Ancient"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロセン"
+english = "Rocen"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アルノートゥン"
+english = "Alnortun"
+scope = "global_surface"
+
+[[entry]]
+japanese = "猫屋敷"
+english = "Cat Manor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "竜骨の砂漠"
+english = "Dragonbone Desert"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゼグナ鉱山"
+english = "Zegna Mine"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フゴー商会"
+english = "Hugo Trading Company"
+scope = "global_surface"
+
+[[entry]]
+japanese = "テラネ"
+english = "Terane"
+scope = "global_surface"
+
+[[entry]]
+japanese = "鍛冶屋ギルド"
+english = "Blacksmiths' Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "カルラ軍"
+english = "Karula's Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "賢者の森"
+english = "Sage's Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔道の塔"
+english = "Arcane Tower"
+scope = "global_surface"
+
+[[entry]]
+japanese = "吟遊詩人ギルド"
+english = "Bards' Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シェーヌの森"
+english = "Chene Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エルズ"
+english = "Elz"
+scope = "global_surface"
+
+[[entry]]
+japanese = "道具屋ギルド"
+english = "Item Merchants' Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "市民ギルド"
+english = "Citizens' Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "城塞都市跡"
+english = "Fortress City Ruins"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ドワーフ王国"
+english = "Dwarf Kingdom"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ディンガル政庁"
+english = "Dyneskal Government Office"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノトゥーン神殿"
+english = "Notun Temple"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジラーク軍"
+english = "Zsilak's Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ガラーナ・イガヴィル"
+english = "Garana Igavir"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アンティノ研究所"
+english = "Antino Laboratory"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ラドラス地下洞窟"
+english = "Ladras Underground Cavern"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ラドラス都市通路"
+english = "Ladras City Passage"
+scope = "global_surface"
+
+[[entry]]
+japanese = "解放軍ロセン支部"
+english = "Rocen Branch of the Liberation Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アンギルダン軍"
+english = "Angeerdan's Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "バルザーの迷宮"
+english = "Baltzer's Labyrinth"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ルンホルスの森"
+english = "Runhols Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ツィーネの森"
+english = "Tsine Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ミューンの森"
+english = "Myun Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロセン地下道"
+english = "Rocen Underground Passage"
+scope = "global_surface"
+
+[[entry]]
+japanese = "聖光石の廃鉱"
+english = "Old Holy Light Stone Mine"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゼネテス軍"
+english = "Xenetes' Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノヴィン軍"
+english = "Novin's Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ラミリー山"
+english = "Mount Ramiri"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アミラル"
+english = "Amiral"
+scope = "global_surface"
+
+[[entry]]
+japanese = "キオーネ"
+english = "Kione"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アダフ"
+english = "Adaf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ガサス"
+english = "Gasas"
+scope = "global_surface"
+
+[[entry]]
+japanese = "サラド"
+english = "Sarado"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ナオス"
+english = "Naos"
+scope = "global_surface"
+
+[[entry]]
+japanese = "鳳凰山"
+english = "Phoenix Mountain"
+scope = "global_surface"
+
+[[entry]]
+japanese = "海洋ギルド"
+english = "Maritime Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "グルス"
+english = "Grus"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リューンの森"
+english = "Ryune Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アハブ"
+english = "Ahab"
+scope = "global_surface"
+
+[[entry]]
+japanese = "炎竜山"
+english = "Flame Dragon Mountain"
+scope = "global_surface"
+
+[[entry]]
+japanese = "クロン"
+english = "Kuron"
+scope = "global_surface"
+excluded_surfaces = ["サイクロン"]
+
+[[entry]]
+japanese = "ワッシャー砦"
+english = "Washer Fort"
+scope = "global_surface"
+
+[[entry]]
+japanese = "火山岩地帯"
+english = "Volcanic Rock Zone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "しぶきの群島"
+english = "Spray Archipelago"
+scope = "global_surface"
+
+[[entry]]
+japanese = "罪深き者の迷宮"
+english = "Labyrinth of Sinners"
+scope = "global_surface"
+
+[[entry]]
+japanese = "霊峰トール"
+english = "Sacred Mount Thor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "幻惑の洞窟"
+english = "Bewildering Cave"
+scope = "global_surface"
+
+[[entry]]
+japanese = "紺碧の洞窟"
+english = "Azure Cave"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シルヴァ村"
+english = "Silva Village"
+scope = "global_surface"
+
+[[entry]]
+japanese = "荒れ果てた迷宮"
+english = "Desolate Labyrinth"
+scope = "global_surface"
+
+[[entry]]
+japanese = "はざまの塔"
+english = "Tower of the Interstice"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オズワルド"
+english = "Oswald"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シャリの異次元"
+english = "Shalli's Other Dimension"
+scope = "global_surface"
+
+[[entry]]
+japanese = "北の地下街道"
+english = "Northern Underground Road"
+scope = "global_surface"
+
+[[entry]]
+japanese = "南の地下街道"
+english = "Southern Underground Road"
+scope = "global_surface"
+
+[[entry]]
+japanese = "古の樹海"
+english = "Ancient Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "古城"
+english = "Old Castle"
+scope = "global_surface"
+
+[[entry]]
+japanese = "告死天使アジト"
+english = "Angels of Death Hideout"
+scope = "global_surface"
+
+[[entry]]
+japanese = "西の地下街道"
+english = "Western Underground Road"
+scope = "global_surface"
+
+[[entry]]
+japanese = "夢幻の湖"
+english = "Lake of Illusions"
+scope = "global_surface"
+
+[[entry]]
+japanese = "山賊の砦"
+english = "Bandit Fortress"
+scope = "global_surface"
+
+[[entry]]
+japanese = "盗人虎の穴"
+english = "Thieves' Den"
+scope = "global_surface"
+
+[[entry]]
+japanese = "銀竜の住処"
+english = "Silver Dragon's Lair"
+scope = "global_surface"
+
+[[entry]]
+japanese = "埋蔵金の洞窟"
+english = "Buried Treasure Cave"
+scope = "global_surface"
+
+[[entry]]
+japanese = "未開の森"
+english = "Uncharted Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "王宮地下通路"
+english = "Royal Palace Underground Passage"
+scope = "global_surface"
+
+[[entry]]
+japanese = "盗人村"
+english = "Thieves' Village"
+scope = "global_surface"
+
+[[entry]]
+japanese = "静寂の洞窟"
+english = "Cave of Silence"
+scope = "global_surface"
+
+[[entry]]
+japanese = "新月の塔"
+english = "New Moon Tower"
+scope = "global_surface"
+
+[[entry]]
+japanese = "邪竜の断層"
+english = "Evil Dragon Rift"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風の祭壇への道"
+english = "Road to the Wind Altar"
+scope = "global_surface"
+
+[[entry]]
+japanese = "灼熱の大洞窟"
+english = "Great Scorching Cavern"
+scope = "global_surface"
+
+[[entry]]
+japanese = "砂虫の残骸"
+english = "Sandworm Remains"
+scope = "global_surface"
+
+[[entry]]
+japanese = "邪眼の迷宮"
+english = "Evil Eye Labyrinth"
+scope = "global_surface"
+
+[[entry]]
+japanese = "竜王の島"
+english = "Dragon King's Island"
+scope = "global_surface"
+
+[[entry]]
+japanese = "虹色の山脈"
+english = "Rainbow Mountains"
+scope = "global_surface"
+
+[[entry]]
+japanese = "試練の迷宮"
+english = "Labyrinth of Trials"
+scope = "global_surface"
+
+[[entry]]
+japanese = "武器商人ギルド"
+english = "Weapons Merchants' Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "飢えた者の迷宮"
+english = "Labyrinth of the Hungry"
+scope = "global_surface"
+
+[[entry]]
+japanese = "水の神殿"
+english = "Water Temple"
+scope = "global_surface"
+
+[[entry]]
+japanese = "水の神殿地下"
+english = "Water Temple Basement"
+scope = "global_surface"
+
+[[entry]]
+japanese = "神殿への道"
+english = "Road to the Temple"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風の神殿"
+english = "Wind Temple"
+scope = "global_surface"
+
+[[entry]]
+japanese = "北の谷間"
+english = "North Valley"
+scope = "global_surface"
+
+[[entry]]
+japanese = "南の谷間"
+english = "South Valley"
+scope = "global_surface"
+
+[[entry]]
+japanese = "偽りの森"
+english = "Forest of Deceit"
+scope = "global_surface"
+
+[[entry]]
+japanese = "最後の迷宮"
+english = "Final Labyrinth"
+scope = "global_surface"
+
+[[entry]]
+japanese = "求めし者の荒野"
+english = "Seekers' Wilderness"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風の荒野"
+english = "Wind Wasteland"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノーブルの森"
+english = "Noble Forest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ミイスの村"
+english = "Miis Village"
+scope = "global_surface"
+
+[[entry]]
+japanese = "乙女の鏡"
+english = "Maiden's Mirror"
+scope = "global_surface"
+
+[[entry]]
+japanese = "地下墓地"
+english = "Underground Cemetery"
+scope = "global_surface"
+
+[[entry]]
+japanese = "廃城"
+english = "Ruined Castle"
+scope = "global_surface"
+
+[[entry]]
+japanese = "彫刻画の道"
+english = "Road of Reliefs"
+scope = "global_surface"
+
+[[entry]]
+japanese = "死竜の洞窟"
+english = "Dead Dragon Cave"
+scope = "global_surface"
+
+[[entry]]
+japanese = "解放軍本部"
+english = "Liberation Army Headquarters"
+scope = "global_surface"
+
+[[entry]]
+japanese = "闇の門の島"
+english = "Island of the Dark Gate"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風泣きの洞窟"
+english = "Wind-Wailing Cave"
+scope = "global_surface"
+
+[[entry]]
+japanese = "空中都市ラドラス"
+english = "Floating City Ladras"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ラドラス"
+english = "Ladras"
+scope = "global_surface"
+
+[[entry]]
+japanese = "コーンスの反乱"
+english = "Konsu Rebellion"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ユシュアル"
+english = "Yushual"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ユリアシュ"
+english = "Yuriash"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リディオン"
+english = "Lidion"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ルフレン"
+english = "Lufren"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レンシー"
+english = "Rensy"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロベルト"
+english = "Roberto"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノーブル"
+english = "Noble"
+scope = "global_surface"
+
+[[entry]]
+japanese = "酒場ギルド"
+english = "Tavern Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ライギロアアジト"
+english = "Raigiroa Hideout"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リベルダム自治連"
+english = "Liberdam Civic League"
+scope = "global_surface"
+
+[[entry]]
+japanese = "天経院"
+english = "Tenkeiin"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノトゥーン"
+english = "Notun"
+scope = "global_surface"
+
+[[entry]]
+japanese = "戦神ソリアス"
+english = "War God Solias"
+scope = "global_surface"
+
+[[entry]]
+japanese = "邪竜イシュバアル"
+english = "Evil Dragon Ishbaal"
+scope = "global_surface"
+
+[[entry]]
+japanese = "巨人フルーヴ"
+english = "Giant Fleuve"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ティアナの部屋"
+english = "Tiana's Room"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ズゥ"
+english = "Zuu"
+scope = "global_surface"
+
+[[entry]]
+japanese = "至聖神"
+english = "Most Holy God"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロストール王国"
+english = "Kingdom of Rostorl"
+scope = "global_surface"
+
+[[entry]]
+japanese = "分断の山脈"
+english = "Dividing Mountains"
+scope = "global_surface"
+
+[[entry]]
+japanese = "きれぐもの巣"
+english = "Kiregumo Nest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アキュリュースの商人"
+english = "Aqyurius Merchant"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アンギルダンの手紙"
+english = "Angeerdan's Letter"
+scope = "global_surface"
+
+[[entry]]
+japanese = "イズ"
+english = "Iz"
+scope = "global_surface"
+excluded_surfaces = ["フューパラライズ", "ソウルイレイズ", "デスサイズ", "ブレイズ", "ポイズン"]
+
+[[entry]]
+japanese = "エステルの首飾り"
+english = "Esther's Necklace"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エルファス神"
+english = "God Elfas"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エンシャント城内"
+english = "Ancient Castle Interior"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オッシの酒代"
+english = "Ossi's Bar Tab"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オッポスの岩"
+english = "Oppos Rock"
+scope = "global_surface"
+
+[[entry]]
+japanese = "コカゲキノコ"
+english = "Shade Mushroom"
+scope = "global_surface"
+
+[[entry]]
+japanese = "サマシごけ"
+english = "Samashi Moss"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ザギヴ襲撃地点"
+english = "Zagiv Attack Site"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シオン"
+english = "Shion"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シルヴァ"
+english = "Silva"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジャック"
+english = "Jack"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジンガハンマー"
+english = "Jinga Hammer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "スラム"
+english = "Slums"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゼネテスの遺書"
+english = "Xenetes' Last Will"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ソルベンジュ"
+english = "Solvenge"
+scope = "global_surface"
+
+[[entry]]
+japanese = "トト"
+english = "Toto"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ニール"
+english = "Neil"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノトゥーン神官"
+english = "Notun Priest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ハンナの人形"
+english = "Hannah's Doll"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヒャンデ砂鉄"
+english = "Hyande Iron Sand"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ブロークラスト"
+english = "Blowcrust"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ミーア"
+english = "Mia"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヤンバイ草"
+english = "Yanbai Herb"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レルラ"
+english = "Relra"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロクシャの墨"
+english = "Roksha Ink"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロストール王家"
+english = "Rostorl Royal House"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヴァイ"
+english = "Vai"
+scope = "global_surface"
+
+[[entry]]
+japanese = "七色の砂"
+english = "Seven-Colored Sand"
+scope = "global_surface"
+
+[[entry]]
+japanese = "亀の甲羅"
+english = "Turtle Shell"
+scope = "global_surface"
+
+[[entry]]
+japanese = "人魚のイヤリング"
+english = "Mermaid Earrings"
+scope = "global_surface"
+
+[[entry]]
+japanese = "体力の首飾り"
+english = "Vitality Necklace"
+scope = "global_surface"
+
+[[entry]]
+japanese = "初めて打った剣"
+english = "First-Forged Sword"
+scope = "global_surface"
+
+[[entry]]
+japanese = "千年石"
+english = "Millennium Stone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "午睡の羽"
+english = "Siesta Feather"
+scope = "global_surface"
+
+[[entry]]
+japanese = "受付嬢"
+english = "Receptionist"
+scope = "global_surface"
+
+[[entry]]
+japanese = "各地の特産品"
+english = "Regional Specialties"
+scope = "global_surface"
+
+[[entry]]
+japanese = "吟遊リルビー"
+english = "Lilubee Minstrel"
+scope = "global_surface"
+
+[[entry]]
+japanese = "呪われし杖"
+english = "Cursed Staff"
+scope = "global_surface"
+
+[[entry]]
+japanese = "善意の薬草"
+english = "Goodwill Herb"
+scope = "global_surface"
+
+[[entry]]
+japanese = "土精の結晶"
+english = "Earth Spirit Crystal"
+scope = "global_surface"
+
+[[entry]]
+japanese = "地下の案内人"
+english = "Underground Guide"
+scope = "global_surface"
+
+[[entry]]
+japanese = "夢魔の羽"
+english = "Dream Demon Feather"
+scope = "global_surface"
+
+[[entry]]
+japanese = "大魔道士"
+english = "Archmage"
+scope = "global_surface"
+
+[[entry]]
+japanese = "妖精の粉"
+english = "Fairy Dust"
+scope = "global_surface"
+
+[[entry]]
+japanese = "宿泊客"
+english = "Guest"
+scope = "global_surface"
+
+[[entry]]
+japanese = "密書"
+english = "Secret Letter"
+scope = "global_surface"
+
+[[entry]]
+japanese = "巡礼船長"
+english = "Pilgrim Captain"
+scope = "global_surface"
+
+[[entry]]
+japanese = "復活の真珠"
+english = "Pearl of Revival"
+scope = "global_surface"
+
+[[entry]]
+japanese = "心の水"
+english = "Water of Mind"
+scope = "global_surface"
+
+[[entry]]
+japanese = "恵みの陽光"
+english = "Blessing Sunlight"
+scope = "global_surface"
+
+[[entry]]
+japanese = "恵みの風"
+english = "Blessing Wind"
+scope = "global_surface"
+
+[[entry]]
+japanese = "指令書"
+english = "Orders"
+scope = "global_surface"
+
+[[entry]]
+japanese = "探検家"
+english = "Explorer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "日光"
+english = "Sunlight"
+scope = "global_surface"
+
+[[entry]]
+japanese = "暗闇の滴"
+english = "Drop of Darkness"
+scope = "global_surface"
+
+[[entry]]
+japanese = "案内状"
+english = "Invitation"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アキュリュースの船着き場"
+english = "Aqyurius Wharf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アンギルダンの山越え"
+english = "Angeerdan's Mountain Crossing"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エンシャントの冒険者ギルド"
+english = "Ancient Adventurers' Guild"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エンシャントの政庁"
+english = "Ancient Government Hall"
+scope = "global_surface"
+
+[[entry]]
+japanese = "カルラ進軍"
+english = "Karula's Advance"
+scope = "global_surface"
+
+[[entry]]
+japanese = "クロイス"
+english = "Krois"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジラークのアルノートゥン攻め"
+english = "Zsilak's Alnortun Campaign"
+scope = "global_surface"
+
+[[entry]]
+japanese = "バイアシオン"
+english = "Vyashion"
+scope = "global_surface"
+
+[[entry]]
+japanese = "バイアシオン大陸"
+english = "Vyashion Continent"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ボゲー"
+english = "Bogee"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ライラネート"
+english = "Lailanate"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リベルダム陥落"
+english = "Fall of Liberdam"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リューガの変"
+english = "Ryuga Incident"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロストール攻略"
+english = "Rostorl Campaign"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロセン王国"
+english = "Kingdom of Rocen"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロセン王国陥落"
+english = "Fall of the Kingdom of Rocen"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロティの屋敷"
+english = "Lottie's Mansion"
+scope = "global_surface"
+
+[[entry]]
+japanese = "水晶が導く場所"
+english = "Place Revealed by the Crystal"
+scope = "global_surface"
+
+[[entry]]
+japanese = "深海魚の目玉"
+english = "Deep-Sea Fish Eye"
+scope = "global_surface"
+
+[[entry]]
+japanese = "火草の種"
+english = "Firegrass Seed"
+scope = "global_surface"
+
+[[entry]]
+japanese = "炎竜岩"
+english = "Flame Dragon Rock"
+scope = "global_surface"
+
+[[entry]]
+japanese = "特大愛妻弁当"
+english = "Extra-Large Wife-Made Bento"
+scope = "global_surface"
+
+[[entry]]
+japanese = "生命のかけら"
+english = "Life Fragment"
+scope = "global_surface"
+
+[[entry]]
+japanese = "異次元"
+english = "Other Dimension"
+scope = "global_surface"
+
+[[entry]]
+japanese = "疾風の魔弓"
+english = "Magic Bow of the Gale"
+scope = "global_surface"
+
+[[entry]]
+japanese = "知恵の首飾り"
+english = "Wisdom Necklace"
+scope = "global_surface"
+
+[[entry]]
+japanese = "空の弁当箱"
+english = "Empty Lunch Box"
+scope = "global_surface"
+
+[[entry]]
+japanese = "緋炎の宝剣"
+english = "Crimson Flame Sword"
+scope = "global_surface"
+
+[[entry]]
+japanese = "緑の宝石"
+english = "Green Gem"
+scope = "global_surface"
+
+[[entry]]
+japanese = "聖光石のかけら"
+english = "Holy Light Stone Shard"
+scope = "global_surface"
+
+[[entry]]
+japanese = "脱力の腕輪"
+english = "Bracelet of Weakness"
+scope = "global_surface"
+
+[[entry]]
+japanese = "蒼流の聖槍"
+english = "Sacred Spear of the Azure Torrent"
+scope = "global_surface"
+
+[[entry]]
+japanese = "蒼風花"
+english = "Azure Windflower"
+scope = "global_surface"
+
+[[entry]]
+japanese = "薬草"
+english = "Medicinal Herb"
+scope = "global_surface"
+
+[[entry]]
+japanese = "謎の冒険者"
+english = "Mysterious Adventurer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "贈り物"
+english = "Gift"
+scope = "global_surface"
+
+[[entry]]
+japanese = "閃光の弓"
+english = "Flash Bow"
+scope = "global_surface"
+
+[[entry]]
+japanese = "闇中花"
+english = "Darkbloom"
+scope = "global_surface"
+
+[[entry]]
+japanese = "闘士の心得"
+english = "Fighter's Handbook"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風旅鳥の羽"
+english = "Windfarer Feather"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風桜の実"
+english = "Windcherry Fruit"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風気岩"
+english = "Windstone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風精の結晶"
+english = "Wind Spirit Crystal"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔物の骨"
+english = "Monster Bone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "？？？？"
+english = "????"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ウェイトレス"
+english = "Waitress"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エメルの弓"
+english = "Emel's Bow"
+scope = "global_surface"
+
+[[entry]]
+japanese = "キッカネの香草"
+english = "Kikkane Herb"
+scope = "global_surface"
+
+[[entry]]
+japanese = "コリティオファンのじじい"
+english = "Old Man from Koritiofan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "コロル石"
+english = "Korol Stone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ストラスエッジ"
+english = "Stra's Edge"
+scope = "global_surface"
+
+[[entry]]
+japanese = "セヅネの根"
+english = "Sezune Root"
+scope = "global_surface"
+
+[[entry]]
+japanese = "タレモルゲの汽水"
+english = "Taremorge Brackish Water"
+scope = "global_surface"
+
+[[entry]]
+japanese = "トヅカネの枝"
+english = "Tozukane Branch"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ナジラネの果実"
+english = "Najirane Fruit"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノロガメ"
+english = "Norogame"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ハッケエの滴"
+english = "Hakkee Droplet"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ハヤスの葉"
+english = "Hayasu Leaf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヒャンデ鉱"
+english = "Hyande Ore"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ベテラン冒険者"
+english = "Veteran Adventurer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ベテラン船員"
+english = "Veteran Sailor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ラスラルの花"
+english = "Lasral Flower"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レーグファンの青年"
+english = "Young Reig Fan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "傲慢の首飾り"
+english = "Necklace of Pride"
+scope = "global_surface"
+
+[[entry]]
+japanese = "先輩冒険者"
+english = "Senior Adventurer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "冒険ドワーフ"
+english = "Adventuring Dwarf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "剛刃"
+english = "Mighty Blade"
+scope = "global_surface"
+
+[[entry]]
+japanese = "南方攻略軍"
+english = "Southern Campaign Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "天動地鳴"
+english = "Heaven Moves, Earth Roars"
+scope = "global_surface"
+
+[[entry]]
+japanese = "憤怒の鎚"
+english = "Hammer of Wrath"
+scope = "global_surface"
+
+[[entry]]
+japanese = "旅のエルフ"
+english = "Traveling Elf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "格闘ボルダン"
+english = "Fighter Boldan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "格闘技好きのおじさん"
+english = "Martial Arts Enthusiast"
+scope = "global_surface"
+
+[[entry]]
+japanese = "浄化の月杖"
+english = "Moon Staff of Purification"
+scope = "global_surface"
+
+[[entry]]
+japanese = "港のボルダン"
+english = "Harbor Boldan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "焦燥の耳飾り"
+english = "Earring of Impatience"
+scope = "global_surface"
+
+[[entry]]
+japanese = "破滅の槍"
+english = "Spear of Ruin"
+scope = "global_surface"
+
+[[entry]]
+japanese = "禁呪を求める魔道士"
+english = "Mage Seeking Forbidden Magic"
+scope = "global_surface"
+
+[[entry]]
+japanese = "船番ボルダン"
+english = "Boatkeeper Boldan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "警備兵"
+english = "Guard"
+scope = "global_surface"
+
+[[entry]]
+japanese = "貪欲の盾"
+english = "Shield of Greed"
+scope = "global_surface"
+
+[[entry]]
+japanese = "近くの村"
+english = "Nearby Village"
+scope = "global_surface"
+
+[[entry]]
+japanese = "酒場の客"
+english = "Tavern Patron"
+scope = "global_surface"
+
+[[entry]]
+japanese = "酒飲みドワーフ"
+english = "Hard-Drinking Dwarf"
+scope = "global_surface"
+
+[[entry]]
+japanese = "銀竜の首飾り"
+english = "Silver Dragon Necklace"
+scope = "global_surface"
+
+[[entry]]
+japanese = "閃刃"
+english = "Flash Blade"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔法に詳しい冒険者"
+english = "Magic-Savvy Adventurer"
+scope = "global_surface"
+
+[[entry]]
+japanese = "黄泉の乙女像"
+english = "Statue of the Underworld Maiden"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アルレシア"
+english = "Alresia"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アンティノ商会"
+english = "Antino Trading Company"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エステルの水晶"
+english = "Esther's Crystal"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エスリン"
+english = "Ethlinn"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エリエナイ"
+english = "Elienai"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エルメス"
+english = "Hermes"
+scope = "global_surface"
+
+[[entry]]
+japanese = "テジャワ"
+english = "Tejava"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ディンガル"
+# Official English translation established by the prequel.
+english = "Dyneskal"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ディンガル帝国"
+english = "Dyneskal Empire"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ディンガル軍"
+english = "Dyneskal Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "パルシェン"
+english = "Parshen"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ファーロス"
+english = "Pharos"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ボルキス"
+english = "Borkis"
+scope = "global_surface"
+
+[[entry]]
+japanese = "マモン"
+english = "Mammon"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ミイス"
+english = "Miis"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リューガ"
+english = "Ryuga"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ルフェイ"
+english = "Lufei"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レルラのハープ"
+english = "Relra's Harp"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロセン総督府"
+english = "Rocen Governor-General's Office"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロッチナ"
+english = "Rotchina"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロントン"
+english = "Lonton"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ワッシャー海賊"
+english = "Washer Pirates"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヴィア"
+english = "Via"
+scope = "global_surface"
+
+[[entry]]
+japanese = "巫女ウル"
+english = "Priestess Uru"
+scope = "global_surface"
+
+[[entry]]
+japanese = "空中庭園"
+english = "Hanging Gardens"
+scope = "global_surface"
+
+[[entry]]
+japanese = "自由都市リベルダム"
+english = "Free City Liberdam"
+scope = "global_surface"
+
+[[entry]]
+japanese = "賢王アルキュオネ"
+english = "Wise King Alcyone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "青竜軍"
+english = "Azure Dragon Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔道王国ラドラス"
+english = "Magic Kingdom Ladras"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アクア"
+english = "Aqua"
+scope = "source_records"
+source_ids = [997, 20125]
+
+[[entry]]
+japanese = "アタックスキル"
+english = "Attack Skill"
+scope = "source_records"
+source_ids = [20118]
+
+[[entry]]
+japanese = "アルキュオネ"
+english = "Alcyone"
+scope = "global_surface"
+
+[[entry]]
+japanese = "インフィニット"
+english = "Infinite"
+scope = "source_records"
+source_ids = [1121, 20391]
+
+[[entry]]
+japanese = "エナジーボルト"
+english = "Energy Bolt"
+scope = "source_records"
+source_ids = [1039, 20320]
+
+[[entry]]
+japanese = "エリスの宝石たち"
+english = "Eris's Jewels"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オーラパーム"
+english = "Aura Palm"
+scope = "source_records"
+source_ids = [1085, 20361]
+
+[[entry]]
+japanese = "オールアタック"
+english = "All Attack"
+scope = "source_records"
+source_ids = [1090, 20385]
+
+[[entry]]
+japanese = "カース"
+english = "Curse"
+scope = "source_records"
+source_ids = [1058, 20137]
+
+[[entry]]
+japanese = "キュア"
+english = "Cure"
+scope = "source_records"
+source_ids = [1040, 20148, 1960470]
+
+[[entry]]
+japanese = "クイックアーツ"
+english = "Quick Arts"
+scope = "source_records"
+source_ids = [1127]
+
+[[entry]]
+japanese = "クリスピー"
+english = "Crispy"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゲイル"
+english = "Gale"
+scope = "source_records"
+source_ids = [1003, 20161]
+
+[[entry]]
+japanese = "コマンドスキル"
+english = "Command Skill"
+scope = "source_records"
+source_ids = [20120]
+
+[[entry]]
+japanese = "サイクロン"
+english = "Cyclone"
+scope = "source_records"
+source_ids = [1029, 20318]
+
+[[entry]]
+japanese = "サイレント"
+english = "Silent"
+scope = "source_records"
+source_ids = [1004, 20170, 1960440]
+
+[[entry]]
+japanese = "サポートスキル"
+english = "Support Skill"
+scope = "source_records"
+source_ids = [20119]
+
+[[entry]]
+japanese = "サンダーボルト"
+english = "Thunderbolt"
+scope = "source_records"
+source_ids = [1035, 20173]
+
+[[entry]]
+japanese = "シャドウオーラ"
+english = "Shadow Aura"
+scope = "source_records"
+source_ids = [1086, 20338]
+
+[[entry]]
+japanese = "シャドウノック"
+english = "Shadow Knock"
+scope = "source_records"
+source_ids = [1083, 20388]
+
+[[entry]]
+japanese = "ジェド"
+english = "Jed"
+scope = "global_surface"
+
+[[entry]]
+japanese = "スキップ"
+english = "Skip"
+scope = "source_records"
+source_ids = [1028, 20189]
+
+[[entry]]
+japanese = "ストーム"
+english = "Storm"
+scope = "source_records"
+source_ids = [1027, 20192]
+
+[[entry]]
+japanese = "ストーン"
+english = "Stone"
+scope = "source_records"
+source_ids = [1000, 20193]
+
+[[entry]]
+japanese = "ソニックブロウ"
+english = "Sonic Blow"
+scope = "source_records"
+source_ids = [1081, 20389]
+
+[[entry]]
+japanese = "タナトスエッジ"
+english = "Thanatos Edge"
+scope = "source_records"
+source_ids = [1084, 20383]
+
+[[entry]]
+japanese = "ダスト"
+english = "Dust"
+scope = "source_records"
+source_ids = [1001, 20207, 1960441]
+
+[[entry]]
+japanese = "ダーク"
+english = "Dark"
+scope = "source_records"
+source_ids = [1055, 20202]
+
+[[entry]]
+japanese = "チャージ"
+english = "Charge"
+scope = "source_records"
+source_ids = [20109]
+
+[[entry]]
+japanese = "チャージスキル"
+english = "Charge Skill"
+scope = "source_records"
+source_ids = [20117]
+
+[[entry]]
+japanese = "テレポート"
+english = "Teleport"
+scope = "source_records"
+source_ids = [1002, 1960445]
+
+[[entry]]
+japanese = "ディーヴァ"
+english = "Diva"
+scope = "global_surface"
+
+[[entry]]
+japanese = "デスサイズ"
+english = "Death Scythe"
+scope = "source_records"
+source_ids = [1356, 20346]
+
+[[entry]]
+japanese = "デルージョン"
+english = "Delusion"
+scope = "source_records"
+source_ids = [1047, 20221, 1960443]
+
+[[entry]]
+japanese = "トール"
+english = "Thor"
+scope = "global_surface"
+excluded_surfaces = ["ロストール"]
+
+[[entry]]
+japanese = "ネメア・ランガスター"
+english = "Nemea Lancaster"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ノエルパーティー"
+english = "Noel Party"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ハイバースト"
+english = "High Burst"
+scope = "source_records"
+source_ids = [1075, 20392]
+
+[[entry]]
+japanese = "バイアス"
+english = "Vyas"
+scope = "global_surface"
+
+[[entry]]
+japanese = "パーシィ"
+english = "Percy"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ヒーラースペル"
+english = "Healer Spell"
+scope = "source_records"
+source_ids = [1068]
+
+[[entry]]
+japanese = "ファイア"
+english = "Fire"
+scope = "source_records"
+source_ids = [994, 20258]
+
+[[entry]]
+japanese = "ファイアボール"
+english = "Fireball"
+scope = "source_records"
+source_ids = [1031, 20260]
+
+[[entry]]
+japanese = "ファナティック"
+english = "Fanatic"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ファーロス家"
+english = "House Pharos"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フリジッド"
+english = "Frigid"
+scope = "source_records"
+source_ids = [1017, 20315]
+
+[[entry]]
+japanese = "フリーズ"
+english = "Freeze"
+scope = "source_records"
+source_ids = [1015, 20264]
+
+[[entry]]
+japanese = "フレイム"
+english = "Flame"
+scope = "source_records"
+source_ids = [1056, 20266]
+
+[[entry]]
+japanese = "ブレイズ"
+english = "Blaze"
+scope = "source_records"
+source_ids = [1009, 20265]
+
+[[entry]]
+japanese = "ペトリファイ"
+english = "Petrify"
+scope = "source_records"
+source_ids = [1022, 20269]
+
+[[entry]]
+japanese = "ホーリー"
+english = "Holy"
+scope = "source_records"
+source_ids = [1051, 20308]
+
+[[entry]]
+japanese = "ポイズン"
+english = "Poison"
+scope = "source_records"
+source_ids = [998, 20270, 1960439]
+
+[[entry]]
+japanese = "マインドスペル"
+english = "Mind Spell"
+scope = "source_records"
+source_ids = [1069]
+
+[[entry]]
+japanese = "メテオフィスト"
+english = "Meteor Fist"
+scope = "source_records"
+source_ids = [1116, 1375]
+
+[[entry]]
+japanese = "ライトニング"
+english = "Lightning"
+scope = "source_records"
+source_ids = [1034, 20288]
+
+[[entry]]
+japanese = "ラハブ"
+english = "Rahab"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ラルフ"
+english = "Ralph"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ランガスター"
+english = "Lancaster"
+scope = "global_surface"
+
+[[entry]]
+japanese = "七竜家"
+english = "Seven Dragon Houses"
+scope = "global_surface"
+
+[[entry]]
+japanese = "両手剣"
+english = "Two-Handed Sword"
+scope = "source_records"
+source_ids = [200130]
+
+[[entry]]
+japanese = "呪い"
+english = "Curse"
+scope = "source_records"
+source_ids = [20245]
+
+[[entry]]
+japanese = "帝都エンシャント"
+english = "Ancient, the Imperial Capital"
+scope = "global_surface"
+
+[[entry]]
+japanese = "月世界"
+english = "Moon World"
+scope = "global_surface"
+
+[[entry]]
+japanese = "月光"
+english = "Moonlight"
+scope = "source_records"
+source_ids = [1352, 20185]
+
+[[entry]]
+japanese = "東方攻略軍"
+english = "Eastern Campaign Army"
+scope = "global_surface"
+
+[[entry]]
+japanese = "東方諸国"
+english = "Eastern Nations"
+scope = "global_surface"
+
+[[entry]]
+japanese = "東方６カ国"
+english = "Six Eastern Nations"
+scope = "global_surface"
+
+[[entry]]
+japanese = "毒"
+english = "Poison"
+scope = "source_records"
+source_ids = [1559]
+
+[[entry]]
+japanese = "水"
+english = "Water"
+scope = "source_records"
+source_ids = [1548, 170262]
+
+[[entry]]
+japanese = "火"
+english = "Fire"
+scope = "source_records"
+source_ids = [1547, 1560, 170261]
+
+[[entry]]
+japanese = "片手剣"
+english = "One-Handed Sword"
+scope = "source_records"
+source_ids = [200129]
+
+[[entry]]
+japanese = "獅子の牙"
+english = "Lion's Fang"
+scope = "global_surface"
+
+[[entry]]
+japanese = "胸当て"
+english = "Breastplate"
+scope = "source_records"
+source_ids = [200138]
+
+[[entry]]
+japanese = "闇"
+english = "Dark"
+scope = "source_records"
+source_ids = [1551, 20326, 170263]
+
+[[entry]]
+japanese = "闇の門"
+english = "Dark Gate"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風"
+english = "Wind"
+scope = "source_records"
+source_ids = [1550, 180135]
+
+[[entry]]
+japanese = "風の祭壇"
+english = "Wind Altar"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔王バロル"
+english = "Balor, Demon King"
+scope = "global_surface"
+
+[[entry]]
+japanese = "麻痺ガス"
+english = "Paralysis Gas"
+scope = "source_records"
+source_ids = [20275, 1960448]
+
+[[entry]]
+japanese = "イーシャ"
+english = "Iria"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エルファス"
+english = "Elfas"
+scope = "global_surface"
+
+[[entry]]
+japanese = "カルラ"
+english = "Karula"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゼネテス"
+english = "Xenetes"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ザギヴ"
+english = "Zagiv"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アンギルダン"
+english = "Angeerdan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジラーク"
+english = "Zsilak"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オルファウス"
+english = "Orphaus"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エステル"
+english = "Esther"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゼリグ"
+english = "Zelig"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シェムハザ"
+english = "Shemhaza"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アイリーン"
+english = "Irene"
+scope = "global_surface"
+
+[[entry]]
+japanese = "セラ"
+english = "Sera"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アーギルシャイア"
+english = "Argyleshire"
+scope = "global_surface"
+
+[[entry]]
+japanese = "シャリ"
+english = "Shalli"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アトレイア"
+english = "Atleia"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エア"
+english = "Er"
+scope = "global_surface"
+
+[[entry]]
+japanese = "イークレムン"
+english = "Iiklmn"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ガルドラン"
+english = "Girldlan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "カフィン"
+english = "Coffin"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ナーシェス"
+english = "Narscess"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アキュリュース"
+# English name from official game material (website).
+english = "Aqyurius"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アキュリュ－ス"
+# English name from official game material (website).
+english = "Aqyurius"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ツェラシェル"
+english = "Zeraschel"
+scope = "global_surface"
+
+[[entry]]
+japanese = "サイフォス"
+english = "Xiphos"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ソリアス"
+english = "Solias"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オッシ"
+english = "Ossi"
+scope = "global_surface"
+
+[[entry]]
+japanese = "セルモノー"
+english = "Selmono"
+scope = "global_surface"
+
+[[entry]]
+japanese = "セルモノー・リュー"
+english = "Selmono Ryu"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アトレイアの部屋"
+english = "Atleia's Room"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エリスの執務室"
+english = "Eris's Office"
+scope = "global_surface"
+
+[[entry]]
+japanese = "竜字将軍"
+english = "Dragon-Sigil General"
+scope = "global_surface"
+
+[[entry]]
+japanese = "レルラロントン"
+english = "Relra-Lonton"
+scope = "global_surface"
+
+[[entry]]
+japanese = "デジャワ"
+english = "Tejava"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ザキヴ"
+english = "Zagiv"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ガルドラ～ン"
+english = "Girldlan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ストラ＝フゴー"
+english = "Stra-Hugo"
+scope = "global_surface"
+
+[[entry]]
+japanese = "アンティノ"
+english = "Antino"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エリュマルク"
+english = "Elmark"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ウルグ"
+english = "Ulugh"
+scope = "global_surface"
+
+[[entry]]
+japanese = "タルテュバ"
+english = "Tartuba"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゾフォル"
+english = "Zofor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "エルアザル"
+english = "Elazar"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ラミュ"
+english = "Ramuz"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オルナット"
+english = "Ornut"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ジュサプブロス"
+english = "Jusabros"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ダナン"
+english = "Danan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "フルーヴ"
+english = "Fleuve"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ウルカーン"
+# The town and its fire spirit god share this name.
+english = "Ulkarne"
+scope = "global_surface"
+
+[[entry]]
+japanese = "マゴス"
+english = "Magos"
+scope = "global_surface"
+
+[[entry]]
+japanese = "イズキヤル"
+english = "Izkiyal"
+scope = "global_surface"
+
+[[entry]]
+japanese = "イオンズ"
+english = "Ions"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ダイダロ"
+english = "Daedalo"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ボルダン"
+english = "Boldan"
+scope = "global_surface"
+
+[[entry]]
+japanese = "リルビー"
+# English name from official prequel material.
+english = "Lilubee"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ダルケニス"
+# English name from official prequel material.
+english = "Darkenith"
+scope = "global_surface"
+
+[[entry]]
+japanese = "征服帝ランガスター"
+english = "Conqueror Emperor Lancaster"
+scope = "global_surface"
+
+[[entry]]
+japanese = "施文院"
+english = "Inscription Order"
+scope = "global_surface"
+
+[[entry]]
+# Narrative faction form; exact singular speaker labels remain scoped above.
+japanese = "告死天使"
+english = "Angels of Death"
+scope = "global_surface"
+excluded_surfaces = ["告死天使<end>", "告死天使アジト"]
+
+[[entry]]
+japanese = "告死天使の長"
+english = "Leader of the Angels of Death"
+scope = "global_surface"
+
+[[entry]]
+japanese = "東方の博士"
+english = "Scholar from the East"
+scope = "global_surface"
+
+[[entry]]
+japanese = "オッシ先生"
+english = "Master Ossi"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ゴブゴブ団"
+english = "Gob-Gob Gang"
+scope = "global_surface"
+
+[[entry]]
+japanese = "魔道王国"
+english = "Magic Kingdom"
+scope = "global_surface"
+
+[[entry]]
+japanese = "農場の間"
+english = "Farm Chamber"
+scope = "global_surface"
+
+[[entry]]
+japanese = "元気の薬"
+english = "Vitality Medicine"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ナイトメアの雫"
+english = "Nightmare's Tear"
+scope = "global_surface"
+
+[[entry]]
+japanese = "千年樹"
+english = "Thousand-Year Tree"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ねこやしき"
+english = "Cat Manor"
+scope = "global_surface"
+
+[[entry]]
+japanese = "移動の間"
+english = "Transit Chamber"
+scope = "global_surface"
+
+[[entry]]
+japanese = "貯水の間"
+english = "Water Reservoir Chamber"
+scope = "global_surface"
+
+[[entry]]
+japanese = "地の巫女"
+english = "Priestess of Earth"
+scope = "global_surface"
+
+[[entry]]
+japanese = "土の巫女"
+english = "Priestess of Earth"
+scope = "global_surface"
+
+[[entry]]
+japanese = "水の巫女"
+english = "Priestess of Water"
+scope = "global_surface"
+
+[[entry]]
+japanese = "火の巫女"
+english = "Priestess of Fire"
+scope = "global_surface"
+
+[[entry]]
+japanese = "風の巫女"
+english = "Priestess of Wind"
+scope = "global_surface"
+
+[[entry]]
+japanese = "ロストール復興団"
+english = "Rostorl Restoration League"
+scope = "global_surface"
+
+[[entry]]
+japanese = "復興団"
+english = "Restoration League"
+scope = "global_surface"
