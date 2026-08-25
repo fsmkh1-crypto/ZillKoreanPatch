@@ -2,7 +2,6 @@ package com.fsmkh1.zillfontdump;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -23,6 +22,7 @@ final class FontExtractor {
     private static final String ZILLFONT_SOURCE_SHA256 = "0d3d6d2648870e87a01636cdfc7cc7af8100ea40b71e5ed05f82ac197606584a";
     private static final long JILLBTN_MEMBER_SIZE = 0x18E60L;
     private static final String JILLBTN_SOURCE_SHA256 = "95b48379092db4db72f890d5a221ba8c4094dd438cb4c4eba98eb5520c7b17aa";
+    private static final String BOOT_SOURCE_SHA256 = "5e294dc84a7f0d50719ecd26cb24ffb3792f2d9445803690845a8f1fa1cb85a3";
     private static final String EBOOT_SOURCE_SHA256 = "2a52012be00c07512dcde932ff6e9eb9b96912c59dd5a25c7c26ef821c124d68";
     private static final String BINDATA_SOURCE_SHA256 = "3241fc000f3d52fe8522baaa985fd866e29d64d3a0f23ac4e28b66dee957de3e";
 
@@ -30,6 +30,7 @@ final class FontExtractor {
         final String discId;
         final String version;
         final long isoSize;
+        final Iso9660.Entry boot;
         final Iso9660.Entry eboot;
         final Iso9660.Entry paBin;
         final Iso9660.Entry paArc;
@@ -40,12 +41,14 @@ final class FontExtractor {
         final String bindataArchive;
 
         Inspection(String discId, String version, long isoSize,
-                   Iso9660.Entry eboot, Iso9660.Entry paBin, Iso9660.Entry paArc,
+                   Iso9660.Entry boot, Iso9660.Entry eboot,
+                   Iso9660.Entry paBin, Iso9660.Entry paArc,
                    PaaIndex.Member zillfont, PaaIndex.Member jillbtn,
                    Iso9660.Entry bindataArc, PaaIndex.Member bindata, String bindataArchive) {
             this.discId = discId;
             this.version = version;
             this.isoSize = isoSize;
+            this.boot = boot;
             this.eboot = eboot;
             this.paBin = paBin;
             this.paArc = paArc;
@@ -61,7 +64,7 @@ final class FontExtractor {
         Inspection(String discId, String version, long isoSize,
                    Iso9660.Entry paBin, Iso9660.Entry paArc,
                    PaaIndex.Member zillfont, PaaIndex.Member jillbtn) {
-            this(discId, version, isoSize, null, paBin, paArc,
+            this(discId, version, isoSize, null, null, paBin, paArc,
                     zillfont, jillbtn, null, null, "");
         }
     }
@@ -111,6 +114,8 @@ final class FontExtractor {
             throw new IOException("Unsupported game version: " + version + " (expected 1.03)");
         }
 
+        Iso9660.Entry boot = require(iso, "PSP_GAME/SYSDIR/BOOT.BIN");
+        validateIsoEntryHash(iso, boot, "BOOT.BIN", BOOT_SOURCE_SHA256);
         Iso9660.Entry eboot = require(iso, "PSP_GAME/SYSDIR/EBOOT.BIN");
         validateIsoEntryHash(iso, eboot, "EBOOT.BIN", EBOOT_SOURCE_SHA256);
 
@@ -143,7 +148,7 @@ final class FontExtractor {
         if (bindata == null) throw new IOException("Retail archives do not contain data/bindata.dat");
         validateSourceHash(iso, bindata.arc, bindata.member, BINDATA_SOURCE_SHA256);
 
-        return new Inspection(discId, version, channel.size(), eboot, paBin, paArc,
+        return new Inspection(discId, version, channel.size(), boot, eboot, paBin, paArc,
                 zillfont, jillbtn, bindata.arc, bindata.member, bindata.archive);
     }
 
@@ -156,6 +161,7 @@ final class FontExtractor {
                     "font/zillfont.par", inspection.zillfont, "pa"));
             files.add(exportMember(iso, inspection.paArc, zip,
                     "2d/font/jillbtn.par", inspection.jillbtn, "pa"));
+            files.add(exportIsoEntry(iso, zip, "SYSDIR/BOOT.BIN", inspection.boot));
             files.add(exportIsoEntry(iso, zip, "SYSDIR/EBOOT.BIN", inspection.eboot));
             files.add(exportMember(iso, inspection.bindataArc, zip,
                     "data/bindata.dat", inspection.bindata, inspection.bindataArchive));
@@ -260,8 +266,8 @@ final class FontExtractor {
     private static String manifestJson(Inspection i, String sourceName, List<Exported> files) {
         StringBuilder s = new StringBuilder();
         s.append("{\n");
-        s.append("  \"format\": \"zill-slot-audit-extract-v3\",\n");
-        s.append("  \"extractorVersion\": \"0.4.0\",\n");
+        s.append("  \"format\": \"zill-slot-audit-extract-v4\",\n");
+        s.append("  \"extractorVersion\": \"0.5.0\",\n");
         s.append("  \"target\": \"ULJM-05410 v1.03\",\n");
         s.append("  \"discId\": \"").append(json(i.discId)).append("\",\n");
         s.append("  \"discVersion\": \"").append(json(i.version)).append("\",\n");
