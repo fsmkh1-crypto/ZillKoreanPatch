@@ -1,0 +1,41 @@
+name: Korean raster catalog
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'translations/korean/**'
+      - 'internal/koreanfont/**'
+      - 'cmd/zill/korean_font_generate.go'
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+      - name: Fetch pinned UnDotum source font
+        run: |
+          curl --fail --location --retry 3 \
+            --output /tmp/UnDotum.ttf \
+            https://raw.githubusercontent.com/deepin-community/fonts-unfonts-core/ef6c68f4f0beb2a03fcf460aa643d73389aac59a/UnDotum.ttf
+          sha256sum /tmp/UnDotum.ttf
+      - name: Generate current Korean raster catalog
+        run: |
+          mkdir -p build
+          go run ./cmd/zill korean-font-generate \
+            --font /tmp/UnDotum.ttf \
+            --output build/korean-glyphs.toml
+          test -s build/korean-glyphs.toml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: korean-glyphs
+          path: build/korean-glyphs.toml
+          if-no-files-found: error
+          retention-days: 7
