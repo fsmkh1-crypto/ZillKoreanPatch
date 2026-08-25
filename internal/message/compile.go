@@ -153,13 +153,28 @@ func preservesSemantics(semantic, layout string) bool {
 			gotIndex++
 			continue
 		}
+
+		// Preserve the existing layout contract that one complete whitespace span
+		// may normalize to another whitespace span (for example full-width space to
+		// ASCII space) without changing wording.
+		if wantIndex < len(want) && want[wantIndex].kind == "whitespace" && got[gotIndex].kind == "whitespace" {
+			for wantIndex < len(want) && want[wantIndex].kind == "whitespace" {
+				wantIndex++
+			}
+			for gotIndex < len(got) && got[gotIndex].kind == "whitespace" {
+				gotIndex++
+			}
+			continue
+		}
 		if got[gotIndex].kind != "boundary" {
 			return false
 		}
+		// Never accept two generated boundaries at the same semantic position.
+		if gotIndex > 0 && got[gotIndex-1].kind == "boundary" {
+			return false
+		}
 
-		// Existing behavior: a generated line break may replace one complete
-		// semantic whitespace span. Consume the whole span so whitespace length
-		// cannot accidentally leak into semantic equivalence.
+		// A generated line break may replace one complete semantic whitespace span.
 		if wantIndex < len(want) && want[wantIndex].kind == "whitespace" {
 			for wantIndex < len(want) && want[wantIndex].kind == "whitespace" {
 				wantIndex++
