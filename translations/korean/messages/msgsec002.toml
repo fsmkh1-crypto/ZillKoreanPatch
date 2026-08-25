@@ -1,0 +1,137 @@
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+["20000"]
+japanese = "消費<end>"
+korean = "소비<end>"
+
+["20001"]
+japanese = "倍<end>"
+korean = "배<end>"
+
+["20002"]
+japanese = "▼<end>"
+korean = "▼<end>"
+
+["20003"]
+japanese = "敵 すべて<end>"
+korean = "적 전체<end>"
+
+["20004"]
+japanese = "味方 すべて<end>"
+korean = "아군 전체<end>"
+
+["20005"]
+japanese = "デュアル:<end>"
+korean = "듀얼:<end>"
+
+["20006"]
+japanese = "%sの%sの属性は、%s<end>"
+korean = "%s의 %s 속성은 %s<end>"
+
+["20007"]
+japanese = "右手<end>"
+korean = "오른손<end>"
+
+["20008"]
+japanese = "左手<end>"
+korean = "왼손<end>"
+
+["20009"]
+japanese = " 方向キー下でスキル<end>"
+korean = " 방향키 아래로 스킬<end>"
+
+["20010"]
+japanese = "で攻撃<end>"
+korean = "로 공격<end>"
+
+["20011"]
+japanese = "スキルを使用<end>"
+korean = "스킬 사용<end>"
+
+["20012"]
+japanese = "魔法を使用<end>"
+korean = "마법 사용<end>"
+
+["20013"]
+japanese = "アイテムを使用<end>"
+korean = "아이템 사용<end>"
+
+["20014"]
+japanese = "チャージスキルを使用<end>"
+korean = "차지 스킬 사용<end>"
+
+["20015"]
+japanese = "防御、または味方をかばう<end>"
+korean = "방어 또는 아군 엄호<end>"
+
+["20016"]
+japanese = "ポジションの移動<end>"
+korean = "포지션 이동<end>"
+
+["20017"]
+japanese = "ＨＰ、ＭＰを消費し、敵全体を光の柱に包む<end>"
+korean = "ＨＰ와 ＭＰ를 소비해 적 전체를 빛의 기둥으로 감싼다<end>"
+
+["20018"]
+japanese = "ＨＰ、ＭＰを消費し、敵全体を壊滅させる<end>"
+korean = "ＨＰ와 ＭＰ를 소비해 적 전체를 괴멸시킨다<end>"
+
+["20019"]
+japanese = "戦闘から逃げる<end>"
+korean = "전투에서 도망친다<end>"
+
+["20020"]
+japanese = "パス<end>"
+korean = "패스<end>"
+
+["20021"]
+japanese = "いどう<end>"
+korean = "이동<end>"
+
+["20022"]
+japanese = "飛び出しに移動<end>"
+korean = "돌출 위치로 이동<end>"
+
+["20023"]
+japanese = "前衛に移動<end>"
+korean = "전위로 이동<end>"
+
+["20024"]
+japanese = "後衛に移動<end>"
+korean = "후위로 이동<end>"
+
+["20025"]
+japanese = "Lv1 ディード<end>"
+korean = "Lv1 디드<end>"
+
+["20026"]
+japanese = "Lv2 ディード<end>"
+korean = "Lv2 디드<end>"
+
+["20027"]
+japanese = "Lv3 ディード<end>"
+korean = "Lv3 디드<end>"
+
+["20028"]
+japanese = "ポー<end>"
+korean = "포<end>"
+
+["20029"]
+japanese = "アルフレイア<end>"
+korean = "알프레이아<end>"
+
+["20030"]
+japanese = "エキュース<end>"
+korean = "에큐스<end>"
+
+["20031"]
+japanese = "ダヴァ<end>"
+korean = "다바<end>"
+
+["20032"]
+japanese = "ウィドエラ<end>"
+korean = "위도에라<end>"
+
+["20033"]
+japanese = "ナフキンス<end>"
+korean = "나프킨스<end>"
