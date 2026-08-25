@@ -4,6 +4,11 @@
 The translated set is derived from checked-in Korean overlays, so resume state
 never depends on a manually maintained cursor. Output is compact JSONL containing
 only section/id/Japanese source. A progress JSON file can be written alongside it.
+
+By default untranslated rows are ordered by encoded JSONL size (shortest first).
+This keeps packet fetches dense for LLM translation while preserving deterministic
+selection, exact IDs, and fully resumable imports. Use --order canonical to restore
+strict source order when needed for debugging/review.
 """
 from __future__ import annotations
 
@@ -43,8 +48,6 @@ def load_translated() -> set[tuple[int, str]]:
                     raise SystemExit(
                         f"conflicting Korean id {section}/{rid}: {owners[key]} and {path}"
                     )
-                # Historical split files contain a few identical duplicates; they
-                # count once for progress and are harmless to resume selection.
                 continue
             values[key] = ko
             owners[key] = path
@@ -64,10 +67,27 @@ def canonical_rows() -> list[tuple[int, str, str]]:
     return rows
 
 
+def encoded_line(row: tuple[int, str, str]) -> str:
+    section, rid, ja = row
+    return json.dumps(
+        {"section": section, "id": rid, "japanese": ja},
+        ensure_ascii=False,
+        separators=(",", ":"),
+    ) + "\n"
+
+
+def numeric_id_key(rid: str) -> tuple[int, str]:
+    try:
+        return (int(rid), "")
+    except ValueError:
+        return (2**63 - 1, rid)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max-records", type=int, default=1500)
+    ap.add_argument("--max-records", type=int, default=2000)
     ap.add_argument("--max-bytes", type=int, default=400_000)
+    ap.add_argument("--order", choices=("shortest", "canonical"), default="shortest")
     ap.add_argument("--out", type=Path)
     ap.add_argument("--progress", type=Path)
     args = ap.parse_args()
@@ -81,18 +101,22 @@ def main() -> None:
     if orphaned:
         raise SystemExit(f"Korean overlays contain {len(orphaned)} non-canonical ids; first={orphaned[0]}")
 
+    untranslated = [row for row in canonical if (row[0], row[1]) not in translated]
+    if args.order == "shortest":
+        untranslated.sort(
+            key=lambda row: (
+                len(encoded_line(row).encode("utf-8")),
+                row[0],
+                numeric_id_key(row[1]),
+            )
+        )
+
     packet: list[str] = []
     packet_bytes = 0
     first: tuple[int, str] | None = None
     last: tuple[int, str] | None = None
-    for section, rid, ja in canonical:
-        if (section, rid) in translated:
-            continue
-        line = json.dumps(
-            {"section": section, "id": rid, "japanese": ja},
-            ensure_ascii=False,
-            separators=(",", ":"),
-        ) + "\n"
+    for section, rid, ja in untranslated:
+        line = encoded_line((section, rid, ja))
         n = len(line.encode("utf-8"))
         if packet and (len(packet) >= args.max_records or packet_bytes + n > args.max_bytes):
             break
@@ -116,6 +140,7 @@ def main() -> None:
         "records_done": done,
         "records_remaining": total - done,
         "percent_done": round(done * 100.0 / total, 4) if total else 100.0,
+        "packet_order": args.order,
         "packet_records": len(packet),
         "packet_bytes": packet_bytes,
         "packet_first": {"section": first[0], "id": first[1]} if first else None,
