@@ -8,9 +8,9 @@ import unittest
 from control_tags import fixed_tokens, runtime_tokens
 
 
-def load_refresh_module():
-    path = Path(__file__).with_name("refresh-japanese-refs.py")
-    spec = importlib.util.spec_from_file_location("refresh_japanese_refs", path)
+def load_script(filename: str, module_name: str):
+    path = Path(__file__).with_name(filename)
+    spec = importlib.util.spec_from_file_location(module_name, path)
     if spec is None or spec.loader is None:
         raise RuntimeError(f"cannot load {path}")
     module = importlib.util.module_from_spec(spec)
@@ -41,13 +41,13 @@ class ControlTagTests(unittest.TestCase):
         self.assertEqual(fixed_tokens(source), fixed_tokens(translated))
 
     def test_refresh_keeps_legitimate_korean_reflow(self) -> None:
-        refresh = load_refresh_module()
+        refresh = load_script("refresh-japanese-refs.py", "refresh_japanese_refs")
         japanese = "汝、無限のソウルを持つ者よ<line-break>我に応ぜよ<line-break>答えよ<end>"
         korean = "그대, 무한의 소울을 지닌 자여 나에게 응답하라<line-break>대답하라<end>"
         self.assertIsNone(refresh.record_problem(japanese, japanese, korean))
 
     def test_refresh_uses_full_fixed_control_contract(self) -> None:
-        refresh = load_refresh_module()
+        refresh = load_script("refresh-japanese-refs.py", "refresh_japanese_refs_full")
         japanese = "<call:12><operator:$04:$7B><value:$1F>本文<end>"
         korean = "<call:12><operator:$04:$7B><value:$1F>본문<end>"
         self.assertIsNone(refresh.record_problem(japanese, japanese, korean))
@@ -56,6 +56,19 @@ class ControlTagTests(unittest.TestCase):
             refresh.record_problem(japanese, japanese, bad),
             "fixed control-token mismatch",
         )
+
+    def test_legacy_linebreak_migration_separates_semantics_and_layout(self) -> None:
+        migrate = load_script("migrate-semantic-linebreaks.py", "migrate_semantic_linebreaks")
+        legacy = "그대, 무한의 소울을 지닌 자여 <line-break> 나에게 응답하라<line-break>대답하라<end>"
+        self.assertEqual(
+            migrate.semanticize(legacy),
+            "그대, 무한의 소울을 지닌 자여 나에게 응답하라 대답하라<end>",
+        )
+        self.assertEqual(
+            migrate.layoutize(legacy),
+            "그대, 무한의 소울을 지닌 자여<line-break>나에게 응답하라<line-break>대답하라<end>",
+        )
+        self.assertNotIn("<line-break>", migrate.semanticize(legacy))
 
 
 if __name__ == "__main__":
