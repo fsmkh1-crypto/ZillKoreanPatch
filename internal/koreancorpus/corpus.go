@@ -180,8 +180,14 @@ func parseSection(data []byte, path string, section int, sources map[int]string)
 		if err := validateText(path, id, "korean", *value.Korean); err != nil {
 			return nil, err
 		}
+		if err := validateControlContract(path, id, source, *value.Korean, "korean"); err != nil {
+			return nil, err
+		}
 		if layout != "" {
 			if err := validateText(path, id, "layout", layout); err != nil {
+				return nil, err
+			}
+			if err := validateControlContract(path, id, source, layout, "layout"); err != nil {
 				return nil, err
 			}
 		}
