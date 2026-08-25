@@ -35,12 +35,15 @@ jobs:
           git read-tree --reset -u "$UPSTREAM_HEAD"
 
           # Overlay Korean-project-owned paths so the bootstrap can safely run
-          # after Android/research work has already landed in this repository.
+          # after Android/research/PoC work has already landed in this repository.
           for path in \
             android-patcher \
             font-tools \
             research \
             tests \
+            internal/cp932/glyphkey.go \
+            internal/cp932/glyphkey_test.go \
+            internal/koreanslots \
             .github/workflows/android-extractor.yml \
             .github/workflows/bootstrap-upstream.yml
           do
