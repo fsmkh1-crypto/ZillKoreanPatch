@@ -5,8 +5,8 @@ Input JSONL rows:
   {"section":3,"id":"30000","korean":"..."}
 
 Canonical Japanese text is looked up locally, so bulk translation payloads do not
-need to duplicate it. Fixed runtime controls are validated; line breaks remain
-layout-authorable and therefore do not have to mirror Japanese wrapping.
+need to duplicate it. Fixed runtime controls are validated. ``<line-break>`` is
+build-owned layout and must not appear in translator-owned ``korean`` text.
 
 Example:
   python3 tools/korean/import-translations.py batch.jsonl --out /tmp/korean-import
@@ -22,6 +22,7 @@ from control_tags import fixed_tokens
 
 ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
+LINE_BREAK = "<line-break>"
 
 
 def q(s: str) -> str:
@@ -65,6 +66,11 @@ def main() -> None:
             ja = str(rec["japanese"])
             if not ko:
                 raise SystemExit(f"empty Korean translation {section}/{rid}")
+            if LINE_BREAK in ko:
+                raise SystemExit(
+                    f"semantic Korean {section}/{rid} contains {LINE_BREAK}; "
+                    "omit layout breaks from translation output"
+                )
             if fixed_tokens(ja) != fixed_tokens(ko):
                 raise SystemExit(
                     f"fixed-control mismatch {section}/{rid}: "
