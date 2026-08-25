@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class PoCPatcherTest {
     @Test
-    public void patchesOnlyDeclaredAtlasBytesAndPreservesSize() throws Exception {
+    public void patchesOnlyDeclaredFontAndMessageBytesAndPreservesSize() throws Exception {
         int isoSize = 900000;
         byte[] source = new byte[isoSize];
         for (int i = 0; i < source.length; i++) source[i] = (byte) (i * 31 + 7);
@@ -18,14 +18,17 @@ public class PoCPatcherTest {
         Iso9660.Entry paArc = new Iso9660.Entry("pa.arc", 0, isoSize, false);
         PaaIndex.Member zillfont = new PaaIndex.Member(13611, "font/zillfont.par", 1000, 0x80470L);
         PaaIndex.Member jillbtn = new PaaIndex.Member(13612, "2d/font/jillbtn.par", 0, 0x18E60L);
+        PaaIndex.Member startup = new PaaIndex.Member(1234, StartupMessage.MEMBER_NAME, 800000, 1000);
         FontExtractor.Inspection inspection = new FontExtractor.Inspection(
-                "ULJM05410", "1.03", isoSize, paBin, paArc, zillfont, jillbtn);
+                "ULJM05410", "1.03", isoSize,
+                null, null, paBin, paArc, zillfont, jillbtn,
+                null, null, "", paArc, startup, 128);
 
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         PoCPatcher.copyAndPatch(new ByteArrayInputStream(source), out, inspection);
         byte[] patched = out.toByteArray();
 
-        assertEquals(8, PoCPatcher.glyphCount());
+        assertEquals(5, PoCPatcher.glyphCount());
         assertEquals(source.length, patched.length);
         long[] offsets = PoCPatcher.absoluteOffsets(inspection);
         assertEquals(PoCPatcher.patchByteCount(), offsets.length);
@@ -44,5 +47,10 @@ public class PoCPatcherTest {
         for (int i = 0; i < source.length; i++) {
             if (!declared[i]) assertEquals("unexpected byte edit at " + i, source[i], patched[i]);
         }
+
+        // The guarded startup record begins with the custom renderer bytes for 테.
+        int messageStart = 800000 + 128;
+        assertEquals(0xE1, patched[messageStart] & 0xff);
+        assertEquals(0xA1, patched[messageStart + 1] & 0xff);
     }
 }
