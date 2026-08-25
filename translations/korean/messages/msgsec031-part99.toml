@@ -1,12 +1,32 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["310012"]
+japanese = "うっ！！<end>"
+korean = "윽!!<end>"
+
 ["310046"]
 japanese = "あ！<end>"
 korean = "아!<end>"
 
+["310185"]
+japanese = "うっ！！<end>"
+korean = "윽!!<end>"
+
+["310199"]
+japanese = "撃て！！<end>"
+korean = "쏴!!<end>"
+
+["310201"]
+japanese = "ぐわっ！<end>"
+korean = "크악!<end>"
+
 ["310278"]
 japanese = "大通り<end>"
 korean = "대로<end>"
+
+["310282"]
+japanese = "長老の家<end>"
+korean = "장로의 집<end>"
 
 ["310285"]
 japanese = "ギルド<end>"
@@ -27,6 +47,10 @@ korean = "여관<end>"
 ["310303"]
 japanese = "広場<end>"
 korean = "광장<end>"
+
+["310309"]
+japanese = "領主邸前<end>"
+korean = "영주 저택 앞<end>"
 
 ["310312"]
 japanese = "空<end>"
