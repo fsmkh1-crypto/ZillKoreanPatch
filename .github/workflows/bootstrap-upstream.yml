@@ -1,0 +1,51 @@
+name: Bootstrap upstream history
+
+on:
+  push:
+    paths:
+      - .github/workflows/bootstrap-upstream.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Import HK47196/zill with history preserved
+        shell: bash
+        run: |
+          set -euo pipefail
+          UPSTREAM_SHA=a98d9ce29f361d666ec23da0dcfd351f24537ffd
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/HK47196/zill.git
+          git fetch --no-tags upstream "$UPSTREAM_SHA"
+
+          OUR_HEAD="$(git rev-parse HEAD)"
+          UPSTREAM_HEAD="$(git rev-parse FETCH_HEAD)"
+
+          # Build a root tree from the pinned upstream snapshot, while retaining
+          # this one-shot bootstrap workflow. The resulting commit has both the
+          # private repository history and the complete upstream history as parents.
+          git read-tree --reset -u "$UPSTREAM_HEAD"
+          mkdir -p .github/workflows
+          git show "$OUR_HEAD:.github/workflows/bootstrap-upstream.yml" > .github/workflows/bootstrap-upstream.yml
+          git add .github/workflows/bootstrap-upstream.yml
+          TREE="$(git write-tree)"
+
+          COMMIT="$(printf '%s\n' \
+            'Import HK47196/zill upstream history' \
+            '' \
+            'Pinned upstream: HK47196/zill@a98d9ce29f361d666ec23da0dcfd351f24537ffd' \
+            'Preserves the upstream GPL-3.0-or-later code history and license files.' \
+            | git commit-tree "$TREE" -p "$OUR_HEAD" -p "$UPSTREAM_HEAD")"
+
+          git reset --hard "$COMMIT"
+          git push origin "$COMMIT:main"
