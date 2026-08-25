@@ -9,6 +9,16 @@ import (
 	"testing"
 )
 
+func TestLoadKoreanProjectAllowsMissingDirectoryAsEmptyOverlay(t *testing.T) {
+	project, summary, err := LoadKoreanProject(t.TempDir(), testKoreanSourceProject())
+	if err != nil {
+		t.Fatal(err)
+	}
+	if summary.Sections != 0 || summary.Records != 0 || len(project.Entries) != 0 {
+		t.Fatalf("unexpected nonempty overlay: summary=%+v entries=%+v", summary, project.Entries)
+	}
+}
+
 func TestLoadKoreanProjectSparseAndStable(t *testing.T) {
 	root := t.TempDir()
 	dir := filepath.Join(root, "translations", "korean", "messages")
