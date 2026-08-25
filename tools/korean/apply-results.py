@@ -58,7 +58,9 @@ def load_existing() -> tuple[dict[tuple[int, str], str], dict[int, dict[str, dic
             key = (section, str(rid))
             ko = str(rec["korean"])
             if key in existing:
-                raise SystemExit(f"duplicate Korean id {section}/{rid}: {owners[key]} and {path}")
+                if existing[key] != ko:
+                    raise SystemExit(f"conflicting Korean id {section}/{rid}: {owners[key]} and {path}")
+                continue
             existing[key] = ko
             owners[key] = path
             if path.name == f"msgsec{section:03d}-auto.toml":
@@ -84,7 +86,7 @@ def main() -> None:
 
     existing, auto = load_existing()
     canonical_cache: dict[int, dict[str, dict[str, object]]] = {}
-    seen_input: set[tuple[int, str]] = set()
+    seen_input: dict[tuple[int, str], str] = {}
     added = 0
     unchanged = 0
 
@@ -97,8 +99,10 @@ def main() -> None:
                 section, rid, ko = int(obj["section"]), str(obj["id"]), str(obj["korean"])
                 key = (section, rid)
                 if key in seen_input:
-                    raise SystemExit(f"{input_path}:{lineno}: duplicate input id {section}/{rid}")
-                seen_input.add(key)
+                    if seen_input[key] != ko:
+                        raise SystemExit(f"{input_path}:{lineno}: conflicting duplicate input id {section}/{rid}")
+                    continue
+                seen_input[key] = ko
                 if not ko:
                     raise SystemExit(f"{input_path}:{lineno}: empty Korean translation {section}/{rid}")
                 canon = canonical_cache.setdefault(section, canonical_for(section))
