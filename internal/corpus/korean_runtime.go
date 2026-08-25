@@ -5,9 +5,10 @@ package corpus
 import "fmt"
 
 // RuntimeTexts returns the final message text for every source record in stable
-// source order. Accepted Korean rows replace their Japanese source; records not
-// present in the sparse Korean overlay remain Japanese. This is the canonical
-// input for stock-glyph preservation and custom-glyph planning.
+// source order. Accepted Korean rows replace their Japanese source; generated
+// layout takes precedence when present. Records not in the sparse Korean overlay
+// remain Japanese. This is the canonical input for stock-glyph preservation and
+// custom-glyph planning.
 func (project *KoreanProject) RuntimeTexts(source *Project) ([]string, error) {
 	if project == nil {
 		return nil, fmt.Errorf("Korean runtime texts: nil Korean project")
@@ -32,7 +33,11 @@ func (project *KoreanProject) RuntimeTexts(source *Project) ([]string, error) {
 		if _, ok := sourceIDs[row.ID]; !ok {
 			return nil, fmt.Errorf("Korean runtime texts: Korean ID %d does not exist in source project", row.ID)
 		}
-		overlay[row.ID] = row.Korean
+		text := row.Korean
+		if row.Layout != "" {
+			text = row.Layout
+		}
+		overlay[row.ID] = text
 	}
 
 	texts := make([]string, 0, len(source.Items))
