@@ -12,6 +12,10 @@ korean = "아니요<end>"
 japanese = "あ…<end>"
 korean = "아…<end>"
 
+["890235"]
+japanese = "逃げる<end>"
+korean = "도망친다<end>"
+
 ["890383"]
 japanese = "あ…。<end>"
 korean = "아…<end>"
@@ -19,3 +23,7 @@ korean = "아…<end>"
 ["890712"]
 japanese = "なに？<end>"
 korean = "뭐?<end>"
+
+["890721"]
+japanese = "ヴァン！<end>"
+korean = "반!<end>"

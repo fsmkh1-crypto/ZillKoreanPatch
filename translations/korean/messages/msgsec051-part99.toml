@@ -4,9 +4,17 @@
 japanese = "うん…<end>"
 korean = "응…<end>"
 
+["510038"]
+japanese = "いいえ！<end>"
+korean = "아니!<end>"
+
 ["510061"]
 japanese = "行く<end>"
 korean = "간다<end>"
+
+["510062"]
+japanese = "無視する<end>"
+korean = "무시한다<end>"
 
 ["510137"]
 japanese = "敵襲！<end>"

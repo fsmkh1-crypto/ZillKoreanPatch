@@ -8,6 +8,10 @@ korean = "이름은?<end>"
 japanese = "ほう？<end>"
 korean = "호오?<end>"
 
+["430102"]
+japanese = "助けよう<end>"
+korean = "도와주자<end>"
+
 ["430188"]
 japanese = "ああ<end>"
 korean = "아아<end>"
@@ -15,3 +19,11 @@ korean = "아아<end>"
 ["430189"]
 japanese = "いや<end>"
 korean = "아니<end>"
+
+["430195"]
+japanese = "知ってる<end>"
+korean = "알고 있어<end>"
+
+["430196"]
+japanese = "知らない<end>"
+korean = "몰라<end>"

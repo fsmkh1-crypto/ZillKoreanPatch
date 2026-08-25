@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["480005"]
+japanese = "その通り<end>"
+korean = "맞아<end>"
+
+["480006"]
+japanese = "いや違う<end>"
+korean = "아니, 틀려<end>"
+
 ["480028"]
 japanese = "泊まる<end>"
 korean = "묵는다<end>"

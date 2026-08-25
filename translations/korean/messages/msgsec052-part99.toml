@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["520005"]
+japanese = "根拠は？<end>"
+korean = "근거는?<end>"
+
 ["520037"]
 japanese = "戻る<end>"
 korean = "돌아가기<end>"
+
+["520038"]
+japanese = "戻らない<end>"
+korean = "돌아가지 않는다<end>"
 
 ["520165"]
 japanese = "敵襲！<end>"

@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["470005"]
+japanese = "その通り<end>"
+korean = "맞아<end>"
+
+["470006"]
+japanese = "いや違う<end>"
+korean = "아니, 틀려<end>"
+
 ["470035"]
 japanese = "本当？<end>"
 korean = "정말?<end>"
