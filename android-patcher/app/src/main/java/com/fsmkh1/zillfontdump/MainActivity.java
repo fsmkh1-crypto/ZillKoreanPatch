@@ -9,7 +9,6 @@ import android.os.ParcelFileDescriptor;
 import android.provider.DocumentsContract;
 import android.provider.OpenableColumns;
 import android.view.Gravity;
-import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -22,13 +21,12 @@ import java.util.concurrent.Executors;
 
 public final class MainActivity extends Activity {
     private static final int PICK_ISO = 1001;
-    private static final int CREATE_ZIP = 1002;
+    private static final int CREATE_PATCHED_ISO = 1003;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private TextView status;
     private Button chooseButton;
     private Uri sourceUri;
-    private String sourceName = "source.iso";
     private FontExtractor.Inspection inspection;
 
     @Override
@@ -42,12 +40,12 @@ public final class MainActivity extends Activity {
         root.setPadding(pad, pad, pad, pad);
 
         TextView title = new TextView(this);
-        title.setText("Zill Infinite Plus – Font Extractor");
+        title.setText("Zill Infinite Plus – Korean Font PoC");
         title.setTextSize(22);
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 읽기 전용으로 열며 수정하지 않습니다.\n두 폰트 PAR와 manifest.json만 ZIP으로 내보냅니다.");
+        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\n테스트용으로 일본어 'の' 글리프만 한글 '가'로 바꾼 새 ISO를 만듭니다.\n메시지 데이터와 PAF 구조는 수정하지 않습니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -83,15 +81,14 @@ public final class MainActivity extends Activity {
         if (resultCode != RESULT_OK || data == null || data.getData() == null) return;
         if (requestCode == PICK_ISO) {
             sourceUri = data.getData();
-            sourceName = displayName(sourceUri);
             inspectSelectedIso();
-        } else if (requestCode == CREATE_ZIP) {
-            exportZip(data.getData());
+        } else if (requestCode == CREATE_PATCHED_ISO) {
+            createPatchedIso(data.getData());
         }
     }
 
     private void inspectSelectedIso() {
-        setBusy(true, "ISO 확인 중…");
+        setBusy(true, "원본 ISO와 폰트 해시 확인 중…");
         Uri uri = sourceUri;
         worker.execute(() -> {
             try (ParcelFileDescriptor pfd = getContentResolver().openFileDescriptor(uri, "r");
@@ -101,12 +98,13 @@ public final class MainActivity extends Activity {
                 FontExtractor.Inspection checked = FontExtractor.inspect(channel);
                 inspection = checked;
                 runOnUiThread(() -> {
-                    setBusy(false, "확인 완료: ULJM-05410 v" + checked.version + "\nZIP 저장 위치를 선택하세요.");
+                    setBusy(false, "원본 검증 완료. " + PoCPatcher.patchByteCount() +
+                            "개의 atlas 바이트만 바꾼 새 ISO를 저장합니다.");
                     Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
                     out.addCategory(Intent.CATEGORY_OPENABLE);
-                    out.setType("application/zip");
-                    out.putExtra(Intent.EXTRA_TITLE, "zill-font-resources-ULJM05410-v103.zip");
-                    startActivityForResult(out, CREATE_ZIP);
+                    out.setType("application/octet-stream");
+                    out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_Font_PoC.iso");
+                    startActivityForResult(out, CREATE_PATCHED_ISO);
                 });
             } catch (Exception e) {
                 inspection = null;
@@ -115,15 +113,18 @@ public final class MainActivity extends Activity {
         });
     }
 
-    private void exportZip(Uri outputUri) {
+    private void createPatchedIso(Uri outputUri) {
         if (sourceUri == null || inspection == null) {
-            status.setText("먼저 지원되는 ISO를 선택해야 합니다.");
+            status.setText("먼저 지원되는 원본 ISO를 선택해야 합니다.");
             return;
         }
-        setBusy(true, "폰트 리소스 추출 중…");
+        if (sourceUri.equals(outputUri)) {
+            status.setText("원본 ISO와 같은 문서에는 쓸 수 없습니다.");
+            return;
+        }
+        setBusy(true, "새 ISO 생성 중… 원본 전체를 스트리밍 복사합니다.");
         Uri inputUri = sourceUri;
         FontExtractor.Inspection checked = inspection;
-        String inputName = sourceName;
         worker.execute(() -> {
             boolean success = false;
             try (ParcelFileDescriptor inPfd = getContentResolver().openFileDescriptor(inputUri, "r");
@@ -132,26 +133,28 @@ public final class MainActivity extends Activity {
                  FileOutputStream out = outPfd == null ? null : new FileOutputStream(outPfd.getFileDescriptor());
                  FileChannel channel = in == null ? null : in.getChannel()) {
                 if (channel == null || out == null) throw new IllegalStateException("입출력 파일을 열 수 없습니다.");
-                // Revalidate the source on the second open before fixed-offset extraction.
                 FontExtractor.Inspection fresh = FontExtractor.inspect(channel);
                 if (!fresh.discId.equals(checked.discId) || !fresh.version.equals(checked.version) ||
                         fresh.isoSize != checked.isoSize) {
                     throw new IllegalStateException("선택된 ISO가 검증 후 변경되었습니다.");
                 }
-                FontExtractor.export(channel, fresh, out, inputName);
+                channel.position(0);
+                PoCPatcher.copyAndPatch(in, out, fresh);
                 out.flush();
+                if (out.getChannel().size() != fresh.isoSize) {
+                    throw new IllegalStateException("결과 ISO 크기가 원본과 다릅니다.");
+                }
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "완료. ZIP에는 font/zillfont.par, 2d/font/jillbtn.par, manifest.json만 포함됩니다."));
+                        "완료. 새 ISO를 PPSSPP에서 실행하세요. 일본어 'の'가 표시되는 곳이 한글 '가'로 보이면 폰트 PoC 성공입니다."));
             } catch (Exception e) {
                 final String error = message(e);
-                runOnUiThread(() -> setBusy(false, "추출 실패: " + error));
+                runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
             } finally {
                 if (!success) {
                     try {
                         DocumentsContract.deleteDocument(getContentResolver(), outputUri);
                     } catch (Exception ignored) {
-                        // Some document providers do not permit deletion. The UI already marks the output as failed.
                     }
                 }
             }
