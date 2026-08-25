@@ -8,6 +8,7 @@ on:
     paths:
       - 'work/korean-results/*.jsonl'
       - 'tools/korean/apply-results.py'
+      - 'internal/corpus/korean.go'
       - '.github/workflows/korean-apply-results.yml'
 
 permissions:
