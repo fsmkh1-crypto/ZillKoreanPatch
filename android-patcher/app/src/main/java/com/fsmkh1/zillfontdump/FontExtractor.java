@@ -2,7 +2,6 @@ package com.fsmkh1.zillfontdump;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -21,8 +20,10 @@ final class FontExtractor {
     private static final int JILLBTN_INDEX = 13612;
     private static final long ZILLFONT_OFFSET = 0x3D8F510L;
     private static final long ZILLFONT_MEMBER_SIZE = 0x80470L;
+    private static final String ZILLFONT_SOURCE_SHA256 = "0d3d6d2648870e87a01636cdfc7cc7af8100ea40b71e5ed05f82ac197606584a";
     private static final long JILLBTN_OFFSET = 0x3E0F980L;
     private static final long JILLBTN_MEMBER_SIZE = 0x18E60L;
+    private static final String JILLBTN_SOURCE_SHA256 = "95b48379092db4db72f890d5a221ba8c4094dd438cb4c4eba98eb5520c7b17aa";
     private static final long WRAPPER_SIZE = 0x10L;
 
     static final class Inspection {
@@ -93,6 +94,8 @@ final class FontExtractor {
         if (paArc.size < required) {
             throw new IOException("pa.arc is smaller than the validated ULJM-05410 layout");
         }
+        validateSourceHash(iso, paArc, zillfont, ZILLFONT_SOURCE_SHA256);
+        validateSourceHash(iso, paArc, jillbtn, JILLBTN_SOURCE_SHA256);
         return new Inspection(discId, version, channel.size(), paBin, paArc, zillfont, jillbtn);
     }
 
@@ -122,6 +125,21 @@ final class FontExtractor {
         iso.copyRange(absolute, payloadSize, zip, digest);
         zip.closeEntry();
         return new Exported(path, payloadSize, hex(digest.digest()), member);
+    }
+
+    private static void validateSourceHash(Iso9660 iso, Iso9660.Entry paArc,
+                                           PaaIndex.Member member, String expected) throws IOException {
+        MessageDigest digest = sha256();
+        OutputStream sink = new OutputStream() {
+            @Override public void write(int value) {}
+            @Override public void write(byte[] bytes, int offset, int length) {}
+        };
+        long absolute = paArc.extent * Iso9660.SECTOR_SIZE + member.offset;
+        iso.copyRange(absolute, member.size, sink, digest);
+        String actual = hex(digest.digest());
+        if (!expected.equals(actual)) {
+            throw new IOException(member.name + " SHA-256=" + actual + " (unsupported source member)");
+        }
     }
 
     private static void validateMember(PaaIndex.Member member, String expectedName,
