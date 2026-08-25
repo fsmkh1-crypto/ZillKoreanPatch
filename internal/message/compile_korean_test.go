@@ -59,3 +59,19 @@ func TestCompileBankKoreanFailsWhenSelectedTextLacksMapping(t *testing.T) {
 		t.Fatalf("missing mapping returned %v", err)
 	}
 }
+
+func TestCompileBankKoreanRejectsUnmatchedReplacementID(t *testing.T) {
+	source := corpus.Record{ID: 10000, Raw: []byte("old\x00"), Tokens: []corpus.Token{
+		{Kind: "text", Raw: []byte("old")}, {Kind: "suffix", Raw: []byte{0}},
+	}}
+	bank := corpus.Bank{Name: "msgsec001.dat", Section: 1, Records: []corpus.Record{source}}
+	items := []corpus.Item{{Record: source, Translation: corpus.Translation{ID: source.ID, State: corpus.Todo}}}
+	mapping := koreanslots.Mapping{'가': cp932.GlyphKey(0xAC82)}
+
+	_, err := message.CompileBankKorean(bank, items, map[int]message.KoreanRecord{
+		99999: {Text: "가"},
+	}, mapping)
+	if err == nil || !strings.Contains(err.Error(), "99999") || !strings.Contains(err.Error(), "not present in this bank") {
+		t.Fatalf("unmatched replacement ID returned %v", err)
+	}
+}
