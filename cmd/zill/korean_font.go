@@ -17,7 +17,7 @@ import (
 const (
 	jillBtnMemberIndex = 13612
 	jillBtnMemberSize  = 0x18e60
-	pafMemberOffset    = 0x44a0
+	pafMemberOffset    = 0x4490
 )
 
 func loadRetailPAF(gameDir string) (*zillfont.PAF, error) {
@@ -45,8 +45,8 @@ func loadRetailPAF(gameDir string) (*zillfont.PAF, error) {
 		return nil, err
 	}
 	end := pafMemberOffset + zillfont.PAFSize
-	if end > len(payload) {
-		return nil, fmt.Errorf("PAF range %#x:%#x extends past %s (%#x bytes)", pafMemberOffset, end, member.Name, len(payload))
+	if end != len(payload) {
+		return nil, fmt.Errorf("PAF range %#x:%#x does not end at %s EOF (%#x bytes)", pafMemberOffset, end, member.Name, len(payload))
 	}
 	return zillfont.ParsePAF(payload[pafMemberOffset:end])
 }
@@ -65,9 +65,9 @@ func runFontStatus(args []string, stdout, stderr io.Writer) int {
 	fmt.Fprintf(stdout, "Target font: ULJM-05410 v1.03\n")
 	fmt.Fprintf(stdout, "Glyph slots: %d\n", len(font.Glyphs))
 	fmt.Fprintf(stdout, "Two-byte CP932 renderer slots: %d\n", len(font.DoubleByteKeys()))
-	fmt.Fprintf(stdout, "BST root (validated research constant): %d\n", zillfont.BSTRoot)
-	fmt.Fprintf(stdout, "Complete-record pages: 0=%d 1=%d 2=%d 3=%d\n", pages[0], pages[1], pages[2], pages[3])
-	fmt.Fprintf(stdout, "Final record tail omitted: %t\n", !font.Glyphs[len(font.Glyphs)-1].HasTail)
+	fmt.Fprintf(stdout, "BST root: %d\n", zillfont.BSTRoot)
+	fmt.Fprintf(stdout, "PAF member-relative range: %#x:%#x\n", pafMemberOffset, pafMemberOffset+zillfont.PAFSize)
+	fmt.Fprintf(stdout, "Pages: 0=%d 1=%d 2=%d 3=%d\n", pages[0], pages[1], pages[2], pages[3])
 	return 0
 }
 
