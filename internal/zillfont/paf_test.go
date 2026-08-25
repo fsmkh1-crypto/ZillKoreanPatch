@@ -7,47 +7,49 @@ import (
 	"testing"
 )
 
-func TestParsePAFPreservesRetailFinalTailAnomaly(t *testing.T) {
+func makeRetailShapePAF() []byte {
 	data := make([]byte, PAFSize)
 	copy(data[:4], []byte{'p', 'a', 'f', 0})
 	binary.LittleEndian.PutUint32(data[4:8], ExpectedVer)
+	binary.LittleEndian.PutUint32(data[8:12], GlyphCount)
+	binary.LittleEndian.PutUint32(data[12:16], BSTRoot)
 	for index := 0; index < GlyphCount; index++ {
 		offset := RecordOffset + index*RecordStride
 		binary.LittleEndian.PutUint16(data[offset:offset+2], uint16(index+1))
 		data[offset+2] = 8
 		data[offset+3] = 12
 		binary.LittleEndian.PutUint32(data[offset+12:offset+16], 9)
+		binary.LittleEndian.PutUint32(data[offset+0x18:offset+0x1c], 2)
 	}
+	return data
+}
 
-	font, err := ParsePAF(data)
+func TestParsePAFConsumesAllRetailRecords(t *testing.T) {
+	font, err := ParsePAF(makeRetailShapePAF())
 	if err != nil {
 		t.Fatal(err)
 	}
 	if len(font.Glyphs) != GlyphCount {
 		t.Fatalf("glyph count = %d, want %d", len(font.Glyphs), GlyphCount)
 	}
-	if !font.Glyphs[GlyphCount-2].HasTail {
-		t.Fatal("penultimate glyph unexpectedly lacks its tail")
-	}
-	if font.Glyphs[GlyphCount-1].HasTail {
-		t.Fatal("final retail-shape glyph unexpectedly has a tail")
-	}
 	pages := font.PageCounts()
-	if pages[0] != GlyphCount-1 {
-		t.Fatalf("complete page-zero records = %d, want %d", pages[0], GlyphCount-1)
+	if pages[2] != GlyphCount {
+		t.Fatalf("page-two records = %d, want %d", pages[2], GlyphCount)
 	}
 }
 
 func TestParsePAFRejectsNonAscendingRendererKeys(t *testing.T) {
-	data := make([]byte, PAFSize)
-	copy(data[:4], []byte{'p', 'a', 'f', 0})
-	binary.LittleEndian.PutUint32(data[4:8], ExpectedVer)
-	for index := 0; index < GlyphCount; index++ {
-		offset := RecordOffset + index*RecordStride
-		binary.LittleEndian.PutUint16(data[offset:offset+2], uint16(index+1))
-	}
+	data := makeRetailShapePAF()
 	binary.LittleEndian.PutUint16(data[RecordOffset+10*RecordStride:], 10)
 	if _, err := ParsePAF(data); err == nil {
 		t.Fatal("expected non-ascending renderer keys to fail")
+	}
+}
+
+func TestParsePAFRejectsWrongHeaderCount(t *testing.T) {
+	data := makeRetailShapePAF()
+	binary.LittleEndian.PutUint32(data[8:12], GlyphCount-1)
+	if _, err := ParsePAF(data); err == nil {
+		t.Fatal("expected wrong header glyph count to fail")
 	}
 }
