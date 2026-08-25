@@ -92,10 +92,12 @@ func TestValidateRejectsCountOrderAndEmptyTranslation(t *testing.T) {
 	}
 }
 
-func TestReadResultsRejectsMarkdownUnknownFieldsAndBlankLines(t *testing.T) {
+func TestReadResultsRejectsAnythingOutsideExactContract(t *testing.T) {
 	for _, input := range []string{
 		"```json\n{\"id\":100,\"korean\":\"가\",\"uncertain\":false,\"note\":\"\",\"glossary_candidates\":[]}\n```\n",
 		"{\"id\":100,\"korean\":\"가\",\"uncertain\":false,\"note\":\"\",\"glossary_candidates\":[],\"extra\":1}\n",
+		"{\"id\":100,\"korean\":\"가\",\"note\":\"\",\"glossary_candidates\":[]}\n",
+		"{\"id\":100,\"korean\":\"가\",\"uncertain\":false,\"note\":\"\",\"glossary_candidates\":null}\n",
 		"{\"id\":100,\"korean\":\"가\",\"uncertain\":false,\"note\":\"\",\"glossary_candidates\":[]}\n\n",
 	} {
 		if _, err := ReadResults(strings.NewReader(input)); err == nil {
