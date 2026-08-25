@@ -8,6 +8,62 @@ korean = "아이템<end>"
 japanese = "システム<end>"
 korean = "시스템<end>"
 
+["200010"]
+japanese = "回復アイテム<end>"
+korean = "회복 아이템<end>"
+
+["200011"]
+japanese = "攻撃アイテム<end>"
+korean = "공격 아이템<end>"
+
+["200012"]
+japanese = "状態変化アイテム<end>"
+korean = "상태 변화 아이템<end>"
+
+["200013"]
+japanese = "能力変化アイテム<end>"
+korean = "능력 변화 아이템<end>"
+
+["200014"]
+japanese = "武器装備品<end>"
+korean = "무기 장비<end>"
+
+["200015"]
+japanese = "防具装備品<end>"
+korean = "방어구 장비<end>"
+
+["200016"]
+japanese = "特殊装備品<end>"
+korean = "특수 장비<end>"
+
+["200017"]
+japanese = "イベントアイテム<end>"
+korean = "이벤트 아이템<end>"
+
+["200018"]
+japanese = "魔法を選択<end>"
+korean = "마법 선택<end>"
+
+["200019"]
+japanese = "スキルを選択<end>"
+korean = "스킬 선택<end>"
+
+["200020"]
+japanese = "ソウルポイントを配分<end>"
+korean = "소울 포인트 배분<end>"
+
+["200021"]
+japanese = "ソウルを選択<end>"
+korean = "소울 선택<end>"
+
+["200022"]
+japanese = "引き受け中の仕事を確認<end>"
+korean = "진행 중인 의뢰 확인<end>"
+
+["200023"]
+japanese = "相談内容を選択<end>"
+korean = "상담 내용 선택<end>"
+
 ["200074"]
 japanese = "□隊列変更"
 korean = "□진형 변경"
@@ -39,6 +95,70 @@ korean = "진형 변경<end>"
 ["200091"]
 japanese = "キャラクターを選択<end>"
 korean = "캐릭터 선택<end>"
+
+["200093"]
+japanese = "眠り５０％回避<end>"
+korean = "수면 50% 회피<end>"
+
+["200094"]
+japanese = "マヒ５０％回避<end>"
+korean = "마비 50% 회피<end>"
+
+["200095"]
+japanese = "石化５０％回避<end>"
+korean = "석화 50% 회피<end>"
+
+["200096"]
+japanese = "暗闇５０％回避<end>"
+korean = "암흑 50% 회피<end>"
+
+["200097"]
+japanese = "混乱５０％回避<end>"
+korean = "혼란 50% 회피<end>"
+
+["200098"]
+japanese = "幻覚５０％回避<end>"
+korean = "환각 50% 회피<end>"
+
+["200099"]
+japanese = "毒５０％回避<end>"
+korean = "독 50% 회피<end>"
+
+["200100"]
+japanese = "沈黙５０％回避<end>"
+korean = "침묵 50% 회피<end>"
+
+["200101"]
+japanese = "呪い５０％回避<end>"
+korean = "저주 50% 회피<end>"
+
+["200102"]
+japanese = "速度低下５０％回避<end>"
+korean = "속도 저하 50% 회피<end>"
+
+["200103"]
+japanese = "死の呪い５０％回避<end>"
+korean = "죽음의 저주 50% 회피<end>"
+
+["200104"]
+japanese = "ＨＰ５％回復／ターン<end>"
+korean = "턴당 HP 5% 회복<end>"
+
+["200105"]
+japanese = "ＭＰ３％回復／ターン<end>"
+korean = "턴당 MP 3% 회복<end>"
+
+["200106"]
+japanese = "戦闘不能時に復活する<end>"
+korean = "전투 불능 시 부활<end>"
+
+["200107"]
+japanese = "気絶時にＭＰ全回復<end>"
+korean = "기절 시 MP 전부 회복<end>"
+
+["200108"]
+japanese = "クリティカル率５０％<end>"
+korean = "치명타 확률 50%<end>"
 
 ["200109"]
 japanese = "アイテムを選択<end>"
