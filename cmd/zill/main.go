@@ -25,6 +25,8 @@ Commands:
 	edit-record       Inspect or patch one inline dialogue variant as JSON
 	search            Search IDs, Japanese, and English
 	show              Show one record and nearby context
+	gemini-export     Export a strict JSONL batch for Gemini translation
+	gemini-check      Validate and normalize a Gemini JSONL result batch
 	font-status       Inspect validated retail font metadata
 	korean-slots      Report reusable two-byte renderer slots for Korean PoC
 	ppsspp-debugger   Control a running PPSSPP instance through JSON Lines
@@ -61,6 +63,10 @@ func run(args []string, stdin io.Reader, stdout, stderr io.Writer) int {
 		return runShow(root, args[1:], stdout, stderr)
 	case "search":
 		return runSearch(root, args[1:], stdout, stderr)
+	case "gemini-export":
+		return runGeminiExport(root, args[1:], stdout, stderr)
+	case "gemini-check":
+		return runGeminiCheck(args[1:], stdout, stderr)
 	case "font-status":
 		return runFontStatus(args[1:], stdout, stderr)
 	case "korean-slots":
