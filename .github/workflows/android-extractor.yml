@@ -6,6 +6,11 @@ on:
     paths:
       - 'android-patcher/**'
       - '.github/workflows/android-extractor.yml'
+  pull_request:
+    paths:
+      - 'android-patcher/**'
+      - '.github/workflows/android-extractor.yml'
+      - 'ci-trigger.txt'
 
 permissions:
   contents: read
