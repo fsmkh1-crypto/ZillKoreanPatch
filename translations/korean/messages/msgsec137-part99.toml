@@ -4,9 +4,17 @@
 japanese = "強さ<end>"
 korean = "강함<end>"
 
+["1370028"]
+japanese = "美しさ<end>"
+korean = "아름다움<end>"
+
 ["1370057"]
 japanese = "強さ<end>"
 korean = "강함<end>"
+
+["1370058"]
+japanese = "美しさ<end>"
+korean = "아름다움<end>"
 
 ["1370193"]
 japanese = "はい<end>"
@@ -15,6 +23,10 @@ korean = "네<end>"
 ["1370263"]
 japanese = "！<end>"
 korean = "！<end>"
+
+["1370605"]
+japanese = "はい。<end>"
+korean = "네.<end>"
 
 ["1370712"]
 japanese = "はい<end>"

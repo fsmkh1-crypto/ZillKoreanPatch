@@ -4,6 +4,14 @@
 japanese = "はい<end>"
 korean = "네<end>"
 
+["890141"]
+japanese = "いいえ<end>"
+korean = "아니요<end>"
+
 ["890157"]
 japanese = "あ…<end>"
+korean = "아…<end>"
+
+["890383"]
+japanese = "あ…。<end>"
 korean = "아…<end>"
