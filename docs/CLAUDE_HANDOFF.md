@@ -2,17 +2,19 @@
 
 Last updated: 2026-08-25
 
-This is the working handoff for Claude. Read this before reviewing or changing code.
+Read this first, then `docs/CLAUDE_REVIEW_PROTOCOL.md`. The project now assumes Claude review at high-risk milestone boundaries.
 
 ## 1. Repository and scope
 
-Canonical working repository:
+Canonical repository:
 
 - `fsmkh1-crypto/ZillKoreanPatch`
 
-Do **not** mix this project with `fsmkh1-crypto/ZillOcrOverlay`. `ZillOcrOverlay` is a separate real-time OCR translator project and is not the Korean patch implementation.
+Do not mix this with:
 
-Target game:
+- `fsmkh1-crypto/ZillOcrOverlay` — separate real-time OCR translator project.
+
+Target:
 
 - Zill O'll Infinite Plus (PSP)
 - `ULJM-05410`
@@ -21,29 +23,19 @@ Target game:
 Upstream base:
 
 - `HK47196/zill`
-- pinned upstream baseline: `a98d9ce29f361d666ec23da0dcfd351f24537ffd`
+- pinned baseline `a98d9ce29f361d666ec23da0dcfd351f24537ffd`
 
 Preserve upstream licensing/provenance. Code is GPL-3.0-or-later; translation content is CC BY-SA 4.0.
 
-## 2. Collaboration roles
+## 2. Current collaboration roles
 
-Current division of labor:
+- GPT: lead developer/integrator, canonical GitHub state, font/encoding/build/Android work, primary Korean translator, final merge decisions.
+- Claude: adversarial reviewer / QA / design reviewer. Review is expected before major runtime/ISO milestones.
+- Gemini: optional overflow or secondary translation worker only; no longer on the critical path.
 
-- GPT: lead/integration, GitHub canonical state, code, font/encoding, build/Android patcher, final merge decisions.
-- Gemini: external translation worker only. It has no GitHub access. Input/output is file-based JSONL.
-- Claude: adversarial reviewer / QA / design reviewer. Prefer review comments or a branch/PR over direct edits to `main` unless explicitly asked.
+Retail bytes, deterministic tests, hashes, and actual PPSSPP behavior outrank model consensus.
 
-The final arbiter is not model consensus. Retail bytes, deterministic tests, hashes, and actual-game PPSSPP behavior win.
-
-When reviewing, distinguish clearly between:
-
-- **observed/proven from retail or actual game**
-- **inference**
-- **proposal**
-
-If challenging a proven claim, provide a concrete counterexample, byte-level evidence, or a reproducible failing test.
-
-## 3. Empirically proven renderer/font facts
+## 3. Proven renderer/font facts
 
 Authenticated retail members:
 
@@ -58,39 +50,43 @@ Authenticated retail members:
   - PAA index 13612
   - `pa.arc` offset `0x3E0F990`
 
-Corrected PAF geometry (these values supersede earlier mistaken offsets):
+Correct PAF geometry:
 
 - PAF begins at `jillbtn.par + 0x4490`
 - PAF size `0x149D0`
-- exactly 2637 complete records
+- 2637 complete records
 - record size `0x20`
 - records begin at PAF `+0x30`
 - page distribution: page0=1156, page1=1156, page2=325
-- keys are strictly ascending, no duplicates
-- BST integrity was validated with all 2637 records reachable
+- keys strictly ascending, no duplicates
+- all 2637 records reachable from the validated BST
 
-Important semantic point:
+PAF `+0x00 u16` is a renderer lookup key derived from CP932/Shift-JIS bytes, not Unicode.
 
-- PAF `+0x00 u16` is a **renderer lookup key derived from CP932/Shift-JIS bytes**, not Unicode.
-- Example: Japanese `の` encodes as CP932 bytes `82 CC`, so the stored little-endian renderer key is `0xCC82`.
+Example:
 
-Authenticated `の` record used by the first PoC:
+- `の` -> CP932 bytes `82 CC` -> stored little-endian renderer key `0xCC82`.
+
+Authenticated `の` record used by first PoC:
 
 - record index 2034
 - key `0xCC82`
 - size 10x10
-- atlas coordinate x=421, y=379
+- x=421, y=379
 - bearing x=1, y=-9
 - advance 12
 - page 1
 
-See `research/korean-font-poc-reproduction.md` for the preserved first-PoC byte delta and retail details.
+See `research/korean-font-poc-reproduction.md` for the first PoC byte delta.
 
-### Actual-game PoC status
+## 4. Actual-game PoC status
 
-The first single-glyph PoC was observed in the real game under PPSSPP: `の -> 가`.
+Observed in PPSSPP:
 
-The later eight-glyph smoke test was also observed in the real game under PPSSPP, with all eight Hangul glyphs visible on the fixed new-game screen and repeated mappings rendering consistently:
+- single glyph `の -> 가` works;
+- later 8-glyph smoke also works with all eight Hangul visible and repeated keys rendering consistently.
+
+Smoke mappings:
 
 - `の -> 가`
 - `無 -> 나`
@@ -101,153 +97,186 @@ The later eight-glyph smoke test was also observed in the real game under PPSSPP
 - `示 -> 사`
 - `者 -> 아`
 
-This proves multi-glyph atlas addressing/swizzle and renderer slot reuse in the actual game, not just in an atlas viewer.
+This proves Hangul raster display, multi-glyph atlas addressing/swizzle, repeated-key rendering, and the renderer-key concept in the actual game.
 
-**Documentation warning:** `research/korean-font-poc-reproduction.md` was written before the later 8-glyph screenshot verification and still says that the 8-glyph build required on-device observation. That sentence is stale. The screenshot itself has not yet been committed as a repository artifact.
+It does **not** prove that common Japanese glyphs can be sacrificed in production. The smoke build globally replaced common Japanese bitmaps and is test-only.
 
-The 8-glyph smoke architecture is test-only because it globally replaces common Japanese glyph bitmaps. Final architecture must not sacrifice stock Japanese glyphs.
+## 5. Intended production renderer architecture
 
-## 4. Intended final Korean renderer architecture
+Current target architecture:
 
-Current intended approach:
+1. determine the actual Korean rune set needed by the localized corpus;
+2. identify existing two-byte CP932 renderer keys that are genuinely safe to repurpose;
+3. deterministically map Korean runes to those keys;
+4. emit the corresponding byte pairs when compiling Korean text;
+5. install matching Hangul bitmap/metrics behind those PAF keys;
+6. preserve stock Japanese and the existing PAF/BST record structure wherever possible.
 
-1. Measure the actual unique Korean Unicode runes required by the translated corpus.
-2. Select reusable existing **two-byte CP932 renderer keys** that are safe to repurpose.
-3. Deterministically map Korean runes to those existing keys.
-4. Emit those custom CP932 byte pairs when compiling Korean message text.
-5. Put matching Hangul bitmaps/metrics behind those same PAF keys.
-6. Preserve record count, renderer key ordering/BST structure, and stock Japanese glyphs wherever possible.
-
-Relevant existing code:
+Core components already present:
 
 - `internal/cp932/glyphkey.go`
 - `internal/koreanslots/slots.go`
+- `internal/zillfont/paf.go`
+- `internal/message/projection.go`
+- `internal/message/korean_materialize.go`
+- `internal/message/compile_korean.go`
 - `cmd/zill/korean_font.go`
-- `internal/zillfont/paf.go`
-- `internal/message/projection.go`
 
-`internal/koreanslots` already supports deterministic rune -> renderer-key allocation and custom encoding, but the production message materialization path still uses stock `cp932.Encode` and is **not yet wired** to the Korean mapping.
+## 6. Previous Claude review and fixes
 
-### Capacity caution
+Previous review baseline:
 
-Prior analysis found roughly 1371 two-byte renderer slots unreferenced by the upstream English translation corpus. Treat this as capacity evidence only, **not proof that all such slots are safe to overwrite in the retail game**. UI/system/runtime strings outside the translated corpus may still reference some keys.
+- `a80988f364f1028b01340e2338404e3bb8f1052b`
 
-A safe allocator needs a stronger definition of “reusable” (for example, a whole-game reference scan or a conservative reserved-key policy).
+Claude identified two concrete Gemini v2 bugs:
 
-## 5. Gemini translation exchange: why v2 exists
+1. generic printf regex falsely matched ordinary prose such as `100% Match` as `% M`;
+2. glossary stale-source validation reused the external glossary when building the expected source, so glossary modifications could compare equal to themselves.
 
-Gemini initially claimed it could preserve inline control tokens such as `<end>`, `<line-break>`, `<value:$28>`, etc. A real 10-record test showed this was unreliable:
+Both findings were accepted.
 
-- it deleted `<end>` / `<line-break>`
-- it turned `<value:$28>` into a Markdown/search-link-like construct
-- it broke the requested JSON schema in other ways
+Fixes now present:
 
-Therefore the design changed: **Gemini must never receive or return literal game control tokens.**
+- `internal/translationexchange/v2_review_fixes.go`
+- `internal/translationexchange/v2_review_fixes_test.go`
 
-## 6. Current Gemini v2 implementation
+Current behavior:
 
-The segment-safe v2 exchange is now implemented and CI-passing.
+- protected printf syntax is aligned to the runtime message compiler's `%s` / `%u` form (with optional positional number);
+- current v2 external source requires the repository-owned canonical glossary state (currently an empty object), so arbitrary external glossary injection is rejected;
+- regression tests cover both failures.
 
-Key files:
+## 7. New Korean message path added after that review
 
-- `internal/translationexchange/v2.go`
-- `internal/translationexchange/v2_json.go`
-- `internal/translationexchange/strict_json.go`
-- `internal/translationexchange/v2_test.go`
-- `cmd/zill/gemini_exchange.go`
-- `.github/workflows/gemini-batch.yml`
+### Mapping-aware validation and materialization
 
-Current schema name:
+`internal/message/korean_materialize.go` adds a Korean-specific path where validation and byte emission use the exact same `koreanslots.Mapping`.
 
-- `zill-gemini-v2`
+Important properties:
 
-Core design:
+- unmapped Hangul fails closed;
+- `<value:$XX>` and layout breaks are still handled through existing projection/control semantics;
+- stock CP932 runes cannot be silently overridden by a custom Korean mapping;
+- raw control characters / half-width kana / reserved markup rules remain enforced;
+- final natural-language bytes are emitted via `koreanslots.Encode`.
 
-- literal controls/placeholders/printf tokens are removed before external export
-- exact locked parts remain maintainer-side only
-- natural-language fragments are exported as indexed segments
-- Gemini returns only indexed Korean segments plus QA metadata
-- segment count/order/index must match exactly
-- returned segments containing protected tokens are rejected
-- accepted results are reconstructed using repository-owned locked parts
-- the checker regenerates canonical source from the current repository and rejects stale/modified source JSONL
+Tests:
 
-The v2 test suite covers, among other things:
+- `internal/message/korean_materialize_test.go`
 
-- no control leakage into exported segments/context/reference
-- exact reconstruction from translated segments + locked source controls
-- strict JSON contract
-- null arrays / missing fields / unknown fields / Markdown / blank lines rejection
-- segment length/index drift rejection
-- protected-token injection rejection
+### Selective Korean bank compiler
 
-Recent v2 commit chain:
+`internal/message/compile_korean.go` adds `CompileBankKorean`.
 
-- `4b68c93c6b736e81a3bb0fc08dc530ab44beb974` — segment-safe v2 core
-- `0a4b4063feb12b165af957c186581a3cbb6387b8` — strict v2 JSONL IO
-- `37b80e15ac39865604b6d995f5539eaf85550cbe` — exact v2 response schema
-- `fd46b92fddb0a5d327b7916aa72ae2e0b841bb0d` — CLI switched to v2
-- `9f41c27716d8b5ea738079bdda860a82f9556254` — v2 tests
-- `8e538c43b16ed9c9642e97d494975fe696a992e1` — checker wired to canonical project root
-- `a80988f364f1028b01340e2338404e3bb8f1052b` — control-free dialogue export workflow / section selection
+Purpose:
 
-CI on the final v2 state passed `go test ./...`, `go vet ./...`, and existing `./zill check`.
+- only explicitly selected Korean records are rebuilt with Korean renderer-slot bytes;
+- every non-selected record is copied byte-identically from retail source;
+- runtime bank capacity and wide-offset layout are still enforced;
+- replacement layout uses the existing semantic-preservation rules.
 
-A 10-record actual-dialogue v2 export from section 187 was also generated successfully by the workflow.
+Tests:
 
-### Documentation warning
+- `internal/message/compile_korean_test.go`
 
-`docs/gemini-translation-exchange.md` was written for the earlier v1 design and is now partly stale. Treat v2 code/tests as authoritative until that document is updated.
+This is intentionally separate from the existing English/stock `CompileBank` path so the first real-sentence PoC remains narrow and reversible.
 
-## 7. Important v2 review questions for Claude
+## 8. Slot-safety status
 
-Please review the v2 design adversarially, especially these questions:
+`cmd/zill/korean_font.go` was made more conservative.
 
-1. **Semantic placeholder context:** literal runtime placeholders are intentionally hidden from Gemini. Does the current control-free `full_text`/segment structure remove too much semantic information for natural translation (for example a player-name vocative)? If so, propose safe metadata that conveys semantics without exposing mutable control syntax.
-2. **Line-break ownership:** v2 currently treats protected tokens as locked source material. Review how this interacts with the existing message projection/layout system, which already distinguishes semantic text from layout/reflow. We must not accidentally freeze Japanese line wrapping into final Korean layout if the layout layer is supposed to reflow it.
-3. **Reconstruction ordering:** inspect `SplitV2` / `LockedPart.AfterSegment` / `ReconstructV2` for edge cases involving leading controls, adjacent controls, whitespace-only runs, repeated controls, and records with no ordinary text.
-4. **Stale-source verification:** confirm that rebuilding canonical v2 source and comparing it to the returned source file cannot be bypassed by glossary/context fields or ordering details.
-5. **Schema strictness:** verify there is no permissive JSON path that can silently accept malformed or extra data.
+The old diagnostic effectively treated "unused by current English translation text" as reusable. That claim was too strong.
 
-If you find a concrete problem, cite file + line/function and preferably add a focused failing test before proposing the fix.
+Current diagnostic excludes keys referenced by either:
 
-## 8. Work that was intentionally stopped / not yet implemented
+- current English message text; or
+- retail Japanese message text.
 
-The user stopped the next implementation step because the session was taking too long. Do not assume the following exists yet:
+It now reports the remainder only as **candidate** two-byte slots and prints an explicit warning that UI/ELF/fixed-data references outside message banks have not yet been excluded.
 
-- production unused-slot safety scan
-- final Korean slot allocation based on a completed corpus
-- production message-byte remapping to Korean custom keys
-- wiring `koreanslots.Encode` into the message compiler/materializer
-- final PAF metrics/atlas packing for a full Korean subset
-- canonical Korean TOML/import format
-- full translation corpus
-- final Korean line-wrapping/layout tuning
-- end-to-end production ISO build containing a real Korean sentence via unused slots
+Therefore:
 
-The next major renderer milestone is: **render the first real Korean sentence in the actual game using unused/reusable renderer slots and message-byte remapping, without globally replacing common Japanese glyphs.**
+- message-corpus-unreferenced != proven safe;
+- no candidate may be called "safe/reusable" for production until a wider reference audit or another justified conservative policy exists.
 
-## 9. Suggested Claude work order
+## 9. Gemini v2 status
 
-Default reviewer task order:
+Gemini v2 remains available as an optional external translation exchange, but GPT is now the primary translator.
 
-1. Review the Gemini v2 changes listed above and report only concrete correctness/design issues.
-2. Review the proposed unused-slot + message-remap architecture against current `koreanslots`, `message`, `zillfont`, and PAF code.
-3. Identify the minimum safe implementation boundary for the first real Korean-sentence PoC.
-4. Do not redesign proven retail geometry unless evidence contradicts it.
-5. If coding is requested, use a branch/PR with focused tests; avoid large unrelated refactors.
+The v2 design still matters as a safe backup path:
 
-## 10. Useful references
+- controls are removed before external translation;
+- only indexed natural-language segments are returned;
+- repository-owned locked controls are reconstructed locally;
+- strict JSON/schema/segment identity checks remain in place.
 
+Do not spend review time redesigning Gemini unless a concrete correctness issue affects current work. Renderer/message/slot safety is now the higher-priority path.
+
+## 10. Current CI state
+
+Latest code milestone before the review-protocol documentation commit:
+
+- `cb0586012655fdfe6d01d94d252ba84650a1fa5c`
+
+At that state, CI passed:
+
+- `go test ./...`
+- `go vet ./...`
+- `./zill check`
+
+`./zill check` reported 43,116 records, with existing upstream translation states intact.
+
+## 11. CURRENT CLAUDE REVIEW REQUEST
+
+Review code changes from the previous reviewed baseline:
+
+- base: `a80988f364f1028b01340e2338404e3bb8f1052b`
+- code head: `cb0586012655fdfe6d01d94d252ba84650a1fa5c`
+
+Primary review targets:
+
+- `internal/translationexchange/v2_review_fixes.go`
+- `internal/translationexchange/v2_review_fixes_test.go`
+- `internal/message/korean_materialize.go`
+- `internal/message/korean_materialize_test.go`
+- `internal/message/compile_korean.go`
+- `internal/message/compile_korean_test.go`
+- `cmd/zill/korean_font.go`
+
+Please review adversarially for concrete failures, especially:
+
+1. Do the two previous review fixes actually close the reported bugs without introducing a bypass/regression?
+2. Can `SplitSemanticKorean` validation and `MaterializeKorean` encoding disagree for any rune/control/layout case?
+3. Can a malicious/incorrect mapping overwrite stock CP932 behavior or emit invalid renderer-key bytes?
+4. Does `CompileBankKorean` truly keep every non-selected retail record byte-identical and preserve ID/order/offset/capacity invariants?
+5. Does `CompileBankKorean` need additional rejection for replacement IDs that are not present in the bank, duplicate/ambiguous selection, or cross-bank misuse?
+6. Are runtime substitutions, printf signatures, fixed controls, kana controls, authored line breaks, and generated layout handled consistently with the existing production projection path?
+7. Is the current Japanese+English message scan a valid conservative improvement, and are there any cases where it can incorrectly label an actually referenced renderer key as a candidate?
+8. What is the minimum safe next step to audit UI/ELF/fixed-data references before repurposing a candidate slot?
+
+For every finding, use severity + file/function + concrete failure + minimal reproducer/test + fix direction. Prefer a focused failing test over a broad redesign.
+
+## 12. Next milestone blocked on this review
+
+Do not yet claim any renderer slot is production-safe.
+
+After this review and any fixes, the next milestone is:
+
+**first real Korean sentence in the actual game using candidate-unused renderer keys plus Korean message-byte remapping, without globally replacing common Japanese glyphs.**
+
+That milestone should proceed only after the slot-safety audit is strengthened enough to justify the chosen PoC keys.
+
+## 13. References
+
+- `docs/CLAUDE_REVIEW_PROTOCOL.md`
 - `research/korean-font-poc-reproduction.md`
-- `research/upstream-provenance.md`
+- `research/font-archive-and-korean-encoding.md`
 - `internal/zillfont/paf.go`
 - `internal/koreanslots/slots.go`
 - `internal/cp932/glyphkey.go`
 - `internal/message/projection.go`
-- `internal/translationexchange/v2.go`
-- `internal/translationexchange/v2_json.go`
-- `internal/translationexchange/v2_test.go`
-- `cmd/zill/gemini_exchange.go`
+- `internal/message/korean_materialize.go`
+- `internal/message/compile_korean.go`
+- `cmd/zill/korean_font.go`
 
-When in doubt, prefer current `main`, authenticated retail data, current tests, and actual-game PPSSPP observations over older chat assumptions or stale prose docs.
+When prose conflicts with current code/tests or authenticated retail evidence, prefer current code/tests and authenticated evidence, then update the prose.
