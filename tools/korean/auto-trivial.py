@@ -76,8 +76,7 @@ EXACT = {
     "全身表示<end>": "전신 표시<end>",
     "通信機<end>": "통신기<end>",
 
-    # Stable standalone NPC/job labels.  These deliberately exclude dialogue
-    # fragments whose Korean register depends on speaker/context.
+    # Stable standalone NPC/job labels.
     "冒険者<end>": "모험가<end>",
     "傭兵<end>": "용병<end>",
     "魔道士<end>": "마도사<end>",
@@ -108,8 +107,11 @@ EXACT = {
     "見物客<end>": "구경꾼<end>",
 
     # Context-independent acknowledgements and pain/frustration interjections.
-    # More ambiguous dialogue fragments (e.g. いいよ, 待て, 誰だ) intentionally
-    # stay out of this table so speaker/register can be translated in context.
+    # Plain Japanese forms already carry register: なんだ / 待て / 任せて etc.
+    # They should normally become Korean banmal. Some still stay out of EXACT
+    # when the best Korean lexical choice depends on scene meaning (for example
+    # 待て can mean 'wait' or 'stop', and いいよ can mean 'okay' or 'it's fine').
+    # Do not defer such rows merely to determine politeness level.
     "はい。<end>": "네.<end>",
     "はい！<end>": "네!<end>",
     "いいえ<end>": "아니요<end>",
