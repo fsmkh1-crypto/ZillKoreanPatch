@@ -4,6 +4,10 @@
 japanese = "□並替"
 korean = "□정렬"
 
+["200078"]
+japanese = "□初期化"
+korean = "□초기화"
+
 ["200088"]
 japanese = "START<end>"
 korean = "START<end>"
@@ -19,3 +23,19 @@ korean = "활<end>"
 ["200136"]
 japanese = "盾<end>"
 korean = "방패<end>"
+
+["200151"]
+japanese = "はい<end>"
+korean = "네<end>"
+
+["200153"]
+japanese = "次へ<end>"
+korean = "다음<end>"
+
+["200154"]
+japanese = "戻る<end>"
+korean = "돌아가기<end>"
+
+["200174"]
+japanese = "素手<end>"
+korean = "맨손<end>"
