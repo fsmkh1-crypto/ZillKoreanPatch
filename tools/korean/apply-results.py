@@ -2,7 +2,7 @@
 """Validate and apply one or more Korean result JSONL files to sparse overlays.
 
 Each input row must contain section/id/korean. Canonical Japanese is loaded locally.
-New translations are merged into one deterministic msgsecNNN-auto.toml per section.
+New translations are merged into deterministic msgsecNNN-part99.toml files.
 Re-applying the same translation is a no-op; conflicting existing translations fail.
 """
 from __future__ import annotations
@@ -18,6 +18,7 @@ CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
 TOKEN_RE = re.compile(r"<(?:end|line-break|value:\$[0-9A-Fa-f]+|if|select|less-equal|equal)>")
 SECTION_RE = re.compile(r"^msgsec(\d{3})")
+AUTO_PART = 99
 
 
 def q(s: str) -> str:
@@ -33,6 +34,10 @@ def section_from_path(path: Path) -> int:
     if not match:
         raise SystemExit(f"cannot infer section from Korean overlay filename: {path}")
     return int(match.group(1))
+
+
+def auto_path(section: int) -> Path:
+    return KOREAN / f"msgsec{section:03d}-part{AUTO_PART:02d}.toml"
 
 
 def canonical_for(section: int) -> dict[str, dict[str, object]]:
@@ -63,7 +68,7 @@ def load_existing() -> tuple[dict[tuple[int, str], str], dict[int, dict[str, dic
                 continue
             existing[key] = ko
             owners[key] = path
-            if path.name == f"msgsec{section:03d}-auto.toml":
+            if path == auto_path(section):
                 auto.setdefault(section, {})[str(rid)] = {
                     "japanese": str(rec.get("japanese", "")),
                     "korean": ko,
@@ -126,8 +131,7 @@ def main() -> None:
 
     KOREAN.mkdir(parents=True, exist_ok=True)
     for section, records in sorted(auto.items()):
-        path = KOREAN / f"msgsec{section:03d}-auto.toml"
-        path.write_text(render(records), encoding="utf-8")
+        auto_path(section).write_text(render(records), encoding="utf-8")
     print(f"applied {added} new translations; {unchanged} already identical")
 
 
