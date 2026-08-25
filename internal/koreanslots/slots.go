@@ -24,6 +24,7 @@ func RequiredCustomRunes(texts []string) []rune {
 			if _, err := cp932.Encode(string(r)); err != nil {
 				set[r] = struct{}{}
 			}
+		}
 	}
 	out := make([]rune, 0, len(set))
 	for r := range set {
