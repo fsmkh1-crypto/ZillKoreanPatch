@@ -153,10 +153,12 @@ final class PoCPatcher {
     }
 
     private static AbsoluteEdit[] absoluteEdits(FontExtractor.Inspection inspection) {
-        if (inspection.startupMessageArc == null || inspection.startupMessage == null) {
+        if (inspection.startupMessageArc == null || inspection.startupMessage == null
+                || inspection.startupRecord == null) {
             throw new IllegalStateException("inspection is missing guarded startup message metadata");
         }
-        List<AbsoluteEdit> edits = new ArrayList<>(FONT_EDITS.length + StartupMessage.guardedLength());
+        StartupMessage.ByteEdit[] messageEdits = StartupMessage.patchEdits(inspection.startupRecord);
+        List<AbsoluteEdit> edits = new ArrayList<>(FONT_EDITS.length + messageEdits.length);
 
         long fontMemberStart = inspection.paArc.extent * (long) Iso9660.SECTOR_SIZE
                 + inspection.zillfont.offset;
@@ -164,11 +166,10 @@ final class PoCPatcher {
             edits.add(new AbsoluteEdit(fontMemberStart + edit.relativeOffset, edit.mask, edit.value));
         }
 
-        long messageStart = inspection.startupMessageArc.extent * (long) Iso9660.SECTOR_SIZE
-                + inspection.startupMessage.offset + inspection.startupRecordOffset;
-        byte[] messagePatch = StartupMessage.guardedPatchBytes();
-        for (int i = 0; i < messagePatch.length; i++) {
-            edits.add(new AbsoluteEdit(messageStart + i, 0xFF, messagePatch[i] & 0xFF));
+        long recordStart = inspection.startupMessageArc.extent * (long) Iso9660.SECTOR_SIZE
+                + inspection.startupMessage.offset + inspection.startupRecord.offset;
+        for (StartupMessage.ByteEdit edit : messageEdits) {
+            edits.add(new AbsoluteEdit(recordStart + edit.relativeOffset, 0xFF, edit.value));
         }
 
         edits.sort(Comparator.comparingLong(edit -> edit.offset));
@@ -218,8 +219,8 @@ final class PoCPatcher {
         }
     }
 
-    static int patchByteCount() {
-        return FONT_EDITS.length + StartupMessage.guardedLength();
+    static int patchByteCount(FontExtractor.Inspection inspection) {
+        return absoluteEdits(inspection).length;
     }
 
     static int glyphCount() {
