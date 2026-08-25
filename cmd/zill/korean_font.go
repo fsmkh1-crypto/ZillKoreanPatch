@@ -71,6 +71,21 @@ func runFontStatus(args []string, stdout, stderr io.Writer) int {
 	return 0
 }
 
+func collectRendererKeys(id int, label, text string, used map[cp932.GlyphKey]struct{}) error {
+	for _, r := range text {
+		encoded, err := cp932.Encode(string(r))
+		if err != nil {
+			return fmt.Errorf("%s ID %d contains non-CP932 rune %U: %w", label, id, r, err)
+		}
+		key, err := cp932.GlyphKeyFromBytes(encoded)
+		if err != nil {
+			return fmt.Errorf("%s ID %d rune %U: %w", label, id, r, err)
+		}
+		used[key] = struct{}{}
+	}
+	return nil
+}
+
 func runKoreanSlots(root string, args []string, stdout, stderr io.Writer) int {
 	gameDir, ok := parseRequiredGameDir("korean-slots", args, stderr)
 	if !ok {
@@ -87,43 +102,52 @@ func runKoreanSlots(root string, args []string, stdout, stderr io.Writer) int {
 		return 1
 	}
 
-	used := make(map[cp932.GlyphKey]struct{})
+	usedEnglish := make(map[cp932.GlyphKey]struct{})
+	usedJapanese := make(map[cp932.GlyphKey]struct{})
 	for _, item := range project.Items {
-		for _, r := range item.Translation.Text {
-			encoded, err := cp932.Encode(string(r))
-			if err != nil {
-				fmt.Fprintf(stderr, "zill: korean-slots: translation ID %d contains non-CP932 rune %U: %v\n", item.Record.ID, r, err)
-				return 1
-			}
-			key, err := cp932.GlyphKeyFromBytes(encoded)
-			if err != nil {
-				fmt.Fprintf(stderr, "zill: korean-slots: translation ID %d: %v\n", item.Record.ID, err)
-				return 1
-			}
-			used[key] = struct{}{}
+		if err := collectRendererKeys(item.Record.ID, "English translation", item.Translation.Text, usedEnglish); err != nil {
+			fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
+			return 1
+		}
+		if err := collectRendererKeys(item.Record.ID, "Japanese source", item.Translation.Japanese, usedJapanese); err != nil {
+			fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
+			return 1
 		}
 	}
 
 	installedTwoByte := font.DoubleByteKeys()
-	available := make([]cp932.GlyphKey, 0, len(installedTwoByte))
-	usedInstalled := 0
+	candidates := make([]cp932.GlyphKey, 0, len(installedTwoByte))
+	englishInstalled := 0
+	japaneseInstalled := 0
+	unionInstalled := 0
 	for _, key := range installedTwoByte {
-		if _, ok := used[key]; ok {
-			usedInstalled++
+		_, english := usedEnglish[key]
+		_, japanese := usedJapanese[key]
+		if english {
+			englishInstalled++
+		}
+		if japanese {
+			japaneseInstalled++
+		}
+		if english || japanese {
+			unionInstalled++
 			continue
 		}
-		available = append(available, key)
+		candidates = append(candidates, key)
 	}
-	sort.Slice(available, func(i, j int) bool { return available[i] < available[j] })
+	sort.Slice(candidates, func(i, j int) bool { return candidates[i] < candidates[j] })
 
 	fmt.Fprintf(stdout, "Installed glyph slots: %d\n", len(font.Glyphs))
 	fmt.Fprintf(stdout, "Installed two-byte slots: %d\n", len(installedTwoByte))
-	fmt.Fprintf(stdout, "Two-byte slots referenced by current English text: %d\n", usedInstalled)
-	fmt.Fprintf(stdout, "Reusable two-byte slots for Korean PoC: %d\n", len(available))
-	if len(available) > 0 {
-		fmt.Fprintf(stdout, "First reusable keys:")
-		limit := min(16, len(available))
-		for _, key := range available[:limit] {
+	fmt.Fprintf(stdout, "Two-byte slots referenced by current English message text: %d\n", englishInstalled)
+	fmt.Fprintf(stdout, "Two-byte slots referenced by retail Japanese message text: %d\n", japaneseInstalled)
+	fmt.Fprintf(stdout, "Two-byte slots referenced by either message corpus: %d\n", unionInstalled)
+	fmt.Fprintf(stdout, "Candidate two-byte slots unreferenced by both message corpora: %d\n", len(candidates))
+	fmt.Fprintln(stdout, "Safety status: CANDIDATES ONLY; UI/ELF/fixed-data references outside message banks are not yet excluded.")
+	if len(candidates) > 0 {
+		fmt.Fprintf(stdout, "First candidate keys:")
+		limit := min(16, len(candidates))
+		for _, key := range candidates[:limit] {
 			fmt.Fprintf(stdout, " %04X", uint16(key))
 		}
 		fmt.Fprintln(stdout)
