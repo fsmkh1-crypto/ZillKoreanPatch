@@ -1,244 +1,45 @@
-{"section":137,"id":"1370213","japanese":"…知りませんね。<end>"}
-{"section":137,"id":"1370214","japanese":"くすっ、そう…。それは残念。<line-break>この女の記憶を手繰っていくと、<line-break>確かにこの近くにあるはずなのに…。<end>"}
-{"section":137,"id":"1370215","japanese":"記憶を手繰る…？<end>"}
-{"section":137,"id":"1370216","japanese":"そちらもお気をつけて。<line-break>この辺りは危険ですから…。<line-break>くすくす…。<end>"}
-{"section":137,"id":"1370217","japanese":"（似ている……。）<end>"}
-{"section":137,"id":"1370218","japanese":"…なんでもない。<line-break>父上も心配しておられよう。<line-break>朝のうちに神器の神殿に戻るぞ。<end>"}
-{"section":137,"id":"1370219","japanese":"あ、ロイさまと<line-break><value:$28>さまだ！<line-break><value:$28>さまー！<end>"}
-{"section":137,"id":"1370220","japanese":"<value:$28>さまー。<line-break>おかえりなさい。<line-break>お疲れさまでしたー。<end>"}
-{"section":137,"id":"1370221","japanese":"<value:$28>、<line-break>無事だったんだ…。<line-break>よかった…。<end>"}
-{"section":137,"id":"1370222","japanese":"魔物に襲われた人なら<line-break>ダディアス様が治療してくださったわ。<line-break>さすがノトゥーン神に仕える神官ね。<end>"}
-{"section":137,"id":"1370223","japanese":"なあなあ、<value:$28>。<line-break>魔物、どうだったんだ？<end>"}
-{"section":137,"id":"1370224","japanese":"ハハハ。<line-break><value:$28>、<line-break>大した人気だな。<end>"}
-{"section":137,"id":"1370225","japanese":"神器の守護者として、<line-break>修行の旅に出てらっしゃる間に<line-break>ロイ様は人気が下がったのよ。<end>"}
-{"section":137,"id":"1370226","japanese":"その間、<value:$28>が<line-break>この村を守ってたからな。<end>"}
-{"section":137,"id":"1370227","japanese":"やれやれ。<line-break><value:$28>、<line-break>人気者はつらいな。<end>"}
-{"section":137,"id":"1370228","japanese":"１０００ギア手に入れた。<end>"}
-{"section":137,"id":"1370229","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370230","japanese":"これからは、今日のように、<line-break>戦いに出る機会が増えるだろう。<line-break> <line-break>自身の鍛練もそうだが、<line-break>装備も強くしておかねばならない。<end>"}
-{"section":137,"id":"1370231","japanese":"鍛冶屋の経験がある男が、<line-break>村のどこかにいたはずだ。<line-break> <line-break>今は仕事を断っているらしいが<line-break>その錬剛石とギアを持っていって頼めば<line-break>鍛冶をしてくれるかもしれない。<end>"}
-{"section":137,"id":"1370232","japanese":"私は一足先に神殿に戻っている。<line-break>なるべく早く戻ってこい。<line-break>それに朝も早い。静かにな。<end>"}
-{"section":137,"id":"1370233","japanese":"ねえ、いったい最近どうなってるの？<line-break><line-break><line-break>ここは神器を守る村。<line-break>結界に守られていて、<line-break>魔物なんて近寄れないはずよ。<end>"}
-{"section":137,"id":"1370234","japanese":"なあなあ、魔物と戦ったのか？<line-break>ケガはなかったか？<end>"}
-{"section":137,"id":"1370235","japanese":"あー！！　もう！！　　<line-break>　<line-break>　<end>"}
-{"section":137,"id":"1370236","japanese":"<value:$28>さまが<line-break>おこまりでしょ！！<end>"}
-{"section":137,"id":"1370237","japanese":"ちぇ。<end>"}
-{"section":137,"id":"1370238","japanese":"さ、<value:$28>さま、<line-break>しんでんで<line-break>お父上さまがお待ちですよ。<end>"}
-{"section":137,"id":"1370239","japanese":"あとで、魔物のおはなし<line-break>きかせてくださいねー。<line-break><value:$28>さまー。<end>"}
-{"section":137,"id":"1370240","japanese":"くすくす…。<line-break>よく燃えるわね。<end>"}
-{"section":137,"id":"1370241","japanese":"これは…！<end>"}
-{"section":137,"id":"1370242","japanese":"あら。<line-break>あなたたちはさっきの…。<line-break>フフフフ…。<end>"}
-{"section":137,"id":"1370243","japanese":"神殿のほうだ。<line-break>父上と母上が危ない！<end>"}
-{"section":137,"id":"1370244","japanese":"あっ、<value:$28>様じゃ。<end>"}
-{"section":137,"id":"1370245","japanese":"魔物が入り口をふさいでいて<line-break>逃げられないのです！<line-break>お助けください！<end>"}
-{"section":137,"id":"1370246","japanese":"<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"}
-{"section":137,"id":"1370247","japanese":"<if><value:$29><equal>%0さすがに<line-break>俺が認めた男の<line-break>弟だけのことはある。<line-break>いい手並みだった。<line-break>兄を救いに行くつもりか？<end>さすがに<line-break>俺が認めた男の<line-break>妹だけのことはある。<line-break>いい手並みだった。<line-break>兄を救いに行くつもりか？<end>"}
-{"section":137,"id":"1370248","japanese":"…ロイはお前を逃がすために、<line-break>村人を逃がすよう言ったのだぞ。<end>"}
-{"section":137,"id":"1370249","japanese":"ロイは死を覚悟している。<line-break>…奴のことなら、わかる。<end>"}
-{"section":137,"id":"1370250","japanese":"俺はセラ。<line-break>ロイは俺が認めた<line-break>唯一の男だ。<end>"}
-{"section":137,"id":"1370251","japanese":"…来い。<end>"}
-{"section":137,"id":"1370252","japanese":"<if><value:$29><equal>%0ロイの弟…<line-break><value:$28>といったな。<end>ロイの妹…<line-break><value:$28>といったな。<end>"}
-{"section":137,"id":"1370253","japanese":"なかなかの手並みだったが、<line-break>兄を置いて逃げるのか？<end>"}
-{"section":137,"id":"1370254","japanese":"…確かにロイは<line-break>お前を逃がすため、<line-break>村人の避難を任せた。<end>"}
-{"section":137,"id":"1370255","japanese":"…それで、<line-break>お前は逃げるのか？<end>"}
-{"section":137,"id":"1370256","japanese":"ロイは、<line-break>死を覚悟している…。<end>"}
-{"section":137,"id":"1370257","japanese":"どうした、<line-break>来ないのか。<line-break>　<line-break>後悔したいのなら、<line-break>止めはせん。<line-break>そこにいろ。<end>"}
-{"section":137,"id":"1370258","japanese":"俺はセラ。<line-break>ロイは俺が認めた<line-break>唯一の男だ。<line-break>お前を守る気はない。<line-break>足手まといにはなるな。<end>"}
-{"section":137,"id":"1370259","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370260","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370261","japanese":"私は、<line-break>私が管理するはずの<line-break>大切なものをもらいに来たの。<line-break>神殿でたずねてみたけど、<line-break>誰も何も教えてくれないの。<line-break>くすくす…。ひどい話よね。<end>"}
-{"section":137,"id":"1370262","japanese":"だから、みんな殺しちゃった。<end>"}
-{"section":137,"id":"1370263","japanese":"！<end>"}
-{"section":137,"id":"1370264","japanese":"そうそう、あなた、<line-break>ウソをついていたでしょう？<line-break>知りませんだなんて。<line-break>くすくす、あれ、<line-break>あなたのおうちにあるんじゃない。<line-break>　<end>"}
-{"section":137,"id":"1370265","japanese":"あなたのお父様の死体から、<line-break>記憶をじかに探らせてもらったわ。<line-break>　<end>"}
-{"section":137,"id":"1370266","japanese":"誰に殺されるのかもわからずに<line-break>死んでいくのはかわいそうだから<line-break>教えてあげる。<line-break>私は破壊神ウルグの円卓騎士、<line-break>心をなくすものアーギルシャイア。<line-break>じゃあね。<end>"}
-{"section":137,"id":"1370267","japanese":"<value:$28>、<line-break>ここを離れるんだ。<line-break>村人を避難させてくれ。<end>"}
-{"section":137,"id":"1370268","japanese":"魔物は、必ず私が倒す。<line-break>お前は村人を頼む。<end>"}
-{"section":137,"id":"1370269","japanese":"デスギガースに立ち向かう<end>"}
-{"section":137,"id":"1370270","japanese":"兄の言うとおり村人を避難させる<end>"}
-{"section":137,"id":"1370271","japanese":"<value:$28>、よせ！<end>"}
-{"section":137,"id":"1370272","japanese":"<value:$28>ー！<end>"}
-{"section":137,"id":"1370273","japanese":"…生きていたか。<end>"}
-{"section":137,"id":"1370274","japanese":"武器を収めろ。<line-break>俺はここに<line-break>旧友を訪ねてきただけだ。<line-break>殺すつもりなら<line-break>お前が目を覚ます前に<line-break>やっている。<end>"}
-{"section":137,"id":"1370275","japanese":"生き残りはお前だけだ。<line-break>たずねるが、<line-break>ここがミイスの村か？<end>"}
-{"section":137,"id":"1370276","japanese":"お前の名は？<end>"}
-{"section":137,"id":"1370277","japanese":"<if><value:$29><equal>%0…フ、なるほどな。<line-break>お前がロイの弟か。<line-break>ロイから名前は聞いている。<line-break>俺はセラ。<line-break>ロイの友だ。<end>…フ、なるほどな。<line-break>お前がロイの妹か。<line-break>ロイから名前は聞いている。<line-break>俺はセラ。<line-break>ロイの友だ。<end>"}
-{"section":137,"id":"1370278","japanese":"大丈夫だ。<line-break>私がウソをついたことがあったか？<end>"}
-{"section":137,"id":"1370279","japanese":"（酔っ払いだ。<line-break>　目を開けて寝ている…）<line-break> <line-break>（もしかして…？）<end>"}
-{"section":137,"id":"1370280","japanese":"う…なぁんだよ、<line-break>人が気持ちよく寝てるってのに。<end>"}
-{"section":137,"id":"1370281","japanese":"うん…俺があ？<line-break>鍛冶屋だったんじゃないかって？<line-break>冗談言っちゃいけねえ。<line-break>何を見てそんな…<end>"}
-{"section":137,"id":"1370282","japanese":"へっ、この指かよ。<line-break>やれやれ、<line-break>これを見られちゃしょうがねえな。　<line-break>いかにもこいつは、<line-break>長年ハンマーを振るい続けた、<line-break>鍛冶屋の手指だ。<end>"}
-{"section":137,"id":"1370283","japanese":"だが、俺は今、<line-break>ごらんの通りの飲んだくれだ。<line-break>何か用かい？<end>"}
-{"section":137,"id":"1370284","japanese":"仕事を頼みたい<end>"}
-{"section":137,"id":"1370285","japanese":"鍛冶屋について教えてほしい<end>"}
-{"section":137,"id":"1370286","japanese":"何も用はない<end>"}
-{"section":137,"id":"1370287","japanese":"あんたと話をしてて、<line-break>久々にハンマーが握りたくなってきた。<line-break>俺も…やり直せるのかもな…。<line-break>ありがとよ。<end>"}
-{"section":137,"id":"1370288","japanese":"せっかくだが、そいつは無理だ…。<line-break>今の俺には自信も道具もねえ。<line-break>だが、そういってくれるのは嬉しいよ。<line-break>お前さん、見たとこそんなに<line-break>鍛冶屋のことを知らないんだろ？<line-break>俺の話を聞いて勉強していくといい。<end>"}
-{"section":137,"id":"1370289","japanese":"じゃ、どの話に<line-break>付き合ってくれるんだい？<end>"}
-{"section":137,"id":"1370290","japanese":"ちょうどひとりで飲むのも<line-break>飽きたんで、話し相手が<line-break>欲しかったとこだ。<end>"}
-{"section":137,"id":"1370291","japanese":"それにお前さん、<line-break>見るからに駆け出しだよな。<line-break> <line-break>よし。<line-break>俺の話を聞いて<line-break>鍛冶屋のことを勉強しなよ。<end>"}
-{"section":137,"id":"1370292","japanese":"じゃ、どの話に<line-break>付き合ってくれるんだい？<end>"}
-{"section":137,"id":"1370293","japanese":"装備の強度って？<end>"}
-{"section":137,"id":"1370294","japanese":"装備の形状って？<end>"}
-{"section":137,"id":"1370295","japanese":"装備の効果って？<end>"}
-{"section":137,"id":"1370296","japanese":"精霊属性の変更って？<end>"}
-{"section":137,"id":"1370297","japanese":"全部知っている<end>"}
-{"section":137,"id":"1370298","japanese":"そのまんまのことだ。<line-break>武器や防具の頑丈さのことだわな。<line-break> <line-break>金属って奴は、俺ら鍛冶屋が<line-break>ぶっ叩けば叩くほど、<line-break>ねばりが出て頑丈になりやがる。<end>"}
-{"section":137,"id":"1370299","japanese":"強度が高いほうが、<line-break>攻撃力や防御力が増すってのは<line-break>言うまでもねえ。<line-break>で、そこに、錬剛石って特別な鉱石を<line-break>あわせて叩き直す…言うなれば<line-break>ドワーフ流が今の主流だ。<end>"}
-{"section":137,"id":"1370300","japanese":"ただし、鍛えれば鍛えるほど、<line-break>武器の重量が重くなって扱いが<line-break>難しくなることは覚悟しとけよ。<end>"}
-{"section":137,"id":"1370301","japanese":"ま、買ったままの武器でも<line-break>そこそこ戦えるようには鍛えてある。<line-break>だが、さらに鍛えたかったら、<line-break>錬剛石とギアがなけりゃ、<line-break>話にならねえ。<end>"}
-{"section":137,"id":"1370302","japanese":"ズバリ、エモノの形のことだな。<line-break>使ってる武器がいまいち好みじゃねえ<line-break>…そんな時は、鍛冶屋の出番だ。<line-break>代金さえもらえりゃ、ある程度、<line-break>お前さんの好みに従って形を<line-break>仕立て直すことが可能だ。<end>"}
-{"section":137,"id":"1370303","japanese":"同じ剣にしても、もっと細身がいいとか<line-break>まっすぐなのがいいとか、あるだろ？<line-break>そういうことだよ。<line-break>もちろん、<line-break>昔の形に戻すことだってできるぜ。<line-break>便利だろ？<end>"}
-{"section":137,"id":"1370304","japanese":"おう、効果のことな。<line-break>お前さん、<line-break>ハチに刺されたことがあるかい？<end>"}
-{"section":137,"id":"1370305","japanese":"かゆくなったり痛くなったり…<line-break>そうなるのは、<line-break>ハチの針に毒があるからだな。<line-break>武器に効果をつけるってのは、<line-break>例えるなら、お前さんの剣が<line-break>ハチの針みてえになるってことよ。<end>"}
-{"section":137,"id":"1370306","japanese":"刺したと同時に敵を眠らせちまう槍や、<line-break>斬ることで相手を麻痺させる剣、<line-break>なんてのも作れる。<line-break>防具はその逆だ。<line-break>石化や呪いからお前さんを<line-break>守ってくれる防具も作れる。<end>"}
-{"section":137,"id":"1370307","japanese":"こいつは難しい仕事だから、<line-break>それなりのギアをいただくが、<line-break>重宝するぜ。<line-break>強度や形状を変えてもまだ…<line-break>って時には、<line-break>ぜひ試してみてくれよ。<end>"}
-{"section":137,"id":"1370308","japanese":"俺たちにとっても、<line-break>いい稼ぎになるしな。<end>"}
-{"section":137,"id":"1370309","japanese":"ははは！<end>"}
-{"section":137,"id":"1370310","japanese":"精霊属性のことか。<line-break>こいつだけは本来、<line-break>鍛冶屋の領分じゃねえ。<line-break>神殿に言って頼むことだ。<line-break>ま、俺でも、<line-break>説明くらいはできるが…。<end>"}
-{"section":137,"id":"1370311","japanese":"精霊属性ってのはだな、<line-break>火や水といった精霊の力を<line-break>武器や防具に宿すことさ。<line-break>精霊の属性については<line-break>もう知ってるのかい？<end>"}
-{"section":137,"id":"1370312","japanese":"知らない<end>"}
-{"section":137,"id":"1370313","japanese":"知っている<end>"}
-{"section":137,"id":"1370314","japanese":"火、水、土、風…<line-break>この四種類が精霊の属性だ。<line-break> <line-break>聖母神がお作りになったこの四属性が<line-break>互いに干渉しあい、循環することで<line-break>世界は成り立ってるのさ。<end>"}
-{"section":137,"id":"1370315","japanese":"火は水に強く、水は土に強く、<line-break>土は風に、風は火に強い。<line-break> <line-break>わかるだろ、ぐるぐる回ってんだ。<line-break>どれが圧倒的に優位ということはなく、<line-break>うまくバランスをとってるんだな。<end>"}
-{"section":137,"id":"1370316","japanese":"まあ、魔法なんかもすべて<line-break>火、水、土、風の四属性を<line-break>元にしているからな。<line-break>お前さんにそういう知識があるなら<line-break>まず問題はねえだろ。<end>"}
-{"section":137,"id":"1370317","japanese":"装備の精霊属性を変更するってことは、<line-break>この四属性の性質をそのまま装備に<line-break>盛り込むってことだ。<line-break>例えば、お前さんが火属性の剣を持ち、<line-break>火属性の鎧を身につけたとする。<end>"}
-{"section":137,"id":"1370318","japanese":"お前さんは水属性の相手に対して<line-break>圧倒的に有利に戦うことができ…<line-break> <line-break>逆に、火属性のダメージを<line-break>大幅に軽減することも可能だ。<line-break>なっ、こりゃすげえことだろ？<end>"}
-{"section":137,"id":"1370319","japanese":"さらにこの精霊属性ってのには、<line-break>装備品ごと、最初から決まった強弱…<line-break>いわゆるレベルってもんがある。<line-break>同じ火属性を宿したとしても、<line-break>片手剣なら４、槍なら２、<line-break>ナックルだと６、って具合になる。<end>"}
-{"section":137,"id":"1370320","japanese":"だが、単に属性のレベルの数値が<line-break>高けりゃいいのかっていうと、<line-break>そんな底の浅い話でもない。<line-break>忘れないでくれよ。<line-break>精霊ＬＶが高いということは、<line-break>それだけ純粋に近いという証だ。<end>"}
-{"section":137,"id":"1370321","japanese":"火属性の剣では、同じ火属性の敵を<line-break>傷つけることは難しく、火属性の鎧は、<line-break>風属性の攻撃を、倍ににも受けちまう。<line-break>その効果が、さらに、<line-break>属性のレベルによって変動する。<line-break>…ま、臨機応変に、ってことだな。<end>"}
-{"section":137,"id":"1370322","japanese":"どうでえ、酔っ払ってるとは思えねえ<line-break>さわやかな弁舌だろ？<line-break>鍛冶のことなら任せとけってんだ。<end>"}
-{"section":137,"id":"1370323","japanese":"本当に大丈夫だな？<end>"}
-{"section":137,"id":"1370324","japanese":"ちょっと待って<end>"}
-{"section":137,"id":"1370325","japanese":"大丈夫<end>"}
-{"section":137,"id":"1370326","japanese":"よしきた。<line-break>じゃ、何を話そうか？<end>"}
-{"section":137,"id":"1370327","japanese":"ほっほう、そいつはたいしたもんだ。<line-break>改めて俺に仕事を頼むときも、<line-break>迷わずに済むな。<end>"}
-{"section":137,"id":"1370328","japanese":"あんたと話をしてて、<line-break>久々にハンマーが握りたくなってきた。<line-break>俺も…やり直せるのかもな…。<end>"}
-{"section":137,"id":"1370329","japanese":"けっ、酔っ払いを<line-break>からかいたかっただけかよ。<line-break> <line-break>ひとりにしといてくれってんだ。<line-break>あばよ。<end>"}
-{"section":137,"id":"1370330","japanese":"<value:$28>様、<line-break>お帰りなさいませ。　　　　<line-break>おケガは？<end>"}
-{"section":137,"id":"1370331","japanese":"ご無事で何よりです。<line-break>お父上のダディアス大神官が<line-break>神殿内でお待ちです。<end>"}
-{"section":137,"id":"1370332","japanese":"<select><value:$20>%3ロイ様ですか？<line-break>もう、広場か森に行かれたのでは？<end><value:$28>様もロイ様も<line-break>このミイスの村の大神官ダディアス様も、<line-break>神器の守護者と呼ばれるご一族。<line-break>闇の神器という危険な宝物を<line-break>破壊神の騎士と呼ばれる魔人どもから<line-break>守るのがお役目なのです。<end>今の地震といい、<line-break>最近うろつきだした魔物どもといい、<line-break>魔人が神器をねらっているのでしょうか？　<line-break>しかし心配はご無用ですぞ。<line-break>きっと天空神ノトゥーンの加護があります。<line-break>このじいもついておりますしな。<end>"}
-{"section":137,"id":"1370333","japanese":"<select><value:$20>%3神器とはどのようなものかは、<line-break>その時期が来れば、<line-break>お父上が教えてくださいますよ。　　<line-break>こればかりは神器を守る神官家にのみ<line-break>伝わる秘伝ですからな。<line-break>じいも存じませんのです。<end><value:$28>様もロイ様も<line-break>大神官ダディアス様も、<line-break>このミイスの村の神官家の方々はみな<line-break>闇の神器という危険な宝物を、<line-break>破壊神の騎士と呼ばれる魔人どもから<line-break>守る宿命を負っておられるのです。<end>今の地震といい、<line-break>最近うろつきだした魔物どもといい…、<line-break>魔人が神器をねらっているのでしょうか？　<line-break>しかし心配はご無用ですぞ。<line-break>きっと天空神ノトゥーンの加護があります。<line-break>このじいもついておりますしな。<end>"}
-{"section":137,"id":"1370334","japanese":"父なる天空神ノトゥーンと<line-break>愛の神ライラネートのご加護あらんことを。<line-break><value:$28>様、よくぞご無事で。<line-break>さ、早く神殿へ。<line-break>お父上のダディアス様が<line-break>心配なさっておられますよ。<end>"}
-{"section":137,"id":"1370335","japanese":"<select><value:$20>%3<value:$28>様に<line-break>愛の神ライラネートのご加護を…。<line-break>　<line-break>そして、<value:$28>様の敵に<line-break>天空神ノトゥーンの<line-break>裁きのいかづちを…。<end>このミイスの村は<line-break>闇の神器を闇のしもべから<line-break>守るための隠れ里…。<line-break>闇の神器は破壊神の復活に使われるもの。<line-break>だから、破壊神のしもべがねらうのです。<end>私もこの神殿の神器が<line-break>どのようなものかは存じません。<line-break>　<line-break>隠れて伝わる伝承では<line-break>記憶を失うかわりに<line-break>すさまじい力を手に入れられるとか…。<end>"}
-{"section":137,"id":"1370336","japanese":"…アンティノ商会が極秘開発中の<line-break>戦闘用モンスター…デスギガース。<line-break>…やはり、そういうことか。<end>"}
-{"section":137,"id":"1370337","japanese":"…心配はいらん。<line-break>こいつはすでに機能停止…<line-break>つまり、死んでいる。<end>"}
-{"section":137,"id":"1370338","japanese":"ロイほどの手練れでも倒すのは難しい。<line-break>だが、俺がただひとり認めた<line-break>あの男以上に腕の立つ男は存在しない。<line-break>ロイがこれを倒したのだな。<end>"}
-{"section":137,"id":"1370339","japanese":"月光に反応はない。<line-break>ロイはここにはいないようだな。<end>"}
-{"section":137,"id":"1370340","japanese":"これは妖刀・月光。<line-break>ロイはこれと対をなす剣を<line-break>持っている。<end>"}
-{"section":137,"id":"1370341","japanese":"だが、デスギガースを倒したあと、<line-break>あの男はなぜ姿を消した…？<end>"}
-{"section":137,"id":"1370342","japanese":"セラという男についていく<end>"}
-{"section":137,"id":"1370343","japanese":"セラという男は信用できない<end>"}
-{"section":137,"id":"1370344","japanese":"ついてくるなら、<line-break>それもいいだろう。<line-break>面倒は見んがな。<end>"}
-{"section":137,"id":"1370345","japanese":"ロイのあとを<line-break>追いかける気はないのか？<end>"}
-{"section":137,"id":"1370346","japanese":"俺に不信があるなら<line-break>いずれ答えてやる。<line-break>ただし、それは今ではない。<line-break>今、俺は急ぐ。<end>"}
-{"section":137,"id":"1370347","japanese":"<if><value:$29><equal>%0来い。<line-break>ロイの弟よ。<end>来い<line-break>ロイの妹よ。<end>"}
-{"section":137,"id":"1370348","japanese":"アーギルシャイアは<line-break>俺の大事なものを奪った…。　　<line-break>　<line-break>俺は強くなる、<line-break>…どんな手段を使ってもな。<line-break>そして、俺のすべてを取り戻す。<end>"}
-{"section":137,"id":"1370349","japanese":"ここがディンガル帝国の首都<line-break>エンシャントだ。<line-break>　<line-break>町の中でまで群れては歩かん。<line-break>町を出るまでは別行動が冒険者同士の<line-break>暗黙のルールだ。憶えておけ。<end>"}
-{"section":137,"id":"1370350","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370351","japanese":"（村の人たちを助けに行かなきゃ…。）<line-break>　<line-break>　<line-break>（…そう。<line-break>　兄さんと約束したんだから…。）<end>"}
-{"section":137,"id":"1370352","japanese":"遅くなってすまない。<line-break>神殿で取ってくるものが<line-break>あったのでな。<end>"}
-{"section":137,"id":"1370353","japanese":"ん？<line-break>父上が、私に…？<line-break>護符か。ありがたい。<end>"}
-{"section":137,"id":"1370354","japanese":"<value:$28>も、<line-break>ご苦労だったな。　　　　　　<line-break> <line-break><value:$28>のおかげで、<line-break>父上の気遣いの心が<line-break>よく伝わってきたよ。<end>"}
-{"section":137,"id":"1370355","japanese":"…どうした？<end>"}
-{"section":137,"id":"1370356","japanese":"そうか、そんな感覚をおぼえたか。<line-break> <line-break> <line-break>つまり、この護符を私に届けるという<line-break>仕事を成し遂げたことで、お前の中に<line-break>ソウルポイントが蓄積されたのだ。<end>"}
-{"section":137,"id":"1370357","japanese":"助けを求める声に応じ、<line-break>窮する人々に救いの手を差し伸べる。  <line-break> <line-break>そうすることにより<line-break>ソウルポイントが得られ、<line-break>さらに優れたソウルを導き寄せる。<end>"}
-{"section":137,"id":"1370358","japanese":"よし、では行こうか。<end>"}
-{"section":137,"id":"1370359","japanese":"どうした？<line-break>調査の前に<line-break>やり残したことがあるのか？<end>"}
-{"section":137,"id":"1370360","japanese":"ならば行ってくるといい。<line-break>私はここで待っている。<end>"}
-{"section":137,"id":"1370361","japanese":"もう大丈夫か？<end>"}
-{"section":137,"id":"1370362","japanese":"ではミイスの森を<line-break>調査しに行くぞ。<end>"}
-{"section":137,"id":"1370363","japanese":"<if><value:$29><equal>%0よう、<value:$28>。<line-break>朝も早いってのに、<line-break>魔物騒ぎで大変だったな。<end><value:$28>。<line-break>無事でよかった…。　　　　　　<line-break>　<line-break>魔物騒ぎで森に行ったってっから<line-break>俺…、寝てらんなくって…。<line-break>でも、無事でホントよかったよ。<end>"}
-{"section":137,"id":"1370364","japanese":"<select><value:$20>%3魔物の出現に続いて地震かよ。<line-break>いよいよ、お前たち神器を守る一族の<line-break>出番ってわけだ。<line-break>ホント大変な家に生まれちまったな。<line-break>ま、がんばれよ。<line-break>お前なら神器を守り通せるさ。<end>お前たち神官家ってさ、<line-break>このミイスにある神器を<line-break>守ってるんだよな。<line-break>…ところで神器って<line-break>なんなんだ？<line-break>どんなもんなんだ？<end>ロイ様の持ってらっしゃる剣、<line-break>カッコいいよなあ。<line-break>聖剣・日光って言うんだってな。<end>"}
-{"section":137,"id":"1370365","japanese":"<if><value:$29><equal>%0知らない！！<line-break>知らないんだ、俺たちゃ！<line-break>面ってなんなんだよ！？　おい！！<end>みんな…みんな…<line-break>あの女に燃やされて…！！<line-break>ああ…、ど、どうなってるんだよ！？<end>"}
-{"section":137,"id":"1370366","japanese":"お…おっきなじしんだったね！<line-break>わ…わたし、びっくりしちゃった。<end>"}
-{"section":137,"id":"1370367","japanese":"<select><value:$20>%2こわいよぉ！<line-break>こわいよぉ！<end><value:$28>さまぁ！<line-break>たすけて！！<line-break>みんな…みんな…もえちゃうよお！<end>"}
-{"section":137,"id":"1370368","japanese":"<if><value:$29><equal>%0<value:$28>。<line-break>無事でよかった…。　　　　　　　　　　<line-break>　<line-break>魔物騒ぎがあって、<line-break>キミが退治に行ったっていうから、<line-break>心配で朝も早いのにここに来たんだよ。<end>魔物がこんな村近くの森にまで…。<line-break>心配でゆっくり寝てられないわ。<end>"}
-{"section":137,"id":"1370369","japanese":"<if><value:$29><equal>%0<value:$28>。<line-break>怪物のうろついてるミイスの森に行くの？<line-break>お姉さん、心配だな。<line-break>ロイ様もついているし、<line-break>キミも神器の守護者のご一族だもんね。<line-break>大丈夫なのはわかってるけどね。<end>魔物に続いて地震…。<line-break>いったいどうなってるのかしら。<end>"}
-{"section":137,"id":"1370370","japanese":"<if><value:$29><equal>%0…<value:$28>…な…の？<line-break>に…逃げ…て…、は…早…く…　　<line-break>　<line-break>…わ…私…もう…ダメ…だから…<line-break>キ…キミ…だけでも…<end>イ…イヤ…死にたく…ない…<line-break>か、かめ…ん…なんて…<line-break>ホント…知らな…い…<end>"}
-{"section":137,"id":"1370371","japanese":"<select><value:$20>%3今の地震といい魔物騒ぎといい…、<line-break>天空神ノトゥーンさまが<line-break>お怒りなのかのう…。<line-break>ロセンでは悪い王が<line-break>民をいじめておるからのう。<end>今の地震といい魔物騒ぎといい…、<line-break>天空神ノトゥーンさまが<line-break>お怒りなのかのう…。　<line-break>ディンガルでは皇帝が<line-break>世界を救った勇者ネメア様を<line-break>いじめておるというからのう…。<end>今の地震といい魔物騒ぎといい…、<line-break><value:$28>様、<line-break>世界は滅ぶのではないですかのう。　　　　<line-break>リベルダムでは魔物を改造して<line-break>戦争のための道具にしておるそうですじゃ。<line-break>これでは神様もお怒りでしょうのう。<end>"}
-{"section":137,"id":"1370372","japanese":"<select><value:$20>%3ロイ様は修行の旅から戻られて<line-break>いっそうたくましくなられましたな。<line-break>　<line-break>少々魔物がうろついたところで、<line-break>ロイ様と<value:$28>様が<line-break>おられれば安心ですな。<end><value:$28>様もロイ様のように、<line-break>神器の守護者としての実力をつけるため<line-break>いずれは旅に出られるのでしょうなあ。<end>ロイ様の持っておられる短剣は<line-break>日光という聖剣らしいですな。<line-break>修行の旅の途中見つけられたとか。<end>"}
-{"section":137,"id":"1370373","japanese":"<select><value:$20>%2ヘンな女が空から降りてきて…<line-break>村が…村が…炎に包まれて…。<end>火だ…火だ…火だアア！<line-break>だ、誰か、助けてくれえ！<end>"}
-{"section":137,"id":"1370374","japanese":"自身で自身を育てる…。<line-break>そのことを忘れないようにな。<end>"}
-{"section":137,"id":"1370375","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370376","japanese":"あとはギルドのおやじが<line-break>受け付けてくれる。<line-break>早く登録を済ませろ。<end>"}
-{"section":137,"id":"1370377","japanese":"冒険者登録かい？<line-break>あんたみたいに若い人は大歓迎だ。<line-break>　<line-break>ちょっと調べさせてもらうよ。<line-break>信用できる人物かどうか<line-break>確かめなくちゃならないんでな。<end>"}
-{"section":137,"id":"1370378","japanese":"幻術計振れておらず<line-break>犯罪登録当てはまらず。<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"}
-{"section":137,"id":"1370379","japanese":"これからは、バリバリ仕事して<line-break>名をあげていってくれよ。<line-break>がんばりな！<end>"}
-{"section":137,"id":"1370380","japanese":"仕事をこなしながら、<line-break>強くなることだ。<line-break>弱いやつは邪魔なだけだからな。<line-break>仕事の選択は、お前に任せる。<line-break>では、町を出るときに合流しよう。<end>"}
-{"section":137,"id":"1370381","japanese":"来たか。<line-break>ギルドのおやじが受け付けてくれる。<line-break>早く登録を済ませろ。<end>"}
-{"section":137,"id":"1370382","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370383","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370384","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370385","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370386","japanese":"おお、<value:$28>。<line-break>戻ったか。<line-break>ご苦労だった。<end>"}
-{"section":137,"id":"1370387","japanese":"な、何事だ？<end>"}
-{"section":137,"id":"1370388","japanese":"…父上、<line-break>今のが竜王の覚醒…<line-break>その第一声でしょうか？<end>"}
-{"section":137,"id":"1370389","japanese":"うむ…。<line-break>この世が乱れるとき<line-break>竜王が覚醒すると言われておる。<line-break>つまり、<line-break>乱世の原因を除くべく<line-break>目覚めるというのだが…。<end>"}
-{"section":137,"id":"1370390","japanese":"この地は神器を守るための結界があり、<line-break>魔物は近寄れぬはず…。<line-break>それが先ほども森で遭遇いたしました。<line-break>このことも関係あるのでしょうか。<line-break>破壊神ウルグの復活の時だとしたら…。<end>"}
-{"section":137,"id":"1370391","japanese":"もしそうならば、ゆゆしき事態だ。<line-break>ロイ、あの森を調査するのだ。<end>"}
-{"section":137,"id":"1370392","japanese":"わかりました、父上。<line-break><value:$28>も、<line-break>連れていってよろしいでしょうか。<end>"}
-{"section":137,"id":"1370393","japanese":"ならぬ。<line-break><value:$28>は未熟だ。<line-break>危険すぎる。<end>"}
-{"section":137,"id":"1370394","japanese":"父上。もう、<value:$28>も<line-break>修行に出してもよい年頃。<line-break>私も一緒に参るのです。ご安心を。<end>"}
-{"section":137,"id":"1370395","japanese":"…ロイがそこまで言うならばよかろう。<line-break><value:$28>も行くがよい。<end>"}
-{"section":137,"id":"1370396","japanese":"お前も、兄、ロイのように、<line-break>神器を守れるだけの力が必要だ。　　　　<line-break>　<line-break>いずれお前も修行に出ることになろう。<line-break>これはその予行と思うがよい。<line-break>ロイとともに調査に行くのだ。<end>"}
-{"section":137,"id":"1370397","japanese":"冒険者は万事に備えることが肝心だ。<line-break>復活の真珠を持っていくとよい。<end>"}
-{"section":137,"id":"1370398","japanese":"では、私は村の広場で待っている。<line-break>用意ができたら来てくれ。<end>"}
-{"section":137,"id":"1370399","japanese":"<value:$28>…。<line-break>ソウルについてはロイから<line-break>教わったのか？<end>"}
-{"section":137,"id":"1370400","japanese":"教わっていない<end>"}
-{"section":137,"id":"1370401","japanese":"教わった<end>"}
-{"section":137,"id":"1370402","japanese":"よろしい、では、<line-break>私がソウルについて語っておこう。<end>"}
-{"section":137,"id":"1370403","japanese":"ソウルは、戦いのみならず、<line-break>人生においても、人の人たる証にして<line-break>最も重視すべきもの…。<end>"}
-{"section":137,"id":"1370404","japanese":"何から聞きたい？<end>"}
-{"section":137,"id":"1370405","japanese":"ソウルとは<end>"}
-{"section":137,"id":"1370406","japanese":"ソウルとソウルポイント<end>"}
-{"section":137,"id":"1370407","japanese":"ソウルと成長<end>"}
-{"section":137,"id":"1370408","japanese":"ソウルとスキル<end>"}
-{"section":137,"id":"1370409","japanese":"魔法と精霊力<end>"}
-{"section":137,"id":"1370410","japanese":"すべて理解している<end>"}
-{"section":137,"id":"1370411","japanese":"ソウルとは…<line-break>人の人たる証にして、<line-break>最も重視すべきもの。            <line-break>戦いにおいても、人生においても、<line-break>それは変わりない。<line-break>いわば、魂の色や形のようなものだ。<end>"}
-{"section":137,"id":"1370412","japanese":"ソウルは、経験を積むことで<line-break>変化する性質を持つ。<line-break>ソウルの変化こそが人を形作るのだ。<end>"}
-{"section":137,"id":"1370413","japanese":"ソウルを磨き上げるための<line-break>経験の蓄積を、<line-break>ソウルポイントと呼ぶ。<line-break>さまざまな経験をし、ソウルポイントを<line-break>ためることで、さらに優れたソウルを<line-break>宿せるのだ。<end>"}
-{"section":137,"id":"1370414","japanese":"お前のソウルも今はブルーフレアでしか<line-break>ないが、そのうちウォーロックに、<line-break>そしてニルヴァーナになろう。<line-break>人々に施す心を忘れるな。<line-break>さすれば、ソウルポイントは<line-break>着実にたまっていくはずだ。<end>"}
-{"section":137,"id":"1370415","japanese":"ソウルはおのれの魂の色や形…。<line-break>といえども、新たに得たソウルは<line-break>自らに宿さねば意味がないのだ。<line-break>新たなソウルを得、それに魅力を<line-break>感じたならば、まず宿す。<end>"}
-{"section":137,"id":"1370416","japanese":"ソウルを宿せば、ソウルがお前を導き、<line-break>お前を育ててくれるだろう。<line-break><line-break>例えば、ウォーロックを宿していれば、<line-break>魔道士として重要な<line-break>ＩＮＴやＭＩＮを伸ばしてくれる。<end>"}
-{"section":137,"id":"1370417","japanese":"逆に、戦士系のグロウファイターなら<line-break>これがＳＴＲやＶＩＴとなる。<line-break>そういうことだ。<end>"}
-{"section":137,"id":"1370418","japanese":"スキルは、ソウルごとにある<line-break>特技や秘技のようなものだ。<line-break> <line-break>普通、スキルはソウルを宿すことにより<line-break>使えるようになる。<line-break>しかし、宿せるソウルはひとつのみ。<end>"}
-{"section":137,"id":"1370419","japanese":"うむ、そう言うであろうと思った。<line-break>宿していないソウルのスキルは<line-break>使うことができないのか…？<line-break>…できる。ソウルにソウルポイントが<line-break>あるように、スキルには<line-break>スキルポイントが存在する。<end>"}
-{"section":137,"id":"1370420","japanese":"そのスキルポイントを消費して、<line-break>スキルだけを<line-break>身に付けられるのだ。<line-break>スキルポイントを使えば、<line-break>戦士が魔法を使うこともできるのだ。<end>"}
-{"section":137,"id":"1370421","japanese":"そうだな、魔法のことについても<line-break>語っておいたほうがよいだろう。<end>"}
-{"section":137,"id":"1370422","japanese":"魔法には、種類ごとに<line-break>それぞれ固有のレベルがある。<line-break> <line-break>そしてそのレベルは、<line-break>精霊力と密接な関係を持っている。<end>"}
-{"section":137,"id":"1370423","japanese":"例えば、<value:$28>、<line-break>お前が水属性のスライムを<line-break>倒したとしよう。<line-break>すると、お前は水属性の精霊力を<line-break>得られるのだ。<end>"}
-{"section":137,"id":"1370424","japanese":"精霊力が一定だけたまれば<line-break>精霊力レベルが上昇し、<line-break>それにつれて使える魔法も増える。<end>"}
-{"section":137,"id":"1370425","japanese":"水属性ならば、最初は１レベルの<line-break>アクアしか使えないが、<line-break>３レベルではポイズン、<line-break>４レベルではインビジブルを<line-break>覚えられるのだ。<end>"}
-{"section":137,"id":"1370426","japanese":"伸ばしたい属性の敵と<line-break>集中的に戦うのも、有効だろう。<end>"}
-{"section":137,"id":"1370427","japanese":"本当にすべて理解しているのだな？<end>"}
-{"section":137,"id":"1370428","japanese":"説明してほしい<end>"}
-{"section":137,"id":"1370429","japanese":"理解した<end>"}
-{"section":137,"id":"1370430","japanese":"そうか…。<line-break>お前自身にかかわることだ。<line-break>お前の言葉を信じよう。<line-break>ロイの元へ急ぐがよい…。<end>"}
-{"section":137,"id":"1370431","japanese":"よろしい、わからぬことを尋ねるのは<line-break>恥ではないぞ。<line-break>わかるまで聞くといい。<end>"}
-{"section":137,"id":"1370432","japanese":"本当にすべて理解しているのだな？<end>"}
-{"section":137,"id":"1370433","japanese":"理解した<end>"}
-{"section":137,"id":"1370434","japanese":"説明してほしい<end>"}
-{"section":137,"id":"1370435","japanese":"お前自身にかかわることだ。<line-break>お前の言葉を信じよう。<line-break>ロイの元へ急ぐがよい…。<end>"}
-{"section":137,"id":"1370436","japanese":"よろしい、わからぬことを尋ねるのは<line-break>恥ではないぞ。<line-break>わかるまで聞くといい。<end>"}
-{"section":137,"id":"1370437","japanese":"…<value:$28>。<end>"}
-{"section":137,"id":"1370438","japanese":"これを、ロイに渡してほしい。<line-break>ロイには苦労をかけているからな。<end>"}
-{"section":137,"id":"1370439","japanese":"<value:$28>…。<line-break> <line-break> <line-break>お前もロイと同じように、<line-break>神器の守護者となるべく<line-break>修行の旅に出る年になったのだな…。<end>"}
-{"section":137,"id":"1370440","japanese":"フフ、私らしくもない。<line-break>こんなことを言うようではいかんな。<line-break>　<end>"}
-{"section":137,"id":"1370441","japanese":"…強くなるのだぞ。<end>"}
-{"section":137,"id":"1370442","japanese":"<select><value:$20>%3どうしたのだ。<line-break>ロイとともに村の外の森を<line-break>調べてくるがよい。<end>心配はいらぬ。<line-break>ロイがついているのだからな。<line-break>フフ…、私も親バカなことだ。<end>私はよい子供たちに恵まれたものだ。<line-break>万一、今ここで私が死んでも<line-break>神器のことは安心して任せられる。<line-break>万一の話だ。<line-break>そのような顔をするでない。<line-break>我が子よ。<end>"}
-{"section":137,"id":"1370443","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370444","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370445","japanese":"追加メッセージここから<end>"}
-{"section":137,"id":"1370446","japanese":"<value:$28>か。<end>"}
-{"section":137,"id":"1370447","japanese":"まあ、いわば冒険者たちの<line-break>事務所みてえなもんだよな。<line-break><line-break>ここで受けた依頼をこなして、<line-break>冒険者は日々のかてを<line-break>得るってわけだ。<end>"}
-{"section":137,"id":"1370448","japanese":"お、根本的な質問だな。<end>"}
-{"section":137,"id":"1370449","japanese":"張り紙がしてありますね。<end>"}
-{"section":137,"id":"1370450","japanese":"さて、何について説明しようか？<end>"}
-{"section":137,"id":"1370451","japanese":"おう、昨日のケガは大丈夫か？<line-break>　<line-break>　<end>"}
-{"section":137,"id":"1370452","japanese":"…にしても、あの怪物、いったい<line-break>どっから入り込んで来やがったのか。<line-break>　<line-break>平民地区が怪物に襲われてても<line-break>騎士団の連中、また出てこなかったな。<line-break>平民地区は俺らで守っていかないとな。<end>"}
-{"section":137,"id":"1370453","japanese":"ところでお前、この街で保管されていた　　<line-break>聖杯が盗まれたって話は知ってっか？<line-break>　<end>"}
-{"section":137,"id":"1370454","japanese":"おっと、お前には話してなかったか。<line-break>実はな、昨日のモンスター騒ぎの間に、　　<line-break>何者かに聖杯が盗まれちまったんだ。<line-break>で、調べたところ、ちょうどそのころ<line-break>人の言葉をしゃべるゴブリンの３匹組が<line-break>うろついていたことがわかってな。<end>"}
-{"section":137,"id":"1370455","japanese":"言葉をしゃべるゴブリンなんて<line-break>今まで聞いたことがない。<line-break>な、怪しいと思うだろ？<end>"}
-{"section":137,"id":"1370456","japanese":"モンスター騒ぎも落ち着いたし、<line-break>そろそろ、街の連中も聖杯がないことに<line-break>気づくだろう。となると大騒ぎだ。<end>"}
+{"section":137,"id":"1370048","japanese":"そういうのはいかんなあ。<line-break>無関心は向上につながらねえぜ？<end>"}
+{"section":137,"id":"1370049","japanese":"ま、アイリーンに会ったら<line-break>よろしく言っておいてくれや。<end>"}
+{"section":137,"id":"1370050","japanese":"なんだ。<line-break>ここの貴族さんたちのことかい？<end>"}
+{"section":137,"id":"1370051","japanese":"…まぁ、貴族制に縛られているのは　<line-break>俺たちだけじゃあ、ないからな。<line-break>　<line-break>奴らには、今の俺みたいな<line-break>好き勝手な暮らしなんて<line-break>できないからねぇ。<end>"}
+{"section":137,"id":"1370052","japanese":"生まれたときからかけさせられた　　<line-break>色眼鏡をとって、世の中を<line-break>見るってことだけでも、<line-break>奴らには大きな努力が必要なんだよ。<line-break>ましてや、俺たちと同じ世界に<line-break>立つってことはね。<end>"}
+{"section":137,"id":"1370053","japanese":"出世ねえ。あまり興味がないな。<line-break>俺にはここの道場主ってのが一番さ。<line-break>　<line-break>俺なんかにゃ<line-break>組織の中で名をあげるってなんてのは<line-break>ただ、もう、うんざりさ。<end>"}
+{"section":137,"id":"1370054","japanese":"アイリーンは自分で考えて<line-break>騎士になりたいって言うから、　　　<line-break>俺も喜んで送り出してんだけどよ。　<end>"}
+{"section":137,"id":"1370055","japanese":"ま、なんにしたって　　　　　　　　<line-break>俺はここの暮らしが<line-break>気に入っちまっててね。<line-break>ここは俺がやっと見つけた<line-break>自分の居場所だからな。<line-break>ちょっと、離れられねぇや。<end>"}
+{"section":137,"id":"1370056","japanese":"お、剣の話かい？<line-break>ところでお前さんは、<line-break>剣に何を求めているんだい？<end>"}
+{"section":137,"id":"1370057","japanese":"強さ<end>"}
+{"section":137,"id":"1370058","japanese":"美しさ<end>"}
+{"section":137,"id":"1370059","japanese":"よくわからない<end>"}
+{"section":137,"id":"1370060","japanese":"そうだな。剣はしょせん敵を倒すための道具さ。<line-break>お前さんがどういうつもりで<line-break>強さを求めているのか知らねぇが、<line-break>このことを知らないでいる、<line-break>いや、知ろうとしないでいる<line-break>…ってのはホントに危ねぇんだ。<end>"}
+{"section":137,"id":"1370061","japanese":"でもよ、最初はただ強さを求めていただけな　　<line-break>はずなのに、その過程で何か違うものが<line-break>見えてくるってこともあるんだぜ。<end>"}
+{"section":137,"id":"1370062","japanese":"い？　それが何かだって？<line-break>そんなものは人に聞くもんじゃないんだよ。<line-break>若いんだから、怠けてねぇで自分で見つけなよ。<end>"}
+{"section":137,"id":"1370063","japanese":"…美しさねぇ。<line-break>まぁ、いいさ。<line-break>剣に何を見るかは人それぞれだしな。　　　　<line-break>お前さん、これからも冒険を続けるんだろう？<line-break>物事にはいろんな面があるってことを<line-break>剣が教えてくれるかもしれねぇやな。<end>"}
+{"section":137,"id":"1370064","japanese":"ま、そうだな。こんな時代じゃ、<line-break>いちいちそんなこと考えてられねぇか。　　　<line-break>　<line-break>だがな、物事には必ず何かひとつは学べる　　<line-break>ものがあるはずだ。そして、誰もがそこに<line-break>同じものを見出すわけじゃあない。<end>"}
+{"section":137,"id":"1370065","japanese":"お前さんの剣もいずれは<line-break>お前さんに何かを教えてくれるさ。　　　　　<line-break>お前さんだけの何かをな。<end>"}
+{"section":137,"id":"1370066","japanese":"…って、そんなことずっと考えて<line-break>生きてたら、気が滅入っちまうか？　　<line-break>ハハハ！<end>"}
+{"section":137,"id":"1370067","japanese":"ま、人生急ぐことはねえ。<line-break>お前さんもゆっくりしていきなよ。<end>"}
+{"section":137,"id":"1370068","japanese":"よう、<value:$28>。<line-break>カルラがいよいよ攻めてくるってな。<line-break>お前さんはどうするんだい？<end>"}
+{"section":137,"id":"1370069","japanese":"俺は、ロストールが負けて、カルラが<line-break>この平民街に危害を加えようとしたとき、<line-break>ここを守るために戦う。命を懸けてもな。　　<end>"}
+{"section":137,"id":"1370070","japanese":"俺にはな、ジジイになるまで長生きして、<line-break>お前やアイリーンから金をせびって<line-break>悠々自適に暮らすっていう野望がある。<line-break>その野望を達成するためにも、<line-break>今、この街を廃墟にしちまうわけには<line-break>いかないってわけだ。<end>"}
+{"section":137,"id":"1370071","japanese":"はっはっは。ま、いつまでたっても、<line-break>お前もアイリーンも<line-break>俺の弟子なわけよ。<line-break>だからこそ、俺の弟子たちが<line-break>どのように育っているかを見定めるのも、<line-break>まぁ、師匠の務めってところかな。<end>"}
+{"section":137,"id":"1370072","japanese":"アイリーンという若葉に、<line-break>俺はどのような光を与えてやれたのか。<line-break>そこに咲く花の色に、俺は責任があるんだ。<line-break>たとえそれが、どんな色であろうとな。<line-break>そして、<value:$28>。<line-break>それは、お前って花の色にも同じなんだ。<end>"}
+{"section":137,"id":"1370073","japanese":"俺にはな、ジジイになるまで長生きして、<line-break>弟子のアイリーンたちから金をせびって<line-break>悠々自適に暮らすっていう野望がある。<line-break>その野望を達成するためにも、<line-break>今、この街を廃墟にしちまうわけには<line-break>いかないってわけだ。<end>"}
+{"section":137,"id":"1370074","japanese":"ま、そう言うなよ。ディンガル軍の<line-break>騎士になろうが、アイリーンが<line-break>俺の弟子だって事実は変わらない。<line-break>だからこそ、俺の弟子が<line-break>どのように育っているかを見定めるのも、<line-break>まぁ、師匠の務めってものなのさ。<end>"}
+{"section":137,"id":"1370075","japanese":"アイリーンという若葉に、<line-break>俺はどのような光を与えてやれたのか。<line-break>そこに咲く花の色に、俺は責任がある。　　<line-break>たとえそれが、<line-break>どんな色であろうとな。<line-break>　<end>"}
+{"section":137,"id":"1370076","japanese":"アイリーンは剣士としても、<line-break>そしてひとりの人間としても、<line-break>死なせるに惜しい奴だったよ。　　　　　　<line-break>道場からいなくなってかなり経つが、<line-break>今になってバカに寂しくなった気がする。<line-break>光ってた奴だっただけに、なおさらな。<end>"}
+{"section":137,"id":"1370077","japanese":"アイリーンのことを一番悲しんでるのは<line-break>彼女の母親だよ。旦那さんに続いて、<line-break>ひとり娘まで戦争にさらわれちまった。<line-break>エルメスさんの姿を見ると、<line-break>アイリーンが街を出るときにとめりゃ…<line-break>なんて考えちまってな。<end>"}
+{"section":137,"id":"1370078","japanese":"お前さんは、どう思う？　　　　　　　<line-break>　<line-break>　<end>"}
+{"section":137,"id":"1370079","japanese":"すまねぇ。<line-break>お前さんに聞くことじゃなかったな。<end>"}
+{"section":137,"id":"1370080","japanese":"すまねぇ。<line-break>今はお前さんに話してやれることはない。<end>"}
+{"section":137,"id":"1370081","japanese":"最悪の事態は避けられたな。<line-break>お前さんにも感謝してるよ。<line-break>これで俺の老後も保証つきってもんだ。<line-break>…冗談はさておき、ほっとしたよ。<line-break>俺の弟子が、俺たちの街を壊しちまった<line-break>ってのは勘弁してほしかったからな。<end>"}
+{"section":137,"id":"1370082","japanese":"まだ、安心しきれる状態じゃないが、<line-break>俺としては、これからはアイリーンが<line-break>カルラをとめてくれると信じたいね。　<end>"}
+{"section":137,"id":"1370083","japanese":"今回の戦いのあと、道場に人が殺到だ。<line-break>自警団を強化しようとか言ってな。<line-break>逃げようってよりはいいんだろうがな。<line-break>だが、そんなことをしても、<line-break>ディンガル軍を刺激するだけだ。<line-break>今はおとなしくした方がいい。<end>"}
+{"section":137,"id":"1370084","japanese":"よう、<value:$28>。<line-break>俺に何か用かい？　…つっても俺にゃ、　<line-break>もう、お前さんに教えることはないな。<line-break>でも、最後にひとつ言わしてもらうか。<line-break>お前さんは、歴史を知っているだろう？<line-break>歴史をただの知識にはしないでくれ。<end>"}
+{"section":137,"id":"1370085","japanese":"俺はお前さんに、困りもんの学者や<line-break>為政者には、なってほしくはないからな。<line-break>ま、そんなところかな。<end>"}
+{"section":137,"id":"1370086","japanese":"よう、<value:$28>。<line-break>この前は世話になったな。<line-break>アイリーンの様子はどうだい？<end>"}
+{"section":137,"id":"1370087","japanese":"あん？　相変わらずうるさいって？　　<line-break>いっひっひ。まだまだ青いねぇ。<line-break>相変わらずなのはお前の方だよ。<line-break>普通、ああいう展開があれば、<line-break>そのあとふたりの仲は急速に発展する<line-break>ってのがお約束なんだが…ま、いいか。<end>"}
+{"section":137,"id":"1370088","japanese":"最悪の事態は避けられたな。<line-break>お前さんにも感謝してるよ。<line-break>これで俺の老後も保証つきってもんだ。<line-break>ま、お前さんとアイリーンっていう<line-break>立派な弟子にせいぜい世話になるさ。<line-break>…てな冗談はさておき、ほっとしたよ。<end>"}
+{"section":137,"id":"1370089","japanese":"俺の弟子はやっぱり正しかった…つまり<line-break>俺の目も、俺がここでしてきたことも<line-break>正しかったってことだからな。<end>"}
+{"section":137,"id":"1370090","japanese":"お前さんたち、うまくいくと思うぜ。　<line-break>いいパートナーになってくれ。<end>"}
+{"section":137,"id":"1370091","japanese":"アイリーンのことは残念だが、<line-break>俺にそれ以上とやかく言う資格はないな。<line-break>戦争に出ていれば、死とは常にとなり合わせだ。<line-break>アイリーンを斬ったのは誰かなんてのは<line-break>問題じゃない。アイリーンはこの戦乱の時代を<line-break>生き抜く力がなかったというだけだ。<end>"}
+{"section":137,"id":"1370092","japanese":"よう、<value:$28>。<line-break>この前は世話になったな。<line-break>お前さんがいてくれて助かった。<end>"}

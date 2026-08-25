@@ -1,0 +1,58 @@
+{"section":88,"id":"880141","japanese":"<value:$28>！<line-break>危ない！<end>"}
+{"section":88,"id":"880142","japanese":"アハハ、物騒な世の中になったなぁ。<line-break>電撃がとんでくるなんて。<line-break>君、大丈夫？<end>"}
+{"section":88,"id":"880143","japanese":"大丈夫、大丈夫。<line-break>彼女に手荒な真似はしてないよ。<line-break>　<line-break>動けないように<line-break>呪縛をかけちゃったけどね。<end>"}
+{"section":88,"id":"880144","japanese":"<value:$28>、<line-break>こいつがボクをさらったんだ！<end>"}
+{"section":88,"id":"880145","japanese":"くすっ、僕じゃないさ。<line-break>正確にはこいつだろ？<line-break>君をさらったのは。<end>"}
+{"section":88,"id":"880146","japanese":"勇者君、こいつはちょっち手強いよ！<line-break>がんばって！　死んだりしないでね！<end>"}
+{"section":88,"id":"880147","japanese":"おみごと！　強いねぇ。<line-break>ご褒美に呪縛を解いてあげるよ。<end>"}
+{"section":88,"id":"880148","japanese":"あ、動ける！<end>"}
+{"section":88,"id":"880149","japanese":"くすっ、よかったね。<line-break><value:$28>に感謝しないとね。<line-break>じゃ、またね。<line-break>あははっ。<end>"}
+{"section":88,"id":"880150","japanese":"<value:$28>、ありがとう！<line-break>助けに来てくれるって信じてた！<end>"}
+{"section":88,"id":"880151","japanese":"えっ…！<line-break>どうして…ボクが<line-break>ラドラスの人間だって知ってるの？<end>"}
+{"section":88,"id":"880152","japanese":"ラドラスのみんながボクを捜してたの？<line-break>た、大変だ。<line-break>すぐに戻らないと。<line-break>ねぇ、ついてきてくれないかな？<line-break>途中でまた襲われると嫌だし、<line-break>それに話したいことができたし。<end>"}
+{"section":88,"id":"880153","japanese":"ありがと、<value:$28>。<line-break>じゃあ行こう。ラドラスへ。<line-break>　<line-break>ラドラスは<line-break>竜骨の砂漠の中にあるんだ。<line-break>ボクが案内するよ。<end>"}
+{"section":88,"id":"880154","japanese":"ここがラドラスの入り口。<line-break>ラドラスではこのテレポーターで<line-break>移動することが多いんだ。<end>"}
+{"section":88,"id":"880155","japanese":"すごいでしょ。<line-break>ラドラスは古代に滅びた　　　　<line-break>魔道王国の遺産なんだ。<line-break>だから、いろんな力が眠っている。<line-break>ボクたち砂漠の一族は<line-break>それを守っているんだ。<end>"}
+{"section":88,"id":"880156","japanese":"ボクたち以外にも<line-break>いろんな仕掛けがラドラスの遺産を<line-break>守っているんだ。<line-break>不定期に行われる<line-break>族長がいるかいないかのチェックも<line-break>そのひとつなんだよ。<end>"}
+{"section":88,"id":"880157","japanese":"族長がいなければ、<line-break>ラドラスは砂漠に沈む。<end>"}
+{"section":88,"id":"880158","japanese":"異邦人に侵略されたと見なして、<line-break>遺産を守るために一族ごとね。<line-break>　<line-break>だから、キミがボクを<line-break>助けてくれていなかったら、<line-break>ここは沈んでいたかもしれない。<end>"}
+{"section":88,"id":"880159","japanese":"さ、ついてきて。<end>"}
+{"section":88,"id":"880160","japanese":"お待ちしておりました！<line-break>エステル様！<end>"}
+{"section":88,"id":"880161","japanese":"ごめん…。<line-break>心配かけて。<end>"}
+{"section":88,"id":"880162","japanese":"<value:$28>様、助かりました。<line-break>ありがとうございます。<end>"}
+{"section":88,"id":"880163","japanese":"エステル様、<line-break>すぐにこちらへ。<end>"}
+{"section":88,"id":"880164","japanese":"それじゃ、ちょっと行ってくる。<line-break>あちこち見学してて。<line-break>　<end>"}
+{"section":88,"id":"880165","japanese":"<value:$28>、<line-break>来てくれたんだ！<end>"}
+{"section":88,"id":"880166","japanese":"パーティーを編成しますか？<end>"}
+{"section":88,"id":"880167","japanese":"はい<end>"}
+{"section":88,"id":"880168","japanese":"いいえ<end>"}
+{"section":88,"id":"880169","japanese":"じゃ、ボク待ってるから。<end>"}
+{"section":88,"id":"880170","japanese":"<if><value:$29><equal>%0エステルって、坊やの仲間よね。<line-break>この前、あたしたちが助けたわ。　<line-break>　<line-break>ずいぶん長いこと<line-break>囚われの身だったみたいで、<line-break>かなり衰弱してたわ。<end>エステルって、子猫ちゃんの仲間よね。<line-break>この前、あたしたちが助けたわ。<line-break>　<line-break>ずいぶん長いこと<line-break>囚われの身だったみたいで、<line-break>かなり衰弱してたわ。<end>"}
+{"section":88,"id":"880171","japanese":"どうして助けに行かなかったわけ？<line-break>彼女、衰弱よりも何よりもそれが<line-break>つらかったみたいだったわ。<line-break>彼女、<line-break>あんたのパーティーを抜けるって。<line-break>あたしは大賛成してあげたわ。<end>"}
+{"section":88,"id":"880172","japanese":"仲間のこと、<line-break>あんなにほっとくなんて最低ね。　<line-break>　<line-break>ナーシェスが突然、神懸かり的に<line-break>あのダンジョンに行こうなんて<line-break>言い出さなかったら、どうなってたか。<end>"}
+{"section":88,"id":"880173","japanese":"あたし、ノエルの仲間でよかった。<line-break>ノエルはあたしがダルケニスでも<line-break>仲間として助けてくれたもの。<end>"}
+{"section":88,"id":"880174","japanese":"ちょっと幻滅だわ。<line-break>あたしの言いたいのはそれだけ。<end>"}
+{"section":88,"id":"880175","japanese":"<value:$28>…。<end>"}
+{"section":88,"id":"880176","japanese":"い、今さら何しに来たんだよ。<line-break>絶対、キミが助けてくれるって<line-break>信じてたのに…。<line-break>だけど、キミは来なかった…。<line-break>　<line-break>　<end>"}
+{"section":88,"id":"880177","japanese":"出てって！<line-break>ボク、みじめだよ！　　　　　　<line-break>出てって！！<end>"}
+{"section":88,"id":"880178","japanese":"すばらしい…。これなら、<line-break>万一の事態にも対応できよう。<end>"}
+{"section":88,"id":"880179","japanese":"フッ、保護魔法に引っかかったか？　　<line-break>やはり私の手には負えぬようだ。<line-break>　<line-break>しかし、あのお方が、<line-break>エステルという小娘を救ってまで<line-break>手札に残しておかれたのもうなずける。<end>"}
+{"section":88,"id":"880180","japanese":"これは誰かと思えば、<line-break>ご自分の仲間も助けない勇者殿！<line-break>立ち聞きとはお行儀が悪いですな？<end>"}
+{"section":88,"id":"880181","japanese":"いつになったら<line-break>この小言は終わるんだろ？<end>"}
+{"section":88,"id":"880182","japanese":"このバカものは勝手にラドラスを出て、<line-break>砂漠に首飾りを探しに<line-break>行っとったんじゃ。<line-break>自分の首飾りを砂漠に隠して、<line-break>誰かに取ってきてもらえば<line-break>その者とのきずなが永遠のものになる。<end>"}
+{"section":88,"id":"880183","japanese":"…そんなバカげたまじないが　　　　　<line-break>最近、流行っとるんじゃ。<line-break>ほんに困ったもんじゃ。<end>"}
+{"section":88,"id":"880184","japanese":"こんにちは。<end>"}
+{"section":88,"id":"880185","japanese":"なんの用なの！<line-break>シャリ！<end>"}
+{"section":88,"id":"880186","japanese":"つれないなぁ。<line-break>僕の目当ては君ひとりさ。<end>"}
+{"section":88,"id":"880187","japanese":"ふぅん、ほんとにボクひとり？<line-break>とてもそんな風には見えないけど？<end>"}
+{"section":88,"id":"880188","japanese":"あと、アキュリュースにひとり、<line-break>ウルカーンにひとり、<line-break>竜の座にひとりってとこかな？<end>"}
+{"section":88,"id":"880189","japanese":"結構、浮気者じゃない？<end>"}
+{"section":88,"id":"880190","japanese":"その上、強引だよ。<end>"}
+{"section":88,"id":"880191","japanese":"さぁ、ついてきてもらおうか、<line-break>かわいこちゃん？<end>"}
+{"section":88,"id":"880192","japanese":"それが答え？　もっと紳士的に<line-break>願いたかったんだけどな。<end>"}
+{"section":88,"id":"880193","japanese":"殺れ。<end>"}
+{"section":88,"id":"880194","japanese":"フフ、そんなんじゃ<line-break>ぜんぜんダメだよ、エステル。<line-break>いつか命を落とすよ？<line-break>君は他のパーティーメンバーに<line-break>あまり貢献していない。<line-break>平たく言えば役立たずだね！<end>"}
+{"section":88,"id":"880195","japanese":"………………！<end>"}
+{"section":88,"id":"880196","japanese":"君は地の巫女だ。<line-break>その気になれば、今の怪物なんて<line-break>ひとひねりだったろうに…。<end>"}
+{"section":88,"id":"880197","japanese":"………………！？<end>"}
+{"section":88,"id":"880198","japanese":"エステル、君こそが<line-break>ラドラスを支配した４人の巫女のひとり<line-break>ズゥの子孫なんだ。<line-break>そして、君こそが<line-break>地の精霊神グラジェオンに仕える、<line-break>強大な魔力を持つ地の巫女なんだよ。<end>"}

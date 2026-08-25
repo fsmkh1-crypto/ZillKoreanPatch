@@ -1,0 +1,50 @@
+{"section":162,"id":"1620039","japanese":"朱雀将軍アンギルダンは、　　　<line-break>ロストール軍を壊滅させると、　　<line-break>深追いを禁じ、続く王都侵攻に備え　<line-break>全軍に物資の現地調達を命じた。　<end>"}
+{"section":162,"id":"1620040","japanese":"　　だが、この圧倒的に劣勢な戦況下において、<line-break>　　　無傷でこの状況を乗り切った勢力が<line-break>　　　　ロストール軍にもまだ存在した。<end>"}
+{"section":162,"id":"1620041","japanese":"　<line-break>　　帝国軍は、この事実をまだ知らなかった。　<end>"}
+{"section":162,"id":"1620042","japanese":"…と、総司令閣下は自刃なされ、<line-break>ロストール貴族にふさわしい<line-break>見事な最期を遂げられました。<end>"}
+{"section":162,"id":"1620043","japanese":"見事ねぇ…。<end>"}
+{"section":162,"id":"1620044","japanese":"かくなる上は、ゼネテス様にも<line-break>誇りを汚さず、潔く自刃なさるようにと<line-break>閣下はおっしゃっておいででした。<end>"}
+{"section":162,"id":"1620045","japanese":"そんなロマンチシズムに<line-break>つきあう気はないな。<end>"}
+{"section":162,"id":"1620046","japanese":"閣下はこうもおっしゃっておいででした。<line-break>ゼネテス様には、やや貴族としての<line-break>常識にかけるところがある。<line-break>命を惜しみ、おめおめと生き残ろうと<line-break>するならば、ゼネテス様の<line-break>介錯をしてさしあ…<end>"}
+{"section":162,"id":"1620047","japanese":"悪いな。<line-break>そんなバカな理屈に<line-break>付き合ってる場合じゃないんだ。<end>"}
+{"section":162,"id":"1620048","japanese":"さ～て、と。<line-break>生き残る方法を考えなきゃ、だな。　　<line-break>な、<value:$28>。<end>"}
+{"section":162,"id":"1620049","japanese":"アンギルダンのとっつぁんは<line-break>俺らを叩きつぶすよりも、<line-break>物資調達の方を優先させた。<end>"}
+{"section":162,"id":"1620050","japanese":"アンギルダンのとっつぁんは正しい。<line-break>レムオンの王都守備軍が<line-break>攻めてくる可能性を考えるなら…<line-break>戦意をなくし、無力化した<line-break>俺らを無視して、次の戦いのための<line-break>準備を急ぐのは、理の当然だ。<end>"}
+{"section":162,"id":"1620051","japanese":"だが、それが、今回は間違いでな。<line-break>俺たちはまだ、<line-break>戦意をなくしちゃいなかったりする。　<end>"}
+{"section":162,"id":"1620052","japanese":"俺はあきらめの悪い男でね。　　　<line-break>生き残るためのガッツなら<line-break>売るほどある。<line-break>今なら向こうさんも攻めてくるとは<line-break>思ってない。徴発隊も出払っていて<line-break>敵中枢部になぐり込む好機だ！<end>"}
+{"section":162,"id":"1620053","japanese":"無傷な俺の部隊を中心に<line-break>ロストール軍の敗残兵をまとめ、<line-break>敵ディンガル軍中枢を叩く！　　　　　<line-break>アンギルダンのとっつぁんを倒せば<line-break>あとのディンガル軍は浮き足だって<line-break>無力化する！<end>"}
+{"section":162,"id":"1620054","japanese":"ねらうは、アンギルダンのみ！<end>"}
+{"section":162,"id":"1620055","japanese":"お前は、俺が軍をまとめる間に、<line-break>先鋒を率い、先に帝国軍に突っ込んで、<line-break>大暴れしてくれ。<line-break>お前の活躍を聞けば、<line-break>敗残兵の集まりもよくなる。<line-break>危険な任務だが、お前しか頼れん。<end>"}
+{"section":162,"id":"1620056","japanese":"頼むぜ、<value:$28>。<end>"}
+{"section":162,"id":"1620057","japanese":"<if><value:$01><equal>4敵の本陣に突入なんて、<line-break>ドキドキかな。<line-break>死なない程度にがんばろっと。 <end><if><value:$01><equal>5よっしゃ！<line-break>燃えてきたぜ！！<line-break>ディンガルの奴ら、けちらしてやるぜ。 <end><if><value:$01><equal>6敵の本陣に突入なんて、<line-break>なんか恐いけど、<line-break>泣き言言ってられないね。 <end><if><value:$01><equal>13しょせん相手はザコばかりだ。<line-break>俺たちで本陣を<line-break>落としてしまえばいい。 <end><if><value:$01><equal>10本陣に突入かー。<line-break>なんかすごい展開だな。<line-break>うし、気合い入れてくぜ！ <end><if><value:$01><equal>14やれやれ、本陣に突入とは、<line-break>とんでもない役回りじゃな。 <end><if><value:$01><equal>15本陣突入なんて、大役だね。<line-break>ゼネテスさんの期待に応えなくちゃ、<line-break><value:$28>。 <end><if><value:$01><equal>17なーんで、アタクシがこんな、ヤバンで<line-break>危ないことしなくてはならないのよー！<line-break>　<line-break>ちゃんとしっかりアタクシを守るのよ、<line-break><value:$28>！！ <end><if><value:$01><equal>18本陣に真っ先に切り込めるとは、<line-break>わくわくするでござる。 <end><if><value:$01><equal>19本陣に突入なんて恐いね。<line-break>ムリしちゃダメだよ、<line-break><value:$28>。 <end><if><value:$01><equal>20時がない。<line-break>急ぐぞ。 <end><if><value:$01><equal>193敵の本陣に突入だなんて…。<line-break>私、怖いです…。<line-break>　<line-break>でも<value:$28>さんがいるから、<line-break>私、がんばれます！<end><if><value:$01><equal>191敵の本陣に突っ込めだなんて、<line-break>簡単に言ってくれるわね。<end>敗色濃厚の戦をくつがえすべく、<line-break>敵の本陣に斬り込む…。<line-break>かっこいい歌ができるなぁ。 <end>"}
+{"section":162,"id":"1620058","japanese":"な！　ロストール軍だと！！<line-break>なぜこんなところに！<end>"}
+{"section":162,"id":"1620059","japanese":"徴発部隊が戻るまでは、<line-break>ここを通すわけにはいかん！！<end>"}
+{"section":162,"id":"1620060","japanese":"あそこまで壊滅していたのに、<line-break>なぜこれほど早く立て直せたのだ！！<end>"}
+{"section":162,"id":"1620061","japanese":"くっ、どうしたことだ！<line-break>ロストール軍が復活したとは！<end>"}
+{"section":162,"id":"1620062","japanese":"しかも、お主が攻めてくるとはな、<line-break><value:$28>。<line-break>運命神は、つくづくわしを飽きさせん。<end>"}
+{"section":162,"id":"1620063","japanese":"ゼネテス…、<line-break>そうか、お主がおったのか！　　　<line-break>　<line-break>お主ならば、あの敗軍を<line-break>まとめる器量がある！<line-break>くっ、ぬかったわ！<end>"}
+{"section":162,"id":"1620064","japanese":"お主がおるとわかっておれば、<line-break>敗残兵の殲滅を優先させたものを！<line-break>　<end>"}
+{"section":162,"id":"1620065","japanese":"…とっつぁん、<line-break>悪いが、命をもらう。　　<line-break>　<line-break>ロストールの兵の<line-break>命がかかっているんでな！<end>"}
+{"section":162,"id":"1620066","japanese":"はい、そうですかと<line-break>くれてやるわけにはいかんな。<line-break>　<line-break>こっちも<line-break>ディンガルの兵の命が<line-break>かかっておるのでな！<end>"}
+{"section":162,"id":"1620067","japanese":"<value:$28>、<line-break>他は任せた！！<end>"}
+{"section":162,"id":"1620068","japanese":"アンギルダン将軍！！<end>"}
+{"section":162,"id":"1620069","japanese":"フフ……、<line-break>運命の女神は残酷なものよ。<line-break>ここまで来て、わしを見限るとはな…。<line-break>ゼネテスよ…。<line-break>お主ほどの男が…ファーロスの…<line-break>跡取りだったとは…、うぐっ…。<end>"}
+{"section":162,"id":"1620070","japanese":"みなに伝えよ！<line-break>バラバラに地下王国を通るのだ！<line-break>みな…生き延びるの…じゃ…！<end>"}
+{"section":162,"id":"1620071","japanese":"しょ、将軍！！<line-break>…くっ！<end>"}
+{"section":162,"id":"1620072","japanese":"撤退！　撤退せよ！！<line-break>　<line-break>　<line-break>各部隊に伝令！<line-break>将軍が討ち取られた！<line-break>すみやかに撤退を開始せよ！！<end>"}
+{"section":162,"id":"1620073","japanese":"敵の略奪部隊の場所がわかりました！<end>"}
+{"section":162,"id":"1620074","japanese":"よし、ここを切り上げて、<line-break>そっちを片付けに移動する。<line-break>部隊をまとめ直すぞ！<end>"}
+{"section":162,"id":"1620075","japanese":"はっ！<end>"}
+{"section":162,"id":"1620076","japanese":"ゆくぞ、<value:$28>。<end>"}
+{"section":162,"id":"1620077","japanese":"…じゃあな、とっつぁん。<line-break>あの世で、いつか飲み明かそうぜ。<end>"}
+{"section":162,"id":"1620078","japanese":"敗残兵を驚くべき早さで立て直した<line-break>ゼネテスの奇襲により、アンギルダンが<line-break>討ち取られると、帝国軍は潰走した。<end>"}
+{"section":162,"id":"1620079","japanese":"この戦いで、ゼネテスの声望は<line-break>一気に上がり、奇跡の名将と呼ばれたが、<line-break>ロストールの被害も甚大なものがあった。<end>"}
+{"section":162,"id":"1620080","japanese":"…千年樹に刻まれし竜綱の盟約に基づき<line-break>我、ロストール王<line-break>セルモノー・リューは…<line-break>汝、ゼネテス・ファーロスを<line-break>ファーロス家当主と認め、その功により<line-break>ロストール王国軍総司令に任ずる。<end>"}
+{"section":162,"id":"1620081","japanese":"くっ、最高の殊勲は<line-break>ファーロスのドラ息子に<line-break>奪われるとはな。<end>"}
+{"section":162,"id":"1620082","japanese":"第二の殊勲、<value:$28>。<end>"}
+{"section":162,"id":"1620083","japanese":"しかも、第二の殊勲も<line-break>ファーロスのゆかりの者か…！<end>"}
+{"section":162,"id":"1620084","japanese":"ほら、行け。<end>"}
+{"section":162,"id":"1620085","japanese":"<if><value:$29><equal>%0…千年樹に刻まれし竜綱の盟約に基づき<line-break>我、ロストール王<line-break>セルモノー・リューは…<line-break>その功により、汝、<value:$28>に<line-break>騎士の証である盾を与え、<line-break>白竜騎士、竜字将軍に叙任する。<end>…千年樹に刻まれし竜綱の盟約に基づき<line-break>ロストール王セルモノー・リューは…<line-break>女人の身である汝に、特例をもって<line-break>騎士の証である盾を与え、<line-break>白竜騎士、竜字将軍に叙任する。<end>"}
+{"section":162,"id":"1620086","japanese":"ロストールを支える将軍として<line-break>ゼネテスとともに活躍するがよい。<end>"}
+{"section":162,"id":"1620087","japanese":"よくやった、<value:$28>。<line-break>　<line-break>　<line-break>最高の殊勲こそ<line-break>ファーロスのドラ息子に奪われたが、<line-break>第二の殊勲は、お前だ。<end>"}
+{"section":162,"id":"1620088","japanese":"この戦いにおける<line-break>リューガ家の面目は、保たれた。<line-break>　<line-break>俺はそれを喜んでいるのだ。<line-break>お前の成功を喜んでいるわけではない。<line-break>…かん違いはするな。<end>"}

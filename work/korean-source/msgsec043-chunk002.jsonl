@@ -1,0 +1,51 @@
+{"section":43,"id":"430069","japanese":"しかも、ボルボラはノーブルで<line-break>横暴を働き、そなたを困らせていた<line-break>というではないか。<line-break>この上ない幸運であったな。<line-break>エリエナイ公。<end>"}
+{"section":43,"id":"430070","japanese":"フッ…、おたわむれを。<line-break>　<line-break>　<line-break>彼は有能な男でした。現にこれまで、<line-break>ボルボラのあとを任せられる者が<line-break>おらず、頭を悩ませておりました。<end>"}
+{"section":43,"id":"430071","japanese":"<if><value:$29><equal>%0ですが、ようやくその結論が<line-break>得られたので、今日はその件について<line-break>お願いに上がった次第です。<line-break>ノーブルの支配を、<line-break>我が弟<value:$28>に<line-break>任せたく存じます。<end>ですが、ようやくその結論が<line-break>得られたので、今日はその件について<line-break>お願いに上がった次第です。<line-break>ノーブルの支配を、<line-break>我が妹<value:$28>に<line-break>任せたく存じます。<end>"}
+{"section":43,"id":"430072","japanese":"<if><value:$29><equal>%0弟？<end>妹？<end>"}
+{"section":43,"id":"430073","japanese":"ここに連れてまいりました。<end>"}
+{"section":43,"id":"430074","japanese":"<if><value:$29><equal>%0エストの他に兄弟があったとは、<line-break>初耳だが。<end>エストの他に兄弟があったとは、<line-break>初耳だが。<end>"}
+{"section":43,"id":"430075","japanese":"わけあって、<line-break>公にはしておりませんでした。<line-break>　<line-break>そのわけは…<line-break>申し上げなくとも<line-break>おわかりでしょう。<end>"}
+{"section":43,"id":"430076","japanese":"<if><value:$29><equal>%0この少年こそ、<line-break>…この手紙にある子供だと？<end>この少女こそ、<line-break>…この手紙にある子供だと？<end>"}
+{"section":43,"id":"430077","japanese":"<if><value:$29><equal>%0ボルボラ亡きあとのノーブルを<line-break>統制するために、<line-break>　<line-break>なにとぞ、<line-break>我が弟<value:$28>に<line-break>ノーブルの伯爵の称号を。<end>ボルボラ亡きあとのノーブルを<line-break>統制するために、<line-break>　<line-break>なにとぞ、<line-break>我が妹<value:$28>に<line-break>ノーブルの伯爵の称号を。<end>"}
+{"section":43,"id":"430078","japanese":"ならん！　ならん！！<line-break>ふざけたことを！<end>"}
+{"section":43,"id":"430079","japanese":"陛下、<line-break>どうかこの者に伯爵の称号を。<line-break>　<line-break>事情が事情です。<line-break>手続きは追って行うこととし、<line-break>この場で叙任なされては？<end>"}
+{"section":43,"id":"430080","japanese":"ああ…。<line-break>王妃がそう言うのであればな…。<line-break>　<line-break><value:$28>と言ったか。<line-break>そなたをロストール王国の伯爵、<line-break>そして、特別に白竜騎士に叙任する。<end>"}
+{"section":43,"id":"430081","japanese":"騎士の証である盾だ。<line-break>受け取るがよい。<end>"}
+{"section":43,"id":"430082","japanese":"迅速なご処置、心より感謝いたします。<end>"}
+{"section":43,"id":"430083","japanese":"リューガ家は、陛下に<line-break>以後、いっそうの忠誠を誓いましょう。<end>"}
+{"section":43,"id":"430084","japanese":"…ふん、ぬけぬけと。<end>"}
+{"section":43,"id":"430085","japanese":"ノヴィン閣下。何か？<end>"}
+{"section":43,"id":"430086","japanese":"い、いや。ロストールのために、<line-break>せいぜい骨を折ってくれたまえ。<end>"}
+{"section":43,"id":"430087","japanese":"予は疲れた。先に休ませてもらう。<end>"}
+{"section":43,"id":"430088","japanese":"<if><value:$29><equal>%0なぜ、レムオンの言うなりになる！<line-break>あんな素性も知れぬ男に<line-break>伯爵の称号など…。<end>なぜ、レムオンの言うなりになる！<line-break>あんな素性も知れぬ女に<line-break>伯爵の称号など…。<end>"}
+{"section":43,"id":"430089","japanese":"レムオン坊やに貸しを作ったまで。　　<line-break>これで懸案の中央集権化を進める法案が<line-break>すんなり元老院を通過する。<end>"}
+{"section":43,"id":"430090","japanese":"<if><value:$29><equal>%0しかも、腹違いの弟を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>しかも、腹違いの妹を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>"}
+{"section":43,"id":"430091","japanese":"…！　さすがは我が妹よ！<line-break>レムオンめ、そうとは知らずに…。<line-break>　<line-break>ハハハハ！<line-break>小僧めに、一杯食わせて<line-break>せいせいしたわ！<end>"}
+{"section":43,"id":"430092","japanese":"<if><value:$29><equal>%0それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という少年…。<end>それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という娘…。<end>"}
+{"section":43,"id":"430093","japanese":"無限の可能性を感じさせる…。　　<line-break>あの目の輝きはどうだ。<line-break>　<line-break>フフフ…、<line-break>レムオン坊やも楽しませてくれる。<end>"}
+{"section":43,"id":"430094","japanese":"とりあえず、礼を言う。<line-break>おかげで難局を切り抜けられた。<end>"}
+{"section":43,"id":"430095","japanese":"フッ、だから俺は言ったはずだ。<line-break>手助けは無用だとな。<line-break>　<line-break>忠告を無視して、<line-break>俺を助けたのが運の尽きだ。<line-break>いさぎよく、あきらめるがいい。<end>"}
+{"section":43,"id":"430096","japanese":"紹介する。この館の執事だ。<line-break>セバスチャンという。<end>"}
+{"section":43,"id":"430097","japanese":"お目にかかり、光栄です。<line-break>ご用はなんなりと<line-break>この私めにお申しつけください。　　　<line-break>さしたることもできませんが、いつでも<line-break><value:$28>様をお迎えできるよう、<line-break>ご用意いたしております。<end>"}
+{"section":43,"id":"430098","japanese":"それでは失礼いたします。<end>"}
+{"section":43,"id":"430099","japanese":"彼の言うことは聞いておいた方がいい。<line-break>この館で一番の権力者だ。フフフ…。<line-break>　<line-break>とにかく、お前はロストールで<line-break>１、２を争う大貴族リューガ家の<line-break>一員となってしまったのだ。<end>"}
+{"section":43,"id":"430100","japanese":"言動には細心の注意を払え。　　　　　<line-break>正体がバレそうになったら、<line-break>まっ先に処分してやる。<line-break>自信がないのなら館や王宮には<line-break>極力、近づかないことだ。<line-break>これまでどおり、冒険を続けるがいい。<end>"}
+{"section":43,"id":"430101","japanese":"ふっ、俺の見込み違いだったか…。<end>"}
+{"section":43,"id":"430102","japanese":"助けよう<end>"}
+{"section":43,"id":"430103","japanese":"構っている暇はない<end>"}
+{"section":43,"id":"430104","japanese":"どうした？　　　　　　<end>"}
+{"section":43,"id":"430105","japanese":"さっきも言ったはずだ。<line-break>俺は急いでいるのだ。<end>"}
+{"section":43,"id":"430106","japanese":"フリントの死についてレムオンを責める<end>"}
+{"section":43,"id":"430107","japanese":"今は黙っている<end>"}
+{"section":43,"id":"430108","japanese":"お前の父親だと？<line-break>知らんな。<end>"}
+{"section":43,"id":"430109","japanese":"ガルドランが？<line-break>フフフ…、そういうことか。<line-break>　<line-break>フリント…なるほどな。<end>"}
+{"section":43,"id":"430110","japanese":"確かにガルドランは俺が雇った。<line-break>奴に殺されたのなら、<line-break>お前の父親も大した男ではない。<end>"}
+{"section":43,"id":"430111","japanese":"仮にガルドランに殺されたのならだ。<line-break>奴が殺した証拠はあるのか？<end>"}
+{"section":43,"id":"430112","japanese":"…矢に毒が？<line-break>シロウラギリの毒だと？　　　　　　<line-break>　<line-break>…では間違いない。<line-break>ガルドランの仕業ではない。<line-break>やじりに毒を塗る知恵は奴にはない。<end>"}
+{"section":43,"id":"430113","japanese":"しかも、シロウラギリの毒…。<line-break>王宮内での暗殺に使われる毒だ。<line-break>ガルドランに扱える代物ではない。　<line-break>まあ、<line-break>俺の言うことを信じるかどうかは、<line-break>お前の勝手だが…。<end>"}
+{"section":43,"id":"430114","japanese":"俺も急ぐ。人の命がかかっているのだ。<end>"}
+{"section":43,"id":"430115","japanese":"ここでお前を説得する時間もなければ<line-break>ここでお前に命をくれてやる気もない。<end>"}
+{"section":43,"id":"430116","japanese":"剣で決着をつけよう…。<end>"}
+{"section":43,"id":"430117","japanese":"こ、こんな時に…？<line-break>くっ、ダメだ…。理性が…！！<line-break>　<line-break>アア…グ…血…グ…<line-break>ウウウ…血…ググ…ガ…<line-break>…ガアアアアアアアアッ！！！<end>"}
+{"section":43,"id":"430118","japanese":"<if><value:$01><equal>19大丈夫？　<value:$28>。 <end><if><value:$01><equal>5大丈夫かよ？　<value:$28>。 <end><if><value:$01><equal>14大丈夫かの？<line-break><value:$28>。 <end><if><value:$01><equal>3大丈夫かの？<line-break><value:$28>。 <end><if><value:$01><equal>193大丈夫ですか？<line-break><value:$28>さん。<end><if><value:$01><equal>191大丈夫？　<value:$28>。<end>大丈夫？　<value:$28>。 <end>"}
+{"section":43,"id":"430119","japanese":"<if><value:$01><equal>19昨日の…アレ…<line-break>なんだったんだろうね。 <end><if><value:$01><equal>15ねえ、昨日の…アレ…<line-break>なんだったんだろうね。 <end><if><value:$01><equal>6昨日の…アレ…<line-break>なんだったのかな。 <end><if><value:$01><equal>4昨日の…アレ…<line-break>なんだったのかな。 <end><if><value:$01><equal>5昨日の…アレ…<line-break>なんだったんだろうな。 <end><if><value:$01><equal>14昨日の…アレ…<line-break>なんじゃったのか…。 <end><if><value:$01><equal>3昨日の…アレ…<line-break>なんじゃったのか…。 <end><if><value:$01><equal>193昨日の…アレ…<line-break>なんだったんでしょう。<end><if><value:$01><equal>191昨日の…アレ…<line-break>なんだったのかしら。<end>昨日の…アレ…<line-break>なんだったんだろうね。 <end>"}

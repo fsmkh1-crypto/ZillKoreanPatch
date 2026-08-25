@@ -13,10 +13,3 @@
 {"section":14,"id":"140012","japanese":"<if><value:$23><equal>0何の用だ、<value:$28>。<line-break>お前のようなヤツはここに用事は<line-break>ないはずだ。出ていってくれ<end><select><value:$20>%3何が冒険者だ。定職にもつかずブラブラと…。<line-break>この神聖な場所からとっとと出ていくがよい。<end>ここは毎日を一生懸命に生きている人々が<line-break>神に感謝し、祈りをささげる場所だ。<line-break>冒険者のような無法者が来るところではない。<end>私は、自分の欲望を満たすためなら<line-break>何でもする、お前たち冒険者が大嫌いなのだ。<end>"}
 {"section":14,"id":"140013","japanese":"<if><value:$23><equal>0よう、<value:$28>じゃないか。<line-break>君もノトゥーンに祈りをささげに来たのかい？<end><select><value:$20>%3ここの神官と宿屋の親父が町の有力者なんだが<line-break>２人そろって冒険者嫌いでな、<line-break>気に障ることを言うだろうが気にするなよ。<end>宿屋のヴァンのダジャレはひどいもんだよ。<line-break>あれを聞いた瞬間は、すべてが凍る感じだな。<end>霊峰トールは高い山でね、<line-break>頂上は天に届きそうだよ。<end>"}
 {"section":14,"id":"140014","japanese":"<select><value:$20>%2天空神ノトゥーン様、お救いください。<line-break>救世主エルファス様は、<line-break>やがて破壊神ウルグが復活すると仰せなのです。<end>神よ！　わたくしの祈りが届いたなら、<line-break>どうか、世界を破滅から救ってください。<end>"}
-{"section":14,"id":"140015","japanese":"<select><value:$33>今回の霊峰トールへのお参りは５００回目、<line-break>俺の４０年のお参り人生のひとつの節目だ。<line-break>気合い入れていくぞっ！<end>今回の霊峰トールへのお参りは５００回目、<line-break>俺の４０年のお参り人生のひとつの節目だ。<line-break>気合い入れていくぞっ！<end>俺は見ての通り船長をやっておる。<line-break>仕事の休みを利用しては霊峰トールへ<line-break>お参りしておるのだ。<end>霊峰トールへ登る前にお参りの無事を祈り、<line-break>帰ってきたら無事に帰ったことを感謝する。<line-break>ずーっとそうやってきておるのだ。<end>俺が無事に航海できるのも、<line-break>天空神ノトゥーン様のおかげだ。<line-break>その感謝の気持ちを態度で現すのが巡礼なのだ。<end>リベルダムが壊れたせいで仕事が減ったのだ。<line-break>これで今まで以上にお参りに励めるぞ。<line-break>今度はアルノートゥンにでも行くかな。<end>巡礼は、途中でモンスターや盗賊に襲われたり<line-break>して、ただ歩いていくだけではないのだぞ。<line-break>いわゆる冒険なのだ。<end>エルファス様も神に祈れとおっしゃっておる。<line-break>君も世界を救うために祈りたまえよ。<end>"}
-{"section":14,"id":"140016","japanese":"冒険者ギルドへようこそ！<line-break>調子はどうだい？　今日はなんの用だ？<end>"}
-{"section":14,"id":"140017","japanese":"ここは巡礼客だけでやっていけるんだ。<line-break>冒険者を泊める部屋はない。出て行け。<end>"}
-{"section":14,"id":"140018","japanese":"おう、ここは鍛冶屋だ。<line-break>武器や防具のことなら俺にまかせな！<end>"}
-{"section":14,"id":"140019","japanese":"いらっしゃい。ここは道具屋だ。<line-break>何が欲しいんだい？<end>"}
-{"section":14,"id":"140020","japanese":"よう、ここは酒場だ。<line-break>かわいい娘が入ってから、うちも繁盛さ。<end>"}
-{"section":14,"id":"140021","japanese":"テラネメッセージここまで<end>"}

@@ -1,0 +1,70 @@
+{"section":37,"id":"370150","japanese":"エルズの民は自由の民だ。<line-break>脅しなんかに屈しねぇぞ！<end>"}
+{"section":37,"id":"370151","japanese":"エア様は本当に恐ろしい。<line-break>ここで逆らえば<line-break>エルズ全体が恐ろしい目に遭う。<end>"}
+{"section":37,"id":"370152","japanese":"逆らわない方が身のためだ。<line-break>ひとつ、ここは、事を穏便に収めよう。<end>"}
+{"section":37,"id":"370153","japanese":"おらおら、どけどけぇ！！<line-break>ドンパドン様のお出ましだ。<end>"}
+{"section":37,"id":"370154","japanese":"まずいときにバカな奴が…。<line-break>丸く収まりかけていたのに…。<end>"}
+{"section":37,"id":"370155","japanese":"なんだ！　お前ら！　　　　<end>"}
+{"section":37,"id":"370156","japanese":"何かと言えばエア様エア様、<line-break>とにかく穏便に穏便にって…<end>"}
+{"section":37,"id":"370157","japanese":"こんな奴らの言うことを　　<line-break>聞いてどうするんだ！<end>"}
+{"section":37,"id":"370158","japanese":"なんじゃ？<line-break>この存在自体が無礼な下郎は！<end>"}
+{"section":37,"id":"370159","japanese":"自由を愛するドンパドン船長様だ！　　<line-break>　<line-break>俺はお前ら神様かぶれの無理難題を<line-break>素直に聞けるほどバカじゃねぇんだよ、<line-break>ババァ！<end>"}
+{"section":37,"id":"370160","japanese":"バ・バ・ァ！？<line-break>下郎！　ババァともうしたのかッ！！<end>"}
+{"section":37,"id":"370161","japanese":"あぁ。何度でも言ってやる。<line-break>ババァババァババァババァ…。<end>"}
+{"section":37,"id":"370162","japanese":"下郎がァ！！　兵ども！！<end>"}
+{"section":37,"id":"370163","japanese":"竜の座にたてつく不届き者を叩き伏せよ！！<line-break>思い知らせてやるのじゃ！！<end>"}
+{"section":37,"id":"370164","japanese":"はーん、おもしれぇ！　　　<end>"}
+{"section":37,"id":"370165","japanese":"自由な海の男の気概って奴を<line-break>見せてやろうぜ！　みんな！<end>"}
+{"section":37,"id":"370166","japanese":"くっ、何をやっておる。<line-break>どけ。私が入る！<end>"}
+{"section":37,"id":"370167","japanese":"なんだ！　意気地のねぇ！<line-break>超重量級１人入ったぐらいで…。<end>"}
+{"section":37,"id":"370168","japanese":"んなこと言ったって、船長ぅ～！<end>"}
+{"section":37,"id":"370169","japanese":"バカやろ。　　　　　　　　　　<end>"}
+{"section":37,"id":"370170","japanese":"<if><value:$29><equal>%0<value:$28>、ユリアシュ、<line-break>早く逃げるんだ。　　　　　　　<end><value:$28>、ユシュアル、<line-break>早く逃げるんだ。　　　　　　　<end>"}
+{"section":37,"id":"370171","japanese":"<if><value:$29><equal>%0ユリアシュよ、名乗り出よ！<line-break>さもないと、エルズがどうなるか！　<line-break>たわけた親が、エア様の怒りを買い、<line-break>一族皆殺しにされたそなたなら<line-break>身をもって知っておるはずじゃ。<end>ユシュアルよ、名乗り出よ！<line-break>さもないと、エルズがどうなるか！　<line-break>たわけた親が、エア様の怒りを買い、<line-break>一族皆殺しにされたそなたなら<line-break>身をもって知っておるはずじゃ。<end>"}
+{"section":37,"id":"370172","japanese":"バカやろ、逃げるんだ。逃げろ。おい！<line-break><value:$28>！！<end>"}
+{"section":37,"id":"370173","japanese":"なんじゃ。すべてはそちが元凶か。<end>"}
+{"section":37,"id":"370174","japanese":"そちがあのくせ者の小娘を<line-break>助けようと申したというのじゃな？<end>"}
+{"section":37,"id":"370175","japanese":"ウソよ！　あたしよ！　　　　　　<end>"}
+{"section":37,"id":"370176","japanese":"あたしが<line-break>メイアを助けようって言ったのよ！<end>"}
+{"section":37,"id":"370177","japanese":"<if><value:$29><equal>%0このガキの仕業かどうかは<line-break>エア様にはすぐわかる。捕らえよ。<end>この小娘の仕業かどうかは<line-break>エア様にはすぐわかる。捕らえよ。<end>"}
+{"section":37,"id":"370178","japanese":"風の氏族をたぶらかして、<line-break>竜の座の宝を手に入れようとしたのか。<line-break>金のためならなんでもやる<line-break>自由の民どもの考えそうなことじゃ。<line-break>ヌォッホホホ…。<end>"}
+{"section":37,"id":"370179","japanese":"<value:$28>！<end>"}
+{"section":37,"id":"370180","japanese":"<if><value:$29><equal>%0バカやろ、逃げるんだ。<line-break>逃げろ。おい！　ユリアシュ！！<end>バカやろ、逃げるんだ。<line-break>逃げろ。おい！　ユシュアル！！<end>"}
+{"section":37,"id":"370181","japanese":"ごめんね、船長、<line-break>顔、つぶしちゃって。　　　　　　<line-break>エア様は本当に恐ろしい方なの…。<line-break>みんなに迷惑、<line-break>かけられないから…。<end>"}
+{"section":37,"id":"370182","japanese":"<if><value:$29><equal>%0俺の顔なんざどうでもいい！<line-break>待て！　ユリアシュ！！<end>俺の顔なんてどうでもいい！<line-break>待て！　ユシュアル！！<end>"}
+{"section":37,"id":"370183","japanese":"捕らえよ。<end>"}
+{"section":37,"id":"370184","japanese":"そなた、あそこの無礼者よりは<line-break>賢かったようじゃの。<line-break>その分別がはじめから働けば、<line-break>このようなことにならずに<line-break>すんだものを…。<end>"}
+{"section":37,"id":"370185","japanese":"ま、あの親にしてこの子あり　<line-break>というところか。<line-break>ヌォッホホホ…。<end>"}
+{"section":37,"id":"370186","japanese":"…元気で、ね。<end>"}
+{"section":37,"id":"370187","japanese":"<value:$28>、<line-break>来ちゃダメ！<end>"}
+{"section":37,"id":"370188","japanese":"<if><value:$29><equal>%0んんー？　そういえば、<line-break>そちもユリアシュと一緒におったの。<line-break>ひっ捕らえよ！<line-break>こやつも共犯、同罪じゃ！<end>んんー？　そういえば、<line-break>そちもユシュアルと一緒におったの。<line-break>ひっ捕らえよ！<line-break>こやつも共犯、同罪じゃ！<end>"}
+{"section":37,"id":"370189","japanese":"ヌォッホホホ…！　行くぞ。<end>"}
+{"section":37,"id":"370190","japanese":"<if><value:$29><equal>%0<value:$28>、<line-break>ユリアシュはどうしたんだい！？<end><value:$28>、<line-break>ユシュアルはどうしたんだい！？<end>"}
+{"section":37,"id":"370191","japanese":"<if><value:$29><equal>%0<value:$28>。　　　　　　<end><value:$28>…。　　　　　<end>"}
+{"section":37,"id":"370192","japanese":"お前はメイアって娘を<line-break>捜しに行かなくちゃならないよ。<end>"}
+{"section":37,"id":"370193","japanese":"<if><value:$29><equal>%0<value:$28>、支度しろい！<line-break>メイアを追うんだ。　　　　　<line-break>ユリアシュを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end><value:$28>、支度しな！<line-break>メイアを追うんだ。　　　　　<line-break>ユシュアルを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end>"}
+{"section":37,"id":"370194","japanese":"お前がメイアって娘を助けたこと、<line-break>あたしは正しかったと思ってるよ。　　<line-break>だからこそ、最後まで貫き通して、<line-break>最後まで正しかったことを見せとくれ。<line-break>それが、筋ってもんだろ！<end>"}
+{"section":37,"id":"370195","japanese":"メイアは怪物に乗って島を出たってさ。<line-break>港じゃ、えらい騒ぎだったぜ。<line-break>北西に向かったって話だから<line-break>バイアシオン大陸に行ったに違いねえ。<line-break>心配すんな。すぐ追いつくさ。<end>"}
+{"section":37,"id":"370196","japanese":"おっかさんが恋しいかい、坊や。<end>"}
+{"section":37,"id":"370197","japanese":"そんなせつねぇ顔するねい！<line-break>絶対戻ってくるんだ。　　　　　<line-break>そして、戻ってきたら、きっと、<line-break>前と変わらねぇ生活が待ってる。<end>"}
+{"section":37,"id":"370198","japanese":"そうだ。<line-break>ただ１つをのぞいて、<line-break>何も変わらねぇ生活が、な。　　<end>"}
+{"section":37,"id":"370199","japanese":"わかんねぇのか？　　<end>"}
+{"section":37,"id":"370200","japanese":"お前さんが男になって<line-break>帰ってくるんだよ！<end>"}
+{"section":37,"id":"370201","japanese":"<if><value:$29><equal>%0ほう、あのイシュベノブの息子か…。<line-break>ファナティックも悪戯よの…。<line-break>わらわがエアじゃ。<line-break>無限のソウルを持つ者よ。<end>ほう、あのイシュベノブの娘か…。<line-break>ファナティックも悪戯よの…。<line-break>わらわがエアじゃ。<line-break>無限のソウルを持つ者よ。<end>"}
+{"section":37,"id":"370202","japanese":"フフ、危害は加えぬ。　　　　　　　　<end>"}
+{"section":37,"id":"370203","japanese":"海王ですらそなたを傷つけることを恐れ<line-break>船を沈めることをとどまったほどじゃ。<end>"}
+{"section":37,"id":"370204","japanese":"破壊神ウルグの円卓騎士メイアが<line-break>その船に乗っておるのを知りながらな。<end>"}
+{"section":37,"id":"370205","japanese":"フフ、わらわは天地千年を見通す。<line-break>知り得ぬことなどない。<end>"}
+{"section":37,"id":"370206","japanese":"あわてるな、殺しはせぬ。<end>"}
+{"section":37,"id":"370207","japanese":"今は、な。<end>"}
+{"section":37,"id":"370208","japanese":"ウルグの騎士メイアが盗み出した宝物、<line-break>巫女の証を取り戻すのじゃ。<end>"}
+{"section":37,"id":"370209","japanese":"無論、わらわの命令を<line-break>そなたは拒絶することもできる。<line-break>ただ、わらわは<line-break>そなたが巫女の証を<line-break>持って戻るまでの間…<end>"}
+{"section":37,"id":"370210","japanese":"エルズの民を人質とし、<line-break>１人ずつ殺しながら<line-break>そなたの帰りを待つことにする。<end>"}
+{"section":37,"id":"370211","japanese":"フフ、急げよ。<line-break>わらわも無用に殺しとうない。<end>"}
+{"section":37,"id":"370212","japanese":"わらわは運命を知ることができる。　<end>"}
+{"section":37,"id":"370213","japanese":"すべてが見える。<line-break>すべてが運命と必然の檻の中じゃ。　<end>"}
+{"section":37,"id":"370214","japanese":"だが、あの者は違う。<line-break>わらわにも、あの者だけは見えぬ。　<end>"}
+{"section":37,"id":"370215","japanese":"あの者こそが運命に支配された世界に<line-break>可能性と希望を与えるのじゃ…。<end>"}
+{"section":37,"id":"370216","japanese":"<value:$28>ー！<end>"}
+{"section":37,"id":"370217","japanese":"ユシュアル、ガキじゃあるまいし、<line-break>チョロチョロ走んじゃねぇ！<end>"}
+{"section":37,"id":"370218","japanese":"わかってるさ。船長。<end>"}
+{"section":37,"id":"370219","japanese":"道具屋さんが花を入れてくれてるはず。<line-break>行こうぜ、<value:$28>。<end>"}

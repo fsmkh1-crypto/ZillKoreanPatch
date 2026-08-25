@@ -1,0 +1,35 @@
+{"section":112,"id":"1120040","japanese":"　　　それなのに、あなたの名前が浮かび、　　<line-break>　　　　この都市の呪縛にあらがって<line-break>　　私はあなたの名前を叫び続けています。<line-break>　<line-break>　　今、私に残された最後の魔力を使って　　　<line-break>　　　あなたを外の大地へと飛ばします。<line-break>　　　　…これは、道具としてではなく<line-break>　　　　　私という命が持つ願いです…。<end>"}
+{"section":112,"id":"1120041","japanese":"　　　　私は今まで、このかりそめの生を　　　<line-break>　　　これほど惜しんだことはありません。<line-break>　　あなたにさえ会わなければ、このような<line-break>　　　　切なさは知らずに済んだのに…。<line-break>　　　　　　　さようなら…<line-break>　　　　　私に迷いを与えた人…<line-break>　　　　私の死を苦いものに変えた人…<line-break>　　　　　　　私の大事な人…。<end>"}
+{"section":112,"id":"1120042","japanese":"　　　　　　…<value:$28>さん、<line-break>　　　　　　<value:$28>さん…。<line-break>　　　　　　聞こえますか…私の声…。　　　　<line-break>　<line-break>　　　　　　<value:$28>さん…<line-break>　　　　　　イークレムンです。<line-break>　　　　　　私、うれしいです…。<line-break>　　　あなたがここまで来てくれたことが…。<end>"}
+{"section":112,"id":"1120043","japanese":"　　　　　この空中都市は墜落します。　　　　<line-break>　　　　　ごめんなさい…。今の私は<line-break>　　　　この都市に力を奪われていて、<line-break>　　　　それを防ぐことができません…。<line-break>　　　今の私に残された力でできることは、<line-break>　　　　　あなたをここから瞬間移動で<line-break>　　　　　外へと逃がすことくらいです。<end>"}
+{"section":112,"id":"1120044","japanese":"イークレムン！！<end>"}
+{"section":112,"id":"1120045","japanese":"　　　　　　　アンギルダン様…。　　　　　　<line-break>　　　　　すいません、私は先に<line-break>　　　　お母様のもとへとまいります。<line-break>　　　　どうか、いつまでもお元気で。<line-break>　　　　　　　　さようなら、<line-break>　　　　　　<value:$28>さん、<line-break>　　　　　　　　さようなら、<line-break>　　　　　　アンギ…、お父様…。<end>"}
+{"section":112,"id":"1120046","japanese":"　　　　　　　　さようなら…。　　　　　　　<line-break>　　　　私は、ミズチたちやお母様、<line-break>　　そして、アンギルダンお父様のもとへ<line-break>　　　　　　　　まいります…。<end>"}
+{"section":112,"id":"1120047","japanese":"　　さようなら…。<line-break>私は、ミズチたちや<line-break>　お母様のもとへ<line-break>　　まいります…。<end>"}
+{"section":112,"id":"1120048","japanese":"<if><value:$01><equal>2空中都市が…<line-break>ラドラスが…落ちたのね。<line-break>　<line-break>………………。 <end><if><value:$01><equal>3おおおおぉぉーーーーー！！　　　　<line-break>イークレムン、<line-break>イークレムンよ…。<line-break>この父を…許してくれ…。<line-break>最後の最後まで、何ひとつ<line-break>父らしいことをしてやれなんだ…！ <end><if><value:$01><equal>4ああっ！！　落ちちゃったわ！<line-break>あそこには…、あの中には……。<line-break>　<line-break>…ダメ。<line-break>悲しすぎて、これ以上は<line-break>言葉にならないかも…。 <end><if><value:$01><equal>5ちくしょう！<line-break>ちくしょう！！<line-break>ちくしょう！！！　　　<line-break>助けられなかった！<line-break>誰も！　何も！<line-break>ち…くしょ……ぉ……！ <end><if><value:$01><equal>13クッ…！ <end><if><value:$01><equal>10うあああああ！！<line-break>ラドラス、落ちちまったぁぁぁ！！<line-break>姉ちゃん！　姉ちゃん！！<line-break>なあ、あの中の人たちは！？<line-break>巫女のみんなは！？<line-break>なあ、姉ちゃん、姉…ちゃん…。 <end><if><value:$01><equal>14ラドラスが…落ちよった…。<line-break>わしらの力が、わしらの力が<line-break>足りんかったばかりに…。<line-break>すまんかったなあ…。<line-break>本当に、すまんかったなあ…。 <end><if><value:$01><equal>15<value:$28>…。<line-break>ラドラスが…落ちたよ…。　<line-break>人が、たくさんの人が…。<line-break>くやしいよ…。<line-break>また、僕が無力なせいで…<line-break>僕には、何もできなかった…。 <end><if><value:$01><equal>17まぁったく！　人間のクセに<line-break>分不相応なものを作るから<line-break>こんなことになるのよ！！<line-break>…まったく…、<line-break>あんなもの作るから…。<line-break>ホントにもう…。 <end><if><value:$01><equal>19イヤだよぉ、<value:$28>！<line-break>ラドラス、落ちちゃったぁ！！<line-break>　<line-break>おねえちゃんたちも<line-break>砂漠の人たちも、死んじゃったぁ！<line-break>ひどいよ、ひどいよ……。 <end><if><value:$01><equal>26イズキヤルだけではのうて<line-break>巫女様方までも<line-break>救えなんだか…！<line-break>シャリ、<line-break>お主のねらいはなんじゃ？<line-break>何をやろうとしておる！？ <end><if><value:$01><equal>27彼らはあれを守るために生まれ<line-break>守るべくして死んだのだ。<line-break>悔いはあるまい。<line-break>それが定め。<line-break>もし、彼らでなければ<line-break>後の世の誰かがああなったのだ。<end><if><value:$01><equal>11あれが…定め…。<line-break>誰も、運命には逆らえない…。 <end><if><value:$01><equal>20………………。 <end><if><value:$01><equal>193そ、そんなことって…。<line-break>私たちだけが助かって…<line-break>あの中にいた人たちが…！<line-break>こんなの…ひどすぎます！！<end><if><value:$01><equal>191…ごめんなさい。<line-break>あたしたちの力が足りなくて…。<line-break>ごめん…ごめんね…。<end><if><value:$01><equal>190くそ！<line-break>俺の力が及ばなかったばかりに！<line-break>すまない！<end>"}
+{"section":112,"id":"1120049","japanese":"　動力部、不要生命体混入<line-break>　自動排除反応、動作開始<line-break>排除終了条件、生命活動停止<end>"}
+{"section":112,"id":"1120050","japanese":"　 動力部、大破…　　　　　　　　<line-break>拘束機能、自動終了…<line-break>動力部全機能…停止…<end>"}
+{"section":112,"id":"1120051","japanese":"<value:$28>様…、<line-break>こんな所にまで…。　　　　　　　　<line-break>　<line-break>また私は、自分の役目を<line-break>果たしきれませんでした。<line-break>道具に、なりきれませんでした…。<end>"}
+{"section":112,"id":"1120052","japanese":"ええ…、実は、私も<line-break>ホッとしているのです。<line-break>なぜでしょう…こんな感覚…。　　<line-break>道具としての自分をまっとうできず、<line-break>こうしてあなたに助けられることを<line-break>こんなにも嬉しく思うなんて…。<end>"}
+{"section":112,"id":"1120053","japanese":"<value:$28>よ…。<line-break>そなたがここまで来ること、<line-break>このエアにも見通せなんだ。<line-break>無限のソウルを持つ者の未来は<line-break>誰にも見えぬか。<line-break>しかし、これからどうするのじゃ？<end>"}
+{"section":112,"id":"1120054","japanese":"始めにここに連れてこられた時、<line-break>不思議な光る球がある部屋に<line-break>連れて行かれたんです。<end>"}
+{"section":112,"id":"1120055","japanese":"ああ、制御の間ね。<end>"}
+{"section":112,"id":"1120056","japanese":"あそこにいけば、<line-break>何かできるかもしれないですよね？<end>"}
+{"section":112,"id":"1120057","japanese":"ですが…<line-break>どうやってあの部屋まで…？<end>"}
+{"section":112,"id":"1120058","japanese":"エア！！<end>"}
+{"section":112,"id":"1120059","japanese":"わかっておる。<line-break>あそこへ飛びたいというのじゃな？<line-break>大丈夫じゃ。それくらいの魔力はある。<line-break>時間がない。<line-break>ゆくぞ。<end>"}
+{"section":112,"id":"1120060","japanese":"<value:$28>さん。<line-break>来てくれたんですね…。<line-break>ありがとうございます。<end>"}
+{"section":112,"id":"1120061","japanese":"イークレムン殿！！　<line-break>無事であったか！<line-break>　<line-break>よかった。<line-break>本当に、よかった…。<end>"}
+{"section":112,"id":"1120062","japanese":"お…アンギルダン様も…。<line-break>ありがとうございます。<end>"}
+{"section":112,"id":"1120063","japanese":"私…ずっと考えてました。<line-break><value:$28>さんが助けてくれたら<line-break>どんなにうれしいだろうって。<line-break>そして今、<value:$28>さんは<line-break>本当に助けに来てくれて…。<line-break>私、本当にうれしいです。<end>"}
+{"section":112,"id":"1120064","japanese":"<value:$28>よ…。<line-break>そなたがここまで来ること、<line-break>このエアにも見通せなんだ。<line-break>無限のソウルを持つ者の未来は<line-break>誰にも見えぬか。<line-break>しかし、これからどうするのじゃ？<end>"}
+{"section":112,"id":"1120065","japanese":"ここに連れてこられた時、<line-break>最初に行った部屋に<line-break>光る球体が浮いてました。<end>"}
+{"section":112,"id":"1120066","japanese":"ああ、制御の間だね。<line-break>あそこでラドラスを動かすみたい。<end>"}
+{"section":112,"id":"1120067","japanese":"はい。<line-break>あそこに行けば、私たちの力で<line-break>何かできるのではないでしょうか？<end>"}
+{"section":112,"id":"1120068","japanese":"ですが、もう時間がありません。<line-break>どうやってあの部屋まで…？<end>"}
+{"section":112,"id":"1120069","japanese":"エア！！<end>"}
+{"section":112,"id":"1120070","japanese":"わかっておる。<line-break>あそこへ飛びたいというのじゃな？<line-break>大丈夫じゃ。それくらいの魔力はある。<line-break>時間がない。<line-break>ゆくぞ。<end>"}
+{"section":112,"id":"1120071","japanese":"このような所まで…。　　　　　　<line-break>まったく、そなたのことだけは<line-break>このわらわにも見通せんわ…。<line-break>しかし、見通せぬがゆえに<line-break>嬉しさも、ひとしおではあるがな…。<end>"}
+{"section":112,"id":"1120072","japanese":"あー、んー、あのー…<line-break>いい雰囲気なのはわかるんだけど<line-break>そろそろ起きあがってもいいかな？<end>"}
+{"section":112,"id":"1120073","japanese":"この都市が落ちるまで、<line-break>そんなに時間がありませんね…。<line-break>どうしましょう？<end>"}
+{"section":112,"id":"1120074","japanese":"役割を果たせなかったから…<line-break>不要な存在だから…、<line-break>ここで…死ぬのですね…。<end>"}

@@ -1,0 +1,33 @@
+{"section":98,"id":"980055","japanese":"え？　オッシ先生？<line-break>あなた、先生のことを知っているの？<end>"}
+{"section":98,"id":"980056","japanese":"あ、私が話したんだっけ？<line-break>よく覚えているわね。　　　　　　　　<line-break>　<line-break>そうね。オッシ先生、<line-break>普段は飲んだくれているけど、<line-break>とてつもない剣の腕よ。<end>"}
+{"section":98,"id":"980057","japanese":"こんなこと、<line-break>先生には言ったことないけど、<line-break>先生に学べて光栄に思っているわ。　<line-break>あなたも機会があったら<line-break>一度会ってみるといいんじゃない？<line-break>ロストールではちょっとした有名人よ。<end>"}
+{"section":98,"id":"980058","japanese":"<select><value:$20>%3それじゃあね、<value:$28>。<line-break>例のゴブリンを見かけたら、教えてね。<end>それじゃあね、<value:$28>。<line-break>あなたも気をつけるのよ。<end>それじゃあね、<value:$28>。<line-break>聖杯のことを聞いたら教えてね。<end>"}
+{"section":98,"id":"980059","japanese":"<select><value:$20>%3それよりもスゴイと思わない？<line-break>ノエルって子がリーダーのパーティ。<line-break>最近、大活躍みたいじゃない？<line-break>私も夢に向かって<line-break>がんばらなくっちゃ。<line-break>おなじロストール人の女の子だもんね。<end>ねえ、聞いた？<line-break>ノエルって子がリーダーのパーティ、<line-break>また、大活躍だったみたいよ？<line-break>彼女、勇者ネメアの向こうを張って<line-break>小さな勇者様ってあだ名まであるのよ。<line-break>私も負けてられないわよね。<end>やるわよねえ。<line-break>最近、ギルドで評判のノエルって子。<line-break>大活躍みたいよ。<line-break>私も、剣を使わせたら<line-break>ロストールの平民街じゃ無敵だったけど<line-break>もっとスゴイ人物がたくさんいるのね。<end>"}
+{"section":98,"id":"980060","japanese":"え？　聖杯？　<line-break>残念だけど、まだ、ね。<line-break>騎士になる前に、取り返さないとね。<end>"}
+{"section":98,"id":"980061","japanese":"え？　どうしてそんなに<line-break>騎士になりたいのか、ですって？<end>"}
+{"section":98,"id":"980062","japanese":"そうねえ…。前にも話したと思うけど<line-break>最初はやっぱり、父さんが<line-break>騎士だったから、かな。<end>"}
+{"section":98,"id":"980063","japanese":"だから私も当然騎士になると思ってた。<line-break>ロストールでは女は騎士になれない<line-break>なんてこと、知らなかったしね。<end>"}
+{"section":98,"id":"980064","japanese":"あとは…、<line-break>そう、私、守れなかったのよ。<line-break>もう、だいぶ昔の話になるけどね。<end>"}
+{"section":98,"id":"980065","japanese":"ずっと、そいつのそばにいたのに。<line-break>私がいつも守ってあげてたのに…。<end>"}
+{"section":98,"id":"980066","japanese":"だから、私は守れるようになりたいの。<line-break>そいつはもう、いないけど…、<line-break>二度と、あんなことは繰り返さないわ。<end>"}
+{"section":98,"id":"980067","japanese":"…ふふ、ごめんなさい。<line-break>うまく話せてないね、私。<end>"}
+{"section":98,"id":"980068","japanese":"私の方は、残念だけど、<line-break>まだ聖杯を取り戻せていないわ。<line-break>　<line-break>これじゃあ、騎士になる以前に、<line-break>先生に顔向けもできない…。　　<end>"}
+{"section":98,"id":"980069","japanese":"先生、とても強いんだけど、<line-break>右腕のケガが悪くてね。<line-break>時々、無理をするから心配なのよ。<line-break>先生は話してくれないんだけど、<line-break>そのケガ、闇討ちでやられたんだって<line-break>聞いているわ。許せない話よね。<end>"}
+{"section":98,"id":"980070","japanese":"…その、闇討ちをした奴って、<line-break>今どこで何をしてるのかなあ？<end>"}
+{"section":98,"id":"980071","japanese":"え？　ふふ、いやねえ。<line-break>敵討ちとかなんて考えていないわよ。<line-break>たぶん先生も、望んでないわ。<line-break>そんなことより、もっと剣の腕を磨いて<line-break>早く騎士にならないとね。<end>"}
+{"section":98,"id":"980072","japanese":"<if><value:$3D><equal>4あなたと一緒にいる<line-break>ユーリスってホントにヘンな子ね。<line-break>　<line-break>騎士になるって、他の人のために<line-break>剣を振るんですね、スゴイ！　だって。<line-break>くすっ。わけわからないわ。<end><if><value:$3D><equal>5あ、さっき、ヴァンに<line-break>いきなりダジャレを言われて<line-break>凍え死にそうだったわ。<line-break>あのダジャレ魔人、<line-break>本当になんとかしてよ。<line-break>彼のシャレ、寒すぎるのよ！<end><if><value:$3D><equal>6あのエステルって<line-break>妙に人なつっこいヘンな子、<line-break>あなたの連れだったわよね？<line-break>どう見ても大したことなさそうなのに<line-break>なんか、ふしぎな魔力みたいのを<line-break>感じるのよねえ。<end><if><value:$3D><equal>12あなたがうらやましいわ。<line-break>あの剣狼のゼネテスと一緒に<line-break>旅ができるなんて。<line-break>町の門のところで彼を見かけたの。<line-break>一見、だらしなさそうだったけど、<line-break>まったくスキがなかったわ…。<end><if><value:$3D><equal>13あなたって、確かにセラに比べたら<line-break>強くないんでしょうけど<line-break>彼より、よっぽど好感が持てるわ。<line-break>さっきだって…！<line-break>ホントにセラって失礼ね。<end><if><value:$3D><equal>10そうそう、あなたの弟にあったわ。<line-break>ふふ。<line-break>ホントにお姉ちゃん子ね。<line-break>…また、ちょっと<line-break>あいつのこと思い出しちゃった。<end><if><value:$3D><equal>14ねえ、聞いて。<line-break>さっき当代一の名工といわれる<line-break>あのデルガドを見かけたのよ。<line-break>私もがんばって、<line-break>彼の作った剣を持つような<line-break>立派な騎士になりたいな。<end><if><value:$3D><equal>15あのナッジっていう<line-break>コーンスの男の子<line-break>あなたの連れでしょう？<line-break>むこうでフラフラしてたわ。<line-break>気をつけないと悪い冒険者に<line-break>彼、襲われちゃうわよ。<end><if><value:$3D><equal>17あなたのパーティの生意気エルフ<line-break>あいかわらずね！<line-break><line-break>なーにが高貴なエルフよ。<line-break>なーにが１６００年生きているよ。<line-break>ホント気に入らないわ！<end><if><value:$3D><equal>18あ、さっき、ボゲーに<line-break>いきなりダジャレを言われて<line-break>脱力しちゃったわ。<line-break>あのダジャレボルダン、<line-break>本当になんとかしてよ。<end><if><value:$3D><equal>19さっき、ルルアンタにあったの。<line-break>彼女のほほえみを見てたら、<line-break>悩んでた気持ちがラクになって…。<line-break>リルビーって<line-break>ホント不思議な種族よね。<end>禁断の聖杯は、<line-break>まだ取り戻せていないわ。<line-break>がんばらなくちゃね。<line-break>聖杯を取り戻さないことには<line-break>みっともなくて<line-break>ロストールに帰れないもの。<end>"}
+{"section":98,"id":"980073","japanese":"ふふ、また会ったわね。　　　　　<line-break><value:$28>。<line-break>　<line-break>今日、私、とっても機嫌がいいの。<line-break>ね、暇があったら<line-break>ちょっと、つきあってくれない？<end>"}
+{"section":98,"id":"980074","japanese":"この間、カルラって人に会ったの。　　<line-break>すごく、カッコいい女の子なのよ。<line-break>　<line-break>ロセンで愚王ペウダの手下が<line-break>村娘をさらおうとしてたの。<line-break>それに単身挑んでいたのがカルラよ。<end>"}
+{"section":98,"id":"980075","japanese":"カルラはそいつらをあっさり倒すと、<line-break>元凶であるペウダを倒すって言って<line-break>ロセンの王宮に乗り込んでいったの。<line-break>私？　もちろんついていったわ。<line-break>で、途中ちょっと面倒もあったけど<line-break>ふたりでペウダをこらしめてやったの。<end>"}
+{"section":98,"id":"980076","japanese":"彼女、すごく強かったわ。<line-break>でね、腰に騎士章を下げてたの。<line-break>あれはディンガルの黒鎧騎士のものね。<end>"}
+{"section":98,"id":"980077","japanese":"ディンガルって実力主義なのよ。<line-break>私も、ディンガルでなら<line-break>騎士になれるかもしれないわ。<end>"}
+{"section":98,"id":"980078","japanese":"ひとりで話しちゃってごめんなさい。<line-break>でも、なんだか、進むべき道が<line-break>見えた気がして、うれしくって…。<end>"}
+{"section":98,"id":"980079","japanese":"それじゃあね。<line-break>縁があったら、また会いましょ。　　<end>"}
+{"section":98,"id":"980080","japanese":"なによ。っるさいわねー。<line-break>お酒なんか飲んでないわよ。<line-break>　<line-break>もう、余計なところで<line-break>干渉しないでよ。<line-break>なんか用？<end>"}
+{"section":98,"id":"980081","japanese":"…用もないのに<line-break>ただ、声をかけただけなのね。　<line-break>　<line-break>まあ、いいわ。<line-break>今日はゆっくりと語ってあげる。<line-break>そこに座りなさい。<end>"}
+{"section":98,"id":"980082","japanese":"す・わ・り・な・さ・い！<end>"}
+{"section":98,"id":"980083","japanese":"私には幼なじみがいてね。<line-break>泣き虫でさ、頼りない奴だったわ。　　<line-break>　<line-break>そいつが小さいころ、両親を亡くして<line-break>うちに引き取られることになったのね。<end>"}
+{"section":98,"id":"980084","japanese":"でさ、そいつがうちに来た日<line-break>私、いたずらして、<line-break>そいつを倉の中に閉じこめたの。　　　<end>"}
+{"section":98,"id":"980085","japanese":"なんで閉じこめたかなんて<line-break>知らないわよ。子供のすることだもの。<line-break>　<line-break>とにかく、そうしたら、そいつ<line-break>泣いちゃって。さすがに悪い気がして<line-break>私、そいつを倉の中から助け出したの。<end>"}
+{"section":98,"id":"980086","japanese":"そしたら、そいつ、私に感謝しちゃって<line-break>すっかり、私になついちゃってね。<line-break>それからは、ずっと私と一緒。<line-break>私も、そいつの保護者みたいな感じで<line-break>そいつのこと、守ってたのよ。<line-break>ホントにそれが当たり前だと思ってた。<end>"}
+{"section":98,"id":"980087","japanese":"そのとき？<line-break>謝ってないわ。<line-break>謝る機会を逸しちゃったのよ。　　<line-break>ま、そいつとあなたが<line-break>外見がよく似てたの。<line-break>ホント、瓜ふたつよ。<end>"}

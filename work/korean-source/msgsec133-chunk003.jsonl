@@ -1,213 +1,57 @@
-{"section":133,"id":"1330387","japanese":"だってさ。困っちゃうよねぇ。<line-break>勇者様、この世界を救って～！<line-break>…って感じかな。アハハ…<line-break>あとは頼んだよ、<line-break>勇者<value:$28>様。<line-break>アハハハ…！<end>"}
-{"section":133,"id":"1330388","japanese":"あなたは私が光を求めたときにすら、<line-break>冷たくあしらった…。<line-break>世界を滅ぼす前にあなたを殺すわ。<line-break>復讐するの。<end>"}
-{"section":133,"id":"1330389","japanese":"あなたさえ、私に光をくれなければ、<line-break>こんな事にはならなかった…。<line-break>世界を滅ぼす前にあなたを殺すわ。<line-break>復讐するの。<end>"}
-{"section":133,"id":"1330390","japanese":"な…、何…！？<end>"}
-{"section":133,"id":"1330391","japanese":"無事か、<line-break><value:$28>？<end>"}
-{"section":133,"id":"1330392","japanese":"ネ、ネメア…。<line-break>生きていたの…。<line-break> <line-break>ふふふ…でも、同じ事。<line-break>新しき神、エルファスよ、<line-break>闇の者、ネメアを消し去りたまえ！<end>"}
-{"section":133,"id":"1330393","japanese":"…たとえ闇に落ちようと、<line-break>私は私だ！<end>"}
-{"section":133,"id":"1330394","japanese":"くっ！<line-break>破滅の槍の力を解放する気？<end>"}
-{"section":133,"id":"1330395","japanese":"…必ず、あなたを殺す。<line-break>それまで、この静かな世界を<line-break>虚無に帰すのは待ってあげるわ。<line-break>あなたは、私と戦わなければならない。<line-break>この静寂から世界を救うためにね。<line-break>お城の謁見の間でお待ちします。ふふ…<end>"}
-{"section":133,"id":"1330396","japanese":"必ず、いらしてください。<line-break>その死に様を見届けてさしあげます。<line-break>フフ…フフフ…アハハ…！<end>"}
-{"section":133,"id":"1330397","japanese":"すまぬ。<line-break>手間取った。<end>"}
-{"section":133,"id":"1330398","japanese":"あのおびただしいソウルの流れ<line-break>おそらく、世界中の人間が<line-break>バロルにソウルを奪われた…。<end>"}
-{"section":133,"id":"1330399","japanese":"世界のすべてが<line-break>静寂に<line-break>支配されているだろう。<end>"}
-{"section":133,"id":"1330400","japanese":"<if><value:$01><equal>2人間って、弱いものね…。<line-break>いざとなったら、<line-break>すべてを投げ出してしまうなんて…。<end><if><value:$01><equal>3人間とは、弱いものじゃな。<line-break>いざとなったら、誰かにすがって<line-break>すべてを投げ出してしまうんじゃから。<end><if><value:$01><equal>5へっ、人間なんて弱いもんだよな。<line-break>いざとなったら、何もかも投げ出して<line-break>助けて、神様、救世主様～、かよ！<end><if><value:$01><equal>9人間なんて、こんなもんよね。<line-break>いざとなったら、何もかも投げ出して<line-break>助けて、神様、救世主様～、だもんね。<end><if><value:$01><equal>11人間、やはり、弱いものよ<line-break>いざとなったら、自分の力を投げ出して<line-break>神にすがってしまう…。<end><if><value:$01><equal>13フッ、人間などボンクラの集まりだな。<line-break>いざとなったら他人にすがって、<line-break>自分はすべてを放棄してしまう。<end>姉ちゃん、やっぱ、人間て弱いよな。<line-break>いざとなったら、神にすがって、<line-break>なにもかも、投げ出しちまうなんてさ。<end>"}
-{"section":133,"id":"1330401","japanese":"まあ、そんなに悲観したもんじゃないと<line-break>思いましたよ、私は。<end>"}
-{"section":133,"id":"1330402","japanese":"人間は、善きにつけ悪しきにつけ、<line-break>変わってゆくものです。<line-break>　<line-break>人の思いは、やがて世界を<line-break>新たな未来に導いていくでしょう。<line-break>これからは人間の時代が来るんですね。<end>"}
-{"section":133,"id":"1330403","japanese":"…強くなったな、<line-break><value:$28>。<line-break>私も力を貸そう。<end>"}
-{"section":133,"id":"1330404","japanese":"何が見えるのかしら？<end>"}
-{"section":133,"id":"1330405","japanese":"人の心の中…？<end>"}
-{"section":133,"id":"1330406","japanese":"痛みが痛みを生み、<line-break>悲しみが悲しみを生む。<line-break>人の思いは人を縛ってゆく。<line-break>人は自分が逃れられない<line-break>悲しみと痛みの檻の中にいることに<line-break>いつか気づく…。そして叫ぶの…。<end>"}
-{"section":133,"id":"1330407","japanese":"生まれなければよかった。<line-break>苦しまずにすんだのに…とね。<end>"}
-{"section":133,"id":"1330408","japanese":"この世界の悲しみが<line-break>かなえられない願いが<line-break>どうしようもない思いが<line-break>闇の王女の暗き心に共鳴して<line-break>闇の巨人として<line-break>世界中で立ち上がる…。<end>"}
-{"section":133,"id":"1330409","japanese":"あーあ、かわいそうに。<line-break>生まれたてだったのに。<line-break>ひどいことするなぁ。<end>"}
-{"section":133,"id":"1330410","japanese":"まぁ、いっか。<line-break>まだまだたくさん<line-break>産まれたからね。<end>"}
-{"section":133,"id":"1330411","japanese":"ふふ…あらがわないほうが<line-break>幸せなのに。<end>"}
-{"section":133,"id":"1330412","japanese":"…シャリ、やめろ。<line-break>やめてくれ…<line-break>これでは世界が…滅ぶ…。<end>"}
-{"section":133,"id":"1330413","japanese":"ウフフ、何言ってんの？<line-break>自分で守れないものを<line-break>壊すのをとめてくれなんて。<line-break>君にはなんの手もないんだ。<line-break>世界も、<value:$28>も守れない。<line-break>だったら、黙って見ててよ。アハハ！<end>"}
-{"section":133,"id":"1330414","japanese":"…手だては…ある。<line-break>お前が教えてくれた手だてが…。<end>"}
-{"section":133,"id":"1330415","japanese":"世界の人たちよ。<line-break>聞こえると思う。<line-break>我が言葉を聞くのだ…。<line-break>滅びの時が来た…。<line-break>この恐怖をぬぐうのは<line-break>救世主たる我より他にない…<end>"}
-{"section":133,"id":"1330416","japanese":"くだらない。<line-break>ティアナ、闇の巨人で<line-break>やっちゃってよ。<end>"}
-{"section":133,"id":"1330417","japanese":"我を信じよ…<line-break>すべてを我になげうて…<line-break>すべてをゆだねよ…<line-break>祈るがいい…<line-break>そして心を開くのだ…<line-break>すべてをゆだねよ…<end>"}
-{"section":133,"id":"1330418","japanese":"ウフフ…。<end>"}
-{"section":133,"id":"1330419","japanese":"ウフフアハハ…！<line-break>君が僕を裏切ってもね<line-break>僕は信じていたよ、エルファス。<line-break>君が愛を信じる負け犬になれば<line-break>必ず、<value:$28>を守るため<line-break>神になると…ね。<end>"}
-{"section":133,"id":"1330420","japanese":"どうだい。<line-break>これが僕の新しいオモチャ。<line-break>新たなる神だよ。<end>"}
-{"section":133,"id":"1330421","japanese":"驚いたかい？<line-break>強大な闇の巨人が世界中を襲ってるのさ。<line-break>でも、これはほんの序の口<line-break>ここからが本番だ。<end>"}
-{"section":133,"id":"1330422","japanese":"見るがいい…<line-break>世界中の人のソウルを吸収し…、<line-break>僕は…、神になる…<end>"}
-{"section":133,"id":"1330423","japanese":"世界の人たちよ。<line-break>聞こえると思う。<line-break>我が言葉を聞くのだ…<line-break>滅びの時が来た…<line-break>この恐怖をぬぐうのは<line-break>救世主たる我より他にない…<end>"}
-{"section":133,"id":"1330424","japanese":"我を信じよ…<line-break>すべてを我になげうて…<line-break>すべてをゆだねよ…<line-break>祈るがいい…<line-break>そして心を開くのだ…<line-break>すべてをゆだねよ…<end>"}
-{"section":133,"id":"1330425","japanese":"ウフフ…。<end>"}
-{"section":133,"id":"1330426","japanese":"どうだい。<line-break>これが僕の新しいオモチャ。<line-break>新たなる神だよ。<line-break>ねえ、エルファス、<line-break>神になった気分はどう？<end>"}
-{"section":133,"id":"1330427","japanese":"おやおや。いろんな人の精神が<line-break>入り込んできて<line-break>自分を失ってしまったみたいだね。<line-break>ま、君は自分の痛みばっかりに夢中で、<line-break>他人にも痛みが存在するなんて<line-break>気づきもしなかったからねえ…。<end>"}
-{"section":133,"id":"1330428","japanese":"君みたいな痛みなら強弱の差はあれ、<line-break>誰でも持ってるものなんだよ。<line-break>いい勉強になった？　アハハ…！<line-break>でも困ったな。精神が無くて<line-break>判断ができないんじゃ粗悪品だよ。<line-break>ちゃんと動くのかな…。<end>"}
-{"section":133,"id":"1330429","japanese":"さぁて、邪眼帝と呼ばれたバロルの<line-break>お手並み拝見といこうかな。<end>"}
-{"section":133,"id":"1330430","japanese":"ウフフ…アハハ！　すごい！<line-break>予想以上だね、バロルの力は！<end>"}
-{"section":133,"id":"1330431","japanese":"この世界を無に帰すの…。<line-break>人の想いの網から解放してあげるの…。<line-break>すべてを…。<end>"}
-{"section":133,"id":"1330432","japanese":"だってさ。困っちゃうよねぇ。<line-break>勇者様、この世界を救って～！<line-break>…って感じかな。アハハ…<line-break>あとは頼んだよ、<line-break>勇者<value:$28>様。<line-break>アハハハ…！<end>"}
-{"section":133,"id":"1330433","japanese":"あなたがアトレイアを<line-break>助けたせいで…こうなったわ…。<line-break>すべて、あなたのせい。<line-break>いかが？<line-break>私は、あなたが作り上げた化け物よ。<line-break>美しいかしら？<end>"}
-{"section":133,"id":"1330434","japanese":"私は、こうなったことを<line-break>喜んでいるのよ…。<line-break>だって…。<line-break>あなたを死の静寂で包んで<line-break>私を永遠に拒絶できないように<line-break>できるんですもの…。<end>"}
-{"section":133,"id":"1330435","japanese":"な…、何…！？<end>"}
-{"section":133,"id":"1330436","japanese":"無事か、<line-break><value:$28>？<end>"}
-{"section":133,"id":"1330437","japanese":"あら、ネメア…。<line-break>破壊神の門たる<line-break>偽りの勇者様。<line-break>あなたに彼らと一緒にいる<line-break>資格はないわ。<line-break>神よ、汚らわしきネメアを消せ！<end>"}
-{"section":133,"id":"1330438","japanese":"…たとえ闇に落ちようと、<line-break>私は私だ！<end>"}
-{"section":133,"id":"1330439","japanese":"くっ！<line-break>破滅の槍の力を解放する気なの？<end>"}
-{"section":133,"id":"1330440","japanese":"…必ず、あなたを殺す。<line-break>それまで、この静かな世界を<line-break>虚無に帰すのは待ってあげるわ。<line-break>あなたは私と戦わなければならない<line-break>この静寂から世界を救うためにはね<line-break>お城の謁見の間で待ってるわ。<end>"}
-{"section":133,"id":"1330441","japanese":"…強くなったな、<line-break><value:$28>。<end>"}
-{"section":133,"id":"1330442","japanese":"<value:$28>、<line-break>…私も力を貸そう。<end>"}
-{"section":133,"id":"1330443","japanese":"よう、待ってたよ。<line-break>無限のソウルの持ち主。<line-break><value:$28>。<end>"}
-{"section":133,"id":"1330444","japanese":"俺はシスティーナの伝道師の１人、<line-break>黒の祈りのジュサプブロス…。<line-break>ま、早い話がシャリのダチだ。<line-break>君に興味があってね。<line-break>世界がなくなる前に<line-break>君を殺したくなってここに来た。<end>"}
-{"section":133,"id":"1330445","japanese":"ははあ、これは予想外な<line-break>展開になったな。<line-break> <line-break>誰かと徒党を組むのは、<line-break>俺が弱いと思われるから、<line-break>本当は嫌なんだけどなあ。<end>"}
-{"section":133,"id":"1330446","japanese":"何も、頼んでるわけじゃねえ！<line-break>俺が出てきたとこにお前が<line-break>いたんじゃねえか！<end>"}
-{"section":133,"id":"1330447","japanese":"ま、どうでもいいか。<line-break>勝った奴のみが生き、負けた奴は…<end>"}
-{"section":133,"id":"1330448","japanese":"行くぞ、<value:$28>！<line-break>今こそ、ナッジの恨みを晴らす！<end>"}
-{"section":133,"id":"1330449","japanese":"その前に聞いておく。<line-break>５歳以下の子供は殺さない主義でね。<line-break>５歳以下の人いる？<end>"}
-{"section":133,"id":"1330450","japanese":"…いないようだね、よかった。<line-break>それじゃあ、<line-break>お手合わせ願おうかな？<end>"}
-{"section":133,"id":"1330451","japanese":"待てよ、<value:$28>！<end>"}
-{"section":133,"id":"1330452","japanese":"お前の敵が世界を滅ぼそうっていう<line-break>悪者だけだと<line-break>思っちゃいないだろうな…？<line-break>世の中のテメエ勝手な正義で<line-break>友を失った男の存在を、<line-break>忘れるんじゃねえぜ。<end>"}
-{"section":133,"id":"1330453","japanese":"ナッジは…悪人なんかじゃなかった。<line-break>いい奴だった…<line-break>あいつは死ななくてよかった！<end>"}
-{"section":133,"id":"1330454","japanese":"ナッジが死ななきゃならなかった<line-break>ケツの穴の小さい世界なんて、<line-break>ブッ壊れちまえばいいんだ。<line-break>この世界の片棒かついだ<line-break><value:$28>、お前もだ！<line-break>死んでもらうぜ！<end>"}
-{"section":133,"id":"1330455","japanese":"うう…。なぜだ…。<line-break>どうしてなんだよ…。<line-break> <line-break>悪いのは…俺たちなのか…？<line-break>う、薄汚れてんのは、<line-break>お前たちのほうじゃねえのか？<end>"}
-{"section":133,"id":"1330456","japanese":"俺やナッジみたいなやつが…<line-break>笑いながら暮らせない世界なんて…<line-break>こっちから、出てってやるぜ…。<line-break>ナッジ…俺たちゃ、<line-break>ダチ…だかんな…。<line-break>いつでも一緒だ…ぜ…。<end>"}
-{"section":133,"id":"1330457","japanese":"照りつける太陽の下、俺は死ぬ…、<line-break>ふふ…、それでいい…。<end>"}
-{"section":133,"id":"1330458","japanese":"あ…、<value:$28>様…。<line-break>いらしてくださったのですね…。<end>"}
-{"section":133,"id":"1330459","japanese":"ティアナのことを嫌いになられて、<line-break>もういらしてくださらないのではと<line-break>胸を痛めていたのです…。<end>"}
-{"section":133,"id":"1330460","japanese":"…魔王バロルはどこだ？<end>"}
-{"section":133,"id":"1330461","japanese":"くすっ。<line-break>魔王バロルをネメアが倒すという予言…<line-break>その運命にあくまで操られるおつもり？<end>"}
-{"section":133,"id":"1330462","japanese":"運命など関係ない。<line-break>バロルが世を<line-break>虚無に帰すがゆえに討つのだ。<end>"}
-{"section":133,"id":"1330463","japanese":"うふふ…。<line-break>果たしてあなたに<line-break>今のバロルが倒せるかしらね。<end>"}
-{"section":133,"id":"1330464","japanese":"…フフ、ウフフ、アハハ！<line-break>傲慢なる獅子に死を！<line-break>傷ついた神に無限のソウルを！<line-break>神はいよいよ完璧になり、<line-break>そして、世界を完全な沈黙で<line-break>覆うことができる…！<end>"}
-{"section":133,"id":"1330465","japanese":"そして、あなたは永遠に<line-break>私を拒絶できなくなる…！<end>"}
-{"section":133,"id":"1330466","japanese":"いかがですか？<line-break>すべての人が消えた<line-break>静かな世界は…？<end>"}
-{"section":133,"id":"1330467","japanese":"この、どうしようもない静寂…。<line-break>ふふふ…。<line-break>これは、私の人生そのものです。<end>"}
-{"section":133,"id":"1330468","japanese":"あなたも、この永遠の寂寞の中で<line-break>死んでいくがいいわ。<line-break> <line-break>息吹も鼓動も止めて、<line-break>静寂の一部として溶け込むのよ。<line-break>フフフ…それが運命…<end>"}
-{"section":133,"id":"1330469","japanese":"…それが運命だと言うのであれば、<line-break>あらがうまで！<end>"}
-{"section":133,"id":"1330470","japanese":"うふふ…。<line-break>あらがっても苦しむだけなのに…<end>"}
-{"section":133,"id":"1330471","japanese":"いらっしゃい…いとしい殿方たち。<end>"}
-{"section":133,"id":"1330472","japanese":"彼らは、私を絶対に否定しませんわ。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330473","japanese":"あなたにとっては、さしずめ、<line-break>感動の再会というところかしら？<end>"}
-{"section":133,"id":"1330474","japanese":"何を言ってもムダよ。<line-break>彼らには意志がない…。<line-break>彼らは完全に私のものなの。<line-break>彼らは、私を絶対に否定しない。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330475","japanese":"あなたにとっては、さしずめ、<line-break>感動の再会というところかしら？<end>"}
-{"section":133,"id":"1330476","japanese":"何を言ってもムダよ。<line-break>彼らには意志がない…。<line-break>彼らは完全に私のものなの。<line-break>彼らは、私を絶対に否定しない。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330477","japanese":"世界が虚無に帰るまでの短い間だけど、<line-break>あなたにも、こうなってもらうわ。<end>"}
-{"section":133,"id":"1330478","japanese":"いらっしゃい、ゼネテス。<end>"}
-{"section":133,"id":"1330479","japanese":"クーデターで死んだゼネテスを、<line-break>私の操り人形としてよみがえらせたの。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330480","japanese":"あなたにとっては、さしずめ、<line-break>感動の再会というところかしら？<end>"}
-{"section":133,"id":"1330481","japanese":"クーデターで死んだゼネテスを<line-break>私の操り人形としてよみがえらせたの。<line-break>何を言っても無駄よ。<line-break>彼は完全に私のもの。<line-break>彼はもう私を否定できない。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330482","japanese":"世界が虚無に帰るまでの短い間だけど、<line-break>あなたにも、こうなってもらうわ。<end>"}
-{"section":133,"id":"1330483","japanese":"いらっしゃい、レムオン…。<end>"}
-{"section":133,"id":"1330484","japanese":"レムオンは私のいいなりの人形<line-break>レムオンは私を否定しない。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330485","japanese":"あなたにとっては、さしずめ、<line-break>感動の再会というところかしら？<end>"}
-{"section":133,"id":"1330486","japanese":"何を言ってもムダよ。<line-break>レムオンには意志がない…。<line-break>レムオンは完全に私のものなの。<line-break>レムオンは私のいいなりの人形。<line-break>私を絶対に否定しませんわ。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330487","japanese":"世界が虚無に帰るまでの短い間だけど、<line-break>あなたにも、こうなってもらうわ。<end>"}
-{"section":133,"id":"1330488","japanese":"さすがね、<value:$28>。<line-break>やはり抜け殻では力不足、<line-break>といったところかしら。<end>"}
-{"section":133,"id":"1330489","japanese":"お遊びはこれまで。<line-break>このティアナじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330490","japanese":"………………？<end>"}
-{"section":133,"id":"1330491","japanese":"…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"}
-{"section":133,"id":"1330492","japanese":"レムオン…まさか…？<line-break>ありえない…！<line-break>ゼネテス、レムオンを処分なさい！<end>"}
-{"section":133,"id":"1330493","japanese":"…<value:$28>…か。<line-break>屋敷に…戻ってきたのなら…<line-break>どうして…俺に会いに来ない…？<line-break>とにかく…お前が…無事で…よかった。<line-break>エストは心配していた…ぞ？<line-break>俺は…、俺は…どうして…こんな…？<end>"}
-{"section":133,"id":"1330494","japanese":"…それに…お前はどうして、<line-break>そんなに傷ついて…いる…のだ？<line-break>誰が…俺の大事な…<value:$28>を<end>"}
-{"section":133,"id":"1330495","japanese":"俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"}
-{"section":133,"id":"1330496","japanese":"…すま…ん。<line-break>俺の…大事な<value:$28>…。<line-break>俺は、お前を守りたか…ったのに…。<line-break>すま…ん…。<end>"}
-{"section":133,"id":"1330497","japanese":"…使えない奴め。<line-break>クーデターの前から、<line-break>口ほどにもないと思ってたわ。<line-break>お遊びはこれまで。<line-break>このティアナじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330498","japanese":"………………？<end>"}
-{"section":133,"id":"1330499","japanese":"これで<value:$28>も、<line-break>もう、私を否定できなくなる…。<line-break>フフ…ウフフ…。<end>"}
-{"section":133,"id":"1330500","japanese":"…ティア…ナ、<line-break>それ…お前…不幸じゃねえ…か？<end>"}
-{"section":133,"id":"1330501","japanese":"ゼネテス？<line-break>そんな、ありえない…！<line-break>死んでまで、私を否定する気なの？<line-break>レムオン！<line-break>ゼネテスを片づけて！<end>"}
-{"section":133,"id":"1330502","japanese":"俺も…ついて…るな。<line-break>んな…最期の最期…で…<line-break>お前を…助けられる…なんて…よ。<end>"}
-{"section":133,"id":"1330503","japanese":"…<value:$28>。<line-break>俺…の最高…の女に…<line-break>見送って…もらえるのか…。<end>"}
-{"section":133,"id":"1330504","japanese":"私が不幸ですって？<line-break>では、あなたはどれだけ幸せなの、<line-break>ゼネテス？<line-break>死んでなお前向きなのはわかったわ。<line-break>でも、それは負け惜しみに過ぎない。<line-break>ブザマよ！<end>"}
-{"section":133,"id":"1330505","japanese":"…もうたくさんよ、ゼネテス！<line-break>あなたは最低の男よ。<line-break>あなたのせいで世界が滅ぶのよ？<line-break>あなたが私を否定し<line-break><value:$28>のほうだけを<line-break>見ていたから、こうなったのよ！？<end>"}
-{"section":133,"id":"1330506","japanese":"…お遊びはこれまで。<line-break>このティアナじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330507","japanese":"さすがね、<value:$28>。<line-break>やはり抜け殻では力不足、<line-break>といったところかしら。<end>"}
-{"section":133,"id":"1330508","japanese":"…お遊びはこれまで。<line-break>このティアナじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330509","japanese":"………………<line-break>…<value:$28>？<end>"}
-{"section":133,"id":"1330510","japanese":"これで<value:$28>も、<line-break>もう、私を否定できなくなる…。<line-break>フフ…ウフフ…。<end>"}
-{"section":133,"id":"1330511","japanese":"…ティア…ナ、<line-break>それ…お前…不幸じゃねえ…か？<end>"}
-{"section":133,"id":"1330512","japanese":"ゼネテス？<line-break>そんな、ありえない…！<line-break>死んでまで、私を否定する気なの？<end>"}
-{"section":133,"id":"1330513","japanese":"俺も…ついて…るな。<line-break>んな…最期の最期…で…<line-break>お前を…助けられる…なんて…よ。<end>"}
-{"section":133,"id":"1330514","japanese":"…<value:$28>。<line-break>俺…の最高…の女に…<line-break>見送って…もらえるのか…。<end>"}
-{"section":133,"id":"1330515","japanese":"私が不幸ですって？<line-break>では、あなたはどれだけ幸せなの、<line-break>ゼネテス？<line-break>死んでなお前向きなのはわかったわ。<line-break>でも、それは負け惜しみに過ぎない。<line-break>ブザマよ！<end>"}
-{"section":133,"id":"1330516","japanese":"…もうたくさんよ、ゼネテス！<line-break>あなたは最低の男よ。<line-break>あなたのせいで世界が滅ぶのよ？<line-break>あなたが私を否定し<line-break><value:$28>のほうだけを<line-break>見ていたから、こうなったのよ！？<end>"}
-{"section":133,"id":"1330517","japanese":"…お遊びはこれまで。<line-break>このティアナじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330518","japanese":"さすがね、<value:$28>。<line-break>やはり抜け殻では力不足、<line-break>といったところかしら。<end>"}
-{"section":133,"id":"1330519","japanese":"お遊びはこれまで。<line-break>このティアナじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330520","japanese":"………………？<end>"}
-{"section":133,"id":"1330521","japanese":"…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"}
-{"section":133,"id":"1330522","japanese":"レムオン…まさか…？<line-break>ありえない…！<end>"}
-{"section":133,"id":"1330523","japanese":"…<value:$28>…か。<line-break>屋敷に…戻ってきたのなら…<line-break>どうして…俺に会いに来ない…？<line-break>とにかく…お前が…無事で…よかった。<line-break>エストは心配していた…ぞ？<line-break>俺は…、俺は…どうして…こんな…？<end>"}
-{"section":133,"id":"1330524","japanese":"…それに…お前はどうして、<line-break>そんなに傷ついて…いる…のだ？<line-break>誰が…俺の大事な…<value:$28>を<end>"}
-{"section":133,"id":"1330525","japanese":"俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"}
-{"section":133,"id":"1330526","japanese":"…すま…ん。<line-break>俺の…大事な<value:$28>…。<line-break>俺は、お前を守りたか…ったのに…。<line-break>すま…ん…。<end>"}
-{"section":133,"id":"1330527","japanese":"…使えない奴め。<line-break>クーデターの前から、<line-break>口ほどにもないと思ってたわ。<line-break>お遊びはこれまで。<line-break>このティアナじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330528","japanese":"こ、このままでは終わらない…<line-break>ま…魔王バロルよ。<line-break>わ、我が血肉を糧に…<end>"}
-{"section":133,"id":"1330529","japanese":"ア…新たナるチカらヲ…。<line-break>コ、コノヨニ滅びヲもたらしタマエ！<line-break>アアアア…！！<end>"}
-{"section":133,"id":"1330530","japanese":"いらっしゃい…かわいい人形たち。<end>"}
-{"section":133,"id":"1330531","japanese":"いらっしゃい…かわいい人形たち。<end>"}
-{"section":133,"id":"1330532","japanese":"ふふふ…、私が闇の王女として覚醒した<line-break>あのクーデターの時、拾ったものです。<line-break>いいでしょう？<end>"}
-{"section":133,"id":"1330533","japanese":"あなたにとっては、さしずめ、<line-break>感動の再会というところですか？<end>"}
-{"section":133,"id":"1330534","japanese":"ふふ…、何を言ってもムダですよ。<line-break>魂の窓はすべてふさがれています。<line-break>まるで以前の私がそうだったようにね…。<end>"}
-{"section":133,"id":"1330535","japanese":"あなたにとっては、さしずめ、<line-break>感動の再会というところですか？<end>"}
-{"section":133,"id":"1330536","japanese":"ふふ…、何を言ってもムダですよ。<line-break>魂の窓はすべてふさがれています。<line-break>まるで以前の私がそうだったようにね…。<end>"}
-{"section":133,"id":"1330537","japanese":"ふふふ…さあ、私の人形たち、<line-break><value:$28>を倒し、<line-break>無限のソウルをささげるのです。<end>"}
-{"section":133,"id":"1330538","japanese":"いらっしゃい、ゼネテス…。<end>"}
-{"section":133,"id":"1330539","japanese":"クーデターで死んだゼネテスを、<line-break>私の操り人形としてよみがえらせたの。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330540","japanese":"あなたにとっては、さしずめ、<line-break>感動の再会というところかしら？<end>"}
-{"section":133,"id":"1330541","japanese":"何を言ってもムダよ。<line-break>あなたの知っているゼネテスは、<line-break>クーデターの時に死んだわ。<line-break>ここにいる彼は、私の操り人形。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330542","japanese":"ふふふ…、さあ、ゼネテス、<line-break><value:$28>を倒し、<line-break>無限のソウルをささげるのです！<end>"}
-{"section":133,"id":"1330543","japanese":"いらっしゃい、レムオン…。<end>"}
-{"section":133,"id":"1330544","japanese":"いらっしゃい、レムオン…。<end>"}
-{"section":133,"id":"1330545","japanese":"いらっしゃい、レムオン…。<end>"}
-{"section":133,"id":"1330546","japanese":"紹介します。<line-break>こちらは、レムオン・リューガ。<line-break>居場所をなくした、<line-break>かわいそうなダルケニス…。<end>"}
-{"section":133,"id":"1330547","japanese":"見るに見かねたので、私が拾って、<line-break>私の人形という居場所をさしあげたの。<line-break>ふふ…ふふふふ…。<end>"}
-{"section":133,"id":"1330548","japanese":"あなたにとっては、さしずめ、<line-break>感動の再会というところかしら？<end>"}
-{"section":133,"id":"1330549","japanese":"何を言っても無駄ですわよ。<line-break> <line-break> <line-break>レムオン・リューガは、<line-break>私の慈悲で、今は人形として<line-break>付き従っているのですもの。<end>"}
-{"section":133,"id":"1330550","japanese":"彼は、かわいそうなダルケニス…。<line-break> <line-break> <line-break>この世界に、彼の生きる場所はない。<line-break>以前の私にそっくりじゃなくって？<end>"}
-{"section":133,"id":"1330551","japanese":"ふふふ…、さあ、レムオン、<line-break><value:$28>を倒し<line-break>その無限のソウルをささげるのです。<end>"}
-{"section":133,"id":"1330552","japanese":"ふふ…よかった。<line-break>人形たちにあなたがやられてしまったら<line-break>どうしようかと思っていました。<line-break>さすがは<value:$28>。<line-break>私が直接手を下す必要が<line-break>あるようですわね…。<end>"}
-{"section":133,"id":"1330553","japanese":"ふふ…、それでは私がお相手します。<line-break>あんまりあっけなくやられて<line-break>私をがっかりさせないでくださいね。<end>"}
-{"section":133,"id":"1330554","japanese":"………………？<end>"}
-{"section":133,"id":"1330555","japanese":"…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"}
-{"section":133,"id":"1330556","japanese":"レムオン…まさか…？<line-break>ありえない…！<line-break>ゼネテス、レムオンを処分なさい！<end>"}
-{"section":133,"id":"1330557","japanese":"…<value:$28>…か。<line-break>屋敷に…戻ってきたのなら…<line-break>どうして…俺に会いに来ない…？<line-break>とにかく…お前が…無事で…よかった。<line-break>エストは心配していた…ぞ？<line-break>俺は…、俺は…どうして…こんな…？<end>"}
-{"section":133,"id":"1330558","japanese":"…それに…お前はどうして、<line-break>そんなに傷ついて…いる…のだ？<line-break>誰が…俺の大事な…<value:$28>を<end>"}
-{"section":133,"id":"1330559","japanese":"俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"}
-{"section":133,"id":"1330560","japanese":"…すま…ん。<line-break>俺の…大事な<value:$28>…。<line-break>俺は、お前を守りたか…ったのに…。<line-break>すま…ん…。<end>"}
-{"section":133,"id":"1330561","japanese":"心温まる展開というやつなのかしら？<line-break>そんなもの…<line-break>ただ、むしずが走るだけよ！<line-break>お遊びはこれまで！<line-break>このアトレイアじきじきに<line-break>お相手いたしましょう…！<end>"}
-{"section":133,"id":"1330562","japanese":"………………？<line-break>…俺は…死んだ…はず…<end>"}
-{"section":133,"id":"1330563","japanese":"………………？<line-break>どうしたの、ゼネテス？<end>"}
-{"section":133,"id":"1330564","japanese":"…<value:$28>？<line-break>俺は…？<end>"}
-{"section":133,"id":"1330565","japanese":"い、意志を取り戻すだなんて！<line-break>レムオン！<line-break>ゼネテスを片づけて！<end>"}
-{"section":133,"id":"1330566","japanese":"俺も…ついて…るな。<line-break>んな…最期の最期…で…<line-break>お前を…助けられる…なんて…よ。<end>"}
-{"section":133,"id":"1330567","japanese":"…<value:$28>。<line-break>俺…の最高…の女に…<line-break>見送って…もらえるのか…。<end>"}
-{"section":133,"id":"1330568","japanese":"ふふ…ふふふふ…。<line-break>死んでも前向きだなんて…<line-break>むしずが走るわ。<end>"}
-{"section":133,"id":"1330569","japanese":"…お遊びはこれまで。<line-break>このアトレイアじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330570","japanese":"ふふ…よかった。<line-break>人形にあなたがやられてしまったら<line-break>どうしようかと思っていました。<line-break>さすがは<value:$28>。<line-break>私が直接手を下す必要が<line-break>あるようですわね…。<end>"}
-{"section":133,"id":"1330571","japanese":"ふふ…、それでは私がお相手します。<line-break>あんまりあっけなくやられて<line-break>私をがっかりさせないでくださいね。<end>"}
-{"section":133,"id":"1330572","japanese":"………………？<line-break>…俺は…死んだ…はず…<end>"}
-{"section":133,"id":"1330573","japanese":"どうしたの、ゼネテス？<end>"}
-{"section":133,"id":"1330574","japanese":"…<value:$28>？<line-break>俺は…？<end>"}
-{"section":133,"id":"1330575","japanese":"ありえない！　意志を取り戻した？<end>"}
-{"section":133,"id":"1330576","japanese":"俺も…ついて…るな。<line-break>んな…最期の最期…で…<line-break>お前を…助けられる…なんて…よ。<end>"}
-{"section":133,"id":"1330577","japanese":"…<value:$28>。<line-break>俺…の最高…の女に…<line-break>見送って…もらえるのか…。<end>"}
-{"section":133,"id":"1330578","japanese":"ふふ…ふふふふ…。<line-break>死んでも前向きだなんて…<line-break>むしずが走るわ。<end>"}
-{"section":133,"id":"1330579","japanese":"…お遊びはこれまで。<line-break>このアトレイアじきじきに<line-break>お相手をいたしましょう…！<end>"}
-{"section":133,"id":"1330580","japanese":"ふふ…よかった。<line-break>人形ごときにやられてしまったら<line-break>どうしようかと思っていました。<line-break>さすがは<value:$28>。<line-break>私が直接手を下す必要が<line-break>あるようですわね…。<end>"}
-{"section":133,"id":"1330581","japanese":"ふふ…、それでは私がお相手します<line-break>あんまりあっけなくやられて<line-break>私をがっかりさせないでくださいね<end>"}
-{"section":133,"id":"1330582","japanese":"………………？<end>"}
-{"section":133,"id":"1330583","japanese":"…お前…<value:$28><line-break><value:$28>…なの…か…？<end>"}
-{"section":133,"id":"1330584","japanese":"レムオン…まさか…？<line-break>ありえない…！<end>"}
-{"section":133,"id":"1330585","japanese":"…<value:$28>…か。<line-break>屋敷に…戻ってきたのなら…<line-break>どうして…俺に会いに来ない…？<line-break>とにかく…お前が…無事で…よかった。<line-break>エストは心配していた…ぞ？<line-break>俺は…、俺は…どうして…こんな…？<end>"}
-{"section":133,"id":"1330586","japanese":"…それに…お前はどうして、<line-break>そんなに傷ついて…いる…のだ？<line-break>誰が…俺の大事な…<value:$28>を<end>"}
-{"section":133,"id":"1330587","japanese":"俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"}
-{"section":133,"id":"1330588","japanese":"…すま…ん。<line-break>俺の…大事な<value:$28>…。<line-break>俺は、お前を守りたか…ったのに…。<line-break>すま…ん…。<end>"}
-{"section":133,"id":"1330589","japanese":"心温まる展開というやつなのかしら？<line-break>そんなもの…<line-break>ただ、むしずが走るだけよ！<line-break>お遊びはこれまで！<line-break>このアトレイアじきじきに<line-break>お相手いたしましょう…！<end>"}
-{"section":133,"id":"1330590","japanese":"こ、こんなことって…。<end>"}
-{"section":133,"id":"1330591","japanese":"魔王バロルよ、どうか…<line-break>こ、この世に…あ、明けない闇を…！<end>"}
-{"section":133,"id":"1330592","japanese":"　　封印の巨人の…呪縛から…　　　　<line-break>　　　　　解き放たれ…、　　　　　　<line-break>　　　復讐の時を…得たり…。<end>"}
-{"section":133,"id":"1330593","japanese":"　　　　　　　強い…ソウル…。　　　　　　<line-break>　　　　　　我が身に取り込み…、　　　　　<line-break> 　　　　　　我が…糧とせん…。　　　　　<line-break>　<line-break>　　　許さぬぞ…ノトゥーンの子らよ！　　<line-break>　　　　我が大地を…荒らす者たちよ！<line-break>　　　　この大地は、我が子らのもの！<end>"}
-{"section":133,"id":"1330594","japanese":"アトレイアの死によってできた<line-break>強力な力場を通って現れたか。<line-break>ゆくぞ、<value:$28>！<end>"}
-{"section":133,"id":"1330595","japanese":"　　　　　　 おのれ…。　　　　　　　<line-break>　　 だが、これでは…終わらぬ…。　　<line-break>　 必ず…、この大地を…取り戻す…。<line-break>　　　 いつの日か…、必ず…！<end>"}
-{"section":133,"id":"1330596","japanese":"…さすがです、<value:$28>さん。<line-break>やっぱり、勝ち残って<line-break>しまったんですね。<end>"}
-{"section":133,"id":"1330597","japanese":"あなたの活躍で、<line-break>世界は救われました。<line-break>　<line-break>ですが、そのかわりに、<line-break>世界は新たなる脅威に<line-break>さらされています。<end>"}
-{"section":133,"id":"1330598","japanese":"それはあなたです。<line-break>闇をすべて消し去ってしまうほどの<line-break>強烈な光の存在。<line-break>世界の均衡を保つため、<line-break>わたしは、あなたを<line-break>…とめなければなりません。<end>"}
-{"section":133,"id":"1330599","japanese":"それが、竜王様の意志…。<end>"}
+{"section":133,"id":"1330112","japanese":"それは！！<line-break>…これを壊すことは…<line-break>動かなくするということは…。<line-break>私たち巫女が今まで<line-break>存在しつづけてきた意味が、<line-break>理由がなくなってしまいます。<end>"}
+{"section":133,"id":"1330113","japanese":"でも、この空中都市がありつづけると<line-break>いつかきっと、悲しみが生まれます。<line-break>大切な命が、失われるでしょう。<line-break>それよりは、今、この空中都市を<line-break>永久に封じた方が、世界にとって<line-break>いいのではないでしょうか。<end>"}
+{"section":133,"id":"1330114","japanese":"ボクもイークレムンと同じ気持ちだよ。<line-break>悲しみや絶望を生むために<line-break>ボクたちはいるんじゃない。<line-break>８００年、ボクたち巫女の存在が<line-break>これのためにあったというのなら、<line-break>今日で、それを終わりにしよう。<end>"}
+{"section":133,"id":"1330115","japanese":"じゃあ、イークレムンとフレアは　　<line-break>自分たちの制御球の所に行って。<line-break>　<line-break>で、ボクが、せーの！　って言ったら<line-break>みんなで一緒に、壊れろって祈って。<line-break>いい？　じゃ、始めるよ。<end>"}
+{"section":133,"id":"1330116","japanese":"せーの！！<end>"}
+{"section":133,"id":"1330117","japanese":"あ…あれ？<line-break>この揺れって…<line-break>うまくいったってことなのかな？　<line-break>なんだか、予想外だけど…、<line-break>うわああああ、<value:$28>、<line-break>どうしよう！？<end>"}
+{"section":133,"id":"1330118","japanese":"ここ…<line-break>壊れてしまうのでしょうか…？<line-break>　<line-break>そんな…<line-break>せっかく…。<end>"}
+{"section":133,"id":"1330119","japanese":"役目が終われば<line-break>ここにいる理由もない。<line-break>　<line-break>そして<line-break>存在の意味もない。<line-break>だから、これでいい…。<end>"}
+{"section":133,"id":"1330120","japanese":"くだらぬことを申すな。<line-break>そなたらは希望のために<line-break>戦うのであろう？<end>"}
+{"section":133,"id":"1330121","japanese":"わらわがそなたらを<line-break>飛ばしてやる。<line-break>心を、空にするのじゃ。<end>"}
+{"section":133,"id":"1330122","japanese":"あなたは…？<end>"}
+{"section":133,"id":"1330123","japanese":"君を助けに来たんだよ。<line-break>君、フレア、だよね？<end>"}
+{"section":133,"id":"1330124","japanese":"はい。<end>"}
+{"section":133,"id":"1330125","japanese":"ボクはエステル。<line-break>君とおんなじ巫女、地の巫女だよ。<line-break>　<line-break>で、こっちが<value:$28>。<line-break>ま、冒険者、かな。<end>"}
+{"section":133,"id":"1330126","japanese":"そうですか。<end>"}
+{"section":133,"id":"1330127","japanese":"<value:$28>……！<line-break>こうなるとは、思っていました。<line-break>きっと、ここへ来るだろうと…。<end>"}
+{"section":133,"id":"1330128","japanese":"<value:$28>…。<line-break>あなたも、ここへと<line-break>みちびかれたのですか…。<end>"}
+{"section":133,"id":"1330129","japanese":"しかし、この絶望の都市で<line-break>何をしようというのですか？<end>"}
+{"section":133,"id":"1330130","japanese":"しかし、本当に<line-break>空中都市の復活を止めるとは…。　　　<line-break>　<line-break>無限のソウルの行く先は<line-break>このわらわにも見えんということか…。<end>"}
+{"section":133,"id":"1330131","japanese":"違うよ、エア。　　　　　　　　<line-break><value:$28>が特別だから<line-break>こうなったんじゃないよ。<line-break>イークレムンやフレアと一緒に<line-break>みんなで希望を持って頑張った。<line-break>だから、こうなったんだよ。<end>"}
+{"section":133,"id":"1330132","japanese":"そしてエア、キミが来てくれたから<line-break>今、ボクたちはこうしていられる。<line-break>ありがとう。<end>"}
+{"section":133,"id":"1330133","japanese":"なにを、気楽なことを…。　　　<line-break>　<line-break>　<line-break>他の巫女らは、本来いるべき地に<line-break>送り飛ばしておいた。<line-break>そなたらも、旅に戻るがよい。<end>"}
+{"section":133,"id":"1330134","japanese":"うん、そうするよ。<line-break>ありがとう、エア。<end>"}
+{"section":133,"id":"1330135","japanese":"希望、か……。<end>"}
+{"section":133,"id":"1330136","japanese":"<value:$28>。<line-break>より多くの道標を望むか。<line-break>ならば、聞かせてやろう。<end>"}
+{"section":133,"id":"1330137","japanese":"<value:$28>か。<line-break>どうした？　道に迷い<line-break>わらわが見る可能性を頼りに来たか。<line-break>ならば、聞かせよう。<line-break>わらわに見える、そなたの未来、<line-break>そこにある希望の断片を。<end>"}
+{"section":133,"id":"1330138","japanese":"死神の鎌は<line-break>あまねく大陸をなぎ払おうとしておる。<line-break>　<line-break>その鎌の切っ先にあるは<line-break>革新か、あるいは悲しみか。<line-break>汝の目で、それを見定めるがよい。<end>"}
+{"section":133,"id":"1330139","japanese":"死神の鎌はその輝きを増し、<line-break>最後の王国をなぎ払おうとしておる。<line-break>相対し得るは剣狼の牙のみ。<line-break>その影で、獅子は闇と戦っておる。<line-break>汝、いずれに与すか。<line-break>道は分かれ、未来もまた分かたれる。<end>"}
+{"section":133,"id":"1330140","japanese":"すべては、混沌を抱え　　　　　　　　　<line-break>すべては、終焉へと向かっておる。<line-break>混沌ゆえに、その終焉の先も見えぬ。<line-break>無限の魂の輝きが<line-break>新たなる世界を照らすであろう。<line-break>いまだ、定まらぬ未来という世界を…。<end>"}
+{"section":133,"id":"1330141","japanese":"わらわが今聞かせたのは　　<line-break>今の世界の断片にすぎぬ。<line-break>　<line-break>そこに希望をもたらすも<line-break>それに絶望を感じるも<line-break>すべては、そなた次第じゃ。<end>"}
+{"section":133,"id":"1330142","japanese":"このような未来があったとはな…。<line-break>そなたの持つ可能性は、わらわにさえ<line-break>見通すことができんようだな……。<end>"}
+{"section":133,"id":"1330143","japanese":"予備メッセージその２<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330144","japanese":"予備メッセージその３<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330145","japanese":"予備メッセージその４<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330146","japanese":"予備メッセージその５<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330147","japanese":"予備メッセージその６<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330148","japanese":"予備メッセージその７<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330149","japanese":"予備メッセージその８<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330150","japanese":"予備メッセージその９<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330151","japanese":"予備メッセージその１０<line-break>エア　Ｖ５<end>"}
+{"section":133,"id":"1330152","japanese":"この大都会エンシャントに、<line-break>人っ子ひとりおらんのが<line-break>ご不審のようじゃな。<line-break>ソウルリープにかけられたのじゃよ。<line-break>老いも若きも男も女も…<line-break>この街の住民、全員がな。<end>"}
+{"section":133,"id":"1330153","japanese":"わしはゾフォル。<line-break>かつて魔王バロルに仕え、<line-break>妖術宰相と呼ばれた魔道士じゃ。<end>"}
+{"section":133,"id":"1330154","japanese":"円卓騎士をはじめとする魔人、<line-break>いきのよい怪物どもや、凶暴な邪竜、<line-break>そして、偉大なる破壊神。<line-break>それらを召喚するためには、<line-break>それこそ人知を超える莫大な<line-break>魔道エネルギーが必要となるのじゃ。<end>"}
+{"section":133,"id":"1330155","japanese":"クック…。<line-break>大望を成し遂げるためには、<line-break>どうすればよいと思う…？<end>"}
+{"section":133,"id":"1330156","japanese":"人知を超える、とは言ったがの、<line-break>これを実現させることができるのは、<line-break>実は、人のソウルの力なのじゃ。<line-break>人間のソウルを吸い取り、<line-break>その魔道力を抽出する。<line-break>その法こそ、ソウルリープ。<end>"}
+{"section":133,"id":"1330157","japanese":"この町に住まっておった人間、<line-break>そのすべてのソウルは、破壊神ウルグ様の<line-break>崇高なる祭壇にささげられた。<line-break>喜べ、破壊神復活の時は近いぞ。<line-break>フォフォフォ…。<end>"}
+{"section":133,"id":"1330158","japanese":"そうじゃのう。さしものわしにも、<line-break>無限のソウルの持ち主の<line-break>未来は見えぬ。じゃが…<end>"}
+{"section":133,"id":"1330159","japanese":"それだけのことじゃ。<line-break>たとえ無限のソウルを持つとも、<line-break>運命の波には逆らえぬ。<end>"}
+{"section":133,"id":"1330160","japanese":"ほう、無謀だとわかりきっていて、<line-break>なお挑もうというのかの？<line-break> <line-break>面白い。来い。追ってこい。<line-break>わしは、エンシャント城内、<line-break>謁見の間に待っておるぞ。<end>"}
+{"section":133,"id":"1330161","japanese":"わしか、お主か…<line-break>そこで知れるじゃろう。<line-break> <line-break>フォッフォッフォ…！<end>"}
+{"section":133,"id":"1330162","japanese":"人のいる気配が…<line-break>ソウルの息づきが感じられない。<line-break>まさか、ソウルリープ…！？<end>"}
+{"section":133,"id":"1330163","japanese":"円卓騎士や邪竜、破壊神…<line-break>それらを復活させるには、<line-break>莫大な魔道エネルギーが要る。<end>"}
+{"section":133,"id":"1330164","japanese":"そのために、<line-break>人からソウルを吸い集め、<line-break>魔道力を抽出する技が編み出された。<line-break>邪法と呼べるその技こそが、<line-break>ソウルリープ。<line-break>つまり…<end>"}
+{"section":133,"id":"1330165","japanese":"つまり、この帝都に暮らしておった<line-break>人間のソウルは、すべてがすべて、<line-break> <line-break>破壊神ウルグ様復活の祭壇に<line-break>ささげられたというわけじゃよ。<end>"}
+{"section":133,"id":"1330166","japanese":"ムダよ、<value:$28>。<line-break>これは幻像にすぎない…。<line-break>実体はおそらく、城の中よ。<end>"}
+{"section":133,"id":"1330167","japanese":"よくぞ戻ってきたな、ザギヴよ。<line-break> <line-break> <line-break>おぬしが皇帝となり、<line-break>破壊神が復活するは、<line-break>やはり運命だったのじゃよ。<end>"}
+{"section":133,"id":"1330168","japanese":"私はその運命と闘うために来た！<line-break>私は、皇帝にはならないわ！<end>"}

@@ -1,0 +1,38 @@
+{"section":79,"id":"790062","japanese":"それじゃ、私は…<line-break>このオンボロ宿屋で<line-break>一生を終えるのですね…。　　　　　　<line-break>私が研究熱心だったばっかりに…<line-break>ほんのちょっとドジだったばっかりに…<line-break>ケチな宿屋に泊まったばっかりに…。<end>"}
+{"section":79,"id":"790063","japanese":"おいおい、誰がケチだって？<line-break>泣き言言ってるヒマがあったら<line-break>働くこったな。<end>"}
+{"section":79,"id":"790064","japanese":"もう、戻ってこないのかと<line-break>思ってましたー。<line-break>早く助けてくださいー。<line-break>で、お金は？<end>"}
+{"section":79,"id":"790065","japanese":"３０００ギア払う<end>"}
+{"section":79,"id":"790066","japanese":"今はムリ<end>"}
+{"section":79,"id":"790067","japanese":"きゃっ！<line-break>かなりステキな展開かも！<end>"}
+{"section":79,"id":"790068","japanese":"あんたも物好きだね。　　　　<line-break>　<line-break>　<line-break>でも、おかげで助かったよ。<line-break>これ以上、失敗を続けられたら<line-break>店の評判に関わるからね。<end>"}
+{"section":79,"id":"790069","japanese":"心配はいりません。<line-break>私、がんばりますから。　　<line-break>　<line-break>やだ、とぼけちゃって。<line-break>今日から私も仲間じゃない！<end>"}
+{"section":79,"id":"790070","japanese":"ただで助けてもらうわけには<line-break>いかないもん。<line-break>あとで恩に着せられても困るし。<line-break>魔道アカデミーでは、<line-break>名の知れた魔道士だったの。<line-break>それなりに役に立つはずよ。<end>"}
+{"section":79,"id":"790071","japanese":"あ、そうだ！<line-break>冒険の準備をしてこよっと。<line-break>まずは形から入らなきゃ。<end>"}
+{"section":79,"id":"790072","japanese":"え？<line-break>定員オーバー？　　　　　　　<line-break>　<line-break>それじゃ、私の出番になったら<line-break>呼んでね。<line-break>その猫屋敷ってところで。<end>"}
+{"section":79,"id":"790073","japanese":"やっと自由になれたっと。　　　<line-break>　<line-break>　<line-break>冒険者ってのも、さえないけど…<line-break>行く当てもないし<line-break>宿屋にいるよりはマシよね。<end>"}
+{"section":79,"id":"790074","japanese":"私、この薄汚い宿屋で<line-break>一生を終えるのね…。<end>"}
+{"section":79,"id":"790075","japanese":"ああ、自由な人がうらやましい…。<line-break>誰か、不幸な私を助けて～！<end>"}
+{"section":79,"id":"790076","japanese":"やれやれ、また始まった。<end>"}
+{"section":79,"id":"790077","japanese":"大変、大変！<line-break>みなさん起きて！<end>"}
+{"section":79,"id":"790078","japanese":"<if><value:$01><equal>2もう、なんなの？<line-break>こんな夜中に。 <end><if><value:$01><equal>3まったく…<line-break>今、何時だと思っとるんじゃ。 <end><if><value:$01><equal>5…なんだよ。俺、眠いよ。 <end><if><value:$01><equal>6こんな夜中にどうしたの？ <end><if><value:$01><equal>12おいおい、勘弁してくれよ。<line-break>今、何時だと思ってるんだ？ <end><if><value:$01><equal>13この夜中に…<line-break>騒々しい女だ。 <end><if><value:$01><equal>10うるせえな。<line-break>まだ、夜中だぜ。 <end><if><value:$01><equal>14まだ夜中じゃ。<line-break>頼むから静かに寝かせてくれんか？ <end><if><value:$01><equal>15まだ夜中だよ。<line-break>いったいなんの騒ぎ？ <end><if><value:$01><equal>17ちょっと、あなた！<line-break>非常識にもほどがあるわ。<line-break>今、何時だと思ってるのよー！ <end><if><value:$01><equal>18この夜更けに何事でござるか？ <end><if><value:$01><equal>19ふあぁぁ～あ。<line-break>何かあったのぉ？<line-break>ルルアンタ、眠いよぉ。 <end><if><value:$01><equal>20この夜中に<line-break>なんの騒ぎだ？ <end><if><value:$01><equal>7この夜中に<line-break>なんの騒ぎ？ <end><if><value:$01><equal>9この夜中に<line-break>なんの騒ぎ？ <line-break>今、何時だと思ってるのよ。 <end><if><value:$01><equal>11なんの騒ぎ？ <line-break>今、何時だと思ってるの。 <end><if><value:$01><equal>21この夜中に…<line-break>騒々しいぞ。 <end><if><value:$01><equal>23どうした、こんな時間に。<end><if><value:$01><equal>27こんな夜中に…<line-break>何があったんだ？<end><if><value:$01><equal>26こんな時間に、何の騒ぎじゃ？<end><if><value:$01><equal>24こんな時間に…<line-break>なんの騒ぎですか？<end><if><value:$01><equal>25う…うーん…。<line-break>こんな時間にどうしたの？<end><if><value:$01><equal>192急に大きな声を出して、<line-break>どうしたのでしょうか？<end><if><value:$01><equal>193…う～ん。<line-break>もう朝ですか…？<end><if><value:$01><equal>194…うるさい。<end><if><value:$01><equal>191こんな夜中になんなの。<end><if><value:$01><equal>190今何時だと思ってるんだ…。<line-break>頼むから寝かせてくれ。<end>ああ、びっくりした。<line-break>何があったの？ <end>"}
+{"section":79,"id":"790079","japanese":"アカデミーに復帰する方法を<line-break>思いついたの。<line-break>　<line-break>それはね、いにしえの精霊融合魔法<line-break>ユニオンスペルを<line-break>使えるようになることなの。<end>"}
+{"section":79,"id":"790080","japanese":"もし、この魔法が使えたら、<line-break>もう大変！　世紀の大発見！<line-break>一大ニュースって感じかな。<end>"}
+{"section":79,"id":"790081","japanese":"ちんけな冒険者なんてやってないで<line-break>ぜひとも魔道アカデミーの教授に！<line-break>　<line-break>いや、魔道研究所を開いて<line-break>この私を所長に！<line-break>いやいや、我が国のおかかえ魔道士に！<end>"}
+{"section":79,"id":"790082","japanese":"でも、いくら有名になったからって<line-break>仲間を見捨てるわけにはいかない。<line-break>だって、私を必要としているから…。<end>"}
+{"section":79,"id":"790083","japanese":"それでも世間は<line-break>私を放ってはおかないの。<line-break>ああ、いったいどうしたら…？<end>"}
+{"section":79,"id":"790084","japanese":"あ、あの、えっと…、<line-break>それで、お願いがあるんだけど。<end>"}
+{"section":79,"id":"790085","japanese":"あとちょっとのところで<line-break>どうしてもひっかかる問題があって…<line-break>　<line-break>何かヒントになりそうな情報を<line-break>仕入れたら、<line-break>私に教えてほしいの。<end>"}
+{"section":79,"id":"790086","japanese":"そうだな…。<line-break>偉大な魔法使いの話とか、<line-break>そんな感じの。<end>"}
+{"section":79,"id":"790087","japanese":"わかった<end>"}
+{"section":79,"id":"790088","japanese":"そんな都合のいい話はないだろう<end>"}
+{"section":79,"id":"790089","japanese":"さすが、<value:$28>様。<line-break>何にでも首を突っ込むタイプ。<end>"}
+{"section":79,"id":"790090","japanese":"確かに、そうなんだけど…。<line-break>ワラにもすがりたい気持ちなの。<end>"}
+{"section":79,"id":"790091","japanese":"<if><value:$01><equal>2私たち、ワラだっていうの？ <end><if><value:$01><equal>3ほう、わしらはワラかい。 <end><if><value:$01><equal>6そう。<line-break>ボクたちはワラだって言うんだね。 <end><if><value:$01><equal>13…どこまでも勝手な女だ。 <end><if><value:$01><equal>14わしらは、ワラかい！ <end><if><value:$01><equal>15僕たちがワラだって言うの？<line-break>ひどいな。 <end><if><value:$01><equal>17あ～ら、それじゃアタクシたちが<line-break>ワラだって言うの！<line-break>冗談も休み休み言ってくれる！ <end><if><value:$01><equal>18では、拙者はワラでござるか？ <end><if><value:$01><equal>19ねえ、もう寝ようよぉ。 <end><if><value:$01><equal>20どこまでも勝手な女だ。 <end><if><value:$01><equal>22ぼくたちがそのワラだってこと？ <end><if><value:$01><equal>5俺たちがワラってことかな？<end><if><value:$01><equal>7私たち、ワラだって言うの？<end><if><value:$01><equal>9ふ～ん。 <line-break>寝言は寝てから言ってね。<line-break>それじゃ、寝るから。<end><if><value:$01><equal>11…そう。<line-break>それじゃ、おやすみなさい。<end><if><value:$01><equal>21…ワラ…か。<end><if><value:$01><equal>23そうか。<line-break>私がワラだと言いたいのだな。<end><if><value:$01><equal>27ワラ…そう思っているんだね。<line-break>…そうか。<end><if><value:$01><equal>26わしらがワラだと言いたいのじゃな。<end><if><value:$01><equal>24ワラ…ですか。<line-break>そうですか。<end><if><value:$01><equal>25ワラ…ワラね…。<line-break>もう寝ようよ<end><if><value:$01><equal>192ワラにすがったところで<line-break>どうともなりませんが…。<end><if><value:$01><equal>193あの…<line-break>もう寝てもいいですか？<end><if><value:$01><equal>194…黙れ。<end><if><value:$01><equal>191あたしたちがワラ？<end><if><value:$01><equal>190もういい。寝かせてくれ。<end>俺たちゃワラかよ。 <end>"}
+{"section":79,"id":"790092","japanese":"あらやだ、もうこんな時間。<line-break>早く寝た方がいいですよ。<line-break>明日も早いんだから。<end>"}
+{"section":79,"id":"790093","japanese":"やっぱり、マノンはすごいよね。<line-break><value:$28>もそう思うなら<line-break>間違いないわね。<line-break>こうなったら、<line-break>マノンをお手本にするしかないかも。<line-break>そうすれば、新しい魔法も…。<end>"}
+{"section":79,"id":"790094","japanese":"…なるほど。<line-break>天才魔道士マノンね。　　　<line-break>　<line-break>あの魔道の塔に<line-break>そんなに偉大な魔道士が…。<end>"}
+{"section":79,"id":"790095","japanese":"ユニオンスペルの謎、<line-break>ついに、つかんじゃったかも！<end>"}
+{"section":79,"id":"790096","japanese":"そしてついに、<line-break>マノンに続く天才魔道士　<line-break>エンシャントに現る！<line-break>私の才能が世間に知れたら<line-break>大変なことになるかも。<end>"}
+{"section":79,"id":"790097","japanese":"しかも、その天才魔道士が<line-break>いたいけな少女だと知れたら！？<line-break>世間は私を放ってはおかない。<line-break>いつだって私は注目の的。<line-break>ぼんやり夜の街を眺めることさえ<line-break>許されない。<end>"}
+{"section":79,"id":"790098","japanese":"でも、耐えなくちゃ。<line-break>だって、それが宿命だもの。<line-break>恨むなら、自分の才能を恨むしかない。<line-break>さてと、急がなくちゃ。<end>"}
+{"section":79,"id":"790099","japanese":"さぁ、みなさん！<line-break>起きて起きて！<end>"}

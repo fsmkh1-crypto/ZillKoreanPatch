@@ -1,0 +1,63 @@
+{"section":162,"id":"1620089","japanese":"ノーブル伯、<line-break><value:$28>・リューガ。<end>"}
+{"section":162,"id":"1620090","japanese":"ほら、行け。<end>"}
+{"section":162,"id":"1620091","japanese":"見事であった、ノーブル伯。<end>"}
+{"section":162,"id":"1620092","japanese":"これからもよくロストールを<line-break>支えてほしい。<line-break>期待している。<end>"}
+{"section":162,"id":"1620093","japanese":"やれやれ、肩がこった。<line-break>大げさな式典だったな。<line-break>　<line-break>お互い、これから<line-break>めんどくさいことになりそうだ。<line-break>それじゃあな。<end>"}
+{"section":162,"id":"1620094","japanese":"ならば、用意をすませてから、<line-break>もう一度ここに来るがよい。<line-break>傭兵の集合場所に案内してやる。<end>"}
+{"section":162,"id":"1620095","japanese":"<value:$28>さま、<line-break>お捜しいたしておりました。<line-break>至急、王宮へ。<line-break>緊急のご用件で、<line-break>エリス王妃がお呼びです。<end>"}
+{"section":162,"id":"1620096","japanese":"すぐに馬車の用意を。<end>"}
+{"section":162,"id":"1620097","japanese":"私がお送りいたします。<line-break>急ぎましょう。<end>"}
+{"section":162,"id":"1620098","japanese":"よく来てくれたな、ノーブル伯。<line-break>火急の用件ゆえ、手短に話そう。<line-break>　<line-break>近く、ディンガルがロストール侵攻を<line-break>もくろんでいることがわかった。<line-break>ロセンの次はこの国というわけだ。<end>"}
+{"section":162,"id":"1620099","japanese":"我が軍は、ノヴィン・ファーロスを<line-break>総司令とし、迎撃軍を出す。<line-break>そなたも参戦してほしい。<line-break>配属は、<line-break>ゼネテス・ファーロス副司令の<line-break>副官だ。<end>"}
+{"section":162,"id":"1620100","japanese":"聞けばそなたは冒険者として、<line-break>活躍しているとのこと。<line-break>ゼネテスとは、気も合おう。<end>"}
+{"section":162,"id":"1620101","japanese":"ほう、知らなかったのか？　　　　　<line-break>　<line-break>　<line-break>あの者は、我が軍の総司令<line-break>我が兄ノヴィン・ファーロスの息子。<line-break>私の甥なのだ。<end>"}
+{"section":162,"id":"1620102","japanese":"ふふふ。あれでも、貴族なのだ。<line-break>信じられないだろうが。<end>"}
+{"section":162,"id":"1620103","japanese":"そなたの兄レムオン卿には、<line-break>王都守備軍を率いてもらう。<line-break>　<line-break>離ればなれでの戦になるが、<line-break>兄なしでも、そなたは、<line-break>立派に戦えよう？<end>"}
+{"section":162,"id":"1620104","japanese":"失礼する！<end>"}
+{"section":162,"id":"1620105","japanese":"おやおや、レムオン卿。<line-break>突然、何ごとか？<end>"}
+{"section":162,"id":"1620106","japanese":"我が陣営に<line-break>ノーブル伯の名がなかったので、<line-break>不審に思いまして。<line-break>しかも、エリス王妃<line-break>じきじきのお呼びがあったと<line-break>聞きましたから…。<end>"}
+{"section":162,"id":"1620107","japanese":"<if><value:$29><equal>%0不肖の我が弟のこと。<line-break>気になりましたので、<line-break>お伺いにあがったのです。<end>不肖の我が妹のこと。<line-break>気になりましたので、<line-break>お伺いにあがったのです。<end>"}
+{"section":162,"id":"1620108","japanese":"<if><value:$29><equal>%0ふふふ。<line-break>弟思いだな、レムオン卿は。<end>ふふふ。<line-break>妹思いだな、レムオン卿は。<end>"}
+{"section":162,"id":"1620109","japanese":"ノーブル伯には、<line-break>ゼネテス卿の副官をやってもらう。<end>"}
+{"section":162,"id":"1620110","japanese":"あの男の！？<line-break>理由をご説明願いたい。<end>"}
+{"section":162,"id":"1620111","japanese":"ゼネテス卿の部隊は、<line-break>傭兵を使っている。<line-break>貴族では扱いづらい部隊だ。　　<line-break>だが、冒険者でもある<line-break>ノーブル伯ならば、傭兵たちも、<line-break>たやすく受け入れよう？<end>"}
+{"section":162,"id":"1620112","japanese":"くっ…。<line-break>くだらん理屈を！<end>"}
+{"section":162,"id":"1620113","japanese":"国の有事である。<line-break>人材は、有効に使わねばな。<end>"}
+{"section":162,"id":"1620114","japanese":"では、ノーブル伯、<line-break>すぐにゼネテス卿のもとへ。<end>"}
+{"section":162,"id":"1620115","japanese":"…行け。<line-break>仕方あるまい。<line-break>功のひとつでも立ててこい！<end>"}
+{"section":162,"id":"1620116","japanese":"<value:$28>殿を<line-break>お連れしました、ゼネテス様。<end>"}
+{"section":162,"id":"1620117","japanese":"入ってくれ。<end>"}
+{"section":162,"id":"1620118","japanese":"よく来てくれたな、ノーブル伯。<line-break>歓迎するぜ。<end>"}
+{"section":162,"id":"1620119","japanese":"今まで身分を明かさなかったのは、<line-break>あやまるよ。わりぃ、わりぃ。<line-break>　<line-break>ただ、俺も自分が貴族だってこと<line-break>忘れてたんでね。<end>"}
+{"section":162,"id":"1620120","japanese":"エリス王妃に言われて、<line-break>来たんだろ？<end>"}
+{"section":162,"id":"1620121","japanese":"この部隊に配属された本当の理由、<line-break>聞いておく気はあるか？<end>"}
+{"section":162,"id":"1620122","japanese":"聞く<end>"}
+{"section":162,"id":"1620123","japanese":"聞かない<end>"}
+{"section":162,"id":"1620124","japanese":"人質だ。<end>"}
+{"section":162,"id":"1620125","japanese":"守備軍として<line-break>王都に残るレムオンが、<line-break>謀反を起こさないためのな。<end>"}
+{"section":162,"id":"1620126","japanese":"仮に、お前さんを見捨てて<line-break>謀反を起こしても、<line-break>　<line-break>血族を見捨てた奴になんざ、<line-break>誰もつかねぇからな。<line-break>レムオンもあとが続かない。<end>"}
+{"section":162,"id":"1620127","japanese":"叔母貴もえげつない方法で、<line-break>レムオンに圧力をかけるよな、<line-break>まったく。<end>"}
+{"section":162,"id":"1620128","japanese":"あそこまで仲がわりぃと<line-break>手のつけようがないね。<end>"}
+{"section":162,"id":"1620129","japanese":"いや、レムオンが本当に<line-break>謀反を起こす気があるかどうかは、<line-break>それほど問題じゃない。<line-break>要は、警告なのさ。<line-break>隙は見せないっていうな。<line-break>政治的な戦いってやつさ。<end>"}
+{"section":162,"id":"1620130","japanese":"ま、お前さんも、少しは兄貴の立場、<line-break>覚えておいてくれ。<line-break>　<line-break>ことが面倒にならないように、<line-break>見といてくれよな。<end>"}
+{"section":162,"id":"1620131","japanese":"そうか…。<line-break>ま、聞きたくないもんは、<line-break>しゃーないか。<end>"}
+{"section":162,"id":"1620132","japanese":"んじゃ、この戦いについて、<line-break>詳しいことを話しておこうか。<line-break>　<line-break>はじめに言っておくが、<line-break>この戦い、このままいけば、<line-break>確実に負ける。<end>"}
+{"section":162,"id":"1620133","japanese":"まあ、待て。ちゃんと説明するって。<line-break>長くなるが、聞くか？<end>"}
+{"section":162,"id":"1620134","japanese":"聞く<end>"}
+{"section":162,"id":"1620135","japanese":"聞かない<end>"}
+{"section":162,"id":"1620136","japanese":"まず、密偵が持ってきた情報だが、<line-break>ディンガルの首都エンシャントには、<line-break>大量の物資が運び込まれているそうだ。<line-break>それに合わせて、<line-break>大兵力も集結している。<end>"}
+{"section":162,"id":"1620137","japanese":"これだけの兵と物資を抱えて、<line-break>ディンガルとロストールを隔てている<line-break>分断の山脈を越えることはできない。<line-break>おそらく海路で来るはず…。<line-break>ロストール軍はそう判断して、<line-break>上陸時を叩く作戦に出た。<end>"}
+{"section":162,"id":"1620138","japanese":"どっちも正攻法だ。<line-break>そう間違っちゃいない。<line-break>だが、敵の将軍はアンギルダンだ。<line-break>集めている兵と物資は、陽動。<line-break>おそらく、海路と思わせて、<line-break>山越えをするつもりだ。<end>"}
+{"section":162,"id":"1620139","japanese":"海の方へロストール軍をおびき寄せ、<line-break>自らは精鋭を率い、山を越え、<line-break>街道筋を制圧して、前線を築く。<line-break>その後、現地で物資調達し、<line-break>急場の備えを整えてのち、<line-break>ゆっくりと兵と物資を運ぶ。<end>"}
+{"section":162,"id":"1620140","japanese":"こいつをやられたら厳しい。<line-break>だが、この意見を軍議にかけたら、<line-break>あっさりけられた。<line-break>まあ、無茶な奇襲作戦だからな。<line-break>あり得ないと言われたら、<line-break>それまでなんだがね。<end>"}
+{"section":162,"id":"1620141","japanese":"そうか、それもいい。<line-break>聞いたところでやることは一緒だ。<line-break>肝すわってるな。さすがだ。<line-break>ただ、この戦い、<line-break>覚悟はしておいてくれ。<line-break>いやーな予感が、してるんでな。<end>"}
+{"section":162,"id":"1620142","japanese":"俺の予測が外れてくれると<line-break>いいんだが…。<end>"}
+{"section":162,"id":"1620143","japanese":"ま、いざってときには<line-break>頼りにしてる。<line-break>よろしく頼むぜ。<end>"}
+{"section":162,"id":"1620144","japanese":"ま、いざってときには、<line-break>よろしく頼むぜ。<line-break>お互い、死にたくねぇもんな。<end>"}
+{"section":162,"id":"1620145","japanese":"しかし、ゼネテスの予測は的中した。<end>"}
+{"section":162,"id":"1620146","japanese":"ノーブル伯<value:$28>ですね。<end>"}
+{"section":162,"id":"1620147","japanese":"なるべくお早く<line-break>レムオン卿のお屋敷に　　　　　　　<line-break>お戻りください。<line-break>ディンガル帝国に動きがありまして、<line-break>近く出兵があるやもしれませぬ。<end>"}
+{"section":162,"id":"1620148","japanese":"その際には、ノーブル伯にも、<line-break>お呼びがかかります。<line-break>確か、冒険者をやっていますね。<end>"}
+{"section":162,"id":"1620149","japanese":"それならば、今引き受けている仕事に<line-break>ケリをつけておくことをお忘れなく。<line-break>　<line-break>貴族の道楽で冒険者をやっていると<line-break>思われたくはないでしょう？<end>"}
+{"section":162,"id":"1620150","japanese":"では、確かにお伝えいたしました。<line-break>くれぐれも、なるべく<line-break>お早くお戻りください。<end>"}
+{"section":162,"id":"1620151","japanese":"…千年樹に刻まれし竜綱の盟約に基づき<line-break>ロストール王セルモノー・リューは…<line-break>女人の身である汝に、特例をもって<line-break>騎士の証である盾を与え、<line-break>白竜騎士、竜字将軍に叙任する。<end>"}

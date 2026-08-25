@@ -1,0 +1,24 @@
+{"section":97,"id":"970056","japanese":"<if><value:$01><equal>2え？<line-break>町の人に会えたの？<line-break>それじゃあ… <end><if><value:$01><equal>4町の人に会うことができたの？<line-break>…もしかして、私を待たせて<line-break>その人たちと遊んでたのかも！ <end><if><value:$01><equal>5なんだって？<line-break>町の人がまだいたのか？<line-break>てことは… <end><if><value:$01><equal>6え、本当？<line-break>町の人に会えたんだ？<line-break>それじゃあ… <end><if><value:$01><equal>13町に人が残っていた？<line-break>ということは… <end><if><value:$01><equal>10え？<line-break>町の人に会えたのか？<line-break>てことは… <end><if><value:$01><equal>14なんと？<line-break>町の者に会えたのか？<line-break>ということは… <end><if><value:$01><equal>15え？<line-break>町の人に会うことができたの？<line-break>それじゃあ… <end><if><value:$01><equal>17なんですって！？<line-break>この寂れた町にまだ住んでる人間が<line-break>いたと言うの？　ということは… <end><if><value:$01><equal>19え？<line-break>町の人に会えたのぉ？<line-break>それなら… <end>え？<line-break>町の人に会えたの？<line-break>それなら… <end>"}
+{"section":97,"id":"970057","japanese":"ふぅん、そんなことがあったんだ。<line-break>…でも、たましいを吸われるって<line-break>どんなかんじなのかな？<line-break>ふわふわっとするのかな？<line-break>すーすーするのかな？<line-break>ちょっと、興味があるかも！<end>"}
+{"section":97,"id":"970058","japanese":"もう、戻るの？　ウフフフ。<line-break>今回は、ずっとお散歩してるから<line-break>楽なお仕事だったみたい！<end>"}
+{"section":97,"id":"970059","japanese":"そ、そういえば、オズワルドの町には<line-break>そうるいーたーという魔物が封印して<line-break>あるんだったわ。今思い出してよ。<line-break>このアタクシとしたことが、あなたの<line-break>頭のレベルにあわせていたから、<line-break>ド忘れしてしまっていたわ！<end>"}
+{"section":97,"id":"970060","japanese":"さぁ、<value:$28>。<line-break>このアタクシの記憶が呼び戻された　<line-break>ことによって、今回は一件落着よ！<line-break>アタクシ、こんなわびしい町には<line-break>もう、百分の一刻もいたくなくてよ！<line-break>さっさとギルドへ向けて出発よ！<end>"}
+{"section":97,"id":"970061","japanese":"<if><value:$01><equal>2…そう、そんなことがあったの。<line-break>その子、ノエルって言ったっけ？<line-break>元気になってくれるといいわね。　<line-break>さぁ、それじゃ私たちも<line-break>戻ることにしましょう。<line-break>このことをギルドに報告しないと。 <end><if><value:$01><equal>5そんなことがあったのかよ。<line-break>…そいつ、ノエルって言ったっけ？<line-break>立ち直れるといいけどな。<line-break>さぁ、それじゃ俺たちも<line-break>戻ることにしようぜ。ギルドに<line-break>報告に行かなきゃならないだろ？ <end><if><value:$01><equal>6…そう、そんなことがあったんだ。<line-break>その子、ノエルって言ったっけ？<line-break>元気になってくれるといいね…。<line-break>さぁ、それじゃボクたちも<line-break>戻ることにしようか。<line-break>このことをギルドに報告しないと。 <end><if><value:$01><equal>13…そうか。<line-break>そういうことだったか。<line-break>　<line-break>依頼は達成したな。<line-break>ギルドに戻って<line-break>報告だ。 <end><if><value:$01><equal>10…そんなことがあったのかよ。<line-break>その子、ノエルって言ったっけ？<line-break>立ち直れるといいけどな…。<line-break>さ、それじゃ俺たちも<line-break>戻ることにしようぜ。ギルドに<line-break>報告に行かなきゃならないだろ？ <end><if><value:$01><equal>14…そうか、そんなことがのう。　<line-break>その娘、ノエルと言ったか、<line-break>元気になるといいがのう。<line-break>さて、わしらもそろそろ<line-break>戻るとするか。<line-break>ギルドに報告しなけらばならん。 <end><if><value:$01><equal>15…そう、そんなことがあったんだ。<line-break>その子、ノエルって言ったっけ？<line-break>元気になってくれればいいけどね…。<line-break>さぁ、それじゃ僕たちも<line-break>戻ることにしようか。<line-break>このことをギルドに報告しないと。 <end><if><value:$01><equal>19…そう、そんなことがあったんだぁ。<line-break>そのノエルって女の子、元気になって<line-break>くれるといいけどね…。<line-break>さぁ、それじゃルルアンタたちも<line-break>このことをギルドに報告しないと。<line-break>行こう、<value:$28>。 <end>…そう、そんなことがあったんだ。<line-break>悲しいことだね。そのノエルって子、<line-break>元気になってくれるといいけどね…。<line-break>さぁ、それじゃ僕たちも<line-break>このことをギルドに報告しないと。<line-break>行こう、<value:$28>。 <end>"}
+{"section":97,"id":"970062","japanese":"俺は信じない…信じないぞ…。<end>"}
+{"section":97,"id":"970063","japanese":"やぁ、<value:$28>。<line-break>どうだい、オズワルドの調査の方は　　<line-break>終わったのかい？<end>"}
+{"section":97,"id":"970064","japanese":"そうか。それじゃあ、<line-break>さっそく報告してくれ。　　　　　　　<line-break><end>"}
+{"section":97,"id":"970065","japanese":"え？　遺跡に封印されていた<line-break>ソウルイーターっていう魔物が復活して<line-break>住民は魂を吸われてしまっただって？<end>"}
+{"section":97,"id":"970066","japanese":"…そりゃ、えらいことだな。<line-break>で、その話は、確かなんだろうな？　　<line-break>　<end>"}
+{"section":97,"id":"970067","japanese":"…なるほど。冒険者に助けられた　　　<line-break>村の住民の生き残りから<line-break>話を聞いたってわけか。<line-break>…わかった。<line-break>ご苦労だったな、<value:$28>。<line-break>これが報酬の２０００ギアだ。<end>"}
+{"section":97,"id":"970068","japanese":"それじゃ、仕事が必要なら<line-break>また、来てくれよ。<end>"}
+{"section":97,"id":"970069","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその１です。<end>"}
+{"section":97,"id":"970070","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその２です。<end>"}
+{"section":97,"id":"970071","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその３です。<end>"}
+{"section":97,"id":"970072","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその４です。<end>"}
+{"section":97,"id":"970073","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその５です。<end>"}
+{"section":97,"id":"970074","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその６です。<end>"}
+{"section":97,"id":"970075","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその７です。<end>"}
+{"section":97,"id":"970076","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその８です。<end>"}
+{"section":97,"id":"970077","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその９です。<end>"}
+{"section":97,"id":"970078","japanese":"あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその１０です。<end>"}
+{"section":97,"id":"970079","japanese":"ノエル用メッセージＶ１終端<end>"}

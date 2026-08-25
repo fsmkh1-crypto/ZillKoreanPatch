@@ -1,0 +1,41 @@
+{"section":134,"id":"1340567","japanese":"（…生命のかけらが手元にない…<line-break>　どうにかして手にいれなければ…）<end>"}
+{"section":134,"id":"1340568","japanese":"あの…<value:$28>様？<end>"}
+{"section":134,"id":"1340569","japanese":"あ、<value:$28>様、<line-break>ようこそ、いらっしゃいました。<end>"}
+{"section":134,"id":"1340570","japanese":"救世主エルファス様も<line-break>復興にはひとかたならぬ<line-break>お力をお貸しくださっています。<line-break>エルファス様は、ロストールだけでなく<line-break>世界中の都市で復興のため働いて、<line-break>神のようにあがめられているのです。<end>"}
+{"section":134,"id":"1340571","japanese":"私の心配は杞憂だったのでしょうか？<line-break>それに…<line-break>　<line-break><value:$28>様の<line-break>お力だって大きいのに…。<line-break>私、少し不満です。<end>"}
+{"section":134,"id":"1340572","japanese":"これは、<value:$28>様、<line-break>お帰りなさいませ。<end>"}
+{"section":134,"id":"1340573","japanese":"ロストールは少しずつ復興し、<line-break>身分の上下の関係なく、<line-break>それを喜んでおります。<line-break>やはり、レムオン様にも、<line-break>この場にいていただきたかった…<end>"}
+{"section":134,"id":"1340574","japanese":"『力・英知・博愛心、<line-break>　すべてを備えしものに、<line-break>　我が遺品ストラスエッジを与えよ』<end>"}
+{"section":134,"id":"1340575","japanese":"ハッ！<end>"}
+{"section":134,"id":"1340576","japanese":"聞いちゃダメゴブ！<line-break>別にフゴーの宝物がほしくて<line-break>復興に手を貸しているんじゃないゴブ！<end>"}
+{"section":134,"id":"1340577","japanese":"むむむっ…<end>"}
+{"section":134,"id":"1340578","japanese":"ハッ！<end>"}
+{"section":134,"id":"1340579","japanese":"別にフゴーの宝物がほしくて<line-break>復興に手を貸しているんじゃないゴブ！<line-break>　<line-break>だから、先を越された…とか、<line-break>全然思ってないゴブ！<end>"}
+{"section":134,"id":"1340580","japanese":"<select><value:$20>%3団長はエライでゴブ。<line-break>ロストールの人たちのために<line-break>ガンバル姿には感動するゴブ！<end>こうやって、みんなでみんなで<line-break>しやあせになるゴブ！<end>自分たちゴブゴブ団も<line-break>一生懸命働いているから<line-break>復興団も、１００人力ゴブ！<end>"}
+{"section":134,"id":"1340581","japanese":"<select><value:$20>%3腹減ったゴブ。<end>なんか食いたいゴブ。<end>ガント親分、腹黒いゴブ。<end>"}
+{"section":134,"id":"1340582","japanese":"あ、<value:$28>様、<line-break>ようこそ、いらっしゃいました。<end>"}
+{"section":134,"id":"1340583","japanese":"えっ？<line-break>私がここにいるのが不思議ですか？<end>"}
+{"section":134,"id":"1340584","japanese":"はい。<line-break>私は確かに王位を受け継ぎました。<end>"}
+{"section":134,"id":"1340585","japanese":"でも、今、<line-break>この国に必要なのは、<line-break>玉座に座って指図する人ではなく、<line-break>みなさんと一緒に歩んでいける人だと<line-break>思うのです。<end>"}
+{"section":134,"id":"1340586","japanese":"…ありがとうございます。<line-break>これからも、みなさんと一緒に<line-break>がんばっていこうと思います。<end>"}
+{"section":134,"id":"1340587","japanese":"あ、それから…<line-break> <line-break> <line-break>ガントさんに<line-break>冒険者さんにお仕事をお願いしたときは<line-break>報酬を払うと教わりました。<end>"}
+{"section":134,"id":"1340588","japanese":"王家に伝わる宝物の１つです。<line-break>闇の力から守ってくれるそうです。<end>"}
+{"section":134,"id":"1340589","japanese":"これからも、みなさんと一緒に<line-break>がんばっていこうと思います。<end>"}
+{"section":134,"id":"1340590","japanese":"待ちくたびれたぞ！<line-break>我が宿敵、永遠のライバルよ！<end>"}
+{"section":134,"id":"1340591","japanese":"<if><value:$01><equal>3なんじゃ、お主は？<line-break>今はそれどころではない！<line-break>どけ。<end><if><value:$01><equal>4きゃっ！<line-break>また、この人！<line-break>かなりおジャマかも！<end><if><value:$01><equal>5おおお！<line-break>テンション高いぜ！<line-break>ソウルが燃えるぜ！<end><if><value:$01><equal>6…ガルドラン！？<end><if><value:$01><equal>13…貴様と遊んでいるヒマはない。<end><if><value:$01><equal>14道を開けるんじゃ！<line-break>おのれと遊んどるヒマなど<line-break>ないわい！<end><if><value:$01><equal>15ガルドラン！<line-break>ジャマしないで。<line-break>今はそれどころじゃないんだ。<end><if><value:$01><equal>17キャー、なによ！　この下等生物！<line-break>高貴なエルフであるこのアタクシの<line-break>ジャマするなんて１００年早くてよぉ！<end><if><value:$01><equal>19ああーっ！　また変なおじさーん！<line-break>ルルアンタたち、急いでるの！<line-break>ジャマしないでよぉ！<end><if><value:$01><equal>20…消えろ。<end><if><value:$01><equal>26なんじゃ、なんじゃ？<line-break>この熱い…というより<line-break>暑苦しいソウルの持ち主は？<end><if><value:$01><equal>11…みっともない男。<end><if><value:$01><equal>27彼はいったい…？<line-break>これも世界の不安を象徴する<line-break>社会のひずみの現れなのだろうか？<end><if><value:$01><equal>192………………。<line-break><line-break><line-break>…暑苦しい。<end><if><value:$01><equal>194うっ。<line-break>…目障りだ。<end><if><value:$01><equal>191…仮装行列ならどいて。<line-break>エリス様が死んだ日にふさわしくない。<end><if><value:$01><equal>190…ガキ、どけよ。<line-break>俺は最高に機嫌が悪いんだ。<end>そこをどいてよ。<line-break>急いでるんだよ。<line-break>ジャマしないでよぉ。<end>"}
+{"section":134,"id":"1340592","japanese":"さあ、未来の勇者の世界観を<line-break>目をつぶって思う存分<line-break>想像するがいい！<end>"}
+{"section":134,"id":"1340593","japanese":"俺様の世界は一面の花畑。<line-break>そこにほほえむフェルムちゃんがいる。<line-break>そして、その横に…！<end>"}
+{"section":134,"id":"1340594","japanese":"邪悪な笑みを浮かべる悪の使者、<line-break>貴様がいる！<end>"}
+{"section":134,"id":"1340595","japanese":"…悲しいが、それが現実だ。<line-break>　<line-break>　<line-break>フェルムちゃんは、<line-break>このいかがわしい悪魔と<line-break>りりしい俺様の間で迷っている！<end>"}
+{"section":134,"id":"1340596","japanese":"小さなハートを痛めている！<end>"}
+{"section":134,"id":"1340597","japanese":"だから、ここで決着をつける！<line-break>悪魔が勝つか！　正義の味方が勝つか！<line-break>フェルムちゃんをかけた決闘だ！<end>"}
+{"section":134,"id":"1340598","japanese":"今、俺様の英雄伝説は<line-break>２４回目のクライマックスに突入する！<line-break>さぁ、勝負だ！<end>"}
+{"section":134,"id":"1340599","japanese":"今はそれどころじゃない！<end>"}
+{"section":134,"id":"1340600","japanese":"フェルムは渡さない！<end>"}
+{"section":134,"id":"1340601","japanese":"ぬわにいっ！？<line-break>フェルムちゃんの幸せが<line-break>かかっているんだぞ！<line-break>フェルムちゃんの幸せより大事なものが<line-break>この世界にあるというのか！<line-break>貴様、それでも俺様のライバルか！<end>"}
+{"section":134,"id":"1340602","japanese":"よーし、わかった。つまり貴様は<line-break>俺様に恐れをなして戦意喪失。<line-break>俺様の完全勝利ということだな。<line-break>ならばもう貴様ごときに用はない！<line-break>早くフェルムちゃんに報告して<line-break>勝利の熱い抱擁を交わさなければ！<end>"}
+{"section":134,"id":"1340603","japanese":"<if><value:$01><equal>3………………。<line-break>…ほれた女ならば、<line-break>悔いのないようにするがよかろう。<end><if><value:$01><equal>4うふふ、<value:$28>も<line-break>ガルドランの同類かも！<line-break>暑苦しい男同士の戦い…帰りたいな。<end><if><value:$01><equal>5へっ、そうだよな。<line-break>売られたケンカは買わねえとな！<end><if><value:$01><equal>6…<value:$28>。<line-break>そんなに、フェルムちゃんが<line-break>大事なんだね…。<end><if><value:$01><equal>13…クッ、女か。<line-break>つまらんことで…。<end><if><value:$01><equal>14この非常時に、<line-break>何をやっとるんじゃ！<end><if><value:$01><equal>15…そうだね。<line-break>フェルムちゃんて娘が大切なら、<line-break>戦わないといけないよ。<end><if><value:$01><equal>17な、な、なによ！　信じられないわぁ！<line-break>なんで、そんな下等生物の女のために<line-break>なんで、そんなことまでするのよぉお！<end><if><value:$01><equal>20戦うか…。<end><if><value:$01><equal>19…もう、どうでもいいけど<line-break>２人ともフェルムさんの<line-break>気持ちはちゃんと確かめたの？<end><if><value:$01><equal>27…まさか、<value:$28><line-break>お前まで？<end><if><value:$01><equal>26<value:$28>もまた<line-break>若いのう。<end><if><value:$01><equal>11…つきあいがいいのね。<end><if><value:$01><equal>192<value:$28>は<line-break>フェルムのことが大切なのですね。<end><if><value:$01><equal>193<value:$28>さん…。<end><if><value:$01><equal>194うう…。<line-break>まだ…あいつの暑苦しい顔を<line-break>見ていないといけないのか…。<end><if><value:$01><equal>191…いいわ。<line-break>このゴミを<line-break>さっさと処分しましょ。<end><if><value:$01><equal>190…わかった。<line-break>一瞬でぶちのめすぞ。<line-break>時間が惜しい。<end>…そうだね。<line-break>何が大事かなんて<line-break>人によって違うんだよ。<line-break><value:$28>、<line-break>フェルムちゃんて娘が大切なら、<line-break>戦わないといけないよ。<end>"}
+{"section":134,"id":"1340604","japanese":"…俺様の負けだ。<line-break>未来の勇者から<line-break>歌を送るぜ…、くくぅっ…！<end>"}
+{"section":134,"id":"1340605","japanese":"♪英雄街道をひた走る～<line-break>♪ちょっといなせな俺様に～<line-break>♪痛いぜ～、運命の裏切りの刃～<end>"}
+{"section":134,"id":"1340606","japanese":"♪運命の女神さえ嫉妬する～<line-break>♪俺様とフェルムちゃんの純愛を～<line-break>♪壊したのはキ・サ・マ～！<line-break>♪そう、貴様は２人を引き裂くオニ～！<line-break>♪ヒ・ド・イ・奴～！　オニ～！<line-break>…フェルムちゃん、ゴメンね。 <end>"}
+{"section":134,"id":"1340607","japanese":"うう…、フェルムちゃんを<line-break>幸せに…してやって…くれ…<line-break>…俺様には、孤独が似合う…<end>"}

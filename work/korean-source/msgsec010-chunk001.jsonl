@@ -10,10 +10,3 @@
 {"section":10,"id":"100009","japanese":"<select><value:$33>貴様のくる所ではない。帰れ。<end>他の国は知らないがアキュリュースは平和な<line-break>もんだよ。ミズチがいる限り他国も攻めて<line-break>きやしないから、警備の仕事は暇なんだ。<end>勇者ネメアがディンガルの皇帝になったのは　　<line-break>知っていても、その部下で朱雀将軍に任命された<line-break>アンギルダンって爺さんが魔王バロルの時代に<line-break>ここの傭兵隊長をしていたなんてことは<line-break>知らないだろう。ま、俺も隊長に教えて<line-break>もらうまで知らなかったんだけどね。<end>東方諸国の盟主ロセンがディンガルに<line-break>滅ぼされたそうだな。あの国は国王のペウダが<line-break>愚王と呼ばれるぐらいひどい国だったからな。<line-break>国民は案外、ディンガルの占領を喜んでいたり<line-break>するんじゃないか。ま、このことでディンガル<line-break>にとって東方の脅威はなくなったわけだ。<end>我々の仕事は、この地に住む人々を守ることだ。<line-break>そのためには日々の鍛錬を忘れてはならない。<line-break>それは冒険者も同じだよな？<end>ミズチがいなくなれば抵抗はできないよ。<line-break>ディンガル帝国の軍事力は強大だからね。<line-break>君もそう思うだろ？<end>ミズチがいなくなって自由に船が<line-break>行き来できるようになったんだ。<line-break>おかげで不法侵入者の監視がたいへんだよ。<end>結局、ネメアの世界征服は何だったのかな？<line-break>いらぬ混乱を招いただけだと思うけど。<end>"}
 {"section":10,"id":"100010","japanese":"<select><value:$20>%3湖の中ほどに島が見えるだろ？<line-break>あれが水の都アキュリュースだよ。<end>地の精霊神グラジェオンが、妹である水の精霊神<line-break>アキュリュースのために大地を踏みしめてできた<line-break>のが、グラジェオンの足跡とよばれるこの湖さ。<end>アキュリュースは湖の真ん中にある島のことさ。<line-break>当然船に乗らなくちゃいけないぞ。<line-break>船の乗り方は知っているかい？<line-break>あそこのボルダンに話しかければ<line-break>タダでアキュリュースへ運んでもらえるよ。<end>"}
 {"section":10,"id":"100011","japanese":"<if><value:$2A><less-equal>%49ロストールにはゼネテスっていう<line-break>腕利きの冒険者がいるんだ。<line-break>会ったことあるかい？<end><if><value:$2A><less-equal>%120君は傭兵をしたことがあるかい？<line-break>もしないなら一度やっておくといい。<line-break>何事も経験だから。<end>君は<value:$28>だろ？<line-break>思ったより若いんでびっくりしたよ。<line-break>たいした腕前なんだってね。<end>"}
-{"section":10,"id":"100012","japanese":"アキュリュースを出るんだな。<line-break>じゃ、船に乗らなきゃいかんぞ。<line-break>金はとらんが準備はできているんだろうな。<end>"}
-{"section":10,"id":"100013","japanese":"ここから船に乗ってアキュリュースへ行くのだ。<line-break>船代はいらないから気軽に乗るといい。<line-break>船に乗る準備はできているのか？<end>"}
-{"section":10,"id":"100014","japanese":"アキュリュースを出る<end>"}
-{"section":10,"id":"100015","japanese":"まだ、準備ができてない<end>"}
-{"section":10,"id":"100016","japanese":"アキュリュースへ行く<end>"}
-{"section":10,"id":"100017","japanese":"まだ、準備ができていない<end>"}
-{"section":10,"id":"100018","japanese":"アキュリュースメッセージここまで<end>"}
