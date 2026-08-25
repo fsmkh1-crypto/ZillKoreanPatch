@@ -7,8 +7,10 @@ only section/id/Japanese source. A progress JSON file can be written alongside i
 
 By default untranslated rows are ordered by encoded JSONL size (shortest first).
 This keeps packet fetches dense for LLM translation while preserving deterministic
-selection, exact IDs, and fully resumable imports. Use --order canonical to restore
-strict source order when needed for debugging/review.
+selection, exact IDs, and fully resumable imports. Canonical rows whose Japanese
+source is the empty string are not translatable under the non-empty Korean overlay
+contract, so they are counted separately as blank/skipped and never emitted.
+Use --order canonical to restore strict source order when needed for debugging/review.
 """
 from __future__ import annotations
 
@@ -101,7 +103,11 @@ def main() -> None:
     if orphaned:
         raise SystemExit(f"Korean overlays contain {len(orphaned)} non-canonical ids; first={orphaned[0]}")
 
-    untranslated = [row for row in canonical if (row[0], row[1]) not in translated]
+    blank_keys = {(s, rid) for s, rid, ja in canonical if ja == ""}
+    untranslated = [
+        row for row in canonical
+        if (row[0], row[1]) not in translated and row[2] != ""
+    ]
     if args.order == "shortest":
         untranslated.sort(
             key=lambda row: (
@@ -134,12 +140,17 @@ def main() -> None:
         print(payload, end="")
 
     total = len(canonical)
-    done = len(translated)
+    blank = len(blank_keys)
+    translated_nonblank = len(translated - blank_keys)
+    done_effective = translated_nonblank + blank
+    remaining_effective = total - done_effective
     progress = {
         "records_total": total,
-        "records_done": done,
-        "records_remaining": total - done,
-        "percent_done": round(done * 100.0 / total, 4) if total else 100.0,
+        "records_translated": translated_nonblank,
+        "records_blank_skipped": blank,
+        "records_done_effective": done_effective,
+        "records_remaining": remaining_effective,
+        "percent_done": round(done_effective * 100.0 / total, 4) if total else 100.0,
         "packet_order": args.order,
         "packet_records": len(packet),
         "packet_bytes": packet_bytes,
