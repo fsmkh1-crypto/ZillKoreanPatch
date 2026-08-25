@@ -10,6 +10,7 @@ on:
       - 'translations/messages/**'
       - 'tools/korean/next-packet.py'
       - 'tools/korean/auto-trivial.py'
+      - 'tools/korean/migrate-semantic-linebreaks.py'
       - '.github/workflows/korean-next-packet.yml'
 
 permissions:
@@ -27,6 +28,17 @@ jobs:
         with:
           ref: translation/section001-batch2
           fetch-depth: 0
+      - name: Migrate legacy semantic line breaks
+        run: |
+          python3 tools/korean/migrate-semantic-linebreaks.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          if ! git diff --cached --quiet; then
+            git commit -m 'Separate Korean semantic text from legacy line breaks'
+            git pull --rebase origin translation/section001-batch2
+            git push origin HEAD:translation/section001-batch2
+          fi
       - name: Generate candidate packet
         run: |
           rm -rf /tmp/korean-packet
