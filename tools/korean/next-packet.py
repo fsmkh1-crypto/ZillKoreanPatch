@@ -10,21 +10,28 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+import re
 import tomllib
 
 ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
+SECTION_RE = re.compile(r"^msgsec(\d{3})")
+
+
+def section_from_path(path: Path) -> int:
+    match = SECTION_RE.match(path.stem)
+    if not match:
+        raise SystemExit(f"cannot infer section from Korean overlay filename: {path}")
+    return int(match.group(1))
 
 
 def load_translated() -> set[tuple[int, str]]:
     translated: set[tuple[int, str]] = set()
     owners: dict[tuple[int, str], Path] = {}
     for path in sorted(KOREAN.glob("msgsec*.toml")):
-        stem = path.stem
-        # Accept msgsec006.toml and msgsec003-part05.toml alike.
-        prefix = stem.split("-", 1)[0]
-        section = int(prefix.removeprefix("msgsec"))
+        # Accept msgsec006.toml, msgsec003-part05.toml, and legacy msgsec001b.toml.
+        section = section_from_path(path)
         with path.open("rb") as f:
             data = tomllib.load(f)
         for rid, rec in data.items():
@@ -65,6 +72,11 @@ def main() -> None:
 
     translated = load_translated()
     canonical = canonical_rows()
+    canonical_keys = {(s, rid) for s, rid, _ in canonical}
+    orphaned = sorted(translated - canonical_keys)
+    if orphaned:
+        raise SystemExit(f"Korean overlays contain {len(orphaned)} non-canonical ids; first={orphaned[0]}")
+
     packet: list[str] = []
     packet_bytes = 0
     first: tuple[int, str] | None = None
@@ -96,11 +108,6 @@ def main() -> None:
 
     total = len(canonical)
     done = len(translated)
-    # A translated ID not present in canonical indicates repository drift.
-    canonical_keys = {(s, rid) for s, rid, _ in canonical}
-    orphaned = sorted(translated - canonical_keys)
-    if orphaned:
-        raise SystemExit(f"Korean overlays contain {len(orphaned)} non-canonical ids; first={orphaned[0]}")
     progress = {
         "records_total": total,
         "records_done": done,
