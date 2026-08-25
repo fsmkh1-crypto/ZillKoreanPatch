@@ -10,6 +10,7 @@ import (
 	"regexp"
 	"sort"
 	"strconv"
+	"strings"
 	"unicode"
 
 	"github.com/pelletier/go-toml/v2"
@@ -141,7 +142,7 @@ func (project *KoreanProject) WithKorean(source *Project, id int, korean string)
 	if !ok {
 		return nil, fmt.Errorf("Korean translation update: ID %d does not exist", id)
 	}
-	if err := validateKoreanText("Korean translation update", id, "korean", korean); err != nil {
+	if err := validateKoreanSemanticText("Korean translation update", id, korean); err != nil {
 		return nil, err
 	}
 	if err := validateKoreanControls("Korean translation update", id, item.Translation.Japanese, korean, "korean"); err != nil {
@@ -244,7 +245,7 @@ func readKoreanFile(path string, section int, source *Project) ([]KoreanEntry, e
 		if *value.Japanese != item.Translation.Japanese {
 			return nil, fmt.Errorf("%s: ID %d: Japanese reference differs from canonical source", path, id)
 		}
-		if err := validateKoreanText(path, id, "korean", *value.Korean); err != nil {
+		if err := validateKoreanSemanticText(path, id, *value.Korean); err != nil {
 			return nil, err
 		}
 		if err := validateKoreanControls(path, id, *value.Japanese, *value.Korean, "korean"); err != nil {
@@ -286,6 +287,16 @@ func renderKoreanFile(rows []KoreanEntry) []byte {
 		}
 	}
 	return output.Bytes()
+}
+
+func validateKoreanSemanticText(path string, id int, text string) error {
+	if err := validateKoreanText(path, id, "korean", text); err != nil {
+		return err
+	}
+	if strings.Contains(text, "<line-break>") {
+		return fmt.Errorf("%s: ID %d: korean semantic text contains <line-break>; wrapping belongs in layout", path, id)
+	}
+	return nil
 }
 
 func validateKoreanText(path string, id int, field, text string) error {
