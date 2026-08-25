@@ -10,7 +10,6 @@ import (
 	"regexp"
 	"sort"
 	"strconv"
-	"strings"
 	"unicode"
 
 	"github.com/pelletier/go-toml/v2"
@@ -87,4 +86,4 @@ func readKoreanFile(path string,section int,source *Project)([]KoreanEntry,error
 
 func renderKoreanFile(rows []KoreanEntry)[]byte{var output bytes.Buffer;output.WriteString(koreanLicenseLine);output.WriteByte('\n');for _,row:=range rows{fmt.Fprintf(&output,"\n[%q]\n",strconv.Itoa(row.ID));fmt.Fprintf(&output,"japanese = %s\n",strconv.Quote(row.Japanese));fmt.Fprintf(&output,"korean = %s\n",strconv.Quote(row.Korean))};return output.Bytes()}
 func validateKoreanText(path string,id int,text string)error{if text==""{return fmt.Errorf("%s: ID %d: korean must be nonempty",path,id)};for _,c:=range text{if unicode.IsControl(c){return fmt.Errorf("%s: ID %d: korean contains a raw Unicode control character",path,id)}};return nil}
-func validateKoreanControls(path string,id int,japanese,korean string)error{want:=koreanControlToken.FindAllString(japanese,-1);got:=koreanControlToken.FindAllString(korean,-1);if len(want)!=len(got){return fmt.Errorf("%s: ID %d: Korean control token sequence differs from Japanese source: got %v, want %v",path,id,got,want)};for i:=range want{if want[i]!=got[i]{return fmt.Errorf("%s: ID %d: Korean control token sequence differs from Japanese source at token %d: got %q, want %q",path,id,i,got[i],want[i])}};return nil}
+func validateKoreanControls(path string,id int,japanese,korean string)error{want:=koreanControlToken.FindAllString(japanese,-1);got:=koreanControlToken.FindAllString(korean,-1);if len(want)!=len(got){return fmt.Errorf("%s: ID %d: Korean control token sequence differs from Japanese source: got %v, want %v",path,id,got,want)};for i:=range want{if want[i]!=got[i]{return fmt.Errorf("%s: ID %d: Korean control token sequence differs from Japanese source at token %d: got %q, want %q",path,id,i,got[i],want[i]}};return nil}
