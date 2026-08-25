@@ -73,6 +73,40 @@ func TestParseSectionRejectsRawControls(t *testing.T) {
 	}
 }
 
+func TestParseSectionEnforcesFixedControlContract(t *testing.T) {
+	source := "<value:$15>よ<line-break>答えよ<end>"
+	accepted := []byte(licenseLine + `
+
+["10010"]
+japanese = "<value:$15>よ<line-break>答えよ<end>"
+korean = "<value:$15>여 답하라<end>"
+layout = "<value:$15>여<line-break>답하라<end>"
+`)
+	if _, err := parseSection(accepted, "msgsec001.toml", 1, map[int]string{10010: source}); err != nil {
+		t.Fatalf("valid control contract rejected: %v", err)
+	}
+
+	changedValue := []byte(licenseLine + `
+
+["10010"]
+japanese = "<value:$15>よ<line-break>答えよ<end>"
+korean = "<value:$16>여 답하라<end>"
+`)
+	if _, err := parseSection(changedValue, "msgsec001.toml", 1, map[int]string{10010: source}); err == nil || !strings.Contains(err.Error(), "changes fixed control sequence") {
+		t.Fatalf("got %v, want changed-value rejection", err)
+	}
+
+	missingEnd := []byte(licenseLine + `
+
+["10010"]
+japanese = "<value:$15>よ<line-break>答えよ<end>"
+korean = "<value:$15>여 답하라"
+`)
+	if _, err := parseSection(missingEnd, "msgsec001.toml", 1, map[int]string{10010: source}); err == nil || !strings.Contains(err.Error(), "changes fixed control sequence") {
+		t.Fatalf("got %v, want missing-end rejection", err)
+	}
+}
+
 func TestSectionFromNameIsStrict(t *testing.T) {
 	for _, name := range []string{"msgsec001.toml", "msgsec278.toml"} {
 		if _, ok := sectionFromName(name); !ok {
