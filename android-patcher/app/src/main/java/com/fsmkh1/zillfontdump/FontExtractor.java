@@ -43,7 +43,7 @@ final class FontExtractor {
         final String bindataArchive;
         final Iso9660.Entry startupMessageArc;
         final PaaIndex.Member startupMessage;
-        final int startupRecordOffset;
+        final StartupMessage.Record startupRecord;
 
         Inspection(String discId, String version, long isoSize,
                    Iso9660.Entry boot, Iso9660.Entry eboot,
@@ -51,7 +51,7 @@ final class FontExtractor {
                    PaaIndex.Member zillfont, PaaIndex.Member jillbtn,
                    Iso9660.Entry bindataArc, PaaIndex.Member bindata, String bindataArchive,
                    Iso9660.Entry startupMessageArc, PaaIndex.Member startupMessage,
-                   int startupRecordOffset) {
+                   StartupMessage.Record startupRecord) {
             this.discId = discId;
             this.version = version;
             this.isoSize = isoSize;
@@ -66,7 +66,7 @@ final class FontExtractor {
             this.bindataArchive = bindataArchive;
             this.startupMessageArc = startupMessageArc;
             this.startupMessage = startupMessage;
-            this.startupRecordOffset = startupRecordOffset;
+            this.startupRecord = startupRecord;
         }
 
         // Compatibility constructor used by isolated tests that do not exercise
@@ -75,7 +75,7 @@ final class FontExtractor {
                    Iso9660.Entry paBin, Iso9660.Entry paArc,
                    PaaIndex.Member zillfont, PaaIndex.Member jillbtn) {
             this(discId, version, isoSize, null, null, paBin, paArc,
-                    zillfont, jillbtn, null, null, "", null, null, 0);
+                    zillfont, jillbtn, null, null, "", null, null, null);
         }
     }
 
@@ -171,7 +171,7 @@ final class FontExtractor {
 
         return new Inspection(discId, version, channel.size(), boot, eboot, paBin, paArc,
                 zillfont, jillbtn, bindata.arc, bindata.member, bindata.archive,
-                startupMessage.arc, startupMessage.member, startupRecord.offset);
+                startupMessage.arc, startupMessage.member, startupRecord);
     }
 
     static void export(FileChannel channel, Inspection inspection, OutputStream output,
