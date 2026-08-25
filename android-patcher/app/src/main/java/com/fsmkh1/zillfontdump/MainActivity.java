@@ -42,12 +42,12 @@ public final class MainActivity extends Activity {
         root.setPadding(pad, pad, pad, pad);
 
         TextView title = new TextView(this);
-        title.setText("Zill Infinite Plus – Korean Patch Audit");
+        title.setText("Zill Infinite Plus – Korean Patch PoC");
         title.setTextSize(22);
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\nISO 선택 후 폰트 + EBOOT + bindata 감사 자료 ZIP을 먼저 저장합니다.\n이 ZIP만 전달하면 재사용 가능한 한글 renderer slot 후보를 좁힐 수 있습니다.\n기존 8글자 smoke ISO 생성 기능도 아래 버튼으로 남겨둡니다.");
+        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\nISO 선택 시 BOOT/EBOOT/폰트/bindata와 시작 대사 원문을 다시 검증합니다.\n감사 ZIP 추출과 별도로, 아래 버튼에서 첫 실제 한글 문장 PoC ISO를 만들 수 있습니다.\n신규 게임 첫 화면의 3줄이 ‘테스트 성공’으로 나오면 custom renderer key + message remap 경로가 실기에서 성공한 것입니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -61,7 +61,7 @@ public final class MainActivity extends Activity {
         root.addView(chooseButton, buttonParams);
 
         patchButton = new Button(this);
-        patchButton.setText("기존 8글자 smoke ISO 만들기");
+        patchButton.setText("첫 한글 문장 PoC ISO 만들기");
         patchButton.setEnabled(false);
         patchButton.setOnClickListener(v -> choosePatchedIsoDestination());
         LinearLayout.LayoutParams patchParams = new LinearLayout.LayoutParams(-1, -2);
@@ -101,7 +101,7 @@ public final class MainActivity extends Activity {
 
     private void inspectSelectedIso() {
         inspection = null;
-        setBusy(true, "원본 ISO, EBOOT, 폰트, bindata 해시 확인 중…");
+        setBusy(true, "원본 ISO와 PoC 대상 리소스를 검증 중…");
         Uri uri = sourceUri;
         worker.execute(() -> {
             try (ParcelFileDescriptor pfd = getContentResolver().openFileDescriptor(uri, "r");
@@ -111,7 +111,7 @@ public final class MainActivity extends Activity {
                 FontExtractor.Inspection checked = FontExtractor.inspect(channel);
                 inspection = checked;
                 runOnUiThread(() -> {
-                    setBusy(false, "원본 검증 완료. 감사 자료 ZIP 저장 위치를 선택하세요.");
+                    setBusy(false, "원본 및 시작 대사 검증 완료. 감사 ZIP 저장 위치를 선택하세요.");
                     Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
                     out.addCategory(Intent.CATEGORY_OPENABLE);
                     out.setType("application/zip");
@@ -155,7 +155,7 @@ public final class MainActivity extends Activity {
                 out.flush();
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "감사 ZIP 추출 완료. 이 ZIP만 GPT에 전달하면 됩니다. 원본 ISO는 변경되지 않았습니다."));
+                        "감사 ZIP 추출 완료. 원본 ISO는 변경되지 않았습니다. 아래 PoC 버튼도 사용할 수 있습니다."));
             } catch (Exception e) {
                 final String error = message(e);
                 runOnUiThread(() -> setBusy(false, "감사 자료 추출 실패: " + error));
@@ -173,7 +173,7 @@ public final class MainActivity extends Activity {
         Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
         out.addCategory(Intent.CATEGORY_OPENABLE);
         out.setType("application/octet-stream");
-        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_8Glyph_Smoke.iso");
+        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_FirstSentence_PoC.iso");
         startActivityForResult(out, CREATE_PATCHED_ISO);
     }
 
@@ -186,7 +186,7 @@ public final class MainActivity extends Activity {
             status.setText("원본 ISO와 같은 문서에는 쓸 수 없습니다.");
             return;
         }
-        setBusy(true, "새 ISO 생성 중… 원본 전체를 스트리밍 복사합니다.");
+        setBusy(true, "첫 한글 문장 PoC ISO 생성 중… 원본은 읽기 전용입니다.");
         Uri inputUri = sourceUri;
         FontExtractor.Inspection checked = inspection;
         worker.execute(() -> {
@@ -210,7 +210,7 @@ public final class MainActivity extends Activity {
                 }
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "완료. PPSSPP에서 신규 게임을 시작해 가/나/다/라/마/바/사/아 8자를 확인하세요."));
+                        "완료. PPSSPP에서 신규 게임을 시작하세요. 첫 3줄이 ‘테스트 성공’으로 반복되면 성공입니다."));
             } catch (Exception e) {
                 final String error = message(e);
                 runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
