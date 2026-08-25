@@ -4,6 +4,18 @@
 japanese = "はい<end>"
 korean = "네<end>"
 
+["320009"]
+japanese = "いいえ<end>"
+korean = "아니요<end>"
+
+["320018"]
+japanese = "セラ？<end>"
+korean = "세라?<end>"
+
+["320045"]
+japanese = "ちぇ。<end>"
+korean = "쳇.<end>"
+
 ["320080"]
 japanese = "！<end>"
 korean = "！<end>"

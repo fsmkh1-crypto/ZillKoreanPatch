@@ -8,25 +8,117 @@ korean = "□정렬"
 japanese = "□初期化"
 korean = "□초기화"
 
+["200082"]
+japanese = "なし<end>"
+korean = "없음<end>"
+
+["200085"]
+japanese = "決定<end>"
+korean = "결정<end>"
+
+["200087"]
+japanese = "特殊<end>"
+korean = "특수<end>"
+
 ["200088"]
 japanese = "START<end>"
 korean = "START<end>"
+
+["200113"]
+japanese = "種類順<end>"
+korean = "종류순<end>"
+
+["200114"]
+japanese = "多い順<end>"
+korean = "많은순<end>"
+
+["200116"]
+japanese = "自分で<end>"
+korean = "직접<end>"
+
+["200117"]
+japanese = "使う<end>"
+korean = "사용<end>"
+
+["200118"]
+japanese = "捨てる<end>"
+korean = "버리기<end>"
+
+["200119"]
+japanese = "ソート<end>"
+korean = "정렬<end>"
+
+["200120"]
+japanese = "捨てる<end>"
+korean = "버리기<end>"
+
+["200129"]
+japanese = "片手剣<end>"
+korean = "한손검<end>"
+
+["200130"]
+japanese = "両手剣<end>"
+korean = "양손검<end>"
 
 ["200132"]
 japanese = "斧<end>"
 korean = "도끼<end>"
 
+["200133"]
+japanese = "小刀<end>"
+korean = "소도<end>"
+
 ["200134"]
 japanese = "弓<end>"
 korean = "활<end>"
+
+["200135"]
+japanese = "拳器<end>"
+korean = "권기<end>"
 
 ["200136"]
 japanese = "盾<end>"
 korean = "방패<end>"
 
+["200138"]
+japanese = "胸当て<end>"
+korean = "흉갑<end>"
+
+["200139"]
+japanese = "胴鎧<end>"
+korean = "몸통 갑옷<end>"
+
+["200140"]
+japanese = "全身鎧<end>"
+korean = "전신갑옷<end>"
+
+["200143"]
+japanese = "はい<end>"
+korean = "네<end>"
+
+["200144"]
+japanese = "いいえ<end>"
+korean = "아니요<end>"
+
+["200146"]
+japanese = "装備<end>"
+korean = "장비<end>"
+
+["200148"]
+japanese = "選択<end>"
+korean = "선택<end>"
+
+["200149"]
+japanese = "決定<end>"
+korean = "결정<end>"
+
 ["200151"]
 japanese = "はい<end>"
 korean = "네<end>"
+
+["200152"]
+japanese = "いいえ<end>"
+korean = "아니요<end>"
 
 ["200153"]
 japanese = "次へ<end>"

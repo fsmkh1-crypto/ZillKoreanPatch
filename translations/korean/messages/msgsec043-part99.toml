@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["430009"]
+japanese = "名は？<end>"
+korean = "이름은?<end>"
+
+["430052"]
+japanese = "ほう？<end>"
+korean = "호오?<end>"
+
 ["430188"]
 japanese = "ああ<end>"
 korean = "아아<end>"

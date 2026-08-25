@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["330070"]
+japanese = "へえ。<end>"
+korean = "헤에.<end>"
+
 ["330186"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["330212"]
+japanese = "とう！<end>"
+korean = "타앗!<end>"

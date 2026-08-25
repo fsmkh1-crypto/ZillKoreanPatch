@@ -4,6 +4,18 @@
 japanese = "？<end>"
 korean = "？<end>"
 
+["450045"]
+japanese = "君は？<end>"
+korean = "너는?<end>"
+
+["450138"]
+japanese = "待て。<end>"
+korean = "기다려.<end>"
+
+["450153"]
+japanese = "僕…。<end>"
+korean = "나….<end>"
+
 ["450177"]
 japanese = "改！<end>"
 korean = "개!<end>"
@@ -15,3 +27,7 @@ korean = "격!<end>"
 ["450179"]
 japanese = "烈！<end>"
 korean = "열!<end>"
+
+["450244"]
+japanese = "え…。<end>"
+korean = "어….<end>"

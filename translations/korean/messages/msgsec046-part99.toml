@@ -1,5 +1,21 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["460046"]
+japanese = "本当？<end>"
+korean = "정말?<end>"
+
+["460085"]
+japanese = "泊まる<end>"
+korean = "묵는다<end>"
+
+["460100"]
+japanese = "親父！<end>"
+korean = "아버지!<end>"
+
+["460203"]
+japanese = "もらう<end>"
+korean = "받는다<end>"
+
 ["460205"]
 japanese = "断る<end>"
 korean = "거절한다<end>"

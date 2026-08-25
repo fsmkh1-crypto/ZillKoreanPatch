@@ -1,5 +1,25 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["370036"]
+japanese = "えっ！<end>"
+korean = "엣!<end>"
+
+["370038"]
+japanese = "はぁ？<end>"
+korean = "하아?<end>"
+
 ["370080"]
 japanese = "誰？<end>"
 korean = "누구?<end>"
+
+["370102"]
+japanese = "待て。<end>"
+korean = "기다려.<end>"
+
+["370127"]
+japanese = "はい。<end>"
+korean = "네.<end>"
+
+["370244"]
+japanese = "誰だ？<end>"
+korean = "누구냐?<end>"
