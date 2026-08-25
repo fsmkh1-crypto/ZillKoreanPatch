@@ -3,12 +3,24 @@ name: Gemini translation batch
 on:
   workflow_dispatch:
     inputs:
+      selector:
+        description: Export selector (batch or section)
+        required: true
+        default: "batch"
       batch:
-        description: Zero-based batch number
+        description: Zero-based project batch number when selector=batch
         required: true
         default: "0"
+      section:
+        description: Message section when selector=section
+        required: true
+        default: "187"
+      start_index:
+        description: First record index when selector=section
+        required: true
+        default: "1"
       count:
-        description: Records per batch (1-150)
+        description: Records per export (1-150)
         required: true
         default: "100"
   push:
@@ -22,8 +34,11 @@ jobs:
   export:
     runs-on: ubuntu-latest
     env:
+      SELECTOR: ${{ github.event.inputs.selector || 'section' }}
       BATCH: ${{ github.event.inputs.batch || '0' }}
-      COUNT: ${{ github.event.inputs.count || '100' }}
+      SECTION: ${{ github.event.inputs.section || '187' }}
+      START_INDEX: ${{ github.event.inputs.start_index || '1' }}
+      COUNT: ${{ github.event.inputs.count || '10' }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-go@v7
@@ -33,13 +48,27 @@ jobs:
       - name: Export JSONL batch
         run: |
           mkdir -p out
-          ./zill gemini-export --batch "$BATCH" --count "$COUNT" --out "out/gemini-batch-${BATCH}.source.jsonl"
+          if [ "$SELECTOR" = "section" ]; then
+            OUT="out/gemini-section-${SECTION}-from-${START_INDEX}.source.jsonl"
+            ./zill gemini-export --section "$SECTION" --start-index "$START_INDEX" --count "$COUNT" --out "$OUT"
+          elif [ "$SELECTOR" = "batch" ]; then
+            OUT="out/gemini-batch-${BATCH}.source.jsonl"
+            ./zill gemini-export --batch "$BATCH" --count "$COUNT" --out "$OUT"
+          else
+            echo "selector must be batch or section" >&2
+            exit 2
+          fi
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
       - name: Validate generated source JSONL is nonempty
         run: |
-          test -s "out/gemini-batch-${BATCH}.source.jsonl"
-          test "$(wc -l < "out/gemini-batch-${BATCH}.source.jsonl")" -le "$COUNT"
+          test -s "$OUT"
+          test "$(wc -l < "$OUT")" -le "$COUNT"
+          if grep -Eq '<[^>]+>|\{\{[^}]+\}\}' "$OUT"; then
+            echo "protected control token leaked into Gemini v2 export" >&2
+            exit 1
+          fi
       - uses: actions/upload-artifact@v4
         with:
-          name: gemini-batch-${{ env.BATCH }}
-          path: out/gemini-batch-${{ env.BATCH }}.source.jsonl
+          name: gemini-v2-export
+          path: ${{ env.OUT }}
           if-no-files-found: error
