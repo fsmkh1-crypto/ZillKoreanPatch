@@ -41,16 +41,24 @@ These counts establish PoC capacity only; they do not prove capacity for the com
 - record count: 14,231
 - ARC members are stored sequentially with 16-byte alignment.
 
-Validated font members:
+### Offset/wrapper correction from retail ISO validation
+
+The first on-device extractor run against the user's retail ULJM-05410 v1.03 ISO showed that the PAA index record for member #13611 points to `0x3D8F520`, not the previously recorded `0x3D8F510`. This exposed an earlier convention error: the 16 bytes immediately before the indexed member were incorrectly treated as a wrapper belonging to every member.
+
+The PAA index member offset is authoritative and points at the actual stored member bytes. The upstream English release manifest independently defines the source member itself as size `0x80470` for `font/zillfont.par` and `0x18E60` for `2d/font/jillbtn.par`, with SHA-256 values over those complete member bytes. Therefore the extractor must not add `0x10` to a PAA index offset or strip `0x10` from a member.
+
+This is also forced by the `jillbtn.par` geometry: PAF starts at member-relative `0x44A0` and has size `0x149C0`; `0x44A0 + 0x149C0 = 0x18E60`, exactly the complete member size. There is no room for an additional member-local 16-byte wrapper.
+
+Validated font members are therefore identified by **PAA record index, name, size, and upstream retail SHA-256**, while their ARC offsets are read from `pa.bin` rather than hardcoded:
 
 - record #13611: `font/zillfont.par`
-  - ARC offset `0x3D8F510`
   - member size `0x80470`
+  - observed retail PAA offset `0x3D8F520`
+  - retail SHA-256 `0d3d6d2648870e87a01636cdfc7cc7af8100ea40b71e5ed05f82ac197606584a`
 - record #13612: `2d/font/jillbtn.par`
-  - ARC offset `0x3E0F980`
   - member size `0x18E60`
-
-Each member begins with a 16-byte archive wrapper; the PAR payload begins at `member + 0x10`.
+  - offset is read from the PAA index
+  - retail SHA-256 `95b48379092db4db72f890d5a221ba8c4094dd438cb4c4eba98eb5520c7b17aa`
 
 ## PAR
 
@@ -106,4 +114,4 @@ The first Korean rendering PoC must preserve these structural invariants and use
 
 ## Extraction APK boundary
 
-The first Android artifact is deliberately read-only. It validates `PARAM.SFO` for ULJM-05410 v1.03, verifies `pa.bin` starts with `PAA\0`, checks that `pa.arc` is large enough for the validated offsets, then copies only the two PAR payloads (stripping each 16-byte ARC wrapper) to a ZIP together with a SHA-256 manifest. The ISO is opened through Android SAF in read-only mode and is never overwritten.
+The Android extractor is deliberately read-only. It validates `PARAM.SFO` for ULJM-05410 v1.03, parses `pa.bin`, requires the expected member count and font member index/name/size, reads each member from the offset supplied by the PAA index, and verifies the complete member bytes against the upstream retail SHA-256 before export. It writes the two complete PAR members and `manifest.json` to a ZIP. No member-local wrapper bytes are stripped. The ISO is opened through Android SAF in read-only mode and is never overwritten.
