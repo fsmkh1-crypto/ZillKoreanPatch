@@ -55,6 +55,15 @@ final class FontExtractor {
             this.bindata = bindata;
             this.bindataArchive = bindataArchive;
         }
+
+        // Compatibility constructor used by the isolated smoke-patcher unit test.
+        // Audit-only fields are intentionally null because PoCPatcher never reads them.
+        Inspection(String discId, String version, long isoSize,
+                   Iso9660.Entry paBin, Iso9660.Entry paArc,
+                   PaaIndex.Member zillfont, PaaIndex.Member jillbtn) {
+            this(discId, version, isoSize, null, paBin, paArc,
+                    zillfont, jillbtn, null, null, "");
+        }
     }
 
     private static final class Exported {
