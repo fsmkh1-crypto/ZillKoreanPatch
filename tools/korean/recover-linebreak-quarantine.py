@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""Recover Korean wording deleted by the legacy line-break-sensitive quarantine.
+"""Recover Korean wording falsely deleted by the legacy line-break quarantine.
 
 Commit 7620fdd ran the old refresh-japanese-refs.py whose control comparison
-incorrectly treated Japanese <line-break> positions as fixed. Eight valid Korean
-rows were removed. Their wording is recovered from the parent commit, while the
-old visual breaks are moved to build-owned ``layout`` and current canonical
-Japanese is used as the authoritative reference.
+incorrectly treated Japanese <line-break> positions as fixed. It removed eight
+historical Korean rows. Some of those rows were genuinely stale because their
+Japanese source had changed; only rows whose historical Japanese is byte-for-byte
+identical to current canonical Japanese are safe to restore automatically.
 
-The script is intentionally one-shot/idempotent: existing IDs are skipped, and a
-row is restored only if its full fixed runtime-control sequence still matches the
-current canonical source.
+For a safe recovery, old visual breaks are moved to build-owned ``layout`` and
+removed from translator-owned semantic ``korean`` text. The script is idempotent:
+existing IDs are skipped and stale-source rows are reported but never restored.
 """
 from __future__ import annotations
 
@@ -49,9 +49,7 @@ def q(text: str) -> str:
 
 
 def historical_file(path: str) -> dict[str, object]:
-    raw = subprocess.check_output(
-        ["git", "show", f"{HISTORICAL_REF}:{path}"], cwd=ROOT
-    )
+    raw = subprocess.check_output(["git", "show", f"{HISTORICAL_REF}:{path}"], cwd=ROOT)
     return tomllib.loads(raw.decode("utf-8"))
 
 
@@ -97,6 +95,7 @@ def main() -> None:
     existing = existing_ids()
     history_cache: dict[str, dict[str, object]] = {}
     restored = 0
+    stale = 0
 
     for section, ids in sorted(RECOVER.items()):
         current = canonical(section)
@@ -118,14 +117,19 @@ def main() -> None:
             historical = history.get(rid)
             canonical_row = current.get(rid)
             if not isinstance(historical, dict) or not isinstance(canonical_row, dict):
-                raise SystemExit(f"cannot recover canonical/historical row {section}/{rid}")
+                raise SystemExit(f"cannot inspect canonical/historical row {section}/{rid}")
+            old_japanese = str(historical.get("japanese", ""))
             old_korean = str(historical.get("korean", ""))
             current_japanese = str(canonical_row.get("japanese", ""))
-            if not old_korean or not current_japanese:
+            if not old_japanese or not old_korean or not current_japanese:
                 raise SystemExit(f"empty canonical/historical row {section}/{rid}")
+            if old_japanese != current_japanese:
+                stale += 1
+                print(f"skip {section}/{rid}: historical Japanese differs from current canonical")
+                continue
             if fixed_tokens(current_japanese) != fixed_tokens(old_korean):
                 raise SystemExit(
-                    f"refuse recovery {section}/{rid}: fixed controls differ: "
+                    f"refuse recovery {section}/{rid}: unchanged Japanese but fixed controls differ: "
                     f"{fixed_tokens(current_japanese)} != {fixed_tokens(old_korean)}"
                 )
             semantic = semanticize(old_korean)
@@ -139,7 +143,7 @@ def main() -> None:
         if output:
             out_path.write_text(render(output), encoding="utf-8")
 
-    print(f"restored {restored} Korean rows quarantined by legacy line-break validation")
+    print(f"restored {restored} false-positive quarantine rows; left {stale} stale-source rows for retranslation")
 
 
 if __name__ == "__main__":
