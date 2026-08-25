@@ -82,8 +82,12 @@ EXACT = {
     "領主邸前<end>": "영주 저택 앞<end>",
     "だみぃ2_7<end>": "더미2_7<end>",
     "だみぃ2_8<end>": "더미2_8<end>",
+    "説明不要<end>": "설명 불필요<end>",
+    "無視する<end>": "무시한다<end>",
+    "根拠は？<end>": "근거는?<end>",
 
-    # Stable standalone NPC/job labels.
+    # Stable standalone NPC/job labels and proper names already established in
+    # the Korean corpus.
     "冒険者<end>": "모험가<end>",
     "傭兵<end>": "용병<end>",
     "魔道士<end>": "마도사<end>",
@@ -115,6 +119,9 @@ EXACT = {
     "団長！<end>": "단장!<end>",
     "親分！<end>": "두목!<end>",
     "師匠？<end>": "스승님?<end>",
+    "セラ？<end>": "세라?<end>",
+    "ママ！<end>": "엄마!<end>",
+    "ヴァン！<end>": "반!<end>",
 
     # Plain/casual Japanese forms already carry register.  These mappings are
     # limited to rows whose core lexical meaning is also stable enough to make
@@ -142,6 +149,29 @@ EXACT = {
     "誓う。<end>": "맹세해.<end>",
     "寒い…。<end>": "추워…<end>",
     "撃て！！<end>": "쏴!!<end>",
+    "加わる<end>": "합류한다<end>",
+    "逃げる<end>": "도망친다<end>",
+    "助ける<end>": "돕는다<end>",
+    "見守る<end>": "지켜본다<end>",
+    "失礼。<end>": "실례.<end>",
+    "喜んで<end>": "기꺼이.<end>",
+    "みんな？<end>": "다들?<end>",
+    "…罠か。<end>": "…함정인가.<end>",
+    "戻るぞ！<end>": "돌아가자!<end>",
+    "…来い。<end>": "…와.<end>",
+    "…よし！<end>": "…좋아!<end>",
+    "もういい<end>": "됐어<end>",
+    "もちろん<end>": "물론이지<end>",
+    "うなずく<end>": "고개를 끄덕인다<end>",
+    "助けよう<end>": "도와주자<end>",
+    "知ってる<end>": "알고 있어<end>",
+    "知らない<end>": "몰라<end>",
+    "人殺し！<end>": "살인자!<end>",
+    "くそっ！<end>": "젠장!<end>",
+    "その通り<end>": "맞아<end>",
+    "いや違う<end>": "아니, 틀려<end>",
+    "いいえ！<end>": "아니!<end>",
+    "戻らない<end>": "돌아가지 않는다<end>",
 
     # Context-independent acknowledgements and pain/frustration interjections.
     "はい。<end>": "네.<end>",
@@ -166,6 +196,7 @@ EXACT = {
     "はぁ…<end>": "하아…<end>",
     "うん…<end>": "응…<end>",
     "うん。<end>": "응.<end>",
+    "うん！<end>": "응!<end>",
     "え…？<end>": "어…?<end>",
     "えっ？<end>": "어?<end>",
 }
