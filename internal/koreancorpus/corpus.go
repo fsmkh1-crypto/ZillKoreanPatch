@@ -52,6 +52,13 @@ func Load(root string, project *corpus.Project) (*Overlay, error) {
 	if project == nil {
 		return nil, fmt.Errorf("load Korean corpus: nil source project")
 	}
+	sources := make(map[int]string, len(project.Items))
+	for _, item := range project.Items {
+		if _, exists := sources[item.Record.ID]; exists {
+			return nil, fmt.Errorf("load Korean corpus: duplicate canonical source ID %d", item.Record.ID)
+		}
+		sources[item.Record.ID] = item.Translation.Japanese
+	}
 	dir := filepath.Join(root, "translations", "korean", "messages")
 	entries, err := os.ReadDir(dir)
 	if err != nil {
@@ -71,7 +78,7 @@ func Load(root string, project *corpus.Project) (*Overlay, error) {
 		if err != nil {
 			return nil, fmt.Errorf("read %s: %w", path, err)
 		}
-		records, err := parseSection(data, path, section, project)
+		records, err := parseSection(data, path, section, sources)
 		if err != nil {
 			return nil, err
 		}
@@ -133,7 +140,7 @@ func (overlay *Overlay) Sections() map[int][]Record {
 	return out
 }
 
-func parseSection(data []byte, path string, section int, project *corpus.Project) ([]Record, error) {
+func parseSection(data []byte, path string, section int, sources map[int]string) ([]Record, error) {
 	if !bytes.HasPrefix(data, []byte(licenseLine+"\n")) {
 		return nil, fmt.Errorf("%s: required license header is missing", path)
 	}
@@ -159,11 +166,11 @@ func parseSection(data []byte, path string, section int, project *corpus.Project
 		if *value.Korean == "" {
 			return nil, fmt.Errorf("%s: ID %d: korean must be nonempty", path, id)
 		}
-		source, ok := project.Find(id)
+		source, ok := sources[id]
 		if !ok {
 			return nil, fmt.Errorf("%s: ID %d does not exist in canonical source corpus", path, id)
 		}
-		if *value.Japanese != source.Translation.Japanese {
+		if *value.Japanese != source {
 			return nil, fmt.Errorf("%s: ID %d: japanese differs from canonical source", path, id)
 		}
 		layout := ""
