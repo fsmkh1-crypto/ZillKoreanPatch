@@ -101,6 +101,11 @@ func runKoreanSlotsV2(root string, args []string, stdout, stderr io.Writer) int 
 		return 1
 	}
 
+	headroom := len(plan.Candidates) - len(plan.CustomRunes)
+	utilization := 0.0
+	if len(plan.Candidates) > 0 {
+		utilization = float64(len(plan.CustomRunes)) * 100 / float64(len(plan.Candidates))
+	}
 	fmt.Fprintf(stdout, "Korean coverage: %d/%d records across %d section files\n", koreanSummary.Records, sourceSummary.Records, koreanSummary.Sections)
 	fmt.Fprintf(stdout, "Installed two-byte slots: %d\n", len(installedTwoByte))
 	fmt.Fprintf(stdout, "Font-compatible Korean slots before resource audit: %d\n", len(fontCompatible))
@@ -108,6 +113,10 @@ func runKoreanSlotsV2(root string, args []string, stdout, stderr io.Writer) int 
 	fmt.Fprintf(stdout, "Custom renderer glyphs required: %d\n", len(plan.CustomRunes))
 	fmt.Fprintf(stdout, "Reusable candidates after font/fixed/structured/exact-byte audit: %d\n", len(plan.Candidates))
 	fmt.Fprintf(stdout, "Allocated custom mappings: %d\n", len(plan.Mapping))
+	fmt.Fprintf(stdout, "Capacity headroom after current allocation: %d glyphs (%.1f%% utilized)\n", headroom, utilization)
+	if len(plan.Candidates) > 0 && utilization >= 80 {
+		fmt.Fprintln(stdout, "Capacity warning: current allocation uses at least 80% of conservative Korean-compatible slots; plan metric rewriting/atlas expansion before large corpus growth.")
+	}
 	fmt.Fprintln(stdout, "Safety status: DETERMINISTIC AUTHENTICATED PLAN; archive/UI/script resource classes not supplied to this audit remain outside the production-safe claim.")
 	if len(plan.CustomRunes) > 0 {
 		limit := min(16, len(plan.CustomRunes))
