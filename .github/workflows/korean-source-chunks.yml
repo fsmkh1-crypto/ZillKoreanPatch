@@ -18,7 +18,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Build compact source chunks
-        run: python3 tools/korean/build-source-chunks.py --out work/korean-source --max-bytes 48000
+        run: python3 tools/korean/build-source-chunks.py --out work/korean-source --max-bytes 12000
       - name: Publish chunks to helper branch
         run: |
           git config user.name 'github-actions[bot]'
