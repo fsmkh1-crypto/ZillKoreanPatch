@@ -13,9 +13,10 @@ import (
 	"github.com/HK47196/zill/internal/zillfont"
 )
 
-// prepareKoreanMobileFontReplacements is the device-alpha font path. It may
-// rewrite bearing/advance metadata for selected retail cells, so both the atlas
-// member and jillbtn.par must be rebuilt together.
+// prepareKoreanMobileFontReplacements builds a complete Korean font result for
+// device alpha testing. This intentionally follows the English patch model:
+// atlas placement and PAF geometry are rebuilt as one coherent transform rather
+// than trying to squeeze Korean into a small subset of retail-compatible cells.
 func prepareKoreanMobileFontReplacements(root string, archives []*archive, plan koreanslots.Plan) ([]paa.Replacement, error) {
 	if len(plan.Mapping) == 0 {
 		return nil, nil
@@ -53,12 +54,7 @@ func prepareKoreanMobileFontReplacements(root string, archives []*archive, plan 
 	if err != nil {
 		return nil, err
 	}
-	paf, err := zillfont.ParseAuthenticatedRetailPAF(jillbtn)
-	if err != nil {
-		return nil, err
-	}
-	replacements, err := paf.MetricRewriteReplacementPlan(plan.Mapping)
-	if err != nil {
+	if _, err := zillfont.ParseAuthenticatedRetailPAF(jillbtn); err != nil {
 		return nil, err
 	}
 
@@ -77,11 +73,16 @@ func prepareKoreanMobileFontReplacements(root string, archives []*archive, plan 
 	if err := catalog.RequireRunes(mappedRunes); err != nil {
 		return nil, err
 	}
-	cellRasters, err := catalog.CellRasters(replacements)
-	if err != nil {
-		return nil, err
+	koreanRasters := make(map[rune]zillfont.Raster, len(plan.Mapping))
+	for r := range plan.Mapping {
+		raster, ok := catalog.SourceRaster(r)
+		if !ok {
+			return nil, fmt.Errorf("Korean raster catalog is missing %U", r)
+		}
+		koreanRasters[r] = raster
 	}
-	patchedAtlas, patchedPAF, err := zillfont.PatchAuthenticatedRetailFontWithMetricRewrite(atlas, jillbtn, plan.Mapping, cellRasters)
+
+	patchedAtlas, patchedPAF, err := zillfont.FullRepackAuthenticatedRetailFont(atlas, jillbtn, plan.Mapping, koreanRasters)
 	if err != nil {
 		return nil, err
 	}
