@@ -140,6 +140,10 @@ korean = "저, 저기…. 어때요?<end>"
 japanese = "…よかった。<end>"
 korean = "…다행이다.<end>"
 
+["1410121"]
+japanese = "ですから、<value:$28>様。<line-break>どうか、いつまでも、私の近くに<line-break>いてください。<end>"
+korean = "그러니 <value:$28>님. 부디 언제까지나 제 곁에 있어 주세요.<end>"
+
 ["1410122"]
 japanese = "ありがとう。<line-break>…うれしいです、<line-break><value:$28>様。<end>"
 korean = "고마워요. …기뻐요, <value:$28> 님.<end>"
