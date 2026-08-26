@@ -12,6 +12,18 @@ korean = "아, <value:$28> 님.<end>"
 japanese = "もちろん食べに来る<end>"
 korean = "물론 먹으러 온다<end>"
 
+["1910022"]
+japanese = "みんな心配すると言う<end>"
+korean = "모두 걱정한다고 말한다<end>"
+
+["1910041"]
+japanese = "あのふたりなら大丈夫<end>"
+korean = "그 둘이라면 괜찮다<end>"
+
+["1910042"]
+japanese = "必ず探しだしてみせる<end>"
+korean = "반드시 찾아내고 말겠다<end>"
+
 ["1910049"]
 japanese = "必ずまた会いに来る<end>"
 korean = "반드시 다시 만나러 온다<end>"
@@ -20,9 +32,21 @@ korean = "반드시 다시 만나러 온다<end>"
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
 
+["1910068"]
+japanese = "なんということを…。<end>"
+korean = "이럴 수가….<end>"
+
+["1910080"]
+japanese = "待て。様子が変だ…。<end>"
+korean = "기다려. 상태가 이상해….<end>"
+
 ["1910081"]
 japanese = "これは…。<end>"
 korean = "이건….<end>"
+
+["1910107"]
+japanese = "あ…、レイヴン…！？<end>"
+korean = "아…, 레이븐…!?<end>"
 
 ["1910111"]
 japanese = "レイヴン！<end>"

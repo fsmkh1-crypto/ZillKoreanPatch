@@ -96,6 +96,10 @@ korean = "마논 배리어.<end>"
 japanese = "時代０：～旅立ち<end>"
 korean = "시대 0: ~여행 출발<end>"
 
+["1960505"]
+japanese = "時代８：ネメア復活～<end>"
+korean = "시대 8: 네메아 부활~<end>"
+
 ["1960507"]
 japanese = "だましもの<end>"
 korean = "사기꾼<end>"
@@ -116,13 +120,25 @@ korean = "바람의 행방<end>"
 japanese = "かぐや姫<end>"
 korean = "카구야 공주<end>"
 
+["1960518"]
+japanese = "精霊力ＭＡＸ一歩手前<end>"
+korean = "정령력 MAX 직전<end>"
+
 ["1960522"]
 japanese = "　解放軍を見捨てる<end>"
 korean = "　해방군을 버린다<end>"
 
+["1960525"]
+japanese = "　ロセンの鐘を鳴らせ<end>"
+korean = "로센의 종을 울려라<end>"
+
 ["1960526"]
 japanese = "　ロセンの鐘の英雄<end>"
 korean = "　로센의 종의 영웅<end>"
+
+["1960530"]
+japanese = "　アンティノとの対決<end>"
+korean = "안티노와의 대결<end>"
 
 ["1960531"]
 japanese = "　ザギヴの歌<end>"
@@ -192,6 +208,10 @@ korean = "　삼슨 습격 보고<end>"
 japanese = "　サムスンと戦う<end>"
 korean = " 삼손과 싸움<end>"
 
+["1960567"]
+japanese = "　ソウルイーター解放<end>"
+korean = "소울 이터 해방<end>"
+
 ["1960570"]
 japanese = "　双子と闇の巨人１<end>"
 korean = "　쌍둥이와 어둠의 거인 1<end>"
@@ -215,6 +235,14 @@ korean = "　이즈키얄 난동<end>"
 ["1960587"]
 japanese = "　ＶＳイズキヤル<end>"
 korean = " VS 이즈키알<end>"
+
+["1960588"]
+japanese = "　たたずむアイリーン<end>"
+korean = "멈춰 선 아이린<end>"
+
+["1960589"]
+japanese = "　カルラのギルド依頼<end>"
+korean = "카를라의 길드 의뢰<end>"
 
 ["1960600"]
 japanese = "　予備<end>"
@@ -308,9 +336,25 @@ korean = " 0815_크뤼End#16<end>"
 japanese = "　28ロイ　共通ver END<end>"
 korean = "　28 로이 공통 ver END<end>"
 
+["1960690"]
+japanese = "　30ヴィア　共通ver END<end>"
+korean = "30 비아 공통 ver END<end>"
+
+["1960691"]
+japanese = "　31ヴァイ　共通ver END<end>"
+korean = "31 바이 공통 ver END<end>"
+
+["1960693"]
+japanese = "　33シャリ　共通ver END<end>"
+korean = "33 샤리 공통 ver END<end>"
+
 ["1960695"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960704"]
+japanese = "　45エスト　共通ver END<end>"
+korean = "45 에스트 공통 ver END<end>"
 
 ["1960707"]
 japanese = "　48ネモ　共通ver END<end>"
@@ -363,6 +407,10 @@ korean = " 페티 END<end>"
 ["1960720"]
 japanese = "　ルルアンタEND<end>"
 korean = " 루루안타 END<end>"
+
+["1960721"]
+japanese = "　レルラ＝ロントンEND<end>"
+korean = "렐라=론톤 END<end>"
 
 ["1960722"]
 japanese = "　ヒルダリア<end>"
@@ -1519,6 +1567,10 @@ korean = "옷시 전언 발생<end>"
 ["1961055"]
 japanese = "トリゴブ＃５発生<end>"
 korean = "트리 고브 #5 발생<end>"
+
+["1961056"]
+japanese = "ガルドランに勝利発生<end>"
+korean = "갈드란 승리 발생<end>"
 
 ["1961083"]
 japanese = "旅立ち開始<end>"
