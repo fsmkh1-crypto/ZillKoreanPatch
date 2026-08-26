@@ -1,20 +1,20 @@
 {
   "records_total": 43116,
-  "records_translated": 8088,
+  "records_translated": 8221,
   "records_no_text_skipped": 335,
   "records_passthrough_skipped": 777,
-  "records_done_effective": 9200,
-  "records_remaining": 33916,
-  "percent_done": 21.3378,
+  "records_done_effective": 9333,
+  "records_remaining": 33783,
+  "percent_done": 21.6463,
   "packet_order": "shortest",
   "packet_records": 2000,
-  "packet_bytes": 154399,
+  "packet_bytes": 155330,
   "packet_first": {
-    "section": 167,
-    "id": "1670327"
+    "section": 197,
+    "id": "1970489"
   },
   "packet_last": {
-    "section": 35,
-    "id": "350020"
+    "section": 56,
+    "id": "560903"
   }
 }
