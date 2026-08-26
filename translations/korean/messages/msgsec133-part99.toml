@@ -288,6 +288,10 @@ korean = "자, 의식을 시작할까.<end>"
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
 
+["1330219"]
+japanese = "とっさの思いつきだったんですけど、<line-break>ネメアはできのいい子でしてね。<line-break>無言で理解してくれましたよ。<line-break>ウルグの復活は、失敗ですね。<end>"
+korean = "순간 떠오른 생각이었지만 네메아는 영리한 아이여서 말없이 이해해 줬습니다. 울그의 부활은 실패네요.<end>"
+
 ["1330221"]
 japanese = "どうするつもり？<end>"
 korean = "어떻게 할 생각이야?<end>"
@@ -312,6 +316,10 @@ korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
 
+["1330242"]
+japanese = "とっさの思いつきだったんですけど、<line-break>ネメアはできのいい子でしてね。<line-break>無言で理解してくれましたよ。<line-break>ウルグの復活は、失敗ですね。<end>"
+korean = "순간 떠오른 생각이었지만 네메아는 영리한 아이여서 말없이 이해해 줬습니다. 울그의 부활은 실패네요.<end>"
+
 ["1330243"]
 japanese = "そうでもないさ。<line-break>ウルグの力の一部は、<line-break>すでにネメアの精神に入り込んでる。<line-break>どうするつもり？<end>"
 korean = "그렇지만도 않아. 우르그의 힘 일부는 이미 네메아의 정신에 들어가 있어. 어떻게 할 생각이지?<end>"
@@ -323,6 +331,10 @@ korean = "기다리고 있을게, <value:$28>.<end>"
 ["1330248"]
 japanese = "では、行きますよ。<end>"
 korean = "그럼, 갑니다.<end>"
+
+["1330256"]
+japanese = "どうでしょうね？<line-break>あとはネメア次第です。<line-break>　<line-break>この子の精神が<line-break>ウルグに破壊されていなければ、<line-break>戻ってくるでしょう。<end>"
+korean = "글쎄요? 이제 네메아에게 달렸습니다. 이 아이의 정신이 울그에게 파괴되지 않았다면 돌아오겠죠.<end>"
 
 ["1330257"]
 japanese = "ともかく、<line-break>今は猫屋敷に戻りましょう。<end>"
@@ -867,6 +879,10 @@ korean = "…노엘.<end>"
 ["1330611"]
 japanese = "あえて祖母とは呼ばぬ。<end>"
 korean = "굳이 할머니라고 부르진 않겠다.<end>"
+
+["1330612"]
+japanese = "しかし、ひとりの人として、<line-break>同じダルケニスとして、<line-break><line-break>その堂々とした態度には、<line-break>こちらも全力をもって応えよう！<end>"
+korean = "하지만 한 사람으로서, 같은 다르케니스로서 그 당당한 태도에는 나도 전력을 다해 응하겠다!<end>"
 
 ["1330613"]
 japanese = "ふふ…ありがたいね。<line-break><line-break><line-break>ノエル！<end>"

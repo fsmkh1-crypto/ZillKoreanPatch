@@ -204,6 +204,10 @@ korean = "나의 불타는 눈은… 악의 불씨를 놓치지 않는다!<end>"
 japanese = "ヴァンは僕が看てる。<line-break><value:$28>は<line-break>道具屋で薬草を買ってきて。<end>"
 korean = "반은 내가 돌볼게. <value:$28>는 도구점에서 약초를 사 와.<end>"
 
+["280083"]
+japanese = "ああ、<value:$28>。<line-break>宿屋のヴァンが<line-break>大変なことになったんだって？<line-break>代金はいいから、<line-break>早くこの薬草を<line-break>持っていってやれ。<end>"
+korean = "아, <value:$28>. 여관의 반이 큰일이라며? 돈은 됐으니 빨리 이 약초를 가져다줘.<end>"
+
 ["280085"]
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
 korean = "<value:$28>… 약초는?<end>"

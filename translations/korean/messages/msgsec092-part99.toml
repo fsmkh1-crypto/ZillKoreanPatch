@@ -48,6 +48,10 @@ korean = "동료로 삼지 않는다<end>"
 japanese = "<value:$28>か…。<line-break>よろしくな、<value:$28>。<end>"
 korean = "<value:$28>인가… 잘 부탁한다, <value:$28>.<end>"
 
+["920026"]
+japanese = "じゃ、冒険に出るときは<line-break>猫屋敷から呼び出すから。<end>"
+korean = "그럼 모험을 떠날 때 고양이 저택에서 부를게.<end>"
+
 ["920028"]
 japanese = "すぐにデルガドをパーティーに入れますか？<end>"
 korean = "지금 바로 델가도를 파티에 넣겠습니까?<end>"
@@ -71,6 +75,10 @@ korean = "흙냄새 나! 드워프 냄새도! 이런 데 있으면 숨 막혀! �
 ["920045"]
 japanese = "なんか、先が思いやられるね。<line-break><value:$28>…。<end>"
 korean = "앞날이 걱정되네. <value:$28>….<end>"
+
+["920047"]
+japanese = "じゃ、冒険に出るときは<line-break>猫屋敷から呼び出すから。<end>"
+korean = "그럼 모험을 떠날 때 고양이 저택에서 부를게.<end>"
 
 ["920049"]
 japanese = "そうか…、なら、いいわい…。<end>"

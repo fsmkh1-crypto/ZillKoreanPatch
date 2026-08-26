@@ -156,6 +156,10 @@ korean = "응? 이, 이건…!!<end>"
 japanese = "あぁ、ビックリしたぁ。<end>"
 korean = "아아, 깜짝 놀랐네.<end>"
 
+["1860093"]
+japanese = "い、今のは…まさか…！　　　　　<line-break>　<line-break>　<end>"
+korean = "지, 지금 그건… 설마…!<end>"
+
 ["1860096"]
 japanese = "…今度は団体のようだ。　　　　　<line-break><value:$28>、ルルアンタ、<line-break>下がっていなさい。<end>"
 korean = "…이번엔 단체인 모양이군. <value:$28>, 루루안타, 뒤로 물러나 있어.<end>"

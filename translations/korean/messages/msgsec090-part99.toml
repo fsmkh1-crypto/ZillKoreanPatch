@@ -32,9 +32,17 @@ korean = "내 여동생 손 놔.<end>"
 japanese = "妹を侮辱するからだ。<end>"
 korean = "여동생을 모욕했기 때문이다.<end>"
 
+["900020"]
+japanese = "お前たちのためなら、いいさ。<line-break>それより大丈夫か？<end>"
+korean = "너희를 위해서라면 괜찮아. 그것보다 괜찮냐?<end>"
+
 ["900021"]
 japanese = "ええ。<end>"
 korean = "네.<end>"
+
+["900031"]
+japanese = "予備用メッセージ１０<line-break>ツェラシェル・ボリューム１<end>"
+korean = "예비 메시지 10 체라셸, 볼륨 1<end>"
 
 ["900032"]
 japanese = "ツェラシェルメッセージVOL1終端<end>"

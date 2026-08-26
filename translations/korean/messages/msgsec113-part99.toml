@@ -4,6 +4,10 @@
 japanese = "ザギヴメッセージｖ４用開始<end>"
 korean = "자기브 메시지 V4용 시작<end>"
 
+["1130001"]
+japanese = "訃報だ。<line-break>アンギルダンは死んだよ。　<line-break>反逆者としてね。<line-break>敗戦について挑発してやれば<line-break>すぐにかみついてきた。<line-break>　<end>"
+korean = "부고다. 앙길단은 죽었어. 반역자로서 말이지. 패전에 대해 도발했더니 바로 덤벼들더군.<end>"
+
 ["1130003"]
 japanese = "君は長生きするのだな、<line-break><value:$28>。<line-break>…無限のソウルを持つ者よ。　　　　　<end>"
 korean = "오래 살아야 한다, <value:$28>. …무한의 소울을 지닌 자여.<end>"

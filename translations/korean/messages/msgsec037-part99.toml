@@ -412,6 +412,10 @@ korean = "무엇보다도 <value:$28>가 곁에 있어 준 덕분이야.<end>"
 japanese = "…わかってるさ。<end>"
 korean = "…알고 있어.<end>"
 
+["370232"]
+japanese = "あのとき、<value:$28>も<line-break>大変だったんだよな。　　　　　　<line-break>お父さんの<line-break>…イシュベノブおじさんの船が<line-break>行方不明になって、さ…。<end>"
+korean = "그때 <value:$28>도 힘들었지. 아버지… 이슈베노브 아저씨의 배가 실종돼서 말이야….<end>"
+
 ["370236"]
 japanese = "ありがとう、<line-break>…ほんと、感謝してる。<end>"
 korean = "고마워…. 정말 감사해.<end>"

@@ -96,6 +96,10 @@ korean = "세상 참 좁군.<end>"
 japanese = "騒ぎの処理は、<line-break>エスト、お前に任せる。<end>"
 korean = "소란 수습은 에스트, 네게 맡긴다.<end>"
 
+["430034"]
+japanese = "ボルボラに似合いの事故でも　　　　<line-break>でっちあげろ。<end>"
+korean = "볼보라에게 어울릴 만한 사고라도 꾸며 내라.<end>"
+
 ["430035"]
 japanese = "兄さんは？<end>"
 korean = "형은?<end>"
@@ -131,6 +135,10 @@ korean = "일단 보고드렸을 뿐입니다.<end>"
 ["430058"]
 japanese = "領主の私に<line-break>答えられることでしたら…。<end>"
 korean = "영주인 제가 답할 수 있는 일이라면….<end>"
+
+["430059"]
+japanese = "先日、ボルボラが<line-break>このようなものを送りつけてきた。<end>"
+korean = "며칠 전 볼보라가 이런 걸 보내 왔다.<end>"
 
 ["430061"]
 japanese = "女にですと！？<end>"
@@ -232,6 +240,10 @@ korean = "<미사용> 괜찮아? <value:$28>.<end>"
 japanese = "＜未使用＞大丈夫かの？<line-break><value:$28>。<end>"
 korean = "<미사용> 괜찮은가? <value:$28>.<end>"
 
+["430131"]
+japanese = "まったく、昨日の…アレ…<line-break>いったい、なんなのよぉ！<end>"
+korean = "정말, 어제 그… 그거… 대체 뭐였던 거야!<end>"
+
 ["430133"]
 japanese = "…生きているか。<line-break>ならば、いい。<end>"
 korean = "…살아 있나. 그렇다면 됐다.<end>"
@@ -267,6 +279,10 @@ korean = "…도적인가.<end>"
 ["430153"]
 japanese = "…ハハハハ！<line-break>まったく、お前らしいな。<end>"
 korean = "…하하하하! 정말 너답군.<end>"
+
+["430154"]
+japanese = "レムオン様、<line-break>ゼグナ伯とトゥーゾフ伯がおいでです。<end>"
+korean = "레몬 님, 제그나 백작과 투조프 백작이 오셨습니다.<end>"
 
 ["430156"]
 japanese = "お引き取りいただきますか？<end>"
@@ -395,6 +411,10 @@ korean = "훗, 서두르지 마라. 가자.<end>"
 ["430222"]
 japanese = "どこへ行くつもりだ？<line-break>仕事はこれからだぞ。<end>"
 korean = "어디 갈 생각이지? 일은 지금부터다.<end>"
+
+["430228"]
+japanese = "予備用メッセージ１０<line-break>リューガ・ボリューム１その２<end>"
+korean = "예비 메시지 10 류가, 볼륨 1 그 2<end>"
 
 ["430229"]
 japanese = "リューガ・ボリューム１その２終端<end>"

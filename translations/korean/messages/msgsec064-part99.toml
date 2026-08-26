@@ -212,6 +212,10 @@ korean = "오늘은… 돌아가 주시지 않겠어요?<end>"
 japanese = "…すみません。<end>"
 korean = "…죄송합니다.<end>"
 
+["640116"]
+japanese = "先ほど、レムオン様が<line-break>いらっしゃったのです。　　<line-break>　<line-break><value:$28>様のことを<line-break>本当に得意げに<line-break>お話しされてゆかれました。<end>"
+korean = "방금 레몬 님께서 다녀가셨습니다. <value:$28>님 이야기를 정말 자랑스럽게 하고 가셨어요.<end>"
+
 ["640123"]
 japanese = "慈愛の神ライラネートよ。　　　<end>"
 korean = "자애의 신 라이라네트여.<end>"

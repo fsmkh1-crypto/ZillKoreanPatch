@@ -56,6 +56,10 @@ korean = "뭘 부끄러운 소릴 하는 거야! 이 문어야!!<end>"
 japanese = "貴様…、<line-break>その少年のテラネの友人だな？<end>"
 korean = "네놈… 그 소년 테라네의 친구로군?<end>"
 
+["460041"]
+japanese = "…けっ、ガルドランのくせに<line-break>人に説教しやがって…。<end>"
+korean = "…쳇, 갈드란 주제에 남한테 설교나 하고….<end>"
+
 ["460043"]
 japanese = "ナッジ…！？<end>"
 korean = "나지…!?<end>"
@@ -103,6 +107,10 @@ korean = "…아버지가 그렇게 말했어.<end>"
 ["460081"]
 japanese = "…ナッジのこと、頼むぜ。<end>"
 korean = "…나지 부탁한다.<end>"
+
+["460083"]
+japanese = "僕、ヴァンと違う世界の人間に<line-break>なっちゃんたんだね。<end>"
+korean = "나, 반과는 다른 세계의 사람이 되어 버렸구나.<end>"
 
 ["460084"]
 japanese = "よぉ、<value:$28>。<line-break>元気そうで何よりだ。<line-break>　<line-break>泊まっていくかい？<line-break>あんたらなら、タダでいいぜ。<end>"

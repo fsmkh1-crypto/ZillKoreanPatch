@@ -16,9 +16,17 @@ korean = "자기브 씨가 당신에게 편지를요? 오, 그건…. 그녀에�
 japanese = "………………。<line-break><line-break><line-break>エンシャントの政庁へ行け。<end>"
 korean = "………………. 엔샨트 정청으로 가라.<end>"
 
+["1250022"]
+japanese = "玄武将軍からの依頼が来たって？<line-break>ぼくの広報活動が実ったんだね！<line-break><line-break>さあ、エンシャントの政庁へ行って、<line-break>話を聞こうよ！<end>"
+korean = "현무장군에게서 의뢰가 왔다고? 내 홍보 활동이 결실을 맺었네! 자, 엔샨트 정청으로 가서 이야기를 들어 보자!<end>"
+
 ["1250024"]
 japanese = "<value:$28>様。<line-break>帝国中枢部とカルラには意見の対立が<line-break>あるようです。<line-break>この依頼、危険かもしれません。<end>"
 korean = "<value:$28>님. 제국 중추부와 카를라 사이에 의견 충돌이 있는 것 같습니다. 이번 의뢰, 위험할지도 모릅니다.<end>"
+
+["1250042"]
+japanese = "姉ちゃん！<line-break>とりあえず謁見の間へ行くぞ！<line-break>姉ちゃんなら敵の百人や二百人っ！<line-break>くうっ～。<line-break>ぶたなくてもいいじゃんかよ。<end>"
+korean = "누나! 일단 알현실로 가자! 누나라면 적 백 명이나 이백 명쯤! 아야~. 때리지 않아도 되잖아.<end>"
 
 ["1250047"]
 japanese = "早く行こう、<value:$28>！<line-break>ゼネテスが処刑されたら、<line-break>ロストールはどうなるかわからない。<end>"
@@ -43,6 +51,10 @@ korean = "꾸물거릴 시간이 없다. 제네테스의 운명은 끝나 가고
 ["1250060"]
 japanese = "くっ！　まさかまたクーデターが…！<line-break>ゼネテスは王宮の謁見の間だ。<line-break><value:$28>、急ぐぞ！<end>"
 korean = "큭! 설마 또 쿠데타가…! 제네테스는 왕궁의 알현실에 있다. <value:$28>, 서두르자!<end>"
+
+["1250066"]
+japanese = "闇の者の帝国…。<line-break>ディンガルの行く末が<line-break>そんなものになるだなんて…。<line-break>これまで先陣切って戦ってきたけど、<line-break>私、怖いわ…。<end>"
+korean = "어둠의 자들의 제국…. 딘갈의 앞날이 그런 것이 된다니…. 지금까지 앞장서 싸워 왔지만 나, 무서워….<end>"
 
 ["1250067"]
 japanese = "かつてのディンガルの首都が、<line-break>今や…。<line-break><line-break>ゾフォルめから取り戻さねばならぬ。<line-break>ワシら人の手で…！<end>"
@@ -192,9 +204,17 @@ korean = "………………. 쫓지 않는 건가?<end>"
 japanese = "カルラの行動は拙速に過ぎる。<line-break>俺たちも急ぐぞ。<end>"
 korean = "카를라의 행동은 너무 성급해. 우리도 서두르자.<end>"
 
+["1250227"]
+japanese = "湖と言われてものう…<line-break>そう言えば、夢幻の湖には水中遺跡が<line-break>あるという噂があったような…。<line-break>はっきりとは憶えておらんのじゃがな。<end>"
+korean = "호수라고 해도 말이지…. 그러고 보니 몽환의 호수에는 수중 유적이 있다는 소문이 있었던 것 같군…. 확실히 기억나진 않지만.<end>"
+
 ["1250228"]
 japanese = "湖に沈められた遺跡？<line-break>禁断の呪文？<line-break>ちょっと、すごいかも？<line-break>…場所が分からない？<line-break>興奮して損しちゃったかも？<end>"
 korean = "호수에 가라앉은 유적? 금단의 주문? 좀 대단할지도? …장소를 모른다고? 괜히 흥분했나 봐.<end>"
+
+["1250232"]
+japanese = "禁断の聖なる呪文ですか？<line-break>それなら、夢幻の湖に封じられたはず。<line-break><line-break>この戦いが終わったら、<line-break>行ってみてはいかがですか？<end>"
+korean = "금단의 성스러운 주문 말입니까? 그거라면 몽환의 호수에 봉인되어 있을 겁니다. 이 싸움이 끝나면 가 보시는 건 어떻습니까?<end>"
 
 ["1250235"]
 japanese = "ベルゼーヴァ様…。<line-break><line-break><line-break>………………。<end>"

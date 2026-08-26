@@ -96,6 +96,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["850042"]
+japanese = "じゃあ、裏切らないように<line-break>これに血で署名して…。<end>"
+korean = "그럼 배신하지 않도록 여기에 피로 서명해….<end>"
+
 ["850043"]
 japanese = "これは前金。<end>"
 korean = "이건 선금이야.<end>"

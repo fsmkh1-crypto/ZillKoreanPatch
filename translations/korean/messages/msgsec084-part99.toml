@@ -20,6 +20,10 @@ korean = "잠깐, 너! 뭘 멍하니 보고 있어!<end>"
 japanese = "そんじゃ、<line-break>さっさと片付けちゃおうか！？<end>"
 korean = "그럼, 빨리 끝내 버릴까!?<end>"
 
+["840010"]
+japanese = "ふ～ん。やっぱりペウダ国王の<line-break>差し金だったんだ。<end>"
+korean = "흐음. 역시 페우다 국왕이 꾸민 일이었네.<end>"
+
 ["840012"]
 japanese = "十分悪いじゃんよ、それって。<end>"
 korean = "그거 충분히 나쁜 거잖아.<end>"
@@ -43,6 +47,10 @@ korean = "그럼, 가볼까.<end>"
 ["840025"]
 japanese = "ちょっと待ってよ！<line-break>見て見ぬふりするの？<end>"
 korean = "잠깐만! 못 본 척할 거야?<end>"
+
+["840026"]
+japanese = "どーするのー？<line-break>かわいい彼女もこー言ってるよー？<end>"
+korean = "어쩔 거야~? 귀여운 그녀도 이렇게 말하잖아~?<end>"
 
 ["840027"]
 japanese = "か、彼女なんかじゃ<line-break>あ、ありません！<end>"
@@ -156,6 +164,10 @@ korean = "잠깐, 이게 무슨 일이야?<end>"
 japanese = "サイテー！　この悪趣味！<end>"
 korean = "최악이야! 이런 악취미!<end>"
 
+["840079"]
+japanese = "イヒヒヒヒ…！<line-break>では、ひとつ楽しませてもらおう！<end>"
+korean = "이히히히…! 그럼 한번 즐겨 볼까!<end>"
+
 ["840080"]
 japanese = "…だんだん暗闇に目が<line-break>慣れてきたわね。<line-break>　<line-break>やーだなー。<line-break>見たくないものが<line-break>見えちゃったりするわけ？<end>"
 korean = "…점점 어둠에 눈이 익숙해지네. 싫다~. 보고 싶지 않은 게 보이기라도 하는 거야?<end>"
@@ -171,6 +183,10 @@ korean = "<value:$28>, 괜찮아!?<end>"
 ["840086"]
 japanese = "モンスターの声を聞いて<line-break>駆けつけたんだけど<line-break>…遅かったみたい。<line-break>ごめんなさい。<line-break>役に立たなくて。<end>"
 korean = "몬스터 소리를 듣고 달려왔는데… 늦은 것 같아. 미안해. 도움이 못 돼서.<end>"
+
+["840087"]
+japanese = "ううん、大丈夫。<line-break>まだ終わったわけじゃないから。<end>"
+korean = "아니, 괜찮아. 아직 끝난 게 아니니까.<end>"
 
 ["840088"]
 japanese = "え？<end>"
@@ -440,6 +456,10 @@ korean = "…앗, 안 되지. 임무로 돌아가야 해! 오늘 고마웠어. <
 japanese = "あんな高価な宝石<line-break>よく持っていましたね。<end>"
 korean = "그렇게 비싼 보석을 용케 가지고 있었네요.<end>"
 
+["840199"]
+japanese = "こんな格好でもね、<line-break>母親の形見くらい持ってんの。<end>"
+korean = "이런 꼴이어도 말이지, 엄마의 유품 정도는 가지고 있어.<end>"
+
 ["840200"]
 japanese = "そんな大切なものを…！<end>"
 korean = "그렇게 소중한 걸…!<end>"
@@ -455,6 +475,10 @@ korean = "당신, 아이린이라고 했던가?<end>"
 ["840203"]
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
+
+["840204"]
+japanese = "な～んか、かわいーなー。<line-break>昔の私、見てるみたい。<end>"
+korean = "왠지 귀엽네~. 옛날의 나를 보는 것 같아.<end>"
 
 ["840206"]
 japanese = "あの、でも…<end>"

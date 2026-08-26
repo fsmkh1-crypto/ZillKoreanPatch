@@ -284,6 +284,10 @@ korean = "하지만 그곳에 사는 사람들의… 그곳에 사는 자들의 
 japanese = "あなたが魔人の心を変えた時のように。<end>"
 korean = "당신이 마인의 마음을 바꿨던 때처럼.<end>"
 
+["1420150"]
+japanese = "てめえのような闇落ちが、<line-break>前の戦乱を<line-break>起こしやがったんじゃねえか。<line-break>バケモノめ、生かしちゃおけるか。<line-break>やれっ！<end>"
+korean = "너 같은 타락한 놈들이 지난 전란을 일으켰잖아. 괴물 놈, 살려 둘 수 없다. 해치워!<end>"
+
 ["1420151"]
 japanese = "やめろ！俺は、何もしちゃいない！<end>"
 korean = "그만둬! 난 아무것도 안 했어!<end>"
@@ -291,6 +295,10 @@ korean = "그만둬! 난 아무것도 안 했어!<end>"
 ["1420153"]
 japanese = "そうだぜ。<line-break>どの道、エルフに見つかりゃ、<line-break>命はねえのさ。<line-break>てめえらダークエルフは、<line-break>エルフ族の恥だからなあ！<end>"
 korean = "그래. 어차피 엘프에게 들키면 목숨은 없어. 너희 다크엘프는 엘프족의 수치니까!<end>"
+
+["1420154"]
+japanese = "てめえのような闇落ちが、<line-break>前の戦乱を起こしやがったんじゃねえか。<line-break><line-break>バケモノめ、生かしちゃおけるか。<line-break>やれっ！<end>"
+korean = "너 같은 타락한 놈들이 지난 전란을 일으켰잖아. 괴물 놈, 살려 둘 수 없다. 해치워!<end>"
 
 ["1420155"]
 japanese = "うっ…！？<end>"
@@ -563,6 +571,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420289"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1420290"]
+japanese = "…なんともまあ、<line-break>考えようによっては、<line-break>ぜいたくなことじゃな。<line-break>救世の英雄に、見送って<line-break>もらえるのじゃからな。<end>"
+korean = "…뭐랄까, 생각하기에 따라서는 호사스러운 일이군. 구세의 영웅에게 배웅받는 것이니.<end>"
 
 ["1420292"]
 japanese = "なあ、<value:$28>、<line-break>これからどうすんだよ？<line-break> <line-break>ホントに俺んちに遊びに<line-break>来ねえのか？<end>"
@@ -895,6 +907,10 @@ korean = "함께 걸어가겠다는 건가? 다르케니스인 이 나와…. �
 ["1420412"]
 japanese = "………………。<line-break> <line-break> <line-break>…すまない。<line-break>馬鹿なことを聞いた。<end>"
 korean = "………………. …미안하다. 바보 같은 걸 물었군.<end>"
+
+["1420413"]
+japanese = "この身体が血と闇で汚されようとも、<line-break>お前を明けない夜に<line-break>閉じ込めることになろうとも…<line-break>俺はお前を放さない…決して…。<end>"
+korean = "이 몸이 피와 어둠으로 더럽혀지더라도, 너를 끝나지 않는 밤에 가두게 되더라도… 나는 너를 놓지 않아… 절대로….<end>"
 
 ["1420414"]
 japanese = "追加メッセージここから<end>"
@@ -1415,6 +1431,10 @@ korean = "안 오네….<end>"
 ["1420640"]
 japanese = "（ぶじに通れてよかったね、<line-break><value:$28>。）<end>"
 korean = "(무사히 지나가서 다행이네, <value:$28>.)<end>"
+
+["1420641"]
+japanese = "…なんともまあ、<line-break>考えようによっては、<line-break>ぜいたくなことじゃな。<line-break>救世の英雄に、見送って<line-break>もらえるのじゃからな。<end>"
+korean = "…뭐랄까, 생각하기에 따라서는 호사스러운 일이군. 구세의 영웅에게 배웅받는 것이니.<end>"
 
 ["1420643"]
 japanese = "なあ、<value:$28>、<line-break>これからどうすんだよ？<line-break> <line-break>ホントに俺んちに遊びに<line-break>来ねえのか？<end>"

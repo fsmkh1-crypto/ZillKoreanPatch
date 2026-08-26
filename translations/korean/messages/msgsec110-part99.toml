@@ -88,6 +88,10 @@ korean = "네 이름 말이야. 확인해 두고 싶어.<end>"
 japanese = "あなた、<value:$2B>の<line-break><value:$28>ね。<line-break>　<end>"
 korean = "당신, <value:$2B>의 <value:$28>군요.<end>"
 
+["1100079"]
+japanese = "あなたのこと、調べさせてもらったわ。<line-break>今売り出し中の冒険者ね。<line-break>　<line-break>そして、古代の闇の怪物も<line-break>何度か退治している…。<end>"
+korean = "당신에 대해 조사해 봤어. 요즘 이름을 날리는 모험자더군. 그리고 고대의 어둠의 괴물도 몇 번이나 쓰러뜨렸고….<end>"
+
 ["1100080"]
 japanese = "…ありがとう。<end>"
 korean = "…고마워.<end>"

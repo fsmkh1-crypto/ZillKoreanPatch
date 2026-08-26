@@ -24,6 +24,10 @@ korean = "뭐, 뭘 하는 거야!<end>"
 japanese = "ひ、ひいい！<end>"
 korean = "히, 히익!<end>"
 
+["990008"]
+japanese = "あ、<value:$28>さん…。<line-break>い、いらっしゃいませ…。　　　　<line-break>　<line-break>あ、べ、別になんでもないんです。<line-break>し、仕事に戻らなくっちゃ…！<end>"
+korean = "아, <value:$28>님…. 어, 어서 오세요…. 아, 아뇨, 아무것도 아니에요. 이, 일하러 돌아가야 해…!<end>"
+
 ["990009"]
 japanese = "あー、<value:$28>。<line-break>酒場に来るんだったら<line-break>先に言っといてよ。　　　<line-break>あたし、食べ終わったじゃない。<end>"
 korean = "아, <value:$28>. 술집에 올 거면 미리 말하지. 나 벌써 다 먹었잖아.<end>"

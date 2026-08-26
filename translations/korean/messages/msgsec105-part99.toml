@@ -120,6 +120,10 @@ korean = "<value:$28>. 네가 있어 준다면, 우리는 아직 싸울 수 있�
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
 
+["1050075"]
+japanese = "おじさまの言ったことは、<line-break>…本当です。　<line-break>　<line-break>わたくしには、<line-break>あなたに守ってもらえる資格など、<line-break>本当はないのです。<end>"
+korean = "아저씨가 말한 것은… 사실입니다. 저에게는 당신의 보호를 받을 자격 같은 건 사실 없습니다.<end>"
+
 ["1050076"]
 japanese = "それだけ聞ければ、それでいい<end>"
 korean = "그것만 들으면 됐어.<end>"

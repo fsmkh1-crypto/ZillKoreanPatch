@@ -12,6 +12,10 @@ korean = "저기, 갈드란… 맞지?<end>"
 japanese = "ふっ、俺様のファンか！　　　　　<end>"
 korean = "훗, 내 팬인가!<end>"
 
+["450003"]
+japanese = "未来の勇者は忙しいが、<line-break>特別に握手に応じてやろう。<end>"
+korean = "미래의 용자는 바쁘지만 특별히 악수해 주지.<end>"
+
 ["450005"]
 japanese = "あ、危ないじゃないかっ！　　　　　<end>"
 korean = "아, 위험하잖아!<end>"
@@ -519,6 +523,10 @@ korean = "기다려! 반!<end>"
 ["450272"]
 japanese = "ねえ、<value:$28>、<line-break>一緒にヴァンを捜そうよ。<line-break>そうじゃないと、ヴァンは本当に…。<end>"
 korean = "저기, <value:$28>, 같이 반을 찾자. 안 그러면 반은 정말로….<end>"
+
+["450273"]
+japanese = "じゃ、一緒に冒険しながら<line-break>ヴァンの行方を捜そうね。<end>"
+korean = "그럼 같이 모험하면서 반의 행방을 찾아보자.<end>"
 
 ["450280"]
 japanese = "おなかが…すいて…。<end>"

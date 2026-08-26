@@ -20,6 +20,10 @@ korean = "있지. 안에 뭐가 들었는지 보고 싶지 않아?<end>"
 japanese = "あれ、<line-break><value:$28>じゃない？<end>"
 korean = "어라, <value:$28> 아니야?<end>"
 
+["880014"]
+japanese = "あぁ、リベルダムのこと？<line-break>残念だけど、ボクは…。<end>"
+korean = "아, 리벨덤 이야기? 아쉽지만 나는….<end>"
+
 ["880016"]
 japanese = "非市民じゃない<end>"
 korean = "비시민 아니야<end>"
@@ -127,6 +131,10 @@ korean = "고마워! 찾아와 준 거구나!<end>"
 ["880078"]
 japanese = "ホントごめんなさい！<end>"
 korean = "정말 미안해요!<end>"
+
+["880079"]
+japanese = "ボクだって…<line-break>いつでもキミのそばにいたいのに…。<end>"
+korean = "나도… 언제나 네 곁에 있고 싶은데….<end>"
 
 ["880080"]
 japanese = "へへー。<line-break>…ただいま。<end>"
@@ -240,6 +248,10 @@ korean = "미사용: 아, 아아….<end>"
 japanese = "<value:$28>さんですね。<end>"
 korean = "<value:$28> 씨군요.<end>"
 
+["880139"]
+japanese = "なんとしても、<line-break>１ケ月以内に捜しだしてください。<end>"
+korean = "무슨 수를 써서라도 한 달 안에 찾아 주세요.<end>"
+
 ["880141"]
 japanese = "<value:$28>！<line-break>危ない！<end>"
 korean = "<value:$28>! 위험해!<end>"
@@ -259,6 +271,10 @@ korean = "아, 움직여져!<end>"
 ["880149"]
 japanese = "くすっ、よかったね。<line-break><value:$28>に感謝しないとね。<line-break>じゃ、またね。<line-break>あははっ。<end>"
 korean = "후후, 다행이네. <value:$28>에게 감사해야겠어. 그럼 또 봐. 아하하.<end>"
+
+["880153"]
+japanese = "ありがと、<value:$28>。<line-break>じゃあ行こう。ラドラスへ。<line-break>　<line-break>ラドラスは<line-break>竜骨の砂漠の中にあるんだ。<line-break>ボクが案内するよ。<end>"
+korean = "고마워, <value:$28>. 그럼 가자. 라드라스로. 라드라스는 용골 사막 안에 있어. 내가 안내할게.<end>"
 
 ["880157"]
 japanese = "族長がいなければ、<line-break>ラドラスは砂漠に沈む。<end>"

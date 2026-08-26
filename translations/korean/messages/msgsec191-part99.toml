@@ -40,9 +40,17 @@ korean = "모두 걱정한다고 말한다<end>"
 japanese = "誰よりも自分が心配すると言う<end>"
 korean = "누구보다 자신이 걱정한다고 말한다<end>"
 
+["1910024"]
+japanese = "…そうだといいのですが。　　<line-break>　<line-break>　<line-break>でも、私、信じていますから。<line-break>もし、私がいなくなっても、<line-break><value:$28>様なら…。<end>"
+korean = "…그렇다면 좋겠지만요. 그래도 저는 믿고 있어요. 혹시 제가 없어져도 <value:$28>님이라면….<end>"
+
 ["1910025"]
 japanese = "<value:$28>様がきっと<line-break>私を見つけてくださると<line-break>信じていますから。<end>"
 korean = "<value:$28> 님이 분명 저를 찾아 주실 거라 믿으니까요.<end>"
+
+["1910026"]
+japanese = "…うれしいです。　　　　　　　　<line-break>　<line-break>　<line-break>本当は私、お城の人が<line-break>気づいてくれなくてもいいのです。<line-break><value:$28>様が…。<end>"
+korean = "…기뻐요. 사실은 성 사람들이 알아주지 않아도 괜찮아요. <value:$28>님이….<end>"
 
 ["1910027"]
 japanese = "<value:$28>様が私のことを<line-break>心配してくださるのなら、<line-break>それで十分ですから。<end>"

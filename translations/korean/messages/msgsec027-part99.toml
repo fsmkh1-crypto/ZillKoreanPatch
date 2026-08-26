@@ -76,6 +76,10 @@ korean = "<value:$28> 씨는 이미 결승에 출전할 자격을 갖고 있어�
 japanese = "それでも出場しますか？<end>"
 korean = "그래도 출전하시겠습니까?<end>"
 
+["270056"]
+japanese = "<value:$28>さんは<line-break>すでに決勝大会に出場する権利が　<line-break>ありますね。<line-break>８月に決勝大会がありますからね。<line-break>忘れずに来てくださいね。<end>"
+korean = "<value:$28>님은 이미 결승대회 출전 자격이 있습니다. 8월에 결승대회가 있으니 잊지 말고 와 주세요.<end>"
+
 ["270057"]
 japanese = "残念でしたね。<line-break>これは、勝利賞金です。　<line-break><line-break>また挑戦してくださいね。<end>"
 korean = "아쉽네요. 이건 승리 상금입니다. 또 도전해 주세요.<end>"

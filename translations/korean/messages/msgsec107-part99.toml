@@ -140,6 +140,10 @@ korean = "저주 가스가 뿜어져 나왔다<end>"
 japanese = "は呪われた。<end>"
 korean = "는 저주에 걸렸다.<end>"
 
+["1070046"]
+japanese = "宝箱を開けるには、<color:e>ディテクター<color:f>のスキルが<line-break>使えなくてはいけません。<line-break><color:b>グレモリイ<color:f>のソウルを宿してください。<end>"
+korean = "보물상자를 열려면 <color:e>디텍터<color:f> 스킬을 사용할 수 있어야 합니다. <color:b>그레모리<color:f>의 소울을 깃들게 하십시오.<end>"
+
 ["1070059"]
 japanese = "くそっ！<line-break>俺の手に負えない罠とはな…。<end>"
 korean = "젠장! 나로서도 감당 못 할 함정이라니….<end>"

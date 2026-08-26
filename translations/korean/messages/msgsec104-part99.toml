@@ -16,6 +16,10 @@ korean = "식은 죽 먹기지<end>"
 japanese = "かったるいな<end>"
 korean = "귀찮네<end>"
 
+["1040010"]
+japanese = "何かご用ですか？　　　　　　　　<line-break>　<line-break>　<line-break>ロティ様に届けもの？<line-break>そうですか、それはわざわざ<line-break>ご苦労さまでした。<end>"
+korean = "무슨 용건이십니까? 로티 님께 전해 드릴 물건이라고요? 그렇군요, 수고하셨습니다.<end>"
+
 ["1040015"]
 japanese = "早く届けてくれ。<line-break>重要な手紙なんだ。　　　　<end>"
 korean = "빨리 전해 줘. 중요한 편지다.<end>"

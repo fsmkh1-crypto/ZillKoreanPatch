@@ -4,6 +4,10 @@
 japanese = "アイリーンメッセージVOL4用開始<end>"
 korean = "아이린 메시지 VOL4용 시작<end>"
 
+["1010003"]
+japanese = "そう言うと思った。<line-break>相変わらず、バカね。　<line-break>　<line-break>今度、私と目があったら<line-break>すぐに逃げることね。<line-break>…首が飛ぶわよ。<end>"
+korean = "그렇게 말할 줄 알았어. 여전히 바보네. 다음에 나와 눈이 마주치면 바로 도망쳐. …목이 날아갈 거야.<end>"
+
 ["1010004"]
 japanese = "早く、行きなさい。<end>"
 korean = "빨리 가세요.<end>"
@@ -67,6 +71,10 @@ korean = "훌륭한 모험자가 되렴, <value:$28>.<end>"
 ["1010039"]
 japanese = "…私、軍務で忙しいの。<line-break>あなたも早く私から卒業して。<line-break>それじゃ、<value:$28>。<end>"
 korean = "…난 군무로 바빠. 너도 이제 나한테서 졸업해. 그럼, <value:$28>.<end>"
+
+["1010042"]
+japanese = "そう言うと思った。<line-break>相変わらず、バカね。　<line-break>　<line-break>今度、私と目があったら<line-break>すぐに逃げることね。<line-break>…首が飛ぶわよ。<end>"
+korean = "그렇게 말할 줄 알았어. 여전히 바보네. 다음에 나와 눈이 마주치면 바로 도망쳐. …목이 날아갈 거야.<end>"
 
 ["1010043"]
 japanese = "早く、行きなさい。<end>"

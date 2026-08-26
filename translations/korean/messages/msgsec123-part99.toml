@@ -4,6 +4,10 @@
 japanese = "………………。<line-break><line-break><line-break>相手の力量を見誤れば、死ぬ。<line-break>忘れるな。<end>"
 korean = "………………. 상대의 실력을 잘못 보면 죽는다. 잊지 마라.<end>"
 
+["1230038"]
+japanese = "テラネで依頼されたのは、<line-break>紺碧の洞窟での怪物退治よ。<line-break><line-break>さすがに紺碧の洞窟まで行くとなると<line-break>辺境という気がするわね。<end>"
+korean = "테라네에서 의뢰받은 건 감청색 동굴의 괴물 퇴치야. 감청색 동굴까지 가려니 확실히 변방이라는 느낌이 드네.<end>"
+
 ["1230049"]
 japanese = "紺碧の怪物を貝でぶつ！<line-break>略して、今回ぶつ！<line-break>かかってこんかい！<line-break>おそまつさまでござる。<end>"
 korean = "감청의 괴물을 조개로 후려친다! 줄여서 이번에도 친다! 덤벼라! 변변찮았습니다.<end>"
@@ -24,6 +28,10 @@ korean = "보고에 따르면 감청색 동굴의 마물은 꽤 강한 상대라
 japanese = "………………。<line-break><line-break><line-break>興味がない。<end>"
 korean = "………………. 관심 없어.<end>"
 
+["1230086"]
+japanese = "鳳凰が鳳凰山に降り立つということが<line-break>我が帝国に対して何を意味するのか、<line-break>そのことが気になる。<line-break>良い知らせであればいいが…。<end>"
+korean = "봉황이 봉황산에 내려온다는 게 우리 제국에 어떤 의미인지 신경 쓰이는군. 좋은 소식이면 좋겠지만….<end>"
+
 ["1230087"]
 japanese = "その子の言うことによれば、<line-break>鳳凰山に本物の鳳凰が<line-break>降り立ったというのですね？<line-break><value:$28>様は<line-break>お優しいのですね。<end>"
 korean = "그 아이 말로는 봉황산에 진짜 봉황이 내려앉았다는 거군요? <value:$28>님은 상냥하시네요.<end>"
@@ -43,6 +51,10 @@ korean = "넌 이 광대한 사막에서 조그만 목걸이를 찾겠다는 거
 ["1230115"]
 japanese = "………………。<line-break><line-break><line-break>興味がない。<end>"
 korean = "………………. 관심 없어.<end>"
+
+["1230123"]
+japanese = "不思議だな。<line-break>その水晶と首飾りが<line-break>反応し合うのか。<line-break>とりあえず<line-break>砂漠で首飾りを見つけて<line-break>あの娘に届けてやろう。<end>"
+korean = "신기하군. 그 수정과 목걸이가 서로 반응하는 건가. 일단 사막에서 목걸이를 찾아 그 아이에게 가져다주자.<end>"
 
 ["1230147"]
 japanese = "………………。<line-break><line-break><line-break>居住区は時計台広場の先だ。<end>"
