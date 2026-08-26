@@ -56,6 +56,10 @@ korean = "에아!! 그럴 수가……….<end>"
 japanese = "あなたは…？<end>"
 korean = "당신은…?<end>"
 
+["1330097"]
+japanese = "は、はい…。<line-break>あなたたちは…？<end>"
+korean = "네, 네…. 당신들은…?<end>"
+
 ["1330100"]
 japanese = "イークレムン殿！<end>"
 korean = "이클레문 공!<end>"
@@ -208,6 +212,10 @@ korean = "큭! 물러나라, 물러나!<end>"
 japanese = "市内の状況はどうなっている。<end>"
 korean = "시내 상황은 어떻게 되어 있지.<end>"
 
+["1330294"]
+japanese = "た、確かに我々では…<line-break>しかし…<end>"
+korean = "화, 확실히 우리로서는… 하지만…<end>"
+
 ["1330297"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -235,6 +243,10 @@ korean = "미래는 네게 맡기겠다.<end>"
 ["1330316"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1330317"]
+japanese = "汝も行け。<line-break>余の視界に立つな。<end>"
+korean = "그대도 가라. 짐의 시야에 서지 마라.<end>"
 
 ["1330318"]
 japanese = "はっ！<end>"

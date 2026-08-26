@@ -132,6 +132,10 @@ korean = "이, 이건… 혹시…!<end>"
 japanese = "伝説の魔道器だ！<end>"
 korean = "전설의 마도기다!<end>"
 
+["1980156"]
+japanese = "見てください、<value:$28>さん。<line-break>本当に…<line-break>本当にあったんです…。<end>"
+korean = "보세요, <value:$28> 씨. 정말… 정말 있었어요….<end>"
+
 ["1980158"]
 japanese = "あっ、<value:$28>さん…。<end>"
 korean = "앗, <value:$28> 씨….<end>"

@@ -200,6 +200,10 @@ korean = "우오오오오!<end>"
 japanese = "（…どうやら向こうから入れそうだ）<end>"
 korean = "(…아무래도 저쪽에서 들어갈 수 있겠군)<end>"
 
+["1340163"]
+japanese = "何者だ？<line-break>ここへ何をしに来た？<end>"
+korean = "누구냐? 여긴 무슨 일로 왔지?<end>"
+
 ["1340169"]
 japanese = "ジラーク将軍！！<end>"
 korean = "지라크 장군!!<end>"
@@ -399,6 +403,10 @@ korean = "으… 으….<end>"
 ["1340297"]
 japanese = "レイヴン、大丈夫？<end>"
 korean = "레이븐, 괜찮아?<end>"
+
+["1340298"]
+japanese = "……ふ、<line-break>また、か…。ふふ…。<end>"
+korean = "……후, 또인가…. 후후….<end>"
 
 ["1340301"]
 japanese = "し…獅子帝ネメア…。　<end>"

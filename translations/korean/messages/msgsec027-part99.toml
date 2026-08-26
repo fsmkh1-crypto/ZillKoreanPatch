@@ -4,6 +4,10 @@
 japanese = "うぬの戦い、<line-break>見せてもらおう。<end>"
 korean = "네 싸움, 지켜보겠다.<end>"
 
+["270023"]
+japanese = "大丈夫！<line-break><value:$28>なら楽勝だよ。<end>"
+korean = "괜찮아! <value:$28>라면 식은 죽 먹기야.<end>"
+
 ["270041"]
 japanese = "予選大会<end>"
 korean = "예선대회<end>"
@@ -31,6 +35,10 @@ korean = "설명을 끝낸다<end>"
 ["270049"]
 japanese = "ようこそ、強者の集う戦いの場へ。<end>"
 korean = "강자들이 모이는 전장에 온 것을 환영한다.<end>"
+
+["270051"]
+japanese = "<value:$28>さんは、<line-break>すでに決勝に出場できる権利を<line-break>持っていますよ。<end>"
+korean = "<value:$28> 씨는 이미 결승에 출전할 자격을 갖고 있어요.<end>"
 
 ["270052"]
 japanese = "それでも出場しますか？<end>"

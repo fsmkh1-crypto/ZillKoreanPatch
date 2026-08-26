@@ -96,6 +96,10 @@ korean = "에리스의 집무실<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["1800076"]
+japanese = "よ、<value:$28>、<line-break>困りごとかい？<end>"
+korean = "여어, <value:$28>. 무슨 고민이라도 있어?<end>"
+
 ["1800099"]
 japanese = "あの…、カルラ様。<end>"
 korean = "저기…, 카를라 님.<end>"
@@ -187,6 +191,10 @@ korean = "네메아를 쫓는다<end>"
 ["1800159"]
 japanese = "ネメアを追わない<end>"
 korean = "네메아를 쫓지 않는다<end>"
+
+["1800168"]
+japanese = "そこから離れろ！<line-break><value:$28>！！<end>"
+korean = "거기서 떨어져! <value:$28>!!<end>"
 
 ["1800176"]
 japanese = "まだ、ネメアを追う<end>"

@@ -88,6 +88,10 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1730074"]
+japanese = "それじゃ、またね。<line-break><value:$28>。<end>"
+korean = "그럼 또 보자, <value:$28>.<end>"
+
 ["1730078"]
 japanese = "いくわ！！　　　　　　　　　　　<end>"
 korean = "간다!!<end>"

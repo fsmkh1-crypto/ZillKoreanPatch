@@ -40,6 +40,10 @@ korean = "아!<end>"
 japanese = "みんな？<end>"
 korean = "다들?<end>"
 
+["310050"]
+japanese = "女、女って呼ぶな！<line-break>姉ちゃんにはちゃんと<line-break><value:$28>って名がある！<end>"
+korean = "여자, 여자라고 부르지 마! 누나한테도 <value:$28>라는 이름이 있어!<end>"
+
 ["310054"]
 japanese = "あの…、ちょっといいかな？<end>"
 korean = "저기…, 잠깐 괜찮아?<end>"
@@ -91,6 +95,10 @@ korean = "우리는 먼저 가 있겠다! <value:$28>도 서둘러 와 줘!<end>
 ["310096"]
 japanese = "ふん！！<line-break>なんだ、あいつ！<end>"
 korean = "흥!! 뭐야, 저 녀석!<end>"
+
+["310101"]
+japanese = "<value:$28>、<line-break>あいつらだけでは返り討ちだ。<line-break>急いでとめにいくぞ！！<end>"
+korean = "<value:$28>, 저 녀석들만 가면 되레 당한다. 서둘러 막으러 가자!!<end>"
 
 ["310109"]
 japanese = "ゲヒッ！<line-break><value:$28>！！<line-break>ここまで来やがったか！<end>"
