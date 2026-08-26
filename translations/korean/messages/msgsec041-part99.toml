@@ -136,6 +136,10 @@ korean = "네.<end>"
 japanese = "…ええ。<end>"
 korean = "…네.<end>"
 
+["410104"]
+japanese = "どうしたの、ナーシェス？<end>"
+korean = "왜 그래, 나셰스?<end>"
+
 ["410110"]
 japanese = "<value:$28>！<line-break>そんなのウソだよ！<line-break>僕を信じて！<end>"
 korean = "<value:$28>! 그런 건 거짓말이야! 날 믿어!<end>"
