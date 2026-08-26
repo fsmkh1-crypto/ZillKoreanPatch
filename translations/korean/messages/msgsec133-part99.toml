@@ -152,6 +152,10 @@ korean = "<value:$28> 씨……! 분명, 분명 와 줄 거라고 생각했어�
 japanese = "<value:$28>さん……？<line-break>助けに来て…くださったのですか？<line-break>　<line-break>ありがとう…ございます……。<end>"
 korean = "<value:$28>님……? 구하러… 와 주신 건가요? 감사…합니다…….<end>"
 
+["1330111"]
+japanese = "ここを、動かなくしよう。<line-break>二度と使えないように。<end>"
+korean = "여기를 움직이지 못하게 하자. 다시는 쓸 수 없게.<end>"
+
 ["1330116"]
 japanese = "せーの！！<end>"
 korean = "하나, 둘!!<end>"
