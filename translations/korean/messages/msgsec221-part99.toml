@@ -4,6 +4,10 @@
 japanese = "どうしたの？<end>"
 korean = "무슨 일이야?<end>"
 
+["2210009"]
+japanese = "うん、約束するよ。<end>"
+korean = "응, 약속할게.<end>"
+
 ["2210022"]
 japanese = "お母さん！<end>"
 korean = "엄마!<end>"

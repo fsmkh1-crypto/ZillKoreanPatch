@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2090000"]
+japanese = "異種族間の３用開始<end>"
+korean = "이종족 간 3용 시작<end>"
+
 ["2090008"]
 japanese = "いいよ<end>"
 korean = "좋아<end>"
@@ -7,3 +11,7 @@ korean = "좋아<end>"
 ["2090009"]
 japanese = "今は忙しい<end>"
 korean = "지금은 바빠<end>"
+
+["2090014"]
+japanese = "異種族間の３用終端<end>"
+korean = "이종족 간 3용 끝<end>"

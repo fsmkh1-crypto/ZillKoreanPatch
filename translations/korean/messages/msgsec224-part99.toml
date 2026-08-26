@@ -12,6 +12,10 @@ korean = "윽…, 윽….<end>"
 japanese = "…何だ、貴様は？<end>"
 korean = "…뭐냐, 네놈은?<end>"
 
+["2240012"]
+japanese = "待て、逃がすかッ！<end>"
+korean = "기다려, 놓칠까 보냐!<end>"
+
 ["2240013"]
 japanese = "どわっ！！<end>"
 korean = "으악!!<end>"
@@ -19,3 +23,7 @@ korean = "으악!!<end>"
 ["2240017"]
 japanese = "ぐわっ…。<end>"
 korean = "크악….<end>"
+
+["2240023"]
+japanese = "…おお、勇者復活！<end>"
+korean = "…오오, 용사 부활!<end>"

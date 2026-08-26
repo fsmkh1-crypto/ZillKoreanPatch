@@ -24,6 +24,10 @@ korean = "기꺼이.<end>"
 japanese = "は、はい…。<end>"
 korean = "네, 네….<end>"
 
+["1980056"]
+japanese = "確かにおかしな話だ<end>"
+korean = "확실히 이상한 이야기야<end>"
+
 ["1980060"]
 japanese = "ええっ！？<end>"
 korean = "뭐!?<end>"
@@ -36,9 +40,17 @@ korean = "앗….<end>"
 japanese = "ええっ！<end>"
 korean = "에엣!<end>"
 
+["1980105"]
+japanese = "いえ。ありますよ。<end>"
+korean = "아니요. 있어요.<end>"
+
 ["1980106"]
 japanese = "はいっ！？<end>"
 korean = "네!?<end>"
+
+["1980111"]
+japanese = "何か言いましたか？<end>"
+korean = "뭐라고 하셨나요?<end>"
 
 ["1980132"]
 japanese = "どうしても？<end>"
@@ -60,6 +72,22 @@ korean = "그런 일은…<end>"
 japanese = "ええっ！<end>"
 korean = "에엣!<end>"
 
+["1980198"]
+japanese = "そ、そうですか…。<end>"
+korean = "그, 그런가요….<end>"
+
+["1980209"]
+japanese = "いえ。ありますよ。<end>"
+korean = "아니요. 있어요.<end>"
+
 ["1980210"]
 japanese = "はいっ！？<end>"
 korean = "네!?<end>"
+
+["1980215"]
+japanese = "何か言いましたか？<end>"
+korean = "뭐라고 하셨나요?<end>"
+
+["1980232"]
+japanese = "そ、そうですか…。<end>"
+korean = "그, 그런가요….<end>"

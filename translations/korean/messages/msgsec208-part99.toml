@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2080000"]
+japanese = "異種族間の２用開始<end>"
+korean = "이종족 간 2용 시작<end>"
+
 ["2080007"]
 japanese = "仕方ないな<end>"
 korean = "어쩔 수 없군<end>"
@@ -7,3 +11,7 @@ korean = "어쩔 수 없군<end>"
 ["2080008"]
 japanese = "忙しいからダメ<end>"
 korean = "바쁘니까 안 돼<end>"
+
+["2080012"]
+japanese = "異種族間の２用終端<end>"
+korean = "이종족 간 2용 끝<end>"

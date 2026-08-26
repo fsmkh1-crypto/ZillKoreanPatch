@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["280000"]
+japanese = "旅立ち０１メッセージ<end>"
+korean = "여행 출발 01 메시지<end>"
+
 ["280002"]
 japanese = "よう。<end>"
 korean = "여어.<end>"
@@ -39,6 +43,18 @@ korean = "나, 나도 괜찮아?<end>"
 ["280102"]
 japanese = "うあーーーっ！！<end>"
 korean = "으아ーーー앗!!<end>"
+
+["280122"]
+japanese = "そうだね、行こうか。<end>"
+korean = "그래, 가자.<end>"
+
+["280123"]
+japanese = "ヴァン！　危ない！！<end>"
+korean = "반! 위험해!!<end>"
+
+["280124"]
+japanese = "ナッジ！　どうする？<end>"
+korean = "나지! 어떻게 할래?<end>"
 
 ["280125"]
 japanese = "よし、行こう！<end>"

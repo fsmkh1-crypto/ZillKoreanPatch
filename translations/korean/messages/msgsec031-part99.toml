@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["310000"]
+japanese = "旅立ち０４メッセージ<end>"
+korean = "여행 출발 04 메시지<end>"
+
 ["310012"]
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
@@ -15,6 +19,10 @@ korean = "아!<end>"
 ["310047"]
 japanese = "みんな？<end>"
 korean = "다들?<end>"
+
+["310057"]
+japanese = "そう…、ありがとう。<end>"
+korean = "그래…, 고마워.<end>"
 
 ["310066"]
 japanese = "そうなるといいね<end>"
@@ -43,6 +51,10 @@ korean = "무슨 짓을 할 셈이야!<end>"
 ["310144"]
 japanese = "姉ちゃん！！<end>"
 korean = "누나!!<end>"
+
+["310147"]
+japanese = "レムオンについていく<end>"
+korean = "레몬을 따라간다<end>"
 
 ["310157"]
 japanese = "な、な、なんだ！？<end>"
@@ -88,6 +100,10 @@ korean = "윽!!<end>"
 japanese = "レムオン？<end>"
 korean = "레몬?<end>"
 
+["310191"]
+japanese = "長老…、お前ら…！！<end>"
+korean = "장로…, 네놈들…!!<end>"
+
 ["310199"]
 japanese = "撃て！！<end>"
 korean = "쏴!!<end>"
@@ -103,6 +119,10 @@ korean = "히이익!!<end>"
 ["310210"]
 japanese = "え…！？<end>"
 korean = "어…!?<end>"
+
+["310211"]
+japanese = "今のは、いったい…？<end>"
+korean = "방금 건 대체…?<end>"
 
 ["310218"]
 japanese = "（チャカ…。）<end>"

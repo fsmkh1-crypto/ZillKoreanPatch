@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2130000"]
+japanese = "異種族間の６用開始<end>"
+korean = "이종족 간 6용 시작<end>"
+
+["2130001"]
+japanese = "よぉ、あんたか…！<end>"
+korean = "여어, 당신인가…!<end>"
+
 ["2130006"]
 japanese = "…あんたは？<end>"
 korean = "…당신은?<end>"
@@ -15,3 +23,7 @@ korean = "지금은 좀….<end>"
 ["2130016"]
 japanese = "そうか…。<end>"
 korean = "그런가….<end>"
+
+["2130020"]
+japanese = "異種族間の６用終端<end>"
+korean = "이종족 간 6용 끝<end>"

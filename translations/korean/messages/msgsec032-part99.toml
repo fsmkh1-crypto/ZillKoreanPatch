@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["320000"]
+japanese = "旅立ち０５メッセージ<end>"
+korean = "여행 출발 05 메시지<end>"
+
 ["320001"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
@@ -95,3 +99,7 @@ korean = "네 이름은?<end>"
 ["320108"]
 japanese = "…来い。<end>"
 korean = "…와.<end>"
+
+["320113"]
+japanese = "…ロイは生きている。<end>"
+korean = "…로이는 살아 있어.<end>"

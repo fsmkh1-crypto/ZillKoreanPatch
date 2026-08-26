@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["300000"]
+japanese = "旅立ち０３メッセージ<end>"
+korean = "여행 출발 03 메시지<end>"
+
 ["300008"]
 japanese = "させないっ！<end>"
 korean = "그렇게는 못 해!<end>"
+
+["300029"]
+japanese = "や、やめてください！<end>"
+korean = "그, 그만해 주세요!<end>"
 
 ["300044"]
 japanese = "あっ、<value:$28>さん！<end>"

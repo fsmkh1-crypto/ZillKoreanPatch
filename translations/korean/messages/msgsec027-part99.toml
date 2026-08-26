@@ -32,6 +32,14 @@ korean = "준비돼 있다<end>"
 japanese = "まだできていない<end>"
 korean = "아직 못 했어<end>"
 
+["270093"]
+japanese = "戦闘に勝った事にする<end>"
+korean = "전투에서 이긴 것으로 한다<end>"
+
+["270094"]
+japanese = "戦闘で負けた事にする<end>"
+korean = "전투에서 진 것으로 한다<end>"
+
 ["270126"]
 japanese = "へへ。よろしくな。<end>"
 korean = "헤헤. 잘 부탁한다.<end>"

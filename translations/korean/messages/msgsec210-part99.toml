@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2100000"]
+japanese = "異種族間の４用開始<end>"
+korean = "이종족 간 4용 시작<end>"
+
 ["2100008"]
 japanese = "一緒に行く<end>"
 korean = "같이 간다<end>"
@@ -15,3 +19,7 @@ korean = "어?<end>"
 ["2100020"]
 japanese = "まあ…。<end>"
 korean = "어머….<end>"
+
+["2100022"]
+japanese = "異種族間の４用終端<end>"
+korean = "이종족 간 4용 끝<end>"
