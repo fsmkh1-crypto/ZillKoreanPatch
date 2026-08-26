@@ -1684,6 +1684,34 @@ korean = "죄 많은 자의 미궁 5<end>"
 japanese = "罪深き者の迷宮６<end>"
 korean = "죄 많은 자의 미궁 6<end>"
 
+["350696"]
+japanese = "告死天使アジト１<end>"
+korean = "고사천사 아지트 1<end>"
+
+["350697"]
+japanese = "告死天使アジト２<end>"
+korean = "고사천사 아지트 2<end>"
+
+["350698"]
+japanese = "告死天使アジト３<end>"
+korean = "고사천사 아지트 3<end>"
+
+["350699"]
+japanese = "告死天使アジト４<end>"
+korean = "고사천사 아지트 4<end>"
+
+["350700"]
+japanese = "告死天使アジト５<end>"
+korean = "고사천사 아지트 5<end>"
+
+["350701"]
+japanese = "告死天使アジト６<end>"
+korean = "고사천사 아지트 6<end>"
+
+["350702"]
+japanese = "告死天使アジト７<end>"
+korean = "고사천사 아지트 7<end>"
+
 ["350739"]
 japanese = "ロセン～テラネ<end>"
 korean = "로센~테라네<end>"
@@ -1691,6 +1719,14 @@ korean = "로센~테라네<end>"
 ["350740"]
 japanese = "ロセン～エルズ<end>"
 korean = "로센~엘즈<end>"
+
+["350744"]
+japanese = "アミラル～エルズ<end>"
+korean = "아미랄~엘즈<end>"
+
+["350745"]
+japanese = "ロストール：近郊<end>"
+korean = "로스톨: 근교<end>"
 
 ["350746"]
 japanese = "ロストール：丘<end>"
@@ -1724,6 +1760,26 @@ korean = "노블의 숲<end>"
 japanese = "ドンパドンの船<end>"
 korean = "돈파돈의 배<end>"
 
+["350754"]
+japanese = "バルザーの迷宮１<end>"
+korean = "발자르의 미궁 1<end>"
+
+["350755"]
+japanese = "バルザーの迷宮２<end>"
+korean = "발자르의 미궁 2<end>"
+
+["350756"]
+japanese = "バルザーの迷宮３<end>"
+korean = "발자르의 미궁 3<end>"
+
+["350757"]
+japanese = "バルザーの迷宮４<end>"
+korean = "발자르의 미궁 4<end>"
+
+["350758"]
+japanese = "バルザーの迷宮５<end>"
+korean = "발자르의 미궁 5<end>"
+
 ["350765"]
 japanese = "盗人村：寮内<end>"
 korean = "도둑 마을: 기숙사 내부<end>"
@@ -1731,6 +1787,10 @@ korean = "도둑 마을: 기숙사 내부<end>"
 ["350766"]
 japanese = "盗人村：広場<end>"
 korean = "도둑 마을: 광장<end>"
+
+["350771"]
+japanese = "ミイスの村：広場<end>"
+korean = "미이스 마을: 광장<end>"
 
 ["350779"]
 japanese = "ロセン地下道１<end>"
@@ -1796,9 +1856,33 @@ korean = "이차원의 세계 7<end>"
 japanese = "異次元の世界８<end>"
 korean = "이차원의 세계 8<end>"
 
+["350795"]
+japanese = "シャリの隠れ家１<end>"
+korean = "샤리의 은신처 1<end>"
+
+["350796"]
+japanese = "シャリの隠れ家２<end>"
+korean = "샤리의 은신처 2<end>"
+
+["350797"]
+japanese = "シャリの隠れ家３<end>"
+korean = "샤리의 은신처 3<end>"
+
+["350798"]
+japanese = "シャリの隠れ家４<end>"
+korean = "샤리의 은신처 4<end>"
+
+["350799"]
+japanese = "シャリの隠れ家５<end>"
+korean = "샤리의 은신처 5<end>"
+
 ["350803"]
 japanese = "聖光石の鉱山９<end>"
 korean = "성광석 광산 9<end>"
+
+["350804"]
+japanese = "聖光石の鉱山１０<end>"
+korean = "성광석 광산 10<end>"
 
 ["350807"]
 japanese = "山越え戦場１<end>"
@@ -1811,6 +1895,10 @@ korean = "산넘이 전장 2<end>"
 ["350810"]
 japanese = "ザギヴ暴走後<end>"
 korean = "자기브 폭주 후<end>"
+
+["350812"]
+japanese = "オズワルド・遠景<end>"
+korean = "오즈월드・원경<end>"
 
 ["350813"]
 japanese = "盗人虎の穴１<end>"
@@ -1839,6 +1927,46 @@ korean = "도둑 호랑이굴 6<end>"
 ["350819"]
 japanese = "盗人虎の穴前<end>"
 korean = "도둑 호랑이굴 앞<end>"
+
+["350820"]
+japanese = "荒れ果てた迷宮１<end>"
+korean = "황폐한 미궁 1<end>"
+
+["350821"]
+japanese = "荒れ果てた迷宮２<end>"
+korean = "황폐한 미궁 2<end>"
+
+["350822"]
+japanese = "荒れ果てた迷宮３<end>"
+korean = "황폐한 미궁 3<end>"
+
+["350823"]
+japanese = "荒れ果てた迷宮４<end>"
+korean = "황폐한 미궁 4<end>"
+
+["350824"]
+japanese = "荒れ果てた迷宮５<end>"
+korean = "황폐한 미궁 5<end>"
+
+["350825"]
+japanese = "荒れ果てた迷宮６<end>"
+korean = "황폐한 미궁 6<end>"
+
+["350826"]
+japanese = "荒れ果てた迷宮７<end>"
+korean = "황폐한 미궁 7<end>"
+
+["350827"]
+japanese = "荒れ果てた迷宮８<end>"
+korean = "황폐한 미궁 8<end>"
+
+["350828"]
+japanese = "荒れ果てた迷宮９<end>"
+korean = "황폐한 미궁 9<end>"
+
+["350829"]
+japanese = "荒れ果てた迷宮前<end>"
+korean = "황폐한 미궁 앞<end>"
 
 ["350830"]
 japanese = "最後の迷宮１<end>"
@@ -1884,6 +2012,38 @@ korean = "최후의 미궁 10<end>"
 japanese = "最後の迷宮前<end>"
 korean = "최후의 미궁 앞<end>"
 
+["350841"]
+japanese = "シャリの異次元１<end>"
+korean = "샤리의 이차원 1<end>"
+
+["350842"]
+japanese = "シャリの異次元２<end>"
+korean = "샤리의 이차원 2<end>"
+
+["350843"]
+japanese = "シャリの異次元３<end>"
+korean = "샤리의 이차원 3<end>"
+
+["350844"]
+japanese = "シャリの異次元４<end>"
+korean = "샤리의 이차원 4<end>"
+
+["350845"]
+japanese = "シャリの異次元５<end>"
+korean = "샤리의 이차원 5<end>"
+
+["350846"]
+japanese = "シャリの異次元６<end>"
+korean = "샤리의 이차원 6<end>"
+
+["350847"]
+japanese = "シャリの異次元７<end>"
+korean = "샤리의 이차원 7<end>"
+
+["350848"]
+japanese = "シャリの異次元８<end>"
+korean = "샤리의 이차원 8<end>"
+
 ["350850"]
 japanese = "山賊の砦１<end>"
 korean = "산적의 요새1<end>"
@@ -1903,3 +2063,7 @@ korean = "선상<end>"
 ["350861"]
 japanese = "邪竜解放後<end>"
 korean = "사룡 해방 후<end>"
+
+["350904"]
+japanese = "廃城４：鉄扉開き<end>"
+korean = "폐성 4: 철문 열림<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["590001"]
+japanese = "待ってください。<end>"
+korean = "기다려 주세요.<end>"
+
 ["590013"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -31,6 +35,10 @@ korean = "참가하지 않는다<end>"
 ["590095"]
 japanese = "期待している。<end>"
 korean = "기대하고 있다.<end>"
+
+["590106"]
+japanese = "て、て、敵襲ー！<end>"
+korean = "저, 저, 적습이다ー!<end>"
 
 ["590110"]
 japanese = "ゆくぞ！<end>"

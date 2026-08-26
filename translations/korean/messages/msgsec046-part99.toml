@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["460002"]
+japanese = "黙れ、この野郎！<end>"
+korean = "닥쳐, 이 자식아!<end>"
+
 ["460004"]
 japanese = "待て！　悪人！<end>"
 korean = "거기 서! 악당!<end>"
@@ -40,13 +44,25 @@ korean = "아버지!<end>"
 japanese = "すまないな。<end>"
 korean = "미안하군.<end>"
 
+["460144"]
+japanese = "猫がしゃべった！<end>"
+korean = "고양이가 말했다!<end>"
+
 ["460152"]
 japanese = "くすっ。<end>"
 korean = "후훗.<end>"
 
+["460171"]
+japanese = "無限のソウルとは<end>"
+korean = "무한의 소울이란<end>"
+
 ["460172"]
 japanese = "転送機について<end>"
 korean = "전송기에 대해<end>"
+
+["460173"]
+japanese = "闇の神器について<end>"
+korean = "어둠의 신기에 대하여<end>"
 
 ["460174"]
 japanese = "ネモについて<end>"

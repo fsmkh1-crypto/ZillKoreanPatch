@@ -24,6 +24,10 @@ korean = "여동생?<end>"
 japanese = "兄さん！<end>"
 korean = "형!<end>"
 
+["420086"]
+japanese = "早くしろ。行け。<end>"
+korean = "서둘러. 가.<end>"
+
 ["420100"]
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
@@ -32,13 +36,25 @@ korean = "형….<end>"
 japanese = "おもしろそうね<end>"
 korean = "재미있겠네<end>"
 
+["420210"]
+japanese = "猫がしゃべった！<end>"
+korean = "고양이가 말했다!<end>"
+
 ["420217"]
 japanese = "くすっ。<end>"
 korean = "후훗.<end>"
 
+["420228"]
+japanese = "無限のソウルとは<end>"
+korean = "무한의 소울이란<end>"
+
 ["420229"]
 japanese = "転送機について<end>"
 korean = "전송기에 대해<end>"
+
+["420230"]
+japanese = "闇の神器について<end>"
+korean = "어둠의 신기에 대하여<end>"
 
 ["420231"]
 japanese = "ネモについて<end>"

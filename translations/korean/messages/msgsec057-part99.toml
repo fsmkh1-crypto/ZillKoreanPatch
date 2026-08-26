@@ -12,6 +12,10 @@ korean = "그건?<end>"
 japanese = "こいつですよ。<end>"
 korean = "이 녀석이에요.<end>"
 
+["570029"]
+japanese = "なんだ、そいつ？<end>"
+korean = "뭐야, 저 녀석?<end>"
+
 ["570042"]
 japanese = "これは？<end>"
 korean = "이건?<end>"
@@ -20,9 +24,21 @@ korean = "이건?<end>"
 japanese = "なるほどな。<end>"
 korean = "그렇군.<end>"
 
+["570054"]
+japanese = "何か質問ですか？<end>"
+korean = "뭔가 질문 있으신가요?<end>"
+
+["570055"]
+japanese = "無限のソウルとは<end>"
+korean = "무한의 소울이란<end>"
+
 ["570056"]
 japanese = "転送機について<end>"
 korean = "전송기에 대해<end>"
+
+["570057"]
+japanese = "闇の神器について<end>"
+korean = "어둠의 신기에 대하여<end>"
 
 ["570058"]
 japanese = "ネモについて<end>"

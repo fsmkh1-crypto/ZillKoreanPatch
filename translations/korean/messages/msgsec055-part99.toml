@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["550006"]
+japanese = "よっ、勇者様～！<end>"
+korean = "여어, 용사님~!<end>"
+
 ["550023"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
@@ -108,6 +112,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550077"]
+japanese = "た、助けてくれ！<end>"
+korean = "사, 살려 줘!<end>"
+
 ["550078"]
 japanese = "きゃ～っ！<end>"
 korean = "꺄~!<end>"
@@ -180,6 +188,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550138"]
+japanese = "た、助けてくれ！<end>"
+korean = "사, 살려 줘!<end>"
+
 ["550139"]
 japanese = "きゃ～っ！<end>"
 korean = "꺄~!<end>"
@@ -187,6 +199,10 @@ korean = "꺄~!<end>"
 ["550141"]
 japanese = "…ヴァン？<end>"
 korean = "…반?<end>"
+
+["550143"]
+japanese = "さ、さすが師匠！<end>"
+korean = "여, 역시 스승님!<end>"
 
 ["550151"]
 japanese = "＜無＞<end>"
@@ -643,6 +659,10 @@ korean = "포기하지 마<end>"
 ["550314"]
 japanese = "剣の言葉を聞け<end>"
 korean = "검의 말을 들어라<end>"
+
+["550318"]
+japanese = "剣が…答えた…？<end>"
+korean = "검이… 대답했어…?<end>"
 
 ["550331"]
 japanese = "<value:$28>さん！<end>"

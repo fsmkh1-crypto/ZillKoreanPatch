@@ -8,13 +8,53 @@ korean = "됐어<end>"
 japanese = "聞くのをやめる<end>"
 korean = "듣는 걸 그만둔다<end>"
 
+["380016"]
+japanese = "<color:h>エア<color:o><end>"
+korean = "<color:h>에어<color:o><end>"
+
+["380026"]
+japanese = "<color:h>セラ<color:o><end>"
+korean = "<color:h>세라<color:o><end>"
+
+["380042"]
+japanese = "<color:h>ロイ<color:o><end>"
+korean = "<color:h>로이<color:o><end>"
+
+["380050"]
+japanese = "ヴァン、ねえ…。<end>"
+korean = "반, 이라….<end>"
+
 ["380052"]
 japanese = "エア、ねえ…。<end>"
 korean = "에어, 라….<end>"
 
+["380054"]
+japanese = "エスト、ねえ…。<end>"
+korean = "에스트, 라….<end>"
+
+["380057"]
+japanese = "カルラ、ねえ…。<end>"
+korean = "카를라, 라….<end>"
+
+["380059"]
+japanese = "ザギヴ、ねえ…。<end>"
+korean = "자기브, 라….<end>"
+
 ["380062"]
 japanese = "セラ、ねえ…。<end>"
 korean = "세라, 라….<end>"
+
+["380067"]
+japanese = "ノエル、ねえ…。<end>"
+korean = "노엘, 이라….<end>"
+
+["380071"]
+japanese = "フレア、ねえ…。<end>"
+korean = "플레어, 라….<end>"
+
+["380075"]
+japanese = "レーグ、ねえ…。<end>"
+korean = "레그, 라….<end>"
 
 ["380078"]
 japanese = "ロイ、ねえ…。<end>"
@@ -24,13 +64,41 @@ korean = "로이, 라….<end>"
 japanese = "もういい<end>"
 korean = "됐어<end>"
 
+["380098"]
+japanese = "ヴァン、ねえ…。<end>"
+korean = "반, 이라….<end>"
+
 ["380100"]
 japanese = "エア、ねえ…。<end>"
 korean = "에어, 라….<end>"
 
+["380102"]
+japanese = "エスト、ねえ…。<end>"
+korean = "에스트, 라….<end>"
+
+["380104"]
+japanese = "カルラ、ねえ…。<end>"
+korean = "카를라, 라….<end>"
+
+["380106"]
+japanese = "ザギヴ、ねえ…。<end>"
+korean = "자기브, 라….<end>"
+
 ["380108"]
 japanese = "セラ、ねえ…。<end>"
 korean = "세라, 라….<end>"
+
+["380113"]
+japanese = "ノエル、ねえ…。<end>"
+korean = "노엘, 이라….<end>"
+
+["380116"]
+japanese = "フレア、ねえ…。<end>"
+korean = "플레어, 라….<end>"
+
+["380120"]
+japanese = "レーグ、ねえ…。<end>"
+korean = "레그, 라….<end>"
 
 ["380123"]
 japanese = "ロイ、ねえ…。<end>"
@@ -51,3 +119,7 @@ korean = "로이<end>"
 ["380134"]
 japanese = "ロイ、ねえ…。<end>"
 korean = "로이, 라….<end>"
+
+["380135"]
+japanese = "チャカ、ねえ…。<end>"
+korean = "차카, 라….<end>"

@@ -4,6 +4,14 @@
 japanese = "？<end>"
 korean = "？<end>"
 
+["450021"]
+japanese = "うわっ！　目が！<end>"
+korean = "으악! 눈이!<end>"
+
+["450033"]
+japanese = "力が…欲しい…。<end>"
+korean = "힘이… 필요해….<end>"
+
 ["450037"]
 japanese = "人殺し！<end>"
 korean = "살인자!<end>"
@@ -11,6 +19,10 @@ korean = "살인자!<end>"
 ["450040"]
 japanese = "くそっ！<end>"
 korean = "젠장!<end>"
+
+["450041"]
+japanese = "勇者は…孤独だ！<end>"
+korean = "용사는… 고독해!<end>"
 
 ["450042"]
 japanese = "大丈夫か？<end>"
@@ -31,6 +43,10 @@ korean = "동료로 삼지 않는다<end>"
 ["450117"]
 japanese = "泊まっていく<end>"
 korean = "묵고 간다<end>"
+
+["450118"]
+japanese = "泊まっていかない<end>"
+korean = "묵고 가지 않는다<end>"
 
 ["450138"]
 japanese = "待て。<end>"
@@ -83,6 +99,14 @@ korean = "열!<end>"
 ["450182"]
 japanese = "は、はい。<end>"
 korean = "네, 네.<end>"
+
+["450185"]
+japanese = "ぶっ殺してやる！<end>"
+korean = "죽여 버리겠어!<end>"
+
+["450195"]
+japanese = "ガルドランが…！<end>"
+korean = "가르드란이…!<end>"
 
 ["450215"]
 japanese = "お客さん。<end>"

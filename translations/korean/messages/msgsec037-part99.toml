@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["370029"]
+japanese = "う、わわわああ。<end>"
+korean = "으, 와아아아.<end>"
+
 ["370036"]
 japanese = "えっ！<end>"
 korean = "엣!<end>"
@@ -7,6 +11,10 @@ korean = "엣!<end>"
 ["370038"]
 japanese = "はぁ？<end>"
 korean = "하아?<end>"
+
+["370043"]
+japanese = "へ？　なんでだ？<end>"
+korean = "엥? 왜?<end>"
 
 ["370062"]
 japanese = "わかってる。<end>"
@@ -56,6 +64,10 @@ korean = "뭐라고?<end>"
 japanese = "えらい。<end>"
 korean = "대단해.<end>"
 
+["370124"]
+japanese = "最悪の人間って？<end>"
+korean = "최악의 인간이라고?<end>"
+
 ["370127"]
 japanese = "はい。<end>"
 korean = "네.<end>"
@@ -75,6 +87,10 @@ korean = "지금은 말이지.<end>"
 ["370216"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"
+
+["370230"]
+japanese = "…わかってるさ。<end>"
+korean = "…알고 있어.<end>"
 
 ["370242"]
 japanese = "くっ！！<end>"
@@ -99,3 +115,39 @@ korean = "싫은데.<end>"
 ["370273"]
 japanese = "元気で、な…。<end>"
 korean = "잘 지내라….<end>"
+
+["370287"]
+japanese = "予備メッセージ１<end>"
+korean = "예비 메시지 1<end>"
+
+["370288"]
+japanese = "予備メッセージ２<end>"
+korean = "예비 메시지 2<end>"
+
+["370289"]
+japanese = "予備メッセージ３<end>"
+korean = "예비 메시지 3<end>"
+
+["370290"]
+japanese = "予備メッセージ４<end>"
+korean = "예비 메시지 4<end>"
+
+["370291"]
+japanese = "予備メッセージ５<end>"
+korean = "예비 메시지 5<end>"
+
+["370292"]
+japanese = "予備メッセージ６<end>"
+korean = "예비 메시지 6<end>"
+
+["370293"]
+japanese = "予備メッセージ７<end>"
+korean = "예비 메시지 7<end>"
+
+["370294"]
+japanese = "予備メッセージ８<end>"
+korean = "예비 메시지 8<end>"
+
+["370295"]
+japanese = "予備メッセージ９<end>"
+korean = "예비 메시지 9<end>"
