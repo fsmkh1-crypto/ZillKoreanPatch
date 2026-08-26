@@ -80,6 +80,10 @@ korean = "효도….<end>"
 japanese = "たくさん、たくさんなぁ…。<line-break>　<end>"
 korean = "많이, 아주 많이….<end>"
 
+["460070"]
+japanese = "ヴァン、どうしたの？<line-break>喜んでくれないの？<end>"
+korean = "반, 왜 그래? 기쁘지 않아?<end>"
+
 ["460081"]
 japanese = "…ナッジのこと、頼むぜ。<end>"
 korean = "…나지 부탁한다.<end>"
@@ -104,6 +108,10 @@ korean = "피로는 좀 풀렸어?<end>"
 japanese = "それはよかった。　　　　　　　　　<end>"
 korean = "그건 다행이군.<end>"
 
+["460092"]
+japanese = "生きてたら、また顔出せよ。<line-break>歓迎するぜ。<end>"
+korean = "살아 있으면 또 들러. 환영할게.<end>"
+
 ["460094"]
 japanese = "親父、やめろ。<end>"
 korean = "아버지, 그만해.<end>"
@@ -111,6 +119,10 @@ korean = "아버지, 그만해.<end>"
 ["460095"]
 japanese = "…ヴァン。<end>"
 korean = "…반.<end>"
+
+["460097"]
+japanese = "ヴァンが、そう言うなら…<line-break>私も、別に…。<end>"
+korean = "반이 그렇게 말한다면… 나도 딱히….<end>"
 
 ["460099"]
 japanese = "くっ、冒険者なんて…！<end>"

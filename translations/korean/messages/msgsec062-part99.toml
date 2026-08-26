@@ -20,6 +20,10 @@ korean = "이 손님, 취해 있어서….<end>"
 japanese = "こ、こんなはずは…。<line-break>　<line-break>　<line-break>ええい、まだだ！<line-break>俺様の無敵伝説は<line-break>これから始まるんだ！<end>"
 korean = "이, 이럴 리가…. 젠장, 아직이다! 나의 무적 전설은 이제부터 시작이다!<end>"
 
+["620012"]
+japanese = "ありがとうございますっ！<line-break>大丈夫ですか？<end>"
+korean = "감사합니다! 괜찮으세요?<end>"
+
 ["620013"]
 japanese = "お強いんですね。感心します。<end>"
 korean = "강하시네요. 감탄했어요.<end>"
@@ -75,6 +79,10 @@ korean = "아앗! 너희들!<end>"
 ["620037"]
 japanese = "む、ガサツ女にその他１名！<end>"
 korean = "음, 거친 여자와 기타 1명!<end>"
+
+["620040"]
+japanese = "何が天から与えられたよ！<line-break>盗んだくせに！<end>"
+korean = "뭐가 하늘이 내린 거야! 훔친 주제에!<end>"
 
 ["620044"]
 japanese = "ああ、メシ～。<end>"

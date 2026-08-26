@@ -1000,6 +1000,10 @@ korean = "왜 그래? 표정이 어둡군.<end>"
 japanese = "…妙だ。<line-break>人がいない。<end>"
 korean = "…이상해. 사람이 없어.<end>"
 
+["560692"]
+japanese = "（…静かすぎる、<line-break>まさか…まちぶせ…？）<end>"
+korean = "(…너무 조용해. 설마… 매복…?)<end>"
+
 ["560699"]
 japanese = "<value:$28>！<line-break>逃げなきゃ！<end>"
 korean = "<value:$28>! 도망쳐야 해!<end>"
@@ -1015,6 +1019,10 @@ korean = "그렇군…. 맞아, 밖에 있는 사람들에게 알려야 해. 서
 ["560703"]
 japanese = "…くっ！<line-break>逃げるんだ。<end>"
 korean = "…큭! 도망쳐.<end>"
+
+["560710"]
+japanese = "逃げてもムダムダ<line-break>町中、包囲してっから。<end>"
+korean = "도망쳐도 소용없어. 마을 전체를 포위했으니까.<end>"
 
 ["560719"]
 japanese = "…作戦は失敗です！<line-break>撤退します！！<end>"

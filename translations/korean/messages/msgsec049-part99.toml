@@ -36,6 +36,10 @@ korean = "이걸 빼고 나면… 남은 건 정확히 5000이다. 자.<end>"
 japanese = "ま、その辺はなんとかするさ。<end>"
 korean = "뭐, 그건 어떻게든 되겠지.<end>"
 
+["490031"]
+japanese = "親父、ツェラシェルの方は<line-break>どうなってる？<end>"
+korean = "아버지, 체라셸 쪽은 어떻게 됐어?<end>"
+
 ["490032"]
 japanese = "今日にも来ると思うが…。<end>"
 korean = "오늘쯤 올 거라고 생각하지만….<end>"
@@ -127,6 +131,10 @@ korean = "딱 좋은 타이밍이군.<end>"
 ["490127"]
 japanese = "あの男の連れか？<line-break>…チッ、乗んな。<end>"
 korean = "그 남자의 동료냐? …쳇, 타.<end>"
+
+["490128"]
+japanese = "いやあ、悪いな。<line-break>じゃ、よろしく頼むわ。<end>"
+korean = "아, 미안하네. 그럼 잘 부탁해.<end>"
 
 ["490141"]
 japanese = "ああ、旅芸人の一座だろ。来てたよ。<end>"
@@ -311,6 +319,10 @@ korean = "정말 맛있었어요. 오르파우스 씨는 요리를 잘하시네�
 ["490237"]
 japanese = "えーっ！？<end>"
 korean = "에엣!?<end>"
+
+["490239"]
+japanese = "おはようございます。<line-break>気分はどうですか？<end>"
+korean = "좋은 아침입니다. 기분은 어떠세요?<end>"
 
 ["490240"]
 japanese = "…最悪だ。<end>"

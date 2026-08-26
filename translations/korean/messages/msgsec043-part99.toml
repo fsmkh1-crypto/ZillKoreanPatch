@@ -72,6 +72,10 @@ korean = "형, 드디어 볼보라를….<end>"
 japanese = "君は…<value:$28>。<line-break>どうしてここに？<end>"
 korean = "너는… <value:$28>. 왜 여기 있지?<end>"
 
+["430031"]
+japanese = "う、うん。<line-break>…最近知り合った…友人だよ。<end>"
+korean = "으, 응. …최근에 알게 된… 친구야.<end>"
+
 ["430032"]
 japanese = "世間は狭いものだな。<end>"
 korean = "세상 참 좁군.<end>"
@@ -259,6 +263,10 @@ korean = "알고 있어<end>"
 ["430196"]
 japanese = "知らない<end>"
 korean = "몰라<end>"
+
+["430200"]
+japanese = "どう？　君も僕の話、<line-break>くだらないと思う？<end>"
+korean = "어때? 너도 내 이야기, 시시하다고 생각해?<end>"
 
 ["430201"]
 japanese = "くだらない<end>"

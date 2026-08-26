@@ -308,6 +308,10 @@ korean = "시시하군. 누가 친여동생과….<end>"
 japanese = "そう。夫婦そろって仲よくな。<end>"
 korean = "그래. 부부가 함께 사이좋게 지내라.<end>"
 
+["630232"]
+japanese = "冗談だ。<line-break>俺もそこまで冷酷ではない。<line-break>　<line-break>長居したな。<line-break>そろそろ失礼する。<end>"
+korean = "농담이다. 나도 그렇게까지 냉혹하진 않아. 오래 있었군. 이만 실례하지.<end>"
+
 ["630234"]
 japanese = "つきあわせて悪かったな。<line-break><value:$28><end>"
 korean = "괜히 함께하게 해서 미안했다, <value:$28>.<end>"

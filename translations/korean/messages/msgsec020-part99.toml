@@ -608,6 +608,10 @@ korean = "죄송합니다. 오류 메시지입니다.<end>"
 japanese = "ごめんなさい。<line-break>エラーメッセージです。<end>"
 korean = "죄송합니다. 오류 메시지입니다.<end>"
 
+["200342"]
+japanese = "エラーメッセージよ。<line-break>私はもういないの。<end>"
+korean = "에러 메시지야. 나는 이제 없어.<end>"
+
 ["200343"]
 japanese = "エラーメッセージ<line-break>胴鎧<end>"
 korean = "에러 메시지 갑옷<end>"
@@ -615,6 +619,10 @@ korean = "에러 메시지 갑옷<end>"
 ["200344"]
 japanese = "エラーメッセージ<line-break>布製防具<end>"
 korean = "에러 메시지 천 방어구<end>"
+
+["200345"]
+japanese = "ごめんね。<line-break>これって私のお気に入りなの。<end>"
+korean = "미안해. 이건 내가 아끼는 거야.<end>"
 
 ["200359"]
 japanese = "これ以上のものを私は知らないな。<end>"
@@ -632,9 +640,17 @@ korean = "이건 잘못됐군.<end>"
 japanese = "こりゃあ、まちがっとる。<end>"
 korean = "이건 잘못됐군.<end>"
 
+["200384"]
+japanese = "エラーメッセージよ。<line-break>私はもういないの。<end>"
+korean = "에러 메시지야. 나는 이제 없어.<end>"
+
 ["200385"]
 japanese = "エラーメッセージだ。<line-break>俺はもういない。<end>"
 korean = "오류 메시지다. 나는 이제 없다.<end>"
+
+["200386"]
+japanese = "エラーメッセージよ。<line-break>私はもういないの。<end>"
+korean = "에러 메시지야. 나는 이제 없어.<end>"
 
 ["200390"]
 japanese = "これは親父の形見なんだ。<line-break>"

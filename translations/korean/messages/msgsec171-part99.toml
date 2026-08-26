@@ -36,6 +36,10 @@ korean = "하핫!<end>"
 japanese = "なるほど、冒険者か。<line-break>では、さらばだ<value:$28>。<line-break>旅の無事を祈っておるぞ。<end>"
 korean = "그렇군, 모험자인가. 그럼 잘 가거라, <value:$28>. 여행길의 무사를 빌겠다.<end>"
 
+["1710015"]
+japanese = "兵に代わって礼をいう。<line-break>この通りじゃ。<end>"
+korean = "병사들을 대신해 감사를 표하네. 이렇게 부탁하네.<end>"
+
 ["1710025"]
 japanese = "はい。<end>"
 korean = "네.<end>"
@@ -55,6 +59,10 @@ korean = "이쪽은?<end>"
 ["1710035"]
 japanese = "わしの戦友だ。<end>"
 korean = "내 전우다.<end>"
+
+["1710036"]
+japanese = "ということは、<line-break>ここに入る権限はない。<end>"
+korean = "그렇다면 이곳에 들어올 권한은 없다.<end>"
 
 ["1710037"]
 japanese = "なんと？<end>"

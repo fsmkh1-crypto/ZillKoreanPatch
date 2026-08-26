@@ -68,6 +68,10 @@ korean = "아버지, 그만해.<end>"
 japanese = "…ヴァン。<end>"
 korean = "…반.<end>"
 
+["480040"]
+japanese = "ヴァンが、そう言うなら…<line-break>私も、別に…。<end>"
+korean = "반이 그렇게 말한다면… 나도 딱히….<end>"
+
 ["480042"]
 japanese = "くっ、冒険者なんて…！<end>"
 korean = "큭, 모험자 따위…!<end>"
@@ -79,6 +83,10 @@ korean = "아버지!<end>"
 ["480044"]
 japanese = "ヴァ、ヴァン…。<end>"
 korean = "바, 반….<end>"
+
+["480045"]
+japanese = "…すまん。<line-break>さっきはひどいことを言った。<end>"
+korean = "…미안하다. 아까는 심한 말을 했다.<end>"
 
 ["480056"]
 japanese = "ガルドラン・ボリューム３終端<end>"

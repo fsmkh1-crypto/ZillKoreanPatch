@@ -8,6 +8,10 @@ korean = "류가 볼륨 3 시작<end>"
 japanese = "お前も来るか？<end>"
 korean = "너도 올 건가?<end>"
 
+["440003"]
+japanese = "バカか。本気にするな。<line-break>相手は王女だぞ。<end>"
+korean = "바보냐. 진지하게 받아들이지 마. 상대는 공주라고.<end>"
+
 ["440004"]
 japanese = "ティアナ王女を訪ねるところだ。<end>"
 korean = "티아나 공주를 찾아가는 길이다.<end>"
@@ -39,6 +43,10 @@ korean = "사과할 건 아무것도 없어.<end>"
 ["440020"]
 japanese = "レムオン様…。<end>"
 korean = "레몬 님….<end>"
+
+["440021"]
+japanese = "みっともないところを<line-break>見せてしまったな。<end>"
+korean = "꼴사나운 모습을 보여 버렸군.<end>"
 
 ["440023"]
 japanese = "黙れ！　俺は…<end>"
@@ -171,6 +179,10 @@ korean = "무슨 얘기야?<end>"
 ["440090"]
 japanese = "聞いた<end>"
 korean = "들었어<end>"
+
+["440092"]
+japanese = "…だろうね。<line-break>町中、その話でもちきりさ。<end>"
+korean = "…그렇겠지. 온 마을이 그 이야기로 떠들썩해.<end>"
 
 ["440104"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"

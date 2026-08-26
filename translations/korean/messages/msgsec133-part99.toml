@@ -436,6 +436,10 @@ korean = "(이제는 되돌아갈 수 없어….)<end>"
 japanese = "新たなる英雄伝説誕生の瞬間か！<line-break><value:$28>殿！<line-break>及ばずながら、本職も手助けいたします！<end>"
 korean = "새로운 영웅전설이 탄생하는 순간인가! <value:$28>님! 미력하나마 저도 돕겠습니다!<end>"
 
+["1330349"]
+japanese = "全軍、<value:$28>殿のために<line-break>ここを死守するのだ！<line-break> <line-break>魔物一匹たりとて門外に出すなよ！<end>"
+korean = "전군, <value:$28>님을 위해 이곳을 사수하라! 마물 한 마리도 문밖으로 내보내지 마라!<end>"
+
 ["1330351"]
 japanese = "…余は確信したぞ。<line-break> <line-break> <line-break>人類の革新は、<line-break>今日、この時より始まる。<end>"
 korean = "…짐은 확신했다. 인류의 혁신은 오늘, 지금 이 순간부터 시작된다.<end>"

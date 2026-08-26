@@ -132,6 +132,10 @@ korean = "…무리하는 건, 아닌가요?<end>"
 japanese = "なぜじゃ？<line-break>わらわと<value:$28>は、<line-break>これほど気が合うておるのに？<end>"
 korean = "왜지? 나와 <value:$28>는 이렇게나 마음이 잘 맞는데?<end>"
 
+["1420097"]
+japanese = "………………。<line-break> <line-break> <line-break><value:$28>、あれだな、<line-break>お前さんもなかなか大変だな…。<end>"
+korean = "………………. <value:$28>, 너도 참 고생이 많구나….<end>"
+
 ["1420098"]
 japanese = "親父、酒はまだか。<end>"
 korean = "아저씨, 술은 아직이야?<end>"
@@ -143,6 +147,10 @@ korean = "왔나, <value:$28>….<end>"
 ["1420114"]
 japanese = "　　　ククク…そうだ、貴様のことだ、<line-break>　　　　　　<value:$28>。<line-break><line-break><end>"
 korean = "크크크… 그래, 네놈 말이다, <value:$28>.<end>"
+
+["1420116"]
+japanese = "　　　　聞け、<value:$28>。<line-break>　もはや、我に神の代弁者たる<line-break>　　　自覚はありはせぬ。<line-break><end>"
+korean = "들어라, <value:$28>. 이제 나는 스스로를 신의 대변자라 여기지 않는다.<end>"
 
 ["1420120"]
 japanese = "　　　　これも…無限のソウルの力か…。<line-break><line-break><line-break><end>"

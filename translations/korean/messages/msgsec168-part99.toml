@@ -72,6 +72,10 @@ korean = "상관없다. 그 정도 재주밖에 없는 남자다.<end>"
 japanese = "政権をほしいままにしようと<line-break>したのだ。<end>"
 korean = "정권을 제멋대로 휘두르려 했던 것이다.<end>"
 
+["1680079"]
+japanese = "陛下、<line-break>ようこそお越しくださいました。<end>"
+korean = "폐하, 잘 오셨습니다.<end>"
+
 ["1680088"]
 japanese = "では、料理を運ばせましょう。<end>"
 korean = "그럼 요리를 내오게 하죠.<end>"
@@ -87,6 +91,10 @@ korean = "사양할 것 없다. 들어오너라.<end>"
 ["1680093"]
 japanese = "気にすることはない。<line-break>…慣れた。<line-break>　<line-break>…さすがに嫁いですぐの時は<line-break>つらかったがな。<end>"
 korean = "신경 쓸 것 없다. …익숙해졌다. …그래도 시집온 직후엔 힘들었지만.<end>"
+
+["1680097"]
+japanese = "礼を言う。<line-break>さっそく料理を運ばせよう。<end>"
+korean = "고맙다. 바로 요리를 내오게 하지.<end>"
 
 ["1680098"]
 japanese = "今日は…すまぬな。<line-break><value:$28>。<end>"

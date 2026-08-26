@@ -300,6 +300,10 @@ korean = "그리고 말이야, 그다음은….<end>"
 japanese = "<value:$28>は<line-break>全然変わってないよ！<end>"
 korean = "<value:$28>은 전혀 변하지 않았어!<end>"
 
+["1920221"]
+japanese = "<value:$28>は<line-break><value:$28>だもん。　　<line-break>　<line-break>私の大好きな<line-break><value:$28>のままだよ。<end>"
+korean = "<value:$28>은 <value:$28>이잖아. 내가 정말 좋아하는 <value:$28> 그대로야.<end>"
+
 ["1920229"]
 japanese = "ルルアンタは、これからも<line-break><value:$28>に、<line-break>ありったけの笑顔をあげるから。<line-break>だから、ずっと一緒にいようね。<end>"
 korean = "루루안타는 앞으로도 <value:$28>에게 있는 힘껏 웃어 줄 거야. 그러니까 계속 함께 있자.<end>"

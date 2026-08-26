@@ -448,6 +448,10 @@ korean = "티아나는… 아직인 모양이군.<end>"
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
 
+["1400225"]
+japanese = "それよりも、エリエナイ公。<line-break><value:$28>は俺の大事な友だ<line-break>手を出すのはやめてもらおうか。<end>"
+korean = "그보다 엘리에나이 공. <value:$28>은 내 소중한 친구다. 손대는 건 그만두시지.<end>"
+
 ["1400228"]
 japanese = "…何が言いたい！？<end>"
 korean = "…무슨 말을 하고 싶은 거야!?<end>"
@@ -615,6 +619,10 @@ korean = "이크레문 님!! 무사하셨습니까! 다행입니다. 정말 다�
 ["1400325"]
 japanese = "お父…さ…<end>"
 korean = "아버… 지…<end>"
+
+["1400327"]
+japanese = "私…ずっと考えてました。<line-break><value:$28>さんが助けてくれたら<line-break>どんなにうれしいだろうって。<end>"
+korean = "저… 계속 생각했어요. <value:$28>님이 도와주시면 얼마나 기쁠까 하고요.<end>"
 
 ["1400328"]
 japanese = "そして今、<value:$28>さんは<line-break>本当に助けに来てくださって…。<line-break>私、本当にうれしいです。<end>"
