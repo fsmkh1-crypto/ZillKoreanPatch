@@ -1104,6 +1104,10 @@ korean = "아, 고마워.<end>"
 japanese = "行きましょ、<value:$28>さん。<end>"
 korean = "가죠, <value:$28> 씨.<end>"
 
+["1370687"]
+japanese = "あっ、<value:$28>さん、<line-break>スラムはそっちじゃないですよ。<line-break>　<line-break>まっすぐ行った先の広場を、<line-break>左に曲がるんです。<line-break>行きましょう。<end>"
+korean = "아, <value:$28>님. 슬럼가는 그쪽이 아니에요. 곧장 간 앞의 광장에서 왼쪽으로 도세요. 가죠.<end>"
+
 ["1370688"]
 japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"
 korean = "너무 돌아다니지 않는 게 좋을 것 같아요. 가죠, <value:$28>님.<end>"

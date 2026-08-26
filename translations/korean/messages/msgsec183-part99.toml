@@ -4,6 +4,10 @@
 japanese = "イークレムン　Ｖ２　開始<end>"
 korean = "이크렘 V2 시작<end>"
 
+["1830013"]
+japanese = "くそっ！　どう見ても<line-break>多勢に無勢だ！<line-break>おまけにこいつら、かなりの腕だ！<line-break>頼む、俺ひとりじゃ手に負えない。<line-break>力を貸してくれ！！<end>"
+korean = "젠장! 아무리 봐도 수적으로 불리해! 게다가 이 녀석들, 꽤 강해! 부탁한다, 나 혼자서는 감당 못 해. 힘을 빌려 줘!!<end>"
+
 ["1830014"]
 japanese = "ちくしょ～。<line-break>く、来るなら来てみろぉぉ～！<line-break>　<line-break>あ、あんた、味方か？<line-break>頼む、助けてくれ～！<end>"
 korean = "젠장~. 오, 올 테면 와 봐아아~! 아, 당신은 아군이야? 부탁이야, 도와줘~!<end>"
@@ -47,6 +51,10 @@ korean = "심기일전 아큐류스 측<end>"
 ["1830043"]
 japanese = "それじゃ、今まで通り<line-break>ディンガル帝国側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"
 korean = "그럼 지금까지처럼 딩갈 제국 편이라는 걸로 잘 부탁한다, <value:$28>.<end>"
+
+["1830052"]
+japanese = "この戦いに<line-break>アキュリュースの未来がかかっています。<line-break>　<line-break>あなたたちも明日の戦いに備え<line-break>装備や道具の準備はしておいてください。<end>"
+korean = "이 전투에 아큐류스의 미래가 걸려 있습니다. 여러분도 내일 전투에 대비해 장비와 도구를 준비해 두세요.<end>"
 
 ["1830054"]
 japanese = "イークレムンＶ２<line-break>予備メッセージ８です<end>"

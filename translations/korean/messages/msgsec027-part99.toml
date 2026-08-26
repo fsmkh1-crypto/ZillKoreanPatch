@@ -4,9 +4,21 @@
 japanese = "ちゃんと用意はできてる？<line-break>しっかりね！<end>"
 korean = "준비는 제대로 됐어? 정신 바짝 차려!<end>"
 
+["270002"]
+japanese = "優勝したらすごいな。<line-break>ひょっとして賞金は山分けかも。<end>"
+korean = "우승하면 대단하겠네. 혹시 상금은 나눠 가질지도 몰라.<end>"
+
+["270003"]
+japanese = "負けたら承知しねえからな。<line-break>ガツンと行ってこいよ！！<end>"
+korean = "지면 가만 안 둔다. 한 방 제대로 보여 주고 와!!<end>"
+
 ["270007"]
 japanese = "私のために優勝してね。<line-break>私…、待ってる。<line-break>　<line-break>なーんてね。<line-break>ちっとはどきどきした？<end>"
 korean = "나를 위해 우승해 줘. 나… 기다릴게. …농담이야. 조금은 두근거렸어?<end>"
+
+["270010"]
+japanese = "勝敗は時の運、ってな。<line-break>最後まで勝負を捨てるなよ。<end>"
+korean = "승패는 그때그때 운에 달렸지. 끝까지 승부를 포기하지 마.<end>"
 
 ["270012"]
 japanese = "準備は終わっとるのか？<line-break>油断せずにな。<end>"
@@ -24,6 +36,10 @@ korean = "힘내, <value:$28>. 준비는 제대로 했어?<end>"
 japanese = "うぬの戦い、<line-break>見せてもらおう。<end>"
 korean = "네 싸움, 지켜보겠다.<end>"
 
+["270019"]
+japanese = "勝てとまでは言わんがな。<line-break>無様な負け方はするなよ。<end>"
+korean = "꼭 이기라고까지는 안 하겠다. 꼴사납게 지지는 마라.<end>"
+
 ["270021"]
 japanese = "無限のソウルの力…<line-break>見せてもらおう。<end>"
 korean = "무한한 소울의 힘… 보여 주마.<end>"
@@ -31,6 +47,10 @@ korean = "무한한 소울의 힘… 보여 주마.<end>"
 ["270023"]
 japanese = "大丈夫！<line-break><value:$28>なら楽勝だよ。<end>"
 korean = "괜찮아! <value:$28>라면 식은 죽 먹기야.<end>"
+
+["270024"]
+japanese = "まずは深呼吸じゃ。<line-break>雰囲気に飲まれては勝てんからの。<end>"
+korean = "우선 심호흡부터 해라. 분위기에 휩쓸리면 이길 수 없으니.<end>"
 
 ["270025"]
 japanese = "恐れることはない。<line-break>お前の実力を見せてやれ。<end>"
@@ -132,9 +152,17 @@ korean = "영광을 짓밟는 자의 칭호를 얻었다.<end>"
 japanese = "<line-break>元デュエルマスターの称号を得た。<line-break>　<end>"
 korean = "전 듀얼 마스터의 칭호를 얻었다.<end>"
 
+["270080"]
+japanese = "すごいわ！　さすがね！　<line-break>また、あなたがチャンプよ！<end>"
+korean = "대단해! 역시네! 또 당신이 챔피언이야!<end>"
+
 ["270081"]
 japanese = "<line-break>デュエルマスターの称号を得た。<line-break>　<end>"
 korean = "듀얼 마스터의 칭호를 얻었다.<end>"
+
+["270082"]
+japanese = "はい、これは勝利賞金と副賞よ。<line-break>来年もがんばってね。<end>"
+korean = "자, 이건 우승 상금과 부상이야. 내년에도 힘내.<end>"
 
 ["270083"]
 japanese = "この先は試合会場よ。<line-break>回復はここでしておいてね。<line-break><line-break>闘いの準備はいい？<end>"

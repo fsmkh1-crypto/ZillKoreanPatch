@@ -392,6 +392,10 @@ korean = "<value:$28> 씨, 갑시다!<end>"
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
 
+["1410207"]
+japanese = "よかった。<line-break><value:$28>さんと<line-break>すぐに会うことができて。<line-break>あの、実は大変なことに<line-break>なってしまって。<line-break>話を聞いてもらえますか？<end>"
+korean = "다행이에요. <value:$28>님과 바로 만날 수 있어서. 저기, 사실 큰일이 생겼어요. 이야기 좀 들어 주실래요?<end>"
+
 ["1410208"]
 japanese = "　　　　ノエル、あたしとレイヴンは　　　　　<line-break>　　　　　このあたりで、あなたと<line-break>　　　　別行動を取ることにしたわ。<line-break>　<end>"
 korean = "노엘, 나와 레이븐은 이쯤에서 너와 따로 움직이기로 했어.<end>"
@@ -423,6 +427,10 @@ korean = "그럼 가 볼까요, <value:$28>님!<end>"
 ["1410223"]
 japanese = "行ってしまったな。<end>"
 korean = "가버렸군.<end>"
+
+["1410224"]
+japanese = "何よ、未練でもあるの？　　　　<line-break>　<line-break>　<line-break>ノエルと<value:$28>を<line-break>くっつけるっていう、あたしの<line-break>計画に賛成だったんじゃないの？<end>"
+korean = "뭐야, 미련이라도 있어? 노엘과 <value:$28>을 이어 주겠다는 내 계획에 찬성했던 거 아니야?<end>"
 
 ["1410228"]
 japanese = "…遠慮する。　　　　　　<line-break>　<line-break>　<line-break>俺にも、俺の人生を<line-break>自由に生きる権利がある。<end>"
@@ -491,6 +499,10 @@ korean = "또 그 어둠에… 모든 것을 부숴 버리는 그 어둠에 빠�
 ["1410269"]
 japanese = "<value:$28>…あなたがいれば、<line-break>私はもっと強くなれる気がする。<line-break>ずっと、そばにいてくれますね？<end>"
 korean = "<value:$28>… 당신이 있으면 저는 더 강해질 수 있을 것 같아요. 계속 곁에 있어 주실 거죠?<end>"
+
+["1410271"]
+japanese = "フフ、<value:$28>ったら…。<line-break>それではこれから、<line-break>帝都の巡察に出かけます。<line-break>道中の護衛、しっかり頼みますよ、<line-break>近衛将軍<value:$28>殿。<end>"
+korean = "후후, <value:$28>도 참…. 그럼 이제 제도 순찰을 나가겠습니다. 가는 길 호위, 잘 부탁합니다. 근위장군 <value:$28> 공.<end>"
 
 ["1410272"]
 japanese = "追加メッセージここから<end>"

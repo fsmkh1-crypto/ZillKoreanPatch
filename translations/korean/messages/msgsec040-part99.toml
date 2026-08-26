@@ -416,6 +416,10 @@ korean = "(벽난로 불은 꺼져 있다….)<end>"
 japanese = "火をつけてみますか？<end>"
 korean = "불을 붙여볼까요?<end>"
 
+["400206"]
+japanese = "おう！<line-break>ギアもいるから、貯めとけよ。　　　<line-break>　<end>"
+korean = "좋아! 기아도 필요하니까 모아 둬.<end>"
+
 ["400208"]
 japanese = "空<end>"
 korean = "빈칸<end>"
@@ -516,6 +520,10 @@ korean = "셈하자 장로님!<end>"
 japanese = "この方たちのことならば<line-break>私がよく知っている。<end>"
 korean = "이분들에 관해서라면 내가 잘 알고 있다.<end>"
 
+["400250"]
+japanese = "この方のことならば少し聞いている。<line-break>信頼に足る方だ。<end>"
+korean = "이분 이야기는 조금 들었습니다. 신뢰할 만한 분입니다.<end>"
+
 ["400257"]
 japanese = "な、何事だ！？<end>"
 korean = "무, 무슨 일이야!?<end>"
@@ -535,6 +543,10 @@ korean = "4기!? 말도 안 돼!<end>"
 ["400263"]
 japanese = "そ、それが…！<end>"
 korean = "그, 그게…!<end>"
+
+["400266"]
+japanese = "バカな！　マグマゴーレムが全滅！？<line-break>し、信じられぬ！<end>"
+korean = "말도 안 돼! 마그마 골렘이 전멸!? 미, 믿을 수 없어!<end>"
 
 ["400269"]
 japanese = "…同じくゼリグ。<end>"
@@ -559,6 +571,10 @@ korean = "…그렇다면 나와 싸워라. 그리고 막아 봐라.<end>"
 ["400280"]
 japanese = "…また、助けられたわね。<end>"
 korean = "…또 도움받았네.<end>"
+
+["400282"]
+japanese = "私は、あなたを殺すわ。　　　　<line-break>…それだけ。<line-break><end>"
+korean = "난 당신을 죽일 거야. …그뿐이야.<end>"
 
 ["400289"]
 japanese = "ネメア様は皇帝の命に従い<line-break>イズ様をさらったのじゃ。<end>"

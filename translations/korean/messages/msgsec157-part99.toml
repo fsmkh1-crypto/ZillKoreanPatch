@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1570009"]
+japanese = "危ないところを助けていただき、<line-break>どうもありがとうございました。　　<line-break>　<line-break>お約束の報酬です。少し多めですが、<line-break>お納めください。<end>"
+korean = "위험한 곳에서 구해 주셔서 정말 감사합니다. 약속한 보수입니다. 조금 더 넣었으니 받아 주세요.<end>"
+
 ["1570046"]
 japanese = "あなたのおかげで、なんとか戻ってくることが<line-break>できました。<line-break>　<line-break>これは約束の報酬金です。<line-break>ありがとうございました。<end>"
 korean = "당신 덕분에 어떻게든 돌아올 수 있었습니다. 이건 약속한 보수입니다. 감사합니다.<end>"
@@ -15,6 +19,22 @@ korean = "오, 구조인가? 가까운 마을까지 데려다 줘.<end>"
 ["1570086"]
 japanese = "あなたのおかげで、なんとか戻ってくることが<line-break>できました。<line-break>　<line-break>これは約束の報酬金です。<line-break>ありがとうございました。<end>"
 korean = "당신 덕분에 어떻게든 돌아올 수 있었습니다. 이건 약속한 보수입니다. 감사합니다.<end>"
+
+["1570089"]
+japanese = "おかげで、助かりました。<line-break>どうもありがとうございました。　　<line-break>　<line-break>お礼金とボーナスです。<line-break>ほんとうにありがとうございました。<end>"
+korean = "덕분에 살았습니다. 정말 감사합니다. 사례금과 보너스입니다. 정말 고맙습니다.<end>"
+
+["1570093"]
+japanese = "おかげで、助かりました。<line-break>どうもありがとうございました。　　<line-break>　<line-break>お礼金とボーナスです。<line-break>ほんとうにありがとうございました。<end>"
+korean = "덕분에 살았습니다. 정말 감사합니다. 사례금과 보너스입니다. 정말 고맙습니다.<end>"
+
+["1570113"]
+japanese = "おかげで、助かりました。<line-break>どうもありがとうございました。　　<line-break>　<line-break>お礼金とボーナスです。<line-break>ほんとうにありがとうございました。<end>"
+korean = "덕분에 살았습니다. 정말 감사합니다. 사례금과 보너스입니다. 정말 고맙습니다.<end>"
+
+["1570114"]
+japanese = "なんとか、助かりました。<line-break>どうもありがとうございました。　　<line-break>お礼金です、受け取ってください。<line-break>ほんとうにありがとうございました。<end>"
+korean = "어떻게든 살았습니다. 정말 감사합니다. 사례금입니다, 받아 주세요. 정말 고맙습니다.<end>"
 
 ["1570124"]
 japanese = "おお、助けか？<line-break>近くの町まで連れてってくれ。<end>"

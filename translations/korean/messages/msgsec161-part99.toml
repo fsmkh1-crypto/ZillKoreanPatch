@@ -104,6 +104,10 @@ korean = "알았어<end>"
 japanese = "関係ないな<end>"
 korean = "상관없군<end>"
 
+["1610060"]
+japanese = "そうか…残念だ。　　　　　　　　　<line-break>じゃあな……。<end>"
+korean = "그렇군… 아쉽다. 그럼 잘 가….<end>"
+
 ["1610067"]
 japanese = "仕事内容を聞く<end>"
 korean = "일의 내용을 묻는다<end>"
@@ -188,6 +192,10 @@ korean = "퇴치하러 간다<end>"
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
 
+["1610113"]
+japanese = "それじゃあ、頼んだぜ。<line-break>終わったらまた来てくれよ。<end>"
+korean = "그럼 부탁한다. 끝나면 다시 와 줘.<end>"
+
 ["1610117"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
@@ -219,6 +227,10 @@ korean = "아, 아앗, 보답 이야기지? 이, 잊지 않았어. 괜찮아. �
 ["1610144"]
 japanese = "じゃ、じゃあ！<end>"
 korean = "그, 그럼!<end>"
+
+["1610149"]
+japanese = "<value:$28>…。そうか、<line-break>城塞都市跡の魔獣を倒したか…。　<line-break>　<line-break>これで、あいつも安心してあの世で<line-break>仲間たちと眠れるってもんだな…。<end>"
+korean = "<value:$28>…. 그렇군, 성채도시 유적의 마수를 쓰러뜨렸나…. 이제 그 녀석도 저승에서 동료들과 편히 잠들 수 있겠지….<end>"
 
 ["1610152"]
 japanese = "俺からも礼を言わせてくれ。<line-break>ありがとう。<value:$28>。<line-break>　<line-break>これからもお前のその力で<line-break>人々の力になってやってくれ。<end>"
@@ -291,6 +303,10 @@ korean = "아무것도 기억나지 않는 건가…?<end>"
 ["1610189"]
 japanese = "…なんでもない。<line-break>行くぞ。<end>"
 korean = "…아무것도 아니다. 가자.<end>"
+
+["1610190"]
+japanese = "念には念…ということです。<line-break>フフ、我ながら、律儀なものです…。<line-break>　<line-break>ではまた。またお会いできる日を　　<line-break>楽しみにしています。<end>"
+korean = "돌다리도 두드려 보라는 거죠. 후후, 저도 참 융통성 없군요…. 그럼 또 뵙죠. 다시 만날 날을 기대하겠습니다.<end>"
 
 ["1610191"]
 japanese = "ま、こいつも、実は<line-break>かわいそうな奴なのかも、な。<line-break>　<line-break>んじゃ、な。<line-break><value:$28>。<line-break>また、会おうぜ。<end>"
@@ -407,6 +423,10 @@ korean = "페티를 꾸짖는다<end>"
 ["1610244"]
 japanese = "<value:$28><line-break>どうして、アタクシをしかるわけ？<line-break>この場合、おかしいのはあの男よー！<end>"
 korean = "<value:$28>, 왜 나를 혼내는 거야? 이 경우 이상한 건 그 남자잖아ー!<end>"
+
+["1610252"]
+japanese = "あ、ウソウソ、冗談だよ！<line-break>ね、ね、こっち向いてよ！<end>"
+korean = "아, 거짓말 거짓말, 농담이야! 자, 자, 이쪽 좀 봐!<end>"
 
 ["1610254"]
 japanese = "…ボク、やっぱり役立たずなのかな。<end>"

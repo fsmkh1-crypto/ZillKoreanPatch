@@ -4,6 +4,10 @@
 japanese = "…無限のソウル？<line-break>そうか。<line-break>お前が<value:$28>か。<end>"
 korean = "…무한의 소울? 그렇군. 네가 <value:$28>인가.<end>"
 
+["2490006"]
+japanese = "運命は<value:$28>の未来を<line-break>消そうとしているのではない。<line-break>　<line-break>お前の内に眠る可能性が目覚め、<line-break>運命に打ち勝つことを待っているのだ。<end>"
+korean = "운명은 <value:$28>의 미래를 지우려는 게 아니다. 네 안에 잠든 가능성이 깨어나 운명을 이기기를 기다리고 있는 것이다.<end>"
+
 ["2490008"]
 japanese = "PSP用新スタートイベント14用終端<end>"
 korean = "PSP용 신규 시작 이벤트 14용 끝<end>"

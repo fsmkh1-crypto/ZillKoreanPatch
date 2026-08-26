@@ -36,6 +36,10 @@ korean = "비시민이라 나빠?<end>"
 japanese = "それじゃあね、<value:$28>。<line-break>見たい試合があるからボクは行くよ。<line-break>またね。<end>"
 korean = "그럼 안녕, <value:$28>. 보고 싶은 시합이 있어서 난 갈게. 또 보자.<end>"
 
+["880023"]
+japanese = "あぁ、そうだよ。<line-break>ボクも時々闘技場に出るんだ。<line-break>　<line-break>見ての通りだから<line-break>そんなに強い相手とは<line-break>試合にならないけどね。<end>"
+korean = "아, 그래. 나도 가끔 투기장에 나가. 보다시피 강한 상대와는 경기가 안 되지만.<end>"
+
 ["880024"]
 japanese = "そういう<value:$28>は<line-break>どうなんだい？<line-break>結構、強いんじゃない？　　　<end>"
 korean = "그런 <value:$28>는 어때? 꽤 강한 편 아니야?<end>"
@@ -47,6 +51,10 @@ korean = "뭐, 그렇지<end>"
 ["880026"]
 japanese = "まだまだ駆け出し<end>"
 korean = "아직 풋내기<end>"
+
+["880030"]
+japanese = "またまたぁ。<line-break>ボクって結構、目利きなんだよ。<line-break>　<line-break>キミもボクと同じで<line-break>まだまだ駆け出しってところ<line-break>なんじゃないの？<end>"
+korean = "또 그런다. 나 꽤 사람 보는 눈이 있어. 너도 나처럼 아직 풋내기 아니야?<end>"
 
 ["880031"]
 japanese = "アハハハ。やっぱりね。<end>"
@@ -316,6 +324,10 @@ korean = "아니요<end>"
 japanese = "じゃ、ボク待ってるから。<end>"
 korean = "그럼 난 기다리고 있을게.<end>"
 
+["880176"]
+japanese = "い、今さら何しに来たんだよ。<line-break>絶対、キミが助けてくれるって<line-break>信じてたのに…。<line-break>だけど、キミは来なかった…。<line-break>　<line-break>　<end>"
+korean = "이, 이제 와서 왜 온 거야. 난 네가 반드시 구해 줄 거라고 믿었는데…. 그런데 넌 오지 않았어….<end>"
+
 ["880181"]
 japanese = "いつになったら<line-break>この小言は終わるんだろ？<end>"
 korean = "언제쯤이면 이 잔소리가 끝날까?<end>"
@@ -440,9 +452,17 @@ korean = "으음~. 그렇게 말할 줄 알았지만…. 그래도 언젠가 나
 japanese = "やあ、<value:$28>。<line-break>ラドラスはどう？<line-break>まだちょっと迷ったりする？<end>"
 korean = "안녕, <value:$28>. 라드라스는 어때? 아직 좀 헤매기도 해?<end>"
 
+["880271"]
+japanese = "ぶ～。　　　　　　　　<line-break>そうかな～。<line-break>つまんないの～。<line-break>でも、いつかまたボクも<line-break>一緒に冒険させてよね。<line-break>約束だよ！<end>"
+korean = "부우~. 그런가~. 재미없어~. 그래도 언젠가 또 나도 같이 모험하게 해 줘. 약속이야!<end>"
+
 ["880272"]
 japanese = "やあ、<value:$28>。<line-break>何回もボクに会いに来てくれるなんて<line-break>うれしいよ。<end>"
 korean = "안녕, <value:$28>. 몇 번이나 날 만나러 와 주다니 기뻐.<end>"
+
+["880276"]
+japanese = "ぐむむ～。<line-break>やっぱりそう言うの～？<line-break>しょうがないか…。<line-break>でも、いつかまたボクも<line-break>一緒に冒険させてよね。<line-break>約束だよ！<end>"
+korean = "으으~. 역시 그렇게 말하는 거야~? 어쩔 수 없네…. 그래도 언젠가 또 나도 같이 모험하게 해 줘. 약속이야!<end>"
 
 ["880277"]
 japanese = "やあ、<value:$28>。<line-break>また来てくれたんだ。<line-break>うれしいよ。<end>"

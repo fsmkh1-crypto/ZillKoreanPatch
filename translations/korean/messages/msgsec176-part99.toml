@@ -140,6 +140,10 @@ korean = "반드시 넘어서겠습니다<end>"
 japanese = "残念ながら…<end>"
 korean = "유감스럽지만…<end>"
 
+["1760119"]
+japanese = "よっしゃ！<line-break>そんなら試練の迷宮に挑戦しんさい。<line-break>ドワーフ王国の近くにある迷宮よ。<line-break>そこでレオニックの証を<line-break>手に入れるんじゃ。<end>"
+korean = "좋아! 그럼 시련의 미궁에 도전해 봐라. 드워프 왕국 근처에 있는 미궁이다. 거기서 레오닉의 증표를 손에 넣어라.<end>"
+
 ["1760123"]
 japanese = "さて、そろそろ帰るわい。<line-break>じゃあな、<value:$28>。<line-break>さよならじゃ。<end>"
 korean = "자, 슬슬 돌아가야겠군. 그럼, <value:$28>. 잘 있어라.<end>"

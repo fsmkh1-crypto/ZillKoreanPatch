@@ -4,6 +4,10 @@
 japanese = "ファーロス・ボリューム３その３開始<end>"
 korean = "파로스 볼륨 3 그 3 시작<end>"
 
+["1680004"]
+japanese = "先の空中庭園のおり…<line-break>そなた、気づいたか？<line-break>…アトレイアだ。<line-break>あのときの<line-break>アトレイアの表情には<line-break>鬼気迫るものがあった。<end>"
+korean = "지난 공중정원 때… 자네도 눈치챘나? …아트레아 말일세. 그때 아트레아의 표정에는 섬뜩할 만큼 절박한 기운이 있었어.<end>"
+
 ["1680006"]
 japanese = "<value:$28>か。<line-break>ティアナを頼むぞ。<end>"
 korean = "<value:$28>인가. 티아나를 부탁한다.<end>"
@@ -19,6 +23,10 @@ korean = "평소 침착한 남자인 만큼 이성을 잃으면 무슨 짓을 �
 ["1680010"]
 japanese = "よく来てくれた、<line-break><value:$28>。<end>"
 korean = "잘 와줬다, <value:$28>.<end>"
+
+["1680014"]
+japanese = "レムオンは、幼いころから<line-break>ティアナに惹かれていた。<end>"
+korean = "레몬은 어릴 때부터 티아나에게 끌리고 있었다.<end>"
 
 ["1680016"]
 japanese = "普段、冷静な男なだけに<line-break>逆上すると<line-break>何をしでかすかわからない。<line-break>無用な心配とは思うが、<line-break>気に留めておいてほしい。<end>"
@@ -44,6 +52,10 @@ korean = "<value:$28>인가. 제네테스는 어떻게 지내나? 총사령관�
 japanese = "<value:$28>か。<line-break>　<line-break>　<line-break>ゼネテスとはうまくやっているか？<end>"
 korean = "<value:$28>인가. 제네테스와는 잘 지내고 있나?<end>"
 
+["1680038"]
+japanese = "だが、そなたには<line-break>人を惹きつける力がある。<line-break>　<line-break>その魅力が<line-break>ゼネテスを救うこともあるだろう。<line-break>力になってやってほしい。<end>"
+korean = "하지만 자네에게는 사람을 끌어당기는 힘이 있어. 그 매력이 제네테스를 구할 때도 있겠지. 힘이 되어 줬으면 한다.<end>"
+
 ["1680039"]
 japanese = "フリントの子、<line-break><value:$28>…。<line-break>　<line-break>…いい目をしている。<line-break>無限の可能性を感じさせる目だ。<end>"
 korean = "플린트의 아이, <value:$28>….　…좋은 눈을 하고 있군. 무한한 가능성을 느끼게 하는 눈이다.<end>"
@@ -67,6 +79,10 @@ korean = "그런가. <value:$28>여, 또 오거라.<end>"
 ["1680050"]
 japanese = "<value:$28>、<line-break>そなたには礼を言わねばならぬ。<end>"
 korean = "<value:$28>, 너에게는 감사를 해야겠구나.<end>"
+
+["1680052"]
+japanese = "王宮を抜け出しての密会とは、<line-break>ティアナがのぼせ上がるのも<line-break>無理はない。<line-break>そなたは、思いのほか<line-break>女心をつかむのがうまいようだ。<end>"
+korean = "왕궁을 빠져나와 밀회라니, 티아나가 푹 빠지는 것도 무리는 아니군. 자네는 생각보다 여심을 사로잡는 데 능숙한 모양이야.<end>"
 
 ["1680059"]
 japanese = "そうか。<line-break><value:$28>よ。<line-break>これからもティアナを頼む。<line-break>私の命より大事な娘だ。<end>"
@@ -127,6 +143,42 @@ korean = "오늘은… 미안하군, <value:$28>.<end>"
 ["1680099"]
 japanese = "よ、<value:$28>じゃねえか。<line-break>元気かい？<end>"
 korean = "여어, <value:$28> 아니야. 잘 지냈어?<end>"
+
+["1680104"]
+japanese = "予備用メッセージ１<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 1 파로스, 볼륨 3 그 2<end>"
+
+["1680105"]
+japanese = "予備用メッセージ２<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 2 파로스, 볼륨 3 그 2<end>"
+
+["1680106"]
+japanese = "予備用メッセージ３<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 3 파로스, 볼륨 3 그 2<end>"
+
+["1680107"]
+japanese = "予備用メッセージ４<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 4 파로스, 볼륨 3 그 2<end>"
+
+["1680108"]
+japanese = "予備用メッセージ５<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 5 파로스, 볼륨 3 그 2<end>"
+
+["1680109"]
+japanese = "予備用メッセージ６<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 6 파로스, 볼륨 3 그 2<end>"
+
+["1680110"]
+japanese = "予備用メッセージ７<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 7 파로스, 볼륨 3 그 2<end>"
+
+["1680111"]
+japanese = "予備用メッセージ８<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 8 파로스, 볼륨 3 그 2<end>"
+
+["1680112"]
+japanese = "予備用メッセージ９<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 9 파로스, 볼륨 3 그 2<end>"
 
 ["1680114"]
 japanese = "ファーロス・ボリューム３その３終端<end>"

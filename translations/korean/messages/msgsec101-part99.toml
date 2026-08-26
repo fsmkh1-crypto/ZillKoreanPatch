@@ -4,6 +4,10 @@
 japanese = "アイリーンメッセージVOL4用開始<end>"
 korean = "아이린 메시지 VOL4용 시작<end>"
 
+["1010001"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>帝国に弓ひく身でありながら<line-break>私の前に出てくるなんていい度胸ね。<line-break>　<end>"
+korean = "<value:$28>…. 제국에 반기를 든 몸으로 내 앞에 나타나다니 배짱이 좋구나.<end>"
+
 ["1010003"]
 japanese = "そう言うと思った。<line-break>相変わらず、バカね。　<line-break>　<line-break>今度、私と目があったら<line-break>すぐに逃げることね。<line-break>…首が飛ぶわよ。<end>"
 korean = "그렇게 말할 줄 알았어. 여전히 바보네. 다음에 나와 눈이 마주치면 바로 도망쳐. …목이 날아갈 거야.<end>"
@@ -40,6 +44,10 @@ korean = "정말 어쩔 수 없는 녀석….<end>"
 japanese = "…どうして、<line-break>ゼネテスの配下なんかに…。<end>"
 korean = "…어째서 제네테스의 부하 따위가….<end>"
 
+["1010028"]
+japanese = "ロストールの<value:$28>！<line-break>こんな所で何をしている！　<line-break>　<line-break>早く出ていきなさい！<line-break>こんな所に来ていい身分だと<line-break>思っているの？<end>"
+korean = "로스토올의 <value:$28>! 이런 곳에서 뭘 하고 있지! 당장 나가! 이런 곳에 와도 되는 신분이라고 생각해?<end>"
+
 ["1010029"]
 japanese = "ほんっとに<line-break>いつまでたっても子供なんだから！<end>"
 korean = "정말이지 언제까지나 어린애라니까!<end>"
@@ -71,6 +79,10 @@ korean = "훌륭한 모험자가 되렴, <value:$28>.<end>"
 ["1010039"]
 japanese = "…私、軍務で忙しいの。<line-break>あなたも早く私から卒業して。<line-break>それじゃ、<value:$28>。<end>"
 korean = "…난 군무로 바빠. 너도 이제 나한테서 졸업해. 그럼, <value:$28>.<end>"
+
+["1010040"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>帝国に弓ひく身でありながら<line-break>私の前に出てくるなんて<line-break>いい度胸ね。<end>"
+korean = "<value:$28>…. 제국에 반기를 든 몸으로 내 앞에 나타나다니 배짱이 좋구나.<end>"
 
 ["1010042"]
 japanese = "そう言うと思った。<line-break>相変わらず、バカね。　<line-break>　<line-break>今度、私と目があったら<line-break>すぐに逃げることね。<line-break>…首が飛ぶわよ。<end>"

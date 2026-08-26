@@ -84,6 +84,10 @@ korean = "잠깐, 거기 당신!!<end>"
 japanese = "あなたの名前よ。<line-break>確認しておきたいの。<end>"
 korean = "네 이름 말이야. 확인해 두고 싶어.<end>"
 
+["1100077"]
+japanese = "<value:$28>…。<line-break>確か…。　　　　　　　　　　　　　<line-break>　<line-break>…いえ、なんでもないわ。<line-break>ありがとう。<line-break>それでは失礼するわ。<end>"
+korean = "<value:$28>…. 분명…. …아니, 아무것도 아니야. 고마워. 그럼 실례할게.<end>"
+
 ["1100078"]
 japanese = "あなた、<value:$2B>の<line-break><value:$28>ね。<line-break>　<end>"
 korean = "당신, <value:$2B>의 <value:$28>군요.<end>"

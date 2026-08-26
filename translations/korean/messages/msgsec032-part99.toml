@@ -52,6 +52,10 @@ korean = "미안해. 잠깐 괜찮을까?<end>"
 japanese = "（…いや、違う。女性だ。）<end>"
 korean = "(…아니, 달라. 여자다.)<end>"
 
+["320024"]
+japanese = "実は、探し物をしているの。<line-break>とても大事なものなのよ。<end>"
+korean = "사실 찾고 있는 게 있어. 아주 중요한 물건이야.<end>"
+
 ["320025"]
 japanese = "何を探しておられるのです？<end>"
 korean = "무엇을 찾고 계십니까?<end>"
@@ -168,6 +172,10 @@ korean = "후후…. 잘 타네.<end>"
 japanese = "これは…！<end>"
 korean = "이건…!<end>"
 
+["320076"]
+japanese = "あら。<line-break>あなたたちはこの間の…。<line-break>フフフフ…。<end>"
+korean = "어머. 당신들은 지난번의…. 후후후후….<end>"
+
 ["320077"]
 japanese = "神殿の方だ。<line-break>父上と母上が危ない！<end>"
 korean = "신전 쪽이야. 아버지와 어머니가 위험해!<end>"
@@ -220,6 +228,10 @@ korean = "앗, <value:$28> 님이구나.<end>"
 japanese = "<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"
 korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님께 줄게.<end>"
 
+["320098"]
+japanese = "なかなかの手並みだったが、<line-break>兄を置いて逃げるのか？<end>"
+korean = "제법 솜씨가 좋았지만 형을 두고 도망칠 셈인가?<end>"
+
 ["320100"]
 japanese = "…それで、<line-break>お前は逃げるのか？<end>"
 korean = "…그래서 넌 도망칠 거냐?<end>"
@@ -236,9 +248,17 @@ korean = "왜 그러지, 안 오는 건가. 후회하고 싶다면 말리진 않
 japanese = "俺はセラ。<line-break>ロイは俺が認めた<line-break>唯一の男だ。<line-break>お前を守る気はない。<line-break>足手まといにはなるな。<end>"
 korean = "나는 세라다. 로이는 내가 인정한 유일한 남자다. 널 지킬 생각은 없어. 발목 잡지는 마.<end>"
 
+["320106"]
+japanese = "ロイは死を覚悟している。<line-break>…奴のことなら、わかる。<end>"
+korean = "로이는 죽음을 각오하고 있다. …녀석이라면 알아.<end>"
+
 ["320108"]
 japanese = "…来い。<end>"
 korean = "…와.<end>"
+
+["320111"]
+japanese = "月光に反応はない。<line-break>ロイはここにはいないようだな。<end>"
+korean = "월광에 반응이 없다. 로이는 여기 없는 모양이군.<end>"
 
 ["320113"]
 japanese = "…ロイは生きている。<end>"

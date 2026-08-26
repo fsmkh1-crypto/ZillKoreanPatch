@@ -264,6 +264,10 @@ korean = "? 무한의 소울을 지닌 자….<end>"
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
 
+["1590159"]
+japanese = "こんにちは。　　　　　　　　　<line-break>　<line-break>　<line-break>それにしても、このような時分に<line-break>この猫屋敷に、２人もお客さんが<line-break>見えるとはね。<end>"
+korean = "안녕하세요. 이런 때에 이 고양이 저택에 손님이 두 분이나 오시다니.<end>"
+
 ["1590160"]
 japanese = "まったく手間をとらせやがって！<end>"
 korean = "정말 손이 많이 가게 하는군!<end>"
@@ -315,6 +319,18 @@ korean = "서두르지 않으면 안 돼, <value:$28>.<end>"
 ["1590196"]
 japanese = "待ってよぉ！<end>"
 korean = "기다려어!<end>"
+
+["1590204"]
+japanese = "予備用メッセージ７<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 7 루루안타, 볼륨 1 그 3<end>"
+
+["1590205"]
+japanese = "予備用メッセージ８<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 8 루루안타, 볼륨 1 그 3<end>"
+
+["1590206"]
+japanese = "予備用メッセージ９<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 9 루루안타, 볼륨 1 그 3<end>"
 
 ["1590208"]
 japanese = "ルルアンタ・ボリューム１その３終端<end>"

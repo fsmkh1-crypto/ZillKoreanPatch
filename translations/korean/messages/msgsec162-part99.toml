@@ -28,6 +28,10 @@ korean = "들어와.<end>"
 japanese = "よう、久しぶり。<end>"
 korean = "여어, 오랜만이군.<end>"
 
+["1620017"]
+japanese = "俺が、ゼネテス・ファーロス。<line-break>この戦いの副司令だ。<end>"
+korean = "내가 제네테스 파로스. 이 전투의 부사령관이다.<end>"
+
 ["1620022"]
 japanese = "聞く<end>"
 korean = "듣는다<end>"
@@ -104,6 +108,10 @@ korean = "간다, <value:$28>.<end>"
 japanese = "第二の殊勲、<value:$28>。<end>"
 korean = "제2의 공훈, <value:$28>.<end>"
 
+["1620083"]
+japanese = "しかも、第二の殊勲も<line-break>ファーロスのゆかりの者か…！<end>"
+korean = "게다가 두 번째 공훈도 파로스와 연이 있는 자인가…!<end>"
+
 ["1620084"]
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
@@ -139,6 +147,10 @@ korean = "이만 실례하겠다!<end>"
 ["1620105"]
 japanese = "おやおや、レムオン卿。<line-break>突然、何ごとか？<end>"
 korean = "이런 이런, 레무온 경. 갑자기 무슨 일인가?<end>"
+
+["1620109"]
+japanese = "ノーブル伯には、<line-break>ゼネテス卿の副官をやってもらう。<end>"
+korean = "노블 백작에게는 제네테스 경의 부관을 맡기겠다.<end>"
 
 ["1620110"]
 japanese = "あの男の！？<line-break>理由をご説明願いたい。<end>"
@@ -203,6 +215,26 @@ korean = "후후후. 여동생을 아끼는군, 레무온 경은.<end>"
 ["1620154"]
 japanese = "<value:$28>は<line-break>竜字将軍の称号を得た。<end>"
 korean = "<value:$28>은 용자 장군의 칭호를 얻었다.<end>"
+
+["1620155"]
+japanese = "予備用メッセージ５<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 5 파로스, 볼륨 3 그 2<end>"
+
+["1620156"]
+japanese = "予備用メッセージ６<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 6 파로스, 볼륨 3 그 2<end>"
+
+["1620157"]
+japanese = "予備用メッセージ７<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 7 파로스, 볼륨 3 그 2<end>"
+
+["1620158"]
+japanese = "予備用メッセージ８<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 8 파로스, 볼륨 3 그 2<end>"
+
+["1620159"]
+japanese = "予備用メッセージ９<line-break>ファーロス・ボリューム３その２<end>"
+korean = "예비 메시지 9 파로스, 볼륨 3 그 2<end>"
 
 ["1620161"]
 japanese = "ファーロス・ボリューム３その２終端<end>"

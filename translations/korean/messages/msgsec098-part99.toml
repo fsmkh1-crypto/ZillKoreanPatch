@@ -20,6 +20,10 @@ korean = "다시 한 번….<end>"
 japanese = "いらっしゃいませー。<end>"
 korean = "어서 오세요.<end>"
 
+["980007"]
+japanese = "あ…、行っちゃうんですか…？　　　　<line-break>あ、あの…、<line-break>　<line-break>いえっ！　ありがとうございましたー！<line-break>また、いらしてくださいね！<end>"
+korean = "아… 가시는 건가요…? 저, 저기… 아니에요! 감사합니다! 또 와 주세요!<end>"
+
 ["980017"]
 japanese = "…<value:$28>さん！<line-break>恐かったです！<end>"
 korean = "…<value:$28> 씨! 무서웠어요!<end>"

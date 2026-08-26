@@ -60,6 +60,10 @@ korean = "그만둬!! 볼보라!<end>"
 japanese = "くっ、また<value:$28>と<line-break>そのかわいくねえ弟か！<line-break>今日こそぶっ殺してやる！<end>"
 korean = "칫, 또 <value:$28>와 그 귀엽지도 않은 동생이냐! 오늘이야말로 죽여주마!<end>"
 
+["310038"]
+japanese = "くそっ！　ボルボラめ！<line-break>こんな奴に食われてたまるか！<end>"
+korean = "젠장! 볼보라 놈! 이런 녀석에게 먹힐 순 없어!<end>"
+
 ["310039"]
 japanese = "おい、女、<line-break>助太刀してやる。<end>"
 korean = "어이, 여자. 도와주지.<end>"
@@ -156,6 +160,10 @@ korean = "닥쳐, 볼보라!!<end>"
 japanese = "ぼ…ボルボラ…、<line-break>お前…いったい…！？<end>"
 korean = "보… 볼보라… 너… 대체…!?<end>"
 
+["310125"]
+japanese = "やったね、姉ちゃん！<line-break>ついにボルボラを倒したんだ！<end>"
+korean = "해냈어, 누나! 드디어 볼보라를 쓰러뜨렸어!<end>"
+
 ["310128"]
 japanese = "ゲヘ！　<value:$28>を倒したぞ！<line-break>おめでとう、俺！<line-break>これで晴れてノーブルの領主だ！！<end>"
 korean = "게헤! <value:$28>을 쓰러뜨렸다! 축하한다, 나! 이걸로 당당히 노블의 영주다!!<end>"
@@ -243,6 +251,10 @@ korean = "여기서부터 추가 대사<end>"
 ["310165"]
 japanese = "気に入らんな。<end>"
 korean = "마음에 안 드는군.<end>"
+
+["310166"]
+japanese = "女、また助太刀しよう。<line-break>どうにもいけすかんのでな。<end>"
+korean = "여자여, 다시 힘을 보태 주지. 영 마음에 들지 않는군.<end>"
 
 ["310167"]
 japanese = "な、何者だ！！<end>"

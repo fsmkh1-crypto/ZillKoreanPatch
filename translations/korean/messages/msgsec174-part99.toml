@@ -304,6 +304,10 @@ korean = "자.<end>"
 japanese = "なぁ、<line-break>死に場所の希望とかない？<line-break>　<line-break>俺は断然、太陽の下だね。<line-break>照りつける太陽の下。<end>"
 korean = "있잖아, 죽을 장소로 원하는 곳 없어? 난 단연 태양 아래야. 내리쬐는 태양 아래.<end>"
 
+["1740170"]
+japanese = "ちぇ…、やだなあ。<line-break>結局こんな暗い所で死ぬのか…。<line-break>　<line-break>もし生まれ変わりとかがあるなら<line-break>今度は、太陽の下で……。<end>"
+korean = "쳇… 싫다. 결국 이런 어두운 곳에서 죽는 건가…. 다시 태어날 수 있다면 다음엔 태양 아래에서……. <end>"
+
 ["1740173"]
 japanese = "では、いきますよ。<end>"
 korean = "그럼, 갑니다.<end>"
@@ -319,6 +323,10 @@ korean = "제 집입니다. 일단 큐어는 걸어 두었습니다만 몸 상�
 ["1740187"]
 japanese = "…と、まあ、こんな感じです。<end>"
 korean = "…뭐, 대충 이런 느낌입니다.<end>"
+
+["1740188"]
+japanese = "そう…。<line-break>ふたりとも…、死んだの……。<line-break>　<line-break>話してくれて、ありがとう。<line-break>本当のことを知らないよりは<line-break>気が楽になったわ。<end>"
+korean = "그래…. 둘 다… 죽었구나……. 말해 줘서 고마워. 진실을 모르는 것보단 마음이 편해졌어.<end>"
 
 ["1740190"]
 japanese = "<value:$28>、<line-break>私をあなたの仲間に<line-break>入れてくれないかしら？<end>"

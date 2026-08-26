@@ -12,6 +12,10 @@ korean = "있잖아, <value:$28>. 또 같이 숲에 가자. 약속이야.<end>"
 japanese = "あら、<value:$28>。<line-break>このあいだ魔物が町に迷い込んだときは、<line-break>大変だったわね。<end>"
 korean = "어머, <value:$28>. 지난번에 마물이 마을에 들어왔을 때는 큰일이었지.<end>"
 
+["1600006"]
+japanese = "外との交流がないんで、<line-break>たいしたもんはないけどな。<end>"
+korean = "밖과 교류가 없어서 대단한 건 없지만 말이야.<end>"
+
 ["1600007"]
 japanese = "キャー！<end>"
 korean = "꺄악!<end>"

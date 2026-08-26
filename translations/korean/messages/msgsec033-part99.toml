@@ -12,6 +12,10 @@ korean = "어라? 플린트 씨, <value:$28>은?<end>"
 japanese = "またぁ？<line-break>しょうがないんだからぁ！<end>"
 korean = "또야? 정말 어쩔 수 없다니까!<end>"
 
+["330008"]
+japanese = "まあまあ、あのときも<line-break>幸い無事ですんだことだし…。<end>"
+korean = "뭐, 그때도 다행히 무사했으니까….<end>"
+
 ["330009"]
 japanese = "でも、<value:$28>には<line-break>商売を継がせるんでしょお？<line-break>だったら剣の稽古なんて…。<end>"
 korean = "하지만 <value:$28>한테 장사를 물려줄 거잖아? 그럼 검술 수련은….<end>"
@@ -200,6 +204,10 @@ korean = "흐응.<end>"
 japanese = "…そのようですな。<line-break>さぁ、火がついたよ。<end>"
 korean = "…그런 모양이군요. 자, 불이 붙었어.<end>"
 
+["330089"]
+japanese = "旅をしている理由、ねえ…？<line-break>さあな、どうしてだろうな<end>"
+korean = "여행하는 이유라…. 글쎄, 왜일까.<end>"
+
 ["330091"]
 japanese = "ハハハ、かもな。<end>"
 korean = "하하하, 그럴지도.<end>"
@@ -215,6 +223,10 @@ korean = "어…? 뭐, 뭐야?<end>"
 ["330097"]
 japanese = "フリントさん、お客さんだ。<end>"
 korean = "플린트 씨, 손님이야.<end>"
+
+["330098"]
+japanese = "…しかも、団体さんだ。<line-break>剣を取れ。俺から離れるな。<end>"
+korean = "…게다가 단체 손님이군. 검을 들어. 내게서 떨어지지 마.<end>"
 
 ["330099"]
 japanese = "フリントさん、火を…。<end>"
@@ -383,6 +395,10 @@ korean = "(아버지가 걱정돼…. 빨리 돌아가야 해.)<end>"
 ["330179"]
 japanese = "お前がノーブルにいる間中行っていた<line-break>町の外の森に行ったはずだ。<line-break>頼んだよ、<value:$28>。<end>"
 korean = "네가 노블에 있는 동안 계속 가던 마을 밖 숲으로 갔을 거야. 부탁한다, <value:$28>.<end>"
+
+["330184"]
+japanese = "ここはロストール王宮だ。<line-break>用なき者は立ち去るのだな。<end>"
+korean = "여기는 로스토올 왕궁이다. 용무 없는 자는 물러가라.<end>"
 
 ["330186"]
 japanese = "空<end>"

@@ -4,6 +4,10 @@
 japanese = "通信機イベント用開始<end>"
 korean = "통신기 이벤트용 시작<end>"
 
+["2590005"]
+japanese = "大丈夫です。見た目より頑丈ですから、<line-break>壊れる心配はまずありません。<line-break>　<line-break>他の道具と同じように<line-break>何度でも使えます。<end>"
+korean = "괜찮습니다. 보기보다 튼튼해서 망가질 걱정은 거의 없습니다. 다른 도구처럼 몇 번이고 사용할 수 있습니다.<end>"
+
 ["2590007"]
 japanese = "きっと<value:$28>の<line-break>役に立つと思いますよ。<end>"
 korean = "분명 <value:$28>에게 도움이 될 거예요.<end>"

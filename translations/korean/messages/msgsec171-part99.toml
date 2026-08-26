@@ -80,6 +80,10 @@ korean = "쓸, 쓸데없다고….<end>"
 japanese = "利敵行為じゃと？<line-break>見損なうな、ジラーク！<end>"
 korean = "적을 이롭게 하는 짓이라고? 나를 얕보지 마라, 지라크!<end>"
 
+["1710045"]
+japanese = "強制手段をとる必要が生じるまえに、<line-break>お帰り願おう。<end>"
+korean = "강제 수단을 써야 할 상황이 되기 전에 돌아가 주시오.<end>"
+
 ["1710051"]
 japanese = "時間のようじゃ。<line-break>行くぞ！　<value:$28>！<end>"
 korean = "시간이 된 모양이군. 간다, <value:$28>!<end>"
@@ -151,6 +155,10 @@ korean = "어머, 그런가요.<end>"
 ["1710101"]
 japanese = "こちらです。来てください。<end>"
 korean = "이쪽입니다. 따라오세요.<end>"
+
+["1710113"]
+japanese = "おお、こわ。<line-break>しかし、こりゃ一本取られたね。<line-break>　<line-break>じゃ、これ以上怒られないように<line-break>健康な俺は退散しましょうかね。<end>"
+korean = "오, 무서워라. 그래도 이건 한 방 먹었네. 더 혼나기 전에 멀쩡한 나는 이만 사라져야겠군.<end>"
 
 ["1710121"]
 japanese = "おお恐い。ハハハ…。<end>"
