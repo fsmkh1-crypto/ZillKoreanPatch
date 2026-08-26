@@ -48,6 +48,10 @@ korean = "잡아라.<end>"
 japanese = "今は、な。<end>"
 korean = "지금은 말이지.<end>"
 
+["370216"]
+japanese = "<value:$28>ー！<end>"
+korean = "<value:$28>!<end>"
+
 ["370242"]
 japanese = "くっ！！<end>"
 korean = "큭!!<end>"

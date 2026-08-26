@@ -1,16 +1,32 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1410026"]
+japanese = "ノエル…。<end>"
+korean = "노엘….<end>"
+
 ["1410031"]
 japanese = "え？<end>"
 korean = "어?<end>"
+
+["1410037"]
+japanese = "レイヴン！<end>"
+korean = "레이븐!<end>"
 
 ["1410073"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
 
+["1410095"]
+japanese = "…ゆくぞ。<end>"
+korean = "…간다.<end>"
+
 ["1410105"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1410155"]
+japanese = "ありがと。<end>"
+korean = "고마워.<end>"
 
 ["1410194"]
 japanese = "…え！？<end>"
@@ -19,6 +35,10 @@ korean = "…어!?<end>"
 ["1410196"]
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
+
+["1410201"]
+japanese = "は、はい！<end>"
+korean = "네, 네!<end>"
 
 ["1410288"]
 japanese = "はい。<end>"
@@ -43,6 +63,14 @@ korean = "어?<end>"
 ["1410349"]
 japanese = "お兄様！<end>"
 korean = "오라버니!<end>"
+
+["1410368"]
+japanese = "ヴィア…？<end>"
+korean = "비아…?<end>"
+
+["1410482"]
+japanese = "まだゴブ。<end>"
+korean = "아직 고브.<end>"
 
 ["1410579"]
 japanese = "ああ…。<end>"

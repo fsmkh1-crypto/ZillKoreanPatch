@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1370000"]
+japanese = "オッシ開始<end>"
+korean = "오시 시작<end>"
+
 ["1370027"]
 japanese = "強さ<end>"
 korean = "강함<end>"
@@ -19,6 +23,10 @@ korean = "강함<end>"
 ["1370058"]
 japanese = "美しさ<end>"
 korean = "아름다움<end>"
+
+["1370105"]
+japanese = "わかります<end>"
+korean = "알겠습니다<end>"
 
 ["1370177"]
 japanese = "大丈夫<end>"
@@ -52,6 +60,10 @@ korean = "……야.<end>"
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
 
+["1370241"]
+japanese = "これは…！<end>"
+korean = "이건…!<end>"
+
 ["1370251"]
 japanese = "…来い。<end>"
 korean = "…와.<end>"
@@ -68,6 +80,10 @@ korean = "하하하!<end>"
 japanese = "知らない<end>"
 korean = "몰라<end>"
 
+["1370313"]
+japanese = "知っている<end>"
+korean = "알고 있다<end>"
+
 ["1370325"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
@@ -76,6 +92,10 @@ korean = "괜찮아<end>"
 japanese = "教わった<end>"
 korean = "배웠다<end>"
 
+["1370405"]
+japanese = "ソウルとは<end>"
+korean = "소울이란<end>"
+
 ["1370429"]
 japanese = "理解した<end>"
 korean = "이해했다<end>"
@@ -83,6 +103,10 @@ korean = "이해했다<end>"
 ["1370433"]
 japanese = "理解した<end>"
 korean = "이해했다<end>"
+
+["1370495"]
+japanese = "お願いする<end>"
+korean = "부탁한다<end>"
 
 ["1370541"]
 japanese = "大丈夫<end>"
@@ -123,3 +147,7 @@ korean = "하하하!<end>"
 ["1370712"]
 japanese = "はい<end>"
 korean = "네<end>"
+
+["1370751"]
+japanese = "オッシ終端<end>"
+korean = "오시 끝<end>"

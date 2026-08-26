@@ -24,6 +24,10 @@ korean = "위험해!<end>"
 japanese = "くっ！<end>"
 korean = "큭!<end>"
 
+["1400126"]
+japanese = "ティアナ！<end>"
+korean = "티아나!<end>"
+
 ["1400166"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
@@ -48,6 +52,14 @@ korean = "간다<end>"
 japanese = "行かない<end>"
 korean = "안 가<end>"
 
+["1400325"]
+japanese = "お父…さ…<end>"
+korean = "아버… 지…<end>"
+
+["1400353"]
+japanese = "…フレア。<end>"
+korean = "…플레어.<end>"
+
 ["1400359"]
 japanese = "はい。<end>"
 korean = "네.<end>"
@@ -63,3 +75,7 @@ korean = "네.<end>"
 ["1400429"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
+
+["1400759"]
+japanese = "引き受ける<end>"
+korean = "맡는다<end>"

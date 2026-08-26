@@ -8,6 +8,14 @@ korean = "모르겠군.<end>"
 japanese = "誰だ？<end>"
 korean = "누구야?<end>"
 
+["560035"]
+japanese = "レイヴン！<end>"
+korean = "레이븐!<end>"
+
+["560052"]
+japanese = "レイヴン！<end>"
+korean = "레이븐!<end>"
+
 ["560068"]
 japanese = "はい？<end>"
 korean = "네?<end>"
@@ -20,13 +28,29 @@ korean = "나한테 무슨 용건이지?<end>"
 japanese = "ちっ。<end>"
 korean = "칫.<end>"
 
+["560153"]
+japanese = "レイヴン！<end>"
+korean = "레이븐!<end>"
+
 ["560160"]
 japanese = "愚かな…。<end>"
 korean = "어리석군….<end>"
 
+["560214"]
+japanese = "レイヴン。<end>"
+korean = "레이븐.<end>"
+
+["560243"]
+japanese = "ノエル！　<end>"
+korean = "노엘!　<end>"
+
 ["560244"]
 japanese = "どうした？<end>"
 korean = "왜 그래?<end>"
+
+["560248"]
+japanese = "ノエル！？<end>"
+korean = "노엘!?<end>"
 
 ["560405"]
 japanese = "来たか…。<end>"
@@ -55,6 +79,10 @@ korean = "뭐, 뭐야!<end>"
 ["560633"]
 japanese = "仲間を呼ぶ<end>"
 korean = "동료를 부른다<end>"
+
+["560647"]
+japanese = "<value:$28>様！<end>"
+korean = "<value:$28> 님!<end>"
 
 ["560743"]
 japanese = "断る！<end>"

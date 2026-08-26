@@ -4,9 +4,17 @@
 japanese = "兄さん！<end>"
 korean = "형!<end>"
 
+["1360055"]
+japanese = "やめろ！！<end>"
+korean = "그만둬!!<end>"
+
 ["1360088"]
 japanese = "ヴァイ！<end>"
 korean = "바이!<end>"
+
+["1360113"]
+japanese = "立てるか？<end>"
+korean = "일어설 수 있어?<end>"
 
 ["1360114"]
 japanese = "はい。<end>"
@@ -48,6 +56,14 @@ korean = "…세라.<end>"
 japanese = "…ロイ。<end>"
 korean = "…로이.<end>"
 
+["1360335"]
+japanese = "…姉さん。<end>"
+korean = "…누나.<end>"
+
+["1360341"]
+japanese = "…姉さん。<end>"
+korean = "…누나.<end>"
+
 ["1360349"]
 japanese = "行け！<end>"
 korean = "가!<end>"
@@ -64,6 +80,14 @@ korean = "저기….<end>"
 japanese = "…はあ？<end>"
 korean = "…하아?<end>"
 
+["1360427"]
+japanese = "ほうほう。<end>"
+korean = "호오, 호오.<end>"
+
+["1360532"]
+japanese = "ノエル…。<end>"
+korean = "노엘….<end>"
+
 ["1360537"]
 japanese = "貴様…。<end>"
 korean = "네놈….<end>"
@@ -71,3 +95,7 @@ korean = "네놈….<end>"
 ["1360541"]
 japanese = "え？<end>"
 korean = "어?<end>"
+
+["1360547"]
+japanese = "レイヴン！<end>"
+korean = "레이븐!<end>"

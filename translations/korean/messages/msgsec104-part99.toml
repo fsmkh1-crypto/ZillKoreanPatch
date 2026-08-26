@@ -1,8 +1,20 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1040006"]
+japanese = "お安いご用<end>"
+korean = "식은 죽 먹기지<end>"
+
+["1040030"]
+japanese = "なんだと？<end>"
+korean = "뭐라고?<end>"
+
 ["1040035"]
 japanese = "…ちっ！<end>"
 korean = "…칫!<end>"
+
+["1040048"]
+japanese = "キャーッ！<end>"
+korean = "꺄악!<end>"
 
 ["1040050"]
 japanese = "ちっ！<end>"

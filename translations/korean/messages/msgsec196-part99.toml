@@ -36,9 +36,25 @@ korean = "빛1<end>"
 japanese = "光２<end>"
 korean = "빛2<end>"
 
+["1960471"]
+japanese = "バインドM<end>"
+korean = "바인드 M<end>"
+
+["1960472"]
+japanese = "バインドL<end>"
+korean = "바인드 L<end>"
+
+["1960473"]
+japanese = "バインドLL<end>"
+korean = "바인드 LL<end>"
+
 ["1960474"]
 japanese = "次元の輪<end>"
 korean = "차원의 고리<end>"
+
+["1960482"]
+japanese = "ストップ.<end>"
+korean = "스톱.<end>"
 
 ["1960515"]
 japanese = "風の行方<end>"
@@ -87,6 +103,14 @@ korean = "　예비<end>"
 ["1960711"]
 japanese = "　セラEND<end>"
 korean = " 세라 END<end>"
+
+["1960788"]
+japanese = "フェルム2<end>"
+korean = "페름 2<end>"
+
+["1960789"]
+japanese = "フェルム3<end>"
+korean = "페름 3<end>"
 
 ["1960939"]
 japanese = "組手勝負<end>"

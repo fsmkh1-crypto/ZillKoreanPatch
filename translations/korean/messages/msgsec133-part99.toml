@@ -20,6 +20,10 @@ korean = "안 가<end>"
 japanese = "はい…。<end>"
 korean = "네….<end>"
 
+["1330116"]
+japanese = "せーの！！<end>"
+korean = "하나, 둘!!<end>"
+
 ["1330124"]
 japanese = "はい。<end>"
 korean = "네.<end>"
@@ -28,9 +32,17 @@ korean = "네.<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1330266"]
+japanese = "カルラ様！<end>"
+korean = "카를라 님!<end>"
+
 ["1330267"]
 japanese = "状況は？<end>"
 korean = "상황은?<end>"
+
+["1330277"]
+japanese = "ふぅーん。<end>"
+korean = "흐응.<end>"
 
 ["1330280"]
 japanese = "はっ！<end>"
@@ -56,6 +68,34 @@ korean = "핫!<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1330380"]
+japanese = "ウフフ…。<end>"
+korean = "후후후….<end>"
+
+["1330418"]
+japanese = "ウフフ…。<end>"
+korean = "후후후….<end>"
+
+["1330425"]
+japanese = "ウフフ…。<end>"
+korean = "후후후….<end>"
+
+["1330608"]
+japanese = "…ノエル。<end>"
+korean = "…노엘.<end>"
+
 ["1330614"]
 japanese = "はい！<end>"
 korean = "네!<end>"
+
+["1330626"]
+japanese = "レイヴン！<end>"
+korean = "레이븐!<end>"
+
+["1330629"]
+japanese = "カフィン！<end>"
+korean = "카핀!<end>"
+
+["1330692"]
+japanese = "それは違う<end>"
+korean = "그건 아니야<end>"

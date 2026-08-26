@@ -8,6 +8,10 @@ korean = "지금은 됐어<end>"
 japanese = "シャリ！<end>"
 korean = "샤리!<end>"
 
+["890070"]
+japanese = "…シャリ！<end>"
+korean = "…샤리!<end>"
+
 ["890082"]
 japanese = "これは…！<end>"
 korean = "이건…!<end>"
@@ -88,6 +92,10 @@ korean = "크악!<end>"
 japanese = "ううっ…！<end>"
 korean = "으윽…!<end>"
 
+["890356"]
+japanese = "ザギヴ…！<end>"
+korean = "자기브…!<end>"
+
 ["890383"]
 japanese = "あ…。<end>"
 korean = "아…<end>"
@@ -127,6 +135,14 @@ korean = "윽……!<end>"
 ["890683"]
 japanese = "ノエル！<end>"
 korean = "노엘!<end>"
+
+["890684"]
+japanese = "…ノエル。<end>"
+korean = "…노엘.<end>"
+
+["890689"]
+japanese = "ノエル…。<end>"
+korean = "노엘….<end>"
 
 ["890700"]
 japanese = "おりゃあ！<end>"

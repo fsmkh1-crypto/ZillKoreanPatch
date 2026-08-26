@@ -4,17 +4,57 @@
 japanese = "見たい<end>"
 korean = "보고 싶어<end>"
 
+["1380066"]
+japanese = "見たくない<end>"
+korean = "보고 싶지 않아<end>"
+
 ["1380083"]
 japanese = "んっ…。<end>"
 korean = "응….<end>"
+
+["1380113"]
+japanese = "じゃねー。<end>"
+korean = "또 봐.<end>"
+
+["1380173"]
+japanese = "ナッジ…。<end>"
+korean = "나지….<end>"
+
+["1380207"]
+japanese = "腕輪を渡す<end>"
+korean = "팔찌를 건넨다<end>"
+
+["1380243"]
+japanese = "そうか…。<end>"
+korean = "그런가….<end>"
 
 ["1380255"]
 japanese = "俺は…<end>"
 korean = "나는…<end>"
 
+["1380311"]
+japanese = "うわーん！<end>"
+korean = "으아앙!<end>"
+
+["1380347"]
+japanese = "わぁぁぁ！<end>"
+korean = "으아아아!<end>"
+
 ["1380373"]
 japanese = "おっと！<end>"
 korean = "어이쿠!<end>"
+
+["1380385"]
+japanese = "闇の神器？<end>"
+korean = "어둠의 신기?<end>"
+
+["1380441"]
+japanese = "あきらめる<end>"
+korean = "포기한다<end>"
+
+["1380472"]
+japanese = "引き受ける<end>"
+korean = "맡는다<end>"
 
 ["1380557"]
 japanese = "ははは！<end>"

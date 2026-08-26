@@ -28,6 +28,10 @@ korean = "아!<end>"
 japanese = "いいよ<end>"
 korean = "좋아<end>"
 
+["570108"]
+japanese = "<value:$28>か？<end>"
+korean = "<value:$28>인가?<end>"
+
 ["570117"]
 japanese = "お客さん。<end>"
 korean = "손님.<end>"

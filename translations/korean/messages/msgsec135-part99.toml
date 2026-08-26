@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1350009"]
+japanese = "…そうか。<end>"
+korean = "…그런가.<end>"
+
+["1350017"]
+japanese = "なぜって？<end>"
+korean = "왜냐고?<end>"
+
 ["1350112"]
 japanese = "えっ？<end>"
 korean = "어?<end>"
@@ -12,6 +20,10 @@ korean = "정말!<end>"
 japanese = "なっ！<end>"
 korean = "뭐!?<end>"
 
+["1350192"]
+japanese = "ひいいい！<end>"
+korean = "히이이익!<end>"
+
 ["1350247"]
 japanese = "ぐっ！<end>"
 korean = "큭!<end>"
@@ -19,6 +31,14 @@ korean = "큭!<end>"
 ["1350268"]
 japanese = "くっ！<end>"
 korean = "큭!<end>"
+
+["1350271"]
+japanese = "ゼネテス！<end>"
+korean = "제네테스!<end>"
+
+["1350279"]
+japanese = "レムオン！<end>"
+korean = "레몬!<end>"
 
 ["1350282"]
 japanese = "無礼者！<end>"
@@ -36,6 +56,10 @@ korean = "무례한 놈!<end>"
 japanese = "やれ！<end>"
 korean = "해치워!<end>"
 
+["1350328"]
+japanese = "叔母様が…<end>"
+korean = "숙모님이…<end>"
+
 ["1350340"]
 japanese = "くっ…<end>"
 korean = "큭…<end>"
@@ -48,26 +72,62 @@ korean = "왜?<end>"
 japanese = "兄さん！<end>"
 korean = "형!<end>"
 
+["1350372"]
+japanese = "そんな…！<end>"
+korean = "그럴 수가…!<end>"
+
+["1350405"]
+japanese = "ゼネテス！<end>"
+korean = "제네테스!<end>"
+
 ["1350431"]
 japanese = "あ…<end>"
 korean = "아…<end>"
+
+["1350438"]
+japanese = "…笑うよ。<end>"
+korean = "…웃을 거야.<end>"
+
+["1350440"]
+japanese = "叫び声が！<end>"
+korean = "비명이!<end>"
 
 ["1350442"]
 japanese = "ヴァイ！<end>"
 korean = "바이!<end>"
 
+["1350452"]
+japanese = "意識を失う<end>"
+korean = "의식을 잃는다<end>"
+
 ["1350469"]
 japanese = "助ける<end>"
 korean = "돕는다<end>"
+
+["1350470"]
+japanese = "ほっておく<end>"
+korean = "내버려 둔다<end>"
 
 ["1350519"]
 japanese = "…ちっ<end>"
 korean = "…칫<end>"
 
+["1350527"]
+japanese = "待ってよ！<end>"
+korean = "기다려!<end>"
+
 ["1350528"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
 
+["1350530"]
+japanese = "素通りする<end>"
+korean = "그냥 지나간다<end>"
+
 ["1350540"]
 japanese = "見守る<end>"
 korean = "지켜본다<end>"
+
+["1350541"]
+japanese = "素通りする<end>"
+korean = "그냥 지나간다<end>"
