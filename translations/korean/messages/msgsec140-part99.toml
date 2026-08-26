@@ -624,6 +624,10 @@ korean = "그리고 지금 <value:$28>님이 정말 구하러 와 주셔서…. 
 japanese = "みんな！<line-break>大丈夫！？<end>"
 korean = "다들! 괜찮아!?<end>"
 
+["1400339"]
+japanese = "まだ少し、体に力が入りませんが…<line-break>大丈夫です。<value:$28>さん、<line-break>ありがとうございます。<end>"
+korean = "아직 몸에 힘이 잘 들어가진 않지만… 괜찮습니다. <value:$28>님, 감사합니다.<end>"
+
 ["1400346"]
 japanese = "よいのです、<line-break><value:$28>様。<end>"
 korean = "괜찮습니다, <value:$28>님.<end>"

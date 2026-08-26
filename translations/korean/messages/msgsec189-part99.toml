@@ -148,6 +148,10 @@ korean = "어라? 누가 왔나?<end>"
 japanese = "その戦い、手を貸そう。<end>"
 korean = "그 싸움, 힘을 보태지.<end>"
 
+["1890136"]
+japanese = "フフフ、さすがだよ。<line-break>それでこそ、だよ。<end>"
+korean = "후후후, 역시 대단해. 그래야지.<end>"
+
 ["1890137"]
 japanese = "さあ、こいつを倒さないと<line-break>この先には進めないよ、<line-break><value:$28>！<end>"
 korean = "자, 이 녀석을 쓰러뜨리지 않으면 앞으로 갈 수 없어, <value:$28>!<end>"
@@ -179,6 +183,10 @@ korean = "간다, <value:$28>!<end>"
 ["1890156"]
 japanese = "ケリュネイア。<line-break>お前はここに残れ。<end>"
 korean = "케류네이아. 너는 여기 남아라.<end>"
+
+["1890159"]
+japanese = "難しい仕事だ。<line-break>できるか、ケリュネイア？<end>"
+korean = "어려운 일이다. 할 수 있겠나, 케류네이아?<end>"
 
 ["1890166"]
 japanese = "へぇ。何に気づいたの？<line-break>聞かせてよ。<end>"
