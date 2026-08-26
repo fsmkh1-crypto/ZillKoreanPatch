@@ -436,6 +436,10 @@ korean = "난 이제 됐어, 아저씨.<end>"
 japanese = "だが、ま、<line-break><value:$28>も大変だな。<end>"
 korean = "하지만 뭐, <value:$28>도 고생이 많군.<end>"
 
+["1420265"]
+japanese = "あっ、みなさん、わかりましたよ！<line-break> <line-break> <line-break>時計の針って、<line-break><value:$28>様のことなんですね！<line-break>きゃ！<end>"
+korean = "아, 여러분, 알겠어요! 시계 바늘이라는 건 <value:$28>님을 말하는 거였군요! 꺅!<end>"
+
 ["1420266"]
 japanese = "微妙に、時差がある…。<end>"
 korean = "미묘하게 시차가 있어….<end>"
@@ -1084,6 +1088,10 @@ korean = "레몬님!<end>"
 japanese = "どういうことですか？<line-break>説明を求めます。<end>"
 korean = "무슨 뜻입니까? 설명을 요구합니다.<end>"
 
+["1420559"]
+japanese = "我々ディンガル帝国は<line-break>新たなる皇帝を擁立するのです。<line-break> <line-break>人類の革新を進めるに相応しい人物を<line-break>…ね<end>"
+korean = "우리 딘갈 제국은 새로운 황제를 세울 겁니다. 인류의 혁신을 추진하기에 걸맞은 인물을… 말이죠.<end>"
+
 ["1420561"]
 japanese = "そちらでは無法と<line-break>見えるのかもしれません。<line-break> <line-break>しかし、我が国は<line-break>血筋よりも能力を尊びます。<end>"
 korean = "그쪽에서는 무법으로 보일지 모르겠습니다. 하지만 우리나라는 혈통보다 능력을 중시합니다.<end>"
@@ -1111,6 +1119,10 @@ korean = "전령을 보내라! 새로운 황제 <value:$28>의 수색을 시작�
 ["1420571"]
 japanese = "レ、レムオン様。<end>"
 korean = "레, 레몬 님.<end>"
+
+["1420575"]
+japanese = "我々ディンガル帝国は<line-break>新たなる皇帝を擁立するのです。<line-break> <line-break>人類の革新を進めるに相応しい人物を<line-break>…ね<end>"
+korean = "우리 딘갈 제국은 새로운 황제를 세울 겁니다. 인류의 혁신을 추진하기에 걸맞은 인물을… 말이죠.<end>"
 
 ["1420577"]
 japanese = "そちらでは無法と<line-break>見えるのかもしれません。<line-break> <line-break>しかし、我が国は<line-break>血筋よりも能力を尊びます。<end>"

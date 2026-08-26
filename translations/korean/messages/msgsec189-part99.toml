@@ -204,6 +204,10 @@ korean = "케류네이아. 너는 여기 남아라.<end>"
 japanese = "難しい仕事だ。<line-break>できるか、ケリュネイア？<end>"
 korean = "어려운 일이다. 할 수 있겠나, 케류네이아?<end>"
 
+["1890161"]
+japanese = "<value:$28>、私はここにいるわ。<line-break>仲間を呼び出したかったら<line-break>私に言って。<line-break>あとは頼んだわ、<line-break><value:$28>。<end>"
+korean = "<value:$28>, 나는 여기 있을게. 동료를 부르고 싶으면 나한테 말해. 나머지는 부탁해, <value:$28>.<end>"
+
 ["1890166"]
 japanese = "へぇ。何に気づいたの？<line-break>聞かせてよ。<end>"
 korean = "그래? 뭘 깨달았는데? 들려줘.<end>"

@@ -72,6 +72,10 @@ korean = "딩갈 병사인가! 이 녀석도 쓰러뜨린다!<end>"
 japanese = "…とっつぁん、<line-break>悪いが、命をもらう。<end>"
 korean = "…아저씨, 미안하지만 목숨을 받겠다.<end>"
 
+["1630062"]
+japanese = "…ロストールの兵の<line-break>命がかかってるんでね。<end>"
+korean = "…로스토올 병사들의 목숨이 걸려 있어서 말이지.<end>"
+
 ["1630065"]
 japanese = "あばよ、とっつぁん、<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"
 korean = "잘 있어, 아저씨, 그리고 <value:$28>! 살아서 다시 만나자!<end>"
@@ -120,9 +124,17 @@ korean = "새로운 적인가! 더는 돌파하게 두지 않겠다!<end>"
 japanese = "こ、こいつは手強い！<end>"
 korean = "이, 이놈 강하다!<end>"
 
+["1630110"]
+japanese = "何人来ようと、同じだ。<line-break>侵略者め、覚悟！！<end>"
+korean = "몇 명이 오든 똑같다. 침략자 놈들, 각오해라!!<end>"
+
 ["1630112"]
 japanese = "こ、これは！<line-break>本隊はいったい！？<end>"
 korean = "이, 이건! 본대는 대체!?<end>"
+
+["1630116"]
+japanese = "ふむ、これで<line-break>この戦いの勝ちは決まったわ。<end>"
+korean = "흠, 이걸로 이 싸움의 승패는 결정됐군.<end>"
 
 ["1630117"]
 japanese = "では、次の戦功者…、<line-break><value:$28>！　入れ！<end>"

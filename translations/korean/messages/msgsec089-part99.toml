@@ -136,6 +136,10 @@ korean = "그만둘까<end>"
 japanese = "　　　　　　　ならば行くがよい。　　　　　　<end>"
 korean = "그렇다면 가라.<end>"
 
+["890119"]
+japanese = "愚かなり、無限のソウルを持つ者よ。<line-break>精霊神に躍らされ、<line-break>我を撃ち、闇を呼ぶか…。<line-break>愚かなり…愚かなり…。<end>"
+korean = "어리석구나, 무한의 소울을 지닌 자여. 정령신에게 놀아나 나를 치고 어둠을 부르는가…. 어리석구나… 어리석어….<end>"
+
 ["890124"]
 japanese = "しょうがない<end>"
 korean = "어쩔 수 없지<end>"
@@ -712,6 +716,10 @@ korean = "<value:$28>, 도망쳐! 이 마을을 떠나! 나도 곧 뒤따라갈�
 japanese = "お願い！　逃げて！<end>"
 korean = "부탁이야! 도망쳐!<end>"
 
+["890491"]
+japanese = "フッ、無駄だ。<line-break>無限のソウルの持ち主でも、<line-break>私に勝つことはできん。<line-break>その偉大なソウルを我に奉げるがよい。<end>"
+korean = "흥, 소용없다. 무한의 소울을 지닌 자라도 나를 이길 수는 없다. 그 위대한 소울을 나에게 바쳐라.<end>"
+
 ["890494"]
 japanese = "だけど、お前と過ごした１６年…<line-break>私は初めて安らぎを知った…。<line-break>　<line-break><value:$28>、<line-break>強く…生きて…。<end>"
 korean = "하지만 너와 보낸 16년… 나는 처음으로 평온을 알았다…. <value:$28>, 강하게… 살아….<end>"
@@ -1032,6 +1040,10 @@ korean = "노엘, 잘 들어. 레이븐은 너를 지키기 위해 목숨을 내
 japanese = "カ、カフィン！<end>"
 korean = "카, 카핀!<end>"
 
+["890641"]
+japanese = "戦う前から負けたような声を<line-break>出すんじゃないよ、ノエル！<line-break><line-break>レイヴンとの冒険で、<line-break>何を学んだんだい！<end>"
+korean = "싸우기도 전에 진 것 같은 소리 하지 마, 노엘! 레이븐과의 모험에서 뭘 배웠어!<end>"
+
 ["890646"]
 japanese = "ああ…カ、カフィン…！<end>"
 korean = "아아… 카, 카핀…!<end>"
@@ -1099,6 +1111,10 @@ korean = "이, 이 목소리는…!<end>"
 ["890674"]
 japanese = "…竜王様だ。<end>"
 korean = "…용왕님이다.<end>"
+
+["890678"]
+japanese = "竜王様の…使命…？　　<line-break>　<line-break>　<line-break>はい、かまいません！<line-break>わたしにできることなら<line-break>何でもします！<end>"
+korean = "용왕님의… 사명…? 네, 괜찮아요! 제가 할 수 있는 일이라면 뭐든 하겠습니다!<end>"
 
 ["890680"]
 japanese = "　　　　　　　　その言葉、　　　　　　　　　<line-break>　　　　　　　偽りはないか？<line-break>　<line-break>　<end>"

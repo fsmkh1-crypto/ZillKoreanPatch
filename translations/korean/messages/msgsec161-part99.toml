@@ -112,6 +112,10 @@ korean = "수락한다<end>"
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
 
+["1610075"]
+japanese = "本当なんだよ！<line-break>本当に、鳳凰がいたんだよ！<end>"
+korean = "진짜라니까! 정말로 봉황이 있었어!<end>"
+
 ["1610078"]
 japanese = "鳳凰って？<end>"
 korean = "봉황이 뭐지?<end>"
@@ -119,6 +123,10 @@ korean = "봉황이 뭐지?<end>"
 ["1610079"]
 japanese = "うるさい<end>"
 korean = "시끄러워<end>"
+
+["1610081"]
+japanese = "だーかーらー！<line-break>絶っ対にいるんだってば！！<end>"
+korean = "그러니까! 절대로 있다니까!!<end>"
 
 ["1610083"]
 japanese = "任せとけ<end>"

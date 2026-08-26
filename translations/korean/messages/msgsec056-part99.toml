@@ -432,6 +432,10 @@ korean = "어서 오세요.<end>"
 japanese = "<value:$28>、さん。<end>"
 korean = "<value:$28>, 씨.<end>"
 
+["560219"]
+japanese = "みんな石のまま…。　　　　<line-break>　<line-break>　<line-break>努力しても、<line-break>どうしようもないことって、<line-break>あるのかな…。<end>"
+korean = "다들 돌인 채로…. 노력해도 어쩔 수 없는 일이 있는 걸까….<end>"
+
 ["560221"]
 japanese = "今は、まだ悲しい場面だけど…。<end>"
 korean = "지금은 아직 슬픈 장면이지만….<end>"
@@ -1123,6 +1127,10 @@ korean = "그래서 말인데, <value:$28>. 네 임무는….<end>"
 ["560674"]
 japanese = "なんですって？<end>"
 korean = "뭐라고요?<end>"
+
+["560679"]
+japanese = "よし、聞いてのとおりだ。<line-break>この作戦が成功すれば、<line-break>ロセン復興の日も近いぞ！<line-break>すぐ準備にとりかかるのだ！！<end>"
+korean = "좋아, 들은 대로다. 이 작전이 성공하면 로센 부흥의 날도 머지않았다! 당장 준비에 착수하라!!<end>"
 
 ["560680"]
 japanese = "どうした？<line-break>浮かない顔だな。<end>"

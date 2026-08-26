@@ -4,6 +4,10 @@
 japanese = "ザギヴメッセージｖ５用開始<end>"
 korean = "자기브 메시지 V5용 시작<end>"
 
+["1140002"]
+japanese = "よく来てくれたわね、　　　　　<line-break><value:$28>。<line-break>　<line-break>今日は、どうしても<line-break>あなたにお礼が言いたかったの。<end>"
+korean = "잘 와 줬어, <value:$28>. 오늘은 꼭 네게 감사하다는 말을 하고 싶었어.<end>"
+
 ["1140010"]
 japanese = "私…だけ…。<end>"
 korean = "나…만….<end>"

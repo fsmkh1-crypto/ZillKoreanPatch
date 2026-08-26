@@ -12,6 +12,10 @@ korean = "도움을 받는다<end>"
 japanese = "手伝ってもらわない<end>"
 korean = "도움받지 않는다<end>"
 
+["700007"]
+japanese = "素直だねえ。<line-break>素直なのはいいことだ。<line-break>　<line-break>んじゃ、自己紹介だ。<line-break>俺はゼネテス。<line-break>お前さんは？<end>"
+korean = "솔직하네. 솔직한 건 좋은 일이지. 그럼 자기소개다. 나는 제네테스. 너는?<end>"
+
 ["700008"]
 japanese = "<value:$28>、ね。<line-break>よろしく、<value:$28>。<end>"
 korean = "<value:$28>, 그렇지. 잘 부탁해, <value:$28>.<end>"

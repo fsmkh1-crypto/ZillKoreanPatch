@@ -32,6 +32,10 @@ korean = "네, 제가 티아나예요. 미안해요, 이름은 말하지 말아 
 japanese = "では、お返しします。<end>"
 korean = "그럼 돌려드리겠습니다.<end>"
 
+["650011"]
+japanese = "ふふふ…。<line-break>そんなに変ですか？ <line-break>　<line-break>一国の王女が見ず知らずの侵入者を<line-break>親しげにおもてなしするのが。<end>"
+korean = "후후후…. 그렇게 이상한가요? 한 나라의 공주가 처음 보는 침입자를 친근하게 대접하는 게.<end>"
+
 ["650018"]
 japanese = "<value:$28>…様。<line-break>素敵なお名前ですね。<end>"
 korean = "<value:$28>…님. 멋진 이름이네요.<end>"
@@ -247,6 +251,10 @@ korean = "예비 메시지 10 티아나, 볼륨 2<end>"
 ["650118"]
 japanese = "…ゼネテスさん。すまない。<end>"
 korean = "…제네테스 씨. 미안하다.<end>"
+
+["650119"]
+japanese = "貴族だろうが国王だろうが、<line-break>人を踏みにじっていいやつなんか<line-break>いやしないんだ。<line-break>そのことだけは覚えておけ。<end>"
+korean = "귀족이든 국왕이든 사람을 짓밟아도 되는 자는 없어. 그것만은 기억해 둬.<end>"
 
 ["650121"]
 japanese = "ありがとうよ、本当に。<line-break>助かったよ。<end>"
