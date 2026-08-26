@@ -24,6 +24,10 @@ korean = "아, 저기, 그게…<end>"
 japanese = "フフ。<line-break>…よろしく。<end>"
 korean = "후후. …잘 부탁해.<end>"
 
+["1170017"]
+japanese = "まったく、無愛想な男よね。<end>"
+korean = "정말 무뚝뚝한 남자네.<end>"
+
 ["1170019"]
 japanese = "ノエル、そろそろ行こう。<end>"
 korean = "노엘, 이제 가자.<end>"
@@ -72,6 +76,10 @@ korean = "그럼 이 사람들은….<end>"
 japanese = "あ！<line-break><value:$28>さん！<end>"
 korean = "아! <value:$28> 씨!<end>"
 
+["1170058"]
+japanese = "ふむ…また施文院の連中か？<end>"
+korean = "흠… 또 시문원 놈들인가?<end>"
+
 ["1170064"]
 japanese = "…どういう意味？<end>"
 korean = "…무슨 뜻이야?<end>"
@@ -79,3 +87,7 @@ korean = "…무슨 뜻이야?<end>"
 ["1170067"]
 japanese = "そ、そうだな…。<end>"
 korean = "그, 그렇군….<end>"
+
+["1170080"]
+japanese = "ノエル用メッセージＶ２終端<end>"
+korean = "노엘용 메시지 V2 끝<end>"

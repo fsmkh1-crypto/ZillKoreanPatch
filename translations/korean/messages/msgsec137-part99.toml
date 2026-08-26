@@ -232,6 +232,10 @@ korean = "네 이름은?<end>"
 japanese = "仕事を頼みたい<end>"
 korean = "일을 부탁하고 싶어<end>"
 
+["1370285"]
+japanese = "鍛冶屋について教えてほしい<end>"
+korean = "대장간에 대해 알려 줬으면 해<end>"
+
 ["1370286"]
 japanese = "何も用はない<end>"
 korean = "아무 볼일도 없다<end>"
@@ -504,6 +508,10 @@ korean = "어, 왜.<end>"
 japanese = "いい質問だな。<end>"
 korean = "좋은 질문이네.<end>"
 
+["1370532"]
+japanese = "ま、まいったであります…。<end>"
+korean = "차, 참패했습니다….<end>"
+
 ["1370541"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
@@ -535,6 +543,10 @@ korean = "의뢰 종류는?<end>"
 ["1370573"]
 japanese = "依頼をこなすコツは？<end>"
 korean = "의뢰를 해내는 요령은?<end>"
+
+["1370574"]
+japanese = "十分わかっているので大丈夫<end>"
+korean = "충분히 알고 있으니 괜찮아<end>"
 
 ["1370580"]
 japanese = "もういいのかい？<end>"

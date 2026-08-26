@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1100000"]
+japanese = "ザギヴメッセージｖ１用開始<end>"
+korean = "자기브 메시지 V1용 시작<end>"
+
 ["1100003"]
 japanese = "老人を助ける<end>"
 korean = "노인을 돕는다<end>"
@@ -32,6 +36,10 @@ korean = "네, 네.<end>"
 japanese = "はっ。<end>"
 korean = "핫.<end>"
 
+["1100058"]
+japanese = "私は忙しいの。失礼するわ。<end>"
+korean = "난 바빠. 실례할게.<end>"
+
 ["1100059"]
 japanese = "少し、待ってて。<end>"
 korean = "잠깐 기다려.<end>"
@@ -48,9 +56,17 @@ korean = "자기브 님!<end>"
 japanese = "今、行くわ。<end>"
 korean = "지금 갈게.<end>"
 
+["1100063"]
+japanese = "ごめんなさい、失礼するわ。<end>"
+korean = "미안해, 실례할게.<end>"
+
 ["1100073"]
 japanese = "<value:$28>、か。<line-break>また会おうぞ、<value:$28>。<end>"
 korean = "<value:$28>인가. 또 만나자, <value:$28>.<end>"
+
+["1100074"]
+japanese = "ちょっと、そこのあなた！！<end>"
+korean = "잠깐, 거기 당신!!<end>"
 
 ["1100078"]
 japanese = "あなた、<value:$2B>の<line-break><value:$28>ね。<line-break>　<end>"

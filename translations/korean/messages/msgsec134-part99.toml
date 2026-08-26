@@ -108,6 +108,10 @@ korean = "퓨이~!<end>"
 japanese = "ナッジ…<end>"
 korean = "나지…<end>"
 
+["1340107"]
+japanese = "やさしい奴だな、ナッジは。<end>"
+korean = "착한 녀석이군, 나지는.<end>"
+
 ["1340110"]
 japanese = "どうする？<line-break><value:$28>。<end>"
 korean = "어떻게 할래? <value:$28>.<end>"
@@ -203,6 +207,10 @@ korean = "무, 무슨 일이냐!?<end>"
 ["1340202"]
 japanese = "そ、それが…！<end>"
 korean = "그, 그게…!<end>"
+
+["1340206"]
+japanese = "私は皇帝直属騎士オイフェ。<end>"
+korean = "나는 황제 직속 기사 오이페.<end>"
 
 ["1340207"]
 japanese = "…同じくゼリグ。<end>"
@@ -396,6 +404,14 @@ korean = "<value:$28> 님….<end>"
 japanese = "はぁ…<end>"
 korean = "하아…<end>"
 
+["1340416"]
+japanese = "（資金援助すべきかな…？）<end>"
+korean = "(자금 지원을 해야 하나…?)<end>"
+
+["1340417"]
+japanese = "１００００ギアほど援助する<end>"
+korean = "10000기아 정도 지원한다<end>"
+
 ["1340426"]
 japanese = "はい<end>"
 korean = "네<end>"
@@ -423,6 +439,10 @@ korean = "타르튜바 님….<end>"
 ["1340466"]
 japanese = "<value:$28>様？<end>"
 korean = "<value:$28>님?<end>"
+
+["1340498"]
+japanese = "（資金援助すべきかな…？）<end>"
+korean = "(자금 지원을 해야 하나…?)<end>"
 
 ["1340499"]
 japanese = "あっ…。<line-break>ありがとうございます、<line-break><value:$28>様。<end>"
@@ -516,6 +536,10 @@ korean = "으으음…<end>"
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
 
+["1340596"]
+japanese = "小さなハートを痛めている！<end>"
+korean = "작은 가슴을 아파하고 있어!<end>"
+
 ["1340599"]
 japanese = "今はそれどころじゃない！<end>"
 korean = "지금은 그럴 때가 아니야!<end>"
@@ -523,6 +547,10 @@ korean = "지금은 그럴 때가 아니야!<end>"
 ["1340600"]
 japanese = "フェルムは渡さない！<end>"
 korean = "펠름은 넘겨주지 않아!<end>"
+
+["1340610"]
+japanese = "無事、脱出できそうですね。<end>"
+korean = "무사히 탈출할 수 있을 것 같네요.<end>"
 
 ["1340611"]
 japanese = "<value:$28>さーん！<end>"
@@ -539,6 +567,10 @@ korean = "…<value:$28> 씨.<end>"
 ["1340618"]
 japanese = "…<value:$28>様。<end>"
 korean = "…<value:$28> 님.<end>"
+
+["1340623"]
+japanese = "無事、脱出できそうですね。<end>"
+korean = "무사히 탈출할 수 있을 것 같네요.<end>"
 
 ["1340626"]
 japanese = "し、死んだ？<end>"

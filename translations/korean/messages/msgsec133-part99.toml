@@ -108,6 +108,10 @@ korean = "어떻게 할 생각이야?<end>"
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"
 
+["1330233"]
+japanese = "さあ、猫屋敷に戻りますよ。<end>"
+korean = "자, 고양이 저택으로 돌아가죠.<end>"
+
 ["1330234"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
@@ -144,6 +148,10 @@ korean = "카를라 님!<end>"
 japanese = "状況は？<end>"
 korean = "상황은?<end>"
 
+["1330273"]
+japanese = "発見！　その手があったね！<end>"
+korean = "찾았다! 그 수가 있었네!<end>"
+
 ["1330277"]
 japanese = "ふぅーん。<end>"
 korean = "흐응.<end>"
@@ -156,6 +164,10 @@ korean = "핫!<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1330283"]
+japanese = "くっ！　退けい、退くのだ！<end>"
+korean = "큭! 물러나라, 물러나!<end>"
+
 ["1330297"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -167,6 +179,10 @@ korean = "핫!<end>"
 ["1330300"]
 japanese = "ベルセーヴァ様！<end>"
 korean = "벨세바 님!<end>"
+
+["1330303"]
+japanese = "シャリめ…いったい何者だ！<end>"
+korean = "샤리 녀석… 대체 누구지!<end>"
 
 ["1330314"]
 japanese = "未来は、君に託そう。<end>"
@@ -203,6 +219,10 @@ korean = "다치면 돌아오거라.<end>"
 ["1330352"]
 japanese = "フォフォフォ…。<end>"
 korean = "호호호….<end>"
+
+["1330360"]
+japanese = "…見えなければ、よかった。<end>"
+korean = "…보이지 않았다면 좋았을 텐데.<end>"
 
 ["1330380"]
 japanese = "ウフフ…。<end>"
@@ -264,6 +284,10 @@ korean = "…마왕 바로르는 어디 있지?<end>"
 japanese = "いらっしゃい、ゼネテス。<end>"
 korean = "어서 와, 제네테스.<end>"
 
+["1330483"]
+japanese = "いらっしゃい、レムオン…。<end>"
+korean = "어서 와, 레므온….<end>"
+
 ["1330491"]
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
@@ -271,6 +295,22 @@ korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 ["1330521"]
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
+
+["1330538"]
+japanese = "いらっしゃい、ゼネテス…。<end>"
+korean = "어서 와, 제네테스….<end>"
+
+["1330543"]
+japanese = "いらっしゃい、レムオン…。<end>"
+korean = "어서 와, 레므온….<end>"
+
+["1330544"]
+japanese = "いらっしゃい、レムオン…。<end>"
+korean = "어서 와, 레므온….<end>"
+
+["1330545"]
+japanese = "いらっしゃい、レムオン…。<end>"
+korean = "어서 와, 레므온….<end>"
 
 ["1330555"]
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
@@ -347,6 +387,10 @@ korean = "기이! 좋아. 기다려!<end>"
 ["1330678"]
 japanese = "ぎー！　よし。まてー！<end>"
 korean = "기이! 좋아. 기다려!<end>"
+
+["1330681"]
+japanese = "ナッジは参加したんだよね。<end>"
+korean = "나지는 참가했지.<end>"
 
 ["1330692"]
 japanese = "それは違う<end>"

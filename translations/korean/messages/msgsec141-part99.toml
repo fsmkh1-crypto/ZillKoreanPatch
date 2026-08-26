@@ -40,6 +40,10 @@ korean = "…그가 말한 대로야.<end>"
 japanese = "え？<end>"
 korean = "어?<end>"
 
+["1410034"]
+japanese = "待って！　待ってください！<end>"
+korean = "기다려! 기다려 주세요!<end>"
+
 ["1410037"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
@@ -152,6 +156,10 @@ korean = "고마워.<end>"
 japanese = "全速・前進～！<end>"
 korean = "전속력・전진~!<end>"
 
+["1410189"]
+japanese = "わたし、がんばりますから！<end>"
+korean = "저, 열심히 할 테니까요!<end>"
+
 ["1410191"]
 japanese = "お、お父様…お母様。<end>"
 korean = "아, 아버님… 어머님.<end>"
@@ -175,6 +183,10 @@ korean = "<value:$28> 씨~!<end>"
 ["1410223"]
 japanese = "行ってしまったな。<end>"
 korean = "가버렸군.<end>"
+
+["1410240"]
+japanese = "それに…その旅装束は何よ？<end>"
+korean = "게다가… 그 여행 복장은 뭐야?<end>"
 
 ["1410242"]
 japanese = "わたくしも行きます。<end>"
@@ -203,6 +215,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410275"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410277"]
+japanese = "かしこまりました。女王様。<end>"
+korean = "알겠습니다. 여왕님.<end>"
 
 ["1410279"]
 japanese = "財務長官殿！<end>"
@@ -287,6 +303,10 @@ korean = "기다려! 오빠.<end>"
 ["1410349"]
 japanese = "お兄様！<end>"
 korean = "오라버니!<end>"
+
+["1410365"]
+japanese = "ヴァイ！　き、聞いてたの？<end>"
+korean = "바이! 드, 들었어?<end>"
 
 ["1410368"]
 japanese = "ヴィア…？<end>"
@@ -440,6 +460,10 @@ korean = "해, 해치워!<end>"
 japanese = "う、うわ！<end>"
 korean = "우, 우왓!<end>"
 
+["1410541"]
+japanese = "♪勇者の力～（槍で突く～）<end>"
+korean = "♪용사의 힘~ (창으로 찌르기~)<end>"
+
 ["1410542"]
 japanese = "ぐ、ぐえ…！<end>"
 korean = "크, 크엑…!<end>"
@@ -460,6 +484,10 @@ korean = "♪뜨겁게 타오르는 올바른 영혼~<end>"
 japanese = "ねぇ。<value:$28>。<end>"
 korean = "있잖아. <value:$28>.<end>"
 
+["1410557"]
+japanese = "♪天を切り裂く　正義の光～<end>"
+korean = "♪하늘을 가르는 정의의 빛~<end>"
+
 ["1410559"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -471,6 +499,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410576"]
 japanese = "手伝うとは申しましても…<end>"
 korean = "돕는다고 해도…<end>"
+
+["1410577"]
+japanese = "まさか、湖に潜るなどとは…<end>"
+korean = "설마 호수에 잠수할 줄은…<end>"
 
 ["1410579"]
 japanese = "ああ…。<end>"

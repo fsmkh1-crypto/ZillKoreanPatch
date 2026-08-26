@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1360000"]
+japanese = "ジラーク、ボリューム６開始<end>"
+korean = "질라크 볼륨 6 시작<end>"
+
 ["1360041"]
 japanese = "奴なら、行ったよ。<end>"
 korean = "그 녀석이라면 갔어.<end>"
@@ -368,6 +372,10 @@ korean = "…그가 말한 대로야.<end>"
 japanese = "え？<end>"
 korean = "어?<end>"
 
+["1360544"]
+japanese = "待って！　待ってください！<end>"
+korean = "기다려! 기다려 주세요!<end>"
+
 ["1360547"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
@@ -436,6 +444,10 @@ korean = "뭐…, 뭐야…!?<end>"
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
 
+["1360714"]
+japanese = "…見えなければ、よかった。<end>"
+korean = "…보이지 않았다면 좋았을 텐데.<end>"
+
 ["1360725"]
 japanese = "すまぬ。<line-break>手間取った。<end>"
 korean = "미안하다. 시간이 좀 걸렸다.<end>"
@@ -475,3 +487,7 @@ korean = "…강해졌군, <value:$28>. 나도 힘을 보태지.<end>"
 ["1360754"]
 japanese = "廃城の玉座へ向かわれた。<end>"
 korean = "폐성의 왕좌로 향하셨다.<end>"
+
+["1360770"]
+japanese = "ジラーク、ボリューム６終端<end>"
+korean = "질라크 볼륨 6 끝<end>"

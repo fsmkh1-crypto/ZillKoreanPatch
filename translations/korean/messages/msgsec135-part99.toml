@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1350000"]
+japanese = "ジラーク、ボリューム４開始<end>"
+korean = "질라크 볼륨 4 시작<end>"
+
 ["1350004"]
 japanese = "お前に会うまでは、な…<end>"
 korean = "너를 만나기 전까진 말이지….<end>"
@@ -171,6 +175,10 @@ korean = "부드럽게 안아 준다<end>"
 ["1350204"]
 japanese = "全力で振り払う<end>"
 korean = "온 힘을 다해 뿌리친다<end>"
+
+["1350215"]
+japanese = "ウウォォォォォオオオオオ！<end>"
+korean = "우오오오오오오오오오!<end>"
 
 ["1350218"]
 japanese = "アハハハハハハハ！<end>"
@@ -468,6 +476,10 @@ korean = "안 묻는구나.<end>"
 japanese = "ありがとよ…<line-break><value:$28>…<end>"
 korean = "고맙다… <value:$28>….<end>"
 
+["1350509"]
+japanese = "もう、あんたとは会わない。<end>"
+korean = "이제 당신과는 만나지 않아.<end>"
+
 ["1350510"]
 japanese = "これが<line-break>自分のために生きるってことなんだよ、<line-break><value:$28>。<end>"
 korean = "이게 자신을 위해 산다는 거야, <value:$28>.<end>"
@@ -571,3 +583,7 @@ korean = "추가 메시지 여기부터<end>"
 ["1350594"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1350600"]
+japanese = "ジラーク、ボリューム４終端<end>"
+korean = "질라크 볼륨 4 끝<end>"

@@ -56,6 +56,10 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "エリス王妃の執務室<end>"
 korean = "엘리스 왕비의 집무실<end>"
 
+["1400031"]
+japanese = "…これで強くなれるんだな。<end>"
+korean = "…이제 강해질 수 있는 거군.<end>"
+
 ["1400032"]
 japanese = "まーかせちゃってよ。<end>"
 korean = "나한테 맡겨.<end>"
@@ -63,6 +67,10 @@ korean = "나한테 맡겨.<end>"
 ["1400035"]
 japanese = "…俺に指図するな。<end>"
 korean = "…나한테 명령하지 마.<end>"
+
+["1400041"]
+japanese = "…これで強くなれるんだな。<end>"
+korean = "…이제 강해질 수 있는 거군.<end>"
 
 ["1400042"]
 japanese = "まーかせちゃってよ。<end>"
@@ -91,6 +99,10 @@ korean = "안 가<end>"
 ["1400058"]
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
+
+["1400064"]
+japanese = "誰が、貴様のお義兄さまだ！<end>"
+korean = "누가 네 형님이냐!<end>"
 
 ["1400069"]
 japanese = "う、うるさい！<end>"
@@ -180,6 +192,10 @@ korean = "제네테스! 제네테스!<end>"
 japanese = "…ティアナ。<end>"
 korean = "…티아나.<end>"
 
+["1400159"]
+japanese = "アトレイアをエスコートする<end>"
+korean = "아트레이아를 에스코트한다<end>"
+
 ["1400162"]
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
@@ -211,6 +227,10 @@ korean = "아트레이아… 님…?<end>"
 ["1400187"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
+
+["1400194"]
+japanese = "な、何がおかしいのです！？<end>"
+korean = "뭐, 뭐가 우스운 겁니까!?<end>"
 
 ["1400199"]
 japanese = "…どういうことです？<end>"
@@ -295,6 +315,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1400314"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1400319"]
+japanese = "あなたに問題はありません。<end>"
+korean = "당신에게 문제는 없습니다.<end>"
 
 ["1400325"]
 japanese = "お父…さ…<end>"
