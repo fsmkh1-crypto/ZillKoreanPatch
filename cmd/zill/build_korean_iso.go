@@ -69,12 +69,13 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		return 1
 	}
 	gameDir := filepath.Join(extracted, "PSP_GAME")
-	plan, coverage, total, err := buildKoreanAlphaPlan(root, gameDir)
+	plan, coverage, total, err := buildKoreanAlphaPlanMobile(root, gameDir)
 	if err != nil {
 		fmt.Fprintf(stderr, "zill: build-korean-iso: %v\n", err)
 		return 1
 	}
-	fmt.Fprintf(stdout, "Korean coverage: %d/%d records; custom glyphs: %d\n", coverage, total, len(plan.CustomRunes))
+	fmt.Fprintf(stdout, "Korean coverage: %d/%d records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
+	fmt.Fprintln(stdout, "Mobile alpha safety mode: structured CP932 reservations enabled; raw exact-byte exclusion disabled.")
 	fmt.Fprintln(stdout, "Building Korean alpha ISO...")
 	if err := release.BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, resolvedVersion, plan); err != nil {
 		fmt.Fprintf(stderr, "zill: build-korean-iso: %v\n", err)
