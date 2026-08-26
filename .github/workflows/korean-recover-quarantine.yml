@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: korean-translation-pipeline
+  cancel-in-progress: false
+
 jobs:
   recover:
     runs-on: ubuntu-latest
