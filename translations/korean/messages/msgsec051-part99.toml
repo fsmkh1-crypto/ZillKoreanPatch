@@ -16,6 +16,10 @@ korean = "그럼 잘 있어.<end>"
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
 
+["510047"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
 ["510061"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -23,6 +27,10 @@ korean = "간다<end>"
 ["510062"]
 japanese = "無視する<end>"
 korean = "무시한다<end>"
+
+["510118"]
+japanese = "ほら、行け。<end>"
+korean = "자, 가.<end>"
 
 ["510137"]
 japanese = "敵襲！<end>"

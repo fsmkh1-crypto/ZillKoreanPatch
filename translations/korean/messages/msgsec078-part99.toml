@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["780019"]
+japanese = "あ、あの…。<end>"
+korean = "저, 저기….<end>"
+
 ["780034"]
 japanese = "味見する<end>"
 korean = "맛을 본다<end>"
@@ -7,6 +11,10 @@ korean = "맛을 본다<end>"
 ["780035"]
 japanese = "いやだ<end>"
 korean = "싫어<end>"
+
+["780039"]
+japanese = "おいしかった<end>"
+korean = "맛있었다<end>"
 
 ["780040"]
 japanese = "まずかった<end>"

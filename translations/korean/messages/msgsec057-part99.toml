@@ -12,9 +12,21 @@ korean = "그건?<end>"
 japanese = "これは？<end>"
 korean = "이건?<end>"
 
+["570049"]
+japanese = "なるほどな。<end>"
+korean = "그렇군.<end>"
+
+["570058"]
+japanese = "ネモについて<end>"
+korean = "네모에 대해서<end>"
+
 ["570060"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
+
+["570072"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
 
 ["570084"]
 japanese = "うんん…。<end>"

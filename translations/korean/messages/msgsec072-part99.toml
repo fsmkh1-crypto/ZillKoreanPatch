@@ -4,10 +4,22 @@
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["720055"]
+japanese = "させないっ！<end>"
+korean = "그렇게는 못 해!<end>"
+
 ["720067"]
 japanese = "仲間にする<end>"
 korean = "동료로 삼는다<end>"
 
+["720068"]
+japanese = "仲間にしない<end>"
+korean = "동료로 삼지 않는다<end>"
+
 ["720074"]
 japanese = "…セラ？<end>"
 korean = "…세라?<end>"
+
+["720098"]
+japanese = "別れましょ？<end>"
+korean = "헤어질까?<end>"

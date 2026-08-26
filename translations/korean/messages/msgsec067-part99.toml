@@ -4,6 +4,10 @@
 japanese = "…そう。<end>"
 korean = "…그래.<end>"
 
+["670052"]
+japanese = "ティアナか？<end>"
+korean = "티아나인가?<end>"
+
 ["670064"]
 japanese = "うーい。<end>"
 korean = "어이.<end>"
@@ -11,6 +15,10 @@ korean = "어이.<end>"
 ["670071"]
 japanese = "え、ええ。<end>"
 korean = "아, 네.<end>"
+
+["670077"]
+japanese = "て、言うと？<end>"
+korean = "그 말은?<end>"
 
 ["670098"]
 japanese = "…あ。<end>"

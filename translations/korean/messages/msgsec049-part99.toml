@@ -12,6 +12,10 @@ korean = "<미사용><end>"
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
 
+["490047"]
+japanese = "話にならん。<end>"
+korean = "말도 안 되는군.<end>"
+
 ["490076"]
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
@@ -68,6 +72,10 @@ korean = "<미사용><end>"
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
 
+["490111"]
+japanese = "後悔している<end>"
+korean = "후회하고 있다<end>"
+
 ["490132"]
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
@@ -112,9 +120,25 @@ korean = "네.<end>"
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
 
+["490262"]
+japanese = "かわいそぉ！<end>"
+korean = "불쌍해애!<end>"
+
+["490273"]
+japanese = "ネモについて<end>"
+korean = "네모에 대해서<end>"
+
 ["490275"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
+
+["490287"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
+
+["490295"]
+japanese = "待ってよぉ！<end>"
+korean = "기다려어!<end>"
 
 ["490299"]
 japanese = "<未使用><end>"

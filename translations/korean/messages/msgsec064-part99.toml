@@ -4,6 +4,10 @@
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28> 님!<end>"
 
+["640046"]
+japanese = "アトレイア？<end>"
+korean = "아트레이아?<end>"
+
 ["640055"]
 japanese = "…あ。<end>"
 korean = "…아.<end>"
@@ -35,6 +39,18 @@ korean = "미사용<end>"
 ["640221"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
+
+["640227"]
+japanese = "本当ですか！<end>"
+korean = "정말입니까!<end>"
+
+["640239"]
+japanese = "えっ、ええ…<end>"
+korean = "어, 어어…<end>"
+
+["640279"]
+japanese = "わかりました<end>"
+korean = "알겠습니다<end>"
 
 ["640280"]
 japanese = "未使用<end>"
@@ -111,6 +127,10 @@ korean = "미사용<end>"
 ["640298"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
+
+["640300"]
+japanese = "大丈夫かい？<end>"
+korean = "괜찮아?<end>"
 
 ["640308"]
 japanese = "うーい。<end>"

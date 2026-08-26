@@ -12,9 +12,17 @@ korean = "누구야?<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["560041"]
+japanese = "行きましょ。<end>"
+korean = "가자.<end>"
+
 ["560052"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
+
+["560060"]
+japanese = "行きましょ。<end>"
+korean = "가자.<end>"
 
 ["560068"]
 japanese = "はい？<end>"
@@ -36,6 +44,26 @@ korean = "레이븐!<end>"
 japanese = "愚かな…。<end>"
 korean = "어리석군….<end>"
 
+["560162"]
+japanese = "エルファス！<end>"
+korean = "엘파스!<end>"
+
+["560174"]
+japanese = "ナーシェス！<end>"
+korean = "나셰스!<end>"
+
+["560187"]
+japanese = "売ってもらう<end>"
+korean = "팔아 달라고 한다<end>"
+
+["560202"]
+japanese = "レイヴン！！<end>"
+korean = "레이븐!!<end>"
+
+["560205"]
+japanese = "エルファス！<end>"
+korean = "엘파스!<end>"
+
 ["560214"]
 japanese = "レイヴン。<end>"
 korean = "레이븐.<end>"
@@ -48,9 +76,17 @@ korean = "노엘!　<end>"
 japanese = "どうした？<end>"
 korean = "왜 그래?<end>"
 
+["560247"]
+japanese = "この感じ…！<end>"
+korean = "이 느낌…!<end>"
+
 ["560248"]
 japanese = "ノエル！？<end>"
 korean = "노엘!?<end>"
+
+["560257"]
+japanese = "レイヴン…。<end>"
+korean = "레이븐….<end>"
 
 ["560405"]
 japanese = "来たか…。<end>"
@@ -76,6 +112,10 @@ korean = "아, 아니야!<end>"
 japanese = "な、何よ！<end>"
 korean = "뭐, 뭐야!<end>"
 
+["560627"]
+japanese = "わ、私は…！<end>"
+korean = "나, 나는…!<end>"
+
 ["560633"]
 japanese = "仲間を呼ぶ<end>"
 korean = "동료를 부른다<end>"
@@ -91,6 +131,10 @@ korean = "거절한다!<end>"
 ["560797"]
 japanese = "ちっ！<end>"
 korean = "칫!<end>"
+
+["560907"]
+japanese = "おねがいする<end>"
+korean = "부탁한다<end>"
 
 ["560908"]
 japanese = "やめておく<end>"

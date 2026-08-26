@@ -4,6 +4,10 @@
 japanese = "…まあな。<end>"
 korean = "…뭐, 그렇지.<end>"
 
+["730023"]
+japanese = "サイフォス！<end>"
+korean = "사이포스!<end>"
+
 ["730032"]
 japanese = "…ゆくぞ！<end>"
 korean = "…간다!<end>"
@@ -16,14 +20,30 @@ korean = "…세라.<end>"
 japanese = "…ロイ。<end>"
 korean = "…로이.<end>"
 
+["730079"]
+japanese = "…セラ…か？<end>"
+korean = "…세라…인가?<end>"
+
 ["730089"]
 japanese = "…姉さん。<end>"
 korean = "…누나.<end>"
+
+["730100"]
+japanese = "はい、先輩。<end>"
+korean = "네, 선배.<end>"
 
 ["730104"]
 japanese = "…姉さん。<end>"
 korean = "…누나.<end>"
 
+["730107"]
+japanese = "（兄さん…）<end>"
+korean = "(형…)<end>"
+
 ["730111"]
 japanese = "行け！<end>"
 korean = "가!<end>"
+
+["730112"]
+japanese = "…忘れ物だ。<end>"
+korean = "…두고 간 물건이다.<end>"

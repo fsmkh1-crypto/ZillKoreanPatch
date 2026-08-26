@@ -4,6 +4,10 @@
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
 
+["760012"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
 ["760030"]
 japanese = "いいえ。<end>"
 korean = "아니요.<end>"
@@ -63,3 +67,7 @@ korean = "빈칸<end>"
 ["760059"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["760067"]
+japanese = "未：無礼な！<end>"
+korean = "미사용: 무례하군!<end>"

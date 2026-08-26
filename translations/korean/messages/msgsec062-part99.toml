@@ -44,6 +44,10 @@ korean = "에에~!?<end>"
 japanese = "あーっ！！<end>"
 korean = "아앗!!<end>"
 
+["620138"]
+japanese = "船に乗んな！<end>"
+korean = "배에 타지 마!<end>"
+
 ["620156"]
 japanese = "あーっ！！<end>"
 korean = "아앗!!<end>"
@@ -76,13 +80,25 @@ korean = "그럴 수가….<end>"
 japanese = "だけど…。<end>"
 korean = "하지만….<end>"
 
+["620220"]
+japanese = "どうですか？<end>"
+korean = "어떻습니까?<end>"
+
 ["620249"]
 japanese = "（未使用）<end>"
 korean = "(미사용)<end>"
 
+["620279"]
+japanese = "ネモについて<end>"
+korean = "네모에 대해서<end>"
+
 ["620281"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
+
+["620293"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
 
 ["620299"]
 japanese = "うっ。<end>"

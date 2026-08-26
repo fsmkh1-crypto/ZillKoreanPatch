@@ -16,6 +16,10 @@ korean = "네엣!!<end>"
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
 
+["630079"]
+japanese = "…わかった。<end>"
+korean = "…알았어.<end>"
+
 ["630111"]
 japanese = "正解だ。<end>"
 korean = "정답이야.<end>"
@@ -28,6 +32,10 @@ korean = "…뭔가?<end>"
 japanese = "…何か？<end>"
 korean = "…뭔가?<end>"
 
+["630198"]
+japanese = "どうだか…。<end>"
+korean = "글쎄….<end>"
+
 ["630200"]
 japanese = "バカな。<end>"
 korean = "말도 안 돼.<end>"
@@ -39,6 +47,34 @@ korean = "…뭔가?<end>"
 ["630296"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
+
+["630352"]
+japanese = "空メッセージ<end>"
+korean = "빈 메시지<end>"
+
+["630353"]
+japanese = "空メッセージ<end>"
+korean = "빈 메시지<end>"
+
+["630354"]
+japanese = "空メッセージ<end>"
+korean = "빈 메시지<end>"
+
+["630355"]
+japanese = "空メッセージ<end>"
+korean = "빈 메시지<end>"
+
+["630356"]
+japanese = "空メッセージ<end>"
+korean = "빈 메시지<end>"
+
+["630357"]
+japanese = "空メッセージ<end>"
+korean = "빈 메시지<end>"
+
+["630358"]
+japanese = "空メッセージ<end>"
+korean = "빈 메시지<end>"
 
 ["630364"]
 japanese = "約束する<end>"

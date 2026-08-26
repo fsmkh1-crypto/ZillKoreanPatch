@@ -4,9 +4,17 @@
 japanese = "…聖杯？<end>"
 korean = "…성배?<end>"
 
+["690061"]
+japanese = "ネモについて<end>"
+korean = "네모에 대해서<end>"
+
 ["690063"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
+
+["690076"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
 
 ["690130"]
 japanese = "…では。<end>"
@@ -23,6 +31,10 @@ korean = "…흥.<end>"
 ["690170"]
 japanese = "待て！<end>"
 korean = "기다려!<end>"
+
+["690172"]
+japanese = "貴様アアア！<end>"
+korean = "네놈이이이!<end>"
 
 ["690194"]
 japanese = "撤回しない<end>"

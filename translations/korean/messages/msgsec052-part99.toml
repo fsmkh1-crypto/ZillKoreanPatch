@@ -4,6 +4,10 @@
 japanese = "根拠は？<end>"
 korean = "근거는?<end>"
 
+["520007"]
+japanese = "…なるほど。<end>"
+korean = "…그렇군.<end>"
+
 ["520037"]
 japanese = "戻る<end>"
 korean = "돌아가기<end>"
@@ -15,6 +19,10 @@ korean = "돌아가지 않는다<end>"
 ["520047"]
 japanese = "…陛下。<end>"
 korean = "…폐하.<end>"
+
+["520130"]
+japanese = "ほら、行け。<end>"
+korean = "자, 가.<end>"
 
 ["520144"]
 japanese = "何もない<end>"
