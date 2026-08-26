@@ -8,8 +8,10 @@ on:
       - 'cmd/zill/build_korean_iso.go'
       - 'cmd/zill/build_korean_mobile_plan.go'
       - 'cmd/zill/main.go'
+      - 'internal/message/placeholder.go'
       - 'internal/release/korean_mobile.go'
       - 'internal/release/korean_font_mobile.go'
+      - 'internal/release/korean_placeholder.go'
       - 'internal/zillfont/korean_rewrite.go'
       - '.github/workflows/android-extractor.yml'
   pull_request:
@@ -18,8 +20,10 @@ on:
       - 'cmd/zill/build_korean_iso.go'
       - 'cmd/zill/build_korean_mobile_plan.go'
       - 'cmd/zill/main.go'
+      - 'internal/message/placeholder.go'
       - 'internal/release/korean_mobile.go'
       - 'internal/release/korean_font_mobile.go'
+      - 'internal/release/korean_placeholder.go'
       - 'internal/zillfont/korean_rewrite.go'
       - '.github/workflows/android-extractor.yml'
 
