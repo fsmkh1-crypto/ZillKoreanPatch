@@ -8,6 +8,10 @@ korean = "티아나 메시지 VOL1-2 시작<end>"
 japanese = "大変、タルテュバ様だわ！<end>"
 korean = "큰일이야, 타르튜바 님이야!<end>"
 
+["640005"]
+japanese = "<value:$28>様、<line-break>早く隠れてください！<end>"
+korean = "<value:$28>님, 빨리 숨으세요!<end>"
+
 ["640014"]
 japanese = "まぁ、何かしら？<end>"
 korean = "어머, 무슨 일이죠?<end>"

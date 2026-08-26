@@ -896,6 +896,10 @@ korean = "칫!<end>"
 japanese = "例の件ですが…。<end>"
 korean = "그 건 말입니다….<end>"
 
+["560821"]
+japanese = "そうか、<value:$28>が<line-break>助けたのか…。<end>"
+korean = "그렇군, <value:$28>이 구한 건가….<end>"
+
 ["560823"]
 japanese = "…うっとうしかったのだ。<end>"
 korean = "…성가셨던 거다.<end>"
@@ -939,6 +943,10 @@ korean = "…미안해요.<end>"
 ["560868"]
 japanese = "…う…えぐ…<line-break>うう…<end>"
 korean = "…으… 흑… 으으…<end>"
+
+["560870"]
+japanese = "…<value:$28><line-break>…ゴメン…なさ…い…。<end>"
+korean = "…<value:$28> …미안…해….<end>"
 
 ["560879"]
 japanese = "怪しい奴！　とらえろ！<end>"

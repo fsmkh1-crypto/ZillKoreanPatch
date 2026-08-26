@@ -56,6 +56,10 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "エリス王妃の執務室<end>"
 korean = "엘리스 왕비의 집무실<end>"
 
+["500025"]
+japanese = "フリントの子、<line-break><value:$28>…ですね。<end>"
+korean = "플린트의 아이, <value:$28>… 맞지요.<end>"
+
 ["500027"]
 japanese = "おとなしく彼女らについていく<end>"
 korean = "얌전히 그녀들을 따라간다<end>"

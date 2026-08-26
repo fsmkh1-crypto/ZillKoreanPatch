@@ -308,6 +308,10 @@ korean = "…지옥 같은 고통이야<end>"
 japanese = "あ…、<value:$28>。<end>"
 korean = "아…, <value:$28>.<end>"
 
+["890352"]
+japanese = "あら、<value:$28>。<line-break>来てくれたのね。<end>"
+korean = "어머, <value:$28>. 와 줬구나.<end>"
+
 ["890353"]
 japanese = "私のことが心配だったの？<end>"
 korean = "내가 걱정됐던 거야?<end>"
@@ -351,6 +355,10 @@ korean = "결심이 섰습니까?<end>"
 ["890393"]
 japanese = "待って。<end>"
 korean = "기다려.<end>"
+
+["890395"]
+japanese = "私を悲しませないでね、<line-break><value:$28>。<end>"
+korean = "나를 슬프게 하지 마, <value:$28>.<end>"
 
 ["890402"]
 japanese = "…いや、それは、あなたが一番良く<line-break>知っていることですね、<line-break><value:$28>？<end>"

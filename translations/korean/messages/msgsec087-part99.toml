@@ -20,6 +20,10 @@ korean = "부조리의 부하?<end>"
 japanese = "じゃね。<end>"
 korean = "그럼 안녕.<end>"
 
+["870035"]
+japanese = "ありゃ、<value:$28>じゃん。<line-break>元気ぃ？<end>"
+korean = "어라, <value:$28>잖아. 잘 지내?<end>"
+
 ["870041"]
 japanese = "元気<end>"
 korean = "건강<end>"

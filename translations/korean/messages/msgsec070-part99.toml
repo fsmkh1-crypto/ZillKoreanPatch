@@ -148,6 +148,10 @@ korean = "아, <value:$28>.<end>"
 japanese = "<value:$28>…<line-break>そっち行って…いい？<end>"
 korean = "<value:$28>… 그쪽으로 가도… 돼?<end>"
 
+["700241"]
+japanese = "あ、<value:$28><line-break>こんな所にいたんだ。<end>"
+korean = "아, <value:$28>. 이런 데 있었구나.<end>"
+
 ["700245"]
 japanese = "やぁ、<value:$28><end>"
 korean = "여어, <value:$28><end>"

@@ -80,6 +80,10 @@ korean = "와. 예쁘다….<end>"
 japanese = "よう、久しぶりだな。<end>"
 korean = "여어, 오랜만이군.<end>"
 
+["770048"]
+japanese = "…<value:$28>様と<line-break>お知り合いですか？<end>"
+korean = "…<value:$28>님과 아는 사이이신가요?<end>"
+
 ["770051"]
 japanese = "気に入ってもらえたかな？<end>"
 korean = "마음에 들었으려나?<end>"
