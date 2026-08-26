@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1300003"]
+japanese = "何様のつもりだ<end>"
+korean = "네가 뭐라도 된 줄 알아?<end>"
+
 ["1300006"]
 japanese = "翔王様！<end>"
 korean = "비상왕님!<end>"
@@ -23,6 +27,10 @@ korean = "관심 없습니다<end>"
 ["1300027"]
 japanese = "力が欲しい<end>"
 korean = "힘이 필요해<end>"
+
+["1300028"]
+japanese = "今はやめておく<end>"
+korean = "지금은 그만둔다<end>"
 
 ["1300039"]
 japanese = "その通りです<end>"

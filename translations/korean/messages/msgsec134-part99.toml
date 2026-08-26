@@ -16,6 +16,22 @@ korean = "사양하겠습니다<end>"
 japanese = "力を貸す<end>"
 korean = "힘을 빌려준다<end>"
 
+["1340031"]
+japanese = "それはできない<end>"
+korean = "그건 못 해<end>"
+
+["1340032"]
+japanese = "ありがとう…。<end>"
+korean = "고마워….<end>"
+
+["1340048"]
+japanese = "では、出発だ。<end>"
+korean = "그럼, 출발이다.<end>"
+
+["1340083"]
+japanese = "よし、行こう。<end>"
+korean = "좋아, 가자.<end>"
+
 ["1340090"]
 japanese = "キュイ～！<end>"
 korean = "뀨이~!<end>"
@@ -27,6 +43,10 @@ korean = "퓨이~!<end>"
 ["1340102"]
 japanese = "ナッジ…<end>"
 korean = "나지…<end>"
+
+["1340119"]
+japanese = "じゃあ、何で！<end>"
+korean = "그럼, 왜!<end>"
 
 ["1340122"]
 japanese = "ふざけんな！<end>"
@@ -59,6 +79,30 @@ korean = "용서 못 해<end>"
 ["1340151"]
 japanese = "ギャッ！<end>"
 korean = "꺅!<end>"
+
+["1340152"]
+japanese = "ナッジーーっ！<end>"
+korean = "나지ーー!<end>"
+
+["1340154"]
+japanese = "うぉおおおお！<end>"
+korean = "우오오오오!<end>"
+
+["1340173"]
+japanese = "ジラーク将軍！<end>"
+korean = "지라크 장군!<end>"
+
+["1340184"]
+japanese = "心配は無用だ。<end>"
+korean = "걱정할 것 없다.<end>"
+
+["1340197"]
+japanese = "な、何事だ！？<end>"
+korean = "무, 무슨 일이냐!?<end>"
+
+["1340202"]
+japanese = "そ、それが…！<end>"
+korean = "그, 그게…!<end>"
 
 ["1340212"]
 japanese = "くっ…。<end>"
@@ -120,6 +164,18 @@ korean = "레이븐!<end>"
 japanese = "う…う…。<end>"
 korean = "으… 으….<end>"
 
+["1340304"]
+japanese = "…フ、フフフ。<end>"
+korean = "…후, 후후후.<end>"
+
+["1340305"]
+japanese = "何がおかしい？<end>"
+korean = "뭐가 우습지?<end>"
+
+["1340308"]
+japanese = "う、ううっ…。<end>"
+korean = "으, 으윽….<end>"
+
 ["1340318"]
 japanese = "…冒険者？<end>"
 korean = "…모험가?<end>"
@@ -127,6 +183,10 @@ korean = "…모험가?<end>"
 ["1340338"]
 japanese = "あ…ああ…。<end>"
 korean = "아… 아아….<end>"
+
+["1340354"]
+japanese = "しかたがない…<end>"
+korean = "어쩔 수 없군…<end>"
 
 ["1340392"]
 japanese = "むにゅー…。<end>"
@@ -155,6 +215,10 @@ korean = "아니요<end>"
 ["1340441"]
 japanese = "…待て。<end>"
 korean = "…기다려.<end>"
+
+["1340448"]
+japanese = "そんなこと…。<end>"
+korean = "그럴 수가….<end>"
 
 ["1340466"]
 japanese = "<value:$28>様？<end>"

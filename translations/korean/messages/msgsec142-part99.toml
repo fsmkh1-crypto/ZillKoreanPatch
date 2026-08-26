@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1420008"]
+japanese = "あの、その…。<end>"
+korean = "저기, 그게….<end>"
+
 ["1420036"]
 japanese = "ナーシェス。<end>"
 korean = "나셰스.<end>"
@@ -12,9 +16,17 @@ korean = "큭….<end>"
 japanese = "やぁ、君か。<end>"
 korean = "여어, 너구나.<end>"
 
+["1420130"]
+japanese = "すべての種族？<end>"
+korean = "모든 종족?<end>"
+
 ["1420135"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"
+
+["1420142"]
+japanese = "あたりめーだ！<end>"
+korean = "당연하지!<end>"
 
 ["1420155"]
 japanese = "うっ…！？<end>"
@@ -31,6 +43,10 @@ korean = "레몬님!<end>"
 ["1420218"]
 japanese = "何！？<end>"
 korean = "뭐!?<end>"
+
+["1420235"]
+japanese = "そ、それは…。<end>"
+korean = "그, 그건….<end>"
 
 ["1420241"]
 japanese = "何！？<end>"
@@ -84,6 +100,10 @@ korean = "윽….<end>"
 japanese = "来ません…。<end>"
 korean = "오지 않습니다….<end>"
 
+["1420373"]
+japanese = "来ないわね…。<end>"
+korean = "안 오네….<end>"
+
 ["1420402"]
 japanese = "領主様！<end>"
 korean = "영주님!<end>"
@@ -112,6 +132,14 @@ korean = "아직 고브.<end>"
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
 
+["1420531"]
+japanese = "なんでもない。<end>"
+korean = "아무것도 아니야.<end>"
+
+["1420533"]
+japanese = "…そうですか。<end>"
+korean = "…그렇습니까.<end>"
+
 ["1420555"]
 japanese = "レムオン様！<end>"
 korean = "레몬님!<end>"
@@ -135,6 +163,10 @@ korean = "이, 이봐!<end>"
 ["1420638"]
 japanese = "来ません…。<end>"
 korean = "오지 않습니다….<end>"
+
+["1420639"]
+japanese = "来ないわね…。<end>"
+korean = "안 오네….<end>"
 
 ["1420647"]
 japanese = "フッ…。<end>"

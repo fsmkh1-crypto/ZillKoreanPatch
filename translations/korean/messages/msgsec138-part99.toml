@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1380033"]
+japanese = "…な、なーん。<end>"
+korean = "…나, 냥.<end>"
+
+["1380039"]
+japanese = "猫さんも、ね。<end>"
+korean = "고양이도, 응.<end>"
+
+["1380053"]
+japanese = "力で立ち向かう<end>"
+korean = "힘으로 맞선다<end>"
+
 ["1380065"]
 japanese = "見たい<end>"
 korean = "보고 싶어<end>"
@@ -44,6 +56,14 @@ korean = "좋은 일이야!<end>"
 japanese = "腕輪を渡す<end>"
 korean = "팔찌를 건넨다<end>"
 
+["1380208"]
+japanese = "腕輪を渡さない<end>"
+korean = "팔찌를 넘기지 않는다<end>"
+
+["1380209"]
+japanese = "…ありがとう。<end>"
+korean = "…고마워.<end>"
+
 ["1380243"]
 japanese = "そうか…。<end>"
 korean = "그런가….<end>"
@@ -64,6 +84,10 @@ korean = "으아앙!<end>"
 japanese = "わぁぁぁ！<end>"
 korean = "으아아아!<end>"
 
+["1380349"]
+japanese = "それで…なに？<end>"
+korean = "그래서… 뭐?<end>"
+
 ["1380373"]
 japanese = "おっと！<end>"
 korean = "어이쿠!<end>"
@@ -71,6 +95,18 @@ korean = "어이쿠!<end>"
 ["1380385"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
+
+["1380408"]
+japanese = "す、すごいや！<end>"
+korean = "대, 대단해!<end>"
+
+["1380431"]
+japanese = "謁見の間へ行く<end>"
+korean = "알현실로 간다<end>"
+
+["1380434"]
+japanese = "…そうですか。<end>"
+korean = "…그렇습니까.<end>"
 
 ["1380440"]
 japanese = "説得を続ける<end>"
@@ -84,21 +120,49 @@ korean = "포기한다<end>"
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["1380451"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
+["1380453"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
+
 ["1380454"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["1380455"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
 
 ["1380457"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["1380458"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
+["1380459"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
+
 ["1380460"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["1380461"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
 ["1380462"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["1380463"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
 
 ["1380465"]
 japanese = "そうですか。<end>"
@@ -115,6 +179,10 @@ korean = "맡지 않는다<end>"
 ["1380520"]
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
+
+["1380544"]
+japanese = "特殊効果とは？<end>"
+korean = "특수 효과란?<end>"
 
 ["1380557"]
 japanese = "ははは！<end>"

@@ -32,9 +32,17 @@ korean = "안 가<end>"
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
 
+["1400069"]
+japanese = "う、うるさい！<end>"
+korean = "시, 시끄러워!<end>"
+
 ["1400071"]
 japanese = "…<value:$28>様。<end>"
 korean = "…<value:$28> 님.<end>"
+
+["1400077"]
+japanese = "何が言いたい！<end>"
+korean = "무슨 말을 하고 싶은 거야!<end>"
 
 ["1400090"]
 japanese = "<value:$28>様！<end>"
@@ -52,6 +60,14 @@ korean = "큭!<end>"
 japanese = "危ない！<end>"
 korean = "위험해!<end>"
 
+["1400094"]
+japanese = "…ゼネテス様！<end>"
+korean = "…제네테스 님!<end>"
+
+["1400100"]
+japanese = "いやあぁああ！<end>"
+korean = "싫어어어어!<end>"
+
 ["1400108"]
 japanese = "…すまねえ。<end>"
 korean = "…미안하다.<end>"
@@ -67,6 +83,14 @@ korean = "큭!<end>"
 ["1400126"]
 japanese = "ティアナ！<end>"
 korean = "티아나!<end>"
+
+["1400127"]
+japanese = "…ゼネテス様！<end>"
+korean = "…제네테스 님!<end>"
+
+["1400133"]
+japanese = "いやあぁああ！<end>"
+korean = "싫어어어어!<end>"
 
 ["1400149"]
 japanese = "…ティアナ。<end>"
@@ -100,6 +124,10 @@ korean = "…행사?<end>"
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
 
+["1400209"]
+japanese = "そうですか…。<end>"
+korean = "그렇습니까….<end>"
+
 ["1400215"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -111,6 +139,18 @@ korean = "안 가<end>"
 ["1400220"]
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
+
+["1400233"]
+japanese = "う、うるさい！<end>"
+korean = "시, 시끄러워!<end>"
+
+["1400241"]
+japanese = "何が言いたい！<end>"
+korean = "무슨 말을 하고 싶은 거야!<end>"
+
+["1400260"]
+japanese = "フン…出たか。<end>"
+korean = "흥… 나왔나.<end>"
 
 ["1400325"]
 japanese = "お父…さ…<end>"
@@ -136,9 +176,17 @@ korean = "네.<end>"
 japanese = "わかった<end>"
 korean = "알았어<end>"
 
+["1400430"]
+japanese = "…気が進まない<end>"
+korean = "…내키지 않아<end>"
+
 ["1400434"]
 japanese = "しょうがない<end>"
 korean = "어쩔 수 없지<end>"
+
+["1400435"]
+japanese = "…気が進まない<end>"
+korean = "…내키지 않아<end>"
 
 ["1400759"]
 japanese = "引き受ける<end>"

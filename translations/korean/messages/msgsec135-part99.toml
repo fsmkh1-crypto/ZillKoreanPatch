@@ -16,6 +16,10 @@ korean = "그리고 말이야.<end>"
 japanese = "<value:$28>様。<end>"
 korean = "<value:$28>님.<end>"
 
+["1350097"]
+japanese = "そ…その声は…<end>"
+korean = "그… 그 목소리는…<end>"
+
 ["1350112"]
 japanese = "えっ？<end>"
 korean = "어?<end>"
@@ -48,6 +52,14 @@ korean = "뭐, 뭐!?<end>"
 japanese = "ひいいい！<end>"
 korean = "히이이익!<end>"
 
+["1350199"]
+japanese = "全力で振り払う<end>"
+korean = "온 힘을 다해 뿌리친다<end>"
+
+["1350204"]
+japanese = "全力で振り払う<end>"
+korean = "온 힘을 다해 뿌리친다<end>"
+
 ["1350229"]
 japanese = "ば、ばかな…<end>"
 korean = "마, 말도 안 돼…<end>"
@@ -75,6 +87,10 @@ korean = "큭!<end>"
 ["1350271"]
 japanese = "ゼネテス！<end>"
 korean = "제네테스!<end>"
+
+["1350275"]
+japanese = "ガアアアッ！！<end>"
+korean = "가아아앗!!<end>"
 
 ["1350279"]
 japanese = "レムオン！<end>"
@@ -176,6 +192,18 @@ korean = "돕는다<end>"
 japanese = "ほっておく<end>"
 korean = "내버려 둔다<end>"
 
+["1350481"]
+japanese = "じゃ、あばよ。<end>"
+korean = "그럼, 잘 있어.<end>"
+
+["1350490"]
+japanese = "そっとしておく<end>"
+korean = "가만히 내버려 둔다<end>"
+
+["1350492"]
+japanese = "聞かないのな。<end>"
+korean = "안 묻는구나.<end>"
+
 ["1350519"]
 japanese = "…ちっ<end>"
 korean = "…칫<end>"
@@ -199,6 +227,10 @@ korean = "지켜본다<end>"
 ["1350541"]
 japanese = "素通りする<end>"
 korean = "그냥 지나간다<end>"
+
+["1350548"]
+japanese = "お兄ちゃん！！<end>"
+korean = "오빠!!<end>"
 
 ["1350571"]
 japanese = "何か情報は？<end>"

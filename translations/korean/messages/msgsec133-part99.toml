@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1330032"]
+japanese = "それは………。<end>"
+korean = "그건……….<end>"
+
 ["1330035"]
 japanese = "言うな！<end>"
 korean = "말하지 마!<end>"
@@ -44,9 +48,21 @@ korean = "네.<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["1330135"]
+japanese = "希望、か……。<end>"
+korean = "희망, 인가…….<end>"
+
+["1330184"]
+japanese = "終わったわ…。<end>"
+korean = "끝났어….<end>"
+
 ["1330260"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1330262"]
+japanese = "いえ、その…。<end>"
+korean = "아니, 그게….<end>"
 
 ["1330266"]
 japanese = "カルラ様！<end>"
@@ -88,6 +104,14 @@ korean = "핫!<end>"
 japanese = "ウフフ…。<end>"
 korean = "후후후….<end>"
 
+["1330390"]
+japanese = "な…、何…！？<end>"
+korean = "뭐…, 뭐야…!?<end>"
+
+["1330405"]
+japanese = "人の心の中…？<end>"
+korean = "사람의 마음속…?<end>"
+
 ["1330418"]
 japanese = "ウフフ…。<end>"
 korean = "후후후….<end>"
@@ -95,6 +119,10 @@ korean = "후후후….<end>"
 ["1330425"]
 japanese = "ウフフ…。<end>"
 korean = "후후후….<end>"
+
+["1330435"]
+japanese = "な…、何…！？<end>"
+korean = "뭐…, 뭐야…!?<end>"
 
 ["1330608"]
 japanese = "…ノエル。<end>"
@@ -116,6 +144,18 @@ korean = "카핀!<end>"
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
 
+["1330642"]
+japanese = "それじゃぁな。<end>"
+korean = "그럼, 잘 있어.<end>"
+
 ["1330692"]
 japanese = "それは違う<end>"
 korean = "그건 아니야<end>"
+
+["1330698"]
+japanese = "どうしても入る<end>"
+korean = "무슨 일이 있어도 들어간다<end>"
+
+["1330750"]
+japanese = "ふっ…そうか。<end>"
+korean = "훗… 그런가.<end>"

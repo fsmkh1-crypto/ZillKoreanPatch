@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1430007"]
+japanese = "お、おかしら！<end>"
+korean = "두, 두목!<end>"
+
+["1430008"]
+japanese = "気に入ったよ。<end>"
+korean = "마음에 들었어.<end>"
+
 ["1430013"]
 japanese = "へ、へい。<end>"
 korean = "예, 옙.<end>"
@@ -20,6 +28,10 @@ korean = "뒤로 물러나!<end>"
 japanese = "行くよ！<end>"
 korean = "간다!<end>"
 
+["1430069"]
+japanese = "もう少し待って<end>"
+korean = "조금만 더 기다려<end>"
+
 ["1430070"]
 japanese = "もちろん<end>"
 korean = "물론이지<end>"
@@ -35,6 +47,10 @@ korean = "고성이란?<end>"
 ["1430108"]
 japanese = "また今度<end>"
 korean = "다음에<end>"
+
+["1430124"]
+japanese = "気をつけてね。<end>"
+korean = "조심해.<end>"
 
 ["1430126"]
 japanese = "よろしく頼む<end>"
