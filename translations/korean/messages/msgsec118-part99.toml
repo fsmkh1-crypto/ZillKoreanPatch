@@ -4,6 +4,10 @@
 japanese = "ケリュネイア　Ｖ５　開始<end>"
 korean = "케류네이아 V5 시작<end>"
 
+["1180003"]
+japanese = "父さんが危ないの。<line-break>早く猫屋敷へ！<end>"
+korean = "아버지가 위험해. 빨리 고양이 저택으로!<end>"
+
 ["1180015"]
 japanese = "お願い！<line-break>兄さんをとめて！<end>"
 korean = "부탁해! 오빠를 막아 줘!<end>"
@@ -31,6 +35,10 @@ korean = "어라? <value:$28>. 안 되잖아요, 이렇게 위험한 곳에 나�
 ["1180045"]
 japanese = "やめて！<end>"
 korean = "그만해!<end>"
+
+["1180046"]
+japanese = "兄さん！<line-break>もうバカな真似はやめて！<end>"
+korean = "오빠! 이제 바보 같은 짓은 그만해!<end>"
 
 ["1180051"]
 japanese = "やめなさい！<line-break>ケリュネイア！！<end>"
@@ -75,6 +83,10 @@ korean = "울지 마, 케류네이아.<end>"
 ["1180068"]
 japanese = "私です。オルファウスです。<end>"
 korean = "접니다. 오르파우스입니다.<end>"
+
+["1180070"]
+japanese = "父さん…！？<line-break>猫に意識を移したの？<end>"
+korean = "아버지…!? 고양이에게 의식을 옮긴 거야?<end>"
 
 ["1180072"]
 japanese = "よかった、無事で…。<end>"

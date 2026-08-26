@@ -144,9 +144,17 @@ korean = "예비 메시지 8 에아 V5<end>"
 japanese = "予備メッセージその９<line-break>エア　Ｖ５<end>"
 korean = "예비 메시지 9 에아 V5<end>"
 
+["1330151"]
+japanese = "予備メッセージその１０<line-break>エア　Ｖ５<end>"
+korean = "예비 메시지 10 에아 V5<end>"
+
 ["1330161"]
 japanese = "わしか、お主か…<line-break>そこで知れるじゃろう。<line-break> <line-break>フォッフォッフォ…！<end>"
 korean = "나인가, 그대인가… 거기서 알게 되겠지. 포호호호…!<end>"
+
+["1330166"]
+japanese = "ムダよ、<value:$28>。<line-break>これは幻像にすぎない…。<line-break>実体はおそらく、城の中よ。<end>"
+korean = "소용없어, <value:$28>. 이건 환상에 불과해…. 본체는 아마 성 안에 있을 거야.<end>"
 
 ["1330174"]
 japanese = "（エンシャント城内へ行かなければ…）<end>"

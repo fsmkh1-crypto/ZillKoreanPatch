@@ -368,6 +368,10 @@ korean = "빈 메시지<end>"
 japanese = "空きメッセージ<end>"
 korean = "빈 메시지<end>"
 
+["1110110"]
+japanese = "ああ、君か。<line-break>この私になんの用だ？<end>"
+korean = "아, 너인가. 이 나에게 무슨 용무지?<end>"
+
 ["1110127"]
 japanese = "ザギヴメッセージVol2終端<end>"
 korean = "자기브 메시지 Vol2 끝<end>"
