@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["450001"]
+japanese = "ねぇ、ガルドラン、だよね。<end>"
+korean = "저기, 갈드란… 맞지?<end>"
+
 ["450009"]
 japanese = "？<end>"
 korean = "？<end>"
@@ -23,6 +27,10 @@ korean = "갈드란, 기다려!<end>"
 ["450033"]
 japanese = "力が…欲しい…。<end>"
 korean = "힘이… 필요해….<end>"
+
+["450034"]
+japanese = "魔王の刺客め！　とどめだ！<end>"
+korean = "마왕의 자객놈! 끝장이다!<end>"
 
 ["450035"]
 japanese = "酔っぱらいのケンカだ！<end>"
@@ -68,6 +76,10 @@ korean = "내가 여행을 떠난 이유….<end>"
 japanese = "行こう。<value:$28>。<end>"
 korean = "가자. <value:$28>.<end>"
 
+["450094"]
+japanese = "気味が悪い！　　　　　　　<end>"
+korean = "기분 나빠!<end>"
+
 ["450109"]
 japanese = "おかえり、<value:$28>。<end>"
 korean = "어서 와, <value:$28>.<end>"
@@ -95,6 +107,10 @@ korean = "나지를 동료로 넣는다<end>"
 ["450124"]
 japanese = "今のメンバーで旅を続ける<end>"
 korean = "현재 멤버로 여행을 계속한다<end>"
+
+["450125"]
+japanese = "それじゃ、僕、がんばるよ。<end>"
+korean = "그럼 나, 열심히 해볼게.<end>"
 
 ["450138"]
 japanese = "待て。<end>"
@@ -176,6 +192,10 @@ korean = "손님.<end>"
 japanese = "…勇者…様。<end>"
 korean = "…용사…님.<end>"
 
+["450217"]
+japanese = "どうした！　酒場のオヤジ！<end>"
+korean = "왜 그래! 술집 아저씨!<end>"
+
 ["450218"]
 japanese = "勇者様、魔王がでました。<end>"
 korean = "용사님, 마왕이 나타났습니다.<end>"
@@ -187,6 +207,10 @@ korean = "갈드란이 있었어…?<end>"
 ["450225"]
 japanese = "矢…？　ガルドランの…？<end>"
 korean = "화살…? 갈드란의…?<end>"
+
+["450241"]
+japanese = "ガルドラン…ヴァンの仇…。<end>"
+korean = "갈드란… 반의 원수….<end>"
 
 ["450242"]
 japanese = "やっちゃえ、ナッジ！<end>"
@@ -200,6 +224,10 @@ korean = "잠깐 기다려, 나지!<end>"
 japanese = "え…。<end>"
 korean = "어….<end>"
 
+["450246"]
+japanese = "俺様伝説…打ち…切り…！！<end>"
+korean = "나의 전설… 여기서… 끝…!!<end>"
+
 ["450247"]
 japanese = "ヴァン、仇は討ったよ…。<end>"
 korean = "반, 원수는 갚았어….<end>"
@@ -207,6 +235,10 @@ korean = "반, 원수는 갚았어….<end>"
 ["450253"]
 japanese = "ヴァン…仇は討ったよ。<end>"
 korean = "반… 원수는 갚았어.<end>"
+
+["450259"]
+japanese = "…なんだと？　　　　　　　<end>"
+korean = "…뭐라고?<end>"
 
 ["450270"]
 japanese = "待ってよ！　ヴァン！<end>"

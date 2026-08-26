@@ -68,6 +68,10 @@ korean = "여자한테라고요!?<end>"
 japanese = "<if><value:$29><equal>%0弟？<end>妹？<end>"
 korean = "<if><value:$29><equal>%0남동생?<end>여동생?<end>"
 
+["430073"]
+japanese = "ここに連れてまいりました。<end>"
+korean = "이곳으로 데려왔습니다.<end>"
+
 ["430084"]
 japanese = "…ふん、ぬけぬけと。<end>"
 korean = "…흥, 뻔뻔하게.<end>"
@@ -111,6 +115,10 @@ korean = "<value:$28>, 세상을 봐라.<end>"
 ["430151"]
 japanese = "…賊か。<line-break>　<end>"
 korean = "…도적인가.<end>"
+
+["430156"]
+japanese = "お引き取りいただきますか？<end>"
+korean = "돌아가시겠습니까?<end>"
 
 ["430160"]
 japanese = "読んでみよう<end>"

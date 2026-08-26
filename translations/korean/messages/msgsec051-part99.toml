@@ -60,6 +60,14 @@ korean = "제네테스 님. <value:$28> 님을 모셔 왔습니다.<end>"
 japanese = "ご苦労。<line-break>さがってくれ。<end>"
 korean = "수고했다. 물러가도 좋다.<end>"
 
+["510100"]
+japanese = "バカな、ロストール軍だと！<end>"
+korean = "말도 안 돼, 로스톨군이라고!<end>"
+
+["510110"]
+japanese = "朱雀将軍が討ち取られたぞ！<end>"
+korean = "주작장군이 쓰러졌다!<end>"
+
 ["510111"]
 japanese = "退け！　退けええい！<end>"
 korean = "물러나라! 물러나아아!<end>"
@@ -83,6 +91,10 @@ korean = "…가아아아악!<end>"
 ["510137"]
 japanese = "敵襲！<end>"
 korean = "적습!<end>"
+
+["510146"]
+japanese = "朱雀将軍が討ち取られたぞ！<end>"
+korean = "주작장군이 쓰러졌다!<end>"
 
 ["510147"]
 japanese = "退け！　退けええい！<end>"

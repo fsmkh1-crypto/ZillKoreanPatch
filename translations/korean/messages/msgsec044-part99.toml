@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["440000"]
+japanese = "リューガ・ボリューム３開始<end>"
+korean = "류가 볼륨 3 시작<end>"
+
 ["440001"]
 japanese = "お前も来るか？<end>"
 korean = "너도 올 건가?<end>"
@@ -75,3 +79,7 @@ korean = "무슨 얘기야?<end>"
 ["440090"]
 japanese = "聞いた<end>"
 korean = "들었어<end>"
+
+["440115"]
+japanese = "リューガ・ボリューム３終端<end>"
+korean = "류가 볼륨 3 끝<end>"

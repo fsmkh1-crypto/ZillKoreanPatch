@@ -180,6 +180,10 @@ korean = "…고마워, <value:$28>.<end>"
 japanese = "え？<end>"
 korean = "어?<end>"
 
+["410131"]
+japanese = "やっぱり変。　　　　　　　<end>"
+korean = "역시 이상해.<end>"
+
 ["410136"]
 japanese = "待って！<line-break><value:$28>さん！<end>"
 korean = "기다려! <value:$28> 씨!<end>"

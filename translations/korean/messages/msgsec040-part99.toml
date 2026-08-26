@@ -44,6 +44,10 @@ korean = "운명에 맞서려는 자….<end>"
 japanese = "ゆくぞ、<value:$28>。<end>"
 korean = "간다, <value:$28>.<end>"
 
+["400029"]
+japanese = "フ…フフ…我が事…成れり！<end>"
+korean = "후… 후후… 내 뜻… 이루었도다!<end>"
+
 ["400030"]
 japanese = "なんだと…？<end>"
 korean = "뭐라고…?<end>"
@@ -120,6 +124,10 @@ korean = "나야말로.<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["400079"]
+japanese = "ホントにリベルダムだわ…。<end>"
+korean = "정말 리벨덤이네….<end>"
+
 ["400081"]
 japanese = "アナタがお礼を言うのよ！<end>"
 korean = "당신이 감사하다고 해야지!<end>"
@@ -159,6 +167,10 @@ korean = "다음엔… 안 넘겨줘!<end>"
 ["400120"]
 japanese = "久しぶりね。<end>"
 korean = "오랜만이네.<end>"
+
+["400127"]
+japanese = "…闇の神器を探しているの？<end>"
+korean = "…어둠의 신기를 찾고 있는 거야?<end>"
 
 ["400132"]
 japanese = "わかってくれるよね？<end>"
@@ -211,6 +223,18 @@ korean = "고마워, 그럼<end>"
 ["400168"]
 japanese = "わかった。ありがとう<end>"
 korean = "알겠어. 고마워<end>"
+
+["400169"]
+japanese = "ソウルはどうやって鍛える？<end>"
+korean = "소울은 어떻게 단련하지?<end>"
+
+["400172"]
+japanese = "ありがとう、よくわかったよ<end>"
+korean = "고마워, 잘 알았어.<end>"
+
+["400193"]
+japanese = "（穴の中に何かが見える…）<end>"
+korean = "(구멍 안에 뭔가 보여…)<end>"
 
 ["400194"]
 japanese = "穴に飛び込みますか？<end>"
@@ -279,6 +303,10 @@ korean = "빈칸<end>"
 ["400222"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["400228"]
+japanese = "ネメア様をお連れしました。<end>"
+korean = "네메아 님을 모셔 왔습니다.<end>"
 
 ["400235"]
 japanese = "…世界を手に入れる。<end>"

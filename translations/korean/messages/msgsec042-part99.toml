@@ -20,6 +20,10 @@ korean = "여자한테라고요!?<end>"
 japanese = "妹？<end>"
 korean = "여동생?<end>"
 
+["420035"]
+japanese = "ここに連れてまいりました。<end>"
+korean = "이곳으로 데려왔습니다.<end>"
+
 ["420046"]
 japanese = "…ふん、ぬけぬけと。<end>"
 korean = "…흥, 뻔뻔하게.<end>"
@@ -36,6 +40,10 @@ korean = "그럼 실례하겠습니다.<end>"
 japanese = "姉ちゃん、それじゃ！<end>"
 korean = "누나, 그럼!<end>"
 
+["420084"]
+japanese = "…即刻、広場で首をはねろ。<end>"
+korean = "…즉시 광장에서 목을 쳐라.<end>"
+
 ["420085"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
@@ -47,6 +55,10 @@ korean = "서둘러. 가.<end>"
 ["420087"]
 japanese = "兄さん、どうして！<end>"
 korean = "형, 어째서!<end>"
+
+["420088"]
+japanese = "…言いたいことは言ったか？<end>"
+korean = "…할 말은 다 했나?<end>"
 
 ["420090"]
 japanese = "人は、恐れるのだ。<end>"
@@ -151,6 +163,10 @@ korean = "질문은 없어<end>"
 ["420245"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
+
+["420263"]
+japanese = "…とりあえず、ついてこい。<end>"
+korean = "…일단 따라와.<end>"
 
 ["420280"]
 japanese = "入るぞ、<value:$28>。<end>"
