@@ -288,6 +288,10 @@ korean = "예쁜 여동생이라…<end>"
 japanese = "お変わりございませんか、<line-break>ティアナ様。<end>"
 korean = "별고 없으신지요,티아나 님.<end>"
 
+["630219"]
+japanese = "ふふふ。存じませんでしたわ。<line-break><value:$28>様の前では、<line-break>いいお兄様でいらっしゃるのですね？<end>"
+korean = "후후후. 몰랐어요. <value:$28>님 앞에서는 좋은 오라버니이신가 보네요?<end>"
+
 ["630223"]
 japanese = "もうお帰りですの？<line-break>残念ですわ。<end>"
 korean = "벌써 돌아가시나요? 아쉽네요.<end>"
@@ -399,6 +403,10 @@ korean = "후후, 농담이에요. 그래서 인형은 주인인 여자아이에
 ["630310"]
 japanese = "あ！　どなたか来られたみたいだわ。<end>"
 korean = "아! 누가 오신 것 같아.<end>"
+
+["630313"]
+japanese = "どうしますか、<value:$28>様？<line-break>よろしければ、またクローゼットを<line-break>お貸ししますわ。うふふ。<end>"
+korean = "어떻게 하시겠어요, <value:$28>님? 괜찮으시면 또 옷장을 빌려드릴게요. 후후.<end>"
 
 ["630317"]
 japanese = "ティアナ様もご機嫌うるわしく。<end>"

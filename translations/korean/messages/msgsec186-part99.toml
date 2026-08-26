@@ -28,6 +28,10 @@ korean = "아…. 저기, 저기! 그럼 루루안타가 <value:$28>을 찾아�
 japanese = "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？　　<end>"
 korean = "어라, <value:$28>. 돌아왔구나. 루루안타는 같이 안 왔어?<end>"
 
+["1860025"]
+japanese = "お前がノーブルにいる間中行っていた<line-break>町の外の林に行ったはずだ。<line-break>頼んだよ、<value:$28>。<end>"
+korean = "네가 노블에 있는 동안 계속 가던 마을 밖 숲으로 갔을 거야. 부탁한다, <value:$28>.<end>"
+
 ["1860026"]
 japanese = "ルルアンタは、<line-break>町の外の林に向かったはずだ。<line-break>頼んだよ、<value:$28>。<end>"
 korean = "루루안타는 마을 밖 숲으로 향했을 거야. 부탁한다, <value:$28>.<end>"
@@ -147,6 +151,10 @@ korean = "<value:$28>…, 루루안타…, 무사한가…?<end>"
 ["1860120"]
 japanese = "…<value:$28>。<line-break>ノーブルを発つ前にお前に渡した　<line-break>短剣は…持っているな…？<end>"
 korean = "…<value:$28>. 노블을 떠나기 전에 네게 준 단검은… 가지고 있지…?<end>"
+
+["1860123"]
+japanese = "…ダメだ！　そんなことより……　<line-break><value:$28>……王都へ…。<line-break>…ロストールへ行くんだ…。<end>"
+korean = "…안 돼! 그것보다… <value:$28>… 왕도로…. 로스토올로 가….<end>"
 
 ["1860126"]
 japanese = "ぐすっ…<line-break>どうするのぉ、<line-break><value:$28>？<end>"

@@ -1012,6 +1012,10 @@ korean = "…작전은 실패입니다! 철수합니다!!<end>"
 japanese = "あれは、<value:$28>が<line-break>作戦の失敗を伝えているのです！<line-break>退きます！！<end>"
 korean = "저건 <value:$28>가 작전 실패를 알리는 겁니다! 후퇴합니다!!<end>"
 
+["560721"]
+japanese = "クリュセイス様、なぜ、そのように？<line-break>同志<value:$28>は<line-break>緊急事態で合図を変更したのやも…。<end>"
+korean = "크류세이스 님, 어째서 그렇게…? 동지 <value:$28>은 긴급 상황이라 신호를 바꾼 것일 수도….<end>"
+
 ["560725"]
 japanese = "…はっ、わかりました。<end>"
 korean = "…예, 알겠습니다.<end>"

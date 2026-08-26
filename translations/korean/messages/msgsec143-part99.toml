@@ -100,6 +100,10 @@ korean = "부르셨습니까?<end>"
 japanese = "今すぐ、大イカを<line-break>港におびき寄せな。<end>"
 korean = "지금 당장 대왕오징어를 항구로 유인해.<end>"
 
+["1430077"]
+japanese = "え、ええっ？<line-break>どうしてまた、そんな…。<end>"
+korean = "에, 에엣? 왜 또 그런….<end>"
+
 ["1430078"]
 japanese = "大イカを退治するに<line-break>決まってんだろ！<end>"
 korean = "대왕오징어를 해치우는 게 당연하잖아!<end>"
@@ -171,6 +175,10 @@ korean = "물보라 군도란?<end>"
 ["1430108"]
 japanese = "また今度<end>"
 korean = "다음에<end>"
+
+["1430115"]
+japanese = "いいのよ。<line-break>これが私の使命なんだから。<end>"
+korean = "괜찮아. 이게 내 사명이니까.<end>"
 
 ["1430117"]
 japanese = "ええ。待ってるわ。<line-break><value:$28>とは<line-break>いい友だちになれそうね。<end>"

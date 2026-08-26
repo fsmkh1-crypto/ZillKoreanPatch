@@ -24,6 +24,10 @@ korean = "큭. 비시민 쓰레기가!<end>"
 japanese = "世話になったな。<end>"
 korean = "신세 졌군.<end>"
 
+["1490020"]
+japanese = "僕の名前？<line-break>それが君に何の関係がある？<end>"
+korean = "내 이름? 그게 너랑 무슨 상관이지?<end>"
+
 ["1490021"]
 japanese = "エルファスだ。<line-break>救世主エルファス。<end>"
 korean = "엘파스다. 구세주 엘파스.<end>"
@@ -87,6 +91,10 @@ korean = "<value:$28>! 부탁이야, 눈을 떠 줘!<end>"
 ["1490064"]
 japanese = "気がついたか？<end>"
 korean = "정신이 들었나?<end>"
+
+["1490065"]
+japanese = "心配するな。<line-break>僕はそんなヘマはしない。<end>"
+korean = "걱정 마. 나는 그런 실수는 하지 않아.<end>"
 
 ["1490068"]
 japanese = "うわっ！<end>"

@@ -92,6 +92,10 @@ korean = "아니, <value:$28>도 같이 듣는 게 좋아. 그러니까 <value:$
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
 
+["1780080"]
+japanese = "<value:$28>、何か知らないの？<line-break>今回の件の人たちとは、<line-break>少なからず関わりがあるでしょう？<end>"
+korean = "<value:$28>, 뭔가 아는 거 없어? 이번 일에 관련된 사람들과 적지 않게 얽혀 있잖아?<end>"
+
 ["1780083"]
 japanese = "お前らの兄貴さ。<line-break>気になってたんでな、<line-break>調べてもらった。<line-break>あいつの情報なら間違いないだろう。<end>"
 korean = "너희 형 이야기다. 신경 쓰여서 조사해 봤지. 그 녀석 정보라면 틀림없을 거다.<end>"

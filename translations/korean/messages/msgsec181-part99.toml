@@ -44,6 +44,10 @@ korean = "<value:$28>, 할 말이 있습니다. 거실로 와 주시겠어요?<e
 japanese = "あ、<value:$28>…。<line-break>…ねえ、<line-break>兄さんについて何か聞いていない？<end>"
 korean = "아, <value:$28>…. …있잖아, 오빠에 대해 뭐 들은 거 없어?<end>"
 
+["1810032"]
+japanese = "<value:$28>、<line-break>イシュバアルとは、<line-break>戦うことになるかもな。<line-break>せいぜい気をつけろよ。<end>"
+korean = "<value:$28>, 이슈바알과 싸우게 될지도 몰라. 각별히 조심해.<end>"
+
 ["1810035"]
 japanese = "始原口伝を聞く<end>"
 korean = "시원구전을 듣는다<end>"

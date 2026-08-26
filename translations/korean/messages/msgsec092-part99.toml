@@ -64,6 +64,10 @@ korean = "당장은 함께 모험을 떠나지 않는다<end>"
 japanese = "もぉ、イヤー！<line-break><value:$28>ー！<end>"
 korean = "정말, 싫어! <value:$28>!<end>"
 
+["920032"]
+japanese = "泥臭い！　ドワーフ臭いわ！<line-break>こぉーんな所、息が詰まってよー！<line-break>早く出るのよ、<value:$28>！<end>"
+korean = "흙냄새 나! 드워프 냄새도! 이런 데 있으면 숨 막혀! 빨리 나가자, <value:$28>!<end>"
+
 ["920049"]
 japanese = "そうか…、なら、いいわい…。<end>"
 korean = "그런가… 그럼 됐다….<end>"
@@ -83,6 +87,10 @@ korean = "지금 바로 델가도를 파티에 넣겠습니까?<end>"
 ["920057"]
 japanese = "もぉ、イヤー！<line-break><value:$28>ー。<end>"
 korean = "정말, 싫어! <value:$28>.<end>"
+
+["920058"]
+japanese = "泥臭い！　ドワーフ臭いわ！<line-break>こぉーんな所、息が詰まってよー！<line-break>早く出るのよ、<value:$28>！<end>"
+korean = "흙냄새 나! 드워프 냄새도! 이런 데 있으면 숨 막혀! 빨리 나가자, <value:$28>!<end>"
 
 ["920073"]
 japanese = "そうか…、なら、いいわい…。<end>"

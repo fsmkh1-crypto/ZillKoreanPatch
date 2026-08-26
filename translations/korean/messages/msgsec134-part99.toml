@@ -88,6 +88,10 @@ korean = "그렇습니까. 그럼 이만.<end>"
 japanese = "では、出発だ。<end>"
 korean = "그럼, 출발이다.<end>"
 
+["1340049"]
+japanese = "今回の視察の目的は<line-break>鉱山内の地形の把握と<line-break>聖光石の質の確認だ。<line-break>では、行こう。<end>"
+korean = "이번 시찰 목적은 광산 내부 지형 파악과 성광석의 품질 확인이다. 그럼 가자.<end>"
+
 ["1340051"]
 japanese = "少し気分が悪いので…<end>"
 korean = "조금 몸이 안 좋아서….<end>"
@@ -539,6 +543,10 @@ korean = "용사다! 용사의 재림이다!<end>"
 ["1340343"]
 japanese = "つ、ついに<line-break>剣が抜けるときが訪れたか…。<end>"
 korean = "드, 드디어 검을 뽑을 때가 온 건가….<end>"
+
+["1340345"]
+japanese = "しっかりしろ。<line-break>自分がなぜ助かったかを、考えるんだ。<line-break>君は…無限の…<line-break>うっ…！<end>"
+korean = "정신 차려. 자신이 왜 살아났는지 생각해. 너는… 무한의… 윽…!<end>"
 
 ["1340346"]
 japanese = "勇者だ！　勇者の再臨だ！<end>"

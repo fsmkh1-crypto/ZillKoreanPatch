@@ -12,6 +12,10 @@ korean = "………………. 아름답구나…, 세계는….<end>"
 japanese = "…姉さんは死を望んでいた。<end>"
 korean = "…누나는 죽음을 바라고 있었어.<end>"
 
+["1540014"]
+japanese = "さぁ、憎悪を通して世界を見て。<line-break>まだ、世界は美しいかい？<line-break><value:$28>のことを好きなの？<end>"
+korean = "자, 증오를 통해 세상을 봐. 그래도 세상은 아름다워? <value:$28>을 좋아해?<end>"
+
 ["1540015"]
 japanese = "嫌いだろ？<end>"
 korean = "싫어하잖아?<end>"

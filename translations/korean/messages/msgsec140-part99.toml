@@ -248,6 +248,10 @@ korean = "제네테스 님은…?<end>"
 japanese = "…すまねえ。<end>"
 korean = "…미안하다.<end>"
 
+["1400110"]
+japanese = "あわてるほどのことか。<line-break>死にはしない。<end>"
+korean = "그렇게 서두를 일인가. 죽지는 않아.<end>"
+
 ["1400114"]
 japanese = "いやあぁああ！！<end>"
 korean = "싫어어어어!!<end>"
@@ -347,6 +351,10 @@ korean = "<value:$28> 님… …티아나… 님?<end>"
 ["1400170"]
 japanese = "ええ、あの、催しが<line-break>開かれるって…。<end>"
 korean = "네, 그게… 행사가 열린다고 해서….<end>"
+
+["1400171"]
+japanese = "催し？<line-break>私、聞いておりませんけれど…。<end>"
+korean = "행사요? 저는 듣지 못했는데요….<end>"
 
 ["1400173"]
 japanese = "やっこさんもそうじゃねえの？<end>"
@@ -464,6 +472,42 @@ korean = "…제네테스가 불렀다고?<end>"
 japanese = "何が言いたい！<end>"
 korean = "무슨 말을 하고 싶은 거야!<end>"
 
+["1400245"]
+japanese = "予備メッセージ１<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 1 무도회, 볼륨 4<end>"
+
+["1400246"]
+japanese = "予備メッセージ２<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 2 무도회, 볼륨 4<end>"
+
+["1400247"]
+japanese = "予備メッセージ３<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 3 무도회, 볼륨 4<end>"
+
+["1400248"]
+japanese = "予備メッセージ４<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 4 무도회, 볼륨 4<end>"
+
+["1400249"]
+japanese = "予備メッセージ５<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 5 무도회, 볼륨 4<end>"
+
+["1400250"]
+japanese = "予備メッセージ６<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 6 무도회, 볼륨 4<end>"
+
+["1400251"]
+japanese = "予備メッセージ７<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 7 무도회, 볼륨 4<end>"
+
+["1400252"]
+japanese = "予備メッセージ８<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 8 무도회, 볼륨 4<end>"
+
+["1400253"]
+japanese = "予備メッセージ９<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 9 무도회, 볼륨 4<end>"
+
 ["1400256"]
 japanese = "その声…シャリね！？<end>"
 korean = "그 목소리… 샤리구나!?<end>"
@@ -499,6 +543,10 @@ korean = "그래. 샤리는 냉혹한 인형이다<end>"
 ["1400293"]
 japanese = "違う。シャリは人形じゃない！<end>"
 korean = "아니야. 샤리는 인형이 아니야!<end>"
+
+["1400298"]
+japanese = "………………。<line-break><line-break><line-break>誰かの、痛みを、感じること…<line-break>それが、僕の、願い…？<end>"
+korean = "………………. 누군가의 아픔을 느끼는 것… 그게 내 소원…?<end>"
 
 ["1400305"]
 japanese = "追加メッセージここから<end>"

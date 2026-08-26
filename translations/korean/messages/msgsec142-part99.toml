@@ -100,6 +100,10 @@ korean = "…이걸로 괜찮았던 건가요?<end>"
 japanese = "後ろ、向いてください。<end>"
 korean = "뒤돌아 주세요.<end>"
 
+["1420076"]
+japanese = "もう…逃げられません。<line-break>私も貴方も…。<end>"
+korean = "이제… 도망칠 수 없습니다. 저도, 당신도….<end>"
+
 ["1420078"]
 japanese = "囚われたのは貴方？<line-break>それとも私？<end>"
 korean = "붙잡힌 건 당신? 아니면 나?<end>"
@@ -260,6 +264,10 @@ korean = "고마워…. <value:$28>… 그리고… 나는 널 사랑해.<end>"
 japanese = "レムオン様！<end>"
 korean = "레몬님!<end>"
 
+["1420210"]
+japanese = "どういうことですか？<line-break>説明を求めます。<end>"
+korean = "무슨 뜻입니까? 설명을 요구합니다.<end>"
+
 ["1420216"]
 japanese = "何用だ…セバスチャン。<end>"
 korean = "무슨 일이지… 세바스찬.<end>"
@@ -391,6 +399,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420289"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1420295"]
+japanese = "最強と、さあ行こう…を<line-break>かけてるんだ。<end>"
+korean = "최강과 '자, 가자'를 엮은 말장난이야.<end>"
 
 ["1420296"]
 japanese = "フッ…。<end>"
@@ -912,6 +924,10 @@ korean = "♪하늘을 가르는 정의의 빛~<end>"
 japanese = "レムオン様！<end>"
 korean = "레몬님!<end>"
 
+["1420558"]
+japanese = "どういうことですか？<line-break>説明を求めます。<end>"
+korean = "무슨 뜻입니까? 설명을 요구합니다.<end>"
+
 ["1420564"]
 japanese = "何用だ…セバスチャン<end>"
 korean = "무슨 용건이냐… 세바스찬.<end>"
@@ -1019,6 +1035,10 @@ korean = "오지 않습니다….<end>"
 ["1420639"]
 japanese = "来ないわね…。<end>"
 korean = "안 오네….<end>"
+
+["1420646"]
+japanese = "最強と、さあ行こう…を<line-break>かけてるんだ。<end>"
+korean = "최강과 '자, 가자'를 엮은 말장난이야.<end>"
 
 ["1420647"]
 japanese = "フッ…。<end>"

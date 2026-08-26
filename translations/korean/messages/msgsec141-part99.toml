@@ -28,6 +28,10 @@ korean = "아니야. 손님이 한 명 더 왔어.<end>"
 japanese = "ひっ………！<end>"
 korean = "히익………!<end>"
 
+["1410015"]
+japanese = "フフ、君の後ろにいる<line-break>男はね、かつて…<end>"
+korean = "후후, 네 뒤에 있는 남자는 말이지, 예전에….<end>"
+
 ["1410016"]
 japanese = "やめろ！　やめてくれ！<end>"
 korean = "그만둬! 그만해 줘!<end>"
@@ -384,6 +388,10 @@ korean = "후우, …암여우의 자식은 암여우지.<end>"
 japanese = "ティアナ様。<end>"
 korean = "티아나님.<end>"
 
+["1410293"]
+japanese = "…せめて…そう、<line-break>せめてあの方が側に<line-break>いてくれたら…。<line-break>そしたら私、きっと…。<end>"
+korean = "…적어도… 그래, 적어도 그분이 곁에 있어 준다면…. 그러면 나, 분명….<end>"
+
 ["1410294"]
 japanese = "…でもあの方も、<line-break>もう長いこと姿を<line-break>見せてくださらない。<line-break>ふふ、きっと…あきれられたのね。<end>"
 korean = "…하지만 그분도 오랫동안 모습을 보여 주지 않으셨어. 후후, 분명… 질리신 거겠지.<end>"
@@ -547,6 +555,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410390"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410394"]
+japanese = "人類の革新は今、<line-break>これより始まるのだ！<end>"
+korean = "인류의 혁신은 지금, 여기서 시작된다!<end>"
 
 ["1410396"]
 japanese = "<value:$28>…。<line-break>終わったな…。<end>"
@@ -735,6 +747,10 @@ korean = "후고 님, <value:$28>님은 무사히 용의 송곳니를 얻어 돌
 ["1410523"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"
+
+["1410525"]
+japanese = "どえらいのぉ。<line-break>たいしたもんじゃのぉ。<end>"
+korean = "대단하구나. 정말 훌륭하구나.<end>"
 
 ["1410526"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"

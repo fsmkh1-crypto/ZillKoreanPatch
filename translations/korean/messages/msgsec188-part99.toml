@@ -4,6 +4,10 @@
 japanese = "解放軍イベント開始<end>"
 korean = "해방군 이벤트 시작<end>"
 
+["1880001"]
+japanese = "おお、<value:$28>。<line-break>お前が来るのを待っていたんだ。<line-break>クリュセイス様のお話を聞いてくれ。<end>"
+korean = "오, <value:$28>. 네가 오길 기다리고 있었다. 크류세이스 님의 말씀을 들어 줘.<end>"
+
 ["1880004"]
 japanese = "そこで、<value:$28>。<line-break>あなたに、埋蔵金のありかを<line-break>調査してもらいたいのです。<line-break>引き受けてもらえますね？<end>"
 korean = "그래서, <value:$28>. 당신에게 매장금의 위치를 조사해 주었으면 합니다. 맡아 주시겠지요?<end>"
