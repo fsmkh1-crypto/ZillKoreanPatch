@@ -8,6 +8,10 @@ korean = "완벽해<end>"
 japanese = "まだ<end>"
 korean = "아직<end>"
 
+["1620009"]
+japanese = "入ってくれ。<end>"
+korean = "들어와.<end>"
+
 ["1620022"]
 japanese = "聞く<end>"
 korean = "듣는다<end>"
@@ -16,13 +20,29 @@ korean = "듣는다<end>"
 japanese = "聞かない<end>"
 korean = "안 들어<end>"
 
+["1620043"]
+japanese = "見事ねぇ…。<end>"
+korean = "훌륭하네….<end>"
+
 ["1620075"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1620084"]
+japanese = "ほら、行け。<end>"
+korean = "자, 가.<end>"
+
+["1620090"]
+japanese = "ほら、行け。<end>"
+korean = "자, 가.<end>"
+
 ["1620104"]
 japanese = "失礼する！<end>"
 korean = "이만 실례하겠다!<end>"
+
+["1620117"]
+japanese = "入ってくれ。<end>"
+korean = "들어와.<end>"
 
 ["1620122"]
 japanese = "聞く<end>"

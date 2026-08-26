@@ -12,13 +12,29 @@ korean = "죽어!<end>"
 japanese = "やった！<end>"
 korean = "해냈다!<end>"
 
+["1640040"]
+japanese = "え、けどよ。<end>"
+korean = "어, 하지만.<end>"
+
+["1640044"]
+japanese = "逃げるのか。<end>"
+korean = "도망치는 거냐.<end>"
+
 ["1640045"]
 japanese = "なに！？<end>"
 korean = "뭐!?<end>"
 
+["1640049"]
+japanese = "妹のために？<end>"
+korean = "여동생을 위해서?<end>"
+
 ["1640060"]
 japanese = "なら殺せ！<end>"
 korean = "그럼 죽여!<end>"
+
+["1640069"]
+japanese = "お前の名は？<end>"
+korean = "네 이름은?<end>"
 
 ["1640073"]
 japanese = "ん…！？<end>"

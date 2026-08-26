@@ -16,6 +16,22 @@ korean = "갈게.<end>"
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
 
+["1740052"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
+["1740082"]
+japanese = "復活させたい<end>"
+korean = "부활시키고 싶다<end>"
+
+["1740088"]
+japanese = "絶対にお断り<end>"
+korean = "절대로 사양한다<end>"
+
+["1740092"]
+japanese = "お願いします<end>"
+korean = "부탁드립니다<end>"
+
 ["1740093"]
 japanese = "ふざけるな<end>"
 korean = "장난치지 마<end>"
@@ -39,6 +55,10 @@ korean = "크학…!<end>"
 ["1740152"]
 japanese = "ぐ…っ！<end>"
 korean = "크…윽!<end>"
+
+["1740159"]
+japanese = "さらば、だ。<end>"
+korean = "잘 있어라.<end>"
 
 ["1740164"]
 japanese = "さて。<end>"

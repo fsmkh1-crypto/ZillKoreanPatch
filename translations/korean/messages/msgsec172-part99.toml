@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1720002"]
+japanese = "また、卿か。<end>"
+korean = "또 그대인가.<end>"
+
 ["1720027"]
 japanese = "うむ。<end>"
 korean = "음.<end>"
@@ -31,3 +35,7 @@ korean = "응?<end>"
 ["1720069"]
 japanese = "これは…。<end>"
 korean = "이건….<end>"
+
+["1720078"]
+japanese = "これを見ろ。<end>"
+korean = "이걸 봐.<end>"

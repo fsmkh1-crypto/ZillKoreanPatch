@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1730006"]
+japanese = "助けに行こう<end>"
+korean = "도우러 가자<end>"
+
+["1730007"]
+japanese = "先をいそごう<end>"
+korean = "서두르자<end>"
+
 ["1730010"]
 japanese = "ぎゃっ！<end>"
 korean = "꺅!<end>"
@@ -27,6 +35,18 @@ korean = "이런, 이런.<end>"
 ["1730057"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
+
+["1730058"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
+["1730080"]
+japanese = "死んでもらう<end>"
+korean = "죽어 줘야겠다<end>"
+
+["1730083"]
+japanese = "つまみだせ！<end>"
+korean = "끌어내!<end>"
 
 ["1730084"]
 japanese = "はっ！<end>"

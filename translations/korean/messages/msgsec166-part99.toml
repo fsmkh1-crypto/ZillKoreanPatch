@@ -4,6 +4,10 @@
 japanese = "プレゼント<end>"
 korean = "선물<end>"
 
+["1660165"]
+japanese = "ラスラルの花<end>"
+korean = "라스랄의 꽃<end>"
+
 ["1660203"]
 japanese = "ネメア救出<end>"
 korean = "네메아 구출<end>"
@@ -20,9 +24,25 @@ korean = "금단의 성배<end>"
 japanese = "色惑の瞳<end>"
 korean = "색혹의 눈동자<end>"
 
+["1660220"]
+japanese = "名指しの依頼<end>"
+korean = "지명 의뢰<end>"
+
+["1660230"]
+japanese = "仇討ちの依頼<end>"
+korean = "원수 갚기 의뢰<end>"
+
+["1660232"]
+japanese = "鳳凰探索依頼<end>"
+korean = "봉황 탐색 의뢰<end>"
+
 ["1660233"]
 japanese = "首飾り探し<end>"
 korean = "목걸이 찾기<end>"
+
+["1660235"]
+japanese = "ハンナの人形<end>"
+korean = "한나의 인형<end>"
 
 ["1660239"]
 japanese = "密書の配達<end>"
@@ -36,9 +56,17 @@ korean = "밀서 배달<end>"
 japanese = "密書の配達<end>"
 korean = "밀서 배달<end>"
 
+["1660242"]
+japanese = "邪竜の断層へ<end>"
+korean = "사룡의 단층으로<end>"
+
 ["1660243"]
 japanese = "古の樹海へ<end>"
 korean = "고대의 수해로<end>"
+
+["1660244"]
+japanese = "ザギヴの手紙<end>"
+korean = "자기브의 편지<end>"
 
 ["1660253"]
 japanese = "聖座の夢<end>"

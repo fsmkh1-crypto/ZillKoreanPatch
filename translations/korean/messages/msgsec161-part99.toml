@@ -4,6 +4,10 @@
 japanese = "話してみて<end>"
 korean = "말해 봐<end>"
 
+["1610003"]
+japanese = "今忙しいんで<end>"
+korean = "지금 바빠서<end>"
+
 ["1610006"]
 japanese = "任せて<end>"
 korean = "맡겨<end>"
@@ -28,9 +32,29 @@ korean = "맡겨<end>"
 japanese = "自分でやれ<end>"
 korean = "네가 직접 해<end>"
 
+["1610027"]
+japanese = "何があった？<end>"
+korean = "무슨 일이 있었어?<end>"
+
+["1610028"]
+japanese = "知ったことか<end>"
+korean = "알 게 뭐야<end>"
+
+["1610031"]
+japanese = "仕方ないなあ<end>"
+korean = "어쩔 수 없네<end>"
+
+["1610032"]
+japanese = "情けないなあ<end>"
+korean = "한심하네<end>"
+
 ["1610038"]
 japanese = "失礼。<end>"
 korean = "실례.<end>"
+
+["1610040"]
+japanese = "どんな仕事？<end>"
+korean = "무슨 일인데?<end>"
 
 ["1610041"]
 japanese = "今はいい<end>"
@@ -47,6 +71,10 @@ korean = "그만둔다<end>"
 ["1610053"]
 japanese = "話を聞こう<end>"
 korean = "이야기를 들어 보자<end>"
+
+["1610054"]
+japanese = "相手にしない<end>"
+korean = "상대하지 않는다<end>"
 
 ["1610057"]
 japanese = "わかった<end>"
@@ -76,6 +104,10 @@ korean = "시끄러워<end>"
 japanese = "任せとけ<end>"
 korean = "맡겨 둬<end>"
 
+["1610084"]
+japanese = "そんなのウソ<end>"
+korean = "그런 건 거짓말이야<end>"
+
 ["1610091"]
 japanese = "任せて<end>"
 korean = "맡겨<end>"
@@ -91,6 +123,14 @@ korean = "맡겨<end>"
 ["1610099"]
 japanese = "自分でやれ<end>"
 korean = "네가 직접 해<end>"
+
+["1610104"]
+japanese = "仕方ないなあ<end>"
+korean = "어쩔 수 없네<end>"
+
+["1610105"]
+japanese = "情けないなあ<end>"
+korean = "한심하네<end>"
 
 ["1610110"]
 japanese = "退治に行く<end>"
@@ -120,6 +160,10 @@ korean = "그만둔다<end>"
 japanese = "任せとけ<end>"
 korean = "맡겨 둬<end>"
 
+["1610130"]
+japanese = "そんなのウソ<end>"
+korean = "그런 건 거짓말이야<end>"
+
 ["1610160"]
 japanese = "そっか…。<end>"
 korean = "그렇구나….<end>"
@@ -147,3 +191,7 @@ korean = "…젠장!<end>"
 ["1610222"]
 japanese = "待て！<end>"
 korean = "기다려!<end>"
+
+["1610224"]
+japanese = "貴様アアア！<end>"
+korean = "네놈이이이!<end>"
