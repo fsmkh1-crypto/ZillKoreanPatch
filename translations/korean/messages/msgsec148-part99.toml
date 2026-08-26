@@ -144,6 +144,10 @@ korean = "네모에 대해서<end>"
 japanese = "アーギルシャイアについて<end>"
 korean = "아길샤이어에 대해서<end>"
 
+["1480081"]
+japanese = "忘れないように<line-break>覚えておかなくちゃ。<line-break>　<end>"
+korean = "잊지 않도록 기억해 둬야겠어.<end>"
+
 ["1480083"]
 japanese = "あ、<value:$28>。<line-break>もう、行っちゃうの？<end>"
 korean = "아, <value:$28>. 벌써 가는 거야?<end>"
