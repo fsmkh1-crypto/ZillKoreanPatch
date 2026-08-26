@@ -204,6 +204,10 @@ korean = "그렇구나….<end>"
 japanese = "…待て。<line-break>貴様、名を名乗れ。<end>"
 korean = "…기다려. 네놈, 이름을 대라.<end>"
 
+["1610168"]
+japanese = "サイフォス？<line-break>それが本当に貴様の名なのか？<end>"
+korean = "사이포스? 그게 정말 네 이름이냐?<end>"
+
 ["1610169"]
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
@@ -227,6 +231,10 @@ korean = "…그럼.<end>"
 ["1610176"]
 japanese = "いつもながら見事な手並みです。<line-break><value:$28>さん。<line-break>これも普段の鍛錬の賜物ですか？<end>"
 korean = "언제 봐도 훌륭한 솜씨군요, <value:$28>님. 이것도 평소 단련의 성과인가요?<end>"
+
+["1610179"]
+japanese = "…確かめたかっただけだ。<line-break>こんなふうにな。<end>"
+korean = "…확인하고 싶었을 뿐이다. 이렇게 말이지.<end>"
 
 ["1610181"]
 japanese = "俺の月光に反応する剣…　　　　<line-break>それはひとつしかない。<line-break>　<line-break>そして、その剣を持つ男もな…。<end>"
@@ -271,6 +279,10 @@ korean = "지키고 싶은 거지?<end>"
 ["1610206"]
 japanese = "…なんだ、小娘？<end>"
 korean = "…뭐냐, 꼬마 아가씨?<end>"
+
+["1610207"]
+japanese = "なんでもないよ。<line-break>ただ覚悟が必要ってこと。<end>"
+korean = "아무것도 아니야. 그냥 각오가 필요하다는 뜻이야.<end>"
 
 ["1610209"]
 japanese = "なんだよ！<line-break>キミ、何様のつもり！？<end>"
