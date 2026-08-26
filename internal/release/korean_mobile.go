@@ -11,17 +11,24 @@ import (
 	"github.com/HK47196/zill/internal/koreanslots"
 )
 
-// BuildKoreanAlphaISOOnly builds only the development Korean ISO. On mobile
-// alpha builds, untranslated Japanese records are replaced in memory with the
-// same small ASCII placeholder used by slot planning. This keeps planner and
-// compiler key usage identical while leaving the production corpus untouched.
-func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string, plan koreanslots.Plan) (err error) {
+// KoreanAlphaPlanBuilder receives the exact retail-bound source and Korean
+// project that the ISO compiler will use. The callback must not mutate either
+// project. Keeping plan generation inside this bound-source lifetime prevents
+// planner/compiler drift.
+type KoreanAlphaPlanBuilder func(source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error)
+
+// BuildKoreanAlphaISOOnly builds only the development Korean ISO. Retail message
+// banks are authenticated and bound before either planning or placeholder
+// projection. The same bound source instance is then used by the planner and
+// compiler, matching the validated ordering of the normal release builder.
+func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string, planBuilder KoreanAlphaPlanBuilder) (err error) {
 	root, err = resolveExistingPath(root, "project root")
 	if err != nil { return err }
 	gameDir, err = resolveExistingPath(gameDir, "source PSP_GAME")
 	if err != nil { return err }
 	isoPath, err = resolveExistingPath(isoPath, "source ISO")
 	if err != nil { return err }
+	if planBuilder == nil { return fmt.Errorf("Korean alpha build: nil plan builder") }
 
 	outputPath, err = filepath.Abs(outputPath)
 	if err != nil { return fmt.Errorf("resolve Korean alpha output: %w", err) }
@@ -51,8 +58,12 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 	if err := corpus.BindBanks(source, banks); err != nil { return err }
 
-	// Placeholder projection needs the authenticated retail token streams, so it
-	// must be built only after BindBanks has populated source.Record.Tokens.
+	plan, coverage, total, err := planBuilder(source, korean)
+	if err != nil { return err }
+	fmt.Printf("Korean coverage: %d/%d records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
+
+	// Placeholder projection uses the same authenticated retail token streams
+	// already consumed by the planner above.
 	alphaProject, placeholderCount, err := BuildKoreanAlphaPlaceholderProject(source, korean)
 	if err != nil { return err }
 	fmt.Printf("Korean alpha compiler placeholders: %d\n", placeholderCount)
