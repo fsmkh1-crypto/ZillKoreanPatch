@@ -4,6 +4,10 @@
 japanese = "イベントセレクト用開始<end>"
 korean = "이벤트 선택용 시작<end>"
 
+["1970001"]
+japanese = "ワールドマップへ行けない<end>"
+korean = "월드맵으로 갈 수 없다<end>"
+
 ["1970002"]
 japanese = "闘技場処理中<end>"
 korean = "투기장 처리 중<end>"
@@ -19,6 +23,10 @@ korean = "아이린 복귀 발생<end>"
 ["1970005"]
 japanese = "Ｅｖザギヴ＃１　進行中<end>"
 korean = "Ev 자기브 #1 진행 중<end>"
+
+["1970006"]
+japanese = "アカデミー復帰相談　発生<end>"
+korean = "아카데미 복귀 상담 발생<end>"
 
 ["1970007"]
 japanese = "遺跡　出現<end>"
@@ -3719,6 +3727,10 @@ korean = "#104 노엘 재개 발생<end>"
 ["1971507"]
 japanese = "#105　エストの手紙発生<end>"
 korean = "#105 에스트의 편지 발생<end>"
+
+["1971509"]
+japanese = "#107　レイヴンの過去発生<end>"
+korean = "#107 레이븐의 과거 발생<end>"
 
 ["1971512"]
 japanese = "発生<end>"

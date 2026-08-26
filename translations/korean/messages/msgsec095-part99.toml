@@ -16,6 +16,10 @@ korean = "말을 걸지 않는다<end>"
 japanese = "はぁ～？<end>"
 korean = "하아~?<end>"
 
+["950019"]
+japanese = "世界の何がつまらないの？<end>"
+korean = "세상의 뭐가 재미없는 거야?<end>"
+
 ["950024"]
 japanese = "禁断の聖杯…？<end>"
 korean = "금단의 성배…?<end>"
@@ -47,6 +51,10 @@ korean = "사룡 샨마…!<end>"
 ["950057"]
 japanese = "<if><value:$01><equal>4きゃん！<line-break>もしかして…！<end>しっ…！<end>"
 korean = "<if><value:$01><equal>4꺅! 혹시…!<end>쉿…!<end>"
+
+["950066"]
+japanese = "じゃ、邪竜シャンマぁ！？<end>"
+korean = "사, 사룡 샨마아!?<end>"
 
 ["950067"]
 japanese = "（やった…！）<end>"

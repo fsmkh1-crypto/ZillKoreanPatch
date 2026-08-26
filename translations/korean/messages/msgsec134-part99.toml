@@ -352,6 +352,14 @@ korean = "아… 아아….<end>"
 japanese = "剣が…天動地鳴が抜ける！<end>"
 korean = "검이… 천동지명을 뽑을 수 있어!<end>"
 
+["1340342"]
+japanese = "勇者だ！　勇者の再臨だ！<end>"
+korean = "용사다! 용사의 재림이다!<end>"
+
+["1340346"]
+japanese = "勇者だ！　勇者の再臨だ！<end>"
+korean = "용사다! 용사의 재림이다!<end>"
+
 ["1340354"]
 japanese = "しかたがない…<end>"
 korean = "어쩔 수 없군…<end>"
@@ -508,6 +516,10 @@ korean = "으으음…<end>"
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
 
+["1340599"]
+japanese = "今はそれどころじゃない！<end>"
+korean = "지금은 그럴 때가 아니야!<end>"
+
 ["1340600"]
 japanese = "フェルムは渡さない！<end>"
 korean = "펠름은 넘겨주지 않아!<end>"
@@ -543,6 +555,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1340643"]
 japanese = "謁見の間に行かなくては<end>"
 korean = "알현실로 가야 해.<end>"
+
+["1340644"]
+japanese = "ゼネテス救出をあきらめる<end>"
+korean = "제네테스 구출을 포기한다<end>"
 
 ["1340645"]
 japanese = "追加メッセージここから<end>"
@@ -619,3 +635,7 @@ korean = "자, 가자, 나지.<end>"
 ["1340696"]
 japanese = "<value:$28>さん…。<end>"
 korean = "<value:$28> 씨….<end>"
+
+["1340698"]
+japanese = "ジラーク用メッセージ終端<end>"
+korean = "질라크용 메시지 끝<end>"

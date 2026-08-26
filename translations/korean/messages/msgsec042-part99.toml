@@ -28,6 +28,10 @@ korean = "…흥, 뻔뻔하게.<end>"
 japanese = "ノヴィン閣下。何か？<end>"
 korean = "노빈 각하. 무슨 일이십니까?<end>"
 
+["420059"]
+japanese = "それでは失礼いたします。<end>"
+korean = "그럼 실례하겠습니다.<end>"
+
 ["420081"]
 japanese = "姉ちゃん、それじゃ！<end>"
 korean = "누나, 그럼!<end>"
@@ -88,9 +92,17 @@ korean = "여어, 와줬구나.<end>"
 japanese = "どう思う、<line-break><value:$28>？<end>"
 korean = "어떻게 생각해, <value:$28>?<end>"
 
+["420150"]
+japanese = "くだらない、ただの噂話ね<end>"
+korean = "시시해, 그냥 소문일 뿐이야<end>"
+
 ["420151"]
 japanese = "おもしろそうね<end>"
 korean = "재미있겠네<end>"
+
+["420159"]
+japanese = "なんだか、変な噂だよね。<end>"
+korean = "왠지 이상한 소문이네.<end>"
 
 ["420162"]
 japanese = "きっとだよ！<line-break><value:$28>。<end>"

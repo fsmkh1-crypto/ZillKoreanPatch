@@ -152,6 +152,10 @@ korean = "<value:$28>, 오면 안 돼!<end>"
 japanese = "わかんねぇのか？　　<end>"
 korean = "모르겠냐?<end>"
 
+["370206"]
+japanese = "あわてるな、殺しはせぬ。<end>"
+korean = "당황하지 마라, 죽이진 않는다.<end>"
+
 ["370207"]
 japanese = "今は、な。<end>"
 korean = "지금은 말이지.<end>"
@@ -211,6 +215,10 @@ korean = "싫은데.<end>"
 ["370257"]
 japanese = "いやだって言ったんだ。<end>"
 korean = "싫다고 했어.<end>"
+
+["370260"]
+japanese = "うざいんだよ。オバサン。<end>"
+korean = "짜증 나거든. 아줌마.<end>"
 
 ["370273"]
 japanese = "元気で、な…。<end>"
@@ -295,3 +303,7 @@ korean = "예비 메시지 19<end>"
 ["370306"]
 japanese = "予備メッセージ２０<end>"
 korean = "예비 메시지 20<end>"
+
+["370307"]
+japanese = "旅立ち１１メッセージ終端<end>"
+korean = "여행 출발 11 메시지 끝<end>"

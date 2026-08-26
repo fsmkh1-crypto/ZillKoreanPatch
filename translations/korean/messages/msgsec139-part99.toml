@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1390000"]
+japanese = "オッシ、ボリューム６開始<end>"
+korean = "오시 볼륨 6 시작<end>"
+
 ["1390014"]
 japanese = "これにより、王妃エリスは殺害され、<line-break> <line-break> <line-break> <end>"
 korean = "이로 인해 왕비 엘리스는 살해되고,<end>"
@@ -1943,3 +1947,7 @@ korean = "추가 메시지 여기부터<end>"
 ["1390599"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1390600"]
+japanese = "オッシ、ボリューム６終端<end>"
+korean = "오시 볼륨 6 끝<end>"

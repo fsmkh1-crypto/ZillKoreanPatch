@@ -32,6 +32,10 @@ korean = "뭐라고요?<end>"
 japanese = "例えば、恋の病とかな。<end>"
 korean = "예를 들면, 사랑병이라든가.<end>"
 
+["660037"]
+japanese = "戦場は地獄になる。　　　<end>"
+korean = "전장은 지옥이 된다.<end>"
+
 ["660041"]
 japanese = "弔い酒？<end>"
 korean = "추모주?<end>"
@@ -83,6 +87,14 @@ korean = "…이런 거짓 웃음을?<end>"
 ["660117"]
 japanese = "それは立派な才能だぜ。<end>"
 korean = "그건 훌륭한 재능이야.<end>"
+
+["660118"]
+japanese = "ちゃかさないでください。<end>"
+korean = "놀리지 마세요.<end>"
+
+["660141"]
+japanese = "え…、もうお帰りですの？<end>"
+korean = "어머…, 벌써 돌아가시나요?<end>"
 
 ["660172"]
 japanese = "もう！<end>"

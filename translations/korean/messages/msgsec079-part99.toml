@@ -8,6 +8,14 @@ korean = "유리스 메시지 VOL1 시작<end>"
 japanese = "なんともはや…。<end>"
 korean = "이거 참….<end>"
 
+["790015"]
+japanese = "いいですね、自由って…。<end>"
+korean = "좋네요, 자유라는 건….<end>"
+
+["790021"]
+japanese = "きゃっ、誰かと思えば…。<end>"
+korean = "꺅, 누군가 했더니….<end>"
+
 ["790031"]
 japanese = "助けてやる<end>"
 korean = "도와준다<end>"
@@ -48,6 +56,10 @@ korean = "3000기어를 낸다<end>"
 japanese = "今はムリ<end>"
 korean = "지금은 무리야<end>"
 
+["790076"]
+japanese = "やれやれ、また始まった。<end>"
+korean = "이런, 또 시작했군.<end>"
+
 ["790087"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
@@ -59,6 +71,10 @@ korean = "후후후후….<end>"
 ["790113"]
 japanese = "確かに…。<end>"
 korean = "확실히….<end>"
+
+["790114"]
+japanese = "ユーリスの復学を許そう！<end>"
+korean = "유리스의 복학을 허가한다!<end>"
 
 ["790121"]
 japanese = "どういうことです？<end>"

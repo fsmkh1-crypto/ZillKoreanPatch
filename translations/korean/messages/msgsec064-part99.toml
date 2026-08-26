@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["640004"]
+japanese = "大変、タルテュバ様だわ！<end>"
+korean = "큰일이야, 타르튜바 님이야!<end>"
+
 ["640014"]
 japanese = "まぁ、何かしら？<end>"
 korean = "어머, 무슨 일이죠?<end>"
@@ -115,6 +119,10 @@ korean = "후훗. 그래.<end>"
 ["640234"]
 japanese = "なんで知ってるの？<end>"
 korean = "어떻게 알고 있어?<end>"
+
+["640235"]
+japanese = "実はね、タルテュバ様は…<end>"
+korean = "사실은 말이야, 타르튜바 님은…<end>"
 
 ["640239"]
 japanese = "えっ、ええ…<end>"

@@ -8,6 +8,10 @@ korean = "에스텔 메시지 VOL4 시작<end>"
 japanese = "<value:$28>…さんだな？<end>"
 korean = "<value:$28>… 씨 맞지?<end>"
 
+["890019"]
+japanese = "…竜骨の砂漠の真ん中…。<end>"
+korean = "…용골 사막 한가운데….<end>"
+
 ["890040"]
 japanese = "パーティーに加える<end>"
 korean = "파티에 합류시킨다<end>"
@@ -76,6 +80,10 @@ korean = "상관없어<end>"
 japanese = "は…ああ…あ、あぁあ。<end>"
 korean = "하… 아아… 아, 아아아.<end>"
 
+["890139"]
+japanese = "私のこと、知っているの？<end>"
+korean = "나를 알고 있어?<end>"
+
 ["890140"]
 japanese = "はい<end>"
 korean = "네<end>"
@@ -83,6 +91,10 @@ korean = "네<end>"
 ["890141"]
 japanese = "いいえ<end>"
 korean = "아니요<end>"
+
+["890154"]
+japanese = "はっ、承知しております。<end>"
+korean = "예, 알고 있습니다.<end>"
 
 ["890157"]
 japanese = "あ…<end>"
@@ -184,6 +196,10 @@ korean = "…지금이다! 해라!<end>"
 japanese = "ぐあっ！<end>"
 korean = "크악!<end>"
 
+["890292"]
+japanese = "…やはり、こうなる、か。<end>"
+korean = "…역시 이렇게 되는 건가.<end>"
+
 ["890298"]
 japanese = "くっ、玄武将軍…。<end>"
 korean = "큭, 현무 장군….<end>"
@@ -223,6 +239,10 @@ korean = "…지옥 같은 고통이야<end>"
 ["890349"]
 japanese = "あ…、<value:$28>。<end>"
 korean = "아…, <value:$28>.<end>"
+
+["890353"]
+japanese = "私のことが心配だったの？<end>"
+korean = "내가 걱정됐던 거야?<end>"
 
 ["890355"]
 japanese = "ううっ…！<end>"
@@ -283,6 +303,14 @@ korean = "이리 와, <value:$28>.<end>"
 ["890456"]
 japanese = "<if><value:$29><equal>%0あの少年か…。<end>あの少女か…。<end>"
 korean = "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<end>"
+
+["890468"]
+japanese = "さぁ、それはどうかしら？<end>"
+korean = "글쎄, 그건 어떨까?<end>"
+
+["890475"]
+japanese = "なぜ…私を呼び覚ました。<end>"
+korean = "왜… 나를 깨운 거지.<end>"
 
 ["890478"]
 japanese = "おもしろいことさ。<end>"

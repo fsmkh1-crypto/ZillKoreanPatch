@@ -116,9 +116,17 @@ korean = "괜찮아, <value:$28>?<end>"
 japanese = "セラ？<end>"
 korean = "세라?<end>"
 
+["1370204"]
+japanese = "（…いや、違う。女だ。）<end>"
+korean = "(…아니, 달라. 여자다.)<end>"
+
 ["1370207"]
 japanese = "セラ？<end>"
 korean = "세라?<end>"
+
+["1370209"]
+japanese = "（…いや、違う。女だ。）<end>"
+korean = "(…아니, 달라. 여자다.)<end>"
 
 ["1370212"]
 japanese = "……よ。<end>"
@@ -155,6 +163,10 @@ korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
 ["1370227"]
 japanese = "やれやれ。<line-break><value:$28>、<line-break>人気者はつらいな。<end>"
 korean = "이런. <value:$28>, 인기인은 힘들군.<end>"
+
+["1370228"]
+japanese = "１０００ギア手に入れた。<end>"
+korean = "1000기아를 손에 넣었다.<end>"
 
 ["1370229"]
 japanese = "追加メッセージここから<end>"
@@ -399,6 +411,10 @@ korean = "<value:$28>인가.<end>"
 ["1370448"]
 japanese = "お、根本的な質問だな。<end>"
 korean = "오, 근본적인 질문이군.<end>"
+
+["1370449"]
+japanese = "張り紙がしてありますね。<end>"
+korean = "벽보가 붙어 있네요.<end>"
 
 ["1370461"]
 japanese = "だ、だって…。<end>"

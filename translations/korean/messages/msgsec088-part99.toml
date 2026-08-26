@@ -60,6 +60,10 @@ korean = "내버려 둘 수 없었다고…. <value:$28>….<end>"
 japanese = "じゃ、急ぐから。<end>"
 korean = "그럼, 급해서 이만.<end>"
 
+["880062"]
+japanese = "やぁ、…ひさしぶりだね。<end>"
+korean = "여어, …오랜만이네.<end>"
+
 ["880078"]
 japanese = "ホントごめんなさい！<end>"
 korean = "정말 미안해요!<end>"
@@ -124,6 +128,10 @@ korean = "ON인 채로 둔다<end>"
 japanese = "ＯＦＦのままでよい<end>"
 korean = "OFF인 채로 둔다<end>"
 
+["880112"]
+japanese = "未使用：チャカ、いくぜ？<end>"
+korean = "미사용: 차카, 가자?<end>"
+
 ["880121"]
 japanese = "未使用：意地悪っ！<end>"
 korean = "미사용: 심술쟁이!<end>"
@@ -159,6 +167,10 @@ korean = "네<end>"
 ["880168"]
 japanese = "いいえ<end>"
 korean = "아니요<end>"
+
+["880169"]
+japanese = "じゃ、ボク待ってるから。<end>"
+korean = "그럼 난 기다리고 있을게.<end>"
 
 ["880184"]
 japanese = "こんにちは。<end>"

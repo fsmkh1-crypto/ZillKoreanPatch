@@ -36,6 +36,10 @@ korean = "그럼, 이만 실례하겠습니다.<end>"
 japanese = "それでは、失礼します。<end>"
 korean = "그럼, 이만 실례하겠습니다.<end>"
 
+["760042"]
+japanese = "依頼主が悪い奴だったから<end>"
+korean = "의뢰인이 나쁜 녀석이었으니까<end>"
+
 ["760043"]
 japanese = "…返す言葉もない<end>"
 korean = "…할 말이 없군<end>"
@@ -92,6 +96,14 @@ korean = "빈칸<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["760062"]
+japanese = "３０００ギア手に入れた。<end>"
+korean = "3000기아를 손에 넣었다.<end>"
+
+["760066"]
+japanese = "３０００ギア手に入れた。<end>"
+korean = "3000기아를 손에 넣었다.<end>"
+
 ["760067"]
 japanese = "未：無礼な！<end>"
 korean = "미사용: 무례하군!<end>"
@@ -108,6 +120,10 @@ korean = "미사용: 아트레이아… 공주님.<end>"
 japanese = "未：放っておいて！！<end>"
 korean = "미사용: 내버려 둬!!<end>"
 
+["760075"]
+japanese = "未：よう、久しぶりだな。<end>"
+korean = "미번역: 여어, 오랜만이군.<end>"
+
 ["760077"]
 japanese = "未：歌なら歌えます！<end>"
 korean = "미사용: 노래라면 부를 수 있어요!<end>"
@@ -115,6 +131,10 @@ korean = "미사용: 노래라면 부를 수 있어요!<end>"
 ["760083"]
 japanese = "未：…ん？なんだい。<end>"
 korean = "미사용: …응? 뭐야.<end>"
+
+["760087"]
+japanese = "未：（これは…人形だ。）<end>"
+korean = "미번역: (이건… 인형이다.)<end>"
 
 ["760089"]
 japanese = "未：うふ…ふふ…ふ…。<end>"

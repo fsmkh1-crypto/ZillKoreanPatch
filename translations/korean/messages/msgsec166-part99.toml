@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1660008"]
+japanese = "呪い以外の異常状態を回復<end>"
+korean = "저주 이외의 이상 상태를 회복<end>"
+
 ["1660009"]
 japanese = "呪い状態を回復<end>"
 korean = "저주 상태 회복<end>"
@@ -136,6 +140,10 @@ korean = "갑옷에 바람 속성 부여<end>"
 japanese = "商品などを売った金<end>"
 korean = "상품 등을 팔아 번 돈<end>"
 
+["1660116"]
+japanese = "熱冷ましの効能があるコケ<end>"
+korean = "해열 효능이 있는 이끼<end>"
+
 ["1660120"]
 japanese = "蒼い花が美しい花<end>"
 korean = "푸른 꽃이 아름다운 꽃<end>"
@@ -143,6 +151,10 @@ korean = "푸른 꽃이 아름다운 꽃<end>"
 ["1660121"]
 japanese = "火山に生える多年草の種<end>"
 korean = "화산에 자라는 다년초의 씨앗<end>"
+
+["1660123"]
+japanese = "炎竜山にある炎属性の岩石<end>"
+korean = "염룡산에 있는 화속성 암석<end>"
 
 ["1660126"]
 japanese = "闇のように真っ黒な花<end>"
@@ -156,6 +168,10 @@ korean = "다른 사람에게 보내는 통신문<end>"
 japanese = "首領から部下への指令書<end>"
 korean = "두목이 부하에게 내린 지령서<end>"
 
+["1660132"]
+japanese = "名画伯ムッチーの描いた絵<end>"
+korean = "명화백 뭇치가 그린 그림<end>"
+
 ["1660133"]
 japanese = "神の教えを書いた本<end>"
 korean = "신의 가르침이 적힌 책<end>"
@@ -164,6 +180,10 @@ korean = "신의 가르침이 적힌 책<end>"
 japanese = "神々の姿を模した彫像<end>"
 korean = "신들의 모습을 본뜬 조각상<end>"
 
+["1660137"]
+japanese = "火の精霊神ウルカーンの像<end>"
+korean = "불의 정령신 울칸의 석상<end>"
+
 ["1660139"]
 japanese = "市長の書いた嘆願書<end>"
 korean = "시장이 쓴 탄원서<end>"
@@ -171,6 +191,10 @@ korean = "시장이 쓴 탄원서<end>"
 ["1660141"]
 japanese = "お祝いに送る品<end>"
 korean = "축하 선물로 보낼 물건<end>"
+
+["1660146"]
+japanese = "今度行われる集会の案内状<end>"
+korean = "곧 열릴 집회의 안내장<end>"
 
 ["1660148"]
 japanese = "村の唯一の特産物<end>"
@@ -203,6 +227,10 @@ korean = "도적 요새의 문을 여는 열쇠<end>"
 ["1660163"]
 japanese = "タダでもらった薬草<end>"
 korean = "공짜로 받은 약초<end>"
+
+["1660164"]
+japanese = "何が書かれているかは秘密<end>"
+korean = "무엇이 적혀 있는지는 비밀<end>"
 
 ["1660165"]
 japanese = "ラスラルの花<end>"

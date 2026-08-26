@@ -104,6 +104,10 @@ korean = "내가… 매력적이라고?<end>"
 japanese = "はい。<end>"
 korean = "네.<end>"
 
+["1410107"]
+japanese = "（魅力的…？　私が…？）<end>"
+korean = "(매력적…? 내가…?)<end>"
+
 ["1410119"]
 japanese = "…よかった。<end>"
 korean = "…다행이다.<end>"
@@ -176,6 +180,10 @@ korean = "가버렸군.<end>"
 japanese = "わたくしも行きます。<end>"
 korean = "저도 가겠습니다.<end>"
 
+["1410247"]
+japanese = "…一緒に…来てくれない？<end>"
+korean = "…같이… 와 주지 않을래?<end>"
+
 ["1410259"]
 japanese = "あっ…ごめんなさい…。<end>"
 korean = "앗… 미안해요….<end>"
@@ -207,6 +215,10 @@ korean = "티아나 님….<end>"
 ["1410288"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1410289"]
+japanese = "ふう、…雌狐の子は雌狐。<end>"
+korean = "후우, …암여우의 자식은 암여우지.<end>"
 
 ["1410290"]
 japanese = "ティアナ様。<end>"
@@ -259,6 +271,14 @@ korean = "어?<end>"
 ["1410345"]
 japanese = "えっ？<end>"
 korean = "어?<end>"
+
+["1410346"]
+japanese = "ありがとうございました！<end>"
+korean = "감사합니다!<end>"
+
+["1410347"]
+japanese = "ありがとうございました！<end>"
+korean = "감사합니다!<end>"
 
 ["1410348"]
 japanese = "待って！　お兄ちゃん。<end>"
@@ -432,6 +452,10 @@ korean = "꺅…!<end>"
 japanese = "に、逃げろ！<end>"
 korean = "도, 도망쳐!<end>"
 
+["1410553"]
+japanese = "♪熱く燃える　正しい魂～<end>"
+korean = "♪뜨겁게 타오르는 올바른 영혼~<end>"
+
 ["1410556"]
 japanese = "ねぇ。<value:$28>。<end>"
 korean = "있잖아. <value:$28>.<end>"
@@ -443,6 +467,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410560"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410576"]
+japanese = "手伝うとは申しましても…<end>"
+korean = "돕는다고 해도…<end>"
 
 ["1410579"]
 japanese = "ああ…。<end>"

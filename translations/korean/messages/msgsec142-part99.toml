@@ -48,6 +48,10 @@ korean = "뒤돌아 주세요.<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1420095"]
+japanese = "…無理が、ないですかね？<end>"
+korean = "…무리하는 건, 아닌가요?<end>"
+
 ["1420098"]
 japanese = "親父、酒はまだか。<end>"
 korean = "아저씨, 술은 아직이야?<end>"
@@ -144,6 +148,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "…おつまみもな。<end>"
 korean = "…안주도 말이야.<end>"
 
+["1420258"]
+japanese = "針をなくした時計、か…。<end>"
+korean = "바늘을 잃은 시계인가….<end>"
+
 ["1420266"]
 japanese = "微妙に、時差がある…。<end>"
 korean = "미묘하게 시차가 있어….<end>"
@@ -188,6 +196,10 @@ korean = "불가능하겠지.<end>"
 japanese = "セラ…。<end>"
 korean = "세라….<end>"
 
+["1420305"]
+japanese = "そりゃそうだけどよお…。<end>"
+korean = "그야 그렇긴 하지만….<end>"
+
 ["1420310"]
 japanese = "うん。<line-break><value:$28>、<line-break>近いうち、遊びにきてよ。<end>"
 korean = "응. <value:$28>, 조만간 놀러 와.<end>"
@@ -227,6 +239,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420329"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1420330"]
+japanese = "こ、ここで待っていれば…<end>"
+korean = "여, 여기서 기다리고 있으면…<end>"
 
 ["1420337"]
 japanese = "しっ、誰か来そうよ！<end>"
@@ -311,6 +327,10 @@ korean = "영주님!<end>"
 ["1420404"]
 japanese = "聞いたか！<line-break>…いくぞ！<end>"
 korean = "들었지! …간다!<end>"
+
+["1420405"]
+japanese = "　　　　…そうはさせん。<end>"
+korean = "…그렇게는 못 한다.<end>"
 
 ["1420406"]
 japanese = "ぐわぁ！<end>"
@@ -512,6 +532,14 @@ korean = "아직 할 일이 있어.<end>"
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
 
+["1420534"]
+japanese = "では、先に行ってますね。<end>"
+korean = "그럼 먼저 가 있을게요.<end>"
+
+["1420547"]
+japanese = "♪熱く燃える　正しい魂～<end>"
+korean = "♪뜨겁게 타오르는 올바른 영혼~<end>"
+
 ["1420550"]
 japanese = "ねぇ。<value:$28>。<end>"
 korean = "있잖아. <value:$28>.<end>"
@@ -551,6 +579,10 @@ korean = "무슨 용건이냐… 세바스찬.<end>"
 ["1420589"]
 japanese = "行くのか…<line-break><value:$28><end>"
 korean = "가는 건가… <value:$28><end>"
+
+["1420604"]
+japanese = "こ、ここで待っていれば…<end>"
+korean = "여, 여기서 기다리고 있으면…<end>"
 
 ["1420611"]
 japanese = "しっ、誰か来そうよ！<end>"
@@ -599,6 +631,10 @@ korean = "불가능하겠지.<end>"
 ["1420653"]
 japanese = "セラ…。<end>"
 korean = "세라….<end>"
+
+["1420655"]
+japanese = "そりゃそうだけどよお…。<end>"
+korean = "그야 그렇긴 하지만….<end>"
 
 ["1420660"]
 japanese = "うん。<line-break><value:$28>、<line-break>近いうち、遊びにきてよ。<end>"

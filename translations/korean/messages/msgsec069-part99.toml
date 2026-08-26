@@ -20,6 +20,10 @@ korean = "…큭. …곧 간다.<end>"
 japanese = "…聖杯？<end>"
 korean = "…성배?<end>"
 
+["690037"]
+japanese = "…で、聖杯はどこにある。<end>"
+korean = "…그래서, 성배는 어디 있지.<end>"
+
 ["690058"]
 japanese = "無限のソウルとは<end>"
 korean = "무한의 소울이란<end>"
@@ -48,6 +52,10 @@ korean = "질문은 없다<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["690101"]
+japanese = "親分、アレって何でゴブ？<end>"
+korean = "두목, 저게 뭐야 고브?<end>"
+
 ["690102"]
 japanese = "…アレは…アレ…ゴブ。<end>"
 korean = "…그건… 그거… 고브.<end>"
@@ -67,6 +75,10 @@ korean = "네놈, 이름을 밝혀라.<end>"
 ["690139"]
 japanese = "…くそっ！<end>"
 korean = "…젠장!<end>"
+
+["690144"]
+japanese = "ずいぶんな言いようだな。<end>"
+korean = "말이 너무 심하군.<end>"
 
 ["690146"]
 japanese = "…ふん。<end>"
@@ -99,6 +111,10 @@ korean = "기다려!<end>"
 ["690172"]
 japanese = "貴様アアア！<end>"
 korean = "네놈이이이!<end>"
+
+["690173"]
+japanese = "…お前たちには関係ない。<end>"
+korean = "…너희와는 상관없다.<end>"
 
 ["690185"]
 japanese = "フェティをなだめる<end>"
@@ -147,6 +163,10 @@ korean = "…그럼.<end>"
 ["690264"]
 japanese = "…寄るな！<end>"
 korean = "…다가오지 마!<end>"
+
+["690270"]
+japanese = "聖杯って何のことだろう？<end>"
+korean = "성배가 대체 뭘까?<end>"
 
 ["690277"]
 japanese = "(男の屍だ…)<line-break>　<line-break>　<end>"

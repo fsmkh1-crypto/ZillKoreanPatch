@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1380000"]
+japanese = "オッシ、ボリューム５開始<end>"
+korean = "오시 볼륨 5 시작<end>"
+
 ["1380015"]
 japanese = "本当に感謝しとる。<end>"
 korean = "정말 감사하고 있네.<end>"
@@ -44,9 +48,17 @@ korean = "보고 싶지 않아<end>"
 japanese = "…フフ、フフフフ。<end>"
 korean = "…후후, 후후후후.<end>"
 
+["1380074"]
+japanese = "さらばじゃ。また会おう。<end>"
+korean = "잘 가게. 또 만나세.<end>"
+
 ["1380075"]
 japanese = "…フフ、フフフフ。<end>"
 korean = "…후후, 후후후후.<end>"
+
+["1380082"]
+japanese = "さらばじゃ。また会おう。<end>"
+korean = "잘 가게. 또 만나세.<end>"
 
 ["1380083"]
 japanese = "んっ…。<end>"
@@ -204,6 +216,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1380298"]
+japanese = "張り紙がしてありますね。<end>"
+korean = "벽보가 붙어 있네요.<end>"
+
 ["1380301"]
 japanese = "…待って、<value:$28>。<end>"
 korean = "…기다려, <value:$28>.<end>"
@@ -320,6 +336,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1380346"]
+japanese = "そうだ！　クリスピー…。<end>"
+korean = "그래! 크리스피….<end>"
+
 ["1380347"]
 japanese = "わぁぁぁ！<end>"
 korean = "으아아아!<end>"
@@ -332,6 +352,10 @@ korean = "그래서… 뭐?<end>"
 japanese = "こ、ここが猫屋敷？<end>"
 korean = "여, 여기가 고양이 저택?<end>"
 
+["1380354"]
+japanese = "あ、あなたが森の賢者様？<end>"
+korean = "다, 당신이 숲의 현자님?<end>"
+
 ["1380358"]
 japanese = "えっ！　いいんですか？<end>"
 korean = "어! 정말 괜찮은 건가요?<end>"
@@ -339,6 +363,10 @@ korean = "어! 정말 괜찮은 건가요?<end>"
 ["1380364"]
 japanese = "へっ、どうだかな！<end>"
 korean = "흥, 글쎄다!<end>"
+
+["1380366"]
+japanese = "俺は猫じゃない、ネモだ。<end>"
+korean = "나는 고양이가 아니다, 네모다.<end>"
 
 ["1380373"]
 japanese = "おっと！<end>"
@@ -355,6 +383,10 @@ korean = "아길샤이어…?<end>"
 ["1380385"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
+
+["1380400"]
+japanese = "ええ。よろしく頼みます。<end>"
+korean = "예. 잘 부탁드립니다.<end>"
 
 ["1380408"]
 japanese = "す、すごいや！<end>"
@@ -607,3 +639,7 @@ korean = "추가 메시지 여기부터<end>"
 ["1380598"]
 japanese = "（束縛の腕輪が…）<end>"
 korean = "(구속의 팔찌가…)<end>"
+
+["1380618"]
+japanese = "オッシ、ボリューム５終端<end>"
+korean = "오시 볼륨 5 끝<end>"

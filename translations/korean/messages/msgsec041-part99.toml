@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["410000"]
+japanese = "ネメア・ボリューム２開始<end>"
+korean = "네메아 볼륨 2 시작<end>"
+
 ["410001"]
 japanese = "（未使用）１<end>"
 korean = "(미사용) 1<end>"
@@ -195,3 +199,7 @@ korean = "나셰스!<end>"
 ["410150"]
 japanese = "…<value:$28>か。<end>"
 korean = "…<value:$28>인가.<end>"
+
+["410163"]
+japanese = "ネメア・ボリューム２終端<end>"
+korean = "네메아 볼륨 2 끝<end>"

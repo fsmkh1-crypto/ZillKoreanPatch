@@ -32,9 +32,17 @@ korean = "조금 목이 마르네.<end>"
 japanese = "そなた、<value:$28>だな？<end>"
 korean = "그대가 <value:$28>인가?<end>"
 
+["670040"]
+japanese = "ティアナ、邪魔をしたな。<end>"
+korean = "티아나, 방해했군.<end>"
+
 ["670043"]
 japanese = "…そう。<end>"
 korean = "…그래.<end>"
+
+["670044"]
+japanese = "お母様はとてもお美しい。<end>"
+korean = "어머님은 정말 아름다우시다.<end>"
 
 ["670049"]
 japanese = "<value:$28>、どうした？<end>"
@@ -56,6 +64,10 @@ korean = "응. 어떻게 하고 싶어?<end>"
 japanese = "よ、<value:$28>、<line-break>デート？<end>"
 korean = "여어, <value:$28>, 데이트?<end>"
 
+["670058"]
+japanese = "俺はゼネテス。よろしく。<end>"
+korean = "나는 제네테스. 잘 부탁한다.<end>"
+
 ["670064"]
 japanese = "うーい。<end>"
 korean = "어이.<end>"
@@ -76,6 +88,10 @@ korean = "…자기만족이에요.<end>"
 japanese = "て、言うと？<end>"
 korean = "그 말은?<end>"
 
+["670080"]
+japanese = "ちゃかさないでください！<end>"
+korean = "놀리지 마세요!<end>"
+
 ["670083"]
 japanese = "お前さんはどう思う？<end>"
 korean = "자네는 어떻게 생각해?<end>"
@@ -83,6 +99,10 @@ korean = "자네는 어떻게 생각해?<end>"
 ["670088"]
 japanese = "んじゃな。<value:$28>。<end>"
 korean = "그럼 이만. <value:$28>.<end>"
+
+["670089"]
+japanese = "優しい歌をありがとうよ。<end>"
+korean = "다정한 노래 고맙구나.<end>"
 
 ["670090"]
 japanese = "…帰りましょう。<end>"

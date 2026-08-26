@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["650000"]
+japanese = "ティアナメッセージVOL2開始<end>"
+korean = "티아나 메시지 VOL2 시작<end>"
+
 ["650001"]
 japanese = "？？？<line-break>　<line-break>　<line-break>なんの音かしら？<end>"
 korean = "??? 무슨 소리지?<end>"
@@ -100,6 +104,10 @@ korean = "<value:$28>, 잘 왔다.<end>"
 japanese = "…それはできんな。<end>"
 korean = "…그건 할 수 없군.<end>"
 
+["650083"]
+japanese = "すみません。　　　　　　<end>"
+korean = "죄송합니다.<end>"
+
 ["650085"]
 japanese = "許してやるのか…。　　<end>"
 korean = "용서해 주는 건가….<end>"
@@ -111,3 +119,7 @@ korean = "정말, 레몬 님!<end>"
 ["650104"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
+
+["650124"]
+japanese = "ティアナメッセージVOL2終端<end>"
+korean = "티아나 메시지 VOL2 끝<end>"

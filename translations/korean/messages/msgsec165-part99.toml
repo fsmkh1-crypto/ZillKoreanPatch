@@ -132,6 +132,10 @@ korean = "적 전체에 풍속성 공격<end>"
 japanese = "味方１人にバリアをはる<end>"
 korean = "아군 1명에게 배리어를 친다<end>"
 
+["1650039"]
+japanese = "敵１体に強力な毒素で攻撃<end>"
+korean = "적 1체를 강력한 독소로 공격<end>"
+
 ["1650040"]
 japanese = "敵１体に落雷で攻撃<end>"
 korean = "적 1체를 낙뢰로 공격<end>"
@@ -144,6 +148,10 @@ korean = "적 전체를 뇌폭풍으로 공격<end>"
 japanese = "敵１体に光線で攻撃<end>"
 korean = "적 1체를 광선으로 공격<end>"
 
+["1650044"]
+japanese = "敵１体に激しい爆発で攻撃<end>"
+korean = "적 1체를 격렬한 폭발로 공격<end>"
+
 ["1650045"]
 japanese = "敵全体を大爆発で攻撃<end>"
 korean = "대폭발로 적 전체를 공격한다.<end>"
@@ -155,6 +163,14 @@ korean = "아군 1명의 HP를 회복한다.<end>"
 ["1650048"]
 japanese = "味方全員のＨＰを回復<end>"
 korean = "아군 전원의 HP를 회복한다.<end>"
+
+["1650049"]
+japanese = "味方１人のＨＰを完全回復<end>"
+korean = "아군 1명의 HP 완전 회복<end>"
+
+["1650050"]
+japanese = "味方全員のＨＰを完全回復<end>"
+korean = "아군 전원의 HP 완전 회복<end>"
 
 ["1650051"]
 japanese = "敵１体を眠り状態にする<end>"
@@ -232,6 +248,26 @@ korean = "정신과 MP에 영향을 주는 마법<end>"
 japanese = "邪悪な力による攻撃魔法<end>"
 korean = "사악한 힘을 이용한 공격 마법<end>"
 
+["1650078"]
+japanese = "１チャージで、３連続攻撃<end>"
+korean = "1차지로 3연속 공격<end>"
+
+["1650079"]
+japanese = "２チャージで、５連続攻撃<end>"
+korean = "2차지로 5연속 공격<end>"
+
+["1650080"]
+japanese = "３チャージで、７連続攻撃<end>"
+korean = "3차지로 7연속 공격<end>"
+
+["1650082"]
+japanese = "２チャージで、強力な攻撃<end>"
+korean = "2차지로 강력한 공격<end>"
+
+["1650083"]
+japanese = "３チャージで、渾身の攻撃<end>"
+korean = "3차지로 혼신의 공격<end>"
+
 ["1650087"]
 japanese = "敵１体を２連続攻撃<end>"
 korean = "적 1체를 2연속 공격<end>"
@@ -272,6 +308,14 @@ korean = "회피 시 카운터 공격<end>"
 japanese = "距離に関係なく攻撃<end>"
 korean = "거리에 상관없이 공격<end>"
 
+["1650129"]
+japanese = "盾を装備できるようになる<end>"
+korean = "방패를 장비할 수 있게 된다<end>"
+
+["1650134"]
+japanese = "敵のＨＰ／ＭＰを見抜ける<end>"
+korean = "적의 HP/MP를 간파할 수 있다<end>"
+
 ["1650136"]
 japanese = "敵のハイトを見抜ける<end>"
 korean = "적의 하이트를 간파할 수 있다.<end>"
@@ -279,3 +323,7 @@ korean = "적의 하이트를 간파할 수 있다.<end>"
 ["1650137"]
 japanese = "不意打ちを確実に回避<end>"
 korean = "기습을 확실히 회피한다.<end>"
+
+["1650142"]
+japanese = "攻撃したあと、前衛に戻る<end>"
+korean = "공격 후 전열로 돌아간다<end>"

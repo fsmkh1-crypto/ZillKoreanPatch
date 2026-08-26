@@ -16,6 +16,10 @@ korean = "흉흉하네…<end>"
 japanese = "フン、<line-break>ただの冒険者か。<end>"
 korean = "흥, 그냥 모험가인가.<end>"
 
+["430007"]
+japanese = "未使用：奴らも生かすな。<end>"
+korean = "미사용: 놈들도 살려두지 마라.<end>"
+
 ["430009"]
 japanese = "名は？<end>"
 korean = "이름은?<end>"
@@ -71,6 +75,10 @@ korean = "…흥, 뻔뻔하게.<end>"
 ["430085"]
 japanese = "ノヴィン閣下。何か？<end>"
 korean = "노빈 각하. 무슨 일이십니까?<end>"
+
+["430098"]
+japanese = "それでは失礼いたします。<end>"
+korean = "그럼 실례하겠습니다.<end>"
 
 ["430102"]
 japanese = "助けよう<end>"
@@ -151,3 +159,7 @@ korean = "<value:$28> 맞지? 그럼 또 만날 수 있으면 좋겠다, <value:
 ["430219"]
 japanese = "…賊か。<line-break>　<end>"
 korean = "…도적인가.<end>"
+
+["430221"]
+japanese = "フッ、はやるな。<line-break>行くぞ。<end>"
+korean = "훗, 서두르지 마라. 가자.<end>"

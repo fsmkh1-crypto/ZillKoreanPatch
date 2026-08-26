@@ -52,9 +52,17 @@ korean = "우우그아아아악!!<end>"
 japanese = "がは…っ！<end>"
 korean = "크학…!<end>"
 
+["440072"]
+japanese = "兄さん！<line-break>大丈夫ですか！？<end>"
+korean = "오빠! 괜찮아요!?<end>"
+
 ["440073"]
 japanese = "こいつっ！！<end>"
 korean = "이 자식!!<end>"
+
+["440077"]
+japanese = "行くぞ、ヴァイ、ヴィア。<end>"
+korean = "가자, 바이, 비아.<end>"
 
 ["440085"]
 japanese = "…<value:$28>。<line-break>ここで…何を…？<line-break>　<line-break>！！<end>"

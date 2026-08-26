@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["770005"]
+japanese = "ヒクツなことを言わないで<end>"
+korean = "그렇게 비굴한 말 하지 마<end>"
+
 ["770006"]
 japanese = "外の世界を見に行こう<end>"
 korean = "바깥세상을 보러 가자<end>"
@@ -64,6 +68,10 @@ korean = "와. 예쁘다….<end>"
 japanese = "よう、久しぶりだな。<end>"
 korean = "여어, 오랜만이군.<end>"
 
+["770051"]
+japanese = "気に入ってもらえたかな？<end>"
+korean = "마음에 들었으려나?<end>"
+
 ["770054"]
 japanese = "え？　どこに？<end>"
 korean = "어? 어디로?<end>"
@@ -96,6 +104,10 @@ korean = "어머, 맛있겠네.<end>"
 japanese = "すらいむの…あんかけ？<end>"
 korean = "슬라임… 앙카케?<end>"
 
+["770090"]
+japanese = "かわざかなのしおやき…？<end>"
+korean = "민물고기 소금구이…?<end>"
+
 ["770095"]
 japanese = "それじゃ、これは？<end>"
 korean = "그럼, 이건 어때?<end>"
@@ -103,6 +115,10 @@ korean = "그럼, 이건 어때?<end>"
 ["770099"]
 japanese = "歌なら歌えます！<end>"
 korean = "노래라면 부를 수 있어요!<end>"
+
+["770114"]
+japanese = "その前に睡眠をとらないと<end>"
+korean = "그 전에 잠부터 자야 해<end>"
 
 ["770115"]
 japanese = "がんばって<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["400000"]
+japanese = "ネメア・ボリューム１開始<end>"
+korean = "네메아 볼륨 1 시작<end>"
+
 ["400005"]
 japanese = "なんにせよ、ありがとよ。　　　　　　<line-break><value:$28>。<line-break>　<end>"
 korean = "어쨌든 고맙다. <value:$28>.<end>"
@@ -31,6 +35,10 @@ korean = "…발저.<end>"
 ["400022"]
 japanese = "勇者ネメアよ。<end>"
 korean = "용사 네메아여.<end>"
+
+["400024"]
+japanese = "運命に抗おうとする者…。<end>"
+korean = "운명에 맞서려는 자….<end>"
 
 ["400028"]
 japanese = "ゆくぞ、<value:$28>。<end>"
@@ -112,6 +120,10 @@ korean = "나야말로.<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["400081"]
+japanese = "アナタがお礼を言うのよ！<end>"
+korean = "당신이 감사하다고 해야지!<end>"
+
 ["400083"]
 japanese = "こちらこそ。<end>"
 korean = "나야말로.<end>"
@@ -131,6 +143,10 @@ korean = "결정적이네요.<end>"
 ["400090"]
 japanese = "ん？　なんだと？<end>"
 korean = "응? 뭐라고?<end>"
+
+["400091"]
+japanese = "残念だ、エリュマルクよ。<end>"
+korean = "유감이군, 에류마르크.<end>"
 
 ["400098"]
 japanese = "は。もちろんです。<end>"
@@ -155,6 +171,10 @@ korean = "물론이지<end>"
 ["400134"]
 japanese = "時と場合による<end>"
 korean = "때와 경우에 따라 달라<end>"
+
+["400135"]
+japanese = "それを聞いて安心したよ。<end>"
+korean = "그 말을 들으니 안심이군.<end>"
 
 ["400148"]
 japanese = "…ムキになるな。<end>"

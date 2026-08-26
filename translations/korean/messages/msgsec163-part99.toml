@@ -8,6 +8,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1630023"]
+japanese = "こ、こいつは手強いです。<end>"
+korean = "이, 이 녀석은 만만치 않습니다.<end>"
+
 ["1630035"]
 japanese = "ひざまずくがよい。<end>"
 korean = "무릎을 꿇어라.<end>"
@@ -15,6 +19,10 @@ korean = "무릎을 꿇어라.<end>"
 ["1630050"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적습이다!<end>"
+
+["1630073"]
+japanese = "将軍！　ご無事でしたか。<end>"
+korean = "장군! 무사하셨습니까.<end>"
 
 ["1630085"]
 japanese = "はっ！<end>"
@@ -43,3 +51,7 @@ korean = "이, 이놈 강하다!<end>"
 ["1630123"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적습이다!<end>"
+
+["1630126"]
+japanese = "将軍！　ご無事でしたか。<end>"
+korean = "장군! 무사하셨습니까.<end>"

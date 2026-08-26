@@ -60,6 +60,10 @@ korean = "히익!<end>"
 japanese = "イヒヒヒヒ！<end>"
 korean = "이히히히!<end>"
 
+["840078"]
+japanese = "サイテー！　この悪趣味！<end>"
+korean = "최악이야! 이런 악취미!<end>"
+
 ["840085"]
 japanese = "<value:$28>、大丈夫！？<end>"
 korean = "<value:$28>, 괜찮아!?<end>"
@@ -79,6 +83,10 @@ korean = "<value:$28>, 그렇지. 그럼 안녕, <value:$28>.<end>"
 ["840154"]
 japanese = "…同情したら、殺すよ？<end>"
 korean = "…동정하면 죽일 거야?<end>"
+
+["840179"]
+japanese = "なんとか抜け出したわね。<end>"
+korean = "어떻게든 빠져나왔네.<end>"
 
 ["840184"]
 japanese = "お待たせー！<end>"

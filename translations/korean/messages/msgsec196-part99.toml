@@ -96,6 +96,10 @@ korean = "어둠에 씌다.<end>"
 japanese = "新ボス死にエフェクト.<end>"
 korean = "신규 보스 사망 이펙트.<end>"
 
+["1960479"]
+japanese = "天上から土ぼこり 少なめ<end>"
+korean = "천상에서 흙먼지 적게<end>"
+
 ["1960480"]
 japanese = "天上から土ぼこり 多め<end>"
 korean = "위에서 흙먼지 많이<end>"
@@ -367,6 +371,10 @@ korean = "소울 이터전 지원군<end>"
 ["1960638"]
 japanese = "　ソウルイーター戦<end>"
 korean = "　소울이터전<end>"
+
+["1960640"]
+japanese = "　#111ｲｼｭﾊﾞｰﾙ退治<end>"
+korean = "#111 이슈바알 퇴치<end>"
 
 ["1960642"]
 japanese = "　予備<end>"
