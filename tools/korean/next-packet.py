@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """Emit the next untranslated Korean work packet from canonical corpus.
 
-Resume state comes from checked-in Korean overlays. By default untranslated rows
-are ordered by encoded JSONL size (shortest first) to maximize LLM throughput.
-Rows with no visible source text, or visible text containing no Japanese script,
-do not require a Korean overlay and are counted separately as skipped/passthrough.
+Resume state comes from checked-in Korean overlays. ``mixed`` ordering deliberately
+samples short, medium, and structurally complex rows so difficult layout/control
+cases surface early instead of being deferred to the end of the project.
 """
 from __future__ import annotations
 
 import argparse
+from collections import deque
 import json
 from pathlib import Path
 import re
 import tomllib
 
-from control_tags import RUNTIME_CONTROL_RE
+from control_tags import RUNTIME_CONTROL_RE, runtime_tokens
 
 ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
@@ -45,9 +45,7 @@ def load_translated() -> set[tuple[int, str]]:
             ko = str(rec["korean"])
             if key in values:
                 if values[key] != ko:
-                    raise SystemExit(
-                        f"conflicting Korean id {section}/{rid}: {owners[key]} and {path}"
-                    )
+                    raise SystemExit(f"conflicting Korean id {section}/{rid}: {owners[key]} and {path}")
                 continue
             values[key] = ko
             owners[key] = path
@@ -69,11 +67,7 @@ def canonical_rows() -> list[tuple[int, str, str]]:
 
 def encoded_line(row: tuple[int, str, str]) -> str:
     section, rid, ja = row
-    return json.dumps(
-        {"section": section, "id": rid, "japanese": ja},
-        ensure_ascii=False,
-        separators=(",", ":"),
-    ) + "\n"
+    return json.dumps({"section": section, "id": rid, "japanese": ja}, ensure_ascii=False, separators=(",", ":")) + "\n"
 
 
 def numeric_id_key(rid: str) -> tuple[int, str]:
@@ -93,11 +87,43 @@ def needs_translation(text: str) -> bool:
     return bool(visible and JAPANESE_SCRIPT_RE.search(visible))
 
 
+def lane_for(row: tuple[int, str, str]) -> str:
+    text = row[2]
+    visible_len = len(visible_source_text(text))
+    controls = len(runtime_tokens(text))
+    # Control-heavy rows are treated as complex even when visually short.
+    if visible_len > 180 or controls >= 4:
+        return "complex"
+    if visible_len > 80 or controls >= 2:
+        return "medium"
+    return "short"
+
+
+def mixed_order(rows: list[tuple[int, str, str]]) -> list[tuple[int, str, str]]:
+    lanes = {name: deque() for name in ("short", "medium", "complex")}
+    for row in sorted(rows, key=lambda r: (len(encoded_line(r).encode("utf-8")), r[0], numeric_id_key(r[1]))):
+        lanes[lane_for(row)].append(row)
+
+    # Throughput-biased but never starvation-prone: every five picks include
+    # medium and complex work when available.
+    schedule = ("short", "short", "medium", "short", "complex")
+    ordered: list[tuple[int, str, str]] = []
+    while any(lanes.values()):
+        progressed = False
+        for lane in schedule:
+            if lanes[lane]:
+                ordered.append(lanes[lane].popleft())
+                progressed = True
+        if not progressed:
+            break
+    return ordered
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-records", type=int, default=2000)
-    ap.add_argument("--max-bytes", type=int, default=400_000)
-    ap.add_argument("--order", choices=("shortest", "canonical"), default="shortest")
+    ap.add_argument("--max-bytes", type=int, default=600_000)
+    ap.add_argument("--order", choices=("shortest", "canonical", "mixed"), default="mixed")
     ap.add_argument("--out", type=Path)
     ap.add_argument("--progress", type=Path)
     args = ap.parse_args()
@@ -112,28 +138,20 @@ def main() -> None:
         raise SystemExit(f"Korean overlays contain {len(orphaned)} non-canonical ids; first={orphaned[0]}")
 
     no_text_keys = {(s, rid) for s, rid, ja in canonical if not visible_source_text(ja)}
-    passthrough_keys = {
-        (s, rid) for s, rid, ja in canonical
-        if visible_source_text(ja) and not JAPANESE_SCRIPT_RE.search(visible_source_text(ja))
-    }
+    passthrough_keys = {(s, rid) for s, rid, ja in canonical if visible_source_text(ja) and not JAPANESE_SCRIPT_RE.search(visible_source_text(ja))}
     skipped_keys = no_text_keys | passthrough_keys
-    untranslated = [
-        row for row in canonical
-        if (row[0], row[1]) not in translated and needs_translation(row[2])
-    ]
+    untranslated = [row for row in canonical if (row[0], row[1]) not in translated and needs_translation(row[2])]
+
     if args.order == "shortest":
-        untranslated.sort(
-            key=lambda row: (
-                len(encoded_line(row).encode("utf-8")),
-                row[0],
-                numeric_id_key(row[1]),
-            )
-        )
+        untranslated.sort(key=lambda row: (len(encoded_line(row).encode("utf-8")), row[0], numeric_id_key(row[1])))
+    elif args.order == "mixed":
+        untranslated = mixed_order(untranslated)
 
     packet: list[str] = []
     packet_bytes = 0
     first: tuple[int, str] | None = None
     last: tuple[int, str] | None = None
+    lane_counts = {"short": 0, "medium": 0, "complex": 0}
     for section, rid, ja in untranslated:
         line = encoded_line((section, rid, ja))
         n = len(line.encode("utf-8"))
@@ -141,6 +159,7 @@ def main() -> None:
             break
         packet.append(line)
         packet_bytes += n
+        lane_counts[lane_for((section, rid, ja))] += 1
         if first is None:
             first = (section, rid)
         last = (section, rid)
@@ -164,6 +183,7 @@ def main() -> None:
         "records_remaining": total - done_effective,
         "percent_done": round(done_effective * 100.0 / total, 4) if total else 100.0,
         "packet_order": args.order,
+        "packet_lanes": lane_counts,
         "packet_records": len(packet),
         "packet_bytes": packet_bytes,
         "packet_first": {"section": first[0], "id": first[1]} if first else None,
