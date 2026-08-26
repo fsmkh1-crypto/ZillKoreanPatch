@@ -40,6 +40,10 @@ korean = "큭… 뭐지?<end>"
 japanese = "早く炎竜岩を<line-break>持ってこい。<end>"
 korean = "빨리 염룡암을 가져와.<end>"
 
+["340042"]
+japanese = "炎竜岩をカッツに手渡した。<end>"
+korean = "염룡암을 카츠에게 건넸다.<end>"
+
 ["340043"]
 japanese = "よし、始めるぞ。<end>"
 korean = "좋아, 시작한다.<end>"
@@ -63,6 +67,10 @@ korean = "크…윽!!<end>"
 ["340053"]
 japanese = "これを…。<end>"
 korean = "이걸….<end>"
+
+["340059"]
+japanese = "父の首飾りを母の墓にかける<end>"
+korean = "아버지의 목걸이를 어머니 무덤에 걸었다<end>"
 
 ["340072"]
 japanese = "旅立ち０７メッセージ終端<end>"

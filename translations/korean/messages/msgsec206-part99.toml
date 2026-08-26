@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2060000"]
+japanese = "迫害のダークエルフ用開始<end>"
+korean = "박해받는 다크엘프용 시작<end>"
+
 ["2060014"]
 japanese = "ほら、行くわよ<value:$28>！<end>"
 korean = "자, 가자 <value:$28>!<end>"
+
+["2060017"]
+japanese = "迫害のダークエルフ用終端<end>"
+korean = "박해받는 다크엘프용 끝<end>"

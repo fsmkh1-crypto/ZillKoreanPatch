@@ -3660,6 +3660,10 @@ korean = "자객 습격 발생<end>"
 japanese = "イーブルアイ守護者　死亡<end>"
 korean = "이블아이 수호자 사망<end>"
 
+["1971250"]
+japanese = "Ｅｖカルラ＃１７　進行中<end>"
+korean = "Ev 카를라 #17 진행 중<end>"
+
 ["1971251"]
 japanese = "地下牢潜入　発生<end>"
 korean = "지하감옥 잠입 발생<end>"
@@ -3848,6 +3852,10 @@ korean = "결번<end>"
 japanese = "欠番<end>"
 korean = "결번<end>"
 
+["1971305"]
+japanese = "ディンガル兵殺害事件情報<end>"
+korean = "딩갈 병사 살해 사건 정보<end>"
+
 ["1971306"]
 japanese = "ｶﾙﾗ配下準備<end>"
 korean = "카를라 휘하 준비<end>"
@@ -3956,6 +3964,14 @@ korean = "레몬 여관 발생<end>"
 japanese = "ｾﾞﾈﾃｽ宿屋発生<end>"
 korean = "제네테스 여관 발생<end>"
 
+["1971349"]
+japanese = "ｱﾝｷﾞﾙﾀﾞﾝ宿屋発生<end>"
+korean = "앙길단 여관 발생<end>"
+
+["1971350"]
+japanese = "ｳﾞｧｲｳﾞｨｱ宿屋発生<end>"
+korean = "바이 비아 여관 발생<end>"
+
 ["1971351"]
 japanese = "ﾊﾞﾝﾅｯｼﾞ宿屋発生<end>"
 korean = "반·나지 여관 발생<end>"
@@ -4056,6 +4072,14 @@ korean = "#8 로센의 종을 울려라 발생<end>"
 japanese = "#9ロセンの鐘の英雄発生<end>"
 korean = "#9 로센의 종의 영웅 발생<end>"
 
+["1971414"]
+japanese = "#12クリュセイスと会う発生<end>"
+korean = "#12 크류세이스와 만남 발생<end>"
+
+["1971415"]
+japanese = "#13アンティノとの対決発生<end>"
+korean = "#13 안티노와의 대결 발생<end>"
+
 ["1971416"]
 japanese = "#14ザギヴの歌発生<end>"
 korean = "#14 자기브의 노래 발생<end>"
@@ -4128,6 +4152,10 @@ korean = "#56 삼슨 습격 보고 발생<end>"
 japanese = "#57サムスンと戦う発生<end>"
 korean = "#57 삼슨과 전투 발생<end>"
 
+["1971462"]
+japanese = "#60ソウルイーター解放発生<end>"
+korean = "#60 소울이터 해방 발생<end>"
+
 ["1971464"]
 japanese = "#62カフィン覚醒発生<end>"
 korean = "#62 카핀 각성 발생<end>"
@@ -4151,6 +4179,10 @@ korean = "#67 레이븐 실종② 발생<end>"
 ["1971474"]
 japanese = "#72カルラ進軍発生<end>"
 korean = "#72 카를라 진군 발생<end>"
+
+["1971476"]
+japanese = "#74ノエルとレイヴン②発生<end>"
+korean = "#74 노엘과 레이븐 ② 발생<end>"
 
 ["1971478"]
 japanese = "#76双子と闇の巨人１発生<end>"
@@ -4191,6 +4223,14 @@ korean = "#92 VS 마인 발생<end>"
 ["1971495"]
 japanese = "#93ＶＳイズキヤル発生<end>"
 korean = "#93 VS 이즈키야르 발생<end>"
+
+["1971496"]
+japanese = "#94たたずむアイリーン発生<end>"
+korean = "#94 서 있는 아이린 발생<end>"
+
+["1971497"]
+japanese = "#95カルラのギルド依頼発生<end>"
+korean = "#95 카를라의 길드 의뢰 발생<end>"
 
 ["1971500"]
 japanese = "#98アイリーン救出発生<end>"
@@ -4612,6 +4652,14 @@ korean = "#8 로센의 종을 울려라 종료<end>"
 japanese = "#9ロセンの鐘の英雄終了<end>"
 korean = "#9 로센의 종의 영웅 종료<end>"
 
+["1971614"]
+japanese = "#12クリュセイスと会う終了<end>"
+korean = "#12 크류세이스와 만남 종료<end>"
+
+["1971615"]
+japanese = "#13アンティノとの対決終了<end>"
+korean = "#13 안티노와의 대결 종료<end>"
+
 ["1971616"]
 japanese = "#14ザギヴの歌終了<end>"
 korean = "#14 자기브의 노래 종료<end>"
@@ -4684,6 +4732,10 @@ korean = "#56 삼슨 습격 보고 종료<end>"
 japanese = "#57サムスンと戦う終了<end>"
 korean = "#57 삼슨과 전투 종료<end>"
 
+["1971662"]
+japanese = "#60ソウルイーター解放終了<end>"
+korean = "#60 소울이터 해방 종료<end>"
+
 ["1971664"]
 japanese = "#62カフィン覚醒終了<end>"
 korean = "#62 카핀 각성 종료<end>"
@@ -4707,6 +4759,10 @@ korean = "#67 레이븐 실종② 종료<end>"
 ["1971674"]
 japanese = "#72カルラ進軍終了<end>"
 korean = "#72 카를라 진군 종료<end>"
+
+["1971676"]
+japanese = "#74ノエルとレイヴン②終了<end>"
+korean = "#74 노엘과 레이븐 ② 종료<end>"
 
 ["1971678"]
 japanese = "#76双子と闇の巨人１終了<end>"
@@ -4747,6 +4803,14 @@ korean = "#92 VS 마인 종료<end>"
 ["1971695"]
 japanese = "#93ＶＳイズキヤル終了<end>"
 korean = "#93 VS 이즈키야르 종료<end>"
+
+["1971696"]
+japanese = "#94たたずむアイリーン終了<end>"
+korean = "#94 서 있는 아이린 종료<end>"
+
+["1971697"]
+japanese = "#95カルラのギルド依頼終了<end>"
+korean = "#95 카를라의 길드 의뢰 종료<end>"
 
 ["1971700"]
 japanese = "#98アイリーン救出終了<end>"

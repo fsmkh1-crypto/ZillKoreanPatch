@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2280000"]
+japanese = "元救世主エルファス用開始<end>"
+korean = "전 구세주 엘파스용 시작<end>"
+
 ["2280001"]
 japanese = "エルファス様ーっ！<end>"
 korean = "엘파스 님ー!<end>"
@@ -15,3 +19,7 @@ korean = "부탁이라니?<end>"
 ["2280010"]
 japanese = "すまない…。<end>"
 korean = "미안하다….<end>"
+
+["2280017"]
+japanese = "元救世主エルファス用終端<end>"
+korean = "전 구세주 엘파스용 끝<end>"
