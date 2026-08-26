@@ -1016,6 +1016,10 @@ korean = "안 돼, 나 돌아가야 해.<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1370645"]
+japanese = "最近は、物騒だからな。<line-break> <line-break> <line-break>俺が見たわけじゃねえが、<line-break>やたら全開な変質者が<line-break>横行してるって言うしよ。<end>"
+korean = "요즘은 흉흉하잖아. 내가 직접 본 건 아니지만, 너무 훤히 드러내고 다니는 변태가 돌아다닌다더군.<end>"
+
 ["1370646"]
 japanese = "それじゃあ、<line-break>戻りましょう、<value:$28>さん。<end>"
 korean = "그럼 돌아가죠, <value:$28>님.<end>"

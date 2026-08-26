@@ -472,6 +472,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550184"]
+japanese = "ヴァン…、<line-break>こういうときに、<line-break>そういう冗談やめようよ。<line-break>それよりも、<line-break>ねえ、<value:$28><line-break>あの黒づくめも…。<end>"
+korean = "반…, 이럴 때 그런 농담은 그만해. 그것보다 <value:$28>, 저 검은 옷을 입은 자도….<end>"
+
 ["550185"]
 japanese = "ホントだ。<end>"
 korean = "정말이야.<end>"

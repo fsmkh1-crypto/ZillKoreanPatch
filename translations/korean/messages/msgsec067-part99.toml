@@ -64,6 +64,10 @@ korean = "마실 것을 가져오라고 전해 주겠나.<end>"
 japanese = "フフ、そなたに殺されるなら本望よ。<end>"
 korean = "후후, 그대에게 죽는다면 여한이 없네.<end>"
 
+["670027"]
+japanese = "<value:$28>、そなたのことは<line-break>ゼネテスが高く評価しておった。<line-break>　<line-break>これからもティアナのこと、<line-break>守ってやってほしい。<end>"
+korean = "<value:$28>, 제네테스가 그대를 높이 평가하고 있었다. 앞으로도 티아나를 지켜 주었으면 한다.<end>"
+
 ["670028"]
 japanese = "そなた、何者だ？<end>"
 korean = "그대, 누구지?<end>"

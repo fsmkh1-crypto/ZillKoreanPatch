@@ -264,6 +264,10 @@ korean = "페티가 파티에서 이탈했습니다.<end>"
 japanese = "…あいつ、ぶん殴ってやる！<end>"
 korean = "…저 녀석, 한 대 갈겨 주겠어!<end>"
 
+["690207"]
+japanese = "あのセラって奴も<line-break>そんな感じがする。<line-break>奴も、つらいんじゃないかな。　　　　<line-break>んじゃな、<value:$28>。<line-break>　<line-break>　<end>"
+korean = "그 세라라는 녀석도 그런 느낌이야. 녀석도 힘든 게 아닐까. 그럼 또 보자, <value:$28>.<end>"
+
 ["690209"]
 japanese = "シュミかも<end>"
 korean = "취미일지도<end>"
@@ -271,6 +275,10 @@ korean = "취미일지도<end>"
 ["690210"]
 japanese = "別に…<end>"
 korean = "별로…<end>"
+
+["690218"]
+japanese = "なんか、かっこいいよね。セラってさ。<line-break>ちょっと、気になるかな。<line-break>　<line-break>…ってボクが言ったら<line-break><value:$28>は気になる？<end>"
+korean = "뭔가 멋있지, 세라는. 조금 신경 쓰인달까. …내가 그렇게 말하면 <value:$28>은 신경 쓰여?<end>"
 
 ["690220"]
 japanese = "あー、ボクのことからかってたんだ！ <line-break>ひどいよ、<value:$28>。<line-break>ボク…本気で嫌われたと思ったんだよ！<end>"

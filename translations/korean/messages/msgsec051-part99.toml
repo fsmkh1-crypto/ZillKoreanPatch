@@ -4,6 +4,10 @@
 japanese = "ファーロス・ボリューム２開始<end>"
 korean = "파로스 볼륨 2 시작<end>"
 
+["510001"]
+japanese = "ゼネテス様、<line-break>私たちとともにいらしてください。<end>"
+korean = "제네테스 님, 저희와 함께 가 주십시오.<end>"
+
 ["510002"]
 japanese = "ふぅん、デートのお誘い？<end>"
 korean = "흐응, 데이트 신청?<end>"
@@ -80,6 +84,10 @@ korean = "로스톨의 용병이 된다.<end>"
 japanese = "ディンガルの傭兵のままでいる<end>"
 korean = "딩갈 용병으로 계속 남는다<end>"
 
+["510053"]
+japanese = "ディンガルの傭兵のままで　　　　<line-break>いいんだね？<end>"
+korean = "딘갈의 용병으로 그대로 있어도 괜찮은 거지?<end>"
+
 ["510056"]
 japanese = "そうかい。<line-break>ま、それもいいかもしれないな。<end>"
 korean = "그래. 뭐, 그것도 괜찮을지 모르겠네.<end>"
@@ -135,6 +143,10 @@ korean = "5분이면 돼. 부탁한다, <value:$28>.<end>"
 ["510100"]
 japanese = "バカな、ロストール軍だと！<end>"
 korean = "말도 안 돼, 로스톨군이라고!<end>"
+
+["510101"]
+japanese = "徴発のため、ほとんど<line-break>軍が出払っているときに！<end>"
+korean = "징발 때문에 군이 거의 다 나가 있는 때에!<end>"
 
 ["510102"]
 japanese = "奇襲だ！<line-break>とにかく、もみつぶせ！<end>"

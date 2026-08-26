@@ -16,6 +16,10 @@ korean = "뭐, 여러 곳이지.<end>"
 japanese = "いんや。　　　　　　　　　　　　　　<end>"
 korean = "아니.<end>"
 
+["490008"]
+japanese = "こいつのギルド登録を<line-break>してやってくれ、おやじ。<end>"
+korean = "이 녀석 길드 등록 좀 해 줘, 아저씨.<end>"
+
 ["490011"]
 japanese = "それから、こいつの馬車が<line-break>町の出口にとめてある。　　<line-break>　<line-break>その荷物を処分したいんだ。<end>"
 korean = "그리고 이 녀석 마차가 마을 출구에 세워져 있어. 그 짐도 처분하고 싶어.<end>"
@@ -132,6 +136,10 @@ korean = "하하, 무례한 녀석이군.<end>"
 japanese = "なあ、とっつぁん。　<end>"
 korean = "있잖아, 아저씨.　<end>"
 
+["490105"]
+japanese = "奴らは馬脚を現すようなことは<line-break>なかったんだな。<end>"
+korean = "녀석들이 본색을 드러낼 만한 짓은 없었던 거군.<end>"
+
 ["490106"]
 japanese = "うむ。<line-break>怪しい素振りはまったくなかった。<line-break>　<line-break>あったら、わしが成敗しておるわい。<line-break>はっはっは！<end>"
 korean = "음. 수상한 움직임은 전혀 없었다. 있었다면 내가 벌써 처단했지. 하하하!<end>"
@@ -155,6 +163,10 @@ korean = "그거 참 아쉽군.<end>"
 ["490118"]
 japanese = "俺もすぐに行く。<end>"
 korean = "나도 곧 갈게.<end>"
+
+["490119"]
+japanese = "お前さんも準備ができ次第、<line-break>港に向かってくれ。<end>"
+korean = "너도 준비가 되는 대로 항구로 가 줘.<end>"
 
 ["490120"]
 japanese = "成功を祈っておるぞ！<end>"
@@ -280,6 +292,10 @@ korean = "당신도 그냥 오르파우스로 있으면 되는 거지?<end>"
 japanese = "ええ。<line-break>よろしく、ゼネテス。<end>"
 korean = "네. 잘 부탁해요, 제네테스.<end>"
 
+["490186"]
+japanese = "ルルアンタさんなら、<line-break>中にいらっしゃいますよ。<end>"
+korean = "루루안타 씨라면 안에 계십니다.<end>"
+
 ["490187"]
 japanese = "いきなり質問攻めですか？<end>"
 korean = "갑자기 질문 공세입니까?<end>"
@@ -396,6 +412,10 @@ korean = "…최악이야.<end>"
 japanese = "くすっ、以後は<line-break>そんなことはありませんから。<end>"
 korean = "후후, 앞으로는 그런 일 없을 겁니다.<end>"
 
+["490243"]
+japanese = "フフ、信じてるぜ。<line-break>で、話ってのがあるんだろ？<end>"
+korean = "후후, 믿고 있어. 그래서 할 이야기가 있는 거지?<end>"
+
 ["490244"]
 japanese = "ええ。<end>"
 korean = "네.<end>"
@@ -464,6 +484,10 @@ korean = "질문은 없다<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["490290"]
+japanese = "忘れないように<line-break>覚えておかなくちゃ。<line-break>　<end>"
+korean = "잊지 않도록 기억해 둬야겠어.<end>"
+
 ["490293"]
 japanese = "お前さんが<line-break>運命に選ばれた人間だってことさ。<end>"
 korean = "자네가 운명에 선택받은 인간이라는 뜻이지.<end>"
@@ -495,6 +519,10 @@ korean = "있잖아, <value:$28>. 내 고집에 조금만 더 어울려 주지 �
 ["490327"]
 japanese = "予備用メッセージ７<line-break>ルルアンタ・ボリューム１<end>"
 korean = "예비 메시지 7 루루안타 볼륨 1<end>"
+
+["490330"]
+japanese = "予備用メッセージ１０<line-break>ルルアンタ・ボリューム１<end>"
+korean = "예비 메시지 10 루루안타 볼륨 1<end>"
 
 ["490331"]
 japanese = "ルルアンタ・ボリューム１終端<end>"

@@ -28,6 +28,10 @@ korean = "…그렇구나. 우리가 노블을 떠난 지도 벌써 꽤 됐네. 
 japanese = "<value:$28>。<line-break>誕生日おめでとう。<end>"
 korean = "<value:$28>. 생일 축하해.<end>"
 
+["2580026"]
+japanese = "まだまだ戦いは続くけど、<line-break>これからもがんばっていこう。<line-break>　<line-break><value:$28>の誕生日を<line-break>来年もお祝いできるようにね。<end>"
+korean = "아직 싸움은 계속되지만 앞으로도 힘내자. 내년에도 <value:$28>의 생일을 축하할 수 있도록 말이야.<end>"
+
 ["2580029"]
 japanese = "<value:$28>、おめでとう。<line-break>ルルアンタも、とってもうれしいよ。<line-break>これからもよろしくね。<end>"
 korean = "<value:$28>, 축하해. 루루안타도 정말 기뻐. 앞으로도 잘 부탁해.<end>"

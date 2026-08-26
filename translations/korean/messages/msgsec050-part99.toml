@@ -96,6 +96,10 @@ korean = "…소용없습니다. 움직일 수 없을 겁니다.<end>"
 japanese = "さがってよい。<line-break>フリントの子<value:$28>よ。<end>"
 korean = "물러가도 좋다. 플린트의 아이 <value:$28>여.<end>"
 
+["500050"]
+japanese = "予備用メッセージ１０<line-break>ファーロス・ボリューム１<end>"
+korean = "예비 메시지 10 파로스 볼륨 1<end>"
+
 ["500051"]
 japanese = "ファーロス・ボリューム１終端<end>"
 korean = "파로스 볼륨 1 끝<end>"

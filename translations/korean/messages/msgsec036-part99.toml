@@ -100,6 +100,10 @@ korean = "재미있는 일이야.<end>"
 japanese = "<value:$28>、無事？<end>"
 korean = "<value:$28>, 무사해?<end>"
 
+["360059"]
+japanese = "復活の時に無限のソウルの持ち主が<line-break>生まれあわせているなんて…。<line-break>　<line-break>しかもそれが、<value:$28>、<line-break>お前だなんて…。<end>"
+korean = "부활의 때에 무한의 소울을 지닌 자가 태어나 있다니…. 게다가 그게 <value:$28>, 너라니….<end>"
+
 ["360061"]
 japanese = "<value:$28>、逃げなさい！<line-break>この町を出るの！<line-break>私もすぐにあとを追うわ！<end>"
 korean = "<value:$28>, 도망쳐! 이 마을을 떠나! 나도 곧 뒤따라갈게!<end>"

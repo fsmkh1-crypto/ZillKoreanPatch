@@ -80,6 +80,10 @@ korean = "자, 이쪽으로….<end>"
 japanese = "こちらが依頼主。<line-break>ロセン総督ブゾリ様です。<end>"
 korean = "이분이 의뢰인, 로센 총독 부조리 님입니다.<end>"
 
+["850036"]
+japanese = "いらっしゃーい。<line-break>最近、売り出し中の冒険者、<line-break><value:$28>ちゃんね？<line-break>アタシはブゾリ、<line-break>ロセンの総督をやってるわ。<end>"
+korean = "어서 와~. 요즘 이름을 날리는 모험자, <value:$28> 맞지? 나는 부조리, 로센 총독이야.<end>"
+
 ["850039"]
 japanese = "どうかしら？<end>"
 korean = "어때?<end>"

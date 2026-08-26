@@ -192,6 +192,10 @@ korean = "흑… 어떡할 거야, <value:$28>?<end>"
 japanese = "ん？<line-break><value:$28>じゃないか。<line-break>どうしたんだ、そんなに急いで？<end>"
 korean = "응? <value:$28> 아니야. 왜 그렇게 급해?<end>"
 
+["1860132"]
+japanese = "<value:$28>、<line-break>…頼みが…ある。　　　　　　　　<line-break>　<line-break>例の短剣の中に…<line-break>エリス様への…密書が入っている。<line-break><end>"
+korean = "<value:$28>, …부탁이… 있다. 그 단검 안에… 엘리스 님께 드릴… 밀서가 들어 있다.<end>"
+
 ["1860137"]
 japanese = "フリント、もういい。<line-break>しゃべるな。<end>"
 korean = "플린트, 이제 됐어. 말하지 마.<end>"

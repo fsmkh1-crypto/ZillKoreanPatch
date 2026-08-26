@@ -92,6 +92,10 @@ korean = "…폐하.<end>"
 japanese = "帝国軍が内海を縦断するという<line-break>その根拠は？<end>"
 korean = "제국군이 내해를 종단한다는 근거는 무엇이지?<end>"
 
+["520055"]
+japanese = "戦争は常識でするもんじゃない。<line-break>説明を求める。<end>"
+korean = "전쟁은 상식으로 하는 게 아니야. 설명을 요구한다.<end>"
+
 ["520061"]
 japanese = "では、敵はどう出ると？<end>"
 korean = "그럼 적은 어떻게 나올까요?<end>"
@@ -131,6 +135,10 @@ korean = "5분이면 돼. 부탁한다, <value:$28>.<end>"
 ["520111"]
 japanese = "バカな！　ロストール軍だと！<end>"
 korean = "말도 안 돼! 로스톨군이라고!<end>"
+
+["520112"]
+japanese = "徴発のため、ほとんど<line-break>軍が出払っているときに！<end>"
+korean = "징발 때문에 군이 거의 다 나가 있는 때에!<end>"
 
 ["520113"]
 japanese = "奇襲だ！<line-break>とにかく、もみつぶせ！<end>"
@@ -207,6 +215,10 @@ korean = "노, 노블 백작님, 도망치십시오! 으악!<end>"
 ["520158"]
 japanese = "これも戦場のならい。<line-break>ゆくぞ、<value:$28>！<end>"
 korean = "이것도 전장의 법도다. 간다, <value:$28>!<end>"
+
+["520159"]
+japanese = "戦場をひとりで守る<line-break>ロストール貴族とはお主か！<end>"
+korean = "전장을 혼자 지키는 로스토올 귀족이란 네놈이냐!<end>"
 
 ["520162"]
 japanese = "では、まいる！<line-break>ノーブル伯<value:$28>！<end>"

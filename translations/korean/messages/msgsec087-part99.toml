@@ -8,6 +8,10 @@ korean = "카를라 메시지 VOL4 시작<end>"
 japanese = "はっ！　<value:$28>様<line-break>どうぞ、お通りください！<end>"
 korean = "예! <value:$28>님, 들어가십시오!<end>"
 
+["870002"]
+japanese = "うそーん。<line-break>あなたのこと愛してたのにー。<line-break>　<line-break><value:$28>…！<line-break>ブゾリとできてたのねー！<line-break>ひどいわひどいわ。<end>"
+korean = "말도 안 돼~. 당신을 사랑했는데~. <value:$28>…! 부조리와 그런 사이였던 거야~! 너무해, 너무해.<end>"
+
 ["870006"]
 japanese = "…実は、もう、かかってたとか。<end>"
 korean = "…사실은 이미 걸려 있었다든가.<end>"

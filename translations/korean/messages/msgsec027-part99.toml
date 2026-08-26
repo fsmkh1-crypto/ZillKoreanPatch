@@ -32,6 +32,10 @@ korean = "괜찮아! <value:$28>라면 식은 죽 먹기야.<end>"
 japanese = "恐れることはない。<line-break>お前の実力を見せてやれ。<end>"
 korean = "두려워할 것 없다. 네 실력을 보여 줘라.<end>"
 
+["270030"]
+japanese = "勝利の笑顔で戻ってくるのを<line-break>信じて待ってるわ。<end>"
+korean = "승리의 미소를 지으며 돌아올 거라고 믿고 기다릴게.<end>"
+
 ["270033"]
 japanese = "君なら大丈夫。<line-break>自分の力を信じるんだ。<end>"
 korean = "너라면 괜찮아. 자신의 힘을 믿어.<end>"
@@ -192,9 +196,17 @@ korean = "여, <value:$28>. 좋은 시합 보여 주자고.<end>"
 japanese = "手加減しない。<line-break>負ける気はないからな。<end>"
 korean = "봐주지 않겠다. 질 생각도 없으니까.<end>"
 
+["270102"]
+japanese = "ふふ、悪くない。<line-break>お前とは、戦ってみたかった。<end>"
+korean = "후후, 나쁘지 않군. 너와는 한번 싸워 보고 싶었어.<end>"
+
 ["270104"]
 japanese = "<value:$28>！<line-break>お互い全力で行こうぜ！！<end>"
 korean = "<value:$28>! 서로 전력으로 가 보자고!!<end>"
+
+["270105"]
+japanese = "姉ちゃん、勝負だ！<line-break>…俺が勝っても怒るなよな。<end>"
+korean = "누나, 승부다! …내가 이겨도 화내지 마.<end>"
 
 ["270106"]
 japanese = "いくわよ、<value:$28>！<line-break>手加減しないからね。<end>"

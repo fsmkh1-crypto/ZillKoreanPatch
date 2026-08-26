@@ -16,6 +16,10 @@ korean = "<value:$28>, 일어나…<end>"
 japanese = "起きなさい、<value:$28>！<line-break>もう、お昼よ！<end>"
 korean = "일어나, <value:$28>! 벌써 점심이야!<end>"
 
+["1920005"]
+japanese = "何してるのよ、<value:$28>。<line-break>ベッドから落ちたりして。　　<line-break>　<line-break>ほんっとに、いつまでたっても<line-break>変わらないわねぇ。<end>"
+korean = "뭐 하는 거야, <value:$28>. 침대에서 떨어지다니. 정말 언제까지나 변함없네.<end>"
+
 ["1920006"]
 japanese = "おはよう、<value:$28>。<line-break>どう？　目は覚めた？<end>"
 korean = "좋은 아침, <value:$28>. 어때? 잠은 깼어?<end>"
@@ -355,6 +359,10 @@ korean = "아, 잠깐, <value:$28>! 내 허락도 없이 먼저 가는 건 용�
 ["1920215"]
 japanese = "そしてね、それから…。<end>"
 korean = "그리고 말이야, 그다음은….<end>"
+
+["1920217"]
+japanese = "<value:$28>。<line-break>これから、どうするつもりですか？<line-break>　<line-break>どこかでのんびりと暮らすのなら<line-break>転送機で送ってあげますが。<end>"
+korean = "<value:$28>. 이제 어떻게 할 생각입니까? 어디선가 느긋하게 살 생각이라면 전송기로 보내 드릴 수도 있습니다.<end>"
 
 ["1920220"]
 japanese = "<value:$28>は<line-break>全然変わってないよ！<end>"

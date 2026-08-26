@@ -672,6 +672,10 @@ korean = "혹시…이름을 아는 자, 네모?<end>"
 japanese = "でも、ネモは猫のまま…<line-break>つまり、失敗した？<end>"
 korean = "그런데 네모는 여전히 고양이 모습…. 그러니까 실패한 거야?<end>"
 
+["1380395"]
+japanese = "禁断の聖杯は持ち主に英知を与えます。<line-break> <line-break> <line-break>知恵を身につけたゴブリンたちは、<line-break>ネモを見限ってしまったのです。<end>"
+korean = "금단의 성배는 소유자에게 지혜를 줍니다. 지혜를 얻은 고블린들은 네모를 버린 것입니다.<end>"
+
 ["1380396"]
 japanese = "まるで喜劇だね。<line-break><value:$28>。<end>"
 korean = "마치 희극 같네, <value:$28>.<end>"

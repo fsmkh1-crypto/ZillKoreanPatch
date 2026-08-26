@@ -648,6 +648,10 @@ korean = "모르겠어… 미쳐 버릴 것 같아! 나, 무슨 일이 있어도
 japanese = "ねえ、<value:$28>、お願い！<line-break>手伝って！　<value:$28>の力で、<line-break>私たちを助けて！　お願い！<end>"
 korean = "있잖아, <value:$28>, 부탁이야! 도와줘! <value:$28>의 힘으로 우리를 도와줘! 부탁해!<end>"
 
+["1410363"]
+japanese = "あ、ありがとう…うれしいよ、<line-break><value:$28>。<line-break>　<line-break>あなたとなら、<line-break>きっと見つけられる。<line-break>私の心の欠片が…。<end>"
+korean = "고, 고마워… 기뻐, <value:$28>. 당신과 함께라면 분명 찾을 수 있을 거야. 내 마음의 조각을….<end>"
+
 ["1410364"]
 japanese = "…そういうことだったのね、ヴィア。<end>"
 korean = "…그런 일이었구나, 비아.<end>"

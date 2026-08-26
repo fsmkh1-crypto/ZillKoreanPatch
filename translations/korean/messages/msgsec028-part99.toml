@@ -12,6 +12,14 @@ korean = "여어.<end>"
 japanese = "やあ、ヴァン。<end>"
 korean = "안녕, 반.<end>"
 
+["280004"]
+japanese = "この小屋、<line-break>墜落しちゃうかと思ったよ。<line-break><end>"
+korean = "이 오두막, 추락하는 줄 알았어.<end>"
+
+["280006"]
+japanese = "…しっかし、この小屋、<line-break>よく持ちこたえたよな。<end>"
+korean = "…그래도 이 오두막, 용케 버텼네.<end>"
+
 ["280007"]
 japanese = "本当によく壊れなかったよね。<line-break>あちこち修理しなきゃならないけど。<line-break>　<line-break>あ、ねえ、<value:$28>。<line-break><end>"
 korean = "정말 잘도 안 부서졌네. 여기저기 고쳐야 하긴 하지만. 아, 있잖아, <value:$28>.<end>"
@@ -72,6 +80,10 @@ korean = "…아. 이타로 낚고 있구나. 흐음.<end>"
 japanese = "それはそうと、<line-break>ちょっと困ったなぁ…。<end>"
 korean = "그건 그렇고, 조금 곤란하네….<end>"
 
+["280027"]
+japanese = "なーに、木材くらい<line-break>私が見てやるよ。　　　　　<end>"
+korean = "뭐, 목재 정도는 내가 봐 줄게.<end>"
+
 ["280028"]
 japanese = "じゃ、これが弁当。　　　　　<line-break>頼んだよ。<end>"
 korean = "자, 이게 도시락이야. 부탁해.<end>"
@@ -103,6 +115,10 @@ korean = "이것도 가져가. 다치면 써.<end>"
 ["280043"]
 japanese = "…そうか、昨日の地震でねえ。<line-break>　<end>"
 korean = "…그런가, 어제 지진 때문에.<end>"
+
+["280044"]
+japanese = "よし、明日なら小屋の修理を　<line-break>手伝ってやるぜ。<end>"
+korean = "좋아, 내일이면 오두막 수리를 도와줄게.<end>"
 
 ["280046"]
 japanese = "本当！？　ありがとう。<line-break>助かるよ、ボンガさん。<end>"
