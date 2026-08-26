@@ -12,6 +12,10 @@ korean = "윽!!<end>"
 japanese = "姉ちゃーん！<end>"
 korean = "누나아!<end>"
 
+["310033"]
+japanese = "やめろ！！　ボルボラ！<end>"
+korean = "그만둬!! 볼보라!<end>"
+
 ["310046"]
 japanese = "あ！<end>"
 korean = "아!<end>"
@@ -32,6 +36,10 @@ korean = "<value:$28>…. 멋진 이름이네. 그럼 이만.<end>"
 japanese = "そうなるといいね<end>"
 korean = "그렇게 되면 좋겠네<end>"
 
+["310076"]
+japanese = "やっと用意ができたか？<end>"
+korean = "드디어 준비가 됐나?<end>"
+
 ["310090"]
 japanese = "立ち上がろう！<end>"
 korean = "일어나자!<end>"
@@ -43,6 +51,10 @@ korean = "반란은 못 일으켜…<end>"
 ["310109"]
 japanese = "ゲヒッ！<line-break><value:$28>！！<line-break>ここまで来やがったか！<end>"
 korean = "게힛! <value:$28>!! 여기까지 왔냐!<end>"
+
+["310114"]
+japanese = "なんだと、ボルボラ！？<end>"
+korean = "뭐라고, 볼보라!?<end>"
 
 ["310115"]
 japanese = "黙れ、ボルボラ！！<end>"

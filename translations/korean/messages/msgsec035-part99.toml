@@ -2904,6 +2904,10 @@ korean = "샤리의 이차원 7<end>"
 japanese = "シャリの異次元８<end>"
 korean = "샤리의 이차원 8<end>"
 
+["350849"]
+japanese = "リベルダム：闘技場通路<end>"
+korean = "리벨담: 투기장 통로<end>"
+
 ["350850"]
 japanese = "山賊の砦１<end>"
 korean = "산적의 요새1<end>"
@@ -2932,13 +2936,49 @@ korean = "어둠의 문 섬: 어둠의 문<end>"
 japanese = "精神世界：精神世界<end>"
 korean = "정신세계: 정신세계<end>"
 
+["350860"]
+japanese = "邪竜の断層：邪竜解放時<end>"
+korean = "사룡의 단층: 사룡 해방 시<end>"
+
 ["350861"]
 japanese = "邪竜解放後<end>"
 korean = "사룡 해방 후<end>"
 
+["350864"]
+japanese = "ゼグナ鉱山３：旅立ち用<end>"
+korean = "제그나 광산 3: 여행 출발용<end>"
+
+["350866"]
+japanese = "ラドラス：広場：落下後<end>"
+korean = "라드라스: 광장: 낙하 후<end>"
+
+["350869"]
+japanese = "ロストール：城門前：夜<end>"
+korean = "로스톨: 성문 앞: 밤<end>"
+
 ["350872"]
 japanese = "ロストール：広場：夜<end>"
 korean = "로스톨: 광장: 밤<end>"
+
+["350873"]
+japanese = "ロストール：大通り：夜<end>"
+korean = "로스톨: 대로: 밤<end>"
+
+["350874"]
+japanese = "ロストール：平民街：夜<end>"
+korean = "로스톨: 평민가: 밤<end>"
+
+["350877"]
+japanese = "リベルダム：港：崩壊後<end>"
+korean = "리벨담: 항구: 붕괴 후<end>"
+
+["350885"]
+japanese = "ロセン：街の門：陥落前<end>"
+korean = "로센: 도시의 문: 함락 전<end>"
+
+["350903"]
+japanese = "最後の迷宮７：鉄扉開き<end>"
+korean = "마지막 미궁 7: 철문 개방<end>"
 
 ["350904"]
 japanese = "廃城４：鉄扉開き<end>"

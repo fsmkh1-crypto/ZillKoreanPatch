@@ -28,6 +28,10 @@ korean = "자아! <value:$28>, 일어나!<end>"
 japanese = "む、わかったでゴブ！<end>"
 korean = "으, 알겠는 고브!<end>"
 
+["620036"]
+japanese = "あーっ！　あんたたち！<end>"
+korean = "아앗! 너희들!<end>"
+
 ["620044"]
 japanese = "ああ、メシ～。<end>"
 korean = "아아, 밥~.<end>"
@@ -43,6 +47,10 @@ korean = "단장!<end>"
 ["620058"]
 japanese = "親分！<end>"
 korean = "두목!<end>"
+
+["620059"]
+japanese = "あーっ！　あんたたち！<end>"
+korean = "아앗! 너희들!<end>"
 
 ["620061"]
 japanese = "親分、どうするゴブ？<end>"
@@ -104,6 +112,14 @@ korean = "자, 어떻게 할 거야?<end>"
 japanese = "ええ～！？<end>"
 korean = "에에~!?<end>"
 
+["620110"]
+japanese = "親分！　あいつらゴブ！<end>"
+korean = "두목! 저놈들 고브!<end>"
+
+["620120"]
+japanese = "親分、腹減ったゴブ～。<end>"
+korean = "두목, 배고프다 고브~.<end>"
+
 ["620122"]
 japanese = "あーっ！！<end>"
 korean = "아앗!!<end>"
@@ -119,6 +135,14 @@ korean = "울먹울먹울먹….<end>"
 ["620138"]
 japanese = "船に乗んな！<end>"
 korean = "배에 타지 마!<end>"
+
+["620149"]
+japanese = "１００ギア手に入れた。<end>"
+korean = "100기어를 손에 넣었다.<end>"
+
+["620153"]
+japanese = "快適な船旅だったゴブ。<end>"
+korean = "쾌적한 뱃길이었다 고브.<end>"
 
 ["620156"]
 japanese = "あーっ！！<end>"
@@ -151,6 +175,10 @@ korean = "음.<end>"
 ["620178"]
 japanese = "うそ臭いゴブ。<end>"
 korean = "수상쩍다 고브.<end>"
+
+["620184"]
+japanese = "んにゃーん、にゃーん。<end>"
+korean = "냐아앙, 냐아앙.<end>"
 
 ["620189"]
 japanese = "は、はいゴブ！<end>"
