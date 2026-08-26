@@ -244,6 +244,10 @@ korean = "걱정할 것 없다.<end>"
 japanese = "シェムハザ長老！<end>"
 korean = "셈하자 장로님!<end>"
 
+["1340186"]
+japanese = "この方のことならば、<line-break>知っている。<end>"
+korean = "이분이라면 알고 있다.<end>"
+
 ["1340188"]
 japanese = "私の家においでになるとよい。<end>"
 korean = "내 집으로 오면 된다.<end>"
@@ -560,6 +564,10 @@ korean = "입이 험한 자들은 어머니의 망령 짓이라고…<end>"
 japanese = "はぁ…<end>"
 korean = "하아…<end>"
 
+["1340414"]
+japanese = "あ、<value:$28>様。<line-break>また、いらしてくださったのですね。<line-break>うれしく思います。<end>"
+korean = "아, <value:$28>님. 또 와 주셨군요. 기쁩니다.<end>"
+
 ["1340416"]
 japanese = "（資金援助すべきかな…？）<end>"
 korean = "(자금 지원을 해야 하나…?)<end>"
@@ -620,6 +628,10 @@ korean = "<value:$28> 님, 부탁드립니다.<end>"
 japanese = "<value:$28>様<line-break>お願いいたします<end>"
 korean = "<value:$28>님, 부탁드립니다.<end>"
 
+["1340496"]
+japanese = "我らゴブゴブ団も<line-break>手伝ってるゴブ！<end>"
+korean = "우리 고브고브단도 돕고 있다고브!<end>"
+
 ["1340498"]
 japanese = "（資金援助すべきかな…？）<end>"
 korean = "(자금 지원을 해야 하나…?)<end>"
@@ -675,6 +687,10 @@ korean = "네<end>"
 ["1340527"]
 japanese = "いいえ<end>"
 korean = "아니요<end>"
+
+["1340528"]
+japanese = "わかりました。<line-break>では、こちらに…。<end>"
+korean = "알겠습니다. 그럼 이쪽으로….<end>"
 
 ["1340537"]
 japanese = "生命のかけらを与える<end>"

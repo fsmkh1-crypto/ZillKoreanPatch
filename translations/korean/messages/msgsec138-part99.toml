@@ -4,6 +4,10 @@
 japanese = "オッシ、ボリューム５開始<end>"
 korean = "오시 볼륨 5 시작<end>"
 
+["1380001"]
+japanese = "<value:$28>様…。　　　　　　<line-break> <line-break> <line-break>今晩はこの宿にお泊りなのですか？<end>"
+korean = "<value:$28>님…. 오늘 밤은 이 여관에 묵으시나요?<end>"
+
 ["1380012"]
 japanese = "お主にどうしても礼が言いたくてな。<end>"
 korean = "그대에게 꼭 감사 인사를 하고 싶어서 말이지.<end>"

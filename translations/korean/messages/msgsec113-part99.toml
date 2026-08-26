@@ -4,6 +4,10 @@
 japanese = "ザギヴメッセージｖ４用開始<end>"
 korean = "자기브 메시지 V4용 시작<end>"
 
+["1130003"]
+japanese = "君は長生きするのだな、<line-break><value:$28>。<line-break>…無限のソウルを持つ者よ。　　　　　<end>"
+korean = "오래 살아야 한다, <value:$28>. …무한의 소울을 지닌 자여.<end>"
+
 ["1130016"]
 japanese = "ザギヴメッセージVol4終端<end>"
 korean = "자기브 메시지 Vol4 끝<end>"

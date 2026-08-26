@@ -64,6 +64,10 @@ korean = "<value:$28>, …힘내.<end>"
 japanese = "どうだ？<line-break>元気にやってっか？<end>"
 korean = "어때? 잘 지내고 있냐?<end>"
 
+["1370147"]
+japanese = "おう、おめえのエモノ<line-break>見せてみな。<end>"
+korean = "어이, 네 무기 좀 보여 봐.<end>"
+
 ["1370153"]
 japanese = "…よし、<value:$28>。<line-break>今日の稽古は、<line-break>この辺にしておこうか。<end>"
 korean = "…좋아, <value:$28>. 오늘 수련은 이쯤 해 둘까.<end>"

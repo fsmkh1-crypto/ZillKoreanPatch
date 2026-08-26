@@ -24,6 +24,10 @@ korean = "(이 기척은…!)<end>"
 japanese = "この気は…！<line-break>ネメア！！<end>"
 korean = "이 기운은…! 네메아!!<end>"
 
+["1180041"]
+japanese = "おや？　<value:$28>。<line-break>ダメじゃないですか、<line-break>こんな危ない場面に出てきたら。<end>"
+korean = "어라? <value:$28>. 안 되잖아요, 이렇게 위험한 곳에 나오면.<end>"
+
 ["1180045"]
 japanese = "やめて！<end>"
 korean = "그만해!<end>"

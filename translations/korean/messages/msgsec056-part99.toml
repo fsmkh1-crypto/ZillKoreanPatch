@@ -712,6 +712,10 @@ korean = "아, 아니야!<end>"
 japanese = "な、何よ！<end>"
 korean = "뭐, 뭐야!<end>"
 
+["560576"]
+japanese = "…<value:$28>。<line-break>どうして…<line-break> <line-break>ええーい！<line-break>とにかく、いくわよ！<end>"
+korean = "…<value:$28>. 왜… 에잇! 어쨌든 간다!<end>"
+
 ["560581"]
 japanese = "竜…、邪竜か…！？<end>"
 korean = "용…, 사룡인가…!?<end>"

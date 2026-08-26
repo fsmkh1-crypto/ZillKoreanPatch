@@ -144,6 +144,10 @@ korean = "예비 메시지 8 에아 V5<end>"
 japanese = "予備メッセージその９<line-break>エア　Ｖ５<end>"
 korean = "예비 메시지 9 에아 V5<end>"
 
+["1330161"]
+japanese = "わしか、お主か…<line-break>そこで知れるじゃろう。<line-break> <line-break>フォッフォッフォ…！<end>"
+korean = "나인가, 그대인가… 거기서 알게 되겠지. 포호호호…!<end>"
+
 ["1330174"]
 japanese = "（エンシャント城内へ行かなければ…）<end>"
 korean = "(엔샨트 성 안으로 가야 해…)<end>"
@@ -352,6 +356,10 @@ korean = "뭐…, 뭐야…!?<end>"
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
 
+["1330394"]
+japanese = "くっ！<line-break>破滅の槍の力を解放する気？<end>"
+korean = "큭! 파멸의 창의 힘을 해방할 셈이야?<end>"
+
 ["1330397"]
 japanese = "すまぬ。<line-break>手間取った。<end>"
 korean = "미안하다. 시간이 좀 걸렸다.<end>"
@@ -552,6 +560,10 @@ korean = "카핀!<end>"
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
 
+["1330638"]
+japanese = "天空神の祝福が<line-break>汝にあらんことを…<end>"
+korean = "천공신의 축복이 그대에게 있기를….<end>"
+
 ["1330641"]
 japanese = "ああ、またかいな。<line-break>今行く。<end>"
 korean = "아, 또야? 지금 가.<end>"
@@ -591,6 +603,10 @@ korean = "그건 아니야<end>"
 ["1330693"]
 japanese = "平等の世界を作ろう<end>"
 korean = "평등한 세상을 만들자<end>"
+
+["1330695"]
+japanese = "どうやって？<line-break>何か、方法があるの？<end>"
+korean = "어떻게? 무슨 방법이 있는 거야?<end>"
 
 ["1330698"]
 japanese = "どうしても入る<end>"

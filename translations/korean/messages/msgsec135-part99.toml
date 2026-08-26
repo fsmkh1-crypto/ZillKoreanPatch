@@ -180,6 +180,10 @@ korean = "그럴지도. 그게 다야?<end>"
 japanese = "…それは、悲しいよ。<end>"
 korean = "…그건 슬퍼.<end>"
 
+["1350177"]
+japanese = "貴様は！　道化！<line-break>なにがおかしい！<end>"
+korean = "네놈은! 광대! 뭐가 우습지!<end>"
+
 ["1350180"]
 japanese = "くっ…。<line-break>貴様！<end>"
 korean = "큭…. 네놈!<end>"
@@ -276,6 +280,10 @@ korean = "큭!<end>"
 japanese = "そして、<value:$28>…<end>"
 korean = "그리고, <value:$28>…<end>"
 
+["1350256"]
+japanese = "ありがとよ。<line-break>ホント、助かったぜ。<end>"
+korean = "고맙다. 정말 살았어.<end>"
+
 ["1350258"]
 japanese = "ば、バカな。<end>"
 korean = "마, 말도 안 돼.<end>"
@@ -324,6 +332,10 @@ korean = "레몬!<end>"
 japanese = "無礼者！<end>"
 korean = "무례한 놈!<end>"
 
+["1350283"]
+japanese = "誰の許しを得たか！<line-break>さがるがよい！<end>"
+korean = "누구 허락을 받았느냐! 물러가라!<end>"
+
 ["1350286"]
 japanese = "やれ！<end>"
 korean = "해치워!<end>"
@@ -360,6 +372,10 @@ korean = "감사합니다, <value:$28> 님! 잘 부탁드리겠습니다.<end>"
 japanese = "無礼者！<end>"
 korean = "무례한 놈!<end>"
 
+["1350313"]
+japanese = "誰の許しを得たか！<line-break>さがるがよい！<end>"
+korean = "누구 허락을 받았느냐! 물러가라!<end>"
+
 ["1350316"]
 japanese = "やれ！<end>"
 korean = "해치워!<end>"
@@ -391,6 +407,10 @@ korean = "레몬 님이!?<end>"
 ["1350328"]
 japanese = "叔母様が…<end>"
 korean = "숙모님이…<end>"
+
+["1350330"]
+japanese = "…秘密通路から、<line-break>脱出しましょう。<end>"
+korean = "…비밀 통로로 탈출하죠.<end>"
 
 ["1350340"]
 japanese = "くっ…<end>"
@@ -424,6 +444,10 @@ korean = "바이! 비아!<end>"
 japanese = "兄さん！<end>"
 korean = "형!<end>"
 
+["1350357"]
+japanese = "なんでそんな事を！<line-break>兄さんの体は…<end>"
+korean = "왜 그런 짓을! 형의 몸은….<end>"
+
 ["1350359"]
 japanese = "やめろ。殺すな。<end>"
 korean = "그만둬. 죽이지 마.<end>"
@@ -435,6 +459,10 @@ korean = "…괜찮습니까?<end>"
 ["1350364"]
 japanese = "ナイトメアの雫を奪われた。<end>"
 korean = "나이트메어의 물방울을 빼앗겼다.<end>"
+
+["1350368"]
+japanese = "それは、なぜなのです。<line-break>カルラ様。<end>"
+korean = "그건 왜입니까, 카를라 님.<end>"
 
 ["1350372"]
 japanese = "そんな…！<end>"
@@ -535,6 +563,10 @@ korean = "…아니, 형.<end>"
 ["1350446"]
 japanese = "よろしい…うっ…<end>"
 korean = "좋아… 윽…<end>"
+
+["1350447"]
+japanese = "だいじょうぶ！？<line-break>お兄ち…兄さん！<end>"
+korean = "괜찮아!? 오빠… 아니, 형!<end>"
 
 ["1350452"]
 japanese = "意識を失う<end>"

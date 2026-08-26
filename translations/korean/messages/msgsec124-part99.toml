@@ -8,6 +8,10 @@ korean = "………………. 죄 많은 자의 미궁이다….<end>"
 japanese = "………………。<line-break><line-break><line-break>エストを捜せ…。<end>"
 korean = "………………. 에스트를 찾아라….<end>"
 
+["1240078"]
+japanese = "この密書を解放軍の本部へ<line-break>届ければいいんだよ。<line-break><value:$28>なら簡単だよね。<end>"
+korean = "이 밀서를 해방군 본부에 전하면 돼. <value:$28>이라면 간단하지?<end>"
+
 ["1240082"]
 japanese = "<value:$28>の最初の任務は、<line-break>この密書を解放軍の本部に<line-break>届けることだよぉ。<end>"
 korean = "<value:$28>의 첫 임무는 이 밀서를 해방군 본부에 전달하는 거야.<end>"
@@ -23,3 +27,7 @@ korean = "………………. 로센 해방군 지부에 전해라.<end>"
 ["1240147"]
 japanese = "………………。<line-break><line-break><line-break>クリュセイスに届けろ。<end>"
 korean = "………………. 크리ュ세이스에게 전해라.<end>"
+
+["1240167"]
+japanese = "邪竜の断層へ急いでください！<line-break>お願いします<value:$28>。<line-break>時間がないんです。<end>"
+korean = "사룡의 단층으로 서둘러 주세요! 부탁해요, <value:$28>. 시간이 없어요.<end>"
