@@ -8,6 +8,10 @@ korean = "말하지 마!<end>"
 japanese = "シャリ！<end>"
 korean = "샤리!<end>"
 
+["1330048"]
+japanese = "わらわは…。<end>"
+korean = "이 몸은….<end>"
+
 ["1330069"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -15,6 +19,10 @@ korean = "간다<end>"
 ["1330070"]
 japanese = "行かない<end>"
 korean = "안 가<end>"
+
+["1330095"]
+japanese = "あなたは…？<end>"
+korean = "당신은…?<end>"
 
 ["1330103"]
 japanese = "はい…。<end>"
@@ -24,9 +32,17 @@ korean = "네….<end>"
 japanese = "せーの！！<end>"
 korean = "하나, 둘!!<end>"
 
+["1330122"]
+japanese = "あなたは…？<end>"
+korean = "당신은…?<end>"
+
 ["1330124"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1330126"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
 
 ["1330260"]
 japanese = "はっ！<end>"
@@ -95,6 +111,10 @@ korean = "레이븐!<end>"
 ["1330629"]
 japanese = "カフィン！<end>"
 korean = "카핀!<end>"
+
+["1330631"]
+japanese = "終わったな。<end>"
+korean = "끝났군.<end>"
 
 ["1330692"]
 japanese = "それは違う<end>"

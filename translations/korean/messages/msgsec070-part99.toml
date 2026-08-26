@@ -36,6 +36,14 @@ korean = "예비 선택지 8<end>"
 japanese = "予備選択肢９<end>"
 korean = "예비 선택지 9<end>"
 
+["700227"]
+japanese = "あ、<value:$28>。<end>"
+korean = "아, <value:$28>.<end>"
+
+["700245"]
+japanese = "やぁ、<value:$28><end>"
+korean = "여어, <value:$28><end>"
+
 ["700259"]
 japanese = "姉ちゃーん。<end>"
 korean = "누나아.<end>"

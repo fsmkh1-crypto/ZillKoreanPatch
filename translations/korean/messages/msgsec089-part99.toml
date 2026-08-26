@@ -16,6 +16,10 @@ korean = "…샤리!<end>"
 japanese = "これは…！<end>"
 korean = "이건…!<end>"
 
+["890096"]
+japanese = "<value:$28>様！！<end>"
+korean = "<value:$28>님!!<end>"
+
 ["890109"]
 japanese = "わかった<end>"
 korean = "알았어<end>"

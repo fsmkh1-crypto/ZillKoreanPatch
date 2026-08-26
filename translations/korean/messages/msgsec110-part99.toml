@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1100003"]
+japanese = "老人を助ける<end>"
+korean = "노인을 돕는다<end>"
+
 ["1100004"]
 japanese = "無視する<end>"
 korean = "무시한다<end>"
+
+["1100048"]
+japanese = "あなた、誰？<end>"
+korean = "당신, 누구야?<end>"
 
 ["1100052"]
 japanese = "は、はい。<end>"
@@ -16,9 +24,21 @@ korean = "핫.<end>"
 japanese = "ザギヴ様！<end>"
 korean = "자기브 님!<end>"
 
+["1100062"]
+japanese = "今、行くわ。<end>"
+korean = "지금 갈게.<end>"
+
 ["1100086"]
 japanese = "その怪物？<end>"
 korean = "그 괴물?<end>"
+
+["1100087"]
+japanese = "…私、を…。<end>"
+korean = "…나를….<end>"
+
+["1100094"]
+japanese = "恐ろしくない<end>"
+korean = "두렵지 않다<end>"
 
 ["1100115"]
 japanese = "<value:$28>か。<end>"

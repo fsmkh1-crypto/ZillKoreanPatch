@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1020017"]
+japanese = "せ、先生…。<end>"
+korean = "서, 선생님….<end>"
+
+["1020019"]
+japanese = "な、何を…。<end>"
+korean = "무, 무슨….<end>"
+
+["1020025"]
+japanese = "せ、先生…。<end>"
+korean = "서, 선생님….<end>"
+
 ["1020026"]
 japanese = "…なんだ。<end>"
 korean = "…뭐야.<end>"
@@ -7,6 +19,14 @@ korean = "…뭐야.<end>"
 ["1020028"]
 japanese = "あん？<end>"
 korean = "앙?<end>"
+
+["1020032"]
+japanese = "う…えぐ…。<end>"
+korean = "으… 흐윽….<end>"
+
+["1020034"]
+japanese = "うぅ…あ…。<end>"
+korean = "으으… 아….<end>"
 
 ["1020059"]
 japanese = "せ、先生！<end>"

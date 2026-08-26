@@ -75,3 +75,7 @@ korean = "어?<end>"
 ["410148"]
 japanese = "ナーシェス！<end>"
 korean = "나셰스!<end>"
+
+["410150"]
+japanese = "…<value:$28>か。<end>"
+korean = "…<value:$28>인가.<end>"

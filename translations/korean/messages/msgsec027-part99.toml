@@ -8,6 +8,10 @@ korean = "예선대회<end>"
 japanese = "決勝大会<end>"
 korean = "결승대회<end>"
 
+["270043"]
+japanese = "<value:$15>に出る<end>"
+korean = "<value:$15>로 나간다<end>"
+
 ["270044"]
 japanese = "ルールを聞く<end>"
 korean = "규칙을 듣는다<end>"

@@ -640,6 +640,10 @@ korean = "＜없음＞<end>"
 japanese = "あきらめるな<end>"
 korean = "포기하지 마<end>"
 
+["550331"]
+japanese = "<value:$28>さん！<end>"
+korean = "<value:$28>씨!<end>"
+
 ["550347"]
 japanese = "え？<end>"
 korean = "어?<end>"
@@ -647,3 +651,7 @@ korean = "어?<end>"
 ["550359"]
 japanese = "…誤解だ。<end>"
 korean = "…오해야.<end>"
+
+["550365"]
+japanese = "<value:$28>さん！<end>"
+korean = "<value:$28>씨!<end>"

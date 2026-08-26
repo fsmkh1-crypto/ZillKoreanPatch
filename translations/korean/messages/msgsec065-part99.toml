@@ -3,3 +3,7 @@
 ["650002"]
 japanese = "きゃっ！<end>"
 korean = "꺅!<end>"
+
+["650104"]
+japanese = "<value:$28>様も。<end>"
+korean = "<value:$28>님도.<end>"

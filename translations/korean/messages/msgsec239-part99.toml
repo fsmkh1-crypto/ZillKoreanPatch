@@ -3,3 +3,7 @@
 ["2390002"]
 japanese = "危ないっ！<end>"
 korean = "위험해!<end>"
+
+["2390006"]
+japanese = "<value:$28>か。<end>"
+korean = "<value:$28>인가.<end>"

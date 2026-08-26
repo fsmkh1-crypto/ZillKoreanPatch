@@ -4,6 +4,14 @@
 japanese = "お安いご用<end>"
 korean = "식은 죽 먹기지<end>"
 
+["1040007"]
+japanese = "かったるいな<end>"
+korean = "귀찮네<end>"
+
+["1040028"]
+japanese = "空メッセージ<end>"
+korean = "빈 메시지<end>"
+
 ["1040030"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
@@ -19,3 +27,7 @@ korean = "꺄악!<end>"
 ["1040050"]
 japanese = "ちっ！<end>"
 korean = "칫!<end>"
+
+["1040055"]
+japanese = "なんですか？<end>"
+korean = "뭡니까?<end>"

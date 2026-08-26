@@ -4,10 +4,26 @@
 japanese = "翔王様！<end>"
 korean = "비상왕님!<end>"
 
+["1300014"]
+japanese = "翔王…様…。<end>"
+korean = "상왕…님….<end>"
+
 ["1300019"]
 japanese = "母よ…。<end>"
 korean = "어머니여….<end>"
 
+["1300022"]
+japanese = "やってみます<end>"
+korean = "해 보겠습니다<end>"
+
+["1300023"]
+japanese = "興味ないです<end>"
+korean = "관심 없습니다<end>"
+
 ["1300027"]
 japanese = "力が欲しい<end>"
 korean = "힘이 필요해<end>"
+
+["1300039"]
+japanese = "その通りです<end>"
+korean = "그 말씀대로입니다<end>"

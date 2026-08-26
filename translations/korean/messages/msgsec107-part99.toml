@@ -16,6 +16,10 @@ korean = "알람<end>"
 japanese = "呪いガス<end>"
 korean = "저주 가스<end>"
 
+["1070013"]
+japanese = "スイッチ系罠<end>"
+korean = "스위치계 함정<end>"
+
 ["1070014"]
 japanese = "魔法の宝箱<end>"
 korean = "마법의 보물상자<end>"
@@ -31,6 +35,14 @@ korean = "  500기어<end>"
 ["1070029"]
 japanese = " 1000ギア<end>"
 korean = " 1000기어<end>"
+
+["1070043"]
+japanese = "はマヒした。<end>"
+korean = "는 마비되었다.<end>"
+
+["1070045"]
+japanese = "は呪われた。<end>"
+korean = "는 저주에 걸렸다.<end>"
 
 ["1070084"]
 japanese = "L2ボタン<end>"
