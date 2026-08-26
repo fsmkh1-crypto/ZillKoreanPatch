@@ -472,6 +472,14 @@ korean = "무슨 뜻이야?<end>"
 japanese = "あんたねぇ！！<end>"
 korean = "너 정말!!<end>"
 
+["560325"]
+japanese = "あ、えと、ケンカは、<line-break>ダメですよ。<end>"
+korean = "아, 저기, 싸우면 안 돼요.<end>"
+
+["560327"]
+japanese = "悪いが、急いでいる。<line-break>道を空けろ。<end>"
+korean = "미안하지만 급하다. 길을 비켜라.<end>"
+
 ["560332"]
 japanese = "うふふ、ご褒美が欲しいの？<end>"
 korean = "후후, 상이 받고 싶어?<end>"
@@ -640,6 +648,10 @@ korean = "…미안…해요….<end>"
 japanese = "将軍ー！<line-break><value:$28>将軍ー！<end>"
 korean = "장군님~! <value:$28> 장군님~!<end>"
 
+["560493"]
+japanese = "…さわらないで。<line-break>抵抗はしないわ。<end>"
+korean = "…만지지 마. 저항은 안 할게.<end>"
+
 ["560494"]
 japanese = "<value:$28>将軍。<line-break>お手柄です！<line-break>さっそく、連行いたします！！<end>"
 korean = "<value:$28> 장군. 큰 공을 세우셨습니다! 바로 연행하겠습니다!!<end>"
@@ -772,6 +784,10 @@ korean = "걱정되면 아이린도 함께 <value:$28>의 동료가 되면 되�
 japanese = "わ、私は…！<end>"
 korean = "나, 나는…!<end>"
 
+["560630"]
+japanese = "ねぼすけ竜ちゃん？<line-break>ご機嫌いかが？<end>"
+korean = "잠꾸러기 용아? 기분은 어때?<end>"
+
 ["560633"]
 japanese = "仲間を呼ぶ<end>"
 korean = "동료를 부른다<end>"
@@ -819,6 +835,10 @@ korean = "우리 움직임은 적에게 완전히 들킨 것 같아. 어떡하�
 ["560703"]
 japanese = "…くっ！<line-break>逃げるんだ。<end>"
 korean = "…큭! 도망쳐.<end>"
+
+["560719"]
+japanese = "…作戦は失敗です！<line-break>撤退します！！<end>"
+korean = "…작전은 실패입니다! 철수합니다!!<end>"
 
 ["560720"]
 japanese = "あれは、<value:$28>が<line-break>作戦の失敗を伝えているのです！<line-break>退きます！！<end>"

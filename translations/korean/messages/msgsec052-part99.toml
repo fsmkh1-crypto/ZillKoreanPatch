@@ -4,6 +4,10 @@
 japanese = "ファーロス・ボリューム２その２開始<end>"
 korean = "파로스 볼륨2 그 2 시작<end>"
 
+["520003"]
+japanese = "…仕方ない、では<line-break>始めるとしよう。<end>"
+korean = "…어쩔 수 없군. 그럼 시작하지.<end>"
+
 ["520005"]
 japanese = "根拠は？<end>"
 korean = "근거는?<end>"
@@ -15,6 +19,14 @@ korean = "첩자의 보고. 병력과 군량 비축.<end>"
 ["520007"]
 japanese = "…なるほど。<end>"
 korean = "…그렇군.<end>"
+
+["520017"]
+japanese = "黙れ！　　　　　　　　　　　　<line-break>　<end>"
+korean = "닥쳐!<end>"
+
+["520019"]
+japanese = "…まだ…来ておらぬ。　　　　　<line-break>　<end>"
+korean = "…아직… 오지 않았다.<end>"
 
 ["520024"]
 japanese = "よ。奇遇だな。<line-break><value:$28>。<end>"
@@ -59,6 +71,10 @@ korean = "그럼 적은 어떻게 나올까요?<end>"
 ["520072"]
 japanese = "そんな…、考えられない…！<end>"
 korean = "그럴 수가…, 믿을 수 없어…!<end>"
+
+["520076"]
+japanese = "略奪？<line-break>そんな下劣で非道なことを！<end>"
+korean = "약탈? 그런 비열하고 잔혹한 짓을!<end>"
 
 ["520077"]
 japanese = "戦争は手段を選びません。<end>"

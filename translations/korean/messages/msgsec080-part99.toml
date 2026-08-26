@@ -4,6 +4,14 @@
 japanese = "フゴー、Vol１用メッセージ開始<end>"
 korean = "휴고 Vol1용 메시지 시작<end>"
 
+["800002"]
+japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
+korean = "호호호호, 그렇군요~.<end>"
+
+["800004"]
+japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
+korean = "호호호호, 그렇군요~.<end>"
+
 ["800005"]
 japanese = "ここはフゴー様のお屋敷です。<end>"
 korean = "여기는 휴고 님의 저택입니다.<end>"
@@ -27,6 +35,10 @@ korean = "세상에 숨어 있는 온갖 수수께끼?<end>"
 ["800041"]
 japanese = "復讐？<end>"
 korean = "복수?<end>"
+
+["800042"]
+japanese = "魔人？<line-break>きみを守って姿を消した人？<end>"
+korean = "마인? 너를 지키고 사라진 사람?<end>"
 
 ["800044"]
 japanese = "聖杯？<end>"
@@ -72,9 +84,21 @@ korean = "조심하라고.<end>"
 japanese = "いつ見ても、<line-break>いい絵じゃのぉ。<end>"
 korean = "언제 봐도 좋은 그림이구나.<end>"
 
+["800071"]
+japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
+korean = "호호호호, 그렇군요~.<end>"
+
+["800074"]
+japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
+korean = "호호호호, 그렇군요~.<end>"
+
 ["800076"]
 japanese = "んー。<line-break>楽しみじゃのぉ。<end>"
 korean = "음~. 기대되는구먼.<end>"
+
+["800077"]
+japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
+korean = "호호호호, 그렇군요~.<end>"
 
 ["800086"]
 japanese = "フゴーＶｏｌ１予備メッセージ１<end>"
