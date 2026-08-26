@@ -20,6 +20,14 @@ korean = "그리고 말이야.<end>"
 japanese = "どういうことだ？<end>"
 korean = "무슨 뜻이지?<end>"
 
+["1350034"]
+japanese = "じゃあな、<value:$28>。<end>"
+korean = "그럼 이만, <value:$28>.<end>"
+
+["1350054"]
+japanese = "じゃあな、<value:$28>。<end>"
+korean = "그럼 이만, <value:$28>.<end>"
+
 ["1350071"]
 japanese = "<value:$28>様。<end>"
 korean = "<value:$28>님.<end>"
@@ -183,6 +191,10 @@ korean = "큭…<end>"
 ["1350346"]
 japanese = "なんで？<end>"
 korean = "왜?<end>"
+
+["1350350"]
+japanese = "よう、また会ったな。<end>"
+korean = "여어, 또 만났군.<end>"
 
 ["1350354"]
 japanese = "ヴァイ！　ヴィア！<end>"

@@ -92,6 +92,10 @@ korean = "잠깐 기다려<end>"
 japanese = "はい<end>"
 korean = "네<end>"
 
+["1370199"]
+japanese = "大丈夫か、<value:$28>？<end>"
+korean = "괜찮아, <value:$28>?<end>"
+
 ["1370202"]
 japanese = "セラ？<end>"
 korean = "세라?<end>"
@@ -312,6 +316,14 @@ korean = "괜찮아<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370552"]
+japanese = "や、やめてください！<end>"
+korean = "그, 그만해 주세요!<end>"
+
+["1370567"]
+japanese = "あっ、<value:$28>さん！<end>"
+korean = "앗, <value:$28> 씨!<end>"
+
 ["1370571"]
 japanese = "冒険者ギルドとは？<end>"
 korean = "모험자 길드란?<end>"
@@ -339,6 +351,14 @@ korean = "어, 어어!?<end>"
 ["1370587"]
 japanese = "くわっ！<end>"
 korean = "크왓!<end>"
+
+["1370588"]
+japanese = "や、やめてください！<end>"
+korean = "그, 그만해 주세요!<end>"
+
+["1370597"]
+japanese = "あっ、<value:$28>さん！<end>"
+korean = "앗, <value:$28> 씨!<end>"
 
 ["1370605"]
 japanese = "はい。<end>"
