@@ -16,6 +16,10 @@ korean = "미안하지만 죽어 줘야겠어.<end>"
 japanese = "ま、まずいぞ。<line-break>逃げるんだ！<end>"
 korean = "이, 이건 위험해. 도망쳐!<end>"
 
+["1710006"]
+japanese = "え？　え？　　<line-break>　<line-break>　<line-break>うわっ！？<line-break>待ってくれ～！<end>"
+korean = "어? 어? 우왓!? 기다려 줘~!<end>"
+
 ["1710007"]
 japanese = "そなた、強いな。<end>"
 korean = "그대, 강하군.<end>"
@@ -55,6 +59,10 @@ korean = "뭐라고?<end>"
 ["1710041"]
 japanese = "よ、余計じゃと…。<end>"
 korean = "쓸, 쓸데없다고….<end>"
+
+["1710053"]
+japanese = "<value:$28>、<line-break>お主、泳ぎは得意か？<end>"
+korean = "<value:$28>, 자네 수영은 잘하나?<end>"
 
 ["1710060"]
 japanese = "おやめなさい！！<end>"

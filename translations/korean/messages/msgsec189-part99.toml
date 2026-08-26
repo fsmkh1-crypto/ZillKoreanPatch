@@ -12,6 +12,10 @@ korean = "후후, 오랜만의 신참이군….<end>"
 japanese = "そうだ。余だ。<end>"
 korean = "그렇다. 짐이다.<end>"
 
+["1890005"]
+japanese = "見知り置くがよい、<line-break><value:$28>よ。<end>"
+korean = "잘 기억해 두어라, <value:$28>여.<end>"
+
 ["1890007"]
 japanese = "また訪れるがよい。<end>"
 korean = "다시 찾아오도록 해.<end>"

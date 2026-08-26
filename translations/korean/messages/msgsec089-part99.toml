@@ -420,6 +420,10 @@ korean = "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<en
 japanese = "さぁ、それはどうかしら？<end>"
 korean = "글쎄, 그건 어떨까?<end>"
 
+["890473"]
+japanese = "また…<line-break>目覚めてしまったのか…？<end>"
+korean = "또… 깨어나 버린 건가…?<end>"
+
 ["890475"]
 japanese = "なぜ…私を呼び覚ました。<end>"
 korean = "왜… 나를 깨운 거지.<end>"
@@ -451,6 +455,10 @@ korean = "알현실로 간다<end>"
 ["890508"]
 japanese = "謁見の間へ行かない<end>"
 korean = "알현실에는 가지 않는다<end>"
+
+["890509"]
+japanese = "では、どうぞ。<line-break>お通りください。<end>"
+korean = "그럼, 들어가십시오.<end>"
 
 ["890510"]
 japanese = "…そうですか。<end>"
@@ -784,6 +792,10 @@ korean = "아, 기다려 주세요!<end>"
 japanese = "おりゃあ！<end>"
 korean = "으랴앗!<end>"
 
+["890701"]
+japanese = "ぐああああ！<line-break>俺様不敗伝説がぁ！<end>"
+korean = "으아아아아! 이 몸의 불패 전설이이!<end>"
+
 ["890703"]
 japanese = "ヴァンを止める<end>"
 korean = "반을 막는다<end>"
@@ -807,6 +819,10 @@ korean = "친구니까!<end>"
 ["890712"]
 japanese = "なに？<end>"
 korean = "뭐?<end>"
+
+["890717"]
+japanese = "僕には…<line-break>僕には分からないんだ。<end>"
+korean = "나는… 나는 모르겠어.<end>"
 
 ["890718"]
 japanese = "そ、それは…<end>"

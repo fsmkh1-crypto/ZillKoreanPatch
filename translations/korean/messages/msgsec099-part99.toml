@@ -116,6 +116,10 @@ korean = "아, 어서 오세요!<end>"
 japanese = "い、いやっ！<end>"
 korean = "시, 싫어!<end>"
 
+["990068"]
+japanese = "…あ、<value:$28>さん。<line-break>あ、あの…なんでもないです！<line-break>それじゃっ！<end>"
+korean = "…아, <value:$28>님. 저, 저기… 아무것도 아니에요! 그럼 이만!<end>"
+
 ["990069"]
 japanese = "久しぶりね、<value:$28>。<end>"
 korean = "오랜만이네, <value:$28>.<end>"

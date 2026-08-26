@@ -172,6 +172,10 @@ korean = "<value:$28> 씨, 갑시다!<end>"
 japanese = "へい、おかしら！<line-break>　<line-break>　<end>"
 korean = "예, 두목!<end>"
 
+["1920212"]
+japanese = "それでは、行くわよ、<line-break><value:$28>！<end>"
+korean = "그럼 가자, <value:$28>!<end>"
+
 ["1920213"]
 japanese = "何？<line-break>何か言ったかしら、<line-break><value:$28>？<end>"
 korean = "뭐? 무슨 말 했어, <value:$28>?<end>"
@@ -179,6 +183,10 @@ korean = "뭐? 무슨 말 했어, <value:$28>?<end>"
 ["1920215"]
 japanese = "そしてね、それから…。<end>"
 korean = "그리고 말이야, 그다음은….<end>"
+
+["1920220"]
+japanese = "<value:$28>は<line-break>全然変わってないよ！<end>"
+korean = "<value:$28>은 전혀 변하지 않았어!<end>"
 
 ["1920233"]
 japanese = "<value:$28>さーん！<end>"

@@ -44,6 +44,10 @@ korean = "울어도 죽은 사람은 돌아오지 않아.<end>"
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
 
+["1740037"]
+japanese = "<value:$28>、<line-break>聞きたいことがある！<end>"
+korean = "<value:$28>, 묻고 싶은 게 있다!<end>"
+
 ["1740041"]
 japanese = "行くわ。<end>"
 korean = "갈게.<end>"

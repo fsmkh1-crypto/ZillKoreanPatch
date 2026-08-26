@@ -8,6 +8,14 @@ korean = "………………. 엔샨트 정청으로 가라.<end>"
 japanese = "………………。<line-break><line-break><line-break>…ゼネテスを救うのか？<end>"
 korean = "………………. …제네테스를 구할 건가?<end>"
 
+["1250056"]
+japanese = "<value:$28>様。<line-break>王女様の安否はお任せください。<line-break>お早く謁見の間へ！<end>"
+korean = "<value:$28>님. 공주님의 안전은 저희에게 맡겨 주세요. 어서 알현실로!<end>"
+
+["1250057"]
+japanese = "王女様は、私たちが守る！<line-break>ゼネテスを助けてあげてよ、<line-break><value:$28>！<end>"
+korean = "공주님은 우리가 지킬게! 제네테스를 도와줘, <value:$28>!<end>"
+
 ["1250087"]
 japanese = "我が都、エンシャントが…。<line-break><line-break><line-break>………………。<end>"
 korean = "우리의 도시, 엔샨트가…. ……………….<end>"

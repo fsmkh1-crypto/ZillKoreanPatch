@@ -204,6 +204,10 @@ korean = "다정하게 끌어안는다<end>"
 japanese = "全力で振り払う<end>"
 korean = "온 힘을 다해 뿌리친다<end>"
 
+["1350201"]
+japanese = "<value:$28>の<line-break>ＶＩＴが10減少した。<end>"
+korean = "<value:$28>의 VIT가 10 감소했다.<end>"
+
 ["1350203"]
 japanese = "優しく抱きしめる<end>"
 korean = "부드럽게 안아 준다<end>"
@@ -211,6 +215,10 @@ korean = "부드럽게 안아 준다<end>"
 ["1350204"]
 japanese = "全力で振り払う<end>"
 korean = "온 힘을 다해 뿌리친다<end>"
+
+["1350206"]
+japanese = "<value:$28>の<line-break>ＶＩＴが15減少した。<end>"
+korean = "<value:$28>의 VIT가 15 감소했다.<end>"
 
 ["1350207"]
 japanese = "ウウ……<line-break>…<value:$28>…か？<end>"
