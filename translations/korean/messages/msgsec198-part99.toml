@@ -28,9 +28,17 @@ korean = "윽….<end>"
 japanese = "喜んで<end>"
 korean = "기꺼이.<end>"
 
+["1980037"]
+japanese = "危険なことに巻き込むわけには…<end>"
+korean = "위험한 일에 휘말리게 할 수는….<end>"
+
 ["1980047"]
 japanese = "は、はい…。<end>"
 korean = "네, 네….<end>"
+
+["1980051"]
+japanese = "その伝説のフライパンってやつ？<end>"
+korean = "그 전설의 프라이팬이라는 거야?<end>"
 
 ["1980056"]
 japanese = "確かにおかしな話だ<end>"
@@ -76,6 +84,10 @@ korean = "뭐라고 하셨나요?<end>"
 japanese = "変なことを言うんだな<end>"
 korean = "이상한 소리를 하는군.<end>"
 
+["1980121"]
+japanese = "俺は俺だよ。　変わったりしない<end>"
+korean = "난 나야. 변하지 않아.<end>"
+
 ["1980132"]
 japanese = "どうしても？<end>"
 korean = "꼭 그래야 해?<end>"
@@ -116,6 +128,10 @@ korean = "어서 와, <value:$28>.<end>"
 japanese = "ええっ！<end>"
 korean = "에엣!<end>"
 
+["1980197"]
+japanese = "そ、それって本当なんですか！？<end>"
+korean = "그, 그게 정말인가요!?<end>"
+
 ["1980198"]
 japanese = "そ、そうですか…。<end>"
 korean = "그, 그런가요….<end>"
@@ -151,6 +167,14 @@ korean = "그, 그런가요….<end>"
 ["1980235"]
 japanese = "変なことを言うんだな<end>"
 korean = "이상한 소리를 하는군.<end>"
+
+["1980236"]
+japanese = "私は私よ。　変わったりしない<end>"
+korean = "나는 나야. 변하지 않아.<end>"
+
+["1980246"]
+japanese = "伝説のフライパンを手に入れた。<end>"
+korean = "전설의 프라이팬을 손에 넣었다.<end>"
 
 ["1980247"]
 japanese = "フェルムメッセージ終了<end>"

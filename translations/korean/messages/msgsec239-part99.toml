@@ -4,6 +4,10 @@
 japanese = "危ないっ！<end>"
 korean = "위험해!<end>"
 
+["2390004"]
+japanese = "いったい、ここで何をしていた？<end>"
+korean = "도대체 여기서 뭘 하고 있었지?<end>"
+
 ["2390006"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
@@ -11,3 +15,7 @@ korean = "<value:$28>인가.<end>"
 ["2390010"]
 japanese = "待て、<value:$28>。<end>"
 korean = "기다려, <value:$28>.<end>"
+
+["2390014"]
+japanese = "いったい、ここで何をしていた？<end>"
+korean = "도대체 여기서 뭘 하고 있었지?<end>"

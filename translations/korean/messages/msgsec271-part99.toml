@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2710004"]
+japanese = "構わないわ。やってちょうだい。<end>"
+korean = "상관없어. 해 줘.<end>"
+
 ["2710016"]
 japanese = "待て、逃がすか！<end>"
 korean = "기다려, 놓칠까 보냐!<end>"
@@ -7,3 +11,7 @@ korean = "기다려, 놓칠까 보냐!<end>"
 ["2710018"]
 japanese = "くっ、逃げられたか。<end>"
 korean = "큭, 놓쳤나.<end>"
+
+["2710023"]
+japanese = "それでも構わないと言うのか…？<end>"
+korean = "그래도 상관없다는 건가…?<end>"

@@ -4,6 +4,14 @@
 japanese = "迫害のダークエルフ用開始<end>"
 korean = "박해받는 다크엘프용 시작<end>"
 
+["2060009"]
+japanese = "なんだと、貴様。ふざけるな！<end>"
+korean = "뭐라고, 네놈. 장난치지 마!<end>"
+
+["2060012"]
+japanese = "うっ！　い、いや、それは…。<end>"
+korean = "윽! 아, 아니, 그건….<end>"
+
 ["2060014"]
 japanese = "ほら、行くわよ<value:$28>！<end>"
 korean = "자, 가자 <value:$28>!<end>"
