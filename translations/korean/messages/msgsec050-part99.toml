@@ -72,6 +72,10 @@ korean = "무기를 들고 저항한다<end>"
 japanese = "おとなしく従ってくれて助かります。<end>"
 korean = "순순히 따라줘서 다행입니다.<end>"
 
+["500031"]
+japanese = "…ムダですね。<line-break>動けないはずです。<end>"
+korean = "…소용없습니다. 움직일 수 없을 겁니다.<end>"
+
 ["500051"]
 japanese = "ファーロス・ボリューム１終端<end>"
 korean = "파로스 볼륨 1 끝<end>"

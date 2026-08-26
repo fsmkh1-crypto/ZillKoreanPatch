@@ -40,6 +40,10 @@ korean = "제네테스의 예측은 적중했다.<end>"
 japanese = "見事ねぇ…。<end>"
 korean = "훌륭하네….<end>"
 
+["1620048"]
+japanese = "さ～て、と。<line-break>生き残る方法を考えなきゃ、だな。　　<line-break>な、<value:$28>。<end>"
+korean = "자, 그럼. 살아남을 방법을 생각해야겠군. 그렇지, <value:$28>.<end>"
+
 ["1620054"]
 japanese = "ねらうは、アンギルダンのみ！<end>"
 korean = "노리는 건 앙길단뿐!<end>"

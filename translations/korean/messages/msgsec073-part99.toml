@@ -4,9 +4,21 @@
 japanese = "アーギルシャイアメッセージvol3開始<end>"
 korean = "아길샤이어 메시지 vol3 시작<end>"
 
+["730001"]
+japanese = "ひー、だっせー。<line-break>信じられねーよ！<end>"
+korean = "으하, 촌스러워. 믿을 수가 없네!<end>"
+
 ["730008"]
 japanese = "…まあな。<end>"
 korean = "…뭐, 그렇지.<end>"
+
+["730009"]
+japanese = "…俺の姉のことを<line-break>聞きに来たのか。<end>"
+korean = "…내 누나 이야기를 들으러 왔나.<end>"
+
+["730019"]
+japanese = "…ふ、…ふ、<line-break>おもしろいことよ…。<end>"
+korean = "…후, …후, 재미있군….<end>"
 
 ["730022"]
 japanese = "アーギルシャイア様！<end>"

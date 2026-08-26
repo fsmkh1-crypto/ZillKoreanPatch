@@ -60,6 +60,10 @@ korean = "후후, 믿고 있어.<end>"
 japanese = "ゼネテス、行っちゃったね…。<end>"
 korean = "제네테스, 가 버렸네….<end>"
 
+["1480068"]
+japanese = "でもでもぉ、ルルアンタは<line-break>いつまでも<value:$28>と<line-break>一緒にいるからね！<end>"
+korean = "그래도 루루안타는 계속 <value:$28>이랑 함께 있을 거야!<end>"
+
 ["1480070"]
 japanese = "もう質問はありません<end>"
 korean = "이제 질문은 없습니다.<end>"

@@ -80,6 +80,10 @@ korean = "왜 그래, 갑자기.<end>"
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
 
+["1780086"]
+japanese = "<value:$28>、<line-break>お前の今までの冒険のことを、<line-break>あとで話してくれないか？<end>"
+korean = "<value:$28>, 네가 지금까지 겪은 모험 이야기를 나중에 들려주지 않겠나?<end>"
+
 ["1780104"]
 japanese = "ロストールメッセージＶ５／１終端<end>"
 korean = "로스톨 메시지 V5/1 끝<end>"

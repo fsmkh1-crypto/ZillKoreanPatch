@@ -44,6 +44,10 @@ korean = "그래. 그럼 힘내라.<end>"
 japanese = "じゃあ、いくわよ…。<end>"
 korean = "그럼, 간다….<end>"
 
+["700054"]
+japanese = "誰か来る…。<line-break>無粋ね、こんな時に。<end>"
+korean = "누가 온다…. 분위기 깨네, 이런 때에.<end>"
+
 ["700057"]
 japanese = "じゃあね、<value:$28>。<line-break>その名前、覚えておくわ…。<line-break>　<end>"
 korean = "그럼 안녕, <value:$28>. 그 이름, 기억해 둘게….<end>"
