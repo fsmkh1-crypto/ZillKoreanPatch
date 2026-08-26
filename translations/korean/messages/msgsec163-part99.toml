@@ -4,6 +4,10 @@
 japanese = "アンギルダン・ボリューム３２用開始<end>"
 korean = "앙길단 볼륨 32용 시작<end>"
 
+["1630002"]
+japanese = "よく来てくれた、　　　　　　　　<line-break><value:$28>。<end>"
+korean = "잘 와 주었구나, <value:$28>.<end>"
+
 ["1630005"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -51,6 +55,10 @@ korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
 ["1630039"]
 japanese = "<value:$28>、<line-break>まずまずの戦功じゃな。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに励んでくれ。<line-break>期待しておるぞ。<end>"
 korean = "<value:$28>, 제법 전공을 세웠구나. 이건 포상이다. 더욱 힘써라. 기대하고 있다.<end>"
+
+["1630045"]
+japanese = "いかにも略奪行為じゃ。<line-break>じゃがな、<value:$28>。<end>"
+korean = "분명 약탈 행위다. 하지만 말이다, <value:$28>.<end>"
 
 ["1630050"]
 japanese = "て、敵襲！<end>"

@@ -4,6 +4,10 @@
 japanese = "ルルアンタ（修）その１　開始<end>"
 korean = "루루안타(수정) 그 1 시작<end>"
 
+["1470001"]
+japanese = "お、来たな、　　　　　　　　　　　<line-break><value:$28>。<line-break>　<line-break>そんじゃ、ギルドに行くとしようか。<line-break>ついてきてくれ。<end>"
+korean = "오, 왔군, <value:$28>. 그럼 길드로 가자. 따라와.<end>"
+
 ["1470009"]
 japanese = "ふぅん。<line-break>…で、どんなんだい？<end>"
 korean = "흐음. …그래서, 어떤 건데?<end>"
@@ -127,6 +131,10 @@ korean = "준비됐다<end>"
 ["1470127"]
 japanese = "まだ準備中<end>"
 korean = "아직 준비 중<end>"
+
+["1470142"]
+japanese = "やめとけ、<value:$28>。<line-break>挑発に乗るんじゃない。<end>"
+korean = "그만둬, <value:$28>. 도발에 넘어가지 마.<end>"
 
 ["1470143"]
 japanese = "一対一で勝負する<end>"
