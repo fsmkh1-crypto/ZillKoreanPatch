@@ -28,6 +28,10 @@ korean = "뭐? 그게 사실인가?<end>"
 japanese = "何がお望みかしら？<end>"
 korean = "뭘 원하시나요?<end>"
 
+["850013"]
+japanese = "ロセンの解放だ。<line-break>ディンガルの豚め！<end>"
+korean = "로센 해방이다. 딩갈의 돼지 놈들!<end>"
+
 ["850015"]
 japanese = "ペウダ王の仇にそんな真似ができるか。<end>"
 korean = "페우다 왕의 원수에게 그런 짓을 할 수 있겠나.<end>"
@@ -55,6 +59,10 @@ korean = "거절한다<end>"
 ["850032"]
 japanese = "そうですか。では、失礼。<end>"
 korean = "그렇습니까. 그럼 이만.<end>"
+
+["850033"]
+japanese = "<value:$28>様、<line-break>お待ちしておりました。<end>"
+korean = "<value:$28>님, 기다리고 있었습니다.<end>"
 
 ["850034"]
 japanese = "さ、こちらへ…。<end>"
@@ -95,6 +103,10 @@ korean = "(…부조리의 자객?)<end>"
 ["850055"]
 japanese = "き、君は…？<end>"
 korean = "너, 너는…?<end>"
+
+["850057"]
+japanese = "ついでだ。<line-break>その仇、取らせてもらう。<end>"
+korean = "마침 잘됐다. 그 원수, 내가 갚겠다.<end>"
 
 ["850058"]
 japanese = "く、くそっ！<end>"

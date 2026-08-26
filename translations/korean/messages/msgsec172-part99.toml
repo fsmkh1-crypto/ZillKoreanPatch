@@ -8,6 +8,14 @@ korean = "이크레문 V5-1 시작<end>"
 japanese = "また、卿か。<end>"
 korean = "또 그대인가.<end>"
 
+["1720007"]
+japanese = "…わかっておる。<line-break>何も言わんでよい。<end>"
+korean = "…알고 있다. 아무 말도 하지 마라.<end>"
+
+["1720011"]
+japanese = "白虎軍、総員乗船！<line-break>敵、アキュリュース守備傭兵団。<line-break>　<line-break>全軍、進め！<end>"
+korean = "백호군, 전원 승선! 적은 아큐류스 수비 용병단이다. 전군, 전진!<end>"
+
 ["1720013"]
 japanese = "き、来ました！<line-break>例の大蛇です！！<end>"
 korean = "와, 왔습니다! 그 큰 뱀입니다!!<end>"
@@ -39,6 +47,10 @@ korean = "큭….<end>"
 ["1720034"]
 japanese = "その通りだ。<line-break>ご苦労だったな。<end>"
 korean = "그래. 수고했다.<end>"
+
+["1720035"]
+japanese = "どうも。<line-break>また縁があったらよろしく。<end>"
+korean = "고맙습니다. 또 인연이 닿으면 잘 부탁드리죠.<end>"
 
 ["1720036"]
 japanese = "…クズめ。<end>"

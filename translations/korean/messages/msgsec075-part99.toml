@@ -16,6 +16,10 @@ korean = "어서 오십시오, 용사 <value:$28>님.<end>"
 japanese = "そして僕はシャリ、<line-break>知ってるよね？<end>"
 korean = "그리고 나는 샤리, 알고 있지?<end>"
 
+["750008"]
+japanese = "シャリ、どうしたのです？<line-break>殺気が…。<end>"
+korean = "샤리, 무슨 일이죠? 살기가….<end>"
+
 ["750009"]
 japanese = "何でもありませんよ、王女様。<end>"
 korean = "아무것도 아닙니다, 공주님.<end>"
@@ -40,9 +44,21 @@ korean = "저, 저기….<end>"
 japanese = "君はそう思うかい、<line-break><value:$28>？<end>"
 korean = "넌 그렇게 생각하니, <value:$28>?<end>"
 
+["750023"]
+japanese = "未使用：その通りだ。だからさびしい奴はイヤだ。<end>"
+korean = "미사용: 그 말이 맞다. 그래서 외로운 녀석은 싫어.<end>"
+
+["750024"]
+japanese = "未使用：そんなことはない。また、まいります。<end>"
+korean = "미사용: 그렇지 않습니다. 다시 오겠습니다.<end>"
+
 ["750027"]
 japanese = "それでは、王女様。<line-break>僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
 korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드리겠습니다.<end>"
+
+["750029"]
+japanese = "それでは、王女様、<line-break>失礼いたします。<end>"
+korean = "그럼 공주님, 실례하겠습니다.<end>"
 
 ["750033"]
 japanese = "きゃっ。<end>"
@@ -71,6 +87,10 @@ korean = "후후훗… 그럼 <value:$28>, 기다릴게.<end>"
 ["750053"]
 japanese = "それでは、王女様。<line-break>僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
 korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드리겠습니다.<end>"
+
+["750055"]
+japanese = "彼女に光を。<line-break>彼女の願い、かなえてほしい。<line-break>　<line-break>じゃあね。<line-break><value:$28>。<end>"
+korean = "그녀에게 빛을. 그녀의 소원을 이루어 줬으면 해. 그럼 안녕, <value:$28>.<end>"
 
 ["750056"]
 japanese = "そう…ですか。<line-break>残念です。<end>"
@@ -227,6 +247,10 @@ korean = "그런 말은 하지 않는 편이 좋아<end>"
 ["750204"]
 japanese = "その通りだ<end>"
 korean = "그 말대로야<end>"
+
+["750208"]
+japanese = "私といると、<line-break>ホッとする…のですか？<end>"
+korean = "저와 있으면 마음이 놓이시나요…?<end>"
 
 ["750211"]
 japanese = "きれいだ<end>"

@@ -4,6 +4,10 @@
 japanese = "フゴー、Vol６用メッセージ開始<end>"
 korean = "휴고 Vol6용 메시지 시작<end>"
 
+["830001"]
+japanese = "お待ちしておりました。<line-break><value:$28>様。<end>"
+korean = "기다리고 있었습니다, <value:$28>님.<end>"
+
 ["830003"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"

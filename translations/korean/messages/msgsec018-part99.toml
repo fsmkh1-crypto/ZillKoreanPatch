@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["180001"]
+japanese = "ふう、なんとか倒せたわね。<line-break>さあ、<value:$28>、あとは<line-break>ギルドに戻って報告するだけよ。<end>"
+korean = "후우, 어떻게든 쓰러뜨렸네. 자, <value:$28>, 이제 길드로 돌아가 보고만 하면 돼.<end>"
+
 ["180004"]
 japanese = "へへっ、いっちょうあがり！<line-break>よし、<value:$28>、報告しに<line-break>ギルドに行こうぜ！<end>"
 korean = "헤헷, 한 건 끝냈다! 좋아, <value:$28>, 길드에 보고하러 가자!<end>"

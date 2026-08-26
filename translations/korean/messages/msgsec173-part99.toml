@@ -68,6 +68,10 @@ korean = "흐…으, 으…흑. 으아앙.<end>"
 japanese = "貪欲の盾は、どこにある？<line-break>言え。<end>"
 korean = "탐욕의 방패는 어디 있지? 말해.<end>"
 
+["1730040"]
+japanese = "ぜ、ゼグナ…って、<line-break>おじちゃんが…。<end>"
+korean = "제, 제그나…라는 아저씨가….<end>"
+
 ["1730041"]
 japanese = "盾の在処はわかった。<line-break>ゆくぞ。<end>"
 korean = "방패가 있는 곳은 알아냈다. 가자.<end>"
@@ -75,6 +79,10 @@ korean = "방패가 있는 곳은 알아냈다. 가자.<end>"
 ["1730043"]
 japanese = "…今は、盾の方が<line-break>優先する。<end>"
 korean = "…지금은 방패가 우선이다.<end>"
+
+["1730044"]
+japanese = "それは、盾は重要だけど…。<line-break>　<line-break>　<line-break>仕方ないわ。<line-break>ドルドラム。<end>"
+korean = "그건, 방패는 중요하지만…. 어쩔 수 없네. 돌드람.<end>"
 
 ["1730045"]
 japanese = "今度は何かな？<end>"
@@ -144,9 +152,17 @@ korean = "그, 그건….<end>"
 japanese = "あのお方はお怒りだ。<end>"
 korean = "그분은 화가 나셨다.<end>"
 
+["1730102"]
+japanese = "い、命ばかりは。<line-break>つ、次こそ必ず…。<end>"
+korean = "모, 목숨만은. 다, 다음엔 반드시….<end>"
+
 ["1730103"]
 japanese = "失敗は死でつぐなえ。<line-break>シャリ。<end>"
 korean = "실패는 죽음으로 갚아라. 샤리.<end>"
+
+["1730104"]
+japanese = "ジュサぷー！<line-break>助けに来てくれたんだ！<end>"
+korean = "주사푸! 구하러 와 줬구나!<end>"
 
 ["1730110"]
 japanese = "メンゴ。<end>"
@@ -183,6 +199,10 @@ korean = "부하가 되지 않는다<end>"
 ["1730133"]
 japanese = "見つけたぞ。ジュサプブロス。<end>"
 korean = "찾았다. 주사프브로스.<end>"
+
+["1730137"]
+japanese = "予備用メッセージＶ５<line-break>オイフェその９<end>"
+korean = "예비 메시지 V5 오이페 9<end>"
 
 ["1730139"]
 japanese = "オイフェメッセージＶ５終端<end>"

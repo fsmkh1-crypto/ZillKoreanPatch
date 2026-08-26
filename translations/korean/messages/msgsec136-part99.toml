@@ -520,6 +520,10 @@ korean = "<value:$28> 님께 배우고 싶은 게 정말 많습니다.<end>"
 japanese = "あの…。<end>"
 korean = "저기….<end>"
 
+["1360423"]
+japanese = "なるほど、一理ありますな。<line-break>…よし、<value:$28>、<line-break>ちょいとこっちへ来てくれい。<end>"
+korean = "그렇군, 일리가 있네. …좋아, <value:$28>, 잠깐 이리 와 보게.<end>"
+
 ["1360425"]
 japanese = "…はあ？<end>"
 korean = "…하아?<end>"
@@ -547,6 +551,10 @@ korean = "후후후….<end>"
 ["1360491"]
 japanese = "フッフッフ、久しいな。<end>"
 korean = "후후후, 오랜만이군.<end>"
+
+["1360495"]
+japanese = "フフフ、そうか。<line-break>ならば、最後の予言を残そうか。<line-break>それは…、<line-break>お主らの死！<end>"
+korean = "후후후, 그런가. 그렇다면 마지막 예언을 남기지. 그것은… 너희의 죽음!<end>"
 
 ["1360498"]
 japanese = "フッフッフ…。<end>"
@@ -692,9 +700,25 @@ korean = "<value:$28> 님….<end>"
 japanese = "来てくれたのですね。<end>"
 korean = "와 주셨군요.<end>"
 
+["1360593"]
+japanese = "私にとっての世界はここだけ…<line-break><value:$28>様の世界は<line-break>もっと大きいのでしょうね。<end>"
+korean = "제게 세계는 여기뿐…. <value:$28>님의 세계는 더 넓겠지요.<end>"
+
 ["1360598"]
 japanese = "………………。<line-break> <line-break> <line-break>不適切なことを言いました。<end>"
 korean = "………………. 부적절한 말을 했습니다.<end>"
+
+["1360629"]
+japanese = "フッフッフ…。<line-break><line-break><line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
+korean = "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는다….<end>"
+
+["1360658"]
+japanese = "フッフッフ…。<line-break><line-break><line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
+korean = "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는다….<end>"
+
+["1360670"]
+japanese = "フッフッフ…。<line-break><line-break><line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
+korean = "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는다….<end>"
 
 ["1360691"]
 japanese = "ありがとう、<value:$28>。<line-break>彼女を闇に突き落とした<line-break>最大の功労者は君だよ。アハハハ！<end>"
@@ -775,6 +799,10 @@ korean = "폐성의 왕좌로 향하셨다.<end>"
 ["1360759"]
 japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
 korean = "봐, 왔어. <value:$28>가.<end>"
+
+["1360769"]
+japanese = "ティアナの死によってできた<line-break>強力な力場を通って現れたか。<line-break>ゆくぞ、<value:$28>！<end>"
+korean = "티아나의 죽음으로 생긴 강력한 역장을 뚫고 나타났나. 간다, <value:$28>!<end>"
 
 ["1360770"]
 japanese = "ジラーク、ボリューム６終端<end>"

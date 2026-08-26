@@ -60,6 +60,10 @@ korean = "티아나 곁에 있는다<end>"
 japanese = "あ…<value:$28>様！<end>"
 korean = "아… <value:$28> 님!<end>"
 
+["770033"]
+japanese = "アトレイア様…、<line-break>大丈夫でしょうか？<end>"
+korean = "아트레이아 님… 괜찮으실까요?<end>"
+
 ["770035"]
 japanese = "あ…、<value:$28>様…。<end>"
 korean = "아…, <value:$28> 님….<end>"
@@ -104,6 +108,10 @@ korean = "…거짓말이에요, 그런….<end>"
 japanese = "本当…ですか…？<end>"
 korean = "정말…인가요…?<end>"
 
+["770061"]
+japanese = "ああ、本当だ。<line-break>その宝石がみすぼらしく<line-break>見えるね。<line-break>それ、はずしたら？<end>"
+korean = "아, 정말이네. 그 보석이 초라해 보여. 그거 빼는 게 어때?<end>"
+
 ["770064"]
 japanese = "ええ、構いません。<line-break>どうぞ。<end>"
 korean = "네, 괜찮습니다. 어서요.<end>"
@@ -119,6 +127,10 @@ korean = "재미있는 무늬….<end>"
 ["770073"]
 japanese = "あの模様に、そんな意味があるの？<end>"
 korean = "그 무늬에 그런 의미가 있어?<end>"
+
+["770075"]
+japanese = "すてき！<line-break>あなた、みんなわかるのね？<end>"
+korean = "멋져! 당신, 전부 아는 거지?<end>"
 
 ["770077"]
 japanese = "お…しょくじ…も…どう…ぞ？<end>"

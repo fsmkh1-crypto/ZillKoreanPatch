@@ -152,6 +152,10 @@ korean = "힘내세요….<end>"
 japanese = "これが、本当に最後の戦いね。<line-break><value:$28>、<line-break>ちゃんと準備はできた？<end>"
 korean = "이게 정말 마지막 싸움이네. <value:$28>, 준비는 제대로 됐어?<end>"
 
+["1910134"]
+japanese = "ネメア様と一緒にもう一度<line-break>戦えるなんて思ってなかったわ。<line-break>あと一息ね、<value:$28>。<end>"
+korean = "네메아 님과 함께 다시 싸우게 될 줄은 몰랐어. 이제 한숨만 더 내면 돼, <value:$28>.<end>"
+
 ["1910136"]
 japanese = "ですから、<value:$28>。<line-break>運命などというものに<line-break>負けてはいけませんよ。<end>"
 korean = "그러니, <value:$28>. 운명 따위에 져서는 안 됩니다.<end>"

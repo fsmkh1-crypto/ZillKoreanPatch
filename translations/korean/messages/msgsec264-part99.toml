@@ -28,6 +28,10 @@ korean = "이쪽으로 올래? 별이 정말 예뻐.<end>"
 japanese = "胸が…苦しいの。<end>"
 korean = "가슴이… 답답해.<end>"
 
+["2640057"]
+japanese = "…ごめんなさい。<line-break>あたし…どうかしてる。<line-break>忘れて。<line-break>…おやすみ、<value:$28>。<end>"
+korean = "…미안해. 나… 이상한가 봐. 잊어 줘. …잘 자, <value:$28>.<end>"
+
 ["2640058"]
 japanese = "えっ？　あたしが冒険している理由？<end>"
 korean = "응? 내가 모험하는 이유?<end>"

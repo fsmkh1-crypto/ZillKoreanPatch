@@ -16,6 +16,10 @@ korean = "…<value:$28>, 너는 내가 지켜 줄게…. …<value:$28>.<end>"
 japanese = "起きなさい、<value:$28>！<line-break>もう、昼よ。　　　　　　　　　　　　<line-break>　<end>"
 korean = "일어나, <value:$28>! 벌써 낮이야.<end>"
 
+["300011"]
+japanese = "ったく、<line-break>世話のやける子なんだからぁ。<end>"
+korean = "정말, 손이 많이 가는 애라니까.<end>"
+
 ["300016"]
 japanese = "あら、目が覚めたみたいね、          <line-break><value:$28>。<line-break>　<end>"
 korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
@@ -43,6 +47,10 @@ korean = "괘, 괜찮으세요? <value:$28>님.<end>"
 ["300044"]
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"
+
+["300047"]
+japanese = "それじゃあ、<value:$28>さん。<line-break>私は仕事に戻ります。<line-break>たまには酒場に遊びにきてくださいね。<end>"
+korean = "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집에도 놀러 오세요.<end>"
 
 ["300049"]
 japanese = "冗談よ。<line-break>相変わらず子供ねぇ。<end>"
@@ -111,6 +119,10 @@ korean = "…<value:$28>? …그렇구나, 피곤했구나. …나도 왠지….
 ["300093"]
 japanese = "わかってるわよっ。<end>"
 korean = "알고 있다니까.<end>"
+
+["300100"]
+japanese = "ふぅーん。<line-break>何も言わずに出ていくんだ。<end>"
+korean = "흐응. 아무 말도 없이 나가는구나.<end>"
 
 ["300103"]
 japanese = "…さてと。<line-break>私もそろそろ行こうかな。<end>"

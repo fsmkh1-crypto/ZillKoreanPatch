@@ -180,6 +180,14 @@ korean = "OFF인 채로 둔다<end>"
 japanese = "未使用：チャカ、いくぜ？<end>"
 korean = "미사용: 차카, 가자?<end>"
 
+["880113"]
+japanese = "未使用：う、うん…。<line-break>すぐ、いくよ。<end>"
+korean = "미사용: 으, 응…. 금방 갈게.<end>"
+
+["880119"]
+japanese = "未使用：はて、誰でしたかいのう、ばあさんや。<end>"
+korean = "미사용: 글쎄, 누구였더라, 할멈아.<end>"
+
 ["880121"]
 japanese = "未使用：意地悪っ！<end>"
 korean = "미사용: 심술쟁이!<end>"
@@ -204,9 +212,17 @@ korean = "<value:$28>! 위험해!<end>"
 japanese = "あ、動ける！<end>"
 korean = "아, 움직여져!<end>"
 
+["880149"]
+japanese = "くすっ、よかったね。<line-break><value:$28>に感謝しないとね。<line-break>じゃ、またね。<line-break>あははっ。<end>"
+korean = "후후, 다행이네. <value:$28>에게 감사해야겠어. 그럼 또 봐. 아하하.<end>"
+
 ["880159"]
 japanese = "さ、ついてきて。<end>"
 korean = "자, 따라와.<end>"
+
+["880160"]
+japanese = "お待ちしておりました！<line-break>エステル様！<end>"
+korean = "기다리고 있었습니다! 에스텔 님!<end>"
 
 ["880161"]
 japanese = "ごめん…。<line-break>心配かけて。<end>"
@@ -307,6 +323,10 @@ korean = "멋지다고 생각해<end>"
 ["880250"]
 japanese = "ガラじゃない<end>"
 korean = "내 스타일이 아냐<end>"
+
+["880258"]
+japanese = "やあ、<value:$28>。<line-break>来てくれたんだね。<end>"
+korean = "안녕, <value:$28>. 와 줬구나.<end>"
 
 ["880262"]
 japanese = "じゃあ、一緒に行こう<end>"

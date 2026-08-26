@@ -112,9 +112,17 @@ korean = "알겠습니다, 아버님. <value:$28>도 데려가도 될까요?<end
 japanese = "ならぬ。<line-break><value:$28>は未熟だ。<line-break>危険すぎる。<end>"
 korean = "안 된다. <value:$28>는 아직 미숙하다. 너무 위험해.<end>"
 
+["320056"]
+japanese = "父上。もう、<value:$28>も<line-break>修行に出してもよい年頃。<line-break>私も一緒に参るのです。ご安心を。<end>"
+korean = "아버님. 이제 <value:$28>도 수행을 떠날 나이입니다. 저도 함께 가겠습니다. 안심하십시오.<end>"
+
 ["320064"]
 japanese = "…強くなるのだぞ。<end>"
 korean = "…강해져야 한다.<end>"
+
+["320065"]
+japanese = "遅くなってすまない。<line-break>神殿で取ってくるものが<line-break>あったのでな。<line-break>ゆくぞ。<end>"
+korean = "늦어서 미안하다. 신전에서 가져올 게 있었거든. 가자.<end>"
 
 ["320068"]
 japanese = "もう大丈夫か？<end>"

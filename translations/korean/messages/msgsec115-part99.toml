@@ -32,6 +32,10 @@ korean = "미안합니다.<end>"
 japanese = "…そう。<end>"
 korean = "…그래.<end>"
 
+["1150020"]
+japanese = "<value:$28>！<line-break>あなた、何か聞いてないかしら？<line-break>ネメア様の行方がわからないのよ。<end>"
+korean = "<value:$28>! 너, 뭐 들은 거 없어? 네메아 님의 행방을 모르겠어.<end>"
+
 ["1150022"]
 japanese = "お願い…。<line-break>ひとりにして…。<end>"
 korean = "부탁이야…. 혼자 있게 해 줘….<end>"

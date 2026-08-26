@@ -16,6 +16,10 @@ korean = "…용골 사막 한가운데….<end>"
 japanese = "<value:$28>様！<line-break>エステル様が、エステル様が！<line-break>シャリという魔術師にさらわれてしまいました！<end>"
 korean = "<value:$28>님! 에스텔 님이, 에스텔 님이! 샤리라는 마술사에게 납치됐습니다!<end>"
 
+["890032"]
+japanese = "えへへ、ありがと。<line-break>ねえ、座らない？<end>"
+korean = "헤헤, 고마워. 있잖아, 앉지 않을래?<end>"
+
 ["890040"]
 japanese = "パーティーに加える<end>"
 korean = "파티에 합류시킨다<end>"
@@ -51,6 +55,10 @@ korean = "이건…!<end>"
 ["890089"]
 japanese = "あんた、<value:$28>さんだね？<line-break>　　　　　　　　　　　　　　　　<line-break>　<end>"
 korean = "당신, <value:$28> 씨지?<end>"
+
+["890092"]
+japanese = "俺の話はそれだけだ。　　　　　　<line-break>　<end>"
+korean = "내 이야기는 그게 전부다.<end>"
 
 ["890093"]
 japanese = "（エステル…！）<end>"
@@ -191,6 +199,10 @@ korean = "…아…니.<end>"
 ["890197"]
 japanese = "そう…<line-break>仕方ない…わね。<end>"
 korean = "그래… 어쩔 수… 없네.<end>"
+
+["890198"]
+japanese = "ありがとう、<line-break>さがってくれていいわ。<end>"
+korean = "고마워, 이제 물러가도 돼.<end>"
 
 ["890212"]
 japanese = "あのときの…記憶が…<line-break>甦って…<end>"
@@ -352,6 +364,10 @@ korean = "이런 상태로!? 위험해!<end>"
 japanese = "おっと、失礼しました。<end>"
 korean = "앗, 실례했습니다.<end>"
 
+["890378"]
+japanese = "ここには否定も、<line-break>拒絶もありません。<end>"
+korean = "여기에는 부정도 거절도 없습니다.<end>"
+
 ["890383"]
 japanese = "あ…。<end>"
 korean = "아…<end>"
@@ -471,6 +487,10 @@ korean = "재미있는 일이야.<end>"
 ["890485"]
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
+
+["890486"]
+japanese = "どうあがこうと<line-break>運命には逆らえない。<end>"
+korean = "아무리 발버둥 쳐도 운명에는 거스를 수 없어.<end>"
 
 ["890488"]
 japanese = "<value:$28>、逃げなさい！<line-break>この町を出るの！<line-break>私もすぐにあとを追うわ！<end>"
@@ -688,6 +708,10 @@ korean = "<value:$28> 님! 카를라 님이 부르십니다. 알현실로 서둘
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
 
+["890609"]
+japanese = "きっ、貴様は、<value:$28>！<line-break>帝国を裏切っておきながら！<line-break>警備隊！　こいつを捕らえよ！<end>"
+korean = "네, 네놈은 <value:$28>! 제국을 배신하고도! 경비대! 이자를 붙잡아라!<end>"
+
 ["890610"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28>！<line-break>警備隊を呼べっ！　早く！<end>"
 korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
@@ -708,6 +732,10 @@ korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<
 japanese = "きっ、貴様は解放軍の<line-break><value:$28>！<line-break><line-break>警備隊を呼べっ！　早く！<end>"
 korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
 
+["890617"]
+japanese = "これは<value:$28>様。<line-break>お通りください。<end>"
+korean = "<value:$28>님이군요. 지나가십시오.<end>"
+
 ["890618"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break><line-break>警備隊を呼べっ！　早く！<end>"
 korean = "네, 네놈은 해방군의 <value:$28>… 경비대를 불러! 빨리!<end>"
@@ -719,6 +747,10 @@ korean = "<value:$28> 님! 카를라 님이 부르십니다. 알현실로 서둘
 ["890620"]
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
+
+["890621"]
+japanese = "きっ、貴様は、<value:$28>！<line-break>帝国を裏切っておきながら！<line-break>警備隊！　こいつを捕らえよ！<end>"
+korean = "네, 네놈은 <value:$28>! 제국을 배신하고도! 경비대! 이자를 붙잡아라!<end>"
 
 ["890622"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28>！<line-break>警備隊を呼べっ！　早く！<end>"
@@ -735,6 +767,10 @@ korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<
 ["890627"]
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
+
+["890628"]
+japanese = "きっ、貴様は、<value:$28>！<line-break>帝国を裏切っておきながら！<line-break>警備隊！　こいつを捕らえよ！<end>"
+korean = "네, 네놈은 <value:$28>! 제국을 배신하고도! 경비대! 이자를 붙잡아라!<end>"
 
 ["890629"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28>！<line-break>警備隊を呼べっ！　早く！<end>"
@@ -799,6 +835,10 @@ korean = "방금, 뭐라고…?<end>"
 ["890667"]
 japanese = "竜王様に…願う…？<end>"
 korean = "용왕님께… 소원을…?<end>"
+
+["890672"]
+japanese = "カフィン、レイヴン、<line-break>両名の復活を！<end>"
+korean = "카핀, 레이븐, 두 사람의 부활을!<end>"
 
 ["890673"]
 japanese = "こ、この声は…！<end>"
@@ -895,6 +935,10 @@ korean = "쳇… 이제 난동 부리지 마.<end>"
 ["890727"]
 japanese = "まあ、終わったからいいか。<end>"
 korean = "뭐, 끝났으니 됐나.<end>"
+
+["890728"]
+japanese = "ところで、<value:$28>…。<line-break>俺も仲間に加えてくれ。<line-break>俺、お前らと一緒に旅がしたいんだ。<end>"
+korean = "그런데 <value:$28>…. 나도 동료로 받아 줘. 나, 너희와 함께 여행하고 싶어.<end>"
 
 ["890730"]
 japanese = "僕はいま、<line-break>この<value:$28>と<line-break>旅をしてるんだ。<end>"

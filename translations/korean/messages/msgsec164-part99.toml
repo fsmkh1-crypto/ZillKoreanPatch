@@ -24,6 +24,10 @@ korean = "잡아라! 죽여라!<end>"
 japanese = "また、出やがったか！<end>"
 korean = "또 나타났냐!<end>"
 
+["1640015"]
+japanese = "かなり近いな。<line-break>行ってみるとしよう。<end>"
+korean = "꽤 가깝군. 가 보자.<end>"
+
 ["1640022"]
 japanese = "ゆくぞ。<end>"
 korean = "간다.<end>"
@@ -96,6 +100,10 @@ korean = "어둠에 떨며 삶을 버릴 셈인가?<end>"
 japanese = "妹のために？<end>"
 korean = "여동생을 위해서?<end>"
 
+["1640050"]
+japanese = "…仇を討つ。<line-break>それ以外、何ができる！<end>"
+korean = "…원수를 갚는다. 그 밖에 뭘 할 수 있겠어!<end>"
+
 ["1640052"]
 japanese = "…また会うこともあろう。<end>"
 korean = "…다시 만날 일도 있겠지.<end>"
@@ -139,6 +147,10 @@ korean = "큭…! 설마, 지다니.<end>"
 ["1640069"]
 japanese = "お前の名は？<end>"
 korean = "네 이름은?<end>"
+
+["1640071"]
+japanese = "私が出るまでも、<line-break>なかったようだな。<end>"
+korean = "내가 나설 필요도 없었던 모양이군.<end>"
 
 ["1640073"]
 japanese = "ん…！？<end>"
@@ -191,6 +203,42 @@ korean = "나는 알 수 있다.<end>"
 ["1640096"]
 japanese = "では、またな。<end>"
 korean = "그럼, 또 보자.<end>"
+
+["1640098"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ１だ。<end>"
+korean = "네메아 V1-2 예비 메시지 1이다.<end>"
+
+["1640099"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ２だ。<end>"
+korean = "네메아 V1-2 예비 메시지 2다.<end>"
+
+["1640100"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ３だ。<end>"
+korean = "네메아 V1-2 예비 메시지 3이다.<end>"
+
+["1640101"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ４だ。<end>"
+korean = "네메아 V1-2 예비 메시지 4다.<end>"
+
+["1640102"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ５だ。<end>"
+korean = "네메아 V1-2 예비 메시지 5다.<end>"
+
+["1640103"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ６だ。<end>"
+korean = "네메아 V1-2 예비 메시지 6이다.<end>"
+
+["1640104"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ７だ。<end>"
+korean = "네메아 V1-2 예비 메시지 7이다.<end>"
+
+["1640105"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ８だ。<end>"
+korean = "네메아 V1-2 예비 메시지 8이다.<end>"
+
+["1640106"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ９だ。<end>"
+korean = "네메아 V1-2 예비 메시지 9다.<end>"
 
 ["1640108"]
 japanese = "ネメア・ボリューム１その２終端<end>"

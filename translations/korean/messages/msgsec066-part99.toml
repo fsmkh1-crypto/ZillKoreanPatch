@@ -72,6 +72,10 @@ korean = "누, 누가! 당신 따위에게!<end>"
 japanese = "戦場は地獄になる。　　　<end>"
 korean = "전장은 지옥이 된다.<end>"
 
+["660040"]
+japanese = "うんにゃ。いくら俺でも<line-break>そこまでは割り切れねぇな。<line-break>　<line-break>ま、弔い酒だ。<end>"
+korean = "아니. 아무리 나라도 그렇게까지 냉정하게 끊어 내진 못하겠네. 뭐, 추모주다.<end>"
+
 ["660041"]
 japanese = "弔い酒？<end>"
 korean = "추모주?<end>"
@@ -87,6 +91,10 @@ korean = "마음대로 해!<end>"
 ["660058"]
 japanese = "うぬぼれてるって？　　　　　　　　<end>"
 korean = "자만하고 있다고?<end>"
+
+["660061"]
+japanese = "よう、<value:$28><line-break>今、もしかしてヒマ？<end>"
+korean = "어이, <value:$28>. 지금 혹시 한가해?<end>"
 
 ["660062"]
 japanese = "ヒマ<end>"
@@ -135,6 +143,10 @@ korean = "…이런 거짓 웃음을?<end>"
 ["660109"]
 japanese = "ちゃんとノックしたが、<line-break>返事がないから入ったんだ。<line-break>そうだろ、<value:$28>？<end>"
 korean = "노크는 했는데 대답이 없어서 들어온 거야. 그렇지, <value:$28>?<end>"
+
+["660114"]
+japanese = "なんだい、<line-break>いつもの元気はどうした？<end>"
+korean = "왜 그래, 평소의 기운은 어디 갔어?<end>"
 
 ["660117"]
 japanese = "それは立派な才能だぜ。<end>"

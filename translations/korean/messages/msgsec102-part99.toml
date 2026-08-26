@@ -64,6 +64,10 @@ korean = "으으… 아….<end>"
 japanese = "あーーーーー！<line-break><value:$28>っ！<line-break><value:$28>ー！<end>"
 korean = "아ーーーーー! <value:$28>! <value:$28>ー!<end>"
 
+["1020039"]
+japanese = "あーーーーー！<line-break>先生っ！　先生ー！<end>"
+korean = "아아아아아! 선생님! 선생니임!<end>"
+
 ["1020043"]
 japanese = "先生！　先生ー！<line-break>あーーーーー！<end>"
 korean = "선생님! 선생니임! 아아아아아!<end>"

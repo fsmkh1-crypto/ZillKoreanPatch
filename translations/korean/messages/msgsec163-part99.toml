@@ -36,6 +36,10 @@ korean = "오, 왔구나 <value:$28>. 역시 대단하군. 이걸로 이 싸움�
 japanese = "ひざまずくがよい。<end>"
 korean = "무릎을 꿇어라.<end>"
 
+["1630037"]
+japanese = "スキル<line-break>グロリアシルドを手に入れた。<end>"
+korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
+
 ["1630050"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적습이다!<end>"
@@ -47,6 +51,10 @@ korean = "말도 안 돼…! 적장은 누구냐!?<end>"
 ["1630056"]
 japanese = "来たぞ！<line-break>ディンガルの新手だ！<end>"
 korean = "왔다! 딩갈의 새로운 놈들이다!<end>"
+
+["1630061"]
+japanese = "…とっつぁん、<line-break>悪いが、命をもらう。<end>"
+korean = "…아저씨, 미안하지만 목숨을 받겠다.<end>"
 
 ["1630065"]
 japanese = "あばよ、とっつぁん、<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"
@@ -99,6 +107,22 @@ korean = "적이라고!? 무슨 소리야!<end>"
 ["1630126"]
 japanese = "将軍！　ご無事でしたか。<end>"
 korean = "장군! 무사하셨습니까.<end>"
+
+["1630144"]
+japanese = "アンギルダンの<line-break>予備メッセージ６じゃ<end>"
+korean = "앙길단의 예비 메시지 6다.<end>"
+
+["1630145"]
+japanese = "アンギルダンの<line-break>予備メッセージ７じゃ<end>"
+korean = "앙길단의 예비 메시지 7이다.<end>"
+
+["1630146"]
+japanese = "アンギルダンの<line-break>予備メッセージ８じゃ<end>"
+korean = "앙길단의 예비 메시지 8이다.<end>"
+
+["1630147"]
+japanese = "アンギルダンの<line-break>予備メッセージ９じゃ<end>"
+korean = "앙길단의 예비 메시지 9다.<end>"
 
 ["1630149"]
 japanese = "アンギルダン・ボリューム３２終端<end>"

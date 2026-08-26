@@ -16,6 +16,10 @@ korean = "호호호호, 그렇군요~.<end>"
 japanese = "ここはフゴー様のお屋敷です。<end>"
 korean = "여기는 휴고 님의 저택입니다.<end>"
 
+["800006"]
+japanese = "あ、ああ、あなたは、あの有名な<line-break><value:$2B>の<value:$28>！<line-break>どうぞ、お通りください。<end>"
+korean = "아, 당신은 그 유명한 <value:$2B>의 <value:$28>! 지나가십시오.<end>"
+
 ["800022"]
 japanese = "いやあっ！<line-break>…扉が、開くぅ！<end>"
 korean = "싫어! …문이, 열려어!<end>"

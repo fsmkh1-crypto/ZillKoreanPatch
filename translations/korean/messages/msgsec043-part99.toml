@@ -172,6 +172,14 @@ korean = "나도 서두르겠다. 사람 목숨이 달린 일이야.<end>"
 japanese = "剣で決着をつけよう…。<end>"
 korean = "검으로 결판내자….<end>"
 
+["430124"]
+japanese = "＜未使用＞大丈夫かよ？　<value:$28>。<end>"
+korean = "<미사용> 괜찮아? <value:$28>.<end>"
+
+["430127"]
+japanese = "＜未使用＞大丈夫かの？<line-break><value:$28>。<end>"
+korean = "<미사용> 괜찮은가? <value:$28>.<end>"
+
 ["430133"]
 japanese = "…生きているか。<line-break>ならば、いい。<end>"
 korean = "…살아 있나. 그렇다면 됐다.<end>"

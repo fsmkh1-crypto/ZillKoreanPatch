@@ -104,6 +104,10 @@ korean = "또… 오셨군요….<end>"
 japanese = "…私なんかに<line-break>何かご用ですか？<end>"
 korean = "…저 같은 사람에게 무슨 볼일이신가요?<end>"
 
+["640071"]
+japanese = "私にご用なんて<line-break>ないんでしょう？<line-break>　<line-break>私はしょせん<line-break>お母様の…。<end>"
+korean = "저한테 볼일은 없으시겠죠? 저는 어차피 어머님의….<end>"
+
 ["640074"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
@@ -460,6 +464,10 @@ korean = "응. 어떻게 하고 싶어?<end>"
 japanese = "うーい。<end>"
 korean = "어이.<end>"
 
+["640309"]
+japanese = "あなた！<line-break>ここで何をしているのです？<end>"
+korean = "당신! 여기서 뭘 하고 있는 겁니까?<end>"
+
 ["640311"]
 japanese = "どんな具合だい？<end>"
 korean = "상태가 어때?<end>"
@@ -551,6 +559,10 @@ korean = "네, 네…. 돌아가죠.<end>"
 ["640334"]
 japanese = "今日は…<line-break>よい勉強になりました。<end>"
 korean = "오늘은… 좋은 공부가 됐습니다.<end>"
+
+["640335"]
+japanese = "私には手の届かない<line-break>世界なのですね。<end>"
+korean = "저로서는 닿을 수 없는 세계군요.<end>"
 
 ["640336"]
 japanese = "ティアナの言うとおりだと思う<end>"

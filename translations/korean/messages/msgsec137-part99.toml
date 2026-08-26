@@ -828,6 +828,10 @@ korean = "부재중. 곧 돌아옵니다.<end>"
 japanese = "　　　　　　　　　留守中。すぐに戻ります。　　　<end>"
 korean = "부재중. 곧 돌아옵니다.<end>"
 
+["1370679"]
+japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"
+korean = "너무 돌아다니지 않는 게 좋을 것 같아요. 가죠, <value:$28>님.<end>"
+
 ["1370680"]
 japanese = "<value:$28>さん、<line-break>どうして宿屋さんに？<line-break>まだ用事は済んでいませんよ。<end>"
 korean = "<value:$28> 씨, 왜 여관에? 아직 용무가 끝나지 않았어요.<end>"
@@ -843,6 +847,10 @@ korean = "아, 고마워.<end>"
 ["1370686"]
 japanese = "行きましょ、<value:$28>さん。<end>"
 korean = "가죠, <value:$28> 씨.<end>"
+
+["1370688"]
+japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"
+korean = "너무 돌아다니지 않는 게 좋을 것 같아요. 가죠, <value:$28>님.<end>"
 
 ["1370690"]
 japanese = "<value:$28>さんと一緒だったから<line-break><end>すごく安心できました。<line-break><end>"
@@ -883,6 +891,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1370725"]
 japanese = "<value:$28>、<line-break>さっき宿屋でフェルムと<line-break>一緒だったの見たんだけど…。<end>"
 korean = "<value:$28>, 아까 여관에서 펠름과 함께 있던 걸 봤는데….<end>"
+
+["1370726"]
+japanese = "そっか…。<line-break>宿屋で話を聞いてたのね。<line-break><line-break>別に気にしてたわけじゃないからね。<end>"
+korean = "그렇구나…. 여관에서 이야기를 듣고 있었네. 딱히 신경 쓴 건 아니니까.<end>"
 
 ["1370729"]
 japanese = "あ、アイリーンさん<line-break>こんにちは。<end>"

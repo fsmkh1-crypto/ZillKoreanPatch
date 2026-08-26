@@ -12,6 +12,10 @@ korean = "쓰레기라고!<end>"
 japanese = "危なかったね。<line-break>大丈夫？<end>"
 korean = "위험했네. 괜찮아?<end>"
 
+["1030020"]
+japanese = "へぇー、<value:$28>か。<line-break>　<line-break>　<line-break>ところで<value:$28>、<line-break>ボクの名前、覚えた？<end>"
+korean = "헤에, <value:$28>인가. 그런데 <value:$28>, 내 이름 기억했어?<end>"
+
 ["1030026"]
 japanese = "待ちなよ。<end>"
 korean = "기다려.<end>"

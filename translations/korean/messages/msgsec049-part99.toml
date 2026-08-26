@@ -176,6 +176,10 @@ korean = "그래, 하지만 만전을 기해야지. …누구냐!<end>"
 japanese = "ちっ、おぼえてやがれ！<end>"
 korean = "쳇, 두고 보자!<end>"
 
+["490174"]
+japanese = "おいおい、おぼえてていいのかよ？<line-break>っと、くだらん冗談はあとだ。<line-break>急ごう、<value:$28>。<end>"
+korean = "야, 기억해도 되는 거냐? 뭐, 시답잖은 농담은 됐고. 서두르자, <value:$28>.<end>"
+
 ["490175"]
 japanese = "ここは…。<line-break>いや、ここがそうなのか…。<end>"
 korean = "여긴…. 아니, 여기가 그곳인가….<end>"
@@ -243,6 +247,10 @@ korean = "우와아앙!!! <value:$28>~!<end>"
 ["490208"]
 japanese = "こっちもいろいろ事情があってな。<end>"
 korean = "이쪽도 여러 사정이 있어서 말이지.<end>"
+
+["490215"]
+japanese = "オルファウスさんが<line-break>助けてくれたんだよぉ。　　　　　　　<line-break><value:$28>からもお礼言ってね。<end>"
+korean = "오르파우스 씨가 구해 줬어. <value:$28>도 고맙다고 해 줘.<end>"
 
 ["490218"]
 japanese = "朝からうるせーぞ！<line-break>このガキ！<end>"
@@ -363,6 +371,10 @@ korean = "여어, <value:$28>.<end>"
 ["490323"]
 japanese = "ゼネテスさんを待たせちゃ<line-break>いけないよ。<end>"
 korean = "제네테스 씨를 기다리게 하면 안 돼.<end>"
+
+["490325"]
+japanese = "なあ、<value:$28><line-break>俺の我がままにつきあってくれないか<line-break>もう少しこの森を調べてみたいんだ。<end>"
+korean = "있잖아, <value:$28>. 내 고집에 조금만 더 어울려 주지 않을래? 이 숲을 좀 더 조사하고 싶어.<end>"
 
 ["490331"]
 japanese = "ルルアンタ・ボリューム１終端<end>"

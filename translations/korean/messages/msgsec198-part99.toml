@@ -176,6 +176,10 @@ korean = "화낸다니, 누구한테요?<end>"
 japanese = "お帰りなさい、<value:$28>。<end>"
 korean = "어서 와, <value:$28>.<end>"
 
+["1980183"]
+japanese = "あっ、<value:$28>さん！　<line-break>　<line-break>あ、あの…。<line-break>先ほどはありがとうございました。<end>"
+korean = "아, <value:$28>님! 저, 저기…. 아까는 고마웠어요.<end>"
+
 ["1980184"]
 japanese = "どうぞ、ゆっくりしていってください。<end>"
 korean = "부디 느긋하게 쉬다 가세요.<end>"
@@ -191,6 +195,10 @@ korean = "아, 음…. ……………….<end>"
 ["1980191"]
 japanese = "<value:$28>さん…。<line-break>もしかして、私を冒険の旅に<line-break>加えていただけるんですか？<end>"
 korean = "<value:$28>님…. 혹시 저도 모험 여행에 데려가 주시는 건가요?<end>"
+
+["1980192"]
+japanese = "ど、どうしよう…？<line-break>なんとかつじつまを合わせなきゃ…。<line-break>　<line-break>………………！<end>"
+korean = "어, 어떡하지…? 어떻게든 말이 되게 맞춰야 해…. ………………!<end>"
 
 ["1980196"]
 japanese = "ええっ！<end>"

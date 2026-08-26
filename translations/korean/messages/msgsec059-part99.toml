@@ -64,6 +64,10 @@ korean = "거절한다<end>"
 japanese = "ひざまづくがよい。<end>"
 korean = "무릎을 꿇어라.<end>"
 
+["590058"]
+japanese = "<value:$28>殿の言うとおりです。<line-break>それは略奪行為です。<line-break>将軍、思いとどまってください。<end>"
+korean = "<value:$28>님의 말씀이 맞습니다. 그건 약탈입니다. 장군, 재고해 주십시오.<end>"
+
 ["590061"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적의 습격이다!<end>"

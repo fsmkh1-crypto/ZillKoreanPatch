@@ -268,6 +268,10 @@ korean = "으으…… …<value:$28>…인가?<end>"
 japanese = "お、お前は…、<line-break>こんなになってまで。<end>"
 korean = "너, 너는… 이렇게 되면서까지.<end>"
 
+["1350210"]
+japanese = "…愛している、<line-break><value:$28>。<line-break> <line-break>…俺はもうお前を離したくない。<line-break>俺は！<end>"
+korean = "…사랑한다, <value:$28>. …이제 너를 놓고 싶지 않아. 나는!<end>"
+
 ["1350211"]
 japanese = "すまん。<line-break>すまん、<value:$28>…<end>"
 korean = "미안하다. 미안해, <value:$28>….<end>"
@@ -475,6 +479,10 @@ korean = "오, 오너라! 반역자 제네테스!<end>"
 ["1350344"]
 japanese = "<value:$28>さん<line-break>あなたの存在は解放軍に<line-break>かくべからざるものです。<end>"
 korean = "<value:$28> 씨, 당신의 존재는 해방군에 없어서는 안 됩니다.<end>"
+
+["1350345"]
+japanese = "覇道を進むディンガル帝国を<line-break>許してはいけない！<line-break>そうでしょう、<value:$28>さん？<end>"
+korean = "패도를 걷는 딩갈 제국을 용서해선 안 돼! 그렇죠, <value:$28>님?<end>"
 
 ["1350346"]
 japanese = "なんで？<end>"

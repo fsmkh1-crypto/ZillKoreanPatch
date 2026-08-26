@@ -24,6 +24,10 @@ korean = "어? 하지만… <value:$28>도 형이 차원의 틈으로 떨어졌�
 japanese = "…本当に？<end>"
 korean = "…정말로?<end>"
 
+["1810013"]
+japanese = "私がウソをついたことが<line-break>ありますか？<end>"
+korean = "제가 거짓말한 적이 있나요?<end>"
+
 ["1810016"]
 japanese = "<value:$28>、<line-break>話があります。<line-break>居間に来てもらえますか？<end>"
 korean = "<value:$28>, 할 말이 있습니다. 거실로 와 주시겠어요?<end>"

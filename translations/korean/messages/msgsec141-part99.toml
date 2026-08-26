@@ -264,6 +264,10 @@ korean = "<value:$28> 씨, 갑시다!<end>"
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
 
+["1410217"]
+japanese = "…で、でも、いいんですか？<line-break>わたし、<value:$28>さんに<line-break>迷惑をかけちゃうかも…。<end>"
+korean = "…그, 그래도 괜찮아요? 제가 <value:$28>님께 폐를 끼칠지도….<end>"
+
 ["1410223"]
 japanese = "行ってしまったな。<end>"
 korean = "가버렸군.<end>"
@@ -360,6 +364,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "そっちはどうだった、<value:$28>？<line-break>精霊の息吹を<line-break>感じられそうな場所は見つかったか？<end>"
 korean = "그쪽은 어땠어, <value:$28>? 정령의 숨결을 느낄 만한 곳은 찾았어?<end>"
 
+["1410309"]
+japanese = "だが、<value:$28>。<line-break>つぐなうというのは、<line-break>この場合、どうすることなのだろうか？<end>"
+korean = "하지만 <value:$28>. 속죄한다는 건 이 경우 어떻게 해야 하는 걸까?<end>"
+
 ["1410310"]
 japanese = "ロイ…。<end>"
 korean = "로이….<end>"
@@ -435,6 +443,10 @@ korean = "오라버니!<end>"
 ["1410353"]
 japanese = "ねえ、<value:$28>。<line-break><value:$28>の中じゃ、<line-break>もう、全部終わっちゃった？<end>"
 korean = "저기, <value:$28>. <value:$28>한테는 이제 다 끝난 거야?<end>"
+
+["1410362"]
+japanese = "ねえ、<value:$28>、お願い！<line-break>手伝って！　<value:$28>の力で、<line-break>私たちを助けて！　お願い！<end>"
+korean = "있잖아, <value:$28>, 부탁이야! 도와줘! <value:$28>의 힘으로 우리를 도와줘! 부탁해!<end>"
 
 ["1410364"]
 japanese = "…そういうことだったのね、ヴィア。<end>"

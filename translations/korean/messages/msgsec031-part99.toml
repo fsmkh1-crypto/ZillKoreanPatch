@@ -88,6 +88,10 @@ korean = "그렇게 되면 좋겠네<end>"
 japanese = "それは…ただの夢物語だよ<end>"
 korean = "그건… 그저 꿈같은 이야기야.<end>"
 
+["310071"]
+japanese = "ごめんなさい！<line-break>だいじょうぶですかぁ？<end>"
+korean = "미안해요! 괜찮으세요?<end>"
+
 ["310074"]
 japanese = "姉ちゃん、<line-break>まだ、何かあるのか？<end>"
 korean = "누나, 아직 뭐가 더 있어?<end>"
@@ -135,6 +139,10 @@ korean = "뭐라고, 볼보라!?<end>"
 ["310115"]
 japanese = "黙れ、ボルボラ！！<end>"
 korean = "닥쳐, 볼보라!!<end>"
+
+["310122"]
+japanese = "ぼ…ボルボラ…、<line-break>お前…いったい…！？<end>"
+korean = "보… 볼보라… 너… 대체…!?<end>"
 
 ["310128"]
 japanese = "ゲヘ！　<value:$28>を倒したぞ！<line-break>おめでとう、俺！<line-break>これで晴れてノーブルの領主だ！！<end>"
@@ -260,6 +268,10 @@ korean = "…어쩔 수 없구나. 이것도 마을을 위해서다. 에스트 �
 japanese = "…<value:$28>、…逃げて。<line-break>早く…。<end>"
 korean = "…<value:$28>, …도망쳐. 빨리….<end>"
 
+["310197"]
+japanese = "なんじゃ！？<line-break>エスト様が…いったい…？<end>"
+korean = "뭐라고!? 에스트 님이… 대체…?<end>"
+
 ["310199"]
 japanese = "撃て！！<end>"
 korean = "쏴!!<end>"
@@ -379,6 +391,10 @@ korean = "대장간<end>"
 ["310293"]
 japanese = "道具屋<end>"
 korean = "도구점<end>"
+
+["310294"]
+japanese = "ああ、<value:$28>。<line-break>誰かがケガをなさるといけないので<line-break>私もずっと店を開けているんですよ。<end>"
+korean = "아, <value:$28>. 누가 다치면 안 되니까 저도 계속 가게를 열어 두고 있어요.<end>"
 
 ["310296"]
 japanese = "宿屋<end>"

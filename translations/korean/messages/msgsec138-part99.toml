@@ -12,9 +12,17 @@ korean = "<value:$28>님…. 오늘 밤은 이 여관에 묵으시나요?<end>"
 japanese = "お主にどうしても礼が言いたくてな。<end>"
 korean = "그대에게 꼭 감사 인사를 하고 싶어서 말이지.<end>"
 
+["1380013"]
+japanese = "<value:$28>。<line-break>我が娘、イークレムンの命を<line-break>救ってくれたこと、心より感謝いたす。<end>"
+korean = "<value:$28>. 내 딸 이크렘의 목숨을 구해 준 것, 진심으로 감사한다.<end>"
+
 ["1380015"]
 japanese = "本当に感謝しとる。<end>"
 korean = "정말 감사하고 있네.<end>"
+
+["1380018"]
+japanese = "お主がいなければ…、<line-break>わしはまた…<end>"
+korean = "네가 없었더라면… 나는 또….<end>"
 
 ["1380019"]
 japanese = "お主には感謝してもしきれぬな。<end>"
@@ -111,6 +119,10 @@ korean = "신경 쓰지 않았어<end>"
 ["1380094"]
 japanese = "…待っててくれるよね、<line-break><value:$28>？<end>"
 korean = "…기다려 줄 거지, <value:$28>?<end>"
+
+["1380097"]
+japanese = "<value:$28>がどれだけすごい<line-break>冒険者かは、前に依頼したボクが<line-break>一番良く知ってる。<end>"
+korean = "<value:$28>이 얼마나 대단한 모험자인지는 전에 의뢰했던 내가 가장 잘 알아.<end>"
 
 ["1380099"]
 japanese = "明日も早いんだったよね。<line-break>頑張らなくっちゃ！<line-break><line-break>おやすみ、<value:$28>。<end>"
@@ -255,6 +267,10 @@ korean = "잠깐 생각 좀 하고 있었어.<end>"
 ["1380255"]
 japanese = "俺は…<end>"
 korean = "나는…<end>"
+
+["1380258"]
+japanese = "そうだな、<line-break>すまない…忘れてくれ。<end>"
+korean = "그래, 미안하다… 잊어 줘.<end>"
 
 ["1380259"]
 japanese = "あっ！<line-break><value:$28>。<end>"
@@ -720,6 +736,10 @@ korean = "부재중. 곧 돌아옵니다.<end>"
 japanese = "　　　　　留守中。すぐに戻ります。　　　　　<end>"
 korean = "부재중. 곧 돌아옵니다.<end>"
 
+["1380528"]
+japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"
+korean = "너무 돌아다니지 않는 게 좋을 것 같아요. 가죠, <value:$28>님.<end>"
+
 ["1380529"]
 japanese = "<value:$28>さん、<line-break>どうして宿屋さんに？<line-break>まだ用事は済んでいませんよ。<end>"
 korean = "<value:$28> 씨, 왜 여관에? 아직 용무가 끝나지 않았어요.<end>"
@@ -736,9 +756,17 @@ korean = "아, 고마워.<end>"
 japanese = "行きましょ、<value:$28>さん。<end>"
 korean = "가죠, <value:$28> 씨.<end>"
 
+["1380537"]
+japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"
+korean = "너무 돌아다니지 않는 게 좋을 것 같아요. 가죠, <value:$28>님.<end>"
+
 ["1380540"]
 japanese = "あの…、あたし…<end>"
 korean = "저기…, 나…<end>"
+
+["1380541"]
+japanese = "……いえ、なんでもないです。<line-break>それじゃ、中に入りましょうか。<line-break><value:$28>さん。<end>"
+korean = "……아뇨, 아무것도 아니에요. 그럼 안으로 들어갈까요, <value:$28>님.<end>"
 
 ["1380543"]
 japanese = "装備の強度とは？<end>"

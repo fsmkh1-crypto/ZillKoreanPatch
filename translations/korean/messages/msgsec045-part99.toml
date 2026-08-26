@@ -100,6 +100,10 @@ korean = "너는?<end>"
 japanese = "ゴメンね…、ケガさせちゃって。<end>"
 korean = "미안… 다치게 해서.<end>"
 
+["450050"]
+japanese = "ねえ、<value:$28>。<line-break>お願いだよ。僕は強くなりたい。<line-break>僕を連れていってほしいんだ。　　　　<end>"
+korean = "있잖아, <value:$28>. 부탁이야. 난 강해지고 싶어. 나도 데려가 줘.<end>"
+
 ["450051"]
 japanese = "仲間にする<end>"
 korean = "동료로 삼는다<end>"

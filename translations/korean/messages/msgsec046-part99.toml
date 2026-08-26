@@ -64,6 +64,10 @@ korean = "…<value:$28>! 반에게는 여관이….<end>"
 japanese = "どうだった、親父？<end>"
 korean = "어땠어, 아버지?<end>"
 
+["460063"]
+japanese = "いやだなあ。<line-break>そんなにグッとくる曲だったかい。<line-break><line-break>ま、これも親孝行だからな。<end>"
+korean = "참, 그렇게 마음에 와닿는 곡이었나? 뭐, 이것도 효도니까.<end>"
+
 ["460064"]
 japanese = "親孝行…。　　　　　　　　<end>"
 korean = "효도….<end>"
@@ -111,6 +115,10 @@ korean = "아버지!<end>"
 ["460102"]
 japanese = "すまないな。<end>"
 korean = "미안하군.<end>"
+
+["460105"]
+japanese = "それじゃ、ギルドは…<line-break>　<line-break>　<line-break>あ、あの建物がそうだね。<line-break>行こう、<value:$28>。<end>"
+korean = "그럼 길드는… 아, 저 건물이구나. 가자, <value:$28>.<end>"
 
 ["460113"]
 japanese = "知ってるんですか？<end>"
@@ -195,6 +203,10 @@ korean = "거절한다<end>"
 ["460207"]
 japanese = "すぐはめて？　すぐはめて？　　<end>"
 korean = "바로 끼워 줘? 바로 끼워 줘?<end>"
+
+["460212"]
+japanese = "<value:$28>はロジクーニンに<line-break>無理矢理、指輪をはめさせられた。<line-break><line-break>しかも、薬指に…。<end>"
+korean = "<value:$28>은 로지쿠닌에게 억지로 반지를 끼워졌다. 그것도 약지에….<end>"
 
 ["460215"]
 japanese = "説明してもらう<end>"

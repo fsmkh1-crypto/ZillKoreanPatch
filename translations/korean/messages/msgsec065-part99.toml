@@ -16,6 +16,10 @@ korean = "꺅!<end>"
 japanese = "では、お返しします。<end>"
 korean = "그럼 돌려드리겠습니다.<end>"
 
+["650018"]
+japanese = "<value:$28>…様。<line-break>素敵なお名前ですね。<end>"
+korean = "<value:$28>…님. 멋진 이름이네요.<end>"
+
 ["650020"]
 japanese = "お父様が？　大変！<end>"
 korean = "아버님이? 큰일이야!<end>"
@@ -159,6 +163,10 @@ korean = "<value:$28>님도.<end>"
 ["650118"]
 japanese = "…ゼネテスさん。すまない。<end>"
 korean = "…제네테스 씨. 미안하다.<end>"
+
+["650121"]
+japanese = "ありがとうよ、本当に。<line-break>助かったよ。<end>"
+korean = "정말 고맙다. 덕분에 살았어.<end>"
 
 ["650122"]
 japanese = "ゼネテスと同じくらいかっこよかったよ。<end>"
