@@ -80,6 +80,10 @@ korean = "응. 정말 고마워.<end>"
 japanese = "書いてある内容がわかるように<line-break>ならないと。<end>"
 korean = "적혀 있는 내용을 알아볼 수 있게 되어야 해.<end>"
 
+["1920045"]
+japanese = "あ、<value:$28>様ですか？<line-break>どうぞ、お入りになって。<end>"
+korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
+
 ["1920049"]
 japanese = "あ、あの…。<line-break>どう、ですか？<end>"
 korean = "저, 저기…. 어때요?<end>"

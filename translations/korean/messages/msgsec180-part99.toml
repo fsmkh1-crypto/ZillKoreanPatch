@@ -104,6 +104,10 @@ korean = "그럼 지나가십시오.<end>"
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
 
+["1800065"]
+japanese = "これは、<value:$28>様。<line-break>今日はどうなされたのです？<end>"
+korean = "<value:$28>님이시군요. 오늘은 무슨 일로 오셨습니까?<end>"
+
 ["1800066"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"

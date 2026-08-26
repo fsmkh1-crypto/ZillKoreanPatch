@@ -776,6 +776,10 @@ korean = "나, 나왔다! 괴, 괴물이!<end>"
 japanese = "う、嘘じゃない。<line-break>な、仲間が中で！<end>"
 korean = "거, 거짓말 아니야. 도, 동료가 안에 있어!<end>"
 
+["1380449"]
+japanese = "これは、<value:$28>様。<line-break>今日はどうなされたのです？<end>"
+korean = "<value:$28>님이시군요. 오늘은 무슨 일로 오셨습니까?<end>"
+
 ["1380450"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
