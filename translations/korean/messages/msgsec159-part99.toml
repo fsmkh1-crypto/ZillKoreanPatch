@@ -304,6 +304,10 @@ korean = "응, 루루안타는 잘 지내. 있잖아, 플린트 씨가 말해 �
 japanese = "じゃ、あらためてぇ…。　　　　<end>"
 korean = "그럼 다시 한번….<end>"
 
+["1590178"]
+japanese = "あたしは、ルルアンタ。<line-break>よろしくね、<value:$28>。<end>"
+korean = "나는 루루안타야. 잘 부탁해, <value:$28>.<end>"
+
 ["1590179"]
 japanese = "………………？<line-break>無限のソウルを持つ者…。<end>"
 korean = "………………? 무한의 소울을 지닌 자….<end>"
