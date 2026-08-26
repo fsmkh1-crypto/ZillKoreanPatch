@@ -524,6 +524,10 @@ korean = "…저, 저기, <value:$28> 씨.<end>"
 japanese = "痛テテテテテテテ！<end>"
 korean = "아야야야야야야!<end>"
 
+["1340372"]
+japanese = "お待ちしておりました。<line-break><value:$28>様。<end>"
+korean = "기다리고 있었습니다, <value:$28>님.<end>"
+
 ["1340374"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"

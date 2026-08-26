@@ -452,6 +452,10 @@ korean = "알겠습니다, 아버님. <value:$28>도 데려가도 될까요?<end
 japanese = "ならぬ。<line-break><value:$28>は未熟だ。<line-break>危険すぎる。<end>"
 korean = "안 된다. <value:$28>는 아직 미숙하다. 너무 위험해.<end>"
 
+["1370394"]
+japanese = "父上。もう、<value:$28>も<line-break>修行に出してもよい年頃。<line-break>私も一緒に参るのです。ご安心を。<end>"
+korean = "아버님. 이제 <value:$28>도 수행을 떠날 나이입니다. 저도 함께 가겠습니다. 안심하십시오.<end>"
+
 ["1370399"]
 japanese = "<value:$28>…。<line-break>ソウルについてはロイから<line-break>教わったのか？<end>"
 korean = "<value:$28>…. 소울에 대해서는 로이에게 배웠나?<end>"
@@ -684,6 +688,10 @@ korean = "괘, 괜찮으세요? <value:$28>님.<end>"
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"
 
+["1370570"]
+japanese = "それじゃあ、<value:$28>さん。<line-break>私は仕事に戻ります。<line-break>たまには酒場に遊びにきてくださいね。<end>"
+korean = "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집에도 놀러 오세요.<end>"
+
 ["1370571"]
 japanese = "冒険者ギルドとは？<end>"
 korean = "모험자 길드란?<end>"
@@ -743,6 +751,10 @@ korean = "아뇨, 역시 아무것도 아닙니다. ………<end>"
 ["1370600"]
 japanese = "…あの、このあと…お暇ですか？<end>"
 korean = "…저기, 이 다음에… 시간 있으세요?<end>"
+
+["1370601"]
+japanese = "それじゃあ、<value:$28>さん。<line-break>私は仕事に戻ります。<line-break>たまには酒場に遊びにきてくださいね。<end>"
+korean = "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집에도 놀러 오세요.<end>"
 
 ["1370602"]
 japanese = "追加メッセージここから<end>"

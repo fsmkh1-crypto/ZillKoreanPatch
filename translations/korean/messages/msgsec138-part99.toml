@@ -488,6 +488,10 @@ korean = "다, 당신이 숲의 현자님?<end>"
 japanese = "えっ！　いいんですか？<end>"
 korean = "어! 정말 괜찮은 건가요?<end>"
 
+["1380360"]
+japanese = "それじゃあ、<line-break>よろしくお願いします。<end>"
+korean = "그럼 잘 부탁드립니다.<end>"
+
 ["1380364"]
 japanese = "へっ、どうだかな！<end>"
 korean = "흥, 글쎄다!<end>"
@@ -683,6 +687,10 @@ korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
 ["1380481"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28>！<line-break>警備隊を呼べっ！　早く！<end>"
 korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
+
+["1380482"]
+japanese = "これは<value:$28>様。<line-break>お通りください。<end>"
+korean = "<value:$28>님이군요. 지나가십시오.<end>"
 
 ["1380483"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"

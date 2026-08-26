@@ -40,6 +40,10 @@ korean = "…이제 됐어. 어서 가.<end>"
 japanese = "…気をつけるのよ、<line-break><value:$28>。<end>"
 korean = "…조심해, <value:$28>.<end>"
 
+["1010038"]
+japanese = "立派な冒険者になってね、<line-break><value:$28>。<end>"
+korean = "훌륭한 모험자가 되렴, <value:$28>.<end>"
+
 ["1010039"]
 japanese = "…私、軍務で忙しいの。<line-break>あなたも早く私から卒業して。<line-break>それじゃ、<value:$28>。<end>"
 korean = "…난 군무로 바빠. 너도 이제 나한테서 졸업해. 그럼, <value:$28>.<end>"
