@@ -556,9 +556,17 @@ korean = "미안하다. 시간이 좀 걸렸다.<end>"
 japanese = "…強くなったな、<line-break><value:$28>。<line-break>私も力を貸そう。<end>"
 korean = "…강해졌군, <value:$28>. 나도 힘을 보태지.<end>"
 
+["1360752"]
+japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
+korean = "봐, 왔어. <value:$28>가.<end>"
+
 ["1360754"]
 japanese = "廃城の玉座へ向かわれた。<end>"
 korean = "폐성의 왕좌로 향하셨다.<end>"
+
+["1360759"]
+japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
+korean = "봐, 왔어. <value:$28>가.<end>"
 
 ["1360770"]
 japanese = "ジラーク、ボリューム６終端<end>"

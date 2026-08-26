@@ -8,6 +8,10 @@ korean = "V7 파트 2 시작<end>"
 japanese = "行け！<end>"
 korean = "가!<end>"
 
+["1900005"]
+japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
+korean = "봐, 왔어. <value:$28>가.<end>"
+
 ["1900027"]
 japanese = "ふっふ、久しいな。<end>"
 korean = "후후, 오랜만이군.<end>"

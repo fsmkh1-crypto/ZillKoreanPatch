@@ -24,6 +24,10 @@ korean = "새로운 힘을 얻고 싶지 않나?<end>"
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 
+["1890036"]
+japanese = "<value:$28>、<line-break>君がいるからね。<end>"
+korean = "<value:$28>, 네가 있으니까.<end>"
+
 ["1890038"]
 japanese = "さあ、儀式を始めようか。<end>"
 korean = "자, 의식을 시작할까.<end>"
