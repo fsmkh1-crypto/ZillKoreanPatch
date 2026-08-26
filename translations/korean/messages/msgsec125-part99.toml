@@ -48,6 +48,10 @@ korean = "………………. 쫓지 않는 건가?<end>"
 japanese = "ベルゼーヴァ様…。<line-break><line-break><line-break>………………。<end>"
 korean = "벨제바 님…. ……………….<end>"
 
+["1250243"]
+japanese = "湖に沈んだ遺跡？<line-break>ゴメンね。<value:$28>。<line-break>ルルアンタ、分からないよぉ。<end>"
+korean = "호수에 가라앉은 유적? 미안해, <value:$28>. 루루안타는 모르겠어.<end>"
+
 ["1250244"]
 japanese = "………………。<line-break><line-break><line-break>知らぬ。<end>"
 korean = "………………. 모른다.<end>"

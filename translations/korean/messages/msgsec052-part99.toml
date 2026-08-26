@@ -8,6 +8,10 @@ korean = "파로스 볼륨2 그 2 시작<end>"
 japanese = "根拠は？<end>"
 korean = "근거는?<end>"
 
+["520006"]
+japanese = "間者の報告。<line-break>兵、兵糧の備蓄。<end>"
+korean = "첩자의 보고. 병력과 군량 비축.<end>"
+
 ["520007"]
 japanese = "…なるほど。<end>"
 korean = "…그렇군.<end>"
@@ -72,6 +76,10 @@ korean = "5분이면 돼. 부탁한다, <value:$28>.<end>"
 japanese = "バカな！　ロストール軍だと！<end>"
 korean = "말도 안 돼! 로스톨군이라고!<end>"
 
+["520113"]
+japanese = "奇襲だ！<line-break>とにかく、もみつぶせ！<end>"
+korean = "기습이다! 어쨌든 짓뭉개 버려!<end>"
+
 ["520121"]
 japanese = "朱雀将軍が討ち取られたぞ！<end>"
 korean = "주작장군이 쓰러졌다!<end>"
@@ -104,6 +112,10 @@ korean = "그럼, 작전회의를 시작한다.<end>"
 japanese = "ゼネテス殿の予想通りだ。<end>"
 korean = "제네테스 공의 예상대로다.<end>"
 
+["520143"]
+japanese = "軍を急行させては、隊列が乱れるのでは？<end>"
+korean = "군을 급히 움직이면 대열이 흐트러지지 않겠습니까?<end>"
+
 ["520144"]
 japanese = "何もない<end>"
 korean = "아무것도 없다<end>"
@@ -119,6 +131,10 @@ korean = "…가아아아악!<end>"
 ["520165"]
 japanese = "敵襲！<end>"
 korean = "적습!<end>"
+
+["520172"]
+japanese = "よくやったな。<line-break>やるじゃねえか。<end>"
+korean = "잘했군. 제법인데.<end>"
 
 ["520183"]
 japanese = "ファーロス・ボリューム２その２終端<end>"

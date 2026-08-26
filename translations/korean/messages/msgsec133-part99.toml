@@ -68,6 +68,10 @@ korean = "무사하셔서 다행입니다.<end>"
 japanese = "はい…。<end>"
 korean = "네….<end>"
 
+["1330108"]
+japanese = "<value:$28>さん……！<line-break>きっと、きっと来てくれると<line-break>思っていました…。<end>"
+korean = "<value:$28> 씨……! 분명, 분명 와 줄 거라고 생각했어요….<end>"
+
 ["1330116"]
 japanese = "せーの！！<end>"
 korean = "하나, 둘!!<end>"
@@ -252,6 +256,10 @@ korean = "예? 재상, 무슨…?<end>"
 japanese = "…来たか。<line-break><value:$28>。<end>"
 korean = "…왔나. <value:$28>.<end>"
 
+["1330327"]
+japanese = "<value:$28>、<line-break>エンシャントは失陥した。<line-break>たった数人の魔道士のためにな。<end>"
+korean = "<value:$28>, 엔샨트는 함락됐다. 단 몇 명의 마도사 때문에.<end>"
+
 ["1330333"]
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
@@ -263,6 +271,10 @@ korean = "다치면 돌아오거라.<end>"
 ["1330344"]
 japanese = "よろしくお願いします。<line-break><value:$28>殿！<line-break>ここはお任せください。<end>"
 korean = "잘 부탁드립니다, <value:$28>님! 여기는 맡겨 주십시오.<end>"
+
+["1330345"]
+japanese = "（もう後戻りするわけにはいかない…。）<end>"
+korean = "(이제는 되돌아갈 수 없어….)<end>"
 
 ["1330352"]
 japanese = "フォフォフォ…。<end>"

@@ -96,6 +96,10 @@ korean = "미사용<end>"
 japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
 korean = "아, 지나가십시오. <value:$28> 님.<end>"
 
+["640084"]
+japanese = "<value:$28>様が<line-break>ティアナのことを気にかけて　　<line-break>くださっているって…。<end>"
+korean = "<value:$28> 님이 티아나를 신경 써 주고 계시다고….<end>"
+
 ["640085"]
 japanese = "もう帰ってしまうのですか？　　　<end>"
 korean = "벌써 돌아가시는 건가요?<end>"
@@ -208,6 +212,10 @@ korean = "아, 벌써 돌아가시나요?<end>"
 japanese = "何かお飲物をおもちしましょうか？<end>"
 korean = "뭔가 마실 것을 가져다드릴까요?<end>"
 
+["640192"]
+japanese = "ごめんなさい。<line-break>せっかく<value:$28>様が<line-break>来てくださったというのに…。<end>"
+korean = "죄송해요. 모처럼 <value:$28> 님이 와 주셨는데….<end>"
+
 ["640201"]
 japanese = "…わかりました。<end>"
 korean = "…알겠습니다.<end>"
@@ -252,6 +260,10 @@ korean = "미사용<end>"
 japanese = "…やっぱり、お見通しなのですね。<end>"
 korean = "…역시 다 알고 계시는군요.<end>"
 
+["640226"]
+japanese = "お願いです、<value:$28>様。<line-break>どうかティアナを<line-break>街へ連れ出してください。<end>"
+korean = "부탁드립니다, <value:$28> 님. 부디 티아나를 거리로 데려가 주세요.<end>"
+
 ["640227"]
 japanese = "本当ですか！<end>"
 korean = "정말입니까!<end>"
@@ -279,6 +291,10 @@ korean = "그렇구나, 오빠가 말했구나.<end>"
 ["640239"]
 japanese = "えっ、ええ…<end>"
 korean = "어, 어어…<end>"
+
+["640247"]
+japanese = "ひどい…。<line-break>　<line-break>　<line-break>誰なの？<line-break>誰がこんなひどいことを！<end>"
+korean = "끔찍해…. 누가? 누가 이런 짓을 한 거야!<end>"
 
 ["640259"]
 japanese = "この子のために…頼む。<end>"

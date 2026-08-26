@@ -36,6 +36,10 @@ korean = "자금 지원 요청하러 간다<end>"
 japanese = "行かない<end>"
 korean = "안 간다<end>"
 
+["1880045"]
+japanese = "おう、<value:$28>。<line-break>今戻ったか。クリュセイス様が<line-break>お待ちかねだ。<end>"
+korean = "오, <value:$28>. 이제 돌아왔나. 크류세이스 님이 기다리고 계신다.<end>"
+
 ["1880048"]
 japanese = "ロストール軍に参戦したと言う<end>"
 korean = "로스톨군에 참전했다고 말한다<end>"

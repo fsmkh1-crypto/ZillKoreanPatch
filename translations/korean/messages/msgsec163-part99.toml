@@ -28,6 +28,10 @@ korean = "무릎을 꿇어라.<end>"
 japanese = "て、敵襲！<end>"
 korean = "저, 적습이다!<end>"
 
+["1630065"]
+japanese = "あばよ、とっつぁん、<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"
+korean = "잘 있어, 아저씨, 그리고 <value:$28>! 살아서 다시 만나자!<end>"
+
 ["1630073"]
 japanese = "将軍！　ご無事でしたか。<end>"
 korean = "장군! 무사하셨습니까.<end>"

@@ -20,6 +20,14 @@ korean = "………………. 엔샨트 길드로 가라.<end>"
 japanese = "どうしようか？ボゲー<end>"
 korean = "어떻게 할까? 보게<end>"
 
+["1210179"]
+japanese = "………………。<line-break><line-break><line-break>強くなれ。<line-break>今のお前は弱すぎる。<end>"
+korean = "………………. 강해져라. 지금의 너는 너무 약하다.<end>"
+
+["1210184"]
+japanese = "ここ！　って町を決めようよ。<line-break><value:$28>様の好きな町で<line-break>いいと思うよ。<end>"
+korean = "여기다! 싶은 마을을 정하자. <value:$28> 님이 좋아하는 마을이면 돼.<end>"
+
 ["1210209"]
 japanese = "実力をつけるには？ボゲー<end>"
 korean = "실력을 키우려면? 보게<end>"

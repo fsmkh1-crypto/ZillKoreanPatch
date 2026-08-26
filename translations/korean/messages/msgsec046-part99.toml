@@ -4,6 +4,10 @@
 japanese = "ガルドラン・ボリューム１その２開始<end>"
 korean = "갈드란 볼륨1 그 2 시작<end>"
 
+["460001"]
+japanese = "た、助けてくれ～！<line-break>人さらいだ！<end>"
+korean = "도, 도와줘~! 유괴범이다!<end>"
+
 ["460002"]
 japanese = "黙れ、この野郎！<end>"
 korean = "닥쳐, 이 자식아!<end>"
@@ -55,6 +59,10 @@ korean = "어땠어, 아버지?<end>"
 ["460064"]
 japanese = "親孝行…。　　　　　　　　<end>"
 korean = "효도….<end>"
+
+["460066"]
+japanese = "たくさん、たくさんなぁ…。<line-break>　<end>"
+korean = "많이, 아주 많이….<end>"
 
 ["460081"]
 japanese = "…ナッジのこと、頼むぜ。<end>"

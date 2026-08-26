@@ -48,6 +48,10 @@ korean = "이건?<end>"
 japanese = "ほう。<line-break>こりゃあ、すげぇな。<end>"
 korean = "호오. 이거 대단한데.<end>"
 
+["570047"]
+japanese = "こら！<line-break>だから、俺を実験台に…<end>"
+korean = "이봐! 그러니까 날 실험대로 삼지 말라고…<end>"
+
 ["570049"]
 japanese = "なるほどな。<end>"
 korean = "그렇군.<end>"
@@ -119,6 +123,10 @@ korean = "그건 할 수 없어<end>"
 ["570099"]
 japanese = "じゃ、あらためてぇ…。　　　　<end>"
 korean = "그럼 다시 한번….<end>"
+
+["570103"]
+japanese = "そう…。<line-break>ちょっと、がっかり。<end>"
+korean = "그래…. 조금 실망이네.<end>"
 
 ["570108"]
 japanese = "<value:$28>か？<end>"

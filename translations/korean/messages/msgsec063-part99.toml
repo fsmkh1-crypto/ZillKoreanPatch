@@ -192,6 +192,10 @@ korean = "…미안해요.<end>"
 japanese = "あら、まだこれからですわ。<end>"
 korean = "어머, 아직 이제부터랍니다.<end>"
 
+["630164"]
+japanese = "仕方ありませんね。<line-break>また、いらっしゃってください。<line-break><value:$28>様も。<end>"
+korean = "어쩔 수 없군요. 또 와 주세요. <value:$28> 님도요.<end>"
+
 ["630166"]
 japanese = "ふふふ…、レムオン様ったら。<end>"
 korean = "후후후…, 레므온 님도 참.<end>"

@@ -32,6 +32,10 @@ korean = "어떤 식으로요?<end>"
 japanese = "まあ…。<end>"
 korean = "어머….<end>"
 
+["2100021"]
+japanese = "そうか、残念だな。<line-break>別の人に頼んでみるよ。<line-break>　<line-break>じゃあな。<end>"
+korean = "그런가, 아쉽군. 다른 사람에게 부탁해 볼게. 그럼.<end>"
+
 ["2100022"]
 japanese = "異種族間の４用終端<end>"
 korean = "이종족 간 4용 끝<end>"

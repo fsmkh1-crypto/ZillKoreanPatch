@@ -72,6 +72,10 @@ korean = "마지막 말은 그걸로 끝인가?<end>"
 japanese = "確かに、聞いた。<end>"
 korean = "그래, 들었다.<end>"
 
+["400037"]
+japanese = "リベルダムまで跳ぶ。<line-break>ゆくぞ。<end>"
+korean = "리벨덤까지 뛰어간다. 가자.<end>"
+
 ["400042"]
 japanese = "むしろ、<line-break>始まりかもしれん。<end>"
 korean = "오히려 시작일지도 모르지.<end>"
@@ -176,6 +180,10 @@ korean = "응? 뭐라고?<end>"
 japanese = "残念だ、エリュマルクよ。<end>"
 korean = "유감이군, 에류마르크.<end>"
 
+["400092"]
+japanese = "ぐ…ぐほっ！<line-break>ネ、ネメ…ア…！<end>"
+korean = "크… 커헉! 네, 네메…아…!<end>"
+
 ["400098"]
 japanese = "は。もちろんです。<end>"
 korean = "네. 물론입니다.<end>"
@@ -236,6 +244,10 @@ korean = "…발끈하지 마.<end>"
 japanese = "ムキになんかなっていないわ！<end>"
 korean = "발끈한 거 아니거든!<end>"
 
+["400152"]
+japanese = "勇ましいな。<line-break>どれ、加勢しよう。<end>"
+korean = "용감하군. 어디, 거들어 주지.<end>"
+
 ["400153"]
 japanese = "助けはいらないわ。<end>"
 korean = "도움은 필요 없어.<end>"
@@ -251,6 +263,10 @@ korean = "나 혼자면 충분해.<end>"
 ["400157"]
 japanese = "黙ってて、ドルドラム！<line-break>　<line-break>　<line-break>いくわよ！<end>"
 korean = "조용히 해, 돌드람! 간다!<end>"
+
+["400158"]
+japanese = "くっ…！<line-break>私が負けるなんて…！！<end>"
+korean = "큭…! 내가 지다니…!!<end>"
 
 ["400160"]
 japanese = "傲慢の首飾りを失った。<end>"
@@ -391,6 +407,10 @@ korean = "좋다. 데려오너라.<end>"
 ["400228"]
 japanese = "ネメア様をお連れしました。<end>"
 korean = "네메아 님을 모셔 왔습니다.<end>"
+
+["400231"]
+japanese = "いいだろう。<line-break>聞こうではないか。<end>"
+korean = "좋다. 들어 보지.<end>"
 
 ["400235"]
 japanese = "…世界を手に入れる。<end>"

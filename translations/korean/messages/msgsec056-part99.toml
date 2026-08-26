@@ -728,6 +728,10 @@ korean = "야! 위험해!<end>"
 japanese = "ほーら、<line-break>言ったとおりでしょ！<line-break>…って、<value:$28>！<end>"
 korean = "거봐, 내가 말한 대로지! …아니, <value:$28>!<end>"
 
+["560626"]
+japanese = "心配なら、アイリーンも<line-break>一緒に<value:$28>の<line-break>仲間になったらいいじゃん！<end>"
+korean = "걱정되면 아이린도 함께 <value:$28>의 동료가 되면 되잖아!<end>"
+
 ["560627"]
 japanese = "わ、私は…！<end>"
 korean = "나, 나는…!<end>"
@@ -771,6 +775,10 @@ korean = "…이상해. 사람이 없어.<end>"
 ["560699"]
 japanese = "<value:$28>！<line-break>逃げなきゃ！<end>"
 korean = "<value:$28>! 도망쳐야 해!<end>"
+
+["560701"]
+japanese = "こっちの動きは<line-break>敵に完全にバレていたみたい。<line-break>どうしよう、<value:$28>？<end>"
+korean = "우리 움직임은 적에게 완전히 들킨 것 같아. 어떡하지, <value:$28>?<end>"
 
 ["560703"]
 japanese = "…くっ！<line-break>逃げるんだ。<end>"

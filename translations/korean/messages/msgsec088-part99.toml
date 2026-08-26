@@ -272,6 +272,10 @@ korean = "그렇지 않아<end>"
 japanese = "やめておこうかな<end>"
 korean = "그만둘까<end>"
 
+["880235"]
+japanese = "　　　　　　　ならば行くがよい。　　　　　　<end>"
+korean = "그렇다면 가라.<end>"
+
 ["880245"]
 japanese = "<value:$28>、<line-break>大丈夫だった？　<end>"
 korean = "<value:$28>, 괜찮았어?<end>"
@@ -303,6 +307,10 @@ korean = "정말!? 해냈다-!!<end>"
 ["880268"]
 japanese = "やあ、<value:$28>。<line-break>ラドラスはどう？<line-break>まだちょっと迷ったりする？<end>"
 korean = "안녕, <value:$28>. 라드라스는 어때? 아직 좀 헤매기도 해?<end>"
+
+["880272"]
+japanese = "やあ、<value:$28>。<line-break>何回もボクに会いに来てくれるなんて<line-break>うれしいよ。<end>"
+korean = "안녕, <value:$28>. 몇 번이나 날 만나러 와 주다니 기뻐.<end>"
 
 ["880277"]
 japanese = "やあ、<value:$28>。<line-break>また来てくれたんだ。<line-break>うれしいよ。<end>"

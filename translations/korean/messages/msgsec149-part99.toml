@@ -168,6 +168,10 @@ korean = "봐주지 않겠다. 똑똑히 알아둬라!<end>"
 japanese = "な、なんだ？<end>"
 korean = "뭐, 뭐지?<end>"
 
+["1490155"]
+japanese = "し、仕方ない。<line-break>ここは退くぞ！<end>"
+korean = "어, 어쩔 수 없군. 여기선 물러난다!<end>"
+
 ["1490163"]
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
@@ -179,6 +183,10 @@ korean = "막아야 한다<end>"
 ["1490165"]
 japanese = "放っておこう<end>"
 korean = "내버려 두자<end>"
+
+["1490167"]
+japanese = "ううぅ…。<line-break>う、腕をやられた。<end>"
+korean = "으윽…. 파, 팔을 당했어.<end>"
 
 ["1490179"]
 japanese = "君の名…、聞いておきたい。<end>"
@@ -359,6 +367,10 @@ korean = "대, 대단해….<end>"
 ["1490340"]
 japanese = "ありがたや、ありがたや。<end>"
 korean = "감사하옵니다, 감사하옵니다.<end>"
+
+["1490350"]
+japanese = "エルファスＶｏｌ１その１予備メッセージ１０<end>"
+korean = "엘파스 Vol1 그 1 예비 메시지 10<end>"
 
 ["1490351"]
 japanese = "エルファス　ボリューム１　終端<end>"

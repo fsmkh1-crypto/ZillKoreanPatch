@@ -180,6 +180,10 @@ korean = "우우… 가…… 우욱…… 아악!<end>"
 japanese = "ひいいい！<end>"
 korean = "히이이익!<end>"
 
+["1350196"]
+japanese = "<value:$28>の<line-break>ＶＩＴが5減少した。<end>"
+korean = "<value:$28>의 VIT가 5 감소했다.<end>"
+
 ["1350198"]
 japanese = "やさしく抱きしめる<end>"
 korean = "다정하게 끌어안는다<end>"
@@ -419,6 +423,10 @@ korean = "감사합니다!<end>"
 ["1350385"]
 japanese = "よし。<line-break>んじゃ、出発よ。<end>"
 korean = "좋아. 그럼 출발하자.<end>"
+
+["1350389"]
+japanese = "か、カ、カルラ様！<line-break>大変です！<end>"
+korean = "카, 카, 카를라 님! 큰일입니다!<end>"
 
 ["1350393"]
 japanese = "し、しかし！<end>"

@@ -52,6 +52,10 @@ korean = "레, 레몬… 님.<end>"
 japanese = "ふん…。　　　　　　　　　　　　　<end>"
 korean = "흥….<end>"
 
+["430026"]
+japanese = "あ…、あ…いえ！<line-break>お、お助けを！<end>"
+korean = "아… 아… 아니! 도, 도와줘!<end>"
+
 ["430027"]
 japanese = "兄さん！！<end>"
 korean = "형!!<end>"
@@ -151,6 +155,10 @@ korean = "나도 서두르겠다. 사람 목숨이 달린 일이야.<end>"
 ["430116"]
 japanese = "剣で決着をつけよう…。<end>"
 korean = "검으로 결판내자….<end>"
+
+["430133"]
+japanese = "…生きているか。<line-break>ならば、いい。<end>"
+korean = "…살아 있나. 그렇다면 됐다.<end>"
 
 ["430134"]
 japanese = "俺も急いでいる。　　　　　　　　　　<end>"

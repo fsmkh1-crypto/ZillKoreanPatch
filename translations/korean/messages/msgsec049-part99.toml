@@ -36,6 +36,14 @@ korean = "오늘쯤 올 거라고 생각하지만….<end>"
 japanese = "よ、待ってたぜ。　<end>"
 korean = "여어, 기다리고 있었어.　<end>"
 
+["490041"]
+japanese = "久しぶりだな、<line-break>イカサマ野郎。<end>"
+korean = "오랜만이군, 사기꾼 자식.<end>"
+
+["490043"]
+japanese = "な？<line-break>問題はあるけど一流だろ？<end>"
+korean = "그렇지? 문제는 있어도 일류잖아?<end>"
+
 ["490046"]
 japanese = "５０００ギア。<end>"
 korean = "5000기어.<end>"
@@ -120,6 +128,10 @@ korean = "네놈들, 뭘 캐고 다니는 거냐?<end>"
 japanese = "うう…、まさか、この俺が…。<end>"
 korean = "으으…, 설마 이 내가….<end>"
 
+["490153"]
+japanese = "消えろ！　　　　　　　　　　<line-break>　<end>"
+korean = "꺼져!<end>"
+
 ["490154"]
 japanese = "そうだな。賢者の森へ急ごう。<end>"
 korean = "그래. 현자의 숲으로 서두르자.<end>"
@@ -195,6 +207,10 @@ korean = "우와아앙!!! <value:$28>~!<end>"
 ["490208"]
 japanese = "こっちもいろいろ事情があってな。<end>"
 korean = "이쪽도 여러 사정이 있어서 말이지.<end>"
+
+["490218"]
+japanese = "朝からうるせーぞ！<line-break>このガキ！<end>"
+korean = "아침부터 시끄러워! 이 꼬맹이!<end>"
 
 ["490219"]
 japanese = "あいてててって…。う～。<end>"

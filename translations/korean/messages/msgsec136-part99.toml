@@ -160,6 +160,10 @@ korean = "…열어젖히는 자.<end>"
 japanese = "<value:$28>だな。<line-break>聞いている。<line-break>通るがいい。<end>"
 korean = "<value:$28>군. 얘기는 들었다. 지나가도 좋다.<end>"
 
+["1360215"]
+japanese = "報酬は錬剛石５個。<line-break>文句ある？<end>"
+korean = "보수는 연강석 5개. 불만 있어?<end>"
+
 ["1360238"]
 japanese = "わから…ない…。<end>"
 korean = "모르…겠어….<end>"
@@ -451,6 +455,10 @@ korean = "자, 잠깐, 카핀…!<end>"
 ["1360517"]
 japanese = "何よ、あんただって…<end>"
 korean = "뭐야, 너도….<end>"
+
+["1360520"]
+japanese = "違う。<line-break>もうひとり、客が来た。<end>"
+korean = "아니야. 손님이 한 명 더 왔어.<end>"
 
 ["1360527"]
 japanese = "エルファスを阻止する<end>"

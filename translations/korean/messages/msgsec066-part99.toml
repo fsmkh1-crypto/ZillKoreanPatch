@@ -148,6 +148,10 @@ korean = "어머…, 벌써 돌아가시나요?<end>"
 japanese = "生きてたら、<line-break>必ずまた来るさ。<end>"
 korean = "살아 있다면 반드시 다시 올 거야.<end>"
 
+["660152"]
+japanese = "<value:$28>様なら、<line-break>大歓迎いたしますわ。<line-break>また、いらしてくださいね。<end>"
+korean = "<value:$28> 님이라면 대환영이에요. 또 와 주세요.<end>"
+
 ["660166"]
 japanese = "くだらない<line-break>へりくつですわ。<end>"
 korean = "시시한 억지입니다.<end>"

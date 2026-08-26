@@ -88,6 +88,10 @@ korean = "5분이면 돼. 부탁한다, <value:$28>.<end>"
 japanese = "バカな、ロストール軍だと！<end>"
 korean = "말도 안 돼, 로스톨군이라고!<end>"
 
+["510102"]
+japanese = "奇襲だ！<line-break>とにかく、もみつぶせ！<end>"
+korean = "기습이다! 어쨌든 짓뭉개 버려!<end>"
+
 ["510110"]
 japanese = "朱雀将軍が討ち取られたぞ！<end>"
 korean = "주작장군이 쓰러졌다!<end>"
@@ -131,6 +135,10 @@ korean = "주작장군이 쓰러졌다!<end>"
 ["510147"]
 japanese = "退け！　退けええい！<end>"
 korean = "물러나라! 물러나아아!<end>"
+
+["510148"]
+japanese = "よくやったな。<line-break>やるじゃねえか。<end>"
+korean = "잘했군. 제법인데.<end>"
 
 ["510156"]
 japanese = "<value:$28>の<line-break>名声値が上がった。<end>"

@@ -16,6 +16,10 @@ korean = "자, 잠깐, 카핀…!<end>"
 japanese = "何よ、あんただって…<end>"
 korean = "뭐야, 너도…<end>"
 
+["1410011"]
+japanese = "違う。<line-break>もうひとり、客が来た。<end>"
+korean = "아니야. 손님이 한 명 더 왔어.<end>"
+
 ["1410013"]
 japanese = "ひっ………！<end>"
 korean = "히익………!<end>"
@@ -327,6 +331,10 @@ korean = "<value:$28>님!<end>"
 ["1410328"]
 japanese = "お兄ちゃん！<end>"
 korean = "오빠!<end>"
+
+["1410329"]
+japanese = "あの…これはその、なんと申しますか…。<end>"
+korean = "저… 이건 그, 뭐라고 해야 할지….<end>"
 
 ["1410341"]
 japanese = "今さら、わかりきったことでしたね。<end>"

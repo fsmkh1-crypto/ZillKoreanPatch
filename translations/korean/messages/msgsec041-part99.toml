@@ -176,6 +176,10 @@ korean = "당신은?<end>"
 japanese = "ええ。<end>"
 korean = "네.<end>"
 
+["410089"]
+japanese = "その通り…だけど、<line-break>いったい…？<end>"
+korean = "맞아… 하지만 대체…?<end>"
+
 ["410091"]
 japanese = "…ええ。<end>"
 korean = "…네.<end>"
@@ -203,6 +207,10 @@ korean = "노엘! 레이븐! 카핀!<end>"
 ["410104"]
 japanese = "どうしたの、ナーシェス？<end>"
 korean = "왜 그래, 나셰스?<end>"
+
+["410106"]
+japanese = "ま、待って！<line-break>そんなのウソだ！<end>"
+korean = "자, 잠깐! 그런 건 거짓말이야!<end>"
 
 ["410110"]
 japanese = "<value:$28>！<line-break>そんなのウソだよ！<line-break>僕を信じて！<end>"
@@ -279,6 +287,10 @@ korean = "나셰스!<end>"
 ["410150"]
 japanese = "…<value:$28>か。<end>"
 korean = "…<value:$28>인가.<end>"
+
+["410152"]
+japanese = "…ならば<line-break>私に挑むがよい。　　　<end>"
+korean = "…그렇다면 나에게 도전해라.<end>"
 
 ["410163"]
 japanese = "ネメア・ボリューム２終端<end>"

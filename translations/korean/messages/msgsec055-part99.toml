@@ -132,6 +132,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550066"]
+japanese = "む、面妖な！<line-break>全員、同じ刺青…。<end>"
+korean = "괴, 괴이하군! 전부 같은 문신….<end>"
+
 ["550067"]
 japanese = "兄弟子の意見が正しいでござる。　<end>"
 korean = "사형의 의견이 옳습니다.<end>"
@@ -252,6 +256,10 @@ korean = "소울 리프라고?<end>"
 japanese = "ねえ、<value:$28><line-break>大丈夫？<end>"
 korean = "저기, <value:$28> 괜찮아?<end>"
 
+["550130"]
+japanese = "そうだね。<line-break>奴らを追わなくちゃ。<end>"
+korean = "그래. 놈들을 쫓아야 해.<end>"
+
 ["550133"]
 japanese = "拙者の母上は強力かつ大災害なお方。<end>"
 korean = "제 어머니는 강력하고도 대재앙 같은 분이십니다.<end>"
@@ -335,6 +343,10 @@ korean = "＜없음＞<end>"
 ["550165"]
 japanese = "わ、わたしが相手です！<end>"
 korean = "제, 제가 상대하겠습니다!<end>"
+
+["550166"]
+japanese = "……………！？<line-break>…ノ…エル…？<end>"
+korean = "……………!? …노…엘…?<end>"
 
 ["550167"]
 japanese = "う…うあ…。<line-break>あ…あ……。<end>"

@@ -108,6 +108,10 @@ korean = "미사용<end>"
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
 
+["420102"]
+japanese = "そうか、<line-break>それならよかった…。<end>"
+korean = "그런가, 그렇다면 다행이군….<end>"
+
 ["420105"]
 japanese = "ゲヘ、久しぶりだな…。<end>"
 korean = "게헤, 오랜만이군….<end>"
@@ -152,9 +156,17 @@ korean = "왠지 이상한 소문이네.<end>"
 japanese = "きっとだよ！<line-break><value:$28>。<end>"
 korean = "꼭이야! <value:$28>.<end>"
 
+["420169"]
+japanese = "ああ、今行く。<line-break>では、頼んだぞ。<end>"
+korean = "그래, 지금 간다. 그럼 부탁한다.<end>"
+
 ["420176"]
 japanese = "姉ちゃん、待ってよー。<end>"
 korean = "누나, 기다려 줘ー.<end>"
+
+["420180"]
+japanese = "そ、そんな…。<line-break>そんなのって！<end>"
+korean = "그, 그럴 수가…. 그런 건…!<end>"
 
 ["420186"]
 japanese = "…<value:$28>さん。<line-break>　<line-break>　<end>"

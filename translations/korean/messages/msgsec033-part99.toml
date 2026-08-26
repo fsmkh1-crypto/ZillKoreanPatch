@@ -28,6 +28,10 @@ korean = "다음은 로스톨이라면서요?<end>"
 japanese = "そうだよ。<end>"
 korean = "그래.<end>"
 
+["330031"]
+japanese = "得したね、<value:$28>。<line-break><line-break><line-break>さ、フリントさんの所に<line-break>帰ろ。<end>"
+korean = "이득 봤네, <value:$28>. 자, 플린트 씨에게 돌아가자.<end>"
+
 ["330032"]
 japanese = "ちょいと待ちな、悪の影！！<end>"
 korean = "잠깐 기다려, 악의 그림자!!<end>"

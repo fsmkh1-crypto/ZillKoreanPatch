@@ -48,6 +48,10 @@ korean = "…아직 멀었군.<end>"
 japanese = "まさか…。いや、今度こそ！<end>"
 korean = "설마…. 아니, 이번에는 반드시!<end>"
 
+["340032"]
+japanese = "それと、今日<line-break><value:$28>が剣を打った。<line-break>見てやってくれ。　　　　　　　<end>"
+korean = "그리고 오늘 <value:$28>가 검을 만들었어. 봐 줘.<end>"
+
 ["340036"]
 japanese = "く…っ、何だ？<end>"
 korean = "큭… 뭐지?<end>"
