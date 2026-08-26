@@ -72,6 +72,10 @@ korean = "뭐라고?<end>"
 japanese = "よ、余計じゃと…。<end>"
 korean = "쓸, 쓸데없다고….<end>"
 
+["1710043"]
+japanese = "利敵行為じゃと？<line-break>見損なうな、ジラーク！<end>"
+korean = "적을 이롭게 하는 짓이라고? 나를 얕보지 마라, 지라크!<end>"
+
 ["1710051"]
 japanese = "時間のようじゃ。<line-break>行くぞ！　<value:$28>！<end>"
 korean = "시간이 된 모양이군. 간다, <value:$28>!<end>"
@@ -179,6 +183,10 @@ korean = "이크레문 V4 예비 메시지 8입니다<end>"
 ["1710150"]
 japanese = "イークレムンＶ４<line-break>予備メッセージ９です<end>"
 korean = "이크레문 V4 예비 메시지 9입니다<end>"
+
+["1710151"]
+japanese = "イークレムンＶ４<line-break>予備メッセージ１０です<end>"
+korean = "이크레문 V4 예비 메시지 10입니다.<end>"
 
 ["1710152"]
 japanese = "イークレムンＶ４　終了<end>"

@@ -808,6 +808,10 @@ korean = "그럴지도 모르겠구나.<end>"
 japanese = "ほーっほっほっ、<line-break>そうですわねー。<end>"
 korean = "호호호호, 그렇네요.<end>"
 
+["1410496"]
+japanese = "<value:$28>！<line-break>鍋の用意ができたゴブよー。<line-break> <line-break>野菜を切るの<line-break>手伝って欲しいゴブー！<end>"
+korean = "<value:$28>! 냄비 준비가 됐다 고브. 채소 써는 것 좀 도와줬으면 한다 고브!<end>"
+
 ["1410497"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"

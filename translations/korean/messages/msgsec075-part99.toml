@@ -136,6 +136,10 @@ korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드
 japanese = "じゃあ、よろしく頼んだよ。<line-break><value:$28>。<end>"
 korean = "그럼 잘 부탁할게, <value:$28>.<end>"
 
+["750066"]
+japanese = "彼女に光を。<line-break>彼女の願い、かなえてほしい。<line-break>待ってるから…。<line-break>じゃあね。<line-break><value:$28>。<end>"
+korean = "그녀에게 빛을. 그녀의 소원을 이뤄 줘. 기다릴게…. 그럼 안녕, <value:$28>.<end>"
+
 ["750067"]
 japanese = "（おかしいな。迷ったかな）<end>"
 korean = "(이상하네. 길을 잘못 들었나)<end>"

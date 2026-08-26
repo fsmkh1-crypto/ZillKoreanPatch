@@ -72,6 +72,10 @@ korean = "사룡 샨마…!<end>"
 japanese = "<if><value:$01><equal>4きゃん！<line-break>もしかして…！<end>しっ…！<end>"
 korean = "<if><value:$01><equal>4꺅! 혹시…!<end>쉿…!<end>"
 
+["950064"]
+japanese = "やぁーりぃー！<line-break>ま、ボクたちにかかれば<line-break>こんなもんさ！<line-break>さ、行こう、<line-break><value:$28>。<end>"
+korean = "해냈다! 뭐, 우리한테 걸리면 이 정도지! 자, 가자, <value:$28>.<end>"
+
 ["950065"]
 japanese = "わぁああ！<line-break>な、何？　なんなの！？<end>"
 korean = "와아아! 뭐, 뭐야? 대체 뭐야!?<end>"

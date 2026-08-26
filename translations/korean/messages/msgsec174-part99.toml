@@ -56,6 +56,10 @@ korean = "네메아는 분명 살아 있어<end>"
 japanese = "泣いたって、死んだ人間は戻らない<end>"
 korean = "울어도 죽은 사람은 돌아오지 않아.<end>"
 
+["1740030"]
+japanese = "…わかってます…。<line-break>わかってる…けど…。<end>"
+korean = "…알고 있어요…. 알고는… 있지만….<end>"
+
 ["1740032"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"

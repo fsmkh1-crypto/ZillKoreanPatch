@@ -36,6 +36,10 @@ korean = "듣는다<end>"
 japanese = "聞かない<end>"
 korean = "안 들어<end>"
 
+["1620030"]
+japanese = "俺の予測が外れてくれると<line-break>いいんだが…。<end>"
+korean = "내 예상이 빗나가 주면 좋겠는데….<end>"
+
 ["1620033"]
 japanese = "　　　　ゼネテスの予測は的中した。　　　　<end>"
 korean = "제네테스의 예측은 적중했다.<end>"
@@ -120,6 +124,10 @@ korean = "제가 모시겠습니다. 서두르시죠.<end>"
 japanese = "失礼する！<end>"
 korean = "이만 실례하겠다!<end>"
 
+["1620105"]
+japanese = "おやおや、レムオン卿。<line-break>突然、何ごとか？<end>"
+korean = "이런 이런, 레무온 경. 갑자기 무슨 일인가?<end>"
+
 ["1620110"]
 japanese = "あの男の！？<line-break>理由をご説明願いたい。<end>"
 korean = "그 남자의!? 이유를 설명해 주시오.<end>"
@@ -155,6 +163,10 @@ korean = "듣는다<end>"
 ["1620135"]
 japanese = "聞かない<end>"
 korean = "안 들어<end>"
+
+["1620142"]
+japanese = "俺の予測が外れてくれると<line-break>いいんだが…。<end>"
+korean = "내 예상이 빗나가 주면 좋겠는데….<end>"
 
 ["1620145"]
 japanese = "しかし、ゼネテスの予測は的中した。<end>"

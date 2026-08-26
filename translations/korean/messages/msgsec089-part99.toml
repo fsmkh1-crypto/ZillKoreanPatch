@@ -1088,6 +1088,10 @@ korean = "그럼 가볼까.<end>"
 japanese = "あ、待ってください！<end>"
 korean = "아, 기다려 주세요!<end>"
 
+["890697"]
+japanese = "あ、あの、<line-break><value:$28>さん…。<line-break><line-break>これで…これで、<line-break>本当に良かったんでしょうか…？<end>"
+korean = "아, 저기, <value:$28>님…. 이걸로… 이걸로 정말 괜찮았던 걸까요…?<end>"
+
 ["890700"]
 japanese = "おりゃあ！<end>"
 korean = "으랴앗!<end>"

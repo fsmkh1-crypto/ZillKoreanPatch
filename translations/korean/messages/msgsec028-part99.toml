@@ -216,6 +216,10 @@ korean = "…이거네.<end>"
 japanese = "…今日は、もう寝よう。<line-break>　<end>"
 korean = "…오늘은 이제 자자.<end>"
 
+["280113"]
+japanese = "おはよう。<line-break>ずいぶん早い目覚めだね、<line-break><value:$28>。<line-break>…やっぱり<line-break>眠れなかったんだね…。<end>"
+korean = "좋은 아침. 꽤 일찍 깼네, <value:$28>. …역시 잠을 못 잤구나….<end>"
+
 ["280122"]
 japanese = "そうだね、行こうか。<end>"
 korean = "그래, 가자.<end>"

@@ -24,6 +24,10 @@ korean = "새로운 적인가! 더는 돌파하게 두지 않겠다!<end>"
 japanese = "こ、こいつは手強いです。<end>"
 korean = "이, 이 녀석은 만만치 않습니다.<end>"
 
+["1630024"]
+japanese = "何人来ようと同じだ。<line-break>侵略者め、覚悟！！<end>"
+korean = "몇 명이 오든 마찬가지다. 침략자 놈들, 각오해라!!<end>"
+
 ["1630026"]
 japanese = "こ、これは！<line-break>本隊はいったい！？<end>"
 korean = "이, 이건! 본대는 대체!?<end>"
@@ -72,9 +76,17 @@ korean = "…아저씨, 미안하지만 목숨을 받겠다.<end>"
 japanese = "あばよ、とっつぁん、<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"
 korean = "잘 있어, 아저씨, 그리고 <value:$28>! 살아서 다시 만나자!<end>"
 
+["1630070"]
+japanese = "フフ、さすがはゼネテスよ…。<line-break>やりおる。<end>"
+korean = "후후, 역시 제네테스군…. 제법이야.<end>"
+
 ["1630073"]
 japanese = "将軍！　ご無事でしたか。<end>"
 korean = "장군! 무사하셨습니까.<end>"
+
+["1630074"]
+japanese = "おう、よいところに来た。<line-break>全軍に伝えよ。<end>"
+korean = "오, 마침 잘 왔다. 전군에 전해라.<end>"
 
 ["1630083"]
 japanese = "敵の略奪部隊の場所がわかりました！<end>"
@@ -127,6 +139,10 @@ korean = "적이라고!? 무슨 소리야!<end>"
 ["1630126"]
 japanese = "将軍！　ご無事でしたか。<end>"
 korean = "장군! 무사하셨습니까.<end>"
+
+["1630127"]
+japanese = "おう、よいところに来た。<line-break>全軍に伝えよ。<end>"
+korean = "오, 마침 잘 왔다. 전군에 전해라.<end>"
 
 ["1630143"]
 japanese = "ロストール攻略軍<line-break>　傭兵部隊の陣　<end>"

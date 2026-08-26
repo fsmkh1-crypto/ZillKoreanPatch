@@ -16,6 +16,10 @@ korean = "여어, <value:$28>. 이런 데서 마주치다니 운이 좋군.<end>
 japanese = "だが、<line-break>…いい目をしている。<end>"
 korean = "하지만… 좋은 눈을 하고 있군.<end>"
 
+["1640012"]
+japanese = "ダークエルフだ！<line-break>ダークエルフが出たぞ！<end>"
+korean = "다크 엘프다! 다크 엘프가 나타났다!<end>"
+
 ["1640013"]
 japanese = "捕まえろ！　殺せ！<end>"
 korean = "잡아라! 죽여라!<end>"
@@ -27,6 +31,10 @@ korean = "또 나타났냐!<end>"
 ["1640015"]
 japanese = "かなり近いな。<line-break>行ってみるとしよう。<end>"
 korean = "꽤 가깝군. 가 보자.<end>"
+
+["1640020"]
+japanese = "間に合わなかった。<line-break>…矢で急所を一撃だ。<end>"
+korean = "늦었어. …화살 한 발에 급소를 맞았어.<end>"
 
 ["1640022"]
 japanese = "ゆくぞ。<end>"
@@ -67,6 +75,10 @@ korean = "죽어!<end>"
 ["1640035"]
 japanese = "やった！<end>"
 korean = "해냈다!<end>"
+
+["1640036"]
+japanese = "このダークエルフ、<line-break>どうするつもりです？<end>"
+korean = "이 다크 엘프, 어떻게 할 생각입니까?<end>"
 
 ["1640037"]
 japanese = "殺す気はない。<line-break>私に任せてほしい。<end>"
