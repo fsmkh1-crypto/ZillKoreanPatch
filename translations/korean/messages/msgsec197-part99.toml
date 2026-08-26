@@ -16,6 +16,30 @@ korean = "아트레이아 등장<end>"
 japanese = "アトレイア　会話<end>"
 korean = "아트레이아 대화<end>"
 
+["1970020"]
+japanese = "アンギルダン　登場<end>"
+korean = "앙길단 등장<end>"
+
+["1970021"]
+japanese = "アンギルダン　死亡<end>"
+korean = "앙길단 사망<end>"
+
+["1970022"]
+japanese = "アンギルダン　会話<end>"
+korean = "앙길단 대화<end>"
+
+["1970025"]
+japanese = "戦闘逃亡不可　状態<end>"
+korean = "전투 도주 불가 상태<end>"
+
+["1970039"]
+japanese = "ユーリス救出　発生<end>"
+korean = "유리스 구출 발생<end>"
+
+["1970046"]
+japanese = "イークレムン　登場<end>"
+korean = "이크레문 등장<end>"
+
 ["1970049"]
 japanese = "イオンズ　死亡<end>"
 korean = "이온즈 사망<end>"
@@ -23,6 +47,18 @@ korean = "이온즈 사망<end>"
 ["1970050"]
 japanese = "イオンズ　登場<end>"
 korean = "이온즈 등장<end>"
+
+["1970053"]
+japanese = "異次元の世界　発生<end>"
+korean = "이차원의 세계 발생<end>"
+
+["1970054"]
+japanese = "イシュバアル　死亡<end>"
+korean = "이슈바알 사망<end>"
+
+["1970059"]
+japanese = "カルラ軍参戦　発生<end>"
+korean = "카를라군 참전 발생<end>"
 
 ["1970061"]
 japanese = "イズ　情報<end>"
@@ -56,6 +92,10 @@ korean = "에어 개심 발생<end>"
 japanese = "エア誘拐　状態<end>"
 korean = "에어 납치 상태<end>"
 
+["1970081"]
+japanese = "エア誘拐失敗　発生<end>"
+korean = "에어 유괴 실패 발생<end>"
+
 ["1970083"]
 japanese = "エステル　登場<end>"
 korean = "에스텔 등장<end>"
@@ -64,13 +104,33 @@ korean = "에스텔 등장<end>"
 japanese = "エステル　死亡<end>"
 korean = "에스텔 사망<end>"
 
+["1970085"]
+japanese = "エステル救出　終了<end>"
+korean = "에스텔 구출 종료<end>"
+
+["1970086"]
+japanese = "エステル待機　発生<end>"
+korean = "에스텔 대기 발생<end>"
+
+["1970087"]
+japanese = "エステル復帰　発生<end>"
+korean = "에스텔 복귀 발생<end>"
+
 ["1970088"]
 japanese = "エステル　分離<end>"
 korean = "에스텔 분리<end>"
 
+["1970089"]
+japanese = "エステル分離　準備<end>"
+korean = "에스텔 분리 준비<end>"
+
 ["1970091"]
 japanese = "盗賊団ボス　死亡<end>"
 korean = "도적단 보스 사망<end>"
+
+["1970092"]
+japanese = "エステル誘拐　状態<end>"
+korean = "에스텔 유괴 상태<end>"
 
 ["1970093"]
 japanese = "エスト　登場<end>"
@@ -87,6 +147,10 @@ korean = "에스트 구출 발생<end>"
 ["1970097"]
 japanese = "エスト嫌い　発生<end>"
 korean = "에스트 혐오 발생<end>"
+
+["1970099"]
+japanese = "エスト逃亡噂　発生<end>"
+korean = "에스트 도주 소문 발생<end>"
 
 ["1970100"]
 japanese = "エスト捕囚　発生<end>"
@@ -108,6 +172,18 @@ korean = "에리스 요리 발생<end>"
 japanese = "エルファス　登場<end>"
 korean = "엘파스 등장<end>"
 
+["1970121"]
+japanese = "円卓騎士殺害　発生<end>"
+korean = "원탁기사 살해 발생<end>"
+
+["1970122"]
+japanese = "オイフェ処刑　発生<end>"
+korean = "오이페 처형 발생<end>"
+
+["1970125"]
+japanese = "落ち武者狩り　発生<end>"
+korean = "패잔병 사냥 발생<end>"
+
 ["1970126"]
 japanese = "オッシ　登場<end>"
 korean = "옷시 등장<end>"
@@ -120,9 +196,25 @@ korean = "오데비 등장<end>"
 japanese = "エスト　会話<end>"
 korean = "에스트 대화<end>"
 
+["1970132"]
+japanese = "オルファウス　会話<end>"
+korean = "올파우스 대화<end>"
+
 ["1970133"]
 japanese = "海王　死亡<end>"
 korean = "해왕 사망<end>"
+
+["1970137"]
+japanese = "海底洞窟示唆　発生<end>"
+korean = "해저동굴 암시 발생<end>"
+
+["1970139"]
+japanese = "帰ってきたぞ　発生<end>"
+korean = "돌아왔다 발생<end>"
+
+["1970142"]
+japanese = "カフィン覚醒　発生<end>"
+korean = "카핀 각성 발생<end>"
 
 ["1970143"]
 japanese = "フルーヴ　死亡<end>"
@@ -152,6 +244,18 @@ korean = "카를라 진군 발생<end>"
 japanese = "カルラ配下　状態<end>"
 korean = "카를라 휘하 상태<end>"
 
+["1970171"]
+japanese = "ゲヘナ挑戦　進行中<end>"
+korean = "게헤나 도전 진행 중<end>"
+
+["1970172"]
+japanese = "アビス挑戦　進行中<end>"
+korean = "어비스 도전 진행 중<end>"
+
+["1970175"]
+japanese = "ゼネテス紹介　発生<end>"
+korean = "제네테스 소개 발생<end>"
+
 ["1970186"]
 japanese = "ギルド親父　会話<end>"
 korean = "길드 아저씨 대화<end>"
@@ -164,6 +268,26 @@ korean = "길드 등록 종료<end>"
 japanese = "空中都市　発生<end>"
 korean = "공중도시 발생<end>"
 
+["1970202"]
+japanese = "初仕事の報酬　準備<end>"
+korean = "첫 일의 보상 준비<end>"
+
+["1970203"]
+japanese = "ケリュネイア　登場<end>"
+korean = "케류네이아 등장<end>"
+
+["1970206"]
+japanese = "傲慢の首飾り　情報<end>"
+korean = "오만의 목걸이 정보<end>"
+
+["1970207"]
+japanese = "傲慢の首飾り　終了<end>"
+korean = "오만의 목걸이 종료<end>"
+
+["1970208"]
+japanese = "告死天使襲撃　発生<end>"
+korean = "고사천사 습격 발생<end>"
+
 ["1970209"]
 japanese = "告白の返事　発生<end>"
 korean = "고백의 답 발생<end>"
@@ -171,6 +295,14 @@ korean = "고백의 답 발생<end>"
 ["1970210"]
 japanese = "孤児救済　終了<end>"
 korean = "고아 구제 종료<end>"
+
+["1970211"]
+japanese = "孤児救済達成　発生<end>"
+korean = "고아 구제 달성 발생<end>"
+
+["1970213"]
+japanese = "小鳥を逃がす　発生<end>"
+korean = "작은 새를 놓아줌 발생<end>"
 
 ["1970219"]
 japanese = "ザギヴ　登場<end>"
@@ -200,6 +332,10 @@ korean = "자기브의 노래 발생<end>"
 japanese = "砂漠の一族　登場<end>"
 korean = "사막 일족 등장<end>"
 
+["1970232"]
+japanese = "サムスン憑依　発生<end>"
+korean = "삼슨 빙의 발생<end>"
+
 ["1970233"]
 japanese = "山賊の砦　終了<end>"
 korean = "산적 요새 종료<end>"
@@ -219,6 +355,14 @@ korean = "셈하자 사망<end>"
 ["1970239"]
 japanese = "色惑の瞳　終了<end>"
 korean = "색혹의 눈동자 종료<end>"
+
+["1970240"]
+japanese = "色惑の瞳依頼　発生<end>"
+korean = "색혹의 눈동자 의뢰 발생<end>"
+
+["1970241"]
+japanese = "色惑の瞳達成　発生<end>"
+korean = "색혹의 눈동자 달성 발생<end>"
 
 ["1970242"]
 japanese = "始原口伝　情報<end>"
@@ -264,13 +408,41 @@ korean = "상왕 사망<end>"
 japanese = "翔王の警告　発生<end>"
 korean = "상왕의 경고 발생<end>"
 
+["1970259"]
+japanese = "焦燥の耳飾り　情報<end>"
+korean = "초조의 귀걸이 정보<end>"
+
+["1970260"]
+japanese = "焦燥の耳飾り　終了<end>"
+korean = "초조의 귀걸이 종료<end>"
+
 ["1970261"]
 japanese = "ジラーク　死亡<end>"
 korean = "지라크 사망<end>"
 
+["1970264"]
+japanese = "ジラーク味方　状態<end>"
+korean = "지라크 아군 상태<end>"
+
+["1970265"]
+japanese = "ジラーク傭兵　状態<end>"
+korean = "지라크 용병 상태<end>"
+
+["1970266"]
+japanese = "シルヴァ報告　発生<end>"
+korean = "실바 보고 발생<end>"
+
+["1970267"]
+japanese = "シルヴァ報告　許可<end>"
+korean = "실바 보고 허가<end>"
+
 ["1970273"]
 japanese = "聖杯奪取　発生<end>"
 korean = "성배 탈취 발생<end>"
+
+["1970274"]
+japanese = "切なさ大暴走　発生<end>"
+korean = "애절함 대폭주 발생<end>"
 
 ["1970275"]
 japanese = "ゼネテス　登場<end>"
@@ -280,13 +452,37 @@ korean = "제네테스 등장<end>"
 japanese = "ゼネテス　死亡<end>"
 korean = "제네테스 사망<end>"
 
+["1970277"]
+japanese = "ゼネテス暗殺　終了<end>"
+korean = "제네테스 암살 종료<end>"
+
 ["1970279"]
 japanese = "ゼネテス　会話<end>"
 korean = "제네테스 대화<end>"
 
+["1970282"]
+japanese = "ゼネテス説教　発生<end>"
+korean = "제네테스 설교 발생<end>"
+
+["1970283"]
+japanese = "ゼネテス脱走　発生<end>"
+korean = "제네테스 탈주 발생<end>"
+
+["1970290"]
+japanese = "ゼネテス離脱　発生<end>"
+korean = "제네테스 이탈 발생<end>"
+
 ["1970292"]
 japanese = "セラ　登場<end>"
 korean = "세라 등장<end>"
+
+["1970294"]
+japanese = "セラ姉事語り　発生<end>"
+korean = "세라 언니 이야기 발생<end>"
+
+["1970296"]
+japanese = "セラロイ語り　発生<end>"
+korean = "세라 로이 이야기 발생<end>"
 
 ["1970299"]
 japanese = "戦争会話　発生<end>"
@@ -324,6 +520,14 @@ korean = "차카 사망<end>"
 japanese = "チャカ処刑　発生<end>"
 korean = "차카 처형 발생<end>"
 
+["1970326"]
+japanese = "ツェラシェル　登場<end>"
+korean = "체라셸 등장<end>"
+
+["1970327"]
+japanese = "ツェラシェル　死亡<end>"
+korean = "체라셸 사망<end>"
+
 ["1970335"]
 japanese = "ティアナ　登場<end>"
 korean = "티아나 등장<end>"
@@ -332,6 +536,10 @@ korean = "티아나 등장<end>"
 japanese = "ティアナ　会話<end>"
 korean = "티아나 대화<end>"
 
+["1970340"]
+japanese = "クリュセイス　会話<end>"
+korean = "크류세이스 대화<end>"
+
 ["1970354"]
 japanese = "王女捕縛　発生<end>"
 korean = "왕녀 포박 발생<end>"
@@ -339,6 +547,14 @@ korean = "왕녀 포박 발생<end>"
 ["1970356"]
 japanese = "デュロイ　死亡<end>"
 korean = "듀로이 사망<end>"
+
+["1970364"]
+japanese = "デルガド語り　発生<end>"
+korean = "델가도 이야기 발생<end>"
+
+["1970367"]
+japanese = "デルガド参加　終了<end>"
+korean = "델가도 참가 종료<end>"
 
 ["1970372"]
 japanese = "テロ通報　発生<end>"
@@ -351,6 +567,10 @@ korean = "테러 신고 준비<end>"
 ["1970374"]
 japanese = "トリゴブ　登場<end>"
 korean = "트리 고블린 등장<end>"
+
+["1970377"]
+japanese = "トリゴブ勝利　発生<end>"
+korean = "트리고브 승리 발생<end>"
 
 ["1970380"]
 japanese = "ドルドラム　登場<end>"
@@ -372,9 +592,17 @@ korean = "나지 사망<end>"
 japanese = "ナッジ死亡　情報<end>"
 korean = "나지 사망 정보<end>"
 
+["1970396"]
+japanese = "パンタ・レイ　死亡<end>"
+korean = "판타 레이 사망<end>"
+
 ["1970397"]
 japanese = "ナッジ　分離<end>"
 korean = "나지 분리<end>"
+
+["1970398"]
+japanese = "動力の間開放　発生<end>"
+korean = "동력실 개방 발생<end>"
 
 ["1970400"]
 japanese = "人形依頼　発生<end>"
@@ -400,6 +628,10 @@ korean = "네메아 사망 발생<end>"
 japanese = "ネメア死す　終了<end>"
 korean = "네메아 사망 종료<end>"
 
+["1970417"]
+japanese = "ネメアに挑む　発生<end>"
+korean = "네메아에게 도전 발생<end>"
+
 ["1970420"]
 japanese = "ネメア非難　発生<end>"
 korean = "네메아 비난 발생<end>"
@@ -423,6 +655,10 @@ korean = "레이븐 등장<end>"
 ["1970448"]
 japanese = "パルチザン　発生<end>"
 korean = "파르티잔 발생<end>"
+
+["1970453"]
+japanese = "ラドラス着陸　発生<end>"
+korean = "라드라스 착륙 발생<end>"
 
 ["1970457"]
 japanese = "犯人推測　発生<end>"
@@ -464,13 +700,29 @@ korean = "페티 등장<end>"
 japanese = "フェティ　死亡<end>"
 korean = "페티 사망<end>"
 
+["1970478"]
+japanese = "フェティ改心　発生<end>"
+korean = "페티 개심 발생<end>"
+
 ["1970481"]
 japanese = "フェティ　分離<end>"
 korean = "페티 분리<end>"
 
+["1970482"]
+japanese = "フェティ分離　準備<end>"
+korean = "페티 분리 준비<end>"
+
 ["1970483"]
 japanese = "フェルム　登場<end>"
 korean = "페름 등장<end>"
+
+["1970484"]
+japanese = "フェルムキス　発生<end>"
+korean = "펠름 키스 발생<end>"
+
+["1970485"]
+japanese = "フェルム料理　情報<end>"
+korean = "펠름 요리 정보<end>"
 
 ["1970487"]
 japanese = "ブゾリ独白　発生<end>"
@@ -484,6 +736,10 @@ korean = "부조리 휘하 발생<end>"
 japanese = "ブゾリ配下　状態<end>"
 korean = "부조리 휘하 상태<end>"
 
+["1970491"]
+japanese = "フリント事件　情報<end>"
+korean = "플린트 사건 정보<end>"
+
 ["1970492"]
 japanese = "フレア　死亡<end>"
 korean = "플레어 사망<end>"
@@ -492,21 +748,65 @@ korean = "플레어 사망<end>"
 japanese = "フレア　登場<end>"
 korean = "플레어 등장<end>"
 
+["1970494"]
+japanese = "フレア会話０　発生<end>"
+korean = "플레어 대화0 발생<end>"
+
+["1970495"]
+japanese = "フレア会話１　発生<end>"
+korean = "플레어 대화1 발생<end>"
+
+["1970496"]
+japanese = "フレア会話２　発生<end>"
+korean = "플레어 대화2 발생<end>"
+
 ["1970498"]
 japanese = "フレア誘拐　発生<end>"
 korean = "플레어 유괴 발생<end>"
+
+["1970501"]
+japanese = "ベルゼーヴァ　登場<end>"
+korean = "벨제바 등장<end>"
+
+["1970502"]
+japanese = "ベルゼーヴァ　死亡<end>"
+korean = "벨제바 사망<end>"
 
 ["1970509"]
 japanese = "墓碑銘　情報<end>"
 korean = "묘비명 정보<end>"
 
+["1970511"]
+japanese = "ボルボラ教唆　発生<end>"
+korean = "볼보라 교사 발생<end>"
+
+["1970512"]
+japanese = "ボルボラ伝言　発生<end>"
+korean = "볼보라 전언 발생<end>"
+
+["1970518"]
+japanese = "マルーン脱走　発生<end>"
+korean = "마룬 탈주 발생<end>"
+
+["1970519"]
+japanese = "マルーン捕縛　発生<end>"
+korean = "마룬 포박 발생<end>"
+
 ["1970520"]
 japanese = "援助報告　発生<end>"
 korean = "원조 보고 발생<end>"
 
+["1970521"]
+japanese = "援助要請失敗　発生<end>"
+korean = "지원 요청 실패 발생<end>"
+
 ["1970522"]
 japanese = "資金援助　発生<end>"
 korean = "자금 지원 발생<end>"
+
+["1970523"]
+japanese = "資金不足告白　発生<end>"
+korean = "자금 부족 고백 발생<end>"
 
 ["1970524"]
 japanese = "ミラク　死亡<end>"
@@ -544,6 +844,10 @@ korean = "메이아 유괴 발생<end>"
 japanese = "宿屋を出て　終了<end>"
 korean = "여관을 나옴 종료<end>"
 
+["1970536"]
+japanese = "ヴァイヴィア　登場<end>"
+korean = "바이비아 등장<end>"
+
 ["1970537"]
 japanese = "ロセン陥落　準備<end>"
 korean = "로센 함락 준비<end>"
@@ -551,6 +855,10 @@ korean = "로센 함락 준비<end>"
 ["1970539"]
 japanese = "酒場親父　会話<end>"
 korean = "술집 주인 대화<end>"
+
+["1970541"]
+japanese = "カフィン　出場許可<end>"
+korean = "카핀 출전 허가<end>"
 
 ["1970546"]
 japanese = "ラドラス　出現<end>"
@@ -568,9 +876,17 @@ korean = "용왕 비난 발생<end>"
 japanese = "エステル　会話<end>"
 korean = "에스텔 대화<end>"
 
+["1970563"]
+japanese = "サムスン襲撃　情報<end>"
+korean = "삼슨 습격 정보<end>"
+
 ["1970564"]
 japanese = "セルモノー　死亡<end>"
 korean = "셀모노 사망<end>"
+
+["1970567"]
+japanese = "賢者の森まで　発生<end>"
+korean = "현자의 숲까지 발생<end>"
 
 ["1970568"]
 japanese = "北伐　発生<end>"
@@ -579,6 +895,26 @@ korean = "북벌 발생<end>"
 ["1970571"]
 japanese = "ルルアンタ　死亡<end>"
 korean = "루루안타 사망<end>"
+
+["1970576"]
+japanese = "レイヴン告白　発生<end>"
+korean = "레이븐 고백 발생<end>"
+
+["1970577"]
+japanese = "レイヴン失踪　発生<end>"
+korean = "레이븐 실종 발생<end>"
+
+["1970578"]
+japanese = "レイヴン失踪　情報<end>"
+korean = "레이븐 실종 정보<end>"
+
+["1970580"]
+japanese = "レイヴン復帰　発生<end>"
+korean = "레이븐 복귀 발생<end>"
+
+["1970581"]
+japanese = "レイヴン行方　情報<end>"
+korean = "레이븐 행방 정보<end>"
 
 ["1970582"]
 japanese = "レーグ　登場<end>"
@@ -600,6 +936,22 @@ korean = "레몬 등장<end>"
 japanese = "レムオン　死亡<end>"
 korean = "레몬 사망<end>"
 
+["1970589"]
+japanese = "レムオン覚醒　終了<end>"
+korean = "레몬 각성 종료<end>"
+
+["1970590"]
+japanese = "レムオン覚醒　準備<end>"
+korean = "레몬 각성 준비<end>"
+
+["1970593"]
+japanese = "レムオン退治　発生<end>"
+korean = "레몬 퇴치 발생<end>"
+
+["1970594"]
+japanese = "レムオン追討　終了<end>"
+korean = "레몬 추토 종료<end>"
+
 ["1970598"]
 japanese = "レムゲドン　死亡<end>"
 korean = "렘게돈 사망<end>"
@@ -615,6 +967,10 @@ korean = "로이 사망<end>"
 ["1970604"]
 japanese = "六英雄物語　発生<end>"
 korean = "육영웅 이야기 발생<end>"
+
+["1970609"]
+japanese = "ヒルダリア　エンド<end>"
+korean = "힐다리아 엔드<end>"
 
 ["1970610"]
 japanese = "ロセン陥落　発生<end>"
@@ -652,6 +1008,22 @@ korean = "로티 연설 종료<end>"
 japanese = "ロティ会見　許可<end>"
 korean = "로티 회견 허가<end>"
 
+["1970633"]
+japanese = "ロティと会う　終了<end>"
+korean = "로티와 만남 종료<end>"
+
+["1970638"]
+japanese = "ジラーク感嘆　発生<end>"
+korean = "지라크 감탄 발생<end>"
+
+["1970640"]
+japanese = "ジラーク勧誘　発生<end>"
+korean = "지라크 권유 발생<end>"
+
+["1970642"]
+japanese = "ジラーク失踪　発生<end>"
+korean = "지라크 실종 발생<end>"
+
 ["1970644"]
 japanese = "ロセン潜入　発生<end>"
 korean = "로센 잠입 발생<end>"
@@ -675,6 +1047,22 @@ korean = "네메아 설명 발생<end>"
 ["1970666"]
 japanese = "エルアザル　死亡<end>"
 korean = "엘아자르 사망<end>"
+
+["1970700"]
+japanese = "巫女状況説明　発生<end>"
+korean = "무녀 상황 설명 발생<end>"
+
+["1970702"]
+japanese = "ラストバトル　発生<end>"
+korean = "라스트 배틀 발생<end>"
+
+["1970705"]
+japanese = "レムオン従者　状態<end>"
+korean = "레몬 종자 상태<end>"
+
+["1970707"]
+japanese = "レムオン失踪　発生<end>"
+korean = "레몬 실종 발생<end>"
 
 ["1970710"]
 japanese = "シャリ肯定　発生<end>"
@@ -720,9 +1108,17 @@ korean = "옷시 대화<end>"
 japanese = "Ｖ７＃１　進行中<end>"
 korean = "V7 #1 진행 중<end>"
 
+["1970733"]
+japanese = "正門から来た　状態<end>"
+korean = "정문에서 옴 상태<end>"
+
 ["1970734"]
 japanese = "ボルボラ　死亡<end>"
 korean = "볼보라 사망<end>"
+
+["1970736"]
+japanese = "オッシ詰問①　発生<end>"
+korean = "오시 추궁 ① 발생<end>"
 
 ["1970738"]
 japanese = "時の扉①　準備<end>"
@@ -748,6 +1144,10 @@ korean = "울그 강림 발생<end>"
 japanese = "邪竜勝利　発生<end>"
 korean = "사룡 승리 발생<end>"
 
+["1970747"]
+japanese = "サムスン勝利　発生<end>"
+korean = "삼슨 승리 발생<end>"
+
 ["1970748"]
 japanese = "ザハク勝利　発生<end>"
 korean = "자하크 승리 발생<end>"
@@ -756,9 +1156,17 @@ korean = "자하크 승리 발생<end>"
 japanese = "ネメア帰還　発生<end>"
 korean = "네메아 귀환 발생<end>"
 
+["1970752"]
+japanese = "王女失踪報告　発生<end>"
+korean = "왕녀 실종 보고 발생<end>"
+
 ["1970765"]
 japanese = "迷宮踏破　終了<end>"
 korean = "미궁 답파 종료<end>"
+
+["1970766"]
+japanese = "レムオン後悔　発生<end>"
+korean = "레몬 후회 발생<end>"
 
 ["1970767"]
 japanese = "強制退場　状態<end>"
@@ -768,6 +1176,10 @@ korean = "강제 퇴장 상태<end>"
 japanese = "カルラ　出場許可<end>"
 korean = "카를라 출전 허가<end>"
 
+["1970777"]
+japanese = "ゼネテス　出場許可<end>"
+korean = "제네테스 출전 허가<end>"
+
 ["1970778"]
 japanese = "セラ　出場許可<end>"
 korean = "세라 출전 허가<end>"
@@ -775,6 +1187,14 @@ korean = "세라 출전 허가<end>"
 ["1970779"]
 japanese = "レーグ　出場許可<end>"
 korean = "레그 출전 허가<end>"
+
+["1970780"]
+japanese = "レムオン　出場許可<end>"
+korean = "레몬 출전 허가<end>"
+
+["1970781"]
+japanese = "オイフェ　出場許可<end>"
+korean = "오이페 출전 허가<end>"
 
 ["1970782"]
 japanese = "ヴァン　出場許可<end>"
@@ -784,9 +1204,21 @@ korean = "반 출전 허가<end>"
 japanese = "チャカ　出場許可<end>"
 korean = "차카 출전 허가<end>"
 
+["1970785"]
+japanese = "エステル　出場許可<end>"
+korean = "에스텔 출전 허가<end>"
+
+["1970786"]
+japanese = "デルガド　出場許可<end>"
+korean = "델가도 출전 허가<end>"
+
 ["1970787"]
 japanese = "ボゲー　出場許可<end>"
 korean = "보게 출전 허가<end>"
+
+["1970792"]
+japanese = "ユーリス　召喚禁止<end>"
+korean = "유리스 소환 금지<end>"
 
 ["1970793"]
 japanese = "ヴァン　召喚禁止<end>"
