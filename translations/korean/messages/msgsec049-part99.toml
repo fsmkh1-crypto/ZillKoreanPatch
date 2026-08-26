@@ -32,6 +32,10 @@ korean = "5000기어.<end>"
 japanese = "話にならん。<end>"
 korean = "말도 안 되는군.<end>"
 
+["490055"]
+japanese = "い、いや待て。　　　<line-break>　<line-break>　<line-break>……男だ。男でいく。<end>"
+korean = "아, 아니 잠깐. ……남자다. 남자로 간다.<end>"
+
 ["490056"]
 japanese = "わかった。男だな。<end>"
 korean = "알겠어. 남자구나.<end>"
@@ -227,6 +231,10 @@ korean = "그럼, 누구야아?<end>"
 ["490262"]
 japanese = "かわいそぉ！<end>"
 korean = "불쌍해애!<end>"
+
+["490265"]
+japanese = "急がないとな。<line-break><value:$28>。<end>"
+korean = "서둘러야겠군. <value:$28>.<end>"
 
 ["490269"]
 japanese = "何か質問ですか？<end>"

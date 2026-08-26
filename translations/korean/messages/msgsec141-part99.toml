@@ -132,6 +132,10 @@ korean = "기뻐요, <value:$28> 님.<end>"
 japanese = "ほーっほっほっ。<end>"
 korean = "호ー호호호.<end>"
 
+["1410152"]
+japanese = "あ、あれ！？<line-break><value:$28>！<end>"
+korean = "어, 어라!? <value:$28>!<end>"
+
 ["1410155"]
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"

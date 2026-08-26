@@ -8,6 +8,10 @@ korean = "근거는?<end>"
 japanese = "…なるほど。<end>"
 korean = "…그렇군.<end>"
 
+["520024"]
+japanese = "よ。奇遇だな。<line-break><value:$28>。<end>"
+korean = "여어. 우연이군, <value:$28>.<end>"
+
 ["520025"]
 japanese = "へへ…へへ…。<end>"
 korean = "헤헤… 헤헤….<end>"

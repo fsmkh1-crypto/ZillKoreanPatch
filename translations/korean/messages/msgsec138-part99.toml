@@ -488,9 +488,17 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1380490"]
+japanese = "ありがとう、<line-break><value:$28>。<end>"
+korean = "고마워, <value:$28>.<end>"
+
 ["1380496"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1380498"]
+japanese = "あっ、<line-break><value:$28>さん…。<end>"
+korean = "아, <value:$28> 씨….<end>"
 
 ["1380499"]
 japanese = "そうだ、<line-break><value:$28>さんが<line-break>いたじゃない。<end>"

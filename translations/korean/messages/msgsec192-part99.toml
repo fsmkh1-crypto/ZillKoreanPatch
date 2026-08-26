@@ -36,6 +36,10 @@ korean = "고마워요. …기뻐요, <value:$28> 님.<end>"
 japanese = "えっ…ええっ！<end>"
 korean = "어… 어어!?<end>"
 
+["1920074"]
+japanese = "あ、あれ！？<line-break><value:$28>！<end>"
+korean = "어, 어라!? <value:$28>!<end>"
+
 ["1920077"]
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"

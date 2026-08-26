@@ -8,6 +8,10 @@ korean = "여행 출발 11 메시지<end>"
 japanese = "…あなた、…なのね…。<end>"
 korean = "…당신, …이군요….<end>"
 
+["370005"]
+japanese = "待ってよー。<line-break><value:$28>ー！<end>"
+korean = "기다려~. <value:$28>~!<end>"
+
 ["370009"]
 japanese = "わかってる。船長。<end>"
 korean = "알고 있어. 선장.<end>"

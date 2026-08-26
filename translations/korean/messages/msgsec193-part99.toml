@@ -60,6 +60,10 @@ korean = "스승님?<end>"
 japanese = "お疲れさまでした。<end>"
 korean = "수고하셨습니다.<end>"
 
+["1930094"]
+japanese = "ぼくに一番キレイを見せてくれる<line-break><value:$28>と<line-break>一緒にね。<end>"
+korean = "내게 가장 아름다운 모습을 보여주는 <value:$28>과 함께 말이야.<end>"
+
 ["1930095"]
 japanese = "来たか……。<end>"
 korean = "왔는가…….<end>"

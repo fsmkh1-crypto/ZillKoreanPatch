@@ -148,6 +148,10 @@ korean = "로센의 종을 울려라<end>"
 japanese = "　ロセンの鐘の英雄<end>"
 korean = "　로센의 종의 영웅<end>"
 
+["1960528"]
+japanese = "　クリュセイス暗殺未遂<end>"
+korean = "크리세이스 암살 미수<end>"
+
 ["1960530"]
 japanese = "　アンティノとの対決<end>"
 korean = "안티노와의 대결<end>"
@@ -172,9 +176,17 @@ korean = "　엔샨트 학살<end>"
 japanese = "　ゾフォルとの決着<end>"
 korean = "　조포르와 결판<end>"
 
+["1960540"]
+japanese = "　エンシャント陥落告知<end>"
+korean = "엔샨트 함락 통지<end>"
+
 ["1960542"]
 japanese = "　プレボス戦<end>"
 korean = " 프레보스전<end>"
+
+["1960543"]
+japanese = "　最終決戦（ティアナ）<end>"
+korean = "최종 결전 (티아나)<end>"
 
 ["1960544"]
 japanese = "　イオンズ登場<end>"
@@ -208,6 +220,10 @@ korean = " 티아나 구출<end>"
 japanese = "　アトレイア救出<end>"
 korean = " 아트레이아 구출<end>"
 
+["1960561"]
+japanese = "　イークレムンとミズチ<end>"
+korean = "이크레문과 미즈치<end>"
+
 ["1960563"]
 japanese = "　空中都市<end>"
 korean = "　공중도시<end>"
@@ -232,6 +248,10 @@ korean = "　쌍둥이와 어둠의 거인 1<end>"
 japanese = "　双子と会話<end>"
 korean = " 쌍둥이와 대화<end>"
 
+["1960576"]
+japanese = "　シャリとツェラシェル<end>"
+korean = "샤리와 체라셸<end>"
+
 ["1960578"]
 japanese = "　ツェラシェル忘却<end>"
 korean = "　체라셸 망각<end>"
@@ -244,6 +264,14 @@ korean = " 이온즈 도입<end>"
 japanese = "　イズキヤル暴れる<end>"
 korean = "　이즈키얄 난동<end>"
 
+["1960585"]
+japanese = "　ＶＳ邪竜（Ｖ７＃３）<end>"
+korean = "VS 사룡 (V7#3)<end>"
+
+["1960586"]
+japanese = "　ＶＳ魔人（Ｖ７＃６）<end>"
+korean = "VS 마인 (V7#6)<end>"
+
 ["1960587"]
 japanese = "　ＶＳイズキヤル<end>"
 korean = " VS 이즈키알<end>"
@@ -255,6 +283,10 @@ korean = "멈춰 선 아이린<end>"
 ["1960589"]
 japanese = "　カルラのギルド依頼<end>"
 korean = "카를라의 길드 의뢰<end>"
+
+["1960590"]
+japanese = "　カルラの依頼を受ける<end>"
+korean = "카를라의 의뢰를 받는다<end>"
 
 ["1960600"]
 japanese = "　予備<end>"
@@ -287,6 +319,10 @@ korean = " 새 에스트의 편지<end>"
 ["1960636"]
 japanese = "　エルファス襲撃<end>"
 korean = " 엘파스 습격<end>"
+
+["1960637"]
+japanese = "　ソウルイーター戦援軍<end>"
+korean = "소울 이터전 지원군<end>"
 
 ["1960638"]
 japanese = "　ソウルイーター戦<end>"
@@ -375,6 +411,18 @@ korean = "33 샤리 공통 ver END<end>"
 ["1960695"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960697"]
+japanese = "　37エア　男主人公ver END<end>"
+korean = "37 에아 남주인공 ver END<end>"
+
+["1960699"]
+japanese = "　40全員集合　共通ver END<end>"
+korean = "40 전원 집합 공통 ver END<end>"
+
+["1960700"]
+japanese = "　41イオンズ　共通ver END<end>"
+korean = "41 이온즈 공통 ver END<end>"
 
 ["1960704"]
 japanese = "　45エスト　共通ver END<end>"

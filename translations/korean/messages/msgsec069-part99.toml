@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["690010"]
+japanese = "…<value:$28>、<line-break>気をつけろ。<end>"
+korean = "…<value:$28>, 조심해.<end>"
+
 ["690011"]
 japanese = "あの女…強い…。<end>"
 korean = "그 여자… 강해….<end>"
@@ -139,3 +143,7 @@ korean = "…그럼.<end>"
 ["690264"]
 japanese = "…寄るな！<end>"
 korean = "…다가오지 마!<end>"
+
+["690277"]
+japanese = "(男の屍だ…)<line-break>　<line-break>　<end>"
+korean = "(남자의 시체다…)<end>"

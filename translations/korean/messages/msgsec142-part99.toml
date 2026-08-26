@@ -20,6 +20,10 @@ korean = "어? 저기, 그게….<end>"
 japanese = "あ、カフィン、待って！<end>"
 korean = "아, 카핀, 기다려!<end>"
 
+["1420033"]
+japanese = "<value:$28>…、<line-break>最近はずいぶんと<line-break>活躍しているそうだな？<end>"
+korean = "<value:$28>…, 요즘 꽤 활약하고 있다면서?<end>"
+
 ["1420036"]
 japanese = "ナーシェス。<end>"
 korean = "나셰스.<end>"
@@ -143,6 +147,10 @@ korean = "…안주도 말이야.<end>"
 ["1420266"]
 japanese = "微妙に、時差がある…。<end>"
 korean = "미묘하게 시차가 있어….<end>"
+
+["1420272"]
+japanese = "そうか…。<line-break>のう、<value:$28>は、<line-break>本当に戻ってくるのか？<end>"
+korean = "그런가…. 그런데 <value:$28>은 정말 돌아오는 건가?<end>"
 
 ["1420284"]
 japanese = "行こうっ！<end>"

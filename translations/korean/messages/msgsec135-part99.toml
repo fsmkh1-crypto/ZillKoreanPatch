@@ -508,6 +508,10 @@ korean = "오빠!!<end>"
 japanese = "え…？<line-break><value:$28>、<line-break>ホントに来てくれたの？<end>"
 korean = "어…? <value:$28>, 정말 와 준 거야?<end>"
 
+["1350559"]
+japanese = "ありがとう、<line-break><value:$28>。<end>"
+korean = "고마워, <value:$28>.<end>"
+
 ["1350569"]
 japanese = "この感じは…まるで…<end>"
 korean = "이 느낌은… 마치….<end>"

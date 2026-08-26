@@ -164,6 +164,10 @@ korean = "도, 도망쳐!!<end>"
 japanese = "えっ！？<end>"
 korean = "어!?<end>"
 
+["310232"]
+japanese = "ん？<line-break>どうした、<value:$28>？<end>"
+korean = "응? 왜 그래, <value:$28>?<end>"
+
 ["310235"]
 japanese = "それ！　捕まえろ！<end>"
 korean = "자! 붙잡아!<end>"

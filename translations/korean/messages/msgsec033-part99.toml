@@ -40,6 +40,10 @@ korean = "그렇군.<end>"
 japanese = "おや、おかえり、<line-break><value:$28>。<line-break>ご苦労様だったね。<end>"
 korean = "오, 돌아왔구나, <value:$28>. 수고했어.<end>"
 
+["330060"]
+japanese = "あれ？　<value:$28>。<line-break>あの人はぁ？<line-break>一緒じゃなかったのぉ？<end>"
+korean = "어라? <value:$28>. 그 사람은? 같이 있던 거 아니었어?<end>"
+
 ["330061"]
 japanese = "…あの人？<end>"
 korean = "…그 사람?<end>"

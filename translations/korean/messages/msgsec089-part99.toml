@@ -260,6 +260,10 @@ korean = "<value:$28>, 슬슬 때가 됐다.<end>"
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
 
+["890422"]
+japanese = "ゼネテスも<value:$28>も<line-break>結局、冒険好きなのね。<line-break>子供ねー。<end>"
+korean = "제네테스도 <value:$28>도 결국 모험을 좋아하는구나. 어린애네~.<end>"
+
 ["890431"]
 japanese = "だから、な？<end>"
 korean = "그러니까, 응?<end>"
@@ -455,6 +459,22 @@ korean = "에리스의 집무실<end>"
 ["890600"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
+
+["890615"]
+japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"
+korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
+
+["890626"]
+japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"
+korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
+
+["890632"]
+japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"
+korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
+
+["890633"]
+japanese = "はっ。<value:$28>様で<line-break>ありますね。<line-break>どうぞお通りください！<end>"
+korean = "네. <value:$28> 님이시군요. 지나가십시오!<end>"
 
 ["890640"]
 japanese = "カ、カフィン！<end>"

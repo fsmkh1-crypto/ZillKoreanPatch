@@ -28,6 +28,10 @@ korean = "맛있었다<end>"
 japanese = "まずかった<end>"
 korean = "실수했다<end>"
 
+["780042"]
+japanese = "…うれしいです。<line-break><value:$28>さんにほめられると<line-break>いっそう。<end>"
+korean = "…기뻐요. <value:$28> 씨에게 칭찬받으니 더더욱.<end>"
+
 ["780046"]
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"

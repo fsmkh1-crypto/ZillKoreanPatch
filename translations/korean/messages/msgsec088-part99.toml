@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["880013"]
+japanese = "あれ、<line-break><value:$28>じゃない？<end>"
+korean = "어라, <value:$28> 아니야?<end>"
+
 ["880016"]
 japanese = "非市民じゃない<end>"
 korean = "비시민 아니야<end>"
@@ -43,6 +47,10 @@ korean = "…? 만나두고 싶은 사람?<end>"
 ["880057"]
 japanese = "どいてよ、もう！<end>"
 korean = "비켜 줘, 정말!<end>"
+
+["880059"]
+japanese = "ほっとけなかったからって…。<line-break>　<line-break>　<line-break><value:$28>…。<end>"
+korean = "내버려 둘 수 없었다고…. <value:$28>….<end>"
 
 ["880061"]
 japanese = "じゃ、急ぐから。<end>"
@@ -223,6 +231,10 @@ korean = "안녕, <value:$28>. 또 와줬구나. 기뻐.<end>"
 ["880294"]
 japanese = "あ…、<line-break><value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"
+
+["880297"]
+japanese = "では、我らも引き続き<line-break>捜してみます。<line-break>　<line-break>ゆくぞ。<end>"
+korean = "그럼 우리도 계속 찾아보겠습니다. 가자.<end>"
 
 ["880299"]
 japanese = "未使用<line-break>　<end>"

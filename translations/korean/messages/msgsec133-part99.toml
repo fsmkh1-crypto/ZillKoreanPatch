@@ -44,6 +44,10 @@ korean = "안 가<end>"
 japanese = "<value:$28>！<line-break>…そんな！<end>"
 korean = "<value:$28>! …그럴 수가!<end>"
 
+["1330076"]
+japanese = "エア！！<line-break>そんな………。<end>"
+korean = "에아!! 그럴 수가……….<end>"
+
 ["1330095"]
 japanese = "あなたは…？<end>"
 korean = "당신은…?<end>"
