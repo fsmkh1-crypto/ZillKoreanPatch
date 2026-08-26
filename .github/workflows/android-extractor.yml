@@ -1,16 +1,21 @@
-name: Android font extractor
+name: Android Korean alpha patcher
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'android-patcher/**'
+      - 'cmd/zill/build_korean_iso.go'
+      - 'cmd/zill/main.go'
+      - 'internal/release/korean_mobile.go'
       - '.github/workflows/android-extractor.yml'
   pull_request:
     paths:
       - 'android-patcher/**'
+      - 'cmd/zill/build_korean_iso.go'
+      - 'cmd/zill/main.go'
+      - 'internal/release/korean_mobile.go'
       - '.github/workflows/android-extractor.yml'
-      - 'ci-trigger.txt'
 
 permissions:
   contents: read
@@ -20,6 +25,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
 
       - uses: actions/setup-java@v4
         with:
@@ -34,15 +43,48 @@ jobs:
           yes | sdkmanager --licenses >/dev/null || true
           sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
 
+      - name: Prepare embedded Korean project data
+        shell: bash
+        run: |
+          set -euxo pipefail
+          ROOT=android-patcher/app/src/main/assets/zillroot
+          rm -rf "$ROOT"
+          mkdir -p "$ROOT/release/strings" "$ROOT/release/korean/font" "$ROOT/patches/executable" "$ROOT/patches/system"
+          cp -R translations "$ROOT/translations"
+          cp release/strings/eboot.toml release/strings/equipment.toml "$ROOT/release/strings/"
+          cp release/korean/font/glyphs.toml "$ROOT/release/korean/font/"
+          cp patches/executable/manifest.toml "$ROOT/patches/executable/"
+          cp patches/system/param-sfo.toml "$ROOT/patches/system/"
+          du -sh "$ROOT"
+
+      - name: Build arm64 Korean builder
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p android-patcher/app/src/main/jniLibs/arm64-v8a
+          CGO_ENABLED=0 GOOS=android GOARCH=arm64 go build -trimpath -buildmode=pie \
+            -o android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so ./cmd/zill
+          chmod 0755 android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
+          file android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
+          readelf -h android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so | head -40
+
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
 
-      - name: Unit tests
+      - name: Go tests
+        run: go test ./...
+
+      - name: Android unit tests
         run: gradle -p android-patcher :app:testDebugUnitTest --no-daemon --stacktrace
 
       - name: Build debug APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
+
+      - name: Inspect APK native payload
+        shell: bash
+        run: |
+          unzip -l android-patcher/app/build/outputs/apk/debug/app-debug.apk | grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations' | head -20
 
       - name: SHA-256
         shell: bash
@@ -50,7 +92,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-font-extractor-debug
+          name: zill-korean-alpha-patcher-debug
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
