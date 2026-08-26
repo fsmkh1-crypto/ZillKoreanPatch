@@ -208,6 +208,10 @@ korean = "이제 싫어, 싫어! 정말 싫어!!<end>"
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
 
+["700230"]
+japanese = "やっぱ、夜は冷えるよね。<line-break><value:$28>、中に入らない？<end>"
+korean = "역시 밤은 춥네. <value:$28>, 안으로 들어갈래?<end>"
+
 ["700231"]
 japanese = "やあ、<value:$28>…<line-break>ボク、そっち行っても、いい？<end>"
 korean = "안녕, <value:$28>…. 나, 그쪽으로 가도 돼?<end>"
@@ -223,6 +227,10 @@ korean = "딱히 얼버무리는 건 아니야. 정말 닮았다고 생각했어
 ["700241"]
 japanese = "あ、<value:$28><line-break>こんな所にいたんだ。<end>"
 korean = "아, <value:$28>. 이런 데 있었구나.<end>"
+
+["700244"]
+japanese = "さすがに夜になると冷えるね。<line-break><value:$28>、中に入ろ？<end>"
+korean = "밤이 되니 역시 춥네. <value:$28>, 안으로 들어가자.<end>"
 
 ["700245"]
 japanese = "やぁ、<value:$28><end>"

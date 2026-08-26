@@ -148,6 +148,10 @@ korean = "알겠어.<end>"
 japanese = "そう…。残念だよ。<line-break><value:$28>…。<end>"
 korean = "그래…. 아쉽네. <value:$28>….<end>"
 
+["450061"]
+japanese = "やあ、<value:$28>…。<line-break>ちょっと、聞いてほしいんだ…。<end>"
+korean = "안녕, <value:$28>…. 잠깐 들어 줬으면 해….<end>"
+
 ["450062"]
 japanese = "僕が旅に出た理由…。<end>"
 korean = "내가 여행을 떠난 이유….<end>"

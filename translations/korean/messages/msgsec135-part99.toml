@@ -12,6 +12,10 @@ korean = "너를 만나기 전까진 말이지….<end>"
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
 
+["1350010"]
+japanese = "…仲間に入れてくれ。<line-break> <line-break> <line-break>冒険者になって、<line-break>お前とともに歩きたい、そして<line-break>あの男が見てきた世界を見たいのだ。<end>"
+korean = "…동료로 받아 줘. 모험자가 되어 너와 함께 걷고 싶다. 그리고 그 남자가 보았던 세계를 보고 싶어.<end>"
+
 ["1350011"]
 japanese = "礼を言う、<value:$28>。<end>"
 korean = "고맙다, <value:$28>.<end>"
@@ -603,6 +607,10 @@ korean = "저를… 구해 주시는 겁니까?<end>"
 ["1350301"]
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
+
+["1350305"]
+japanese = "あなたは<line-break>竜字将軍<value:$28>様ですね。<line-break>よく存じております。<line-break>将軍、<line-break>あなたの王家への忠節<line-break>ありがたく思います。<end>"
+korean = "당신은 용자장군 <value:$28>님이시군요. 잘 알고 있습니다. 장군, 왕가에 대한 당신의 충절을 고맙게 생각합니다.<end>"
 
 ["1350307"]
 japanese = "<value:$28>様、<line-break>ありがとうございます。<end>"

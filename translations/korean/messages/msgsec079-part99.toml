@@ -172,6 +172,10 @@ korean = "알았어<end>"
 japanese = "そんな都合のいい話はないだろう<end>"
 korean = "그렇게 형편 좋은 이야기는 없겠지<end>"
 
+["790089"]
+japanese = "さすが、<value:$28>様。<line-break>何にでも首を突っ込むタイプ。<end>"
+korean = "역시 <value:$28>님. 뭐든 참견하는 타입이시군요.<end>"
+
 ["790094"]
 japanese = "…なるほど。<line-break>天才魔道士マノンね。　　　<line-break>　<line-break>あの魔道の塔に<line-break>そんなに偉大な魔道士が…。<end>"
 korean = "…그렇군. 천재 마도사 마논이라. 저 마도의 탑에 그렇게 위대한 마도사가….<end>"

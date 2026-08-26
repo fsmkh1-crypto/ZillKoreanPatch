@@ -116,6 +116,10 @@ korean = "네메아 님, 오늘 정말 즐거웠어요!<end>"
 japanese = "…楽しかった？<end>"
 korean = "…즐거웠어?<end>"
 
+["400056"]
+japanese = "それじゃ、私、町を見てくるわ<line-break>じゃあね、<value:$28>！<end>"
+korean = "그럼 나, 마을 좀 둘러보고 올게. 안녕, <value:$28>!<end>"
+
 ["400061"]
 japanese = "空<end>"
 korean = "빈칸<end>"

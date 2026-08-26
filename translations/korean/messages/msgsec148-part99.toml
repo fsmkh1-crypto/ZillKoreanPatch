@@ -224,6 +224,10 @@ korean = "마음이 내키면 간다<end>"
 japanese = "<value:$28>、<line-break>ゼネテスの言ってたこと、<line-break>本当になっちゃったね。<end>"
 korean = "<value:$28>, 제네테스가 한 말이 정말 현실이 됐네.<end>"
 
+["1480151"]
+japanese = "わざわざ、すまなかったな。<line-break>そなたの元気な姿を見ることができて<line-break>安心した。<line-break>さがってよい。<line-break>フリントの子<value:$28>よ。<end>"
+korean = "일부러 와 줘서 고맙다. 네 건강한 모습을 보니 안심이 되는구나. 물러가도 좋다. 플린트의 아이 <value:$28>여.<end>"
+
 ["1480154"]
 japanese = "これは報酬の５００ギアだ。<line-break>ゼネテスさんから、全部あんたに　　<line-break>渡すように言われている。<line-break>受け取ってくれ。<end>"
 korean = "이건 보수 500기아다. 제네테스 씨가 전부 당신에게 주라고 했어. 받아 줘.<end>"

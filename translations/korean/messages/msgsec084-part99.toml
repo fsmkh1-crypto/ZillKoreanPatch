@@ -372,6 +372,10 @@ korean = "…동정하면 죽일 거야?<end>"
 japanese = "くすっ、あんたってさー、<line-break>割とバカだよね。<line-break>いいわ。教えてあげる。<line-break>そのかわり、同情したら<line-break>ホントに殺すかんね？<end>"
 korean = "후후, 너 말이야 꽤 바보지. 좋아, 알려 줄게. 대신 동정하면 정말 죽여 버릴 거야, 알았어?<end>"
 
+["840163"]
+japanese = "ふぅ、つまんない昔話はおしまい。<line-break>悪いね、不幸自慢みたいに<line-break>なっちゃって。<line-break>じゃ、バイバイ。<line-break>聞き上手の冒険者さん。<end>"
+korean = "후, 시시한 옛날이야기는 끝. 미안하네, 불행 자랑처럼 돼 버려서. 그럼 안녕, 이야기 잘 들어 주는 모험자 씨.<end>"
+
 ["840165"]
 japanese = "空　１５７<line-break>カルラ、ボリューム１<end>"
 korean = "빈칸 157 카를라, 볼륨 1<end>"
@@ -448,6 +452,10 @@ korean = "저기, 하지만….<end>"
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
 
+["840196"]
+japanese = "ああ、いーのいーの。<line-break>宝石なんてなくても<line-break>思い出は残るから。<line-break>でも、あの娘には<line-break>あれが必要だもん。<line-break>…でしょ？<end>"
+korean = "아, 괜찮아 괜찮아. 보석이 없어도 추억은 남으니까. 하지만 그 아이에겐 그게 필요하잖아. …그렇지?<end>"
+
 ["840197"]
 japanese = "…っと、いけない。　　　　<line-break>任務に戻らなきゃ！<line-break>　<line-break>今日はありがと。<line-break><value:$28>のおかげで<line-break>助かっちゃった。<end>"
 korean = "…앗, 안 되지. 임무로 돌아가야 해! 오늘 고마웠어. <value:$28> 덕분에 살았어.<end>"
@@ -487,6 +495,10 @@ korean = "저기, 하지만…<end>"
 ["840208"]
 japanese = "そっか。<line-break>いーんじゃない？<line-break>そーゆーのも。<line-break>…っと、<line-break>そろそろ任務に戻らなきゃ。<end>"
 korean = "그렇구나. 괜찮지 않아? 그런 것도. …아, 이제 임무로 돌아가야겠다.<end>"
+
+["840212"]
+japanese = "ああ、いーのいーの。<line-break>宝石なんかなくても<line-break>思い出は残るから。<line-break>でも、あの娘には<line-break>あれが必要だもん。<line-break>…でしょ？<end>"
+korean = "아, 괜찮아 괜찮아. 보석이 없어도 추억은 남으니까. 하지만 그 아이에겐 그게 필요하잖아. …그렇지?<end>"
 
 ["840213"]
 japanese = "ヤバっ！<line-break>そろそろ任務に戻らなきゃ。<end>"

@@ -520,6 +520,10 @@ korean = "…자고 있네. …여전히 애라니까.<end>"
 japanese = "<value:$28>、<line-break>あなたは、私が、守ってあげる…。<end>"
 korean = "<value:$28>, 당신은 내가 지켜 줄게….<end>"
 
+["620263"]
+japanese = "おはよう、<value:$28>。<line-break>今日はもう旅に出るんですか？<end>"
+korean = "좋은 아침, <value:$28>. 오늘도 벌써 여행을 떠나는 건가요?<end>"
+
 ["620270"]
 japanese = "お、おはようございます。<end>"
 korean = "아, 안녕하세요.<end>"

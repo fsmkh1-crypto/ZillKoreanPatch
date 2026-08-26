@@ -296,6 +296,10 @@ korean = "후후… 알았다, 알았어. 자, 슬슬 실례하지. 궁중의 �
 japanese = "お変わりございませんか、<line-break>ティアナ様。<end>"
 korean = "별고 없으신지요,티아나 님.<end>"
 
+["630153"]
+japanese = "ほう、とてもそうは見えぬが。<line-break><value:$28>、どう思う？<end>"
+korean = "호오, 전혀 그렇게 보이지 않는데. <value:$28>, 어떻게 생각하나?<end>"
+
 ["630154"]
 japanese = "おふたりで<line-break>ティアナをからかうのですね。<line-break>　<line-break>これでも、食後のデザートは<line-break>ひかえておりますのに。<end>"
 korean = "두 분이서 티아나를 놀리시는군요. 이래 봬도 식후 디저트는 자제하고 있는데요.<end>"

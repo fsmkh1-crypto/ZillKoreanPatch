@@ -20,6 +20,10 @@ korean = "맡지 않는다<end>"
 japanese = "じゃ、よろしくね、<line-break><value:$28>。<end>"
 korean = "그럼 잘 부탁해, <value:$28>.<end>"
 
+["760017"]
+japanese = "あ、<value:$28>さん！<line-break>同じ宿に泊まっていたんですね。<end>"
+korean = "아, <value:$28>님! 같은 여관에 묵고 있었군요.<end>"
+
 ["760022"]
 japanese = "シャリの依頼は受けられない<end>"
 korean = "샤리의 의뢰는 받을 수 없다<end>"

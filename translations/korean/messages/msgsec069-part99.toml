@@ -400,6 +400,10 @@ korean = "…왜인지 기억이 안 나는 건가.<end>"
 japanese = "ですから、いったい何をです？<end>"
 korean = "그러니까 대체 뭘 말입니까?<end>"
 
+["690262"]
+japanese = "それでは。<value:$28>さん、<line-break>また会える日を楽しみに。<end>"
+korean = "그럼 이만. <value:$28>님, 다시 만날 날을 기대하겠습니다.<end>"
+
 ["690263"]
 japanese = "何も、思い出さないのか…？<end>"
 korean = "아무것도 기억나지 않는 건가…?<end>"

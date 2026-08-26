@@ -88,6 +88,10 @@ korean = "에스트에게 편지를 맡았다. 확실히 전해 줬다.<end>"
 japanese = "俺もまだまだ甘いな…。<end>"
 korean = "나도 아직 멀었군….<end>"
 
+["410028"]
+japanese = "…ここは、<value:$28>が<line-break>決着をつけるべきだ。　　　　<end>"
+korean = "…여기는 <value:$28>이 결판을 내야 해.<end>"
+
 ["410029"]
 japanese = "危ない！　奴はソウルを吸い取って<line-break>回復しようとしている！<line-break>　<line-break>逃げろ！<line-break><value:$28>！<end>"
 korean = "위험해! 놈은 소울을 빨아들여 회복하려 하고 있어! 도망쳐, <value:$28>!<end>"

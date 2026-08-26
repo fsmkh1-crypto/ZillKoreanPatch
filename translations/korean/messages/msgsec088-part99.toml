@@ -136,6 +136,10 @@ korean = "에스텔의 목걸이를 건넸다.<end>"
 japanese = "ありがとう！<line-break>見つけてきてくれたんだ！<end>"
 korean = "고마워! 찾아와 준 거구나!<end>"
 
+["880075"]
+japanese = "…たっぷりこき使ってやる、<line-break>冒険の旅はつらいぞって…。<line-break>　<line-break>いやーん！<line-break>やっぱりボクって<line-break>肉体労働専門なのね？<end>"
+korean = "…실컷 부려 먹어 줄 거야, 모험 여행은 힘들다고…. 싫어~! 역시 나는 육체노동 전문인 거야?<end>"
+
 ["880078"]
 japanese = "ホントごめんなさい！<end>"
 korean = "정말 미안해요!<end>"
@@ -299,6 +303,10 @@ korean = "기다리고 있었습니다! 에스텔 님!<end>"
 ["880161"]
 japanese = "ごめん…。<line-break>心配かけて。<end>"
 korean = "미안해…. 걱정 끼쳐서.<end>"
+
+["880162"]
+japanese = "<value:$28>様、助かりました。<line-break>ありがとうございます。<end>"
+korean = "<value:$28>님, 살았습니다. 감사합니다.<end>"
 
 ["880163"]
 japanese = "エステル様、<line-break>すぐにこちらへ。<end>"

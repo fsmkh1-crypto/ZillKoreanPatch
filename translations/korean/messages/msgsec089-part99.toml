@@ -524,6 +524,10 @@ korean = "지금의 우리로는 녀석들에게 이길 수 없다. …네메아
 japanese = "…その自信はどこから来るのだ？<line-break> <line-break> <line-break>しかし…<line-break>君のおかげで命が助かったのは事実だ。<end>"
 korean = "…그 자신감은 어디서 나오는 거지? 하지만… 네 덕분에 목숨을 건진 건 사실이다.<end>"
 
+["890319"]
+japanese = "さらばだ、<value:$28>。<line-break>無限のソウル…無限の可能性を持つ者。<line-break> <line-break>君に人類を導く力があるのなら…<line-break>また会うことになろう。<end>"
+korean = "잘 가라, <value:$28>. 무한의 소울… 무한한 가능성을 지닌 자여. 네게 인류를 이끌 힘이 있다면… 다시 만나게 되겠지.<end>"
+
 ["890320"]
 japanese = "く、来る…！<end>"
 korean = "오, 온다…!<end>"
@@ -715,6 +719,10 @@ korean = "제네테스도 <value:$28>도 결국 모험을 좋아하는구나. �
 ["890423"]
 japanese = "おう、来たか、<value:$28>。<line-break> <line-break> <line-break>今日は、ちょいとお前さんに<line-break>頼みたいことがあってよ。<end>"
 korean = "오, 왔나, <value:$28>. 오늘은 네게 부탁할 게 좀 있어서 말이야.<end>"
+
+["890425"]
+japanese = "変わりたくないって言ったとこで、<line-break>変わらずにゃいられない…。<line-break> <line-break>それだけ叔母貴の存在が<line-break>大きかったってことだものな。<end>"
+korean = "변하고 싶지 않다고 해도 변하지 않을 수는 없어…. 그만큼 숙모의 존재가 컸다는 뜻이니까.<end>"
 
 ["890428"]
 japanese = "な、なんだよ、<value:$28>？<line-break>その、けげんそうな顔は？<line-break>俺の腕が疑わしいってのか？<end>"
@@ -1447,6 +1455,10 @@ korean = "그런가. <value:$28>인가. 그럼 잘 부탁한다, <value:$28>.<en
 ["890732"]
 japanese = "…<value:$28>！<line-break>ヴァンには宿屋が…。<end>"
 korean = "…<value:$28>! 반에게는 여관이….<end>"
+
+["890734"]
+japanese = "ひさしいのう、ベルゼーヴァ。<line-break>結界をすでに張っておったとは。<line-break> <line-break>それを見抜けぬとは、<line-break>わしも、もうろくしたものじゃ。<end>"
+korean = "오랜만이구나, 벨제바. 이미 결계를 쳐 두었다니. 그걸 간파하지 못하다니 나도 늙었구나.<end>"
 
 ["890735"]
 japanese = "　　聞こえるか、<value:$28>よ。<end>"

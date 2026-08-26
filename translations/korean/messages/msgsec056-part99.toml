@@ -192,6 +192,10 @@ korean = "…하늘이 도왔군.나머지는 네게 맡긴다.<end>"
 japanese = "今、何か言った？<end>"
 korean = "방금 뭐라고 했어?<end>"
 
+["560095"]
+japanese = "<value:$28>、美しいお姉さまの<line-break>相手をしてやってくれ。<end>"
+korean = "<value:$28>, 아름다운 누님 상대 좀 해 줘.<end>"
+
 ["560096"]
 japanese = "ナーシェス…、覚えてなさい。<end>"
 korean = "나셰스…, 두고 봐.<end>"
@@ -763,6 +767,10 @@ korean = "소용없어. 쉽게 입을 열 녀석들이 아니야.<end>"
 ["560341"]
 japanese = "あたしの美貌には<line-break>逆らえないわ。<end>"
 korean = "내 미모에는 거역할 수 없지.<end>"
+
+["560342"]
+japanese = "えと…、<value:$28>さん、<line-break>ありがとうございました！　　　　<line-break>　<line-break>わたしも<value:$28>さんに<line-break>負けないくらい、強く、なります！<end>"
+korean = "저기… <value:$28>님, 감사합니다! 저도 <value:$28>님에게 지지 않을 만큼 강해질게요!<end>"
 
 ["560343"]
 japanese = "予備メッセージ１<line-break>ノエル、ボリューム１その２<end>"
@@ -1739,6 +1747,10 @@ korean = "좋아! 당신이라면 분명 그렇게 말해 줄 줄 알았어. 잘
 ["560929"]
 japanese = "紹介するぜ。<line-break> <line-break> <line-break>こちら、アルノートゥンの神殿に<line-break>仕えてらっしゃる神官さんだ。<end>"
 korean = "소개하지. 이쪽은 알노툰 신전에서 일하는 신관님이야.<end>"
+
+["560934"]
+japanese = "私も視察に行ったのですが、<line-break>鉱夫ではない身ながら、<line-break> <line-break>あれはどうも<line-break>ただの山鳴りではないように<line-break>思われました。<end>"
+korean = "저도 시찰하러 갔는데 광부는 아니지만, 아무래도 그건 단순한 산울림은 아닌 것 같았습니다.<end>"
 
 ["560937"]
 japanese = "この条件をのんでいただけないのなら、<line-break>今でも遅くはありません。<line-break>ご辞退願いたい。<line-break>お覚悟は、よろしいですか？<end>"

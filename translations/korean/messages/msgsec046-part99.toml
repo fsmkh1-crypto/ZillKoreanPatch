@@ -76,6 +76,10 @@ korean = "그래, 녀석 입으로 들었다. 그런데 <value:$28>….<end>"
 japanese = "…<value:$28>！<line-break>ヴァンには宿屋が…。<end>"
 korean = "…<value:$28>! 반에게는 여관이….<end>"
 
+["460050"]
+japanese = "いいって、いいって。<line-break>じゃ、よろしくな、<value:$28>。<end>"
+korean = "괜찮아, 괜찮아. 그럼 잘 부탁해, <value:$28>.<end>"
+
 ["460056"]
 japanese = "そんな俺を記念して<line-break>歌を作ったんだ、親父…。<end>"
 korean = "그런 나를 기념해서 노래를 만든 거야, 아버지….<end>"

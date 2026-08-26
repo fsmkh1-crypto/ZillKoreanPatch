@@ -16,6 +16,10 @@ korean = "응? 이 진동, 밖에서!? 설마….<end>"
 japanese = "く…、<line-break>竜王…！！<end>"
 korean = "크… 용왕…!!<end>"
 
+["1120026"]
+japanese = "うわ、言ってくれるね。<line-break>確かにその通りだけどさ。<end>"
+korean = "우와, 말은 잘하네. 확실히 맞는 말이긴 하지만.<end>"
+
 ["1120028"]
 japanese = "じゃ、<value:$28>。<line-break>せっかくだから、墜落の瞬間まで<line-break>ゆっくりしてってよ。<line-break>あはははは！<line-break>じゃあね～。<end>"
 korean = "그럼 <value:$28>. 모처럼이니 추락하는 순간까지 느긋하게 있다 가. 아하하하! 잘 가~.<end>"
@@ -52,6 +56,10 @@ korean = "<value:$28> 씨. 와 주셨군요…. 감사합니다.<end>"
 japanese = "イークレムン殿！！　<line-break>無事であったか！<line-break>　<line-break>よかった。<line-break>本当に、よかった…。<end>"
 korean = "이크레문 님!! 무사하셨군요! 다행입니다. 정말, 다행이에요….<end>"
 
+["1120062"]
+japanese = "お…アンギルダン様も…。<line-break>ありがとうございます。<end>"
+korean = "오… 앙길단 님도…. 감사합니다.<end>"
+
 ["1120069"]
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
@@ -87,6 +95,10 @@ korean = "알고 있다. 처음 끌려갔던 제어실, 그곳으로 날아가�
 ["1120090"]
 japanese = "転移じゃと？<line-break>エステル、何を考えておる？<end>"
 korean = "전이라고? 에스텔, 무슨 생각이냐?<end>"
+
+["1120092"]
+japanese = "ここを、動かなくしよう。<line-break>二度と使えないように。<end>"
+korean = "여기를 움직이지 못하게 하자. 다시는 쓸 수 없게.<end>"
 
 ["1120098"]
 japanese = "わかった。<line-break>任せておけ。<end>"
@@ -175,6 +187,10 @@ korean = "대지의 최고위 마법이 해방되었다.<end>"
 ["1120152"]
 japanese = "何？　精霊神様。<end>"
 korean = "왜요? 정령신님.<end>"
+
+["1120154"]
+japanese = "エステルの巫女としての力が<line-break>大きく引き出された。<end>"
+korean = "에스텔의 무녀로서의 힘이 크게 끌어내졌다.<end>"
 
 ["1120155"]
 japanese = "すごい…。<line-break>これが、ボクの力…？<end>"
