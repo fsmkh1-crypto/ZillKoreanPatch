@@ -20,9 +20,25 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1800058"]
+japanese = "謁見の間へ行く<end>"
+korean = "알현실로 간다<end>"
+
+["1800063"]
+japanese = "…そうですか。<end>"
+korean = "…그렇습니까.<end>"
+
 ["1800066"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["1800067"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
+["1800069"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
 
 ["1800070"]
 japanese = "そうですか。<end>"

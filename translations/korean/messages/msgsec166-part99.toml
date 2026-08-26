@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1660009"]
+japanese = "呪い状態を回復<end>"
+korean = "저주 상태 회복<end>"
+
+["1660141"]
+japanese = "お祝いに送る品<end>"
+korean = "축하 선물로 보낼 물건<end>"
+
 ["1660156"]
 japanese = "プレゼント<end>"
 korean = "선물<end>"
@@ -7,6 +15,10 @@ korean = "선물<end>"
 ["1660165"]
 japanese = "ラスラルの花<end>"
 korean = "라스랄의 꽃<end>"
+
+["1660202"]
+japanese = "城塞都市跡の噂<end>"
+korean = "성새도시 유적의 소문<end>"
 
 ["1660203"]
 japanese = "ネメア救出<end>"
@@ -24,9 +36,21 @@ korean = "금단의 성배<end>"
 japanese = "色惑の瞳<end>"
 korean = "색혹의 눈동자<end>"
 
+["1660218"]
+japanese = "死竜の洞窟探索<end>"
+korean = "사룡의 동굴 탐색<end>"
+
 ["1660220"]
 japanese = "名指しの依頼<end>"
 korean = "지명 의뢰<end>"
+
+["1660221"]
+japanese = "どうしようか？<end>"
+korean = "어떻게 할까?<end>"
+
+["1660226"]
+japanese = "怪物退治の依頼<end>"
+korean = "괴물 퇴치 의뢰<end>"
 
 ["1660230"]
 japanese = "仇討ちの依頼<end>"
@@ -67,6 +91,18 @@ korean = "고대의 수해로<end>"
 ["1660244"]
 japanese = "ザギヴの手紙<end>"
 korean = "자기브의 편지<end>"
+
+["1660248"]
+japanese = "コーンスの反乱<end>"
+korean = "콘스의 반란<end>"
+
+["1660249"]
+japanese = "コーンスの反乱<end>"
+korean = "콘스의 반란<end>"
+
+["1660250"]
+japanese = "コーンスの反乱<end>"
+korean = "콘스의 반란<end>"
 
 ["1660253"]
 japanese = "聖座の夢<end>"

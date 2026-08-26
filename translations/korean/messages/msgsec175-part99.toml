@@ -4,6 +4,10 @@
 japanese = "楽しいです<end>"
 korean = "즐겁습니다<end>"
 
+["1750011"]
+japanese = "つまらないです<end>"
+korean = "재미없어요<end>"
+
 ["1750016"]
 japanese = "暇です<end>"
 korean = "한가합니다<end>"
@@ -19,6 +23,10 @@ korean = "한가합니다<end>"
 ["1750027"]
 japanese = "忙しいです<end>"
 korean = "바쁩니다<end>"
+
+["1750042"]
+japanese = "罠を発見した。<end>"
+korean = "함정을 발견했다.<end>"
 
 ["1750048"]
 japanese = "押さない<end>"

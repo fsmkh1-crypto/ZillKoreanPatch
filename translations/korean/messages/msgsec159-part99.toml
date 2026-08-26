@@ -4,6 +4,10 @@
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>아!<end>"
 
+["1590036"]
+japanese = "覚えてやがれ！<end>"
+korean = "두고 보자!<end>"
+
 ["1590090"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
@@ -11,6 +15,10 @@ korean = "어둠의 신기?<end>"
 ["1590102"]
 japanese = "かわいそぉ！<end>"
 korean = "불쌍해애!<end>"
+
+["1590125"]
+japanese = "転送機について<end>"
+korean = "전송기에 대하여<end>"
 
 ["1590127"]
 japanese = "ネモについて<end>"
@@ -31,6 +39,10 @@ korean = "네~!<end>"
 ["1590158"]
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
+
+["1590162"]
+japanese = "何者だ、貴様！<end>"
+korean = "누구냐, 네놈!<end>"
 
 ["1590164"]
 japanese = "うんん…。<end>"

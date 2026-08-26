@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1740005"]
+japanese = "わ、わたし…。<end>"
+korean = "저, 저는….<end>"
+
 ["1740008"]
 japanese = "聞いた<end>"
 korean = "들었어<end>"
@@ -48,6 +52,14 @@ korean = "네놈은…!<end>"
 japanese = "…まさか！<end>"
 korean = "…설마!<end>"
 
+["1740139"]
+japanese = "さあ、出番だ。<end>"
+korean = "자, 출番이다.<end>"
+
+["1740143"]
+japanese = "な、なんと！？<end>"
+korean = "뭐, 뭐라고!?<end>"
+
 ["1740144"]
 japanese = "がは…っ！<end>"
 korean = "크학…!<end>"
@@ -63,6 +75,10 @@ korean = "잘 있어라.<end>"
 ["1740164"]
 japanese = "さて。<end>"
 korean = "자.<end>"
+
+["1740193"]
+japanese = "いいよ、仲間だ<end>"
+korean = "좋아, 동료야<end>"
 
 ["1740194"]
 japanese = "お前は敵だ<end>"

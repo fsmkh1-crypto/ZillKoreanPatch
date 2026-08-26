@@ -4,6 +4,10 @@
 japanese = "ゆくぞ。<end>"
 korean = "간다.<end>"
 
+["1640028"]
+japanese = "下がっていろ。<end>"
+korean = "물러서 있어.<end>"
+
 ["1640034"]
 japanese = "死ね！<end>"
 korean = "죽어!<end>"
@@ -11,6 +15,10 @@ korean = "죽어!<end>"
 ["1640035"]
 japanese = "やった！<end>"
 korean = "해냈다!<end>"
+
+["1640039"]
+japanese = "おい、帰るぞ。<end>"
+korean = "야, 돌아가자.<end>"
 
 ["1640040"]
 japanese = "え、けどよ。<end>"
@@ -51,3 +59,7 @@ korean = "윽…!<end>"
 ["1640086"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
+
+["1640096"]
+japanese = "では、またな。<end>"
+korean = "그럼, 또 보자.<end>"

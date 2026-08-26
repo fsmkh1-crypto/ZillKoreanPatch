@@ -32,9 +32,21 @@ korean = "당기지 않는다<end>"
 japanese = "引いてみる<end>"
 korean = "당겨 본다<end>"
 
+["1760047"]
+japanese = "遠慮しときます<end>"
+korean = "사양할게요<end>"
+
+["1760060"]
+japanese = "用意できました<end>"
+korean = "준비됐습니다<end>"
+
 ["1760075"]
 japanese = "押さない<end>"
 korean = "누르지 않는다<end>"
+
+["1760117"]
+japanese = "越えてみせます<end>"
+korean = "반드시 넘어서겠습니다<end>"
 
 ["1760118"]
 japanese = "残念ながら…<end>"

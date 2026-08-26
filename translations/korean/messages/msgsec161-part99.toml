@@ -84,6 +84,14 @@ korean = "알았어<end>"
 japanese = "関係ないな<end>"
 korean = "상관없군<end>"
 
+["1610067"]
+japanese = "仕事内容を聞く<end>"
+korean = "일의 내용을 묻는다<end>"
+
+["1610068"]
+japanese = "今はやめておく<end>"
+korean = "지금은 그만둔다<end>"
+
 ["1610070"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -164,6 +172,10 @@ korean = "맡겨 둬<end>"
 japanese = "そんなのウソ<end>"
 korean = "그런 건 거짓말이야<end>"
 
+["1610144"]
+japanese = "じゃ、じゃあ！<end>"
+korean = "그, 그럼!<end>"
+
 ["1610160"]
 japanese = "そっか…。<end>"
 korean = "그렇구나….<end>"
@@ -175,6 +187,10 @@ korean = "…그럼.<end>"
 ["1610170"]
 japanese = "待て！<end>"
 korean = "기다려!<end>"
+
+["1610173"]
+japanese = "よし、ゆくぞ。<end>"
+korean = "좋아, 가자.<end>"
 
 ["1610175"]
 japanese = "…では。<end>"
