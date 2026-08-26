@@ -4,6 +4,10 @@
 japanese = "ジラーク、ボリューム６開始<end>"
 korean = "질라크 볼륨 6 시작<end>"
 
+["1360010"]
+japanese = "それは忘れてしまった君の願い。<end>"
+korean = "그건 네가 잊어버린 소원이다.<end>"
+
 ["1360041"]
 japanese = "奴なら、行ったよ。<end>"
 korean = "그 녀석이라면 갔어.<end>"
@@ -116,6 +120,10 @@ korean = "<value:$28>, 시간이 없다.<end>"
 japanese = "…あっ。<line-break><value:$28>。<end>"
 korean = "…앗. <value:$28>.<end>"
 
+["1360181"]
+japanese = "このリベルダムの破壊だって…。<end>"
+korean = "이 리벨덤의 파괴도….<end>"
+
 ["1360185"]
 japanese = "…開け放つもの。<end>"
 korean = "…열어젖히는 자.<end>"
@@ -127,6 +135,10 @@ korean = "<value:$28>군. 얘기는 들었다. 지나가도 좋다.<end>"
 ["1360238"]
 japanese = "わから…ない…。<end>"
 korean = "모르…겠어….<end>"
+
+["1360248"]
+japanese = "意志すること…生きることを…。<end>"
+korean = "의지를 갖는 것… 살아가는 것을….<end>"
 
 ["1360255"]
 japanese = "はい！<end>"
@@ -404,6 +416,10 @@ korean = "기다려! 기다려 주세요!<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["1360555"]
+japanese = "意志すること…生きることを…。<end>"
+korean = "의지를 갖는 것… 살아가는 것을….<end>"
+
 ["1360560"]
 japanese = "おっ、<value:$28>じゃないか。<end>"
 korean = "오, <value:$28> 아니냐.<end>"
@@ -427,6 +443,10 @@ korean = "정중히 거절한다<end>"
 ["1360571"]
 japanese = "あのー、神官さん。<end>"
 korean = "저기요, 신관님.<end>"
+
+["1360578"]
+japanese = "うはは、困ってるぜ、神官さん。<end>"
+korean = "우하하, 곤란해 보이는데, 신관 양반.<end>"
 
 ["1360583"]
 japanese = "追加メッセージここから<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1400000"]
+japanese = "舞踏会ＶＯＬ４用メッセージ開始<end>"
+korean = "무도회 VOL4용 메시지 시작<end>"
+
 ["1400002"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
@@ -264,6 +268,10 @@ korean = "간다<end>"
 japanese = "行かない<end>"
 korean = "안 가<end>"
 
+["1400217"]
+japanese = "では、王宮の空中庭園に行くぞ。<end>"
+korean = "그럼 왕궁 공중정원으로 가자.<end>"
+
 ["1400218"]
 japanese = "ティアナは…まだのようだな。<end>"
 korean = "티아나는… 아직인 모양이군.<end>"
@@ -443,6 +451,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1400402"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1400404"]
+japanese = "地の最高位の魔法が解放された。<end>"
+korean = "대지의 최고위 마법이 해방되었다.<end>"
 
 ["1400409"]
 japanese = "ボクを助ける…ため…？<end>"
@@ -2111,3 +2123,7 @@ korean = "추가 메시지 여기부터<end>"
 ["1400853"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1400854"]
+japanese = "舞踏会ＶＯＬ４用メッセージ終端<end>"
+korean = "무도회 VOL4용 메시지 끝<end>"

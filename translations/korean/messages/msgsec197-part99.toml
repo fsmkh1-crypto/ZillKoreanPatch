@@ -48,6 +48,10 @@ korean = "아큐류스 방어전 시작 발생<end>"
 japanese = "アキュリュース傭兵　状態<end>"
 korean = "아큐류스 용병 상태<end>"
 
+["1970012"]
+japanese = "Ｅｖアトレイア＃２３　進行中<end>"
+korean = "Ev 아트레이아 #23 진행 중<end>"
+
 ["1970013"]
 japanese = "アトレイア　登場<end>"
 korean = "아트레이아 등장<end>"
@@ -67,6 +71,10 @@ korean = "아트레이아를 데리고 나감 발생<end>"
 ["1970018"]
 japanese = "アルノートゥン勝手に占領　発生<end>"
 korean = "알노툰 멋대로 점령 발생<end>"
+
+["1970019"]
+japanese = "アルノートゥン叛乱決着　終了<end>"
+korean = "알노툰 반란 결착 종료<end>"
 
 ["1970020"]
 japanese = "アンギルダン　登場<end>"
@@ -116,6 +124,10 @@ korean = "앙길단의 산 넘기 종료<end>"
 japanese = "アンギルダン配下　状態<end>"
 korean = "앙길단 휘하 상태<end>"
 
+["1970033"]
+japanese = "アンギルダンまってるぜ　発生<end>"
+korean = "앙길단 기다리고 있겠어 발생<end>"
+
 ["1970034"]
 japanese = "パンタ・レイ挑戦　発生<end>"
 korean = "판타 레이 도전 발생<end>"
@@ -127,6 +139,14 @@ korean = "앙길단을 노린다 발생<end>"
 ["1970036"]
 japanese = "暗殺依頼を聞きにいく　終了<end>"
 korean = "암살 의뢰를 들으러 감 종료<end>"
+
+["1970037"]
+japanese = "ユーリス、アカデミーへ　発生<end>"
+korean = "유리스, 아카데미로 발생<end>"
+
+["1970038"]
+japanese = "ユーリスアカデミー復帰　発生<end>"
+korean = "유리스 아카데미 복귀 발생<end>"
 
 ["1970039"]
 japanese = "ユーリス救出　発生<end>"
@@ -151,6 +171,10 @@ korean = "유리스 변상 ① 발생<end>"
 ["1970044"]
 japanese = "ユーリス爆破物語　情報<end>"
 korean = "유리스 폭파 이야기 정보<end>"
+
+["1970045"]
+japanese = "イークイシュバアル攻撃　発生<end>"
+korean = "이크 이슈바르 공격 발생<end>"
 
 ["1970046"]
 japanese = "イークレムン　登場<end>"
@@ -203,6 +227,10 @@ korean = "제네테스군 참전 발생<end>"
 ["1970059"]
 japanese = "カルラ軍参戦　発生<end>"
 korean = "카를라군 참전 발생<end>"
+
+["1970060"]
+japanese = "Ｅｖロストール＃１１　進行中<end>"
+korean = "Ev 로스톨 #11 진행 중<end>"
 
 ["1970061"]
 japanese = "イズ　情報<end>"
@@ -267,6 +295,10 @@ korean = "루루안타 정보 듣기 발생<end>"
 ["1970076"]
 japanese = "エア改心　発生<end>"
 korean = "에어 개심 발생<end>"
+
+["1970077"]
+japanese = "ルルアンタ誘拐情報入手　発生<end>"
+korean = "루루안타 유괴 정보 입수 발생<end>"
 
 ["1970078"]
 japanese = "ルルアンタ準備完了　発生<end>"
@@ -372,6 +404,10 @@ korean = "엘리스 사망<end>"
 japanese = "エリスティアナ訪問　発生<end>"
 korean = "엘리스 티아나 방문 발생<end>"
 
+["1970104"]
+japanese = "エリステジャワの変物語　発生<end>"
+korean = "에리스 테자와의 변화 이야기 발생<end>"
+
 ["1970105"]
 japanese = "エリス配下　状態<end>"
 korean = "에리스 휘하 상태<end>"
@@ -427,6 +463,10 @@ korean = "엘파스 묘지 발생<end>"
 ["1970118"]
 japanese = "エンシャント屠城　発生<end>"
 korean = "엔샨트 도성 학살 발생<end>"
+
+["1970119"]
+japanese = "エンシャントのトリゴブ　発生<end>"
+korean = "엔샨트의 트리고블 발생<end>"
 
 ["1970120"]
 japanese = "エンシャント港　発生<end>"
@@ -548,6 +588,10 @@ korean = "갈드란 역습 준비<end>"
 japanese = "ガルドラン逆襲発生　許可<end>"
 korean = "갈드란 역습 발생 허가<end>"
 
+["1970151"]
+japanese = "ガルドランコーンス救助　発生<end>"
+korean = "갈드란 콘스 구조 발생<end>"
+
 ["1970153"]
 japanese = "ガルドラン猫屋敷へ　発生<end>"
 korean = "갈드란 고양이 저택으로 발생<end>"
@@ -567,6 +611,10 @@ korean = "갈드란 용서 발생<end>"
 ["1970158"]
 japanese = "カルラ進軍不参加　発生<end>"
 korean = "카를라 진군 불참 발생<end>"
+
+["1970159"]
+japanese = "Ｅｖルルアンタ＃１１　進行中<end>"
+korean = "Ev 루루안타 #11 진행 중<end>"
 
 ["1970160"]
 japanese = "カルラ　登場<end>"
@@ -595,6 +643,10 @@ korean = "카를라 묘지 수련 발생<end>"
 ["1970167"]
 japanese = "ガント鍛冶屋にて　終了<end>"
 korean = "간트 대장간에서 종료<end>"
+
+["1970168"]
+japanese = "騎士になろうとしたわけ　発生<end>"
+korean = "기사가 되려 한 이유 발생<end>"
 
 ["1970169"]
 japanese = "フルーヴ挑戦　進行中<end>"
@@ -627,6 +679,14 @@ korean = "제네테스 소개 발생<end>"
 ["1970176"]
 japanese = "エリスレムオン詰問　発生<end>"
 korean = "엘리스 레므온 추궁 발생<end>"
+
+["1970177"]
+japanese = "ルーム内全トラップ無効　状態<end>"
+korean = "방 안 모든 함정 무효 상태<end>"
+
+["1970179"]
+japanese = "Ｅｖユーリス＃９＿Ａ　進行中<end>"
+korean = "Ev 유리스 #9_A 진행 중<end>"
 
 ["1970181"]
 japanese = "逆襲のガルドラン　発生<end>"

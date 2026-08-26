@@ -48,6 +48,10 @@ korean = "힘이 필요해<end>"
 japanese = "今はやめておく<end>"
 korean = "지금은 그만둔다<end>"
 
+["1300036"]
+japanese = "風の最高位の魔法が解放された。<end>"
+korean = "바람의 최고위 마법이 해방되었다.<end>"
+
 ["1300039"]
 japanese = "その通りです<end>"
 korean = "그 말씀대로입니다<end>"
@@ -55,3 +59,7 @@ korean = "그 말씀대로입니다<end>"
 ["1300040"]
 japanese = "そんなわけじゃ…<end>"
 korean = "그런 건 아니야…<end>"
+
+["1300048"]
+japanese = "エア　ボリューム１その１　終了<end>"
+korean = "에어 볼륨1 그 1 끝<end>"

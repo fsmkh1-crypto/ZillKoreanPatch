@@ -8,6 +8,10 @@ korean = "이벤트 선택용 시작<end>"
 japanese = "＃３：ＶＳ邪竜後・エン・城門前<end>"
 korean = "#3: VS 사룡 후·엔·성문 앞<end>"
 
+["1960281"]
+japanese = "＃９：Ｖ７の猫屋敷・猫屋敷前<end>"
+korean = "#9: V7 고양이 저택·고양이 저택 앞<end>"
+
 ["1960369"]
 japanese = "＃６：主人公捕まる・エルズ・港<end>"
 korean = "#6: 주인공 체포·엘즈·항구<end>"
@@ -68,6 +72,10 @@ korean = "몬스터 출현(M 사이즈)<end>"
 japanese = "モンスター出現（Ｌサイズ）<end>"
 korean = "몬스터 출현(L 사이즈)<end>"
 
+["1960452"]
+japanese = "モンスター出現（ＬＬサイズ）<end>"
+korean = "몬스터 출현(LL 사이즈)<end>"
+
 ["1960453"]
 japanese = "モンスター消滅（Ｍサイズ）<end>"
 korean = "몬스터 소멸(M 사이즈)<end>"
@@ -75,6 +83,10 @@ korean = "몬스터 소멸(M 사이즈)<end>"
 ["1960454"]
 japanese = "モンスター消滅（Ｌサイズ）<end>"
 korean = "몬스터 소멸(L 사이즈)<end>"
+
+["1960455"]
+japanese = "モンスター消滅（ＬＬサイズ）<end>"
+korean = "몬스터 소멸(LL 사이즈)<end>"
 
 ["1960456"]
 japanese = "光１<end>"
@@ -300,6 +312,10 @@ korean = " 아트레이아 구출<end>"
 japanese = "　イークレムンとミズチ<end>"
 korean = "이크레문과 미즈치<end>"
 
+["1960562"]
+japanese = "　ロセン門衛のフィルタリング<end>"
+korean = "로센 문지기 필터링<end>"
+
 ["1960563"]
 japanese = "　空中都市<end>"
 korean = "　공중도시<end>"
@@ -315,6 +331,10 @@ korean = " 삼손과 싸움<end>"
 ["1960567"]
 japanese = "　ソウルイーター解放<end>"
 korean = "소울 이터 해방<end>"
+
+["1960568"]
+japanese = "　カルラ進軍（ロストール#09）<end>"
+korean = "카를라 진군(로스톨 #09)<end>"
 
 ["1960570"]
 japanese = "　双子と闇の巨人１<end>"
@@ -424,6 +444,14 @@ korean = "136-C 무한의 소울에 대하여<end>"
 japanese = "　138-ストラスエッジを手に入れる<end>"
 korean = "138-스트라스 엣지를 입수<end>"
 
+["1960606"]
+japanese = "　復興団（ティアナ）門番処理<end>"
+korean = "부흥단(티아나) 문지기 처리<end>"
+
+["1960612"]
+japanese = "　復興団（ティアナ）それ以降<end>"
+korean = "부흥단(티아나) 이후<end>"
+
 ["1960614"]
 japanese = "　復興団（アトレイア）門番処理<end>"
 korean = "부흥단(아트레이아) 문지기 처리<end>"
@@ -432,6 +460,10 @@ korean = "부흥단(아트레이아) 문지기 처리<end>"
 japanese = "　復興団（アトレイア）それ以降<end>"
 korean = "부흥단(아트레이아) 그 이후<end>"
 
+["1960622"]
+japanese = "　クーデター「◆繁華街」部分<end>"
+korean = "쿠데타 「◆번화가」 부분<end>"
+
 ["1960624"]
 japanese = "　クーデター「◆丘」部分<end>"
 korean = "쿠데타 「◆언덕」 부분<end>"
@@ -439,6 +471,10 @@ korean = "쿠데타 「◆언덕」 부분<end>"
 ["1960625"]
 japanese = "　クーデター謁見の間ｱﾄﾚｲｱ<end>"
 korean = "쿠데타 알현실 아트레이아<end>"
+
+["1960626"]
+japanese = "　クーデター謁見の間ﾃｨｱﾅ<end>"
+korean = "쿠데타 알현실 티아나<end>"
 
 ["1960627"]
 japanese = "　ゼネテス逮捕<end>"
@@ -523,6 +559,14 @@ korean = " 아스티아 3<end>"
 ["1960652"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960653"]
+japanese = "　901-宿屋イベント_ｱﾄﾚｲｱ1<end>"
+korean = "901-여관 이벤트_아트레이아1<end>"
+
+["1960654"]
+japanese = "　902-宿屋イベント_ｱﾄﾚｲｱ2<end>"
+korean = "902-여관 이벤트_아트레이아2<end>"
 
 ["1960657"]
 japanese = "　905-宿屋イベント_イオンズ<end>"
@@ -680,6 +724,10 @@ korean = "41 이온즈 공통 ver END<end>"
 japanese = "　42ゴフゴブ団　共通ver END<end>"
 korean = "42 고브고브단 공통 ver END<end>"
 
+["1960702"]
+japanese = "　43世界一の冒険家　共通ver END<end>"
+korean = "43 세계 제일의 모험가 공통 ver END<end>"
+
 ["1960703"]
 japanese = "　44ガルドラン　共通ver END<end>"
 korean = "44 갈드란 공통 ver END<end>"
@@ -691,6 +739,10 @@ korean = "45 에스트 공통 ver END<end>"
 ["1960705"]
 japanese = "　46シャローム　共通ver END<end>"
 korean = "46 샬롬 공통 ver END<end>"
+
+["1960706"]
+japanese = "　47竜王表意ノエル　共通ver END<end>"
+korean = "47 용왕 표의 노엘 공통 ver END<end>"
 
 ["1960707"]
 japanese = "　48ネモ　共通ver END<end>"
@@ -2099,6 +2151,10 @@ korean = "미녀의 유혹 후 메시지 변경<end>"
 ["1961163"]
 japanese = "二度めの美女の誘惑<end>"
 korean = "두 번째 미녀의 유혹<end>"
+
+["1961164"]
+japanese = "二度めの誘惑後メッセージ変更<end>"
+korean = "두 번째 유혹 후 메시지 변경<end>"
 
 ["1961179"]
 japanese = "旅立ち開始<end>"

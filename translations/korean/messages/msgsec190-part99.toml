@@ -32,6 +32,10 @@ korean = "나는 그저 소원을 구할 뿐이다.<end>"
 japanese = "じゃあね、<value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
 
+["1900099"]
+japanese = "カルラ様！　将軍の仕事は！？<end>"
+korean = "카를라 님! 장군 업무는요!?<end>"
+
 ["1900102"]
 japanese = "よし。じゃ、がんばっていこー！<end>"
 korean = "좋아. 그럼 힘내서 가자!<end>"
@@ -47,6 +51,10 @@ korean = "어…! 카, 카를라 님?<end>"
 ["1900115"]
 japanese = "ネメア様！<end>"
 korean = "네메아 님!<end>"
+
+["1900116"]
+japanese = "ネメア様！　ご無事でしたか！<end>"
+korean = "네메아 님! 무사하셨습니까!<end>"
 
 ["1900117"]
 japanese = "いらぬ心配をかけた。許せ。<end>"

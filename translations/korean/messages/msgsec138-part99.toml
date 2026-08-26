@@ -8,6 +8,10 @@ korean = "오시 볼륨 5 시작<end>"
 japanese = "本当に感謝しとる。<end>"
 korean = "정말 감사하고 있네.<end>"
 
+["1380019"]
+japanese = "お主には感謝してもしきれぬな。<end>"
+korean = "자네에겐 아무리 감사해도 모자라겠군.<end>"
+
 ["1380026"]
 japanese = "に…にぁぁああ。<line-break> <line-break> <line-break>………………<end>"
 korean = "냐… 냐아아아. ………………<end>"
@@ -79,6 +83,10 @@ korean = "신경 쓰지 않았어<end>"
 ["1380102"]
 japanese = "何をしてたかって？<end>"
 korean = "뭘 하고 있었냐고?<end>"
+
+["1380105"]
+japanese = "別に気にしなくていいのにねー。<end>"
+korean = "딱히 신경 쓰지 않아도 되는데 말이야.<end>"
 
 ["1380113"]
 japanese = "じゃねー。<end>"
@@ -227,6 +235,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1380298"]
 japanese = "張り紙がしてありますね。<end>"
 korean = "벽보가 붙어 있네요.<end>"
+
+["1380299"]
+japanese = "さて、何について説明しようか？<end>"
+korean = "자, 무엇에 대해 설명할까?<end>"
 
 ["1380301"]
 japanese = "…待って、<value:$28>。<end>"

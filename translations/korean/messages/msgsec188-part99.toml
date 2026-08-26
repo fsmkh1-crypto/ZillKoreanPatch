@@ -28,6 +28,10 @@ korean = "자금 지원 요청하러 간다<end>"
 japanese = "行かない<end>"
 korean = "안 간다<end>"
 
+["1880048"]
+japanese = "ロストール軍に参戦したと言う<end>"
+korean = "로스톨군에 참전했다고 말한다<end>"
+
 ["1880049"]
 japanese = "参戦したことは伏せておく<end>"
 korean = "참전한 사실은 숨겨 둔다<end>"
@@ -87,6 +91,10 @@ korean = "왜?<end>"
 ["1880139"]
 japanese = "そうだ！<end>"
 korean = "맞아!<end>"
+
+["1880149"]
+japanese = "（回収は解放軍に任せよう。）<end>"
+korean = "(회수는 해방군에 맡기자.)<end>"
 
 ["1880157"]
 japanese = "解放軍イベント終端<end>"

@@ -80,6 +80,10 @@ korean = "단장, 뭘 그렇게 떠드는 거야 고브?<end>"
 japanese = "団長！　あいつゴブ！<end>"
 korean = "단장! 저 녀석 고브!<end>"
 
+["690126"]
+japanese = "結構です。<line-break>まいりましょう。<end>"
+korean = "좋습니다. 가죠.<end>"
+
 ["690130"]
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
@@ -168,6 +172,14 @@ korean = "별로…<end>"
 japanese = "さ、まいりましょう。<end>"
 korean = "자, 가시죠.<end>"
 
+["690231"]
+japanese = "あれは…？<line-break>いや、まさか…。<end>"
+korean = "저건…? 아니, 설마….<end>"
+
+["690234"]
+japanese = "…待て。<line-break>貴様、名を名乗れ。<end>"
+korean = "…기다려. 네놈, 이름을 대라.<end>"
+
 ["690237"]
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
@@ -179,6 +191,10 @@ korean = "기다려!<end>"
 ["690240"]
 japanese = "行くぞ。<end>"
 korean = "간다.<end>"
+
+["690243"]
+japanese = "結構です。<line-break>まいりましょう。<end>"
+korean = "좋습니다. 가죠.<end>"
 
 ["690247"]
 japanese = "…では。<end>"

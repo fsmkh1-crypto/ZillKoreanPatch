@@ -120,6 +120,14 @@ korean = "신 07: 광장<end>"
 japanese = "シーン０８：道具屋<end>"
 korean = "씬 08: 도구점<end>"
 
+["1940064"]
+japanese = "シーン０９：宿屋　その１の１<end>"
+korean = "장면 09: 여관 1-1<end>"
+
+["1940065"]
+japanese = "シーン１０：宿屋　その１の２<end>"
+korean = "장면 10: 여관 1-2<end>"
+
 ["1940066"]
 japanese = "シーン１１：宿屋　その２<end>"
 korean = "장면 11: 여관 그 2<end>"
@@ -132,9 +140,17 @@ korean = "신 14: 창고<end>"
 japanese = "シーン０１：<end>"
 korean = "신 01:<end>"
 
+["1940076"]
+japanese = "＃６：人、侵入・ゼグナ鉱山１<end>"
+korean = "#6: 침입·제그나 광산 1<end>"
+
 ["1940097"]
 japanese = "＃４：兄と弟・ミイスの村・広場<end>"
 korean = "#4: 형과 동생·미이스 마을·광장<end>"
+
+["1940098"]
+japanese = "＃５：罠と怪物・ミイスの森３<end>"
+korean = "#5: 함정과 괴물·미이스의 숲 3<end>"
 
 ["1940115"]
 japanese = "＃２：伝説の宝剣・炎竜山２<end>"
@@ -171,6 +187,10 @@ korean = "신 01:<end>"
 ["1940124"]
 japanese = "シーン０１：<end>"
 korean = "신 01:<end>"
+
+["1940360"]
+japanese = "＃１１９：父の仇・賢者の森３<end>"
+korean = "#119: 아버지의 원수·현자의 숲 3<end>"
 
 ["1941125"]
 japanese = "イベントセレクト用終端<end>"

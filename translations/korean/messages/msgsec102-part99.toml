@@ -4,6 +4,10 @@
 japanese = "（…閉まっているようだ。）<end>"
 korean = "(…닫혀 있는 것 같다.)<end>"
 
+["1020009"]
+japanese = "先生のこと、よろしく頼んだぜ。<end>"
+korean = "선생님을 잘 부탁한다.<end>"
+
 ["1020010"]
 japanese = "<value:$28>も気をつけてくれよ。<end>"
 korean = "<value:$28>도 조심해.<end>"

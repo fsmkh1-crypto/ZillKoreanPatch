@@ -96,6 +96,10 @@ korean = "…좋다, 증명해 보아라.<end>"
 japanese = "終わったわ…。<end>"
 korean = "끝났어….<end>"
 
+["1330198"]
+japanese = "『僕は人間になれるのかなあ…』<end>"
+korean = "『나는 인간이 될 수 있을까…』<end>"
+
 ["1330206"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
@@ -399,6 +403,10 @@ korean = "끝났군.<end>"
 ["1330642"]
 japanese = "それじゃぁな。<end>"
 korean = "그럼, 잘 있어.<end>"
+
+["1330659"]
+japanese = "ああ、こいつか。こいつはな…。<end>"
+korean = "아아, 이 녀석인가. 이 녀석은 말이지….<end>"
 
 ["1330675"]
 japanese = "ギー！　ヨシ。マテー！<end>"

@@ -80,6 +80,10 @@ korean = "그게 그들의 삶의 방식이다<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1370175"]
+japanese = "その言葉、信用して大丈夫だな？<end>"
+korean = "그 말, 믿어도 되는 거지?<end>"
+
 ["1370176"]
 japanese = "ちょっと待って<end>"
 korean = "잠깐 기다려<end>"
@@ -444,6 +448,10 @@ korean = "오, 근본적인 질문이군.<end>"
 japanese = "張り紙がしてありますね。<end>"
 korean = "벽보가 붙어 있네요.<end>"
 
+["1370450"]
+japanese = "さて、何について説明しようか？<end>"
+korean = "자, 무엇에 대해 설명할까?<end>"
+
 ["1370461"]
 japanese = "だ、だって…。<end>"
 korean = "하, 하지만….<end>"
@@ -612,6 +620,10 @@ korean = "앗, <value:$28> 씨!<end>"
 japanese = "いえ、やっぱりなんでもないです。<line-break>　<line-break>　<line-break>………<end>"
 korean = "아뇨, 역시 아무것도 아닙니다. ………<end>"
 
+["1370600"]
+japanese = "…あの、このあと…お暇ですか？<end>"
+korean = "…저기, 이 다음에… 시간 있으세요?<end>"
+
 ["1370602"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -651,6 +663,10 @@ korean = "한 분야에 뛰어난 성장<end>"
 ["1370638"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
+
+["1370639"]
+japanese = "はっはっは、こりゃ頼もしいな。<end>"
+korean = "하하하, 이거 든든하군.<end>"
 
 ["1370641"]
 japanese = "いけない、私、戻らなくちゃ。<end>"

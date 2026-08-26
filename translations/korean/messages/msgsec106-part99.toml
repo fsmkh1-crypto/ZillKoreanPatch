@@ -4,6 +4,10 @@
 japanese = "よく来た、<value:$28>よ。<line-break>話は、すでに聞いている。<line-break>手紙を。<end>"
 korean = "잘 왔다, <value:$28>. 이야기는 이미 들었다. 편지를.<end>"
 
+["1060038"]
+japanese = "な、のぞいてみないか？　手紙。<end>"
+korean = "저, 편지… 엿보지 않을래?<end>"
+
 ["1060039"]
 japanese = "だ、ダメだよ、ヴァン。<end>"
 korean = "아, 안 돼, 반.<end>"
