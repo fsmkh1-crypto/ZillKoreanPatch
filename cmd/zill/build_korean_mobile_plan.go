@@ -12,11 +12,11 @@ import (
 	"github.com/HK47196/zill/internal/slotaudit"
 )
 
-// buildKoreanAlphaPlanMobile keeps authenticated structured reservations while
-// permitting selected unused retail font cells to receive Korean bearing and
-// advance metrics. It deliberately skips the production planner's final raw
-// exact-byte exclusion pass: mobile alpha builds are for device validation, and
-// decoded CP932 literals plus fixed/structured strings are the safety boundary.
+// buildKoreanAlphaPlanMobile keeps authenticated structured reservations but,
+// like the English patch's complete font transform, allocates custom runes from
+// the full installed two-byte PAF repertoire rather than requiring a Korean rune
+// to fit the retail cell geometry that happened to belong to that key. The full
+// Korean font repacker rewrites atlas placement and PAF geometry coherently.
 func buildKoreanAlphaPlanMobile(root, gameDir string) (koreanslots.Plan, int, int, error) {
 	font, err := loadRetailPAF(gameDir)
 	if err != nil {
@@ -68,11 +68,11 @@ func buildKoreanAlphaPlanMobile(root, gameDir string) (koreanslots.Plan, int, in
 	}
 	plan, err := koreanslots.BuildPlan(
 		texts,
-		font.KoreanMetricRewriteKeys(),
+		font.DoubleByteKeys(),
 		rendererKeySetSlice(reserved),
 	)
 	if err != nil {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile alpha metric-rewrite plan allocation: %w", err)
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile alpha full-font plan allocation: %w", err)
 	}
 	return plan, koreanSummary.Records, sourceSummary.Records, nil
 }
