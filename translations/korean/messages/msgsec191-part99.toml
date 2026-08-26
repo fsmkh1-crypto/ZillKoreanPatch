@@ -120,6 +120,10 @@ korean = "카핀!<end>"
 japanese = "カフィン…。<end>"
 korean = "카핀….<end>"
 
+["1910118"]
+japanese = "うぅ…カフィン…<line-break>レイヴン…。<end>"
+korean = "으으… 카핀… 레이븐….<end>"
+
 ["1910127"]
 japanese = "<value:$28>さん、<line-break>わたしにはこんなことを言う<line-break>資格はないですけど…<end>"
 korean = "<value:$28> 씨, 제가 이런 말을 할 자격은 없지만…<end>"
@@ -131,6 +135,10 @@ korean = "힘내세요….<end>"
 ["1910129"]
 japanese = "これが、本当に最後の戦いね。<line-break><value:$28>、<line-break>ちゃんと準備はできた？<end>"
 korean = "이게 정말 마지막 싸움이네. <value:$28>, 준비는 제대로 됐어?<end>"
+
+["1910136"]
+japanese = "ですから、<value:$28>。<line-break>運命などというものに<line-break>負けてはいけませんよ。<end>"
+korean = "그러니, <value:$28>. 운명 따위에 져서는 안 됩니다.<end>"
 
 ["1910143"]
 japanese = "さぁ、あと一息じゃ。<line-break>戦いの準備はできたのか、<line-break><value:$28>？<end>"

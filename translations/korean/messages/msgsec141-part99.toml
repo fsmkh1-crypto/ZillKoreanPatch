@@ -388,6 +388,10 @@ korean = "기다려! 오빠.<end>"
 japanese = "お兄様！<end>"
 korean = "오라버니!<end>"
 
+["1410353"]
+japanese = "ねえ、<value:$28>。<line-break><value:$28>の中じゃ、<line-break>もう、全部終わっちゃった？<end>"
+korean = "저기, <value:$28>. <value:$28>한테는 이제 다 끝난 거야?<end>"
+
 ["1410364"]
 japanese = "…そういうことだったのね、ヴィア。<end>"
 korean = "…그런 일이었구나, 비아.<end>"

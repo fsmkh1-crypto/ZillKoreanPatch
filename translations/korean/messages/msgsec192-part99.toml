@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1920000"]
+japanese = "ＺｉｌｌＯ’ｌｌ　エンディングメッセージ開始<end>"
+korean = "Zill O'll 엔딩 메시지 시작<end>"
+
 ["1920002"]
 japanese = "私の、<value:$28>…。<end>"
 korean = "나의, <value:$28>….<end>"
@@ -156,6 +160,10 @@ korean = "네, 네!<end>"
 japanese = "<value:$28>さん、<line-break>行きましょう！<end>"
 korean = "<value:$28> 씨, 갑시다!<end>"
 
+["1920204"]
+japanese = "へい、おかしら！<line-break>　<line-break>　<end>"
+korean = "예, 두목!<end>"
+
 ["1920213"]
 japanese = "何？<line-break>何か言ったかしら、<line-break><value:$28>？<end>"
 korean = "뭐? 무슨 말 했어, <value:$28>?<end>"
@@ -175,3 +183,7 @@ korean = "빈칸<end>"
 ["1920252"]
 japanese = "行ってしまったな。<end>"
 korean = "가버렸군.<end>"
+
+["1920283"]
+japanese = "ＺｉｌｌＯ’ｌｌ　エンディングメッセージ終端<end>"
+korean = "Zill O'll 엔딩 메시지 끝<end>"

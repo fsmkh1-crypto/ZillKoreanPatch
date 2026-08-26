@@ -56,6 +56,14 @@ korean = "어라? 새로 온 녀석인가?<end>"
 japanese = "小僧。<line-break>貪欲の盾は、どこだ？<end>"
 korean = "꼬마. 탐욕의 방패는 어디 있지?<end>"
 
+["1730036"]
+japanese = "ひ…う、う…えぐ。<line-break>うわーん。<end>"
+korean = "흐…으, 으…흑. 으아앙.<end>"
+
+["1730041"]
+japanese = "盾の在処はわかった。<line-break>ゆくぞ。<end>"
+korean = "방패가 있는 곳은 알아냈다. 가자.<end>"
+
 ["1730043"]
 japanese = "…今は、盾の方が<line-break>優先する。<end>"
 korean = "…지금은 방패가 우선이다.<end>"
@@ -123,6 +131,10 @@ korean = "그, 그건….<end>"
 ["1730101"]
 japanese = "あのお方はお怒りだ。<end>"
 korean = "그분은 화가 나셨다.<end>"
+
+["1730103"]
+japanese = "失敗は死でつぐなえ。<line-break>シャリ。<end>"
+korean = "실패는 죽음으로 갚아라. 샤리.<end>"
 
 ["1730110"]
 japanese = "メンゴ。<end>"

@@ -4,6 +4,10 @@
 japanese = "アーギルシャイアメッセージ開始<end>"
 korean = "아길샤이어 메시지 시작<end>"
 
+["720008"]
+japanese = "む、聖杯をねらう<line-break>悪い人間ゴブ！<end>"
+korean = "음, 성배를 노리는 나쁜 인간 고브!<end>"
+
 ["720011"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -79,6 +83,10 @@ korean = "…세라?<end>"
 ["720080"]
 japanese = "…そして、ロイ。<end>"
 korean = "…그리고, 로이.<end>"
+
+["720082"]
+japanese = "…そこのぼんくら。<line-break>名を名乗れ。<end>"
+korean = "…거기 멍청이. 이름을 대라.<end>"
 
 ["720086"]
 japanese = "…さっきの女は？<end>"

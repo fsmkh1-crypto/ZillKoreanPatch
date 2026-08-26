@@ -24,6 +24,10 @@ korean = "맛을 본다<end>"
 japanese = "いやだ<end>"
 korean = "싫어<end>"
 
+["780037"]
+japanese = "それじゃ、<line-break>食っていってやりな。<end>"
+korean = "그럼, 먹고 가게.<end>"
+
 ["780038"]
 japanese = "どうだ？<line-break>うまかったか？<end>"
 korean = "어때? 맛있었나?<end>"
@@ -71,6 +75,10 @@ korean = "감사합니다!<end>"
 ["780065"]
 japanese = "言っておくが、中は荒れ放題だぞ。<end>"
 korean = "말해 두지만, 안은 엉망진창이야.<end>"
+
+["780066"]
+japanese = "構いません。<line-break>では、失礼します。<end>"
+korean = "괜찮습니다. 그럼, 실례하겠습니다.<end>"
 
 ["780068"]
 japanese = "何を言い出すかと思えば…。<end>"

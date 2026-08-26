@@ -16,6 +16,10 @@ korean = "네메아를 쫓는다<end>"
 japanese = "ネメアを追わない<end>"
 korean = "네메아를 쫓지 않는다<end>"
 
+["1780029"]
+japanese = "妙だな…、<line-break>なぜ単独行動を…。<end>"
+korean = "이상하군… 왜 단독행동을….<end>"
+
 ["1780036"]
 japanese = "…アイリーン…。<end>"
 korean = "…아이린….<end>"
@@ -43,6 +47,10 @@ korean = "아아… <value:$28>…. 엄, 마…, 선생님…, 카…르…라�
 ["1780052"]
 japanese = "<value:$28>。<line-break>カルラは…？<end>"
 korean = "<value:$28>. 카를라는…?<end>"
+
+["1780058"]
+japanese = "…かぁ、さん…<line-break>…せんせぇ…。<end>"
+korean = "…엄마… …선생님….<end>"
 
 ["1780059"]
 japanese = "<value:$28>。<line-break>カルラは…？<end>"

@@ -4,6 +4,10 @@
 japanese = "終わったな。<line-break>戻るぞ、<value:$28>。<line-break>　<end>"
 korean = "끝났군. 돌아가자, <value:$28>.<end>"
 
+["180018"]
+japanese = "やったね、<value:$28>。<line-break>あとはギルドに報告するだけだね。<line-break>じゃ、帰ろ。<end>"
+korean = "해냈네, <value:$28>. 이제 길드에 보고만 하면 돼. 그럼 돌아가자.<end>"
+
 ["180020"]
 japanese = "終わったな。<line-break>行くぞ。<line-break>　<end>"
 korean = "끝났군. 가자.<end>"

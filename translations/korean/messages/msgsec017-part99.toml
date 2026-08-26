@@ -24,6 +24,10 @@ korean = "아이템과 장비품, 어느 쪽을 팔 거야?<end>"
 japanese = "こいつをいくつ売ってくれるんだ？<end>"
 korean = "이걸 몇 개 팔겠어?<end>"
 
+["170025"]
+japanese = "じゃ、<value:$15>ってのはどうだ？<line-break><end>"
+korean = "그럼, <value:$15>는 어때?<end>"
+
 ["170026"]
 japanese = "名前を入力してください。<line-break><end>"
 korean = "이름을 입력해 주세요.<end>"

@@ -404,6 +404,10 @@ korean = "꺄아아아아아아!<end>"
 japanese = "この香り…　　　　　　　　　　　　<end>"
 korean = "이 향기…<end>"
 
+["560281"]
+japanese = "おい、なんの音だ？<line-break>何があった？<end>"
+korean = "이봐, 무슨 소리야? 무슨 일이지?<end>"
+
 ["560282"]
 japanese = "見ろ、ダルケニスだ！<end>"
 korean = "봐, 달케니스다!<end>"
@@ -475,6 +479,10 @@ korean = "후후, 상이 받고 싶어?<end>"
 ["560337"]
 japanese = "また、告死天使だ。<end>"
 korean = "또 고사천사다.<end>"
+
+["560341"]
+japanese = "あたしの美貌には<line-break>逆らえないわ。<end>"
+korean = "내 미모에는 거역할 수 없지.<end>"
 
 ["560356"]
 japanese = "<value:$28><line-break>そっちの調子はどう？<end>"
@@ -560,6 +568,10 @@ korean = "역시… 역시… 너와는 여기서 만나게 됐군. <value:$28>�
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
 
+["560435"]
+japanese = "ああ、君か。<line-break>この私に何か用か？<end>"
+korean = "아, 자네인가. 이 나에게 무슨 용건이지?<end>"
+
 ["560437"]
 japanese = "これは…余計なことを言ったようだ。<end>"
 korean = "이런… 쓸데없는 말을 한 것 같군.<end>"
@@ -639,6 +651,10 @@ korean = "뭐, 뭘…<end>"
 ["560503"]
 japanese = "…ごめんなさい<end>"
 korean = "…미안해요<end>"
+
+["560511"]
+japanese = "もう、いいわ！<line-break>もう、たくさん！<end>"
+korean = "이제 됐어! 이제 지긋지긋해!<end>"
 
 ["560517"]
 japanese = "あ、あなた…！<end>"
@@ -739,6 +755,10 @@ korean = "야! 위험해!<end>"
 ["560620"]
 japanese = "ほーら、<line-break>言ったとおりでしょ！<line-break>…って、<value:$28>！<end>"
 korean = "거봐, 내가 말한 대로지! …아니, <value:$28>!<end>"
+
+["560621"]
+japanese = "光、光！<line-break>こっちから出られるよ！<end>"
+korean = "빛, 빛이다! 이쪽으로 나갈 수 있어!<end>"
 
 ["560626"]
 japanese = "心配なら、アイリーンも<line-break>一緒に<value:$28>の<line-break>仲間になったらいいじゃん！<end>"
