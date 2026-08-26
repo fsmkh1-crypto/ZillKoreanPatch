@@ -168,6 +168,10 @@ korean = "신경 쓰고 있었다<end>"
 japanese = "気にしてなかった<end>"
 korean = "신경 쓰지 않았어<end>"
 
+["1380092"]
+japanese = "ホントにゴメンって思ってる。<line-break>ホントにホントだよ！<line-break>　<line-break>ボクだってホントは<line-break><value:$28>やみんなと<line-break>冒険したいんだ…。<end>"
+korean = "정말 미안하다고 생각해. 진짜야! 나도 사실은 <value:$28>이랑 모두와 함께 모험하고 싶어….<end>"
+
 ["1380093"]
 japanese = "見たことない山や海、世界の不思議や、<line-break>いろんな国々の、たくさんの人たちと<line-break>触れ合ってみたいんだ！<line-break>だから…だからね…<end>"
 korean = "본 적 없는 산과 바다, 세상의 신비와 여러 나라의 수많은 사람들을 만나 보고 싶어! 그래서… 그래서 말이야….<end>"
@@ -479,6 +483,10 @@ korean = "로이, 역시 난 이제 방으로 돌아가겠다.<end>"
 ["1380287"]
 japanese = "姉のことを話題にされるのがつらいか？<end>"
 korean = "누나 이야기가 나오는 게 괴로운가?<end>"
+
+["1380288"]
+japanese = "そう思いたくば、それでもいい。　<line-break><line-break><line-break><value:$28>。<line-break>おまえの力は役に立つはずだ。<line-break>他の無能な連中に比べれば、だがな。<end>"
+korean = "그렇게 생각하고 싶다면 그래도 좋다. <value:$28>. 네 힘은 도움이 될 거야. 다른 무능한 녀석들에 비하면 말이지.<end>"
 
 ["1380294"]
 japanese = "明日からまたお互い力を尽くそう、<line-break><value:$28>。<end>"

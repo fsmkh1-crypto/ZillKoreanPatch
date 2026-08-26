@@ -148,6 +148,10 @@ korean = "으음….<end>"
 japanese = "あ！<end>"
 korean = "아!<end>"
 
+["570086"]
+japanese = "ルルアンタ、見たんだから！<line-break>みなさ～ん！　この人…<end>"
+korean = "루루안타, 봤거든! 여러분~! 이 사람….<end>"
+
 ["570087"]
 japanese = "むが、むが、むがが…。<end>"
 korean = "우가, 우가, 우가가….<end>"
@@ -224,6 +228,10 @@ korean = "정말이네. 독을 발랐던 흔적이 없어.<end>"
 japanese = "ううん。毒をふき取るも何も、<end>"
 korean = "아니. 독을 닦아 내고 말고 할 것도 없이,<end>"
 
+["570131"]
+japanese = "これ、たぶん買ってから一度も<line-break>手入れしてないよぉ。<end>"
+korean = "이거 아마 산 뒤로 한 번도 손질 안 했지?<end>"
+
 ["570136"]
 japanese = "あん？<line-break>船賃はいいのかって？<end>いいんだ。<line-break>さっきこの男前と軽く勝負してな。<line-break>タダで乗っけてもらう事になったんだ。<end>"
 korean = "응? 뱃삯은 괜찮냐고?<end>괜찮아. 아까 이 미남하고 가볍게 승부해서 공짜로 태워 주기로 했거든.<end>"
@@ -231,6 +239,18 @@ korean = "응? 뱃삯은 괜찮냐고?<end>괜찮아. 아까 이 미남하고 �
 ["570140"]
 japanese = "そうだな、とりあえずは動くしかない。<line-break>お前さんの言う通りだ。<line-break>　<line-break>んじゃ、行きますか？<end>"
 korean = "그래, 일단 움직이는 수밖에 없겠지. 네 말이 맞아. 그럼 가 볼까?<end>"
+
+["570141"]
+japanese = "予備用メッセージ３<line-break>ルルアンタ・ボリューム１その２<end>"
+korean = "예비 메시지 3 루루안타, 볼륨 1 그 2<end>"
+
+["570142"]
+japanese = "予備用メッセージ４<line-break>ルルアンタ・ボリューム１その２<end>"
+korean = "예비 메시지 4 루루안타, 볼륨 1 그 2<end>"
+
+["570143"]
+japanese = "予備用メッセージ５<line-break>ルルアンタ・ボリューム１その２<end>"
+korean = "예비 메시지 5 루루안타, 볼륨 1 그 2<end>"
 
 ["570149"]
 japanese = "ルルアンタ・ボリューム１その２終端<end>"

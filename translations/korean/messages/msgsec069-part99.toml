@@ -96,6 +96,10 @@ korean = "아길샤이어에 대해서<end>"
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
 
+["690064"]
+japanese = "フフ、それは秘密です。　　<line-break>ま、おいおい、わかりますよ。<line-break>　<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<line-break>　<end>"
+korean = "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일단 길드에서 일을 해 주세요.<end>"
+
 ["690076"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
@@ -395,6 +399,10 @@ korean = "…그럼.<end>"
 ["690250"]
 japanese = "…なぜだか、<line-break>思い出せないのか。<end>"
 korean = "…왜인지 기억이 안 나는 건가.<end>"
+
+["690256"]
+japanese = "そうじゃ。なれば、<line-break>地上から奴らを消せばいい。　　　<line-break>　<line-break>奴らがお前にすることを<line-break>ただ、やり返してやればいい。<line-break>　<end>"
+korean = "그래. 그렇다면 지상에서 놈들을 없애면 된다. 놈들이 네게 하는 짓을 그대로 되갚아 주면 돼.<end>"
 
 ["690261"]
 japanese = "ですから、いったい何をです？<end>"

@@ -32,6 +32,10 @@ korean = "여어, 오랜만이군.<end>"
 japanese = "俺が、ゼネテス・ファーロス。<line-break>この戦いの副司令だ。<end>"
 korean = "내가 제네테스 파로스. 이 전투의 부사령관이다.<end>"
 
+["1620018"]
+japanese = "よく来てくれたな、<value:$28>。<line-break>ギルドのおやじから噂は聞いていた。<line-break>　<line-break><value:$2B>の異名を持つ<line-break>やり手の冒険者がいるってな。<end>"
+korean = "잘 왔다, <value:$28>. 길드 아저씨에게 소문은 들었어. <value:$2B>라는 별명을 가진 실력 좋은 모험자가 있다더군.<end>"
+
 ["1620022"]
 japanese = "聞く<end>"
 korean = "듣는다<end>"

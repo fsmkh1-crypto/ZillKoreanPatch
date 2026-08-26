@@ -452,6 +452,10 @@ korean = "그렇습니까….<end>"
 japanese = "あ、ああ、<value:$28>か。<line-break>ティアナから手紙が来てな。<line-break>今から王宮に行くところなのだ。<end>"
 korean = "아, <value:$28>인가. 티아나에게 편지가 와서 지금 왕궁으로 가는 길이다.<end>"
 
+["1400214"]
+japanese = "<if><value:$29><equal>%0…お前にも、一緒に来てほしい。<end>…お前にも、一緒に来てほしい。<line-break>俺はお前の前でしか、<line-break>ティアナと話したくないのだ。<end>"
+korean = "<if><value:$29><equal>%0…너도 함께 와 줬으면 해.<end>…너도 함께 와 줬으면 해. 나는 네 앞에서만 티아나와 이야기하고 싶다.<end>"
+
 ["1400215"]
 japanese = "行く<end>"
 korean = "간다<end>"

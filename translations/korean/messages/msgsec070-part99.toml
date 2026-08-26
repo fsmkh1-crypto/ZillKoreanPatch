@@ -80,6 +80,10 @@ korean = "좋아. 그럼 한동안 같이 잘 부탁해.<end>"
 japanese = "そうかい。<line-break>んじゃ、がんばれよ。<end>"
 korean = "그래. 그럼 힘내라.<end>"
 
+["700033"]
+japanese = "そうじゃ。なれば、<line-break>地上から奴らを消せばいい。　　　<line-break>　<line-break>奴らがお前にすることを<line-break>ただ、やり返してやればいい。<line-break>　<end>"
+korean = "그래. 그렇다면 지상에서 놈들을 없애면 된다. 놈들이 네게 하는 짓을 그대로 되갚아 주면 돼.<end>"
+
 ["700035"]
 japanese = "そら、お前を殺そうとして<line-break>凶悪な冒険者がやってきおった。<line-break>　<line-break>まず、奴らを血祭りに上げよ。<line-break>よいな。<end>"
 korean = "자, 너를 죽이려 흉악한 모험자들이 찾아왔다. 우선 녀석들을 피바다로 만들어라. 알겠느냐.<end>"
@@ -87,6 +91,10 @@ korean = "자, 너를 죽이려 흉악한 모험자들이 찾아왔다. 우선 �
 ["700036"]
 japanese = "ま、こいつも、実は<line-break>かわいそうな奴なのかもな。<line-break>　<line-break>んじゃな。<line-break><value:$28>。<line-break>また、会おうぜ。<end>"
 korean = "뭐, 이 녀석도 사실 불쌍한 놈일지도 모르지. 그럼 간다, <value:$28>. 또 보자.<end>"
+
+["700041"]
+japanese = "そうじゃ。なれば、<line-break>地上から奴らを消せばいい。　　　<line-break>　<line-break>奴らがお前にすることを<line-break>ただ、やり返してやればいい。<line-break>　<end>"
+korean = "그래. 그렇다면 지상에서 놈들을 없애면 된다. 놈들이 네게 하는 짓을 그대로 되갚아 주면 돼.<end>"
 
 ["700043"]
 japanese = "そら、お前を殺そうとして<line-break>凶悪な冒険者がやってきおった。<line-break>　<line-break>まず、奴らを血祭りに上げよ。<line-break>よいな。<end>"
