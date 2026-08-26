@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1640006"]
+japanese = "ダークエルフ…。<end>"
+korean = "다크 엘프….<end>"
+
 ["1640022"]
 japanese = "ゆくぞ。<end>"
 korean = "간다.<end>"
+
+["1640026"]
+japanese = "こ、この人が！？<end>"
+korean = "이, 이 사람이!?<end>"
 
 ["1640028"]
 japanese = "下がっていろ。<end>"
@@ -24,6 +32,10 @@ korean = "야, 돌아가자.<end>"
 japanese = "え、けどよ。<end>"
 korean = "어, 하지만.<end>"
 
+["1640042"]
+japanese = "わ、わかったよ。<end>"
+korean = "아, 알았어.<end>"
+
 ["1640044"]
 japanese = "逃げるのか。<end>"
 korean = "도망치는 거냐.<end>"
@@ -35,6 +47,10 @@ korean = "뭐!?<end>"
 ["1640049"]
 japanese = "妹のために？<end>"
 korean = "여동생을 위해서?<end>"
+
+["1640055"]
+japanese = "あの男の仲間か？<end>"
+korean = "그 남자의 동료인가?<end>"
 
 ["1640060"]
 japanese = "なら殺せ！<end>"

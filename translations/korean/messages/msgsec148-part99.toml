@@ -4,9 +4,25 @@
 japanese = "未使用<end>"
 korean = "미사용<end>"
 
+["1480022"]
+japanese = "ひっく、ひっく…<end>"
+korean = "흐윽, 흐윽…<end>"
+
+["1480049"]
+japanese = "すごいすごーい！<end>"
+korean = "대단해, 대단해~!<end>"
+
+["1480071"]
+japanese = "無限のソウルとは<end>"
+korean = "무한의 소울이란<end>"
+
 ["1480072"]
 japanese = "転送機について<end>"
 korean = "전송기에 대하여<end>"
+
+["1480073"]
+japanese = "闇の神器について<end>"
+korean = "어둠의 신기에 대하여<end>"
 
 ["1480074"]
 japanese = "ネモについて<end>"
@@ -15,6 +31,10 @@ korean = "네모에 대해서<end>"
 ["1480098"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
+
+["1480111"]
+japanese = "何か質問ですか？<end>"
+korean = "뭔가 질문 있으신가요?<end>"
 
 ["1480112"]
 japanese = "未使用<end>"
@@ -39,3 +59,7 @@ korean = "미사용<end>"
 ["1480134"]
 japanese = "すぐに行く<end>"
 korean = "바로 간다<end>"
+
+["1480135"]
+japanese = "気が向いたら行く<end>"
+korean = "마음이 내키면 간다<end>"

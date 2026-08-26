@@ -4,9 +4,61 @@
 japanese = "呪い状態を回復<end>"
 korean = "저주 상태 회복<end>"
 
+["1660061"]
+japanese = "盾に火属性を付加<end>"
+korean = "방패에 불 속성 부여<end>"
+
+["1660062"]
+japanese = "盾に水属性を付加<end>"
+korean = "방패에 물 속성 부여<end>"
+
+["1660063"]
+japanese = "盾に土属性を付加<end>"
+korean = "방패에 땅 속성 부여<end>"
+
+["1660064"]
+japanese = "盾に風属性を付加<end>"
+korean = "방패에 바람 속성 부여<end>"
+
+["1660065"]
+japanese = "鎧に火属性を付加<end>"
+korean = "갑옷에 불 속성 부여<end>"
+
+["1660066"]
+japanese = "鎧に水属性を付加<end>"
+korean = "갑옷에 물 속성 부여<end>"
+
+["1660067"]
+japanese = "鎧に土属性を付加<end>"
+korean = "갑옷에 땅 속성 부여<end>"
+
+["1660068"]
+japanese = "鎧に風属性を付加<end>"
+korean = "갑옷에 바람 속성 부여<end>"
+
+["1660120"]
+japanese = "蒼い花が美しい花<end>"
+korean = "푸른 꽃이 아름다운 꽃<end>"
+
+["1660127"]
+japanese = "他人に送る通信文<end>"
+korean = "다른 사람에게 보내는 통신문<end>"
+
 ["1660141"]
 japanese = "お祝いに送る品<end>"
 korean = "축하 선물로 보낼 물건<end>"
+
+["1660148"]
+japanese = "村の唯一の特産物<end>"
+korean = "마을의 유일한 특산물<end>"
+
+["1660151"]
+japanese = "薬を入れておく瓶<end>"
+korean = "약을 담아 두는 병<end>"
+
+["1660155"]
+japanese = "村長が書いた手紙<end>"
+korean = "촌장이 쓴 편지<end>"
 
 ["1660156"]
 japanese = "プレゼント<end>"
@@ -32,6 +84,14 @@ korean = "금단의 성배<end>"
 japanese = "禁断の聖杯<end>"
 korean = "금단의 성배<end>"
 
+["1660212"]
+japanese = "オズワルドの調査<end>"
+korean = "오즈월드 조사<end>"
+
+["1660213"]
+japanese = "オズワルドの調査<end>"
+korean = "오즈월드 조사<end>"
+
 ["1660217"]
 japanese = "色惑の瞳<end>"
 korean = "색혹의 눈동자<end>"
@@ -52,6 +112,10 @@ korean = "어떻게 할까?<end>"
 japanese = "怪物退治の依頼<end>"
 korean = "괴물 퇴치 의뢰<end>"
 
+["1660227"]
+japanese = "女魔道士のお願い<end>"
+korean = "여자 마도사의 부탁<end>"
+
 ["1660230"]
 japanese = "仇討ちの依頼<end>"
 korean = "원수 갚기 의뢰<end>"
@@ -67,6 +131,18 @@ korean = "목걸이 찾기<end>"
 ["1660235"]
 japanese = "ハンナの人形<end>"
 korean = "한나의 인형<end>"
+
+["1660236"]
+japanese = "１個目の闇の神器<end>"
+korean = "첫 번째 어둠의 신기<end>"
+
+["1660237"]
+japanese = "２個目の闇の神器<end>"
+korean = "두 번째 어둠의 신기<end>"
+
+["1660238"]
+japanese = "３個目の闇の神器<end>"
+korean = "세 번째 어둠의 신기<end>"
 
 ["1660239"]
 japanese = "密書の配達<end>"
@@ -92,6 +168,10 @@ korean = "고대의 수해로<end>"
 japanese = "ザギヴの手紙<end>"
 korean = "자기브의 편지<end>"
 
+["1660247"]
+japanese = "ベルゼーヴァ襲撃<end>"
+korean = "벨제바 습격<end>"
+
 ["1660248"]
 japanese = "コーンスの反乱<end>"
 korean = "콘스의 반란<end>"
@@ -107,3 +187,7 @@ korean = "콘스의 반란<end>"
 ["1660253"]
 japanese = "聖座の夢<end>"
 korean = "성좌의 꿈<end>"
+
+["1660255"]
+japanese = "ほほに傷のある男<end>"
+korean = "뺨에 흉터가 있는 남자<end>"

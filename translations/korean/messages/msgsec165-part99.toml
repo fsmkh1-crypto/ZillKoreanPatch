@@ -1,8 +1,36 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1650014"]
+japanese = "鎧に火属性を付加<end>"
+korean = "갑옷에 불 속성 부여<end>"
+
+["1650019"]
+japanese = "盾に水属性を付加<end>"
+korean = "방패에 물 속성 부여<end>"
+
+["1650020"]
+japanese = "鎧に水属性を付加<end>"
+korean = "갑옷에 물 속성 부여<end>"
+
 ["1650022"]
 japanese = "敵１体を即死<end>"
 korean = "적 1체를 즉사<end>"
+
+["1650025"]
+japanese = "盾に土属性を付加<end>"
+korean = "방패에 땅 속성 부여<end>"
+
+["1650026"]
+japanese = "鎧に土属性を付加<end>"
+korean = "갑옷에 땅 속성 부여<end>"
+
+["1650031"]
+japanese = "盾に風属性を付加<end>"
+korean = "방패에 바람 속성 부여<end>"
+
+["1650032"]
+japanese = "鎧に風属性を付加<end>"
+korean = "갑옷에 바람 속성 부여<end>"
 
 ["1650055"]
 japanese = "敵１体を即死<end>"
@@ -19,6 +47,10 @@ korean = "상위 정령 마법<end>"
 ["1650073"]
 japanese = "複合精霊魔法<end>"
 korean = "복합 정령 마법<end>"
+
+["1650074"]
+japanese = "ＨＰ回復系の魔法<end>"
+korean = "HP 회복계 마법<end>"
 
 ["1650090"]
 japanese = "敵一体を即死<end>"

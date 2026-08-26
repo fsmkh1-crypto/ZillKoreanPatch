@@ -1,16 +1,36 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1510012"]
+japanese = "わぁ…、すごい！<end>"
+korean = "와아…, 대단해!<end>"
+
 ["1510026"]
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
+
+["1510028"]
+japanese = "貴様！　何者だ！<end>"
+korean = "네놈! 누구냐!<end>"
 
 ["1510056"]
 japanese = "うわああっ！<end>"
 korean = "으아아악!<end>"
 
+["1510061"]
+japanese = "エルファス様…。<end>"
+korean = "엘파스 님….<end>"
+
+["1510065"]
+japanese = "貴様が救世主か？<end>"
+korean = "네놈이 구세주냐?<end>"
+
 ["1510075"]
 japanese = "なんだと！<end>"
 korean = "뭐라고!<end>"
+
+["1510084"]
+japanese = "クッ、覚えてろ！<end>"
+korean = "큭, 두고 보자!<end>"
 
 ["1510087"]
 japanese = "ママ！<end>"
@@ -23,6 +43,10 @@ korean = "기적이야!<end>"
 ["1510089"]
 japanese = "子供が甦った！<end>"
 korean = "아이가 되살아났어!<end>"
+
+["1510094"]
+japanese = "…ありが…とう。<end>"
+korean = "…고마…워.<end>"
 
 ["1510096"]
 japanese = "何を！<end>"

@@ -52,6 +52,14 @@ korean = "나지….<end>"
 japanese = "さ、殺気っ？<end>"
 korean = "사, 살기?<end>"
 
+["1380195"]
+japanese = "もう少しの辛抱だ<end>"
+korean = "조금만 더 참아<end>"
+
+["1380196"]
+japanese = "ある意味ここが…<end>"
+korean = "어떤 의미에선 여기가…<end>"
+
 ["1380202"]
 japanese = "いいことっ！<end>"
 korean = "좋은 일이야!<end>"
@@ -128,6 +136,10 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "ティアナの部屋<end>"
 korean = "티아나의 방<end>"
 
+["1380452"]
+japanese = "アトレイアの部屋<end>"
+korean = "아트레이아의 방<end>"
+
 ["1380453"]
 japanese = "エリスの執務室<end>"
 korean = "에리스의 집무실<end>"
@@ -139,6 +151,10 @@ korean = "딱히 볼일은 없다<end>"
 ["1380455"]
 japanese = "ティアナの部屋<end>"
 korean = "티아나의 방<end>"
+
+["1380456"]
+japanese = "アトレイアの部屋<end>"
+korean = "아트레이아의 방<end>"
 
 ["1380457"]
 japanese = "別に用はない<end>"
@@ -184,13 +200,33 @@ korean = "맡지 않는다<end>"
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
 
+["1380534"]
+japanese = "あ、ありがとう。<end>"
+korean = "아, 고마워.<end>"
+
+["1380540"]
+japanese = "あの…、あたし…<end>"
+korean = "저기…, 나…<end>"
+
+["1380543"]
+japanese = "装備の強度とは？<end>"
+korean = "장비의 강도란?<end>"
+
 ["1380544"]
 japanese = "特殊効果とは？<end>"
 korean = "특수 효과란?<end>"
 
+["1380545"]
+japanese = "武器の形状とは？<end>"
+korean = "무기의 형상이란?<end>"
+
 ["1380557"]
 japanese = "ははは！<end>"
 korean = "하하하!<end>"
+
+["1380561"]
+japanese = "私の出番ですね。<end>"
+korean = "제 차례군요.<end>"
 
 ["1380578"]
 japanese = "いいえ<end>"

@@ -4,6 +4,10 @@
 japanese = "現実を見ろよ<end>"
 korean = "현실을 봐<end>"
 
+["1460010"]
+japanese = "そうなるといいね<end>"
+korean = "그렇게 되면 좋겠네<end>"
+
 ["1460021"]
 japanese = "確かにそうだ<end>"
 korean = "확실히 그래<end>"
@@ -11,6 +15,10 @@ korean = "확실히 그래<end>"
 ["1460025"]
 japanese = "冒険は順調？<end>"
 korean = "모험은 순조로워?<end>"
+
+["1460030"]
+japanese = "今ある力で十分だ<end>"
+korean = "지금 가진 힘이면 충분해<end>"
 
 ["1460056"]
 japanese = "じゃ、またね。<end>"

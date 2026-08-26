@@ -68,9 +68,17 @@ korean = "…제네테스 님!<end>"
 japanese = "いやあぁああ！<end>"
 korean = "싫어어어어!<end>"
 
+["1400106"]
+japanese = "ゼネテス様は…？<end>"
+korean = "제네테스 님은…?<end>"
+
 ["1400108"]
 japanese = "…すまねえ。<end>"
 korean = "…미안하다.<end>"
+
+["1400114"]
+japanese = "いやあぁああ！！<end>"
+korean = "싫어어어어!!<end>"
 
 ["1400118"]
 japanese = "ゼネテス様？<end>"
@@ -91,6 +99,10 @@ korean = "…제네테스 님!<end>"
 ["1400133"]
 japanese = "いやあぁああ！<end>"
 korean = "싫어어어어!<end>"
+
+["1400144"]
+japanese = "いやあぁああ！！<end>"
+korean = "싫어어어어!!<end>"
 
 ["1400149"]
 japanese = "…ティアナ。<end>"
@@ -171,6 +183,10 @@ korean = "…네.<end>"
 ["1400363"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1400366"]
+japanese = "…そう、ですか。<end>"
+korean = "…그렇, 군요.<end>"
 
 ["1400429"]
 japanese = "わかった<end>"

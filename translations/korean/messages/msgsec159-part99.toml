@@ -4,9 +4,17 @@
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>아!<end>"
 
+["1590027"]
+japanese = "くっ、覚えてろ！<end>"
+korean = "큭, 두고 보자!<end>"
+
 ["1590036"]
 japanese = "覚えてやがれ！<end>"
 korean = "두고 보자!<end>"
+
+["1590076"]
+japanese = "おやすみなさい。<end>"
+korean = "안녕히 주무세요.<end>"
 
 ["1590090"]
 japanese = "闇の神器？<end>"
@@ -16,9 +24,25 @@ korean = "어둠의 신기?<end>"
 japanese = "かわいそぉ！<end>"
 korean = "불쌍해애!<end>"
 
+["1590120"]
+japanese = "すごいすごーい！<end>"
+korean = "대단해, 대단해~!<end>"
+
+["1590123"]
+japanese = "何か質問ですか？<end>"
+korean = "뭔가 질문 있으신가요?<end>"
+
+["1590124"]
+japanese = "無限のソウルとは<end>"
+korean = "무한의 소울이란<end>"
+
 ["1590125"]
 japanese = "転送機について<end>"
 korean = "전송기에 대하여<end>"
+
+["1590126"]
+japanese = "闇の神器について<end>"
+korean = "어둠의 신기에 대하여<end>"
 
 ["1590127"]
 japanese = "ネモについて<end>"
