@@ -5,7 +5,38 @@ package message
 import (
 	"fmt"
 	"strings"
+
+	"github.com/HK47196/zill/internal/corpus"
 )
+
+// PlaceholderForRecord builds a development-only replacement for one parsed
+// retail record. Records with no editable semantic fragment are reported as
+// structural (ok=false) so callers can preserve their authenticated retail raw
+// bytes instead of treating them as translation failures.
+func PlaceholderForRecord(record corpus.Record, marker string) (text string, ok bool, err error) {
+	if len(record.Tokens) == 0 {
+		return "", false, nil
+	}
+	meaningful := false
+	for _, token := range record.Tokens {
+		if token.Kind == "text" || movableSubstitution(token) {
+			meaningful = true
+			break
+		}
+	}
+	if !meaningful {
+		return "", false, nil
+	}
+	projection, err := Project(record)
+	if err != nil {
+		return "", false, err
+	}
+	text, err = projection.PlaceholderAnnotated(marker)
+	if err != nil {
+		return "", false, err
+	}
+	return text, true, nil
+}
 
 // PlaceholderAnnotated builds a development-only annotated replacement that
 // preserves source-owned fixed controls, movable substitutions, and printf
