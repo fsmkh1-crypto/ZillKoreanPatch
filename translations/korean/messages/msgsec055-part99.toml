@@ -704,6 +704,10 @@ korean = "…오해야.<end>"
 japanese = "<value:$28>さん！<end>"
 korean = "<value:$28>씨!<end>"
 
+["550366"]
+japanese = "あ、あ、<value:$28>さん！<end>"
+korean = "아, 아, <value:$28> 씨!<end>"
+
 ["550369"]
 japanese = "えと、…せもんいん？<end>"
 korean = "저기, …세몬인?<end>"

@@ -432,6 +432,10 @@ korean = "캐벌리어<end>"
 japanese = "ドラグーンメイル<end>"
 korean = "드라군 메일<end>"
 
+["170207"]
+japanese = "<value:$15>ですか。<line-break>ふむ…<value:$1A>ギアですな。<end>"
+korean = "<value:$15>입니까. 흠… <value:$1A>기어군요.<end>"
+
 ["170217"]
 japanese = "フォーマット中です。<end>"
 korean = "포맷 중입니다.<end>"

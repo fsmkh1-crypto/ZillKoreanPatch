@@ -24,6 +24,10 @@ korean = "다시 온다<end>"
 japanese = "説明を終わる<end>"
 korean = "설명을 끝낸다<end>"
 
+["270066"]
+japanese = "<line-break>賞金<value:$1A>ギアを手に入れた。<line-break>　<end>"
+korean = "상금 <value:$1A>기어를 손에 넣었다.<end>"
+
 ["270084"]
 japanese = "準備できている<end>"
 korean = "준비돼 있다<end>"

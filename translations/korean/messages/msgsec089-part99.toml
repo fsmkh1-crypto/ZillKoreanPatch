@@ -212,6 +212,10 @@ korean = "아…<end>"
 japanese = "待って。<end>"
 korean = "기다려.<end>"
 
+["890404"]
+japanese = "<value:$28>、そろそろだ。<end>"
+korean = "<value:$28>, 슬슬 때가 됐다.<end>"
+
 ["890417"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
@@ -227,6 +231,10 @@ korean = "왔나….<end>"
 ["890443"]
 japanese = "おいで、<value:$28>。<end>"
 korean = "이리 와, <value:$28>.<end>"
+
+["890456"]
+japanese = "<if><value:$29><equal>%0あの少年か…。<end>あの少女か…。<end>"
+korean = "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<end>"
 
 ["890478"]
 japanese = "おもしろいことさ。<end>"

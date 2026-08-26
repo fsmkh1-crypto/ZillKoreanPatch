@@ -32,6 +32,10 @@ korean = "<value:$28>인가… 잘 부탁한다, <value:$28>.<end>"
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["920095"]
+japanese = "…！<line-break>これは…。<end>"
+korean = "…! 이건….<end>"
+
 ["920099"]
 japanese = "すまん。<end>"
 korean = "미안하군.<end>"

@@ -28,6 +28,10 @@ korean = "부햑!!<end>"
 japanese = "…フリント？<end>"
 korean = "…플린트?<end>"
 
+["330056"]
+japanese = "<value:$28>のお父さんだよ。<line-break>ね、<value:$28>。<end>"
+korean = "<value:$28>의 아버지야. 그렇지, <value:$28>.<end>"
+
 ["330057"]
 japanese = "なるほど、ね。<end>"
 korean = "그렇군.<end>"

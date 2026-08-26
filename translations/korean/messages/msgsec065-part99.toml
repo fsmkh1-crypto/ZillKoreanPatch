@@ -84,6 +84,10 @@ korean = "더미<end>"
 japanese = "おい、<value:$28>。<end>"
 korean = "야, <value:$28>.<end>"
 
+["650062"]
+japanese = "<value:$28>、よく来た。　<end>"
+korean = "<value:$28>, 잘 왔다.<end>"
+
 ["650078"]
 japanese = "…それはできんな。<end>"
 korean = "…그건 할 수 없군.<end>"

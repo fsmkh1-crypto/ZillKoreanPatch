@@ -24,6 +24,10 @@ korean = "그대, 누구지?<end>"
 japanese = "少しのどが渇いた。<end>"
 korean = "조금 목이 마르네.<end>"
 
+["670034"]
+japanese = "そなた、<value:$28>だな？<end>"
+korean = "그대가 <value:$28>인가?<end>"
+
 ["670043"]
 japanese = "…そう。<end>"
 korean = "…그래.<end>"

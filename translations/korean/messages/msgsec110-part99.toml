@@ -44,6 +44,14 @@ korean = "자기브 님!<end>"
 japanese = "今、行くわ。<end>"
 korean = "지금 갈게.<end>"
 
+["1100073"]
+japanese = "<value:$28>、か。<line-break>また会おうぞ、<value:$28>。<end>"
+korean = "<value:$28>인가. 또 만나자, <value:$28>.<end>"
+
+["1100078"]
+japanese = "あなた、<value:$2B>の<line-break><value:$28>ね。<line-break>　<end>"
+korean = "당신, <value:$2B>의 <value:$28>군요.<end>"
+
 ["1100080"]
 japanese = "…ありがとう。<end>"
 korean = "…고마워.<end>"

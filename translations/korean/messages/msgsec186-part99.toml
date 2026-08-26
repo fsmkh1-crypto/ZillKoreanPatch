@@ -8,6 +8,10 @@ korean = "이, 인질이라고!?<end>"
 japanese = "…フリント？<end>"
 korean = "…플린트?<end>"
 
+["1860050"]
+japanese = "<value:$28>のお父さんだよ。<line-break>ね、<value:$28>。<end>"
+korean = "<value:$28>의 아버지야. 그렇지, <value:$28>.<end>"
+
 ["1860053"]
 japanese = "うん、ありがとぉ！<end>"
 korean = "응, 고마워어!<end>"

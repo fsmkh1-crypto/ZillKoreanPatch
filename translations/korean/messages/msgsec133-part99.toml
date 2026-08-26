@@ -168,6 +168,22 @@ korean = "뭐…, 뭐야…!?<end>"
 japanese = "待てよ、<value:$28>！<end>"
 korean = "기다려, <value:$28>!<end>"
 
+["1330491"]
+japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
+korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
+
+["1330521"]
+japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
+korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
+
+["1330555"]
+japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
+korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
+
+["1330583"]
+japanese = "…お前…<value:$28><line-break><value:$28>…なの…か…？<end>"
+korean = "…너…<value:$28> <value:$28>…인…거야…?<end>"
+
 ["1330608"]
 japanese = "…ノエル。<end>"
 korean = "…노엘.<end>"

@@ -12,6 +12,10 @@ korean = "…발저.<end>"
 japanese = "どうしてかしらね。<end>"
 korean = "왜 그런 걸까.<end>"
 
+["360018"]
+japanese = "<if><value:$29><equal>%0あの少年か…。<end>あの少女か…。<end>"
+korean = "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<end>"
+
 ["360019"]
 japanese = "そうね。<end>"
 korean = "그러네.<end>"

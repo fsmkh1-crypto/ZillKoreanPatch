@@ -96,6 +96,14 @@ korean = "잘 먹었어.<end>"
 japanese = "い、いやっ！<end>"
 korean = "시, 싫어!<end>"
 
+["990069"]
+japanese = "久しぶりね、<value:$28>。<end>"
+korean = "오랜만이네, <value:$28>.<end>"
+
+["990073"]
+japanese = "久しぶりね、<value:$28>。<end>"
+korean = "오랜만이네, <value:$28>.<end>"
+
 ["990090"]
 japanese = "あ、<value:$28>…。<end>"
 korean = "아, <value:$28>….<end>"
