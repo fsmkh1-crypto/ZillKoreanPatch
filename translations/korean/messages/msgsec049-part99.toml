@@ -332,6 +332,10 @@ korean = "불쌍해애!<end>"
 japanese = "急がないとな。<line-break><value:$28>。<end>"
 korean = "서둘러야겠군. <value:$28>.<end>"
 
+["490268"]
+japanese = "んじゃ、行くか、<line-break><value:$28>、ルルアンタ。<end>"
+korean = "그럼 갈까, <value:$28>, 루루안타.<end>"
+
 ["490269"]
 japanese = "何か質問ですか？<end>"
 korean = "뭔가 질문 있으신가요?<end>"

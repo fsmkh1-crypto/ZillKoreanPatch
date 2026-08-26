@@ -564,6 +564,10 @@ korean = "너 정말!!<end>"
 japanese = "あ、えと、ケンカは、<line-break>ダメですよ。<end>"
 korean = "아, 저기, 싸우면 안 돼요.<end>"
 
+["560326"]
+japanese = "<value:$28>さん。<line-break>ありがとうございました。<end>"
+korean = "<value:$28>님. 감사합니다.<end>"
+
 ["560327"]
 japanese = "悪いが、急いでいる。<line-break>道を空けろ。<end>"
 korean = "미안하지만 급하다. 길을 비켜라.<end>"
@@ -916,6 +920,10 @@ korean = "빛, 빛이다! 이쪽으로 나갈 수 있어!<end>"
 japanese = "青竜軍副将<value:$28>よ、<line-break>このたびの貴官の輝かしき勲功に<line-break>ディンガル帝国は次のように賞する。<end>"
 korean = "청룡군 부장 <value:$28>여, 이번 그대의 빛나는 공훈에 대해 딩갈 제국은 다음과 같이 포상한다.<end>"
 
+["560623"]
+japanese = "んじゃ、<value:$28>。<line-break>冒険に連れてってよ！<end>"
+korean = "그럼 <value:$28>. 나도 모험에 데려가 줘!<end>"
+
 ["560626"]
 japanese = "心配なら、アイリーンも<line-break>一緒に<value:$28>の<line-break>仲間になったらいいじゃん！<end>"
 korean = "걱정되면 아이린도 함께 <value:$28>의 동료가 되면 되잖아!<end>"
@@ -1043,6 +1051,10 @@ korean = "카를라 님, 괜찮으시겠습니까? <value:$28>이 충성을 맹�
 ["560747"]
 japanese = "<value:$28>みたいな<line-break>優秀な人材は、<line-break>なかなか手に入らないからねー。<line-break>それぐらいは仕方ないでしょ。<end>"
 korean = "<value:$28> 같은 우수한 인재는, 좀처럼 구할 수 없으니까. 그 정도는 어쩔 수 없잖아.<end>"
+
+["560757"]
+japanese = "くすっ、裏切っちゃイヤよん。<line-break><value:$28>。<end>"
+korean = "후훗, 배신하면 싫어, <value:$28>.<end>"
 
 ["560759"]
 japanese = "<value:$28>！<line-break>ロープを伝ってこい！<end>"

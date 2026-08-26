@@ -12,6 +12,10 @@ korean = "헤헷, 한 건 끝냈다! 좋아, <value:$28>, 길드에 보고하러
 japanese = "やったぁ！　倒せたよ。<line-break>あとはギルドに報告するだけだね。<line-break>行こ、<value:$28>。<end>"
 korean = "해냈다! 쓰러뜨렸어. 이제 길드에 보고만 하면 돼. 가자, <value:$28>.<end>"
 
+["180006"]
+japanese = "これでこの仕事はカタがついたわね。<line-break>さあ、<value:$28>、帰って<line-break>ギルドに報告しましょう。<end>"
+korean = "이걸로 이 일은 끝났네. 자, <value:$28>, 돌아가서 길드에 보고하자.<end>"
+
 ["180013"]
 japanese = "やれやれ、骨が折れたのう。<line-break>あとはギルドへ行って報告じゃ。<line-break>行くぞい、<value:$28>。<end>"
 korean = "이런, 고생 좀 했구나. 이제 길드에 가서 보고하자. 가자, <value:$28>.<end>"
@@ -79,6 +83,14 @@ korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가
 ["180039"]
 japanese = "依頼完了ね。<line-break>さあ、<value:$28>、<line-break>ギルドに戻って報告よ。<end>"
 korean = "의뢰 완료네. 자, <value:$28>, 길드로 돌아가 보고하자.<end>"
+
+["180044"]
+japanese = "これね。依頼のものって。<line-break>さあ、<value:$28>、あとは<line-break>ギルドに持って帰れば仕事は完了ね。<end>"
+korean = "이거네, 의뢰한 물건. 자, <value:$28>, 이제 길드에 가져가면 일이 끝나.<end>"
+
+["180047"]
+japanese = "へへっ、これこれ、これだよな。<line-break>よし、<value:$28>、ギルドに<line-break>持ってって報酬もらおうぜ。<end>"
+korean = "헤헤, 이거야 이거. 좋아, <value:$28>, 길드에 가져가서 보상 받자.<end>"
 
 ["180049"]
 japanese = "…これね。<line-break>さあ、<value:$28>、<line-break>ギルドに帰りましょう。<end>"

@@ -300,6 +300,10 @@ korean = "…흥. 시시하군.<end>"
 japanese = "では、行ってらっしゃいませ。<end>"
 korean = "그럼 다녀오세요.<end>"
 
+["420290"]
+japanese = "これは、<value:$28>様、<line-break>お帰りなさいませ。<end>"
+korean = "이런, <value:$28>님. 돌아오셨군요.<end>"
+
 ["420292"]
 japanese = "ん？<end>"
 korean = "응?<end>"

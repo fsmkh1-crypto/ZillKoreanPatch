@@ -76,6 +76,10 @@ korean = "용병 지원자인가? 운이 좋군! 바로 일이다. 싸울 준비
 japanese = "ならば、すぐ出撃だ。<end>"
 korean = "그럼 곧바로 출격이다.<end>"
 
+["510060"]
+japanese = "この中に、<value:$28>という<line-break>冒険者はいないか！<line-break>副司令閣下が即刻連れて来いとご命令だ！<end>"
+korean = "이 안에 <value:$28>이라는 모험자는 없나! 부사령관 각하께서 즉시 데려오라고 명하셨다!<end>"
+
 ["510061"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -128,6 +132,10 @@ korean = "제2의 공훈, <value:$28>.<end>"
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
 
+["510122"]
+japanese = "<value:$28>は<line-break>報酬としてＸギア手に入れた。<end>"
+korean = "<value:$28>은 보상으로 X기어를 손에 넣었다.<end>"
+
 ["510123"]
 japanese = "<value:$28>の<line-break>名声値が上がった。<end>"
 korean = "<value:$28>의 명성치가 올랐다.<end>"
@@ -159,6 +167,10 @@ korean = "물러나라! 물러나아아!<end>"
 ["510148"]
 japanese = "よくやったな。<line-break>やるじゃねえか。<end>"
 korean = "잘했군. 제법인데.<end>"
+
+["510155"]
+japanese = "<value:$28>は<line-break>報酬としてＸギア手に入れた。<end>"
+korean = "<value:$28>은 보상으로 X기어를 손에 넣었다.<end>"
 
 ["510156"]
 japanese = "<value:$28>の<line-break>名声値が上がった。<end>"

@@ -72,6 +72,10 @@ korean = "<value:$28>인가. 또 만나자, <value:$28>.<end>"
 japanese = "ちょっと、そこのあなた！！<end>"
 korean = "잠깐, 거기 당신!!<end>"
 
+["1100076"]
+japanese = "あなたの名前よ。<line-break>確認しておきたいの。<end>"
+korean = "네 이름 말이야. 확인해 두고 싶어.<end>"
+
 ["1100078"]
 japanese = "あなた、<value:$2B>の<line-break><value:$28>ね。<line-break>　<end>"
 korean = "당신, <value:$2B>의 <value:$28>군요.<end>"
@@ -151,6 +155,34 @@ korean = "빈 메시지<end>"
 ["1100126"]
 japanese = "空きメッセージ<end>"
 korean = "빈 메시지<end>"
+
+["1100131"]
+japanese = "予備メッセージ３<line-break>ザギヴ、ボリューム１<end>"
+korean = "예비 메시지 3 자기브, 볼륨 1<end>"
+
+["1100132"]
+japanese = "予備メッセージ４<line-break>ザギヴ、ボリューム１<end>"
+korean = "예비 메시지 4 자기브, 볼륨 1<end>"
+
+["1100133"]
+japanese = "予備メッセージ５<line-break>ザギヴ、ボリューム１<end>"
+korean = "예비 메시지 5 자기브, 볼륨 1<end>"
+
+["1100134"]
+japanese = "予備メッセージ６<line-break>ザギヴ、ボリューム１<end>"
+korean = "예비 메시지 6 자기브, 볼륨 1<end>"
+
+["1100135"]
+japanese = "予備メッセージ７<line-break>ザギヴ、ボリューム１<end>"
+korean = "예비 메시지 7 자기브, 볼륨 1<end>"
+
+["1100136"]
+japanese = "予備メッセージ８<line-break>ザギヴ、ボリューム１<end>"
+korean = "예비 메시지 8 자기브, 볼륨 1<end>"
+
+["1100137"]
+japanese = "予備メッセージ９<line-break>ザギヴ、ボリューム１<end>"
+korean = "예비 메시지 9 자기브, 볼륨 1<end>"
 
 ["1100139"]
 japanese = "ザギヴメッセージＶｏｌ．１終端<end>"

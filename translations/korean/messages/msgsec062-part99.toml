@@ -488,6 +488,10 @@ korean = "…제대로 대답해 주세요. 저, <value:$28>님을 믿어도 되
 japanese = "<value:$28>さんは<line-break>ロストールに帰ってきても　　　<line-break>おかしくないと思います。<end>"
 korean = "<value:$28>님은 로스토올로 돌아와도 이상하지 않다고 생각해요.<end>"
 
+["620317"]
+japanese = "<value:$28>さん。<line-break>元気を…くださいますか？<end>"
+korean = "<value:$28>님. 제게 힘을… 주시겠어요?<end>"
+
 ["620318"]
 japanese = "うっ。<end>"
 korean = "윽.<end>"

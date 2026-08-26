@@ -36,6 +36,10 @@ korean = "어이 어이, 루루안타….<end>"
 japanese = "フリントさんは黙ってて！<end>"
 korean = "플린트 씨는 조용히 해!<end>"
 
+["330022"]
+japanese = "復活の真珠がもうないの。<line-break>さ、一緒に買いにいくのよ。<line-break><value:$28>！<end>"
+korean = "부활의 진주가 이제 없어. 자, 같이 사러 가자, <value:$28>!<end>"
+
 ["330026"]
 japanese = "<value:$28>～、<line-break>こっち、こっちだよぉ！<end>"
 korean = "<value:$28>~ 여기, 여기야아!<end>"
@@ -291,6 +295,14 @@ korean = "…있잖아.<end>"
 ["330170"]
 japanese = "…ルルアンタ<line-break>…行くね。<end>"
 korean = "…루루안타, …갈게.<end>"
+
+["330176"]
+japanese = "<value:$28>、<line-break>俺についてくるか？<line-break>お前に新しい地平を見せてやるぜ。<end>"
+korean = "<value:$28>, 나를 따라올래? 네게 새로운 지평을 보여 주지.<end>"
+
+["330179"]
+japanese = "お前がノーブルにいる間中行っていた<line-break>町の外の森に行ったはずだ。<line-break>頼んだよ、<value:$28>。<end>"
+korean = "네가 노블에 있는 동안 계속 가던 마을 밖 숲으로 갔을 거야. 부탁한다, <value:$28>.<end>"
 
 ["330186"]
 japanese = "空<end>"

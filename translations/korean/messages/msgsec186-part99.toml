@@ -132,6 +132,10 @@ korean = "아앗! 너희들, 지난번 그 녀석들이잖아!<end>"
 japanese = "<value:$28>、<line-break>こちらが終わったらすぐに行く！　<line-break>それまで持ちこたえてくれ！<end>"
 korean = "<value:$28>, 이쪽이 끝나면 곧 갈게! 그때까지 버텨 줘!<end>"
 
+["1860112"]
+japanese = "<value:$28>、<line-break>フリントさんを助けなきゃ！<end>"
+korean = "<value:$28>, 플린트 씨를 구해야 해!<end>"
+
 ["1860114"]
 japanese = "！！！！！！　　<line-break>　<line-break>　<line-break>そ、そんな…<line-break>フリントさぁん！<end>"
 korean = "!!!!!! 그, 그럴 수가… 플린트 씨이!<end>"

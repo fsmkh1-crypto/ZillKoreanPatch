@@ -12,6 +12,10 @@ korean = "<value:$28>, 생일 축하해!<end>"
 japanese = "<value:$28>。<line-break>誕生日おめでとう。<end>"
 korean = "<value:$28>. 생일 축하해.<end>"
 
+["2580029"]
+japanese = "<value:$28>、おめでとう。<line-break>ルルアンタも、とってもうれしいよ。<line-break>これからもよろしくね。<end>"
+korean = "<value:$28>, 축하해. 루루안타도 정말 기뻐. 앞으로도 잘 부탁해.<end>"
+
 ["2580031"]
 japanese = "…めでたい。<end>"
 korean = "…경사로군.<end>"

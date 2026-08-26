@@ -516,6 +516,10 @@ korean = "제네테스 씨!<end>"
 japanese = "うい。どうしたい？<end>"
 korean = "응. 어떻게 하고 싶어?<end>"
 
+["640305"]
+japanese = "よ、<value:$28>、<line-break>こんなところでデートか。<end>"
+korean = "여, <value:$28>. 이런 데서 데이트냐.<end>"
+
 ["640308"]
 japanese = "うーい。<end>"
 korean = "어이.<end>"

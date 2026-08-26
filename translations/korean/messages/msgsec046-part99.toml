@@ -20,6 +20,10 @@ korean = "거기 서! 악당!<end>"
 japanese = "未来の勇者ガルドラン！<end>"
 korean = "미래의 용사 갈드란!<end>"
 
+["460008"]
+japanese = "この前、<value:$28>に<line-break>やられた腰が…！！！<end>"
+korean = "지난번에 <value:$28>한테 당한 허리가…!!!<end>"
+
 ["460009"]
 japanese = "ガルドラン伝説キーック！！<end>"
 korean = "갈드란 전설 킥!!<end>"
@@ -156,6 +160,10 @@ korean = "후훗. 그렇군요. 그럼 보여 드리고 싶은 게 있어요. �
 japanese = "ねえ、行ってみるといいよ。<line-break><value:$28>。<line-break>僕はここで待ってるから。<end>"
 korean = "있잖아, 가 보는 게 좋아. <value:$28>. 난 여기서 기다릴게.<end>"
 
+["460163"]
+japanese = "…あ、<value:$28>。<line-break>これって、いったい…？<end>"
+korean = "…아, <value:$28>. 이게 대체…?<end>"
+
 ["460165"]
 japanese = "たぶん、この子は役に立ちますよ。　　<end>"
 korean = "아마 이 아이는 도움이 될 거예요.<end>"
@@ -215,6 +223,10 @@ korean = "반지에 대해 되묻는다<end>"
 ["460205"]
 japanese = "断る<end>"
 korean = "거절한다<end>"
+
+["460206"]
+japanese = "<value:$28>は<line-break>ディードリングを手に入れた。<end>"
+korean = "<value:$28>은 디드 링을 손에 넣었다.<end>"
 
 ["460207"]
 japanese = "すぐはめて？　すぐはめて？　　<end>"

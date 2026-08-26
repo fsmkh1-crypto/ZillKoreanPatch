@@ -168,6 +168,10 @@ korean = "그런가.<end>"
 japanese = "では、会議は以上だ<line-break>各人の奮戦を望む。<end>"
 korean = "그럼 회의는 여기까지다.각자의 분전을 기대하겠다.<end>"
 
+["520158"]
+japanese = "これも戦場のならい。<line-break>ゆくぞ、<value:$28>！<end>"
+korean = "이것도 전장의 법도다. 간다, <value:$28>!<end>"
+
 ["520162"]
 japanese = "では、まいる！<line-break>ノーブル伯<value:$28>！<end>"
 korean = "그럼 간다! 노블 백작 <value:$28>!<end>"

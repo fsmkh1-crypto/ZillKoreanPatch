@@ -908,6 +908,10 @@ korean = "그리고 저쪽에 있는 게 나셰스야.<end>"
 japanese = "みんな、とっても強いんです。　<end>"
 korean = "모두 정말 강해요.<end>"
 
+["550345"]
+japanese = "それじゃ、お休みなさい、<line-break><value:$28>さん。<end>"
+korean = "그럼 잘 자요, <value:$28>님.<end>"
+
 ["550346"]
 japanese = "どこ見てるの？<line-break>ボウヤ。<end>"
 korean = "어딜 보고 있는 거야? 꼬마야.<end>"

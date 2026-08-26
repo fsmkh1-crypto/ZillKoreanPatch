@@ -4,6 +4,10 @@
 japanese = "旅立ち０３メッセージ<end>"
 korean = "여행 출발 03 메시지<end>"
 
+["300007"]
+japanese = "<value:$28>！<line-break>退がれ！　無理すんじゃねえ！<end>"
+korean = "<value:$28>! 물러서! 무리하지 마!<end>"
+
 ["300008"]
 japanese = "させないっ！<end>"
 korean = "그렇게는 못 해!<end>"

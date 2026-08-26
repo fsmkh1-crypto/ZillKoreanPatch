@@ -132,6 +132,10 @@ korean = "아… 제네테스… 님….<end>"
 japanese = "あ…、<line-break>もう帰ってしまうのですか？<end>"
 korean = "아… 벌써 돌아가시는 건가요?<end>"
 
+["660080"]
+japanese = "また、酒の臭いで気分が悪くなったと<line-break>騒がれちゃたまらないからな。<line-break>行くぞ、<value:$28>。<end>"
+korean = "또 술 냄새 때문에 기분 나쁘다고 난리 치면 곤란하니까. 가자, <value:$28>.<end>"
+
 ["660081"]
 japanese = "ゼネテス様…。<end>"
 korean = "제네테스 님….<end>"

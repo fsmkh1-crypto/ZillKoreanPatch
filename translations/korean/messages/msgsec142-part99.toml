@@ -328,6 +328,10 @@ korean = "…안주도 말이야.<end>"
 japanese = "針をなくした時計、か…。<end>"
 korean = "바늘을 잃은 시계인가….<end>"
 
+["1420259"]
+japanese = "そうだね…そうだよね！<line-break>やっぱり、ボクたちの真ん中には、<line-break><value:$28>がいなくちゃ！<end>"
+korean = "그래… 그렇지! 역시 우리 한가운데엔 <value:$28>이 있어야 해!<end>"
+
 ["1420260"]
 japanese = "うむ。わしもまったく同感じゃ。<line-break>この場に<value:$28>がいたなら、<line-break>酒のうまさはよりいっそう…<end>"
 korean = "음. 나도 완전히 동감이네. 이 자리에 <value:$28>이 있었다면 술맛은 더욱….<end>"
