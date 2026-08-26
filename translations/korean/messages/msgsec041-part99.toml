@@ -132,6 +132,10 @@ korean = "레이븐! 괜찮아?!<end>"
 japanese = "へへ…、へへ…。<end>"
 korean = "헤헤…, 헤헤….<end>"
 
+["410058"]
+japanese = "…へへ、<line-break>ざまぁ…ねぇな…、へへ。<end>"
+korean = "…헤헤, 꼴이… 말이 아니군… 헤헤.<end>"
+
 ["410061"]
 japanese = "…ありがとう、<value:$28>。<end>"
 korean = "…고마워, <value:$28>.<end>"
@@ -183,6 +187,10 @@ korean = "맞아… 하지만 대체…?<end>"
 ["410091"]
 japanese = "…ええ。<end>"
 korean = "…네.<end>"
+
+["410093"]
+japanese = "どうして？<line-break>それが僕の目的なのに？<end>"
+korean = "왜? 그게 내 목적인데?<end>"
 
 ["410094"]
 japanese = "それがあるお方の意志だからです。　　<end>"

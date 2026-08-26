@@ -68,6 +68,10 @@ korean = "그래… <value:$28>라고 하는구나….<end>"
 japanese = "大丈夫？　<value:$28>。<end>"
 korean = "괜찮아? <value:$28>.<end>"
 
+["370049"]
+japanese = "いったい、なんなのよ。<line-break>あの娘…。<end>"
+korean = "대체 뭐야, 저 애는….<end>"
+
 ["370050"]
 japanese = "うぃ～っしゃ、着いた着いた。<end>"
 korean = "으이~차, 도착했다 도착했어.<end>"
@@ -127,6 +131,10 @@ korean = "돌려주는 게 좋아.<end>"
 ["370087"]
 japanese = "エア様は冷酷よ。　　　　　　　　<end>"
 korean = "에어 님은 냉혹해.<end>"
+
+["370090"]
+japanese = "その身体…。<line-break>あなた、いったい…？<end>"
+korean = "그 몸…. 당신, 대체…?<end>"
 
 ["370091"]
 japanese = "お願い。助けて…。　　　　　<end>"

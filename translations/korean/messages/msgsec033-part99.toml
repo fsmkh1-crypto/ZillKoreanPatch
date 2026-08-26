@@ -56,6 +56,14 @@ korean = "아니야! 그 반대다!<end>"
 japanese = "ぶひゃっ！！<end>"
 korean = "부햑!!<end>"
 
+["330049"]
+japanese = "…んだ、こいつ！？<line-break>ぶっ殺すぞ！！<end>"
+korean = "…뭐야, 이 자식!? 죽여버린다!!<end>"
+
+["330053"]
+japanese = "さて、と。<line-break>お友達とも思えないが？<end>"
+korean = "자, 그럼. 친구로는 안 보이는데?<end>"
+
 ["330055"]
 japanese = "…フリント？<end>"
 korean = "…플린트?<end>"
@@ -96,9 +104,17 @@ korean = "제네테스… 씨.<end>"
 japanese = "礼にはおよばんさ。<end>"
 korean = "감사할 것까진 없어.<end>"
 
+["330069"]
+japanese = "…さぁ。<line-break>金目当ての強盗ですかな？<end>"
+korean = "…글쎄요. 돈을 노린 강도 아닐까요?<end>"
+
 ["330070"]
 japanese = "へえ。<end>"
 korean = "헤에.<end>"
+
+["330071"]
+japanese = "ところで、<line-break>次の行き先はどこだい？<end>"
+korean = "그런데 다음 목적지는 어디지?<end>"
 
 ["330072"]
 japanese = "…ロストールですが。<end>"
@@ -143,6 +159,10 @@ korean = "플린트 씨, 불을….<end>"
 ["330101"]
 japanese = "なるほど、ね。<line-break>冷静な判断だ。<end>"
 korean = "그렇군. 냉정한 판단이야.<end>"
+
+["330103"]
+japanese = "あぁーっ！<line-break>昼間の変なおじさぁん！<end>"
+korean = "아앗! 낮에 봤던 이상한 아저씨ー!<end>"
 
 ["330108"]
 japanese = "フリントというのはお前だな？<end>"
