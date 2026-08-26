@@ -144,9 +144,17 @@ korean = "결판을 내자.<end>"
 japanese = "<value:$28>の<line-break>名前を利用して反対勢力を作る<line-break>…あり得る話だ。<end>"
 korean = "<value:$28>의 이름을 이용해 반대 세력을 만든다… 충분히 있을 법한 이야기다.<end>"
 
+["1930106"]
+japanese = "その辺にしておきなさい。<line-break><value:$28>だって<line-break>考えた上での選択でしょう。<end>"
+korean = "그쯤 해 두세요. <value:$28>도 생각한 끝에 내린 선택이겠죠.<end>"
+
 ["1930108"]
 japanese = "さあ、どうぞ。<end>"
 korean = "자, 여기요.<end>"
+
+["1930115"]
+japanese = "<value:$28>が守ってくれるの？<line-break>…それは仲間として？<line-break><line-break>それとも…<end>"
+korean = "<value:$28>이 지켜 줄 거야? …그건 동료로서? 아니면…<end>"
 
 ["1930118"]
 japanese = "待たせたな、ふたりとも。<end>"

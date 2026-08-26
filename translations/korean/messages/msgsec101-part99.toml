@@ -8,6 +8,10 @@ korean = "아이린 메시지 VOL4용 시작<end>"
 japanese = "早く、行きなさい。<end>"
 korean = "빨리 가세요.<end>"
 
+["1010005"]
+japanese = "…ほんっとに<line-break>しょうがない…奴。<end>"
+korean = "…정말 어쩔 수 없는… 녀석.<end>"
+
 ["1010009"]
 japanese = "…皮肉なものね、<line-break>運命なんて。<end>"
 korean = "…운명이라는 것도 참 얄궂네.<end>"
@@ -23,6 +27,10 @@ korean = "…빨리 가세요.<end>"
 ["1010032"]
 japanese = "…がんばってね、<line-break><value:$28>。<end>"
 korean = "…힘내, <value:$28>.<end>"
+
+["1010034"]
+japanese = "…もういいわ。<line-break>早く行きなさい。<end>"
+korean = "…이제 됐어. 어서 가.<end>"
 
 ["1010035"]
 japanese = "…気をつけるのよ、<line-break><value:$28>。<end>"

@@ -76,6 +76,10 @@ korean = "그럼 가볼까.<end>"
 japanese = "あ、待ってください！<end>"
 korean = "아, 기다려 주세요!<end>"
 
+["1870053"]
+japanese = "わたし、よかったです。<line-break><value:$28>さんという人に<line-break>出会うことができて！<end>"
+korean = "저, 정말 다행이에요. <value:$28>님이라는 분을 만날 수 있어서요!<end>"
+
 ["1870054"]
 japanese = "それでは、帰りましょうか！<end>"
 korean = "그럼 돌아갈까요!<end>"

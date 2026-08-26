@@ -124,6 +124,10 @@ korean = "티아나는 혼자서도 괜찮아<end>"
 japanese = "助けが必要なら言ってほしい<end>"
 korean = "도움이 필요하면 말해 줬으면 해<end>"
 
+["1900160"]
+japanese = "あ、<value:$28>様。<line-break>私に会いに来てくださったのですね。<line-break>うれしいです。<end>"
+korean = "아, <value:$28>님. 저를 만나러 와 주셨군요. 기뻐요.<end>"
+
 ["1900164"]
 japanese = "ティアナならできると言う<end>"
 korean = "티아나라면 할 수 있다고 말한다<end>"

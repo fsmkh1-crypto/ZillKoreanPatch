@@ -16,6 +16,10 @@ korean = "사양한다<end>"
 japanese = "ごちそうになろうかな<end>"
 korean = "얻어먹을까.<end>"
 
+["1980013"]
+japanese = "ど、どうしたんです？<line-break><value:$28>さん…。<line-break>まさか、お口に合いませんか？<end>"
+korean = "무, 무슨 일이세요? <value:$28>님…. 혹시 입맛에 안 맞으셨나요?<end>"
+
 ["1980015"]
 japanese = "おかわりっ！<end>"
 korean = "한 그릇 더!<end>"

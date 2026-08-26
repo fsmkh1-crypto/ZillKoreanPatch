@@ -136,6 +136,10 @@ korean = "어, 어머님!<end>"
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
 
+["1920157"]
+japanese = "ウフフ。<value:$28>様ったら<line-break>正面から入ってこられれば<line-break>よろしいのに…。<end>"
+korean = "후후. <value:$28>님도 참, 정면으로 들어오시면 될 텐데….<end>"
+
 ["1920172"]
 japanese = "わたし、がんばりますから！<end>"
 korean = "저, 열심히 할 테니까요!<end>"
@@ -155,6 +159,10 @@ korean = "…어!?<end>"
 ["1920179"]
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
+
+["1920183"]
+japanese = "これをもっていきなさい。　　<line-break><value:$28>さんと一緒に<line-break>大事に使うのよ。<end>"
+korean = "이걸 가져가렴. <value:$28>님과 함께 소중히 쓰도록 해.<end>"
 
 ["1920184"]
 japanese = "こ、こんなにたくさん…。<end>"
