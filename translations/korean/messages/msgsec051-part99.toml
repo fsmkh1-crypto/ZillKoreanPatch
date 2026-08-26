@@ -8,6 +8,10 @@ korean = "파로스 볼륨 2 시작<end>"
 japanese = "ふぅん、デートのお誘い？<end>"
 korean = "흐응, 데이트 신청?<end>"
 
+["510010"]
+japanese = "来ていただけるかしら、<line-break>ゼネテス様？<end>"
+korean = "와 주시겠어요, 제네테스 님?<end>"
+
 ["510016"]
 japanese = "ヴァイ、ヴィア、やめろ！<end>"
 korean = "바이, 비아, 그만해!<end>"
@@ -27,6 +31,10 @@ korean = "알고 있어.<end>"
 ["510030"]
 japanese = "だから、お前を腕ずくで連れていく。<end>"
 korean = "그러니 널 힘으로라도 데려가겠다.<end>"
+
+["510032"]
+japanese = "妹を守るためなら<line-break>なんだってするさ。<end>"
+korean = "여동생을 지키기 위해서라면 뭐든 할 거야.<end>"
 
 ["510037"]
 japanese = "うん…<end>"

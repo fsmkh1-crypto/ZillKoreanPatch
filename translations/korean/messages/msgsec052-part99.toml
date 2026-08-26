@@ -72,6 +72,10 @@ korean = "…폐하.<end>"
 japanese = "では、敵はどう出ると？<end>"
 korean = "그럼 적은 어떻게 나올까요?<end>"
 
+["520064"]
+japanese = "なら、前例になればいい。<line-break>説明する。<end>"
+korean = "그럼 전례가 되면 된다. 설명하지.<end>"
+
 ["520072"]
 japanese = "そんな…、考えられない…！<end>"
 korean = "그럴 수가…, 믿을 수 없어…!<end>"
@@ -135,6 +139,10 @@ korean = "그럼, 작전회의를 시작한다.<end>"
 ["520137"]
 japanese = "ゼネテス殿の予想通りだ。<end>"
 korean = "제네테스 공의 예상대로다.<end>"
+
+["520138"]
+japanese = "総司令閣下、<line-break>ご子息のゼネテス殿は？<end>"
+korean = "총사령관 각하, 아드님 제네테스 경은?<end>"
 
 ["520142"]
 japanese = "敵はこちらが来るのを予測しているのでは？<end>"

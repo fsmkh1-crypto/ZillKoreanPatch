@@ -32,6 +32,10 @@ korean = "네 도움은 받지 않겠다<end>"
 japanese = "んじゃ、一緒に行こうか。<line-break><value:$28>。<end>"
 korean = "그럼 같이 가자, <value:$28>.<end>"
 
+["700021"]
+japanese = "そうか、だったら俺もお手伝い<line-break>させてもらおうかな？<line-break>どうだい、<value:$28>？<end>"
+korean = "그래? 그렇다면 나도 도와줄까? 어때, <value:$28>?<end>"
+
 ["700024"]
 japanese = "やっぱそうか。だったら俺も<line-break>手伝いに入らせてもらおうかな？<line-break>どうだい、<value:$28>？<end>"
 korean = "역시 그런가. 그럼 나도 도와줄까? 어때, <value:$28>?<end>"

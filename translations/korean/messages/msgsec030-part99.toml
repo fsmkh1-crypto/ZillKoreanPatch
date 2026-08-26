@@ -32,6 +32,10 @@ korean = "<value:$28>, 부탁한다.<end>"
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
 
+["300033"]
+japanese = "あっ、<value:$28>さん！<line-break>助けてください！<end>"
+korean = "아, <value:$28>님! 도와주세요!<end>"
+
 ["300034"]
 japanese = "このお客さん、酔っぱらってて…。<end>"
 korean = "이 손님, 취해 있어서….<end>"
@@ -56,6 +60,10 @@ korean = "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집
 japanese = "冗談よ。<line-break>相変わらず子供ねぇ。<end>"
 korean = "농담이야. 여전히 어린애네.<end>"
 
+["300054"]
+japanese = "あ！　<value:$28>！<line-break>　<line-break>　<line-break>きゃーーーーー！！！！！！<line-break>　<line-break>　<end>"
+korean = "아! <value:$28>! 꺄아아아아아아!!!!<end>"
+
 ["300062"]
 japanese = "くやしいけど、なすすべなしね。<end>"
 korean = "분하지만 방법이 없네.<end>"
@@ -71,6 +79,10 @@ korean = "나… 기사가 되는 게 꿈이야.<end>"
 ["300069"]
 japanese = "寒い…。<end>"
 korean = "추워…<end>"
+
+["300071"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　<line-break>　<line-break>あ、空が見えなく…。<line-break>！？<end>"
+korean = "<value:$28>…. 아, 하늘이 안 보여….!?<end>"
 
 ["300072"]
 japanese = "下が柔らかくて助かったでゴブ！<end>"

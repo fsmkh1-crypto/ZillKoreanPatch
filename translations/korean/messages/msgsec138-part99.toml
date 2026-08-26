@@ -196,6 +196,10 @@ korean = "그렇게 흔하게 굴러다니는 게 아니니까!<end>"
 japanese = "いいことっ！<end>"
 korean = "좋은 일이야!<end>"
 
+["1380203"]
+japanese = "………………。<line-break> <line-break> <line-break><value:$28>様。<line-break>どうして止めるのです。<end>"
+korean = "………………. <value:$28>님. 왜 말리시는 겁니까.<end>"
+
 ["1380207"]
 japanese = "腕輪を渡す<end>"
 korean = "팔찌를 건넨다<end>"
@@ -719,6 +723,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1380490"]
 japanese = "ありがとう、<line-break><value:$28>。<end>"
 korean = "고마워, <value:$28>.<end>"
+
+["1380493"]
+japanese = "レルラのハープ、<line-break>売ってもいいよ。<end>"
+korean = "레르라의 하프, 팔아도 돼.<end>"
 
 ["1380496"]
 japanese = "追加メッセージここから<end>"

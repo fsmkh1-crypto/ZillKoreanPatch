@@ -16,6 +16,10 @@ korean = "그건 네가 잊어버린 소원이다.<end>"
 japanese = "君の痛みはものすごかったんだね。<end>"
 korean = "네 고통은 정말 엄청났구나.<end>"
 
+["1360039"]
+japanese = "わー、<value:$28>だ。<line-break>なんでも暴力で解決しようって姿勢<line-break>よくないと思うよ？<end>"
+korean = "와, <value:$28>이다. 뭐든 폭력으로 해결하려는 태도는 좋지 않다고 생각해.<end>"
+
 ["1360041"]
 japanese = "奴なら、行ったよ。<end>"
 korean = "그 녀석이라면 갔어.<end>"
@@ -47,6 +51,10 @@ korean = "<value:$28>은 허무의 검을 손에 넣었다.<end>"
 ["1360068"]
 japanese = "じゃ、旅を続けよっか。<line-break>お兄ちゃん！<end>"
 korean = "그럼 여행 계속하자. 오빠!<end>"
+
+["1360069"]
+japanese = "あ…。<line-break>なんでお兄ちゃんなんて呼んだんだろ。<line-break><value:$28>は女の子なのにね。<end>"
+korean = "아…. 왜 오빠라고 불렀지. <value:$28>은 여자아이인데.<end>"
 
 ["1360072"]
 japanese = "どうなさったのですか<line-break><value:$28>様。<end>"
@@ -555,6 +563,10 @@ korean = "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는�
 ["1360491"]
 japanese = "フッフッフ、久しいな。<end>"
 korean = "후후후, 오랜만이군.<end>"
+
+["1360494"]
+japanese = "受け入れられぬ運命であれば、私はこれからも戦い続けるだろう。<end>"
+korean = "받아들일 수 없는 운명이라면, 나는 앞으로도 계속 싸울 것이다.<end>"
 
 ["1360495"]
 japanese = "フフフ、そうか。<line-break>ならば、最後の予言を残そうか。<line-break>それは…、<line-break>お主らの死！<end>"

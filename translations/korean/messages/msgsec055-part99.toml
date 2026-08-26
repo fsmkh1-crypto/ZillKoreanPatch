@@ -168,6 +168,10 @@ korean = "노엘이 해냈다!<end>"
 japanese = "勇者だ！　勇者の誕生だ！<end>"
 korean = "용사다! 용사의 탄생이다!<end>"
 
+["550076"]
+japanese = "石化獣じゃ！<line-break>石化獣が復活しおった！<end>"
+korean = "석화수다! 석화수가 부활했다!<end>"
+
 ["550077"]
 japanese = "た、助けてくれ！<end>"
 korean = "사, 살려 줘!<end>"
@@ -284,6 +288,10 @@ korean = "제 어머니는 강력하고도 대재앙 같은 분이십니다.<end
 japanese = "（奴を追わなきゃ…。）<end>"
 korean = "(놈을 쫓아가야 해….)<end>"
 
+["550137"]
+japanese = "石化獣じゃ！<line-break>石化獣が復活しおった！<end>"
+korean = "석화수다! 석화수가 부활했다!<end>"
+
 ["550138"]
 japanese = "た、助けてくれ！<end>"
 korean = "사, 살려 줘!<end>"
@@ -299,6 +307,10 @@ korean = "…반?<end>"
 ["550143"]
 japanese = "さ、さすが師匠！<end>"
 korean = "여, 역시 스승님!<end>"
+
+["550147"]
+japanese = "み、み、みんな…<line-break>石になってるよ！？<end>"
+korean = "다, 다, 다들… 돌이 돼 있잖아!?<end>"
 
 ["550151"]
 japanese = "＜無＞<end>"
@@ -840,6 +852,10 @@ korean = "…포기하면 안 돼.<end>"
 japanese = "わたしにできることが…<line-break>きっと…。<end>"
 korean = "내가 할 수 있는 일이… 분명….<end>"
 
+["550329"]
+japanese = "文句言わない。<line-break>旅は道づれ…ってね。<end>"
+korean = "불평하지 마. 여행길엔 동료가 필요한 법이잖아.<end>"
+
 ["550331"]
 japanese = "<value:$28>さん！<end>"
 korean = "<value:$28>씨!<end>"
@@ -847,6 +863,10 @@ korean = "<value:$28>씨!<end>"
 ["550332"]
 japanese = "わたしです、ノエルです。　　<end>"
 korean = "저예요, 노엘이에요.<end>"
+
+["550336"]
+japanese = "俺はレイヴン。<line-break>ま、ひとつよろしく。<end>"
+korean = "난 레이븐이야. 뭐, 잘 부탁해.<end>"
 
 ["550342"]
 japanese = "みんな、とっても強いんです。　<end>"
@@ -871,6 +891,10 @@ korean = "뭐, 노엘은 포기하는 게 좋아.<end>"
 ["550359"]
 japanese = "…誤解だ。<end>"
 korean = "…오해야.<end>"
+
+["550360"]
+japanese = "なにかしら？<line-break>あたしたちに何かご用？<end>"
+korean = "무슨 일이야? 우리에게 볼일이라도 있어?<end>"
 
 ["550363"]
 japanese = "こんな奴ら<line-break>こっちから願い下げよ。<end>"

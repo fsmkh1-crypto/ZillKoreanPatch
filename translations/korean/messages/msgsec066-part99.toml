@@ -92,6 +92,10 @@ korean = "마음대로 해!<end>"
 japanese = "うぬぼれてるって？　　　　　　　　<end>"
 korean = "자만하고 있다고?<end>"
 
+["660060"]
+japanese = "じゃあな。<line-break>また会おうぜ、<value:$28>。　<end>"
+korean = "그럼 잘 가. 또 만나자, <value:$28>.<end>"
+
 ["660061"]
 japanese = "よう、<value:$28><line-break>今、もしかしてヒマ？<end>"
 korean = "어이, <value:$28>. 지금 혹시 한가해?<end>"

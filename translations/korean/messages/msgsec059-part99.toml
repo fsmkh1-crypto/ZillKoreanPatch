@@ -28,6 +28,10 @@ korean = "역시 아큐류스 쪽<end>"
 japanese = "心機一転ディンガル側<end>"
 korean = "심기일전 딘갈 측<end>"
 
+["590019"]
+japanese = "それじゃ、今まで通り<line-break>アキュリュース側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"
+korean = "그럼 지금까지처럼 아큐류스 편이라는 걸로 잘 부탁한다, <value:$28>.<end>"
+
 ["590021"]
 japanese = "やっぱり、今まで通り<end>"
 korean = "역시 지금까지대로<end>"
@@ -51,6 +55,10 @@ korean = "심기일전 딘갈 측<end>"
 ["590028"]
 japanese = "それじゃ、今まで通り<line-break>ロストール側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"
 korean = "그럼 지금까지처럼 로스토올 편이라는 걸로 잘 부탁한다, <value:$28>.<end>"
+
+["590030"]
+japanese = "ああ、<value:$28>だな。<line-break>手紙がきてるよ。<end>"
+korean = "아, <value:$28>이군. 편지가 와 있어.<end>"
 
 ["590037"]
 japanese = "引き受ける<end>"
@@ -83,6 +91,10 @@ korean = "말도 안 돼…! 적장은 누구냐!?<end>"
 ["590066"]
 japanese = "出撃！　<value:$28>様に続け！<line-break>アンギルダン様をお救いするのだ！！<line-break>出撃！！<end>"
 korean = "출격! <value:$28>님을 따르라! 앙길단 님을 구하는 거다!! 출격!!<end>"
+
+["590072"]
+japanese = "あばよ、とっつぁん、　　　　　　　<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"
+korean = "잘 있어, 아저씨. 그리고 <value:$28>! 살아서 다시 만나자!<end>"
 
 ["590087"]
 japanese = "そうか…。残念じゃ。<end>"

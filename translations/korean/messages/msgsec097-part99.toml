@@ -40,6 +40,10 @@ korean = "…실례할게.<end>"
 japanese = "俺は信じない…信じないぞ…。<end>"
 korean = "난 믿지 않아… 믿지 않는다고….<end>"
 
+["970063"]
+japanese = "やぁ、<value:$28>。<line-break>どうだい、オズワルドの調査の方は　　<line-break>終わったのかい？<end>"
+korean = "안녕, <value:$28>. 오즈월드 조사 쪽은 끝났나?<end>"
+
 ["970079"]
 japanese = "ノエル用メッセージＶ１終端<end>"
 korean = "노엘용 메시지 V1 끝<end>"

@@ -132,6 +132,10 @@ korean = "이제부터는 서로 각자의 꿈을 좇아요. 그럼, <value:$28>
 japanese = "久しぶりね、<value:$28>。<end>"
 korean = "오랜만이네, <value:$28>.<end>"
 
+["990076"]
+japanese = "やっと、夢がかなったの。<line-break>それじゃ。<end>"
+korean = "드디어 꿈이 이루어졌어. 그럼.<end>"
+
 ["990084"]
 japanese = "…行きなさい。<line-break>次はないわ。<end>"
 korean = "…가. 다음은 없어.<end>"
@@ -159,6 +163,10 @@ korean = "훌륭한 모험자가 되렴, <value:$28>.<end>"
 ["990118"]
 japanese = "…行きなさい。<line-break>次はないわ。<end>"
 korean = "…가. 다음은 없어.<end>"
+
+["990121"]
+japanese = "まったく、<line-break>どうして、解放軍などに！<end>"
+korean = "정말이지, 어째서 해방군 따위에!<end>"
 
 ["990124"]
 japanese = "あ、<value:$28>…。<end>"

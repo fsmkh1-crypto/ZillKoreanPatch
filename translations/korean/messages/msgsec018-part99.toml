@@ -12,6 +12,10 @@ korean = "헤헷, 한 건 끝냈다! 좋아, <value:$28>, 길드에 보고하러
 japanese = "終わったな。<line-break>戻るぞ、<value:$28>。<line-break>　<end>"
 korean = "끝났군. 돌아가자, <value:$28>.<end>"
 
+["180016"]
+japanese = "あーもう！　やっと終わったわ。<line-break><value:$28>、さっさと戻って<line-break>ギルドに報告したら？<end>"
+korean = "아 정말! 드디어 끝났네. <value:$28>, 얼른 돌아가서 길드에 보고해.<end>"
+
 ["180018"]
 japanese = "やったね、<value:$28>。<line-break>あとはギルドに報告するだけだね。<line-break>じゃ、帰ろ。<end>"
 korean = "해냈네, <value:$28>. 이제 길드에 보고만 하면 돼. 그럼 돌아가자.<end>"
@@ -27,6 +31,30 @@ korean = "임무 완료를 확인했습니다. 길드로 돌아가죠, <value:$2
 ["180024"]
 japanese = "ま、ざっとこんなもんね。<line-break>さっさとギルドへ戻ろう、<line-break><value:$28>。<end>"
 korean = "뭐, 대충 이런 거지. 얼른 길드로 돌아가자, <value:$28>.<end>"
+
+["180032"]
+japanese = "これで退治依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"
+korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가 보상을 받자고.<end>"
+
+["180033"]
+japanese = "これで退治依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"
+korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가 보상을 받자고.<end>"
+
+["180034"]
+japanese = "これで退治依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"
+korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가 보상을 받자고.<end>"
+
+["180035"]
+japanese = "これで退治依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"
+korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가 보상을 받자고.<end>"
+
+["180036"]
+japanese = "これで退治依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"
+korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가 보상을 받자고.<end>"
+
+["180037"]
+japanese = "これで退治依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"
+korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가 보상을 받자고.<end>"
 
 ["180039"]
 japanese = "依頼完了ね。<line-break>さあ、<value:$28>、<line-break>ギルドに戻って報告よ。<end>"
@@ -55,6 +83,10 @@ korean = "드디어 찾았네! <value:$28>, 얼른 돌아가서 길드에 보고
 ["180061"]
 japanese = "あったよ、<value:$28>。<line-break>これをギルドに持ってけばいいんだね。<line-break>じゃ、帰ろ。<end>"
 korean = "찾았다, <value:$28>. 이걸 길드에 가져가면 되는 거지? 그럼 돌아가자.<end>"
+
+["180062"]
+japanese = "これか…。<line-break>では、戻るか。<line-break>　<end>"
+korean = "이건가…. 그럼 돌아갈까.<end>"
 
 ["180066"]
 japanese = "目標物、確保しました。<line-break>これで町へ帰れますね、<line-break><value:$28>様。<end>"

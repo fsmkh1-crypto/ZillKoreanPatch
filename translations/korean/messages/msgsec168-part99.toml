@@ -64,9 +64,17 @@ korean = "그럼 요리를 내오게 하죠.<end>"
 japanese = "…よろしゅうございます、陛下。<end>"
 korean = "…좋습니다, 폐하.<end>"
 
+["1680092"]
+japanese = "遠慮することはない。<line-break>入るがよい。<end>"
+korean = "사양할 것 없다. 들어오너라.<end>"
+
 ["1680098"]
 japanese = "今日は…すまぬな。<line-break><value:$28>。<end>"
 korean = "오늘은… 미안하군, <value:$28>.<end>"
+
+["1680099"]
+japanese = "よ、<value:$28>じゃねえか。<line-break>元気かい？<end>"
+korean = "여어, <value:$28> 아니야. 잘 지냈어?<end>"
 
 ["1680114"]
 japanese = "ファーロス・ボリューム３その３終端<end>"

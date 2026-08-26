@@ -68,6 +68,14 @@ korean = "분명 <value:$28> 일행은 현자의 숲 고양이 저택을 중계�
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
 
+["1350059"]
+japanese = "<value:$28>様、<line-break>助け出していただいて<line-break>本当にありがとうございます。<end>"
+korean = "<value:$28>님, 구해 주셔서 정말 감사합니다.<end>"
+
+["1350065"]
+japanese = "<value:$28>様、<line-break>助け出していただいて<line-break>本当にありがとうございます。<end>"
+korean = "<value:$28>님, 구해 주셔서 정말 감사합니다.<end>"
+
 ["1350070"]
 japanese = "だから、放っておいて！<end>"
 korean = "그러니까 내버려 둬!<end>"
@@ -111,6 +119,10 @@ korean = "…제네테스… 님…. 저는….<end>"
 ["1350107"]
 japanese = "お？<line-break>おおっ、どうした？<line-break> <line-break>急に顔つきがりりしく<line-break>なったようだぜ？<end>"
 korean = "어? 오오, 무슨 일이야? 갑자기 표정이 늠름해진 것 같은데?<end>"
+
+["1350111"]
+japanese = "ふーん。<line-break> <line-break> <line-break>…大げさなんてとんでもないぜ、<line-break>ティアナ。<end>"
+korean = "흐음. …과장이라니, 말도 안 되지, 티아나.<end>"
 
 ["1350112"]
 japanese = "えっ？<end>"
@@ -268,6 +280,10 @@ korean = "으으…… …<value:$28>…인가?<end>"
 japanese = "お、お前は…、<line-break>こんなになってまで。<end>"
 korean = "너, 너는… 이렇게 되면서까지.<end>"
 
+["1350209"]
+japanese = "すまん。<line-break>…お前はずっと<line-break>俺のそばにいてくれたのだな。<line-break>だが、俺は…<end>"
+korean = "미안하다. …넌 계속 내 곁에 있어 줬구나. 하지만 나는….<end>"
+
 ["1350210"]
 japanese = "…愛している、<line-break><value:$28>。<line-break> <line-break>…俺はもうお前を離したくない。<line-break>俺は！<end>"
 korean = "…사랑한다, <value:$28>. …이제 너를 놓고 싶지 않아. 나는!<end>"
@@ -420,6 +436,10 @@ korean = "저를… 구해 주시는 겁니까?<end>"
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
 
+["1350307"]
+japanese = "<value:$28>様、<line-break>ありがとうございます。<end>"
+korean = "<value:$28>님, 감사합니다.<end>"
+
 ["1350309"]
 japanese = "ありがとうございます、<line-break><value:$28>様！<line-break>よろしくお願いいたしますわ。<end>"
 korean = "감사합니다, <value:$28> 님! 잘 부탁드리겠습니다.<end>"
@@ -543,6 +563,10 @@ korean = "알았어. 좋아.<end>"
 ["1350383"]
 japanese = "ありがとうございます！<end>"
 korean = "감사합니다!<end>"
+
+["1350384"]
+japanese = "ま、しゃーないわね。<line-break>そういうことだから、<line-break><value:$28>、助けてあげてね。<end>"
+korean = "뭐, 어쩔 수 없네. 그런 거니까 <value:$28>, 도와줘.<end>"
 
 ["1350385"]
 japanese = "よし。<line-break>んじゃ、出発よ。<end>"

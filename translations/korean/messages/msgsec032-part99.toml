@@ -32,6 +32,10 @@ korean = "아니요<end>"
 japanese = "待て、<value:$28>。<line-break>魔物の気配がする。<end>"
 korean = "기다려, <value:$28>. 마물의 기척이 느껴진다.<end>"
 
+["320013"]
+japanese = "<value:$28>、初めてか？<line-break>魔物と戦うのは。<end>"
+korean = "<value:$28>, 처음인가? 마물과 싸우는 건.<end>"
+
 ["320015"]
 japanese = "大丈夫か、<value:$28>？<end>"
 korean = "괜찮아, <value:$28>?<end>"
@@ -211,6 +215,10 @@ korean = "…로이는 살아 있어.<end>"
 ["320121"]
 japanese = "<value:$28>様、<line-break>お帰りなさいませ。　　　　<line-break>おケガは？<end>"
 korean = "<value:$28> 님, 돌아오셨군요. 다치신 곳은요?<end>"
+
+["320124"]
+japanese = "<value:$28>様も<line-break>神器の守護者のご一族。<line-break>大丈夫ですと申し上げておりますのに。　　<end>"
+korean = "<value:$28>님도 신기의 수호자 일족입니다. 괜찮다고 말씀드렸는데도….<end>"
 
 ["320139"]
 japanese = "<value:$28>さまー。<line-break>おかえりなさい。<line-break>お疲れさまでしたー。<end>"

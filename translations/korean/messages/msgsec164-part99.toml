@@ -56,6 +56,10 @@ korean = "물러서 있어.<end>"
 japanese = "…許さない！<line-break>貴様らを許さない！<end>"
 korean = "…용서 못 해! 네놈들을 용서 못 해!<end>"
 
+["1640033"]
+japanese = "構えろ、<value:$28>。<line-break>彼女は今、周りが見えていない。<line-break>見境なく攻撃してくるぞ。<end>"
+korean = "자세를 잡아, <value:$28>. 지금 그녀는 주변이 보이지 않아. 닥치는 대로 공격할 거다.<end>"
+
 ["1640034"]
 japanese = "死ね！<end>"
 korean = "죽어!<end>"
@@ -63,6 +67,10 @@ korean = "죽어!<end>"
 ["1640035"]
 japanese = "やった！<end>"
 korean = "해냈다!<end>"
+
+["1640037"]
+japanese = "殺す気はない。<line-break>私に任せてほしい。<end>"
+korean = "죽일 생각은 없어. 나에게 맡겨 줘.<end>"
 
 ["1640038"]
 japanese = "…わ、わかりました。<end>"

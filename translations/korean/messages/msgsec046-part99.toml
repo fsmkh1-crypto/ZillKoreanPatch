@@ -128,6 +128,10 @@ korean = "알고 계신가요?<end>"
 japanese = "この感覚…。<line-break>無限のソウルを持つ者…？<end>"
 korean = "이 감각…. 무한한 소울을 지닌 자…?<end>"
 
+["460130"]
+japanese = "…ねえ、<value:$28>、<line-break>行ってみようか…。<end>"
+korean = "…저기, <value:$28>, 가 볼까….<end>"
+
 ["460133"]
 japanese = "なるほど。<line-break>力が欲しいんですか…。<end>"
 korean = "그렇군요. 힘이 필요한 겁니까….<end>"
@@ -147,6 +151,10 @@ korean = "있잖아, 가 보는 게 좋아. <value:$28>. 난 여기서 기다릴
 ["460165"]
 japanese = "たぶん、この子は役に立ちますよ。　　<end>"
 korean = "아마 이 아이는 도움이 될 거예요.<end>"
+
+["460167"]
+japanese = "ど、どうなってるの？<line-break>ねえ、<value:$28>！<end>"
+korean = "어, 어떻게 된 거야? 저기, <value:$28>!<end>"
 
 ["460171"]
 japanese = "無限のソウルとは<end>"

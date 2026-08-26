@@ -120,6 +120,18 @@ korean = "도망쳐, <value:$28>!"
 japanese = "なんのマネだい、エルファス？<end>"
 korean = "무슨 짓이야, 엘파스?<end>"
 
+["1540068"]
+japanese = "…<value:$28>を<line-break>死なせたくないんだ…。<line-break>頼む。手を引いてくれ、シャリ。<end>"
+korean = "…<value:$28>을 죽게 하고 싶지 않아…. 부탁이야. 손을 떼 줘, 샤리.<end>"
+
+["1540069"]
+japanese = "姉さんは助けなかったのに<line-break><value:$28>は助けるの？<line-break>あれれ？　どうしてだろ？<end>"
+korean = "누나는 안 구해 줬으면서 <value:$28>은 구하는 거야? 어라? 왜 그럴까?<end>"
+
+["1540070"]
+japanese = "あれあれ？　ひょっとして、僕を敵に回すって意思表示なのかな？"
+korean = "어라? 혹시 나를 적으로 돌리겠다는 뜻인가?"
+
 ["1540074"]
 japanese = "くすっ。<line-break>ふーん、そう。<end>"
 korean = "후훗. 흐음, 그렇구나.<end>"
@@ -127,6 +139,10 @@ korean = "후훗. 흐음, 그렇구나.<end>"
 ["1540077"]
 japanese = "理解してくれとは言わぬ。<line-break>だが<value:$28>を決して<line-break>死なせはしない。<end>"
 korean = "이해해 달라고는 하지 않겠다. 하지만 <value:$28>를 절대 죽게 두지 않겠다.<end>"
+
+["1540098"]
+japanese = "そして、彼女を闇に突き落とした<line-break>最大の功労者は君だよ。<line-break><value:$28>。アハハハ。<end>"
+korean = "그리고 그녀를 어둠으로 밀어 넣은 가장 큰 공로자는 너야, <value:$28>. 아하하하.<end>"
 
 ["1540102"]
 japanese = "くっ！<line-break>破滅の槍の力を解放する気？<end>"

@@ -20,6 +20,10 @@ korean = "맡겨<end>"
 japanese = "勘弁して<end>"
 korean = "봐줘<end>"
 
+["1610013"]
+japanese = "あら、あなた、<line-break>もしかして<value:$28>？<end>"
+korean = "어머, 당신 혹시 <value:$28>?<end>"
+
 ["1610014"]
 japanese = "いいよ<end>"
 korean = "좋아<end>"

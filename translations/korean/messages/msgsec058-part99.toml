@@ -40,6 +40,10 @@ korean = "…아직 원념이 남아 있구나.<end>"
 japanese = "急いで、しかし動作はゆっくりと<line-break>ここを出るのじゃ。<line-break><value:$28>。<end>"
 korean = "서두르되 움직임은 천천히, 여길 빠져나가자. <value:$28>.<end>"
 
+["580081"]
+japanese = "それではな、<value:$28>。<line-break>また会おうぞ。<end>"
+korean = "그럼 잘 있어라, <value:$28>. 또 만나자.<end>"
+
 ["580082"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"
@@ -47,6 +51,10 @@ korean = "기다려.<end>"
 ["580083"]
 japanese = "竜の死骸か…。<end>"
 korean = "용의 시체인가….<end>"
+
+["580096"]
+japanese = "フフ、会えてうれしいぜ。　　<line-break>じゃあな、<value:$28><line-break>縁があったらまた会おうや。<end>"
+korean = "후후, 만나서 반갑다. 그럼 잘 가, <value:$28>. 인연이 있으면 또 만나자고.<end>"
 
 ["580113"]
 japanese = "アンギルダン・ボリューム１終端<end>"

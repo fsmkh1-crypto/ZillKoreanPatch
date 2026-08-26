@@ -16,13 +16,25 @@ korean = "<value:$28>, 캇츠네 오두막에 들러도 되겠나?<end>"
 japanese = "すまんの。<end>"
 korean = "미안하구나.<end>"
 
+["930023"]
+japanese = "さっそく準備じゃ。<line-break><value:$28>、そこにある<line-break>光る炎竜岩を持ってきてくれ。<end>"
+korean = "당장 준비하자. <value:$28>, 거기 있는 빛나는 염룡암을 가져와 줘.<end>"
+
 ["930026"]
 japanese = "よし、始めるかの。<end>"
 korean = "좋아, 시작해 볼까.<end>"
 
+["930027"]
+japanese = "よし、最後の仕上げじゃ。<line-break><value:$28>、お前さんが<line-break>剣に命を吹き込むんじゃ。<end>"
+korean = "좋아, 마지막 마무리다. <value:$28>, 네가 검에 생명을 불어넣는 거야.<end>"
+
 ["930029"]
 japanese = "…よし！<line-break>完成じゃ。<end>"
 korean = "…좋아! 완성이다.<end>"
+
+["930040"]
+japanese = "さっそく準備じゃ。<line-break><value:$28>、そこにある<line-break>光る炎竜岩を拾ってくれんか。<end>"
+korean = "당장 준비하자. <value:$28>, 거기 있는 빛나는 염룡암을 주워다 주겠나.<end>"
 
 ["930045"]
 japanese = "デルガド　Ｖ４　終端<end>"

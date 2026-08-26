@@ -244,6 +244,10 @@ korean = "글쎄….<end>"
 japanese = "バカな。<end>"
 korean = "말도 안 돼.<end>"
 
+["630201"]
+japanese = "ふふふ。<line-break>兄妹愛は美しいものですわ。<end>"
+korean = "후후후. 남매애는 아름다운 법이지요.<end>"
+
 ["630205"]
 japanese = "また、いらっしゃってくださいね。<end>"
 korean = "또 와 주세요.<end>"
@@ -379,6 +383,14 @@ korean = "정말, 레몬 님!<end>"
 ["630339"]
 japanese = "ふふ、大事な幼なじみですものね。<end>"
 korean = "후후, 소중한 소꿉친구니까요.<end>"
+
+["630349"]
+japanese = "また、いらしてくださいね。<line-break><value:$28>様とは<line-break>ゆっくりとお話ししたいですから。<end>"
+korean = "또 와 주세요. <value:$28>님과는 천천히 이야기하고 싶으니까요.<end>"
+
+["630351"]
+japanese = "それでは、<value:$28>様。<line-break>ごきげんよう。<end>"
+korean = "그럼 <value:$28>님. 안녕히 계세요.<end>"
 
 ["630352"]
 japanese = "空メッセージ<end>"

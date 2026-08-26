@@ -176,6 +176,10 @@ korean = "티아나라면 할 수 있다고 말한다<end>"
 japanese = "ロストールの王女ならできると言う<end>"
 korean = "로스톨의 왕녀라면 할 수 있다고 한다<end>"
 
+["1900170"]
+japanese = "ですから、<value:$28>様。<line-break>これからも、ティアナのことを<line-break>見守っていてください。<end>"
+korean = "그러니 <value:$28>님. 앞으로도 티아나를 지켜봐 주세요.<end>"
+
 ["1900173"]
 japanese = "心配しすぎだと言う<end>"
 korean = "걱정이 지나치다고 말한다<end>"

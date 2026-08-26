@@ -132,6 +132,10 @@ korean = "나한테 맡겨.<end>"
 japanese = "…俺に指図するな。<end>"
 korean = "…나한테 명령하지 마.<end>"
 
+["1400036"]
+japanese = "くすっ。<line-break>なにを恐れているんだい？<end>"
+korean = "후훗. 뭘 두려워하는 거지?<end>"
+
 ["1400041"]
 japanese = "…これで強くなれるんだな。<end>"
 korean = "…이제 강해질 수 있는 거군.<end>"
@@ -143,6 +147,10 @@ korean = "나한테 맡겨.<end>"
 ["1400045"]
 japanese = "…俺に指図するな。<end>"
 korean = "…나한테 명령하지 마.<end>"
+
+["1400046"]
+japanese = "くすっ。<line-break>なにを恐れているんだい？<end>"
+korean = "후훗. 뭘 두려워하는 거지?<end>"
 
 ["1400049"]
 japanese = "（あれは、いったい…？）<end>"
@@ -236,6 +244,10 @@ korean = "싫어어어어!!<end>"
 japanese = "こい、<value:$28>！<line-break>こうなりゃ、タルテュバに<line-break>突っ込むしかねえ！！<end>"
 korean = "와, <value:$28>! 이렇게 된 이상 타르튜바로 돌진할 수밖에 없어!!<end>"
 
+["1400117"]
+japanese = "おケガはありませんか？<line-break><value:$28>様！<end>"
+korean = "다치신 곳은 없습니까, <value:$28>님!<end>"
+
 ["1400118"]
 japanese = "ゼネテス様？<end>"
 korean = "제네테스님?<end>"
@@ -264,6 +276,10 @@ korean = "싫어어어어!<end>"
 japanese = "くっ、<value:$28>。<line-break>いくぞ！！<end>"
 korean = "큭, <value:$28>. 간다!!<end>"
 
+["1400138"]
+japanese = "…るせぇ…な…。<line-break>聞こえてるぜ…。<end>"
+korean = "…시끄러…워…. 들리고 있어….<end>"
+
 ["1400144"]
 japanese = "いやあぁああ！！<end>"
 korean = "싫어어어어!!<end>"
@@ -279,6 +295,10 @@ korean = "제네테스! 제네테스!<end>"
 ["1400149"]
 japanese = "…ティアナ。<end>"
 korean = "…티아나.<end>"
+
+["1400151"]
+japanese = "…るせぇ…な…。<line-break>聞こえてるぜ…。<end>"
+korean = "…시끄러…워…. 들리고 있어….<end>"
 
 ["1400156"]
 japanese = "あ、<value:$28>様。<line-break>あの…あの…、<line-break>こんな手紙が来たのです。<end>"
@@ -308,9 +328,21 @@ korean = "…행사?<end>"
 japanese = "<value:$28>さ…<line-break>…ティアナ…様？<end>"
 korean = "<value:$28> 님… …티아나… 님?<end>"
 
+["1400170"]
+japanese = "ええ、あの、催しが<line-break>開かれるって…。<end>"
+korean = "네, 그게… 행사가 열린다고 해서….<end>"
+
 ["1400173"]
 japanese = "やっこさんもそうじゃねえの？<end>"
 korean = "그 녀석도 그런 거 아냐?<end>"
+
+["1400175"]
+japanese = "フフ…<line-break>それは僕が教えてあげるよ。<end>"
+korean = "후후… 그건 내가 알려 줄게.<end>"
+
+["1400177"]
+japanese = "そ、そうなのですか…。<line-break>残念です…。<end>"
+korean = "그, 그런가요…. 아쉽네요….<end>"
 
 ["1400180"]
 japanese = "行く<end>"
@@ -339,6 +371,10 @@ korean = "…행사?<end>"
 ["1400189"]
 japanese = "やっこさんもそうじゃねえの？<end>"
 korean = "그 녀석도 그런 거 아냐?<end>"
+
+["1400191"]
+japanese = "フフ…<line-break>それは僕が教えてあげるよ。<end>"
+korean = "후후… 그건 내가 알려 줄게.<end>"
 
 ["1400194"]
 japanese = "な、何がおかしいのです！？<end>"
@@ -419,6 +455,10 @@ korean = "샤리구나!? 어디냐!!<end>"
 ["1400263"]
 japanese = "シャリ！！<line-break>どこだ！　姿を現せ！<end>"
 korean = "샤리!! 어디냐! 모습을 드러내라!<end>"
+
+["1400266"]
+japanese = "その声…シャリだね！！<line-break>出てきなよ！<end>"
+korean = "그 목소리… 샤리구나!! 나와!<end>"
 
 ["1400287"]
 japanese = "お出ましだね…。<line-break>竜王…。<end>"
@@ -607,6 +647,10 @@ korean = "대지의 최고위 마법이 해방되었다.<end>"
 ["1400406"]
 japanese = "<value:$28>…。<line-break>どうして…？<end>"
 korean = "<value:$28>…. 어째서…?<end>"
+
+["1400408"]
+japanese = "どうして<line-break>パンタ・レイを倒したの？<end>"
+korean = "왜 판타 레이를 쓰러뜨린 거야?<end>"
 
 ["1400409"]
 japanese = "ボクを助ける…ため…？<end>"

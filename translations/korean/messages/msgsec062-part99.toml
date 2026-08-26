@@ -460,6 +460,10 @@ korean = "윽.<end>"
 japanese = "あ、だ、だいひょうぶでふ！<end>"
 korean = "아, 괘, 괜찮아여!<end>"
 
+["620325"]
+japanese = "<value:$28>は<line-break>致命的なダメージを受けた。<end>"
+korean = "<value:$28>은 치명적인 피해를 입었다.<end>"
+
 ["620327"]
 japanese = "あ、その、…お、おいしいよ。<end>"
 korean = "아, 그게, …마, 맛있어.<end>"

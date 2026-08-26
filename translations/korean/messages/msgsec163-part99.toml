@@ -16,6 +16,10 @@ korean = "맡지 않는다<end>"
 japanese = "では、傭兵部隊、出撃します！<end>"
 korean = "그럼 용병 부대, 출격합니다!<end>"
 
+["1630022"]
+japanese = "新手か！<line-break>これ以上は、突破させん！<end>"
+korean = "새로운 적인가! 더는 돌파하게 두지 않겠다!<end>"
+
 ["1630023"]
 japanese = "こ、こいつは手強いです。<end>"
 korean = "이, 이 녀석은 만만치 않습니다.<end>"
@@ -51,6 +55,14 @@ korean = "말도 안 돼…! 적장은 누구냐!?<end>"
 ["1630056"]
 japanese = "来たぞ！<line-break>ディンガルの新手だ！<end>"
 korean = "왔다! 딩갈의 새로운 놈들이다!<end>"
+
+["1630057"]
+japanese = "新手か！<line-break>これ以上は、突破させん！<end>"
+korean = "새로운 적인가! 더는 돌파하게 두지 않겠다!<end>"
+
+["1630058"]
+japanese = "ディンガル兵か！<line-break>こいつも倒すぞ！<end>"
+korean = "딩갈 병사인가! 이 녀석도 쓰러뜨린다!<end>"
 
 ["1630061"]
 japanese = "…とっつぁん、<line-break>悪いが、命をもらう。<end>"
@@ -88,6 +100,10 @@ korean = "합류하지 않는다<end>"
 japanese = "よし、ゆくぞ。<end>"
 korean = "좋아, 가자.<end>"
 
+["1630108"]
+japanese = "新手か！<line-break>これ以上は、突破させん！<end>"
+korean = "새로운 적인가! 더는 돌파하게 두지 않겠다!<end>"
+
 ["1630109"]
 japanese = "こ、こいつは手強い！<end>"
 korean = "이, 이놈 강하다!<end>"
@@ -107,6 +123,10 @@ korean = "적이라고!? 무슨 소리야!<end>"
 ["1630126"]
 japanese = "将軍！　ご無事でしたか。<end>"
 korean = "장군! 무사하셨습니까.<end>"
+
+["1630143"]
+japanese = "ロストール攻略軍<line-break>　傭兵部隊の陣　<end>"
+korean = "로스토올 공략군 용병부대 진지<end>"
 
 ["1630144"]
 japanese = "アンギルダンの<line-break>予備メッセージ６じゃ<end>"

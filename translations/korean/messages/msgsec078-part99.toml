@@ -8,6 +8,10 @@ korean = "아트레이아 볼륨6 시작<end>"
 japanese = "あ、あの…、<line-break>あなたはいったい…？<end>"
 korean = "저, 저기… 당신은 대체…?<end>"
 
+["780013"]
+japanese = "あ、<value:$28>。<line-break>どうしたの？　まさか来てくれるなんて<line-break>思ってもみなかったよ。<end>"
+korean = "아, <value:$28>. 무슨 일이야? 설마 와 줄 줄은 생각도 못 했어.<end>"
+
 ["780014"]
 japanese = "シャリ、この方は…？<end>"
 korean = "샤리, 이분은…?<end>"
@@ -27,6 +31,10 @@ korean = "저, 저기….<end>"
 ["780022"]
 japanese = "それでは、王女様、<line-break>失礼いたします。<end>"
 korean = "그럼 공주님, 실례하겠습니다.<end>"
+
+["780028"]
+japanese = "そうですか。<line-break>ごきげんよう、<value:$28>さん。<line-break>また、お会いできるといいですね。<end>"
+korean = "그렇군요. 안녕히 계세요, <value:$28>님. 또 만날 수 있으면 좋겠네요.<end>"
 
 ["780029"]
 japanese = "それでは、王女様<line-break>失礼いたします。<end>"
@@ -91,6 +99,10 @@ korean = "냐옹~!<end>"
 ["780053"]
 japanese = "それで？<line-break>この俺に、話とはなんだ？<end>"
 korean = "그래서? 이 나에게 무슨 이야기지?<end>"
+
+["780054"]
+japanese = "ええ。あの…<line-break><end>レムオン様のお屋敷を<line-break><end>貸していただけないでしょうか？<end>"
+korean = "네. 저기…<end>레무온 님의 저택을<end>빌려 주실 수 없을까요?<end>"
 
 ["780058"]
 japanese = "…それはまた<line-break>大がかりな計画だな。<end>"

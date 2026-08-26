@@ -36,6 +36,10 @@ korean = "지금 가진 힘이면 충분해<end>"
 japanese = "そんな力を操りたい<end>"
 korean = "그런 힘을 다루고 싶다<end>"
 
+["1460034"]
+japanese = "さてと。<line-break>僕は調査を続けるよ。<line-break>　<line-break><value:$28>、<line-break>君も頑張ってね。<end>"
+korean = "자, 난 조사를 계속할게. <value:$28>, 너도 힘내.<end>"
+
 ["1460035"]
 japanese = "…うーん、なるほど…。<end>"
 korean = "…음, 그렇군….<end>"

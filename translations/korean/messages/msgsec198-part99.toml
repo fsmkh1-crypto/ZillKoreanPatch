@@ -8,6 +8,10 @@ korean = "페름 메시지 시작<end>"
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
 
+["1980006"]
+japanese = "いらっしゃいませ！<line-break><value:$28>さん！<line-break>　<line-break>うれしい。来てくれたんですね。<end>"
+korean = "어서 오세요, <value:$28>님! 기뻐요. 와 주셨군요.<end>"
+
 ["1980008"]
 japanese = "遠慮しておく<end>"
 korean = "사양한다<end>"

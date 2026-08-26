@@ -116,6 +116,10 @@ korean = "좋아, 그럼 가 볼까!!<end>"
 japanese = "え？　ええ！！<line-break>今すぐなの？<end>"
 korean = "어? 네!! 지금 당장인가요?<end>"
 
+["1930071"]
+japanese = "あたりまえだろ。<line-break>ほら、<value:$28>も。<end>"
+korean = "당연하지. 자, <value:$28>도.<end>"
+
 ["1930073"]
 japanese = "ヴァン、熱い魂を燃やすって？<end>"
 korean = "반, 뜨거운 영혼을 불태운다고?<end>"

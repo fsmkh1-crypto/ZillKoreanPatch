@@ -124,6 +124,10 @@ korean = "퓨이~!<end>"
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
 korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
 
+["1340099"]
+japanese = "やぁ。<value:$28>…<line-break>言いにくいんだけど…<line-break>僕、パーティーを離れるよ。<end>"
+korean = "안녕, <value:$28>…. 말하기 좀 그렇지만… 나, 파티에서 빠질게.<end>"
+
 ["1340102"]
 japanese = "ナッジ…<end>"
 korean = "나지…<end>"
@@ -788,6 +792,10 @@ korean = "무사히 탈출할 수 있을 것 같네요.<end>"
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
 
+["1340612"]
+japanese = "<value:$28>さんに似た人を<line-break>追ってるって、竜騎士の方から<line-break>聞いて…。<end>"
+korean = "<value:$28>님과 닮은 사람을 쫓고 있다고 용기사에게 들어서….<end>"
+
 ["1340615"]
 japanese = "ゼネテス様が！？<end>"
 korean = "제네테스 님이!?<end>"
@@ -888,6 +896,10 @@ korean = "떠나지 않는다<end>"
 japanese = "立ち去る<end>"
 korean = "떠난다<end>"
 
+["1340665"]
+japanese = "よいのですか？<line-break>あれは確かゼネテスの側近、<line-break><value:$28>将軍ですぞ？<end>"
+korean = "괜찮으십니까? 저자는 분명 제네테스의 측근, <value:$28> 장군입니다만?<end>"
+
 ["1340675"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
 korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
@@ -899,6 +911,10 @@ korean = "<value:$28>님!<end>"
 ["1340685"]
 japanese = "タルテュバ様…。<end>"
 korean = "타르튜바 님….<end>"
+
+["1340686"]
+japanese = "おう、<value:$28>。<line-break>無限のソウルについて<line-break>俺なりに考えてみたんだ。<end>"
+korean = "오, <value:$28>. 무한의 소울에 대해 나름대로 생각해 봤다.<end>"
 
 ["1340687"]
 japanese = "追加メッセージここから<end>"

@@ -140,6 +140,10 @@ korean = "너, 너는…?<end>"
 japanese = "お父様？<end>"
 korean = "아버님?<end>"
 
+["850086"]
+japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
+korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
+
 ["850096"]
 japanese = "そこで、ね。　　　　　　　　　　　<end>"
 korean = "그래서 말인데.<end>"
@@ -147,6 +151,10 @@ korean = "그래서 말인데.<end>"
 ["850115"]
 japanese = "頼りにしてるわよ<end>"
 korean = "믿고 있을게<end>"
+
+["850118"]
+japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
+korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
 
 ["850127"]
 japanese = "そこで、ね。　　　　　　　　　　　<end>"

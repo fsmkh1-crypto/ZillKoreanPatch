@@ -60,6 +60,10 @@ korean = "들려주세요<end>"
 japanese = "遠慮しときます<end>"
 korean = "사양할게요<end>"
 
+["1760051"]
+japanese = "そこへ現れたのが<line-break><value:$28>…お前よ！<end>"
+korean = "그때 나타난 게 <value:$28>… 바로 너다!<end>"
+
 ["1760060"]
 japanese = "用意できました<end>"
 korean = "준비됐습니다<end>"

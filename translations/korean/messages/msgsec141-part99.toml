@@ -412,6 +412,10 @@ korean = "저… 이건 그, 뭐라고 해야 할지….<end>"
 japanese = "ご安心ください、<value:$28>様、<line-break>陛下のお許しは<line-break>いただいております。<end>"
 korean = "안심하세요, <value:$28> 님. 폐하의 허락은 받았습니다.<end>"
 
+["1410335"]
+japanese = "<value:$28>様とならば、<line-break>見つかる気がするのです。<line-break>忘れてきた心の破片が…。<end>"
+korean = "<value:$28>님과 함께라면 찾을 수 있을 것 같아요. 잃어버린 마음의 조각을….<end>"
+
 ["1410341"]
 japanese = "今さら、わかりきったことでしたね。<end>"
 korean = "이제 와선 너무 당연한 일이었네요.<end>"
@@ -440,6 +444,10 @@ korean = "기다려! 오빠.<end>"
 japanese = "お兄様！<end>"
 korean = "오라버니!<end>"
 
+["1410351"]
+japanese = "あっ、来てくれたんだ！<line-break>待ってたよ！<end>"
+korean = "아, 와 줬구나! 기다렸어!<end>"
+
 ["1410353"]
 japanese = "ねえ、<value:$28>。<line-break><value:$28>の中じゃ、<line-break>もう、全部終わっちゃった？<end>"
 korean = "저기, <value:$28>. <value:$28>한테는 이제 다 끝난 거야?<end>"
@@ -460,6 +468,10 @@ korean = "바이! 드, 들었어?<end>"
 japanese = "ヴィア…？<end>"
 korean = "비아…?<end>"
 
+["1410369"]
+japanese = "これから出発なんだよ？<line-break>どうせ行くなら、楽しく行こうよ！<line-break>ね、<value:$28>？<end>"
+korean = "이제 출발하는 거잖아? 어차피 갈 거면 즐겁게 가자! 그렇지, <value:$28>?<end>"
+
 ["1410370"]
 japanese = "そうだよね！　それじゃ、行こうよ！<line-break>　<line-break>　<line-break>私たちの、新しい旅に！<end>"
 korean = "맞아! 그럼 가자! 우리의 새로운 여행으로!<end>"
@@ -471,6 +483,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410372"]
 japanese = "<value:$28>様、<line-break>お待ちしていました。<end>"
 korean = "<value:$28>님, 기다리고 있었습니다.<end>"
+
+["1410382"]
+japanese = "えっ…。<line-break>手伝って…くれるのですか？<end>"
+korean = "네…? 도와… 주시는 건가요?<end>"
 
 ["1410387"]
 japanese = "追加メッセージここから<end>"
@@ -540,9 +556,17 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410448"]
+japanese = "…終わったな。<line-break>これでまたひとつ。<end>"
+korean = "…끝났군. 이걸로 또 하나.<end>"
+
 ["1410458"]
 japanese = "あ、とは、頼む…約束を…。<line-break>　<line-break>　<line-break>………………。<end>"
 korean = "뒤, 뒤는 부탁해… 약속을…. ……………….<end>"
+
+["1410459"]
+japanese = "…なあんてな。<line-break> <line-break> <line-break>ちょいとは、心配したか？<line-break>ん？<end>"
+korean = "…농담이야. 조금은 걱정했나? 응?<end>"
 
 ["1410462"]
 japanese = "追加メッセージここから<end>"
@@ -587,6 +611,10 @@ korean = "아직 고브.<end>"
 ["1410493"]
 japanese = "そうかもしれんのぅ。<end>"
 korean = "그럴지도 모르겠구나.<end>"
+
+["1410494"]
+japanese = "ほーっほっほっ、<line-break>そうですわねー。<end>"
+korean = "호호호호, 그렇네요.<end>"
 
 ["1410497"]
 japanese = "追加メッセージここから<end>"

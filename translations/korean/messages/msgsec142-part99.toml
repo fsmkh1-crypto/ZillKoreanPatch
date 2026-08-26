@@ -8,6 +8,10 @@ korean = "노엘2용 메시지 V4 시작<end>"
 japanese = "あ、あのふたりとも<line-break>落ち着いて…<end>"
 korean = "저, 두 분 다 진정하세요….<end>"
 
+["1420005"]
+japanese = "いいこと？<line-break>確実な仕事をこなすのよ！<end>"
+korean = "알겠지? 확실하게 일을 끝내는 거야!<end>"
+
 ["1420007"]
 japanese = "堅実と言いなさい！　堅実と！<end>"
 korean = "착실하다고 해! 착실하다고!<end>"
@@ -43,6 +47,10 @@ korean = "그래서, 노엘, 어떤가?<end>"
 ["1420021"]
 japanese = "え？　あの、えと…<end>"
 korean = "어? 저기, 그게….<end>"
+
+["1420024"]
+japanese = "あ、はい。<line-break>わたし、それでいいです！<end>"
+korean = "아, 네. 전 그걸로 괜찮아요!<end>"
 
 ["1420031"]
 japanese = "あ、カフィン、待って！<end>"
@@ -208,6 +216,10 @@ korean = "난 이제 됐어, 아저씨.<end>"
 japanese = "だが、ま、<line-break><value:$28>も大変だな。<end>"
 korean = "하지만 뭐, <value:$28>도 고생이 많군.<end>"
 
+["1420191"]
+japanese = "<value:$28>…、<line-break>僕だ…エルファスだ…。<end>"
+korean = "<value:$28>… 나야… 엘파스야….<end>"
+
 ["1420200"]
 japanese = "ありがとう…。<line-break><value:$28>…<line-break>そして…僕は、君のことを愛している。<end>"
 korean = "고마워…. <value:$28>… 그리고… 나는 널 사랑해.<end>"
@@ -227,6 +239,10 @@ korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를…
 ["1420218"]
 japanese = "何！？<end>"
 korean = "뭐!?<end>"
+
+["1420219"]
+japanese = "…まさか！？<line-break>いえ…あの方なら…。<end>"
+korean = "…설마!? 아니… 그분이라면….<end>"
 
 ["1420223"]
 japanese = "レ、レムオン様。<end>"
@@ -255,6 +271,10 @@ korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를…
 ["1420241"]
 japanese = "何！？<end>"
 korean = "뭐!?<end>"
+
+["1420242"]
+japanese = "…まさか！？<line-break>いえ…あの方なら…。<end>"
+korean = "…설마!? 아니… 그분이라면….<end>"
 
 ["1420244"]
 japanese = "追加メッセージここから<end>"
@@ -299,6 +319,10 @@ korean = "왜 그래, 아저씨. 걱정돼?<end>"
 ["1420279"]
 japanese = "男装の麗人って…ボ、ボクのこと？<end>"
 korean = "남장한 미인이라니… 나, 나 말이야?<end>"
+
+["1420280"]
+japanese = "って、違う違う！<line-break>そうじゃなくって！<end>"
+korean = "아니, 아니야! 그게 아니라니까!<end>"
 
 ["1420284"]
 japanese = "行こうっ！<end>"
@@ -404,6 +428,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "こ、ここで待っていれば…<end>"
 korean = "여, 여기서 기다리고 있으면…<end>"
 
+["1420331"]
+japanese = "<value:$28>様が<line-break>お通りになるのですね。<end>"
+korean = "<value:$28>님이 지나가시는군요.<end>"
+
 ["1420337"]
 japanese = "しっ、誰か来そうよ！<end>"
 korean = "쉿, 누가 올 것 같아!<end>"
@@ -431,6 +459,10 @@ korean = "왜냐고? 그건….<end>"
 ["1420358"]
 japanese = "うっ…。<end>"
 korean = "윽….<end>"
+
+["1420361"]
+japanese = "へーへー、ご明察。<line-break>その通りでー。<end>"
+korean = "그래그래, 정확하네. 그 말이 맞아.<end>"
 
 ["1420368"]
 japanese = "は、犯人が、この中にいる…！？<end>"
@@ -467,6 +499,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420380"]
 japanese = "行くのか…<line-break><value:$28>。<end>"
 korean = "가는 건가… <value:$28>.<end>"
+
+["1420382"]
+japanese = "お前はそれでも行くのか。<line-break><value:$28>。<end>"
+korean = "그래도 갈 셈인가, <value:$28>.<end>"
 
 ["1420384"]
 japanese = "ええ。<line-break>あなたの力は大きいわ。<end>"
@@ -832,6 +868,10 @@ korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를…
 japanese = "行くのか…<line-break><value:$28><end>"
 korean = "가는 건가… <value:$28><end>"
 
+["1420591"]
+japanese = "お前はそれでも行くのか。<line-break><value:$28>。<end>"
+korean = "그래도 갈 셈인가, <value:$28>.<end>"
+
 ["1420593"]
 japanese = "ええ。<line-break>あなたの力は大きいわ。<end>"
 korean = "그래. 네 힘은 커.<end>"
@@ -871,6 +911,10 @@ korean = "도망쳐 버립니다!<end>"
 ["1420625"]
 japanese = "じゃあ、早く探しに行こうよぉ。<line-break>ルルアンタ、<value:$28>に<line-break>会いたいよぉ。<end>"
 korean = "그럼 빨리 찾으러 가자아. 루루안타, <value:$28>을 만나고 싶어어.<end>"
+
+["1420627"]
+japanese = "へいへい、ご明察。<line-break>その通りでー。<end>"
+korean = "그래그래, 정확하네. 그 말이 맞아.<end>"
 
 ["1420634"]
 japanese = "は、犯人が、この中にいる…！？<end>"

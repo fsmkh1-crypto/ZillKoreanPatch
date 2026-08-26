@@ -12,6 +12,10 @@ korean = "………! …이 감각은!?<end>"
 japanese = "<value:$28>…。冒険者なのね。<end>"
 korean = "<value:$28>…. 모험자구나.<end>"
 
+["2600007"]
+japanese = "ありがとう。助かる。<line-break>よろしくね。<end>"
+korean = "고마워. 도움이 됐어. 잘 부탁해.<end>"
+
 ["2600009"]
 japanese = "ジリオン＆イーシャイベント01用開終端<end>"
 korean = "지리온 & 이샤 이벤트01용 시작/끝<end>"

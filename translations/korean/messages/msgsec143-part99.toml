@@ -4,6 +4,10 @@
 japanese = "グフトク、Ｖｏｌ１メッセージ開始<end>"
 korean = "구프토크 볼륨1 메시지 시작<end>"
 
+["1430005"]
+japanese = "久しぶりに暴れられる。<line-break>いくぜっ！<end>"
+korean = "오랜만에 날뛸 수 있겠군. 간다!<end>"
+
 ["1430006"]
 japanese = "なかなか、やるじゃないさ。<end>"
 korean = "제법 하는데.<end>"
@@ -16,6 +20,10 @@ korean = "두, 두목!<end>"
 japanese = "気に入ったよ。<end>"
 korean = "마음에 들었어.<end>"
 
+["1430012"]
+japanese = "お黙りっ！<line-break>あんたら、引っ込んでな！<end>"
+korean = "조용히 해! 너희는 물러나 있어!<end>"
+
 ["1430013"]
 japanese = "へ、へい。<end>"
 korean = "예, 옙.<end>"
@@ -24,17 +32,33 @@ korean = "예, 옙.<end>"
 japanese = "どうだ！？　怖じ気づいたか！<end>"
 korean = "어떠냐!? 겁먹었나!<end>"
 
+["1430022"]
+japanese = "お黙りっ！<line-break>あんたら、引っ込んでな！<end>"
+korean = "조용히 해! 너희는 물러나 있어!<end>"
+
 ["1430023"]
 japanese = "へ、へい。<end>"
 korean = "예, 옙.<end>"
+
+["1430030"]
+japanese = "おだまり！<line-break>あんたら、引っ込んでな！<end>"
+korean = "조용히 해! 너희는 물러나 있어!<end>"
 
 ["1430031"]
 japanese = "へ、へい！<end>"
 korean = "예, 옙!<end>"
 
+["1430042"]
+japanese = "その大イカを<line-break>退治してもらいたいの。<end>"
+korean = "그 대왕오징어를 퇴치해 줬으면 해.<end>"
+
 ["1430051"]
 japanese = "下がってな！<end>"
 korean = "뒤로 물러나!<end>"
+
+["1430055"]
+japanese = "とにかく、<line-break>よく考えてみてちょうだい。<line-break>　<line-break>…大イカは手強いわ。<end>"
+korean = "아무튼 잘 생각해 봐. …대왕오징어는 만만치 않아.<end>"
 
 ["1430056"]
 japanese = "行くよ！<end>"

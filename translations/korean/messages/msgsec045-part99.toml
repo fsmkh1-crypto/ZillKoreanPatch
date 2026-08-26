@@ -276,9 +276,17 @@ korean = "네, 네.<end>"
 japanese = "ぶっ殺してやる！<end>"
 korean = "죽여 버리겠어!<end>"
 
+["450191"]
+japanese = "うるせえ！<line-break>これでも食らいやがれ！！<end>"
+korean = "시끄러워! 이것도 먹어라!!<end>"
+
 ["450195"]
 japanese = "ガルドランが…！<end>"
 korean = "가르드란이…!<end>"
+
+["450197"]
+japanese = "<value:$28>、<line-break>…ガルドランを助けようよ！<end>"
+korean = "<value:$28>, …갈드란을 도와주자!<end>"
 
 ["450200"]
 japanese = "…僕、ガルドランは許せない。　　　　<end>"
@@ -383,6 +391,10 @@ korean = "체면 따위 때문에, 라고오!?<end>"
 ["450270"]
 japanese = "待ってよ！　ヴァン！<end>"
 korean = "기다려! 반!<end>"
+
+["450272"]
+japanese = "ねえ、<value:$28>、<line-break>一緒にヴァンを捜そうよ。<line-break>そうじゃないと、ヴァンは本当に…。<end>"
+korean = "저기, <value:$28>, 같이 반을 찾자. 안 그러면 반은 정말로….<end>"
 
 ["450280"]
 japanese = "おなかが…すいて…。<end>"

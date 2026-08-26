@@ -40,9 +40,17 @@ korean = "잘 모르겠어<end>"
 japanese = "よう、<value:$28>。<line-break>カルラがいよいよ攻めてくるってな。<line-break>お前さんはどうするんだい？<end>"
 korean = "여, <value:$28>. 카를라가 드디어 쳐들어온다더군. 넌 어떻게 할 거야?<end>"
 
+["1370086"]
+japanese = "よう、<value:$28>。<line-break>この前は世話になったな。<line-break>アイリーンの様子はどうだい？<end>"
+korean = "여어, <value:$28>. 지난번엔 신세 졌다. 아이린은 잘 지내나?<end>"
+
 ["1370092"]
 japanese = "よう、<value:$28>。<line-break>この前は世話になったな。<line-break>お前さんがいてくれて助かった。<end>"
 korean = "여, <value:$28>. 지난번엔 신세 졌어. 네가 있어서 살았다.<end>"
+
+["1370096"]
+japanese = "よう、<value:$28>。<line-break>この前は世話になったな。<line-break>アイリーンの様子はどうだい？<end>"
+korean = "여어, <value:$28>. 지난번엔 신세 졌다. 아이린은 잘 지내나?<end>"
 
 ["1370103"]
 japanese = "おや、<value:$28>かい。<end>"
@@ -55,6 +63,10 @@ korean = "알겠습니다<end>"
 ["1370106"]
 japanese = "ちょっと、わからない<end>"
 korean = "잘 모르겠어.<end>"
+
+["1370113"]
+japanese = "今度はアイリーンにも<line-break>顔出せって言っといてくれ。<line-break>よろしくな、<value:$28>。<end>"
+korean = "다음엔 아이린도 얼굴 비추라고 전해 줘. 부탁한다, <value:$28>.<end>"
 
 ["1370117"]
 japanese = "<value:$28>、<line-break>…がんばれよ。<end>"
@@ -323,6 +335,10 @@ korean = "…살아 있었군.<end>"
 ["1370276"]
 japanese = "お前の名は？<end>"
 korean = "네 이름은?<end>"
+
+["1370279"]
+japanese = "（酔っ払いだ。<line-break>　目を開けて寝ている…）<line-break> <line-break>（もしかして…？）<end>"
+korean = "(술 취한 사람이다. 눈을 뜬 채 자고 있다…) (혹시…?)<end>"
 
 ["1370284"]
 japanese = "仕事を頼みたい<end>"

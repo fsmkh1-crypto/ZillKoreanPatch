@@ -20,6 +20,10 @@ korean = "어머, <value:$28>. 깨어난 모양이네. 아침밥은 다 됐어.<
 japanese = "ほら、さっさと道場に行くわよ。<end>"
 korean = "자, 얼른 도장으로 가자.<end>"
 
+["1920017"]
+japanese = "よし、それまで。<line-break><value:$28>の勝ちだ。<end>"
+korean = "좋아, 거기까지. <value:$28>의 승리다.<end>"
+
 ["1920018"]
 japanese = "うぅ…参った。<end>"
 korean = "으으… 졌어.<end>"
@@ -55,6 +59,10 @@ korean = "그러니 <value:$28>님. 부디 언제까지나 제 곁에 있어 주
 ["1920053"]
 japanese = "ありがとう。<line-break>…うれしいです、<line-break><value:$28>様。<end>"
 korean = "고마워요. …기뻐요, <value:$28> 님.<end>"
+
+["1920055"]
+japanese = "それで、ぜひ見てもらおうと思って<line-break><value:$28>のこと<line-break>わざわざ呼び出しちゃった。<end>"
+korean = "그래서 꼭 보여 주고 싶어서 <value:$28>을 일부러 불렀어.<end>"
 
 ["1920060"]
 japanese = "えっ…ええっ！<end>"

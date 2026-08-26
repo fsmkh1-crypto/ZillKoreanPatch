@@ -112,6 +112,10 @@ korean = "형….<end>"
 japanese = "そうか、<line-break>それならよかった…。<end>"
 korean = "그런가, 그렇다면 다행이군….<end>"
 
+["420103"]
+japanese = "あの…<value:$28>さんって人…<line-break>いますか？<end>"
+korean = "저기… <value:$28>이라는 분… 계신가요?<end>"
+
 ["420105"]
 japanese = "ゲヘ、久しぶりだな…。<end>"
 korean = "게헤, 오랜만이군….<end>"

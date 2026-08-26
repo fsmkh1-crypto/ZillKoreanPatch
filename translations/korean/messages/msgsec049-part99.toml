@@ -24,6 +24,10 @@ korean = "알았어.<end>"
 japanese = "ギルドで冒険者登録は<line-break>済ませとかないと困るぜ？　　　　<line-break><value:$28>。<end>"
 korean = "길드에서 모험자 등록은 해 둬야 한다고, <value:$28>.<end>"
 
+["490027"]
+japanese = "これを差し引きして…、残りはちょうど５０００だ。はいよ。<end>"
+korean = "이걸 빼고 나면… 남은 건 정확히 5000이다. 자.<end>"
+
 ["490030"]
 japanese = "ま、その辺はなんとかするさ。<end>"
 korean = "뭐, 그건 어떻게든 되겠지.<end>"

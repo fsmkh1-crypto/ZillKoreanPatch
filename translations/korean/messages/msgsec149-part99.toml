@@ -4,6 +4,10 @@
 japanese = "エルファス　ボリューム１　開始<end>"
 korean = "엘파스 볼륨1 시작<end>"
 
+["1490008"]
+japanese = "ふん！<line-break>寝言は寝てから言うのだな！<end>"
+korean = "흥! 잠꼬대는 자면서 해라!<end>"
+
 ["1490010"]
 japanese = "助ける<end>"
 korean = "돕는다<end>"
@@ -19,6 +23,10 @@ korean = "큭. 비시민 쓰레기가!<end>"
 ["1490017"]
 japanese = "世話になったな。<end>"
 korean = "신세 졌군.<end>"
+
+["1490021"]
+japanese = "エルファスだ。<line-break>救世主エルファス。<end>"
+korean = "엘파스다. 구세주 엘파스.<end>"
 
 ["1490022"]
 japanese = "<value:$28>…。<line-break>それが君の名か？<line-break>そんなこと僕に教えてどうするんだ？<end>"
@@ -100,6 +108,10 @@ korean = "큭. 물러서!<end>"
 japanese = "世話になったな。<end>"
 korean = "신세 졌군.<end>"
 
+["1490081"]
+japanese = "エルファスだ。<line-break>救世主エルファス。<end>"
+korean = "엘파스다. 구세주 엘파스.<end>"
+
 ["1490082"]
 japanese = "<value:$28>…。<line-break>それが君の名？<line-break>そんなこと僕に知らせてどうする？<end>"
 korean = "<value:$28>…. 그게 네 이름이야? 그런 걸 내게 알려서 어쩌겠다는 거지?<end>"
@@ -107,6 +119,10 @@ korean = "<value:$28>…. 그게 네 이름이야? 그런 걸 내게 알려서 �
 ["1490083"]
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
+
+["1490091"]
+japanese = "エルファスだ。<line-break>救世主エルファス。<end>"
+korean = "엘파스다. 구세주 엘파스.<end>"
 
 ["1490092"]
 japanese = "<value:$28>…。<line-break>それが君の名？<line-break>そんなこと僕に知らせてどうする？<end>"
@@ -240,6 +256,10 @@ korean = "감사하옵니다, 감사하옵니다.<end>"
 japanese = "さぁ、今すぐ出て行け！<end>"
 korean = "자, 지금 당장 나가!<end>"
 
+["1490219"]
+japanese = "きゃぁ！<line-break>救世主様になんてことを！<end>"
+korean = "꺄악! 구세주님께 무슨 짓이야!<end>"
+
 ["1490223"]
 japanese = "領主様の前に連行してはどうでしょう？<end>"
 korean = "영주님 앞으로 끌고 가는 게 어떻겠습니까?<end>"
@@ -259,6 +279,10 @@ korean = "아, 노블 백작!<end>"
 ["1490232"]
 japanese = "はぁ…、<line-break>手柄だと思ったのに…。<end>"
 korean = "하아… 공을 세운 줄 알았는데….<end>"
+
+["1490234"]
+japanese = "…それで？<line-break>僕をどうするつもりだ？<end>"
+korean = "…그래서? 나를 어떻게 할 셈이지?<end>"
 
 ["1490236"]
 japanese = "そのことは覚えていて欲しい。<end>"

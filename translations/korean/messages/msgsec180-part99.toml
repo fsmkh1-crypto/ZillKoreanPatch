@@ -112,6 +112,10 @@ korean = "여어, <value:$28>. 무슨 고민이라도 있어?<end>"
 japanese = "ま、いいってことよ。<line-break>じゃあな。<end>"
 korean = "뭐, 됐어. 그럼 이만.<end>"
 
+["1800085"]
+japanese = "<value:$28>、<line-break>俺と一緒に出撃してくれ。<end>"
+korean = "<value:$28>, 나와 함께 출격해 줘.<end>"
+
 ["1800099"]
 japanese = "あの…、カルラ様。<end>"
 korean = "저기…, 카를라 님.<end>"
@@ -235,6 +239,10 @@ korean = "다른 할 일이 있다<end>"
 ["1800184"]
 japanese = "あ、それから…。<end>"
 korean = "아, 그리고….<end>"
+
+["1800187"]
+japanese = "<value:$28>様、<line-break>どうか、お気をつけて。<end>"
+korean = "<value:$28>님, 부디 조심하십시오.<end>"
 
 ["1800189"]
 japanese = "そうですか…。<line-break>仕方ありませんね。<end>"

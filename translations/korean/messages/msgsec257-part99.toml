@@ -28,6 +28,10 @@ korean = "쳇, 들켰나.<end>"
 japanese = "…だとさ。<line-break>どうするよ、<value:$28>？<end>"
 korean = "…그렇다는데. 어떻게 할래, <value:$28>?<end>"
 
+["2570013"]
+japanese = "<value:$28>…！ずっとそこで…見ていたのか！？<end>"
+korean = "<value:$28>…! 계속 거기서… 보고 있었나!?<end>"
+
 ["2570021"]
 japanese = "新月のレムオン用終端<end>"
 korean = "신월의 레므온용 종료<end>"

@@ -100,6 +100,10 @@ korean = "기다려. 상태가 이상해….<end>"
 japanese = "これは…。<end>"
 korean = "이건….<end>"
 
+["1910083"]
+japanese = "もしかして、<value:$28>。<line-break>あなたは封印の巨人をすべて<line-break>倒してしまったのですか？<end>"
+korean = "혹시 <value:$28>. 봉인의 거인을 전부 쓰러뜨린 겁니까?<end>"
+
 ["1910088"]
 japanese = "…さすがです、<value:$28>さん。<line-break>やっぱり、勝ち残って<line-break>しまったんですね。<end>"
 korean = "…역시 대단하세요, <value:$28>님. 결국 끝까지 이기셨군요.<end>"

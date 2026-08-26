@@ -248,6 +248,10 @@ korean = "싸움인가….<end>"
 japanese = "な、何かあったのですか？<end>"
 korean = "무, 무슨 일 있었나요?<end>"
 
+["280195"]
+japanese = "ね、ねえ、<value:$28>。<line-break>じ、地震だよ！！<end>"
+korean = "저, 저기 <value:$28>. 지, 지진이야!!<end>"
+
 ["280196"]
 japanese = "旅立ち０１メッセージ終端<end>"
 korean = "여행 출발 01 메시지 끝<end>"

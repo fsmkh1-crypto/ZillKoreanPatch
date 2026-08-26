@@ -80,6 +80,10 @@ korean = "기대받아도 곤란해<end>"
 japanese = "１００００ギアを資金提供した。<end>"
 korean = "10000기어를 자금으로 제공했다.<end>"
 
+["1880100"]
+japanese = "<value:$28>…、<line-break>恥を忍んで言います。実はまた<line-break>資金が足りなくなりそうなのです。<end>"
+korean = "<value:$28>…, 부끄럽지만 말씀드리겠습니다. 사실 또 자금이 부족해질 것 같습니다.<end>"
+
 ["1880107"]
 japanese = "資金を援助する<end>"
 korean = "자금을 지원한다<end>"

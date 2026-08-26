@@ -20,6 +20,10 @@ korean = "역시 딩갈 쪽<end>"
 japanese = "心機一転アキュリュース側<end>"
 korean = "심기일전 아큐류스 측<end>"
 
+["1830032"]
+japanese = "それじゃ、今まで通り<line-break>ディンガル帝国側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"
+korean = "그럼 지금까지처럼 딩갈 제국 편이라는 걸로 잘 부탁한다, <value:$28>.<end>"
+
 ["1830038"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
@@ -35,6 +39,10 @@ korean = "역시 딩갈 쪽<end>"
 ["1830042"]
 japanese = "心機一転アキュリュース側<end>"
 korean = "심기일전 아큐류스 측<end>"
+
+["1830043"]
+japanese = "それじゃ、今まで通り<line-break>ディンガル帝国側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"
+korean = "그럼 지금까지처럼 딩갈 제국 편이라는 걸로 잘 부탁한다, <value:$28>.<end>"
 
 ["1830069"]
 japanese = "イークレムンＶ２　終了<end>"
