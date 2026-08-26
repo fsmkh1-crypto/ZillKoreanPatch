@@ -68,6 +68,10 @@ korean = "우왓!<end>"
 japanese = "な、なんだ？　どこへ行ったのだ？<end>"
 korean = "뭐, 뭐지? 어디로 간 거야?<end>"
 
+["1490041"]
+japanese = "そのゲスの名を二度と口にするな。<line-break>耳が汚れる。<end>"
+korean = "그 천한 자의 이름을 두 번 다시 입에 올리지 마라. 귀가 더러워진다.<end>"
+
 ["1490043"]
 japanese = "助ける<end>"
 korean = "돕는다<end>"
@@ -196,6 +200,10 @@ korean = "이…! 가짜 예언자 놈!<end>"
 japanese = "諸君、竜王に逆らう者から離れるのだ。<end>"
 korean = "제군들, 용왕에게 거역하는 자에게서 떨어져라.<end>"
 
+["1490112"]
+japanese = "ああ、いつも、あの口調じゃない。<line-break>当たり前だ。<end>"
+korean = "그래, 늘 그런 말투를 쓰는 건 아니야. 당연하지.<end>"
+
 ["1490113"]
 japanese = "僕の名前？<line-break>それが君になんの関係がある？<end>"
 korean = "내 이름? 그게 너랑 무슨 상관이지?<end>"
@@ -207,6 +215,10 @@ korean = "…엘파스다. 구세주 엘파스.<end>"
 ["1490115"]
 japanese = "<value:$28>…。<line-break>それが君の名？<line-break>そんなこと僕に知らせてどうする？<end>"
 korean = "<value:$28>…. 그게 네 이름이야? 그런 걸 내게 알려서 어쩌겠다는 거지?<end>"
+
+["1490121"]
+japanese = "少年よ、家で、<line-break>その友と共に待っているがよい。<end>"
+korean = "소년이여, 집에서 그 친구와 함께 기다리고 있어라.<end>"
 
 ["1490123"]
 japanese = "こら、君！<end>"
@@ -468,6 +480,10 @@ korean = "빨리 걸어! 이 사기꾼 자식아!<end>"
 japanese = "な、な、な…<end>"
 korean = "뭐, 뭐, 뭐…<end>"
 
+["1490277"]
+japanese = "うわっ！<line-break>…………。<line-break>い、いなくなった…<end>"
+korean = "우왓! …………. 사, 사라졌어….<end>"
+
 ["1490278"]
 japanese = "く、くそぉ。怪しい術を使いやがって。<end>"
 korean = "크, 젠장. 수상한 술법을 쓰다니.<end>"
@@ -487,6 +503,10 @@ korean = "…!! 저림이… 사라졌어….<end>"
 ["1490286"]
 japanese = "あんたぁ！<end>"
 korean = "당신 말이야!<end>"
+
+["1490287"]
+japanese = "…奇跡じゃ。<line-break>エルファス様が奇跡を起こされた！<end>"
+korean = "…기적이다. 엘파스 님께서 기적을 일으키셨다!<end>"
 
 ["1490288"]
 japanese = "エルファス様は救世主だ！<line-break>間違いない！<end>"

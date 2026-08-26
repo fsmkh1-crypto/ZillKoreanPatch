@@ -388,6 +388,10 @@ korean = "<value:$28> 씨, 갑시다!<end>"
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
 
+["1410208"]
+japanese = "　　　　ノエル、あたしとレイヴンは　　　　　<line-break>　　　　　このあたりで、あなたと<line-break>　　　　別行動を取ることにしたわ。<line-break>　<end>"
+korean = "노엘, 나와 레이븐은 이쯤에서 너와 따로 움직이기로 했어.<end>"
+
 ["1410209"]
 japanese = "　　　　いつまでも、あなたと一緒に　　　　　<line-break>　　　　　いては、お互いのために<line-break>　　　　　　よくないと思うの。<line-break>　<end>"
 korean = "언제까지나 당신과 함께 있는 건 서로에게 좋지 않다고 생각해.<end>"
@@ -564,6 +568,10 @@ korean = "그쪽은 어땠어, <value:$28>? 정령의 숨결을 느낄 만한 �
 japanese = "精霊たちの数が減れば、<line-break>じき大地はうるおいを失い、<line-break>樹木は枯れてゆく…。<line-break>そうだったな、シェスター？<end>"
 korean = "정령들의 수가 줄면 머지않아 대지는 수분을 잃고 나무는 말라 죽는다…. 그랬지, 셰스터?<end>"
 
+["1410306"]
+japanese = "ええ、ロイ。<line-break>一見すこやかに見えるこの森も、<line-break>私には、以前と同じ場所とは思えない。<line-break>精霊たちが、弱りきっているのね…。<end>"
+korean = "그래, 로이. 겉보기엔 건강해 보이는 이 숲도 내게는 예전과 같은 곳으로 느껴지지 않아. 정령들이 완전히 약해졌어….<end>"
+
 ["1410309"]
 japanese = "だが、<value:$28>。<line-break>つぐなうというのは、<line-break>この場合、どうすることなのだろうか？<end>"
 korean = "하지만 <value:$28>. 속죄한다는 건 이 경우 어떻게 해야 하는 걸까?<end>"
@@ -571,6 +579,10 @@ korean = "하지만 <value:$28>. 속죄한다는 건 이 경우 어떻게 해야
 ["1410310"]
 japanese = "ロイ…。<end>"
 korean = "로이….<end>"
+
+["1410311"]
+japanese = "精霊の死をいたみ、<line-break>嘆き悲しみ、<line-break>謝るばかりが方法ではない。<line-break>私は、シェスターに、<line-break>そのことを教わったつもりだ。<end>"
+korean = "정령의 죽음을 슬퍼하고 한탄하며 사과만 하는 게 방법은 아니야. 나는 셰스터에게 그걸 배웠다고 생각해.<end>"
 
 ["1410314"]
 japanese = "ありがとう、<value:$28>。<line-break>あなたが私たちの考えに<line-break>賛同してくれて、とても頼もしい。<end>"
@@ -607,6 +619,10 @@ korean = "…드디어 떠나시는군요, <value:$28>.<end>"
 ["1410322"]
 japanese = "さびしくなりますね。<line-break>今度の旅の目的は…。<end>"
 korean = "쓸쓸해지겠네요. 이번 여행의 목적은….<end>"
+
+["1410325"]
+japanese = "だって、もしも気が変わって<line-break>早く出発してたらどうするのよ！<line-break>　<line-break>お兄ちゃん、ああ見えても<line-break>もの覚え悪いんだから。<end>"
+korean = "마음이 바뀌어서 일찍 출발했으면 어쩌려고! 오빠는 보기와 달리 기억력이 나쁘단 말이야.<end>"
 
 ["1410327"]
 japanese = "<value:$28>様！<end>"
@@ -799,6 +815,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410417"]
 japanese = "<value:$28>…、<line-break>僕だ…エルファスだ…。　<end>"
 korean = "<value:$28>… 나야… 엘파스야….<end>"
+
+["1410418"]
+japanese = "僕は世界中のソウルと一体になって、<line-break>色々なことを知った…。<line-break>悲しみ…、苦しみ…。<line-break>そして、人の抱える痛みについて…。　<end>"
+korean = "나는 전 세계의 소울과 하나가 되어 많은 것을 알게 됐어…. 슬픔… 고통…. 그리고 사람이 품고 사는 아픔에 대해서….<end>"
 
 ["1410420"]
 japanese = "…人の心の色は、<line-break>無垢な純白ではない。<line-break>けれど、それらに触れて僕は感じた…。<line-break>美しい、と…。<end>"

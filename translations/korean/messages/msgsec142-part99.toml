@@ -276,6 +276,10 @@ korean = "당연하지!<end>"
 japanese = "気をつけて、<value:$28>。<line-break>また会える日を<line-break>楽しみにしていますよ。<end>"
 korean = "조심하세요, <value:$28>. 다시 만날 날을 기대하고 있을게요.<end>"
 
+["1420145"]
+japanese = "でも、そこに生きる人の…<line-break>そこに生きる者たちの<line-break>気持ちは変わります。<line-break>残虐な者もやさしく、<line-break>怒れる者も穏やかに。<end>"
+korean = "하지만 그곳에 사는 사람들의… 그곳에 사는 자들의 마음은 변합니다. 잔혹한 자도 다정하게, 분노한 자도 온화하게.<end>"
+
 ["1420148"]
 japanese = "あなたが魔人の心を変えた時のように。<end>"
 korean = "당신이 마인의 마음을 바꿨던 때처럼.<end>"
@@ -347,6 +351,10 @@ korean = "하지만 뭐, <value:$28>도 고생이 많군.<end>"
 ["1420191"]
 japanese = "<value:$28>…、<line-break>僕だ…エルファスだ…。<end>"
 korean = "<value:$28>… 나야… 엘파스야….<end>"
+
+["1420193"]
+japanese = "僕は世界中のソウルと一体になって、<line-break>色々なことを知った…。<line-break>悲しみ…、苦しみ…。<line-break>そして、人の抱える痛みについて…。　<end>"
+korean = "나는 전 세계의 소울과 하나가 되어 많은 것을 알게 됐어…. 슬픔… 고통…. 그리고 사람이 품고 사는 아픔에 대해서….<end>"
 
 ["1420195"]
 japanese = "…人の心の色は、<line-break>無垢な純白ではない。<line-break>けれど、それらに触れて僕は感じた…。<line-break>美しい、と…。<end>"
