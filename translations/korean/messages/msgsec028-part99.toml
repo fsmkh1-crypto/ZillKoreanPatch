@@ -32,6 +32,10 @@ korean = "뭐야, 안 가는 거야!?<end>"
 japanese = "ね、やっぱり降りてきたでしょ？<end>"
 korean = "봐, 역시 내려왔지?<end>"
 
+["280022"]
+japanese = "昨日あんな地震があったってのに？<end>"
+korean = "어제 그렇게 지진이 났는데도?<end>"
+
 ["280034"]
 japanese = "えーっ！？<end>"
 korean = "에엣!?<end>"
@@ -72,6 +76,10 @@ korean = "하하하, 고마워, 반.<end>"
 japanese = "お、俺もいいの？<end>"
 korean = "나, 나도 괜찮아?<end>"
 
+["280066"]
+japanese = "空の弁当箱をボンガ夫人に渡した。<end>"
+korean = "빈 도시락통을 봉가 부인에게 건넸다.<end>"
+
 ["280073"]
 japanese = "なんだよオッサン。　　　　<end>"
 korean = "뭐야, 아저씨.<end>"
@@ -84,9 +92,17 @@ korean = "아이라고 봐줄 줄 아느냐!<end>"
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
 korean = "<value:$28>… 약초는?<end>"
 
+["280092"]
+japanese = "ぐあ！　ごふ！<line-break>っくっ…！！<end>"
+korean = "크악! 콜록! 윽…!!<end>"
+
 ["280093"]
 japanese = "う、うう…。ヴァ…ン…。<end>"
 korean = "으, 으으…. 반…아….<end>"
+
+["280095"]
+japanese = "あ、あの…、<line-break>ヴァン…は…？<end>"
+korean = "아, 저기…, 반…은…?<end>"
 
 ["280102"]
 japanese = "うあーーーっ！！<end>"
@@ -139,6 +155,10 @@ korean = "그럼 가자, <value:$28>.<end>"
 ["280137"]
 japanese = "あ、ねえ、<value:$28>。<line-break>ボンガさんがいる裏山は<line-break>奥だよ。<end>"
 korean = "아, 있지, <value:$28>. 봉가 씨가 있는 뒷산은 더 안쪽이야.<end>"
+
+["280138"]
+japanese = "特大愛妻弁当をボンガに手渡した。<end>"
+korean = "특대 사랑꾼 도시락을 봉가에게 건넸다.<end>"
 
 ["280144"]
 japanese = "ヴァン！<end>"

@@ -8,9 +8,17 @@ korean = "엔션트: 성문 앞<end>"
 japanese = "エンシャント：謁見の間<end>"
 korean = "엔샨트: 알현실<end>"
 
+["350002"]
+japanese = "エンシャント：ベルゼーヴァ執務室<end>"
+korean = "엔샨트: 벨제바 집무실<end>"
+
 ["350003"]
 japanese = "エンシャント：ザギブ執務室<end>"
 korean = "엔샨트: 자기브 집무실<end>"
+
+["350004"]
+japanese = "エンシャント：アンギルダン執務室<end>"
+korean = "엔샨트: 앙길단 집무실<end>"
 
 ["350005"]
 japanese = "エンシャント：皇帝寝室<end>"
@@ -56,6 +64,10 @@ korean = "엔션트: 술집<end>"
 japanese = "エンシャント：魔道アカデミー前<end>"
 korean = "엔샨트: 마도 아카데미 앞<end>"
 
+["350016"]
+japanese = "エンシャント：魔道アカデミー受付<end>"
+korean = "엔샨트: 마도 아카데미 접수처<end>"
+
 ["350017"]
 japanese = "エンシャント：帝都の門<end>"
 korean = "엔샨트: 제도 관문<end>"
@@ -91,6 +103,10 @@ korean = "엔션트: 항구<end>"
 ["350025"]
 japanese = "エンシャント：墓地<end>"
 korean = "엔션트: 묘지<end>"
+
+["350027"]
+japanese = "エンシャント：ライラネート神殿前<end>"
+korean = "엔샨트: 라이라네트 신전 앞<end>"
 
 ["350028"]
 japanese = "ロストール：城門前<end>"
@@ -743,6 +759,10 @@ korean = "라드라스: 저수의 방<end>"
 ["350191"]
 japanese = "ラドラス：農場の間<end>"
 korean = "라드라스: 농장의 방<end>"
+
+["350192"]
+japanese = "ラドラス：エステルの塔の移動の間<end>"
+korean = "라드라스: 에스텔의 탑 이동실<end>"
 
 ["350193"]
 japanese = "ラドラス：エステルの部屋<end>"
@@ -2272,6 +2292,10 @@ korean = "울칸: 작열의 대동굴 6<end>"
 japanese = "ウルカーン：火の精霊神の座所<end>"
 korean = "울칸: 불의 정령신 좌소<end>"
 
+["350575"]
+japanese = "ウルカーン：火の守護者の座への道<end>"
+korean = "울칸: 불의 수호자 자리로 가는 길<end>"
+
 ["350576"]
 japanese = "ウルカーン：火の守護者の座<end>"
 korean = "울칸: 불의 수호자 좌소<end>"
@@ -3392,6 +3416,10 @@ korean = "선상<end>"
 japanese = "リベルダム：スラムのアップ<end>"
 korean = "리벨덤: 빈민가 확대<end>"
 
+["350856"]
+japanese = "竜王の島：竜王の島の火口のアップ<end>"
+korean = "용왕의 섬: 용왕의 섬 화구 확대<end>"
+
 ["350857"]
 japanese = "廃城：廃城４のアップ<end>"
 korean = "폐성: 폐성 4 확대<end>"
@@ -3579,6 +3607,10 @@ korean = "폐성 4: 철문 열림<end>"
 ["350905"]
 japanese = "エンシャント：城門前：崩壊後<end>"
 korean = "엔샨트: 성문 앞: 붕괴 후<end>"
+
+["350906"]
+japanese = "エンシャント：魔道の塔前：崩壊後<end>"
+korean = "엔샨트: 마도탑 앞: 붕괴 후<end>"
 
 ["350907"]
 japanese = "エンシャント：廃城前：崩壊後<end>"

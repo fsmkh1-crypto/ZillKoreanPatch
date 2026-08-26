@@ -24,6 +24,10 @@ korean = "누구와 헤어지는 거야?<end>"
 japanese = "他にも別れる方はいますか？<end>"
 korean = "또 헤어질 분이 있습니까?<end>"
 
+["540009"]
+japanese = "他にも別れる仲間はいるのかしら？<end>"
+korean = "또 헤어질 동료가 있나요?<end>"
+
 ["540010"]
 japanese = "よろしいですか？<end>"
 korean = "괜찮으시겠습니까?<end>"
@@ -47,6 +51,10 @@ korean = "괜찮으시겠습니까?<end>"
 ["540015"]
 japanese = "呼び出すわよ。いい？<end>"
 korean = "불러낼게. 괜찮지?<end>"
+
+["540016"]
+japanese = "別れる仲間はいないようですね。<end>"
+korean = "헤어질 동료는 없는 것 같네요.<end>"
 
 ["540017"]
 japanese = "あなたひとりじゃない。<end>"

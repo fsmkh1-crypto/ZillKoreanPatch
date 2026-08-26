@@ -80,6 +80,10 @@ korean = "그렇습니까.<end>"
 japanese = "じゃ、行きますか。<end>"
 korean = "그럼, 갈까요.<end>"
 
+["570080"]
+japanese = "まったく手間をとらせやがって！<end>"
+korean = "정말 손이 많이 가게 하는군!<end>"
+
 ["570082"]
 japanese = "何者だ、貴様！<end>"
 korean = "네놈, 정체가 뭐냐!<end>"
@@ -103,6 +107,10 @@ korean = "좋아<end>"
 ["570097"]
 japanese = "それはできない<end>"
 korean = "그건 할 수 없어<end>"
+
+["570099"]
+japanese = "じゃ、あらためてぇ…。　　　　<end>"
+korean = "그럼 다시 한번….<end>"
 
 ["570108"]
 japanese = "<value:$28>か？<end>"

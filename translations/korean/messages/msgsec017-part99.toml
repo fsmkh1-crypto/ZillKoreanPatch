@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["170000"]
+japanese = "よお、ヒヨッコ。俺に何の用だ？<end>"
+korean = "어이, 풋내기. 내게 무슨 볼일이지?<end>"
+
 ["170005"]
 japanese = "じゃあ、また来てくれよ。<end>"
 korean = "그럼 또 와 줘.<end>"
@@ -43,6 +47,10 @@ korean = "어느 장비에 정령을 깃들게 하시겠습니까?<end>"
 ["170045"]
 japanese = "別の装備に精霊を宿しますか？<end>"
 korean = "다른 장비에 정령을 깃들게 하시겠습니까?<end>"
+
+["170046"]
+japanese = "その装備の属性は変えられません。<end>"
+korean = "그 장비의 속성은 바꿀 수 없습니다.<end>"
 
 ["170047"]
 japanese = "どの精霊を宿しますか？<end>"
@@ -484,6 +492,14 @@ korean = "어서 오세요, <value:$28> 씨. 유명한 <value:$2B>을 모시게 
 japanese = "お泊りになられますか？<end>"
 korean = "묵고 가시겠습니까?<end>"
 
+["170186"]
+japanese = "お買い上げありがとうございます。<end>"
+korean = "구매해 주셔서 감사합니다.<end>"
+
+["170189"]
+japanese = "個数はこれでよろしいのですね？<end>"
+korean = "수량은 이걸로 괜찮으신가요?<end>"
+
 ["170195"]
 japanese = "ありがとうございました。<end>"
 korean = "감사합니다.<end>"
@@ -491,6 +507,10 @@ korean = "감사합니다.<end>"
 ["170196"]
 japanese = "ありがとうございました。<end>"
 korean = "감사합니다.<end>"
+
+["170200"]
+japanese = "ほかに珍しい品はありませんか？<end>"
+korean = "다른 희귀한 물건은 없습니까?<end>"
 
 ["170207"]
 japanese = "<value:$15>ですか。<line-break>ふむ…<value:$1A>ギアですな。<end>"

@@ -96,6 +96,10 @@ korean = "그리고 <value:$28> 님.<end>"
 japanese = "ち、違います。無礼などは…。<end>"
 korean = "아, 아닙니다. 무례라니….<end>"
 
+["630119"]
+japanese = "ほう、では何をやらかしたのだ？<end>"
+korean = "호오, 그래서 무슨 사고를 친 거냐?<end>"
+
 ["630123"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -103,6 +107,10 @@ korean = "<value:$28>님도.<end>"
 ["630124"]
 japanese = "俺には礼はしないのか？<end>"
 korean = "나한테는 감사 안 하나?<end>"
+
+["630126"]
+japanese = "くすっ。<line-break>それでよいのです。<end>"
+korean = "후훗. 그러면 됩니다.<end>"
 
 ["630128"]
 japanese = "…何か？<end>"
@@ -132,6 +140,10 @@ korean = "후후후…, 레므온 님도 참.<end>"
 japanese = "ち、違います。無礼などは…。<end>"
 korean = "아, 아닙니다. 무례라니….<end>"
 
+["630181"]
+japanese = "ほう、では何をやらかしたのだ？<end>"
+korean = "호오, 그래서 무슨 사고를 친 거냐?<end>"
+
 ["630185"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -139,6 +151,10 @@ korean = "<value:$28>님도.<end>"
 ["630186"]
 japanese = "俺には礼はしないのか？<end>"
 korean = "나한테는 감사 안 하나?<end>"
+
+["630188"]
+japanese = "くすっ。<line-break>それでよいのです。<end>"
+korean = "후훗. 그러면 됩니다.<end>"
 
 ["630190"]
 japanese = "…何か？<end>"
@@ -176,6 +192,10 @@ korean = "그래. 부부가 함께 사이좋게 지내라.<end>"
 japanese = "ち、違います。無礼などは…。<end>"
 korean = "아, 아닙니다. 무례라니….<end>"
 
+["630240"]
+japanese = "ほう、では何をやらかしたのだ？<end>"
+korean = "호오, 그래서 무슨 사고를 친 거냐?<end>"
+
 ["630244"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -183,6 +203,10 @@ korean = "<value:$28>님도.<end>"
 ["630245"]
 japanese = "俺には礼はしないのか？<end>"
 korean = "나한테는 감사 안 하나?<end>"
+
+["630247"]
+japanese = "くすっ。<line-break>それでよいのです。<end>"
+korean = "후훗. 그러면 됩니다.<end>"
 
 ["630249"]
 japanese = "…何か？<end>"
@@ -204,6 +228,10 @@ korean = "…미안해요.<end>"
 japanese = "誰が結婚などするものですか！<end>"
 korean = "누가 결혼 같은 걸 한답니까!<end>"
 
+["630276"]
+japanese = "ほう、とてもそうは見えないが。<end>"
+korean = "호오, 전혀 그렇게 보이지 않는데.<end>"
+
 ["630285"]
 japanese = "あら、まだこれからですわ。<end>"
 korean = "어머, 아직 이제부터랍니다.<end>"
@@ -215,6 +243,10 @@ korean = "후후후.<end>"
 ["630301"]
 japanese = "あら？　この音はもしや…。<end>"
 korean = "어머? 이 소리는 혹시….<end>"
+
+["630317"]
+japanese = "ティアナ様もご機嫌うるわしく。<end>"
+korean = "티아나 님도 평안하시고.<end>"
 
 ["630321"]
 japanese = "笑える冗談だ。<end>"

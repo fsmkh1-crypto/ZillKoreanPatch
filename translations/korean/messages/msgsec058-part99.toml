@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["580000"]
+japanese = "アンギルダン・ボリューム１用開始<end>"
+korean = "앙길단 볼륨1용 시작<end>"
+
 ["580017"]
 japanese = "じゃね。<line-break><value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
@@ -31,3 +35,7 @@ korean = "기다려.<end>"
 ["580083"]
 japanese = "竜の死骸か…。<end>"
 korean = "용의 시체인가….<end>"
+
+["580113"]
+japanese = "アンギルダン・ボリューム１終端<end>"
+korean = "앙길단 볼륨1 끝<end>"

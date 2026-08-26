@@ -4,6 +4,10 @@
 japanese = "ねぇ、ガルドラン、だよね。<end>"
 korean = "저기, 갈드란… 맞지?<end>"
 
+["450002"]
+japanese = "ふっ、俺様のファンか！　　　　　<end>"
+korean = "훗, 내 팬인가!<end>"
+
 ["450007"]
 japanese = "ガルドラン！　僕の名はナッジ。<end>"
 korean = "갈드란! 내 이름은 나지다.<end>"
@@ -92,6 +96,18 @@ korean = "동료로 삼는다<end>"
 japanese = "仲間にしない<end>"
 korean = "동료로 삼지 않는다<end>"
 
+["450053"]
+japanese = "あ、ありがとう。僕、がんばるよ。<end>"
+korean = "고, 고마워. 나 열심히 할게.<end>"
+
+["450054"]
+japanese = "わかった。　　　　　　　　　　　<end>"
+korean = "알겠어.<end>"
+
+["450058"]
+japanese = "わかった。　　　　　　　　　　　<end>"
+korean = "알겠어.<end>"
+
 ["450062"]
 japanese = "僕が旅に出た理由…。<end>"
 korean = "내가 여행을 떠난 이유….<end>"
@@ -139,6 +155,10 @@ korean = "현재 멤버로 여행을 계속한다<end>"
 ["450125"]
 japanese = "それじゃ、僕、がんばるよ。<end>"
 korean = "그럼 나, 열심히 해볼게.<end>"
+
+["450126"]
+japanese = "じゃあ今回は見送ることにするよ。<end>"
+korean = "그럼 이번엔 보류할게.<end>"
 
 ["450138"]
 japanese = "待て。<end>"
@@ -215,6 +235,10 @@ korean = "죽여 버리겠어!<end>"
 ["450195"]
 japanese = "ガルドランが…！<end>"
 korean = "가르드란이…!<end>"
+
+["450202"]
+japanese = "僕は、ガルドランに負けられない。<end>"
+korean = "나는 갈드란에게 질 수 없어.<end>"
 
 ["450207"]
 japanese = "くそっ、おぼえてやがれ！<end>"

@@ -4,6 +4,10 @@
 japanese = "ノエル・ボリューム１開始<end>"
 korean = "노엘 볼륨 1 시작<end>"
 
+["550005"]
+japanese = "ノエルお姉ちゃん、がんばって～！<end>"
+korean = "노엘 언니, 힘내~!<end>"
+
 ["550006"]
 japanese = "よっ、勇者様～！<end>"
 korean = "여어, 용사님~!<end>"
@@ -15,6 +19,10 @@ korean = "<value:$28>, 봐.<end>"
 ["550023"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
+
+["550025"]
+japanese = "なるほど、ね。　　　　　　　　<end>"
+korean = "그렇군요.<end>"
 
 ["550027"]
 japanese = "…施文院だ。<end>"
@@ -124,6 +132,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550067"]
+japanese = "兄弟子の意見が正しいでござる。　<end>"
+korean = "사형의 의견이 옳습니다.<end>"
+
 ["550069"]
 japanese = "む、面目もござらぬ。<end>"
 korean = "면, 면목이 없소이다.<end>"
@@ -231,6 +243,10 @@ korean = "＜없음＞<end>"
 ["550122"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
+
+["550125"]
+japanese = "ソウルリープだってぇ？　　　　　<end>"
+korean = "소울 리프라고?<end>"
 
 ["550129"]
 japanese = "ねえ、<value:$28><line-break>大丈夫？<end>"
@@ -775,6 +791,10 @@ korean = "<value:$28>씨!<end>"
 ["550332"]
 japanese = "わたしです、ノエルです。　　<end>"
 korean = "저예요, 노엘이에요.<end>"
+
+["550342"]
+japanese = "みんな、とっても強いんです。　<end>"
+korean = "모두 정말 강해요.<end>"
 
 ["550346"]
 japanese = "どこ見てるの？<line-break>ボウヤ。<end>"

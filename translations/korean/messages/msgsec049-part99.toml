@@ -216,6 +216,10 @@ korean = "그래… 묻어 줘야겠어.<end>"
 japanese = "ちっ、おぼえてやがれ！<end>"
 korean = "쳇, 두고 보자!<end>"
 
+["490176"]
+japanese = "フフ、ここは結界を張っています。<end>"
+korean = "후후, 여긴 결계를 쳐 두었습니다.<end>"
+
 ["490182"]
 japanese = "そうですか、ゼネテス…<end>"
 korean = "그렇군요, 제네테스….<end>"
@@ -223,6 +227,10 @@ korean = "그렇군요, 제네테스….<end>"
 ["490183"]
 japanese = "ただのゼネテスでいいさ。<end>"
 korean = "그냥 제네테스면 돼.<end>"
+
+["490185"]
+japanese = "ええ。<line-break>よろしく、ゼネテス。<end>"
+korean = "네. 잘 부탁해요, 제네테스.<end>"
 
 ["490187"]
 japanese = "いきなり質問攻めですか？<end>"
@@ -243,6 +251,10 @@ korean = "있잖아, <value:$28>.<end>"
 ["490206"]
 japanese = "ひっく、ひっく…<end>"
 korean = "흐윽, 흐윽…<end>"
+
+["490208"]
+japanese = "こっちもいろいろ事情があってな。<end>"
+korean = "이쪽도 여러 사정이 있어서 말이지.<end>"
 
 ["490219"]
 japanese = "あいてててって…。う～。<end>"
@@ -291,6 +303,10 @@ korean = "어둠의 신기?<end>"
 ["490256"]
 japanese = "それじゃあ、誰なのぉ？<end>"
 korean = "그럼, 누구야아?<end>"
+
+["490259"]
+japanese = "でも、ネモは猫のままだったよぉ？<end>"
+korean = "그런데 네모는 고양이 그대로였어?<end>"
 
 ["490262"]
 japanese = "かわいそぉ！<end>"
@@ -427,6 +443,10 @@ korean = "<미사용><end>"
 ["490320"]
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
+
+["490321"]
+japanese = "（酒場に行かなかないと･･･。）<end>"
+korean = "(술집에 가야 해….)<end>"
 
 ["490322"]
 japanese = "よう、<value:$28>。<end>"

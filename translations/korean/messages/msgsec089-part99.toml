@@ -116,6 +116,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["890170"]
+japanese = "引き受けていただける、かしら？<end>"
+korean = "맡아 주실 수 있을까요?<end>"
+
 ["890178"]
 japanese = "すまんの、<value:$28>。<end>"
 korean = "미안하네, <value:$28>.<end>"
@@ -127,6 +131,10 @@ korean = "<value:$28>? 네놈, <value:$28> 아니냐!<end>"
 ["890186"]
 japanese = "さ、<value:$28>、<line-break>行くわ！<end>"
 korean = "자, <value:$28>, 간다!<end>"
+
+["890190"]
+japanese = "くっ…、ま、ま…だ言う…か…。<end>"
+korean = "큭… 아, 아직도… 말하나….<end>"
 
 ["890192"]
 japanese = "い、いや…<end>"
@@ -167,6 +175,10 @@ korean = "아파, 아프다고…<end>"
 ["890230"]
 japanese = "ふ、うう…、ア…、アアア！<end>"
 korean = "으, 으으…, 아…, 아아아!<end>"
+
+["890232"]
+japanese = "ウウッ、ウグッ、ウガアアアッ！<end>"
+korean = "우윽, 우욱, 우가아아앗!<end>"
 
 ["890235"]
 japanese = "逃げる<end>"
@@ -715,6 +727,10 @@ korean = "반!<end>"
 ["890723"]
 japanese = "俺様、復活！<end>"
 korean = "이 몸, 부활!<end>"
+
+["890724"]
+japanese = "けっ…もう、暴れんじゃねぇぞ。<end>"
+korean = "쳇… 이제 난동 부리지 마.<end>"
 
 ["890727"]
 japanese = "まあ、終わったからいいか。<end>"

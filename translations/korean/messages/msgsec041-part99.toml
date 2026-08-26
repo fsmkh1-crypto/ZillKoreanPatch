@@ -92,6 +92,14 @@ korean = "<value:$28> 씨!!<end>"
 japanese = "あり得ない。　　　　　　　　<end>"
 korean = "말도 안 돼.<end>"
 
+["410037"]
+japanese = "…助けに来て…くれたんだね？　　<end>"
+korean = "…구하러… 와 준 거야?<end>"
+
+["410041"]
+japanese = "ノエル、その魔道士を殺せ！　　　<end>"
+korean = "노엘, 그 마도사를 죽여!<end>"
+
 ["410044"]
 japanese = "私を疑うのか？<end>"
 korean = "날 의심하는 건가?<end>"
@@ -99,6 +107,10 @@ korean = "날 의심하는 건가?<end>"
 ["410046"]
 japanese = "レイヴン、貴様…。<end>"
 korean = "레이븐, 네놈….<end>"
+
+["410047"]
+japanese = "悪いな。　　　　　　　　　　　　<end>"
+korean = "미안하군.<end>"
 
 ["410050"]
 japanese = "！　…この感じ！<end>"
@@ -120,6 +132,10 @@ korean = "헤헤…, 헤헤….<end>"
 japanese = "…ありがとう、<value:$28>。<end>"
 korean = "…고마워, <value:$28>.<end>"
 
+["410066"]
+japanese = "僕、もう行くよ。<line-break>…じゃね。<end>"
+korean = "난 이제 갈게. …그럼.<end>"
+
 ["410068"]
 japanese = "…我らは魔人を討伐したのみだ。<end>"
 korean = "…우리는 마인을 토벌했을 뿐이다.<end>"
@@ -131,6 +147,10 @@ korean = "좋아, 드워프 아저씨.<end>"
 ["410072"]
 japanese = "…いつの間に？<end>"
 korean = "…언제 온 거지?<end>"
+
+["410077"]
+japanese = "授業料はその闇の神器で頼むぞい。<end>"
+korean = "수업료는 그 어둠의 신기로 받지.<end>"
 
 ["410080"]
 japanese = "レイヴン！<end>"
@@ -152,9 +172,17 @@ korean = "네.<end>"
 japanese = "…ええ。<end>"
 korean = "…네.<end>"
 
+["410097"]
+japanese = "人間は文明を得ることで賢くなる。<end>"
+korean = "인간은 문명을 얻으며 현명해진다.<end>"
+
 ["410101"]
 japanese = "や、やめるわけには…いかない。<end>"
 korean = "그, 그만둘 수는… 없어.<end>"
+
+["410103"]
+japanese = "ノエル！　レイヴン！　カフィン！<end>"
+korean = "노엘! 레이븐! 카핀!<end>"
 
 ["410104"]
 japanese = "どうしたの、ナーシェス？<end>"

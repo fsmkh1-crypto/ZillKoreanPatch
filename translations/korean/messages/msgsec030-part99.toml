@@ -16,6 +16,10 @@ korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
 
+["300034"]
+japanese = "このお客さん、酔っぱらってて…。<end>"
+korean = "이 손님, 취해 있어서….<end>"
+
 ["300044"]
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"

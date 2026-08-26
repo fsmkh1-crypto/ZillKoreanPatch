@@ -28,6 +28,10 @@ korean = "큰일 날 뻔했군.<end>"
 japanese = "…バルザーを知っているのか？<end>"
 korean = "…발자를 알고 있나?<end>"
 
+["400016"]
+japanese = "そうか。<line-break>ならば、話が早い。<end>"
+korean = "그런가. 그렇다면 이야기가 빠르군.<end>"
+
 ["400020"]
 japanese = "待っていた…。<end>"
 korean = "기다리고 있었어….<end>"
@@ -67,6 +71,10 @@ korean = "마지막 말은 그걸로 끝인가?<end>"
 ["400035"]
 japanese = "確かに、聞いた。<end>"
 korean = "그래, 들었다.<end>"
+
+["400042"]
+japanese = "むしろ、<line-break>始まりかもしれん。<end>"
+korean = "오히려 시작일지도 모르지.<end>"
 
 ["400046"]
 japanese = "こちらこそ。<end>"
@@ -151,6 +159,10 @@ korean = "빈칸<end>"
 ["400087"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["400088"]
+japanese = "ネメア様。<line-break>これはやはり…。<end>"
+korean = "네메아 님. 이건 역시….<end>"
 
 ["400089"]
 japanese = "決定的ですね。<end>"
@@ -271,6 +283,14 @@ korean = "Brave에 대해 알려 줬으면 해<end>"
 ["400175"]
 japanese = "Ｋｉｎｄについて教えてほしい<end>"
 korean = "Kind에 대해 알려 줬으면 해<end>"
+
+["400176"]
+japanese = "Ｓｅａｒｃｈについて教えてほしい<end>"
+korean = "Search에 대해 알려 줬으면 해<end>"
+
+["400177"]
+japanese = "Ｂｅｌｉｅｆについて教えてほしい<end>"
+korean = "Belief에 대해 알려 줬으면 해<end>"
 
 ["400178"]
 japanese = "Ｗｉｌｄについて教えてほしい<end>"

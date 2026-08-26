@@ -24,6 +24,10 @@ korean = "실례지만, 성함은….<end>"
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
 
+["620018"]
+japanese = "恐れずに飛び込んでくるといい。<end>"
+korean = "두려워 말고 뛰어들면 된다.<end>"
+
 ["620020"]
 japanese = "だ、大丈夫ですかっ！<end>"
 korean = "괘, 괜찮으세요!?<end>"
@@ -152,9 +156,17 @@ korean = "…마룬, 미안하다 고브.<end>"
 japanese = "ええ～！？<end>"
 korean = "에에~!?<end>"
 
+["620095"]
+japanese = "そ、そんな～！　ひどいゴブ～！<end>"
+korean = "그, 그런~! 너무하잖아고블~!<end>"
+
 ["620097"]
 japanese = "親分、どこに逃げるゴブ？<end>"
 korean = "두목, 어디로 도망가 고브?<end>"
+
+["620099"]
+japanese = "ちょ、ちょっと、待ちなさいよ！<end>"
+korean = "자, 잠깐, 기다려!<end>"
 
 ["620101"]
 japanese = "ゴブリンなんて食べないわよ。<end>"
@@ -244,6 +256,10 @@ korean = "두목, 여기 고브인가.<end>"
 japanese = "む。<end>"
 korean = "음.<end>"
 
+["620174"]
+japanese = "よくぞ来た。<line-break>闇の子らよ…。<end>"
+korean = "잘 왔다. 어둠의 아이들이여….<end>"
+
 ["620175"]
 japanese = "ね、猫がしゃべったゴブ。<end>"
 korean = "고, 고양이가 말했어 고브.<end>"
@@ -304,6 +320,10 @@ korean = "안 돼. 왜냐면….<end>"
 japanese = "どうですか？<end>"
 korean = "어떻습니까?<end>"
 
+["620227"]
+japanese = "なんで！<line-break>…どうしてですか？<end>"
+korean = "왜! …어째서입니까?<end>"
+
 ["620234"]
 japanese = "よろしく、お願いします。<end>"
 korean = "잘 부탁드립니다.<end>"
@@ -352,6 +372,10 @@ korean = "그렇습니까.<end>"
 japanese = "あ、<value:$28>さん！<end>"
 korean = "아, <value:$28> 씨!<end>"
 
+["620296"]
+japanese = "……心配…してた…んです…よ。<end>"
+korean = "……걱정… 했…어요….<end>"
+
 ["620299"]
 japanese = "うっ。<end>"
 korean = "윽.<end>"
@@ -359,6 +383,10 @@ korean = "윽.<end>"
 ["620300"]
 japanese = "キス…してくれた…。<end>"
 korean = "키스… 해줬어….<end>"
+
+["620302"]
+japanese = "…今の…キスで…わかりました。<end>"
+korean = "…방금… 키스로… 알았어요.<end>"
 
 ["620304"]
 japanese = "あ…。<end>"

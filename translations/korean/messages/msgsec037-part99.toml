@@ -80,6 +80,10 @@ korean = "…고마워.<end>"
 japanese = "わかってる。<end>"
 korean = "알고 있어.<end>"
 
+["370070"]
+japanese = "…ずっと、そばにいてくれたんだ。<end>"
+korean = "…계속 곁에 있어 줬구나.<end>"
+
 ["370071"]
 japanese = "そこの者！<end>"
 korean = "거기 너!<end>"
@@ -103,6 +107,10 @@ korean = "누구?<end>"
 ["370081"]
 japanese = "メイア…。<end>"
 korean = "메이아….<end>"
+
+["370087"]
+japanese = "エア様は冷酷よ。　　　　　　　　<end>"
+korean = "에어 님은 냉혹해.<end>"
 
 ["370091"]
 japanese = "お願い。助けて…。　　　　　<end>"
@@ -184,6 +192,14 @@ korean = "그런 말 해도, 선장~!<end>"
 japanese = "バカやろ。　　　　　　　　　　<end>"
 korean = "바보 자식.<end>"
 
+["370173"]
+japanese = "なんじゃ。すべてはそちが元凶か。<end>"
+korean = "뭐냐. 모든 원인은 네놈이었나.<end>"
+
+["370175"]
+japanese = "ウソよ！　あたしよ！　　　　　　<end>"
+korean = "거짓말이야! 나야!<end>"
+
 ["370183"]
 japanese = "捕らえよ。<end>"
 korean = "잡아라.<end>"
@@ -252,6 +268,10 @@ korean = "말리지 마!<end>"
 japanese = "誰だ？<end>"
 korean = "누구냐?<end>"
 
+["370248"]
+japanese = "エア様は冷酷だ。　　　　　　　　<end>"
+korean = "에어 님은 냉혹하다.<end>"
+
 ["370251"]
 japanese = "人間じゃ、ない…？<end>"
 korean = "인간이, 아니야…?<end>"
@@ -284,9 +304,17 @@ korean = "짜증 나거든. 아줌마.<end>"
 japanese = "わかった、テレジアおばさん。<end>"
 korean = "알겠어, 테레지아 아줌마.<end>"
 
+["370270"]
+japanese = "ウソだ！　俺だ！　　　　　　　　<end>"
+korean = "거짓말이다! 나다!<end>"
+
 ["370273"]
 japanese = "元気で、な…。<end>"
 korean = "잘 지내라….<end>"
+
+["370283"]
+japanese = "ハハハ！　よぉし、それでいい！　<end>"
+korean = "하하하! 좋아, 그거면 됐어!<end>"
 
 ["370287"]
 japanese = "予備メッセージ１<end>"

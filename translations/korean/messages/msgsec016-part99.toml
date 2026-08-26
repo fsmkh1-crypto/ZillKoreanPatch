@@ -12,13 +12,25 @@ korean = "그런데 오늘은 무슨 일이야?<end>"
 japanese = "他に何かあるのかい？<end>"
 korean = "다른 건 뭐가 있어?<end>"
 
+["160006"]
+japanese = "今ある仕事はこんなところだな。<end>"
+korean = "현재 있는 일은 이 정도다.<end>"
+
 ["160010"]
 japanese = "<value:$15>を譲ってくれるのか？<end>"
 korean = "<value:$15>을 넘겨줄 건가?<end>"
 
+["160015"]
+japanese = "ありがとうよ。<line-break>また頼むぜ。<end>"
+korean = "고맙다. 또 부탁할게.<end>"
+
 ["160018"]
 japanese = "どうする？　やめるのか？<end>"
 korean = "어떻게 할래? 그만둘 거야?<end>"
+
+["160022"]
+japanese = "それじゃ、無事に戻って来いよ。<end>"
+korean = "그럼 무사히 돌아와.<end>"
 
 ["160023"]
 japanese = "仕事を受けたあとのセリフ<line-break><end>"
