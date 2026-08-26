@@ -52,6 +52,10 @@ korean = "<value:$28>! 너까지 왜 여기에! 위험해! 도망쳐!<end>"
 japanese = "まあいい<line-break>時間は限りなくある。<line-break>退屈しのぎに試してみてもいいだろう。<line-break>いくぞ、<value:$28>とやら。<end>"
 korean = "뭐, 좋다. 시간은 무한히 있으니 심심풀이로 시험해 봐도 되겠지. 간다, <value:$28>이라 했나.<end>"
 
+["1360063"]
+japanese = "やめて、お兄ちゃん！<line-break>虚無の剣を抜かないで！<end>"
+korean = "그만해, 오빠! 허무의 검을 뽑지 마!<end>"
+
 ["1360064"]
 japanese = "俺は、俺はもっと生きたかったぜ！<line-break>今は言える！　もっと、もっと<line-break><value:$28>と…いっしょに…！<end>"
 korean = "난, 난 더 살고 싶었어! 지금은 말할 수 있어! 더, 더 <value:$28>과… 함께…!<end>"
@@ -135,6 +139,10 @@ korean = "관여하는 건 피하자<end>"
 ["1360106"]
 japanese = "いや、こちらは<line-break><value:$28>様にて<line-break>封士様の知己です。信頼に足る方かと。<end>"
 korean = "아뇨, 이분은 <value:$28> 님으로 봉사님과 아는 사이입니다. 믿을 만한 분일 겁니다.<end>"
+
+["1360112"]
+japanese = "力を貸してくださるのですか！？<line-break>こちらです！<end>"
+korean = "힘을 빌려주시는 겁니까!? 이쪽입니다!<end>"
 
 ["1360113"]
 japanese = "立てるか？<end>"
@@ -504,6 +512,10 @@ korean = "…<value:$28>. 걱정 끼쳤군.<end>"
 japanese = "…強くなったな。<line-break>お前と刃を交えることができて、<line-break>お前の力を感じた。うれしかったぞ。<line-break>これは、お前が守ってくれ。<end>"
 korean = "…강해졌구나. 너와 칼을 맞대며 네 힘을 느낄 수 있어 기뻤다. 이것은 네가 지켜 줘.<end>"
 
+["1360356"]
+japanese = "私は、他に守らなければ<line-break>ならないものがある。<end>"
+korean = "나는 따로 지켜야 할 것이 있다.<end>"
+
 ["1360359"]
 japanese = "…<value:$28>か？<end>"
 korean = "…<value:$28>인가?<end>"
@@ -743,6 +755,10 @@ korean = "엘파스를 저지한다<end>"
 ["1360528"]
 japanese = "そのまま様子を見る<end>"
 korean = "그대로 지켜본다<end>"
+
+["1360529"]
+japanese = "レイヴンを<line-break>あなたに渡すわけにはいきません！<end>"
+korean = "레이븐을 당신에게 넘길 수는 없습니다!<end>"
 
 ["1360531"]
 japanese = "レイヴンは、<line-break>わたしの大切な仲間です！<line-break>あなたの好きにはさせません！<line-break>あなたが<line-break>どうしてもと言うのなら…！<end>"

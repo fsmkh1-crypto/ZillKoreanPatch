@@ -436,6 +436,10 @@ korean = "당신도 이렇게 되어 줘야겠어….<end>"
 japanese = "…ティアナ、<line-break>オレのこと…気づいて…。<end>"
 korean = "…티아나, 나를… 알아봐 줘….<end>"
 
+["1350254"]
+japanese = "あ…ああ！<line-break>諸君！<line-break>侵入者を捕らえろ！<end>"
+korean = "아… 아아! 제군! 침입자를 잡아라!<end>"
+
 ["1350256"]
 japanese = "ありがとよ。<line-break>ホント、助かったぜ。<end>"
 korean = "고맙다. 정말 살았어.<end>"
@@ -584,6 +588,10 @@ korean = "티… 티아나…. 너는… 살아서….<end>"
 japanese = "…<value:$28>様、<line-break>お静かに…<end>"
 korean = "…<value:$28> 님, 조용히….<end>"
 
+["1350320"]
+japanese = "…悲鳴？<line-break>…血の匂い？<line-break>誰か…死んだ？<end>"
+korean = "…비명? …피 냄새? 누가… 죽었어?<end>"
+
 ["1350321"]
 japanese = "ノ、ノーブル伯様！？<line-break>もう手が回って…<end>"
 korean = "노, 노블 백작님!? 벌써 손을 쓰신 건가….<end>"
@@ -644,6 +652,10 @@ korean = "여어, 또 만났군.<end>"
 japanese = "ヴァイ！　ヴィア！<end>"
 korean = "바이! 비아!<end>"
 
+["1350355"]
+japanese = "ヴァイ！　ヴィア！！<line-break>っくっ…、ぅうおおあ！<end>"
+korean = "바이! 비아!! 크윽… 우오오아!<end>"
+
 ["1350356"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
@@ -651,6 +663,10 @@ korean = "형!<end>"
 ["1350357"]
 japanese = "なんでそんな事を！<line-break>兄さんの体は…<end>"
 korean = "왜 그런 짓을! 형의 몸은….<end>"
+
+["1350358"]
+japanese = "…大丈夫だ。心配するな。<line-break>さあ、もう行くぞ。<end>"
+korean = "…괜찮다. 걱정 마라. 자, 이제 가자.<end>"
 
 ["1350359"]
 japanese = "やめろ。殺すな。<end>"
@@ -739,6 +755,10 @@ korean = "<value:$28>, 너도 와.<end>"
 ["1350403"]
 japanese = "いたぞ！<line-break>カルラだ！！<end>"
 korean = "찾았다! 카를라다!!<end>"
+
+["1350404"]
+japanese = "ハン、来たわね！<line-break>さあ、相手してあげるよ！！<end>"
+korean = "한, 왔구나! 자, 상대해 주지!!<end>"
 
 ["1350405"]
 japanese = "ゼネテス！<end>"
@@ -831,6 +851,10 @@ korean = "조금 더 듣는다<end>"
 ["1350455"]
 japanese = "なによ、<line-break>地上で一番大事なものって！<end>"
 korean = "뭐야, 세상에서 가장 소중한 것이라니!<end>"
+
+["1350456"]
+japanese = "勝ち気で小うるさい<line-break>もう一人のかわいい妹だ。<end>"
+korean = "기가 세고 잔소리 많은, 또 한 명의 귀여운 여동생이다.<end>"
 
 ["1350457"]
 japanese = "もう！<line-break>兄さんのイジワル！<end>"

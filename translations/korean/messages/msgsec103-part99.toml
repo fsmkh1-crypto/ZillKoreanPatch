@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V2용 시작<end>"
 japanese = "クズだと！<end>"
 korean = "쓰레기라고!<end>"
 
+["1030016"]
+japanese = "いかん、引き上げるぞ。<line-break>クリュセイスを守れ！<end>"
+korean = "안 돼, 철수한다. 크류세이스를 지켜라!<end>"
+
 ["1030017"]
 japanese = "…覚えてなさい。<line-break>絶対に罪を償わせるから！<end>"
 korean = "…기억해 둬. 반드시 죗값을 치르게 할 테니까!<end>"
@@ -36,6 +40,10 @@ korean = "기다려.<end>"
 japanese = "…レーグ。<end>"
 korean = "…레그.<end>"
 
+["1030040"]
+japanese = "…うぬは行くといい。<line-break>あとは我が引き受けた。<end>"
+korean = "…너는 가도 좋다. 나머지는 내가 맡겠다.<end>"
+
 ["1030043"]
 japanese = "覚えてなさい！<line-break>父の仇は必ず…！<end>"
 korean = "두고 봐! 아버지의 원수는 반드시…!<end>"
@@ -59,6 +67,10 @@ korean = "형!<end>"
 ["1030058"]
 japanese = "なんでそんな事を！<line-break>兄さんの体は…<end>"
 korean = "왜 그런 짓을! 형의 몸은….<end>"
+
+["1030059"]
+japanese = "…大丈夫だ。心配するな。<line-break>さあ、もう行くぞ。<end>"
+korean = "…괜찮다. 걱정 마라. 자, 이제 가자.<end>"
 
 ["1030060"]
 japanese = "やめろ。殺すな。<end>"

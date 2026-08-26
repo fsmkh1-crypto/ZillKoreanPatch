@@ -96,9 +96,17 @@ korean = "쓸데없는 참견이구먼.<end>"
 japanese = "むにゅー…。<end>"
 korean = "우뉴우….<end>"
 
+["1050056"]
+japanese = "ほーっ、ほっほっ、<line-break>むにゅー、ですわねぇー。<end>"
+korean = "호호호, 말랑말랑하군요~.<end>"
+
 ["1050059"]
 japanese = "勝った。勝った。<end>"
 korean = "이겼어. 이겼어.<end>"
+
+["1050061"]
+japanese = "…わかりました。<line-break>それで、どのような方法で？<end>"
+korean = "…알겠습니다. 그래서 어떤 방법으로?<end>"
 
 ["1050069"]
 japanese = "<value:$28>。<line-break>あなたがいてくれるのなら、<line-break>我々はまだ戦える。<end>"

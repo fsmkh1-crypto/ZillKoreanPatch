@@ -580,6 +580,10 @@ korean = "그래, 나와 나지는 테라네야.<end>"
 japanese = "うん。<line-break><value:$28>、<line-break>近いうち、遊びにきてよ。<end>"
 korean = "응. <value:$28>, 조만간 놀러 와.<end>"
 
+["1420311"]
+japanese = "わしはアルノートゥンだ。<line-break>イズキヤルの墓を作ってやらねばな。<line-break> <line-break><value:$28>も、<line-break>墓参りに来てやってくれい。<end>"
+korean = "나는 알노툰으로 간다. 이즈키야르의 무덤을 만들어 줘야지. <value:$28>도 성묘하러 와 주게.<end>"
+
 ["1420313"]
 japanese = "面倒だがな。<end>"
 korean = "귀찮긴 하지만.<end>"
@@ -691,6 +695,10 @@ korean = "아, 아이린이야말로! 아무 목적도 없으면서 여기 있�
 ["1420358"]
 japanese = "うっ…。<end>"
 korean = "윽….<end>"
+
+["1420360"]
+japanese = "アタクシが考えるに、向こうには<line-break>馬鹿でかい蜂の巣があったから、<line-break> <line-break><value:$28>は、<line-break>ここを通るはずなのよー！<end>"
+korean = "내 생각에는 저쪽에 엄청나게 큰 벌집이 있었으니까, <value:$28>은 반드시 여길 지나갈 거야!<end>"
 
 ["1420361"]
 japanese = "へーへー、ご明察。<line-break>その通りでー。<end>"
@@ -1375,6 +1383,10 @@ korean = "그래, 나와 나지는 테라네야.<end>"
 ["1420660"]
 japanese = "うん。<line-break><value:$28>、<line-break>近いうち、遊びにきてよ。<end>"
 korean = "응. <value:$28>, 조만간 놀러 와.<end>"
+
+["1420661"]
+japanese = "わしはアルノートゥンだ。<line-break>イズキヤルの墓を作ってやらねばな。<line-break> <line-break><value:$28>も、<line-break>墓参りに来てやってくれい。<end>"
+korean = "나는 알노툰으로 간다. 이즈키야르의 무덤을 만들어 줘야지. <value:$28>도 성묘하러 와 주게.<end>"
 
 ["1420663"]
 japanese = "面倒だがな。<end>"

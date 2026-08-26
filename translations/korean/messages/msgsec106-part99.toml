@@ -24,9 +24,17 @@ korean = "저, 편지… 엿보지 않을래?<end>"
 japanese = "だ、ダメだよ、ヴァン。<end>"
 korean = "아, 안 돼, 반.<end>"
 
+["1060040"]
+japanese = "うっさいんだよ、ナッジ。<line-break>ナッジえ、とめる？<end>"
+korean = "시끄러워, 나지. 나지나 멈추라고?<end>"
+
 ["1060043"]
 japanese = "さーて、<line-break>みんな凍ってるすきにっと…。<end>"
 korean = "자, 그럼.다들 얼어붙어 있는 틈에….<end>"
+
+["1060044"]
+japanese = "もう、遅いぜ。<line-break>手紙は開けちまったもんねー！<end>"
+korean = "이미 늦었어. 편지는 열어 버렸거든~!<end>"
 
 ["1060056"]
 japanese = "ああん、もぅ！<line-break>本当にダメなんだったら！<end>"
