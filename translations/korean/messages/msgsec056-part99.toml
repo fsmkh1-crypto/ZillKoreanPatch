@@ -808,6 +808,10 @@ korean = "후후후. <value:$28>에게 걱정을 다 받다니.<end>"
 japanese = "<value:$28>、<line-break>そちらの調子はどう？<end>"
 korean = "<value:$28>, 그쪽은 어때?<end>"
 
+["560375"]
+japanese = "言っておくけど、<line-break>別に私はあなたの命を<line-break>心配しているのではないわ。<line-break>それじゃ、私は忙しいから<line-break>行くわ。<end>"
+korean = "말해 두지만, 딱히 네 목숨을 걱정하는 건 아니야. 그럼 난 바쁘니까 갈게.<end>"
+
 ["560376"]
 japanese = "<value:$28>、<line-break>こんな所で何をしている！<end>"
 korean = "<value:$28>, 이런 데서 뭐 하고 있어!<end>"
@@ -1599,6 +1603,10 @@ korean = "좋아! 당신이라면 분명 그렇게 말해 줄 줄 알았어. 잘
 ["560929"]
 japanese = "紹介するぜ。<line-break> <line-break> <line-break>こちら、アルノートゥンの神殿に<line-break>仕えてらっしゃる神官さんだ。<end>"
 korean = "소개하지. 이쪽은 알노툰 신전에서 일하는 신관님이야.<end>"
+
+["560937"]
+japanese = "この条件をのんでいただけないのなら、<line-break>今でも遅くはありません。<line-break>ご辞退願いたい。<line-break>お覚悟は、よろしいですか？<end>"
+korean = "이 조건을 받아들이지 못하시겠다면 지금이라도 늦지 않았습니다. 사양해 주십시오. 각오는 되셨습니까?<end>"
 
 ["560939"]
 japanese = "やっぱりやめる<end>"

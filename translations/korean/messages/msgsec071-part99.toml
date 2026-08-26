@@ -8,6 +8,10 @@ korean = "아길샤이어 메시지 VOL1-3 시작<end>"
 japanese = "…<value:$28>か。<line-break>話がしたい。　　　　　<end>"
 korean = "…<value:$28>인가. 할 말이 있다.<end>"
 
+["710006"]
+japanese = "ただ、奴の手から<line-break>どうすれば救い出せるのか…<end>"
+korean = "다만, 녀석의 손에서 어떻게 구해 내야 할지….<end>"
+
 ["710007"]
 japanese = "…フッ、…愚痴だな。<line-break>俺としたことが。<end>"
 korean = "…훗, …푸념이군. 나답지 않게.<end>"
@@ -68,6 +72,14 @@ korean = "으, 거친 여자와 성배를 노리는 나쁜 인간이다 고브!<
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["710056"]
+japanese = "うふふ、やっと…<line-break>やっと聖杯を取り返せたわ！<end>"
+korean = "후후, 드디어… 드디어 성배를 되찾았어!<end>"
+
+["710061"]
+japanese = "あんな聖杯がなくても<line-break>幸せにはなれるゴブ！！<end>"
+korean = "그런 성배가 없어도 행복해질 수 있다 고브!!<end>"
+
 ["710064"]
 japanese = "オルナット…。<end>"
 korean = "올나트….<end>"
@@ -107,6 +119,10 @@ korean = "으, 성배를 노리는 나쁜 인간들 고브!<end>"
 ["710097"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["710104"]
+japanese = "あんな聖杯がなくても<line-break>幸せにはなれるゴブ！！<end>"
+korean = "그런 성배가 없어도 행복해질 수 있다 고브!!<end>"
 
 ["710107"]
 japanese = "オルナット…。<end>"

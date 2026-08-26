@@ -16,6 +16,10 @@ korean = "흐응, 데이트 신청?<end>"
 japanese = "来ていただけるかしら、<line-break>ゼネテス様？<end>"
 korean = "와 주시겠어요, 제네테스 님?<end>"
 
+["510011"]
+japanese = "悪いな、話の調子を変えてくれ。<line-break>友達が来た。<end>"
+korean = "미안하지만 이야기 분위기를 좀 바꿔 줘. 친구가 왔어.<end>"
+
 ["510013"]
 japanese = "力ずくでも、来ていただくわ、<line-break>ゼネテス様。<end>"
 korean = "힘으로라도 모셔 가겠습니다, 제네테스 님.<end>"
@@ -127,6 +131,10 @@ korean = "수고했다. 물러가도 좋다.<end>"
 ["510067"]
 japanese = "よう、<value:$28>。<line-break>久しぶり。<end>"
 korean = "여어, <value:$28>. 오랜만이야.<end>"
+
+["510077"]
+japanese = "俺の予測が外れていてくれると<line-break>いいんだがな。<end>"
+korean = "내 예상이 빗나가면 좋겠는데.<end>"
 
 ["510079"]
 japanese = "ロストール軍は、海路からの<line-break>侵攻に<line-break><end>"

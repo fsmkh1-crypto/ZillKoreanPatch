@@ -24,6 +24,10 @@ korean = "이 녀석 길드 등록 좀 해 줘, 아저씨.<end>"
 japanese = "それから、こいつの馬車が<line-break>町の出口にとめてある。　　<line-break>　<line-break>その荷物を処分したいんだ。<end>"
 korean = "그리고 이 녀석 마차가 마을 출구에 세워져 있어. 그 짐도 처분하고 싶어.<end>"
 
+["490014"]
+japanese = "大事なお客様ってわけだ。<line-break>　<line-break>　<line-break>それともうひとつ。<line-break>ツェラシェルに会いたい。<line-break>奴を呼んでくれ。<end>"
+korean = "중요한 손님이라는 거군. 그리고 하나 더. 체라셸을 만나고 싶다. 녀석을 불러 줘.<end>"
+
 ["490018"]
 japanese = "わかった。<end>"
 korean = "알았어.<end>"
@@ -131,6 +135,10 @@ korean = "음, 아, 그래. 뭐, 금방 갈게.<end>"
 ["490094"]
 japanese = "ハハ、失礼な奴じゃな。<end>"
 korean = "하하, 무례한 녀석이군.<end>"
+
+["490103"]
+japanese = "ゼネテスから事情は聞いた。<line-break>　<line-break>　<line-break>お主が追いかけて、<line-break>お主がそのリルビーを<line-break>救ってやるのじゃ。<end>"
+korean = "제네테스에게 사정은 들었다. 네가 쫓아가서 그 릴비를 구해 주는 거다.<end>"
 
 ["490104"]
 japanese = "なあ、とっつぁん。　<end>"
@@ -519,6 +527,14 @@ korean = "있잖아, <value:$28>. 내 고집에 조금만 더 어울려 주지 �
 ["490327"]
 japanese = "予備用メッセージ７<line-break>ルルアンタ・ボリューム１<end>"
 korean = "예비 메시지 7 루루안타 볼륨 1<end>"
+
+["490328"]
+japanese = "予備用メッセージ８<line-break>ルルアンタ・ボリューム１<end>"
+korean = "예비 메시지 8 루루안타 볼륨 1<end>"
+
+["490329"]
+japanese = "予備用メッセージ９<line-break>ルルアンタ・ボリューム１<end>"
+korean = "예비 메시지 9 루루안타 볼륨 1<end>"
 
 ["490330"]
 japanese = "予備用メッセージ１０<line-break>ルルアンタ・ボリューム１<end>"

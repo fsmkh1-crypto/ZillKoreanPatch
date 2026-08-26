@@ -192,6 +192,10 @@ korean = "흑… 어떡할 거야, <value:$28>?<end>"
 japanese = "ん？<line-break><value:$28>じゃないか。<line-break>どうしたんだ、そんなに急いで？<end>"
 korean = "응? <value:$28> 아니야. 왜 그렇게 급해?<end>"
 
+["1860129"]
+japanese = "なんだって！？<line-break>で、フリントは今、どこに？<end>"
+korean = "뭐라고!? 그래서 플린트는 지금 어디에 있지?<end>"
+
 ["1860132"]
 japanese = "<value:$28>、<line-break>…頼みが…ある。　　　　　　　　<line-break>　<line-break>例の短剣の中に…<line-break>エリス様への…密書が入っている。<line-break><end>"
 korean = "<value:$28>, …부탁이… 있다. 그 단검 안에… 엘리스 님께 드릴… 밀서가 들어 있다.<end>"
@@ -239,6 +243,14 @@ korean = "아! 그 사람, 지난번의…!<end>"
 ["1860171"]
 japanese = "なんだぁ。まだふさぎ込んでるのか？<end>"
 korean = "뭐야. 아직도 풀이 죽어 있는 거야?<end>"
+
+["1860184"]
+japanese = "旅立ち・Messenger<line-break>予備メッセージの４だよぉ。<end>"
+korean = "여행 출발·Messenger 예비 메시지 4야.<end>"
+
+["1860185"]
+japanese = "旅立ち・Messenger<line-break>予備メッセージの５だよぉ。<end>"
+korean = "여행 출발·Messenger 예비 메시지 5야.<end>"
 
 ["1860186"]
 japanese = "旅立ち・Messenger<line-break>予備メッセージの６だよぉ。<end>"

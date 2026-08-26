@@ -20,6 +20,10 @@ korean = "솔직하네. 솔직한 건 좋은 일이지. 그럼 자기소개다. 
 japanese = "<value:$28>、ね。<line-break>よろしく、<value:$28>。<end>"
 korean = "<value:$28>, 그렇지. 잘 부탁해, <value:$28>.<end>"
 
+["700009"]
+japanese = "他人の手は借りないってわけだ。<line-break>勇敢だねえ。<end>"
+korean = "남의 도움은 받지 않겠다는 거군. 용감하네.<end>"
+
 ["700015"]
 japanese = "俺でよければ、<line-break>お手伝いさせてもらうが、<line-break>どうだい、<value:$28>？<end>"
 korean = "나라도 괜찮다면 도와주지. 어때, <value:$28>?<end>"
@@ -36,9 +40,17 @@ korean = "네 도움은 받지 않겠다<end>"
 japanese = "んじゃ、一緒に行こうか。<line-break><value:$28>。<end>"
 korean = "그럼 같이 가자, <value:$28>.<end>"
 
+["700019"]
+japanese = "そうかい。<line-break>お節介なことを言って悪かったな。<end>"
+korean = "그래. 참견해서 미안했어.<end>"
+
 ["700021"]
 japanese = "そうか、だったら俺もお手伝い<line-break>させてもらおうかな？<line-break>どうだい、<value:$28>？<end>"
 korean = "그래? 그렇다면 나도 도와줄까? 어때, <value:$28>?<end>"
+
+["700022"]
+japanese = "よしきた。<line-break>それじゃ、しばらく一緒に頼むぜ。<end>"
+korean = "좋아. 그럼 한동안 같이 잘 부탁해.<end>"
 
 ["700023"]
 japanese = "よう、<value:$28>。<line-break>この奥にいる怪物が仕事か？<end>"
@@ -55,6 +67,10 @@ korean = "도움을 받는다<end>"
 ["700026"]
 japanese = "手伝ってもらわない<end>"
 korean = "도움받지 않는다<end>"
+
+["700027"]
+japanese = "よしきた。<line-break>それじゃ、しばらく一緒に頼むぜ。<end>"
+korean = "좋아. 그럼 한동안 같이 잘 부탁해.<end>"
 
 ["700028"]
 japanese = "そうかい。<line-break>んじゃ、がんばれよ。<end>"
@@ -219,6 +235,10 @@ korean = "별은 예뻐? <value:$28>.<end>"
 ["700270"]
 japanese = "よう、星空でも見てるのか？<line-break><value:$28>。<end>"
 korean = "여어, 별이라도 보고 있나? <value:$28>.<end>"
+
+["700271"]
+japanese = "星空もきれいだけど<line-break>セラの奴もきれいだよな。<end>"
+korean = "별하늘도 예쁘지만 세라도 예쁘지.<end>"
 
 ["700291"]
 japanese = "アーギルシャイアメッセージVOL1-2終端<end>"
