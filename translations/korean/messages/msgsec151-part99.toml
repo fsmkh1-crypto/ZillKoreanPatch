@@ -120,6 +120,10 @@ korean = "기적이야!<end>"
 japanese = "子供が甦った！<end>"
 korean = "아이가 되살아났어!<end>"
 
+["1510092"]
+japanese = "君は、愚かだ。<line-break>…<value:$28>。<end>"
+korean = "넌 어리석어. …<value:$28>.<end>"
+
 ["1510094"]
 japanese = "…ありが…とう。<end>"
 korean = "…고마…워.<end>"

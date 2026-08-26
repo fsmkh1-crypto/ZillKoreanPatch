@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1630000"]
+japanese = "アンギルダン・ボリューム３２用開始<end>"
+korean = "앙길단 볼륨 32용 시작<end>"
+
 ["1630005"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -28,6 +32,10 @@ korean = "저, 적습이다!<end>"
 japanese = "将軍！　ご無事でしたか。<end>"
 korean = "장군! 무사하셨습니까.<end>"
 
+["1630083"]
+japanese = "敵の略奪部隊の場所がわかりました！<end>"
+korean = "적 약탈 부대의 위치를 알아냈습니다!<end>"
+
 ["1630085"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -55,6 +63,10 @@ korean = "이, 이놈 강하다!<end>"
 ["1630123"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적습이다!<end>"
+
+["1630124"]
+japanese = "敵だと！？<line-break>どういうことだ！<end>"
+korean = "적이라고!? 무슨 소리야!<end>"
 
 ["1630126"]
 japanese = "将軍！　ご無事でしたか。<end>"

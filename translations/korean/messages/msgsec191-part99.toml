@@ -112,6 +112,10 @@ korean = "카핀….<end>"
 japanese = "がんばってください…。<end>"
 korean = "힘내세요….<end>"
 
+["1910143"]
+japanese = "さぁ、あと一息じゃ。<line-break>戦いの準備はできたのか、<line-break><value:$28>？<end>"
+korean = "자, 이제 한숨만 더 내쉬면 된다. 전투 준비는 됐느냐, <value:$28>?<end>"
+
 ["1910156"]
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"

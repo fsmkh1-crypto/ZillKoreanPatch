@@ -8,6 +8,10 @@ korean = "여행 출발 09 메시지<end>"
 japanese = "おいで、<value:$28>。<end>"
 korean = "이리 와, <value:$28>.<end>"
 
+["360012"]
+japanese = "<value:$28>、<line-break>夜が明けるわ…。<end>"
+korean = "<value:$28>, 날이 밝아 와….<end>"
+
 ["360014"]
 japanese = "…バルザー。<end>"
 korean = "…발저.<end>"
@@ -63,6 +67,10 @@ korean = "부탁이야! 도망쳐!<end>"
 ["360071"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"
+
+["360077"]
+japanese = "<value:$28>、<line-break>強く…生きて…。<end>"
+korean = "<value:$28>, 강하게… 살아가….<end>"
 
 ["360099"]
 japanese = "旅立ち０９メッセージ終端<end>"

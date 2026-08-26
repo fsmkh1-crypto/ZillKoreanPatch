@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1680000"]
+japanese = "ファーロス・ボリューム３その３開始<end>"
+korean = "파로스 볼륨 3 그 3 시작<end>"
+
+["1680010"]
+japanese = "よく来てくれた、<line-break><value:$28>。<end>"
+korean = "잘 와줬다, <value:$28>.<end>"
+
 ["1680019"]
 japanese = "…確かに気の回しすぎかもしれぬ。<end>"
 korean = "…확실히 너무 신경 쓴 걸지도 모르겠군.<end>"
@@ -35,3 +43,7 @@ korean = "그럼 요리를 내오게 하죠.<end>"
 ["1680090"]
 japanese = "…よろしゅうございます、陛下。<end>"
 korean = "…좋습니다, 폐하.<end>"
+
+["1680114"]
+japanese = "ファーロス・ボリューム３その３終端<end>"
+korean = "파로스 볼륨 3 그 3 끝<end>"

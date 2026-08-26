@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1770000"]
+japanese = "ロッシマ（２）メッセージＶ３－２開始<end>"
+korean = "롯시마(2) 메시지 V3-2 시작<end>"
+
 ["1770003"]
 japanese = "床からトゲの罠を見つけた。<end>"
 korean = "바닥에서 가시 함정을 발견했다.<end>"
@@ -103,3 +107,7 @@ korean = "데몰리시의 봉인이 풀렸다.<end>"
 ["1770062"]
 japanese = "<value:$28>…<line-break>われのおかげで、わしの人生に<line-break>くいはのうなった。<end>"
 korean = "<value:$28>… 자네 덕분에 내 인생에 여한이 없어졌네.<end>"
+
+["1770074"]
+japanese = "ロッシマ（２）メッセージＶ３－２終端<end>"
+korean = "롯시마(2) 메시지 V3-2 끝<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1060000"]
+japanese = "ロティ・ボリューム２用メッセージ開始<end>"
+korean = "로티 볼륨 2용 메시지 시작<end>"
+
 ["1060020"]
 japanese = "よく来た、<value:$28>よ。<line-break>話は、すでに聞いている。<line-break>手紙を。<end>"
 korean = "잘 왔다, <value:$28>. 이야기는 이미 들었다. 편지를.<end>"
@@ -59,3 +63,7 @@ korean = "그, 그럴 수가…. <value:$28> 님이… 그런….<end>"
 ["1060119"]
 japanese = "クリュセイス、ショックだったろう。<end>"
 korean = "크류세이스, 충격이었겠지.<end>"
+
+["1060131"]
+japanese = "ロティ・ボリューム２用メッセージ終端<end>"
+korean = "로티 볼륨 2용 메시지 끝<end>"

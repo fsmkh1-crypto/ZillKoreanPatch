@@ -68,6 +68,10 @@ korean = "<value:$28> 님이 곤란하잖아!! 비켜! 비켜어!<end>"
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
 
+["320046"]
+japanese = "さ、<value:$28>さま、<line-break>しんでんで<line-break>おちちうえさまがおまちですよ。<end>"
+korean = "<value:$28> 님, 신전에서 아버님께서 기다리고 계세요.<end>"
+
 ["320048"]
 japanese = "おお、<value:$28>。<line-break>戻ったか。<line-break>ご苦労だった。<end>"
 korean = "오, <value:$28>. 돌아왔군. 수고했다.<end>"

@@ -60,6 +60,18 @@ korean = "조금만 더 기다려<end>"
 japanese = "もちろん<end>"
 korean = "물론이지<end>"
 
+["1430075"]
+japanese = "お呼びっスか？　　　　　<line-break>　<end>"
+korean = "부르셨습니까?<end>"
+
+["1430079"]
+japanese = "あの化け物をですかい！？<line-break>　<end>"
+korean = "그, 그 괴물을 말입니까!?<end>"
+
+["1430081"]
+japanese = "へ、へい！　　　　　　　<line-break>　<end>"
+korean = "예, 예!<end>"
+
 ["1430085"]
 japanese = "うまくいったら、<line-break>約束どおり船に乗せてあげるわ、<line-break><value:$28>。<end>"
 korean = "잘되면 약속대로 배에 태워 줄게, <value:$28>.<end>"
@@ -79,6 +91,10 @@ korean = "항구에서 큰 오징어가 기다리고 있어.<end>"
 ["1430090"]
 japanese = "あんたらだけが頼りなんだ。<end>"
 korean = "너희만 믿는다.<end>"
+
+["1430094"]
+japanese = "さあ、頼んだよ、<line-break><value:$28>！<end>"
+korean = "자, 부탁할게, <value:$28>!<end>"
 
 ["1430097"]
 japanese = "さあ、早いとこ船を港に戻しな。<end>"
@@ -103,6 +119,10 @@ korean = "물보라 군도란?<end>"
 ["1430108"]
 japanese = "また今度<end>"
 korean = "다음에<end>"
+
+["1430117"]
+japanese = "ええ。待ってるわ。<line-break><value:$28>とは<line-break>いい友だちになれそうね。<end>"
+korean = "응. 기다릴게. <value:$28>와는 좋은 친구가 될 수 있을 것 같아.<end>"
 
 ["1430120"]
 japanese = "憎らしい男だね！<end>"

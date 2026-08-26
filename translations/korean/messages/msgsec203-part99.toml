@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2030000"]
+japanese = "PSP用不良少年オルファウスイベント04用<end>"
+korean = "PSP용 불량소년 오르파우스 이벤트04용<end>"
+
 ["2030008"]
 japanese = "ねえ、<value:$28>？<end>"
 korean = "있잖아, <value:$28>?<end>"
@@ -7,3 +11,7 @@ korean = "있잖아, <value:$28>?<end>"
 ["2030009"]
 japanese = "な、なんだとぉ～！<end>"
 korean = "뭐, 뭐라고오~!<end>"
+
+["2030014"]
+japanese = "PSP用不良少年オルファウスイベント04用<end>"
+korean = "PSP용 불량소년 오르파우스 이벤트04용<end>"

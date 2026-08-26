@@ -28,9 +28,17 @@ korean = "으음….<end>"
 japanese = "あ、あのっ！<line-break>カッツさんっ！<end>"
 korean = "저, 저기요! 캇츠 씨!<end>"
 
+["340014"]
+japanese = "<value:$28>、<line-break>受け取っておけ。<end>"
+korean = "<value:$28>, 받아 둬.<end>"
+
 ["340015"]
 japanese = "初めてにしては悪くないが…。<end>"
 korean = "처음치고는 나쁘지 않지만….<end>"
+
+["340018"]
+japanese = "そっ、そうなんですかっ！？<line-break>ついに<value:$28>さんも<line-break>一人前にっ！<end>"
+korean = "저, 정말인가요!? 드디어 <value:$28> 씨도 한 사람 몫을!<end>"
 
 ["340019"]
 japanese = "…まだまだ、だな。<end>"

@@ -32,9 +32,17 @@ korean = "미안합니다.<end>"
 japanese = "…そう。<end>"
 korean = "…그래.<end>"
 
+["1150022"]
+japanese = "お願い…。<line-break>ひとりにして…。<end>"
+korean = "부탁이야…. 혼자 있게 해 줘….<end>"
+
 ["1150023"]
 japanese = "今は、もう話せることなどない。<end>"
 korean = "지금은 더 이야기할 것도 없다.<end>"
+
+["1150026"]
+japanese = "<value:$28>か。<line-break>ネメア様が亡くなられた<line-break>という噂を知っているか？<end>"
+korean = "<value:$28>인가. 네메아 님이 돌아가셨다는 소문을 알고 있나?<end>"
 
 ["1150039"]
 japanese = "ザギヴメッセージＶ７終端<end>"

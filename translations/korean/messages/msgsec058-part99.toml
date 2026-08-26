@@ -28,6 +28,10 @@ korean = "용의 시체인가….<end>"
 japanese = "…まだ、怨念が残っておる。<end>"
 korean = "…아직 원념이 남아 있구나.<end>"
 
+["580077"]
+japanese = "急いで、しかし動作はゆっくりと<line-break>ここを出るのじゃ。<line-break><value:$28>。<end>"
+korean = "서두르되 움직임은 천천히, 여길 빠져나가자. <value:$28>.<end>"
+
 ["580082"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"

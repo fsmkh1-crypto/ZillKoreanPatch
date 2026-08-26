@@ -20,6 +20,10 @@ korean = "아, 제어실 말이지.<end>"
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
 
+["1120060"]
+japanese = "<value:$28>さん。<line-break>来てくれたんですね…。<line-break>ありがとうございます。<end>"
+korean = "<value:$28> 씨. 와 주셨군요…. 감사합니다.<end>"
+
 ["1120069"]
 japanese = "エア！！<end>"
 korean = "에아!!<end>"

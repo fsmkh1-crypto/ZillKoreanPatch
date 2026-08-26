@@ -200,6 +200,10 @@ korean = "아…<end>"
 japanese = "…私、うれしいです。<end>"
 korean = "…저, 기뻐요.<end>"
 
+["750226"]
+japanese = "あーもう、また来たの？<line-break>意外と<value:$28>って<line-break>せっかちなんだね。<end>"
+korean = "아, 또 왔어? 의외로 <value:$28>도 성급하네.<end>"
+
 ["750236"]
 japanese = "アトレイア　ボリューム１～終了<end>"
 korean = "아트레이아 볼륨1 끝<end>"

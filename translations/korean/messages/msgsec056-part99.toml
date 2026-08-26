@@ -364,6 +364,10 @@ korean = "나… 사실 나는….<end>"
 japanese = "レイヴン…。<end>"
 korean = "레이븐….<end>"
 
+["560260"]
+japanese = "そうよ。幸せなくらいバカにできてる。<end>"
+korean = "그래. 행복할 정도로 바보 취급할 수 있어.<end>"
+
 ["560262"]
 japanese = "やっぱり…。　　　　　　　<end>"
 korean = "역시….<end>"
@@ -620,6 +624,10 @@ korean = "자, 이게 보상이야.<end>"
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
 
+["560547"]
+japanese = "<value:$28>も<line-break>それでいいかな？<end>"
+korean = "<value:$28>도 그걸로 괜찮겠어?<end>"
+
 ["560549"]
 japanese = "んじゃ、今日は解散。<end>"
 korean = "그럼 오늘은 해산.<end>"
@@ -659,6 +667,10 @@ korean = "나랑 같이 죽어주지 않을래?<end>"
 ["560601"]
 japanese = "え…、マジ…？<end>"
 korean = "어…, 진짜…?<end>"
+
+["560606"]
+japanese = "来る！<line-break>いくよ！　<value:$28>！<end>"
+korean = "온다! 가자, <value:$28>!<end>"
 
 ["560609"]
 japanese = "と、とりあえず撤収！<end>"

@@ -140,6 +140,10 @@ korean = "그렇습니까.<end>"
 japanese = "聞きたいことがあれば答えますよ。<end>"
 korean = "궁금한 게 있으면 대답해 드리죠.<end>"
 
+["460197"]
+japanese = "ごめん。<line-break>また考えすぎのくせが出ちゃった。<line-break>行こう、<value:$28>。<end>"
+korean = "미안. 또 너무 깊이 생각하는 버릇이 나왔네. 가자, <value:$28>.<end>"
+
 ["460198"]
 japanese = "た～すけて～。　　　　　　　　<end>"
 korean = "도~와줘~.<end>"

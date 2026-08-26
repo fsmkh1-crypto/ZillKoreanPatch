@@ -76,6 +76,10 @@ korean = "미사용입니다: 예<end>"
 japanese = "未使用になります：いいえ<end>"
 korean = "미사용입니다: 아니오<end>"
 
+["980133"]
+japanese = "<value:$28>…。<line-break>おかえりなさい。<end>"
+korean = "<value:$28>…. 어서 와요.<end>"
+
 ["980196"]
 japanese = "アイリーンメッセージ終端<end>"
 korean = "아이린 메시지 끝<end>"

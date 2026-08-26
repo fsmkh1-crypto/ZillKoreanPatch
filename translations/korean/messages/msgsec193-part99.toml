@@ -24,9 +24,25 @@ korean = "…잘 있어라.<end>"
 japanese = "行ってしまいましたね。<end>"
 korean = "가버렸네요.<end>"
 
+["1930031"]
+japanese = "お前たちなら、<line-break>きっと手に入れられる。<line-break>セラ、<value:$28>…。<end>"
+korean = "너희라면 분명 손에 넣을 수 있어. 세라, <value:$28>….<end>"
+
 ["1930032"]
 japanese = "なんですか、お父さま？<end>"
 korean = "무슨 일이세요, 아버님?<end>"
+
+["1930033"]
+japanese = "いや、話しておきたいことがあってな。<end>"
+korean = "아니, 미리 해두고 싶은 말이 있어서.<end>"
+
+["1930037"]
+japanese = "<value:$28>、<line-break>娘を頼んだぞ。<end>"
+korean = "<value:$28>, 딸을 부탁한다.<end>"
+
+["1930040"]
+japanese = "<value:$28>、<line-break>娘を頼んだぞ。<end>"
+korean = "<value:$28>, 딸을 부탁한다.<end>"
 
 ["1930045"]
 japanese = "お、お父さま…、そんな…。<end>"
@@ -111,6 +127,10 @@ korean = "왔는가…….<end>"
 ["1930096"]
 japanese = "決着をつけよう。<end>"
 korean = "결판을 내자.<end>"
+
+["1930101"]
+japanese = "<value:$28>の<line-break>名前を利用して反対勢力を作る<line-break>…あり得る話だ。<end>"
+korean = "<value:$28>의 이름을 이용해 반대 세력을 만든다… 충분히 있을 법한 이야기다.<end>"
 
 ["1930108"]
 japanese = "さあ、どうぞ。<end>"

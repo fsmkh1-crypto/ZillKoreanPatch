@@ -72,6 +72,10 @@ korean = "일어나자!<end>"
 japanese = "反乱はできない…<end>"
 korean = "반란은 못 일으켜…<end>"
 
+["310092"]
+japanese = "<value:$28>！<line-break>よく言ってくれた！<line-break>領主邸にいるボルボラを倒すぞ！<end>"
+korean = "<value:$28>! 잘 말해 줬다! 영주 저택의 볼보라를 쓰러뜨리자!<end>"
+
 ["310093"]
 japanese = "我々は先に行っている！<line-break><value:$28>も<line-break>急いで来てくれ！<end>"
 korean = "우리는 먼저 가 있겠다! <value:$28>도 서둘러 와 줘!<end>"

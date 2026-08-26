@@ -24,6 +24,10 @@ korean = "큭, 두고 보자!<end>"
 japanese = "覚えてやがれ！<end>"
 korean = "두고 보자!<end>"
 
+["1590038"]
+japanese = "うわ～ん。<line-break>こわかったよぉ！<end>"
+korean = "우와앙. 무서웠어어!<end>"
+
 ["1590042"]
 japanese = "違うよ、<value:$28>！　<end>"
 korean = "아니야, <value:$28>!<end>"
@@ -215,3 +219,7 @@ korean = "서두르지 않으면 안 돼, <value:$28>.<end>"
 ["1590196"]
 japanese = "待ってよぉ！<end>"
 korean = "기다려어!<end>"
+
+["1590208"]
+japanese = "ルルアンタ・ボリューム１その３終端<end>"
+korean = "루루안타 볼륨 1 그 3 끝<end>"

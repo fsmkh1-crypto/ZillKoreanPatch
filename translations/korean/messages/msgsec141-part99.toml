@@ -128,6 +128,10 @@ korean = "(매력적…? 내가…?)<end>"
 japanese = "ええ。<line-break>どうもありがとう。<end>"
 korean = "응. 정말 고마워.<end>"
 
+["1410118"]
+japanese = "あ、あの…。<line-break>どう、ですか？<end>"
+korean = "저, 저기…. 어때요?<end>"
+
 ["1410119"]
 japanese = "…よかった。<end>"
 korean = "…다행이다.<end>"
@@ -384,6 +388,10 @@ korean = "<value:$28>…. 끝났군….<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410408"]
+japanese = "そして君は全ての悲しみを紡ぎ続ける。<end>"
+korean = "그리고 너는 모든 슬픔을 계속 엮어 간다.<end>"
+
 ["1410415"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -551,6 +559,10 @@ korean = "♪갈드란! 푸르게 빛나는 정의~<end>"
 ["1410548"]
 japanese = "に、逃げろ！<end>"
 korean = "도, 도망쳐!<end>"
+
+["1410549"]
+japanese = "♪未来の勇者　その名はガルドラン～！<end>"
+korean = "♪미래의 용사 그 이름은 갈드란~!<end>"
 
 ["1410551"]
 japanese = "あ、ありがとうございました。<end>"

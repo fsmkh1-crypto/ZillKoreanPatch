@@ -64,6 +64,10 @@ korean = "간다<end>"
 japanese = "無視する<end>"
 korean = "무시한다<end>"
 
+["510063"]
+japanese = "お前が、<value:$28>か？<line-break>　　　　　　　　　　　　　　　　　　<line-break>　<end>"
+korean = "네가 <value:$28>인가?<end>"
+
 ["510065"]
 japanese = "ゼネテス様。<line-break><value:$28>様を<line-break>お連れしました。<end>"
 korean = "제네테스 님. <value:$28> 님을 모셔 왔습니다.<end>"
@@ -71,6 +75,10 @@ korean = "제네테스 님. <value:$28> 님을 모셔 왔습니다.<end>"
 ["510066"]
 japanese = "ご苦労。<line-break>さがってくれ。<end>"
 korean = "수고했다. 물러가도 좋다.<end>"
+
+["510067"]
+japanese = "よう、<value:$28>。<line-break>久しぶり。<end>"
+korean = "여어, <value:$28>. 오랜만이야.<end>"
 
 ["510100"]
 japanese = "バカな、ロストール軍だと！<end>"
@@ -99,6 +107,10 @@ korean = "<value:$28>의 명성치가 올랐다.<end>"
 ["510124"]
 japanese = "おらぬのか…。<end>"
 korean = "없는 건가….<end>"
+
+["510134"]
+japanese = "では、まいるぞ！<line-break><value:$28>！<end>"
+korean = "그럼 간다! <value:$28>!<end>"
 
 ["510135"]
 japanese = "…ガアアアアッ！<end>"

@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2560000"]
+japanese = "PSP用ロジクーニンが残した研究02用開始<end>"
+korean = "PSP용 로지쿠닌이 남긴 연구02용 시작<end>"
+
+["2560005"]
+japanese = "その角度で大丈夫よ。<line-break><value:$28>。<line-break>えーと、それから次は…。<end>"
+korean = "그 각도면 괜찮아, <value:$28>. 음, 그리고 다음은….<end>"
+
 ["2560007"]
 japanese = "…な、何なの！？<end>"
 korean = "…뭐, 뭐야!?<end>"
@@ -12,6 +20,10 @@ korean = "자, 원래 세계로 돌아가세요!<end>"
 japanese = "ご、ごめんなさーい…。<end>"
 korean = "미, 미안해요….<end>"
 
+["2560026"]
+japanese = "その角度で大丈夫よ、<line-break><value:$28>。<line-break>えーと、それから次は…。<end>"
+korean = "그 각도면 괜찮아, <value:$28>. 음, 그리고 다음은….<end>"
+
 ["2560028"]
 japanese = "…な、何なの！？<end>"
 korean = "…뭐, 뭐야!?<end>"
@@ -23,3 +35,7 @@ korean = "자, 원래 세계로 돌아가세요!<end>"
 ["2560039"]
 japanese = "ご、ごめんなさーい…。<end>"
 korean = "미, 미안해요….<end>"
+
+["2560042"]
+japanese = "PSP用ロジクーニンが残した研究02用終端<end>"
+korean = "PSP용 로지쿠닌이 남긴 연구02용 끝<end>"

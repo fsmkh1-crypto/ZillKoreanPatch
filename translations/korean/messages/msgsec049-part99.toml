@@ -172,6 +172,10 @@ korean = "있잖아, <value:$28>.<end>"
 japanese = "ひっく、ひっく…<end>"
 korean = "흐윽, 흐윽…<end>"
 
+["490207"]
+japanese = "うわ～ん！！！<line-break><value:$28>～！<end>"
+korean = "우와아앙!!! <value:$28>~!<end>"
+
 ["490208"]
 japanese = "こっちもいろいろ事情があってな。<end>"
 korean = "이쪽도 여러 사정이 있어서 말이지.<end>"

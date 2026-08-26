@@ -8,6 +8,10 @@ korean = "질라크용 메시지 시작<end>"
 japanese = "いたぞ。<line-break>おい、あいつだ。<end>"
 korean = "찾았다. 야, 저 녀석이다.<end>"
 
+["1340002"]
+japanese = "<value:$28>だな。<line-break>ジラーク将軍がお呼びだ。<line-break>我々と来てもらおう。<end>"
+korean = "<value:$28>군. 지라크 장군께서 부르신다. 우리와 함께 가 줘야겠다.<end>"
+
 ["1340003"]
 japanese = "ジラーク将軍、<line-break><value:$28>を<line-break>連れてまいりましたっ！<end>"
 korean = "지라크 장군님, <value:$28>을 데려왔습니다!<end>"
@@ -272,6 +276,10 @@ korean = "노엘! 레이븐! 카핀!<end>"
 japanese = "どうしたの、ナーシェス？<end>"
 korean = "왜 그래, 나셰스?<end>"
 
+["1340240"]
+japanese = "ま、待って！<line-break>そんなの嘘だ！<end>"
+korean = "자, 잠깐! 그런 건 거짓말이야!<end>"
+
 ["1340242"]
 japanese = "ナーシェス、待って！<end>"
 korean = "나셰스, 기다려!<end>"
@@ -295,6 +303,10 @@ korean = "당신, 대체….<end>"
 ["1340258"]
 japanese = "で、でも…。<end>"
 korean = "하, 하지만….<end>"
+
+["1340262"]
+japanese = "よかった…。<line-break>やっぱり<value:$28>さんは<line-break>間違ってなかったのね…。<end>"
+korean = "다행이야…. 역시 <value:$28> 씨는 틀리지 않았어….<end>"
 
 ["1340263"]
 japanese = "ノエル！<end>"
@@ -359,6 +371,10 @@ korean = "레이븐!<end>"
 ["1340294"]
 japanese = "レイヴン！　大丈夫？！<end>"
 korean = "레이븐! 괜찮아?!<end>"
+
+["1340295"]
+japanese = "レイヴン！　<line-break>しっかりして！<end>"
+korean = "레이븐! 정신 차려!<end>"
 
 ["1340296"]
 japanese = "う…う…。<end>"

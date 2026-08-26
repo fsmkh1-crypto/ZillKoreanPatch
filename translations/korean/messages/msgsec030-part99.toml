@@ -8,6 +8,10 @@ korean = "여행 출발 03 메시지<end>"
 japanese = "させないっ！<end>"
 korean = "그렇게는 못 해!<end>"
 
+["300009"]
+japanese = "…<value:$28>、<line-break>あなたは、私が守ってあげる…。　　　<line-break>…<value:$28>。<end>"
+korean = "…<value:$28>, 너는 내가 지켜 줄게…. …<value:$28>.<end>"
+
 ["300016"]
 japanese = "あら、目が覚めたみたいね、          <line-break><value:$28>。<line-break>　<end>"
 korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
@@ -19,6 +23,10 @@ korean = "그, 그만해 주세요!<end>"
 ["300034"]
 japanese = "このお客さん、酔っぱらってて…。<end>"
 korean = "이 손님, 취해 있어서….<end>"
+
+["300037"]
+japanese = "ありがとうございますっ！<line-break><value:$28>さん、<line-break>ケガはありませんか？<end>"
+korean = "감사합니다! <value:$28> 씨, 다친 데는 없으세요?<end>"
 
 ["300044"]
 japanese = "あっ、<value:$28>さん！<end>"
@@ -83,6 +91,10 @@ korean = "알고 있다니까.<end>"
 ["300106"]
 japanese = "あら、<value:$28>さん、<line-break>いらっしゃいませ。<line-break>何かご用ですか？<end>"
 korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end>"
+
+["300121"]
+japanese = "あら、<value:$28>。<line-break>オッシさんの道場に行くのでは　<line-break>なかったの？<end>"
+korean = "어머, <value:$28>. 오시 씨 도장에 가는 거 아니었어?<end>"
 
 ["300131"]
 japanese = "予備メッセージ３<line-break>トリゴブ<end>"

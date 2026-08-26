@@ -4,6 +4,14 @@
 japanese = "終わったな。<line-break>戻るぞ、<value:$28>。<line-break>　<end>"
 korean = "끝났군. 돌아가자, <value:$28>.<end>"
 
+["180023"]
+japanese = "任務完了を確認しました。<line-break>ギルドへ戻りましょう、<line-break><value:$28>様。<end>"
+korean = "임무 완료를 확인했습니다. 길드로 돌아가죠, <value:$28> 님.<end>"
+
+["180024"]
+japanese = "ま、ざっとこんなもんね。<line-break>さっさとギルドへ戻ろう、<line-break><value:$28>。<end>"
+korean = "뭐, 대충 이런 거지. 얼른 길드로 돌아가자, <value:$28>.<end>"
+
 ["180039"]
 japanese = "依頼完了ね。<line-break>さあ、<value:$28>、<line-break>ギルドに戻って報告よ。<end>"
 korean = "의뢰 완료네. 자, <value:$28>, 길드로 돌아가 보고하자.<end>"
@@ -15,6 +23,10 @@ korean = "…이거네. 자, <value:$28>, 길드로 돌아가자.<end>"
 ["180058"]
 japanese = "これのようだな。<line-break>戻るぞ、<value:$28>。<line-break>　<end>"
 korean = "이것 같군. 돌아가자, <value:$28>.<end>"
+
+["180066"]
+japanese = "目標物、確保しました。<line-break>これで町へ帰れますね、<line-break><value:$28>様。<end>"
+korean = "목표물을 확보했습니다. 이제 마을로 돌아갈 수 있겠군요, <value:$28> 님.<end>"
 
 ["180086"]
 japanese = "赤い<end>"

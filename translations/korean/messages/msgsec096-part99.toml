@@ -24,6 +24,10 @@ korean = "<value:$28>…. 그게 네 이름인가…?<end>"
 japanese = "…見事だ。<end>"
 korean = "…훌륭하군.<end>"
 
+["960018"]
+japanese = "<value:$28>は<line-break>剣聖の称号を得た。<end>"
+korean = "<value:$28>는 검성의 칭호를 얻었다.<end>"
+
 ["960024"]
 japanese = "抜くがいい。<end>"
 korean = "뽑아 보아라.<end>"
@@ -47,3 +51,7 @@ korean = "바란다<end>"
 ["960031"]
 japanese = "望まない<end>"
 korean = "원하지 않는다<end>"
+
+["960035"]
+japanese = "<value:$28>は<line-break>剣聖の称号を得た。<end>"
+korean = "<value:$28>는 검성의 칭호를 얻었다.<end>"

@@ -4,6 +4,10 @@
 japanese = "エルファス　ボリューム５　開始<end>"
 korean = "엘파스 볼륨5 시작<end>"
 
+["1540001"]
+japanese = "………………。<line-break>　<line-break>　<line-break>美しいな…、<line-break>世界は…。<end>"
+korean = "………………. 아름답구나…, 세계는….<end>"
+
 ["1540007"]
 japanese = "…姉さんは死を望んでいた。<end>"
 korean = "…누나는 죽음을 바라고 있었어.<end>"
@@ -111,6 +115,10 @@ korean = "후훗. 흐음, 그렇구나.<end>"
 ["1540104"]
 japanese = "エルファス。イズのことは…。<end>"
 korean = "엘파스. 이즈에 대해서는….<end>"
+
+["1540109"]
+japanese = "だけど、<line-break>そうは…いかない！<end>"
+korean = "하지만, 그렇게는… 안 돼!<end>"
 
 ["1540110"]
 japanese = "そんなこと知るもんか。<end>"

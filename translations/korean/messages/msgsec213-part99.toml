@@ -12,6 +12,10 @@ korean = "여어, 당신인가…!<end>"
 japanese = "…あんたは？<end>"
 korean = "…당신은?<end>"
 
+["2130007"]
+japanese = "わしはイオンズ。<line-break>縁あって<value:$28>と<line-break>知り合った神官じゃ。<end>"
+korean = "나는 이온즈. 인연이 닿아 <value:$28>와 알게 된 신관일세.<end>"
+
 ["2130012"]
 japanese = "仕方ないな<end>"
 korean = "어쩔 수 없군<end>"

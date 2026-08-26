@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1290002"]
+japanese = "ご苦労様。<line-break>これが報酬だよ。<end>"
+korean = "수고했어. 이게 보상이야.<end>"
+
 ["1290007"]
 japanese = "次は期限を守ってくれよ。<end>"
 korean = "다음엔 기한을 지켜 줘.<end>"
@@ -27,3 +31,7 @@ korean = "스킬 포인트를 <value:$1A> 획득했다.<end>"
 ["1290024"]
 japanese = "<value:$15>は<value:$16>のスキルを<line-break>習得した。<end>"
 korean = "<value:$15>는 <value:$16>의 스킬을 습득했다.<end>"
+
+["1290027"]
+japanese = "クエスト・汎用メッセージファイル終端<end>"
+korean = "퀘스트 범용 메시지 파일 끝<end>"

@@ -264,6 +264,10 @@ korean = "오오, 플린트 씨네 <value:$28>구나. 오늘 출발하나?<end>"
 japanese = "…ゴメンね。<line-break><value:$28>。<end>"
 korean = "…미안해. <value:$28>.<end>"
 
+["330228"]
+japanese = "ね、<value:$28>。<line-break>宿屋のフリントさんのとこに<line-break>早くもどろうよぉ。<end>"
+korean = "저기, <value:$28>. 여관의 플린트 씨한테 빨리 돌아가자.<end>"
+
 ["330231"]
 japanese = "<value:$28>もお礼！<end>"
 korean = "<value:$28>도 고마워!<end>"
