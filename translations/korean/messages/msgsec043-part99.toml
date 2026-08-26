@@ -12,6 +12,10 @@ korean = "흉흉하네…<end>"
 japanese = "名は？<end>"
 korean = "이름은?<end>"
 
+["430012"]
+japanese = "…引き受けよう<end>"
+korean = "…맡지.<end>"
+
 ["430027"]
 japanese = "兄さん！！<end>"
 korean = "형!!<end>"
@@ -27,6 +31,10 @@ korean = "호오?<end>"
 ["430053"]
 japanese = "事故死です。<end>"
 korean = "사고사입니다.<end>"
+
+["430061"]
+japanese = "女にですと！？<end>"
+korean = "여자한테라고요!?<end>"
 
 ["430102"]
 japanese = "助けよう<end>"

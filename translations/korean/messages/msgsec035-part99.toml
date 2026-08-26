@@ -1,16 +1,40 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["350064"]
+japanese = "ノーブル：広場<end>"
+korean = "노블: 광장<end>"
+
+["350075"]
+japanese = "リベルダム：港<end>"
+korean = "리벨담: 항구<end>"
+
+["350102"]
+japanese = "ロセン：城門前<end>"
+korean = "로센: 성문 앞<end>"
+
 ["350104"]
 japanese = "ロセン：広場<end>"
 korean = "로센: 광장<end>"
+
+["350105"]
+japanese = "ロセン：繁華街<end>"
+korean = "로센: 번화가<end>"
 
 ["350109"]
 japanese = "ロセン：酒場<end>"
 korean = "로센: 술집<end>"
 
+["350119"]
+japanese = "ロセン：街の門<end>"
+korean = "로센: 도시의 문<end>"
+
 ["350121"]
 japanese = "ロセン：港<end>"
 korean = "로센: 항구<end>"
+
+["350169"]
+japanese = "エルズ：竜の座<end>"
+korean = "엘즈: 용의 자리<end>"
 
 ["350173"]
 japanese = "エルズ：広場<end>"
@@ -20,9 +44,37 @@ korean = "엘즈: 광장<end>"
 japanese = "エルズ：下都<end>"
 korean = "엘즈: 하도<end>"
 
+["350175"]
+japanese = "エルズ：下都２<end>"
+korean = "엘즈: 하도 2<end>"
+
+["350179"]
+japanese = "エルズ：道具屋<end>"
+korean = "엘즈: 도구점<end>"
+
+["350180"]
+japanese = "エルズ：鍛冶屋<end>"
+korean = "엘즈: 대장간<end>"
+
+["350184"]
+japanese = "エルズ：民家１<end>"
+korean = "엘즈: 민가 1<end>"
+
+["350185"]
+japanese = "エルズ：民家２<end>"
+korean = "엘즈: 민가 2<end>"
+
 ["350186"]
 japanese = "エルズ：港<end>"
 korean = "엘즈: 항구<end>"
+
+["350187"]
+japanese = "ラドラス：広場<end>"
+korean = "라드라스: 광장<end>"
+
+["350189"]
+japanese = "ラドラス：倉庫<end>"
+korean = "라드라스: 창고<end>"
 
 ["350229"]
 japanese = "テラネ：広場<end>"
@@ -32,6 +84,14 @@ korean = "테라네: 광장<end>"
 japanese = "テラネ：酒場<end>"
 korean = "테라네: 술집<end>"
 
+["350235"]
+japanese = "テラネ：道具屋<end>"
+korean = "테라네: 도구점<end>"
+
+["350236"]
+japanese = "テラネ：鍛冶屋<end>"
+korean = "테라네: 대장간<end>"
+
 ["350237"]
 japanese = "テラネ：教会<end>"
 korean = "테라네: 교회<end>"
@@ -39,6 +99,22 @@ korean = "테라네: 교회<end>"
 ["350240"]
 japanese = "テラネ：倉庫<end>"
 korean = "테라네: 창고<end>"
+
+["350241"]
+japanese = "テラネ：伐採場<end>"
+korean = "테라네: 벌목장<end>"
+
+["350242"]
+japanese = "テラネ：町の門<end>"
+korean = "테라네: 도시의 문<end>"
+
+["350243"]
+japanese = "アミラル：広場<end>"
+korean = "아미랄: 광장<end>"
+
+["350251"]
+japanese = "アミラル：酒場<end>"
+korean = "아미랄: 술집<end>"
 
 ["350255"]
 japanese = "アミラル：港<end>"
@@ -408,6 +484,22 @@ korean = "사룡의 단층 7<end>"
 japanese = "邪竜の断層８<end>"
 korean = "사룡의 단층 8<end>"
 
+["350387"]
+japanese = "リューンの森１<end>"
+korean = "리윤의 숲 1<end>"
+
+["350388"]
+japanese = "リューンの森２<end>"
+korean = "리윤의 숲 2<end>"
+
+["350389"]
+japanese = "リューンの森３<end>"
+korean = "리윤의 숲 3<end>"
+
+["350390"]
+japanese = "リューンの森４<end>"
+korean = "리윤의 숲 4<end>"
+
 ["350391"]
 japanese = "火山岩地帯１<end>"
 korean = "화산암 지대 1<end>"
@@ -716,6 +808,30 @@ korean = "바람의 황야4<end>"
 japanese = "風の荒野５<end>"
 korean = "바람의 황야5<end>"
 
+["350473"]
+japanese = "風泣きの洞窟１<end>"
+korean = "바람 우는 동굴 1<end>"
+
+["350474"]
+japanese = "風泣きの洞窟２<end>"
+korean = "바람 우는 동굴 2<end>"
+
+["350475"]
+japanese = "風泣きの洞窟３<end>"
+korean = "바람 우는 동굴 3<end>"
+
+["350476"]
+japanese = "風泣きの洞窟４<end>"
+korean = "바람 우는 동굴 4<end>"
+
+["350477"]
+japanese = "風泣きの洞窟５<end>"
+korean = "바람 우는 동굴 5<end>"
+
+["350478"]
+japanese = "風泣きの洞窟６<end>"
+korean = "바람 우는 동굴 6<end>"
+
 ["350479"]
 japanese = "紺碧の洞窟１<end>"
 korean = "감청빛 동굴 1<end>"
@@ -759,6 +875,58 @@ korean = "정적의 동굴 4<end>"
 ["350498"]
 japanese = "静寂の洞窟５<end>"
 korean = "정적의 동굴 5<end>"
+
+["350499"]
+japanese = "ツィーネの森１<end>"
+korean = "치네의 숲 1<end>"
+
+["350500"]
+japanese = "ツィーネの森２<end>"
+korean = "치네의 숲 2<end>"
+
+["350501"]
+japanese = "ツィーネの森３<end>"
+korean = "치네의 숲 3<end>"
+
+["350502"]
+japanese = "ツィーネの森４<end>"
+korean = "치네의 숲 4<end>"
+
+["350503"]
+japanese = "シェーヌの森１<end>"
+korean = "셰누의 숲 1<end>"
+
+["350504"]
+japanese = "シェーヌの森２<end>"
+korean = "셰누의 숲 2<end>"
+
+["350505"]
+japanese = "シェーヌの森３<end>"
+korean = "셰누의 숲 3<end>"
+
+["350506"]
+japanese = "シェーヌの森４<end>"
+korean = "셰누의 숲 4<end>"
+
+["350507"]
+japanese = "ミューンの森１<end>"
+korean = "뮤운의 숲 1<end>"
+
+["350508"]
+japanese = "ミューンの森２<end>"
+korean = "뮤운의 숲 2<end>"
+
+["350509"]
+japanese = "ミューンの森３<end>"
+korean = "뮤운의 숲 3<end>"
+
+["350510"]
+japanese = "ミューンの森４<end>"
+korean = "뮤운의 숲 4<end>"
+
+["350511"]
+japanese = "ミューンの森５<end>"
+korean = "뮤운의 숲 5<end>"
 
 ["350512"]
 japanese = "幻惑の洞窟１<end>"
@@ -811,6 +979,10 @@ korean = "마도의 탑 B2<end>"
 ["350528"]
 japanese = "魔道の塔Ｂ４<end>"
 korean = "마도의 탑 B4<end>"
+
+["350529"]
+japanese = "シャロームの前<end>"
+korean = "샬롬 앞<end>"
 
 ["350530"]
 japanese = "廃城１<end>"
@@ -964,6 +1136,10 @@ korean = "바람의 수호자 자리<end>"
 japanese = "土の守護者の座<end>"
 korean = "땅의 수호자 자리<end>"
 
+["350612"]
+japanese = "オズワルド：村<end>"
+korean = "오즈월드: 마을<end>"
+
 ["350618"]
 japanese = "砂虫の残骸１<end>"
 korean = "사충의 잔해 1<end>"
@@ -1116,6 +1292,18 @@ korean = "물의 수호자 자리<end>"
 japanese = "ジラーク軍陣中<end>"
 korean = "지라크군 진영<end>"
 
+["350660"]
+japanese = "ノヴィン軍陣中<end>"
+korean = "노빈군 진중<end>"
+
+["350664"]
+japanese = "ゼネテス軍陣中<end>"
+korean = "제네테스군 진중<end>"
+
+["350665"]
+japanese = "カルラ軍本陣前<end>"
+korean = "카를라군 본진 앞<end>"
+
 ["350666"]
 japanese = "カルラ軍陣中<end>"
 korean = "카를라군 진중<end>"
@@ -1160,6 +1348,22 @@ korean = "사안의 미궁 4<end>"
 japanese = "邪眼の迷宮５<end>"
 korean = "사안의 미궁 5<end>"
 
+["350739"]
+japanese = "ロセン～テラネ<end>"
+korean = "로센~테라네<end>"
+
+["350740"]
+japanese = "ロセン～エルズ<end>"
+korean = "로센~엘즈<end>"
+
+["350746"]
+japanese = "ロストール：丘<end>"
+korean = "로스톨: 언덕<end>"
+
+["350747"]
+japanese = "リベルダム：丘<end>"
+korean = "리벨담: 언덕<end>"
+
 ["350748"]
 japanese = "テラネ：丘<end>"
 korean = "테라네: 언덕<end>"
@@ -1168,9 +1372,21 @@ korean = "테라네: 언덕<end>"
 japanese = "アミラル：丘<end>"
 korean = "아미랄: 언덕<end>"
 
+["350750"]
+japanese = "ノーブル：畑１<end>"
+korean = "노블: 밭 1<end>"
+
+["350751"]
+japanese = "ノーブル：畑２<end>"
+korean = "노블: 밭 2<end>"
+
 ["350752"]
 japanese = "ノーブルの林<end>"
 korean = "노블의 숲<end>"
+
+["350753"]
+japanese = "ドンパドンの船<end>"
+korean = "돈파돈의 배<end>"
 
 ["350765"]
 japanese = "盗人村：寮内<end>"
@@ -1180,9 +1396,57 @@ korean = "도둑 마을: 기숙사 내부<end>"
 japanese = "盗人村：広場<end>"
 korean = "도둑 마을: 광장<end>"
 
+["350779"]
+japanese = "ロセン地下道１<end>"
+korean = "로센 지하도 1<end>"
+
+["350780"]
+japanese = "ロセン地下道２<end>"
+korean = "로센 지하도 2<end>"
+
+["350781"]
+japanese = "ロセン地下道３<end>"
+korean = "로센 지하도 3<end>"
+
+["350782"]
+japanese = "ロセン地下道４<end>"
+korean = "로센 지하도 4<end>"
+
+["350783"]
+japanese = "ロセン地下道５<end>"
+korean = "로센 지하도 5<end>"
+
+["350784"]
+japanese = "ロセン地下道６<end>"
+korean = "로센 지하도 6<end>"
+
+["350785"]
+japanese = "ロセン地下道７<end>"
+korean = "로센 지하도 7<end>"
+
+["350786"]
+japanese = "ロセン地下道８<end>"
+korean = "로센 지하도 8<end>"
+
 ["350787"]
 japanese = "異次元の世界１<end>"
 korean = "이차원의 세계 1<end>"
+
+["350788"]
+japanese = "ノーブルの森１<end>"
+korean = "노블의 숲 1<end>"
+
+["350789"]
+japanese = "ノーブルの森２<end>"
+korean = "노블의 숲 2<end>"
+
+["350790"]
+japanese = "ノーブルの森３<end>"
+korean = "노블의 숲 3<end>"
+
+["350791"]
+japanese = "ノーブルの森４<end>"
+korean = "노블의 숲 4<end>"
 
 ["350792"]
 japanese = "異次元の世界６<end>"

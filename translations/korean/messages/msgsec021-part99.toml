@@ -12,9 +12,17 @@ korean = "2페이지로<end>"
 japanese = "ロセン陥落<end>"
 korean = "로센 함락<end>"
 
+["210009"]
+japanese = "ノーブルの反乱<end>"
+korean = "노블의 반란<end>"
+
 ["210010"]
 japanese = "空中都市撃沈<end>"
 korean = "공중도시 격침<end>"
+
+["210011"]
+japanese = "リベルダム陥落<end>"
+korean = "리벨담 함락<end>"
 
 ["210012"]
 japanese = "３ページ目へ<end>"
@@ -24,6 +32,10 @@ korean = "3페이지로<end>"
 japanese = "旅立ちＴｕｇ<end>"
 korean = "여행 출발 Tug<end>"
 
+["210017"]
+japanese = "旅立ちトリゴブ<end>"
+korean = "여행길 트리 고블린<end>"
+
 ["210018"]
 japanese = "４ページ目へ<end>"
 korean = "4페이지로<end>"
@@ -31,6 +43,10 @@ korean = "4페이지로<end>"
 ["210024"]
 japanese = "５ページ目へ<end>"
 korean = "5페이지로<end>"
+
+["210028"]
+japanese = "カルラ進軍開始<end>"
+korean = "카를라 진군 개시<end>"
 
 ["210030"]
 japanese = "６ページ目へ<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["620044"]
+japanese = "ああ、メシ～。<end>"
+korean = "아아, 밥~.<end>"
+
 ["620055"]
 japanese = "団長！<end>"
 korean = "단장!<end>"
@@ -64,6 +68,14 @@ korean = "아야!<end>"
 japanese = "む。<end>"
 korean = "음.<end>"
 
+["620178"]
+japanese = "うそ臭いゴブ。<end>"
+korean = "수상쩍다 고브.<end>"
+
+["620189"]
+japanese = "は、はいゴブ！<end>"
+korean = "네, 넵 고브!<end>"
+
 ["620191"]
 japanese = "団長！<end>"
 korean = "단장!<end>"
@@ -71,6 +83,10 @@ korean = "단장!<end>"
 ["620192"]
 japanese = "マルーン！<end>"
 korean = "마룬!<end>"
+
+["620198"]
+japanese = "どうしてゴブ？<end>"
+korean = "왜 고브?<end>"
 
 ["620200"]
 japanese = "そんな…。<end>"
@@ -87,6 +103,10 @@ korean = "어떻습니까?<end>"
 ["620249"]
 japanese = "（未使用）<end>"
 korean = "(미사용)<end>"
+
+["620277"]
+japanese = "転送機について<end>"
+korean = "전송기에 대하여<end>"
 
 ["620279"]
 japanese = "ネモについて<end>"
@@ -119,6 +139,10 @@ korean = "응<end>"
 ["620337"]
 japanese = "いや別に…<end>"
 korean = "아니, 별건 아니야…<end>"
+
+["620338"]
+japanese = "うれしいです！<end>"
+korean = "기뻐요!<end>"
 
 ["620353"]
 japanese = "うっ！<end>"

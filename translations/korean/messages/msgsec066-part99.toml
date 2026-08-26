@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["660006"]
+japanese = "任務ですので。<end>"
+korean = "임무니까요.<end>"
+
 ["660008"]
 japanese = "では、閣下。<end>"
 korean = "그럼, 각하.<end>"
+
+["660028"]
+japanese = "なんですって？<end>"
+korean = "뭐라고요?<end>"
 
 ["660041"]
 japanese = "弔い酒？<end>"
@@ -19,6 +27,18 @@ korean = "한가함<end>"
 ["660063"]
 japanese = "忙しい<end>"
 korean = "바빠<end>"
+
+["660081"]
+japanese = "ゼネテス様…。<end>"
+korean = "제네테스 님….<end>"
+
+["660090"]
+japanese = "ゼネテス様…。<end>"
+korean = "제네테스 님….<end>"
+
+["660097"]
+japanese = "ありませんわ。<end>"
+korean = "없어요.<end>"
 
 ["660172"]
 japanese = "もう！<end>"

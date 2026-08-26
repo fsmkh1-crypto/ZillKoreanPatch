@@ -16,6 +16,14 @@ korean = "…아.<end>"
 japanese = "未使用<end>"
 korean = "미사용<end>"
 
+["640092"]
+japanese = "…すみません。<end>"
+korean = "…죄송합니다.<end>"
+
+["640115"]
+japanese = "…すみません。<end>"
+korean = "…죄송합니다.<end>"
+
 ["640216"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
@@ -131,6 +139,14 @@ korean = "미사용<end>"
 ["640300"]
 japanese = "大丈夫かい？<end>"
 korean = "괜찮아?<end>"
+
+["640302"]
+japanese = "ゼネ…テス…？<end>"
+korean = "제네… 테스…?<end>"
+
+["640303"]
+japanese = "ゼネテスさん！<end>"
+korean = "제네테스 씨!<end>"
 
 ["640308"]
 japanese = "うーい。<end>"

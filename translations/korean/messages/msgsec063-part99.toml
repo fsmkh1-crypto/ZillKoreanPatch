@@ -4,6 +4,10 @@
 japanese = "そこの人！<end>"
 korean = "거기 당신!<end>"
 
+["630013"]
+japanese = "来たようです。<end>"
+korean = "온 모양입니다.<end>"
+
 ["630025"]
 japanese = "へ、へい！<end>"
 korean = "예, 예!<end>"
@@ -59,6 +63,10 @@ korean = "…뭔가?<end>"
 ["630296"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
+
+["630321"]
+japanese = "笑える冗談だ。<end>"
+korean = "웃기는 농담이군.<end>"
 
 ["630352"]
 japanese = "空メッセージ<end>"
