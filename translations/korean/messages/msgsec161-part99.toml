@@ -248,6 +248,10 @@ korean = "지키고 싶은 거지?<end>"
 japanese = "…なんだ、小娘？<end>"
 korean = "…뭐냐, 꼬마 아가씨?<end>"
 
+["1610209"]
+japanese = "なんだよ！<line-break>キミ、何様のつもり！？<end>"
+korean = "뭐야! 너, 뭐라도 되는 줄 알아!?<end>"
+
 ["1610211"]
 japanese = "放せ！　放せしてよ！<line-break><value:$28>！<end>"
 korean = "놔! 놓으라고! <value:$28>!<end>"
@@ -255,6 +259,10 @@ korean = "놔! 놓으라고! <value:$28>!<end>"
 ["1610212"]
 japanese = "…<value:$28>が<line-break>そう言うなら…。<end>"
 korean = "…<value:$28>가 그렇게 말한다면….<end>"
+
+["1610214"]
+japanese = "…フッ、無知な<line-break>わがままエルフか？<end>"
+korean = "…훗, 무지하고 제멋대로인 엘프인가?<end>"
 
 ["1610217"]
 japanese = "…では、行くぞ。<end>"
