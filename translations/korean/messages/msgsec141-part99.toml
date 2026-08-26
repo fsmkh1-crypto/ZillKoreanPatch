@@ -376,6 +376,10 @@ korean = "저도 가겠습니다.<end>"
 japanese = "そう言われるだろうと思ってたわ。<line-break>でもね、思い出して、<line-break><value:$28>…。<end>"
 korean = "그렇게 말할 줄 알았어. 하지만 기억해 봐, <value:$28>….<end>"
 
+["1410244"]
+japanese = "あの戦乱の日々を。<line-break> <line-break> <line-break>わたくしに違う世界を<line-break>見せてくれたのは、<line-break>あなたじゃなくって？<end>"
+korean = "그 전란의 나날을…. 나에게 다른 세계를 보여 준 건 당신 아니었나요?<end>"
+
 ["1410247"]
 japanese = "…一緒に…来てくれない？<end>"
 korean = "…같이… 와 주지 않을래?<end>"
@@ -407,6 +411,10 @@ korean = "앗… 미안해요….<end>"
 ["1410261"]
 japanese = "ありがとう。<line-break>こんなことを打ち明けられるのは、<line-break><value:$28>だけなの。<end>"
 korean = "고마워. 이런 이야기를 털어놓을 수 있는 건 <value:$28>뿐이야.<end>"
+
+["1410263"]
+japanese = "また、あの闇に…<line-break>すべてを壊してしまうあの闇に、<line-break>落ちてしまうんじゃないかって…。<line-break>でも、そんな時…<end>"
+korean = "또 그 어둠에… 모든 것을 부숴 버리는 그 어둠에 빠져 버릴까 봐…. 하지만 그럴 때….<end>"
 
 ["1410269"]
 japanese = "<value:$28>…あなたがいれば、<line-break>私はもっと強くなれる気がする。<line-break>ずっと、そばにいてくれますね？<end>"
@@ -475,6 +483,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410303"]
 japanese = "そっちはどうだった、<value:$28>？<line-break>精霊の息吹を<line-break>感じられそうな場所は見つかったか？<end>"
 korean = "그쪽은 어땠어, <value:$28>? 정령의 숨결을 느낄 만한 곳은 찾았어?<end>"
+
+["1410305"]
+japanese = "精霊たちの数が減れば、<line-break>じき大地はうるおいを失い、<line-break>樹木は枯れてゆく…。<line-break>そうだったな、シェスター？<end>"
+korean = "정령들의 수가 줄면 머지않아 대지는 수분을 잃고 나무는 말라 죽는다…. 그랬지, 셰스터?<end>"
 
 ["1410309"]
 japanese = "だが、<value:$28>。<line-break>つぐなうというのは、<line-break>この場合、どうすることなのだろうか？<end>"
@@ -624,6 +636,10 @@ korean = "꼭 <value:$28>님께 말씀드리고 싶은 게 있었습니다. 떠�
 japanese = "えっ…。<line-break>手伝って…くれるのですか？<end>"
 korean = "네…? 도와… 주시는 건가요?<end>"
 
+["1410383"]
+japanese = "ありがとう…ありがとうございます、<line-break><value:$28>様。<line-break> <line-break><value:$28>様と一緒なら、<line-break>きっと…きっと…！<end>"
+korean = "고마워요… 감사합니다, <value:$28>님. <value:$28>님과 함께라면 분명… 분명…!<end>"
+
 ["1410387"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -671,6 +687,10 @@ korean = "그리고 너는 모든 슬픔을 계속 엮어 간다.<end>"
 ["1410412"]
 japanese = "君が愛しいよ。<line-break><value:$28>。<line-break>僕らが交わすのは口付けではなく刃。<line-break>愛の言葉ではなく呪いの言葉。<end>"
 korean = "네가 사랑스럽다. <value:$28>. 우리가 주고받는 건 입맞춤이 아니라 칼날. 사랑의 말이 아니라 저주의 말이지.<end>"
+
+["1410414"]
+japanese = "さあ、僕に死の口付けを！<line-break>君には愛の抱擁を！<line-break>幾千万の願いを賭けて、<line-break>果てなきダンスを踊り続けよう！<end>"
+korean = "자, 나에게 죽음의 입맞춤을! 너에게는 사랑의 포옹을! 수천수만의 소원을 걸고 끝없는 춤을 계속 추자!<end>"
 
 ["1410415"]
 japanese = "追加メッセージここから<end>"
@@ -735,6 +755,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410448"]
 japanese = "…終わったな。<line-break>これでまたひとつ。<end>"
 korean = "…끝났군. 이걸로 또 하나.<end>"
+
+["1410449"]
+japanese = "やれやれ…気の若さだけなら、<line-break><value:$28>、<line-break>おぬしと同世代と思ってはおるが、<line-break>さすがに体は正直だわい。<end>"
+korean = "허허… 마음만 젊다면 <value:$28>, 나도 자네와 동갑이라고 생각하지만 몸은 역시 솔직하구먼.<end>"
 
 ["1410454"]
 japanese = "封士の心得と一緒に、<line-break>何度も語り聞かせたろうが、<line-break><value:$28>。<line-break>あきれた奴じゃ、もう忘れたか？<end>"

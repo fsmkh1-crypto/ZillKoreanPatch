@@ -44,6 +44,10 @@ korean = "과거 딩갈의 수도가 이제는…. 조포르에게서 되찾아�
 japanese = "冗談言ってる場合じゃねえ！<line-break>ここで尻込みしてちゃ、<line-break>世界のお先は真っ暗だぜ！<line-break>敵が、闇の者だけにな！！<end>"
 korean = "농담할 때가 아니야! 여기서 겁먹으면 세상 앞날이 캄캄해진다고! 적이 어둠의 자들뿐이니까!!<end>"
 
+["1250070"]
+japanese = "ディンガル帝国首都、<line-break>エンシャントが…。<line-break>ゾフォル…許せない。<line-break>謁見の間に急ごう、<line-break><value:$28>！<end>"
+korean = "딘갈 제국 수도 엔샨트가…. 조폴… 용서 못 해. 알현실로 서두르자, <value:$28>!<end>"
+
 ["1250071"]
 japanese = "闇の皇帝が、<line-break>闇の帝国が誕生しようとしている。<line-break>放ってはおけない…！<line-break>謁見の間へ急ぐぞ！<end>"
 korean = "어둠의 황제가, 어둠의 제국이 탄생하려 하고 있어. 내버려 둘 수는 없어…! 알현실로 서두르자!<end>"

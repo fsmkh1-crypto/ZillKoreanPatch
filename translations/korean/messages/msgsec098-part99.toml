@@ -148,6 +148,10 @@ korean = "그래도 역시 <value:$28> 씨는 <value:$28> 씨였어요. 저, 기
 japanese = "あ、あの……、<line-break><value:$28>さん……。<end>"
 korean = "저, 저기…… <value:$28>님…….<end>"
 
+["980184"]
+japanese = "そうですよね……。　　　　　<line-break>　<line-break>　<line-break>あ、いえ、頑張ってください。<line-break>私も、応援してますからね。<end>"
+korean = "그렇죠……. 아, 아니에요. 힘내세요. 저도 응원하고 있으니까요.<end>"
+
 ["980185"]
 japanese = "<value:$28>さん……、<line-break>絶対、また来てください。<line-break>私、待ってますから………。<end>"
 korean = "<value:$28>님……, 꼭 다시 와 주세요. 저, 기다릴게요……….<end>"

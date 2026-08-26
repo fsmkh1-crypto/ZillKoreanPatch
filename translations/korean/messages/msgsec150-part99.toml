@@ -4,6 +4,10 @@
 japanese = "エルファス　ボリューム１その２　開始<end>"
 korean = "엘파스 볼륨 1 그 2 시작<end>"
 
+["1500008"]
+japanese = "剣は貴様の喉元に向いている。<line-break>本当に神の遣いなら、<line-break>素手で剣を受け止めてみろ！<line-break>奇跡を起こしてみろ！<end>"
+korean = "검은 네 목을 겨누고 있다. 정말 신의 사자라면 맨손으로 검을 받아 봐라! 기적을 일으켜 봐라!<end>"
+
 ["1500009"]
 japanese = "いくぞっ！<end>"
 korean = "간다!<end>"
@@ -119,6 +123,10 @@ korean = "남는다<end>"
 ["1500057"]
 japanese = "去る<end>"
 korean = "떠난다<end>"
+
+["1500060"]
+japanese = "神の声を解さぬ愚者よ。<line-break>我は神の遣いだ。<line-break>我の言葉を信じよ。<line-break>さもなくば…、<line-break>滅びあるのみだ。<end>"
+korean = "신의 목소리를 이해하지 못하는 어리석은 자여. 나는 신의 사자다. 내 말을 믿어라. 그렇지 않으면… 멸망뿐이다.<end>"
 
 ["1500064"]
 japanese = "神の遣いか。<line-break>…まさかなぁ。<end>"

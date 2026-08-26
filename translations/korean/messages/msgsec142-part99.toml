@@ -152,6 +152,10 @@ korean = "………………. <value:$28>, 너도 참 고생이 많구나….<en
 japanese = "親父、酒はまだか。<end>"
 korean = "아저씨, 술은 아직이야?<end>"
 
+["1420101"]
+japanese = "あらかじめ知ってしまっては、<line-break>不運もないが運もない。<line-break>不幸もないが幸もない…。<line-break>じゃろう、<value:$28>？<end>"
+korean = "미리 알아 버리면 불운도 없지만 행운도 없고, 불행도 없지만 행복도 없지…. 그렇지, <value:$28>?<end>"
+
 ["1420105"]
 japanese = "気がする…か。<line-break>エルズのエアが、<line-break>そんな言葉を使うようになるとは…。<line-break>世の中、面白いもんだね、まったく。<end>"
 korean = "느낌이라…. 엘즈의 에아가 그런 말을 쓰게 되다니…. 세상 참 재미있군.<end>"
@@ -167,6 +171,10 @@ korean = "하, 하지만 그런 짓을 하면 두 나라는….<end>"
 ["1420110"]
 japanese = "　　　来たか、<value:$28>…。<line-break><line-break><line-break><end>"
 korean = "왔나, <value:$28>….<end>"
+
+["1420112"]
+japanese = "　　　　　ノエルのソウルは、<line-break>　　　巨大であるはずの我の精神をも、<line-break>　　　　　無理なく収めた…。<line-break>　<end>"
+korean = "노엘의 소울은 거대할 터인 나의 정신조차 무리 없이 받아들였다….<end>"
 
 ["1420114"]
 japanese = "　　　ククク…そうだ、貴様のことだ、<line-break>　　　　　　<value:$28>。<line-break><line-break><end>"
@@ -615,6 +623,10 @@ korean = "그런데 우리, 왜 여기서 <value:$28>를 기다리고 있는 거
 ["1420350"]
 japanese = "どうしてって、それは…<end>"
 korean = "왜냐고? 그건….<end>"
+
+["1420357"]
+japanese = "ア、アイリーンこそ！<line-break> <line-break> <line-break>何の目的もないのに、<line-break>ここにいるのは、<line-break>おかしいじゃない！？<end>"
+korean = "아, 아이린이야말로! 아무 목적도 없으면서 여기 있는 게 이상하잖아!?<end>"
 
 ["1420358"]
 japanese = "うっ…。<end>"

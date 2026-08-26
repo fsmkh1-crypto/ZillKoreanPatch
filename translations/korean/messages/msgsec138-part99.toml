@@ -212,6 +212,10 @@ korean = "나, 나도 잘 모르겠어!<end>"
 japanese = "さ、殺気っ？<end>"
 korean = "사, 살기?<end>"
 
+["1380192"]
+japanese = "第一、どこのどいつなのよー！<line-break>こんなひどいところに<line-break>泊まろうって言い出したアホウは…<line-break>………………！<end>"
+korean = "애초에 어느 바보야! 이런 형편없는 곳에서 묵자고 한 녀석은… ………………!<end>"
+
 ["1380195"]
 japanese = "もう少しの辛抱だ<end>"
 korean = "조금만 더 참아<end>"
@@ -259,6 +263,10 @@ korean = "안녕히… 나를 망설이게 한 사람….<end>"
 ["1380214"]
 japanese = "そうやって…<line-break>私の身も心も縛るのですね。<line-break><line-break>こうした刹那の安らぎと引き換えに…。<end>"
 korean = "그렇게… 제 몸과 마음까지 묶으시는군요. 이런 찰나의 안식과 맞바꾸어….<end>"
+
+["1380215"]
+japanese = "狂おしいまでの切なさと<line-break>行き所のない恋しさを<line-break>抱えて生きろ…と言うのですね。<line-break>貴方は…卑怯…です…。<end>"
+korean = "미칠 듯한 애절함과 갈 곳 없는 그리움을 안고 살라는 거군요. 당신은… 비겁해요….<end>"
 
 ["1380216"]
 japanese = "………………。<line-break> <line-break> <line-break><value:$28>様…。<end>"

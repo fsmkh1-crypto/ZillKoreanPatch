@@ -176,6 +176,10 @@ korean = "예, 두목!<end>"
 japanese = "助かったわ、<value:$28>。<line-break>おかげで、また船を出せる。<line-break>秘宝探しに出られるわ。<end>"
 korean = "살았어, <value:$28>. 덕분에 다시 배를 띄울 수 있어. 비보를 찾으러 갈 수 있겠네.<end>"
 
+["1430103"]
+japanese = "しぶきの群島、古城、<line-break>闇の門の島について知りたければ、<line-break>また、私の所に来て。<line-break>今度、話してあげるわ。<end>"
+korean = "물보라 군도, 고성, 어둠의 문 섬에 대해 알고 싶으면 다시 나를 찾아와. 다음에 이야기해 줄게.<end>"
+
 ["1430104"]
 japanese = "<value:$28>じゃない。<line-break>私に何か用？<end>"
 korean = "<value:$28>잖아. 나한테 무슨 볼일이야?<end>"

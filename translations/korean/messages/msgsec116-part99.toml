@@ -116,6 +116,10 @@ korean = "어리석구나… 어리석어……. <end>"
 japanese = "火の最高位の魔法が解放された。<end>"
 korean = "불의 최고위 마법이 해방되었다.<end>"
 
+["1160135"]
+japanese = "　　　　　　　では、さらばだ。　　　　　　　<line-break>　　　　　　　<value:$28>、<line-break>　　　　　無限のソウルを持つ者よ。<end>"
+korean = "그럼 잘 있어라. <value:$28>, 무한의 소울을 지닌 자여.<end>"
+
 ["1160137"]
 japanese = "しょうがないな<end>"
 korean = "어쩔 수 없네<end>"
