@@ -44,6 +44,10 @@ korean = "테라네: 창고<end>"
 japanese = "アミラル：港<end>"
 korean = "아미랄: 항구<end>"
 
+["350266"]
+japanese = "猫屋敷：転送室<end>"
+korean = "고양이 저택: 전송실<end>"
+
 ["350267"]
 japanese = "猫屋敷：居間<end>"
 korean = "고양이 저택: 거실<end>"
@@ -127,6 +131,10 @@ korean = "신월의 탑7<end>"
 ["350288"]
 japanese = "新月の塔８<end>"
 korean = "신월의 탑8<end>"
+
+["350289"]
+japanese = "新月の塔：屋上<end>"
+korean = "신월의 탑: 옥상<end>"
 
 ["350296"]
 japanese = "夢幻の湖１<end>"
@@ -311,6 +319,10 @@ korean = "용왕의 섬5<end>"
 ["350361"]
 japanese = "竜王の島６<end>"
 korean = "용왕의 섬6<end>"
+
+["350365"]
+japanese = "竜王の島の火口<end>"
+korean = "용왕의 섬 화구<end>"
 
 ["350366"]
 japanese = "虹色の山脈１<end>"
