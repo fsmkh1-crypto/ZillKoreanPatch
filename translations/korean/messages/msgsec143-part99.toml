@@ -104,6 +104,10 @@ korean = "자, 얼른 배를 항구로 돌려놔.<end>"
 japanese = "へい、おかしら！<end>"
 korean = "예, 두목!<end>"
 
+["1430104"]
+japanese = "<value:$28>じゃない。<line-break>私に何か用？<end>"
+korean = "<value:$28>잖아. 나한테 무슨 볼일이야?<end>"
+
 ["1430105"]
 japanese = "闇の門の島とは？<end>"
 korean = "어둠의 문 섬이란?<end>"

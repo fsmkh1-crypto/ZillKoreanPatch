@@ -116,6 +116,10 @@ korean = "그렇습니까.<end>"
 japanese = "未使用<end>"
 korean = "미사용<end>"
 
+["1480126"]
+japanese = "フリントの子、<line-break><value:$28>ですね？<end>"
+korean = "플린트의 아이, <value:$28> 맞죠?<end>"
+
 ["1480129"]
 japanese = "私はヴィアリアリ。<end>"
 korean = "나는 비아리아리.<end>"

@@ -12,6 +12,10 @@ korean = "윽!!<end>"
 japanese = "おケガはございませんか？<end>"
 korean = "다치신 곳은 없습니까?<end>"
 
+["310017"]
+japanese = "<value:$28>さん…、<line-break>悪代官ボルボラに立ち向かう者を率いる<line-break>勇敢な少女。<end>"
+korean = "<value:$28> 씨…, 악대관 볼보라에 맞서는 사람들을 이끄는 용감한 소녀.<end>"
+
 ["310024"]
 japanese = "姉ちゃーん！<end>"
 korean = "누나아!<end>"
@@ -27,6 +31,10 @@ korean = "응, 누나! 가자!<end>"
 ["310033"]
 japanese = "やめろ！！　ボルボラ！<end>"
 korean = "그만둬!! 볼보라!<end>"
+
+["310034"]
+japanese = "くっ、また<value:$28>と<line-break>そのかわいくねえ弟か！<line-break>今日こそぶっ殺してやる！<end>"
+korean = "칫, 또 <value:$28>와 그 귀엽지도 않은 동생이냐! 오늘이야말로 죽여주마!<end>"
 
 ["310039"]
 japanese = "おい、女、<line-break>助太刀してやる。<end>"
@@ -211,6 +219,10 @@ korean = "레몬?<end>"
 ["310191"]
 japanese = "長老…、お前ら…！！<end>"
 korean = "장로…, 네놈들…!!<end>"
+
+["310192"]
+japanese = "…仕方あるまい。<line-break>これも町のためじゃ。<line-break>エスト様、<value:$28>、…すまぬ。<end>"
+korean = "…어쩔 수 없구나. 이것도 마을을 위해서다. 에스트 님, <value:$28>… 미안하네.<end>"
 
 ["310193"]
 japanese = "…<value:$28>、…逃げて。<line-break>早く…。<end>"

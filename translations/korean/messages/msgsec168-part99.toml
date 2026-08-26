@@ -4,6 +4,10 @@
 japanese = "ファーロス・ボリューム３その３開始<end>"
 korean = "파로스 볼륨 3 그 3 시작<end>"
 
+["1680006"]
+japanese = "<value:$28>か。<line-break>ティアナを頼むぞ。<end>"
+korean = "<value:$28>인가. 티아나를 부탁한다.<end>"
+
 ["1680010"]
 japanese = "よく来てくれた、<line-break><value:$28>。<end>"
 korean = "잘 와줬다, <value:$28>.<end>"
@@ -16,9 +20,17 @@ korean = "…확실히 너무 신경 쓴 걸지도 모르겠군.<end>"
 japanese = "<value:$28>よ。<line-break>期待している。<line-break>フリントのこと、忘れるな。<end>"
 korean = "<value:$28>. 기대하고 있다. 플린트 일을 잊지 마라.<end>"
 
+["1680030"]
+japanese = "<value:$28>、<line-break>そなたいくつになる？<end>"
+korean = "<value:$28>, 그대는 몇 살인가?<end>"
+
 ["1680036"]
 japanese = "<value:$28>か。<line-break>　<line-break>　<line-break>ゼネテスとはうまくやっているか？<end>"
 korean = "<value:$28>인가. 제네테스와는 잘 지내고 있나?<end>"
+
+["1680045"]
+japanese = "<value:$28>、<line-break>そなたいくつになる？<end>"
+korean = "<value:$28>, 그대는 몇 살인가?<end>"
 
 ["1680049"]
 japanese = "そうか。<line-break>　<line-break>　<line-break><value:$28>よ。<line-break>また来るとよい。<end>"

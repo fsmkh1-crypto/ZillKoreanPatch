@@ -80,6 +80,10 @@ korean = "힘을 빌려드릴까요<end>"
 japanese = "かかわるのは避けよう<end>"
 korean = "관여하는 건 피하자<end>"
 
+["1360106"]
+japanese = "いや、こちらは<line-break><value:$28>様にて<line-break>封士様の知己です。信頼に足る方かと。<end>"
+korean = "아뇨, 이분은 <value:$28> 님으로 봉사님과 아는 사이입니다. 믿을 만한 분일 겁니다.<end>"
+
 ["1360113"]
 japanese = "立てるか？<end>"
 korean = "일어설 수 있어?<end>"
@@ -159,6 +163,18 @@ korean = "이 리벨덤의 파괴도….<end>"
 ["1360185"]
 japanese = "…開け放つもの。<end>"
 korean = "…열어젖히는 자.<end>"
+
+["1360189"]
+japanese = "おう、<value:$28>、大変だ。<line-break>お前にカルラ将軍から<line-break>出頭命令が来てるぞ。<end>"
+korean = "어이, <value:$28>, 큰일이다. 카를라 장군에게서 출두 명령이 왔어.<end>"
+
+["1360192"]
+japanese = "おう、<value:$28>、大変だ。<line-break>お前にカルラ将軍から<line-break>出頭命令が来てるぞ。<end>"
+korean = "어이, <value:$28>, 큰일이다. 카를라 장군에게서 출두 명령이 왔어.<end>"
+
+["1360195"]
+japanese = "おう、<value:$28>、大変だ。<line-break>お前にカルラ将軍から<line-break>出頭命令が来てるぞ。<end>"
+korean = "어이, <value:$28>, 큰일이다. 카를라 장군에게서 출두 명령이 왔어.<end>"
 
 ["1360198"]
 japanese = "<value:$28>だな。<line-break>聞いている。<line-break>通るがいい。<end>"

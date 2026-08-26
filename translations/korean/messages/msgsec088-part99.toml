@@ -20,6 +20,10 @@ korean = "비시민 아니야<end>"
 japanese = "非市民で悪い？<end>"
 korean = "비시민이라 나빠?<end>"
 
+["880022"]
+japanese = "それじゃあね、<value:$28>。<line-break>見たい試合があるからボクは行くよ。<line-break>またね。<end>"
+korean = "그럼 안녕, <value:$28>. 보고 싶은 시합이 있어서 난 갈게. 또 보자.<end>"
+
 ["880024"]
 japanese = "そういう<value:$28>は<line-break>どうなんだい？<line-break>結構、強いんじゃない？　　　<end>"
 korean = "그런 <value:$28>는 어때? 꽤 강한 편 아니야?<end>"
@@ -268,6 +272,10 @@ korean = "갈 필요 같은 건 없어.<end>"
 japanese = "ホント！？<end>"
 korean = "정말!?<end>"
 
+["880227"]
+japanese = "グラジェオン、<line-break>ボクたち行くよ！<end>"
+korean = "그라제온, 우리 간다!<end>"
+
 ["880233"]
 japanese = "そんなことはない<end>"
 korean = "그렇지 않아<end>"
@@ -371,6 +379,10 @@ korean = "에스텔이야. 비었어.<end>"
 ["880294"]
 japanese = "あ…、<line-break><value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"
+
+["880296"]
+japanese = "やっぱり、<line-break>冒険って楽しいよね。<end>"
+korean = "역시 모험은 즐겁지.<end>"
 
 ["880297"]
 japanese = "では、我らも引き続き<line-break>捜してみます。<line-break>　<line-break>ゆくぞ。<end>"

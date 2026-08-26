@@ -92,6 +92,10 @@ korean = "오, <value:$28>. 돌아왔군. 수고했다.<end>"
 japanese = "な、何事だ？<end>"
 korean = "무, 무슨 일이지?<end>"
 
+["320054"]
+japanese = "わかりました、父上。<line-break><value:$28>も、<line-break>連れていってよろしいでしょうか。<end>"
+korean = "알겠습니다, 아버님. <value:$28>도 데려가도 될까요?<end>"
+
 ["320055"]
 japanese = "ならぬ。<line-break><value:$28>は未熟だ。<line-break>危険すぎる。<end>"
 korean = "안 된다. <value:$28>는 아직 미숙하다. 너무 위험해.<end>"

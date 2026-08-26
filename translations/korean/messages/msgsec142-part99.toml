@@ -180,6 +180,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "俺はもういいよ、とっつあん。<end>"
 korean = "난 이제 됐어, 아저씨.<end>"
 
+["1420189"]
+japanese = "だが、ま、<line-break><value:$28>も大変だな。<end>"
+korean = "하지만 뭐, <value:$28>도 고생이 많군.<end>"
+
 ["1420200"]
 japanese = "ありがとう…。<line-break><value:$28>…<line-break>そして…僕は、君のことを愛している。<end>"
 korean = "고마워…. <value:$28>… 그리고… 나는 널 사랑해.<end>"
@@ -247,6 +251,10 @@ korean = "제네테스, 네 잔 비었잖아!<end>"
 ["1420262"]
 japanese = "俺はもういいよ、とっつあん。<end>"
 korean = "난 이제 됐어, 아저씨.<end>"
+
+["1420263"]
+japanese = "だが、ま、<line-break><value:$28>も大変だな。<end>"
+korean = "하지만 뭐, <value:$28>도 고생이 많군.<end>"
 
 ["1420266"]
 japanese = "微妙に、時差がある…。<end>"

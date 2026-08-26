@@ -52,6 +52,14 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "ティアナ王女の部屋<end>"
 korean = "티아나 왕녀의 방<end>"
 
+["1400024"]
+japanese = "そうですか。　　　　　　　　<line-break> <end>"
+korean = "그렇습니까.<end>"
+
+["1400025"]
+japanese = "どうぞ、お通りください。　　<line-break> <end>"
+korean = "어서 지나가십시오.<end>"
+
 ["1400026"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
@@ -59,6 +67,18 @@ korean = "딱히 볼일은 없다<end>"
 ["1400027"]
 japanese = "エリス王妃の執務室<end>"
 korean = "엘리스 왕비의 집무실<end>"
+
+["1400028"]
+japanese = "そうですか。　　　　　　　　<line-break> <end>"
+korean = "그렇습니까.<end>"
+
+["1400029"]
+japanese = "どうぞ、お通りください。　　<line-break> <end>"
+korean = "어서 지나가십시오.<end>"
+
+["1400030"]
+japanese = "そうですか。　　　　　　　　<line-break> <end>"
+korean = "그렇습니까.<end>"
 
 ["1400031"]
 japanese = "…これで強くなれるんだな。<end>"
@@ -511,6 +531,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1400383"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1400386"]
+japanese = "<value:$28>さん、<line-break>エステルさんは…<end>"
+korean = "<value:$28> 씨, 에스텔 씨는…<end>"
 
 ["1400387"]
 japanese = "言わずともよい<line-break>水の巫女よ。<end>"

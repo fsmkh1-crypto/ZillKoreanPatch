@@ -24,6 +24,10 @@ korean = "한 그릇 더!<end>"
 japanese = "むぐっ…。<end>"
 korean = "윽….<end>"
 
+["1980024"]
+japanese = "うう…。まさかこんな失敗作を<line-break><value:$28>さんに<line-break>お出ししてたなんて…。<end>"
+korean = "으으…. 설마 이런 실패작을 <value:$28> 씨에게 내놓고 있었다니….<end>"
+
 ["1980030"]
 japanese = "えーと…。<line-break>……<line-break>……。<end>"
 korean = "음…. …… …….<end>"
@@ -203,6 +207,10 @@ korean = "뭐라고 하셨나요?<end>"
 ["1980223"]
 japanese = "その魔道器…<line-break>見つかるといいですね、<line-break><value:$28>。<end>"
 korean = "그 마도기… 찾을 수 있으면 좋겠네요, <value:$28>.<end>"
+
+["1980224"]
+japanese = "どうしよう…。<line-break>何とかして<value:$28>さんに<line-break>あきらめてもらわないと…。<end>"
+korean = "어쩌지…. 어떻게든 <value:$28> 씨가 포기하게 해야 해….<end>"
 
 ["1980232"]
 japanese = "そ、そうですか…。<end>"

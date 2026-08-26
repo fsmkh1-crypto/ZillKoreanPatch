@@ -12,6 +12,10 @@ korean = "…아, 그래.<end>"
 japanese = "えっ…！？<end>"
 korean = "어…!?<end>"
 
+["2110015"]
+japanese = "………………。<line-break>悪い、<value:$28>。<line-break>しばらくひとりにしておいてくれ。<end>"
+korean = "………………. 미안, <value:$28>. 잠시 혼자 있게 해줘.<end>"
+
 ["2110016"]
 japanese = "異種族間の５-１用終端<end>"
 korean = "이종족 간 5-1용 끝<end>"

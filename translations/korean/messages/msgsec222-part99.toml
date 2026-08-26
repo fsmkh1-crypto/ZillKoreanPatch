@@ -28,6 +28,10 @@ korean = "누나, 고마워.<end>"
 japanese = "ありがとう。<end>"
 korean = "고마워.<end>"
 
+["2220023"]
+japanese = "ほら。<value:$28>もヴァンも<line-break>ボーッと突っ立っていないで<line-break>何かしてよ。<end>"
+korean = "자. <value:$28>도 반도 멍하니 서 있지 말고 뭐라도 해.<end>"
+
 ["2220024"]
 japanese = "迷子イベント5用終端<end>"
 korean = "미아 이벤트 5용 종료<end>"

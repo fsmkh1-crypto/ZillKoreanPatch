@@ -80,6 +80,10 @@ korean = "<value:$28>!<end>"
 japanese = "<value:$28>、<line-break>強く…生きて…。<end>"
 korean = "<value:$28>, 강하게… 살아가….<end>"
 
+["360088"]
+japanese = "じゃ、あらためてぇ…。<line-break>あたしは、ルルアンタ。<line-break>よろしくね、<value:$28>。<end>"
+korean = "그럼 다시 소개할게…. 난 루루안타. 잘 부탁해, <value:$28>.<end>"
+
 ["360089"]
 japanese = "予備メッセージ１<line-break>０９始まりの地<end>"
 korean = "예비 메시지 1 09 시작의 땅<end>"

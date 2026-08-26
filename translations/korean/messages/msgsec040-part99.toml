@@ -208,6 +208,14 @@ korean = "이번 일로 질렸으면 이제 손 떼.<end>"
 japanese = "久しぶりね。<end>"
 korean = "오랜만이네.<end>"
 
+["400121"]
+japanese = "闇の神器の探索を依頼された<line-break><value:$28>という冒険者、<line-break>あなただったのね。<end>"
+korean = "어둠의 신기 탐색을 의뢰받은 <value:$28>라는 모험자, 당신이었군요.<end>"
+
+["400126"]
+japanese = "やあ、<value:$28>。<line-break>こんなところで会うなんて、<line-break>ふふ、うれしい偶然だね。<end>"
+korean = "안녕, <value:$28>. 이런 데서 만나다니, 후후, 기쁜 우연이네.<end>"
+
 ["400127"]
 japanese = "…闇の神器を探しているの？<end>"
 korean = "…어둠의 신기를 찾고 있는 거야?<end>"

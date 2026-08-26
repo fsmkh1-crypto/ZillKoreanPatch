@@ -376,9 +376,17 @@ korean = "어서 와, 레므온….<end>"
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 
+["1330499"]
+japanese = "これで<value:$28>も、<line-break>もう、私を否定できなくなる…。<line-break>フフ…ウフフ…。<end>"
+korean = "이제 <value:$28>도 더는 나를 부정할 수 없게 돼…. 후후… 우후후….<end>"
+
 ["1330503"]
 japanese = "…<value:$28>。<line-break>俺…の最高…の女に…<line-break>見送って…もらえるのか…。<end>"
 korean = "…<value:$28>. 내… 최고의 여자에게… 배웅받을 수 있는 건가….<end>"
+
+["1330510"]
+japanese = "これで<value:$28>も、<line-break>もう、私を否定できなくなる…。<line-break>フフ…ウフフ…。<end>"
+korean = "이제 <value:$28>도 더는 나를 부정할 수 없게 돼…. 후후… 우후후….<end>"
 
 ["1330514"]
 japanese = "…<value:$28>。<line-break>俺…の最高…の女に…<line-break>見送って…もらえるのか…。<end>"
@@ -543,6 +551,10 @@ korean = "무슨 일이 있어도 들어간다<end>"
 ["1330701"]
 japanese = "それがいいですよ<end>"
 korean = "그게 좋겠어요<end>"
+
+["1330703"]
+japanese = "<value:$28>は<line-break>ウルグを手に入れた。<end>"
+korean = "<value:$28>는 울그를 손에 넣었다.<end>"
 
 ["1330704"]
 japanese = "追加メッセージここから<end>"
