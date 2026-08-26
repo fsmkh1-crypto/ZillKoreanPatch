@@ -140,6 +140,10 @@ korean = "저기…, 카를라 님.<end>"
 japanese = "ん？　なに、アイリーン？<end>"
 korean = "응? 왜, 아이린?<end>"
 
+["1800101"]
+japanese = "今回の戦い、私に指揮を<line-break>とらせてください。<end>"
+korean = "이번 싸움은 제가 지휘하게 해 주세요.<end>"
+
 ["1800108"]
 japanese = "わかった。いいわよ。<end>"
 korean = "알았어. 좋아.<end>"
@@ -195,6 +199,10 @@ korean = "찾았다! 카를라다!!<end>"
 ["1800134"]
 japanese = "ゼネテス！<end>"
 korean = "제네테스!<end>"
+
+["1800135"]
+japanese = "まいったね…。<line-break>カルラだけじゃないわけか。<end>"
+korean = "곤란하군…. 카를라만이 아니었나.<end>"
 
 ["1800137"]
 japanese = "ここでお前を討ちとれば、<line-break>戦力差がどうあれ、<line-break>こっちの勝ちだ。<line-break>その首、もらうぜ！<end>"
