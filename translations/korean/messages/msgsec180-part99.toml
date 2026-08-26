@@ -156,6 +156,10 @@ korean = "호출<end>"
 japanese = "か、カ、カルラ様！<line-break>大変です！<end>"
 korean = "카, 카, 카를라 님! 큰일입니다!<end>"
 
+["1800121"]
+japanese = "そ、そんな！<line-break>私がもたついたばかりに…！<end>"
+korean = "그, 그럴 수가! 제가 꾸물거리는 바람에…!<end>"
+
 ["1800123"]
 japanese = "し、しかし！<end>"
 korean = "하, 하지만!<end>"
@@ -175,6 +179,10 @@ korean = "찾았다! 카를라다!!<end>"
 ["1800134"]
 japanese = "ゼネテス！<end>"
 korean = "제네테스!<end>"
+
+["1800139"]
+japanese = "くっ…。<line-break>カルラひとりならやれたものを！<end>"
+korean = "큭…. 카를라 혼자였다면 해치웠을 텐데!<end>"
 
 ["1800140"]
 japanese = "ゼネテス様！<end>"

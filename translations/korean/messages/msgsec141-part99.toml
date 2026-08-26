@@ -160,6 +160,10 @@ korean = "(매력적…? 내가…?)<end>"
 japanese = "ええ。<line-break>どうもありがとう。<end>"
 korean = "응. 정말 고마워.<end>"
 
+["1410112"]
+japanese = "それでは、失礼いたします。<line-break>　<line-break>　<end>"
+korean = "그럼, 실례하겠습니다.　　<end>"
+
 ["1410118"]
 japanese = "あ、あの…。<line-break>どう、ですか？<end>"
 korean = "저, 저기…. 어때요?<end>"
@@ -643,6 +647,10 @@ korean = "필살기다 고브ー!<end>"
 ["1410467"]
 japanese = "むにゅー…。<end>"
 korean = "우뉴우….<end>"
+
+["1410468"]
+japanese = "ほーっほっほっ、<line-break>むにゅー、ですわねー。<end>"
+korean = "호호호호, 말랑말랑하군요~.<end>"
 
 ["1410475"]
 japanese = "ゴブゴブ団はストラスエッジを手に入れた。<end>"

@@ -160,6 +160,10 @@ korean = "정말, 레몬 님!<end>"
 japanese = "ふふ、<line-break>大事な幼なじみですものね。<end>"
 korean = "후후, 소중한 소꿉친구잖아요.<end>"
 
+["650101"]
+japanese = "そうだな。<line-break>大事な幼なじみ…だからな。<end>"
+korean = "그래.소중한 소꿉친구…니까.<end>"
+
 ["650104"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
