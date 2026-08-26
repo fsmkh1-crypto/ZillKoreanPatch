@@ -4,6 +4,10 @@
 japanese = "よう。<end>"
 korean = "여어.<end>"
 
+["280034"]
+japanese = "えーっ！？<end>"
+korean = "에엣!?<end>"
+
 ["280047"]
 japanese = "おうよ。<end>"
 korean = "그럼.<end>"
@@ -11,3 +15,7 @@ korean = "그럼.<end>"
 ["280144"]
 japanese = "ヴァン！<end>"
 korean = "반!<end>"
+
+["280145"]
+japanese = "う…う…。<end>"
+korean = "으…으….<end>"

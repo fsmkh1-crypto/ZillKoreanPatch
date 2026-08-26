@@ -1,5 +1,77 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["170050"]
+japanese = "エストック<end>"
+korean = "에스토크<end>"
+
+["170053"]
+japanese = "ファルカタ<end>"
+korean = "팔카타<end>"
+
+["170056"]
+japanese = "タルワール<end>"
+korean = "탈와르<end>"
+
+["170057"]
+japanese = "バデレール<end>"
+korean = "바델레르<end>"
+
+["170059"]
+japanese = "ロムパイア<end>"
+korean = "롬파이아<end>"
+
+["170062"]
+japanese = "ファルクス<end>"
+korean = "팔크스<end>"
+
+["170072"]
+japanese = "ジャベリン<end>"
+korean = "재블린<end>"
+
+["170074"]
+japanese = "コルセスカ<end>"
+korean = "코르세스카<end>"
+
+["170077"]
+japanese = "ハルベルト<end>"
+korean = "할버드<end>"
+
+["170099"]
+japanese = "ジェンダワ<end>"
+korean = "젠다와<end>"
+
+["170102"]
+japanese = "ライトボウ<end>"
+korean = "라이트 보우<end>"
+
+["170104"]
+japanese = "ロングボウ<end>"
+korean = "롱보우<end>"
+
+["170107"]
+japanese = "バトルボウ<end>"
+korean = "배틀 보우<end>"
+
+["170114"]
+japanese = "バグ・ナウ<end>"
+korean = "바그 나우<end>"
+
+["170120"]
+japanese = "バックラー<end>"
+korean = "버클러<end>"
+
+["170131"]
+japanese = "サーコート<end>"
+korean = "서코트<end>"
+
+["170146"]
+japanese = "ホーバーク<end>"
+korean = "호버크<end>"
+
+["170223"]
+japanese = "竜王の覚醒<end>"
+korean = "용왕의 각성<end>"
+
 ["170224"]
 japanese = "開戦<end>"
 korean = "개전<end>"
@@ -191,6 +263,10 @@ korean = "한계<end>"
 ["170280"]
 japanese = "孤独<end>"
 korean = "고독<end>"
+
+["170282"]
+japanese = "宝箱開ける<end>"
+korean = "보물상자를 연다<end>"
 
 ["170284"]
 japanese = "祭<end>"

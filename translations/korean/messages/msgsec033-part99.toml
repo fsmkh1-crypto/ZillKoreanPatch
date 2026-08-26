@@ -1,12 +1,32 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["330014"]
+japanese = "ふぅーん。<end>"
+korean = "흐~응.<end>"
+
+["330029"]
+japanese = "そうだよ。<end>"
+korean = "그래.<end>"
+
+["330061"]
+japanese = "…あの人？<end>"
+korean = "…그 사람?<end>"
+
 ["330070"]
 japanese = "へえ。<end>"
 korean = "헤에.<end>"
 
+["330077"]
+japanese = "はぁーい！<end>"
+korean = "네~!<end>"
+
 ["330084"]
 japanese = "ふぅん。<end>"
 korean = "흐응.<end>"
+
+["330125"]
+japanese = "バカ野郎！<end>"
+korean = "바보 자식!<end>"
 
 ["330157"]
 japanese = "…ねぇ。<end>"
@@ -20,6 +40,14 @@ korean = "…있잖아.<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["330203"]
+japanese = "もう少し…<end>"
+korean = "조금만 더…<end>"
+
 ["330212"]
 japanese = "とう！<end>"
 korean = "타앗!<end>"
+
+["330240"]
+japanese = "フリント！<end>"
+korean = "플린트!<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1890000"]
+japanese = "Ｖ７開始<end>"
+korean = "V7 시작<end>"
+
 ["1890105"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -7,3 +11,7 @@ korean = "핫!<end>"
 ["1890107"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1890199"]
+japanese = "Ｖ７終端<end>"
+korean = "V7 끝<end>"

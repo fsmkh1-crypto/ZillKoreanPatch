@@ -4,6 +4,26 @@
 japanese = "詠唱<end>"
 korean = "영창<end>"
 
+["1960438"]
+japanese = "ファドル<end>"
+korean = "파돌<end>"
+
+["1960439"]
+japanese = "ポイズン<end>"
+korean = "포이즌<end>"
+
+["1960442"]
+japanese = "スリープ<end>"
+korean = "슬립<end>"
+
+["1960446"]
+japanese = "呪いガス<end>"
+korean = "저주 가스<end>"
+
+["1960448"]
+japanese = "麻痺ガス<end>"
+korean = "마비 가스<end>"
+
 ["1960449"]
 japanese = "爆発<end>"
 korean = "폭발<end>"
@@ -15,6 +35,18 @@ korean = "빛1<end>"
 ["1960457"]
 japanese = "光２<end>"
 korean = "빛2<end>"
+
+["1960474"]
+japanese = "次元の輪<end>"
+korean = "차원의 고리<end>"
+
+["1960515"]
+japanese = "風の行方<end>"
+korean = "바람의 행방<end>"
+
+["1960517"]
+japanese = "かぐや姫<end>"
+korean = "카구야 공주<end>"
 
 ["1960535"]
 japanese = "　予備<end>"
@@ -52,6 +84,14 @@ korean = "　예비<end>"
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960711"]
+japanese = "　セラEND<end>"
+korean = " 세라 END<end>"
+
+["1960939"]
+japanese = "組手勝負<end>"
+korean = "대련 승부<end>"
+
 ["1960956"]
 japanese = "新月の_1<end>"
 korean = "신월의_1<end>"
@@ -88,6 +128,18 @@ korean = "신월의_8<end>"
 japanese = "新月の_9<end>"
 korean = "신월의_9<end>"
 
+["1960965"]
+japanese = "新月の_10<end>"
+korean = "신월의_10<end>"
+
+["1960966"]
+japanese = "初めての<end>"
+korean = "처음의<end>"
+
+["1960967"]
+japanese = "元救世主<end>"
+korean = "전 구세주<end>"
+
 ["1960968"]
 japanese = "通信機<end>"
 korean = "통신기<end>"
@@ -123,3 +175,31 @@ korean = "열애<end>"
 ["1960986"]
 japanese = "激愛<end>"
 korean = "격애<end>"
+
+["1960989"]
+japanese = "木材調達<end>"
+korean = "목재 조달<end>"
+
+["1961000"]
+japanese = "薬草入手<end>"
+korean = "약초 입수<end>"
+
+["1961003"]
+japanese = "男前発言<end>"
+korean = "남자다운 발언<end>"
+
+["1961120"]
+japanese = "ロイ合流<end>"
+korean = "로이 합류<end>"
+
+["1961121"]
+japanese = "魔獣の影<end>"
+korean = "마수의 그림자<end>"
+
+["1961149"]
+japanese = "おつかい<end>"
+korean = "심부름<end>"
+
+["1961157"]
+japanese = "王妃謁見<end>"
+korean = "왕비 알현<end>"
