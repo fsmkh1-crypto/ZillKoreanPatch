@@ -56,6 +56,10 @@ korean = "이 몸은….<end>"
 japanese = "それが答え？<line-break>愚かすぎるよ。<end>"
 korean = "그게 답이야? 너무 어리석군.<end>"
 
+["1330064"]
+japanese = "愚かな…。<line-break>そなたらは運命に抗えると思うのか？<end>"
+korean = "어리석군…. 너희는 운명에 맞설 수 있다고 생각하나?<end>"
+
 ["1330068"]
 japanese = "フフ……そなたとでは話にならんな。<line-break><value:$28>よ、どうする？<line-break>そなたも行くなどと申すのか？<end>"
 korean = "후후…… 그대와는 이야기가 안 되는군.<value:$28>여, 어떻게 할 텐가?그대도 가겠다는 건가?<end>"
@@ -83,6 +87,10 @@ korean = "네가 파티의 리더야. 나도 네 결정에는… 따를게. …�
 ["1330076"]
 japanese = "エア！！<line-break>そんな………。<end>"
 korean = "에아!! 그럴 수가……….<end>"
+
+["1330078"]
+japanese = "なーんちゃって！<line-break>うっそだよー！！　アハハ！！<end>"
+korean = "…라고 할 줄 알았지! 거짓말이야!! 아하하!!<end>"
 
 ["1330079"]
 japanese = "約束だ。<line-break>じゃ、彼女はもらっていくよん。<end>"
@@ -508,6 +516,10 @@ korean = "호호호….<end>"
 japanese = "こんな醜い世界…<line-break>見なければ良かった…。<line-break>知らなければ良かった…。<line-break>全てを無に還すの。<end>"
 korean = "이런 추악한 세상… 보지 말았어야 했어…. 몰랐어야 했어…. 모든 것을 무로 돌릴 거야.<end>"
 
+["1330357"]
+japanese = "人は運命にあらがえないのよ。<line-break>ベルゼーヴァ…。<end>"
+korean = "사람은 운명에 거스를 수 없어. 벨제바….<end>"
+
 ["1330360"]
 japanese = "…見えなければ、よかった。<end>"
 korean = "…보이지 않았다면 좋았을 텐데.<end>"
@@ -660,6 +672,10 @@ korean = "…미안…하다. 내… 소중한 <value:$28>…. 나는 너를 지
 japanese = "これで<value:$28>も、<line-break>もう、私を否定できなくなる…。<line-break>フフ…ウフフ…。<end>"
 korean = "이제 <value:$28>도 더는 나를 부정할 수 없게 돼…. 후후… 우후후….<end>"
 
+["1330500"]
+japanese = "…ティア…ナ、<line-break>それ…お前…不幸じゃねえ…か？<end>"
+korean = "…티아…나, 그거… 너… 불행한 거… 아니냐?<end>"
+
 ["1330501"]
 japanese = "ゼネテス？<line-break>そんな、ありえない…！<line-break>死んでまで、私を否定する気なの？<line-break>レムオン！<line-break>ゼネテスを片づけて！<end>"
 korean = "제네테스? 그럴 리 없어…! 죽어서까지 나를 부정할 셈이야? 레무온! 제네테스를 처리해!<end>"
@@ -675,6 +691,10 @@ korean = "역시네, <value:$28>. 역시 껍데기만으로는 힘이 부족한 
 ["1330510"]
 japanese = "これで<value:$28>も、<line-break>もう、私を否定できなくなる…。<line-break>フフ…ウフフ…。<end>"
 korean = "이제 <value:$28>도 더는 나를 부정할 수 없게 돼…. 후후… 우후후….<end>"
+
+["1330511"]
+japanese = "…ティア…ナ、<line-break>それ…お前…不幸じゃねえ…か？<end>"
+korean = "…티아…나, 그거… 너… 불행한 거… 아니냐?<end>"
 
 ["1330514"]
 japanese = "…<value:$28>。<line-break>俺…の最高…の女に…<line-break>見送って…もらえるのか…。<end>"
@@ -903,6 +923,10 @@ korean = "아, 또야? 지금 가.<end>"
 ["1330642"]
 japanese = "それじゃぁな。<end>"
 korean = "그럼, 잘 있어.<end>"
+
+["1330648"]
+japanese = "神官と傭兵だらけ…<line-break>いやはや、殺風景な町じゃ。<end>"
+korean = "신관과 용병뿐이군…. 참 삭막한 마을이야.<end>"
 
 ["1330659"]
 japanese = "ああ、こいつか。こいつはな…。<end>"

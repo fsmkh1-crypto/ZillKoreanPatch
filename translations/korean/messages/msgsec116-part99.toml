@@ -36,9 +36,17 @@ korean = "너도 두 번 다시 정령신전에는 가까이 가지 마라.<end>
 japanese = "誰…？　　　　　　　　　<line-break>　<line-break>　<line-break>…長老以外の…人…。<end>"
 korean = "누구…? …장로님 말고… 다른 사람….<end>"
 
+["1160029"]
+japanese = "…ここは、<line-break>火の精霊神殿。　　　　　<line-break>　<line-break>私はフレア。<line-break>この神殿と、それに連なる<line-break>封印を守る…火の巫女。<end>"
+korean = "…여기는 불의 정령신전. 나는 플레어. 이 신전과 그에 이어진 봉인을 지키는… 불의 무녀다.<end>"
+
 ["1160031"]
 japanese = "誰…？　　　　　　　　　<line-break>　<line-break>　<line-break>…長老以外の…人…。<end>"
 korean = "누구…? …장로님 말고… 다른 사람….<end>"
+
+["1160032"]
+japanese = "…ここは、<line-break>火の精霊神殿。　　　　　<line-break>　<line-break>私はフレア。<line-break>この神殿と、それに連なる<line-break>封印を守る…火の巫女。<end>"
+korean = "…여기는 불의 정령신전. 나는 플레어. 이 신전과 그에 이어진 봉인을 지키는… 불의 무녀다.<end>"
 
 ["1160033"]
 japanese = "何をしているんだね、君は！？<end>"
@@ -127,6 +135,10 @@ korean = "아…<end>"
 ["1160102"]
 japanese = "…<value:$28>…。<line-break>このようなときに来られるとは…。<line-break>　<line-break>…私は、これから、死にます。<end>"
 korean = "…<value:$28>….이런 때에 오다니….　…나는 이제 죽습니다.<end>"
+
+["1160104"]
+japanese = "あなたには、<line-break>私がみにくく死ぬさまを　　　<line-break>見られたくありません。<line-break>さようなら。<line-break>私の死を苦いものにした人よ。<end>"
+korean = "당신에게 제가 추하게 죽는 모습을 보이고 싶지 않습니다. 안녕히. 제 죽음을 쓰디쓰게 만든 사람이여.<end>"
 
 ["1160119"]
 japanese = "わかった<end>"

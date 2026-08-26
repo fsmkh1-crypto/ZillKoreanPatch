@@ -128,6 +128,10 @@ korean = "야, <value:$28>.<end>"
 japanese = "見破られるなよ、　　　　　　　<line-break><value:$28>。<line-break>　<end>"
 korean = "들키지 마라, <value:$28>.<end>"
 
+["650045"]
+japanese = "レムオン様、<line-break>ようこそおいでくださいました。<end>"
+korean = "레몬 님, 어서 오십시오.<end>"
+
 ["650046"]
 japanese = "これはティアナ王女、<line-break>今日は一段と美しい。<end>"
 korean = "이런, 티아나 공주님. 오늘은 한층 더 아름다우시군요.<end>"
@@ -144,9 +148,17 @@ korean = "레무온 님, 또 와 주세요.<end>"
 japanese = "フィアンセ殿に怒られなければな。<end>"
 korean = "약혼자에게 혼나지만 않는다면.<end>"
 
+["650057"]
+japanese = "フィアンセだなんて！<line-break>存じません、そんな方！<end>"
+korean = "약혼자라니! 그런 분은 모릅니다!<end>"
+
 ["650062"]
 japanese = "<value:$28>、よく来た。　<end>"
 korean = "<value:$28>, 잘 왔다.<end>"
+
+["650063"]
+japanese = "今からティアナ王女の所へ行く。<line-break>お前も来い。<end>"
+korean = "지금부터 티아나 왕녀에게 간다. 너도 와라.<end>"
 
 ["650065"]
 japanese = "フッ、さすがは<line-break>丈夫なだけが取り柄の奴だ。<end>"

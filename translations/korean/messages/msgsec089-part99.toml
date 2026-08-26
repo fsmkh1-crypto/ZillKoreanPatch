@@ -508,6 +508,10 @@ korean = "뭐, 뭐라고…?<end>"
 japanese = "…わかっている。<line-break>だが、完全に食い潰されさえ<line-break>しなければ…<line-break>いつか必ず奴の支配に対して<line-break>私は反旗をひるがえす…<end>"
 korean = "…알고 있다. 하지만 완전히 먹혀 버리지만 않는다면… 언젠가 반드시 그자의 지배에 반기를 들겠다….<end>"
 
+["890333"]
+japanese = "それが想定できないほど、<line-break>愚かな男ではない。<end>"
+korean = "그것조차 예상하지 못할 만큼 어리석은 남자는 아니다.<end>"
+
 ["890334"]
 japanese = "貴様が言うとおりにしよう！<line-break>その代わり…<end>"
 korean = "네놈이 말한 대로 하겠다! 대신…<end>"
@@ -607,6 +611,10 @@ korean = "<value:$28>…. 고마워. 폐를 끼치네.<end>"
 ["890389"]
 japanese = "決心がつきましたか。<end>"
 korean = "결심이 섰습니까?<end>"
+
+["890390"]
+japanese = "オルファウス様。<line-break>私、運命と…闘ってきます。<end>"
+korean = "오르파우스 님. 저, 운명과… 싸우고 오겠습니다.<end>"
 
 ["890391"]
 japanese = "<value:$28>…。<line-break>あなたの力を貸してあげてください。<end>"
@@ -780,6 +788,10 @@ korean = "왜… 나를 깨운 거지.<end>"
 japanese = "おもしろいことさ。<end>"
 korean = "재미있는 일이야.<end>"
 
+["890483"]
+japanese = "お前は！<line-break>虚無の子？<line-break>なんてこと……！<end>"
+korean = "너는! 허무의 아이? 이럴 수가……!<end>"
+
 ["890485"]
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
@@ -847,6 +859,10 @@ korean = "설득을 계속한다<end>"
 ["890517"]
 japanese = "あきらめる<end>"
 korean = "포기한다<end>"
+
+["890518"]
+japanese = "しかし、陛下の命令です。<line-break>逆らうわけには…。<end>"
+korean = "하지만 폐하의 명령입니다. 거역할 수는….<end>"
 
 ["890519"]
 japanese = "で、出た！<line-break>ば、化け物、が！<end>"

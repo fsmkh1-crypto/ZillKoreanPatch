@@ -432,6 +432,10 @@ korean = "저기, 하지만….<end>"
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
 
+["840197"]
+japanese = "…っと、いけない。　　　　<line-break>任務に戻らなきゃ！<line-break>　<line-break>今日はありがと。<line-break><value:$28>のおかげで<line-break>助かっちゃった。<end>"
+korean = "…앗, 안 되지. 임무로 돌아가야 해! 오늘 고마웠어. <value:$28> 덕분에 살았어.<end>"
+
 ["840198"]
 japanese = "あんな高価な宝石<line-break>よく持っていましたね。<end>"
 korean = "그렇게 비싼 보석을 용케 가지고 있었네요.<end>"

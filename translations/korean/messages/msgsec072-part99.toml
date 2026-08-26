@@ -168,6 +168,10 @@ korean = "헤어질까?<end>"
 japanese = "あ！　<value:$28>さん！<line-break>こ、こんにちは。　　　　　　<line-break><line-break>あの、知ってますか？<line-break>グフトクって魔獣の話？<end>"
 korean = "아! <value:$28>님! 아, 안녕하세요. 저기, 알고 계세요? 구프트크라는 마수 이야기요?<end>"
 
+["720104"]
+japanese = "あ…、私、そろそろ行かなくちゃ！<line-break>カフィンが待ってるんです。<line-break>　<line-break>それじゃ、<value:$28>さん。<line-break>がんばってください！<end>"
+korean = "아… 저, 이제 가 봐야 해요! 카핀이 기다리고 있어요. 그럼 <value:$28>님, 힘내세요!<end>"
+
 ["720108"]
 japanese = "………………。<line-break>うーん…。<line-break>　<line-break>…あ！<end>"
 korean = "………………. 음…. …아!<end>"

@@ -64,6 +64,10 @@ korean = "이 기운은…! 네메아!!<end>"
 japanese = "に、兄さんだわ…！<line-break>早く行って、<line-break>父さんを助けて！<line-break>あたしも…<line-break>すぐに行くから…！<end>"
 korean = "오, 오빠야…! 빨리 가서 아버지를 도와줘! 나도… 곧 갈 테니까…!<end>"
 
+["1180036"]
+japanese = "父よ、久しいな。<line-break>闇の神器をもらいうけに来た。<end>"
+korean = "아버지여, 오랜만이군. 어둠의 신기를 받으러 왔다.<end>"
+
 ["1180038"]
 japanese = "ところで、<line-break>お仲間はどうしたのですか？<end>"
 korean = "그런데 동료분들은 어떻게 됐나요?<end>"
@@ -75,6 +79,10 @@ korean = "어라? <value:$28>. 안 되잖아요, 이렇게 위험한 곳에 나�
 ["1180043"]
 japanese = "どうしても、<line-break>魂吸いの指輪が必要ですか？<end>"
 korean = "꼭 영혼 흡수의 반지가 필요한가요?<end>"
+
+["1180044"]
+japanese = "そうですか…。<line-break>覚悟に揺るぎはないようですね。<end>"
+korean = "그렇습니까…. 각오는 흔들리지 않는 모양이군요.<end>"
 
 ["1180045"]
 japanese = "やめて！<end>"

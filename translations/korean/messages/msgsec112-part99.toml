@@ -40,6 +40,10 @@ korean = "하지만… 어떻게 그 방까지…?<end>"
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
 
+["1120059"]
+japanese = "わかっておる。<line-break>あそこへ飛びたいというのじゃな？<line-break>大丈夫じゃ。それくらいの魔力はある。<line-break>時間がない。<line-break>ゆくぞ。<end>"
+korean = "알고 있다. 저곳으로 날아가고 싶은 거지? 괜찮다. 그 정도 마력은 있어. 시간이 없다. 가자.<end>"
+
 ["1120060"]
 japanese = "<value:$28>さん。<line-break>来てくれたんですね…。<line-break>ありがとうございます。<end>"
 korean = "<value:$28> 씨. 와 주셨군요…. 감사합니다.<end>"
@@ -51,6 +55,10 @@ korean = "이크레문 님!! 무사하셨군요! 다행입니다. 정말, 다행
 ["1120069"]
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
+
+["1120070"]
+japanese = "わかっておる。<line-break>あそこへ飛びたいというのじゃな？<line-break>大丈夫じゃ。それくらいの魔力はある。<line-break>時間がない。<line-break>ゆくぞ。<end>"
+korean = "알고 있다. 저곳으로 날아가고 싶은 거지? 괜찮다. 그 정도 마력은 있어. 시간이 없다. 가자.<end>"
 
 ["1120076"]
 japanese = "エア！！<end>"
