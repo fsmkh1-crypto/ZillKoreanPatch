@@ -21,6 +21,20 @@ func prepareKoreanMobileFontReplacements(root string, archives []*archive, plan 
 	if len(plan.Mapping) == 0 {
 		return nil, nil
 	}
+	if len(plan.Mapping) != len(plan.CustomRunes) {
+		return nil, fmt.Errorf("prepare mobile Korean font: mapping/custom rune mismatch: %d mappings for %d runes", len(plan.Mapping), len(plan.CustomRunes))
+	}
+	for _, r := range plan.CustomRunes {
+		if _, ok := plan.Mapping[r]; !ok {
+			return nil, fmt.Errorf("prepare mobile Korean font: required custom rune %U has no renderer-key mapping", r)
+		}
+	}
+	if key, ok := plan.Mapping['명']; ok {
+		fmt.Printf("Korean alpha glyph diagnostic: %U '명' -> renderer key 0x%04X\n", '명', uint16(key))
+	} else {
+		fmt.Printf("Korean alpha glyph diagnostic: %U '명' is not present in this mapping\n", '명')
+	}
+
 	var paArchive *archive
 	for _, candidate := range archives {
 		if candidate != nil && candidate.name == "pa" {
