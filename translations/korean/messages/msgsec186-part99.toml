@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1860032"]
+japanese = "…ゴメンね。<line-break><value:$28>。<end>"
+korean = "…미안해. <value:$28>.<end>"
+
 ["1860038"]
 japanese = "ひ、人質ぃ！？<end>"
 korean = "이, 인질이라고!?<end>"
@@ -23,6 +27,10 @@ korean = "아ー, 그 사람!<end>"
 ["1860126"]
 japanese = "ぐすっ…<line-break>どうするのぉ、<line-break><value:$28>？<end>"
 korean = "흑… 어떡할 거야, <value:$28>?<end>"
+
+["1860143"]
+japanese = "急いでね、<line-break><value:$28>…。<end>"
+korean = "서둘러, <value:$28>….<end>"
 
 ["1860149"]
 japanese = "なんだ、お前は！<end>"

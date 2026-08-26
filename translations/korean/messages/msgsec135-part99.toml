@@ -208,6 +208,10 @@ korean = "<value:$28>님!<end>"
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
 
+["1350301"]
+japanese = "ありがとうございます。<end>"
+korean = "감사합니다.<end>"
+
 ["1350312"]
 japanese = "無礼者！<end>"
 korean = "무례한 놈!<end>"
@@ -275,6 +279,10 @@ korean = "저기…, 카를라 님.<end>"
 ["1350382"]
 japanese = "わかった。いいわよ。<end>"
 korean = "알았어. 좋아.<end>"
+
+["1350383"]
+japanese = "ありがとうございます！<end>"
+korean = "감사합니다!<end>"
 
 ["1350393"]
 japanese = "し、しかし！<end>"

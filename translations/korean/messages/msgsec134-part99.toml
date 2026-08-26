@@ -248,6 +248,10 @@ korean = "어…?<end>"
 japanese = "あっ…！<end>"
 korean = "앗…!<end>"
 
+["1340289"]
+japanese = "待って！<line-break><value:$28>さん！<end>"
+korean = "기다려! <value:$28> 씨!<end>"
+
 ["1340292"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
