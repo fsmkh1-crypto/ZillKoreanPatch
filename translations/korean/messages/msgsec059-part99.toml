@@ -76,6 +76,14 @@ korean = "무릎을 꿇어라.<end>"
 japanese = "スキル<line-break>グロリアシルドを手に入れた。<end>"
 korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
 
+["590051"]
+japanese = "そして、これは恩賞じゃ。<line-break>さらに励んでくれ。<end>"
+korean = "그리고 이것은 포상이다. 더욱 힘써 주게.<end>"
+
+["590054"]
+japanese = "このようなことも<line-break>あるものなのかもしれんな。<end>"
+korean = "이런 일도 있을 수 있는 법이지.<end>"
+
 ["590058"]
 japanese = "<value:$28>殿の言うとおりです。<line-break>それは略奪行為です。<line-break>将軍、思いとどまってください。<end>"
 korean = "<value:$28>님의 말씀이 맞습니다. 그건 약탈입니다. 장군, 재고해 주십시오.<end>"
@@ -107,6 +115,10 @@ korean = "잘 있어, 아저씨. 그리고 <value:$28>! 살아서 다시 만나�
 ["590087"]
 japanese = "そうか…。残念じゃ。<end>"
 korean = "그런가…. 유감이군.<end>"
+
+["590088"]
+japanese = "傭兵志願者か。<line-break>案内する。ついてくるとよい。<end>"
+korean = "용병 지원자인가. 안내하지. 따라오게.<end>"
 
 ["590090"]
 japanese = "加わる<end>"

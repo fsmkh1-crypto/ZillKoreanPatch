@@ -28,6 +28,10 @@ korean = "있잖아, <value:$28>, 이 마을을 꼼꼼히 찾아보자. 나, 불
 japanese = "よし！<line-break>じゃ、今日はもう休もう。<line-break>明日からまた、がんばらなきゃね。<line-break>それじゃ、おやすみ。<line-break><value:$28>。<end>"
 korean = "좋아! 그럼 오늘은 이제 쉬자. 내일부터 또 힘내야지. 그럼 잘 자, <value:$28>.<end>"
 
+["1160022"]
+japanese = "君も二度と精霊神殿には<line-break>近づかないことだ。<end>"
+korean = "너도 두 번 다시 정령신전에는 가까이 가지 마라.<end>"
+
 ["1160028"]
 japanese = "誰…？　　　　　　　　　<line-break>　<line-break>　<line-break>…長老以外の…人…。<end>"
 korean = "누구…? …장로님 말고… 다른 사람….<end>"
@@ -52,6 +56,10 @@ korean = "당신에게 나는 필요하지 않아. 내 존재는 당신의 존�
 japanese = "私に対して、<line-break>気を使う必要はありません。<end>"
 korean = "저에게 신경 쓰실 필요는 없습니다.<end>"
 
+["1160054"]
+japanese = "そうですか…。長老が<line-break>亡くなられましたか。<end>"
+korean = "그렇습니까…. 장로님이 돌아가셨군요.<end>"
+
 ["1160056"]
 japanese = "…そうですか。　　　　<line-break>　<line-break>　<line-break>いえ、あなたには<line-break>別に関係のない話です。<line-break>すみませんでした。<end>"
 korean = "…그렇습니까. 아니, 당신과는 별로 관계없는 이야기입니다. 죄송했습니다.<end>"
@@ -75,6 +83,10 @@ korean = "죄송…합니다.<end>"
 ["1160082"]
 japanese = "…そうです。<end>"
 korean = "…그렇습니다.<end>"
+
+["1160085"]
+japanese = "…そうです。<line-break>私には存在価値がありません。<end>"
+korean = "…그렇습니다. 저에게는 존재 가치가 없습니다.<end>"
 
 ["1160089"]
 japanese = "<value:$28>様…。<end>"
@@ -131,6 +143,30 @@ korean = "어쩔 수 없네<end>"
 ["1160138"]
 japanese = "関係ないってば<end>"
 korean = "상관없다니까<end>"
+
+["1160139"]
+japanese = "…予備メッセージ。<line-break>フレアの…その１です。<end>"
+korean = "…예비 메시지. 플레어의… 그 1입니다.<end>"
+
+["1160140"]
+japanese = "…予備メッセージ。<line-break>フレアの…その２です。<end>"
+korean = "…예비 메시지. 플레어의… 그 2입니다.<end>"
+
+["1160141"]
+japanese = "…予備メッセージ。<line-break>フレアの…その３です。<end>"
+korean = "…예비 메시지. 플레어의… 그 3입니다.<end>"
+
+["1160142"]
+japanese = "…予備メッセージ。<line-break>フレアの…その４です。<end>"
+korean = "…예비 메시지. 플레어의… 그 4입니다.<end>"
+
+["1160143"]
+japanese = "…予備メッセージ。<line-break>フレアの…その５です。<end>"
+korean = "…예비 메시지. 플레어의… 그 5입니다.<end>"
+
+["1160144"]
+japanese = "…予備メッセージ。<line-break>フレアの…その６です。<end>"
+korean = "…예비 메시지. 플레어의… 그 6입니다.<end>"
 
 ["1160145"]
 japanese = "…予備メッセージ。<line-break>フレアの…その７です。<end>"

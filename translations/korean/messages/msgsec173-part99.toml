@@ -132,6 +132,10 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1730067"]
+japanese = "<value:$28>って、<line-break>結構、外道かも！　きゃっ。<end>"
+korean = "<value:$28>도 꽤 악당일지도! 꺅.<end>"
+
 ["1730070"]
 japanese = "<value:$28>様。<line-break>どうぞお通りください。<end>"
 korean = "<value:$28>님. 지나가십시오.<end>"

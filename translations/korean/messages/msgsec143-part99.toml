@@ -40,6 +40,10 @@ korean = "예, 옙.<end>"
 japanese = "聞いてのとおり、<line-break>私はヒルダリア。<line-break>　<line-break>あんたたちの力、<line-break>試させてもらったよ。<end>"
 korean = "들었겠지만 나는 힐다리아야. 너희 실력, 시험해 봤어.<end>"
 
+["1430017"]
+japanese = "その腕を見込んで、<line-break>ひとつ頼みがあるのよ。<end>"
+korean = "그 실력을 믿고 부탁 하나 할 게 있어.<end>"
+
 ["1430021"]
 japanese = "どうだ！？　怖じ気づいたか！<end>"
 korean = "어떠냐!? 겁먹었나!<end>"
@@ -159,6 +163,10 @@ korean = "항구에서 큰 오징어가 기다리고 있어.<end>"
 ["1430090"]
 japanese = "あんたらだけが頼りなんだ。<end>"
 korean = "너희만 믿는다.<end>"
+
+["1430093"]
+japanese = "大イカを倒すまで<line-break>この砦からは出さないぜ！<end>"
+korean = "대왕오징어를 쓰러뜨릴 때까지 이 요새에서 못 나간다!<end>"
 
 ["1430094"]
 japanese = "さあ、頼んだよ、<line-break><value:$28>！<end>"

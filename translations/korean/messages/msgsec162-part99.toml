@@ -112,6 +112,10 @@ korean = "자, 가.<end>"
 japanese = "見事であった、ノーブル伯。<end>"
 korean = "훌륭했다, 노블 백작.<end>"
 
+["1620095"]
+japanese = "<value:$28>さま、<line-break>お捜しいたしておりました。<line-break>至急、王宮へ。<line-break>緊急のご用件で、<line-break>エリス王妃がお呼びです。<end>"
+korean = "<value:$28>님, 찾고 있었습니다. 급히 왕궁으로 오십시오. 긴급한 용건으로 엘리스 왕비님께서 부르십니다.<end>"
+
 ["1620096"]
 japanese = "すぐに馬車の用意を。<end>"
 korean = "당장 마차를 준비해.<end>"

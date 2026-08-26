@@ -268,6 +268,10 @@ korean = "아무것도 기억나지 않는 건가…?<end>"
 japanese = "…なんでもない。<line-break>行くぞ。<end>"
 korean = "…아무것도 아니다. 가자.<end>"
 
+["1610191"]
+japanese = "ま、こいつも、実は<line-break>かわいそうな奴なのかも、な。<line-break>　<line-break>んじゃ、な。<line-break><value:$28>。<line-break>また、会おうぜ。<end>"
+korean = "뭐, 이 녀석도 사실은 불쌍한 놈일지도 모르지. 그럼 간다, <value:$28>. 또 만나자.<end>"
+
 ["1610193"]
 japanese = "そうか。<line-break>奴はどっちへ行った？<end>"
 korean = "그런가. 녀석은 어느 쪽으로 갔지?<end>"

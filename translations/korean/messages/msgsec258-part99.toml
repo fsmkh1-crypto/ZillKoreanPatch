@@ -4,6 +4,10 @@
 japanese = "PSP用誕生日イベント用<end>"
 korean = "PSP용 생일 이벤트용<end>"
 
+["2580006"]
+japanese = "<value:$28>、<line-break>誕生日おめでとう。<line-break>　<line-break>お祝いに、<line-break>今研究中の魔法を見せちゃおうかな？<end>"
+korean = "<value:$28>, 생일 축하해. 선물로 지금 연구 중인 마법을 보여 줄까?<end>"
+
 ["2580008"]
 japanese = "<value:$28>、おめでとう！<line-break>こういうのって、<line-break>やっぱ友情を感じるよな。<line-break>俺の熱い魂が騒ぐぜ！<end>"
 korean = "<value:$28>, 축하해! 이런 건 역시 우정이 느껴지지. 내 뜨거운 혼이 들끓는군!<end>"

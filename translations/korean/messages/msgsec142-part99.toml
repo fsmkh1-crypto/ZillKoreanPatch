@@ -280,6 +280,10 @@ korean = "너, 너는…!<end>"
 japanese = "…立ち去れ。<end>"
 korean = "…물러가라.<end>"
 
+["1420159"]
+japanese = "まま、まさかあいつ…<line-break>鉄火姫オイフェか！？<end>"
+korean = "서, 설마 저 녀석… 철화공주 오이페인가!?<end>"
+
 ["1420160"]
 japanese = "やべえ、逃げるぞっ！<end>"
 korean = "젠장, 도망가자!<end>"
@@ -335,6 +339,10 @@ korean = "고마워…. <value:$28>… 그리고… 나는 널 사랑해.<end>"
 ["1420202"]
 japanese = "そうだね…。<line-break><line-break><line-break><value:$28>と、冒険の旅かあ。<line-break>いいなあ！　ボクも行きたいなあ！<end>"
 korean = "그러게…. <value:$28>과 모험 여행이라. 좋겠다! 나도 가고 싶어!<end>"
+
+["1420203"]
+japanese = "私とおんなじですね、エステル様。<line-break><line-break><line-break>英雄<value:$28>様と<line-break>凄腕女魔法使いと<line-break>男装の麗人のパーティ。<end>"
+korean = "저랑 똑같네요, 에스텔 님. 영웅 <value:$28>님과 실력 좋은 여자 마법사, 남장한 미인의 파티.<end>"
 
 ["1420207"]
 japanese = "レムオン様！<end>"
@@ -479,6 +487,10 @@ korean = "왜 그래, 아저씨. 걱정돼?<end>"
 ["1420276"]
 japanese = "そうだね…。<line-break><line-break><line-break><value:$28>と、冒険の旅かあ。<line-break>いいなあ！　ボクも行きたいなあ！<end>"
 korean = "그러게…. <value:$28>과 모험 여행이라. 좋겠다! 나도 가고 싶어!<end>"
+
+["1420277"]
+japanese = "私とおんなじですね、エステル様。<line-break><line-break><line-break>英雄<value:$28>様と<line-break>凄腕女魔法使いと<line-break>男装の麗人のパーティ。<end>"
+korean = "저랑 똑같네요, 에스텔 님. 영웅 <value:$28>님과 실력 좋은 여자 마법사, 남장한 미인의 파티.<end>"
 
 ["1420279"]
 japanese = "男装の麗人って…ボ、ボクのこと？<end>"
@@ -647,6 +659,10 @@ korean = "왜냐고? 그건….<end>"
 ["1420351"]
 japanese = "<value:$28>様のそばに<line-break>お仕えしたいからです。<end>"
 korean = "<value:$28>님 곁에서 모시고 싶기 때문입니다.<end>"
+
+["1420352"]
+japanese = "お仕えしたい？<line-break>冗談言わないでちょうだい。<end>"
+korean = "모시고 싶다고? 농담하지 마.<end>"
 
 ["1420357"]
 japanese = "ア、アイリーンこそ！<line-break> <line-break> <line-break>何の目的もないのに、<line-break>ここにいるのは、<line-break>おかしいじゃない！？<end>"

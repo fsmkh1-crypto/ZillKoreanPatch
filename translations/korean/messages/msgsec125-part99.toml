@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1250002"]
+japanese = "玄武将軍からの名指しの依頼！？<line-break>それってチャンスよ！<line-break>もちろん受けるんでしょっ？<line-break>うらやましいわ、<value:$28>。<end>"
+korean = "현무장군이 직접 지명한 의뢰!? 그건 기회야! 당연히 받을 거지? 부럽다, <value:$28>.<end>"
+
 ["1250003"]
 japanese = "ディンガルの内務統括殿とはいろいろと<line-break>あってな、ワシは参加できん。<line-break>すまぬな、<value:$28>。<end>"
 korean = "딩갈의 내무 총괄과는 여러 일이있어서, 나는 참가할 수 없다.미안하군, <value:$28>.<end>"
@@ -63,6 +67,10 @@ korean = "우리의 도시, 엔샨트가…. ……………….<end>"
 ["1250088"]
 japanese = "<value:$28>様。<line-break>謁見の間へ行かれるのですね。<line-break>お供させていただきますわ。<end>"
 korean = "<value:$28>님. 알현실로 가시는군요. 함께 가겠습니다.<end>"
+
+["1250092"]
+japanese = "街の人たちを生贄に…<line-break>街の人たちの未来を奪ったあいつを<line-break>俺は許せない！<line-break><value:$28>！<line-break>謁見の間へ急ぐぞ！<end>"
+korean = "마을 사람들을 제물로… 사람들의 미래를 빼앗은 그 녀석을 난 용서 못 해! <value:$28>! 알현실로 서두르자!<end>"
 
 ["1250094"]
 japanese = "ゾフォルは<line-break>謁見の間です。<end>"

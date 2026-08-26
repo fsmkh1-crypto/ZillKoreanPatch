@@ -68,6 +68,10 @@ korean = "저기, 거기 모험자.<end>"
 japanese = "そう、あなたよ。<line-break>冒険者その１。<end>"
 korean = "그래, 당신 말이야. 모험자 1번.<end>"
 
+["980044"]
+japanese = "<value:$28>じゃない。<line-break>どう？　うまくやってる？<end>"
+korean = "<value:$28>잖아. 어때? 잘 지내고 있어?<end>"
+
 ["980045"]
 japanese = "そう…。私も負けてられないわね。<end>"
 korean = "그래…. 나도 질 수만은 없겠네.<end>"

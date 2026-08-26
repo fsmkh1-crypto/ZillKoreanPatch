@@ -92,6 +92,10 @@ korean = "부탁이야, 레이븐. 가지 마.<end>"
 japanese = "…ありがとう。　　　　　<line-break>　<line-break>　<line-break>君が俺を必要とする限り、<line-break>俺は君のそばに…いるよ。<end>"
 korean = "…고마워. 네가 날 필요로 하는 한, 난 네 곁에… 있을게.<end>"
 
+["1410054"]
+japanese = "いや、ひょっとしたら、　　　<line-break>あの子が<value:$28>の旅に<line-break>　<line-break>ついていくということなのかも<line-break>しれませんね。<end>"
+korean = "아니, 어쩌면 그 아이가 <value:$28>의 여행에 따라간다는 뜻일지도 모르겠군요.<end>"
+
 ["1410058"]
 japanese = "…いや、それは、あなたが一番よく<line-break>知っていることですね、<line-break><value:$28>？<end>"
 korean = "…아니, 그건 당신이 가장 잘 알고 있는 일이겠군요, <value:$28>?<end>"
@@ -255,6 +259,10 @@ korean = "늦네, <value:$28>. 설마 잊은 건 아니겠지.<end>"
 ["1410145"]
 japanese = "君に頼らせて、って言ったら、<line-break><value:$28>は、勝手だって<line-break>怒るかな？<end>"
 korean = "네게 의지하게 해 달라고 하면, <value:$28>는 제멋대로라고 화낼까?<end>"
+
+["1410146"]
+japanese = "でも、<value:$28>って、<line-break>とっても頼りがいがあるし、<line-break> <line-break><value:$28>に頼るのって、<line-break>とっても気持ちがいいし…。<end>"
+korean = "하지만 <value:$28>은 정말 믿음직하고, <value:$28>에게 기대면 정말 마음이 편하고….<end>"
 
 ["1410147"]
 japanese = "いっそ、ボクの姉さんになってよ！<line-break> <line-break> <line-break>…な、なんて言ったら、変かな？<line-break>やっぱり、変？<end>"
@@ -555,6 +563,10 @@ korean = "저… 이건 그, 뭐라고 해야 할지….<end>"
 ["1410331"]
 japanese = "ご安心ください、<value:$28>様、<line-break>陛下のお許しは<line-break>いただいております。<end>"
 korean = "안심하세요, <value:$28> 님. 폐하의 허락은 받았습니다.<end>"
+
+["1410334"]
+japanese = "はい。<line-break>厳しい旅になるだろう事は<line-break>承知しております。<line-break>それでも私は<value:$28>様<line-break>について行きたいのです。<end>"
+korean = "네. 힘든 여행이 될 거라는 건 알고 있습니다. 그래도 저는 <value:$28>님을 따라가고 싶습니다.<end>"
 
 ["1410335"]
 japanese = "<value:$28>様とならば、<line-break>見つかる気がするのです。<line-break>忘れてきた心の破片が…。<end>"

@@ -1192,6 +1192,10 @@ korean = "반을 막는다<end>"
 japanese = "黙って見ている<end>"
 korean = "말없이 지켜본다<end>"
 
+["890705"]
+japanese = "待って、ヴァン！<line-break><value:$28>の言うとおりだよ！<end>"
+korean = "기다려, 반! <value:$28> 말이 맞아!<end>"
+
 ["890707"]
 japanese = "待って！<end>"
 korean = "기다려!<end>"

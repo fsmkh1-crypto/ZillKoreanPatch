@@ -144,6 +144,10 @@ korean = "네.<end>"
 japanese = "行くぞ！<end>"
 korean = "간다!<end>"
 
+["1360117"]
+japanese = "や、やめるんじゃ！<line-break>この鉱山の奥には……！<end>"
+korean = "그, 그만두게! 이 광산 깊숙한 곳에는……!<end>"
+
 ["1360123"]
 japanese = "そんなことはできん！<end>"
 korean = "그럴 수는 없다!<end>"
@@ -643,6 +647,10 @@ korean = "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는�
 ["1360481"]
 japanese = "ゆくぞ、<value:$28>。<line-break>どのような運命が待とうと、<line-break>進むことしか、私たちには、できぬ。<end>"
 korean = "간다, <value:$28>. 어떤 운명이 기다리든 우리에겐 나아가는 수밖에 없다.<end>"
+
+["1360488"]
+japanese = "………………。<line-break>ゆくぞ、<value:$28>。<line-break>　<line-break>どのような運命が待とうと、<line-break>進むことしか、私たちには、できぬ。<end>"
+korean = "………………. 가자, <value:$28>. 어떤 운명이 기다리든 우리에게는 나아가는 것밖에 할 수 없다.<end>"
 
 ["1360491"]
 japanese = "フッフッフ、久しいな。<end>"
