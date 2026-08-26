@@ -12,6 +12,10 @@ korean = "<value:$28>… 씨 맞지?<end>"
 japanese = "…竜骨の砂漠の真ん中…。<end>"
 korean = "…용골 사막 한가운데….<end>"
 
+["890020"]
+japanese = "ラドラスのあたりだよ？<line-break>どうなってるの？　　　　　<line-break>　<line-break>ねぇ、<value:$28>、<line-break>とにかく助けに行かなきゃ！<end>"
+korean = "라드라스 근처야? 어떻게 된 거야? 있잖아, <value:$28>, 어쨌든 구하러 가야 해!<end>"
+
 ["890022"]
 japanese = "<value:$28>様！<line-break>エステル様が、エステル様が！<line-break>シャリという魔術師にさらわれてしまいました！<end>"
 korean = "<value:$28>님! 에스텔 님이, 에스텔 님이! 샤리라는 마술사에게 납치됐습니다!<end>"

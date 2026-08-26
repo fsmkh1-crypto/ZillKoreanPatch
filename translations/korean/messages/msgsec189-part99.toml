@@ -32,6 +32,10 @@ korean = "<value:$28>, 그대도 조심하라. 눈에 띄는 짓을 하면 용�
 japanese = "新たな力を得たくはないか？<end>"
 korean = "새로운 힘을 얻고 싶지 않나?<end>"
 
+["1890027"]
+japanese = "今はまだ、マノンの腕輪は<line-break>深い眠りについているようだが、<line-break>私が起こしておこう。<line-break>訪れてみるがいい。<end>"
+korean = "지금은 아직 마논의 팔찌가 깊이 잠들어 있는 것 같지만, 내가 깨워 두지. 한번 찾아가 보도록 해.<end>"
+
 ["1890033"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"

@@ -60,6 +60,10 @@ korean = "미사용: 그 말이 맞다. 그래서 외로운 녀석은 싫어.<en
 japanese = "未使用：そんなことはない。また、まいります。<end>"
 korean = "미사용: 그렇지 않습니다. 다시 오겠습니다.<end>"
 
+["750025"]
+japanese = "君に光を与える勇者だよ、<line-break>アトレイア王女。<end>"
+korean = "너에게 빛을 가져다줄 용자야, 아트레이아 공주.<end>"
+
 ["750027"]
 japanese = "それでは、王女様。<line-break>僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
 korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드리겠습니다.<end>"
@@ -188,6 +192,10 @@ korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드
 japanese = "きゃっ。<end>"
 korean = "꺅.<end>"
 
+["750088"]
+japanese = "…あなたの光を望む願い、<line-break>かないましたか？<end>"
+korean = "…당신이 빛을 바랐던 소원, 이루어졌나요?<end>"
+
 ["750092"]
 japanese = "これはお礼だよ。<line-break>ホントにありがとう。<end>"
 korean = "이건 답례야. 정말 고마워.<end>"
@@ -252,9 +260,17 @@ korean = "그럴 생각이야.<end>"
 japanese = "そんなつもりはない。<end>"
 korean = "그럴 생각은 없어.<end>"
 
+["750121"]
+japanese = "よかった…。<line-break>じゃ、別の所に行こうよ。ね？<end>"
+korean = "다행이다…. 그럼 다른 곳으로 가자. 응?<end>"
+
 ["750133"]
 japanese = "…さもなくば。<end>"
 korean = "…그렇지 않으면.<end>"
+
+["750134"]
+japanese = "…自分の言った言葉に<line-break>責任をとってもらう。<end>"
+korean = "…네가 한 말에는 책임을 져 줘야겠어.<end>"
 
 ["750135"]
 japanese = "…そうか。<end>"
@@ -272,13 +288,25 @@ korean = "착한 아이야.<end>"
 japanese = "そうだよ。ありがとう。<line-break>勇者様！<end>"
 korean = "맞아. 고마워, 용사님!<end>"
 
+["750167"]
+japanese = "ふん！！<line-break>味わったか、俺の正義の熱い魂を！<end>"
+korean = "흥!! 맛보았느냐, 내 정의의 뜨거운 혼을!<end>"
+
 ["750169"]
 japanese = "そうだよ。ありがとう。<line-break>勇者様！<end>"
 korean = "맞아. 고마워, 용사님!<end>"
 
+["750177"]
+japanese = "ふん！！<line-break>味わったか、俺の正義の熱い魂を！<end>"
+korean = "흥!! 맛보았느냐, 내 정의의 뜨거운 혼을!<end>"
+
 ["750179"]
 japanese = "そうだよ。ありがとう。<line-break>勇者様！<end>"
 korean = "맞아. 고마워, 용사님!<end>"
+
+["750184"]
+japanese = "ふん！！<line-break>味わったか、俺の正義の熱い魂を！<end>"
+korean = "흥!! 맛보았느냐, 내 정의의 뜨거운 혼을!<end>"
 
 ["750186"]
 japanese = "そうだよ。ありがとう。<line-break>勇者様！<end>"
@@ -291,6 +319,10 @@ korean = "…<value:$28> 님, 부디 또 와 주세요. …부탁드립니다.<e
 ["750198"]
 japanese = "…すみません。<line-break>お恥ずかしい姿ですね。<end>"
 korean = "…죄송합니다. 부끄러운 모습을 보였네요.<end>"
+
+["750199"]
+japanese = "ありがとうございます。<line-break>もう…大丈夫です。<end>"
+korean = "감사합니다. 이제… 괜찮아요.<end>"
 
 ["750203"]
 japanese = "そんなことは言わない方がいい<end>"

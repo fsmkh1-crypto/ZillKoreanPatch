@@ -16,6 +16,10 @@ korean = "…<value:$28>, 조심해.<end>"
 japanese = "あの女…強い…。<end>"
 korean = "그 여자… 강해….<end>"
 
+["690014"]
+japanese = "あ、転送中に来ては危険です。<line-break>下がって…。<end>"
+korean = "아, 전송 중에 오면 위험합니다. 물러나세요….<end>"
+
 ["690015"]
 japanese = "くっ！<line-break>瞬間移動…だと！？<end>"
 korean = "큭! 순간이동…이라고!?<end>"
@@ -27,6 +31,10 @@ korean = "…그래. 이 숲부터 찾아보자.<end>"
 ["690020"]
 japanese = "おや、めずらしい。<line-break>お客様ですか？<end>"
 korean = "어라, 드문 일이네요. 손님인가요?<end>"
+
+["690021"]
+japanese = "…くっ、やはり<line-break>アーギルシャイアの仲間か！<end>"
+korean = "…큭, 역시 아기르샤이아의 동료인가!<end>"
 
 ["690023"]
 japanese = "呼んだかー？　オルファウス。<end>"
@@ -92,6 +100,10 @@ korean = "묻고 싶은 게 있으면 답해 드릴게요.<end>"
 japanese = "団長までそれゴブか！<line-break>ひどいゴブ！<end>"
 korean = "단장까지 그러는 거냐고브! 너무하다고브!<end>"
 
+["690088"]
+japanese = "じゃあ、適当に何か<line-break>運んできてほしいゴブ。<end>"
+korean = "그럼 적당히 뭔가 가져와 줬으면 한다 고브.<end>"
+
 ["690091"]
 japanese = "あ、<value:$28>、<line-break>ここにいたの。<end>"
 korean = "아, <value:$28>, 여기 있었구나.<end>"
@@ -111,6 +123,10 @@ korean = "단장, 뭘 그렇게 떠드는 거야 고브?<end>"
 ["690114"]
 japanese = "団長！　あいつゴブ！<end>"
 korean = "단장! 저 녀석 고브!<end>"
+
+["690125"]
+japanese = "ともに怪物を倒しましょう。<line-break>いかがですか？<end>"
+korean = "함께 괴물을 쓰러뜨립시다. 어떠신가요?<end>"
 
 ["690126"]
 japanese = "結構です。<line-break>まいりましょう。<end>"
@@ -159,6 +175,10 @@ korean = "지키고 싶은 거지?<end>"
 ["690148"]
 japanese = "…なんだ、小娘？<end>"
 korean = "…뭐냐, 꼬마 아가씨?<end>"
+
+["690149"]
+japanese = "なんでもないよ。<line-break>ただ覚悟が必要ってこと。<end>"
+korean = "아무것도 아니야. 그냥 각오가 필요하다는 뜻이야.<end>"
 
 ["690151"]
 japanese = "なんだよ！<line-break>キミ、何様のつもり！？<end>"
@@ -252,6 +272,10 @@ korean = "아, 나 놀린 거였구나! 너무해, <value:$28>. 나… 진짜 �
 japanese = "…ボク、やっぱり役立たずなのかな。<end>"
 korean = "…나, 역시 쓸모없는 걸까.<end>"
 
+["690228"]
+japanese = "ともに怪物を倒しましょう。<line-break>いかがですか？<end>"
+korean = "함께 괴물을 쓰러뜨립시다. 어떠신가요?<end>"
+
 ["690229"]
 japanese = "待て、<value:$28>…<line-break>あの刀は…。<end>"
 korean = "잠깐, <value:$28>… 저 검은….<end>"
@@ -271,6 +295,10 @@ korean = "상대는 강력한 괴물입니다. 방심하지 마십시오….<end
 ["690234"]
 japanese = "…待て。<line-break>貴様、名を名乗れ。<end>"
 korean = "…기다려. 네놈, 이름을 대라.<end>"
+
+["690236"]
+japanese = "サイフォス？<line-break>それが本当に貴様の名なのか？<end>"
+korean = "사이포스? 그게 정말 네 이름이냐?<end>"
 
 ["690237"]
 japanese = "…では。<end>"

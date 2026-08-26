@@ -96,6 +96,10 @@ korean = "…그런가, 어제 지진 때문에.<end>"
 japanese = "おうよ。<end>"
 korean = "그럼.<end>"
 
+["280049"]
+japanese = "おうよ、<line-break>うちのかみさんのメシは天下一品だ。<line-break>　<line-break>お前らも嫁さんには<line-break>料理上手な娘をもらえよ。<end>"
+korean = "그래, 우리 마누라 음식은 최고지. 너희도 아내는 요리 잘하는 여자로 얻어라.<end>"
+
 ["280050"]
 japanese = "あー<line-break>食った、食った。　<line-break><end>"
 korean = "아~ 잘 먹었다, 잘 먹었어.<end>"
@@ -159,6 +163,10 @@ korean = "반은 내가 돌볼게. <value:$28>는 도구점에서 약초를 사 
 ["280085"]
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
 korean = "<value:$28>… 약초는?<end>"
+
+["280091"]
+japanese = "楽！　勝！<line-break>　<line-break>　<line-break>思い知ったか。<line-break>俺様と貴様らとでは、<line-break>熱くたぎる心が圧倒的に違うっ！<end>"
+korean = "낙! 승! 깨달았느냐. 나와 네놈들은 뜨겁게 끓는 마음부터 압도적으로 다르다!<end>"
 
 ["280092"]
 japanese = "ぐあ！　ごふ！<line-break>っくっ…！！<end>"

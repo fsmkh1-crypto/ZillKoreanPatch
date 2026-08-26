@@ -4,6 +4,10 @@
 japanese = "アーギルシャイアメッセージ開始<end>"
 korean = "아길샤이어 메시지 시작<end>"
 
+["720001"]
+japanese = "親分、腹減ったゴブ！<line-break>親分、腹減ったゴブ！<end>"
+korean = "두목, 배고프다 고브! 두목, 배고프다 고브!<end>"
+
 ["720008"]
 japanese = "む、聖杯をねらう<line-break>悪い人間ゴブ！<end>"
 korean = "음, 성배를 노리는 나쁜 인간 고브!<end>"
@@ -115,6 +119,10 @@ korean = "…<value:$28>인가. 알았다. …그럼 나를 따라와! 발목 �
 ["720086"]
 japanese = "…さっきの女は？<end>"
 korean = "…아까 그 여자는?<end>"
+
+["720092"]
+japanese = "では、呼び出してくれるのを<line-break>…待っている。<end>"
+korean = "그럼 불러 줄 때까지… 기다리고 있겠다.<end>"
 
 ["720093"]
 japanese = "あなたにハッパをかけに来たのよ。<end>"

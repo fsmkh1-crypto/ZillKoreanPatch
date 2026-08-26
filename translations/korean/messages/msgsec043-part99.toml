@@ -44,6 +44,10 @@ korean = "…맡지.<end>"
 japanese = "人をバカにするな！<end>"
 korean = "사람을 바보 취급하지 마!<end>"
 
+["430014"]
+japanese = "よし、では行くぞ。<line-break>　<line-break>　<line-break>ただし、足手まといになるようなら<line-break>消えてもらう。そのつもりでいろ。<end>"
+korean = "좋아, 그럼 간다. 다만 방해가 된다면 사라져 줘야겠다. 각오해 둬.<end>"
+
 ["430020"]
 japanese = "<value:$28>、<line-break>ゆくぞ！<end>"
 korean = "<value:$28>, 간다!<end>"
@@ -115,6 +119,10 @@ korean = "영주인 제가 답할 수 있는 일이라면….<end>"
 ["430061"]
 japanese = "女にですと！？<end>"
 korean = "여자한테라고요!?<end>"
+
+["430068"]
+japanese = "しかし、手紙を手に入れた直後の　<line-break>事故死とは…<line-break>　<line-break>偶然にしては、<line-break>できすぎていると思わぬか？<end>"
+korean = "하지만 편지를 손에 넣은 직후 사고사라니…. 우연치고는 너무 잘 맞아떨어진다고 생각하지 않나?<end>"
 
 ["430072"]
 japanese = "<if><value:$29><equal>%0弟？<end>妹？<end>"

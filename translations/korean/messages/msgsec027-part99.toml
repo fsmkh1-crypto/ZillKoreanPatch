@@ -76,6 +76,10 @@ korean = "또 도전해 주세요.<end>"
 japanese = "さすがね。大したものだわ。　<line-break><line-break><line-break>はい、これは勝利賞金と副賞よ。<line-break>来年もがんばってね。<end>"
 korean = "역시 대단하네. 자, 이건 우승 상금과 부상이야. 내년에도 힘내.<end>"
 
+["270065"]
+japanese = "残念だったわね。<line-break>まっ、来年もあるわよ。　<line-break><line-break>はい、これは勝利賞金。<line-break>また挑戦してくださいね。<end>"
+korean = "아쉬웠네. 뭐, 내년도 있으니까. 자, 이건 승리 상금이야. 또 도전해 줘.<end>"
+
 ["270066"]
 japanese = "<line-break>賞金<value:$1A>ギアを手に入れた。<line-break>　<end>"
 korean = "상금 <value:$1A>기어를 손에 넣었다.<end>"

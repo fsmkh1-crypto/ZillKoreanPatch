@@ -136,6 +136,10 @@ korean = "<value:$28>, 10분 늦었어.<end>"
 japanese = "あ、いたいた。<line-break>待ってー。クリュセイスお姉ちゃん、<line-break><value:$28>お兄ちゃん。<end>"
 korean = "아, 여기 있었네. 기다려ー. 크류세이스 언니, <value:$28> 오빠.<end>"
 
+["1920103"]
+japanese = "それにしても、<line-break>クリュセイスお姉ちゃんたち、　　　<line-break>いつも一緒にいるね。<line-break>今日もこれから、でーと？<end>"
+korean = "그러고 보니 크류세이스 언니네는 늘 같이 다니네. 오늘도 이제부터 데이트야?<end>"
+
 ["1920106"]
 japanese = "お、大人をからかうものでは<line-break>なくてよ！<end>"
 korean = "어, 어른을 놀리면 안 돼요!<end>"
@@ -167,6 +171,10 @@ korean = "들어오세요.<end>"
 ["1920121"]
 japanese = "かしこまりました。<line-break>　<line-break>　<end>"
 korean = "알겠습니다.<end>"
+
+["1920123"]
+japanese = "心得ています。<line-break>今日は早めに切り上げようと　　<line-break>思っていますから。<line-break>あなたにも、心配をかけますね。<end>"
+korean = "알고 있습니다. 오늘은 일찍 마칠 생각입니다. 당신에게도 걱정을 끼치네요.<end>"
 
 ["1920124"]
 japanese = "もったいないお言葉。<line-break>　<line-break>　<line-break>それでは、近衛将軍を<line-break>お呼びして参ります。<end>"

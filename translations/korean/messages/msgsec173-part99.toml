@@ -140,6 +140,10 @@ korean = "끌어내!<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1730086"]
+japanese = "冗談だってば。　　　　<line-break>本気にしないで。<line-break>　<line-break>じゃ、用が終わったなら<line-break>出てってくんないかな？<end>"
+korean = "농담이라니까. 진지하게 받아들이지 마. 그럼 볼일 끝났으면 나가 줄래?<end>"
+
 ["1730094"]
 japanese = "あら、<value:$28>じゃん。<line-break>オイフェから手紙預かってるんだって？<line-break>どれどれ…<end>"
 korean = "어라, <value:$28>잖아. 오이페에게서 편지를 받아 왔다고? 어디 보자….<end>"
