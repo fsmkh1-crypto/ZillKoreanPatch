@@ -288,9 +288,17 @@ korean = "<value:$28> 님~. 어서 오세요. 수고하셨어요~.<end>"
 japanese = "<value:$28>、<line-break>無事だったんだ…。<line-break>よかった…。<end>"
 korean = "<value:$28>, 무사했구나…. 다행이야….<end>"
 
+["1370223"]
+japanese = "なあなあ、<value:$28>。<line-break>魔物、どうだったんだ？<end>"
+korean = "있잖아, <value:$28>. 마물은 어땠어?<end>"
+
 ["1370224"]
 japanese = "ハハハ。<line-break><value:$28>、<line-break>大した人気だな。<end>"
 korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
+
+["1370226"]
+japanese = "その間、<value:$28>が<line-break>この村を守ってたからな。<end>"
+korean = "그동안 <value:$28>이 이 마을을 지켜 줬으니까.<end>"
 
 ["1370227"]
 japanese = "やれやれ。<line-break><value:$28>、<line-break>人気者はつらいな。<end>"

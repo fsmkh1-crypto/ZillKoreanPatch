@@ -1012,6 +1012,10 @@ korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<
 japanese = "これは<value:$28>様。<line-break>カルラ様がお呼びです。<line-break>謁見の間にお急ぎください。<end>"
 korean = "<value:$28> 님이시군요. 카를라 님께서 부르십니다. 알현실로 서둘러 주세요.<end>"
 
+["890624"]
+japanese = "これは<value:$28>様。<line-break>どうぞ、お通りください。<end>"
+korean = "<value:$28>님이시군요. 들어가십시오.<end>"
+
 ["890626"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"
 korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"

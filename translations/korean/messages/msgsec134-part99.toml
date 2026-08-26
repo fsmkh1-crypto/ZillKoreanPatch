@@ -352,6 +352,10 @@ korean = "나머지는 재상에게 맡기겠다. 가자.<end>"
 japanese = "…また、助けられたわね。<end>"
 korean = "…또 도움받았네.<end>"
 
+["1340224"]
+japanese = "エスト・リューガ博士で<line-break>いらっしゃいますね。<end>"
+korean = "에스트 류가 박사님이시죠.<end>"
+
 ["1340225"]
 japanese = "あなたは？<end>"
 korean = "당신은?<end>"
@@ -807,6 +811,10 @@ korean = "그럴 수가….<end>"
 ["1340459"]
 japanese = "タルテュバ様…。<end>"
 korean = "타르튜바 님….<end>"
+
+["1340463"]
+japanese = "<value:$28>様…<line-break>少しだけ、一人にさせてください<end>"
+korean = "<value:$28>님… 잠시만 혼자 있게 해 주세요.<end>"
 
 ["1340466"]
 japanese = "<value:$28>様？<end>"
