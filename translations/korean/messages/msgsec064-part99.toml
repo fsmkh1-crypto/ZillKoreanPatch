@@ -228,6 +228,10 @@ korean = "<value:$28>님의 여행이 힘든 길이 되지 않기를.<end>"
 japanese = "これで、胸のつかえが取れました。　<line-break>さ、どうぞ、<value:$28>様。<line-break>お通りください。<end>"
 korean = "이제 마음의 응어리가 풀렸습니다. 자, <value:$28>님. 지나가십시오.<end>"
 
+["640129"]
+japanese = "あ、<value:$28>様。<line-break>また来てくださったんですね。<end>"
+korean = "아, <value:$28>님. 또 와 주셨군요.<end>"
+
 ["640130"]
 japanese = "あ、<value:$28>様、<line-break>どうぞ、こちらへ。<end>"
 korean = "아, <value:$28>님, 이쪽으로 오세요.<end>"

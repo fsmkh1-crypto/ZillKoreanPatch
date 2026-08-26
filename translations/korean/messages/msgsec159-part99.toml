@@ -52,6 +52,10 @@ korean = "그 꼬마는 벌써 살아 있지 않아!<end>"
 japanese = "うわ～ん。<line-break>こわかったよぉ！<end>"
 korean = "우와앙. 무서웠어어!<end>"
 
+["1590040"]
+japanese = "おや？　あなたは…<line-break>無限のソウルを持つ者…。<end>"
+korean = "어라? 당신은… 무한의 소울을 지닌 자….<end>"
+
 ["1590042"]
 japanese = "違うよ、<value:$28>！　<end>"
 korean = "아니야, <value:$28>!<end>"
@@ -155,6 +159,10 @@ korean = "아길샤이어…?<end>"
 ["1590090"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
+
+["1590094"]
+japanese = "取り戻す？<line-break>聖杯は誰かに盗まれちゃったのぉ？<end>"
+korean = "되찾는다고? 성배를 누가 훔쳐 간 거야?<end>"
 
 ["1590096"]
 japanese = "それじゃあ、誰なのぉ？<end>"

@@ -48,6 +48,10 @@ korean = "! 이건….<end>"
 japanese = "おい、そこの兄さん。<line-break>ちょっと、待ってくれ。<end>"
 korean = "이봐, 거기 형씨. 잠깐 기다려 줘.<end>"
 
+["1470043"]
+japanese = "えー？　ボクに用があるのかーい？<line-break>　<line-break>　<end>"
+korean = "어? 나한테 볼일이 있는 거야?<end>"
+
 ["1470054"]
 japanese = "<value:$28>、<line-break>もう準備はいいんだな？<end>"
 korean = "<value:$28>, 준비는 다 됐지?<end>"
@@ -179,6 +183,10 @@ korean = "<value:$28>, 어쨌든 플린트를 쓰러뜨린 상대다. 정신 바
 ["1470157"]
 japanese = "ふぅ、よくやったな、<line-break><value:$28>。<end>"
 korean = "후우, 잘했어, <value:$28>.<end>"
+
+["1470158"]
+japanese = "さぁ、ルルアンタの居場所を<line-break>言ってもらおうか？<end>"
+korean = "자, 루루안타가 어디 있는지 말해 주실까?<end>"
 
 ["1470160"]
 japanese = "なんだと！？<end>"

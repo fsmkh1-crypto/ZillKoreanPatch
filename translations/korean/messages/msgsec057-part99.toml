@@ -168,6 +168,10 @@ korean = "그건 할 수 없어<end>"
 japanese = "じゃ、あらためてぇ…。　　　　<end>"
 korean = "그럼 다시 한번….<end>"
 
+["570100"]
+japanese = "あたしは、ルルアンタ。<line-break>よろしくね、<value:$28>。<end>"
+korean = "나는 루루안타야. 잘 부탁해, <value:$28>.<end>"
+
 ["570101"]
 japanese = "じゃあ、町を出るときに！<line-break>またねー。<end>"
 korean = "그럼 마을을 나갈 때 보자! 또 봐ー.<end>"

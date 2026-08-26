@@ -84,6 +84,10 @@ korean = "그 실력을 믿고 부탁 하나 할게.<end>"
 japanese = "その大イカを<line-break>退治してもらいたいの。<end>"
 korean = "그 대왕오징어를 퇴치해 줬으면 해.<end>"
 
+["1430050"]
+japanese = "お、おかしら！<line-break>海賊が金を払うってんですかい？<end>"
+korean = "두, 두목! 해적이 돈을 낸다고요?<end>"
+
 ["1430051"]
 japanese = "下がってな！<end>"
 korean = "뒤로 물러나!<end>"
@@ -128,6 +132,14 @@ korean = "조금만 더 기다려<end>"
 japanese = "もちろん<end>"
 korean = "물론이지<end>"
 
+["1430071"]
+japanese = "わかったわ。<line-break>準備を調えてから来てちょうだい。<end>"
+korean = "알겠어. 준비를 갖추고 다시 와.<end>"
+
+["1430072"]
+japanese = "大イカは手強いわ。<line-break>装備は抜かりないようにね。<end>"
+korean = "대왕오징어는 강해. 장비를 단단히 챙겨.<end>"
+
 ["1430075"]
 japanese = "お呼びっスか？　　　　　<line-break>　<end>"
 korean = "부르셨습니까?<end>"
@@ -159,6 +171,10 @@ korean = "잘되면 약속대로 배에 태워 줄게, <value:$28>.<end>"
 ["1430086"]
 japanese = "遅いね…。<end>"
 korean = "늦네….<end>"
+
+["1430087"]
+japanese = "お、おかしら！<line-break>大イカが…大イカが現れたッス！<end>"
+korean = "두, 두목! 대왕오징어가… 대왕오징어가 나타났어요!<end>"
 
 ["1430088"]
 japanese = "<value:$28>、行くよ！<end>"

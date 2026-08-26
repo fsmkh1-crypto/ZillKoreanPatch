@@ -20,6 +20,10 @@ korean = "맡지 않는다<end>"
 japanese = "では、傭兵部隊、出撃します！<end>"
 korean = "그럼 용병 부대, 출격합니다!<end>"
 
+["1630021"]
+japanese = "む！　傭兵か！？<line-break>ここから先には行かせんぞ！<end>"
+korean = "뭐! 용병인가!? 이 앞은 지나가게 둘 수 없다!<end>"
+
 ["1630022"]
 japanese = "新手か！<line-break>これ以上は、突破させん！<end>"
 korean = "새로운 적인가! 더는 돌파하게 두지 않겠다!<end>"
@@ -36,6 +40,10 @@ korean = "몇 명이 오든 마찬가지다. 침략자 놈들, 각오해라!!<en
 japanese = "こ、これは！<line-break>本隊はいったい！？<end>"
 korean = "이, 이건! 본대는 대체!?<end>"
 
+["1630027"]
+japanese = "おのれ、ディンガル！<line-break>もうここまで来るとは！！<end>"
+korean = "이놈, 딘갈! 벌써 여기까지 오다니!!<end>"
+
 ["1630028"]
 japanese = "早いな、<value:$28>。<line-break>わしより先にここにたどり着くとは。<line-break>さすがじゃ。<end>"
 korean = "빠르군, <value:$28>. 나보다 먼저 여기까지 오다니. 역시 대단해.<end>"
@@ -51,6 +59,10 @@ korean = "무릎을 꿇어라.<end>"
 ["1630037"]
 japanese = "スキル<line-break>グロリアシルドを手に入れた。<end>"
 korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
+
+["1630038"]
+japanese = "そして、これは恩賞じゃ。<line-break>さらに、励んでくれ。<end>"
+korean = "그리고 이건 포상이다. 더욱 힘써 주게.<end>"
 
 ["1630039"]
 japanese = "<value:$28>、<line-break>まずまずの戦功じゃな。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに励んでくれ。<line-break>期待しておるぞ。<end>"
@@ -140,6 +152,10 @@ korean = "패잔병을 놀라운 속도로 재정비한 제네테스의 기습�
 japanese = "そうか…。残念じゃ。<end>"
 korean = "그런가…. 유감이군.<end>"
 
+["1630092"]
+japanese = "傭兵志願者か。<line-break>案内する。ついてくるがよい。<end>"
+korean = "용병 지원자인가. 안내하지. 따라와라.<end>"
+
 ["1630094"]
 japanese = "加わる<end>"
 korean = "합류한다<end>"
@@ -151,6 +167,10 @@ korean = "합류하지 않는다<end>"
 ["1630106"]
 japanese = "よし、ゆくぞ。<end>"
 korean = "좋아, 가자.<end>"
+
+["1630107"]
+japanese = "む！　傭兵か！？<line-break>ここから先には行かせんぞ！<end>"
+korean = "뭐! 용병인가!? 이 앞은 지나가게 둘 수 없다!<end>"
 
 ["1630108"]
 japanese = "新手か！<line-break>これ以上は、突破させん！<end>"
@@ -195,6 +215,10 @@ korean = "오, 마침 잘 왔다. 전군에 전해라.<end>"
 ["1630134"]
 japanese = "敗残兵を驚くべき早さで立て直した<line-break>ゼネテスの奇襲により、<line-break>アンギルダンが討ち取られると、<line-break>帝国軍は総崩れとなった。<end>"
 korean = "패잔병을 놀라운 속도로 재정비한 제네테스의 기습으로 앙길단이 전사하자 제국군은 완전히 무너졌다.<end>"
+
+["1630140"]
+japanese = "これは騎士の証である盾じゃ。<line-break>受け取るがよい。<end>"
+korean = "이건 기사의 증표인 방패다. 받아라.<end>"
 
 ["1630142"]
 japanese = "　　ロストール攻略軍<line-break>朱雀軍副将<value:$28>の陣<end>"

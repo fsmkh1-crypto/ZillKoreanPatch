@@ -1124,6 +1124,10 @@ korean = "고마워.<end>"
 japanese = "<value:$28>も<line-break>それでいいかな？<end>"
 korean = "<value:$28>도 그걸로 괜찮겠어?<end>"
 
+["560548"]
+japanese = "くす。だから、アイリーンも<line-break><value:$28>も好きよ。<end>"
+korean = "후후. 그래서 아이린도 <value:$28>도 좋아해.<end>"
+
 ["560549"]
 japanese = "んじゃ、今日は解散。<end>"
 korean = "그럼 오늘은 해산.<end>"

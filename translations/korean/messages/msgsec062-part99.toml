@@ -456,6 +456,10 @@ korean = "이런 이런, 또 손님이군.<end>"
 japanese = "どいてよ！<line-break>あいつら逃げちゃうじゃない！<end>"
 korean = "비켜! 저 녀석들 도망가잖아!<end>"
 
+["620213"]
+japanese = "お願い、<value:$28>。<line-break>私、あなたを守りたいの…。<end>"
+korean = "부탁해, <value:$28>. 나, 당신을 지키고 싶어….<end>"
+
 ["620217"]
 japanese = "どうするの？<line-break><value:$28>。<end>"
 korean = "어떻게 할 거야? <value:$28>.<end>"

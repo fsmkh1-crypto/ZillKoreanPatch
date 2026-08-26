@@ -444,6 +444,10 @@ korean = "넌 여기 있어야 해.<end>"
 japanese = "ホント！？<line-break>やったあー！！<end>"
 korean = "정말!? 해냈다-!!<end>"
 
+["880266"]
+japanese = "よーし、がんばるぞー！<line-break>よろしくね、<value:$28>。<end>"
+korean = "좋아, 힘내자! 잘 부탁해, <value:$28>.<end>"
+
 ["880267"]
 japanese = "ぐむ～。<line-break>そう言われるとは思ったけど…。<line-break>　<line-break>でも、いつかまたボクも<line-break>一緒に冒険させてよね。<line-break>約束だよ！<end>"
 korean = "으음~. 그렇게 말할 줄 알았지만…. 그래도 언젠가 나도 같이 모험하게 해 줘. 약속이야!<end>"

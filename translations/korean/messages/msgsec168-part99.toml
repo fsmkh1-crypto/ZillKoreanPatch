@@ -24,6 +24,10 @@ korean = "평소 침착한 남자인 만큼 이성을 잃으면 무슨 짓을 �
 japanese = "よく来てくれた、<line-break><value:$28>。<end>"
 korean = "잘 와줬다, <value:$28>.<end>"
 
+["1680013"]
+japanese = "最近のレムオンの動きに<line-break>気になることはないか？<end>"
+korean = "요즘 레몬의 움직임 중 신경 쓰이는 건 없나?<end>"
+
 ["1680014"]
 japanese = "レムオンは、幼いころから<line-break>ティアナに惹かれていた。<end>"
 korean = "레몬은 어릴 때부터 티아나에게 끌리고 있었다.<end>"
@@ -83,6 +87,10 @@ korean = "<value:$28>, 너에게는 감사를 해야겠구나.<end>"
 ["1680052"]
 japanese = "王宮を抜け出しての密会とは、<line-break>ティアナがのぼせ上がるのも<line-break>無理はない。<line-break>そなたは、思いのほか<line-break>女心をつかむのがうまいようだ。<end>"
 korean = "왕궁을 빠져나와 밀회라니, 티아나가 푹 빠지는 것도 무리는 아니군. 자네는 생각보다 여심을 사로잡는 데 능숙한 모양이야.<end>"
+
+["1680057"]
+japanese = "ただ、ティアナを幸せにできる<line-break>男であれば…。<end>"
+korean = "그저 티아나를 행복하게 해 줄 남자라면….<end>"
 
 ["1680059"]
 japanese = "そうか。<line-break><value:$28>よ。<line-break>これからもティアナを頼む。<line-break>私の命より大事な娘だ。<end>"

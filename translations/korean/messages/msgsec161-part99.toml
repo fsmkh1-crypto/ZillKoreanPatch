@@ -108,6 +108,10 @@ korean = "상관없군<end>"
 japanese = "そうか…残念だ。　　　　　　　　　<line-break>じゃあな……。<end>"
 korean = "그렇군… 아쉽다. 그럼 잘 가….<end>"
 
+["1610061"]
+japanese = "くっ…。<line-break>結構、世の中ってのはつらいぜ…。　<end>"
+korean = "큭…. 세상이라는 게 꽤 힘들군….<end>"
+
 ["1610067"]
 japanese = "仕事内容を聞く<end>"
 korean = "일의 내용을 묻는다<end>"
@@ -147,6 +151,10 @@ korean = "맡겨 둬<end>"
 ["1610084"]
 japanese = "そんなのウソ<end>"
 korean = "그런 건 거짓말이야<end>"
+
+["1610085"]
+japanese = "本当！？　やったあ！！<line-break>じゃ、これあげるよ。<end>"
+korean = "정말!? 신난다!! 그럼 이거 줄게.<end>"
 
 ["1610088"]
 japanese = "な、なんだよぉ…。<end>"
@@ -219,6 +227,10 @@ korean = "맡겨 둬<end>"
 ["1610130"]
 japanese = "そんなのウソ<end>"
 korean = "그런 건 거짓말이야<end>"
+
+["1610131"]
+japanese = "本当！？　やったあ！！<line-break>じゃ、これあげるよ。<end>"
+korean = "정말!? 신난다!! 그럼 이거 줄게.<end>"
 
 ["1610142"]
 japanese = "あ、あわわ、お礼の話だよな？<line-break>わ、忘れてないぜ。大丈夫だ。<line-break>　<line-break>じゃあ、これ。俺の宝物だ。<end>"

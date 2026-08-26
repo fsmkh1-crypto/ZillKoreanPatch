@@ -136,6 +136,10 @@ korean = "<value:$28>님!!<end>"
 japanese = "<value:$28>様！<line-break>エステル様が、エステル様が！<line-break>　<line-break>シャリという魔術師に<line-break>さらわれてしまいました！<end>"
 korean = "<value:$28>님! 에스텔 님이, 에스텔 님이! 샤리라는 마술사에게 납치됐습니다!<end>"
 
+["890099"]
+japanese = "もはや、頼みの綱は<line-break><value:$28>様だけなのです！！<end>"
+korean = "이제 의지할 분은 <value:$28>님뿐입니다!!<end>"
+
 ["890100"]
 japanese = "お願いです！<line-break>エステル様を助け出してください！！<end>"
 korean = "부탁입니다! 에스텔 님을 구해 주세요!!<end>"

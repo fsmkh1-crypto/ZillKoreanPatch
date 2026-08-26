@@ -92,6 +92,10 @@ korean = "시간이 된 모양이군. 간다, <value:$28>!<end>"
 japanese = "<value:$28>、<line-break>お主、泳ぎは得意か？<end>"
 korean = "<value:$28>, 자네 수영은 잘하나?<end>"
 
+["1710054"]
+japanese = "何をふるえておる！<line-break>生き延びるためじゃ、来い！<end>"
+korean = "뭘 떨고 있나! 살아남으려면 와라!<end>"
+
 ["1710055"]
 japanese = "ぶふぅ～。<line-break>大丈夫か？　<value:$28>。<end>"
 korean = "부후~. 괜찮아? <value:$28>.<end>"
@@ -156,9 +160,17 @@ korean = "어머, 그런가요.<end>"
 japanese = "こちらです。来てください。<end>"
 korean = "이쪽입니다. 따라오세요.<end>"
 
+["1710111"]
+japanese = "あの大蛇がねぇ？<line-break>あれ、人を喰わねぇのかな。<end>"
+korean = "그 큰 뱀 말이야? 사람을 잡아먹진 않나.<end>"
+
 ["1710113"]
 japanese = "おお、こわ。<line-break>しかし、こりゃ一本取られたね。<line-break>　<line-break>じゃ、これ以上怒られないように<line-break>健康な俺は退散しましょうかね。<end>"
 korean = "오, 무서워라. 그래도 이건 한 방 먹었네. 더 혼나기 전에 멀쩡한 나는 이만 사라져야겠군.<end>"
+
+["1710114"]
+japanese = "すいません。<line-break>こんな所で声を荒げたりして…。<end>"
+korean = "죄송합니다. 이런 곳에서 목소리를 높여서….<end>"
 
 ["1710121"]
 japanese = "おお恐い。ハハハ…。<end>"

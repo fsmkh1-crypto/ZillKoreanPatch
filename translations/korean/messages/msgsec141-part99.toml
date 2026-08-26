@@ -1180,6 +1180,10 @@ korean = "도, 도망쳐!<end>"
 japanese = "♪未来の勇者　その名はガルドラン～！<end>"
 korean = "♪미래의 용사 그 이름은 갈드란~!<end>"
 
+["1410550"]
+japanese = "俺様の魂の輝きで悪は滅んだ。<line-break>安心するがいい！<end>"
+korean = "이 몸의 영혼의 빛으로 악은 멸망했다. 안심해라!<end>"
+
 ["1410551"]
 japanese = "あ、ありがとうございました。<end>"
 korean = "아, 감사합니다.<end>"
@@ -1219,6 +1223,10 @@ korean = "이건… 또 묘한 질감의 돌이네. 작은데도 꽤 무겁고�
 ["1410563"]
 japanese = "…すごい。<line-break>これは、すごい大発見かもしれないよ、<line-break><value:$28>！<end>"
 korean = "…대단해. 이건 엄청난 발견일지도 몰라, <value:$28>!<end>"
+
+["1410567"]
+japanese = "やっぱり君もそう思うかい？<line-break>…僕とおんなじだ！<end>"
+korean = "역시 너도 그렇게 생각해? …나랑 똑같네!<end>"
 
 ["1410568"]
 japanese = "この辺りには、超古代…<line-break>今の文明が生まれるより<line-break>はるか昔に、<line-break>華やかな謎の王朝があったという<line-break>伝説がある。<end>"

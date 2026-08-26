@@ -8,6 +8,10 @@ korean = "델가드 V4 시작<end>"
 japanese = "<value:$28>のウソツキー！<line-break>　<end>"
 korean = "<value:$28> 거짓말쟁이~!<end>"
 
+["930006"]
+japanese = "それじゃ、<value:$28>！<line-break>それが欠けていたんじゃ！<end>"
+korean = "그래, <value:$28>! 그게 빠져 있었던 거야!<end>"
+
 ["930010"]
 japanese = "おぉ、そうじゃ、そうだったんじゃ！<line-break>　<line-break>　<end>"
 korean = "오오, 그래, 그랬었지!<end>"

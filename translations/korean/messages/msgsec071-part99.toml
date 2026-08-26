@@ -40,6 +40,10 @@ korean = "일식, 입니다.<end>"
 japanese = "日蝕…。<end>"
 korean = "일식….<end>"
 
+["710029"]
+japanese = "いつもながら見事な手並みです。<line-break><value:$28>さん。<end>"
+korean = "언제 봐도 훌륭한 솜씨입니다, <value:$28>님.<end>"
+
 ["710032"]
 japanese = "…確かめたかっただけだ。<line-break>こんなふうにな。<end>"
 korean = "…확인하고 싶었을 뿐이다. 이렇게 말이지.<end>"

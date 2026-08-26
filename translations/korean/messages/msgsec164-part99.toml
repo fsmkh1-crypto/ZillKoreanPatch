@@ -36,9 +36,17 @@ korean = "또 나타났냐!<end>"
 japanese = "かなり近いな。<line-break>行ってみるとしよう。<end>"
 korean = "꽤 가깝군. 가 보자.<end>"
 
+["1640019"]
+japanese = "なんちゅうスゴ腕だ。<line-break>ダークエルフは恐いのう。<end>"
+korean = "엄청난 실력이군. 다크엘프는 무섭구나.<end>"
+
 ["1640020"]
 japanese = "間に合わなかった。<line-break>…矢で急所を一撃だ。<end>"
 korean = "늦었어. …화살 한 발에 급소를 맞았어.<end>"
+
+["1640021"]
+japanese = "いたぞ！　スラムだ！<line-break>スラムへ逃げ込んだぞ！<end>"
+korean = "찾았다! 슬럼가다! 슬럼가로 도망쳤다!<end>"
 
 ["1640022"]
 japanese = "ゆくぞ。<end>"
@@ -208,6 +216,10 @@ korean = "네메아!!<end>"
 japanese = "いかにも。<line-break>フフフ、運がいい。<line-break>このような大物と出会えるとは！<line-break>さあ、ネメア！<line-break>我と勝負しろ！！<end>"
 korean = "그렇다. 후후후, 운이 좋군. 이런 거물을 만나다니! 자, 네메아! 나와 승부해라!!<end>"
 
+["1640078"]
+japanese = "闇にとりつかれているわけでは、<line-break>ないようだな。<end>"
+korean = "어둠에 홀린 건 아닌 모양이군.<end>"
+
 ["1640079"]
 japanese = "無論だ！<line-break>我は、我が意志で、<line-break>強さを求めている！<line-break>さあ、勝負！！<end>"
 korean = "물론이다! 나는 내 의지로 강함을 추구한다! 자, 승부다!!<end>"
@@ -259,6 +271,10 @@ korean = "어둠이 움직이기 시작했다. 내게 흐르는 피가 그것을
 ["1640096"]
 japanese = "では、またな。<end>"
 korean = "그럼, 또 보자.<end>"
+
+["1640097"]
+japanese = "お前は強くなる。<line-break>その魂を、鍛え続けるがいい。<end>"
+korean = "너는 강해질 것이다. 그 영혼을 계속 단련해라.<end>"
 
 ["1640098"]
 japanese = "ネメアＶ１の２<line-break>予備メッセージ１だ。<end>"
