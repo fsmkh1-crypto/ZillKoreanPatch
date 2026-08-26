@@ -132,6 +132,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "いらっしゃい。何にしやすかね？<end>"
 korean = "어서 와. 뭘 찾으시나?<end>"
 
+["1420084"]
+japanese = "ああ、聞けねえね。<line-break>俺あ、こんなとこで<line-break>酒場なんてやってるが、<line-break>子供らの未来は、<line-break>健全であってほしいからな。<end>"
+korean = "그래, 못 들어주지. 내가 이런 데서 술집이나 하고 있지만 아이들의 미래만큼은 건전했으면 하거든.<end>"
+
 ["1420087"]
 japanese = "ほう、わらわに挑戦するか。<line-break>面白い。<line-break> <line-break>…見えるぞ。<line-break>親父、そなたの未来には…。<end>"
 korean = "호오, 나에게 도전하겠다는 거냐. 재미있군. …보인다. 아저씨, 그대의 미래에는….<end>"
@@ -279,6 +283,10 @@ korean = "당신이 마인의 마음을 바꿨던 때처럼.<end>"
 ["1420151"]
 japanese = "やめろ！俺は、何もしちゃいない！<end>"
 korean = "그만둬! 난 아무것도 안 했어!<end>"
+
+["1420153"]
+japanese = "そうだぜ。<line-break>どの道、エルフに見つかりゃ、<line-break>命はねえのさ。<line-break>てめえらダークエルフは、<line-break>エルフ族の恥だからなあ！<end>"
+korean = "그래. 어차피 엘프에게 들키면 목숨은 없어. 너희 다크엘프는 엘프족의 수치니까!<end>"
 
 ["1420155"]
 japanese = "うっ…！？<end>"
@@ -587,6 +595,10 @@ korean = "세라….<end>"
 ["1420305"]
 japanese = "そりゃそうだけどよお…。<end>"
 korean = "그야 그렇긴 하지만….<end>"
+
+["1420307"]
+japanese = "なるほど、<line-break>そう言われればそうだ。<line-break> <line-break>みなずいぶん方々から、<line-break><value:$28>に惹かれて<line-break>やってきたのじゃな。<end>"
+korean = "그렇군, 듣고 보니 그래. 모두 꽤 먼 곳에서 <value:$28>에게 이끌려 온 거구나.<end>"
 
 ["1420308"]
 japanese = "では、そろそろ<line-break>お別れとしようか。<line-break> <line-break>皆、それぞれの方向へと、<line-break>帰らねばならないのだからな。<end>"
@@ -1431,6 +1443,10 @@ korean = "세라….<end>"
 ["1420655"]
 japanese = "そりゃそうだけどよお…。<end>"
 korean = "그야 그렇긴 하지만….<end>"
+
+["1420657"]
+japanese = "なるほど、<line-break>そう言われればそうだ。<line-break> <line-break>みなずいぶん方々から、<line-break><value:$28>に惹かれて<line-break>やってきたのじゃな。<end>"
+korean = "그렇군, 듣고 보니 그래. 모두 꽤 먼 곳에서 <value:$28>에게 이끌려 온 거구나.<end>"
 
 ["1420658"]
 japanese = "では、そろそろ<line-break>お別れとしようか。<line-break> <line-break>皆、それぞれの方向へと、<line-break>帰らねばならないのだからな。<end>"

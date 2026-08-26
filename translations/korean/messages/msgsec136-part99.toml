@@ -228,6 +228,10 @@ korean = "후후후, 네메아. 이미 내 뜻대로 되고 있어. 나는 이�
 japanese = "じゃあね。<line-break>またあとで会おうね、<line-break><value:$28>。<end>"
 korean = "그럼 안녕. 나중에 또 만나자, <value:$28>.<end>"
 
+["1360160"]
+japanese = "気付いていたの…。<line-break>　<line-break>　<line-break>行き着くところまでよ。<line-break>たとえ、そこが地獄でも、<line-break>どこまでもついていくわ。<end>"
+korean = "알고 있었어…. 갈 데까지 가는 거야. 설령 그곳이 지옥이라도 어디까지든 따라갈게.<end>"
+
 ["1360161"]
 japanese = "ケリュネイア。<line-break>お前はここに残れ。<end>"
 korean = "케류네이아. 너는 여기 남아라.<end>"
@@ -259,6 +263,10 @@ korean = "이 리벨덤의 파괴도….<end>"
 ["1360185"]
 japanese = "…開け放つもの。<end>"
 korean = "…열어젖히는 자.<end>"
+
+["1360187"]
+japanese = "もう、何もわからないの。<line-break>何が正しくて、何を正義と呼ぶのか？<line-break>わからないのに…。<line-break>剣を振り続けるなんてできないの。<end>"
+korean = "이제 아무것도 모르겠어. 무엇이 옳고 무엇을 정의라 부르는지? 모르면서… 계속 검을 휘두를 수는 없어.<end>"
 
 ["1360189"]
 japanese = "おう、<value:$28>、大変だ。<line-break>お前にカルラ将軍から<line-break>出頭命令が来てるぞ。<end>"

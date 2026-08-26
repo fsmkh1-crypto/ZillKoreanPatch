@@ -188,6 +188,10 @@ korean = "뭐, 됐나. 딱히 숨길 일도 아니고.<end>"
 japanese = "別に気にしなくていいのにねー。<end>"
 korean = "딱히 신경 쓰지 않아도 되는데 말이야.<end>"
 
+["1380112"]
+japanese = "んじゃ、明日も早いし、<line-break>そろそろ寝ましょうかねー。<line-break> <line-break><value:$28>も<line-break>あんまし、夜更かししちゃ<line-break>ダメよん。<end>"
+korean = "그럼 내일도 일찍 일어나야 하니 슬슬 자자. <value:$28>도 너무 늦게까지 깨어 있지 마.<end>"
+
 ["1380113"]
 japanese = "じゃねー。<end>"
 korean = "또 봐.<end>"

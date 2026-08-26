@@ -136,6 +136,10 @@ korean = "아직 준비 중<end>"
 japanese = "ルルアンタは賢者の森だ。<line-break>はやく助けてやろうぜ、<line-break><value:$28>。<line-break>おっと、その前に体力を<line-break>回復しておかないとな。<end>"
 korean = "루루안타는 현자의 숲에 있어. 빨리 구하러 가자, <value:$28>. 아, 그 전에 체력부터 회복해야겠군.<end>"
 
+["1470139"]
+japanese = "言葉通りの意味さ。もう、<line-break>あんたらに戻るところはないぜ。<line-break>　<line-break>さぁ、ルルアンタの居場所を<line-break>教えてもらおうか？<end>"
+korean = "말 그대로야. 이제 너희에게 돌아갈 곳은 없어. 자, 루루안타가 어디 있는지 말해 주실까?<end>"
+
 ["1470142"]
 japanese = "やめとけ、<value:$28>。<line-break>挑発に乗るんじゃない。<end>"
 korean = "그만둬, <value:$28>. 도발에 넘어가지 마.<end>"

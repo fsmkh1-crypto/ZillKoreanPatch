@@ -36,6 +36,10 @@ korean = "그럼 돌려드리겠습니다.<end>"
 japanese = "ふふふ…。<line-break>そんなに変ですか？ <line-break>　<line-break>一国の王女が見ず知らずの侵入者を<line-break>親しげにおもてなしするのが。<end>"
 korean = "후후후…. 그렇게 이상한가요? 한 나라의 공주가 처음 보는 침입자를 친근하게 대접하는 게.<end>"
 
+["650016"]
+japanese = "わかりました。<line-break>私から、話を通しておきますわ。<end>"
+korean = "알겠습니다. 제가 이야기를 전해 두겠습니다.<end>"
+
 ["650018"]
 japanese = "<value:$28>…様。<line-break>素敵なお名前ですね。<end>"
 korean = "<value:$28>…님. 멋진 이름이네요.<end>"

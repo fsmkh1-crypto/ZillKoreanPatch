@@ -80,6 +80,10 @@ korean = "예를 들면, 사랑병이라든가.<end>"
 japanese = "だ、誰が！　あなたなんかに！<end>"
 korean = "누, 누가! 당신 따위에게!<end>"
 
+["660031"]
+japanese = "失礼で野蛮で、<line-break>酒とバクチにおぼれた人なんて！<end>"
+korean = "무례하고 야만적이고, 술과 도박에 빠진 사람이라니!<end>"
+
 ["660034"]
 japanese = "そうだな…。<line-break>ありゃ、ほんとに運がよかった。<line-break>　<line-break>どう考えても<line-break>アンギルダンのとっつぁんが<line-break>勝つ戦だった。<end>"
 korean = "그래…. 그건 정말 운이 좋았어. 어떻게 생각해도 앙길단 아저씨가 이길 전투였지.<end>"
@@ -156,6 +160,10 @@ korean = "제네테스 님….<end>"
 japanese = "あ…、ゼネテス様…。<end>"
 korean = "아…, 제네테스 님….<end>"
 
+["660083"]
+japanese = "よ、俺の素行の悪さを<line-break>叔母貴に告げ口してない？<end>"
+korean = "저기, 내 행실이 나쁘다고 고모한테 고자질한 건 아니지?<end>"
+
 ["660084"]
 japanese = "私、お母様に告げ口したり<line-break>いたしません。<end>"
 korean = "저, 어머님께 일러바치거나 하지 않아요.<end>"
@@ -184,6 +192,10 @@ korean = "꺄! 멋대로 방에 들어오다니!<end>"
 japanese = "ちゃんとノックしたが、<line-break>返事がないから入ったんだ。<line-break>そうだろ、<value:$28>？<end>"
 korean = "노크는 했는데 대답이 없어서 들어온 거야. 그렇지, <value:$28>?<end>"
 
+["660111"]
+japanese = "わ、私、タルテュバ様とは<line-break>そういう関係では…！<end>"
+korean = "저, 저는 타르튜바 님과 그런 관계가…!<end>"
+
 ["660114"]
 japanese = "なんだい、<line-break>いつもの元気はどうした？<end>"
 korean = "왜 그래, 평소의 기운은 어디 갔어?<end>"
@@ -199,6 +211,10 @@ korean = "놀리지 마세요.<end>"
 ["660119"]
 japanese = "わからないのかい？<line-break>みんな、あんたの笑顔を見たくて<line-break>あんたの周りに集まって来るんだよ。<line-break>あんたの笑顔に救われたくてね。<end>"
 korean = "모르겠어? 모두 네 웃는 얼굴을 보고 싶어서 네 주위로 모여드는 거야. 네 미소에 구원받고 싶어서 말이지.<end>"
+
+["660129"]
+japanese = "じゃ、お言葉に甘えて<line-break>俺は酒場に戻るとするか。<end>"
+korean = "그럼 말씀에 기대서 난 술집으로 돌아갈까.<end>"
 
 ["660131"]
 japanese = "きゃっ！<line-break>いきなり入ってこないでください。<end>"
@@ -259,6 +275,38 @@ korean = "로스토올이 멸망하는 날이네. 좋아, 알았어. 그때는 �
 ["660172"]
 japanese = "もう！<end>"
 korean = "정말!<end>"
+
+["660175"]
+japanese = "予備メッセージ１<line-break>ティアナ、ボリューム３その１<end>"
+korean = "예비 메시지 1 티아나 볼륨 3 그 1<end>"
+
+["660176"]
+japanese = "予備メッセージ２<line-break>ティアナ、ボリューム３その１<end>"
+korean = "예비 메시지 2 티아나 볼륨 3 그 1<end>"
+
+["660177"]
+japanese = "予備メッセージ３<line-break>ティアナ、ボリューム３その１<end>"
+korean = "예비 메시지 3 티아나 볼륨 3 그 1<end>"
+
+["660178"]
+japanese = "予備メッセージ４<line-break>ティアナ、ボリューム３その１<end>"
+korean = "예비 메시지 4 티아나 볼륨 3 그 1<end>"
+
+["660179"]
+japanese = "予備メッセージ５<line-break>ティアナ、ボリューム３その１<end>"
+korean = "예비 메시지 5 티아나 볼륨 3 그 1<end>"
+
+["660180"]
+japanese = "予備メッセージ６<line-break>ティアナ、ボリューム３その１<end>"
+korean = "예비 메시지 6 티아나 볼륨 3 그 1<end>"
+
+["660181"]
+japanese = "予備メッセージ７<line-break>ティアナ、ボリューム３その１<end>"
+korean = "예비 메시지 7 티아나 볼륨 3 그 1<end>"
+
+["660182"]
+japanese = "予備メッセージ８<line-break>ティアナ、ボリューム３その１<end>"
+korean = "예비 메시지 8 티아나 볼륨 3 그 1<end>"
 
 ["660185"]
 japanese = "ティアナメッセージVOL3-1終端<end>"

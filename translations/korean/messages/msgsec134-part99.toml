@@ -372,6 +372,10 @@ korean = "나머지는 재상에게 맡기겠다. 가자.<end>"
 japanese = "…また、助けられたわね。<end>"
 korean = "…또 도움받았네.<end>"
 
+["1340223"]
+japanese = "私はネメア様の戦士。<line-break>今度会ったとき、<line-break>あなたが敵として現れたなら…。<line-break>私は、あなたを倒すわ。<line-break>…それだけ。<end>"
+korean = "나는 네메아 님의 전사야. 다음에 만났을 때 네가 적으로 나타난다면… 나는 널 쓰러뜨릴 거야. …그뿐이야.<end>"
+
 ["1340224"]
 japanese = "エスト・リューガ博士で<line-break>いらっしゃいますね。<end>"
 korean = "에스트 류가 박사님이시죠.<end>"
@@ -832,6 +836,10 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["1340428"]
+japanese = "…そうですか。<line-break>　<line-break>　<line-break>あ、おかげで復興の方も<line-break>軌道に乗ってまいりました。<line-break>人の笑顔はいいものですね。<end>"
+korean = "…그렇습니까. 아, 덕분에 부흥도 궤도에 오르고 있습니다. 사람들의 웃는 얼굴은 좋군요.<end>"
+
 ["1340430"]
 japanese = "これは…、<value:$28>様。<line-break>あの…<line-break>ティアナのお願いをきいてください。<line-break>寝室に…来ていただきたいのです…。<end>"
 korean = "<value:$28>님이시군요. 저… 티아나의 부탁을 들어 주세요. 침실로… 와 주셨으면 합니다….<end>"
@@ -1247,6 +1255,10 @@ korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
 ["1340677"]
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
+
+["1340679"]
+japanese = "…そうですか。<line-break>　<line-break>　<line-break>あ、おかげで復興の方も<line-break>軌道に乗ってまいりました。<line-break>人の笑顔はいいものですね。<end>"
+korean = "…그렇습니까. 아, 덕분에 부흥도 궤도에 오르고 있습니다. 사람들의 웃는 얼굴은 좋군요.<end>"
 
 ["1340685"]
 japanese = "タルテュバ様…。<end>"
