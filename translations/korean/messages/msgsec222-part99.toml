@@ -4,6 +4,14 @@
 japanese = "迷子イベント5用開始<end>"
 korean = "미아 이벤트 5용 시작<end>"
 
+["2220001"]
+japanese = "うぇーん、うぇーん！<line-break>痛いよーっ！<end>"
+korean = "으앙, 으앙! 아파아!<end>"
+
+["2220005"]
+japanese = "何かって…。<line-break>何すりゃいいんだよ？<end>"
+korean = "뭘 하라니…. 뭘 하면 되는데?<end>"
+
 ["2220007"]
 japanese = "そんなことなら<line-break>おやすい御用だぜ。<line-break>なあ、<value:$28>。<end>"
 korean = "그런 거라면 식은 죽 먹기지. 안 그래, <value:$28>.<end>"

@@ -8,6 +8,10 @@ korean = "Zill O'll 엔딩 2 메시지 시작<end>"
 japanese = "行こうか、<value:$28>。<end>"
 korean = "가자, <value:$28>.<end>"
 
+["1930011"]
+japanese = "そう。<line-break>ハンナはよくわかってるな。<end>"
+korean = "그래. 한나는 잘 알고 있구나.<end>"
+
 ["1930012"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
@@ -23,6 +27,10 @@ korean = "그렇다면, 간다.<end>"
 ["1930025"]
 japanese = "…さらばだ。<end>"
 korean = "…잘 있어라.<end>"
+
+["1930026"]
+japanese = "…お前も<line-break>さようならを言っておけ。<end>"
+korean = "…너도 작별 인사를 해 둬.<end>"
 
 ["1930027"]
 japanese = "行ってしまいましたね。<end>"
@@ -63,6 +71,10 @@ korean = "정말! 무슨 아버지가 이래!<end>"
 ["1930050"]
 japanese = "<value:$28>さん、<line-break>心配なのでついていって<line-break>あげてください。<end>"
 korean = "<value:$28> 씨, 걱정되니 따라가 주세요.<end>"
+
+["1930051"]
+japanese = "帰ってきたね…。<line-break>父さんの畑に…。<end>"
+korean = "돌아왔구나…. 아버지의 밭으로….<end>"
 
 ["1930057"]
 japanese = "なあ…。<end>"
@@ -159,3 +171,7 @@ korean = "<value:$28>이 지켜 줄 거야? …그건 동료로서? 아니면…
 ["1930118"]
 japanese = "待たせたな、ふたりとも。<end>"
 korean = "기다렸지, 둘 다.<end>"
+
+["1930120"]
+japanese = "３人とも、気をつけて。<line-break>よい旅を。<end>"
+korean = "셋 다 조심해. 좋은 여행 되길.<end>"

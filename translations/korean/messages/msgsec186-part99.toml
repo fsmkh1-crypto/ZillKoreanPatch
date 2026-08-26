@@ -112,6 +112,14 @@ korean = "흑… 어떡할 거야, <value:$28>?<end>"
 japanese = "ん？<line-break><value:$28>じゃないか。<line-break>どうしたんだ、そんなに急いで？<end>"
 korean = "응? <value:$28> 아니야. 왜 그렇게 급해?<end>"
 
+["1860137"]
+japanese = "フリント、もういい。<line-break>しゃべるな。<end>"
+korean = "플린트, 이제 됐어. 말하지 마.<end>"
+
+["1860142"]
+japanese = "急いで戻れ。<line-break>…一刻を争う状況だ。<end>"
+korean = "서둘러 돌아가. …한시가 급한 상황이다.<end>"
+
 ["1860143"]
 japanese = "急いでね、<line-break><value:$28>…。<end>"
 korean = "서둘러, <value:$28>….<end>"

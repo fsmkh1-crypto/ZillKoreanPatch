@@ -40,6 +40,10 @@ korean = "뭘까, 뭘까.<end>"
 japanese = "つまらんのぉ。<end>"
 korean = "재미없구먼.<end>"
 
+["1850051"]
+japanese = "ほーほっほっほ。<line-break>そーですわねぇ。<end>"
+korean = "호호호호. 그렇군요오.<end>"
+
 ["1850055"]
 japanese = "カルラに頼まれた<end>"
 korean = "카를라에게 부탁받았다<end>"
@@ -71,6 +75,10 @@ korean = "이겼어. 이겼어.<end>"
 ["1850071"]
 japanese = "冒険者か？　名を名乗れ。<end>"
 korean = "모험자인가? 이름을 대라.<end>"
+
+["1850078"]
+japanese = "話はつけてきたのか？<line-break>早く頼むよ。<end>"
+korean = "이야기는 끝냈나? 빨리 부탁해.<end>"
 
 ["1850085"]
 japanese = "クリュセイスメッセージ終端<end>"

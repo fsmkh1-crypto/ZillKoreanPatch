@@ -16,6 +16,10 @@ korean = "네메아를 쫓는다<end>"
 japanese = "ネメアを追わない<end>"
 korean = "네메아를 쫓지 않는다<end>"
 
+["1780028"]
+japanese = "ゼグナ鉱山で、<line-break>ネメアを見たのか？<end>"
+korean = "제그나 광산에서 네메아를 봤나?<end>"
+
 ["1780029"]
 japanese = "妙だな…、<line-break>なぜ単独行動を…。<end>"
 korean = "이상하군… 왜 단독행동을….<end>"
@@ -31,6 +35,10 @@ korean = "<value:$28>…. 난 너와 싸우고 싶었어. 자! 간다!<end>"
 ["1780042"]
 japanese = "待て、<value:$28>！<line-break>逃げるの！？<end>"
 korean = "기다려, <value:$28>! 도망치는 거야!?<end>"
+
+["1780044"]
+japanese = "ディンガルの奴らが<line-break>逃げていくぞ！<end>"
+korean = "딩갈 녀석들이 도망간다!<end>"
 
 ["1780046"]
 japanese = "<value:$28>、<line-break>カルラは？<end>"
