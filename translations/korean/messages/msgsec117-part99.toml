@@ -64,6 +64,10 @@ korean = "저기, …세몬인?<end>"
 japanese = "そして、現在もな…。<end>"
 korean = "그리고 지금도 말이지….<end>"
 
+["1170045"]
+japanese = "それじゃ、この人たちは…。<end>"
+korean = "그럼 이 사람들은….<end>"
+
 ["1170056"]
 japanese = "あ！<line-break><value:$28>さん！<end>"
 korean = "아! <value:$28> 씨!<end>"
