@@ -32,9 +32,17 @@ korean = "돕는다<end>"
 japanese = "助けない<end>"
 korean = "안 도와<end>"
 
+["1490083"]
+japanese = "大丈夫か？<end>"
+korean = "괜찮아?<end>"
+
 ["1490094"]
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
+
+["1490123"]
+japanese = "こら、君！<end>"
+korean = "이봐, 자네!<end>"
 
 ["1490127"]
 japanese = "助けよう<end>"
@@ -47,6 +55,10 @@ korean = "우왓!<end>"
 ["1490226"]
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
+
+["1490286"]
+japanese = "あんたぁ！<end>"
+korean = "당신 말이야!<end>"
 
 ["1490298"]
 japanese = "助けよう<end>"

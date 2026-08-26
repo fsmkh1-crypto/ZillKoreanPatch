@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1610002"]
+japanese = "話してみて<end>"
+korean = "말해 봐<end>"
+
 ["1610006"]
 japanese = "任せて<end>"
 korean = "맡겨<end>"
@@ -20,6 +24,10 @@ korean = "싫은데<end>"
 japanese = "任せて<end>"
 korean = "맡겨<end>"
 
+["1610020"]
+japanese = "自分でやれ<end>"
+korean = "네가 직접 해<end>"
+
 ["1610038"]
 japanese = "失礼。<end>"
 korean = "실례.<end>"
@@ -28,9 +36,37 @@ korean = "실례.<end>"
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
 
+["1610044"]
+japanese = "退治に行く<end>"
+korean = "퇴치하러 간다<end>"
+
+["1610045"]
+japanese = "やめておく<end>"
+korean = "그만둔다<end>"
+
+["1610053"]
+japanese = "話を聞こう<end>"
+korean = "이야기를 들어 보자<end>"
+
 ["1610057"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
+
+["1610058"]
+japanese = "関係ないな<end>"
+korean = "상관없군<end>"
+
+["1610070"]
+japanese = "引き受ける<end>"
+korean = "수락한다<end>"
+
+["1610071"]
+japanese = "やめておく<end>"
+korean = "그만둔다<end>"
+
+["1610078"]
+japanese = "鳳凰って？<end>"
+korean = "봉황이 뭐지?<end>"
 
 ["1610079"]
 japanese = "うるさい<end>"
@@ -52,13 +88,41 @@ korean = "봐줘<end>"
 japanese = "任せて<end>"
 korean = "맡겨<end>"
 
+["1610099"]
+japanese = "自分でやれ<end>"
+korean = "네가 직접 해<end>"
+
+["1610110"]
+japanese = "退治に行く<end>"
+korean = "퇴치하러 간다<end>"
+
+["1610111"]
+japanese = "やめておく<end>"
+korean = "그만둔다<end>"
+
 ["1610117"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
 
+["1610118"]
+japanese = "関係ないな<end>"
+korean = "상관없군<end>"
+
+["1610123"]
+japanese = "引き受ける<end>"
+korean = "수락한다<end>"
+
+["1610124"]
+japanese = "やめておく<end>"
+korean = "그만둔다<end>"
+
 ["1610129"]
 japanese = "任せとけ<end>"
 korean = "맡겨 둬<end>"
+
+["1610160"]
+japanese = "そっか…。<end>"
+korean = "그렇구나….<end>"
 
 ["1610169"]
 japanese = "…では。<end>"
@@ -75,6 +139,10 @@ korean = "…그럼.<end>"
 ["1610182"]
 japanese = "くっ！！<end>"
 korean = "큭!!<end>"
+
+["1610200"]
+japanese = "…くそっ！<end>"
+korean = "…젠장!<end>"
 
 ["1610222"]
 japanese = "待て！<end>"
