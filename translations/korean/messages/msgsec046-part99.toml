@@ -92,6 +92,10 @@ korean = "묵는다<end>"
 japanese = "泊まらない<end>"
 korean = "묵지 않는다<end>"
 
+["460087"]
+japanese = "そうかい。<line-break>じゃ、ゆっくりしていってくれ。<end>"
+korean = "그런가. 그럼 푹 쉬다 가.<end>"
+
 ["460088"]
 japanese = "疲れはとれたかい？<end>"
 korean = "피로는 좀 풀렸어?<end>"
@@ -123,6 +127,10 @@ korean = "미안하군.<end>"
 ["460105"]
 japanese = "それじゃ、ギルドは…<line-break>　<line-break>　<line-break>あ、あの建物がそうだね。<line-break>行こう、<value:$28>。<end>"
 korean = "그럼 길드는… 아, 저 건물이구나. 가자, <value:$28>.<end>"
+
+["460107"]
+japanese = "ねえ、冒険者登録をすましてから<line-break>行こうよ。<end>"
+korean = "있잖아, 모험자 등록부터 마치고 가자.<end>"
 
 ["460113"]
 japanese = "知ってるんですか？<end>"

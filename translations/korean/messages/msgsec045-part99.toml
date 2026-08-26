@@ -272,6 +272,10 @@ korean = "가, 갈드란!?<end>"
 japanese = "待て、ガルドラン！<line-break>ヴァンの仇…！<end>"
 korean = "기다려, 갈드란! 반의 원수…!<end>"
 
+["450169"]
+japanese = "楽・勝！<line-break>わかってはいたが、俺様は強い！<line-break>　<line-break>さあ、敗者は退場だ。<line-break>出ていくがいい！<end>"
+korean = "낙승! 알고는 있었지만 역시 나는 강하다! 자, 패자는 퇴장이다. 나가라!<end>"
+
 ["450174"]
 japanese = "待てっ！　悪漢ども！<end>"
 korean = "기다려! 악당들!<end>"
@@ -299,6 +303,10 @@ korean = "열!<end>"
 ["450182"]
 japanese = "は、はい。<end>"
 korean = "네, 네.<end>"
+
+["450183"]
+japanese = "き、貴様。<line-break>ア然としてしまったではないか！<end>"
+korean = "네, 네놈. 너무 어이가 없어서 말이 안 나오는군!<end>"
 
 ["450185"]
 japanese = "ぶっ殺してやる！<end>"
@@ -364,6 +372,10 @@ korean = "뭐! 마왕이라고? 으음! 인간으로서 용서 못 해! 계산�
 japanese = "オヤジ、今のはナシだ。<line-break>でやっ！！<end>"
 korean = "아저씨, 방금 건 무효야. 이야앗!!<end>"
 
+["450222"]
+japanese = "あー、<value:$28>だ。<line-break>お酒なんか飲んじゃダメだよお。<line-break>　<line-break>ゼネテスみたいな<line-break>飲兵衛になっちゃうから。<end>"
+korean = "아, <value:$28>이다. 술 같은 거 마시면 안 돼. 제네테스처럼 술꾼이 될 테니까.<end>"
+
 ["450223"]
 japanese = "ガルドランが、いたの…？<end>"
 korean = "갈드란이 있었어…?<end>"
@@ -412,6 +424,10 @@ korean = "반, 원수는 갚았어….<end>"
 japanese = "ヴァン…仇は討ったよ。<end>"
 korean = "반… 원수는 갚았어.<end>"
 
+["450254"]
+japanese = "よう、<value:$28>。<line-break>よく来たな。　　　　　　　　　　　　<line-break>　<line-break>今日は親父が留守なんだ。<line-break>運がいいな。<end>"
+korean = "여, <value:$28>. 잘 왔다. 오늘은 아버지가 안 계셔. 운이 좋군.<end>"
+
 ["450258"]
 japanese = "いや、ガルドランは<line-break>殺さなかったんだ。<end>"
 korean = "아니, 갈드란은 죽이지 않았어.<end>"
@@ -443,6 +459,10 @@ korean = "배가… 고파서….<end>"
 ["450281"]
 japanese = "くっ、飢えか！　よし、任せろ！！　<end>"
 korean = "큭, 굶주림인가! 좋아, 맡겨!!<end>"
+
+["450287"]
+japanese = "ふっ、熱き魂を持つ者は<line-break>…ち、違う…のだ。<end>"
+korean = "흥, 뜨거운 혼을 가진 자는… 다, 다르…군.<end>"
 
 ["450290"]
 japanese = "あ、あれ？　君は前に…。<end>"

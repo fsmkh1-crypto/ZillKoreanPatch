@@ -80,6 +80,10 @@ korean = "어… 어어!?<end>"
 japanese = "どっ、どうしよう<line-break><value:$28>！？<end>"
 korean = "어, 어떡하지, <value:$28>!?<end>"
 
+["1920062"]
+japanese = "ああ、またやっちゃった…。<line-break>　<line-break>　<line-break>せっかく魔道アカデミーに<line-break>戻れたと思ったのに。<end>"
+korean = "아아, 또 해버렸어…. 겨우 마도 아카데미로 돌아왔다고 생각했는데.<end>"
+
 ["1920066"]
 japanese = "…って、今は<line-break>逃げ出す方が先かもね。<end>"
 korean = "…라고 해도 지금은 도망치는 게 먼저일지도 모르겠네.<end>"
@@ -103,6 +107,10 @@ korean = "어, 어라!? <value:$28>!<end>"
 ["1920077"]
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
+
+["1920079"]
+japanese = "え？<line-break>まだ約束の時間になってない？<line-break>あれ？<line-break>あの、約束の時間って<line-break>いつだったっけ？<end>"
+korean = "어? 아직 약속 시간이 안 됐다고? 어라? 그 약속 시간이 언제였더라?<end>"
 
 ["1920081"]
 japanese = "それじゃあ、<value:$28>。<line-break>行こうか！<end>"
@@ -131,6 +139,10 @@ korean = "어, 어른을 놀리면 안 돼요!<end>"
 ["1920107"]
 japanese = "行きましょう、<value:$28>。<end>"
 korean = "가죠, <value:$28>.<end>"
+
+["1920111"]
+japanese = "そのとき…　　　　　　　　<line-break><value:$28>、<line-break>あなたも…<line-break>あなたも、わたくしと一緒に<line-break>行ってくれる…？<end>"
+korean = "그때… <value:$28>, 당신도… 당신도 저와 함께 가 주실래요…?<end>"
 
 ["1920112"]
 japanese = "ありがとう。<line-break>…うれしい。<end>"
@@ -287,6 +299,10 @@ korean = "그리고 말이야, 그다음은….<end>"
 ["1920220"]
 japanese = "<value:$28>は<line-break>全然変わってないよ！<end>"
 korean = "<value:$28>은 전혀 변하지 않았어!<end>"
+
+["1920229"]
+japanese = "ルルアンタは、これからも<line-break><value:$28>に、<line-break>ありったけの笑顔をあげるから。<line-break>だから、ずっと一緒にいようね。<end>"
+korean = "루루안타는 앞으로도 <value:$28>에게 있는 힘껏 웃어 줄 거야. 그러니까 계속 함께 있자.<end>"
 
 ["1920233"]
 japanese = "<value:$28>さーん！<end>"

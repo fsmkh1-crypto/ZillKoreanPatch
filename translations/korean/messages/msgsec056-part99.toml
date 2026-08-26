@@ -184,6 +184,10 @@ korean = "<value:$28>님! 아… 레이븐도. 둘이서 무슨 이야기하고 
 japanese = "子供には言えない話さ。<end>"
 korean = "아이한텐 할 수 없는 이야기야.<end>"
 
+["560103"]
+japanese = "レイヴン！　　　　　　　　<line-break>　<line-break>　<line-break><value:$28>さんの前で<line-break>そんなこと言うなんて。<line-break>いじわるっ！<end>"
+korean = "레이븐! <value:$28>님 앞에서 그런 말을 하다니. 심술궂어!<end>"
+
 ["560105"]
 japanese = "ずるいです。<line-break>内緒話なんて！<end>"
 korean = "치사해요. 비밀 이야기라니!<end>"
@@ -459,6 +463,10 @@ korean = "그래. 행복할 정도로 바보 취급할 수 있어.<end>"
 ["560262"]
 japanese = "やっぱり…。　　　　　　　<end>"
 korean = "역시….<end>"
+
+["560265"]
+japanese = "助けたのが<value:$28>じゃなくて<line-break>俺だとわかっていたら、<line-break>　<line-break>俺に惚れたっていうのか…？<line-break>　<line-break>　<end>"
+korean = "구해 준 게 <value:$28>이 아니라 나라는 걸 알았으면 나한테 반했다는 거야…?<end>"
 
 ["560266"]
 japanese = "これで奴のことは、<line-break>あきらめがつくのか？<end>"

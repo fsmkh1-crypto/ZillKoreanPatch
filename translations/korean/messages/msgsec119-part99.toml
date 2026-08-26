@@ -12,6 +12,10 @@ korean = "오, <value:$28>. 잠깐 와 줄래?<end>"
 japanese = "あなたが<value:$28>ね。<end>"
 korean = "당신이 <value:$28>군요.<end>"
 
+["1190012"]
+japanese = "はじめまして。<line-break>私が、闇の神器探索の依頼主、<line-break>ケリュネイアよ。<line-break>どう、神器は手に入れた？<end>"
+korean = "처음 뵙겠어요. 제가 어둠의 신기 탐색 의뢰인 케류네이아예요. 어때요, 신기는 손에 넣었나요?<end>"
+
 ["1190013"]
 japanese = "手に入れた<end>"
 korean = "손에 넣었다<end>"
@@ -59,6 +63,10 @@ korean = "케류네이아 V2 예비 메시지 8입니다<end>"
 ["1190050"]
 japanese = "ケリュネイアＶ２<line-break>予備メッセージ９です<end>"
 korean = "케류네이아 V2 예비 메시지 9입니다<end>"
+
+["1190051"]
+japanese = "ケリュネイアＶ２<line-break>予備メッセージ１０です<end>"
+korean = "케류네이아 V2 예비 메시지 10입니다.<end>"
 
 ["1190052"]
 japanese = "ケリュネイアＶ２　終了<end>"

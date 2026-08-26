@@ -52,6 +52,10 @@ korean = "도움받지 않는다<end>"
 japanese = "そうかい。<line-break>んじゃ、がんばれよ。<end>"
 korean = "그래. 그럼 힘내라.<end>"
 
+["700036"]
+japanese = "ま、こいつも、実は<line-break>かわいそうな奴なのかもな。<line-break>　<line-break>んじゃな。<line-break><value:$28>。<line-break>また、会おうぜ。<end>"
+korean = "뭐, 이 녀석도 사실 불쌍한 놈일지도 모르지. 그럼 간다, <value:$28>. 또 보자.<end>"
+
 ["700053"]
 japanese = "じゃあ、いくわよ…。<end>"
 korean = "그럼, 간다….<end>"

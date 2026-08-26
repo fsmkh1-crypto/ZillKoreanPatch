@@ -144,6 +144,10 @@ korean = "<value:$28>인가.<end>"
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["710145"]
+japanese = "待て、<value:$28>。<line-break>あの魔人はこの森の奥に<line-break>いるはずだ。<line-break>外に出るのなら<line-break>この森を探してからにしろ。<end>"
+korean = "기다려, <value:$28>. 그 마인은 이 숲 안쪽에 있을 거다. 밖으로 나갈 거라면 이 숲부터 찾아봐.<end>"
+
 ["710149"]
 japanese = "アーギルシャイアメッセージVOL1-3終端<end>"
 korean = "아길샤이어 메시지 VOL1-3 끝<end>"

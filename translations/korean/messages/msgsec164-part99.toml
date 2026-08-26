@@ -156,6 +156,10 @@ korean = "큭…! 설마, 지다니.<end>"
 japanese = "お前の名は？<end>"
 korean = "네 이름은?<end>"
 
+["1640070"]
+japanese = "<value:$28>か。<line-break>覚えておく。<line-break>この敗北を胸に、自らを鍛え直す。<line-break>心して待つがいい。<line-break>次は、負けぬ。<end>"
+korean = "<value:$28>인가. 기억해 두지. 이 패배를 가슴에 새기고 다시 단련하겠다. 각오하고 기다려라. 다음엔 지지 않는다.<end>"
+
 ["1640071"]
 japanese = "私が出るまでも、<line-break>なかったようだな。<end>"
 korean = "내가 나설 필요도 없었던 모양이군.<end>"
@@ -183,6 +187,10 @@ korean = "윽…!<end>"
 ["1640081"]
 japanese = "やめておけ。<line-break>勝負になるまい。<end>"
 korean = "그만둬라. 승부가 되지 않을 거다.<end>"
+
+["1640085"]
+japanese = "今のお前では、<line-break>レーグは超えられまい。<line-break>　<line-break>いずれその若者にも、<line-break>追い抜かれよう。<end>"
+korean = "지금의 너로는 레그를 넘지 못할 것이다. 언젠가는 그 젊은이에게도 추월당하겠지.<end>"
 
 ["1640086"]
 japanese = "なんだと？<end>"
@@ -247,6 +255,10 @@ korean = "네메아 V1-2 예비 메시지 8이다.<end>"
 ["1640106"]
 japanese = "ネメアＶ１の２<line-break>予備メッセージ９だ。<end>"
 korean = "네메아 V1-2 예비 메시지 9다.<end>"
+
+["1640107"]
+japanese = "ネメアＶ１の２<line-break>予備メッセージ１０だ。<end>"
+korean = "네메아 V1-2 예비 메시지 10이다.<end>"
 
 ["1640108"]
 japanese = "ネメア・ボリューム１その２終端<end>"

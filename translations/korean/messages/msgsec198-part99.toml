@@ -84,6 +84,10 @@ korean = "찾을 만큼 찾아보자.<end>"
 japanese = "ええっ！？<end>"
 korean = "뭐!?<end>"
 
+["1980066"]
+japanese = "早く流れ星を見つけて<line-break>お願いしなくっちゃ。<line-break>　<line-break>私のウソが<value:$28>さんに<line-break>バレないように…。<end>"
+korean = "빨리 별똥별을 찾아서 소원을 빌어야 해. 내 거짓말을 <value:$28>님이 눈치채지 않게….<end>"
+
 ["1980067"]
 japanese = "あっ…。<end>"
 korean = "앗….<end>"

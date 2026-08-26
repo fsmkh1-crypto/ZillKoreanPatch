@@ -188,6 +188,10 @@ korean = "기다려, <value:$28>.<end>"
 japanese = "メイアを…助けましょ。<end>"
 korean = "메이아를… 구하자.<end>"
 
+["370101"]
+japanese = "たぶん、助けないと、　<line-break>後悔すると…思う。<end>"
+korean = "아마 도와주지 않으면 후회할… 것 같아.<end>"
+
 ["370102"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"
@@ -283,6 +287,10 @@ korean = "뭐냐. 모든 원인은 네놈이었나.<end>"
 ["370175"]
 japanese = "ウソよ！　あたしよ！　　　　　　<end>"
 korean = "거짓말이야! 나야!<end>"
+
+["370176"]
+japanese = "あたしが<line-break>メイアを助けようって言ったのよ！<end>"
+korean = "내가 메이아를 도우러 가자고 했어!<end>"
 
 ["370183"]
 japanese = "捕らえよ。<end>"
@@ -419,6 +427,10 @@ korean = "짜증 나거든. 아줌마.<end>"
 ["370262"]
 japanese = "わかった、テレジアおばさん。<end>"
 korean = "알겠어, 테레지아 아줌마.<end>"
+
+["370263"]
+japanese = "何をぐじぐじしてんだい。<line-break>あたしの娘だろ。<end>"
+korean = "뭘 꾸물거려. 내 딸이잖아.<end>"
 
 ["370265"]
 japanese = "<value:$28>！<line-break>メイアが！　メイアが！<end>"

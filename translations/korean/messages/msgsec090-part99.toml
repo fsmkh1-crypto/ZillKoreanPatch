@@ -4,6 +4,10 @@
 japanese = "ツェラシェルメッセージVOL1開始<end>"
 korean = "체라셸 메시지 VOL1 시작<end>"
 
+["900001"]
+japanese = "冒険者登録かい？<line-break>そこに名前を書いてくれ。<end>"
+korean = "모험자 등록인가? 거기에 이름을 써 줘.<end>"
+
 ["900007"]
 japanese = "結構です。<end>"
 korean = "괜찮습니다.<end>"

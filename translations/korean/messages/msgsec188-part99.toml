@@ -80,6 +80,10 @@ korean = "…그렇습니까. 왕비가 <value:$28>에게 로스토올군 참가
 japanese = "そ、そうでした。申しわけありません。<line-break>クリュセイス様、<line-break>それと、<value:$28>さん。<end>"
 korean = "아, 그랬죠. 죄송합니다. 크류세이스 님, 그리고 <value:$28>님.<end>"
 
+["1880075"]
+japanese = "<value:$28>、<line-break>ご苦労様でした。王家にはあらためて<line-break>別の打診をしてみます。<line-break>今日は下がっていいですよ。<end>"
+korean = "<value:$28>, 수고하셨습니다. 왕가에는 다시 다른 제안을 해 보겠습니다. 오늘은 돌아가셔도 됩니다.<end>"
+
 ["1880083"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"

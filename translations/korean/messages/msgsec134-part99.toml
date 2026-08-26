@@ -264,6 +264,10 @@ korean = "장군님! 지라크 장군님!<end>"
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
 korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
 
+["1340183"]
+japanese = "な、何者だ！<line-break>ディンガル帝国の者かっ！<end>"
+korean = "누, 누구냐! 딩갈 제국의 자냐!<end>"
+
 ["1340184"]
 japanese = "心配は無用だ。<end>"
 korean = "걱정할 것 없다.<end>"
@@ -516,6 +520,10 @@ korean = "그런가, 너도….<end>"
 japanese = "やってくれたな、<line-break><value:$28>…。<end>"
 korean = "해냈구나, <value:$28>….<end>"
 
+["1340311"]
+japanese = "ありがとう、<value:$28>。　　　<line-break>おかげで助かったよ。<line-break> <line-break>君は…なんとなく、不思議な人だね。<end>"
+korean = "고마워, <value:$28>. 덕분에 살았어. 너는… 왠지 신기한 사람이네.<end>"
+
 ["1340318"]
 japanese = "…冒険者？<end>"
 korean = "…모험가?<end>"
@@ -559,6 +567,14 @@ korean = "용사다! 용사의 재림이다!<end>"
 ["1340347"]
 japanese = "つ、ついに<line-break>剣が抜けるときが訪れたか…。<end>"
 korean = "드, 드디어 검을 뽑을 때가 온 건가….<end>"
+
+["1340348"]
+japanese = "（急に空気が変わった…。）<line-break> <line-break> <line-break>（嫌な予感だ。<line-break>　外へ行ってみよう。）<end>"
+korean = "(갑자기 분위기가 바뀌었어….) (불길한 예감이 든다. 밖에 나가 보자.)<end>"
+
+["1340349"]
+japanese = "くっ…に、逃げろ…。<line-break>今の…うちに…！<end>"
+korean = "큭… 도, 도망쳐…. 지금… 당장…!<end>"
 
 ["1340354"]
 japanese = "しかたがない…<end>"
@@ -819,6 +835,10 @@ korean = "아니요<end>"
 ["1340528"]
 japanese = "わかりました。<line-break>では、こちらに…。<end>"
 korean = "알겠습니다. 그럼 이쪽으로….<end>"
+
+["1340531"]
+japanese = "<value:$28>様。<line-break>あ、あの…、<line-break>私のお願いを聞いてくださいますか？<line-break>寝室に…来ていただきたいのです…。<end>"
+korean = "<value:$28>님. 저, 저기… 제 부탁을 들어주시겠어요? 침실로… 와 주셨으면 합니다….<end>"
 
 ["1340536"]
 japanese = "<value:$28>様、<line-break>どうか、お願いします…。<end>"

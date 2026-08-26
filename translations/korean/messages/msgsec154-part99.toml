@@ -20,6 +20,10 @@ korean = "자, 증오를 통해 세상을 봐. 그래도 세상은 아름다워?
 japanese = "嫌いだろ？<end>"
 korean = "싫어하잖아?<end>"
 
+["1540016"]
+japanese = "いい子だ。<line-break>さて、実践の方に行こうか？<end>"
+korean = "착하네. 자, 이제 실전으로 가 볼까?<end>"
+
 ["1540022"]
 japanese = "エルファスＶｏｌ５予備メッセージ１<end>"
 korean = "엘파스 Vol5 예비 메시지 1<end>"
@@ -179,6 +183,10 @@ korean = "조폴 영감, 부탁할게.<end>"
 ["1540121"]
 japanese = "ありがとう、<value:$28>。<line-break>彼女を闇に突き落とした<line-break>最大の功労者は君だよ。アハハハ！<end>"
 korean = "고마워, <value:$28>. 그녀를 어둠에 빠뜨린 최대 공로자는 너야. 아하하하!<end>"
+
+["1540125"]
+japanese = "くっ！<line-break>破滅の槍の力を解放する気なの？<end>"
+korean = "큭! 파멸의 창의 힘을 해방하려는 거야?<end>"
 
 ["1540126"]
 japanese = "エルファス…。<end>"

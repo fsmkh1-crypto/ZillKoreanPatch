@@ -12,6 +12,10 @@ korean = "시간이 없어. 지금 당장 고양이 저택으로 가.<end>"
 japanese = "父さんが危ないの。<line-break>早く猫屋敷へ！<end>"
 korean = "아버지가 위험해. 빨리 고양이 저택으로!<end>"
 
+["1180006"]
+japanese = "今すぐ猫屋敷へ急いで。　　　<line-break>時間がないわ。<line-break>　<line-break>ネメアが新たな神器のありかを<line-break>嗅ぎつけたのよ。<end>"
+korean = "지금 당장 고양이 저택으로 서둘러. 시간이 없어. 네메아가 새로운 신기의 위치를 알아냈어.<end>"
+
 ["1180008"]
 japanese = "父さんの命が危険なの。<line-break>早く猫屋敷へ！<end>"
 korean = "아버지 목숨이 위험해. 빨리 고양이 저택으로!<end>"
@@ -28,6 +32,10 @@ korean = "부탁해! 오빠를 막아 줘!<end>"
 japanese = "じゃ、行くわよ！<end>"
 korean = "그럼, 간다!<end>"
 
+["1180030"]
+japanese = "はぁ、はぁ…。<line-break>さすがに…きついわね…。<end>"
+korean = "하아, 하아…. 역시… 힘드네….<end>"
+
 ["1180031"]
 japanese = "（この気配は…！）<end>"
 korean = "(이 기척은…!)<end>"
@@ -43,6 +51,10 @@ korean = "그런데 동료분들은 어떻게 됐나요?<end>"
 ["1180041"]
 japanese = "おや？　<value:$28>。<line-break>ダメじゃないですか、<line-break>こんな危ない場面に出てきたら。<end>"
 korean = "어라? <value:$28>. 안 되잖아요, 이렇게 위험한 곳에 나오면.<end>"
+
+["1180043"]
+japanese = "どうしても、<line-break>魂吸いの指輪が必要ですか？<end>"
+korean = "꼭 영혼 흡수의 반지가 필요한가요?<end>"
 
 ["1180045"]
 japanese = "やめて！<end>"
@@ -64,6 +76,10 @@ korean = "아, 아버지….<end>"
 japanese = "兄妹ゲンカなんてみっともない。<end>"
 korean = "남매 싸움이라니 보기 흉해.<end>"
 
+["1180055"]
+japanese = "私も黙って見ているわけには<line-break>いきません。<end>"
+korean = "저도 가만히 보고만 있을 수는 없습니다.<end>"
+
 ["1180056"]
 japanese = "と、父さん…！<end>"
 korean = "아, 아버지…!<end>"
@@ -71,6 +87,10 @@ korean = "아, 아버지…!<end>"
 ["1180057"]
 japanese = "…とうさ…ん…。<end>"
 korean = "…아버…지….<end>"
+
+["1180058"]
+japanese = "父よ、あなたの意志、<line-break>確かに受け取った。<end>"
+korean = "아버지, 당신의 뜻을 확실히 이어받았습니다.<end>"
 
 ["1180059"]
 japanese = "待って…。　　　　　<line-break>　<line-break>　<line-break>待ってよ、兄さん…。<end>"
@@ -143,6 +163,10 @@ korean = "케류네이아 V5 예비 메시지 8입니다<end>"
 ["1180087"]
 japanese = "ケリュネイアＶ５<line-break>予備メッセージ９です<end>"
 korean = "케류네이아 V5 예비 메시지 9입니다<end>"
+
+["1180088"]
+japanese = "ケリュネイアＶ５<line-break>予備メッセージ１０です<end>"
+korean = "케류네이아 V5 예비 메시지 10입니다.<end>"
 
 ["1180089"]
 japanese = "ケリュネイアＶ５　終了<end>"

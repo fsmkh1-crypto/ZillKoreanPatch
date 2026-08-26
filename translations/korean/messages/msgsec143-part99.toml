@@ -4,6 +4,10 @@
 japanese = "グフトク、Ｖｏｌ１メッセージ開始<end>"
 korean = "구프토크 볼륨1 메시지 시작<end>"
 
+["1430004"]
+japanese = "ならば、ひとつ<line-break>腕前を試させてもらおう。<end>"
+korean = "그렇다면 실력을 한번 시험해 보지.<end>"
+
 ["1430005"]
 japanese = "久しぶりに暴れられる。<line-break>いくぜっ！<end>"
 korean = "오랜만에 날뛸 수 있겠군. 간다!<end>"
@@ -47,6 +51,10 @@ korean = "조용히 해! 너희는 물러나 있어!<end>"
 ["1430031"]
 japanese = "へ、へい！<end>"
 korean = "예, 옙!<end>"
+
+["1430033"]
+japanese = "その腕を見込んで、<line-break>ひとつ頼みがあるの。<end>"
+korean = "그 실력을 믿고 부탁 하나 할게.<end>"
 
 ["1430042"]
 japanese = "その大イカを<line-break>退治してもらいたいの。<end>"

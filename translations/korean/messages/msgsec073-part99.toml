@@ -32,6 +32,10 @@ korean = "아길샤이어 님!<end>"
 japanese = "サイフォス！<end>"
 korean = "사이포스!<end>"
 
+["730029"]
+japanese = "…申しわけ…ありません、<line-break>アーギルシャイア様。<line-break>私のせいで…あのような…。<line-break>………………！<end>"
+korean = "…죄송…합니다, 아기르샤이아 님. 저 때문에… 그런 일이…. ………………!<end>"
+
 ["730030"]
 japanese = "俺は地獄までも<line-break>お前たちを追っていく。<end>"
 korean = "나는 지옥까지라도 너희를 쫓아가겠다.<end>"
@@ -139,6 +143,10 @@ korean = "좋을 대로… 해라….<end>"
 ["730092"]
 japanese = "…何をしている、<line-break>置いていくぞ。<end>"
 korean = "…뭐 하고 있나, 두고 간다.<end>"
+
+["730093"]
+japanese = "俺の旅は…終わった。<line-break>これで…何もかも…。　　<line-break>　<line-break>…さらばだ。<line-break>もう、会うこともあるまい。<end>"
+korean = "내 여행은… 끝났다. 이걸로… 모든 게…. …잘 있어라. 이제 다시 만날 일도 없겠지.<end>"
 
 ["730094"]
 japanese = "セラがパーティーを去っていった。<end>"

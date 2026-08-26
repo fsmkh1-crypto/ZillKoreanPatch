@@ -12,6 +12,14 @@ korean = "죄송했습니다<end>"
 japanese = "何様のつもりだ<end>"
 korean = "네가 뭐라도 된 줄 알아?<end>"
 
+["1300004"]
+japanese = "　　　　　　　　　ならば、　　　　　　　　　<line-break>　　　　　無礼なマネは慎むことだ。<line-break>　<line-break>　<end>"
+korean = "그렇다면 무례한 행동은 삼가도록 해라.<end>"
+
+["1300005"]
+japanese = "　　　　　　　　　愚かな。　　　　　　　　　<line-break>　　　　　身の程を思い知るがよい。<line-break>　<line-break>　<end>"
+korean = "어리석군. 분수를 깨닫도록 해라.<end>"
+
 ["1300006"]
 japanese = "翔王様！<end>"
 korean = "비상왕님!<end>"
@@ -63,6 +71,30 @@ korean = "그 말씀대로입니다<end>"
 ["1300040"]
 japanese = "そんなわけじゃ…<end>"
 korean = "그런 건 아니야…<end>"
+
+["1300041"]
+japanese = "予備メッセージその４<line-break>エア、ｖｏｌ１－１<end>"
+korean = "예비 메시지 4 에아, vol1-1<end>"
+
+["1300042"]
+japanese = "予備メッセージその５<line-break>エア、ｖｏｌ１－１<end>"
+korean = "예비 메시지 5 에아, vol1-1<end>"
+
+["1300043"]
+japanese = "予備メッセージその６<line-break>エア、ｖｏｌ１－１<end>"
+korean = "예비 메시지 6 에아, vol1-1<end>"
+
+["1300044"]
+japanese = "予備メッセージその７<line-break>エア、ｖｏｌ１－１<end>"
+korean = "예비 메시지 7 에아, vol1-1<end>"
+
+["1300045"]
+japanese = "予備メッセージその８<line-break>エア、ｖｏｌ１－１<end>"
+korean = "예비 메시지 8 에아, vol1-1<end>"
+
+["1300046"]
+japanese = "予備メッセージその９<line-break>エア、ｖｏｌ１－１<end>"
+korean = "예비 메시지 9 에아, vol1-1<end>"
 
 ["1300048"]
 japanese = "エア　ボリューム１その１　終了<end>"

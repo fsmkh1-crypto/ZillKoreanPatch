@@ -116,6 +116,10 @@ korean = "참가하지 않는다<end>"
 japanese = "期待している。<end>"
 korean = "기대하고 있다.<end>"
 
+["590101"]
+japanese = "<value:$28>、<line-break>まずまずの戦功だ。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに、励むがよい。<line-break>期待しておるぞ。<end>"
+korean = "<value:$28>, 제법 전공을 세웠구나. 이것은 포상이다. 더 힘쓰도록 해라. 기대하고 있겠다.<end>"
+
 ["590102"]
 japanese = "<value:$28>、<line-break>特に功はなし、か。<end>"
 korean = "<value:$28>, 특별한 공은 없음, 인가.<end>"

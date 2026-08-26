@@ -12,6 +12,10 @@ korean = "………………. 엔샨트 정청으로 가라.<end>"
 japanese = "<value:$28>様。<line-break>帝国中枢部とカルラには意見の対立が<line-break>あるようです。<line-break>この依頼、危険かもしれません。<end>"
 korean = "<value:$28>님. 제국 중추부와 카를라 사이에 의견 충돌이 있는 것 같습니다. 이번 의뢰, 위험할지도 모릅니다.<end>"
 
+["1250047"]
+japanese = "早く行こう、<value:$28>！<line-break>ゼネテスが処刑されたら、<line-break>ロストールはどうなるかわからない。<end>"
+korean = "빨리 가자, <value:$28>! 제네테스가 처형되면 로스토올이 어떻게 될지 몰라.<end>"
+
 ["1250052"]
 japanese = "………………。<line-break><line-break><line-break>…ゼネテスを救うのか？<end>"
 korean = "………………. …제네테스를 구할 건가?<end>"
@@ -23,6 +27,22 @@ korean = "<value:$28>님. 공주님의 안전은 저희에게 맡겨 주세요. 
 ["1250057"]
 japanese = "王女様は、私たちが守る！<line-break>ゼネテスを助けてあげてよ、<line-break><value:$28>！<end>"
 korean = "공주님은 우리가 지킬게! 제네테스를 도와줘, <value:$28>!<end>"
+
+["1250060"]
+japanese = "くっ！　まさかまたクーデターが…！<line-break>ゼネテスは王宮の謁見の間だ。<line-break><value:$28>、急ぐぞ！<end>"
+korean = "큭! 설마 또 쿠데타가…! 제네테스는 왕궁의 알현실에 있다. <value:$28>, 서두르자!<end>"
+
+["1250067"]
+japanese = "かつてのディンガルの首都が、<line-break>今や…。<line-break><line-break>ゾフォルめから取り戻さねばならぬ。<line-break>ワシら人の手で…！<end>"
+korean = "과거 딩갈의 수도가 이제는…. 조포르에게서 되찾아야 한다. 우리 인간의 손으로…!<end>"
+
+["1250069"]
+japanese = "冗談言ってる場合じゃねえ！<line-break>ここで尻込みしてちゃ、<line-break>世界のお先は真っ暗だぜ！<line-break>敵が、闇の者だけにな！！<end>"
+korean = "농담할 때가 아니야! 여기서 겁먹으면 세상 앞날이 캄캄해진다고! 적이 어둠의 자들뿐이니까!!<end>"
+
+["1250071"]
+japanese = "闇の皇帝が、<line-break>闇の帝国が誕生しようとしている。<line-break>放ってはおけない…！<line-break>謁見の間へ急ぐぞ！<end>"
+korean = "어둠의 황제가, 어둠의 제국이 탄생하려 하고 있어. 내버려 둘 수는 없어…! 알현실로 서두르자!<end>"
 
 ["1250087"]
 japanese = "我が都、エンシャントが…。<line-break><line-break><line-break>………………。<end>"
@@ -48,6 +68,14 @@ korean = "인류의 혁신이니 뭐니, 잘 모르겠지만, 죽는 것만은 �
 japanese = "もうすぐ次のソウルリープが<line-break>来ちゃうんだよぉ！<line-break>早く逃げようよぉ、<value:$28>！<end>"
 korean = "곧 다음 소울 리프가 와! 빨리 도망치자, <value:$28>!<end>"
 
+["1250116"]
+japanese = "退かねば…<line-break>生きねば…革新もなにもない。<end>"
+korean = "물러나야 해… 살아야 해… 살아야 혁신도 뭐도 있지.<end>"
+
+["1250119"]
+japanese = "急ぐのだ、<value:$28>！<line-break>人類の革新を諦めるわけにはいかん。<line-break>何としてもやり遂げねば…！<end>"
+korean = "서둘러라, <value:$28>! 인류의 혁신을 포기할 수는 없다. 어떻게든 해내야 해…!<end>"
+
 ["1250120"]
 japanese = "<value:$28>様、<line-break>お早く都市の外へ！<line-break>ソウルリープが来ます！<end>"
 korean = "<value:$28>님, 어서 도시 밖으로! 소울 리프가 옵니다!<end>"
@@ -60,6 +88,10 @@ korean = "<value:$28>님, 도망쳐요! 당신이 죽으면 누가 조폴을 쓰
 japanese = "待てなかったか、ジラーク…。<end>"
 korean = "기다리지 못했나, 질라크….<end>"
 
+["1250166"]
+japanese = "あの優しいナッジが、<line-break>あんなことに加わるなんて…。<line-break><line-break>アルノートゥンに行こうっ、<line-break><value:$28>！<end>"
+korean = "그 착한 나지가 그런 일에 가담하다니…. 알노툰으로 가자, <value:$28>!<end>"
+
 ["1250175"]
 japanese = "<value:$28>、ごめんよ。<line-break>でも、きみを裏切るつもりじゃない。<line-break>コーンスの未来のためなんだ！<end>"
 korean = "<value:$28>, 미안해. 하지만 널 배신할 생각은 없어. 콘스의 미래를 위해서야!<end>"
@@ -71,6 +103,10 @@ korean = "기다리지 못했나, 질라크….<end>"
 ["1250193"]
 japanese = "（カルラの後を追わないと…）<end>"
 korean = "(카를라의 뒤를 쫓아야 해…)<end>"
+
+["1250196"]
+japanese = "置いてきぼりなんて…<line-break>ちょっと酷いかも？<end>"
+korean = "두고 가다니… 좀 너무한 거 아냐?<end>"
 
 ["1250201"]
 japanese = "お留守番しといてね。<end>"

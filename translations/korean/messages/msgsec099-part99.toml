@@ -12,6 +12,10 @@ korean = "그, 그만해 주세요!<end>"
 japanese = "いいじゃねえかあ。<line-break>へへへ、へへへ…。<end>"
 korean = "좋잖아아. 헤헤헤, 헤헤헤….<end>"
 
+["990003"]
+japanese = "困ります、お客さん。<line-break>いや！　触らないで！<end>"
+korean = "곤란합니다, 손님. 싫어! 만지지 마세요!<end>"
+
 ["990004"]
 japanese = "な、何しやがる！<end>"
 korean = "뭐, 뭘 하는 거야!<end>"
@@ -19,6 +23,10 @@ korean = "뭐, 뭘 하는 거야!<end>"
 ["990005"]
 japanese = "ひ、ひいい！<end>"
 korean = "히, 히익!<end>"
+
+["990010"]
+japanese = "あーあ、<value:$28>と一緒に<line-break>ご飯食べたかったのになー。　　　<line-break>　<line-break>ま、いいわ。<line-break>んじゃ、また後でね！<end>"
+korean = "아아, <value:$28>과 같이 밥 먹고 싶었는데. 뭐, 됐어. 그럼 나중에 또 봐!<end>"
 
 ["990021"]
 japanese = "じゃ、私、行くわね。<end>"
@@ -195,6 +203,14 @@ korean = "아, <value:$28>….<end>"
 ["990141"]
 japanese = "<value:$28>じゃない、<line-break>じゃ、忙しいから。<end>"
 korean = "<value:$28>잖아. 그럼 난 바쁘니까.<end>"
+
+["990142"]
+japanese = "予備メッセージ１<line-break>アイリーン、ボリューム２<end>"
+korean = "예비 메시지 1 아이린, 볼륨 2<end>"
+
+["990143"]
+japanese = "予備メッセージ２<line-break>アイリーン、ボリューム２<end>"
+korean = "예비 메시지 2 아이린, 볼륨 2<end>"
 
 ["990152"]
 japanese = "アイリーンメッセージ終端<end>"

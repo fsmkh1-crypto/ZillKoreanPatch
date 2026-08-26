@@ -48,6 +48,10 @@ korean = "에아!!<end>"
 japanese = "みんな！<line-break>大丈夫！？<end>"
 korean = "다들! 괜찮아!?<end>"
 
+["1120084"]
+japanese = "まだ少し、体に力が入りませんが…<line-break>大丈夫です。<value:$28>さん、<line-break>ありがとうございます。<end>"
+korean = "아직 몸에 힘이 잘 들어가진 않지만… 괜찮습니다. <value:$28>님, 감사합니다.<end>"
+
 ["1120087"]
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
@@ -139,6 +143,14 @@ korean = "네!? 도, 동력실인가요?<end>"
 ["1120174"]
 japanese = "あ、あちらです！<end>"
 korean = "저, 저쪽입니다!<end>"
+
+["1120175"]
+japanese = "予備メッセージ４<line-break>エステルのＶ５だよ。<end>"
+korean = "예비 메시지 4 에스텔 V5.<end>"
+
+["1120176"]
+japanese = "予備メッセージ５<line-break>エステルのＶ５だよ。<end>"
+korean = "예비 메시지 5 에스텔 V5.<end>"
 
 ["1120177"]
 japanese = "予備メッセージ６<line-break>エステルのＶ５だよ。<end>"

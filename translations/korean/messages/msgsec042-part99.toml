@@ -48,6 +48,14 @@ korean = "여동생?<end>"
 japanese = "ここに連れてまいりました。<end>"
 korean = "이곳으로 데려왔습니다.<end>"
 
+["420036"]
+japanese = "エストの他に兄弟があったとは、<line-break>初耳だが。<end>"
+korean = "에스트 말고도 형제가 있었다니 처음 듣는군.<end>"
+
+["420038"]
+japanese = "この少女こそ、<line-break>…この手紙にある子供だと？<end>"
+korean = "이 소녀가… 이 편지에 적힌 아이라고?<end>"
+
 ["420040"]
 japanese = "ならん！　ならん！！<line-break>ふざけたことを！<end>"
 korean = "안 된다! 안 돼!! 터무니없는 소리를!<end>"
@@ -160,6 +168,10 @@ korean = "남동생 이야기인가?<end>"
 japanese = "よぉ、おじょうちゃん、<line-break>ずいぶんしけた面してるな？<line-break>　<line-break>弟でも見殺しにしたのかい？<end>"
 korean = "어이, 아가씨. 꽤 죽상이군? 동생이라도 죽게 내버려 둔 건가?<end>"
 
+["420137"]
+japanese = "やったね。<line-break>仕事、がんばろうね、姉ちゃん。<end>"
+korean = "해냈네. 일 열심히 하자, 누나.<end>"
+
 ["420139"]
 japanese = "よ、来てくれたのか。<end>"
 korean = "여어, 와줬구나.<end>"
@@ -204,6 +216,10 @@ korean = "그래, 지금 간다. 그럼 부탁한다.<end>"
 japanese = "姉ちゃん、待ってよー。<end>"
 korean = "누나, 기다려 줘ー.<end>"
 
+["420178"]
+japanese = "なあ、エストは…、<line-break>エストは治るんだよな。<end>"
+korean = "있잖아, 에스트는… 에스트는 낫는 거지?<end>"
+
 ["420180"]
 japanese = "そ、そんな…。<line-break>そんなのって！<end>"
 korean = "그, 그럴 수가…. 그런 건…!<end>"
@@ -223,6 +239,10 @@ korean = "고양이가 말했다!<end>"
 ["420217"]
 japanese = "くすっ。<end>"
 korean = "후훗.<end>"
+
+["420222"]
+japanese = "うふふ。ありがとうございます。　　<line-break>　<line-break>　<line-break>聖杯はここに持ってきてくれれば<line-break>私が預かります。<end>"
+korean = "후후. 감사합니다. 성배는 여기로 가져오시면 제가 보관하겠습니다.<end>"
 
 ["420228"]
 japanese = "無限のソウルとは<end>"
@@ -319,6 +339,10 @@ korean = "왕성이다.<end>"
 ["420302"]
 japanese = "行くぞ。<line-break>　<end>"
 korean = "간다.<end>"
+
+["420304"]
+japanese = "では行くぞ。<line-break>決して余計な動きはするなよ。<end>"
+korean = "그럼 간다. 절대로 쓸데없는 행동은 하지 마라.<end>"
 
 ["420306"]
 japanese = "<value:$28>は<line-break>ノーブル伯の称号を得た。<end>"

@@ -36,6 +36,10 @@ korean = "그리고 말이야.<end>"
 japanese = "確か、<value:$28>たちは、<line-break>賢者の森の猫屋敷を中継に<line-break>してんだったな。<end>"
 korean = "분명 <value:$28> 일행은 현자의 숲 고양이 저택을 중계지로 쓰고 있었지.<end>"
 
+["1350027"]
+japanese = "あんたは先に行っててくれ、<line-break>レムオン。<end>"
+korean = "넌 먼저 가 있어, 레무온.<end>"
+
 ["1350028"]
 japanese = "どういうことだ？<end>"
 korean = "무슨 뜻이지?<end>"
@@ -771,6 +775,14 @@ korean = "돕는다<end>"
 ["1350470"]
 japanese = "ほっておく<end>"
 korean = "내버려 둔다<end>"
+
+["1350471"]
+japanese = "…なんだ…お前か。<line-break>くうっ！　うううっ！<end>"
+korean = "…뭐야… 너였나. 크윽! 으으윽!<end>"
+
+["1350479"]
+japanese = "ちぇっ<line-break>しょうがねえな。<line-break>ったく！<end>"
+korean = "쳇, 어쩔 수 없네. 정말!<end>"
 
 ["1350481"]
 japanese = "じゃ、あばよ。<end>"

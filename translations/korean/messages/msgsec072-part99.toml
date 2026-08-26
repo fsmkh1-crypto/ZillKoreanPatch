@@ -108,6 +108,10 @@ korean = "…거기 멍청이. 이름을 대라.<end>"
 japanese = "…助けてやるのだ。<line-break>名前くらい名乗れ。<end>"
 korean = "…구해 주는 거다. 이름 정도는 밝혀라.<end>"
 
+["720084"]
+japanese = "…<value:$28>か。<line-break>わかった。<line-break>　<line-break>…それでは俺についてこい！<line-break>足手まといになるなよ！<line-break>行くぞ！<end>"
+korean = "…<value:$28>인가. 알았다. …그럼 나를 따라와! 발목 잡지 마라! 간다!<end>"
+
 ["720086"]
 japanese = "…さっきの女は？<end>"
 korean = "…아까 그 여자는?<end>"
@@ -127,6 +131,10 @@ korean = "정말, <value:$28>. 진지하게 생각해 줘!<end>"
 ["720098"]
 japanese = "別れましょ？<end>"
 korean = "헤어질까?<end>"
+
+["720100"]
+japanese = "あ！　<value:$28>さん！<line-break>こ、こんにちは。　　　　　　<line-break><line-break>あの、知ってますか？<line-break>グフトクって魔獣の話？<end>"
+korean = "아! <value:$28>님! 아, 안녕하세요. 저기, 알고 계세요? 구프트크라는 마수 이야기요?<end>"
 
 ["720108"]
 japanese = "………………。<line-break>うーん…。<line-break>　<line-break>…あ！<end>"
