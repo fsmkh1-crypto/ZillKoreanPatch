@@ -316,6 +316,10 @@ korean = "조금만 더…<end>"
 japanese = "とう！<end>"
 korean = "타앗!<end>"
 
+["330215"]
+japanese = "あ…。えっと、えっと！<line-break>じゃ、じゃあ、ルルアンタ、<line-break><value:$28>を探してくるね！<end>"
+korean = "아…. 저기, 저기! 그럼 루루안타가 <value:$28>을 찾아올게!<end>"
+
 ["330218"]
 japanese = "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？<end>"
 korean = "오, <value:$28>. 돌아왔군. 루루안타는 같이 안 왔나?<end>"

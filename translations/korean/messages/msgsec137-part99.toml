@@ -688,6 +688,10 @@ korean = "다녀왔습니다.<end>"
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
 
+["1370556"]
+japanese = "あっ、<value:$28>さん！<line-break>助けてください！<end>"
+korean = "아, <value:$28>님! 도와주세요!<end>"
+
 ["1370557"]
 japanese = "このお客さん、酔っぱらってて…。<end>"
 korean = "이 손님, 취해 있어서….<end>"
@@ -755,6 +759,10 @@ korean = "크왓!<end>"
 ["1370588"]
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
+
+["1370592"]
+japanese = "あっ、<value:$28>さん！<line-break>助けてください！<end>"
+korean = "아, <value:$28>님! 도와주세요!<end>"
 
 ["1370597"]
 japanese = "あっ、<value:$28>さん！<end>"
