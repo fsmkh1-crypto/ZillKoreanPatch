@@ -1,8 +1,20 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2270008"]
+japanese = "ぐはっ…！<end>"
+korean = "크헉…!<end>"
+
+["2270022"]
+japanese = "えっ…！？<end>"
+korean = "뭐…!?<end>"
+
 ["2270024"]
 japanese = "あっ…！<end>"
 korean = "앗…!<end>"
+
+["2270030"]
+japanese = "お友だち！<end>"
+korean = "친구!<end>"
 
 ["2270033"]
 japanese = "そっか…<end>"

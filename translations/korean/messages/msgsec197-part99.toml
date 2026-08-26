@@ -4,6 +4,26 @@
 japanese = "遺跡　出現<end>"
 korean = "유적 출현<end>"
 
+["1970061"]
+japanese = "イズ　情報<end>"
+korean = "이즈 정보<end>"
+
+["1970062"]
+japanese = "急げ　発生<end>"
+korean = "서둘러 발생<end>"
+
+["1970074"]
+japanese = "エア　死亡<end>"
+korean = "에어 사망<end>"
+
+["1970133"]
+japanese = "海王　死亡<end>"
+korean = "해왕 사망<end>"
+
+["1970257"]
+japanese = "翔王　死亡<end>"
+korean = "상왕 사망<end>"
+
 ["1970292"]
 japanese = "セラ　登場<end>"
 korean = "세라 등장<end>"
@@ -20,6 +40,14 @@ korean = "로이 등장<end>"
 japanese = "ロイ　死亡<end>"
 korean = "로이 사망<end>"
 
+["1970655"]
+japanese = "竜王　死亡<end>"
+korean = "용왕 사망<end>"
+
+["1970935"]
+japanese = "エア　会話<end>"
+korean = "에어 대화<end>"
+
 ["1971040"]
 japanese = "廃城　出現<end>"
 korean = "폐성 출현<end>"
@@ -27,6 +55,10 @@ korean = "폐성 출현<end>"
 ["1971044"]
 japanese = "古城　出現<end>"
 korean = "고성 출현<end>"
+
+["1971264"]
+japanese = "エア　登場<end>"
+korean = "에어 등장<end>"
 
 ["1971272"]
 japanese = "欠番<end>"
@@ -167,6 +199,14 @@ korean = "여관<end>"
 ["1971341"]
 japanese = "宿屋<end>"
 korean = "여관<end>"
+
+["1971358"]
+japanese = "ヴィア宿屋<end>"
+korean = "비아 여관<end>"
+
+["1971359"]
+japanese = "ヴァイ宿屋<end>"
+korean = "바이 여관<end>"
 
 ["1971360"]
 japanese = "宿屋<end>"
@@ -955,3 +995,7 @@ korean = "종료<end>"
 ["1971801"]
 japanese = "終了<end>"
 korean = "종료<end>"
+
+["1971809"]
+japanese = "本さんよう<end>"
+korean = "본산용<end>"

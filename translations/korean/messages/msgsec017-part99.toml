@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["170049"]
+japanese = "ライトソード<end>"
+korean = "라이트 소드<end>"
+
 ["170050"]
 japanese = "エストック<end>"
 korean = "에스토크<end>"
@@ -7,6 +11,10 @@ korean = "에스토크<end>"
 ["170053"]
 japanese = "ファルカタ<end>"
 korean = "팔카타<end>"
+
+["170055"]
+japanese = "シャムシール<end>"
+korean = "샴시르<end>"
 
 ["170056"]
 japanese = "タルワール<end>"
@@ -16,6 +24,10 @@ korean = "탈와르<end>"
 japanese = "バデレール<end>"
 korean = "바델레르<end>"
 
+["170058"]
+japanese = "ファルシオン<end>"
+korean = "팔시온<end>"
+
 ["170059"]
 japanese = "ロムパイア<end>"
 korean = "롬파이아<end>"
@@ -24,9 +36,25 @@ korean = "롬파이아<end>"
 japanese = "ファルクス<end>"
 korean = "팔크스<end>"
 
+["170064"]
+japanese = "クレイモアー<end>"
+korean = "클레이모어<end>"
+
+["170070"]
+japanese = "バトルスピア<end>"
+korean = "배틀 스피어<end>"
+
+["170071"]
+japanese = "オウルパイク<end>"
+korean = "아울 파이크<end>"
+
 ["170072"]
 japanese = "ジャベリン<end>"
 korean = "재블린<end>"
+
+["170073"]
+japanese = "トライデント<end>"
+korean = "트라이던트<end>"
 
 ["170074"]
 japanese = "コルセスカ<end>"
@@ -36,9 +64,49 @@ korean = "코르세스카<end>"
 japanese = "ハルベルト<end>"
 korean = "할버드<end>"
 
+["170078"]
+japanese = "ラースルール<end>"
+korean = "라스 룰<end>"
+
+["170080"]
+japanese = "バトルアクス<end>"
+korean = "배틀 액스<end>"
+
+["170082"]
+japanese = "ジャ・ダグナ<end>"
+korean = "자 다그나<end>"
+
+["170083"]
+japanese = "フランシスカ<end>"
+korean = "프란시스카<end>"
+
+["170086"]
+japanese = "バトルメイス<end>"
+korean = "배틀 메이스<end>"
+
+["170089"]
+japanese = "アケナケース<end>"
+korean = "아케나케스<end>"
+
+["170092"]
+japanese = "バトルダガー<end>"
+korean = "배틀 대거<end>"
+
+["170093"]
+japanese = "スティレット<end>"
+korean = "스틸레토<end>"
+
+["170097"]
+japanese = "クリスナイフ<end>"
+korean = "크리스 나이프<end>"
+
 ["170099"]
 japanese = "ジェンダワ<end>"
 korean = "젠다와<end>"
+
+["170100"]
+japanese = "ショートボウ<end>"
+korean = "쇼트 보우<end>"
 
 ["170102"]
 japanese = "ライトボウ<end>"
@@ -56,6 +124,10 @@ korean = "배틀 보우<end>"
 japanese = "バグ・ナウ<end>"
 korean = "바그 나우<end>"
 
+["170115"]
+japanese = "ウォーグラブ<end>"
+korean = "워 글러브<end>"
+
 ["170120"]
 japanese = "バックラー<end>"
 korean = "버클러<end>"
@@ -63,6 +135,30 @@ korean = "버클러<end>"
 ["170131"]
 japanese = "サーコート<end>"
 korean = "서코트<end>"
+
+["170132"]
+japanese = "バトルローブ<end>"
+korean = "배틀 로브<end>"
+
+["170133"]
+japanese = "レザーコート<end>"
+korean = "레더 코트<end>"
+
+["170134"]
+japanese = "ヘビークロス<end>"
+korean = "헤비 크로스<end>"
+
+["170137"]
+japanese = "キルボアール<end>"
+korean = "킬 보어<end>"
+
+["170138"]
+japanese = "ハードレザー<end>"
+korean = "하드 레더<end>"
+
+["170142"]
+japanese = "ワルキューレ<end>"
+korean = "발키리<end>"
 
 ["170146"]
 japanese = "ホーバーク<end>"
