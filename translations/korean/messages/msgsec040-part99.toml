@@ -12,9 +12,21 @@ korean = "빈칸<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["400021"]
+japanese = "…バルザー。<end>"
+korean = "…발저.<end>"
+
+["400030"]
+japanese = "なんだと…？<end>"
+korean = "뭐라고…?<end>"
+
 ["400032"]
 japanese = "ああ…。<end>"
 korean = "아아….<end>"
+
+["400046"]
+japanese = "こちらこそ。<end>"
+korean = "나야말로.<end>"
 
 ["400051"]
 japanese = "空<end>"
@@ -64,9 +76,17 @@ korean = "빈칸<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["400077"]
+japanese = "こちらこそ。<end>"
+korean = "나야말로.<end>"
+
 ["400078"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["400083"]
+japanese = "こちらこそ。<end>"
+korean = "나야말로.<end>"
 
 ["400086"]
 japanese = "空<end>"
@@ -75,6 +95,10 @@ korean = "빈칸<end>"
 ["400087"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["400120"]
+japanese = "久しぶりね。<end>"
+korean = "오랜만이네.<end>"
 
 ["400133"]
 japanese = "もちろん<end>"
@@ -139,6 +163,10 @@ korean = "빈칸<end>"
 ["400222"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["400274"]
+japanese = "くっ…不覚。<end>"
+korean = "큭… 방심했군.<end>"
 
 ["400297"]
 japanese = "空<end>"

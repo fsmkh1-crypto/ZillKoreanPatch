@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["430003"]
+japanese = "助けなきゃ！<end>"
+korean = "구해야 해!<end>"
+
+["430004"]
+japanese = "物騒だなあ…<end>"
+korean = "흉흉하네…<end>"
+
 ["430009"]
 japanese = "名は？<end>"
 korean = "이름은?<end>"
@@ -16,9 +24,21 @@ korean = "형은?<end>"
 japanese = "ほう？<end>"
 korean = "호오?<end>"
 
+["430053"]
+japanese = "事故死です。<end>"
+korean = "사고사입니다.<end>"
+
 ["430102"]
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
+
+["430160"]
+japanese = "読んでみよう<end>"
+korean = "읽어 보자<end>"
+
+["430161"]
+japanese = "やめておこう<end>"
+korean = "그만두자<end>"
 
 ["430188"]
 japanese = "ああ<end>"

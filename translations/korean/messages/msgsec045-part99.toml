@@ -24,6 +24,14 @@ korean = "너는?<end>"
 japanese = "仲間にする<end>"
 korean = "동료로 삼는다<end>"
 
+["450052"]
+japanese = "仲間にしない<end>"
+korean = "동료로 삼지 않는다<end>"
+
+["450117"]
+japanese = "泊まっていく<end>"
+korean = "묵고 간다<end>"
+
 ["450138"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"
@@ -59,6 +67,10 @@ korean = "네, 네.<end>"
 ["450215"]
 japanese = "お客さん。<end>"
 korean = "손님.<end>"
+
+["450216"]
+japanese = "…勇者…様。<end>"
+korean = "…용사…님.<end>"
 
 ["450244"]
 japanese = "え…。<end>"

@@ -8,13 +8,25 @@ korean = "엣!<end>"
 japanese = "はぁ？<end>"
 korean = "하아?<end>"
 
+["370062"]
+japanese = "わかってる。<end>"
+korean = "알고 있어.<end>"
+
 ["370071"]
 japanese = "そこの者！<end>"
 korean = "거기 너!<end>"
 
+["370077"]
+japanese = "許せない！！<end>"
+korean = "용서 못 해!!<end>"
+
 ["370078"]
 japanese = "だって…。<end>"
 korean = "하지만….<end>"
+
+["370079"]
+japanese = "…わかった。<end>"
+korean = "…알았어.<end>"
 
 ["370080"]
 japanese = "誰？<end>"
@@ -31,6 +43,10 @@ korean = "기다려.<end>"
 ["370104"]
 japanese = "いやよ。<end>"
 korean = "싫어.<end>"
+
+["370105"]
+japanese = "なんじゃと？<end>"
+korean = "뭐라고?<end>"
 
 ["370115"]
 japanese = "えらい。<end>"
@@ -63,6 +79,10 @@ korean = "말리지 마!<end>"
 ["370244"]
 japanese = "誰だ？<end>"
 korean = "누구냐?<end>"
+
+["370253"]
+japanese = "助けるのか？<end>"
+korean = "구할 거야?<end>"
 
 ["370256"]
 japanese = "やだね。<end>"
