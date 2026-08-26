@@ -4,6 +4,10 @@
 japanese = "PSP用ロジクーニンが残した研究02用開始<end>"
 korean = "PSP용 로지쿠닌이 남긴 연구02용 시작<end>"
 
+["2560002"]
+japanese = "じゃあ、<value:$28><line-break>さっそく手伝って。<line-break>ここに首飾りをかざしてほしいの。<end>"
+korean = "그럼 <value:$28>, 바로 도와줘. 여기에 목걸이를 대 줬으면 해.<end>"
+
 ["2560005"]
 japanese = "その角度で大丈夫よ。<line-break><value:$28>。<line-break>えーと、それから次は…。<end>"
 korean = "그 각도면 괜찮아, <value:$28>. 음, 그리고 다음은….<end>"
@@ -19,6 +23,10 @@ korean = "자, 원래 세계로 돌아가세요!<end>"
 ["2560018"]
 japanese = "ご、ごめんなさーい…。<end>"
 korean = "미, 미안해요….<end>"
+
+["2560024"]
+japanese = "じゃあ、<value:$28><line-break>さっそく手伝って。<line-break>ここに首飾りをかざしてほしいの。<end>"
+korean = "그럼 <value:$28>, 바로 도와줘. 여기에 목걸이를 대 줬으면 해.<end>"
 
 ["2560026"]
 japanese = "その角度で大丈夫よ、<line-break><value:$28>。<line-break>えーと、それから次は…。<end>"

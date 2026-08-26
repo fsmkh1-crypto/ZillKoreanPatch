@@ -44,6 +44,10 @@ korean = "역시 로스토르 측<end>"
 japanese = "心機一転ディンガル側<end>"
 korean = "심기일전 딘갈 측<end>"
 
+["590028"]
+japanese = "それじゃ、今まで通り<line-break>ロストール側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"
+korean = "그럼 지금까지처럼 로스토올 편이라는 걸로 잘 부탁한다, <value:$28>.<end>"
+
 ["590037"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"

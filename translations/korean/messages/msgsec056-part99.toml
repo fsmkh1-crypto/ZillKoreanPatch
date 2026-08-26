@@ -548,6 +548,10 @@ korean = "이클레문 님…<end>"
 japanese = "申しわけありません、神官長様。<end>"
 korean = "죄송합니다, 신관장님.<end>"
 
+["560404"]
+japanese = "<value:$28>さん。<line-break>もし、お時間があるのでしたら、<line-break>神殿を訪ねてくださいね。<end>"
+korean = "<value:$28>님. 시간이 괜찮으시면 신전에 들러 주세요.<end>"
+
 ["560405"]
 japanese = "来たか…。<end>"
 korean = "왔나….<end>"
@@ -851,6 +855,10 @@ korean = "거절한다!<end>"
 ["560759"]
 japanese = "<value:$28>！<line-break>ロープを伝ってこい！<end>"
 korean = "<value:$28>! 로프를 타고 와!<end>"
+
+["560778"]
+japanese = "すいません、<value:$28>さん。<line-break>みんなが待ってるんで、<line-break>わたし、行きますね。<end>"
+korean = "죄송해요, <value:$28>님. 모두 기다리고 있어서, 저는 갈게요.<end>"
 
 ["560780"]
 japanese = "おぉ、<value:$28>だ。<line-break><value:$28>が帰ってきたぞ！<end>"

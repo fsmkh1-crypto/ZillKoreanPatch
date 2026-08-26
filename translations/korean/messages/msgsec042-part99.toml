@@ -152,6 +152,10 @@ korean = "재미있겠네<end>"
 japanese = "なんだか、変な噂だよね。<end>"
 korean = "왠지 이상한 소문이네.<end>"
 
+["420161"]
+japanese = "ねえ、<value:$28>。<line-break>賢者の森へ行ってみてよ。<line-break>きっと何かある気がするんだ。<end>"
+korean = "저기, <value:$28>. 현자의 숲에 가 봐. 분명 뭔가 있을 것 같아.<end>"
+
 ["420162"]
 japanese = "きっとだよ！<line-break><value:$28>。<end>"
 korean = "꼭이야! <value:$28>.<end>"

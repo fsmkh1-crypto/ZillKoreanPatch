@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["180004"]
+japanese = "へへっ、いっちょうあがり！<line-break>よし、<value:$28>、報告しに<line-break>ギルドに行こうぜ！<end>"
+korean = "헤헷, 한 건 끝냈다! 좋아, <value:$28>, 길드에 보고하러 가자!<end>"
+
 ["180015"]
 japanese = "終わったな。<line-break>戻るぞ、<value:$28>。<line-break>　<end>"
 korean = "끝났군. 돌아가자, <value:$28>.<end>"
@@ -32,6 +36,10 @@ korean = "…이거네. 자, <value:$28>, 길드로 돌아가자.<end>"
 japanese = "おお、これじゃな。<line-break>あとはギルドに渡すだけじゃ。<line-break>行くぞい、<value:$28>。<end>"
 korean = "오오, 이거구나. 이제 길드에 넘기기만 하면 된다. 가자, <value:$28>.<end>"
 
+["180057"]
+japanese = "<value:$28>、これだよ。<line-break>見つかってよかったね。<line-break>さ、ギルドに持って行こう。<end>"
+korean = "<value:$28>, 이거야. 찾아서 다행이다. 자, 길드에 가져가자.<end>"
+
 ["180058"]
 japanese = "これのようだな。<line-break>戻るぞ、<value:$28>。<line-break>　<end>"
 korean = "이것 같군. 돌아가자, <value:$28>.<end>"
@@ -39,6 +47,10 @@ korean = "이것 같군. 돌아가자, <value:$28>.<end>"
 ["180059"]
 japanese = "やぁっと見つかったわ！<line-break><value:$28>、さっさと戻って<line-break>ギルドに報告したら？<end>"
 korean = "드디어 찾았네! <value:$28>, 얼른 돌아가서 길드에 보고하지 그래?<end>"
+
+["180061"]
+japanese = "あったよ、<value:$28>。<line-break>これをギルドに持ってけばいいんだね。<line-break>じゃ、帰ろ。<end>"
+korean = "찾았다, <value:$28>. 이걸 길드에 가져가면 되는 거지? 그럼 돌아가자.<end>"
 
 ["180066"]
 japanese = "目標物、確保しました。<line-break>これで町へ帰れますね、<line-break><value:$28>様。<end>"
