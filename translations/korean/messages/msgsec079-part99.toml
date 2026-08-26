@@ -12,6 +12,10 @@ korean = "이거 참….<end>"
 japanese = "いいですね、自由って…。<end>"
 korean = "좋네요, 자유라는 건….<end>"
 
+["790016"]
+japanese = "自由…。私も自由になりたい…。<end>"
+korean = "자유…. 나도 자유로워지고 싶어….<end>"
+
 ["790021"]
 japanese = "きゃっ、誰かと思えば…。<end>"
 korean = "꺅, 누군가 했더니….<end>"
@@ -31,6 +35,10 @@ korean = "3000기어를 낸다<end>"
 ["790035"]
 japanese = "今はムリ<end>"
 korean = "지금은 무리야<end>"
+
+["790043"]
+japanese = "人聞きの悪いこと言いやがって…。<end>"
+korean = "남 듣기 안 좋은 소리 하네….<end>"
 
 ["790049"]
 japanese = "助けてやる<end>"
@@ -64,9 +72,17 @@ korean = "이런, 또 시작했군.<end>"
 japanese = "わかった<end>"
 korean = "알았어<end>"
 
+["790088"]
+japanese = "そんな都合のいい話はないだろう<end>"
+korean = "그렇게 형편 좋은 이야기는 없겠지<end>"
+
 ["790101"]
 japanese = "ふっふっふっふ…。<end>"
 korean = "후후후후….<end>"
+
+["790109"]
+japanese = "信じられない。あのユーリスが。<end>"
+korean = "믿을 수 없어. 그 유리스가.<end>"
 
 ["790113"]
 japanese = "確かに…。<end>"
@@ -80,9 +96,41 @@ korean = "유리스의 복학을 허가한다!<end>"
 japanese = "どういうことです？<end>"
 korean = "무슨 말씀이죠?<end>"
 
+["790124"]
+japanese = "ええ、まぁ、そんなところかな。<end>"
+korean = "그래, 뭐, 그런 셈이지.<end>"
+
 ["790126"]
 japanese = "ありがとうございます！<end>"
 korean = "감사합니다!<end>"
+
+["790132"]
+japanese = "ユーリスＶｏｌ１予備メッセージ３<end>"
+korean = "유리스 Vol1 예비 메시지 3<end>"
+
+["790133"]
+japanese = "ユーリスＶｏｌ１予備メッセージ４<end>"
+korean = "유리스 Vol1 예비 메시지 4<end>"
+
+["790134"]
+japanese = "ユーリスＶｏｌ１予備メッセージ５<end>"
+korean = "유리스 Vol1 예비 메시지 5<end>"
+
+["790135"]
+japanese = "ユーリスＶｏｌ１予備メッセージ６<end>"
+korean = "유리스 Vol1 예비 메시지 6<end>"
+
+["790136"]
+japanese = "ユーリスＶｏｌ１予備メッセージ７<end>"
+korean = "유리스 Vol1 예비 메시지 7<end>"
+
+["790137"]
+japanese = "ユーリスＶｏｌ１予備メッセージ８<end>"
+korean = "유리스 Vol1 예비 메시지 8<end>"
+
+["790138"]
+japanese = "ユーリスＶｏｌ１予備メッセージ９<end>"
+korean = "유리스 Vol1 예비 메시지 9<end>"
 
 ["790140"]
 japanese = "ユーリスメッセージVOL1終端<end>"

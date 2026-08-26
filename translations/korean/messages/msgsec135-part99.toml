@@ -584,6 +584,10 @@ korean = "이 느낌은… 마치….<end>"
 japanese = "何か情報は？<end>"
 korean = "무슨 정보라도 있어?<end>"
 
+["1350589"]
+japanese = "なぜだ？　なぜ…俺を救った？<end>"
+korean = "왜지? 왜… 나를 구했지?<end>"
+
 ["1350590"]
 japanese = "人が人を救うことに理由がいるのかい？<line-break>なぁ？<line-break><value:$28>。 <end>"
 korean = "사람이 사람을 구하는 데 이유가 필요한가? 그렇지? <value:$28>.<end>"

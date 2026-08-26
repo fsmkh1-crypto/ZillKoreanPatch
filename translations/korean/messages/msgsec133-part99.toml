@@ -88,6 +88,10 @@ korean = "<value:$28>…. 당신도 이곳으로 이끌린 건가요….<end>"
 japanese = "希望、か……。<end>"
 korean = "희망, 인가…….<end>"
 
+["1330180"]
+japanese = "…よかろう、証明してみせよ。<end>"
+korean = "…좋다, 증명해 보아라.<end>"
+
 ["1330184"]
 japanese = "終わったわ…。<end>"
 korean = "끝났어….<end>"
@@ -172,6 +176,10 @@ korean = "핫!<end>"
 japanese = "くっ！　退けい、退くのだ！<end>"
 korean = "큭! 물러나라, 물러나!<end>"
 
+["1330284"]
+japanese = "市内の状況はどうなっている。<end>"
+korean = "시내 상황은 어떻게 되어 있지.<end>"
+
 ["1330297"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -183,6 +191,10 @@ korean = "핫!<end>"
 ["1330300"]
 japanese = "ベルセーヴァ様！<end>"
 korean = "벨세바 님!<end>"
+
+["1330301"]
+japanese = "市内の状況はどうなっている。<end>"
+korean = "시내 상황은 어떻게 되어 있지.<end>"
 
 ["1330303"]
 japanese = "シャリめ…いったい何者だ！<end>"
@@ -203,6 +215,10 @@ korean = "핫!<end>"
 ["1330319"]
 japanese = "ベルゼーヴァ様！<end>"
 korean = "벨제바 님!<end>"
+
+["1330320"]
+japanese = "市内の状況はどうなっておる？<end>"
+korean = "시내 상황은 어떻게 되어 있느냐?<end>"
 
 ["1330323"]
 japanese = "は？　宰相、何を…？<end>"

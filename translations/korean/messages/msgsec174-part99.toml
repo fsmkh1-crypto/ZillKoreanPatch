@@ -176,6 +176,10 @@ korean = "그럼, 갑니다.<end>"
 japanese = "………………。<line-break>　<line-break>　<line-break>ここは…！？<end>"
 korean = "………………. 여기는…!?<end>"
 
+["1740187"]
+japanese = "…と、まあ、こんな感じです。<end>"
+korean = "…뭐, 대충 이런 느낌입니다.<end>"
+
 ["1740190"]
 japanese = "<value:$28>、<line-break>私をあなたの仲間に<line-break>入れてくれないかしら？<end>"
 korean = "<value:$28>, 나를 네 동료로 받아주지 않을래?<end>"
@@ -191,6 +195,10 @@ korean = "너는 적이다<end>"
 ["1740210"]
 japanese = "なんだと！？<end>"
 korean = "뭐라고!?<end>"
+
+["1740212"]
+japanese = "同化の髪飾りは返してもらう。<end>"
+korean = "동화의 머리장식은 돌려받겠다.<end>"
 
 ["1740214"]
 japanese = "オイフェメッセージＶ７終端<end>"

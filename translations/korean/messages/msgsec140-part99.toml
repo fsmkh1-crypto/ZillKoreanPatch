@@ -196,6 +196,10 @@ korean = "…티아나.<end>"
 japanese = "アトレイアをエスコートする<end>"
 korean = "아트레이아를 에스코트한다<end>"
 
+["1400160"]
+japanese = "アトレイアをエスコートしない<end>"
+korean = "아트레이아를 에스코트하지 않는다<end>"
+
 ["1400162"]
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
@@ -207,6 +211,10 @@ korean = "아트레이아… 님…?<end>"
 ["1400166"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
+
+["1400173"]
+japanese = "やっこさんもそうじゃねえの？<end>"
+korean = "그 녀석도 그런 거 아냐?<end>"
 
 ["1400180"]
 japanese = "行く<end>"
@@ -227,6 +235,10 @@ korean = "아트레이아… 님…?<end>"
 ["1400187"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
+
+["1400189"]
+japanese = "やっこさんもそうじゃねえの？<end>"
+korean = "그 녀석도 그런 거 아냐?<end>"
 
 ["1400194"]
 japanese = "な、何がおかしいのです！？<end>"
@@ -252,6 +264,10 @@ korean = "간다<end>"
 japanese = "行かない<end>"
 korean = "안 가<end>"
 
+["1400218"]
+japanese = "ティアナは…まだのようだな。<end>"
+korean = "티아나는… 아직인 모양이군.<end>"
+
 ["1400220"]
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
@@ -275,6 +291,14 @@ korean = "그 목소리… 샤리구나!?<end>"
 ["1400260"]
 japanese = "フン…出たか。<end>"
 korean = "흥… 나왔나.<end>"
+
+["1400292"]
+japanese = "そうだ。シャリは冷酷な人形だ<end>"
+korean = "그래. 샤리는 냉혹한 인형이다<end>"
+
+["1400293"]
+japanese = "違う。シャリは人形じゃない！<end>"
+korean = "아니야. 샤리는 인형이 아니야!<end>"
 
 ["1400305"]
 japanese = "追加メッセージここから<end>"

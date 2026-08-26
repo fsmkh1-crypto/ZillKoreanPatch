@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1420000"]
+japanese = "ノエル２用メッセージＶ４開始<end>"
+korean = "노엘2용 메시지 V4 시작<end>"
+
 ["1420007"]
 japanese = "堅実と言いなさい！　堅実と！<end>"
 korean = "착실하다고 해! 착실하다고!<end>"
@@ -20,6 +24,14 @@ korean = "이야, 오랜만이군.<end>"
 japanese = "ノエルが元気そうで安心した<end>"
 korean = "노엘이 건강해 보여서 안심했어.<end>"
 
+["1420014"]
+japanese = "ノエルの元気を分けてほしいよ<end>"
+korean = "노엘의 기운을 나눠 줬으면 해<end>"
+
+["1420020"]
+japanese = "それで、ノエル、どうなのだ？<end>"
+korean = "그래서, 노엘, 어떤가?<end>"
+
 ["1420021"]
 japanese = "え？　あの、えと…<end>"
 korean = "어? 저기, 그게….<end>"
@@ -35,6 +47,10 @@ korean = "<value:$28>…, 요즘 꽤 활약하고 있다면서?<end>"
 ["1420036"]
 japanese = "ナーシェス。<end>"
 korean = "나셰스.<end>"
+
+["1420038"]
+japanese = "ノエルは貴様の道具ではない。<end>"
+korean = "노엘은 네놈의 도구가 아니다.<end>"
 
 ["1420040"]
 japanese = "くっ…。<end>"
@@ -80,9 +96,17 @@ korean = "이것도… 무한한 소울의 힘인가….<end>"
 japanese = "かしこまりました。女王様。<end>"
 korean = "알겠습니다. 여왕님.<end>"
 
+["1420125"]
+japanese = "よう…なんだ、旅にでるのか？<end>"
+korean = "어이… 뭐야, 여행을 떠나는 건가?<end>"
+
 ["1420126"]
 japanese = "物好きなこったな。<end>"
 korean = "별난 사람이네.<end>"
+
+["1420127"]
+japanese = "で？　今度は何しにいくんだ？<end>"
+korean = "그래서? 이번엔 뭘 하러 가는 거야?<end>"
 
 ["1420130"]
 japanese = "すべての種族？<end>"
@@ -119,6 +143,10 @@ korean = "젠장, 도망가자!<end>"
 ["1420170"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1420188"]
+japanese = "俺はもういいよ、とっつあん。<end>"
+korean = "난 이제 됐어, 아저씨.<end>"
 
 ["1420207"]
 japanese = "レムオン様！<end>"
@@ -167,6 +195,10 @@ korean = "…안주도 말이야.<end>"
 ["1420258"]
 japanese = "針をなくした時計、か…。<end>"
 korean = "바늘을 잃은 시계인가….<end>"
+
+["1420262"]
+japanese = "俺はもういいよ、とっつあん。<end>"
+korean = "난 이제 됐어, 아저씨.<end>"
 
 ["1420266"]
 japanese = "微妙に、時差がある…。<end>"

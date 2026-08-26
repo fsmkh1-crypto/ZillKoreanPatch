@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["690000"]
+japanese = "アーギルシャイアメッセージ開始<end>"
+korean = "아길샤이어 메시지 시작<end>"
+
 ["690010"]
 japanese = "…<value:$28>、<line-break>気をつけろ。<end>"
 korean = "…<value:$28>, 조심해.<end>"
@@ -79,6 +83,10 @@ korean = "단장! 저 녀석 고브!<end>"
 ["690130"]
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
+
+["690131"]
+japanese = "貴様、仮面の男を見なかったか？<end>"
+korean = "네놈, 가면 쓴 남자를 못 봤나?<end>"
 
 ["690134"]
 japanese = "貴様、名を名乗れ。<end>"

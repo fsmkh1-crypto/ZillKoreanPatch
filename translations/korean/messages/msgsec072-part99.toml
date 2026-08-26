@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["720000"]
+japanese = "アーギルシャイアメッセージ開始<end>"
+korean = "아길샤이어 메시지 시작<end>"
+
 ["720011"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -19,6 +23,10 @@ korean = "세라, …보고 싶었다.<end>"
 ["720032"]
 japanese = "イヤだって言ったら？<end>"
 korean = "싫다고 하면?<end>"
+
+["720035"]
+japanese = "くすっ、ホント、容赦ないのね。<end>"
+korean = "후훗, 정말 봐주질 않네.<end>"
 
 ["720046"]
 japanese = "セラ…、セラ…なのか…？<end>"
@@ -75,3 +83,7 @@ korean = "헤어질까?<end>"
 ["720108"]
 japanese = "………………。<line-break>うーん…。<line-break>　<line-break>…あ！<end>"
 korean = "………………. 음…. …아!<end>"
+
+["720123"]
+japanese = "アーギルシャイアメッセージ終端<end>"
+korean = "아길샤이어 메시지 끝<end>"

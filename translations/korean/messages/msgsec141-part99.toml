@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1410000"]
+japanese = "ノエル２用メッセージＶ３開始<end>"
+korean = "노엘2용 메시지 V3 시작<end>"
+
 ["1410001"]
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
+
+["1410004"]
+japanese = "ちょ、ちょっと、カフィン…！<end>"
+korean = "자, 잠깐, 카핀…!<end>"
 
 ["1410008"]
 japanese = "何よ、あんただって…<end>"
@@ -131,6 +139,10 @@ korean = "………………. <value:$28> 님!<end>"
 ["1410129"]
 japanese = "同じ女性でも、<line-break><value:$28>様だから<line-break>聞けるのです。<end>"
 korean = "같은 여자라도 <value:$28> 님이시기에 여쭤볼 수 있는 겁니다.<end>"
+
+["1410131"]
+japanese = "ど、どうか、素直な御意見を。<end>"
+korean = "부, 부디 솔직한 의견을.<end>"
 
 ["1410132"]
 japanese = "本当？　嬉しいです！<end>"
@@ -400,6 +412,10 @@ korean = "필살기다 고브ー!<end>"
 japanese = "むにゅー…。<end>"
 korean = "우뉴우….<end>"
 
+["1410476"]
+japanese = "だ、団長、ついにやったゴブ。<end>"
+korean = "다, 단장, 드디어 해냈고블.<end>"
+
 ["1410481"]
 japanese = "団長！　いってくるゴ…<end>"
 korean = "단장! 다녀올게고….<end>"
@@ -427,6 +443,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410500"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410517"]
+japanese = "それでもお探しになりますか？<end>"
+korean = "그래도 계속 찾으시겠습니까?<end>"
 
 ["1410527"]
 japanese = "ほーっほっほっ。<end>"
@@ -483,6 +503,10 @@ korean = "꺅…!<end>"
 ["1410548"]
 japanese = "に、逃げろ！<end>"
 korean = "도, 도망쳐!<end>"
+
+["1410551"]
+japanese = "あ、ありがとうございました。<end>"
+korean = "아, 감사합니다.<end>"
 
 ["1410553"]
 japanese = "♪熱く燃える　正しい魂～<end>"

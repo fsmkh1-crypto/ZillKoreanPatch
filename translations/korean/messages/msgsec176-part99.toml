@@ -24,6 +24,10 @@ korean = "누르지 않는다<end>"
 japanese = "押す<end>"
 korean = "누른다<end>"
 
+["1760019"]
+japanese = "何かの装置が作動したようだ。<end>"
+korean = "무언가의 장치가 작동한 것 같다.<end>"
+
 ["1760028"]
 japanese = "引かない<end>"
 korean = "당기지 않는다<end>"
@@ -72,6 +76,14 @@ korean = "오른쪽 스위치를 누른다<end>"
 japanese = "左のスイッチを押す<end>"
 korean = "왼쪽 스위치를 누른다<end>"
 
+["1760078"]
+japanese = "何かの装置が作動したようだ。<end>"
+korean = "무언가의 장치가 작동한 것 같다.<end>"
+
+["1760079"]
+japanese = "何かの装置が作動したようだ。<end>"
+korean = "무언가의 장치가 작동한 것 같다.<end>"
+
 ["1760080"]
 japanese = "床からトゲの罠を見つけた<end>"
 korean = "바닥에서 가시 함정을 발견했다<end>"
@@ -80,9 +92,17 @@ korean = "바닥에서 가시 함정을 발견했다<end>"
 japanese = "扉はビクともしない。<end>"
 korean = "문은 꿈쩍도 하지 않는다.<end>"
 
+["1760095"]
+japanese = "何かの装置が作動したようだ。<end>"
+korean = "무언가의 장치가 작동한 것 같다.<end>"
+
 ["1760097"]
 japanese = "ええい！　<line-break><value:$28>、<line-break>ここはまかせたで！<end>"
 korean = "에잇! <value:$28>, 여긴 맡길게!<end>"
+
+["1760102"]
+japanese = "何かの装置が作動したようだ。<end>"
+korean = "무언가의 장치가 작동한 것 같다.<end>"
 
 ["1760105"]
 japanese = "さあ、<value:$28>！<line-break>脱出するでぇ！<line-break>宝を忘れんさんな。<end>"

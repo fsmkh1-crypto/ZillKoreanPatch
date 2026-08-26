@@ -40,6 +40,10 @@ korean = "누르지 않는다<end>"
 japanese = "押す<end>"
 korean = "누른다<end>"
 
+["1750050"]
+japanese = "何かの装置が作動したようだ。<end>"
+korean = "무언가의 장치가 작동한 것 같다.<end>"
+
 ["1750054"]
 japanese = "赤色の十字鍵をはめ込みますか？<end>"
 korean = "붉은 십자 열쇠를 끼우시겠습니까?<end>"
@@ -59,6 +63,10 @@ korean = "끼워 넣지 않는다<end>"
 ["1750060"]
 japanese = "はめ込む<end>"
 korean = "끼워 넣는다<end>"
+
+["1750063"]
+japanese = "銀色の円盤をはめ込みますか？<end>"
+korean = "은색 원반을 끼우시겠습니까?<end>"
 
 ["1750064"]
 japanese = "はめ込まない<end>"

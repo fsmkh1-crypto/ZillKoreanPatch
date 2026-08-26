@@ -20,6 +20,18 @@ korean = "조폴은 알현실에 있습니다.<end>"
 japanese = "<value:$28>様、<line-break>お早く都市の外へ！<line-break>ソウルリープが来ます！<end>"
 korean = "<value:$28>님, 어서 도시 밖으로! 소울 리프가 옵니다!<end>"
 
+["1250144"]
+japanese = "待てなかったか、ジラーク…。<end>"
+korean = "기다리지 못했나, 질라크….<end>"
+
+["1250176"]
+japanese = "待てなかったか、ジラーク…。<end>"
+korean = "기다리지 못했나, 질라크….<end>"
+
+["1250193"]
+japanese = "（カルラの後を追わないと…）<end>"
+korean = "(카를라의 뒤를 쫓아야 해…)<end>"
+
 ["1250201"]
 japanese = "お留守番しといてね。<end>"
 korean = "집 잘 보고 있어.<end>"
@@ -39,3 +51,7 @@ korean = "………………. 모른다.<end>"
 ["1250267"]
 japanese = "ベルゼーヴァ様…。<line-break><line-break><line-break>………………。<end>"
 korean = "벨제바 님…. ……………….<end>"
+
+["1250314"]
+japanese = "イオンズせりふ追加予定！！！<end>"
+korean = "이온즈 대사 추가 예정!!!<end>"

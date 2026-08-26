@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["780000"]
+japanese = "アトレイア　ボリューム６～開始<end>"
+korean = "아트레이아 볼륨6 시작<end>"
+
 ["780014"]
 japanese = "シャリ、この方は…？<end>"
 korean = "샤리, 이분은…?<end>"
@@ -60,6 +64,14 @@ korean = "냐옹~!<end>"
 japanese = "ありがとうございます！<end>"
 korean = "감사합니다!<end>"
 
+["780065"]
+japanese = "言っておくが、中は荒れ放題だぞ。<end>"
+korean = "말해 두지만, 안은 엉망진창이야.<end>"
+
 ["780068"]
 japanese = "何を言い出すかと思えば…。<end>"
 korean = "무슨 말을 하나 했더니….<end>"
+
+["780096"]
+japanese = "アトレイア　ボリューム６～終了<end>"
+korean = "아트레이아 볼륨6 끝<end>"

@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1170000"]
+japanese = "ノエル２用メッセージＶ２開始<end>"
+korean = "노엘2용 메시지 V2 시작<end>"
+
 ["1170001"]
 japanese = "あ、<value:$28>さん！<end>"
 korean = "아, <value:$28> 씨!<end>"
+
+["1170004"]
+japanese = "ノエルもがんばっているんだね<end>"
+korean = "노엘도 열심히 하고 있구나<end>"
 
 ["1170005"]
 japanese = "人を助けるためじゃないよ<end>"

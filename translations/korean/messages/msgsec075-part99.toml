@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["750000"]
+japanese = "アトレイヤ　ボリューム１～開始<end>"
+korean = "아트레이아 볼륨1 시작<end>"
+
 ["750003"]
 japanese = "誰？<end>"
 korean = "누구?<end>"
@@ -191,3 +195,7 @@ korean = "아…<end>"
 ["750224"]
 japanese = "…私、うれしいです。<end>"
 korean = "…저, 기뻐요.<end>"
+
+["750236"]
+japanese = "アトレイア　ボリューム１～終了<end>"
+korean = "아트레이아 볼륨1 끝<end>"
