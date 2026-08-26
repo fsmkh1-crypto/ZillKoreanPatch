@@ -20,6 +20,10 @@ korean = "공주님은 우리가 지킬게! 제네테스를 도와줘, <value:$2
 japanese = "我が都、エンシャントが…。<line-break><line-break><line-break>………………。<end>"
 korean = "우리의 도시, 엔샨트가…. ……………….<end>"
 
+["1250088"]
+japanese = "<value:$28>様。<line-break>謁見の間へ行かれるのですね。<line-break>お供させていただきますわ。<end>"
+korean = "<value:$28>님. 알현실로 가시는군요. 함께 가겠습니다.<end>"
+
 ["1250094"]
 japanese = "ゾフォルは<line-break>謁見の間です。<end>"
 korean = "조폴은 알현실에 있습니다.<end>"

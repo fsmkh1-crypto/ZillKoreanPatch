@@ -52,6 +52,10 @@ korean = "<value:$28>… 씨….<end>"
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"
 
+["620027"]
+japanese = "ご、ごめんなさい。<line-break>そうですよね。<end>"
+korean = "미, 미안해요. 그렇죠.<end>"
+
 ["620029"]
 japanese = "ほぉーらあ！<line-break><value:$28>、<line-break>起きなさい！<end>"
 korean = "자아! <value:$28>, 일어나!<end>"
@@ -224,6 +228,10 @@ korean = "단장, 도망치는 고브!<end>"
 japanese = "親分、自分が間違ってたゴブ！<end>"
 korean = "두목, 내가 틀렸어 고브!<end>"
 
+["620129"]
+japanese = "あんたたち！<line-break>今度は逃がさないわ！<end>"
+korean = "너희들! 이번엔 놓치지 않을 거야!<end>"
+
 ["620132"]
 japanese = "うるうるうる…。<end>"
 korean = "울먹울먹울먹….<end>"
@@ -371,6 +379,10 @@ korean = "분명 그렇게 대답했겠죠….<end>"
 ["620270"]
 japanese = "お、おはようございます。<end>"
 korean = "아, 안녕하세요.<end>"
+
+["620275"]
+japanese = "聞きたいことがあれば<line-break>答えますよ。<end>"
+korean = "묻고 싶은 게 있으면 답해 드릴게요.<end>"
 
 ["620276"]
 japanese = "無限のソウルとは<end>"

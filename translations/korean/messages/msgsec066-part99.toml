@@ -104,6 +104,10 @@ korean = "여어. 실례 좀 할게.<end>"
 japanese = "あ…、<line-break>ゼネテス…様…。<end>"
 korean = "아… 제네테스… 님….<end>"
 
+["660079"]
+japanese = "あ…、<line-break>もう帰ってしまうのですか？<end>"
+korean = "아… 벌써 돌아가시는 건가요?<end>"
+
 ["660081"]
 japanese = "ゼネテス様…。<end>"
 korean = "제네테스 님….<end>"
@@ -140,6 +144,10 @@ korean = "놀리지 마세요.<end>"
 japanese = "へぇ、どうわかったのか聞きたいね。<end>"
 korean = "흐음, 어떻게 알았는지 듣고 싶군.<end>"
 
+["660137"]
+japanese = "私は<line-break>人の顔色を見ているだけです。<end>"
+korean = "저는 사람 눈치만 보고 있을 뿐입니다.<end>"
+
 ["660141"]
 japanese = "え…、もうお帰りですの？<end>"
 korean = "어머…, 벌써 돌아가시나요?<end>"
@@ -151,6 +159,10 @@ korean = "살아 있다면 반드시 다시 올 거야.<end>"
 ["660152"]
 japanese = "<value:$28>様なら、<line-break>大歓迎いたしますわ。<line-break>また、いらしてくださいね。<end>"
 korean = "<value:$28> 님이라면 대환영이에요. 또 와 주세요.<end>"
+
+["660154"]
+japanese = "姫さんのきれいな姿を<line-break>見に来たぜ。<end>"
+korean = "공주님의 아름다운 모습을 보러 왔지.<end>"
 
 ["660163"]
 japanese = "フフ、<line-break>酒のニオイはお嫌いかな？<end>"
