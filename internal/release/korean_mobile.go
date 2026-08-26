@@ -63,16 +63,14 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	fmt.Printf("Korean coverage: %d/%d records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
 
 	// Placeholder projection uses the same authenticated retail token streams
-	// already consumed by the planner above.
+	// already consumed by the planner above. The alpha overlay deliberately has
+	// Layout cleared for accepted Korean rows, so planner and compiler both test
+	// semantic Korean only. Production layout data remains untouched on disk.
 	alphaProject, placeholderCount, err := BuildKoreanAlphaPlaceholderProject(source, korean)
 	if err != nil { return err }
 	fmt.Printf("Korean alpha compiler placeholders: %d\n", placeholderCount)
 
-	layouts := make(map[int]string)
-	for _, row := range korean.Entries {
-		if row.Layout != "" { layouts[row.ID] = row.Layout }
-	}
-	compiled, err := compileKoreanBanksWithPlan(source, alphaProject, banks, plan, layouts)
+	compiled, err := compileKoreanBanksWithPlan(source, alphaProject, banks, plan, nil)
 	if err != nil { return err }
 	if err := addBanks(owners, compiled); err != nil { return err }
 
