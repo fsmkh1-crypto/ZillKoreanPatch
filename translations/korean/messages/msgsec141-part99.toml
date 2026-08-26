@@ -88,6 +88,10 @@ korean = "그래. 한나는 잘 알고 있구나.<end>"
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
 
+["1410077"]
+japanese = "よし、決まりだ！<line-break>行こうぜ、<value:$28>。<end>"
+korean = "좋아, 결정이다! 가자, <value:$28>.<end>"
+
 ["1410078"]
 japanese = "ゼネテスも<value:$28>も<line-break>結局、冒険好きなのね。<line-break>子供ねー。<end>"
 korean = "제네테스도 <value:$28>도 결국 모험을 좋아하는구나. 어린애네~.<end>"
