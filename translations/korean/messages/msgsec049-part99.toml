@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["490001"]
+japanese = "まずはギルドへ行こう。<end>"
+korean = "우선 길드로 가자.<end>"
+
 ["490004"]
 japanese = "ま、いろんなとこだ。<end>"
 korean = "뭐, 여러 곳이지.<end>"
@@ -96,6 +100,10 @@ korean = "<미사용><end>"
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
 
+["490094"]
+japanese = "ハハ、失礼な奴じゃな。<end>"
+korean = "하하, 무례한 녀석이군.<end>"
+
 ["490104"]
 japanese = "なあ、とっつぁん。　<end>"
 korean = "있잖아, 아저씨.　<end>"
@@ -160,6 +168,14 @@ korean = "여어, 상태는 어때?<end>"
 japanese = "もう、いいのか？<end>"
 korean = "이제 괜찮아?<end>"
 
+["490173"]
+japanese = "ちっ、おぼえてやがれ！<end>"
+korean = "쳇, 두고 보자!<end>"
+
+["490182"]
+japanese = "そうですか、ゼネテス…<end>"
+korean = "그렇군요, 제네테스….<end>"
+
 ["490195"]
 japanese = "あ…、<value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"
@@ -171,6 +187,10 @@ korean = "있잖아, <value:$28>.<end>"
 ["490206"]
 japanese = "ひっく、ひっく…<end>"
 korean = "흐윽, 흐윽…<end>"
+
+["490222"]
+japanese = "わ、すごいすごーい！！<end>"
+korean = "와, 대단해 대단해ー!!<end>"
 
 ["490232"]
 japanese = "すごいすごーい！<end>"
@@ -195,6 +215,10 @@ korean = "아길샤이어…?<end>"
 ["490249"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
+
+["490256"]
+japanese = "それじゃあ、誰なのぉ？<end>"
+korean = "그럼, 누구야아?<end>"
 
 ["490262"]
 japanese = "かわいそぉ！<end>"

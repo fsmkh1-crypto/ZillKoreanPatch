@@ -4,6 +4,10 @@
 japanese = "お前も来るか？<end>"
 korean = "너도 올 건가?<end>"
 
+["440007"]
+japanese = "バカか。本気にするな。<end>"
+korean = "바보냐. 진지하게 받아들이지 마.<end>"
+
 ["440020"]
 japanese = "レムオン様…。<end>"
 korean = "레몬 님….<end>"
@@ -39,6 +43,10 @@ korean = "응…? 너는….<end>"
 ["440066"]
 japanese = "う…ぐあぁっ…！<end>"
 korean = "으… 으아악…!<end>"
+
+["440069"]
+japanese = "ウウグガアアアアッ！！<end>"
+korean = "우우그아아아악!!<end>"
 
 ["440070"]
 japanese = "がは…っ！<end>"

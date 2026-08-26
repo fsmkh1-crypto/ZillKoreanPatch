@@ -76,9 +76,17 @@ korean = "도와주자<end>"
 japanese = "構っている暇はない<end>"
 korean = "상대하고 있을 틈은 없어<end>"
 
+["430104"]
+japanese = "どうした？　　　　　　<end>"
+korean = "왜 그래?<end>"
+
 ["430107"]
 japanese = "今は黙っている<end>"
 korean = "지금은 입을 다문다<end>"
+
+["430116"]
+japanese = "剣で決着をつけよう…。<end>"
+korean = "검으로 결판내자….<end>"
 
 ["430143"]
 japanese = "まったく話にならん！<end>"

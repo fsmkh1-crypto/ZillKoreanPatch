@@ -8,6 +8,10 @@ korean = "곤란하네….<end>"
 japanese = "シャレって？<end>"
 korean = "농담이라니?<end>"
 
+["2300010"]
+japanese = "…な、なんだって！？<end>"
+korean = "…뭐, 뭐라고!?<end>"
+
 ["2300014"]
 japanese = "そう思わない、<value:$28>？<end>"
 korean = "그렇지 않아, <value:$28>?<end>"

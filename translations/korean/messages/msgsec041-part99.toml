@@ -72,6 +72,10 @@ korean = "(미사용)17<end>"
 japanese = "（未使用）１８<end>"
 korean = "(미사용)18<end>"
 
+["410027"]
+japanese = "俺もまだまだ甘いな…。<end>"
+korean = "나도 아직 멀었군….<end>"
+
 ["410030"]
 japanese = "<value:$28>さんー！<end>"
 korean = "<value:$28> 씨~!<end>"
@@ -95,6 +99,10 @@ korean = "! …이 느낌은!<end>"
 ["410053"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
+
+["410054"]
+japanese = "レイヴン！　大丈夫？！<end>"
+korean = "레이븐! 괜찮아?!<end>"
 
 ["410056"]
 japanese = "へへ…、へへ…。<end>"
@@ -140,6 +148,10 @@ korean = "에스트를 쓰러뜨린다<end>"
 japanese = "エストを守る<end>"
 korean = "에스트를 지킨다<end>"
 
+["410115"]
+japanese = "ネメアだ！　　　　　　<end>"
+korean = "네메아다!<end>"
+
 ["410120"]
 japanese = "で、でも…。<end>"
 korean = "하, 하지만….<end>"
@@ -155,6 +167,10 @@ korean = "어?<end>"
 ["410140"]
 japanese = "に、兄さん…。<end>"
 korean = "혀, 형….<end>"
+
+["410142"]
+japanese = "ネメアだ！　　　　　　<end>"
+korean = "네메아다!<end>"
 
 ["410148"]
 japanese = "ナーシェス！<end>"

@@ -56,6 +56,10 @@ korean = "미사용<end>"
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
 
+["420105"]
+japanese = "ゲヘ、久しぶりだな…。<end>"
+korean = "게헤, 오랜만이군….<end>"
+
 ["420110"]
 japanese = "お前と組む気はない<end>"
 korean = "너와 손잡을 생각은 없어<end>"
@@ -83,6 +87,10 @@ korean = "어떻게 생각해, <value:$28>?<end>"
 ["420151"]
 japanese = "おもしろそうね<end>"
 korean = "재미있겠네<end>"
+
+["420176"]
+japanese = "姉ちゃん、待ってよー。<end>"
+korean = "누나, 기다려 줘ー.<end>"
 
 ["420186"]
 japanese = "…<value:$28>さん。<line-break>　<line-break>　<end>"

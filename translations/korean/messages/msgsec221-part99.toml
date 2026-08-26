@@ -4,6 +4,10 @@
 japanese = "迷子イベント4用開始<end>"
 korean = "미아 이벤트 4용 시작<end>"
 
+["2210001"]
+japanese = "うぇーん、うぇーん！<end>"
+korean = "으아앙, 으아앙!<end>"
+
 ["2210002"]
 japanese = "どうしたの？<end>"
 korean = "무슨 일이야?<end>"
@@ -15,6 +19,10 @@ korean = "응, 약속할게.<end>"
 ["2210011"]
 japanese = "さ、行こ、<value:$28>。<end>"
 korean = "자, 가자, <value:$28>.<end>"
+
+["2210021"]
+japanese = "難しいものですね…。<end>"
+korean = "어려운 일이네요….<end>"
 
 ["2210022"]
 japanese = "お母さん！<end>"

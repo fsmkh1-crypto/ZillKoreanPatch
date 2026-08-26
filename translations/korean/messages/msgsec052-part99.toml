@@ -24,9 +24,17 @@ korean = "돌아가지 않는다<end>"
 japanese = "…勝手にするがいい！<end>"
 korean = "…마음대로 해라!<end>"
 
+["520043"]
+japanese = "陛下、お供いたします。<end>"
+korean = "폐하, 모시겠습니다.<end>"
+
 ["520047"]
 japanese = "…陛下。<end>"
 korean = "…폐하.<end>"
+
+["520061"]
+japanese = "では、敵はどう出ると？<end>"
+korean = "그럼 적은 어떻게 나올까요?<end>"
 
 ["520089"]
 japanese = "よ。<line-break>お待たせ。<end>"
