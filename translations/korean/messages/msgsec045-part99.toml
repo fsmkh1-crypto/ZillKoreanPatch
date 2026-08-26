@@ -40,6 +40,10 @@ korean = "아니야. 왜 그렇게 되는 거야. 나는 반의 원수를….<en
 japanese = "この期に及んでまだしらを切るとは！<end>"
 korean = "이 지경인데도 아직 시치미를 떼다니!<end>"
 
+["450020"]
+japanese = "この未来の勇者ガルドランが<line-break>正義の熱い怒りの魂で、貴様を倒す！<line-break><line-break>食らえ！<line-break>正義の必殺技、暗闇の滴！<end>"
+korean = "이 미래의 용자 갈드란이 정의의 뜨거운 분노의 혼으로 네놈을 쓰러뜨리겠다! 받아라! 정의의 필살기, 어둠의 물방울!<end>"
+
 ["450021"]
 japanese = "うわっ！　目が！<end>"
 korean = "으악! 눈이!<end>"
@@ -183,6 +187,10 @@ korean = "…미안… 혼자 있게해 줬으면 해.<end>"
 ["450109"]
 japanese = "おかえり、<value:$28>。<end>"
 korean = "어서 와, <value:$28>.<end>"
+
+["450112"]
+japanese = "ねえ、<value:$28>…。<line-break>ヴァン、…大丈夫だよね。<end>"
+korean = "있잖아, <value:$28>…. 반, …괜찮겠지?<end>"
 
 ["450113"]
 japanese = "ようこそ、<value:$28>。<end>"

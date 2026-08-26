@@ -212,6 +212,10 @@ korean = "이제 마음의 응어리가 풀렸습니다. 자, <value:$28>님. �
 japanese = "あ、<value:$28>様、<line-break>どうぞ、こちらへ。<end>"
 korean = "아, <value:$28>님, 이쪽으로 오세요.<end>"
 
+["640131"]
+japanese = "<value:$28>様！<line-break>ようこそ、いらっしゃいました。<end>"
+korean = "<value:$28>님! 어서 오십시오.<end>"
+
 ["640133"]
 japanese = "ティアナの目は確かですわ。<end>"
 korean = "티아나의 안목은 확실해요.<end>"
@@ -395,6 +399,10 @@ korean = "사실은 말이야, 타르튜바 님은…<end>"
 ["640236"]
 japanese = "そっか、お兄ちゃんが話したんだね。<end>"
 korean = "그렇구나, 오빠가 말했구나.<end>"
+
+["640237"]
+japanese = "そっか、<value:$28><line-break>お姉ちゃんが話したんだね。<end>"
+korean = "그렇구나, <value:$28>. 언니가 이야기해 줬구나.<end>"
 
 ["640238"]
 japanese = "お姉ちゃんも<line-break>タルテュバにいじわるされたら<line-break><value:$28>に助けてもらいなよ。<end>"

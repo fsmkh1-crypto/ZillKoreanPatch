@@ -40,6 +40,10 @@ korean = "그럼 같이 가자, <value:$28>.<end>"
 japanese = "そうか、だったら俺もお手伝い<line-break>させてもらおうかな？<line-break>どうだい、<value:$28>？<end>"
 korean = "그래? 그렇다면 나도 도와줄까? 어때, <value:$28>?<end>"
 
+["700023"]
+japanese = "よう、<value:$28>。<line-break>この奥にいる怪物が仕事か？<end>"
+korean = "여어, <value:$28>. 이 안쪽의 괴물이 네 일이야?<end>"
+
 ["700024"]
 japanese = "やっぱそうか。だったら俺も<line-break>手伝いに入らせてもらおうかな？<line-break>どうだい、<value:$28>？<end>"
 korean = "역시 그런가. 그럼 나도 도와줄까? 어때, <value:$28>?<end>"
@@ -56,9 +60,17 @@ korean = "도움받지 않는다<end>"
 japanese = "そうかい。<line-break>んじゃ、がんばれよ。<end>"
 korean = "그래. 그럼 힘내라.<end>"
 
+["700035"]
+japanese = "そら、お前を殺そうとして<line-break>凶悪な冒険者がやってきおった。<line-break>　<line-break>まず、奴らを血祭りに上げよ。<line-break>よいな。<end>"
+korean = "자, 너를 죽이려 흉악한 모험자들이 찾아왔다. 우선 녀석들을 피바다로 만들어라. 알겠느냐.<end>"
+
 ["700036"]
 japanese = "ま、こいつも、実は<line-break>かわいそうな奴なのかもな。<line-break>　<line-break>んじゃな。<line-break><value:$28>。<line-break>また、会おうぜ。<end>"
 korean = "뭐, 이 녀석도 사실 불쌍한 놈일지도 모르지. 그럼 간다, <value:$28>. 또 보자.<end>"
+
+["700043"]
+japanese = "そら、お前を殺そうとして<line-break>凶悪な冒険者がやってきおった。<line-break>　<line-break>まず、奴らを血祭りに上げよ。<line-break>よいな。<end>"
+korean = "자, 너를 죽이려 흉악한 모험자들이 찾아왔다. 우선 녀석들을 피바다로 만들어라. 알겠느냐.<end>"
 
 ["700053"]
 japanese = "じゃあ、いくわよ…。<end>"

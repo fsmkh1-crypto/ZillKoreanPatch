@@ -72,6 +72,10 @@ korean = "큭….<end>"
 japanese = "む？　なんじゃこの静けさは…？<line-break>迎撃の傭兵も現れんとは。<line-break>　<line-break>まさか、罠か！？<end>"
 korean = "음? 이 고요함은 뭐지…? 요격 용병조차 나타나지 않다니. 설마 함정인가!?<end>"
 
+["1720032"]
+japanese = "卿は本当に<line-break>考えの浅い御仁だな。　　　　<line-break>　<line-break>罠を仕掛けたのだよ。<line-break>向こうではなく、こちらがね。<end>"
+korean = "경은 정말 생각이 얕은 사람이군. 함정을 판 건 저쪽이 아니라 이쪽이다.<end>"
+
 ["1720034"]
 japanese = "その通りだ。<line-break>ご苦労だったな。<end>"
 korean = "그래. 수고했다.<end>"
@@ -179,6 +183,22 @@ korean = "이크레문 V5-1 예비 메시지 4입니다.<end>"
 ["1720115"]
 japanese = "イークレムンＶ５－１<line-break>予備メッセージ５です<end>"
 korean = "이크레문 V5-1 예비 메시지 5입니다.<end>"
+
+["1720116"]
+japanese = "イークレムンＶ５－１<line-break>予備メッセージ６です<end>"
+korean = "이크레문 V5-1 예비 메시지 6입니다.<end>"
+
+["1720117"]
+japanese = "イークレムンＶ５－１<line-break>予備メッセージ７です<end>"
+korean = "이크레문 V5-1 예비 메시지 7입니다.<end>"
+
+["1720118"]
+japanese = "イークレムンＶ５－１<line-break>予備メッセージ８です<end>"
+korean = "이크레문 V5-1 예비 메시지 8입니다.<end>"
+
+["1720119"]
+japanese = "イークレムンＶ５－１<line-break>予備メッセージ９です<end>"
+korean = "이크레문 V5-1 예비 메시지 9입니다.<end>"
 
 ["1720121"]
 japanese = "イークレムンＶ５－１　終了<end>"

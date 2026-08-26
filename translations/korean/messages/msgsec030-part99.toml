@@ -100,6 +100,10 @@ korean = "나… 기사가 되는 게 꿈이야.<end>"
 japanese = "寒い…。<end>"
 korean = "추워…<end>"
 
+["300070"]
+japanese = "…<value:$28>、<line-break>本当に助けって来るのかなぁ…。<end>"
+korean = "…<value:$28>, 정말 도움은 오는 걸까….<end>"
+
 ["300071"]
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　<line-break>　<line-break>あ、空が見えなく…。<line-break>！？<end>"
 korean = "<value:$28>…. 아, 하늘이 안 보여….!?<end>"

@@ -48,6 +48,10 @@ korean = "그만둬!!<end>"
 japanese = "<value:$28>！<line-break>お前まで、どうしてここに！<line-break>危険だ！　逃げろ！<end>"
 korean = "<value:$28>! 너까지 왜 여기에! 위험해! 도망쳐!<end>"
 
+["1360058"]
+japanese = "まあいい<line-break>時間は限りなくある。<line-break>退屈しのぎに試してみてもいいだろう。<line-break>いくぞ、<value:$28>とやら。<end>"
+korean = "뭐, 좋다. 시간은 무한히 있으니 심심풀이로 시험해 봐도 되겠지. 간다, <value:$28>이라 했나.<end>"
+
 ["1360064"]
 japanese = "俺は、俺はもっと生きたかったぜ！<line-break>今は言える！　もっと、もっと<line-break><value:$28>と…いっしょに…！<end>"
 korean = "난, 난 더 살고 싶었어! 지금은 말할 수 있어! 더, 더 <value:$28>과… 함께…!<end>"
@@ -532,6 +536,10 @@ korean = "모험자인 당신에게 저는 정령신으로 가는 길을 막는 
 japanese = "………………。　　　　<line-break> <line-break> <line-break>わかりません。私には…。<end>"
 korean = "………………. 모르겠습니다. 저로서는….<end>"
 
+["1360385"]
+japanese = "ここには、私に残された<line-break>ただひとつの役目があります。<line-break>　<line-break>その時が来るまで…<line-break>私はここにいます。<end>"
+korean = "여기에는 제게 남겨진 단 하나의 역할이 있습니다. 그때가 올 때까지… 저는 여기 있겠습니다.<end>"
+
 ["1360388"]
 japanese = "私のことは心配に及びません。<line-break>どうかお気をつけて、<line-break><value:$28>様…。<end>"
 korean = "제 걱정은 하지 않으셔도 됩니다. 부디 조심하세요, <value:$28> 님….<end>"
@@ -551,6 +559,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1360399"]
 japanese = "愛する…人のため？<end>"
 korean = "사랑하는… 사람을 위해?<end>"
+
+["1360400"]
+japanese = "………………。　　　　　　<line-break> <line-break> <line-break>人を愛する…ということを、<line-break>私は、理解していません…。<end>"
+korean = "………………. 사람을 사랑한다는 걸 저는 이해하지 못하고 있습니다….<end>"
 
 ["1360402"]
 japanese = "さようなら、<line-break><value:$28>様…。<line-break>私の死を、苦いものにした人…。<end>"
@@ -591,6 +603,10 @@ korean = "…하아?<end>"
 ["1360427"]
 japanese = "ほうほう。<end>"
 korean = "호오, 호오.<end>"
+
+["1360430"]
+japanese = "アハブで大発生した<line-break>アンデッドどもの大群じゃ。<line-break>わしは、一も二もなく突撃した！<line-break>うおおおおおっ！<end>"
+korean = "아합에서 대량 발생한 언데드 무리다. 나는 앞뒤 가리지 않고 돌격했지! 우오오오오!<end>"
 
 ["1360438"]
 japanese = "アンギルダン殿！<end>"
@@ -795,6 +811,10 @@ korean = "저기요, 신관님.<end>"
 ["1360578"]
 japanese = "うはは、困ってるぜ、神官さん。<end>"
 korean = "우하하, 곤란해 보이는데, 신관 양반.<end>"
+
+["1360581"]
+japanese = "それを持っていれば、<line-break>崩落から身を守ることができたと<line-break>いわれております。<line-break>きっと、お役に立つでしょう。<end>"
+korean = "그걸 가지고 있으면 붕괴에서 몸을 지킬 수 있었다고 합니다. 분명 도움이 될 겁니다.<end>"
 
 ["1360582"]
 japanese = "これで安心して暮らせます。<line-break>アルノートゥンにも活気が戻るはず。<line-break>恩にきます、<value:$28>殿。<end>"

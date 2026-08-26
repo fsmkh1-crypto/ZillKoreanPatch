@@ -164,6 +164,10 @@ korean = "앙코르! 앙코르!<end>"
 japanese = "お疲れさまでした。<end>"
 korean = "수고하셨습니다.<end>"
 
+["1930087"]
+japanese = "きみ、もう、<line-break>この歌、おぼえてくれたよね。<end>"
+korean = "이제 이 노래, 외워 줬지?<end>"
+
 ["1930091"]
 japanese = "ぼくは<line-break><value:$28>との旅で<line-break>たっくさんのキレイに出会った。<end>"
 korean = "나는 <value:$28>와 여행하면서 정말 많은 아름다움을 만났어.<end>"
@@ -179,6 +183,10 @@ korean = "왔는가…….<end>"
 ["1930096"]
 japanese = "決着をつけよう。<end>"
 korean = "결판을 내자.<end>"
+
+["1930097"]
+japanese = "そうですか、<line-break>この大陸を出ていくのですか。<end>"
+korean = "그렇군요. 이 대륙을 떠나시는 겁니까.<end>"
 
 ["1930101"]
 japanese = "<value:$28>の<line-break>名前を利用して反対勢力を作る<line-break>…あり得る話だ。<end>"

@@ -20,6 +20,10 @@ korean = "훗, 아무 생각 없이 고개를 끄덕이나….<end>"
 japanese = "お待ちしていた、エリエナイ公。<end>"
 korean = "기다리고 있었습니다, 에리에나이 공.<end>"
 
+["420012"]
+japanese = "そなたの領地で物騒な事件が<line-break>あったと聞くが？<end>"
+korean = "그대 영지에서 흉흉한 사건이 있었다고 들었는데?<end>"
+
 ["420014"]
 japanese = "ほう？<end>"
 korean = "호오?<end>"
@@ -184,6 +188,10 @@ korean = "남동생 이야기인가?<end>"
 japanese = "よぉ、おじょうちゃん、<line-break>ずいぶんしけた面してるな？<line-break>　<line-break>弟でも見殺しにしたのかい？<end>"
 korean = "어이, 아가씨. 꽤 죽상이군? 동생이라도 죽게 내버려 둔 건가?<end>"
 
+["420134"]
+japanese = "冒険者登録かい。<line-break>ここに名前を記入してくれ。<end>"
+korean = "모험자 등록인가. 여기에 이름을 적어 줘.<end>"
+
 ["420137"]
 japanese = "やったね。<line-break>仕事、がんばろうね、姉ちゃん。<end>"
 korean = "해냈네. 일 열심히 하자, 누나.<end>"
@@ -191,6 +199,10 @@ korean = "해냈네. 일 열심히 하자, 누나.<end>"
 ["420139"]
 japanese = "よ、来てくれたのか。<end>"
 korean = "여어, 와줬구나.<end>"
+
+["420142"]
+japanese = "冒険者登録かい。<line-break>ここに名前を記入してくれ。<end>"
+korean = "모험자 등록인가. 여기에 이름을 적어 줘.<end>"
 
 ["420145"]
 japanese = "おめでとう。<line-break>これでお前さんも冒険者だ。<end>"
@@ -239,6 +251,10 @@ korean = "누나, 어떡할 거야. …도망칠까.<end>"
 ["420176"]
 japanese = "姉ちゃん、待ってよー。<end>"
 korean = "누나, 기다려 줘ー.<end>"
+
+["420177"]
+japanese = "なるほど…。<line-break>闇の神器・焦燥の耳飾りですか。<end>"
+korean = "그렇군요…. 어둠의 신기, 초조의 귀걸이입니까.<end>"
 
 ["420178"]
 japanese = "なあ、エストは…、<line-break>エストは治るんだよな。<end>"

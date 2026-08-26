@@ -64,6 +64,10 @@ korean = "거기 남자! 움직이지 마!<end>"
 japanese = "おや？　新手かな？<end>"
 korean = "어라? 새로 온 녀석인가?<end>"
 
+["1730030"]
+japanese = "お前……<line-break>エルフ…<line-break>ダークエルフか。<end>"
+korean = "너…… 엘프… 다크 엘프인가.<end>"
+
 ["1730033"]
 japanese = "ふぅ。<line-break>生き残りはこれで全部かの？<end>"
 korean = "후우. 살아남은 건 이게 전부인가?<end>"
@@ -132,6 +136,10 @@ korean = "맡지 않는다<end>"
 japanese = "<value:$28>様。<line-break>どうぞお通りください。<end>"
 korean = "<value:$28>님. 지나가십시오.<end>"
 
+["1730071"]
+japanese = "あら、<value:$28>じゃん。<line-break>元気にしてた？<line-break>　<line-break>え？　オイフェから手紙？<line-break>ふーん。どれどれ。<end>"
+korean = "어머, <value:$28>잖아. 잘 지냈어? 응? 오이페에게 편지? 흐음. 어디 보자.<end>"
+
 ["1730074"]
 japanese = "それじゃ、またね。<line-break><value:$28>。<end>"
 korean = "그럼 또 보자, <value:$28>.<end>"
@@ -199,6 +207,10 @@ korean = "…그런데 하나 물어봐도 될까?<end>"
 ["1730116"]
 japanese = "はい、どうぞ。<end>"
 korean = "네, 여기요.<end>"
+
+["1730118"]
+japanese = "灯台もと暗しってね。<line-break>敵情視察もかねてる。<end>"
+korean = "등잔 밑이 어둡다잖아. 적정 시찰도 겸하고 있어.<end>"
 
 ["1730119"]
 japanese = "本当に？<end>"

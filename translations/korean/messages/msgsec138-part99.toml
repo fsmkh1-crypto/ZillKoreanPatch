@@ -116,6 +116,10 @@ korean = "보고 싶지 않아<end>"
 japanese = "…フフ、フフフフ。<end>"
 korean = "…후후, 후후후후.<end>"
 
+["1380072"]
+japanese = "例えば、今宵の出会いが、<line-break>思いがけぬものだったとしたなら…<line-break>あるいは、わらわはそこに…<line-break>………………。<end>"
+korean = "예를 들어 오늘 밤의 만남이 뜻밖의 것이었다면… 어쩌면 나는 그곳에서… ……………….<end>"
+
 ["1380074"]
 japanese = "さらばじゃ。また会おう。<end>"
 korean = "잘 가게. 또 만나세.<end>"
@@ -124,6 +128,10 @@ korean = "잘 가게. 또 만나세.<end>"
 japanese = "…フフ、フフフフ。<end>"
 korean = "…후후, 후후후후.<end>"
 
+["1380080"]
+japanese = "例えば、今宵の出会いが、<line-break>思いがけぬものだったとしたなら…<line-break>あるいは、わらわはそこに…<line-break>………………。<end>"
+korean = "예를 들어 오늘 밤의 만남이 뜻밖의 것이었다면… 어쩌면 나는 그곳에서… ……………….<end>"
+
 ["1380082"]
 japanese = "さらばじゃ。また会おう。<end>"
 korean = "잘 가게. 또 만나세.<end>"
@@ -131,6 +139,10 @@ korean = "잘 가게. 또 만나세.<end>"
 ["1380083"]
 japanese = "んっ…。<end>"
 korean = "응….<end>"
+
+["1380085"]
+japanese = "…静かな夜だね。　　　　　　　<line-break><line-break><line-break><value:$28>、キミはきっと<line-break>不思議に思ってるはずだよね。<end>"
+korean = "…조용한 밤이네. <value:$28>, 넌 분명 이상하게 생각하고 있겠지.<end>"
 
 ["1380089"]
 japanese = "気にしていた<end>"
@@ -143,6 +155,10 @@ korean = "신경 쓰지 않았어<end>"
 ["1380094"]
 japanese = "…待っててくれるよね、<line-break><value:$28>？<end>"
 korean = "…기다려 줄 거지, <value:$28>?<end>"
+
+["1380096"]
+japanese = "そ、そうなんだ。<line-break><line-break><line-break>ちょっとびっくりしたけど、<line-break><value:$28><line-break>らしいといえば、らしいかもね。<end>"
+korean = "그, 그렇구나. 조금 놀랐지만, <value:$28>답다고 하면 또 그런 것 같네.<end>"
 
 ["1380097"]
 japanese = "<value:$28>がどれだけすごい<line-break>冒険者かは、前に依頼したボクが<line-break>一番良く知ってる。<end>"

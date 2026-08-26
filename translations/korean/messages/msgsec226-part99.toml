@@ -16,6 +16,10 @@ korean = "이리 오지 마, 괴물!<end>"
 japanese = "ウッ…、ひっく…。<end>"
 korean = "윽…, 흑….<end>"
 
+["2260005"]
+japanese = "なんだよ、オッサン？<line-break>いきなり出てきて…。<end>"
+korean = "뭐야, 아저씨? 갑자기 나타나서는….<end>"
+
 ["2260008"]
 japanese = "…えっ！？<end>"
 korean = "…뭐!?<end>"
@@ -23,6 +27,10 @@ korean = "…뭐!?<end>"
 ["2260011"]
 japanese = "…う、うるせえやいっ！<end>"
 korean = "…시, 시끄러워!<end>"
+
+["2260012"]
+japanese = "バーカ！<line-break>お前の説教なんか誰が聞くもんか！<end>"
+korean = "바보야! 네 설교 따위 누가 듣냐!<end>"
 
 ["2260017"]
 japanese = "どうする、<value:$28>？<end>"
@@ -35,6 +43,10 @@ korean = "간다<end>"
 ["2260019"]
 japanese = "行かない<end>"
 korean = "안 가<end>"
+
+["2260020"]
+japanese = "やはり、それがいいじゃろう。<line-break>では、急ぐか。<line-break>　<line-break>あの方向からすると<line-break>おそらく廃城のほうじゃな。<end>"
+korean = "역시 그게 좋겠군. 그럼 서두르자. 저 방향으로 보아 아마 폐성 쪽일 게다.<end>"
 
 ["2260023"]
 japanese = "名脇役ガルドラン物語4用終端<end>"

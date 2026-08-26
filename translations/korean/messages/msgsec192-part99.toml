@@ -180,6 +180,10 @@ korean = "실례하겠습니다, 폐하.<end>"
 japanese = "お入りなさい。<end>"
 korean = "들어오세요.<end>"
 
+["1920120"]
+japanese = "私が呼んだのです。<line-break>すぐにお通ししなさい。<end>"
+korean = "제가 부른 겁니다. 바로 들여보내세요.<end>"
+
 ["1920121"]
 japanese = "かしこまりました。<line-break>　<line-break>　<end>"
 korean = "알겠습니다.<end>"
@@ -208,6 +212,10 @@ korean = "(<value:$28>. 네가 있어 주면 나, 괜찮겠지….)<end>"
 japanese = "ふふ。なんでもないわ。<line-break>…ありがとう。<end>"
 korean = "후후. 아무것도 아니야. …고마워.<end>"
 
+["1920137"]
+japanese = "ええ。そのように<line-break>取りはからってください。<end>"
+korean = "네. 그렇게 처리해 주세요.<end>"
+
 ["1920138"]
 japanese = "かまいませんね、お母様？<end>"
 korean = "괜찮으시죠, 어머니?<end>"
@@ -231,6 +239,10 @@ korean = "<value:$28>님!<end>"
 ["1920157"]
 japanese = "ウフフ。<value:$28>様ったら<line-break>正面から入ってこられれば<line-break>よろしいのに…。<end>"
 korean = "후후. <value:$28>님도 참, 정면으로 들어오시면 될 텐데….<end>"
+
+["1920160"]
+japanese = "そ、そうなのですか。<line-break>でも、ティアナには…<end>"
+korean = "그, 그런가요. 하지만 티아나는….<end>"
 
 ["1920161"]
 japanese = "<value:$28>様が<line-break>連れていってくださるのですか？<line-break>　<line-break>うれしいのですけれど、<line-break>こんな時間に…。<end>"

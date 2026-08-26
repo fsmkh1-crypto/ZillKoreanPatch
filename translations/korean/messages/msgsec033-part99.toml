@@ -236,6 +236,10 @@ korean = "그런 물건은 모릅니다.<end>"
 japanese = "フリントさ～ん！<end>"
 korean = "플린트 씨~!<end>"
 
+["330117"]
+japanese = "…矢だ。<line-break>おやじさんは矢にやられている。<line-break><line-break>急所は外れているが、<line-break>矢に毒が仕込んである。…危険だ。<end>"
+korean = "…화살이다. 아버님은 화살에 맞았어. 급소는 빗나갔지만 화살에 독이 발라져 있어. …위험해.<end>"
+
 ["330118"]
 japanese = "フリントさん、大丈夫だよね！<line-break>ゼネテス！<end>"
 korean = "플린트 씨, 괜찮겠지! 제네테스!<end>"
@@ -299,6 +303,10 @@ korean = "큭! 다음에는 내 진짜 힘을 보여 주마!<end>"
 ["330153"]
 japanese = "そう、残念ね。<end>"
 korean = "그래, 아쉽네.<end>"
+
+["330154"]
+japanese = "ひっく、ひっく。何してたのよぉ！<line-break><value:$28>！<end>"
+korean = "흑, 흑. 뭐 하고 있었던 거야! <value:$28>!<end>"
 
 ["330155"]
 japanese = "…遅せぇ、よ。<end>"

@@ -88,6 +88,10 @@ korean = "…좋아, 어떻게든 착지는 한 것 같네. 그럼 다음은, �
 japanese = "…今、これは飛べないまま壊される。<end>"
 korean = "…지금 이건 날지도 못한 채 부서진다.<end>"
 
+["1120116"]
+japanese = "<value:$28>さん…、<line-break>本当にありがとうございました。<line-break>　<line-break>私…私もできることなら<line-break><value:$28>さんの旅に…。<end>"
+korean = "<value:$28>님… 정말 감사합니다. 저… 저도 가능하다면 <value:$28>님의 여행에….<end>"
+
 ["1120119"]
 japanese = "…今、これは飛べないまま壊される。<end>"
 korean = "…지금 이건 날지도 못한 채 부서진다.<end>"

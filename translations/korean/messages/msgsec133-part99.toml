@@ -116,6 +116,10 @@ korean = "무사하셔서 다행입니다.<end>"
 japanese = "はい…。<end>"
 korean = "네….<end>"
 
+["1330104"]
+japanese = "あのー…。　　　　　　　　　　<line-break>　<line-break>　<line-break>なんだか、ボクたち<line-break>入っていきづらいんですけど…。<end>"
+korean = "저기…. 왠지 우리, 들어가기가 좀 힘든데….<end>"
+
 ["1330107"]
 japanese = "エステルさん、<line-break>それに、<value:$28>さん、<line-break>本当に、ありがとうございます。<end>"
 korean = "에스텔 씨, 그리고 <value:$28>님, 정말 감사합니다.<end>"

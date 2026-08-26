@@ -604,6 +604,10 @@ korean = "저기, <value:$28>. <value:$28>한테는 이제 다 끝난 거야?<en
 japanese = "そうだね。私もヴァイも、<line-break>もうあんな風に戦うことは<line-break>ないって思ってるんだ。<line-break>でもね…。<end>"
 korean = "그래. 나도 바이도 이제 그런 식으로 싸울 일은 없을 거라 생각해. 하지만….<end>"
 
+["1410358"]
+japanese = "わからない…<line-break>おかしくなりそうなの！<line-break>　<line-break>私、どうしても、それを探しに<line-break>行かなくちゃならない…！<end>"
+korean = "모르겠어… 미쳐 버릴 것 같아! 나, 무슨 일이 있어도 그걸 찾으러 가야 해…!<end>"
+
 ["1410362"]
 japanese = "ねえ、<value:$28>、お願い！<line-break>手伝って！　<value:$28>の力で、<line-break>私たちを助けて！　お願い！<end>"
 korean = "있잖아, <value:$28>, 부탁이야! 도와줘! <value:$28>의 힘으로 우리를 도와줘! 부탁해!<end>"
@@ -767,6 +771,14 @@ korean = "…끝났군. 이걸로 또 하나.<end>"
 ["1410449"]
 japanese = "やれやれ…気の若さだけなら、<line-break><value:$28>、<line-break>おぬしと同世代と思ってはおるが、<line-break>さすがに体は正直だわい。<end>"
 korean = "허허… 마음만 젊다면 <value:$28>, 나도 자네와 동갑이라고 생각하지만 몸은 역시 솔직하구먼.<end>"
+
+["1410450"]
+japanese = "無理はするな、と？<line-break>ふん、何が無理じゃ、<line-break><value:$28>。<line-break>できぬことはハナからせぬよ、<line-break>わしという男は。<end>"
+korean = "무리하지 말라고? 흥, 뭐가 무리냐, <value:$28>. 애초에 못 할 일은 하지 않는다, 나는.<end>"
+
+["1410451"]
+japanese = "できるからする。<line-break>そう、これが、彼らに対して<line-break>できることだから、わしはしておる。<line-break>しかし…まあ…<end>"
+korean = "할 수 있으니 한다. 그래, 그들에게 내가 할 수 있는 일이기에 하고 있는 거다. 하지만… 뭐….<end>"
 
 ["1410454"]
 japanese = "封士の心得と一緒に、<line-break>何度も語り聞かせたろうが、<line-break><value:$28>。<line-break>あきれた奴じゃ、もう忘れたか？<end>"
@@ -1019,6 +1031,10 @@ korean = "나의 뜨거운 혼이 또 하나의 악을 멸했다. 내 전설에 
 ["1410553"]
 japanese = "♪熱く燃える　正しい魂～<end>"
 korean = "♪뜨겁게 타오르는 올바른 영혼~<end>"
+
+["1410554"]
+japanese = "冗談じゃないぜ…。<line-break> <line-break> <line-break>いくらギルドの依頼とはいえ<line-break>なんで、俺が<line-break>ガルドランの護衛なんか…。<end>"
+korean = "농담하지 마…. 아무리 길드 의뢰라 해도 왜 내가 갈드란의 호위 같은 걸….<end>"
 
 ["1410556"]
 japanese = "ねぇ。<value:$28>。<end>"

@@ -76,9 +76,17 @@ korean = "(닮았어…….)<end>"
 japanese = "あ、ロイさまと<line-break><value:$28>さまだ！<line-break><value:$28>さまー！<end>"
 korean = "아, 로이 님과 <value:$28> 님이다! <value:$28> 님~!<end>"
 
+["320036"]
+japanese = "なあなあ、<value:$28>。<line-break>魔物、どうだったんだ？<end>"
+korean = "있잖아, <value:$28>. 마물은 어땠어?<end>"
+
 ["320037"]
 japanese = "ハハハ。<line-break><value:$28>、<line-break>大した人気だな。<end>"
 korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
+
+["320039"]
+japanese = "その間、<value:$28>が<line-break>この村を守ってたからな。<end>"
+korean = "그동안 <value:$28>이 이 마을을 지켜 줬으니까.<end>"
 
 ["320043"]
 japanese = "あー！！　もう！！　　<line-break>　<line-break>　<end>"

@@ -332,6 +332,10 @@ korean = "…죄송합니다. 부끄러운 모습을 보였네요.<end>"
 japanese = "ありがとうございます。<line-break>もう…大丈夫です。<end>"
 korean = "감사합니다. 이제… 괜찮아요.<end>"
 
+["750200"]
+japanese = "あ、<value:$28>様<line-break>ようこそいらっしゃいました。<end>"
+korean = "아, <value:$28>님. 어서 오세요.<end>"
+
 ["750203"]
 japanese = "そんなことは言わない方がいい<end>"
 korean = "그런 말은 하지 않는 편이 좋아<end>"

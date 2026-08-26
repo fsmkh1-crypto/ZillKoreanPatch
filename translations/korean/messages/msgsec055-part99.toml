@@ -848,6 +848,10 @@ korean = "…정말 친절하시네요.<end>"
 japanese = "助けていただき<line-break>ありがとうございました。　<end>"
 korean = "도와주셔서 감사합니다.<end>"
 
+["550310"]
+japanese = "…<value:$28>さん、<line-break>でしたね。　　　　　　　　<end>"
+korean = "…<value:$28>님, 맞으시죠.<end>"
+
 ["550313"]
 japanese = "あきらめるな<end>"
 korean = "포기하지 마<end>"

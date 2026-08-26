@@ -100,6 +100,10 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1740055"]
+japanese = "そう。仕方ないわ。<line-break>私は、ひとりでも行く。<end>"
+korean = "그래. 어쩔 수 없지. 나는 혼자라도 갈 거야.<end>"
+
 ["1740057"]
 japanese = "フフフ、来たか。<line-break><value:$28>よ。<line-break>そして、オイフェよ。<end>"
 korean = "후후후, 왔구나. <value:$28>이여. 그리고 오이페여.<end>"
@@ -119,6 +123,10 @@ korean = "…늦었어요.<end>"
 ["1740075"]
 japanese = "…邪竜、<line-break>アズラゴーザが復活しました。<end>"
 korean = "…사룡 아즈라고자가 부활했습니다.<end>"
+
+["1740077"]
+japanese = "そのときは、<line-break>アキュリュースの二の舞です。<end>"
+korean = "그때는 아큐류스의 전철을 밟게 됩니다.<end>"
 
 ["1740078"]
 japanese = "邪竜が本当に出てきたら…。<end>"
@@ -231,6 +239,14 @@ korean = "뭐, 뭐라고!?<end>"
 ["1740144"]
 japanese = "がは…っ！<end>"
 korean = "크학…!<end>"
+
+["1740145"]
+japanese = "よし、じゃあ、行こう。<line-break>救世主が待ってる。<end>"
+korean = "좋아, 그럼 가자. 구세주가 기다리고 있어.<end>"
+
+["1740149"]
+japanese = "そのダークエルフが<line-break>邪竜へのいけにえか…。<end>"
+korean = "그 다크 엘프가 사룡에게 바칠 제물인가….<end>"
 
 ["1740150"]
 japanese = "さあ、仕上げといこう。<end>"

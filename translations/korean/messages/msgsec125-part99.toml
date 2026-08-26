@@ -52,6 +52,10 @@ korean = "딘갈 제국 수도 엔샨트가…. 조폴… 용서 못 해. 알현
 japanese = "闇の皇帝が、<line-break>闇の帝国が誕生しようとしている。<line-break>放ってはおけない…！<line-break>謁見の間へ急ぐぞ！<end>"
 korean = "어둠의 황제가, 어둠의 제국이 탄생하려 하고 있어. 내버려 둘 수는 없어…! 알현실로 서두르자!<end>"
 
+["1250084"]
+japanese = "倒す…。<line-break>闇の円卓騎士が何者であろうと、<line-break><line-break>民を生け贄に蘇った破壊神が<line-break>どれほど強かろうとも…。<end>"
+korean = "쓰러뜨리겠다…. 어둠의 원탁기사가 누구든, 백성을 제물 삼아 되살아난 파괴신이 아무리 강하더라도….<end>"
+
 ["1250087"]
 japanese = "我が都、エンシャントが…。<line-break><line-break><line-break>………………。<end>"
 korean = "우리의 도시, 엔샨트가…. ……………….<end>"
@@ -207,6 +211,10 @@ korean = "곤란하군…. 상대가 신이라니. 정말… 지루할 틈 없�
 ["1250336"]
 japanese = "この大地を闇の眷属の好きにさせる<line-break>訳にはいけない。<line-break>行くぞ！　<value:$28>。<end>"
 korean = "이 대지를 어둠의 권속들 마음대로 하게 둘 수는 없다. 가자, <value:$28>!<end>"
+
+["1250365"]
+japanese = "…アルノートゥンに<line-break>ほほの傷が目立つ、<line-break>イオンズという神官がいる。<line-break>捜すなら、さっさと済ませるんだな。<end>"
+korean = "…알노툰에 뺨의 흉터가 눈에 띄는 이온즈라는 신관이 있다. 찾을 거면 빨리 끝내.<end>"
 
 ["1250373"]
 japanese = "ほほに傷のある男か。<line-break>心当たりがないな。<line-break>　<line-break>旅なれた者なら<line-break>何か知っているかもしれんが。<end>"

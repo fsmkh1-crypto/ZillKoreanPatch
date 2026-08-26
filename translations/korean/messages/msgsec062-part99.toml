@@ -476,6 +476,10 @@ korean = "분명 그렇게 대답했겠죠….<end>"
 japanese = "…寝てるわ。<line-break>…相変わらず子供ねえ。<end>"
 korean = "…자고 있네. …여전히 애라니까.<end>"
 
+["620262"]
+japanese = "<value:$28>、<line-break>あなたは、私が、守ってあげる…。<end>"
+korean = "<value:$28>, 당신은 내가 지켜 줄게….<end>"
+
 ["620270"]
 japanese = "お、おはようございます。<end>"
 korean = "아, 안녕하세요.<end>"

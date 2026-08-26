@@ -108,6 +108,10 @@ korean = "역시 제네테스 씨야! 고마워.<end>"
 japanese = "…ゼネテスさん、すまない。<end>"
 korean = "…제네테스 씨, 미안하다.<end>"
 
+["630088"]
+japanese = "貴族だろうが、国王だろうが、<line-break>人を踏みにじっていいやつなんか<line-break>いやしないんだ。<line-break>そのことだけは覚えておけ。<end>"
+korean = "귀족이든 국왕이든 사람을 짓밟아도 되는 자는 없어. 그 사실만은 기억해 둬.<end>"
+
 ["630091"]
 japanese = "ゼネテスと同じくらい<line-break>かっこよかったよ。<end>"
 korean = "제네테스만큼 멋있었어.<end>"
@@ -559,6 +563,10 @@ korean = "그래.소중한 소꿉친구…니까.<end>"
 ["630343"]
 japanese = "ああ。それはもう。<line-break>はやく行かれた方がよいだろうな。<line-break>　<line-break>…長居した。<line-break>今日はこれで失礼する。<end>"
 korean = "그래. 그럼 서둘러 가는 편이 좋겠군. …오래 머물렀어. 오늘은 이만 실례하지.<end>"
+
+["630345"]
+japanese = "<value:$28>様、<line-break>もう出てきてもよろしいですよ。<end>"
+korean = "<value:$28>님, 이제 나오셔도 됩니다.<end>"
 
 ["630349"]
 japanese = "また、いらしてくださいね。<line-break><value:$28>様とは<line-break>ゆっくりとお話ししたいですから。<end>"

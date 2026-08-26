@@ -12,6 +12,10 @@ korean = "아버지!<end>"
 japanese = "あ、あれは…！<end>"
 korean = "저, 저건…!<end>"
 
+["1200010"]
+japanese = "さすがは閃光の異名をとるだけある。<line-break>素早いですねえ。<line-break>　<line-break><value:$28>、<line-break>もう、入ってきてもいいですよ。<end>"
+korean = "역시 섬광이라는 별명답게 빠르군요. <value:$28>, 이제 들어와도 됩니다.<end>"
+
 ["1200024"]
 japanese = "ケリュネイアについて<end>"
 korean = "케뤼네이아에 대해서<end>"

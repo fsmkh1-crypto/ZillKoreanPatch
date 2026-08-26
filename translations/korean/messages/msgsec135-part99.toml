@@ -44,6 +44,10 @@ korean = "넌 먼저 가 있어, 레무온.<end>"
 japanese = "どういうことだ？<end>"
 korean = "무슨 뜻이지?<end>"
 
+["1350032"]
+japanese = "必要なのは、栄養と休養、<line-break>危うく踏みとどまったシャバの<line-break>うまい酒と…<line-break>起きたコトの、後腐れない決着だ。<end>"
+korean = "필요한 건 영양과 휴식, 간신히 목숨 붙이고 돌아온 세상의 맛있는 술과… 벌어진 일의 뒤끝 없는 결판이지.<end>"
+
 ["1350034"]
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
@@ -59,6 +63,10 @@ korean = "<value:$28>, 나도 함께 여행에 데려가 줘. 부탁이야….<e
 ["1350040"]
 japanese = "確か、<value:$28>たちは、<line-break>賢者の森の猫屋敷を中継に<line-break>してんだったな。<end>"
 korean = "분명 <value:$28> 일행은 현자의 숲 고양이 저택을 중계지로 쓰고 있었지.<end>"
+
+["1350041"]
+japanese = "お前が俺の力を必要とする時までにゃ、<line-break>ちゃんと万全にしとくから、<line-break>安心しなって。<line-break>じゃあな、<value:$28>。<end>"
+korean = "네가 내 힘을 필요로 할 때까지는 제대로 회복해 둘 테니 걱정 마. 그럼 또 보자, <value:$28>.<end>"
 
 ["1350044"]
 japanese = "追加メッセージここから<end>"
@@ -107,6 +115,14 @@ korean = "하지만, 그게 나쁜 일인가?<end>"
 ["1350086"]
 japanese = "…ゼネテス…様…<end>"
 korean = "…제네테스… 님…<end>"
+
+["1350087"]
+japanese = "<value:$28>様…<line-break>私にもできるでしょうか？<line-break> <line-break>ゼネテス様のご期待に<line-break>応えられるようなことが…。<end>"
+korean = "<value:$28>님… 저도 할 수 있을까요? 제네테스 님의 기대에 부응할 만한 일을….<end>"
+
+["1350091"]
+japanese = "ええ、まだロストールは<line-break>滅んだわけではありませんわ。<line-break> <line-break>リューガ邸は<line-break>エスト様がお継ぎになるはず。<end>"
+korean = "네, 아직 로스토올이 멸망한 것은 아닙니다. 류가 저택은 에스트 님이 이어받으실 겁니다.<end>"
 
 ["1350095"]
 japanese = "だから、放っておいて！<end>"
@@ -795,6 +811,10 @@ korean = "…뭐야… 너였나. 크윽! 으으윽!<end>"
 ["1350479"]
 japanese = "ちぇっ<line-break>しょうがねえな。<line-break>ったく！<end>"
 korean = "쳇, 어쩔 수 없네. 정말!<end>"
+
+["1350480"]
+japanese = "夜中に徘徊する不審人物発見。<line-break> <line-break> <line-break>……って、<line-break>俺も他人のコトは言えないか。<line-break>俺に用かい？<end>"
+korean = "한밤중에 배회하는 수상한 인물 발견. ……이라고 해도 나도 남 말할 처지는 아니군. 내게 볼일 있어?<end>"
 
 ["1350481"]
 japanese = "じゃ、あばよ。<end>"

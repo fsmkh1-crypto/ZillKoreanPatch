@@ -104,6 +104,10 @@ korean = "서, 선생님!<end>"
 japanese = "先生…。<line-break>うぅ…こ、こんなことって…。<end>"
 korean = "선생님….으윽… 이, 이런 일이….<end>"
 
+["1020066"]
+japanese = "どうしよう…。<line-break>ねぇ、<value:$28>。<line-break>私、どうしよう…。<line-break>私、先生、殺しちゃった…。<line-break>殺しちゃったよー！<end>"
+korean = "어쩌지…. 있잖아, <value:$28>. 나 어떡하지…. 나, 선생님을 죽여 버렸어…. 죽여 버렸다고!<end>"
+
 ["1020068"]
 japanese = "<value:$28>…。<line-break>先生のこと、お願い。<end>"
 korean = "<value:$28>…. 선생님을 부탁해.<end>"

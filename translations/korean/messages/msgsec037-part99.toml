@@ -36,6 +36,10 @@ korean = "오, 너희들이냐. 어때. 꽃은 샀어?<end>"
 japanese = "とっとと買ってこい。<line-break>待っててやるから。<end>"
 korean = "얼른 사 와. 기다려 줄 테니까.<end>"
 
+["370022"]
+japanese = "あのメイアって娘を港で見かけたって？<line-break>だから、なんなのよ。<line-break>そんなに気になるんなら、<line-break>話しかけてきたら？<end>"
+korean = "그 메이아라는 애를 항구에서 봤다고? 그래서 뭐. 그렇게 신경 쓰이면 말 걸어 보지 그래?<end>"
+
 ["370027"]
 japanese = "私は、ただ、<line-break>かあさまに会いたいだけ…。<line-break>…なのに、<line-break>…まだ、邪魔するの…？<end>"
 korean = "난 그저 엄마를 만나고 싶을 뿐인데…. …그런데도 아직 방해하는 거야…?<end>"
@@ -119,6 +123,10 @@ korean = "<value:$28>이 곁에 있어 준 덕분이야.<end>"
 ["370059"]
 japanese = "…ありがとう。　　　　　<end>"
 korean = "…고마워.<end>"
+
+["370061"]
+japanese = "父さんと母さんが、<line-break>エア様の怒りにふれて…　　　<line-break>一族ごとみんな殺されて…。<line-break>私１人だけが生き残って…。<end>"
+korean = "아버지와 어머니가 에아 님의 분노를 사서… 일족 모두가 죽고…. 나 혼자만 살아남아서….<end>"
 
 ["370062"]
 japanese = "わかってる。<end>"
@@ -343,6 +351,10 @@ korean = "당황하지 마라, 죽이진 않는다.<end>"
 ["370207"]
 japanese = "今は、な。<end>"
 korean = "지금은 말이지.<end>"
+
+["370211"]
+japanese = "フフ、急げよ。<line-break>わらわも無用に殺しとうない。<end>"
+korean = "후후, 서둘러라. 나도 쓸데없이 죽이고 싶지는 않다.<end>"
 
 ["370212"]
 japanese = "わらわは運命を知ることができる。　<end>"
