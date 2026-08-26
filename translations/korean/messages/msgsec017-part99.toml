@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["170039"]
+japanese = "ダミーメッセージ<end>"
+korean = "더미 메시지<end>"
+
 ["170049"]
 japanese = "ライトソード<end>"
 korean = "라이트 소드<end>"
@@ -48,6 +52,10 @@ korean = "플랑베르주<end>"
 japanese = "ファルクス<end>"
 korean = "팔크스<end>"
 
+["170063"]
+japanese = "バスターブレード<end>"
+korean = "버스터 블레이드<end>"
+
 ["170064"]
 japanese = "クレイモアー<end>"
 korean = "클레이모어<end>"
@@ -59,6 +67,14 @@ korean = "플랑베르주<end>"
 ["170066"]
 japanese = "ヘビーブレード<end>"
 korean = "헤비 블레이드<end>"
+
+["170067"]
+japanese = "ツヴァイハンダー<end>"
+korean = "츠바이핸더<end>"
+
+["170068"]
+japanese = "トゥハンドソード<end>"
+korean = "투핸드 소드<end>"
 
 ["170070"]
 japanese = "バトルスピア<end>"
@@ -120,6 +136,10 @@ korean = "배틀 해머<end>"
 japanese = "バトルメイス<end>"
 korean = "배틀 메이스<end>"
 
+["170087"]
+japanese = "ブロードアックス<end>"
+korean = "브로드 액스<end>"
+
 ["170088"]
 japanese = "ヘビーアックス<end>"
 korean = "헤비 액스<end>"
@@ -127,6 +147,10 @@ korean = "헤비 액스<end>"
 ["170089"]
 japanese = "アケナケース<end>"
 korean = "아케나케스<end>"
+
+["170091"]
+japanese = "ソードブレイカー<end>"
+korean = "소드 브레이커<end>"
 
 ["170092"]
 japanese = "バトルダガー<end>"
@@ -160,9 +184,17 @@ korean = "쇼트 보우<end>"
 japanese = "ライトボウ<end>"
 korean = "라이트 보우<end>"
 
+["170103"]
+japanese = "シュティングボウ<end>"
+korean = "슈팅 보우<end>"
+
 ["170104"]
 japanese = "ロングボウ<end>"
 korean = "롱보우<end>"
+
+["170105"]
+japanese = "コンポジッドボウ<end>"
+korean = "컴포지트 보우<end>"
 
 ["170106"]
 japanese = "ストロングボウ<end>"
@@ -204,9 +236,25 @@ korean = "베어 너클<end>"
 japanese = "ドラゴンクロー<end>"
 korean = "드래곤 클로<end>"
 
+["170119"]
+japanese = "スモールシールド<end>"
+korean = "스몰 실드<end>"
+
 ["170120"]
 japanese = "バックラー<end>"
 korean = "버클러<end>"
+
+["170121"]
+japanese = "ラウンドシールド<end>"
+korean = "라운드 실드<end>"
+
+["170122"]
+japanese = "ヒーターシールド<end>"
+korean = "히터 실드<end>"
+
+["170123"]
+japanese = "ゼルドナーシルト<end>"
+korean = "젤트너 실트<end>"
 
 ["170124"]
 japanese = "ラージシールド<end>"
@@ -284,6 +332,10 @@ korean = "라이트 아머<end>"
 japanese = "ワルキューレ<end>"
 korean = "발키리<end>"
 
+["170143"]
+japanese = "ブレストアーマー<end>"
+korean = "브레스트 아머<end>"
+
 ["170144"]
 japanese = "ヘビーブレスト<end>"
 korean = "헤비 브레스트<end>"
@@ -296,6 +348,10 @@ korean = "체스트 메일<end>"
 japanese = "ホーバーク<end>"
 korean = "호버크<end>"
 
+["170148"]
+japanese = "ブレストチェイン<end>"
+korean = "브레스트 체인<end>"
+
 ["170149"]
 japanese = "バンディッド<end>"
 korean = "밴디트<end>"
@@ -307,6 +363,14 @@ korean = "체인 메일<end>"
 ["170151"]
 japanese = "チェインスーツ<end>"
 korean = "체인 슈트<end>"
+
+["170152"]
+japanese = "スプリントメイル<end>"
+korean = "스프린트 메일<end>"
+
+["170153"]
+japanese = "ラメラーアーマー<end>"
+korean = "라멜라 아머<end>"
 
 ["170154"]
 japanese = "ヘビーアーマー<end>"
@@ -339,6 +403,14 @@ korean = "풀 필드<end>"
 ["170161"]
 japanese = "フルチェイン<end>"
 korean = "풀 체인<end>"
+
+["170162"]
+japanese = "ビショップメイル<end>"
+korean = "비숍 메일<end>"
+
+["170163"]
+japanese = "ランサーアーマー<end>"
+korean = "랜서 아머<end>"
 
 ["170164"]
 japanese = "ナイトプレート<end>"

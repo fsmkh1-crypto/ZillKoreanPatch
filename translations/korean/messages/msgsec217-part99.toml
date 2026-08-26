@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2170000"]
+japanese = "組手勝負用開始<end>"
+korean = "대련 승부용 시작<end>"
+
+["2170001"]
+japanese = "よっ！　はっ！<end>"
+korean = "얍! 핫!<end>"
+
 ["2170002"]
 japanese = "うおりゃ！<end>"
 korean = "으랴!<end>"
+
+["2170018"]
+japanese = "組手勝負用終端<end>"
+korean = "대련 승부용 끝<end>"
