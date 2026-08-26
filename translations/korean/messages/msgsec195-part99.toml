@@ -8,6 +8,10 @@ korean = "#2: 제네테스<end>"
 japanese = "＃３：セラ<end>"
 korean = "#3: 세라<end>"
 
+["1950101"]
+japanese = "＃４：アンギルダン<end>"
+korean = "#4: 앙길단<end>"
+
 ["1950102"]
 japanese = "＃５：チャカ<end>"
 korean = "#5: 차카<end>"
@@ -15,6 +19,14 @@ korean = "#5: 차카<end>"
 ["1950105"]
 japanese = "＃７：デルガド<end>"
 korean = "#7: 델가도<end>"
+
+["1950109"]
+japanese = "＃１０：アイリーン<end>"
+korean = "#10: 아이린<end>"
+
+["1950110"]
+japanese = "＃１１：アトレイア<end>"
+korean = "#11: 아트레이아<end>"
 
 ["1950111"]
 japanese = "＃１２：ユーリス<end>"
@@ -40,6 +52,18 @@ korean = "#18: 티아나<end>"
 japanese = "＃１９：ノエル<end>"
 korean = "#19: 노엘<end>"
 
+["1950120"]
+japanese = "＃２１：ヒルダリア<end>"
+korean = "#21: 힐다리아<end>"
+
 ["1950121"]
 japanese = "＃２２：フェティ<end>"
 korean = "#22: 페티<end>"
+
+["1950122"]
+japanese = "＃２３：ルルアンタ<end>"
+korean = "#23: 루루안타<end>"
+
+["1950123"]
+japanese = "＃２４：主人公のみ<end>"
+korean = "#24: 주인공만<end>"

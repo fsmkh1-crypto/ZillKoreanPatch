@@ -36,6 +36,10 @@ korean = "맡지 않는다<end>"
 japanese = "謁見の間へ行く<end>"
 korean = "알현실로 간다<end>"
 
+["1800059"]
+japanese = "謁見の間へ行かない<end>"
+korean = "알현실에는 가지 않는다<end>"
+
 ["1800063"]
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
@@ -59,6 +63,10 @@ korean = "에리스의 집무실<end>"
 ["1800070"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
+
+["1800099"]
+japanese = "あの…、カルラ様。<end>"
+korean = "저기…, 카를라 님.<end>"
 
 ["1800112"]
 japanese = "よび<end>"
@@ -116,9 +124,17 @@ korean = "네메아를 쫓는다<end>"
 japanese = "ネメアを追わない<end>"
 korean = "네메아를 쫓지 않는다<end>"
 
+["1800176"]
+japanese = "まだ、ネメアを追う<end>"
+korean = "계속 네메아를 쫓는다<end>"
+
 ["1800181"]
 japanese = "力を貸そう<end>"
 korean = "힘을 빌려주지<end>"
+
+["1800182"]
+japanese = "他にやることがある<end>"
+korean = "다른 할 일이 있다<end>"
 
 ["1800184"]
 japanese = "あ、それから…。<end>"

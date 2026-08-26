@@ -32,9 +32,21 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1740074"]
+japanese = "…遅かった、です。<end>"
+korean = "…늦었어요.<end>"
+
 ["1740082"]
 japanese = "復活させたい<end>"
 korean = "부활시키고 싶다<end>"
+
+["1740083"]
+japanese = "復活なんてゴメンだ<end>"
+korean = "부활 따윈 사양이야<end>"
+
+["1740087"]
+japanese = "本当は復活させたい<end>"
+korean = "사실은 부활시키고 싶다<end>"
 
 ["1740088"]
 japanese = "絶対にお断り<end>"
@@ -52,9 +64,17 @@ korean = "장난치지 마<end>"
 japanese = "なんだと！<end>"
 korean = "뭐라고!<end>"
 
+["1740126"]
+japanese = "はぁ。はぁ。はぁ。<end>"
+korean = "하아. 하아. 하아.<end>"
+
 ["1740129"]
 japanese = "貴様は…！<end>"
 korean = "네놈은…!<end>"
+
+["1740130"]
+japanese = "ジュサプブロス…。<end>"
+korean = "주사프브로스….<end>"
 
 ["1740133"]
 japanese = "…まさか！<end>"
@@ -63,6 +83,10 @@ korean = "…설마!<end>"
 ["1740139"]
 japanese = "さあ、出番だ。<end>"
 korean = "자, 출番이다.<end>"
+
+["1740141"]
+japanese = "ど、どうし…て…。<end>"
+korean = "어, 어째…서….<end>"
 
 ["1740143"]
 japanese = "な、なんと！？<end>"
@@ -83,6 +107,10 @@ korean = "잘 있어라.<end>"
 ["1740164"]
 japanese = "さて。<end>"
 korean = "자.<end>"
+
+["1740173"]
+japanese = "では、いきますよ。<end>"
+korean = "그럼, 갑니다.<end>"
 
 ["1740193"]
 japanese = "いいよ、仲間だ<end>"

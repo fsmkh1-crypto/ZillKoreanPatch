@@ -8,6 +8,14 @@ korean = "V7 파트 2 시작<end>"
 japanese = "行け！<end>"
 korean = "가!<end>"
 
+["1900027"]
+japanese = "ふっふ、久しいな。<end>"
+korean = "후후, 오랜만이군.<end>"
+
+["1900048"]
+japanese = "ふっふ、久しいな。<end>"
+korean = "후후, 오랜만이군.<end>"
+
 ["1900115"]
 japanese = "ネメア様！<end>"
 korean = "네메아 님!<end>"
@@ -16,6 +24,10 @@ korean = "네메아 님!<end>"
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
 
+["1900126"]
+japanese = "無理はしないのよ。<end>"
+korean = "무리하지 마.<end>"
+
 ["1900127"]
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
@@ -23,6 +35,14 @@ korean = "부탁한다, <value:$28>.<end>"
 ["1900138"]
 japanese = "あ、<value:$28>様。<end>"
 korean = "아, <value:$28> 님.<end>"
+
+["1900144"]
+japanese = "必ず戻ると約束する<end>"
+korean = "반드시 돌아오겠다고 약속한다<end>"
+
+["1900173"]
+japanese = "心配しすぎだと言う<end>"
+korean = "걱정이 지나치다고 말한다<end>"
 
 ["1900200"]
 japanese = "Ｖ７その２終端<end>"

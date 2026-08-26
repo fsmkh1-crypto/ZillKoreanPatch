@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1880000"]
+japanese = "解放軍イベント開始<end>"
+korean = "해방군 이벤트 시작<end>"
+
 ["1880005"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
@@ -7,6 +11,10 @@ korean = "맡는다<end>"
 ["1880006"]
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
+
+["1880015"]
+japanese = "埋蔵金を発見した。<end>"
+korean = "매장금을 발견했다.<end>"
 
 ["1880040"]
 japanese = "行かない<end>"
@@ -28,6 +36,10 @@ korean = "기대받아도 곤란해<end>"
 japanese = "資金を援助する<end>"
 korean = "자금을 지원한다<end>"
 
+["1880109"]
+japanese = "え？　今なんて…？<end>"
+korean = "어? 방금 뭐라고…?<end>"
+
 ["1880138"]
 japanese = "なんで？<end>"
 korean = "왜?<end>"
@@ -35,3 +47,7 @@ korean = "왜?<end>"
 ["1880139"]
 japanese = "そうだ！<end>"
 korean = "맞아!<end>"
+
+["1880157"]
+japanese = "解放軍イベント終端<end>"
+korean = "해방군 이벤트 종료<end>"

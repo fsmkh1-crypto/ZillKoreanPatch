@@ -8,6 +8,14 @@ korean = "V7 파트 3 시작<end>"
 japanese = "あ、<value:$28>様。<end>"
 korean = "아, <value:$28> 님.<end>"
 
+["1910006"]
+japanese = "もちろん食べに来る<end>"
+korean = "물론 먹으러 온다<end>"
+
+["1910049"]
+japanese = "必ずまた会いに来る<end>"
+korean = "반드시 다시 만나러 온다<end>"
+
 ["1910063"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"

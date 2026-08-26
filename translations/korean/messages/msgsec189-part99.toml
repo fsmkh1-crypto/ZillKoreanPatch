@@ -8,6 +8,14 @@ korean = "V7 시작<end>"
 japanese = "そうだ。余だ。<end>"
 korean = "그렇다. 짐이다.<end>"
 
+["1890007"]
+japanese = "また訪れるがよい。<end>"
+korean = "다시 찾아오도록 해.<end>"
+
+["1890042"]
+japanese = "あれ？　なんだ…？<end>"
+korean = "어라? 뭐지…?<end>"
+
 ["1890048"]
 japanese = "どうするつもり？<end>"
 korean = "어떻게 할 생각이야?<end>"
@@ -15,6 +23,14 @@ korean = "어떻게 할 생각이야?<end>"
 ["1890063"]
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
+
+["1890074"]
+japanese = "あれ？　なんだ…？<end>"
+korean = "어라? 뭐지…?<end>"
+
+["1890084"]
+japanese = "では、行きますよ。<end>"
+korean = "그럼, 갑니다.<end>"
 
 ["1890097"]
 japanese = "兄さん…。<end>"
@@ -35,6 +51,14 @@ korean = "벨제바 님!<end>"
 ["1890115"]
 japanese = "<value:$28>か！<end>"
 korean = "<value:$28>인가!<end>"
+
+["1890131"]
+japanese = "あれ？　誰か来た？<end>"
+korean = "어라? 누가 왔나?<end>"
+
+["1890138"]
+japanese = "あれ？　誰か来た？<end>"
+korean = "어라? 누가 왔나?<end>"
 
 ["1890153"]
 japanese = "ゆくぞ、<value:$28>！<end>"

@@ -1,8 +1,44 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1650000"]
+japanese = "敵１体に火属性攻撃<end>"
+korean = "적 1체에 화속성 공격<end>"
+
+["1650003"]
+japanese = "敵１体に水属性攻撃<end>"
+korean = "적 1체에 수속성 공격<end>"
+
+["1650006"]
+japanese = "敵１体に土属性攻撃<end>"
+korean = "적 1체에 토속성 공격<end>"
+
+["1650008"]
+japanese = "前方に瞬間移動する<end>"
+korean = "전방으로 순간이동한다<end>"
+
+["1650009"]
+japanese = "敵１体に風属性攻撃<end>"
+korean = "적 1체에 풍속성 공격<end>"
+
+["1650012"]
+japanese = "武器に火属性を付加<end>"
+korean = "무기에 화속성을 부여<end>"
+
 ["1650014"]
 japanese = "鎧に火属性を付加<end>"
 korean = "갑옷에 불 속성 부여<end>"
+
+["1650015"]
+japanese = "敵全体に火属性攻撃<end>"
+korean = "적 전체에 화속성 공격<end>"
+
+["1650017"]
+japanese = "敵全体に火属性攻撃<end>"
+korean = "적 전체에 화속성 공격<end>"
+
+["1650018"]
+japanese = "武器に水属性を付加<end>"
+korean = "무기에 수속성을 부여<end>"
 
 ["1650019"]
 japanese = "盾に水属性を付加<end>"
@@ -12,9 +48,21 @@ korean = "방패에 물 속성 부여<end>"
 japanese = "鎧に水属性を付加<end>"
 korean = "갑옷에 물 속성 부여<end>"
 
+["1650021"]
+japanese = "敵全体に水属性攻撃<end>"
+korean = "적 전체에 수속성 공격<end>"
+
 ["1650022"]
 japanese = "敵１体を即死<end>"
 korean = "적 1체를 즉사<end>"
+
+["1650023"]
+japanese = "敵全体に水属性攻撃<end>"
+korean = "적 전체에 수속성 공격<end>"
+
+["1650024"]
+japanese = "武器に土属性を付加<end>"
+korean = "무기에 토속성을 부여<end>"
 
 ["1650025"]
 japanese = "盾に土属性を付加<end>"
@@ -24,6 +72,18 @@ korean = "방패에 땅 속성 부여<end>"
 japanese = "鎧に土属性を付加<end>"
 korean = "갑옷에 땅 속성 부여<end>"
 
+["1650027"]
+japanese = "敵全体に土属性攻撃<end>"
+korean = "적 전체에 토속성 공격<end>"
+
+["1650029"]
+japanese = "敵全体に土属性攻撃<end>"
+korean = "적 전체에 토속성 공격<end>"
+
+["1650030"]
+japanese = "武器に風属性を付加<end>"
+korean = "무기에 풍속성을 부여<end>"
+
 ["1650031"]
 japanese = "盾に風属性を付加<end>"
 korean = "방패에 바람 속성 부여<end>"
@@ -32,9 +92,53 @@ korean = "방패에 바람 속성 부여<end>"
 japanese = "鎧に風属性を付加<end>"
 korean = "갑옷에 바람 속성 부여<end>"
 
+["1650033"]
+japanese = "敵全体に風属性攻撃<end>"
+korean = "적 전체에 풍속성 공격<end>"
+
+["1650035"]
+japanese = "敵全体に風属性攻撃<end>"
+korean = "적 전체에 풍속성 공격<end>"
+
+["1650040"]
+japanese = "敵１体に落雷で攻撃<end>"
+korean = "적 1체를 낙뢰로 공격<end>"
+
+["1650041"]
+japanese = "敵全体に雷嵐で攻撃<end>"
+korean = "적 전체를 뇌폭풍으로 공격<end>"
+
+["1650043"]
+japanese = "敵１体に光線で攻撃<end>"
+korean = "적 1체를 광선으로 공격<end>"
+
+["1650054"]
+japanese = "敵１体のＭＰを吸収<end>"
+korean = "적 1체의 MP를 흡수<end>"
+
 ["1650055"]
 japanese = "敵１体を即死<end>"
 korean = "적 1체를 즉사<end>"
+
+["1650057"]
+japanese = "敵１体に聖属性攻撃<end>"
+korean = "적 1체에 성속성 공격<end>"
+
+["1650060"]
+japanese = "敵全体に聖属性攻撃<end>"
+korean = "적 전체에 성속성 공격<end>"
+
+["1650061"]
+japanese = "敵１体に闇属性攻撃<end>"
+korean = "적 1체에 암속성 공격<end>"
+
+["1650062"]
+japanese = "敵全体に闇属性攻撃<end>"
+korean = "적 전체에 암속성 공격<end>"
+
+["1650070"]
+japanese = "敵全体に闇属性攻撃<end>"
+korean = "적 전체에 암속성 공격<end>"
 
 ["1650071"]
 japanese = "下位の精霊魔法<end>"
@@ -52,6 +156,14 @@ korean = "복합 정령 마법<end>"
 japanese = "ＨＰ回復系の魔法<end>"
 korean = "HP 회복계 마법<end>"
 
+["1650087"]
+japanese = "敵１体を２連続攻撃<end>"
+korean = "적 1체를 2연속 공격<end>"
+
 ["1650090"]
 japanese = "敵一体を即死<end>"
 korean = "적 1체를 즉사<end>"
+
+["1650115"]
+japanese = "距離に関係なく攻撃<end>"
+korean = "거리에 상관없이 공격<end>"
