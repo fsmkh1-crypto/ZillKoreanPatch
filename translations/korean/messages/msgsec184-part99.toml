@@ -8,6 +8,10 @@ korean = "음.<end>"
 japanese = "クッ…。<end>"
 korean = "큭….<end>"
 
+["1840032"]
+japanese = "そこまでです。<end>"
+korean = "거기까지입니다.<end>"
+
 ["1840051"]
 japanese = "はい…。<end>"
 korean = "네….<end>"
@@ -23,3 +27,19 @@ korean = "<value:$28> 씨.<end>"
 ["1840108"]
 japanese = "それは人違い<end>"
 korean = "사람을 잘못 봤다<end>"
+
+["1840128"]
+japanese = "たやすい話です<end>"
+korean = "쉬운 일입니다<end>"
+
+["1840129"]
+japanese = "やめておきます<end>"
+korean = "그만두겠습니다<end>"
+
+["1840133"]
+japanese = "はい、行きます<end>"
+korean = "네, 가겠습니다<end>"
+
+["1840134"]
+japanese = "あの…恐いです<end>"
+korean = "저기… 무서워요<end>"

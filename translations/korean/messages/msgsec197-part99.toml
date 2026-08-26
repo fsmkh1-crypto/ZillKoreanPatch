@@ -8,6 +8,14 @@ korean = "투기장 처리 중<end>"
 japanese = "遺跡　出現<end>"
 korean = "유적 출현<end>"
 
+["1970049"]
+japanese = "イオンズ　死亡<end>"
+korean = "이온즈 사망<end>"
+
+["1970050"]
+japanese = "イオンズ　登場<end>"
+korean = "이온즈 등장<end>"
+
 ["1970061"]
 japanese = "イズ　情報<end>"
 korean = "이즈 정보<end>"
@@ -23,6 +31,22 @@ korean = "반 사망<end>"
 ["1970074"]
 japanese = "エア　死亡<end>"
 korean = "에어 사망<end>"
+
+["1970076"]
+japanese = "エア改心　発生<end>"
+korean = "에어 개심 발생<end>"
+
+["1970080"]
+japanese = "エア誘拐　状態<end>"
+korean = "에어 납치 상태<end>"
+
+["1970083"]
+japanese = "エステル　登場<end>"
+korean = "에스텔 등장<end>"
+
+["1970084"]
+japanese = "エステル　死亡<end>"
+korean = "에스텔 사망<end>"
 
 ["1970093"]
 japanese = "エスト　登場<end>"

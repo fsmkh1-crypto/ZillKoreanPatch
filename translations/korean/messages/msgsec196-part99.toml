@@ -52,6 +52,10 @@ korean = "빛1<end>"
 japanese = "光２<end>"
 korean = "빛2<end>"
 
+["1960458"]
+japanese = "地震（ループ）<end>"
+korean = "지진(루프)<end>"
+
 ["1960471"]
 japanese = "バインドM<end>"
 korean = "바인드 M<end>"
@@ -120,6 +124,10 @@ korean = "　예비<end>"
 japanese = "　プレボス戦<end>"
 korean = " 프레보스전<end>"
 
+["1960544"]
+japanese = "　イオンズ登場<end>"
+korean = " 이온즈 등장<end>"
+
 ["1960552"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
@@ -127,6 +135,10 @@ korean = "　예비<end>"
 ["1960554"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960557"]
+japanese = "　ティアナ救出<end>"
+korean = " 티아나 구출<end>"
 
 ["1960563"]
 japanese = "　空中都市<end>"
@@ -136,13 +148,25 @@ korean = "　공중도시<end>"
 japanese = "　双子と会話<end>"
 korean = " 쌍둥이와 대화<end>"
 
+["1960581"]
+japanese = "　イオンズ導入<end>"
+korean = " 이온즈 도입<end>"
+
 ["1960600"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960627"]
+japanese = "　ゼネテス逮捕<end>"
+korean = " 제네테스 체포<end>"
+
 ["1960628"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960634"]
+japanese = "　104ノエル再会<end>"
+korean = " 104 노엘 재회<end>"
 
 ["1960642"]
 japanese = "　予備<end>"
@@ -151,6 +175,18 @@ korean = "　예비<end>"
 ["1960643"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960647"]
+japanese = "　アスティア１<end>"
+korean = " 아스티아 1<end>"
+
+["1960648"]
+japanese = "　アスティア２<end>"
+korean = " 아스티아 2<end>"
+
+["1960649"]
+japanese = "　アスティア３<end>"
+korean = " 아스티아 3<end>"
 
 ["1960652"]
 japanese = "　予備<end>"
@@ -172,6 +208,10 @@ korean = " 세라 END<end>"
 japanese = "　デルガドEND<end>"
 korean = " 델가도 END<end>"
 
+["1960715"]
+japanese = "　アイリーンEND<end>"
+korean = " 아이린 END<end>"
+
 ["1960716"]
 japanese = "　ユーリスEND<end>"
 korean = " 유리스 END<end>"
@@ -183,6 +223,10 @@ korean = "　차카 END<end>"
 ["1960719"]
 japanese = "　フェティEND<end>"
 korean = " 페티 END<end>"
+
+["1960720"]
+japanese = "　ルルアンタEND<end>"
+korean = " 루루안타 END<end>"
 
 ["1960722"]
 japanese = "　ヒルダリア<end>"
@@ -252,6 +296,18 @@ korean = "질리온 18<end>"
 japanese = "ジリオン１９<end>"
 korean = "질리온 19<end>"
 
+["1960744"]
+japanese = "ジリオンＥＤ１<end>"
+korean = "질리온 ED 1<end>"
+
+["1960745"]
+japanese = "ジリオンＥＤ２<end>"
+korean = "질리온 ED 2<end>"
+
+["1960746"]
+japanese = "ジリオンＥＤ３<end>"
+korean = "질리온 ED 3<end>"
+
 ["1960747"]
 japanese = "新スタート２<end>"
 korean = "새 시작 2<end>"
@@ -284,6 +340,38 @@ korean = "새 시작 8<end>"
 japanese = "新スタート９<end>"
 korean = "새 시작 9<end>"
 
+["1960755"]
+japanese = "新スタート１０<end>"
+korean = "새 시작 10<end>"
+
+["1960756"]
+japanese = "新スタート１１<end>"
+korean = "새 시작 11<end>"
+
+["1960757"]
+japanese = "新スタート１２<end>"
+korean = "새 시작 12<end>"
+
+["1960758"]
+japanese = "新スタート１３<end>"
+korean = "새 시작 13<end>"
+
+["1960763"]
+japanese = "新スタート１５<end>"
+korean = "새 시작 15<end>"
+
+["1960764"]
+japanese = "新スタート１６<end>"
+korean = "새 시작 16<end>"
+
+["1960765"]
+japanese = "新スタート１７<end>"
+korean = "새 시작 17<end>"
+
+["1960766"]
+japanese = "新スタート１８<end>"
+korean = "새 시작 18<end>"
+
 ["1960769"]
 japanese = "新スタートED<end>"
 korean = "새 시작 ED<end>"
@@ -296,6 +384,30 @@ korean = "플레어 20<end>"
 japanese = "フレア２１_１<end>"
 korean = "플레어21_1<end>"
 
+["1960774"]
+japanese = "フレア２１＿２<end>"
+korean = "플레어21_2<end>"
+
+["1960775"]
+japanese = "フレア２１＿３<end>"
+korean = "플레어21_3<end>"
+
+["1960776"]
+japanese = "フレア２１＿４<end>"
+korean = "플레어21_4<end>"
+
+["1960777"]
+japanese = "フレア２１＿５<end>"
+korean = "플레어21_5<end>"
+
+["1960778"]
+japanese = "フレア２１＿６<end>"
+korean = "플레어21_6<end>"
+
+["1960779"]
+japanese = "フレア２１＿７<end>"
+korean = "플레어21_7<end>"
+
 ["1960780"]
 japanese = "フレア２１＿8<end>"
 korean = "플레어21_8<end>"
@@ -307,6 +419,18 @@ korean = "플레어21_9<end>"
 ["1960782"]
 japanese = "フレア２１＿10<end>"
 korean = "플레어21_10<end>"
+
+["1960783"]
+japanese = "エルファス１６<end>"
+korean = "엘파스16<end>"
+
+["1960784"]
+japanese = "エルファス１７<end>"
+korean = "엘파스17<end>"
+
+["1960785"]
+japanese = "エルファス１８<end>"
+korean = "엘파스18<end>"
 
 ["1960786"]
 japanese = "エルファスED2<end>"
@@ -323,6 +447,42 @@ korean = "페름 2<end>"
 ["1960789"]
 japanese = "フェルム3<end>"
 korean = "페름 3<end>"
+
+["1960790"]
+japanese = "フェルム４－１<end>"
+korean = "페름4-1<end>"
+
+["1960791"]
+japanese = "フェルム４－２<end>"
+korean = "페름4-2<end>"
+
+["1960792"]
+japanese = "フェルム４－３<end>"
+korean = "페름4-3<end>"
+
+["1960793"]
+japanese = "フェルム４－４<end>"
+korean = "페름4-4<end>"
+
+["1960794"]
+japanese = "フェルム４－５<end>"
+korean = "페름4-5<end>"
+
+["1960795"]
+japanese = "フェルム４－６<end>"
+korean = "페름4-6<end>"
+
+["1960796"]
+japanese = "フェルム４－７<end>"
+korean = "페름4-7<end>"
+
+["1960797"]
+japanese = "フェルム４－８<end>"
+korean = "페름4-8<end>"
+
+["1960798"]
+japanese = "フェルム４－９<end>"
+korean = "페름4-9<end>"
 
 ["1960800"]
 japanese = "フェルム５_1<end>"
@@ -576,6 +736,10 @@ korean = "페름14_8<end>"
 japanese = "フェルム１４_9<end>"
 korean = "페름14_9<end>"
 
+["1960863"]
+japanese = "フェルム１４_10<end>"
+korean = "페름14_10<end>"
+
 ["1960864"]
 japanese = "フェルム１５<end>"
 korean = "페름15<end>"
@@ -583,6 +747,14 @@ korean = "페름15<end>"
 ["1960865"]
 japanese = "フェルム１６<end>"
 korean = "페름16<end>"
+
+["1960866"]
+japanese = "ロジクーニン１<end>"
+korean = "로지쿠닌1<end>"
+
+["1960867"]
+japanese = "ロジクーニン２<end>"
+korean = "로지쿠닌2<end>"
 
 ["1960868"]
 japanese = "仲良しの1_1<end>"
@@ -836,6 +1008,10 @@ korean = "불량소년 2<end>"
 japanese = "不良少年３<end>"
 korean = "불량소년 3<end>"
 
+["1960931"]
+japanese = "不良少年３－２<end>"
+korean = "불량소년3-2<end>"
+
 ["1960932"]
 japanese = "不良少年４<end>"
 korean = "불량소년 4<end>"
@@ -844,9 +1020,49 @@ korean = "불량소년 4<end>"
 japanese = "不良少年５<end>"
 korean = "불량소년 5<end>"
 
+["1960934"]
+japanese = "めいわきやく１<end>"
+korean = "명조연1<end>"
+
+["1960935"]
+japanese = "めいわきやく２<end>"
+korean = "명조연2<end>"
+
+["1960936"]
+japanese = "めいわきやく３<end>"
+korean = "명조연3<end>"
+
+["1960937"]
+japanese = "めいわきやく４<end>"
+korean = "명조연4<end>"
+
+["1960938"]
+japanese = "めいわきやく５<end>"
+korean = "명조연5<end>"
+
 ["1960939"]
 japanese = "組手勝負<end>"
 korean = "대련 승부<end>"
+
+["1960940"]
+japanese = "迷子イベント１<end>"
+korean = "미아 이벤트1<end>"
+
+["1960941"]
+japanese = "迷子イベント２<end>"
+korean = "미아 이벤트2<end>"
+
+["1960942"]
+japanese = "迷子イベント３<end>"
+korean = "미아 이벤트3<end>"
+
+["1960943"]
+japanese = "迷子イベント４<end>"
+korean = "미아 이벤트4<end>"
+
+["1960944"]
+japanese = "迷子イベント５<end>"
+korean = "미아 이벤트5<end>"
 
 ["1960956"]
 japanese = "新月の_1<end>"
@@ -976,9 +1192,37 @@ korean = "여정 종료<end>"
 japanese = "木材調達<end>"
 korean = "목재 조달<end>"
 
+["1960990"]
+japanese = "木材調達Ｙｅｓ<end>"
+korean = "목재 조달 Yes<end>"
+
+["1960991"]
+japanese = "小屋の下で合流<end>"
+korean = "오두막 아래에서 합류<end>"
+
+["1960992"]
+japanese = "弁当の配達依頼<end>"
+korean = "도시락 배달 의뢰<end>"
+
+["1960993"]
+japanese = "弁当の配達完了<end>"
+korean = "도시락 배달 완료<end>"
+
+["1960998"]
+japanese = "ガルドラン登場<end>"
+korean = "가르드란 등장<end>"
+
+["1960999"]
+japanese = "薬草が欲しいよ<end>"
+korean = "약초가 필요해<end>"
+
 ["1961000"]
 japanese = "薬草入手<end>"
 korean = "약초 입수<end>"
+
+["1961001"]
+japanese = "ヴァンの父怒る<end>"
+korean = "반의 아버지 분노<end>"
 
 ["1961003"]
 japanese = "男前発言<end>"
@@ -1020,6 +1264,14 @@ korean = "여정 종료<end>"
 japanese = "フリント登場<end>"
 korean = "플린트 등장<end>"
 
+["1961086"]
+japanese = "反乱の密談発生<end>"
+korean = "반란 밀담 발생<end>"
+
+["1961088"]
+japanese = "ルルアンタ登場<end>"
+korean = "루루안타 등장<end>"
+
 ["1961089"]
 japanese = "門外出中状態<end>"
 korean = "문 밖 외출 중 상태<end>"
@@ -1032,6 +1284,14 @@ korean = "반란 결행 상태<end>"
 japanese = "Ｖｓ長老発生<end>"
 korean = "VS 장로 발생<end>"
 
+["1961095"]
+japanese = "鍛冶屋声援発生<end>"
+korean = "대장간 응원 발생<end>"
+
+["1961096"]
+japanese = "道具屋声援発生<end>"
+korean = "도구점 응원 발생<end>"
+
 ["1961115"]
 japanese = "旅立ち開始<end>"
 korean = "여정 시작<end>"
@@ -1039,6 +1299,10 @@ korean = "여정 시작<end>"
 ["1961116"]
 japanese = "旅立ち終了<end>"
 korean = "여정 종료<end>"
+
+["1961117"]
+japanese = "兄弟で薬草拾い<end>"
+korean = "형제 약초 줍기<end>"
 
 ["1961118"]
 japanese = "広場で分離<end>"
@@ -1051,6 +1315,10 @@ korean = "로이 합류<end>"
 ["1961121"]
 japanese = "魔獣の影<end>"
 korean = "마수의 그림자<end>"
+
+["1961122"]
+japanese = "炎に包まれた村<end>"
+korean = "불길에 휩싸인 마을<end>"
 
 ["1961123"]
 japanese = "魔獣との邂逅<end>"
@@ -1076,6 +1344,14 @@ korean = "심부름<end>"
 japanese = "真珠ゲット<end>"
 korean = "진주 획득<end>"
 
+["1961151"]
+japanese = "ガルドラン撃退<end>"
+korean = "가르드란 격퇴<end>"
+
+["1961155"]
+japanese = "フリントの手紙<end>"
+korean = "플린트의 편지<end>"
+
 ["1961156"]
 japanese = "王妃謁見許可<end>"
 korean = "왕비 알현 허가<end>"
@@ -1091,6 +1367,10 @@ korean = "유혹에 넘어감<end>"
 ["1961160"]
 japanese = "フリント死亡<end>"
 korean = "플린트 사망<end>"
+
+["1961161"]
+japanese = "美女の誘惑終了<end>"
+korean = "미녀의 유혹 종료<end>"
 
 ["1961179"]
 japanese = "旅立ち開始<end>"

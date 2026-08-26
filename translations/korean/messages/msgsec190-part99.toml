@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1900000"]
+japanese = "Ｖ７その２開始<end>"
+korean = "V7 파트 2 시작<end>"
+
 ["1900004"]
 japanese = "行け！<end>"
 korean = "가!<end>"
@@ -7,3 +11,7 @@ korean = "가!<end>"
 ["1900115"]
 japanese = "ネメア様！<end>"
 korean = "네메아 님!<end>"
+
+["1900200"]
+japanese = "Ｖ７その２終端<end>"
+korean = "V7 파트 2 끝<end>"
