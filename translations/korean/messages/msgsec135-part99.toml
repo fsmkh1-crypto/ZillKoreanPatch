@@ -740,6 +740,10 @@ korean = "곤란하군…. 카를라만이 아니었나.<end>"
 japanese = "ここでお前を討ちとれば、<line-break>戦力差がどうあれ、<line-break>こっちの勝ちだ。<line-break>いくぜ！<end>"
 korean = "여기서 네놈을 쓰러뜨리면 전력 차가 어떻든 우리가 이긴다. 간다!<end>"
 
+["1350409"]
+japanese = "くっ…。<line-break>強くなりやがって…。<line-break>　<line-break>へへ…、複雑な気分だな。<line-break>悪い気はしねぇよ。<line-break><value:$28>。<end>"
+korean = "큭…. 강해졌구나…. 헤헤… 복잡한 기분이네. 나쁜 기분은 아니야, <value:$28>.<end>"
+
 ["1350410"]
 japanese = "くっ…。<line-break>カルラひとりならやれたものを！<end>"
 korean = "큭…. 카를라 혼자였다면 해치웠을 텐데!<end>"
