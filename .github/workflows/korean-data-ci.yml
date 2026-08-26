@@ -7,12 +7,16 @@ on:
       - 'release/korean/font/glyphs.toml'
       - 'work/korean-results/**'
       - 'work/korean-staging/**'
+      - 'tools/korean/**'
+      - '.github/workflows/korean-data-ci.yml'
   push:
     paths:
       - 'translations/korean/messages/**'
       - 'release/korean/font/glyphs.toml'
       - 'work/korean-results/**'
       - 'work/korean-staging/**'
+      - 'tools/korean/**'
+      - '.github/workflows/korean-data-ci.yml'
 
 permissions:
   contents: read
