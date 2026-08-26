@@ -58,15 +58,15 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 	if err := addBanks(owners, compiled); err != nil { return err }
 
-	fontReplacement, ok, err := prepareKoreanFontReplacement(root, archives, plan)
+	fontReplacements, err := prepareKoreanMobileFontReplacements(root, archives, plan)
 	if err != nil { return err }
-	if ok {
+	if len(fontReplacements) > 0 {
 		var pa *archive
 		for _, candidate := range archives {
 			if candidate.name == "pa" { pa = candidate; break }
 		}
 		if pa == nil { return fmt.Errorf("Korean alpha build: pa archive unavailable") }
-		pa.replacements = append(pa.replacements, fontReplacement)
+		pa.replacements = append(pa.replacements, fontReplacements...)
 	}
 
 	executable, err := buildKoreanAlphaExecutable(root, gameDir)
