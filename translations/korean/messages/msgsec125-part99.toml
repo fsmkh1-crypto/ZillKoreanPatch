@@ -152,6 +152,10 @@ korean = "<value:$28>, 미안해. 하지만 널 배신할 생각은 없어. 콘�
 japanese = "待てなかったか、ジラーク…。<end>"
 korean = "기다리지 못했나, 질라크….<end>"
 
+["1250179"]
+japanese = "戦争で解決するなんて、<line-break>力で勝てばいいだなんて…！<line-break>そんなの、間違ってるよぉ！<line-break><value:$28>、<line-break>お願い、やめさせて！<end>"
+korean = "전쟁으로 해결한다니, 힘으로 이기면 된다니…! 그런 건 잘못됐어! <value:$28>, 부탁이야, 막아 줘!<end>"
+
 ["1250193"]
 japanese = "（カルラの後を追わないと…）<end>"
 korean = "(카를라의 뒤를 쫓아야 해…)<end>"

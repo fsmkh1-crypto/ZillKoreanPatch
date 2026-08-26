@@ -952,6 +952,10 @@ korean = "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1370603"]
+japanese = "こんにちは。<line-break>頼まれたお酒を持って来ました。<end>"
+korean = "안녕하세요. 부탁하신 술을 가져왔습니다.<end>"
+
 ["1370605"]
 japanese = "はい。<end>"
 korean = "네.<end>"

@@ -52,6 +52,10 @@ korean = "………………. 크리ュ세이스에게 전해라.<end>"
 japanese = "最後のお届け先はクロイス邸かぁ。<line-break>ねえ<value:$28>、ここまできて<line-break>期限切れになるようなヘマしないでよ。<end>"
 korean = "마지막 배달지는 크로이스 저택인가. 저기 <value:$28>, 여기까지 와서 기한을 넘기는 실수는 하지 마.<end>"
 
+["1240158"]
+japanese = "あとはクリュセイスさんに手紙を返せば<line-break>おしまいです。<line-break><line-break>なんだかいろんなところに届けて<line-break>疲れちゃいましたね。<end>"
+korean = "이제 크류세이스 씨에게 편지를 돌려주면 끝이에요. 여기저기 배달하느라 꽤 지쳤네요.<end>"
+
 ["1240167"]
 japanese = "邪竜の断層へ急いでください！<line-break>お願いします<value:$28>。<line-break>時間がないんです。<end>"
 korean = "사룡의 단층으로 서둘러 주세요! 부탁해요, <value:$28>. 시간이 없어요.<end>"
@@ -63,3 +67,7 @@ korean = "………………. 사룡의 단층으로 가라. 무언가 일어나
 ["1240189"]
 japanese = "邪竜の断層から、<line-break>強い妖気を感じます。<line-break><line-break>封印されたアズラゴーザが<line-break>覚醒したのかもしれません。<end>"
 korean = "사룡의 단층에서, 강한 요기를 느낍니다. 봉인된 아즈라고자가 깨어났을지도 모릅니다.<end>"
+
+["1240223"]
+japanese = "オルファウスが世界の成り立ちを<line-break>古の樹海で語るつもりらしい。<line-break><line-break><value:$28>はこの話を、<line-break>聞いておいたほうがいいね。<end>"
+korean = "오르파우스가 고대의 수해에서 세계의 성립에 대해 이야기할 모양이야. <value:$28>은 이 이야기를 들어 두는 게 좋겠어.<end>"
