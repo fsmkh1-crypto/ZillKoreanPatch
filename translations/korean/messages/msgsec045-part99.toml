@@ -12,13 +12,29 @@ korean = "살인자!<end>"
 japanese = "くそっ！<end>"
 korean = "젠장!<end>"
 
+["450042"]
+japanese = "大丈夫か？<end>"
+korean = "괜찮아?<end>"
+
 ["450045"]
 japanese = "君は？<end>"
 korean = "너는?<end>"
 
+["450051"]
+japanese = "仲間にする<end>"
+korean = "동료로 삼는다<end>"
+
 ["450138"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"
+
+["450146"]
+japanese = "大丈夫か？<end>"
+korean = "괜찮아?<end>"
+
+["450147"]
+japanese = "あ、はい。<end>"
+korean = "아, 네.<end>"
 
 ["450153"]
 japanese = "僕…。<end>"
@@ -35,6 +51,14 @@ korean = "격!<end>"
 ["450179"]
 japanese = "烈！<end>"
 korean = "열!<end>"
+
+["450182"]
+japanese = "は、はい。<end>"
+korean = "네, 네.<end>"
+
+["450215"]
+japanese = "お客さん。<end>"
+korean = "손님.<end>"
 
 ["450244"]
 japanese = "え…。<end>"

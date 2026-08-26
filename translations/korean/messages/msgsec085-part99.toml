@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["850002"]
+japanese = "引き受ける<end>"
+korean = "수락한다<end>"
+
 ["850020"]
 japanese = "そうだ！<end>"
 korean = "맞아!<end>"
@@ -11,6 +15,18 @@ korean = "죽여!<end>"
 ["850030"]
 japanese = "断る<end>"
 korean = "거절한다<end>"
+
+["850040"]
+japanese = "引き受ける<end>"
+korean = "수락한다<end>"
+
+["850045"]
+japanese = "じゃあね。<end>"
+korean = "그럼 안녕.<end>"
+
+["850047"]
+japanese = "邪魔しない<end>"
+korean = "방해하지 않는다<end>"
 
 ["850083"]
 japanese = "お父様？<end>"

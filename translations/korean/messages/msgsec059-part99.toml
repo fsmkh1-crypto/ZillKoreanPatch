@@ -1,12 +1,28 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["590013"]
+japanese = "引き受ける<end>"
+korean = "수락한다<end>"
+
+["590037"]
+japanese = "引き受ける<end>"
+korean = "수락한다<end>"
+
 ["590038"]
 japanese = "断る<end>"
 korean = "거절한다<end>"
 
+["590061"]
+japanese = "て、敵襲！<end>"
+korean = "저, 적의 습격이다!<end>"
+
 ["590090"]
 japanese = "加わる<end>"
 korean = "합류한다<end>"
+
+["590091"]
+japanese = "加わらない<end>"
+korean = "참가하지 않는다<end>"
 
 ["590110"]
 japanese = "ゆくぞ！<end>"

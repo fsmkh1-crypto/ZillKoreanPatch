@@ -12,6 +12,14 @@ korean = "아니, 틀려<end>"
 japanese = "泊まる<end>"
 korean = "묵는다<end>"
 
+["480029"]
+japanese = "泊まらない<end>"
+korean = "묵지 않는다<end>"
+
+["480034"]
+japanese = "そうかい。<end>"
+korean = "그렇구나.<end>"
+
 ["480043"]
 japanese = "親父！<end>"
 korean = "아버지!<end>"

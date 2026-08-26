@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["560016"]
+japanese = "知らんな。<end>"
+korean = "모르겠군.<end>"
+
 ["560018"]
 japanese = "誰だ？<end>"
 korean = "누구야?<end>"
@@ -8,13 +12,49 @@ korean = "누구야?<end>"
 japanese = "はい？<end>"
 korean = "네?<end>"
 
+["560087"]
+japanese = "私に何か？<end>"
+korean = "나한테 무슨 용건이지?<end>"
+
 ["560149"]
 japanese = "ちっ。<end>"
 korean = "칫.<end>"
 
+["560160"]
+japanese = "愚かな…。<end>"
+korean = "어리석군….<end>"
+
+["560244"]
+japanese = "どうした？<end>"
+korean = "왜 그래?<end>"
+
+["560405"]
+japanese = "来たか…。<end>"
+korean = "왔나….<end>"
+
 ["560430"]
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
+
+["560499"]
+japanese = "な、何を…<end>"
+korean = "뭐, 뭘…<end>"
+
+["560546"]
+japanese = "ありがと。<end>"
+korean = "고마워.<end>"
+
+["560565"]
+japanese = "ち、違う！<end>"
+korean = "아, 아니야!<end>"
+
+["560573"]
+japanese = "な、何よ！<end>"
+korean = "뭐, 뭐야!<end>"
+
+["560633"]
+japanese = "仲間を呼ぶ<end>"
+korean = "동료를 부른다<end>"
 
 ["560743"]
 japanese = "断る！<end>"
@@ -23,3 +63,11 @@ korean = "거절한다!<end>"
 ["560797"]
 japanese = "ちっ！<end>"
 korean = "칫!<end>"
+
+["560908"]
+japanese = "やめておく<end>"
+korean = "그만둔다<end>"
+
+["560923"]
+japanese = "やめておく<end>"
+korean = "그만둔다<end>"

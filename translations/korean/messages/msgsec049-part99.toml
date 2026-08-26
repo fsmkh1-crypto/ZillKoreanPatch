@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["490018"]
+japanese = "わかった。<end>"
+korean = "알았어.<end>"
+
 ["490036"]
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
@@ -92,9 +96,21 @@ korean = "<미사용><end>"
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
 
+["490237"]
+japanese = "えーっ！？<end>"
+korean = "에엣!?<end>"
+
+["490240"]
+japanese = "…最悪だ。<end>"
+korean = "…최악이야.<end>"
+
 ["490244"]
 japanese = "ええ。<end>"
 korean = "네.<end>"
+
+["490275"]
+japanese = "質問はない<end>"
+korean = "질문은 없다<end>"
 
 ["490299"]
 japanese = "<未使用><end>"

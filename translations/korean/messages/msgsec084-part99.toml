@@ -8,9 +8,25 @@ korean = "우왓!<end>"
 japanese = "うう…。<end>"
 korean = "으으….<end>"
 
+["840020"]
+japanese = "一緒に行く<end>"
+korean = "함께 간다<end>"
+
+["840021"]
+japanese = "遠慮しとく<end>"
+korean = "사양한다<end>"
+
+["840052"]
+japanese = "ほ～らっ！<end>"
+korean = "자, 봐!<end>"
+
 ["840058"]
 japanese = "ははっ！<end>"
 korean = "하핫!<end>"
+
+["840062"]
+japanese = "…それで？<end>"
+korean = "…그래서?<end>"
 
 ["840067"]
 japanese = "ひいっ！<end>"
@@ -23,3 +39,7 @@ korean = "어?<end>"
 ["840131"]
 japanese = "誰？<end>"
 korean = "누구?<end>"
+
+["840203"]
+japanese = "は、はい！<end>"
+korean = "네, 네!<end>"

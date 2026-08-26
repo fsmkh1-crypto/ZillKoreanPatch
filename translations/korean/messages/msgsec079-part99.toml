@@ -1,8 +1,24 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["790031"]
+japanese = "助けてやる<end>"
+korean = "도와준다<end>"
+
+["790032"]
+japanese = "放っておく<end>"
+korean = "내버려 둔다<end>"
+
 ["790035"]
 japanese = "今はムリ<end>"
 korean = "지금은 무리야<end>"
+
+["790049"]
+japanese = "助けてやる<end>"
+korean = "도와준다<end>"
+
+["790050"]
+japanese = "放っておく<end>"
+korean = "내버려 둔다<end>"
 
 ["790053"]
 japanese = "今はムリ<end>"
@@ -15,3 +31,7 @@ korean = "지금은 무리야<end>"
 ["790087"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
+
+["790113"]
+japanese = "確かに…。<end>"
+korean = "확실히….<end>"

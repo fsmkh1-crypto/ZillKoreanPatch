@@ -36,6 +36,18 @@ korean = "핫!<end>"
 japanese = "団長～！<end>"
 korean = "단장~!<end>"
 
+["620092"]
+japanese = "ええ～！？<end>"
+korean = "에에~!?<end>"
+
+["620122"]
+japanese = "あーっ！！<end>"
+korean = "아앗!!<end>"
+
+["620156"]
+japanese = "あーっ！！<end>"
+korean = "아앗!!<end>"
+
 ["620165"]
 japanese = "ゴブー！<end>"
 korean = "고부~!<end>"
@@ -52,6 +64,22 @@ korean = "음.<end>"
 japanese = "団長！<end>"
 korean = "단장!<end>"
 
+["620200"]
+japanese = "そんな…。<end>"
+korean = "그럴 수가….<end>"
+
+["620204"]
+japanese = "だけど…。<end>"
+korean = "하지만….<end>"
+
+["620249"]
+japanese = "（未使用）<end>"
+korean = "(미사용)<end>"
+
+["620281"]
+japanese = "質問はない<end>"
+korean = "질문은 없다<end>"
+
 ["620299"]
 japanese = "うっ。<end>"
 korean = "윽.<end>"
@@ -67,6 +95,10 @@ korean = "윽.<end>"
 ["620336"]
 japanese = "うん<end>"
 korean = "응<end>"
+
+["620337"]
+japanese = "いや別に…<end>"
+korean = "아니, 별건 아니야…<end>"
 
 ["620353"]
 japanese = "うっ！<end>"

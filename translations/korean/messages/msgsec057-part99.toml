@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["570013"]
+japanese = "いえいえ。<end>"
+korean = "아니에요.<end>"
+
 ["570026"]
 japanese = "それは？<end>"
 korean = "그건?<end>"
@@ -8,6 +12,14 @@ korean = "그건?<end>"
 japanese = "これは？<end>"
 korean = "이건?<end>"
 
+["570060"]
+japanese = "質問はない<end>"
+korean = "질문은 없다<end>"
+
+["570084"]
+japanese = "うんん…。<end>"
+korean = "으음….<end>"
+
 ["570085"]
 japanese = "あ！<end>"
 korean = "아!<end>"
@@ -15,3 +27,7 @@ korean = "아!<end>"
 ["570096"]
 japanese = "いいよ<end>"
 korean = "좋아<end>"
+
+["570117"]
+japanese = "お客さん。<end>"
+korean = "손님.<end>"
