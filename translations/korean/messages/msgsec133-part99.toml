@@ -104,6 +104,10 @@ korean = "『나는 인간이 될 수 있을까…』<end>"
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 
+["1330209"]
+japanese = "<value:$28>、<line-break>君がいるからね。<end>"
+korean = "<value:$28>, 네가 있으니까.<end>"
+
 ["1330211"]
 japanese = "さあ、儀式を始めようか。<end>"
 korean = "자, 의식을 시작할까.<end>"
@@ -295,6 +299,10 @@ korean = "뭐…, 뭐야…!?<end>"
 ["1330436"]
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
+
+["1330441"]
+japanese = "…強くなったな、<line-break><value:$28>。<end>"
+korean = "…강해졌구나, <value:$28>.<end>"
 
 ["1330443"]
 japanese = "よう、待ってたよ。<line-break>無限のソウルの持ち主。<line-break><value:$28>。<end>"

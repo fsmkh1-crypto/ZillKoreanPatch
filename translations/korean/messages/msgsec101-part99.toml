@@ -20,6 +20,10 @@ korean = "정말 어쩔 수 없는 녀석….<end>"
 japanese = "…早く行きなさい。<end>"
 korean = "…빨리 가세요.<end>"
 
+["1010032"]
+japanese = "…がんばってね、<line-break><value:$28>。<end>"
+korean = "…힘내, <value:$28>.<end>"
+
 ["1010043"]
 japanese = "早く、行きなさい。<end>"
 korean = "빨리 가세요.<end>"

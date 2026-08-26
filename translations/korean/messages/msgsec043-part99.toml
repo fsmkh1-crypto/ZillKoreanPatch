@@ -160,6 +160,10 @@ korean = "…도적인가.<end>"
 japanese = "お引き取りいただきますか？<end>"
 korean = "돌아가시겠습니까?<end>"
 
+["430158"]
+japanese = "<value:$28>、<line-break>ここで待っていろ。<end>"
+korean = "<value:$28>, 여기서 기다려.<end>"
+
 ["430160"]
 japanese = "読んでみよう<end>"
 korean = "읽어 보자<end>"

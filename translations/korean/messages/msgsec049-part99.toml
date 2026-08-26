@@ -148,6 +148,10 @@ korean = "나도 곧 갈게.<end>"
 japanese = "成功を祈っておるぞ！<end>"
 korean = "성공을 빌고 있겠다!<end>"
 
+["490121"]
+japanese = "来たか。<line-break>待ってたぜ<value:$28>。<end>"
+korean = "왔군. 기다렸어, <value:$28>.<end>"
+
 ["490122"]
 japanese = "ちょうどいいタイミングだ。<end>"
 korean = "딱 좋은 타이밍이군.<end>"

@@ -180,6 +180,10 @@ korean = "당연하잖아.<end>"
 japanese = "はい。<end>"
 korean = "네.<end>"
 
+["370128"]
+japanese = "で、どうすんだい。<line-break><value:$28>？<end>"
+korean = "그래서, 어떻게 할 거야, <value:$28>?<end>"
+
 ["370155"]
 japanese = "なんだ！　お前ら！　　　　<end>"
 korean = "뭐야! 너희들!<end>"

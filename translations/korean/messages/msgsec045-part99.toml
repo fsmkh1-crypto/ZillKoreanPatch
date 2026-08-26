@@ -344,6 +344,10 @@ korean = "아, 어라? 너 전에….<end>"
 japanese = "<value:$28>っていうんだね。<line-break>よろしく、<value:$28>。<end>"
 korean = "<value:$28>라고 하는구나. 잘 부탁해, <value:$28>.<end>"
 
+["450295"]
+japanese = "じゃ、よろしくね。<line-break><value:$28>。<end>"
+korean = "그럼 잘 부탁해, <value:$28>.<end>"
+
 ["450308"]
 japanese = "ガルドラン・ボリューム１その１終端<end>"
 korean = "갈드란 볼륨1 그 1 끝<end>"

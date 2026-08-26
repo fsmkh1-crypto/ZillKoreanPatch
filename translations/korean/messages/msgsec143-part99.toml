@@ -60,6 +60,10 @@ korean = "조금만 더 기다려<end>"
 japanese = "もちろん<end>"
 korean = "물론이지<end>"
 
+["1430085"]
+japanese = "うまくいったら、<line-break>約束どおり船に乗せてあげるわ、<line-break><value:$28>。<end>"
+korean = "잘되면 약속대로 배에 태워 줄게, <value:$28>.<end>"
+
 ["1430086"]
 japanese = "遅いね…。<end>"
 korean = "늦네….<end>"

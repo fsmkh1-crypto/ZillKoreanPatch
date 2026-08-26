@@ -20,6 +20,10 @@ korean = "<value:$1A>기어를 손에 넣었다.<end>"
 japanese = "経験値を<value:$1A>獲得した。<end>"
 korean = "경험치를 <value:$1A> 획득했다.<end>"
 
+["1290022"]
+japanese = "スキルポイントを<value:$1A>獲得した。<end>"
+korean = "스킬 포인트를 <value:$1A> 획득했다.<end>"
+
 ["1290024"]
 japanese = "<value:$15>は<value:$16>のスキルを<line-break>習得した。<end>"
 korean = "<value:$15>는 <value:$16>의 스킬을 습득했다.<end>"

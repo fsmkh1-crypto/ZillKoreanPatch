@@ -92,6 +92,10 @@ korean = "제2의 공훈, <value:$28>.<end>"
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
 
+["510123"]
+japanese = "<value:$28>の<line-break>名声値が上がった。<end>"
+korean = "<value:$28>의 명성치가 올랐다.<end>"
+
 ["510124"]
 japanese = "おらぬのか…。<end>"
 korean = "없는 건가….<end>"
@@ -111,6 +115,10 @@ korean = "주작장군이 쓰러졌다!<end>"
 ["510147"]
 japanese = "退け！　退けええい！<end>"
 korean = "물러나라! 물러나아아!<end>"
+
+["510156"]
+japanese = "<value:$28>の<line-break>名声値が上がった。<end>"
+korean = "<value:$28>의 명성치가 올랐다.<end>"
 
 ["510158"]
 japanese = "はい<end>"

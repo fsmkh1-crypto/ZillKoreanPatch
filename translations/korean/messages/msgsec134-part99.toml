@@ -484,6 +484,10 @@ korean = "타르튜바 님….<end>"
 japanese = "<value:$28>様？<end>"
 korean = "<value:$28>님?<end>"
 
+["1340493"]
+japanese = "<value:$28>様<line-break>お願いいたします<end>"
+korean = "<value:$28>님, 부탁드립니다.<end>"
+
 ["1340498"]
 japanese = "（資金援助すべきかな…？）<end>"
 korean = "(자금 지원을 해야 하나…?)<end>"

@@ -116,6 +116,10 @@ korean = "미사용<end>"
 japanese = "私はヴィアリアリ。<end>"
 korean = "나는 비아리아리.<end>"
 
+["1480132"]
+japanese = "<value:$28>、<line-break>エリス様がお呼びよ。<line-break>すぐにロストールまで来て。<end>"
+korean = "<value:$28>, 엘리스 님이 부르셔. 바로 로스톨로 와.<end>"
+
 ["1480134"]
 japanese = "すぐに行く<end>"
 korean = "바로 간다<end>"
@@ -123,6 +127,10 @@ korean = "바로 간다<end>"
 ["1480135"]
 japanese = "気が向いたら行く<end>"
 korean = "마음이 내키면 간다<end>"
+
+["1480138"]
+japanese = "<value:$28>、<line-break>ゼネテスの言ってたこと、<line-break>本当になっちゃったね。<end>"
+korean = "<value:$28>, 제네테스가 한 말이 정말 현실이 됐네.<end>"
 
 ["1480166"]
 japanese = "ルルアンタ（修）その２　終端<end>"

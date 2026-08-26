@@ -120,6 +120,10 @@ korean = "오랜만이네, <value:$28>.<end>"
 japanese = "久しぶりね、<value:$28>。<end>"
 korean = "오랜만이네, <value:$28>.<end>"
 
+["990084"]
+japanese = "…行きなさい。<line-break>次はないわ。<end>"
+korean = "…가. 다음은 없어.<end>"
+
 ["990090"]
 japanese = "あ、<value:$28>…。<end>"
 korean = "아, <value:$28>….<end>"
@@ -127,6 +131,10 @@ korean = "아, <value:$28>….<end>"
 ["990096"]
 japanese = "あ、<value:$28>…。<end>"
 korean = "아, <value:$28>….<end>"
+
+["990118"]
+japanese = "…行きなさい。<line-break>次はないわ。<end>"
+korean = "…가. 다음은 없어.<end>"
 
 ["990124"]
 japanese = "あ、<value:$28>…。<end>"

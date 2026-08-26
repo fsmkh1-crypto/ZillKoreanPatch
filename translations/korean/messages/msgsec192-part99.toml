@@ -56,9 +56,17 @@ korean = "고마워.<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["1920097"]
+japanese = "<value:$28>、<line-break>１０分の遅刻よ。<end>"
+korean = "<value:$28>, 10분 늦었어.<end>"
+
 ["1920107"]
 japanese = "行きましょう、<value:$28>。<end>"
 korean = "가죠, <value:$28>.<end>"
+
+["1920112"]
+japanese = "ありがとう。<line-break>…うれしい。<end>"
+korean = "고마워. …기뻐.<end>"
 
 ["1920118"]
 japanese = "お入りなさい。<end>"
