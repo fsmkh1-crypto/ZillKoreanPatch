@@ -28,6 +28,10 @@ korean = "<value:$15>을 넘겨줄 건가?<end>"
 japanese = "助かったよ、報酬をうけとってくれ。<end>"
 korean = "도움이 됐어. 보수를 받아 줘.<end>"
 
+["160013"]
+japanese = "どうだ<value:$28><line-break>この仕事、引き受けてくれるか？<end>"
+korean = "어때, <value:$28>. 이 일 맡아 줄래?<end>"
+
 ["160015"]
 japanese = "ありがとうよ。<line-break>また頼むぜ。<end>"
 korean = "고맙다. 또 부탁할게.<end>"

@@ -16,6 +16,10 @@ korean = "준비는 끝났느냐? 방심하지 마라.<end>"
 japanese = "気をつけてね。<line-break>体力はちゃんと回復してある？<end>"
 korean = "조심해. 체력은 제대로 회복했어?<end>"
 
+["270017"]
+japanese = "がんばってね、<value:$28>。<line-break>ちゃんと準備はした？<end>"
+korean = "힘내, <value:$28>. 준비는 제대로 했어?<end>"
+
 ["270018"]
 japanese = "うぬの戦い、<line-break>見せてもらおう。<end>"
 korean = "네 싸움, 지켜보겠다.<end>"

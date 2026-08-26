@@ -8,6 +8,10 @@ korean = "보게(라기보다 이미 레그) 메시지 V1용 시작<end>"
 japanese = "…待て。<end>"
 korean = "…기다려.<end>"
 
+["960003"]
+japanese = "…うぬは、<line-break>今年の大会の…<line-break>出場者か？<end>"
+korean = "…그대는 올해 대회의… 출전자냐?<end>"
+
 ["960004"]
 japanese = "出場する<end>"
 korean = "출전한다<end>"
@@ -103,6 +107,42 @@ korean = "그렇다면 나의 이도류 검법을 전수해 주마.<end>"
 ["960035"]
 japanese = "<value:$28>は<line-break>剣聖の称号を得た。<end>"
 korean = "<value:$28>는 검성의 칭호를 얻었다.<end>"
+
+["960036"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
+
+["960037"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
+
+["960038"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
+
+["960039"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
+
+["960040"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
+
+["960041"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
+
+["960042"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
+
+["960043"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
+
+["960044"]
+japanese = "予備メッセージ１<line-break>兄弟子、ボゲーＶ１でござる<end>"
+korean = "예비 메시지 1 사형, 보게 V1입니다.<end>"
 
 ["960045"]
 japanese = "ボゲー（というよりレーグ）メッセージ終端<end>"

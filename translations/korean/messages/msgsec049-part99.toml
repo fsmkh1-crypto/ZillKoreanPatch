@@ -340,6 +340,10 @@ korean = "하지만, 하지만… 루루안타는, 훌쩍, <value:$28>에게… 
 japanese = "なぁ、<value:$28>。<end>"
 korean = "있잖아, <value:$28>.<end>"
 
+["490205"]
+japanese = "ルルアンタ、つらかったろ？<line-break>泣いてもいいんだぜ。<end>"
+korean = "루루안타, 힘들었지? 울어도 괜찮아.<end>"
+
 ["490206"]
 japanese = "ひっく、ひっく…<end>"
 korean = "흐윽, 흐윽…<end>"
@@ -519,6 +523,10 @@ korean = "여어, <value:$28>.<end>"
 ["490323"]
 japanese = "ゼネテスさんを待たせちゃ<line-break>いけないよ。<end>"
 korean = "제네테스 씨를 기다리게 하면 안 돼.<end>"
+
+["490324"]
+japanese = "反対側に何か見えるぞ<line-break>行ってみよう、<value:$28>。<end>"
+korean = "반대편에 뭔가 보인다. 가 보자, <value:$28>.<end>"
 
 ["490325"]
 japanese = "なあ、<value:$28><line-break>俺の我がままにつきあってくれないか<line-break>もう少しこの森を調べてみたいんだ。<end>"

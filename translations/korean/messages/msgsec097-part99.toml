@@ -40,6 +40,10 @@ korean = "그렇군요. <value:$28> 씨도 열심히 하고 있죠….<end>"
 japanese = "…しかし、<line-break>彼女は傷ついている。<end>"
 korean = "…하지만 그녀는 상처 입었어.<end>"
 
+["970041"]
+japanese = "ん？　この気配は…。<line-break>この町にも客がいたか。<end>"
+korean = "응? 이 기척은…. 이 마을에도 손님이 있었나.<end>"
+
 ["970042"]
 japanese = "ほう…。これは…<line-break>フフ、そういうことか。<end>"
 korean = "호오…. 이건…. 후후, 그런 거였군.<end>"
@@ -55,6 +59,10 @@ korean = "난 믿지 않아… 믿지 않는다고….<end>"
 ["970063"]
 japanese = "やぁ、<value:$28>。<line-break>どうだい、オズワルドの調査の方は　　<line-break>終わったのかい？<end>"
 korean = "안녕, <value:$28>. 오즈월드 조사 쪽은 끝났나?<end>"
+
+["970068"]
+japanese = "それじゃ、仕事が必要なら<line-break>また、来てくれよ。<end>"
+korean = "그럼 일이 필요하면 또 와 줘.<end>"
 
 ["970079"]
 japanese = "ノエル用メッセージＶ１終端<end>"

@@ -4,6 +4,10 @@
 japanese = "ノエル・ボリューム１開始<end>"
 korean = "노엘 볼륨 1 시작<end>"
 
+["550001"]
+japanese = "だ、だ、誰にも言わない！<line-break>た、たた助けてくれっ！<end>"
+korean = "아, 아무한테도 말 안 할게! 사, 살려 줘!<end>"
+
 ["550002"]
 japanese = "あ、あひっ！<line-break>た、たすけてくれー！<end>"
 korean = "아, 아악! 사, 살려 줘!<end>"
@@ -39,6 +43,10 @@ korean = "…훗,용왕께서 말씀하신 대로다.<end>"
 ["550017"]
 japanese = "<value:$28>、見てよ。　　　　　<end>"
 korean = "<value:$28>, 봐.<end>"
+
+["550021"]
+japanese = "うん、行ってみようよ。<line-break>すっごく、気になるしさ。<end>"
+korean = "응, 가 보자. 엄청 신경 쓰이기도 하고.<end>"
 
 ["550023"]
 japanese = "＜無＞<end>"
@@ -223,6 +231,10 @@ korean = "놈을 쫓자! <value:$28>!<end>"
 ["550082"]
 japanese = "追うわよ、<value:$28>！<end>"
 korean = "쫓아가자, <value:$28>!<end>"
+
+["550088"]
+japanese = "チャラチャラ親子ごっこしてないで<line-break>さ、行くわよ。<end>"
+korean = "그렇게 가벼운 가족놀이나 하지 말고, 가자.<end>"
 
 ["550089"]
 japanese = "＜無＞<end>"
@@ -700,6 +712,10 @@ korean = "난 여자 이름이라면 한 번 들으면 잊지 않아. 뭐, 절�
 japanese = "ホントだ。<end>"
 korean = "정말이야.<end>"
 
+["550249"]
+japanese = "し、師匠、すばらしい！<line-break>背筋も凍る寒さでござる！<end>"
+korean = "스, 스승님, 훌륭합니다! 등골이 얼어붙을 만큼 춥습니다!<end>"
+
 ["550252"]
 japanese = "ちっ、ホントなら<line-break>大ウケなのによ！<end>"
 korean = "쳇, 진짜라면 대박인데!<end>"
@@ -868,6 +884,14 @@ korean = "나는 어째서인지 돌이 되지 않았어….<end>"
 japanese = "…わたしが剣を抜いた。　　<end>"
 korean = "…내가 검을 뽑았어.<end>"
 
+["550302"]
+japanese = "そしたら、石化獣が復活して<line-break>みんなを石に変えた。<end>"
+korean = "그러자 석화수가 되살아나 모두를 돌로 만들었어.<end>"
+
+["550303"]
+japanese = "わたしだけは、なぜか<line-break>石にならなかった…。　　　<end>"
+korean = "나만은 왜인지 돌이 되지 않았어….<end>"
+
 ["550304"]
 japanese = "…わたしが剣を抜いた。　<end>"
 korean = "…내가 검을 뽑았어.<end>"
@@ -923,6 +947,10 @@ korean = "검의 말을 들으라니….<end>"
 ["550321"]
 japanese = "剣が、わたしを、選んだ…？<end>"
 korean = "검이 나를 선택한 거야…?<end>"
+
+["550322"]
+japanese = "…あきらめなければ、<line-break>道が開けるってことですか？<end>"
+korean = "…포기하지 않으면 길이 열린다는 뜻인가요?<end>"
 
 ["550323"]
 japanese = "で、でも、わたしなんかに…！<end>"
@@ -1047,6 +1075,10 @@ korean = "그럼 이 사람들은….<end>"
 ["550374"]
 japanese = "間違いない。<line-break>施文院の暗殺者、告死天使だ。<end>"
 korean = "틀림없어. 시문원의 암살자, 고사천사다.<end>"
+
+["550377"]
+japanese = "あ、あの、それじゃ、<line-break>わたしはこれで失礼します！<end>"
+korean = "저, 저기, 그럼 저는 이만 실례하겠습니다!<end>"
 
 ["550378"]
 japanese = "予備メッセージ１<line-break>ノエル、ボリューム１その１<end>"

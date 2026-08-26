@@ -224,6 +224,10 @@ korean = "묵고 간다<end>"
 japanese = "泊まっていかない<end>"
 korean = "묵고 가지 않는다<end>"
 
+["450119"]
+japanese = "そう、じゃ、ゆっくりしていきなよ。<line-break><value:$28>。<end>"
+korean = "그래, 그럼 천천히 쉬다 가. <value:$28>.<end>"
+
 ["450120"]
 japanese = "おはよう、<value:$28>。<end>"
 korean = "좋은 아침, <value:$28>.<end>"

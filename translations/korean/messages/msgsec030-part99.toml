@@ -176,6 +176,10 @@ korean = "어머, 정신이 들었구나. 정말, 걱정시키고….<end>"
 japanese = "わかってるわよっ。<end>"
 korean = "알고 있다니까.<end>"
 
+["300094"]
+japanese = "<value:$28>、<line-break>何か飲み物を持ってくるわね。　　　<end>"
+korean = "<value:$28>, 뭔가 마실 걸 가져올게.<end>"
+
 ["300100"]
 japanese = "ふぅーん。<line-break>何も言わずに出ていくんだ。<end>"
 korean = "흐응. 아무 말도 없이 나가는구나.<end>"

@@ -100,6 +100,10 @@ korean = "<value:$28> 씨~!<end>"
 japanese = "<value:$28>さん！！<end>"
 korean = "<value:$28> 씨!!<end>"
 
+["410032"]
+japanese = "まて、あれは…、<line-break><value:$28>を回復してやがる…。<end>"
+korean = "잠깐, 저건… <value:$28>을 회복시키고 있어….<end>"
+
 ["410035"]
 japanese = "あり得ない。　　　　　　　　<end>"
 korean = "말도 안 돼.<end>"
