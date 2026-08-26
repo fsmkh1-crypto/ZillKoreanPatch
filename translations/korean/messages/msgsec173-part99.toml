@@ -108,6 +108,10 @@ korean = "네, 여기요.<end>"
 japanese = "本当に？<end>"
 korean = "정말로?<end>"
 
+["1730123"]
+japanese = "<value:$28>さんですね。<line-break>オイフェ様より伝言です。　　　<line-break>　<end>"
+korean = "<value:$28> 씨시군요. 오이페 님께서 전언을 남기셨습니다.<end>"
+
 ["1730129"]
 japanese = "部下になる<end>"
 korean = "부하가 된다<end>"

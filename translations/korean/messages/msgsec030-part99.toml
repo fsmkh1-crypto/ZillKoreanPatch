@@ -44,9 +44,17 @@ korean = "도망간다 고브~!<end>"
 japanese = "やったわ…<line-break>勝った…。<end>"
 korean = "해냈어… 이겼어….<end>"
 
+["300089"]
+japanese = "…<value:$28>？<line-break>…そっか、疲れたのね。<line-break>…私も、なんだか…。<end>"
+korean = "…<value:$28>? …그렇구나, 피곤했구나. …나도 왠지….<end>"
+
 ["300093"]
 japanese = "わかってるわよっ。<end>"
 korean = "알고 있다니까.<end>"
+
+["300106"]
+japanese = "あら、<value:$28>さん、<line-break>いらっしゃいませ。<line-break>何かご用ですか？<end>"
+korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end>"
 
 ["300134"]
 japanese = "旅立ち０３メッセージ終端<end>"

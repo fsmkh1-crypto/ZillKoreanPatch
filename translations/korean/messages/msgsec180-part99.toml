@@ -88,6 +88,10 @@ korean = "알았어. 좋아.<end>"
 japanese = "ありがとうございます！<end>"
 korean = "감사합니다!<end>"
 
+["1800111"]
+japanese = "よし。<line-break>んじゃ、出発よ。<end>"
+korean = "좋아. 그럼 출발하자.<end>"
+
 ["1800112"]
 japanese = "よび<end>"
 korean = "호출<end>"

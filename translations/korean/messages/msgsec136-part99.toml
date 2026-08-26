@@ -24,9 +24,17 @@ korean = "그만둬!!<end>"
 japanese = "…私も同じだ。<end>"
 korean = "…나도 마찬가지야.<end>"
 
+["1360080"]
+japanese = "ありがとうございます。<line-break>では、失礼いたします<line-break><value:$28>様<end>"
+korean = "감사합니다. 그럼 실례하겠습니다, <value:$28>님.<end>"
+
 ["1360088"]
 japanese = "ヴァイ！<end>"
 korean = "바이!<end>"
+
+["1360089"]
+japanese = "やったあ！<line-break>お兄ちゃん！<end>"
+korean = "해냈다! 오빠!<end>"
 
 ["1360090"]
 japanese = "…じゃなくて、兄さん。<end>"
@@ -83,6 +91,10 @@ korean = "오오오오…!!<end>"
 ["1360141"]
 japanese = "<value:$28>、頼む、<line-break>わしも一緒に<line-break>旅に連れて行ってくれ。<end>"
 korean = "<value:$28>, 부탁이네. 나도 함께 여행에 데려가 주게.<end>"
+
+["1360142"]
+japanese = "そうか…<line-break>ありがとうな。<end>"
+korean = "그렇구나… 고맙다.<end>"
 
 ["1360158"]
 japanese = "じゃあね。<line-break>またあとで会おうね、<line-break><value:$28>。<end>"

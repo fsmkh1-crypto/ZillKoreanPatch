@@ -28,6 +28,10 @@ korean = "<value:$28>… 씨….<end>"
 japanese = "行くわ。<end>"
 korean = "갈게.<end>"
 
+["1740042"]
+japanese = "行く？<line-break>どこへ行くのだ？<end>"
+korean = "간다고? 어디로 가는 거지?<end>"
+
 ["1740051"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
@@ -99,6 +103,10 @@ korean = "자, 출番이다.<end>"
 ["1740141"]
 japanese = "ど、どうし…て…。<end>"
 korean = "어, 어째…서….<end>"
+
+["1740142"]
+japanese = "ゼリグ！<line-break>血迷うたか！！<end>"
+korean = "제리그! 정신이 나간 거냐!!<end>"
 
 ["1740143"]
 japanese = "な、なんと！？<end>"

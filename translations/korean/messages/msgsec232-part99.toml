@@ -4,6 +4,10 @@
 japanese = "げぼぉっ！<end>"
 korean = "우웩!<end>"
 
+["2320017"]
+japanese = "ワケわかんないわ。次！<end>"
+korean = "무슨 말인지 모르겠어. 다음!<end>"
+
 ["2320019"]
 japanese = "ほら。次、次っ！<end>"
 korean = "자. 다음, 다음!<end>"
@@ -15,3 +19,7 @@ korean = "어때, <value:$28>?<end>"
 ["2320025"]
 japanese = "全然進歩してない<end>"
 korean = "전혀 늘지 않았어<end>"
+
+["2320030"]
+japanese = "でしょ。やっぱりね～。<end>"
+korean = "그렇지. 역시 그렇다니까~.<end>"

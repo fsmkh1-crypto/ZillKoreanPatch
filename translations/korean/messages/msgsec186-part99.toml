@@ -36,6 +36,10 @@ korean = "아ー, 그 사람!<end>"
 japanese = "よぉ、お邪魔してるぜ。<end>"
 korean = "여어, 실례 좀 하고 있어.<end>"
 
+["1860075"]
+japanese = "じゃあな、<line-break>フリントさん、ルルアンタ、<line-break>それに<value:$28>。<end>"
+korean = "그럼 안녕, 플린트 씨, 루루안타, 그리고 <value:$28>.<end>"
+
 ["1860092"]
 japanese = "あぁ、ビックリしたぁ。<end>"
 korean = "아아, 깜짝 놀랐네.<end>"

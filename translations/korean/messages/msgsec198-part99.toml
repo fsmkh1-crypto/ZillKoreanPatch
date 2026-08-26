@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1980000"]
+japanese = "フェルムメッセージ開始<end>"
+korean = "페름 메시지 시작<end>"
+
 ["1980003"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
@@ -143,3 +147,7 @@ korean = "그, 그런가요….<end>"
 ["1980235"]
 japanese = "変なことを言うんだな<end>"
 korean = "이상한 소리를 하는군.<end>"
+
+["1980247"]
+japanese = "フェルムメッセージ終了<end>"
+korean = "페름 메시지 종료<end>"

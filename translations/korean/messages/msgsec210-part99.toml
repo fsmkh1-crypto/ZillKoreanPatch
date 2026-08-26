@@ -4,6 +4,10 @@
 japanese = "異種族間の４用開始<end>"
 korean = "이종족 간 4용 시작<end>"
 
+["2100007"]
+japanese = "なあ、頼む。<line-break>できれば<value:$28>も<line-break>一緒に来てくれないか？<end>"
+korean = "부탁이야. 가능하면 <value:$28>도 같이 와 주지 않을래?<end>"
+
 ["2100008"]
 japanese = "一緒に行く<end>"
 korean = "같이 간다<end>"
@@ -15,6 +19,10 @@ korean = "미안하지만…<end>"
 ["2100013"]
 japanese = "えっ？<end>"
 korean = "어?<end>"
+
+["2100018"]
+japanese = "どういうふうにですか？<end>"
+korean = "어떤 식으로요?<end>"
 
 ["2100020"]
 japanese = "まあ…。<end>"

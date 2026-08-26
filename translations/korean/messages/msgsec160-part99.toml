@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1600003"]
+japanese = "ねえ、<value:$28>。<line-break>また、一緒に森に行こうね。<line-break>約束だよ。<end>"
+korean = "있잖아, <value:$28>. 또 같이 숲에 가자. 약속이야.<end>"
+
 ["1600007"]
 japanese = "キャー！<end>"
 korean = "꺄악!<end>"

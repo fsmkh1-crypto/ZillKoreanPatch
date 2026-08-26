@@ -88,6 +88,10 @@ korean = "어라? 누가 왔나?<end>"
 japanese = "その戦い、手を貸そう。<end>"
 korean = "그 싸움, 힘을 보태지.<end>"
 
+["1890141"]
+japanese = "すまない。<line-break>手間取った。<end>"
+korean = "미안하다. 시간이 좀 걸렸다.<end>"
+
 ["1890147"]
 japanese = "じゃあね。<line-break>またあとで会おうね、<line-break><value:$28>。<end>"
 korean = "그럼 안녕. 나중에 또 만나자, <value:$28>.<end>"

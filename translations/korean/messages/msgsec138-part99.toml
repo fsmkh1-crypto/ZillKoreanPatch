@@ -208,6 +208,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "…待って、<value:$28>。<end>"
 korean = "…기다려, <value:$28>.<end>"
 
+["1380303"]
+japanese = "<if><value:$29><equal>%0少年よ、使いを頼みたい。<end>少女よ、使いを頼みたい。<end>"
+korean = "<if><value:$29><equal>%0소년이여, 심부름을 부탁하고 싶다.<end>소녀여, 심부름을 부탁하고 싶다.<end>"
+
 ["1380308"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"

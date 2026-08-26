@@ -92,6 +92,10 @@ korean = "그, <value:$28>?<end>"
 japanese = "もう！<end>"
 korean = "정말!<end>"
 
+["1350134"]
+japanese = "　　ね…<line-break>　…ティアナ。<end>"
+korean = "있잖아… …티아나.<end>"
+
 ["1350135"]
 japanese = "なっ！<end>"
 korean = "뭐!?<end>"
@@ -127,6 +131,10 @@ korean = "나, 나는….<end>"
 ["1350170"]
 japanese = "…来い、レムオン。<end>"
 korean = "…와라, 레몬.<end>"
+
+["1350172"]
+japanese = "かもな。<line-break>それだけかい？<end>"
+korean = "그럴지도. 그게 다야?<end>"
 
 ["1350173"]
 japanese = "…それは、悲しいよ。<end>"
@@ -203,6 +211,10 @@ korean = "티아나…?<end>"
 ["1350265"]
 japanese = "レムオン、来い！！<end>"
 korean = "레몬, 와!!<end>"
+
+["1350266"]
+japanese = "俺は…俺…は、<line-break>もう…。<end>"
+korean = "나는… 나는… 이제….<end>"
 
 ["1350268"]
 japanese = "くっ！<end>"
@@ -332,6 +344,10 @@ korean = "알았어. 좋아.<end>"
 japanese = "ありがとうございます！<end>"
 korean = "감사합니다!<end>"
 
+["1350385"]
+japanese = "よし。<line-break>んじゃ、出発よ。<end>"
+korean = "좋아. 그럼 출발하자.<end>"
+
 ["1350393"]
 japanese = "し、しかし！<end>"
 korean = "하, 하지만!<end>"
@@ -436,6 +452,10 @@ korean = "안 묻는구나.<end>"
 japanese = "ありがとよ…<line-break><value:$28>…<end>"
 korean = "고맙다… <value:$28>….<end>"
 
+["1350510"]
+japanese = "これが<line-break>自分のために生きるってことなんだよ、<line-break><value:$28>。<end>"
+korean = "이게 자신을 위해 산다는 거야, <value:$28>.<end>"
+
 ["1350519"]
 japanese = "…ちっ<end>"
 korean = "…칫<end>"
@@ -507,6 +527,10 @@ korean = "오빠!!<end>"
 ["1350553"]
 japanese = "え…？<line-break><value:$28>、<line-break>ホントに来てくれたの？<end>"
 korean = "어…? <value:$28>, 정말 와 준 거야?<end>"
+
+["1350558"]
+japanese = "お願い<line-break>兄さんを捜して！<end>"
+korean = "부탁이야, 오빠를 찾아줘!<end>"
 
 ["1350559"]
 japanese = "ありがとう、<line-break><value:$28>。<end>"

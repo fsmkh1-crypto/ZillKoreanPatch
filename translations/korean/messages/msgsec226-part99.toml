@@ -12,6 +12,10 @@ korean = "윽…, 흑….<end>"
 japanese = "…えっ！？<end>"
 korean = "…뭐!?<end>"
 
+["2260011"]
+japanese = "…う、うるせえやいっ！<end>"
+korean = "…시, 시끄러워!<end>"
+
 ["2260017"]
 japanese = "どうする、<value:$28>？<end>"
 korean = "어떻게 할래, <value:$28>?<end>"

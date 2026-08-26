@@ -68,6 +68,14 @@ korean = "각오는 되셨습니까?<end>"
 japanese = "手加減はナシだからね。<end>"
 korean = "봐주기 없으니까.<end>"
 
+["270098"]
+japanese = "よっ、<value:$28>。<line-break>本気出しちゃ、やーよ。<line-break>お手柔らかにね。<end>"
+korean = "여어, <value:$28>. 진심으로 하면 안 돼. 살살 부탁해.<end>"
+
+["270107"]
+japanese = "まいったな、<value:$28>と<line-break>あたるなんて。<line-break>でも、負けないよ！<end>"
+korean = "곤란하네, <value:$28>와 맞붙게 되다니. 그래도 지지 않을 거야!<end>"
+
 ["270126"]
 japanese = "へへ。よろしくな。<end>"
 korean = "헤헤. 잘 부탁한다.<end>"

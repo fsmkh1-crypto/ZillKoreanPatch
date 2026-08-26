@@ -32,6 +32,10 @@ korean = "무슨 일이세요, 아버님?<end>"
 japanese = "あ…、え？　え？<end>"
 korean = "아…, 어? 어?<end>"
 
+["1930050"]
+japanese = "<value:$28>さん、<line-break>心配なのでついていって<line-break>あげてください。<end>"
+korean = "<value:$28> 씨, 걱정되니 따라가 주세요.<end>"
+
 ["1930057"]
 japanese = "なあ…。<end>"
 korean = "있잖아….<end>"
@@ -63,6 +67,10 @@ korean = "스승님?<end>"
 ["1930086"]
 japanese = "お疲れさまでした。<end>"
 korean = "수고하셨습니다.<end>"
+
+["1930091"]
+japanese = "ぼくは<line-break><value:$28>との旅で<line-break>たっくさんのキレイに出会った。<end>"
+korean = "나는 <value:$28>와 여행하면서 정말 많은 아름다움을 만났어.<end>"
 
 ["1930094"]
 japanese = "ぼくに一番キレイを見せてくれる<line-break><value:$28>と<line-break>一緒にね。<end>"
