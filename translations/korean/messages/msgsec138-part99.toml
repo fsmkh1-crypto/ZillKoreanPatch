@@ -12,13 +12,29 @@ korean = "보고 싶지 않아<end>"
 japanese = "んっ…。<end>"
 korean = "응….<end>"
 
+["1380089"]
+japanese = "気にしていた<end>"
+korean = "신경 쓰고 있었다<end>"
+
 ["1380113"]
 japanese = "じゃねー。<end>"
 korean = "또 봐.<end>"
 
+["1380167"]
+japanese = "よかった…。<end>"
+korean = "다행이다….<end>"
+
 ["1380173"]
 japanese = "ナッジ…。<end>"
 korean = "나지….<end>"
+
+["1380188"]
+japanese = "さ、殺気っ？<end>"
+korean = "사, 살기?<end>"
+
+["1380202"]
+japanese = "いいことっ！<end>"
+korean = "좋은 일이야!<end>"
 
 ["1380207"]
 japanese = "腕輪を渡す<end>"
@@ -31,6 +47,10 @@ korean = "그런가….<end>"
 ["1380255"]
 japanese = "俺は…<end>"
 korean = "나는…<end>"
+
+["1380260"]
+japanese = "ああ、これ？<end>"
+korean = "아, 이거?<end>"
 
 ["1380311"]
 japanese = "うわーん！<end>"
@@ -48,13 +68,49 @@ korean = "어이쿠!<end>"
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
 
+["1380440"]
+japanese = "説得を続ける<end>"
+korean = "설득을 계속한다<end>"
+
 ["1380441"]
 japanese = "あきらめる<end>"
 korean = "포기한다<end>"
 
+["1380450"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["1380454"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["1380457"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["1380460"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["1380462"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["1380465"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
+
 ["1380472"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
+
+["1380473"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
+["1380520"]
+japanese = "こんにちは。<end>"
+korean = "안녕하세요.<end>"
 
 ["1380557"]
 japanese = "ははは！<end>"

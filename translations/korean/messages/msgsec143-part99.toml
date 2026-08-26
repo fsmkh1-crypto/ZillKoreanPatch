@@ -12,6 +12,10 @@ korean = "예, 옙.<end>"
 japanese = "へ、へい！<end>"
 korean = "예, 옙!<end>"
 
+["1430051"]
+japanese = "下がってな！<end>"
+korean = "뒤로 물러나!<end>"
+
 ["1430056"]
 japanese = "行くよ！<end>"
 korean = "간다!<end>"
@@ -31,6 +35,10 @@ korean = "고성이란?<end>"
 ["1430108"]
 japanese = "また今度<end>"
 korean = "다음에<end>"
+
+["1430126"]
+japanese = "よろしく頼む<end>"
+korean = "잘 부탁한다<end>"
 
 ["1430127"]
 japanese = "また今度<end>"

@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1420036"]
+japanese = "ナーシェス。<end>"
+korean = "나셰스.<end>"
+
 ["1420040"]
 japanese = "くっ…。<end>"
 korean = "큭….<end>"
+
+["1420048"]
+japanese = "やぁ、君か。<end>"
+korean = "여어, 너구나.<end>"
 
 ["1420135"]
 japanese = "待て。<end>"
@@ -11,6 +19,14 @@ korean = "기다려.<end>"
 ["1420155"]
 japanese = "うっ…！？<end>"
 korean = "윽…!?<end>"
+
+["1420157"]
+japanese = "…立ち去れ。<end>"
+korean = "…물러가라.<end>"
+
+["1420207"]
+japanese = "レムオン様！<end>"
+korean = "레몬님!<end>"
 
 ["1420218"]
 japanese = "何！？<end>"
@@ -40,6 +56,10 @@ korean = "크오!!<end>"
 japanese = "セラ…。<end>"
 korean = "세라….<end>"
 
+["1420313"]
+japanese = "面倒だがな。<end>"
+korean = "귀찮긴 하지만.<end>"
+
 ["1420316"]
 japanese = "出発だな。<end>"
 korean = "출발이군.<end>"
@@ -52,9 +72,17 @@ korean = "아아….<end>"
 japanese = "こないわ。<end>"
 korean = "안 오네.<end>"
 
+["1420345"]
+japanese = "こ、こらっ！<end>"
+korean = "이, 이봐!<end>"
+
 ["1420358"]
 japanese = "うっ…。<end>"
 korean = "윽….<end>"
+
+["1420372"]
+japanese = "来ません…。<end>"
+korean = "오지 않습니다….<end>"
 
 ["1420402"]
 japanese = "領主様！<end>"
@@ -68,6 +96,10 @@ korean = "크와악!<end>"
 japanese = "ええ。<end>"
 korean = "네.<end>"
 
+["1420434"]
+japanese = "…そうだな。<end>"
+korean = "…그렇군.<end>"
+
 ["1420435"]
 japanese = "行くの？<end>"
 korean = "가는 거야?<end>"
@@ -76,13 +108,33 @@ korean = "가는 거야?<end>"
 japanese = "まだゴブ。<end>"
 korean = "아직 고브.<end>"
 
+["1420524"]
+japanese = "終わったな。<end>"
+korean = "끝났군.<end>"
+
+["1420555"]
+japanese = "レムオン様！<end>"
+korean = "레몬님!<end>"
+
 ["1420566"]
 japanese = "何！？<end>"
 korean = "뭐!?<end>"
 
+["1420583"]
+japanese = "そ、それは…<end>"
+korean = "그, 그건…<end>"
+
 ["1420614"]
 japanese = "こないわ。<end>"
 korean = "안 오네.<end>"
+
+["1420619"]
+japanese = "こ、こらっ！<end>"
+korean = "이, 이봐!<end>"
+
+["1420638"]
+japanese = "来ません…。<end>"
+korean = "오지 않습니다….<end>"
 
 ["1420647"]
 japanese = "フッ…。<end>"
@@ -95,6 +147,10 @@ korean = "크오!!<end>"
 ["1420653"]
 japanese = "セラ…。<end>"
 korean = "세라….<end>"
+
+["1420663"]
+japanese = "面倒だがな。<end>"
+korean = "귀찮긴 하지만.<end>"
 
 ["1420666"]
 japanese = "出発だな。<end>"

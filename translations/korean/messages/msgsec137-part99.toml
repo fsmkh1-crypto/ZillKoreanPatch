@@ -16,6 +16,10 @@ korean = "아름다움<end>"
 japanese = "気になる<end>"
 korean = "신경 쓰여<end>"
 
+["1370042"]
+japanese = "気にならない<end>"
+korean = "신경 쓰이지 않는다<end>"
+
 ["1370057"]
 japanese = "強さ<end>"
 korean = "강함<end>"
@@ -76,6 +80,14 @@ korean = "！<end>"
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>아!<end>"
 
+["1370276"]
+japanese = "お前の名は？<end>"
+korean = "네 이름은?<end>"
+
+["1370286"]
+japanese = "何も用はない<end>"
+korean = "아무 볼일도 없다<end>"
+
 ["1370309"]
 japanese = "ははは！<end>"
 korean = "하하하!<end>"
@@ -92,6 +104,14 @@ korean = "알고 있다<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370355"]
+japanese = "…どうした？<end>"
+korean = "…무슨 일이야?<end>"
+
+["1370387"]
+japanese = "な、何事だ？<end>"
+korean = "무, 무슨 일이지?<end>"
+
 ["1370401"]
 japanese = "教わった<end>"
 korean = "배웠다<end>"
@@ -99,6 +119,14 @@ korean = "배웠다<end>"
 ["1370405"]
 japanese = "ソウルとは<end>"
 korean = "소울이란<end>"
+
+["1370407"]
+japanese = "ソウルと成長<end>"
+korean = "소울과 성장<end>"
+
+["1370409"]
+japanese = "魔法と精霊力<end>"
+korean = "마법과 정령력<end>"
 
 ["1370429"]
 japanese = "理解した<end>"
@@ -115,6 +143,18 @@ korean = "<value:$28>인가.<end>"
 ["1370495"]
 japanese = "お願いする<end>"
 korean = "부탁한다<end>"
+
+["1370498"]
+japanese = "ソウルとは？<end>"
+korean = "소울이란?<end>"
+
+["1370500"]
+japanese = "ソウルと成長<end>"
+korean = "소울과 성장<end>"
+
+["1370502"]
+japanese = "魔法と精霊力<end>"
+korean = "마법과 정령력<end>"
 
 ["1370541"]
 japanese = "大丈夫<end>"
@@ -144,9 +184,17 @@ korean = "네.<end>"
 japanese = "ちぇっ。<end>"
 korean = "쳇.<end>"
 
+["1370615"]
+japanese = "お、おいっ。<end>"
+korean = "어, 어이.<end>"
+
 ["1370638"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
+
+["1370671"]
+japanese = "こんにちは。<end>"
+korean = "안녕하세요.<end>"
 
 ["1370700"]
 japanese = "ははは！<end>"

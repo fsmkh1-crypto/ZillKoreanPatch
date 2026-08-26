@@ -48,9 +48,21 @@ korean = "히이이익!<end>"
 japanese = "ば、ばかな…<end>"
 korean = "마, 말도 안 돼…<end>"
 
+["1350231"]
+japanese = "ティアナ…？<end>"
+korean = "티아나…?<end>"
+
 ["1350247"]
 japanese = "ぐっ！<end>"
 korean = "큭!<end>"
+
+["1350258"]
+japanese = "ば、バカな。<end>"
+korean = "마, 말도 안 돼.<end>"
+
+["1350260"]
+japanese = "ティアナ…？<end>"
+korean = "티아나…?<end>"
 
 ["1350268"]
 japanese = "くっ！<end>"
@@ -108,9 +120,25 @@ korean = "형!<end>"
 japanese = "そんな…！<end>"
 korean = "그럴 수가…!<end>"
 
+["1350393"]
+japanese = "し、しかし！<end>"
+korean = "하, 하지만!<end>"
+
+["1350396"]
+japanese = "カルラ様…。<end>"
+korean = "카를라님….<end>"
+
 ["1350405"]
 japanese = "ゼネテス！<end>"
 korean = "제네테스!<end>"
+
+["1350411"]
+japanese = "ゼネテス様！<end>"
+korean = "제네테스님!<end>"
+
+["1350426"]
+japanese = "全軍撤退よ。<end>"
+korean = "전군 철수야.<end>"
 
 ["1350431"]
 japanese = "あ…<end>"
@@ -127,6 +155,10 @@ korean = "비명이!<end>"
 ["1350442"]
 japanese = "ヴァイ！<end>"
 korean = "바이!<end>"
+
+["1350444"]
+japanese = "お兄ちゃん！<end>"
+korean = "오빠!<end>"
 
 ["1350452"]
 japanese = "意識を失う<end>"
@@ -163,3 +195,7 @@ korean = "지켜본다<end>"
 ["1350541"]
 japanese = "素通りする<end>"
 korean = "그냥 지나간다<end>"
+
+["1350571"]
+japanese = "何か情報は？<end>"
+korean = "무슨 정보라도 있어?<end>"

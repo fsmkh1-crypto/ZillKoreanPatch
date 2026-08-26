@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1410013"]
+japanese = "ひっ………！<end>"
+korean = "히익………!<end>"
+
 ["1410018"]
 japanese = "でも、彼は任務に失敗した。<line-break>殺人機械のはずの彼が、おびえという<line-break>不要な感情を持ってしまってね。<line-break>ほら、今も後ろでふるえている。<line-break>無様なものだね。フフフ。<line-break>こうなっては殺人機械も形なしだ。<end>"
 korean = "하지만 그는 임무에 실패했지. 살인 기계여야 할 그가 두려움이라는 쓸데없는 감정을 품어 버렸거든. 봐, 지금도 뒤에서 떨고 있잖아. 참 꼴사납군. 후후후. 이래서는 살인 기계라는 이름도 무색하지.<end>"
@@ -20,13 +24,29 @@ korean = "레이븐!<end>"
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
 
+["1410087"]
+japanese = "だから、な？<end>"
+korean = "그러니까, 응?<end>"
+
+["1410088"]
+japanese = "だから、な？<end>"
+korean = "그러니까, 응?<end>"
+
 ["1410095"]
 japanese = "…ゆくぞ。<end>"
+korean = "…간다.<end>"
+
+["1410096"]
+japanese = "…ゆくぞっ。<end>"
 korean = "…간다.<end>"
 
 ["1410105"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1410119"]
+japanese = "…よかった。<end>"
+korean = "…다행이다.<end>"
 
 ["1410155"]
 japanese = "ありがと。<end>"
@@ -44,9 +64,17 @@ korean = "하지만….<end>"
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
 
+["1410279"]
+japanese = "財務長官殿！<end>"
+korean = "재무장관님!<end>"
+
 ["1410288"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1410290"]
+japanese = "ティアナ様。<end>"
+korean = "티아나님.<end>"
 
 ["1410310"]
 japanese = "ロイ…。<end>"
@@ -59,6 +87,10 @@ korean = "아아!<end>"
 ["1410327"]
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
+
+["1410328"]
+japanese = "お兄ちゃん！<end>"
+korean = "오빠!<end>"
 
 ["1410344"]
 japanese = "えっ？<end>"
@@ -76,9 +108,17 @@ korean = "오라버니!<end>"
 japanese = "ヴィア…？<end>"
 korean = "비아…?<end>"
 
+["1410467"]
+japanese = "むにゅー…。<end>"
+korean = "우뉴우….<end>"
+
 ["1410482"]
 japanese = "まだゴブ。<end>"
 korean = "아직 고브.<end>"
+
+["1410534"]
+japanese = "な、何者だ。<end>"
+korean = "누, 누구냐.<end>"
 
 ["1410537"]
 japanese = "な、長っ！<end>"
@@ -88,9 +128,17 @@ korean = "기, 길어!<end>"
 japanese = "う、うわ！<end>"
 korean = "우, 우왓!<end>"
 
+["1410542"]
+japanese = "ぐ、ぐえ…！<end>"
+korean = "크, 크엑…!<end>"
+
 ["1410544"]
 japanese = "ぎゃっ…！<end>"
 korean = "꺅…!<end>"
+
+["1410548"]
+japanese = "に、逃げろ！<end>"
+korean = "도, 도망쳐!<end>"
 
 ["1410579"]
 japanese = "ああ…。<end>"

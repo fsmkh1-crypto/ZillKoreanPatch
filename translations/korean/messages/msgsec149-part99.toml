@@ -24,6 +24,14 @@ korean = "돕는다<end>"
 japanese = "助けない<end>"
 korean = "안 도와<end>"
 
+["1490045"]
+japanese = "くっ。退け！<end>"
+korean = "큭. 물러서!<end>"
+
+["1490053"]
+japanese = "当たり前だ！<end>"
+korean = "당연하지!<end>"
+
 ["1490068"]
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
@@ -35,6 +43,10 @@ korean = "돕는다<end>"
 ["1490072"]
 japanese = "助けない<end>"
 korean = "안 도와<end>"
+
+["1490073"]
+japanese = "くっ。退け！<end>"
+korean = "큭. 물러서!<end>"
 
 ["1490083"]
 japanese = "大丈夫か？<end>"
@@ -52,13 +64,41 @@ korean = "이봐, 자네!<end>"
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
 
+["1490153"]
+japanese = "な、なんだ？<end>"
+korean = "뭐, 뭐지?<end>"
+
 ["1490163"]
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
 
+["1490164"]
+japanese = "とめなければ<end>"
+korean = "막아야 한다<end>"
+
+["1490165"]
+japanese = "放っておこう<end>"
+korean = "내버려 두자<end>"
+
+["1490198"]
+japanese = "な、なんだ？<end>"
+korean = "뭐, 뭐지?<end>"
+
 ["1490226"]
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
+
+["1490227"]
+japanese = "放っておこう<end>"
+korean = "내버려 두자<end>"
+
+["1490245"]
+japanese = "なんだ貴様！<end>"
+korean = "뭐냐, 네놈!<end>"
+
+["1490276"]
+japanese = "な、な、な…<end>"
+korean = "뭐, 뭐, 뭐…<end>"
 
 ["1490286"]
 japanese = "あんたぁ！<end>"
@@ -67,6 +107,10 @@ korean = "당신 말이야!<end>"
 ["1490298"]
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
+
+["1490299"]
+japanese = "放っておこう<end>"
+korean = "내버려 두자<end>"
 
 ["1490329"]
 japanese = "おわっ！<end>"

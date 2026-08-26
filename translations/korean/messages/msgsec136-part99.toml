@@ -28,6 +28,10 @@ korean = "간다!<end>"
 japanese = "もういい<end>"
 korean = "됐어<end>"
 
+["1360138"]
+japanese = "イズキヤル…<end>"
+korean = "이즈키야르…<end>"
+
 ["1360255"]
 japanese = "はい！<end>"
 korean = "네!<end>"
@@ -64,9 +68,21 @@ korean = "…누나.<end>"
 japanese = "…姉さん。<end>"
 korean = "…누나.<end>"
 
+["1360344"]
+japanese = "（兄さん…）<end>"
+korean = "(형…)<end>"
+
 ["1360349"]
 japanese = "行け！<end>"
 korean = "가!<end>"
+
+["1360350"]
+japanese = "…忘れ物だ。<end>"
+korean = "…두고 간 물건이다.<end>"
+
+["1360363"]
+japanese = "…セラ…か？<end>"
+korean = "…세라…인가?<end>"
 
 ["1360410"]
 japanese = "でも…。<end>"
@@ -91,6 +107,10 @@ korean = "노엘….<end>"
 ["1360537"]
 japanese = "貴様…。<end>"
 korean = "네놈….<end>"
+
+["1360538"]
+japanese = "ナーシェス！<end>"
+korean = "나셰스!<end>"
 
 ["1360541"]
 japanese = "え？<end>"
