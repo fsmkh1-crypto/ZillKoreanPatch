@@ -32,6 +32,10 @@ korean = "사고사입니다.<end>"
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
 
+["430107"]
+japanese = "今は黙っている<end>"
+korean = "지금은 입을 다문다<end>"
+
 ["430160"]
 japanese = "読んでみよう<end>"
 korean = "읽어 보자<end>"
@@ -59,3 +63,7 @@ korean = "몰라<end>"
 ["430201"]
 japanese = "くだらない<end>"
 korean = "시시해<end>"
+
+["430202"]
+japanese = "おもしろかった<end>"
+korean = "재미있었어<end>"

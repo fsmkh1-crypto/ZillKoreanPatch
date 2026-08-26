@@ -36,6 +36,14 @@ korean = "묵고 간다<end>"
 japanese = "待て。<end>"
 korean = "기다려.<end>"
 
+["450139"]
+japanese = "こ、こいつは。<end>"
+korean = "이, 이 녀석은.<end>"
+
+["450140"]
+japanese = "ネ、ネメア！？<end>"
+korean = "네, 네메아!?<end>"
+
 ["450146"]
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
@@ -47,6 +55,10 @@ korean = "아, 네.<end>"
 ["450153"]
 japanese = "僕…。<end>"
 korean = "나….<end>"
+
+["450175"]
+japanese = "なんだ、貴様！<end>"
+korean = "뭐냐, 네놈!<end>"
 
 ["450177"]
 japanese = "改！<end>"

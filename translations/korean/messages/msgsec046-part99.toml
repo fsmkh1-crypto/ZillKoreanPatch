@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["460004"]
+japanese = "待て！　悪人！<end>"
+korean = "거기 서! 악당!<end>"
+
 ["460021"]
 japanese = "ぐふっ！<end>"
 korean = "크헉!<end>"
@@ -20,6 +24,10 @@ korean = "묵는다<end>"
 japanese = "泊まらない<end>"
 korean = "묵지 않는다<end>"
 
+["460094"]
+japanese = "親父、やめろ。<end>"
+korean = "아버지, 그만해.<end>"
+
 ["460095"]
 japanese = "…ヴァン。<end>"
 korean = "…반.<end>"
@@ -35,6 +43,10 @@ korean = "미안하군.<end>"
 ["460152"]
 japanese = "くすっ。<end>"
 korean = "후훗.<end>"
+
+["460172"]
+japanese = "転送機について<end>"
+korean = "전송기에 대해<end>"
 
 ["460174"]
 japanese = "ネモについて<end>"
@@ -55,6 +67,10 @@ korean = "받는다<end>"
 ["460205"]
 japanese = "断る<end>"
 korean = "거절한다<end>"
+
+["460215"]
+japanese = "説明してもらう<end>"
+korean = "설명을 듣는다<end>"
 
 ["460216"]
 japanese = "説明不要<end>"

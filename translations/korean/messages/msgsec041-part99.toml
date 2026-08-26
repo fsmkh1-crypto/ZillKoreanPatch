@@ -36,6 +36,46 @@ korean = "(미사용) 8<end>"
 japanese = "（未使用）９<end>"
 korean = "(미사용) 9<end>"
 
+["410010"]
+japanese = "（未使用）１０<end>"
+korean = "(미사용)10<end>"
+
+["410011"]
+japanese = "（未使用）１１<end>"
+korean = "(미사용)11<end>"
+
+["410012"]
+japanese = "（未使用）１２<end>"
+korean = "(미사용)12<end>"
+
+["410013"]
+japanese = "（未使用）１３<end>"
+korean = "(미사용)13<end>"
+
+["410014"]
+japanese = "（未使用）１４<end>"
+korean = "(미사용)14<end>"
+
+["410015"]
+japanese = "（未使用）１５<end>"
+korean = "(미사용)15<end>"
+
+["410016"]
+japanese = "（未使用）１６<end>"
+korean = "(미사용)16<end>"
+
+["410017"]
+japanese = "（未使用）１７<end>"
+korean = "(미사용)17<end>"
+
+["410018"]
+japanese = "（未使用）１８<end>"
+korean = "(미사용)18<end>"
+
+["410044"]
+japanese = "私を疑うのか？<end>"
+korean = "날 의심하는 건가?<end>"
+
 ["410053"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
@@ -43,6 +83,10 @@ korean = "레이븐!<end>"
 ["410080"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
+
+["410082"]
+japanese = "…この感じ…。<end>"
+korean = "…이 느낌….<end>"
 
 ["410084"]
 japanese = "あなたは？<end>"

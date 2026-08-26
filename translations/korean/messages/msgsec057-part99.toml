@@ -8,6 +8,10 @@ korean = "아니에요.<end>"
 japanese = "それは？<end>"
 korean = "그건?<end>"
 
+["570027"]
+japanese = "こいつですよ。<end>"
+korean = "이 녀석이에요.<end>"
+
 ["570042"]
 japanese = "これは？<end>"
 korean = "이건?<end>"
@@ -15,6 +19,10 @@ korean = "이건?<end>"
 ["570049"]
 japanese = "なるほどな。<end>"
 korean = "그렇군.<end>"
+
+["570056"]
+japanese = "転送機について<end>"
+korean = "전송기에 대해<end>"
 
 ["570058"]
 japanese = "ネモについて<end>"
@@ -28,6 +36,10 @@ korean = "질문은 없다<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["570082"]
+japanese = "何者だ、貴様！<end>"
+korean = "네놈, 정체가 뭐냐!<end>"
+
 ["570084"]
 japanese = "うんん…。<end>"
 korean = "으음….<end>"
@@ -39,6 +51,10 @@ korean = "아!<end>"
 ["570096"]
 japanese = "いいよ<end>"
 korean = "좋아<end>"
+
+["570097"]
+japanese = "それはできない<end>"
+korean = "그건 할 수 없어<end>"
 
 ["570108"]
 japanese = "<value:$28>か？<end>"
