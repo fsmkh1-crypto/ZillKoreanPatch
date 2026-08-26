@@ -600,6 +600,10 @@ korean = "차, 참패했습니다….<end>"
 japanese = "そうか。<line-break>もう、いいんだな？<end>"
 korean = "그런가. 이제 괜찮은 거지?<end>"
 
+["1370540"]
+japanese = "自信がないのでもういちど最初から聞きたい<end>"
+korean = "자신이 없으니 처음부터 다시 듣고 싶다<end>"
+
 ["1370541"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
@@ -728,6 +732,10 @@ korean = "한 분야에 뛰어난 성장<end>"
 japanese = "んじゃ、ま<line-break>これで質問は終わりってことで<line-break>いいかい、<value:$28>？<end>"
 korean = "그럼 뭐, 이걸로 질문은 끝인 걸로 해도 되겠지, <value:$28>?<end>"
 
+["1370637"]
+japanese = "自信がないのでもういちど最初から聞きたい<end>"
+korean = "자신이 없으니 처음부터 다시 듣고 싶다<end>"
+
 ["1370638"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
@@ -759,6 +767,10 @@ korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
 ["1370671"]
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
+
+["1370680"]
+japanese = "<value:$28>さん、<line-break>どうして宿屋さんに？<line-break>まだ用事は済んでいませんよ。<end>"
+korean = "<value:$28> 씨, 왜 여관에? 아직 용무가 끝나지 않았어요.<end>"
 
 ["1370683"]
 japanese = "はは。2人で散歩でもしてたのかい？<end>"

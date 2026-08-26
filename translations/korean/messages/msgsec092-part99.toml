@@ -48,6 +48,10 @@ korean = "동료로 삼지 않는다<end>"
 japanese = "<value:$28>か…。<line-break>よろしくな、<value:$28>。<end>"
 korean = "<value:$28>인가… 잘 부탁한다, <value:$28>.<end>"
 
+["920028"]
+japanese = "すぐにデルガドをパーティーに入れますか？<end>"
+korean = "지금 바로 델가도를 파티에 넣겠습니까?<end>"
+
 ["920029"]
 japanese = "すぐに一緒に冒険に出る<end>"
 korean = "곧바로 함께 모험을 떠난다<end>"
@@ -72,6 +76,10 @@ korean = "흥! 술맛 떨어졌군!<end>"
 japanese = "<value:$28>か…。<line-break>よろしくな、<value:$28>。<end>"
 korean = "<value:$28>인가… 잘 부탁한다, <value:$28>.<end>"
 
+["920056"]
+japanese = "すぐにデルガドをパーティーに入れますか？<end>"
+korean = "지금 바로 델가도를 파티에 넣겠습니까?<end>"
+
 ["920057"]
 japanese = "もぉ、イヤー！<line-break><value:$28>ー。<end>"
 korean = "정말, 싫어! <value:$28>.<end>"
@@ -79,6 +87,10 @@ korean = "정말, 싫어! <value:$28>.<end>"
 ["920073"]
 japanese = "そうか…、なら、いいわい…。<end>"
 korean = "그런가… 그럼 됐다….<end>"
+
+["920074"]
+japanese = "…気分が悪いわ！<line-break>…出て行け！<end>"
+korean = "…기분 나빠! …나가!<end>"
 
 ["920076"]
 japanese = "<value:$28>か。<end>"

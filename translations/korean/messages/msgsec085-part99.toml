@@ -40,6 +40,10 @@ korean = "죽여!<end>"
 japanese = "<value:$28>さん<line-break>…ですね。<end>"
 korean = "<value:$28> 씨… 맞죠.<end>"
 
+["850029"]
+japanese = "興味がないわけじゃない。話だけ聞いてみる<end>"
+korean = "관심이 없는 건 아니야. 이야기만 들어 보지<end>"
+
 ["850030"]
 japanese = "断る<end>"
 korean = "거절한다<end>"

@@ -60,6 +60,10 @@ korean = "그 장비의 속성은 바꿀 수 없습니다.<end>"
 japanese = "どの精霊を宿しますか？<end>"
 korean = "어느 정령을 깃들게 할까요?<end>"
 
+["170048"]
+japanese = "あなたの旅に、神のご加護のあらんことを。<end>"
+korean = "당신의 여행에 신의 가호가 함께하기를.<end>"
+
 ["170049"]
 japanese = "ライトソード<end>"
 korean = "라이트 소드<end>"
@@ -508,6 +512,10 @@ korean = "이 상품을 몇 개 사시겠습니까?<end>"
 japanese = "個数はこれでよろしいのですね？<end>"
 korean = "수량은 이걸로 괜찮으신가요?<end>"
 
+["170194"]
+japanese = "これをおいくつ売っていただけるのですか？<end>"
+korean = "이걸 몇 개나 팔아 주시겠습니까?<end>"
+
 ["170195"]
 japanese = "ありがとうございました。<end>"
 korean = "감사합니다.<end>"
@@ -535,6 +543,10 @@ korean = "오오, 이것이 <value:$15>입니까. <value:$1A>기아에 넘겨주
 ["170209"]
 japanese = "こ、これがかの<value:$15>っ！<line-break><value:$1A>ギアでよろしいですか！？<end>"
 korean = "이, 이것이 그 <value:$15>! <value:$1A>기아면 되겠습니까!?<end>"
+
+["170215"]
+japanese = "ロードするデータがありません。<line-break><end>"
+korean = "불러올 데이터가 없습니다.<end>"
 
 ["170217"]
 japanese = "フォーマット中です。<end>"

@@ -332,6 +332,10 @@ korean = "무사하냐, <value:$28>?<end>"
 japanese = "…強くなったな、<line-break><value:$28>。<end>"
 korean = "…강해졌구나, <value:$28>.<end>"
 
+["1330442"]
+japanese = "<value:$28>、<line-break>…私も力を貸そう。<end>"
+korean = "<value:$28>, …나도 힘을 보태지.<end>"
+
 ["1330443"]
 japanese = "よう、待ってたよ。<line-break>無限のソウルの持ち主。<line-break><value:$28>。<end>"
 korean = "여어, 기다리고 있었어. 무한의 소울을 지닌 자. <value:$28>.<end>"

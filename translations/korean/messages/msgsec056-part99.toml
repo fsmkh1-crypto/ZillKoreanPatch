@@ -16,6 +16,10 @@ korean = "(저 목소리는…)<end>"
 japanese = "フッ、なんのことだ？<end>"
 korean = "훗, 무슨 소리냐?<end>"
 
+["560007"]
+japanese = "竜王の手先め。<line-break>何を企んでいる！<end>"
+korean = "용왕의 앞잡이 놈. 무슨 꿍꿍이냐!<end>"
+
 ["560010"]
 japanese = "ただ、世界の均衡をとること。　<end>"
 korean = "그저 세계의 균형을 맞추는 것.<end>"
@@ -124,6 +128,10 @@ korean = "우유 정도는 마시고 있어요!<end>"
 japanese = "量が足りないんだ。　　　　　　<end>"
 korean = "양이 부족해.<end>"
 
+["560075"]
+japanese = "あ、おい、ノエル！<line-break>今のウソ…。<end>"
+korean = "아, 야, 노엘! 방금 건 거짓말….<end>"
+
 ["560083"]
 japanese = "堅実と言いなさい！　堅実と！<end>"
 korean = "착실하다고 해! 착실하다고!<end>"
@@ -151,6 +159,10 @@ korean = "아이한텐 할 수 없는 이야기야.<end>"
 ["560105"]
 japanese = "ずるいです。<line-break>内緒話なんて！<end>"
 korean = "치사해요. 비밀 이야기라니!<end>"
+
+["560106"]
+japanese = "あれ？<line-break>やきもち妬いてるのかな？<end>"
+korean = "어라? 질투하는 건가?<end>"
 
 ["560109"]
 japanese = "本当は何を話してたんですか？<end>"

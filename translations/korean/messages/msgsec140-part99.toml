@@ -156,6 +156,10 @@ korean = "싫어어어어!<end>"
 japanese = "くっ、<value:$28>。<line-break>いくぞ！！<end>"
 korean = "큭, <value:$28>. 간다!!<end>"
 
+["1400105"]
+japanese = "<value:$28>様！<line-break>ご無事ですか！？<end>"
+korean = "<value:$28> 님! 무사하십니까!?<end>"
+
 ["1400106"]
 japanese = "ゼネテス様は…？<end>"
 korean = "제네테스 님은…?<end>"
@@ -239,6 +243,10 @@ korean = "아트레이아… 님…?<end>"
 ["1400166"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
+
+["1400168"]
+japanese = "<value:$28>さ…<line-break>…ティアナ…様？<end>"
+korean = "<value:$28> 님… …티아나… 님?<end>"
 
 ["1400173"]
 japanese = "やっこさんもそうじゃねえの？<end>"

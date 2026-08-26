@@ -40,6 +40,10 @@ korean = "…다음은… 없어.<end>"
 japanese = "今度会うときは<line-break>戦場ね。<end>"
 korean = "다음에 만날 땐 전장이겠네.<end>"
 
+["1010068"]
+japanese = "戦場で会いましょ。<line-break><value:$28>。<end>"
+korean = "전장에서 만나자, <value:$28>.<end>"
+
 ["1010088"]
 japanese = "アイリーンメッセージ終端<end>"
 korean = "아이린 메시지 끝<end>"

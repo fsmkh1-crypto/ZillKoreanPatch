@@ -44,6 +44,10 @@ korean = "그럼 요리를 내오게 하죠.<end>"
 japanese = "…よろしゅうございます、陛下。<end>"
 korean = "…좋습니다, 폐하.<end>"
 
+["1680098"]
+japanese = "今日は…すまぬな。<line-break><value:$28>。<end>"
+korean = "오늘은… 미안하군, <value:$28>.<end>"
+
 ["1680114"]
 japanese = "ファーロス・ボリューム３その３終端<end>"
 korean = "파로스 볼륨 3 그 3 끝<end>"

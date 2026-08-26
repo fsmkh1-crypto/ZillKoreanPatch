@@ -128,6 +128,10 @@ korean = "현무 장군. 그대만 믿겠다.<end>"
 japanese = "は…はい…<end>"
 korean = "네… 네…<end>"
 
+["890161"]
+japanese = "なら、いいわ。<line-break>こっちに来て。<end>"
+korean = "그렇다면 됐어. 이쪽으로 와.<end>"
+
 ["890167"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -175,6 +179,10 @@ korean = "…아…니.<end>"
 ["890197"]
 japanese = "そう…<line-break>仕方ない…わね。<end>"
 korean = "그래… 어쩔 수… 없네.<end>"
+
+["890212"]
+japanese = "あのときの…記憶が…<line-break>甦って…<end>"
+korean = "그때의… 기억이… 되살아나서…<end>"
 
 ["890217"]
 japanese = "私…だけ…<end>"
@@ -387,6 +395,10 @@ korean = "용왕의 각성은 전란을 알리는 신의 목소리….<end>"
 ["890446"]
 japanese = "また、戦いの時代が始まるのね…。<end>"
 korean = "또 전쟁의 시대가 시작되는구나….<end>"
+
+["890447"]
+japanese = "もう、たくさんよ…。<line-break><line-break><end>"
+korean = "이제… 지긋지긋해….<end>"
 
 ["890448"]
 japanese = "ええ。<line-break>どうもありがとう。<end>"

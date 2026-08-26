@@ -20,6 +20,10 @@ korean = "자네에겐 아무리 감사해도 모자라겠군.<end>"
 japanese = "まさか、受けぬと言わんじゃろうな？<end>"
 korean = "설마 받지 않겠다고 하진 않겠지?<end>"
 
+["1380025"]
+japanese = "あ…<value:$28>さん。<line-break>見てください、<line-break>かわいい猫さんがいるんですよ。<end>"
+korean = "아… <value:$28> 씨. 보세요, 귀여운 고양이가 있어요.<end>"
+
 ["1380026"]
 japanese = "に…にぁぁああ。<line-break> <line-break> <line-break>………………<end>"
 korean = "냐… 냐아아아. ………………<end>"
@@ -43,6 +47,10 @@ korean = "그럼 <value:$28> 씨, 다시 만날 날을 기대하고 있겠습니
 ["1380039"]
 japanese = "猫さんも、ね。<end>"
 korean = "고양이도, 응.<end>"
+
+["1380046"]
+japanese = "おお、誰かと思えば、<line-break><value:$28>ではないか。<line-break>どうした、眠れんのか？<end>"
+korean = "오, 누군가 했더니 <value:$28> 아닌가. 왜 그래, 잠이 안 오나?<end>"
 
 ["1380053"]
 japanese = "力で立ち向かう<end>"
@@ -679,6 +687,10 @@ korean = "부재중. 곧 돌아옵니다.<end>"
 ["1380526"]
 japanese = "　　　　　留守中。すぐに戻ります。　　　　　<end>"
 korean = "부재중. 곧 돌아옵니다.<end>"
+
+["1380529"]
+japanese = "<value:$28>さん、<line-break>どうして宿屋さんに？<line-break>まだ用事は済んでいませんよ。<end>"
+korean = "<value:$28> 씨, 왜 여관에? 아직 용무가 끝나지 않았어요.<end>"
 
 ["1380532"]
 japanese = "はは。ふたりで散歩でもしてたのかい？<end>"

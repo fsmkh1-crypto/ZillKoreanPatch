@@ -96,6 +96,10 @@ korean = "이쪽입니다. 따라오세요.<end>"
 japanese = "おお恐い。ハハハ…。<end>"
 korean = "오, 무서워라. 하하하….<end>"
 
+["1710128"]
+japanese = "<value:$28>じゃない。<line-break>私に何か？<end>"
+korean = "<value:$28> 아니야. 나한테 무슨 용건이야?<end>"
+
 ["1710136"]
 japanese = "ならば戦うまで！<end>"
 korean = "그렇다면 싸울 뿐!<end>"

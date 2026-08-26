@@ -16,6 +16,10 @@ korean = "서쪽 지하가도<end>"
 japanese = "出直す<end>"
 korean = "다시 시작한다<end>"
 
+["130015"]
+japanese = "よっしゃ。<line-break>それでは、出発じゃ。<end>"
+korean = "좋아. 그럼 출발하자.<end>"
+
 ["130019"]
 japanese = "はい、お願いします<end>"
 korean = "네, 부탁드립니다<end>"
@@ -23,6 +27,10 @@ korean = "네, 부탁드립니다<end>"
 ["130020"]
 japanese = "待ってください<end>"
 korean = "기다려 주세요<end>"
+
+["130021"]
+japanese = "よっしゃ。<line-break>それじゃ戻ろうかの。<end>"
+korean = "좋아. 그럼 돌아갈까.<end>"
 
 ["130024"]
 japanese = "ドワーフ王国メッセージここまで<end>"

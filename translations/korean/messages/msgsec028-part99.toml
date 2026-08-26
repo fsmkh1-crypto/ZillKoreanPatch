@@ -36,6 +36,10 @@ korean = "봐, 역시 내려왔지?<end>"
 japanese = "昨日あんな地震があったってのに？<end>"
 korean = "어제 그렇게 지진이 났는데도?<end>"
 
+["280030"]
+japanese = "ちぇ。<line-break>自分で作ってよく言うぜ。<end>"
+korean = "쳇. 자기가 만들어 놓고 잘도 말하네.<end>"
+
 ["280034"]
 japanese = "えーっ！？<end>"
 korean = "에엣!?<end>"
@@ -51,6 +55,10 @@ korean = "아줌마, 반, 잘 부탁해.<end>"
 ["280039"]
 japanese = "ちぇっ…、<line-break>まあ、任せとけよ。<end>"
 korean = "쳇… 뭐, 맡겨 둬.<end>"
+
+["280043"]
+japanese = "…そうか、昨日の地震でねえ。<line-break>　<end>"
+korean = "…그런가, 어제 지진 때문에.<end>"
 
 ["280047"]
 japanese = "おうよ。<end>"

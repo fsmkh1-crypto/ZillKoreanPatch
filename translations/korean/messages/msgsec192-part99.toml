@@ -100,6 +100,10 @@ korean = "부탁드립니다.<end>"
 japanese = "開いているわ。<line-break>入って。<end>"
 korean = "열려 있어. 들어와.<end>"
 
+["1920134"]
+japanese = "（<value:$28>。<line-break>　あなたがいてくれれば、<line-break>　私、大丈夫よね…。）<end>"
+korean = "(<value:$28>. 네가 있어 주면 나, 괜찮겠지….)<end>"
+
 ["1920138"]
 japanese = "かまいませんね、お母様？<end>"
 korean = "괜찮으시죠, 어머니?<end>"

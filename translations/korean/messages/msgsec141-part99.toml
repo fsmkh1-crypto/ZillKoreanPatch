@@ -152,6 +152,10 @@ korean = "………………. <value:$28> 님!<end>"
 japanese = "同じ女性でも、<line-break><value:$28>様だから<line-break>聞けるのです。<end>"
 korean = "같은 여자라도 <value:$28> 님이시기에 여쭤볼 수 있는 겁니다.<end>"
 
+["1410130"]
+japanese = "<value:$28>様の意見だから、<line-break>まっすぐに受け止められると<line-break>思うのです。<end>"
+korean = "<value:$28> 님의 의견이니까 솔직하게 받아들일 수 있을 것 같아요.<end>"
+
 ["1410131"]
 japanese = "ど、どうか、素直な御意見を。<end>"
 korean = "부, 부디 솔직한 의견을.<end>"
@@ -220,6 +224,10 @@ korean = "하지만….<end>"
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
 
+["1410203"]
+japanese = "<value:$28>さん、<line-break>行きましょう！<end>"
+korean = "<value:$28> 씨, 갑시다!<end>"
+
 ["1410206"]
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
@@ -227,6 +235,10 @@ korean = "<value:$28> 씨~!<end>"
 ["1410223"]
 japanese = "行ってしまったな。<end>"
 korean = "가버렸군.<end>"
+
+["1410237"]
+japanese = "やっと見つけたわ、<line-break><value:$28>！<end>"
+korean = "드디어 찾았어, <value:$28>!<end>"
 
 ["1410240"]
 japanese = "それに…その旅装束は何よ？<end>"
@@ -240,6 +252,10 @@ korean = "저도 가겠습니다.<end>"
 japanese = "…一緒に…来てくれない？<end>"
 korean = "…같이… 와 주지 않을래?<end>"
 
+["1410250"]
+japanese = "さあ、行きましょ、<line-break><value:$28>！<end>"
+korean = "자, 가자, <value:$28>!<end>"
+
 ["1410253"]
 japanese = "ご苦労であった。さがってよい。<end>"
 korean = "수고했다. 물러가도 좋다.<end>"
@@ -251,6 +267,10 @@ korean = "…자기브가 딘갈을 지배한다.<end>"
 ["1410259"]
 japanese = "あっ…ごめんなさい…。<end>"
 korean = "앗… 미안해요….<end>"
+
+["1410261"]
+japanese = "ありがとう。<line-break>こんなことを打ち明けられるのは、<line-break><value:$28>だけなの。<end>"
+korean = "고마워. 이런 이야기를 털어놓을 수 있는 건 <value:$28>뿐이야.<end>"
 
 ["1410272"]
 japanese = "追加メッセージここから<end>"
@@ -335,6 +355,10 @@ korean = "오빠!<end>"
 ["1410329"]
 japanese = "あの…これはその、なんと申しますか…。<end>"
 korean = "저… 이건 그, 뭐라고 해야 할지….<end>"
+
+["1410331"]
+japanese = "ご安心ください、<value:$28>様、<line-break>陛下のお許しは<line-break>いただいております。<end>"
+korean = "안심하세요, <value:$28> 님. 폐하의 허락은 받았습니다.<end>"
 
 ["1410341"]
 japanese = "今さら、わかりきったことでしたね。<end>"

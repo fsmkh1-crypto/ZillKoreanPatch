@@ -104,6 +104,10 @@ korean = "여어, <value:$28>. 진심으로 하면 안 돼. 살살 부탁해.<en
 japanese = "まいったな、<value:$28>と<line-break>あたるなんて。<line-break>でも、負けないよ！<end>"
 korean = "곤란하네, <value:$28>와 맞붙게 되다니. 그래도 지지 않을 거야!<end>"
 
+["270113"]
+japanese = "俺の剣を受けきれるかな？<line-break>勝負！<end>"
+korean = "내 검을 받아낼 수 있을까? 승부다!<end>"
+
 ["270114"]
 japanese = "あんたの攻撃はかわしきってみせるよ。<end>"
 korean = "네 공격은 전부 피해 주겠어.<end>"
@@ -119,6 +123,10 @@ korean = "이 녀석, 강한 건가? 하지만…!<end>"
 ["270122"]
 japanese = "大地の力を君に教えてあげよう。<end>"
 korean = "대지의 힘을 네게 가르쳐 주지.<end>"
+
+["270123"]
+japanese = "あたしの炎で、身も心も焦がしてあげるわ。<end>"
+korean = "내 불꽃으로 몸도 마음도 태워 주겠어.<end>"
 
 ["270126"]
 japanese = "へへ。よろしくな。<end>"

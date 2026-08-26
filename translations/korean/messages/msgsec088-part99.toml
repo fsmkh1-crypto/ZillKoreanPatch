@@ -204,6 +204,10 @@ korean = "자, 따라와.<end>"
 japanese = "ごめん…。<line-break>心配かけて。<end>"
 korean = "미안해…. 걱정 끼쳐서.<end>"
 
+["880163"]
+japanese = "エステル様、<line-break>すぐにこちらへ。<end>"
+korean = "에스텔 님, 바로 이쪽으로.<end>"
+
 ["880165"]
 japanese = "<value:$28>、<line-break>来てくれたんだ！<end>"
 korean = "<value:$28>, 와 줬구나!<end>"

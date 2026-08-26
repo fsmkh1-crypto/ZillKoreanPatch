@@ -44,6 +44,10 @@ korean = "…나도 마찬가지야.<end>"
 japanese = "ありがとうございます。<line-break>では、失礼いたします<line-break><value:$28>様<end>"
 korean = "감사합니다. 그럼 실례하겠습니다, <value:$28>님.<end>"
 
+["1360085"]
+japanese = "フシギだよ。<line-break><value:$28>をお兄ちゃんて呼ぶと<line-break>胸がギュッとするんだ。<end>"
+korean = "신기해. <value:$28>를 오빠라고 부르면 가슴이 꽉 조이는 느낌이야.<end>"
+
 ["1360088"]
 japanese = "ヴァイ！<end>"
 korean = "바이!<end>"
@@ -159,6 +163,10 @@ korean = "…열어젖히는 자.<end>"
 ["1360198"]
 japanese = "<value:$28>だな。<line-break>聞いている。<line-break>通るがいい。<end>"
 korean = "<value:$28>군. 얘기는 들었다. 지나가도 좋다.<end>"
+
+["1360201"]
+japanese = "ひさしぶり、<value:$28>。<line-break>いやー、感動の再会だねー。<line-break>感動、感動～。<end>"
+korean = "오랜만이야, <value:$28>. 이야, 감동의 재회네. 감동, 감동~.<end>"
 
 ["1360215"]
 japanese = "報酬は錬剛石５個。<line-break>文句ある？<end>"
@@ -363,6 +371,10 @@ korean = "이건… 떨림이 멎었어?<end>"
 ["1360382"]
 japanese = "………………。　　　　<line-break> <line-break> <line-break>わかりません。私には…。<end>"
 korean = "………………. 모르겠습니다. 저로서는….<end>"
+
+["1360388"]
+japanese = "私のことは心配に及びません。<line-break>どうかお気をつけて、<line-break><value:$28>様…。<end>"
+korean = "제 걱정은 하지 않으셔도 됩니다. 부디 조심하세요, <value:$28> 님….<end>"
 
 ["1360389"]
 japanese = "<value:$28>様…。<end>"
