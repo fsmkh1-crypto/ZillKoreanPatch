@@ -92,6 +92,10 @@ korean = "안 됩니다. 놓치지 않을 거예요!<end>"
 japanese = "どいてよ、もう！<end>"
 korean = "비켜 줘, 정말!<end>"
 
+["880058"]
+japanese = "そりゃ、確かに手を出したのは<line-break>こっちが先だけど…。<line-break>　<line-break>勝手に首を突っ込んできたのは<line-break>キミの方じゃないか。<end>"
+korean = "그래, 먼저 손을 댄 건 우리 쪽이지만…. 멋대로 끼어든 건 네 쪽이잖아.<end>"
+
 ["880059"]
 japanese = "ほっとけなかったからって…。<line-break>　<line-break>　<line-break><value:$28>…。<end>"
 korean = "내버려 둘 수 없었다고…. <value:$28>….<end>"
@@ -103,6 +107,10 @@ korean = "그럼, 급해서 이만.<end>"
 ["880062"]
 japanese = "やぁ、…ひさしぶりだね。<end>"
 korean = "여어, …오랜만이네.<end>"
+
+["880065"]
+japanese = "いや、砂漠でも大丈夫。<line-break>この水晶を持ってれば<line-break>きっと見つかる。<line-break>これ、首飾りと<line-break>引き合う様にできてるんだ。<end>"
+korean = "아니, 사막이어도 괜찮아. 이 수정을 가지고 있으면 반드시 찾을 수 있어. 이건 목걸이와 서로 끌리게 되어 있거든.<end>"
 
 ["880067"]
 japanese = "ありがと！<line-break>よかった…。<line-break>　<line-break>じゃあ、はい。<line-break>この水晶がみちびいてくれるよ。<end>"
@@ -159,6 +167,10 @@ korean = "으~음…<end>"
 ["880092"]
 japanese = "ね、ね、お願い！<end>"
 korean = "저기, 저기, 부탁이야!<end>"
+
+["880093"]
+japanese = "やった！　ありがと！<line-break>あれ、でも今は無理みたいだね。　<line-break>　<line-break>それじゃ、必要になったら呼んでよ。<line-break>絶対だよ！<end>"
+korean = "됐다! 고마워! 어라, 지금은 안 되는 모양이네. 그럼 필요해지면 불러 줘. 꼭이야!<end>"
 
 ["880094"]
 japanese = "待ってるからね。<end>"
@@ -324,6 +336,10 @@ korean = "아, …미안.<end>"
 japanese = "え！？<line-break>今の、<value:$28>にも<line-break>聞こえたの！？<end>"
 korean = "어!? 방금 거, <value:$28>에게도 들렸어!?<end>"
 
+["880212"]
+japanese = "この柱…。<line-break>普段は壊れてて<line-break>ウンともスンともいわないけど…。<line-break>さっきの声の感じ…<line-break>きっと、この向こうに…。<end>"
+korean = "이 기둥…. 평소에는 고장 나서 꿈쩍도 안 하지만…. 아까 그 목소리 느낌으로는… 분명 이 너머에….<end>"
+
 ["880224"]
 japanese = "よし、じゃあ行こう<end>"
 korean = "좋아, 그럼 가자<end>"
@@ -359,6 +375,10 @@ korean = "그렇다면 가라.<end>"
 ["880237"]
 japanese = "わかったよ。<line-break>キミが決めたことには従うよ…。<end>"
 korean = "알았어. 네가 정한 일이라면 따를게….<end>"
+
+["880238"]
+japanese = "フン…地の巫女か。　　　<line-break>　<line-break>　<line-break>グラジェオンめ…<line-break>闇の力の高まりを知り、<line-break>我を滅ぼさんと欲したか。<end>"
+korean = "흥… 땅의 무녀인가. 그라제온 녀석… 어둠의 힘이 커지는 걸 알고 나를 멸하려 한 건가.<end>"
 
 ["880240"]
 japanese = "愚かなり、地の巫女よ。<line-break>精霊神に躍らされ、<line-break>我を撃ち、闇を呼ぶか…。<line-break>愚かなり…愚かなり…。<end>"

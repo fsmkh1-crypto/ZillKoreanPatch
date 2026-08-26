@@ -68,6 +68,10 @@ korean = "…그래서, 성배는 어디 있지.<end>"
 japanese = "…行け。<line-break>殺す気はないらしい。<line-break>　<line-break>殺す気なら<line-break>とうにやっている。<line-break>あいつは…強い。<end>"
 korean = "…가. 죽일 생각은 없는 모양이다. 죽일 생각이었다면 진작 그랬겠지. 녀석은… 강해.<end>"
 
+["690054"]
+japanese = "あなたが将来、旅の途中で<line-break>さまざまな人と出会い、<line-break>仲間を増やしたとき、<line-break>たぶん、この子が<line-break>役に立ちますよ。<end>"
+korean = "당신이 앞으로 여행 중 여러 사람을 만나 동료를 늘리게 되면 아마 이 아이가 도움이 될 겁니다.<end>"
+
 ["690058"]
 japanese = "無限のソウルとは<end>"
 korean = "무한의 소울이란<end>"
@@ -203,6 +207,10 @@ korean = "…<value:$28>가 그렇게 말한다면….<end>"
 ["690157"]
 japanese = "あんだって？<line-break>この…！<end>"
 korean = "뭐라고? 이…!<end>"
+
+["690160"]
+japanese = "わかったよ。<line-break>あんたがそう言うんならさ…。<line-break>　<line-break>ふーんだ。<line-break>なんだい。<line-break>ちょっといい男だと思ってさ！<end>"
+korean = "알았어. 네가 그렇게 말한다면…. 흥이다. 뭐야, 조금 괜찮은 남자라고 생각했는데!<end>"
 
 ["690162"]
 japanese = "…フッ、無知な<line-break>わがままエルフか？<end>"

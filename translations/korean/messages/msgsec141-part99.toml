@@ -112,6 +112,10 @@ korean = "…아니, 그건 당신이 가장 잘 알고 있는 일이겠군요, 
 japanese = "<value:$28>、そろそろだ。<end>"
 korean = "<value:$28>, 슬슬 때가 됐다.<end>"
 
+["1410062"]
+japanese = "しかし、この旅に出れば、<line-break>もうあなたには…。<end>"
+korean = "하지만 이 여행을 떠나면 이제 당신에게는….<end>"
+
 ["1410064"]
 japanese = "………………。<line-break> <line-break> <line-break>フッ、あなたらしい別れの言葉だ。<end>"
 korean = "………………. 훗, 당신다운 작별 인사군.<end>"
@@ -180,6 +184,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410101"]
+japanese = "女王様、はじめてのお務めは<line-break>いかがでしたか？<end>"
+korean = "여왕님, 첫 임무는 어떠셨습니까?<end>"
+
 ["1410104"]
 japanese = "私が…魅力的？<end>"
 korean = "내가… 매력적이라고?<end>"
@@ -239,6 +247,10 @@ korean = "<value:$28>님도 오늘 하루 수고 많으셨습니다.<end>"
 ["1410127"]
 japanese = "………………。<line-break><line-break><line-break><value:$28>様！<end>"
 korean = "………………. <value:$28> 님!<end>"
+
+["1410128"]
+japanese = "あの…あの、私は、<line-break>魅力的、なのでしょうか？<end>"
+korean = "저… 저, 매력적인 건가요?<end>"
 
 ["1410129"]
 japanese = "同じ女性でも、<line-break><value:$28>様だから<line-break>聞けるのです。<end>"
@@ -368,6 +380,10 @@ korean = "<value:$28> 씨, 갑시다!<end>"
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
 
+["1410216"]
+japanese = "え？　わたしを<line-break>連れていってくれるんですか？<end>"
+korean = "네? 저를 데려가 주시는 건가요?<end>"
+
 ["1410217"]
 japanese = "…で、でも、いいんですか？<line-break>わたし、<value:$28>さんに<line-break>迷惑をかけちゃうかも…。<end>"
 korean = "…그, 그래도 괜찮아요? 제가 <value:$28>님께 폐를 끼칠지도….<end>"
@@ -487,6 +503,10 @@ korean = "티아나 님, 기다려 주십시오! 로스토올 재정은 매우 �
 ["1410279"]
 japanese = "財務長官殿！<end>"
 korean = "재무장관님!<end>"
+
+["1410285"]
+japanese = "ティアナ様のお心に沿うよう<line-break>努力いたします。<end>"
+korean = "티아나 님의 뜻에 따를 수 있도록 노력하겠습니다.<end>"
 
 ["1410286"]
 japanese = "ティアナ様…。<end>"
@@ -972,6 +992,10 @@ korean = "호호호호, 그렇군요~.<end>"
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"
 
+["1410508"]
+japanese = "例のもの、でございますか？<line-break>いえ、それは…。<end>"
+korean = "그 물건 말씀이십니까? 아니, 그건….<end>"
+
 ["1410509"]
 japanese = "<value:$28>が聞きたいのなら、<line-break>仕方がないのぉ。<end>"
 korean = "<value:$28>이 듣고 싶다면 어쩔 수 없구먼.<end>"
@@ -983,6 +1007,10 @@ korean = "호호호호, 그렇군요~.<end>"
 ["1410511"]
 japanese = "わかりました、<line-break>お話しいたしましょう。<line-break> <line-break>竜の牙というものを、<line-break>ご存知ですか？<end>"
 korean = "알겠습니다. 말씀드리죠. '용의 송곳니'라는 것을 알고 계신가요?<end>"
+
+["1410514"]
+japanese = "欲しいのぉ。<line-break>竜の牙、手に入れてみたいのぉ。<end>"
+korean = "갖고 싶구먼. 용의 송곳니, 한번 손에 넣어 보고 싶구먼.<end>"
 
 ["1410515"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"

@@ -152,6 +152,10 @@ korean = "잠깐, 이게 무슨 일이야?<end>"
 japanese = "サイテー！　この悪趣味！<end>"
 korean = "최악이야! 이런 악취미!<end>"
 
+["840080"]
+japanese = "…だんだん暗闇に目が<line-break>慣れてきたわね。<line-break>　<line-break>やーだなー。<line-break>見たくないものが<line-break>見えちゃったりするわけ？<end>"
+korean = "…점점 어둠에 눈이 익숙해지네. 싫다~. 보고 싶지 않은 게 보이기라도 하는 거야?<end>"
+
 ["840085"]
 japanese = "<value:$28>、大丈夫！？<end>"
 korean = "<value:$28>, 괜찮아!?<end>"
