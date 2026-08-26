@@ -12,11 +12,11 @@ import (
 
 const koreanAlphaPlaceholder = "[JP]"
 
-// koreanAlphaPlaceholderProject creates an in-memory, development-only full
+// BuildKoreanAlphaPlaceholderProject creates an in-memory, development-only full
 // overlay. Accepted Korean rows are preserved verbatim; every untranslated row
 // is replaced by a tiny ASCII marker while source-owned controls/substitutions
 // remain intact. No files in translations/korean are modified.
-func koreanAlphaPlaceholderProject(source *corpus.Project, korean *corpus.KoreanProject) (*corpus.KoreanProject, int, error) {
+func BuildKoreanAlphaPlaceholderProject(source *corpus.Project, korean *corpus.KoreanProject) (*corpus.KoreanProject, int, error) {
 	if source == nil || korean == nil {
 		return nil, 0, fmt.Errorf("Korean alpha placeholder: nil project")
 	}
