@@ -80,6 +80,10 @@ korean = "(미사용)18<end>"
 japanese = "俺もまだまだ甘いな…。<end>"
 korean = "나도 아직 멀었군….<end>"
 
+["410029"]
+japanese = "危ない！　奴はソウルを吸い取って<line-break>回復しようとしている！<line-break>　<line-break>逃げろ！<line-break><value:$28>！<end>"
+korean = "위험해! 놈은 소울을 빨아들여 회복하려 하고 있어! 도망쳐, <value:$28>!<end>"
+
 ["410030"]
 japanese = "<value:$28>さんー！<end>"
 korean = "<value:$28> 씨~!<end>"

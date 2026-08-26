@@ -100,6 +100,10 @@ korean = "여어, 실례 좀 하고 있어.<end>"
 japanese = "ん？　あぁ、俺はゼネテス。<line-break>冒険者だ。<end>"
 korean = "응? 아, 난 제네테스. 모험자다.<end>"
 
+["1860072"]
+japanese = "いや、なに。<line-break>大したことはしてないさ。　　　　<line-break>　<line-break>さて、俺はそろそろ行くとするか。<end>"
+korean = "아니, 별거 아냐. 대단한 일도 아니었어. 자, 난 슬슬 가 볼까.<end>"
+
 ["1860073"]
 japanese = "えぇ！？　もう行っちゃうのぉ？<end>"
 korean = "에엣!? 벌써 가는 거야?<end>"
@@ -191,6 +195,10 @@ korean = "…에리스 님은?<end>"
 ["1860161"]
 japanese = "わかった。<line-break>あとのことは引き受ける。<end>"
 korean = "알았다. 나머지는 맡아 두지.<end>"
+
+["1860164"]
+japanese = "…<value:$28>、<line-break>もう…ずっとそうしてるよ？<end>"
+korean = "…<value:$28>, 벌써… 계속 그러고 있잖아?<end>"
 
 ["1860167"]
 japanese = "あー！<line-break>あの人、この前のぉ…！<end>"

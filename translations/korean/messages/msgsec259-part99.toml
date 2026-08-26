@@ -4,6 +4,10 @@
 japanese = "通信機イベント用開始<end>"
 korean = "통신기 이벤트용 시작<end>"
 
+["2590007"]
+japanese = "きっと<value:$28>の<line-break>役に立つと思いますよ。<end>"
+korean = "분명 <value:$28>에게 도움이 될 거예요.<end>"
+
 ["2590008"]
 japanese = "通信機イベント用終端<end>"
 korean = "통신기 이벤트용 끝<end>"

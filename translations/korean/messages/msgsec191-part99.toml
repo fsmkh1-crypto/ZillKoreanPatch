@@ -196,6 +196,10 @@ korean = "자, 이제 한숨만 더 내쉬면 된다. 전투 준비는 됐느냐
 japanese = "竜王…、<line-break>不足のない相手だ。<end>"
 korean = "용왕… 부족함 없는 상대다.<end>"
 
+["1910150"]
+japanese = "だから、<value:$28>。<line-break>必ず帰ってこようね。<end>"
+korean = "그러니까 <value:$28>. 반드시 돌아오자.<end>"
+
 ["1910156"]
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"

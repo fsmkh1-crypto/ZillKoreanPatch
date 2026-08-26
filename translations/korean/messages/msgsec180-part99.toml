@@ -40,6 +40,10 @@ korean = "미안하지만 함께 싸울 수 없어.<end>"
 japanese = "ここに来てくれたってことは<line-break>ついてきてくれるんだな。<line-break><value:$28>。<end>"
 korean = "여기까지 와 줬다는 건 따라와 주겠다는 거지, <value:$28>.<end>"
 
+["1800030"]
+japanese = "ありがとよ、<value:$28>。<line-break>んじゃ、行くか。<end>"
+korean = "고맙다, <value:$28>. 그럼 갈까.<end>"
+
 ["1800037"]
 japanese = "これは<value:$28>様、<line-break>お帰りなさいませ。　　　　　　　　　<line-break>　<end>"
 korean = "<value:$28>님, 돌아오셨군요.<end>"

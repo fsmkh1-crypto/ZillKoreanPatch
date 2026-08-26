@@ -20,6 +20,10 @@ korean = "…알고 있습니다. 하지만….<end>"
 japanese = "空メッセージ<end>"
 korean = "빈 메시지<end>"
 
+["1040029"]
+japanese = "…<value:$28>のこと、<line-break>少し調べさせました。<end>"
+korean = "…<value:$28>에 대해 조금 조사하게 했습니다.<end>"
+
 ["1040030"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"

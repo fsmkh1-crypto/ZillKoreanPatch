@@ -84,6 +84,10 @@ korean = "아, 그랬죠. 죄송합니다. 크류세이스 님, 그리고 <value
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
 
+["1880089"]
+japanese = "だから、<value:$28>も<line-break>忘れないでください。あなたのことを<line-break>放っておけないわたくしがいることを。<end>"
+korean = "그러니 <value:$28>도 잊지 말아 주세요. 당신을 그냥 내버려 둘 수 없는 제가 있다는 걸.<end>"
+
 ["1880091"]
 japanese = "資金を援助する<end>"
 korean = "자금을 지원한다<end>"

@@ -64,6 +64,10 @@ korean = "무슨 일이신가요, <value:$28>님.<end>"
 japanese = "…私も同じだ。<end>"
 korean = "…나도 마찬가지야.<end>"
 
+["1360079"]
+japanese = "<value:$28>様、妹のわがまま、<line-break>まことに申しわけございませんが<line-break>聞いていただけませんでしょうか。<end>"
+korean = "<value:$28>님, 제 동생의 제멋대로인 부탁이라 송구하지만 들어주시겠습니까.<end>"
+
 ["1360080"]
 japanese = "ありがとうございます。<line-break>では、失礼いたします<line-break><value:$28>様<end>"
 korean = "감사합니다. 그럼 실례하겠습니다, <value:$28>님.<end>"
@@ -855,6 +859,10 @@ korean = "무사하냐, <value:$28>?<end>"
 ["1360714"]
 japanese = "…見えなければ、よかった。<end>"
 korean = "…보이지 않았다면 좋았을 텐데.<end>"
+
+["1360721"]
+japanese = "こんな醜い世界…<line-break>見なければ良かった…。<line-break>知らなければ良かった…。<line-break>全てを無に還すの。<end>"
+korean = "이런 추악한 세상… 보지 말았어야 했어…. 몰랐어야 했어…. 모든 것을 무로 돌릴 거야.<end>"
 
 ["1360722"]
 japanese = "…たとえ闇に落ちようと、<line-break>私は私だ！<end>"

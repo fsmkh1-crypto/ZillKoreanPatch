@@ -196,6 +196,10 @@ korean = "<value:$28>님!<end>"
 japanese = "ウフフ。<value:$28>様ったら<line-break>正面から入ってこられれば<line-break>よろしいのに…。<end>"
 korean = "후후. <value:$28>님도 참, 정면으로 들어오시면 될 텐데….<end>"
 
+["1920168"]
+japanese = "あ、<value:$28>さん。<line-break>おはようございます！<end>"
+korean = "아, <value:$28>님. 좋은 아침이에요!<end>"
+
 ["1920172"]
 japanese = "わたし、がんばりますから！<end>"
 korean = "저, 열심히 할 테니까요!<end>"
@@ -215,6 +219,10 @@ korean = "…어!?<end>"
 ["1920179"]
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
+
+["1920182"]
+japanese = "<value:$28>さん、<line-break>娘をどうかお願いします。<end>"
+korean = "<value:$28>님, 제 딸을 부탁드립니다.<end>"
 
 ["1920183"]
 japanese = "これをもっていきなさい。　　<line-break><value:$28>さんと一緒に<line-break>大事に使うのよ。<end>"
@@ -247,6 +255,10 @@ korean = "고마워, <value:$28>. 네 덕분에 아버지의… 칸다칸의 유
 ["1920196"]
 japanese = "<value:$28>が見つけて<line-break>なかったら、中に隠されてた<line-break>暗号文ごと箱の中で眠っていたわ。<end>"
 korean = "<value:$28>이 찾아내지 않았으면 안에 숨겨진 암호문째 상자 속에서 잠들어 있었겠지.<end>"
+
+["1920200"]
+japanese = "私にここまで言わせたんだから、<line-break><value:$28>、これからもずっと<line-break>私と一緒に海に出てくれるわよね？<end>"
+korean = "내가 여기까지 말했으니, <value:$28>, 앞으로도 계속 나와 함께 바다로 나가 줄 거지?<end>"
 
 ["1920204"]
 japanese = "へい、おかしら！<line-break>　<line-break>　<end>"
@@ -299,6 +311,10 @@ korean = "…왠지 꿈만 같아요. 동경하던 <value:$28>님과 함께 모�
 ["1920252"]
 japanese = "行ってしまったな。<end>"
 korean = "가버렸군.<end>"
+
+["1920257"]
+japanese = "…遠慮する。　　　　　　<line-break>　<line-break>　<line-break>俺にも、俺の人生を<line-break>自由に生きる権利がある。<end>"
+korean = "…사양하지. 나도 내 인생을 자유롭게 살 권리가 있어.<end>"
 
 ["1920260"]
 japanese = "ＥｖＥＮＤ<line-break>予備メッセージ２８ですよ<end>"

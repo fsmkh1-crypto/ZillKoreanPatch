@@ -120,6 +120,10 @@ korean = "아, 그렇네요<end>"
 japanese = "よし、行こう。<end>"
 korean = "좋아, 가자.<end>"
 
+["1340084"]
+japanese = "来たか、<value:$28>君。<line-break>準備はいいのだね？<end>"
+korean = "왔군, <value:$28>. 준비는 됐겠지?<end>"
+
 ["1340090"]
 japanese = "キュイ～！<end>"
 korean = "뀨이~!<end>"
@@ -932,6 +936,10 @@ korean = "…<value:$28> 님.<end>"
 japanese = "そのことがわからない<line-break>私たちではありません。<line-break><value:$28>様、どうか…<end>"
 korean = "그걸 모를 만큼 저희가 어리석진 않습니다. <value:$28>님, 부디….<end>"
 
+["1340621"]
+japanese = "<value:$28>様…<line-break>くれぐれもお気をつけて…。<end>"
+korean = "<value:$28>님… 부디 조심하세요….<end>"
+
 ["1340622"]
 japanese = "<value:$28>様…<line-break>くれぐれもお気をつけて…<end>"
 korean = "<value:$28>님… 부디 각별히 조심하세요….<end>"
@@ -955,6 +963,10 @@ korean = "<value:$28>님!<end>"
 ["1340636"]
 japanese = "ティアナ様、失礼ながら、<line-break>あなた様がいらっしゃると<line-break><value:$28>様が存分には…。<end>"
 korean = "티아나 님, 실례지만 당신이 계시면 <value:$28>님이 마음껏….<end>"
+
+["1340639"]
+japanese = "<value:$28>は<line-break>ゼネテスの遺書を手に入れた。<end>"
+korean = "<value:$28>은 제네테스의 유서를 손에 넣었다.<end>"
 
 ["1340642"]
 japanese = "追加メッセージここから<end>"

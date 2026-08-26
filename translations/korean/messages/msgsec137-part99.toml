@@ -636,6 +636,10 @@ korean = "<value:$28>, 부탁한다.<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1370482"]
+japanese = "おう、<value:$28>か。<line-break><line-break><line-break>最近、あちこちで物騒な話が増えて<line-break>きているみたいなんだ。<end>"
+korean = "오, <value:$28>인가. 요즘 여기저기 험한 소문이 늘어난 것 같아.<end>"
+
 ["1370491"]
 japanese = "おっと、待ちな、<value:$28>。<line-break> <line-break> <line-break>…気をつけろよ。<end>"
 korean = "앗, 기다려, <value:$28>. …조심해.<end>"

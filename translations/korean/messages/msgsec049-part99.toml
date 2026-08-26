@@ -20,6 +20,10 @@ korean = "아니.<end>"
 japanese = "わかった。<end>"
 korean = "알았어.<end>"
 
+["490019"]
+japanese = "んじゃ、あと１週間も<line-break>ぶらぶらしてるのもなんだしな。<line-break>　<line-break>仕事するか？<line-break><value:$28>？<end>"
+korean = "그럼 앞으로 일주일을 빈둥대기도 그렇고. 일할래, <value:$28>?<end>"
+
 ["490023"]
 japanese = "ギルドで冒険者登録は<line-break>済ませとかないと困るぜ？　　　　<line-break><value:$28>。<end>"
 korean = "길드에서 모험자 등록은 해 둬야 한다고, <value:$28>.<end>"

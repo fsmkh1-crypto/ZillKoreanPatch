@@ -4,6 +4,10 @@
 japanese = "異種族間の９用開始<end>"
 korean = "이종족 간 9용 시작<end>"
 
+["2160007"]
+japanese = "また世界のどこかで会おうぜ、<line-break><value:$28>！<end>"
+korean = "또 세상 어딘가에서 만나자, <value:$28>!<end>"
+
 ["2160010"]
 japanese = "…でも、幸せになってほしいわね。<end>"
 korean = "…그래도 행복해졌으면 좋겠어.<end>"

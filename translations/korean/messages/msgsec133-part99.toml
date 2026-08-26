@@ -116,6 +116,10 @@ korean = "에스텔 씨, 그리고 <value:$28>님, 정말 감사합니다.<end>"
 japanese = "<value:$28>さん……！<line-break>きっと、きっと来てくれると<line-break>思っていました…。<end>"
 korean = "<value:$28> 씨……! 분명, 분명 와 줄 거라고 생각했어요….<end>"
 
+["1330109"]
+japanese = "<value:$28>さん……？<line-break>助けに来て…くださったのですか？<line-break>　<line-break>ありがとう…ございます……。<end>"
+korean = "<value:$28>님……? 구하러… 와 주신 건가요? 감사…합니다…….<end>"
+
 ["1330116"]
 japanese = "せーの！！<end>"
 korean = "하나, 둘!!<end>"
@@ -384,6 +388,10 @@ korean = "…왔나. <value:$28>.<end>"
 japanese = "<value:$28>、<line-break>エンシャントは失陥した。<line-break>たった数人の魔道士のためにな。<end>"
 korean = "<value:$28>, 엔샨트는 함락됐다. 단 몇 명의 마도사 때문에.<end>"
 
+["1330329"]
+japanese = "この地獄と化した城内に乗り込むか？<line-break> <line-break> <line-break>よかろう。<line-break>行け、人類の革新のために。<end>"
+korean = "지옥으로 변한 성 안으로 들어가겠다고? 좋다. 가라, 인류의 혁신을 위해.<end>"
+
 ["1330332"]
 japanese = "行け、<value:$28><line-break>神々の黄昏の果てに。<line-break> <line-break>人類の革新の夜明けを開くために！<end>"
 korean = "가라, <value:$28>. 신들의 황혼 끝으로. 인류 혁신의 새벽을 열기 위해!<end>"
@@ -419,6 +427,10 @@ korean = "…짐은 확신했다. 인류의 혁신은 오늘, 지금 이 순간�
 ["1330352"]
 japanese = "フォフォフォ…。<end>"
 korean = "호호호….<end>"
+
+["1330355"]
+japanese = "こんな醜い世界…<line-break>見なければ良かった…。<line-break>知らなければ良かった…。<line-break>全てを無に還すの。<end>"
+korean = "이런 추악한 세상… 보지 말았어야 했어…. 몰랐어야 했어…. 모든 것을 무로 돌릴 거야.<end>"
 
 ["1330360"]
 japanese = "…見えなければ、よかった。<end>"

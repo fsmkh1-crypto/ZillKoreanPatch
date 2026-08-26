@@ -112,6 +112,10 @@ korean = "이, 이놈 강하다!<end>"
 japanese = "こ、これは！<line-break>本隊はいったい！？<end>"
 korean = "이, 이건! 본대는 대체!?<end>"
 
+["1630117"]
+japanese = "では、次の戦功者…、<line-break><value:$28>！　入れ！<end>"
+korean = "그럼 다음 전공자… <value:$28>! 들어오라!<end>"
+
 ["1630123"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적습이다!<end>"

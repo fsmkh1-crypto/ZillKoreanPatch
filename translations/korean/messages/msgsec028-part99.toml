@@ -44,6 +44,10 @@ korean = "봐, 역시 내려왔지?<end>"
 japanese = "じゃ、行こうか。<line-break><value:$28>、ヴァン。<end>"
 korean = "그럼 가자. <value:$28>, 반.<end>"
 
+["280020"]
+japanese = "おや、いらっしゃい、<value:$28>。<line-break>うちのダンナに用があるんだってね。　<line-break>話はナッジから聞いたよ。<end>"
+korean = "어머, 어서 와, <value:$28>. 우리 남편한테 볼일이 있다지? 이야기는 나지한테 들었어.<end>"
+
 ["280022"]
 japanese = "昨日あんな地震があったってのに？<end>"
 korean = "어제 그렇게 지진이 났는데도?<end>"

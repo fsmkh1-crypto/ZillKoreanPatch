@@ -56,6 +56,10 @@ korean = "어? 저기, 그게….<end>"
 japanese = "あ、はい。<line-break>わたし、それでいいです！<end>"
 korean = "아, 네. 전 그걸로 괜찮아요!<end>"
 
+["1420028"]
+japanese = "失礼するよ、<value:$28>。<line-break>君もしっかりな。<end>"
+korean = "실례하지, <value:$28>. 자네도 힘내게.<end>"
+
 ["1420031"]
 japanese = "あ、カフィン、待って！<end>"
 korean = "아, 카핀, 기다려!<end>"
@@ -364,6 +368,10 @@ korean = "미묘하게 시차가 있어….<end>"
 japanese = "あっ、うまいこと言うね、レーグ。<end>"
 korean = "앗, 말 잘하네, 레이그.<end>"
 
+["1420269"]
+japanese = "ときに、<value:$28>は<line-break>どこへ行ったんじゃ？<end>"
+korean = "그런데 <value:$28>은 어디로 갔느냐?<end>"
+
 ["1420272"]
 japanese = "そうか…。<line-break>のう、<value:$28>は、<line-break>本当に戻ってくるのか？<end>"
 korean = "그런가…. 그런데 <value:$28>은 정말 돌아오는 건가?<end>"
@@ -399,6 +407,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420289"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1420292"]
+japanese = "なあ、<value:$28>、<line-break>これからどうすんだよ？<line-break> <line-break>ホントに俺んちに遊びに<line-break>来ねえのか？<end>"
+korean = "야, <value:$28>, 이제 어떻게 할 거야? 정말 우리 집에 놀러 안 올 거냐?<end>"
 
 ["1420295"]
 japanese = "最強と、さあ行こう…を<line-break>かけてるんだ。<end>"
@@ -539,6 +551,10 @@ korean = "오지 않습니다….<end>"
 ["1420373"]
 japanese = "来ないわね…。<end>"
 korean = "안 오네….<end>"
+
+["1420374"]
+japanese = "（ぶじに通れてよかったね、<line-break><value:$28>。）<end>"
+korean = "(무사히 지나가서 다행이네, <value:$28>.)<end>"
 
 ["1420375"]
 japanese = "追加メッセージここから<end>"
@@ -1016,6 +1032,10 @@ korean = "이, 이봐!<end>"
 japanese = "逃げられてしまいます！<end>"
 korean = "도망쳐 버립니다!<end>"
 
+["1420624"]
+japanese = "もう<value:$28>に<line-break>会えなくなってしまうわ！<end>"
+korean = "이제 <value:$28>을 못 만나게 되잖아!<end>"
+
 ["1420625"]
 japanese = "じゃあ、早く探しに行こうよぉ。<line-break>ルルアンタ、<value:$28>に<line-break>会いたいよぉ。<end>"
 korean = "그럼 빨리 찾으러 가자아. 루루안타, <value:$28>을 만나고 싶어어.<end>"
@@ -1035,6 +1055,14 @@ korean = "오지 않습니다….<end>"
 ["1420639"]
 japanese = "来ないわね…。<end>"
 korean = "안 오네….<end>"
+
+["1420640"]
+japanese = "（ぶじに通れてよかったね、<line-break><value:$28>。）<end>"
+korean = "(무사히 지나가서 다행이네, <value:$28>.)<end>"
+
+["1420643"]
+japanese = "なあ、<value:$28>、<line-break>これからどうすんだよ？<line-break> <line-break>ホントに俺んちに遊びに<line-break>来ねえのか？<end>"
+korean = "야, <value:$28>, 이제 어떻게 할 거야? 정말 우리 집에 놀러 안 올 거냐?<end>"
 
 ["1420646"]
 japanese = "最強と、さあ行こう…を<line-break>かけてるんだ。<end>"

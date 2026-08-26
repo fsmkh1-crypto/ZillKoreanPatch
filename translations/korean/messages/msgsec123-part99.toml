@@ -4,6 +4,10 @@
 japanese = "………………。<line-break><line-break><line-break>相手の力量を見誤れば、死ぬ。<line-break>忘れるな。<end>"
 korean = "………………. 상대의 실력을 잘못 보면 죽는다. 잊지 마라.<end>"
 
+["1230049"]
+japanese = "紺碧の怪物を貝でぶつ！<line-break>略して、今回ぶつ！<line-break>かかってこんかい！<line-break>おそまつさまでござる。<end>"
+korean = "감청의 괴물을 조개로 후려친다! 줄여서 이번에도 친다! 덤벼라! 변변찮았습니다.<end>"
+
 ["1230051"]
 japanese = "………………。<line-break><line-break><line-break>興味がない。<end>"
 korean = "………………. 관심 없어.<end>"
@@ -27,6 +31,10 @@ korean = "………………. 관심 없어.<end>"
 ["1230147"]
 japanese = "………………。<line-break><line-break><line-break>居住区は時計台広場の先だ。<end>"
 korean = "………………. 거주구는 시계탑 광장 너머다.<end>"
+
+["1230166"]
+japanese = "余裕があるのね、<value:$28>。<line-break>子供のために貴族と敵対するなんて。<line-break>フフフッ、なかなか面白いわ。<end>"
+korean = "여유 있네, <value:$28>. 아이를 위해 귀족과 맞서다니. 후후후, 꽤 재미있어.<end>"
 
 ["1230179"]
 japanese = "………………。<line-break><line-break><line-break>王女に返してもらえ。<end>"

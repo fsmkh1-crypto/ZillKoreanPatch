@@ -16,6 +16,14 @@ korean = "위험했네. 괜찮아?<end>"
 japanese = "へぇー、<value:$28>か。<line-break>　<line-break>　<line-break>ところで<value:$28>、<line-break>ボクの名前、覚えた？<end>"
 korean = "헤에, <value:$28>인가. 그런데 <value:$28>, 내 이름 기억했어?<end>"
 
+["1030023"]
+japanese = "…ま、いいか。<line-break>それじゃあね、<value:$28>。<end>"
+korean = "…뭐, 됐나. 그럼 안녕, <value:$28>.<end>"
+
+["1030025"]
+japanese = "…ま、いいか。<line-break>それじゃあね、<value:$28>。<end>"
+korean = "…뭐, 됐나. 그럼 안녕, <value:$28>.<end>"
+
 ["1030026"]
 japanese = "待ちなよ。<end>"
 korean = "기다려.<end>"

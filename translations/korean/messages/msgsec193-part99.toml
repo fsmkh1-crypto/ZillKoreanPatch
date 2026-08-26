@@ -200,6 +200,10 @@ korean = "<value:$28>이 지켜 줄 거야? …그건 동료로서? 아니면…
 japanese = "待たせたな、ふたりとも。<end>"
 korean = "기다렸지, 둘 다.<end>"
 
+["1930119"]
+japanese = "行こうか、オイフェ、<line-break>そして、<value:$28>。<end>"
+korean = "가자, 오이페. 그리고 <value:$28>.<end>"
+
 ["1930120"]
 japanese = "３人とも、気をつけて。<line-break>よい旅を。<end>"
 korean = "셋 다 조심해. 좋은 여행 되길.<end>"
