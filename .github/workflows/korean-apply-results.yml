@@ -9,7 +9,6 @@ on:
       - 'work/korean-results/*.jsonl'
       - 'tools/korean/apply-results.py'
       - 'tools/korean/refresh-japanese-refs.py'
-      - 'tools/korean/next-packet.py'
       - 'internal/corpus/korean.go'
       - '.github/workflows/korean-apply-results.yml'
 
@@ -59,64 +58,11 @@ jobs:
             echo 'No overlay or packet-consumption changes.'
           else
             git commit -m 'Apply Korean translation results'
-            # Result packets may be pushed while this job is validating. Rebase
-            # the generated overlay commit onto the newest branch head so those
-            # new packets are preserved for the next serialized run.
             git fetch origin translation/section001-batch2
             git rebase origin/translation/section001-batch2
             git push origin HEAD:translation/section001-batch2
           fi
-      - name: Keep Korean raster catalog synchronized
-        run: |
-          if ./zill korean-font-check; then
-            echo 'Korean raster catalog already current.'
-            exit 0
-          fi
 
-          mkdir -p build release/korean/font
-          curl --fail --location --retry 3 \
-            --output /tmp/UnDotum.ttf \
-            https://raw.githubusercontent.com/deepin-community/fonts-unfonts-core/ef6c68f4f0beb2a03fcf460aa643d73389aac59a/UnDotum.ttf
-          echo '5b8373e126bb61f59105cf7f54a47eb1b089c2b0aacb70c6cd688bd8ea76cdc9  /tmp/UnDotum.ttf' | sha256sum -c -
-          go run ./cmd/zill korean-font-generate \
-            --font /tmp/UnDotum.ttf \
-            --output build/korean-glyphs.toml
-          test -s build/korean-glyphs.toml
-          cp build/korean-glyphs.toml release/korean/font/glyphs.toml
-          ./zill korean-font-check
-
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add release/korean/font/glyphs.toml
-          if ! git diff --cached --quiet; then
-            git commit -m 'Update generated Korean raster catalog'
-            git pull --rebase origin translation/section001-batch2
-            git push origin HEAD:translation/section001-batch2
-          fi
-      - name: Generate next untranslated packet
-        run: |
-          rm -rf /tmp/korean-packet
-          mkdir -p /tmp/korean-packet
-          python3 tools/korean/next-packet.py \
-            --max-records 2000 \
-            --max-bytes 600000 \
-            --order shortest \
-            --out /tmp/korean-packet/current.jsonl \
-            --progress /tmp/korean-packet/progress.json
-      - name: Publish next packet to helper branch
-        run: |
-          git fetch origin korean-source-chunks
-          git checkout korean-source-chunks
-          mkdir -p work/korean-packets
-          cp /tmp/korean-packet/current.jsonl work/korean-packets/current.jsonl
-          cp /tmp/korean-packet/progress.json work/korean-packets/progress.json
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add work/korean-packets
-          if git diff --cached --quiet; then
-            echo 'Packet unchanged.'
-            exit 0
-          fi
-          git commit -m 'Refresh next Korean translation packet'
-          git pull --rebase origin korean-source-chunks
-          git push origin HEAD:korean-source-chunks
+      # Deliberately no raster generation or next-packet publication here.
+      # Any overlay commit above triggers korean-next-packet.yml, which is the
+      # single owner of raster synchronization and packet publication.
