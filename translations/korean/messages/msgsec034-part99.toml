@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["340001"]
+japanese = "よし、見せてみろ。<end>"
+korean = "좋아, 보여 봐.<end>"
+
 ["340004"]
 japanese = "…ああ。<end>"
 korean = "…그래.<end>"
@@ -11,6 +15,10 @@ korean = "…응…<end>"
 ["340011"]
 japanese = "うーむ…。<end>"
 korean = "으음….<end>"
+
+["340019"]
+japanese = "…まだまだ、だな。<end>"
+korean = "…아직 멀었군.<end>"
 
 ["340036"]
 japanese = "く…っ、何だ？<end>"

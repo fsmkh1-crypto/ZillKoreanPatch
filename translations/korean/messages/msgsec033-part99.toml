@@ -12,6 +12,10 @@ korean = "그래.<end>"
 japanese = "やはりそうか！ <end>"
 korean = "역시 그랬군! <end>"
 
+["330041"]
+japanese = "あー、わかったぁ！<end>"
+korean = "아ー, 알겠다아!<end>"
+
 ["330048"]
 japanese = "ぶひゃっ！！<end>"
 korean = "부햑!!<end>"
@@ -31,6 +35,10 @@ korean = "…그 사람?<end>"
 ["330064"]
 japanese = "ゼネテス…さん。<end>"
 korean = "제네테스… 씨.<end>"
+
+["330067"]
+japanese = "礼にはおよばんさ。<end>"
+korean = "감사할 것까진 없어.<end>"
 
 ["330070"]
 japanese = "へえ。<end>"
@@ -59,6 +67,10 @@ korean = "플린트 씨~!<end>"
 ["330120"]
 japanese = "待て。危険だ。<end>"
 korean = "기다려. 위험해.<end>"
+
+["330121"]
+japanese = "待てと言っている！<end>"
+korean = "기다리라고 했잖아!<end>"
 
 ["330125"]
 japanese = "バカ野郎！<end>"
@@ -100,6 +112,18 @@ korean = "…있잖아.<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["330193"]
+japanese = "予備メッセージ１７<end>"
+korean = "예비 메시지 17<end>"
+
+["330194"]
+japanese = "予備メッセージ１８<end>"
+korean = "예비 메시지 18<end>"
+
+["330195"]
+japanese = "予備メッセージ１９<end>"
+korean = "예비 메시지 19<end>"
+
 ["330196"]
 japanese = "予備メッセー２０<end>"
 korean = "예비 메시지 20<end>"
@@ -119,6 +143,10 @@ korean = "타앗!<end>"
 ["330231"]
 japanese = "<value:$28>もお礼！<end>"
 korean = "<value:$28>도 고마워!<end>"
+
+["330237"]
+japanese = "よ、ジャマするぜ。<end>"
+korean = "여어, 방해 좀 할게.<end>"
 
 ["330240"]
 japanese = "フリント！<end>"

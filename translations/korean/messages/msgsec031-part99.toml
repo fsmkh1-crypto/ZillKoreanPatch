@@ -28,6 +28,10 @@ korean = "일어나자!<end>"
 japanese = "反乱はできない…<end>"
 korean = "반란은 못 일으켜…<end>"
 
+["310115"]
+japanese = "黙れ、ボルボラ！！<end>"
+korean = "닥쳐, 볼보라!!<end>"
+
 ["310129"]
 japanese = "…そうはいかん。<end>"
 korean = "…그럴 순 없다.<end>"
@@ -40,6 +44,10 @@ korean = "무슨 짓을 할 셈이야!<end>"
 japanese = "姉ちゃん！！<end>"
 korean = "누나!!<end>"
 
+["310157"]
+japanese = "な、な、なんだ！？<end>"
+korean = "뭐, 뭐, 뭐야!?<end>"
+
 ["310159"]
 japanese = "用意はいいか？<end>"
 korean = "준비됐나?<end>"
@@ -51,6 +59,10 @@ korean = "누나….<end>"
 ["310163"]
 japanese = "…残念だな。<end>"
 korean = "…아쉽군.<end>"
+
+["310164"]
+japanese = "ここから追加セリフ<end>"
+korean = "여기서부터 추가 대사<end>"
 
 ["310165"]
 japanese = "気に入らんな。<end>"
@@ -104,9 +116,17 @@ korean = "도, 도망쳐!!<end>"
 japanese = "えっ！？<end>"
 korean = "어!?<end>"
 
+["310235"]
+japanese = "それ！　捕まえろ！<end>"
+korean = "자! 붙잡아!<end>"
+
 ["310236"]
 japanese = "させるかよ！！<end>"
 korean = "그렇게 둘 순 없지!!<end>"
+
+["310238"]
+japanese = "こ…この悪ガキめ！<end>"
+korean = "이… 이 악동 녀석!<end>"
 
 ["310267"]
 japanese = "姉ちゃん！！<end>"

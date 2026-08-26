@@ -32,6 +32,10 @@ korean = "…모르겠네요.<end>"
 japanese = "記憶を手繰る…？<end>"
 korean = "기억을 더듬는다…?<end>"
 
+["320031"]
+japanese = "（似ている……。）<end>"
+korean = "(닮았어…….)<end>"
+
 ["320045"]
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
@@ -39,6 +43,10 @@ korean = "쳇.<end>"
 ["320049"]
 japanese = "な、何事だ？<end>"
 korean = "무, 무슨 일이지?<end>"
+
+["320064"]
+japanese = "…強くなるのだぞ。<end>"
+korean = "…강해져야 한다.<end>"
 
 ["320068"]
 japanese = "もう大丈夫か？<end>"

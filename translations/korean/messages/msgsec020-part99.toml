@@ -180,6 +180,18 @@ korean = "돌아가기<end>"
 japanese = "素手<end>"
 korean = "맨손<end>"
 
+["200181"]
+japanese = "ゼネテス愛用の大剣<end>"
+korean = "제네테스 애용 대검<end>"
+
+["200265"]
+japanese = "…片手剣に…しろ。<end>"
+korean = "…한손검으로… 해라.<end>"
+
+["200280"]
+japanese = "エラーメッセージ！<end>"
+korean = "에러 메시지!<end>"
+
 ["200286"]
 japanese = "小刀手斧<end>"
 korean = "단검·손도끼<end>"
@@ -192,6 +204,18 @@ korean = "단검·손도끼<end>"
 japanese = "…鎧はいやだ。<end>"
 korean = "…갑옷은 싫어.<end>"
 
+["200337"]
+japanese = "エラーメッセージ。<end>"
+korean = "에러 메시지.<end>"
+
 ["200363"]
 japanese = "………渡せん。<end>"
 korean = "………못 넘겨.<end>"
+
+["200408"]
+japanese = "必勝を期したお守り<end>"
+korean = "필승을 기원한 부적<end>"
+
+["200515"]
+japanese = "装備をはずします。<end>"
+korean = "장비를 해제합니다.<end>"

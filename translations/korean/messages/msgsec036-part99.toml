@@ -8,9 +8,17 @@ korean = "이리 와, <value:$28>.<end>"
 japanese = "…バルザー。<end>"
 korean = "…발저.<end>"
 
+["360017"]
+japanese = "どうしてかしらね。<end>"
+korean = "왜 그런 걸까.<end>"
+
 ["360019"]
 japanese = "そうね。<end>"
 korean = "그러네.<end>"
+
+["360032"]
+japanese = "さぁ、どうかしら？<end>"
+korean = "글쎄, 어떨까?<end>"
 
 ["360035"]
 japanese = "…きれいだね。<end>"
@@ -20,9 +28,17 @@ korean = "…예쁘네.<end>"
 japanese = "そーれ。<end>"
 korean = "자아.<end>"
 
+["360052"]
+japanese = "おもしろいことさ。<end>"
+korean = "재미있는 일이야.<end>"
+
 ["360057"]
 japanese = "<value:$28>、無事？<end>"
 korean = "<value:$28>, 무사해?<end>"
+
+["360063"]
+japanese = "お願い！　逃げて！<end>"
+korean = "부탁이야! 도망쳐!<end>"
 
 ["360071"]
 japanese = "<value:$28>ー！<end>"

@@ -4,9 +4,17 @@
 japanese = "山越え概要<end>"
 korean = "산 넘기 개요<end>"
 
+["210002"]
+japanese = "アンギルダン軍進軍<end>"
+korean = "앙길단군 진군<end>"
+
 ["210004"]
 japanese = "アンギルダン敗走<end>"
 korean = "앙길단 패주<end>"
+
+["210005"]
+japanese = "アンギルダン戦死１<end>"
+korean = "앙길단 전사 1<end>"
 
 ["210006"]
 japanese = "２ページ目へ<end>"
@@ -39,6 +47,10 @@ korean = "3페이지로<end>"
 ["210014"]
 japanese = "旅立ちＴｕｇ<end>"
 korean = "여행 출발 Tug<end>"
+
+["210016"]
+japanese = "旅立ち刃向かうもの<end>"
+korean = "여행 출발 맞서는 자<end>"
 
 ["210017"]
 japanese = "旅立ちトリゴブ<end>"
