@@ -32,6 +32,7 @@ Commands:
 	korean-font-check     Validate raster catalog coverage for Korean glyphs
 	korean-font-generate  Render required Korean glyphs into deterministic catalog
 	korean-slots          Plan deterministic renderer slots for current Korean overlay
+	build-korean          Maintainer-only: build partial Korean alpha PSP_GAME, ISO, and xdelta
 	ppsspp-debugger       Control a running PPSSPP instance through JSON Lines
 	trinity-extract       Extract Trinity PS3 English or Japanese text assets
 	trinity-search        Search paired Trinity English or Japanese text
@@ -52,6 +53,8 @@ func run(args []string, stdin io.Reader, stdout, stderr io.Writer) int {
 	switch args[0] {
 	case "build":
 		return runBuild(root, args[1:], stdout, stderr)
+	case "build-korean":
+		return runBuildKorean(root, args[1:], stdout, stderr)
 	case "check":
 		if len(args) != 1 {
 			fmt.Fprintln(stderr, "zill: usage: zill check")
