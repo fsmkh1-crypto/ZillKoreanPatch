@@ -11,9 +11,10 @@ import (
 	"github.com/HK47196/zill/internal/koreanslots"
 )
 
-// BuildKoreanAlphaISOOnly builds only the partial Korean ISO. It is intended
-// for constrained/mobile environments where xdelta3 is unavailable. The
-// supplied retail ISO and extracted PSP_GAME tree are read-only inputs.
+// BuildKoreanAlphaISOOnly builds only the development Korean ISO. On mobile
+// alpha builds, untranslated Japanese records are replaced in memory with the
+// same small ASCII placeholder used by slot planning. This keeps planner and
+// compiler key usage identical while leaving the production corpus untouched.
 func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string, plan koreanslots.Plan) (err error) {
 	root, err = resolveExistingPath(root, "project root")
 	if err != nil { return err }
@@ -40,6 +41,8 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 	korean, _, err := corpus.LoadKoreanProject(root, source)
 	if err != nil { return err }
+	alphaProject, _, err := BuildKoreanAlphaPlaceholderProject(source, korean)
+	if err != nil { return err }
 
 	archives, err := openArchives(gameDir)
 	if err != nil { return err }
@@ -54,7 +57,7 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	for _, row := range korean.Entries {
 		if row.Layout != "" { layouts[row.ID] = row.Layout }
 	}
-	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
+	compiled, err := compileKoreanBanksWithPlan(source, alphaProject, banks, plan, layouts)
 	if err != nil { return err }
 	if err := addBanks(owners, compiled); err != nil { return err }
 
