@@ -48,6 +48,10 @@ korean = "안 가<end>"
 japanese = "<value:$28>！<line-break>…そんな！<end>"
 korean = "<value:$28>! …그럴 수가!<end>"
 
+["1330074"]
+japanese = "何も聞きたくないよ、<line-break><value:$28>…。<end>"
+korean = "아무것도 듣고 싶지 않아, <value:$28>….<end>"
+
 ["1330076"]
 japanese = "エア！！<line-break>そんな………。<end>"
 korean = "에아!! 그럴 수가……….<end>"

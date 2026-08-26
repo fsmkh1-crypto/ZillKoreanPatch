@@ -68,6 +68,10 @@ korean = "쓸, 쓸데없다고….<end>"
 japanese = "<value:$28>、<line-break>お主、泳ぎは得意か？<end>"
 korean = "<value:$28>, 자네 수영은 잘하나?<end>"
 
+["1710055"]
+japanese = "ぶふぅ～。<line-break>大丈夫か？　<value:$28>。<end>"
+korean = "부후~. 괜찮아? <value:$28>.<end>"
+
 ["1710060"]
 japanese = "おやめなさい！！<end>"
 korean = "그만하세요!!<end>"

@@ -56,6 +56,10 @@ korean = "기다려…. 기다려 줘, 오빠….<end>"
 japanese = "待ちなさい、ネメア！<end>"
 korean = "기다려, 네메아!<end>"
 
+["1180063"]
+japanese = "あ、ああ…。　　　<line-break>　<line-break>　<line-break>…とうさん…。<line-break>とうさん…。<end>"
+korean = "아, 아아…. …아버지…. 아버지….<end>"
+
 ["1180064"]
 japanese = "これが私のやり方だ、<line-break><value:$28>。<end>"
 korean = "이게 내 방식이다, <value:$28>.<end>"

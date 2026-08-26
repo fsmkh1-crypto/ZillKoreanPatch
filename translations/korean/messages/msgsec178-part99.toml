@@ -76,6 +76,10 @@ korean = "제네테스님.<end>"
 japanese = "どうした、いきなり。<end>"
 korean = "왜 그래, 갑자기.<end>"
 
+["1780070"]
+japanese = "わかった。<line-break><value:$28>、すまないが…<end>"
+korean = "알았다. <value:$28>, 미안하지만….<end>"
+
 ["1780073"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"

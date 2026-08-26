@@ -236,6 +236,10 @@ korean = "그렇습니까…. 어쩔 수 없군요.<end>"
 japanese = "…あの、私…。<end>"
 korean = "…저, 저는….<end>"
 
+["1800197"]
+japanese = "おう、<value:$28>。<line-break>手紙が来てるぜ。<end>"
+korean = "오, <value:$28>. 편지가 왔어.<end>"
+
 ["1800201"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"

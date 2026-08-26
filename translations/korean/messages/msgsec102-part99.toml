@@ -88,6 +88,10 @@ korean = "어… 왜, 왜….<end>"
 japanese = "せ、先生！<end>"
 korean = "서, 선생님!<end>"
 
+["1020068"]
+japanese = "<value:$28>…。<line-break>先生のこと、お願い。<end>"
+korean = "<value:$28>…. 선생님을 부탁해.<end>"
+
 ["1020070"]
 japanese = "<value:$28>…。<line-break>カルラ様を裏切った罪、<line-break>償ってもらうわよ。<end>"
 korean = "<value:$28>…. 카를라 님을 배신한 죄, 갚게 해주겠어.<end>"
