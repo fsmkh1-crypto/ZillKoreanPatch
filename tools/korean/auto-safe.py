@@ -20,6 +20,7 @@ import tomllib
 from typing import Callable, Match
 
 from control_tags import fixed_tokens
+from source_markers import is_synthetic_source
 
 ROOT = Path(__file__).resolve().parents[2]
 KOREAN = ROOT / "translations" / "korean" / "messages"
@@ -59,6 +60,8 @@ def load_translation_memory() -> dict[str, str]:
             if ja is None or not ko:
                 continue
             ja_s, ko_s = str(ja), str(ko)
+            if is_synthetic_source(ja_s):
+                continue
             if LINE_BREAK in ko_s:
                 continue
             if fixed_tokens(ja_s) != fixed_tokens(ko_s):
@@ -68,6 +71,8 @@ def load_translation_memory() -> dict[str, str]:
 
 
 def safe_pattern(japanese: str) -> str | None:
+    if is_synthetic_source(japanese):
+        return None
     for regex, render in SAFE_PATTERNS:
         match = regex.fullmatch(japanese)
         if not match:
@@ -100,6 +105,8 @@ def main() -> None:
                 raise SystemExit(f"{args.packet}:{lineno}: duplicate packet id {section}/{rid}")
             seen.add(key)
 
+            if is_synthetic_source(japanese):
+                continue
             korean = tm.get(japanese)
             if korean is None:
                 korean = safe_pattern(japanese)
