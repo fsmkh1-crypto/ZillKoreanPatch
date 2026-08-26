@@ -12,9 +12,17 @@ korean = "거기 서! 악당!<end>"
 japanese = "未来の勇者ガルドラン！<end>"
 korean = "미래의 용사 갈드란!<end>"
 
+["460014"]
+japanese = "コアン…無事でよかった。<end>"
+korean = "코안… 무사해서 다행이야.<end>"
+
 ["460021"]
 japanese = "ぐふっ！<end>"
 korean = "크헉!<end>"
+
+["460024"]
+japanese = "ああ？　どう違うんだア？<end>"
+korean = "어? 뭐가 다른데?<end>"
 
 ["460043"]
 japanese = "ナッジ…！？<end>"
@@ -27,6 +35,10 @@ korean = "정말?<end>"
 ["460062"]
 japanese = "どうだった、親父？<end>"
 korean = "어땠어, 아버지?<end>"
+
+["460081"]
+japanese = "…ナッジのこと、頼むぜ。<end>"
+korean = "…나지 부탁한다.<end>"
 
 ["460085"]
 japanese = "泊まる<end>"
@@ -88,6 +100,10 @@ korean = "어둠의 신기에 대하여<end>"
 japanese = "ネモについて<end>"
 korean = "네모에 대해서<end>"
 
+["460175"]
+japanese = "アーギルシャイアについて<end>"
+korean = "아길샤이어에 대해서<end>"
+
 ["460176"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
@@ -123,6 +139,10 @@ korean = "…후후후후<end>"
 ["460220"]
 japanese = "…ぐふっ、ぐふふふふ。<end>"
 korean = "…구후, 구후후후후.<end>"
+
+["460222"]
+japanese = "だーひゃっひゃっひゃっ！<end>"
+korean = "다햐햐햐햐!<end>"
 
 ["460230"]
 japanese = "その通り<end>"

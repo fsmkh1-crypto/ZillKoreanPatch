@@ -11,3 +11,7 @@ korean = "다른 건 뭐가 있어?<end>"
 ["160010"]
 japanese = "<value:$15>を譲ってくれるのか？<end>"
 korean = "<value:$15>을 넘겨줄 건가?<end>"
+
+["160018"]
+japanese = "どうする？　やめるのか？<end>"
+korean = "어떻게 할래? 그만둘 거야?<end>"

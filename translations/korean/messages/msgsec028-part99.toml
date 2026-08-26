@@ -44,6 +44,10 @@ korean = "나, 나도 괜찮아?<end>"
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
 korean = "<value:$28>… 약초는?<end>"
 
+["280093"]
+japanese = "う、うう…。ヴァ…ン…。<end>"
+korean = "으, 으으…. 반…아….<end>"
+
 ["280102"]
 japanese = "うあーーーっ！！<end>"
 korean = "으아ーーー앗!!<end>"
@@ -95,3 +99,11 @@ korean = "그만둬, <value:$28>!<end>"
 ["280166"]
 japanese = "ケンカか…。<end>"
 korean = "싸움인가….<end>"
+
+["280185"]
+japanese = "な、何かあったのですか？<end>"
+korean = "무, 무슨 일 있었나요?<end>"
+
+["280196"]
+japanese = "旅立ち０１メッセージ終端<end>"
+korean = "여행 출발 01 메시지 끝<end>"

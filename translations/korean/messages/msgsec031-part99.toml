@@ -8,9 +8,17 @@ korean = "여행 출발 04 메시지<end>"
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
 
+["310015"]
+japanese = "おケガはございませんか？<end>"
+korean = "다치신 곳은 없습니까?<end>"
+
 ["310024"]
 japanese = "姉ちゃーん！<end>"
 korean = "누나아!<end>"
+
+["310029"]
+japanese = "また、ボルボラの手下だ！<end>"
+korean = "또 볼보라 부하들이야!<end>"
 
 ["310033"]
 japanese = "やめろ！！　ボルボラ！<end>"
@@ -35,6 +43,10 @@ korean = "<value:$28>…. 멋진 이름이네. 그럼 이만.<end>"
 ["310066"]
 japanese = "そうなるといいね<end>"
 korean = "그렇게 되면 좋겠네<end>"
+
+["310067"]
+japanese = "それは…ただの夢物語だよ<end>"
+korean = "그건… 그저 꿈같은 이야기야.<end>"
 
 ["310076"]
 japanese = "やっと用意ができたか？<end>"
@@ -80,6 +92,18 @@ korean = "누나!!<end>"
 japanese = "レムオンについていく<end>"
 korean = "레몬을 따라간다<end>"
 
+["310148"]
+japanese = "レムオンについていかない<end>"
+korean = "레므온을 따라가지 않는다<end>"
+
+["310150"]
+japanese = "そんな…勝手すぎだぜ！！<end>"
+korean = "그런… 너무 제멋대로잖아!!<end>"
+
+["310155"]
+japanese = "やっぱ、寝てないんだ…。<end>"
+korean = "역시, 안 잤구나….<end>"
+
 ["310157"]
 japanese = "な、な、なんだ！？<end>"
 korean = "뭐, 뭐, 뭐야!?<end>"
@@ -111,6 +135,10 @@ korean = "누, 누구냐!!<end>"
 ["310169"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
+
+["310173"]
+japanese = "お願い、兄さんを守って！<end>"
+korean = "부탁해, 오빠를 지켜 줘!<end>"
 
 ["310178"]
 japanese = "皆の衆！！<end>"
@@ -307,3 +335,7 @@ korean = "빈칸<end>"
 ["310330"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["310331"]
+japanese = "旅立ち０４メッセージ終端<end>"
+korean = "여행 출발 04 메시지 끝<end>"

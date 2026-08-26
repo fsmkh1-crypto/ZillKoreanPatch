@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["170005"]
+japanese = "じゃあ、また来てくれよ。<end>"
+korean = "그럼 또 와 줘.<end>"
+
+["170028"]
+japanese = "８文字まで入力できます。<end>"
+korean = "8자까지 입력할 수 있습니다.<end>"
+
 ["170030"]
 japanese = "どいつを鍛えるんだい？<end>"
 korean = "누굴 단련할 거지?<end>"
@@ -448,6 +456,14 @@ korean = "어서 오세요, <value:$28> 씨. 유명한 <value:$2B>을 모시게 
 japanese = "お泊りになられますか？<end>"
 korean = "묵고 가시겠습니까?<end>"
 
+["170195"]
+japanese = "ありがとうございました。<end>"
+korean = "감사합니다.<end>"
+
+["170196"]
+japanese = "ありがとうございました。<end>"
+korean = "감사합니다.<end>"
+
 ["170207"]
 japanese = "<value:$15>ですか。<line-break>ふむ…<value:$1A>ギアですな。<end>"
 korean = "<value:$15>입니까. 흠… <value:$1A>기어군요.<end>"
@@ -463,6 +479,10 @@ korean = "이, 이것이 그 <value:$15>! <value:$1A>기아면 되겠습니까!?
 ["170217"]
 japanese = "フォーマット中です。<end>"
 korean = "포맷 중입니다.<end>"
+
+["170219"]
+japanese = "データを上書きしますか？<end>"
+korean = "데이터를 덮어쓰시겠습니까?<end>"
 
 ["170221"]
 japanese = "オープニング<end>"

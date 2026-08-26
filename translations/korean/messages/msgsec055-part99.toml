@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["550000"]
+japanese = "ノエル・ボリューム１開始<end>"
+korean = "노엘 볼륨 1 시작<end>"
+
 ["550006"]
 japanese = "よっ、勇者様～！<end>"
 korean = "여어, 용사님~!<end>"
@@ -127,6 +131,10 @@ korean = "면, 면목이 없소이다.<end>"
 ["550072"]
 japanese = "ノエルがやったぞ！<end>"
 korean = "노엘이 해냈다!<end>"
+
+["550073"]
+japanese = "勇者だ！　勇者の誕生だ！<end>"
+korean = "용사다! 용사의 탄생이다!<end>"
 
 ["550077"]
 japanese = "た、助けてくれ！<end>"
@@ -696,6 +704,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550304"]
+japanese = "…わたしが剣を抜いた。　<end>"
+korean = "…내가 검을 뽑았어.<end>"
+
 ["550313"]
 japanese = "あきらめるな<end>"
 korean = "포기하지 마<end>"
@@ -751,3 +763,7 @@ korean = "저기, …세몬인?<end>"
 ["550372"]
 japanese = "そして、現在もな…。<end>"
 korean = "그리고 지금도 말이지….<end>"
+
+["550388"]
+japanese = "ノエル・ボリューム１終端<end>"
+korean = "노엘 볼륨 1 끝<end>"

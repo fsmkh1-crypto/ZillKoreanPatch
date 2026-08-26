@@ -12,6 +12,10 @@ korean = "뭐, 여러 곳이지.<end>"
 japanese = "わかった。<end>"
 korean = "알았어.<end>"
 
+["490032"]
+japanese = "今日にも来ると思うが…。<end>"
+korean = "오늘쯤 올 거라고 생각하지만….<end>"
+
 ["490036"]
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
@@ -180,6 +184,18 @@ korean = "쳇, 두고 보자!<end>"
 japanese = "そうですか、ゼネテス…<end>"
 korean = "그렇군요, 제네테스….<end>"
 
+["490183"]
+japanese = "ただのゼネテスでいいさ。<end>"
+korean = "그냥 제네테스면 돼.<end>"
+
+["490187"]
+japanese = "いきなり質問攻めですか？<end>"
+korean = "갑자기 질문 공세입니까?<end>"
+
+["490189"]
+japanese = "うんにゃ。信用していい。<end>"
+korean = "아니. 믿어도 돼.<end>"
+
 ["490195"]
 japanese = "あ…、<value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"
@@ -191,6 +207,10 @@ korean = "있잖아, <value:$28>.<end>"
 ["490206"]
 japanese = "ひっく、ひっく…<end>"
 korean = "흐윽, 흐윽…<end>"
+
+["490219"]
+japanese = "あいてててって…。う～。<end>"
+korean = "아야야야…. 으~.<end>"
 
 ["490222"]
 japanese = "わ、すごいすごーい！！<end>"
@@ -255,6 +275,10 @@ korean = "어둠의 신기에 대하여<end>"
 ["490273"]
 japanese = "ネモについて<end>"
 korean = "네모에 대해서<end>"
+
+["490274"]
+japanese = "アーギルシャイアについて<end>"
+korean = "아길샤이어에 대해서<end>"
 
 ["490275"]
 japanese = "質問はない<end>"

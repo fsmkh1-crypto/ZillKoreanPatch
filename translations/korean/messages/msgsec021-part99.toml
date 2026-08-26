@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["210000"]
+japanese = "ダミーメッセージここから<end>"
+korean = "더미 메시지 여기부터<end>"
+
 ["210001"]
 japanese = "山越え概要<end>"
 korean = "산 넘기 개요<end>"
@@ -44,9 +48,17 @@ korean = "리벨담 함락<end>"
 japanese = "３ページ目へ<end>"
 korean = "3페이지로<end>"
 
+["210013"]
+japanese = "山越え時（ゼネテス配下）<end>"
+korean = "산 넘을 때(제네테스 휘하)<end>"
+
 ["210014"]
 japanese = "旅立ちＴｕｇ<end>"
 korean = "여행 출발 Tug<end>"
+
+["210015"]
+japanese = "旅立ちＭｅｓｓｅｎｇｅｒ<end>"
+korean = "여행 출발 Messenger<end>"
 
 ["210016"]
 japanese = "旅立ち刃向かうもの<end>"
@@ -227,3 +239,7 @@ korean = "예비39<end>"
 ["210060"]
 japanese = "よび４０<end>"
 korean = "예비40<end>"
+
+["210067"]
+japanese = "ダミーメッセージここまで<end>"
+korean = "더미 메시지 여기까지<end>"

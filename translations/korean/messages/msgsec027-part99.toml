@@ -28,9 +28,21 @@ korean = "설명을 끝낸다<end>"
 japanese = "それでも出場しますか？<end>"
 korean = "그래도 출전하시겠습니까?<end>"
 
+["270058"]
+japanese = "また挑戦してくださいね。<end>"
+korean = "또 도전해 주세요.<end>"
+
 ["270066"]
 japanese = "<line-break>賞金<value:$1A>ギアを手に入れた。<line-break>　<end>"
 korean = "상금 <value:$1A>기어를 손에 넣었다.<end>"
+
+["270067"]
+japanese = "また挑戦してくださいね。<end>"
+korean = "또 도전해 주세요.<end>"
+
+["270071"]
+japanese = "どっちのことが聞きたい？<end>"
+korean = "어느 쪽 이야기를 듣고 싶어?<end>"
 
 ["270084"]
 japanese = "準備できている<end>"
@@ -47,6 +59,10 @@ korean = "전투에서 이긴 것으로 한다<end>"
 ["270094"]
 japanese = "戦闘で負けた事にする<end>"
 korean = "전투에서 진 것으로 한다<end>"
+
+["270095"]
+japanese = "お覚悟、よろしいですか？<end>"
+korean = "각오는 되셨습니까?<end>"
 
 ["270096"]
 japanese = "手加減はナシだからね。<end>"

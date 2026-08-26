@@ -16,6 +16,10 @@ korean = "여어. 우연이군, <value:$28>.<end>"
 japanese = "へへ…へへ…。<end>"
 korean = "헤헤… 헤헤….<end>"
 
+["520027"]
+japanese = "よ。お初にお目にかかる。<end>"
+korean = "여. 처음 뵙겠습니다.<end>"
+
 ["520037"]
 japanese = "戻る<end>"
 korean = "돌아가기<end>"
@@ -44,6 +48,10 @@ korean = "…폐하.<end>"
 japanese = "では、敵はどう出ると？<end>"
 korean = "그럼 적은 어떻게 나올까요?<end>"
 
+["520077"]
+japanese = "戦争は手段を選びません。<end>"
+korean = "전쟁은 수단을 가리지 않습니다.<end>"
+
 ["520089"]
 japanese = "よ。<line-break>お待たせ。<end>"
 korean = "왔어. 기다렸지.<end>"
@@ -63,6 +71,14 @@ korean = "총사령관 각하, 노블 백작 <value:$28> 님께서 오셨습니�
 ["520134"]
 japanese = "<if><value:$29><equal>%0レムオンの弟か…。<end>レムオンの妹か…。<end>"
 korean = "<if><value:$29><equal>%0레므온의 남동생인가….<end>레므온의 여동생인가….<end>"
+
+["520135"]
+japanese = "では、作戦会議を始める。<end>"
+korean = "그럼, 작전회의를 시작한다.<end>"
+
+["520137"]
+japanese = "ゼネテス殿の予想通りだ。<end>"
+korean = "제네테스 공의 예상대로다.<end>"
 
 ["520144"]
 japanese = "何もない<end>"

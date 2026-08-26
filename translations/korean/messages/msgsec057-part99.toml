@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["570006"]
+japanese = "ルルアンタさん…ですか？<end>"
+korean = "루루안타 씨…인가요?<end>"
+
 ["570013"]
 japanese = "いえいえ。<end>"
 korean = "아니에요.<end>"
@@ -52,6 +56,10 @@ korean = "어둠의 신기에 대하여<end>"
 japanese = "ネモについて<end>"
 korean = "네모에 대해서<end>"
 
+["570059"]
+japanese = "アーギルシャイアについて<end>"
+korean = "아길샤이어에 대해서<end>"
+
 ["570060"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
@@ -99,3 +107,15 @@ korean = "손님.<end>"
 ["570118"]
 japanese = "……勇者…様。<end>"
 korean = "……용사… 님.<end>"
+
+["570120"]
+japanese = "勇者様、魔王がでました。<end>"
+korean = "용사님, 마왕이 나타났습니다.<end>"
+
+["570125"]
+japanese = "ガルドランが、いたの…？<end>"
+korean = "갈드란이 있었어…?<end>"
+
+["570127"]
+japanese = "矢…？　ガルドランの…。<end>"
+korean = "화살…? 갈드란의…?<end>"

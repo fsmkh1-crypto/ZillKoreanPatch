@@ -4,6 +4,10 @@
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
 
+["620014"]
+japanese = "失礼ですが、お名前は…。<end>"
+korean = "실례지만, 성함은….<end>"
+
 ["620015"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
@@ -116,6 +120,10 @@ korean = "자, 어떻게 할 거야?<end>"
 japanese = "ええ～！？<end>"
 korean = "에에~!?<end>"
 
+["620097"]
+japanese = "親分、どこに逃げるゴブ？<end>"
+korean = "두목, 어디로 도망가 고브?<end>"
+
 ["620110"]
 japanese = "親分！　あいつらゴブ！<end>"
 korean = "두목! 저놈들 고브!<end>"
@@ -144,6 +152,10 @@ korean = "울먹울먹울먹….<end>"
 japanese = "船に乗んな！<end>"
 korean = "배에 타지 마!<end>"
 
+["620145"]
+japanese = "至極妥当な気がするゴブ。<end>"
+korean = "지극히 타당한 것 같다 고브.<end>"
+
 ["620149"]
 japanese = "１００ギア手に入れた。<end>"
 korean = "100기어를 손에 넣었다.<end>"
@@ -151,6 +163,10 @@ korean = "100기어를 손에 넣었다.<end>"
 ["620153"]
 japanese = "快適な船旅だったゴブ。<end>"
 korean = "쾌적한 뱃길이었다 고브.<end>"
+
+["620154"]
+japanese = "メシもうまかったでゴブ。<end>"
+korean = "밥도 맛있었다 고브.<end>"
 
 ["620156"]
 japanese = "あーっ！！<end>"
@@ -179,6 +195,10 @@ korean = "두목, 여기 고브인가.<end>"
 ["620173"]
 japanese = "む。<end>"
 korean = "음.<end>"
+
+["620175"]
+japanese = "ね、猫がしゃべったゴブ。<end>"
+korean = "고, 고양이가 말했어 고브.<end>"
 
 ["620178"]
 japanese = "うそ臭いゴブ。<end>"
@@ -220,6 +240,10 @@ korean = "하지만….<end>"
 japanese = "あーっ、あんたたち！<end>"
 korean = "아ー, 너희들!<end>"
 
+["620206"]
+japanese = "おやおや、またお客様だ。<end>"
+korean = "이런 이런, 또 손님이군.<end>"
+
 ["620217"]
 japanese = "どうするの？<line-break><value:$28>。<end>"
 korean = "어떻게 할 거야? <value:$28>.<end>"
@@ -232,6 +256,10 @@ korean = "안 돼. 왜냐면….<end>"
 japanese = "どうですか？<end>"
 korean = "어떻습니까?<end>"
 
+["620234"]
+japanese = "よろしく、お願いします。<end>"
+korean = "잘 부탁드립니다.<end>"
+
 ["620237"]
 japanese = "あんたの予想通りだ。<end>"
 korean = "네 예상대로야.<end>"
@@ -239,6 +267,10 @@ korean = "네 예상대로야.<end>"
 ["620249"]
 japanese = "（未使用）<end>"
 korean = "(미사용)<end>"
+
+["620270"]
+japanese = "お、おはようございます。<end>"
+korean = "아, 안녕하세요.<end>"
 
 ["620276"]
 japanese = "無限のソウルとは<end>"
