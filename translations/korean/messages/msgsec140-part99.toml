@@ -340,6 +340,10 @@ korean = "<value:$28> 님….<end>"
 japanese = "アトレイア…様…？<end>"
 korean = "아트레이아… 님…?<end>"
 
+["1400165"]
+japanese = "ティアナ様…。<line-break>ティアナ様もこの催しに？<end>"
+korean = "티아나 님…. 티아나 님도 이 행사에?<end>"
+
 ["1400166"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
@@ -507,6 +511,10 @@ korean = "예비 메시지 8 무도회, 볼륨 4<end>"
 ["1400253"]
 japanese = "予備メッセージ９<line-break>舞踏会、ボリューム４<end>"
 korean = "예비 메시지 9 무도회, 볼륨 4<end>"
+
+["1400254"]
+japanese = "予備メッセージ１０<line-break>舞踏会、ボリューム４<end>"
+korean = "예비 메시지 10 무도회, 볼륨 4<end>"
 
 ["1400256"]
 japanese = "その声…シャリね！？<end>"
@@ -747,6 +755,10 @@ korean = "나를 구하려고…?<end>"
 ["1400410"]
 japanese = "<value:$28><line-break>キミはボクを<line-break>助けるべきじゃなかったんだ。<end>"
 korean = "<value:$28>, 넌 나를 구하지 말았어야 했어.<end>"
+
+["1400418"]
+japanese = "バカだよ…。<line-break>本当にバカだよ、キミは…！<end>"
+korean = "바보야…. 정말 바보야, 너는…!<end>"
 
 ["1400420"]
 japanese = "（そして、たぶん、いつか、さよなら）<end>"

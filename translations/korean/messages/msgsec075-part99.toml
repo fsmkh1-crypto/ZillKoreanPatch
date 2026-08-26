@@ -296,6 +296,10 @@ korean = "…그렇…군요. …말씀하신 대로예요.<end>"
 japanese = "私といると、<line-break>ホッとする…のですか？<end>"
 korean = "저와 있으면 마음이 놓이시나요…?<end>"
 
+["750210"]
+japanese = "あの…、<value:$28>様。<line-break>ひとつ、伺ってよろしいでしょうか？<line-break>　<line-break>ティアナ様っておきれいですか？<end>"
+korean = "저기… <value:$28>님. 하나 여쭤봐도 될까요? 티아나 님은 예쁜가요?<end>"
+
 ["750211"]
 japanese = "きれいだ<end>"
 korean = "예쁘다<end>"

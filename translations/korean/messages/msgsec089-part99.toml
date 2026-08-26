@@ -16,6 +16,10 @@ korean = "…용골 사막 한가운데….<end>"
 japanese = "<value:$28>様！<line-break>エステル様が、エステル様が！<line-break>シャリという魔術師にさらわれてしまいました！<end>"
 korean = "<value:$28>님! 에스텔 님이, 에스텔 님이! 샤리라는 마술사에게 납치됐습니다!<end>"
 
+["890030"]
+japanese = "おかげでチェックに間に合ったよ。<line-break>ありがとう、<value:$28>。<line-break>　<line-break>ねぇ、ちょっと座って話そっか。<end>"
+korean = "덕분에 점검에 맞췄어. 고마워, <value:$28>. 자, 잠깐 앉아서 이야기할까.<end>"
+
 ["890032"]
 japanese = "えへへ、ありがと。<line-break>ねえ、座らない？<end>"
 korean = "헤헤, 고마워. 있잖아, 앉지 않을래?<end>"

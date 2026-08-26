@@ -8,6 +8,10 @@ korean = "루루안타 볼륨 1 파트 3 시작<end>"
 japanese = "あっ！　ちょうどよかった。<line-break>ねぇ、<value:$28>。<line-break>冒険者ギルドって知ってる？<end>"
 korean = "아! 마침 잘됐다. 저기, <value:$28>. 모험자 길드라는 곳 알아?<end>"
 
+["1590017"]
+japanese = "わぁ、うれしいな　　　　<line-break><value:$28>！<line-break>　<line-break>それじゃあ、明日は、<line-break>賢者の森に出発だね！<end>"
+korean = "와, 기쁘다, <value:$28>! 그럼 내일은 현자의 숲으로 출발이네!<end>"
+
 ["1590019"]
 japanese = "まったく手間をとらせやがって！<end>"
 korean = "정말 손이 많이 가게 하는군!<end>"
@@ -87,6 +91,10 @@ korean = "<value:$28>, 오늘은 같이 자 줄게에.<end>"
 ["1590076"]
 japanese = "おやすみなさい。<end>"
 korean = "안녕히 주무세요.<end>"
+
+["1590078"]
+japanese = "おはよう、　　　　　　　　　　<line-break><value:$28>、ルルアンタ。<line-break>　<line-break>ルルアンタは本当に元気ですね。<end>"
+korean = "좋은 아침, <value:$28>, 루루안타. 루루안타는 정말 활기차네요.<end>"
 
 ["1590079"]
 japanese = "うふふ。<line-break>ありがとうございます！<end>"

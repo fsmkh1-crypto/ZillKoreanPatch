@@ -32,6 +32,10 @@ korean = "흐윽, 흐윽…<end>"
 japanese = "うわ～ん！！！<line-break><value:$28>～！<line-break>こわかったよぉ～～～！<end>"
 korean = "으아앙!!! <value:$28>~! 무서웠어~~~!<end>"
 
+["1480029"]
+japanese = "おはよう、　　　　　　　　　　<line-break><value:$28>、ルルアンタ。<line-break>　<line-break>ルルアンタは本当に元気ですね。<end>"
+korean = "좋은 아침, <value:$28>, 루루안타. 루루안타는 정말 활기차네요.<end>"
+
 ["1480031"]
 japanese = "それで、<line-break>ゼネテスはどうしました？<end>"
 korean = "그래서, 제네테스는 어떻게 됐나요?<end>"

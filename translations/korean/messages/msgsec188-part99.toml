@@ -148,6 +148,10 @@ korean = "어? …그럴 리가….<end>"
 japanese = "<value:$28>さん、<line-break>あなたの存在は解放軍に<line-break>欠くべからざるものです。<end>"
 korean = "<value:$28> 씨, 당신의 존재는 해방군에 없어서는 안 됩니다.<end>"
 
+["1880137"]
+japanese = "このままディンガル帝国を　　　　　　<line-break>放っておくわけにはいかない！<line-break>そうでしょう、<value:$28>さん？<end>"
+korean = "이대로 딩갈 제국을 내버려 둘 수는 없어요! 그렇죠, <value:$28>님?<end>"
+
 ["1880138"]
 japanese = "なんで？<end>"
 korean = "왜?<end>"

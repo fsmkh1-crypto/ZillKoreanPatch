@@ -28,6 +28,10 @@ korean = "아니야. 손님이 한 명 더 왔어.<end>"
 japanese = "ひっ………！<end>"
 korean = "히익………!<end>"
 
+["1410014"]
+japanese = "しのはおと、ですって？<line-break>…どういうこと？<end>"
+korean = "'시노하오토'라고? …무슨 뜻이지?<end>"
+
 ["1410015"]
 japanese = "フフ、君の後ろにいる<line-break>男はね、かつて…<end>"
 korean = "후후, 네 뒤에 있는 남자는 말이지, 예전에….<end>"
@@ -63,6 +67,10 @@ korean = "어?<end>"
 ["1410034"]
 japanese = "待って！　待ってください！<end>"
 korean = "기다려! 기다려 주세요!<end>"
+
+["1410036"]
+japanese = "ダメだ。俺がいると…<line-break>君に迷惑がかかる。<end>"
+korean = "안 돼. 내가 있으면… 네게 폐를 끼쳐.<end>"
 
 ["1410037"]
 japanese = "レイヴン！<end>"

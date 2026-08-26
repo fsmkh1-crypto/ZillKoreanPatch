@@ -36,6 +36,10 @@ korean = "신경 쓰여<end>"
 japanese = "気にならない<end>"
 korean = "신경 쓰이지 않는다<end>"
 
+["1370050"]
+japanese = "なんだ。<line-break>ここの貴族さんたちのことかい？<end>"
+korean = "뭐야. 여기 귀족들 이야기야?<end>"
+
 ["1370057"]
 japanese = "強さ<end>"
 korean = "강함<end>"
@@ -103,6 +107,10 @@ korean = "오, <value:$28>인가.<end>"
 ["1370138"]
 japanese = "<value:$28>、　<line-break>…がんばれよ。<end>"
 korean = "<value:$28>, …힘내.<end>"
+
+["1370139"]
+japanese = "また、お前か。<line-break>ヒマな奴だな、まったく。<end>"
+korean = "또 너냐. 정말 한가한 녀석이군.<end>"
 
 ["1370140"]
 japanese = "どうだ？<line-break>元気にやってっか？<end>"
@@ -380,6 +388,14 @@ korean = "대장간에 대해 알려 줬으면 해<end>"
 japanese = "何も用はない<end>"
 korean = "아무 볼일도 없다<end>"
 
+["1370289"]
+japanese = "じゃ、どの話に<line-break>付き合ってくれるんだい？<end>"
+korean = "그럼 어떤 이야기에 어울려 줄래?<end>"
+
+["1370292"]
+japanese = "じゃ、どの話に<line-break>付き合ってくれるんだい？<end>"
+korean = "그럼 어떤 이야기에 어울려 줄래?<end>"
+
 ["1370293"]
 japanese = "装備の強度って？<end>"
 korean = "장비의 강도란?<end>"
@@ -399,6 +415,10 @@ korean = "정령 속성 변경이 뭐야?<end>"
 ["1370297"]
 japanese = "全部知っている<end>"
 korean = "전부 알고 있어<end>"
+
+["1370308"]
+japanese = "俺たちにとっても、<line-break>いい稼ぎになるしな。<end>"
+korean = "우리한테도 좋은 벌이가 되니까.<end>"
 
 ["1370309"]
 japanese = "ははは！<end>"
@@ -604,6 +624,10 @@ korean = "벽보가 붙어 있네요.<end>"
 japanese = "さて、何について説明しようか？<end>"
 korean = "자, 무엇에 대해 설명할까?<end>"
 
+["1370459"]
+japanese = "ま、まさか師匠、<line-break>あの恐ろしい仕事を…。<end>"
+korean = "서, 설마 스승님, 그 무시무시한 일을….<end>"
+
 ["1370461"]
 japanese = "だ、だって…。<end>"
 korean = "하, 하지만….<end>"
@@ -768,6 +792,10 @@ korean = "의뢰를 해내는 요령은?<end>"
 japanese = "十分わかっているので大丈夫<end>"
 korean = "충분히 알고 있으니 괜찮아<end>"
 
+["1370578"]
+japanese = "おっと、冒険者になる気に<line-break>なったのかい。<end>"
+korean = "오, 모험자가 될 마음이 생긴 거야?<end>"
+
 ["1370580"]
 japanese = "もういいのかい？<end>"
 korean = "이제 됐어?<end>"
@@ -891,6 +919,10 @@ korean = "아, <value:$28> 씨….<end>"
 ["1370650"]
 japanese = "そうだ、<line-break><value:$28>さんが<line-break>いたじゃない。<end>"
 korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
+
+["1370656"]
+japanese = "よかった！<line-break>じゃ、よろしくお願いします！<end>"
+korean = "다행이다! 그럼 잘 부탁드립니다!<end>"
 
 ["1370671"]
 japanese = "こんにちは。<end>"

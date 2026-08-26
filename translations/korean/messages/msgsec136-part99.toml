@@ -924,6 +924,14 @@ korean = "폐성의 왕좌로 향하셨다.<end>"
 japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
 korean = "봐, 왔어. <value:$28>가.<end>"
 
+["1360761"]
+japanese = "バロル様の城、<line-break>廃城の玉座へ向かわれた。<end>"
+korean = "바롤 님의 성, 폐성의 왕좌로 향하셨다.<end>"
+
+["1360763"]
+japanese = "お前たちの作った神…<line-break>出してもらおうか。<end>"
+korean = "너희가 만든 신… 내놓아 봐.<end>"
+
 ["1360769"]
 japanese = "ティアナの死によってできた<line-break>強力な力場を通って現れたか。<line-break>ゆくぞ、<value:$28>！<end>"
 korean = "티아나의 죽음으로 생긴 강력한 역장을 뚫고 나타났나. 간다, <value:$28>!<end>"
