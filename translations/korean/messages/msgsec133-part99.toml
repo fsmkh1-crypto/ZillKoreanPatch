@@ -964,6 +964,10 @@ korean = "정말 꼭 들어가야 합니까?<end>"
 japanese = "それがいいですよ<end>"
 korean = "그게 좋겠어요<end>"
 
+["1330702"]
+japanese = "ここを通りたい？<line-break>冗談じゃない！<line-break> <line-break>勝手に人を通したのがばれたら、<line-break>酷い目に遭わされます。<line-break>お引取りを…<end>"
+korean = "여길 지나가고 싶다고? 말도 안 돼! 멋대로 사람을 통과시킨 게 들키면 호되게 당합니다. 돌아가 주십시오….<end>"
+
 ["1330703"]
 japanese = "<value:$28>は<line-break>ウルグを手に入れた。<end>"
 korean = "<value:$28>는 울그를 손에 넣었다.<end>"

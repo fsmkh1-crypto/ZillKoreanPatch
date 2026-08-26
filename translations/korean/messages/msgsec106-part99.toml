@@ -84,6 +84,10 @@ korean = "그, 그럴 수가…. <value:$28>님이… 그럴 수가….<end>"
 japanese = "クリュセイス、ショックだったろう。<end>"
 korean = "크류세이스, 충격이었겠지.<end>"
 
+["1060113"]
+japanese = "あの者があんなに卑劣な人物だと<line-break>見抜けなかった私が悪かったのだ。<line-break>つらい思いをさせたな。クリュセイス。<line-break><value:$28>め…。<end>"
+korean = "그자가 그렇게 비열한 인물인 줄 알아보지 못한 내 잘못이다. 힘들게 했구나, 크류세이스. <value:$28> 녀석….<end>"
+
 ["1060115"]
 japanese = "…まさか、<value:$28>様？<end>"
 korean = "…설마, <value:$28> 님?<end>"
@@ -99,6 +103,10 @@ korean = "그, 그럴 수가…. <value:$28> 님이… 그런….<end>"
 ["1060119"]
 japanese = "クリュセイス、ショックだったろう。<end>"
 korean = "크류세이스, 충격이었겠지.<end>"
+
+["1060120"]
+japanese = "あの者があんなに卑劣な人物だと<line-break>見抜けなかった私が悪かったのだ。<line-break>つらい思いをさせたな。クリュセイス。<line-break><value:$28>め…。<end>"
+korean = "그자가 그렇게 비열한 인물인 줄 알아보지 못한 내 잘못이다. 힘들게 했구나, 크류세이스. <value:$28> 녀석….<end>"
 
 ["1060121"]
 japanese = "予備メッセージ１<line-break>ロティ、ボリューム２<end>"

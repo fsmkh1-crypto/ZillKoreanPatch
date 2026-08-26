@@ -68,6 +68,10 @@ korean = "…샤리!<end>"
 japanese = "ボクを…どうしようっていうんだ！？<end>"
 korean = "나를… 어떻게 하려는 거야!?<end>"
 
+["890076"]
+japanese = "ん～、なんか、もう<line-break>ゴチャゴチャ説明するのも<line-break>面倒になってきちゃったな。<line-break>君を連れて行く。<line-break>もう時間もないんだ。<end>"
+korean = "음~ 이제 이것저것 설명하는 것도 귀찮아졌네. 널 데려가겠어. 이제 시간도 없어.<end>"
+
 ["890080"]
 japanese = "それじゃあ、<line-break>さようなら、<line-break><value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
@@ -372,9 +376,17 @@ korean = "이…노래…<end>"
 japanese = "絶望を、押し返しおったか…<end>"
 korean = "절망을 밀어냈단 말인가…<end>"
 
+["890251"]
+japanese = "<value:$28>、<line-break>彼女を旅に連れていってくれませんか？<end>"
+korean = "<value:$28>, 그녀를 여행에 데려가 주시겠습니까?<end>"
+
 ["890256"]
 japanese = "<value:$28>！<line-break>あなたまで、そんな！<end>"
 korean = "<value:$28>! 당신까지 그러다니!<end>"
+
+["890261"]
+japanese = "<value:$28>、<line-break>彼女を旅に連れていってくれませんか？<end>"
+korean = "<value:$28>, 그녀를 여행에 데려가 주시겠습니까?<end>"
 
 ["890278"]
 japanese = "…終わりだ。<end>"
@@ -568,6 +580,10 @@ korean = "<value:$28>…. 고마워. 폐를 끼치네.<end>"
 japanese = "決心がつきましたか。<end>"
 korean = "결심이 섰습니까?<end>"
 
+["890391"]
+japanese = "<value:$28>…。<line-break>あなたの力を貸してあげてください。<end>"
+korean = "<value:$28>…. 당신의 힘을 빌려 주세요.<end>"
+
 ["890393"]
 japanese = "待って。<end>"
 korean = "기다려.<end>"
@@ -675,6 +691,10 @@ korean = "응. 정말 고마워.<end>"
 ["890449"]
 japanese = "それでは、失礼いたします。<line-break>　<line-break>　<end>"
 korean = "그럼, 실례하겠습니다.　　<end>"
+
+["890451"]
+japanese = "あ、<value:$28>様ですか？<line-break>どうぞ、お入りになって。<end>"
+korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
 
 ["890454"]
 japanese = "時は満ちた。<line-break>しかし、なぜ時を告げぬ？<line-break> <line-break>告げるものよ…？<end>"
@@ -804,6 +824,10 @@ korean = "나, 나왔다! 괴, 괴물이!<end>"
 japanese = "う、嘘じゃない。<line-break>な、仲間が中で！<end>"
 korean = "거, 거짓말 아니야. 도, 동료가 안에 있어!<end>"
 
+["890525"]
+japanese = "これは、<value:$28>様。<line-break>今日はどうなされたのです？<end>"
+korean = "<value:$28>님이시군요. 오늘은 무슨 일로 오셨습니까?<end>"
+
 ["890526"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
@@ -907,6 +931,10 @@ korean = "거, 거짓말 아니야. 도, 동료가 안에 있어!<end>"
 ["890582"]
 japanese = "申し訳ありませんが、<line-break>規則は規則ですので。<end>"
 korean = "죄송하지만 규칙은 규칙이라서요.<end>"
+
+["890584"]
+japanese = "これは、<value:$28>様。<line-break>今日はどうなされたのです？<end>"
+korean = "<value:$28>님이시군요. 오늘은 무슨 일로 오셨습니까?<end>"
 
 ["890585"]
 japanese = "別に用はない<end>"
@@ -1088,6 +1116,10 @@ korean = "카, 카핀!<end>"
 japanese = "戦う前から負けたような声を<line-break>出すんじゃないよ、ノエル！<line-break><line-break>レイヴンとの冒険で、<line-break>何を学んだんだい！<end>"
 korean = "싸우기도 전에 진 것 같은 소리 하지 마, 노엘! 레이븐과의 모험에서 뭘 배웠어!<end>"
 
+["890643"]
+japanese = "レイヴンは、こいつに<line-break>挑まないわけにはいかなかった。<line-break><line-break>こいつに喰われたシルヴァの人々に、<line-break>償いをするためにね！<end>"
+korean = "레이븐은 이 녀석에게 도전하지 않을 수 없었어. 이 녀석에게 먹힌 실바 사람들에게 속죄하기 위해서 말이야!<end>"
+
 ["890646"]
 japanese = "ああ…カ、カフィン…！<end>"
 korean = "아아… 카, 카핀…!<end>"
@@ -1231,6 +1263,10 @@ korean = "말없이 지켜본다<end>"
 ["890705"]
 japanese = "待って、ヴァン！<line-break><value:$28>の言うとおりだよ！<end>"
 korean = "기다려, 반! <value:$28> 말이 맞아!<end>"
+
+["890706"]
+japanese = "ナッジ、<value:$28>！<line-break>てめえら、余計なお世話だぜ！<end>"
+korean = "나지, <value:$28>! 너희들, 쓸데없는 참견이야!<end>"
 
 ["890707"]
 japanese = "待って！<end>"

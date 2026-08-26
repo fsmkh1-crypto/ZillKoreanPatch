@@ -340,6 +340,10 @@ korean = "뭐? 왜 내가 군인이 됐냐고? …정말 그렇게 듣고 싶어
 japanese = "…同情したら、殺すよ？<end>"
 korean = "…동정하면 죽일 거야?<end>"
 
+["840155"]
+japanese = "くすっ、あんたってさー、<line-break>割とバカだよね。<line-break>いいわ。教えてあげる。<line-break>そのかわり、同情したら<line-break>ホントに殺すかんね？<end>"
+korean = "후후, 너 말이야 꽤 바보지. 좋아, 알려 줄게. 대신 동정하면 정말 죽여 버릴 거야, 알았어?<end>"
+
 ["840165"]
 japanese = "空　１５７<line-break>カルラ、ボリューム１<end>"
 korean = "빈칸 157 카를라, 볼륨 1<end>"
@@ -399,6 +403,10 @@ korean = "뭐라고 감사드려야 할지….<end>"
 ["840188"]
 japanese = "は、はい。<line-break>この近くの村に両親と弟が…。<end>"
 korean = "네, 네. 이 근처 마을에 부모님과 남동생이….<end>"
+
+["840189"]
+japanese = "それじゃ、家族と一緒に　　<line-break>今すぐディンガルへ逃げて。<line-break>　<line-break>奴らに家を知られている以上、<line-break>村にいるのは危険だわ。<end>"
+korean = "그럼 가족과 함께 지금 당장 딘갈로 도망쳐. 녀석들이 집을 아는 이상 마을에 있는 건 위험해.<end>"
 
 ["840191"]
 japanese = "あの、でも…。<end>"

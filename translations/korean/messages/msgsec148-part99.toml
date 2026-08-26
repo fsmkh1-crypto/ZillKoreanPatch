@@ -156,6 +156,10 @@ korean = "아, <value:$28>. 벌써 가는 거야?<end>"
 japanese = "だからね、<value:$28>は<line-break>運命に選ばれたんだって、<line-break>ゼネテスは言ってた…。<end>"
 korean = "그러니까, <value:$28>은 운명에 선택받은 거라고 제네테스가 말했어….<end>"
 
+["1480094"]
+japanese = "そうだよね！　よかった…。　　<line-break>ルルアンタ、これからも<line-break><value:$28>と一緒だよ！<line-break>それじゃぁ、<value:$28>。<line-break>出発進行！<end>"
+korean = "그렇지! 다행이다…. 루루안타, 앞으로도 <value:$28>과 함께할 거야! 그럼 <value:$28>, 출발!<end>"
+
 ["1480096"]
 japanese = "アーギルシャイア？<end>"
 korean = "아길샤이어?<end>"

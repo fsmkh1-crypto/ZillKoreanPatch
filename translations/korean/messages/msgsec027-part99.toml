@@ -200,6 +200,10 @@ korean = "봐주지 않겠다. 질 생각도 없으니까.<end>"
 japanese = "ふふ、悪くない。<line-break>お前とは、戦ってみたかった。<end>"
 korean = "후후, 나쁘지 않군. 너와는 한번 싸워 보고 싶었어.<end>"
 
+["270103"]
+japanese = "<value:$28>、お前か。<line-break>相手にとって不足はないわね。<end>"
+korean = "<value:$28>, 너였나. 상대로 부족함은 없겠군.<end>"
+
 ["270104"]
 japanese = "<value:$28>！<line-break>お互い全力で行こうぜ！！<end>"
 korean = "<value:$28>! 서로 전력으로 가 보자고!!<end>"

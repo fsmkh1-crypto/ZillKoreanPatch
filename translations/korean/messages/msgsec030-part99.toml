@@ -156,6 +156,10 @@ korean = "도망간다 고브~!<end>"
 japanese = "ガント親分、<line-break>どこに逃げるでゴブ！？<end>"
 korean = "간트 두목, 어디로 도망가는 고브!?<end>"
 
+["300087"]
+japanese = "暗くてよく見えないわ…。<line-break><value:$28>、気をつけて！<end>"
+korean = "어두워서 잘 안 보여…. <value:$28>, 조심해!<end>"
+
 ["300088"]
 japanese = "やったわ…<line-break>勝った…。<end>"
 korean = "해냈어… 이겼어….<end>"

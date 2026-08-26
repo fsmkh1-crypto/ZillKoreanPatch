@@ -92,6 +92,10 @@ korean = "…좋아, 어떻게든 착지는 한 것 같네. 그럼 다음은, �
 japanese = "…今、これは飛べないまま壊される。<end>"
 korean = "…지금 이건 날지도 못한 채 부서진다.<end>"
 
+["1120115"]
+japanese = "私も、ウルカーンへ戻ります。<line-break>そこにはもう、私の役目は<line-break>何もないかもしれませんが…。<line-break><value:$28>様、<line-break>それでは…。<end>"
+korean = "저도 울칸으로 돌아가겠습니다. 그곳에는 이제 제 역할이 아무것도 남지 않았을지도 모르지만…. <value:$28>님, 그럼….<end>"
+
 ["1120116"]
 japanese = "<value:$28>さん…、<line-break>本当にありがとうございました。<line-break>　<line-break>私…私もできることなら<line-break><value:$28>さんの旅に…。<end>"
 korean = "<value:$28>님… 정말 감사합니다. 저… 저도 가능하다면 <value:$28>님의 여행에….<end>"
@@ -99,6 +103,14 @@ korean = "<value:$28>님… 정말 감사합니다. 저… 저도 가능하다�
 ["1120119"]
 japanese = "…今、これは飛べないまま壊される。<end>"
 korean = "…지금 이건 날지도 못한 채 부서진다.<end>"
+
+["1120121"]
+japanese = "私も、ウルカーンへ戻ります。<line-break>そこにはもう、私の役目は<line-break>何もないかもしれませんが…。<line-break><value:$28>様、<line-break>それでは…。<end>"
+korean = "저도 울칸으로 돌아가겠습니다. 그곳에는 이제 제 역할이 아무것도 남지 않았을지도 모르지만…. <value:$28>님, 그럼….<end>"
+
+["1120126"]
+japanese = "私も、ウルカーンへ戻ります。<line-break>そこにはもう、私の役目は<line-break>何もないかもしれませんが…。<line-break><value:$28>様、<line-break>それでは…。<end>"
+korean = "저도 울칸으로 돌아가겠습니다. 그곳에는 이제 제 역할이 아무것도 남지 않았을지도 모르지만…. <value:$28>님, 그럼….<end>"
 
 ["1120128"]
 japanese = "<value:$28>…。<line-break>ボク…、ホントに……。<end>"

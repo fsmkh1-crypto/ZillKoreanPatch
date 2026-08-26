@@ -564,6 +564,10 @@ korean = "정말… 다정한… 키스….<end>"
 japanese = "…アイリーンさんと<line-break>旅をしてるんですか？<end>"
 korean = "…아이린 씨와 여행하고 계신 건가요?<end>"
 
+["620308"]
+japanese = "…私、<value:$28>さんを<line-break>待っていてもいいんですか？<end>"
+korean = "…저, <value:$28>님을 기다려도 되는 건가요?<end>"
+
 ["620309"]
 japanese = "…ちゃんと答えてください。<line-break>私、<value:$28>さんを<line-break>信じていていいんですね？<end>"
 korean = "…제대로 대답해 주세요. 저, <value:$28>님을 믿어도 되는 거죠?<end>"

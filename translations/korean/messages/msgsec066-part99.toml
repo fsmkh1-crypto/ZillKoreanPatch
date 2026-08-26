@@ -80,6 +80,10 @@ korean = "예를 들면, 사랑병이라든가.<end>"
 japanese = "だ、誰が！　あなたなんかに！<end>"
 korean = "누, 누가! 당신 따위에게!<end>"
 
+["660034"]
+japanese = "そうだな…。<line-break>ありゃ、ほんとに運がよかった。<line-break>　<line-break>どう考えても<line-break>アンギルダンのとっつぁんが<line-break>勝つ戦だった。<end>"
+korean = "그래…. 그건 정말 운이 좋았어. 어떻게 생각해도 앙길단 아저씨가 이길 전투였지.<end>"
+
 ["660037"]
 japanese = "戦場は地獄になる。　　　<end>"
 korean = "전장은 지옥이 된다.<end>"
@@ -188,6 +192,10 @@ korean = "그건 훌륭한 재능이야.<end>"
 japanese = "ちゃかさないでください。<end>"
 korean = "놀리지 마세요.<end>"
 
+["660119"]
+japanese = "わからないのかい？<line-break>みんな、あんたの笑顔を見たくて<line-break>あんたの周りに集まって来るんだよ。<line-break>あんたの笑顔に救われたくてね。<end>"
+korean = "모르겠어? 모두 네 웃는 얼굴을 보고 싶어서 네 주위로 모여드는 거야. 네 미소에 구원받고 싶어서 말이지.<end>"
+
 ["660131"]
 japanese = "きゃっ！<line-break>いきなり入ってこないでください。<end>"
 korean = "꺅! 갑자기 들어오지 마세요.<end>"
@@ -216,6 +224,10 @@ korean = "살아 있다면 반드시 다시 올 거야.<end>"
 japanese = "<value:$28>様なら、<line-break>大歓迎いたしますわ。<line-break>また、いらしてくださいね。<end>"
 korean = "<value:$28> 님이라면 대환영이에요. 또 와 주세요.<end>"
 
+["660153"]
+japanese = "まあ、<value:$28>様。<line-break>ようこそいらっしゃいました。<end>"
+korean = "어머, <value:$28>님. 어서 오세요.<end>"
+
 ["660154"]
 japanese = "姫さんのきれいな姿を<line-break>見に来たぜ。<end>"
 korean = "공주님의 아름다운 모습을 보러 왔지.<end>"
@@ -223,6 +235,10 @@ korean = "공주님의 아름다운 모습을 보러 왔지.<end>"
 ["660159"]
 japanese = "それは、花にではなくて<line-break>女の方にでしょう？<end>"
 korean = "그건 꽃이 아니라 여자 쪽이겠죠?<end>"
+
+["660161"]
+japanese = "…あ、<value:$28>様。<line-break>ぜひ、またいらしてください。<end>"
+korean = "…아, <value:$28>님. 꼭 다시 와 주세요.<end>"
 
 ["660163"]
 japanese = "フフ、<line-break>酒のニオイはお嫌いかな？<end>"

@@ -12,6 +12,10 @@ korean = "기다리고 있었습니다, <value:$28>님.<end>"
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"
 
+["830004"]
+japanese = "フゴー様、そのようなことを<line-break>言われてはいけません。<line-break><line-break>やっとご先祖様のご遺言を<line-break>果たせるかもしれないのですから。<end>"
+korean = "후고 님, 그런 말씀을 하시면 안 됩니다. 드디어 선조님의 유언을 이룰 수 있을지도 모르니까요.<end>"
+
 ["830009"]
 japanese = "たくさん珍しい品を<line-break>持ってきてくれたのぉ。<end>"
 korean = "희귀한 물건을 많이 가져왔구나.<end>"
@@ -51,6 +55,10 @@ korean = "우뉴우….<end>"
 ["830021"]
 japanese = "ほーっほっほっ、<line-break>むにゅー、ですわねー。<end>"
 korean = "호호호호, 말랑말랑하군요~.<end>"
+
+["830024"]
+japanese = "<value:$28>に<line-break>英雄ストラ＝フゴーのソウルが宿った。<end>"
+korean = "<value:$28>에게 영웅 스트라=후고의 소울이 깃들었다.<end>"
 
 ["830025"]
 japanese = "むにゅー…。<end>"

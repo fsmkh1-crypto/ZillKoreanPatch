@@ -776,6 +776,10 @@ korean = "<value:$28>, 그쪽은 어때?<end>"
 japanese = "それじゃ、お互いがんばりましょう。<end>"
 korean = "그럼 서로 힘내죠.<end>"
 
+["560359"]
+japanese = "あら、<value:$28><line-break>こんな所で会うなんて怪しいわね。<end>"
+korean = "어머, <value:$28>. 이런 곳에서 만나다니 수상하네.<end>"
+
 ["560361"]
 japanese = "<value:$28>、<line-break>調子はどう？<end>"
 korean = "<value:$28>, 상태는 어때?<end>"
@@ -1240,6 +1244,10 @@ korean = "그래서 말인데, <value:$28>. 네 임무는….<end>"
 japanese = "なんですって？<end>"
 korean = "뭐라고요?<end>"
 
+["560677"]
+japanese = "くっくっく、そうか！<line-break>やってくれるか、<value:$28>。<end>"
+korean = "큭큭큭, 그런가! 해 주겠나, <value:$28>.<end>"
+
 ["560679"]
 japanese = "よし、聞いてのとおりだ。<line-break>この作戦が成功すれば、<line-break>ロセン復興の日も近いぞ！<line-break>すぐ準備にとりかかるのだ！！<end>"
 korean = "좋아, 들은 대로다. 이 작전이 성공하면 로센 부흥의 날도 머지않았다! 당장 준비에 착수하라!!<end>"
@@ -1275,6 +1283,10 @@ korean = "그렇군…. 맞아, 밖에 있는 사람들에게 알려야 해. 서
 ["560703"]
 japanese = "…くっ！<line-break>逃げるんだ。<end>"
 korean = "…큭! 도망쳐.<end>"
+
+["560706"]
+japanese = "何をしているの、<value:$28>！<line-break>さっさと逃げなきゃ。<end>"
+korean = "뭐 하는 거야, <value:$28>! 빨리 도망쳐야지.<end>"
 
 ["560710"]
 japanese = "逃げてもムダムダ<line-break>町中、包囲してっから。<end>"

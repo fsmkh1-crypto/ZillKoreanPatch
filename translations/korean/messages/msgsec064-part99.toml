@@ -204,6 +204,10 @@ korean = "…죄송합니다.<end>"
 japanese = "慈愛の神ライラネートよ。　　　<end>"
 korean = "자애의 신 라이라네트여.<end>"
 
+["640124"]
+japanese = "<value:$28>様の旅が<line-break>つらいものになりませんように。<end>"
+korean = "<value:$28>님의 여행이 힘든 길이 되지 않기를.<end>"
+
 ["640128"]
 japanese = "これで、胸のつかえが取れました。　<line-break>さ、どうぞ、<value:$28>様。<line-break>お通りください。<end>"
 korean = "이제 마음의 응어리가 풀렸습니다. 자, <value:$28>님. 지나가십시오.<end>"
@@ -295,6 +299,10 @@ korean = "아, 벌써 돌아가시나요?<end>"
 ["640178"]
 japanese = "残念です。<line-break>また、いらしてくださいね。<end>"
 korean = "아쉽네요. 다음에 또 와 주세요.<end>"
+
+["640180"]
+japanese = "私も、<value:$28>様のように<line-break>自由に生きてみたい…。<end>"
+korean = "저도 <value:$28>님처럼 자유롭게 살아 보고 싶어요….<end>"
 
 ["640181"]
 japanese = "あ、もうお帰りなのですか？<end>"

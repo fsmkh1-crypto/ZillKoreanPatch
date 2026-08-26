@@ -84,6 +84,10 @@ korean = "오늘이 <value:$28>의 생일이었지.<end>"
 japanese = "うれしそうだな。<line-break><value:$28>。<end>"
 korean = "기뻐 보이는군, <value:$28>.<end>"
 
+["2580065"]
+japanese = "<value:$28>。<line-break>今日は、あなたの誕生日だったわね。<end>"
+korean = "<value:$28>. 오늘은 네 생일이었지.<end>"
+
 ["2580066"]
 japanese = "どうした？　うれしそうだな。<line-break><value:$28>。<end>"
 korean = "왜 그래? 기뻐 보이네, <value:$28>.<end>"

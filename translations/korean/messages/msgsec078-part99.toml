@@ -136,6 +136,10 @@ korean = "괜찮습니다. 그럼, 실례하겠습니다.<end>"
 japanese = "何を言い出すかと思えば…。<end>"
 korean = "무슨 말을 하나 했더니….<end>"
 
+["780070"]
+japanese = "<value:$28>様。<line-break>実は、お話したいことがあるのです。<end>"
+korean = "<value:$28>님. 사실 드릴 말씀이 있습니다.<end>"
+
 ["780071"]
 japanese = "私、このお屋敷を出ようと思います。<end>"
 korean = "저, 이 저택을 나가려고 합니다.<end>"

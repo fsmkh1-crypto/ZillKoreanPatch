@@ -24,6 +24,10 @@ korean = "어서 오세요.<end>"
 japanese = "…<value:$28>さん！<line-break>恐かったです！<end>"
 korean = "…<value:$28> 씨! 무서웠어요!<end>"
 
+["980018"]
+japanese = "…<value:$28>さんのおかげで<line-break>少し、落ち着きました。<end>"
+korean = "…<value:$28>님 덕분에 조금 진정됐습니다.<end>"
+
 ["980020"]
 japanese = "待ってよ。聖杯は<line-break>まだ取り返してないのよ？<line-break>　<line-break>それで、おめおめと<line-break>ロストールに帰るつもり？<end>"
 korean = "잠깐. 성배는 아직 되찾지 못했잖아? 그런데 이대로 로스토올로 돌아갈 생각이야?<end>"

@@ -48,6 +48,10 @@ korean = "그럼 무사히 돌아와.<end>"
 japanese = "仕事を受けたあとのセリフ<line-break><end>"
 korean = "의뢰를 받은 뒤 대사<end>"
 
+["160034"]
+japanese = "<value:$15>を救ってきてくれ。<line-break>一刻を争う仕事だぜ。<end>"
+korean = "<value:$15>을 구해 와 줘. 한시가 급한 일이야.<end>"
+
 ["160035"]
 japanese = "ありがとうよ、また頼むぜ。<end>"
 korean = "고맙군, 또 부탁하지.<end>"

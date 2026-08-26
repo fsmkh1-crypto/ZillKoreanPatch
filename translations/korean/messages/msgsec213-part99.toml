@@ -40,6 +40,10 @@ korean = "그런가….<end>"
 japanese = "これまでありがとよ、<line-break><value:$28>。<line-break>じゃあな…。<end>"
 korean = "그동안 고마웠다, <value:$28>. 잘 있어….<end>"
 
+["2130019"]
+japanese = "<value:$28>よ。<line-break>本当によかったのか？　これで…。<end>"
+korean = "<value:$28>. 정말 이걸로 괜찮은 거냐…?<end>"
+
 ["2130020"]
 japanese = "異種族間の６用終端<end>"
 korean = "이종족 간 6용 끝<end>"

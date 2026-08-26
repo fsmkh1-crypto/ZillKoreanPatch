@@ -84,6 +84,10 @@ korean = "…아이린은 어떻게 됐지?<end>"
 japanese = "<value:$28>さんですか？<end>"
 korean = "<value:$28> 씨인가요?<end>"
 
+["720064"]
+japanese = "聖杯を手に入れられたのですね。<line-break>…<value:$28>さん。<end>"
+korean = "성배를 손에 넣으셨군요. …<value:$28>님.<end>"
+
 ["720067"]
 japanese = "仲間にする<end>"
 korean = "동료로 삼는다<end>"
