@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1770008"]
+japanese = "手に入れる<end>"
+korean = "손에 넣는다<end>"
+
 ["1770010"]
 japanese = "戻さない<end>"
 korean = "되돌리지 않는다<end>"
@@ -8,10 +12,42 @@ korean = "되돌리지 않는다<end>"
 japanese = "戻す<end>"
 korean = "되돌린다<end>"
 
+["1770013"]
+japanese = "交換しない<end>"
+korean = "교환하지 않는다<end>"
+
 ["1770014"]
 japanese = "交換する<end>"
 korean = "교환한다<end>"
 
+["1770016"]
+japanese = "交換しない<end>"
+korean = "교환하지 않는다<end>"
+
 ["1770017"]
 japanese = "交換する<end>"
 korean = "교환한다<end>"
+
+["1770032"]
+japanese = "上げてみる<end>"
+korean = "올려 본다<end>"
+
+["1770035"]
+japanese = "下げてみる<end>"
+korean = "내려 본다<end>"
+
+["1770038"]
+japanese = "上げてみる<end>"
+korean = "올려 본다<end>"
+
+["1770041"]
+japanese = "下げてみる<end>"
+korean = "내려 본다<end>"
+
+["1770044"]
+japanese = "上げてみる<end>"
+korean = "올려 본다<end>"
+
+["1770047"]
+japanese = "下げてみる<end>"
+korean = "내려 본다<end>"

@@ -12,9 +12,21 @@ korean = "파돌<end>"
 japanese = "ポイズン<end>"
 korean = "포이즌<end>"
 
+["1960440"]
+japanese = "サイレント<end>"
+korean = "사일런트<end>"
+
 ["1960442"]
 japanese = "スリープ<end>"
 korean = "슬립<end>"
+
+["1960444"]
+japanese = "エスケープ<end>"
+korean = "이스케이프<end>"
+
+["1960445"]
+japanese = "テレポート<end>"
+korean = "텔레포트<end>"
 
 ["1960446"]
 japanese = "呪いガス<end>"
@@ -56,6 +68,14 @@ korean = "차원의 고리<end>"
 japanese = "ストップ.<end>"
 korean = "스톱.<end>"
 
+["1960507"]
+japanese = "だましもの<end>"
+korean = "사기꾼<end>"
+
+["1960514"]
+japanese = "始まりの地<end>"
+korean = "시작의 땅<end>"
+
 ["1960515"]
 japanese = "風の行方<end>"
 korean = "바람의 행방<end>"
@@ -75,6 +95,10 @@ korean = "　예비<end>"
 ["1960554"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960563"]
+japanese = "　空中都市<end>"
+korean = "　공중도시<end>"
 
 ["1960600"]
 japanese = "　予備<end>"
@@ -104,6 +128,54 @@ korean = "　예비<end>"
 japanese = "　セラEND<end>"
 korean = " 세라 END<end>"
 
+["1960717"]
+japanese = "　チャカEND<end>"
+korean = "　차카 END<end>"
+
+["1960725"]
+japanese = "　一人旅END<end>"
+korean = "　혼자 여행 END<end>"
+
+["1960726"]
+japanese = "ジリオン１<end>"
+korean = "질리온 1<end>"
+
+["1960727"]
+japanese = "ジリオン２<end>"
+korean = "질리온 2<end>"
+
+["1960731"]
+japanese = "ジリオン４<end>"
+korean = "질리온 4<end>"
+
+["1960732"]
+japanese = "ジリオン５<end>"
+korean = "질리온 5<end>"
+
+["1960733"]
+japanese = "ジリオン６<end>"
+korean = "질리온 6<end>"
+
+["1960734"]
+japanese = "ジリオン７<end>"
+korean = "질리온 7<end>"
+
+["1960735"]
+japanese = "ジリオン８<end>"
+korean = "질리온 8<end>"
+
+["1960736"]
+japanese = "ジリオン９<end>"
+korean = "질리온 9<end>"
+
+["1960772"]
+japanese = "フレア２０<end>"
+korean = "플레어 20<end>"
+
+["1960787"]
+japanese = "フェルム１<end>"
+korean = "페름 1<end>"
+
 ["1960788"]
 japanese = "フェルム2<end>"
 korean = "페름 2<end>"
@@ -111,6 +183,10 @@ korean = "페름 2<end>"
 ["1960789"]
 japanese = "フェルム3<end>"
 korean = "페름 3<end>"
+
+["1960830"]
+japanese = "フェルム８<end>"
+korean = "페름 8<end>"
 
 ["1960939"]
 japanese = "組手勝負<end>"

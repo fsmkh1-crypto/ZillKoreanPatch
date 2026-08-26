@@ -12,9 +12,21 @@ korean = "크헉!<end>"
 japanese = "ぎゃー！<end>"
 korean = "꺄악!<end>"
 
+["1730018"]
+japanese = "死ねえっ！<end>"
+korean = "죽어라!<end>"
+
 ["1730023"]
 japanese = "ぐぇ！<end>"
 korean = "끄엑!<end>"
+
+["1730053"]
+japanese = "やれやれ。<end>"
+korean = "이런, 이런.<end>"
+
+["1730057"]
+japanese = "引き受ける<end>"
+korean = "맡는다<end>"
 
 ["1730084"]
 japanese = "はっ！<end>"
@@ -27,3 +39,7 @@ korean = "미안.<end>"
 ["1730119"]
 japanese = "本当に？<end>"
 korean = "정말로?<end>"
+
+["1730129"]
+japanese = "部下になる<end>"
+korean = "부하가 된다<end>"

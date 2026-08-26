@@ -1,12 +1,24 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1750010"]
+japanese = "楽しいです<end>"
+korean = "즐겁습니다<end>"
+
 ["1750016"]
 japanese = "暇です<end>"
 korean = "한가합니다<end>"
 
+["1750017"]
+japanese = "忙しいです<end>"
+korean = "바쁩니다<end>"
+
 ["1750026"]
 japanese = "暇です<end>"
 korean = "한가합니다<end>"
+
+["1750027"]
+japanese = "忙しいです<end>"
+korean = "바쁩니다<end>"
 
 ["1750048"]
 japanese = "押さない<end>"

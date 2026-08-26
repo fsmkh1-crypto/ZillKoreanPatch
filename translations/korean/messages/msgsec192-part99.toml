@@ -1,8 +1,20 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1920026"]
+japanese = "っるさい！<end>"
+korean = "시끄러워!<end>"
+
+["1920077"]
+japanese = "ありがと。<end>"
+korean = "고마워.<end>"
+
 ["1920090"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["1920146"]
+japanese = "お母様…。<end>"
+korean = "어머님….<end>"
 
 ["1920177"]
 japanese = "…え！？<end>"
@@ -11,6 +23,10 @@ korean = "…어!?<end>"
 ["1920179"]
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
+
+["1920186"]
+japanese = "は、はい！<end>"
+korean = "네, 네!<end>"
 
 ["1920240"]
 japanese = "空<end>"

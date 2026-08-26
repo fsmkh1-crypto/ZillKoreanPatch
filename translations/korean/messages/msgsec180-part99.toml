@@ -8,6 +8,10 @@ korean = "간다<end>"
 japanese = "行かない<end>"
 korean = "안 간다<end>"
 
+["1800047"]
+japanese = "引き受ける<end>"
+korean = "맡는다<end>"
+
 ["1800112"]
 japanese = "よび<end>"
 korean = "호출<end>"
@@ -24,6 +28,10 @@ korean = "호출<end>"
 japanese = "よび<end>"
 korean = "호출<end>"
 
+["1800134"]
+japanese = "ゼネテス！<end>"
+korean = "제네테스!<end>"
+
 ["1800142"]
 japanese = "よび<end>"
 korean = "호출<end>"
@@ -35,3 +43,7 @@ korean = "호출<end>"
 ["1800144"]
 japanese = "よび<end>"
 korean = "호출<end>"
+
+["1800181"]
+japanese = "力を貸そう<end>"
+korean = "힘을 빌려주지<end>"

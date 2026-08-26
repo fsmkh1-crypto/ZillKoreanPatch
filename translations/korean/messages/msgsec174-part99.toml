@@ -4,9 +4,37 @@
 japanese = "聞いた<end>"
 korean = "들었어<end>"
 
+["1740009"]
+japanese = "何のこと？<end>"
+korean = "무슨 소리야?<end>"
+
 ["1740041"]
 japanese = "行くわ。<end>"
 korean = "갈게.<end>"
+
+["1740051"]
+japanese = "引き受ける<end>"
+korean = "맡는다<end>"
+
+["1740093"]
+japanese = "ふざけるな<end>"
+korean = "장난치지 마<end>"
+
+["1740108"]
+japanese = "なんだと！<end>"
+korean = "뭐라고!<end>"
+
+["1740129"]
+japanese = "貴様は…！<end>"
+korean = "네놈은…!<end>"
+
+["1740133"]
+japanese = "…まさか！<end>"
+korean = "…설마!<end>"
+
+["1740144"]
+japanese = "がは…っ！<end>"
+korean = "크학…!<end>"
 
 ["1740152"]
 japanese = "ぐ…っ！<end>"
@@ -15,3 +43,7 @@ korean = "크…윽!<end>"
 ["1740164"]
 japanese = "さて。<end>"
 korean = "자.<end>"
+
+["1740194"]
+japanese = "お前は敵だ<end>"
+korean = "너는 적이다<end>"
