@@ -68,6 +68,10 @@ korean = "정말 괜찮겠어요?<end>"
 japanese = "どうぞ。歓迎しますよ。<end>"
 korean = "어서 오세요. 환영합니다.<end>"
 
+["1590055"]
+japanese = "そうですか。<line-break>そんなことがあったんですか…。<end>"
+korean = "그렇군요. 그런 일이 있었습니까….<end>"
+
 ["1590056"]
 japanese = "<value:$28>、<line-break>かわいそう…。<end>"
 korean = "<value:$28>, 불쌍해….<end>"
