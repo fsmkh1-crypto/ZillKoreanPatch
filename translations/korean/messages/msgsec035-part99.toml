@@ -228,6 +228,14 @@ korean = "리벨담: 항구<end>"
 japanese = "リベルダム：居住区<end>"
 korean = "리벨담: 주거구<end>"
 
+["350077"]
+japanese = "リベルダム：クロイス邸内<end>"
+korean = "리벨덤: 크로이스 저택 내부<end>"
+
+["350080"]
+japanese = "リベルダム：フゴーの部屋<end>"
+korean = "리벨덤: 푸고의 방<end>"
+
 ["350081"]
 japanese = "リベルダム：広場<end>"
 korean = "리벨담: 광장<end>"
@@ -244,6 +252,10 @@ korean = "리벨덤: 미술관 1F<end>"
 japanese = "リベルダム：美術館２Ｆ<end>"
 korean = "리벨덤: 미술관 2F<end>"
 
+["350085"]
+japanese = "リベルダム：美術館地下室<end>"
+korean = "리벨덤: 미술관 지하실<end>"
+
 ["350086"]
 japanese = "リベルダム：宿屋１Ｆ<end>"
 korean = "리벨덤: 여관 1F<end>"
@@ -251,6 +263,10 @@ korean = "리벨덤: 여관 1F<end>"
 ["350087"]
 japanese = "リベルダム：宿屋２Ｆ<end>"
 korean = "리벨덤: 여관 2F<end>"
+
+["350089"]
+japanese = "リベルダム：冒険者ギルド<end>"
+korean = "리벨덤: 모험자 길드<end>"
 
 ["350090"]
 japanese = "リベルダム：酒場<end>"
@@ -263,6 +279,10 @@ korean = "리벨덤: 투기장 앞<end>"
 ["350092"]
 japanese = "リベルダム：闘技場受付<end>"
 korean = "리벨덤: 투기장 접수처<end>"
+
+["350093"]
+japanese = "リベルダム：闘技場控え室<end>"
+korean = "리벨덤: 투기장 대기실<end>"
 
 ["350094"]
 japanese = "リベルダム：繁華街２<end>"
@@ -500,6 +520,14 @@ korean = "아큐류스: 신전<end>"
 japanese = "アキュリュース：居住区<end>"
 korean = "아큐류스: 거주구<end>"
 
+["350159"]
+japanese = "アキュリュース：宿屋１Ｆ<end>"
+korean = "아큐류스: 여관 1F<end>"
+
+["350160"]
+japanese = "アキュリュース：宿屋２Ｆ<end>"
+korean = "아큐류스: 여관 2F<end>"
+
 ["350162"]
 japanese = "アキュリュース：道具屋<end>"
 korean = "아큐류스: 도구점<end>"
@@ -507,6 +535,10 @@ korean = "아큐류스: 도구점<end>"
 ["350163"]
 japanese = "アキュリュース：鍛冶屋<end>"
 korean = "아큐류스: 대장간<end>"
+
+["350167"]
+japanese = "アキュリュース：神殿入口<end>"
+korean = "아큐류스: 신전 입구<end>"
 
 ["350168"]
 japanese = "エルズ：竜の座前<end>"
@@ -580,6 +612,10 @@ korean = "엘즈: 항구<end>"
 japanese = "ラドラス：広場<end>"
 korean = "라드라스: 광장<end>"
 
+["350188"]
+japanese = "ラドラス：広場の移動の間<end>"
+korean = "라드라스: 광장 이동의 방<end>"
+
 ["350189"]
 japanese = "ラドラス：倉庫<end>"
 korean = "라드라스: 창고<end>"
@@ -592,6 +628,18 @@ korean = "라드라스: 저수의 방<end>"
 japanese = "ラドラス：農場の間<end>"
 korean = "라드라스: 농장의 방<end>"
 
+["350193"]
+japanese = "ラドラス：エステルの部屋<end>"
+korean = "라드라스: 에스텔의 방<end>"
+
+["350194"]
+japanese = "ラドラス：エステルの客間<end>"
+korean = "라드라스: 에스텔의 객실<end>"
+
+["350195"]
+japanese = "ラドラス：塔４の移動の間<end>"
+korean = "라드라스: 탑 4 이동의 방<end>"
+
 ["350196"]
 japanese = "ラドラス：壊れた塔の上<end>"
 korean = "라드라스: 무너진 탑 위<end>"
@@ -600,25 +648,49 @@ korean = "라드라스: 무너진 탑 위<end>"
 japanese = "ラドラス：監視の間<end>"
 korean = "라드라스: 감시의 방<end>"
 
+["350201"]
+japanese = "ラドラス：塔１の移動の間<end>"
+korean = "라드라스: 탑 1 이동의 방<end>"
+
 ["350202"]
 japanese = "ラドラス：塔の一室１<end>"
 korean = "라드라스: 탑의 방 1<end>"
+
+["350203"]
+japanese = "ラドラス：塔２の移動の間<end>"
+korean = "라드라스: 탑 2 이동의 방<end>"
 
 ["350204"]
 japanese = "ラドラス：塔の一室２<end>"
 korean = "라드라스: 탑의 방 2<end>"
 
+["350205"]
+japanese = "ラドラス：塔３の移動の間<end>"
+korean = "라드라스: 탑 3 이동의 방<end>"
+
 ["350206"]
 japanese = "ラドラス：塔の一室３<end>"
 korean = "라드라스: 탑의 방 3<end>"
+
+["350207"]
+japanese = "ラドラス：入口の移動の間<end>"
+korean = "라드라스: 입구 이동의 방<end>"
 
 ["350209"]
 japanese = "ラドラス：制御の間<end>"
 korean = "라드라스: 제어의 방<end>"
 
+["350210"]
+japanese = "ラドラス：底部の移動の間<end>"
+korean = "라드라스: 하부 이동의 방<end>"
+
 ["350211"]
 japanese = "ラドラス：動力の間<end>"
 korean = "라드라스: 동력의 방<end>"
+
+["350212"]
+japanese = "ドワーフ王国：地底湖湖畔<end>"
+korean = "드워프 왕국: 지저호 호숫가<end>"
 
 ["350213"]
 japanese = "ドワーフ王国：大空洞<end>"
@@ -655,6 +727,10 @@ korean = "드워프 왕국: 술집<end>"
 ["350223"]
 japanese = "ドワーフ王国：宿屋外観<end>"
 korean = "드워프 왕국: 여관 외관<end>"
+
+["350224"]
+japanese = "ドワーフ王国：鍛冶屋外観<end>"
+korean = "드워프 왕국: 대장간 외관<end>"
 
 ["350225"]
 japanese = "ドワーフ王国：酒場外観<end>"
@@ -744,6 +820,10 @@ korean = "아미랄: 여관 1F<end>"
 japanese = "アミラル：宿屋２Ｆ<end>"
 korean = "아미랄: 여관 2F<end>"
 
+["350247"]
+japanese = "アミラル：宿屋バルコニー<end>"
+korean = "아미랄: 여관 발코니<end>"
+
 ["350248"]
 japanese = "アミラル：道具屋<end>"
 korean = "아미랄: 도구점<end>"
@@ -759,6 +839,14 @@ korean = "아미랄: 모험자 길드<end>"
 ["350251"]
 japanese = "アミラル：酒場<end>"
 korean = "아미랄: 술집<end>"
+
+["350252"]
+japanese = "アミラル：ロベルト宅居間<end>"
+korean = "아미랄: 로베르토 집 거실<end>"
+
+["350253"]
+japanese = "アミラル：ロベルト宅寝室<end>"
+korean = "아미랄: 로베르토 집 침실<end>"
 
 ["350254"]
 japanese = "アミラル：民家１<end>"
@@ -1976,6 +2064,14 @@ korean = "수련의 미궁9<end>"
 japanese = "練の迷宮１０<end>"
 korean = "련의 미궁 10<end>"
 
+["350566"]
+japanese = "ウルカーン：神殿への道１<end>"
+korean = "울칸: 신전으로 가는 길 1<end>"
+
+["350567"]
+japanese = "ウルカーン：神殿への道２<end>"
+korean = "울칸: 신전으로 가는 길 2<end>"
+
 ["350582"]
 japanese = "エルズ：彫刻画の道１<end>"
 korean = "엘즈: 조각화의 길 1<end>"
@@ -2528,6 +2624,14 @@ korean = "레오닉의 미궁 19<end>"
 japanese = "レオニックの迷宮２０<end>"
 korean = "레오닉의 미궁 20<end>"
 
+["350723"]
+japanese = "エンシャント～ロストール<end>"
+korean = "엔샨트~로스톨<end>"
+
+["350724"]
+japanese = "エンシャント～リベルダム<end>"
+korean = "엔샨트~리벨덤<end>"
+
 ["350727"]
 japanese = "エンシャント～テラネ<end>"
 korean = "엔샨트~테라네<end>"
@@ -2543,6 +2647,10 @@ korean = "로스톨~리벨덤<end>"
 ["350731"]
 japanese = "ロストール～ノーブル<end>"
 korean = "로스톨~노블<end>"
+
+["350732"]
+japanese = "ロストール～ドワーフ王国<end>"
+korean = "로스톨~드워프 왕국<end>"
 
 ["350733"]
 japanese = "ノーブル～リベルダム<end>"
@@ -2692,6 +2800,18 @@ korean = "미이스 마을: 신전 앞<end>"
 japanese = "ミイスの村：広場<end>"
 korean = "미이스 마을: 광장<end>"
 
+["350772"]
+japanese = "ミイスの村：村外れの森１<end>"
+korean = "미이스 마을: 외곽 숲 1<end>"
+
+["350773"]
+japanese = "ミイスの村：村外れの森２<end>"
+korean = "미이스 마을: 외곽 숲 2<end>"
+
+["350774"]
+japanese = "ミイスの村：村外れの森３<end>"
+korean = "미이스 마을: 외곽 숲 3<end>"
+
 ["350775"]
 japanese = "シルヴァ村：神殿前<end>"
 korean = "실바 마을: 신전 앞<end>"
@@ -2703,6 +2823,10 @@ korean = "실바 마을: 신전 뒤<end>"
 ["350777"]
 japanese = "シルヴァ村：神殿内部<end>"
 korean = "실바 마을: 신전 내부<end>"
+
+["350778"]
+japanese = "シルヴァ村：領主邸の一室<end>"
+korean = "실바 마을: 영주 저택 방<end>"
 
 ["350779"]
 japanese = "ロセン地下道１<end>"
@@ -2996,6 +3120,10 @@ korean = "산적의 요새2<end>"
 japanese = "山賊の砦３<end>"
 korean = "산적의 요새3<end>"
 
+["350853"]
+japanese = "ロストール：広場のアップ<end>"
+korean = "로스톨: 광장 확대<end>"
+
 ["350854"]
 japanese = "船上<end>"
 korean = "선상<end>"
@@ -3020,13 +3148,33 @@ korean = "사룡의 단층: 사룡 해방 시<end>"
 japanese = "邪竜解放後<end>"
 korean = "사룡 해방 후<end>"
 
+["350862"]
+japanese = "火の精霊神の座所：解放後<end>"
+korean = "불의 정령신 거처: 해방 후<end>"
+
+["350863"]
+japanese = "風の精霊神の座所：解放後<end>"
+korean = "바람의 정령신 거처: 해방 후<end>"
+
 ["350864"]
 japanese = "ゼグナ鉱山３：旅立ち用<end>"
 korean = "제그나 광산 3: 여행 출발용<end>"
 
+["350865"]
+japanese = "ワッシャー砦：港：船あり<end>"
+korean = "왓샤 요새: 항구: 배 있음<end>"
+
 ["350866"]
 japanese = "ラドラス：広場：落下後<end>"
 korean = "라드라스: 광장: 낙하 후<end>"
+
+["350867"]
+japanese = "土の精霊神の座所：解放後<end>"
+korean = "대지의 정령신 거처: 해방 후<end>"
+
+["350868"]
+japanese = "水の精霊神の座所：解放後<end>"
+korean = "물의 정령신 거처: 해방 후<end>"
 
 ["350869"]
 japanese = "ロストール：城門前：夜<end>"
@@ -3044,13 +3192,41 @@ korean = "로스톨: 대로: 밤<end>"
 japanese = "ロストール：平民街：夜<end>"
 korean = "로스톨: 평민가: 밤<end>"
 
+["350875"]
+japanese = "ロストール：王都の門：夜<end>"
+korean = "로스톨: 왕도 성문: 밤<end>"
+
+["350876"]
+japanese = "ロストール：スラム街：夜<end>"
+korean = "로스톨: 빈민가: 밤<end>"
+
 ["350877"]
 japanese = "リベルダム：港：崩壊後<end>"
 korean = "리벨담: 항구: 붕괴 후<end>"
 
+["350878"]
+japanese = "リベルダム：広場：崩壊後<end>"
+korean = "리벨덤: 광장: 붕괴 후<end>"
+
+["350884"]
+japanese = "ロセン：謁見の間：陥落前<end>"
+korean = "로센: 알현실: 함락 전<end>"
+
 ["350885"]
 japanese = "ロセン：街の門：陥落前<end>"
 korean = "로센: 도시의 문: 함락 전<end>"
+
+["350886"]
+japanese = "エルズ：竜の座：竜いない<end>"
+korean = "엘즈: 용의 자리: 용 없음<end>"
+
+["350892"]
+japanese = "エンシャント：港：崩壊後<end>"
+korean = "엔샨트: 항구: 붕괴 후<end>"
+
+["350897"]
+japanese = "ミイスの村：広場：襲撃後<end>"
+korean = "미이스 마을: 광장: 습격 후<end>"
 
 ["350903"]
 japanese = "最後の迷宮７：鉄扉開き<end>"

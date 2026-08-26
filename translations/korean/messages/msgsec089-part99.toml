@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["890000"]
+japanese = "エステルメッセージVOL4開始<end>"
+korean = "에스텔 메시지 VOL4 시작<end>"
+
 ["890001"]
 japanese = "<value:$28>…さんだな？<end>"
 korean = "<value:$28>… 씨 맞지?<end>"
@@ -611,3 +615,7 @@ korean = "나는 지금 이 <value:$28>와 여행하고 있어.<end>"
 ["890735"]
 japanese = "　　聞こえるか、<value:$28>よ。<end>"
 korean = "들리느냐, <value:$28>여.<end>"
+
+["890741"]
+japanese = "エステルメッセージVOL4終端<end>"
+korean = "에스텔 메시지 VOL4 끝<end>"

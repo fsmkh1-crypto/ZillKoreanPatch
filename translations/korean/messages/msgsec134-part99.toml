@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1340000"]
+japanese = "ジラーク用メッセージ開始<end>"
+korean = "질라크용 메시지 시작<end>"
+
+["1340001"]
+japanese = "いたぞ。<line-break>おい、あいつだ。<end>"
+korean = "찾았다. 야, 저 녀석이다.<end>"
+
 ["1340003"]
 japanese = "ジラーク将軍、<line-break><value:$28>を<line-break>連れてまいりましたっ！<end>"
 korean = "지라크 장군님, <value:$28>을 데려왔습니다!<end>"
@@ -212,6 +220,10 @@ korean = "…불찰이다.<end>"
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
 
+["1340221"]
+japanese = "…また、助けられたわね。<end>"
+korean = "…또 도움받았네.<end>"
+
 ["1340225"]
 japanese = "あなたは？<end>"
 korean = "당신은?<end>"
@@ -219,6 +231,10 @@ korean = "당신은?<end>"
 ["1340227"]
 japanese = "ええ、その通りです。<end>"
 korean = "네, 그 말씀이 맞습니다.<end>"
+
+["1340238"]
+japanese = "どうしたの、ナーシェス？<end>"
+korean = "왜 그래, 나셰스?<end>"
 
 ["1340242"]
 japanese = "ナーシェス、待って！<end>"
@@ -331,6 +347,10 @@ korean = "…모험가?<end>"
 ["1340338"]
 japanese = "あ…ああ…。<end>"
 korean = "아… 아아….<end>"
+
+["1340341"]
+japanese = "剣が…天動地鳴が抜ける！<end>"
+korean = "검이… 천동지명을 뽑을 수 있어!<end>"
 
 ["1340354"]
 japanese = "しかたがない…<end>"

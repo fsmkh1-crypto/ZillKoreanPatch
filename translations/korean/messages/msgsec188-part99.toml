@@ -28,6 +28,14 @@ korean = "자금 지원 요청하러 간다<end>"
 japanese = "行かない<end>"
 korean = "안 간다<end>"
 
+["1880049"]
+japanese = "参戦したことは伏せておく<end>"
+korean = "참전한 사실은 숨겨 둔다<end>"
+
+["1880058"]
+japanese = "余計な心配をさせたくない<end>"
+korean = "쓸데없는 걱정을 끼치고 싶지 않아<end>"
+
 ["1880083"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"

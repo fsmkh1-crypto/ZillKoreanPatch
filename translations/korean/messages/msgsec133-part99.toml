@@ -56,6 +56,10 @@ korean = "당신은…?<end>"
 japanese = "イークレムン殿！<end>"
 korean = "이클레문 공!<end>"
 
+["1330102"]
+japanese = "ご無事そうで何よりです。<end>"
+korean = "무사하셔서 다행입니다.<end>"
+
 ["1330103"]
 japanese = "はい…。<end>"
 korean = "네….<end>"
@@ -87,6 +91,10 @@ korean = "끝났어….<end>"
 ["1330206"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
+
+["1330211"]
+japanese = "さあ、儀式を始めようか。<end>"
+korean = "자, 의식을 시작할까.<end>"
 
 ["1330215"]
 japanese = "あれ？　なんだ…？<end>"
@@ -252,6 +260,10 @@ korean = "기다려, <value:$28>!<end>"
 japanese = "…魔王バロルはどこだ？<end>"
 korean = "…마왕 바로르는 어디 있지?<end>"
 
+["1330478"]
+japanese = "いらっしゃい、ゼネテス。<end>"
+korean = "어서 와, 제네테스.<end>"
+
 ["1330491"]
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
@@ -283,6 +295,10 @@ korean = "…너…<value:$28> <value:$28>…인…거야…?<end>"
 ["1330590"]
 japanese = "こ、こんなことって…。<end>"
 korean = "이, 이런 일이….<end>"
+
+["1330599"]
+japanese = "それが、竜王様の意志…。<end>"
+korean = "그것이 용왕님의 뜻….<end>"
 
 ["1330605"]
 japanese = "カフィンは下がってて。<end>"
@@ -368,6 +384,10 @@ korean = "이상입니다.<end>"
 japanese = "以上であります。<end>"
 korean = "이상입니다.<end>"
 
+["1330748"]
+japanese = "（早く脱出しなければ…）<end>"
+korean = "(빨리 탈출해야 해…)<end>"
+
 ["1330750"]
 japanese = "ふっ…そうか。<end>"
 korean = "훗… 그런가.<end>"
@@ -379,3 +399,7 @@ korean = "큭, 방심했군….<end>"
 ["1330753"]
 japanese = "くっ、ぬかったわ…。<end>"
 korean = "큭, 방심했군….<end>"
+
+["1330761"]
+japanese = "エア　ボリューム５　終了<end>"
+korean = "에어 볼륨 5 종료<end>"

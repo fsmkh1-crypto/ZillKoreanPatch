@@ -60,6 +60,10 @@ korean = "<value:$1A>기어를 손에 넣었다.<end>"
 japanese = "<value:$15>を手に入れた。<end>"
 korean = "<value:$15>를 손에 넣었다.<end>"
 
+["1070018"]
+japanese = "何かのスイッチが入った。<end>"
+korean = "무언가의 스위치가 켜졌다.<end>"
+
 ["1070022"]
 japanese = "所持金 %10uギア<end>"
 korean = "소지금 %10u기어<end>"
@@ -107,6 +111,22 @@ korean = "저주 가스가 뿜어져 나왔다<end>"
 ["1070045"]
 japanese = "は呪われた。<end>"
 korean = "는 저주에 걸렸다.<end>"
+
+["1070066"]
+japanese = "………………。<line-break>無理だ…。<end>"
+korean = "………………. 무리야….<end>"
+
+["1070081"]
+japanese = "はＨＰに大打撃を受けた。<end>"
+korean = "HP에 큰 타격을 입었다.<end>"
+
+["1070082"]
+japanese = "はＨＰに大打撃を受けた。<end>"
+korean = "HP에 큰 타격을 입었다.<end>"
+
+["1070083"]
+japanese = "はＭＰに大打撃を受けた。<end>"
+korean = "MP에 큰 타격을 입었다.<end>"
 
 ["1070084"]
 japanese = "L2ボタン<end>"

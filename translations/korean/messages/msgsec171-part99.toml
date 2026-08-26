@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1710000"]
+japanese = "イークレムン　Ｖ４　開始<end>"
+korean = "이크렘 V4 시작<end>"
+
 ["1710001"]
 japanese = "待ちやがれ！<end>"
 korean = "기다려, 이 자식!<end>"
@@ -47,6 +51,10 @@ korean = "그만하세요!!<end>"
 ["1710064"]
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
+
+["1710067"]
+japanese = "あ、アンギルダン将軍…！<end>"
+korean = "아, 앙길단 장군…!<end>"
 
 ["1710096"]
 japanese = "…いい天気ですねえ。<end>"

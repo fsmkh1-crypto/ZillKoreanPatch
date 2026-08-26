@@ -4,6 +4,10 @@
 japanese = "あ、<value:$28>さん！<end>"
 korean = "아, <value:$28> 씨!<end>"
 
+["1170005"]
+japanese = "人を助けるためじゃないよ<end>"
+korean = "사람을 돕기 위해서가 아니야<end>"
+
 ["1170009"]
 japanese = "<if><value:$29><equal>%0初めまして、ボウヤ。<end>初めまして、子猫ちゃん。<end>"
 korean = "<if><value:$29><equal>%0처음 뵙겠군, 꼬마야.<end>처음 뵙겠어, 아가씨.<end>"
@@ -19,6 +23,10 @@ korean = "아, 저기, 그게…<end>"
 ["1170014"]
 japanese = "フフ。<line-break>…よろしく。<end>"
 korean = "후후. …잘 부탁해.<end>"
+
+["1170019"]
+japanese = "ノエル、そろそろ行こう。<end>"
+korean = "노엘, 이제 가자.<end>"
 
 ["1170020"]
 japanese = "あ、そうですね。<end>"

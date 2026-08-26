@@ -48,6 +48,10 @@ korean = "웨이트리스<end>"
 japanese = "先輩冒険者<end>"
 korean = "선배 모험가<end>"
 
+["1670013"]
+japanese = "いとこを心配している青年<end>"
+korean = "사촌을 걱정하는 청년<end>"
+
 ["1670014"]
 japanese = "アカデミーの優等生<end>"
 korean = "아카데미의 우등생<end>"
@@ -127,6 +131,10 @@ korean = "레몬 저택 문지기<end>"
 ["1670036"]
 japanese = "タルテュバ邸門衛<end>"
 korean = "타르튜바 저택 문지기<end>"
+
+["1670037"]
+japanese = "ダルケニスに詳しい爺さん<end>"
+korean = "다르케니스에 밝은 할아버지<end>"
 
 ["1670038"]
 japanese = "エリス好きのおばさん<end>"
@@ -372,6 +380,10 @@ korean = "격투가 볼단<end>"
 japanese = "レーグファンの青年<end>"
 korean = "레그 팬인 청년<end>"
 
+["1670108"]
+japanese = "コリティオファンのじじい<end>"
+korean = "코리티오 팬인 할아버지<end>"
+
 ["1670109"]
 japanese = "格闘技好きのおじさん<end>"
 korean = "격투기를 좋아하는 아저씨<end>"
@@ -504,6 +516,10 @@ korean = "격투가 볼단<end>"
 japanese = "レーグファンの青年<end>"
 korean = "레그 팬인 청년<end>"
 
+["1670143"]
+japanese = "コリティオファンのじじい<end>"
+korean = "코리티오 팬인 할아버지<end>"
+
 ["1670144"]
 japanese = "格闘技好きのおじさん<end>"
 korean = "격투기를 좋아하는 아저씨<end>"
@@ -543,6 +559,14 @@ korean = "역사를 들려주는 신관<end>"
 ["1670154"]
 japanese = "周辺に詳しい冒険者<end>"
 korean = "주변 사정에 밝은 모험가<end>"
+
+["1670155"]
+japanese = "ノトゥーンを信奉する神官<end>"
+korean = "노툰을 신봉하는 신관<end>"
+
+["1670156"]
+japanese = "世界事情に詳しいボルダン<end>"
+korean = "세계 정세에 밝은 볼단<end>"
 
 ["1670157"]
 japanese = "若いノトゥーン神官<end>"
@@ -595,6 +619,10 @@ korean = "마그마 골렘 연구자<end>"
 ["1670169"]
 japanese = "周辺に詳しい女魔道士<end>"
 korean = "주변 사정에 밝은 여마도사<end>"
+
+["1670170"]
+japanese = "世界事情に詳しい女魔道士<end>"
+korean = "세계 정세에 밝은 여마도사<end>"
 
 ["1670171"]
 japanese = "属性にうるさい魔道士<end>"
@@ -651,6 +679,10 @@ korean = "이사 온 아주머니<end>"
 ["1670184"]
 japanese = "元気な母さん<end>"
 korean = "활기찬 아주머니<end>"
+
+["1670185"]
+japanese = "周辺の事情に詳しい冒険者<end>"
+korean = "주변 사정에 밝은 모험자<end>"
 
 ["1670186"]
 japanese = "物知りな冒険者<end>"

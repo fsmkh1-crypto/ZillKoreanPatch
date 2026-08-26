@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1290007"]
+japanese = "次は期限を守ってくれよ。<end>"
+korean = "다음엔 기한을 지켜 줘.<end>"
+
+["1290009"]
+japanese = "それでは…、さようなら。<end>"
+korean = "그럼… 안녕.<end>"
+
 ["1290020"]
 japanese = "<value:$1A>ギアを手に入れた。<end>"
 korean = "<value:$1A>기어를 손에 넣었다.<end>"

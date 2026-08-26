@@ -40,6 +40,10 @@ korean = "…알고 싶어 하지?<end>"
 japanese = "そーれ。<end>"
 korean = "자아.<end>"
 
+["360049"]
+japanese = "なぜ、私を呼び覚ました。<end>"
+korean = "왜 나를 깨운 것이냐.<end>"
+
 ["360052"]
 japanese = "おもしろいことさ。<end>"
 korean = "재미있는 일이야.<end>"
@@ -55,3 +59,7 @@ korean = "부탁이야! 도망쳐!<end>"
 ["360071"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"
+
+["360099"]
+japanese = "旅立ち０９メッセージ終端<end>"
+korean = "여행 출발 09 메시지 끝<end>"

@@ -8,6 +8,14 @@ korean = "갈 수 있습니다<end>"
 japanese = "行けないです<end>"
 korean = "갈 수 없습니다<end>"
 
+["1760006"]
+japanese = "ほいじゃー、行こうかの。<end>"
+korean = "그럼, 가 볼까.<end>"
+
+["1760010"]
+japanese = "ほいじゃー、行こうかの。<end>"
+korean = "그럼, 가 볼까.<end>"
+
 ["1760017"]
 japanese = "押さない<end>"
 korean = "누르지 않는다<end>"
@@ -31,6 +39,10 @@ korean = "당기지 않는다<end>"
 ["1760033"]
 japanese = "引いてみる<end>"
 korean = "당겨 본다<end>"
+
+["1760034"]
+japanese = "レバーはビクともしない。<end>"
+korean = "레버는 꿈쩍도 하지 않는다.<end>"
 
 ["1760046"]
 japanese = "聞かせてください<end>"
@@ -59,6 +71,10 @@ korean = "오른쪽 스위치를 누른다<end>"
 ["1760077"]
 japanese = "左のスイッチを押す<end>"
 korean = "왼쪽 스위치를 누른다<end>"
+
+["1760080"]
+japanese = "床からトゲの罠を見つけた<end>"
+korean = "바닥에서 가시 함정을 발견했다<end>"
 
 ["1760091"]
 japanese = "扉はビクともしない。<end>"

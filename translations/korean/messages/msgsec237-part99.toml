@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2370000"]
+japanese = "PSP用フレア新イベント02用<end>"
+korean = "PSP용 플레어 신규 이벤트 02용<end>"
+
 ["2370002"]
 japanese = "何故だろう？<end>"
 korean = "왜일까?<end>"
@@ -63,3 +67,7 @@ korean = "구원에 대해 <value:$28>에게 물어도 소용없어.<end>"
 ["2370068"]
 japanese = "救いについて<line-break><value:$28>に訊いても<line-break>無意味だよ。<end>"
 korean = "구원에 대해 <value:$28>에게 물어도 소용없어.<end>"
+
+["2370077"]
+japanese = "PSP用フレア新イベント02用<end>"
+korean = "PSP용 플레어 신규 이벤트 02용<end>"

@@ -16,6 +16,10 @@ korean = "어서 오세요.<end>"
 japanese = "…守りたい、のよ。<end>"
 korean = "…지키고 싶어.<end>"
 
+["980036"]
+japanese = "ちょっと、<line-break>そこの冒険者。<end>"
+korean = "저기, 거기 모험자.<end>"
+
 ["980096"]
 japanese = "それじゃ、<line-break><value:$28>。<end>"
 korean = "그럼, <value:$28>.<end>"

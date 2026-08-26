@@ -3548,6 +3548,10 @@ korean = "#5 리벨담 점령 발생<end>"
 japanese = "#7カルラVs.ジラーク発生<end>"
 korean = "#7 카를라 Vs. 지라크 발생<end>"
 
+["1971410"]
+japanese = "#8ロセンの鐘を鳴らせ発生<end>"
+korean = "#8 로센의 종을 울려라 발생<end>"
+
 ["1971411"]
 japanese = "#9ロセンの鐘の英雄発生<end>"
 korean = "#9 로센의 종의 영웅 발생<end>"
@@ -4091,6 +4095,10 @@ korean = "#5 리벨담 점령 종료<end>"
 ["1971609"]
 japanese = "#7カルラVs.ジラーク終了<end>"
 korean = "#7 카를라 Vs. 지라크 종료<end>"
+
+["1971610"]
+japanese = "#8ロセンの鐘を鳴らせ終了<end>"
+korean = "#8 로센의 종을 울려라 종료<end>"
 
 ["1971611"]
 japanese = "#9ロセンの鐘の英雄終了<end>"

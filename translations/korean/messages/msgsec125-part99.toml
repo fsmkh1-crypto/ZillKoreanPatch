@@ -12,6 +12,10 @@ korean = "………………. …제네테스를 구할 건가?<end>"
 japanese = "我が都、エンシャントが…。<line-break><line-break><line-break>………………。<end>"
 korean = "우리의 도시, 엔샨트가…. ……………….<end>"
 
+["1250094"]
+japanese = "ゾフォルは<line-break>謁見の間です。<end>"
+korean = "조폴은 알현실에 있습니다.<end>"
+
 ["1250120"]
 japanese = "<value:$28>様、<line-break>お早く都市の外へ！<line-break>ソウルリープが来ます！<end>"
 korean = "<value:$28>님, 어서 도시 밖으로! 소울 리프가 옵니다!<end>"

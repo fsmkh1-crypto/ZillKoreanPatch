@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["790000"]
+japanese = "ユーリスメッセージVOL1開始<end>"
+korean = "유리스 메시지 VOL1 시작<end>"
+
 ["790004"]
 japanese = "なんともはや…。<end>"
 korean = "이거 참….<end>"
@@ -63,3 +67,7 @@ korean = "무슨 말씀이죠?<end>"
 ["790126"]
 japanese = "ありがとうございます！<end>"
 korean = "감사합니다!<end>"
+
+["790140"]
+japanese = "ユーリスメッセージVOL1終端<end>"
+korean = "유리스 메시지 VOL1 끝<end>"

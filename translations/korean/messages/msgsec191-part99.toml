@@ -32,6 +32,10 @@ korean = "반드시 찾아내고 말겠다<end>"
 japanese = "必ずまた会いに来る<end>"
 korean = "반드시 다시 만나러 온다<end>"
 
+["1910050"]
+japanese = "たぶんまた会いにこられる<end>"
+korean = "아마 다시 만나러 올 수 있을 거야<end>"
+
 ["1910063"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
@@ -40,6 +44,10 @@ korean = "뭐라고?<end>"
 japanese = "なんということを…。<end>"
 korean = "이럴 수가….<end>"
 
+["1910070"]
+japanese = "君たちも無に帰るがいい。<end>"
+korean = "너희도 무로 돌아가라.<end>"
+
 ["1910080"]
 japanese = "待て。様子が変だ…。<end>"
 korean = "기다려. 상태가 이상해….<end>"
@@ -47,6 +55,10 @@ korean = "기다려. 상태가 이상해….<end>"
 ["1910081"]
 japanese = "これは…。<end>"
 korean = "이건….<end>"
+
+["1910089"]
+japanese = "それが、竜王様の意志…。<end>"
+korean = "그것이 용왕님의 뜻….<end>"
 
 ["1910097"]
 japanese = "<value:$28>さん！<line-break>ノエルの最後の剣、<line-break>受けとめてください！<end>"

@@ -64,6 +64,14 @@ korean = "빛2<end>"
 japanese = "地震（ループ）<end>"
 korean = "지진(루프)<end>"
 
+["1960459"]
+japanese = "紫雷（Ｍサイズ：ループ）<end>"
+korean = "자뢰(M 크기: 루프)<end>"
+
+["1960460"]
+japanese = "紫雷（Ｌサイズ：ループ）<end>"
+korean = "자뢰(L 크기: 루프)<end>"
+
 ["1960471"]
 japanese = "バインドM<end>"
 korean = "바인드 M<end>"
@@ -119,6 +127,10 @@ korean = "사기꾼<end>"
 ["1960509"]
 japanese = "はむかうもの<end>"
 korean = "맞서는 자<end>"
+
+["1960512"]
+japanese = "Ｂｕｒｎｉｎ’！　親子鷹<end>"
+korean = "Burnin'! 부모와 자식 매<end>"
 
 ["1960514"]
 japanese = "始まりの地<end>"
@@ -288,6 +300,26 @@ korean = "카를라의 길드 의뢰<end>"
 japanese = "　カルラの依頼を受ける<end>"
 korean = "카를라의 의뢰를 받는다<end>"
 
+["1960595"]
+japanese = "　043-ﾘﾍﾞﾙﾀﾞﾑ陥落01<end>"
+korean = "043-리벨덤 함락 01<end>"
+
+["1960596"]
+japanese = "　043-ﾘﾍﾞﾙﾀﾞﾑ陥落02<end>"
+korean = "043-리벨덤 함락 02<end>"
+
+["1960597"]
+japanese = "　043-ﾘﾍﾞﾙﾀﾞﾑ陥落03<end>"
+korean = "043-리벨덤 함락 03<end>"
+
+["1960598"]
+japanese = "　043-ﾘﾍﾞﾙﾀﾞﾑ陥落04<end>"
+korean = "043-리벨덤 함락 04<end>"
+
+["1960599"]
+japanese = "　043-ﾘﾍﾞﾙﾀﾞﾑ陥落05<end>"
+korean = "043-리벨덤 함락 05<end>"
+
 ["1960600"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
@@ -300,6 +332,10 @@ korean = "　083-샤리가 말한다<end>"
 japanese = "　084-ウルグ降臨<end>"
 korean = " 084-울그 강림<end>"
 
+["1960624"]
+japanese = "　クーデター「◆丘」部分<end>"
+korean = "쿠데타 「◆언덕」 부분<end>"
+
 ["1960627"]
 japanese = "　ゼネテス逮捕<end>"
 korean = " 제네테스 체포<end>"
@@ -307,6 +343,10 @@ korean = " 제네테스 체포<end>"
 ["1960628"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960630"]
+japanese = "　アイリーン救出(ロセン)<end>"
+korean = "아이린 구출(로센)<end>"
 
 ["1960634"]
 japanese = "　104ノエル再会<end>"
@@ -336,6 +376,10 @@ korean = "　예비<end>"
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960645"]
+japanese = "　最終決戦（アトレイア）<end>"
+korean = "최종 결전(아트레이아)<end>"
+
 ["1960647"]
 japanese = "　アスティア１<end>"
 korean = " 아스티아 1<end>"
@@ -355,6 +399,22 @@ korean = "　예비<end>"
 ["1960658"]
 japanese = "　906-宿屋イベント_ｴｱ<end>"
 korean = "906-여관 이벤트_에아<end>"
+
+["1960660"]
+japanese = "　908-宿屋イベント_ｶﾙﾗ<end>"
+korean = "908-여관 이벤트_카를라<end>"
+
+["1960662"]
+japanese = "　910-宿屋イベント_ザギヴ<end>"
+korean = "910-여관 이벤트_자기브<end>"
+
+["1960664"]
+japanese = "　912-宿屋イベント_ﾁｬｶ<end>"
+korean = "912-여관 이벤트_차카<end>"
+
+["1960668"]
+japanese = "　916-宿屋イベント_ﾌﾚｱ<end>"
+korean = "916-여관 이벤트_플레어<end>"
 
 ["1960674"]
 japanese = "　922-宿屋イベント_ロイ<end>"
@@ -392,6 +452,10 @@ korean = " 0815_크뤼End#16<end>"
 japanese = "　0816_ｻﾞｷﾞｳﾞEnd#17<end>"
 korean = "0816_자기브End#17<end>"
 
+["1960685"]
+japanese = "　19ザギウ　女主人公ver END<end>"
+korean = "19 자기브 여성 주인공 ver END<end>"
+
 ["1960688"]
 japanese = "　28ロイ　共通ver END<end>"
 korean = "　28 로이 공통 ver END<end>"
@@ -408,9 +472,17 @@ korean = "31 바이 공통 ver END<end>"
 japanese = "　33シャリ　共通ver END<end>"
 korean = "33 샤리 공통 ver END<end>"
 
+["1960694"]
+japanese = "　34エルファス　共通ver END<end>"
+korean = "34 엘파스 공통 ver END<end>"
+
 ["1960695"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960696"]
+japanese = "　36フレア　男主人公ver END<end>"
+korean = "36 플레어 남성 주인공 ver END<end>"
 
 ["1960697"]
 japanese = "　37エア　男主人公ver END<end>"
@@ -424,9 +496,21 @@ korean = "40 전원 집합 공통 ver END<end>"
 japanese = "　41イオンズ　共通ver END<end>"
 korean = "41 이온즈 공통 ver END<end>"
 
+["1960701"]
+japanese = "　42ゴフゴブ団　共通ver END<end>"
+korean = "42 고브고브단 공통 ver END<end>"
+
+["1960703"]
+japanese = "　44ガルドラン　共通ver END<end>"
+korean = "44 갈드란 공통 ver END<end>"
+
 ["1960704"]
 japanese = "　45エスト　共通ver END<end>"
 korean = "45 에스트 공통 ver END<end>"
+
+["1960705"]
+japanese = "　46シャローム　共通ver END<end>"
+korean = "46 샬롬 공통 ver END<end>"
 
 ["1960707"]
 japanese = "　48ネモ　共通ver END<end>"

@@ -15,3 +15,7 @@ korean = "<value:$15>을 넘겨줄 건가?<end>"
 ["160018"]
 japanese = "どうする？　やめるのか？<end>"
 korean = "어떻게 할래? 그만둘 거야?<end>"
+
+["160023"]
+japanese = "仕事を受けたあとのセリフ<line-break><end>"
+korean = "의뢰를 받은 뒤 대사<end>"

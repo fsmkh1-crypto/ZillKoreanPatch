@@ -20,6 +20,10 @@ korean = "누나아!<end>"
 japanese = "また、ボルボラの手下だ！<end>"
 korean = "또 볼보라 부하들이야!<end>"
 
+["310030"]
+japanese = "うん、姉ちゃん！<line-break>いこう！<end>"
+korean = "응, 누나! 가자!<end>"
+
 ["310033"]
 japanese = "やめろ！！　ボルボラ！<end>"
 korean = "그만둬!! 볼보라!<end>"
@@ -63,6 +67,10 @@ korean = "반란은 못 일으켜…<end>"
 ["310093"]
 japanese = "我々は先に行っている！<line-break><value:$28>も<line-break>急いで来てくれ！<end>"
 korean = "우리는 먼저 가 있겠다! <value:$28>도 서둘러 와 줘!<end>"
+
+["310096"]
+japanese = "ふん！！<line-break>なんだ、あいつ！<end>"
+korean = "흥!! 뭐야, 저 녀석!<end>"
 
 ["310109"]
 japanese = "ゲヒッ！<line-break><value:$28>！！<line-break>ここまで来やがったか！<end>"
@@ -115,6 +123,10 @@ korean = "준비됐나?<end>"
 ["310161"]
 japanese = "姉ちゃん…。<end>"
 korean = "누나….<end>"
+
+["310162"]
+japanese = "うん。<line-break>姉ちゃん、行こう！<end>"
+korean = "응. 누나, 가자!<end>"
 
 ["310163"]
 japanese = "…残念だな。<end>"
@@ -215,6 +227,10 @@ korean = "빨리 도망쳐!! 빨리!!<end>"
 ["310257"]
 japanese = "…それだけだ。<line-break>行くぞ。<end>"
 korean = "…그게 다다. 가자.<end>"
+
+["310266"]
+japanese = "ひ、ひいい！！<line-break>お助け！！<end>"
+korean = "히, 히익!! 살려 줘!!<end>"
 
 ["310267"]
 japanese = "姉ちゃん！！<end>"

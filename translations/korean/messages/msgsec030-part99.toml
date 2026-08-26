@@ -56,6 +56,18 @@ korean = "알고 있다니까.<end>"
 japanese = "あら、<value:$28>さん、<line-break>いらっしゃいませ。<line-break>何かご用ですか？<end>"
 korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end>"
 
+["300131"]
+japanese = "予備メッセージ３<line-break>トリゴブ<end>"
+korean = "예비 메시지 3 트리고브<end>"
+
+["300132"]
+japanese = "予備メッセージ４<line-break>トリゴブ<end>"
+korean = "예비 메시지 4 트리고브<end>"
+
+["300133"]
+japanese = "予備メッセージ５<line-break>トリゴブ<end>"
+korean = "예비 메시지 5 트리고브<end>"
+
 ["300134"]
 japanese = "旅立ち０３メッセージ終端<end>"
 korean = "여행 출발 03 메시지 끝<end>"

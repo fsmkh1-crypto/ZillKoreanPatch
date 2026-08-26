@@ -16,9 +16,17 @@ korean = "기다려~. <value:$28>~!<end>"
 japanese = "わかってる。船長。<end>"
 korean = "알고 있어. 선장.<end>"
 
+["370028"]
+japanese = "海王…。竜王のつかい…。<end>"
+korean = "해왕…. 용왕의 사자….<end>"
+
 ["370029"]
 japanese = "う、わわわああ。<end>"
 korean = "으, 와아아아.<end>"
+
+["370034"]
+japanese = "ど、どうしたの？　船長。<end>"
+korean = "왜, 왜 그래? 선장.<end>"
 
 ["370036"]
 japanese = "えっ！<end>"
@@ -43,6 +51,10 @@ korean = "선장, 고마워.<end>"
 ["370052"]
 japanese = "船長、ありがとよ。<end>"
 korean = "선장, 고마워.<end>"
+
+["370059"]
+japanese = "…ありがとう。　　　　　<end>"
+korean = "…고마워.<end>"
 
 ["370062"]
 japanese = "わかってる。<end>"
@@ -104,6 +116,10 @@ korean = "싫어.<end>"
 japanese = "なんじゃと？<end>"
 korean = "뭐라고?<end>"
 
+["370106"]
+japanese = "いやよ、って言ったのよ。<end>"
+korean = "싫다고 했잖아.<end>"
+
 ["370115"]
 japanese = "えらい。<end>"
 korean = "대단해.<end>"
@@ -115,6 +131,10 @@ korean = "최악의 인간이라고?<end>"
 ["370127"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["370162"]
+japanese = "下郎がァ！！　兵ども！！<end>"
+korean = "천한 놈이!! 병사들!!<end>"
 
 ["370183"]
 japanese = "捕らえよ。<end>"
