@@ -108,9 +108,17 @@ korean = "부탁드립니다<end>"
 japanese = "ふざけるな<end>"
 korean = "장난치지 마<end>"
 
+["1740100"]
+japanese = "あら、<value:$28>。<line-break>…ダークエルフの女と一緒に<line-break>何しに来たの。<end>"
+korean = "어머, <value:$28>. …다크 엘프 여자와 함께 무슨 일로 온 거야.<end>"
+
 ["1740108"]
 japanese = "なんだと！<end>"
 korean = "뭐라고!<end>"
+
+["1740117"]
+japanese = "…<value:$28>が<line-break>私にくれるというのなら、<line-break>私に拒む理由はない。<end>"
+korean = "…<value:$28>가 나에게 주겠다면, 내가 거절할 이유는 없어.<end>"
 
 ["1740118"]
 japanese = "大事に使わせてもらうわ。<end>"
@@ -211,6 +219,10 @@ korean = "좋아, 동료야<end>"
 ["1740194"]
 japanese = "お前は敵だ<end>"
 korean = "너는 적이다<end>"
+
+["1740201"]
+japanese = "私は少しケリュネイアと話をします。<end>"
+korean = "저는 케류네이아와 잠시 이야기하겠습니다.<end>"
 
 ["1740210"]
 japanese = "なんだと！？<end>"

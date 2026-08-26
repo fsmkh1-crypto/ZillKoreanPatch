@@ -88,6 +88,10 @@ korean = "뭐야, 아저씨.<end>"
 japanese = "子供とて許されると思うな！<end>"
 korean = "아이라고 봐줄 줄 아느냐!<end>"
 
+["280082"]
+japanese = "ヴァンは僕が看てる。<line-break><value:$28>は<line-break>道具屋で薬草を買ってきて。<end>"
+korean = "반은 내가 돌볼게. <value:$28>는 도구점에서 약초를 사 와.<end>"
+
 ["280085"]
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
 korean = "<value:$28>… 약초는?<end>"

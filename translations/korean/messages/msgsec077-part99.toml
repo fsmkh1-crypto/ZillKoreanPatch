@@ -16,6 +16,10 @@ korean = "바깥세상을 보러 가자<end>"
 japanese = "…すみません。<line-break>…つい。<end>"
 korean = "…죄송합니다. …그만.<end>"
 
+["770009"]
+japanese = "…え、あの。<line-break><value:$28>様！？<end>"
+korean = "…어, 저기. <value:$28>님!?<end>"
+
 ["770014"]
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"

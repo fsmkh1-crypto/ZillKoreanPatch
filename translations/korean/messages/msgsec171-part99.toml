@@ -32,6 +32,10 @@ korean = "네.<end>"
 japanese = "…よし。下がっていい。<end>"
 korean = "…좋아. 물러가도 된다.<end>"
 
+["1710033"]
+japanese = "おお、<value:$28>。<line-break>来たか。<end>"
+korean = "오, <value:$28>. 왔나.<end>"
+
 ["1710034"]
 japanese = "こちらは？<end>"
 korean = "이쪽은?<end>"

@@ -80,6 +80,10 @@ korean = "다치면 돌아오거라.<end>"
 japanese = "ここはお任せください。<end>"
 korean = "여기는 맡겨주십시오.<end>"
 
+["1900125"]
+japanese = "大丈夫だった、<line-break><value:$28>？<end>"
+korean = "괜찮았어, <value:$28>?<end>"
+
 ["1900126"]
 japanese = "無理はしないのよ。<end>"
 korean = "무리하지 마.<end>"

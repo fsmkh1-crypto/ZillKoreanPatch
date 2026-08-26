@@ -136,6 +136,10 @@ korean = "누나아.<end>"
 japanese = "星のきれいな夜だよね…。<end>"
 korean = "별이 아름다운 밤이네….<end>"
 
+["700266"]
+japanese = "お星様はきれい？<line-break><value:$28>。<end>"
+korean = "별은 예뻐? <value:$28>.<end>"
+
 ["700291"]
 japanese = "アーギルシャイアメッセージVOL1-2終端<end>"
 korean = "아길샤이어 메시지 VOL1-2 끝<end>"

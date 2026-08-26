@@ -88,6 +88,10 @@ korean = "신경 쓰고 있었다<end>"
 japanese = "気にしてなかった<end>"
 korean = "신경 쓰지 않았어<end>"
 
+["1380100"]
+japanese = "あーっ、<line-break><value:$28>じゃん。<end>"
+korean = "아, <value:$28>잖아.<end>"
+
 ["1380102"]
 japanese = "何をしてたかって？<end>"
 korean = "뭘 하고 있었냐고?<end>"
@@ -235,6 +239,10 @@ korean = "응…. 그렇네.<end>"
 ["1380271"]
 japanese = "だって。<line-break><value:$28>と<line-break>旅をしてるんだからね！<end>"
 korean = "그야 <value:$28>와 여행하고 있으니까!<end>"
+
+["1380275"]
+japanese = "<value:$28>！<line-break>何か知らない？<end>"
+korean = "<value:$28>! 뭐 아는 거 없어?<end>"
 
 ["1380276"]
 japanese = "そ、そんな…<line-break>ひ、ひどいや…<line-break><value:$28>。<end>"
@@ -439,6 +447,10 @@ korean = "아길샤이어…?<end>"
 ["1380385"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
+
+["1380396"]
+japanese = "まるで喜劇だね。<line-break><value:$28>。<end>"
+korean = "마치 희극 같네, <value:$28>.<end>"
 
 ["1380400"]
 japanese = "ええ。よろしく頼みます。<end>"

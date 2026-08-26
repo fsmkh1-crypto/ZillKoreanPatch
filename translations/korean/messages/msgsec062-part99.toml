@@ -204,6 +204,10 @@ korean = "두목! 저놈들 고브!<end>"
 japanese = "私たちはお客よ。<line-break>ほら。<end>"
 korean = "우리는 손님이야. 봐.<end>"
 
+["620117"]
+japanese = "もう！　<line-break><value:$28>、急ぐわよ！<end>"
+korean = "정말! <value:$28>, 서두르자!<end>"
+
 ["620120"]
 japanese = "親分、腹減ったゴブ～。<end>"
 korean = "두목, 배고프다 고브~.<end>"

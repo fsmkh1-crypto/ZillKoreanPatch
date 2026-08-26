@@ -296,6 +296,10 @@ korean = "으윽…!<end>"
 japanese = "ザギヴ…！<end>"
 korean = "자기브…!<end>"
 
+["890360"]
+japanese = "それじゃ、<value:$28>、<line-break>　<line-break>　<line-break>そろそろ行きましょうか。<end>"
+korean = "그럼, <value:$28>. 슬슬 갈까요.<end>"
+
 ["890363"]
 japanese = "こんな状態で！？<line-break>危険よ！<end>"
 korean = "이런 상태로!? 위험해!<end>"
@@ -327,6 +331,10 @@ korean = "기다려.<end>"
 ["890404"]
 japanese = "<value:$28>、そろそろだ。<end>"
 korean = "<value:$28>, 슬슬 때가 됐다.<end>"
+
+["890408"]
+japanese = "………………。<line-break> <line-break> <line-break>フッ、あなたらしい別れの言葉だ。<end>"
+korean = "………………. 훗, 당신다운 작별 인사군.<end>"
 
 ["890417"]
 japanese = "ふふふ。<end>"

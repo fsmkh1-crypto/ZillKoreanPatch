@@ -88,6 +88,10 @@ korean = "그것이 용왕님의 뜻….<end>"
 japanese = "<value:$28>さん！<line-break>ノエルの最後の剣、<line-break>受けとめてください！<end>"
 korean = "<value:$28> 씨! 노엘의 마지막 검을 받아 주세요!<end>"
 
+["1910100"]
+japanese = "やめて、ナーシェス。<line-break><value:$28>さんに<line-break>そのことは言わないで！<end>"
+korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>"
+
 ["1910107"]
 japanese = "あ…、レイヴン…！？<end>"
 korean = "아…, 레이븐…!?<end>"

@@ -4,6 +4,10 @@
 japanese = "ジリオン＆イーシャイベント05用開始<end>"
 korean = "질리온&이샤 이벤트05용 시작<end>"
 
+["2640001"]
+japanese = "えっ？　あたしが冒険している理由？<end>"
+korean = "응? 내가 모험하는 이유?<end>"
+
 ["2640020"]
 japanese = "おやすみなさい、<value:$28>。<end>"
 korean = "잘 자요, <value:$28>.<end>"
@@ -23,3 +27,7 @@ korean = "이쪽으로 올래? 별이 정말 예뻐.<end>"
 ["2640055"]
 japanese = "胸が…苦しいの。<end>"
 korean = "가슴이… 답답해.<end>"
+
+["2640058"]
+japanese = "えっ？　あたしが冒険している理由？<end>"
+korean = "응? 내가 모험하는 이유?<end>"

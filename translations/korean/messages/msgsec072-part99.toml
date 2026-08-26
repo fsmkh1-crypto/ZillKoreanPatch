@@ -20,6 +20,10 @@ korean = "…로이, 맞구나.<end>"
 japanese = "セラ、…会いたかったぞ。<end>"
 korean = "세라, …보고 싶었다.<end>"
 
+["720028"]
+japanese = "…<value:$28>！<line-break>危ない！　どけ！<end>"
+korean = "…<value:$28>! 위험해! 비켜!<end>"
+
 ["720032"]
 japanese = "イヤだって言ったら？<end>"
 korean = "싫다고 하면?<end>"
@@ -87,6 +91,10 @@ korean = "헤어질까?<end>"
 ["720108"]
 japanese = "………………。<line-break>うーん…。<line-break>　<line-break>…あ！<end>"
 korean = "………………. 음…. …아!<end>"
+
+["720110"]
+japanese = "ねえ、ちょっと。<line-break><value:$28>…。<end>"
+korean = "저기, 잠깐. <value:$28>….<end>"
 
 ["720123"]
 japanese = "アーギルシャイアメッセージ終端<end>"

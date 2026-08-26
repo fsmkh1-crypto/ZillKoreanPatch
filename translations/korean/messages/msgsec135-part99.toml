@@ -88,6 +88,10 @@ korean = "그… 그 목소리는…<end>"
 japanese = "ゼ、ゼネテス様…。<end>"
 korean = "제, 제네테스 님….<end>"
 
+["1350106"]
+japanese = "…ゼネテス…様…。<line-break>私…。<end>"
+korean = "…제네테스… 님…. 저는….<end>"
+
 ["1350112"]
 japanese = "えっ？<end>"
 korean = "어?<end>"
@@ -215,6 +219,10 @@ korean = "마, 말도 안 돼…<end>"
 ["1350231"]
 japanese = "ティアナ…？<end>"
 korean = "티아나…?<end>"
+
+["1350242"]
+japanese = "ティアナ様？<line-break>こ、これは？<end>"
+korean = "티아나 님? 이, 이건?<end>"
 
 ["1350244"]
 japanese = "ぎゃあああああああ！<end>"

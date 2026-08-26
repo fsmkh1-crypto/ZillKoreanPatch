@@ -56,6 +56,14 @@ korean = "<value:$28>, …힘내라.<end>"
 japanese = "おう、<value:$28>か。<end>"
 korean = "오, <value:$28>인가.<end>"
 
+["1370138"]
+japanese = "<value:$28>、　<line-break>…がんばれよ。<end>"
+korean = "<value:$28>, …힘내.<end>"
+
+["1370153"]
+japanese = "…よし、<value:$28>。<line-break>今日の稽古は、<line-break>この辺にしておこうか。<end>"
+korean = "…좋아, <value:$28>. 오늘 수련은 이쯤 해 둘까.<end>"
+
 ["1370157"]
 japanese = "上手な戦い方は？<end>"
 korean = "잘 싸우는 법은?<end>"
@@ -191,6 +199,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1370237"]
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
+
+["1370238"]
+japanese = "さ、<value:$28>さま、<line-break>しんでんで<line-break>お父上さまがお待ちですよ。<end>"
+korean = "<value:$28>님, 신전에서 아버님께서 기다리고 계세요.<end>"
 
 ["1370241"]
 japanese = "これは…！<end>"
@@ -463,6 +475,10 @@ korean = "자, 무엇에 대해 설명할까?<end>"
 ["1370461"]
 japanese = "だ、だって…。<end>"
 korean = "하, 하지만….<end>"
+
+["1370465"]
+japanese = "<value:$28>、頼んだぜ。<line-break>　　　　　　　　　　　　　　　　<line-break>　<end>"
+korean = "<value:$28>, 부탁한다.<end>"
 
 ["1370466"]
 japanese = "おう、昨日のケガは大丈夫か？<end>"

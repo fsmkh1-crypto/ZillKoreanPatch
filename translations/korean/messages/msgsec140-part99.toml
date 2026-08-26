@@ -148,6 +148,10 @@ korean = "…제네테스 님!<end>"
 japanese = "いやあぁああ！<end>"
 korean = "싫어어어어!<end>"
 
+["1400101"]
+japanese = "くっ、<value:$28>。<line-break>いくぞ！！<end>"
+korean = "큭, <value:$28>. 간다!!<end>"
+
 ["1400106"]
 japanese = "ゼネテス様は…？<end>"
 korean = "제네테스 님은…?<end>"
@@ -184,6 +188,10 @@ korean = "…제네테스 님!<end>"
 japanese = "いやあぁああ！<end>"
 korean = "싫어어어어!<end>"
 
+["1400134"]
+japanese = "くっ、<value:$28>。<line-break>いくぞ！！<end>"
+korean = "큭, <value:$28>. 간다!!<end>"
+
 ["1400144"]
 japanese = "いやあぁああ！！<end>"
 korean = "싫어어어어!!<end>"
@@ -199,6 +207,10 @@ korean = "제네테스! 제네테스!<end>"
 ["1400149"]
 japanese = "…ティアナ。<end>"
 korean = "…티아나.<end>"
+
+["1400156"]
+japanese = "あ、<value:$28>様。<line-break>あの…あの…、<line-break>こんな手紙が来たのです。<end>"
+korean = "아, <value:$28>님. 저… 저기…, 이런 편지가 왔습니다.<end>"
 
 ["1400159"]
 japanese = "アトレイアをエスコートする<end>"
@@ -376,6 +388,10 @@ korean = "아버… 지…<end>"
 japanese = "みんな！<line-break>大丈夫！？<end>"
 korean = "다들! 괜찮아!?<end>"
 
+["1400346"]
+japanese = "よいのです、<line-break><value:$28>様。<end>"
+korean = "괜찮습니다, <value:$28>님.<end>"
+
 ["1400347"]
 japanese = "よーし！<line-break>じゃ、行くよ！<end>"
 korean = "좋아! 그럼 간다!<end>"
@@ -471,6 +487,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1400404"]
 japanese = "地の最高位の魔法が解放された。<end>"
 korean = "대지의 최고위 마법이 해방되었다.<end>"
+
+["1400406"]
+japanese = "<value:$28>…。<line-break>どうして…？<end>"
+korean = "<value:$28>…. 어째서…?<end>"
 
 ["1400409"]
 japanese = "ボクを助ける…ため…？<end>"

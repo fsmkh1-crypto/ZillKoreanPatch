@@ -60,6 +60,10 @@ korean = "에엣!? 벌써 가는 거야?<end>"
 japanese = "じゃあな、<line-break>フリントさん、ルルアンタ、<line-break>それに<value:$28>。<end>"
 korean = "그럼 안녕, 플린트 씨, 루루안타, 그리고 <value:$28>.<end>"
 
+["1860080"]
+japanese = "<value:$28>、待ちなさい。<line-break>　　　　　　　　　　　　　　　　<line-break>　<end>"
+korean = "<value:$28>, 기다리세요.<end>"
+
 ["1860082"]
 japanese = "フリントの短剣を手に入れた。<end>"
 korean = "플린트의 단검을 손에 넣었다.<end>"
@@ -87,6 +91,10 @@ korean = "뭐냐, 넌!<end>"
 ["1860159"]
 japanese = "…エリス様は？<end>"
 korean = "…에리스 님은?<end>"
+
+["1860171"]
+japanese = "なんだぁ。まだふさぎ込んでるのか？<end>"
+korean = "뭐야. 아직도 풀이 죽어 있는 거야?<end>"
 
 ["1860191"]
 japanese = "旅立ち０６（改）メッセージ終端<end>"

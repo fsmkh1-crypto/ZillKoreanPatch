@@ -36,6 +36,10 @@ korean = "제네테스와 함께 싸운다<end>"
 japanese = "悪いが、一緒に戦えない<end>"
 korean = "미안하지만 함께 싸울 수 없어.<end>"
 
+["1800037"]
+japanese = "これは<value:$28>様、<line-break>お帰りなさいませ。　　　　　　　　　<line-break>　<end>"
+korean = "<value:$28>님, 돌아오셨군요.<end>"
+
 ["1800044"]
 japanese = "よく来た、フリントの息子<line-break><value:$28>よ。<line-break>今日は何用か？<end>"
 korean = "잘 왔다, 플린트의 아들 <value:$28>이여. 오늘은 무슨 일이지?<end>"

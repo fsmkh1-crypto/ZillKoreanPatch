@@ -20,6 +20,10 @@ korean = "그, 그, 그만둬!<end>"
 japanese = "お願い、やめて！<end>"
 korean = "부탁이야, 그만해!<end>"
 
+["640031"]
+japanese = "<value:$28>、<line-break>剣を収めなさい！<end>"
+korean = "<value:$28>, 검을 거두세요!<end>"
+
 ["640032"]
 japanese = "タルテュバ様、今のうちに逃げて！<end>"
 korean = "타르튜바 님, 지금 도망치세요!<end>"
@@ -192,6 +196,10 @@ korean = "…알겠습니다.<end>"
 japanese = "そのぐらい、ひとりでできます。<end>"
 korean = "그 정도는 혼자 할 수 있습니다.<end>"
 
+["640206"]
+japanese = "<value:$28>様…<line-break>いつからそこに？<end>"
+korean = "<value:$28>님… 언제부터 거기에?<end>"
+
 ["640212"]
 japanese = "…なぜなのです？<end>"
 korean = "…어째서인가요?<end>"
@@ -228,6 +236,10 @@ korean = "…역시 다 알고 계시는군요.<end>"
 japanese = "本当ですか！<end>"
 korean = "정말입니까!<end>"
 
+["640229"]
+japanese = "あー！<line-break><value:$28>お兄ちゃんだ。<end>"
+korean = "아! <value:$28> 오빠다.<end>"
+
 ["640231"]
 japanese = "ふふっ。そうよ。<end>"
 korean = "후훗. 그래.<end>"
@@ -240,6 +252,10 @@ korean = "어떻게 알고 있어?<end>"
 japanese = "実はね、タルテュバ様は…<end>"
 korean = "사실은 말이야, 타르튜바 님은…<end>"
 
+["640236"]
+japanese = "そっか、お兄ちゃんが話したんだね。<end>"
+korean = "그렇구나, 오빠가 말했구나.<end>"
+
 ["640239"]
 japanese = "えっ、ええ…<end>"
 korean = "어, 어어…<end>"
@@ -247,6 +263,10 @@ korean = "어, 어어…<end>"
 ["640259"]
 japanese = "この子のために…頼む。<end>"
 korean = "이 아이를 위해서… 부탁한다.<end>"
+
+["640261"]
+japanese = "あー！<line-break><value:$28>お姉ちゃんだ。<end>"
+korean = "아! <value:$28> 언니다.<end>"
 
 ["640262"]
 japanese = "この人、お姉ちゃんのお友だち？<end>"

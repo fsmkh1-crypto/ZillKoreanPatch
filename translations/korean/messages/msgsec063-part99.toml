@@ -96,6 +96,46 @@ korean = "티아나 볼륨1 그 1 12<end>"
 japanese = "ティアナ、ボリューム１その１　１３<end>"
 korean = "티아나 볼륨1 그 1 13<end>"
 
+["630097"]
+japanese = "ティアナ、ボリューム１その１　１４<end>"
+korean = "티아나 볼륨 1 파트 1 14<end>"
+
+["630098"]
+japanese = "ティアナ、ボリューム１その１　１５<end>"
+korean = "티아나 볼륨 1 파트 1 15<end>"
+
+["630099"]
+japanese = "ティアナ、ボリューム１その１　１６<end>"
+korean = "티아나 볼륨 1 파트 1 16<end>"
+
+["630100"]
+japanese = "ティアナ、ボリューム１その１　１７<end>"
+korean = "티아나 볼륨 1 파트 1 17<end>"
+
+["630101"]
+japanese = "ティアナ、ボリューム１その１　１８<end>"
+korean = "티아나 볼륨 1 파트 1 18<end>"
+
+["630102"]
+japanese = "ティアナ、ボリューム１その１　１９<end>"
+korean = "티아나 볼륨 1 파트 1 19<end>"
+
+["630103"]
+japanese = "ティアナ、ボリューム１その１　２０<end>"
+korean = "티아나 볼륨 1 파트 1 20<end>"
+
+["630104"]
+japanese = "ティアナ、ボリューム１その１　２１<end>"
+korean = "티아나 볼륨 1 파트 1 21<end>"
+
+["630105"]
+japanese = "ティアナ、ボリューム１その１　２２<end>"
+korean = "티아나 볼륨 1 파트 1 22<end>"
+
+["630106"]
+japanese = "ティアナ、ボリューム１その１　２３<end>"
+korean = "티아나 볼륨 1 파트 1 23<end>"
+
 ["630111"]
 japanese = "正解だ。<end>"
 korean = "정답이야.<end>"
@@ -135,6 +175,10 @@ korean = "아, 아니… 저….<end>"
 ["630141"]
 japanese = "いえ、そんなことは…。<end>"
 korean = "아뇨, 그런 건….<end>"
+
+["630142"]
+japanese = "また来る。<line-break><value:$28>、ゆくぞ。<end>"
+korean = "다시 오겠다. <value:$28>, 가자.<end>"
 
 ["630143"]
 japanese = "…ごめんなさい。<end>"
@@ -236,6 +280,10 @@ korean = "아, 아니… 저….<end>"
 japanese = "いえ、そんなことは…。<end>"
 korean = "아뇨, 그런 건….<end>"
 
+["630263"]
+japanese = "また来る。<line-break><value:$28>、ゆくぞ。<end>"
+korean = "다시 오겠다. <value:$28>, 가자.<end>"
+
 ["630264"]
 japanese = "…ごめんなさい。<end>"
 korean = "…미안해요.<end>"
@@ -259,6 +307,10 @@ korean = "후후후.<end>"
 ["630301"]
 japanese = "あら？　この音はもしや…。<end>"
 korean = "어머? 이 소리는 혹시….<end>"
+
+["630310"]
+japanese = "あ！　どなたか来られたみたいだわ。<end>"
+korean = "아! 누가 오신 것 같아.<end>"
 
 ["630317"]
 japanese = "ティアナ様もご機嫌うるわしく。<end>"

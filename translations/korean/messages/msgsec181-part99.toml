@@ -20,6 +20,10 @@ korean = "…정말로?<end>"
 japanese = "<value:$28>、<line-break>話があります。<line-break>居間に来てもらえますか？<end>"
 korean = "<value:$28>, 할 말이 있습니다. 거실로 와 주시겠어요?<end>"
 
+["1810026"]
+japanese = "あ、<value:$28>…。<line-break>…ねえ、<line-break>兄さんについて何か聞いていない？<end>"
+korean = "아, <value:$28>…. …있잖아, 오빠에 대해 뭐 들은 거 없어?<end>"
+
 ["1810035"]
 japanese = "始原口伝を聞く<end>"
 korean = "시원구전을 듣는다<end>"
@@ -31,6 +35,10 @@ korean = "안 듣는다<end>"
 ["1810066"]
 japanese = "デモリッシュを習得した。<end>"
 korean = "데몰리시를 습득했다.<end>"
+
+["1810068"]
+japanese = "ユニオンスペルのスキルを取得した。<end>"
+korean = "유니온 스펠 스킬을 습득했다.<end>"
 
 ["1810079"]
 japanese = "ケリュネイアＶ７　終了<end>"

@@ -248,6 +248,10 @@ korean = "부탁한다, <value:$28>.<end>"
 japanese = "傷ついたら戻るがいい。<end>"
 korean = "다치면 돌아오거라.<end>"
 
+["1330344"]
+japanese = "よろしくお願いします。<line-break><value:$28>殿！<line-break>ここはお任せください。<end>"
+korean = "잘 부탁드립니다, <value:$28>님! 여기는 맡겨 주십시오.<end>"
+
 ["1330352"]
 japanese = "フォフォフォ…。<end>"
 korean = "호호호….<end>"
@@ -415,6 +419,10 @@ korean = "네!<end>"
 ["1330615"]
 japanese = "<value:$28>さん！<line-break>ノエルの最後の剣、<line-break>受けとめてください！<end>"
 korean = "<value:$28> 씨! 노엘의 마지막 검을 받아 주세요!<end>"
+
+["1330618"]
+japanese = "やめて、ナーシェス。<line-break><value:$28>さんに<line-break>そのことは言わないで！<end>"
+korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>"
 
 ["1330626"]
 japanese = "レイヴン！<end>"

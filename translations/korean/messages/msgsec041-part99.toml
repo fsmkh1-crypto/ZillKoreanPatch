@@ -180,6 +180,10 @@ korean = "네.<end>"
 japanese = "…ええ。<end>"
 korean = "…네.<end>"
 
+["410094"]
+japanese = "それがあるお方の意志だからです。　　<end>"
+korean = "그것이 어떤 분의 뜻이기 때문입니다.<end>"
+
 ["410097"]
 japanese = "人間は文明を得ることで賢くなる。<end>"
 korean = "인간은 문명을 얻으며 현명해진다.<end>"
@@ -219,6 +223,10 @@ korean = "<value:$28>…? 그럴 수가….<end>"
 ["410115"]
 japanese = "ネメアだ！　　　　　　<end>"
 korean = "네메아다!<end>"
+
+["410117"]
+japanese = "フッ、愚かな…。　　　　　　　　　　<end>"
+korean = "훗, 어리석군….<end>"
 
 ["410120"]
 japanese = "で、でも…。<end>"

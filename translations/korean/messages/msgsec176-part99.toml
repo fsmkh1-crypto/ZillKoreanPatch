@@ -119,3 +119,7 @@ korean = "반드시 넘어서겠습니다<end>"
 ["1760118"]
 japanese = "残念ながら…<end>"
 korean = "유감스럽지만…<end>"
+
+["1760127"]
+japanese = "それじゃーな。<line-break><value:$28>。<end>"
+korean = "그럼 잘 있어, <value:$28>.<end>"

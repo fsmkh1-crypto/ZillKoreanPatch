@@ -36,6 +36,10 @@ korean = "…로이, 맞구나.<end>"
 japanese = "セラ…会いたかったぞ。<end>"
 korean = "세라… 보고 싶었다.<end>"
 
+["710071"]
+japanese = "…<value:$28>！<line-break>危ない！　どけ！<end>"
+korean = "…<value:$28>! 위험해! 비켜!<end>"
+
 ["710075"]
 japanese = "イヤだっていったら？<end>"
 korean = "싫다고 하면?<end>"
@@ -59,6 +63,10 @@ korean = "…로이, 맞구나.<end>"
 ["710113"]
 japanese = "セラ…会いたかったぞ。<end>"
 korean = "세라… 보고 싶었다.<end>"
+
+["710114"]
+japanese = "…<value:$28>！<line-break>危ない！　どけ！<end>"
+korean = "…<value:$28>! 위험해! 비켜!<end>"
 
 ["710118"]
 japanese = "イヤだっていったら？<end>"

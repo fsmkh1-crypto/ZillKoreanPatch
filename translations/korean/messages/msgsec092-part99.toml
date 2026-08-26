@@ -52,6 +52,10 @@ korean = "곧바로 함께 모험을 떠난다<end>"
 japanese = "すぐには一緒に冒険に出ない<end>"
 korean = "당장은 함께 모험을 떠나지 않는다<end>"
 
+["920031"]
+japanese = "もぉ、イヤー！<line-break><value:$28>ー！<end>"
+korean = "정말, 싫어! <value:$28>!<end>"
+
 ["920049"]
 japanese = "そうか…、なら、いいわい…。<end>"
 korean = "그런가… 그럼 됐다….<end>"
@@ -63,6 +67,10 @@ korean = "흥! 술맛 떨어졌군!<end>"
 ["920054"]
 japanese = "<value:$28>か…。<line-break>よろしくな、<value:$28>。<end>"
 korean = "<value:$28>인가… 잘 부탁한다, <value:$28>.<end>"
+
+["920057"]
+japanese = "もぉ、イヤー！<line-break><value:$28>ー。<end>"
+korean = "정말, 싫어! <value:$28>.<end>"
 
 ["920073"]
 japanese = "そうか…、なら、いいわい…。<end>"

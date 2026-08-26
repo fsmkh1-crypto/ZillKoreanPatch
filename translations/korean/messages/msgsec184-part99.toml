@@ -76,6 +76,10 @@ korean = "<value:$28> 씨!!<end>"
 japanese = "な、何をバカなことを…っ！<end>"
 korean = "무, 무슨 바보 같은 소리를…!<end>"
 
+["1840064"]
+japanese = "<value:$28>、<line-break>大丈夫ですか？<end>"
+korean = "<value:$28>, 괜찮습니까?<end>"
+
 ["1840066"]
 japanese = "あら？<line-break>あれは…。<end>"
 korean = "어라? 저건….<end>"
@@ -115,6 +119,10 @@ korean = "사람을 잘못 봤다<end>"
 ["1840109"]
 japanese = "…そうですか。<line-break>…やはり…。<end>"
 korean = "…그렇습니까. …역시….<end>"
+
+["1840119"]
+japanese = "あ、<value:$28>さん、<line-break>こんにちは。<line-break>今日もいいお天気ですね…。<end>"
+korean = "아, <value:$28>님, 안녕하세요. 오늘도 날씨가 좋네요….<end>"
 
 ["1840128"]
 japanese = "たやすい話です<end>"

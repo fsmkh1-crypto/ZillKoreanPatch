@@ -40,6 +40,10 @@ korean = "노리는 건 앙길단뿐!<end>"
 japanese = "頼むぜ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
 
+["1620067"]
+japanese = "<value:$28>、<line-break>他は任せた！！<end>"
+korean = "<value:$28>, 나머지는 맡긴다!!<end>"
+
 ["1620068"]
 japanese = "アンギルダン将軍！！<end>"
 korean = "앙길단 장군!!<end>"

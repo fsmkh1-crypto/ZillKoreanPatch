@@ -8,6 +8,10 @@ korean = "아트레이아 볼륨1 시작<end>"
 japanese = "誰？<end>"
 korean = "누구?<end>"
 
+["750005"]
+japanese = "ようこそ、<line-break>勇者<value:$28>様。<end>"
+korean = "어서 오십시오, 용사 <value:$28>님.<end>"
+
 ["750009"]
 japanese = "何でもありませんよ、王女様。<end>"
 korean = "아무것도 아닙니다, 공주님.<end>"

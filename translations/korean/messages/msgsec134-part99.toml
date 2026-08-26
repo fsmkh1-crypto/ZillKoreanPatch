@@ -332,6 +332,10 @@ korean = "역시 기다려! 카핀!<end>"
 japanese = "え…？<end>"
 korean = "어…?<end>"
 
+["1340285"]
+japanese = "やっぱり変よ！<line-break><value:$28>さんが<line-break>悪い人を助けるわけないもの！<end>"
+korean = "역시 이상해! <value:$28>가 나쁜 사람을 도와줄 리 없잖아!<end>"
+
 ["1340287"]
 japanese = "でも…<line-break>あ、<value:$28>さん！<end>"
 korean = "하지만… 아, <value:$28> 씨!<end>"
@@ -391,6 +395,10 @@ korean = "…모험가?<end>"
 ["1340335"]
 japanese = "ち、力を、使いすぎた、か…！<end>"
 korean = "히, 힘을 너무 많이 썼나…!<end>"
+
+["1340336"]
+japanese = "…よ、寄るなっ！<line-break><line-break><line-break>お、俺に、近づかないでくれ…！<end>"
+korean = "…오, 오지 마! 나, 나한테 가까이 오지 마…!<end>"
 
 ["1340338"]
 japanese = "あ…ああ…。<end>"

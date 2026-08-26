@@ -168,6 +168,10 @@ korean = "레몬님!<end>"
 japanese = "何用だ…セバスチャン。<end>"
 korean = "무슨 일이지… 세바스찬.<end>"
 
+["1420217"]
+japanese = "会議中、失礼いたします。<line-break> <line-break> <line-break>レムオン様…お耳を…。<end>"
+korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를….<end>"
+
 ["1420218"]
 japanese = "何！？<end>"
 korean = "뭐!?<end>"
@@ -191,6 +195,10 @@ korean = "안 돼요. 절대 안 돼!<end>"
 ["1420239"]
 japanese = "何用だ…セバスチャン。<end>"
 korean = "무슨 일이지… 세바스찬.<end>"
+
+["1420240"]
+japanese = "会議中、失礼いたします。<line-break> <line-break> <line-break>レムオン様…お耳を…。<end>"
+korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를….<end>"
 
 ["1420241"]
 japanese = "何！？<end>"
@@ -348,6 +356,10 @@ korean = "페티야아.<end>"
 japanese = "こ、こらっ！<end>"
 korean = "이, 이봐!<end>"
 
+["1420349"]
+japanese = "ところで、私たち、<line-break>どうしてここで<line-break><value:$28>を待ってるの？<end>"
+korean = "그런데 우리, 왜 여기서 <value:$28>를 기다리고 있는 거야?<end>"
+
 ["1420350"]
 japanese = "どうしてって、それは…<end>"
 korean = "왜냐고? 그건….<end>"
@@ -467,6 +479,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420419"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1420421"]
+japanese = "朝ご飯が冷めてしまうわよ。<line-break>さあ、早くしなさい、<line-break><value:$28>。<end>"
+korean = "아침밥 다 식겠어. 자, 서둘러, <value:$28>.<end>"
 
 ["1420422"]
 japanese = "じゃあ、行くのね？<end>"
@@ -675,6 +691,10 @@ korean = "레몬님!<end>"
 ["1420564"]
 japanese = "何用だ…セバスチャン<end>"
 korean = "무슨 용건이냐… 세바스찬.<end>"
+
+["1420565"]
+japanese = "会議中、失礼いたします。<line-break> <line-break> <line-break>レムオン様…お耳を…<end>"
+korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를….<end>"
 
 ["1420566"]
 japanese = "何！？<end>"

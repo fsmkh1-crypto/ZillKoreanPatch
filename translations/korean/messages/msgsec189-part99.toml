@@ -108,6 +108,10 @@ korean = "<value:$28>인가!<end>"
 japanese = "（もう、あと戻りはできない！）<end>"
 korean = "(이제 돌아갈 수 없어!)<end>"
 
+["1890130"]
+japanese = "さあ、こいつを倒さないと<line-break>この先には進めないよ、<line-break><value:$28>！<end>"
+korean = "자, 이 녀석을 쓰러뜨리지 않으면 앞으로 갈 수 없어, <value:$28>!<end>"
+
 ["1890131"]
 japanese = "あれ？　誰か来た？<end>"
 korean = "어라? 누가 왔나?<end>"
@@ -115,6 +119,10 @@ korean = "어라? 누가 왔나?<end>"
 ["1890132"]
 japanese = "その戦い、手を貸そう。<end>"
 korean = "그 싸움, 힘을 보태지.<end>"
+
+["1890137"]
+japanese = "さあ、こいつを倒さないと<line-break>この先には進めないよ、<line-break><value:$28>！<end>"
+korean = "자, 이 녀석을 쓰러뜨리지 않으면 앞으로 갈 수 없어, <value:$28>!<end>"
 
 ["1890138"]
 japanese = "あれ？　誰か来た？<end>"

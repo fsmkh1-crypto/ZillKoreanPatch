@@ -64,6 +64,10 @@ korean = "질문은 없다<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["690091"]
+japanese = "あ、<value:$28>、<line-break>ここにいたの。<end>"
+korean = "아, <value:$28>, 여기 있었구나.<end>"
+
 ["690101"]
 japanese = "親分、アレって何でゴブ？<end>"
 korean = "두목, 저게 뭐야 고브?<end>"
@@ -115,6 +119,10 @@ korean = "지키고 싶은 거지?<end>"
 ["690148"]
 japanese = "…なんだ、小娘？<end>"
 korean = "…뭐냐, 꼬마 아가씨?<end>"
+
+["690154"]
+japanese = "…<value:$28>が<line-break>そう言うなら…。<end>"
+korean = "…<value:$28>가 그렇게 말한다면….<end>"
 
 ["690157"]
 japanese = "あんだって？<line-break>この…！<end>"
@@ -171,6 +179,10 @@ korean = "별로…<end>"
 ["690221"]
 japanese = "…ボク、やっぱり役立たずなのかな。<end>"
 korean = "…나, 역시 쓸모없는 걸까.<end>"
+
+["690229"]
+japanese = "待て、<value:$28>…<line-break>あの刀は…。<end>"
+korean = "잠깐, <value:$28>… 저 검은….<end>"
 
 ["690230"]
 japanese = "さ、まいりましょう。<end>"

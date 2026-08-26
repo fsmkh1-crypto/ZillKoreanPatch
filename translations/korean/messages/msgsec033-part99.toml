@@ -252,6 +252,10 @@ korean = "조금만 더…<end>"
 japanese = "とう！<end>"
 korean = "타앗!<end>"
 
+["330218"]
+japanese = "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？<end>"
+korean = "오, <value:$28>. 돌아왔군. 루루안타는 같이 안 왔나?<end>"
+
 ["330221"]
 japanese = "おお、フリントさんとこの<line-break><value:$28>か。<line-break>今日出発かな。<end>"
 korean = "오오, 플린트 씨네 <value:$28>구나. 오늘 출발하나?<end>"
