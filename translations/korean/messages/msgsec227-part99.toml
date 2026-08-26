@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2270000"]
+japanese = "名脇役ガルドラン物語5用開始<end>"
+korean = "명조연 갈드란 이야기 5용 시작<end>"
+
 ["2270001"]
 japanese = "…た、助けてーっ！<end>"
 korean = "…사, 살려줘ー!<end>"
@@ -71,3 +75,7 @@ korean = "같이 놀자!<end>"
 ["2270036"]
 japanese = "うん！<end>"
 korean = "응!<end>"
+
+["2270042"]
+japanese = "名脇役ガルドラン物語5用終端<end>"
+korean = "명조연 갈드란 이야기 5용 끝<end>"

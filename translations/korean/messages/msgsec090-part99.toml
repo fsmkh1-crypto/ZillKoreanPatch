@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["900000"]
+japanese = "ツェラシェルメッセージVOL1開始<end>"
+korean = "체라셸 메시지 VOL1 시작<end>"
+
 ["900007"]
 japanese = "結構です。<end>"
 korean = "괜찮습니다.<end>"
@@ -19,3 +23,7 @@ korean = "여동생을 모욕했기 때문이다.<end>"
 ["900021"]
 japanese = "ええ。<end>"
 korean = "네.<end>"
+
+["900032"]
+japanese = "ツェラシェルメッセージVOL1終端<end>"
+korean = "체라셸 메시지 VOL1 끝<end>"

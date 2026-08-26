@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["910000"]
+japanese = "ツェラシェルメッセージVOL2開始<end>"
+korean = "체라셸 메시지 VOL2 시작<end>"
+
 ["910001"]
 japanese = "ちんけな紙芝居だったよなぁ。<end>"
 korean = "시시한 종이연극이었지.<end>"
+
+["910016"]
+japanese = "ツェラシェルメッセージVOL2終端<end>"
+korean = "체라셸 메시지 VOL2 끝<end>"

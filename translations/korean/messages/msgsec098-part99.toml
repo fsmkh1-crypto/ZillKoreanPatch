@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["980000"]
+japanese = "アイリーンメッセージVOL1用開始<end>"
+korean = "아이린 메시지 VOL1용 시작<end>"
+
 ["980001"]
 japanese = "あ…、<value:$28>さん。<end>"
 korean = "아…, <value:$28> 씨.<end>"

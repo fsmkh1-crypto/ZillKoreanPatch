@@ -64,6 +64,10 @@ korean = "<value:$28>. 네가 있어 준다면, 우리는 아직 싸울 수 있�
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
 
+["1050076"]
+japanese = "それだけ聞ければ、それでいい<end>"
+korean = "그것만 들으면 됐어.<end>"
+
 ["1050077"]
 japanese = "この恨みは忘れない<end>"
 korean = "이 원한은 잊지 않겠어<end>"
