@@ -64,6 +64,10 @@ korean = "왔나, <value:$28>….<end>"
 japanese = "　　　　これも…無限のソウルの力か…。<line-break><line-break><line-break><end>"
 korean = "이것도… 무한한 소울의 힘인가….<end>"
 
+["1420124"]
+japanese = "かしこまりました。女王様。<end>"
+korean = "알겠습니다. 여왕님.<end>"
+
 ["1420126"]
 japanese = "物好きなこったな。<end>"
 korean = "별난 사람이네.<end>"
@@ -543,6 +547,10 @@ korean = "♪뜨겁게 타오르는 올바른 영혼~<end>"
 ["1420550"]
 japanese = "ねぇ。<value:$28>。<end>"
 korean = "있잖아. <value:$28>.<end>"
+
+["1420551"]
+japanese = "♪天を切り裂く　正義の光～<end>"
+korean = "♪하늘을 가르는 정의의 빛~<end>"
 
 ["1420555"]
 japanese = "レムオン様！<end>"

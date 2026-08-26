@@ -32,6 +32,10 @@ korean = "어떻게 할 생각이야?<end>"
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"
 
+["1890060"]
+japanese = "さあ、猫屋敷に戻りますよ。<end>"
+korean = "자, 고양이 저택으로 돌아가죠.<end>"
+
 ["1890061"]
 japanese = "では、兄さんはまだ…。<end>"
 korean = "그럼 형은 아직….<end>"
