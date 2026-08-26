@@ -20,6 +20,10 @@ korean = "크헉!<end>"
 japanese = "ぎゃー！<end>"
 korean = "꺄악!<end>"
 
+["1730014"]
+japanese = "坊や。いくつだ？<end>"
+korean = "꼬마야. 몇 살이지?<end>"
+
 ["1730018"]
 japanese = "死ねえっ！<end>"
 korean = "죽어라!<end>"
@@ -55,6 +59,10 @@ korean = "맡지 않는다<end>"
 ["1730080"]
 japanese = "死んでもらう<end>"
 korean = "죽어 줘야겠다<end>"
+
+["1730081"]
+japanese = "別にどうもしない<end>"
+korean = "딱히 아무것도 안 한다<end>"
 
 ["1730083"]
 japanese = "つまみだせ！<end>"

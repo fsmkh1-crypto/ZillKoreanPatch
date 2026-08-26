@@ -4,6 +4,10 @@
 japanese = "また、卿か。<end>"
 korean = "또 그대인가.<end>"
 
+["1720024"]
+japanese = "ミ、ミズチが…。<end>"
+korean = "미, 미즈치가….<end>"
+
 ["1720027"]
 japanese = "うむ。<end>"
 korean = "음.<end>"
@@ -28,9 +32,17 @@ korean = "핫!<end>"
 japanese = "そこまでです。<end>"
 korean = "거기까지입니다.<end>"
 
+["1720064"]
+japanese = "イークレムン様！<end>"
+korean = "이클레문 님!<end>"
+
 ["1720066"]
 japanese = "はい…。<end>"
 korean = "네….<end>"
+
+["1720067"]
+japanese = "イークレムン！！<end>"
+korean = "이클레문!!<end>"
 
 ["1720068"]
 japanese = "ん？<end>"
@@ -39,6 +51,10 @@ korean = "응?<end>"
 ["1720069"]
 japanese = "これは…。<end>"
 korean = "이건….<end>"
+
+["1720071"]
+japanese = "奴を追うのじゃ！<end>"
+korean = "놈을 쫓는 거다!<end>"
 
 ["1720078"]
 japanese = "これを見ろ。<end>"

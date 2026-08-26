@@ -4,9 +4,17 @@
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
 
+["1930023"]
+japanese = "ならば、行くぞ。<end>"
+korean = "그렇다면, 간다.<end>"
+
 ["1930025"]
 japanese = "…さらばだ。<end>"
 korean = "…잘 있어라.<end>"
+
+["1930047"]
+japanese = "あ…、え？　え？<end>"
+korean = "아…, 어? 어?<end>"
 
 ["1930057"]
 japanese = "なあ…。<end>"
@@ -27,6 +35,10 @@ korean = "스승님?<end>"
 ["1930095"]
 japanese = "来たか……。<end>"
 korean = "왔는가…….<end>"
+
+["1930096"]
+japanese = "決着をつけよう。<end>"
+korean = "결판을 내자.<end>"
 
 ["1930108"]
 japanese = "さあ、どうぞ。<end>"

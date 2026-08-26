@@ -8,6 +8,10 @@ korean = "V7 시작<end>"
 japanese = "そうだ。余だ。<end>"
 korean = "그렇다. 짐이다.<end>"
 
+["1890048"]
+japanese = "どうするつもり？<end>"
+korean = "어떻게 할 생각이야?<end>"
+
 ["1890063"]
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
@@ -23,6 +27,10 @@ korean = "핫!<end>"
 ["1890107"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1890108"]
+japanese = "ベルゼーヴァ様！<end>"
+korean = "벨제바 님!<end>"
 
 ["1890115"]
 japanese = "<value:$28>か！<end>"

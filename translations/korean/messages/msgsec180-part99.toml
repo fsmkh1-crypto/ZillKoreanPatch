@@ -44,6 +44,10 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "ティアナの部屋<end>"
 korean = "티아나의 방<end>"
 
+["1800068"]
+japanese = "アトレイアの部屋<end>"
+korean = "아트레이아의 방<end>"
+
 ["1800069"]
 japanese = "エリスの執務室<end>"
 korean = "에리스의 집무실<end>"
@@ -100,9 +104,17 @@ korean = "호출<end>"
 japanese = "ネメアを追う<end>"
 korean = "네메아를 쫓는다<end>"
 
+["1800159"]
+japanese = "ネメアを追わない<end>"
+korean = "네메아를 쫓지 않는다<end>"
+
 ["1800181"]
 japanese = "力を貸そう<end>"
 korean = "힘을 빌려주지<end>"
+
+["1800184"]
+japanese = "あ、それから…。<end>"
+korean = "아, 그리고….<end>"
 
 ["1800190"]
 japanese = "…あの、私…。<end>"

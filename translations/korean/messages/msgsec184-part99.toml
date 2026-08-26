@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1840007"]
+japanese = "ミ、ミズチが…。<end>"
+korean = "미, 미즈치가….<end>"
+
 ["1840011"]
 japanese = "うむ。<end>"
 korean = "음.<end>"
@@ -11,6 +15,10 @@ korean = "큭….<end>"
 ["1840032"]
 japanese = "そこまでです。<end>"
 korean = "거기까지입니다.<end>"
+
+["1840049"]
+japanese = "イークレムン様！<end>"
+korean = "이클레문 님!<end>"
 
 ["1840051"]
 japanese = "はい…。<end>"
@@ -24,9 +32,17 @@ korean = "<value:$28> 씨!!<end>"
 japanese = "これを見ろ。<end>"
 korean = "이걸 봐.<end>"
 
+["1840091"]
+japanese = "イークレムン！！<end>"
+korean = "이클레문!!<end>"
+
 ["1840104"]
 japanese = "<value:$28>さん。<end>"
 korean = "<value:$28> 씨.<end>"
+
+["1840107"]
+japanese = "いかにもその通り<end>"
+korean = "바로 그 말대로입니다<end>"
 
 ["1840108"]
 japanese = "それは人違い<end>"
@@ -47,3 +63,7 @@ korean = "네, 가겠습니다<end>"
 ["1840134"]
 japanese = "あの…恐いです<end>"
 korean = "저기… 무서워요<end>"
+
+["1840145"]
+japanese = "そんな気ないです<end>"
+korean = "그럴 생각 없습니다<end>"
