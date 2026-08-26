@@ -1,26 +1,24 @@
-name: CI
+name: Korean data CI
 
 on:
   pull_request:
-    paths-ignore:
+    paths:
       - 'translations/korean/messages/**'
       - 'release/korean/font/glyphs.toml'
       - 'work/korean-results/**'
       - 'work/korean-staging/**'
-      - 'work/korean-packets/**'
   push:
-    paths-ignore:
+    paths:
       - 'translations/korean/messages/**'
       - 'release/korean/font/glyphs.toml'
       - 'work/korean-results/**'
       - 'work/korean-staging/**'
-      - 'work/korean-packets/**'
 
 permissions:
   contents: read
 
 jobs:
-  test:
+  validate-data:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -28,10 +26,7 @@ jobs:
         with:
           go-version-file: go.mod
           cache-dependency-path: go.sum
-      - run: go test ./...
-      - run: go vet ./...
       - run: python3 -m py_compile tools/korean/*.py
       - run: python3 -m unittest discover -s tools/korean -p 'test_*.py'
-      - run: ./zill check
       - run: ./zill korean-check
       - run: ./zill korean-font-check
