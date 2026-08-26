@@ -96,6 +96,10 @@ korean = "말도 안 돼…! 적장은 누구냐!?<end>"
 japanese = "出撃！　<value:$28>様に続け！<line-break>アンギルダン様をお救いするのだ！！<line-break>出撃！！<end>"
 korean = "출격! <value:$28>님을 따르라! 앙길단 님을 구하는 거다!! 출격!!<end>"
 
+["590069"]
+japanese = "…とっつぁん、<line-break>悪いが、命をもらう。　　<line-break>　<line-break>…ロストールの兵の<line-break>命がかかっているんでな。<end>"
+korean = "…아저씨, 미안하지만 목숨을 받겠다. …로스토올 병사들의 목숨이 걸려 있어서 말이야.<end>"
+
 ["590072"]
 japanese = "あばよ、とっつぁん、　　　　　　　<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"
 korean = "잘 있어, 아저씨. 그리고 <value:$28>! 살아서 다시 만나자!<end>"
