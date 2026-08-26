@@ -524,6 +524,10 @@ korean = "해냈구나, <value:$28>….<end>"
 japanese = "ありがとう、<value:$28>。　　　<line-break>おかげで助かったよ。<line-break> <line-break>君は…なんとなく、不思議な人だね。<end>"
 korean = "고마워, <value:$28>. 덕분에 살았어. 너는… 왠지 신기한 사람이네.<end>"
 
+["1340313"]
+japanese = "<value:$28>、<line-break>これからも兄さんをよろしくね。<end>"
+korean = "<value:$28>, 앞으로도 오빠를 잘 부탁해.<end>"
+
 ["1340318"]
 japanese = "…冒険者？<end>"
 korean = "…모험가?<end>"

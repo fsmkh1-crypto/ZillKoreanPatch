@@ -4,6 +4,10 @@
 japanese = "旅立ち０６（改）メッセージ開始<end>"
 korean = "여행 출발 06(개) 메시지 시작<end>"
 
+["1860005"]
+japanese = "あれぇー？　フリントさん、<line-break><value:$28>はぁ？<end>"
+korean = "어라? 플린트 씨, <value:$28>은?<end>"
+
 ["1860007"]
 japanese = "またぁ？<line-break>しょうがないんだからぁ！<end>"
 korean = "또야? 정말 어쩔 수 없다니까!<end>"
