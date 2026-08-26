@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["620001"]
+japanese = "や、やめてください！<end>"
+korean = "그, 그만해 주세요!<end>"
+
 ["620015"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
+
+["620020"]
+japanese = "だ、大丈夫ですかっ！<end>"
+korean = "괘, 괜찮으세요!?<end>"
 
 ["620023"]
 japanese = "<value:$28>…さん…。<end>"
@@ -11,6 +19,10 @@ korean = "<value:$28>… 씨….<end>"
 ["620024"]
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"
+
+["620034"]
+japanese = "む、わかったでゴブ！<end>"
+korean = "으, 알겠는 고브!<end>"
 
 ["620044"]
 japanese = "ああ、メシ～。<end>"
@@ -27,6 +39,10 @@ korean = "단장!<end>"
 ["620058"]
 japanese = "親分！<end>"
 korean = "두목!<end>"
+
+["620061"]
+japanese = "親分、どうするゴブ？<end>"
+korean = "두목, 어떻게 할 고브?<end>"
 
 ["620071"]
 japanese = "未使用<end>"
@@ -59,6 +75,10 @@ korean = "미사용<end>"
 ["620081"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["620083"]
+japanese = "うーん、不覚ゴブ～！<end>"
+korean = "으음, 방심한 고브~!<end>"
 
 ["620086"]
 japanese = "団長～！<end>"
@@ -144,6 +164,10 @@ korean = "그럴 수가….<end>"
 japanese = "だけど…。<end>"
 korean = "하지만….<end>"
 
+["620205"]
+japanese = "あーっ、あんたたち！<end>"
+korean = "아ー, 너희들!<end>"
+
 ["620218"]
 japanese = "だめよ。だって…。<end>"
 korean = "안 돼. 왜냐면….<end>"
@@ -151,6 +175,10 @@ korean = "안 돼. 왜냐면….<end>"
 ["620220"]
 japanese = "どうですか？<end>"
 korean = "어떻습니까?<end>"
+
+["620237"]
+japanese = "あんたの予想通りだ。<end>"
+korean = "네 예상대로야.<end>"
 
 ["620249"]
 japanese = "（未使用）<end>"
@@ -188,9 +216,17 @@ korean = "아, <value:$28> 씨!<end>"
 japanese = "うっ。<end>"
 korean = "윽.<end>"
 
+["620300"]
+japanese = "キス…してくれた…。<end>"
+korean = "키스… 해줬어….<end>"
+
 ["620304"]
 japanese = "あ…。<end>"
 korean = "아…<end>"
+
+["620305"]
+japanese = "キス…してくれた…。<end>"
+korean = "키스… 해줬어….<end>"
 
 ["620318"]
 japanese = "うっ。<end>"

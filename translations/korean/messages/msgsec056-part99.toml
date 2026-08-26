@@ -8,6 +8,10 @@ korean = "(이렇게 늦게…)<end>"
 japanese = "（あの声は…）<end>"
 korean = "(저 목소리는…)<end>"
 
+["560004"]
+japanese = "フッ、なんのことだ？<end>"
+korean = "훗, 무슨 소리냐?<end>"
+
 ["560016"]
 japanese = "知らんな。<end>"
 korean = "모르겠군.<end>"
@@ -15,6 +19,10 @@ korean = "모르겠군.<end>"
 ["560018"]
 japanese = "誰だ？<end>"
 korean = "누구야?<end>"
+
+["560023"]
+japanese = "やめろ！　やめんか！<end>"
+korean = "그만둬! 그만두지 못해!<end>"
 
 ["560035"]
 japanese = "レイヴン！<end>"
@@ -72,6 +80,10 @@ korean = "이걸 마셔라.<end>"
 japanese = "また、お前たちか。<end>"
 korean = "또 너희냐.<end>"
 
+["560147"]
+japanese = "レイヴン、逃がすな！<end>"
+korean = "레이븐, 놓치지 마!<end>"
+
 ["560149"]
 japanese = "ちっ。<end>"
 korean = "칫.<end>"
@@ -91,6 +103,14 @@ korean = "어리석군….<end>"
 ["560162"]
 japanese = "エルファス！<end>"
 korean = "엘파스!<end>"
+
+["560167"]
+japanese = "レイヴン、レイヴン！<end>"
+korean = "레이븐, 레이븐!<end>"
+
+["560169"]
+japanese = "よかった…。大丈夫？<end>"
+korean = "다행이다…. 괜찮아?<end>"
 
 ["560171"]
 japanese = "行っちゃダメ！<end>"
@@ -156,6 +176,18 @@ korean = "노엘!?<end>"
 japanese = "レイヴン…。<end>"
 korean = "레이븐….<end>"
 
+["560267"]
+japanese = "わからない。　　　　<end>"
+korean = "모르겠어.　　　　<end>"
+
+["560269"]
+japanese = "きゃーーーーーーっ！<end>"
+korean = "꺄아아아아아아!<end>"
+
+["560282"]
+japanese = "見ろ、ダルケニスだ！<end>"
+korean = "봐, 달케니스다!<end>"
+
 ["560287"]
 japanese = "やっちまえっ！<end>"
 korean = "해치워!<end>"
@@ -196,6 +228,10 @@ korean = "반란자는 놓칠 수 없다<end>"
 japanese = "一緒に逃げよう<end>"
 korean = "같이 도망치자<end>"
 
+["560487"]
+japanese = "…ごめん…なさい…。<end>"
+korean = "…미안…해요….<end>"
+
 ["560499"]
 japanese = "な、何を…<end>"
 korean = "뭐, 뭘…<end>"
@@ -215,6 +251,10 @@ korean = "자, 이게 보상이야.<end>"
 ["560546"]
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
+
+["560549"]
+japanese = "んじゃ、今日は解散。<end>"
+korean = "그럼 오늘은 해산.<end>"
 
 ["560565"]
 japanese = "ち、違う！<end>"
@@ -243,6 +283,14 @@ korean = "어…, 진짜…?<end>"
 ["560601"]
 japanese = "え…、マジ…？<end>"
 korean = "어…, 진짜…?<end>"
+
+["560609"]
+japanese = "と、とりあえず撤収！<end>"
+korean = "이, 일단 철수!<end>"
+
+["560612"]
+japanese = "それは、あたし…か。<end>"
+korean = "그건 나…인가.<end>"
 
 ["560614"]
 japanese = "私、笑ってる…。<end>"
@@ -296,9 +344,17 @@ korean = "그 건 말입니다….<end>"
 japanese = "え？　今、なんて…<end>"
 korean = "어? 방금 뭐라고…<end>"
 
+["560828"]
+japanese = "ど、どういうこと…。<end>"
+korean = "무, 무슨 뜻이야….<end>"
+
 ["560835"]
 japanese = "今は彼女を守る<end>"
 korean = "지금은 그녀를 지킨다<end>"
+
+["560836"]
+japanese = "もう、彼女を守れない<end>"
+korean = "이제 그녀를 지킬 수 없어<end>"
 
 ["560849"]
 japanese = "わ、わたくし…。<end>"
@@ -331,3 +387,7 @@ korean = "그만둔다<end>"
 ["560939"]
 japanese = "やっぱりやめる<end>"
 korean = "역시 그만둔다<end>"
+
+["560942"]
+japanese = "それじゃ、頼んだぜ。<end>"
+korean = "그럼 부탁한다.<end>"

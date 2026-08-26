@@ -20,6 +20,18 @@ korean = "여자한테라고요!?<end>"
 japanese = "妹？<end>"
 korean = "여동생?<end>"
 
+["420046"]
+japanese = "…ふん、ぬけぬけと。<end>"
+korean = "…흥, 뻔뻔하게.<end>"
+
+["420047"]
+japanese = "ノヴィン閣下。何か？<end>"
+korean = "노빈 각하. 무슨 일이십니까?<end>"
+
+["420081"]
+japanese = "姉ちゃん、それじゃ！<end>"
+korean = "누나, 그럼!<end>"
+
 ["420085"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
@@ -44,6 +56,10 @@ korean = "형….<end>"
 japanese = "お前と組む気はない<end>"
 korean = "너와 손잡을 생각은 없어<end>"
 
+["420111"]
+japanese = "チャカの仇をとりたい<end>"
+korean = "차카의 원수를 갚고 싶다<end>"
+
 ["420118"]
 japanese = "レムオンに仕えろ。<end>"
 korean = "레몬을 섬겨라.<end>"
@@ -51,6 +67,10 @@ korean = "레몬을 섬겨라.<end>"
 ["420126"]
 japanese = "弟さんのことかい？<end>"
 korean = "남동생 이야기인가?<end>"
+
+["420139"]
+japanese = "よ、来てくれたのか。<end>"
+korean = "여어, 와줬구나.<end>"
 
 ["420151"]
 japanese = "おもしろそうね<end>"
@@ -95,6 +115,10 @@ korean = "들어간다, <value:$28>.<end>"
 ["420281"]
 japanese = "眠っているのか…。<end>"
 korean = "자고 있는 건가….<end>"
+
+["420282"]
+japanese = "…きれいな…寝顔だ。<end>"
+korean = "…예쁜… 잠든 얼굴이군.<end>"
 
 ["420292"]
 japanese = "ん？<end>"

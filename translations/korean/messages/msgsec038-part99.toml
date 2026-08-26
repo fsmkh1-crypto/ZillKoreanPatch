@@ -44,17 +44,41 @@ korean = "<color:h>나지<color:o><end>"
 japanese = "<color:h>ノエル<color:o><end>"
 korean = "<color:h>노엘<color:o><end>"
 
+["380033"]
+japanese = "<color:h>フェティ<color:o><end>"
+korean = "<color:h>페티<color:o><end>"
+
+["380034"]
+japanese = "<color:h>フェルム<color:o><end>"
+korean = "<color:h>펠름<color:o><end>"
+
 ["380035"]
 japanese = "<color:h>フレア<color:o><end>"
 korean = "<color:h>플레어<color:o><end>"
+
+["380037"]
+japanese = "<color:h>ユーリス<color:o><end>"
+korean = "<color:h>유리스<color:o><end>"
 
 ["380039"]
 japanese = "<color:h>レーグ<color:o><end>"
 korean = "<color:h>레그<color:o><end>"
 
+["380040"]
+japanese = "<color:h>レムオン<color:o><end>"
+korean = "<color:h>레몬<color:o><end>"
+
 ["380042"]
 japanese = "<color:h>ロイ<color:o><end>"
 korean = "<color:h>로이<color:o><end>"
+
+["380043"]
+japanese = "アイリーン、ねえ…。<end>"
+korean = "아이린이라, 글쎄….<end>"
+
+["380044"]
+japanese = "アトレイア、ねえ…。<end>"
+korean = "아트레이아라, 글쎄….<end>"
 
 ["380047"]
 japanese = "イーシャ、ねえ…。<end>"
@@ -80,6 +104,10 @@ korean = "에스텔이라, 글쎄….<end>"
 japanese = "エスト、ねえ…。<end>"
 korean = "에스트, 라….<end>"
 
+["380055"]
+japanese = "エルファス、ねえ…。<end>"
+korean = "엘파스라, 글쎄….<end>"
+
 ["380056"]
 japanese = "オイフェ、ねえ…。<end>"
 korean = "오이페라, 글쎄….<end>"
@@ -104,6 +132,10 @@ korean = "제네테스라, 글쎄….<end>"
 japanese = "セラ、ねえ…。<end>"
 korean = "세라, 라….<end>"
 
+["380063"]
+japanese = "あんたの弟、ねえ…。<end>"
+korean = "네 동생이라, 글쎄….<end>"
+
 ["380064"]
 japanese = "ティアナ、ねえ…。<end>"
 korean = "티아나라, 글쎄….<end>"
@@ -116,6 +148,10 @@ korean = "델가도라, 글쎄….<end>"
 japanese = "ノエル、ねえ…。<end>"
 korean = "노엘, 이라….<end>"
 
+["380068"]
+japanese = "ヒルダリア、ねえ…。<end>"
+korean = "힐다리아라, 글쎄….<end>"
+
 ["380069"]
 japanese = "フェティ、ねえ…。<end>"
 korean = "페티라, 글쎄….<end>"
@@ -127,6 +163,10 @@ korean = "펠름이라, 글쎄….<end>"
 ["380071"]
 japanese = "フレア、ねえ…。<end>"
 korean = "플레어, 라….<end>"
+
+["380074"]
+japanese = "ルルアンタ、ねえ…。<end>"
+korean = "루루안타라, 글쎄….<end>"
 
 ["380075"]
 japanese = "レーグ、ねえ…。<end>"
@@ -143,6 +183,14 @@ korean = "로이, 라….<end>"
 ["380091"]
 japanese = "もういい<end>"
 korean = "됐어<end>"
+
+["380092"]
+japanese = "アイリーン、ねえ…。<end>"
+korean = "아이린이라, 글쎄….<end>"
+
+["380093"]
+japanese = "アトレイア、ねえ…。<end>"
+korean = "아트레이아라, 글쎄….<end>"
 
 ["380096"]
 japanese = "イオンズ、ねえ…。<end>"
@@ -184,6 +232,10 @@ korean = "제네테스라, 글쎄….<end>"
 japanese = "セラ、ねえ…。<end>"
 korean = "세라, 라….<end>"
 
+["380109"]
+japanese = "あんたの弟、ねえ…。<end>"
+korean = "네 동생이라, 글쎄….<end>"
+
 ["380110"]
 japanese = "ティアナ、ねえ…。<end>"
 korean = "티아나라, 글쎄….<end>"
@@ -196,6 +248,10 @@ korean = "델가도라, 글쎄….<end>"
 japanese = "ノエル、ねえ…。<end>"
 korean = "노엘, 이라….<end>"
 
+["380114"]
+japanese = "ヒルダリア、ねえ…。<end>"
+korean = "힐다리아라, 글쎄….<end>"
+
 ["380115"]
 japanese = "フェティ、ねえ…。<end>"
 korean = "페티라, 글쎄….<end>"
@@ -203,6 +259,10 @@ korean = "페티라, 글쎄….<end>"
 ["380116"]
 japanese = "フレア、ねえ…。<end>"
 korean = "플레어, 라….<end>"
+
+["380119"]
+japanese = "ルルアンタ、ねえ…。<end>"
+korean = "루루안타라, 글쎄….<end>"
 
 ["380120"]
 japanese = "レーグ、ねえ…。<end>"
@@ -219,6 +279,10 @@ korean = "로이, 라….<end>"
 ["380124"]
 japanese = "フェティ、ねえ…。<end>"
 korean = "페티라, 글쎄….<end>"
+
+["380125"]
+japanese = "エルファス、ねえ…。<end>"
+korean = "엘파스라, 글쎄….<end>"
 
 ["380126"]
 japanese = "ジリオン、ねえ…。<end>"

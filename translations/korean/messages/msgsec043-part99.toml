@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["430002"]
+japanese = "…その命、もらった！<end>"
+korean = "…그 목숨, 받아가겠다!<end>"
+
 ["430003"]
 japanese = "助けなきゃ！<end>"
 korean = "구해야 해!<end>"
@@ -28,6 +32,10 @@ korean = "레, 레몬… 님.<end>"
 japanese = "兄さん！！<end>"
 korean = "형!!<end>"
 
+["430032"]
+japanese = "世間は狭いものだな。<end>"
+korean = "세상 참 좁군.<end>"
+
 ["430035"]
 japanese = "兄さんは？<end>"
 korean = "형은?<end>"
@@ -44,6 +52,14 @@ korean = "사고사입니다.<end>"
 japanese = "女にですと！？<end>"
 korean = "여자한테라고요!?<end>"
 
+["430084"]
+japanese = "…ふん、ぬけぬけと。<end>"
+korean = "…흥, 뻔뻔하게.<end>"
+
+["430085"]
+japanese = "ノヴィン閣下。何か？<end>"
+korean = "노빈 각하. 무슨 일이십니까?<end>"
+
 ["430102"]
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
@@ -55,6 +71,10 @@ korean = "상대하고 있을 틈은 없어<end>"
 ["430107"]
 japanese = "今は黙っている<end>"
 korean = "지금은 입을 다문다<end>"
+
+["430143"]
+japanese = "まったく話にならん！<end>"
+korean = "전혀 말이 안 통하는군!<end>"
 
 ["430151"]
 japanese = "…賊か。<line-break>　<end>"

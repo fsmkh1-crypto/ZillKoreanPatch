@@ -84,6 +84,10 @@ korean = "미사용 메시지<end>"
 japanese = "そのつもりだ。<end>"
 korean = "그럴 생각이야.<end>"
 
+["750115"]
+japanese = "そんなつもりはない。<end>"
+korean = "그럴 생각은 없어.<end>"
+
 ["750133"]
 japanese = "…さもなくば。<end>"
 korean = "…그렇지 않으면.<end>"
@@ -108,6 +112,14 @@ korean = "예쁘다<end>"
 japanese = "それほどでもない<end>"
 korean = "그 정도는 아니야<end>"
 
+["750220"]
+japanese = "真っ先に会いに行った<end>"
+korean = "가장 먼저 만나러 갔다<end>"
+
 ["750223"]
 japanese = "あ…。<end>"
 korean = "아…<end>"
+
+["750224"]
+japanese = "…私、うれしいです。<end>"
+korean = "…저, 기뻐요.<end>"

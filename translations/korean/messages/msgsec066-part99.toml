@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["660001"]
+japanese = "で、叔母貴はなんて？<end>"
+korean = "그래서, 고모는 뭐래?<end>"
+
 ["660005"]
 japanese = "ほお、恐いねえ。<end>"
 korean = "호오, 무섭군.<end>"
@@ -40,13 +44,25 @@ korean = "한가함<end>"
 japanese = "忙しい<end>"
 korean = "바빠<end>"
 
+["660066"]
+japanese = "よぉ。じゃまするぜ。<end>"
+korean = "여어. 실례 좀 할게.<end>"
+
 ["660081"]
 japanese = "ゼネテス様…。<end>"
 korean = "제네테스 님….<end>"
 
+["660082"]
+japanese = "あ…、ゼネテス様…。<end>"
+korean = "아…, 제네테스 님….<end>"
+
 ["660090"]
 japanese = "ゼネテス様…。<end>"
 korean = "제네테스 님….<end>"
+
+["660092"]
+japanese = "なんて答えると思う？<end>"
+korean = "뭐라고 대답할 것 같아?<end>"
 
 ["660097"]
 japanese = "ありませんわ。<end>"

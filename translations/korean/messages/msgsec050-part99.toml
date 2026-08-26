@@ -20,6 +20,10 @@ korean = "티아나 왕녀의 방<end>"
 japanese = "エリス王妃の執務室<end>"
 korean = "엘리스 왕비의 집무실<end>"
 
+["500017"]
+japanese = "アトレイア王女の部屋<end>"
+korean = "아트레이아 왕녀의 방<end>"
+
 ["500018"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
@@ -32,6 +36,10 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "ティアナ王女の部屋<end>"
 korean = "티아나 왕녀의 방<end>"
 
+["500022"]
+japanese = "アトレイア王女の部屋<end>"
+korean = "아트레이아 왕녀의 방<end>"
+
 ["500023"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
@@ -39,3 +47,7 @@ korean = "딱히 볼일은 없다<end>"
 ["500024"]
 japanese = "エリス王妃の執務室<end>"
 korean = "엘리스 왕비의 집무실<end>"
+
+["500028"]
+japanese = "武器を構えて抵抗する<end>"
+korean = "무기를 들고 저항한다<end>"

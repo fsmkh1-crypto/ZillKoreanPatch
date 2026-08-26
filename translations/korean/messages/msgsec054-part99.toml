@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["540002"]
+japanese = "さて、どうしますか？<end>"
+korean = "자, 어떻게 할까요?<end>"
+
 ["540003"]
 japanese = "どうするの？<end>"
 korean = "어떻게 할 거야?<end>"
+
+["540006"]
+japanese = "どなたと別れますか？<end>"
+korean = "누구와 헤어질까요?<end>"
 
 ["540007"]
 japanese = "誰と別れるの？<end>"
@@ -16,9 +24,17 @@ korean = "괜찮으시겠습니까?<end>"
 japanese = "いいのね？<end>"
 korean = "괜찮은 거지?<end>"
 
+["540013"]
+japanese = "誰を呼び出したいの？<end>"
+korean = "누굴 불러내고 싶어?<end>"
+
 ["540014"]
 japanese = "よろしいですか？<end>"
 korean = "괜찮으시겠습니까?<end>"
+
+["540015"]
+japanese = "呼び出すわよ。いい？<end>"
+korean = "불러낼게. 괜찮지?<end>"
 
 ["540018"]
 japanese = "仲間はいませんよ。<end>"

@@ -16,6 +16,22 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["590018"]
+japanese = "心機一転ディンガル側<end>"
+korean = "심기일전 딘갈 측<end>"
+
+["590021"]
+japanese = "やっぱり、今まで通り<end>"
+korean = "역시 지금까지대로<end>"
+
+["590026"]
+japanese = "やっぱりロストール側<end>"
+korean = "역시 로스토르 측<end>"
+
+["590027"]
+japanese = "心機一転ディンガル側<end>"
+korean = "심기일전 딘갈 측<end>"
+
 ["590037"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -31,6 +47,10 @@ korean = "무릎을 꿇어라.<end>"
 ["590061"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적의 습격이다!<end>"
+
+["590087"]
+japanese = "そうか…。残念じゃ。<end>"
+korean = "그런가…. 유감이군.<end>"
 
 ["590090"]
 japanese = "加わる<end>"
@@ -51,3 +71,7 @@ korean = "저, 저, 적습이다ー!<end>"
 ["590110"]
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
+
+["590119"]
+japanese = "アンギルダンが心配だ<end>"
+korean = "앙길단이 걱정이다<end>"

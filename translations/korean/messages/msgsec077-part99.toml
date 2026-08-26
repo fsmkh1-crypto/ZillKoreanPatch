@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["770006"]
+japanese = "外の世界を見に行こう<end>"
+korean = "바깥세상을 보러 가자<end>"
+
 ["770014"]
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"
@@ -24,6 +28,10 @@ korean = "내버려 둬!!<end>"
 japanese = "アトレイアを追う<end>"
 korean = "아트레이아를 쫓는다<end>"
 
+["770028"]
+japanese = "ティアナのそばにいる<end>"
+korean = "티아나 곁에 있는다<end>"
+
 ["770029"]
 japanese = "あ…<value:$28>様！<end>"
 korean = "아… <value:$28> 님!<end>"
@@ -36,6 +44,10 @@ korean = "아…, <value:$28> 님….<end>"
 japanese = "この前は…。<end>"
 korean = "지난번에는….<end>"
 
+["770047"]
+japanese = "よう、久しぶりだな。<end>"
+korean = "여어, 오랜만이군.<end>"
+
 ["770054"]
 japanese = "え？　どこに？<end>"
 korean = "어? 어디로?<end>"
@@ -43,6 +55,10 @@ korean = "어? 어디로?<end>"
 ["770056"]
 japanese = "私が…？　美しい？<end>"
 korean = "내가…? 아름다워?<end>"
+
+["770058"]
+japanese = "…うそです、そんな。<end>"
+korean = "…거짓말이에요, 그런….<end>"
 
 ["770060"]
 japanese = "本当…ですか…？<end>"
@@ -71,6 +87,14 @@ korean = "노래라면 부를 수 있어요!<end>"
 ["770115"]
 japanese = "がんばって<end>"
 korean = "힘내.<end>"
+
+["770116"]
+japanese = "はい、わかりました。<end>"
+korean = "네, 알겠습니다.<end>"
+
+["770117"]
+japanese = "はい、がんばります。<end>"
+korean = "네, 열심히 할게요.<end>"
 
 ["770136"]
 japanese = "キャアアアア！<end>"

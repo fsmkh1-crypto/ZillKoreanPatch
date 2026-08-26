@@ -64,6 +64,10 @@ korean = "…자기만족이에요.<end>"
 japanese = "て、言うと？<end>"
 korean = "그 말은?<end>"
 
+["670083"]
+japanese = "お前さんはどう思う？<end>"
+korean = "자네는 어떻게 생각해?<end>"
+
 ["670088"]
 japanese = "んじゃな。<value:$28>。<end>"
 korean = "그럼 이만. <value:$28>.<end>"

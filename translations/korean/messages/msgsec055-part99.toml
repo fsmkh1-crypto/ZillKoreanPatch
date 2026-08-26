@@ -116,6 +116,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550069"]
+japanese = "む、面目もござらぬ。<end>"
+korean = "면, 면목이 없소이다.<end>"
+
 ["550072"]
 japanese = "ノエルがやったぞ！<end>"
 korean = "노엘이 해냈다!<end>"
@@ -672,6 +676,10 @@ korean = "포기하지 마<end>"
 japanese = "剣の言葉を聞け<end>"
 korean = "검의 말을 들어라<end>"
 
+["550315"]
+japanese = "あきらめるなって…。<end>"
+korean = "포기하지 말라고….<end>"
+
 ["550318"]
 japanese = "剣が…答えた…？<end>"
 korean = "검이… 대답했어…?<end>"
@@ -695,3 +703,11 @@ korean = "…오해야.<end>"
 ["550365"]
 japanese = "<value:$28>さん！<end>"
 korean = "<value:$28>씨!<end>"
+
+["550369"]
+japanese = "えと、…せもんいん？<end>"
+korean = "저기, …세몬인?<end>"
+
+["550372"]
+japanese = "そして、現在もな…。<end>"
+korean = "그리고 지금도 말이지….<end>"

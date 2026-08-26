@@ -8,6 +8,10 @@ korean = "？<end>"
 japanese = "うわっ！　目が！<end>"
 korean = "으악! 눈이!<end>"
 
+["450024"]
+japanese = "くっ、第三の刺客か！<end>"
+korean = "큭, 세 번째 자객인가!<end>"
+
 ["450030"]
 japanese = "ガルドラン、待て！<end>"
 korean = "갈드란, 기다려!<end>"
@@ -48,6 +52,10 @@ korean = "동료로 삼는다<end>"
 japanese = "仲間にしない<end>"
 korean = "동료로 삼지 않는다<end>"
 
+["450062"]
+japanese = "僕が旅に出た理由…。<end>"
+korean = "내가 여행을 떠난 이유….<end>"
+
 ["450093"]
 japanese = "行こう。<value:$28>。<end>"
 korean = "가자. <value:$28>.<end>"
@@ -71,6 +79,10 @@ korean = "묵고 가지 않는다<end>"
 ["450120"]
 japanese = "おはよう、<value:$28>。<end>"
 korean = "좋은 아침, <value:$28>.<end>"
+
+["450123"]
+japanese = "ナッジを仲間に入れる<end>"
+korean = "나지를 동료로 넣는다<end>"
 
 ["450138"]
 japanese = "待て。<end>"
@@ -108,6 +120,10 @@ korean = "나….<end>"
 japanese = "ガ、ガルドラン！？<end>"
 korean = "가, 갈드란!?<end>"
 
+["450174"]
+japanese = "待てっ！　悪漢ども！<end>"
+korean = "기다려! 악당들!<end>"
+
 ["450175"]
 japanese = "なんだ、貴様！<end>"
 korean = "뭐냐, 네놈!<end>"
@@ -144,6 +160,18 @@ korean = "손님.<end>"
 japanese = "…勇者…様。<end>"
 korean = "…용사…님.<end>"
 
+["450242"]
+japanese = "やっちゃえ、ナッジ！<end>"
+korean = "해치워, 나지!<end>"
+
 ["450244"]
 japanese = "え…。<end>"
 korean = "어….<end>"
+
+["450270"]
+japanese = "待ってよ！　ヴァン！<end>"
+korean = "기다려! 반!<end>"
+
+["450280"]
+japanese = "おなかが…すいて…。<end>"
+korean = "배가… 고파서….<end>"

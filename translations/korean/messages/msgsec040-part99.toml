@@ -128,9 +128,17 @@ korean = "응? 뭐라고?<end>"
 japanese = "は。もちろんです。<end>"
 korean = "네. 물론입니다.<end>"
 
+["400113"]
+japanese = "次は…、渡さないわ！<end>"
+korean = "다음엔… 안 넘겨줘!<end>"
+
 ["400120"]
 japanese = "久しぶりね。<end>"
 korean = "오랜만이네.<end>"
+
+["400132"]
+japanese = "わかってくれるよね？<end>"
+korean = "이해해 줄 거지?<end>"
 
 ["400133"]
 japanese = "もちろん<end>"
@@ -155,6 +163,26 @@ korean = "…내 도움도 말인가?<end>"
 ["400155"]
 japanese = "私ひとりで十分よ。<end>"
 korean = "나 혼자면 충분해.<end>"
+
+["400161"]
+japanese = "次は、負けないわ！！<end>"
+korean = "다음엔 지지 않아!!<end>"
+
+["400164"]
+japanese = "ありがとう、それじゃ<end>"
+korean = "고마워, 그럼<end>"
+
+["400168"]
+japanese = "わかった。ありがとう<end>"
+korean = "알겠어. 고마워<end>"
+
+["400194"]
+japanese = "穴に飛び込みますか？<end>"
+korean = "구멍에 뛰어들까요?<end>"
+
+["400196"]
+japanese = "火をつけてみますか？<end>"
+korean = "불을 붙여볼까요?<end>"
 
 ["400208"]
 japanese = "空<end>"
@@ -215,6 +243,10 @@ korean = "빈칸<end>"
 ["400222"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["400235"]
+japanese = "…世界を手に入れる。<end>"
+korean = "…세계를 손에 넣는다.<end>"
 
 ["400247"]
 japanese = "シェムハザ長老！<end>"

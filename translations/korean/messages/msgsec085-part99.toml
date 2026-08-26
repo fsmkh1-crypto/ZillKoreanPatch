@@ -8,6 +8,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["850005"]
+japanese = "何？　それは本当か？<end>"
+korean = "뭐? 그게 사실인가?<end>"
+
 ["850012"]
 japanese = "何がお望みかしら？<end>"
 korean = "뭘 원하시나요?<end>"
@@ -55,6 +59,10 @@ korean = "방해하지 않는다<end>"
 ["850048"]
 japanese = "絶対阻止してみせる<end>"
 korean = "반드시 저지하겠어<end>"
+
+["850054"]
+japanese = "（…ブゾリの刺客？）<end>"
+korean = "(…부조리의 자객?)<end>"
 
 ["850055"]
 japanese = "き、君は…？<end>"

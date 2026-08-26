@@ -28,6 +28,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["510059"]
+japanese = "ならば、すぐ出撃だ。<end>"
+korean = "그럼 곧바로 출격이다.<end>"
+
 ["510061"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -35,6 +39,10 @@ korean = "간다<end>"
 ["510062"]
 japanese = "無視する<end>"
 korean = "무시한다<end>"
+
+["510111"]
+japanese = "退け！　退けええい！<end>"
+korean = "물러나라! 물러나아아!<end>"
 
 ["510118"]
 japanese = "ほら、行け。<end>"
@@ -51,6 +59,10 @@ korean = "…가아아아악!<end>"
 ["510137"]
 japanese = "敵襲！<end>"
 korean = "적습!<end>"
+
+["510147"]
+japanese = "退け！　退けええい！<end>"
+korean = "물러나라! 물러나아아!<end>"
 
 ["510158"]
 japanese = "はい<end>"
