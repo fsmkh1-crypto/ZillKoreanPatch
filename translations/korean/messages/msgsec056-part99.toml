@@ -540,6 +540,10 @@ korean = "자, 네 힘을 보여줘.<end>"
 japanese = "デモリッシュを習得した。<end>"
 korean = "데몰리시를 습득했다.<end>"
 
+["560424"]
+japanese = "やはり…やはり…<line-break>君とはここで会うことになったか。<line-break><value:$28>よ…。<end>"
+korean = "역시… 역시… 너와는 여기서 만나게 됐군. <value:$28>여….<end>"
+
 ["560430"]
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
@@ -631,6 +635,10 @@ korean = "다, 당신…!<end>"
 ["560534"]
 japanese = "<value:$28>、<line-break>これからも、<line-break>わたくしを助けてくださいますか？<end>"
 korean = "<value:$28>, 앞으로도 저를 도와주시겠습니까?<end>"
+
+["560539"]
+japanese = "<value:$28>さん、<line-break>状況は厳しいです。<line-break>気を引き締めてかかりましょう。<end>"
+korean = "<value:$28> 씨, 상황이 어렵습니다. 마음을 다잡고 갑시다.<end>"
 
 ["560541"]
 japanese = "ほい、これ報酬ね。<end>"

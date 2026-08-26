@@ -700,6 +700,10 @@ korean = "약점 없는 성장<end>"
 japanese = "一芸に秀でた成長<end>"
 korean = "한 분야에 뛰어난 성장<end>"
 
+["1370636"]
+japanese = "んじゃ、ま<line-break>これで質問は終わりってことで<line-break>いいかい、<value:$28>？<end>"
+korean = "그럼 뭐, 이걸로 질문은 끝인 걸로 해도 되겠지, <value:$28>?<end>"
+
 ["1370638"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"

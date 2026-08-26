@@ -20,6 +20,10 @@ korean = "아, <value:$28> 씨!<end>"
 japanese = "やあ、久しぶりだね。<end>"
 korean = "이야, 오랜만이군.<end>"
 
+["1420012"]
+japanese = "お久しぶりです、<line-break><value:$28>さん！<line-break>わたし、元気にやってますから！<end>"
+korean = "오랜만이에요, <value:$28> 씨! 저, 잘 지내고 있으니까요!<end>"
+
 ["1420013"]
 japanese = "ノエルが元気そうで安心した<end>"
 korean = "노엘이 건강해 보여서 안심했어.<end>"
@@ -84,6 +88,10 @@ korean = "어서 와. 뭘 찾으시나?<end>"
 japanese = "…無理が、ないですかね？<end>"
 korean = "…무리하는 건, 아닌가요?<end>"
 
+["1420096"]
+japanese = "なぜじゃ？<line-break>わらわと<value:$28>は、<line-break>これほど気が合うておるのに？<end>"
+korean = "왜지? 나와 <value:$28>는 이렇게나 마음이 잘 맞는데?<end>"
+
 ["1420098"]
 japanese = "親父、酒はまだか。<end>"
 korean = "아저씨, 술은 아직이야?<end>"
@@ -132,6 +140,10 @@ korean = "그리고, 그리고….<end>"
 japanese = "あたりめーだ！<end>"
 korean = "당연하지!<end>"
 
+["1420143"]
+japanese = "気をつけて、<value:$28>。<line-break>また会える日を<line-break>楽しみにしていますよ。<end>"
+korean = "조심하세요, <value:$28>. 다시 만날 날을 기대하고 있을게요.<end>"
+
 ["1420148"]
 japanese = "あなたが魔人の心を変えた時のように。<end>"
 korean = "당신이 마인의 마음을 바꿨던 때처럼.<end>"
@@ -167,6 +179,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420188"]
 japanese = "俺はもういいよ、とっつあん。<end>"
 korean = "난 이제 됐어, 아저씨.<end>"
+
+["1420200"]
+japanese = "ありがとう…。<line-break><value:$28>…<line-break>そして…僕は、君のことを愛している。<end>"
+korean = "고마워…. <value:$28>… 그리고… 나는 널 사랑해.<end>"
 
 ["1420207"]
 japanese = "レムオン様！<end>"

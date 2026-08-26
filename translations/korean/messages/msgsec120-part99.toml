@@ -44,6 +44,10 @@ korean = "그 밖에 묻고 싶은 게 있습니까?<end>"
 japanese = "さて、昼寝でもしましょうかね。<end>"
 korean = "자, 낮잠이나 자 볼까.<end>"
 
+["1200044"]
+japanese = "<value:$28>様。<line-break>ご無事でなによりです。<line-break>ゆっくりしていってくださいね。<end>"
+korean = "<value:$28> 님. 무사하셔서 다행입니다. 편히 쉬다 가세요.<end>"
+
 ["1200059"]
 japanese = "ケリュネイアＶ３　終了<end>"
 korean = "케리ュ네이아 V3 종료<end>"

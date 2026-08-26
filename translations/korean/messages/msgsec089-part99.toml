@@ -340,6 +340,10 @@ korean = "결심이 섰습니까?<end>"
 japanese = "待って。<end>"
 korean = "기다려.<end>"
 
+["890402"]
+japanese = "…いや、それは、あなたが一番良く<line-break>知っていることですね、<line-break><value:$28>？<end>"
+korean = "…아니, 그건 당신이 가장 잘 알고 있는 일이겠죠, <value:$28>?<end>"
+
 ["890404"]
 japanese = "<value:$28>、そろそろだ。<end>"
 korean = "<value:$28>, 슬슬 때가 됐다.<end>"

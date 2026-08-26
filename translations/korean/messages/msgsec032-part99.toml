@@ -8,6 +8,10 @@ korean = "여행 출발 05 메시지<end>"
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["320006"]
+japanese = "どうした。<line-break>集め終わったのか？<end>"
+korean = "왜 그래. 다 모았나?<end>"
+
 ["320007"]
 japanese = "集め終わったか？<end>"
 korean = "다 모았나?<end>"
@@ -27,6 +31,10 @@ korean = "괜찮아, <value:$28>?<end>"
 ["320018"]
 japanese = "セラ？<end>"
 korean = "세라?<end>"
+
+["320019"]
+japanese = "ごめんなさい。<line-break>少しいいかしら？<end>"
+korean = "미안해. 잠깐 괜찮을까?<end>"
 
 ["320020"]
 japanese = "（…いや、違う。女性だ。）<end>"
@@ -72,6 +80,10 @@ korean = "쳇.<end>"
 japanese = "さ、<value:$28>さま、<line-break>しんでんで<line-break>おちちうえさまがおまちですよ。<end>"
 korean = "<value:$28> 님, 신전에서 아버님께서 기다리고 계세요.<end>"
 
+["320047"]
+japanese = "あとで、まもののおはなし<line-break>きかせてくださいねー。<line-break><value:$28>さまー。<end>"
+korean = "나중에 마물 이야기 들려주세요, <value:$28> 님.<end>"
+
 ["320048"]
 japanese = "おお、<value:$28>。<line-break>戻ったか。<line-break>ご苦労だった。<end>"
 korean = "오, <value:$28>. 돌아왔군. 수고했다.<end>"
@@ -103,6 +115,10 @@ korean = "<value:$28>, 마을 쪽이야!<end>"
 ["320073"]
 japanese = "戻るぞ！<end>"
 korean = "돌아가자!<end>"
+
+["320074"]
+japanese = "くすくす…。<line-break>よく燃えるわね。<end>"
+korean = "후후…. 잘 타네.<end>"
 
 ["320075"]
 japanese = "これは…！<end>"
@@ -140,6 +156,14 @@ korean = "네 이름은?<end>"
 japanese = "あっ、<value:$28>様じゃ。<end>"
 korean = "앗, <value:$28> 님이구나.<end>"
 
+["320100"]
+japanese = "…それで、<line-break>お前は逃げるのか？<end>"
+korean = "…그래서 넌 도망칠 거냐?<end>"
+
+["320101"]
+japanese = "ロイは、<line-break>死を覚悟している…。<end>"
+korean = "로이는 죽음을 각오하고 있어….<end>"
+
 ["320108"]
 japanese = "…来い。<end>"
 korean = "…와.<end>"
@@ -171,6 +195,18 @@ korean = "세라라는 남자를 따라간다<end>"
 ["320144"]
 japanese = "セラという男は信用できない<end>"
 korean = "세라라는 남자는 믿을 수 없다<end>"
+
+["320148"]
+japanese = "…フ。<line-break>ロストメモリー予備４だ<end>"
+korean = "…후. 로스트 메모리 예비 4다.<end>"
+
+["320149"]
+japanese = "…フ。<line-break>ロストメモリー予備５だ<end>"
+korean = "…후. 로스트 메모리 예비 5다.<end>"
+
+["320150"]
+japanese = "…フ。<line-break>ロストメモリー予備６だ<end>"
+korean = "…후. 로스트 메모리 예비 6다.<end>"
 
 ["320151"]
 japanese = "旅立ち０５メッセージ終端<end>"

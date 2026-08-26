@@ -232,6 +232,10 @@ korean = "훗, 어리석군….<end>"
 japanese = "で、でも…。<end>"
 korean = "하, 하지만….<end>"
 
+["410122"]
+japanese = "…ごめんなさい！<line-break><value:$28>さん！<end>"
+korean = "…미안해요! <value:$28> 씨!<end>"
+
 ["410125"]
 japanese = "待って！<line-break><value:$28>さん！<end>"
 korean = "기다려! <value:$28> 씨!<end>"

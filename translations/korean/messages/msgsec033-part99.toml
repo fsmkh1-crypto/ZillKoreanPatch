@@ -76,6 +76,10 @@ korean = "어라? <value:$28>. 그 사람은? 같이 있던 거 아니었어?<en
 japanese = "…あの人？<end>"
 korean = "…그 사람?<end>"
 
+["330062"]
+japanese = "ふーん、<line-break>こちらが、おやじさん？<end>"
+korean = "흐음, 이쪽이 아버지신가?<end>"
+
 ["330063"]
 japanese = "俺はゼネテス。<line-break>冒険者だ。<end>"
 korean = "나는 제네테스. 모험자다.<end>"
@@ -108,6 +112,10 @@ korean = "…네, 그러세요.<end>"
 japanese = "はぁーい！<end>"
 korean = "네~!<end>"
 
+["330079"]
+japanese = "フリントさーん！<line-break>早く早くぅ！<end>"
+korean = "플린트 씨! 빨리, 빨리요!<end>"
+
 ["330084"]
 japanese = "ふぅん。<end>"
 korean = "흐응.<end>"
@@ -127,6 +135,10 @@ korean = "플린트 씨, 손님이야.<end>"
 ["330099"]
 japanese = "フリントさん、火を…。<end>"
 korean = "플린트 씨, 불을….<end>"
+
+["330101"]
+japanese = "なるほど、ね。<line-break>冷静な判断だ。<end>"
+korean = "그렇군. 냉정한 판단이야.<end>"
 
 ["330108"]
 japanese = "フリントというのはお前だな？<end>"
@@ -204,6 +216,10 @@ korean = "…루루안타, …갈게.<end>"
 japanese = "…エリス様は？<end>"
 korean = "…에리스 님은?<end>"
 
+["330166"]
+japanese = "わかった。<line-break>息を無駄にするな。<end>"
+korean = "알았어. 숨을 낭비하지 마.<end>"
+
 ["330169"]
 japanese = "…ねぇ。<end>"
 korean = "…있잖아.<end>"
@@ -235,6 +251,10 @@ korean = "예비 메시지 20<end>"
 ["330199"]
 japanese = "<value:$28>～<line-break>道具屋はこっちだよぉ～！<line-break>早く、早くぅ～！<end>"
 korean = "<value:$28>~ 도구점은 이쪽이야~! 빨리, 빨리~!<end>"
+
+["330200"]
+japanese = "あーっ、<value:$28>！<line-break>もう、どこ行ってたのよぉ！<line-break>捜したんだよぉ～。<end>"
+korean = "아앗, <value:$28>! 대체 어디 갔던 거야! 찾았잖아~.<end>"
 
 ["330201"]
 japanese = "くっ。<line-break>に、逃げろ！<end>"

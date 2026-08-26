@@ -16,6 +16,10 @@ korean = "…<value:$28>, 너는 내가 지켜 줄게…. …<value:$28>.<end>"
 japanese = "あら、目が覚めたみたいね、          <line-break><value:$28>。<line-break>　<end>"
 korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
 
+["300028"]
+japanese = "<value:$28>、頼んだぜ。<line-break>　　　　　　　　　　　　　　　　　　　　<line-break>　<end>"
+korean = "<value:$28>, 부탁한다.<end>"
+
 ["300029"]
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"

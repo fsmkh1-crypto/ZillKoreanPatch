@@ -56,6 +56,10 @@ korean = "쳇… 뭐, 맡겨 둬.<end>"
 japanese = "おうよ。<end>"
 korean = "그럼.<end>"
 
+["280050"]
+japanese = "あー<line-break>食った、食った。　<line-break><end>"
+korean = "아~ 잘 먹었다, 잘 먹었어.<end>"
+
 ["280053"]
 japanese = "ああ、<value:$28>。<line-break>宿屋のヴァンが<line-break>大変なことになったんだって？<end>"
 korean = "아, <value:$28>. 여관의 반에게 큰일이 생겼다며?<end>"
@@ -175,6 +179,10 @@ korean = "아, 있지, <value:$28>. 봉가 씨가 있는 뒷산은 더 안쪽이
 ["280138"]
 japanese = "特大愛妻弁当をボンガに手渡した。<end>"
 korean = "특대 사랑꾼 도시락을 봉가에게 건넸다.<end>"
+
+["280140"]
+japanese = "あ、ヴァン、待ってよ！<line-break>…もう。<end>"
+korean = "아, 반, 기다려! …정말.<end>"
 
 ["280144"]
 japanese = "ヴァン！<end>"

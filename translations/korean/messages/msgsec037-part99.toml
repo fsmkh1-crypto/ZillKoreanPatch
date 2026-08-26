@@ -28,6 +28,10 @@ korean = "해왕…. 용왕의 사자….<end>"
 japanese = "う、わわわああ。<end>"
 korean = "으, 와아아아.<end>"
 
+["370031"]
+japanese = "竜の座の<line-break>翔王みたいなもんか…。<end>"
+korean = "용의 자리의 상왕 같은 건가….<end>"
+
 ["370033"]
 japanese = "すっすっ、すまんっっ！！！<end>"
 korean = "미, 미안하다아아!!!<end>"
@@ -51,6 +55,14 @@ korean = "엥? 왜?<end>"
 ["370044"]
 japanese = "この方が乗っているからです。<end>"
 korean = "이분이 타고 있기 때문입니다.<end>"
+
+["370046"]
+japanese = "フフ、そうよね。<line-break>海王、様…。<end>"
+korean = "후후, 그렇지. 해왕 님….<end>"
+
+["370047"]
+japanese = "そう…、<line-break><value:$28>って言うの…。<end>"
+korean = "그래… <value:$28>라고 하는구나….<end>"
 
 ["370048"]
 japanese = "大丈夫？　<value:$28>。<end>"

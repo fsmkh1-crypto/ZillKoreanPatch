@@ -60,9 +60,17 @@ korean = "재미있는 일이야.<end>"
 japanese = "<value:$28>、無事？<end>"
 korean = "<value:$28>, 무사해?<end>"
 
+["360061"]
+japanese = "<value:$28>、逃げなさい！<line-break>この町を出るの！<line-break>私もすぐにあとを追うわ！<end>"
+korean = "<value:$28>, 도망쳐! 이 마을을 떠나! 나도 곧 뒤따라갈게!<end>"
+
 ["360063"]
 japanese = "お願い！　逃げて！<end>"
 korean = "부탁이야! 도망쳐!<end>"
+
+["360067"]
+japanese = "じゃあねぇ！<line-break>がんばってねぇ！<end>"
+korean = "그럼 안녕! 힘내!<end>"
 
 ["360071"]
 japanese = "<value:$28>ー！<end>"
@@ -71,6 +79,42 @@ korean = "<value:$28>!<end>"
 ["360077"]
 japanese = "<value:$28>、<line-break>強く…生きて…。<end>"
 korean = "<value:$28>, 강하게… 살아가….<end>"
+
+["360089"]
+japanese = "予備メッセージ１<line-break>０９始まりの地<end>"
+korean = "예비 메시지 1 09 시작의 땅<end>"
+
+["360090"]
+japanese = "予備メッセージ２<line-break>０９始まりの地<end>"
+korean = "예비 메시지 2 09 시작의 땅<end>"
+
+["360091"]
+japanese = "予備メッセージ３<line-break>０９始まりの地<end>"
+korean = "예비 메시지 3 09 시작의 땅<end>"
+
+["360092"]
+japanese = "予備メッセージ４<line-break>０９始まりの地<end>"
+korean = "예비 메시지 4 09 시작의 땅<end>"
+
+["360093"]
+japanese = "予備メッセージ５<line-break>０９始まりの地<end>"
+korean = "예비 메시지 5 09 시작의 땅<end>"
+
+["360094"]
+japanese = "予備メッセージ６<line-break>０９始まりの地<end>"
+korean = "예비 메시지 6 09 시작의 땅<end>"
+
+["360095"]
+japanese = "予備メッセージ７<line-break>０９始まりの地<end>"
+korean = "예비 메시지 7 09 시작의 땅<end>"
+
+["360096"]
+japanese = "予備メッセージ８<line-break>０９始まりの地<end>"
+korean = "예비 메시지 8 09 시작의 땅<end>"
+
+["360097"]
+japanese = "予備メッセージ９<line-break>０９始まりの地<end>"
+korean = "예비 메시지 9 09 시작의 땅<end>"
 
 ["360099"]
 japanese = "旅立ち０９メッセージ終端<end>"

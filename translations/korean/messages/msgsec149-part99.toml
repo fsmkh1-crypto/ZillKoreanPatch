@@ -24,6 +24,10 @@ korean = "신세 졌군.<end>"
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
 
+["1490032"]
+japanese = "<value:$28>…。<line-break>それが君の名？<line-break>そんなこと僕に知らせてどうする？<end>"
+korean = "<value:$28>…. 그게 네 이름이야? 그런 걸 내게 알려서 어쩌겠다는 거지?<end>"
+
 ["1490034"]
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
@@ -84,9 +88,17 @@ korean = "큭. 물러서!<end>"
 japanese = "世話になったな。<end>"
 korean = "신세 졌군.<end>"
 
+["1490082"]
+japanese = "<value:$28>…。<line-break>それが君の名？<line-break>そんなこと僕に知らせてどうする？<end>"
+korean = "<value:$28>…. 그게 네 이름이야? 그런 걸 내게 알려서 어쩌겠다는 거지?<end>"
+
 ["1490083"]
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
+
+["1490092"]
+japanese = "<value:$28>…。<line-break>それが君の名？<line-break>そんなこと僕に知らせてどうする？<end>"
+korean = "<value:$28>…. 그게 네 이름이야? 그런 걸 내게 알려서 어쩌겠다는 거지?<end>"
 
 ["1490094"]
 japanese = "うわっ！<end>"

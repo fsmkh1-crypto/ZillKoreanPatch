@@ -20,6 +20,10 @@ korean = "아니.<end>"
 japanese = "わかった。<end>"
 korean = "알았어.<end>"
 
+["490023"]
+japanese = "ギルドで冒険者登録は<line-break>済ませとかないと困るぜ？　　　　<line-break><value:$28>。<end>"
+korean = "길드에서 모험자 등록은 해 둬야 한다고, <value:$28>.<end>"
+
 ["490030"]
 japanese = "ま、その辺はなんとかするさ。<end>"
 korean = "뭐, 그건 어떻게든 되겠지.<end>"
@@ -55,6 +59,10 @@ korean = "알겠어. 남자구나.<end>"
 ["490061"]
 japanese = "女、だったな…。<end>"
 korean = "여자였지….<end>"
+
+["490062"]
+japanese = "ああ、<line-break>かなり歳をくってはいるが<line-break>女だった…。<line-break>………………。<end>"
+korean = "그래, 나이는 꽤 들었지만 여자였어…. ……………….<end>"
 
 ["490072"]
 japanese = "そうもいかないのさ。<line-break>　<line-break>　<line-break>さて、と。<end>"
@@ -167,6 +175,10 @@ korean = "아니. 믿어도 돼.<end>"
 ["490195"]
 japanese = "あ…、<value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"
+
+["490196"]
+japanese = "<value:$28>がお前に<line-break>謝りたいことがあるんだってよ。<line-break>　<line-break>ほら。<end>"
+korean = "<value:$28>가 네게 사과하고 싶은 게 있대. 자.<end>"
 
 ["490204"]
 japanese = "なぁ、<value:$28>。<end>"

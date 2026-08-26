@@ -12,6 +12,10 @@ korean = "으아앙, 으아앙!<end>"
 japanese = "どうしたの？<end>"
 korean = "무슨 일이야?<end>"
 
+["2210004"]
+japanese = "この子はどうして泣いているのですか？<end>"
+korean = "이 아이는 왜 울고 있는 건가요?<end>"
+
 ["2210009"]
 japanese = "うん、約束するよ。<end>"
 korean = "응, 약속할게.<end>"
@@ -35,6 +39,10 @@ korean = "엄마!<end>"
 ["2210026"]
 japanese = "ありがとー！　お姉ちゃん。<end>"
 korean = "고마워-! 누나.<end>"
+
+["2210028"]
+japanese = "子供というのは不思議なものですね…。<end>"
+korean = "아이란 참 신기한 존재군요….<end>"
 
 ["2210029"]
 japanese = "迷子イベント4用終端<end>"

@@ -60,9 +60,17 @@ korean = "그렇게 되면 좋겠네<end>"
 japanese = "それは…ただの夢物語だよ<end>"
 korean = "그건… 그저 꿈같은 이야기야.<end>"
 
+["310074"]
+japanese = "姉ちゃん、<line-break>まだ、何かあるのか？<end>"
+korean = "누나, 아직 뭐가 더 있어?<end>"
+
 ["310076"]
 japanese = "やっと用意ができたか？<end>"
 korean = "드디어 준비가 됐나?<end>"
+
+["310083"]
+japanese = "今こそ立ち上がろう！<line-break><value:$28>！<end>"
+korean = "지금이야말로 일어서자! <value:$28>!<end>"
 
 ["310090"]
 japanese = "立ち上がろう！<end>"
@@ -136,6 +144,10 @@ korean = "역시, 안 잤구나….<end>"
 japanese = "な、な、なんだ！？<end>"
 korean = "뭐, 뭐, 뭐야!?<end>"
 
+["310158"]
+japanese = "い、今の地震は…<line-break>いったい…。<end>"
+korean = "지, 지금 지진은… 대체….<end>"
+
 ["310159"]
 japanese = "用意はいいか？<end>"
 korean = "준비됐나?<end>"
@@ -176,6 +188,10 @@ korean = "부탁해, 오빠를 지켜 줘!<end>"
 japanese = "皆の衆！！<end>"
 korean = "모두들!!<end>"
 
+["310179"]
+japanese = "な、何するんだよ！<line-break>長老様！！<end>"
+korean = "뭐, 뭘 하는 거야! 장로님!!<end>"
+
 ["310185"]
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
@@ -188,6 +204,10 @@ korean = "레몬?<end>"
 japanese = "長老…、お前ら…！！<end>"
 korean = "장로…, 네놈들…!!<end>"
 
+["310193"]
+japanese = "…<value:$28>、…逃げて。<line-break>早く…。<end>"
+korean = "…<value:$28>, …도망쳐. 빨리….<end>"
+
 ["310199"]
 japanese = "撃て！！<end>"
 korean = "쏴!!<end>"
@@ -195,6 +215,10 @@ korean = "쏴!!<end>"
 ["310201"]
 japanese = "ぐわっ！<end>"
 korean = "크악!<end>"
+
+["310202"]
+japanese = "み、皆の衆！！<line-break>逃げるんじゃ！！<end>"
+korean = "여, 여러분!! 도망치시오!!<end>"
 
 ["310203"]
 japanese = "ひいいいっ！！<end>"
@@ -212,6 +236,10 @@ korean = "어…!?<end>"
 japanese = "今のは、いったい…？<end>"
 korean = "방금 건 대체…?<end>"
 
+["310214"]
+japanese = "…行こう。<line-break>王都ロストールへ。<end>"
+korean = "…가자. 왕도 로스트ール로.<end>"
+
 ["310218"]
 japanese = "（チャカ…。）<end>"
 korean = "(차카….)<end>"
@@ -227,6 +255,10 @@ korean = "어!?<end>"
 ["310232"]
 japanese = "ん？<line-break>どうした、<value:$28>？<end>"
 korean = "응? 왜 그래, <value:$28>?<end>"
+
+["310234"]
+japanese = "…フフ、まさかな。<line-break>さ、行くぞ。<end>"
+korean = "…후후, 설마. 자, 가자.<end>"
 
 ["310235"]
 japanese = "それ！　捕まえろ！<end>"
@@ -299,6 +331,10 @@ korean = "광장<end>"
 ["310309"]
 japanese = "領主邸前<end>"
 korean = "영주 저택 앞<end>"
+
+["310311"]
+japanese = "あ、<value:$28>さん。<line-break>困りますよ。<line-break>あの…、その…。　　　　　　　　<end>"
+korean = "아, <value:$28> 씨. 곤란해요. 저기… 그게….<end>"
 
 ["310312"]
 japanese = "空<end>"

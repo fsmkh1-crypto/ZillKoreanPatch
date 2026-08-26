@@ -468,6 +468,10 @@ korean = "마치 희극 같네, <value:$28>.<end>"
 japanese = "ええ。よろしく頼みます。<end>"
 korean = "예. 잘 부탁드립니다.<end>"
 
+["1380403"]
+japanese = "人語をしゃべるゴブリン…<line-break>早く会ってみたいな。<line-break>ねぇ、<value:$28>！<end>"
+korean = "사람 말을 하는 고블린… 빨리 만나보고 싶어. 그렇지, <value:$28>!<end>"
+
 ["1380405"]
 japanese = "オルファウスさん、これは？<end>"
 korean = "오르파우스 씨, 이건?<end>"
@@ -707,6 +711,10 @@ korean = "네<end>"
 ["1380584"]
 japanese = "こいつを持ってきな。<end>"
 korean = "이걸 가져와.<end>"
+
+["1380587"]
+japanese = "<value:$28>さん、<line-break>まずはスラムの酒場まで<line-break>連れていってください。<end>"
+korean = "<value:$28> 씨, 우선 빈민가 술집까지 데려다주세요.<end>"
 
 ["1380589"]
 japanese = "追加メッセージここから<end>"
