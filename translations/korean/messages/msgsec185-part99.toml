@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V4용 시작<end>"
 japanese = "は、はいっ！<end>"
 korean = "네, 네!<end>"
 
+["1850021"]
+japanese = "お、<value:$28>じゃん。<line-break>ちょーどいいところに来た。<line-break>あんたフゴーと付き合いある？<end>"
+korean = "어, <value:$28>잖아. 딱 잘 왔다. 너 후고랑 아는 사이야?<end>"
+
 ["1850022"]
 japanese = "ラッキー！<line-break>さすがは<value:$28>。<line-break>頼りになるじゃん。<end>"
 korean = "럭키! 역시 <value:$28>. 믿음직하잖아.<end>"

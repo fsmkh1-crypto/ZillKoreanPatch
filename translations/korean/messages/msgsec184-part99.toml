@@ -128,6 +128,10 @@ korean = "이클레문!!<end>"
 japanese = "<value:$28>さん。<end>"
 korean = "<value:$28> 씨.<end>"
 
+["1840105"]
+japanese = "こんにちは、<value:$28>さん。<line-break>ひとつお聞きしたいことがあります。<line-break>かまいませんか？<end>"
+korean = "안녕하세요, <value:$28>님. 하나 묻고 싶은 게 있습니다. 괜찮을까요?<end>"
+
 ["1840107"]
 japanese = "いかにもその通り<end>"
 korean = "바로 그 말대로입니다<end>"

@@ -184,6 +184,10 @@ korean = "엘파스. 이즈에 대해서는….<end>"
 japanese = "ふっ…そうか。<end>"
 korean = "훗… 그런가.<end>"
 
+["1540133"]
+japanese = "僕は<value:$28>と進む道を選んだ。<line-break>もう、過去からも運命からも<line-break>逃げるつもりはない。<end>"
+korean = "나는 <value:$28>과 함께 가는 길을 선택했어. 이제 과거에서도 운명에서도 도망치지 않을 거야.<end>"
+
 ["1540134"]
 japanese = "エルファス　ボリューム５　終端<end>"
 korean = "엘파스 볼륨5 끝<end>"

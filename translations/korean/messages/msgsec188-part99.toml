@@ -64,6 +64,14 @@ korean = "이러다간 저, 점점 <value:$28>에게 미움받고 말겠어요�
 japanese = "<value:$28>。<line-break>エリス王妃への援助要請の件は<line-break>どうなったのですか？<end>"
 korean = "<value:$28>. 엘리스 왕비께 원조를 요청한 건은 어떻게 됐습니까?<end>"
 
+["1880071"]
+japanese = "…そうですか。王妃は<line-break><value:$28>にロストール軍への<line-break>参加を求めてきたのですか…。<end>"
+korean = "…그렇습니까. 왕비가 <value:$28>에게 로스토올군 참가를 요청한 것이군요….<end>"
+
+["1880074"]
+japanese = "そ、そうでした。申しわけありません。<line-break>クリュセイス様、<line-break>それと、<value:$28>さん。<end>"
+korean = "아, 그랬죠. 죄송합니다. 크류세이스 님, 그리고 <value:$28>님.<end>"
+
 ["1880083"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
@@ -99,6 +107,10 @@ korean = "어? 방금 뭐라고…?<end>"
 ["1880114"]
 japanese = "１００００ギアを資金提供した。<end>"
 korean = "10000기어를 자금으로 제공했다.<end>"
+
+["1880122"]
+japanese = "難民が哀れだからですか？<line-break>それとも…<end>"
+korean = "난민들이 불쌍해서입니까? 아니면….<end>"
 
 ["1880123"]
 japanese = "難民を救うのも解放軍の義務だから<end>"

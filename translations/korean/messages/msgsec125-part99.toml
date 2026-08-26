@@ -28,6 +28,10 @@ korean = "<value:$28>님. 알현실로 가시는군요. 함께 가겠습니다.<
 japanese = "ゾフォルは<line-break>謁見の間です。<end>"
 korean = "조폴은 알현실에 있습니다.<end>"
 
+["1250105"]
+japanese = "どうすんの、<value:$28>？<line-break>逃げなきゃやられちゃうよ～？<line-break>宰相サンの革新も台無しよん？<end>"
+korean = "어쩔 거야, <value:$28>? 도망치지 않으면 당한다고~? 재상님의 혁신도 물거품이야?<end>"
+
 ["1250115"]
 japanese = "もうすぐ次のソウルリープが<line-break>来ちゃうんだよぉ！<line-break>早く逃げようよぉ、<value:$28>！<end>"
 korean = "곧 다음 소울 리프가 와! 빨리 도망치자, <value:$28>!<end>"
@@ -35,6 +39,10 @@ korean = "곧 다음 소울 리프가 와! 빨리 도망치자, <value:$28>!<end
 ["1250120"]
 japanese = "<value:$28>様、<line-break>お早く都市の外へ！<line-break>ソウルリープが来ます！<end>"
 korean = "<value:$28>님, 어서 도시 밖으로! 소울 리프가 옵니다!<end>"
+
+["1250127"]
+japanese = "<value:$28>さん、逃げましょう！<line-break>あなたが死んだら、<line-break>誰がゾフォルを倒すんですか！<end>"
+korean = "<value:$28>님, 도망쳐요! 당신이 죽으면 누가 조폴을 쓰러뜨리겠어요!<end>"
 
 ["1250144"]
 japanese = "待てなかったか、ジラーク…。<end>"

@@ -72,6 +72,10 @@ korean = "어… 어어!?<end>"
 japanese = "どっ、どうしよう<line-break><value:$28>！？<end>"
 korean = "어, 어떡하지, <value:$28>!?<end>"
 
+["1920066"]
+japanese = "…って、今は<line-break>逃げ出す方が先かもね。<end>"
+korean = "…라고 해도 지금은 도망치는 게 먼저일지도 모르겠네.<end>"
+
 ["1920067"]
 japanese = "おそいなぁ、<value:$28>。<line-break>まさか、忘れちゃったんじゃ<line-break>ないよなぁ。<end>"
 korean = "늦네, <value:$28>. 설마 잊은 건 아니겠지.<end>"
@@ -160,6 +164,10 @@ korean = "어머님….<end>"
 japanese = "お、お母様！<end>"
 korean = "어, 어머님!<end>"
 
+["1920155"]
+japanese = "え？　この音は…？<line-break>もしかすると…。<end>"
+korean = "어? 이 소리는…? 설마….<end>"
+
 ["1920156"]
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
@@ -208,6 +216,10 @@ korean = "<value:$28> 씨, 갑시다!<end>"
 japanese = "<value:$28>と一緒に<line-break>解読した父さんの暗号によると、<line-break>この辺りで目印が見つかるはず。<end>"
 korean = "<value:$28>과 함께 풀어낸 아버지의 암호대로라면, 이 근처에서 표식을 찾을 수 있을 거야.<end>"
 
+["1920192"]
+japanese = "へい、おかしら！<line-break>直ちに！<line-break>　<end>"
+korean = "예, 두목! 즉시!<end>"
+
 ["1920196"]
 japanese = "<value:$28>が見つけて<line-break>なかったら、中に隠されてた<line-break>暗号文ごと箱の中で眠っていたわ。<end>"
 korean = "<value:$28>이 찾아내지 않았으면 안에 숨겨진 암호문째 상자 속에서 잠들어 있었겠지.<end>"
@@ -251,6 +263,78 @@ korean = "…그, 그래도 괜찮아요? 제가 <value:$28>님께 폐를 끼칠
 ["1920252"]
 japanese = "行ってしまったな。<end>"
 korean = "가버렸군.<end>"
+
+["1920260"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ２８ですよ<end>"
+korean = "EVEND 예비 메시지 28입니다<end>"
+
+["1920261"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ２９ですよ<end>"
+korean = "EVEND 예비 메시지 29입니다<end>"
+
+["1920262"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３０ですよ<end>"
+korean = "EVEND 예비 메시지 30입니다<end>"
+
+["1920263"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３１ですよ<end>"
+korean = "EVEND 예비 메시지 31입니다<end>"
+
+["1920264"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３２ですよ<end>"
+korean = "EVEND 예비 메시지 32입니다<end>"
+
+["1920265"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３３ですよ<end>"
+korean = "EVEND 예비 메시지 33입니다<end>"
+
+["1920266"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３４ですよ<end>"
+korean = "EVEND 예비 메시지 34입니다<end>"
+
+["1920267"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３５ですよ<end>"
+korean = "EVEND 예비 메시지 35입니다<end>"
+
+["1920268"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３６ですよ<end>"
+korean = "EVEND 예비 메시지 36입니다<end>"
+
+["1920269"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３７ですよ<end>"
+korean = "EVEND 예비 메시지 37입니다<end>"
+
+["1920270"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３８ですよ<end>"
+korean = "EVEND 예비 메시지 38입니다<end>"
+
+["1920271"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ３９ですよ<end>"
+korean = "EVEND 예비 메시지 39입니다<end>"
+
+["1920272"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ４０ですよ<end>"
+korean = "EVEND 예비 메시지 40입니다<end>"
+
+["1920273"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ４１ですよ<end>"
+korean = "EVEND 예비 메시지 41입니다<end>"
+
+["1920274"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ４２ですよ<end>"
+korean = "EVEND 예비 메시지 42입니다<end>"
+
+["1920275"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ４３ですよ<end>"
+korean = "EVEND 예비 메시지 43입니다<end>"
+
+["1920276"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ４４ですよ<end>"
+korean = "EVEND 예비 메시지 44입니다<end>"
+
+["1920277"]
+japanese = "ＥｖＥＮＤ<line-break>予備メッセージ４５ですよ<end>"
+korean = "EVEND 예비 메시지 45입니다<end>"
 
 ["1920283"]
 japanese = "ＺｉｌｌＯ’ｌｌ　エンディングメッセージ終端<end>"

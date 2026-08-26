@@ -4,6 +4,10 @@
 japanese = "ノーブルメッセージｖ４用開始<end>"
 korean = "노블 메시지 v4용 시작<end>"
 
+["1700002"]
+japanese = "ま、まさか、<value:$28>！<line-break>お前、処刑されたんじゃ…。<line-break>私は悪い夢でも見ているのか？<end>"
+korean = "서, 설마, <value:$28>! 너, 처형된 게 아니었나…. 내가 악몽이라도 꾸는 건가?<end>"
+
 ["1700029"]
 japanese = "ノーブルメッセージ終端<end>"
 korean = "노블 메시지 끝<end>"

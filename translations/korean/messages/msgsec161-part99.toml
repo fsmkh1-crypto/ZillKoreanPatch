@@ -216,6 +216,10 @@ korean = "좋아, 가자.<end>"
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
 
+["1610176"]
+japanese = "いつもながら見事な手並みです。<line-break><value:$28>さん。<line-break>これも普段の鍛錬の賜物ですか？<end>"
+korean = "언제 봐도 훌륭한 솜씨군요, <value:$28>님. 이것도 평소 단련의 성과인가요?<end>"
+
 ["1610182"]
 japanese = "くっ！！<end>"
 korean = "큭!!<end>"
@@ -303,6 +307,10 @@ korean = "페티를 달랜다<end>"
 ["1610240"]
 japanese = "フェティをしかる<end>"
 korean = "페티를 꾸짖는다<end>"
+
+["1610244"]
+japanese = "<value:$28><line-break>どうして、アタクシをしかるわけ？<line-break>この場合、おかしいのはあの男よー！<end>"
+korean = "<value:$28>, 왜 나를 혼내는 거야? 이 경우 이상한 건 그 남자잖아ー!<end>"
 
 ["1610254"]
 japanese = "…ボク、やっぱり役立たずなのかな。<end>"

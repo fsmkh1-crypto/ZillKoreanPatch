@@ -100,6 +100,10 @@ korean = "<value:$28>, 기다리세요.<end>"
 japanese = "フリントの短剣を手に入れた。<end>"
 korean = "플린트의 단검을 손에 넣었다.<end>"
 
+["1860084"]
+japanese = "さぁ、それでは行こうか、　　　　<line-break><value:$28>。<line-break>　<line-break>短剣のこと、頼んだよ。<end>"
+korean = "자, 그럼 가자, <value:$28>. 단검 건은 부탁할게.<end>"
+
 ["1860092"]
 japanese = "あぁ、ビックリしたぁ。<end>"
 korean = "아아, 깜짝 놀랐네.<end>"

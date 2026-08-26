@@ -244,6 +244,10 @@ korean = "뭐!?<end>"
 japanese = "…まさか！？<line-break>いえ…あの方なら…。<end>"
 korean = "…설마!? 아니… 그분이라면….<end>"
 
+["1420220"]
+japanese = "伝令を飛ばせ！<line-break> <line-break> <line-break>新たなる皇帝<line-break><value:$28>の<line-break>捜索を開始せよ。<end>"
+korean = "전령을 보내라! 새로운 황제 <value:$28>의 수색을 시작하라.<end>"
+
 ["1420223"]
 japanese = "レ、レムオン様。<end>"
 korean = "레, 레몬 님.<end>"
@@ -275,6 +279,10 @@ korean = "뭐!?<end>"
 ["1420242"]
 japanese = "…まさか！？<line-break>いえ…あの方なら…。<end>"
 korean = "…설마!? 아니… 그분이라면….<end>"
+
+["1420243"]
+japanese = "伝令を飛ばせ！<line-break> <line-break> <line-break>新たなる皇帝<line-break><value:$28>の<line-break>捜索を開始せよ。<end>"
+korean = "전령을 보내라! 새로운 황제 <value:$28>의 수색을 시작하라.<end>"
 
 ["1420244"]
 japanese = "追加メッセージここから<end>"
@@ -843,6 +851,10 @@ korean = "뭐!?<end>"
 ["1420567"]
 japanese = "…まさか！？<line-break>いえ…あの方なら…<end>"
 korean = "…설마!? 아니… 그분이라면….<end>"
+
+["1420568"]
+japanese = "伝令を飛ばせ！<line-break> <line-break> <line-break>新たなる皇帝<line-break><value:$28>の<line-break>捜索を開始せよ。<end>"
+korean = "전령을 보내라! 새로운 황제 <value:$28>의 수색을 시작하라.<end>"
 
 ["1420571"]
 japanese = "レ、レムオン様。<end>"

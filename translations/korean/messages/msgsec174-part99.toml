@@ -32,6 +32,10 @@ korean = "그래, 네메아는 죽었어.<end>"
 japanese = "…ネメアは死んだわ。<end>"
 korean = "…네메아는 죽었어.<end>"
 
+["1740017"]
+japanese = "ネメアさんを死なせてしま…た…。<line-break><value:$28>さん…<line-break>い、いったい…どうすれば…？<end>"
+korean = "네메아 씨를 죽게 만들고 말았어…. <value:$28>님… 대, 대체… 어떡하면…?<end>"
+
 ["1740019"]
 japanese = "あたしが何を言っても<line-break>ダメみたいね。<end>"
 korean = "내가 무슨 말을 해도 소용없는 모양이네.<end>"
