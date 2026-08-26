@@ -4,6 +4,10 @@
 japanese = "ティアナメッセージVOL1-2開始<end>"
 korean = "티아나 메시지 VOL1-2 시작<end>"
 
+["640002"]
+japanese = "お待ちください！<line-break>勝手に入られては困ります！<end>"
+korean = "잠깐만요! 마음대로 들어오시면 곤란합니다!<end>"
+
 ["640004"]
 japanese = "大変、タルテュバ様だわ！<end>"
 korean = "큰일이야, 타르튜바 님이야!<end>"
@@ -119,6 +123,10 @@ korean = "…아.<end>"
 ["640056"]
 japanese = "ケガはないかい？<line-break>かわいい姫さん。<end>"
 korean = "다친 데 없나? 귀여운 공주님.<end>"
+
+["640062"]
+japanese = "わかってない…。<line-break>ぜんぜん…わかってない…。<end>"
+korean = "모르고 있어…. 전혀… 모르고 있어….<end>"
 
 ["640064"]
 japanese = "また、<line-break>いらっしゃったのですね。<end>"

@@ -20,6 +20,10 @@ korean = "돕는다<end>"
 japanese = "助けない<end>"
 korean = "안 도와<end>"
 
+["1490012"]
+japanese = "なんだ、貴様？<line-break>ええい、こいつもぶちのめせ！<end>"
+korean = "뭐냐, 네놈? 에잇, 이 녀석도 때려눕혀라!<end>"
+
 ["1490013"]
 japanese = "くっ。非市民のクズが！<end>"
 korean = "큭. 비시민 쓰레기가!<end>"
@@ -67,6 +71,10 @@ korean = "우왓!<end>"
 ["1490036"]
 japanese = "な、なんだ？　どこへ行ったのだ？<end>"
 korean = "뭐, 뭐지? 어디로 간 거야?<end>"
+
+["1490040"]
+japanese = "ネメア様を侮辱することは許さん！<line-break>逮捕しろ！<end>"
+korean = "네메아 님을 모욕하는 건 용서 못 한다! 체포해!<end>"
 
 ["1490041"]
 japanese = "そのゲスの名を二度と口にするな。<line-break>耳が汚れる。<end>"
@@ -276,6 +284,10 @@ korean = "어, 어쩔 수 없군. 여기선 물러난다!<end>"
 japanese = "ただ神のみを信じよ。<line-break>すべてをなげうち<line-break>神にのみすがれ。<line-break>そして神の遣わしたる我を信じよ。<end>"
 korean = "오직 신만 믿어라. 모든 것을 버리고 오직 신에게 의지하라. 그리고 신이 보낸 나를 믿어라.<end>"
 
+["1490159"]
+japanese = "こら、ここで何やってる！<line-break>やめろ、やめんか！<end>"
+korean = "이봐, 여기서 뭐 하는 거야! 그만둬, 그만두라고!<end>"
+
 ["1490162"]
 japanese = "むっ、邪魔をするな！<line-break>引っ込んでいろ！<end>"
 korean = "흥, 방해하지 마라! 물러나 있어!<end>"
@@ -307,6 +319,10 @@ korean = "상, 상처가 나았어! 순식간에! 게다가 이렇게 깨끗하�
 ["1490170"]
 japanese = "すごいわ！<line-break>さすが、エルファス様。<line-break>　<line-break>奇跡だわ！<line-break>エルファス様の奇跡よ！<end>"
 korean = "대단해! 역시 엘파스 님이야. 기적이야! 엘파스 님의 기적이야!<end>"
+
+["1490171"]
+japanese = "ただ神を信じよ！<line-break>神の遣わしたる我を信じよ！<end>"
+korean = "오직 신을 믿어라! 신이 보내신 나를 믿어라!<end>"
 
 ["1490179"]
 japanese = "君の名…、聞いておきたい。<end>"

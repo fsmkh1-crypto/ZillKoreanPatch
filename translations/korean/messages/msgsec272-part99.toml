@@ -28,6 +28,10 @@ korean = "<value:$28>인가….<end>"
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
 
+["2720033"]
+japanese = "ありがとう。<value:$28>。<line-break>　<line-break>　<line-break>俺自身が出さなければ<line-break>いけない答えなのに、<line-break>お前に甘えてしまった。<end>"
+korean = "고맙다, <value:$28>. 내가 스스로 내야 할 답인데 네게 기대고 말았군.<end>"
+
 ["2720035"]
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
@@ -71,6 +75,10 @@ korean = "<value:$28>인가….<end>"
 ["2720050"]
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
+
+["2720056"]
+japanese = "ありがとう。<value:$28>。<line-break>　<line-break>　<line-break>俺自身が出さなければ<line-break>いけない答えなのに、<line-break>お前に甘えてしまった。<end>"
+korean = "고맙다, <value:$28>. 내가 스스로 내야 할 답인데 네게 기대고 말았군.<end>"
 
 ["2720058"]
 japanese = "<value:$28>か…。<end>"

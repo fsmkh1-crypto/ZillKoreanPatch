@@ -232,6 +232,10 @@ korean = "부탁드립니다.<end>"
 japanese = "開いているわ。<line-break>入って。<end>"
 korean = "열려 있어. 들어와.<end>"
 
+["1920131"]
+japanese = "ふふふ。<line-break><value:$28>ったら。<line-break>　<line-break>私の部屋で、そんなことは<line-break>しなくていいって、<line-break>言わなかったかしら？<end>"
+korean = "후후후. <value:$28>도 참. 내 방에서는 그런 거 안 해도 된다고 말하지 않았나?<end>"
+
 ["1920134"]
 japanese = "（<value:$28>。<line-break>　あなたがいてくれれば、<line-break>　私、大丈夫よね…。）<end>"
 korean = "(<value:$28>. 네가 있어 주면 나, 괜찮겠지….)<end>"

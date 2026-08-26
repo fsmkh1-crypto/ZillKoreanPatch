@@ -96,6 +96,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550043"]
+japanese = "こういうのってさ、<line-break>か～なり、危険なんだよ？<end>"
+korean = "이런 건 말이지, 꽤나 위험하다고?<end>"
+
 ["550045"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
@@ -315,6 +319,10 @@ korean = "저기, <value:$28> 괜찮아?<end>"
 ["550130"]
 japanese = "そうだね。<line-break>奴らを追わなくちゃ。<end>"
 korean = "그래. 놈들을 쫓아야 해.<end>"
+
+["550132"]
+japanese = "いや、拙者の母上は、<line-break>いまだ健在でござるよ。<end>"
+korean = "아니, 소인의 어머님은 아직 건재하십니다.<end>"
 
 ["550133"]
 japanese = "拙者の母上は強力かつ大災害なお方。<end>"

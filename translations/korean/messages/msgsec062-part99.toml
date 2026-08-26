@@ -88,9 +88,17 @@ korean = "아앗! 너희들!<end>"
 japanese = "む、ガサツ女にその他１名！<end>"
 korean = "음, 거친 여자와 기타 1명!<end>"
 
+["620038"]
+japanese = "誰がガサツ女よ！<line-break>その聖杯、返してもらうわ！<end>"
+korean = "누가 거친 여자라는 거야! 그 성배, 돌려받겠어!<end>"
+
 ["620040"]
 japanese = "何が天から与えられたよ！<line-break>盗んだくせに！<end>"
 korean = "뭐가 하늘이 내린 거야! 훔친 주제에!<end>"
+
+["620043"]
+japanese = "オルナット、<line-break>メシ食ってる場合じゃないゴブ！<end>"
+korean = "오르나트, 밥 먹고 있을 때가 아니다 고브!<end>"
 
 ["620044"]
 japanese = "ああ、メシ～。<end>"
@@ -99,6 +107,10 @@ korean = "아아, 밥~.<end>"
 ["620046"]
 japanese = "バイアシオン最大の都市。<line-break>文化と商業の都…。<line-break>　<line-break>さっすがに大きな街よね、<line-break>リベルダムって！<end>"
 korean = "바이아시온 최대의 도시. 문화와 상업의 수도…. 역시 큰 도시네, 리벨덤은!<end>"
+
+["620048"]
+japanese = "あ、あの…、<line-break>冒険者登録したいんでゴブが…。<end>"
+korean = "저, 저기… 모험자 등록을 하고 싶다 고브….<end>"
 
 ["620050"]
 japanese = "な、なんかドキドキするゴブ。<end>"
@@ -272,6 +284,10 @@ korean = "아앗!!<end>"
 japanese = "団長、逃げるゴブ！<end>"
 korean = "단장, 도망치는 고브!<end>"
 
+["620124"]
+japanese = "む、ガサツ女とその他一名。<line-break>そしてマルーン！<end>"
+korean = "흥, 거친 여자와 그 밖의 한 명. 그리고 마룬!<end>"
+
 ["620126"]
 japanese = "オルナット、<line-break>あきらめてはいかんでゴブ！<end>"
 korean = "오르나트, 포기하면 안 된다 고브!<end>"
@@ -312,6 +328,10 @@ korean = "아이린의 STR이 3 올랐다.<end>"
 japanese = "１００ギア手に入れた。<end>"
 korean = "100기어를 손에 넣었다.<end>"
 
+["620151"]
+japanese = "女の武器か…。<line-break>確かにその筋肉は凶器ゴブね。<end>"
+korean = "여자의 무기라…. 확실히 그 근육은 흉기다 고브.<end>"
+
 ["620153"]
 japanese = "快適な船旅だったゴブ。<end>"
 korean = "쾌적한 뱃길이었다 고브.<end>"
@@ -323,6 +343,10 @@ korean = "밥도 맛있었다 고브.<end>"
 ["620156"]
 japanese = "あーっ！！<end>"
 korean = "아앗!!<end>"
+
+["620157"]
+japanese = "む、ガサツ女とその他１名。<line-break>そしてマルーン！<end>"
+korean = "흥, 거친 여자와 그 밖의 한 명. 그리고 마룬!<end>"
 
 ["620158"]
 japanese = "あんたたち、<line-break>今度は逃がさないわよ！<end>"

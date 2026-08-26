@@ -40,6 +40,10 @@ korean = "네가 없었더라면… 나는 또….<end>"
 japanese = "お主には感謝してもしきれぬな。<end>"
 korean = "자네에겐 아무리 감사해도 모자라겠군.<end>"
 
+["1380021"]
+japanese = "そこで、感謝の意味を込めて…<line-break>酒席を設けた。<end>"
+korean = "그래서 감사의 뜻을 담아… 술자리를 마련했다.<end>"
+
 ["1380022"]
 japanese = "まさか、受けぬと言わんじゃろうな？<end>"
 korean = "설마 받지 않겠다고 하진 않겠지?<end>"
@@ -176,6 +180,10 @@ korean = "내일도 일찍 일어나야 했지. 힘내야겠다! 잘 자, <value
 japanese = "あーっ、<line-break><value:$28>じゃん。<end>"
 korean = "아, <value:$28>잖아.<end>"
 
+["1380101"]
+japanese = "まーた、<line-break>間の悪いところに来ちゃうんだな～。<end>"
+korean = "또 참 타이밍 안 좋을 때 왔네~.<end>"
+
 ["1380102"]
 japanese = "何をしてたかって？<end>"
 korean = "뭘 하고 있었냐고?<end>"
@@ -211,6 +219,10 @@ korean = "여어, <value:$28>.<end>"
 ["1380137"]
 japanese = "…叔母貴と一杯やってたのさ。<end>"
 korean = "…숙모랑 한잔하고 있었지.<end>"
+
+["1380141"]
+japanese = "恨まれて当然だ。<line-break>悪く言われても無理はない。<end>"
+korean = "원망받아도 당연해. 나쁘게 말해도 무리는 아니지.<end>"
 
 ["1380143"]
 japanese = "そうか…<line-break>お前さんも付き合ってくれるのかい？<end>"

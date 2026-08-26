@@ -44,6 +44,10 @@ korean = "좋아, 그럼 나도 짚이는 데를 알아볼게. <value:$28>도 �
 japanese = "！　これは…。<end>"
 korean = "! 이건….<end>"
 
+["1470042"]
+japanese = "おい、そこの兄さん。<line-break>ちょっと、待ってくれ。<end>"
+korean = "이봐, 거기 형씨. 잠깐 기다려 줘.<end>"
+
 ["1470054"]
 japanese = "<value:$28>、<line-break>もう準備はいいんだな？<end>"
 korean = "<value:$28>, 준비는 다 됐지?<end>"
@@ -67,6 +71,10 @@ korean = "응? 뭐야, 넌!?<end>"
 ["1470067"]
 japanese = "なんだぁ、こいつ。<line-break>やっちまえ。<end>"
 korean = "뭐야, 이 녀석. 해치워 버려.<end>"
+
+["1470073"]
+japanese = "世の中、そう都合よくは<line-break>いかないと思うがな。<end>"
+korean = "세상일이 그렇게 뜻대로 되진 않을 텐데.<end>"
 
 ["1470076"]
 japanese = "さて、こいつらを叩けば終わりだ。<line-break>さっさとやっちまおうぜ、<line-break><value:$28>。<end>"
@@ -195,6 +203,10 @@ korean = "예비 메시지 루루안타(수정) 그 1/8<end>"
 ["1470171"]
 japanese = "予備メッセージ<line-break>ルルアンタ（修）その１／９<end>"
 korean = "예비 메시지 루루안타(수정) 그 1/9<end>"
+
+["1470172"]
+japanese = "予備メッセージ<line-break>ルルアンタ（修）その１／１０<end>"
+korean = "예비 메시지 루루안타(수정) 그 1/10<end>"
 
 ["1470173"]
 japanese = "ルルアンタ（修）その１　終端<end>"
