@@ -8,6 +8,10 @@ korean = "정말 감사하고 있네.<end>"
 japanese = "に…にぁぁああ。<line-break> <line-break> <line-break>………………<end>"
 korean = "냐… 냐아아아. ………………<end>"
 
+["1380030"]
+japanese = "にゃ…。　　　<line-break> <line-break> <line-break>………………<end>"
+korean = "냐…. ………………<end>"
+
 ["1380033"]
 japanese = "…な、なーん。<end>"
 korean = "…나, 냥.<end>"
@@ -160,6 +164,10 @@ korean = "응…. 그렇네.<end>"
 japanese = "だって。<line-break><value:$28>と<line-break>旅をしてるんだからね！<end>"
 korean = "그야 <value:$28>와 여행하고 있으니까!<end>"
 
+["1380276"]
+japanese = "そ、そんな…<line-break>ひ、ひどいや…<line-break><value:$28>。<end>"
+korean = "그, 그럴 수가… 너무해… <value:$28>.<end>"
+
 ["1380301"]
 japanese = "…待って、<value:$28>。<end>"
 korean = "…기다려, <value:$28>.<end>"
@@ -295,6 +303,10 @@ korean = "맡는다<end>"
 ["1380473"]
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
+
+["1380499"]
+japanese = "そうだ、<line-break><value:$28>さんが<line-break>いたじゃない。<end>"
+korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
 
 ["1380520"]
 japanese = "こんにちは。<end>"

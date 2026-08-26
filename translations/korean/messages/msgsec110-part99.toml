@@ -84,6 +84,10 @@ korean = "두렵지 않다<end>"
 japanese = "放っておけなかった<end>"
 korean = "내버려둘 수 없었다<end>"
 
+["1100097"]
+japanese = "待て、そこの冒険者。<end>"
+korean = "기다려, 거기 모험자.<end>"
+
 ["1100115"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"

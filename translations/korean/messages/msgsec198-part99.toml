@@ -52,6 +52,10 @@ korean = "아니요. 있어요.<end>"
 japanese = "はいっ！？<end>"
 korean = "네!?<end>"
 
+["1980110"]
+japanese = "そうなんですか…。<line-break>　<line-break>　<line-break>…よかった。<end>"
+korean = "그런가요…. …다행이다.<end>"
+
 ["1980111"]
 japanese = "何か言いましたか？<end>"
 korean = "뭐라고 하셨나요?<end>"
@@ -99,6 +103,10 @@ korean = "아니요. 있어요.<end>"
 ["1980210"]
 japanese = "はいっ！？<end>"
 korean = "네!?<end>"
+
+["1980214"]
+japanese = "そうなんですか…。<line-break>　<line-break>　<line-break>…よかった。<end>"
+korean = "그런가요…. …다행이다.<end>"
 
 ["1980215"]
 japanese = "何か言いましたか？<end>"

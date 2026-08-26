@@ -452,6 +452,10 @@ korean = "한 분야에 뛰어난 성장<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370650"]
+japanese = "そうだ、<line-break><value:$28>さんが<line-break>いたじゃない。<end>"
+korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
+
 ["1370671"]
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"

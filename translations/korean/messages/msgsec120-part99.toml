@@ -8,9 +8,17 @@ korean = "아버지!<end>"
 japanese = "あ、あれは…！<end>"
 korean = "저, 저건…!<end>"
 
+["1200024"]
+japanese = "ケリュネイアについて<end>"
+korean = "케뤼네이아에 대해서<end>"
+
 ["1200025"]
 japanese = "ネメアについて<end>"
 korean = "네메아에 대하여<end>"
+
+["1200026"]
+japanese = "ネメアの意図について<end>"
+korean = "네메아의 의도에 대해서<end>"
 
 ["1200027"]
 japanese = "もう聞くことはない<end>"

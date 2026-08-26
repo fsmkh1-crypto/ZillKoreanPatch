@@ -20,6 +20,10 @@ korean = "서, 선생님….<end>"
 japanese = "…なんだ。<end>"
 korean = "…뭐야.<end>"
 
+["1020027"]
+japanese = "…殺して、ください。<end>"
+korean = "…죽여 주세요.<end>"
+
 ["1020028"]
 japanese = "あん？<end>"
 korean = "앙?<end>"
@@ -44,9 +48,17 @@ korean = "아ーーーーー! <value:$28>! <value:$28>ー!<end>"
 japanese = "さようなら…<value:$28>。<end>"
 korean = "안녕… <value:$28>.<end>"
 
+["1020057"]
+japanese = "え…ど、どうして…。<end>"
+korean = "어… 왜, 왜….<end>"
+
 ["1020059"]
 japanese = "せ、先生！<end>"
 korean = "서, 선생님!<end>"
+
+["1020073"]
+japanese = "え…ど、どうして…。<end>"
+korean = "어… 왜, 왜….<end>"
 
 ["1020075"]
 japanese = "せ、先生！<end>"

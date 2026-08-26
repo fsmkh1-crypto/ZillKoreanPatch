@@ -172,6 +172,10 @@ korean = "이 느낌…!<end>"
 japanese = "ノエル！？<end>"
 korean = "노엘!?<end>"
 
+["560252"]
+japanese = "俺…<line-break>俺、本当は…<end>"
+korean = "나… 사실 나는….<end>"
+
 ["560257"]
 japanese = "レイヴン…。<end>"
 korean = "레이븐….<end>"
@@ -207,6 +211,10 @@ korean = "너 정말!!<end>"
 ["560337"]
 japanese = "また、告死天使だ。<end>"
 korean = "또 고사천사다.<end>"
+
+["560369"]
+japanese = "フフフ。<line-break><value:$28>に<line-break>心配されるなんてね。<end>"
+korean = "후후후. <value:$28>에게 걱정을 다 받다니.<end>"
 
 ["560400"]
 japanese = "イークレムン様…<end>"
@@ -299,6 +307,10 @@ korean = "나, 웃고 있어….<end>"
 ["560615"]
 japanese = "ね、生きてる？<end>"
 korean = "저기, 살아 있어?<end>"
+
+["560619"]
+japanese = "こら！<line-break>危ないぞ！<end>"
+korean = "야! 위험해!<end>"
 
 ["560627"]
 japanese = "わ、私は…！<end>"

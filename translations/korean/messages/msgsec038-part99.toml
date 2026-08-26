@@ -12,6 +12,14 @@ korean = "됐어<end>"
 japanese = "聞くのをやめる<end>"
 korean = "듣는 걸 그만둔다<end>"
 
+["380007"]
+japanese = "<color:h>アイリーン<color:o><end>"
+korean = "<color:h>아이린<color:o><end>"
+
+["380008"]
+japanese = "<color:h>アトレイア<color:o><end>"
+korean = "<color:h>아트레이아<color:o><end>"
+
 ["380009"]
 japanese = "<color:h>アンギルダン<color:o><end>"
 korean = "<color:h>앙길단<color:o><end>"
@@ -20,25 +28,65 @@ korean = "<color:h>앙길단<color:o><end>"
 japanese = "<color:h>イークレムン<color:o><end>"
 korean = "<color:h>이크렘<color:o><end>"
 
+["380011"]
+japanese = "<color:h>イーシャ<color:o><end>"
+korean = "<color:h>이샤<color:o><end>"
+
+["380012"]
+japanese = "<color:h>イオンズ<color:o><end>"
+korean = "<color:h>이온즈<color:o><end>"
+
+["380013"]
+japanese = "<color:h>ヴァイライラ<color:o><end>"
+korean = "<color:h>바이라이라<color:o><end>"
+
 ["380014"]
 japanese = "<color:h>ヴァン<color:o><end>"
 korean = "<color:h>반<color:o><end>"
+
+["380015"]
+japanese = "<color:h>ヴィアリアリ<color:o><end>"
+korean = "<color:h>비아리아리<color:o><end>"
 
 ["380016"]
 japanese = "<color:h>エア<color:o><end>"
 korean = "<color:h>에어<color:o><end>"
 
+["380017"]
+japanese = "<color:h>エステル<color:o><end>"
+korean = "<color:h>에스텔<color:o><end>"
+
 ["380018"]
 japanese = "<color:h>エスト<color:o><end>"
 korean = "<color:h>에스트<color:o><end>"
+
+["380019"]
+japanese = "<color:h>エルファス<color:o><end>"
+korean = "<color:h>엘파스<color:o><end>"
+
+["380020"]
+japanese = "<color:h>オイフェ<color:o><end>"
+korean = "<color:h>오이페<color:o><end>"
 
 ["380021"]
 japanese = "<color:h>カルラ<color:o><end>"
 korean = "<color:h>카를라<color:o><end>"
 
+["380022"]
+japanese = "<color:h>クリュセイス<color:o><end>"
+korean = "<color:h>크뤼세이스<color:o><end>"
+
 ["380023"]
 japanese = "<color:h>ザギヴ<color:o><end>"
 korean = "<color:h>자기브<color:o><end>"
+
+["380024"]
+japanese = "<color:h>ジリオン<color:o><end>"
+korean = "<color:h>질리온<color:o><end>"
+
+["380025"]
+japanese = "<color:h>ゼネテス<color:o><end>"
+korean = "<color:h>제네테스<color:o><end>"
 
 ["380026"]
 japanese = "<color:h>セラ<color:o><end>"
@@ -48,6 +96,14 @@ korean = "<color:h>세라<color:o><end>"
 japanese = "<color:h>チャカ<color:o><end>"
 korean = "<color:h>차카<color:o><end>"
 
+["380028"]
+japanese = "<color:h>ティアナ<color:o><end>"
+korean = "<color:h>티아나<color:o><end>"
+
+["380029"]
+japanese = "<color:h>デルガド<color:o><end>"
+korean = "<color:h>델가드<color:o><end>"
+
 ["380030"]
 japanese = "<color:h>ナッジ<color:o><end>"
 korean = "<color:h>나지<color:o><end>"
@@ -55,6 +111,10 @@ korean = "<color:h>나지<color:o><end>"
 ["380031"]
 japanese = "<color:h>ノエル<color:o><end>"
 korean = "<color:h>노엘<color:o><end>"
+
+["380032"]
+japanese = "<color:h>ヒルダリア<color:o><end>"
+korean = "<color:h>힐다리아<color:o><end>"
 
 ["380033"]
 japanese = "<color:h>フェティ<color:o><end>"
@@ -68,9 +128,17 @@ korean = "<color:h>펠름<color:o><end>"
 japanese = "<color:h>フレア<color:o><end>"
 korean = "<color:h>플레어<color:o><end>"
 
+["380036"]
+japanese = "<color:h>ベルゼーヴァ<color:o><end>"
+korean = "<color:h>벨제바<color:o><end>"
+
 ["380037"]
 japanese = "<color:h>ユーリス<color:o><end>"
 korean = "<color:h>유리스<color:o><end>"
+
+["380038"]
+japanese = "<color:h>ルルアンタ<color:o><end>"
+korean = "<color:h>루루안타<color:o><end>"
 
 ["380039"]
 japanese = "<color:h>レーグ<color:o><end>"

@@ -551,3 +551,7 @@ korean = "이 몸, 부활!<end>"
 ["890730"]
 japanese = "僕はいま、<line-break>この<value:$28>と<line-break>旅をしてるんだ。<end>"
 korean = "나는 지금 이 <value:$28>와 여행하고 있어.<end>"
+
+["890735"]
+japanese = "　　聞こえるか、<value:$28>よ。<end>"
+korean = "들리느냐, <value:$28>여.<end>"

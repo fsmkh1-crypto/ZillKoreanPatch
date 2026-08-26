@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1160000"]
+japanese = "フレアメッセージ開始<end>"
+korean = "플레어 메시지 시작<end>"
+
 ["1160001"]
 japanese = "誰だ？<end>"
 korean = "누구야?<end>"
@@ -51,3 +55,7 @@ korean = "어쩔 수 없네<end>"
 ["1160138"]
 japanese = "関係ないってば<end>"
 korean = "상관없다니까<end>"
+
+["1160149"]
+japanese = "フレアメッセージ終端<end>"
+korean = "플레어 메시지 끝<end>"

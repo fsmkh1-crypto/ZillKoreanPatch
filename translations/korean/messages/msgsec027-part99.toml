@@ -47,3 +47,7 @@ korean = "전투에서 진 것으로 한다<end>"
 ["270126"]
 japanese = "へへ。よろしくな。<end>"
 korean = "헤헤. 잘 부탁한다.<end>"
+
+["270127"]
+japanese = "<line-break>副賞　錬剛石<value:$1A>個を手に入れた。<line-break>　<end>"
+korean = "부상으로 연강석 <value:$1A>개를 손에 넣었다.<end>"

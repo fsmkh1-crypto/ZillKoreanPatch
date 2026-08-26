@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1330005"]
+japanese = "期待に応えてみせます<end>"
+korean = "기대에 부응하겠습니다.<end>"
+
+["1330006"]
+japanese = "あなたも希望なのです<end>"
+korean = "당신도 희망입니다.<end>"
+
 ["1330032"]
 japanese = "それは………。<end>"
 korean = "그건……….<end>"
@@ -120,6 +128,10 @@ korean = "핫!<end>"
 japanese = "ベルセーヴァ様！<end>"
 korean = "벨세바 님!<end>"
 
+["1330314"]
+japanese = "未来は、君に託そう。<end>"
+korean = "미래는 네게 맡기겠다.<end>"
+
 ["1330316"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -131,6 +143,10 @@ korean = "핫!<end>"
 ["1330319"]
 japanese = "ベルゼーヴァ様！<end>"
 korean = "벨제바 님!<end>"
+
+["1330323"]
+japanese = "は？　宰相、何を…？<end>"
+korean = "예? 재상, 무슨…?<end>"
 
 ["1330333"]
 japanese = "頼むぞ、<value:$28>。<end>"
