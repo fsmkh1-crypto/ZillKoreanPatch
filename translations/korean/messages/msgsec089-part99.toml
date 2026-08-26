@@ -440,6 +440,10 @@ korean = "에리스의 집무실<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["890545"]
+japanese = "私がエリスだ。<line-break>なんの用か？<end>"
+korean = "내가 에리스다. 무슨 일이지?<end>"
+
 ["890548"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -523,6 +527,10 @@ korean = "에리스의 집무실<end>"
 ["890600"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
+
+["890604"]
+japanese = "私がエリスだ。<line-break>なんの用か？<end>"
+korean = "내가 에리스다. 무슨 일이지?<end>"
 
 ["890606"]
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
