@@ -28,6 +28,10 @@ korean = "이, 이건! 본대는 대체!?<end>"
 japanese = "早いな、<value:$28>。<line-break>わしより先にここにたどり着くとは。<line-break>さすがじゃ。<end>"
 korean = "빠르군, <value:$28>. 나보다 먼저 여기까지 오다니. 역시 대단해.<end>"
 
+["1630032"]
+japanese = "おお、来たか<value:$28>。<line-break>さすがじゃ。<line-break>これでこの戦いの勝ちは決まったわ。<end>"
+korean = "오, 왔구나 <value:$28>. 역시 대단하군. 이걸로 이 싸움은 이긴 것이나 다름없다.<end>"
+
 ["1630035"]
 japanese = "ひざまずくがよい。<end>"
 korean = "무릎을 꿇어라.<end>"

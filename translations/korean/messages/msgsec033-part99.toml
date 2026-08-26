@@ -24,6 +24,10 @@ korean = "어이 어이, 루루안타….<end>"
 japanese = "フリントさんは黙ってて！<end>"
 korean = "플린트 씨는 조용히 해!<end>"
 
+["330026"]
+japanese = "<value:$28>～、<line-break>こっち、こっちだよぉ！<end>"
+korean = "<value:$28>~ 여기, 여기야아!<end>"
+
 ["330027"]
 japanese = "復活の真珠ですね。<line-break>はい、どうぞ。<end>"
 korean = "부활의 진주군요. 네, 여기요.<end>"

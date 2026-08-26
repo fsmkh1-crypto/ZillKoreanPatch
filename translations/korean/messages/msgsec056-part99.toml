@@ -456,6 +456,10 @@ korean = "내버려둬도 괜찮아 보인다<end>"
 japanese = "あ、えと、ありがとうございます！<end>"
 korean = "아, 저기, 감사합니다!<end>"
 
+["560314"]
+japanese = "それじゃ、<value:$28>さん<line-break>失礼します！<end>"
+korean = "그럼 <value:$28>님, 실례하겠습니다!<end>"
+
 ["560318"]
 japanese = "また、施文院の連中なの？<end>"
 korean = "또 시문원 녀석들이야?<end>"

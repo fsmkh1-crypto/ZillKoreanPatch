@@ -124,6 +124,10 @@ korean = "끌어내!<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1730094"]
+japanese = "あら、<value:$28>じゃん。<line-break>オイフェから手紙預かってるんだって？<line-break>どれどれ…<end>"
+korean = "어라, <value:$28>잖아. 오이페에게서 편지를 받아 왔다고? 어디 보자….<end>"
+
 ["1730099"]
 japanese = "シャリ、失敗したようだな。<end>"
 korean = "샤리, 실패한 모양이군.<end>"

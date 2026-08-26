@@ -36,6 +36,10 @@ korean = "이 손님, 취해 있어서….<end>"
 japanese = "ありがとうございますっ！<line-break><value:$28>さん、<line-break>ケガはありませんか？<end>"
 korean = "감사합니다! <value:$28> 씨, 다친 데는 없으세요?<end>"
 
+["300041"]
+japanese = "だ、大丈夫ですかっ？<line-break><value:$28>さん。<end>"
+korean = "괘, 괜찮으세요? <value:$28>님.<end>"
+
 ["300044"]
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"

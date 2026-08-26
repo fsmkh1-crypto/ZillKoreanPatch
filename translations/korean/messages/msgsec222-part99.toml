@@ -8,6 +8,10 @@ korean = "미아 이벤트 5용 시작<end>"
 japanese = "そんなことなら<line-break>おやすい御用だぜ。<line-break>なあ、<value:$28>。<end>"
 korean = "그런 거라면 식은 죽 먹기지. 안 그래, <value:$28>.<end>"
 
+["2220008"]
+japanese = "やめとけ、<value:$28>。<line-break>そんな難しい冒険の話、<line-break>子供にわかるわけねえって。<end>"
+korean = "그만둬, <value:$28>. 그런 어려운 모험 이야기를 애가 알 리 없잖아.<end>"
+
 ["2220011"]
 japanese = "よっ、はっ、とおっ。<end>"
 korean = "얍, 핫, 타앗.<end>"

@@ -32,6 +32,10 @@ korean = "놈들을 붙잡아라.<end>"
 japanese = "ははっ！<end>"
 korean = "하핫!<end>"
 
+["1710013"]
+japanese = "なるほど、冒険者か。<line-break>では、さらばだ<value:$28>。<line-break>旅の無事を祈っておるぞ。<end>"
+korean = "그렇군, 모험자인가. 그럼 잘 가거라, <value:$28>. 여행길의 무사를 빌겠다.<end>"
+
 ["1710025"]
 japanese = "はい。<end>"
 korean = "네.<end>"

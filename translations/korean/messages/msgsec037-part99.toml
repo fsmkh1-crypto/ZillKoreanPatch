@@ -88,6 +88,10 @@ korean = "선장, 고마워.<end>"
 japanese = "…ううん。時間だけじゃない。<end>"
 korean = "…아니. 시간만의 문제가 아니야.<end>"
 
+["370058"]
+japanese = "<value:$28>がそばに<line-break>いてくれたおかげ。<end>"
+korean = "<value:$28>이 곁에 있어 준 덕분이야.<end>"
+
 ["370059"]
 japanese = "…ありがとう。　　　　　<end>"
 korean = "…고마워.<end>"

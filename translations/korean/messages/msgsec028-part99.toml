@@ -32,6 +32,10 @@ korean = "뭐야, 안 가는 거야!?<end>"
 japanese = "ね、やっぱり降りてきたでしょ？<end>"
 korean = "봐, 역시 내려왔지?<end>"
 
+["280018"]
+japanese = "じゃ、行こうか。<line-break><value:$28>、ヴァン。<end>"
+korean = "그럼 가자. <value:$28>, 반.<end>"
+
 ["280022"]
 japanese = "昨日あんな地震があったってのに？<end>"
 korean = "어제 그렇게 지진이 났는데도?<end>"

@@ -148,6 +148,10 @@ korean = "아무것도 없다<end>"
 japanese = "そうか。<end>"
 korean = "그런가.<end>"
 
+["520162"]
+japanese = "では、まいる！<line-break>ノーブル伯<value:$28>！<end>"
+korean = "그럼 간다! 노블 백작 <value:$28>!<end>"
+
 ["520163"]
 japanese = "…ガアアアアッ！<end>"
 korean = "…가아아아악!<end>"

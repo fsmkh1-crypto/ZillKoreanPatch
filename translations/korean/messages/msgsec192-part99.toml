@@ -92,6 +92,10 @@ korean = "아, <value:$28>. 이쪽이야.<end>"
 japanese = "<value:$28>、<line-break>１０分の遅刻よ。<end>"
 korean = "<value:$28>, 10분 늦었어.<end>"
 
+["1920100"]
+japanese = "あ、いたいた。<line-break>待ってー。クリュセイスお姉ちゃん、<line-break><value:$28>お兄ちゃん。<end>"
+korean = "아, 여기 있었네. 기다려ー. 크류세이스 언니, <value:$28> 오빠.<end>"
+
 ["1920107"]
 japanese = "行きましょう、<value:$28>。<end>"
 korean = "가죠, <value:$28>.<end>"

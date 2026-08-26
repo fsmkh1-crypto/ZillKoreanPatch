@@ -4,6 +4,10 @@
 japanese = "ノエル２用メッセージＶ５開始<end>"
 korean = "노엘2용 메시지 V5 시작<end>"
 
+["1870003"]
+japanese = "<value:$28>。<line-break>ノエルの求めに応じて、今すぐに<line-break>竜王の島へ出向く気があるか？<end>"
+korean = "<value:$28>. 노엘의 요청에 응해 지금 당장 용왕의 섬으로 갈 생각이 있나?<end>"
+
 ["1870004"]
 japanese = "今すぐに行く<end>"
 korean = "지금 당장 간다<end>"
