@@ -132,6 +132,10 @@ korean = "착실하다고 해! 착실하다고!<end>"
 japanese = "私に何か？<end>"
 korean = "나한테 무슨 용건이지?<end>"
 
+["560088"]
+japanese = "ノエルの仲間になった理由？　　　　<end>"
+korean = "노엘의 동료가 된 이유?<end>"
+
 ["560094"]
 japanese = "今、何か言った？<end>"
 korean = "방금 뭐라고 했어?<end>"
@@ -372,6 +376,10 @@ korean = "모르겠어.　　　　<end>"
 japanese = "きゃーーーーーーっ！<end>"
 korean = "꺄아아아아아아!<end>"
 
+["560279"]
+japanese = "この香り…　　　　　　　　　　　　<end>"
+korean = "이 향기…<end>"
+
 ["560282"]
 japanese = "見ろ、ダルケニスだ！<end>"
 korean = "봐, 달케니스다!<end>"
@@ -444,6 +452,10 @@ korean = "후후, 상이 받고 싶어?<end>"
 japanese = "また、告死天使だ。<end>"
 korean = "또 고사천사다.<end>"
 
+["560358"]
+japanese = "それじゃ、お互いがんばりましょう。<end>"
+korean = "그럼 서로 힘내죠.<end>"
+
 ["560361"]
 japanese = "<value:$28>、<line-break>調子はどう？<end>"
 korean = "<value:$28>, 상태는 어때?<end>"
@@ -507,6 +519,10 @@ korean = "데몰리시를 습득했다.<end>"
 ["560430"]
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
+
+["560437"]
+japanese = "これは…余計なことを言ったようだ。<end>"
+korean = "이런… 쓸데없는 말을 한 것 같군.<end>"
 
 ["560444"]
 japanese = "追加メッセージここから<end>"

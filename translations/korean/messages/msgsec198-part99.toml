@@ -32,6 +32,10 @@ korean = "기꺼이.<end>"
 japanese = "危険なことに巻き込むわけには…<end>"
 korean = "위험한 일에 휘말리게 할 수는….<end>"
 
+["1980040"]
+japanese = "ありがとうございます、マスター！<end>"
+korean = "감사합니다, 마스터!<end>"
+
 ["1980047"]
 japanese = "は、はい…。<end>"
 korean = "네, 네….<end>"
@@ -72,6 +76,10 @@ korean = "아니요. 있어요.<end>"
 japanese = "はいっ！？<end>"
 korean = "네!?<end>"
 
+["1980108"]
+japanese = "そ、それはどこにあるんですか！？<end>"
+korean = "그, 그건 어디에 있습니까!?<end>"
+
 ["1980110"]
 japanese = "そうなんですか…。<line-break>　<line-break>　<line-break>…よかった。<end>"
 korean = "그런가요…. …다행이다.<end>"
@@ -107,6 +115,10 @@ korean = "전설의 마도기다!<end>"
 ["1980158"]
 japanese = "あっ、<value:$28>さん…。<end>"
 korean = "앗, <value:$28> 씨….<end>"
+
+["1980161"]
+japanese = "えっ？　どうしてって…それは…。<end>"
+korean = "에? 왜냐니… 그건….<end>"
 
 ["1980169"]
 japanese = "これからも一緒にいてほしい<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["700000"]
+japanese = "アーギルシャイアメッセージVOL1-2開始<end>"
+korean = "아길샤이어 메시지 VOL1-2 시작<end>"
+
 ["700005"]
 japanese = "手伝ってもらう<end>"
 korean = "도움을 받는다<end>"
@@ -131,3 +135,7 @@ korean = "누나아.<end>"
 ["700260"]
 japanese = "星のきれいな夜だよね…。<end>"
 korean = "별이 아름다운 밤이네….<end>"
+
+["700291"]
+japanese = "アーギルシャイアメッセージVOL1-2終端<end>"
+korean = "아길샤이어 메시지 VOL1-2 끝<end>"

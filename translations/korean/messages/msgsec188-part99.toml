@@ -20,6 +20,10 @@ korean = "매장금을 발견했다.<end>"
 japanese = "<value:$28>、<line-break>何をしてるの？<line-break>早く行こうよ。<end>"
 korean = "<value:$28>, 뭐 하고 있어? 빨리 가자.<end>"
 
+["1880032"]
+japanese = "わかりました。それではさっそく！<end>"
+korean = "알겠습니다. 그럼 바로!<end>"
+
 ["1880039"]
 japanese = "資金援助の要請に行く<end>"
 korean = "자금 지원 요청하러 간다<end>"
@@ -75,6 +79,14 @@ korean = "어? 방금 뭐라고…?<end>"
 ["1880114"]
 japanese = "１００００ギアを資金提供した。<end>"
 korean = "10000기어를 자금으로 제공했다.<end>"
+
+["1880123"]
+japanese = "難民を救うのも解放軍の義務だから<end>"
+korean = "난민을 구하는 것도 해방군의 의무니까<end>"
+
+["1880124"]
+japanese = "クリュセイスを放っておけないから<end>"
+korean = "크류세이스를 그냥 둘 수 없으니까<end>"
 
 ["1880126"]
 japanese = "でも、わたくしは…。<end>"

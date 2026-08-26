@@ -4,6 +4,10 @@
 japanese = "オッシ、ボリューム５開始<end>"
 korean = "오시 볼륨 5 시작<end>"
 
+["1380012"]
+japanese = "お主にどうしても礼が言いたくてな。<end>"
+korean = "그대에게 꼭 감사 인사를 하고 싶어서 말이지.<end>"
+
 ["1380015"]
 japanese = "本当に感謝しとる。<end>"
 korean = "정말 감사하고 있네.<end>"
@@ -11,6 +15,10 @@ korean = "정말 감사하고 있네.<end>"
 ["1380019"]
 japanese = "お主には感謝してもしきれぬな。<end>"
 korean = "자네에겐 아무리 감사해도 모자라겠군.<end>"
+
+["1380022"]
+japanese = "まさか、受けぬと言わんじゃろうな？<end>"
+korean = "설마 받지 않겠다고 하진 않겠지?<end>"
 
 ["1380026"]
 japanese = "に…にぁぁああ。<line-break> <line-break> <line-break>………………<end>"
@@ -136,6 +144,10 @@ korean = "조금만 더 참아<end>"
 japanese = "ある意味ここが…<end>"
 korean = "어떤 의미에선 여기가…<end>"
 
+["1380198"]
+japanese = "そうそう転がってやしないんだから！<end>"
+korean = "그렇게 흔하게 굴러다니는 게 아니니까!<end>"
+
 ["1380202"]
 japanese = "いいことっ！<end>"
 korean = "좋은 일이야!<end>"
@@ -188,6 +200,10 @@ korean = "그게 네 힘인가….<end>"
 japanese = "その力が最強なのか…。<end>"
 korean = "그 힘이 최강인 건가….<end>"
 
+["1380246"]
+japanese = "それとも、我が力こそ最強なのか…。<end>"
+korean = "아니면 내 힘이야말로 최강인가….<end>"
+
 ["1380248"]
 japanese = "少し考え事をしていた。<end>"
 korean = "잠깐 생각 좀 하고 있었어.<end>"
@@ -207,6 +223,10 @@ korean = "아, 이거?<end>"
 ["1380262"]
 japanese = "でも…やめたんだ。<end>"
 korean = "하지만… 그만뒀어.<end>"
+
+["1380263"]
+japanese = "ぼくは今まで沢山の詩を作ってきた。<end>"
+korean = "나는 지금까지 많은 시를 지어왔어.<end>"
 
 ["1380268"]
 japanese = "うん…。そうだね。<end>"

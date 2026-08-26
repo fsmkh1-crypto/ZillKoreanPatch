@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["710000"]
+japanese = "アーギルシャイアメッセージVOL1-3開始<end>"
+korean = "아길샤이어 메시지 VOL1-3 시작<end>"
+
 ["710027"]
 japanese = "日蝕、です。　　　　　<line-break>　<end>"
 korean = "일식, 입니다.<end>"
@@ -83,3 +87,7 @@ korean = "<value:$28>인가.<end>"
 ["710140"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
+
+["710149"]
+japanese = "アーギルシャイアメッセージVOL1-3終端<end>"
+korean = "아길샤이어 메시지 VOL1-3 끝<end>"

@@ -28,6 +28,10 @@ korean = "실례지만, 성함은….<end>"
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
 
+["620016"]
+japanese = "見ててくれたか？　　　　　　　　　<end>"
+korean = "보고 있었나?<end>"
+
 ["620018"]
 japanese = "恐れずに飛び込んでくるといい。<end>"
 korean = "두려워 말고 뛰어들면 된다.<end>"
@@ -187,6 +191,10 @@ korean = "고블린 같은 건 안 먹어.<end>"
 ["620103"]
 japanese = "ゴブリンが人間を襲うからよ！<end>"
 korean = "고블린이 인간을 습격하니까!<end>"
+
+["620107"]
+japanese = "ゴブリン質になってしまったゴブ～。<end>"
+korean = "고블린 체질이 되어버렸다 고브~.<end>"
 
 ["620110"]
 japanese = "親分！　あいつらゴブ！<end>"

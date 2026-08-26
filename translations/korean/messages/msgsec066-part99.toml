@@ -24,6 +24,10 @@ korean = "임무니까요.<end>"
 japanese = "では、閣下。<end>"
 korean = "그럼, 각하.<end>"
 
+["660009"]
+japanese = "行くべきだろうな。　　　　　　　　<end>"
+korean = "가야겠지.<end>"
+
 ["660012"]
 japanese = "奴らの強さは知っているだろう？<end>"
 korean = "놈들의 강함은 알고 있겠지?<end>"
@@ -76,6 +80,10 @@ korean = "누가 그런 말을!<end>"
 japanese = "ご勝手に！<end>"
 korean = "마음대로 해!<end>"
 
+["660058"]
+japanese = "うぬぼれてるって？　　　　　　　　<end>"
+korean = "자만하고 있다고?<end>"
+
 ["660062"]
 japanese = "ヒマ<end>"
 korean = "한가함<end>"
@@ -123,6 +131,10 @@ korean = "그건 훌륭한 재능이야.<end>"
 ["660118"]
 japanese = "ちゃかさないでください。<end>"
 korean = "놀리지 마세요.<end>"
+
+["660134"]
+japanese = "へぇ、どうわかったのか聞きたいね。<end>"
+korean = "흐음, 어떻게 알았는지 듣고 싶군.<end>"
 
 ["660141"]
 japanese = "え…、もうお帰りですの？<end>"

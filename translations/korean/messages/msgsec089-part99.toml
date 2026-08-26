@@ -32,6 +32,10 @@ korean = "너, 너는… 샤리!!<end>"
 japanese = "…シャリ！<end>"
 korean = "…샤리!<end>"
 
+["890072"]
+japanese = "ボクを…どうしようっていうんだ！？<end>"
+korean = "나를… 어떻게 하려는 거야!?<end>"
+
 ["890080"]
 japanese = "それじゃあ、<line-break>さようなら、<line-break><value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
@@ -43,6 +47,10 @@ korean = "이건…!<end>"
 ["890093"]
 japanese = "（エステル…！）<end>"
 korean = "(에스텔…!)<end>"
+
+["890095"]
+japanese = "（とにかく、助けに行かないと…！）<end>"
+korean = "(어쨌든 구하러 가야 해…!)<end>"
 
 ["890096"]
 japanese = "<value:$28>様！！<end>"
@@ -95,6 +103,10 @@ korean = "아니요<end>"
 ["890154"]
 japanese = "はっ、承知しております。<end>"
 korean = "예, 알고 있습니다.<end>"
+
+["890156"]
+japanese = "ご期待には必ずや沿えると存じます。<end>"
+korean = "기대에 반드시 부응하겠습니다.<end>"
 
 ["890157"]
 japanese = "あ…<end>"
