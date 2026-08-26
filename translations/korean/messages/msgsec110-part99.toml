@@ -8,6 +8,10 @@ korean = "노인을 돕는다<end>"
 japanese = "無視する<end>"
 korean = "무시한다<end>"
 
+["1100007"]
+japanese = "気がついたか？<end>"
+korean = "정신이 들었나?<end>"
+
 ["1100048"]
 japanese = "あなた、誰？<end>"
 korean = "당신, 누구야?<end>"
@@ -28,6 +32,14 @@ korean = "자기브 님!<end>"
 japanese = "今、行くわ。<end>"
 korean = "지금 갈게.<end>"
 
+["1100080"]
+japanese = "…ありがとう。<end>"
+korean = "…고마워.<end>"
+
+["1100081"]
+japanese = "どうしてって？<end>"
+korean = "왜냐고?<end>"
+
 ["1100086"]
 japanese = "その怪物？<end>"
 korean = "그 괴물?<end>"
@@ -43,3 +55,35 @@ korean = "두렵지 않다<end>"
 ["1100115"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
+
+["1100119"]
+japanese = "空きメッセージ<end>"
+korean = "빈 메시지<end>"
+
+["1100120"]
+japanese = "空きメッセージ<end>"
+korean = "빈 메시지<end>"
+
+["1100121"]
+japanese = "空きメッセージ<end>"
+korean = "빈 메시지<end>"
+
+["1100122"]
+japanese = "空きメッセージ<end>"
+korean = "빈 메시지<end>"
+
+["1100123"]
+japanese = "空きメッセージ<end>"
+korean = "빈 메시지<end>"
+
+["1100124"]
+japanese = "空きメッセージ<end>"
+korean = "빈 메시지<end>"
+
+["1100125"]
+japanese = "空きメッセージ<end>"
+korean = "빈 메시지<end>"
+
+["1100126"]
+japanese = "空きメッセージ<end>"
+korean = "빈 메시지<end>"

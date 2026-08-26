@@ -8,6 +8,14 @@ korean = "누구야?<end>"
 japanese = "はい、長老。<end>"
 korean = "네, 장로님.<end>"
 
+["1160071"]
+japanese = "…そうですか。<end>"
+korean = "…그렇습니까.<end>"
+
+["1160072"]
+japanese = "すみ…ません。<end>"
+korean = "죄송…합니다.<end>"
+
 ["1160082"]
 japanese = "…そうです。<end>"
 korean = "…그렇습니다.<end>"
@@ -27,3 +35,11 @@ korean = "알았어<end>"
 ["1160120"]
 japanese = "関係ない<end>"
 korean = "상관없어<end>"
+
+["1160137"]
+japanese = "しょうがないな<end>"
+korean = "어쩔 수 없네<end>"
+
+["1160138"]
+japanese = "関係ないってば<end>"
+korean = "상관없다니까<end>"
