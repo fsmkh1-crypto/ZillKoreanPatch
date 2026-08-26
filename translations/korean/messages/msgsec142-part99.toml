@@ -720,6 +720,10 @@ korean = "안 돼요. 절대 안 돼!<end>"
 japanese = "何用だ…セバスチャン<end>"
 korean = "무슨 용건이냐… 세바스찬.<end>"
 
+["1420588"]
+japanese = "会議中、失礼いたします。<line-break> <line-break> <line-break>レムオン様…お耳を…<end>"
+korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를….<end>"
+
 ["1420589"]
 japanese = "行くのか…<line-break><value:$28><end>"
 korean = "가는 건가… <value:$28><end>"

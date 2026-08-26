@@ -236,6 +236,10 @@ korean = "지키고 싶은 거지?<end>"
 japanese = "…なんだ、小娘？<end>"
 korean = "…뭐냐, 꼬마 아가씨?<end>"
 
+["1610212"]
+japanese = "…<value:$28>が<line-break>そう言うなら…。<end>"
+korean = "…<value:$28>가 그렇게 말한다면….<end>"
+
 ["1610217"]
 japanese = "…では、行くぞ。<end>"
 korean = "…그럼, 간다.<end>"

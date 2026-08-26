@@ -60,6 +60,10 @@ korean = "왜일까?<end>"
 japanese = "幸せになりたいからだ<end>"
 korean = "행복해지고 싶어서야.<end>"
 
+["2370042"]
+japanese = "そうですか。<line-break><value:$28>様にも<line-break>わからないことがあるのですね。<end>"
+korean = "그렇습니까. <value:$28>님도 모르는 것이 있군요.<end>"
+
 ["2370043"]
 japanese = "救いについて<line-break><value:$28>に訊いても<line-break>無意味だよ。<end>"
 korean = "구원에 대해 <value:$28>에게 물어도 소용없어.<end>"
@@ -79,6 +83,10 @@ korean = "왜일까?<end>"
 ["2370060"]
 japanese = "幸せになりたいからだ<end>"
 korean = "행복해지고 싶어서야.<end>"
+
+["2370061"]
+japanese = "そうですか。<line-break><value:$28>様にも<line-break>わからないことがあるのですね。<end>"
+korean = "그렇습니까. <value:$28>님도 모르는 것이 있군요.<end>"
 
 ["2370062"]
 japanese = "救いについて<line-break><value:$28>に訊いても<line-break>無意味だよ。<end>"
