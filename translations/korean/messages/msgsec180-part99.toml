@@ -4,6 +4,10 @@
 japanese = "行く<end>"
 korean = "간다<end>"
 
+["1800017"]
+japanese = "行かない<end>"
+korean = "안 간다<end>"
+
 ["1800112"]
 japanese = "よび<end>"
 korean = "호출<end>"

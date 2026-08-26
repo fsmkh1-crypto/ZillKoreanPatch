@@ -4,6 +4,10 @@
 japanese = "任せて<end>"
 korean = "맡겨<end>"
 
+["1610007"]
+japanese = "勘弁して<end>"
+korean = "봐줘<end>"
+
 ["1610014"]
 japanese = "いいよ<end>"
 korean = "좋아<end>"
@@ -20,17 +24,57 @@ korean = "맡겨<end>"
 japanese = "失礼。<end>"
 korean = "실례.<end>"
 
+["1610041"]
+japanese = "今はいい<end>"
+korean = "지금은 됐어<end>"
+
+["1610057"]
+japanese = "わかった<end>"
+korean = "알았어<end>"
+
+["1610079"]
+japanese = "うるさい<end>"
+korean = "시끄러워<end>"
+
+["1610083"]
+japanese = "任せとけ<end>"
+korean = "맡겨 둬<end>"
+
 ["1610091"]
 japanese = "任せて<end>"
 korean = "맡겨<end>"
+
+["1610092"]
+japanese = "勘弁して<end>"
+korean = "봐줘<end>"
 
 ["1610098"]
 japanese = "任せて<end>"
 korean = "맡겨<end>"
 
+["1610117"]
+japanese = "わかった<end>"
+korean = "알았어<end>"
+
+["1610129"]
+japanese = "任せとけ<end>"
+korean = "맡겨 둬<end>"
+
+["1610169"]
+japanese = "…では。<end>"
+korean = "…그럼.<end>"
+
 ["1610170"]
 japanese = "待て！<end>"
 korean = "기다려!<end>"
+
+["1610175"]
+japanese = "…では。<end>"
+korean = "…그럼.<end>"
+
+["1610182"]
+japanese = "くっ！！<end>"
+korean = "큭!!<end>"
 
 ["1610222"]
 japanese = "待て！<end>"

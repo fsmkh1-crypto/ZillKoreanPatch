@@ -1,5 +1,25 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1760002"]
+japanese = "行けます<end>"
+korean = "갈 수 있습니다<end>"
+
+["1760017"]
+japanese = "押さない<end>"
+korean = "누르지 않는다<end>"
+
 ["1760018"]
 japanese = "押す<end>"
 korean = "누른다<end>"
+
+["1760028"]
+japanese = "引かない<end>"
+korean = "당기지 않는다<end>"
+
+["1760032"]
+japanese = "引かない<end>"
+korean = "당기지 않는다<end>"
+
+["1760075"]
+japanese = "押さない<end>"
+korean = "누르지 않는다<end>"

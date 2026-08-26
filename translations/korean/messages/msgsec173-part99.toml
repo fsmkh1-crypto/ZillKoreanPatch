@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1730010"]
+japanese = "ぎゃっ！<end>"
+korean = "꺅!<end>"
+
+["1730011"]
+japanese = "ぐはっ！<end>"
+korean = "크헉!<end>"
+
+["1730013"]
+japanese = "ぎゃー！<end>"
+korean = "꺄악!<end>"
+
 ["1730023"]
 japanese = "ぐぇ！<end>"
 korean = "끄엑!<end>"
@@ -7,3 +19,11 @@ korean = "끄엑!<end>"
 ["1730084"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1730110"]
+japanese = "メンゴ。<end>"
+korean = "미안.<end>"
+
+["1730119"]
+japanese = "本当に？<end>"
+korean = "정말로?<end>"
