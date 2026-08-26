@@ -4,6 +4,10 @@
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
 
+["310024"]
+japanese = "姉ちゃーん！<end>"
+korean = "누나아!<end>"
+
 ["310046"]
 japanese = "あ！<end>"
 korean = "아!<end>"
@@ -11,6 +15,18 @@ korean = "아!<end>"
 ["310047"]
 japanese = "みんな？<end>"
 korean = "다들?<end>"
+
+["310144"]
+japanese = "姉ちゃん！！<end>"
+korean = "누나!!<end>"
+
+["310161"]
+japanese = "姉ちゃん…。<end>"
+korean = "누나….<end>"
+
+["310163"]
+japanese = "…残念だな。<end>"
+korean = "…아쉽군.<end>"
 
 ["310169"]
 japanese = "兄さん！<end>"
@@ -43,6 +59,14 @@ korean = "어…!?<end>"
 ["310227"]
 japanese = "えっ！？<end>"
 korean = "어!?<end>"
+
+["310267"]
+japanese = "姉ちゃん！！<end>"
+korean = "누나!!<end>"
+
+["310268"]
+japanese = "俺…、俺…。<end>"
+korean = "나… 나….<end>"
 
 ["310278"]
 japanese = "大通り<end>"

@@ -8,6 +8,14 @@ korean = "흐~응.<end>"
 japanese = "そうだよ。<end>"
 korean = "그래.<end>"
 
+["330048"]
+japanese = "ぶひゃっ！！<end>"
+korean = "부햑!!<end>"
+
+["330055"]
+japanese = "…フリント？<end>"
+korean = "…플린트?<end>"
+
 ["330061"]
 japanese = "…あの人？<end>"
 korean = "…그 사람?<end>"
@@ -28,6 +36,10 @@ korean = "흐응.<end>"
 japanese = "バカ野郎！<end>"
 korean = "바보 자식!<end>"
 
+["330128"]
+japanese = "…わかった。<end>"
+korean = "…알았어.<end>"
+
 ["330157"]
 japanese = "…ねぇ。<end>"
 korean = "…있잖아.<end>"
@@ -39,6 +51,10 @@ korean = "…있잖아.<end>"
 ["330186"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["330202"]
+japanese = "用意はできた<end>"
+korean = "준비됐다<end>"
 
 ["330203"]
 japanese = "もう少し…<end>"

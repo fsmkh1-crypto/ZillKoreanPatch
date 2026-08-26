@@ -68,6 +68,34 @@ korean = "서코트<end>"
 japanese = "ホーバーク<end>"
 korean = "호버크<end>"
 
+["170149"]
+japanese = "バンディッド<end>"
+korean = "밴디트<end>"
+
+["170158"]
+japanese = "リングメイル<end>"
+korean = "링 메일<end>"
+
+["170161"]
+japanese = "フルチェイン<end>"
+korean = "풀 체인<end>"
+
+["170165"]
+japanese = "フルスケール<end>"
+korean = "풀 스케일<end>"
+
+["170166"]
+japanese = "パラディーム<end>"
+korean = "팔라디움<end>"
+
+["170221"]
+japanese = "オープニング<end>"
+korean = "오프닝<end>"
+
+["170222"]
+japanese = "エンディング<end>"
+korean = "엔딩<end>"
+
 ["170223"]
 japanese = "竜王の覚醒<end>"
 korean = "용왕의 각성<end>"
@@ -280,6 +308,18 @@ korean = "달성<end>"
 japanese = "魔境<end>"
 korean = "마경<end>"
 
+["170290"]
+japanese = "森の雰囲気音<end>"
+korean = "숲의 환경음<end>"
+
+["170291"]
+japanese = "夜の雰囲気音<end>"
+korean = "밤의 환경음<end>"
+
 ["170292"]
 japanese = "歓声<end>"
 korean = "환호<end>"
+
+["170293"]
+japanese = "夢の雰囲気音<end>"
+korean = "꿈의 환경음<end>"

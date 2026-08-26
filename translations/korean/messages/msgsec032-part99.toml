@@ -24,6 +24,10 @@ korean = "……야.<end>"
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
 
+["320049"]
+japanese = "な、何事だ？<end>"
+korean = "무, 무슨 일이지?<end>"
+
 ["320070"]
 japanese = "…罠か。<end>"
 korean = "…함정인가.<end>"
@@ -43,6 +47,10 @@ korean = "！<end>"
 ["320087"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"
+
+["320091"]
+japanese = "お前の名は？<end>"
+korean = "네 이름은?<end>"
 
 ["320108"]
 japanese = "…来い。<end>"

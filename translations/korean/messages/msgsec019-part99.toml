@@ -72,6 +72,10 @@ korean = "아트레이아<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190045"]
+japanese = "アンギルダン<end>"
+korean = "앙길단<end>"
+
 ["190046"]
 japanese = "反骨の名将<end>"
 korean = "반골의 명장<end>"
@@ -80,9 +84,17 @@ korean = "반골의 명장<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190050"]
+japanese = "アンギルダン<end>"
+korean = "앙길단<end>"
+
 ["190052"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190055"]
+japanese = "アンギルダン<end>"
+korean = "앙길단<end>"
 
 ["190056"]
 japanese = "真紅の戦匠<end>"
@@ -96,6 +108,10 @@ korean = "인간<end>"
 japanese = "アンティノ<end>"
 korean = "안티노<end>"
 
+["190061"]
+japanese = "恐怖の魔獣商<end>"
+korean = "공포의 마수상<end>"
+
 ["190062"]
 japanese = "人間<end>"
 korean = "인간<end>"
@@ -103,6 +119,10 @@ korean = "인간<end>"
 ["190065"]
 japanese = "アンティノ<end>"
 korean = "안티노<end>"
+
+["190066"]
+japanese = "浅慮の魔獣商<end>"
+korean = "경솔한 마수상<end>"
 
 ["190067"]
 japanese = "人間<end>"
@@ -112,13 +132,25 @@ korean = "인간<end>"
 japanese = "アンティノ<end>"
 korean = "안티노<end>"
 
+["190071"]
+japanese = "我執の魔獣商<end>"
+korean = "아집의 마수상<end>"
+
 ["190072"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190075"]
+japanese = "イークレムン<end>"
+korean = "이크레문<end>"
+
 ["190077"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190080"]
+japanese = "イークレムン<end>"
+korean = "이크레문<end>"
 
 ["190082"]
 japanese = "人間<end>"
@@ -156,25 +188,49 @@ korean = "수수께끼의 모험가<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190106"]
+japanese = "愛されし女性<end>"
+korean = "사랑받는 여성<end>"
+
 ["190107"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190111"]
+japanese = "消え去った娘<end>"
+korean = "사라진 소녀<end>"
 
 ["190112"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190116"]
+japanese = "消え去った娘<end>"
+korean = "사라진 소녀<end>"
+
 ["190117"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190120"]
+japanese = "ヴァイライラ<end>"
+korean = "바일라이라<end>"
 
 ["190122"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190125"]
+japanese = "ヴァイライラ<end>"
+korean = "바일라이라<end>"
+
 ["190127"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190131"]
+japanese = "開け放つもの<end>"
+korean = "열어젖히는 자<end>"
 
 ["190132"]
 japanese = "魔人<end>"
@@ -196,9 +252,25 @@ korean = "반<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190145"]
+japanese = "ヴィアリアリ<end>"
+korean = "비아리아리<end>"
+
+["190146"]
+japanese = "雌狐のルビー<end>"
+korean = "암여우의 루비<end>"
+
 ["190147"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190150"]
+japanese = "ヴィアリアリ<end>"
+korean = "비아리아리<end>"
+
+["190151"]
+japanese = "雌狐のルビー<end>"
+korean = "암여우의 루비<end>"
 
 ["190152"]
 japanese = "人間<end>"
@@ -223,6 +295,10 @@ korean = "에아<end>"
 ["190162"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190166"]
+japanese = "冒険者の少女<end>"
+korean = "모험가 소녀<end>"
 
 ["190167"]
 japanese = "人間<end>"
@@ -260,9 +336,17 @@ korean = "에리스<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190195"]
+japanese = "エリュマルク<end>"
+korean = "에류마르크<end>"
+
 ["190197"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190200"]
+japanese = "エリュマルク<end>"
+korean = "에류마르크<end>"
 
 ["190202"]
 japanese = "人間<end>"
@@ -312,13 +396,33 @@ korean = "다크 엘프<end>"
 japanese = "オルナット<end>"
 korean = "올나트<end>"
 
+["190226"]
+japanese = "ゴブゴブ団員<end>"
+korean = "고브고브단원<end>"
+
+["190230"]
+japanese = "オルファウス<end>"
+korean = "오르파우스<end>"
+
 ["190232"]
 japanese = "人間？<end>"
 korean = "인간?<end>"
 
+["190235"]
+japanese = "オルファウス<end>"
+korean = "오르파우스<end>"
+
 ["190237"]
 japanese = "エルフ<end>"
 korean = "엘프<end>"
+
+["190240"]
+japanese = "オルファウス<end>"
+korean = "오르파우스<end>"
+
+["190241"]
+japanese = "クィーダロア<end>"
+korean = "퀴다로아<end>"
 
 ["190242"]
 japanese = "エルフ<end>"
@@ -388,13 +492,29 @@ korean = "인간<end>"
 japanese = "ガント<end>"
 korean = "간트<end>"
 
+["190285"]
+japanese = "クリュセイス<end>"
+korean = "크리세이스<end>"
+
 ["190287"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190290"]
+japanese = "クリュセイス<end>"
+korean = "크리세이스<end>"
+
 ["190292"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190295"]
+japanese = "ケリュネイア<end>"
+korean = "케리네이아<end>"
+
+["190297"]
+japanese = "ハーフエルフ<end>"
+korean = "하프엘프<end>"
 
 ["190300"]
 japanese = "ザギヴ<end>"
@@ -447,6 +567,10 @@ korean = "셰스터<end>"
 ["190327"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190330"]
+japanese = "システィーナ<end>"
+korean = "시스티나<end>"
 
 ["190332"]
 japanese = "人間<end>"
@@ -504,13 +628,29 @@ korean = "콘스<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190373"]
+japanese = "　４月　４日<end>"
+korean = "　4월 4일<end>"
+
+["190376"]
+japanese = "追い求める者<end>"
+korean = "뒤쫓는 자<end>"
+
 ["190377"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["190378"]
+japanese = "　４月　４日<end>"
+korean = "　4월 4일<end>"
+
 ["190382"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["190383"]
+japanese = "　４月　４日<end>"
+korean = "　4월 4일<end>"
 
 ["190385"]
 japanese = "ジンガ<end>"

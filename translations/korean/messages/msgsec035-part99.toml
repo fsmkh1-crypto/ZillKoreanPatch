@@ -1,12 +1,56 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["350104"]
+japanese = "ロセン：広場<end>"
+korean = "로센: 광장<end>"
+
+["350109"]
+japanese = "ロセン：酒場<end>"
+korean = "로센: 술집<end>"
+
 ["350121"]
 japanese = "ロセン：港<end>"
 korean = "로센: 항구<end>"
 
+["350173"]
+japanese = "エルズ：広場<end>"
+korean = "엘즈: 광장<end>"
+
+["350174"]
+japanese = "エルズ：下都<end>"
+korean = "엘즈: 하도<end>"
+
 ["350186"]
 japanese = "エルズ：港<end>"
 korean = "엘즈: 항구<end>"
+
+["350229"]
+japanese = "テラネ：広場<end>"
+korean = "테라네: 광장<end>"
+
+["350233"]
+japanese = "テラネ：酒場<end>"
+korean = "테라네: 술집<end>"
+
+["350237"]
+japanese = "テラネ：教会<end>"
+korean = "테라네: 교회<end>"
+
+["350240"]
+japanese = "テラネ：倉庫<end>"
+korean = "테라네: 창고<end>"
+
+["350255"]
+japanese = "アミラル：港<end>"
+korean = "아미랄: 항구<end>"
+
+["350267"]
+japanese = "猫屋敷：居間<end>"
+korean = "고양이 저택: 거실<end>"
+
+["350268"]
+japanese = "猫屋敷：寝室<end>"
+korean = "고양이 저택: 침실<end>"
 
 ["350270"]
 japanese = "賢者の森１<end>"
@@ -27,6 +71,26 @@ korean = "현자의 숲4<end>"
 ["350274"]
 japanese = "賢者の森５<end>"
 korean = "현자의 숲5<end>"
+
+["350275"]
+japanese = "死竜の洞窟１<end>"
+korean = "사룡의 동굴 1<end>"
+
+["350276"]
+japanese = "死竜の洞窟２<end>"
+korean = "사룡의 동굴 2<end>"
+
+["350277"]
+japanese = "死竜の洞窟３<end>"
+korean = "사룡의 동굴 3<end>"
+
+["350278"]
+japanese = "死竜の洞窟４<end>"
+korean = "사룡의 동굴 4<end>"
+
+["350279"]
+japanese = "死竜の洞窟５<end>"
+korean = "사룡의 동굴 5<end>"
 
 ["350280"]
 japanese = "死竜の墓場<end>"
@@ -100,6 +164,82 @@ korean = "금족의 숲4<end>"
 japanese = "禁足の森５<end>"
 korean = "금족의 숲5<end>"
 
+["350320"]
+japanese = "城塞都市跡１<end>"
+korean = "성새도시 터 1<end>"
+
+["350321"]
+japanese = "城塞都市跡２<end>"
+korean = "성새도시 터 2<end>"
+
+["350322"]
+japanese = "城塞都市跡３<end>"
+korean = "성새도시 터 3<end>"
+
+["350323"]
+japanese = "城塞都市跡４<end>"
+korean = "성새도시 터 4<end>"
+
+["350324"]
+japanese = "城塞都市跡５<end>"
+korean = "성새도시 터 5<end>"
+
+["350325"]
+japanese = "城塞都市跡６<end>"
+korean = "성새도시 터 6<end>"
+
+["350326"]
+japanese = "城塞都市跡７<end>"
+korean = "성새도시 터 7<end>"
+
+["350327"]
+japanese = "城塞都市跡８<end>"
+korean = "성새도시 터 8<end>"
+
+["350328"]
+japanese = "城塞都市跡９<end>"
+korean = "성새도시 터 9<end>"
+
+["350329"]
+japanese = "ゼグナ鉱山１<end>"
+korean = "제그나 광산 1<end>"
+
+["350330"]
+japanese = "ゼグナ鉱山２<end>"
+korean = "제그나 광산 2<end>"
+
+["350331"]
+japanese = "ゼグナ鉱山３<end>"
+korean = "제그나 광산 3<end>"
+
+["350332"]
+japanese = "ゼグナ鉱山４<end>"
+korean = "제그나 광산 4<end>"
+
+["350333"]
+japanese = "ゼグナ鉱山５<end>"
+korean = "제그나 광산 5<end>"
+
+["350334"]
+japanese = "ゼグナ鉱山６<end>"
+korean = "제그나 광산 6<end>"
+
+["350335"]
+japanese = "ゼグナ鉱山７<end>"
+korean = "제그나 광산 7<end>"
+
+["350336"]
+japanese = "ゼグナ鉱山８<end>"
+korean = "제그나 광산 8<end>"
+
+["350337"]
+japanese = "ゼグナ鉱山９<end>"
+korean = "제그나 광산 9<end>"
+
+["350343"]
+japanese = "神々の戦場２<end>"
+korean = "신들의 전장 2<end>"
+
 ["350344"]
 japanese = "未開の森１<end>"
 korean = "미개의 숲1<end>"
@@ -171,6 +311,30 @@ korean = "용왕의 섬5<end>"
 ["350361"]
 japanese = "竜王の島６<end>"
 korean = "용왕의 섬6<end>"
+
+["350366"]
+japanese = "虹色の山脈１<end>"
+korean = "무지갯빛 산맥 1<end>"
+
+["350367"]
+japanese = "虹色の山脈２<end>"
+korean = "무지갯빛 산맥 2<end>"
+
+["350368"]
+japanese = "虹色の山脈３<end>"
+korean = "무지갯빛 산맥 3<end>"
+
+["350369"]
+japanese = "虹色の山脈４<end>"
+korean = "무지갯빛 산맥 4<end>"
+
+["350370"]
+japanese = "虹色の山脈５<end>"
+korean = "무지갯빛 산맥 5<end>"
+
+["350371"]
+japanese = "虹色の山脈６<end>"
+korean = "무지갯빛 산맥 6<end>"
 
 ["350411"]
 japanese = "アハブ１<end>"
