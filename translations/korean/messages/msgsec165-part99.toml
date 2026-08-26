@@ -16,6 +16,10 @@ korean = "적 1체에 수속성 공격<end>"
 japanese = "敵１体を毒状態にする<end>"
 korean = "적 1명을 독 상태로 만든다.<end>"
 
+["1650005"]
+japanese = "敵から一定時間見えなくなる<end>"
+korean = "일정 시간 적에게 보이지 않게 된다<end>"
+
 ["1650006"]
 japanese = "敵１体に土属性攻撃<end>"
 korean = "적 1체에 토속성 공격<end>"
@@ -132,6 +136,14 @@ korean = "적 전체에 풍속성 공격<end>"
 japanese = "味方１人にバリアをはる<end>"
 korean = "아군 1명에게 배리어를 친다<end>"
 
+["1650037"]
+japanese = "敵全体に巨大な火の玉で攻撃<end>"
+korean = "적 전체를 거대한 불덩이로 공격<end>"
+
+["1650038"]
+japanese = "敵１体のＡＧＩを半分にする<end>"
+korean = "적 1명의 AGI를 절반으로 낮춘다<end>"
+
 ["1650039"]
 japanese = "敵１体に強力な毒素で攻撃<end>"
 korean = "적 1체를 강력한 독소로 공격<end>"
@@ -143,6 +155,10 @@ korean = "적 1체를 낙뢰로 공격<end>"
 ["1650041"]
 japanese = "敵全体に雷嵐で攻撃<end>"
 korean = "적 전체를 뇌폭풍으로 공격<end>"
+
+["1650042"]
+japanese = "味方１人に魔法バリアをはる<end>"
+korean = "아군 1명에게 마법 장벽을 친다<end>"
 
 ["1650043"]
 japanese = "敵１体に光線で攻撃<end>"
@@ -159,6 +175,10 @@ korean = "대폭발로 적 전체를 공격한다.<end>"
 ["1650046"]
 japanese = "味方１人のＨＰを回復<end>"
 korean = "아군 1명의 HP를 회복한다.<end>"
+
+["1650047"]
+japanese = "味方１人のＨＰを大幅に回復<end>"
+korean = "아군 1명의 HP를 크게 회복<end>"
 
 ["1650048"]
 japanese = "味方全員のＨＰを回復<end>"

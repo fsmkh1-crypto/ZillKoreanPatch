@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1540007"]
+japanese = "…姉さんは死を望んでいた。<end>"
+korean = "…누나는 죽음을 바라고 있었어.<end>"
+
 ["1540015"]
 japanese = "嫌いだろ？<end>"
 korean = "싫어하잖아?<end>"
@@ -8,6 +12,10 @@ korean = "싫어하잖아?<end>"
 japanese = "逃げるんだ、<value:$28>！<end>"
 korean = "도망쳐, <value:$28>!<end>"
 
+["1540035"]
+japanese = "エルファスが仲間になった。<end>"
+korean = "엘파스가 동료가 되었다.<end>"
+
 ["1540036"]
 japanese = "逃げるんだ、<value:$28>！<end>"
 korean = "도망쳐, <value:$28>!<end>"
@@ -15,6 +23,10 @@ korean = "도망쳐, <value:$28>!<end>"
 ["1540039"]
 japanese = "…えっ？<line-break>　<line-break>　<line-break>僕を…仲間に…？<end>"
 korean = "…어? 나를… 동료로…?<end>"
+
+["1540040"]
+japanese = "エルファスが仲間になった。<end>"
+korean = "엘파스가 동료가 되었다.<end>"
 
 ["1540044"]
 japanese = "やめてくれ、シャリ！<end>"
@@ -28,9 +40,17 @@ korean = "도망쳐, <value:$28>!"
 japanese = "それはできない。<end>"
 korean = "그건 못 해.<end>"
 
+["1540050"]
+japanese = "うーん、理解に苦しむなぁ。<end>"
+korean = "음, 이해하기 어렵군.<end>"
+
 ["1540052"]
 japanese = "それも違う。<end>"
 korean = "그것도 아니야.<end>"
+
+["1540053"]
+japanese = "じゃあ、どういうことだい？<end>"
+korean = "그럼, 무슨 뜻이지?<end>"
 
 ["1540063"]
 japanese = "やめてくれ、シャリ！<end>"
@@ -51,6 +71,10 @@ korean = "그런 걸 내가 알 게 뭐야.<end>"
 ["1540115"]
 japanese = "ウフフ…。<end>"
 korean = "우후후….<end>"
+
+["1540118"]
+japanese = "ゾフォル爺さん、頼んだよ。<end>"
+korean = "조폴 영감, 부탁할게.<end>"
 
 ["1540126"]
 japanese = "エルファス…。<end>"

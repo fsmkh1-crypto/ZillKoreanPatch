@@ -4,6 +4,10 @@
 japanese = "未使用<end>"
 korean = "미사용<end>"
 
+["1480015"]
+japanese = "そんじゃ、行ってみますか。<end>"
+korean = "그럼, 가보자.<end>"
+
 ["1480016"]
 japanese = "あ…、<value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"

@@ -24,6 +24,10 @@ korean = "네놈! 누구냐!<end>"
 japanese = "くせ者だ！　捕らえろ！<end>"
 korean = "수상한 자다! 잡아라!<end>"
 
+["1510040"]
+japanese = "君の名…、聞いておきたい。<end>"
+korean = "네 이름… 들어두고 싶어.<end>"
+
 ["1510042"]
 japanese = "気が付いたようだね。<end>"
 korean = "정신이 든 모양이군.<end>"
@@ -35,6 +39,10 @@ korean = "정신이 든 모양이군.<end>"
 ["1510047"]
 japanese = "気が付いたようだね。<end>"
 korean = "정신이 든 모양이군.<end>"
+
+["1510051"]
+japanese = "君の名…、聞いておきたい。<end>"
+korean = "네 이름… 들어두고 싶어.<end>"
 
 ["1510054"]
 japanese = "はわわわわ～～～！<end>"
@@ -48,6 +56,10 @@ korean = "으아아악!<end>"
 japanese = "エルファス様…。<end>"
 korean = "엘파스 님….<end>"
 
+["1510062"]
+japanese = "この子は助かりましょうか？<end>"
+korean = "이 아이는 살 수 있을까요?<end>"
+
 ["1510065"]
 japanese = "貴様が救世主か？<end>"
 korean = "네놈이 구세주냐?<end>"
@@ -56,9 +68,17 @@ korean = "네놈이 구세주냐?<end>"
 japanese = "なんだと！<end>"
 korean = "뭐라고!<end>"
 
+["1510079"]
+japanese = "キャーッ！　　　　　　　　<end>"
+korean = "꺄악!<end>"
+
 ["1510081"]
 japanese = "エルファスを助ける<end>"
 korean = "엘파스를 돕는다<end>"
+
+["1510082"]
+japanese = "エルファスを助けに行かない<end>"
+korean = "엘파스를 도우러 가지 않는다<end>"
 
 ["1510084"]
 japanese = "クッ、覚えてろ！<end>"
@@ -83,6 +103,10 @@ korean = "…고마…워.<end>"
 ["1510096"]
 japanese = "何を！<end>"
 korean = "뭐라고!<end>"
+
+["1510097"]
+japanese = "う、うぅ。　　　　　　　　<end>"
+korean = "으, 으으….<end>"
 
 ["1510101"]
 japanese = "ママ！<end>"

@@ -12,6 +12,10 @@ korean = "아, <value:$28> 씨!<end>"
 japanese = "やあ、久しぶりだね。<end>"
 korean = "이야, 오랜만이군.<end>"
 
+["1420013"]
+japanese = "ノエルが元気そうで安心した<end>"
+korean = "노엘이 건강해 보여서 안심했어.<end>"
+
 ["1420021"]
 japanese = "え？　あの、えと…<end>"
 korean = "어? 저기, 그게….<end>"
@@ -39,6 +43,10 @@ korean = "그럼 실례하지.<end>"
 ["1420048"]
 japanese = "やぁ、君か。<end>"
 korean = "여어, 너구나.<end>"
+
+["1420071"]
+japanese = "…これでよかったのですか？<end>"
+korean = "…이걸로 괜찮았던 건가요?<end>"
 
 ["1420075"]
 japanese = "後ろ、向いてください。<end>"
@@ -216,6 +224,10 @@ korean = "귀찮긴 하지만.<end>"
 japanese = "出発だな。<end>"
 korean = "출발이군.<end>"
 
+["1420317"]
+japanese = "どうした？　行かないのか？<end>"
+korean = "왜 그래? 안 가는 거야?<end>"
+
 ["1420319"]
 japanese = "<value:$28>、<line-break>おぬしがいては、<line-break>解散できぬではないか！<end>"
 korean = "<value:$28>, 자네가 있으면 해산할 수가 없지 않나!<end>"
@@ -343,6 +355,10 @@ korean = "크와악!<end>"
 ["1420407"]
 japanese = "う、うわぁあああ！！<end>"
 korean = "우, 우와아아아!!<end>"
+
+["1420409"]
+japanese = "お前が手を汚す必要はない。<end>"
+korean = "네가 손을 더럽힐 필요는 없어.<end>"
 
 ["1420414"]
 japanese = "追加メッセージここから<end>"
@@ -656,6 +672,14 @@ korean = "귀찮긴 하지만.<end>"
 japanese = "出発だな。<end>"
 korean = "출발이군.<end>"
 
+["1420667"]
+japanese = "どうした？　行かないのか？<end>"
+korean = "왜 그래? 안 가는 거야?<end>"
+
 ["1420669"]
 japanese = "<value:$28>、<line-break>おぬしがいては、<line-break>解散できぬではないか！<end>"
 korean = "<value:$28>, 자네가 있으면 해산할 수가 없지 않나!<end>"
+
+["1420672"]
+japanese = "ノエル用メッセージＶ４終端<end>"
+korean = "노엘용 메시지 V4 끝<end>"

@@ -12,6 +12,14 @@ korean = "준비됐다<end>"
 japanese = "まだ準備中<end>"
 korean = "아직 준비 중<end>"
 
+["1470062"]
+japanese = "そんじゃ、行くとしますか。<end>"
+korean = "그럼, 가볼까.<end>"
+
+["1470063"]
+japanese = "ん、なんだあ、てめえは！？<end>"
+korean = "응? 뭐야, 넌!?<end>"
+
 ["1470096"]
 japanese = "ワハハ、死んでたまるか。<end>"
 korean = "와하하, 죽을 수야 없지.<end>"
@@ -19,6 +27,10 @@ korean = "와하하, 죽을 수야 없지.<end>"
 ["1470103"]
 japanese = "そいつは構わないが…。<end>"
 korean = "그건 상관없지만….<end>"
+
+["1470106"]
+japanese = "おお、そうさせてもらおう。<end>"
+korean = "그래, 그렇게 하지.<end>"
 
 ["1470110"]
 japanese = "わけを聞きたいかい？<end>"

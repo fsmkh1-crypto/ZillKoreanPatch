@@ -8,6 +8,10 @@ korean = "내가 무서워?<end>"
 japanese = "何がおかしいの！？<end>"
 korean = "뭐가 우스운 거야!?<end>"
 
+["1450005"]
+japanese = "すみません。もう笑いません<end>"
+korean = "미안해요. 이제 안 웃을게요.<end>"
+
 ["1450011"]
 japanese = "こんな話、退屈？<end>"
 korean = "이런 얘기, 지루해?<end>"
@@ -19,6 +23,10 @@ korean = "지루함<end>"
 ["1450013"]
 japanese = "そうでもない<end>"
 korean = "그렇지도 않아<end>"
+
+["1450020"]
+japanese = "わかった。いつか、きっと…<end>"
+korean = "알겠어. 언젠가 꼭….<end>"
 
 ["1450021"]
 japanese = "そんなことはできない<end>"
