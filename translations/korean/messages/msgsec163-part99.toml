@@ -48,6 +48,10 @@ korean = "무릎을 꿇어라.<end>"
 japanese = "スキル<line-break>グロリアシルドを手に入れた。<end>"
 korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
 
+["1630039"]
+japanese = "<value:$28>、<line-break>まずまずの戦功じゃな。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに励んでくれ。<line-break>期待しておるぞ。<end>"
+korean = "<value:$28>, 제법 전공을 세웠구나. 이건 포상이다. 더욱 힘써라. 기대하고 있다.<end>"
+
 ["1630050"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적습이다!<end>"
@@ -91,6 +95,10 @@ korean = "장군! 무사하셨습니까.<end>"
 ["1630074"]
 japanese = "おう、よいところに来た。<line-break>全軍に伝えよ。<end>"
 korean = "오, 마침 잘 왔다. 전군에 전해라.<end>"
+
+["1630078"]
+japanese = "生き残ったディンガル兵は、　<line-break>ドワーフの王国を抜け、<line-break>ディンガル領内に撤退。<line-break>ゼネテスは、追撃しなかった。<end>"
+korean = "살아남은 딘갈 병사들은 드워프 왕국을 빠져나와 딘갈 영내로 철수했다. 제네테스는 추격하지 않았다.<end>"
 
 ["1630083"]
 japanese = "敵の略奪部隊の場所がわかりました！<end>"

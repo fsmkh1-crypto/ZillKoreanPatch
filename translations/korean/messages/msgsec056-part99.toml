@@ -504,6 +504,10 @@ korean = "노엘!　<end>"
 japanese = "どうした？<end>"
 korean = "왜 그래?<end>"
 
+["560245"]
+japanese = "…ナーシェスか？<line-break>竜王の意図を聞いたんだな。<end>"
+korean = "…나셰스인가? 용왕의 뜻을 들었구나.<end>"
+
 ["560247"]
 japanese = "この感じ…！<end>"
 korean = "이 느낌…!<end>"
@@ -539,6 +543,10 @@ korean = "레이븐….<end>"
 ["560260"]
 japanese = "そうよ。幸せなくらいバカにできてる。<end>"
 korean = "그래. 행복할 정도로 바보 취급할 수 있어.<end>"
+
+["560261"]
+japanese = "うらやましいな…。<line-break>私には許されない幸せだ。<end>"
+korean = "부럽군…. 내게는 허락되지 않은 행복이야.<end>"
 
 ["560262"]
 japanese = "やっぱり…。　　　　　　　<end>"
@@ -632,6 +640,14 @@ korean = "이제 와서 도망치려 해도 그렇게는 안 돼.<end>"
 japanese = "…だろ？　ノエル。　　　<line-break>　<end>"
 korean = "…그렇지? 노엘.<end>"
 
+["560304"]
+japanese = "やめてください！<line-break>戦わなくてもすむはずです！<end>"
+korean = "그만하세요! 싸우지 않아도 될 겁니다!<end>"
+
+["560305"]
+japanese = "ノエル！　下がってろ！<line-break>何を言っても無駄だ！<end>"
+korean = "노엘! 물러서! 무슨 말을 해도 소용없어!<end>"
+
 ["560306"]
 japanese = "助けなくては！<end>"
 korean = "도와야 해!<end>"
@@ -684,6 +700,10 @@ korean = "후후, 상이 받고 싶어?<end>"
 japanese = "いいのよ。<line-break>正直に言ってごらんなさい。<end>"
 korean = "괜찮아.솔직하게 말해 봐.<end>"
 
+["560334"]
+japanese = "カフィン…、<line-break>子供をからかうもんじゃないよ。<end>"
+korean = "카핀…, 아이를 놀리면 안 돼.<end>"
+
 ["560337"]
 japanese = "また、告死天使だ。<end>"
 korean = "또 고사천사다.<end>"
@@ -692,13 +712,61 @@ korean = "또 고사천사다.<end>"
 japanese = "どうして、<line-break>わたしたちを、ねらうのかな…。<end>"
 korean = "왜… 우리를 노리는 걸까….<end>"
 
+["560339"]
+japanese = "ノエルが望むなら、<line-break>今度、問いつめてあげる。<end>"
+korean = "노엘이 원한다면 다음에 내가 따져 줄게.<end>"
+
+["560340"]
+japanese = "無駄だ。簡単に口を割るような<line-break>連中じゃない。<end>"
+korean = "소용없어. 쉽게 입을 열 녀석들이 아니야.<end>"
+
 ["560341"]
 japanese = "あたしの美貌には<line-break>逆らえないわ。<end>"
 korean = "내 미모에는 거역할 수 없지.<end>"
 
+["560343"]
+japanese = "予備メッセージ１<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 1 노엘, 볼륨 1 그 2<end>"
+
+["560344"]
+japanese = "予備メッセージ２<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 2 노엘, 볼륨 1 그 2<end>"
+
+["560345"]
+japanese = "予備メッセージ３<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 3 노엘, 볼륨 1 그 2<end>"
+
+["560346"]
+japanese = "予備メッセージ４<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 4 노엘, 볼륨 1 그 2<end>"
+
+["560347"]
+japanese = "予備メッセージ５<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 5 노엘, 볼륨 1 그 2<end>"
+
+["560348"]
+japanese = "予備メッセージ６<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 6 노엘, 볼륨 1 그 2<end>"
+
+["560349"]
+japanese = "予備メッセージ７<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 7 노엘, 볼륨 1 그 2<end>"
+
+["560350"]
+japanese = "予備メッセージ８<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 8 노엘, 볼륨 1 그 2<end>"
+
+["560351"]
+japanese = "予備メッセージ９<line-break>ノエル、ボリューム１その２<end>"
+korean = "예비 메시지 9 노엘, 볼륨 1 그 2<end>"
+
 ["560353"]
 japanese = "<value:$28>、<line-break>こんなところで会うなんて珍しいわね。<end>"
 korean = "<value:$28>, 이런 곳에서 만나다니 드문 일이네.<end>"
+
+["560354"]
+japanese = "私？<line-break>ちょっとしたお使い。<line-break>そっちは？<end>"
+korean = "나? 잠깐 심부름. 너는?<end>"
 
 ["560356"]
 japanese = "<value:$28><line-break>そっちの調子はどう？<end>"
@@ -739,6 +807,10 @@ korean = "<value:$28>, 그쪽은 어때?<end>"
 ["560376"]
 japanese = "<value:$28>、<line-break>こんな所で何をしている！<end>"
 korean = "<value:$28>, 이런 데서 뭐 하고 있어!<end>"
+
+["560382"]
+japanese = "長生きしたいのなら<line-break>そのつもりでいることね。<end>"
+korean = "오래 살고 싶다면 그럴 각오는 해 둬.<end>"
 
 ["560383"]
 japanese = "追加メッセージここから<end>"
@@ -783,6 +855,10 @@ korean = "이클레문 님…<end>"
 ["560402"]
 japanese = "申しわけありません、神官長様。<end>"
 korean = "죄송합니다, 신관장님.<end>"
+
+["560403"]
+japanese = "イークレムン様。<line-break>まもなく着きます。お早く。<end>"
+korean = "이크레문 님. 곧 도착합니다. 서두르십시오.<end>"
 
 ["560404"]
 japanese = "<value:$28>さん。<line-break>もし、お時間があるのでしたら、<line-break>神殿を訪ねてくださいね。<end>"

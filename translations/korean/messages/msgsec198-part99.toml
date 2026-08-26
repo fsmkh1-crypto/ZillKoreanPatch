@@ -172,6 +172,10 @@ korean = "이상한 소리를 하는군.<end>"
 japanese = "俺は俺だよ。　変わったりしない<end>"
 korean = "난 나야. 변하지 않아.<end>"
 
+["1980123"]
+japanese = "よかった…。<line-break>変わらないでくださいね。<line-break>このまま、ずっと。<line-break>私の胸の内にある、<line-break><value:$28>さんのまま。<end>"
+korean = "다행이에요…. 변하지 말아 주세요. 이대로 계속, 제 마음속의 <value:$28>님 그대로.<end>"
+
 ["1980132"]
 japanese = "どうしても？<end>"
 korean = "꼭 그래야 해?<end>"
@@ -335,6 +339,10 @@ korean = "이상한 소리를 하는군.<end>"
 ["1980236"]
 japanese = "私は私よ。　変わったりしない<end>"
 korean = "나는 나야. 변하지 않아.<end>"
+
+["1980238"]
+japanese = "よかった…。<line-break>変わらないでくださいね。<line-break>このまま、ずっと。<line-break>私の胸の内にある、<line-break><value:$28>さんのまま。<end>"
+korean = "다행이에요…. 변하지 말아 주세요. 이대로 계속, 제 마음속의 <value:$28>님 그대로.<end>"
 
 ["1980239"]
 japanese = "すみません、<value:$28>さん。<line-break>私、あの人ちょっと苦手なんで<line-break>隠れてますね。<end>"

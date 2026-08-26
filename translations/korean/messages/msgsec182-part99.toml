@@ -20,6 +20,10 @@ korean = "아, 네. 알겠습니다, 신관장님.<end>"
 japanese = "あ…、<value:$28>さん。<line-break>こんにちは。<end>"
 korean = "아… <value:$28>님. 안녕하세요.<end>"
 
+["1820017"]
+japanese = "あ、すいません。<line-break>そろそろ、おつとめの時間です。<line-break>　<line-break>それでは、<value:$28>さん<line-break>失礼します。<line-break>　<end>"
+korean = "아, 죄송합니다. 슬슬 근무할 시간입니다. 그럼 <value:$28>님, 실례하겠습니다.<end>"
+
 ["1820019"]
 japanese = "イークレムンＶ１<line-break>予備メッセージ２です<end>"
 korean = "이크레문 V1 예비 메시지 2입니다.<end>"

@@ -8,6 +8,10 @@ korean = "로스톨 메시지 V6 시작<end>"
 japanese = "あら、<value:$28>様。<end>"
 korean = "어머, <value:$28> 님.<end>"
 
+["1800002"]
+japanese = "ふふ、大丈夫ですよ。<line-break>ディンガル軍が攻めてきても。<line-break>　<line-break>もうすぐ、すべて<line-break>終わってしまうのですから。<end>"
+korean = "후후, 괜찮습니다. 딘갈군이 쳐들어와도요. 곧 모든 것이 끝나 버릴 테니까요.<end>"
+
 ["1800003"]
 japanese = "私の心配はいりません。<line-break>それより、ご自分のことを<line-break>心配なさった方がいいですよ。<line-break>ふふふ。<end>"
 korean = "제 걱정은 하지 마세요. 그보다 본인 걱정을 하시는 편이 좋겠네요. 후후후.<end>"

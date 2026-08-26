@@ -332,6 +332,10 @@ korean = "꺄~!<end>"
 japanese = "…ヴァン？<end>"
 korean = "…반?<end>"
 
+["550142"]
+japanese = "違う！　俺じゃない！<line-break>俺は冗談を言ってねえ！<end>"
+korean = "아니야! 내가 아니야! 난 농담한 게 아니라고!<end>"
+
 ["550143"]
 japanese = "さ、さすが師匠！<end>"
 korean = "여, 역시 스승님!<end>"
@@ -856,6 +860,10 @@ korean = "도와주셔서 감사합니다.<end>"
 japanese = "…<value:$28>さん、<line-break>でしたね。　　　　　　　　<end>"
 korean = "…<value:$28>님, 맞으시죠.<end>"
 
+["550311"]
+japanese = "…よろしければ、<line-break>わたしを、殺してください。<end>"
+korean = "…괜찮으시다면 저를 죽여 주세요.<end>"
+
 ["550313"]
 japanese = "あきらめるな<end>"
 korean = "포기하지 마<end>"
@@ -1011,6 +1019,42 @@ korean = "그럼 이 사람들은….<end>"
 ["550374"]
 japanese = "間違いない。<line-break>施文院の暗殺者、告死天使だ。<end>"
 korean = "틀림없어. 시문원의 암살자, 고사천사다.<end>"
+
+["550378"]
+japanese = "予備メッセージ１<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 1 노엘, 볼륨 1 그 1<end>"
+
+["550379"]
+japanese = "予備メッセージ２<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 2 노엘, 볼륨 1 그 1<end>"
+
+["550380"]
+japanese = "予備メッセージ３<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 3 노엘, 볼륨 1 그 1<end>"
+
+["550381"]
+japanese = "予備メッセージ４<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 4 노엘, 볼륨 1 그 1<end>"
+
+["550382"]
+japanese = "予備メッセージ５<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 5 노엘, 볼륨 1 그 1<end>"
+
+["550383"]
+japanese = "予備メッセージ６<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 6 노엘, 볼륨 1 그 1<end>"
+
+["550384"]
+japanese = "予備メッセージ７<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 7 노엘, 볼륨 1 그 1<end>"
+
+["550385"]
+japanese = "予備メッセージ８<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 8 노엘, 볼륨 1 그 1<end>"
+
+["550386"]
+japanese = "予備メッセージ９<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 9 노엘, 볼륨 1 그 1<end>"
 
 ["550388"]
 japanese = "ノエル・ボリューム１終端<end>"

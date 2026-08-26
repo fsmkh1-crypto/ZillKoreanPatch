@@ -16,6 +16,10 @@ korean = "지금 당장 간다<end>"
 japanese = "今は忙しい<end>"
 korean = "지금은 바빠<end>"
 
+["1870008"]
+japanese = "ここが竜王様のおられる島だ。<line-break>ノエルはすでにソウルイーターと<line-break>戦っているかもしれぬな。<line-break>お前も急いでくれ。<end>"
+korean = "여기가 용왕님이 계신 섬이다. 노엘은 이미 소울이터와 싸우고 있을지도 모른다. 너도 서둘러라.<end>"
+
 ["1870010"]
 japanese = "あ…<line-break><value:$28>…さん。<line-break>来てくれたんですね…。<end>"
 korean = "아… <value:$28>… 씨. 와 주셨군요….<end>"

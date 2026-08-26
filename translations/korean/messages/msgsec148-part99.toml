@@ -20,6 +20,10 @@ korean = "어서 오세요. 기다리고 있었습니다. 저는 오르파우스
 japanese = "どうして、ルルアンタのことを<line-break>知っている？<end>"
 korean = "어떻게 루루안타를 알고 있지?<end>"
 
+["1480014"]
+japanese = "あ？　あぁ、そうだな。　　　　<line-break>中に入ってみよう。<line-break>　<line-break>よかったな、<value:$28>、<line-break>ルルアンタが無事で。<end>"
+korean = "어? 아, 그렇군. 안으로 들어가 보자. 잘됐네, <value:$28>. 루루안타가 무사해서.<end>"
+
 ["1480015"]
 japanese = "そんじゃ、行ってみますか。<end>"
 korean = "그럼, 가보자.<end>"
@@ -199,6 +203,10 @@ korean = "마음이 내키면 간다<end>"
 ["1480138"]
 japanese = "<value:$28>、<line-break>ゼネテスの言ってたこと、<line-break>本当になっちゃったね。<end>"
 korean = "<value:$28>, 제네테스가 한 말이 정말 현실이 됐네.<end>"
+
+["1480154"]
+japanese = "これは報酬の５００ギアだ。<line-break>ゼネテスさんから、全部あんたに　　<line-break>渡すように言われている。<line-break>受け取ってくれ。<end>"
+korean = "이건 보수 500기아다. 제네테스 씨가 전부 당신에게 주라고 했어. 받아 줘.<end>"
 
 ["1480155"]
 japanese = "それじゃ、<value:$28>。<line-break>次の仕事も用意しておくから<line-break>また今度も頼んだぞ。<end>"

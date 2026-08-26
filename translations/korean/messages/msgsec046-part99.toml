@@ -72,6 +72,10 @@ korean = "그래, 녀석 입으로 들었다. 그런데 <value:$28>….<end>"
 japanese = "…<value:$28>！<line-break>ヴァンには宿屋が…。<end>"
 korean = "…<value:$28>! 반에게는 여관이….<end>"
 
+["460056"]
+japanese = "そんな俺を記念して<line-break>歌を作ったんだ、親父…。<end>"
+korean = "그런 나를 기념해서 노래를 만든 거야, 아버지….<end>"
+
 ["460062"]
 japanese = "どうだった、親父？<end>"
 korean = "어땠어, 아버지?<end>"
@@ -123,6 +127,10 @@ korean = "피로는 좀 풀렸어?<end>"
 ["460089"]
 japanese = "それはよかった。　　　　　　　　　<end>"
 korean = "그건 다행이군.<end>"
+
+["460091"]
+japanese = "そうかい。<line-break>じゃ、生きてたら、また顔出せよ。<end>"
+korean = "그래. 그럼 살아 있으면 또 얼굴 비춰.<end>"
 
 ["460092"]
 japanese = "生きてたら、また顔出せよ。<line-break>歓迎するぜ。<end>"
@@ -187,6 +195,10 @@ korean = "…그렇군요. 대강 사정은 알겠습니다. 친구의 복수…
 ["460133"]
 japanese = "なるほど。<line-break>力が欲しいんですか…。<end>"
 korean = "그렇군요. 힘이 필요한 겁니까….<end>"
+
+["460143"]
+japanese = "破壊神ウルグの円卓騎士<line-break>アーギルシャイアだ。<end>"
+korean = "파괴신 울그의 원탁기사 아기르샤이아다.<end>"
 
 ["460144"]
 japanese = "猫がしゃべった！<end>"
@@ -255,6 +267,10 @@ korean = "그렇습니까.<end>"
 ["460190"]
 japanese = "聞きたいことがあれば答えますよ。<end>"
 korean = "궁금한 게 있으면 대답해 드리죠.<end>"
+
+["460194"]
+japanese = "また世界が震え始めますねえ…。<line-break>　<line-break>　<end>"
+korean = "또 세계가 흔들리기 시작하겠군요….<end>"
 
 ["460197"]
 japanese = "ごめん。<line-break>また考えすぎのくせが出ちゃった。<line-break>行こう、<value:$28>。<end>"

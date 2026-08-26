@@ -652,6 +652,10 @@ korean = "쉿, 누가 올 것 같아!<end>"
 japanese = "こないわ。<end>"
 korean = "안 오네.<end>"
 
+["1420342"]
+japanese = "ちょっと！<line-break>大きな声出すんじゃないわよ、<line-break>馬のシッポ女！<line-break>それで<value:$28>が<line-break>気付いたらどうするのよ！<end>"
+korean = "잠깐! 큰 소리 내지 마, 말꼬리 여자! 그러다 <value:$28>이 눈치채면 어떡해!<end>"
+
 ["1420344"]
 japanese = "フェティだよぉ。<end>"
 korean = "페티야아.<end>"
@@ -735,6 +739,10 @@ korean = "가는 건가… <value:$28>.<end>"
 ["1420382"]
 japanese = "お前はそれでも行くのか。<line-break><value:$28>。<end>"
 korean = "그래도 갈 셈인가, <value:$28>.<end>"
+
+["1420383"]
+japanese = "意外と度胸がないのね。<line-break><value:$28>。<line-break> <line-break>自分の力が平和を乱すかもしれない。<line-break>それが恐ろしいのかしら…。<end>"
+korean = "의외로 배짱이 없네, <value:$28>. 자신의 힘이 평화를 어지럽힐지도 모른다. 그게 두려운 거야…?<end>"
 
 ["1420384"]
 japanese = "ええ。<line-break>あなたの力は大きいわ。<end>"

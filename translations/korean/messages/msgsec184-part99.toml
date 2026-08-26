@@ -124,6 +124,10 @@ korean = "방해가 들어왔지만 아까 이야기의 계속이다. 우리 지
 japanese = "な、何をバカなことを…っ！<end>"
 korean = "무, 무슨 바보 같은 소리를…!<end>"
 
+["1840063"]
+japanese = "約束しよう。　　　　　<line-break>　<line-break>　<line-break>今後の支配については<line-break>後日あらためてお話しする。<line-break>では、失礼。<end>"
+korean = "약속하지. 앞으로의 지배에 대해서는 나중에 다시 이야기하자. 그럼 실례하지.<end>"
+
 ["1840064"]
 japanese = "<value:$28>、<line-break>大丈夫ですか？<end>"
 korean = "<value:$28>, 괜찮습니까?<end>"
