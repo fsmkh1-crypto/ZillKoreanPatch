@@ -44,6 +44,10 @@ korean = "어라, <value:$28>인가.<end>"
 japanese = "わかります<end>"
 korean = "알겠습니다<end>"
 
+["1370106"]
+japanese = "ちょっと、わからない<end>"
+korean = "잘 모르겠어.<end>"
+
 ["1370128"]
 japanese = "おう、<value:$28>か。<end>"
 korean = "오, <value:$28>인가.<end>"
@@ -124,6 +128,10 @@ korean = "기억을 더듬는다…?<end>"
 japanese = "（似ている……。）<end>"
 korean = "(닮았어…….)<end>"
 
+["1370227"]
+japanese = "やれやれ。<line-break><value:$28>、<line-break>人気者はつらいな。<end>"
+korean = "이런. <value:$28>, 인기인은 힘들군.<end>"
+
 ["1370237"]
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
@@ -176,6 +184,10 @@ korean = "장비의 형상이란?<end>"
 japanese = "装備の効果って？<end>"
 korean = "장비의 효과란?<end>"
 
+["1370296"]
+japanese = "精霊属性の変更って？<end>"
+korean = "정령 속성 변경이 뭐야?<end>"
+
 ["1370297"]
 japanese = "全部知っている<end>"
 korean = "전부 알고 있어<end>"
@@ -208,6 +220,10 @@ korean = "괜찮아<end>"
 japanese = "…どうした？<end>"
 korean = "…무슨 일이야?<end>"
 
+["1370358"]
+japanese = "よし、では行こうか。<end>"
+korean = "좋아, 그럼 가볼까.<end>"
+
 ["1370361"]
 japanese = "もう大丈夫か？<end>"
 korean = "이제 괜찮아?<end>"
@@ -215,6 +231,10 @@ korean = "이제 괜찮아?<end>"
 ["1370387"]
 japanese = "な、何事だ？<end>"
 korean = "무, 무슨 일이지?<end>"
+
+["1370393"]
+japanese = "ならぬ。<line-break><value:$28>は未熟だ。<line-break>危険すぎる。<end>"
+korean = "안 된다. <value:$28>는 아직 미숙하다. 너무 위험해.<end>"
 
 ["1370400"]
 japanese = "教わっていない<end>"
@@ -324,6 +344,10 @@ korean = "괜찮아<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370545"]
+japanese = "ただいま帰りました。<end>"
+korean = "다녀왔습니다.<end>"
+
 ["1370552"]
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
@@ -339,6 +363,10 @@ korean = "모험자 길드란?<end>"
 ["1370572"]
 japanese = "依頼の種類は？<end>"
 korean = "의뢰 종류는?<end>"
+
+["1370573"]
+japanese = "依頼をこなすコツは？<end>"
+korean = "의뢰를 해내는 요령은?<end>"
 
 ["1370580"]
 japanese = "もういいのかい？<end>"
@@ -380,6 +408,10 @@ korean = "쳇.<end>"
 japanese = "お、おいっ。<end>"
 korean = "어, 어이.<end>"
 
+["1370619"]
+japanese = "戦い方を教えてほしい<end>"
+korean = "싸우는 법을 가르쳐 줘.<end>"
+
 ["1370620"]
 japanese = "何も聞くことはない<end>"
 korean = "아무것도 묻지 않는다<end>"
@@ -415,6 +447,10 @@ korean = "하하하!<end>"
 ["1370712"]
 japanese = "はい<end>"
 korean = "네<end>"
+
+["1370718"]
+japanese = "こいつを持ってきな。<end>"
+korean = "이걸 가져와.<end>"
 
 ["1370751"]
 japanese = "オッシ終端<end>"

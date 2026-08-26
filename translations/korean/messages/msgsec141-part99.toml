@@ -4,6 +4,10 @@
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
 
+["1410008"]
+japanese = "何よ、あんただって…<end>"
+korean = "뭐야, 너도…<end>"
+
 ["1410013"]
 japanese = "ひっ………！<end>"
 korean = "히익………!<end>"
@@ -12,6 +16,10 @@ korean = "히익………!<end>"
 japanese = "でも、彼は任務に失敗した。<line-break>殺人機械のはずの彼が、おびえという<line-break>不要な感情を持ってしまってね。<line-break>ほら、今も後ろでふるえている。<line-break>無様なものだね。フフフ。<line-break>こうなっては殺人機械も形なしだ。<end>"
 korean = "하지만 그는 임무에 실패했지. 살인 기계여야 할 그가 두려움이라는 쓸데없는 감정을 품어 버렸거든. 봐, 지금도 뒤에서 떨고 있잖아. 참 꼴사납군. 후후후. 이래서는 살인 기계라는 이름도 무색하지.<end>"
 
+["1410020"]
+japanese = "エルファスを阻止する<end>"
+korean = "엘파스를 막는다.<end>"
+
 ["1410021"]
 japanese = "黙って見ている<end>"
 korean = "말없이 지켜본다<end>"
@@ -19,6 +27,10 @@ korean = "말없이 지켜본다<end>"
 ["1410026"]
 japanese = "ノエル…。<end>"
 korean = "노엘….<end>"
+
+["1410030"]
+japanese = "…彼の言うとおりさ。<end>"
+korean = "…그가 말한 대로야.<end>"
 
 ["1410031"]
 japanese = "え？<end>"
@@ -60,6 +72,10 @@ korean = "네.<end>"
 japanese = "…よかった。<end>"
 korean = "…다행이다.<end>"
 
+["1410132"]
+japanese = "本当？　嬉しいです！<end>"
+korean = "정말요? 기뻐요!<end>"
+
 ["1410136"]
 japanese = "あの、<value:$28>様。<end>"
 korean = "저기, <value:$28> 님.<end>"
@@ -75,6 +91,10 @@ korean = "고마워.<end>"
 ["1410173"]
 japanese = "全速・前進～！<end>"
 korean = "전속력・전진~!<end>"
+
+["1410191"]
+japanese = "お、お父様…お母様。<end>"
+korean = "아, 아버님… 어머님.<end>"
 
 ["1410194"]
 japanese = "…え！？<end>"
@@ -95,6 +115,10 @@ korean = "<value:$28> 씨~!<end>"
 ["1410223"]
 japanese = "行ってしまったな。<end>"
 korean = "가버렸군.<end>"
+
+["1410242"]
+japanese = "わたくしも行きます。<end>"
+korean = "저도 가겠습니다.<end>"
 
 ["1410279"]
 japanese = "財務長官殿！<end>"
@@ -159,6 +183,10 @@ korean = "우뉴우….<end>"
 ["1410482"]
 japanese = "まだゴブ。<end>"
 korean = "아직 고브.<end>"
+
+["1410493"]
+japanese = "そうかもしれんのぅ。<end>"
+korean = "그럴지도 모르겠구나.<end>"
 
 ["1410527"]
 japanese = "ほーっほっほっ。<end>"

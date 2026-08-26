@@ -40,6 +40,10 @@ korean = "간다<end>"
 japanese = "無視する<end>"
 korean = "무시한다<end>"
 
+["510065"]
+japanese = "ゼネテス様。<line-break><value:$28>様を<line-break>お連れしました。<end>"
+korean = "제네테스 님. <value:$28> 님을 모셔 왔습니다.<end>"
+
 ["510111"]
 japanese = "退け！　退けええい！<end>"
 korean = "물러나라! 물러나아아!<end>"

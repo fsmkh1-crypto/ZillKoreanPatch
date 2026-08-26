@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2470001"]
+japanese = "<value:$28>じゃないですか。<end>"
+korean = "<value:$28> 아니십니까.<end>"
+
+["2470010"]
+japanese = "<value:$28>じゃないですか。<end>"
+korean = "<value:$28> 아니십니까.<end>"
+
 ["2470020"]
 japanese = "別に…。<end>"
 korean = "별로….<end>"

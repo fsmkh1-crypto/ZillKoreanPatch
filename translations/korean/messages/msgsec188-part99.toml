@@ -16,6 +16,10 @@ korean = "맡지 않는다<end>"
 japanese = "埋蔵金を発見した。<end>"
 korean = "매장금을 발견했다.<end>"
 
+["1880026"]
+japanese = "<value:$28>、<line-break>何をしてるの？<line-break>早く行こうよ。<end>"
+korean = "<value:$28>, 뭐 하고 있어? 빨리 가자.<end>"
+
 ["1880040"]
 japanese = "行かない<end>"
 korean = "안 간다<end>"

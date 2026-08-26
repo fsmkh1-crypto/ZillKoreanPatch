@@ -28,6 +28,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["750051"]
+japanese = "フフフッ…<line-break>じゃあ、<value:$28>、<line-break>待ってるよ。<end>"
+korean = "후후훗… 그럼 <value:$28>, 기다릴게.<end>"
+
 ["750069"]
 japanese = "シャリ…？<end>"
 korean = "샤리…?<end>"

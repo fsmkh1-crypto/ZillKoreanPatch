@@ -8,6 +8,10 @@ korean = "저기, 그게….<end>"
 japanese = "あ、<value:$28>さん！<end>"
 korean = "아, <value:$28> 씨!<end>"
 
+["1420010"]
+japanese = "やあ、久しぶりだね。<end>"
+korean = "이야, 오랜만이군.<end>"
+
 ["1420021"]
 japanese = "え？　あの、えと…<end>"
 korean = "어? 저기, 그게….<end>"
@@ -19,6 +23,10 @@ korean = "나셰스.<end>"
 ["1420040"]
 japanese = "くっ…。<end>"
 korean = "큭….<end>"
+
+["1420043"]
+japanese = "それでは、失礼する。<end>"
+korean = "그럼 실례하지.<end>"
 
 ["1420048"]
 japanese = "やぁ、君か。<end>"
@@ -56,6 +64,10 @@ korean = "너, 너는…!<end>"
 japanese = "…立ち去れ。<end>"
 korean = "…물러가라.<end>"
 
+["1420160"]
+japanese = "やべえ、逃げるぞっ！<end>"
+korean = "젠장, 도망가자!<end>"
+
 ["1420207"]
 japanese = "レムオン様！<end>"
 korean = "레몬님!<end>"
@@ -75,6 +87,10 @@ korean = "저기, 그건….<end>"
 ["1420235"]
 japanese = "そ、それは…。<end>"
 korean = "그, 그건….<end>"
+
+["1420238"]
+japanese = "ダメです。絶対ダメ！<end>"
+korean = "안 돼요. 절대 안 돼!<end>"
 
 ["1420241"]
 japanese = "何！？<end>"
@@ -124,6 +140,10 @@ korean = "출발이군.<end>"
 japanese = "ああ…。<end>"
 korean = "아아….<end>"
 
+["1420337"]
+japanese = "しっ、誰か来そうよ！<end>"
+korean = "쉿, 누가 올 것 같아!<end>"
+
 ["1420340"]
 japanese = "こないわ。<end>"
 korean = "안 오네.<end>"
@@ -155,6 +175,10 @@ korean = "영주님!<end>"
 ["1420406"]
 japanese = "ぐわぁ！<end>"
 korean = "크와악!<end>"
+
+["1420407"]
+japanese = "う、うわぁあああ！！<end>"
+korean = "우, 우와아아아!!<end>"
 
 ["1420422"]
 japanese = "じゃあ、行くのね？<end>"
@@ -188,6 +212,10 @@ korean = "무슨 일인가요?<end>"
 japanese = "なんでもない。<end>"
 korean = "아무것도 아니야.<end>"
 
+["1420532"]
+japanese = "まだやることがある。<end>"
+korean = "아직 할 일이 있어.<end>"
+
 ["1420533"]
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
@@ -199,6 +227,10 @@ korean = "있잖아. <value:$28>.<end>"
 ["1420555"]
 japanese = "レムオン様！<end>"
 korean = "레몬님!<end>"
+
+["1420564"]
+japanese = "何用だ…セバスチャン<end>"
+korean = "무슨 용건이냐… 세바스찬.<end>"
 
 ["1420566"]
 japanese = "何！？<end>"
@@ -215,6 +247,18 @@ korean = "저기, 그건….<end>"
 ["1420583"]
 japanese = "そ、それは…<end>"
 korean = "그, 그건…<end>"
+
+["1420586"]
+japanese = "ダメです。絶対ダメ！<end>"
+korean = "안 돼요. 절대 안 돼!<end>"
+
+["1420587"]
+japanese = "何用だ…セバスチャン<end>"
+korean = "무슨 용건이냐… 세바스찬.<end>"
+
+["1420611"]
+japanese = "しっ、誰か来そうよ！<end>"
+korean = "쉿, 누가 올 것 같아!<end>"
 
 ["1420614"]
 japanese = "こないわ。<end>"

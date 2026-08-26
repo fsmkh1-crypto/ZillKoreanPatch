@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2300001"]
+japanese = "まいったなぁ…。<line-break><end>"
+korean = "곤란하네….<end>"
+
 ["2300005"]
 japanese = "シャレって？<end>"
 korean = "농담이라니?<end>"
+
+["2300014"]
+japanese = "そう思わない、<value:$28>？<end>"
+korean = "그렇지 않아, <value:$28>?<end>"
 
 ["2300016"]
 japanese = "やめたほうがいい<end>"

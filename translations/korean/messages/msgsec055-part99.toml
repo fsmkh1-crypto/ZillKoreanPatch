@@ -132,6 +132,10 @@ korean = "사, 살려 줘!<end>"
 japanese = "きゃ～っ！<end>"
 korean = "꺄~!<end>"
 
+["550079"]
+japanese = "な…！<line-break>遅かったか！<end>"
+korean = "뭐…! 늦었나!<end>"
+
 ["550082"]
 japanese = "追うわよ、<value:$28>！<end>"
 korean = "쫓아가자, <value:$28>!<end>"

@@ -208,6 +208,10 @@ korean = "자기브…!<end>"
 japanese = "あ…。<end>"
 korean = "아…<end>"
 
+["890388"]
+japanese = "<value:$28>…。<line-break>ありがとう。<line-break>迷惑かけるわね。<end>"
+korean = "<value:$28>…. 고마워. 폐를 끼치네.<end>"
+
 ["890393"]
 japanese = "待って。<end>"
 korean = "기다려.<end>"
@@ -440,6 +444,10 @@ korean = "카, 카핀!!<end>"
 japanese = "ノエル、無事かっ？<end>"
 korean = "노엘, 무사해!?<end>"
 
+["890655"]
+japanese = "ナーシェス、<line-break><value:$28>さん！<line-break>カフィンが…！<end>"
+korean = "나셰스, <value:$28> 씨! 카핀이…!<end>"
+
 ["890656"]
 japanese = "遅かったか…。<end>"
 korean = "늦었나….<end>"
@@ -511,3 +519,7 @@ korean = "반!<end>"
 ["890723"]
 japanese = "俺様、復活！<end>"
 korean = "이 몸, 부활!<end>"
+
+["890730"]
+japanese = "僕はいま、<line-break>この<value:$28>と<line-break>旅をしてるんだ。<end>"
+korean = "나는 지금 이 <value:$28>와 여행하고 있어.<end>"

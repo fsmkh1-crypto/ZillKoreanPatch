@@ -48,6 +48,10 @@ korean = "(닮았어…….)<end>"
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
 
+["320048"]
+japanese = "おお、<value:$28>。<line-break>戻ったか。<line-break>ご苦労だった。<end>"
+korean = "오, <value:$28>. 돌아왔군. 수고했다.<end>"
+
 ["320049"]
 japanese = "な、何事だ？<end>"
 korean = "무, 무슨 일이지?<end>"

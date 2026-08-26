@@ -28,6 +28,10 @@ korean = "네….<end>"
 japanese = "<value:$28>さん！！<end>"
 korean = "<value:$28> 씨!!<end>"
 
+["1840066"]
+japanese = "あら？<line-break>あれは…。<end>"
+korean = "어라? 저건….<end>"
+
 ["1840081"]
 japanese = "これを見ろ。<end>"
 korean = "이걸 봐.<end>"

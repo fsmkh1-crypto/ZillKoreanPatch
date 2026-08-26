@@ -88,6 +88,10 @@ korean = "미사용: 심술쟁이!<end>"
 japanese = "<value:$28>さんですね。<end>"
 korean = "<value:$28> 씨군요.<end>"
 
+["880141"]
+japanese = "<value:$28>！<line-break>危ない！<end>"
+korean = "<value:$28>! 위험해!<end>"
+
 ["880148"]
 japanese = "あ、動ける！<end>"
 korean = "아, 움직여져!<end>"
@@ -143,6 +147,10 @@ korean = "멋지다고 생각해<end>"
 ["880250"]
 japanese = "ガラじゃない<end>"
 korean = "내 스타일이 아냐<end>"
+
+["880294"]
+japanese = "あ…、<line-break><value:$28>…。<end>"
+korean = "아…, <value:$28>….<end>"
 
 ["880299"]
 japanese = "未使用<line-break>　<end>"

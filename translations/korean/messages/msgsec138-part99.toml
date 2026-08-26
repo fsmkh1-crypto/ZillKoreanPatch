@@ -4,6 +4,10 @@
 japanese = "本当に感謝しとる。<end>"
 korean = "정말 감사하고 있네.<end>"
 
+["1380026"]
+japanese = "に…にぁぁああ。<line-break> <line-break> <line-break>………………<end>"
+korean = "냐… 냐아아아. ………………<end>"
+
 ["1380033"]
 japanese = "…な、なーん。<end>"
 korean = "…나, 냥.<end>"
@@ -104,9 +108,21 @@ korean = "팔찌를 넘기지 않는다<end>"
 japanese = "…ありがとう。<end>"
 korean = "…고마워.<end>"
 
+["1380210"]
+japanese = "束縛の腕輪を失った。<end>"
+korean = "속박의 팔찌를 잃었다.<end>"
+
+["1380229"]
+japanese = "…そんな顔をするな。<end>"
+korean = "…그런 얼굴 하지 마.<end>"
+
 ["1380243"]
 japanese = "そうか…。<end>"
 korean = "그런가….<end>"
+
+["1380244"]
+japanese = "それがうぬの力か…。<end>"
+korean = "그게 네 힘인가….<end>"
 
 ["1380255"]
 japanese = "俺は…<end>"
@@ -151,6 +167,10 @@ korean = "흥, 글쎄다!<end>"
 ["1380373"]
 japanese = "おっと！<end>"
 korean = "어이쿠!<end>"
+
+["1380381"]
+japanese = "それって、まさか…。<end>"
+korean = "그건 설마….<end>"
 
 ["1380383"]
 japanese = "アーギルシャイア…？<end>"
@@ -280,6 +300,14 @@ korean = "특수 효과란?<end>"
 japanese = "武器の形状とは？<end>"
 korean = "무기의 형상이란?<end>"
 
+["1380546"]
+japanese = "精霊属性の変更とは？<end>"
+korean = "정령 속성 변경이란?<end>"
+
+["1380547"]
+japanese = "すべて理解できている<end>"
+korean = "전부 이해하고 있다.<end>"
+
 ["1380557"]
 japanese = "ははは！<end>"
 korean = "하하하!<end>"
@@ -295,6 +323,10 @@ korean = "아니요<end>"
 ["1380579"]
 japanese = "はい<end>"
 korean = "네<end>"
+
+["1380584"]
+japanese = "こいつを持ってきな。<end>"
+korean = "이걸 가져와.<end>"
 
 ["1380598"]
 japanese = "（束縛の腕輪が…）<end>"

@@ -4,6 +4,10 @@
 japanese = "嫌いだろ？<end>"
 korean = "싫어하잖아?<end>"
 
+["1540044"]
+japanese = "やめてくれ、シャリ！<end>"
+korean = "그만둬, 샤리!<end>"
+
 ["1540046"]
 japanese = "逃げろ、<value:$28>！"
 korean = "도망쳐, <value:$28>!"
@@ -15,6 +19,10 @@ korean = "그건 못 해.<end>"
 ["1540052"]
 japanese = "それも違う。<end>"
 korean = "그것도 아니야.<end>"
+
+["1540063"]
+japanese = "やめてくれ、シャリ！<end>"
+korean = "그만둬, 샤리!<end>"
 
 ["1540065"]
 japanese = "逃げろ、<value:$28>！"

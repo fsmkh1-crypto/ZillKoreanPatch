@@ -124,6 +124,10 @@ korean = "네.<end>"
 japanese = "…ええ。<end>"
 korean = "…네.<end>"
 
+["410110"]
+japanese = "<value:$28>！<line-break>そんなのウソだよ！<line-break>僕を信じて！<end>"
+korean = "<value:$28>! 그런 건 거짓말이야! 날 믿어!<end>"
+
 ["410111"]
 japanese = "エストを倒す<end>"
 korean = "에스트를 쓰러뜨린다<end>"

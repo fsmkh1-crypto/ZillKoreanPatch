@@ -56,9 +56,17 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "エリス王妃の執務室<end>"
 korean = "엘리스 왕비의 집무실<end>"
 
+["1400032"]
+japanese = "まーかせちゃってよ。<end>"
+korean = "나한테 맡겨.<end>"
+
 ["1400035"]
 japanese = "…俺に指図するな。<end>"
 korean = "…나한테 명령하지 마.<end>"
+
+["1400042"]
+japanese = "まーかせちゃってよ。<end>"
+korean = "나한테 맡겨.<end>"
 
 ["1400045"]
 japanese = "…俺に指図するな。<end>"
@@ -184,6 +192,10 @@ korean = "아트레이아… 님…?<end>"
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
 
+["1400199"]
+japanese = "…どういうことです？<end>"
+korean = "…무슨 뜻이죠?<end>"
+
 ["1400201"]
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
@@ -216,6 +228,10 @@ korean = "시, 시끄러워!<end>"
 japanese = "何が言いたい！<end>"
 korean = "무슨 말을 하고 싶은 거야!<end>"
 
+["1400256"]
+japanese = "その声…シャリね！？<end>"
+korean = "그 목소리… 샤리구나!?<end>"
+
 ["1400260"]
 japanese = "フン…出たか。<end>"
 korean = "흥… 나왔나.<end>"
@@ -247,6 +263,10 @@ korean = "네.<end>"
 ["1400366"]
 japanese = "…そう、ですか。<end>"
 korean = "…그렇, 군요.<end>"
+
+["1400368"]
+japanese = "…さよなら…フレア。<end>"
+korean = "…안녕… 플레어.<end>"
 
 ["1400429"]
 japanese = "わかった<end>"

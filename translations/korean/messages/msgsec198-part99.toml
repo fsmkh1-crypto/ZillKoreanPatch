@@ -56,6 +56,10 @@ korean = "뭐라고 하셨나요?<end>"
 japanese = "どうしても？<end>"
 korean = "꼭 그래야 해?<end>"
 
+["1980150"]
+japanese = "きゃあーっ！<line-break><value:$28>さん！<line-break>あ、あれ…！<end>"
+korean = "꺄악! <value:$28> 씨! 저, 저건…!<end>"
+
 ["1980152"]
 japanese = "え！？<end>"
 korean = "어!?<end>"
@@ -67,6 +71,10 @@ korean = "전설의 마도기다!<end>"
 ["1980170"]
 japanese = "そんなこと…<end>"
 korean = "그런 일은…<end>"
+
+["1980182"]
+japanese = "お帰りなさい、<value:$28>。<end>"
+korean = "어서 와, <value:$28>.<end>"
 
 ["1980196"]
 japanese = "ええっ！<end>"

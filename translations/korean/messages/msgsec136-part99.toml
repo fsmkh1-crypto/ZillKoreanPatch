@@ -12,6 +12,10 @@ korean = "형!<end>"
 japanese = "ザコがもう２匹。<end>"
 korean = "잡졸이 두 마리 더.<end>"
 
+["1360052"]
+japanese = "ぐっ！<line-break>動けない！<end>"
+korean = "큭! 움직일 수 없어!<end>"
+
 ["1360055"]
 japanese = "やめろ！！<end>"
 korean = "그만둬!!<end>"
@@ -67,6 +71,10 @@ korean = "오오오오…!!<end>"
 ["1360185"]
 japanese = "…開け放つもの。<end>"
 korean = "…열어젖히는 자.<end>"
+
+["1360198"]
+japanese = "<value:$28>だな。<line-break>聞いている。<line-break>通るがいい。<end>"
+korean = "<value:$28>군. 얘기는 들었다. 지나가도 좋다.<end>"
 
 ["1360238"]
 japanese = "わから…ない…。<end>"
@@ -256,13 +264,29 @@ korean = "저기요, 신관님.<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1360591"]
+japanese = "来てくれたのですね。<end>"
+korean = "와 주셨군요.<end>"
+
+["1360706"]
+japanese = "神様、やっちゃって。<end>"
+korean = "신님, 해버려.<end>"
+
 ["1360712"]
 japanese = "な…、何…！？<end>"
 korean = "뭐…, 뭐야…!?<end>"
 
+["1360729"]
+japanese = "何が見えるのかしら？<end>"
+korean = "뭐가 보이는 걸까?<end>"
+
 ["1360730"]
 japanese = "人の心の中…？<end>"
 korean = "사람의 마음속…?<end>"
+
+["1360737"]
+japanese = "神様、やっちゃって。<end>"
+korean = "신님, 해버려.<end>"
 
 ["1360743"]
 japanese = "な…、何…！？<end>"
