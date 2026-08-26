@@ -8,6 +8,10 @@ korean = "루루안타(수정) 그 1 시작<end>"
 japanese = "ふぅん。<line-break>…で、どんなんだい？<end>"
 korean = "흐음. …그래서, 어떤 건데?<end>"
 
+["1470021"]
+japanese = "俺は先に宿屋に戻ってる。<line-break><value:$28>も<line-break>寄り道してないでさっさと戻れよ。<end>"
+korean = "난 먼저 여관으로 돌아갈게. <value:$28>도 딴 데 들르지 말고 얼른 돌아와.<end>"
+
 ["1470038"]
 japanese = "！　これは…。<end>"
 korean = "! 이건….<end>"
@@ -27,6 +31,10 @@ korean = "그럼, 가볼까.<end>"
 ["1470063"]
 japanese = "ん、なんだあ、てめえは！？<end>"
 korean = "응? 뭐야, 넌!?<end>"
+
+["1470076"]
+japanese = "さて、こいつらを叩けば終わりだ。<line-break>さっさとやっちまおうぜ、<line-break><value:$28>。<end>"
+korean = "자, 이 녀석들만 쓰러뜨리면 끝이야. 빨리 해치우자, <value:$28>.<end>"
 
 ["1470094"]
 japanese = "やれやれ。今度は賢者の森かい？<end>"

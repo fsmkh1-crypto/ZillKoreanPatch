@@ -84,6 +84,10 @@ korean = "네모에 대해서<end>"
 japanese = "アーギルシャイアについて<end>"
 korean = "아길샤이어에 대해서<end>"
 
+["1480092"]
+japanese = "だからね、<value:$28>は<line-break>運命に選ばれたんだって、<line-break>ゼネテスは言ってた…。<end>"
+korean = "그러니까, <value:$28>은 운명에 선택받은 거라고 제네테스가 말했어….<end>"
+
 ["1480096"]
 japanese = "アーギルシャイア？<end>"
 korean = "아길샤이어?<end>"
@@ -139,6 +143,10 @@ korean = "마음이 내키면 간다<end>"
 ["1480138"]
 japanese = "<value:$28>、<line-break>ゼネテスの言ってたこと、<line-break>本当になっちゃったね。<end>"
 korean = "<value:$28>, 제네테스가 한 말이 정말 현실이 됐네.<end>"
+
+["1480155"]
+japanese = "それじゃ、<value:$28>。<line-break>次の仕事も用意しておくから<line-break>また今度も頼んだぞ。<end>"
+korean = "그럼 <value:$28>. 다음 일도 마련해 둘 테니 다음에도 부탁한다.<end>"
 
 ["1480166"]
 japanese = "ルルアンタ（修）その２　終端<end>"

@@ -84,6 +84,10 @@ korean = "그만둬, 샤리!<end>"
 japanese = "逃げろ、<value:$28>！"
 korean = "도망쳐, <value:$28>!"
 
+["1540048"]
+japanese = "そこどいてよ、エルファス。<line-break><value:$28>には<line-break>もう退場してもらうんだから。<end>"
+korean = "비켜, 엘파스. <value:$28>은 이제 퇴장해 줘야 하니까.<end>"
+
 ["1540049"]
 japanese = "それはできない。<end>"
 korean = "그건 못 해.<end>"

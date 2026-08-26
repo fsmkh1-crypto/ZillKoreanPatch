@@ -36,6 +36,14 @@ korean = "누구보다 자신이 걱정한다고 말한다<end>"
 japanese = "<value:$28>様がきっと<line-break>私を見つけてくださると<line-break>信じていますから。<end>"
 korean = "<value:$28> 님이 분명 저를 찾아 주실 거라 믿으니까요.<end>"
 
+["1910027"]
+japanese = "<value:$28>様が私のことを<line-break>心配してくださるのなら、<line-break>それで十分ですから。<end>"
+korean = "<value:$28>님이 저를 걱정해 주신다면 그것만으로 충분해요.<end>"
+
+["1910028"]
+japanese = "あ、<value:$28>様。<line-break>私に会いに来てくださったのですね。<line-break>…うれしいです。<end>"
+korean = "아, <value:$28>님. 저를 만나러 와 주셨군요. …기뻐요.<end>"
+
 ["1910032"]
 japanese = "アトレイアは気にしなくていい<end>"
 korean = "아트레이아는 신경 쓰지 않아도 된다<end>"
@@ -91,6 +99,10 @@ korean = "기다려. 상태가 이상해….<end>"
 ["1910081"]
 japanese = "これは…。<end>"
 korean = "이건….<end>"
+
+["1910088"]
+japanese = "…さすがです、<value:$28>さん。<line-break>やっぱり、勝ち残って<line-break>しまったんですね。<end>"
+korean = "…역시 대단하세요, <value:$28>님. 결국 끝까지 이기셨군요.<end>"
 
 ["1910089"]
 japanese = "それが、竜王様の意志…。<end>"

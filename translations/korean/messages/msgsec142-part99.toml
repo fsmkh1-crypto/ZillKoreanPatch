@@ -100,6 +100,10 @@ korean = "아저씨, 술은 아직이야?<end>"
 japanese = "　　　来たか、<value:$28>…。<line-break><line-break><line-break><end>"
 korean = "왔나, <value:$28>….<end>"
 
+["1420114"]
+japanese = "　　　ククク…そうだ、貴様のことだ、<line-break>　　　　　　<value:$28>。<line-break><line-break><end>"
+korean = "크크크… 그래, 네놈 말이다, <value:$28>.<end>"
+
 ["1420120"]
 japanese = "　　　　これも…無限のソウルの力か…。<line-break><line-break><line-break><end>"
 korean = "이것도… 무한한 소울의 힘인가….<end>"
@@ -831,6 +835,10 @@ korean = "이, 이봐!<end>"
 ["1420623"]
 japanese = "逃げられてしまいます！<end>"
 korean = "도망쳐 버립니다!<end>"
+
+["1420625"]
+japanese = "じゃあ、早く探しに行こうよぉ。<line-break>ルルアンタ、<value:$28>に<line-break>会いたいよぉ。<end>"
+korean = "그럼 빨리 찾으러 가자아. 루루안타, <value:$28>을 만나고 싶어어.<end>"
 
 ["1420634"]
 japanese = "は、犯人が、この中にいる…！？<end>"

@@ -24,6 +24,10 @@ korean = "<value:$28>. 기대하고 있다. 플린트 일을 잊지 마라.<end>
 japanese = "<value:$28>、<line-break>そなたいくつになる？<end>"
 korean = "<value:$28>, 그대는 몇 살인가?<end>"
 
+["1680033"]
+japanese = "<value:$28>か。<line-break>ゼネテスはどうしておる？<line-break>総司令らしく振る舞っておるか？<end>"
+korean = "<value:$28>인가. 제네테스는 어떻게 지내나? 총사령관답게 행동하고 있나?<end>"
+
 ["1680036"]
 japanese = "<value:$28>か。<line-break>　<line-break>　<line-break>ゼネテスとはうまくやっているか？<end>"
 korean = "<value:$28>인가. 제네테스와는 잘 지내고 있나?<end>"

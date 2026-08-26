@@ -44,6 +44,10 @@ korean = "여기까지 와 줬다는 건 따라와 주겠다는 거지, <value:$
 japanese = "これは<value:$28>様、<line-break>お帰りなさいませ。　　　　　　　　　<line-break>　<end>"
 korean = "<value:$28>님, 돌아오셨군요.<end>"
 
+["1800040"]
+japanese = "竜王様のご加護が<value:$28>様を<line-break>お守りになりますように。　　　　　　<line-break>　<end>"
+korean = "용왕님의 가호가 <value:$28>님을 지켜 주시기를.<end>"
+
 ["1800044"]
 japanese = "よく来た、フリントの息子<line-break><value:$28>よ。<line-break>今日は何用か？<end>"
 korean = "잘 왔다, 플린트의 아들 <value:$28>이여. 오늘은 무슨 일이지?<end>"
