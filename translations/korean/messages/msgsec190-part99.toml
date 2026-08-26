@@ -12,6 +12,14 @@ korean = "가!<end>"
 japanese = "ネメア様！<end>"
 korean = "네메아 님!<end>"
 
+["1900121"]
+japanese = "頼むぞ、<value:$28>。<end>"
+korean = "부탁한다, <value:$28>.<end>"
+
+["1900127"]
+japanese = "頼むぞ、<value:$28>。<end>"
+korean = "부탁한다, <value:$28>.<end>"
+
 ["1900138"]
 japanese = "あ、<value:$28>様。<end>"
 korean = "아, <value:$28> 님.<end>"

@@ -16,6 +16,14 @@ korean = "이름은?<end>"
 japanese = "…引き受けよう<end>"
 korean = "…맡지.<end>"
 
+["430013"]
+japanese = "人をバカにするな！<end>"
+korean = "사람을 바보 취급하지 마!<end>"
+
+["430021"]
+japanese = "レ、レムオン…様。<end>"
+korean = "레, 레몬… 님.<end>"
+
 ["430027"]
 japanese = "兄さん！！<end>"
 korean = "형!!<end>"
@@ -40,9 +48,17 @@ korean = "여자한테라고요!?<end>"
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
 
+["430103"]
+japanese = "構っている暇はない<end>"
+korean = "상대하고 있을 틈은 없어<end>"
+
 ["430107"]
 japanese = "今は黙っている<end>"
 korean = "지금은 입을 다문다<end>"
+
+["430151"]
+japanese = "…賊か。<line-break>　<end>"
+korean = "…도적인가.<end>"
 
 ["430160"]
 japanese = "読んでみよう<end>"
@@ -75,3 +91,11 @@ korean = "시시해<end>"
 ["430202"]
 japanese = "おもしろかった<end>"
 korean = "재미있었어<end>"
+
+["430203"]
+japanese = "そう…。残念だな。<end>"
+korean = "그래…. 유감이군.<end>"
+
+["430219"]
+japanese = "…賊か。<line-break>　<end>"
+korean = "…도적인가.<end>"

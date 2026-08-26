@@ -36,6 +36,10 @@ korean = "그렇습니까.<end>"
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
 
+["690134"]
+japanese = "貴様、名を名乗れ。<end>"
+korean = "네놈, 이름을 밝혀라.<end>"
+
 ["690139"]
 japanese = "…くそっ！<end>"
 korean = "…젠장!<end>"
@@ -64,9 +68,17 @@ korean = "기다려!<end>"
 japanese = "貴様アアア！<end>"
 korean = "네놈이이이!<end>"
 
+["690185"]
+japanese = "フェティをなだめる<end>"
+korean = "페티를 달랜다<end>"
+
 ["690186"]
 japanese = "フェティをしかる<end>"
 korean = "페티를 꾸짖는다<end>"
+
+["690193"]
+japanese = "非を認めて撤回する<end>"
+korean = "잘못을 인정하고 철회한다<end>"
 
 ["690194"]
 japanese = "撤回しない<end>"

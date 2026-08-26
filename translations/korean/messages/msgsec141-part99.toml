@@ -60,6 +60,10 @@ korean = "네.<end>"
 japanese = "…よかった。<end>"
 korean = "…다행이다.<end>"
 
+["1410136"]
+japanese = "あの、<value:$28>様。<end>"
+korean = "저기, <value:$28> 님.<end>"
+
 ["1410140"]
 japanese = "ほーっほっほっ。<end>"
 korean = "호ー호호호.<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1980003"]
+japanese = "<value:$28>…さん…。<end>"
+korean = "<value:$28>… 씨….<end>"
+
 ["1980008"]
 japanese = "遠慮しておく<end>"
 korean = "사양한다<end>"

@@ -4,6 +4,10 @@
 japanese = "あの、その…。<end>"
 korean = "저기, 그게….<end>"
 
+["1420009"]
+japanese = "あ、<value:$28>さん！<end>"
+korean = "아, <value:$28> 씨!<end>"
+
 ["1420036"]
 japanese = "ナーシェス。<end>"
 korean = "나셰스.<end>"

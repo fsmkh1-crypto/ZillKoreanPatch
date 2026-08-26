@@ -304,6 +304,10 @@ korean = "타르튜바 님….<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1340568"]
+japanese = "あの…<value:$28>様？<end>"
+korean = "저기… <value:$28> 님?<end>"
+
 ["1340575"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"

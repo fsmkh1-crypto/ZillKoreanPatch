@@ -20,6 +20,10 @@ korean = "하아?<end>"
 japanese = "へ？　なんでだ？<end>"
 korean = "엥? 왜?<end>"
 
+["370048"]
+japanese = "大丈夫？　<value:$28>。<end>"
+korean = "괜찮아? <value:$28>.<end>"
+
 ["370052"]
 japanese = "船長、ありがとよ。<end>"
 korean = "선장, 고마워.<end>"
@@ -199,3 +203,23 @@ korean = "예비 메시지 14<end>"
 ["370301"]
 japanese = "予備メッセージ１５<end>"
 korean = "예비 메시지 15<end>"
+
+["370302"]
+japanese = "予備メッセージ１６<end>"
+korean = "예비 메시지 16<end>"
+
+["370303"]
+japanese = "予備メッセージ１７<end>"
+korean = "예비 메시지 17<end>"
+
+["370304"]
+japanese = "予備メッセージ１８<end>"
+korean = "예비 메시지 18<end>"
+
+["370305"]
+japanese = "予備メッセージ１９<end>"
+korean = "예비 메시지 19<end>"
+
+["370306"]
+japanese = "予備メッセージ２０<end>"
+korean = "예비 메시지 20<end>"

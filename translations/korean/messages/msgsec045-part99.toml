@@ -8,6 +8,10 @@ korean = "？<end>"
 japanese = "うわっ！　目が！<end>"
 korean = "으악! 눈이!<end>"
 
+["450030"]
+japanese = "ガルドラン、待て！<end>"
+korean = "갈드란, 기다려!<end>"
+
 ["450033"]
 japanese = "力が…欲しい…。<end>"
 korean = "힘이… 필요해….<end>"
@@ -15,6 +19,10 @@ korean = "힘이… 필요해….<end>"
 ["450037"]
 japanese = "人殺し！<end>"
 korean = "살인자!<end>"
+
+["450039"]
+japanese = "人殺し！　人殺し！<end>"
+korean = "살인자! 살인자!<end>"
 
 ["450040"]
 japanese = "くそっ！<end>"
@@ -44,6 +52,14 @@ korean = "동료로 삼지 않는다<end>"
 japanese = "行こう。<value:$28>。<end>"
 korean = "가자. <value:$28>.<end>"
 
+["450109"]
+japanese = "おかえり、<value:$28>。<end>"
+korean = "어서 와, <value:$28>.<end>"
+
+["450113"]
+japanese = "ようこそ、<value:$28>。<end>"
+korean = "어서 와, <value:$28>.<end>"
+
 ["450117"]
 japanese = "泊まっていく<end>"
 korean = "묵고 간다<end>"
@@ -51,6 +67,10 @@ korean = "묵고 간다<end>"
 ["450118"]
 japanese = "泊まっていかない<end>"
 korean = "묵고 가지 않는다<end>"
+
+["450120"]
+japanese = "おはよう、<value:$28>。<end>"
+korean = "좋은 아침, <value:$28>.<end>"
 
 ["450138"]
 japanese = "待て。<end>"
@@ -83,6 +103,10 @@ korean = "아, 네.<end>"
 ["450153"]
 japanese = "僕…。<end>"
 korean = "나….<end>"
+
+["450160"]
+japanese = "ガ、ガルドラン！？<end>"
+korean = "가, 갈드란!?<end>"
 
 ["450175"]
 japanese = "なんだ、貴様！<end>"

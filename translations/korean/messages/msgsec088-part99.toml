@@ -20,6 +20,14 @@ korean = "아직 풋내기<end>"
 japanese = "よくわかるよ<end>"
 korean = "잘 알아<end>"
 
+["880043"]
+japanese = "さ、我々と一緒に。<end>"
+korean = "자, 우리와 함께.<end>"
+
+["880049"]
+japanese = "面倒だ。処理しろ！<end>"
+korean = "귀찮다. 처리해!<end>"
+
 ["880057"]
 japanese = "どいてよ、もう！<end>"
 korean = "비켜 줘, 정말!<end>"
@@ -60,9 +68,25 @@ korean = "기다리고 있을게.<end>"
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
 
+["880100"]
+japanese = "ＯＦＦのままでよい<end>"
+korean = "OFF인 채로 둔다<end>"
+
 ["880104"]
 japanese = "ＯＮのままでよい<end>"
 korean = "ON인 채로 둔다<end>"
+
+["880106"]
+japanese = "ＯＦＦのままでよい<end>"
+korean = "OFF인 채로 둔다<end>"
+
+["880121"]
+japanese = "未使用：意地悪っ！<end>"
+korean = "미사용: 심술쟁이!<end>"
+
+["880128"]
+japanese = "<value:$28>さんですね。<end>"
+korean = "<value:$28> 씨군요.<end>"
 
 ["880148"]
 japanese = "あ、動ける！<end>"
@@ -84,6 +108,10 @@ korean = "아니요<end>"
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
 
+["880190"]
+japanese = "その上、強引だよ。<end>"
+korean = "게다가 막무가내야.<end>"
+
 ["880193"]
 japanese = "殺れ。<end>"
 korean = "죽여.<end>"
@@ -91,6 +119,10 @@ korean = "죽여.<end>"
 ["880205"]
 japanese = "あ、…ゴメン。<end>"
 korean = "아, …미안.<end>"
+
+["880224"]
+japanese = "よし、じゃあ行こう<end>"
+korean = "좋아, 그럼 가자<end>"
 
 ["880226"]
 japanese = "ホント！？<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1800001"]
+japanese = "あら、<value:$28>様。<end>"
+korean = "어머, <value:$28> 님.<end>"
+
 ["1800004"]
 japanese = "…<value:$28>様。<end>"
 korean = "…<value:$28> 님.<end>"
@@ -99,6 +103,10 @@ korean = "호출<end>"
 ["1800144"]
 japanese = "よび<end>"
 korean = "호출<end>"
+
+["1800150"]
+japanese = "待って、<value:$28>。<end>"
+korean = "기다려, <value:$28>.<end>"
 
 ["1800158"]
 japanese = "ネメアを追う<end>"

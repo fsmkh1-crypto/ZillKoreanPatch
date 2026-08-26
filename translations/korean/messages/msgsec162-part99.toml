@@ -28,9 +28,17 @@ korean = "안 들어<end>"
 japanese = "見事ねぇ…。<end>"
 korean = "훌륭하네….<end>"
 
+["1620056"]
+japanese = "頼むぜ、<value:$28>。<end>"
+korean = "부탁한다, <value:$28>.<end>"
+
 ["1620075"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1620076"]
+japanese = "ゆくぞ、<value:$28>。<end>"
+korean = "간다, <value:$28>.<end>"
 
 ["1620084"]
 japanese = "ほら、行け。<end>"

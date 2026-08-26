@@ -40,6 +40,10 @@ korean = "잘 모르겠어<end>"
 japanese = "わかります<end>"
 korean = "알겠습니다<end>"
 
+["1370128"]
+japanese = "おう、<value:$28>か。<end>"
+korean = "오, <value:$28>인가.<end>"
+
 ["1370157"]
 japanese = "上手な戦い方は？<end>"
 korean = "잘 싸우는 법은?<end>"

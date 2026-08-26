@@ -20,6 +20,10 @@ korean = "나지…!?<end>"
 japanese = "本当？<end>"
 korean = "정말?<end>"
 
+["460062"]
+japanese = "どうだった、親父？<end>"
+korean = "어땠어, 아버지?<end>"
+
 ["460085"]
 japanese = "泊まる<end>"
 korean = "묵는다<end>"
@@ -27,6 +31,10 @@ korean = "묵는다<end>"
 ["460086"]
 japanese = "泊まらない<end>"
 korean = "묵지 않는다<end>"
+
+["460088"]
+japanese = "疲れはとれたかい？<end>"
+korean = "피로는 좀 풀렸어?<end>"
 
 ["460094"]
 japanese = "親父、やめろ。<end>"
@@ -43,6 +51,10 @@ korean = "아버지!<end>"
 ["460102"]
 japanese = "すまないな。<end>"
 korean = "미안하군.<end>"
+
+["460113"]
+japanese = "知ってるんですか？<end>"
+korean = "알고 계신가요?<end>"
 
 ["460144"]
 japanese = "猫がしゃべった！<end>"
@@ -91,6 +103,10 @@ korean = "설명을 듣는다<end>"
 ["460216"]
 japanese = "説明不要<end>"
 korean = "설명 불필요<end>"
+
+["460219"]
+japanese = "…ふっふっふっふっ<end>"
+korean = "…후후후후<end>"
 
 ["460230"]
 japanese = "その通り<end>"

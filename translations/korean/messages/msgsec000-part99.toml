@@ -6251,3 +6251,7 @@ korean = "구출<end>"
 ["1588"]
 japanese = "・・・・・・。<end>"
 korean = "…….<end>"
+
+["1589"]
+japanese = "ここは、<value:$15>だよ。<end>"
+korean = "여기는 <value:$15>야.<end>"

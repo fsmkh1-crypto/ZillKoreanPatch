@@ -28,9 +28,29 @@ korean = "형!<end>"
 japanese = "早くしろ。行け。<end>"
 korean = "서둘러. 가.<end>"
 
+["420087"]
+japanese = "兄さん、どうして！<end>"
+korean = "형, 어째서!<end>"
+
+["420090"]
+japanese = "人は、恐れるのだ。<end>"
+korean = "인간은 두려워하는 법이다.<end>"
+
 ["420100"]
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
+
+["420110"]
+japanese = "お前と組む気はない<end>"
+korean = "너와 손잡을 생각은 없어<end>"
+
+["420118"]
+japanese = "レムオンに仕えろ。<end>"
+korean = "레몬을 섬겨라.<end>"
+
+["420126"]
+japanese = "弟さんのことかい？<end>"
+korean = "남동생 이야기인가?<end>"
 
 ["420151"]
 japanese = "おもしろそうね<end>"
@@ -72,6 +92,10 @@ korean = "그렇습니까.<end>"
 japanese = "入るぞ、<value:$28>。<end>"
 korean = "들어간다, <value:$28>.<end>"
 
+["420281"]
+japanese = "眠っているのか…。<end>"
+korean = "자고 있는 건가….<end>"
+
 ["420292"]
 japanese = "ん？<end>"
 korean = "응?<end>"
@@ -79,3 +103,11 @@ korean = "응?<end>"
 ["420293"]
 japanese = "待て、<value:$28>。<end>"
 korean = "기다려, <value:$28>.<end>"
+
+["420297"]
+japanese = "王城だ。<line-break>　<end>"
+korean = "왕성이다.<end>"
+
+["420302"]
+japanese = "行くぞ。<line-break>　<end>"
+korean = "간다.<end>"

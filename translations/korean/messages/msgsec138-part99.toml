@@ -12,6 +12,10 @@ korean = "고양이도, 응.<end>"
 japanese = "力で立ち向かう<end>"
 korean = "힘으로 맞선다<end>"
 
+["1380060"]
+japanese = "頼むぞ、<value:$28>。<end>"
+korean = "부탁한다, <value:$28>.<end>"
+
 ["1380065"]
 japanese = "見たい<end>"
 korean = "보고 싶어<end>"

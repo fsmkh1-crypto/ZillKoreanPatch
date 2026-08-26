@@ -4,9 +4,21 @@
 japanese = "よう、<value:$28>。<end>"
 korean = "여어, <value:$28>.<end>"
 
+["500010"]
+japanese = "痛テテテテテテテ！<end>"
+korean = "아야야야야야야!<end>"
+
 ["500014"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["500015"]
+japanese = "ティアナ王女の部屋<end>"
+korean = "티아나 왕녀의 방<end>"
+
+["500016"]
+japanese = "エリス王妃の執務室<end>"
+korean = "엘리스 왕비의 집무실<end>"
 
 ["500018"]
 japanese = "そうですか。<end>"
@@ -16,6 +28,14 @@ korean = "그렇습니까.<end>"
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["500021"]
+japanese = "ティアナ王女の部屋<end>"
+korean = "티아나 왕녀의 방<end>"
+
 ["500023"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["500024"]
+japanese = "エリス王妃の執務室<end>"
+korean = "엘리스 왕비의 집무실<end>"

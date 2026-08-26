@@ -4,6 +4,10 @@
 japanese = "させないっ！<end>"
 korean = "그렇게는 못 해!<end>"
 
+["300044"]
+japanese = "あっ、<value:$28>さん！<end>"
+korean = "앗, <value:$28> 씨!<end>"
+
 ["300066"]
 japanese = "ねぇ…。<end>"
 korean = "있잖아….<end>"

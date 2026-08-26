@@ -4,6 +4,10 @@
 japanese = "まぁ、何かしら？<end>"
 korean = "어머, 무슨 일이죠?<end>"
 
+["640029"]
+japanese = "や、や、やめろっ！<end>"
+korean = "그, 그, 그만둬!<end>"
+
 ["640030"]
 japanese = "お願い、やめて！<end>"
 korean = "부탁이야, 그만해!<end>"
@@ -27,6 +31,10 @@ korean = "<value:$28> 님!<end>"
 ["640046"]
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"
+
+["640053"]
+japanese = "姫さん。さ、手を。<end>"
+korean = "공주님. 자, 손을.<end>"
 
 ["640055"]
 japanese = "…あ。<end>"
@@ -88,9 +96,17 @@ korean = "정말입니까!<end>"
 japanese = "ふふっ。そうよ。<end>"
 korean = "후훗. 그래.<end>"
 
+["640234"]
+japanese = "なんで知ってるの？<end>"
+korean = "어떻게 알고 있어?<end>"
+
 ["640239"]
 japanese = "えっ、ええ…<end>"
 korean = "어, 어어…<end>"
+
+["640263"]
+japanese = "そうよ。お友だち。<end>"
+korean = "그래. 친구야.<end>"
 
 ["640268"]
 japanese = "…自己満足です。<end>"
@@ -191,6 +207,10 @@ korean = "제네… 테스…?<end>"
 ["640303"]
 japanese = "ゼネテスさん！<end>"
 korean = "제네테스 씨!<end>"
+
+["640304"]
+japanese = "うい。どうしたい？<end>"
+korean = "응. 어떻게 하고 싶어?<end>"
 
 ["640308"]
 japanese = "うーい。<end>"

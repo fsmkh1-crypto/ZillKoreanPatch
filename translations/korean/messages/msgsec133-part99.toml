@@ -120,6 +120,10 @@ korean = "핫!<end>"
 japanese = "ベルゼーヴァ様！<end>"
 korean = "벨제바 님!<end>"
 
+["1330333"]
+japanese = "頼むぞ、<value:$28>。<end>"
+korean = "부탁한다, <value:$28>.<end>"
+
 ["1330352"]
 japanese = "フォフォフォ…。<end>"
 korean = "호호호….<end>"
@@ -147,6 +151,10 @@ korean = "후후후….<end>"
 ["1330435"]
 japanese = "な…、何…！？<end>"
 korean = "뭐…, 뭐야…!?<end>"
+
+["1330451"]
+japanese = "待てよ、<value:$28>！<end>"
+korean = "기다려, <value:$28>!<end>"
 
 ["1330608"]
 japanese = "…ノエル。<end>"

@@ -24,6 +24,10 @@ korean = "자, 봐!<end>"
 japanese = "きゃーーーーっ！<end>"
 korean = "꺄아아아아앗!<end>"
 
+["840055"]
+japanese = "さぁて、そろそろ…<end>"
+korean = "자, 슬슬….<end>"
+
 ["840058"]
 japanese = "ははっ！<end>"
 korean = "하핫!<end>"
@@ -47,6 +51,10 @@ korean = "히익!<end>"
 ["840071"]
 japanese = "イヒヒヒヒ！<end>"
 korean = "이히히히!<end>"
+
+["840085"]
+japanese = "<value:$28>、大丈夫！？<end>"
+korean = "<value:$28>, 괜찮아!?<end>"
 
 ["840088"]
 japanese = "え？<end>"

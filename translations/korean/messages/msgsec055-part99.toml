@@ -20,6 +20,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550034"]
+japanese = "はやってるのかな？<end>"
+korean = "유행하는 건가?<end>"
+
 ["550036"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
@@ -112,6 +116,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550072"]
+japanese = "ノエルがやったぞ！<end>"
+korean = "노엘이 해냈다!<end>"
+
 ["550077"]
 japanese = "た、助けてくれ！<end>"
 korean = "사, 살려 줘!<end>"
@@ -119,6 +127,10 @@ korean = "사, 살려 줘!<end>"
 ["550078"]
 japanese = "きゃ～っ！<end>"
 korean = "꺄~!<end>"
+
+["550082"]
+japanese = "追うわよ、<value:$28>！<end>"
+korean = "쫓아가자, <value:$28>!<end>"
 
 ["550089"]
 japanese = "＜無＞<end>"
@@ -663,6 +675,10 @@ korean = "검의 말을 들어라<end>"
 ["550318"]
 japanese = "剣が…答えた…？<end>"
 korean = "검이… 대답했어…?<end>"
+
+["550324"]
+japanese = "…<value:$28>、…さん。<end>"
+korean = "…<value:$28>, …씨.<end>"
 
 ["550331"]
 japanese = "<value:$28>さん！<end>"

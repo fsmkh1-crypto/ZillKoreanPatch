@@ -1,8 +1,20 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["980001"]
+japanese = "あ…、<value:$28>さん。<end>"
+korean = "아…, <value:$28> 씨.<end>"
+
 ["980003"]
 japanese = "もう一度…。<end>"
 korean = "다시 한 번….<end>"
+
+["980030"]
+japanese = "…守りたい、のよ。<end>"
+korean = "…지키고 싶어.<end>"
+
+["980120"]
+japanese = "マルーンを失った。<end>"
+korean = "마룬을 잃었다.<end>"
 
 ["980122"]
 japanese = "まだ、できてない<end>"

@@ -12,6 +12,10 @@ korean = "<미사용><end>"
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
 
+["490038"]
+japanese = "よ、待ってたぜ。　<end>"
+korean = "여어, 기다리고 있었어.　<end>"
+
 ["490046"]
 japanese = "５０００ギア。<end>"
 korean = "5000기어.<end>"
@@ -19,6 +23,10 @@ korean = "5000기어.<end>"
 ["490047"]
 japanese = "話にならん。<end>"
 korean = "말도 안 되는군.<end>"
+
+["490056"]
+japanese = "わかった。男だな。<end>"
+korean = "알겠어. 남자구나.<end>"
 
 ["490061"]
 japanese = "女、だったな…。<end>"
@@ -87,6 +95,10 @@ korean = "후회하고 있다<end>"
 ["490112"]
 japanese = "後悔していない<end>"
 korean = "후회하지 않는다<end>"
+
+["490113"]
+japanese = "そりゃ、残念だな。<end>"
+korean = "그거 참 아쉽군.<end>"
 
 ["490118"]
 japanese = "俺もすぐに行く。<end>"

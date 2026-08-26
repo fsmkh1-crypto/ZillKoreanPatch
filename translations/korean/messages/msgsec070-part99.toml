@@ -4,13 +4,25 @@
 japanese = "手伝ってもらう<end>"
 korean = "도움을 받는다<end>"
 
+["700006"]
+japanese = "手伝ってもらわない<end>"
+korean = "도움받지 않는다<end>"
+
 ["700016"]
 japanese = "手伝ってもらう<end>"
 korean = "도움을 받는다<end>"
 
+["700017"]
+japanese = "お前の手は借りない<end>"
+korean = "네 도움은 받지 않겠다<end>"
+
 ["700025"]
 japanese = "手伝ってもらう<end>"
 korean = "도움을 받는다<end>"
+
+["700026"]
+japanese = "手伝ってもらわない<end>"
+korean = "도움받지 않는다<end>"
 
 ["700059"]
 japanese = "予備選択肢１<end>"

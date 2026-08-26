@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1170001"]
+japanese = "あ、<value:$28>さん！<end>"
+korean = "아, <value:$28> 씨!<end>"
+
 ["1170012"]
 japanese = "あ、えと、その…<end>"
 korean = "아, 저기, 그게…<end>"

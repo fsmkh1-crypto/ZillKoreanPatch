@@ -4,6 +4,10 @@
 japanese = "待ってください。<end>"
 korean = "기다려 주세요.<end>"
 
+["590002"]
+japanese = "竜の死骸ですね…。<end>"
+korean = "용의 사체네요….<end>"
+
 ["590013"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -19,6 +23,10 @@ korean = "수락한다<end>"
 ["590038"]
 japanese = "断る<end>"
 korean = "거절한다<end>"
+
+["590048"]
+japanese = "ひざまづくがよい。<end>"
+korean = "무릎을 꿇어라.<end>"
 
 ["590061"]
 japanese = "て、敵襲！<end>"

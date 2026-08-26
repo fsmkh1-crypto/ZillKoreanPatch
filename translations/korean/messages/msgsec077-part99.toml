@@ -28,6 +28,10 @@ korean = "아트레이아를 쫓는다<end>"
 japanese = "あ…<value:$28>様！<end>"
 korean = "아… <value:$28> 님!<end>"
 
+["770035"]
+japanese = "あ…、<value:$28>様…。<end>"
+korean = "아…, <value:$28> 님….<end>"
+
 ["770036"]
 japanese = "この前は…。<end>"
 korean = "지난번에는….<end>"
@@ -36,6 +40,10 @@ korean = "지난번에는….<end>"
 japanese = "え？　どこに？<end>"
 korean = "어? 어디로?<end>"
 
+["770056"]
+japanese = "私が…？　美しい？<end>"
+korean = "내가…? 아름다워?<end>"
+
 ["770060"]
 japanese = "本当…ですか…？<end>"
 korean = "정말…인가요…?<end>"
@@ -43,6 +51,18 @@ korean = "정말…인가요…?<end>"
 ["770069"]
 japanese = "いいんです。<end>"
 korean = "괜찮습니다.<end>"
+
+["770071"]
+japanese = "おもしろい模様…。<end>"
+korean = "재미있는 무늬….<end>"
+
+["770081"]
+japanese = "まぁ、おいしそう。<end>"
+korean = "어머, 맛있겠네.<end>"
+
+["770095"]
+japanese = "それじゃ、これは？<end>"
+korean = "그럼, 이건 어때?<end>"
 
 ["770099"]
 japanese = "歌なら歌えます！<end>"

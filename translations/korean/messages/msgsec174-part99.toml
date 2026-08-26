@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1740001"]
+japanese = "<value:$28>…さん…！<end>"
+korean = "<value:$28>… 씨…!<end>"
+
 ["1740005"]
 japanese = "わ、わたし…。<end>"
 korean = "저, 저는….<end>"
@@ -11,6 +15,10 @@ korean = "들었어<end>"
 ["1740009"]
 japanese = "何のこと？<end>"
 korean = "무슨 소리야?<end>"
+
+["1740032"]
+japanese = "<value:$28>…さん…。<end>"
+korean = "<value:$28>… 씨….<end>"
 
 ["1740041"]
 japanese = "行くわ。<end>"

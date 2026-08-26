@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["890001"]
+japanese = "<value:$28>…さんだな？<end>"
+korean = "<value:$28>… 씨 맞지?<end>"
+
+["890040"]
+japanese = "パーティーに加える<end>"
+korean = "파티에 합류시킨다<end>"
+
 ["890041"]
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
@@ -23,6 +31,10 @@ korean = "(에스텔…!)<end>"
 ["890096"]
 japanese = "<value:$28>様！！<end>"
 korean = "<value:$28>님!!<end>"
+
+["890104"]
+japanese = "よし、では行くぞ。<end>"
+korean = "좋아, 그럼 간다.<end>"
 
 ["890109"]
 japanese = "わかった<end>"
@@ -72,6 +84,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["890178"]
+japanese = "すまんの、<value:$28>。<end>"
+korean = "미안하네, <value:$28>.<end>"
+
 ["890192"]
 japanese = "い、いや…<end>"
 korean = "아, 아니…<end>"
@@ -116,6 +132,14 @@ korean = "이…노래…<end>"
 japanese = "…終わりだ。<end>"
 korean = "…끝이다.<end>"
 
+["890279"]
+japanese = "…それはどうかな？<end>"
+korean = "…글쎄, 어떨까?<end>"
+
+["890281"]
+japanese = "…今じゃ！　やれ！<end>"
+korean = "…지금이다! 해라!<end>"
+
 ["890282"]
 japanese = "ぐあっ！<end>"
 korean = "크악!<end>"
@@ -124,9 +148,17 @@ korean = "크악!<end>"
 japanese = "き、貴様は…<end>"
 korean = "네, 네놈은…<end>"
 
+["890288"]
+japanese = "…今じゃ！　やれ！<end>"
+korean = "…지금이다! 해라!<end>"
+
 ["890289"]
 japanese = "ぐあっ！<end>"
 korean = "크악!<end>"
+
+["890298"]
+japanese = "くっ、玄武将軍…。<end>"
+korean = "큭, 현무 장군….<end>"
 
 ["890301"]
 japanese = "…今よ！<end>"
@@ -151,6 +183,10 @@ korean = "뭐, 뭐라고…?<end>"
 ["890341"]
 japanese = "く、来る…！<end>"
 korean = "오, 온다…!<end>"
+
+["890344"]
+japanese = "…地獄の苦しみだぜ<end>"
+korean = "…지옥 같은 고통이야<end>"
 
 ["890349"]
 japanese = "あ…、<value:$28>。<end>"
@@ -188,13 +224,25 @@ korean = "왔나….<end>"
 japanese = "おいで、<value:$28>。<end>"
 korean = "이리 와, <value:$28>.<end>"
 
+["890478"]
+japanese = "おもしろいことさ。<end>"
+korean = "재미있는 일이야.<end>"
+
 ["890485"]
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
 
+["890490"]
+japanese = "お願い！　逃げて！<end>"
+korean = "부탁이야! 도망쳐!<end>"
+
 ["890507"]
 japanese = "謁見の間へ行く<end>"
 korean = "알현실로 간다<end>"
+
+["890508"]
+japanese = "謁見の間へ行かない<end>"
+korean = "알현실에는 가지 않는다<end>"
 
 ["890510"]
 japanese = "…そうですか。<end>"
@@ -275,6 +323,14 @@ korean = "수락한다<end>"
 ["890549"]
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
+
+["890567"]
+japanese = "謁見の間へ行かない<end>"
+korean = "알현실에는 가지 않는다<end>"
+
+["890572"]
+japanese = "行きたい時代は無い<end>"
+korean = "가고 싶은 시대는 없다<end>"
 
 ["890576"]
 japanese = "あきらめる<end>"
@@ -368,6 +424,10 @@ korean = "꺄아아아아!<end>"
 japanese = "カ、カフィン！！<end>"
 korean = "카, 카핀!!<end>"
 
+["890654"]
+japanese = "ノエル、無事かっ？<end>"
+korean = "노엘, 무사해!?<end>"
+
 ["890656"]
 japanese = "遅かったか…。<end>"
 korean = "늦었나….<end>"
@@ -375,6 +435,10 @@ korean = "늦었나….<end>"
 ["890663"]
 japanese = "今、なんて…？<end>"
 korean = "방금, 뭐라고…?<end>"
+
+["890667"]
+japanese = "竜王様に…願う…？<end>"
+korean = "용왕님께… 소원을…?<end>"
 
 ["890673"]
 japanese = "こ、この声は…！<end>"
@@ -391,6 +455,10 @@ korean = "노엘!<end>"
 ["890684"]
 japanese = "…ノエル。<end>"
 korean = "…노엘.<end>"
+
+["890687"]
+japanese = "ノエル、あなた…。<end>"
+korean = "노엘, 당신….<end>"
 
 ["890689"]
 japanese = "ノエル…。<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["560001"]
+japanese = "（こんな遅くに…）<end>"
+korean = "(이렇게 늦게…)<end>"
+
 ["560003"]
 japanese = "（あの声は…）<end>"
 korean = "(저 목소리는…)<end>"
@@ -16,6 +20,10 @@ korean = "누구야?<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["560039"]
+japanese = "これを飲むがいい。<end>"
+korean = "이걸 마셔라.<end>"
+
 ["560041"]
 japanese = "行きましょ。<end>"
 korean = "가자.<end>"
@@ -24,9 +32,17 @@ korean = "가자.<end>"
 japanese = "<value:$28>さん！<end>"
 korean = "<value:$28>씨!<end>"
 
+["560046"]
+japanese = "あ、えと…、はい！<end>"
+korean = "아, 저기… 네!<end>"
+
 ["560052"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
+
+["560058"]
+japanese = "これを飲むがいい。<end>"
+korean = "이걸 마셔라.<end>"
 
 ["560060"]
 japanese = "行きましょ。<end>"
@@ -48,6 +64,14 @@ korean = "나한테 무슨 용건이지?<end>"
 japanese = "今、何か言った？<end>"
 korean = "방금 뭐라고 했어?<end>"
 
+["560129"]
+japanese = "これを飲むがいい。<end>"
+korean = "이걸 마셔라.<end>"
+
+["560144"]
+japanese = "また、お前たちか。<end>"
+korean = "또 너희냐.<end>"
+
 ["560149"]
 japanese = "ちっ。<end>"
 korean = "칫.<end>"
@@ -55,6 +79,10 @@ korean = "칫.<end>"
 ["560153"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
+
+["560157"]
+japanese = "へへ…、違いない。<end>"
+korean = "헤헤…, 틀림없어.<end>"
 
 ["560160"]
 japanese = "愚かな…。<end>"
@@ -80,6 +108,10 @@ korean = "팔아 달라고 한다<end>"
 japanese = "その必要はない！<end>"
 korean = "그럴 필요 없어!<end>"
 
+["560192"]
+japanese = "じゃあな、<value:$28>。<end>"
+korean = "그럼 이만, <value:$28>.<end>"
+
 ["560202"]
 japanese = "レイヴン！！<end>"
 korean = "레이븐!!<end>"
@@ -99,6 +131,10 @@ korean = "어서 오세요.<end>"
 ["560216"]
 japanese = "<value:$28>、さん。<end>"
 korean = "<value:$28>, 씨.<end>"
+
+["560228"]
+japanese = "<value:$28>を…　　　　<end>"
+korean = "<value:$28>를…　　　　<end>"
 
 ["560243"]
 japanese = "ノエル！　<end>"
@@ -136,6 +172,10 @@ korean = "무슨 뜻이야?<end>"
 japanese = "あんたねぇ！！<end>"
 korean = "너 정말!!<end>"
 
+["560337"]
+japanese = "また、告死天使だ。<end>"
+korean = "또 고사천사다.<end>"
+
 ["560400"]
 japanese = "イークレムン様…<end>"
 korean = "이클레문 님…<end>"
@@ -147,6 +187,10 @@ korean = "왔나….<end>"
 ["560430"]
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
+
+["560479"]
+japanese = "反乱者は逃がせない<end>"
+korean = "반란자는 놓칠 수 없다<end>"
 
 ["560480"]
 japanese = "一緒に逃げよう<end>"
@@ -164,6 +208,10 @@ korean = "…미안해요<end>"
 japanese = "あ、あなた…！<end>"
 korean = "다, 당신…!<end>"
 
+["560541"]
+japanese = "ほい、これ報酬ね。<end>"
+korean = "자, 이게 보상이야.<end>"
+
 ["560546"]
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
@@ -175,6 +223,18 @@ korean = "아, 아니야!<end>"
 ["560573"]
 japanese = "な、何よ！<end>"
 korean = "뭐, 뭐야!<end>"
+
+["560581"]
+japanese = "竜…、邪竜か…！？<end>"
+korean = "용…, 사룡인가…!?<end>"
+
+["560589"]
+japanese = "ジラーク、何を…！<end>"
+korean = "지라크, 무슨 짓을…!<end>"
+
+["560592"]
+japanese = "わぁ、きっれーい。<end>"
+korean = "와아, 예쁘다.<end>"
 
 ["560596"]
 japanese = "え…、マジ…？<end>"
@@ -212,6 +272,10 @@ korean = "그렇군요……<end>"
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28> 님!<end>"
 
+["560654"]
+japanese = "私…やってみます。<end>"
+korean = "저… 해볼게요.<end>"
+
 ["560674"]
 japanese = "なんですって？<end>"
 korean = "뭐라고요?<end>"
@@ -227,6 +291,10 @@ korean = "칫!<end>"
 ["560813"]
 japanese = "例の件ですが…。<end>"
 korean = "그 건 말입니다….<end>"
+
+["560824"]
+japanese = "え？　今、なんて…<end>"
+korean = "어? 방금 뭐라고…<end>"
 
 ["560835"]
 japanese = "今は彼女を守る<end>"

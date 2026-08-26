@@ -1,12 +1,36 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["670005"]
+japanese = "それは意外ですわ。<end>"
+korean = "그건 뜻밖이네요.<end>"
+
+["670009"]
+japanese = "少しのどが渇いた。<end>"
+korean = "조금 목이 마르네.<end>"
+
+["670017"]
+japanese = "少しのどが渇いた。<end>"
+korean = "조금 목이 마르네.<end>"
+
+["670023"]
+japanese = "少しのどが渇いた。<end>"
+korean = "조금 목이 마르네.<end>"
+
 ["670028"]
 japanese = "そなた、何者だ？<end>"
 korean = "그대, 누구지?<end>"
 
+["670030"]
+japanese = "少しのどが渇いた。<end>"
+korean = "조금 목이 마르네.<end>"
+
 ["670043"]
 japanese = "…そう。<end>"
 korean = "…그래.<end>"
+
+["670049"]
+japanese = "<value:$28>、どうした？<end>"
+korean = "<value:$28>, 무슨 일이야?<end>"
 
 ["670052"]
 japanese = "ティアナか？<end>"
@@ -15,6 +39,10 @@ korean = "티아나인가?<end>"
 ["670054"]
 japanese = "ゼネテスさん！<end>"
 korean = "제네테스 씨!<end>"
+
+["670055"]
+japanese = "うい。どうしたい？<end>"
+korean = "응. 어떻게 하고 싶어?<end>"
 
 ["670064"]
 japanese = "うーい。<end>"
@@ -28,9 +56,17 @@ korean = "상태가 어때?<end>"
 japanese = "え、ええ。<end>"
 korean = "아, 네.<end>"
 
+["670076"]
+japanese = "…自己満足ですわ。<end>"
+korean = "…자기만족이에요.<end>"
+
 ["670077"]
 japanese = "て、言うと？<end>"
 korean = "그 말은?<end>"
+
+["670088"]
+japanese = "んじゃな。<value:$28>。<end>"
+korean = "그럼 이만. <value:$28>.<end>"
 
 ["670090"]
 japanese = "…帰りましょう。<end>"

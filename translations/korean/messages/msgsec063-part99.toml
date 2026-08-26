@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["630001"]
+japanese = "うーん、困ったな。<end>"
+korean = "음, 곤란하네.<end>"
+
 ["630002"]
 japanese = "おお、<value:$28>か。<end>"
 korean = "오, <value:$28>인가.<end>"
@@ -15,6 +19,22 @@ korean = "온 모양입니다.<end>"
 ["630025"]
 japanese = "へ、へい！<end>"
 korean = "예, 예!<end>"
+
+["630037"]
+japanese = "<value:$28>、大丈夫か？<end>"
+korean = "<value:$28>, 괜찮아?<end>"
+
+["630042"]
+japanese = "<value:$28>、大丈夫か？<end>"
+korean = "<value:$28>, 괜찮아?<end>"
+
+["630043"]
+japanese = "カッコよかったぜ。<end>"
+korean = "멋졌어.<end>"
+
+["630046"]
+japanese = "あ、タルテュバ様！<end>"
+korean = "아, 탈튜바 님!<end>"
 
 ["630047"]
 japanese = "お前は待ちな！！<end>"
@@ -39,6 +59,10 @@ korean = "도와주는 거야?<end>"
 ["630111"]
 japanese = "正解だ。<end>"
 korean = "정답이야.<end>"
+
+["630114"]
+japanese = "それに、<value:$28>様。<end>"
+korean = "그리고 <value:$28> 님.<end>"
 
 ["630123"]
 japanese = "<value:$28>様も。<end>"
@@ -68,6 +92,10 @@ korean = "글쎄….<end>"
 japanese = "バカな。<end>"
 korean = "말도 안 돼.<end>"
 
+["630214"]
+japanese = "きれいな妹君…か。<end>"
+korean = "예쁜 여동생이라…<end>"
+
 ["630244"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -87,6 +115,10 @@ korean = "후후후.<end>"
 ["630321"]
 japanese = "笑える冗談だ。<end>"
 korean = "웃기는 농담이군.<end>"
+
+["630337"]
+japanese = "もう、レムオン様！<end>"
+korean = "정말, 레몬 님!<end>"
 
 ["630352"]
 japanese = "空メッセージ<end>"

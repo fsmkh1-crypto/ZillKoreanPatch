@@ -8,9 +8,25 @@ korean = "핫!<end>"
 japanese = "オルナット…。<end>"
 korean = "올나트….<end>"
 
+["720026"]
+japanese = "…ロイ、なのだな。<end>"
+korean = "…로이, 맞구나.<end>"
+
+["720047"]
+japanese = "…ロイ、なのだな。<end>"
+korean = "…로이, 맞구나.<end>"
+
+["720051"]
+japanese = "…お前…なのだな。<end>"
+korean = "…너…구나.<end>"
+
 ["720055"]
 japanese = "させないっ！<end>"
 korean = "그렇게는 못 해!<end>"
+
+["720063"]
+japanese = "<value:$28>さんですか？<end>"
+korean = "<value:$28> 씨인가요?<end>"
 
 ["720067"]
 japanese = "仲間にする<end>"

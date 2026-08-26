@@ -4,6 +4,10 @@
 japanese = "きゃっ！<end>"
 korean = "꺅!<end>"
 
+["650020"]
+japanese = "お父様が？　大変！<end>"
+korean = "아버님이? 큰일이야!<end>"
+
 ["650023"]
 japanese = "ダミー<line-break><end>"
 korean = "더미<end>"
@@ -75,6 +79,14 @@ korean = "더미<end>"
 ["650040"]
 japanese = "おい、<value:$28>。<end>"
 korean = "야, <value:$28>.<end>"
+
+["650078"]
+japanese = "…それはできんな。<end>"
+korean = "…그건 할 수 없군.<end>"
+
+["650098"]
+japanese = "もう、レムオン様！<end>"
+korean = "정말, 레몬 님!<end>"
 
 ["650104"]
 japanese = "<value:$28>様も。<end>"

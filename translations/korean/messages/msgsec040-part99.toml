@@ -124,6 +124,10 @@ korean = "결정적이네요.<end>"
 japanese = "ん？　なんだと？<end>"
 korean = "응? 뭐라고?<end>"
 
+["400098"]
+japanese = "は。もちろんです。<end>"
+korean = "네. 물론입니다.<end>"
+
 ["400120"]
 japanese = "久しぶりね。<end>"
 korean = "오랜만이네.<end>"
@@ -140,9 +144,17 @@ korean = "때와 경우에 따라 달라<end>"
 japanese = "…ムキになるな。<end>"
 korean = "…발끈하지 마.<end>"
 
+["400153"]
+japanese = "助けはいらないわ。<end>"
+korean = "도움은 필요 없어.<end>"
+
 ["400154"]
 japanese = "…俺の助けもか？<end>"
 korean = "…내 도움도 말인가?<end>"
+
+["400155"]
+japanese = "私ひとりで十分よ。<end>"
+korean = "나 혼자면 충분해.<end>"
 
 ["400208"]
 japanese = "空<end>"
@@ -211,6 +223,10 @@ korean = "셈하자 장로님!<end>"
 ["400257"]
 japanese = "な、何事だ！？<end>"
 korean = "무, 무슨 일이야!?<end>"
+
+["400261"]
+japanese = "４騎！？　バカな！<end>"
+korean = "4기!? 말도 안 돼!<end>"
 
 ["400263"]
 japanese = "そ、それが…！<end>"

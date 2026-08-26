@@ -184,6 +184,10 @@ korean = " VS 이즈키알<end>"
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960601"]
+japanese = "　083-シャリが語る<end>"
+korean = "　083-샤리가 말한다<end>"
+
 ["1960602"]
 japanese = "　084-ウルグ降臨<end>"
 korean = " 084-울그 강림<end>"
@@ -239,6 +243,14 @@ korean = " 0800_네메아End#01<end>"
 ["1960677"]
 japanese = "　0801_ｾﾞﾈEnd#02<end>"
 korean = " 0801_제네End#02<end>"
+
+["1960678"]
+japanese = "　0808_ﾚｰｸﾞEnd#09<end>"
+korean = "　0808_레그End#09<end>"
+
+["1960680"]
+japanese = "　0812_ｴｽﾃﾙEnd#13<end>"
+korean = "　0812_에스텔End#13<end>"
 
 ["1960681"]
 japanese = "　0814_ｶﾙﾗEnd#15<end>"
@@ -427,6 +439,22 @@ korean = "새 시작 12<end>"
 ["1960758"]
 japanese = "新スタート１３<end>"
 korean = "새 시작 13<end>"
+
+["1960759"]
+japanese = "新スタート１４_１<end>"
+korean = "새 스타트14_1<end>"
+
+["1960760"]
+japanese = "新スタート１４_２<end>"
+korean = "새 스타트14_2<end>"
+
+["1960761"]
+japanese = "新スタート１４_３<end>"
+korean = "새 스타트14_3<end>"
+
+["1960762"]
+japanese = "新スタート１４_４<end>"
+korean = "새 스타트14_4<end>"
 
 ["1960763"]
 japanese = "新スタート１５<end>"
@@ -1335,6 +1363,18 @@ korean = "도시락 배달 의뢰<end>"
 ["1960993"]
 japanese = "弁当の配達完了<end>"
 korean = "도시락 배달 완료<end>"
+
+["1960995"]
+japanese = "露店1に話し掛けた<end>"
+korean = "노점1에 말을 걸었다<end>"
+
+["1960996"]
+japanese = "露店2に話し掛けた<end>"
+korean = "노점2에 말을 걸었다<end>"
+
+["1960997"]
+japanese = "露店3に話し掛けた<end>"
+korean = "노점3에 말을 걸었다<end>"
 
 ["1960998"]
 japanese = "ガルドラン登場<end>"

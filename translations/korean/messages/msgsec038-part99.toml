@@ -8,17 +8,61 @@ korean = "됐어<end>"
 japanese = "聞くのをやめる<end>"
 korean = "듣는 걸 그만둔다<end>"
 
+["380014"]
+japanese = "<color:h>ヴァン<color:o><end>"
+korean = "<color:h>반<color:o><end>"
+
 ["380016"]
 japanese = "<color:h>エア<color:o><end>"
 korean = "<color:h>에어<color:o><end>"
+
+["380018"]
+japanese = "<color:h>エスト<color:o><end>"
+korean = "<color:h>에스트<color:o><end>"
+
+["380021"]
+japanese = "<color:h>カルラ<color:o><end>"
+korean = "<color:h>카를라<color:o><end>"
+
+["380023"]
+japanese = "<color:h>ザギヴ<color:o><end>"
+korean = "<color:h>자기브<color:o><end>"
 
 ["380026"]
 japanese = "<color:h>セラ<color:o><end>"
 korean = "<color:h>세라<color:o><end>"
 
+["380027"]
+japanese = "<color:h>チャカ<color:o><end>"
+korean = "<color:h>차카<color:o><end>"
+
+["380030"]
+japanese = "<color:h>ナッジ<color:o><end>"
+korean = "<color:h>나지<color:o><end>"
+
+["380031"]
+japanese = "<color:h>ノエル<color:o><end>"
+korean = "<color:h>노엘<color:o><end>"
+
+["380035"]
+japanese = "<color:h>フレア<color:o><end>"
+korean = "<color:h>플레어<color:o><end>"
+
+["380039"]
+japanese = "<color:h>レーグ<color:o><end>"
+korean = "<color:h>레그<color:o><end>"
+
 ["380042"]
 japanese = "<color:h>ロイ<color:o><end>"
 korean = "<color:h>로이<color:o><end>"
+
+["380047"]
+japanese = "イーシャ、ねえ…。<end>"
+korean = "이샤라, 글쎄….<end>"
+
+["380048"]
+japanese = "イオンズ、ねえ…。<end>"
+korean = "이온즈라, 글쎄….<end>"
 
 ["380050"]
 japanese = "ヴァン、ねえ…。<end>"
@@ -28,9 +72,17 @@ korean = "반, 이라….<end>"
 japanese = "エア、ねえ…。<end>"
 korean = "에어, 라….<end>"
 
+["380053"]
+japanese = "エステル、ねえ…。<end>"
+korean = "에스텔이라, 글쎄….<end>"
+
 ["380054"]
 japanese = "エスト、ねえ…。<end>"
 korean = "에스트, 라….<end>"
+
+["380056"]
+japanese = "オイフェ、ねえ…。<end>"
+korean = "오이페라, 글쎄….<end>"
 
 ["380057"]
 japanese = "カルラ、ねえ…。<end>"
@@ -40,13 +92,37 @@ korean = "카를라, 라….<end>"
 japanese = "ザギヴ、ねえ…。<end>"
 korean = "자기브, 라….<end>"
 
+["380060"]
+japanese = "ジリオン、ねえ…。<end>"
+korean = "지리온이라, 글쎄….<end>"
+
+["380061"]
+japanese = "ゼネテス、ねえ…。<end>"
+korean = "제네테스라, 글쎄….<end>"
+
 ["380062"]
 japanese = "セラ、ねえ…。<end>"
 korean = "세라, 라….<end>"
 
+["380064"]
+japanese = "ティアナ、ねえ…。<end>"
+korean = "티아나라, 글쎄….<end>"
+
+["380065"]
+japanese = "デルガド、ねえ…。<end>"
+korean = "델가도라, 글쎄….<end>"
+
 ["380067"]
 japanese = "ノエル、ねえ…。<end>"
 korean = "노엘, 이라….<end>"
+
+["380069"]
+japanese = "フェティ、ねえ…。<end>"
+korean = "페티라, 글쎄….<end>"
+
+["380070"]
+japanese = "フェルム、ねえ…。<end>"
+korean = "펠름이라, 글쎄….<end>"
 
 ["380071"]
 japanese = "フレア、ねえ…。<end>"
@@ -56,6 +132,10 @@ korean = "플레어, 라….<end>"
 japanese = "レーグ、ねえ…。<end>"
 korean = "레그, 라….<end>"
 
+["380076"]
+japanese = "レムオン、ねえ…。<end>"
+korean = "레몬이라, 글쎄….<end>"
+
 ["380078"]
 japanese = "ロイ、ねえ…。<end>"
 korean = "로이, 라….<end>"
@@ -63,6 +143,10 @@ korean = "로이, 라….<end>"
 ["380091"]
 japanese = "もういい<end>"
 korean = "됐어<end>"
+
+["380096"]
+japanese = "イオンズ、ねえ…。<end>"
+korean = "이온즈라, 글쎄….<end>"
 
 ["380098"]
 japanese = "ヴァン、ねえ…。<end>"
@@ -72,9 +156,17 @@ korean = "반, 이라….<end>"
 japanese = "エア、ねえ…。<end>"
 korean = "에어, 라….<end>"
 
+["380101"]
+japanese = "エステル、ねえ…。<end>"
+korean = "에스텔이라, 글쎄….<end>"
+
 ["380102"]
 japanese = "エスト、ねえ…。<end>"
 korean = "에스트, 라….<end>"
+
+["380103"]
+japanese = "オイフェ、ねえ…。<end>"
+korean = "오이페라, 글쎄….<end>"
 
 ["380104"]
 japanese = "カルラ、ねえ…。<end>"
@@ -84,13 +176,29 @@ korean = "카를라, 라….<end>"
 japanese = "ザギヴ、ねえ…。<end>"
 korean = "자기브, 라….<end>"
 
+["380107"]
+japanese = "ゼネテス、ねえ…。<end>"
+korean = "제네테스라, 글쎄….<end>"
+
 ["380108"]
 japanese = "セラ、ねえ…。<end>"
 korean = "세라, 라….<end>"
 
+["380110"]
+japanese = "ティアナ、ねえ…。<end>"
+korean = "티아나라, 글쎄….<end>"
+
+["380111"]
+japanese = "デルガド、ねえ…。<end>"
+korean = "델가도라, 글쎄….<end>"
+
 ["380113"]
 japanese = "ノエル、ねえ…。<end>"
 korean = "노엘, 이라….<end>"
+
+["380115"]
+japanese = "フェティ、ねえ…。<end>"
+korean = "페티라, 글쎄….<end>"
 
 ["380116"]
 japanese = "フレア、ねえ…。<end>"
@@ -100,17 +208,41 @@ korean = "플레어, 라….<end>"
 japanese = "レーグ、ねえ…。<end>"
 korean = "레그, 라….<end>"
 
+["380121"]
+japanese = "レムオン、ねえ…。<end>"
+korean = "레몬이라, 글쎄….<end>"
+
 ["380123"]
 japanese = "ロイ、ねえ…。<end>"
 korean = "로이, 라….<end>"
+
+["380124"]
+japanese = "フェティ、ねえ…。<end>"
+korean = "페티라, 글쎄….<end>"
+
+["380126"]
+japanese = "ジリオン、ねえ…。<end>"
+korean = "지리온이라, 글쎄….<end>"
+
+["380127"]
+japanese = "イーシャ、ねえ…。<end>"
+korean = "이샤라, 글쎄….<end>"
 
 ["380129"]
 japanese = "レムオン<end>"
 korean = "레몬<end>"
 
+["380130"]
+japanese = "レムオン、ねえ…。<end>"
+korean = "레몬이라, 글쎄….<end>"
+
 ["380131"]
 japanese = "イオンズ<end>"
 korean = "이온즈<end>"
+
+["380132"]
+japanese = "イオンズ、ねえ…。<end>"
+korean = "이온즈라, 글쎄….<end>"
 
 ["380133"]
 japanese = "ロイ<end>"

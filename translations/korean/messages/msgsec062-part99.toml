@@ -8,6 +8,10 @@ korean = "<value:$28>… 씨….<end>"
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
 
+["620024"]
+japanese = "あっ、<value:$28>さん！<end>"
+korean = "앗, <value:$28> 씨!<end>"
+
 ["620044"]
 japanese = "ああ、メシ～。<end>"
 korean = "아아, 밥~.<end>"
@@ -60,6 +64,10 @@ korean = "핫!<end>"
 japanese = "団長～！<end>"
 korean = "단장~!<end>"
 
+["620090"]
+japanese = "ほら、どうするの？<end>"
+korean = "자, 어떻게 할 거야?<end>"
+
 ["620092"]
 japanese = "ええ～！？<end>"
 korean = "에에~!?<end>"
@@ -67,6 +75,10 @@ korean = "에에~!?<end>"
 ["620122"]
 japanese = "あーっ！！<end>"
 korean = "아앗!!<end>"
+
+["620123"]
+japanese = "団長、逃げるゴブ！<end>"
+korean = "단장, 도망치는 고브!<end>"
 
 ["620132"]
 japanese = "うるうるうる…。<end>"
@@ -80,6 +92,10 @@ korean = "배에 타지 마!<end>"
 japanese = "あーっ！！<end>"
 korean = "아앗!!<end>"
 
+["620161"]
+japanese = "く、苦しいゴブ…。<end>"
+korean = "크, 괴로운 고브….<end>"
+
 ["620165"]
 japanese = "ゴブー！<end>"
 korean = "고부~!<end>"
@@ -87,6 +103,10 @@ korean = "고부~!<end>"
 ["620166"]
 japanese = "痛っ！<end>"
 korean = "아야!<end>"
+
+["620172"]
+japanese = "親分、ここゴブか。<end>"
+korean = "두목, 여기 고브인가.<end>"
 
 ["620173"]
 japanese = "む。<end>"
@@ -108,6 +128,10 @@ korean = "단장!<end>"
 japanese = "マルーン！<end>"
 korean = "마룬!<end>"
 
+["620197"]
+japanese = "それは無理ですね。<end>"
+korean = "그건 무리네요.<end>"
+
 ["620198"]
 japanese = "どうしてゴブ？<end>"
 korean = "왜 고브?<end>"
@@ -119,6 +143,10 @@ korean = "그럴 수가….<end>"
 ["620204"]
 japanese = "だけど…。<end>"
 korean = "하지만….<end>"
+
+["620218"]
+japanese = "だめよ。だって…。<end>"
+korean = "안 돼. 왜냐면….<end>"
 
 ["620220"]
 japanese = "どうですか？<end>"
@@ -172,6 +200,14 @@ korean = "윽.<end>"
 japanese = "死ぬほどまずい！<end>"
 korean = "죽을 만큼 맛없어!<end>"
 
+["620333"]
+japanese = "…す、すいません！<end>"
+korean = "…죄, 죄송합니다!<end>"
+
+["620334"]
+japanese = "あー、<value:$28>さん！<end>"
+korean = "아, <value:$28> 씨!<end>"
+
 ["620336"]
 japanese = "うん<end>"
 korean = "응<end>"
@@ -183,6 +219,10 @@ korean = "아니, 별건 아니야…<end>"
 ["620338"]
 japanese = "うれしいです！<end>"
 korean = "기뻐요!<end>"
+
+["620339"]
+japanese = "そうなんですか…。<end>"
+korean = "그런가요….<end>"
 
 ["620353"]
 japanese = "うっ！<end>"
