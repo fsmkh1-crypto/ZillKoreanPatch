@@ -24,6 +24,10 @@ korean = "내가… 매력적이라고?<end>"
 japanese = "…よかった。<end>"
 korean = "…다행이다.<end>"
 
+["1920053"]
+japanese = "ありがとう。<line-break>…うれしいです、<line-break><value:$28>様。<end>"
+korean = "고마워요. …기뻐요, <value:$28> 님.<end>"
+
 ["1920060"]
 japanese = "えっ…ええっ！<end>"
 korean = "어… 어어!?<end>"

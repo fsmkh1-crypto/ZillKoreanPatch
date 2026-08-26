@@ -48,6 +48,10 @@ korean = "크학…!<end>"
 japanese = "こいつっ！！<end>"
 korean = "이 자식!!<end>"
 
+["440085"]
+japanese = "…<value:$28>。<line-break>ここで…何を…？<line-break>　<line-break>！！<end>"
+korean = "…<value:$28>. 여기서… 뭘…? !!<end>"
+
 ["440089"]
 japanese = "なんの話？<end>"
 korean = "무슨 얘기야?<end>"

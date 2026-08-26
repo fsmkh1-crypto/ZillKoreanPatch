@@ -148,6 +148,10 @@ korean = "후후후….<end>"
 japanese = "な…、何…！？<end>"
 korean = "뭐…, 뭐야…!?<end>"
 
+["1330391"]
+japanese = "無事か、<line-break><value:$28>？<end>"
+korean = "무사하냐, <value:$28>?<end>"
+
 ["1330405"]
 japanese = "人の心の中…？<end>"
 korean = "사람의 마음속…?<end>"
@@ -163,6 +167,10 @@ korean = "후후후….<end>"
 ["1330435"]
 japanese = "な…、何…！？<end>"
 korean = "뭐…, 뭐야…!?<end>"
+
+["1330436"]
+japanese = "無事か、<line-break><value:$28>？<end>"
+korean = "무사하냐, <value:$28>?<end>"
 
 ["1330451"]
 japanese = "待てよ、<value:$28>！<end>"

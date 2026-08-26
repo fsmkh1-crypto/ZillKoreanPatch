@@ -68,6 +68,18 @@ korean = "이즈키야르…<end>"
 japanese = "オオオオ…ッ！！<end>"
 korean = "오오오오…!!<end>"
 
+["1360158"]
+japanese = "じゃあね。<line-break>またあとで会おうね、<line-break><value:$28>。<end>"
+korean = "그럼 안녕. 나중에 또 만나자, <value:$28>.<end>"
+
+["1360167"]
+japanese = "<value:$28>、時に猶予はない。<end>"
+korean = "<value:$28>, 시간이 없다.<end>"
+
+["1360178"]
+japanese = "…あっ。<line-break><value:$28>。<end>"
+korean = "…앗. <value:$28>.<end>"
+
 ["1360185"]
 japanese = "…開け放つもの。<end>"
 korean = "…열어젖히는 자.<end>"
@@ -244,6 +256,10 @@ korean = "어?<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["1360560"]
+japanese = "おっ、<value:$28>じゃないか。<end>"
+korean = "오, <value:$28> 아니냐.<end>"
+
 ["1360565"]
 japanese = "イオンズを追う<end>"
 korean = "이온즈를 쫓는다<end>"
@@ -276,6 +292,10 @@ korean = "신님, 해버려.<end>"
 japanese = "な…、何…！？<end>"
 korean = "뭐…, 뭐야…!?<end>"
 
+["1360713"]
+japanese = "無事か、<line-break><value:$28>？<end>"
+korean = "무사하냐, <value:$28>?<end>"
+
 ["1360729"]
 japanese = "何が見えるのかしら？<end>"
 korean = "뭐가 보이는 걸까?<end>"
@@ -291,3 +311,7 @@ korean = "신님, 해버려.<end>"
 ["1360743"]
 japanese = "な…、何…！？<end>"
 korean = "뭐…, 뭐야…!?<end>"
+
+["1360744"]
+japanese = "無事か、<line-break><value:$28>？<end>"
+korean = "무사하냐, <value:$28>?<end>"

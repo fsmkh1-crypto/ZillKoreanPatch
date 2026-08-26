@@ -16,6 +16,10 @@ korean = "빈 메시지<end>"
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
 
+["1040033"]
+japanese = "<value:$28>様が、お見えです。<end>"
+korean = "<value:$28> 님이 오셨습니다.<end>"
+
 ["1040035"]
 japanese = "…ちっ！<end>"
 korean = "…칫!<end>"

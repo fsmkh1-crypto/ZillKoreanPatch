@@ -36,6 +36,10 @@ korean = "적 1체에 풍속성 공격<end>"
 japanese = "敵全体に風属性攻撃<end>"
 korean = "적 전체에 풍속성 공격<end>"
 
+["1660035"]
+japanese = "敵１体を毒状態にする<end>"
+korean = "적 1명을 독 상태로 만든다.<end>"
+
 ["1660039"]
 japanese = "敵１体に聖属性攻撃<end>"
 korean = "적 1체에 성속성 공격<end>"
@@ -96,6 +100,10 @@ korean = "상품 등을 팔아 번 돈<end>"
 japanese = "蒼い花が美しい花<end>"
 korean = "푸른 꽃이 아름다운 꽃<end>"
 
+["1660126"]
+japanese = "闇のように真っ黒な花<end>"
+korean = "어둠처럼 새까만 꽃<end>"
+
 ["1660127"]
 japanese = "他人に送る通信文<end>"
 korean = "다른 사람에게 보내는 통신문<end>"
@@ -103,6 +111,10 @@ korean = "다른 사람에게 보내는 통신문<end>"
 ["1660133"]
 japanese = "神の教えを書いた本<end>"
 korean = "신의 가르침이 적힌 책<end>"
+
+["1660134"]
+japanese = "神々の姿を模した彫像<end>"
+korean = "신들의 모습을 본뜬 조각상<end>"
 
 ["1660139"]
 japanese = "市長の書いた嘆願書<end>"
@@ -120,6 +132,10 @@ korean = "마을의 유일한 특산물<end>"
 japanese = "薬を入れておく瓶<end>"
 korean = "약을 담아 두는 병<end>"
 
+["1660152"]
+japanese = "混じりっけなしの鉱石<end>"
+korean = "불순물이 전혀 없는 광석<end>"
+
 ["1660155"]
 japanese = "村長が書いた手紙<end>"
 korean = "촌장이 쓴 편지<end>"
@@ -128,6 +144,14 @@ korean = "촌장이 쓴 편지<end>"
 japanese = "プレゼント<end>"
 korean = "선물<end>"
 
+["1660158"]
+japanese = "マノンの腕輪の模造品<end>"
+korean = "마논의 팔찌 모조품<end>"
+
+["1660160"]
+japanese = "盗賊砦の門を開ける鍵<end>"
+korean = "도적 요새의 문을 여는 열쇠<end>"
+
 ["1660163"]
 japanese = "タダでもらった薬草<end>"
 korean = "공짜로 받은 약초<end>"
@@ -135,6 +159,30 @@ korean = "공짜로 받은 약초<end>"
 ["1660165"]
 japanese = "ラスラルの花<end>"
 korean = "라스랄의 꽃<end>"
+
+["1660166"]
+japanese = "賢者ノクサの赤い宝石<end>"
+korean = "현자 녹사의 붉은 보석<end>"
+
+["1660167"]
+japanese = "賢者ノクサの青い宝石<end>"
+korean = "현자 녹사의 푸른 보석<end>"
+
+["1660169"]
+japanese = "賢者ノクサの緑の宝石<end>"
+korean = "현자 녹사의 초록 보석<end>"
+
+["1660170"]
+japanese = "賢者ノクサの黒い宝石<end>"
+korean = "현자 녹사의 검은 보석<end>"
+
+["1660171"]
+japanese = "賢者ノクサの白い宝石<end>"
+korean = "현자 녹사의 흰 보석<end>"
+
+["1660184"]
+japanese = "銀で装飾を施した円盤<end>"
+korean = "은으로 장식한 원반<end>"
 
 ["1660202"]
 japanese = "城塞都市跡の噂<end>"
@@ -192,6 +240,10 @@ korean = "실력을 키우려면?<end>"
 japanese = "アンギルダンの手紙<end>"
 korean = "앙길단의 편지<end>"
 
+["1660224"]
+japanese = "ガルドランはどこへ？<end>"
+korean = "갈드란은 어디로?<end>"
+
 ["1660226"]
 japanese = "怪物退治の依頼<end>"
 korean = "괴물 퇴치 의뢰<end>"
@@ -200,9 +252,17 @@ korean = "괴물 퇴치 의뢰<end>"
 japanese = "女魔道士のお願い<end>"
 korean = "여자 마도사의 부탁<end>"
 
+["1660229"]
+japanese = "火山岩地帯の魔物退治<end>"
+korean = "화산암 지대의 마물 퇴치<end>"
+
 ["1660230"]
 japanese = "仇討ちの依頼<end>"
 korean = "원수 갚기 의뢰<end>"
+
+["1660231"]
+japanese = "紺碧の洞窟の怪物退治<end>"
+korean = "감청색 동굴의 괴물 퇴치<end>"
 
 ["1660232"]
 japanese = "鳳凰探索依頼<end>"
@@ -252,6 +312,14 @@ korean = "고대의 수해로<end>"
 japanese = "ザギヴの手紙<end>"
 korean = "자기브의 편지<end>"
 
+["1660245"]
+japanese = "ゼネテス救出に向かう<end>"
+korean = "제네테스를 구출하러 간다.<end>"
+
+["1660246"]
+japanese = "ゾフォルを倒しにいく<end>"
+korean = "조폴을 쓰러뜨리러 간다.<end>"
+
 ["1660247"]
 japanese = "ベルゼーヴァ襲撃<end>"
 korean = "벨제바 습격<end>"
@@ -267,6 +335,14 @@ korean = "콘스의 반란<end>"
 ["1660250"]
 japanese = "コーンスの反乱<end>"
 korean = "콘스의 반란<end>"
+
+["1660251"]
+japanese = "ベルゼーヴァの居場所<end>"
+korean = "벨제바의 위치<end>"
+
+["1660252"]
+japanese = "ベルゼーヴァの居場所<end>"
+korean = "벨제바의 위치<end>"
 
 ["1660253"]
 japanese = "聖座の夢<end>"

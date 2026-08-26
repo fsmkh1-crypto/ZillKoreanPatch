@@ -11,3 +11,7 @@ korean = "부조리의 부하가 된다<end>"
 ["1060115"]
 japanese = "…まさか、<value:$28>様？<end>"
 korean = "…설마, <value:$28> 님?<end>"
+
+["1060118"]
+japanese = "そ、そんな…。<line-break><value:$28>様が…、<line-break>そんな…。<end>"
+korean = "그, 그럴 수가…. <value:$28> 님이… 그런….<end>"

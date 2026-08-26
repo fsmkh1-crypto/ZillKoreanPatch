@@ -8,6 +8,10 @@ korean = "중년의 왕궁 문지기<end>"
 japanese = "若手の王宮門衛<end>"
 korean = "젊은 왕궁 문지기<end>"
 
+["1670002"]
+japanese = "ネメア大好きおじさん<end>"
+korean = "네메아를 아주 좋아하는 아저씨<end>"
+
 ["1670003"]
 japanese = "旅のエルフ<end>"
 korean = "여행 중인 엘프<end>"
@@ -60,6 +64,10 @@ korean = "노툰 신관<end>"
 japanese = "ノトゥーン神官長<end>"
 korean = "노툰 신관장<end>"
 
+["1670022"]
+japanese = "ノトゥーン信者の青年<end>"
+korean = "노툰 신도 청년<end>"
+
 ["1670023"]
 japanese = "ベテラン冒険者<end>"
 korean = "베테랑 모험가<end>"
@@ -88,9 +96,21 @@ korean = "라이라네이트 신관장<end>"
 japanese = "ライラネート女神官<end>"
 korean = "라이라네이트 여신관<end>"
 
+["1670031"]
+japanese = "息子の無事を祈る母親<end>"
+korean = "아들의 무사를 비는 어머니<end>"
+
 ["1670032"]
 japanese = "商人<end>"
 korean = "상인<end>"
+
+["1670033"]
+japanese = "冒険者嫌いの王宮門衛<end>"
+korean = "모험자를 싫어하는 왕궁 문지기<end>"
+
+["1670034"]
+japanese = "時勢に詳しい王宮門衛<end>"
+korean = "시세에 밝은 왕궁 문지기<end>"
 
 ["1670035"]
 japanese = "レムオン邸門衛<end>"
@@ -99,6 +119,10 @@ korean = "레몬 저택 문지기<end>"
 ["1670036"]
 japanese = "タルテュバ邸門衛<end>"
 korean = "타르튜바 저택 문지기<end>"
+
+["1670038"]
+japanese = "エリス好きのおばさん<end>"
+korean = "엘리스를 좋아하는 아주머니<end>"
 
 ["1670039"]
 japanese = "きざな青年<end>"
@@ -111,6 +135,10 @@ korean = "숲을 나온 엘프<end>"
 ["1670041"]
 japanese = "有名人に会いたい娘<end>"
 korean = "유명인을 만나고 싶은 소녀<end>"
+
+["1670042"]
+japanese = "エリス嫌いのおじさん<end>"
+korean = "엘리스를 싫어하는 아저씨<end>"
 
 ["1670043"]
 japanese = "竜王信者のお婆さん<end>"
@@ -328,6 +356,10 @@ korean = "격투가 볼단<end>"
 japanese = "レーグファンの青年<end>"
 korean = "레그 팬인 청년<end>"
 
+["1670109"]
+japanese = "格闘技好きのおじさん<end>"
+korean = "격투기를 좋아하는 아저씨<end>"
+
 ["1670110"]
 japanese = "リベルダムの門衛<end>"
 korean = "리벨담 문지기<end>"
@@ -456,6 +488,14 @@ korean = "격투가 볼단<end>"
 japanese = "レーグファンの青年<end>"
 korean = "레그 팬인 청년<end>"
 
+["1670144"]
+japanese = "格闘技好きのおじさん<end>"
+korean = "격투기를 좋아하는 아저씨<end>"
+
+["1670145"]
+japanese = "世界事情に詳しい船員<end>"
+korean = "세상 사정에 밝은 선원<end>"
+
 ["1670146"]
 japanese = "仕事熱心な船員<end>"
 korean = "성실한 선원<end>"
@@ -496,6 +536,10 @@ korean = "젊은 노툰 신관<end>"
 japanese = "ベテラン傭兵<end>"
 korean = "베테랑 용병<end>"
 
+["1670159"]
+japanese = "強さを求めるボルダン<end>"
+korean = "강함을 추구하는 볼단<end>"
+
 ["1670160"]
 japanese = "流れの傭兵<end>"
 korean = "떠돌이 용병<end>"
@@ -516,6 +560,10 @@ korean = "지켜보는 용병<end>"
 japanese = "アドバイス傭兵<end>"
 korean = "조언하는 용병<end>"
 
+["1670165"]
+japanese = "ノトゥーン神官見習い<end>"
+korean = "노툰 신관 견습<end>"
+
 ["1670166"]
 japanese = "ソウルを語る神官<end>"
 korean = "소울을 이야기하는 신관<end>"
@@ -524,6 +572,14 @@ korean = "소울을 이야기하는 신관<end>"
 japanese = "遊ぶ子供<end>"
 korean = "노는 아이<end>"
 
+["1670169"]
+japanese = "周辺に詳しい女魔道士<end>"
+korean = "주변 사정에 밝은 여마도사<end>"
+
+["1670171"]
+japanese = "属性にうるさい魔道士<end>"
+korean = "속성에 까다로운 마도사<end>"
+
 ["1670172"]
 japanese = "大魔道士<end>"
 korean = "대마도사<end>"
@@ -531,6 +587,10 @@ korean = "대마도사<end>"
 ["1670173"]
 japanese = "冒険ドワーフ<end>"
 korean = "모험가 드워프<end>"
+
+["1670174"]
+japanese = "ネメアを目指す冒険者<end>"
+korean = "네메아를 목표로 하는 모험자<end>"
 
 ["1670175"]
 japanese = "老魔道士<end>"
@@ -684,6 +744,10 @@ korean = "방해하는 아이<end>"
 japanese = "仕事の鬼ボルダン<end>"
 korean = "일벌레 볼단<end>"
 
+["1670216"]
+japanese = "肉体労働専門ボルダン<end>"
+korean = "육체노동 전문 볼단<end>"
+
 ["1670217"]
 japanese = "下働き船員<end>"
 korean = "허드렛일 선원<end>"
@@ -744,6 +808,10 @@ korean = "늙은 드워프<end>"
 japanese = "ヒント冒険者<end>"
 korean = "힌트 모험가<end>"
 
+["1670233"]
+japanese = "流れの鍛冶屋ドワーフ<end>"
+korean = "떠돌이 대장장이 드워프<end>"
+
 ["1670234"]
 japanese = "飲んだくれドワーフ<end>"
 korean = "술고래 드워프<end>"
@@ -779,6 +847,10 @@ korean = "웨이트리스<end>"
 ["1670242"]
 japanese = "エロ爺さん<end>"
 korean = "변태 할아범<end>"
+
+["1670243"]
+japanese = "アキュリュースの商人<end>"
+korean = "아큐류스의 상인<end>"
 
 ["1670244"]
 japanese = "無名な冒険者<end>"
@@ -1064,6 +1136,10 @@ korean = "여행을 좋아하는 콘스<end>"
 japanese = "エルファス神<end>"
 korean = "엘파스 신<end>"
 
+["1670320"]
+japanese = "ガラーナ・イガヴィル<end>"
+korean = "가라나 이가빌<end>"
+
 ["1670322"]
 japanese = "お爺さん<end>"
 korean = "할아버지<end>"
@@ -1116,9 +1192,17 @@ korean = "포근한 아버지<end>"
 japanese = "ベテラン冒険者<end>"
 korean = "베테랑 모험가<end>"
 
+["1670335"]
+japanese = "都会にあこがれる少女<end>"
+korean = "도시를 동경하는 소녀<end>"
+
 ["1670336"]
 japanese = "親切な神官<end>"
 korean = "친절한 신관<end>"
+
+["1670337"]
+japanese = "精霊属性に詳しい神官<end>"
+korean = "정령 속성에 밝은 신관<end>"
 
 ["1670338"]
 japanese = "生真面目な神官<end>"
@@ -1131,6 +1215,10 @@ korean = "신앙심 깊어 보이는 신관<end>"
 ["1670340"]
 japanese = "戦い好きな神官<end>"
 korean = "싸움을 좋아하는 신관<end>"
+
+["1670341"]
+japanese = "属性変化に詳しい神官<end>"
+korean = "속성 변화에 밝은 신관<end>"
 
 ["1670342"]
 japanese = "さすらいの神官<end>"

@@ -8,6 +8,10 @@ korean = "완벽해<end>"
 japanese = "まだ<end>"
 korean = "아직<end>"
 
+["1620008"]
+japanese = "ゼネテス様。<line-break><value:$28>様を<line-break>お連れしました。<end>"
+korean = "제네테스 님. <value:$28> 님을 모셔 왔습니다.<end>"
+
 ["1620009"]
 japanese = "入ってくれ。<end>"
 korean = "들어와.<end>"
@@ -32,6 +36,10 @@ korean = "훌륭하네….<end>"
 japanese = "頼むぜ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
 
+["1620068"]
+japanese = "アンギルダン将軍！！<end>"
+korean = "앙길단 장군!!<end>"
+
 ["1620075"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -51,6 +59,10 @@ korean = "자, 가.<end>"
 ["1620090"]
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
+
+["1620096"]
+japanese = "すぐに馬車の用意を。<end>"
+korean = "당장 마차를 준비해.<end>"
 
 ["1620104"]
 japanese = "失礼する！<end>"
@@ -79,3 +91,7 @@ korean = "듣는다<end>"
 ["1620135"]
 japanese = "聞かない<end>"
 korean = "안 들어<end>"
+
+["1620146"]
+japanese = "ノーブル伯<value:$28>ですね。<end>"
+korean = "노블 백작 <value:$28>이군요.<end>"

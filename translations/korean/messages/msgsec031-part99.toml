@@ -24,6 +24,10 @@ korean = "다들?<end>"
 japanese = "そう…、ありがとう。<end>"
 korean = "그래…, 고마워.<end>"
 
+["310059"]
+japanese = "<value:$28>…。<line-break>ステキな名前だね。<line-break>それじゃあ。<end>"
+korean = "<value:$28>…. 멋진 이름이네. 그럼 이만.<end>"
+
 ["310066"]
 japanese = "そうなるといいね<end>"
 korean = "그렇게 되면 좋겠네<end>"
@@ -35,6 +39,10 @@ korean = "일어나자!<end>"
 ["310091"]
 japanese = "反乱はできない…<end>"
 korean = "반란은 못 일으켜…<end>"
+
+["310109"]
+japanese = "ゲヒッ！<line-break><value:$28>！！<line-break>ここまで来やがったか！<end>"
+korean = "게힛! <value:$28>!! 여기까지 왔냐!<end>"
 
 ["310115"]
 japanese = "黙れ、ボルボラ！！<end>"

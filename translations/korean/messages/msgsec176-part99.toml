@@ -64,6 +64,10 @@ korean = "왼쪽 스위치를 누른다<end>"
 japanese = "ええい！　<line-break><value:$28>、<line-break>ここはまかせたで！<end>"
 korean = "에잇! <value:$28>, 여긴 맡길게!<end>"
 
+["1760112"]
+japanese = "<value:$28>…。<line-break>わしより先に<line-break>死にんさんなよ。<end>"
+korean = "<value:$28>…. 나보다 먼저 죽지 마라.<end>"
+
 ["1760117"]
 japanese = "越えてみせます<end>"
 korean = "반드시 넘어서겠습니다<end>"
