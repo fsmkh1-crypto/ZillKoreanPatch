@@ -28,6 +28,10 @@ korean = "즐겁습니다<end>"
 japanese = "つまらないです<end>"
 korean = "재미없어요<end>"
 
+["1750014"]
+japanese = "ほんなら、楽しいほうが<line-break>ええじゃろうのう。<end>"
+korean = "그렇다면 즐거운 쪽이 낫겠지.<end>"
+
 ["1750016"]
 japanese = "暇です<end>"
 korean = "한가합니다<end>"
@@ -99,6 +103,10 @@ korean = "끼워 넣지 않는다<end>"
 ["1750065"]
 japanese = "はめ込む<end>"
 korean = "끼워 넣는다<end>"
+
+["1750067"]
+japanese = "やーっとここまで来たのう。<line-break>もう一息でぇ。<end>"
+korean = "드디어 여기까지 왔구먼. 이제 한 걸음 남았어.<end>"
 
 ["1750070"]
 japanese = "ほんじゃあ、<line-break>ロストールに帰ろうかのう。<end>"

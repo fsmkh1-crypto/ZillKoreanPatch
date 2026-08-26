@@ -68,6 +68,10 @@ korean = "<value:$28>. 카를라는…?<end>"
 japanese = "…カルラじゃないな。<line-break>その娘…。<end>"
 korean = "…카를라는 아니군. 그 소녀는….<end>"
 
+["1780055"]
+japanese = "つらい思いをさせちまったな。<line-break>…すまない。<end>"
+korean = "힘든 일을 겪게 했구나. …미안하다.<end>"
+
 ["1780058"]
 japanese = "…かぁ、さん…<line-break>…せんせぇ…。<end>"
 korean = "…엄마… …선생님….<end>"
@@ -107,6 +111,42 @@ korean = "너희 형 이야기다. 신경 쓰여서 조사해 봤지. 그 녀석
 ["1780086"]
 japanese = "<value:$28>、<line-break>お前の今までの冒険のことを、<line-break>あとで話してくれないか？<end>"
 korean = "<value:$28>, 네가 지금까지 겪은 모험 이야기를 나중에 들려주지 않겠나?<end>"
+
+["1780094"]
+japanese = "予備メッセージ　その１<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 1 로스토올 V5-1<end>"
+
+["1780095"]
+japanese = "予備メッセージ　その２<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 2 로스토올 V5-1<end>"
+
+["1780096"]
+japanese = "予備メッセージ　その３<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 3 로스토올 V5-1<end>"
+
+["1780097"]
+japanese = "予備メッセージ　その４<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 4 로스토올 V5-1<end>"
+
+["1780098"]
+japanese = "予備メッセージ　その５<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 5 로스토올 V5-1<end>"
+
+["1780099"]
+japanese = "予備メッセージ　その６<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 6 로스토올 V5-1<end>"
+
+["1780100"]
+japanese = "予備メッセージ　その７<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 7 로스토올 V5-1<end>"
+
+["1780101"]
+japanese = "予備メッセージ　その８<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 8 로스토올 V5-1<end>"
+
+["1780102"]
+japanese = "予備メッセージ　その９<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 9 로스토올 V5-1<end>"
 
 ["1780104"]
 japanese = "ロストールメッセージＶ５／１終端<end>"

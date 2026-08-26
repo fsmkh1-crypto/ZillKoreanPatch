@@ -20,6 +20,10 @@ korean = "그 말대로다.<end>"
 japanese = "千年樹に賭けて真実です、陛下。<line-break>それにノーブル伯も一緒だったしな。<line-break>な、<value:$28>。<end>"
 korean = "천년수에 맹세코 사실입니다, 폐하. 노블 백작도 함께 있었고요. 그렇지, <value:$28>.<end>"
 
+["1790013"]
+japanese = "…陛下、気分が悪いので、<line-break>失礼いたします。<end>"
+korean = "…폐하, 몸이 좋지 않아 먼저 실례하겠습니다.<end>"
+
 ["1790014"]
 japanese = "恩を売る気か？<end>"
 korean = "생색내려는 거냐?<end>"
@@ -27,6 +31,30 @@ korean = "생색내려는 거냐?<end>"
 ["1790015"]
 japanese = "そんなんじゃねぇさ。<end>"
 korean = "그런 게 아니야.<end>"
+
+["1790016"]
+japanese = "後悔するぞ。<line-break>俺はもう腹を決めているのだ。<end>"
+korean = "후회할 거다. 나는 이미 각오를 굳혔다.<end>"
+
+["1790023"]
+japanese = "予備メッセージ　その１<line-break>ロストールＶ５－２<end>"
+korean = "예비 메시지 그 1 로스토올 V5-2<end>"
+
+["1790024"]
+japanese = "予備メッセージ　その２<line-break>ロストールＶ５－２<end>"
+korean = "예비 메시지 그 2 로스토올 V5-2<end>"
+
+["1790025"]
+japanese = "予備メッセージ　その３<line-break>ロストールＶ５－２<end>"
+korean = "예비 메시지 그 3 로스토올 V5-2<end>"
+
+["1790026"]
+japanese = "予備メッセージ　その４<line-break>ロストールＶ５－２<end>"
+korean = "예비 메시지 그 4 로스토올 V5-2<end>"
+
+["1790027"]
+japanese = "予備メッセージ　その５<line-break>ロストールＶ５－２<end>"
+korean = "예비 메시지 그 5 로스토올 V5-2<end>"
 
 ["1790033"]
 japanese = "ロストールメッセージＶ５／２終端<end>"

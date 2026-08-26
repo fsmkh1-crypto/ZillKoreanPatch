@@ -116,6 +116,10 @@ korean = "에잇! <value:$28>, 여긴 맡길게!<end>"
 japanese = "何かの装置が作動したようだ。<end>"
 korean = "무언가의 장치가 작동한 것 같다.<end>"
 
+["1760103"]
+japanese = "よう正解がわかったのう。<line-break>勘じゃったんか？<end>"
+korean = "용케 정답을 알아냈구먼. 찍은 건가?<end>"
+
 ["1760105"]
 japanese = "さあ、<value:$28>！<line-break>脱出するでぇ！<line-break>宝を忘れんさんな。<end>"
 korean = "자, <value:$28>! 탈출하자! 보물 잊지 마라.<end>"
@@ -139,6 +143,42 @@ korean = "자, 슬슬 돌아가야겠군. 그럼, <value:$28>. 잘 있어라.<en
 ["1760127"]
 japanese = "それじゃーな。<line-break><value:$28>。<end>"
 korean = "그럼 잘 있어, <value:$28>.<end>"
+
+["1760128"]
+japanese = "予備メッセージ１<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 1 롯시마(2) V3-1<end>"
+
+["1760129"]
+japanese = "予備メッセージ２<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 2 롯시마(2) V3-1<end>"
+
+["1760130"]
+japanese = "予備メッセージ３<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 3 롯시마(2) V3-1<end>"
+
+["1760131"]
+japanese = "予備メッセージ４<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 4 롯시마(2) V3-1<end>"
+
+["1760132"]
+japanese = "予備メッセージ５<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 5 롯시마(2) V3-1<end>"
+
+["1760133"]
+japanese = "予備メッセージ６<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 6 롯시마(2) V3-1<end>"
+
+["1760134"]
+japanese = "予備メッセージ７<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 7 롯시마(2) V3-1<end>"
+
+["1760135"]
+japanese = "予備メッセージ８<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 8 롯시마(2) V3-1<end>"
+
+["1760136"]
+japanese = "予備メッセージ９<line-break>ロッシマ（２）のＶ３－１<end>"
+korean = "예비 메시지 9 롯시마(2) V3-1<end>"
 
 ["1760138"]
 japanese = "ロッシマ（２）メッセージＶ３－１終端<end>"

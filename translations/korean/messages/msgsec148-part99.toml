@@ -16,6 +16,10 @@ korean = "미사용<end>"
 japanese = "いらっしゃい。<line-break>お待ちしていましたよ。<line-break>　<line-break>私はオルファウス。<line-break>この猫屋敷の主です。<end>"
 korean = "어서 오세요. 기다리고 있었습니다. 저는 오르파우스. 이 고양이 저택의 주인입니다.<end>"
 
+["1480011"]
+japanese = "どうして、ルルアンタのことを<line-break>知っている？<end>"
+korean = "어떻게 루루안타를 알고 있지?<end>"
+
 ["1480015"]
 japanese = "そんじゃ、行ってみますか。<end>"
 korean = "그럼, 가보자.<end>"
@@ -47,6 +51,10 @@ korean = "오르파우스 씨, 좋은 아침입니다!!<end>"
 ["1480029"]
 japanese = "おはよう、　　　　　　　　　　<line-break><value:$28>、ルルアンタ。<line-break>　<line-break>ルルアンタは本当に元気ですね。<end>"
 korean = "좋은 아침, <value:$28>, 루루안타. 루루안타는 정말 활기차네요.<end>"
+
+["1480030"]
+japanese = "うふふ。<line-break>ありがとうございます！<line-break>　<end>"
+korean = "후후. 감사합니다!<end>"
 
 ["1480031"]
 japanese = "それで、<line-break>ゼネテスはどうしました？<end>"
@@ -195,6 +203,10 @@ korean = "<value:$28>, 제네테스가 한 말이 정말 현실이 됐네.<end>"
 ["1480155"]
 japanese = "それじゃ、<value:$28>。<line-break>次の仕事も用意しておくから<line-break>また今度も頼んだぞ。<end>"
 korean = "그럼 <value:$28>. 다음 일도 마련해 둘 테니 다음에도 부탁한다.<end>"
+
+["1480156"]
+japanese = "予備メッセージ<line-break>ルルアンタ（修）その２／１<end>"
+korean = "예비 메시지 루루안타(수정) 그 2/1<end>"
 
 ["1480157"]
 japanese = "予備メッセージ<line-break>ルルアンタ（修）その２／２<end>"
