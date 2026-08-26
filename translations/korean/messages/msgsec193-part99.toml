@@ -140,6 +140,10 @@ korean = "자, 간다! 뜨거운 혼을 불태우러!!<end>"
 japanese = "ヴァン、熱い魂を燃やすって？<end>"
 korean = "반, 뜨거운 영혼을 불태운다고?<end>"
 
+["1930077"]
+japanese = "師匠、お客なんですが、　　　　　　　　<line-break>どうしますか？<line-break>断ってきましょうか？<line-break><value:$28>という人なんですが…。<end>"
+korean = "스승님, 손님이 왔는데 어떻게 할까요? 거절할까요? <value:$28>이라는 사람인데….<end>"
+
 ["1930079"]
 japanese = "師匠？<end>"
 korean = "스승님?<end>"

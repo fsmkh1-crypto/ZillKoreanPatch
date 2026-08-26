@@ -40,6 +40,10 @@ korean = "사양하겠습니다<end>"
 japanese = "では、よろしく頼むよ<line-break><value:$28>君。<end>"
 korean = "그럼 잘 부탁하네, <value:$28> 군.<end>"
 
+["1340019"]
+japanese = "ああ、帰り道かね？<line-break>心配無用だ。我が軍の者に<line-break>アキュリュースまで送らせよう。<line-break>外にいる騎士に声をかけたまえ。<end>"
+korean = "아, 돌아가는 길 말인가? 걱정 마라. 우리 군이 아큐류스까지 데려다주지. 밖에 있는 기사에게 말하게.<end>"
+
 ["1340022"]
 japanese = "<value:$28>様ですね。<line-break>お話はお伺いしています。<line-break>では、まいりましょう。<end>"
 korean = "<value:$28> 님이시군요. 말씀은 들었습니다. 그럼 가시죠.<end>"
@@ -123,6 +127,10 @@ korean = "좋아, 가자.<end>"
 ["1340084"]
 japanese = "来たか、<value:$28>君。<line-break>準備はいいのだね？<end>"
 korean = "왔군, <value:$28>. 준비는 됐겠지?<end>"
+
+["1340089"]
+japanese = "ああ、帰り道かね？<line-break>心配無用だ。我が軍の者に<line-break>アキュリュースまで送らせよう。<line-break>外にいる騎士に声をかけたまえ。<end>"
+korean = "아, 돌아가는 길 말인가? 걱정 마라. 우리 군이 아큐류스까지 데려다주지. 밖에 있는 기사에게 말하게.<end>"
 
 ["1340090"]
 japanese = "キュイ～！<end>"

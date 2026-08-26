@@ -16,6 +16,10 @@ korean = "다른 건 뭐가 있어?<end>"
 japanese = "今ある仕事はこんなところだな。<end>"
 korean = "현재 있는 일은 이 정도다.<end>"
 
+["160009"]
+japanese = "なんだい、気が変わって<line-break>譲る気になったのか？<end>"
+korean = "뭐야, 마음이 바뀌어서 양보할 생각이 든 거야?<end>"
+
 ["160010"]
 japanese = "<value:$15>を譲ってくれるのか？<end>"
 korean = "<value:$15>을 넘겨줄 건가?<end>"

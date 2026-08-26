@@ -120,6 +120,10 @@ korean = "이제 그만 내 위에서 비켜!<end>"
 japanese = "ゴブー！<end>"
 korean = "고부~!<end>"
 
+["300081"]
+japanese = "マルーンがやられたでゴブ！<line-break>誰かいるゴブ～！<end>"
+korean = "마룬이 당했다 고브! 누구 없냐 고브~!<end>"
+
 ["300082"]
 japanese = "なんで、<line-break>人間がここにいるゴブ～！<end>"
 korean = "왜 인간이 여기에 있는 고블~!<end>"
@@ -171,6 +175,10 @@ korean = "크, 큰일이야! 바닥 구멍이 더 커지고 있어…!<end>"
 ["300121"]
 japanese = "あら、<value:$28>。<line-break>オッシさんの道場に行くのでは　<line-break>なかったの？<end>"
 korean = "어머, <value:$28>. 오시 씨 도장에 가는 거 아니었어?<end>"
+
+["300127"]
+japanese = "くっ…暗闇だからとはいえ、<line-break>不覚だったわ…。<end>"
+korean = "큭… 어둠 속이었다고 해도 방심했어….<end>"
 
 ["300128"]
 japanese = "あんたたち…<line-break>絶対に、私と<value:$28>で<line-break>捕まえてみせるんだから…。<line-break>覚えてなさいよ…。<end>"

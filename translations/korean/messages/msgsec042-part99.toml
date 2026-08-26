@@ -248,6 +248,10 @@ korean = "그, 그럴 수가…. 그런 건…!<end>"
 japanese = "…<value:$28>さん。<line-break>　<line-break>　<end>"
 korean = "…<value:$28> 씨.<end>"
 
+["420192"]
+japanese = "くすっ。<line-break>あなたのその気性、好きですよ。<line-break>　<line-break>見せたいモノがあります。<line-break>来てください。<line-break><value:$28>。<end>"
+korean = "후훗. 당신의 그 성격, 마음에 들어요. 보여 주고 싶은 게 있습니다. 와 주세요, <value:$28>.<end>"
+
 ["420196"]
 japanese = "あ、姉ちゃん！<line-break>これ、どうなってるんだ？<end>"
 korean = "아, 누나! 이거 어떻게 된 거야?<end>"

@@ -4,6 +4,10 @@
 japanese = "PSP用新スタートイベント04用開始<end>"
 korean = "PSP용 신규 시작 이벤트04용 시작<end>"
 
+["2410002"]
+japanese = "うむ。間違いはないゴブ。<line-break>信じて進むゴブ。<end>"
+korean = "음. 틀림없다 고브. 믿고 나아간다 고브.<end>"
+
 ["2410017"]
 japanese = "ええっ！？<end>"
 korean = "뭐!?<end>"
@@ -11,6 +15,10 @@ korean = "뭐!?<end>"
 ["2410018"]
 japanese = "親分、<line-break>こんなところで争っても<line-break>幸せにはなれないゴブ。<line-break>賢者様の屋敷を<line-break>探すのが先ゴブ。<end>"
 korean = "두목, 이런 데서 싸워 봐야 행복해질 수 없다 고브. 현자님의 저택을 찾는 게 먼저다 고브.<end>"
+
+["2410021"]
+japanese = "あっ、見て。逃げるわよ！<line-break>追ってみましょ！<end>"
+korean = "아, 봐. 도망간다! 쫓아가 보자!<end>"
 
 ["2410022"]
 japanese = "PSP用新スタートイベント04用終端<end>"

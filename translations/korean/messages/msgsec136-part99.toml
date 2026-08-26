@@ -732,6 +732,10 @@ korean = "안 돼. 내가 있으면… 네게 폐를 끼쳐.<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["1360548"]
+japanese = "…ここまで<line-break>ノエルが言っているんですもの。<line-break>　<line-break>それでも出ていくって言うなら<line-break>あたしも黙っていないわ。<end>"
+korean = "…노엘이 이렇게까지 말하고 있잖아. 그래도 나가겠다면 나도 가만있지 않을 거야.<end>"
+
 ["1360550"]
 japanese = "お願いです、レイヴン。<line-break>行かないで。<end>"
 korean = "부탁이야, 레이븐. 가지 마.<end>"
@@ -744,13 +748,25 @@ korean = "…고마워. 네가 날 필요로 하는 한, 난 네 곁에… 있�
 japanese = "意志すること…生きることを…。<end>"
 korean = "의지를 갖는 것… 살아가는 것을….<end>"
 
+["1360559"]
+japanese = "さあ、行くがよい。<line-break>私は闇の門でお前を待とう。<line-break>お前の未来と私の未来が交わる時…<line-break>全ての決着がつくであろう。<end>"
+korean = "자, 가거라. 나는 어둠의 문에서 너를 기다리겠다. 네 미래와 내 미래가 만나는 순간… 모든 결판이 날 것이다.<end>"
+
 ["1360560"]
 japanese = "おっ、<value:$28>じゃないか。<end>"
 korean = "오, <value:$28> 아니냐.<end>"
 
+["1360561"]
+japanese = "お戻りになられたということは、<line-break>つまり…。<end>"
+korean = "돌아오셨다는 건, 즉….<end>"
+
 ["1360562"]
 japanese = "やはりあの邪竜イシュバアルが…。<line-break><value:$28>殿に頼んで、<line-break>まこと正解でした。<end>"
 korean = "역시 그 사룡 이슈바알이…. <value:$28>님께 부탁하길 정말 잘했습니다.<end>"
+
+["1360564"]
+japanese = "しかし、相手が<line-break>イシュバアルだったとすれば、<line-break> <line-break>さしもの<value:$28>殿も<line-break>さぞ危ない目にあわれたはず。<end>"
+korean = "하지만 상대가 이슈바알이었다면, 아무리 <value:$28>님이라도 꽤 위험했을 겁니다.<end>"
 
 ["1360565"]
 japanese = "イオンズを追う<end>"
@@ -907,6 +923,10 @@ korean = "신님, 해버려.<end>"
 ["1360708"]
 japanese = "…嫌い。<line-break>こんな世界滅べばいいんだわ。<end>"
 korean = "…싫어. 이런 세상, 멸망해 버리면 좋겠어.<end>"
+
+["1360710"]
+japanese = "あなたは私が光を求めたときにすら、<line-break>冷たくあしらった…。<line-break>世界を滅ぼす前にあなたを殺すわ。<line-break>復讐するの。<end>"
+korean = "당신은 내가 빛을 원했을 때조차 차갑게 대했어…. 세계를 멸망시키기 전에 당신부터 죽일 거야. 복수하겠어.<end>"
 
 ["1360712"]
 japanese = "な…、何…！？<end>"

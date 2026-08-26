@@ -92,6 +92,10 @@ korean = "맑아질 리가 없어!<end>"
 japanese = "当たり前だ！<end>"
 korean = "당연하지!<end>"
 
+["1490058"]
+japanese = "…僕の邪魔はさせない。<line-break>僕は姉さんを失ったんだ。<line-break>　<line-break>僕は失っただけのものを<line-break>手に入れてもいいはずだ。<end>"
+korean = "…내 방해는 못 하게 하겠어. 나는 누나를 잃었어. 잃은 만큼의 것을 손에 넣어도 되잖아.<end>"
+
 ["1490059"]
 japanese = "<value:$28>！<line-break>頼む、目を開けてくれ！<end>"
 korean = "<value:$28>! 부탁이야, 눈을 떠 줘!<end>"
@@ -107,6 +111,10 @@ korean = "정신이 들었나?<end>"
 ["1490065"]
 japanese = "心配するな。<line-break>僕はそんなヘマはしない。<end>"
 korean = "걱정 마. 나는 그런 실수는 하지 않아.<end>"
+
+["1490066"]
+japanese = "…僕の邪魔はさせない。<line-break>僕は姉さんを失った。　　<line-break>　<line-break>僕は失っただけのものを<line-break>手に入れてもいいはずだ。<end>"
+korean = "…내 방해는 못 하게 하겠어. 나는 누나를 잃었어. 잃은 만큼의 것을 손에 넣어도 되잖아.<end>"
 
 ["1490068"]
 japanese = "うわっ！<end>"
@@ -276,6 +284,10 @@ korean = "뭐냐 네놈! 호된 꼴을 당하고 싶은 거냐!<end>"
 japanese = "ううぅ…。<line-break>う、腕をやられた。<end>"
 korean = "으윽…. 파, 팔을 당했어.<end>"
 
+["1490169"]
+japanese = "き、傷が治った！<line-break>一瞬で！<line-break>しかも、こんなにきれいに！<line-break>あ、ありがとうございます！<line-break>エルファス様！<end>"
+korean = "상, 상처가 나았어! 순식간에! 게다가 이렇게 깨끗하게! 가, 감사합니다! 엘파스 님!<end>"
+
 ["1490170"]
 japanese = "すごいわ！<line-break>さすが、エルファス様。<line-break>　<line-break>奇跡だわ！<line-break>エルファス様の奇跡よ！<end>"
 korean = "대단해! 역시 엘파스 님이야. 기적이야! 엘파스 님의 기적이야!<end>"
@@ -307,6 +319,10 @@ korean = "이, 이놈! 수상한 술법을…!<end>"
 ["1490202"]
 japanese = "ううぅ…。<line-break>う、腕をやられた。<end>"
 korean = "으윽…. 파, 팔을 당했어.<end>"
+
+["1490204"]
+japanese = "き、傷が治った！<line-break>一瞬で！<line-break>しかも、こんなにきれいに！<line-break>あ、ありがとうございます！<line-break>エルファス様！<end>"
+korean = "상, 상처가 나았어! 순식간에! 게다가 이렇게 깨끗하게! 가, 감사합니다! 엘파스 님!<end>"
 
 ["1490205"]
 japanese = "すごいわ！<line-break>さすが、エルファス様。<line-break>　<line-break>奇跡だわ！<line-break>エルファス様の奇跡よ！<end>"

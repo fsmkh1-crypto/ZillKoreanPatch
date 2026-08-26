@@ -192,6 +192,10 @@ korean = "…살아 있었군.<end>"
 japanese = "お前の名は？<end>"
 korean = "네 이름은?<end>"
 
+["320093"]
+japanese = "大丈夫だ。<line-break>私がウソをついたことがあったか？<end>"
+korean = "괜찮다. 내가 거짓말한 적이 있었나?<end>"
+
 ["320094"]
 japanese = "あっ、<value:$28>様じゃ。<end>"
 korean = "앗, <value:$28> 님이구나.<end>"

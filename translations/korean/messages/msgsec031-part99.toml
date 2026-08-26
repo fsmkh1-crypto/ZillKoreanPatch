@@ -132,6 +132,10 @@ korean = "흥!! 뭐야, 저 녀석!<end>"
 japanese = "<value:$28>、<line-break>あいつらだけでは返り討ちだ。<line-break>急いでとめにいくぞ！！<end>"
 korean = "<value:$28>, 저 녀석들만 가면 되레 당한다. 서둘러 막으러 가자!!<end>"
 
+["310104"]
+japanese = "さあ！　行こう！<line-break>悪代官ボルボラを倒すんだ！<end>"
+korean = "자! 가자! 악덕 대관 볼보라를 쓰러뜨리는 거야!<end>"
+
 ["310109"]
 japanese = "ゲヒッ！<line-break><value:$28>！！<line-break>ここまで来やがったか！<end>"
 korean = "게힛! <value:$28>!! 여기까지 왔냐!<end>"
@@ -284,6 +288,10 @@ korean = "…어쩔 수 없구나. 이것도 마을을 위해서다. 에스트 �
 japanese = "…<value:$28>、…逃げて。<line-break>早く…。<end>"
 korean = "…<value:$28>, …도망쳐. 빨리….<end>"
 
+["310195"]
+japanese = "…逃がして…みせる。<line-break>僕は君を…逃がして…。<end>"
+korean = "…도망치게… 해 줄게. 나는 너를… 도망치게….<end>"
+
 ["310197"]
 japanese = "なんじゃ！？<line-break>エスト様が…いったい…？<end>"
 korean = "뭐라고!? 에스트 님이… 대체…?<end>"
@@ -367,6 +375,10 @@ korean = "이… 이 악동 녀석!<end>"
 ["310239"]
 japanese = "早く逃げて！！<line-break>早く！！<end>"
 korean = "빨리 도망쳐!! 빨리!!<end>"
+
+["310255"]
+japanese = "どうした？<line-break>チャカとかいう弟を助けに行くぞ。<end>"
+korean = "뭐 해? 차카라는 동생을 구하러 간다.<end>"
 
 ["310257"]
 japanese = "…それだけだ。<line-break>行くぞ。<end>"

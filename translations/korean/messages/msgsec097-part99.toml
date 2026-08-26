@@ -16,6 +16,10 @@ korean = "지금은 바빠.<end>"
 japanese = "…でも、わたしにはそんな力が…。<end>"
 korean = "…하지만 저한테는 그런 힘이….<end>"
 
+["970016"]
+japanese = "<value:$28>？<line-break>連絡が途絶えた町の調査に来た？<line-break>　<line-break>…そう。<line-break>外にもこの町の異変が<line-break>伝わっていたのね。<end>"
+korean = "<value:$28>? 연락이 끊긴 마을을 조사하러 왔다고? …그래. 밖에도 이 마을의 이상이 알려졌구나.<end>"
+
 ["970020"]
 japanese = "ノエル！<end>"
 korean = "노엘!<end>"

@@ -44,6 +44,10 @@ korean = "네, 장로님.<end>"
 japanese = "私に対して、<line-break>気を使う必要はありません。<end>"
 korean = "저에게 신경 쓰실 필요는 없습니다.<end>"
 
+["1160056"]
+japanese = "…そうですか。　　　　<line-break>　<line-break>　<line-break>いえ、あなたには<line-break>別に関係のない話です。<line-break>すみませんでした。<end>"
+korean = "…그렇습니까. 아니, 당신과는 별로 관계없는 이야기입니다. 죄송했습니다.<end>"
+
 ["1160060"]
 japanese = "（これは……日記か？）<end>"
 korean = "(이건…… 일기인가?)<end>"
@@ -67,6 +71,10 @@ korean = "…그렇습니다.<end>"
 ["1160089"]
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
+
+["1160090"]
+japanese = "私はここでは必要ではありません。<line-break>ですが、この人は私を<line-break>必要としています。<line-break>私はこの人についていきます。<end>"
+korean = "저는 여기에는 필요하지 않습니다. 하지만 이 사람은 저를 필요로 합니다. 저는 이 사람을 따라가겠습니다.<end>"
 
 ["1160091"]
 japanese = "って言ってるよ？<line-break>フフ、どうする？<end>"

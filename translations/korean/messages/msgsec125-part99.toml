@@ -76,6 +76,10 @@ korean = "곧 다음 소울 리프가 와! 빨리 도망치자, <value:$28>!<end
 japanese = "退かねば…<line-break>生きねば…革新もなにもない。<end>"
 korean = "물러나야 해… 살아야 해… 살아야 혁신도 뭐도 있지.<end>"
 
+["1250117"]
+japanese = "闇の帝国が誕生する。<line-break>夜よりも黒い暗黒に塗られた、<line-break>おぞましい帝国が…。<line-break>誰がそれを望んだというのだ…。<end>"
+korean = "어둠의 제국이 태어난다. 밤보다 검은 암흑에 물든 끔찍한 제국이…. 누가 그런 걸 바랐다는 거지….<end>"
+
 ["1250119"]
 japanese = "急ぐのだ、<value:$28>！<line-break>人類の革新を諦めるわけにはいかん。<line-break>何としてもやり遂げねば…！<end>"
 korean = "서둘러라, <value:$28>! 인류의 혁신을 포기할 수는 없다. 어떻게든 해내야 해…!<end>"
@@ -136,6 +140,10 @@ korean = "벨제바 님…. ……………….<end>"
 japanese = "湖に沈んだ遺跡？<line-break><line-break><line-break>そうだな…<line-break>夢幻の湖がそんな感じだな。<line-break>行ってみるかい？<end>"
 korean = "호수에 가라앉은 유적? 그렇군… 몽환의 호수가 그런 느낌이지. 가 볼래?<end>"
 
+["1250239"]
+japanese = "湖に沈んだ遺跡かぁ…<line-break>心辺りがないなぁ。<line-break><line-break>僕のあまり知らない大陸の南側に<line-break>あるのかもしれないね。<end>"
+korean = "호수에 가라앉은 유적이라…. 짐작 가는 데가 없네. 내가 잘 모르는 대륙 남쪽에 있을지도 몰라.<end>"
+
 ["1250243"]
 japanese = "湖に沈んだ遺跡？<line-break>ゴメンね。<value:$28>。<line-break>ルルアンタ、分からないよぉ。<end>"
 korean = "호수에 가라앉은 유적? 미안해, <value:$28>. 루루안타는 모르겠어.<end>"
@@ -148,6 +156,14 @@ korean = "………………. 모른다.<end>"
 japanese = "湖に沈んだ遺跡か…。<line-break>以前、エストから夢幻の湖の話を<line-break>聞いたことがある。<line-break>そこかもしれんな。<end>"
 korean = "호수에 가라앉은 유적인가…. 전에 에스트에게 몽환의 호수 이야기를 들은 적이 있다. 그곳일지도 모르겠군.<end>"
 
+["1250247"]
+japanese = "魔導の塔、夢幻の湖…。<line-break><line-break><line-break>私は、そこへ禁呪を求めに行ったのだ。<line-break>人間の、さらなる進歩のために…！<end>"
+korean = "마도의 탑, 몽환의 호수…. 나는 그곳에 금주를 찾으러 갔다. 인간의 더 큰 진보를 위해…!<end>"
+
+["1250251"]
+japanese = "魔導の塔や新月の塔には<line-break>強大無比な魔法が封じられたと<line-break>聞いているが…。湖か。<line-break>すまない。力になれそうもない。<end>"
+korean = "마도의 탑이나 신월의 탑에는 강대한 마법이 봉인돼 있다고 들었지만…. 호수라. 미안해. 도움이 될 것 같진 않아.<end>"
+
 ["1250257"]
 japanese = "（ベルゼーヴァ…）<line-break><line-break><end>"
 korean = "(벨제바…)<end>"
@@ -155,6 +171,10 @@ korean = "(벨제바…)<end>"
 ["1250267"]
 japanese = "ベルゼーヴァ様…。<line-break><line-break><line-break>………………。<end>"
 korean = "벨제바 님…. ……………….<end>"
+
+["1250279"]
+japanese = "魔導の塔、夢幻の湖…。<line-break><line-break><line-break>私は、そこへ禁呪を求めに行ったのだ。<line-break>人間の、さらなる進歩のために…！<end>"
+korean = "마도의 탑, 몽환의 호수…. 나는 그곳에 금주를 찾으러 갔다. 인간의 더 큰 진보를 위해…!<end>"
 
 ["1250314"]
 japanese = "イオンズせりふ追加予定！！！<end>"

@@ -252,6 +252,10 @@ korean = "그, 그게 정말인가요!?<end>"
 japanese = "そ、そうですか…。<end>"
 korean = "그, 그런가요….<end>"
 
+["1980200"]
+japanese = "ど、どうしよう…。<line-break>　<line-break>　<line-break>なんとかして、それとなく<line-break><value:$28>さんに<line-break>あきらめてもらわないと…。<end>"
+korean = "어, 어떡하지…. 어떻게든 눈치채지 못하게 <value:$28>님이 포기하도록 해야 해….<end>"
+
 ["1980204"]
 japanese = "えっ？　それって<line-break>どういう意味ですか？<end>"
 korean = "네? 그게 무슨 뜻인가요?<end>"

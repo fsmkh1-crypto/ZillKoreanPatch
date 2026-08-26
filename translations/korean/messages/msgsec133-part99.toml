@@ -224,6 +224,10 @@ korean = "할 수 있어! 난 그러려고 여기 왔어!<end>"
 japanese = "終わったわ…。<end>"
 korean = "끝났어….<end>"
 
+["1330197"]
+japanese = "ごめん…なさい。<line-break>私、あなたを…待てなかった！<line-break>　<line-break>運命に立ち向かえなかった、<line-break>弱い私を…許し…て…。<end>"
+korean = "미안…해. 나, 당신을… 기다리지 못했어! 운명에 맞서지 못한 약한 나를… 용서…해 줘….<end>"
+
 ["1330198"]
 japanese = "『僕は人間になれるのかなあ…』<end>"
 korean = "『나는 인간이 될 수 있을까…』<end>"
@@ -468,6 +472,10 @@ korean = "놀랐어? 강대한 어둠의 거인들이 온 세상을 습격하고
 japanese = "ウフフ…。<end>"
 korean = "후후후….<end>"
 
+["1330388"]
+japanese = "あなたは私が光を求めたときにすら、<line-break>冷たくあしらった…。<line-break>世界を滅ぼす前にあなたを殺すわ。<line-break>復讐するの。<end>"
+korean = "당신은 내가 빛을 원했을 때조차 차갑게 대했어…. 세계를 멸망시키기 전에 당신부터 죽일 거야. 복수하겠어.<end>"
+
 ["1330390"]
 japanese = "な…、何…！？<end>"
 korean = "뭐…, 뭐야…!?<end>"
@@ -587,6 +595,10 @@ korean = "…미안…하다. 내… 소중한 <value:$28>…. 나는 너를 지
 ["1330499"]
 japanese = "これで<value:$28>も、<line-break>もう、私を否定できなくなる…。<line-break>フフ…ウフフ…。<end>"
 korean = "이제 <value:$28>도 더는 나를 부정할 수 없게 돼…. 후후… 우후후….<end>"
+
+["1330501"]
+japanese = "ゼネテス？<line-break>そんな、ありえない…！<line-break>死んでまで、私を否定する気なの？<line-break>レムオン！<line-break>ゼネテスを片づけて！<end>"
+korean = "제네테스? 그럴 리 없어…! 죽어서까지 나를 부정할 셈이야? 레무온! 제네테스를 처리해!<end>"
 
 ["1330503"]
 japanese = "…<value:$28>。<line-break>俺…の最高…の女に…<line-break>見送って…もらえるのか…。<end>"

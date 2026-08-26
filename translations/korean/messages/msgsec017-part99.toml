@@ -504,6 +504,10 @@ korean = "어서 오세요, <value:$28> 씨. 유명한 <value:$2B>을 모시게 
 japanese = "お泊りになられますか？<end>"
 korean = "묵고 가시겠습니까?<end>"
 
+["170180"]
+japanese = "お客さん、<line-break>泊まるならお金を払ってください。<end>"
+korean = "손님, 묵으실 거면 돈을 내 주세요.<end>"
+
 ["170186"]
 japanese = "お買い上げありがとうございます。<end>"
 korean = "구매해 주셔서 감사합니다.<end>"

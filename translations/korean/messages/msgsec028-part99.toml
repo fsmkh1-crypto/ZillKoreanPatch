@@ -88,6 +88,10 @@ korean = "아줌마, 반, 잘 부탁해.<end>"
 japanese = "ちぇっ…、<line-break>まあ、任せとけよ。<end>"
 korean = "쳇… 뭐, 맡겨 둬.<end>"
 
+["280040"]
+japanese = "これも持っていきな。<line-break>ケガしたら使うんだよ。<end>"
+korean = "이것도 가져가. 다치면 써.<end>"
+
 ["280043"]
 japanese = "…そうか、昨日の地震でねえ。<line-break>　<end>"
 korean = "…그런가, 어제 지진 때문에.<end>"
@@ -147,6 +151,10 @@ korean = "뭐야, 아저씨.<end>"
 ["280075"]
 japanese = "生意気な！<line-break>人として許せん！　　　　　　<line-break>　<line-break>俺様を敵に回すと<line-break>割に合わないことを思い知れ！<end>"
 korean = "건방진! 인간으로서 용서할 수 없다! 나를 적으로 돌린 대가가 얼마나 큰지 깨닫게 해 주마!<end>"
+
+["280078"]
+japanese = "小っ僧ぉぉぉ！<line-break>いい気になるなよぉぉぉお！！<end>"
+korean = "꼬맹이이이! 우쭐대지 마라아아아!!<end>"
 
 ["280079"]
 japanese = "食らえ！！<line-break>必殺！　無敵復活勇者槍！！<end>"
@@ -287,6 +295,10 @@ korean = "싸움인가….<end>"
 ["280173"]
 japanese = "やれやれ、<line-break>大変なことになったものだ…。<end>"
 korean = "이런, 큰일이 벌어졌군….<end>"
+
+["280180"]
+japanese = "なんだ、なんだ？<line-break>いったい何があったんだね？<end>"
+korean = "뭐야, 뭐야? 대체 무슨 일이 있었던 거지?<end>"
 
 ["280185"]
 japanese = "な、何かあったのですか？<end>"
