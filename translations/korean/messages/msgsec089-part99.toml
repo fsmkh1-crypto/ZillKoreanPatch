@@ -412,6 +412,10 @@ korean = "그러니까, 응?<end>"
 japanese = "来たか…。<end>"
 korean = "왔나….<end>"
 
+["890436"]
+japanese = "（やっぱり、母さん、<line-break>　いない…。）<end>"
+korean = "(역시 엄마는 없어….)<end>"
+
 ["890439"]
 japanese = "<value:$28>、ここに来ては駄目。<line-break>そう言わなかったかしら。<line-break>…！？<end>"
 korean = "<value:$28>, 여기 오면 안 돼. 그렇게 말하지 않았나? …!?<end>"

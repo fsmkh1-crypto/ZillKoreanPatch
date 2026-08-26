@@ -64,6 +64,10 @@ korean = "맡지 않는다<end>"
 japanese = "私がエリスだ。<line-break>なんの用か？<end>"
 korean = "내가 에리스다. 무슨 일이지?<end>"
 
+["1800057"]
+japanese = "あ、<value:$28>様、<line-break>ファーロス総司令が貴族を召集しています。<line-break>どうぞ、謁見の間へ。<end>"
+korean = "아, <value:$28>님. 파로스 총사령관께서 귀족들을 소집하고 계십니다. 알현실로 가 주세요.<end>"
+
 ["1800058"]
 japanese = "謁見の間へ行く<end>"
 korean = "알현실로 간다<end>"

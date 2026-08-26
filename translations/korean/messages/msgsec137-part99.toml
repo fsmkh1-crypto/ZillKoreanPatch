@@ -232,6 +232,10 @@ korean = "1000기아를 손에 넣었다.<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1370235"]
+japanese = "あー！！　もう！！　　<line-break>　<line-break>　<end>"
+korean = "아아!! 정말!!<end>"
+
 ["1370236"]
 japanese = "<value:$28>さまが<line-break>おこまりでしょ！！<end>"
 korean = "<value:$28>님이 곤란하시잖아요!!<end>"
@@ -259,6 +263,10 @@ korean = "이건…!<end>"
 ["1370244"]
 japanese = "あっ、<value:$28>様じゃ。<end>"
 korean = "앗, <value:$28> 님이시군.<end>"
+
+["1370246"]
+japanese = "<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"
+korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님께 줄게.<end>"
 
 ["1370251"]
 japanese = "…来い。<end>"

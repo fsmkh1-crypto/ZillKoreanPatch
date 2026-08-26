@@ -64,6 +64,10 @@ korean = "기다려! 기다려 주세요!<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["1410040"]
+japanese = "お願いです、レイヴン。<line-break>行かないで。<end>"
+korean = "부탁이야, 레이븐. 가지 마.<end>"
+
 ["1410058"]
 japanese = "…いや、それは、あなたが一番よく<line-break>知っていることですね、<line-break><value:$28>？<end>"
 korean = "…아니, 그건 당신이 가장 잘 알고 있는 일이겠군요, <value:$28>?<end>"
