@@ -12,6 +12,10 @@ korean = "…당신, …이군요….<end>"
 japanese = "待ってよー。<line-break><value:$28>ー！<end>"
 korean = "기다려~. <value:$28>~!<end>"
 
+["370006"]
+japanese = "ユリアシュ、お前こそ待て。<end>"
+korean = "유리아슈, 네가 기다려.<end>"
+
 ["370009"]
 japanese = "わかってる。船長。<end>"
 korean = "알고 있어. 선장.<end>"
@@ -23,6 +27,10 @@ korean = "해왕…. 용왕의 사자….<end>"
 ["370029"]
 japanese = "う、わわわああ。<end>"
 korean = "으, 와아아아.<end>"
+
+["370033"]
+japanese = "すっすっ、すまんっっ！！！<end>"
+korean = "미, 미안하다아아!!!<end>"
 
 ["370034"]
 japanese = "ど、どうしたの？　船長。<end>"
@@ -132,9 +140,17 @@ korean = "최악의 인간이라고?<end>"
 japanese = "はい。<end>"
 korean = "네.<end>"
 
+["370155"]
+japanese = "なんだ！　お前ら！　　　　<end>"
+korean = "뭐야! 너희들!<end>"
+
 ["370162"]
 japanese = "下郎がァ！！　兵ども！！<end>"
 korean = "천한 놈이!! 병사들!!<end>"
+
+["370164"]
+japanese = "はーん、おもしれぇ！　　　<end>"
+korean = "하, 재밌는데!<end>"
 
 ["370183"]
 japanese = "捕らえよ。<end>"
@@ -147,6 +163,10 @@ korean = "…잘 지내.<end>"
 ["370187"]
 japanese = "<value:$28>、<line-break>来ちゃダメ！<end>"
 korean = "<value:$28>, 오면 안 돼!<end>"
+
+["370189"]
+japanese = "ヌォッホホホ…！　行くぞ。<end>"
+korean = "누오호호호…! 간다.<end>"
 
 ["370199"]
 japanese = "わかんねぇのか？　　<end>"

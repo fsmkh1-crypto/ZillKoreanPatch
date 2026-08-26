@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["640000"]
+japanese = "ティアナメッセージVOL1-2開始<end>"
+korean = "티아나 메시지 VOL1-2 시작<end>"
+
 ["640004"]
 japanese = "大変、タルテュバ様だわ！<end>"
 korean = "큰일이야, 타르튜바 님이야!<end>"
@@ -75,6 +79,74 @@ korean = "아, 지나가십시오. <value:$28> 님.<end>"
 ["640115"]
 japanese = "…すみません。<end>"
 korean = "…죄송합니다.<end>"
+
+["640133"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640135"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640137"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640139"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640141"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640143"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640145"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640148"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640150"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640152"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640154"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640156"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640159"]
+japanese = "ティアナの目は確かですわ。<end>"
+korean = "티아나의 안목은 확실해요.<end>"
+
+["640163"]
+japanese = "あ、もうお帰りなのですか？<end>"
+korean = "아, 벌써 돌아가시나요?<end>"
+
+["640167"]
+japanese = "あ、もうお帰りなのですか？<end>"
+korean = "아, 벌써 돌아가시나요?<end>"
+
+["640177"]
+japanese = "あ、もうお帰りなのですか？<end>"
+korean = "아, 벌써 돌아가시나요?<end>"
+
+["640181"]
+japanese = "あ、もうお帰りなのですか？<end>"
+korean = "아, 벌써 돌아가시나요?<end>"
 
 ["640201"]
 japanese = "…わかりました。<end>"
@@ -252,6 +324,10 @@ korean = "어이.<end>"
 japanese = "どんな具合だい？<end>"
 korean = "상태가 어때?<end>"
 
+["640312"]
+japanese = "こりゃ、荒療治が必要だな。<end>"
+korean = "이건 좀 거친 치료가 필요하겠군.<end>"
+
 ["640313"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
@@ -327,6 +403,10 @@ korean = "미사용<end>"
 ["640331"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
+
+["640332"]
+japanese = "え、ええ…。帰りましょう。<end>"
+korean = "네, 네…. 돌아가죠.<end>"
 
 ["640346"]
 japanese = "ティアナメッセージVOL1-2終端<end>"

@@ -24,6 +24,10 @@ korean = "부조리의 부하가 된다<end>"
 japanese = "ブゾリの配下にならない<end>"
 korean = "부조리의 부하가 되지 않는다<end>"
 
+["1060107"]
+japanese = "解放軍本部が破壊されたよ。<end>"
+korean = "해방군 본부가 파괴됐어.<end>"
+
 ["1060115"]
 japanese = "…まさか、<value:$28>様？<end>"
 korean = "…설마, <value:$28> 님?<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["630000"]
+japanese = "ティアナメッセージVOL1-1開始<end>"
+korean = "티아나 메시지 VOL1-1 시작<end>"
+
 ["630001"]
 japanese = "うーん、困ったな。<end>"
 korean = "음, 곤란하네.<end>"
@@ -19,6 +23,10 @@ korean = "온 모양입니다.<end>"
 ["630025"]
 japanese = "へ、へい！<end>"
 korean = "예, 예!<end>"
+
+["630027"]
+japanese = "タルテュバ様、こいつです。<end>"
+korean = "타르튜바 님, 이 녀석입니다.<end>"
 
 ["630037"]
 japanese = "<value:$28>、大丈夫か？<end>"
@@ -44,6 +52,10 @@ korean = "넌 기다려!!<end>"
 japanese = "はいぃ！！<end>"
 korean = "네엣!!<end>"
 
+["630052"]
+japanese = "へぇ…、ティアナ王女にね。<end>"
+korean = "헤에…, 티아나 왕녀에게 말이지.<end>"
+
 ["630076"]
 japanese = "<value:$28>は３ギアを手に入れた。<end>"
 korean = "<value:$28>은 3기아를 손에 넣었다.<end>"
@@ -63,6 +75,10 @@ korean = "당신, 괜찮아?<end>"
 ["630084"]
 japanese = "助けてくれるの？<end>"
 korean = "도와주는 거야?<end>"
+
+["630087"]
+japanese = "…ゼネテスさん、すまない。<end>"
+korean = "…제네테스 씨, 미안하다.<end>"
 
 ["630111"]
 japanese = "正解だ。<end>"
@@ -96,6 +112,10 @@ korean = "아뇨, 그런 건….<end>"
 japanese = "…ごめんなさい。<end>"
 korean = "…미안해요.<end>"
 
+["630162"]
+japanese = "あら、まだこれからですわ。<end>"
+korean = "어머, 아직 이제부터랍니다.<end>"
+
 ["630185"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -124,6 +144,10 @@ korean = "말도 안 돼.<end>"
 japanese = "きれいな妹君…か。<end>"
 korean = "예쁜 여동생이라…<end>"
 
+["630227"]
+japanese = "くだらん。誰が実の妹と…。<end>"
+korean = "시시하군. 누가 친여동생과….<end>"
+
 ["630244"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -148,9 +172,17 @@ korean = "아뇨, 그런 건….<end>"
 japanese = "…ごめんなさい。<end>"
 korean = "…미안해요.<end>"
 
+["630285"]
+japanese = "あら、まだこれからですわ。<end>"
+korean = "어머, 아직 이제부터랍니다.<end>"
+
 ["630296"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
+
+["630301"]
+japanese = "あら？　この音はもしや…。<end>"
+korean = "어머? 이 소리는 혹시….<end>"
 
 ["630321"]
 japanese = "笑える冗談だ。<end>"
@@ -199,3 +231,7 @@ korean = "약속한다<end>"
 ["630365"]
 japanese = "そんなこと約束できない<end>"
 korean = "그런 약속은 할 수 없어.<end>"
+
+["630369"]
+japanese = "ティアナメッセージVOL1-1終端<end>"
+korean = "티아나 메시지 VOL1-1 끝<end>"

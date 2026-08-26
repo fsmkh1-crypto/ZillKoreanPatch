@@ -4,6 +4,10 @@
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
 
+["620005"]
+japanese = "あっ。た、助けてください！<end>"
+korean = "앗. 사, 살려 주세요!<end>"
+
 ["620014"]
 japanese = "失礼ですが、お名前は…。<end>"
 korean = "실례지만, 성함은….<end>"
@@ -36,9 +40,21 @@ korean = "으, 알겠는 고브!<end>"
 japanese = "あーっ！　あんたたち！<end>"
 korean = "아앗! 너희들!<end>"
 
+["620037"]
+japanese = "む、ガサツ女にその他１名！<end>"
+korean = "음, 거친 여자와 기타 1명!<end>"
+
 ["620044"]
 japanese = "ああ、メシ～。<end>"
 korean = "아아, 밥~.<end>"
+
+["620051"]
+japanese = "ガント親分、がんばるゴブ。<end>"
+korean = "간트 두목, 힘내 고브.<end>"
+
+["620053"]
+japanese = "よろしくお願いするでゴブ。<end>"
+korean = "잘 부탁한다 고브.<end>"
 
 ["620055"]
 japanese = "団長！<end>"
@@ -115,6 +131,10 @@ korean = "단장~. 도와줘 고브~.<end>"
 ["620090"]
 japanese = "ほら、どうするの？<end>"
 korean = "자, 어떻게 할 거야?<end>"
+
+["620091"]
+japanese = "…マルーン、すまんでゴブ。<end>"
+korean = "…마룬, 미안하다 고브.<end>"
 
 ["620092"]
 japanese = "ええ～！？<end>"
@@ -328,9 +348,17 @@ korean = "정말… 다정한… 키스….<end>"
 japanese = "うっ。<end>"
 korean = "윽.<end>"
 
+["620319"]
+japanese = "あ、だ、だいひょうぶでふ！<end>"
+korean = "아, 괘, 괜찮아여!<end>"
+
 ["620328"]
 japanese = "死ぬほどまずい！<end>"
 korean = "죽을 만큼 맛없어!<end>"
+
+["620332"]
+japanese = "…そ、そんな…、そんな…。<end>"
+korean = "…그, 그럴 수가…, 그럴 수가….<end>"
 
 ["620333"]
 japanese = "…す、すいません！<end>"

@@ -2172,6 +2172,26 @@ korean = "울칸: 작열의 대동굴 1<end>"
 japanese = "ウルカーン：灼熱の大洞窟２<end>"
 korean = "울칸: 작열의 대동굴 2<end>"
 
+["350570"]
+japanese = "ウルカーン：灼熱の大洞窟３<end>"
+korean = "울칸: 작열의 대동굴 3<end>"
+
+["350571"]
+japanese = "ウルカーン：灼熱の大洞窟４<end>"
+korean = "울칸: 작열의 대동굴 4<end>"
+
+["350572"]
+japanese = "ウルカーン：灼熱の大洞窟５<end>"
+korean = "울칸: 작열의 대동굴 5<end>"
+
+["350573"]
+japanese = "ウルカーン：灼熱の大洞窟６<end>"
+korean = "울칸: 작열의 대동굴 6<end>"
+
+["350576"]
+japanese = "ウルカーン：火の守護者の座<end>"
+korean = "울칸: 불의 수호자 좌소<end>"
+
 ["350582"]
 japanese = "エルズ：彫刻画の道１<end>"
 korean = "엘즈: 조각화의 길 1<end>"
@@ -2740,6 +2760,10 @@ korean = "엔샨트~테라네<end>"
 japanese = "エンシャント～ロセン<end>"
 korean = "엔샨트~로센<end>"
 
+["350729"]
+japanese = "エンシャント～ドワーフ王国<end>"
+korean = "엔샨트~드워프 왕국<end>"
+
 ["350730"]
 japanese = "ロストール～リベルダム<end>"
 korean = "로스톨~리벨덤<end>"
@@ -3048,6 +3072,10 @@ korean = "산넘이 전장 1<end>"
 japanese = "山越え戦場２<end>"
 korean = "산넘이 전장 2<end>"
 
+["350809"]
+japanese = "ザギヴ襲撃地点・ザギヴ襲撃<end>"
+korean = "자기브 습격 지점·자기브 습격<end>"
+
 ["350810"]
 japanese = "ザギヴ暴走後<end>"
 korean = "자기브 폭주 후<end>"
@@ -3228,6 +3256,10 @@ korean = "로스톨: 광장 확대<end>"
 japanese = "船上<end>"
 korean = "선상<end>"
 
+["350855"]
+japanese = "リベルダム：スラムのアップ<end>"
+korean = "리벨덤: 빈민가 확대<end>"
+
 ["350857"]
 japanese = "廃城：廃城４のアップ<end>"
 korean = "폐성: 폐성 4 확대<end>"
@@ -3280,6 +3312,10 @@ korean = "물의 정령신 거처: 해방 후<end>"
 japanese = "ロストール：城門前：夜<end>"
 korean = "로스톨: 성문 앞: 밤<end>"
 
+["350870"]
+japanese = "ロストール：貴族居住区：夜<end>"
+korean = "로스톨: 귀족 거주구: 밤<end>"
+
 ["350872"]
 japanese = "ロストール：広場：夜<end>"
 korean = "로스톨: 광장: 밤<end>"
@@ -3308,6 +3344,14 @@ korean = "리벨담: 항구: 붕괴 후<end>"
 japanese = "リベルダム：広場：崩壊後<end>"
 korean = "리벨덤: 광장: 붕괴 후<end>"
 
+["350879"]
+japanese = "リベルダム：繁華街：崩壊後<end>"
+korean = "리벨덤: 번화가: 붕괴 후<end>"
+
+["350882"]
+japanese = "リベルダム：街の門：崩壊後<end>"
+korean = "리벨덤: 성문: 붕괴 후<end>"
+
 ["350884"]
 japanese = "ロセン：謁見の間：陥落前<end>"
 korean = "로센: 알현실: 함락 전<end>"
@@ -3320,13 +3364,25 @@ korean = "로센: 도시의 문: 함락 전<end>"
 japanese = "エルズ：竜の座：竜いない<end>"
 korean = "엘즈: 용의 자리: 용 없음<end>"
 
+["350887"]
+japanese = "エンシャント：広場：崩壊後<end>"
+korean = "엔샨트: 광장: 붕괴 후<end>"
+
 ["350892"]
 japanese = "エンシャント：港：崩壊後<end>"
 korean = "엔샨트: 항구: 붕괴 후<end>"
 
+["350896"]
+japanese = "ミイスの村：神殿前：襲撃後<end>"
+korean = "미이스 마을: 신전 앞: 습격 후<end>"
+
 ["350897"]
 japanese = "ミイスの村：広場：襲撃後<end>"
 korean = "미이스 마을: 광장: 습격 후<end>"
+
+["350902"]
+japanese = "荒れ果てた迷宮８：鉄扉開き<end>"
+korean = "황폐한 미궁 8: 철문 열림<end>"
 
 ["350903"]
 japanese = "最後の迷宮７：鉄扉開き<end>"
@@ -3335,3 +3391,7 @@ korean = "마지막 미궁 7: 철문 개방<end>"
 ["350904"]
 japanese = "廃城４：鉄扉開き<end>"
 korean = "폐성 4: 철문 열림<end>"
+
+["350908"]
+japanese = "エンシャント：墓地：崩壊後<end>"
+korean = "엔샨트: 묘지: 붕괴 후<end>"
