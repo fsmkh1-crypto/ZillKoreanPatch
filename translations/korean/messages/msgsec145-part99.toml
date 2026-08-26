@@ -4,6 +4,10 @@
 japanese = "私が恐い？<end>"
 korean = "내가 무서워?<end>"
 
+["1450003"]
+japanese = "何がおかしいの！？<end>"
+korean = "뭐가 우스운 거야!?<end>"
+
 ["1450011"]
 japanese = "こんな話、退屈？<end>"
 korean = "이런 얘기, 지루해?<end>"
@@ -15,3 +19,7 @@ korean = "지루함<end>"
 ["1450013"]
 japanese = "そうでもない<end>"
 korean = "그렇지도 않아<end>"
+
+["1450034"]
+japanese = "…禁断の聖杯だわ。<end>"
+korean = "…금단의 성배야.<end>"

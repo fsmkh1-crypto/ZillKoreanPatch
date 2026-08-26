@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1360041"]
+japanese = "奴なら、行ったよ。<end>"
+korean = "그 녀석이라면 갔어.<end>"
+
 ["1360050"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
@@ -23,6 +27,10 @@ korean = "바이!<end>"
 ["1360096"]
 japanese = "わからないの。<end>"
 korean = "모르겠어.<end>"
+
+["1360103"]
+japanese = "力を貸しましょうか<end>"
+korean = "힘을 빌려드릴까요<end>"
 
 ["1360113"]
 japanese = "立てるか？<end>"
@@ -160,6 +168,10 @@ korean = "<value:$28> 님….<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1360399"]
+japanese = "愛する…人のため？<end>"
+korean = "사랑하는… 사람을 위해?<end>"
+
 ["1360408"]
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
@@ -184,6 +196,10 @@ korean = "호오, 호오.<end>"
 japanese = "アンギルダン殿！<end>"
 korean = "앙길단 공!<end>"
 
+["1360441"]
+japanese = "おっしゃる通りで。<end>"
+korean = "말씀하신 대로입니다.<end>"
+
 ["1360479"]
 japanese = "フッフッフ…。<end>"
 korean = "후후후….<end>"
@@ -195,6 +211,10 @@ korean = "후후후….<end>"
 ["1360510"]
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
+
+["1360528"]
+japanese = "そのまま様子を見る<end>"
+korean = "그대로 지켜본다<end>"
 
 ["1360532"]
 japanese = "ノエル…。<end>"
@@ -227,6 +247,10 @@ korean = "갱도에서 탈출한다<end>"
 ["1360568"]
 japanese = "申し出を受ける<end>"
 korean = "제안을 받아들인다<end>"
+
+["1360571"]
+japanese = "あのー、神官さん。<end>"
+korean = "저기요, 신관님.<end>"
 
 ["1360590"]
 japanese = "<value:$28>様…。<end>"

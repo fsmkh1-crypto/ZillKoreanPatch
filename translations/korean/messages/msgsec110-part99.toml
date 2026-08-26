@@ -12,6 +12,10 @@ korean = "무시한다<end>"
 japanese = "気がついたか？<end>"
 korean = "정신이 들었나?<end>"
 
+["1100011"]
+japanese = "ついてくるがいい。<end>"
+korean = "따라오도록 해.<end>"
+
 ["1100048"]
 japanese = "あなた、誰？<end>"
 korean = "당신, 누구야?<end>"
@@ -59,6 +63,10 @@ korean = "…나를….<end>"
 ["1100094"]
 japanese = "恐ろしくない<end>"
 korean = "두렵지 않다<end>"
+
+["1100095"]
+japanese = "放っておけなかった<end>"
+korean = "내버려둘 수 없었다<end>"
 
 ["1100115"]
 japanese = "<value:$28>か。<end>"

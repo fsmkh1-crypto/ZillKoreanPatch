@@ -60,9 +60,21 @@ korean = "희망, 인가…….<end>"
 japanese = "終わったわ…。<end>"
 korean = "끝났어….<end>"
 
+["1330215"]
+japanese = "あれ？　なんだ…？<end>"
+korean = "어라? 뭐지…?<end>"
+
 ["1330221"]
 japanese = "どうするつもり？<end>"
 korean = "어떻게 할 생각이야?<end>"
+
+["1330238"]
+japanese = "あれ？　なんだ…？<end>"
+korean = "어라? 뭐지…?<end>"
+
+["1330248"]
+japanese = "では、行きますよ。<end>"
+korean = "그럼, 갑니다.<end>"
 
 ["1330260"]
 japanese = "はっ！<end>"
@@ -183,6 +195,10 @@ korean = "그럼, 잘 있어.<end>"
 ["1330692"]
 japanese = "それは違う<end>"
 korean = "그건 아니야<end>"
+
+["1330693"]
+japanese = "平等の世界を作ろう<end>"
+korean = "평등한 세상을 만들자<end>"
 
 ["1330698"]
 japanese = "どうしても入る<end>"

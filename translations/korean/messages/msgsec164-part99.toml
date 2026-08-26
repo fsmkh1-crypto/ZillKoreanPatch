@@ -4,6 +4,10 @@
 japanese = "ダークエルフ…。<end>"
 korean = "다크 엘프….<end>"
 
+["1640013"]
+japanese = "捕まえろ！　殺せ！<end>"
+korean = "잡아라! 죽여라!<end>"
+
 ["1640022"]
 japanese = "ゆくぞ。<end>"
 korean = "간다.<end>"
@@ -48,13 +52,25 @@ korean = "뭐!?<end>"
 japanese = "妹のために？<end>"
 korean = "여동생을 위해서?<end>"
 
+["1640053"]
+japanese = "逃げるな！　殺せ！<end>"
+korean = "도망치지 마! 죽여라!<end>"
+
 ["1640055"]
 japanese = "あの男の仲間か？<end>"
 korean = "그 남자의 동료인가?<end>"
 
+["1640059"]
+japanese = "自分にはわからない<end>"
+korean = "나로선 모르겠다<end>"
+
 ["1640060"]
 japanese = "なら殺せ！<end>"
 korean = "그럼 죽여!<end>"
+
+["1640061"]
+japanese = "人間は…残酷だ…。<end>"
+korean = "인간은… 잔혹해….<end>"
 
 ["1640069"]
 japanese = "お前の名は？<end>"

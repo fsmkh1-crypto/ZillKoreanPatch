@@ -4,6 +4,10 @@
 japanese = "例の件ですが…。<end>"
 korean = "그 건 말입니다….<end>"
 
+["1050011"]
+japanese = "え？　今、なんて…<end>"
+korean = "어? 방금 뭐라고…<end>"
+
 ["1050034"]
 japanese = "わ、わたくし…。<end>"
 korean = "저, 저는….<end>"
@@ -35,6 +39,10 @@ korean = "이겼어. 이겼어.<end>"
 ["1050073"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
+
+["1050077"]
+japanese = "この恨みは忘れない<end>"
+korean = "이 원한은 잊지 않겠어<end>"
 
 ["1050079"]
 japanese = "ありがとう……。<end>"

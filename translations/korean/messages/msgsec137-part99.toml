@@ -48,6 +48,22 @@ korean = "오, <value:$28>인가.<end>"
 japanese = "上手な戦い方は？<end>"
 korean = "잘 싸우는 법은?<end>"
 
+["1370158"]
+japanese = "力を伸ばす方法は？<end>"
+korean = "힘을 키우는 방법은?<end>"
+
+["1370159"]
+japanese = "何も聞くことはない<end>"
+korean = "아무것도 묻지 않는다<end>"
+
+["1370164"]
+japanese = "他には何かあるか？<end>"
+korean = "다른 건 뭐가 있지?<end>"
+
+["1370168"]
+japanese = "それが彼らの生き方<end>"
+korean = "그게 그들의 삶의 방식이다<end>"
+
 ["1370176"]
 japanese = "ちょっと待って<end>"
 korean = "잠깐 기다려<end>"
@@ -95,6 +111,10 @@ korean = "…모르겠네요.<end>"
 ["1370215"]
 japanese = "記憶を手繰る…？<end>"
 korean = "기억을 더듬는다…?<end>"
+
+["1370217"]
+japanese = "（似ている……。）<end>"
+korean = "(닮았어…….)<end>"
 
 ["1370237"]
 japanese = "ちぇ。<end>"
@@ -164,6 +184,10 @@ korean = "몰라<end>"
 japanese = "知っている<end>"
 korean = "알고 있다<end>"
 
+["1370323"]
+japanese = "本当に大丈夫だな？<end>"
+korean = "정말 괜찮은 거지?<end>"
+
 ["1370324"]
 japanese = "ちょっと待って<end>"
 korean = "잠깐 기다려<end>"
@@ -212,6 +236,10 @@ korean = "소울과 스킬<end>"
 japanese = "魔法と精霊力<end>"
 korean = "마법과 정령력<end>"
 
+["1370410"]
+japanese = "すべて理解している<end>"
+korean = "모두 이해하고 있다<end>"
+
 ["1370428"]
 japanese = "説明してほしい<end>"
 korean = "설명해 줬으면 해<end>"
@@ -227,6 +255,10 @@ korean = "이해했다<end>"
 ["1370434"]
 japanese = "説明してほしい<end>"
 korean = "설명해 줬으면 해<end>"
+
+["1370441"]
+japanese = "…強くなるのだぞ。<end>"
+korean = "…강해져라.<end>"
 
 ["1370446"]
 japanese = "<value:$28>か。<end>"
@@ -256,6 +288,14 @@ korean = "소울과 스킬<end>"
 japanese = "魔法と精霊力<end>"
 korean = "마법과 정령력<end>"
 
+["1370503"]
+japanese = "すべて理解している<end>"
+korean = "모두 이해하고 있다<end>"
+
+["1370516"]
+japanese = "スキルのことだな。<end>"
+korean = "스킬 이야기군.<end>"
+
 ["1370522"]
 japanese = "おう、なんだ。<end>"
 korean = "어, 왜.<end>"
@@ -271,6 +311,10 @@ korean = "괜찮아<end>"
 ["1370544"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
+
+["1370571"]
+japanese = "冒険者ギルドとは？<end>"
+korean = "모험자 길드란?<end>"
 
 ["1370572"]
 japanese = "依頼の種類は？<end>"
@@ -307,6 +351,10 @@ korean = "쳇.<end>"
 ["1370615"]
 japanese = "お、おいっ。<end>"
 korean = "어, 어이.<end>"
+
+["1370620"]
+japanese = "何も聞くことはない<end>"
+korean = "아무것도 묻지 않는다<end>"
 
 ["1370624"]
 japanese = "弱点のない成長<end>"

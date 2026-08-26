@@ -24,9 +24,21 @@ korean = "그건 못 해<end>"
 japanese = "ありがとう…。<end>"
 korean = "고마워….<end>"
 
+["1340033"]
+japanese = "さぁ、私に手を…。<end>"
+korean = "자, 내게 손을….<end>"
+
 ["1340048"]
 japanese = "では、出発だ。<end>"
 korean = "그럼, 출발이다.<end>"
+
+["1340070"]
+japanese = "ウグアアアアア…！<end>"
+korean = "우그아아아아…!<end>"
+
+["1340080"]
+japanese = "今日はこのへんで…<end>"
+korean = "오늘은 이쯤에서….<end>"
 
 ["1340081"]
 japanese = "ああ、そうですね<end>"
@@ -87,6 +99,10 @@ korean = "용서한다<end>"
 ["1340145"]
 japanese = "許さない<end>"
 korean = "용서 못 해<end>"
+
+["1340149"]
+japanese = "頼んだよ、ヴァン。<end>"
+korean = "부탁해, 반.<end>"
 
 ["1340151"]
 japanese = "ギャッ！<end>"
@@ -156,6 +172,10 @@ korean = "너, 너는….<end>"
 japanese = "あ…ありがとう！<end>"
 korean = "아… 고마워!<end>"
 
+["1340252"]
+japanese = "ナ、ナーシェス！？<end>"
+korean = "나, 나셰스!?<end>"
+
 ["1340253"]
 japanese = "あんた、一体…。<end>"
 korean = "당신, 대체….<end>"
@@ -208,6 +228,10 @@ korean = "레이븐!<end>"
 japanese = "う…う…。<end>"
 korean = "으… 으….<end>"
 
+["1340297"]
+japanese = "レイヴン、大丈夫？<end>"
+korean = "레이븐, 괜찮아?<end>"
+
 ["1340304"]
 japanese = "…フ、フフフ。<end>"
 korean = "…후, 후후후.<end>"
@@ -235,6 +259,18 @@ korean = "아… 아아….<end>"
 ["1340354"]
 japanese = "しかたがない…<end>"
 korean = "어쩔 수 없군…<end>"
+
+["1340355"]
+japanese = "馬鹿なことは言うな<end>"
+korean = "바보 같은 소리 하지 마<end>"
+
+["1340370"]
+japanese = "痛テテテテテテテ！<end>"
+korean = "아야야야야야야!<end>"
+
+["1340385"]
+japanese = "そして、博愛心も。<end>"
+korean = "그리고 박애심도.<end>"
 
 ["1340391"]
 japanese = "では、勝負です。<end>"
@@ -344,9 +380,17 @@ korean = "주, 죽었어?<end>"
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
 
+["1340648"]
+japanese = "１００ギア援助する<end>"
+korean = "100기아를 지원한다<end>"
+
 ["1340651"]
 japanese = "援助しない<end>"
 korean = "지원하지 않는다<end>"
+
+["1340654"]
+japanese = "１００ギア援助する<end>"
+korean = "100기아를 지원한다<end>"
 
 ["1340657"]
 japanese = "援助しない<end>"

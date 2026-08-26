@@ -4,21 +4,57 @@
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["1400003"]
+japanese = "ティアナ王女の部屋<end>"
+korean = "티아나 왕녀의 방<end>"
+
+["1400004"]
+japanese = "エリス王妃の執務室<end>"
+korean = "엘리스 왕비의 집무실<end>"
+
 ["1400010"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["1400011"]
+japanese = "ティアナ王女の部屋<end>"
+korean = "티아나 왕녀의 방<end>"
+
+["1400012"]
+japanese = "エリス王妃の執務室<end>"
+korean = "엘리스 왕비의 집무실<end>"
 
 ["1400016"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["1400017"]
+japanese = "ティアナ王女の部屋<end>"
+korean = "티아나 왕녀의 방<end>"
+
 ["1400022"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["1400023"]
+japanese = "ティアナ王女の部屋<end>"
+korean = "티아나 왕녀의 방<end>"
+
 ["1400026"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["1400027"]
+japanese = "エリス王妃の執務室<end>"
+korean = "엘리스 왕비의 집무실<end>"
+
+["1400035"]
+japanese = "…俺に指図するな。<end>"
+korean = "…나한테 명령하지 마.<end>"
+
+["1400045"]
+japanese = "…俺に指図するな。<end>"
+korean = "…나한테 명령하지 마.<end>"
 
 ["1400054"]
 japanese = "行く<end>"
@@ -112,6 +148,10 @@ korean = "…티아나.<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1400164"]
+japanese = "アトレイア…様…？<end>"
+korean = "아트레이아… 님…?<end>"
+
 ["1400166"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
@@ -127,6 +167,10 @@ korean = "안 가<end>"
 ["1400183"]
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
+
+["1400185"]
+japanese = "アトレイア…様…？<end>"
+korean = "아트레이아… 님…?<end>"
 
 ["1400187"]
 japanese = "…催し？<end>"
@@ -152,6 +196,10 @@ korean = "안 가<end>"
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
 
+["1400228"]
+japanese = "…何が言いたい！？<end>"
+korean = "…무슨 말을 하고 싶은 거야!?<end>"
+
 ["1400233"]
 japanese = "う、うるさい！<end>"
 korean = "시, 시끄러워!<end>"
@@ -167,6 +215,10 @@ korean = "흥… 나왔나.<end>"
 ["1400325"]
 japanese = "お父…さ…<end>"
 korean = "아버… 지…<end>"
+
+["1400352"]
+japanese = "…エステル…さん。<end>"
+korean = "…에스텔… 씨.<end>"
 
 ["1400353"]
 japanese = "…フレア。<end>"

@@ -8,6 +8,10 @@ korean = "저기, 그게….<end>"
 japanese = "あ、<value:$28>さん！<end>"
 korean = "아, <value:$28> 씨!<end>"
 
+["1420021"]
+japanese = "え？　あの、えと…<end>"
+korean = "어? 저기, 그게….<end>"
+
 ["1420036"]
 japanese = "ナーシェス。<end>"
 korean = "나셰스.<end>"
@@ -19,6 +23,14 @@ korean = "큭….<end>"
 ["1420048"]
 japanese = "やぁ、君か。<end>"
 korean = "여어, 너구나.<end>"
+
+["1420098"]
+japanese = "親父、酒はまだか。<end>"
+korean = "아저씨, 술은 아직이야?<end>"
+
+["1420126"]
+japanese = "物好きなこったな。<end>"
+korean = "별난 사람이네.<end>"
 
 ["1420130"]
 japanese = "すべての種族？<end>"
@@ -84,6 +96,10 @@ korean = "응!<end>"
 japanese = "フッ…。<end>"
 korean = "훗….<end>"
 
+["1420298"]
+japanese = "やっかましいわい！<end>"
+korean = "시끄럽다!<end>"
+
 ["1420299"]
 japanese = "ぐお！！<end>"
 korean = "크오!!<end>"
@@ -140,6 +156,10 @@ korean = "영주님!<end>"
 japanese = "ぐわぁ！<end>"
 korean = "크와악!<end>"
 
+["1420422"]
+japanese = "じゃあ、行くのね？<end>"
+korean = "그럼, 가는 거지?<end>"
+
 ["1420430"]
 japanese = "ええ。<end>"
 korean = "네.<end>"
@@ -159,6 +179,10 @@ korean = "아직 고브.<end>"
 ["1420524"]
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
+
+["1420530"]
+japanese = "どうかしましたか？<end>"
+korean = "무슨 일인가요?<end>"
 
 ["1420531"]
 japanese = "なんでもない。<end>"
@@ -215,6 +239,10 @@ korean = "안 오네….<end>"
 ["1420647"]
 japanese = "フッ…。<end>"
 korean = "훗….<end>"
+
+["1420648"]
+japanese = "やっかましいわい！<end>"
+korean = "시끄럽다!<end>"
 
 ["1420649"]
 japanese = "ぐお！！<end>"

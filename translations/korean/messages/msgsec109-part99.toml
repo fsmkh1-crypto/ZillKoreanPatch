@@ -4,6 +4,10 @@
 japanese = "ボルボラ変死<end>"
 korean = "볼보라 변사<end>"
 
+["1090020"]
+japanese = "ネメア、帝位につく<end>"
+korean = "네메아, 제위에 오르다<end>"
+
 ["1090038"]
 japanese = "ネメア死す<end>"
 korean = "네메아 죽다<end>"
@@ -11,6 +15,10 @@ korean = "네메아 죽다<end>"
 ["1090044"]
 japanese = "空中都市墜落<end>"
 korean = "공중도시 추락<end>"
+
+["1090046"]
+japanese = "封印された空中都市<end>"
+korean = "봉인된 공중도시<end>"
 
 ["1090048"]
 japanese = "空中都市浮上<end>"

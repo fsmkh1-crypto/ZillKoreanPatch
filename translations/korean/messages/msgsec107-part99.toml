@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1070000"]
+japanese = "罠を発見しました。<end>"
+korean = "함정을 발견했습니다.<end>"
+
 ["1070001"]
 japanese = "誰が開けますか？<end>"
 korean = "누가 열겠습니까?<end>"
@@ -36,6 +40,10 @@ korean = "퓨 패럴라이즈<end>"
 japanese = "フューマスクス<end>"
 korean = "퓨마스크스<end>"
 
+["1070012"]
+japanese = "エクスプロージョン<end>"
+korean = "익스플로전<end>"
+
 ["1070013"]
 japanese = "スイッチ系罠<end>"
 korean = "스위치계 함정<end>"
@@ -51,6 +59,10 @@ korean = "소지금 %10u기어<end>"
 ["1070023"]
 japanese = "　　　 %10uギア<end>"
 korean = "         %10u기어<end>"
+
+["1070024"]
+japanese = "よし、やってみよう<end>"
+korean = "좋아, 해보자<end>"
 
 ["1070025"]
 japanese = "気が進まないな…<end>"
@@ -72,9 +84,17 @@ korean = "  500기어<end>"
 japanese = " 1000ギア<end>"
 korean = " 1000기어<end>"
 
+["1070042"]
+japanese = "マヒガスが吹き出し<end>"
+korean = "마비 가스가 뿜어져 나왔다<end>"
+
 ["1070043"]
 japanese = "はマヒした。<end>"
 korean = "는 마비되었다.<end>"
+
+["1070044"]
+japanese = "呪いガスが吹き出し<end>"
+korean = "저주 가스가 뿜어져 나왔다<end>"
 
 ["1070045"]
 japanese = "は呪われた。<end>"

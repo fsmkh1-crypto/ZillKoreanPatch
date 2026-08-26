@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1380015"]
+japanese = "本当に感謝しとる。<end>"
+korean = "정말 감사하고 있네.<end>"
+
 ["1380033"]
 japanese = "…な、なーん。<end>"
 korean = "…나, 냥.<end>"
@@ -11,6 +15,10 @@ korean = "고양이도, 응.<end>"
 ["1380053"]
 japanese = "力で立ち向かう<end>"
 korean = "힘으로 맞선다<end>"
+
+["1380054"]
+japanese = "あくまで説き伏せる<end>"
+korean = "끝까지 설득한다<end>"
 
 ["1380060"]
 japanese = "頼むぞ、<value:$28>。<end>"
@@ -24,6 +32,14 @@ korean = "보고 싶어<end>"
 japanese = "見たくない<end>"
 korean = "보고 싶지 않아<end>"
 
+["1380067"]
+japanese = "…フフ、フフフフ。<end>"
+korean = "…후후, 후후후후.<end>"
+
+["1380075"]
+japanese = "…フフ、フフフフ。<end>"
+korean = "…후후, 후후후후.<end>"
+
 ["1380083"]
 japanese = "んっ…。<end>"
 korean = "응….<end>"
@@ -36,9 +52,17 @@ korean = "신경 쓰고 있었다<end>"
 japanese = "気にしてなかった<end>"
 korean = "신경 쓰지 않았어<end>"
 
+["1380102"]
+japanese = "何をしてたかって？<end>"
+korean = "뭘 하고 있었냐고?<end>"
+
 ["1380113"]
 japanese = "じゃねー。<end>"
 korean = "또 봐.<end>"
+
+["1380159"]
+japanese = "…どなたです？　　<end>"
+korean = "…누구시죠?　　<end>"
 
 ["1380160"]
 japanese = "<value:$28>様…。<end>"
@@ -92,6 +116,14 @@ korean = "나는…<end>"
 japanese = "ああ、これ？<end>"
 korean = "아, 이거?<end>"
 
+["1380262"]
+japanese = "でも…やめたんだ。<end>"
+korean = "하지만… 그만뒀어.<end>"
+
+["1380268"]
+japanese = "うん…。そうだね。<end>"
+korean = "응…. 그렇네.<end>"
+
 ["1380311"]
 japanese = "うわーん！<end>"
 korean = "으아앙!<end>"
@@ -103,6 +135,14 @@ korean = "으아아아!<end>"
 ["1380349"]
 japanese = "それで…なに？<end>"
 korean = "그래서… 뭐?<end>"
+
+["1380352"]
+japanese = "こ、ここが猫屋敷？<end>"
+korean = "여, 여기가 고양이 저택?<end>"
+
+["1380364"]
+japanese = "へっ、どうだかな！<end>"
+korean = "흥, 글쎄다!<end>"
 
 ["1380373"]
 japanese = "おっと！<end>"
@@ -116,9 +156,17 @@ korean = "어둠의 신기?<end>"
 japanese = "す、すごいや！<end>"
 korean = "대, 대단해!<end>"
 
+["1380412"]
+japanese = "すごい、すごいや！<end>"
+korean = "대단해, 정말 대단해!<end>"
+
 ["1380431"]
 japanese = "謁見の間へ行く<end>"
 korean = "알현실로 간다<end>"
+
+["1380432"]
+japanese = "謁見の間へ行かない<end>"
+korean = "알현실에는 가지 않는다<end>"
 
 ["1380434"]
 japanese = "…そうですか。<end>"
@@ -239,3 +287,7 @@ korean = "아니요<end>"
 ["1380579"]
 japanese = "はい<end>"
 korean = "네<end>"
+
+["1380598"]
+japanese = "（束縛の腕輪が…）<end>"
+korean = "(구속의 팔찌가…)<end>"
