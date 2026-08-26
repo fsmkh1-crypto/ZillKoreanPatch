@@ -41,8 +41,6 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 	korean, _, err := corpus.LoadKoreanProject(root, source)
 	if err != nil { return err }
-	alphaProject, _, err := BuildKoreanAlphaPlaceholderProject(source, korean)
-	if err != nil { return err }
 
 	archives, err := openArchives(gameDir)
 	if err != nil { return err }
@@ -52,6 +50,12 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	banks, owners, err := loadRetailBanks(archives)
 	if err != nil { return err }
 	if err := corpus.BindBanks(source, banks); err != nil { return err }
+
+	// Placeholder projection needs the authenticated retail token streams, so it
+	// must be built only after BindBanks has populated source.Record.Tokens.
+	alphaProject, placeholderCount, err := BuildKoreanAlphaPlaceholderProject(source, korean)
+	if err != nil { return err }
+	fmt.Printf("Korean alpha compiler placeholders: %d\n", placeholderCount)
 
 	layouts := make(map[int]string)
 	for _, row := range korean.Entries {
