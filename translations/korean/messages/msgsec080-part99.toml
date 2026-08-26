@@ -24,6 +24,10 @@ korean = "아, 당신은 그 유명한 <value:$2B>의 <value:$28>! 지나가십�
 japanese = "いやあっ！<line-break>…扉が、開くぅ！<end>"
 korean = "싫어! …문이, 열려어!<end>"
 
+["800031"]
+japanese = "<value:$28>は<line-break>英雄ソウル、マノンを修得した。<end>"
+korean = "<value:$28>은 영웅 소울 마논을 습득했다.<end>"
+
 ["800034"]
 japanese = "あ～っ！<line-break>お客さんだよ！<end>"
 korean = "아~! 손님이다!<end>"

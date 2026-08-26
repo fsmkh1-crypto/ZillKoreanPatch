@@ -32,6 +32,10 @@ korean = "모, 몬스터!? 이게 무슨 일이죠!<end>"
 japanese = "タルテュバ様、こいつです。<end>"
 korean = "타르튜바 님, 이 녀석입니다.<end>"
 
+["630034"]
+japanese = "よ、正義の味方さん、<line-break>いいところをひとりで<line-break>持っていく気かい？<line-break>俺も手伝わせてもらうぜ。<end>"
+korean = "여, 정의의 사도님. 좋은 건 혼자 다 가져가려고? 나도 돕게 해 줘.<end>"
+
 ["630037"]
 japanese = "<value:$28>、大丈夫か？<end>"
 korean = "<value:$28>, 괜찮아?<end>"

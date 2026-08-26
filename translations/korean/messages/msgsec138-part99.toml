@@ -316,6 +316,10 @@ korean = "나는…<end>"
 japanese = "…そうか。<line-break>俺には、お前達がいるのだな。<line-break> <line-break>…これからもよろしく頼む。<end>"
 korean = "…그렇군. 나에겐 너희가 있었구나. …앞으로도 잘 부탁한다.<end>"
 
+["1380257"]
+japanese = "…そうか。<line-break>…世界の全てが敵に回ろうとも…<line-break>俺にはお前がいてくれる。<line-break>俺にはそれだけで十分だ。<end>"
+korean = "…그런가. …온 세상이 적이 된다 해도… 내겐 네가 있어. 그것만으로 충분해.<end>"
+
 ["1380258"]
 japanese = "そうだな、<line-break>すまない…忘れてくれ。<end>"
 korean = "그래, 미안하다… 잊어 줘.<end>"
@@ -863,6 +867,10 @@ korean = "저기…, 나…<end>"
 ["1380541"]
 japanese = "……いえ、なんでもないです。<line-break>それじゃ、中に入りましょうか。<line-break><value:$28>さん。<end>"
 korean = "……아뇨, 아무것도 아니에요. 그럼 안으로 들어갈까요, <value:$28>님.<end>"
+
+["1380542"]
+japanese = "ここは私が働いている酒場です。<line-break>スラムの酒場で事を済ませないと、<line-break>戻れません。<line-break>行きましょう。<end>"
+korean = "여기는 제가 일하는 술집입니다. 슬럼가의 술집에서 일을 마치지 않으면 돌아갈 수 없습니다. 갑시다.<end>"
 
 ["1380543"]
 japanese = "装備の強度とは？<end>"

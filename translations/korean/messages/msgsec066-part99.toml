@@ -96,6 +96,10 @@ korean = "추모주?<end>"
 japanese = "誰が、そんなことを！　　　<end>"
 korean = "누가 그런 말을!<end>"
 
+["660049"]
+japanese = "そりゃどーも。<line-break>んじゃ、行くか、<value:$28>。<end>"
+korean = "그래, 고맙네. 그럼 가자, <value:$28>.<end>"
+
 ["660052"]
 japanese = "ご勝手に！<end>"
 korean = "마음대로 해!<end>"

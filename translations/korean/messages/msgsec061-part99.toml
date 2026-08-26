@@ -24,6 +24,10 @@ korean = "…아직 원념이 남아 있다.<end>"
 japanese = "ま、いい、出世払いで、いつか<line-break>払ってもらうことにするさ。<line-break>じゃあな！　<value:$28>。<end>"
 korean = "뭐, 됐어. 성공하면 그때 갚는 걸로 하지. 잘 가, <value:$28>.<end>"
 
+["610016"]
+japanese = "…<value:$28>、ね。<line-break>じゃあな！　出世しろよ！<end>"
+korean = "…<value:$28>, 이랬지. 그럼 잘 있어! 출세해라!<end>"
+
 ["610027"]
 japanese = "アンギルダン・ボリューム４終端<end>"
 korean = "앙길단 볼륨4 끝<end>"

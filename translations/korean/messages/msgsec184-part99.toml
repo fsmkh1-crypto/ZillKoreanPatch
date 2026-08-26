@@ -8,6 +8,10 @@ korean = "이크레문 V5-2 시작<end>"
 japanese = "き、来ました！<line-break>例の大蛇です！！<end>"
 korean = "와, 왔습니다! 그 큰 뱀입니다!!<end>"
 
+["1840005"]
+japanese = "んじゃ、お仕事に<line-break>精を出しちゃおうかな。<end>"
+korean = "그럼 일에 힘 좀 써 볼까.<end>"
+
 ["1840007"]
 japanese = "ミ、ミズチが…。<end>"
 korean = "미, 미즈치가….<end>"
@@ -92,9 +96,17 @@ korean = "지금은 마을의 안전이 우선이다….<end>"
 japanese = "ぐ～わ～！<line-break>や～ら～れ～た～！<end>"
 korean = "으아~! 당했다~!<end>"
 
+["1840057"]
+japanese = "あはは、な～んちゃって。　　　　<line-break>　<line-break>　<line-break>気はすんだ？<line-break>悪いけど、そろそろ行かなくちゃ。<end>"
+korean = "아하하, 농담이야. 속은 풀렸어? 미안하지만 이제 가 봐야 해.<end>"
+
 ["1840058"]
 japanese = "<value:$28>さん！！<end>"
 korean = "<value:$28> 씨!!<end>"
+
+["1840060"]
+japanese = "さて、邪魔が入ったが<line-break>先程までの話の続きだ。<line-break>　<line-break>我々の支配下に<line-break>入ってはくれないかね？<end>"
+korean = "방해가 들어왔지만 아까 이야기의 계속이다. 우리 지배 아래 들어오지 않겠나?<end>"
 
 ["1840061"]
 japanese = "な、何をバカなことを…っ！<end>"
@@ -127,6 +139,10 @@ korean = "그럼, 일단 작별이다.<end>"
 ["1840091"]
 japanese = "イークレムン！！<end>"
 korean = "이클레문!!<end>"
+
+["1840094"]
+japanese = "もう、面倒だなあ。<line-break>これで、黙っててよ。<end>"
+korean = "정말 귀찮네. 이걸로 조용히 해 줘.<end>"
 
 ["1840095"]
 japanese = "さて、じゃ、行こうかな。<line-break>バイバ～イ。<end>"

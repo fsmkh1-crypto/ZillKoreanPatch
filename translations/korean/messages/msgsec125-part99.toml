@@ -28,6 +28,10 @@ korean = "<value:$28>님. 공주님의 안전은 저희에게 맡겨 주세요. 
 japanese = "王女様は、私たちが守る！<line-break>ゼネテスを助けてあげてよ、<line-break><value:$28>！<end>"
 korean = "공주님은 우리가 지킬게! 제네테스를 도와줘, <value:$28>!<end>"
 
+["1250059"]
+japanese = "モタモタしている暇はない。<line-break>ゼネテスの命運はつきようとしている。<line-break>謁見の間へ行くぞ、<value:$28>。<end>"
+korean = "꾸물거릴 시간이 없다. 제네테스의 운명은 끝나 가고 있다. 알현실로 간다, <value:$28>.<end>"
+
 ["1250060"]
 japanese = "くっ！　まさかまたクーデターが…！<line-break>ゼネテスは王宮の謁見の間だ。<line-break><value:$28>、急ぐぞ！<end>"
 korean = "큭! 설마 또 쿠데타가…! 제네테스는 왕궁의 알현실에 있다. <value:$28>, 서두르자!<end>"

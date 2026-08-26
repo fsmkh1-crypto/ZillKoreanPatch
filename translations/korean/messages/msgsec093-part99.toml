@@ -8,6 +8,10 @@ korean = "델가드 V4 시작<end>"
 japanese = "<value:$28>のウソツキー！<line-break>　<end>"
 korean = "<value:$28> 거짓말쟁이~!<end>"
 
+["930012"]
+japanese = "こうしちゃあ、おれん。<line-break>ゆくぞ、<value:$28>！<end>"
+korean = "이러고 있을 때가 아니다. 간다, <value:$28>!<end>"
+
 ["930015"]
 japanese = "<value:$28>、<line-break>カッツたちの小屋へ<line-break>寄っていいかの？<end>"
 korean = "<value:$28>, 캇츠네 오두막에 들러도 되겠나?<end>"
@@ -23,6 +27,10 @@ korean = "좋아, 불꽃의 샘이 염룡의 불꽃으로 가득 찼다.<end>"
 ["930023"]
 japanese = "さっそく準備じゃ。<line-break><value:$28>、そこにある<line-break>光る炎竜岩を持ってきてくれ。<end>"
 korean = "당장 준비하자. <value:$28>, 거기 있는 빛나는 염룡암을 가져와 줘.<end>"
+
+["930025"]
+japanese = "<value:$28>、<line-break>早く炎竜岩を持ってくるんじゃ。<end>"
+korean = "<value:$28>, 빨리 염룡암을 가져오너라.<end>"
 
 ["930026"]
 japanese = "よし、始めるかの。<end>"

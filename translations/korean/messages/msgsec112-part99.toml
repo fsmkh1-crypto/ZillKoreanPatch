@@ -60,6 +60,10 @@ korean = "아직 몸에 힘이 잘 들어가진 않지만… 괜찮습니다. <v
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
 
+["1120090"]
+japanese = "転移じゃと？<line-break>エステル、何を考えておる？<end>"
+korean = "전이라고? 에스텔, 무슨 생각이냐?<end>"
+
 ["1120098"]
 japanese = "わかった。<line-break>任せておけ。<end>"
 korean = "알았다. 맡겨 둬.<end>"
@@ -171,6 +175,10 @@ korean = "예비 메시지 8 에스텔 V5<end>"
 ["1120180"]
 japanese = "予備メッセージ９<line-break>エステルのＶ５だよ。<end>"
 korean = "예비 메시지 9 에스텔 V5<end>"
+
+["1120181"]
+japanese = "予備メッセージ１０<line-break>エステルのＶ５だよ。<end>"
+korean = "예비 메시지 10 에스텔 V5야.<end>"
 
 ["1120182"]
 japanese = "エステルメッセージVOL5終端<end>"

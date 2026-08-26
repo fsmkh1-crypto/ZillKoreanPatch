@@ -908,6 +908,10 @@ korean = "잠깐, <value:$28>! 방금 뭔가….<end>"
 japanese = "それは、あたし…か。<end>"
 korean = "그건 나…인가.<end>"
 
+["560613"]
+japanese = "ふふ、笑ってるよ…。<line-break>バカだよね、あんたって。<line-break>ふふふふ。<line-break>でも、よかった。<line-break>ふふふふ…。<end>"
+korean = "후후, 웃고 있네…. 바보 같아, 너. 후후후. 그래도 다행이야. 후후후후….<end>"
+
 ["560614"]
 japanese = "私、笑ってる…。<end>"
 korean = "나, 웃고 있어….<end>"
@@ -983,6 +987,10 @@ korean = "<value:$28> 님!<end>"
 ["560649"]
 japanese = "ティアナ様はもう…<line-break>陛下…<end>"
 korean = "티아나 님은 이미… 폐하…<end>"
+
+["560650"]
+japanese = "<value:$28>様…。<line-break> <line-break> <line-break><value:$28>様が<line-break>いてくださらなければ、<line-break>私も陛下のように…<end>"
+korean = "<value:$28>님…. <value:$28>님이 계시지 않았다면 저도 폐하처럼….<end>"
 
 ["560654"]
 japanese = "私…やってみます。<end>"
@@ -1123,6 +1131,10 @@ korean = "아, 기다려. 너무 깊이 쫓아가면….<end>"
 ["560799"]
 japanese = "<value:$28>！<line-break>どうして追っていったのです！<line-break>待ち伏せにでもあったら、いったい…！<end>"
 korean = "<value:$28>! 왜 쫓아간 겁니까! 매복이라도 당하면 어쩌려고요…!<end>"
+
+["560806"]
+japanese = "<value:$28>様。　　<line-break>どうぞ、お入りください。<end>"
+korean = "<value:$28>님. 들어오십시오.<end>"
 
 ["560813"]
 japanese = "例の件ですが…。<end>"

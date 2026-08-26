@@ -344,6 +344,10 @@ korean = "화, 확실히 우리로서는… 하지만…<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1330298"]
+japanese = "ロセンの青竜軍へ<line-break>伝令を走らせろ。<line-break> <line-break>エンシャントは陥落、<line-break>撤退を開始するとな。<end>"
+korean = "로센의 청룡군에 전령을 보내라. 엔샨트는 함락됐다. 철수를 시작한다고 전해.<end>"
+
 ["1330299"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -568,6 +572,10 @@ korean = "…그런데… 넌 왜 그렇게 다쳐… 있는 거지? 누가… �
 japanese = "俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"
 korean = "나…인가…? 계속 내가 널… 상처 입히고, 지금도… <value:$28>을…?<end>"
 
+["1330496"]
+japanese = "…すま…ん。<line-break>俺の…大事な<value:$28>…。<line-break>俺は、お前を守りたか…ったのに…。<line-break>すま…ん…。<end>"
+korean = "…미안…하다. 내… 소중한 <value:$28>…. 나는 너를 지키고 싶었…는데…. 미안…하다….<end>"
+
 ["1330499"]
 japanese = "これで<value:$28>も、<line-break>もう、私を否定できなくなる…。<line-break>フフ…ウフフ…。<end>"
 korean = "이제 <value:$28>도 더는 나를 부정할 수 없게 돼…. 후후… 우후후….<end>"
@@ -607,6 +615,10 @@ korean = "…그런데… 넌 왜 그렇게 다쳐… 있는 거지? 누가… �
 ["1330525"]
 japanese = "俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"
 korean = "나…인가…? 계속 내가 널… 상처 입히고, 지금도… <value:$28>을…?<end>"
+
+["1330526"]
+japanese = "…すま…ん。<line-break>俺の…大事な<value:$28>…。<line-break>俺は、お前を守りたか…ったのに…。<line-break>すま…ん…。<end>"
+korean = "…미안…하다. 내… 소중한 <value:$28>…. 나는 너를 지키고 싶었…는데…. 미안…하다….<end>"
 
 ["1330530"]
 japanese = "いらっしゃい…かわいい人形たち。<end>"
@@ -660,6 +672,10 @@ korean = "…그런데… 넌 왜 그렇게 다쳐… 있는 거지? 누가… �
 japanese = "俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"
 korean = "나…인가…? 계속 내가 널… 상처 입히고, 지금도… <value:$28>을…?<end>"
 
+["1330560"]
+japanese = "…すま…ん。<line-break>俺の…大事な<value:$28>…。<line-break>俺は、お前を守りたか…ったのに…。<line-break>すま…ん…。<end>"
+korean = "…미안…하다. 내… 소중한 <value:$28>…. 나는 너를 지키고 싶었…는데…. 미안…하다….<end>"
+
 ["1330562"]
 japanese = "………………？<line-break>…俺は…死んだ…はず…<end>"
 korean = "………………? …나는… 죽었을… 텐데….<end>"
@@ -711,6 +727,10 @@ korean = "…그런데… 넌 왜 그렇게 다쳐… 있는 거지? 누가… �
 ["1330587"]
 japanese = "俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"
 korean = "나…인가…? 계속 내가 널… 상처 입히고, 지금도… <value:$28>을…?<end>"
+
+["1330588"]
+japanese = "…すま…ん。<line-break>俺の…大事な<value:$28>…。<line-break>俺は、お前を守りたか…ったのに…。<line-break>すま…ん…。<end>"
+korean = "…미안…하다. 내… 소중한 <value:$28>…. 나는 너를 지키고 싶었…는데…. 미안…하다….<end>"
 
 ["1330590"]
 japanese = "こ、こんなことって…。<end>"

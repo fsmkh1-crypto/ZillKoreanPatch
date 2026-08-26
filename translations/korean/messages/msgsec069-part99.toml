@@ -244,6 +244,10 @@ korean = "취미일지도<end>"
 japanese = "別に…<end>"
 korean = "별로…<end>"
 
+["690220"]
+japanese = "あー、ボクのことからかってたんだ！ <line-break>ひどいよ、<value:$28>。<line-break>ボク…本気で嫌われたと思ったんだよ！<end>"
+korean = "아, 나 놀린 거였구나! 너무해, <value:$28>. 나… 진짜 미움받은 줄 알았어!<end>"
+
 ["690221"]
 japanese = "…ボク、やっぱり役立たずなのかな。<end>"
 korean = "…나, 역시 쓸모없는 걸까.<end>"

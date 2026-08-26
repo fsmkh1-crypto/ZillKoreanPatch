@@ -44,6 +44,10 @@ korean = "아저씨! 일어나 봐….<end>"
 japanese = "いかん！<line-break>あやつひとりでは分が悪い。<line-break><value:$28>よ、行くぞ！<end>"
 korean = "안 돼! 저 녀석 혼자서는 불리하다. <value:$28>여, 가자!<end>"
 
+["2270019"]
+japanese = "むっ、むむっ…。確かに。<line-break>では仕方あるまい。<line-break>助太刀を認めてやる。<line-break>ただし、足は引っ張るなよ。<end>"
+korean = "흠, 음…. 확실히 그렇군. 어쩔 수 없지. 조력을 허락하마. 다만 방해는 하지 마라.<end>"
+
 ["2270020"]
 japanese = "おじさん、大丈夫！？<end>"
 korean = "아저씨, 괜찮아!?<end>"

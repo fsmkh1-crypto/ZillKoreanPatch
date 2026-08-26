@@ -472,6 +472,10 @@ korean = "그럼, <value:$28>. 슬슬 갈까요.<end>"
 japanese = "こんな状態で！？<line-break>危険よ！<end>"
 korean = "이런 상태로!? 위험해!<end>"
 
+["890368"]
+japanese = "なかなか、<value:$28>も<line-break>隅に置けませんねえ。<end>"
+korean = "<value:$28>도 제법이군요.<end>"
+
 ["890369"]
 japanese = "おっと、失礼しました。<end>"
 korean = "앗, 실례했습니다.<end>"
@@ -943,6 +947,10 @@ korean = "네, 네놈은 <value:$28>! 제국을 배신하고도! 경비대! 이�
 ["890629"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28>！<line-break>警備隊を呼べっ！　早く！<end>"
 korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
+
+["890630"]
+japanese = "これは<value:$28>様。<line-break>どうぞお通りください。<end>"
+korean = "<value:$28>님이시군요. 들어가십시오.<end>"
 
 ["890632"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"

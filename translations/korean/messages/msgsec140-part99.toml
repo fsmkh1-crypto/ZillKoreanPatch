@@ -336,6 +336,10 @@ korean = "아트레이아를 에스코트하지 않는다<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1400163"]
+japanese = "<value:$28>様、足が速すぎます。<line-break>私は、目をつぶらないと、光に<line-break>なれていないので、そんなに早く…。<end>"
+korean = "<value:$28>님, 너무 빠르십니다. 저는 빛에 익숙하지 않아 눈을 감아야 해서 그렇게 빨리는….<end>"
+
 ["1400164"]
 japanese = "アトレイア…様…？<end>"
 korean = "아트레이아… 님…?<end>"

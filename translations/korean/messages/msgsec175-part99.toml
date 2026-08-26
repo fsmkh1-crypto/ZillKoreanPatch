@@ -4,6 +4,10 @@
 japanese = "ロッシマ（２）メッセージＶ１開始<end>"
 korean = "롯시마(2) 메시지 V1 시작<end>"
 
+["1750002"]
+japanese = "はい、はい。<line-break>あとで持っていきますから。<end>"
+korean = "네, 네. 나중에 가져다드릴게요.<end>"
+
 ["1750005"]
 japanese = "<value:$28>ゆーんか。<line-break>わしはロッシマじゃ。<line-break>よろしくのう。<end>"
 korean = "<value:$28>라고 하는가. 나는 로시마다. 잘 부탁하네.<end>"
@@ -96,6 +100,10 @@ korean = "끼워 넣지 않는다<end>"
 japanese = "はめ込む<end>"
 korean = "끼워 넣는다<end>"
 
+["1750070"]
+japanese = "ほんじゃあ、<line-break>ロストールに帰ろうかのう。<end>"
+korean = "그럼 로스토올로 돌아갈까나.<end>"
+
 ["1750074"]
 japanese = "予備メッセージ１<line-break>ロッシマ（２）のＶ１<end>"
 korean = "예비 메시지 1 로시마(2) V1.<end>"
@@ -131,6 +139,10 @@ korean = "예비 메시지 8 로시마(2) V1.<end>"
 ["1750082"]
 japanese = "予備メッセージ９<line-break>ロッシマ（２）のＶ１<end>"
 korean = "예비 메시지 9 로시마(2) V1.<end>"
+
+["1750083"]
+japanese = "予備メッセージ１０<line-break>ロッシマ（２）のＶ１<end>"
+korean = "예비 메시지 10 롯시마(2) V1<end>"
 
 ["1750084"]
 japanese = "ロッシマ（２）メッセージＶ１終端<end>"

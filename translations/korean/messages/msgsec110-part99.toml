@@ -88,6 +88,14 @@ korean = "…고마워.<end>"
 japanese = "どうしてって？<end>"
 korean = "왜냐고?<end>"
 
+["1100082"]
+japanese = "…私にとって闇の怪物は、<line-break>仇…だからよ。<end>"
+korean = "…나에게 어둠의 괴물은 원수…니까.<end>"
+
+["1100084"]
+japanese = "冗談よ。<line-break>私もたまには冗談くらい言うわ。<end>"
+korean = "농담이야. 나도 가끔은 농담 정도는 해.<end>"
+
 ["1100086"]
 japanese = "その怪物？<end>"
 korean = "그 괴물?<end>"
@@ -107,6 +115,10 @@ korean = "대체 언제까지….<end>"
 ["1100092"]
 japanese = "あなたは…<line-break><value:$28>…。<line-break>見ていたの？<end>"
 korean = "당신은… <value:$28>…. 보고 있었어?<end>"
+
+["1100093"]
+japanese = "よく逃げなかったわね。<line-break>恐ろしくないの？<end>"
+korean = "잘도 도망치지 않았네. 무섭지 않아?<end>"
 
 ["1100094"]
 japanese = "恐ろしくない<end>"
@@ -183,6 +195,10 @@ korean = "예비 메시지 8 자기브, 볼륨 1<end>"
 ["1100137"]
 japanese = "予備メッセージ９<line-break>ザギヴ、ボリューム１<end>"
 korean = "예비 메시지 9 자기브, 볼륨 1<end>"
+
+["1100138"]
+japanese = "予備メッセージ１０<line-break>ザギヴ、ボリューム１<end>"
+korean = "예비 메시지 10 자기브, 볼륨 1<end>"
 
 ["1100139"]
 japanese = "ザギヴメッセージＶｏｌ．１終端<end>"

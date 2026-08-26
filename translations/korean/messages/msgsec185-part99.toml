@@ -20,6 +20,10 @@ korean = "어, <value:$28>잖아. 딱 잘 왔다. 너 후고랑 아는 사이야
 japanese = "ラッキー！<line-break>さすがは<value:$28>。<line-break>頼りになるじゃん。<end>"
 korean = "럭키! 역시 <value:$28>. 믿음직하잖아.<end>"
 
+["1850030"]
+japanese = "そうこなくっちゃね。<line-break>じゃ、よろしくー。<end>"
+korean = "그래야지. 그럼 잘 부탁해.<end>"
+
 ["1850032"]
 japanese = "おっかえりー。<line-break>で、どうだった？<end>"
 korean = "어서 와ー. 그래서, 어땠어?<end>"
@@ -123,6 +127,10 @@ korean = "예비 메시지 8 크류세이스 V4<end>"
 ["1850083"]
 japanese = "予備メッセージその９<line-break>クリュセイスＶ４<end>"
 korean = "예비 메시지 9 크류세이스 V4<end>"
+
+["1850084"]
+japanese = "予備メッセージその１０<line-break>クリュセイスＶ４<end>"
+korean = "예비 메시지 10 크류세이스 V4<end>"
 
 ["1850085"]
 japanese = "クリュセイスメッセージ終端<end>"

@@ -224,6 +224,10 @@ korean = "그럼 가자. 모든 걸 끝내러.<end>"
 japanese = "…あっ。<line-break><value:$28>。<end>"
 korean = "…앗. <value:$28>.<end>"
 
+["1360180"]
+japanese = "私…<line-break>弱い者を守るために戦ってきた。<line-break>大事なものを守るために剣を振るってた。<line-break>…そう信じてた。<end>"
+korean = "나… 약한 사람을 지키려고 싸워 왔어. 소중한 걸 지키려고 검을 휘둘렀어. …그렇게 믿었어.<end>"
+
 ["1360181"]
 japanese = "このリベルダムの破壊だって…。<end>"
 korean = "이 리벨덤의 파괴도….<end>"
@@ -979,6 +983,10 @@ korean = "바롤 님의 성, 폐성의 왕좌로 향하셨다.<end>"
 ["1360763"]
 japanese = "お前たちの作った神…<line-break>出してもらおうか。<end>"
 korean = "너희가 만든 신… 내놓아 봐.<end>"
+
+["1360766"]
+japanese = "うふふ…。<line-break>神を斬ろうだなんて？<line-break>本当に破壊の化身なのね？<line-break>だけど、<line-break>そうは…いかない！<end>"
+korean = "후후…. 신을 베겠다고? 정말 파괴의 화신이네. 하지만 그렇게는… 안 돼!<end>"
 
 ["1360769"]
 japanese = "ティアナの死によってできた<line-break>強力な力場を通って現れたか。<line-break>ゆくぞ、<value:$28>！<end>"

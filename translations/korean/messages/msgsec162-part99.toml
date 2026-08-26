@@ -60,6 +60,10 @@ korean = "부탁한다, <value:$28>.<end>"
 japanese = "しかも、お主が攻めてくるとはな、<line-break><value:$28>。<line-break>運命神は、つくづくわしを飽きさせん。<end>"
 korean = "게다가 네가 쳐들어오다니, <value:$28>. 운명의 신은 정말 날 지루하게 두지 않는군.<end>"
 
+["1620065"]
+japanese = "…とっつぁん、<line-break>悪いが、命をもらう。　　<line-break>　<line-break>ロストールの兵の<line-break>命がかかっているんでな！<end>"
+korean = "…아저씨, 미안하지만 목숨을 받겠다. 로스토올 병사들의 목숨이 걸려 있어서 말이야!<end>"
+
 ["1620067"]
 japanese = "<value:$28>、<line-break>他は任せた！！<end>"
 korean = "<value:$28>, 나머지는 맡긴다!!<end>"

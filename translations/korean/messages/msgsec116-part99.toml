@@ -8,6 +8,10 @@ korean = "플레어 메시지 시작<end>"
 japanese = "誰だ？<end>"
 korean = "누구야?<end>"
 
+["1160002"]
+japanese = "冒険者…か。<line-break>何をお探しかな、人の家で？<end>"
+korean = "모험자…인가. 남의 집에서 뭘 찾고 있지?<end>"
+
 ["1160010"]
 japanese = "ハハハハ、バカな！　　　　　　　　<line-break>　<line-break>　<line-break>いや失礼、冒険者の想像力には<line-break>驚かされるばかりだよ。<end>"
 korean = "하하하하, 말도 안 돼! 아, 실례. 모험자의 상상력에는 늘 놀라게 되는군.<end>"
@@ -36,9 +40,17 @@ korean = "대체 뭘 하고 있는 건가, 자네는!?<end>"
 japanese = "はい、長老。<end>"
 korean = "네, 장로님.<end>"
 
+["1160053"]
+japanese = "私に対して、<line-break>気を使う必要はありません。<end>"
+korean = "저에게 신경 쓰실 필요는 없습니다.<end>"
+
 ["1160060"]
 japanese = "（これは……日記か？）<end>"
 korean = "(이건…… 일기인가?)<end>"
+
+["1160068"]
+japanese = "私に対して、<line-break>気を使う必要はありません。<end>"
+korean = "저에게 신경 쓰실 필요는 없습니다.<end>"
 
 ["1160071"]
 japanese = "…そうですか。<end>"

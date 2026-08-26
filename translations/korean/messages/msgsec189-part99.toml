@@ -132,6 +132,10 @@ korean = "시내 상황은 어떻게 되어 있지.<end>"
 japanese = "<value:$28>か！<end>"
 korean = "<value:$28>인가!<end>"
 
+["1890121"]
+japanese = "傷付いたら戻るがいい。<line-break>回復してやろう。<end>"
+korean = "다치면 돌아오거라. 회복시켜 주지.<end>"
+
 ["1890124"]
 japanese = "（もう、あと戻りはできない！）<end>"
 korean = "(이제 돌아갈 수 없어!)<end>"

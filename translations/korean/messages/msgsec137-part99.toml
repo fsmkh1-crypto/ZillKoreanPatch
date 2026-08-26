@@ -992,6 +992,10 @@ korean = "저기…, 나…"
 japanese = "……いえ、なんでもないです。<line-break>それじゃ、中にはいりましょうか。<line-break><value:$28>。<end>"
 korean = "……아니, 아무것도 아니에요. 그럼 안으로 들어갈까요, <value:$28>.<end>"
 
+["1370693"]
+japanese = "ここは私が働いている酒場です。<line-break>スラムの酒場で事を済ませないと、<line-break>戻れません。<line-break>行きましょう。<end>"
+korean = "여기는 제가 일하는 술집입니다. 슬럼가의 술집에서 일을 마치지 않으면 돌아갈 수 없습니다. 갑시다.<end>"
+
 ["1370700"]
 japanese = "ははは！<end>"
 korean = "하하하!<end>"
@@ -1119,6 +1123,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1370749"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1370750"]
+japanese = "こう言うと難しそうだが、<line-break>要はウォーロックを宿しさえすりゃ、<line-break><line-break>ロースペルが使えるってこった。<end>"
+korean = "어렵게 들리지만, 요컨대 워록을 깃들게 하면 로 스펠을 쓸 수 있다는 거야.<end>"
 
 ["1370751"]
 japanese = "オッシ終端<end>"

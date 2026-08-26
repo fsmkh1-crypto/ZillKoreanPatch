@@ -172,6 +172,10 @@ korean = "미사용: 우후… 후후… 후….<end>"
 japanese = "あーもう、また来たの？<line-break>意外と<value:$28>って<line-break>せっかちなんだね。<end>"
 korean = "아, 또 왔어? 의외로 <value:$28>도 성급하네.<end>"
 
+["760093"]
+japanese = "やあ、<value:$28>。<line-break>またあえると思ってたよ。<end>"
+korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
+
 ["760100"]
 japanese = "じゃ、頼むからね、ホントに。<end>"
 korean = "그럼 부탁할게, 정말로.<end>"
