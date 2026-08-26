@@ -18,6 +18,7 @@ class AutoSafeTests(unittest.TestCase):
         self.assertEqual(mod.safe_pattern("8月26日<end>"), "8월 26일<end>")
         self.assertEqual(mod.safe_pattern("第12章<end>"), "제12장<end>")
         self.assertIsNone(mod.safe_pattern("王都8月<end>"))
+        self.assertIsNone(mod.safe_pattern("<未使用><end>"))
 
     def test_tm_only_propagates_unambiguous_sources(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -29,7 +30,10 @@ class AutoSafeTests(unittest.TestCase):
                 'korean = "같음<end>"\n\n'
                 '["10001"]\n'
                 'japanese = "曖昧<end>"\n'
-                'korean = "첫째<end>"\n',
+                'korean = "첫째<end>"\n\n'
+                '["10002"]\n'
+                'japanese = "<未使用><end>"\n'
+                'korean = "<미사용><end>"\n',
                 encoding="utf-8",
             )
             (root / "msgsec002.toml").write_text(
@@ -50,6 +54,7 @@ class AutoSafeTests(unittest.TestCase):
                 mod.KOREAN = old
             self.assertEqual(tm["同じ<end>"], "같음<end>")
             self.assertNotIn("曖昧<end>", tm)
+            self.assertNotIn("<未使用><end>", tm)
 
 
 if __name__ == "__main__":
