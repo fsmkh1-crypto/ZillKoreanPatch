@@ -188,9 +188,17 @@ korean = "미안하다. 시간이 좀 걸렸다.<end>"
 japanese = "じゃあね。<line-break>またあとで会おうね、<line-break><value:$28>。<end>"
 korean = "그럼 안녕. 나중에 또 만나자, <value:$28>.<end>"
 
+["1890148"]
+japanese = "<value:$28>、もはや時間はない。<line-break>今、このエンシャントに<line-break>強い闇の気配が集結している。<line-break>それを絶たねばなるまい。<end>"
+korean = "<value:$28>, 이제 시간이 없다. 지금 이 엔샨트에 강한 어둠의 기운이 모이고 있다. 그것을 끊어야 한다.<end>"
+
 ["1890149"]
 japanese = "では、行こう。<line-break>すべてを終わらせに。<end>"
 korean = "그럼 가자. 모든 걸 끝내러.<end>"
+
+["1890151"]
+japanese = "どうやらこいつを甦らせた奴が、<line-break>この先にいるようだ。<line-break>　<line-break>まずはこいつを片付ける。<line-break>ゆくぞ、<value:$28>。<end>"
+korean = "아무래도 이 녀석을 되살린 자가 이 앞에 있는 모양이다. 우선 이 녀석부터 처리한다. 가자, <value:$28>.<end>"
 
 ["1890153"]
 japanese = "ゆくぞ、<value:$28>！<end>"

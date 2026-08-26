@@ -56,6 +56,10 @@ korean = "엘파스를 막는다.<end>"
 japanese = "黙って見ている<end>"
 korean = "말없이 지켜본다<end>"
 
+["1410025"]
+japanese = "レイヴンは、<line-break>わたしの大切な仲間です！<line-break>あなたの好きにはさせません！<line-break>あなたが<line-break>どうしてもと言うのなら…！<end>"
+korean = "레이븐은 제 소중한 동료예요! 당신 마음대로 하게 두지 않겠습니다! 그래도 굳이 하겠다면…!<end>"
+
 ["1410026"]
 japanese = "ノエル…。<end>"
 korean = "노엘….<end>"
@@ -756,6 +760,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410431"]
+japanese = "<value:$28>様。<line-break>ようこそ、水の神殿へ。<line-break>　<line-break>お久しぶりです。<line-break>何かあれから<line-break>お変わりはありませんでしたか？<end>"
+korean = "<value:$28>님. 물의 신전에 오신 것을 환영합니다. 오랜만입니다. 그동안 별일 없으셨나요?<end>"
+
 ["1410433"]
 japanese = "色々なことが変わり、<line-break>大勢の人たちの<line-break>生き方が変わるというのも、<line-break>仕方のないことなんでしょう。<end>"
 korean = "여러 가지가 변하고 많은 사람들의 삶이 달라지는 것도 어쩔 수 없는 일이겠죠.<end>"
@@ -1071,6 +1079,10 @@ korean = "이건… 또 묘한 질감의 돌이네. 작은데도 꽤 무겁고�
 ["1410563"]
 japanese = "…すごい。<line-break>これは、すごい大発見かもしれないよ、<line-break><value:$28>！<end>"
 korean = "…대단해. 이건 엄청난 발견일지도 몰라, <value:$28>!<end>"
+
+["1410568"]
+japanese = "この辺りには、超古代…<line-break>今の文明が生まれるより<line-break>はるか昔に、<line-break>華やかな謎の王朝があったという<line-break>伝説がある。<end>"
+korean = "이 근처에는 초고대… 지금의 문명이 생기기 훨씬 이전에 화려한 수수께끼의 왕조가 있었다는 전설이 있다.<end>"
 
 ["1410572"]
 japanese = "エスト様、<line-break>お約束の日時となりましたので、<line-break>お迎えに参りました。<line-break>そろそろ、ロストールへ…<end>"

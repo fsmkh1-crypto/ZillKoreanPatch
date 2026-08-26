@@ -56,6 +56,10 @@ korean = "운명에 맞서려는 자….<end>"
 japanese = "これを勇者と呼ばずして、<line-break>誰を勇者と呼ぶ？<end>"
 korean = "이걸 용자라 부르지 않으면 누굴 용자라 부르겠나?<end>"
 
+["400026"]
+japanese = "…だが、ムダだ。<line-break>うぬとても運命には逆らえぬ。<end>"
+korean = "…하지만 소용없다. 너 역시 운명에는 거스를 수 없어.<end>"
+
 ["400028"]
 japanese = "ゆくぞ、<value:$28>。<end>"
 korean = "간다, <value:$28>.<end>"
@@ -175,6 +179,10 @@ korean = "당신이 감사하다고 해야지!<end>"
 ["400083"]
 japanese = "こちらこそ。<end>"
 korean = "나야말로.<end>"
+
+["400084"]
+japanese = "そ、それじゃ、また町を出るときに<line-break>合流するわ！<end>"
+korean = "그, 그럼 다시 마을을 나갈 때 합류할게!<end>"
 
 ["400085"]
 japanese = "ここでお別れだな。<line-break>また会おう、<value:$28>。<end>"

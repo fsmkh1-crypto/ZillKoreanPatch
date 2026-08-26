@@ -440,6 +440,10 @@ korean = "너희의 힘을 회복시켰다.<end>"
 japanese = "間に合ったか。<end>"
 korean = "제때 왔나.<end>"
 
+["890314"]
+japanese = "今の我らでは、やつらには勝てない。<line-break> <line-break> <line-break>…ネメア様亡き今、<line-break>人類の革新は叶わぬこと<line-break>なのかもしれん。<end>"
+korean = "지금의 우리로는 녀석들에게 이길 수 없다. …네메아 님이 없는 지금, 인류의 혁신은 이루어질 수 없는 일인지도 모르겠군.<end>"
+
 ["890315"]
 japanese = "…その自信はどこから来るのだ？<line-break> <line-break> <line-break>しかし…<line-break>君のおかげで命が助かったのは事実だ。<end>"
 korean = "…그 자신감은 어디서 나오는 거지? 하지만… 네 덕분에 목숨을 건진 건 사실이다.<end>"
@@ -459,6 +463,10 @@ korean = "후후후. 여기까지 와서 구더기에서 금파리로 승격했�
 ["890329"]
 japanese = "な、なんだと…？<end>"
 korean = "뭐, 뭐라고…?<end>"
+
+["890332"]
+japanese = "…わかっている。<line-break>だが、完全に食い潰されさえ<line-break>しなければ…<line-break>いつか必ず奴の支配に対して<line-break>私は反旗をひるがえす…<end>"
+korean = "…알고 있다. 하지만 완전히 먹혀 버리지만 않는다면… 언젠가 반드시 그자의 지배에 반기를 들겠다….<end>"
 
 ["890334"]
 japanese = "貴様が言うとおりにしよう！<line-break>その代わり…<end>"
@@ -507,6 +515,10 @@ korean = "자기브…!<end>"
 ["890360"]
 japanese = "それじゃ、<value:$28>、<line-break>　<line-break>　<line-break>そろそろ行きましょうか。<end>"
 korean = "그럼, <value:$28>. 슬슬 갈까요.<end>"
+
+["890362"]
+japanese = "いいところです。<line-break>無論、ザギヴさんを<line-break>放って行きはしません。<line-break><value:$28>、<line-break>ザギヴさんの護衛をお願いしますよ。<end>"
+korean = "좋습니다. 물론 자기브 씨를 두고 가진 않겠습니다. <value:$28>, 자기브 씨의 호위를 부탁합니다.<end>"
 
 ["890363"]
 japanese = "こんな状態で！？<line-break>危険よ！<end>"
@@ -620,6 +632,10 @@ korean = "왔나….<end>"
 japanese = "<value:$28>…。<line-break>ぬしの剣は、<line-break>竜すら斬り倒してきた。<line-break>それがこのレーグにも<line-break>通じるかどうか…。<end>"
 korean = "<value:$28>…. 그대의 검은 용조차 베어 쓰러뜨려 왔다. 그 검이 이 레그에게도 통할지….<end>"
 
+["890434"]
+japanese = "<value:$28>…。<line-break> <line-break> <line-break>帝国では竜字将軍と呼ばれるぬしだが…<line-break>さて、一騎当千の武将が、<line-break>現代に出現するものか。<end>"
+korean = "<value:$28>…. 제국에서는 용자장군이라 불리는 그대지만… 과연 일기당천의 무장이 현대에도 나타나는가.<end>"
+
 ["890435"]
 japanese = "（母さん？<line-break>　こんな時間に、どこへ…？）<end>"
 korean = "(엄마?　이 시간에 어디로…?)<end>"
@@ -695,6 +711,14 @@ korean = "나는 경고하러 왔을 뿐이다. 자신의 힘을 과신하지 �
 ["890468"]
 japanese = "さぁ、それはどうかしら？<end>"
 korean = "글쎄, 그건 어떨까?<end>"
+
+["890469"]
+japanese = "ヴァシュタールを目覚めさせることが<line-break>できるのは私だけ。<line-break> <line-break>そして、闇の門を開けられるのは<line-break>ヴァシュタールだけ。<end>"
+korean = "바슈타르를 깨울 수 있는 건 나뿐. 그리고 어둠의 문을 열 수 있는 건 바슈타르뿐이다.<end>"
+
+["890471"]
+japanese = "…ヴァシュタールの柩に<line-break>近づく者がある。<line-break> <line-break>奴の気は千変万化して<line-break>正体をつかませぬ。<line-break>気をつけることだ。<end>"
+korean = "…바슈타르의 관에 다가가는 자가 있다. 녀석의 기운은 천변만화해서 정체를 잡을 수 없어. 조심해라.<end>"
 
 ["890473"]
 japanese = "また…<line-break>目覚めてしまったのか…？<end>"

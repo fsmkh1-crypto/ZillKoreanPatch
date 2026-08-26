@@ -8,6 +8,10 @@ korean = "체라셸 메시지 VOL1 시작<end>"
 japanese = "冒険者登録かい？<line-break>そこに名前を書いてくれ。<end>"
 korean = "모험자 등록인가? 거기에 이름을 써 줘.<end>"
 
+["900002"]
+japanese = "幻術計振れておらず<line-break>犯罪登録当てはまらず。　　　<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"
+korean = "환술계 수치도 없고 범죄 등록에도 해당하지 않음. 축하해. 자네도 모험자로 등록됐어.<end>"
+
 ["900007"]
 japanese = "結構です。<end>"
 korean = "괜찮습니다.<end>"

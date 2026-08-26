@@ -172,6 +172,10 @@ korean = "가자. <value:$28>.<end>"
 japanese = "気味が悪い！　　　　　　　<end>"
 korean = "기분 나빠!<end>"
 
+["450096"]
+japanese = "ごめんね、<value:$28>。<line-break>僕が一緒にいたばかりに…。<end>"
+korean = "미안해, <value:$28>. 내가 같이 있었던 탓에….<end>"
+
 ["450101"]
 japanese = "ううん、別にいいんだ。　　　　<end>"
 korean = "아니, 딱히 괜찮아.<end>"
@@ -372,6 +376,10 @@ korean = "내가 원했던 건 갈드란을 쓰러뜨릴 힘이 아니야. 무�
 japanese = "…どうせ、どうせ、俺なんか…<end>"
 korean = "…어차피, 어차피 나 같은 건….<end>"
 
+["450212"]
+japanese = "世界で一番さ…。<line-break>フヒャヒャヒャヒャ…。　　　<end>"
+korean = "세상에서 제일이지…. 후햐햐햐햐….<end>"
+
 ["450215"]
 japanese = "お客さん。<end>"
 korean = "손님.<end>"
@@ -415,6 +423,10 @@ korean = "정말이네. 독을 발랐던 흔적이 없어.<end>"
 ["450233"]
 japanese = "待ちかねたぞ！<line-break>我が永遠のライバルよ！<end>"
 korean = "기다렸다! 나의 영원한 라이벌이여!<end>"
+
+["450235"]
+japanese = "何言ってるんだよ！<line-break>勝手に待ち伏せしておいて！<end>"
+korean = "무슨 소리야! 멋대로 매복해 놓고서는!<end>"
 
 ["450238"]
 japanese = "俺様は未来の勇者！<line-break>ガルドラン！！<end>"

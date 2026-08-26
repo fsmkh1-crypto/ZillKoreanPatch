@@ -636,6 +636,14 @@ korean = "마법과 정령력<end>"
 japanese = "すべて理解している<end>"
 korean = "모두 이해하고 있다<end>"
 
+["1370422"]
+japanese = "魔法には、種類ごとに<line-break>それぞれ固有のレベルがある。<line-break> <line-break>そしてそのレベルは、<line-break>精霊力と密接な関係を持っている。<end>"
+korean = "마법에는 종류마다 고유한 레벨이 있다. 그리고 그 레벨은 정령력과 밀접한 관계가 있지.<end>"
+
+["1370423"]
+japanese = "例えば、<value:$28>、<line-break>お前が水属性のスライムを<line-break>倒したとしよう。<line-break>すると、お前は水属性の精霊力を<line-break>得られるのだ。<end>"
+korean = "예를 들어 <value:$28>, 네가 물 속성 슬라임을 쓰러뜨렸다고 하자. 그러면 너는 물 속성 정령력을 얻게 된다.<end>"
+
 ["1370427"]
 japanese = "本当にすべて理解しているのだな？<end>"
 korean = "정말 전부 이해하고 있는 거지?<end>"
@@ -663,6 +671,10 @@ korean = "이해했다<end>"
 ["1370434"]
 japanese = "説明してほしい<end>"
 korean = "설명해 줬으면 해<end>"
+
+["1370439"]
+japanese = "<value:$28>…。<line-break> <line-break> <line-break>お前もロイと同じように、<line-break>神器の守護者となるべく<line-break>修行の旅に出る年になったのだな…。<end>"
+korean = "<value:$28>…. 너도 로이처럼 신기의 수호자가 되기 위해 수행 여행을 떠날 나이가 되었구나….<end>"
 
 ["1370441"]
 japanese = "…強くなるのだぞ。<end>"
@@ -803,6 +815,10 @@ korean = "좋은 질문이네.<end>"
 ["1370532"]
 japanese = "ま、まいったであります…。<end>"
 korean = "차, 참패했습니다….<end>"
+
+["1370533"]
+japanese = "俺もロースペルくらいは使えるが、<line-break>魔法は奥が深いぜ。<line-break><line-break>エンシャントにゃ、<line-break>魔道アカデミーがあるくらいだ。<end>"
+korean = "나도 로우 스펠 정도는 쓸 수 있지만 마법은 깊이가 있어. 엔샨트에는 마도 아카데미까지 있으니까.<end>"
 
 ["1370539"]
 japanese = "そうか。<line-break>もう、いいんだな？<end>"
@@ -971,6 +987,10 @@ korean = "약점 없는 성장<end>"
 ["1370625"]
 japanese = "一芸に秀でた成長<end>"
 korean = "한 분야에 뛰어난 성장<end>"
+
+["1370635"]
+japanese = "仲間と協力して、<line-break>最大限に自分の能力をいかす。<line-break>これだな。<line-break>仲間？　ははは、ま、<line-break>そのうちできるだろうよ。<end>"
+korean = "동료와 협력해서 자기 능력을 최대한 살린다. 이거지. 동료? 하하하, 뭐, 그중에 생기겠지.<end>"
 
 ["1370636"]
 japanese = "んじゃ、ま<line-break>これで質問は終わりってことで<line-break>いいかい、<value:$28>？<end>"

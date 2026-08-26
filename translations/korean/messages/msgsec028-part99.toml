@@ -104,6 +104,10 @@ korean = "이것도 가져가. 다치면 써.<end>"
 japanese = "…そうか、昨日の地震でねえ。<line-break>　<end>"
 korean = "…그런가, 어제 지진 때문에.<end>"
 
+["280046"]
+japanese = "本当！？　ありがとう。<line-break>助かるよ、ボンガさん。<end>"
+korean = "정말!? 고마워. 살았어, 봉가 씨.<end>"
+
 ["280047"]
 japanese = "おうよ。<end>"
 korean = "그럼.<end>"
@@ -200,6 +204,10 @@ korean = "크악! 콜록! 윽…!!<end>"
 japanese = "う、うう…。ヴァ…ン…。<end>"
 korean = "으, 으으…. 반…아….<end>"
 
+["280094"]
+japanese = "おや、気がついたかい。<line-break>ひどい目にあったねえ。<end>"
+korean = "어머, 정신이 들었니. 심하게 당했구나.<end>"
+
 ["280095"]
 japanese = "あ、あの…、<line-break>ヴァン…は…？<end>"
 korean = "아, 저기…, 반…은…?<end>"
@@ -235,6 +243,10 @@ korean = "…오늘은 이제 자자.<end>"
 ["280113"]
 japanese = "おはよう。<line-break>ずいぶん早い目覚めだね、<line-break><value:$28>。<line-break>…やっぱり<line-break>眠れなかったんだね…。<end>"
 korean = "좋은 아침. 꽤 일찍 깼네, <value:$28>. …역시 잠을 못 잤구나….<end>"
+
+["280121"]
+japanese = "もしかしたら、<line-break>もう帰って来られないかもね…。<end>"
+korean = "어쩌면 이제 돌아오지 못할지도 모르겠네….<end>"
 
 ["280122"]
 japanese = "そうだね、行こうか。<end>"

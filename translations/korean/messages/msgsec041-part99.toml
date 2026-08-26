@@ -76,6 +76,10 @@ korean = "(미사용)17<end>"
 japanese = "（未使用）１８<end>"
 korean = "(미사용)18<end>"
 
+["410021"]
+japanese = "エストから、手紙を預かった。<line-break>確かに渡したぞ。<end>"
+korean = "에스트에게 편지를 맡았다. 확실히 전해 줬다.<end>"
+
 ["410027"]
 japanese = "俺もまだまだ甘いな…。<end>"
 korean = "나도 아직 멀었군….<end>"
@@ -99,6 +103,10 @@ korean = "말도 안 돼.<end>"
 ["410037"]
 japanese = "…助けに来て…くれたんだね？　　<end>"
 korean = "…구하러… 와 준 거야?<end>"
+
+["410040"]
+japanese = "システィーナの力は…<line-break>闇の神器すらしのぐのか？<end>"
+korean = "시스티나의 힘은… 어둠의 신기조차 능가하는 건가?<end>"
 
 ["410041"]
 japanese = "ノエル、その魔道士を殺せ！　　　<end>"
@@ -264,6 +272,10 @@ korean = "에스트를 지킨다<end>"
 japanese = "<value:$28>…？<line-break>そんな…。<end>"
 korean = "<value:$28>…? 그럴 수가….<end>"
 
+["410114"]
+japanese = "協力、感謝する。<line-break>これで世界の均衡は守られた。<end>"
+korean = "협력에 감사한다. 이걸로 세계의 균형은 지켜졌다.<end>"
+
 ["410115"]
 japanese = "ネメアだ！　　　　　　<end>"
 korean = "네메아다!<end>"
@@ -283,6 +295,10 @@ korean = "하, 하지만….<end>"
 ["410122"]
 japanese = "…ごめんなさい！<line-break><value:$28>さん！<end>"
 korean = "…미안해요! <value:$28> 씨!<end>"
+
+["410124"]
+japanese = "…やっぱり、<value:$28>さんは<line-break>間違ってなかった…。<end>"
+korean = "…역시 <value:$28>님은 틀리지 않았어….<end>"
 
 ["410125"]
 japanese = "待って！<line-break><value:$28>さん！<end>"
@@ -324,6 +340,10 @@ korean = "기다려! <value:$28> 씨!<end>"
 japanese = "に、兄さん…。<end>"
 korean = "혀, 형….<end>"
 
+["410141"]
+japanese = "協力、感謝する。<line-break>これで世界の均衡は守られた。<end>"
+korean = "협력에 감사한다. 이걸로 세계의 균형은 지켜졌다.<end>"
+
 ["410142"]
 japanese = "ネメアだ！　　　　　　<end>"
 korean = "네메아다!<end>"
@@ -335,6 +355,10 @@ korean = "<value:$28>, 신기를… 지켜 줘!<end>"
 ["410146"]
 japanese = "<value:$28>、<line-break>これからも兄さんをよろしくね。<end>"
 korean = "<value:$28>, 앞으로도 오빠를 잘 부탁해.<end>"
+
+["410147"]
+japanese = "<value:$28>っていうんだ…。<line-break>本当に、ありがとうね。<end>"
+korean = "<value:$28>이라고 하는구나…. 정말 고마워.<end>"
 
 ["410148"]
 japanese = "ナーシェス！<end>"

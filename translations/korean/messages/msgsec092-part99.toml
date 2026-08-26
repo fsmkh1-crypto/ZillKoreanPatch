@@ -80,6 +80,10 @@ korean = "그런가… 그럼 됐다….<end>"
 japanese = "ふん！　酒がまずくなった！<end>"
 korean = "흥! 술맛 떨어졌군!<end>"
 
+["920053"]
+japanese = "では、これから<line-break>よろしく頼むぞ、若いの。　　　　　　<line-break>　<line-break>おっと、名前を聞いておらなんだな。<line-break>名はなんという？<end>"
+korean = "그럼 앞으로 잘 부탁하네, 젊은이. 이런, 이름을 안 물어봤군. 이름이 뭔가?<end>"
+
 ["920054"]
 japanese = "<value:$28>か…。<line-break>よろしくな、<value:$28>。<end>"
 korean = "<value:$28>인가… 잘 부탁한다, <value:$28>.<end>"

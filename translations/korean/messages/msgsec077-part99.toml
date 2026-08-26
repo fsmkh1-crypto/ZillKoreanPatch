@@ -100,6 +100,10 @@ korean = "죄송합니다. 몇 시간이나 고민했는데…. 그래도 결심
 japanese = "わぁ。<line-break>きれい…。<end>"
 korean = "와. 예쁘다….<end>"
 
+["770046"]
+japanese = "…っと、<value:$28>？<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>おっと、恨みっこなしだぜ？<line-break>お互い仕事次第で敵味方だ。<end>"
+korean = "…어라, <value:$28>? 아, 서로 원망은 없기다? 일에 따라 적도 아군도 되는 사이니까.<end>"
+
 ["770047"]
 japanese = "よう、久しぶりだな。<end>"
 korean = "여어, 오랜만이군.<end>"
@@ -155,6 +159,10 @@ korean = "무늬가 아니야. '마시고 노래할 수 있는 술집'이라고 
 ["770073"]
 japanese = "あの模様に、そんな意味があるの？<end>"
 korean = "그 무늬에 그런 의미가 있어?<end>"
+
+["770074"]
+japanese = "だから、それは模様じゃなくって　<line-break>文字だよ。<line-break>　<line-break>ほら、こっちには<line-break>お食事もどうぞって<line-break>書いてあるのさ。<end>"
+korean = "그러니까 그건 무늬가 아니라 글자야. 봐, 이쪽에는 식사도 하시라고 쓰여 있잖아.<end>"
 
 ["770075"]
 japanese = "すてき！<line-break>あなた、みんなわかるのね？<end>"

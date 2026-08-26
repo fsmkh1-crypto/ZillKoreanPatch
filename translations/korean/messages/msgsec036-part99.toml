@@ -24,6 +24,10 @@ korean = "이리 와, <value:$28>.<end>"
 japanese = "<value:$28>、<line-break>夜が明けるわ…。<end>"
 korean = "<value:$28>, 날이 밝아 와….<end>"
 
+["360013"]
+japanese = "また、戦いの時代が始まる。<line-break>…もう、たくさん。<end>"
+korean = "또 전쟁의 시대가 시작되는군. …이제 지긋지긋해.<end>"
+
 ["360014"]
 japanese = "…バルザー。<end>"
 korean = "…발저.<end>"
@@ -51,6 +55,10 @@ korean = "…아스티아, 나는 경고하러 왔을 뿐이다.<end>"
 ["360032"]
 japanese = "さぁ、どうかしら？<end>"
 korean = "글쎄, 어떨까?<end>"
+
+["360034"]
+japanese = "（母さんがいない。<line-break>　まさか…、また遺跡へ？）<end>"
+korean = "(엄마가 없어. 설마… 또 유적으로?)<end>"
 
 ["360035"]
 japanese = "…きれいだね。<end>"

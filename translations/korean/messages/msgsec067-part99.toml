@@ -132,6 +132,10 @@ korean = "응. 어떻게 하고 싶어?<end>"
 japanese = "よ、<value:$28>、<line-break>デート？<end>"
 korean = "여어, <value:$28>, 데이트?<end>"
 
+["670057"]
+japanese = "あんた…、<value:$2B>の　<line-break><value:$28>さんだろ？<line-break>　<line-break>あんたみたいな有名人に<line-break>こんなところで会えるとはねぇ。<line-break>　<end>"
+korean = "당신… <value:$2B>의 <value:$28> 씨지? 당신 같은 유명인을 이런 곳에서 만나다니.<end>"
+
 ["670058"]
 japanese = "俺はゼネテス。よろしく。<end>"
 korean = "나는 제네테스. 잘 부탁한다.<end>"

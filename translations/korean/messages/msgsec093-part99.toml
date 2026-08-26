@@ -44,6 +44,10 @@ korean = "좋아, 마지막 마무리다. <value:$28>, 네가 검에 생명을 �
 japanese = "…よし！<line-break>完成じゃ。<end>"
 korean = "…좋아! 완성이다.<end>"
 
+["930030"]
+japanese = "わしの長年の夢はかなった。<line-break>カッツとロッチナの夢も…。<line-break>すべて、お主のおかげじゃ。<line-break>ありがとう、<line-break><value:$28>。<end>"
+korean = "내 오랜 꿈은 이루어졌다. 캇츠와 롯치나의 꿈도…. 모두 자네 덕분이야. 고맙네, <value:$28>.<end>"
+
 ["930040"]
 japanese = "さっそく準備じゃ。<line-break><value:$28>、そこにある<line-break>光る炎竜岩を拾ってくれんか。<end>"
 korean = "당장 준비하자. <value:$28>, 거기 있는 빛나는 염룡암을 주워다 주겠나.<end>"

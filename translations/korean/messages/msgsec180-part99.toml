@@ -132,6 +132,10 @@ korean = "<value:$28>, 나와 함께 출격해 줘.<end>"
 japanese = "ハァイ、ちょうどいいとこに来たわ、<line-break><value:$28>。<line-break>いよいよ、ロストールを攻略するわよ。<end>"
 korean = "하이, 마침 잘 왔어, <value:$28>. 이제 로스토올을 공략할 거야.<end>"
 
+["1800098"]
+japanese = "とは言っても、<line-break>この情報を鵜呑みにすると<line-break>足下すくわれるかもね。<line-break>ゼネテスってのは<line-break>油断ならないから。<end>"
+korean = "그렇다고 해도 이 정보를 그대로 믿으면 발밑을 잡힐지도 몰라. 제네테스라는 자는 방심할 수 없으니까.<end>"
+
 ["1800099"]
 japanese = "あの…、カルラ様。<end>"
 korean = "저기…, 카를라 님.<end>"
@@ -232,6 +236,10 @@ korean = "호출<end>"
 japanese = "よび<end>"
 korean = "호출<end>"
 
+["1800145"]
+japanese = "まさか、ネメア様が　　　<line-break>戻ってこないなんてね。<line-break>　<line-break>死んだとは思えないけど、<line-break>何かあったのは確かね。<end>"
+korean = "설마 네메아 님이 돌아오지 않을 줄이야. 죽었다고는 생각하지 않지만 뭔가 생긴 건 확실해.<end>"
+
 ["1800148"]
 japanese = "ともかく、<value:$28>。<line-break>あんたのおかげで、<line-break>助かったわ。ありがと。　　<end>"
 korean = "아무튼, <value:$28>. 네 덕분에 살았어. 고마워.<end>"
@@ -239,6 +247,10 @@ korean = "아무튼, <value:$28>. 네 덕분에 살았어. 고마워.<end>"
 ["1800150"]
 japanese = "待って、<value:$28>。<end>"
 korean = "기다려, <value:$28>.<end>"
+
+["1800151"]
+japanese = "私ね…、退却しながら　　　　<line-break>ずっと思ってた。<line-break>　<line-break>生きて帰らせなきゃ。<line-break>みんな死なせちゃダメだって。<end>"
+korean = "나 말이야… 후퇴하면서 계속 생각했어. 살아서 돌아가게 해야 해. 모두 죽게 두면 안 된다고.<end>"
 
 ["1800155"]
 japanese = "<value:$28>、あんたも来て。<end>"

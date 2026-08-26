@@ -16,6 +16,10 @@ korean = "…결심했어<end>"
 japanese = "それが汝の答えか…。<line-break>…賢明な選択とは言えぬぞ。<line-break><value:$28>よ。<end>"
 korean = "그것이 그대의 답인가…. 현명한 선택이라 할 수 없군, <value:$28>.<end>"
 
+["2510005"]
+japanese = "…まあよい。<line-break>１０００年あまりの時も待ったのだ。<line-break>これが最後の機会でもあるまい。<line-break>いましばらく時を待とう…。<end>"
+korean = "…뭐, 좋다. 천 년이 넘는 세월도 기다렸다. 이것이 마지막 기회라는 법도 없지. 조금 더 때를 기다리자….<end>"
+
 ["2510008"]
 japanese = "PSP用新スタートイベント16用終端<end>"
 korean = "PSP용 신규 시작 이벤트 16용 끝<end>"

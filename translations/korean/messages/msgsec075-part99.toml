@@ -124,6 +124,10 @@ korean = "아트레이아, 기운 내. <value:$28>도 마음이 바뀌어 맡아
 japanese = "重複未使用：それでは、王女様。<line-break>０４９：僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
 korean = "중복 미사용: 그럼 공주님. 049: 제가 <value:$28>을 왕궁 밖까지 바래다드리겠습니다.<end>"
 
+["750060"]
+japanese = "…ホント、冷たい人だね、君って。<line-break>正直、ガッカリだよ。<line-break>　<line-break>フフフ、でも、あの娘なら、<line-break>やってくれそうだな…。<end>"
+korean = "…정말 차가운 사람이네, 너. 솔직히 실망했어. 후후후, 그래도 그 아이라면 해낼 것 같군….<end>"
+
 ["750063"]
 japanese = "そうなのですか…。<line-break>…<value:$28>さん、<line-break>どうか、よろしくお願いします。<end>"
 korean = "그렇군요…. …<value:$28> 씨, 부디 잘 부탁드립니다.<end>"
@@ -191,6 +195,10 @@ korean = "아트레이아, 기운 내. <value:$28>도 마음이 바뀌어 맡아
 ["750083"]
 japanese = "それでは、王女様。<line-break>僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
 korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드리겠습니다.<end>"
+
+["750084"]
+japanese = "…ホント、冷たい人だね、君って。<line-break>正直、ガッカリだよ。<line-break>　<line-break>フフフ、でも、あの娘なら、<line-break>やってくれそうだな…。<end>"
+korean = "…정말 차가운 사람이네, 너. 솔직히 실망했어. 후후후, 그래도 그 아이라면 해낼 것 같군….<end>"
 
 ["750087"]
 japanese = "きゃっ。<end>"

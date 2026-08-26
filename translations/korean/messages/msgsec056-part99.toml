@@ -360,6 +360,10 @@ korean = "천공신이여, 감사합니다. 봉이 왔군요.<end>"
 japanese = "…何か困りごとらしいな。　　　<end>"
 korean = "…뭔가 곤란한 일이 있는 모양이군.<end>"
 
+["560185"]
+japanese = "…<value:$28>、ね。<line-break>なんか困りごとがあるようだが？<end>"
+korean = "…<value:$28>, 인가. 뭔가 곤란한 일이 있는 모양이군?<end>"
+
 ["560187"]
 japanese = "売ってもらう<end>"
 korean = "팔아 달라고 한다<end>"
@@ -691,6 +695,10 @@ korean = "왜… 우리를 노리는 걸까….<end>"
 ["560341"]
 japanese = "あたしの美貌には<line-break>逆らえないわ。<end>"
 korean = "내 미모에는 거역할 수 없지.<end>"
+
+["560353"]
+japanese = "<value:$28>、<line-break>こんなところで会うなんて珍しいわね。<end>"
+korean = "<value:$28>, 이런 곳에서 만나다니 드문 일이네.<end>"
 
 ["560356"]
 japanese = "<value:$28><line-break>そっちの調子はどう？<end>"

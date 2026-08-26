@@ -12,6 +12,10 @@ korean = "여어, <value:$28>.<end>"
 japanese = "痛テテテテテテテ！<end>"
 korean = "아야야야야야야!<end>"
 
+["500013"]
+japanese = "これは<value:$28>様。<line-break>今日はどちらへおいでですか？<end>"
+korean = "<value:$28>님이시군요. 오늘은 어디로 가십니까?<end>"
+
 ["500014"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
@@ -75,6 +79,10 @@ korean = "무기를 들고 저항한다<end>"
 ["500029"]
 japanese = "おとなしく従ってくれて助かります。<end>"
 korean = "순순히 따라줘서 다행입니다.<end>"
+
+["500030"]
+japanese = "仲間の子を傷つけたくないもの。<line-break>来て、<value:$28>。<end>"
+korean = "동료 아이를 다치게 하고 싶지 않아. 와, <value:$28>.<end>"
 
 ["500031"]
 japanese = "…ムダですね。<line-break>動けないはずです。<end>"

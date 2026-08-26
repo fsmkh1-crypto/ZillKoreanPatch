@@ -76,6 +76,10 @@ korean = "마을 사람들을 제물로… 사람들의 미래를 빼앗은 그 
 japanese = "ゾフォルは<line-break>謁見の間です。<end>"
 korean = "조폴은 알현실에 있습니다.<end>"
 
+["1250098"]
+japanese = "言いたいことはわかるわ、<line-break><value:$28>。<line-break><line-break>でも、これが戦争。<line-break>戦争だったのよ！<line-break>少なくとも、途中までは…！<end>"
+korean = "무슨 말인지 알아, <value:$28>. 하지만 이게 전쟁이야. 전쟁이었던 거라고! 적어도 중간까지는…!<end>"
+
 ["1250105"]
 japanese = "どうすんの、<value:$28>？<line-break>逃げなきゃやられちゃうよ～？<line-break>宰相サンの革新も台無しよん？<end>"
 korean = "어쩔 거야, <value:$28>? 도망치지 않으면 당한다고~? 재상님의 혁신도 물거품이야?<end>"
@@ -108,6 +112,10 @@ korean = "<value:$28>님, 어서 도시 밖으로! 소울 리프가 옵니다!<e
 japanese = "<value:$28>さん、逃げましょう！<line-break>あなたが死んだら、<line-break>誰がゾフォルを倒すんですか！<end>"
 korean = "<value:$28>님, 도망쳐요! 당신이 죽으면 누가 조폴을 쓰러뜨리겠어요!<end>"
 
+["1250130"]
+japanese = "ネメア様がいないからって、<line-break>反乱を起こすだなんて…。<line-break><line-break>ジラーク将軍はもっと冷静な方だと<line-break>思っていたのに。<end>"
+korean = "네메아 님이 없다고 반란을 일으키다니…. 지라크 장군은 좀 더 냉정한 분이라고 생각했는데.<end>"
+
 ["1250144"]
 japanese = "待てなかったか、ジラーク…。<end>"
 korean = "기다리지 못했나, 질라크….<end>"
@@ -115,6 +123,14 @@ korean = "기다리지 못했나, 질라크….<end>"
 ["1250157"]
 japanese = "このままじゃコーンスに未来はないわ。<line-break>彼らを止められるのは、<line-break>あなただけなのよ、<value:$28>。<end>"
 korean = "이대로면 콘스에 미래는 없어. 그들을 막을 수 있는 건 너뿐이야, <value:$28>.<end>"
+
+["1250164"]
+japanese = "きゃ！　反乱だって！<line-break>勝ち目はあるのかしら！<end>"
+korean = "꺅! 반란이라고! 이길 수 있을까?<end>"
+
+["1250165"]
+japanese = "ナッジ！<line-break>ちくしょう！<line-break>あいつまで反乱に加わるなんて！<line-break>そんなことしたら…<line-break>人間とコーンスは、なおさら…。<end>"
+korean = "나지! 젠장! 그 녀석까지 반란에 가담하다니! 그러면… 인간과 코른스는 더더욱….<end>"
 
 ["1250166"]
 japanese = "あの優しいナッジが、<line-break>あんなことに加わるなんて…。<line-break><line-break>アルノートゥンに行こうっ、<line-break><value:$28>！<end>"
@@ -139,6 +155,10 @@ korean = "두고 가다니… 좀 너무한 거 아냐?<end>"
 ["1250201"]
 japanese = "お留守番しといてね。<end>"
 korean = "집 잘 보고 있어.<end>"
+
+["1250203"]
+japanese = "…早いわね。<line-break>ベルゼーヴァ様が何か仕掛けた？<end>"
+korean = "…빠르네. 벨제바 님이 뭔가 손을 쓴 건가?<end>"
 
 ["1250207"]
 japanese = "コーンスの世界…かぁ。<end>"
@@ -183,6 +203,10 @@ korean = "마도의 탑, 몽환의 호수…. 나는 그곳에 금주를 찾으�
 ["1250251"]
 japanese = "魔導の塔や新月の塔には<line-break>強大無比な魔法が封じられたと<line-break>聞いているが…。湖か。<line-break>すまない。力になれそうもない。<end>"
 korean = "마도의 탑이나 신월의 탑에는 강대한 마법이 봉인돼 있다고 들었지만…. 호수라. 미안해. 도움이 될 것 같진 않아.<end>"
+
+["1250252"]
+japanese = "夢幻の湖に水中遺跡があるが、<line-break>行ってみるか？<end>"
+korean = "몽환의 호수에 수중 유적이 있는데, 가 볼래?<end>"
 
 ["1250257"]
 japanese = "（ベルゼーヴァ…）<line-break><line-break><end>"

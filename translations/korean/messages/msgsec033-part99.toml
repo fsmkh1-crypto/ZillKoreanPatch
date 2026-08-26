@@ -220,6 +220,10 @@ korean = "그렇군. 냉정한 판단이야.<end>"
 japanese = "あぁーっ！<line-break>昼間の変なおじさぁん！<end>"
 korean = "아앗! 낮에 봤던 이상한 아저씨ー!<end>"
 
+["330104"]
+japanese = "変なおじさん言うなー！<line-break>俺様の名はガルドラン。<end>"
+korean = "이상한 아저씨라고 하지 마! 내 이름은 갈드란이다.<end>"
+
 ["330108"]
 japanese = "フリントというのはお前だな？<end>"
 korean = "플린트라는 자가 너냐?<end>"
@@ -412,6 +416,10 @@ korean = "준비됐다<end>"
 japanese = "もう少し…<end>"
 korean = "조금만 더…<end>"
 
+["330205"]
+japanese = "そうか。<line-break>それでは、しっかり用意してきなさい。<end>"
+korean = "그렇군. 그럼 단단히 준비해서 오게.<end>"
+
 ["330206"]
 japanese = "じゃあ、この辺で<line-break>少し休むことにしよう。<end>"
 korean = "그럼 이 근처에서 조금 쉬도록 하자.<end>"
@@ -427,6 +435,10 @@ korean = "…<value:$28>, 아버님은… 돌아가셨어.<end>"
 ["330215"]
 japanese = "あ…。えっと、えっと！<line-break>じゃ、じゃあ、ルルアンタ、<line-break><value:$28>を探してくるね！<end>"
 korean = "아…. 저기, 저기! 그럼 루루안타가 <value:$28>을 찾아올게!<end>"
+
+["330217"]
+japanese = "…そして、私もな。　　　　　　　　　<line-break><line-break><end>"
+korean = "…그리고 나도 말이지.<end>"
 
 ["330218"]
 japanese = "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？<end>"

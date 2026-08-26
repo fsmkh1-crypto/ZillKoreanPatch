@@ -112,6 +112,10 @@ korean = "선장, 고마워.<end>"
 japanese = "船長、ありがとよ。<end>"
 korean = "선장, 고마워.<end>"
 
+["370056"]
+japanese = "…あのときは、<line-break>ほんと、立ち直れないと思った。<end>"
+korean = "…그때는 정말 다시 일어서지 못할 줄 알았어.<end>"
+
 ["370057"]
 japanese = "…ううん。時間だけじゃない。<end>"
 korean = "…아니. 시간만의 문제가 아니야.<end>"
@@ -123,6 +127,10 @@ korean = "<value:$28>이 곁에 있어 준 덕분이야.<end>"
 ["370059"]
 japanese = "…ありがとう。　　　　　<end>"
 korean = "…고마워.<end>"
+
+["370060"]
+japanese = "…フフ、去年のあたしじゃ<line-break>言えない言葉だよね。<end>"
+korean = "…후후, 작년의 나라면 못 했을 말이네.<end>"
 
 ["370061"]
 japanese = "父さんと母さんが、<line-break>エア様の怒りにふれて…　　　<line-break>一族ごとみんな殺されて…。<line-break>私１人だけが生き残って…。<end>"
@@ -267,6 +275,10 @@ korean = "네.<end>"
 ["370128"]
 japanese = "で、どうすんだい。<line-break><value:$28>？<end>"
 korean = "그래서, 어떻게 할 거야, <value:$28>?<end>"
+
+["370132"]
+japanese = "それが筋ってもんだろ？　　　　　<line-break>　　<line-break><end>"
+korean = "그게 도리라는 거잖아?<end>"
 
 ["370133"]
 japanese = "<value:$28>！<line-break>メイアが！　メイアが！<line-break>突然苦しみ出して、<line-break>顔つきが変わって、<line-break>窓から…出てって…！<end>"

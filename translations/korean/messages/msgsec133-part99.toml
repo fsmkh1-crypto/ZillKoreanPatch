@@ -28,6 +28,10 @@ korean = "끝까지 듣거라….<end>"
 japanese = "運命と絶望があるのではなく、　　　<line-break>可能性と希望がある…。<line-break>　<line-break>そう、そなたが教えてくれたからな。<end>"
 korean = "운명과 절망이 있는 게 아니라 가능성과 희망이 있다…. 그래, 그대가 가르쳐 주었으니까.<end>"
 
+["1330027"]
+japanese = "おとなしく僕に連れ去られ、<line-break>空中都市を復活させる。<line-break>　<line-break>それが、君に見えた運命から<line-break>君が選んだ道なんだね？<end>"
+korean = "얌전히 내게 붙잡혀 공중도시를 부활시킨다. 그게 네가 본 운명에서 네가 고른 길이구나?<end>"
+
 ["1330032"]
 japanese = "それは………。<end>"
 korean = "그건……….<end>"
@@ -143,6 +147,10 @@ korean = "여기… 부서져 버리는 걸까요…? 그런… 모처럼….<en
 ["1330122"]
 japanese = "あなたは…？<end>"
 korean = "당신은…?<end>"
+
+["1330123"]
+japanese = "君を助けに来たんだよ。<line-break>君、フレア、だよね？<end>"
+korean = "널 구하러 왔어. 너, 플레어지?<end>"
 
 ["1330124"]
 japanese = "はい。<end>"
@@ -268,6 +276,10 @@ korean = "어떻게 할 생각이야?<end>"
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"
 
+["1330231"]
+japanese = "よくがんばりましたね。<line-break>　<line-break>　<line-break>ウルグが<value:$28>に<line-break>降臨するとは計算外でしたが、<line-break>復活は阻止されました。<end>"
+korean = "잘해 주셨습니다. 울그가 <value:$28>에게 강림한 것은 계산 밖이었지만 부활은 저지됐습니다.<end>"
+
 ["1330233"]
 japanese = "さあ、猫屋敷に戻りますよ。<end>"
 korean = "자, 고양이 저택으로 돌아가죠.<end>"
@@ -303,6 +315,10 @@ korean = "전군, 손수건을 깨물며 후퇴~!<end>"
 ["1330260"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1330261"]
+japanese = "ちょい待ち。<line-break>あんた、撤退に不服そうな顔ね。<end>"
+korean = "잠깐. 너, 후퇴하는 게 불만인 얼굴이네.<end>"
 
 ["1330262"]
 japanese = "いえ、その…。<end>"
@@ -495,6 +511,10 @@ korean = "후후후….<end>"
 ["1330388"]
 japanese = "あなたは私が光を求めたときにすら、<line-break>冷たくあしらった…。<line-break>世界を滅ぼす前にあなたを殺すわ。<line-break>復讐するの。<end>"
 korean = "당신은 내가 빛을 원했을 때조차 차갑게 대했어…. 세계를 멸망시키기 전에 당신부터 죽일 거야. 복수하겠어.<end>"
+
+["1330389"]
+japanese = "あなたさえ、私に光をくれなければ、<line-break>こんな事にはならなかった…。<line-break>世界を滅ぼす前にあなたを殺すわ。<line-break>復讐するの。<end>"
+korean = "당신이 내게 빛을 주지만 않았어도 이런 일은 없었어…. 세계를 멸망시키기 전에 당신을 죽일 거야. 복수할 거야.<end>"
 
 ["1330390"]
 japanese = "な…、何…！？<end>"
@@ -860,6 +880,10 @@ korean = "그럼, 잘 있어.<end>"
 japanese = "ああ、こいつか。こいつはな…。<end>"
 korean = "아아, 이 녀석인가. 이 녀석은 말이지….<end>"
 
+["1330660"]
+japanese = "ギー、オレ、イズキヤル。<line-break>イオンズノ、トモ。<end>"
+korean = "기, 나 이즈키야르. 이온즈 친구.<end>"
+
 ["1330671"]
 japanese = "フフ、そうじゃ。　　<line-break>ま、そういう奴だ。<end>"
 korean = "후후, 그렇다. 뭐, 그런 녀석이지.<end>"
@@ -868,6 +892,10 @@ korean = "후후, 그렇다. 뭐, 그런 녀석이지.<end>"
 japanese = "ギー、コンドハ、オレガ、オニカ？<end>"
 korean = "기, 이번엔 내가 귀신인가?<end>"
 
+["1330674"]
+japanese = "うん、そーだよ、イズキヤル。<line-break>それ、逃げろ！<end>"
+korean = "응, 맞아, 이즈키야르. 자, 도망쳐!<end>"
+
 ["1330675"]
 japanese = "ギー！　ヨシ。マテー！<end>"
 korean = "기이! 좋아. 기다려!<end>"
@@ -875,6 +903,10 @@ korean = "기이! 좋아. 기다려!<end>"
 ["1330676"]
 japanese = "ギー、コンドハ、コイツガ、オニカ？<end>"
 korean = "기-, 이번엔 이 녀석이 귀신인가?<end>"
+
+["1330677"]
+japanese = "うん、そーだよ、イズキヤル。<line-break>それ、逃げろ！<end>"
+korean = "응, 맞아, 이즈키야르. 자, 도망쳐!<end>"
 
 ["1330678"]
 japanese = "ぎー！　よし。まてー！<end>"
@@ -923,6 +955,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1330705"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1330707"]
+japanese = "母も戻っては来ぬ。<line-break>お前がここに来るのも必然というワケか。<line-break> <line-break>よかろう。<line-break>このヴァシュタールを滅ぼしてみよ。<end>"
+korean = "어머니도 돌아오지 않는다. 네가 여기 오는 것도 필연이라는 건가. 좋다. 이 바슈타르를 멸해 보아라.<end>"
 
 ["1330708"]
 japanese = "…無駄だ。<line-break> <line-break> <line-break>いかなる力を持ってしても<line-break>我を滅することはできん。<line-break>我は不滅の存在。<end>"
@@ -995,6 +1031,10 @@ korean = "큭, 방심했군….<end>"
 ["1330753"]
 japanese = "くっ、ぬかったわ…。<end>"
 korean = "큭, 방심했군….<end>"
+
+["1330755"]
+japanese = "もう誰にも止められないよ。<line-break>強大な闇の巨人が世界中を襲ってるのさ。<line-break>でも、これはほんの序の口<line-break>ここからが本番だ。<end>"
+korean = "이제 아무도 못 막아. 강대한 어둠의 거인이 세계 곳곳을 습격하고 있어. 하지만 이건 시작에 불과해. 이제부터가 본론이야.<end>"
 
 ["1330758"]
 japanese = "ありがとう、<value:$28>。<line-break>彼女を闇に突き落とした<line-break>最大の功労者は君だよ。アハハハ！<end>"

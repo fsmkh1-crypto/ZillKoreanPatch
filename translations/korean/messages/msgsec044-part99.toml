@@ -116,6 +116,10 @@ korean = "<value:$28>인가.<end>"
 japanese = "ん…？<line-break>あんたは…。<end>"
 korean = "응…? 너는….<end>"
 
+["440063"]
+japanese = "何だ？　…この匂い…。<line-break>こんな真夜中に、香をたいているのか？<line-break>　<line-break>向こうからか…。<line-break>よし、行くぞ、<value:$28>！<end>"
+korean = "뭐지? …이 냄새…. 이런 한밤중에 향을 피우고 있는 건가? 저쪽에서군…. 좋아, 가자, <value:$28>!<end>"
+
 ["440066"]
 japanese = "う…ぐあぁっ…！<end>"
 korean = "으… 으아악…!<end>"

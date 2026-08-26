@@ -104,6 +104,10 @@ korean = "끝까지 설득한다<end>"
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
 
+["1380064"]
+japanese = "<value:$28>。<line-break>そなたは、わらわの持つ<line-break>予知の力をどう感ずる？<line-break>そなたも、未来を見ることが<line-break>できたらよいと思うか？<end>"
+korean = "<value:$28>. 그대는 내가 가진 예지의 힘을 어떻게 생각하느냐? 그대도 미래를 볼 수 있으면 좋겠다고 생각하느냐?<end>"
+
 ["1380065"]
 japanese = "見たい<end>"
 korean = "보고 싶어<end>"
@@ -584,6 +588,10 @@ korean = "그래! 크리스피….<end>"
 japanese = "わぁぁぁ！<end>"
 korean = "으아아아!<end>"
 
+["1380348"]
+japanese = "そうだ、自己紹介を忘れてた。<line-break>ぼくはレルラ＝ロントン。<line-break><line-break>キレイを探して旅をする<line-break>さすらいの吟遊詩人だよ。<end>"
+korean = "아, 자기소개를 깜빡했네. 나는 렐라=론톤. 아름다움을 찾아 여행하는 방랑 음유시인이야.<end>"
+
 ["1380349"]
 japanese = "それで…なに？<end>"
 korean = "그래서… 뭐?<end>"
@@ -883,6 +891,10 @@ korean = "아, <value:$28> 씨….<end>"
 ["1380499"]
 japanese = "そうだ、<line-break><value:$28>さんが<line-break>いたじゃない。<end>"
 korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
+
+["1380503"]
+japanese = "最近、このロストールでも、<line-break>女の人を狙う<line-break>変質者が出るらしいんです。<line-break><value:$28>さんは、<line-break>冒険者志望でしたよね？<end>"
+korean = "최근 이 로스토올에도 여성을 노리는 변태가 나타난다고 해요. <value:$28>님은 모험자 지망생이셨죠?<end>"
 
 ["1380505"]
 japanese = "よかった！<line-break>じゃ、よろしくお願いします！<end>"

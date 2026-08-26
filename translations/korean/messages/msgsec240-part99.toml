@@ -16,6 +16,10 @@ korean = "흐응, 네 이름이 <value:$28>구나.<end>"
 japanese = "悩む必要なんてないでしょ。<line-break><value:$28>は初心者で、<line-break>あたしは経験者なんだから。<end>"
 korean = "고민할 필요 없잖아. <value:$28>은 초보자고 난 경험자니까.<end>"
 
+["2400009"]
+japanese = "ありがとう。<line-break>あたしはイーシャ。よろしくね。<line-break>　<line-break>そうと決まれば、さっそく仕事の<line-break>依頼を見てみましょ。<end>"
+korean = "고마워. 나는 이샤야. 잘 부탁해. 그렇게 정했으면 바로 일 의뢰를 보러 가자.<end>"
+
 ["2400010"]
 japanese = "今ある依頼はこんなところだな。<end>"
 korean = "지금 있는 의뢰는 이 정도군.<end>"

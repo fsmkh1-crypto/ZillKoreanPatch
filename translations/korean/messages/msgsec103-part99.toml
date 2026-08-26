@@ -92,6 +92,10 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1030082"]
+japanese = "ですが、人手が足りているわけ　　<line-break>ではないのです。<line-break>　<line-break>特に危険な任務を実行できる<line-break>人材は不足しています。<end>"
+korean = "하지만 인력이 충분한 건 아닙니다. 특히 위험한 임무를 수행할 수 있는 인재가 부족합니다.<end>"
+
 ["1030090"]
 japanese = "…何を言っている、<line-break>クリュセイス？<end>"
 korean = "…무슨 말을 하는 거냐, 크류세이스?<end>"

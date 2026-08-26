@@ -28,6 +28,18 @@ korean = "뭐, 됐어. 성공하면 그때 갚는 걸로 하지. 잘 가, <value
 japanese = "…<value:$28>、ね。<line-break>じゃあな！　出世しろよ！<end>"
 korean = "…<value:$28>, 이랬지. 그럼 잘 있어! 출세해라!<end>"
 
+["610017"]
+japanese = "予備メッセージ１<line-break>アンギルダン、ボリューム４<end>"
+korean = "예비 메시지 1 앙길단, 볼륨 4<end>"
+
+["610018"]
+japanese = "予備メッセージ２<line-break>アンギルダン、ボリューム４<end>"
+korean = "예비 메시지 2 앙길단, 볼륨 4<end>"
+
+["610019"]
+japanese = "予備メッセージ３<line-break>アンギルダン、ボリューム４<end>"
+korean = "예비 메시지 3 앙길단, 볼륨 4<end>"
+
 ["610027"]
 japanese = "アンギルダン・ボリューム４終端<end>"
 korean = "앙길단 볼륨4 끝<end>"

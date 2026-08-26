@@ -24,6 +24,10 @@ korean = "맡지 않는다<end>"
 japanese = "埋蔵金は<line-break>ロストールの東に行ったところにある<line-break>洞窟に隠されているようです。<line-break>よろしく、頼みますよ。<end>"
 korean = "매장금은 로스토올 동쪽에 있는 동굴에 숨겨져 있는 모양입니다. 부탁드립니다.<end>"
 
+["1880010"]
+japanese = "解放軍の活動には、どうしても<line-break>資金が必要だ。リベルダムの商人の<line-break>埋蔵金なら期待できる。<line-break>頼んだぞ、<value:$28>。<end>"
+korean = "해방군 활동에는 아무래도 자금이 필요하다. 리벨덤 상인의 매장금이라면 기대할 만해. 부탁한다, <value:$28>.<end>"
+
 ["1880015"]
 japanese = "埋蔵金を発見した。<end>"
 korean = "매장금을 발견했다.<end>"

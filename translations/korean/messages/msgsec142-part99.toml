@@ -116,6 +116,10 @@ korean = "뒤돌아 주세요.<end>"
 japanese = "もう…逃げられません。<line-break>私も貴方も…。<end>"
 korean = "이제… 도망칠 수 없습니다. 저도, 당신도….<end>"
 
+["1420077"]
+japanese = "貴方の指も…貴方のまなざしも…<line-break>貴方のささやきも私のもの。<line-break> <line-break>私の髪も…私の鼓動も…<line-break>私の全てが貴方のもの。<end>"
+korean = "당신의 손가락도… 시선도… 속삭임도 내 것. 내 머리카락도… 심장박동도… 나의 모든 것이 당신 것.<end>"
+
 ["1420078"]
 japanese = "囚われたのは貴方？<line-break>それとも私？<end>"
 korean = "붙잡힌 건 당신? 아니면 나?<end>"
@@ -135,6 +139,10 @@ korean = "호오, 나에게 도전하겠다는 거냐. 재미있군. …보인�
 ["1420088"]
 japanese = "あっ、<value:$28>じゃねえか。<line-break>まさか、<line-break>あんたがこの子供の保護者なのか？<end>"
 korean = "어, <value:$28> 아니야. 설마 네가 이 아이 보호자냐?<end>"
+
+["1420090"]
+japanese = "エア…？　エアってえと…<line-break>ま、まさかあんた、<line-break>あの、エルズのエアか！<line-break>ひっ！<line-break>こ、こいつは失礼しましたっ！<end>"
+korean = "에아…? 에아라면… 서, 설마 당신, 그 엘즈의 에아인가! 힉! 시, 실례했습니다!<end>"
 
 ["1420095"]
 japanese = "…無理が、ないですかね？<end>"
@@ -331,6 +339,10 @@ korean = "…사람 마음의 색은 티 없는 순백이 아니야. 하지만 �
 ["1420198"]
 japanese = "誰かのために生きること、<line-break>誰かを愛するということとは、<line-break>どういうことなのかを、<line-break>君が教えてくれたおかげだ…。<end>"
 korean = "누군가를 위해 살아가는 것, 누군가를 사랑한다는 게 무엇인지 네가 가르쳐 준 덕분이야….<end>"
+
+["1420199"]
+japanese = "君と、もっと親しくなりたかった…。<line-break>だけど、僕はもう旅立たねばならない…。<line-break>最後まで言えなかったことを、<line-break>今、言うよ。<end>"
+korean = "너와 좀 더 친해지고 싶었어…. 하지만 나는 이제 떠나야 해…. 끝까지 말하지 못했던 걸 지금 말할게.<end>"
 
 ["1420200"]
 japanese = "ありがとう…。<line-break><value:$28>…<line-break>そして…僕は、君のことを愛している。<end>"
@@ -1088,9 +1100,17 @@ korean = "…그렇습니까.<end>"
 japanese = "では、先に行ってますね。<end>"
 korean = "그럼 먼저 가 있을게요.<end>"
 
+["1420540"]
+japanese = "母も戻っては来ぬ。<line-break>お前がここに来るのも必然というワケか。<line-break> <line-break>よかろう。<line-break>このヴァシュタールを滅ぼしてみよ。<end>"
+korean = "어머니도 돌아오지 않는다. 네가 여기 오는 것도 필연이라는 건가. 좋다. 이 바슈타르를 멸해 보아라.<end>"
+
 ["1420541"]
 japanese = "…無駄だ。<line-break> <line-break> <line-break>いかなる力を持ってしても<line-break>我を滅することはできん。<line-break>我は不滅の存在。<end>"
 korean = "…소용없다. 어떤 힘으로도 나를 멸할 수 없다. 나는 불멸의 존재다.<end>"
+
+["1420542"]
+japanese = "永遠の終わりを探し求める<line-break>朽ち果てぬ骸。<line-break>お前の憎しみも良い暇つぶしとなる。<line-break>また、会おう。<line-break>アスティアの子よ。<end>"
+korean = "영원의 끝을 찾아 헤매는 썩지 않는 시체. 네 증오도 좋은 심심풀이가 되겠군. 또 만나자, 아스티아의 아이여.<end>"
 
 ["1420543"]
 japanese = "こ、これはウルグ様の力…。<line-break> <line-break> <line-break>お前は一体！<line-break>まあ…よい。<line-break>お前こそ我が求めていた存在。<end>"
