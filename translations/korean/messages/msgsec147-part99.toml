@@ -68,6 +68,10 @@ korean = "이런. 이번엔 현자의 숲인가?<end>"
 japanese = "ワハハ、死んでたまるか。<end>"
 korean = "와하하, 죽을 수야 없지.<end>"
 
+["1470098"]
+japanese = "いや、<value:$28>には<line-break>協力してもらったんじゃ。<line-break>礼を言わねばならぬのはこちらじゃな。<end>"
+korean = "아니, <value:$28>이 도와준 거다. 오히려 내가 감사해야지.<end>"
+
 ["1470103"]
 japanese = "そいつは構わないが…。<end>"
 korean = "그건 상관없지만….<end>"

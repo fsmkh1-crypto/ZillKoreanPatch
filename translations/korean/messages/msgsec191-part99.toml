@@ -108,6 +108,10 @@ korean = "이건….<end>"
 japanese = "もしかして、<value:$28>。<line-break>あなたは封印の巨人をすべて<line-break>倒してしまったのですか？<end>"
 korean = "혹시 <value:$28>. 봉인의 거인을 전부 쓰러뜨린 겁니까?<end>"
 
+["1910086"]
+japanese = "闇の巨人の死によってできた<line-break>強力な闇の力場を通って復活したか。<line-break>ゆくぞ、<value:$28>！<end>"
+korean = "어둠의 거인의 죽음으로 생긴 강력한 어둠의 역장을 통해 부활했나. 간다, <value:$28>!<end>"
+
 ["1910088"]
 japanese = "…さすがです、<value:$28>さん。<line-break>やっぱり、勝ち残って<line-break>しまったんですね。<end>"
 korean = "…역시 대단하세요, <value:$28>님. 결국 끝까지 이기셨군요.<end>"

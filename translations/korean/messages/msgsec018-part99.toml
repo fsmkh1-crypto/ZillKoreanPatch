@@ -24,6 +24,10 @@ korean = "아 정말! 드디어 끝났네. <value:$28>, 얼른 돌아가서 길�
 japanese = "やったね、<value:$28>。<line-break>あとはギルドに報告するだけだね。<line-break>じゃ、帰ろ。<end>"
 korean = "해냈네, <value:$28>. 이제 길드에 보고만 하면 돼. 그럼 돌아가자.<end>"
 
+["180019"]
+japanese = "この程度か…。<line-break>むなしいな。<line-break>　<end>"
+korean = "이 정도인가…. 허무하군.<end>"
+
 ["180020"]
 japanese = "終わったな。<line-break>行くぞ。<line-break>　<end>"
 korean = "끝났군. 가자.<end>"
@@ -99,6 +103,10 @@ korean = "찾았다, <value:$28>. 이걸 길드에 가져가면 되는 거지? �
 ["180062"]
 japanese = "これか…。<line-break>では、戻るか。<line-break>　<end>"
 korean = "이건가…. 그럼 돌아갈까.<end>"
+
+["180063"]
+japanese = "これでいいのだな？<line-break>行くぞ。<line-break>　<end>"
+korean = "이걸로 된 거지? 간다.<end>"
 
 ["180066"]
 japanese = "目標物、確保しました。<line-break>これで町へ帰れますね、<line-break><value:$28>様。<end>"

@@ -8,9 +8,17 @@ korean = "PSP용 신규 시작 이벤트 12용 시작<end>"
 japanese = "<value:$28>じゃないですか。<end>"
 korean = "<value:$28> 아니십니까.<end>"
 
+["2470002"]
+japanese = "どうしました？<line-break>顔色が冴えませんね。<end>"
+korean = "무슨 일이죠? 안색이 좋지 않네요.<end>"
+
 ["2470010"]
 japanese = "<value:$28>じゃないですか。<end>"
 korean = "<value:$28> 아니십니까.<end>"
+
+["2470011"]
+japanese = "どうしました？<line-break>顔色が冴えませんね。<end>"
+korean = "무슨 일이죠? 안색이 좋지 않네요.<end>"
 
 ["2470020"]
 japanese = "別に…。<end>"

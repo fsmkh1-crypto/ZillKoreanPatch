@@ -120,6 +120,10 @@ korean = "<value:$28>, 미안하지만 오늘은 산을 내려가 주겠나? 지
 japanese = "すまん。<end>"
 korean = "미안하군.<end>"
 
+["920115"]
+japanese = "やあ、<value:$28>。<line-break>さすが、ドワーフ王国の酒場だね。<line-break>もんのすごーくお酒がおいしいよ。<end>"
+korean = "여어, <value:$28>. 역시 드워프 왕국 술집이네. 술이 정말 엄청 맛있어.<end>"
+
 ["920125"]
 japanese = "デルガドメッセージVOL1終端<end>"
 korean = "델가드 메시지 VOL1 끝<end>"

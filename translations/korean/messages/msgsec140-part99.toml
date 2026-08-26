@@ -396,6 +396,10 @@ korean = "…제네테스?<end>"
 japanese = "そうですか…。<end>"
 korean = "그렇습니까….<end>"
 
+["1400212"]
+japanese = "あ、ああ、<value:$28>か。<line-break>ティアナから手紙が来てな。<line-break>今から王宮に行くところなのだ。<end>"
+korean = "아, <value:$28>인가. 티아나에게 편지가 와서 지금 왕궁으로 가는 길이다.<end>"
+
 ["1400215"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -527,6 +531,10 @@ korean = "<value:$28> 씨. 와 주셨군요…. 감사합니다.<end>"
 ["1400325"]
 japanese = "お父…さ…<end>"
 korean = "아버… 지…<end>"
+
+["1400328"]
+japanese = "そして今、<value:$28>さんは<line-break>本当に助けに来てくださって…。<line-break>私、本当にうれしいです。<end>"
+korean = "그리고 지금 <value:$28>님이 정말 구하러 와 주셔서…. 정말 기쁩니다.<end>"
 
 ["1400337"]
 japanese = "みんな！<line-break>大丈夫！？<end>"

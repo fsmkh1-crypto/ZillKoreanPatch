@@ -216,6 +216,10 @@ korean = "기다려. 위험해.<end>"
 japanese = "待てと言っている！<end>"
 korean = "기다리라고 했잖아!<end>"
 
+["330124"]
+japanese = "…ルへ。王都へ…。<line-break>…ロストールへ…。<end>"
+korean = "…로. 왕도로…. …로스토올로….<end>"
+
 ["330125"]
 japanese = "バカ野郎！<end>"
 korean = "바보 자식!<end>"
@@ -279,6 +283,10 @@ korean = "…루루안타, …갈게.<end>"
 ["330186"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["330191"]
+japanese = "お父様はお亡くなりに…<line-break>そうですか…。<end>"
+korean = "아버님은 돌아가셨군요… 그렇습니까….<end>"
 
 ["330193"]
 japanese = "予備メッセージ１７<end>"

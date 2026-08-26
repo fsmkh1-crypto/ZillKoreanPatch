@@ -20,6 +20,10 @@ korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
 japanese = "ふっふ、久しいな。<end>"
 korean = "후후, 오랜만이군.<end>"
 
+["1900031"]
+japanese = "ふっふ、そうか。<line-break>ならば最後の予言を残そうか。<line-break>それは…、<line-break>お主らの死じゃ！<end>"
+korean = "후후, 그런가. 그럼 마지막 예언을 남기지. 그것은… 너희들의 죽음이다!<end>"
+
 ["1900036"]
 japanese = "バカな…。<line-break>勝てる戦いだったはず。<end>"
 korean = "말도 안 돼…. 이길 수 있는 싸움이었을 텐데.<end>"
@@ -59,6 +63,10 @@ korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
 ["1900071"]
 japanese = "ふっふっふ、久しいな。<end>"
 korean = "후후후, 오랜만이군.<end>"
+
+["1900075"]
+japanese = "フフフ、そうか。<line-break>ならば最後の予言を残そうか。<line-break>それは…、<line-break>お主らの死じゃ！<end>"
+korean = "후후후, 그런가. 그럼 마지막 예언을 남기지. 그것은… 너희들의 죽음이다!<end>"
 
 ["1900083"]
 japanese = "強くなったね、<value:$28>。<line-break>僕はうれしいよ。<line-break>僕の役目はこれで終わりだ。<end>"

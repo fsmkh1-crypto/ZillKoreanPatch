@@ -240,6 +240,10 @@ korean = "그런가. 녀석은 어느 쪽으로 갔지?<end>"
 japanese = "…瞬間移動か……。<end>"
 korean = "…순간이동인가…….<end>"
 
+["1610195"]
+japanese = "フン、まあいい。<line-break>消えたのなら、また追うまでの話だ。<line-break>　<line-break>貴様、名を名乗れ。<end>"
+korean = "흥, 뭐 좋다. 사라졌다면 다시 쫓으면 된다. 네놈, 이름을 대라.<end>"
+
 ["1610197"]
 japanese = "…<value:$28>、か。<line-break>少し貴様と行動を共にする。<line-break>ゆくぞ。<end>"
 korean = "…<value:$28>인가. 잠시 네놈과 함께 행동하겠다. 간다.<end>"
@@ -295,6 +299,10 @@ korean = "…너희와는 상관없어!!<end>"
 ["1610229"]
 japanese = "…俺も<line-break>お前と一緒に行かせてもらおう。<line-break>　<line-break>俺の名は、セラだ。<end>"
 korean = "…나도 너와 함께 가겠다. 내 이름은 세라다.<end>"
+
+["1610230"]
+japanese = "お前に断る権利はない。<line-break>　<line-break>　<line-break>そしてここにはもう用はない。<line-break>行くぞ。<end>"
+korean = "네게 거절할 권리는 없다. 그리고 여긴 이제 볼일 없다. 간다.<end>"
 
 ["1610231"]
 japanese = "言っておくが<line-break>お前に断る権利はない。<end>"

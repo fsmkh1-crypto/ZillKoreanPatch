@@ -8,6 +8,10 @@ korean = "여행 출발 07 메시지<end>"
 japanese = "よし、見せてみろ。<end>"
 korean = "좋아, 보여 봐.<end>"
 
+["340002"]
+japanese = "そこそこ、形になっているな。<line-break>しかし…<end>"
+korean = "그럭저럭 모양은 갖췄군. 하지만….<end>"
+
 ["340004"]
 japanese = "…ああ。<end>"
 korean = "…그래.<end>"
@@ -68,6 +72,10 @@ korean = "그리고 오늘 <value:$28>가 검을 만들었어. 봐 줘.<end>"
 japanese = "く…っ、何だ？<end>"
 korean = "큭… 뭐지?<end>"
 
+["340039"]
+japanese = "よし、炎の泉が<line-break>炎竜の炎で満ちている。<end>"
+korean = "좋아, 불꽃의 샘이 염룡의 불꽃으로 가득 찼다.<end>"
+
 ["340040"]
 japanese = "さっそく準備だ。<line-break><value:$28>、<line-break>一番赤い炎竜岩を持ってこい。<end>"
 korean = "바로 준비하자. <value:$28>, 가장 붉은 염룡암을 가져와.<end>"
@@ -111,6 +119,10 @@ korean = "그런가… 네가 쓰러뜨렸군….<end>"
 ["340053"]
 japanese = "これを…。<end>"
 korean = "이걸….<end>"
+
+["340055"]
+japanese = "…行け。ここはもうダメだ。<line-break>…俺も…。<end>"
+korean = "…가라. 여긴 이제 안 된다. …나도….<end>"
 
 ["340057"]
 japanese = "…よし…、<value:$28>…、<line-break>任せたぞ。<end>"

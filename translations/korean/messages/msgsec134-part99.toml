@@ -408,6 +408,10 @@ korean = "나셰스가 위험해! 가자!<end>"
 japanese = "あ、待って！<end>"
 korean = "아, 기다려!<end>"
 
+["1340279"]
+japanese = "ここから先は、わたしたちの問題です。<line-break><value:$28>さんは、<line-break>その方と脱出してください。<end>"
+korean = "여기서부터는 저희 문제입니다. <value:$28>님은 그분과 함께 탈출해 주세요.<end>"
+
 ["1340280"]
 japanese = "でも…君は？<end>"
 korean = "하지만… 너는?<end>"

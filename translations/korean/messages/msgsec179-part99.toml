@@ -12,6 +12,10 @@ korean = "…무슨 농담을.<end>"
 japanese = "その通りだ。<end>"
 korean = "그 말대로다.<end>"
 
+["1790011"]
+japanese = "千年樹に賭けて真実です、陛下。<line-break>それにノーブル伯も一緒だったしな。<line-break>な、<value:$28>。<end>"
+korean = "천년수에 맹세코 사실입니다, 폐하. 노블 백작도 함께 있었고요. 그렇지, <value:$28>.<end>"
+
 ["1790014"]
 japanese = "恩を売る気か？<end>"
 korean = "생색내려는 거냐?<end>"

@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["270000"]
+japanese = "ちゃんと用意はできてる？<line-break>しっかりね！<end>"
+korean = "준비는 제대로 됐어? 정신 바짝 차려!<end>"
+
+["270012"]
+japanese = "準備は終わっとるのか？<line-break>油断せずにな。<end>"
+korean = "준비는 끝났느냐? 방심하지 마라.<end>"
+
 ["270018"]
 japanese = "うぬの戦い、<line-break>見せてもらおう。<end>"
 korean = "네 싸움, 지켜보겠다.<end>"
@@ -11,6 +19,10 @@ korean = "무한한 소울의 힘… 보여 주마.<end>"
 ["270023"]
 japanese = "大丈夫！<line-break><value:$28>なら楽勝だよ。<end>"
 korean = "괜찮아! <value:$28>라면 식은 죽 먹기야.<end>"
+
+["270033"]
+japanese = "君なら大丈夫。<line-break>自分の力を信じるんだ。<end>"
+korean = "너라면 괜찮아. 자신의 힘을 믿어.<end>"
 
 ["270041"]
 japanese = "予選大会<end>"
@@ -127,6 +139,10 @@ korean = "너와 싸울 수 있다니. 나잇값도 못하고 가슴이 뛰는�
 ["270098"]
 japanese = "よっ、<value:$28>。<line-break>本気出しちゃ、やーよ。<line-break>お手柔らかにね。<end>"
 korean = "여어, <value:$28>. 진심으로 하면 안 돼. 살살 부탁해.<end>"
+
+["270100"]
+japanese = "手加減しない。<line-break>負ける気はないからな。<end>"
+korean = "봐주지 않겠다. 질 생각도 없으니까.<end>"
 
 ["270104"]
 japanese = "<value:$28>！<line-break>お互い全力で行こうぜ！！<end>"
