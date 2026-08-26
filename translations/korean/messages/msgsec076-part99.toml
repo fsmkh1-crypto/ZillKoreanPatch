@@ -8,6 +8,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["760023"]
+japanese = "…返す言葉もない<end>"
+korean = "…할 말이 없군<end>"
+
 ["760026"]
 japanese = "なんですって？<end>"
 korean = "뭐라고요?<end>"
@@ -19,6 +23,14 @@ korean = "아니요.<end>"
 ["760032"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["760033"]
+japanese = "それなら、いい。<end>"
+korean = "그렇다면 됐어.<end>"
+
+["760043"]
+japanese = "…返す言葉もない<end>"
+korean = "…할 말이 없군<end>"
 
 ["760047"]
 japanese = "空<end>"

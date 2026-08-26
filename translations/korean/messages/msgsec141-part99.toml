@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1410001"]
+japanese = "<value:$28>さーん！<end>"
+korean = "<value:$28> 씨~!<end>"
+
 ["1410013"]
 japanese = "ひっ………！<end>"
 korean = "히익………!<end>"
@@ -75,6 +79,10 @@ korean = "하지만….<end>"
 ["1410201"]
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
+
+["1410206"]
+japanese = "<value:$28>さーん！<end>"
+korean = "<value:$28> 씨~!<end>"
 
 ["1410279"]
 japanese = "財務長官殿！<end>"
@@ -163,6 +171,10 @@ korean = "꺅…!<end>"
 ["1410548"]
 japanese = "に、逃げろ！<end>"
 korean = "도, 도망쳐!<end>"
+
+["1410556"]
+japanese = "ねぇ。<value:$28>。<end>"
+korean = "있잖아. <value:$28>.<end>"
 
 ["1410579"]
 japanese = "ああ…。<end>"

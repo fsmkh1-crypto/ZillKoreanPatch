@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["670028"]
+japanese = "そなた、何者だ？<end>"
+korean = "그대, 누구지?<end>"
+
 ["670043"]
 japanese = "…そう。<end>"
 korean = "…그래.<end>"
@@ -16,6 +20,10 @@ korean = "제네테스 씨!<end>"
 japanese = "うーい。<end>"
 korean = "어이.<end>"
 
+["670067"]
+japanese = "どんな具合だい？<end>"
+korean = "상태가 어때?<end>"
+
 ["670071"]
 japanese = "え、ええ。<end>"
 korean = "아, 네.<end>"
@@ -24,9 +32,17 @@ korean = "아, 네.<end>"
 japanese = "て、言うと？<end>"
 korean = "그 말은?<end>"
 
+["670090"]
+japanese = "…帰りましょう。<end>"
+korean = "…돌아가죠.<end>"
+
 ["670094"]
 japanese = "そうですよね。<end>"
 korean = "그렇죠.<end>"
+
+["670096"]
+japanese = "お手を、お姫さん<end>"
+korean = "손을, 공주님<end>"
 
 ["670098"]
 japanese = "…あ。<end>"

@@ -24,6 +24,10 @@ korean = "…칫!<end>"
 japanese = "キャーッ！<end>"
 korean = "꺄악!<end>"
 
+["1040049"]
+japanese = "あ、<value:$28>！！<end>"
+korean = "아, <value:$28>!!<end>"
+
 ["1040050"]
 japanese = "ちっ！<end>"
 korean = "칫!<end>"

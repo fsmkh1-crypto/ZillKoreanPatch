@@ -140,6 +140,10 @@ korean = "아무것도 아니야.<end>"
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
 
+["1420550"]
+japanese = "ねぇ。<value:$28>。<end>"
+korean = "있잖아. <value:$28>.<end>"
+
 ["1420555"]
 japanese = "レムオン様！<end>"
 korean = "레몬님!<end>"

@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["640014"]
+japanese = "まぁ、何かしら？<end>"
+korean = "어머, 무슨 일이죠?<end>"
+
+["640030"]
+japanese = "お願い、やめて！<end>"
+korean = "부탁이야, 그만해!<end>"
+
+["640038"]
+japanese = "…な、ティアナ？<end>"
+korean = "…그렇지, 티아나?<end>"
+
 ["640041"]
 japanese = "<value:$28>だぁ！？<end>"
 korean = "<value:$28>라고!?<end>"
@@ -27,6 +39,14 @@ korean = "…죄송합니다.<end>"
 ["640115"]
 japanese = "…すみません。<end>"
 korean = "…죄송합니다.<end>"
+
+["640201"]
+japanese = "…わかりました。<end>"
+korean = "…알겠습니다.<end>"
+
+["640212"]
+japanese = "…なぜなのです？<end>"
+korean = "…어째서인가요?<end>"
 
 ["640216"]
 japanese = "未使用<end>"
@@ -56,9 +76,21 @@ korean = "미사용<end>"
 japanese = "本当ですか！<end>"
 korean = "정말입니까!<end>"
 
+["640231"]
+japanese = "ふふっ。そうよ。<end>"
+korean = "후훗. 그래.<end>"
+
 ["640239"]
 japanese = "えっ、ええ…<end>"
 korean = "어, 어어…<end>"
+
+["640268"]
+japanese = "…自己満足です。<end>"
+korean = "…자기만족입니다.<end>"
+
+["640278"]
+japanese = "それはいけません<end>"
+korean = "그러면 안 됩니다<end>"
 
 ["640279"]
 japanese = "わかりました<end>"
@@ -155,6 +187,10 @@ korean = "제네테스 씨!<end>"
 ["640308"]
 japanese = "うーい。<end>"
 korean = "어이.<end>"
+
+["640311"]
+japanese = "どんな具合だい？<end>"
+korean = "상태가 어때?<end>"
 
 ["640313"]
 japanese = "未使用<end>"

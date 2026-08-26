@@ -8,6 +8,10 @@ korean = "지금 당장 간다<end>"
 japanese = "今は忙しい<end>"
 korean = "지금은 바빠<end>"
 
+["1870015"]
+japanese = "…<value:$28>さん。<end>"
+korean = "…<value:$28> 씨.<end>"
+
 ["1870020"]
 japanese = "今、なんて…？<end>"
 korean = "방금 뭐라고…?<end>"

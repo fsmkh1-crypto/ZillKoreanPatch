@@ -60,6 +60,22 @@ korean = "네, 네….<end>"
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
 
+["750109"]
+japanese = "不使用メッセージ<end>"
+korean = "미사용 메시지<end>"
+
+["750110"]
+japanese = "不使用メッセージ<end>"
+korean = "미사용 메시지<end>"
+
+["750111"]
+japanese = "不使用メッセージ<end>"
+korean = "미사용 메시지<end>"
+
+["750112"]
+japanese = "不使用メッセージ<end>"
+korean = "미사용 메시지<end>"
+
 ["750114"]
 japanese = "そのつもりだ。<end>"
 korean = "그럴 생각이야.<end>"
@@ -83,6 +99,10 @@ korean = "그 말대로야<end>"
 ["750211"]
 japanese = "きれいだ<end>"
 korean = "예쁘다<end>"
+
+["750212"]
+japanese = "それほどでもない<end>"
+korean = "그 정도는 아니야<end>"
 
 ["750223"]
 japanese = "あ…。<end>"

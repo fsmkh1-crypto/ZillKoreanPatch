@@ -12,6 +12,10 @@ korean = "가!<end>"
 japanese = "ネメア様！<end>"
 korean = "네메아 님!<end>"
 
+["1900138"]
+japanese = "あ、<value:$28>様。<end>"
+korean = "아, <value:$28> 님.<end>"
+
 ["1900200"]
 japanese = "Ｖ７その２終端<end>"
 korean = "V7 파트 2 끝<end>"

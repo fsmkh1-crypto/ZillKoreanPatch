@@ -1,12 +1,24 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["690011"]
+japanese = "あの女…強い…。<end>"
+korean = "그 여자… 강해….<end>"
+
 ["690034"]
 japanese = "…聖杯？<end>"
 korean = "…성배?<end>"
 
+["690058"]
+japanese = "無限のソウルとは<end>"
+korean = "무한의 소울이란<end>"
+
 ["690059"]
 japanese = "転送機について<end>"
 korean = "전송기에 대하여<end>"
+
+["690060"]
+japanese = "闇の神器について<end>"
+korean = "어둠의 신기에 대하여<end>"
 
 ["690061"]
 japanese = "ネモについて<end>"
@@ -32,6 +44,18 @@ korean = "…젠장!<end>"
 japanese = "…ふん。<end>"
 korean = "…흥.<end>"
 
+["690147"]
+japanese = "守りたいんだね？<end>"
+korean = "지키고 싶은 거지?<end>"
+
+["690148"]
+japanese = "…なんだ、小娘？<end>"
+korean = "…뭐냐, 꼬마 아가씨?<end>"
+
+["690165"]
+japanese = "…では、行くぞ。<end>"
+korean = "…그럼, 간다.<end>"
+
 ["690170"]
 japanese = "待て！<end>"
 korean = "기다려!<end>"
@@ -39,6 +63,10 @@ korean = "기다려!<end>"
 ["690172"]
 japanese = "貴様アアア！<end>"
 korean = "네놈이이이!<end>"
+
+["690186"]
+japanese = "フェティをしかる<end>"
+korean = "페티를 꾸짖는다<end>"
 
 ["690194"]
 japanese = "撤回しない<end>"

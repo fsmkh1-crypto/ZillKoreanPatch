@@ -4,6 +4,26 @@
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"
 
+["770021"]
+japanese = "アトレイア…様。<end>"
+korean = "아트레이아… 님.<end>"
+
+["770022"]
+japanese = "放っておいて！！<end>"
+korean = "내버려 둬!!<end>"
+
+["770025"]
+japanese = "アトレイア…様。<end>"
+korean = "아트레이아… 님.<end>"
+
+["770026"]
+japanese = "放っておいて！！<end>"
+korean = "내버려 둬!!<end>"
+
+["770027"]
+japanese = "アトレイアを追う<end>"
+korean = "아트레이아를 쫓는다<end>"
+
 ["770029"]
 japanese = "あ…<value:$28>様！<end>"
 korean = "아… <value:$28> 님!<end>"
@@ -16,9 +36,17 @@ korean = "지난번에는….<end>"
 japanese = "え？　どこに？<end>"
 korean = "어? 어디로?<end>"
 
+["770060"]
+japanese = "本当…ですか…？<end>"
+korean = "정말…인가요…?<end>"
+
 ["770069"]
 japanese = "いいんです。<end>"
 korean = "괜찮습니다.<end>"
+
+["770099"]
+japanese = "歌なら歌えます！<end>"
+korean = "노래라면 부를 수 있어요!<end>"
 
 ["770115"]
 japanese = "がんばって<end>"
@@ -27,3 +55,7 @@ korean = "힘내.<end>"
 ["770136"]
 japanese = "キャアアアア！<end>"
 korean = "꺄아아아아!<end>"
+
+["770138"]
+japanese = "さて、とどめだ。<end>"
+korean = "자, 끝장이다.<end>"

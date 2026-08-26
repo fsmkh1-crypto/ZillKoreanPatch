@@ -60,6 +60,10 @@ korean = "하지만….<end>"
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
 
+["1920233"]
+japanese = "<value:$28>さーん！<end>"
+korean = "<value:$28> 씨~!<end>"
+
 ["1920240"]
 japanese = "空<end>"
 korean = "빈칸<end>"

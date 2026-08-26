@@ -92,6 +92,10 @@ korean = "…와.<end>"
 japanese = "！<end>"
 korean = "！<end>"
 
+["1370271"]
+japanese = "<value:$28>、よせ！<end>"
+korean = "<value:$28>, 그만둬!<end>"
+
 ["1370272"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>아!<end>"

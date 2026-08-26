@@ -16,6 +16,10 @@ korean = "…샤리!<end>"
 japanese = "これは…！<end>"
 korean = "이건…!<end>"
 
+["890093"]
+japanese = "（エステル…！）<end>"
+korean = "(에스텔…!)<end>"
+
 ["890096"]
 japanese = "<value:$28>様！！<end>"
 korean = "<value:$28>님!!<end>"
@@ -27,6 +31,14 @@ korean = "알았어<end>"
 ["890110"]
 japanese = "関係ない<end>"
 korean = "상관없어<end>"
+
+["890114"]
+japanese = "そんなことはない<end>"
+korean = "그렇지 않아<end>"
+
+["890115"]
+japanese = "やめておこうかな<end>"
+korean = "그만둘까<end>"
 
 ["890124"]
 japanese = "しょうがない<end>"
@@ -132,6 +144,10 @@ korean = "제때 왔나.<end>"
 japanese = "く、来る…！<end>"
 korean = "오, 온다…!<end>"
 
+["890329"]
+japanese = "な、なんだと…？<end>"
+korean = "뭐, 뭐라고…?<end>"
+
 ["890341"]
 japanese = "く、来る…！<end>"
 korean = "오, 온다…!<end>"
@@ -196,6 +212,10 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "ティアナの部屋<end>"
 korean = "티아나의 방<end>"
 
+["890528"]
+japanese = "アトレイアの部屋<end>"
+korean = "아트레이아의 방<end>"
+
 ["890529"]
 japanese = "エリスの執務室<end>"
 korean = "에리스의 집무실<end>"
@@ -207,6 +227,10 @@ korean = "딱히 볼일은 없다<end>"
 ["890531"]
 japanese = "ティアナの部屋<end>"
 korean = "티아나의 방<end>"
+
+["890532"]
+japanese = "アトレイアの部屋<end>"
+korean = "아트레이아의 방<end>"
 
 ["890533"]
 japanese = "別に用はない<end>"
@@ -260,6 +284,10 @@ korean = "딱히 볼일은 없다<end>"
 japanese = "ティアナの部屋<end>"
 korean = "티아나의 방<end>"
 
+["890587"]
+japanese = "アトレイアの部屋<end>"
+korean = "아트레이아의 방<end>"
+
 ["890588"]
 japanese = "エリスの執務室<end>"
 korean = "에리스의 집무실<end>"
@@ -271,6 +299,10 @@ korean = "딱히 볼일은 없다<end>"
 ["890590"]
 japanese = "ティアナの部屋<end>"
 korean = "티아나의 방<end>"
+
+["890591"]
+japanese = "アトレイアの部屋<end>"
+korean = "아트레이아의 방<end>"
 
 ["890592"]
 japanese = "別に用はない<end>"
@@ -308,6 +340,14 @@ korean = "그렇습니까.<end>"
 japanese = "カ、カフィン！<end>"
 korean = "카, 카핀!<end>"
 
+["890647"]
+japanese = "ぐっ…ぐううっ！<end>"
+korean = "크윽… 으으윽!<end>"
+
+["890648"]
+japanese = "があああああっ！<end>"
+korean = "가아아아아악!<end>"
+
 ["890650"]
 japanese = "ウオオオオッ！<end>"
 korean = "우오오오옷!<end>"
@@ -320,6 +360,10 @@ korean = "윽……!<end>"
 japanese = "キャアアアア！<end>"
 korean = "꺄아아아아!<end>"
 
+["890653"]
+japanese = "カ、カフィン！！<end>"
+korean = "카, 카핀!!<end>"
+
 ["890656"]
 japanese = "遅かったか…。<end>"
 korean = "늦었나….<end>"
@@ -327,6 +371,10 @@ korean = "늦었나….<end>"
 ["890663"]
 japanese = "今、なんて…？<end>"
 korean = "방금, 뭐라고…?<end>"
+
+["890673"]
+japanese = "こ、この声は…！<end>"
+korean = "이, 이 목소리는…!<end>"
 
 ["890674"]
 japanese = "…竜王様だ。<end>"

@@ -12,9 +12,25 @@ korean = "비시민이라 나빠?<end>"
 japanese = "まぁね<end>"
 korean = "뭐, 그렇지<end>"
 
+["880026"]
+japanese = "まだまだ駆け出し<end>"
+korean = "아직 풋내기<end>"
+
 ["880038"]
 japanese = "よくわかるよ<end>"
 korean = "잘 알아<end>"
+
+["880057"]
+japanese = "どいてよ、もう！<end>"
+korean = "비켜 줘, 정말!<end>"
+
+["880061"]
+japanese = "じゃ、急ぐから。<end>"
+korean = "그럼, 급해서 이만.<end>"
+
+["880081"]
+japanese = "パーティに入れる<end>"
+korean = "파티에 넣는다<end>"
 
 ["880082"]
 japanese = "今はいい<end>"
@@ -32,13 +48,29 @@ korean = "어쩔 수 없네<end>"
 japanese = "う～ん…<end>"
 korean = "으~음…<end>"
 
+["880092"]
+japanese = "ね、ね、お願い！<end>"
+korean = "저기, 저기, 부탁이야!<end>"
+
+["880094"]
+japanese = "待ってるからね。<end>"
+korean = "기다리고 있을게.<end>"
+
 ["880097"]
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
 
+["880104"]
+japanese = "ＯＮのままでよい<end>"
+korean = "ON인 채로 둔다<end>"
+
 ["880148"]
 japanese = "あ、動ける！<end>"
 korean = "아, 움직여져!<end>"
+
+["880159"]
+japanese = "さ、ついてきて。<end>"
+korean = "자, 따라와.<end>"
 
 ["880167"]
 japanese = "はい<end>"
@@ -64,6 +96,14 @@ korean = "아, …미안.<end>"
 japanese = "ホント！？<end>"
 korean = "정말!?<end>"
 
+["880233"]
+japanese = "そんなことはない<end>"
+korean = "그렇지 않아<end>"
+
+["880234"]
+japanese = "やめておこうかな<end>"
+korean = "그만둘까<end>"
+
 ["880249"]
 japanese = "ステキだと思う<end>"
 korean = "멋지다고 생각해<end>"
@@ -71,3 +111,19 @@ korean = "멋지다고 생각해<end>"
 ["880250"]
 japanese = "ガラじゃない<end>"
 korean = "내 스타일이 아냐<end>"
+
+["880299"]
+japanese = "未使用<line-break>　<end>"
+korean = "미사용<end>"
+
+["880300"]
+japanese = "未使用<line-break>　<end>"
+korean = "미사용<end>"
+
+["880301"]
+japanese = "未使用<line-break>　<end>"
+korean = "미사용<end>"
+
+["880302"]
+japanese = "未使用<line-break>　<end>"
+korean = "미사용<end>"

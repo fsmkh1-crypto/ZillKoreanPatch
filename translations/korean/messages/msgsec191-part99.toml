@@ -4,6 +4,10 @@
 japanese = "Ｖ７その３開始<end>"
 korean = "V7 파트 3 시작<end>"
 
+["1910003"]
+japanese = "あ、<value:$28>様。<end>"
+korean = "아, <value:$28> 님.<end>"
+
 ["1910063"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
