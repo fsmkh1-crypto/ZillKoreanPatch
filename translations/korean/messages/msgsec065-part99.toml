@@ -96,9 +96,21 @@ korean = "야, <value:$28>.<end>"
 japanese = "見破られるなよ、　　　　　　　<line-break><value:$28>。<line-break>　<end>"
 korean = "들키지 마라, <value:$28>.<end>"
 
+["650056"]
+japanese = "フィアンセ殿に怒られなければな。<end>"
+korean = "약혼자에게 혼나지만 않는다면.<end>"
+
 ["650062"]
 japanese = "<value:$28>、よく来た。　<end>"
 korean = "<value:$28>, 잘 왔다.<end>"
+
+["650068"]
+japanese = "ティアナ様にもご機嫌うるわしく。<end>"
+korean = "티아나 님도 평안하시고.<end>"
+
+["650072"]
+japanese = "笑える冗談だ。　　　　　　　　　<end>"
+korean = "웃기는 농담이군.<end>"
 
 ["650078"]
 japanese = "…それはできんな。<end>"

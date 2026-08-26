@@ -116,6 +116,10 @@ korean = "착한 녀석이군, 나지는.<end>"
 japanese = "どうする？<line-break><value:$28>。<end>"
 korean = "어떻게 할래? <value:$28>.<end>"
 
+["1340113"]
+japanese = "こんなところで君に会うなんて…。<end>"
+korean = "이런 곳에서 널 만나다니….<end>"
+
 ["1340118"]
 japanese = "フフ、ううん…。<end>"
 korean = "후후, 아니….<end>"
@@ -408,6 +412,10 @@ korean = "바보 같은 소리 하지 마<end>"
 japanese = "痛テテテテテテテ！<end>"
 korean = "아야야야야야야!<end>"
 
+["1340377"]
+japanese = "フゴー家の伝承に、こうあります。<end>"
+korean = "푸고 가문의 전승에는 이렇게 적혀 있습니다.<end>"
+
 ["1340385"]
 japanese = "そして、博愛心も。<end>"
 korean = "그리고 박애심도.<end>"
@@ -428,6 +436,10 @@ korean = "우뉴우….<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1340407"]
+japanese = "最近、父の様子がおかしいのです。<end>"
+korean = "요즘 아버지 상태가 이상합니다.<end>"
+
 ["1340413"]
 japanese = "はぁ…<end>"
 korean = "하아…<end>"
@@ -447,6 +459,10 @@ korean = "네<end>"
 ["1340427"]
 japanese = "いいえ<end>"
 korean = "아니요<end>"
+
+["1340437"]
+japanese = "生命のかけらをタルテュバに与える<end>"
+korean = "생명의 조각을 타르튜바에게 준다<end>"
 
 ["1340439"]
 japanese = "<value:$28>は<line-break>タルテュバに<line-break>生命のかけらを与えた。<end>"
@@ -535,6 +551,10 @@ korean = "<value:$28>은 타르테ュ바에게 생명의 조각을 주었다.<en
 ["1340541"]
 japanese = "…待て。<end>"
 korean = "…기다려.<end>"
+
+["1340548"]
+japanese = "いいえ、そんなことはありません！<end>"
+korean = "아니요, 그렇지 않습니다!<end>"
 
 ["1340559"]
 japanese = "タルテュバ様…。<end>"

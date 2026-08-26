@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1520000"]
+japanese = "エルファス　ボリューム３　開始<end>"
+korean = "엘파스 볼륨3 시작<end>"
+
 ["1520001"]
 japanese = "なんだ、<value:$28>か…。<end>"
 korean = "뭐야, <value:$28>였나….<end>"
@@ -35,3 +39,7 @@ korean = "순수한 노래를… 고마워.<end>"
 ["1520022"]
 japanese = "…だけど、無意味だ。<end>"
 korean = "…하지만 무의미해.<end>"
+
+["1520033"]
+japanese = "エルファス　ボリューム３　終端<end>"
+korean = "엘파스 볼륨3 끝<end>"

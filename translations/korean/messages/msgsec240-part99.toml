@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2400000"]
+japanese = "PSP用新スタートイベント03用開始<end>"
+korean = "PSP용 신규 시작 이벤트03용 시작<end>"
+
+["2400004"]
+japanese = "この感覚……無限のソウル…。<end>"
+korean = "이 감각……무한의 소울….<end>"
+
 ["2400010"]
 japanese = "今ある依頼はこんなところだな。<end>"
 korean = "지금 있는 의뢰는 이 정도군.<end>"
+
+["2400013"]
+japanese = "PSP用新スタートイベント03用終端<end>"
+korean = "PSP용 신규 시작 이벤트03용 끝<end>"

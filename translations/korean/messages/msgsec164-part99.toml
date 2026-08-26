@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1640000"]
+japanese = "ネメア・ボリューム１その２開始<end>"
+korean = "네메아 볼륨1 그 2 시작<end>"
+
 ["1640006"]
 japanese = "ダークエルフ…。<end>"
 korean = "다크 엘프….<end>"
@@ -132,6 +136,10 @@ korean = "뭐라고?<end>"
 japanese = "いずれ、また…<line-break>挑む…。<end>"
 korean = "언젠가 다시… 도전하겠다….<end>"
 
+["1640089"]
+japanese = "また会ったな。<line-break>大丈夫か？<end>"
+korean = "또 만났군. 괜찮나?<end>"
+
 ["1640092"]
 japanese = "竜王の覚醒は聞いたか？<end>"
 korean = "용왕의 각성 소식은 들었나?<end>"
@@ -143,3 +151,7 @@ korean = "나는 알 수 있다.<end>"
 ["1640096"]
 japanese = "では、またな。<end>"
 korean = "그럼, 또 보자.<end>"
+
+["1640108"]
+japanese = "ネメア・ボリューム１その２終端<end>"
+korean = "네메아 볼륨1 그 2 끝<end>"

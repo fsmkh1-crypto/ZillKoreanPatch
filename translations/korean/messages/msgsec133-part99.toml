@@ -140,6 +140,10 @@ korean = "기다리고 있을게, <value:$28>.<end>"
 japanese = "では、行きますよ。<end>"
 korean = "그럼, 갑니다.<end>"
 
+["1330259"]
+japanese = "全軍、ハンカチ噛みつつ、退却ー！<end>"
+korean = "전군, 손수건을 깨물며 후퇴~!<end>"
+
 ["1330260"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -304,6 +308,10 @@ korean = "기다려, <value:$28>!<end>"
 japanese = "…魔王バロルはどこだ？<end>"
 korean = "…마왕 바로르는 어디 있지?<end>"
 
+["1330471"]
+japanese = "いらっしゃい…いとしい殿方たち。<end>"
+korean = "어서 와… 사랑스러운 남자들이여.<end>"
+
 ["1330478"]
 japanese = "いらっしゃい、ゼネテス。<end>"
 korean = "어서 와, 제네테스.<end>"
@@ -319,6 +327,14 @@ korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 ["1330521"]
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
+
+["1330530"]
+japanese = "いらっしゃい…かわいい人形たち。<end>"
+korean = "어서 와… 귀여운 인형들이여.<end>"
+
+["1330531"]
+japanese = "いらっしゃい…かわいい人形たち。<end>"
+korean = "어서 와… 귀여운 인형들이여.<end>"
 
 ["1330538"]
 japanese = "いらっしゃい、ゼネテス…。<end>"
@@ -351,6 +367,10 @@ korean = "왜 그래, 제네테스?<end>"
 ["1330574"]
 japanese = "…<value:$28>？<line-break>俺は…？<end>"
 korean = "…<value:$28>? 나는…?<end>"
+
+["1330575"]
+japanese = "ありえない！　意志を取り戻した？<end>"
+korean = "말도 안 돼! 의지를 되찾았다고?<end>"
 
 ["1330583"]
 japanese = "…お前…<value:$28><line-break><value:$28>…なの…か…？<end>"
@@ -407,6 +427,10 @@ korean = "그럼, 잘 있어.<end>"
 ["1330659"]
 japanese = "ああ、こいつか。こいつはな…。<end>"
 korean = "아아, 이 녀석인가. 이 녀석은 말이지….<end>"
+
+["1330673"]
+japanese = "ギー、コンドハ、オレガ、オニカ？<end>"
+korean = "기, 이번엔 내가 귀신인가?<end>"
 
 ["1330675"]
 japanese = "ギー！　ヨシ。マテー！<end>"

@@ -612,6 +612,10 @@ korean = "갈드란 열창 발생<end>"
 japanese = "ガルドランの弓　発生<end>"
 korean = "갈드란의 활 발생<end>"
 
+["1970156"]
+japanese = "ガルドランフェルムゲット　発生<end>"
+korean = "갈드란 펠름 획득 발생<end>"
+
 ["1970157"]
 japanese = "ガルドラン許す　発生<end>"
 korean = "갈드란 용서 발생<end>"
@@ -631,6 +635,10 @@ korean = "카를라 등장<end>"
 ["1970161"]
 japanese = "カルラ告白　発生<end>"
 korean = "카를라 고백 발생<end>"
+
+["1970162"]
+japanese = "アンギルダンシャリやられ　発生<end>"
+korean = "앙길단 샤리 당함 발생<end>"
 
 ["1970163"]
 japanese = "カルラ進軍　発生<end>"
@@ -739,6 +747,10 @@ korean = "길드 등록 종료<end>"
 ["1970189"]
 japanese = "ギルド登録勧誘　発生<end>"
 korean = "길드 등록 권유 발생<end>"
+
+["1970190"]
+japanese = "アンギルダンならず者発見　発生<end>"
+korean = "앙길단 불량배 발견 발생<end>"
 
 ["1970191"]
 japanese = "空中都市　発生<end>"
@@ -888,6 +900,10 @@ korean = "자기브 이름 기억 발생<end>"
 japanese = "ザギヴ名前質問　発生<end>"
 korean = "자기브 이름 질문 발생<end>"
 
+["1970229"]
+japanese = "ザギヴに名前を覚えられる　発生<end>"
+korean = "자기브에게 이름을 기억시킴 발생<end>"
+
 ["1970230"]
 japanese = "ザギヴの歌　発生<end>"
 korean = "자기브의 노래 발생<end>"
@@ -983,6 +999,10 @@ korean = "엘리스 매장금 고지 준비<end>"
 ["1970253"]
 japanese = "シャローム　登場<end>"
 korean = "샬롬 등장<end>"
+
+["1970254"]
+japanese = "シャロームマノン腕輪物語　発生<end>"
+korean = "샬롬 마논 팔찌 이야기 발생<end>"
 
 ["1970255"]
 japanese = "ジュサプブロス　死亡<end>"
@@ -1088,6 +1108,10 @@ korean = "제네테스 대화<end>"
 japanese = "ゼネテス最初の助言　発生<end>"
 korean = "제네테스 최초의 조언 발생<end>"
 
+["1970281"]
+japanese = "ゼネテス在野にくだりたい　発生<end>"
+korean = "제네테스 재야로 내려가고 싶음 발생<end>"
+
 ["1970282"]
 japanese = "ゼネテス説教　発生<end>"
 korean = "제네테스 설교 발생<end>"
@@ -1099,6 +1123,10 @@ korean = "제네테스 탈주 발생<end>"
 ["1970284"]
 japanese = "ゼネテスとギルドに行く　発生<end>"
 korean = "제네테스와 길드에 감 발생<end>"
+
+["1970285"]
+japanese = "ゼネテスとザギヴがチェス　終了<end>"
+korean = "제네테스와 자기브가 체스 종료<end>"
 
 ["1970286"]
 japanese = "ゼネテス人形奪還　発生<end>"
@@ -1188,6 +1216,10 @@ korean = "조폴 녹사 이야기 발생<end>"
 japanese = "ゾフォル魔導の塔物語　発生<end>"
 korean = "조포르 마도탑 이야기 발생<end>"
 
+["1970308"]
+japanese = "ゾフォルマノンの指輪物語　発生<end>"
+korean = "조폴 마논의 반지 이야기 발생<end>"
+
 ["1970309"]
 japanese = "ゾフォルミラク物語　発生<end>"
 korean = "조폴 미라크 이야기 발생<end>"
@@ -1203,6 +1235,10 @@ korean = "다난 사망<end>"
 ["1970312"]
 japanese = "他人クリュセイス救出　発生<end>"
 korean = "타인 크류세이스 구출 발생<end>"
+
+["1970313"]
+japanese = "他人クリュセイス救出報告　情報<end>"
+korean = "타인 크류세이스 구조 보고 정보<end>"
 
 ["1970314"]
 japanese = "タルテュバ　死亡<end>"
@@ -1291,6 +1327,10 @@ korean = "티아나 등장<end>"
 ["1970336"]
 japanese = "ティアナ　会話<end>"
 korean = "티아나 대화<end>"
+
+["1970337"]
+japanese = "ティアナが主人公をなじる　発生<end>"
+korean = "티아나가 주인공을 나무람 발생<end>"
 
 ["1970338"]
 japanese = "ティアナがゼネテスをほめた　終了<end>"
@@ -1444,6 +1484,10 @@ korean = "트리 고블린 등장<end>"
 japanese = "トリゴブＶｓ海賊　発生<end>"
 korean = "트리고브 VS 해적 발생<end>"
 
+["1970376"]
+japanese = "トリゴブクリュセイス救出　発生<end>"
+korean = "트리고브 크류세이스 구조 발생<end>"
+
 ["1970377"]
 japanese = "トリゴブ勝利　発生<end>"
 korean = "트리고브 승리 발생<end>"
@@ -1460,6 +1504,10 @@ korean = "트리고브와 조우 발생<end>"
 japanese = "ドルドラム　登場<end>"
 korean = "돌드람 등장<end>"
 
+["1970381"]
+japanese = "ドルドラム緋炎の宝剣伝承　発生<end>"
+korean = "돌드람 비염의 보검 전승 발생<end>"
+
 ["1970382"]
 japanese = "ドンパドン　登場<end>"
 korean = "돈파돈 등장<end>"
@@ -1471,6 +1519,10 @@ korean = "돈파돈 대결 발생<end>"
 ["1970384"]
 japanese = "ドンパドン登場　準備<end>"
 korean = "돈파돈 등장 준비<end>"
+
+["1970385"]
+japanese = "ドンパドンフィーユ見舞い　発生<end>"
+korean = "돈파돈 피유 문병 발생<end>"
 
 ["1970386"]
 japanese = "ドンパドン密告　発生<end>"
@@ -1588,6 +1640,10 @@ korean = "네메아와 나지 발생<end>"
 japanese = "ネメアに挑む　発生<end>"
 korean = "네메아에게 도전 발생<end>"
 
+["1970418"]
+japanese = "ネメアパーティーとの邂逅　終了<end>"
+korean = "네메아 파티와 조우 종료<end>"
+
 ["1970419"]
 japanese = "ネメアパーティーとの邂逅　進行中<end>"
 korean = "네메아 파티와 조우 진행 중<end>"
@@ -1667,6 +1723,10 @@ korean = "오즈왈트 조사 종료<end>"
 ["1970438"]
 japanese = "オズワルト調査報告　発生<end>"
 korean = "오즈월드 조사 보고 발생<end>"
+
+["1970439"]
+japanese = "ノエルパーティーと会う②　発生<end>"
+korean = "노엘 파티와 만남② 발생<end>"
 
 ["1970440"]
 japanese = "告死天使襲撃②　発生<end>"
@@ -2124,6 +2184,10 @@ korean = "셈하자 사망 보고 발생<end>"
 japanese = "竜王非難　発生<end>"
 korean = "용왕 비난 발생<end>"
 
+["1970557"]
+japanese = "汎用ﾕｰｻﾞｰ入力不可　進行中<end>"
+korean = "범용 사용자 입력 불가 진행 중<end>"
+
 ["1970558"]
 japanese = "オルファウス不在　発生<end>"
 korean = "올파우스 부재 발생<end>"
@@ -2484,6 +2548,10 @@ korean = "Ev 갈드란 #8 진행 중<end>"
 japanese = "Ｅｖガルドラン＃２７＿Ａ　進行中<end>"
 korean = "Ev 갈드란 #27_A 진행 중<end>"
 
+["1970649"]
+japanese = "ゼネテスアンギルダン物語　発生<end>"
+korean = "제네테스 앙길단 이야기 발생<end>"
+
 ["1970650"]
 japanese = "Ｅｖファーロス＃１２　進行中<end>"
 korean = "Ev 파로스 #12 진행 중<end>"
@@ -2555,6 +2623,10 @@ korean = "Ev 앙길단 #8 진행 중<end>"
 ["1970668"]
 japanese = "Ｅｖアンギルダン＃９　進行中<end>"
 korean = "Ev 앙길단 #9 진행 중<end>"
+
+["1970669"]
+japanese = "Ｅｖアンギルダン＃１０　進行中<end>"
+korean = "Ev 앙길단 #10 진행 중<end>"
 
 ["1970670"]
 japanese = "Ｅｖアンギルダン＃１１　進行中<end>"

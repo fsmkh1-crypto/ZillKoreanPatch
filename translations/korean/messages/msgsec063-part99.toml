@@ -64,6 +64,10 @@ korean = "그건 받아야 예의지.<end>"
 japanese = "<value:$28>は３ギアを手に入れた。<end>"
 korean = "<value:$28>은 3기아를 손에 넣었다.<end>"
 
+["630077"]
+japanese = "さぁて、もう１杯飲んでくるかな。<end>"
+korean = "자, 한 잔 더 마시러 갈까.<end>"
+
 ["630078"]
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
@@ -172,6 +176,10 @@ korean = "글쎄….<end>"
 japanese = "バカな。<end>"
 korean = "말도 안 돼.<end>"
 
+["630205"]
+japanese = "また、いらっしゃってくださいね。<end>"
+korean = "또 와 주세요.<end>"
+
 ["630211"]
 japanese = "誰が結婚などするものですか！<end>"
 korean = "누가 결혼 같은 걸 한답니까!<end>"
@@ -256,9 +264,17 @@ korean = "웃기는 농담이군.<end>"
 japanese = "やれやれ、エリスも哀れだな。　<end>"
 korean = "이런, 에리스도 불쌍하군.<end>"
 
+["630332"]
+japanese = "ええ、ファーロスの雌狐の娘です！<end>"
+korean = "네, 파로스의 암여우 딸입니다!<end>"
+
 ["630337"]
 japanese = "もう、レムオン様！<end>"
 korean = "정말, 레몬 님!<end>"
+
+["630339"]
+japanese = "ふふ、大事な幼なじみですものね。<end>"
+korean = "후후, 소중한 소꿉친구니까요.<end>"
 
 ["630352"]
 japanese = "空メッセージ<end>"
@@ -288,9 +304,17 @@ korean = "빈 메시지<end>"
 japanese = "空メッセージ<end>"
 korean = "빈 메시지<end>"
 
+["630359"]
+japanese = "きっと尊重すると心から思っている<end>"
+korean = "분명 존중할 거라고 진심으로 생각해.<end>"
+
 ["630360"]
 japanese = "そんなこと考えられない<end>"
 korean = "그런 건 생각할 수 없어.<end>"
+
+["630363"]
+japanese = "（あの子に人形を返さなくては。）<end>"
+korean = "(그 아이에게 인형을 돌려줘야 해.)<end>"
 
 ["630364"]
 japanese = "約束する<end>"

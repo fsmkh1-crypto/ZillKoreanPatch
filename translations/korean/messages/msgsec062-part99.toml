@@ -36,6 +36,10 @@ korean = "두려워 말고 뛰어들면 된다.<end>"
 japanese = "だ、大丈夫ですかっ！<end>"
 korean = "괘, 괜찮으세요!?<end>"
 
+["620022"]
+japanese = "あ、あの失礼ですが、お名前は…。<end>"
+korean = "저, 실례지만 성함은….<end>"
+
 ["620023"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
@@ -144,6 +148,10 @@ korean = "으음, 방심한 고브~!<end>"
 japanese = "団長～！<end>"
 korean = "단장~!<end>"
 
+["620087"]
+japanese = "む、マルーンがやられているゴブ！<end>"
+korean = "마, 마룬이 당하고 있다 고브!<end>"
+
 ["620089"]
 japanese = "団長～。<line-break>助けてゴブ～。<end>"
 korean = "단장~. 도와줘 고브~.<end>"
@@ -215,6 +223,10 @@ korean = "배에 타지 마!<end>"
 ["620145"]
 japanese = "至極妥当な気がするゴブ。<end>"
 korean = "지극히 타당한 것 같다 고브.<end>"
+
+["620147"]
+japanese = "アイリーンのＳＴＲが３上がった。<end>"
+korean = "아이린의 STR이 3 올랐다.<end>"
 
 ["620149"]
 japanese = "１００ギア手に入れた。<end>"

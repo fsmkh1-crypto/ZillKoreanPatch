@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1490000"]
+japanese = "エルファス　ボリューム１　開始<end>"
+korean = "엘파스 볼륨1 시작<end>"
+
 ["1490010"]
 japanese = "助ける<end>"
 korean = "돕는다<end>"
@@ -256,6 +260,10 @@ korean = "정신이 든 모양이군.<end>"
 japanese = "気が付いたようだね。<end>"
 korean = "정신이 든 모양이군.<end>"
 
+["1490319"]
+japanese = "人間に残された時間は少ないよ。<end>"
+korean = "인간에게 남은 시간은 얼마 없어.<end>"
+
 ["1490320"]
 japanese = "気が付いたようだね。<end>"
 korean = "정신이 든 모양이군.<end>"
@@ -283,3 +291,7 @@ korean = "대, 대단해….<end>"
 ["1490340"]
 japanese = "ありがたや、ありがたや。<end>"
 korean = "감사하옵니다, 감사하옵니다.<end>"
+
+["1490351"]
+japanese = "エルファス　ボリューム１　終端<end>"
+korean = "엘파스 볼륨1 끝<end>"

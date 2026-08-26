@@ -76,6 +76,10 @@ korean = "뒤돌아 주세요.<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1420080"]
+japanese = "いらっしゃい。何にしやすかね？<end>"
+korean = "어서 와. 뭘 찾으시나?<end>"
+
 ["1420095"]
 japanese = "…無理が、ないですかね？<end>"
 korean = "…무리하는 건, 아닌가요?<end>"
@@ -208,6 +212,10 @@ korean = "미묘하게 시차가 있어….<end>"
 japanese = "そうか…。<line-break>のう、<value:$28>は、<line-break>本当に戻ってくるのか？<end>"
 korean = "그런가…. 그런데 <value:$28>은 정말 돌아오는 건가?<end>"
 
+["1420273"]
+japanese = "どうした、とっつあん。心配か？<end>"
+korean = "왜 그래, 아저씨. 걱정돼?<end>"
+
 ["1420284"]
 japanese = "行こうっ！<end>"
 korean = "가자!<end>"
@@ -215,6 +223,10 @@ korean = "가자!<end>"
 ["1420285"]
 japanese = "うんっ！<end>"
 korean = "응!<end>"
+
+["1420286"]
+japanese = "わしを置いてくなよ、ゼネテス。<end>"
+korean = "나를 두고 가지 마, 제네테스.<end>"
 
 ["1420288"]
 japanese = "追加メッセージここから<end>"
@@ -264,6 +276,10 @@ korean = "출발이군.<end>"
 japanese = "どうした？　行かないのか？<end>"
 korean = "왜 그래? 안 가는 거야?<end>"
 
+["1420318"]
+japanese = "あー、わしが代表として言おう。<end>"
+korean = "아, 내가 대표로 말하지.<end>"
+
 ["1420319"]
 japanese = "<value:$28>、<line-break>おぬしがいては、<line-break>解散できぬではないか！<end>"
 korean = "<value:$28>, 자네가 있으면 해산할 수가 없지 않나!<end>"
@@ -271,6 +287,10 @@ korean = "<value:$28>, 자네가 있으면 해산할 수가 없지 않나!<end>"
 ["1420321"]
 japanese = "<value:$28>！<line-break>解散しても、<line-break>家にカエサンつもりかよっ！<end>"
 korean = "<value:$28>! 해산해도 집에는 안 돌려보낼 셈이냐!<end>"
+
+["1420323"]
+japanese = "…きれいに流されたね、ヴァン。<end>"
+korean = "…깔끔하게 흘려버렸네, 반.<end>"
 
 ["1420324"]
 japanese = "ああ…。<end>"
@@ -319,6 +339,10 @@ korean = "왜냐고? 그건….<end>"
 ["1420358"]
 japanese = "うっ…。<end>"
 korean = "윽….<end>"
+
+["1420368"]
+japanese = "は、犯人が、この中にいる…！？<end>"
+korean = "버, 범인이 이 안에 있다고…!?<end>"
 
 ["1420372"]
 japanese = "来ません…。<end>"
@@ -392,6 +416,10 @@ korean = "크와악!<end>"
 japanese = "う、うわぁあああ！！<end>"
 korean = "우, 우와아아아!!<end>"
 
+["1420408"]
+japanese = "無茶をするなと言ったはずだ…。<end>"
+korean = "무리하지 말라고 했을 텐데….<end>"
+
 ["1420409"]
 japanese = "お前が手を汚す必要はない。<end>"
 korean = "네가 손을 더럽힐 필요는 없어.<end>"
@@ -423,6 +451,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420422"]
 japanese = "じゃあ、行くのね？<end>"
 korean = "그럼, 가는 거지?<end>"
+
+["1420426"]
+japanese = "…いつまで気配を消している気？<end>"
+korean = "…언제까지 기척을 숨길 셈이야?<end>"
 
 ["1420428"]
 japanese = "…そうね。<line-break>バルザー。<end>"
@@ -676,6 +708,10 @@ korean = "이, 이봐!<end>"
 japanese = "逃げられてしまいます！<end>"
 korean = "도망쳐 버립니다!<end>"
 
+["1420634"]
+japanese = "は、犯人が、この中にいる…！？<end>"
+korean = "버, 범인이 이 안에 있다고…!?<end>"
+
 ["1420638"]
 japanese = "来ません…。<end>"
 korean = "오지 않습니다….<end>"
@@ -723,6 +759,10 @@ korean = "출발이군.<end>"
 ["1420667"]
 japanese = "どうした？　行かないのか？<end>"
 korean = "왜 그래? 안 가는 거야?<end>"
+
+["1420668"]
+japanese = "あー、わしが代表として言おう。<end>"
+korean = "아, 내가 대표로 말하지.<end>"
 
 ["1420669"]
 japanese = "<value:$28>、<line-break>おぬしがいては、<line-break>解散できぬではないか！<end>"

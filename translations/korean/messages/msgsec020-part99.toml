@@ -336,6 +336,10 @@ korean = "이건 잘못됐군.<end>"
 japanese = "こりゃあ、まちがっとる。<end>"
 korean = "이건 잘못됐군.<end>"
 
+["200390"]
+japanese = "これは親父の形見なんだ。<line-break>"
+korean = "이건 아버지의 유품이야. "
+
 ["200392"]
 japanese = "…私には、これが必要なのです。<end>"
 korean = "…저에게는 이것이 필요합니다.<end>"
@@ -415,6 +419,10 @@ korean = "장비품을 볼 수 있습니다.<end>"
 ["200486"]
 japanese = "自動的に発動するスキルです。<end>"
 korean = "자동으로 발동하는 스킬입니다.<end>"
+
+["200491"]
+japanese = "キャラクターのレベル(LEVEL)です。<end>"
+korean = "캐릭터의 레벨(LEVEL)입니다.<end>"
 
 ["200492"]
 japanese = "キャラクターの経験値(EXP)です。<end>"

@@ -68,6 +68,10 @@ korean = "<value:$28>님.<end>"
 japanese = "手紙？<line-break>ゼネテス様の？<end>"
 korean = "편지? 제네테스 님의?<end>"
 
+["1350080"]
+japanese = "　　でも、それが悪いことなのか？<end>"
+korean = "하지만, 그게 나쁜 일인가?<end>"
+
 ["1350086"]
 japanese = "…ゼネテス…様…<end>"
 korean = "…제네테스… 님…<end>"
@@ -455,6 +459,10 @@ korean = "의식을 잃는다<end>"
 ["1350453"]
 japanese = "もう少し聞いている<end>"
 korean = "조금 더 듣는다<end>"
+
+["1350457"]
+japanese = "もう！<line-break>兄さんのイジワル！<end>"
+korean = "정말! 오빠 심술쟁이!<end>"
 
 ["1350467"]
 japanese = "くうううああああっ！！<end>"

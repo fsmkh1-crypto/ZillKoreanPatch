@@ -20,6 +20,10 @@ korean = "조금 목이 마르네.<end>"
 japanese = "少しのどが渇いた。<end>"
 korean = "조금 목이 마르네.<end>"
 
+["670021"]
+japanese = "そなた、ティアナと仲がよいのか？<end>"
+korean = "그대, 티아나와 사이가 좋은가?<end>"
+
 ["670023"]
 japanese = "少しのどが渇いた。<end>"
 korean = "조금 목이 마르네.<end>"
@@ -72,6 +76,10 @@ korean = "여어, <value:$28>, 데이트?<end>"
 japanese = "俺はゼネテス。よろしく。<end>"
 korean = "나는 제네테스. 잘 부탁한다.<end>"
 
+["670059"]
+japanese = "…あんた、いい目してるね。　　　<end>"
+korean = "…당신, 눈빛이 좋군.<end>"
+
 ["670064"]
 japanese = "うーい。<end>"
 korean = "어이.<end>"
@@ -79,6 +87,10 @@ korean = "어이.<end>"
 ["670067"]
 japanese = "どんな具合だい？<end>"
 korean = "상태가 어때?<end>"
+
+["670070"]
+japanese = "…今まで歌ってたの、あんただな。<end>"
+korean = "…지금까지 노래하던 게 너였군.<end>"
 
 ["670071"]
 japanese = "え、ええ。<end>"

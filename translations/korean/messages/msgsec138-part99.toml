@@ -156,6 +156,10 @@ korean = "속박의 팔찌를 잃었다.<end>"
 japanese = "………………。<line-break> <line-break> <line-break><value:$28>様…。<end>"
 korean = "………………. <value:$28> 님….<end>"
 
+["1380217"]
+japanese = "来たか…<line-break>おごれし王よ…。<end>"
+korean = "왔는가… 오만한 왕이여….<end>"
+
 ["1380221"]
 japanese = "たしかに…今の<value:$28>に<line-break>人類は導けまい。<line-break>しかし…<end>"
 korean = "확실히… 지금의 <value:$28>에게 인류를 이끌게 할 수는 없겠지. 하지만….<end>"

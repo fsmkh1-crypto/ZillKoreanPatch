@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1510000"]
+japanese = "エルファス　ボリューム２　開始<end>"
+korean = "엘파스 볼륨2 시작<end>"
+
 ["1510012"]
 japanese = "わぁ…、すごい！<end>"
 korean = "와아…, 대단해!<end>"
@@ -32,6 +36,10 @@ korean = "넌 자기 힘을 과신하고 있어.<end>"
 japanese = "君は自分の力を過信している。<end>"
 korean = "넌 자기 힘을 과신하고 있어.<end>"
 
+["1510037"]
+japanese = "僕が礼を言うとでも思ったのか？<end>"
+korean = "내가 감사라도 할 줄 알았나?<end>"
+
 ["1510040"]
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
@@ -55,6 +63,10 @@ korean = "네 이름… 들어두고 싶어.<end>"
 ["1510054"]
 japanese = "はわわわわ～～～！<end>"
 korean = "하와와와와~~~!<end>"
+
+["1510055"]
+japanese = "な、何しやがる！<line-break>かかれ！<end>"
+korean = "뭐, 무슨 짓이야! 덤벼!<end>"
 
 ["1510056"]
 japanese = "うわああっ！<end>"
@@ -116,6 +128,10 @@ korean = "뭐라고!<end>"
 japanese = "う、うぅ。　　　　　　　　<end>"
 korean = "으, 으으….<end>"
 
+["1510098"]
+japanese = "くそっ！<line-break>貴様、覚えてろ！<end>"
+korean = "젠장! 네놈, 두고 보자!<end>"
+
 ["1510101"]
 japanese = "ママ！<end>"
 korean = "엄마!<end>"
@@ -123,3 +139,7 @@ korean = "엄마!<end>"
 ["1510102"]
 japanese = "奇跡だ！<end>"
 korean = "기적이야!<end>"
+
+["1510115"]
+japanese = "エルファス　ボリューム２　終端<end>"
+korean = "엘파스 볼륨2 끝<end>"

@@ -16,6 +16,10 @@ korean = "농담이라니?<end>"
 japanese = "…な、なんだって！？<end>"
 korean = "…뭐, 뭐라고!?<end>"
 
+["2300011"]
+japanese = "ヴァンのシャレは最高なのに！<end>"
+korean = "반의 농담은 최고인데!<end>"
+
 ["2300014"]
 japanese = "そう思わない、<value:$28>？<end>"
 korean = "그렇지 않아, <value:$28>?<end>"
