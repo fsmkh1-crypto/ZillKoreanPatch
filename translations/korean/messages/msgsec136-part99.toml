@@ -252,6 +252,10 @@ korean = "어째서…! 언니!<end>"
 japanese = "…姉さん。<end>"
 korean = "…누나.<end>"
 
+["1360338"]
+japanese = "セラがパーティーを去っていった。<end>"
+korean = "세라가 파티를 떠났다.<end>"
+
 ["1360341"]
 japanese = "…姉さん。<end>"
 korean = "…누나.<end>"
@@ -264,6 +268,10 @@ korean = "…이걸로… 전부… 끝났다.<end>"
 japanese = "（兄さん…）<end>"
 korean = "(형…)<end>"
 
+["1360345"]
+japanese = "セラがパーティーを去っていった。<end>"
+korean = "세라가 파티를 떠났다.<end>"
+
 ["1360349"]
 japanese = "行け！<end>"
 korean = "가!<end>"
@@ -271,6 +279,10 @@ korean = "가!<end>"
 ["1360350"]
 japanese = "…忘れ物だ。<end>"
 korean = "…두고 간 물건이다.<end>"
+
+["1360352"]
+japanese = "セラがパーティーを去っていった。<end>"
+korean = "세라가 파티를 떠났다.<end>"
 
 ["1360359"]
 japanese = "…<value:$28>か？<end>"
