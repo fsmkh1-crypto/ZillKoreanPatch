@@ -468,6 +468,10 @@ korean = "맡지 않는다<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1380483"]
+japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"
+korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
+
 ["1380484"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
