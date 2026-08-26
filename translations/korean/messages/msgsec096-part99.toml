@@ -16,6 +16,10 @@ korean = "아직 정하지 않았어<end>"
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
 
+["960015"]
+japanese = "<value:$28>…。<line-break>それが、<line-break>うぬの名か…？<end>"
+korean = "<value:$28>…. 그게 네 이름인가…?<end>"
+
 ["960017"]
 japanese = "…見事だ。<end>"
 korean = "…훌륭하군.<end>"

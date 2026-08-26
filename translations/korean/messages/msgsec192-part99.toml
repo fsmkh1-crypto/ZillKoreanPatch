@@ -68,6 +68,10 @@ korean = "하지만….<end>"
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
 
+["1920213"]
+japanese = "何？<line-break>何か言ったかしら、<line-break><value:$28>？<end>"
+korean = "뭐? 무슨 말 했어, <value:$28>?<end>"
+
 ["1920233"]
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"

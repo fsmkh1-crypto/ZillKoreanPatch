@@ -175,3 +175,7 @@ korean = "기다려! 반!<end>"
 ["450280"]
 japanese = "おなかが…すいて…。<end>"
 korean = "배가… 고파서….<end>"
+
+["450291"]
+japanese = "<value:$28>っていうんだね。<line-break>よろしく、<value:$28>。<end>"
+korean = "<value:$28>라고 하는구나. 잘 부탁해, <value:$28>.<end>"

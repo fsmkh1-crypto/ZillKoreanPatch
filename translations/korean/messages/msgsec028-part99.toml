@@ -64,6 +64,10 @@ korean = "좋아, 가자!<end>"
 japanese = "気が進まないな…<end>"
 korean = "내키지 않는데…<end>"
 
+["280135"]
+japanese = "じゃ、行こう、<value:$28>。<end>"
+korean = "그럼 가자, <value:$28>.<end>"
+
 ["280144"]
 japanese = "ヴァン！<end>"
 korean = "반!<end>"

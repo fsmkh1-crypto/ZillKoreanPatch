@@ -20,6 +20,10 @@ korean = "샤리!<end>"
 japanese = "…シャリ！<end>"
 korean = "…샤리!<end>"
 
+["890080"]
+japanese = "それじゃあ、<line-break>さようなら、<line-break><value:$28>。<end>"
+korean = "그럼 안녕, <value:$28>.<end>"
+
 ["890082"]
 japanese = "これは…！<end>"
 korean = "이건…!<end>"
@@ -208,9 +212,17 @@ korean = "자기브…!<end>"
 japanese = "あ…。<end>"
 korean = "아…<end>"
 
+["890387"]
+japanese = "助けて…くれるの…？<end>"
+korean = "도와… 줄 거야…?<end>"
+
 ["890388"]
 japanese = "<value:$28>…。<line-break>ありがとう。<line-break>迷惑かけるわね。<end>"
 korean = "<value:$28>…. 고마워. 폐를 끼치네.<end>"
+
+["890389"]
+japanese = "決心がつきましたか。<end>"
+korean = "결심이 섰습니까?<end>"
 
 ["890393"]
 japanese = "待って。<end>"
@@ -352,6 +364,10 @@ korean = "가고 싶은 시대는 없다<end>"
 japanese = "あきらめる<end>"
 korean = "포기한다<end>"
 
+["890578"]
+japanese = "何処にも行きたくない<end>"
+korean = "어디에도 가고 싶지 않아.<end>"
+
 ["890585"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
@@ -484,6 +500,14 @@ korean = "노엘, 당신….<end>"
 japanese = "ノエル…。<end>"
 korean = "노엘….<end>"
 
+["890694"]
+japanese = "では、行くとするか。<end>"
+korean = "그럼 가볼까.<end>"
+
+["890695"]
+japanese = "あ、待ってください！<end>"
+korean = "아, 기다려 주세요!<end>"
+
 ["890700"]
 japanese = "おりゃあ！<end>"
 korean = "으랴앗!<end>"
@@ -499,6 +523,10 @@ korean = "말없이 지켜본다<end>"
 ["890707"]
 japanese = "待って！<end>"
 korean = "기다려!<end>"
+
+["890709"]
+japanese = "それは…そうだけど。<end>"
+korean = "그건… 그렇지만.<end>"
 
 ["890711"]
 japanese = "友達だから！<end>"

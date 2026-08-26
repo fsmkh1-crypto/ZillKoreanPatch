@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2210000"]
+japanese = "迷子イベント4用開始<end>"
+korean = "미아 이벤트 4용 시작<end>"
+
 ["2210002"]
 japanese = "どうしたの？<end>"
 korean = "무슨 일이야?<end>"
@@ -15,3 +19,7 @@ korean = "자, 가자, <value:$28>.<end>"
 ["2210022"]
 japanese = "お母さん！<end>"
 korean = "엄마!<end>"
+
+["2210029"]
+japanese = "迷子イベント4用終端<end>"
+korean = "미아 이벤트 4용 종료<end>"

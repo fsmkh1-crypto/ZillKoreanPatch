@@ -2224,6 +2224,10 @@ korean = "튜토리얼 발생<end>"
 japanese = "未使用未使用<end>"
 korean = "미사용 미사용<end>"
 
+["1971407"]
+japanese = "#5リベルダム占領発生<end>"
+korean = "#5 리벨담 점령 발생<end>"
+
 ["1971416"]
 japanese = "#14ザギヴの歌発生<end>"
 korean = "#14 자기브의 노래 발생<end>"
@@ -2307,6 +2311,10 @@ korean = "발생<end>"
 ["1971504"]
 japanese = "発生<end>"
 korean = "발생<end>"
+
+["1971506"]
+japanese = "#104　ﾉｴﾙ再開発生<end>"
+korean = "#104 노엘 재개 발생<end>"
 
 ["1971512"]
 japanese = "発生<end>"
@@ -2671,6 +2679,10 @@ korean = "발생<end>"
 ["1971602"]
 japanese = "未使用未使用<end>"
 korean = "미사용 미사용<end>"
+
+["1971607"]
+japanese = "#5リベルダム占領終了<end>"
+korean = "#5 리벨담 점령 종료<end>"
 
 ["1971616"]
 japanese = "#14ザギヴの歌終了<end>"

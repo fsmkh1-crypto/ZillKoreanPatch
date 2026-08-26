@@ -80,6 +80,10 @@ korean = "나, 나는….<end>"
 japanese = "…来い、レムオン。<end>"
 korean = "…와라, 레몬.<end>"
 
+["1350180"]
+japanese = "くっ…。<line-break>貴様！<end>"
+korean = "큭…. 네놈!<end>"
+
 ["1350187"]
 japanese = "な、なに！？<end>"
 korean = "뭐, 뭐!?<end>"
@@ -107,6 +111,10 @@ korean = "온 힘을 다해 뿌리친다<end>"
 ["1350218"]
 japanese = "アハハハハハハハ！<end>"
 korean = "아하하하하하하하!<end>"
+
+["1350219"]
+japanese = "じゃあね。<line-break><value:$28>、<line-break>よき終末を！<end>"
+korean = "그럼 안녕. <value:$28>, 좋은 종말을!<end>"
 
 ["1350229"]
 japanese = "ば、ばかな…<end>"

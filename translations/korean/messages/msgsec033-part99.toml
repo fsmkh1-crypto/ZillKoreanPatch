@@ -76,6 +76,10 @@ korean = "하하하, 그럴지도.<end>"
 japanese = "フリントさ～ん！<end>"
 korean = "플린트 씨~!<end>"
 
+["330119"]
+japanese = "あっ！<line-break><value:$28>！<end>"
+korean = "앗! <value:$28>!<end>"
+
 ["330120"]
 japanese = "待て。危険だ。<end>"
 korean = "기다려. 위험해.<end>"

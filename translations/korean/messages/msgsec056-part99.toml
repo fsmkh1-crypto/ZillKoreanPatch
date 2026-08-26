@@ -332,6 +332,10 @@ korean = "뭐라고요?<end>"
 japanese = "断る！<end>"
 korean = "거절한다!<end>"
 
+["560780"]
+japanese = "おぉ、<value:$28>だ。<line-break><value:$28>が帰ってきたぞ！<end>"
+korean = "오, <value:$28>다. <value:$28>가 돌아왔다!<end>"
+
 ["560797"]
 japanese = "ちっ！<end>"
 korean = "칫!<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["380000"]
+japanese = "旅立ち１１メッセージ<end>"
+korean = "여행 출발 11 메시지<end>"
+
 ["380003"]
 japanese = "もういい<end>"
 korean = "됐어<end>"
@@ -7,6 +11,14 @@ korean = "됐어<end>"
 ["380006"]
 japanese = "聞くのをやめる<end>"
 korean = "듣는 걸 그만둔다<end>"
+
+["380009"]
+japanese = "<color:h>アンギルダン<color:o><end>"
+korean = "<color:h>앙길단<color:o><end>"
+
+["380010"]
+japanese = "<color:h>イークレムン<color:o><end>"
+korean = "<color:h>이크렘<color:o><end>"
 
 ["380014"]
 japanese = "<color:h>ヴァン<color:o><end>"

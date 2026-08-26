@@ -20,6 +20,10 @@ korean = "응, 고마워어!<end>"
 japanese = "あー、あの人ぉ！<end>"
 korean = "아ー, 그 사람!<end>"
 
+["1860126"]
+japanese = "ぐすっ…<line-break>どうするのぉ、<line-break><value:$28>？<end>"
+korean = "흑… 어떡할 거야, <value:$28>?<end>"
+
 ["1860149"]
 japanese = "なんだ、お前は！<end>"
 korean = "뭐냐, 넌!<end>"

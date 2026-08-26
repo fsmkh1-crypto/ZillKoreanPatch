@@ -44,6 +44,10 @@ korean = "기억을 더듬는다…?<end>"
 japanese = "（似ている……。）<end>"
 korean = "(닮았어…….)<end>"
 
+["320037"]
+japanese = "ハハハ。<line-break><value:$28>、<line-break>大した人気だな。<end>"
+korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
+
 ["320045"]
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"

@@ -8,6 +8,10 @@ korean = "아…, <value:$28> 씨.<end>"
 japanese = "もう一度…。<end>"
 korean = "다시 한 번….<end>"
 
+["980006"]
+japanese = "いらっしゃいませー。<end>"
+korean = "어서 오세요.<end>"
+
 ["980030"]
 japanese = "…守りたい、のよ。<end>"
 korean = "…지키고 싶어.<end>"
@@ -19,6 +23,10 @@ korean = "냐옹.<end>"
 ["980120"]
 japanese = "マルーンを失った。<end>"
 korean = "마룬을 잃었다.<end>"
+
+["980121"]
+japanese = "もちろん、できている<end>"
+korean = "물론, 준비됐어.<end>"
 
 ["980122"]
 japanese = "まだ、できてない<end>"

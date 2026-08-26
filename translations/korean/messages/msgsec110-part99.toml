@@ -36,6 +36,10 @@ korean = "핫.<end>"
 japanese = "少し、待ってて。<end>"
 korean = "잠깐 기다려.<end>"
 
+["1100060"]
+japanese = "ありがとう、<value:$28>。<end>"
+korean = "고마워, <value:$28>.<end>"
+
 ["1100061"]
 japanese = "ザギヴ様！<end>"
 korean = "자기브 님!<end>"
@@ -67,6 +71,10 @@ korean = "그 괴물?<end>"
 ["1100087"]
 japanese = "…私、を…。<end>"
 korean = "…나를….<end>"
+
+["1100092"]
+japanese = "あなたは…<line-break><value:$28>…。<line-break>見ていたの？<end>"
+korean = "당신은… <value:$28>…. 보고 있었어?<end>"
 
 ["1100094"]
 japanese = "恐ろしくない<end>"

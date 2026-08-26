@@ -36,6 +36,10 @@ korean = "여어, 너구나.<end>"
 japanese = "親父、酒はまだか。<end>"
 korean = "아저씨, 술은 아직이야?<end>"
 
+["1420110"]
+japanese = "　　　来たか、<value:$28>…。<line-break><line-break><line-break><end>"
+korean = "왔나, <value:$28>….<end>"
+
 ["1420126"]
 japanese = "物好きなこったな。<end>"
 korean = "별난 사람이네.<end>"

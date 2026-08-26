@@ -7,3 +7,7 @@ korean = "부조리를 죽이러 왔다<end>"
 ["1060077"]
 japanese = "ブゾリの配下になる<end>"
 korean = "부조리의 부하가 된다<end>"
+
+["1060115"]
+japanese = "…まさか、<value:$28>様？<end>"
+korean = "…설마, <value:$28> 님?<end>"

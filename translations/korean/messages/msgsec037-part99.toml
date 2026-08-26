@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["370000"]
+japanese = "旅立ち１１メッセージ<end>"
+korean = "여행 출발 11 메시지<end>"
+
 ["370009"]
 japanese = "わかってる。船長。<end>"
 korean = "알고 있어. 선장.<end>"
@@ -23,6 +27,10 @@ korean = "엥? 왜?<end>"
 ["370048"]
 japanese = "大丈夫？　<value:$28>。<end>"
 korean = "괜찮아? <value:$28>.<end>"
+
+["370051"]
+japanese = "船長、ありがとうね。<end>"
+korean = "선장, 고마워.<end>"
 
 ["370052"]
 japanese = "船長、ありがとよ。<end>"
@@ -55,6 +63,10 @@ korean = "누구?<end>"
 ["370081"]
 japanese = "メイア…。<end>"
 korean = "메이아….<end>"
+
+["370093"]
+japanese = "人間じゃ、ないのね。<end>"
+korean = "인간이 아니구나.<end>"
 
 ["370096"]
 japanese = "うう…。お願い…。<end>"
@@ -100,6 +112,10 @@ korean = "잡아라.<end>"
 japanese = "…元気で、ね。<end>"
 korean = "…잘 지내.<end>"
 
+["370199"]
+japanese = "わかんねぇのか？　　<end>"
+korean = "모르겠냐?<end>"
+
 ["370207"]
 japanese = "今は、な。<end>"
 korean = "지금은 말이지.<end>"
@@ -107,6 +123,10 @@ korean = "지금은 말이지.<end>"
 ["370216"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"
+
+["370218"]
+japanese = "わかってるさ。船長。<end>"
+korean = "알고 있어, 선장.<end>"
 
 ["370223"]
 japanese = "大丈夫か？　<value:$28>。<end>"
@@ -143,6 +163,10 @@ korean = "구할 거야?<end>"
 ["370254"]
 japanese = "待ってくれ、<value:$28>。<end>"
 korean = "기다려 줘, <value:$28>.<end>"
+
+["370255"]
+japanese = "メイアを…助けよう。<end>"
+korean = "메이아를… 구하자.<end>"
 
 ["370256"]
 japanese = "やだね。<end>"
