@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2570000"]
+japanese = "新月のレムオン用開始<end>"
+korean = "신월의 레므온용 시작<end>"
+
 ["2570002"]
 japanese = "うおっ！<end>"
 korean = "우왓!<end>"
+
+["2570007"]
+japanese = "ちぇっ、バレてたか。<end>"
+korean = "쳇, 들켰나.<end>"
+
+["2570021"]
+japanese = "新月のレムオン用終端<end>"
+korean = "신월의 레므온용 종료<end>"

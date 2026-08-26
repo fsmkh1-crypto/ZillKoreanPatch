@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2580000"]
+japanese = "PSP用誕生日イベント用<end>"
+korean = "PSP용 생일 이벤트용<end>"
+
 ["2580031"]
 japanese = "…めでたい。<end>"
 korean = "…경사로군.<end>"
@@ -11,3 +15,7 @@ korean = "꺅! 오늘 <value:$28> 생일일지도!<end>"
 ["2580074"]
 japanese = "今日は<value:$28>の誕生日か。<end>"
 korean = "오늘은 <value:$28>의 생일인가.<end>"
+
+["2580085"]
+japanese = "PSP用誕生日イベント用<end>"
+korean = "PSP용 생일 이벤트용<end>"
