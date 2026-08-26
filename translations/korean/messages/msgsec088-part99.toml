@@ -36,6 +36,10 @@ korean = "귀찮다. 처리해!<end>"
 japanese = "イタタタ！　くそっ！<end>"
 korean = "아야야! 젠장!<end>"
 
+["880054"]
+japanese = "…？<line-break>会っておきたい人？<end>"
+korean = "…? 만나두고 싶은 사람?<end>"
+
 ["880057"]
 japanese = "どいてよ、もう！<end>"
 korean = "비켜 줘, 정말!<end>"
@@ -132,6 +136,10 @@ korean = "아, 움직여져!<end>"
 japanese = "さ、ついてきて。<end>"
 korean = "자, 따라와.<end>"
 
+["880161"]
+japanese = "ごめん…。<line-break>心配かけて。<end>"
+korean = "미안해…. 걱정 끼쳐서.<end>"
+
 ["880167"]
 japanese = "はい<end>"
 korean = "네<end>"
@@ -143,6 +151,10 @@ korean = "아니요<end>"
 ["880184"]
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
+
+["880185"]
+japanese = "なんの用なの！<line-break>シャリ！<end>"
+korean = "무슨 일이야! 샤리!<end>"
 
 ["880189"]
 japanese = "結構、浮気者じゃない？<end>"

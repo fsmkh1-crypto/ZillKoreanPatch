@@ -52,6 +52,10 @@ korean = "아ーーーーー! <value:$28>! <value:$28>ー!<end>"
 japanese = "さようなら…<value:$28>。<end>"
 korean = "안녕… <value:$28>.<end>"
 
+["1020056"]
+japanese = "<value:$28>…。<line-break>せめて、苦しまないように<line-break>殺してあげる。<end>"
+korean = "<value:$28>…. 적어도 고통스럽지 않게 죽여줄게.<end>"
+
 ["1020057"]
 japanese = "え…ど、どうして…。<end>"
 korean = "어… 왜, 왜….<end>"

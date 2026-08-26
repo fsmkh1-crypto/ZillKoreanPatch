@@ -72,6 +72,10 @@ korean = "내키지 않는데…<end>"
 japanese = "じゃ、行こう、<value:$28>。<end>"
 korean = "그럼 가자, <value:$28>.<end>"
 
+["280137"]
+japanese = "あ、ねえ、<value:$28>。<line-break>ボンガさんがいる裏山は<line-break>奥だよ。<end>"
+korean = "아, 있지, <value:$28>. 봉가 씨가 있는 뒷산은 더 안쪽이야.<end>"
+
 ["280144"]
 japanese = "ヴァン！<end>"
 korean = "반!<end>"

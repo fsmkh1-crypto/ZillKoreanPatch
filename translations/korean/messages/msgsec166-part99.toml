@@ -40,9 +40,49 @@ korean = "적 전체에 풍속성 공격<end>"
 japanese = "敵１体を毒状態にする<end>"
 korean = "적 1명을 독 상태로 만든다.<end>"
 
+["1660036"]
+japanese = "敵１体を石化状態にする<end>"
+korean = "적 1명을 석화 상태로 만든다<end>"
+
 ["1660039"]
 japanese = "敵１体に聖属性攻撃<end>"
 korean = "적 1체에 성속성 공격<end>"
+
+["1660044"]
+japanese = "味方１人にバリアをはる<end>"
+korean = "아군 1명에게 배리어를 친다<end>"
+
+["1660048"]
+japanese = "敵全体を眠り状態にする<end>"
+korean = "적 전체를 수면 상태로 만든다<end>"
+
+["1660049"]
+japanese = "敵１体を眠り状態にする<end>"
+korean = "적 1명을 수면 상태로 만든다<end>"
+
+["1660050"]
+japanese = "敵１体を沈黙状態にする<end>"
+korean = "적 1명을 침묵 상태로 만든다<end>"
+
+["1660051"]
+japanese = "敵１体をマヒ状態にする<end>"
+korean = "적 1명을 마비 상태로 만든다<end>"
+
+["1660052"]
+japanese = "敵１体を石化状態にする<end>"
+korean = "적 1명을 석화 상태로 만든다<end>"
+
+["1660053"]
+japanese = "敵全体を沈黙状態にする<end>"
+korean = "적 전체를 침묵 상태로 만든다<end>"
+
+["1660054"]
+japanese = "敵全体を幻覚状態にする<end>"
+korean = "적 전체를 환각 상태로 만든다<end>"
+
+["1660055"]
+japanese = "敵全体を暗闇状態にする<end>"
+korean = "적 전체를 암흑 상태로 만든다<end>"
 
 ["1660057"]
 japanese = "武器に火属性を付加<end>"
@@ -100,6 +140,10 @@ korean = "상품 등을 팔아 번 돈<end>"
 japanese = "蒼い花が美しい花<end>"
 korean = "푸른 꽃이 아름다운 꽃<end>"
 
+["1660121"]
+japanese = "火山に生える多年草の種<end>"
+korean = "화산에 자라는 다년초의 씨앗<end>"
+
 ["1660126"]
 japanese = "闇のように真っ黒な花<end>"
 korean = "어둠처럼 새까만 꽃<end>"
@@ -107,6 +151,10 @@ korean = "어둠처럼 새까만 꽃<end>"
 ["1660127"]
 japanese = "他人に送る通信文<end>"
 korean = "다른 사람에게 보내는 통신문<end>"
+
+["1660128"]
+japanese = "首領から部下への指令書<end>"
+korean = "두목이 부하에게 내린 지령서<end>"
 
 ["1660133"]
 japanese = "神の教えを書いた本<end>"
@@ -168,6 +216,10 @@ korean = "현자 녹사의 붉은 보석<end>"
 japanese = "賢者ノクサの青い宝石<end>"
 korean = "현자 녹사의 푸른 보석<end>"
 
+["1660168"]
+japanese = "賢者ノクサの黄色い宝石<end>"
+korean = "현자 녹사의 노란 보석<end>"
+
 ["1660169"]
 japanese = "賢者ノクサの緑の宝石<end>"
 korean = "현자 녹사의 초록 보석<end>"
@@ -192,9 +244,21 @@ korean = "성새도시 유적의 소문<end>"
 japanese = "ネメア救出<end>"
 korean = "네메아 구출<end>"
 
+["1660204"]
+japanese = "アンギルダンの合い言葉<end>"
+korean = "앙길단의 암호<end>"
+
+["1660205"]
+japanese = "ゴブリン３匹はどこへ？<end>"
+korean = "고블린 3마리는 어디로?<end>"
+
 ["1660206"]
 japanese = "禁断の聖杯<end>"
 korean = "금단의 성배<end>"
+
+["1660207"]
+japanese = "ゴブリン３匹はどこへ？<end>"
+korean = "고블린 3마리는 어디로?<end>"
 
 ["1660208"]
 japanese = "禁断の聖杯<end>"
@@ -211,6 +275,18 @@ korean = "오즈월드 조사<end>"
 ["1660213"]
 japanese = "オズワルドの調査<end>"
 korean = "오즈월드 조사<end>"
+
+["1660214"]
+japanese = "どこの傭兵だったかな？<end>"
+korean = "어디 용병이었더라?<end>"
+
+["1660215"]
+japanese = "どこの傭兵だったかな？<end>"
+korean = "어디 용병이었더라?<end>"
+
+["1660216"]
+japanese = "アキュリュースの傭兵？<end>"
+korean = "아큐류스의 용병?<end>"
 
 ["1660217"]
 japanese = "色惑の瞳<end>"
@@ -244,6 +320,10 @@ korean = "앙길단의 편지<end>"
 japanese = "ガルドランはどこへ？<end>"
 korean = "갈드란은 어디로?<end>"
 
+["1660225"]
+japanese = "どこの傭兵だったかな？<end>"
+korean = "어디 용병이었더라?<end>"
+
 ["1660226"]
 japanese = "怪物退治の依頼<end>"
 korean = "괴물 퇴치 의뢰<end>"
@@ -251,6 +331,10 @@ korean = "괴물 퇴치 의뢰<end>"
 ["1660227"]
 japanese = "女魔道士のお願い<end>"
 korean = "여자 마도사의 부탁<end>"
+
+["1660228"]
+japanese = "ものすごい獣退治の依頼<end>"
+korean = "엄청난 짐승 퇴치 의뢰<end>"
 
 ["1660229"]
 japanese = "火山岩地帯の魔物退治<end>"
@@ -271,6 +355,10 @@ korean = "봉황 탐색 의뢰<end>"
 ["1660233"]
 japanese = "首飾り探し<end>"
 korean = "목걸이 찾기<end>"
+
+["1660234"]
+japanese = "クロイス邸へのお届け物<end>"
+korean = "크로이스 저택에 전할 물건<end>"
 
 ["1660235"]
 japanese = "ハンナの人形<end>"

@@ -116,6 +116,10 @@ korean = "아, 아니…<end>"
 japanese = "…い…や。<end>"
 korean = "…아…니.<end>"
 
+["890197"]
+japanese = "そう…<line-break>仕方ない…わね。<end>"
+korean = "그래… 어쩔 수… 없네.<end>"
+
 ["890217"]
 japanese = "私…だけ…<end>"
 korean = "나…만…<end>"
@@ -283,6 +287,10 @@ korean = "그럴 수가….<end>"
 ["890490"]
 japanese = "お願い！　逃げて！<end>"
 korean = "부탁이야! 도망쳐!<end>"
+
+["890504"]
+japanese = "よく来た、フリントの息子<line-break><value:$28>よ。<line-break>今日は何用か？<end>"
+korean = "잘 왔다, 플린트의 아들 <value:$28>이여. 오늘은 무슨 일이지?<end>"
 
 ["890507"]
 japanese = "謁見の間へ行く<end>"

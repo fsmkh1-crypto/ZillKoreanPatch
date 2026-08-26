@@ -16,6 +16,14 @@ korean = "그렇다면, 간다.<end>"
 japanese = "…さらばだ。<end>"
 korean = "…잘 있어라.<end>"
 
+["1930027"]
+japanese = "行ってしまいましたね。<end>"
+korean = "가버렸네요.<end>"
+
+["1930032"]
+japanese = "なんですか、お父さま？<end>"
+korean = "무슨 일이세요, 아버님?<end>"
+
 ["1930047"]
 japanese = "あ…、え？　え？<end>"
 korean = "아…, 어? 어?<end>"
@@ -35,6 +43,14 @@ korean = "하지만!<end>"
 ["1930063"]
 japanese = "僕も、そう思うよ。<end>"
 korean = "나도 그렇게 생각해.<end>"
+
+["1930065"]
+japanese = "ヴァン、別の大陸って？<end>"
+korean = "반, 다른 대륙이라니?<end>"
+
+["1930068"]
+japanese = "よーし、じゃあそこ！！<line-break><value:$28>、<line-break>それでいいよな？<end>"
+korean = "좋아, 그럼 거기!! <value:$28>, 그걸로 괜찮지?<end>"
 
 ["1930079"]
 japanese = "師匠？<end>"

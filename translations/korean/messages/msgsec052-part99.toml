@@ -20,6 +20,10 @@ korean = "돌아가기<end>"
 japanese = "戻らない<end>"
 korean = "돌아가지 않는다<end>"
 
+["520039"]
+japanese = "では、私と<value:$28>は<line-break>これにて退出いたします。<line-break>失礼。<end>"
+korean = "그럼 저와 <value:$28>은 이만 물러가겠습니다. 실례합니다.<end>"
+
 ["520041"]
 japanese = "…勝手にするがいい！<end>"
 korean = "…마음대로 해라!<end>"

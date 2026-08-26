@@ -104,6 +104,10 @@ korean = "으음, 방심한 고브~!<end>"
 japanese = "団長～！<end>"
 korean = "단장~!<end>"
 
+["620089"]
+japanese = "団長～。<line-break>助けてゴブ～。<end>"
+korean = "단장~. 도와줘 고브~.<end>"
+
 ["620090"]
 japanese = "ほら、どうするの？<end>"
 korean = "자, 어떻게 할 거야?<end>"
@@ -115,6 +119,10 @@ korean = "에에~!?<end>"
 ["620110"]
 japanese = "親分！　あいつらゴブ！<end>"
 korean = "두목! 저놈들 고브!<end>"
+
+["620115"]
+japanese = "私たちはお客よ。<line-break>ほら。<end>"
+korean = "우리는 손님이야. 봐.<end>"
 
 ["620120"]
 japanese = "親分、腹減ったゴブ～。<end>"

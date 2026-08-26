@@ -16,6 +16,14 @@ korean = "큭….<end>"
 japanese = "お、お待ちなさい！！<end>"
 korean = "자, 잠깐만요!!<end>"
 
+["1840027"]
+japanese = "そんな無責任なことを！<end>"
+korean = "그렇게 무책임한 말을!<end>"
+
+["1840028"]
+japanese = "責めることはできない…<end>"
+korean = "탓할 수는 없어….<end>"
+
 ["1840032"]
 japanese = "そこまでです。<end>"
 korean = "거기까지입니다.<end>"
@@ -31,6 +39,10 @@ korean = "네….<end>"
 ["1840053"]
 japanese = "やっぱり、助けたい！<end>"
 korean = "역시 돕고 싶어!<end>"
+
+["1840054"]
+japanese = "今は町の安全が優先だ…<end>"
+korean = "지금은 마을의 안전이 우선이다….<end>"
 
 ["1840058"]
 japanese = "<value:$28>さん！！<end>"

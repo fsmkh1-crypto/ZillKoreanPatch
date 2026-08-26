@@ -16,9 +16,21 @@ korean = "후후, 오랜만이군.<end>"
 japanese = "ふっふ、久しいな。<end>"
 korean = "후후, 오랜만이군.<end>"
 
+["1900071"]
+japanese = "ふっふっふ、久しいな。<end>"
+korean = "후후후, 오랜만이군.<end>"
+
+["1900088"]
+japanese = "僕は、ただ願いを救う。<end>"
+korean = "나는 그저 소원을 구할 뿐이다.<end>"
+
 ["1900092"]
 japanese = "じゃあね、<value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
+
+["1900111"]
+japanese = "え…！　カ、カルラ様？<end>"
+korean = "어…! 카, 카를라 님?<end>"
 
 ["1900115"]
 japanese = "ネメア様！<end>"
@@ -28,6 +40,14 @@ korean = "네메아 님!<end>"
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
 
+["1900122"]
+japanese = "傷付いたら戻るがいい。<end>"
+korean = "다치면 돌아오거라.<end>"
+
+["1900123"]
+japanese = "ここはお任せください。<end>"
+korean = "여기는 맡겨주십시오.<end>"
+
 ["1900126"]
 japanese = "無理はしないのよ。<end>"
 korean = "무리하지 마.<end>"
@@ -35,6 +55,14 @@ korean = "무리하지 마.<end>"
 ["1900127"]
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
+
+["1900128"]
+japanese = "傷付いたら戻るがいい。<end>"
+korean = "다치면 돌아오거라.<end>"
+
+["1900129"]
+japanese = "ここはお任せください。<end>"
+korean = "여기는 맡겨주십시오.<end>"
 
 ["1900138"]
 japanese = "あ、<value:$28>様。<end>"

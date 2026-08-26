@@ -40,6 +40,10 @@ korean = "…세라.<end>"
 japanese = "…ロイ。<end>"
 korean = "…로이.<end>"
 
+["730063"]
+japanese = "さぁ、行こう。<line-break>姉さん。<end>"
+korean = "자, 가자. 누나.<end>"
+
 ["730064"]
 japanese = "どうして…！<line-break>姉さん！<end>"
 korean = "어째서…! 언니!<end>"
@@ -59,6 +63,10 @@ korean = "…세라…인가?<end>"
 ["730082"]
 japanese = "…ロイ。<line-break>いったか…。<end>"
 korean = "…로이. 갔나….<end>"
+
+["730084"]
+japanese = "さぁ、行こう。<line-break>姉さん。<end>"
+korean = "자, 가자. 누나.<end>"
 
 ["730085"]
 japanese = "どうして…！<line-break>姉さん！<end>"

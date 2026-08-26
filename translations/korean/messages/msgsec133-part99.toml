@@ -92,6 +92,10 @@ korean = "어라? 뭐지…?<end>"
 japanese = "どうするつもり？<end>"
 korean = "어떻게 할 생각이야?<end>"
 
+["1330224"]
+japanese = "待ってるよ、<line-break><value:$28>。<end>"
+korean = "기다리고 있을게, <value:$28>.<end>"
+
 ["1330234"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
@@ -99,6 +103,10 @@ korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 ["1330238"]
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
+
+["1330246"]
+japanese = "待ってるよ、<line-break><value:$28>。<end>"
+korean = "기다리고 있을게, <value:$28>.<end>"
 
 ["1330248"]
 japanese = "では、行きますよ。<end>"
@@ -227,6 +235,10 @@ korean = "뭐…, 뭐야…!?<end>"
 ["1330436"]
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
+
+["1330443"]
+japanese = "よう、待ってたよ。<line-break>無限のソウルの持ち主。<line-break><value:$28>。<end>"
+korean = "여어, 기다리고 있었어. 무한의 소울을 지닌 자. <value:$28>.<end>"
 
 ["1330451"]
 japanese = "待てよ、<value:$28>！<end>"

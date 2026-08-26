@@ -96,6 +96,10 @@ korean = "이건…!<end>"
 japanese = "！<end>"
 korean = "！<end>"
 
+["320084"]
+japanese = "<value:$28>、<line-break>ここを離れるんだ。<line-break>村人を避難させてくれ。<end>"
+korean = "<value:$28>, 여길 떠나. 마을 사람들을 대피시켜 줘.<end>"
+
 ["320086"]
 japanese = "<value:$28>、よせ！<end>"
 korean = "<value:$28>, 그만둬!<end>"

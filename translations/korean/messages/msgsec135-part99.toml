@@ -20,6 +20,10 @@ korean = "음, 뭐, 그렇지.<end>"
 japanese = "なぜって？<end>"
 korean = "왜냐고?<end>"
 
+["1350021"]
+japanese = "いいだろ。<line-break>なんも、問題はねえ。<line-break>そうだろ、<value:$28>？<end>"
+korean = "괜찮잖아. 아무 문제도 없어. 그렇지, <value:$28>?<end>"
+
 ["1350024"]
 japanese = "それと、だ。<end>"
 korean = "그리고 말이야.<end>"
@@ -99,6 +103,10 @@ korean = "제네테스 님!!!<end>"
 ["1350137"]
 japanese = "この…邪悪な吸血鬼め！<end>"
 korean = "이… 사악한 흡혈귀 놈!<end>"
+
+["1350147"]
+japanese = "ウフフフ…<line-break>アハハハハ…<line-break> <line-break>もろい、もろいよ。<end>"
+korean = "우후후후… 아하하하하…. 약해, 너무 약해.<end>"
 
 ["1350153"]
 japanese = "な、なに！？<end>"
@@ -423,6 +431,10 @@ korean = "가만히 내버려 둔다<end>"
 ["1350492"]
 japanese = "聞かないのな。<end>"
 korean = "안 묻는구나.<end>"
+
+["1350508"]
+japanese = "ありがとよ…<line-break><value:$28>…<end>"
+korean = "고맙다… <value:$28>….<end>"
 
 ["1350519"]
 japanese = "…ちっ<end>"

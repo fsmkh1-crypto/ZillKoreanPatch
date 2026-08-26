@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1940000"]
+japanese = "イベントセレクト用開始<end>"
+korean = "이벤트 선택용 시작<end>"
+
 ["1940002"]
 japanese = "だましもの<end>"
 korean = "사기꾼<end>"
@@ -84,6 +88,10 @@ korean = "로스토르 편<end>"
 japanese = "シーン０５：伐採場<end>"
 korean = "씬 05: 벌목장<end>"
 
+["1940061"]
+japanese = "シーン０６：ボンガ宅前<end>"
+korean = "신 06: 봉가 집 앞<end>"
+
 ["1940062"]
 japanese = "シーン０７：広場<end>"
 korean = "신 07: 광장<end>"
@@ -119,3 +127,7 @@ korean = "신 01:<end>"
 ["1940124"]
 japanese = "シーン０１：<end>"
 korean = "신 01:<end>"
+
+["1941125"]
+japanese = "イベントセレクト用終端<end>"
+korean = "이벤트 선택용 끝<end>"

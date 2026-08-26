@@ -28,6 +28,14 @@ korean = "눈치 빠른 여자아이<end>"
 japanese = "冒険好きの男<end>"
 korean = "모험을 좋아하는 남자<end>"
 
+["1670007"]
+japanese = "ネメアびいきのおばさん<end>"
+korean = "네메아를 편애하는 아주머니<end>"
+
+["1670008"]
+japanese = "ネメアに詳しいお爺さん<end>"
+korean = "네메아를 잘 아는 할아버지<end>"
+
 ["1670009"]
 japanese = "噂好きの娘<end>"
 korean = "소문 좋아하는 아가씨<end>"
@@ -276,9 +284,17 @@ korean = "항구의 볼단<end>"
 japanese = "商人<end>"
 korean = "상인<end>"
 
+["1670083"]
+japanese = "砂漠の民に興味がある男<end>"
+korean = "사막의 민족에 관심 있는 남자<end>"
+
 ["1670084"]
 japanese = "広場の娘<end>"
 korean = "광장의 아가씨<end>"
+
+["1670085"]
+japanese = "でっかくなりたい男の子<end>"
+korean = "커지고 싶은 남자아이<end>"
 
 ["1670086"]
 japanese = "冒険者に詳しい青年<end>"
@@ -572,6 +588,10 @@ korean = "소울을 이야기하는 신관<end>"
 japanese = "遊ぶ子供<end>"
 korean = "노는 아이<end>"
 
+["1670168"]
+japanese = "マグマゴーレムの研究者<end>"
+korean = "마그마 골렘 연구자<end>"
+
 ["1670169"]
 japanese = "周辺に詳しい女魔道士<end>"
 korean = "주변 사정에 밝은 여마도사<end>"
@@ -623,6 +643,10 @@ korean = "귀여운 마을 아가씨<end>"
 ["1670182"]
 japanese = "昔語り爺さん<end>"
 korean = "옛이야기 할아버지<end>"
+
+["1670183"]
+japanese = "引っ越してきたおばさん<end>"
+korean = "이사 온 아주머니<end>"
 
 ["1670184"]
 japanese = "元気な母さん<end>"
@@ -883,6 +907,10 @@ korean = "순례선 선장<end>"
 ["1670252"]
 japanese = "散歩するおじさん<end>"
 korean = "산책하는 아저씨<end>"
+
+["1670253"]
+japanese = "パトロール中の自警団員<end>"
+korean = "순찰 중인 자경단원<end>"
 
 ["1670254"]
 japanese = "たくましい男<end>"

@@ -4,6 +4,10 @@
 japanese = "敵１体に火属性攻撃<end>"
 korean = "적 1체에 화속성 공격<end>"
 
+["1650001"]
+japanese = "敵１体を混乱状態にする<end>"
+korean = "적 1명을 혼란 상태로 만든다<end>"
+
 ["1650003"]
 japanese = "敵１体に水属性攻撃<end>"
 korean = "적 1체에 수속성 공격<end>"
@@ -16,6 +20,10 @@ korean = "적 1명을 독 상태로 만든다.<end>"
 japanese = "敵１体に土属性攻撃<end>"
 korean = "적 1체에 토속성 공격<end>"
 
+["1650007"]
+japanese = "敵１体を暗闇状態にする<end>"
+korean = "적 1명을 암흑 상태로 만든다<end>"
+
 ["1650008"]
 japanese = "前方に瞬間移動する<end>"
 korean = "전방으로 순간이동한다<end>"
@@ -23,6 +31,14 @@ korean = "전방으로 순간이동한다<end>"
 ["1650009"]
 japanese = "敵１体に風属性攻撃<end>"
 korean = "적 1체에 풍속성 공격<end>"
+
+["1650010"]
+japanese = "敵１体を沈黙状態にする<end>"
+korean = "적 1명을 침묵 상태로 만든다<end>"
+
+["1650011"]
+japanese = "ダンジョンの入口に戻る<end>"
+korean = "던전 입구로 돌아간다<end>"
 
 ["1650012"]
 japanese = "武器に火属性を付加<end>"
@@ -84,6 +100,10 @@ korean = "갑옷에 땅 속성 부여<end>"
 japanese = "敵全体に土属性攻撃<end>"
 korean = "적 전체에 토속성 공격<end>"
 
+["1650028"]
+japanese = "敵１体を石化状態にする<end>"
+korean = "적 1명을 석화 상태로 만든다<end>"
+
 ["1650029"]
 japanese = "敵全体に土属性攻撃<end>"
 korean = "적 전체에 토속성 공격<end>"
@@ -107,6 +127,10 @@ korean = "적 전체에 풍속성 공격<end>"
 ["1650035"]
 japanese = "敵全体に風属性攻撃<end>"
 korean = "적 전체에 풍속성 공격<end>"
+
+["1650036"]
+japanese = "味方１人にバリアをはる<end>"
+korean = "아군 1명에게 배리어를 친다<end>"
 
 ["1650040"]
 japanese = "敵１体に落雷で攻撃<end>"
@@ -132,6 +156,14 @@ korean = "아군 1명의 HP를 회복한다.<end>"
 japanese = "味方全員のＨＰを回復<end>"
 korean = "아군 전원의 HP를 회복한다.<end>"
 
+["1650051"]
+japanese = "敵１体を眠り状態にする<end>"
+korean = "적 1명을 수면 상태로 만든다<end>"
+
+["1650053"]
+japanese = "敵全体を幻覚状態にする<end>"
+korean = "적 전체를 환각 상태로 만든다<end>"
+
 ["1650054"]
 japanese = "敵１体のＭＰを吸収<end>"
 korean = "적 1체의 MP를 흡수<end>"
@@ -156,6 +188,10 @@ korean = "적 1체에 암속성 공격<end>"
 japanese = "敵全体に闇属性攻撃<end>"
 korean = "적 전체에 암속성 공격<end>"
 
+["1650064"]
+japanese = "敵１体を呪い状態にする<end>"
+korean = "적 1명을 저주 상태로 만든다<end>"
+
 ["1650065"]
 japanese = "味方１人の呪いを回復<end>"
 korean = "아군 1명의 저주를 해제한다.<end>"
@@ -163,6 +199,10 @@ korean = "아군 1명의 저주를 해제한다.<end>"
 ["1650066"]
 japanese = "味方全員の呪いを回復<end>"
 korean = "아군 전원의 저주를 해제한다.<end>"
+
+["1650067"]
+japanese = "味方全員にバリアをはる<end>"
+korean = "아군 전원에게 배리어를 친다<end>"
 
 ["1650070"]
 japanese = "敵全体に闇属性攻撃<end>"
@@ -184,6 +224,10 @@ korean = "복합 정령 마법<end>"
 japanese = "ＨＰ回復系の魔法<end>"
 korean = "HP 회복계 마법<end>"
 
+["1650077"]
+japanese = "邪悪な力による攻撃魔法<end>"
+korean = "사악한 힘을 이용한 공격 마법<end>"
+
 ["1650087"]
 japanese = "敵１体を２連続攻撃<end>"
 korean = "적 1체를 2연속 공격<end>"
@@ -196,6 +240,10 @@ korean = "적 1체를 즉사<end>"
 japanese = "衝撃波で敵全体を攻撃<end>"
 korean = "충격파로 적 전체를 공격한다.<end>"
 
+["1650099"]
+japanese = "一度に２つの魔法を使用<end>"
+korean = "한 번에 두 가지 마법을 사용<end>"
+
 ["1650101"]
 japanese = "相手の攻撃魔法を相殺<end>"
 korean = "상대의 공격 마법을 상쇄한다.<end>"
@@ -203,6 +251,18 @@ korean = "상대의 공격 마법을 상쇄한다.<end>"
 ["1650102"]
 japanese = "装備品に属性を付加する魔法<end>"
 korean = "장비에 속성을 부여하는 마법<end>"
+
+["1650107"]
+japanese = "敵全体を幻覚状態にする<end>"
+korean = "적 전체를 환각 상태로 만든다<end>"
+
+["1650110"]
+japanese = "ＨＰを少量のＭＰに変換<end>"
+korean = "HP를 소량의 MP로 변환<end>"
+
+["1650112"]
+japanese = "回避時にカウンター攻撃<end>"
+korean = "회피 시 카운터 공격<end>"
 
 ["1650115"]
 japanese = "距離に関係なく攻撃<end>"

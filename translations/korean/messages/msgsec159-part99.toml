@@ -20,6 +20,10 @@ korean = "아니야, <value:$28>!<end>"
 japanese = "ホントにいいんですか？<end>"
 korean = "정말 괜찮겠어요?<end>"
 
+["1590054"]
+japanese = "どうぞ。歓迎しますよ。<end>"
+korean = "어서 오세요. 환영합니다.<end>"
+
 ["1590059"]
 japanese = "へっ、どうだかな！<end>"
 korean = "흥, 글쎄다!<end>"
@@ -84,6 +88,10 @@ korean = "네모에 대해서<end>"
 japanese = "アスティアについて<end>"
 korean = "아스티아에 대해<end>"
 
+["1590130"]
+japanese = "ヴァシュタールについて<end>"
+korean = "바슈타르에 대하여<end>"
+
 ["1590131"]
 japanese = "質問はない<end>"
 korean = "질문은 없어<end>"
@@ -119,6 +127,10 @@ korean = "우물 우물 우물물<end>"
 ["1590185"]
 japanese = "わ、すごいすごーい！！<end>"
 korean = "와, 대단해 대단해ー!!<end>"
+
+["1590193"]
+japanese = "急がないと、　　　　　　　　　　　　<line-break><value:$28>。<line-break>　<end>"
+korean = "서두르지 않으면 안 돼, <value:$28>.<end>"
 
 ["1590196"]
 japanese = "待ってよぉ！<end>"

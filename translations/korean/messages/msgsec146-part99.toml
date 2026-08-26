@@ -4,6 +4,10 @@
 japanese = "エスト用メッセージ開始<end>"
 korean = "에스트용 메시지 시작<end>"
 
+["1460001"]
+japanese = "<value:$28>！ <line-break>こんな所で会うなんて、<line-break>すごい偶然だね。<end>"
+korean = "<value:$28>! 이런 곳에서 만나다니, 정말 우연이네.<end>"
+
 ["1460009"]
 japanese = "現実を見ろよ<end>"
 korean = "현실을 봐<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1950000"]
+japanese = "イベントセレクト用開始<end>"
+korean = "이벤트 선택용 시작<end>"
+
 ["1950099"]
 japanese = "＃２：ゼネテス<end>"
 korean = "#2: 제네테스<end>"
@@ -19,6 +23,10 @@ korean = "#5: 차카<end>"
 ["1950105"]
 japanese = "＃７：デルガド<end>"
 korean = "#7: 델가도<end>"
+
+["1950106"]
+japanese = "＃８：レルラ＝ロントン<end>"
+korean = "#8: 렐라=론톤<end>"
 
 ["1950109"]
 japanese = "＃１０：アイリーン<end>"
@@ -56,6 +64,10 @@ korean = "#18: 티아나<end>"
 japanese = "＃１９：ノエル<end>"
 korean = "#19: 노엘<end>"
 
+["1950119"]
+japanese = "＃２０：ノエル・ベスト<end>"
+korean = "#20: 노엘 베스트<end>"
+
 ["1950120"]
 japanese = "＃２１：ヒルダリア<end>"
 korean = "#21: 힐다리아<end>"
@@ -71,3 +83,7 @@ korean = "#23: 루루안타<end>"
 ["1950123"]
 japanese = "＃２４：主人公のみ<end>"
 korean = "#24: 주인공만<end>"
+
+["1951111"]
+japanese = "イベントセレクト用終端<end>"
+korean = "이벤트 선택용 끝<end>"

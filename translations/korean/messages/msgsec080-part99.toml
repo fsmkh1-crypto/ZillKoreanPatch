@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["800034"]
+japanese = "あ～っ！<line-break>お客さんだよ！<end>"
+korean = "아~! 손님이다!<end>"
+
 ["800041"]
 japanese = "復讐？<end>"
 korean = "복수?<end>"
@@ -39,3 +43,7 @@ korean = "그렇구나….<end>"
 ["800068"]
 japanese = "気をつけるんだぜ。<end>"
 korean = "조심하라고.<end>"
+
+["800076"]
+japanese = "んー。<line-break>楽しみじゃのぉ。<end>"
+korean = "음~. 기대되는구먼.<end>"

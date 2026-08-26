@@ -440,6 +440,10 @@ korean = "캐벌리어<end>"
 japanese = "ドラグーンメイル<end>"
 korean = "드라군 메일<end>"
 
+["170175"]
+japanese = "ようこそ<value:$28>さん。有名な<line-break><value:$2B>をお迎えできて光栄です。<end>"
+korean = "어서 오세요, <value:$28> 씨. 유명한 <value:$2B>을 모시게 되어 영광입니다.<end>"
+
 ["170176"]
 japanese = "お泊りになられますか？<end>"
 korean = "묵고 가시겠습니까?<end>"

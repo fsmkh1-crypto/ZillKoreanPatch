@@ -36,6 +36,14 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1740057"]
+japanese = "フフフ、来たか。<line-break><value:$28>よ。<line-break>そして、オイフェよ。<end>"
+korean = "후후후, 왔구나. <value:$28>이여. 그리고 오이페여.<end>"
+
+["1740065"]
+japanese = "変えることができない？<end>"
+korean = "바꿀 수 없다고?<end>"
+
 ["1740074"]
 japanese = "…遅かった、です。<end>"
 korean = "…늦었어요.<end>"
@@ -99,6 +107,10 @@ korean = "뭐, 뭐라고!?<end>"
 ["1740144"]
 japanese = "がは…っ！<end>"
 korean = "크학…!<end>"
+
+["1740150"]
+japanese = "さあ、仕上げといこう。<end>"
+korean = "자, 마무리하자.<end>"
 
 ["1740152"]
 japanese = "ぐ…っ！<end>"

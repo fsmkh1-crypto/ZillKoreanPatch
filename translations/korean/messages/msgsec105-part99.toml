@@ -32,6 +32,10 @@ korean = "전부, 전부.<end>"
 japanese = "全部だそうです。<end>"
 korean = "전부라고 합니다.<end>"
 
+["1050050"]
+japanese = "<value:$28>…。<line-break>あなた…。<end>"
+korean = "<value:$28>…. 당신….<end>"
+
 ["1050051"]
 japanese = "よけいなお世話だのう。<end>"
 korean = "쓸데없는 참견이구먼.<end>"

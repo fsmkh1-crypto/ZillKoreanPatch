@@ -16,6 +16,10 @@ korean = "또 나타났냐!<end>"
 japanese = "ゆくぞ。<end>"
 korean = "간다.<end>"
 
+["1640025"]
+japanese = "ま、まさか…ネメア…！<end>"
+korean = "서, 설마… 네메아…!<end>"
+
 ["1640026"]
 japanese = "こ、この人が！？<end>"
 korean = "이, 이 사람이!?<end>"
@@ -96,6 +100,10 @@ korean = "네 이름은?<end>"
 japanese = "ん…！？<end>"
 korean = "응…!?<end>"
 
+["1640074"]
+japanese = "む…！<line-break>お、お前は！！<end>"
+korean = "뭣…! 너, 너는!!<end>"
+
 ["1640075"]
 japanese = "ネメア！！<end>"
 korean = "네메아!!<end>"
@@ -107,6 +115,10 @@ korean = "윽…!<end>"
 ["1640086"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
+
+["1640092"]
+japanese = "竜王の覚醒は聞いたか？<end>"
+korean = "용왕의 각성 소식은 들었나?<end>"
 
 ["1640094"]
 japanese = "わかるのだ、私には。<end>"

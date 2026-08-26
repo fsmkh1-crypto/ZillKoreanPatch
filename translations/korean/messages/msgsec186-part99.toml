@@ -4,6 +4,10 @@
 japanese = "…ゴメンね。<line-break><value:$28>。<end>"
 korean = "…미안해. <value:$28>.<end>"
 
+["1860036"]
+japanese = "なんなのよぉ、あんた！<end>"
+korean = "뭐야, 너!<end>"
+
 ["1860038"]
 japanese = "ひ、人質ぃ！？<end>"
 korean = "이, 인질이라고!?<end>"
@@ -23,6 +27,18 @@ korean = "응, 고마워어!<end>"
 ["1860065"]
 japanese = "あー、あの人ぉ！<end>"
 korean = "아ー, 그 사람!<end>"
+
+["1860066"]
+japanese = "よぉ、お邪魔してるぜ。<end>"
+korean = "여어, 실례 좀 하고 있어.<end>"
+
+["1860092"]
+japanese = "あぁ、ビックリしたぁ。<end>"
+korean = "아아, 깜짝 놀랐네.<end>"
+
+["1860118"]
+japanese = "<value:$28>…、　　　　　　<line-break>ルルアンタ…、<line-break>無事か…？<end>"
+korean = "<value:$28>…, 루루안타…, 무사한가…?<end>"
 
 ["1860126"]
 japanese = "ぐすっ…<line-break>どうするのぉ、<line-break><value:$28>？<end>"

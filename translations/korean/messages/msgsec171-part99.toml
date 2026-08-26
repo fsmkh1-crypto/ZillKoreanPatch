@@ -20,6 +20,10 @@ korean = "하핫!<end>"
 japanese = "はい。<end>"
 korean = "네.<end>"
 
+["1710027"]
+japanese = "…よし。下がっていい。<end>"
+korean = "…좋아. 물러가도 된다.<end>"
+
 ["1710034"]
 japanese = "こちらは？<end>"
 korean = "이쪽은?<end>"
@@ -71,3 +75,7 @@ korean = "그렇다면 싸울 뿐!<end>"
 ["1710137"]
 japanese = "秩序は大切ですね<end>"
 korean = "질서는 중요하죠<end>"
+
+["1710152"]
+japanese = "イークレムンＶ４　終了<end>"
+korean = "이크레문 V4 종료<end>"

@@ -4,9 +4,17 @@
 japanese = "外の世界を見に行こう<end>"
 korean = "바깥세상을 보러 가자<end>"
 
+["770007"]
+japanese = "…すみません。<line-break>…つい。<end>"
+korean = "…죄송합니다. …그만.<end>"
+
 ["770014"]
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"
+
+["770019"]
+japanese = "…<value:$28>。<line-break>こ、この…。<line-break>く、くそっ！　覚えていろ！<end>"
+korean = "…<value:$28>. 이, 이…. 젠장! 두고 봐!<end>"
 
 ["770021"]
 japanese = "アトレイア…様。<end>"
