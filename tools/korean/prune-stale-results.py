@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
-"""Drop already-translated ordinary rows from pending Korean result packets.
+"""Drop only true no-op duplicates from pending Korean result packets.
 
 This is a race guard for the serialized apply pipeline. A result packet can be
 created from a helper snapshot that becomes stale before its workflow starts,
 because an earlier apply/TM run may translate some of the same IDs first.
 
 Rules:
-- Current corpus always wins for rows whose ID is already translated.
+- An already-translated row is silently skipped only when its Korean text is
+  byte-identical to the current corpus value (a true no-op race duplicate).
+- If an ID already exists but the pending Korean text differs, keep the row so
+  apply-results.py can report the normal fail-closed conflict. This preserves
+  visibility for intentional corrections/retranslations.
 - Conflicting duplicate rows inside the pending inputs remain fatal.
 - Recovery specs are left untouched; apply-results.py already handles them
   fail-safely.
-- Compact sequential rows are expanded to ordinary id rows so individual stale
-  IDs can be removed safely.
+- Compact sequential rows are expanded to ordinary id rows so individual true
+  duplicates can be removed safely.
 - This script does not validate controls or write overlays; apply-results.py
   remains the authoritative validator/applicator.
 """
@@ -21,7 +25,6 @@ import argparse
 import json
 from pathlib import Path
 import re
-import sys
 import tomllib
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -36,15 +39,24 @@ def section_from_path(path: Path) -> int:
     return int(match.group(1))
 
 
-def load_existing_ids() -> set[tuple[int, str]]:
-    existing: set[tuple[int, str]] = set()
+def load_existing() -> dict[tuple[int, str], str]:
+    existing: dict[tuple[int, str], str] = {}
+    owners: dict[tuple[int, str], Path] = {}
     for path in sorted(KOREAN.glob("msgsec*.toml")):
         section = section_from_path(path)
         with path.open("rb") as f:
             data = tomllib.load(f)
         for rid, rec in data.items():
-            if isinstance(rec, dict) and rec.get("korean"):
-                existing.add((section, str(rid)))
+            if not isinstance(rec, dict) or not rec.get("korean"):
+                continue
+            key = (section, str(rid))
+            ko = str(rec["korean"])
+            if key in existing and existing[key] != ko:
+                raise SystemExit(
+                    f"conflicting Korean id {section}/{rid}: {owners[key]} and {path}"
+                )
+            existing[key] = ko
+            owners[key] = path
     return existing
 
 
@@ -77,14 +89,16 @@ def main() -> None:
     ap.add_argument("inputs", nargs="+", type=Path)
     args = ap.parse_args()
 
-    existing = load_existing_ids()
+    existing = load_existing()
     seen: dict[tuple[int, str], tuple[str, str]] = {}
     total_kept = 0
     total_stale = 0
+    total_conflict_kept = 0
 
     for path in args.inputs:
         kept: list[dict] = []
         stale = 0
+        conflict_kept = 0
         with path.open(encoding="utf-8") as f:
             for lineno, line in enumerate(f, 1):
                 if not line.strip():
@@ -114,19 +128,34 @@ def main() -> None:
                     seen[key] = (ko, origin)
 
                     if key in existing:
-                        stale += 1
-                        total_stale += 1
-                        print(f"stale-skip {key[0]}/{key[1]}: current corpus already translated; source={origin}")
-                        continue
+                        if existing[key] == ko:
+                            stale += 1
+                            total_stale += 1
+                            print(
+                                f"stale-skip {key[0]}/{key[1]}: identical current corpus translation; "
+                                f"source={origin}"
+                            )
+                            continue
+                        conflict_kept += 1
+                        total_conflict_kept += 1
+                        print(
+                            f"conflict-kept {key[0]}/{key[1]}: current corpus differs; "
+                            f"deferring to apply-results.py; source={origin}"
+                        )
 
                     kept.append(row)
                     total_kept += 1
 
         text = "".join(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n" for row in kept)
         path.write_text(text, encoding="utf-8")
-        print(f"{path}: kept={len(kept)} stale-skipped={stale}")
+        print(
+            f"{path}: kept={len(kept)} stale-skipped={stale} conflict-kept={conflict_kept}"
+        )
 
-    print(f"preflight complete: kept={total_kept} stale-skipped={total_stale}")
+    print(
+        f"preflight complete: kept={total_kept} stale-skipped={total_stale} "
+        f"conflict-kept={total_conflict_kept}"
+    )
 
 
 if __name__ == "__main__":
