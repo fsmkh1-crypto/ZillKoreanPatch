@@ -76,7 +76,10 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           if [ -s /tmp/korean-processed-files ]; then
             while IFS= read -r path; do
-              [ -e "$path" ] && git rm -- "$path"
+              # The stale preflight intentionally rewrites result packets in the
+              # working tree. They are consumed only after apply + validation
+              # succeed, so force-removing that local rewrite is safe here.
+              [ -e "$path" ] && git rm -f -- "$path"
             done < /tmp/korean-processed-files
           fi
           git add translations/korean/messages
