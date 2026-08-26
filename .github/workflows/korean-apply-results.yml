@@ -8,6 +8,7 @@ on:
     paths:
       - 'work/korean-results/*.jsonl'
       - 'tools/korean/apply-results.py'
+      - 'tools/korean/prune-stale-results.py'
       - 'tools/korean/refresh-japanese-refs.py'
       - 'tools/korean/next-packet.py'
       - 'tools/korean/auto-trivial.py'
@@ -19,6 +20,9 @@ on:
 permissions:
   contents: write
 
+# All corpus mutation, TM automation, helper regeneration, and helper publish
+# are serialized. A queued run therefore starts from the corpus produced by
+# every earlier run before its stale-result preflight executes.
 concurrency:
   group: korean-translation-pipeline
   cancel-in-progress: false
@@ -32,7 +36,7 @@ jobs:
           ref: translation/section001-batch2
           fetch-depth: 0
 
-      - name: Apply pending result packets idempotently
+      - name: Recheck queued results against current corpus
         shell: bash
         run: |
           shopt -s nullglob
@@ -43,6 +47,17 @@ jobs:
             exit 0
           fi
           printf '%s\n' "${files[@]}" > /tmp/korean-processed-files
+          python3 tools/korean/prune-stale-results.py "${files[@]}"
+
+      - name: Apply pending result packets idempotently
+        shell: bash
+        run: |
+          shopt -s nullglob
+          files=(work/korean-results/*.jsonl)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo 'No result packets found.'
+            exit 0
+          fi
           python3 tools/korean/apply-results.py "${files[@]}"
 
       - name: Migrate legacy semantic line breaks
