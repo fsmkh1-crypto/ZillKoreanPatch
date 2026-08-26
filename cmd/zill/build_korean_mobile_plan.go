@@ -9,14 +9,15 @@ import (
 	"github.com/HK47196/zill/internal/cp932"
 	"github.com/HK47196/zill/internal/fixeddata"
 	"github.com/HK47196/zill/internal/koreanslots"
+	"github.com/HK47196/zill/internal/release"
 	"github.com/HK47196/zill/internal/slotaudit"
 )
 
-// buildKoreanAlphaPlanMobile keeps authenticated structured reservations but,
-// like the English patch's complete font transform, allocates custom runes from
-// the full installed two-byte PAF repertoire rather than requiring a Korean rune
-// to fit the retail cell geometry that happened to belong to that key. The full
-// Korean font repacker rewrites atlas placement and PAF geometry coherently.
+// buildKoreanAlphaPlanMobile builds a development-only device-alpha plan. It
+// uses the same accepted Korean overlay as production but replaces untranslated
+// Japanese rows in memory with a tiny ASCII marker, freeing the Japanese CP932
+// repertoire solely for renderer validation. Production corpus files are never
+// modified by this path.
 func buildKoreanAlphaPlanMobile(root, gameDir string) (koreanslots.Plan, int, int, error) {
 	font, err := loadRetailPAF(gameDir)
 	if err != nil {
@@ -27,6 +28,10 @@ func buildKoreanAlphaPlanMobile(root, gameDir string) (koreanslots.Plan, int, in
 		return koreanslots.Plan{}, 0, 0, err
 	}
 	korean, koreanSummary, err := corpus.LoadKoreanProject(root, source)
+	if err != nil {
+		return koreanslots.Plan{}, 0, 0, err
+	}
+	alphaProject, placeholderCount, err := release.BuildKoreanAlphaPlaceholderProject(source, korean)
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
@@ -62,17 +67,17 @@ func buildKoreanAlphaPlanMobile(root, gameDir string) (koreanslots.Plan, int, in
 	mergeRendererKeys(reserved, bootScan.Keys)
 	mergeRendererKeys(reserved, bindataScan.Keys)
 
-	texts, err := korean.RuntimeTexts(source)
+	texts, err := alphaProject.RuntimeTexts(source)
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	plan, err := koreanslots.BuildPlan(
-		texts,
-		font.DoubleByteKeys(),
-		rendererKeySetSlice(reserved),
-	)
+	installed := font.DoubleByteKeys()
+	stock := koreanslots.RequiredStockKeys(texts)
+	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
 	if err != nil {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile alpha full-font plan allocation: %w", err)
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile alpha placeholder full-font plan allocation: %w", err)
 	}
+	fmt.Printf("Korean alpha slot stats: installed_double_byte=%d stock_required=%d reserved=%d candidates=%d custom=%d placeholders=%d accepted_korean=%d total_records=%d\n",
+		len(installed), len(stock), len(reserved), len(plan.Candidates), len(plan.CustomRunes), placeholderCount, koreanSummary.Records, sourceSummary.Records)
 	return plan, koreanSummary.Records, sourceSummary.Records, nil
 }
