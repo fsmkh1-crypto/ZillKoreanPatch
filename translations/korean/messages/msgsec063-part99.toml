@@ -168,6 +168,10 @@ korean = "예쁜 여동생이라…<end>"
 japanese = "くだらん。誰が実の妹と…。<end>"
 korean = "시시하군. 누가 친여동생과….<end>"
 
+["630239"]
+japanese = "ち、違います。無礼などは…。<end>"
+korean = "아, 아닙니다. 무례라니….<end>"
+
 ["630244"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -191,6 +195,10 @@ korean = "아뇨, 그런 건….<end>"
 ["630264"]
 japanese = "…ごめんなさい。<end>"
 korean = "…미안해요.<end>"
+
+["630270"]
+japanese = "誰が結婚などするものですか！<end>"
+korean = "누가 결혼 같은 걸 한답니까!<end>"
 
 ["630285"]
 japanese = "あら、まだこれからですわ。<end>"
