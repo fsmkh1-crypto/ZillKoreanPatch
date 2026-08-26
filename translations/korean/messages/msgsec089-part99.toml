@@ -856,6 +856,10 @@ korean = "나는 지금 이 <value:$28>와 여행하고 있어.<end>"
 japanese = "そうか。<line-break><value:$28>か。<line-break><line-break>じゃ、よろしくな、<line-break><value:$28>。<end>"
 korean = "그런가. <value:$28>인가. 그럼 잘 부탁한다, <value:$28>.<end>"
 
+["890732"]
+japanese = "…<value:$28>！<line-break>ヴァンには宿屋が…。<end>"
+korean = "…<value:$28>! 반에게는 여관이….<end>"
+
 ["890735"]
 japanese = "　　聞こえるか、<value:$28>よ。<end>"
 korean = "들리느냐, <value:$28>여.<end>"

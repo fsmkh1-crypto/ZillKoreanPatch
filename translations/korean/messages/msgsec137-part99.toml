@@ -104,6 +104,10 @@ korean = "잠깐 기다려<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370182"]
+japanese = "ハハ、頼りにしているぞ<line-break><value:$28>。<end>"
+korean = "하하, 믿고 있겠다, <value:$28>.<end>"
+
 ["1370183"]
 japanese = "集め終わったか？<end>"
 korean = "다 모았나?<end>"
