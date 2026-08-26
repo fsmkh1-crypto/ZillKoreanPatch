@@ -392,6 +392,10 @@ korean = "<value:$28> 씨~!<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["1920245"]
+japanese = "え？　わたしを<line-break>連れていってくれるんですか？<end>"
+korean = "네? 저를 데려가 주시는 건가요?<end>"
+
 ["1920246"]
 japanese = "…で、でも、いいんですか？<line-break>わたし、<value:$28>さんに<line-break>迷惑をかけちゃうかも…。<end>"
 korean = "…그, 그래도 괜찮아요? 제가 <value:$28>님께 폐를 끼칠지도….<end>"
