@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1170012"]
+japanese = "あ、えと、その…<end>"
+korean = "아, 저기, 그게…<end>"
+
+["1170020"]
+japanese = "あ、そうですね。<end>"
+korean = "아, 그렇네요.<end>"
+
 ["1170030"]
 japanese = "<value:$28>さん！<end>"
 korean = "<value:$28> 씨!<end>"
@@ -7,3 +15,11 @@ korean = "<value:$28> 씨!<end>"
 ["1170033"]
 japanese = "無事か？<end>"
 korean = "무사한가?<end>"
+
+["1170064"]
+japanese = "…どういう意味？<end>"
+korean = "…무슨 뜻이야?<end>"
+
+["1170067"]
+japanese = "そ、そうだな…。<end>"
+korean = "그, 그렇군….<end>"

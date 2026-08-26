@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1180029"]
+japanese = "じゃ、行くわよ！<end>"
+korean = "그럼, 간다!<end>"
+
 ["1180045"]
 japanese = "やめて！<end>"
 korean = "그만해!<end>"
@@ -11,3 +15,7 @@ korean = "아, 아버지….<end>"
 ["1180056"]
 japanese = "と、父さん…！<end>"
 korean = "아, 아버지…!<end>"
+
+["1180057"]
+japanese = "…とうさ…ん…。<end>"
+korean = "…아버…지….<end>"

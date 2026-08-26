@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1300002"]
+japanese = "すみませんでした<end>"
+korean = "죄송했습니다<end>"
+
 ["1300003"]
 japanese = "何様のつもりだ<end>"
 korean = "네가 뭐라도 된 줄 알아?<end>"
@@ -35,3 +39,7 @@ korean = "지금은 그만둔다<end>"
 ["1300039"]
 japanese = "その通りです<end>"
 korean = "그 말씀대로입니다<end>"
+
+["1300040"]
+japanese = "そんなわけじゃ…<end>"
+korean = "그런 건 아니야…<end>"

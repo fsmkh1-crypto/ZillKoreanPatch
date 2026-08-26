@@ -32,6 +32,10 @@ korean = "레이븐!<end>"
 japanese = "行きましょ。<end>"
 korean = "가자.<end>"
 
+["560061"]
+japanese = "あ、<value:$28>さん！<end>"
+korean = "아, <value:$28> 씨!<end>"
+
 ["560068"]
 japanese = "はい？<end>"
 korean = "네?<end>"

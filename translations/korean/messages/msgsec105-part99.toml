@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1050001"]
+japanese = "例の件ですが…。<end>"
+korean = "그 건 말입니다….<end>"
+
+["1050034"]
+japanese = "わ、わたくし…。<end>"
+korean = "저, 저는….<end>"
+
 ["1050037"]
 japanese = "さあ、早く！<end>"
 korean = "자, 어서!<end>"
@@ -8,10 +16,26 @@ korean = "자, 어서!<end>"
 japanese = "そ、それは…。<end>"
 korean = "그, 그건….<end>"
 
+["1050046"]
+japanese = "ぜんぶ、ぜんぶ。<end>"
+korean = "전부, 전부.<end>"
+
+["1050047"]
+japanese = "全部だそうです。<end>"
+korean = "전부라고 합니다.<end>"
+
 ["1050055"]
 japanese = "むにゅー…。<end>"
 korean = "우뉴우….<end>"
 
+["1050059"]
+japanese = "勝った。勝った。<end>"
+korean = "이겼어. 이겼어.<end>"
+
 ["1050073"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
+
+["1050079"]
+japanese = "ありがとう……。<end>"
+korean = "고마워요…….<end>"

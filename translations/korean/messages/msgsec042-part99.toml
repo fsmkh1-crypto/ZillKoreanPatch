@@ -68,6 +68,10 @@ korean = "질문은 없어<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["420280"]
+japanese = "入るぞ、<value:$28>。<end>"
+korean = "들어간다, <value:$28>.<end>"
+
 ["420292"]
 japanese = "ん？<end>"
 korean = "응?<end>"

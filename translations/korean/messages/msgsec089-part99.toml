@@ -184,6 +184,10 @@ korean = "그러니까, 응?<end>"
 japanese = "来たか…。<end>"
 korean = "왔나….<end>"
 
+["890443"]
+japanese = "おいで、<value:$28>。<end>"
+korean = "이리 와, <value:$28>.<end>"
+
 ["890485"]
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"

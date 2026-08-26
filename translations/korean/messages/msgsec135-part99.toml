@@ -4,6 +4,10 @@
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
 
+["1350015"]
+japanese = "んー、まあ、な。<end>"
+korean = "음, 뭐, 그렇지.<end>"
+
 ["1350017"]
 japanese = "なぜって？<end>"
 korean = "왜냐고?<end>"
@@ -12,9 +16,17 @@ korean = "왜냐고?<end>"
 japanese = "それと、だ。<end>"
 korean = "그리고 말이야.<end>"
 
+["1350028"]
+japanese = "どういうことだ？<end>"
+korean = "무슨 뜻이지?<end>"
+
 ["1350071"]
 japanese = "<value:$28>様。<end>"
 korean = "<value:$28>님.<end>"
+
+["1350086"]
+japanese = "…ゼネテス…様…<end>"
+korean = "…제네테스… 님…<end>"
 
 ["1350097"]
 japanese = "そ…その声は…<end>"
@@ -36,6 +48,10 @@ korean = "정말!<end>"
 japanese = "なっ！<end>"
 korean = "뭐!?<end>"
 
+["1350136"]
+japanese = "ゼネテス様！！！<end>"
+korean = "제네테스 님!!!<end>"
+
 ["1350153"]
 japanese = "な、なに！？<end>"
 korean = "뭐, 뭐!?<end>"
@@ -55,6 +71,10 @@ korean = "히이이익!<end>"
 ["1350199"]
 japanese = "全力で振り払う<end>"
 korean = "온 힘을 다해 뿌리친다<end>"
+
+["1350203"]
+japanese = "優しく抱きしめる<end>"
+korean = "부드럽게 안아 준다<end>"
 
 ["1350204"]
 japanese = "全力で振り払う<end>"
@@ -83,6 +103,10 @@ korean = "티아나…?<end>"
 ["1350268"]
 japanese = "くっ！<end>"
 korean = "큭!<end>"
+
+["1350269"]
+japanese = "…なぜ、かばう？<end>"
+korean = "…왜 감싸지?<end>"
 
 ["1350271"]
 japanese = "ゼネテス！<end>"
@@ -120,6 +144,10 @@ korean = "무례한 놈!<end>"
 japanese = "やれ！<end>"
 korean = "해치워!<end>"
 
+["1350326"]
+japanese = "レムオン様が！？<end>"
+korean = "레몬 님이!?<end>"
+
 ["1350328"]
 japanese = "叔母様が…<end>"
 korean = "숙모님이…<end>"
@@ -135,6 +163,14 @@ korean = "왜?<end>"
 ["1350356"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
+
+["1350359"]
+japanese = "やめろ。殺すな。<end>"
+korean = "그만둬. 죽이지 마.<end>"
+
+["1350360"]
+japanese = "…よいのですか？<end>"
+korean = "…괜찮습니까?<end>"
 
 ["1350372"]
 japanese = "そんな…！<end>"
@@ -155,6 +191,10 @@ korean = "제네테스!<end>"
 ["1350411"]
 japanese = "ゼネテス様！<end>"
 korean = "제네테스님!<end>"
+
+["1350422"]
+japanese = "有効に使ってね。<end>"
+korean = "유용하게 써.<end>"
 
 ["1350426"]
 japanese = "全軍撤退よ。<end>"
@@ -179,6 +219,10 @@ korean = "바이!<end>"
 ["1350444"]
 japanese = "お兄ちゃん！<end>"
 korean = "오빠!<end>"
+
+["1350446"]
+japanese = "よろしい…うっ…<end>"
+korean = "좋아… 윽…<end>"
 
 ["1350452"]
 japanese = "意識を失う<end>"

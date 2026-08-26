@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1070001"]
+japanese = "誰が開けますか？<end>"
+korean = "누가 열겠습니까?<end>"
+
 ["1070002"]
 japanese = "アンチハードル<end>"
 korean = "안티 허들<end>"
@@ -20,6 +24,14 @@ korean = "알람<end>"
 japanese = "呪いガス<end>"
 korean = "저주 가스<end>"
 
+["1070008"]
+japanese = "精神ダメージガス<end>"
+korean = "정신 대미지 가스<end>"
+
+["1070009"]
+japanese = "フューパラライズ<end>"
+korean = "퓨 패럴라이즈<end>"
+
 ["1070010"]
 japanese = "フューマスクス<end>"
 korean = "퓨마스크스<end>"
@@ -39,6 +51,10 @@ korean = "소지금 %10u기어<end>"
 ["1070023"]
 japanese = "　　　 %10uギア<end>"
 korean = "         %10u기어<end>"
+
+["1070025"]
+japanese = "気が進まないな…<end>"
+korean = "내키지 않는데…<end>"
 
 ["1070026"]
 japanese = "詳しく説明して<end>"

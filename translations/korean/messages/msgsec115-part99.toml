@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1150001"]
+japanese = "ごめん…なさい。<end>"
+korean = "미안…해요.<end>"
+
 ["1150004"]
 japanese = "うん…<end>"
 korean = "응…<end>"
+
+["1150005"]
+japanese = "どうだったかな…<end>"
+korean = "어땠을까…<end>"
 
 ["1150008"]
 japanese = "ごめんなさい。<end>"

@@ -28,6 +28,10 @@ korean = "안 가<end>"
 japanese = "あなたは…？<end>"
 korean = "당신은…?<end>"
 
+["1330100"]
+japanese = "イークレムン殿！<end>"
+korean = "이클레문 공!<end>"
+
 ["1330103"]
 japanese = "はい…。<end>"
 korean = "네….<end>"
@@ -56,6 +60,10 @@ korean = "희망, 인가…….<end>"
 japanese = "終わったわ…。<end>"
 korean = "끝났어….<end>"
 
+["1330221"]
+japanese = "どうするつもり？<end>"
+korean = "어떻게 할 생각이야?<end>"
+
 ["1330260"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -63,6 +71,10 @@ korean = "핫!<end>"
 ["1330262"]
 japanese = "いえ、その…。<end>"
 korean = "아니, 그게….<end>"
+
+["1330265"]
+japanese = "…ぎょ、御意っ！<end>"
+korean = "…어, 어명 받들겠습니다!<end>"
 
 ["1330266"]
 japanese = "カルラ様！<end>"
@@ -92,6 +104,10 @@ korean = "핫!<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1330300"]
+japanese = "ベルセーヴァ様！<end>"
+korean = "벨세바 님!<end>"
+
 ["1330316"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -99,6 +115,14 @@ korean = "핫!<end>"
 ["1330318"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1330319"]
+japanese = "ベルゼーヴァ様！<end>"
+korean = "벨제바 님!<end>"
+
+["1330352"]
+japanese = "フォフォフォ…。<end>"
+korean = "호호호….<end>"
 
 ["1330380"]
 japanese = "ウフフ…。<end>"
@@ -155,6 +179,18 @@ korean = "그건 아니야<end>"
 ["1330698"]
 japanese = "どうしても入る<end>"
 korean = "무슨 일이 있어도 들어간다<end>"
+
+["1330701"]
+japanese = "それがいいですよ<end>"
+korean = "그게 좋겠어요<end>"
+
+["1330720"]
+japanese = "以上であります。<end>"
+korean = "이상입니다.<end>"
+
+["1330734"]
+japanese = "以上であります。<end>"
+korean = "이상입니다.<end>"
 
 ["1330750"]
 japanese = "ふっ…そうか。<end>"

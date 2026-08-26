@@ -196,6 +196,22 @@ korean = " 아스티아 3<end>"
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960676"]
+japanese = "　0800_ﾈﾒｱEnd#01<end>"
+korean = " 0800_네메아End#01<end>"
+
+["1960677"]
+japanese = "　0801_ｾﾞﾈEnd#02<end>"
+korean = " 0801_제네End#02<end>"
+
+["1960681"]
+japanese = "　0814_ｶﾙﾗEnd#15<end>"
+korean = " 0814_카를라End#15<end>"
+
+["1960682"]
+japanese = "　0815_ｸﾘｭEnd#16<end>"
+korean = " 0815_크뤼End#16<end>"
+
 ["1960695"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
@@ -1071,6 +1087,42 @@ korean = "미아 이벤트4<end>"
 ["1960944"]
 japanese = "迷子イベント５<end>"
 korean = "미아 이벤트5<end>"
+
+["1960945"]
+japanese = "誕生日イベント_1<end>"
+korean = "생일 이벤트_1<end>"
+
+["1960946"]
+japanese = "誕生日イベント_2<end>"
+korean = "생일 이벤트_2<end>"
+
+["1960947"]
+japanese = "誕生日イベント_3<end>"
+korean = "생일 이벤트_3<end>"
+
+["1960948"]
+japanese = "誕生日イベント_4<end>"
+korean = "생일 이벤트_4<end>"
+
+["1960949"]
+japanese = "誕生日イベント_5<end>"
+korean = "생일 이벤트_5<end>"
+
+["1960950"]
+japanese = "誕生日イベント_6<end>"
+korean = "생일 이벤트_6<end>"
+
+["1960951"]
+japanese = "誕生日イベント_7<end>"
+korean = "생일 이벤트_7<end>"
+
+["1960952"]
+japanese = "誕生日イベント_8<end>"
+korean = "생일 이벤트_8<end>"
+
+["1960953"]
+japanese = "誕生日イベント_9<end>"
+korean = "생일 이벤트_9<end>"
 
 ["1960956"]
 japanese = "新月の_1<end>"

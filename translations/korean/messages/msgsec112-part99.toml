@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1120044"]
+japanese = "イークレムン！！<end>"
+korean = "이클레문!!<end>"
+
 ["1120058"]
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
@@ -28,6 +32,18 @@ korean = "알았어<end>"
 japanese = "関係ないな<end>"
 korean = "상관없어<end>"
 
+["1120142"]
+japanese = "そんなことはない<end>"
+korean = "그렇지 않아<end>"
+
+["1120143"]
+japanese = "やめておこうかな<end>"
+korean = "그만둘까<end>"
+
+["1120152"]
+japanese = "何？　精霊神様。<end>"
+korean = "왜요? 정령신님.<end>"
+
 ["1120159"]
 japanese = "しょうがない<end>"
 korean = "어쩔 수 없지<end>"
@@ -35,3 +51,7 @@ korean = "어쩔 수 없지<end>"
 ["1120160"]
 japanese = "関係ないってば<end>"
 korean = "상관없다니까<end>"
+
+["1120174"]
+japanese = "あ、あちらです！<end>"
+korean = "저, 저쪽입니다!<end>"

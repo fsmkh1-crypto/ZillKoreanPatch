@@ -48,6 +48,10 @@ korean = "메이아….<end>"
 japanese = "…助けるのね。<end>"
 korean = "…구해 주는 거구나.<end>"
 
+["370099"]
+japanese = "待って、<value:$28>。<end>"
+korean = "기다려, <value:$28>.<end>"
+
 ["370102"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"

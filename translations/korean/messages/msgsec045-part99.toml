@@ -40,6 +40,10 @@ korean = "동료로 삼는다<end>"
 japanese = "仲間にしない<end>"
 korean = "동료로 삼지 않는다<end>"
 
+["450093"]
+japanese = "行こう。<value:$28>。<end>"
+korean = "가자. <value:$28>.<end>"
+
 ["450117"]
 japanese = "泊まっていく<end>"
 korean = "묵고 간다<end>"

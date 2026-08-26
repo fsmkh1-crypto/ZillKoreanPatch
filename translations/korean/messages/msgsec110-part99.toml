@@ -16,6 +16,10 @@ korean = "정신이 들었나?<end>"
 japanese = "あなた、誰？<end>"
 korean = "당신, 누구야?<end>"
 
+["1100049"]
+japanese = "…近寄らないで。<end>"
+korean = "…가까이 오지 마.<end>"
+
 ["1100052"]
 japanese = "は、はい。<end>"
 korean = "네, 네.<end>"
@@ -23,6 +27,10 @@ korean = "네, 네.<end>"
 ["1100054"]
 japanese = "はっ。<end>"
 korean = "핫.<end>"
+
+["1100059"]
+japanese = "少し、待ってて。<end>"
+korean = "잠깐 기다려.<end>"
 
 ["1100061"]
 japanese = "ザギヴ様！<end>"

@@ -24,6 +24,10 @@ korean = "…발저.<end>"
 japanese = "勇者ネメアよ。<end>"
 korean = "용사 네메아여.<end>"
 
+["400028"]
+japanese = "ゆくぞ、<value:$28>。<end>"
+korean = "간다, <value:$28>.<end>"
+
 ["400030"]
 japanese = "なんだと…？<end>"
 korean = "뭐라고…?<end>"

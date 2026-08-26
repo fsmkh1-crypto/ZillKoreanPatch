@@ -7,3 +7,7 @@ korean = "위험해!<end>"
 ["2390006"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
+
+["2390010"]
+japanese = "待て、<value:$28>。<end>"
+korean = "기다려, <value:$28>.<end>"

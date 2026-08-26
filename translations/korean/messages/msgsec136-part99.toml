@@ -4,6 +4,10 @@
 japanese = "兄さん！<end>"
 korean = "형!<end>"
 
+["1360051"]
+japanese = "ザコがもう２匹。<end>"
+korean = "잡졸이 두 마리 더.<end>"
+
 ["1360055"]
 japanese = "やめろ！！<end>"
 korean = "그만둬!!<end>"
@@ -40,9 +44,25 @@ korean = "이긴 걸로 한다<end>"
 japanese = "もういい<end>"
 korean = "됐어<end>"
 
+["1360133"]
+japanese = "イズキヤル…か？<end>"
+korean = "이즈키알…인가?<end>"
+
 ["1360138"]
 japanese = "イズキヤル…<end>"
 korean = "이즈키야르…<end>"
+
+["1360140"]
+japanese = "オオオオ…ッ！！<end>"
+korean = "오오오오…!!<end>"
+
+["1360185"]
+japanese = "…開け放つもの。<end>"
+korean = "…열어젖히는 자.<end>"
+
+["1360238"]
+japanese = "わから…ない…。<end>"
+korean = "모르…겠어….<end>"
 
 ["1360255"]
 japanese = "はい！<end>"
@@ -64,6 +84,14 @@ korean = "그건 좀…<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1360289"]
+japanese = "サイ…フォス…。<end>"
+korean = "사이… 포스….<end>"
+
+["1360293"]
+japanese = "私の…気持ち…？<end>"
+korean = "내… 마음…?<end>"
+
 ["1360295"]
 japanese = "サイフォス…。<end>"
 korean = "사이포스….<end>"
@@ -75,6 +103,14 @@ korean = "…세라.<end>"
 ["1360299"]
 japanese = "…ロイ。<end>"
 korean = "…로이.<end>"
+
+["1360308"]
+japanese = "サイ…フォス…。<end>"
+korean = "사이… 포스….<end>"
+
+["1360312"]
+japanese = "私の…気持ち…？<end>"
+korean = "내… 마음…?<end>"
 
 ["1360314"]
 japanese = "サイフォス…。<end>"
@@ -144,6 +180,10 @@ korean = "…하아?<end>"
 japanese = "ほうほう。<end>"
 korean = "호오, 호오.<end>"
 
+["1360438"]
+japanese = "アンギルダン殿！<end>"
+korean = "앙길단 공!<end>"
+
 ["1360479"]
 japanese = "フッフッフ…。<end>"
 korean = "후후후….<end>"
@@ -179,6 +219,10 @@ korean = "레이븐!<end>"
 ["1360565"]
 japanese = "イオンズを追う<end>"
 korean = "이온즈를 쫓는다<end>"
+
+["1360566"]
+japanese = "坑道から脱出する<end>"
+korean = "갱도에서 탈출한다<end>"
 
 ["1360568"]
 japanese = "申し出を受ける<end>"
