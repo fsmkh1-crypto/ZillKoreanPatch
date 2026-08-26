@@ -12,13 +12,11 @@ import (
 	"github.com/HK47196/zill/internal/slotaudit"
 )
 
-// buildKoreanAlphaPlanMobile keeps the authenticated structured reservations
-// used by the production planner but deliberately skips the final raw exact-byte
-// exclusion pass. That raw pass is intentionally ultra-conservative and can
-// eliminate every candidate merely because a two-byte sequence appears by chance
-// inside large binary blobs. Mobile alpha builds are for device testing, not final
-// release publication, so preserving decoded CP932 literals and fixed strings is
-// the appropriate safety boundary here.
+// buildKoreanAlphaPlanMobile keeps authenticated structured reservations while
+// permitting selected unused retail font cells to receive Korean bearing and
+// advance metrics. It deliberately skips the production planner's final raw
+// exact-byte exclusion pass: mobile alpha builds are for device validation, and
+// decoded CP932 literals plus fixed/structured strings are the safety boundary.
 func buildKoreanAlphaPlanMobile(root, gameDir string) (koreanslots.Plan, int, int, error) {
 	font, err := loadRetailPAF(gameDir)
 	if err != nil {
@@ -70,11 +68,11 @@ func buildKoreanAlphaPlanMobile(root, gameDir string) (koreanslots.Plan, int, in
 	}
 	plan, err := koreanslots.BuildPlan(
 		texts,
-		font.KoreanCompatibleKeys(),
+		font.KoreanMetricRewriteKeys(),
 		rendererKeySetSlice(reserved),
 	)
 	if err != nil {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile alpha plan allocation: %w", err)
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile alpha metric-rewrite plan allocation: %w", err)
 	}
 	return plan, koreanSummary.Records, sourceSummary.Records, nil
 }
