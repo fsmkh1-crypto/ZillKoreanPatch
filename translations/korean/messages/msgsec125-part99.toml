@@ -144,9 +144,17 @@ korean = "<value:$28>님, 도망쳐요! 당신이 죽으면 누가 조폴을 쓰
 japanese = "ネメア様がいないからって、<line-break>反乱を起こすだなんて…。<line-break><line-break>ジラーク将軍はもっと冷静な方だと<line-break>思っていたのに。<end>"
 korean = "네메아 님이 없다고 반란을 일으키다니…. 지라크 장군은 좀 더 냉정한 분이라고 생각했는데.<end>"
 
+["1250139"]
+japanese = "血迷ったな、ジラーク。<line-break><line-break><line-break>ネメア様の厚意をふいにして<line-break>一種族のための反乱に走るとは…<line-break>見損なったわ。<end>"
+korean = "정신이 나갔군, 지라크. 네메아 님의 호의를 저버리고 한 종족만을 위한 반란을 일으키다니… 실망했어.<end>"
+
 ["1250144"]
 japanese = "待てなかったか、ジラーク…。<end>"
 korean = "기다리지 못했나, 질라크….<end>"
+
+["1250153"]
+japanese = "<value:$28>、<line-break>もちろん、アルノートゥンに<line-break>行くんだよね？<line-break>ヴァイにも聞いてみて、<line-break>私たちも力を貸すつもりだよ！<end>"
+korean = "<value:$28>, 물론 알노트운에 갈 거지? 바위에게도 물어보고 우리도 힘을 보탤 생각이야!<end>"
 
 ["1250157"]
 japanese = "このままじゃコーンスに未来はないわ。<line-break>彼らを止められるのは、<line-break>あなただけなのよ、<value:$28>。<end>"
@@ -175,6 +183,10 @@ korean = "기다리지 못했나, 질라크….<end>"
 ["1250179"]
 japanese = "戦争で解決するなんて、<line-break>力で勝てばいいだなんて…！<line-break>そんなの、間違ってるよぉ！<line-break><value:$28>、<line-break>お願い、やめさせて！<end>"
 korean = "전쟁으로 해결한다니, 힘으로 이기면 된다니…! 그런 건 잘못됐어! <value:$28>, 부탁이야, 막아 줘!<end>"
+
+["1250185"]
+japanese = "<value:$28>、<line-break>もちろん、アルノートゥンに<line-break>行くんだよね？<line-break>ヴァイにも聞いてみて、<line-break>私たちも力を貸すつもりだよ！<end>"
+korean = "<value:$28>, 물론 알노트운에 갈 거지? 바위에게도 물어보고 우리도 힘을 보탤 생각이야!<end>"
 
 ["1250193"]
 japanese = "（カルラの後を追わないと…）<end>"

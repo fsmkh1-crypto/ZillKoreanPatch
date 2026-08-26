@@ -68,6 +68,10 @@ korean = "큭, 세 번째 자객인가!<end>"
 japanese = "ガルドラン、待て！<end>"
 korean = "갈드란, 기다려!<end>"
 
+["450032"]
+japanese = "<value:$28>って言うんだね。<line-break>ありがとう、<value:$28>。<line-break><line-break>君がいなければ、やられていた。<line-break>また、あのときのように…。<end>"
+korean = "<value:$28>이라고 하는구나. 고마워, <value:$28>. 네가 없었으면 당했을 거야. 또 그때처럼….<end>"
+
 ["450033"]
 japanese = "力が…欲しい…。<end>"
 korean = "힘이… 필요해….<end>"
@@ -192,6 +196,10 @@ korean = "반 아저씨가 나를 싫어했던 거야? …고아가 있으면 �
 japanese = "ううん、別にいいんだ。　　　　<end>"
 korean = "아니, 딱히 괜찮아.<end>"
 
+["450103"]
+japanese = "人間はね、自分たちと違うものを<line-break>嫌い、恐がるんだよ。<end>"
+korean = "인간은 자신들과 다른 것을 싫어하고 두려워해.<end>"
+
 ["450105"]
 japanese = "…ごめん。　　　　　　　　　　　　<end>"
 korean = "…미안.<end>"
@@ -260,6 +268,10 @@ korean = "그럼 이번엔 보류할게.<end>"
 japanese = "というわけだ。<line-break>さ、角をよこしてくれ。<end>"
 korean = "그런 거다.자, 뿔을 내놔.<end>"
 
+["450137"]
+japanese = "金のためなら、なんでもする、<line-break>それが俺たち冒険者だ！<end>"
+korean = "돈을 위해서라면 뭐든 한다. 그게 우리 모험자다!<end>"
+
 ["450138"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"
@@ -311,6 +323,10 @@ korean = "나….<end>"
 ["450160"]
 japanese = "ガ、ガルドラン！？<end>"
 korean = "가, 갈드란!?<end>"
+
+["450162"]
+japanese = "違う！　テラネのナッジだ！<line-break>忘れたとは言わせないぞ。<end>"
+korean = "아니야! 테라네의 나지다! 잊었다고는 못 하게 할 거야.<end>"
 
 ["450167"]
 japanese = "待て、ガルドラン！<line-break>ヴァンの仇…！<end>"

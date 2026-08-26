@@ -8,6 +8,10 @@ korean = "오이페 메시지 V7 시작<end>"
 japanese = "<value:$28>…さん…！<end>"
 korean = "<value:$28>… 씨…!<end>"
 
+["1740002"]
+japanese = "わ…わたしのせい…<line-break>わたしのせい…なんです…。<end>"
+korean = "제… 제 탓… 제 탓이에요….<end>"
+
 ["1740004"]
 japanese = "ノエル！　　　　　　　　<line-break>　<line-break>　<line-break>突然、いなくなるなんて！<line-break>…おどかさないで。<end>"
 korean = "노엘! 갑자기 사라지다니! …놀라게 하지 마.<end>"
@@ -107,6 +111,10 @@ korean = "그래. 어쩔 수 없지. 나는 혼자라도 갈 거야.<end>"
 ["1740057"]
 japanese = "フフフ、来たか。<line-break><value:$28>よ。<line-break>そして、オイフェよ。<end>"
 korean = "후후후, 왔구나. <value:$28>이여. 그리고 오이페여.<end>"
+
+["1740063"]
+japanese = "ネメア様に破壊神が宿る…？<line-break>でたらめを言うな！<end>"
+korean = "네메아 님에게 파괴신이 깃든다고…? 헛소리하지 마!<end>"
 
 ["1740065"]
 japanese = "変えることができない？<end>"

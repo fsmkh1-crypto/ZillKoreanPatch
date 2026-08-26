@@ -144,6 +144,10 @@ korean = "며칠 전 볼보라가 이런 걸 보내 왔다.<end>"
 japanese = "女にですと！？<end>"
 korean = "여자한테라고요!?<end>"
 
+["430064"]
+japanese = "故人の恋文をのぞき読むとは<line-break>いい趣味をお持ちですな。<end>"
+korean = "고인의 연애편지를 훔쳐보다니 참 좋은 취미를 가지셨군요.<end>"
+
 ["430068"]
 japanese = "しかし、手紙を手に入れた直後の　<line-break>事故死とは…<line-break>　<line-break>偶然にしては、<line-break>できすぎていると思わぬか？<end>"
 korean = "하지만 편지를 손에 넣은 직후 사고사라니…. 우연치고는 너무 잘 맞아떨어진다고 생각하지 않나?<end>"
@@ -267,6 +271,10 @@ korean = "하지만 궁정에 재능 있는 인간이 암여우 하나뿐이라�
 ["430147"]
 japanese = "<value:$28>、世界を見ろ。<end>"
 korean = "<value:$28>, 세상을 봐라.<end>"
+
+["430149"]
+japanese = "俺は、従順な部下より<line-break>ともに歩める同志が欲しいのだ。<end>"
+korean = "나는 순종적인 부하보다 함께 걸어갈 동지가 필요하다.<end>"
 
 ["430150"]
 japanese = "フフッ、俺としたことが…<line-break>しゃべりすぎたな。<end>"
@@ -411,6 +419,10 @@ korean = "훗, 서두르지 마라. 가자.<end>"
 ["430222"]
 japanese = "どこへ行くつもりだ？<line-break>仕事はこれからだぞ。<end>"
 korean = "어디 갈 생각이지? 일은 지금부터다.<end>"
+
+["430223"]
+japanese = "エスト様からの伝言ですか？<line-break>いえ、聞いていませんが。<end>"
+korean = "에스트 님의 전언 말입니까? 아니요, 듣지 못했습니다.<end>"
 
 ["430228"]
 japanese = "予備用メッセージ１０<line-break>リューガ・ボリューム１その２<end>"

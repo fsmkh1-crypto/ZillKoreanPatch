@@ -12,6 +12,10 @@ korean = "응? 내가 모험하는 이유?<end>"
 japanese = "そうね。一緒に旅をしているんだし<line-break>それぐらいは話しておくべきかしら。<line-break>　<line-break>人を捜しているの。<end>"
 korean = "그래. 함께 여행하는 사이니까 그 정도는 말해 둬야겠네. 사람을 찾고 있어.<end>"
 
+["2640004"]
+japanese = "ごめんなさい。<line-break>今は詳しく話せない。<line-break>　<line-break>昔、いろいろあって、<line-break>すぐには他人を<line-break>信じることができないの…。<end>"
+korean = "미안해요. 지금은 자세히 말할 수 없어요. 예전에 여러 일이 있어서 쉽게 다른 사람을 믿지 못해요….<end>"
+
 ["2640016"]
 japanese = "そうね。<value:$28>がだいたい<line-break>どんな人かもわかってきたし。<line-break>　<line-break>あたしが捜している人の名前は<line-break>ジリオン…。<end>"
 korean = "그래. <value:$28>이 대충 어떤 사람인지도 알게 됐고. 내가 찾는 사람 이름은 지리온….<end>"
@@ -51,6 +55,10 @@ korean = "응? 내가 모험하는 이유?<end>"
 ["2640059"]
 japanese = "そうね。一緒に旅をしてるんだし<line-break>それぐらいは話しておくべきかしら。<line-break>　<line-break>人を捜しているの。<end>"
 korean = "그래. 같이 여행 중이니 그 정도는 말해 둬야겠지. 사람을 찾고 있어.<end>"
+
+["2640061"]
+japanese = "ごめんなさい。<line-break>今は詳しく話せない。<line-break>　<line-break>昔、いろいろあって、<line-break>すぐには他人を<line-break>信じることができないの…。<end>"
+korean = "미안해요. 지금은 자세히 말할 수 없어요. 예전에 여러 일이 있어서 쉽게 다른 사람을 믿지 못해요….<end>"
 
 ["2640066"]
 japanese = "そうね。<value:$28>がだいたい<line-break>どんな人かもわかってきたし。<line-break>　<line-break>あたしが捜している人の名前は<line-break>ジリオン…。<end>"

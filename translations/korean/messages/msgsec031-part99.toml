@@ -92,6 +92,10 @@ korean = "그래…, 고마워.<end>"
 japanese = "<value:$28>…。<line-break>ステキな名前だね。<line-break>それじゃあ。<end>"
 korean = "<value:$28>…. 멋진 이름이네. 그럼 이만.<end>"
 
+["310060"]
+japanese = "あ…、<value:$28>。<line-break>や、やあ！<line-break>　<line-break>さっきはいきなり話しかけて、<line-break>しかも、さっさと行っちゃって<line-break>…ゴメンね。<end>"
+korean = "아… <value:$28>. 아, 안녕! 아까 갑자기 말을 걸고선 바로 가 버려서… 미안해.<end>"
+
 ["310066"]
 japanese = "そうなるといいね<end>"
 korean = "그렇게 되면 좋겠네<end>"

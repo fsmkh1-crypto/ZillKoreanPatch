@@ -176,6 +176,10 @@ korean = "로스토올 왕국이다. 이제 잊지 마라.<end>"
 japanese = "………………。<line-break><line-break><line-break>ロストール王国だ。<end>"
 korean = "………………. 로스톨 왕국이다.<end>"
 
+["1080215"]
+japanese = "…<value:$28>様が、<line-break>この度傭兵登録されたのは、<line-break>我がロストール王国です。<line-break>お疲れなのでしょうか？<line-break><value:$28>様。<end>"
+korean = "…<value:$28>님이 이번에 용병 등록을 한 곳은 우리 로스토올 왕국입니다. 피곤하신가요, <value:$28>님?<end>"
+
 ["1080216"]
 japanese = "お兄ちゃんが<line-break>傭兵登録されているのは、<line-break>我がロストール王国だよ！<line-break>お兄ちゃん、疲れてない？<end>"
 korean = "오빠가 용병 등록된 곳은 우리 로스토올 왕국이야! 오빠, 안 피곤해?<end>"

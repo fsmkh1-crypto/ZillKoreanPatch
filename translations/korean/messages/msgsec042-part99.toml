@@ -52,6 +52,10 @@ korean = "며칠 전 볼보라가 이걸 보내 왔다.<end>"
 japanese = "女にですと！？<end>"
 korean = "여자한테라고요!?<end>"
 
+["420026"]
+japanese = "故人の恋文をのぞき読むとは<line-break>いい趣味をお持ちですな。<end>"
+korean = "고인의 연애편지를 훔쳐보다니 참 좋은 취미를 가지셨군요.<end>"
+
 ["420030"]
 japanese = "しかし、手紙を手に入れた直後の　<line-break>事故死とは…<line-break>　<line-break>偶然にしては、<line-break>できすぎていると思わぬか？<end>"
 korean = "하지만 편지를 손에 넣은 직후 사고사라니…. 우연치고는 너무 잘 맞아떨어진다고 생각하지 않나?<end>"
@@ -124,9 +128,17 @@ korean = "젠장! 죽여! 이 귀족 놈아!<end>"
 japanese = "…ね、姉ちゃん？<line-break>処刑されたはず…でも、似てる…。<end>"
 korean = "…누, 누나? 처형됐을 텐데… 그래도 닮았어….<end>"
 
+["420068"]
+japanese = "いったあ！　間違いないや！<line-break>やっぱり、姉ちゃんだろ！<end>"
+korean = "아야! 틀림없어! 역시 누나잖아!<end>"
+
 ["420070"]
 japanese = "チャカは少し頭が悪くなった。<line-break>ＩＮＴが１下がった。<end>"
 korean = "차카는 조금 머리가 나빠졌다. INT가 1 내려갔다.<end>"
+
+["420071"]
+japanese = "チャカは少し打たれ強くなった。<line-break>ＶＩＴが１上がった。<end>"
+korean = "차카는 조금 더 맷집이 좋아졌다. VIT가 1 올랐다.<end>"
 
 ["420078"]
 japanese = "やったあ！<line-break>やっぱ姉ちゃん、話がわかる！<end>"
@@ -379,6 +391,10 @@ korean = "질문은 없어<end>"
 ["420245"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
+
+["420246"]
+japanese = "ま、そんな感じですかね。<line-break>わかっていただけましたか？<end>"
+korean = "뭐, 대충 그런 느낌이네요. 이해하셨습니까?<end>"
 
 ["420247"]
 japanese = "聞きたいことがあれば答えますよ。<end>"

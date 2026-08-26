@@ -384,6 +384,10 @@ korean = "찾았다! 그 수가 있었네!<end>"
 japanese = "ふぅーん。<end>"
 korean = "흐응.<end>"
 
+["1330278"]
+japanese = "ま、どのみち軍隊じゃ、<line-break>かないっこないし。<line-break>ほっとくとヤバそうな雰囲気だし。<line-break>未来…よろしくね。<line-break><value:$28>。<end>"
+korean = "뭐, 어차피 군대로는 상대도 안 되고. 내버려 두면 위험할 것 같고. 미래를 부탁해, <value:$28>.<end>"
+
 ["1330280"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -775,6 +779,10 @@ korean = "어서 와, 레므온….<end>"
 ["1330546"]
 japanese = "紹介します。<line-break>こちらは、レムオン・リューガ。<line-break>居場所をなくした、<line-break>かわいそうなダルケニス…。<end>"
 korean = "소개하죠. 이쪽은 레무온 류가. 있을 곳을 잃은 불쌍한 다르케니스….<end>"
+
+["1330550"]
+japanese = "彼は、かわいそうなダルケニス…。<line-break> <line-break> <line-break>この世界に、彼の生きる場所はない。<line-break>以前の私にそっくりじゃなくって？<end>"
+korean = "그는 불쌍한 다르케니스…. 이 세계에는 그가 살아갈 곳이 없어. 예전의 나와 꼭 닮지 않았어?<end>"
 
 ["1330551"]
 japanese = "ふふふ…、さあ、レムオン、<line-break><value:$28>を倒し<line-break>その無限のソウルをささげるのです。<end>"

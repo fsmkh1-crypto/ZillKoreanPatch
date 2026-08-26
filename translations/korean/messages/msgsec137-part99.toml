@@ -876,6 +876,10 @@ korean = "다녀왔습니다.<end>"
 japanese = "それに、お前さんは、<line-break><value:$28>じゃないか。<end>"
 korean = "게다가 너, <value:$28>잖아.<end>"
 
+["1370549"]
+japanese = "オッシさんから聞いたぜ、<line-break>ゴブリン退治に協力するらしいな。<line-break> <line-break>お前もようやく冒険者として <line-break>出発ってわけだ。<end>"
+korean = "오시 씨에게 들었어. 고블린 퇴치에 협력한다며. 너도 드디어 모험자로 출발하는 거군.<end>"
+
 ["1370552"]
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
@@ -995,6 +999,10 @@ korean = "네.<end>"
 ["1370608"]
 japanese = "ちぇっ。<end>"
 korean = "쳇.<end>"
+
+["1370612"]
+japanese = "<value:$28>か…、いい名だ。<line-break>オッシのとこで教わってるのか。<line-break>ふうん…、あいつんとこで…<line-break>おっと悪い、俺はゼネテスだ。<end>"
+korean = "<value:$28>인가… 좋은 이름이군. 오시에게 배우고 있나. 흐음… 그 녀석에게…. 아, 미안. 나는 제네테스야.<end>"
 
 ["1370615"]
 japanese = "お、おいっ。<end>"

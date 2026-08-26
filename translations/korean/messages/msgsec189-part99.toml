@@ -84,6 +84,10 @@ korean = "…알겠어. 나도 오빠를 믿고 기다릴게. 그게 내 싸움�
 japanese = "…強くなりましたね、あの子も。<end>"
 korean = "…그 아이도 강해졌군요.<end>"
 
+["1890066"]
+japanese = "さて、私たちは、私たちの戦いを<line-break>続けねばなりません。<line-break>　<line-break><value:$28>、あなたにも、<line-break>真の敵が見えてきたはずです。<end>"
+korean = "자, 우리는 우리의 싸움을 계속해야 합니다. <value:$28>, 당신도 진정한 적이 보이기 시작했을 겁니다.<end>"
+
 ["1890070"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
@@ -131,6 +135,10 @@ korean = "…알겠어. 난 오빠를 믿고 기다릴게. 그게 내 싸움이�
 ["1890099"]
 japanese = "…強くなりましたね、あの子も。<end>"
 korean = "…그 아이도 강해졌군요.<end>"
+
+["1890100"]
+japanese = "さて、私たちは、私たちの戦いを<line-break>続けねばなりません。<line-break>　<line-break><value:$28>、あなたにも、<line-break>真の敵が見えてきたはずです。<end>"
+korean = "자, 우리는 우리의 싸움을 계속해야 합니다. <value:$28>, 당신도 진정한 적이 보이기 시작했을 겁니다.<end>"
 
 ["1890105"]
 japanese = "はっ！<end>"
@@ -239,6 +247,10 @@ korean = "어려운 일이다. 할 수 있겠나, 케류네이아?<end>"
 ["1890161"]
 japanese = "<value:$28>、私はここにいるわ。<line-break>仲間を呼び出したかったら<line-break>私に言って。<line-break>あとは頼んだわ、<line-break><value:$28>。<end>"
 korean = "<value:$28>, 나는 여기 있을게. 동료를 부르고 싶으면 나한테 말해. 나머지는 부탁해, <value:$28>.<end>"
+
+["1890165"]
+japanese = "シャリ…。<line-break>僕はようやく気づいたよ。<line-break>　<line-break><value:$28>と旅をして、<line-break>とても大事な…。<line-break>たったひとつのことに。<end>"
+korean = "샤리…. 나 이제야 깨달았어. <value:$28>과 여행하면서 아주 소중한… 단 하나의 사실을.<end>"
 
 ["1890166"]
 japanese = "へぇ。何に気づいたの？<line-break>聞かせてよ。<end>"

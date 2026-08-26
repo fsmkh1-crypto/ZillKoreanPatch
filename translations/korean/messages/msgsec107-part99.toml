@@ -164,6 +164,10 @@ korean = "………………. 무리야….<end>"
 japanese = "私ではこの罠を<line-break>解除できそうにありません。<end>"
 korean = "저로서는 이 함정을 해제할 수 없을 것 같습니다.<end>"
 
+["1070079"]
+japanese = "難易度<color:e><value:$1A><color:f>の罠が仕掛けられています。<line-break>罠の解除に挑戦するにはＤＥＸが<line-break><color:e><value:$1B><color:f>以上必要です。<end>"
+korean = "난이도 <color:e><value:$1A><color:f>의 함정이 설치되어 있습니다. 함정 해제에 도전하려면 DEX가 <color:e><value:$1B><color:f> 이상 필요합니다.<end>"
+
 ["1070081"]
 japanese = "はＨＰに大打撃を受けた。<end>"
 korean = "HP에 큰 타격을 입었다.<end>"

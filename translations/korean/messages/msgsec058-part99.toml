@@ -72,6 +72,10 @@ korean = "용의 시체인가….<end>"
 japanese = "<value:$28>…ね。<line-break>なるほど。フフ…　　　　　　　　　<line-break>　<line-break>つまり、ロストールの貴族<line-break><value:$28>・リューガ様って<line-break>わけだ。<end>"
 korean = "<value:$28>…군요. 그렇군요. 후후…. 그러니까 로스토올의 귀족 <value:$28> 류가 님이라는 거군요.<end>"
 
+["580095"]
+japanese = "<value:$28>ね…。<line-break>なるほど？　フフ…。　　　　<line-break>　<line-break>今、話題の<value:$2B>の<line-break><value:$28>様で<line-break>いらっしゃるわけだ。<end>"
+korean = "<value:$28>군요…. 그렇군요? 후후…. 지금 화제의 <value:$2B>, <value:$28>님이시라는 거군요.<end>"
+
 ["580096"]
 japanese = "フフ、会えてうれしいぜ。　　<line-break>じゃあな、<value:$28><line-break>縁があったらまた会おうや。<end>"
 korean = "후후, 만나서 반갑다. 그럼 잘 가, <value:$28>. 인연이 있으면 또 만나자고.<end>"
