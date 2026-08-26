@@ -232,6 +232,30 @@ korean = "무도회 준비<end>"
 japanese = "エア　会話<end>"
 korean = "에어 대화<end>"
 
+["1970945"]
+japanese = "自殺　エンド<end>"
+korean = "자살 엔드<end>"
+
+["1970946"]
+japanese = "竜王　エンド<end>"
+korean = "용왕 엔드<end>"
+
+["1970990"]
+japanese = "マノン　情報<end>"
+korean = "마논 정보<end>"
+
+["1971022"]
+japanese = "アハブ　出現<end>"
+korean = "아합 출현<end>"
+
+["1971025"]
+japanese = "炎竜山　出現<end>"
+korean = "염룡산 출현<end>"
+
+["1971026"]
+japanese = "鳳凰山　出現<end>"
+korean = "봉황산 출현<end>"
+
 ["1971040"]
 japanese = "廃城　出現<end>"
 korean = "폐성 출현<end>"
@@ -239,6 +263,22 @@ korean = "폐성 출현<end>"
 ["1971044"]
 japanese = "古城　出現<end>"
 korean = "고성 출현<end>"
+
+["1971049"]
+japanese = "盗人村　出現<end>"
+korean = "도둑 마을 출현<end>"
+
+["1971132"]
+japanese = "ゼリグ　登場<end>"
+korean = "제리그 등장<end>"
+
+["1971242"]
+japanese = "お使い　終了<end>"
+korean = "심부름 종료<end>"
+
+["1971256"]
+japanese = "マゴス　死亡<end>"
+korean = "마고스 사망<end>"
 
 ["1971264"]
 japanese = "エア　登場<end>"
@@ -384,6 +424,10 @@ korean = "여관<end>"
 japanese = "宿屋<end>"
 korean = "여관<end>"
 
+["1971357"]
+japanese = "ﾛｲ宿屋発生<end>"
+korean = "로이 여관 발생<end>"
+
 ["1971358"]
 japanese = "ヴィア宿屋<end>"
 korean = "비아 여관<end>"
@@ -399,6 +443,10 @@ korean = "여관<end>"
 ["1971361"]
 japanese = "宿屋<end>"
 korean = "여관<end>"
+
+["1971402"]
+japanese = "未使用未使用<end>"
+korean = "미사용 미사용<end>"
 
 ["1971501"]
 japanese = "発生<end>"
@@ -775,6 +823,10 @@ korean = "발생<end>"
 ["1971601"]
 japanese = "発生<end>"
 korean = "발생<end>"
+
+["1971602"]
+japanese = "未使用未使用<end>"
+korean = "미사용 미사용<end>"
 
 ["1971701"]
 japanese = "終了<end>"
@@ -1180,6 +1232,46 @@ korean = "종료<end>"
 japanese = "終了<end>"
 korean = "종료<end>"
 
+["1971802"]
+japanese = "未使用未使用<end>"
+korean = "미사용 미사용<end>"
+
+["1971803"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
+
+["1971804"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
+
+["1971805"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
+
+["1971806"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
+
+["1971807"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
+
+["1971808"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
+
 ["1971809"]
 japanese = "本さんよう<end>"
 korean = "본산용<end>"
+
+["1971810"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
+
+["1971811"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
+
+["1971812"]
+japanese = "沼本さんよう<end>"
+korean = "누마모토산용<end>"
