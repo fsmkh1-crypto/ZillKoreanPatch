@@ -128,6 +128,10 @@ korean = "약혼자에게 혼나지만 않는다면.<end>"
 japanese = "<value:$28>、よく来た。　<end>"
 korean = "<value:$28>, 잘 왔다.<end>"
 
+["650065"]
+japanese = "フッ、さすがは<line-break>丈夫なだけが取り柄の奴だ。<end>"
+korean = "흥, 역시 튼튼한 것만이 장점인 녀석답군.<end>"
+
 ["650067"]
 japanese = "これはレムオン様、<line-break>それに<value:$28>様。<line-break>　<line-break>ようこそ<line-break>お越しくださいました。<end>"
 korean = "레무온 님, 그리고 <value:$28>님. 어서 오십시오.<end>"
@@ -192,9 +196,25 @@ korean = "그래, 시시한 소문의 씨앗이 되지 않을 정도로만 해�
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
 
+["650105"]
+japanese = "またお会いできる日を<line-break>楽しみにしています。<end>"
+korean = "다시 뵐 날을 기대하고 있겠습니다.<end>"
+
 ["650110"]
 japanese = "予備メッセージ３<line-break>ティアナ、ボリューム２<end>"
 korean = "예비 메시지 3 티아나, 볼륨 2<end>"
+
+["650111"]
+japanese = "予備メッセージ４<line-break>ティアナ、ボリューム２<end>"
+korean = "예비 메시지 4 티아나, 볼륨 2<end>"
+
+["650112"]
+japanese = "予備メッセージ５<line-break>ティアナ、ボリューム２<end>"
+korean = "예비 메시지 5 티아나, 볼륨 2<end>"
+
+["650113"]
+japanese = "予備メッセージ６<line-break>ティアナ、ボリューム２<end>"
+korean = "예비 메시지 6 티아나, 볼륨 2<end>"
 
 ["650114"]
 japanese = "予備メッセージ７<line-break>ティアナ、ボリューム２<end>"
@@ -207,6 +227,10 @@ korean = "예비 메시지 8 티아나, 볼륨 2<end>"
 ["650116"]
 japanese = "予備メッセージ９<line-break>ティアナ、ボリューム２<end>"
 korean = "예비 메시지 9 티아나, 볼륨 2<end>"
+
+["650117"]
+japanese = "予備メッセージ１０<line-break>ティアナ、ボリューム２<end>"
+korean = "예비 메시지 10 티아나, 볼륨 2<end>"
 
 ["650118"]
 japanese = "…ゼネテスさん。すまない。<end>"

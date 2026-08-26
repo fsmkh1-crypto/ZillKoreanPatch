@@ -140,6 +140,10 @@ korean = "어?<end>"
 japanese = "な、<value:$28>？<end>"
 korean = "그, <value:$28>?<end>"
 
+["1350115"]
+japanese = "ゼネテス様…<line-break><value:$28>…。<line-break> <line-break>あ、ありがとうございます…！<line-break>ティアナ、精一杯力を尽くします。<end>"
+korean = "제네테스 님… <value:$28>…. 가, 감사합니다…! 티아나, 온 힘을 다하겠습니다.<end>"
+
 ["1350117"]
 japanese = "もう！<end>"
 korean = "정말!<end>"

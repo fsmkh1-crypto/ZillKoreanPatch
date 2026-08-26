@@ -112,6 +112,10 @@ korean = "그녀에게 빛을. 그녀의 소원을 이루어 줬으면 해. 그�
 japanese = "そう…ですか。<line-break>残念です。<end>"
 korean = "그렇…군요. 유감입니다.<end>"
 
+["750057"]
+japanese = "アトレイア、気を落とさないで。<line-break><value:$28>も気が変わって<line-break>引き受けてくれることもあるだろうし。<end>"
+korean = "아트레이아, 기운 내. <value:$28>도 마음이 바뀌어 맡아 줄지 모르잖아.<end>"
+
 ["750058"]
 japanese = "重複未使用：それでは、王女様。<line-break>０４９：僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
 korean = "중복 미사용: 그럼 공주님. 049: 제가 <value:$28>을 왕궁 밖까지 바래다드리겠습니다.<end>"
@@ -171,6 +175,10 @@ korean = "그녀에게 빛을. 그녀의 소원을 이루어 줘. 기다릴게. 
 ["750081"]
 japanese = "そう…ですか。<line-break>残念です。<end>"
 korean = "그렇…군요. 유감입니다.<end>"
+
+["750082"]
+japanese = "アトレイア、気を落とさないで。<line-break><value:$28>も気が変わって<line-break>引き受けてくれることもあるだろうし。<end>"
+korean = "아트레이아, 기운 내. <value:$28>도 마음이 바뀌어 맡아 줄지 모르잖아.<end>"
 
 ["750083"]
 japanese = "それでは、王女様。<line-break>僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"

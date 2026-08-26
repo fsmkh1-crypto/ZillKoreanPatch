@@ -512,6 +512,10 @@ korean = "이봐, 무슨 소리야? 무슨 일이지?<end>"
 japanese = "見ろ、ダルケニスだ！<end>"
 korean = "봐, 달케니스다!<end>"
 
+["560283"]
+japanese = "殺せ、賞金が出るぞ！<line-break>今日はついてるぜ！<end>"
+korean = "죽여라, 현상금이 나온다! 오늘은 운이 좋군!<end>"
+
 ["560284"]
 japanese = "カフィンから手を放してください！<end>"
 korean = "카핀에게서 손을 떼세요!<end>"
@@ -1315,6 +1319,10 @@ korean = "그만둔다<end>"
 ["560928"]
 japanese = "よし来た！<line-break>あんたならきっと<line-break>そう言ってくれると思ってたよ。<line-break>よかったな、神官さん。<end>"
 korean = "좋아! 당신이라면 분명 그렇게 말해 줄 줄 알았어. 잘됐네요, 신관님.<end>"
+
+["560929"]
+japanese = "紹介するぜ。<line-break> <line-break> <line-break>こちら、アルノートゥンの神殿に<line-break>仕えてらっしゃる神官さんだ。<end>"
+korean = "소개하지. 이쪽은 알노툰 신전에서 일하는 신관님이야.<end>"
 
 ["560939"]
 japanese = "やっぱりやめる<end>"

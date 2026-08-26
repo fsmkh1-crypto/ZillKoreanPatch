@@ -176,6 +176,10 @@ korean = "당신이 감사하다고 해야지!<end>"
 japanese = "こちらこそ。<end>"
 korean = "나야말로.<end>"
 
+["400085"]
+japanese = "ここでお別れだな。<line-break>また会おう、<value:$28>。<end>"
+korean = "여기서 헤어지는군. 또 만나자, <value:$28>.<end>"
+
 ["400086"]
 japanese = "空<end>"
 korean = "빈칸<end>"

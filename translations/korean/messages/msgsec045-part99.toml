@@ -184,6 +184,10 @@ korean = "어서 와, <value:$28>.<end>"
 japanese = "ようこそ、<value:$28>。<end>"
 korean = "어서 와, <value:$28>.<end>"
 
+["450116"]
+japanese = "ねえ、<value:$28><line-break>今晩、泊まっていくのかい？<end>"
+korean = "있잖아, <value:$28>. 오늘 밤 묵고 갈 거야?<end>"
+
 ["450117"]
 japanese = "泊まっていく<end>"
 korean = "묵고 간다<end>"
@@ -499,6 +503,10 @@ korean = "응, 그럼 난 <value:$28>가 불러 주길 기다릴게.<end>"
 ["450295"]
 japanese = "じゃ、よろしくね。<line-break><value:$28>。<end>"
 korean = "그럼 잘 부탁해, <value:$28>.<end>"
+
+["450296"]
+japanese = "そう…。残念だよ。<line-break>じゃあね、<value:$28>…。<end>"
+korean = "그래…. 아쉽네. 그럼 잘 가, <value:$28>….<end>"
 
 ["450308"]
 japanese = "ガルドラン・ボリューム１その１終端<end>"

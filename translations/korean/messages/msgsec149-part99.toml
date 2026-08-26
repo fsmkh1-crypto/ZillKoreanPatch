@@ -20,6 +20,10 @@ korean = "안 도와<end>"
 japanese = "くっ。非市民のクズが！<end>"
 korean = "큭. 비시민 쓰레기가!<end>"
 
+["1490016"]
+japanese = "…他でもない僕が言うんだ。<line-break>間違いない。<end>"
+korean = "…다른 누구도 아닌 내가 하는 말이야. 틀림없어.<end>"
+
 ["1490017"]
 japanese = "世話になったな。<end>"
 korean = "신세 졌군.<end>"
@@ -39,6 +43,10 @@ korean = "<value:$28>…. 그게 네 이름인가? 그걸 나한테 알려서 �
 ["1490023"]
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
+
+["1490030"]
+japanese = "僕の名前？<line-break>それが君になんの関係がある？<end>"
+korean = "내 이름? 그게 너랑 무슨 상관이지?<end>"
 
 ["1490031"]
 japanese = "エルファスだ。<line-break>救世主エルファス。<end>"
@@ -88,6 +96,10 @@ korean = "당연하지!<end>"
 japanese = "<value:$28>！<line-break>頼む、目を開けてくれ！<end>"
 korean = "<value:$28>! 부탁이야, 눈을 떠 줘!<end>"
 
+["1490063"]
+japanese = "…別に、何も変なことは<line-break>聞かなかったな？<end>"
+korean = "…딱히 이상한 얘기는 못 들었지?<end>"
+
 ["1490064"]
 japanese = "気がついたか？<end>"
 korean = "정신이 들었나?<end>"
@@ -116,9 +128,17 @@ korean = "안 도와<end>"
 japanese = "くっ。退け！<end>"
 korean = "큭. 물러서!<end>"
 
+["1490076"]
+japanese = "…他でもない僕が言うんだ。<line-break>間違いない。<end>"
+korean = "…다른 누구도 아닌 내가 하는 말이야. 틀림없어.<end>"
+
 ["1490077"]
 japanese = "世話になったな。<end>"
 korean = "신세 졌군.<end>"
+
+["1490080"]
+japanese = "僕の名前？<line-break>それが君になんの関係がある？<end>"
+korean = "내 이름? 그게 너랑 무슨 상관이지?<end>"
 
 ["1490081"]
 japanese = "エルファスだ。<line-break>救世主エルファス。<end>"
@@ -131,6 +151,10 @@ korean = "<value:$28>…. 그게 네 이름이야? 그런 걸 내게 알려서 �
 ["1490083"]
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
+
+["1490090"]
+japanese = "僕の名前？<line-break>それが君になんの関係がある？<end>"
+korean = "내 이름? 그게 너랑 무슨 상관이지?<end>"
 
 ["1490091"]
 japanese = "エルファスだ。<line-break>救世主エルファス。<end>"
@@ -159,6 +183,10 @@ korean = "이…! 가짜 예언자 놈!<end>"
 ["1490109"]
 japanese = "諸君、竜王に逆らう者から離れるのだ。<end>"
 korean = "제군들, 용왕에게 거역하는 자에게서 떨어져라.<end>"
+
+["1490113"]
+japanese = "僕の名前？<line-break>それが君になんの関係がある？<end>"
+korean = "내 이름? 그게 너랑 무슨 상관이지?<end>"
 
 ["1490114"]
 japanese = "…エルファスだ。<line-break>救世主エルファス。<end>"
@@ -284,9 +312,17 @@ korean = "으윽…. 파, 팔을 당했어.<end>"
 japanese = "すごいわ！<line-break>さすが、エルファス様。<line-break>　<line-break>奇跡だわ！<line-break>エルファス様の奇跡よ！<end>"
 korean = "대단해! 역시 엘파스 님이야. 기적이야! 엘파스 님의 기적이야!<end>"
 
+["1490206"]
+japanese = "神を信じよ！<line-break>神が遣わしたる我を信じよ！<end>"
+korean = "신을 믿어라! 신께서 보내신 나를 믿어라!<end>"
+
 ["1490208"]
 japanese = "ありがたや、ありがたや。<end>"
 korean = "감사하옵니다, 감사하옵니다.<end>"
+
+["1490214"]
+japanese = "なんだ、なんだ！<line-break>いったいなんの騒ぎだ？<end>"
+korean = "뭐야, 뭐야! 대체 무슨 소란이지?<end>"
 
 ["1490218"]
 japanese = "さぁ、今すぐ出て行け！<end>"
@@ -315,6 +351,10 @@ korean = "내버려 두자<end>"
 ["1490228"]
 japanese = "あ、ノーブル伯！<end>"
 korean = "아, 노블 백작!<end>"
+
+["1490231"]
+japanese = "…そうですか。<line-break>で、では、我々はこれで。<end>"
+korean = "…그렇습니까. 그, 그럼 저희는 이만.<end>"
 
 ["1490232"]
 japanese = "はぁ…、<line-break>手柄だと思ったのに…。<end>"

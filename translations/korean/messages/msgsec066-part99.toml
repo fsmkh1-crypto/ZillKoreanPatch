@@ -188,6 +188,10 @@ korean = "그건 훌륭한 재능이야.<end>"
 japanese = "ちゃかさないでください。<end>"
 korean = "놀리지 마세요.<end>"
 
+["660131"]
+japanese = "きゃっ！<line-break>いきなり入ってこないでください。<end>"
+korean = "꺅! 갑자기 들어오지 마세요.<end>"
+
 ["660134"]
 japanese = "へぇ、どうわかったのか聞きたいね。<end>"
 korean = "흐음, 어떻게 알았는지 듣고 싶군.<end>"
@@ -215,6 +219,10 @@ korean = "<value:$28> 님이라면 대환영이에요. 또 와 주세요.<end>"
 ["660154"]
 japanese = "姫さんのきれいな姿を<line-break>見に来たぜ。<end>"
 korean = "공주님의 아름다운 모습을 보러 왔지.<end>"
+
+["660159"]
+japanese = "それは、花にではなくて<line-break>女の方にでしょう？<end>"
+korean = "그건 꽃이 아니라 여자 쪽이겠죠?<end>"
 
 ["660163"]
 japanese = "フフ、<line-break>酒のニオイはお嫌いかな？<end>"

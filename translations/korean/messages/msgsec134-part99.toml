@@ -576,6 +576,10 @@ korean = "(갑자기 분위기가 바뀌었어….) (불길한 예감이 든다.
 japanese = "くっ…に、逃げろ…。<line-break>今の…うちに…！<end>"
 korean = "큭… 도, 도망쳐…. 지금… 당장…!<end>"
 
+["1340352"]
+japanese = "ソウルイーターを追い払ってくれて<line-break>ありがとうございました。　<line-break> <line-break>…<value:$28>さん、<line-break>でしたね。<end>"
+korean = "소울이터를 쫓아내 주셔서 감사합니다. …<value:$28>님, 맞으시죠.<end>"
+
 ["1340354"]
 japanese = "しかたがない…<end>"
 korean = "어쩔 수 없군…<end>"
@@ -683,6 +687,10 @@ korean = "(자금 지원을 해야 하나…?)<end>"
 ["1340417"]
 japanese = "１００００ギアほど援助する<end>"
 korean = "10000기아 정도 지원한다<end>"
+
+["1340419"]
+japanese = "匿名を使って私たち復興団に<line-break>援助をしてくださる方も<line-break>いらっしゃいます。<line-break>とてもありがたいことです。<end>"
+korean = "익명으로 저희 부흥단을 도와주시는 분도 계십니다. 정말 감사한 일입니다.<end>"
 
 ["1340420"]
 japanese = "（…と思ったけど<line-break>　お金が足りないな。）<end>"

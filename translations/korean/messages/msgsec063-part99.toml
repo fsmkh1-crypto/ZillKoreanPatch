@@ -436,6 +436,10 @@ korean = "어머? 이 소리는 혹시….<end>"
 japanese = "まぁ、やはり<value:$28>様<line-break>でしたのね。今度は堂々と正面から<line-break>お入りくださいと申しあげましたのに。<end>"
 korean = "역시 <value:$28>님이셨군요. 이번엔 당당히 정문으로 들어오시라 말씀드렸는데요.<end>"
 
+["630305"]
+japanese = "はい。どなたです？<line-break>　<line-break>　<line-break>まぁ、<value:$28>様ですのね。<line-break>どうぞ、お入りください。<end>"
+korean = "네. 누구시죠? 어머, <value:$28>님이시군요. 들어오세요.<end>"
+
 ["630307"]
 japanese = "うふふ。冗談です。<line-break>　<line-break>　<line-break>それで、人形は持ち主の女の子に<line-break>返していただけたのですね？<end>"
 korean = "후후, 농담이에요. 그래서 인형은 주인인 여자아이에게 돌려주셨죠?<end>"

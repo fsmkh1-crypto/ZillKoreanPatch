@@ -4,6 +4,10 @@
 japanese = "旅立ち０６メッセージ<end>"
 korean = "여행 출발 06 메시지<end>"
 
+["330004"]
+japanese = "あれぇー？　フリントさん、<line-break><value:$28>はぁ？<end>"
+korean = "어라? 플린트 씨, <value:$28>은?<end>"
+
 ["330006"]
 japanese = "またぁ？<line-break>しょうがないんだからぁ！<end>"
 korean = "또야? 정말 어쩔 수 없다니까!<end>"
@@ -296,6 +300,10 @@ korean = "그래, 아쉽네.<end>"
 japanese = "…遅せぇ、よ。<end>"
 korean = "…늦었, 잖아.<end>"
 
+["330156"]
+japanese = "…<value:$28>、<line-break>もう…何時間もそうしてるよ？<end>"
+korean = "…<value:$28>, 벌써… 몇 시간째 그러고 있어.<end>"
+
 ["330157"]
 japanese = "…ねぇ。<end>"
 korean = "…있잖아.<end>"
@@ -315,6 +323,10 @@ korean = "…에리스 님은?<end>"
 ["330166"]
 japanese = "わかった。<line-break>息を無駄にするな。<end>"
 korean = "알았어. 숨을 낭비하지 마.<end>"
+
+["330168"]
+japanese = "…<value:$28>、<line-break>もう…何時間もそうしてるよ？<end>"
+korean = "…<value:$28>, 벌써… 몇 시간째 그러고 있어.<end>"
 
 ["330169"]
 japanese = "…ねぇ。<end>"
@@ -395,6 +407,10 @@ korean = "그럼 이 근처에서 조금 쉬도록 하자.<end>"
 ["330212"]
 japanese = "とう！<end>"
 korean = "타앗!<end>"
+
+["330214"]
+japanese = "…<value:$28>、<line-break>おやじさんは…亡くなられた。<end>"
+korean = "…<value:$28>, 아버님은… 돌아가셨어.<end>"
 
 ["330215"]
 japanese = "あ…。えっと、えっと！<line-break>じゃ、じゃあ、ルルアンタ、<line-break><value:$28>を探してくるね！<end>"

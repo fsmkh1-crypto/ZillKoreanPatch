@@ -32,6 +32,10 @@ korean = "저, 저기….<end>"
 japanese = "それでは、王女様、<line-break>失礼いたします。<end>"
 korean = "그럼 공주님, 실례하겠습니다.<end>"
 
+["780025"]
+japanese = "まあ…。そうだったのですか。<line-break>突然なので驚いてしまいました。<line-break><value:$28>さん、はじめまして。<end>"
+korean = "어머…. 그랬군요. 갑작스러워서 놀랐어요. <value:$28>님, 처음 뵙겠습니다.<end>"
+
 ["780027"]
 japanese = "あいさつはもういい、アトレイア？<line-break>それじゃ、僕は<value:$28>を<line-break>王宮の外まで送っていくよ。<end>"
 korean = "인사는 이제 됐지, 아트레이아? 그럼 내가 <value:$28>을 왕궁 밖까지 데려다줄게.<end>"

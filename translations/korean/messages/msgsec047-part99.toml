@@ -48,6 +48,10 @@ korean = "나지…!?<end>"
 japanese = "本当？<end>"
 korean = "정말?<end>"
 
+["470036"]
+japanese = "ああ、本当だって。<line-break>ところで、<value:$28>…。<end>"
+korean = "그래, 정말이라니까. 그런데 <value:$28>….<end>"
+
 ["470038"]
 japanese = "…<value:$28>！<line-break>ヴァンには宿屋が…。<end>"
 korean = "…<value:$28>! 반에게는 여관이….<end>"

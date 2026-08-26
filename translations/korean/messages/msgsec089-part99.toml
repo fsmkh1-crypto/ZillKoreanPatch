@@ -40,6 +40,10 @@ korean = "샤리!<end>"
 japanese = "な…！<line-break>いきなり何を言い出すんだよ！？<end>"
 korean = "뭐…! 갑자기 무슨 소리야!?<end>"
 
+["890049"]
+japanese = "ほら、こうやって君はいつも<line-break><value:$28>に支えられてる。<line-break>もしかして、足手まといなんじゃない？<end>"
+korean = "봐, 이렇게 넌 늘 <value:$28>에게 도움받고 있잖아. 혹시 짐만 되는 거 아냐?<end>"
+
 ["890057"]
 japanese = "き、キミは…シャリ！！<end>"
 korean = "너, 너는… 샤리!!<end>"
@@ -191,6 +195,10 @@ korean = "오! <value:$28>, 편지가 왔어.<end>"
 ["890149"]
 japanese = "おう！　<value:$28><line-break>手紙が届いているぜ。<end>"
 korean = "오! <value:$28>, 편지가 왔어.<end>"
+
+["890151"]
+japanese = "<value:$28>様でありますか！<line-break>ザギヴ将軍よりお話は承っております！<line-break>どうぞ！　ご案内いたします！<end>"
+korean = "<value:$28>님이십니까! 자기브 장군님께 말씀 들었습니다! 이쪽으로 안내하겠습니다!<end>"
 
 ["890152"]
 japanese = "これは、<value:$28>様<line-break>ザギヴ将軍よりお話は承っております。<line-break>ご案内いたしますぞ。<end>"
@@ -627,6 +635,10 @@ korean = "알고 있겠지, 아스티아. 바슈타르를 깨우지 않는 건 �
 ["890462"]
 japanese = "私だけではない。<line-break>お前もだ、アスティア。<end>"
 korean = "나만이 아니다. 너도다, 아스티아.<end>"
+
+["890466"]
+japanese = "…運命は変えられぬ。<line-break> <line-break> <line-break>お前のしていることは、<line-break>無駄なことだぞ、アスティア。<end>"
+korean = "…운명은 바꿀 수 없다. 네가 하는 일은 헛된 짓이다, 아스티아.<end>"
 
 ["890468"]
 japanese = "さぁ、それはどうかしら？<end>"

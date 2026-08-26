@@ -120,6 +120,10 @@ korean = "뭐!? 비염의 보검이!?<end>"
 japanese = "が…っ！！<end>"
 korean = "크…윽!!<end>"
 
+["340050"]
+japanese = "<value:$28>…、大丈夫か？<line-break>怪物は……かはっ！<end>"
+korean = "<value:$28>…, 괜찮아? 괴물은…… 크헉!<end>"
+
 ["340051"]
 japanese = "そうか…お前が倒したのか…。<end>"
 korean = "그런가… 네가 쓰러뜨렸군….<end>"
