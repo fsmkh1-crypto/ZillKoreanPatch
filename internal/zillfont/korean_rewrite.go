@@ -84,13 +84,15 @@ func PatchAuthenticatedRetailFontWithMetricRewrite(zillfontMember, jillbtnMember
 		return nil, nil, err
 	}
 	patchedPAF := append([]byte(nil), jillbtnMember...)
+	bearingX := int16(KoreanTargetBearingX)
+	bearingY := int16(KoreanTargetBearingY)
 	for _, replacement := range replacements {
 		offset := RetailPAFOffset + RecordOffset + replacement.Glyph.Index*RecordStride
 		if offset < RetailPAFOffset || offset+RecordStride > len(patchedPAF) {
 			return nil, nil, fmt.Errorf("metric rewrite: glyph %d PAF record is out of range", replacement.Glyph.Index)
 		}
-		binary.LittleEndian.PutUint16(patchedPAF[offset+8:offset+10], uint16(int16(KoreanTargetBearingX)))
-		binary.LittleEndian.PutUint16(patchedPAF[offset+10:offset+12], uint16(int16(KoreanTargetBearingY)))
+		binary.LittleEndian.PutUint16(patchedPAF[offset+8:offset+10], uint16(bearingX))
+		binary.LittleEndian.PutUint16(patchedPAF[offset+10:offset+12], uint16(bearingY))
 		binary.LittleEndian.PutUint32(patchedPAF[offset+12:offset+16], KoreanTargetAdvance)
 	}
 	return patchedAtlas, patchedPAF, nil
