@@ -448,6 +448,10 @@ korean = "벽보가 붙어 있네요.<end>"
 japanese = "さて、何について説明しようか？<end>"
 korean = "자, 무엇에 대해 설명할까?<end>"
 
+["1380300"]
+japanese = "（母さんがいない。<line-break>　まさか…、また遺跡へ？）<end>"
+korean = "(엄마가 없어. 설마… 또 유적으로?)<end>"
+
 ["1380301"]
 japanese = "…待って、<value:$28>。<end>"
 korean = "…기다려, <value:$28>.<end>"

@@ -4,6 +4,10 @@
 japanese = "舞踏会ＶＯＬ４用メッセージ開始<end>"
 korean = "무도회 VOL4용 메시지 시작<end>"
 
+["1400001"]
+japanese = "これは<value:$28>様。<line-break>今日はどちらへおいでですか？<end>"
+korean = "<value:$28>님이시군요. 오늘은 어디로 가십니까?<end>"
+
 ["1400002"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
