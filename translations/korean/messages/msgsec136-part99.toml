@@ -124,6 +124,18 @@ korean = "그렇구나… 고맙다.<end>"
 japanese = "さあ、こいつを倒さないと、<line-break>この先には進めないよ。<line-break><value:$28>！<end>"
 korean = "자, 이 녀석을 쓰러뜨리지 않으면 앞으로 갈 수 없어. <value:$28>!<end>"
 
+["1360147"]
+japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
+korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
+
+["1360152"]
+japanese = "さあ、こいつを倒さないと、<line-break>この先には進めないよ。<line-break><value:$28>！<end>"
+korean = "자, 이 녀석을 쓰러뜨리지 않으면 앞으로 갈 수 없어. <value:$28>!<end>"
+
+["1360153"]
+japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
+korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
+
 ["1360158"]
 japanese = "じゃあね。<line-break>またあとで会おうね、<line-break><value:$28>。<end>"
 korean = "그럼 안녕. 나중에 또 만나자, <value:$28>.<end>"
@@ -187,6 +199,10 @@ korean = "정말!? 세계라고?<end>"
 ["1360272"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1360278"]
+japanese = "アーギルシャイア様！<line-break><value:$28>が、ここまで<line-break>攻めてまいりました！<end>"
+korean = "아길샤이어 님! <value:$28>가 여기까지 쳐들어왔습니다!<end>"
 
 ["1360289"]
 japanese = "サイ…フォス…。<end>"
@@ -275,6 +291,10 @@ korean = "…누나.<end>"
 ["1360338"]
 japanese = "セラがパーティーを去っていった。<end>"
 korean = "세라가 파티를 떠났다.<end>"
+
+["1360339"]
+japanese = "くすっ。<line-break>ロイは…渡さない…。<end>"
+korean = "후훗. 로이는… 넘겨주지 않아….<end>"
 
 ["1360341"]
 japanese = "…姉さん。<end>"

@@ -220,6 +220,10 @@ korean = "아무것도 기억나지 않는 건가…?<end>"
 japanese = "…なんでもない。<line-break>行くぞ。<end>"
 korean = "…아무것도 아니다. 가자.<end>"
 
+["1610193"]
+japanese = "そうか。<line-break>奴はどっちへ行った？<end>"
+korean = "그런가. 녀석은 어느 쪽으로 갔지?<end>"
+
 ["1610194"]
 japanese = "…瞬間移動か……。<end>"
 korean = "…순간이동인가…….<end>"
@@ -239,6 +243,10 @@ korean = "지키고 싶은 거지?<end>"
 ["1610206"]
 japanese = "…なんだ、小娘？<end>"
 korean = "…뭐냐, 꼬마 아가씨?<end>"
+
+["1610211"]
+japanese = "放せ！　放せしてよ！<line-break><value:$28>！<end>"
+korean = "놔! 놓으라고! <value:$28>!<end>"
 
 ["1610212"]
 japanese = "…<value:$28>が<line-break>そう言うなら…。<end>"

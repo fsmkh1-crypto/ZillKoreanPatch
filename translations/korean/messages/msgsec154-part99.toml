@@ -100,6 +100,10 @@ korean = "그것도 아니야.<end>"
 japanese = "じゃあ、どういうことだい？<end>"
 korean = "그럼, 무슨 뜻이지?<end>"
 
+["1540058"]
+japanese = "理解してくれとは言わぬ。<line-break>だが<value:$28>を決して<line-break>死なせはしない。<end>"
+korean = "이해해 달라고는 하지 않겠다. 하지만 <value:$28>를 절대 죽게 두지 않겠다.<end>"
+
 ["1540063"]
 japanese = "やめてくれ、シャリ！<end>"
 korean = "그만둬, 샤리!<end>"
