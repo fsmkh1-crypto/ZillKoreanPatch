@@ -4,9 +4,17 @@
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"
 
+["770029"]
+japanese = "あ…<value:$28>様！<end>"
+korean = "아… <value:$28> 님!<end>"
+
 ["770036"]
 japanese = "この前は…。<end>"
 korean = "지난번에는….<end>"
+
+["770054"]
+japanese = "え？　どこに？<end>"
+korean = "어? 어디로?<end>"
 
 ["770069"]
 japanese = "いいんです。<end>"
@@ -15,3 +23,7 @@ korean = "괜찮습니다.<end>"
 ["770115"]
 japanese = "がんばって<end>"
 korean = "힘내.<end>"
+
+["770136"]
+japanese = "キャアアアア！<end>"
+korean = "꺄아아아아!<end>"

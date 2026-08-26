@@ -55,3 +55,7 @@ korean = "그렇습니까.<end>"
 ["420292"]
 japanese = "ん？<end>"
 korean = "응?<end>"
+
+["420293"]
+japanese = "待て、<value:$28>。<end>"
+korean = "기다려, <value:$28>.<end>"

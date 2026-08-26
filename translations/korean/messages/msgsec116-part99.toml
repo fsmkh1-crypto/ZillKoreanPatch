@@ -12,6 +12,10 @@ korean = "네, 장로님.<end>"
 japanese = "…そうです。<end>"
 korean = "…그렇습니다.<end>"
 
+["1160089"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
+
 ["1160098"]
 japanese = "あ…。<end>"
 korean = "아…<end>"

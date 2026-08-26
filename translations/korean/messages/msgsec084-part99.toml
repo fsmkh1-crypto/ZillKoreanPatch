@@ -32,6 +32,10 @@ korean = "그래서 뭐.<end>"
 japanese = "…それで？<end>"
 korean = "…그래서?<end>"
 
+["840064"]
+japanese = "なーるほどね。<end>"
+korean = "아~ 그렇구나.<end>"
+
 ["840067"]
 japanese = "ひいっ！<end>"
 korean = "히익!<end>"
@@ -51,6 +55,10 @@ korean = "누구?<end>"
 ["840184"]
 japanese = "お待たせー！<end>"
 korean = "기다렸지!<end>"
+
+["840191"]
+japanese = "あの、でも…。<end>"
+korean = "저기, 하지만….<end>"
 
 ["840203"]
 japanese = "は、はい！<end>"

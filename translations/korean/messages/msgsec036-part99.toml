@@ -16,6 +16,10 @@ korean = "…예쁘네.<end>"
 japanese = "そーれ。<end>"
 korean = "자아.<end>"
 
+["360057"]
+japanese = "<value:$28>、無事？<end>"
+korean = "<value:$28>, 무사해?<end>"
+
 ["360071"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"

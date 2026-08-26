@@ -84,6 +84,10 @@ korean = "레이븐.<end>"
 japanese = "お帰りなさい。<end>"
 korean = "어서 오세요.<end>"
 
+["560216"]
+japanese = "<value:$28>、さん。<end>"
+korean = "<value:$28>, 씨.<end>"
+
 ["560243"]
 japanese = "ノエル！　<end>"
 korean = "노엘!　<end>"

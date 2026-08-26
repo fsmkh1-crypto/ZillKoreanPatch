@@ -72,6 +72,10 @@ korean = "더미<end>"
 japanese = "ダミー<line-break><end>"
 korean = "더미<end>"
 
+["650040"]
+japanese = "おい、<value:$28>。<end>"
+korean = "야, <value:$28>.<end>"
+
 ["650104"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"

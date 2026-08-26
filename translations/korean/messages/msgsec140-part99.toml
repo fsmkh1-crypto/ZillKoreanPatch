@@ -32,6 +32,10 @@ korean = "안 가<end>"
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
 
+["1400071"]
+japanese = "…<value:$28>様。<end>"
+korean = "…<value:$28> 님.<end>"
+
 ["1400090"]
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
@@ -68,6 +72,10 @@ korean = "티아나!<end>"
 japanese = "…ティアナ。<end>"
 korean = "…티아나.<end>"
 
+["1400162"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
+
 ["1400166"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
@@ -79,6 +87,10 @@ korean = "간다<end>"
 ["1400181"]
 japanese = "行かない<end>"
 korean = "안 가<end>"
+
+["1400183"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
 
 ["1400187"]
 japanese = "…催し？<end>"

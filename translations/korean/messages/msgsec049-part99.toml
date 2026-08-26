@@ -112,6 +112,10 @@ korean = "<미사용><end>"
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
 
+["490204"]
+japanese = "なぁ、<value:$28>。<end>"
+korean = "있잖아, <value:$28>.<end>"
+
 ["490237"]
 japanese = "えーっ！？<end>"
 korean = "에엣!?<end>"
@@ -239,3 +243,7 @@ korean = "<미사용><end>"
 ["490320"]
 japanese = "<未使用><end>"
 korean = "<미사용><end>"
+
+["490322"]
+japanese = "よう、<value:$28>。<end>"
+korean = "여어, <value:$28>.<end>"

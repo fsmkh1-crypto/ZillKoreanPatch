@@ -48,6 +48,10 @@ korean = "이건…!<end>"
 japanese = "！<end>"
 korean = "！<end>"
 
+["320086"]
+japanese = "<value:$28>、よせ！<end>"
+korean = "<value:$28>, 그만둬!<end>"
+
 ["320087"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"

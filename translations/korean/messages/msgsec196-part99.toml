@@ -68,9 +68,21 @@ korean = "바인드 LL<end>"
 japanese = "次元の輪<end>"
 korean = "차원의 고리<end>"
 
+["1960475"]
+japanese = "闇に憑かれる.<end>"
+korean = "어둠에 씌다.<end>"
+
+["1960481"]
+japanese = "インビジブル.<end>"
+korean = "인비저블.<end>"
+
 ["1960482"]
 japanese = "ストップ.<end>"
 korean = "스톱.<end>"
+
+["1960483"]
+japanese = "マノンバリア.<end>"
+korean = "마논 배리어.<end>"
 
 ["1960507"]
 japanese = "だましもの<end>"
@@ -147,6 +159,10 @@ korean = "　예비<end>"
 ["1960695"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960708"]
+japanese = "　オイフェ END<end>"
+korean = " 오이페 END<end>"
 
 ["1960711"]
 japanese = "　セラEND<end>"
@@ -275,6 +291,22 @@ korean = "새 시작 ED<end>"
 ["1960772"]
 japanese = "フレア２０<end>"
 korean = "플레어 20<end>"
+
+["1960773"]
+japanese = "フレア２１_１<end>"
+korean = "플레어21_1<end>"
+
+["1960780"]
+japanese = "フレア２１＿8<end>"
+korean = "플레어21_8<end>"
+
+["1960781"]
+japanese = "フレア２１＿9<end>"
+korean = "플레어21_9<end>"
+
+["1960782"]
+japanese = "フレア２１＿10<end>"
+korean = "플레어21_10<end>"
 
 ["1960786"]
 japanese = "エルファスED2<end>"
@@ -456,6 +488,30 @@ korean = "페름9_9<end>"
 japanese = "フェルム９_10<end>"
 korean = "페름9_10<end>"
 
+["1960841"]
+japanese = "フェルム１０_1<end>"
+korean = "페름10_1<end>"
+
+["1960842"]
+japanese = "フェルム１０_2<end>"
+korean = "페름10_2<end>"
+
+["1960843"]
+japanese = "フェルム１０_3<end>"
+korean = "페름10_3<end>"
+
+["1960844"]
+japanese = "フェルム１０_4<end>"
+korean = "페름10_4<end>"
+
+["1960845"]
+japanese = "フェルム１０_5<end>"
+korean = "페름10_5<end>"
+
+["1960846"]
+japanese = "フェルム１０_6<end>"
+korean = "페름10_6<end>"
+
 ["1960847"]
 japanese = "フェルム10_7<end>"
 korean = "페름10_7<end>"
@@ -483,6 +539,42 @@ korean = "페름12<end>"
 ["1960853"]
 japanese = "フェルム１３<end>"
 korean = "페름13<end>"
+
+["1960854"]
+japanese = "フェルム１４_1<end>"
+korean = "페름14_1<end>"
+
+["1960855"]
+japanese = "フェルム１４_2<end>"
+korean = "페름14_2<end>"
+
+["1960856"]
+japanese = "フェルム１４_3<end>"
+korean = "페름14_3<end>"
+
+["1960857"]
+japanese = "フェルム１４_4<end>"
+korean = "페름14_4<end>"
+
+["1960858"]
+japanese = "フェルム１４_5<end>"
+korean = "페름14_5<end>"
+
+["1960859"]
+japanese = "フェルム１４_6<end>"
+korean = "페름14_6<end>"
+
+["1960860"]
+japanese = "フェルム１４_7<end>"
+korean = "페름14_7<end>"
+
+["1960861"]
+japanese = "フェルム１４_8<end>"
+korean = "페름14_8<end>"
+
+["1960862"]
+japanese = "フェルム１４_9<end>"
+korean = "페름14_9<end>"
 
 ["1960864"]
 japanese = "フェルム１５<end>"

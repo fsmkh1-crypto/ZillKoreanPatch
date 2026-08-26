@@ -16,6 +16,10 @@ korean = "네….<end>"
 japanese = "これを見ろ。<end>"
 korean = "이걸 봐.<end>"
 
+["1840104"]
+japanese = "<value:$28>さん。<end>"
+korean = "<value:$28> 씨.<end>"
+
 ["1840108"]
 japanese = "それは人違い<end>"
 korean = "사람을 잘못 봤다<end>"

@@ -72,9 +72,17 @@ korean = "…아…니.<end>"
 japanese = "私…だけ…<end>"
 korean = "나…만…<end>"
 
+["890219"]
+japanese = "近づかないで！<end>"
+korean = "가까이 오지 마!<end>"
+
 ["890226"]
 japanese = "…い、痛い。<end>"
 korean = "…아, 아파.<end>"
+
+["890228"]
+japanese = "痛い、痛いよ…<end>"
+korean = "아파, 아프다고…<end>"
 
 ["890235"]
 japanese = "逃げる<end>"
@@ -83,6 +91,10 @@ korean = "도망친다<end>"
 ["890236"]
 japanese = "逃げない<end>"
 korean = "도망치지 않아<end>"
+
+["890240"]
+japanese = "な、なんじゃ？<end>"
+korean = "뭐, 뭐냐?<end>"
 
 ["890241"]
 japanese = "この…歌…<end>"
@@ -112,6 +124,10 @@ korean = "…지금이야!<end>"
 japanese = "ぐあっ！<end>"
 korean = "크악!<end>"
 
+["890313"]
+japanese = "間に合ったか。<end>"
+korean = "제때 왔나.<end>"
+
 ["890320"]
 japanese = "く、来る…！<end>"
 korean = "오, 온다…!<end>"
@@ -119,6 +135,10 @@ korean = "오, 온다…!<end>"
 ["890341"]
 japanese = "く、来る…！<end>"
 korean = "오, 온다…!<end>"
+
+["890349"]
+japanese = "あ…、<value:$28>。<end>"
+korean = "아…, <value:$28>.<end>"
 
 ["890355"]
 japanese = "ううっ…！<end>"
@@ -152,6 +172,14 @@ korean = "왔나….<end>"
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
 
+["890507"]
+japanese = "謁見の間へ行く<end>"
+korean = "알현실로 간다<end>"
+
+["890510"]
+japanese = "…そうですか。<end>"
+korean = "…그렇습니까.<end>"
+
 ["890516"]
 japanese = "説得を続ける<end>"
 korean = "설득을 계속한다<end>"
@@ -164,21 +192,49 @@ korean = "포기한다<end>"
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["890527"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
+["890529"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
+
 ["890530"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["890531"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
 
 ["890533"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["890534"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
+["890535"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
+
 ["890536"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["890537"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
 ["890538"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["890539"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
 
 ["890541"]
 japanese = "そうですか。<end>"
@@ -200,29 +256,77 @@ korean = "포기한다<end>"
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["890586"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
+["890588"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
+
 ["890589"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["890590"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
 
 ["890592"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["890593"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
+
+["890594"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
+
 ["890595"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
+
+["890596"]
+japanese = "ティアナの部屋<end>"
+korean = "티아나의 방<end>"
 
 ["890597"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"
 
+["890598"]
+japanese = "エリスの執務室<end>"
+korean = "에리스의 집무실<end>"
+
 ["890600"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["890640"]
+japanese = "カ、カフィン！<end>"
+korean = "카, 카핀!<end>"
+
+["890650"]
+japanese = "ウオオオオッ！<end>"
+korean = "우오오오옷!<end>"
+
 ["890651"]
 japanese = "うっ……！<end>"
 korean = "윽……!<end>"
+
+["890652"]
+japanese = "キャアアアア！<end>"
+korean = "꺄아아아아!<end>"
+
+["890656"]
+japanese = "遅かったか…。<end>"
+korean = "늦었나….<end>"
+
+["890663"]
+japanese = "今、なんて…？<end>"
+korean = "방금, 뭐라고…?<end>"
 
 ["890674"]
 japanese = "…竜王様だ。<end>"
@@ -243,6 +347,14 @@ korean = "노엘….<end>"
 ["890700"]
 japanese = "おりゃあ！<end>"
 korean = "으랴앗!<end>"
+
+["890703"]
+japanese = "ヴァンを止める<end>"
+korean = "반을 막는다<end>"
+
+["890704"]
+japanese = "黙って見ている<end>"
+korean = "말없이 지켜본다<end>"
 
 ["890707"]
 japanese = "待って！<end>"

@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["880016"]
+japanese = "非市民じゃない<end>"
+korean = "비시민 아니야<end>"
+
+["880017"]
+japanese = "非市民で悪い？<end>"
+korean = "비시민이라 나빠?<end>"
+
 ["880025"]
 japanese = "まぁね<end>"
 korean = "뭐, 그렇지<end>"
@@ -15,6 +23,10 @@ korean = "지금은 됐어<end>"
 ["880089"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
+
+["880090"]
+japanese = "しょうがないな<end>"
+korean = "어쩔 수 없네<end>"
 
 ["880091"]
 japanese = "う～ん…<end>"
@@ -44,9 +56,17 @@ korean = "안녕하세요.<end>"
 japanese = "殺れ。<end>"
 korean = "죽여.<end>"
 
+["880205"]
+japanese = "あ、…ゴメン。<end>"
+korean = "아, …미안.<end>"
+
 ["880226"]
 japanese = "ホント！？<end>"
 korean = "정말!?<end>"
+
+["880249"]
+japanese = "ステキだと思う<end>"
+korean = "멋지다고 생각해<end>"
 
 ["880250"]
 japanese = "ガラじゃない<end>"

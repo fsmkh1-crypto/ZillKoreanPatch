@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1070002"]
+japanese = "アンチハードル<end>"
+korean = "안티 허들<end>"
+
 ["1070003"]
 japanese = "○<end>"
 korean = "○<end>"
@@ -16,6 +20,10 @@ korean = "알람<end>"
 japanese = "呪いガス<end>"
 korean = "저주 가스<end>"
 
+["1070010"]
+japanese = "フューマスクス<end>"
+korean = "퓨마스크스<end>"
+
 ["1070013"]
 japanese = "スイッチ系罠<end>"
 korean = "스위치계 함정<end>"
@@ -23,6 +31,18 @@ korean = "스위치계 함정<end>"
 ["1070014"]
 japanese = "魔法の宝箱<end>"
 korean = "마법의 보물상자<end>"
+
+["1070022"]
+japanese = "所持金 %10uギア<end>"
+korean = "소지금 %10u기어<end>"
+
+["1070023"]
+japanese = "　　　 %10uギア<end>"
+korean = "         %10u기어<end>"
+
+["1070026"]
+japanese = "詳しく説明して<end>"
+korean = "자세히 설명해 줘<end>"
 
 ["1070027"]
 japanese = "  100ギア<end>"

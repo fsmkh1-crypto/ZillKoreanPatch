@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["500001"]
+japanese = "よう、<value:$28>。<end>"
+korean = "여어, <value:$28>.<end>"
+
 ["500014"]
 japanese = "別に用はない<end>"
 korean = "딱히 볼일은 없다<end>"

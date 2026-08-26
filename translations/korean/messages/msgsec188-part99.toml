@@ -12,6 +12,10 @@ korean = "맡지 않는다<end>"
 japanese = "行かない<end>"
 korean = "안 간다<end>"
 
+["1880083"]
+japanese = "あ、<value:$28>。<end>"
+korean = "아, <value:$28>.<end>"
+
 ["1880138"]
 japanese = "なんで？<end>"
 korean = "왜?<end>"

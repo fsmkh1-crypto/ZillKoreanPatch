@@ -20,6 +20,10 @@ korean = "신경 쓰고 있었다<end>"
 japanese = "じゃねー。<end>"
 korean = "또 봐.<end>"
 
+["1380160"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
+
 ["1380167"]
 japanese = "よかった…。<end>"
 korean = "다행이다….<end>"

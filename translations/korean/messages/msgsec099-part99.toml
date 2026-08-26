@@ -4,6 +4,22 @@
 japanese = "ひ、ひいい！<end>"
 korean = "히, 히익!<end>"
 
+["990053"]
+japanese = "ごちそうさん。<end>"
+korean = "잘 먹었어.<end>"
+
 ["990065"]
 japanese = "い、いやっ！<end>"
 korean = "시, 싫어!<end>"
+
+["990090"]
+japanese = "あ、<value:$28>…。<end>"
+korean = "아, <value:$28>….<end>"
+
+["990096"]
+japanese = "あ、<value:$28>…。<end>"
+korean = "아, <value:$28>….<end>"
+
+["990124"]
+japanese = "あ、<value:$28>…。<end>"
+korean = "아, <value:$28>….<end>"

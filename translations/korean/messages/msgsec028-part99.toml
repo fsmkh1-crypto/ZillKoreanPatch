@@ -8,6 +8,10 @@ korean = "여어.<end>"
 japanese = "やあ、ヴァン。<end>"
 korean = "안녕, 반.<end>"
 
+["280008"]
+japanese = "ねえ、<value:$28>。<end>"
+korean = "있잖아, <value:$28>.<end>"
+
 ["280012"]
 japanese = "じゃ、行こう。<end>"
 korean = "그럼, 가자.<end>"

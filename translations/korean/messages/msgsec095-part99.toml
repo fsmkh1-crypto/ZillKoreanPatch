@@ -12,6 +12,10 @@ korean = "말을 걸지 않는다<end>"
 japanese = "はぁ～？<end>"
 korean = "하아~?<end>"
 
+["950024"]
+japanese = "禁断の聖杯…？<end>"
+korean = "금단의 성배…?<end>"
+
 ["950041"]
 japanese = "キャー！<end>"
 korean = "꺄악!<end>"
@@ -19,3 +23,7 @@ korean = "꺄악!<end>"
 ["950051"]
 japanese = "…待つがよい<end>"
 korean = "…기다리거라<end>"
+
+["950067"]
+japanese = "（やった…！）<end>"
+korean = "(해냈다…!)<end>"

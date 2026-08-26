@@ -8,6 +8,10 @@ korean = "흐~응.<end>"
 japanese = "そうだよ。<end>"
 korean = "그래.<end>"
 
+["330034"]
+japanese = "やはりそうか！ <end>"
+korean = "역시 그랬군! <end>"
+
 ["330048"]
 japanese = "ぶひゃっ！！<end>"
 korean = "부햑!!<end>"
@@ -87,6 +91,10 @@ korean = "조금만 더…<end>"
 ["330212"]
 japanese = "とう！<end>"
 korean = "타앗!<end>"
+
+["330231"]
+japanese = "<value:$28>もお礼！<end>"
+korean = "<value:$28>도 고마워!<end>"
 
 ["330240"]
 japanese = "フリント！<end>"

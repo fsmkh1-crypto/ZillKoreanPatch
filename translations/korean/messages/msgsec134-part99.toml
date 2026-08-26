@@ -136,6 +136,10 @@ korean = "우뉴우….<end>"
 japanese = "むにゅー…。<end>"
 korean = "우뉴우….<end>"
 
+["1340406"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
+
 ["1340413"]
 japanese = "はぁ…<end>"
 korean = "하아…<end>"
@@ -172,6 +176,10 @@ korean = "아니요<end>"
 japanese = "…待て。<end>"
 korean = "…기다려.<end>"
 
+["1340564"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
+
 ["1340575"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
@@ -183,6 +191,10 @@ korean = "으으음…<end>"
 ["1340578"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
+
+["1340618"]
+japanese = "…<value:$28>様。<end>"
+korean = "…<value:$28> 님.<end>"
 
 ["1340626"]
 japanese = "し、死んだ？<end>"

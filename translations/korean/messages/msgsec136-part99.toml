@@ -80,9 +80,25 @@ korean = "가!<end>"
 japanese = "…忘れ物だ。<end>"
 korean = "…두고 간 물건이다.<end>"
 
+["1360359"]
+japanese = "…<value:$28>か？<end>"
+korean = "…<value:$28>인가?<end>"
+
 ["1360363"]
 japanese = "…セラ…か？<end>"
 korean = "…세라…인가?<end>"
+
+["1360371"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
+
+["1360389"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
+
+["1360408"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
 
 ["1360410"]
 japanese = "でも…。<end>"
@@ -119,3 +135,7 @@ korean = "어?<end>"
 ["1360547"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
+
+["1360590"]
+japanese = "<value:$28>様…。<end>"
+korean = "<value:$28> 님….<end>"
