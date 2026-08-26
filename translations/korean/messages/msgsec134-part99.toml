@@ -4,6 +4,10 @@
 japanese = "ジラーク将軍、<line-break><value:$28>を<line-break>連れてまいりましたっ！<end>"
 korean = "지라크 장군님, <value:$28>을 데려왔습니다!<end>"
 
+["1340004"]
+japanese = "ご苦労。<line-break>さがってくれ。<end>"
+korean = "수고했다. 물러가도 좋다.<end>"
+
 ["1340005"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"

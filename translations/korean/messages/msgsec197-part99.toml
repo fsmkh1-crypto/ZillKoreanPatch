@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1970000"]
+japanese = "イベントセレクト用開始<end>"
+korean = "이벤트 선택용 시작<end>"
+
 ["1970002"]
 japanese = "闘技場処理中<end>"
 korean = "투기장 처리 중<end>"
@@ -3939,3 +3943,7 @@ korean = "누마모토산용<end>"
 ["1971812"]
 japanese = "沼本さんよう<end>"
 korean = "누마모토산용<end>"
+
+["1972017"]
+japanese = "イベントセレクト用終端<end>"
+korean = "이벤트 선택용 끝<end>"

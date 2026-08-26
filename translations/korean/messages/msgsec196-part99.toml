@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1960000"]
+japanese = "イベントセレクト用開始<end>"
+korean = "이벤트 선택용 시작<end>"
+
 ["1960437"]
 japanese = "詠唱<end>"
 korean = "영창<end>"
@@ -1783,3 +1787,7 @@ korean = "여정 시작<end>"
 ["1961180"]
 japanese = "旅立ち終了<end>"
 korean = "여정 종료<end>"
+
+["1961211"]
+japanese = "イベントセレクト用終端<end>"
+korean = "이벤트 선택용 끝<end>"
