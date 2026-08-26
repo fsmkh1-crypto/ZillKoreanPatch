@@ -17,6 +17,7 @@ from collections import defaultdict
 from pathlib import Path
 import re
 import tomllib
+from typing import Callable, Match
 
 from control_tags import fixed_tokens
 
@@ -25,9 +26,11 @@ KOREAN = ROOT / "translations" / "korean" / "messages"
 SECTION_RE = re.compile(r"^msgsec(\d{3})")
 LINE_BREAK = "<line-break>"
 
+PatternRenderer = Callable[[Match[str]], str]
+
 # Only context-independent, full-string patterns belong here. Proper names and
 # place names are intentionally excluded unless separately whitelisted.
-SAFE_PATTERNS: list[tuple[re.Pattern[str], callable]] = [
+SAFE_PATTERNS: list[tuple[re.Pattern[str], PatternRenderer]] = [
     (re.compile(r"^(\d+)月(\d+)日<end>$"), lambda m: f"{m.group(1)}월 {m.group(2)}일<end>"),
     (re.compile(r"^(\d+)月<end>$"), lambda m: f"{m.group(1)}월<end>"),
     (re.compile(r"^第(\d+)章<end>$"), lambda m: f"제{m.group(1)}장<end>"),
@@ -45,7 +48,7 @@ def section_from_path(path: Path) -> int:
 def load_translation_memory() -> dict[str, str]:
     candidates: dict[str, set[str]] = defaultdict(set)
     for path in sorted(KOREAN.glob("msgsec*.toml")):
-        section_from_path(path)  # validate naming convention while scanning
+        section_from_path(path)
         with path.open("rb") as f:
             data = tomllib.load(f)
         for rec in data.values():
@@ -57,13 +60,10 @@ def load_translation_memory() -> dict[str, str]:
                 continue
             ja_s, ko_s = str(ja), str(ko)
             if LINE_BREAK in ko_s:
-                # Legacy semantic breaks must never be propagated.
                 continue
             if fixed_tokens(ja_s) != fixed_tokens(ko_s):
                 continue
             candidates[ja_s].add(ko_s)
-
-    # Fail safe: ambiguous source strings are not auto-propagated at all.
     return {ja: next(iter(values)) for ja, values in candidates.items() if len(values) == 1}
 
 
