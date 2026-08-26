@@ -196,6 +196,10 @@ korean = "아, <value:$28>. 이런 데 있었구나.<end>"
 japanese = "やぁ、<value:$28><end>"
 korean = "여어, <value:$28><end>"
 
+["700246"]
+japanese = "気づいてた？<line-break>セラとアーギルシャイアって<line-break>似てるよね。<line-break>ねぇ、<value:$28>、<line-break>何かセラから聞いてないの？<end>"
+korean = "눈치챘어? 세라와 아기르샤이아는 닮았지. <value:$28>, 세라에게 뭔가 들은 거 없어?<end>"
+
 ["700259"]
 japanese = "姉ちゃーん。<end>"
 korean = "누나아.<end>"

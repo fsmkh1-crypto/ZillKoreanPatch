@@ -52,6 +52,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550033"]
+japanese = "見ろよ！　<value:$28>！<line-break>こいつらみんな同じ刺青してる！<line-break><line-break>へへっ、わかったぜ！<line-break>ってことは、つまり…。<end>"
+korean = "봐, <value:$28>! 이 녀석들 전부 같은 문신을 하고 있어! 헤헤, 알겠다! 그러니까 이건….<end>"
+
 ["550034"]
 japanese = "はやってるのかな？<end>"
 korean = "유행하는 건가?<end>"

@@ -100,6 +100,10 @@ korean = "당신은…?<end>"
 japanese = "は、はい…。<line-break>あなたたちは…？<end>"
 korean = "네, 네…. 당신들은…?<end>"
 
+["1330098"]
+japanese = "ボクはエステル。<line-break>君とおんなじ巫女、地の巫女だよ。<line-break>　<line-break>で、こっちが<value:$28>。<line-break>ま、冒険者、かな。<end>"
+korean = "나는 에스텔. 너와 같은 무녀, 땅의 무녀야. 그리고 이쪽이 <value:$28>. 뭐, 모험자랄까.<end>"
+
 ["1330099"]
 japanese = "そうですか。<line-break>エステルさん、<value:$28>さん、<line-break>本当に、ありがとうございます。<end>"
 korean = "그렇군요. 에스텔 씨, <value:$28>님, 정말 감사합니다.<end>"
@@ -155,6 +159,10 @@ korean = "널 구하러 왔어. 너, 플레어지?<end>"
 ["1330124"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1330125"]
+japanese = "ボクはエステル。<line-break>君とおんなじ巫女、地の巫女だよ。<line-break>　<line-break>で、こっちが<value:$28>。<line-break>ま、冒険者、かな。<end>"
+korean = "나는 에스텔. 너와 같은 무녀, 땅의 무녀야. 그리고 이쪽이 <value:$28>. 뭐, 모험자랄까.<end>"
 
 ["1330126"]
 japanese = "そうですか。<end>"

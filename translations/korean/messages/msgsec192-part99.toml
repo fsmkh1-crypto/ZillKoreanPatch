@@ -28,6 +28,10 @@ korean = "어머, <value:$28>. 깨어난 모양이네. 아침밥은 다 됐어.<
 japanese = "ほら、さっさと道場に行くわよ。<end>"
 korean = "자, 얼른 도장으로 가자.<end>"
 
+["1920015"]
+japanese = "あのころと変わらない毎日…。<line-break>　<line-break>　<line-break>ううん、今では私が<line-break><value:$28>の背中を<line-break>追いかけてる…。<end>"
+korean = "그때와 다르지 않은 나날…. 아니, 지금은 내가 <value:$28>의 등을 쫓고 있어….<end>"
+
 ["1920016"]
 japanese = "でも、それ以外は同じ。　　　<line-break>私は帰ってきたんだ。<line-break>この町に…。<line-break>私の一番大切な、あのころに…。<end>"
 korean = "하지만 그 외에는 똑같아. 나는 돌아왔어. 이 마을로…. 내가 가장 소중히 여기던 그 시절로….<end>"
@@ -52,6 +56,10 @@ korean = "으으…. 이 녀석들과 동문이라니….<end>"
 japanese = "っるさい！<end>"
 korean = "시끄러워!<end>"
 
+["1920027"]
+japanese = "先生、また今日も<line-break>稽古をつけてください！　　　　<line-break>　<line-break>明日こそ、<value:$28>から<line-break>一本取ってみせます！<end>"
+korean = "선생님, 오늘도 수련 부탁드립니다! 내일이야말로 <value:$28>에게 한 판 따내겠습니다!<end>"
+
 ["1920031"]
 japanese = "<value:$28>。<line-break>明日は絶対に負けないわよ！<end>"
 korean = "<value:$28>. 내일은 절대 지지 않을 거야!<end>"
@@ -63,6 +71,10 @@ korean = "내가… 매력적이라고?<end>"
 ["1920041"]
 japanese = "ええ。<line-break>どうもありがとう。<end>"
 korean = "응. 정말 고마워.<end>"
+
+["1920044"]
+japanese = "書いてある内容がわかるように<line-break>ならないと。<end>"
+korean = "적혀 있는 내용을 알아볼 수 있게 되어야 해.<end>"
 
 ["1920049"]
 japanese = "あ、あの…。<line-break>どう、ですか？<end>"
@@ -135,6 +147,10 @@ korean = "그럼, <value:$28>. 가자!<end>"
 ["1920090"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["1920095"]
+japanese = "そうしたら、わたくし、<line-break>世界を回ってみたい。<line-break>いろいろな町を見てみたい。　<line-break>できれば、あの人と一緒に…。<end>"
+korean = "그러면 저도 세계를 돌아보고 싶어요. 여러 도시를 보고 싶어요. 가능하다면 그 사람과 함께….<end>"
 
 ["1920096"]
 japanese = "あ、<value:$28>。<line-break>こちらよ。<end>"

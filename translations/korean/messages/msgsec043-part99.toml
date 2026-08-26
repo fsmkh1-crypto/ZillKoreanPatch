@@ -40,6 +40,10 @@ korean = "…하지만 무기는 쓸 수 있는 모양이군.<end>"
 japanese = "名は？<end>"
 korean = "이름은?<end>"
 
+["430010"]
+japanese = "<value:$28>か。<line-break>ついてこい。<line-break>俺は急ぎノーブルへ向かう。<line-break>貴様は黙って護衛をしていれば、<line-break>それでいい。<end>"
+korean = "<value:$28>인가. 따라와라. 나는 급히 노블로 간다. 너는 말없이 호위만 하면 된다.<end>"
+
 ["430012"]
 japanese = "…引き受けよう<end>"
 korean = "…맡지.<end>"
@@ -184,6 +188,10 @@ korean = "상대하고 있을 틈은 없어<end>"
 japanese = "どうした？　　　　　　<end>"
 korean = "왜 그래?<end>"
 
+["430105"]
+japanese = "さっきも言ったはずだ。<line-break>俺は急いでいるのだ。<end>"
+korean = "아까도 말했을 텐데. 나는 서두르고 있다.<end>"
+
 ["430106"]
 japanese = "フリントの死についてレムオンを責める<end>"
 korean = "플린트의 죽음에 대해 레무온을 탓한다<end>"
@@ -236,6 +244,10 @@ korean = "전혀 말이 안 통하는군!<end>"
 japanese = "<value:$28>、世界を見ろ。<end>"
 korean = "<value:$28>, 세상을 봐라.<end>"
 
+["430150"]
+japanese = "フフッ、俺としたことが…<line-break>しゃべりすぎたな。<end>"
+korean = "후후, 나답지 않게… 말을 너무 많이 했군.<end>"
+
 ["430151"]
 japanese = "…賊か。<line-break>　<end>"
 korean = "…도적인가.<end>"
@@ -252,6 +264,10 @@ korean = "돌아가시겠습니까?<end>"
 japanese = "<value:$28>、<line-break>ここで待っていろ。<end>"
 korean = "<value:$28>, 여기서 기다려.<end>"
 
+["430159"]
+japanese = "（ライギロア伝？<line-break>　…ずいぶん分厚い本だ。）<end>"
+korean = "(라이기로아 전기? …꽤 두꺼운 책이군.)<end>"
+
 ["430160"]
 japanese = "読んでみよう<end>"
 korean = "읽어 보자<end>"
@@ -267,6 +283,10 @@ korean = "…라이기로아. 다르케니스로 태어난 그는 어린 나이�
 ["430169"]
 japanese = "男のこびた笑顔が脳裏をかすめた。<line-break>毒か…！<line-break>次の瞬間、鈍く冷たい痛みが<line-break>ライギロアを貫いた。<end>"
 korean = "남자의 비굴한 미소가 머릿속을 스쳤다. 독인가…! 다음 순간 둔하고 차가운 통증이 라이기로아를 꿰뚫었다.<end>"
+
+["430173"]
+japanese = "だが、それを伝える言葉を<line-break>ライギロアは知らなかった。<line-break>人間は嫌いだ…、そう言い残して<line-break>少女の前を去った。<end>"
+korean = "하지만 라이기로아는 그것을 전할 말을 몰랐다. 인간은 싫다… 그렇게 남기고 소녀 앞을 떠났다.<end>"
 
 ["430174"]
 japanese = "リメルダの住む街では、魔道兵器の<line-break>開発が盛んに行われていた。<line-break>強大な力をいむ竜王は、<line-break>これを不遜と考えた。<end>"

@@ -12,6 +12,10 @@ korean = "가!<end>"
 japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
 korean = "봐, 왔어. <value:$28>가.<end>"
 
+["1900014"]
+japanese = "ザギウよ、自らの血で<line-break>闇に目覚めるがよい！<end>"
+korean = "자기브여, 자신의 피로 어둠에 눈을 떠라!<end>"
+
 ["1900026"]
 japanese = "さて、わしの運命の幕を<line-break>降ろしてもらおうか。<line-break>　<line-break>…ネメアよ。<end>"
 korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
@@ -108,6 +112,10 @@ korean = "나는 그저 소원을 구할 뿐이다.<end>"
 japanese = "じゃあね、<value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
 
+["1900096"]
+japanese = "ヒマだよ～。<line-break>役に立つから、早く誘ってね。<end>"
+korean = "심심해~. 도움 될 테니까 빨리 불러 줘.<end>"
+
 ["1900099"]
 japanese = "カルラ様！　将軍の仕事は！？<end>"
 korean = "카를라 님! 장군 업무는요!?<end>"
@@ -127,6 +135,10 @@ korean = "좋아. 그럼 힘내서 가자!<end>"
 ["1900111"]
 japanese = "え…！　カ、カルラ様？<end>"
 korean = "어…! 카, 카를라 님?<end>"
+
+["1900114"]
+japanese = "よし。じゃ、<line-break>がんばっていってらっしゃい！<end>"
+korean = "좋아. 그럼 힘내서 다녀와!<end>"
 
 ["1900115"]
 japanese = "ネメア様！<end>"

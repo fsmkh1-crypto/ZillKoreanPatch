@@ -16,6 +16,10 @@ korean = "제 걱정은 하지 마세요. 그보다 본인 걱정을 하시는 �
 japanese = "…<value:$28>様。<end>"
 korean = "…<value:$28> 님.<end>"
 
+["1800009"]
+japanese = "ただ、ゼネテス様に対する<line-break>対抗意識だけ…。<end>"
+korean = "다만 제네테스 님에 대한 경쟁심뿐….<end>"
+
 ["1800016"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -132,6 +136,10 @@ korean = "<value:$28>, 나와 함께 출격해 줘.<end>"
 japanese = "ハァイ、ちょうどいいとこに来たわ、<line-break><value:$28>。<line-break>いよいよ、ロストールを攻略するわよ。<end>"
 korean = "하이, 마침 잘 왔어, <value:$28>. 이제 로스토올을 공략할 거야.<end>"
 
+["1800097"]
+japanese = "ほ、本当ですか！？　　　　<line-break>…なんて愚かな。<line-break>　<line-break>貴族というのは、<line-break>どうして自分のことしか…！<end>"
+korean = "저, 정말입니까!? …어리석군요. 귀족이라는 자들은 어째서 자기 생각밖에…!<end>"
+
 ["1800098"]
 japanese = "とは言っても、<line-break>この情報を鵜呑みにすると<line-break>足下すくわれるかもね。<line-break>ゼネテスってのは<line-break>油断ならないから。<end>"
 korean = "그렇다고 해도 이 정보를 그대로 믿으면 발밑을 잡힐지도 몰라. 제네테스라는 자는 방심할 수 없으니까.<end>"
@@ -212,6 +220,10 @@ korean = "곤란하군…. 카를라만이 아니었나.<end>"
 japanese = "ここでお前を討ちとれば、<line-break>戦力差がどうあれ、<line-break>こっちの勝ちだ。<line-break>その首、もらうぜ！<end>"
 korean = "여기서 너를 쓰러뜨리면 전력 차이가 어떻든 이쪽 승리다. 그 목, 받아 가겠다!<end>"
 
+["1800138"]
+japanese = "くっ…。<line-break>強くなりやがって…。<line-break>　<line-break>へへ…、複雑な気分だな。<line-break>悪い気はしねぇよ。<line-break><value:$28>。<end>"
+korean = "큭…. 강해졌구나…. 헤헤… 복잡한 기분이네. 나쁜 기분은 아니야, <value:$28>.<end>"
+
 ["1800139"]
 japanese = "くっ…。<line-break>カルラひとりならやれたものを！<end>"
 korean = "큭…. 카를라 혼자였다면 해치웠을 텐데!<end>"
@@ -283,6 +295,10 @@ korean = "힘을 빌려주지<end>"
 ["1800182"]
 japanese = "他にやることがある<end>"
 korean = "다른 할 일이 있다<end>"
+
+["1800183"]
+japanese = "…本当ですか？<line-break>ありがとうございます。<line-break>　<line-break>ゼネテス様は、謁見の間で<line-break>お待ちしているそうです。<end>"
+korean = "…정말입니까? 감사합니다. 제네테스 님은 알현실에서 기다리고 계신다고 합니다.<end>"
 
 ["1800184"]
 japanese = "あ、それから…。<end>"
