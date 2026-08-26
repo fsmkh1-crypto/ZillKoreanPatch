@@ -1,8 +1,11 @@
 from __future__ import annotations
 
+import contextlib
 import importlib.util
+import io
 from pathlib import Path
 from types import SimpleNamespace
+import tempfile
 import unittest
 from unittest import mock
 
@@ -108,6 +111,47 @@ class HistoricalRowsTests(unittest.TestCase):
                         1,
                     )
                 )
+
+
+class OrdinaryConflictTests(unittest.TestCase):
+    def test_reports_all_conflicts_and_writes_nothing(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            packet = root / "batch.jsonl"
+            packet.write_text(
+                '\n'.join(
+                    [
+                        '{"section":3,"id":"30000","korean":"새 값 A<end>"}',
+                        '{"section":3,"id":"30001","korean":"새 값 B<end>"}',
+                    ]
+                ) + '\n',
+                encoding="utf-8",
+            )
+            output_dir = root / "korean"
+            existing = {
+                (3, "30000"): "기존 값 A<end>",
+                (3, "30001"): "기존 값 B<end>",
+            }
+            canonical = {
+                "30000": {"japanese": "A<end>"},
+                "30001": {"japanese": "B<end>"},
+            }
+            stderr = io.StringIO()
+
+            with (
+                mock.patch.object(apply_results, "KOREAN", output_dir),
+                mock.patch.object(apply_results, "load_existing", return_value=(existing, {})),
+                mock.patch.object(apply_results, "canonical_for", return_value=canonical),
+                mock.patch.object(apply_results.sys, "argv", ["apply-results.py", str(packet)]),
+                contextlib.redirect_stderr(stderr),
+            ):
+                with self.assertRaisesRegex(SystemExit, "2 conflicting ordinary translation rows"):
+                    apply_results.main()
+
+            log = stderr.getvalue()
+            self.assertIn("conflict 3/30000", log)
+            self.assertIn("conflict 3/30001", log)
+            self.assertFalse(output_dir.exists(), "fail-closed conflict path must not write overlays")
 
 
 if __name__ == "__main__":
