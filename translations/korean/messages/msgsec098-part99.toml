@@ -36,6 +36,14 @@ korean = "그럼, <value:$28>.<end>"
 japanese = "んにゃーん。<line-break>　<end>"
 korean = "냐옹.<end>"
 
+["980102"]
+japanese = "そういうことで、頼むゴブ。<end>"
+korean = "그런 거니까, 부탁한다 고브.<end>"
+
+["980113"]
+japanese = "それじゃ、街に入りましょ。<end>"
+korean = "그럼 도시로 들어가자.<end>"
+
 ["980120"]
 japanese = "マルーンを失った。<end>"
 korean = "마룬을 잃었다.<end>"

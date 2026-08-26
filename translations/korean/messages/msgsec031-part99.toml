@@ -36,6 +36,10 @@ korean = "아!<end>"
 japanese = "みんな？<end>"
 korean = "다들?<end>"
 
+["310054"]
+japanese = "あの…、ちょっといいかな？<end>"
+korean = "저기…, 잠깐 괜찮아?<end>"
+
 ["310057"]
 japanese = "そう…、ありがとう。<end>"
 korean = "그래…, 고마워.<end>"
@@ -267,6 +271,10 @@ korean = "도구점<end>"
 ["310296"]
 japanese = "宿屋<end>"
 korean = "여관<end>"
+
+["310298"]
+japanese = "は、は、はは、反乱ですか？<end>"
+korean = "바, 바, 반란입니까?<end>"
 
 ["310303"]
 japanese = "広場<end>"

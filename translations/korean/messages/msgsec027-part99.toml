@@ -52,6 +52,10 @@ korean = "준비돼 있다<end>"
 japanese = "まだできていない<end>"
 korean = "아직 못 했어<end>"
 
+["270089"]
+japanese = "この俺が敗れるとは・・・。<end>"
+korean = "이 내가 패배하다니….<end>"
+
 ["270093"]
 japanese = "戦闘に勝った事にする<end>"
 korean = "전투에서 이긴 것으로 한다<end>"
@@ -83,3 +87,7 @@ korean = "헤헤. 잘 부탁한다.<end>"
 ["270127"]
 japanese = "<line-break>副賞　錬剛石<value:$1A>個を手に入れた。<line-break>　<end>"
 korean = "부상으로 연강석 <value:$1A>개를 손에 넣었다.<end>"
+
+["270128"]
+japanese = "闘技場メッセージはここまで<end>"
+korean = "투기장 메시지는 여기까지<end>"

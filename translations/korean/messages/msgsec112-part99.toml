@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1120000"]
+japanese = "エステルメッセージVOL5開始<end>"
+korean = "에스텔 메시지 VOL5 시작<end>"
+
 ["1120021"]
 japanese = "く…、<line-break>竜王…！！<end>"
 korean = "크… 용왕…!!<end>"
@@ -79,3 +83,7 @@ korean = "상관없다니까<end>"
 ["1120174"]
 japanese = "あ、あちらです！<end>"
 korean = "저, 저쪽입니다!<end>"
+
+["1120182"]
+japanese = "エステルメッセージVOL5終端<end>"
+korean = "에스텔 메시지 VOL5 끝<end>"

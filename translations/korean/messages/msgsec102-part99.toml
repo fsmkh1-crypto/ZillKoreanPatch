@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1020001"]
+japanese = "（…閉まっているようだ。）<end>"
+korean = "(…닫혀 있는 것 같다.)<end>"
+
 ["1020010"]
 japanese = "<value:$28>も気をつけてくれよ。<end>"
 korean = "<value:$28>도 조심해.<end>"

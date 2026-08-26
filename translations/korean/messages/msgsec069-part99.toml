@@ -60,6 +60,10 @@ korean = "두목, 저게 뭐야 고브?<end>"
 japanese = "…アレは…アレ…ゴブ。<end>"
 korean = "…그건… 그거… 고브.<end>"
 
+["690109"]
+japanese = "団長、何を騒いでいるゴブ？<end>"
+korean = "단장, 뭘 그렇게 떠드는 거야 고브?<end>"
+
 ["690114"]
 japanese = "団長！　あいつゴブ！<end>"
 korean = "단장! 저 녀석 고브!<end>"
@@ -132,6 +136,10 @@ korean = "잘못을 인정하고 철회한다<end>"
 japanese = "撤回しない<end>"
 korean = "철회하지 않는다<end>"
 
+["690198"]
+japanese = "…あいつ、ぶん殴ってやる！<end>"
+korean = "…저 녀석, 한 대 갈겨 주겠어!<end>"
+
 ["690209"]
 japanese = "シュミかも<end>"
 korean = "취미일지도<end>"
@@ -159,6 +167,10 @@ korean = "간다.<end>"
 ["690247"]
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
+
+["690263"]
+japanese = "何も、思い出さないのか…？<end>"
+korean = "아무것도 기억나지 않는 건가…?<end>"
 
 ["690264"]
 japanese = "…寄るな！<end>"

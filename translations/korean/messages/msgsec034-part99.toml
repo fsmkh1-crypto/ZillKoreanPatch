@@ -12,6 +12,10 @@ korean = "좋아, 보여 봐.<end>"
 japanese = "…ああ。<end>"
 korean = "…그래.<end>"
 
+["340006"]
+japanese = "あっ！！　あれですねっ！！<end>"
+korean = "아!! 저거군요!!<end>"
+
 ["340009"]
 japanese = "…ん…<end>"
 korean = "…응…<end>"
@@ -23,6 +27,10 @@ korean = "으음….<end>"
 ["340019"]
 japanese = "…まだまだ、だな。<end>"
 korean = "…아직 멀었군.<end>"
+
+["340023"]
+japanese = "まさか…。いや、今度こそ！<end>"
+korean = "설마…. 아니, 이번에는 반드시!<end>"
 
 ["340036"]
 japanese = "く…っ、何だ？<end>"

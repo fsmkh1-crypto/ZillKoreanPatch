@@ -28,6 +28,14 @@ korean = "괜찮아, <value:$28>?<end>"
 japanese = "セラ？<end>"
 korean = "세라?<end>"
 
+["320020"]
+japanese = "（…いや、違う。女性だ。）<end>"
+korean = "(…아니, 달라. 여자다.)<end>"
+
+["320025"]
+japanese = "何を探しておられるのです？<end>"
+korean = "무엇을 찾고 계십니까?<end>"
+
 ["320026"]
 japanese = "……よ。<end>"
 korean = "……야.<end>"
@@ -147,6 +155,10 @@ korean = "데스기가스에 맞선다<end>"
 ["320143"]
 japanese = "セラという男についていく<end>"
 korean = "세라라는 남자를 따라간다<end>"
+
+["320144"]
+japanese = "セラという男は信用できない<end>"
+korean = "세라라는 남자는 믿을 수 없다<end>"
 
 ["320151"]
 japanese = "旅立ち０５メッセージ終端<end>"

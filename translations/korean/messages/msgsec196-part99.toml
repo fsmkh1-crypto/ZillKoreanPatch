@@ -336,6 +336,10 @@ korean = "　083-샤리가 말한다<end>"
 japanese = "　084-ウルグ降臨<end>"
 korean = " 084-울그 강림<end>"
 
+["1960604"]
+japanese = "　136-C無限のソウルについて<end>"
+korean = "136-C 무한의 소울에 대하여<end>"
+
 ["1960624"]
 japanese = "　クーデター「◆丘」部分<end>"
 korean = "쿠데타 「◆언덕」 부분<end>"
@@ -384,6 +388,10 @@ korean = "　예비<end>"
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960644"]
+japanese = "　カルラVs.ジラーク(後半）<end>"
+korean = "카를라 Vs. 질라크(후반)<end>"
+
 ["1960645"]
 japanese = "　最終決戦（アトレイア）<end>"
 korean = "최종 결전(아트레이아)<end>"
@@ -404,9 +412,17 @@ korean = " 아스티아 3<end>"
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960657"]
+japanese = "　905-宿屋イベント_イオンズ<end>"
+korean = "905-여관 이벤트_이온즈<end>"
+
 ["1960658"]
 japanese = "　906-宿屋イベント_ｴｱ<end>"
 korean = "906-여관 이벤트_에아<end>"
+
+["1960659"]
+japanese = "　907-宿屋イベント_ｴｽﾃﾙ<end>"
+korean = "907-여관 이벤트_에스텔<end>"
 
 ["1960660"]
 japanese = "　908-宿屋イベント_ｶﾙﾗ<end>"
@@ -420,9 +436,25 @@ korean = "910-여관 이벤트_자기브<end>"
 japanese = "　912-宿屋イベント_ﾁｬｶ<end>"
 korean = "912-여관 이벤트_차카<end>"
 
+["1960665"]
+japanese = "　913-宿屋イベント_ティアナ<end>"
+korean = "913-여관 이벤트_티아나<end>"
+
+["1960667"]
+japanese = "　915-宿屋イベント_フェティ<end>"
+korean = "915-여관 이벤트_페티<end>"
+
 ["1960668"]
 japanese = "　916-宿屋イベント_ﾌﾚｱ<end>"
 korean = "916-여관 이벤트_플레어<end>"
+
+["1960670"]
+japanese = "　918-宿屋イベント_ﾚｰｸﾞ<end>"
+korean = "918-여관 이벤트_레이그<end>"
+
+["1960671"]
+japanese = "　919-宿屋イベント_ﾚﾑｵﾝ<end>"
+korean = "919-여관 이벤트_레므온<end>"
 
 ["1960674"]
 japanese = "　922-宿屋イベント_ロイ<end>"
@@ -463,6 +495,10 @@ korean = "0816_자기브End#17<end>"
 ["1960685"]
 japanese = "　19ザギウ　女主人公ver END<end>"
 korean = "19 자기브 여성 주인공 ver END<end>"
+
+["1960687"]
+japanese = "　27レムオン_女主人公ver END<end>"
+korean = "27 레므온_여주인공 ver END<end>"
 
 ["1960688"]
 japanese = "　28ロイ　共通ver END<end>"
@@ -527,6 +563,10 @@ korean = "　48 네모 공통 ver END<end>"
 ["1960708"]
 japanese = "　オイフェ END<end>"
 korean = " 오이페 END<end>"
+
+["1960709"]
+japanese = "　ティアナ　男主人公ver END<end>"
+korean = "티아나 남주인공 ver END<end>"
 
 ["1960710"]
 japanese = "　アスティアエンド<end>"

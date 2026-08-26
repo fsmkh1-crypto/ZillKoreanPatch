@@ -100,6 +100,10 @@ korean = "예, 알고 있습니다.<end>"
 japanese = "あ…<end>"
 korean = "아…<end>"
 
+["890158"]
+japanese = "玄武将軍。君だけが頼りだ。<end>"
+korean = "현무 장군. 그대만 믿겠다.<end>"
+
 ["890159"]
 japanese = "は…はい…<end>"
 korean = "네… 네…<end>"
@@ -128,6 +132,10 @@ korean = "자, <value:$28>, 간다!<end>"
 japanese = "い、いや…<end>"
 korean = "아, 아니…<end>"
 
+["890194"]
+japanese = "いや、いや、イヤアアアア！<end>"
+korean = "싫어, 싫어, 싫어어어어!<end>"
+
 ["890195"]
 japanese = "…い…や。<end>"
 korean = "…아…니.<end>"
@@ -152,6 +160,10 @@ korean = "…아, 아파.<end>"
 japanese = "痛い、痛いよ…<end>"
 korean = "아파, 아프다고…<end>"
 
+["890230"]
+japanese = "ふ、うう…、ア…、アアア！<end>"
+korean = "으, 으으…, 아…, 아아아!<end>"
+
 ["890235"]
 japanese = "逃げる<end>"
 korean = "도망친다<end>"
@@ -167,6 +179,10 @@ korean = "뭐, 뭐냐?<end>"
 ["890241"]
 japanese = "この…歌…<end>"
 korean = "이…노래…<end>"
+
+["890242"]
+japanese = "絶望を、押し返しおったか…<end>"
+korean = "절망을 밀어냈단 말인가…<end>"
 
 ["890278"]
 japanese = "…終わりだ。<end>"
@@ -299,6 +315,10 @@ korean = "왔나….<end>"
 ["890443"]
 japanese = "おいで、<value:$28>。<end>"
 korean = "이리 와, <value:$28>.<end>"
+
+["890455"]
+japanese = "さあ、どうしてかしらね…。<end>"
+korean = "글쎄, 왜일까….<end>"
 
 ["890456"]
 japanese = "<if><value:$29><equal>%0あの少年か…。<end>あの少女か…。<end>"
@@ -635,6 +655,10 @@ korean = "반!<end>"
 ["890723"]
 japanese = "俺様、復活！<end>"
 korean = "이 몸, 부활!<end>"
+
+["890727"]
+japanese = "まあ、終わったからいいか。<end>"
+korean = "뭐, 끝났으니 됐나.<end>"
 
 ["890730"]
 japanese = "僕はいま、<line-break>この<value:$28>と<line-break>旅をしてるんだ。<end>"

@@ -20,6 +20,10 @@ korean = "뭐라고?<end>"
 japanese = "<value:$28>様が、お見えです。<end>"
 korean = "<value:$28> 님이 오셨습니다.<end>"
 
+["1040034"]
+japanese = "わかりました。通しなさい。<end>"
+korean = "알겠습니다. 들여보내세요.<end>"
+
 ["1040035"]
 japanese = "…ちっ！<end>"
 korean = "…칫!<end>"
@@ -51,3 +55,15 @@ korean = "사, 살았네….<end>"
 ["1040055"]
 japanese = "なんですか？<end>"
 korean = "뭡니까?<end>"
+
+["1040153"]
+japanese = "ナイトメアの雫を奪われた。<end>"
+korean = "나이트메어의 물방울을 빼앗겼다.<end>"
+
+["1040235"]
+japanese = "ナイトメアの雫を奪われた。<end>"
+korean = "나이트메어의 물방울을 빼앗겼다.<end>"
+
+["1040245"]
+japanese = "クリュセイスメッセージ終端<end>"
+korean = "크류세이스 메시지 끝<end>"

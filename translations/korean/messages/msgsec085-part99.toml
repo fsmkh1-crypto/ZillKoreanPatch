@@ -12,6 +12,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["850004"]
+japanese = "そ、そんな！　こんな時に？<end>"
+korean = "그, 그런! 이런 때에?<end>"
+
 ["850005"]
 japanese = "何？　それは本当か？<end>"
 korean = "뭐? 그게 사실인가?<end>"

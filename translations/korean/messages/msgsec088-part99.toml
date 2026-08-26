@@ -112,6 +112,10 @@ korean = "파티에 즉시 합류<end>"
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
 
+["880099"]
+japanese = "誘拐状態フラグをＯＮにする<end>"
+korean = "유괴 상태 플래그를 ON으로 한다<end>"
+
 ["880100"]
 japanese = "ＯＦＦのままでよい<end>"
 korean = "OFF인 채로 둔다<end>"
@@ -136,6 +140,10 @@ korean = "미사용: 차카, 가자?<end>"
 japanese = "未使用：意地悪っ！<end>"
 korean = "미사용: 심술쟁이!<end>"
 
+["880124"]
+japanese = "未使用：レムオン、いくぜ？<end>"
+korean = "미사용: 레므온, 가자?<end>"
+
 ["880125"]
 japanese = "未使用：あ、ああ…。<end>"
 korean = "미사용: 아, 아아….<end>"
@@ -159,6 +167,10 @@ korean = "자, 따라와.<end>"
 ["880161"]
 japanese = "ごめん…。<line-break>心配かけて。<end>"
 korean = "미안해…. 걱정 끼쳐서.<end>"
+
+["880166"]
+japanese = "パーティーを編成しますか？<end>"
+korean = "파티를 편성하시겠습니까?<end>"
 
 ["880167"]
 japanese = "はい<end>"

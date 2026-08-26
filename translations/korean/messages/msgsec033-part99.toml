@@ -16,9 +16,17 @@ korean = "어이 어이, 루루안타….<end>"
 japanese = "フリントさんは黙ってて！<end>"
 korean = "플린트 씨는 조용히 해!<end>"
 
+["330028"]
+japanese = "次はロストールですってね？<end>"
+korean = "다음은 로스톨이라면서요?<end>"
+
 ["330029"]
 japanese = "そうだよ。<end>"
 korean = "그래.<end>"
+
+["330032"]
+japanese = "ちょいと待ちな、悪の影！！<end>"
+korean = "잠깐 기다려, 악의 그림자!!<end>"
 
 ["330034"]
 japanese = "やはりそうか！ <end>"
@@ -100,9 +108,17 @@ korean = "하하하, 그럴지도.<end>"
 japanese = "えっ…？　なに、なに？<end>"
 korean = "어…? 뭐, 뭐야?<end>"
 
+["330097"]
+japanese = "フリントさん、お客さんだ。<end>"
+korean = "플린트 씨, 손님이야.<end>"
+
 ["330099"]
 japanese = "フリントさん、火を…。<end>"
 korean = "플린트 씨, 불을….<end>"
+
+["330109"]
+japanese = "…いかなるご用件でしょう？<end>"
+korean = "…무슨 용건이십니까?<end>"
 
 ["330116"]
 japanese = "フリントさ～ん！<end>"
@@ -139,6 +155,10 @@ korean = "뭐야, 넌!<end>"
 ["330139"]
 japanese = "<if><value:$29><equal>%0フリントの息子、だと？<end>フリントの娘、だと？<end>"
 korean = "<if><value:$29><equal>%0플린트의 아들이라고?<end>플린트의 딸이라고?<end>"
+
+["330142"]
+japanese = "して、フリントはどうした。<end>"
+korean = "그래서, 플린트는 어떻게 됐지.<end>"
 
 ["330147"]
 japanese = "下がるがよい。<end>"

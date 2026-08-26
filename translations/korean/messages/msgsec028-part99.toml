@@ -32,6 +32,10 @@ korean = "뭐, 뭐라고오오!!<end>"
 japanese = "おうよ。<end>"
 korean = "그럼.<end>"
 
+["280054"]
+japanese = "おう、遅かったじゃないか。<end>"
+korean = "어이, 늦었잖아.<end>"
+
 ["280057"]
 japanese = "なに言ってんだい。<end>"
 korean = "무슨 소릴 하는 거야.<end>"
@@ -39,6 +43,14 @@ korean = "무슨 소릴 하는 거야.<end>"
 ["280064"]
 japanese = "お、俺もいいの？<end>"
 korean = "나, 나도 괜찮아?<end>"
+
+["280073"]
+japanese = "なんだよオッサン。　　　　<end>"
+korean = "뭐야, 아저씨.<end>"
+
+["280080"]
+japanese = "子供とて許されると思うな！<end>"
+korean = "아이라고 봐줄 줄 아느냐!<end>"
 
 ["280085"]
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
@@ -51,6 +63,10 @@ korean = "으, 으으…. 반…아….<end>"
 ["280102"]
 japanese = "うあーーーっ！！<end>"
 korean = "으아ーーー앗!!<end>"
+
+["280103"]
+japanese = "ああーっ！　ヴァーーン！！<end>"
+korean = "아아악! 바아안!!<end>"
 
 ["280111"]
 japanese = "…これだね。　　　　　<end>"
@@ -99,6 +115,10 @@ korean = "으…으….<end>"
 ["280153"]
 japanese = "やめるんだ、<line-break><value:$28>！<end>"
 korean = "그만둬, <value:$28>!<end>"
+
+["280156"]
+japanese = "さ、小僧ども、うちに来い。<end>"
+korean = "자, 꼬맹이들아, 우리 집으로 와.<end>"
 
 ["280166"]
 japanese = "ケンカか…。<end>"

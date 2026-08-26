@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["670000"]
+japanese = "ティアナメッセージVOL3-2開始<end>"
+korean = "티아나 메시지 VOL3-2 시작<end>"
+
 ["670002"]
 japanese = "ティアナ、邪魔をする。<end>"
 korean = "티아나, 방해 좀 하겠다.<end>"
@@ -119,3 +123,7 @@ korean = "손을, 공주님<end>"
 ["670098"]
 japanese = "…あ。<end>"
 korean = "…아.<end>"
+
+["670109"]
+japanese = "ティアナメッセージVOL3-2終端<end>"
+korean = "티아나 메시지 VOL3-2 끝<end>"

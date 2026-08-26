@@ -44,6 +44,10 @@ korean = "맡지 않는다<end>"
 japanese = "フフフッ…<line-break>じゃあ、<value:$28>、<line-break>待ってるよ。<end>"
 korean = "후후훗… 그럼 <value:$28>, 기다릴게.<end>"
 
+["750067"]
+japanese = "（おかしいな。迷ったかな）<end>"
+korean = "(이상하네. 길을 잘못 들었나)<end>"
+
 ["750068"]
 japanese = "未使用：（出口だ…。）<end>"
 korean = "미사용: (출구다….)<end>"

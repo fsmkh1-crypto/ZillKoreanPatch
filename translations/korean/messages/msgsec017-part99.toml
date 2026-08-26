@@ -4,6 +4,10 @@
 japanese = "じゃあ、また来てくれよ。<end>"
 korean = "그럼 또 와 줘.<end>"
 
+["170015"]
+japanese = "じゃあ、これでいいんだな。<end>"
+korean = "그럼 이걸로 된 거지.<end>"
+
 ["170026"]
 japanese = "名前を入力してください。<line-break><end>"
 korean = "이름을 입력해 주세요.<end>"

@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["660000"]
+japanese = "ティアナメッセージVOL3-1開始<end>"
+korean = "티아나 메시지 VOL3-1 시작<end>"
+
 ["660001"]
 japanese = "で、叔母貴はなんて？<end>"
 korean = "그래서, 고모는 뭐래?<end>"
+
+["660003"]
+japanese = "俺は婚約なんてしていない。<end>"
+korean = "나는 약혼 같은 건 하지 않았다.<end>"
 
 ["660005"]
 japanese = "ほお、恐いねえ。<end>"
@@ -39,6 +47,10 @@ korean = "전장은 지옥이 된다.<end>"
 ["660041"]
 japanese = "弔い酒？<end>"
 korean = "추모주?<end>"
+
+["660047"]
+japanese = "誰が、そんなことを！　　　<end>"
+korean = "누가 그런 말을!<end>"
 
 ["660052"]
 japanese = "ご勝手に！<end>"
@@ -99,3 +111,7 @@ korean = "어머…, 벌써 돌아가시나요?<end>"
 ["660172"]
 japanese = "もう！<end>"
 korean = "정말!<end>"
+
+["660185"]
+japanese = "ティアナメッセージVOL3-1終端<end>"
+korean = "티아나 메시지 VOL3-1 끝<end>"
