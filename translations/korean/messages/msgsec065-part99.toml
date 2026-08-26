@@ -20,6 +20,10 @@ korean = "그럼 돌려드리겠습니다.<end>"
 japanese = "お父様が？　大変！<end>"
 korean = "아버님이? 큰일이야!<end>"
 
+["650021"]
+japanese = "<value:$28>様、<line-break>お人形のこと、お願いいたします。<line-break>私が謝っていたと伝えてください。<end>"
+korean = "<value:$28>님, 인형 일은 부탁드릴게요. 제가 미안해했다고 전해 주세요.<end>"
+
 ["650023"]
 japanese = "ダミー<line-break><end>"
 korean = "더미<end>"
@@ -103,6 +107,10 @@ korean = "약혼자에게 혼나지만 않는다면.<end>"
 ["650062"]
 japanese = "<value:$28>、よく来た。　<end>"
 korean = "<value:$28>, 잘 왔다.<end>"
+
+["650067"]
+japanese = "これはレムオン様、<line-break>それに<value:$28>様。<line-break>　<line-break>ようこそ<line-break>お越しくださいました。<end>"
+korean = "레무온 님, 그리고 <value:$28>님. 어서 오십시오.<end>"
 
 ["650068"]
 japanese = "ティアナ様にもご機嫌うるわしく。<end>"

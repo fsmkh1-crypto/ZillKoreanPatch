@@ -64,6 +64,10 @@ korean = "꺄아아아아앗!<end>"
 japanese = "さぁて、そろそろ…<end>"
 korean = "자, 슬슬….<end>"
 
+["840057"]
+japanese = "あ、あわ…わ…　　<line-break>　<line-break>　<line-break>な、何をしている！<line-break>ひっ捕らえろ！<end>"
+korean = "아, 아와…와…. 뭐, 뭐 하는 거냐! 붙잡아라!<end>"
+
 ["840058"]
 japanese = "ははっ！<end>"
 korean = "하핫!<end>"
@@ -335,6 +339,10 @@ korean = "감사합니다.<end>"
 ["840200"]
 japanese = "そんな大切なものを…！<end>"
 korean = "그렇게 소중한 걸…!<end>"
+
+["840202"]
+japanese = "あなた、<line-break>アイリーンちゃんだっけ？<end>"
+korean = "당신, 아이린이라고 했던가?<end>"
 
 ["840203"]
 japanese = "は、はい！<end>"

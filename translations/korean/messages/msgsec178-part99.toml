@@ -80,6 +80,10 @@ korean = "왜 그래, 갑자기.<end>"
 japanese = "わかった。<line-break><value:$28>、すまないが…<end>"
 korean = "알았다. <value:$28>, 미안하지만….<end>"
 
+["1780071"]
+japanese = "いえ、<value:$28>にも<line-break>聞いてもらった方がいいわ。<line-break>だから、<value:$28>も残って。<end>"
+korean = "아니, <value:$28>도 같이 듣는 게 좋아. 그러니까 <value:$28>도 남아.<end>"
+
 ["1780073"]
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"

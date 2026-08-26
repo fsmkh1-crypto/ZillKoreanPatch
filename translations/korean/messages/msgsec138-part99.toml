@@ -112,6 +112,10 @@ korean = "신경 쓰지 않았어<end>"
 japanese = "…待っててくれるよね、<line-break><value:$28>？<end>"
 korean = "…기다려 줄 거지, <value:$28>?<end>"
 
+["1380099"]
+japanese = "明日も早いんだったよね。<line-break>頑張らなくっちゃ！<line-break><line-break>おやすみ、<value:$28>。<end>"
+korean = "내일도 일찍 일어나야 했지. 힘내야겠다! 잘 자, <value:$28>.<end>"
+
 ["1380100"]
 japanese = "あーっ、<line-break><value:$28>じゃん。<end>"
 korean = "아, <value:$28>잖아.<end>"
@@ -195,6 +199,10 @@ korean = "…고마워.<end>"
 ["1380210"]
 japanese = "束縛の腕輪を失った。<end>"
 korean = "속박의 팔찌를 잃었다.<end>"
+
+["1380214"]
+japanese = "そうやって…<line-break>私の身も心も縛るのですね。<line-break><line-break>こうした刹那の安らぎと引き換えに…。<end>"
+korean = "그렇게… 제 몸과 마음까지 묶으시는군요. 이런 찰나의 안식과 맞바꾸어….<end>"
 
 ["1380216"]
 japanese = "………………。<line-break> <line-break> <line-break><value:$28>様…。<end>"
@@ -539,6 +547,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1380428"]
 japanese = "よく来た、フリントの息子<line-break><value:$28>よ。<line-break>今日は何用か？<end>"
 korean = "잘 왔다, 플린트의 아들 <value:$28>이여. 오늘은 무슨 일이지?<end>"
+
+["1380430"]
+japanese = "あ、<value:$28>様、<line-break>ファーロス総司令が貴族を召集しています。<line-break>どうぞ、謁見の間へ。<end>"
+korean = "아, <value:$28>님. 파로스 총사령관께서 귀족들을 소집하고 계십니다. 알현실로 가 주세요.<end>"
 
 ["1380431"]
 japanese = "謁見の間へ行く<end>"

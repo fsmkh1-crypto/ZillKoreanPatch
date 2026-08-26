@@ -28,6 +28,10 @@ korean = "그럼, 가자.<end>"
 japanese = "なんだよ、行かないのかよ！？<end>"
 korean = "뭐야, 안 가는 거야!?<end>"
 
+["280015"]
+japanese = "まあまあ、<line-break>いいから行こう、ヴァン。<end>"
+korean = "자자, 됐으니까 가자, 반.<end>"
+
 ["280016"]
 japanese = "ね、やっぱり降りてきたでしょ？<end>"
 korean = "봐, 역시 내려왔지?<end>"
@@ -99,6 +103,10 @@ korean = "나, 나도 괜찮아?<end>"
 ["280066"]
 japanese = "空の弁当箱をボンガ夫人に渡した。<end>"
 korean = "빈 도시락통을 봉가 부인에게 건넸다.<end>"
+
+["280068"]
+japanese = "なに言ってんだい。<line-break>当たり前だろう。<end>"
+korean = "무슨 소리야. 당연하잖아.<end>"
 
 ["280073"]
 japanese = "なんだよオッサン。　　　　<end>"

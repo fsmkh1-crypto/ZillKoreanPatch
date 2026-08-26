@@ -28,6 +28,10 @@ korean = "도움을 받는다<end>"
 japanese = "お前の手は借りない<end>"
 korean = "네 도움은 받지 않겠다<end>"
 
+["700024"]
+japanese = "やっぱそうか。だったら俺も<line-break>手伝いに入らせてもらおうかな？<line-break>どうだい、<value:$28>？<end>"
+korean = "역시 그런가. 그럼 나도 도와줄까? 어때, <value:$28>?<end>"
+
 ["700025"]
 japanese = "手伝ってもらう<end>"
 korean = "도움을 받는다<end>"
@@ -135,6 +139,10 @@ korean = "예비 선택지 20<end>"
 ["700199"]
 japanese = "よぉ、<value:$28><line-break>邪魔していいか？<end>"
 korean = "여어, <value:$28>. 방해 좀 해도 될까?<end>"
+
+["700218"]
+japanese = "イックショイ！！　ちくしょ！<line-break>うー、夜はさぶいやね～。<line-break>中、入んね？　<value:$28>。<end>"
+korean = "에취!! 젠장! 으으, 밤은 춥네~. 안에 들어갈래, <value:$28>?<end>"
 
 ["700219"]
 japanese = "あー、<value:$28>だぁ！<line-break>ねぇ、ねぇ、すごい大発見！<line-break>聞いて！　聞いて！<end>"

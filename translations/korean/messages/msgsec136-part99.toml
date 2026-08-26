@@ -4,6 +4,10 @@
 japanese = "ジラーク、ボリューム６開始<end>"
 korean = "질라크 볼륨 6 시작<end>"
 
+["1360008"]
+japanese = "違うだろう？<line-break>思い出すため、だろう？<end>"
+korean = "아니잖아? 떠올리기 위해서잖아?<end>"
+
 ["1360010"]
 japanese = "それは忘れてしまった君の願い。<end>"
 korean = "그건 네가 잊어버린 소원이다.<end>"
@@ -40,6 +44,10 @@ korean = "<value:$28>! 너까지 왜 여기에! 위험해! 도망쳐!<end>"
 japanese = "<value:$28>は<line-break>虚無の剣を手に入れた。<end>"
 korean = "<value:$28>은 허무의 검을 손에 넣었다.<end>"
 
+["1360068"]
+japanese = "じゃ、旅を続けよっか。<line-break>お兄ちゃん！<end>"
+korean = "그럼 여행 계속하자. 오빠!<end>"
+
 ["1360072"]
 japanese = "どうなさったのですか<line-break><value:$28>様。<end>"
 korean = "무슨 일이신가요, <value:$28>님.<end>"
@@ -51,6 +59,10 @@ korean = "…나도 마찬가지야.<end>"
 ["1360080"]
 japanese = "ありがとうございます。<line-break>では、失礼いたします<line-break><value:$28>様<end>"
 korean = "감사합니다. 그럼 실례하겠습니다, <value:$28>님.<end>"
+
+["1360081"]
+japanese = "お兄ちゃん、なんて呼び方<line-break><value:$28>様に失礼です。<line-break>おやめなさいね、ヴィア。<end>"
+korean = "오빠라고 부르는 건 <value:$28>님께 실례야. 그만하렴, 비아.<end>"
 
 ["1360085"]
 japanese = "フシギだよ。<line-break><value:$28>をお兄ちゃんて呼ぶと<line-break>胸がギュッとするんだ。<end>"
@@ -176,6 +188,10 @@ korean = "케류네이아. 너는 여기 남아라.<end>"
 japanese = "<value:$28>、時に猶予はない。<end>"
 korean = "<value:$28>, 시간이 없다.<end>"
 
+["1360168"]
+japanese = "では、行こう。<line-break>すべてを終わらせに。<end>"
+korean = "그럼 가자. 모든 걸 끝내러.<end>"
+
 ["1360178"]
 japanese = "…あっ。<line-break><value:$28>。<end>"
 korean = "…앗. <value:$28>.<end>"
@@ -280,6 +296,10 @@ korean = "사이포스….<end>"
 japanese = "…今の感じ…。<line-break>姉さんか？<end>"
 korean = "…방금 그 느낌…. 누나인가?<end>"
 
+["1360297"]
+japanese = "仮面が…<line-break>忘却の仮面がとれたのか…。<end>"
+korean = "가면이… 망각의 가면이 벗겨진 건가….<end>"
+
 ["1360298"]
 japanese = "…セラ。<end>"
 korean = "…세라.<end>"
@@ -315,6 +335,10 @@ korean = "사이포스….<end>"
 ["1360315"]
 japanese = "…今の感じ…。<line-break>姉さんか？<end>"
 korean = "…방금 그 느낌…. 누나인가?<end>"
+
+["1360316"]
+japanese = "仮面が…<line-break>忘却の仮面がとれたのか…。<end>"
+korean = "가면이… 망각의 가면이 벗겨진 건가….<end>"
 
 ["1360317"]
 japanese = "…セラ。<end>"
@@ -472,6 +496,10 @@ korean = "사랑하는… 사람을 위해?<end>"
 japanese = "さようなら、<line-break><value:$28>様…。<line-break>私の死を、苦いものにした人…。<end>"
 korean = "안녕히, <value:$28> 님…. 제 죽음을 쓰디쓰게 만든 사람….<end>"
 
+["1360403"]
+japanese = "<value:$28>…。<line-break>あなたは、いつでも変わらない…<line-break>そして、いつでも不思議な人でした。<end>"
+korean = "<value:$28>…. 당신은 언제나 변함없고… 언제나 신기한 사람이었어요.<end>"
+
 ["1360407"]
 japanese = "お気をつけて、<value:$28>様…。<end>"
 korean = "조심히 가세요, <value:$28> 님….<end>"
@@ -596,6 +624,10 @@ korean = "기다려! 기다려 주세요!<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["1360550"]
+japanese = "お願いです、レイヴン。<line-break>行かないで。<end>"
+korean = "부탁이야, 레이븐. 가지 마.<end>"
+
 ["1360555"]
 japanese = "意志すること…生きることを…。<end>"
 korean = "의지를 갖는 것… 살아가는 것을….<end>"
@@ -603,6 +635,10 @@ korean = "의지를 갖는 것… 살아가는 것을….<end>"
 ["1360560"]
 japanese = "おっ、<value:$28>じゃないか。<end>"
 korean = "오, <value:$28> 아니냐.<end>"
+
+["1360562"]
+japanese = "やはりあの邪竜イシュバアルが…。<line-break><value:$28>殿に頼んで、<line-break>まこと正解でした。<end>"
+korean = "역시 그 사룡 이슈바알이…. <value:$28>님께 부탁하길 정말 잘했습니다.<end>"
 
 ["1360565"]
 japanese = "イオンズを追う<end>"
@@ -660,6 +696,14 @@ korean = "와 주셨군요.<end>"
 japanese = "………………。<line-break> <line-break> <line-break>不適切なことを言いました。<end>"
 korean = "………………. 부적절한 말을 했습니다.<end>"
 
+["1360691"]
+japanese = "ありがとう、<value:$28>。<line-break>彼女を闇に突き落とした<line-break>最大の功労者は君だよ。アハハハ！<end>"
+korean = "고마워, <value:$28>. 그녀를 어둠에 빠뜨린 최대 공로자는 너야. 아하하하!<end>"
+
+["1360698"]
+japanese = "ありがとう、<value:$28>。<line-break>彼女を闇に突き落とした<line-break>最大の功労者は君だよ。アハハハ！<end>"
+korean = "고마워, <value:$28>. 그녀를 어둠에 빠뜨린 최대 공로자는 너야. 아하하하!<end>"
+
 ["1360706"]
 japanese = "神様、やっちゃって。<end>"
 korean = "신님, 해버려.<end>"
@@ -675,6 +719,10 @@ korean = "무사하냐, <value:$28>?<end>"
 ["1360714"]
 japanese = "…見えなければ、よかった。<end>"
 korean = "…보이지 않았다면 좋았을 텐데.<end>"
+
+["1360722"]
+japanese = "…たとえ闇に落ちようと、<line-break>私は私だ！<end>"
+korean = "…설령 어둠에 떨어져도 나는 나다!<end>"
 
 ["1360725"]
 japanese = "すまぬ。<line-break>手間取った。<end>"
@@ -703,6 +751,10 @@ korean = "뭐…, 뭐야…!?<end>"
 ["1360744"]
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
+
+["1360745"]
+japanese = "…たとえ闇に落ちようと、<line-break>私は私だ！<end>"
+korean = "…설령 어둠에 떨어져도 나는 나다!<end>"
 
 ["1360747"]
 japanese = "すまぬ。<line-break>手間取った。<end>"

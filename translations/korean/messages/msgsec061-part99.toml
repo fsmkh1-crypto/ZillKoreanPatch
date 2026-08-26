@@ -20,6 +20,10 @@ korean = "용의 시체인가….<end>"
 japanese = "…まだ、怨念が残っている。<end>"
 korean = "…아직 원념이 남아 있다.<end>"
 
+["610013"]
+japanese = "ま、いい、出世払いで、いつか<line-break>払ってもらうことにするさ。<line-break>じゃあな！　<value:$28>。<end>"
+korean = "뭐, 됐어. 성공하면 그때 갚는 걸로 하지. 잘 가, <value:$28>.<end>"
+
 ["610027"]
 japanese = "アンギルダン・ボリューム４終端<end>"
 korean = "앙길단 볼륨4 끝<end>"

@@ -28,6 +28,10 @@ korean = "말하지 마!<end>"
 japanese = "シャリ！<end>"
 korean = "샤리!<end>"
 
+["1330044"]
+japanese = "フフ、約束だ。<line-break>今日は引き上げるよ。<end>"
+korean = "후후, 약속이다. 오늘은 이만 물러가지.<end>"
+
 ["1330048"]
 japanese = "わらわは…。<end>"
 korean = "이 몸은….<end>"
@@ -52,6 +56,10 @@ korean = "<value:$28>! …그럴 수가!<end>"
 japanese = "何も聞きたくないよ、<line-break><value:$28>…。<end>"
 korean = "아무것도 듣고 싶지 않아, <value:$28>….<end>"
 
+["1330075"]
+japanese = "キミがパーティーのリーダーなんだ。<line-break>ボクも、キミの決定には…従う。<line-break>　<line-break>…じゃ。<end>"
+korean = "네가 파티의 리더야. 나도 네 결정에는… 따를게. …그럼.<end>"
+
 ["1330076"]
 japanese = "エア！！<line-break>そんな………。<end>"
 korean = "에아!! 그럴 수가……….<end>"
@@ -64,9 +72,17 @@ korean = "당신은…?<end>"
 japanese = "は、はい…。<line-break>あなたたちは…？<end>"
 korean = "네, 네…. 당신들은…?<end>"
 
+["1330099"]
+japanese = "そうですか。<line-break>エステルさん、<value:$28>さん、<line-break>本当に、ありがとうございます。<end>"
+korean = "그렇군요. 에스텔 씨, <value:$28>님, 정말 감사합니다.<end>"
+
 ["1330100"]
 japanese = "イークレムン殿！<end>"
 korean = "이클레문 공!<end>"
+
+["1330101"]
+japanese = "あ、お……、いえ、<line-break>アンギルダン様。<end>"
+korean = "아, 형…… 아니, 앙길단 님.<end>"
 
 ["1330102"]
 japanese = "ご無事そうで何よりです。<end>"
@@ -252,6 +268,10 @@ korean = "흐응.<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1330281"]
+japanese = "ロセンの青竜軍へも<line-break>伝令を走らせろ。<end>"
+korean = "로센의 청룡군에도 전령을 보내라.<end>"
+
 ["1330282"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -324,6 +344,10 @@ korean = "…왔나. <value:$28>.<end>"
 japanese = "<value:$28>、<line-break>エンシャントは失陥した。<line-break>たった数人の魔道士のためにな。<end>"
 korean = "<value:$28>, 엔샨트는 함락됐다. 단 몇 명의 마도사 때문에.<end>"
 
+["1330332"]
+japanese = "行け、<value:$28><line-break>神々の黄昏の果てに。<line-break> <line-break>人類の革新の夜明けを開くために！<end>"
+korean = "가라, <value:$28>. 신들의 황혼 끝으로. 인류 혁신의 새벽을 열기 위해!<end>"
+
 ["1330333"]
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
@@ -364,6 +388,10 @@ korean = "뭐…, 뭐야…!?<end>"
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
 
+["1330393"]
+japanese = "…たとえ闇に落ちようと、<line-break>私は私だ！<end>"
+korean = "…설령 어둠에 떨어져도 나는 나다!<end>"
+
 ["1330394"]
 japanese = "くっ！<line-break>破滅の槍の力を解放する気？<end>"
 korean = "큭! 파멸의 창의 힘을 해방할 셈이야?<end>"
@@ -399,6 +427,10 @@ korean = "뭐…, 뭐야…!?<end>"
 ["1330436"]
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
+
+["1330438"]
+japanese = "…たとえ闇に落ちようと、<line-break>私は私だ！<end>"
+korean = "…설령 어둠에 떨어져도 나는 나다!<end>"
 
 ["1330441"]
 japanese = "…強くなったな、<line-break><value:$28>。<end>"
@@ -456,6 +488,10 @@ korean = "…<value:$28>. 내… 최고의 여자에게… 배웅받을 수 있�
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 
+["1330522"]
+japanese = "レムオン…まさか…？<line-break>ありえない…！<end>"
+korean = "레무온… 설마…? 그럴 리가…!<end>"
+
 ["1330530"]
 japanese = "いらっしゃい…かわいい人形たち。<end>"
 korean = "어서 와… 귀여운 인형들이여.<end>"
@@ -511,6 +547,10 @@ korean = "…<value:$28>. 내… 최고의 여자에게… 배웅받을 수 있�
 ["1330583"]
 japanese = "…お前…<value:$28><line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28> <value:$28>…인…거야…?<end>"
+
+["1330584"]
+japanese = "レムオン…まさか…？<line-break>ありえない…！<end>"
+korean = "레무온… 설마…? 그럴 리가…!<end>"
 
 ["1330590"]
 japanese = "こ、こんなことって…。<end>"
@@ -679,6 +719,10 @@ korean = "큭, 방심했군….<end>"
 ["1330753"]
 japanese = "くっ、ぬかったわ…。<end>"
 korean = "큭, 방심했군….<end>"
+
+["1330758"]
+japanese = "ありがとう、<value:$28>。<line-break>彼女を闇に突き落とした<line-break>最大の功労者は君だよ。アハハハ！<end>"
+korean = "고마워, <value:$28>. 그녀를 어둠에 빠뜨린 최대 공로자는 너야. 아하하하!<end>"
 
 ["1330761"]
 japanese = "エア　ボリューム５　終了<end>"

@@ -192,6 +192,10 @@ korean = "용서한다<end>"
 japanese = "許さない<end>"
 korean = "용서 못 해<end>"
 
+["1340147"]
+japanese = "それに…同胞と戦うのは<line-break>…つらいよ。<end>"
+korean = "게다가… 동포와 싸우는 건… 괴로워.<end>"
+
 ["1340149"]
 japanese = "頼んだよ、ヴァン。<end>"
 korean = "부탁해, 반.<end>"
@@ -292,6 +296,10 @@ korean = "<value:$28>, 내 방식이 불만인가?<end>"
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
 
+["1340220"]
+japanese = "あとのことは宰相に任せる。<line-break>行くぞ。<end>"
+korean = "나머지는 재상에게 맡기겠다. 가자.<end>"
+
 ["1340221"]
 japanese = "…また、助けられたわね。<end>"
 korean = "…또 도움받았네.<end>"
@@ -371,6 +379,10 @@ korean = "레, 레이븐…?<end>"
 ["1340271"]
 japanese = "はい、レイヴン。<end>"
 korean = "네, 레이븐.<end>"
+
+["1340272"]
+japanese = "わかった。<line-break>君の意思に従うとしよう。<end>"
+korean = "알겠다. 네 뜻에 따르지.<end>"
 
 ["1340274"]
 japanese = "う、うん…。<end>"
@@ -835,6 +847,10 @@ korean = "10000기아를 지원한다<end>"
 ["1340651"]
 japanese = "援助しない<end>"
 korean = "지원하지 않는다<end>"
+
+["1340652"]
+japanese = "<value:$28>様…。<line-break>あ、あの、お気持ちだけ…<line-break>ありがたくいただいておきますわ。<end>"
+korean = "<value:$28>님…. 저, 그 마음만은 감사히 받을게요.<end>"
 
 ["1340654"]
 japanese = "１００ギア援助する<end>"

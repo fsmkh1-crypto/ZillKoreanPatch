@@ -4,6 +4,10 @@
 japanese = "エア　ボリューム４開始<end>"
 korean = "에아 볼륨 4 시작<end>"
 
+["1320008"]
+japanese = "　　　　　　　　エアか…？<line-break>　　　　　　我が小さき娘か…？　　　　　　　<line-break>　<line-break>　<end>"
+korean = "에아인가…? 나의 작은 딸인가…?<end>"
+
 ["1320015"]
 japanese = "翔王…様…。<end>"
 korean = "상왕…님….<end>"
@@ -11,6 +15,18 @@ korean = "상왕…님….<end>"
 ["1320017"]
 japanese = "…出ていって…くれぬか？<end>"
 korean = "…나가 주지 않겠나?<end>"
+
+["1320024"]
+japanese = "予備メッセージその７<line-break>エア、ｖｏｌ４<end>"
+korean = "예비 메시지 7 에아 vol4<end>"
+
+["1320025"]
+japanese = "予備メッセージその８<line-break>エア、ｖｏｌ４<end>"
+korean = "예비 메시지 8 에아 vol4<end>"
+
+["1320026"]
+japanese = "予備メッセージその９<line-break>エア、ｖｏｌ４<end>"
+korean = "예비 메시지 9 에아 vol4<end>"
 
 ["1320028"]
 japanese = "エア　ボリューム４　終了<end>"

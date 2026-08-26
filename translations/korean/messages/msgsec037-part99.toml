@@ -100,6 +100,10 @@ korean = "…고마워.<end>"
 japanese = "わかってる。<end>"
 korean = "알고 있어.<end>"
 
+["370069"]
+japanese = "…ごめん、<line-break>あたし眠っちゃったんだ。<end>"
+korean = "…미안, 나 잠들어 버렸어.<end>"
+
 ["370070"]
 japanese = "…ずっと、そばにいてくれたんだ。<end>"
 korean = "…계속 곁에 있어 줬구나.<end>"
@@ -311,6 +315,10 @@ korean = "무엇보다도 <value:$28>가 곁에 있어 준 덕분이야.<end>"
 ["370230"]
 japanese = "…わかってるさ。<end>"
 korean = "…알고 있어.<end>"
+
+["370236"]
+japanese = "ありがとう、<line-break>…ほんと、感謝してる。<end>"
+korean = "고마워…. 정말 감사해.<end>"
 
 ["370239"]
 japanese = "ベモラベラモ様…。<end>"

@@ -88,9 +88,17 @@ korean = "고부~!<end>"
 japanese = "なんで、<line-break>人間がここにいるゴブ～！<end>"
 korean = "왜 인간이 여기에 있는 고블~!<end>"
 
+["300083"]
+japanese = "ゴブリン？<line-break>それも言葉をしゃべる！？<end>"
+korean = "고블린? 게다가 말을 한다고!?<end>"
+
 ["300084"]
 japanese = "逃げるでゴブ～！<end>"
 korean = "도망간다 고브~!<end>"
+
+["300085"]
+japanese = "ガント親分、<line-break>どこに逃げるでゴブ！？<end>"
+korean = "간트 두목, 어디로 도망가는 고브!?<end>"
 
 ["300088"]
 japanese = "やったわ…<line-break>勝った…。<end>"
@@ -104,9 +112,17 @@ korean = "…<value:$28>? …그렇구나, 피곤했구나. …나도 왠지….
 japanese = "わかってるわよっ。<end>"
 korean = "알고 있다니까.<end>"
 
+["300103"]
+japanese = "…さてと。<line-break>私もそろそろ行こうかな。<end>"
+korean = "…자, 그럼. 나도 슬슬 가 볼까.<end>"
+
 ["300106"]
 japanese = "あら、<value:$28>さん、<line-break>いらっしゃいませ。<line-break>何かご用ですか？<end>"
 korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end>"
+
+["300120"]
+japanese = "た、たいへん！<line-break>床の穴が広がって…！<end>"
+korean = "크, 큰일이야! 바닥 구멍이 더 커지고 있어…!<end>"
 
 ["300121"]
 japanese = "あら、<value:$28>。<line-break>オッシさんの道場に行くのでは　<line-break>なかったの？<end>"

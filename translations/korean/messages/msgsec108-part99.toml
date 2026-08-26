@@ -140,6 +140,14 @@ korean = "오즈월드 조사<end>"
 japanese = "………………。<line-break><line-break><line-break>ディンガル帝国だ。<end>"
 korean = "………………. 딩갈 제국이다.<end>"
 
+["1080186"]
+japanese = "おいおい、<value:$28>。<line-break>聞いたのが私でよかったな。<line-break>ディンガル帝国だ。忘れるなよ。<end>"
+korean = "이봐, <value:$28>. 나한테 물어본 게 다행이군. 딩갈 제국이다. 잊지 마.<end>"
+
 ["1080211"]
 japanese = "………………。<line-break><line-break><line-break>ロストール王国だ。<end>"
 korean = "………………. 로스톨 왕국이다.<end>"
+
+["1080218"]
+japanese = "おいおい、<value:$28>。<line-break>聞いたのが私でよかったな。<line-break>ロストール王国だ。忘れるなよ。<end>"
+korean = "이봐, <value:$28>. 나한테 물어본 게 다행이군. 로스토올 왕국이다. 잊지 마.<end>"

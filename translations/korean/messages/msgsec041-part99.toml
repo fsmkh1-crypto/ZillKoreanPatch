@@ -160,6 +160,10 @@ korean = "이 녀석을 두고 가도 된다면 말이지?<end>"
 japanese = "…いつの間に？<end>"
 korean = "…언제 온 거지?<end>"
 
+["410075"]
+japanese = "そうはいかないわ。<line-break>用事ができたの。<end>"
+korean = "그럴 순 없어. 볼일이 생겼거든.<end>"
+
 ["410077"]
 japanese = "授業料はその闇の神器で頼むぞい。<end>"
 korean = "수업료는 그 어둠의 신기로 받지.<end>"
@@ -303,6 +307,10 @@ korean = "나셰스!<end>"
 ["410150"]
 japanese = "…<value:$28>か。<end>"
 korean = "…<value:$28>인가.<end>"
+
+["410151"]
+japanese = "…私のやり方に<line-break>異議があるようだな。<end>"
+korean = "…내 방식에 불만이 있는 모양이군.<end>"
 
 ["410152"]
 japanese = "…ならば<line-break>私に挑むがよい。　　　<end>"

@@ -36,6 +36,10 @@ korean = "아니!<end>"
 japanese = "じゃあな。<end>"
 korean = "그럼 잘 있어.<end>"
 
+["510045"]
+japanese = "よう、<value:$28>。<line-break>ロストール王国が傭兵を募集してるんだ。<line-break>やってみる気はないか？<end>"
+korean = "여, <value:$28>. 로스토올 왕국이 용병을 모집 중이야. 해 볼 생각 없나?<end>"
+
 ["510046"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"

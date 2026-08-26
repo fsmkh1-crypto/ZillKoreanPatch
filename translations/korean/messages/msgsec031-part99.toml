@@ -8,6 +8,10 @@ korean = "여행 출발 04 메시지<end>"
 japanese = "ひっ、ひいい！<line-break>お、おぼえてろよ！<end>"
 korean = "히, 히익! 두, 두고 봐라!<end>"
 
+["310011"]
+japanese = "なんだア！！<line-break>痛い目見たくなきゃ…！<end>"
+korean = "뭐야!! 아픈 꼴 보기 싫으면…!<end>"
+
 ["310012"]
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
@@ -20,6 +24,10 @@ korean = "다치신 곳은 없습니까?<end>"
 japanese = "<value:$28>さん…、<line-break>悪代官ボルボラに立ち向かう者を率いる<line-break>勇敢な少女。<end>"
 korean = "<value:$28> 씨…, 악대관 볼보라에 맞서는 사람들을 이끄는 용감한 소녀.<end>"
 
+["310022"]
+japanese = "<value:$28>…。<line-break>いい目をした少女だ…。<line-break>反乱は予定より早く起こりそうですな。<end>"
+korean = "<value:$28>…. 좋은 눈을 한 소녀군…. 반란은 예정대로보다 빨리 일어날 것 같군.<end>"
+
 ["310024"]
 japanese = "姉ちゃーん！<end>"
 korean = "누나아!<end>"
@@ -31,6 +39,10 @@ korean = "또 볼보라 부하들이야!<end>"
 ["310030"]
 japanese = "うん、姉ちゃん！<line-break>いこう！<end>"
 korean = "응, 누나! 가자!<end>"
+
+["310032"]
+japanese = "ああ！　ボルボラが、<line-break>わしの畑をメチャメチャに…！<line-break>助けてくれ、<value:$28>！<end>"
+korean = "아아! 볼보라가 내 밭을 엉망으로…! 도와줘, <value:$28>!<end>"
 
 ["310033"]
 japanese = "やめろ！！　ボルボラ！<end>"
@@ -123,6 +135,10 @@ korean = "뭐라고, 볼보라!?<end>"
 ["310115"]
 japanese = "黙れ、ボルボラ！！<end>"
 korean = "닥쳐, 볼보라!!<end>"
+
+["310128"]
+japanese = "ゲヘ！　<value:$28>を倒したぞ！<line-break>おめでとう、俺！<line-break>これで晴れてノーブルの領主だ！！<end>"
+korean = "게헤! <value:$28>을 쓰러뜨렸다! 축하한다, 나! 이걸로 당당히 노블의 영주다!!<end>"
 
 ["310129"]
 japanese = "…そうはいかん。<end>"
@@ -224,6 +240,10 @@ korean = "뭐, 뭘 하는 거야! 장로님!!<end>"
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
 
+["310186"]
+japanese = "弓？<line-break>弓を持った奴らに囲まれてる！？<end>"
+korean = "활? 활 든 녀석들에게 포위됐다고!?<end>"
+
 ["310188"]
 japanese = "レムオン？<end>"
 korean = "레몬?<end>"
@@ -316,6 +336,10 @@ korean = "빨리 도망쳐!! 빨리!!<end>"
 japanese = "…それだけだ。<line-break>行くぞ。<end>"
 korean = "…그게 다다. 가자.<end>"
 
+["310261"]
+japanese = "黙ってろよ！<line-break>気に入らないガキだな！<end>"
+korean = "닥쳐! 마음에 안 드는 꼬맹이군!<end>"
+
 ["310266"]
 japanese = "ひ、ひいい！！<line-break>お助け！！<end>"
 korean = "히, 히익!! 살려 줘!!<end>"
@@ -327,6 +351,10 @@ korean = "누나!!<end>"
 ["310268"]
 japanese = "俺…、俺…。<end>"
 korean = "나… 나….<end>"
+
+["310272"]
+japanese = "酔狂な女だ。<line-break>ついてくるというのか？<end>"
+korean = "별난 여자군. 따라오겠다는 건가?<end>"
 
 ["310276"]
 japanese = "な、なんだ！？<end>"

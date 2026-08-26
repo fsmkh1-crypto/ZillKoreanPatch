@@ -4,6 +4,14 @@
 japanese = "……………。<line-break><line-break><line-break>黒い闇に似た生物が現れるという。<end>"
 korean = "……………. 검은 어둠을 닮은 생물이 나타난다고 한다.<end>"
 
+["260034"]
+japanese = "大陸の南西にある島といえば、<line-break>闇の門の島と呼ばれておる場所じゃ。<line-break>行こうぞ、<value:$28>よ！<end>"
+korean = "대륙 남서쪽 섬이라면 어둠의 문의 섬이라 불리는 곳이다. 가자, <value:$28>!<end>"
+
+["260042"]
+japanese = "ネメア様が…まだ、助かる…？<line-break><line-break><line-break>私からもお願いします、<line-break><value:$28>。<end>"
+korean = "네메아 님이… 아직 살 수 있어…? 저도 부탁드릴게요, <value:$28>.<end>"
+
 ["260049"]
 japanese = "ネメア救出ボゲー<line-break>a<end>"
 korean = "네메아 구출 보게이 a<end>"

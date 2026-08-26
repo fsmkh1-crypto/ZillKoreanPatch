@@ -4,6 +4,14 @@
 japanese = "旅立ち０９メッセージ<end>"
 korean = "여행 출발 09 메시지<end>"
 
+["360003"]
+japanese = "（やっぱり、母さん、<line-break>　いない…。）<end>"
+korean = "(역시 엄마는 없어….)<end>"
+
+["360006"]
+japanese = "<value:$28>…。<line-break>ここはお前の来るところではないわ。<line-break>いい？　二度と来ないの。<end>"
+korean = "<value:$28>…. 여긴 네가 올 곳이 아니야. 알겠지? 다시는 오지 마.<end>"
+
 ["360010"]
 japanese = "おいで、<value:$28>。<end>"
 korean = "이리 와, <value:$28>.<end>"
@@ -28,6 +36,10 @@ korean = "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<en
 japanese = "そうね。<end>"
 korean = "그러네.<end>"
 
+["360025"]
+japanese = "ええ。<line-break>だって、あなたは<line-break>愛を知ってしまったもの。<line-break>失う、ということも…。<end>"
+korean = "그래. 넌 사랑을 알아 버렸으니까. 잃는다는 것도….<end>"
+
 ["360032"]
 japanese = "さぁ、どうかしら？<end>"
 korean = "글쎄, 어떨까?<end>"
@@ -51,6 +63,10 @@ korean = "<value:$28>, 무한한 소울을 지닌 자여.<end>"
 ["360044"]
 japanese = "僕は君に会えてうれしいよ。<end>"
 korean = "널 만나서 기뻐.<end>"
+
+["360045"]
+japanese = "また…、<line-break>目覚めて…しまったのか…？<end>"
+korean = "또… 깨어나고 만 건가…?<end>"
 
 ["360049"]
 japanese = "なぜ、私を呼び覚ました。<end>"

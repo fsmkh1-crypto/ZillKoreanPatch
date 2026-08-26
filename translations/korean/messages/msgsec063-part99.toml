@@ -176,6 +176,10 @@ korean = "아, 아니… 저….<end>"
 japanese = "…あ…あの、<line-break>…ごめんなさい。<end>"
 korean = "…저… 그게, …미안해요.<end>"
 
+["630133"]
+japanese = "レムオン様こそ、一段とりりしく。<line-break>もちろん、<value:$28>様も<line-break>見とれてしまいますわ。<end>"
+korean = "레무온 님이야말로 더 늠름해지셨어요. 물론 <value:$28>님도 넋을 잃을 정도예요.<end>"
+
 ["630141"]
 japanese = "いえ、そんなことは…。<end>"
 korean = "아뇨, 그런 건….<end>"

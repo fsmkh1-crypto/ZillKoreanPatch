@@ -28,6 +28,10 @@ korean = "웃지 말아 줘.<end>"
 japanese = "フッ、これは意外だ。　　　　　<end>"
 korean = "훗, 이건 뜻밖이군.<end>"
 
+["440014"]
+japanese = "あれは…<line-break>あの方は度をこえています！<end>"
+korean = "저건… 저분은 너무 지나치십니다!<end>"
+
 ["440018"]
 japanese = "何も謝ることなどないさ。　　　　<end>"
 korean = "사과할 건 아무것도 없어.<end>"
@@ -115,6 +119,10 @@ korean = "하지만 이 녀석이! 형을!!<end>"
 ["440077"]
 japanese = "行くぞ、ヴァイ、ヴィア。<end>"
 korean = "가자, 바이, 비아.<end>"
+
+["440078"]
+japanese = "これが俺のやり方だ。<line-break>悪く思うなよ。<end>"
+korean = "이게 내 방식이다. 나쁘게 생각하지 마.<end>"
 
 ["440082"]
 japanese = "んー…、<line-break>やりすぎたかな？<end>"

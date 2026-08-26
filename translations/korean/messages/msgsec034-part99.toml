@@ -56,6 +56,10 @@ korean = "설마…. 아니, 이번에는 반드시!<end>"
 japanese = "煙が…。<line-break>炎竜山が噴火している…。<end>"
 korean = "연기가…. 염룡산이 분화하고 있어….<end>"
 
+["340030"]
+japanese = "よし、母さんに<line-break>あいさつしていこう。<end>"
+korean = "좋아, 엄마한테 인사하고 가자.<end>"
+
 ["340032"]
 japanese = "それと、今日<line-break><value:$28>が剣を打った。<line-break>見てやってくれ。　　　　　　　<end>"
 korean = "그리고 오늘 <value:$28>가 검을 만들었어. 봐 줘.<end>"
@@ -127,6 +131,42 @@ korean = "아버지의 목걸이는 유품으로 간직한다<end>"
 ["340061"]
 japanese = "父の首飾りを母の墓にかけた。<end>"
 korean = "아버지의 목걸이를 어머니 묘에 걸었다.<end>"
+
+["340062"]
+japanese = "予備メッセージ１<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 1 07 바닌 부자매<end>"
+
+["340063"]
+japanese = "予備メッセージ２<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 2 07 바닌 부자매<end>"
+
+["340064"]
+japanese = "予備メッセージ３<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 3 07 바닌 부자매<end>"
+
+["340065"]
+japanese = "予備メッセージ４<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 4 07 바닌 부자매<end>"
+
+["340066"]
+japanese = "予備メッセージ５<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 5 07 바닌 부자매<end>"
+
+["340067"]
+japanese = "予備メッセージ６<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 6 07 바닌 부자매<end>"
+
+["340068"]
+japanese = "予備メッセージ７<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 7 07 바닌 부자매<end>"
+
+["340069"]
+japanese = "予備メッセージ８<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 8 07 바닌 부자매<end>"
+
+["340070"]
+japanese = "予備メッセージ９<line-break>０７バーニン親子鷹<end>"
+korean = "예비 메시지 9 07 바닌 부자매<end>"
 
 ["340072"]
 japanese = "旅立ち０７メッセージ終端<end>"

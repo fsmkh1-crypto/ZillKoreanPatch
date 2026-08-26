@@ -4,6 +4,10 @@
 japanese = "うぬの戦い、<line-break>見せてもらおう。<end>"
 korean = "네 싸움, 지켜보겠다.<end>"
 
+["270021"]
+japanese = "無限のソウルの力…<line-break>見せてもらおう。<end>"
+korean = "무한한 소울의 힘… 보여 주마.<end>"
+
 ["270023"]
 japanese = "大丈夫！<line-break><value:$28>なら楽勝だよ。<end>"
 korean = "괜찮아! <value:$28>라면 식은 죽 먹기야.<end>"
@@ -44,6 +48,10 @@ korean = "<value:$28> 씨는 이미 결승에 출전할 자격을 갖고 있어�
 japanese = "それでも出場しますか？<end>"
 korean = "그래도 출전하시겠습니까?<end>"
 
+["270057"]
+japanese = "残念でしたね。<line-break>これは、勝利賞金です。　<line-break><line-break>また挑戦してくださいね。<end>"
+korean = "아쉽네요. 이건 승리 상금입니다. 또 도전해 주세요.<end>"
+
 ["270058"]
 japanese = "また挑戦してくださいね。<end>"
 korean = "또 도전해 주세요.<end>"
@@ -71,6 +79,10 @@ korean = "준비돼 있다<end>"
 ["270085"]
 japanese = "まだできていない<end>"
 korean = "아직 못 했어<end>"
+
+["270086"]
+japanese = "じゃあ頑張ってね！<line-break>応援してるから。<end>"
+korean = "그럼 힘내! 응원할게.<end>"
 
 ["270089"]
 japanese = "この俺が敗れるとは・・・。<end>"
@@ -143,6 +155,10 @@ korean = "대지의 힘을 네게 가르쳐 주지.<end>"
 ["270123"]
 japanese = "あたしの炎で、身も心も焦がしてあげるわ。<end>"
 korean = "내 불꽃으로 몸도 마음도 태워 주겠어.<end>"
+
+["270124"]
+japanese = "さあ、風の精霊よ。<line-break>私に力を貸して。<end>"
+korean = "자, 바람의 정령이여. 내게 힘을 빌려줘.<end>"
 
 ["270126"]
 japanese = "へへ。よろしくな。<end>"

@@ -8,6 +8,10 @@ korean = "에스텔 메시지 VOL1 시작<end>"
 japanese = "じゃあね、<line-break>………………。<end>"
 korean = "그럼 안녕, ……………….<end>"
 
+["880010"]
+japanese = "ね。<line-break>中身が見てみたいと思わない？<end>"
+korean = "있지. 안에 뭐가 들었는지 보고 싶지 않아?<end>"
+
 ["880013"]
 japanese = "あれ、<line-break><value:$28>じゃない？<end>"
 korean = "어라, <value:$28> 아니야?<end>"

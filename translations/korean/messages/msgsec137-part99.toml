@@ -36,6 +36,14 @@ korean = "아름다움<end>"
 japanese = "よくわからない<end>"
 korean = "잘 모르겠어<end>"
 
+["1370068"]
+japanese = "よう、<value:$28>。<line-break>カルラがいよいよ攻めてくるってな。<line-break>お前さんはどうするんだい？<end>"
+korean = "여, <value:$28>. 카를라가 드디어 쳐들어온다더군. 넌 어떻게 할 거야?<end>"
+
+["1370092"]
+japanese = "よう、<value:$28>。<line-break>この前は世話になったな。<line-break>お前さんがいてくれて助かった。<end>"
+korean = "여, <value:$28>. 지난번엔 신세 졌어. 네가 있어서 살았다.<end>"
+
 ["1370103"]
 japanese = "おや、<value:$28>かい。<end>"
 korean = "어라, <value:$28>인가.<end>"
@@ -51,6 +59,10 @@ korean = "잘 모르겠어.<end>"
 ["1370117"]
 japanese = "<value:$28>、<line-break>…がんばれよ。<end>"
 korean = "<value:$28>, …힘내라.<end>"
+
+["1370125"]
+japanese = "おう、お前<line-break>名前はなんていうんだい？<end>"
+korean = "그래, 너 이름이 뭐냐?<end>"
 
 ["1370128"]
 japanese = "おう、<value:$28>か。<end>"
@@ -831,6 +843,10 @@ korean = "<value:$28> 씨와 함께였으니<end> 정말 안심됐어요.<end>"
 ["1370691"]
 japanese = "あの…、あたし…"
 korean = "저기…, 나…"
+
+["1370692"]
+japanese = "……いえ、なんでもないです。<line-break>それじゃ、中にはいりましょうか。<line-break><value:$28>。<end>"
+korean = "……아니, 아무것도 아니에요. 그럼 안으로 들어갈까요, <value:$28>.<end>"
 
 ["1370700"]
 japanese = "ははは！<end>"

@@ -36,6 +36,10 @@ korean = "역시 지금까지대로<end>"
 japanese = "何がなんでも、ディンガル側<end>"
 korean = "무슨 일이 있어도 딩갈 편<end>"
 
+["590023"]
+japanese = "それじゃ、今まで通り<line-break>ロストール、アキュリュース側ってことで<line-break>よろしく頼むぜ、<value:$28>。<end>"
+korean = "그럼 지금까지처럼 로스토올·아큐류스 편으로 부탁한다, <value:$28>.<end>"
+
 ["590026"]
 japanese = "やっぱりロストール側<end>"
 korean = "역시 로스토르 측<end>"

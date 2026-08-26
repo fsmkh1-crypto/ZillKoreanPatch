@@ -196,6 +196,10 @@ korean = "<value:$28> 씨, 갑시다!<end>"
 japanese = "へい、おかしら！<line-break>　<line-break>　<end>"
 korean = "예, 두목!<end>"
 
+["1920206"]
+japanese = "ちょっと、待ちなさいよ<line-break><value:$28>！<end>"
+korean = "잠깐, 기다려 <value:$28>!<end>"
+
 ["1920212"]
 japanese = "それでは、行くわよ、<line-break><value:$28>！<end>"
 korean = "그럼 가자, <value:$28>!<end>"

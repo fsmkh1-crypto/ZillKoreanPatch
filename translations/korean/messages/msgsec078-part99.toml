@@ -12,6 +12,14 @@ korean = "저, 저기… 당신은 대체…?<end>"
 japanese = "シャリ、この方は…？<end>"
 korean = "샤리, 이분은…?<end>"
 
+["780015"]
+japanese = "アトレイア様。この若者こそ<line-break>君に色惑の瞳を持ってきてくれた<line-break>勇者、<value:$28>だよ。<end>"
+korean = "아트레이아 님. 이 젊은이가 바로 당신께 색혹의 눈동자를 가져다준 용사 <value:$28>입니다.<end>"
+
+["780018"]
+japanese = "さ、お礼はもういい、アトレイア？<line-break>それじゃ、僕が<value:$28>様を<line-break>王宮の外までご案内するよ。<end>"
+korean = "자, 감사는 이제 됐지, 아트레이아? 그럼 제가 <value:$28>님을 왕궁 밖까지 안내할게요.<end>"
+
 ["780019"]
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"

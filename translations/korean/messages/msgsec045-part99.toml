@@ -116,6 +116,10 @@ korean = "고, 고마워. 나 열심히 할게.<end>"
 japanese = "わかった。　　　　　　　　　　　<end>"
 korean = "알겠어.<end>"
 
+["450056"]
+japanese = "ナッジを今すぐに<line-break>仲間に加えますか？<end>"
+korean = "나지를 지금 바로 동료로 맞이하시겠습니까?<end>"
+
 ["450058"]
 japanese = "わかった。　　　　　　　　　　　<end>"
 korean = "알겠어.<end>"
@@ -216,6 +220,14 @@ korean = "괜찮아?<end>"
 japanese = "あ、はい。<end>"
 korean = "아, 네.<end>"
 
+["450148"]
+japanese = "哀しい目だな…。<line-break>復讐のための旅か？<end>"
+korean = "슬픈 눈이군…. 복수를 위한 여행인가?<end>"
+
+["450150"]
+japanese = "そうか。<line-break>ならば、力を求めるとよい。<end>"
+korean = "그렇군. 그렇다면 힘을 구하는 게 좋겠어.<end>"
+
 ["450153"]
 japanese = "僕…。<end>"
 korean = "나….<end>"
@@ -308,6 +320,10 @@ korean = "갈드란이 있었어…?<end>"
 japanese = "矢…？　ガルドランの…？<end>"
 korean = "화살…? 갈드란의…?<end>"
 
+["450233"]
+japanese = "待ちかねたぞ！<line-break>我が永遠のライバルよ！<end>"
+korean = "기다렸다! 나의 영원한 라이벌이여!<end>"
+
 ["450238"]
 japanese = "俺様は未来の勇者！<line-break>ガルドラン！！<end>"
 korean = "이 몸은 미래의 용사! 갈드란!!<end>"
@@ -328,6 +344,10 @@ korean = "잠깐 기다려, 나지!<end>"
 japanese = "え…。<end>"
 korean = "어….<end>"
 
+["450245"]
+japanese = "あ、ああ…、<line-break>そうだよね…、わかった。<end>"
+korean = "아, 아아… 그렇지… 알겠어.<end>"
+
 ["450246"]
 japanese = "俺様伝説…打ち…切り…！！<end>"
 korean = "나의 전설… 여기서… 끝…!!<end>"
@@ -340,9 +360,17 @@ korean = "반, 원수는 갚았어….<end>"
 japanese = "ヴァン…仇は討ったよ。<end>"
 korean = "반… 원수는 갚았어.<end>"
 
+["450258"]
+japanese = "いや、ガルドランは<line-break>殺さなかったんだ。<end>"
+korean = "아니, 갈드란은 죽이지 않았어.<end>"
+
 ["450259"]
 japanese = "…なんだと？　　　　　　　<end>"
 korean = "…뭐라고?<end>"
+
+["450261"]
+japanese = "とったよ。<line-break>だけど、殺す必要はないよ。<end>"
+korean = "잡았어. 하지만 죽일 필요는 없어.<end>"
 
 ["450264"]
 japanese = "メンツなんかのために、だとおお！？<end>"

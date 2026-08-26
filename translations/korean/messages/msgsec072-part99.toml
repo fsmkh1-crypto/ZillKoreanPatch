@@ -100,6 +100,10 @@ korean = "…아까 그 여자는?<end>"
 japanese = "あなたにハッパをかけに来たのよ。<end>"
 korean = "당신을 좀 자극하러 왔어.<end>"
 
+["720095"]
+japanese = "ずっと宿屋でぬくぬくしてちゃ<line-break>強くなれないのよ！<line-break>わかってるの、<value:$28>？<end>"
+korean = "계속 여관에서 편하게만 있으면 강해질 수 없어! 알겠어, <value:$28>?<end>"
+
 ["720098"]
 japanese = "別れましょ？<end>"
 korean = "헤어질까?<end>"

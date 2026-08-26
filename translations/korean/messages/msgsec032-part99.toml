@@ -76,6 +76,10 @@ korean = "아, 로이 님과 <value:$28> 님이다! <value:$28> 님~!<end>"
 japanese = "ハハハ。<line-break><value:$28>、<line-break>大した人気だな。<end>"
 korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
 
+["320043"]
+japanese = "あー！！　もう！！　　<line-break>　<line-break>　<end>"
+korean = "아아!! 정말!!<end>"
+
 ["320044"]
 japanese = "<value:$28>さまが<line-break>おこまりでしょ！！<line-break>ちるの！　ちるのお！<end>"
 korean = "<value:$28> 님이 곤란하잖아!! 비켜! 비켜어!<end>"
@@ -175,6 +179,10 @@ korean = "네 이름은?<end>"
 ["320094"]
 japanese = "あっ、<value:$28>様じゃ。<end>"
 korean = "앗, <value:$28> 님이구나.<end>"
+
+["320096"]
+japanese = "<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"
+korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님께 줄게.<end>"
 
 ["320100"]
 japanese = "…それで、<line-break>お前は逃げるのか？<end>"

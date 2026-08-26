@@ -24,6 +24,10 @@ korean = "후후, 오랜만이군.<end>"
 japanese = "バカな…。<line-break>勝てる戦いだったはず。<end>"
 korean = "말도 안 돼…. 이길 수 있는 싸움이었을 텐데.<end>"
 
+["1900038"]
+japanese = "あ…、ああ…。　　　<line-break><value:$28>…。<end>"
+korean = "아… 아아…. <value:$28>….<end>"
+
 ["1900040"]
 japanese = "ザギヴめ…。<line-break>闇を退けおったか！<end>"
 korean = "자기브 녀석…. 어둠을 물리친 건가!<end>"

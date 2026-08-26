@@ -164,6 +164,10 @@ korean = "저기, <value:$28>. 현자의 숲에 가 봐. 분명 뭔가 있을 �
 japanese = "きっとだよ！<line-break><value:$28>。<end>"
 korean = "꼭이야! <value:$28>.<end>"
 
+["420163"]
+japanese = "<value:$28>か。<line-break>最近、エストが連絡もよこさん。<line-break>あいつから何か聞いてないか？<end>"
+korean = "<value:$28>인가. 요즘 에스트가 연락도 없군. 그 녀석한테 뭐 들은 거 없나?<end>"
+
 ["420168"]
 japanese = "レムオン様、<line-break>お客様でございます。<end>"
 korean = "레무온 님, 손님이 오셨습니다.<end>"
@@ -239,6 +243,10 @@ korean = "내 종자가 되고 싶다고? 제정신이냐?<end>"
 ["420263"]
 japanese = "…とりあえず、ついてこい。<end>"
 korean = "…일단 따라와.<end>"
+
+["420266"]
+japanese = "今は忙しいのだ。<line-break>急いで用件を言え。<end>"
+korean = "지금은 바쁘다. 용건을 빨리 말해라.<end>"
 
 ["420280"]
 japanese = "入るぞ、<value:$28>。<end>"
