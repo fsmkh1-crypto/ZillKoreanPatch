@@ -28,6 +28,10 @@ korean = "무슨 뜻이지?<end>"
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
 
+["1350044"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1350054"]
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
@@ -95,6 +99,10 @@ korean = "큭…. 네놈!<end>"
 ["1350187"]
 japanese = "な、なに！？<end>"
 korean = "뭐, 뭐!?<end>"
+
+["1350188"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
 
 ["1350192"]
 japanese = "ひいいい！<end>"
@@ -215,6 +223,10 @@ korean = "큭…<end>"
 ["1350346"]
 japanese = "なんで？<end>"
 korean = "왜?<end>"
+
+["1350347"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
 
 ["1350350"]
 japanese = "よう、また会ったな。<end>"
@@ -348,6 +360,42 @@ korean = "형!<end>"
 japanese = "素通りする<end>"
 korean = "그냥 지나간다<end>"
 
+["1350531"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350532"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350533"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350534"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350535"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350536"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350537"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350538"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350539"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1350540"]
 japanese = "見守る<end>"
 korean = "지켜본다<end>"
@@ -371,3 +419,15 @@ korean = "이 느낌은… 마치….<end>"
 ["1350571"]
 japanese = "何か情報は？<end>"
 korean = "무슨 정보라도 있어?<end>"
+
+["1350592"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350593"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1350594"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"

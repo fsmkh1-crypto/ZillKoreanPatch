@@ -244,6 +244,10 @@ korean = "앗…!<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["1340294"]
+japanese = "レイヴン！　大丈夫？！<end>"
+korean = "레이븐! 괜찮아?!<end>"
+
 ["1340296"]
 japanese = "う…う…。<end>"
 korean = "으… 으….<end>"
@@ -340,6 +344,42 @@ korean = "<value:$28>님?<end>"
 japanese = "あっ…。<line-break>ありがとうございます、<line-break><value:$28>様。<end>"
 korean = "앗…. 감사합니다, <value:$28> 님.<end>"
 
+["1340510"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340511"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340512"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340513"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340514"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340515"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340516"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340517"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340518"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1340521"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
@@ -412,6 +452,22 @@ korean = "주, 죽었어?<end>"
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
 
+["1340642"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340645"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340646"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1340647"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1340648"]
 japanese = "１００ギア援助する<end>"
 korean = "100기아를 지원한다<end>"
@@ -451,6 +507,10 @@ korean = "<value:$28>님!<end>"
 ["1340685"]
 japanese = "タルテュバ様…。<end>"
 korean = "타르튜바 님….<end>"
+
+["1340687"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
 
 ["1340688"]
 japanese = "では、寝室の方に…。<end>"

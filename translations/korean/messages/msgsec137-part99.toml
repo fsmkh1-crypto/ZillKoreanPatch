@@ -72,6 +72,10 @@ korean = "다른 건 뭐가 있지?<end>"
 japanese = "それが彼らの生き方<end>"
 korean = "그게 그들의 삶의 방식이다<end>"
 
+["1370169"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1370176"]
 japanese = "ちょっと待って<end>"
 korean = "잠깐 기다려<end>"
@@ -144,6 +148,10 @@ korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
 japanese = "やれやれ。<line-break><value:$28>、<line-break>人気者はつらいな。<end>"
 korean = "이런. <value:$28>, 인기인은 힘들군.<end>"
 
+["1370229"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1370237"]
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
@@ -159,6 +167,14 @@ korean = "앗, <value:$28> 님이시군.<end>"
 ["1370251"]
 japanese = "…来い。<end>"
 korean = "…와.<end>"
+
+["1370259"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370260"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
 
 ["1370263"]
 japanese = "！<end>"
@@ -232,6 +248,10 @@ korean = "잠깐 기다려<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370350"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1370355"]
 japanese = "…どうした？<end>"
 korean = "…무슨 일이야?<end>"
@@ -243,6 +263,26 @@ korean = "좋아, 그럼 가볼까.<end>"
 ["1370361"]
 japanese = "もう大丈夫か？<end>"
 korean = "이제 괜찮아?<end>"
+
+["1370375"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370382"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370383"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370384"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370385"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
 
 ["1370386"]
 japanese = "おお、<value:$28>。<line-break>戻ったか。<line-break>ご苦労だった。<end>"
@@ -308,6 +348,18 @@ korean = "설명해 줬으면 해<end>"
 japanese = "…強くなるのだぞ。<end>"
 korean = "…강해져라.<end>"
 
+["1370443"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370444"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370445"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1370446"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
@@ -316,9 +368,25 @@ korean = "<value:$28>인가.<end>"
 japanese = "だ、だって…。<end>"
 korean = "하, 하지만….<end>"
 
+["1370472"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370473"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370474"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1370480"]
 japanese = "<value:$28>、頼んだぜ。<end>"
 korean = "<value:$28>, 부탁한다.<end>"
+
+["1370481"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
 
 ["1370495"]
 japanese = "お願いする<end>"
@@ -347,6 +415,10 @@ korean = "모두 이해하고 있다<end>"
 ["1370516"]
 japanese = "スキルのことだな。<end>"
 korean = "스킬 이야기군.<end>"
+
+["1370519"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
 
 ["1370522"]
 japanese = "おう、なんだ。<end>"
@@ -420,6 +492,10 @@ korean = "그, 그만해 주세요!<end>"
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"
 
+["1370602"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1370605"]
 japanese = "はい。<end>"
 korean = "네.<end>"
@@ -452,6 +528,14 @@ korean = "한 분야에 뛰어난 성장<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370643"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370647"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1370650"]
 japanese = "そうだ、<line-break><value:$28>さんが<line-break>いたじゃない。<end>"
 korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
@@ -480,9 +564,89 @@ korean = "하하하!<end>"
 japanese = "はい<end>"
 korean = "네<end>"
 
+["1370713"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
 ["1370718"]
 japanese = "こいつを持ってきな。<end>"
 korean = "이걸 가져와.<end>"
+
+["1370723"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370724"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370733"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370734"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370735"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370736"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370737"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370738"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370739"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370740"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370741"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370742"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370743"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370744"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370745"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370746"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370747"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370748"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
+
+["1370749"]
+japanese = "追加メッセージここから<end>"
+korean = "추가 메시지 여기부터<end>"
 
 ["1370751"]
 japanese = "オッシ終端<end>"
