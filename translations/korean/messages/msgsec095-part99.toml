@@ -4,6 +4,10 @@
 japanese = "オイフェメッセージＶ１開始<end>"
 korean = "오이페 메시지 V1 시작<end>"
 
+["950001"]
+japanese = "俺たち冒険者のことをバカにする気か？<line-break>この小娘！<end>"
+korean = "우리 모험자들을 바보 취급하는 거냐? 이 꼬맹이가!<end>"
+
 ["950007"]
 japanese = "あのエルフを助ける<end>"
 korean = "저 엘프를 돕는다<end>"
@@ -47,6 +51,10 @@ korean = "모, 모, 모를 리가 없잖아.<end>"
 ["950034"]
 japanese = "猫屋敷で呼び出すぅ？<end>"
 korean = "고양이 저택에서 부를까?<end>"
+
+["950038"]
+japanese = "ちょっと、ほめただけで<line-break>調子にのらないようにね！<end>"
+korean = "조금 칭찬했다고 우쭐대지 마!<end>"
 
 ["950041"]
 japanese = "キャー！<end>"

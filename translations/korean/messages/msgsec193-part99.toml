@@ -64,6 +64,10 @@ korean = "무슨 일이세요, 아버님?<end>"
 japanese = "いや、話しておきたいことがあってな。<end>"
 korean = "아니, 미리 해두고 싶은 말이 있어서.<end>"
 
+["1930035"]
+japanese = "わかっておる。<line-break>まあ、わしの話を聞いてくれ。<end>"
+korean = "알고 있다. 뭐, 내 이야기를 들어 보게.<end>"
+
 ["1930037"]
 japanese = "<value:$28>、<line-break>娘を頼んだぞ。<end>"
 korean = "<value:$28>, 딸을 부탁한다.<end>"

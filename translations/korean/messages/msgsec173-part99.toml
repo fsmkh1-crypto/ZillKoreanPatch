@@ -152,6 +152,10 @@ korean = "어머, <value:$28>잖아. 잘 지냈어? 응? 오이페에게 편지?
 japanese = "それじゃ、またね。<line-break><value:$28>。<end>"
 korean = "그럼 또 보자, <value:$28>.<end>"
 
+["1730075"]
+japanese = "オイフェ殿からの書状だと？<line-break>しばらく、待て。<end>"
+korean = "오이페 공의 서신이라고? 잠시 기다려라.<end>"
+
 ["1730078"]
 japanese = "いくわ！！　　　　　　　　　　　<end>"
 korean = "간다!!<end>"
@@ -175,6 +179,10 @@ korean = "핫!<end>"
 ["1730086"]
 japanese = "冗談だってば。　　　　<line-break>本気にしないで。<line-break>　<line-break>じゃ、用が終わったなら<line-break>出てってくんないかな？<end>"
 korean = "농담이라니까. 진지하게 받아들이지 마. 그럼 볼일 끝났으면 나가 줄래?<end>"
+
+["1730091"]
+japanese = "オイフェ殿からの書状だと？<line-break>しばらく、待て。<end>"
+korean = "오이페 공의 서신이라고? 잠시 기다려라.<end>"
 
 ["1730094"]
 japanese = "あら、<value:$28>じゃん。<line-break>オイフェから手紙預かってるんだって？<line-break>どれどれ…<end>"
@@ -231,6 +239,10 @@ korean = "기대하고 있을게. 주사푸.<end>"
 ["1730123"]
 japanese = "<value:$28>さんですね。<line-break>オイフェ様より伝言です。　　　<line-break>　<end>"
 korean = "<value:$28> 씨시군요. 오이페 님께서 전언을 남기셨습니다.<end>"
+
+["1730126"]
+japanese = "そ、それからもうひとつ…。　　<line-break>　<line-break>　<end>"
+korean = "그, 그리고 하나 더….<end>"
 
 ["1730127"]
 japanese = "あんたなんて二度と信用しない！<line-break>この薄情者っ！<end>"

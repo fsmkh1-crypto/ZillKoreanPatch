@@ -116,6 +116,10 @@ korean = "뭐라고?<end>"
 japanese = "<value:$28>、何か知らないの？<line-break>今回の件の人たちとは、<line-break>少なからず関わりがあるでしょう？<end>"
 korean = "<value:$28>, 뭔가 아는 거 없어? 이번 일에 관련된 사람들과 적지 않게 얽혀 있잖아?<end>"
 
+["1780082"]
+japanese = "なんですって？<line-break>そんな情報をいったいどこで？<end>"
+korean = "뭐라고요? 그런 정보는 대체 어디서?<end>"
+
 ["1780083"]
 japanese = "お前らの兄貴さ。<line-break>気になってたんでな、<line-break>調べてもらった。<line-break>あいつの情報なら間違いないだろう。<end>"
 korean = "너희 형 이야기다. 신경 쓰여서 조사해 봤지. 그 녀석 정보라면 틀림없을 거다.<end>"
@@ -159,6 +163,10 @@ korean = "예비 메시지 그 8 로스토올 V5-1<end>"
 ["1780102"]
 japanese = "予備メッセージ　その９<line-break>ロストールＶ５－１<end>"
 korean = "예비 메시지 그 9 로스토올 V5-1<end>"
+
+["1780103"]
+japanese = "予備メッセージ　その１０<line-break>ロストールＶ５－１<end>"
+korean = "예비 메시지 그 10 로스토올 V5-1<end>"
 
 ["1780104"]
 japanese = "ロストールメッセージＶ５／１終端<end>"

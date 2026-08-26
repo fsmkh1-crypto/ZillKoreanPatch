@@ -112,6 +112,10 @@ korean = "아ー, 그 사람!<end>"
 japanese = "よぉ、お邪魔してるぜ。<end>"
 korean = "여어, 실례 좀 하고 있어.<end>"
 
+["1860068"]
+japanese = "あれぇ。そう言えば、<line-break>お名前聞いてないよぉ。<end>"
+korean = "어라. 그러고 보니 이름을 못 들었네.<end>"
+
 ["1860069"]
 japanese = "ん？　あぁ、俺はゼネテス。<line-break>冒険者だ。<end>"
 korean = "응? 아, 난 제네테스. 모험자다.<end>"
@@ -248,6 +252,10 @@ korean = "서둘러 돌아가. …한시가 급한 상황이다.<end>"
 japanese = "急いでね、<line-break><value:$28>…。<end>"
 korean = "서둘러, <value:$28>….<end>"
 
+["1860148"]
+japanese = "（父さんが心配だから、<line-break>　早く帰らなきゃ。）<end>"
+korean = "(아버지가 걱정되니까 빨리 돌아가야 해.)<end>"
+
 ["1860149"]
 japanese = "なんだ、お前は！<end>"
 korean = "뭐냐, 넌!<end>"
@@ -311,6 +319,10 @@ korean = "여행 출발·Messenger 예비 메시지 8이야.<end>"
 ["1860189"]
 japanese = "旅立ち・Messenger<line-break>予備メッセージの９だよぉ。<end>"
 korean = "여행 출발·Messenger 예비 메시지 9이야.<end>"
+
+["1860190"]
+japanese = "旅立ち・Messenger<line-break>予備メッセージの１０だよぉ。<end>"
+korean = "출발·Messenger 예비 메시지 10이야.<end>"
 
 ["1860191"]
 japanese = "旅立ち０６（改）メッセージ終端<end>"

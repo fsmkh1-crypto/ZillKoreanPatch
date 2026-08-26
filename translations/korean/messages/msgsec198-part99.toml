@@ -60,6 +60,10 @@ korean = "어, 어서 오세요, <value:$28>님! 오, 오늘은 날씨가 좋네
 japanese = "えっと、あの…。<line-break><value:$28>さんは<line-break>どんな冒険をされてきたんですか？<end>"
 korean = "저기, 그…. <value:$28>님은 어떤 모험을 해 오셨나요?<end>"
 
+["1980028"]
+japanese = "闇の神器…？<line-break>それってスゴいものなんですか？<end>"
+korean = "어둠의 신기…? 그게 그렇게 대단한 건가요?<end>"
+
 ["1980030"]
 japanese = "えーと…。<line-break>……<line-break>……。<end>"
 korean = "음…. …… …….<end>"

@@ -12,6 +12,10 @@ korean = "후고라는 게 그렇게 대단한가요?<end>"
 japanese = "んー、まぁね。<line-break>この大陸の経済を握ってるの、<line-break>フゴーだからね。<line-break>あいつを敵に回しちゃうと、<line-break>税収が激減するのよ。<end>"
 korean = "음, 뭐 그렇지. 이 대륙 경제를 쥐고 있는 건 후고니까. 그자를 적으로 돌리면 세수가 크게 줄어들어.<end>"
 
+["1850017"]
+japanese = "アンティノも逃がすし、<line-break>なんか手際悪いわね。<end>"
+korean = "안티노도 놓치고, 왠지 일처리가 서툴네.<end>"
+
 ["1850020"]
 japanese = "は、はいっ！<end>"
 korean = "네, 네!<end>"
@@ -111,6 +115,10 @@ korean = "우뉴우….<end>"
 ["1850066"]
 japanese = "ほーっほっほっ、<line-break>むにゅー、ですわねー。<end>"
 korean = "호호호호, 말랑말랑하군요~.<end>"
+
+["1850068"]
+japanese = "リベルダムには、<line-break>すでにいらっしゃいません。<end>"
+korean = "리벨덤에는 이미 계시지 않습니다.<end>"
 
 ["1850069"]
 japanese = "勝った。勝った。<end>"

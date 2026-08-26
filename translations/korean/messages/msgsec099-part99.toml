@@ -120,6 +120,10 @@ korean = "미사용 메시지<end>"
 japanese = "不使用メッセージ<end>"
 korean = "미사용 메시지<end>"
 
+["990049"]
+japanese = "そ、そ、そうですよね！<line-break>そんなわけないですよね！<end>"
+korean = "그, 그렇죠! 그럴 리 없죠!<end>"
+
 ["990053"]
 japanese = "ごちそうさん。<end>"
 korean = "잘 먹었어.<end>"
@@ -164,6 +168,10 @@ korean = "오랜만이네, <value:$28>.<end>"
 japanese = "やっと、夢がかなったの。<line-break>それじゃ。<end>"
 korean = "드디어 꿈이 이루어졌어. 그럼.<end>"
 
+["990080"]
+japanese = "こんなことになるなんて…<line-break>思ってもみなかった…。<end>"
+korean = "이런 일이 될 줄은… 생각도 못 했어….<end>"
+
 ["990084"]
 japanese = "…行きなさい。<line-break>次はないわ。<end>"
 korean = "…가. 다음은 없어.<end>"
@@ -175,6 +183,10 @@ korean = "…왜, 왜 해방군 같은 곳에….<end>"
 ["990090"]
 japanese = "あ、<value:$28>…。<end>"
 korean = "아, <value:$28>….<end>"
+
+["990092"]
+japanese = "…どうして、<line-break>どうしてあなたがノーブル伯なの…。<end>"
+korean = "…왜, 왜 당신이 노블 백작인 거야….<end>"
 
 ["990096"]
 japanese = "あ、<value:$28>…。<end>"
@@ -211,6 +223,10 @@ korean = "정말이지, 어째서 해방군 따위에!<end>"
 ["990124"]
 japanese = "あ、<value:$28>…。<end>"
 korean = "아, <value:$28>….<end>"
+
+["990126"]
+japanese = "…どうして、<line-break>どうしてあなたがノーブル伯なの…。<end>"
+korean = "…왜, 왜 당신이 노블 백작인 거야….<end>"
 
 ["990141"]
 japanese = "<value:$28>じゃない、<line-break>じゃ、忙しいから。<end>"
