@@ -24,6 +24,10 @@ korean = "알았어<end>"
 japanese = "関係ない<end>"
 korean = "상관없어<end>"
 
+["890124"]
+japanese = "しょうがない<end>"
+korean = "어쩔 수 없지<end>"
+
 ["890125"]
 japanese = "関係ない<end>"
 korean = "상관없어<end>"
@@ -48,6 +52,10 @@ korean = "네… 네…<end>"
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
 
+["890168"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
 ["890192"]
 japanese = "い、いや…<end>"
 korean = "아, 아니…<end>"
@@ -59,6 +67,10 @@ korean = "…아…니.<end>"
 ["890217"]
 japanese = "私…だけ…<end>"
 korean = "나…만…<end>"
+
+["890226"]
+japanese = "…い、痛い。<end>"
+korean = "…아, 아파.<end>"
 
 ["890235"]
 japanese = "逃げる<end>"
@@ -72,9 +84,17 @@ korean = "도망치지 않아<end>"
 japanese = "この…歌…<end>"
 korean = "이…노래…<end>"
 
+["890278"]
+japanese = "…終わりだ。<end>"
+korean = "…끝이다.<end>"
+
 ["890282"]
 japanese = "ぐあっ！<end>"
 korean = "크악!<end>"
+
+["890284"]
+japanese = "き、貴様は…<end>"
+korean = "네, 네놈은…<end>"
 
 ["890289"]
 japanese = "ぐあっ！<end>"
@@ -87,6 +107,14 @@ korean = "…지금이야!<end>"
 ["890302"]
 japanese = "ぐあっ！<end>"
 korean = "크악!<end>"
+
+["890320"]
+japanese = "く、来る…！<end>"
+korean = "오, 온다…!<end>"
+
+["890341"]
+japanese = "く、来る…！<end>"
+korean = "오, 온다…!<end>"
 
 ["890355"]
 japanese = "ううっ…！<end>"
@@ -108,6 +136,10 @@ korean = "기다려.<end>"
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
 
+["890431"]
+japanese = "だから、な？<end>"
+korean = "그러니까, 응?<end>"
+
 ["890432"]
 japanese = "来たか…。<end>"
 korean = "왔나….<end>"
@@ -116,21 +148,81 @@ korean = "왔나….<end>"
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
 
+["890516"]
+japanese = "説得を続ける<end>"
+korean = "설득을 계속한다<end>"
+
 ["890517"]
 japanese = "あきらめる<end>"
 korean = "포기한다<end>"
+
+["890526"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890530"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890533"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890536"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890538"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890541"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
 
 ["890548"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
 
+["890549"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
 ["890576"]
 japanese = "あきらめる<end>"
 korean = "포기한다<end>"
 
+["890585"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890589"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890592"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890595"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890597"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["890600"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
+
 ["890651"]
 japanese = "うっ……！<end>"
 korean = "윽……!<end>"
+
+["890674"]
+japanese = "…竜王様だ。<end>"
+korean = "…용왕님이다.<end>"
 
 ["890683"]
 japanese = "ノエル！<end>"
@@ -152,10 +244,22 @@ korean = "으랴앗!<end>"
 japanese = "待って！<end>"
 korean = "기다려!<end>"
 
+["890711"]
+japanese = "友達だから！<end>"
+korean = "친구니까!<end>"
+
 ["890712"]
 japanese = "なに？<end>"
 korean = "뭐?<end>"
 
+["890718"]
+japanese = "そ、それは…<end>"
+korean = "그, 그건…<end>"
+
 ["890721"]
 japanese = "ヴァン！<end>"
 korean = "반!<end>"
+
+["890723"]
+japanese = "俺様、復活！<end>"
+korean = "이 몸, 부활!<end>"

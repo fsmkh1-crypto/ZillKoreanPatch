@@ -8,6 +8,10 @@ korean = "간다<end>"
 japanese = "行かない<end>"
 korean = "안 가<end>"
 
+["1400090"]
+japanese = "<value:$28>様！<end>"
+korean = "<value:$28>님!<end>"
+
 ["1400091"]
 japanese = "きゃん！<end>"
 korean = "꺅!<end>"

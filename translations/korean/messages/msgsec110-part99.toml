@@ -19,3 +19,7 @@ korean = "자기브 님!<end>"
 ["1100086"]
 japanese = "その怪物？<end>"
 korean = "그 괴물?<end>"
+
+["1100115"]
+japanese = "<value:$28>か。<end>"
+korean = "<value:$28>인가.<end>"

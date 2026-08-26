@@ -108,6 +108,10 @@ korean = "아니요<end>"
 japanese = "…待て。<end>"
 korean = "…기다려.<end>"
 
+["1340466"]
+japanese = "<value:$28>様？<end>"
+korean = "<value:$28>님?<end>"
+
 ["1340521"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
@@ -136,6 +140,10 @@ korean = "으으음…<end>"
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
 
+["1340634"]
+japanese = "<value:$28>様！<end>"
+korean = "<value:$28>님!<end>"
+
 ["1340651"]
 japanese = "援助しない<end>"
 korean = "지원하지 않는다<end>"
@@ -147,3 +155,7 @@ korean = "지원하지 않는다<end>"
 ["1340662"]
 japanese = "立ち去る<end>"
 korean = "떠난다<end>"
+
+["1340677"]
+japanese = "<value:$28>様！<end>"
+korean = "<value:$28>님!<end>"

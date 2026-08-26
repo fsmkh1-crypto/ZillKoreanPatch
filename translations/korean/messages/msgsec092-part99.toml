@@ -8,6 +8,10 @@ korean = "후후후….<end>"
 japanese = "仲間にする<end>"
 korean = "동료로 삼는다<end>"
 
+["920023"]
+japanese = "仲間にしない<end>"
+korean = "동료로 삼지 않는다<end>"
+
 ["920076"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"

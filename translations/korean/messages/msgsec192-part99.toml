@@ -16,6 +16,10 @@ korean = "빈칸<end>"
 japanese = "お母様…。<end>"
 korean = "어머님….<end>"
 
+["1920156"]
+japanese = "<value:$28>様！<end>"
+korean = "<value:$28>님!<end>"
+
 ["1920177"]
 japanese = "…え！？<end>"
 korean = "…어!?<end>"

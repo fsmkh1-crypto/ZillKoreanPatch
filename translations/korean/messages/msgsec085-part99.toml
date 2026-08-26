@@ -4,6 +4,10 @@
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
 
+["850003"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
 ["850020"]
 japanese = "そうだ！<end>"
 korean = "맞아!<end>"
@@ -16,9 +20,21 @@ korean = "죽여!<end>"
 japanese = "断る<end>"
 korean = "거절한다<end>"
 
+["850039"]
+japanese = "どうかしら？<end>"
+korean = "어때?<end>"
+
 ["850040"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
+
+["850041"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
+["850043"]
+japanese = "これは前金。<end>"
+korean = "이건 선금이야.<end>"
 
 ["850045"]
 japanese = "じゃあね。<end>"
@@ -28,9 +44,21 @@ korean = "그럼 안녕.<end>"
 japanese = "邪魔しない<end>"
 korean = "방해하지 않는다<end>"
 
+["850055"]
+japanese = "き、君は…？<end>"
+korean = "너, 너는…?<end>"
+
+["850058"]
+japanese = "く、くそっ！<end>"
+korean = "제, 젠장!<end>"
+
 ["850083"]
 japanese = "お父様？<end>"
 korean = "아버님?<end>"
+
+["850084"]
+japanese = "き、君は…？<end>"
+korean = "너, 너는…?<end>"
 
 ["850085"]
 japanese = "お父様？<end>"

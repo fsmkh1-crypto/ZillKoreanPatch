@@ -4,6 +4,10 @@
 japanese = "まぁね<end>"
 korean = "뭐, 그렇지<end>"
 
+["880038"]
+japanese = "よくわかるよ<end>"
+korean = "잘 알아<end>"
+
 ["880082"]
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
@@ -20,6 +24,10 @@ korean = "으~음…<end>"
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
 
+["880148"]
+japanese = "あ、動ける！<end>"
+korean = "아, 움직여져!<end>"
+
 ["880167"]
 japanese = "はい<end>"
 korean = "네<end>"
@@ -28,6 +36,10 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["880184"]
+japanese = "こんにちは。<end>"
+korean = "안녕하세요.<end>"
+
 ["880193"]
 japanese = "殺れ。<end>"
 korean = "죽여.<end>"
@@ -35,3 +47,7 @@ korean = "죽여.<end>"
 ["880226"]
 japanese = "ホント！？<end>"
 korean = "정말!?<end>"
+
+["880250"]
+japanese = "ガラじゃない<end>"
+korean = "내 스타일이 아냐<end>"

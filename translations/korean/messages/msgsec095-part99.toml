@@ -4,6 +4,10 @@
 japanese = "放っておく<end>"
 korean = "내버려 둔다<end>"
 
+["950015"]
+japanese = "声をかけない<end>"
+korean = "말을 걸지 않는다<end>"
+
 ["950016"]
 japanese = "はぁ～？<end>"
 korean = "하아~?<end>"
@@ -11,3 +15,7 @@ korean = "하아~?<end>"
 ["950041"]
 japanese = "キャー！<end>"
 korean = "꺄악!<end>"
+
+["950051"]
+japanese = "…待つがよい<end>"
+korean = "…기다리거라<end>"

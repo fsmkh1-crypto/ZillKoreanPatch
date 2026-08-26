@@ -56,6 +56,10 @@ korean = "로이….<end>"
 japanese = "ああ！<end>"
 korean = "아아!<end>"
 
+["1410327"]
+japanese = "<value:$28>様！<end>"
+korean = "<value:$28>님!<end>"
+
 ["1410344"]
 japanese = "えっ？<end>"
 korean = "어?<end>"
