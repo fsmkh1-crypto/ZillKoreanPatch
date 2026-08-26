@@ -496,6 +496,10 @@ korean = "해냈구나, <value:$28>….<end>"
 japanese = "…冒険者？<end>"
 korean = "…모험가?<end>"
 
+["1340322"]
+japanese = "いいぞ、ノエル～！<line-break>あんたなら、できる！<end>"
+korean = "좋아, 노엘~! 너라면 할 수 있어!<end>"
+
 ["1340335"]
 japanese = "ち、力を、使いすぎた、か…！<end>"
 korean = "히, 힘을 너무 많이 썼나…!<end>"
@@ -516,9 +520,17 @@ korean = "검이… 천동지명을 뽑을 수 있어!<end>"
 japanese = "勇者だ！　勇者の再臨だ！<end>"
 korean = "용사다! 용사의 재림이다!<end>"
 
+["1340343"]
+japanese = "つ、ついに<line-break>剣が抜けるときが訪れたか…。<end>"
+korean = "드, 드디어 검을 뽑을 때가 온 건가….<end>"
+
 ["1340346"]
 japanese = "勇者だ！　勇者の再臨だ！<end>"
 korean = "용사다! 용사의 재림이다!<end>"
+
+["1340347"]
+japanese = "つ、ついに<line-break>剣が抜けるときが訪れたか…。<end>"
+korean = "드, 드디어 검을 뽑을 때가 온 건가….<end>"
 
 ["1340354"]
 japanese = "しかたがない…<end>"

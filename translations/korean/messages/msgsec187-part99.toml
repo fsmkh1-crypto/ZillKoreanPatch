@@ -40,6 +40,10 @@ korean = "…부탁드립니다. 모두의 목숨을….<end>"
 japanese = "今、なんて…？<end>"
 korean = "방금 뭐라고…?<end>"
 
+["1870022"]
+japanese = "え？　え！？<line-break>…それは、どうすれば…？<end>"
+korean = "어? 어!? …그건 어떻게 하면 돼…?<end>"
+
 ["1870024"]
 japanese = "竜王様に…願う…？<end>"
 korean = "용왕님께… 소원을…?<end>"
@@ -51,6 +55,10 @@ korean = "이, 이 목소리는…!<end>"
 ["1870031"]
 japanese = "…竜王様だ。<end>"
 korean = "…용왕님이다.<end>"
+
+["1870037"]
+japanese = "　　　　　　　　その言葉、　　　　　　　　　<line-break>　　　　　　　偽りはないか？<line-break>　<line-break>　<end>"
+korean = "그 말에 거짓은 없느냐?<end>"
 
 ["1870039"]
 japanese = "ノエル！<end>"
