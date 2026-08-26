@@ -1,12 +1,36 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["350000"]
+japanese = "エンシャント：城門前<end>"
+korean = "엔션트: 성문 앞<end>"
+
 ["350006"]
 japanese = "エンシャント：広場<end>"
 korean = "엔션트: 광장<end>"
 
+["350007"]
+japanese = "エンシャント：繁華街<end>"
+korean = "엔션트: 번화가<end>"
+
+["350011"]
+japanese = "エンシャント：鍛冶屋<end>"
+korean = "엔션트: 대장간<end>"
+
+["350012"]
+japanese = "エンシャント：道具屋<end>"
+korean = "엔션트: 도구점<end>"
+
 ["350014"]
 japanese = "エンシャント：酒場<end>"
 korean = "엔션트: 술집<end>"
+
+["350018"]
+japanese = "エンシャント：神殿前<end>"
+korean = "엔션트: 신전 앞<end>"
+
+["350019"]
+japanese = "エンシャント：神殿内<end>"
+korean = "엔션트: 신전 안<end>"
 
 ["350024"]
 japanese = "エンシャント：港<end>"

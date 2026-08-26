@@ -1520,13 +1520,29 @@ korean = "로이 정체 정보<end>"
 japanese = "宿屋の女の子　登場<end>"
 korean = "여관 소녀 등장<end>"
 
+["1970988"]
+japanese = "ユーリス懇願　発生<end>"
+korean = "유리스 간청 발생<end>"
+
 ["1970990"]
 japanese = "マノン　情報<end>"
 korean = "마논 정보<end>"
 
+["1970993"]
+japanese = "ユーリス開眼　発生<end>"
+korean = "유리스 각성 발생<end>"
+
 ["1970995"]
 japanese = "ストラ取得　許可<end>"
 korean = "스트라 취득 허가<end>"
+
+["1970996"]
+japanese = "七つの絵説明　発生<end>"
+korean = "일곱 그림 설명 발생<end>"
+
+["1971001"]
+japanese = "宿屋処理復帰　発生<end>"
+korean = "여관 처리 복귀 발생<end>"
 
 ["1971002"]
 japanese = "賢者の森　出現<end>"
@@ -1580,6 +1596,10 @@ korean = "용골 사막 출현<end>"
 japanese = "邪竜の断層　出現<end>"
 korean = "사룡의 단층 출현<end>"
 
+["1971018"]
+japanese = "リューンの森　出現<end>"
+korean = "류운의 숲 출현<end>"
+
 ["1971019"]
 japanese = "火山岩地帯　出現<end>"
 korean = "화산암 지대 출현<end>"
@@ -1587,6 +1607,10 @@ korean = "화산암 지대 출현<end>"
 ["1971020"]
 japanese = "地下墓地　出現<end>"
 korean = "지하 묘지 출현<end>"
+
+["1971021"]
+japanese = "聖光石の鉱山　出現<end>"
+korean = "성광석 광산 출현<end>"
 
 ["1971022"]
 japanese = "アハブ　出現<end>"
@@ -1620,6 +1644,10 @@ korean = "라미리산 출현<end>"
 japanese = "風の荒野　出現<end>"
 korean = "바람의 황야 출현<end>"
 
+["1971031"]
+japanese = "風泣きの洞窟　出現<end>"
+korean = "바람우는 동굴 출현<end>"
+
 ["1971032"]
 japanese = "紺碧の洞窟　出現<end>"
 korean = "감청빛 동굴 출현<end>"
@@ -1632,6 +1660,18 @@ korean = "영봉 토르 출현<end>"
 japanese = "静寂の洞窟　出現<end>"
 korean = "정적의 동굴 출현<end>"
 
+["1971035"]
+japanese = "ツィーネの森　出現<end>"
+korean = "치네의 숲 출현<end>"
+
+["1971036"]
+japanese = "シェーヌの森　出現<end>"
+korean = "셰느의 숲 출현<end>"
+
+["1971037"]
+japanese = "ミューンの森　出現<end>"
+korean = "뮤운의 숲 출현<end>"
+
 ["1971038"]
 japanese = "幻惑の洞窟　出現<end>"
 korean = "환혹의 동굴 출현<end>"
@@ -1643,6 +1683,18 @@ korean = "마도의 탑 출현<end>"
 ["1971040"]
 japanese = "廃城　出現<end>"
 korean = "폐성 출현<end>"
+
+["1971041"]
+japanese = "北の地下街道　出現<end>"
+korean = "북쪽 지하도로 출현<end>"
+
+["1971042"]
+japanese = "南の地下街道　出現<end>"
+korean = "남쪽 지하도로 출현<end>"
+
+["1971043"]
+japanese = "西の地下街道　出現<end>"
+korean = "서쪽 지하도로 출현<end>"
 
 ["1971044"]
 japanese = "古城　出現<end>"
@@ -1668,6 +1720,10 @@ korean = "도둑 마을 출현<end>"
 japanese = "ジラーク軍野営地<end>"
 korean = "지라크군 야영지<end>"
 
+["1971057"]
+japanese = "埋蔵金の洞窟　出現<end>"
+korean = "매장금 동굴 출현<end>"
+
 ["1971058"]
 japanese = "邪眼の迷宮　出現<end>"
 korean = "사안의 미궁 출현<end>"
@@ -1676,9 +1732,49 @@ korean = "사안의 미궁 출현<end>"
 japanese = "銀竜の住処　出現<end>"
 korean = "은룡의 거처 출현<end>"
 
+["1971084"]
+japanese = "ティラの娘１　死亡<end>"
+korean = "티라의 딸 1 사망<end>"
+
+["1971085"]
+japanese = "ティラの娘２　死亡<end>"
+korean = "티라의 딸 2 사망<end>"
+
+["1971086"]
+japanese = "ティラの娘３　死亡<end>"
+korean = "티라의 딸 3 사망<end>"
+
+["1971087"]
+japanese = "ティラの娘４　死亡<end>"
+korean = "티라의 딸 4 사망<end>"
+
+["1971088"]
+japanese = "ティラの娘５　死亡<end>"
+korean = "티라의 딸 5 사망<end>"
+
+["1971089"]
+japanese = "ティラの娘６　死亡<end>"
+korean = "티라의 딸 6 사망<end>"
+
+["1971090"]
+japanese = "ティラの娘７　死亡<end>"
+korean = "티라의 딸 7 사망<end>"
+
+["1971098"]
+japanese = "スラムの青年　情報<end>"
+korean = "슬럼가 청년 정보<end>"
+
 ["1971099"]
 japanese = "ティラ復活　準備<end>"
 korean = "티라 부활 준비<end>"
+
+["1971106"]
+japanese = "テラネの奇跡　発生<end>"
+korean = "테라네의 기적 발생<end>"
+
+["1971107"]
+japanese = "エルズの奇跡　発生<end>"
+korean = "엘즈의 기적 발생<end>"
 
 ["1971111"]
 japanese = "時間切れ　発生<end>"
