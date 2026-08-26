@@ -86,6 +86,7 @@ func FullRepackAuthenticatedRetailFont(atlasMember, pafMember []byte, mapping ko
 		byKey[key] = r
 	}
 
+	matchedCustom := make(map[rune]struct{}, len(mapping))
 	entries := make([]fullRepackEntry, 0, len(paf.Glyphs))
 	for _, original := range paf.Glyphs {
 		glyph := original
@@ -107,6 +108,7 @@ func FullRepackAuthenticatedRetailFont(atlasMember, pafMember []byte, mapping ko
 			glyph.BearingX = KoreanTargetBearingX
 			glyph.BearingY = KoreanTargetBearingY
 			glyph.Advance = KoreanTargetAdvance
+			matchedCustom[r] = struct{}{}
 		} else {
 			raster, err = ExtractAtlasCell(atlasMember, original)
 			if err != nil {
@@ -119,6 +121,16 @@ func FullRepackAuthenticatedRetailFont(atlasMember, pafMember []byte, mapping ko
 			bh = (int(glyph.Height) + repackUnit - 1) / repackUnit
 		}
 		entries = append(entries, fullRepackEntry{glyph: glyph, raster: raster, bw: bw, bh: bh})
+	}
+	if len(matchedCustom) != len(mapping) {
+		missing := make([]rune, 0, len(mapping)-len(matchedCustom))
+		for r := range mapping {
+			if _, ok := matchedCustom[r]; !ok {
+				missing = append(missing, r)
+			}
+		}
+		sort.Slice(missing, func(i, j int) bool { return missing[i] < missing[j] })
+		return nil, nil, fmt.Errorf("full Korean repack matched %d/%d custom mappings to installed PAF keys; missing runes: %U", len(matchedCustom), len(mapping), missing)
 	}
 
 	// Pack larger block rectangles first. A 16-pixel allocation grid keeps every
