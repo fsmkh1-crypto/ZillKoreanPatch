@@ -15,6 +15,7 @@ import re
 import tomllib
 
 from control_tags import RUNTIME_CONTROL_RE, runtime_tokens
+from source_markers import is_synthetic_source
 
 ROOT = Path(__file__).resolve().parents[2]
 CANON = ROOT / "translations" / "messages"
@@ -78,6 +79,8 @@ def numeric_id_key(rid: str) -> tuple[int, str]:
 
 
 def visible_source_text(text: str) -> str:
+    if is_synthetic_source(text):
+        return ""
     rest = RUNTIME_CONTROL_RE.sub("", text)
     return COND_RE.sub("", rest).strip()
 
