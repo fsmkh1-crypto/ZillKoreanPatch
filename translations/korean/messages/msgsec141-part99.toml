@@ -584,6 +584,10 @@ korean = "네. 힘든 여행이 될 거라는 건 알고 있습니다. 그래도
 japanese = "<value:$28>様とならば、<line-break>見つかる気がするのです。<line-break>忘れてきた心の破片が…。<end>"
 korean = "<value:$28>님과 함께라면 찾을 수 있을 것 같아요. 잃어버린 마음의 조각을….<end>"
 
+["1410339"]
+japanese = "退屈しない旅になりそうですねえ、<line-break><value:$28>？<end>"
+korean = "심심하지 않은 여행이 되겠네요, <value:$28>?<end>"
+
 ["1410341"]
 japanese = "今さら、わかりきったことでしたね。<end>"
 korean = "이제 와선 너무 당연한 일이었네요.<end>"
@@ -591,6 +595,10 @@ korean = "이제 와선 너무 당연한 일이었네요.<end>"
 ["1410342"]
 japanese = "さあ、ではお行きなさい。<line-break>忘却のかなたへ。<end>"
 korean = "자, 그럼 가세요. 망각의 저편으로.<end>"
+
+["1410343"]
+japanese = "お嬢さん方、<line-break><value:$28>はもう出発しましたよ？<end>"
+korean = "아가씨들, <value:$28>은 벌써 출발했습니다만?<end>"
 
 ["1410344"]
 japanese = "えっ？<end>"
@@ -667,6 +675,10 @@ korean = "<value:$28>님, 기다리고 있었습니다.<end>"
 ["1410374"]
 japanese = "どうしても<value:$28>様に、<line-break>お話ししておきたいことがあったのです。<line-break>旅立ちの前に…。<end>"
 korean = "꼭 <value:$28>님께 말씀드리고 싶은 게 있었습니다. 떠나시기 전에….<end>"
+
+["1410380"]
+japanese = "ごめんなさい、<line-break>自分でもわからないんです…。<line-break> <line-break>あの時っていつなのか…。<line-break>心のカケラって、何なのか…。<end>"
+korean = "미안해요, 저도 잘 모르겠어요…. 그때가 언제인지…, 마음의 조각이 무엇인지….<end>"
 
 ["1410382"]
 japanese = "えっ…。<line-break>手伝って…くれるのですか？<end>"
@@ -920,6 +932,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410502"]
+japanese = "いつもながら<line-break><value:$28>の手際は見事じゃのぉ。<end>"
+korean = "언제 봐도 <value:$28>의 솜씨는 훌륭하구먼.<end>"
+
 ["1410503"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"
@@ -927,6 +943,10 @@ korean = "호호호호, 그렇군요~.<end>"
 ["1410506"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"
+
+["1410509"]
+japanese = "<value:$28>が聞きたいのなら、<line-break>仕方がないのぉ。<end>"
+korean = "<value:$28>이 듣고 싶다면 어쩔 수 없구먼.<end>"
 
 ["1410510"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"

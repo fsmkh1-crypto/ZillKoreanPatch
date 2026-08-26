@@ -4,6 +4,10 @@
 japanese = "クリュセイスメッセージＶ３－１用開始<end>"
 korean = "크류세이스 메시지 V3-1용 시작<end>"
 
+["1040001"]
+japanese = "<value:$28>様ですね。<line-break>どうぞ、お通りください。<end>"
+korean = "<value:$28>님이시군요. 들어가십시오.<end>"
+
 ["1040006"]
 japanese = "お安いご用<end>"
 korean = "식은 죽 먹기지<end>"

@@ -8,6 +8,10 @@ korean = "현무장군이 직접 지명한 의뢰!? 그건 기회야! 당연히 
 japanese = "ディンガルの内務統括殿とはいろいろと<line-break>あってな、ワシは参加できん。<line-break>すまぬな、<value:$28>。<end>"
 korean = "딩갈의 내무 총괄과는 여러 일이있어서, 나는 참가할 수 없다.미안하군, <value:$28>.<end>"
 
+["1250008"]
+japanese = "ザギヴさんがあなたにお手紙を？<line-break>ほう、それはそれは…。<line-break><line-break>彼女の力になってあげてくださいね。<line-break><value:$28>。<end>"
+korean = "자기브 씨가 당신에게 편지를요? 오, 그건…. 그녀에게 힘이 되어 주세요, <value:$28>.<end>"
+
 ["1250020"]
 japanese = "………………。<line-break><line-break><line-break>エンシャントの政庁へ行け。<end>"
 korean = "………………. 엔샨트 정청으로 가라.<end>"

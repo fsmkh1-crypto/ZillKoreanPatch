@@ -644,6 +644,10 @@ korean = "여, 여기서 기다리고 있으면…<end>"
 japanese = "<value:$28>様が<line-break>お通りになるのですね。<end>"
 korean = "<value:$28>님이 지나가시는군요.<end>"
 
+["1420335"]
+japanese = "まっ、待ち伏せだなんて、<line-break>人聞きの悪い。<line-break> <line-break>アタクシを、そんな悪事の巻きぞえに<line-break>しないでくれるかしら？<end>"
+korean = "매, 매복이라니 듣기 거북하네요. 저를 그런 나쁜 일에 끌어들이지 말아 주실래요?<end>"
+
 ["1420337"]
 japanese = "しっ、誰か来そうよ！<end>"
 korean = "쉿, 누가 올 것 같아!<end>"
@@ -1267,6 +1271,10 @@ korean = "여, 여기서 기다리고 있으면…<end>"
 ["1420605"]
 japanese = "<value:$28>様がお通りになるのですね。<end>"
 korean = "<value:$28> 님이 지나가시는군요.<end>"
+
+["1420609"]
+japanese = "まっ、待ち伏せだなんて、<line-break>人聞きの悪い。<line-break> <line-break>アタクシを、そんな悪事の巻きぞえに<line-break>しないでくれるかしら？<end>"
+korean = "매, 매복이라니 듣기 거북하네요. 저를 그런 나쁜 일에 끌어들이지 말아 주실래요?<end>"
 
 ["1420611"]
 japanese = "しっ、誰か来そうよ！<end>"

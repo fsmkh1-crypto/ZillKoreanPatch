@@ -32,6 +32,10 @@ korean = "긴 여정이지만 잘 부탁드립니다.<end>"
 japanese = "あなたがたは…、<line-break>助けに来てくれたのですね。<line-break><line-break>わたしを近くの街まで<line-break>連れて帰ってください。<end>"
 korean = "여러분은… 구하러 와 주셨군요. 저를 가까운 도시까지 데려다 주세요.<end>"
 
+["1290014"]
+japanese = "よお、<value:$28>。<line-break>ちょうどいいところに来てくれた。<line-break><line-break>実はな、お前さんを見込んで<line-break>ひとつ頼みがあるんだ。<end>"
+korean = "여어, <value:$28>. 마침 잘 왔어. 사실 자네를 믿고 부탁 하나 하려던 참이야.<end>"
+
 ["1290017"]
 japanese = "どうだ、やってくれるかい？<end>"
 korean = "어때, 해주겠어?<end>"

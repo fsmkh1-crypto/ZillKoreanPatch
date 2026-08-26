@@ -872,6 +872,10 @@ korean = "<value:$28>님… 잠시만 혼자 있게 해 주세요.<end>"
 japanese = "<value:$28>様？<end>"
 korean = "<value:$28>님?<end>"
 
+["1340471"]
+japanese = "<value:$28>様。<line-break>ようこそ、いらっしゃいました。<end>"
+korean = "<value:$28>님. 어서 오십시오.<end>"
+
 ["1340472"]
 japanese = "ふふふ。<line-break>私がここにいるのが不思議ですか？<end>"
 korean = "후후후. 제가 여기 있는 게 이상한가요?<end>"
