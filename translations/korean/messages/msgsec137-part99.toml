@@ -772,6 +772,14 @@ korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
 
+["1370676"]
+japanese = "　　　　　　　　　留守中。すぐに戻ります。　　　<end>"
+korean = "부재중. 곧 돌아옵니다.<end>"
+
+["1370677"]
+japanese = "　　　　　　　　　留守中。すぐに戻ります。　　　<end>"
+korean = "부재중. 곧 돌아옵니다.<end>"
+
 ["1370680"]
 japanese = "<value:$28>さん、<line-break>どうして宿屋さんに？<line-break>まだ用事は済んでいませんよ。<end>"
 korean = "<value:$28> 씨, 왜 여관에? 아직 용무가 끝나지 않았어요.<end>"
