@@ -88,6 +88,10 @@ korean = "…아저씨, 미안하지만 목숨을 받겠다.<end>"
 japanese = "…ロストールの兵の<line-break>命がかかってるんでね。<end>"
 korean = "…로스토올 병사들의 목숨이 걸려 있어서 말이지.<end>"
 
+["1630063"]
+japanese = "はい、そうですかと<line-break>くれてやるわけにはいかんな。<line-break>　<line-break>こっちも<line-break>ディンガルの兵の命が<line-break>かかっておるのでな！<end>"
+korean = "네, 그렇습니까 하고 순순히 내줄 수는 없지. 이쪽도 딘갈 병사들의 목숨이 걸려 있으니까!<end>"
+
 ["1630065"]
 japanese = "あばよ、とっつぁん、<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"
 korean = "잘 있어, 아저씨, 그리고 <value:$28>! 살아서 다시 만나자!<end>"

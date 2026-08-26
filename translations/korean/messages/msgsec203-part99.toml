@@ -4,6 +4,10 @@
 japanese = "PSP用不良少年オルファウスイベント04用<end>"
 korean = "PSP용 불량소년 오르파우스 이벤트04용<end>"
 
+["2030004"]
+japanese = "しかも怒鳴ろうが殴ろうが<line-break>まったく起きやしねえ。<line-break>　<line-break>あれだけ根性入れて眠ってたのは<line-break>天界でもお前だけだろうよ。<end>"
+korean = "게다가 소리쳐도 때려도 전혀 일어나질 않더군. 그렇게 근성 있게 자는 놈은 천계에서도 너뿐일 거다.<end>"
+
 ["2030008"]
 japanese = "ねえ、<value:$28>？<end>"
 korean = "있잖아, <value:$28>?<end>"

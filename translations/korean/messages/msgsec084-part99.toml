@@ -160,6 +160,10 @@ korean = "최악이야! 이런 악취미!<end>"
 japanese = "…だんだん暗闇に目が<line-break>慣れてきたわね。<line-break>　<line-break>やーだなー。<line-break>見たくないものが<line-break>見えちゃったりするわけ？<end>"
 korean = "…점점 어둠에 눈이 익숙해지네. 싫다~. 보고 싶지 않은 게 보이기라도 하는 거야?<end>"
 
+["840081"]
+japanese = "…お互い甘ちゃんだよね～。<line-break>　<line-break>　<line-break>あたしを止めたあんた…。<line-break>あんたを倒してでも<line-break>奴を殺さなかったあたし…。<end>"
+korean = "…우리 둘 다 물러터졌네~. 나를 말린 너…. 너를 쓰러뜨려서라도 그 녀석을 죽이지 못한 나….<end>"
+
 ["840085"]
 japanese = "<value:$28>、大丈夫！？<end>"
 korean = "<value:$28>, 괜찮아!?<end>"
@@ -435,6 +439,10 @@ korean = "그렇게 비싼 보석을 용케 가지고 있었네요.<end>"
 ["840200"]
 japanese = "そんな大切なものを…！<end>"
 korean = "그렇게 소중한 걸…!<end>"
+
+["840201"]
+japanese = "ああ、いーのいーの。<line-break>宝石なんかなくても<line-break>思い出は残るから。<line-break>でも、あの娘には<line-break>あれが必要だった。<line-break>…違う？<end>"
+korean = "아, 괜찮아 괜찮아. 보석이 없어도 추억은 남으니까. 하지만 그 아이에게는 그게 필요했어. …아니야?<end>"
 
 ["840202"]
 japanese = "あなた、<line-break>アイリーンちゃんだっけ？<end>"

@@ -104,6 +104,10 @@ korean = "이건 선금이야.<end>"
 japanese = "じゃあね。<end>"
 korean = "그럼 안녕.<end>"
 
+["850046"]
+japanese = "残念だわ…。それじゃ、<line-break>ここでアタシに約束してくれるかしら？<line-break>　<line-break>アタシがあの武器商人を殺すのを<line-break>邪魔しないって。<end>"
+korean = "아쉽네…. 그럼 여기서 나한테 약속해 줄래? 내가 그 무기상인을 죽이는 걸 방해하지 않겠다고.<end>"
+
 ["850047"]
 japanese = "邪魔しない<end>"
 korean = "방해하지 않는다<end>"

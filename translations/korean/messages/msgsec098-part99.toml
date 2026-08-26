@@ -80,6 +80,10 @@ korean = "<value:$28>잖아. 어때? 잘 지내고 있어?<end>"
 japanese = "そう…。私も負けてられないわね。<end>"
 korean = "그래…. 나도 질 수만은 없겠네.<end>"
 
+["980080"]
+japanese = "なによ。っるさいわねー。<line-break>お酒なんか飲んでないわよ。<line-break>　<line-break>もう、余計なところで<line-break>干渉しないでよ。<line-break>なんか用？<end>"
+korean = "뭐야, 시끄럽네. 술 같은 거 안 마셨어. 정말 쓸데없는 데서 간섭하지 마. 무슨 일이야?<end>"
+
 ["980082"]
 japanese = "す・わ・り・な・さ・い！<end>"
 korean = "앉·으·세·요!<end>"
@@ -155,6 +159,10 @@ korean = "미사용입니다: 아니오<end>"
 ["980133"]
 japanese = "<value:$28>…。<line-break>おかえりなさい。<end>"
 korean = "<value:$28>…. 어서 와요.<end>"
+
+["980153"]
+japanese = "アイリーンは<line-break>少し気が強いところがありますが　<line-break>あれで、やさしい娘なんです。<line-break>娘のこと、<line-break>よろしくお願いしますね。<end>"
+korean = "아이린은 조금 기가 센 구석이 있지만 그래도 상냥한 아이예요. 제 딸을 잘 부탁드립니다.<end>"
 
 ["980181"]
 japanese = "でも、やっぱり<value:$28>さんは<line-break><value:$28>さんでした。<line-break>私、うれしいです。<end>"

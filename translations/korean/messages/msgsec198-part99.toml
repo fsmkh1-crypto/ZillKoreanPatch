@@ -24,6 +24,10 @@ korean = "사양한다<end>"
 japanese = "ごちそうになろうかな<end>"
 korean = "얻어먹을까.<end>"
 
+["1980011"]
+japanese = "ありがとうございます。<line-break>今すぐお持ちしますね！<end>"
+korean = "감사합니다. 지금 바로 가져올게요!<end>"
+
 ["1980013"]
 japanese = "ど、どうしたんです？<line-break><value:$28>さん…。<line-break>まさか、お口に合いませんか？<end>"
 korean = "무, 무슨 일이세요? <value:$28>님…. 혹시 입맛에 안 맞으셨나요?<end>"
@@ -351,6 +355,10 @@ korean = "그 마도기… 찾을 수 있으면 좋겠네요, <value:$28>.<end>"
 ["1980224"]
 japanese = "どうしよう…。<line-break>何とかして<value:$28>さんに<line-break>あきらめてもらわないと…。<end>"
 korean = "어쩌지…. 어떻게든 <value:$28> 씨가 포기하게 해야 해….<end>"
+
+["1980230"]
+japanese = "で、でもよく考えてみると<line-break>変な話ですよね？<line-break>　<line-break>昔から仲の悪いエルフとドワーフが<line-break>協力して作った魔道器なんて…。<end>"
+korean = "그, 그런데 잘 생각해 보면 이상한 이야기죠? 예전부터 사이가 나쁜 엘프와 드워프가 협력해서 만든 마도기라니….<end>"
 
 ["1980232"]
 japanese = "そ、そうですか…。<end>"

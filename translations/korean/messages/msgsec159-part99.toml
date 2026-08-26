@@ -68,6 +68,10 @@ korean = "운명에 선택받은 자?<end>"
 japanese = "ホントにいいんですか？<end>"
 korean = "정말 괜찮겠어요?<end>"
 
+["1590053"]
+japanese = "わーい！　それじゃあ、<line-break>よろしくお願いします。<end>"
+korean = "와아! 그럼 잘 부탁드립니다.<end>"
+
 ["1590054"]
 japanese = "どうぞ。歓迎しますよ。<end>"
 korean = "어서 오세요. 환영합니다.<end>"
@@ -247,6 +251,10 @@ korean = "네~!<end>"
 ["1590154"]
 japanese = "だいぶ、遅くなっちゃったね。　　<end>"
 korean = "꽤 늦어졌네.<end>"
+
+["1590156"]
+japanese = "おや、おや、<line-break>こんな時間に女の子が来るなんて。<end>"
+korean = "어머, 어머. 이런 시간에 여자아이가 오다니.<end>"
 
 ["1590157"]
 japanese = "？　無限のソウルを持つ者…。<end>"
