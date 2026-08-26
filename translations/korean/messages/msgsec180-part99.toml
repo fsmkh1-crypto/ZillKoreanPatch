@@ -184,6 +184,10 @@ korean = "호출<end>"
 japanese = "よび<end>"
 korean = "호출<end>"
 
+["1800148"]
+japanese = "ともかく、<value:$28>。<line-break>あんたのおかげで、<line-break>助かったわ。ありがと。　　<end>"
+korean = "아무튼, <value:$28>. 네 덕분에 살았어. 고마워.<end>"
+
 ["1800150"]
 japanese = "待って、<value:$28>。<end>"
 korean = "기다려, <value:$28>.<end>"

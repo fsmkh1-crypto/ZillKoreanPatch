@@ -12,6 +12,10 @@ korean = "가!<end>"
 japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
 korean = "봐, 왔어. <value:$28>가.<end>"
 
+["1900026"]
+japanese = "さて、わしの運命の幕を<line-break>降ろしてもらおうか。<line-break>　<line-break>…ネメアよ。<end>"
+korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
+
 ["1900027"]
 japanese = "ふっふ、久しいな。<end>"
 korean = "후후, 오랜만이군.<end>"
@@ -19,6 +23,10 @@ korean = "후후, 오랜만이군.<end>"
 ["1900040"]
 japanese = "ザギヴめ…。<line-break>闇を退けおったか！<end>"
 korean = "자기브 녀석…. 어둠을 물리친 건가!<end>"
+
+["1900045"]
+japanese = "さて、わしの運命の幕を<line-break>降ろしてもらおうか。<line-break>　<line-break>…ネメアよ。<end>"
+korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
 
 ["1900048"]
 japanese = "ふっふ、久しいな。<end>"

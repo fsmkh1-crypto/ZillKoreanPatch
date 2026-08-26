@@ -68,6 +68,10 @@ korean = "괜찮아? 오빠.<end>"
 japanese = "ごめんなさい<line-break>私のせいで…。<end>"
 korean = "미안해. 나 때문에….<end>"
 
+["1360095"]
+japanese = "…ヴァイ、<line-break>なんで…泣いてるの？<end>"
+korean = "…바이, 왜… 울고 있어?<end>"
+
 ["1360096"]
 japanese = "わからないの。<end>"
 korean = "모르겠어.<end>"
@@ -99,6 +103,10 @@ korean = "간다!<end>"
 ["1360123"]
 japanese = "そんなことはできん！<end>"
 korean = "그럴 수는 없다!<end>"
+
+["1360126"]
+japanese = "できん！<line-break>そんなことはできん！！<end>"
+korean = "못 해! 그런 건 못 한다!!<end>"
 
 ["1360128"]
 japanese = "勝った事にする<end>"
@@ -396,6 +404,10 @@ korean = "…이건 네가 맡아 줘.<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1360374"]
+japanese = "私に…<line-break>いえ…何でもありません。<end>"
+korean = "저에게… 아니… 아무것도 아닙니다.<end>"
+
 ["1360376"]
 japanese = "私の命のため？<line-break>無価値な、私の命の…？<line-break> <line-break>………………。<end>"
 korean = "내 목숨 때문에? 가치 없는, 내 목숨을…? ……………….<end>"
@@ -491,6 +503,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1360500"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1360505"]
+japanese = "そうだろう…<line-break>アスティアの子よ？<end>"
+korean = "그렇겠지… 아스티아의 아이여?<end>"
 
 ["1360509"]
 japanese = "追加メッセージここから<end>"

@@ -16,6 +16,10 @@ korean = "그런 건 싫어! 싫다고!<end>"
 japanese = "ネメアは死んではいませんよ。<end>"
 korean = "네메아는 죽지 않았습니다.<end>"
 
+["1810009"]
+japanese = "え？　だって…<line-break><value:$28>も兄さんが<line-break>次元のはざまに落とされたって…。<end>"
+korean = "어? 하지만… <value:$28>도 형이 차원의 틈으로 떨어졌다고….<end>"
+
 ["1810012"]
 japanese = "…本当に？<end>"
 korean = "…정말로?<end>"

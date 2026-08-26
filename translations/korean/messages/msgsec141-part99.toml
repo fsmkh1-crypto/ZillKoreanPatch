@@ -60,6 +60,10 @@ korean = "기다려! 기다려 주세요!<end>"
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
 
+["1410058"]
+japanese = "…いや、それは、あなたが一番よく<line-break>知っていることですね、<line-break><value:$28>？<end>"
+korean = "…아니, 그건 당신이 가장 잘 알고 있는 일이겠군요, <value:$28>?<end>"
+
 ["1410060"]
 japanese = "<value:$28>、そろそろだ。<end>"
 korean = "<value:$28>, 슬슬 때가 됐다.<end>"
@@ -251,6 +255,10 @@ korean = "게다가… 그 여행 복장은 뭐야?<end>"
 ["1410242"]
 japanese = "わたくしも行きます。<end>"
 korean = "저도 가겠습니다.<end>"
+
+["1410243"]
+japanese = "そう言われるだろうと思ってたわ。<line-break>でもね、思い出して、<line-break><value:$28>…。<end>"
+korean = "그렇게 말할 줄 알았어. 하지만 기억해 봐, <value:$28>….<end>"
 
 ["1410247"]
 japanese = "…一緒に…来てくれない？<end>"

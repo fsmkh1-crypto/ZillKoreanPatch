@@ -360,6 +360,10 @@ korean = "으, 응….<end>"
 japanese = "カフィン？<end>"
 korean = "카핀?<end>"
 
+["1340277"]
+japanese = "ナーシェスが危ない！<line-break>行くわよ！<end>"
+korean = "나셰스가 위험해! 가자!<end>"
+
 ["1340278"]
 japanese = "あ、待って！<end>"
 korean = "아, 기다려!<end>"
@@ -560,6 +564,10 @@ korean = "<value:$28>은 타르테ュ바에게 생명의 조각을 주었다.<en
 japanese = "…待て。<end>"
 korean = "…기다려.<end>"
 
+["1340442"]
+japanese = "…俺みたいな奴を<line-break>なぜ、助ける？<end>"
+korean = "…나 같은 놈을 왜 돕는 거지?<end>"
+
 ["1340448"]
 japanese = "そんなこと…。<end>"
 korean = "그럴 수가….<end>"
@@ -656,6 +664,10 @@ korean = "<value:$28>은 타르테ュ바에게 생명의 조각을 주었다.<en
 japanese = "…待て。<end>"
 korean = "…기다려.<end>"
 
+["1340542"]
+japanese = "…俺みたいな奴を<line-break>なぜ、助ける？<end>"
+korean = "…나 같은 놈을 왜 돕는 거지?<end>"
+
 ["1340548"]
 japanese = "いいえ、そんなことはありません！<end>"
 korean = "아니요, 그렇지 않습니다!<end>"
@@ -731,6 +743,10 @@ korean = "무사히 탈출할 수 있을 것 같네요.<end>"
 ["1340626"]
 japanese = "し、死んだ？<end>"
 korean = "주, 죽었어?<end>"
+
+["1340631"]
+japanese = "なんですって？<line-break>ゼネテス様まで？<end>"
+korean = "뭐라고요? 제네테스 님까지?<end>"
 
 ["1340634"]
 japanese = "<value:$28>様！<end>"

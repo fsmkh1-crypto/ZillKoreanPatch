@@ -52,6 +52,10 @@ korean = "그렇구나.<end>"
 japanese = "うん、ありがとぉ！<end>"
 korean = "응, 고마워어!<end>"
 
+["1860054"]
+japanese = "それじゃ、<value:$28>。<line-break>はやく戻ろうよ。<line-break>フリントさんが心配するよぉ。<end>"
+korean = "그럼 <value:$28>. 빨리 돌아가자. 플린트 씨가 걱정할 거야.<end>"
+
 ["1860064"]
 japanese = "フリントさん、ただいまー。<end>"
 korean = "플린트 씨, 다녀왔어요.<end>"
@@ -83,6 +87,10 @@ korean = "플린트의 단검을 손에 넣었다.<end>"
 ["1860092"]
 japanese = "あぁ、ビックリしたぁ。<end>"
 korean = "아아, 깜짝 놀랐네.<end>"
+
+["1860114"]
+japanese = "！！！！！！　　<line-break>　<line-break>　<line-break>そ、そんな…<line-break>フリントさぁん！<end>"
+korean = "!!!!!! 그, 그럴 수가… 플린트 씨이!<end>"
 
 ["1860118"]
 japanese = "<value:$28>…、　　　　　　<line-break>ルルアンタ…、<line-break>無事か…？<end>"
