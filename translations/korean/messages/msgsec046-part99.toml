@@ -280,6 +280,10 @@ korean = "질문은 없다<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["460189"]
+japanese = "ま、そんな感じですかね。<line-break>わかっていただけましたか？<end>"
+korean = "뭐, 대충 그런 느낌이네요. 이해하셨습니까?<end>"
+
 ["460190"]
 japanese = "聞きたいことがあれば答えますよ。<end>"
 korean = "궁금한 게 있으면 대답해 드리죠.<end>"
