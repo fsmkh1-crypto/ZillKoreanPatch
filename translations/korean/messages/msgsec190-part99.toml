@@ -40,6 +40,10 @@ korean = "네! 맡겨 주세요.<end>"
 japanese = "<value:$28>、ありがとう。<line-break>あなたのおかげで、<line-break>踏みとどまれたわ。<end>"
 korean = "<value:$28>, 고마워. 네 덕분에 버틸 수 있었어.<end>"
 
+["1900070"]
+japanese = "さて、わしの運命の幕を<line-break>降ろしてもらおうか。<line-break>　<line-break>…ネメアよ。<end>"
+korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
+
 ["1900071"]
 japanese = "ふっふっふ、久しいな。<end>"
 korean = "후후후, 오랜만이군.<end>"
