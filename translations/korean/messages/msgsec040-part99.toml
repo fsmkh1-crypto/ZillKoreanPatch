@@ -244,6 +244,10 @@ korean = "네메아 님 말씀대로군.<end>"
 japanese = "そう功をあせるな、オイフェよ。<end>"
 korean = "그렇게 공을 서두르지 마라, 오이페.<end>"
 
+["400146"]
+japanese = "傲慢の首飾りを渡して、<line-break><value:$28>。<end>"
+korean = "오만의 목걸이를 건네줘, <value:$28>.<end>"
+
 ["400148"]
 japanese = "…ムキになるな。<end>"
 korean = "…발끈하지 마.<end>"
@@ -455,6 +459,10 @@ korean = "…나도 제리그다.<end>"
 ["400274"]
 japanese = "くっ…不覚。<end>"
 korean = "큭… 방심했군.<end>"
+
+["400278"]
+japanese = "…<value:$28>。<line-break>私のやり方に不服か？<end>"
+korean = "…<value:$28>. 내 방식이 마음에 들지 않나?<end>"
 
 ["400280"]
 japanese = "…また、助けられたわね。<end>"

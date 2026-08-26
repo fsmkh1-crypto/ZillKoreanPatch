@@ -44,6 +44,10 @@ korean = "저, 정말인가요!? 드디어 <value:$28> 씨도 한 사람 몫을!
 japanese = "…まだまだ、だな。<end>"
 korean = "…아직 멀었군.<end>"
 
+["340020"]
+japanese = "いいか、<value:$28>、<line-break>まず切先だが…<end>"
+korean = "좋아, <value:$28>, 우선 검끝부터인데….<end>"
+
 ["340023"]
 japanese = "まさか…。いや、今度こそ！<end>"
 korean = "설마…. 아니, 이번에는 반드시!<end>"
@@ -103,6 +107,10 @@ korean = "그런가… 네가 쓰러뜨렸군….<end>"
 ["340053"]
 japanese = "これを…。<end>"
 korean = "이걸….<end>"
+
+["340057"]
+japanese = "…よし…、<value:$28>…、<line-break>任せたぞ。<end>"
+korean = "…좋아…, <value:$28>…, 맡기마.<end>"
 
 ["340058"]
 japanese = "…ロッチナ…これからはずっと…。<end>"

@@ -232,6 +232,10 @@ korean = "나는 나야. 변하지 않아.<end>"
 japanese = "<value:$28>さん…。<line-break>あの人は？<end>"
 korean = "<value:$28> 씨…. 그 사람은?<end>"
 
+["1980244"]
+japanese = "<value:$28>さん！<line-break>大丈夫ですか！？<end>"
+korean = "<value:$28>님! 괜찮으세요!?<end>"
+
 ["1980246"]
 japanese = "伝説のフライパンを手に入れた。<end>"
 korean = "전설의 프라이팬을 손에 넣었다.<end>"

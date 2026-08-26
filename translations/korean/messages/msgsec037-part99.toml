@@ -368,6 +368,10 @@ korean = "짜증 나거든. 아줌마.<end>"
 japanese = "わかった、テレジアおばさん。<end>"
 korean = "알겠어, 테레지아 아줌마.<end>"
 
+["370265"]
+japanese = "<value:$28>！<line-break>メイアが！　メイアが！<end>"
+korean = "<value:$28>! 메이아가! 메이아가!<end>"
+
 ["370270"]
 japanese = "ウソだ！　俺だ！　　　　　　　　<end>"
 korean = "거짓말이다! 나다!<end>"

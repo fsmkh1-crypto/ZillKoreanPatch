@@ -68,6 +68,10 @@ korean = "형!!<end>"
 japanese = "兄さん、とうとうボルボラを…。<end>"
 korean = "형, 드디어 볼보라를….<end>"
 
+["430029"]
+japanese = "君は…<value:$28>。<line-break>どうしてここに？<end>"
+korean = "너는… <value:$28>. 왜 여기 있지?<end>"
+
 ["430032"]
 japanese = "世間は狭いものだな。<end>"
 korean = "세상 참 좁군.<end>"

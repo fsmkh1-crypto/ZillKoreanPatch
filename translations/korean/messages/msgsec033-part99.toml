@@ -332,6 +332,10 @@ korean = "<value:$28>, 그 사람도 데려왔으면 좋았을 텐데.<end>"
 japanese = "よ、ジャマするぜ。<end>"
 korean = "여어, 방해 좀 할게.<end>"
 
+["330239"]
+japanese = "<value:$28>たちに<line-break>指一本触れさせん！<end>"
+korean = "<value:$28> 일행에게 손가락 하나 못 대게 하겠다!<end>"
+
 ["330240"]
 japanese = "フリント！<end>"
 korean = "플린트!<end>"

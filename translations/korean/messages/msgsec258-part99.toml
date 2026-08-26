@@ -56,6 +56,10 @@ korean = "저기, 저기! 오늘 <value:$28> 생일이었지?<end>"
 japanese = "今日は <value:$28>様が<line-break>この世に生を受けた日と<line-break>同じ日付です。<end>"
 korean = "오늘은 <value:$28>님이 이 세상에 태어난 날과 같은 날짜입니다.<end>"
 
+["2580083"]
+japanese = "なんだか嬉しそうね、<line-break><value:$28>。<end>"
+korean = "왠지 기뻐 보이네, <value:$28>.<end>"
+
 ["2580084"]
 japanese = "今日は、<line-break><value:$28>の誕生日だ。<end>"
 korean = "오늘은 <value:$28>의 생일이다.<end>"

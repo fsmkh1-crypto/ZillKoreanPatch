@@ -240,6 +240,10 @@ korean = "<value:$28>…? 그럴 수가….<end>"
 japanese = "ネメアだ！　　　　　　<end>"
 korean = "네메아다!<end>"
 
+["410116"]
+japanese = "<value:$28>、<line-break>神器を…、守ってくれ！<end>"
+korean = "<value:$28>, 신기를… 지켜 줘!<end>"
+
 ["410117"]
 japanese = "フッ、愚かな…。　　　　　　　　　　<end>"
 korean = "훗, 어리석군….<end>"
@@ -287,6 +291,10 @@ korean = "혀, 형….<end>"
 ["410142"]
 japanese = "ネメアだ！　　　　　　<end>"
 korean = "네메아다!<end>"
+
+["410143"]
+japanese = "<value:$28>、<line-break>神器を…、守ってくれ！<end>"
+korean = "<value:$28>, 신기를… 지켜 줘!<end>"
 
 ["410148"]
 japanese = "ナーシェス！<end>"
