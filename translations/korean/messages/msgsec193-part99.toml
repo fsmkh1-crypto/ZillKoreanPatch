@@ -220,6 +220,10 @@ korean = "오랜만이네, <value:$28>. 어때? 한동안 못 봤는데 실력�
 japanese = "<value:$28>が守ってくれるの？<line-break>…それは仲間として？<line-break><line-break>それとも…<end>"
 korean = "<value:$28>이 지켜 줄 거야? …그건 동료로서? 아니면…<end>"
 
+["1930117"]
+japanese = "<value:$28>が守ってくれるの？<line-break><line-break><line-break>…フフ、期待してるわ。<line-break>私もこの弓で、精一杯<line-break>バックアップさせてもらうから。<end>"
+korean = "<value:$28>이 지켜 줄 거야? …후후, 기대할게. 나도 이 활로 힘껏 지원할 테니까.<end>"
+
 ["1930118"]
 japanese = "待たせたな、ふたりとも。<end>"
 korean = "기다렸지, 둘 다.<end>"

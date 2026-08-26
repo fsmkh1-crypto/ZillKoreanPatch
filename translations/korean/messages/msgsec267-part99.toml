@@ -8,6 +8,10 @@ korean = "질리온&이샤 이벤트08용 시작<end>"
 japanese = "<value:$28>…。なぜ、ここに？<end>"
 korean = "<value:$28>…. 왜 여기에?<end>"
 
+["2670005"]
+japanese = "そ、そんな…！<line-break>ダメよ。そんなことできないわ。<end>"
+korean = "그, 그럴 수가…! 안 돼. 그런 건 못 해.<end>"
+
 ["2670007"]
 japanese = "自分を犠牲に<end>"
 korean = "자신을 희생한다<end>"

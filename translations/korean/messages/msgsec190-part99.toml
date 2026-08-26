@@ -160,6 +160,10 @@ korean = "쓸데없는 걱정을 끼쳤군. 용서해라.<end>"
 japanese = "いえ、生きていてさえくだされば。<end>"
 korean = "아니요, 살아 계시기만 한다면.<end>"
 
+["1900119"]
+japanese = "私と<value:$28>たちは<line-break>敵の首魁を叩く。　　　　　　　<line-break>　<line-break>お前たちはここを死守せよ。<line-break>決して敵を外に出してはならん。<end>"
+korean = "나와 <value:$28> 일행은 적의 우두머리를 친다. 너희는 이곳을 사수하라. 절대로 적을 밖으로 내보내선 안 된다.<end>"
+
 ["1900120"]
 japanese = "わかりました。<line-break>死守いたします。<end>"
 korean = "알겠습니다. 목숨 걸고 지키겠습니다.<end>"

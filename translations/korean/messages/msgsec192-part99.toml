@@ -120,6 +120,10 @@ korean = "어, 어떡하지, <value:$28>!?<end>"
 japanese = "ああ、またやっちゃった…。<line-break>　<line-break>　<line-break>せっかく魔道アカデミーに<line-break>戻れたと思ったのに。<end>"
 korean = "아아, 또 해버렸어…. 겨우 마도 아카데미로 돌아왔다고 생각했는데.<end>"
 
+["1920063"]
+japanese = "そうだよね。<line-break>大失敗は成功の元って言うし！<line-break>　<line-break>ねっ、<value:$28>。<line-break>また旅をはじめない？<line-break>私、ついていくから。<end>"
+korean = "그렇지. 큰 실패는 성공의 어머니라고 하잖아! 있지, <value:$28>. 다시 여행을 시작하지 않을래? 나도 따라갈게.<end>"
+
 ["1920066"]
 japanese = "…って、今は<line-break>逃げ出す方が先かもね。<end>"
 korean = "…라고 해도 지금은 도망치는 게 먼저일지도 모르겠네.<end>"

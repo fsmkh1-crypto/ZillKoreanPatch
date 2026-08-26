@@ -32,6 +32,10 @@ korean = "디드 사용법은 알고 있겠지.<end>"
 japanese = "…ナッジのこと、頼むぜ。<end>"
 korean = "…나지 부탁한다.<end>"
 
+["480026"]
+japanese = "<value:$28>…、<line-break>僕、どこで変わっちゃったんだろう…。<line-break>　<line-break>ヴァン…、<line-break>僕はもう、君と一緒には<line-break>歩けないのかな…。<end>"
+korean = "<value:$28>…, 나 어디서부터 변해 버린 걸까…. 반…, 나는 이제 너와 함께 걸을 수 없는 걸까….<end>"
+
 ["480027"]
 japanese = "よう、<value:$28>、<line-break>元気そうで何よりだ。<line-break>　<line-break>泊まっていくかい？<line-break>お前らなら、ただでいいぜ。<end>"
 korean = "여어, <value:$28>. 건강해 보여 다행이다. 묵고 갈래? 너희라면 공짜로 해 줄게.<end>"

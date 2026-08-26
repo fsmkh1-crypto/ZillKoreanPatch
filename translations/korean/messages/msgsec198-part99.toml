@@ -32,6 +32,10 @@ korean = "무, 무슨 일이세요? <value:$28>님…. 혹시 입맛에 안 맞�
 japanese = "おかわりっ！<end>"
 korean = "한 그릇 더!<end>"
 
+["1980016"]
+japanese = "ご、ごめんなさい！<line-break>おいしくなかったんですね。<end>"
+korean = "미, 미안해요! 맛이 없었군요.<end>"
+
 ["1980021"]
 japanese = "むぐっ…。<end>"
 korean = "윽….<end>"
@@ -184,6 +188,10 @@ korean = "꼭 그래야 해?<end>"
 japanese = "呪文に詳しい方を<line-break>ご存じなんですか？<line-break>　<line-break>古代遺跡を調べている<line-break>考古学者のエストさん…。<end>"
 korean = "주문에 밝은 분을 아세요? 고대 유적을 조사하는 고고학자 에스트 씨….<end>"
 
+["1980147"]
+japanese = "じゃ、あとは僕に任せて。<line-break>みんな下がってて…。<end>"
+korean = "그럼 나머지는 내게 맡겨. 다들 물러나 있어….<end>"
+
 ["1980150"]
 japanese = "きゃあーっ！<line-break><value:$28>さん！<line-break>あ、あれ…！<end>"
 korean = "꺄악! <value:$28> 씨! 저, 저건…!<end>"
@@ -267,6 +275,10 @@ korean = "<value:$28>님…. 혹시 저도 모험 여행에 데려가 주시는 
 ["1980192"]
 japanese = "ど、どうしよう…？<line-break>なんとかつじつまを合わせなきゃ…。<line-break>　<line-break>………………！<end>"
 korean = "어, 어떡하지…? 어떻게든 말이 되게 맞춰야 해…. ………………!<end>"
+
+["1980193"]
+japanese = "エルフとドワーフが協力して作った<line-break>魔道器とな？<end>"
+korean = "엘프와 드워프가 협력해 만든 마도기라고?<end>"
 
 ["1980195"]
 japanese = "むっ。待てよ…。<line-break>もしかすると、あれか？<end>"

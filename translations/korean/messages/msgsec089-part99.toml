@@ -804,6 +804,10 @@ korean = "그럼, 들어가십시오.<end>"
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
 
+["890512"]
+japanese = "中へ？　ならんならん。<line-break> <line-break> <line-break>陛下は、貴族方とも<line-break>お会いになっていないのだ。<line-break>お前ごときを通すわけにはいかん。<end>"
+korean = "안으로? 안 돼, 안 돼. 폐하께서는 귀족들과도 만나지 않고 계신다. 너 같은 자를 들여보낼 수는 없어.<end>"
+
 ["890513"]
 japanese = "これは、<value:$28>様。<line-break>恐れながら、お通しできません。<line-break>陛下のご気分が優れないとかで…。<end>"
 korean = "아, <value:$28>님. 송구하지만 들여보내 드릴 수 없습니다. 폐하의 상태가 좋지 않으시다 해서….<end>"

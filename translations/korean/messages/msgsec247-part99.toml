@@ -12,6 +12,10 @@ korean = "<value:$28> 아니십니까.<end>"
 japanese = "どうしました？<line-break>顔色が冴えませんね。<end>"
 korean = "무슨 일이죠? 안색이 좋지 않네요.<end>"
 
+["2470003"]
+japanese = "まあ、立ち話もなんですし、<line-break>中に入りませんか？<end>"
+korean = "뭐, 서서 이야기하기도 그렇고 안으로 들어가지 않겠습니까?<end>"
+
 ["2470010"]
 japanese = "<value:$28>じゃないですか。<end>"
 korean = "<value:$28> 아니십니까.<end>"
@@ -19,6 +23,10 @@ korean = "<value:$28> 아니십니까.<end>"
 ["2470011"]
 japanese = "どうしました？<line-break>顔色が冴えませんね。<end>"
 korean = "무슨 일이죠? 안색이 좋지 않네요.<end>"
+
+["2470012"]
+japanese = "まあ、立ち話もなんですし、<line-break>中に入りませんか？<end>"
+korean = "뭐, 서서 이야기하기도 그렇고 안으로 들어가지 않겠습니까?<end>"
 
 ["2470020"]
 japanese = "別に…。<end>"

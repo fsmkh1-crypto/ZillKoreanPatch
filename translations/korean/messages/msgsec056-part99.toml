@@ -1328,6 +1328,10 @@ korean = "…건강해 보이네, <value:$28>. 이런 곳에서 만날 줄은 �
 japanese = "…元気そうね、<value:$28>。<line-break>こんな所で会うとは<line-break>思わなかったけど…<end>"
 korean = "…건강해 보이네, <value:$28>. 이런 곳에서 만날 줄은 몰랐지만…<end>"
 
+["560737"]
+japanese = "元気そうね、<value:$28>。<line-break>こんな所で会うとは<line-break>思わなかったけど。<line-break>まさか、<line-break>あなたが解放軍なんかに<line-break>いるとはね。<end>"
+korean = "잘 지내는 것 같네, <value:$28>. 이런 곳에서 만날 줄은 몰랐지만. 설마 네가 해방군 같은 데 있을 줄이야.<end>"
+
 ["560742"]
 japanese = "…わかった。部下になろう。<end>"
 korean = "…알겠다. 부하가 되지.<end>"
