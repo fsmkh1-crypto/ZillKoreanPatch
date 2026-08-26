@@ -28,6 +28,10 @@ korean = "또 나타났냐!<end>"
 japanese = "ゆくぞ。<end>"
 korean = "간다.<end>"
 
+["1640024"]
+japanese = "待て！<line-break>こいつは俺たちの獲物だ！<end>"
+korean = "기다려! 이건 우리 사냥감이다!<end>"
+
 ["1640025"]
 japanese = "ま、まさか…ネメア…！<end>"
 korean = "서, 설마… 네메아…!<end>"
@@ -39,6 +43,10 @@ korean = "이, 이 사람이!?<end>"
 ["1640028"]
 japanese = "下がっていろ。<end>"
 korean = "물러서 있어.<end>"
+
+["1640032"]
+japanese = "…許さない！<line-break>貴様らを許さない！<end>"
+korean = "…용서 못 해! 네놈들을 용서 못 해!<end>"
 
 ["1640034"]
 japanese = "死ね！<end>"

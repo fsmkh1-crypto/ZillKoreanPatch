@@ -72,6 +72,10 @@ korean = "정신이 들었나?<end>"
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
 
+["1490070"]
+japanese = "な、なんだ？<line-break>どこへ行ったのだ？<end>"
+korean = "뭐, 뭐지? 어디로 간 거야?<end>"
+
 ["1490071"]
 japanese = "助ける<end>"
 korean = "돕는다<end>"
@@ -240,6 +244,10 @@ korean = "내버려 두자<end>"
 japanese = "あ、ノーブル伯！<end>"
 korean = "아, 노블 백작!<end>"
 
+["1490232"]
+japanese = "はぁ…、<line-break>手柄だと思ったのに…。<end>"
+korean = "하아… 공을 세운 줄 알았는데….<end>"
+
 ["1490236"]
 japanese = "そのことは覚えていて欲しい。<end>"
 korean = "그건 기억해 줬으면 해.<end>"
@@ -284,6 +292,10 @@ korean = "…이제야 눈치챈 모양이네.<end>"
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
 
+["1490274"]
+japanese = "とっとと歩け！<line-break>インチキ野郎が！<end>"
+korean = "빨리 걸어! 이 사기꾼 자식아!<end>"
+
 ["1490276"]
 japanese = "な、な、な…<end>"
 korean = "뭐, 뭐, 뭐…<end>"
@@ -307,6 +319,10 @@ korean = "…!! 저림이… 사라졌어….<end>"
 ["1490286"]
 japanese = "あんたぁ！<end>"
 korean = "당신 말이야!<end>"
+
+["1490294"]
+japanese = "くっ…、<line-break>な、なんて汚い野郎だ！<end>"
+korean = "큭… 뭐, 뭐 이런 비겁한 놈이 다 있어!<end>"
 
 ["1490297"]
 japanese = "空を拝めるのも、今日が最後だと思え！<end>"
