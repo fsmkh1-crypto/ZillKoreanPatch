@@ -92,6 +92,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "いらっしゃい。何にしやすかね？<end>"
 korean = "어서 와. 뭘 찾으시나?<end>"
 
+["1420088"]
+japanese = "あっ、<value:$28>じゃねえか。<line-break>まさか、<line-break>あんたがこの子供の保護者なのか？<end>"
+korean = "어, <value:$28> 아니야. 설마 네가 이 아이 보호자냐?<end>"
+
 ["1420095"]
 japanese = "…無理が、ないですかね？<end>"
 korean = "…무리하는 건, 아닌가요?<end>"
@@ -543,6 +547,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420419"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1420420"]
+japanese = "起きなさい、<value:$28>。<line-break>もう朝よ。<end>"
+korean = "일어나, <value:$28>. 벌써 아침이야.<end>"
 
 ["1420421"]
 japanese = "朝ご飯が冷めてしまうわよ。<line-break>さあ、早くしなさい、<line-break><value:$28>。<end>"

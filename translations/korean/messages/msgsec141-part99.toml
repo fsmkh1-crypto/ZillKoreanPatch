@@ -212,6 +212,10 @@ korean = "어, 어라!? <value:$28>!<end>"
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
 
+["1410159"]
+japanese = "それじゃあ、<value:$28>。<line-break>行こうか！<end>"
+korean = "그럼, <value:$28>. 가자!<end>"
+
 ["1410173"]
 japanese = "全速・前進～！<end>"
 korean = "전속력・전진~!<end>"
@@ -428,6 +432,10 @@ korean = "비아…?<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410372"]
+japanese = "<value:$28>様、<line-break>お待ちしていました。<end>"
+korean = "<value:$28>님, 기다리고 있었습니다.<end>"
+
 ["1410387"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -483,6 +491,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410430"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410436"]
+japanese = "<value:$28>様は、<line-break>そんな私を、変わらず<line-break>この神殿に訪ねてくださいました。<end>"
+korean = "<value:$28>님은 그런 저를 변함없이 이 신전까지 찾아와 주셨습니다.<end>"
 
 ["1410444"]
 japanese = "追加メッセージここから<end>"
@@ -711,6 +723,10 @@ korean = "응, 물론 그럴 생각이지만.<end>"
 ["1410579"]
 japanese = "ああ…。<end>"
 korean = "아아….<end>"
+
+["1410583"]
+japanese = "<value:$28>も、準備して。<line-break>日が暮れるまでには、<line-break>調査を終わらせなくちゃ！<end>"
+korean = "<value:$28>도 준비해. 해가 지기 전까지 조사를 끝내야 해!<end>"
 
 ["1410584"]
 japanese = "めまいがいたします…。<line-break>ああ…。<end>"

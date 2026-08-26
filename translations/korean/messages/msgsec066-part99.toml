@@ -132,6 +132,10 @@ korean = "없어요.<end>"
 japanese = "…こんな偽りの笑顔を？<end>"
 korean = "…이런 거짓 웃음을?<end>"
 
+["660109"]
+japanese = "ちゃんとノックしたが、<line-break>返事がないから入ったんだ。<line-break>そうだろ、<value:$28>？<end>"
+korean = "노크는 했는데 대답이 없어서 들어온 거야. 그렇지, <value:$28>?<end>"
+
 ["660117"]
 japanese = "それは立派な才能だぜ。<end>"
 korean = "그건 훌륭한 재능이야.<end>"
@@ -147,6 +151,10 @@ korean = "흐음, 어떻게 알았는지 듣고 싶군.<end>"
 ["660137"]
 japanese = "私は<line-break>人の顔色を見ているだけです。<end>"
 korean = "저는 사람 눈치만 보고 있을 뿐입니다.<end>"
+
+["660140"]
+japanese = "さてと。まーた、<line-break>姫さんのご機嫌を損ねちまった。<line-break>退散するぜ、<value:$28>。<end>"
+korean = "자, 또 공주님 기분을 상하게 해 버렸네. 난 물러날게, <value:$28>.<end>"
 
 ["660141"]
 japanese = "え…、もうお帰りですの？<end>"

@@ -312,6 +312,10 @@ korean = "사실은 말이야, 타르튜바 님은…<end>"
 japanese = "そっか、お兄ちゃんが話したんだね。<end>"
 korean = "그렇구나, 오빠가 말했구나.<end>"
 
+["640238"]
+japanese = "お姉ちゃんも<line-break>タルテュバにいじわるされたら<line-break><value:$28>に助けてもらいなよ。<end>"
+korean = "언니도 타르튜바한테 괴롭힘당하면 <value:$28>한테 도와달라고 해.<end>"
+
 ["640239"]
 japanese = "えっ、ええ…<end>"
 korean = "어, 어어…<end>"

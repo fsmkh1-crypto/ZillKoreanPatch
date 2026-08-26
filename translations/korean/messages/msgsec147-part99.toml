@@ -8,13 +8,25 @@ korean = "루루안타(수정) 그 1 시작<end>"
 japanese = "ふぅん。<line-break>…で、どんなんだい？<end>"
 korean = "흐음. …그래서, 어떤 건데?<end>"
 
+["1470015"]
+japanese = "…だそうだ。<line-break>どうする、<value:$28>？<end>"
+korean = "…그렇다는데. 어떻게 할래, <value:$28>?<end>"
+
 ["1470021"]
 japanese = "俺は先に宿屋に戻ってる。<line-break><value:$28>も<line-break>寄り道してないでさっさと戻れよ。<end>"
 korean = "난 먼저 여관으로 돌아갈게. <value:$28>도 딴 데 들르지 말고 얼른 돌아와.<end>"
 
+["1470028"]
+japanese = "おい、<value:$28>。<line-break>どこに行くんだ？<end>"
+korean = "야, <value:$28>. 어디 가는 거야?<end>"
+
 ["1470038"]
 japanese = "！　これは…。<end>"
 korean = "! 이건….<end>"
+
+["1470054"]
+japanese = "<value:$28>、<line-break>もう準備はいいんだな？<end>"
+korean = "<value:$28>, 준비는 다 됐지?<end>"
 
 ["1470055"]
 japanese = "準備できた<end>"
@@ -67,6 +79,10 @@ korean = "안 들어<end>"
 ["1470120"]
 japanese = "ん？　<value:$28>か。<end>"
 korean = "응? <value:$28>인가.<end>"
+
+["1470125"]
+japanese = "<value:$28>、<line-break>もう準備はいいんだな？<end>"
+korean = "<value:$28>, 준비는 다 됐지?<end>"
 
 ["1470126"]
 japanese = "準備できた<end>"

@@ -104,6 +104,10 @@ korean = "신경 쓰고 있었다<end>"
 japanese = "気にしてなかった<end>"
 korean = "신경 쓰지 않았어<end>"
 
+["1380094"]
+japanese = "…待っててくれるよね、<line-break><value:$28>？<end>"
+korean = "…기다려 줄 거지, <value:$28>?<end>"
+
 ["1380100"]
 japanese = "あーっ、<line-break><value:$28>じゃん。<end>"
 korean = "아, <value:$28>잖아.<end>"

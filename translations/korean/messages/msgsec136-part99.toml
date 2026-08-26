@@ -36,6 +36,14 @@ korean = "그만둬!!<end>"
 japanese = "<value:$28>！<line-break>お前まで、どうしてここに！<line-break>危険だ！　逃げろ！<end>"
 korean = "<value:$28>! 너까지 왜 여기에! 위험해! 도망쳐!<end>"
 
+["1360066"]
+japanese = "<value:$28>は<line-break>虚無の剣を手に入れた。<end>"
+korean = "<value:$28>은 허무의 검을 손에 넣었다.<end>"
+
+["1360072"]
+japanese = "どうなさったのですか<line-break><value:$28>様。<end>"
+korean = "무슨 일이신가요, <value:$28>님.<end>"
+
 ["1360073"]
 japanese = "…私も同じだ。<end>"
 korean = "…나도 마찬가지야.<end>"
@@ -212,6 +220,10 @@ korean = "모르…겠어….<end>"
 japanese = "意志すること…生きることを…。<end>"
 korean = "의지를 갖는 것… 살아가는 것을….<end>"
 
+["1360253"]
+japanese = "<value:$28>…<line-break>私、私…、あなたと…。<end>"
+korean = "<value:$28>… 나, 나는… 당신과….<end>"
+
 ["1360255"]
 japanese = "はい！<end>"
 korean = "네!<end>"
@@ -227,6 +239,10 @@ korean = "안 내면 안 돼<end>"
 ["1360259"]
 japanese = "そんなものはいらない<end>"
 korean = "그런 건 필요 없다<end>"
+
+["1360261"]
+japanese = "<value:$28>は<line-break>練剛石を５つ手に入れた<end>"
+korean = "<value:$28>은 연강석 5개를 손에 넣었다.<end>"
 
 ["1360264"]
 japanese = "いいよ<end>"

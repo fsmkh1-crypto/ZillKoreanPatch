@@ -324,6 +324,10 @@ korean = "안 가<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1400184"]
+japanese = "あ、<value:$28>様。<line-break><value:$28>様も、催しに<line-break>いらしてらっしゃったのですか？<end>"
+korean = "아, <value:$28>님. <value:$28>님도 행사에 오셨나요?<end>"
+
 ["1400185"]
 japanese = "アトレイア…様…？<end>"
 korean = "아트레이아… 님…?<end>"

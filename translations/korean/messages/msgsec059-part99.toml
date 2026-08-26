@@ -68,6 +68,10 @@ korean = "저, 적의 습격이다!<end>"
 japanese = "ありえない…！<line-break>敵将は誰だ！？<end>"
 korean = "말도 안 돼…! 적장은 누구냐!?<end>"
 
+["590066"]
+japanese = "出撃！　<value:$28>様に続け！<line-break>アンギルダン様をお救いするのだ！！<line-break>出撃！！<end>"
+korean = "출격! <value:$28>님을 따르라! 앙길단 님을 구하는 거다!! 출격!!<end>"
+
 ["590087"]
 japanese = "そうか…。残念じゃ。<end>"
 korean = "그런가…. 유감이군.<end>"
