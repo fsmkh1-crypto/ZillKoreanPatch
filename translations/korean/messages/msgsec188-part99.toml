@@ -144,6 +144,10 @@ korean = "크류세이스를 그냥 둘 수 없으니까<end>"
 japanese = "でも、わたくしは…。<end>"
 korean = "하지만 저는….<end>"
 
+["1880128"]
+japanese = "（わたくし、何を期待しているの？<line-break>　<value:$28>がわたくしを<line-break>　許してくれるはずないのに…。）<end>"
+korean = "(나는 뭘 기대하는 거지? <value:$28>이 나를 용서할 리 없는데….)<end>"
+
 ["1880129"]
 japanese = "え？　…そんな、まさか…。<end>"
 korean = "어? …그럴 리가….<end>"

@@ -48,6 +48,10 @@ korean = "그만둬!!<end>"
 japanese = "<value:$28>！<line-break>お前まで、どうしてここに！<line-break>危険だ！　逃げろ！<end>"
 korean = "<value:$28>! 너까지 왜 여기에! 위험해! 도망쳐!<end>"
 
+["1360064"]
+japanese = "俺は、俺はもっと生きたかったぜ！<line-break>今は言える！　もっと、もっと<line-break><value:$28>と…いっしょに…！<end>"
+korean = "난, 난 더 살고 싶었어! 지금은 말할 수 있어! 더, 더 <value:$28>과… 함께…!<end>"
+
 ["1360066"]
 japanese = "<value:$28>は<line-break>虚無の剣を手に入れた。<end>"
 korean = "<value:$28>은 허무의 검을 손에 넣었다.<end>"

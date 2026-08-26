@@ -196,6 +196,10 @@ korean = "치사해요. 비밀 이야기라니!<end>"
 japanese = "あれ？<line-break>やきもち妬いてるのかな？<end>"
 korean = "어라? 질투하는 건가?<end>"
 
+["560108"]
+japanese = "ああそう。お目当ては<line-break><value:$28>の方ね。<line-break>　<line-break>わかったよ。<line-break>邪魔者は去りましょう。<end>"
+korean = "아, 그래. 목적은 <value:$28> 쪽이구나. 알았어. 방해꾼은 사라져 줄게.<end>"
+
 ["560109"]
 japanese = "本当は何を話してたんですか？<end>"
 korean = "사실 무슨 얘기 했어요?<end>"
@@ -423,6 +427,10 @@ korean = "…마을 사람들을? 하지만… 하지만….<end>"
 ["560241"]
 japanese = "ナーシェス、<line-break>あんた本気で言ってるの？<end>"
 korean = "나셰스,너 진심으로 하는 말이야?<end>"
+
+["560242"]
+japanese = "この俺に、そんな気持ちを抱くことが<line-break>許されるのなら…。<line-break>　<line-break>…そう言いたかったのだ。<end>"
+korean = "나 같은 사람이 그런 마음을 품어도 된다면…. …그렇게 말하고 싶었다.<end>"
 
 ["560243"]
 japanese = "ノエル！　<end>"
@@ -996,6 +1004,10 @@ korean = "뭐라고요?<end>"
 japanese = "どうした？<line-break>浮かない顔だな。<end>"
 korean = "왜 그래? 표정이 어둡군.<end>"
 
+["560689"]
+japanese = "待って、<value:$28>。<line-break>これは…なんか変だよ。<end>"
+korean = "잠깐, <value:$28>. 이거… 뭔가 이상해.<end>"
+
 ["560690"]
 japanese = "…妙だ。<line-break>人がいない。<end>"
 korean = "…이상해. 사람이 없어.<end>"
@@ -1287,6 +1299,10 @@ korean = "추가 메시지 여기부터<end>"
 ["560923"]
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
+
+["560928"]
+japanese = "よし来た！<line-break>あんたならきっと<line-break>そう言ってくれると思ってたよ。<line-break>よかったな、神官さん。<end>"
+korean = "좋아! 당신이라면 분명 그렇게 말해 줄 줄 알았어. 잘됐네요, 신관님.<end>"
 
 ["560939"]
 japanese = "やっぱりやめる<end>"

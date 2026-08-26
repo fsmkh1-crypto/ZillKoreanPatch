@@ -12,6 +12,10 @@ korean = "??? 무슨 소리지?<end>"
 japanese = "きゃっ！<end>"
 korean = "꺅!<end>"
 
+["650004"]
+japanese = "ティアナ王女に<line-break>会わせてほしいのですか？<end>"
+korean = "티아나 공주님을 만나고 싶으신가요?<end>"
+
 ["650006"]
 japanese = "あのお人形…、<line-break>そういうことでしたの。<end>"
 korean = "그 인형… 그런 사정이었군요.<end>"
@@ -132,6 +136,10 @@ korean = "레무온 님, 그리고 <value:$28>님. 어서 오십시오.<end>"
 japanese = "ティアナ様にもご機嫌うるわしく。<end>"
 korean = "티아나 님도 평안하시고.<end>"
 
+["650070"]
+japanese = "ずいぶん丁重な<line-break>もてなしようではないか？<end>"
+korean = "꽤나 정중한 대접 아닌가?<end>"
+
 ["650072"]
 japanese = "笑える冗談だ。　　　　　　　　　<end>"
 korean = "웃기는 농담이군.<end>"
@@ -147,6 +155,10 @@ korean = "죄송합니다.<end>"
 ["650085"]
 japanese = "許してやるのか…。　　<end>"
 korean = "용서해 주는 건가….<end>"
+
+["650086"]
+japanese = "お前、もしかして<line-break>俺以外には寛大なのか？<end>"
+korean = "너, 혹시 나 말고 다른 사람한테는 관대한 거냐?<end>"
 
 ["650088"]
 japanese = "やれやれ、エリスも哀れだな。　<end>"
@@ -172,9 +184,17 @@ korean = "후후, 소중한 소꿉친구잖아요.<end>"
 japanese = "そうだな。<line-break>大事な幼なじみ…だからな。<end>"
 korean = "그래.소중한 소꿉친구…니까.<end>"
 
+["650103"]
+japanese = "ああ、<line-break>くだらぬ噂の種にならぬ程度にな。<end>"
+korean = "그래, 시시한 소문의 씨앗이 되지 않을 정도로만 해라.<end>"
+
 ["650104"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
+
+["650110"]
+japanese = "予備メッセージ３<line-break>ティアナ、ボリューム２<end>"
+korean = "예비 메시지 3 티아나, 볼륨 2<end>"
 
 ["650114"]
 japanese = "予備メッセージ７<line-break>ティアナ、ボリューム２<end>"

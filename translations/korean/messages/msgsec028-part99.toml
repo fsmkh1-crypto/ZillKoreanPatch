@@ -40,6 +40,10 @@ korean = "자자, 됐으니까 가자, 반.<end>"
 japanese = "ね、やっぱり降りてきたでしょ？<end>"
 korean = "봐, 역시 내려왔지?<end>"
 
+["280017"]
+japanese = "ハハッ、ホントだ。<line-break>　<line-break>　<line-break><value:$28>、<line-break>お前、ナッジに行動<line-break>読まれてるぜ。<end>"
+korean = "하하, 정말이네. <value:$28>, 너 나지한테 행동을 다 읽히고 있잖아.<end>"
+
 ["280018"]
 japanese = "じゃ、行こうか。<line-break><value:$28>、ヴァン。<end>"
 korean = "그럼 가자. <value:$28>, 반.<end>"

@@ -92,6 +92,10 @@ korean = "<value:$28>님!!<end>"
 japanese = "よし、では行くぞ。<end>"
 korean = "좋아, 그럼 간다.<end>"
 
+["890105"]
+japanese = "（エステルの水晶に<line-break>　何か映ってる。）<line-break>　<line-break>（…竜骨の砂漠…<line-break>　ラドラス…！）<end>"
+korean = "(에스텔의 수정에 뭔가 비치고 있어.) (…용골 사막… 라드라스…!)<end>"
+
 ["890106"]
 japanese = "（…ここに<line-break>　エステルがいる！？）<end>"
 korean = "(…여기에 에스텔이 있어!?)<end>"
@@ -951,6 +955,10 @@ korean = "네. <value:$28> 님이시군요. 지나가십시오!<end>"
 ["890636"]
 japanese = "カフィン、やめて！<line-break><line-break><line-break>あなたまで…あなたまで<line-break>死んでしまったら、わたし…！<end>"
 korean = "카핀, 그만해! 너까지… 너까지 죽어 버리면, 나는…!<end>"
+
+["890637"]
+japanese = "ノエル、お聞き。<line-break><line-break><line-break>レイヴンはあんたを守るために、<line-break>その命を差し出したんだ。<end>"
+korean = "노엘, 잘 들어. 레이븐은 너를 지키기 위해 목숨을 내놓은 거야.<end>"
 
 ["890640"]
 japanese = "カ、カフィン！<end>"

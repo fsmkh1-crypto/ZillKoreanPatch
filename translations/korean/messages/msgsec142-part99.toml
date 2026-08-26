@@ -276,6 +276,10 @@ korean = "…사람 마음의 색은 티 없는 순백이 아니야. 하지만 �
 japanese = "ありがとう…。<line-break><value:$28>…<line-break>そして…僕は、君のことを愛している。<end>"
 korean = "고마워…. <value:$28>… 그리고… 나는 널 사랑해.<end>"
 
+["1420202"]
+japanese = "そうだね…。<line-break><line-break><line-break><value:$28>と、冒険の旅かあ。<line-break>いいなあ！　ボクも行きたいなあ！<end>"
+korean = "그러게…. <value:$28>과 모험 여행이라. 좋겠다! 나도 가고 싶어!<end>"
+
 ["1420207"]
 japanese = "レムオン様！<end>"
 korean = "레몬님!<end>"
@@ -403,6 +407,10 @@ korean = "그런가…. 그런데 <value:$28>은 정말 돌아오는 건가?<end
 ["1420273"]
 japanese = "どうした、とっつあん。心配か？<end>"
 korean = "왜 그래, 아저씨. 걱정돼?<end>"
+
+["1420276"]
+japanese = "そうだね…。<line-break><line-break><line-break><value:$28>と、冒険の旅かあ。<line-break>いいなあ！　ボクも行きたいなあ！<end>"
+korean = "그러게…. <value:$28>과 모험 여행이라. 좋겠다! 나도 가고 싶어!<end>"
 
 ["1420279"]
 japanese = "男装の麗人って…ボ、ボクのこと？<end>"

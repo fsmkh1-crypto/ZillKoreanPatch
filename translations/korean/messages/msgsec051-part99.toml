@@ -152,6 +152,10 @@ korean = "<value:$28>의 명성치가 올랐다.<end>"
 japanese = "おらぬのか…。<end>"
 korean = "없는 건가….<end>"
 
+["510130"]
+japanese = "これも戦場の習いじゃ。<line-break>いくぞ、<value:$28>！<end>"
+korean = "이것도 전장의 법칙이지. 간다, <value:$28>!<end>"
+
 ["510134"]
 japanese = "では、まいるぞ！<line-break><value:$28>！<end>"
 korean = "그럼 간다! <value:$28>!<end>"

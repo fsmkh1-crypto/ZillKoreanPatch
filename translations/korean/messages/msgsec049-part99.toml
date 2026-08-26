@@ -16,6 +16,10 @@ korean = "뭐, 여러 곳이지.<end>"
 japanese = "いんや。　　　　　　　　　　　　　　<end>"
 korean = "아니.<end>"
 
+["490011"]
+japanese = "それから、こいつの馬車が<line-break>町の出口にとめてある。　　<line-break>　<line-break>その荷物を処分したいんだ。<end>"
+korean = "그리고 이 녀석 마차가 마을 출구에 세워져 있어. 그 짐도 처분하고 싶어.<end>"
+
 ["490018"]
 japanese = "わかった。<end>"
 korean = "알았어.<end>"
@@ -255,6 +259,10 @@ korean = "사실은 <value:$28>의 슬픔을 함께 짊어져 줘야 할 때였�
 ["490201"]
 japanese = "ルルアンタだって<line-break>つらかったはずだろ？<end>"
 korean = "루루안타도 괴로웠을 거잖아?<end>"
+
+["490202"]
+japanese = "でも、でも…、ルルアンタは、ぐすっ、<line-break><value:$28>に…<line-break>　<line-break>ひっく、元気をあげなくちゃ…。<end>"
+korean = "하지만, 하지만… 루루안타는, 훌쩍, <value:$28>에게… 힘을 줘야 하는데….<end>"
 
 ["490204"]
 japanese = "なぁ、<value:$28>。<end>"
