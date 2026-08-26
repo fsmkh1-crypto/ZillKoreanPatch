@@ -24,9 +24,21 @@ korean = "에엣!?<end>"
 japanese = "おうよ。<end>"
 korean = "그럼.<end>"
 
+["280064"]
+japanese = "お、俺もいいの？<end>"
+korean = "나, 나도 괜찮아?<end>"
+
+["280102"]
+japanese = "うあーーーっ！！<end>"
+korean = "으아ーーー앗!!<end>"
+
 ["280125"]
 japanese = "よし、行こう！<end>"
 korean = "좋아, 가자!<end>"
+
+["280126"]
+japanese = "気が進まないな…<end>"
+korean = "내키지 않는데…<end>"
 
 ["280144"]
 japanese = "ヴァン！<end>"
