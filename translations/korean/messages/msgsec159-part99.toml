@@ -104,6 +104,10 @@ korean = "그렇군요. 그럼 안녕히 주무세요.<end>"
 japanese = "おやすみなさい。<end>"
 korean = "안녕히 주무세요.<end>"
 
+["1590077"]
+japanese = "オルファウスさん、<line-break>おはようございます！！<end>"
+korean = "오르파우스 씨, 좋은 아침입니다!!<end>"
+
 ["1590078"]
 japanese = "おはよう、　　　　　　　　　　<line-break><value:$28>、ルルアンタ。<line-break>　<line-break>ルルアンタは本当に元気ですね。<end>"
 korean = "좋은 아침, <value:$28>, 루루안타. 루루안타는 정말 활기차네요.<end>"
