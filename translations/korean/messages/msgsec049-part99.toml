@@ -184,6 +184,10 @@ korean = "<미사용><end>"
 japanese = "…<value:$28>、つけられたな。<end>"
 korean = "…<value:$28>, 미행당했군.<end>"
 
+["490145"]
+japanese = "貴様ら、何をかぎまわっている？<end>"
+korean = "네놈들, 뭘 캐고 다니는 거냐?<end>"
+
 ["490149"]
 japanese = "うう…、まさか、この俺が…。<end>"
 korean = "으으…, 설마 이 내가….<end>"
@@ -243,6 +247,10 @@ korean = "흐윽, 흐윽…<end>"
 ["490219"]
 japanese = "あいてててって…。う～。<end>"
 korean = "아야야야…. 으~.<end>"
+
+["490220"]
+japanese = "わ、ブサイクな猫がしゃべった！<end>"
+korean = "와, 못생긴 고양이가 말했어!<end>"
 
 ["490222"]
 japanese = "わ、すごいすごーい！！<end>"

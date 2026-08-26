@@ -176,6 +176,14 @@ korean = "천한 놈이!! 병사들!!<end>"
 japanese = "はーん、おもしれぇ！　　　<end>"
 korean = "하, 재밌는데!<end>"
 
+["370168"]
+japanese = "んなこと言ったって、船長ぅ～！<end>"
+korean = "그런 말 해도, 선장~!<end>"
+
+["370169"]
+japanese = "バカやろ。　　　　　　　　　　<end>"
+korean = "바보 자식.<end>"
+
 ["370183"]
 japanese = "捕らえよ。<end>"
 korean = "잡아라.<end>"
@@ -191,6 +199,10 @@ korean = "<value:$28>, 오면 안 돼!<end>"
 ["370189"]
 japanese = "ヌォッホホホ…！　行くぞ。<end>"
 korean = "누오호호호…! 간다.<end>"
+
+["370196"]
+japanese = "おっかさんが恋しいかい、坊や。<end>"
+korean = "엄마가 그립니, 꼬마야.<end>"
 
 ["370199"]
 japanese = "わかんねぇのか？　　<end>"

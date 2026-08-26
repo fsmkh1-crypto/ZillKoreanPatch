@@ -124,6 +124,10 @@ korean = "질문은 없다<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["460198"]
+japanese = "た～すけて～。　　　　　　　　<end>"
+korean = "도~와줘~.<end>"
+
 ["460203"]
 japanese = "もらう<end>"
 korean = "받는다<end>"
@@ -135,6 +139,10 @@ korean = "반지에 대해 되묻는다<end>"
 ["460205"]
 japanese = "断る<end>"
 korean = "거절한다<end>"
+
+["460207"]
+japanese = "すぐはめて？　すぐはめて？　　<end>"
+korean = "바로 끼워 줘? 바로 끼워 줘?<end>"
 
 ["460215"]
 japanese = "説明してもらう<end>"

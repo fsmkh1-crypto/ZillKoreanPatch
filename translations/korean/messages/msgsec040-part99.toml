@@ -60,6 +60,10 @@ korean = "뭐라고…?<end>"
 japanese = "ああ…。<end>"
 korean = "아아….<end>"
 
+["400034"]
+japanese = "最期の言葉は、それで終わりか？<end>"
+korean = "마지막 말은 그걸로 끝인가?<end>"
+
 ["400035"]
 japanese = "確かに、聞いた。<end>"
 korean = "그래, 들었다.<end>"
@@ -200,6 +204,10 @@ korean = "때와 경우에 따라 달라<end>"
 japanese = "それを聞いて安心したよ。<end>"
 korean = "그 말을 들으니 안심이군.<end>"
 
+["400145"]
+japanese = "そう功をあせるな、オイフェよ。<end>"
+korean = "그렇게 공을 서두르지 마라, 오이페.<end>"
+
 ["400148"]
 japanese = "…ムキになるな。<end>"
 korean = "…발끈하지 마.<end>"
@@ -255,6 +263,10 @@ korean = "고마워, 잘 알았어.<end>"
 ["400173"]
 japanese = "もう少し詳しく教えてほしいな<end>"
 korean = "조금 더 자세히 알려 줬으면 해<end>"
+
+["400174"]
+japanese = "Ｂｒａｖｅについて教えてほしい<end>"
+korean = "Brave에 대해 알려 줬으면 해<end>"
 
 ["400175"]
 japanese = "Ｋｉｎｄについて教えてほしい<end>"

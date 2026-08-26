@@ -24,6 +24,10 @@ korean = "…응…<end>"
 japanese = "うーむ…。<end>"
 korean = "으음….<end>"
 
+["340015"]
+japanese = "初めてにしては悪くないが…。<end>"
+korean = "처음치고는 나쁘지 않지만….<end>"
+
 ["340019"]
 japanese = "…まだまだ、だな。<end>"
 korean = "…아직 멀었군.<end>"
@@ -64,9 +68,17 @@ korean = "<value:$28>, 괜찮아!?<end>"
 japanese = "くっ、こんなときに。<end>"
 korean = "큭, 이럴 때에.<end>"
 
+["340048"]
+japanese = "なに！？　緋炎の宝剣がっ！？<end>"
+korean = "뭐!? 비염의 보검이!?<end>"
+
 ["340049"]
 japanese = "が…っ！！<end>"
 korean = "크…윽!!<end>"
+
+["340051"]
+japanese = "そうか…お前が倒したのか…。<end>"
+korean = "그런가… 네가 쓰러뜨렸군….<end>"
 
 ["340053"]
 japanese = "これを…。<end>"
@@ -75,6 +87,10 @@ korean = "이걸….<end>"
 ["340059"]
 japanese = "父の首飾りを母の墓にかける<end>"
 korean = "아버지의 목걸이를 어머니 무덤에 걸었다<end>"
+
+["340061"]
+japanese = "父の首飾りを母の墓にかけた。<end>"
+korean = "아버지의 목걸이를 어머니 묘에 걸었다.<end>"
 
 ["340072"]
 japanese = "旅立ち０７メッセージ終端<end>"

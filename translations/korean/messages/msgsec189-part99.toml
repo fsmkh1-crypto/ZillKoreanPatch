@@ -48,6 +48,10 @@ korean = "그럼 형은 아직….<end>"
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
 
+["1890065"]
+japanese = "…強くなりましたね、あの子も。<end>"
+korean = "…그 아이도 강해졌군요.<end>"
+
 ["1890070"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
@@ -68,6 +72,10 @@ korean = "그럼, 갑니다.<end>"
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
 
+["1890099"]
+japanese = "…強くなりましたね、あの子も。<end>"
+korean = "…그 아이도 강해졌군요.<end>"
+
 ["1890105"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -83,6 +91,10 @@ korean = "벨제바 님!<end>"
 ["1890115"]
 japanese = "<value:$28>か！<end>"
 korean = "<value:$28>인가!<end>"
+
+["1890124"]
+japanese = "（もう、あと戻りはできない！）<end>"
+korean = "(이제 돌아갈 수 없어!)<end>"
 
 ["1890131"]
 japanese = "あれ？　誰か来た？<end>"

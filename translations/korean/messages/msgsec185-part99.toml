@@ -20,6 +20,10 @@ korean = "힘을 빌려준다<end>"
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
 
+["1850044"]
+japanese = "今日はもうお引き取りください。<end>"
+korean = "오늘은 이제 돌아가 주세요.<end>"
+
 ["1850047"]
 japanese = "何かな、何かな。<end>"
 korean = "뭘까, 뭘까.<end>"
@@ -43,6 +47,10 @@ korean = "흐음. 말할 수가 없구나.<end>"
 ["1850060"]
 japanese = "お引き取りください。<end>"
 korean = "돌아가 주십시오.<end>"
+
+["1850061"]
+japanese = "ふむー。<line-break>見込みがあるのぉ。<end>"
+korean = "흠~. 가능성이 있구나.<end>"
 
 ["1850065"]
 japanese = "むにゅー…。<end>"

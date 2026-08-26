@@ -4,6 +4,10 @@
 japanese = "よう、いらっしゃい。<end>"
 korean = "여어, 어서 와.<end>"
 
+["160004"]
+japanese = "ところで、今日は何の用だい？<end>"
+korean = "그런데 오늘은 무슨 일이야?<end>"
+
 ["160005"]
 japanese = "他に何かあるのかい？<end>"
 korean = "다른 건 뭐가 있어?<end>"
@@ -23,3 +27,11 @@ korean = "의뢰를 받은 뒤 대사<end>"
 ["160035"]
 japanese = "ありがとうよ、また頼むぜ。<end>"
 korean = "고맙군, 또 부탁하지.<end>"
+
+["160045"]
+japanese = "それは引き受けてないだろう？<end>"
+korean = "그건 맡지 않았잖아?<end>"
+
+["160046"]
+japanese = "どこの情報が知りたいんだい？<end>"
+korean = "어디 정보를 알고 싶은데?<end>"

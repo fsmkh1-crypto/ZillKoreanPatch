@@ -4,9 +4,17 @@
 japanese = "ねぇ、ガルドラン、だよね。<end>"
 korean = "저기, 갈드란… 맞지?<end>"
 
+["450007"]
+japanese = "ガルドラン！　僕の名はナッジ。<end>"
+korean = "갈드란! 내 이름은 나지다.<end>"
+
 ["450009"]
 japanese = "？<end>"
 korean = "？<end>"
+
+["450010"]
+japanese = "そうか！　　　　　　　　　　　<end>"
+korean = "그런가!<end>"
 
 ["450012"]
 japanese = "ちっ、違うよ！　　　　　　　<end>"
@@ -19,6 +27,10 @@ korean = "으악! 눈이!<end>"
 ["450022"]
 japanese = "コーンスの少年を助ける<end>"
 korean = "콘스의 소년을 돕는다.<end>"
+
+["450023"]
+japanese = "冒険者のケンカなので放っておく<end>"
+korean = "모험자끼리 싸우는 거니 내버려 둔다<end>"
 
 ["450024"]
 japanese = "くっ、第三の刺客か！<end>"
@@ -39,6 +51,10 @@ korean = "마왕의 자객놈! 끝장이다!<end>"
 ["450035"]
 japanese = "酔っぱらいのケンカだ！<end>"
 korean = "취객들 싸움이다!<end>"
+
+["450036"]
+japanese = "勝った方が殺そうとしているぞ！<end>"
+korean = "이긴 쪽이 죽이려 하고 있어!<end>"
 
 ["450037"]
 japanese = "人殺し！<end>"
@@ -64,6 +80,10 @@ korean = "괜찮아?<end>"
 japanese = "君は？<end>"
 korean = "너는?<end>"
 
+["450047"]
+japanese = "ゴメンね…、ケガさせちゃって。<end>"
+korean = "미안… 다치게 해서.<end>"
+
 ["450051"]
 japanese = "仲間にする<end>"
 korean = "동료로 삼는다<end>"
@@ -83,6 +103,10 @@ korean = "가자. <value:$28>.<end>"
 ["450094"]
 japanese = "気味が悪い！　　　　　　　<end>"
 korean = "기분 나빠!<end>"
+
+["450101"]
+japanese = "ううん、別にいいんだ。　　　　<end>"
+korean = "아니, 딱히 괜찮아.<end>"
 
 ["450109"]
 japanese = "おかえり、<value:$28>。<end>"

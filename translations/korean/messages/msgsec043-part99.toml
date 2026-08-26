@@ -48,6 +48,10 @@ korean = "레, 레몬… 님.<end>"
 japanese = "兄さん！！<end>"
 korean = "형!!<end>"
 
+["430028"]
+japanese = "兄さん、とうとうボルボラを…。<end>"
+korean = "형, 드디어 볼보라를….<end>"
+
 ["430032"]
 japanese = "世間は狭いものだな。<end>"
 korean = "세상 참 좁군.<end>"
@@ -55,6 +59,10 @@ korean = "세상 참 좁군.<end>"
 ["430035"]
 japanese = "兄さんは？<end>"
 korean = "형은?<end>"
+
+["430049"]
+japanese = "お待ちしていた、エリエナイ公。<end>"
+korean = "기다리고 있었습니다, 에리에나이 공.<end>"
 
 ["430052"]
 japanese = "ほう？<end>"
@@ -107,6 +115,10 @@ korean = "지금은 입을 다문다<end>"
 ["430116"]
 japanese = "剣で決着をつけよう…。<end>"
 korean = "검으로 결판내자….<end>"
+
+["430142"]
+japanese = "（私は、ここには、戻れない…）<end>"
+korean = "(나는 여기로 돌아올 수 없어…)<end>"
 
 ["430143"]
 japanese = "まったく話にならん！<end>"

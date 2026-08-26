@@ -104,6 +104,10 @@ korean = "돌아가자!<end>"
 japanese = "これは…！<end>"
 korean = "이건…!<end>"
 
+["320079"]
+japanese = "だから、みんな殺しちゃった。<end>"
+korean = "그래서 모두 죽여 버렸어.<end>"
+
 ["320080"]
 japanese = "！<end>"
 korean = "！<end>"
@@ -151,6 +155,10 @@ korean = "<value:$28> 님~. 어서 오세요. 수고하셨어요~.<end>"
 ["320140"]
 japanese = "デスギガースに立ち向かう<end>"
 korean = "데스기가스에 맞선다<end>"
+
+["320141"]
+japanese = "兄の言うとおり村人を避難させる<end>"
+korean = "형 말대로 마을 사람들을 대피시킨다<end>"
 
 ["320143"]
 japanese = "セラという男についていく<end>"

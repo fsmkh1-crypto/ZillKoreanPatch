@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["970000"]
+japanese = "ノエル２用メッセージＶ１開始<end>"
+korean = "노엘2용 메시지 V1 시작<end>"
+
 ["970007"]
 japanese = "やってみよう<end>"
 korean = "해 보자<end>"
@@ -19,6 +23,10 @@ korean = "하지만….<end>"
 ["970043"]
 japanese = "…失礼するよ。<end>"
 korean = "…실례할게.<end>"
+
+["970062"]
+japanese = "俺は信じない…信じないぞ…。<end>"
+korean = "난 믿지 않아… 믿지 않는다고….<end>"
 
 ["970079"]
 japanese = "ノエル用メッセージＶ１終端<end>"

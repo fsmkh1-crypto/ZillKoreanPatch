@@ -32,6 +32,10 @@ korean = "안 돼!!<end>"
 japanese = "バカ！　逃げろ！<end>"
 korean = "바보야! 도망쳐!<end>"
 
+["2270013"]
+japanese = "おじさん！　起きてよぅ…。<end>"
+korean = "아저씨! 일어나 봐….<end>"
+
 ["2270020"]
 japanese = "おじさん、大丈夫！？<end>"
 korean = "아저씨, 괜찮아!?<end>"
@@ -51,6 +55,10 @@ korean = "그렇구나…. 고마워.<end>"
 ["2270030"]
 japanese = "お友だち！<end>"
 korean = "친구!<end>"
+
+["2270031"]
+japanese = "…そ、そんなんで、いいの？<end>"
+korean = "…그, 그걸로 괜찮은 거야?<end>"
 
 ["2270033"]
 japanese = "そっか…<end>"

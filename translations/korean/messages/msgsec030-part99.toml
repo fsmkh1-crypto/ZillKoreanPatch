@@ -20,13 +20,33 @@ korean = "그, 그만해 주세요!<end>"
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"
 
+["300049"]
+japanese = "冗談よ。<line-break>相変わらず子供ねぇ。<end>"
+korean = "농담이야. 여전히 어린애네.<end>"
+
+["300062"]
+japanese = "くやしいけど、なすすべなしね。<end>"
+korean = "분하지만 방법이 없네.<end>"
+
 ["300066"]
 japanese = "ねぇ…。<end>"
 korean = "있잖아….<end>"
 
+["300067"]
+japanese = "私ね…騎士になるのが夢なんだ。<end>"
+korean = "나… 기사가 되는 게 꿈이야.<end>"
+
 ["300069"]
 japanese = "寒い…。<end>"
 korean = "추워…<end>"
+
+["300072"]
+japanese = "下が柔らかくて助かったでゴブ！<end>"
+korean = "밑이 푹신해서 살았고블!<end>"
+
+["300073"]
+japanese = "しかし、ここはどこでゴブ～？<end>"
+korean = "그런데 여긴 어디고블~?<end>"
 
 ["300074"]
 japanese = "げほっ…。なんなのよ！<end>"

@@ -32,6 +32,10 @@ korean = "아직 풋내기<end>"
 japanese = "アハハハ。やっぱりね。<end>"
 korean = "아하하하. 역시 그랬네.<end>"
 
+["880037"]
+japanese = "都会生まれだから、わからない<end>"
+korean = "도시에서 태어나서 모르겠어.<end>"
+
 ["880038"]
 japanese = "よくわかるよ<end>"
 korean = "잘 알아<end>"
@@ -67,6 +71,10 @@ korean = "그럼, 급해서 이만.<end>"
 ["880062"]
 japanese = "やぁ、…ひさしぶりだね。<end>"
 korean = "여어, …오랜만이네.<end>"
+
+["880069"]
+japanese = "エステルの首飾りを手渡した。<end>"
+korean = "에스텔의 목걸이를 건넸다.<end>"
 
 ["880078"]
 japanese = "ホントごめんなさい！<end>"
@@ -127,6 +135,10 @@ korean = "OFF인 채로 둔다<end>"
 ["880102"]
 japanese = "では、何もしません。<end>"
 korean = "그럼 아무것도 하지 않겠습니다.<end>"
+
+["880103"]
+japanese = "誘拐状態フラグをＯＦＦにする<end>"
+korean = "유괴 상태 플래그를 OFF로 한다<end>"
 
 ["880104"]
 japanese = "ＯＮのままでよい<end>"

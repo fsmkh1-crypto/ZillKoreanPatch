@@ -16,9 +16,21 @@ korean = "안녕, 반.<end>"
 japanese = "ねえ、<value:$28>。<end>"
 korean = "있잖아, <value:$28>.<end>"
 
+["280010"]
+japanese = "ヴァンも手伝ってくれるよね？<end>"
+korean = "반도 도와줄 거지?<end>"
+
 ["280012"]
 japanese = "じゃ、行こう。<end>"
 korean = "그럼, 가자.<end>"
+
+["280014"]
+japanese = "なんだよ、行かないのかよ！？<end>"
+korean = "뭐야, 안 가는 거야!?<end>"
+
+["280016"]
+japanese = "ね、やっぱり降りてきたでしょ？<end>"
+korean = "봐, 역시 내려왔지?<end>"
 
 ["280034"]
 japanese = "えーっ！？<end>"
@@ -27,6 +39,14 @@ korean = "에엣!?<end>"
 ["280036"]
 japanese = "な、なにをぉぉ！！<end>"
 korean = "뭐, 뭐라고오오!!<end>"
+
+["280038"]
+japanese = "おばさん、ヴァン、よろしくね。<end>"
+korean = "아줌마, 반, 잘 부탁해.<end>"
+
+["280039"]
+japanese = "ちぇっ…、<line-break>まあ、任せとけよ。<end>"
+korean = "쳇… 뭐, 맡겨 둬.<end>"
 
 ["280047"]
 japanese = "おうよ。<end>"
@@ -39,6 +59,14 @@ korean = "어이, 늦었잖아.<end>"
 ["280057"]
 japanese = "なに言ってんだい。<end>"
 korean = "무슨 소릴 하는 거야.<end>"
+
+["280058"]
+japanese = "ヴァンも手伝い、ありがとうよ。<end>"
+korean = "반도 도와줘서 고마웠어.<end>"
+
+["280060"]
+japanese = "ははは、ありがとう、ヴァン。<end>"
+korean = "하하하, 고마워, 반.<end>"
 
 ["280064"]
 japanese = "お、俺もいいの？<end>"
@@ -67,6 +95,14 @@ korean = "으아ーーー앗!!<end>"
 ["280103"]
 japanese = "ああーっ！　ヴァーーン！！<end>"
 korean = "아아악! 바아안!!<end>"
+
+["280106"]
+japanese = "僕、先に行って<line-break>待ってるから！<end>"
+korean = "난 먼저 가서 기다릴게!<end>"
+
+["280108"]
+japanese = "違うよ、おじさん！<line-break>僕たちは…<end>"
+korean = "아니야, 아저씨! 우리는….<end>"
 
 ["280111"]
 japanese = "…これだね。　　　　　<end>"
@@ -115,6 +151,10 @@ korean = "으…으….<end>"
 ["280153"]
 japanese = "やめるんだ、<line-break><value:$28>！<end>"
 korean = "그만둬, <value:$28>!<end>"
+
+["280154"]
+japanese = "ちっ。<line-break>まったく、これだから…<end>"
+korean = "쳇. 정말, 이래서야….<end>"
 
 ["280156"]
 japanese = "さ、小僧ども、うちに来い。<end>"

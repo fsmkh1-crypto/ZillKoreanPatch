@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["500000"]
+japanese = "ファーロス・ボリューム１用開始<end>"
+korean = "파로스 볼륨 1용 시작<end>"
+
 ["500001"]
 japanese = "よう、<value:$28>。<end>"
 korean = "여어, <value:$28>.<end>"

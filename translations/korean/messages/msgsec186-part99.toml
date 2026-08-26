@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1860000"]
+japanese = "旅立ち０６（改）メッセージ開始<end>"
+korean = "여행 출발 06(개) 메시지 시작<end>"
+
 ["1860027"]
 japanese = "おお、フリントさんとこの<line-break><value:$28>か。<line-break>今日出発かな。<end>"
 korean = "오오, 플린트 씨네 <value:$28>구나. 오늘 출발하나?<end>"
@@ -40,6 +44,10 @@ korean = "아ー, 그 사람!<end>"
 japanese = "よぉ、お邪魔してるぜ。<end>"
 korean = "여어, 실례 좀 하고 있어.<end>"
 
+["1860073"]
+japanese = "えぇ！？　もう行っちゃうのぉ？<end>"
+korean = "에엣!? 벌써 가는 거야?<end>"
+
 ["1860075"]
 japanese = "じゃあな、<line-break>フリントさん、ルルアンタ、<line-break>それに<value:$28>。<end>"
 korean = "그럼 안녕, 플린트 씨, 루루안타, 그리고 <value:$28>.<end>"
@@ -67,3 +75,7 @@ korean = "뭐냐, 넌!<end>"
 ["1860159"]
 japanese = "…エリス様は？<end>"
 korean = "…에리스 님은?<end>"
+
+["1860191"]
+japanese = "旅立ち０６（改）メッセージ終端<end>"
+korean = "여행 출발 06(개) 메시지 끝<end>"

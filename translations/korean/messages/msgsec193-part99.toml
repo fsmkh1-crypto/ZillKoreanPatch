@@ -36,6 +36,10 @@ korean = "아, 아버님… 그럴 수가….<end>"
 japanese = "あ…、え？　え？<end>"
 korean = "아…, 어? 어?<end>"
 
+["1930049"]
+japanese = "もう！　なんて父親なのかしら！<end>"
+korean = "정말! 무슨 아버지가 이래!<end>"
+
 ["1930050"]
 japanese = "<value:$28>さん、<line-break>心配なのでついていって<line-break>あげてください。<end>"
 korean = "<value:$28> 씨, 걱정되니 따라가 주세요.<end>"

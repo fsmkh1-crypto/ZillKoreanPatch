@@ -8,6 +8,10 @@ korean = "엘리스에 대해 조금 더 묻는다<end>"
 japanese = "うなずく<end>"
 korean = "고개를 끄덕인다<end>"
 
+["420011"]
+japanese = "お待ちしていた、エリエナイ公。<end>"
+korean = "기다리고 있었습니다, 에리에나이 공.<end>"
+
 ["420014"]
 japanese = "ほう？<end>"
 korean = "호오?<end>"
@@ -47,6 +51,10 @@ korean = "젠장! 죽여! 이 귀족 놈아!<end>"
 ["420081"]
 japanese = "姉ちゃん、それじゃ！<end>"
 korean = "누나, 그럼!<end>"
+
+["420082"]
+japanese = "貴様がいけにえ…というわけか。<end>"
+korean = "네놈이 제물…이라는 건가.<end>"
 
 ["420084"]
 japanese = "…即刻、広場で首をはねろ。<end>"

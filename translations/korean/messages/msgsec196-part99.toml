@@ -4,6 +4,14 @@
 japanese = "イベントセレクト用開始<end>"
 korean = "이벤트 선택용 시작<end>"
 
+["1960251"]
+japanese = "＃３：ＶＳ邪竜後・エン・城門前<end>"
+korean = "#3: VS 사룡 후·엔·성문 앞<end>"
+
+["1960369"]
+japanese = "＃６：主人公捕まる・エルズ・港<end>"
+korean = "#6: 주인공 체포·엘즈·항구<end>"
+
 ["1960437"]
 japanese = "詠唱<end>"
 korean = "영창<end>"
@@ -148,6 +156,14 @@ korean = "마논 배리어.<end>"
 japanese = "時代０：～旅立ち<end>"
 korean = "시대 0: ~여행 출발<end>"
 
+["1960503"]
+japanese = "時代６：カルラ進軍～ネメア死亡<end>"
+korean = "시대 6: 카를라 진군~네메아 사망<end>"
+
+["1960504"]
+japanese = "時代７：ネメア死亡～ネメア復活<end>"
+korean = "시대 7: 네메아 사망~네메아 부활<end>"
+
 ["1960505"]
 japanese = "時代８：ネメア復活～<end>"
 korean = "시대 8: 네메아 부활~<end>"
@@ -260,9 +276,17 @@ korean = " 나지 분리 알림<end>"
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960553"]
+japanese = "　アルノートゥンでナッジと戦う<end>"
+korean = "알노툰에서 나지와 싸움<end>"
+
 ["1960554"]
 japanese = "　予備<end>"
 korean = "　예비<end>"
+
+["1960556"]
+japanese = "　焦燥の耳飾りを巡って神器争奪<end>"
+korean = "초조의 귀걸이를 둘러싼 신기 쟁탈<end>"
 
 ["1960557"]
 japanese = "　ティアナ救出<end>"
@@ -319,6 +343,10 @@ korean = "　체라셸 망각<end>"
 ["1960579"]
 japanese = "　（男主）双子と闇の巨人２<end>"
 korean = "(남주) 쌍둥이와 어둠의 거인 2<end>"
+
+["1960580"]
+japanese = "　（男主）お兄ちゃんと呼ぶ理由<end>"
+korean = "(남주) 오빠라고 부르는 이유<end>"
 
 ["1960581"]
 japanese = "　イオンズ導入<end>"
@@ -388,9 +416,21 @@ korean = " 084-울그 강림<end>"
 japanese = "　136-C無限のソウルについて<end>"
 korean = "136-C 무한의 소울에 대하여<end>"
 
+["1960614"]
+japanese = "　復興団（アトレイア）門番処理<end>"
+korean = "부흥단(아트레이아) 문지기 처리<end>"
+
+["1960620"]
+japanese = "　復興団（アトレイア）それ以降<end>"
+korean = "부흥단(아트레이아) 그 이후<end>"
+
 ["1960624"]
 japanese = "　クーデター「◆丘」部分<end>"
 korean = "쿠데타 「◆언덕」 부분<end>"
+
+["1960625"]
+japanese = "　クーデター謁見の間ｱﾄﾚｲｱ<end>"
+korean = "쿠데타 알현실 아트레이아<end>"
 
 ["1960627"]
 japanese = "　ゼネテス逮捕<end>"
@@ -403,6 +443,10 @@ korean = "　예비<end>"
 ["1960630"]
 japanese = "　アイリーン救出(ロセン)<end>"
 korean = "아이린 구출(로센)<end>"
+
+["1960633"]
+japanese = "　飛沫の群島で決意する（後半）<end>"
+korean = "물보라 군도에서 결의(후반)<end>"
 
 ["1960634"]
 japanese = "　104ノエル再会<end>"
@@ -539,6 +583,10 @@ korean = " 0815_크뤼End#16<end>"
 ["1960683"]
 japanese = "　0816_ｻﾞｷﾞｳﾞEnd#17<end>"
 korean = "0816_자기브End#17<end>"
+
+["1960684"]
+japanese = "　17クリュセイス　女主人公ver END<end>"
+korean = "17 크류세이스 여성 주인공 ver END<end>"
 
 ["1960685"]
 japanese = "　19ザギウ　女主人公ver END<end>"

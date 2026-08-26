@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["270018"]
+japanese = "うぬの戦い、<line-break>見せてもらおう。<end>"
+korean = "네 싸움, 지켜보겠다.<end>"
+
 ["270041"]
 japanese = "予選大会<end>"
 korean = "예선대회<end>"
@@ -40,6 +44,10 @@ korean = "상금 <value:$1A>기어를 손에 넣었다.<end>"
 japanese = "また挑戦してくださいね。<end>"
 korean = "또 도전해 주세요.<end>"
 
+["270068"]
+japanese = "もっと強くなって、また来てね。<end>"
+korean = "좀 더 강해져서 다시 와.<end>"
+
 ["270071"]
 japanese = "どっちのことが聞きたい？<end>"
 korean = "어느 쪽 이야기를 듣고 싶어?<end>"
@@ -55,6 +63,18 @@ korean = "아직 못 했어<end>"
 ["270089"]
 japanese = "この俺が敗れるとは・・・。<end>"
 korean = "이 내가 패배하다니….<end>"
+
+["270090"]
+japanese = "闘技場用テンポラリメッセージ<end>"
+korean = "투기장용 임시 메시지<end>"
+
+["270091"]
+japanese = "闘技場用テンポラリメッセージ<end>"
+korean = "투기장용 임시 메시지<end>"
+
+["270092"]
+japanese = "闘技場用テンポラリメッセージ<end>"
+korean = "투기장용 임시 메시지<end>"
 
 ["270093"]
 japanese = "戦闘に勝った事にする<end>"
@@ -79,6 +99,18 @@ korean = "여어, <value:$28>. 진심으로 하면 안 돼. 살살 부탁해.<en
 ["270107"]
 japanese = "まいったな、<value:$28>と<line-break>あたるなんて。<line-break>でも、負けないよ！<end>"
 korean = "곤란하네, <value:$28>와 맞붙게 되다니. 그래도 지지 않을 거야!<end>"
+
+["270118"]
+japanese = "神よ、私に力をお貸しください。<end>"
+korean = "신이여, 제게 힘을 빌려 주십시오.<end>"
+
+["270120"]
+japanese = "こいつ、強いのか？<line-break>しかし…！<end>"
+korean = "이 녀석, 강한 건가? 하지만…!<end>"
+
+["270122"]
+japanese = "大地の力を君に教えてあげよう。<end>"
+korean = "대지의 힘을 네게 가르쳐 주지.<end>"
 
 ["270126"]
 japanese = "へへ。よろしくな。<end>"

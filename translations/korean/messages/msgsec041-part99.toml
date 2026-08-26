@@ -120,6 +120,10 @@ korean = "헤헤…, 헤헤….<end>"
 japanese = "…ありがとう、<value:$28>。<end>"
 korean = "…고마워, <value:$28>.<end>"
 
+["410068"]
+japanese = "…我らは魔人を討伐したのみだ。<end>"
+korean = "…우리는 마인을 토벌했을 뿐이다.<end>"
+
 ["410070"]
 japanese = "いいぜ、ドワーフのおっさん。<end>"
 korean = "좋아, 드워프 아저씨.<end>"
@@ -147,6 +151,10 @@ korean = "네.<end>"
 ["410091"]
 japanese = "…ええ。<end>"
 korean = "…네.<end>"
+
+["410101"]
+japanese = "や、やめるわけには…いかない。<end>"
+korean = "그, 그만둘 수는… 없어.<end>"
 
 ["410104"]
 japanese = "どうしたの、ナーシェス？<end>"

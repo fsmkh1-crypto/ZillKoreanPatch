@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["830000"]
+japanese = "フゴー、Vol６用メッセージ開始<end>"
+korean = "휴고 Vol6용 메시지 시작<end>"
+
 ["830012"]
 japanese = "そして、博愛心も。<end>"
 korean = "그리고 박애심도.<end>"
@@ -15,3 +19,7 @@ korean = "우뉴우….<end>"
 ["830025"]
 japanese = "むにゅー…。<end>"
 korean = "우뉴우….<end>"
+
+["830038"]
+japanese = "フゴー、Vol６用メッセージ終端<end>"
+korean = "휴고 Vol6용 메시지 끝<end>"

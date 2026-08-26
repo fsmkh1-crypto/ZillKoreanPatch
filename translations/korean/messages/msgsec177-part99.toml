@@ -4,6 +4,10 @@
 japanese = "床からトゲの罠を見つけた。<end>"
 korean = "바닥에서 가시 함정을 발견했다.<end>"
 
+["1770004"]
+japanese = "アロースリットの罠を見つけた。<end>"
+korean = "애로슬릿 함정을 발견했다.<end>"
+
 ["1770007"]
 japanese = "手に入れない<end>"
 korean = "손에 넣지 않는다<end>"
@@ -39,6 +43,10 @@ korean = "교환한다<end>"
 ["1770028"]
 japanese = "床からトゲの罠を見つけた。<end>"
 korean = "바닥에서 가시 함정을 발견했다.<end>"
+
+["1770029"]
+japanese = "アロースリットの罠を見つけた。<end>"
+korean = "애로슬릿 함정을 발견했다.<end>"
 
 ["1770031"]
 japanese = "そのままにする<end>"
@@ -87,3 +95,7 @@ korean = "그대로 둔다<end>"
 ["1770047"]
 japanese = "下げてみる<end>"
 korean = "내려 본다<end>"
+
+["1770052"]
+japanese = "デモリッシュの封印が解かれた。<end>"
+korean = "데몰리시의 봉인이 풀렸다.<end>"
