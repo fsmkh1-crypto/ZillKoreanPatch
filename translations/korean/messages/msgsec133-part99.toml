@@ -264,6 +264,10 @@ korean = "기다리고 있을게, <value:$28>.<end>"
 japanese = "では、行きますよ。<end>"
 korean = "그럼, 갑니다.<end>"
 
+["1330257"]
+japanese = "ともかく、<line-break>今は猫屋敷に戻りましょう。<end>"
+korean = "아무튼 지금은 고양이 저택으로 돌아가죠.<end>"
+
 ["1330259"]
 japanese = "全軍、ハンカチ噛みつつ、退却ー！<end>"
 korean = "전군, 손수건을 깨물며 후퇴~!<end>"
@@ -707,6 +711,10 @@ korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>
 ["1330626"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
+
+["1330628"]
+japanese = "ノエル…。<line-break>あたしたち…もう…いくわ…<end>"
+korean = "노엘…. 우리… 이제… 갈게….<end>"
 
 ["1330629"]
 japanese = "カフィン！<end>"
