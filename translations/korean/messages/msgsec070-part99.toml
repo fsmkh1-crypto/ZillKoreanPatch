@@ -124,6 +124,10 @@ korean = "예비 선택지 19<end>"
 japanese = "予備選択肢２０<end>"
 korean = "예비 선택지 20<end>"
 
+["700199"]
+japanese = "よぉ、<value:$28><line-break>邪魔していいか？<end>"
+korean = "여어, <value:$28>. 방해 좀 해도 될까?<end>"
+
 ["700222"]
 japanese = "もうイヤ、もうイヤ！　もぉうイヤ！！<end>"
 korean = "이제 싫어, 싫어! 정말 싫어!!<end>"
@@ -131,6 +135,10 @@ korean = "이제 싫어, 싫어! 정말 싫어!!<end>"
 ["700227"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
+
+["700237"]
+japanese = "<value:$28>…<line-break>そっち行って…いい？<end>"
+korean = "<value:$28>… 그쪽으로 가도… 돼?<end>"
 
 ["700245"]
 japanese = "やぁ、<value:$28><end>"

@@ -52,6 +52,10 @@ korean = "공주님 기분도 살필 겸.<end>"
 japanese = "まぁ、おやさしいこと。　　　　<end>"
 korean = "어머, 참 친절하시네요.<end>"
 
+["660024"]
+japanese = "そりゃまずい。<line-break>介抱しようか？<end>"
+korean = "그건 곤란한데. 간호해 줄까?<end>"
+
 ["660028"]
 japanese = "なんですって？<end>"
 korean = "뭐라고요?<end>"
@@ -139,6 +143,10 @@ korean = "흐음, 어떻게 알았는지 듣고 싶군.<end>"
 ["660141"]
 japanese = "え…、もうお帰りですの？<end>"
 korean = "어머…, 벌써 돌아가시나요?<end>"
+
+["660142"]
+japanese = "生きてたら、<line-break>必ずまた来るさ。<end>"
+korean = "살아 있다면 반드시 다시 올 거야.<end>"
 
 ["660166"]
 japanese = "くだらない<line-break>へりくつですわ。<end>"

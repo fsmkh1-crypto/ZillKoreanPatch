@@ -32,6 +32,10 @@ korean = "자, 가자, <value:$28>.<end>"
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
 
+["750022"]
+japanese = "君はそう思うかい、<line-break><value:$28>？<end>"
+korean = "넌 그렇게 생각하니, <value:$28>?<end>"
+
 ["750027"]
 japanese = "それでは、王女様。<line-break>僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
 korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드리겠습니다.<end>"
@@ -131,6 +135,10 @@ korean = "자, 갈까? <value:$28>.<end>"
 ["750099"]
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
+
+["750102"]
+japanese = "君はそう思うかい？<line-break><value:$28>。<end>"
+korean = "넌 그렇게 생각하니? <value:$28>.<end>"
 
 ["750105"]
 japanese = "…うれしい…です。<end>"

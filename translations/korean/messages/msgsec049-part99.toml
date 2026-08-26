@@ -12,6 +12,10 @@ korean = "우선 길드로 가자.<end>"
 japanese = "ま、いろんなとこだ。<end>"
 korean = "뭐, 여러 곳이지.<end>"
 
+["490006"]
+japanese = "いんや。　　　　　　　　　　　　　　<end>"
+korean = "아니.<end>"
+
 ["490018"]
 japanese = "わかった。<end>"
 korean = "알았어.<end>"
@@ -231,6 +235,10 @@ korean = "그럼, 누구야아?<end>"
 ["490259"]
 japanese = "でも、ネモは猫のままだったよぉ？<end>"
 korean = "그런데 네모는 고양이 그대로였어?<end>"
+
+["490260"]
+japanese = "禁断の聖杯は持ち主に英知を与えます。<end>"
+korean = "금단의 성배는 소유자에게 지혜를 줍니다.<end>"
 
 ["490262"]
 japanese = "かわいそぉ！<end>"

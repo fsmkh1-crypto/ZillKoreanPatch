@@ -276,6 +276,10 @@ korean = "왜, 왜 그래? 선장.<end>"
 japanese = "大丈夫か？　<value:$28>。<end>"
 korean = "괜찮아? <value:$28>.<end>"
 
+["370226"]
+japanese = "それよりも何よりも、<line-break><value:$28>が<line-break>そばにいてくれたおかげだよ。　<end>"
+korean = "무엇보다도 <value:$28>가 곁에 있어 준 덕분이야.<end>"
+
 ["370230"]
 japanese = "…わかってるさ。<end>"
 korean = "…알고 있어.<end>"

@@ -116,6 +116,10 @@ korean = "시, 시끄러워!<end>"
 japanese = "…<value:$28>様。<end>"
 korean = "…<value:$28> 님.<end>"
 
+["1400072"]
+japanese = "<value:$28>様！<line-break>私、手紙をちゃんと<line-break>自分で読んでまいりました！<end>"
+korean = "<value:$28> 님! 저, 편지를 제대로 제 손으로 읽고 왔습니다!<end>"
+
 ["1400075"]
 japanese = "…ゼネテスに呼びだされた、だと？<end>"
 korean = "…제네테스가 불렀다고?<end>"
@@ -264,6 +268,10 @@ korean = "그 녀석도 그런 거 아냐?<end>"
 japanese = "な、何がおかしいのです！？<end>"
 korean = "뭐, 뭐가 우스운 겁니까!?<end>"
 
+["1400195"]
+japanese = "これ、俺に来た手紙。<line-break>読む？<end>"
+korean = "이거, 나한테 온 편지야. 읽어 볼래?<end>"
+
 ["1400199"]
 japanese = "…どういうことです？<end>"
 korean = "…무슨 뜻이죠?<end>"
@@ -304,6 +312,10 @@ korean = "…무슨 말을 하고 싶은 거야!?<end>"
 japanese = "う、うるさい！<end>"
 korean = "시, 시끄러워!<end>"
 
+["1400236"]
+japanese = "<value:$28>様！<line-break>私、手紙をちゃんと<line-break>自分で読んでまいりました！<end>"
+korean = "<value:$28> 님! 저, 편지를 제대로 제 손으로 읽고 왔습니다!<end>"
+
 ["1400239"]
 japanese = "…ゼネテスに呼びだされた、だと？<end>"
 korean = "…제네테스가 불렀다고?<end>"
@@ -315,6 +327,10 @@ korean = "무슨 말을 하고 싶은 거야!<end>"
 ["1400256"]
 japanese = "その声…シャリね！？<end>"
 korean = "그 목소리… 샤리구나!?<end>"
+
+["1400257"]
+japanese = "シャリか！？<line-break>どこにおる！！<end>"
+korean = "샤리인가!? 어디 있느냐!!<end>"
 
 ["1400260"]
 japanese = "フン…出たか。<end>"
@@ -479,6 +495,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1400383"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1400387"]
+japanese = "言わずともよい<line-break>水の巫女よ。<end>"
+korean = "말하지 않아도 된다, 물의 무녀여.<end>"
 
 ["1400401"]
 japanese = "追加メッセージここから<end>"

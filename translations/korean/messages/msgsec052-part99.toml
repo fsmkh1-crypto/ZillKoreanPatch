@@ -64,6 +64,10 @@ korean = "전쟁은 수단을 가리지 않습니다.<end>"
 japanese = "よ。<line-break>お待たせ。<end>"
 korean = "왔어. 기다렸지.<end>"
 
+["520110"]
+japanese = "５分でいい。<line-break>頼むぜ、<value:$28>。<end>"
+korean = "5분이면 돼. 부탁한다, <value:$28>.<end>"
+
 ["520111"]
 japanese = "バカな！　ロストール軍だと！<end>"
 korean = "말도 안 돼! 로스톨군이라고!<end>"

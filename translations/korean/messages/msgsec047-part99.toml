@@ -4,6 +4,10 @@
 japanese = "ガルドラン・ボリューム２開始<end>"
 korean = "갈드란 볼륨 2 시작<end>"
 
+["470001"]
+japanese = "おや、あ～んた、な～んとか君じゃね。<end>"
+korean = "어이쿠, 자네 그 뭐시기 군 아닌가.<end>"
+
 ["470005"]
 japanese = "その通り<end>"
 korean = "맞아<end>"
@@ -11,6 +15,14 @@ korean = "맞아<end>"
 ["470006"]
 japanese = "いや違う<end>"
 korean = "아니, 틀려<end>"
+
+["470007"]
+japanese = "ディードの使い方はわかっと～るのね。<end>"
+korean = "디드 사용법은 알고 있겠지.<end>"
+
+["470010"]
+japanese = "ディードの使い方はわかっと～るのね。<end>"
+korean = "디드 사용법은 알고 있겠지.<end>"
 
 ["470017"]
 japanese = "おなかが…すいて…。<end>"

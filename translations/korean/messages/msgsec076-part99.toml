@@ -12,6 +12,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["760015"]
+japanese = "じゃ、よろしくね、<line-break><value:$28>。<end>"
+korean = "그럼 잘 부탁해, <value:$28>.<end>"
+
 ["760022"]
 japanese = "シャリの依頼は受けられない<end>"
 korean = "샤리의 의뢰는 받을 수 없다<end>"

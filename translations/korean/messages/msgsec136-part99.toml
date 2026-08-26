@@ -120,6 +120,10 @@ korean = "<value:$28>, 부탁이네. 나도 함께 여행에 데려가 주게.<e
 japanese = "そうか…<line-break>ありがとうな。<end>"
 korean = "그렇구나… 고맙다.<end>"
 
+["1360146"]
+japanese = "さあ、こいつを倒さないと、<line-break>この先には進めないよ。<line-break><value:$28>！<end>"
+korean = "자, 이 녀석을 쓰러뜨리지 않으면 앞으로 갈 수 없어. <value:$28>!<end>"
+
 ["1360158"]
 japanese = "じゃあね。<line-break>またあとで会おうね、<line-break><value:$28>。<end>"
 korean = "그럼 안녕. 나중에 또 만나자, <value:$28>.<end>"
@@ -348,6 +352,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "愛する…人のため？<end>"
 korean = "사랑하는… 사람을 위해?<end>"
 
+["1360402"]
+japanese = "さようなら、<line-break><value:$28>様…。<line-break>私の死を、苦いものにした人…。<end>"
+korean = "안녕히, <value:$28> 님…. 제 죽음을 쓰디쓰게 만든 사람….<end>"
+
 ["1360407"]
 japanese = "お気をつけて、<value:$28>様…。<end>"
 korean = "조심히 가세요, <value:$28> 님….<end>"
@@ -359,6 +367,10 @@ korean = "<value:$28> 님….<end>"
 ["1360410"]
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
+
+["1360413"]
+japanese = "<value:$28>様には<line-break>教えていただきたいことが<line-break>たくさんあります。<end>"
+korean = "<value:$28> 님께 배우고 싶은 게 정말 많습니다.<end>"
 
 ["1360414"]
 japanese = "あの…。<end>"

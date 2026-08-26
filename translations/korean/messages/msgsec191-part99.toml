@@ -112,13 +112,25 @@ korean = "카핀!<end>"
 japanese = "カフィン…。<end>"
 korean = "카핀….<end>"
 
+["1910127"]
+japanese = "<value:$28>さん、<line-break>わたしにはこんなことを言う<line-break>資格はないですけど…<end>"
+korean = "<value:$28> 씨, 제가 이런 말을 할 자격은 없지만…<end>"
+
 ["1910128"]
 japanese = "がんばってください…。<end>"
 korean = "힘내세요….<end>"
 
+["1910129"]
+japanese = "これが、本当に最後の戦いね。<line-break><value:$28>、<line-break>ちゃんと準備はできた？<end>"
+korean = "이게 정말 마지막 싸움이네. <value:$28>, 준비는 제대로 됐어?<end>"
+
 ["1910143"]
 japanese = "さぁ、あと一息じゃ。<line-break>戦いの準備はできたのか、<line-break><value:$28>？<end>"
 korean = "자, 이제 한숨만 더 내쉬면 된다. 전투 준비는 됐느냐, <value:$28>?<end>"
+
+["1910148"]
+japanese = "竜王…、<line-break>不足のない相手だ。<end>"
+korean = "용왕… 부족함 없는 상대다.<end>"
 
 ["1910156"]
 japanese = "終わったな。<end>"

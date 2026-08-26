@@ -152,6 +152,10 @@ korean = "인류의 혁신을 지향하고 싶다<end>"
 japanese = "決戦が終わった後にそれを探したい<end>"
 korean = "결전이 끝난 뒤에 그걸 찾고 싶다<end>"
 
+["1890182"]
+japanese = "僕ひとりの力じゃない。<line-break><value:$28>が<line-break>僕のそばにいてくれたからだ。<end>"
+korean = "나 혼자만의 힘이 아니야. <value:$28>가 곁에 있어 줬기 때문이야.<end>"
+
 ["1890189"]
 japanese = "私をさげすむか、ゾフォル？<end>"
 korean = "나를 업신여기는 건가, 조폴?<end>"

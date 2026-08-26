@@ -44,6 +44,10 @@ korean = "그럼 안녕, <value:$28>.<end>"
 japanese = "これは…！<end>"
 korean = "이건…!<end>"
 
+["890089"]
+japanese = "あんた、<value:$28>さんだね？<line-break>　　　　　　　　　　　　　　　　<line-break>　<end>"
+korean = "당신, <value:$28> 씨지?<end>"
+
 ["890093"]
 japanese = "（エステル…！）<end>"
 korean = "(에스텔…!)<end>"
@@ -200,6 +204,10 @@ korean = "도망친다<end>"
 japanese = "逃げない<end>"
 korean = "도망치지 않아<end>"
 
+["890237"]
+japanese = "うぅ…ぐぅっ…<line-break>…<value:$28>…？<end>"
+korean = "으윽… 크윽… …<value:$28>…?<end>"
+
 ["890240"]
 japanese = "な、なんじゃ？<end>"
 korean = "뭐, 뭐냐?<end>"
@@ -211,6 +219,10 @@ korean = "이…노래…<end>"
 ["890242"]
 japanese = "絶望を、押し返しおったか…<end>"
 korean = "절망을 밀어냈단 말인가…<end>"
+
+["890256"]
+japanese = "<value:$28>！<line-break>あなたまで、そんな！<end>"
+korean = "<value:$28>! 당신까지 그러다니!<end>"
 
 ["890278"]
 japanese = "…終わりだ。<end>"
@@ -351,6 +363,10 @@ korean = "그러니까, 응?<end>"
 ["890432"]
 japanese = "来たか…。<end>"
 korean = "왔나….<end>"
+
+["890439"]
+japanese = "<value:$28>、ここに来ては駄目。<line-break>そう言わなかったかしら。<line-break>…！？<end>"
+korean = "<value:$28>, 여기 오면 안 돼. 그렇게 말하지 않았나? …!?<end>"
 
 ["890443"]
 japanese = "おいで、<value:$28>。<end>"
@@ -580,6 +596,10 @@ korean = "내가 에리스다. 무슨 일이지?<end>"
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
 
+["890607"]
+japanese = "<value:$28>様！<line-break>カルラ様がお呼びです。<line-break>謁見の間にお急ぎください。<end>"
+korean = "<value:$28> 님! 카를라 님이 부르십니다. 알현실로 서둘러 주세요.<end>"
+
 ["890608"]
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
@@ -595,6 +615,14 @@ korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
 ["890615"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"
 korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
+
+["890618"]
+japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break><line-break>警備隊を呼べっ！　早く！<end>"
+korean = "네, 네놈은 해방군의 <value:$28>… 경비대를 불러! 빨리!<end>"
+
+["890619"]
+japanese = "<value:$28>様！<line-break>カルラ様がお呼びです。<line-break>謁見の間にお急ぎください。<end>"
+korean = "<value:$28> 님! 카를라 님이 부르십니다. 알현실로 서둘러 주세요.<end>"
 
 ["890620"]
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"

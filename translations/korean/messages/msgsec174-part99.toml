@@ -152,6 +152,10 @@ korean = "당신은 무엇을 꾸미고 있습니까?<end>"
 japanese = "さあ、出番だ。<end>"
 korean = "자, 출番이다.<end>"
 
+["1740140"]
+japanese = "ゼリグ！<line-break>どうしてここに…？<end>"
+korean = "제리그! 왜 여기에…?<end>"
+
 ["1740141"]
 japanese = "ど、どうし…て…。<end>"
 korean = "어, 어째…서….<end>"
@@ -179,6 +183,10 @@ korean = "크…윽!<end>"
 ["1740153"]
 japanese = "<value:$28>か…。<line-break>　　　　　　<line-break>　<line-break>…すまぬ。<end>"
 korean = "<value:$28>인가…. …미안하네.<end>"
+
+["1740156"]
+japanese = "何する気だい？<line-break>筋肉人形君。<end>"
+korean = "뭘 할 생각이지? 근육 인형 군.<end>"
 
 ["1740157"]
 japanese = "邪竜、復活はさせん。<line-break>　<line-break>　<line-break>ぬんっ！！<end>"

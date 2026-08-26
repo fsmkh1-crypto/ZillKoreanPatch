@@ -80,6 +80,10 @@ korean = "수고했다. 물러가도 좋다.<end>"
 japanese = "よう、<value:$28>。<line-break>久しぶり。<end>"
 korean = "여어, <value:$28>. 오랜만이야.<end>"
 
+["510099"]
+japanese = "５分でいい。<line-break>頼むぜ、<value:$28>。<end>"
+korean = "5분이면 돼. 부탁한다, <value:$28>.<end>"
+
 ["510100"]
 japanese = "バカな、ロストール軍だと！<end>"
 korean = "말도 안 돼, 로스톨군이라고!<end>"

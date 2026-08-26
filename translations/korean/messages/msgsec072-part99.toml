@@ -32,6 +32,10 @@ korean = "싫다고 하면?<end>"
 japanese = "くすっ、ホント、容赦ないのね。<end>"
 korean = "후훗, 정말 봐주질 않네.<end>"
 
+["720044"]
+japanese = "…そして、<value:$28>、<line-break>お前もな。<end>"
+korean = "…그리고 <value:$28>, 너도 말이야.<end>"
+
 ["720046"]
 japanese = "セラ…、セラ…なのか…？<end>"
 korean = "세라…, 세라…인가…?<end>"
@@ -95,6 +99,10 @@ korean = "………………. 음…. …아!<end>"
 ["720110"]
 japanese = "ねえ、ちょっと。<line-break><value:$28>…。<end>"
 korean = "저기, 잠깐. <value:$28>….<end>"
+
+["720112"]
+japanese = "さよなら、<value:$28>。<line-break>元気でね。<end>"
+korean = "잘 가, <value:$28>. 건강해.<end>"
 
 ["720123"]
 japanese = "アーギルシャイアメッセージ終端<end>"

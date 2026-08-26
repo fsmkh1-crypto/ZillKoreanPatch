@@ -12,6 +12,10 @@ korean = "식은 죽 먹기지<end>"
 japanese = "かったるいな<end>"
 korean = "귀찮네<end>"
 
+["1040026"]
+japanese = "…わかっています。<line-break>ですが…。<end>"
+korean = "…알고 있습니다. 하지만….<end>"
+
 ["1040028"]
 japanese = "空メッセージ<end>"
 korean = "빈 메시지<end>"

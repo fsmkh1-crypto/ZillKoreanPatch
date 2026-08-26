@@ -12,6 +12,10 @@ korean = "큰일이야, 타르튜바 님이야!<end>"
 japanese = "まぁ、何かしら？<end>"
 korean = "어머, 무슨 일이죠?<end>"
 
+["640027"]
+japanese = "ううっ…。<line-break>な、なんだ貴様は！<end>"
+korean = "으윽…. 뭐, 뭐냐 네놈은!<end>"
+
 ["640029"]
 japanese = "や、や、やめろっ！<end>"
 korean = "그, 그, 그만둬!<end>"
@@ -76,6 +80,14 @@ korean = "…아.<end>"
 japanese = "あ…、<value:$28>様。<end>"
 korean = "아…, <value:$28> 님.<end>"
 
+["640069"]
+japanese = "また…、<line-break>いらしたのですか…。<end>"
+korean = "또… 오셨군요….<end>"
+
+["640070"]
+japanese = "…私なんかに<line-break>何かご用ですか？<end>"
+korean = "…저 같은 사람에게 무슨 볼일이신가요?<end>"
+
 ["640074"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
@@ -99,6 +111,10 @@ korean = "…죄송합니다.<end>"
 ["640101"]
 japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
 korean = "아, 지나가십시오. <value:$28> 님.<end>"
+
+["640106"]
+japanese = "<value:$28>様が王女なら、<line-break>この王宮も変えられるような<line-break>気がします。<end>"
+korean = "<value:$28> 님이 왕녀가 되신다면 이 왕궁도 바꿀 수 있을 것 같아요.<end>"
 
 ["640108"]
 japanese = "もう帰ってしまうのですか？　　　<end>"
@@ -167,6 +183,10 @@ korean = "티아나의 안목은 확실해요.<end>"
 ["640159"]
 japanese = "ティアナの目は確かですわ。<end>"
 korean = "티아나의 안목은 확실해요.<end>"
+
+["640162"]
+japanese = "それで、つい冗談を。　　　　<line-break><value:$28>様って<line-break>不思議な方ですね。<end>"
+korean = "그래서 그만 농담을 해버렸어요. <value:$28> 님은 참 신기한 분이네요.<end>"
 
 ["640163"]
 japanese = "あ、もうお帰りなのですか？<end>"

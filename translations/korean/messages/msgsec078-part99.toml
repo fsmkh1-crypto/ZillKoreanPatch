@@ -12,6 +12,10 @@ korean = "샤리, 이분은…?<end>"
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
 
+["780033"]
+japanese = "どうだい、アトレイアの料理を<line-break>味見していってやるか、<line-break><value:$28>？<end>"
+korean = "어때, 아트레이아 요리를 맛보고 갈래, <value:$28>?<end>"
+
 ["780034"]
 japanese = "味見する<end>"
 korean = "맛을 본다<end>"

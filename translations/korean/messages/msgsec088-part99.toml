@@ -20,6 +20,10 @@ korean = "비시민 아니야<end>"
 japanese = "非市民で悪い？<end>"
 korean = "비시민이라 나빠?<end>"
 
+["880024"]
+japanese = "そういう<value:$28>は<line-break>どうなんだい？<line-break>結構、強いんじゃない？　　　<end>"
+korean = "그런 <value:$28>는 어때? 꽤 강한 편 아니야?<end>"
+
 ["880025"]
 japanese = "まぁね<end>"
 korean = "뭐, 그렇지<end>"
@@ -43,6 +47,10 @@ korean = "잘 알아<end>"
 ["880043"]
 japanese = "さ、我々と一緒に。<end>"
 korean = "자, 우리와 함께.<end>"
+
+["880048"]
+japanese = "なんだお前は！？<line-break>邪魔するな！<end>"
+korean = "뭐냐 네놈은!? 방해하지 마!<end>"
 
 ["880049"]
 japanese = "面倒だ。処理しろ！<end>"
@@ -291,6 +299,10 @@ korean = "넌 여기 있어야 해.<end>"
 ["880264"]
 japanese = "ホント！？<line-break>やったあー！！<end>"
 korean = "정말!? 해냈다-!!<end>"
+
+["880268"]
+japanese = "やあ、<value:$28>。<line-break>ラドラスはどう？<line-break>まだちょっと迷ったりする？<end>"
+korean = "안녕, <value:$28>. 라드라스는 어때? 아직 좀 헤매기도 해?<end>"
 
 ["880277"]
 japanese = "やあ、<value:$28>。<line-break>また来てくれたんだ。<line-break>うれしいよ。<end>"

@@ -24,6 +24,10 @@ korean = "…간다!<end>"
 japanese = "サイフォス！！<end>"
 korean = "사이포스!!<end>"
 
+["730039"]
+japanese = "アーギルシャイア様！<line-break><value:$28>が、ここまで<line-break>攻めてまいりました！<end>"
+korean = "아길샤이어 님! <value:$28>가 여기까지 쳐들어왔습니다!<end>"
+
 ["730050"]
 japanese = "サイ…フォス…。<end>"
 korean = "사이… 포스….<end>"
@@ -119,6 +123,10 @@ korean = "네, 선배.<end>"
 ["730101"]
 japanese = "さようなら、シェスター。<end>"
 korean = "잘 가, 셰스터.<end>"
+
+["730102"]
+japanese = "くすっ。<line-break>ロイは…渡さない…。<end>"
+korean = "후훗. 로이는… 넘겨주지 않아….<end>"
 
 ["730104"]
 japanese = "…姉さん。<end>"

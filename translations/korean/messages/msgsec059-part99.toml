@@ -88,6 +88,10 @@ korean = "저, 저, 적습이다ー!<end>"
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
 
+["590113"]
+japanese = "<value:$28>よ。<line-break>すまぬが、敗軍の将に<line-break>つきあってくれる気はあるか？<end>"
+korean = "<value:$28>여. 미안하지만 패군의 장수와 함께해 줄 생각이 있느냐?<end>"
+
 ["590119"]
 japanese = "アンギルダンが心配だ<end>"
 korean = "앙길단이 걱정이다<end>"

@@ -40,6 +40,10 @@ korean = "아이린이 그렇게 말한다면… 갈게.<end>"
 japanese = "聖杯奪還が第一じゃないの？<end>"
 korean = "성배 탈환이 우선 아니야?<end>"
 
+["840044"]
+japanese = "じゃあさ、<line-break>あたしと<value:$28>以外は<line-break>ここに残って、見張り役ね。<end>"
+korean = "그럼 나랑 <value:$28> 말고는 여기 남아서 망을 봐 줘.<end>"
+
 ["840050"]
 japanese = "お願いです！　許してください！<end>"
 korean = "부탁입니다! 용서해 주세요!<end>"
@@ -75,6 +79,10 @@ korean = "아~ 그렇구나.<end>"
 ["840067"]
 japanese = "ひいっ！<end>"
 korean = "히익!<end>"
+
+["840070"]
+japanese = "どいて！！<line-break>邪魔をするなら…！<end>"
+korean = "비켜!! 방해한다면…!<end>"
 
 ["840071"]
 japanese = "イヒヒヒヒ！<end>"
@@ -115,6 +123,10 @@ korean = "<value:$28>, 그렇지. 그럼 안녕, <value:$28>.<end>"
 ["840138"]
 japanese = "<value:$28>…。<line-break>また、あんた？<end>"
 korean = "<value:$28>…. 또 당신이야?<end>"
+
+["840150"]
+japanese = "ホント、ゴメンね、<line-break><value:$28>。<end>"
+korean = "정말 미안해, <value:$28>.<end>"
 
 ["840154"]
 japanese = "…同情したら、殺すよ？<end>"

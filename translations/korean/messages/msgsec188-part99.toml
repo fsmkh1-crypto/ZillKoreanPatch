@@ -52,6 +52,10 @@ korean = "일일이 보고할 필요는 없어<end>"
 japanese = "余計な心配をさせたくない<end>"
 korean = "쓸데없는 걱정을 끼치고 싶지 않아<end>"
 
+["1880065"]
+japanese = "こんなことでは、わたくし<line-break>どんどん<value:$28>に<line-break>嫌われてしまう…。<end>"
+korean = "이러다간 저, 점점 <value:$28>에게 미움받고 말겠어요….<end>"
+
 ["1880083"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
@@ -100,6 +104,10 @@ korean = "하지만 저는….<end>"
 japanese = "え？　…そんな、まさか…。<end>"
 korean = "어? …그럴 리가….<end>"
 
+["1880136"]
+japanese = "<value:$28>さん、<line-break>あなたの存在は解放軍に<line-break>欠くべからざるものです。<end>"
+korean = "<value:$28> 씨, 당신의 존재는 해방군에 없어서는 안 됩니다.<end>"
+
 ["1880138"]
 japanese = "なんで？<end>"
 korean = "왜?<end>"
@@ -107,6 +115,10 @@ korean = "왜?<end>"
 ["1880139"]
 japanese = "そうだ！<end>"
 korean = "맞아!<end>"
+
+["1880147"]
+japanese = "<value:$28>、<line-break>これからも、わたくしのことを<line-break>支えていてくださいね。<end>"
+korean = "<value:$28>, 앞으로도 저를 계속 지탱해 주세요.<end>"
 
 ["1880149"]
 japanese = "（回収は解放軍に任せよう。）<end>"

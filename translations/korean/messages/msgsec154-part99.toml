@@ -52,6 +52,10 @@ korean = "엘파스 Vol5 예비 메시지 8<end>"
 japanese = "エルファスＶｏｌ５予備メッセージ９<end>"
 korean = "엘파스 Vol5 예비 메시지 9<end>"
 
+["1540031"]
+japanese = "エルファスＶｏｌ５予備メッセージ１０<end>"
+korean = "엘파스 Vol5 예비 메시지 10<end>"
+
 ["1540033"]
 japanese = "逃げるんだ、<value:$28>！<end>"
 korean = "도망쳐, <value:$28>!<end>"
@@ -111,6 +115,10 @@ korean = "무슨 짓이야, 엘파스?<end>"
 ["1540074"]
 japanese = "くすっ。<line-break>ふーん、そう。<end>"
 korean = "후훗. 흐음, 그렇구나.<end>"
+
+["1540077"]
+japanese = "理解してくれとは言わぬ。<line-break>だが<value:$28>を決して<line-break>死なせはしない。<end>"
+korean = "이해해 달라고는 하지 않겠다. 하지만 <value:$28>를 절대 죽게 두지 않겠다.<end>"
 
 ["1540104"]
 japanese = "エルファス。イズのことは…。<end>"

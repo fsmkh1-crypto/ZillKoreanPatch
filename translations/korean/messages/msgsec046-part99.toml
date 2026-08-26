@@ -108,6 +108,14 @@ korean = "고양이가 말했다!<end>"
 japanese = "くすっ。<end>"
 korean = "후훗.<end>"
 
+["460160"]
+japanese = "ねえ、行ってみるといいよ。<line-break><value:$28>。<line-break>僕はここで待ってるから。<end>"
+korean = "있잖아, 가 보는 게 좋아. <value:$28>. 난 여기서 기다릴게.<end>"
+
+["460165"]
+japanese = "たぶん、この子は役に立ちますよ。　　<end>"
+korean = "아마 이 아이는 도움이 될 거예요.<end>"
+
 ["460171"]
 japanese = "無限のソウルとは<end>"
 korean = "무한의 소울이란<end>"
@@ -184,6 +192,10 @@ korean = "…구후, 구후후후후.<end>"
 japanese = "だーひゃっひゃっひゃっ！<end>"
 korean = "다햐햐햐햐!<end>"
 
+["460226"]
+japanese = "おや、あ～んた、な～んとか君じゃね。<end>"
+korean = "어이쿠, 자네 그 뭐시기 군 아닌가.<end>"
+
 ["460230"]
 japanese = "その通り<end>"
 korean = "맞아<end>"
@@ -191,6 +203,14 @@ korean = "맞아<end>"
 ["460231"]
 japanese = "いや違う<end>"
 korean = "아니, 틀려<end>"
+
+["460232"]
+japanese = "ディードの使い方はわかっと～るのね。<end>"
+korean = "디드 사용법은 알고 있겠지.<end>"
+
+["460242"]
+japanese = "じゃ、中に入ろうか。<line-break><value:$28>。<end>"
+korean = "그럼 안으로 들어갈까, <value:$28>.<end>"
 
 ["460260"]
 japanese = "ガルドラン・ボリューム１その２終端<end>"
