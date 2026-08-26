@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1980021"]
+japanese = "むぐっ…。<end>"
+korean = "윽….<end>"
+
 ["1980036"]
 japanese = "喜んで<end>"
 korean = "기꺼이.<end>"
@@ -12,6 +16,10 @@ korean = "앗….<end>"
 japanese = "ええっ！<end>"
 korean = "에엣!<end>"
 
+["1980106"]
+japanese = "はいっ！？<end>"
+korean = "네!?<end>"
+
 ["1980152"]
 japanese = "え！？<end>"
 korean = "어!?<end>"
@@ -19,3 +27,7 @@ korean = "어!?<end>"
 ["1980196"]
 japanese = "ええっ！<end>"
 korean = "에엣!<end>"
+
+["1980210"]
+japanese = "はいっ！？<end>"
+korean = "네!?<end>"

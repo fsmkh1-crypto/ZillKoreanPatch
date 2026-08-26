@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["130011"]
+japanese = "北の地下街道<end>"
+korean = "북쪽 지하가도<end>"
+
+["130012"]
+japanese = "南の地下街道<end>"
+korean = "남쪽 지하가도<end>"
+
+["130013"]
+japanese = "西の地下街道<end>"
+korean = "서쪽 지하가도<end>"
+
 ["130014"]
 japanese = "出直す<end>"
 korean = "다시 시작한다<end>"
