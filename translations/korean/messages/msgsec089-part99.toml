@@ -412,6 +412,10 @@ korean = "재미있는 일이야.<end>"
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
 
+["890488"]
+japanese = "<value:$28>、逃げなさい！<line-break>この町を出るの！<line-break>私もすぐにあとを追うわ！<end>"
+korean = "<value:$28>, 도망쳐! 이 마을을 떠나! 나도 곧 뒤따라갈게!<end>"
+
 ["890490"]
 japanese = "お願い！　逃げて！<end>"
 korean = "부탁이야! 도망쳐!<end>"

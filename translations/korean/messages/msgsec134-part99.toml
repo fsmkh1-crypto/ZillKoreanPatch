@@ -316,6 +316,10 @@ korean = "당신, 대체….<end>"
 japanese = "で、でも…。<end>"
 korean = "하, 하지만….<end>"
 
+["1340260"]
+japanese = "…ごめんなさい！<line-break><value:$28>さん！<end>"
+korean = "…미안해요! <value:$28> 씨!<end>"
+
 ["1340262"]
 japanese = "よかった…。<line-break>やっぱり<value:$28>さんは<line-break>間違ってなかったのね…。<end>"
 korean = "다행이야…. 역시 <value:$28> 씨는 틀리지 않았어….<end>"
