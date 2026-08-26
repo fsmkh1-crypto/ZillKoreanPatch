@@ -32,6 +32,10 @@ korean = "그만둔다<end>"
 japanese = "今日はもうお引き取りください。<end>"
 korean = "오늘은 이제 돌아가 주세요.<end>"
 
+["1850046"]
+japanese = "おや、<value:$28>様。<line-break>このような時に来られるとは。<line-break>どのようなご用ですかな？<end>"
+korean = "이런, <value:$28>님. 이런 때 오시다니. 무슨 용건이신지요?<end>"
+
 ["1850047"]
 japanese = "何かな、何かな。<end>"
 korean = "뭘까, 뭘까.<end>"

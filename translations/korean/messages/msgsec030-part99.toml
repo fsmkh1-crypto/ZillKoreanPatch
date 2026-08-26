@@ -24,6 +24,10 @@ korean = "정말, 손이 많이 가는 애라니까.<end>"
 japanese = "あら、目が覚めたみたいね、          <line-break><value:$28>。<line-break>　<end>"
 korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
 
+["300019"]
+japanese = "<value:$28>なら、<line-break>きっとあの娘より強くなれるわ。　　　<line-break>がんばってらっしゃい。<end>"
+korean = "<value:$28>이라면 분명 그 아이보다 강해질 수 있어. 힘내고 와.<end>"
+
 ["300028"]
 japanese = "<value:$28>、頼んだぜ。<line-break>　　　　　　　　　　　　　　　　　　　　<line-break>　<end>"
 korean = "<value:$28>, 부탁한다.<end>"

@@ -736,6 +736,10 @@ korean = "다, 당신…!<end>"
 japanese = "<value:$28>、<line-break>これからも、<line-break>わたくしを助けてくださいますか？<end>"
 korean = "<value:$28>, 앞으로도 저를 도와주시겠습니까?<end>"
 
+["560538"]
+japanese = "<value:$28>、あんたは英雄だ。<line-break>あんたさえいれば、<line-break>いつかは俺らが勝つ日が来るさ。<end>"
+korean = "<value:$28>, 넌 영웅이야. 네가 있기만 하면 언젠가는 우리가 이길 날이 올 거야.<end>"
+
 ["560539"]
 japanese = "<value:$28>さん、<line-break>状況は厳しいです。<line-break>気を引き締めてかかりましょう。<end>"
 korean = "<value:$28> 씨, 상황이 어렵습니다. 마음을 다잡고 갑시다.<end>"
@@ -956,6 +960,10 @@ korean = "…알겠다. 부하가 되지.<end>"
 japanese = "断る！<end>"
 korean = "거절한다!<end>"
 
+["560746"]
+japanese = "カルラ様、よろしいのですか？<line-break><value:$28>が、<line-break>忠誠を誓うとは、思えないのですが？<end>"
+korean = "카를라 님, 괜찮으시겠습니까? <value:$28>이 충성을 맹세할 거라곤 생각되지 않습니다만.<end>"
+
 ["560759"]
 japanese = "<value:$28>！<line-break>ロープを伝ってこい！<end>"
 korean = "<value:$28>! 로프를 타고 와!<end>"
@@ -984,6 +992,10 @@ korean = "칫!<end>"
 japanese = "あ、まって<line-break>深追いしては…<line-break> <end>"
 korean = "아, 기다려. 너무 깊이 쫓아가면….<end>"
 
+["560799"]
+japanese = "<value:$28>！<line-break>どうして追っていったのです！<line-break>待ち伏せにでもあったら、いったい…！<end>"
+korean = "<value:$28>! 왜 쫓아간 겁니까! 매복이라도 당하면 어쩌려고요…!<end>"
+
 ["560813"]
 japanese = "例の件ですが…。<end>"
 korean = "그 건 말입니다….<end>"
@@ -1003,6 +1015,10 @@ korean = "어? 방금 뭐라고…<end>"
 ["560828"]
 japanese = "ど、どういうこと…。<end>"
 korean = "무, 무슨 뜻이야….<end>"
+
+["560834"]
+japanese = "どうだ、<value:$28>。<line-break>事実を知ってもなお、命を懸けて<line-break>守るほどの女か、そいつは？<end>"
+korean = "어떠냐, <value:$28>. 진실을 알고도 목숨을 걸고 지킬 만큼의 여자냐, 그 녀석은?<end>"
 
 ["560835"]
 japanese = "今は彼女を守る<end>"

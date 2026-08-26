@@ -4,9 +4,17 @@
 japanese = "イークレムン　Ｖ１　開始<end>"
 korean = "이크렘 V1 시작<end>"
 
+["1820001"]
+japanese = "あ、こんにちは。<line-break>いいお天気ですね。<end>"
+korean = "아, 안녕하세요. 좋은 날씨네요.<end>"
+
 ["1820005"]
 japanese = "<value:$28>さん…ですか。<line-break>…不思議です。私もなぜか<line-break>この子と同じように…<end>"
 korean = "<value:$28>님…이신가요. …신기하네요. 저도 왠지 이 아이와 똑같이….<end>"
+
+["1820007"]
+japanese = "あ、はい。<line-break>わかりました、神官長様。<end>"
+korean = "아, 네. 알겠습니다, 신관장님.<end>"
 
 ["1820009"]
 japanese = "あ…、<value:$28>さん。<line-break>こんにちは。<end>"

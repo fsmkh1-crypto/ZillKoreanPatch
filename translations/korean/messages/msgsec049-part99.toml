@@ -232,6 +232,14 @@ korean = "아…, <value:$28>….<end>"
 japanese = "<value:$28>がお前に<line-break>謝りたいことがあるんだってよ。<line-break>　<line-break>ほら。<end>"
 korean = "<value:$28>가 네게 사과하고 싶은 게 있대. 자.<end>"
 
+["490198"]
+japanese = "何も言わなくて…いい…。<line-break>何も言わなくても…。<line-break>ねえ、顔を上げて、<value:$28>。<end>"
+korean = "아무 말 안 해도… 돼…. 아무 말 하지 않아도…. 자, 고개 들어, <value:$28>.<end>"
+
+["490200"]
+japanese = "本当は<value:$28>の悲しみを<line-break>一緒に背負ってあげないと<line-break>いけないときだったのに…。<end>"
+korean = "사실은 <value:$28>의 슬픔을 함께 짊어져 줘야 할 때였는데….<end>"
+
 ["490201"]
 japanese = "ルルアンタだって<line-break>つらかったはずだろ？<end>"
 korean = "루루안타도 괴로웠을 거잖아?<end>"

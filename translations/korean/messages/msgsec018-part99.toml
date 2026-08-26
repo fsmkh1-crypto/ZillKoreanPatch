@@ -8,6 +8,10 @@ korean = "후우, 어떻게든 쓰러뜨렸네. 자, <value:$28>, 이제 길드�
 japanese = "へへっ、いっちょうあがり！<line-break>よし、<value:$28>、報告しに<line-break>ギルドに行こうぜ！<end>"
 korean = "헤헷, 한 건 끝냈다! 좋아, <value:$28>, 길드에 보고하러 가자!<end>"
 
+["180005"]
+japanese = "やったぁ！　倒せたよ。<line-break>あとはギルドに報告するだけだね。<line-break>行こ、<value:$28>。<end>"
+korean = "해냈다! 쓰러뜨렸어. 이제 길드에 보고만 하면 돼. 가자, <value:$28>.<end>"
+
 ["180015"]
 japanese = "終わったな。<line-break>戻るぞ、<value:$28>。<line-break>　<end>"
 korean = "끝났군. 돌아가자, <value:$28>.<end>"
@@ -24,6 +28,10 @@ korean = "해냈네, <value:$28>. 이제 길드에 보고만 하면 돼. 그럼 
 japanese = "終わったな。<line-break>行くぞ。<line-break>　<end>"
 korean = "끝났군. 가자.<end>"
 
+["180021"]
+japanese = "よーし、退治、かんりょ～。<line-break>ささ、<value:$28><line-break>ギルドに帰って報酬もらおうよ。<end>"
+korean = "좋아, 토벌 완료~. 자자, <value:$28>, 길드로 돌아가서 보상 받자.<end>"
+
 ["180023"]
 japanese = "任務完了を確認しました。<line-break>ギルドへ戻りましょう、<line-break><value:$28>様。<end>"
 korean = "임무 완료를 확인했습니다. 길드로 돌아가죠, <value:$28> 님.<end>"
@@ -31,6 +39,10 @@ korean = "임무 완료를 확인했습니다. 길드로 돌아가죠, <value:$2
 ["180024"]
 japanese = "ま、ざっとこんなもんね。<line-break>さっさとギルドへ戻ろう、<line-break><value:$28>。<end>"
 korean = "뭐, 대충 이런 거지. 얼른 길드로 돌아가자, <value:$28>.<end>"
+
+["180026"]
+japanese = "よし、あとは私たちが<line-break>無事にギルドへと戻るだけだな。<line-break>行こうか、<value:$28>。<end>"
+korean = "좋아, 이제 우리만 무사히 길드로 돌아가면 된다. 가자, <value:$28>.<end>"
 
 ["180032"]
 japanese = "これで退治依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"

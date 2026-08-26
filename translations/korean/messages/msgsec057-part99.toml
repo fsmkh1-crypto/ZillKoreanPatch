@@ -64,6 +64,10 @@ korean = "이봐! 그러니까 날 실험대로 삼지 말라고…<end>"
 japanese = "なるほどな。<end>"
 korean = "그렇군.<end>"
 
+["570052"]
+japanese = "あんたには<line-break>色々世話になりそうだな。<end>"
+korean = "너한테는 여러모로 신세를 지게 될 것 같군.<end>"
+
 ["570054"]
 japanese = "何か質問ですか？<end>"
 korean = "뭔가 질문 있으신가요?<end>"
@@ -132,6 +136,10 @@ korean = "그건 할 수 없어<end>"
 japanese = "じゃ、あらためてぇ…。　　　　<end>"
 korean = "그럼 다시 한번….<end>"
 
+["570101"]
+japanese = "じゃあ、町を出るときに！<line-break>またねー。<end>"
+korean = "그럼 마을을 나갈 때 보자! 또 봐ー.<end>"
+
 ["570103"]
 japanese = "そう…。<line-break>ちょっと、がっかり。<end>"
 korean = "그래…. 조금 실망이네.<end>"
@@ -155,6 +163,10 @@ korean = "왜 그래! 술집 아저씨!<end>"
 ["570120"]
 japanese = "勇者様、魔王がでました。<end>"
 korean = "용사님, 마왕이 나타났습니다.<end>"
+
+["570122"]
+japanese = "オヤジ、今のは、なしだ。<line-break>でやっ！！<end>"
+korean = "아저씨, 방금 건 없던 걸로 해. 이야앗!!<end>"
 
 ["570125"]
 japanese = "ガルドランが、いたの…？<end>"

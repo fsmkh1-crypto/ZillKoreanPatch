@@ -108,6 +108,10 @@ korean = "나는 제네테스. 잘 부탁한다.<end>"
 japanese = "…あんた、いい目してるね。　　　<end>"
 korean = "…당신, 눈빛이 좋군.<end>"
 
+["670062"]
+japanese = "<value:$28>ね。<line-break>俺はゼネテス。よろしく。<end>"
+korean = "<value:$28>이지. 난 제네테스다. 잘 부탁해.<end>"
+
 ["670064"]
 japanese = "うーい。<end>"
 korean = "어이.<end>"

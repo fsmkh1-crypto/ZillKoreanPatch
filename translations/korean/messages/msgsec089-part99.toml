@@ -128,6 +128,14 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["890147"]
+japanese = "おう！　<value:$28><line-break>手紙が届いているぜ。<end>"
+korean = "오! <value:$28>, 편지가 왔어.<end>"
+
+["890149"]
+japanese = "おう！　<value:$28><line-break>手紙が届いているぜ。<end>"
+korean = "오! <value:$28>, 편지가 왔어.<end>"
+
 ["890154"]
 japanese = "はっ、承知しております。<end>"
 korean = "예, 알고 있습니다.<end>"
@@ -415,6 +423,10 @@ korean = "그래. 한나는 잘 알고 있구나.<end>"
 ["890417"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
+
+["890421"]
+japanese = "よし、決まりだ！<line-break>行こうぜ、<value:$28>。<end>"
+korean = "좋아, 결정이다! 가자, <value:$28>.<end>"
 
 ["890422"]
 japanese = "ゼネテスも<value:$28>も<line-break>結局、冒険好きなのね。<line-break>子供ねー。<end>"

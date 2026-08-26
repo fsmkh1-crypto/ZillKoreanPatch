@@ -112,6 +112,10 @@ korean = "…! 이건….<end>"
 japanese = "折れた宝剣を入手した。<end>"
 korean = "부러진 보검을 입수했다.<end>"
 
+["920098"]
+japanese = "<value:$28>、すまんが<line-break>今日は山を下りんか？<line-break>今のわしでは、最高の剣なぞ打てまい。<end>"
+korean = "<value:$28>, 미안하지만 오늘은 산을 내려가 주겠나? 지금의 나로선 최고의 검을 만들 수 없을 것 같구나.<end>"
+
 ["920099"]
 japanese = "すまん。<end>"
 korean = "미안하군.<end>"

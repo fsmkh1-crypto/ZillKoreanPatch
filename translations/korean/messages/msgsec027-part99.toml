@@ -120,6 +120,10 @@ korean = "각오는 되셨습니까?<end>"
 japanese = "手加減はナシだからね。<end>"
 korean = "봐주기 없으니까.<end>"
 
+["270097"]
+japanese = "お主と戦えるとはな。<line-break>年がいもなく、わくわくしおるわ。<line-break>行くぞ、<value:$28>！<end>"
+korean = "너와 싸울 수 있다니. 나잇값도 못하고 가슴이 뛰는군. 간다, <value:$28>!<end>"
+
 ["270098"]
 japanese = "よっ、<value:$28>。<line-break>本気出しちゃ、やーよ。<line-break>お手柔らかにね。<end>"
 korean = "여어, <value:$28>. 진심으로 하면 안 돼. 살살 부탁해.<end>"

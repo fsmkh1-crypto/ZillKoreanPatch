@@ -80,6 +80,10 @@ korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
 japanese = "<value:$28>殿の言うとおりです。<line-break>それは略奪行為です。<line-break>将軍、思いとどまってください。<end>"
 korean = "<value:$28>님의 말씀이 맞습니다. 그건 약탈입니다. 장군, 재고해 주십시오.<end>"
 
+["590060"]
+japanese = "<value:$28>様、<line-break>お気持ちはお察しいたします。<line-break>ですが、命令は遂行なさらないと…。<end>"
+korean = "<value:$28>님, 심정은 이해합니다. 하지만 명령은 수행하셔야….<end>"
+
 ["590061"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적의 습격이다!<end>"

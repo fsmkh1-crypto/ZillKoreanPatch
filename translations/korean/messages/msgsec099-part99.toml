@@ -160,6 +160,10 @@ korean = "…조심해, <value:$28>.<end>"
 japanese = "立派な冒険者になってね、<line-break><value:$28>。<end>"
 korean = "훌륭한 모험자가 되렴, <value:$28>.<end>"
 
+["990111"]
+japanese = "<value:$28>じゃない、<line-break>じゃ、忙しいから。<end>"
+korean = "<value:$28>잖아. 그럼 난 바쁘니까.<end>"
+
 ["990118"]
 japanese = "…行きなさい。<line-break>次はないわ。<end>"
 korean = "…가. 다음은 없어.<end>"
@@ -171,6 +175,10 @@ korean = "정말이지, 어째서 해방군 따위에!<end>"
 ["990124"]
 japanese = "あ、<value:$28>…。<end>"
 korean = "아, <value:$28>….<end>"
+
+["990141"]
+japanese = "<value:$28>じゃない、<line-break>じゃ、忙しいから。<end>"
+korean = "<value:$28>잖아. 그럼 난 바쁘니까.<end>"
 
 ["990152"]
 japanese = "アイリーンメッセージ終端<end>"

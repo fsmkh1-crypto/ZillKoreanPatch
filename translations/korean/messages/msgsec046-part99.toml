@@ -144,6 +144,10 @@ korean = "고양이가 말했다!<end>"
 japanese = "くすっ。<end>"
 korean = "후훗.<end>"
 
+["460159"]
+japanese = "くすっ。そうですか。<line-break>では、見せたいモノがあります。<line-break>来てください。<value:$28>。<end>"
+korean = "후훗. 그렇군요. 그럼 보여 드리고 싶은 게 있어요. 와 주세요, <value:$28>.<end>"
+
 ["460160"]
 japanese = "ねえ、行ってみるといいよ。<line-break><value:$28>。<line-break>僕はここで待ってるから。<end>"
 korean = "있잖아, 가 보는 게 좋아. <value:$28>. 난 여기서 기다릴게.<end>"
