@@ -48,6 +48,10 @@ korean = "일어나자!<end>"
 japanese = "反乱はできない…<end>"
 korean = "반란은 못 일으켜…<end>"
 
+["310093"]
+japanese = "我々は先に行っている！<line-break><value:$28>も<line-break>急いで来てくれ！<end>"
+korean = "우리는 먼저 가 있겠다! <value:$28>도 서둘러 와 줘!<end>"
+
 ["310109"]
 japanese = "ゲヒッ！<line-break><value:$28>！！<line-break>ここまで来やがったか！<end>"
 korean = "게힛! <value:$28>!! 여기까지 왔냐!<end>"

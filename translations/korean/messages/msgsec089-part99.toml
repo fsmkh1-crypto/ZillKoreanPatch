@@ -104,6 +104,10 @@ korean = "미안하네, <value:$28>.<end>"
 japanese = "<value:$28>？<line-break>貴様、<value:$28>ではないか！<end>"
 korean = "<value:$28>? 네놈, <value:$28> 아니냐!<end>"
 
+["890186"]
+japanese = "さ、<value:$28>、<line-break>行くわ！<end>"
+korean = "자, <value:$28>, 간다!<end>"
+
 ["890192"]
 japanese = "い、いや…<end>"
 korean = "아, 아니…<end>"

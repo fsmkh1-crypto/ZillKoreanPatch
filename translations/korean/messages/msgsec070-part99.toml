@@ -32,6 +32,10 @@ korean = "도움받지 않는다<end>"
 japanese = "じゃあ、いくわよ…。<end>"
 korean = "그럼, 간다….<end>"
 
+["700057"]
+japanese = "じゃあね、<value:$28>。<line-break>その名前、覚えておくわ…。<line-break>　<end>"
+korean = "그럼 안녕, <value:$28>. 그 이름, 기억해 둘게….<end>"
+
 ["700059"]
 japanese = "予備選択肢１<end>"
 korean = "예비 선택지 1<end>"

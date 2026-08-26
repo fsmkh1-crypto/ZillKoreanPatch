@@ -16,6 +16,10 @@ korean = "두고 보자!<end>"
 japanese = "違うよ、<value:$28>！　<end>"
 korean = "아니야, <value:$28>!<end>"
 
+["1590051"]
+japanese = "ホントにいいんですか？<end>"
+korean = "정말 괜찮겠어요?<end>"
+
 ["1590059"]
 japanese = "へっ、どうだかな！<end>"
 korean = "흥, 글쎄다!<end>"
@@ -47,6 +51,10 @@ korean = "불쌍해애!<end>"
 ["1590116"]
 japanese = "わ、すごいすごーい！！<end>"
 korean = "와, 대단해 대단해ー!!<end>"
+
+["1590118"]
+japanese = "こら！<line-break>俺を実験台に…<end>"
+korean = "야! 나를 실험대로 삼아서….<end>"
 
 ["1590120"]
 japanese = "すごいすごーい！<end>"

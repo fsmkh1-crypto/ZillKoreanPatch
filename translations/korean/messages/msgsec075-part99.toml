@@ -12,6 +12,10 @@ korean = "저, 저기….<end>"
 japanese = "は、はい…。<end>"
 korean = "네, 네….<end>"
 
+["750018"]
+japanese = "さ、行こう、<line-break><value:$28>。<end>"
+korean = "자, 가자, <value:$28>.<end>"
+
 ["750019"]
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
@@ -67,6 +71,10 @@ korean = "저, 저기….<end>"
 ["750097"]
 japanese = "は、はい…。<end>"
 korean = "네, 네….<end>"
+
+["750098"]
+japanese = "さ、行こう？<line-break><value:$28>。<end>"
+korean = "자, 갈까? <value:$28>.<end>"
 
 ["750099"]
 japanese = "あ、あの…。<end>"

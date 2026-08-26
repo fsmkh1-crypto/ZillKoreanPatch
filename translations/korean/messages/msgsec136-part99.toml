@@ -28,6 +28,10 @@ korean = "…나도 마찬가지야.<end>"
 japanese = "ヴァイ！<end>"
 korean = "바이!<end>"
 
+["1360090"]
+japanese = "…じゃなくて、兄さん。<end>"
+korean = "…아니, 형.<end>"
+
 ["1360096"]
 japanese = "わからないの。<end>"
 korean = "모르겠어.<end>"
@@ -119,6 +123,10 @@ korean = "좋아<end>"
 ["1360265"]
 japanese = "それはちょっと<end>"
 korean = "그건 좀…<end>"
+
+["1360266"]
+japanese = "ホント！？<line-break>世界だよ？<end>"
+korean = "정말!? 세계라고?<end>"
 
 ["1360272"]
 japanese = "はっ！<end>"
@@ -264,9 +272,17 @@ korean = "앙길단 공!<end>"
 japanese = "おっしゃる通りで。<end>"
 korean = "말씀하신 대로입니다.<end>"
 
+["1360472"]
+japanese = "フッフッフ、久しいな。<end>"
+korean = "후후후, 오랜만이군.<end>"
+
 ["1360479"]
 japanese = "フッフッフ…。<end>"
 korean = "후후후….<end>"
+
+["1360491"]
+japanese = "フッフッフ、久しいな。<end>"
+korean = "후후후, 오랜만이군.<end>"
 
 ["1360498"]
 japanese = "フッフッフ…。<end>"
@@ -384,6 +400,10 @@ korean = "뭐…, 뭐야…!?<end>"
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
 
+["1360725"]
+japanese = "すまぬ。<line-break>手間取った。<end>"
+korean = "미안하다. 시간이 좀 걸렸다.<end>"
+
 ["1360728"]
 japanese = "…強くなったな、<line-break><value:$28>。<line-break>私も力を貸そう。<end>"
 korean = "…강해졌군, <value:$28>. 나도 힘을 보태지.<end>"
@@ -407,6 +427,10 @@ korean = "뭐…, 뭐야…!?<end>"
 ["1360744"]
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
+
+["1360747"]
+japanese = "すまぬ。<line-break>手間取った。<end>"
+korean = "미안하다. 시간이 좀 걸렸다.<end>"
 
 ["1360751"]
 japanese = "…強くなったな、<line-break><value:$28>。<line-break>私も力を貸そう。<end>"

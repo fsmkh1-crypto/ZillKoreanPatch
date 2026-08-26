@@ -20,6 +20,10 @@ korean = "오늘은 <value:$28>의 생일이네!<end>"
 japanese = "今日は<value:$28>の誕生日か。<end>"
 korean = "오늘은 <value:$28>의 생일인가.<end>"
 
+["2580079"]
+japanese = "ねえねえ！<line-break>今日って <value:$28>の<line-break>誕生日だったよね？<end>"
+korean = "저기, 저기! 오늘 <value:$28> 생일이었지?<end>"
+
 ["2580085"]
 japanese = "PSP用誕生日イベント用<end>"
 korean = "PSP용 생일 이벤트용<end>"

@@ -252,6 +252,10 @@ korean = "잠깐 기다려<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370330"]
+japanese = "<value:$28>様、<line-break>お帰りなさいませ。　　　　<line-break>おケガは？<end>"
+korean = "<value:$28> 님, 돌아오셨군요. 다치신 곳은요?<end>"
+
 ["1370350"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -316,6 +320,10 @@ korean = "뭐부터 듣고 싶어?<end>"
 japanese = "ソウルとは<end>"
 korean = "소울이란<end>"
 
+["1370406"]
+japanese = "ソウルとソウルポイント<end>"
+korean = "소울과 소울 포인트<end>"
+
 ["1370407"]
 japanese = "ソウルと成長<end>"
 korean = "소울과 성장<end>"
@@ -368,6 +376,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["1370448"]
+japanese = "お、根本的な質問だな。<end>"
+korean = "오, 근본적인 질문이군.<end>"
+
 ["1370461"]
 japanese = "だ、だって…。<end>"
 korean = "하, 하지만….<end>"
@@ -396,9 +408,17 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "お願いする<end>"
 korean = "부탁한다<end>"
 
+["1370496"]
+japanese = "今はそれどころじゃない<end>"
+korean = "지금은 그럴 때가 아니야.<end>"
+
 ["1370498"]
 japanese = "ソウルとは？<end>"
 korean = "소울이란?<end>"
+
+["1370499"]
+japanese = "ソウルとソウルポイント<end>"
+korean = "소울과 소울 포인트<end>"
 
 ["1370500"]
 japanese = "ソウルと成長<end>"
@@ -415,6 +435,10 @@ korean = "마법과 정령력<end>"
 ["1370503"]
 japanese = "すべて理解している<end>"
 korean = "모두 이해하고 있다<end>"
+
+["1370515"]
+japanese = "ためになるであります！<end>"
+korean = "도움이 되는 내용입니다!<end>"
 
 ["1370516"]
 japanese = "スキルのことだな。<end>"
@@ -467,6 +491,10 @@ korean = "의뢰를 해내는 요령은?<end>"
 ["1370580"]
 japanese = "もういいのかい？<end>"
 korean = "이제 됐어?<end>"
+
+["1370581"]
+japanese = "もう一度説明が聞きたい<end>"
+korean = "한 번 더 설명을 듣고 싶다<end>"
 
 ["1370582"]
 japanese = "大丈夫<end>"

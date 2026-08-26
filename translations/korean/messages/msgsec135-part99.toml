@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1350004"]
+japanese = "お前に会うまでは、な…<end>"
+korean = "너를 만나기 전까진 말이지….<end>"
+
 ["1350009"]
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
@@ -28,6 +32,10 @@ korean = "무슨 뜻이지?<end>"
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
 
+["1350035"]
+japanese = "…あっけないもんだな。<end>"
+korean = "…허무하네.<end>"
+
 ["1350039"]
 japanese = "<value:$28>、<line-break>一緒に旅に連れていってくれ。<line-break>頼む…。<end>"
 korean = "<value:$28>, 나도 함께 여행에 데려가 줘. 부탁이야….<end>"
@@ -40,13 +48,25 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
 
+["1350070"]
+japanese = "だから、放っておいて！<end>"
+korean = "그러니까 내버려 둬!<end>"
+
 ["1350071"]
 japanese = "<value:$28>様。<end>"
 korean = "<value:$28>님.<end>"
 
+["1350072"]
+japanese = "手紙？<line-break>ゼネテス様の？<end>"
+korean = "편지? 제네테스 님의?<end>"
+
 ["1350086"]
 japanese = "…ゼネテス…様…<end>"
 korean = "…제네테스… 님…<end>"
+
+["1350095"]
+japanese = "だから、放っておいて！<end>"
+korean = "그러니까 내버려 둬!<end>"
 
 ["1350097"]
 japanese = "そ…その声は…<end>"
@@ -76,9 +96,17 @@ korean = "뭐!?<end>"
 japanese = "ゼネテス様！！！<end>"
 korean = "제네테스 님!!!<end>"
 
+["1350137"]
+japanese = "この…邪悪な吸血鬼め！<end>"
+korean = "이… 사악한 흡혈귀 놈!<end>"
+
 ["1350153"]
 japanese = "な、なに！？<end>"
 korean = "뭐, 뭐!?<end>"
+
+["1350157"]
+japanese = "　　それはどうかしら？<end>"
+korean = "그건 어떨까?<end>"
 
 ["1350158"]
 japanese = "ア、アトレイア様！？<end>"
@@ -180,6 +208,10 @@ korean = "…왜 감싸지?<end>"
 japanese = "ゼネテス！<end>"
 korean = "제네테스!<end>"
 
+["1350274"]
+japanese = "ダルケニスで何が悪い！<end>"
+korean = "다르케니스인 게 뭐가 나빠!<end>"
+
 ["1350275"]
 japanese = "ガアアアッ！！<end>"
 korean = "가아아앗!!<end>"
@@ -195,6 +227,10 @@ korean = "무례한 놈!<end>"
 ["1350286"]
 japanese = "やれ！<end>"
 korean = "해치워!<end>"
+
+["1350287"]
+japanese = "ぎょ、御意っ！<line-break> <line-break> <line-break>ウ、ウオオオオオオオ！！<end>"
+korean = "여, 명을 받들겠습니다! 우, 우오오오오오!!<end>"
 
 ["1350288"]
 japanese = "ティ…ティアナ…。<line-break> <line-break> <line-break>お前は…生きて…。<end>"
@@ -219,6 +255,10 @@ korean = "무례한 놈!<end>"
 ["1350316"]
 japanese = "やれ！<end>"
 korean = "해치워!<end>"
+
+["1350317"]
+japanese = "ぎょ、御意っ！<line-break> <line-break> <line-break>ウ、ウオオオオオオオ！！<end>"
+korean = "여, 명을 받들겠습니다! 우, 우오오오오오!!<end>"
 
 ["1350318"]
 japanese = "ティ…ティアナ…。<line-break> <line-break> <line-break>お前は…生きて…。<end>"
@@ -292,9 +332,17 @@ korean = "하, 하지만!<end>"
 japanese = "カルラ様…。<end>"
 korean = "카를라님….<end>"
 
+["1350397"]
+japanese = "今は、兵の命が大事よ。<end>"
+korean = "지금은 병사들의 목숨이 중요해.<end>"
+
 ["1350400"]
 japanese = "<value:$28>、あんたも来て。<end>"
 korean = "<value:$28>, 너도 와.<end>"
+
+["1350403"]
+japanese = "いたぞ！<line-break>カルラだ！！<end>"
+korean = "찾았다! 카를라다!!<end>"
 
 ["1350405"]
 japanese = "ゼネテス！<end>"
@@ -311,6 +359,10 @@ korean = "유용하게 써.<end>"
 ["1350426"]
 japanese = "全軍撤退よ。<end>"
 korean = "전군 철수야.<end>"
+
+["1350427"]
+japanese = "そんな！<line-break>なぜです！？<end>"
+korean = "그럴 수가! 왜죠!?<end>"
 
 ["1350431"]
 japanese = "あ…<end>"
@@ -332,6 +384,10 @@ korean = "바이!<end>"
 japanese = "お兄ちゃん！<end>"
 korean = "오빠!<end>"
 
+["1350445"]
+japanese = "…じゃなくて、兄さん。<end>"
+korean = "…아니, 형.<end>"
+
 ["1350446"]
 japanese = "よろしい…うっ…<end>"
 korean = "좋아… 윽…<end>"
@@ -343,6 +399,10 @@ korean = "의식을 잃는다<end>"
 ["1350453"]
 japanese = "もう少し聞いている<end>"
 korean = "조금 더 듣는다<end>"
+
+["1350467"]
+japanese = "くうううああああっ！！<end>"
+korean = "크으으아아아악!!<end>"
 
 ["1350469"]
 japanese = "助ける<end>"

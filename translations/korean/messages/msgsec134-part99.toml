@@ -16,6 +16,10 @@ korean = "좋습니다<end>"
 japanese = "お断りします<end>"
 korean = "사양하겠습니다<end>"
 
+["1340024"]
+japanese = "あ、<value:$28>様！<line-break>お送りします。<line-break>待ってください～。<end>"
+korean = "아, <value:$28> 님! 모셔다 드릴게요. 기다려 주세요~.<end>"
+
 ["1340030"]
 japanese = "力を貸す<end>"
 korean = "힘을 빌려준다<end>"
@@ -47,6 +51,14 @@ korean = "그럼, 출발이다.<end>"
 ["1340051"]
 japanese = "少し気分が悪いので…<end>"
 korean = "조금 몸이 안 좋아서….<end>"
+
+["1340052"]
+japanese = "いえ、なんでもないです<end>"
+korean = "아뇨, 아무것도 아닙니다.<end>"
+
+["1340054"]
+japanese = "そうか、ならば行こう。<end>"
+korean = "그런가, 그럼 가자.<end>"
 
 ["1340070"]
 japanese = "ウグアアアアア…！<end>"
@@ -104,6 +116,10 @@ korean = "반….<end>"
 japanese = "ナッジ…。<end>"
 korean = "나지….<end>"
 
+["1340138"]
+japanese = "ヴァン…、わかったよ。<end>"
+korean = "반… 알겠어.<end>"
+
 ["1340139"]
 japanese = "ナッジ…。<end>"
 korean = "나지….<end>"
@@ -147,6 +163,10 @@ korean = "지라크 장군….<end>"
 ["1340173"]
 japanese = "ジラーク将軍！<end>"
 korean = "지라크 장군!<end>"
+
+["1340176"]
+japanese = "将軍！<line-break>ジラーク将軍！<end>"
+korean = "장군님! 지라크 장군님!<end>"
 
 ["1340184"]
 japanese = "心配は無用だ。<end>"
@@ -252,6 +272,10 @@ korean = "앗…!<end>"
 japanese = "待って！<line-break><value:$28>さん！<end>"
 korean = "기다려! <value:$28> 씨!<end>"
 
+["1340290"]
+japanese = "し…獅子帝ネメア…。　<end>"
+korean = "사… 사자제 네메아….<end>"
+
 ["1340292"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
@@ -267,6 +291,10 @@ korean = "으… 으….<end>"
 ["1340297"]
 japanese = "レイヴン、大丈夫？<end>"
 korean = "레이븐, 괜찮아?<end>"
+
+["1340301"]
+japanese = "し…獅子帝ネメア…。　<end>"
+korean = "사… 사자제 네메아….<end>"
 
 ["1340304"]
 japanese = "…フ、フフフ。<end>"
@@ -476,6 +504,10 @@ korean = "<value:$28>님!<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1340643"]
+japanese = "謁見の間に行かなくては<end>"
+korean = "알현실로 가야 해.<end>"
+
 ["1340645"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -496,6 +528,10 @@ korean = "100기아를 지원한다<end>"
 japanese = "１０００ギア援助する<end>"
 korean = "1000기어를 지원한다<end>"
 
+["1340650"]
+japanese = "１００００ギア援助する<end>"
+korean = "10000기아를 지원한다<end>"
+
 ["1340651"]
 japanese = "援助しない<end>"
 korean = "지원하지 않는다<end>"
@@ -507,6 +543,10 @@ korean = "100기아를 지원한다<end>"
 ["1340655"]
 japanese = "１０００ギア援助する<end>"
 korean = "1000기어를 지원한다<end>"
+
+["1340656"]
+japanese = "１００００ギア援助する<end>"
+korean = "10000기아를 지원한다<end>"
 
 ["1340657"]
 japanese = "援助しない<end>"

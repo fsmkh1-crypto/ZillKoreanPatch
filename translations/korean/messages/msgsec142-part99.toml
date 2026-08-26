@@ -16,6 +16,10 @@ korean = "이야, 오랜만이군.<end>"
 japanese = "え？　あの、えと…<end>"
 korean = "어? 저기, 그게….<end>"
 
+["1420031"]
+japanese = "あ、カフィン、待って！<end>"
+korean = "아, 카핀, 기다려!<end>"
+
 ["1420036"]
 japanese = "ナーシェス。<end>"
 korean = "나셰스.<end>"
@@ -32,6 +36,10 @@ korean = "그럼 실례하지.<end>"
 japanese = "やぁ、君か。<end>"
 korean = "여어, 너구나.<end>"
 
+["1420075"]
+japanese = "後ろ、向いてください。<end>"
+korean = "뒤돌아 주세요.<end>"
+
 ["1420079"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -44,6 +52,10 @@ korean = "아저씨, 술은 아직이야?<end>"
 japanese = "　　　来たか、<value:$28>…。<line-break><line-break><line-break><end>"
 korean = "왔나, <value:$28>….<end>"
 
+["1420120"]
+japanese = "　　　　これも…無限のソウルの力か…。<line-break><line-break><line-break><end>"
+korean = "이것도… 무한한 소울의 힘인가….<end>"
+
 ["1420126"]
 japanese = "物好きなこったな。<end>"
 korean = "별난 사람이네.<end>"
@@ -55,6 +67,10 @@ korean = "모든 종족?<end>"
 ["1420135"]
 japanese = "待て。<end>"
 korean = "기다려.<end>"
+
+["1420138"]
+japanese = "それから、それから…。<end>"
+korean = "그리고, 그리고….<end>"
 
 ["1420142"]
 japanese = "あたりめーだ！<end>"
@@ -84,6 +100,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "レムオン様！<end>"
 korean = "레몬님!<end>"
 
+["1420216"]
+japanese = "何用だ…セバスチャン。<end>"
+korean = "무슨 일이지… 세바스찬.<end>"
+
 ["1420218"]
 japanese = "何！？<end>"
 korean = "뭐!?<end>"
@@ -104,6 +124,10 @@ korean = "그, 그건….<end>"
 japanese = "ダメです。絶対ダメ！<end>"
 korean = "안 돼요. 절대 안 돼!<end>"
 
+["1420239"]
+japanese = "何用だ…セバスチャン。<end>"
+korean = "무슨 일이지… 세바스찬.<end>"
+
 ["1420241"]
 japanese = "何！？<end>"
 korean = "뭐!?<end>"
@@ -115,6 +139,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420252"]
 japanese = "…おつまみもな。<end>"
 korean = "…안주도 말이야.<end>"
+
+["1420266"]
+japanese = "微妙に、時差がある…。<end>"
+korean = "미묘하게 시차가 있어….<end>"
 
 ["1420284"]
 japanese = "行こうっ！<end>"
@@ -164,6 +192,14 @@ korean = "귀찮긴 하지만.<end>"
 japanese = "出発だな。<end>"
 korean = "출발이군.<end>"
 
+["1420319"]
+japanese = "<value:$28>、<line-break>おぬしがいては、<line-break>解散できぬではないか！<end>"
+korean = "<value:$28>, 자네가 있으면 해산할 수가 없지 않나!<end>"
+
+["1420321"]
+japanese = "<value:$28>！<line-break>解散しても、<line-break>家にカエサンつもりかよっ！<end>"
+korean = "<value:$28>! 해산해도 집에는 안 돌려보낼 셈이냐!<end>"
+
 ["1420324"]
 japanese = "ああ…。<end>"
 korean = "아아….<end>"
@@ -199,6 +235,10 @@ korean = "페티야아.<end>"
 ["1420345"]
 japanese = "こ、こらっ！<end>"
 korean = "이, 이봐!<end>"
+
+["1420350"]
+japanese = "どうしてって、それは…<end>"
+korean = "왜냐고? 그건….<end>"
 
 ["1420358"]
 japanese = "うっ…。<end>"
@@ -260,6 +300,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "領主様！<end>"
 korean = "영주님!<end>"
 
+["1420404"]
+japanese = "聞いたか！<line-break>…いくぞ！<end>"
+korean = "들었지! …간다!<end>"
+
 ["1420406"]
 japanese = "ぐわぁ！<end>"
 korean = "크와악!<end>"
@@ -295,6 +339,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420422"]
 japanese = "じゃあ、行くのね？<end>"
 korean = "그럼, 가는 거지?<end>"
+
+["1420428"]
+japanese = "…そうね。<line-break>バルザー。<end>"
+korean = "…그러네. 발자.<end>"
 
 ["1420430"]
 japanese = "ええ。<end>"
@@ -428,6 +476,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1420509"]
+japanese = "団長！　いってくるゴ…<end>"
+korean = "단장! 다녀올게고….<end>"
+
 ["1420510"]
 japanese = "まだゴブ。<end>"
 korean = "아직 고브.<end>"
@@ -508,6 +560,10 @@ korean = "페티야아.<end>"
 japanese = "こ、こらっ！<end>"
 korean = "이, 이봐!<end>"
 
+["1420623"]
+japanese = "逃げられてしまいます！<end>"
+korean = "도망쳐 버립니다!<end>"
+
 ["1420638"]
 japanese = "来ません…。<end>"
 korean = "오지 않습니다….<end>"
@@ -547,3 +603,7 @@ korean = "귀찮긴 하지만.<end>"
 ["1420666"]
 japanese = "出発だな。<end>"
 korean = "출발이군.<end>"
+
+["1420669"]
+japanese = "<value:$28>、<line-break>おぬしがいては、<line-break>解散できぬではないか！<end>"
+korean = "<value:$28>, 자네가 있으면 해산할 수가 없지 않나!<end>"

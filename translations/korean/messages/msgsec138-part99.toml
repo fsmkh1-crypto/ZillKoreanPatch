@@ -128,6 +128,14 @@ korean = "속박의 팔찌를 잃었다.<end>"
 japanese = "………………。<line-break> <line-break> <line-break><value:$28>様…。<end>"
 korean = "………………. <value:$28> 님….<end>"
 
+["1380221"]
+japanese = "たしかに…今の<value:$28>に<line-break>人類は導けまい。<line-break>しかし…<end>"
+korean = "확실히… 지금의 <value:$28>에게 인류를 이끌게 할 수는 없겠지. 하지만….<end>"
+
+["1380227"]
+japanese = "君にも聞こえていたか…<end>"
+korean = "너한테도 들렸나….<end>"
+
 ["1380229"]
 japanese = "…そんな顔をするな。<end>"
 korean = "…그런 얼굴 하지 마.<end>"
@@ -139,6 +147,14 @@ korean = "그런가….<end>"
 ["1380244"]
 japanese = "それがうぬの力か…。<end>"
 korean = "그게 네 힘인가….<end>"
+
+["1380245"]
+japanese = "その力が最強なのか…。<end>"
+korean = "그 힘이 최강인 건가….<end>"
+
+["1380248"]
+japanese = "少し考え事をしていた。<end>"
+korean = "잠깐 생각 좀 하고 있었어.<end>"
 
 ["1380255"]
 japanese = "俺は…<end>"
@@ -167,6 +183,14 @@ korean = "그야 <value:$28>와 여행하고 있으니까!<end>"
 ["1380276"]
 japanese = "そ、そんな…<line-break>ひ、ひどいや…<line-break><value:$28>。<end>"
 korean = "그, 그럴 수가… 너무해… <value:$28>.<end>"
+
+["1380278"]
+japanese = "いや、もういいんだ。<line-break><value:$28>も<line-break>気にしないで…。<end>"
+korean = "아니, 이제 됐어. <value:$28>도 신경 쓰지 마….<end>"
+
+["1380281"]
+japanese = "そう意固地になるなよ。<end>"
+korean = "그렇게 고집부리지 마.<end>"
 
 ["1380295"]
 japanese = "追加メッセージここから<end>"
@@ -304,6 +328,10 @@ korean = "그래서… 뭐?<end>"
 japanese = "こ、ここが猫屋敷？<end>"
 korean = "여, 여기가 고양이 저택?<end>"
 
+["1380358"]
+japanese = "えっ！　いいんですか？<end>"
+korean = "어! 정말 괜찮은 건가요?<end>"
+
 ["1380364"]
 japanese = "へっ、どうだかな！<end>"
 korean = "흥, 글쎄다!<end>"
@@ -327,6 +355,10 @@ korean = "어둠의 신기?<end>"
 ["1380408"]
 japanese = "す、すごいや！<end>"
 korean = "대, 대단해!<end>"
+
+["1380410"]
+japanese = "こら！<line-break>俺を実験台に…<end>"
+korean = "야! 나를 실험대로 삼아서….<end>"
 
 ["1380412"]
 japanese = "すごい、すごいや！<end>"

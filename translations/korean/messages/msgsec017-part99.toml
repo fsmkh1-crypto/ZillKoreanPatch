@@ -448,6 +448,14 @@ korean = "묵고 가시겠습니까?<end>"
 japanese = "<value:$15>ですか。<line-break>ふむ…<value:$1A>ギアですな。<end>"
 korean = "<value:$15>입니까. 흠… <value:$1A>기어군요.<end>"
 
+["170208"]
+japanese = "おお、これが<value:$15>ですか。<line-break><value:$1A>ギアでお譲りください。<end>"
+korean = "오오, 이것이 <value:$15>입니까. <value:$1A>기아에 넘겨주십시오.<end>"
+
+["170209"]
+japanese = "こ、これがかの<value:$15>っ！<line-break><value:$1A>ギアでよろしいですか！？<end>"
+korean = "이, 이것이 그 <value:$15>! <value:$1A>기아면 되겠습니까!?<end>"
+
 ["170217"]
 japanese = "フォーマット中です。<end>"
 korean = "포맷 중입니다.<end>"

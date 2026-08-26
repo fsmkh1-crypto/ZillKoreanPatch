@@ -8,6 +8,10 @@ korean = "돕는다<end>"
 japanese = "助けない<end>"
 korean = "안 도와<end>"
 
+["1490013"]
+japanese = "くっ。非市民のクズが！<end>"
+korean = "큭. 비시민 쓰레기가!<end>"
+
 ["1490017"]
 japanese = "世話になったな。<end>"
 korean = "신세 졌군.<end>"
@@ -72,6 +76,14 @@ korean = "괜찮아?<end>"
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
 
+["1490103"]
+japanese = "…！<line-break>…貴様…何者だ？<end>"
+korean = "…! …네놈… 누구냐?<end>"
+
+["1490107"]
+japanese = "この…！　偽予言者が！<end>"
+korean = "이…! 가짜 예언자 놈!<end>"
+
 ["1490123"]
 japanese = "こら、君！<end>"
 korean = "이봐, 자네!<end>"
@@ -108,6 +120,10 @@ korean = "내버려 두자<end>"
 japanese = "な、なんだ？<end>"
 korean = "뭐, 뭐지?<end>"
 
+["1490218"]
+japanese = "さぁ、今すぐ出て行け！<end>"
+korean = "자, 지금 당장 나가!<end>"
+
 ["1490226"]
 japanese = "助けよう<end>"
 korean = "도와주자<end>"
@@ -120,9 +136,21 @@ korean = "내버려 두자<end>"
 japanese = "あ、ノーブル伯！<end>"
 korean = "아, 노블 백작!<end>"
 
+["1490239"]
+japanese = "僕をどうするつもりだ？<end>"
+korean = "나를 어떻게 할 셈이지?<end>"
+
+["1490240"]
+japanese = "それなら、僕は行くよ。<end>"
+korean = "그렇다면 난 갈게.<end>"
+
 ["1490245"]
 japanese = "なんだ貴様！<end>"
 korean = "뭐냐, 네놈!<end>"
+
+["1490262"]
+japanese = "第一、…僕は君の敵だ。<end>"
+korean = "무엇보다… 나는 네 적이다.<end>"
 
 ["1490276"]
 japanese = "な、な、な…<end>"

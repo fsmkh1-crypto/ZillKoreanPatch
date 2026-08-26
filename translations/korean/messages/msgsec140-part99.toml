@@ -72,6 +72,10 @@ korean = "나한테 맡겨.<end>"
 japanese = "…俺に指図するな。<end>"
 korean = "…나한테 명령하지 마.<end>"
 
+["1400050"]
+japanese = "よ、<value:$28>。<line-break>こんな手紙が来た。<line-break>読んでみてくれ。<end>"
+korean = "여어, <value:$28>. 이런 편지가 왔어. 읽어봐.<end>"
+
 ["1400054"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -136,6 +140,10 @@ korean = "싫어어어어!!<end>"
 japanese = "ゼネテス様？<end>"
 korean = "제네테스님?<end>"
 
+["1400124"]
+japanese = "い、行きません！　私！<end>"
+korean = "아, 안 가요! 저는!<end>"
+
 ["1400125"]
 japanese = "くっ！<end>"
 korean = "큭!<end>"
@@ -155,6 +163,10 @@ korean = "싫어어어어!<end>"
 ["1400144"]
 japanese = "いやあぁああ！！<end>"
 korean = "싫어어어어!!<end>"
+
+["1400148"]
+japanese = "ゼネテス！　ゼネテス！<end>"
+korean = "제네테스! 제네테스!<end>"
 
 ["1400149"]
 japanese = "…ティアナ。<end>"
@@ -371,6 +383,14 @@ korean = "추가 메시지 여기부터<end>"
 ["1400402"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1400409"]
+japanese = "ボクを助ける…ため…？<end>"
+korean = "나를 구하려고…?<end>"
+
+["1400410"]
+japanese = "<value:$28><line-break>キミはボクを<line-break>助けるべきじゃなかったんだ。<end>"
+korean = "<value:$28>, 넌 나를 구하지 말았어야 했어.<end>"
 
 ["1400429"]
 japanese = "わかった<end>"

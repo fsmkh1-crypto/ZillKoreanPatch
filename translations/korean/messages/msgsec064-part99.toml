@@ -12,6 +12,10 @@ korean = "그, 그, 그만둬!<end>"
 japanese = "お願い、やめて！<end>"
 korean = "부탁이야, 그만해!<end>"
 
+["640034"]
+japanese = "<value:$28>様、<line-break>どうして？<end>"
+korean = "<value:$28> 님, 어째서요?<end>"
+
 ["640038"]
 japanese = "…な、ティアナ？<end>"
 korean = "…그렇지, 티아나?<end>"
@@ -52,9 +56,17 @@ korean = "아…, <value:$28> 님.<end>"
 japanese = "未使用<end>"
 korean = "미사용<end>"
 
+["640078"]
+japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
+korean = "아, 지나가십시오. <value:$28> 님.<end>"
+
 ["640092"]
 japanese = "…すみません。<end>"
 korean = "…죄송합니다.<end>"
+
+["640101"]
+japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
+korean = "아, 지나가십시오. <value:$28> 님.<end>"
 
 ["640115"]
 japanese = "…すみません。<end>"

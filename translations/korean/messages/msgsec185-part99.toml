@@ -4,6 +4,10 @@
 japanese = "は、はいっ！<end>"
 korean = "네, 네!<end>"
 
+["1850022"]
+japanese = "ラッキー！<line-break>さすがは<value:$28>。<line-break>頼りになるじゃん。<end>"
+korean = "럭키! 역시 <value:$28>. 믿음직하잖아.<end>"
+
 ["1850035"]
 japanese = "ほい、これ報酬ね。<end>"
 korean = "자, 이게 보상이야.<end>"

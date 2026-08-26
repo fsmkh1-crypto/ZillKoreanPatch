@@ -156,6 +156,10 @@ korean = "팔아 달라고 한다<end>"
 japanese = "その必要はない！<end>"
 korean = "그럴 필요 없어!<end>"
 
+["560191"]
+japanese = "<value:$28>の所持金は０になった。<end>"
+korean = "<value:$28>의 소지금은 0이 되었다.<end>"
+
 ["560192"]
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
@@ -244,6 +248,10 @@ korean = "너 정말!!<end>"
 japanese = "また、告死天使だ。<end>"
 korean = "또 고사천사다.<end>"
 
+["560361"]
+japanese = "<value:$28>、<line-break>調子はどう？<end>"
+korean = "<value:$28>, 상태는 어때?<end>"
+
 ["560369"]
 japanese = "フフフ。<line-break><value:$28>に<line-break>心配されるなんてね。<end>"
 korean = "후후후. <value:$28>에게 걱정을 다 받다니.<end>"
@@ -271,6 +279,10 @@ korean = "추가 메시지 여기부터<end>"
 ["560388"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["560398"]
+japanese = "<value:$28>さん<line-break>…ですか。<end>"
+korean = "<value:$28> 씨…인가요.<end>"
 
 ["560400"]
 japanese = "イークレムン様…<end>"
@@ -431,6 +443,10 @@ korean = "뭐라고요?<end>"
 ["560690"]
 japanese = "…妙だ。<line-break>人がいない。<end>"
 korean = "…이상해. 사람이 없어.<end>"
+
+["560699"]
+japanese = "<value:$28>！<line-break>逃げなきゃ！<end>"
+korean = "<value:$28>! 도망쳐야 해!<end>"
 
 ["560703"]
 japanese = "…くっ！<line-break>逃げるんだ。<end>"

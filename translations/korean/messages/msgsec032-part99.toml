@@ -123,3 +123,7 @@ korean = "…와.<end>"
 ["320113"]
 japanese = "…ロイは生きている。<end>"
 korean = "…로이는 살아 있어.<end>"
+
+["320121"]
+japanese = "<value:$28>様、<line-break>お帰りなさいませ。　　　　<line-break>おケガは？<end>"
+korean = "<value:$28> 님, 돌아오셨군요. 다치신 곳은요?<end>"

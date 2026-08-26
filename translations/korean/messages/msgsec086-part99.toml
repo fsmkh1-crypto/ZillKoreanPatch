@@ -8,6 +8,10 @@ korean = "카를라 메시지 VOL3 시작<end>"
 japanese = "あ…。<line-break>…<value:$28>。<end>"
 korean = "아…. …<value:$28>.<end>"
 
+["860014"]
+japanese = "あなたが、<line-break><value:$28>…。<end>"
+korean = "당신이 <value:$28>….<end>"
+
 ["860028"]
 japanese = "カルラメッセージVOL3終端<end>"
 korean = "카를라 메시지 VOL3 끝<end>"

@@ -28,6 +28,10 @@ korean = "맞아!<end>"
 japanese = "殺せ！<end>"
 korean = "죽여!<end>"
 
+["850027"]
+japanese = "<value:$28>さん<line-break>…ですね。<end>"
+korean = "<value:$28> 씨… 맞죠.<end>"
+
 ["850030"]
 japanese = "断る<end>"
 korean = "거절한다<end>"

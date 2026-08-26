@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["400005"]
+japanese = "なんにせよ、ありがとよ。　　　　　　<line-break><value:$28>。<line-break>　<end>"
+korean = "어쨌든 고맙다. <value:$28>.<end>"
+
 ["400008"]
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"

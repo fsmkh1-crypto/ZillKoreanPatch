@@ -212,6 +212,10 @@ korean = "하지만….<end>"
 japanese = "あーっ、あんたたち！<end>"
 korean = "아ー, 너희들!<end>"
 
+["620217"]
+japanese = "どうするの？<line-break><value:$28>。<end>"
+korean = "어떻게 할 거야? <value:$28>.<end>"
+
 ["620218"]
 japanese = "だめよ。だって…。<end>"
 korean = "안 돼. 왜냐면….<end>"

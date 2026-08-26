@@ -4,17 +4,41 @@
 japanese = "千年石を採りますか？<end>"
 korean = "천년석을 캘까요?<end>"
 
+["1550015"]
+japanese = "ノロガメを採りますか？<end>"
+korean = "노로가메를 채집하시겠습니까?<end>"
+
 ["1550022"]
 japanese = "千年石を捨てますか？<end>"
 korean = "천년석을 버릴까요?<end>"
+
+["1550025"]
+japanese = "ノロガメを捨てますか？<end>"
+korean = "노로가메를 버리시겠습니까?<end>"
+
+["1550040"]
+japanese = "コロル石を採りますか？<end>"
+korean = "코롤석을 채집하시겠습니까?<end>"
+
+["1550044"]
+japanese = "七色の砂を採りますか？<end>"
+korean = "칠색 모래를 채집하시겠습니까?<end>"
 
 ["1550046"]
 japanese = "蒼風花を採りますか？<end>"
 korean = "창풍화를 캘까요?<end>"
 
+["1550047"]
+japanese = "火草の種を採りますか？<end>"
+korean = "불풀 씨앗을 채집하시겠습니까?<end>"
+
 ["1550049"]
 japanese = "炎竜岩を採りますか？<end>"
 korean = "염룡암을 캘까요?<end>"
+
+["1550050"]
+japanese = "風桜の実を採りますか？<end>"
+korean = "풍앵의 열매를 채집하시겠습니까?<end>"
 
 ["1550051"]
 japanese = "風気岩を採りますか？<end>"
@@ -24,13 +48,29 @@ korean = "풍기암을 캘까요?<end>"
 japanese = "闇中花を採りますか？<end>"
 korean = "암중화를 캘까요?<end>"
 
+["1550057"]
+japanese = "コロル石を捨てますか？<end>"
+korean = "코롤석을 버리시겠습니까?<end>"
+
+["1550061"]
+japanese = "七色の砂を捨てますか？<end>"
+korean = "칠색 모래를 버리시겠습니까?<end>"
+
 ["1550063"]
 japanese = "蒼風花を捨てますか？<end>"
 korean = "창풍화를 버릴까요?<end>"
 
+["1550064"]
+japanese = "火草の種を捨てますか？<end>"
+korean = "불풀 씨앗을 버리시겠습니까?<end>"
+
 ["1550066"]
 japanese = "炎竜岩を捨てますか？<end>"
 korean = "염룡암을 버릴까요?<end>"
+
+["1550067"]
+japanese = "風桜の実を捨てますか？<end>"
+korean = "풍앵의 열매를 버리시겠습니까?<end>"
 
 ["1550068"]
 japanese = "風気岩を捨てますか？<end>"
