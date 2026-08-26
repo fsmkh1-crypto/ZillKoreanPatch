@@ -4,6 +4,10 @@
 japanese = "誰？<end>"
 korean = "누구?<end>"
 
+["750009"]
+japanese = "何でもありませんよ、王女様。<end>"
+korean = "아무것도 아닙니다, 공주님.<end>"
+
 ["750015"]
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
@@ -159,6 +163,10 @@ korean = "…그런가.<end>"
 ["750145"]
 japanese = "いい子だ。<end>"
 korean = "착한 아이야.<end>"
+
+["750203"]
+japanese = "そんなことは言わない方がいい<end>"
+korean = "그런 말은 하지 않는 편이 좋아<end>"
 
 ["750204"]
 japanese = "その通りだ<end>"

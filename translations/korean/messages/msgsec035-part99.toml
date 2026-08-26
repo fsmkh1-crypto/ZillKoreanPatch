@@ -588,6 +588,10 @@ korean = "아큐류스: 도구점<end>"
 japanese = "アキュリュース：鍛冶屋<end>"
 korean = "아큐류스: 대장간<end>"
 
+["350164"]
+japanese = "アキュリュース：冒険者ギルド<end>"
+korean = "아큐류스: 모험자 길드<end>"
+
 ["350167"]
 japanese = "アキュリュース：神殿入口<end>"
 korean = "아큐류스: 신전 입구<end>"
@@ -704,9 +708,17 @@ korean = "라드라스: 탑 4 이동의 방<end>"
 japanese = "ラドラス：壊れた塔の上<end>"
 korean = "라드라스: 무너진 탑 위<end>"
 
+["350197"]
+japanese = "ラドラス：地下洞窟の移動の間<end>"
+korean = "라드라스: 지하 동굴 이동의 방<end>"
+
 ["350198"]
 japanese = "ラドラス：グラジェオン座所<end>"
 korean = "라드라스: 그라제온 거처<end>"
+
+["350199"]
+japanese = "ラドラス：監視の間の移動の間<end>"
+korean = "라드라스: 감시의 방 이동의 방<end>"
 
 ["350200"]
 japanese = "ラドラス：監視の間<end>"
@@ -787,6 +799,10 @@ korean = "드워프 왕국: 여관 1F<end>"
 ["350219"]
 japanese = "ドワーフ王国：宿屋２Ｆ<end>"
 korean = "드워프 왕국: 여관 2F<end>"
+
+["350220"]
+japanese = "ドワーフ王国：宿屋バルコニー<end>"
+korean = "드워프 왕국: 여관 발코니<end>"
 
 ["350221"]
 japanese = "ドワーフ王国：鍛冶屋<end>"
@@ -1868,6 +1884,14 @@ korean = "영봉 토르: 산길 6<end>"
 japanese = "霊峰トール：山道７<end>"
 korean = "영봉 토르: 산길 7<end>"
 
+["350492"]
+japanese = "霊峰トール：ノトゥーン神殿前<end>"
+korean = "영봉 토르: 노툰 신전 앞<end>"
+
+["350493"]
+japanese = "霊峰トール：ノトゥーン神殿内<end>"
+korean = "영봉 토르: 노툰 신전 안<end>"
+
 ["350494"]
 japanese = "静寂の洞窟１<end>"
 korean = "정적의 동굴 1<end>"
@@ -2188,6 +2212,10 @@ korean = "울칸: 작열의 대동굴 5<end>"
 japanese = "ウルカーン：灼熱の大洞窟６<end>"
 korean = "울칸: 작열의 대동굴 6<end>"
 
+["350574"]
+japanese = "ウルカーン：火の精霊神の座所<end>"
+korean = "울칸: 불의 정령신 좌소<end>"
+
 ["350576"]
 japanese = "ウルカーン：火の守護者の座<end>"
 korean = "울칸: 불의 수호자 좌소<end>"
@@ -2299,6 +2327,10 @@ korean = "땅의 수호자 자리<end>"
 ["350608"]
 japanese = "テラネ：裏山登山道<end>"
 korean = "테라네: 뒷산 등산로<end>"
+
+["350609"]
+japanese = "オズワルド：アスティアの家前<end>"
+korean = "오즈왈드: 아스티아의 집 앞<end>"
 
 ["350612"]
 japanese = "オズワルド：村<end>"
@@ -2752,6 +2784,14 @@ korean = "엔샨트~로스톨<end>"
 japanese = "エンシャント～リベルダム<end>"
 korean = "엔샨트~리벨덤<end>"
 
+["350725"]
+japanese = "エンシャント～アルノートゥン<end>"
+korean = "엔샨트~알노툰<end>"
+
+["350726"]
+japanese = "エンシャント～アキュリュース<end>"
+korean = "엔샨트~아큐류스<end>"
+
 ["350727"]
 japanese = "エンシャント～テラネ<end>"
 korean = "엔샨트~테라네<end>"
@@ -2811,6 +2851,10 @@ korean = "로센~엘즈<end>"
 ["350741"]
 japanese = "テラネ～ウルカーン<end>"
 korean = "테라네~울칸<end>"
+
+["350742"]
+japanese = "ドワーフ王国～アキュリュース<end>"
+korean = "드워프 왕국~아큐류스<end>"
 
 ["350744"]
 japanese = "アミラル～エルズ<end>"
@@ -3316,6 +3360,10 @@ korean = "로스톨: 성문 앞: 밤<end>"
 japanese = "ロストール：貴族居住区：夜<end>"
 korean = "로스톨: 귀족 거주구: 밤<end>"
 
+["350871"]
+japanese = "ロストール：レムオン邸前：夜<end>"
+korean = "로스톨: 레므온 저택 앞: 밤<end>"
+
 ["350872"]
 japanese = "ロストール：広場：夜<end>"
 korean = "로스톨: 광장: 밤<end>"
@@ -3348,9 +3396,17 @@ korean = "리벨덤: 광장: 붕괴 후<end>"
 japanese = "リベルダム：繁華街：崩壊後<end>"
 korean = "리벨덤: 번화가: 붕괴 후<end>"
 
+["350880"]
+japanese = "リベルダム：闘技場前：崩壊後<end>"
+korean = "리벨덤: 투기장 앞: 붕괴 후<end>"
+
 ["350882"]
 japanese = "リベルダム：街の門：崩壊後<end>"
 korean = "리벨덤: 성문: 붕괴 후<end>"
+
+["350883"]
+japanese = "リベルダム：スラム街：崩壊後<end>"
+korean = "리벨덤: 빈민가: 붕괴 후<end>"
 
 ["350884"]
 japanese = "ロセン：謁見の間：陥落前<end>"
@@ -3368,9 +3424,25 @@ korean = "엘즈: 용의 자리: 용 없음<end>"
 japanese = "エンシャント：広場：崩壊後<end>"
 korean = "엔샨트: 광장: 붕괴 후<end>"
 
+["350888"]
+japanese = "エンシャント：繁華街：崩壊後<end>"
+korean = "엔샨트: 번화가: 붕괴 후<end>"
+
+["350890"]
+japanese = "エンシャント：神殿前：崩壊後<end>"
+korean = "엔샨트: 신전 앞: 붕괴 후<end>"
+
 ["350892"]
 japanese = "エンシャント：港：崩壊後<end>"
 korean = "엔샨트: 항구: 붕괴 후<end>"
+
+["350894"]
+japanese = "ロストール：広場のアップ：夜<end>"
+korean = "로스톨: 광장 확대: 밤<end>"
+
+["350895"]
+japanese = "リベルダム：繁華街２：崩壊後<end>"
+korean = "리벨덤: 번화가 2: 붕괴 후<end>"
 
 ["350896"]
 japanese = "ミイスの村：神殿前：襲撃後<end>"
@@ -3379,6 +3451,10 @@ korean = "미이스 마을: 신전 앞: 습격 후<end>"
 ["350897"]
 japanese = "ミイスの村：広場：襲撃後<end>"
 korean = "미이스 마을: 광장: 습격 후<end>"
+
+["350899"]
+japanese = "レオニックの迷宮８：鉄扉開き<end>"
+korean = "레오닉의 미궁 8: 철문 열림<end>"
 
 ["350902"]
 japanese = "荒れ果てた迷宮８：鉄扉開き<end>"
@@ -3391,6 +3467,14 @@ korean = "마지막 미궁 7: 철문 개방<end>"
 ["350904"]
 japanese = "廃城４：鉄扉開き<end>"
 korean = "폐성 4: 철문 열림<end>"
+
+["350905"]
+japanese = "エンシャント：城門前：崩壊後<end>"
+korean = "엔샨트: 성문 앞: 붕괴 후<end>"
+
+["350907"]
+japanese = "エンシャント：廃城前：崩壊後<end>"
+korean = "엔샨트: 폐성 앞: 붕괴 후<end>"
 
 ["350908"]
 japanese = "エンシャント：墓地：崩壊後<end>"

@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["800000"]
+japanese = "フゴー、Vol１用メッセージ開始<end>"
+korean = "휴고 Vol1용 메시지 시작<end>"
+
+["800005"]
+japanese = "ここはフゴー様のお屋敷です。<end>"
+korean = "여기는 휴고 님의 저택입니다.<end>"
+
 ["800034"]
 japanese = "あ～っ！<line-break>お客さんだよ！<end>"
 korean = "아~! 손님이다!<end>"
@@ -51,3 +59,7 @@ korean = "조심하라고.<end>"
 ["800076"]
 japanese = "んー。<line-break>楽しみじゃのぉ。<end>"
 korean = "음~. 기대되는구먼.<end>"
+
+["800096"]
+japanese = "フゴー、Vol１用メッセージ終端<end>"
+korean = "휴고 Vol1용 메시지 끝<end>"

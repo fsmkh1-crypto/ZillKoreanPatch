@@ -60,9 +60,17 @@ korean = "그만둬, 샤리!<end>"
 japanese = "逃げろ、<value:$28>！"
 korean = "도망쳐, <value:$28>!"
 
+["1540067"]
+japanese = "なんのマネだい、エルファス？<end>"
+korean = "무슨 짓이야, 엘파스?<end>"
+
 ["1540074"]
 japanese = "くすっ。<line-break>ふーん、そう。<end>"
 korean = "후훗. 흐음, 그렇구나.<end>"
+
+["1540104"]
+japanese = "エルファス。イズのことは…。<end>"
+korean = "엘파스. 이즈에 대해서는….<end>"
 
 ["1540110"]
 japanese = "そんなこと知るもんか。<end>"
@@ -79,6 +87,10 @@ korean = "조폴 영감, 부탁할게.<end>"
 ["1540126"]
 japanese = "エルファス…。<end>"
 korean = "엘파스….<end>"
+
+["1540128"]
+japanese = "エルファス。イズのことは…。<end>"
+korean = "엘파스. 이즈에 대해서는….<end>"
 
 ["1540130"]
 japanese = "ふっ…そうか。<end>"

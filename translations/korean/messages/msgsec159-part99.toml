@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1590022"]
+japanese = "余計なことは言うんじゃねえ！<end>"
+korean = "쓸데없는 소리는 하지 마!<end>"
+
 ["1590025"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>아!<end>"
@@ -15,6 +19,10 @@ korean = "두고 보자!<end>"
 ["1590042"]
 japanese = "違うよ、<value:$28>！　<end>"
 korean = "아니야, <value:$28>!<end>"
+
+["1590049"]
+japanese = "うんめいに、選ばれた、もの？<end>"
+korean = "운명에 선택받은 자?<end>"
 
 ["1590051"]
 japanese = "ホントにいいんですか？<end>"
@@ -39,6 +47,10 @@ korean = "그래, 이 바보 고양이!<end>"
 ["1590076"]
 japanese = "おやすみなさい。<end>"
 korean = "안녕히 주무세요.<end>"
+
+["1590081"]
+japanese = "とーってもおいしかったです。<end>"
+korean = "정말 맛있었어요.<end>"
 
 ["1590086"]
 japanese = "それって、まさか…。<end>"
@@ -124,6 +136,10 @@ korean = "그렇습니까.<end>"
 japanese = "は～い！<end>"
 korean = "네~!<end>"
 
+["1590157"]
+japanese = "？　無限のソウルを持つ者…。<end>"
+korean = "? 무한의 소울을 지닌 자….<end>"
+
 ["1590158"]
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
@@ -143,6 +159,10 @@ korean = "아!<end>"
 ["1590167"]
 japanese = "むが　むが　むがが<end>"
 korean = "우물 우물 우물물<end>"
+
+["1590180"]
+japanese = "うんめいに、選ばれた…もの？<end>"
+korean = "운명에 선택받은… 자?<end>"
 
 ["1590185"]
 japanese = "わ、すごいすごーい！！<end>"

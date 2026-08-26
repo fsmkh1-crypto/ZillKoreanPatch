@@ -32,6 +32,10 @@ korean = "왕녀라고 부르지 마.<end>"
 japanese = "下がって結構です。<end>"
 korean = "물러가셔도 됩니다.<end>"
 
+["660021"]
+japanese = "姫さんのご機嫌うかがいにね。<end>"
+korean = "공주님 기분도 살필 겸.<end>"
+
 ["660028"]
 japanese = "なんですって？<end>"
 korean = "뭐라고요?<end>"
@@ -39,6 +43,10 @@ korean = "뭐라고요?<end>"
 ["660029"]
 japanese = "例えば、恋の病とかな。<end>"
 korean = "예를 들면, 사랑병이라든가.<end>"
+
+["660030"]
+japanese = "だ、誰が！　あなたなんかに！<end>"
+korean = "누, 누가! 당신 따위에게!<end>"
 
 ["660037"]
 japanese = "戦場は地獄になる。　　　<end>"

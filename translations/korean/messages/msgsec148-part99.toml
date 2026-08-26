@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1480000"]
+japanese = "ルルアンタ（修）その２　開始<end>"
+korean = "루루안타(수정) 그 2 시작<end>"
+
 ["1480003"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
@@ -43,6 +47,10 @@ korean = "좋은 아침, 제네테스!<end>"
 ["1480056"]
 japanese = "フフ、信じてるぜ。<end>"
 korean = "후후, 믿고 있어.<end>"
+
+["1480067"]
+japanese = "ゼネテス、行っちゃったね…。<end>"
+korean = "제네테스, 가 버렸네….<end>"
 
 ["1480070"]
 japanese = "もう質問はありません<end>"
@@ -111,3 +119,7 @@ korean = "바로 간다<end>"
 ["1480135"]
 japanese = "気が向いたら行く<end>"
 korean = "마음이 내키면 간다<end>"
+
+["1480166"]
+japanese = "ルルアンタ（修）その２　終端<end>"
+korean = "루루안타(수정) 그 2 끝<end>"

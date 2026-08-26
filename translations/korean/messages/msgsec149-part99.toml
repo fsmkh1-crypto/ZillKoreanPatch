@@ -36,6 +36,10 @@ korean = "안 도와<end>"
 japanese = "くっ。退け！<end>"
 korean = "큭. 물러서!<end>"
 
+["1490048"]
+japanese = "なぜネメアのことを悪く言う？<end>"
+korean = "왜 네메아를 나쁘게 말하지?<end>"
+
 ["1490049"]
 japanese = "晴れるわけがない！<end>"
 korean = "맑아질 리가 없어!<end>"
@@ -100,9 +104,17 @@ korean = "당분간 상황을 지켜보자.<end>"
 japanese = "な、なんだ貴様！<end>"
 korean = "뭐, 뭐냐 네놈!<end>"
 
+["1490130"]
+japanese = "刃向かう気か？　容赦せんぞ！<end>"
+korean = "덤빌 셈이냐? 용서하지 않겠다!<end>"
+
 ["1490139"]
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
+
+["1490141"]
+japanese = "ようやく気が付いたようだね。<end>"
+korean = "이제야 눈치챈 모양이네.<end>"
 
 ["1490147"]
 japanese = "あいつらなら僕が片付けた。<end>"
@@ -168,6 +180,10 @@ korean = "내버려 두자<end>"
 japanese = "あ、ノーブル伯！<end>"
 korean = "아, 노블 백작!<end>"
 
+["1490236"]
+japanese = "そのことは覚えていて欲しい。<end>"
+korean = "그건 기억해 줬으면 해.<end>"
+
 ["1490239"]
 japanese = "僕をどうするつもりだ？<end>"
 korean = "나를 어떻게 할 셈이지?<end>"
@@ -184,13 +200,25 @@ korean = "네 이름… 들어두고 싶어.<end>"
 japanese = "なんだ貴様！<end>"
 korean = "뭐냐, 네놈!<end>"
 
+["1490249"]
+japanese = "そのことは覚えていて欲しい。<end>"
+korean = "그건 기억해 줬으면 해.<end>"
+
 ["1490257"]
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
 
+["1490259"]
+japanese = "…やっと気が付いたようだね。<end>"
+korean = "…이제야 눈치챈 모양이네.<end>"
+
 ["1490262"]
 japanese = "第一、…僕は君の敵だ。<end>"
 korean = "무엇보다… 나는 네 적이다.<end>"
+
+["1490264"]
+japanese = "…やっと気が付いたようだね。<end>"
+korean = "…이제야 눈치챈 모양이네.<end>"
 
 ["1490272"]
 japanese = "君の名…、聞いておきたい。<end>"
@@ -235,6 +263,10 @@ korean = "정신이 든 모양이군.<end>"
 ["1490325"]
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
+
+["1490328"]
+japanese = "生意気な！　こうしてくれる！<end>"
+korean = "건방진! 이렇게 해 주마!<end>"
 
 ["1490329"]
 japanese = "おわっ！<end>"

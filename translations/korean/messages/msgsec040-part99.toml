@@ -24,6 +24,10 @@ korean = "빈칸<end>"
 japanese = "危ないところだったな。<end>"
 korean = "큰일 날 뻔했군.<end>"
 
+["400015"]
+japanese = "…バルザーを知っているのか？<end>"
+korean = "…발자를 알고 있나?<end>"
+
 ["400020"]
 japanese = "待っていた…。<end>"
 korean = "기다리고 있었어….<end>"
@@ -168,6 +172,10 @@ korean = "으…! 모, 몸이 말을 안 들어….<end>"
 japanese = "次は…、渡さないわ！<end>"
 korean = "다음엔… 안 넘겨줘!<end>"
 
+["400117"]
+japanese = "あいつは、私たちが倒したわ。<end>"
+korean = "그 녀석은 우리가 쓰러뜨렸어.<end>"
+
 ["400120"]
 japanese = "久しぶりね。<end>"
 korean = "오랜만이네.<end>"
@@ -195,6 +203,10 @@ korean = "그 말을 들으니 안심이군.<end>"
 ["400148"]
 japanese = "…ムキになるな。<end>"
 korean = "…발끈하지 마.<end>"
+
+["400149"]
+japanese = "ムキになんかなっていないわ！<end>"
+korean = "발끈한 거 아니거든!<end>"
 
 ["400153"]
 japanese = "助けはいらないわ。<end>"
@@ -224,6 +236,10 @@ korean = "다음엔 지지 않아!!<end>"
 japanese = "ありがとう、それじゃ<end>"
 korean = "고마워, 그럼<end>"
 
+["400165"]
+japanese = "強くなるにはどうすればいい？<end>"
+korean = "강해지려면 어떻게 해야 하지?<end>"
+
 ["400168"]
 japanese = "わかった。ありがとう<end>"
 korean = "알겠어. 고마워<end>"
@@ -235,6 +251,14 @@ korean = "소울은 어떻게 단련하지?<end>"
 ["400172"]
 japanese = "ありがとう、よくわかったよ<end>"
 korean = "고마워, 잘 알았어.<end>"
+
+["400173"]
+japanese = "もう少し詳しく教えてほしいな<end>"
+korean = "조금 더 자세히 알려 줬으면 해<end>"
+
+["400175"]
+japanese = "Ｋｉｎｄについて教えてほしい<end>"
+korean = "Kind에 대해 알려 줬으면 해<end>"
 
 ["400178"]
 japanese = "Ｗｉｌｄについて教えてほしい<end>"

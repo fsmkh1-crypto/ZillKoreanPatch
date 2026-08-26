@@ -36,6 +36,10 @@ korean = "간다!<end>"
 japanese = "へい、おかしら！<end>"
 korean = "예, 두목!<end>"
 
+["1430066"]
+japanese = "おかしら、こいつどうします？<end>"
+korean = "두목, 이 녀석 어쩔까요?<end>"
+
 ["1430069"]
 japanese = "もう少し待って<end>"
 korean = "조금만 더 기다려<end>"
@@ -51,6 +55,10 @@ korean = "늦네….<end>"
 ["1430088"]
 japanese = "<value:$28>、行くよ！<end>"
 korean = "<value:$28>, 간다!<end>"
+
+["1430089"]
+japanese = "港で大イカがお待ちかねだぜ。<end>"
+korean = "항구에서 큰 오징어가 기다리고 있어.<end>"
 
 ["1430090"]
 japanese = "あんたらだけが頼りなんだ。<end>"

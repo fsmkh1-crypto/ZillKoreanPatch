@@ -20,9 +20,17 @@ korean = "그, 그, 그만둬!<end>"
 japanese = "お願い、やめて！<end>"
 korean = "부탁이야, 그만해!<end>"
 
+["640033"]
+japanese = "覚えとけ！　このクズがぁぁ！<end>"
+korean = "기억해 둬! 이 쓰레기야아아!<end>"
+
 ["640034"]
 japanese = "<value:$28>様、<line-break>どうして？<end>"
 korean = "<value:$28> 님, 어째서요?<end>"
+
+["640035"]
+japanese = "何か事情がおありなのですね。<end>"
+korean = "무슨 사정이 있으신가 보군요.<end>"
 
 ["640038"]
 japanese = "…な、ティアナ？<end>"
@@ -407,6 +415,10 @@ korean = "미사용<end>"
 ["640332"]
 japanese = "え、ええ…。帰りましょう。<end>"
 korean = "네, 네…. 돌아가죠.<end>"
+
+["640336"]
+japanese = "ティアナの言うとおりだと思う<end>"
+korean = "티아나 말이 맞다고 생각해<end>"
 
 ["640346"]
 japanese = "ティアナメッセージVOL1-2終端<end>"

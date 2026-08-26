@@ -96,9 +96,21 @@ korean = "그 말은?<end>"
 japanese = "ちゃかさないでください！<end>"
 korean = "놀리지 마세요!<end>"
 
+["670081"]
+japanese = "まじめに聞いてるさ。それで？<end>"
+korean = "진지하게 듣고 있어. 그래서?<end>"
+
 ["670083"]
 japanese = "お前さんはどう思う？<end>"
 korean = "자네는 어떻게 생각해?<end>"
+
+["670084"]
+japanese = "ティアナの言うとおりだと思う<end>"
+korean = "티아나 말이 맞다고 생각해<end>"
+
+["670087"]
+japanese = "意味はあったと思いたいねぇ。<end>"
+korean = "의미는 있었다고 생각하고 싶네.<end>"
 
 ["670088"]
 japanese = "んじゃな。<value:$28>。<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1470000"]
+japanese = "ルルアンタ（修）その１　開始<end>"
+korean = "루루안타(수정) 그 1 시작<end>"
+
 ["1470038"]
 japanese = "！　これは…。<end>"
 korean = "! 이건….<end>"
@@ -67,3 +71,7 @@ korean = "도발에 넘어가지 않는다<end>"
 ["1470160"]
 japanese = "なんだと！？<end>"
 korean = "뭐라고!?<end>"
+
+["1470173"]
+japanese = "ルルアンタ（修）その１　終端<end>"
+korean = "루루안타(수정) 그 1 끝<end>"

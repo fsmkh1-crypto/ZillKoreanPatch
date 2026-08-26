@@ -12,6 +12,14 @@ korean = "저주 상태 회복<end>"
 japanese = "味方１人を戦闘不能から回復<end>"
 korean = "아군 1명을 전투불능에서 회복<end>"
 
+["1660021"]
+japanese = "味方１人のＨＰの最大値が上昇<end>"
+korean = "아군 1명의 HP 최대치 상승<end>"
+
+["1660022"]
+japanese = "味方１人のＭＰの最大値が上昇<end>"
+korean = "아군 1명의 MP 최대치 상승<end>"
+
 ["1660023"]
 japanese = "味方１人の火の精霊力を上昇<end>"
 korean = "아군 1명의 불 정령력을 상승<end>"
@@ -184,6 +192,10 @@ korean = "아군 전원이 저주받는 불길한 지팡이<end>"
 japanese = "味方全員が呪われる呪いの骨<end>"
 korean = "아군 전원이 저주받는 저주의 뼈<end>"
 
+["1660087"]
+japanese = "味方全員が呪われる恨みの目玉<end>"
+korean = "아군 전원이 저주받는 원한의 눈알<end>"
+
 ["1660106"]
 japanese = "女神像が彫られた豪華な縦笛<end>"
 korean = "여신상이 새겨진 화려한 세로피리<end>"
@@ -244,6 +256,10 @@ korean = "신의 가르침이 적힌 책<end>"
 japanese = "神々の姿を模した彫像<end>"
 korean = "신들의 모습을 본뜬 조각상<end>"
 
+["1660135"]
+japanese = "水の精霊神アキュリュースの像<end>"
+korean = "물의 정령신 아큐류스의 상<end>"
+
 ["1660136"]
 japanese = "風の精霊神プレシオーネの像<end>"
 korean = "바람의 정령신 프레시오네의 상<end>"
@@ -260,6 +276,10 @@ korean = "시장이 쓴 탄원서<end>"
 japanese = "お祝いに送る品<end>"
 korean = "축하 선물로 보낼 물건<end>"
 
+["1660143"]
+japanese = "香りも豊かな５０年物のワイン<end>"
+korean = "향이 풍부한 50년산 와인<end>"
+
 ["1660145"]
 japanese = "お客様に頼まれた大事な荷物<end>"
 korean = "손님에게 부탁받은 중요한 짐<end>"
@@ -271,6 +291,10 @@ korean = "곧 열릴 집회의 안내장<end>"
 ["1660148"]
 japanese = "村の唯一の特産物<end>"
 korean = "마을의 유일한 특산물<end>"
+
+["1660150"]
+japanese = "七色に輝く貝殻で中身はまずい<end>"
+korean = "일곱 빛깔로 빛나는 조개껍데기, 속은 맛없다<end>"
 
 ["1660151"]
 japanese = "薬を入れておく瓶<end>"
@@ -287,6 +311,10 @@ korean = "촌장이 쓴 편지<end>"
 ["1660156"]
 japanese = "プレゼント<end>"
 korean = "선물<end>"
+
+["1660157"]
+japanese = "儀礼用に豪華な装飾がされた盾<end>"
+korean = "의례용으로 화려하게 장식된 방패<end>"
 
 ["1660158"]
 japanese = "マノンの腕輪の模造品<end>"
@@ -340,9 +368,21 @@ korean = "현자 녹사의 검은 보석<end>"
 japanese = "賢者ノクサの白い宝石<end>"
 korean = "현자 녹사의 흰 보석<end>"
 
+["1660173"]
+japanese = "闇の神器　古代の強力な魔道器<end>"
+korean = "어둠의 신기, 고대의 강력한 마도기<end>"
+
 ["1660175"]
 japanese = "ハンナのおばあちゃんの形見<end>"
 korean = "한나 할머니의 유품<end>"
+
+["1660179"]
+japanese = "厳重にロウで密封された羊皮紙<end>"
+korean = "단단히 밀랍으로 봉인된 양피지<end>"
+
+["1660182"]
+japanese = "たまりにたまったオッシの酒代<end>"
+korean = "잔뜩 밀린 옷시의 술값<end>"
 
 ["1660184"]
 japanese = "銀で装飾を施した円盤<end>"
