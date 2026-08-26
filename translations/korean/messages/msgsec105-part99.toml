@@ -20,9 +20,17 @@ korean = "…성가셨던 거다.<end>"
 japanese = "え？　今、なんて…<end>"
 korean = "어? 방금 뭐라고…<end>"
 
+["1050012"]
+japanese = "うっとうしかったと言っているのだよ、<line-break>クリュセイス。<line-break>　<line-break>ロティの奴が…、<line-break>そして、お前もな！<end>"
+korean = "귀찮았다고 말하는 거다, 크류세이스. 로티 그 녀석이… 그리고 너도 말이지!<end>"
+
 ["1050013"]
 japanese = "ど、どういうこと…。<end>"
 korean = "무, 무슨 뜻이야….<end>"
+
+["1050019"]
+japanese = "クックック。お前も相変わらず<line-break>度し難いバカだな、<value:$28>。<line-break>お前はその女に何をされたか知らんのだ。<end>"
+korean = "크크크. 너도 여전히 구제불능의 바보구나, <value:$28>. 넌 그 여자에게 무슨 일을 당했는지도 몰라.<end>"
 
 ["1050021"]
 japanese = "どうだ、<value:$28>。<line-break>事実を知ってもなお、命を懸けて<line-break>守るほどの女か、そいつは？<end>"
@@ -35,6 +43,10 @@ korean = "그런 건 아무래도 좋아<end>"
 ["1050027"]
 japanese = "どうやら、俺の勝ちだな。<line-break>　<line-break>　<line-break>さぁ、こいつらを<line-break>引っとらえてくれ！<end>"
 korean = "아무래도 내 승리군. 자, 이 녀석들을 붙잡아 줘!<end>"
+
+["1050028"]
+japanese = "アンティノ・マモン！<line-break>貴様を逮捕する！<end>"
+korean = "안티노 마몬!너를 체포한다!<end>"
 
 ["1050031"]
 japanese = "くっ、カルラめ！<line-break>だましおったな！<end>"

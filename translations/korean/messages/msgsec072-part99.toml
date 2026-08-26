@@ -64,6 +64,10 @@ korean = "그렇게는 못 해!<end>"
 japanese = "早く逃げて！<line-break><value:$28>！<end>"
 korean = "빨리 도망쳐! <value:$28>!<end>"
 
+["720058"]
+japanese = "<value:$28>！<line-break>何やってんの！　早く逃げて！<end>"
+korean = "<value:$28>!뭐 하는 거야! 빨리 도망쳐!<end>"
+
 ["720060"]
 japanese = "…アイリーンは<line-break>どうした？<end>"
 korean = "…아이린은 어떻게 됐지?<end>"

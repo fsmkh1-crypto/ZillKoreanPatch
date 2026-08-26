@@ -132,6 +132,14 @@ korean = "<value:$28> 씨…. 정말 감사합니다. 다친 곳은 없으세요
 japanese = "頼む、<line-break>私たちに力を貸してくれたまえ。　　　<line-break><value:$28>君。<end>"
 korean = "부탁하네. 우리에게 힘을 빌려주게. <value:$28> 군.<end>"
 
+["850080"]
+japanese = "お父様…？<line-break>ものすごい物音がしましたが。<end>"
+korean = "아버님…? 엄청난 소리가 났는데요.<end>"
+
+["850081"]
+japanese = "ちっ、人が来やがったか。<line-break>運のいい奴だ。<end>"
+korean = "쳇, 누가 왔나. 운 좋은 녀석이군.<end>"
+
 ["850083"]
 japanese = "お父様？<end>"
 korean = "아버님?<end>"
@@ -172,9 +180,17 @@ korean = "믿고 있을게<end>"
 japanese = "あーら、<value:$28>、<line-break>いらっしゃーい。<line-break>その後、調子はどう？<end>"
 korean = "어머, <value:$28>, 어서 와-. 그 뒤로 상태는 어때?<end>"
 
+["850153"]
+japanese = "ンフフ、<line-break>うまくやったみたいじゃなーい？<end>"
+korean = "후후, 잘 해낸 모양이네?<end>"
+
 ["850166"]
 japanese = "頼りにしてるわよ<end>"
 korean = "믿고 있을게<end>"
+
+["850180"]
+japanese = "予備メッセージ１０<line-break>カルラ、ボリューム２<end>"
+korean = "예비 메시지 10 카를라, 볼륨 2<end>"
 
 ["850181"]
 japanese = "カルラメッセージVOL2終端<end>"

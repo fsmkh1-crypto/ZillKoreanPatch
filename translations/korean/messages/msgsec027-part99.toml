@@ -84,6 +84,10 @@ korean = "또 도전해 주세요.<end>"
 japanese = "もっと強くなって、また来てね。<end>"
 korean = "좀 더 강해져서 다시 와.<end>"
 
+["270070"]
+japanese = "残念だったわね。<line-break>まっ、来年もあるわよ。<end>"
+korean = "아쉽게 됐네. 뭐, 내년도 있으니까.<end>"
+
 ["270071"]
 japanese = "どっちのことが聞きたい？<end>"
 korean = "어느 쪽 이야기를 듣고 싶어?<end>"
@@ -103,6 +107,10 @@ korean = "아직 못 했어<end>"
 ["270086"]
 japanese = "じゃあ頑張ってね！<line-break>応援してるから。<end>"
 korean = "그럼 힘내! 응원할게.<end>"
+
+["270088"]
+japanese = "まだまだだな・・・。<line-break>また出直してこい。<end>"
+korean = "아직 멀었군…. 다시 단련해서 와.<end>"
 
 ["270089"]
 japanese = "この俺が敗れるとは・・・。<end>"
@@ -187,6 +195,10 @@ korean = "내 불꽃으로 몸도 마음도 태워 주겠어.<end>"
 ["270124"]
 japanese = "さあ、風の精霊よ。<line-break>私に力を貸して。<end>"
 korean = "자, 바람의 정령이여. 내게 힘을 빌려줘.<end>"
+
+["270125"]
+japanese = "集中…、集中…。<line-break>今日こそ８人抜くぞー。<end>"
+korean = "집중… 집중…. 오늘이야말로 8명을 제친다!<end>"
 
 ["270126"]
 japanese = "へへ。よろしくな。<end>"

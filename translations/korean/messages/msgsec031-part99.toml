@@ -160,6 +160,10 @@ korean = "…그럴 순 없다.<end>"
 japanese = "ゲヒッ！！<line-break>レ、レムオン様…。<end>"
 korean = "게힛!! 레, 레므온 님….<end>"
 
+["310132"]
+japanese = "それなりの覚悟は<line-break>できているのだろうな？<end>"
+korean = "그만한 각오는 되어 있겠지?<end>"
+
 ["310134"]
 japanese = "<value:$28>！<line-break>回復してやる！　立て！<line-break>このブタ野郎に殺されたくなければな！<end>"
 korean = "<value:$28>! 회복시켜 주마! 일어나! 이 돼지 자식한테 죽고 싶지 않으면!<end>"
@@ -363,6 +367,10 @@ korean = "빨리 도망쳐!! 빨리!!<end>"
 ["310257"]
 japanese = "…それだけだ。<line-break>行くぞ。<end>"
 korean = "…그게 다다. 가자.<end>"
+
+["310260"]
+japanese = "そんなのダメだ！<line-break>姉ちゃん！　逃げて！！<end>"
+korean = "그러면 안 돼! 누나! 도망쳐!!<end>"
 
 ["310261"]
 japanese = "黙ってろよ！<line-break>気に入らないガキだな！<end>"

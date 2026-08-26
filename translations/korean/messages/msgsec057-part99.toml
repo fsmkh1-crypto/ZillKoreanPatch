@@ -16,6 +16,10 @@ korean = "루루안타 씨…인가요?<end>"
 japanese = "いえいえ。<end>"
 korean = "아니에요.<end>"
 
+["570015"]
+japanese = "ええ。<line-break>実はお願いしたい事があります。<end>"
+korean = "네.사실 부탁드릴 일이 있습니다.<end>"
+
 ["570018"]
 japanese = "アーギルシャイア…？<end>"
 korean = "아길샤이어…?<end>"
@@ -28,13 +32,25 @@ korean = "그건?<end>"
 japanese = "こいつですよ。<end>"
 korean = "이 녀석이에요.<end>"
 
+["570028"]
+japanese = "やめろ、こら！<line-break>俺をつまむんじゃねぇ！<end>"
+korean = "그만둬, 이 자식아!날 집어 들지 마!<end>"
+
 ["570029"]
 japanese = "なんだ、そいつ？<end>"
 korean = "뭐야, 저 녀석?<end>"
 
+["570030"]
+japanese = "なんだとはごあいさつだな。<line-break>俺の名は…<end>"
+korean = "뭐냐니 너무하네.내 이름은…<end>"
+
 ["570033"]
 japanese = "だが、こいつは猫のままだが？<end>"
 korean = "하지만 이 녀석은 여전히 고양이인데?<end>"
+
+["570036"]
+japanese = "なんだと、テメー！<line-break>上等だ、勝負して…<end>"
+korean = "뭐라고, 이 자식아!좋아, 승부해…<end>"
 
 ["570038"]
 japanese = "急がないとな。<line-break><value:$28>。<end>"

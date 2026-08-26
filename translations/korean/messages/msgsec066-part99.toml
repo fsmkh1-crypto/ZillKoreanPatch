@@ -196,6 +196,10 @@ korean = "후후, 술 냄새는 싫은가?<end>"
 japanese = "くだらない<line-break>へりくつですわ。<end>"
 korean = "시시한 억지입니다.<end>"
 
+["660169"]
+japanese = "ロストールが滅ぶ日ね。<line-break>よしわかった。そのときは<line-break>姫さんをこの城から助け出してやるよ。<line-break>な、<value:$28>。<end>"
+korean = "로스토올이 멸망하는 날이네. 좋아, 알았어. 그때는 공주님을 이 성에서 구해 내 줄게. 그렇지, <value:$28>.<end>"
+
 ["660172"]
 japanese = "もう！<end>"
 korean = "정말!<end>"

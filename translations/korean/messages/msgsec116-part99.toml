@@ -56,6 +56,10 @@ korean = "그렇다는데? 후후, 어떻게 할래?<end>"
 japanese = "あ…。<end>"
 korean = "아…<end>"
 
+["1160102"]
+japanese = "…<value:$28>…。<line-break>このようなときに来られるとは…。<line-break>　<line-break>…私は、これから、死にます。<end>"
+korean = "…<value:$28>….이런 때에 오다니….　…나는 이제 죽습니다.<end>"
+
 ["1160119"]
 japanese = "わかった<end>"
 korean = "알았어<end>"

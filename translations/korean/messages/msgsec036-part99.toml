@@ -8,6 +8,10 @@ korean = "여행 출발 09 메시지<end>"
 japanese = "（やっぱり、母さん、<line-break>　いない…。）<end>"
 korean = "(역시 엄마는 없어….)<end>"
 
+["360004"]
+japanese = "（遺跡の方へ行く…。<line-break>　…追いかけよう）<end>"
+korean = "(유적 쪽으로 간다….　…뒤쫓자)<end>"
+
 ["360006"]
 japanese = "<value:$28>…。<line-break>ここはお前の来るところではないわ。<line-break>いい？　二度と来ないの。<end>"
 korean = "<value:$28>…. 여긴 네가 올 곳이 아니야. 알겠지? 다시는 오지 마.<end>"

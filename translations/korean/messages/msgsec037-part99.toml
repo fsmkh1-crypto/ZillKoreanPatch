@@ -20,6 +20,14 @@ korean = "유리아슈, 네가 기다려.<end>"
 japanese = "わかってる。船長。<end>"
 korean = "알고 있어. 선장.<end>"
 
+["370017"]
+japanese = "おう、お前らか。<line-break>どうだ。花は買えたか？<end>"
+korean = "오, 너희들이냐. 어때. 꽃은 샀어?<end>"
+
+["370018"]
+japanese = "とっとと買ってこい。<line-break>待っててやるから。<end>"
+korean = "얼른 사 와. 기다려 줄 테니까.<end>"
+
 ["370027"]
 japanese = "私は、ただ、<line-break>かあさまに会いたいだけ…。<line-break>…なのに、<line-break>…まだ、邪魔するの…？<end>"
 korean = "난 그저 엄마를 만나고 싶을 뿐인데…. …그런데도 아직 방해하는 거야…?<end>"
@@ -136,6 +144,10 @@ korean = "누구?<end>"
 japanese = "メイア…。<end>"
 korean = "메이아….<end>"
 
+["370083"]
+japanese = "…かあさまに会うため、<line-break>…必要な…の…。<end>"
+korean = "…엄마를 만나려면, …필요한… 거야….<end>"
+
 ["370084"]
 japanese = "返した方がいいわ。　　　　　　　　<end>"
 korean = "돌려주는 게 좋아.<end>"
@@ -232,9 +244,17 @@ korean = "네.<end>"
 japanese = "で、どうすんだい。<line-break><value:$28>？<end>"
 korean = "그래서, 어떻게 할 거야, <value:$28>?<end>"
 
+["370133"]
+japanese = "<value:$28>！<line-break>メイアが！　メイアが！<line-break>突然苦しみ出して、<line-break>顔つきが変わって、<line-break>窓から…出てって…！<end>"
+korean = "<value:$28>! 메이아가! 메이아가! 갑자기 괴로워하더니, 얼굴이 변하고, 창문으로… 나가 버렸어…!<end>"
+
 ["370155"]
 japanese = "なんだ！　お前ら！　　　　<end>"
 korean = "뭐야! 너희들!<end>"
+
+["370158"]
+japanese = "なんじゃ？<line-break>この存在自体が無礼な下郎は！<end>"
+korean = "뭐냐? 존재 자체가 무례한 하인이로군!<end>"
 
 ["370162"]
 japanese = "下郎がァ！！　兵ども！！<end>"
@@ -243,6 +263,10 @@ korean = "천한 놈이!! 병사들!!<end>"
 ["370164"]
 japanese = "はーん、おもしれぇ！　　　<end>"
 korean = "하, 재밌는데!<end>"
+
+["370166"]
+japanese = "くっ、何をやっておる。<line-break>どけ。私が入る！<end>"
+korean = "큭, 뭘 하고 있는 거냐. 비켜. 내가 들어간다!<end>"
 
 ["370168"]
 japanese = "んなこと言ったって、船長ぅ～！<end>"
@@ -283,6 +307,10 @@ korean = "엄마가 그립니, 꼬마야.<end>"
 ["370199"]
 japanese = "わかんねぇのか？　　<end>"
 korean = "모르겠냐?<end>"
+
+["370200"]
+japanese = "お前さんが男になって<line-break>帰ってくるんだよ！<end>"
+korean = "네가 남자가 되어 돌아오는 거야!<end>"
 
 ["370202"]
 japanese = "フフ、危害は加えぬ。　　　　　　　　<end>"
@@ -395,6 +423,10 @@ korean = "알겠어, 테레지아 아줌마.<end>"
 ["370265"]
 japanese = "<value:$28>！<line-break>メイアが！　メイアが！<end>"
 korean = "<value:$28>! 메이아가! 메이아가!<end>"
+
+["370266"]
+japanese = "男があわてるんじゃないよ。<line-break>落ち着きな。<end>"
+korean = "남자가 당황해서 쓰나. 진정해.<end>"
 
 ["370270"]
 japanese = "ウソだ！　俺だ！　　　　　　　　<end>"

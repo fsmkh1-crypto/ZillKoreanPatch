@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["240049"]
+japanese = "依頼内容は、<value:$15>を<line-break><value:$16>まで運搬すること。<line-break>期限は<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアである。<end>"
+korean = "의뢰 내용은 <value:$15>을 <value:$16>까지 운반하는 것. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다.<end>"
+
 ["240091"]
 japanese = "ラドラス１<end>"
 korean = "라드라스1<end>"

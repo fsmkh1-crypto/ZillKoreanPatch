@@ -24,6 +24,10 @@ korean = "네메아 구출 보게이 a<end>"
 japanese = "……………。<line-break><line-break><line-break>闇の門の島へ行くぞ。<end>"
 korean = "……………. 어둠의 문 섬으로 간다.<end>"
 
+["260059"]
+japanese = "早くネメアを助けて<line-break>破壊神の復活を阻止するんだ。<line-break>　<line-break>大陸南西の島に急ぐぞ。<line-break><value:$28>。<end>"
+korean = "빨리 네메아를 구해서 파괴신의 부활을 막아야 해.　대륙 남서쪽 섬으로 서두르자. <value:$28>.<end>"
+
 ["260081"]
 japanese = "アンギルダンの合い言葉ボゲー<end>"
 korean = "앙길단의 암호 보게<end>"

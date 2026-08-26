@@ -64,6 +64,10 @@ korean = "후후, 그게 귀족의 긍지…인 걸까?<end>"
 japanese = "今度会うときは<line-break>戦場ね。<end>"
 korean = "다음에 만날 땐 전장이겠네.<end>"
 
+["1010063"]
+japanese = "…今度会うときは<line-break>戦場…というわけね。<end>"
+korean = "…다음에 만날 때는전장…이라는 거네.<end>"
+
 ["1010068"]
 japanese = "戦場で会いましょ。<line-break><value:$28>。<end>"
 korean = "전장에서 만나자, <value:$28>.<end>"

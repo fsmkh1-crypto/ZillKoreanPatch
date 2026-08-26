@@ -64,6 +64,10 @@ korean = "좋아? 그럼 시작할게.<end>"
 japanese = "せーの！！<end>"
 korean = "하나, 둘!!<end>"
 
+["1120101"]
+japanese = "…よし、<line-break>なんとか着地はしたみたいだね。<line-break>じゃ次、壊れろって、いくよ！<line-break>せぇーーーーの！！<end>"
+korean = "…좋아, 어떻게든 착지는 한 것 같네. 그럼 다음은, 부서져라 하고 간다! 하나ーーーー둘!!<end>"
+
 ["1120103"]
 japanese = "…今、これは飛べないまま壊される。<end>"
 korean = "…지금 이건 날지도 못한 채 부서진다.<end>"
@@ -119,6 +123,10 @@ korean = "어쩔 수 없지<end>"
 ["1120160"]
 japanese = "関係ないってば<end>"
 korean = "상관없다니까<end>"
+
+["1120168"]
+japanese = "愚かなり、人の子よ。<line-break>精霊神に躍らされ、<line-break>我を撃ち、闇を呼ぶか…。<line-break>愚かなり…愚かなり…。<end>"
+korean = "어리석구나, 인간의 아이여. 정령신에게 놀아나, 나를 쏘고 어둠을 부르는가…. 어리석구나… 어리석어….<end>"
 
 ["1120172"]
 japanese = "えっ！？<line-break>せ、制御の間ですか？<end>"

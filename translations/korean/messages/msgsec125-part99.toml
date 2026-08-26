@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1250003"]
+japanese = "ディンガルの内務統括殿とはいろいろと<line-break>あってな、ワシは参加できん。<line-break>すまぬな、<value:$28>。<end>"
+korean = "딩갈의 내무 총괄과는 여러 일이있어서, 나는 참가할 수 없다.미안하군, <value:$28>.<end>"
+
 ["1250020"]
 japanese = "………………。<line-break><line-break><line-break>エンシャントの政庁へ行け。<end>"
 korean = "………………. 엔샨트 정청으로 가라.<end>"
+
+["1250024"]
+japanese = "<value:$28>様。<line-break>帝国中枢部とカルラには意見の対立が<line-break>あるようです。<line-break>この依頼、危険かもしれません。<end>"
+korean = "<value:$28>님. 제국 중추부와 카를라 사이에 의견 충돌이 있는 것 같습니다. 이번 의뢰, 위험할지도 모릅니다.<end>"
 
 ["1250052"]
 japanese = "………………。<line-break><line-break><line-break>…ゼネテスを救うのか？<end>"
@@ -31,6 +39,10 @@ korean = "조폴은 알현실에 있습니다.<end>"
 ["1250105"]
 japanese = "どうすんの、<value:$28>？<line-break>逃げなきゃやられちゃうよ～？<line-break>宰相サンの革新も台無しよん？<end>"
 korean = "어쩔 거야, <value:$28>? 도망치지 않으면 당한다고~? 재상님의 혁신도 물거품이야?<end>"
+
+["1250111"]
+japanese = "人類の革新なんて、<line-break>よくわからないけど、<line-break>死ぬのだけはゴメンだよ！<line-break>早くこの町を脱出しなくちゃ！<end>"
+korean = "인류의 혁신이니 뭐니, 잘 모르겠지만, 죽는 것만은 싫어! 빨리 이 도시를 빠져나가야 해!<end>"
 
 ["1250115"]
 japanese = "もうすぐ次のソウルリープが<line-break>来ちゃうんだよぉ！<line-break>早く逃げようよぉ、<value:$28>！<end>"

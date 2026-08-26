@@ -220,6 +220,10 @@ korean = "늦네, <value:$28>. 설마 잊은 건 아니겠지.<end>"
 japanese = "君に頼らせて、って言ったら、<line-break><value:$28>は、勝手だって<line-break>怒るかな？<end>"
 korean = "네게 의지하게 해 달라고 하면, <value:$28>는 제멋대로라고 화낼까?<end>"
 
+["1410147"]
+japanese = "いっそ、ボクの姉さんになってよ！<line-break> <line-break> <line-break>…な、なんて言ったら、変かな？<line-break>やっぱり、変？<end>"
+korean = "차라리 내 누나가 되어 줘!   …라, 라고 하면 이상할까? 역시 이상해?<end>"
+
 ["1410150"]
 japanese = "はやく来てよぉ<line-break><value:$28>…。<end>"
 korean = "빨리 와 줘, <value:$28>….<end>"
@@ -315,6 +319,10 @@ korean = "…같이… 와 주지 않을래?<end>"
 ["1410250"]
 japanese = "さあ、行きましょ、<line-break><value:$28>！<end>"
 korean = "자, 가자, <value:$28>!<end>"
+
+["1410251"]
+japanese = "封士の心得と一緒に、<line-break>何度も語り聞かせたろうが、<line-break><value:$28>。<line-break>あきれた奴じゃ、もう忘れたか？<end>"
+korean = "봉사의 마음가짐과 함께, 몇 번이나 말해 줬잖느냐, <value:$28>. 한심한 녀석, 벌써 잊었나?<end>"
 
 ["1410253"]
 japanese = "ご苦労であった。さがってよい。<end>"
@@ -544,6 +552,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "そして君は全ての悲しみを紡ぎ続ける。<end>"
 korean = "그리고 너는 모든 슬픔을 계속 엮어 간다.<end>"
 
+["1410412"]
+japanese = "君が愛しいよ。<line-break><value:$28>。<line-break>僕らが交わすのは口付けではなく刃。<line-break>愛の言葉ではなく呪いの言葉。<end>"
+korean = "네가 사랑스럽다. <value:$28>. 우리가 주고받는 건 입맞춤이 아니라 칼날. 사랑의 말이 아니라 저주의 말이지.<end>"
+
 ["1410415"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -595,6 +607,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410448"]
 japanese = "…終わったな。<line-break>これでまたひとつ。<end>"
 korean = "…끝났군. 이걸로 또 하나.<end>"
+
+["1410454"]
+japanese = "封士の心得と一緒に、<line-break>何度も語り聞かせたろうが、<line-break><value:$28>。<line-break>あきれた奴じゃ、もう忘れたか？<end>"
+korean = "봉사의 마음가짐과 함께, 몇 번이나 말해 줬잖느냐, <value:$28>. 한심한 녀석, 벌써 잊었나?<end>"
 
 ["1410458"]
 japanese = "あ、とは、頼む…約束を…。<line-break>　<line-break>　<line-break>………………。<end>"
@@ -807,6 +823,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410560"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410562"]
+japanese = "これは…また妙な質感の石だね。<line-break>小さいけど、ずいぶん重いし…。<line-break> <line-break>…ん？<line-break>あれっ…？<end>"
+korean = "이건… 또 묘한 질감의 돌이네. 작은데도 꽤 무겁고…. …응? 어라…?<end>"
 
 ["1410563"]
 japanese = "…すごい。<line-break>これは、すごい大発見かもしれないよ、<line-break><value:$28>！<end>"

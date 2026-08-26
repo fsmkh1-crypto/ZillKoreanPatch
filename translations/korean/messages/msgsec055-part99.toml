@@ -24,6 +24,10 @@ korean = "노엘 언니, 힘내~!<end>"
 japanese = "よっ、勇者様～！<end>"
 korean = "여어, 용사님~!<end>"
 
+["550016"]
+japanese = "…ふっ、<line-break>竜王様のおっしゃるとおりだ。<end>"
+korean = "…훗,용왕께서 말씀하신 대로다.<end>"
+
 ["550017"]
 japanese = "<value:$28>、見てよ。　　　　　<end>"
 korean = "<value:$28>, 봐.<end>"
@@ -252,6 +256,10 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550111"]
+japanese = "そ、そうだね！<line-break>早く奴らを追わなきゃ！<end>"
+korean = "그, 그래!빨리 놈들을 쫓아가야 해!<end>"
+
 ["550115"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
@@ -319,6 +327,10 @@ korean = "여, 역시 스승님!<end>"
 ["550147"]
 japanese = "み、み、みんな…<line-break>石になってるよ！？<end>"
 korean = "다, 다, 다들… 돌이 돼 있잖아!?<end>"
+
+["550150"]
+japanese = "申しわけござらぬ。<line-break>不謹慎でござった。<end>"
+korean = "송구하옵니다.경솔했습니다.<end>"
 
 ["550151"]
 japanese = "＜無＞<end>"
@@ -632,6 +644,14 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550241"]
+japanese = "…あ、あの娘。<line-break>…たぶん、ショックなんだと思うよ。<line-break>　<line-break>ねえ、<value:$28>…。<line-break>行って…あげてよ…。<end>"
+korean = "…아, 그 애. …아마 충격을 받은 것 같아. 저기, <value:$28>…. 가… 줘….<end>"
+
+["550243"]
+japanese = "それとも、あのノエルって<line-break>女の子かな？<end>"
+korean = "아니면 그 노엘이라는여자아이인가?<end>"
+
 ["550248"]
 japanese = "ホントだ。<end>"
 korean = "정말이야.<end>"
@@ -896,6 +916,10 @@ korean = "어딜 보고 있는 거야? 꼬마야.<end>"
 japanese = "え？<end>"
 korean = "어?<end>"
 
+["550348"]
+japanese = "今、あの娘のおしり<line-break>見てたんじゃない？<end>"
+korean = "방금 그 여자애 엉덩이보고 있었지?<end>"
+
 ["550350"]
 japanese = "さあて、どうなのかしらね？　　　　<end>"
 korean = "글쎄, 어떨까?<end>"
@@ -915,6 +939,10 @@ korean = "무슨 일이야? 우리에게 볼일이라도 있어?<end>"
 ["550363"]
 japanese = "こんな奴ら<line-break>こっちから願い下げよ。<end>"
 korean = "이런 녀석들은 이쪽에서 사양이야.<end>"
+
+["550364"]
+japanese = "んじゃ、<line-break>片付けちまってもいいんだな？<end>"
+korean = "그럼,처리해 버려도 되는 거지?<end>"
 
 ["550365"]
 japanese = "<value:$28>さん！<end>"

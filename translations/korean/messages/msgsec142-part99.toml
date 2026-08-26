@@ -60,6 +60,10 @@ korean = "아, 네. 전 그걸로 괜찮아요!<end>"
 japanese = "あ、カフィン、待って！<end>"
 korean = "아, 카핀, 기다려!<end>"
 
+["1420032"]
+japanese = "あ、<value:$28>さん。<line-break>それじゃ、わたし、失礼します！<line-break>　<line-break><value:$28>さんも<line-break>がんばってくださいね！<end>"
+korean = "아, <value:$28>님. 그럼 저는 이만 실례할게요! <value:$28>님도 힘내세요!<end>"
+
 ["1420033"]
 japanese = "<value:$28>…、<line-break>最近はずいぶんと<line-break>活躍しているそうだな？<end>"
 korean = "<value:$28>…, 요즘 꽤 활약하고 있다면서?<end>"
@@ -387,6 +391,10 @@ korean = "세라….<end>"
 ["1420305"]
 japanese = "そりゃそうだけどよお…。<end>"
 korean = "그야 그렇긴 하지만….<end>"
+
+["1420308"]
+japanese = "では、そろそろ<line-break>お別れとしようか。<line-break> <line-break>皆、それぞれの方向へと、<line-break>帰らねばならないのだからな。<end>"
+korean = "그럼 슬슬 헤어질 때인가. 모두 각자의 길로, 돌아가야 하니까.<end>"
 
 ["1420309"]
 japanese = "おう、俺とナッジは<line-break>テラネだ。<end>"
@@ -995,6 +1003,10 @@ korean = "세라….<end>"
 ["1420655"]
 japanese = "そりゃそうだけどよお…。<end>"
 korean = "그야 그렇긴 하지만….<end>"
+
+["1420658"]
+japanese = "では、そろそろ<line-break>お別れとしようか。<line-break> <line-break>皆、それぞれの方向へと、<line-break>帰らねばならないのだからな。<end>"
+korean = "그럼 슬슬 헤어질 때인가. 모두 각자의 길로, 돌아가야 하니까.<end>"
 
 ["1420659"]
 japanese = "おう、俺とナッジは<line-break>テラネだ。<end>"

@@ -144,6 +144,10 @@ korean = "아, 야, 노엘! 방금 건 거짓말….<end>"
 japanese = "…まじいな。<line-break>本気で飲むかな、あいつ…。<end>"
 korean = "…곤란하군. 저 녀석 진짜 마시려나….<end>"
 
+["560081"]
+japanese = "いいこと？<line-break>確実な仕事を数こなすのよ！<end>"
+korean = "알겠어?확실한 일을 많이 해내는 거야!<end>"
+
 ["560083"]
 japanese = "堅実と言いなさい！　堅実と！<end>"
 korean = "착실하다고 해! 착실하다고!<end>"
@@ -159,6 +163,10 @@ korean = "나한테 무슨 용건이지?<end>"
 ["560088"]
 japanese = "ノエルの仲間になった理由？　　　　<end>"
 korean = "노엘의 동료가 된 이유?<end>"
+
+["560091"]
+japanese = "…天の救いだな。<line-break>あとはお前に頼んだ。<end>"
+korean = "…하늘이 도왔군.나머지는 네게 맡긴다.<end>"
 
 ["560094"]
 japanese = "今、何か言った？<end>"
@@ -352,6 +360,10 @@ korean = "엘파스!<end>"
 japanese = "死の羽音…これまでにない<line-break>傑作であったはずだが…　　　　<line-break>　<line-break>どこで育て方を間違えたのか…。<end>"
 korean = "죽음의 날갯소리… 지금까지 없던 걸작이었을 텐데… 어디서 키우는 법을 잘못한 걸까….<end>"
 
+["560208"]
+japanese = "逃げようったって、<line-break>そうはいかないわ。<end>"
+korean = "도망치려 해도,그렇게는 안 돼.<end>"
+
 ["560209"]
 japanese = "あんたには貸しがあるもの。<end>"
 korean = "당신한테 빚이 있으니까.<end>"
@@ -403,6 +415,10 @@ korean = "용왕님의 뜻을 전한다.<end>"
 ["560236"]
 japanese = "…村のみんなを？<line-break>だけど…、だけど…<end>"
 korean = "…마을 사람들을? 하지만… 하지만….<end>"
+
+["560241"]
+japanese = "ナーシェス、<line-break>あんた本気で言ってるの？<end>"
+korean = "나셰스,너 진심으로 하는 말이야?<end>"
 
 ["560243"]
 japanese = "ノエル！　<end>"
@@ -459,6 +475,10 @@ korean = "그래도 확인하지 않고는 견딜 수 없었어.<end>"
 ["560269"]
 japanese = "きゃーーーーーーっ！<end>"
 korean = "꺄아아아아아아!<end>"
+
+["560270"]
+japanese = "…グルルル…ル…ゥ…<line-break>…血……血ヲ……<end>"
+korean = "…그르르르…르……피…… 피를……<end>"
 
 ["560271"]
 japanese = "カフィンの奴、<line-break>ダルケニスだったのか…。<end>"
@@ -551,6 +571,10 @@ korean = "미안하지만 급하다. 길을 비켜라.<end>"
 ["560332"]
 japanese = "うふふ、ご褒美が欲しいの？<end>"
 korean = "후후, 상이 받고 싶어?<end>"
+
+["560333"]
+japanese = "いいのよ。<line-break>正直に言ってごらんなさい。<end>"
+korean = "괜찮아.솔직하게 말해 봐.<end>"
 
 ["560337"]
 japanese = "また、告死天使だ。<end>"
@@ -900,6 +924,10 @@ korean = "나, 나는…!<end>"
 japanese = "ねぼすけ竜ちゃん？<line-break>ご機嫌いかが？<end>"
 korean = "잠꾸러기 용아? 기분은 어때?<end>"
 
+["560632"]
+japanese = "強がりいってもダメだよん。<line-break>あれだけの魔力くらって無事なはず<line-break>ないでしょ。<line-break>いくよ！<line-break><value:$28>！<end>"
+korean = "강한 척해도 소용없어. 그만한 마력을 맞고 멀쩡할 리 없잖아. 간다! <value:$28>!<end>"
+
 ["560633"]
 japanese = "仲間を呼ぶ<end>"
 korean = "동료를 부른다<end>"
@@ -996,9 +1024,17 @@ korean = "…알겠다. 부하가 되지.<end>"
 japanese = "断る！<end>"
 korean = "거절한다!<end>"
 
+["560744"]
+japanese = "マジ？<line-break>ホントに味方になってくれんの？<end>"
+korean = "진짜?정말 우리 편이 돼 주는 거야?<end>"
+
 ["560746"]
 japanese = "カルラ様、よろしいのですか？<line-break><value:$28>が、<line-break>忠誠を誓うとは、思えないのですが？<end>"
 korean = "카를라 님, 괜찮으시겠습니까? <value:$28>이 충성을 맹세할 거라곤 생각되지 않습니다만.<end>"
+
+["560747"]
+japanese = "<value:$28>みたいな<line-break>優秀な人材は、<line-break>なかなか手に入らないからねー。<line-break>それぐらいは仕方ないでしょ。<end>"
+korean = "<value:$28> 같은 우수한 인재는, 좀처럼 구할 수 없으니까. 그 정도는 어쩔 수 없잖아.<end>"
 
 ["560759"]
 japanese = "<value:$28>！<line-break>ロープを伝ってこい！<end>"
@@ -1068,6 +1104,10 @@ korean = "이제 그녀를 지킬 수 없어<end>"
 japanese = "どうやら、俺の勝ちだな。<line-break>　<line-break>　<line-break>さぁ、こいつらを<line-break>引っとらえてくれ！<end>"
 korean = "아무래도 내 승리군. 자, 이 녀석들을 붙잡아 줘!<end>"
 
+["560842"]
+japanese = "アンティノ・マモン！<line-break>貴様を逮捕する！<end>"
+korean = "안티노 마몬!너를 체포한다!<end>"
+
 ["560846"]
 japanese = "くっ、カルラめ！<line-break>だましおったな！<end>"
 korean = "큭, 카를라 녀석! 속였구나!<end>"
@@ -1099,6 +1139,10 @@ korean = "…으… 흑… 으으…<end>"
 ["560870"]
 japanese = "…<value:$28><line-break>…ゴメン…なさ…い…。<end>"
 korean = "…<value:$28> …미안…해….<end>"
+
+["560875"]
+japanese = "バカな！<line-break>約束が違うぞ！　あの小娘め！<end>"
+korean = "말도 안 돼!약속이 다르잖아! 그 꼬마 계집애!<end>"
 
 ["560879"]
 japanese = "怪しい奴！　とらえろ！<end>"

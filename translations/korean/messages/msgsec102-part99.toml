@@ -100,6 +100,10 @@ korean = "어… 왜, 왜….<end>"
 japanese = "せ、先生！<end>"
 korean = "서, 선생님!<end>"
 
+["1020063"]
+japanese = "先生…。<line-break>うぅ…こ、こんなことって…。<end>"
+korean = "선생님….으윽… 이, 이런 일이….<end>"
+
 ["1020068"]
 japanese = "<value:$28>…。<line-break>先生のこと、お願い。<end>"
 korean = "<value:$28>…. 선생님을 부탁해.<end>"
@@ -119,6 +123,10 @@ korean = "어… 왜, 왜….<end>"
 ["1020075"]
 japanese = "せ、先生！<end>"
 korean = "서, 선생님!<end>"
+
+["1020079"]
+japanese = "先生…。<line-break>うぅ…こ、こんなことって…。<end>"
+korean = "선생님….으윽… 이, 이런 일이….<end>"
 
 ["1020095"]
 japanese = "アイリーンメッセージ終端<end>"

@@ -144,6 +144,10 @@ korean = "내가 여행을 떠난 이유….<end>"
 japanese = "ナッジ…よくも、よくも、<line-break>私たちの前に顔が出せたもんだな！<line-break>　<line-break>お前のせいでヴァンは！<end>"
 korean = "나지… 어떻게, 어떻게 우리 앞에 얼굴을 내밀 수 있지! 너 때문에 반은!<end>"
 
+["450090"]
+japanese = "ヴァンに…<line-break>一目だけ会わせてください。<end>"
+korean = "반을…한 번만 만나게 해 주세요.<end>"
+
 ["450093"]
 japanese = "行こう。<value:$28>。<end>"
 korean = "가자. <value:$28>.<end>"
@@ -159,6 +163,10 @@ korean = "아니, 딱히 괜찮아.<end>"
 ["450105"]
 japanese = "…ごめん。　　　　　　　　　　　　<end>"
 korean = "…미안.<end>"
+
+["450108"]
+japanese = "…ごめん…ひとりに、<line-break>してほしいんだ。<end>"
+korean = "…미안… 혼자 있게해 줬으면 해.<end>"
 
 ["450109"]
 japanese = "おかえり、<value:$28>。<end>"
@@ -199,6 +207,10 @@ korean = "그럼 나, 열심히 해볼게.<end>"
 ["450126"]
 japanese = "じゃあ今回は見送ることにするよ。<end>"
 korean = "그럼 이번엔 보류할게.<end>"
+
+["450134"]
+japanese = "というわけだ。<line-break>さ、角をよこしてくれ。<end>"
+korean = "그런 거다.자, 뿔을 내놔.<end>"
 
 ["450138"]
 japanese = "待て。<end>"
@@ -284,9 +296,17 @@ korean = "네, 네.<end>"
 japanese = "ぶっ殺してやる！<end>"
 korean = "죽여 버리겠어!<end>"
 
+["450188"]
+japanese = "なんか。ヤバそうな奴ですぜ。<line-break>アニキ。<end>"
+korean = "뭔가 위험해 보이는 놈입니다.형님.<end>"
+
 ["450191"]
 japanese = "うるせえ！<line-break>これでも食らいやがれ！！<end>"
 korean = "시끄러워! 이것도 먹어라!!<end>"
+
+["450194"]
+japanese = "ぬあ！<line-break>目が…、目があああああああ！！<end>"
+korean = "으악!눈이… 눈이이이이이이!!<end>"
 
 ["450195"]
 japanese = "ガルドランが…！<end>"

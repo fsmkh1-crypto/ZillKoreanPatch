@@ -60,6 +60,10 @@ korean = "그럼 저와 <value:$28>은 이만 물러가겠습니다. 실례합�
 japanese = "…勝手にするがいい！<end>"
 korean = "…마음대로 해라!<end>"
 
+["520042"]
+japanese = "余も疲れた。<line-break>余も退出させてもらおう。<end>"
+korean = "짐도 피곤하구나.짐도 물러나겠다.<end>"
+
 ["520043"]
 japanese = "陛下、お供いたします。<end>"
 korean = "폐하, 모시겠습니다.<end>"
@@ -159,6 +163,10 @@ korean = "아무것도 없다<end>"
 ["520147"]
 japanese = "そうか。<end>"
 korean = "그런가.<end>"
+
+["520148"]
+japanese = "では、会議は以上だ<line-break>各人の奮戦を望む。<end>"
+korean = "그럼 회의는 여기까지다.각자의 분전을 기대하겠다.<end>"
 
 ["520162"]
 japanese = "では、まいる！<line-break>ノーブル伯<value:$28>！<end>"

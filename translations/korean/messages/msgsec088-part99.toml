@@ -120,6 +120,10 @@ korean = "지금은 됐어<end>"
 japanese = "じゃ、がんばるからね。<end>"
 korean = "그럼, 힘내볼게.<end>"
 
+["880084"]
+japanese = "うん、わかった。<line-break>じゃあ、待ってるから。<end>"
+korean = "응, 알았어. 그럼 기다리고 있을게.<end>"
+
 ["880085"]
 japanese = "…ねえ、キミ、<line-break>大丈夫かい？<end>"
 korean = "…저기, 괜찮아?<end>"
@@ -212,6 +216,10 @@ korean = "<value:$28> 씨군요.<end>"
 japanese = "<value:$28>！<line-break>危ない！<end>"
 korean = "<value:$28>! 위험해!<end>"
 
+["880144"]
+japanese = "<value:$28>、<line-break>こいつがボクをさらったんだ！<end>"
+korean = "<value:$28>,이 녀석이 날 납치했어!<end>"
+
 ["880148"]
 japanese = "あ、動ける！<end>"
 korean = "아, 움직여져!<end>"
@@ -256,6 +264,10 @@ korean = "아니요<end>"
 japanese = "じゃ、ボク待ってるから。<end>"
 korean = "그럼 난 기다리고 있을게.<end>"
 
+["880181"]
+japanese = "いつになったら<line-break>この小言は終わるんだろ？<end>"
+korean = "언제쯤이면 이 잔소리가 끝날까?<end>"
+
 ["880184"]
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
@@ -263,6 +275,10 @@ korean = "안녕하세요.<end>"
 ["880185"]
 japanese = "なんの用なの！<line-break>シャリ！<end>"
 korean = "무슨 일이야! 샤리!<end>"
+
+["880186"]
+japanese = "つれないなぁ。<line-break>僕の目当ては君ひとりさ。<end>"
+korean = "매정하네. 내 목적은 너 하나뿐이야.<end>"
 
 ["880189"]
 japanese = "結構、浮気者じゃない？<end>"

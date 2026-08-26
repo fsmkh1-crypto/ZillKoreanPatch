@@ -24,6 +24,10 @@ korean = "저, 편지… 엿보지 않을래?<end>"
 japanese = "だ、ダメだよ、ヴァン。<end>"
 korean = "아, 안 돼, 반.<end>"
 
+["1060043"]
+japanese = "さーて、<line-break>みんな凍ってるすきにっと…。<end>"
+korean = "자, 그럼.다들 얼어붙어 있는 틈에….<end>"
+
 ["1060068"]
 japanese = "解放軍本部の場所を密告する<end>"
 korean = "해방군 본부 위치를 밀고한다<end>"
@@ -71,6 +75,18 @@ korean = "그, 그럴 수가…. <value:$28> 님이… 그런….<end>"
 ["1060119"]
 japanese = "クリュセイス、ショックだったろう。<end>"
 korean = "크류세이스, 충격이었겠지.<end>"
+
+["1060121"]
+japanese = "予備メッセージ１<line-break>ロティ、ボリューム２<end>"
+korean = "예비 메시지 1 로티, 볼륨 2<end>"
+
+["1060122"]
+japanese = "予備メッセージ２<line-break>ロティ、ボリューム２<end>"
+korean = "예비 메시지 2 로티, 볼륨 2<end>"
+
+["1060123"]
+japanese = "予備メッセージ３<line-break>ロティ、ボリューム２<end>"
+korean = "예비 메시지 3 로티, 볼륨 2<end>"
 
 ["1060131"]
 japanese = "ロティ・ボリューム２用メッセージ終端<end>"

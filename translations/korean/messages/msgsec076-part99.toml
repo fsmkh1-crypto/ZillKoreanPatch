@@ -112,9 +112,17 @@ korean = "빈칸<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["760061"]
+japanese = "毎度あり～。<line-break>これは謝礼だよ、じゃあね。<end>"
+korean = "매번 고마워~. 이건 사례야, 그럼 안녕.<end>"
+
 ["760062"]
 japanese = "３０００ギア手に入れた。<end>"
 korean = "3000기아를 손에 넣었다.<end>"
+
+["760065"]
+japanese = "毎度あり～。<line-break>これは謝礼だよ、じゃあね。<end>"
+korean = "매번 고마워~. 이건 사례야, 그럼 안녕.<end>"
 
 ["760066"]
 japanese = "３０００ギア手に入れた。<end>"

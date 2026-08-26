@@ -72,6 +72,10 @@ korean = "뭐야아! 당신.<end>"
 japanese = "あー、わかったぁ！<end>"
 korean = "아ー, 알겠다아!<end>"
 
+["330042"]
+japanese = "おじさんは<line-break>しょあくのこんげん、でしょ！<end>"
+korean = "아저씨는 악의 근원이지!<end>"
+
 ["330043"]
 japanese = "違う！　その逆だ！　　　　　　　　<end>"
 korean = "아니야! 그 반대다!<end>"
@@ -164,6 +168,10 @@ korean = "플린트 씨! 빨리, 빨리요!<end>"
 japanese = "ふぅん。<end>"
 korean = "흐응.<end>"
 
+["330088"]
+japanese = "…そのようですな。<line-break>さぁ、火がついたよ。<end>"
+korean = "…그런 모양이군요. 자, 불이 붙었어.<end>"
+
 ["330091"]
 japanese = "ハハハ、かもな。<end>"
 korean = "하하하, 그럴지도.<end>"
@@ -203,6 +211,10 @@ korean = "그런 물건은 모릅니다.<end>"
 ["330116"]
 japanese = "フリントさ～ん！<end>"
 korean = "플린트 씨~!<end>"
+
+["330118"]
+japanese = "フリントさん、大丈夫だよね！<line-break>ゼネテス！<end>"
+korean = "플린트 씨, 괜찮겠지! 제네테스!<end>"
 
 ["330119"]
 japanese = "あっ！<line-break><value:$28>！<end>"
@@ -324,6 +336,10 @@ korean = "준비됐다<end>"
 japanese = "もう少し…<end>"
 korean = "조금만 더…<end>"
 
+["330206"]
+japanese = "じゃあ、この辺で<line-break>少し休むことにしよう。<end>"
+korean = "그럼 이 근처에서 조금 쉬도록 하자.<end>"
+
 ["330212"]
 japanese = "とう！<end>"
 korean = "타앗!<end>"
@@ -352,9 +368,17 @@ korean = "…미안해. <value:$28>.<end>"
 japanese = "ね、<value:$28>。<line-break>宿屋のフリントさんのとこに<line-break>早くもどろうよぉ。<end>"
 korean = "저기, <value:$28>. 여관의 플린트 씨한테 빨리 돌아가자.<end>"
 
+["330229"]
+japanese = "ま、ここまで来れば、<line-break>一応は安全だろう。<end>"
+korean = "뭐, 여기까지 왔으면, 일단은 안전하겠지.<end>"
+
 ["330231"]
 japanese = "<value:$28>もお礼！<end>"
 korean = "<value:$28>도 고마워!<end>"
+
+["330232"]
+japanese = "ハハハ、わかった。<line-break>気が向いたら行くよ。<end>"
+korean = "하하하, 알았어. 마음 내키면 갈게.<end>"
 
 ["330236"]
 japanese = "<value:$28>、<line-break>あの人、連れてきてくれたら<line-break>よかったのに。<end>"

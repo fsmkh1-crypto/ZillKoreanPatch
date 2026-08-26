@@ -44,6 +44,10 @@ korean = "<value:$28>의 마지막 임무는 리벨담의 크로이스 저택에
 japanese = "………………。<line-break><line-break><line-break>クリュセイスに届けろ。<end>"
 korean = "………………. 크리ュ세이스에게 전해라.<end>"
 
+["1240149"]
+japanese = "最後のお届け先はクロイス邸かぁ。<line-break>ねえ<value:$28>、ここまできて<line-break>期限切れになるようなヘマしないでよ。<end>"
+korean = "마지막 배달지는 크로이스 저택인가. 저기 <value:$28>, 여기까지 와서 기한을 넘기는 실수는 하지 마.<end>"
+
 ["1240167"]
 japanese = "邪竜の断層へ急いでください！<line-break>お願いします<value:$28>。<line-break>時間がないんです。<end>"
 korean = "사룡의 단층으로 서둘러 주세요! 부탁해요, <value:$28>. 시간이 없어요.<end>"
@@ -51,3 +55,7 @@ korean = "사룡의 단층으로 서둘러 주세요! 부탁해요, <value:$28>.
 ["1240179"]
 japanese = "………………。<line-break><line-break><line-break>邪竜の断層へ行け。<line-break>何かが起ころうとしている。<end>"
 korean = "………………. 사룡의 단층으로 가라. 무언가 일어나려 하고 있다.<end>"
+
+["1240189"]
+japanese = "邪竜の断層から、<line-break>強い妖気を感じます。<line-break><line-break>封印されたアズラゴーザが<line-break>覚醒したのかもしれません。<end>"
+korean = "사룡의 단층에서, 강한 요기를 느낍니다. 봉인된 아즈라고자가 깨어났을지도 모릅니다.<end>"

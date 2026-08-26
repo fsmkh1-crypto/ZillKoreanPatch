@@ -40,6 +40,10 @@ korean = "뭐…! 갑자기 무슨 소리야!?<end>"
 japanese = "き、キミは…シャリ！！<end>"
 korean = "너, 너는… 샤리!!<end>"
 
+["890059"]
+japanese = "誰がキミなんかと！<line-break>絶対、お断りだよ！！<end>"
+korean = "누가 너 따위랑! 절대 사양이야!!<end>"
+
 ["890070"]
 japanese = "…シャリ！<end>"
 korean = "…샤리!<end>"
@@ -148,6 +152,10 @@ korean = "예비 메시지 8 에스텔 V4야.<end>"
 japanese = "予備メッセージ９<line-break>エステルのＶ４だよ。<end>"
 korean = "예비 메시지 9 에스텔 V4야.<end>"
 
+["890135"]
+japanese = "予備メッセージ１０<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 10 에스텔 V4야.<end>"
+
 ["890136"]
 japanese = "は…ああ…あ、あぁあ。<end>"
 korean = "하… 아아… 아, 아아아.<end>"
@@ -251,6 +259,10 @@ korean = "싫어, 싫어, 싫어어어어!<end>"
 ["890195"]
 japanese = "…い…や。<end>"
 korean = "…아…니.<end>"
+
+["890196"]
+japanese = "…マゴ…ス…<line-break>いや、いや、イヤアアアア！<end>"
+korean = "…마고…스… 싫어, 싫어, 싫어어어어!<end>"
 
 ["890197"]
 japanese = "そう…<line-break>仕方ない…わね。<end>"
@@ -376,6 +388,10 @@ korean = "오, 온다…!<end>"
 japanese = "な、なんだと…？<end>"
 korean = "뭐, 뭐라고…?<end>"
 
+["890334"]
+japanese = "貴様が言うとおりにしよう！<line-break>その代わり…<end>"
+korean = "네놈이 말한 대로 하겠다! 대신…<end>"
+
 ["890341"]
 japanese = "く、来る…！<end>"
 korean = "오, 온다…!<end>"
@@ -420,9 +436,17 @@ korean = "이런 상태로!? 위험해!<end>"
 japanese = "おっと、失礼しました。<end>"
 korean = "앗, 실례했습니다.<end>"
 
+["890372"]
+japanese = "お待ちしていましたよ。<line-break>さあ、ここです。<end>"
+korean = "기다리고 있었습니다. 자, 여기입니다.<end>"
+
 ["890378"]
 japanese = "ここには否定も、<line-break>拒絶もありません。<end>"
 korean = "여기에는 부정도 거절도 없습니다.<end>"
+
+["890380"]
+japanese = "どうして、<line-break>そんなことが言えるのです！？<end>"
+korean = "어째서, 그런 말을 할 수 있는 겁니까!?<end>"
 
 ["890383"]
 japanese = "あ…。<end>"
@@ -492,6 +516,10 @@ korean = "그러니까, 응?<end>"
 japanese = "来たか…。<end>"
 korean = "왔나….<end>"
 
+["890435"]
+japanese = "（母さん？<line-break>　こんな時間に、どこへ…？）<end>"
+korean = "(엄마?　이 시간에 어디로…?)<end>"
+
 ["890436"]
 japanese = "（やっぱり、母さん、<line-break>　いない…。）<end>"
 korean = "(역시 엄마는 없어….)<end>"
@@ -519,6 +547,10 @@ korean = "이제… 지긋지긋해….<end>"
 ["890448"]
 japanese = "ええ。<line-break>どうもありがとう。<end>"
 korean = "응. 정말 고마워.<end>"
+
+["890449"]
+japanese = "それでは、失礼いたします。<line-break>　<line-break>　<end>"
+korean = "그럼, 실례하겠습니다.　　<end>"
 
 ["890454"]
 japanese = "時は満ちた。<line-break>しかし、なぜ時を告げぬ？<line-break> <line-break>告げるものよ…？<end>"

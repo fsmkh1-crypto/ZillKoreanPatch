@@ -124,6 +124,10 @@ korean = "<value:$28>인가!<end>"
 japanese = "（もう、あと戻りはできない！）<end>"
 korean = "(이제 돌아갈 수 없어!)<end>"
 
+["1890126"]
+japanese = "いらっしゃい、<value:$28>。<line-break>ついに来たね。フフフ。　　　　<line-break>待ってたんだ。<line-break>これを見せてあげたくてね。<end>"
+korean = "어서 와, <value:$28>. 드디어 왔구나. 후후후. 기다리고 있었어. 이걸 보여 주고 싶어서 말이지.<end>"
+
 ["1890130"]
 japanese = "さあ、こいつを倒さないと<line-break>この先には進めないよ、<line-break><value:$28>！<end>"
 korean = "자, 이 녀석을 쓰러뜨리지 않으면 앞으로 갈 수 없어, <value:$28>!<end>"

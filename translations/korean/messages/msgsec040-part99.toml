@@ -44,6 +44,10 @@ korean = "…발저.<end>"
 japanese = "勇者ネメアよ。<end>"
 korean = "용사 네메아여.<end>"
 
+["400023"]
+japanese = "私はネメアだ。<line-break>勇者ネメアなどではない。<end>"
+korean = "나는 네메아다. 용사 네메아 따위가 아니다.<end>"
+
 ["400024"]
 japanese = "運命に抗おうとする者…。<end>"
 korean = "운명에 맞서려는 자….<end>"
@@ -255,6 +259,10 @@ korean = "그렇게 공을 서두르지 마라, 오이페.<end>"
 ["400146"]
 japanese = "傲慢の首飾りを渡して、<line-break><value:$28>。<end>"
 korean = "오만의 목걸이를 건네줘, <value:$28>.<end>"
+
+["400147"]
+japanese = "言ったはずよ。<line-break>敵対するなら、殺すって。<end>"
+korean = "말했을 텐데. 적대한다면 죽이겠다고.<end>"
 
 ["400148"]
 japanese = "…ムキになるな。<end>"

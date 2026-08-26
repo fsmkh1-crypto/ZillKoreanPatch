@@ -52,6 +52,10 @@ korean = "왜 그런 짓을! 형의 몸은….<end>"
 japanese = "やめろ。殺すな。<end>"
 korean = "그만둬. 죽이지 마.<end>"
 
+["1030064"]
+japanese = "では、ブツはもらっていく。<line-break>じゃあな。<end>"
+korean = "그럼 물건은 가져가겠다.잘 있어.<end>"
+
 ["1030065"]
 japanese = "エステル<end>"
 korean = "에스텔<end>"
@@ -79,6 +83,38 @@ korean = "…무슨 말을 하는 거냐, 크류세이스?<end>"
 ["1030103"]
 japanese = "<value:$28>は<line-break>借金剣闘士の称号を得た。<end>"
 korean = "<value:$28>은 빚진 검투사의 칭호를 얻었다.<end>"
+
+["1030104"]
+japanese = "予備メッセージその２<line-break>クリュセイスＶ２<end>"
+korean = "예비 메시지 2 크류세이스 V2<end>"
+
+["1030105"]
+japanese = "予備メッセージその３<line-break>クリュセイスＶ２<end>"
+korean = "예비 메시지 3 크류세이스 V2<end>"
+
+["1030106"]
+japanese = "予備メッセージその４<line-break>クリュセイスＶ２<end>"
+korean = "예비 메시지 4 크류세이스 V2<end>"
+
+["1030107"]
+japanese = "予備メッセージその５<line-break>クリュセイスＶ２<end>"
+korean = "예비 메시지 5 크류세이스 V2<end>"
+
+["1030108"]
+japanese = "予備メッセージその６<line-break>クリュセイスＶ２<end>"
+korean = "예비 메시지 6 크류세이스 V2<end>"
+
+["1030109"]
+japanese = "予備メッセージその７<line-break>クリュセイスＶ２<end>"
+korean = "예비 메시지 7 크류세이스 V2<end>"
+
+["1030110"]
+japanese = "予備メッセージその８<line-break>クリュセイスＶ２<end>"
+korean = "예비 메시지 8 크류세이스 V2<end>"
+
+["1030111"]
+japanese = "予備メッセージその９<line-break>クリュセイスＶ２<end>"
+korean = "예비 메시지 9 크류세이스 V2<end>"
 
 ["1030112"]
 japanese = "クリュセイスメッセージ終端<end>"
