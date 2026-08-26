@@ -4,12 +4,18 @@
 Supported input rows:
   {"section":3,"id":"30000","korean":"..."}
   {"section":3,"start":30000,"korean":["...","...",...]}
+  {"recover_from":{"commit":"<sha>","path":"work/korean-results/old.jsonl"}}
 
 The compact sequential form expands IDs from start and keeps large GPT result
 packets small. Canonical Japanese is always loaded locally. Fixed runtime
 controls are validated after expansion. ``<line-break>`` is forbidden in the
 translator-owned ``korean`` field because wrapping belongs only in generated
 ``layout`` metadata.
+
+Historical recovery rows are deliberately fail-safe: the historical packet is
+read from Git history, but an already-existing canonical Korean translation is
+never overwritten or treated as a conflict. Only IDs that are still missing are
+recovered. Ordinary result rows remain fail-closed on conflicts.
 """
 from __future__ import annotations
 
@@ -17,6 +23,7 @@ import argparse
 import json
 from pathlib import Path
 import re
+import subprocess
 import tomllib
 
 from control_tags import fixed_tokens
@@ -107,6 +114,45 @@ def expanded_rows(obj: dict, input_path: Path, lineno: int):
     raise SystemExit(f"{input_path}:{lineno}: expected id+korean or start+korean[]")
 
 
+def historical_rows(obj: dict, input_path: Path, lineno: int):
+    spec = obj.get("recover_from")
+    if not isinstance(spec, dict):
+        for section, rid, ko in expanded_rows(obj, input_path, lineno):
+            yield section, rid, ko, False
+        return
+
+    commit = str(spec.get("commit", "")).strip()
+    path = str(spec.get("path", "")).strip()
+    if not commit or not path:
+        raise SystemExit(f"{input_path}:{lineno}: recover_from requires commit and path")
+    if path.startswith("/") or ".." in Path(path).parts:
+        raise SystemExit(f"{input_path}:{lineno}: unsafe recovery path: {path}")
+
+    proc = subprocess.run(
+        ["git", "show", f"{commit}:{path}"],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if proc.returncode != 0:
+        detail = proc.stderr.strip() or proc.stdout.strip()
+        raise SystemExit(f"{input_path}:{lineno}: cannot read recovery source {commit}:{path}: {detail}")
+
+    source_label = Path(f"{commit[:12]}-{Path(path).name}")
+    for source_lineno, line in enumerate(proc.stdout.splitlines(), 1):
+        if not line.strip():
+            continue
+        try:
+            historical = json.loads(line)
+        except json.JSONDecodeError as exc:
+            raise SystemExit(
+                f"{input_path}:{lineno}: invalid JSON in recovery source {path}:{source_lineno}: {exc}"
+            ) from exc
+        for section, rid, ko in expanded_rows(historical, source_label, source_lineno):
+            yield section, rid, ko, True
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("inputs", nargs="+", type=Path)
@@ -117,6 +163,7 @@ def main() -> None:
     seen_input: dict[tuple[int, str], str] = {}
     added = 0
     unchanged = 0
+    recovery_skipped = 0
 
     for input_path in args.inputs:
         with input_path.open(encoding="utf-8") as f:
@@ -124,10 +171,13 @@ def main() -> None:
                 if not line.strip():
                     continue
                 obj = json.loads(line)
-                for section, rid, ko in expanded_rows(obj, input_path, lineno):
+                for section, rid, ko, recovery in historical_rows(obj, input_path, lineno):
                     key = (section, rid)
                     if key in seen_input:
                         if seen_input[key] != ko:
+                            if recovery:
+                                recovery_skipped += 1
+                                continue
                             raise SystemExit(f"{input_path}:{lineno}: conflicting duplicate input id {section}/{rid}")
                         continue
                     seen_input[key] = ko
@@ -150,6 +200,9 @@ def main() -> None:
                         )
                     if key in existing:
                         if existing[key] != ko:
+                            if recovery:
+                                recovery_skipped += 1
+                                continue
                             raise SystemExit(f"{input_path}:{lineno}: conflicting existing translation {section}/{rid}")
                         unchanged += 1
                         continue
@@ -160,7 +213,10 @@ def main() -> None:
     KOREAN.mkdir(parents=True, exist_ok=True)
     for section, records in sorted(auto.items()):
         auto_path(section).write_text(render(records), encoding="utf-8")
-    print(f"applied {added} new translations; {unchanged} already identical")
+    print(
+        f"applied {added} new translations; {unchanged} already identical; "
+        f"{recovery_skipped} historical conflicts preserved current corpus"
+    )
 
 
 if __name__ == "__main__":
