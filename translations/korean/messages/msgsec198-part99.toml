@@ -4,6 +4,10 @@
 japanese = "フェルムメッセージ開始<end>"
 korean = "페름 메시지 시작<end>"
 
+["1980001"]
+japanese = "ありがとうございますっ！<line-break>大丈夫ですか？<end>"
+korean = "감사합니다! 괜찮으세요?<end>"
+
 ["1980003"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
