@@ -13,11 +13,12 @@ import (
 const koreanAlphaPlaceholder = "[JP]"
 
 // BuildKoreanAlphaPlaceholderProject creates an in-memory, development-only
-// overlay for device-alpha validation. Parsed retail structure is authoritative:
-// records with no editable semantic fragment are omitted first, even if a Korean
-// corpus row exists for that ID, so their authenticated retail bytes remain
-// byte-identical. Accepted Korean rows are preserved only for genuinely editable
-// records; untranslated editable records receive a tiny ASCII marker. No files
+// overlay for device-alpha validation. Structural/no-text records are omitted so
+// their authenticated retail bytes are preserved byte-for-byte. Editable records
+// with accepted Korean use semantic Korean only; generated Layout is deliberately
+// cleared in this alpha path so stale or invalid layout projections cannot block
+// renderer/font/ISO integration testing. Untranslated editable records use a tiny
+// ASCII marker while source-owned controls/substitutions remain intact. No files
 // in translations/korean are modified.
 func BuildKoreanAlphaPlaceholderProject(source *corpus.Project, korean *corpus.KoreanProject) (*corpus.KoreanProject, int, error) {
 	if source == nil || korean == nil {
@@ -31,27 +32,37 @@ func BuildKoreanAlphaPlaceholderProject(source *corpus.Project, korean *corpus.K
 	entries := make([]corpus.KoreanEntry, 0, len(source.Items))
 	placeholders := 0
 	for _, item := range source.Items {
-		// Classify the authenticated retail record before consulting the Korean
-		// overlay. A structural/control-only record cannot safely be materialized
-		// through message.Project, regardless of whether an accepted corpus row
-		// happens to exist for its ID.
-		placeholder, editable, err := message.PlaceholderForRecord(item.Record, koreanAlphaPlaceholder)
+		// Structural classification has priority even when a Korean corpus row
+		// exists. Such rows cannot be materialized safely and are therefore kept
+		// byte-identical to retail for this device-alpha build.
+		_, editable, err := message.PlaceholderForRecord(item.Record, koreanAlphaPlaceholder)
 		if err != nil {
-			return nil, 0, fmt.Errorf("Korean alpha placeholder ID %d: %w", item.Record.ID, err)
+			return nil, 0, fmt.Errorf("Korean alpha classify ID %d: %w", item.Record.ID, err)
 		}
 		if !editable {
 			continue
 		}
 
 		if row, ok := accepted[item.Record.ID]; ok {
+			// Device alpha validates semantic Korean rendering, not generated line
+			// layout. Clear Layout so planner and compiler consume the same semantic
+			// text and production layout validation remains untouched.
+			row.Layout = ""
 			entries = append(entries, row)
 			continue
 		}
 
+		text, ok, err := message.PlaceholderForRecord(item.Record, koreanAlphaPlaceholder)
+		if err != nil {
+			return nil, 0, fmt.Errorf("Korean alpha placeholder ID %d: %w", item.Record.ID, err)
+		}
+		if !ok {
+			continue
+		}
 		entries = append(entries, corpus.KoreanEntry{
 			ID:       item.Record.ID,
 			Japanese: item.Translation.Japanese,
-			Korean:   placeholder,
+			Korean:   text,
 		})
 		placeholders++
 	}
