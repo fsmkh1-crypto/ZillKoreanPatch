@@ -68,6 +68,10 @@ korean = "알현실로 간다<end>"
 japanese = "謁見の間へ行かない<end>"
 korean = "알현실에는 가지 않는다<end>"
 
+["1800060"]
+japanese = "では、どうぞ<line-break>お通りください。<end>"
+korean = "그럼 지나가십시오.<end>"
+
 ["1800063"]
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
@@ -127,6 +131,10 @@ korean = "호출<end>"
 ["1800115"]
 japanese = "よび<end>"
 korean = "호출<end>"
+
+["1800119"]
+japanese = "か、カ、カルラ様！<line-break>大変です！<end>"
+korean = "카, 카, 카를라 님! 큰일입니다!<end>"
 
 ["1800123"]
 japanese = "し、しかし！<end>"
