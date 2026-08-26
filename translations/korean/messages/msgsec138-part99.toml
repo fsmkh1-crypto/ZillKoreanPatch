@@ -4,9 +4,21 @@
 japanese = "見たい<end>"
 korean = "보고 싶어<end>"
 
+["1380083"]
+japanese = "んっ…。<end>"
+korean = "응….<end>"
+
 ["1380255"]
 japanese = "俺は…<end>"
 korean = "나는…<end>"
+
+["1380373"]
+japanese = "おっと！<end>"
+korean = "어이쿠!<end>"
+
+["1380557"]
+japanese = "ははは！<end>"
+korean = "하하하!<end>"
 
 ["1380578"]
 japanese = "いいえ<end>"

@@ -1,16 +1,32 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1260000"]
+japanese = "ゼネテス<end>"
+korean = "제네테스<end>"
+
 ["1260002"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260005"]
+japanese = "ゼネテス<end>"
+korean = "제네테스<end>"
 
 ["1260007"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260010"]
+japanese = "ゼネテス<end>"
+korean = "제네테스<end>"
+
 ["1260012"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260015"]
+japanese = "ゼネテス<end>"
+korean = "제네테스<end>"
 
 ["1260016"]
 japanese = "剣狼<end>"
@@ -28,6 +44,10 @@ korean = "세라<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260027"]
+japanese = "ボルダン<end>"
+korean = "볼단<end>"
+
 ["1260032"]
 japanese = "人間<end>"
 korean = "인간<end>"
@@ -40,6 +60,14 @@ korean = "선왕<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260040"]
+japanese = "ゾフォル<end>"
+korean = "조폴<end>"
+
+["1260041"]
+japanese = "妖術宰相<end>"
+korean = "요술 재상<end>"
+
 ["1260042"]
 japanese = "人間<end>"
 korean = "인간<end>"
@@ -51,6 +79,10 @@ korean = "인간<end>"
 ["1260052"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260056"]
+japanese = "失意の人<end>"
+korean = "실의에 빠진 자<end>"
 
 ["1260057"]
 japanese = "人間<end>"
@@ -68,17 +100,41 @@ korean = "인간<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260075"]
+japanese = "ティアナ<end>"
+korean = "티아나<end>"
+
 ["1260077"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260080"]
+japanese = "ティアナ<end>"
+korean = "티아나<end>"
+
+["1260081"]
+japanese = "闇の王女<end>"
+korean = "어둠의 왕녀<end>"
 
 ["1260082"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260085"]
+japanese = "ティアナ<end>"
+korean = "티아나<end>"
+
 ["1260087"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260090"]
+japanese = "デルガド<end>"
+korean = "델가도<end>"
+
+["1260091"]
+japanese = "炎の刀工<end>"
+korean = "불꽃의 도공<end>"
 
 ["1260092"]
 japanese = "ドワーフ<end>"
@@ -116,9 +172,17 @@ korean = "네모<end>"
 japanese = "魔人<end>"
 korean = "마인<end>"
 
+["1260141"]
+japanese = "無限の魂<end>"
+korean = "무한의 혼<end>"
+
 ["1260142"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260145"]
+japanese = "バルザー<end>"
+korean = "발자<end>"
 
 ["1260147"]
 japanese = "魔人<end>"
@@ -132,9 +196,21 @@ korean = "마왕<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260160"]
+japanese = "フェティ<end>"
+korean = "페티<end>"
+
+["1260165"]
+japanese = "フェルム<end>"
+korean = "펠름<end>"
+
 ["1260167"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260170"]
+japanese = "フェルム<end>"
+korean = "펠름<end>"
 
 ["1260172"]
 japanese = "人間<end>"
@@ -143,6 +219,30 @@ korean = "인간<end>"
 ["1260177"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260181"]
+japanese = "火の巫女<end>"
+korean = "불의 무녀<end>"
+
+["1260182"]
+japanese = "人造人間<end>"
+korean = "인조인간<end>"
+
+["1260186"]
+japanese = "火の巫女<end>"
+korean = "불의 무녀<end>"
+
+["1260187"]
+japanese = "人造人間<end>"
+korean = "인조인간<end>"
+
+["1260191"]
+japanese = "火の巫女<end>"
+korean = "불의 무녀<end>"
+
+["1260192"]
+japanese = "人造人間<end>"
+korean = "인조인간<end>"
 
 ["1260197"]
 japanese = "人間<end>"
@@ -164,17 +264,49 @@ korean = "인간<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260222"]
+japanese = "ボルダン<end>"
+korean = "볼단<end>"
+
+["1260225"]
+japanese = "マルーン<end>"
+korean = "마룬<end>"
+
 ["1260227"]
 japanese = "ゴブリン<end>"
 korean = "고블린<end>"
+
+["1260230"]
+japanese = "ユーリス<end>"
+korean = "유리스<end>"
 
 ["1260232"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260242"]
+japanese = "リルビー<end>"
+korean = "릴비<end>"
+
+["1260245"]
+japanese = "レイヴン<end>"
+korean = "레이븐<end>"
+
+["1260246"]
+japanese = "黒い閃光<end>"
+korean = "검은 섬광<end>"
+
 ["1260247"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260250"]
+japanese = "レイヴン<end>"
+korean = "레이븐<end>"
+
+["1260251"]
+japanese = "死の羽音<end>"
+korean = "죽음의 날갯소리<end>"
 
 ["1260252"]
 japanese = "人間<end>"
@@ -184,9 +316,37 @@ korean = "인간<end>"
 japanese = "剣聖<end>"
 korean = "검성<end>"
 
+["1260257"]
+japanese = "ボルダン<end>"
+korean = "볼단<end>"
+
+["1260260"]
+japanese = "レムオン<end>"
+korean = "레몬<end>"
+
 ["1260262"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260265"]
+japanese = "レムオン<end>"
+korean = "레몬<end>"
+
+["1260270"]
+japanese = "レムオン<end>"
+korean = "레몬<end>"
+
+["1260271"]
+japanese = "闇の公爵<end>"
+korean = "어둠의 공작<end>"
+
+["1260275"]
+japanese = "レムオン<end>"
+korean = "레몬<end>"
+
+["1260282"]
+japanese = "リルビー<end>"
+korean = "릴비<end>"
 
 ["1260285"]
 japanese = "ロイ<end>"
@@ -212,13 +372,25 @@ korean = "로이<end>"
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260300"]
+japanese = "ロッシマ<end>"
+korean = "로시마<end>"
+
 ["1260302"]
 japanese = "人間<end>"
 korean = "인간<end>"
 
+["1260306"]
+japanese = "死の商人<end>"
+korean = "죽음의 상인<end>"
+
 ["1260307"]
 japanese = "人間<end>"
 korean = "인간<end>"
+
+["1260311"]
+japanese = "死の商人<end>"
+korean = "죽음의 상인<end>"
 
 ["1260312"]
 japanese = "人間<end>"

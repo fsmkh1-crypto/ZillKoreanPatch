@@ -4,26 +4,62 @@
 japanese = "行く<end>"
 korean = "간다<end>"
 
+["1400055"]
+japanese = "行かない<end>"
+korean = "안 가<end>"
+
+["1400091"]
+japanese = "きゃん！<end>"
+korean = "꺅!<end>"
+
 ["1400092"]
 japanese = "くっ！<end>"
 korean = "큭!<end>"
+
+["1400093"]
+japanese = "危ない！<end>"
+korean = "위험해!<end>"
 
 ["1400125"]
 japanese = "くっ！<end>"
 korean = "큭!<end>"
 
+["1400166"]
+japanese = "…催し？<end>"
+korean = "…행사?<end>"
+
 ["1400180"]
 japanese = "行く<end>"
 korean = "간다<end>"
+
+["1400181"]
+japanese = "行かない<end>"
+korean = "안 가<end>"
+
+["1400187"]
+japanese = "…催し？<end>"
+korean = "…행사?<end>"
 
 ["1400215"]
 japanese = "行く<end>"
 korean = "간다<end>"
 
+["1400216"]
+japanese = "行かない<end>"
+korean = "안 가<end>"
+
 ["1400359"]
 japanese = "はい。<end>"
 korean = "네.<end>"
 
+["1400361"]
+japanese = "…はい。<end>"
+korean = "…네.<end>"
+
 ["1400363"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1400429"]
+japanese = "わかった<end>"
+korean = "알았어<end>"

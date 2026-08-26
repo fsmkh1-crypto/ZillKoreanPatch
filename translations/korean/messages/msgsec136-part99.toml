@@ -1,8 +1,20 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1360050"]
+japanese = "兄さん！<end>"
+korean = "형!<end>"
+
+["1360088"]
+japanese = "ヴァイ！<end>"
+korean = "바이!<end>"
+
 ["1360114"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1360115"]
+japanese = "行くぞ！<end>"
+korean = "간다!<end>"
 
 ["1360129"]
 japanese = "もういい<end>"
@@ -20,9 +32,41 @@ korean = "좋아<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1360298"]
+japanese = "…セラ。<end>"
+korean = "…세라.<end>"
+
+["1360299"]
+japanese = "…ロイ。<end>"
+korean = "…로이.<end>"
+
+["1360317"]
+japanese = "…セラ。<end>"
+korean = "…세라.<end>"
+
+["1360318"]
+japanese = "…ロイ。<end>"
+korean = "…로이.<end>"
+
 ["1360349"]
 japanese = "行け！<end>"
 korean = "가!<end>"
+
+["1360410"]
+japanese = "でも…。<end>"
+korean = "하지만….<end>"
+
+["1360414"]
+japanese = "あの…。<end>"
+korean = "저기….<end>"
+
+["1360425"]
+japanese = "…はあ？<end>"
+korean = "…하아?<end>"
+
+["1360537"]
+japanese = "貴様…。<end>"
+korean = "네놈….<end>"
 
 ["1360541"]
 japanese = "え？<end>"

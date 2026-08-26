@@ -4,13 +4,45 @@
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1340030"]
+japanese = "力を貸す<end>"
+korean = "힘을 빌려준다<end>"
+
+["1340102"]
+japanese = "ナッジ…<end>"
+korean = "나지…<end>"
+
 ["1340144"]
 japanese = "許す<end>"
 korean = "용서한다<end>"
 
+["1340145"]
+japanese = "許さない<end>"
+korean = "용서 못 해<end>"
+
+["1340151"]
+japanese = "ギャッ！<end>"
+korean = "꺅!<end>"
+
+["1340212"]
+japanese = "くっ…。<end>"
+korean = "큭….<end>"
+
+["1340213"]
+japanese = "…不覚。<end>"
+korean = "…불찰이다.<end>"
+
+["1340263"]
+japanese = "ノエル！<end>"
+korean = "노엘!<end>"
+
 ["1340284"]
 japanese = "え…？<end>"
 korean = "어…?<end>"
+
+["1340288"]
+japanese = "あっ…！<end>"
+korean = "앗…!<end>"
 
 ["1340413"]
 japanese = "はぁ…<end>"
@@ -24,6 +56,10 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["1340441"]
+japanese = "…待て。<end>"
+korean = "…기다려.<end>"
+
 ["1340521"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
@@ -36,6 +72,10 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["1340541"]
+japanese = "…待て。<end>"
+korean = "…기다려.<end>"
+
 ["1340575"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
@@ -43,3 +83,7 @@ korean = "핫!<end>"
 ["1340578"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
+
+["1340662"]
+japanese = "立ち去る<end>"
+korean = "떠난다<end>"

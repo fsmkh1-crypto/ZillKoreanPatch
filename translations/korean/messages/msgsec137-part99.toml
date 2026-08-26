@@ -8,6 +8,10 @@ korean = "강함<end>"
 japanese = "美しさ<end>"
 korean = "아름다움<end>"
 
+["1370041"]
+japanese = "気になる<end>"
+korean = "신경 쓰여<end>"
+
 ["1370057"]
 japanese = "強さ<end>"
 korean = "강함<end>"
@@ -40,6 +44,10 @@ korean = "세라?<end>"
 japanese = "セラ？<end>"
 korean = "세라?<end>"
 
+["1370212"]
+japanese = "……よ。<end>"
+korean = "……야.<end>"
+
 ["1370237"]
 japanese = "ちぇ。<end>"
 korean = "쳇.<end>"
@@ -52,6 +60,10 @@ korean = "…와.<end>"
 japanese = "！<end>"
 korean = "！<end>"
 
+["1370309"]
+japanese = "ははは！<end>"
+korean = "하하하!<end>"
+
 ["1370312"]
 japanese = "知らない<end>"
 korean = "몰라<end>"
@@ -59,6 +71,18 @@ korean = "몰라<end>"
 ["1370325"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
+
+["1370401"]
+japanese = "教わった<end>"
+korean = "배웠다<end>"
+
+["1370429"]
+japanese = "理解した<end>"
+korean = "이해했다<end>"
+
+["1370433"]
+japanese = "理解した<end>"
+korean = "이해했다<end>"
 
 ["1370541"]
 japanese = "大丈夫<end>"
@@ -72,13 +96,29 @@ korean = "괜찮아<end>"
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
 
+["1370585"]
+japanese = "はっ…！<end>"
+korean = "핫…!<end>"
+
+["1370587"]
+japanese = "くわっ！<end>"
+korean = "크왓!<end>"
+
 ["1370605"]
 japanese = "はい。<end>"
 korean = "네.<end>"
 
+["1370608"]
+japanese = "ちぇっ。<end>"
+korean = "쳇.<end>"
+
 ["1370638"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
+
+["1370700"]
+japanese = "ははは！<end>"
+korean = "하하하!<end>"
 
 ["1370712"]
 japanese = "はい<end>"

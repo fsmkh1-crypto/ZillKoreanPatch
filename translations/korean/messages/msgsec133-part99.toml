@@ -1,8 +1,24 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1330035"]
+japanese = "言うな！<end>"
+korean = "말하지 마!<end>"
+
+["1330037"]
+japanese = "シャリ！<end>"
+korean = "샤리!<end>"
+
 ["1330069"]
 japanese = "行く<end>"
 korean = "간다<end>"
+
+["1330070"]
+japanese = "行かない<end>"
+korean = "안 가<end>"
+
+["1330103"]
+japanese = "はい…。<end>"
+korean = "네….<end>"
 
 ["1330124"]
 japanese = "はい。<end>"
@@ -11,6 +27,10 @@ korean = "네.<end>"
 ["1330260"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1330267"]
+japanese = "状況は？<end>"
+korean = "상황은?<end>"
 
 ["1330280"]
 japanese = "はっ！<end>"

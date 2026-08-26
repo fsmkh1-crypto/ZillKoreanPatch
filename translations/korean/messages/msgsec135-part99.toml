@@ -20,9 +20,17 @@ korean = "큭!<end>"
 japanese = "くっ！<end>"
 korean = "큭!<end>"
 
+["1350282"]
+japanese = "無礼者！<end>"
+korean = "무례한 놈!<end>"
+
 ["1350286"]
 japanese = "やれ！<end>"
 korean = "해치워!<end>"
+
+["1350312"]
+japanese = "無礼者！<end>"
+korean = "무례한 놈!<end>"
 
 ["1350316"]
 japanese = "やれ！<end>"
@@ -32,9 +40,21 @@ korean = "해치워!<end>"
 japanese = "くっ…<end>"
 korean = "큭…<end>"
 
+["1350346"]
+japanese = "なんで？<end>"
+korean = "왜?<end>"
+
+["1350356"]
+japanese = "兄さん！<end>"
+korean = "형!<end>"
+
 ["1350431"]
 japanese = "あ…<end>"
 korean = "아…<end>"
+
+["1350442"]
+japanese = "ヴァイ！<end>"
+korean = "바이!<end>"
 
 ["1350469"]
 japanese = "助ける<end>"
@@ -43,6 +63,10 @@ korean = "돕는다<end>"
 ["1350519"]
 japanese = "…ちっ<end>"
 korean = "…칫<end>"
+
+["1350528"]
+japanese = "兄さん！<end>"
+korean = "형!<end>"
 
 ["1350540"]
 japanese = "見守る<end>"
