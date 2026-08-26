@@ -260,6 +260,10 @@ korean = "이, 이렇게나 많이….<end>"
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
 
+["1920187"]
+japanese = "それでは、お父様、お母様。<line-break>行ってきます！<end>"
+korean = "그럼 아버님, 어머님. 다녀오겠습니다!<end>"
+
 ["1920188"]
 japanese = "<value:$28>さん、<line-break>行きましょう！<end>"
 korean = "<value:$28> 씨, 갑시다!<end>"
