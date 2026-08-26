@@ -12,6 +12,18 @@ korean = "안 간다<end>"
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
 
+["1800048"]
+japanese = "引き受けない<end>"
+korean = "맡지 않는다<end>"
+
+["1800066"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["1800070"]
+japanese = "そうですか。<end>"
+korean = "그렇습니까.<end>"
+
 ["1800112"]
 japanese = "よび<end>"
 korean = "호출<end>"
@@ -28,9 +40,21 @@ korean = "호출<end>"
 japanese = "よび<end>"
 korean = "호출<end>"
 
+["1800123"]
+japanese = "し、しかし！<end>"
+korean = "하, 하지만!<end>"
+
+["1800126"]
+japanese = "カルラ様…。<end>"
+korean = "카를라님….<end>"
+
 ["1800134"]
 japanese = "ゼネテス！<end>"
 korean = "제네테스!<end>"
+
+["1800140"]
+japanese = "ゼネテス様！<end>"
+korean = "제네테스님!<end>"
 
 ["1800142"]
 japanese = "よび<end>"
@@ -44,6 +68,26 @@ korean = "호출<end>"
 japanese = "よび<end>"
 korean = "호출<end>"
 
+["1800158"]
+japanese = "ネメアを追う<end>"
+korean = "네메아를 쫓는다<end>"
+
 ["1800181"]
 japanese = "力を貸そう<end>"
 korean = "힘을 빌려주지<end>"
+
+["1800201"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["1800203"]
+japanese = "エリスの部屋<end>"
+korean = "엘리스의 방<end>"
+
+["1800204"]
+japanese = "別に用はない<end>"
+korean = "딱히 볼일은 없다<end>"
+
+["1800205"]
+japanese = "エリスの部屋<end>"
+korean = "엘리스의 방<end>"

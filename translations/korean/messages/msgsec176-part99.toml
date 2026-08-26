@@ -4,6 +4,10 @@
 japanese = "行けます<end>"
 korean = "갈 수 있습니다<end>"
 
+["1760003"]
+japanese = "行けないです<end>"
+korean = "갈 수 없습니다<end>"
+
 ["1760017"]
 japanese = "押さない<end>"
 korean = "누르지 않는다<end>"
@@ -31,3 +35,7 @@ korean = "당겨 본다<end>"
 ["1760075"]
 japanese = "押さない<end>"
 korean = "누르지 않는다<end>"
+
+["1760118"]
+japanese = "残念ながら…<end>"
+korean = "유감스럽지만…<end>"

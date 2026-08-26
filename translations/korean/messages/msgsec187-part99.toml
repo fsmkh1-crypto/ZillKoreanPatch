@@ -1,8 +1,16 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1870004"]
+japanese = "今すぐに行く<end>"
+korean = "지금 당장 간다<end>"
+
 ["1870005"]
 japanese = "今は忙しい<end>"
 korean = "지금은 바빠<end>"
+
+["1870031"]
+japanese = "…竜王様だ。<end>"
+korean = "…용왕님이다.<end>"
 
 ["1870039"]
 japanese = "ノエル！<end>"

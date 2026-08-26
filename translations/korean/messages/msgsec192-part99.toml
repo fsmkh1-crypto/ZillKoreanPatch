@@ -4,6 +4,10 @@
 japanese = "っるさい！<end>"
 korean = "시끄러워!<end>"
 
+["1920050"]
+japanese = "…よかった。<end>"
+korean = "…다행이다.<end>"
+
 ["1920077"]
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
@@ -15,6 +19,10 @@ korean = "빈칸<end>"
 ["1920146"]
 japanese = "お母様…。<end>"
 korean = "어머님….<end>"
+
+["1920148"]
+japanese = "お、お母様！<end>"
+korean = "어, 어머님!<end>"
 
 ["1920156"]
 japanese = "<value:$28>様！<end>"

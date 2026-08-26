@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1970002"]
+japanese = "闘技場処理中<end>"
+korean = "투기장 처리 중<end>"
+
 ["1970007"]
 japanese = "遺跡　出現<end>"
 korean = "유적 출현<end>"
@@ -12,13 +16,57 @@ korean = "이즈 정보<end>"
 japanese = "急げ　発生<end>"
 korean = "서둘러 발생<end>"
 
+["1970065"]
+japanese = "ヴァン　死亡<end>"
+korean = "반 사망<end>"
+
 ["1970074"]
 japanese = "エア　死亡<end>"
 korean = "에어 사망<end>"
 
+["1970093"]
+japanese = "エスト　登場<end>"
+korean = "에스트 등장<end>"
+
+["1970094"]
+japanese = "エスト　死亡<end>"
+korean = "에스트 사망<end>"
+
+["1970102"]
+japanese = "エリス　死亡<end>"
+korean = "엘리스 사망<end>"
+
+["1970126"]
+japanese = "オッシ　登場<end>"
+korean = "옷시 등장<end>"
+
+["1970131"]
+japanese = "エスト　会話<end>"
+korean = "에스트 대화<end>"
+
 ["1970133"]
 japanese = "海王　死亡<end>"
 korean = "해왕 사망<end>"
+
+["1970160"]
+japanese = "カルラ　登場<end>"
+korean = "카를라 등장<end>"
+
+["1970219"]
+japanese = "ザギヴ　登場<end>"
+korean = "자기브 등장<end>"
+
+["1970220"]
+japanese = "ザギヴ　死亡<end>"
+korean = "자기브 사망<end>"
+
+["1970243"]
+japanese = "シャリ　登場<end>"
+korean = "샤리 등장<end>"
+
+["1970244"]
+japanese = "シャリ　死亡<end>"
+korean = "샤리 사망<end>"
 
 ["1970257"]
 japanese = "翔王　死亡<end>"
@@ -28,9 +76,69 @@ korean = "상왕 사망<end>"
 japanese = "セラ　登場<end>"
 korean = "세라 등장<end>"
 
+["1970311"]
+japanese = "ダナン　死亡<end>"
+korean = "다난 사망<end>"
+
+["1970323"]
+japanese = "チャカ　死亡<end>"
+korean = "차카 사망<end>"
+
+["1970393"]
+japanese = "ナッジ　登場<end>"
+korean = "나지 등장<end>"
+
+["1970394"]
+japanese = "ナッジ　死亡<end>"
+korean = "나지 사망<end>"
+
+["1970397"]
+japanese = "ナッジ　分離<end>"
+korean = "나지 분리<end>"
+
+["1970403"]
+japanese = "猫屋敷　出現<end>"
+korean = "고양이 저택 출현<end>"
+
+["1970423"]
+japanese = "ノエル　登場<end>"
+korean = "노엘 등장<end>"
+
+["1970470"]
+japanese = "山越え　発生<end>"
+korean = "산넘이 발생<end>"
+
+["1970492"]
+japanese = "フレア　死亡<end>"
+korean = "플레어 사망<end>"
+
+["1970493"]
+japanese = "フレア　登場<end>"
+korean = "플레어 등장<end>"
+
+["1970509"]
+japanese = "墓碑銘　情報<end>"
+korean = "묘비명 정보<end>"
+
+["1970524"]
+japanese = "ミラク　死亡<end>"
+korean = "미라크 사망<end>"
+
+["1970528"]
+japanese = "メイア　登場<end>"
+korean = "메이아 등장<end>"
+
+["1970529"]
+japanese = "メイア　死亡<end>"
+korean = "메이아 사망<end>"
+
 ["1970568"]
 japanese = "北伐　発生<end>"
 korean = "북벌 발생<end>"
+
+["1970582"]
+japanese = "レーグ　登場<end>"
+korean = "레그 등장<end>"
 
 ["1970602"]
 japanese = "ロイ　登場<end>"
@@ -40,9 +148,85 @@ korean = "로이 등장<end>"
 japanese = "ロイ　死亡<end>"
 korean = "로이 사망<end>"
 
+["1970621"]
+japanese = "ロティ　死亡<end>"
+korean = "로티 사망<end>"
+
+["1970645"]
+japanese = "ネメア　登場<end>"
+korean = "네메아 등장<end>"
+
 ["1970655"]
 japanese = "竜王　死亡<end>"
 korean = "용왕 사망<end>"
+
+["1970711"]
+japanese = "ゲヘナ　死亡<end>"
+korean = "게헤나 사망<end>"
+
+["1970712"]
+japanese = "アビス　死亡<end>"
+korean = "어비스 사망<end>"
+
+["1970724"]
+japanese = "カルラ　会話<end>"
+korean = "카를라 대화<end>"
+
+["1970727"]
+japanese = "オッシ　死亡<end>"
+korean = "옷시 사망<end>"
+
+["1970728"]
+japanese = "オッシ　会話<end>"
+korean = "옷시 대화<end>"
+
+["1970741"]
+japanese = "ボンガ　会話<end>"
+korean = "봉가 대화<end>"
+
+["1970743"]
+japanese = "ボンガ　登場<end>"
+korean = "봉가 등장<end>"
+
+["1970813"]
+japanese = "エリス　会話<end>"
+korean = "엘리스 대화<end>"
+
+["1970815"]
+japanese = "舞踏会　発生<end>"
+korean = "무도회 발생<end>"
+
+["1970816"]
+japanese = "舞踏会　終了<end>"
+korean = "무도회 종료<end>"
+
+["1970838"]
+japanese = "シャリ　会話<end>"
+korean = "샤리 대화<end>"
+
+["1970850"]
+japanese = "フレア　会話<end>"
+korean = "플레어 대화<end>"
+
+["1970859"]
+japanese = "ティラ　死亡<end>"
+korean = "티라 사망<end>"
+
+["1970875"]
+japanese = "ザギヴ　会話<end>"
+korean = "자기브 대화<end>"
+
+["1970876"]
+japanese = "カルラ　死亡<end>"
+korean = "카를라 사망<end>"
+
+["1970891"]
+japanese = "ネメア　死亡<end>"
+korean = "네메아 사망<end>"
+
+["1970915"]
+japanese = "舞踏会　準備<end>"
+korean = "무도회 준비<end>"
 
 ["1970935"]
 japanese = "エア　会話<end>"

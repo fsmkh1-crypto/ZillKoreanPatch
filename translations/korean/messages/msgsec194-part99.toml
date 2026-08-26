@@ -4,9 +4,17 @@
 japanese = "だましもの<end>"
 korean = "사기꾼<end>"
 
+["1940004"]
+japanese = "はむかうもの<end>"
+korean = "맞서는 자<end>"
+
 ["1940014"]
 japanese = "アーギラ編<end>"
 korean = "아기라 편<end>"
+
+["1940015"]
+japanese = "アトレイア編<end>"
+korean = "아트레이아 편<end>"
 
 ["1940017"]
 japanese = "アンジュ編<end>"
@@ -15,6 +23,10 @@ korean = "앙주 편<end>"
 ["1940025"]
 japanese = "オッシ編<end>"
 korean = "옷시 편<end>"
+
+["1940028"]
+japanese = "ガルドラン編<end>"
+korean = "갈드란 편<end>"
 
 ["1940029"]
 japanese = "グフトフ編<end>"
@@ -28,6 +40,46 @@ korean = "델가도 편<end>"
 japanese = "ノーブル編<end>"
 korean = "노블 편<end>"
 
+["1940041"]
+japanese = "ファーロス編<end>"
+korean = "파로스 편<end>"
+
 ["1940047"]
 japanese = "リューガ編<end>"
 korean = "류가 편<end>"
+
+["1940048"]
+japanese = "リューガ２編<end>"
+korean = "류가 2편<end>"
+
+["1940049"]
+japanese = "ルルアンタ編<end>"
+korean = "루루안타 편<end>"
+
+["1940050"]
+japanese = "ロストール編<end>"
+korean = "로스토르 편<end>"
+
+["1940070"]
+japanese = "シーン０１：<end>"
+korean = "신 01:<end>"
+
+["1940120"]
+japanese = "シーン０１：<end>"
+korean = "신 01:<end>"
+
+["1940121"]
+japanese = "シーン０１：<end>"
+korean = "신 01:<end>"
+
+["1940122"]
+japanese = "シーン０１：<end>"
+korean = "신 01:<end>"
+
+["1940123"]
+japanese = "シーン０１：<end>"
+korean = "신 01:<end>"
+
+["1940124"]
+japanese = "シーン０１：<end>"
+korean = "신 01:<end>"

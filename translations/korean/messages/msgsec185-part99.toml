@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1850020"]
+japanese = "は、はいっ！<end>"
+korean = "네, 네!<end>"
+
 ["1850038"]
 japanese = "力を貸す<end>"
 korean = "힘을 빌려준다<end>"
@@ -7,3 +11,7 @@ korean = "힘을 빌려준다<end>"
 ["1850039"]
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
+
+["1850065"]
+japanese = "むにゅー…。<end>"
+korean = "우뉴우….<end>"
