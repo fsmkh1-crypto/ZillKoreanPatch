@@ -20,6 +20,10 @@ korean = "아직 정하지 않았어<end>"
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
 
+["960011"]
+japanese = "そのとき、我は<line-break>うぬの名を知るだろう。<end>"
+korean = "그때 나는 네 이름을 알게 되겠지.<end>"
+
 ["960015"]
 japanese = "<value:$28>…。<line-break>それが、<line-break>うぬの名か…？<end>"
 korean = "<value:$28>…. 그게 네 이름인가…?<end>"
@@ -63,6 +67,10 @@ korean = "바란다<end>"
 ["960031"]
 japanese = "望まない<end>"
 korean = "원하지 않는다<end>"
+
+["960032"]
+japanese = "ならば、我が二刀の剣法、<line-break>伝授しよう。<end>"
+korean = "그렇다면 나의 이도류 검법을 전수해 주마.<end>"
 
 ["960035"]
 japanese = "<value:$28>は<line-break>剣聖の称号を得た。<end>"

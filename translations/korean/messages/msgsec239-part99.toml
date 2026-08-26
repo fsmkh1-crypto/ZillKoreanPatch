@@ -12,6 +12,10 @@ korean = "위험해!<end>"
 japanese = "いったい、ここで何をしていた？<end>"
 korean = "도대체 여기서 뭘 하고 있었지?<end>"
 
+["2390005"]
+japanese = "気がついたらここにいただと？<line-break>それ以外は何も覚えていないのか？<line-break>　<line-break>…ならば名前はどうだ？<end>"
+korean = "정신을 차려 보니 여기였다고? 그 밖에는 아무것도 기억나지 않나? …그럼 이름은?<end>"
+
 ["2390006"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"

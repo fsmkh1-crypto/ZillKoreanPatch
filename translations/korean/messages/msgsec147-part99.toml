@@ -12,9 +12,17 @@ korean = "흐음. …그래서, 어떤 건데?<end>"
 japanese = "…だそうだ。<line-break>どうする、<value:$28>？<end>"
 korean = "…그렇다는데. 어떻게 할래, <value:$28>?<end>"
 
+["1470019"]
+japanese = "そうかい。そうこなくっちゃな。<line-break>それじゃ、頼んだぜ、ゼネテスさん。<line-break>それに、<value:$28>。<end>"
+korean = "그래, 그래야지. 그럼 부탁한다, 제네테스 씨. 그리고 <value:$28>.<end>"
+
 ["1470021"]
 japanese = "俺は先に宿屋に戻ってる。<line-break><value:$28>も<line-break>寄り道してないでさっさと戻れよ。<end>"
 korean = "난 먼저 여관으로 돌아갈게. <value:$28>도 딴 데 들르지 말고 얼른 돌아와.<end>"
+
+["1470022"]
+japanese = "おいおい、<value:$28>。<line-break>どこに行くんだ？<end>"
+korean = "어이, <value:$28>. 어디 가는 거야?<end>"
 
 ["1470026"]
 japanese = "…ひょっとしたら…<line-break>…まさかな。<end>"

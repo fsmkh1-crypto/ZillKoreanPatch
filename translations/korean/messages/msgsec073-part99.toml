@@ -40,6 +40,10 @@ korean = "…간다!<end>"
 japanese = "サイフォス！！<end>"
 korean = "사이포스!!<end>"
 
+["730036"]
+japanese = "地獄までも追うと言ったはずだ。<line-break>…情けなど、かけん。<line-break>　<line-break>行くぞ。<line-break>月光の導くままに！<end>"
+korean = "지옥까지 쫓겠다고 했지. …자비는 없다. 가자. 월광이 이끄는 대로!<end>"
+
 ["730039"]
 japanese = "アーギルシャイア様！<line-break><value:$28>が、ここまで<line-break>攻めてまいりました！<end>"
 korean = "아길샤이어 님! <value:$28>가 여기까지 쳐들어왔습니다!<end>"

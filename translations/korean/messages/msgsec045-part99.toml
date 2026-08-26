@@ -32,6 +32,10 @@ korean = "그런가!<end>"
 japanese = "ちっ、違うよ！　　　　　　　<end>"
 korean = "아, 아니야!<end>"
 
+["450016"]
+japanese = "違うよ。<line-break>どうしてそんな風になっちゃうんだよ。<line-break><line-break>僕は、ヴァンの仇を…。<end>"
+korean = "아니야. 왜 그렇게 되는 거야. 나는 반의 원수를….<end>"
+
 ["450017"]
 japanese = "この期に及んでまだしらを切るとは！<end>"
 korean = "이 지경인데도 아직 시치미를 떼다니!<end>"
@@ -135,6 +139,10 @@ korean = "그래…. 아쉽네. <value:$28>….<end>"
 ["450062"]
 japanese = "僕が旅に出た理由…。<end>"
 korean = "내가 여행을 떠난 이유….<end>"
+
+["450089"]
+japanese = "ナッジ…よくも、よくも、<line-break>私たちの前に顔が出せたもんだな！<line-break>　<line-break>お前のせいでヴァンは！<end>"
+korean = "나지… 어떻게, 어떻게 우리 앞에 얼굴을 내밀 수 있지! 너 때문에 반은!<end>"
 
 ["450093"]
 japanese = "行こう。<value:$28>。<end>"

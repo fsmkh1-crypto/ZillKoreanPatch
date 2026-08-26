@@ -156,6 +156,10 @@ korean = "부탁이야. 도와줘….<end>"
 japanese = "人間じゃ、ないのね。<end>"
 korean = "인간이 아니구나.<end>"
 
+["370094"]
+japanese = "助けて…。<line-break>かあさまに…会いたいの…。<end>"
+korean = "도와줘…. 엄마를… 만나고 싶어….<end>"
+
 ["370096"]
 japanese = "うう…。お願い…。<end>"
 korean = "으으…. 부탁이야….<end>"
@@ -207,6 +211,10 @@ korean = "그래.<end>"
 ["370120"]
 japanese = "なに言ってんだい。　　　　　　　　　<end>"
 korean = "무슨 소리야.<end>"
+
+["370122"]
+japanese = "それが筋ってもんだろ？　　　　　　　<line-break><end>"
+korean = "그게 도리라는 거잖아?<end>"
 
 ["370124"]
 japanese = "最悪の人間って？<end>"
@@ -391,6 +399,10 @@ korean = "<value:$28>! 메이아가! 메이아가!<end>"
 ["370270"]
 japanese = "ウソだ！　俺だ！　　　　　　　　<end>"
 korean = "거짓말이다! 나다!<end>"
+
+["370271"]
+japanese = "俺が<line-break>メイアを助けようって言ったんだ！<end>"
+korean = "내가 메이아를 구하자고 한 거야!<end>"
 
 ["370273"]
 japanese = "元気で、な…。<end>"

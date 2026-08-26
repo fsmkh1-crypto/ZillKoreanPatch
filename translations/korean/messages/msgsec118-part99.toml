@@ -4,9 +4,17 @@
 japanese = "ケリュネイア　Ｖ５　開始<end>"
 korean = "케류네이아 V5 시작<end>"
 
+["1180002"]
+japanese = "時間がないわ。<line-break>今すぐ猫屋敷へ行って。<end>"
+korean = "시간이 없어. 지금 당장 고양이 저택으로 가.<end>"
+
 ["1180003"]
 japanese = "父さんが危ないの。<line-break>早く猫屋敷へ！<end>"
 korean = "아버지가 위험해. 빨리 고양이 저택으로!<end>"
+
+["1180008"]
+japanese = "父さんの命が危険なの。<line-break>早く猫屋敷へ！<end>"
+korean = "아버지 목숨이 위험해. 빨리 고양이 저택으로!<end>"
 
 ["1180015"]
 japanese = "お願い！<line-break>兄さんをとめて！<end>"
@@ -27,6 +35,10 @@ korean = "(이 기척은…!)<end>"
 ["1180032"]
 japanese = "この気は…！<line-break>ネメア！！<end>"
 korean = "이 기운은…! 네메아!!<end>"
+
+["1180038"]
+japanese = "ところで、<line-break>お仲間はどうしたのですか？<end>"
+korean = "그런데 동료분들은 어떻게 됐나요?<end>"
 
 ["1180041"]
 japanese = "おや？　<value:$28>。<line-break>ダメじゃないですか、<line-break>こんな危ない場面に出てきたら。<end>"
@@ -95,6 +107,34 @@ korean = "아버지…!? 고양이에게 의식을 옮긴 거야?<end>"
 ["1180072"]
 japanese = "よかった、無事で…。<end>"
 korean = "다행이야, 무사해서….<end>"
+
+["1180079"]
+japanese = "ケリュネイアＶ５<line-break>予備メッセージ１です<end>"
+korean = "케류네이아 V5 예비 메시지 1입니다.<end>"
+
+["1180080"]
+japanese = "ケリュネイアＶ５<line-break>予備メッセージ２です<end>"
+korean = "케류네이아 V5 예비 메시지 2입니다.<end>"
+
+["1180081"]
+japanese = "ケリュネイアＶ５<line-break>予備メッセージ３です<end>"
+korean = "케류네이아 V5 예비 메시지 3입니다.<end>"
+
+["1180082"]
+japanese = "ケリュネイアＶ５<line-break>予備メッセージ４です<end>"
+korean = "케류네이아 V5 예비 메시지 4입니다.<end>"
+
+["1180083"]
+japanese = "ケリュネイアＶ５<line-break>予備メッセージ５です<end>"
+korean = "케류네이아 V5 예비 메시지 5입니다.<end>"
+
+["1180084"]
+japanese = "ケリュネイアＶ５<line-break>予備メッセージ６です<end>"
+korean = "케류네이아 V5 예비 메시지 6입니다.<end>"
+
+["1180085"]
+japanese = "ケリュネイアＶ５<line-break>予備メッセージ７です<end>"
+korean = "케류네이아 V5 예비 메시지 7입니다.<end>"
 
 ["1180089"]
 japanese = "ケリュネイアＶ５　終了<end>"

@@ -40,6 +40,10 @@ korean = "맡겨<end>"
 japanese = "自分でやれ<end>"
 korean = "네가 직접 해<end>"
 
+["1610025"]
+japanese = "あ、あああ、あんた、<line-break>あの<value:$28>か？<end>"
+korean = "아, 아아, 당신… 그 <value:$28>인가?<end>"
+
 ["1610027"]
 japanese = "何があった？<end>"
 korean = "무슨 일이 있었어?<end>"
@@ -184,6 +188,10 @@ korean = "맡겨 둬<end>"
 japanese = "そんなのウソ<end>"
 korean = "그런 건 거짓말이야<end>"
 
+["1610142"]
+japanese = "あ、あわわ、お礼の話だよな？<line-break>わ、忘れてないぜ。大丈夫だ。<line-break>　<line-break>じゃあ、これ。俺の宝物だ。<end>"
+korean = "아, 아앗, 보답 이야기지? 이, 잊지 않았어. 괜찮아. 자, 이거. 내 보물이야.<end>"
+
 ["1610144"]
 japanese = "じゃ、じゃあ！<end>"
 korean = "그, 그럼!<end>"
@@ -219,6 +227,10 @@ korean = "…그럼.<end>"
 ["1610176"]
 japanese = "いつもながら見事な手並みです。<line-break><value:$28>さん。<line-break>これも普段の鍛錬の賜物ですか？<end>"
 korean = "언제 봐도 훌륭한 솜씨군요, <value:$28>님. 이것도 평소 단련의 성과인가요?<end>"
+
+["1610181"]
+japanese = "俺の月光に反応する剣…　　　　<line-break>それはひとつしかない。<line-break>　<line-break>そして、その剣を持つ男もな…。<end>"
+korean = "내 월광에 반응하는 검… 그것은 하나뿐이다. 그리고 그 검을 가진 남자도….<end>"
 
 ["1610182"]
 japanese = "くっ！！<end>"

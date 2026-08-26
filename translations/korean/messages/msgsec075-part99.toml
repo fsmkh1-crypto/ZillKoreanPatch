@@ -4,6 +4,10 @@
 japanese = "アトレイヤ　ボリューム１～開始<end>"
 korean = "아트레이아 볼륨1 시작<end>"
 
+["750001"]
+japanese = "やあ、<value:$28>。<line-break>ようやくお姫様に会いに来てくれたね。<line-break>うれしいよ。あははっ。<end>"
+korean = "안녕, <value:$28>. 드디어 공주님을 만나러 와 줬구나. 기뻐. 아하하!<end>"
+
 ["750003"]
 japanese = "誰？<end>"
 korean = "누구?<end>"
@@ -99,6 +103,10 @@ korean = "그녀에게 빛을. 그녀의 소원을 이루어 줬으면 해. 그�
 ["750056"]
 japanese = "そう…ですか。<line-break>残念です。<end>"
 korean = "그렇…군요. 유감입니다.<end>"
+
+["750058"]
+japanese = "重複未使用：それでは、王女様。<line-break>０４９：僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
+korean = "중복 미사용: 그럼 공주님. 049: 제가 <value:$28>을 왕궁 밖까지 바래다드리겠습니다.<end>"
 
 ["750063"]
 japanese = "そうなのですか…。<line-break>…<value:$28>さん、<line-break>どうか、よろしくお願いします。<end>"

@@ -124,6 +124,10 @@ korean = "그게 그들의 삶의 방식이다<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1370173"]
+japanese = "フフッ、面白い答えだな。<line-break><value:$28>のそういう独創性は<line-break>大事にした方がいいと私も思うよ。<end>"
+korean = "후훗, 재미있는 답이군. <value:$28>의 그런 독창성은 소중히 하는 게 좋다고 나도 생각해.<end>"
+
 ["1370175"]
 japanese = "その言葉、信用して大丈夫だな？<end>"
 korean = "그 말, 믿어도 되는 거지?<end>"
@@ -951,6 +955,10 @@ korean = "아, 아이린 씨. 안녕하세요.<end>"
 ["1370730"]
 japanese = "二人でどうしたの？<line-break>　<line-break>　<line-break>もしかしてデート？<end>"
 korean = "둘이서 뭐 해? 혹시 데이트?<end>"
+
+["1370731"]
+japanese = "冗談よ。<line-break>ムキになるなんて子供ねぇ。<end>"
+korean = "농담이야. 발끈하다니 어린애 같네.<end>"
 
 ["1370733"]
 japanese = "追加メッセージここから<end>"

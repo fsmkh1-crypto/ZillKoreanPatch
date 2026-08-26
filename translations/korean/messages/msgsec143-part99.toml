@@ -92,6 +92,14 @@ korean = "물론이지<end>"
 japanese = "お呼びっスか？　　　　　<line-break>　<end>"
 korean = "부르셨습니까?<end>"
 
+["1430076"]
+japanese = "今すぐ、大イカを<line-break>港におびき寄せな。<end>"
+korean = "지금 당장 대왕오징어를 항구로 유인해.<end>"
+
+["1430078"]
+japanese = "大イカを退治するに<line-break>決まってんだろ！<end>"
+korean = "대왕오징어를 해치우는 게 당연하잖아!<end>"
+
 ["1430079"]
 japanese = "あの化け物をですかい！？<line-break>　<end>"
 korean = "그, 그 괴물을 말입니까!?<end>"
@@ -167,6 +175,10 @@ korean = "응. 기다릴게. <value:$28>와는 좋은 친구가 될 수 있을 �
 ["1430120"]
 japanese = "憎らしい男だね！<end>"
 korean = "얄미운 남자네!<end>"
+
+["1430121"]
+japanese = "ええ。<line-break>また顔を見せてちょうだい。<line-break>　<line-break>むさ苦しい男どもの相手ばかりじゃ<line-break>気がめいるわ。<end>"
+korean = "그래. 또 얼굴 보여 줘. 칙칙한 남자들만 상대하면 기분이 가라앉거든.<end>"
 
 ["1430124"]
 japanese = "気をつけてね。<end>"

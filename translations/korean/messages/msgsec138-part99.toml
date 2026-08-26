@@ -8,6 +8,10 @@ korean = "오시 볼륨 5 시작<end>"
 japanese = "<value:$28>様…。　　　　　　<line-break> <line-break> <line-break>今晩はこの宿にお泊りなのですか？<end>"
 korean = "<value:$28>님…. 오늘 밤은 이 여관에 묵으시나요?<end>"
 
+["1380010"]
+japanese = "うれしく思います、<value:$28>様。<line-break>これからもアトレイアを暖かく<line-break>見守っていてくださいね。<end>"
+korean = "기쁘게 생각합니다, <value:$28>님. 앞으로도 아트레이아를 따뜻하게 지켜봐 주세요.<end>"
+
 ["1380012"]
 japanese = "お主にどうしても礼が言いたくてな。<end>"
 korean = "그대에게 꼭 감사 인사를 하고 싶어서 말이지.<end>"
@@ -51,6 +55,10 @@ korean = "고, 고로롱, 고로냥~<end>"
 ["1380030"]
 japanese = "にゃ…。　　　<line-break> <line-break> <line-break>………………<end>"
 korean = "냐…. ………………<end>"
+
+["1380031"]
+japanese = "どうしたの？<line-break>私の顔に何かついてる？<end>"
+korean = "왜 그래? 내 얼굴에 뭐 묻었어?<end>"
 
 ["1380033"]
 japanese = "…な、なーん。<end>"
@@ -219,6 +227,10 @@ korean = "…고마워.<end>"
 ["1380210"]
 japanese = "束縛の腕輪を失った。<end>"
 korean = "속박의 팔찌를 잃었다.<end>"
+
+["1380212"]
+japanese = "さようなら…<line-break>私に迷いを与えた人…。<end>"
+korean = "안녕히… 나를 망설이게 한 사람….<end>"
 
 ["1380214"]
 japanese = "そうやって…<line-break>私の身も心も縛るのですね。<line-break><line-break>こうした刹那の安らぎと引き換えに…。<end>"
@@ -599,6 +611,10 @@ korean = "그럼 지나가십시오.<end>"
 ["1380434"]
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
+
+["1380437"]
+japanese = "これは、<value:$28>様。<line-break>恐れながら、お通しできません。<line-break>陛下はご気分が優れないとかで…。<end>"
+korean = "아, <value:$28>님. 송구하지만 들여보내 드릴 수 없습니다. 폐하께서 몸이 편찮으시다고….<end>"
 
 ["1380440"]
 japanese = "説得を続ける<end>"

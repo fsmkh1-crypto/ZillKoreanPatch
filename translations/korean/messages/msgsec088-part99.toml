@@ -92,6 +92,10 @@ korean = "그럼, 급해서 이만.<end>"
 japanese = "やぁ、…ひさしぶりだね。<end>"
 korean = "여어, …오랜만이네.<end>"
 
+["880067"]
+japanese = "ありがと！<line-break>よかった…。<line-break>　<line-break>じゃあ、はい。<line-break>この水晶がみちびいてくれるよ。<end>"
+korean = "고마워! 다행이다…. 자, 여기. 이 수정이 길을 안내해 줄 거야.<end>"
+
 ["880069"]
 japanese = "エステルの首飾りを手渡した。<end>"
 korean = "에스텔의 목걸이를 건넸다.<end>"
@@ -307,6 +311,10 @@ korean = "그만둘까<end>"
 ["880235"]
 japanese = "　　　　　　　ならば行くがよい。　　　　　　<end>"
 korean = "그렇다면 가라.<end>"
+
+["880240"]
+japanese = "愚かなり、地の巫女よ。<line-break>精霊神に躍らされ、<line-break>我を撃ち、闇を呼ぶか…。<line-break>愚かなり…愚かなり…。<end>"
+korean = "어리석구나, 대지의 무녀여. 정령신에게 놀아나 나를 치고 어둠을 부르는가…. 어리석구나… 어리석어….<end>"
 
 ["880245"]
 japanese = "<value:$28>、<line-break>大丈夫だった？　<end>"

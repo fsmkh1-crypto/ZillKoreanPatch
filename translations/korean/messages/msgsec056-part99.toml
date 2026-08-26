@@ -140,9 +140,17 @@ korean = "양이 부족해.<end>"
 japanese = "あ、おい、ノエル！<line-break>今のウソ…。<end>"
 korean = "아, 야, 노엘! 방금 건 거짓말….<end>"
 
+["560076"]
+japanese = "…まじいな。<line-break>本気で飲むかな、あいつ…。<end>"
+korean = "…곤란하군. 저 녀석 진짜 마시려나….<end>"
+
 ["560083"]
 japanese = "堅実と言いなさい！　堅実と！<end>"
 korean = "착실하다고 해! 착실하다고!<end>"
+
+["560085"]
+japanese = "金のことになるとコワイね、<line-break>お姉さまは。<end>"
+korean = "돈 이야기가 나오면 무섭네, 누님은.<end>"
 
 ["560087"]
 japanese = "私に何か？<end>"
@@ -200,9 +208,17 @@ korean = "훗, 널 죽이진 않아.<end>"
 japanese = "これを飲むがいい。<end>"
 korean = "이걸 마셔라.<end>"
 
+["560131"]
+japanese = "一からやり直しだ。もう一度<line-break>剣の握り方から教えてやろう。<line-break>　<line-break>いいな、死の羽音よ。<end>"
+korean = "처음부터 다시다. 다시 검 쥐는 법부터 가르쳐 주지. 알겠나, 죽음의 날갯소리여.<end>"
+
 ["560133"]
 japanese = "調子はどうだ？　死の羽音よ。<end>"
 korean = "상태는 어떠냐? 죽음의 날갯소리여.<end>"
+
+["560142"]
+japanese = "間違いない。<line-break>この奥へ逃げ込んだようだ。<end>"
+korean = "틀림없어. 이 안쪽으로 도망친 모양이야.<end>"
 
 ["560143"]
 japanese = "今度こそ、逃がさない！<end>"
@@ -280,6 +296,10 @@ korean = "그렇다고 단정할 순 없어. 그 녀석은….<end>"
 japanese = "ナーシェス！<end>"
 korean = "나셰스!<end>"
 
+["560181"]
+japanese = "天空神よ、感謝します。<line-break>カモが来ました。<end>"
+korean = "천공신이여, 감사합니다. 봉이 왔군요.<end>"
+
 ["560182"]
 japanese = "…何か困りごとらしいな。　　　<end>"
 korean = "…뭔가 곤란한 일이 있는 모양이군.<end>"
@@ -327,6 +347,10 @@ korean = "절묘한 타이밍이다!<end>"
 ["560205"]
 japanese = "エルファス！<end>"
 korean = "엘파스!<end>"
+
+["560206"]
+japanese = "死の羽音…これまでにない<line-break>傑作であったはずだが…　　　　<line-break>　<line-break>どこで育て方を間違えたのか…。<end>"
+korean = "죽음의 날갯소리… 지금까지 없던 걸작이었을 텐데… 어디서 키우는 법을 잘못한 걸까….<end>"
 
 ["560209"]
 japanese = "あんたには貸しがあるもの。<end>"
@@ -420,13 +444,25 @@ korean = "그래. 행복할 정도로 바보 취급할 수 있어.<end>"
 japanese = "やっぱり…。　　　　　　　<end>"
 korean = "역시….<end>"
 
+["560266"]
+japanese = "これで奴のことは、<line-break>あきらめがつくのか？<end>"
+korean = "이제 그 녀석은 포기할 수 있겠나?<end>"
+
 ["560267"]
 japanese = "わからない。　　　　<end>"
 korean = "모르겠어.　　　　<end>"
 
+["560268"]
+japanese = "でも、確認しなくちゃ<line-break>いられなかったの。<end>"
+korean = "그래도 확인하지 않고는 견딜 수 없었어.<end>"
+
 ["560269"]
 japanese = "きゃーーーーーーっ！<end>"
 korean = "꺄아아아아아아!<end>"
+
+["560271"]
+japanese = "カフィンの奴、<line-break>ダルケニスだったのか…。<end>"
+korean = "카핀 녀석, 다르케니스였나….<end>"
 
 ["560279"]
 japanese = "この香り…　　　　　　　　　　　　<end>"

@@ -188,6 +188,10 @@ korean = "나는 <value:$28>과 함께 가는 길을 선택했어. 이제 과거
 japanese = "僕ひとりの力じゃない。<line-break><value:$28>が<line-break>僕のそばにいてくれたからだ。<end>"
 korean = "나 혼자만의 힘이 아니야. <value:$28>가 곁에 있어 줬기 때문이야.<end>"
 
+["1890184"]
+japanese = "できるかどうかは、わからない。<line-break>でも、やってみるつもりだ。<line-break><value:$28>とともに。<end>"
+korean = "할 수 있을지는 모르겠어. 그래도 해 볼 생각이야. <value:$28>과 함께.<end>"
+
 ["1890189"]
 japanese = "私をさげすむか、ゾフォル？<end>"
 korean = "나를 업신여기는 건가, 조폴?<end>"

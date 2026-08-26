@@ -84,6 +84,10 @@ korean = "그럼 실례하지.<end>"
 japanese = "やぁ、君か。<end>"
 korean = "여어, 너구나.<end>"
 
+["1420055"]
+japanese = "姉さんはネメアの手に抱かれ<line-break>僕の前から消えた。<line-break>　<line-break>…僕は姉さんを守れなかった。<end>"
+korean = "누나는 네메아의 품에 안겨 내 앞에서 사라졌어. …나는 누나를 지키지 못했어.<end>"
+
 ["1420071"]
 japanese = "…これでよかったのですか？<end>"
 korean = "…이걸로 괜찮았던 건가요?<end>"
@@ -207,6 +211,10 @@ korean = "아큐류스에 뭘 하러 가는 거지?<end>"
 ["1420170"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1420177"]
+japanese = "ふふふ、お疲れのようね、<line-break><value:$28>様。<end>"
+korean = "후후후, 피곤해 보이시네요, <value:$28>님.<end>"
 
 ["1420187"]
 japanese = "ふふふ、行きましょ<value:$28>様。<line-break>いつか、<line-break>一緒にお城を抜け出した時みたいに！<end>"
@@ -768,6 +776,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "<value:$28>様。<line-break>ご無事でなによりです。<line-break>ゆっくりしていってくださいね。<end>"
 korean = "<value:$28> 님. 무사하셔서 다행입니다. 편히 쉬다 가세요.<end>"
 
+["1420475"]
+japanese = "<value:$28>、<line-break>また背が伸びたようですね。<end>"
+korean = "<value:$28>, 또 키가 큰 것 같네요.<end>"
+
 ["1420480"]
 japanese = "さて、昼寝でもしましょうかね。<end>"
 korean = "자, 낮잠이나 자 볼까.<end>"
@@ -776,6 +788,10 @@ korean = "자, 낮잠이나 자 볼까.<end>"
 japanese = "<value:$28>様。<line-break>ご無事でなによりです。<line-break>ゆっくりしていってくださいね。<end>"
 korean = "<value:$28> 님. 무사하셔서 다행입니다. 편히 쉬다 가세요.<end>"
 
+["1420488"]
+japanese = "<value:$28>、<line-break>また背が伸びたようですね。<end>"
+korean = "<value:$28>, 또 키가 큰 것 같네요.<end>"
+
 ["1420494"]
 japanese = "さて、昼寝でもしましょうかね。<end>"
 korean = "자, 낮잠이나 자 볼까.<end>"
@@ -783,6 +799,10 @@ korean = "자, 낮잠이나 자 볼까.<end>"
 ["1420495"]
 japanese = "<value:$28>様。<line-break>ご無事でなによりです。<line-break>ゆっくりしていってくださいね。<end>"
 korean = "<value:$28> 님. 무사하셔서 다행입니다. 편히 쉬다 가세요.<end>"
+
+["1420500"]
+japanese = "<value:$28>、<line-break>また背が伸びたようですね。<end>"
+korean = "<value:$28>, 또 키가 큰 것 같네요.<end>"
 
 ["1420505"]
 japanese = "さて、昼寝でもしましょうかね。<end>"
@@ -799,6 +819,10 @@ korean = "단장! 다녀올게고….<end>"
 ["1420510"]
 japanese = "まだゴブ。<end>"
 korean = "아직 고브.<end>"
+
+["1420518"]
+japanese = "だ、団長…<line-break>自分は今ほどゴブゴブ団に入って<line-break>誇らしいと思ったことはないゴブ！<line-break>行ってくるゴブ。<end>"
+korean = "다, 단장… 지금만큼 고브고브단에 들어온 걸 자랑스럽게 생각한 적이 없다고브! 다녀오겠다고브.<end>"
 
 ["1420524"]
 japanese = "終わったな。<end>"

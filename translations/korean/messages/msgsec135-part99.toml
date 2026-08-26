@@ -68,6 +68,10 @@ korean = "분명 <value:$28> 일행은 현자의 숲 고양이 저택을 중계�
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
 
+["1350057"]
+japanese = "<value:$28>は<line-break>ゼネテスの遺書を手渡した。<end>"
+korean = "<value:$28>은 제네테스의 유서를 건넸다.<end>"
+
 ["1350059"]
 japanese = "<value:$28>様、<line-break>助け出していただいて<line-break>本当にありがとうございます。<end>"
 korean = "<value:$28>님, 구해 주셔서 정말 감사합니다.<end>"

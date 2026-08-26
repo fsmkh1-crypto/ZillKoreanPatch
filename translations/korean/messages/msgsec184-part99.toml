@@ -124,6 +124,10 @@ korean = "그럼, 일단 작별이다.<end>"
 japanese = "イークレムン！！<end>"
 korean = "이클레문!!<end>"
 
+["1840095"]
+japanese = "さて、じゃ、行こうかな。<line-break>バイバ～イ。<end>"
+korean = "자, 그럼 갈까. 바이바~이.<end>"
+
 ["1840104"]
 japanese = "<value:$28>さん。<end>"
 korean = "<value:$28> 씨.<end>"

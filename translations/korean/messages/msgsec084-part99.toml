@@ -52,6 +52,10 @@ korean = "빈칸 033 카를라, 볼륨 1<end>"
 japanese = "ほーらね、<line-break>カルラ様の言ったとおり。<end>"
 korean = "거봐, 카를라 님 말대로잖아.<end>"
 
+["840042"]
+japanese = "あ、ちょっと待って。　　　　<line-break>　<line-break>　<line-break>みんなで仲よく乗り込むのって<line-break>頭悪すぎよ。<end>"
+korean = "아, 잠깐만. 다 같이 사이좋게 쳐들어가는 건 너무 바보 같아.<end>"
+
 ["840044"]
 japanese = "じゃあさ、<line-break>あたしと<value:$28>以外は<line-break>ここに残って、見張り役ね。<end>"
 korean = "그럼 나랑 <value:$28> 말고는 여기 남아서 망을 봐 줘.<end>"
@@ -332,6 +336,10 @@ korean = "빈칸 164 카를라, 볼륨 1<end>"
 japanese = "なんとか抜け出したわね。<end>"
 korean = "어떻게든 빠져나왔네.<end>"
 
+["840183"]
+japanese = "ありがとうございました。<line-break>　<line-break>　<line-break>でも、あの方はおひとりで<line-break>無事なのでしょうか？<end>"
+korean = "감사합니다. 하지만 그분 혼자서 무사하실까요?<end>"
+
 ["840184"]
 japanese = "お待たせー！<end>"
 korean = "기다렸지!<end>"
@@ -364,9 +372,17 @@ korean = "네, 네!<end>"
 japanese = "あの、でも…<end>"
 korean = "저기, 하지만…<end>"
 
+["840208"]
+japanese = "そっか。<line-break>いーんじゃない？<line-break>そーゆーのも。<line-break>…っと、<line-break>そろそろ任務に戻らなきゃ。<end>"
+korean = "그렇구나. 괜찮지 않아? 그런 것도. …아, 이제 임무로 돌아가야겠다.<end>"
+
 ["840213"]
 japanese = "ヤバっ！<line-break>そろそろ任務に戻らなきゃ。<end>"
 korean = "큰일! 이제 임무로 돌아가야 해.<end>"
+
+["840218"]
+japanese = "ちょっとちょっと、<line-break>また戻ってどうすんの。<line-break>　<line-break>しっかりしてよね、<line-break>非常時なんだから。<end>"
+korean = "잠깐, 또 돌아가서 어쩌려고. 정신 차려, 비상사태잖아.<end>"
 
 ["840225"]
 japanese = "カルラメッセージVOL1終端<end>"

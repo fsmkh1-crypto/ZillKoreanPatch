@@ -4,6 +4,10 @@
 japanese = "クリュセイスメッセージＶ４用開始<end>"
 korean = "크류세이스 메시지 V4용 시작<end>"
 
+["1850012"]
+japanese = "フゴーって、<line-break>そんなにすごいんですか？<end>"
+korean = "후고라는 게 그렇게 대단한가요?<end>"
+
 ["1850020"]
 japanese = "は、はいっ！<end>"
 korean = "네, 네!<end>"
@@ -32,6 +36,10 @@ korean = "힘을 빌려준다<end>"
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
 
+["1850041"]
+japanese = "ダメだったのー！？<line-break>あーあ、がっくり。<end>"
+korean = "안 된 거야!? 아아, 실망이네.<end>"
+
 ["1850044"]
 japanese = "今日はもうお引き取りください。<end>"
 korean = "오늘은 이제 돌아가 주세요.<end>"
@@ -51,6 +59,10 @@ korean = "재미없구먼.<end>"
 ["1850051"]
 japanese = "ほーほっほっほ。<line-break>そーですわねぇ。<end>"
 korean = "호호호호. 그렇군요오.<end>"
+
+["1850053"]
+japanese = "信用できる人物なら<line-break>話すんじゃがのぉ。<end>"
+korean = "믿을 만한 사람이라면 말해 줄 텐데 말이지.<end>"
 
 ["1850055"]
 japanese = "カルラに頼まれた<end>"

@@ -32,6 +32,10 @@ korean = "지금은 됐어<end>"
 japanese = "シャリ！<end>"
 korean = "샤리!<end>"
 
+["890048"]
+japanese = "な…！<line-break>いきなり何を言い出すんだよ！？<end>"
+korean = "뭐…! 갑자기 무슨 소리야!?<end>"
+
 ["890057"]
 japanese = "き、キミは…シャリ！！<end>"
 korean = "너, 너는… 샤리!!<end>"
@@ -63,6 +67,10 @@ korean = "내 이야기는 그게 전부다.<end>"
 ["890093"]
 japanese = "（エステル…！）<end>"
 korean = "(에스텔…!)<end>"
+
+["890094"]
+japanese = "（エステルの水晶に<line-break>　何か映ってる。）<line-break>　<line-break>（…竜骨の砂漠…<line-break>　塔の群…。）<end>"
+korean = "(에스텔의 수정에 뭔가 비치고 있다.) (…용골의 사막… 탑 무리….)<end>"
 
 ["890095"]
 japanese = "（とにかく、助けに行かないと…！）<end>"
@@ -108,6 +116,38 @@ korean = "어쩔 수 없지<end>"
 japanese = "関係ない<end>"
 korean = "상관없어<end>"
 
+["890127"]
+japanese = "予備メッセージ２<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 2 에스텔 V4야.<end>"
+
+["890128"]
+japanese = "予備メッセージ３<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 3 에스텔 V4야.<end>"
+
+["890129"]
+japanese = "予備メッセージ４<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 4 에스텔 V4야.<end>"
+
+["890130"]
+japanese = "予備メッセージ５<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 5 에스텔 V4야.<end>"
+
+["890131"]
+japanese = "予備メッセージ６<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 6 에스텔 V4야.<end>"
+
+["890132"]
+japanese = "予備メッセージ７<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 7 에스텔 V4야.<end>"
+
+["890133"]
+japanese = "予備メッセージ８<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 8 에스텔 V4야.<end>"
+
+["890134"]
+japanese = "予備メッセージ９<line-break>エステルのＶ４だよ。<end>"
+korean = "예비 메시지 9 에스텔 V4야.<end>"
+
 ["890136"]
 japanese = "は…ああ…あ、あぁあ。<end>"
 korean = "하… 아아… 아, 아아아.<end>"
@@ -136,6 +176,10 @@ korean = "오! <value:$28>, 편지가 왔어.<end>"
 japanese = "おう！　<value:$28><line-break>手紙が届いているぜ。<end>"
 korean = "오! <value:$28>, 편지가 왔어.<end>"
 
+["890152"]
+japanese = "これは、<value:$28>様<line-break>ザギヴ将軍よりお話は承っております。<line-break>ご案内いたしますぞ。<end>"
+korean = "아, <value:$28>님. 자기브 장군께 말씀 들었습니다. 안내해 드리겠습니다.<end>"
+
 ["890154"]
 japanese = "はっ、承知しております。<end>"
 korean = "예, 알고 있습니다.<end>"
@@ -155,6 +199,10 @@ korean = "현무 장군. 그대만 믿겠다.<end>"
 ["890159"]
 japanese = "は…はい…<end>"
 korean = "네… 네…<end>"
+
+["890160"]
+japanese = "あ、あなた、<line-break>いつからそこにいたの！？<end>"
+korean = "다, 당신… 언제부터 거기 있었어!?<end>"
 
 ["890161"]
 japanese = "なら、いいわ。<line-break>こっちに来て。<end>"
@@ -636,6 +684,10 @@ korean = "알현실에는 가지 않는다<end>"
 japanese = "行きたい時代は無い<end>"
 korean = "가고 싶은 시대는 없다<end>"
 
+["890574"]
+japanese = "行きたい時代を６から７の間で<line-break>選んでね<end>"
+korean = "가고 싶은 시대를 6부터 7 사이에서 골라 줘.<end>"
+
 ["890576"]
 japanese = "あきらめる<end>"
 korean = "포기한다<end>"
@@ -800,6 +852,10 @@ korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<
 japanese = "はっ。<value:$28>様で<line-break>ありますね。<line-break>どうぞお通りください！<end>"
 korean = "네. <value:$28> 님이시군요. 지나가십시오!<end>"
 
+["890636"]
+japanese = "カフィン、やめて！<line-break><line-break><line-break>あなたまで…あなたまで<line-break>死んでしまったら、わたし…！<end>"
+korean = "카핀, 그만해! 너까지… 너까지 죽어 버리면, 나는…!<end>"
+
 ["890640"]
 japanese = "カ、カフィン！<end>"
 korean = "카, 카핀!<end>"
@@ -848,6 +904,10 @@ korean = "늦었나….<end>"
 japanese = "今、なんて…？<end>"
 korean = "방금, 뭐라고…?<end>"
 
+["890665"]
+japanese = "え？　え！？<line-break>…それは、どうすれば…？<end>"
+korean = "어? 어!? …그건 어떻게 하면 돼…?<end>"
+
 ["890667"]
 japanese = "竜王様に…願う…？<end>"
 korean = "용왕님께… 소원을…?<end>"
@@ -863,6 +923,10 @@ korean = "이, 이 목소리는…!<end>"
 ["890674"]
 japanese = "…竜王様だ。<end>"
 korean = "…용왕님이다.<end>"
+
+["890680"]
+japanese = "　　　　　　　　その言葉、　　　　　　　　　<line-break>　　　　　　　偽りはないか？<line-break>　<line-break>　<end>"
+korean = "그 말에 거짓은 없느냐?<end>"
 
 ["890683"]
 japanese = "ノエル！<end>"
@@ -947,6 +1011,10 @@ korean = "이 몸, 부활!<end>"
 ["890724"]
 japanese = "けっ…もう、暴れんじゃねぇぞ。<end>"
 korean = "쳇… 이제 난동 부리지 마.<end>"
+
+["890726"]
+japanese = "お、おいっ！<line-break> <line-break> <line-break>…行っちまった。<line-break>あいつ、反省してるのか？<line-break>"
+korean = "어, 어이! …가 버렸네. 저 녀석, 반성은 하는 건가?"
 
 ["890727"]
 japanese = "まあ、終わったからいいか。<end>"

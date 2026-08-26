@@ -24,6 +24,10 @@ korean = "좋아, 결정이다! 가자, <value:$28>.<end>"
 japanese = "ゼネテスも<value:$28>も<line-break>結局、冒険好きなのね。<line-break>子供ねー。<end>"
 korean = "제네테스도 <value:$28>도 결국 모험을 좋아하는구나. 어린애네~.<end>"
 
+["1930021"]
+japanese = "…そう、お前さえ、<line-break>一緒にいれば…。<end>"
+korean = "…그래, 너만 함께 있어 준다면….<end>"
+
 ["1930023"]
 japanese = "ならば、行くぞ。<end>"
 korean = "그렇다면, 간다.<end>"
@@ -191,6 +195,18 @@ korean = "기다렸지, 둘 다.<end>"
 ["1930120"]
 japanese = "３人とも、気をつけて。<line-break>よい旅を。<end>"
 korean = "셋 다 조심해. 좋은 여행 되길.<end>"
+
+["1930121"]
+japanese = "予備メッセージ<line-break>ＥＮＤ２の、その２５<end>"
+korean = "예비 메시지 END2의 25.<end>"
+
+["1930122"]
+japanese = "予備メッセージ<line-break>ＥＮＤ２の、その２６<end>"
+korean = "예비 메시지 END2의 26.<end>"
+
+["1930123"]
+japanese = "予備メッセージ<line-break>ＥＮＤ２の、その２７<end>"
+korean = "예비 메시지 END2의 27.<end>"
 
 ["1930124"]
 japanese = "予備メッセージ<line-break>ＥＮＤ２の、その２８<end>"

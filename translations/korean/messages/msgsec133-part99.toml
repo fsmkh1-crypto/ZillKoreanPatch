@@ -12,6 +12,10 @@ korean = "기대에 부응하겠습니다.<end>"
 japanese = "あなたも希望なのです<end>"
 korean = "당신도 희망입니다.<end>"
 
+["1330010"]
+japanese = "<value:$28>は<line-break>竜殺しの称号を手に入れた。<end>"
+korean = "<value:$28>은 용살자의 칭호를 손에 넣었다.<end>"
+
 ["1330019"]
 japanese = "最後まで聞くのじゃ…。<end>"
 korean = "끝까지 듣거라….<end>"

@@ -8,6 +8,10 @@ korean = "………………. 죄 많은 자의 미궁이다….<end>"
 japanese = "………………。<line-break><line-break><line-break>エストを捜せ…。<end>"
 korean = "………………. 에스트를 찾아라….<end>"
 
+["1240067"]
+japanese = "密書の配達に<value:$28>様を<line-break>つかうなんて許せません！<line-break>そんな仕事、無視しちゃいましょう。<end>"
+korean = "밀서 배달에 <value:$28>님을 쓰다니 용서 못 해요! 그런 일은 무시해 버려요.<end>"
+
 ["1240078"]
 japanese = "この密書を解放軍の本部へ<line-break>届ければいいんだよ。<line-break><value:$28>なら簡単だよね。<end>"
 korean = "이 밀서를 해방군 본부에 전하면 돼. <value:$28>이라면 간단하지?<end>"
@@ -19,6 +23,10 @@ korean = "<value:$28>의 첫 임무는 이 밀서를 해방군 본부에 전달�
 ["1240083"]
 japanese = "………………。<line-break><line-break><line-break>解放軍の本部に届けろ。<end>"
 korean = "………………. 해방군 본부에 전해라.<end>"
+
+["1240087"]
+japanese = "解放軍本部に密書を運ぶのが<line-break>クリュセイスの依頼です。<line-break>速やかに終わらせてしまいましょう。<line-break><end>"
+korean = "해방군 본부에 밀서를 운반하는 것이 크류세이스의 의뢰입니다. 신속히 끝내죠.<end>"
 
 ["1240114"]
 japanese = "<value:$28>の次の任務は、<line-break>ロセンにある解放軍支部に<line-break>密書を届けることだよぉ。<end>"

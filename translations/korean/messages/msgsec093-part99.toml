@@ -16,6 +16,10 @@ korean = "<value:$28>, 캇츠네 오두막에 들러도 되겠나?<end>"
 japanese = "すまんの。<end>"
 korean = "미안하구나.<end>"
 
+["930022"]
+japanese = "よし、炎の泉が<line-break>炎竜の炎で満ちておる。<end>"
+korean = "좋아, 불꽃의 샘이 염룡의 불꽃으로 가득 찼다.<end>"
+
 ["930023"]
 japanese = "さっそく準備じゃ。<line-break><value:$28>、そこにある<line-break>光る炎竜岩を持ってきてくれ。<end>"
 korean = "당장 준비하자. <value:$28>, 거기 있는 빛나는 염룡암을 가져와 줘.<end>"

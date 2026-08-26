@@ -132,6 +132,10 @@ korean = "레이븐! 괜찮아?!<end>"
 japanese = "へへ…、へへ…。<end>"
 korean = "헤헤…, 헤헤….<end>"
 
+["410057"]
+japanese = "レイヴン、気がついたのね！<line-break>よかった！<end>"
+korean = "레이븐, 정신이 들었구나! 다행이야!<end>"
+
 ["410058"]
 japanese = "…へへ、<line-break>ざまぁ…ねぇな…、へへ。<end>"
 korean = "…헤헤, 꼴이… 말이 아니군… 헤헤.<end>"
@@ -167,6 +171,10 @@ korean = "그럴 순 없어. 볼일이 생겼거든.<end>"
 ["410077"]
 japanese = "授業料はその闇の神器で頼むぞい。<end>"
 korean = "수업료는 그 어둠의 신기로 받지.<end>"
+
+["410079"]
+japanese = "できの悪い生徒で<line-break>何も学びとれなかったぜ。<line-break>　<line-break>授業料は払わないが、<line-break>いいよな？<end>"
+korean = "형편없는 학생이라 아무것도 배우지 못했어. 수업료는 안 낼 건데, 괜찮지?<end>"
 
 ["410080"]
 japanese = "レイヴン！<end>"
@@ -219,6 +227,10 @@ korean = "노엘! 레이븐! 카핀!<end>"
 ["410104"]
 japanese = "どうしたの、ナーシェス？<end>"
 korean = "왜 그래, 나셰스?<end>"
+
+["410105"]
+japanese = "あの邪悪な魔道士は闇の神器を使って<line-break>この世界を滅ぼそうとしている。<line-break>　<line-break>彼を倒すのだ！<end>"
+korean = "그 사악한 마도사는 어둠의 신기로 이 세계를 멸망시키려 한다. 그를 쓰러뜨려라!<end>"
 
 ["410106"]
 japanese = "ま、待って！<line-break>そんなのウソだ！<end>"

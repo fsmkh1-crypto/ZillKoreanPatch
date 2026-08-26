@@ -80,6 +80,10 @@ korean = "리벨덤까지 뛰어간다. 가자.<end>"
 japanese = "むしろ、<line-break>始まりかもしれん。<end>"
 korean = "오히려 시작일지도 모르지.<end>"
 
+["400045"]
+japanese = "ネメアさん、<line-break>ありがとうございました！<end>"
+korean = "네메아 씨, 감사합니다!<end>"
+
 ["400046"]
 japanese = "こちらこそ。<end>"
 korean = "나야말로.<end>"
@@ -187,6 +191,10 @@ korean = "크… 커헉! 네, 네메…아…!<end>"
 ["400098"]
 japanese = "は。もちろんです。<end>"
 korean = "네. 물론입니다.<end>"
+
+["400099"]
+japanese = "なぜそれほど<line-break>闇の神器を欲しがるのだ？<end>"
+korean = "왜 그렇게까지 어둠의 신기를 원하는 거지?<end>"
 
 ["400104"]
 japanese = "う…！<line-break>か、体の自由が…。<end>"
@@ -336,6 +344,10 @@ korean = "Wild에 대해 알려 줬으면 해<end>"
 japanese = "Ｃｏｏｌについて教えてほしい<end>"
 korean = "Cool에 대해 알려 줬으면 해<end>"
 
+["400185"]
+japanese = "じゃあな。<line-break>お前の活躍、期待してるぜ。<end>"
+korean = "그럼 잘 가. 네 활약을 기대하마.<end>"
+
 ["400193"]
 japanese = "（穴の中に何かが見える…）<end>"
 korean = "(구멍 안에 뭔가 보여…)<end>"
@@ -412,6 +424,10 @@ korean = "빈칸<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["400226"]
+japanese = "………………。　　　　　<line-break>　<line-break>　<line-break>ネメア様をお連れしても、<line-break>よろしいでしょうか？<end>"
+korean = "………………. 네메아 님을 모셔 와도 되겠습니까?<end>"
+
 ["400227"]
 japanese = "よかろう。<line-break>連れてまいれ。<end>"
 korean = "좋다. 데려오너라.<end>"
@@ -463,6 +479,10 @@ korean = "…나도 제리그다.<end>"
 ["400274"]
 japanese = "くっ…不覚。<end>"
 korean = "큭… 방심했군.<end>"
+
+["400277"]
+japanese = "あとのことはザギヴに任せる。<line-break>ゆくぞ。<end>"
+korean = "나머지는 자기브에게 맡긴다. 가자.<end>"
 
 ["400278"]
 japanese = "…<value:$28>。<line-break>私のやり方に不服か？<end>"

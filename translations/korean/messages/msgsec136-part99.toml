@@ -288,6 +288,10 @@ korean = "정말!? 세계라고?<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1360277"]
+japanese = "じゃ、これからもよろしくね<line-break><value:$28>。<end>"
+korean = "그럼 앞으로도 잘 부탁해, <value:$28>.<end>"
+
 ["1360278"]
 japanese = "アーギルシャイア様！<line-break><value:$28>が、ここまで<line-break>攻めてまいりました！<end>"
 korean = "아길샤이어 님! <value:$28>가 여기까지 쳐들어왔습니다!<end>"
@@ -480,6 +484,10 @@ korean = "내 목숨 때문에? 가치 없는, 내 목숨을…? ……………
 japanese = "これは…<line-break>震えが止まった？<end>"
 korean = "이건… 떨림이 멎었어?<end>"
 
+["1360381"]
+japanese = "冒険者のあなたにとって私は、<line-break>精霊神への道を閉ざす障害に<line-break>すぎないはずです。<line-break>それなのに…<end>"
+korean = "모험자인 당신에게 저는 정령신으로 가는 길을 막는 장애물에 불과할 텐데요. 그런데도….<end>"
+
 ["1360382"]
 japanese = "………………。　　　　<line-break> <line-break> <line-break>わかりません。私には…。<end>"
 korean = "………………. 모르겠습니다. 저로서는….<end>"
@@ -660,6 +668,10 @@ korean = "레이븐!<end>"
 japanese = "お願いです、レイヴン。<line-break>行かないで。<end>"
 korean = "부탁이야, 레이븐. 가지 마.<end>"
 
+["1360551"]
+japanese = "…ありがとう。　　　　　<line-break>　<line-break>　<line-break>君が俺を必要とする限り、<line-break>俺は君のそばに…いるよ。<end>"
+korean = "…고마워. 네가 날 필요로 하는 한, 난 네 곁에… 있을게.<end>"
+
 ["1360555"]
 japanese = "意志すること…生きることを…。<end>"
 korean = "의지를 갖는 것… 살아가는 것을….<end>"
@@ -687,6 +699,10 @@ korean = "제안을 받아들인다<end>"
 ["1360569"]
 japanese = "丁重におことわりする<end>"
 korean = "정중히 거절한다<end>"
+
+["1360570"]
+japanese = "ほ、本当ですか、<value:$28>殿！<line-break>では、気がかわらぬうちに、<line-break>さっそく、神殿で婚約の儀を！<end>"
+korean = "저, 정말입니까, <value:$28>님! 그럼 마음이 바뀌기 전에 당장 신전에서 약혼식을!<end>"
 
 ["1360571"]
 japanese = "あのー、神官さん。<end>"

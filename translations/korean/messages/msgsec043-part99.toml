@@ -76,6 +76,10 @@ korean = "너는… <value:$28>. 왜 여기 있지?<end>"
 japanese = "世間は狭いものだな。<end>"
 korean = "세상 참 좁군.<end>"
 
+["430033"]
+japanese = "騒ぎの処理は、<line-break>エスト、お前に任せる。<end>"
+korean = "소란 수습은 에스트, 네게 맡긴다.<end>"
+
 ["430035"]
 japanese = "兄さんは？<end>"
 korean = "형은?<end>"
@@ -100,6 +104,10 @@ korean = "사고사입니다.<end>"
 japanese = "一応、ご報告申し上げたまで。　　<end>"
 korean = "일단 보고드렸을 뿐입니다.<end>"
 
+["430058"]
+japanese = "領主の私に<line-break>答えられることでしたら…。<end>"
+korean = "영주인 제가 답할 수 있는 일이라면….<end>"
+
 ["430061"]
 japanese = "女にですと！？<end>"
 korean = "여자한테라고요!?<end>"
@@ -111,6 +119,14 @@ korean = "<if><value:$29><equal>%0남동생?<end>여동생?<end>"
 ["430073"]
 japanese = "ここに連れてまいりました。<end>"
 korean = "이곳으로 데려왔습니다.<end>"
+
+["430078"]
+japanese = "ならん！　ならん！！<line-break>ふざけたことを！<end>"
+korean = "안 된다! 안 돼!! 터무니없는 소리를!<end>"
+
+["430081"]
+japanese = "騎士の証である盾だ。<line-break>受け取るがよい。<end>"
+korean = "기사의 증표인 방패다. 받아라.<end>"
 
 ["430082"]
 japanese = "迅速なご処置、心より感謝いたします。<end>"
@@ -204,6 +220,10 @@ korean = "<value:$28>, 세상을 봐라.<end>"
 japanese = "…賊か。<line-break>　<end>"
 korean = "…도적인가.<end>"
 
+["430153"]
+japanese = "…ハハハハ！<line-break>まったく、お前らしいな。<end>"
+korean = "…하하하하! 정말 너답군.<end>"
+
 ["430156"]
 japanese = "お引き取りいただきますか？<end>"
 korean = "돌아가시겠습니까?<end>"
@@ -219,6 +239,10 @@ korean = "읽어 보자<end>"
 ["430161"]
 japanese = "やめておこう<end>"
 korean = "그만두자<end>"
+
+["430169"]
+japanese = "男のこびた笑顔が脳裏をかすめた。<line-break>毒か…！<line-break>次の瞬間、鈍く冷たい痛みが<line-break>ライギロアを貫いた。<end>"
+korean = "남자의 비굴한 미소가 머릿속을 스쳤다. 독인가…! 다음 순간 둔하고 차가운 통증이 라이기로아를 꿰뚫었다.<end>"
 
 ["430188"]
 japanese = "ああ<end>"
