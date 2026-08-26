@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["940000"]
+japanese = "ダミーメッセージここから<end>"
+korean = "더미 메시지 여기부터<end>"
+
 ["940004"]
 japanese = "－<end>"
 korean = "－<end>"
@@ -67,3 +71,7 @@ korean = "－<end>"
 ["940025"]
 japanese = "－<end>"
 korean = "－<end>"
+
+["940026"]
+japanese = "ダミーメッセージここまで<end>"
+korean = "더미 메시지 여기까지<end>"

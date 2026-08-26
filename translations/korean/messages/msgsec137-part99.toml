@@ -192,6 +192,10 @@ korean = "！<end>"
 japanese = "<value:$28>、<line-break>ここを離れるんだ。<line-break>村人を避難させてくれ。<end>"
 korean = "<value:$28>, 여길 떠나. 마을 사람들을 대피시켜 줘.<end>"
 
+["1370269"]
+japanese = "デスギガースに立ち向かう<end>"
+korean = "데스기가스에 맞선다<end>"
+
 ["1370271"]
 japanese = "<value:$28>、よせ！<end>"
 korean = "<value:$28>, 그만둬!<end>"
@@ -263,6 +267,10 @@ korean = "괜찮아<end>"
 ["1370330"]
 japanese = "<value:$28>様、<line-break>お帰りなさいませ。　　　　<line-break>おケガは？<end>"
 korean = "<value:$28> 님, 돌아오셨군요. 다치신 곳은요?<end>"
+
+["1370342"]
+japanese = "セラという男についていく<end>"
+korean = "세라라는 남자를 따라간다<end>"
 
 ["1370350"]
 japanese = "追加メッセージここから<end>"
