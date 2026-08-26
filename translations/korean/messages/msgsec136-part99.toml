@@ -36,6 +36,10 @@ korean = "모르겠어.<end>"
 japanese = "力を貸しましょうか<end>"
 korean = "힘을 빌려드릴까요<end>"
 
+["1360104"]
+japanese = "かかわるのは避けよう<end>"
+korean = "관여하는 건 피하자<end>"
+
 ["1360113"]
 japanese = "立てるか？<end>"
 korean = "일어설 수 있어?<end>"
@@ -47,6 +51,10 @@ korean = "네.<end>"
 ["1360115"]
 japanese = "行くぞ！<end>"
 korean = "간다!<end>"
+
+["1360123"]
+japanese = "そんなことはできん！<end>"
+korean = "그럴 수는 없다!<end>"
 
 ["1360128"]
 japanese = "勝った事にする<end>"
@@ -99,6 +107,10 @@ korean = "네!<end>"
 ["1360258"]
 japanese = "払わないとダメ<end>"
 korean = "안 내면 안 돼<end>"
+
+["1360259"]
+japanese = "そんなものはいらない<end>"
+korean = "그런 건 필요 없다<end>"
 
 ["1360264"]
 japanese = "いいよ<end>"
@@ -232,6 +244,14 @@ korean = "후후후….<end>"
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
 
+["1360517"]
+japanese = "何よ、あんただって…<end>"
+korean = "뭐야, 너도….<end>"
+
+["1360527"]
+japanese = "エルファスを阻止する<end>"
+korean = "엘파스를 저지한다<end>"
+
 ["1360528"]
 japanese = "そのまま様子を見る<end>"
 korean = "그대로 지켜본다<end>"
@@ -247,6 +267,10 @@ korean = "네놈….<end>"
 ["1360538"]
 japanese = "ナーシェス！<end>"
 korean = "나셰스!<end>"
+
+["1360540"]
+japanese = "…彼の言うとおりさ。<end>"
+korean = "…그가 말한 대로야.<end>"
 
 ["1360541"]
 japanese = "え？<end>"
@@ -271,6 +295,10 @@ korean = "갱도에서 탈출한다<end>"
 ["1360568"]
 japanese = "申し出を受ける<end>"
 korean = "제안을 받아들인다<end>"
+
+["1360569"]
+japanese = "丁重におことわりする<end>"
+korean = "정중히 거절한다<end>"
 
 ["1360571"]
 japanese = "あのー、神官さん。<end>"

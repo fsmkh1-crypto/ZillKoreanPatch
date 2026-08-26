@@ -7,3 +7,7 @@ korean = "여어, 어서 와.<end>"
 ["160005"]
 japanese = "他に何かあるのかい？<end>"
 korean = "다른 건 뭐가 있어?<end>"
+
+["160010"]
+japanese = "<value:$15>を譲ってくれるのか？<end>"
+korean = "<value:$15>을 넘겨줄 건가?<end>"

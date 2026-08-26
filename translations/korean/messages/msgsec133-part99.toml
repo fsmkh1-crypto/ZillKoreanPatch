@@ -152,6 +152,10 @@ korean = "뭐…, 뭐야…!?<end>"
 japanese = "無事か、<line-break><value:$28>？<end>"
 korean = "무사하냐, <value:$28>?<end>"
 
+["1330403"]
+japanese = "…強くなったな、<line-break><value:$28>。<line-break>私も力を貸そう。<end>"
+korean = "…강해졌군, <value:$28>. 나도 힘을 보태지.<end>"
+
 ["1330405"]
 japanese = "人の心の中…？<end>"
 korean = "사람의 마음속…?<end>"
@@ -195,6 +199,10 @@ korean = "…너…<value:$28> <value:$28>…인…거야…?<end>"
 ["1330608"]
 japanese = "…ノエル。<end>"
 korean = "…노엘.<end>"
+
+["1330613"]
+japanese = "ふふ…ありがたいね。<line-break><line-break><line-break>ノエル！<end>"
+korean = "후후… 고맙군. 노엘!<end>"
 
 ["1330614"]
 japanese = "はい！<end>"
@@ -243,3 +251,7 @@ korean = "이상입니다.<end>"
 ["1330750"]
 japanese = "ふっ…そうか。<end>"
 korean = "훗… 그런가.<end>"
+
+["1330753"]
+japanese = "くっ、ぬかったわ…。<end>"
+korean = "큭, 방심했군….<end>"

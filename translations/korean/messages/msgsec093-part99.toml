@@ -4,6 +4,10 @@
 japanese = "デルガド　Ｖ４　開始<end>"
 korean = "델가드 V4 시작<end>"
 
+["930015"]
+japanese = "<value:$28>、<line-break>カッツたちの小屋へ<line-break>寄っていいかの？<end>"
+korean = "<value:$28>, 캇츠네 오두막에 들러도 되겠나?<end>"
+
 ["930018"]
 japanese = "すまんの。<end>"
 korean = "미안하구나.<end>"

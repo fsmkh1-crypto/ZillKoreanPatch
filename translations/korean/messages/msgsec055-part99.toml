@@ -4,6 +4,10 @@
 japanese = "よっ、勇者様～！<end>"
 korean = "여어, 용사님~!<end>"
 
+["550017"]
+japanese = "<value:$28>、見てよ。　　　　　<end>"
+korean = "<value:$28>, 봐.<end>"
+
 ["550023"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"

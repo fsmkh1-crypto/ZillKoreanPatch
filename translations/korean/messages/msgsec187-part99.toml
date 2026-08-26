@@ -8,6 +8,10 @@ korean = "지금 당장 간다<end>"
 japanese = "今は忙しい<end>"
 korean = "지금은 바빠<end>"
 
+["1870010"]
+japanese = "あ…<line-break><value:$28>…さん。<line-break>来てくれたんですね…。<end>"
+korean = "아… <value:$28>… 씨. 와 주셨군요….<end>"
+
 ["1870011"]
 japanese = "ノエル、無事か？<end>"
 korean = "노엘, 무사한가?<end>"
@@ -47,3 +51,11 @@ korean = "…응.<end>"
 ["1870047"]
 japanese = "…うん。<end>"
 korean = "…응.<end>"
+
+["1870050"]
+japanese = "では、行くとするか。<end>"
+korean = "그럼 가볼까.<end>"
+
+["1870051"]
+japanese = "あ、待ってください！<end>"
+korean = "아, 기다려 주세요!<end>"

@@ -72,6 +72,10 @@ korean = "그렇습니까.<end>"
 japanese = "あの…、カルラ様。<end>"
 korean = "저기…, 카를라 님.<end>"
 
+["1800108"]
+japanese = "わかった。いいわよ。<end>"
+korean = "알았어. 좋아.<end>"
+
 ["1800112"]
 japanese = "よび<end>"
 korean = "호출<end>"
@@ -119,6 +123,10 @@ korean = "호출<end>"
 ["1800150"]
 japanese = "待って、<value:$28>。<end>"
 korean = "기다려, <value:$28>.<end>"
+
+["1800155"]
+japanese = "<value:$28>、あんたも来て。<end>"
+korean = "<value:$28>, 너도 와.<end>"
 
 ["1800158"]
 japanese = "ネメアを追う<end>"

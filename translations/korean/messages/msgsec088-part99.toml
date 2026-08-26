@@ -144,6 +144,10 @@ korean = "죽여.<end>"
 japanese = "あ、…ゴメン。<end>"
 korean = "아, …미안.<end>"
 
+["880210"]
+japanese = "え！？<line-break>今の、<value:$28>にも<line-break>聞こえたの！？<end>"
+korean = "어!? 방금 거, <value:$28>에게도 들렸어!?<end>"
+
 ["880224"]
 japanese = "よし、じゃあ行こう<end>"
 korean = "좋아, 그럼 가자<end>"

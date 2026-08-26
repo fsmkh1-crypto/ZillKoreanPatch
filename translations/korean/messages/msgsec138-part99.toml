@@ -68,6 +68,10 @@ korean = "또 봐.<end>"
 japanese = "ありがとう。<line-break>おやすみなさい、<line-break><value:$28>…。<end>"
 korean = "고마워. 잘 자, <value:$28>….<end>"
 
+["1380136"]
+japanese = "よう、<value:$28>。<line-break><end>"
+korean = "여어, <value:$28>.<end>"
+
 ["1380159"]
 japanese = "…どなたです？　　<end>"
 korean = "…누구시죠?　　<end>"
@@ -116,6 +120,10 @@ korean = "…고마워.<end>"
 japanese = "束縛の腕輪を失った。<end>"
 korean = "속박의 팔찌를 잃었다.<end>"
 
+["1380216"]
+japanese = "………………。<line-break> <line-break> <line-break><value:$28>様…。<end>"
+korean = "………………. <value:$28> 님….<end>"
+
 ["1380229"]
 japanese = "…そんな顔をするな。<end>"
 korean = "…그런 얼굴 하지 마.<end>"
@@ -131,6 +139,10 @@ korean = "그게 네 힘인가….<end>"
 ["1380255"]
 japanese = "俺は…<end>"
 korean = "나는…<end>"
+
+["1380259"]
+japanese = "あっ！<line-break><value:$28>。<end>"
+korean = "앗! <value:$28>.<end>"
 
 ["1380260"]
 japanese = "ああ、これ？<end>"

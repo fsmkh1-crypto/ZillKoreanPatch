@@ -72,6 +72,10 @@ korean = "제네테스 님!!!<end>"
 japanese = "な、なに！？<end>"
 korean = "뭐, 뭐!?<end>"
 
+["1350158"]
+japanese = "ア、アトレイア様！？<end>"
+korean = "아, 아트레이아 님!?<end>"
+
 ["1350167"]
 japanese = "お、俺は…。<end>"
 korean = "나, 나는….<end>"
@@ -79,6 +83,10 @@ korean = "나, 나는….<end>"
 ["1350170"]
 japanese = "…来い、レムオン。<end>"
 korean = "…와라, 레몬.<end>"
+
+["1350173"]
+japanese = "…それは、悲しいよ。<end>"
+korean = "…그건 슬퍼.<end>"
 
 ["1350180"]
 japanese = "くっ…。<line-break>貴様！<end>"
@@ -123,6 +131,10 @@ korean = "마, 말도 안 돼…<end>"
 ["1350231"]
 japanese = "ティアナ…？<end>"
 korean = "티아나…?<end>"
+
+["1350244"]
+japanese = "ぎゃあああああああ！<end>"
+korean = "꺄아아아아아아!<end>"
 
 ["1350247"]
 japanese = "ぐっ！<end>"
@@ -232,6 +244,10 @@ korean = "그럴 수가…!<end>"
 japanese = "あの…、カルラ様。<end>"
 korean = "저기…, 카를라 님.<end>"
 
+["1350382"]
+japanese = "わかった。いいわよ。<end>"
+korean = "알았어. 좋아.<end>"
+
 ["1350393"]
 japanese = "し、しかし！<end>"
 korean = "하, 하지만!<end>"
@@ -239,6 +255,10 @@ korean = "하, 하지만!<end>"
 ["1350396"]
 japanese = "カルラ様…。<end>"
 korean = "카를라님….<end>"
+
+["1350400"]
+japanese = "<value:$28>、あんたも来て。<end>"
+korean = "<value:$28>, 너도 와.<end>"
 
 ["1350405"]
 japanese = "ゼネテス！<end>"
@@ -339,6 +359,14 @@ korean = "그냥 지나간다<end>"
 ["1350548"]
 japanese = "お兄ちゃん！！<end>"
 korean = "오빠!!<end>"
+
+["1350553"]
+japanese = "え…？<line-break><value:$28>、<line-break>ホントに来てくれたの？<end>"
+korean = "어…? <value:$28>, 정말 와 준 거야?<end>"
+
+["1350569"]
+japanese = "この感じは…まるで…<end>"
+korean = "이 느낌은… 마치….<end>"
 
 ["1350571"]
 japanese = "何か情報は？<end>"

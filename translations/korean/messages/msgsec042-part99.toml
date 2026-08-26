@@ -76,6 +76,10 @@ korean = "남동생 이야기인가?<end>"
 japanese = "よ、来てくれたのか。<end>"
 korean = "여어, 와줬구나.<end>"
 
+["420149"]
+japanese = "どう思う、<line-break><value:$28>？<end>"
+korean = "어떻게 생각해, <value:$28>?<end>"
+
 ["420151"]
 japanese = "おもしろそうね<end>"
 korean = "재미있겠네<end>"

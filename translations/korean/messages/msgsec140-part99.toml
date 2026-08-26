@@ -240,6 +240,10 @@ korean = "흥… 나왔나.<end>"
 japanese = "お父…さ…<end>"
 korean = "아버… 지…<end>"
 
+["1400337"]
+japanese = "みんな！<line-break>大丈夫！？<end>"
+korean = "다들! 괜찮아!?<end>"
+
 ["1400352"]
 japanese = "…エステル…さん。<end>"
 korean = "…에스텔… 씨.<end>"
@@ -295,3 +299,7 @@ korean = "맡는다<end>"
 ["1400760"]
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
+
+["1400762"]
+japanese = "そうか、困ったな…<line-break><end>"
+korean = "그런가, 곤란하군….<end>"

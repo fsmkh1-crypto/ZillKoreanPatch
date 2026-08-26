@@ -28,9 +28,21 @@ korean = "고마워….<end>"
 japanese = "さぁ、私に手を…。<end>"
 korean = "자, 내게 손을….<end>"
 
+["1340043"]
+japanese = "うん、よろしく頼むよ<end>"
+korean = "응, 잘 부탁해.<end>"
+
+["1340044"]
+japanese = "ううん、今日はいいや<end>"
+korean = "아니, 오늘은 됐어.<end>"
+
 ["1340048"]
 japanese = "では、出発だ。<end>"
 korean = "그럼, 출발이다.<end>"
+
+["1340051"]
+japanese = "少し気分が悪いので…<end>"
+korean = "조금 몸이 안 좋아서….<end>"
 
 ["1340070"]
 japanese = "ウグアアアアア…！<end>"
@@ -163,6 +175,14 @@ korean = "…그런가.<end>"
 ["1340225"]
 japanese = "あなたは？<end>"
 korean = "당신은?<end>"
+
+["1340227"]
+japanese = "ええ、その通りです。<end>"
+korean = "네, 그 말씀이 맞습니다.<end>"
+
+["1340242"]
+japanese = "ナーシェス、待って！<end>"
+korean = "나셰스, 기다려!<end>"
 
 ["1340245"]
 japanese = "き、君は…。<end>"
@@ -316,6 +336,10 @@ korean = "타르튜바 님….<end>"
 japanese = "<value:$28>様？<end>"
 korean = "<value:$28>님?<end>"
 
+["1340499"]
+japanese = "あっ…。<line-break>ありがとうございます、<line-break><value:$28>様。<end>"
+korean = "앗…. 감사합니다, <value:$28> 님.<end>"
+
 ["1340521"]
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
@@ -327,6 +351,10 @@ korean = "네<end>"
 ["1340527"]
 japanese = "いいえ<end>"
 korean = "아니요<end>"
+
+["1340537"]
+japanese = "生命のかけらを与える<end>"
+korean = "생명의 조각을 준다<end>"
 
 ["1340541"]
 japanese = "…待て。<end>"
@@ -356,6 +384,10 @@ korean = "으으음…<end>"
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
 
+["1340600"]
+japanese = "フェルムは渡さない！<end>"
+korean = "펠름은 넘겨주지 않아!<end>"
+
 ["1340611"]
 japanese = "<value:$28>さーん！<end>"
 korean = "<value:$28> 씨~!<end>"
@@ -384,6 +416,10 @@ korean = "<value:$28>님!<end>"
 japanese = "１００ギア援助する<end>"
 korean = "100기아를 지원한다<end>"
 
+["1340649"]
+japanese = "１０００ギア援助する<end>"
+korean = "1000기어를 지원한다<end>"
+
 ["1340651"]
 japanese = "援助しない<end>"
 korean = "지원하지 않는다<end>"
@@ -391,6 +427,10 @@ korean = "지원하지 않는다<end>"
 ["1340654"]
 japanese = "１００ギア援助する<end>"
 korean = "100기아를 지원한다<end>"
+
+["1340655"]
+japanese = "１０００ギア援助する<end>"
+korean = "1000기어를 지원한다<end>"
 
 ["1340657"]
 japanese = "援助しない<end>"
@@ -411,6 +451,14 @@ korean = "<value:$28>님!<end>"
 ["1340685"]
 japanese = "タルテュバ様…。<end>"
 korean = "타르튜바 님….<end>"
+
+["1340688"]
+japanese = "では、寝室の方に…。<end>"
+korean = "그럼 침실 쪽으로….<end>"
+
+["1340692"]
+japanese = "さ、行くぜ、ナッジ。<end>"
+korean = "자, 가자, 나지.<end>"
 
 ["1340696"]
 japanese = "<value:$28>さん…。<end>"

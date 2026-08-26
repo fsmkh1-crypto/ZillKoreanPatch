@@ -12,6 +12,10 @@ korean = "<value:$28>, 일어나…<end>"
 japanese = "うぅ…参った。<end>"
 korean = "으으… 졌어.<end>"
 
+["1920019"]
+japanese = "さすがゴブ。<line-break>これで<value:$28>の<line-break>７８連勝ゴブ！<end>"
+korean = "역시 고브. 이걸로 <value:$28>의 78연승 고브!<end>"
+
 ["1920026"]
 japanese = "っるさい！<end>"
 korean = "시끄러워!<end>"
@@ -40,6 +44,10 @@ korean = "고마워.<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["1920107"]
+japanese = "行きましょう、<value:$28>。<end>"
+korean = "가죠, <value:$28>.<end>"
+
 ["1920118"]
 japanese = "お入りなさい。<end>"
 korean = "들어오세요.<end>"
@@ -59,6 +67,10 @@ korean = "어, 어머님!<end>"
 ["1920156"]
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
+
+["1920174"]
+japanese = "お、お父様…お母様。<end>"
+korean = "아, 아버님… 어머님.<end>"
 
 ["1920177"]
 japanese = "…え！？<end>"
