@@ -40,6 +40,10 @@ korean = "무슨 일이야, <value:$28>. 잠이 안 와?<end>"
 japanese = "…守りたい、のよ。<end>"
 korean = "…지키고 싶어.<end>"
 
+["980035"]
+japanese = "…頭では理解できるわ。<line-break>だけど、心が…。<end>"
+korean = "…머리로는 이해해. 하지만 마음이….<end>"
+
 ["980036"]
 japanese = "ちょっと、<line-break>そこの冒険者。<end>"
 korean = "저기, 거기 모험자.<end>"
@@ -80,6 +84,10 @@ korean = "그럼 리벨담으로 가자. 후훗, <value:$28>, 믿고 있을게.<
 japanese = "それじゃ、街に入りましょ。<end>"
 korean = "그럼 도시로 들어가자.<end>"
 
+["980118"]
+japanese = "こ、この扱いには<line-break>断固、抗議するゴブ…。<end>"
+korean = "이, 이런 대우에는 단호히 항의한다 고브….<end>"
+
 ["980120"]
 japanese = "マルーンを失った。<end>"
 korean = "마룬을 잃었다.<end>"
@@ -115,6 +123,46 @@ korean = "저, 저기…… <value:$28>님…….<end>"
 ["980185"]
 japanese = "<value:$28>さん……、<line-break>絶対、また来てください。<line-break>私、待ってますから………。<end>"
 korean = "<value:$28>님……, 꼭 다시 와 주세요. 저, 기다릴게요……….<end>"
+
+["980186"]
+japanese = "予備メッセージ０１<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 01 아이린, V1-2<end>"
+
+["980187"]
+japanese = "予備メッセージ０２<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 02 아이린, V1-2<end>"
+
+["980188"]
+japanese = "予備メッセージ０３<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 03 아이린, V1-2<end>"
+
+["980189"]
+japanese = "予備メッセージ０４<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 04 아이린, V1-2<end>"
+
+["980190"]
+japanese = "予備メッセージ０５<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 05 아이린, V1-2<end>"
+
+["980191"]
+japanese = "予備メッセージ０６<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 06 아이린, V1-2<end>"
+
+["980192"]
+japanese = "予備メッセージ０７<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 07 아이린, V1-2<end>"
+
+["980193"]
+japanese = "予備メッセージ０８<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 08 아이린, V1-2<end>"
+
+["980194"]
+japanese = "予備メッセージ０９<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 09 아이린, V1-2<end>"
+
+["980195"]
+japanese = "予備メッセージ１０<line-break>アイリーン、Ｖ１の２<end>"
+korean = "예비 메시지 10 아이린, V1-2<end>"
 
 ["980196"]
 japanese = "アイリーンメッセージ終端<end>"

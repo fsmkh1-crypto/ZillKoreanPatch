@@ -4,6 +4,10 @@
 japanese = "PSP用新スタートイベント07用開始<end>"
 korean = "PSP용 신규 시작 이벤트 07용 시작<end>"
 
+["2440001"]
+japanese = "おや、<value:$28>ですか。<line-break>いらっしゃい。<line-break>　<line-break>どうです。<line-break>記憶は戻りましたか？<end>"
+korean = "어라, <value:$28>인가요. 어서 와요. 어때요? 기억은 돌아왔나요?<end>"
+
 ["2440005"]
 japanese = "PSP用新スタートイベント07用終端<end>"
 korean = "PSP용 신규 시작 이벤트 07용 끝<end>"

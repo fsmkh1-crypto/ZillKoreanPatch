@@ -8,6 +8,14 @@ korean = "아길샤이어 메시지 VOL1-3 시작<end>"
 japanese = "…<value:$28>か。<line-break>話がしたい。　　　　　<end>"
 korean = "…<value:$28>인가. 할 말이 있다.<end>"
 
+["710025"]
+japanese = "ええ、まあ、少しなら…<line-break>なんでしょうか？<end>"
+korean = "네, 뭐, 잠깐이라면…. 무슨 일이죠?<end>"
+
+["710026"]
+japanese = "…サイフォスというのは<line-break>どういう意味だ。<end>"
+korean = "…사이포스라는 건 무슨 뜻이지?<end>"
+
 ["710027"]
 japanese = "日蝕、です。　　　　　<line-break>　<end>"
 korean = "일식, 입니다.<end>"
@@ -27,6 +35,10 @@ korean = "나한테 편지가 왔어. …봐 줘.<end>"
 ["710037"]
 japanese = "サイフォスから、だ。<end>"
 korean = "사이포스에게서 왔다.<end>"
+
+["710049"]
+japanese = "あーっ、あんたたち！<line-break>聖杯を返しなさい！<end>"
+korean = "아, 너희들! 성배를 돌려줘!<end>"
 
 ["710053"]
 japanese = "はっ！<end>"

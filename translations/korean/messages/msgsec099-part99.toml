@@ -112,6 +112,10 @@ korean = "감사합니다.<end>"
 japanese = "…<value:$28>さん。<line-break>…それで、あの方とは、<line-break>どういうご関係なんですか？<end>"
 korean = "…<value:$28> 씨. …그래서 그분과는 어떤 관계인가요?<end>"
 
+["990056"]
+japanese = "…あの方とは<line-break>どういうご関係なんですか？<end>"
+korean = "…그분과는 어떤 관계인가요?<end>"
+
 ["990057"]
 japanese = "あ、いらっしゃいませー！<end>"
 korean = "아, 어서 오세요!<end>"
@@ -144,6 +148,10 @@ korean = "드디어 꿈이 이루어졌어. 그럼.<end>"
 japanese = "…行きなさい。<line-break>次はないわ。<end>"
 korean = "…가. 다음은 없어.<end>"
 
+["990085"]
+japanese = "…どうして、<line-break>どうして解放軍なんかに…。<end>"
+korean = "…왜, 왜 해방군 같은 곳에….<end>"
+
 ["990090"]
 japanese = "あ、<value:$28>…。<end>"
 korean = "아, <value:$28>….<end>"
@@ -171,6 +179,10 @@ korean = "<value:$28>잖아. 그럼 난 바쁘니까.<end>"
 ["990118"]
 japanese = "…行きなさい。<line-break>次はないわ。<end>"
 korean = "…가. 다음은 없어.<end>"
+
+["990119"]
+japanese = "…どうして、<line-break>どうして解放軍なんかに…。<end>"
+korean = "…왜, 왜 해방군 같은 곳에….<end>"
 
 ["990121"]
 japanese = "まったく、<line-break>どうして、解放軍などに！<end>"

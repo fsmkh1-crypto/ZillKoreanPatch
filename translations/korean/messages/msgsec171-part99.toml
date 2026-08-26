@@ -84,6 +84,10 @@ korean = "딩갈의 장군으로 보입니다.<end>"
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
 
+["1710066"]
+japanese = "なんと…。<line-break>かたじけない、感謝いたす！<end>"
+korean = "뭐라고…. 고맙다, 감사하네!<end>"
+
 ["1710067"]
 japanese = "あ、アンギルダン将軍…！<end>"
 korean = "아, 앙길단 장군…!<end>"
@@ -112,6 +116,10 @@ korean = "네, 날씨가 좋네요.<end>"
 japanese = "帝国はあの陽より輝く<end>"
 korean = "제국은 저 태양보다 빛난다<end>"
 
+["1710099"]
+japanese = "…ええ。<line-break>本当に、いい天気ですねえ…。<end>"
+korean = "…네. 정말 좋은 날씨네요….<end>"
+
 ["1710100"]
 japanese = "あら、そうですか。<end>"
 korean = "어머, 그런가요.<end>"
@@ -135,6 +143,26 @@ korean = "그렇다면 싸울 뿐!<end>"
 ["1710137"]
 japanese = "秩序は大切ですね<end>"
 korean = "질서는 중요하죠<end>"
+
+["1710146"]
+japanese = "イークレムンＶ４<line-break>予備メッセージ５です<end>"
+korean = "이크레문 V4 예비 메시지 5입니다<end>"
+
+["1710147"]
+japanese = "イークレムンＶ４<line-break>予備メッセージ６です<end>"
+korean = "이크레문 V4 예비 메시지 6입니다<end>"
+
+["1710148"]
+japanese = "イークレムンＶ４<line-break>予備メッセージ７です<end>"
+korean = "이크레문 V4 예비 메시지 7입니다<end>"
+
+["1710149"]
+japanese = "イークレムンＶ４<line-break>予備メッセージ８です<end>"
+korean = "이크레문 V4 예비 메시지 8입니다<end>"
+
+["1710150"]
+japanese = "イークレムンＶ４<line-break>予備メッセージ９です<end>"
+korean = "이크레문 V4 예비 메시지 9입니다<end>"
 
 ["1710152"]
 japanese = "イークレムンＶ４　終了<end>"

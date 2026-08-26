@@ -80,6 +80,10 @@ korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
 
+["1890079"]
+japanese = "そうでもないさ。<line-break>ウルグの力の一部は、<line-break>すでにネメアの精神に入り込んでる。<line-break>どうするつもり？<end>"
+korean = "그렇지만도 않아. 우르그의 힘 일부는 이미 네메아의 정신에 들어가 있어. 어떻게 할 생각이지?<end>"
+
 ["1890082"]
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"
@@ -87,6 +91,10 @@ korean = "기다리고 있을게, <value:$28>.<end>"
 ["1890084"]
 japanese = "では、行きますよ。<end>"
 korean = "그럼, 갑니다.<end>"
+
+["1890092"]
+japanese = "ともかく、<line-break>今は猫屋敷に戻りましょう。<end>"
+korean = "아무튼 지금은 고양이 저택으로 돌아가죠.<end>"
 
 ["1890097"]
 japanese = "兄さん…。<end>"

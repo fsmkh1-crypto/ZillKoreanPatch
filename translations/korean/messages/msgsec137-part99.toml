@@ -948,6 +948,10 @@ korean = "네<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1370714"]
+japanese = "ん？　オッシの奴が？<line-break>酒場のツケを、<line-break>俺のと奴のとでワリカンに？<line-break>そうかー！　思い出したぞ。<end>"
+korean = "응? 오시 녀석이? 술집 외상을 나랑 자기 거랑 반씩 내기로 했다고? 아! 생각났다.<end>"
+
 ["1370718"]
 japanese = "こいつを持ってきな。<end>"
 korean = "이걸 가져와.<end>"
@@ -955,6 +959,10 @@ korean = "이걸 가져와.<end>"
 ["1370720"]
 japanese = "それじゃ、あたしたち行きますね。<line-break>　<line-break>　<line-break>またお店で待ってますので<line-break>よろしくおねがいしますね。<end>"
 korean = "그럼 저희는 가 볼게요. 또 가게에서 기다리고 있을 테니 잘 부탁드려요.<end>"
+
+["1370721"]
+japanese = "<value:$28>さん、<line-break>スラムの酒場まで<line-break>連れて行ってくださいね。<line-break>よろしくお願いします。<end>"
+korean = "<value:$28>님, 슬럼가 술집까지 데려다 주세요. 부탁드릴게요.<end>"
 
 ["1370723"]
 japanese = "追加メッセージここから<end>"

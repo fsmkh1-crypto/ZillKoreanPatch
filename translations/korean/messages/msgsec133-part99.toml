@@ -252,6 +252,10 @@ korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
 
+["1330243"]
+japanese = "そうでもないさ。<line-break>ウルグの力の一部は、<line-break>すでにネメアの精神に入り込んでる。<line-break>どうするつもり？<end>"
+korean = "그렇지만도 않아. 우르그의 힘 일부는 이미 네메아의 정신에 들어가 있어. 어떻게 할 생각이지?<end>"
+
 ["1330246"]
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"
@@ -512,6 +516,10 @@ korean = "역시네, <value:$28>. 역시 껍데기만으로는 힘이 부족한 
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 
+["1330494"]
+japanese = "…それに…お前はどうして、<line-break>そんなに傷ついて…いる…のだ？<line-break>誰が…俺の大事な…<value:$28>を<end>"
+korean = "…그런데… 넌 왜 그렇게 다쳐… 있는 거지? 누가… 내 소중한… <value:$28>을….<end>"
+
 ["1330495"]
 japanese = "俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"
 korean = "나…인가…? 계속 내가 널… 상처 입히고, 지금도… <value:$28>을…?<end>"
@@ -547,6 +555,10 @@ korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 ["1330522"]
 japanese = "レムオン…まさか…？<line-break>ありえない…！<end>"
 korean = "레무온… 설마…? 그럴 리가…!<end>"
+
+["1330524"]
+japanese = "…それに…お前はどうして、<line-break>そんなに傷ついて…いる…のだ？<line-break>誰が…俺の大事な…<value:$28>を<end>"
+korean = "…그런데… 넌 왜 그렇게 다쳐… 있는 거지? 누가… 내 소중한… <value:$28>을….<end>"
 
 ["1330525"]
 japanese = "俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"
@@ -584,6 +596,10 @@ korean = "어서 와, 레므온….<end>"
 japanese = "いらっしゃい、レムオン…。<end>"
 korean = "어서 와, 레므온….<end>"
 
+["1330546"]
+japanese = "紹介します。<line-break>こちらは、レムオン・リューガ。<line-break>居場所をなくした、<line-break>かわいそうなダルケニス…。<end>"
+korean = "소개하죠. 이쪽은 레무온 류가. 있을 곳을 잃은 불쌍한 다르케니스….<end>"
+
 ["1330551"]
 japanese = "ふふふ…、さあ、レムオン、<line-break><value:$28>を倒し<line-break>その無限のソウルをささげるのです。<end>"
 korean = "후후후… 자, 레무온. <value:$28>을 쓰러뜨리고 그 무한의 소울을 바쳐라.<end>"
@@ -591,6 +607,10 @@ korean = "후후후… 자, 레무온. <value:$28>을 쓰러뜨리고 그 무한
 ["1330555"]
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
+
+["1330558"]
+japanese = "…それに…お前はどうして、<line-break>そんなに傷ついて…いる…のだ？<line-break>誰が…俺の大事な…<value:$28>を<end>"
+korean = "…그런데… 넌 왜 그렇게 다쳐… 있는 거지? 누가… 내 소중한… <value:$28>을….<end>"
 
 ["1330559"]
 japanese = "俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"
@@ -627,6 +647,10 @@ korean = "…너…<value:$28> <value:$28>…인…거야…?<end>"
 ["1330584"]
 japanese = "レムオン…まさか…？<line-break>ありえない…！<end>"
 korean = "레무온… 설마…? 그럴 리가…!<end>"
+
+["1330586"]
+japanese = "…それに…お前はどうして、<line-break>そんなに傷ついて…いる…のだ？<line-break>誰が…俺の大事な…<value:$28>を<end>"
+korean = "…그런데… 넌 왜 그렇게 다쳐… 있는 거지? 누가… 내 소중한… <value:$28>을….<end>"
 
 ["1330587"]
 japanese = "俺…か…？<line-break>ずっと、俺がお前を…傷つけて、<line-break>今も…<value:$28>を…？<end>"

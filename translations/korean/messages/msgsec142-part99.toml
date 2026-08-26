@@ -160,6 +160,10 @@ korean = "별난 사람이네.<end>"
 japanese = "で？　今度は何しにいくんだ？<end>"
 korean = "그래서? 이번엔 뭘 하러 가는 거야?<end>"
 
+["1420129"]
+japanese = "ネモ。<value:$28>は、<line-break>すべての種族が手を取り合って<line-break>生きている世界を探しにいくんですよ。<end>"
+korean = "네모. <value:$28>은 모든 종족이 손을 맞잡고 살아가는 세계를 찾으러 가는 겁니다.<end>"
+
 ["1420130"]
 japanese = "すべての種族？<end>"
 korean = "모든 종족?<end>"
@@ -175,6 +179,10 @@ korean = "기다려.<end>"
 ["1420138"]
 japanese = "それから、それから…。<end>"
 korean = "그리고, 그리고….<end>"
+
+["1420141"]
+japanese = "残念ですが私たちは、<line-break>いい子でお留守番です。<line-break>　<line-break>これは<value:$28>の旅ですからね。<end>"
+korean = "아쉽지만 우리는 얌전히 집을 지켜야겠네요. 이건 <value:$28>의 여행이니까요.<end>"
 
 ["1420142"]
 japanese = "あたりめーだ！<end>"
@@ -220,6 +228,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "ふふふ、お疲れのようね、<line-break><value:$28>様。<end>"
 korean = "후후후, 피곤해 보이시네요, <value:$28>님.<end>"
 
+["1420183"]
+japanese = "私は、私。<line-break>そうよ、私のやりかたで<line-break>行こうと思います。<line-break>ありがとう、<value:$28>様。<end>"
+korean = "나는 나. 그래요, 내 방식대로 가려고 합니다. 고마워요, <value:$28>님.<end>"
+
 ["1420187"]
 japanese = "ふふふ、行きましょ<value:$28>様。<line-break>いつか、<line-break>一緒にお城を抜け出した時みたいに！<end>"
 korean = "후후후, 가요 <value:$28>님. 언젠가 함께 성을 빠져나갔을 때처럼!<end>"
@@ -235,6 +247,10 @@ korean = "하지만 뭐, <value:$28>도 고생이 많군.<end>"
 ["1420191"]
 japanese = "<value:$28>…、<line-break>僕だ…エルファスだ…。<end>"
 korean = "<value:$28>… 나야… 엘파스야….<end>"
+
+["1420195"]
+japanese = "…人の心の色は、<line-break>無垢な純白ではない。<line-break>けれど、それらに触れて僕は感じた…。<line-break>美しい、と…。<end>"
+korean = "…사람 마음의 색은 티 없는 순백이 아니야. 하지만 그 모든 것에 닿고 나는 느꼈어…. 아름답다고….<end>"
 
 ["1420200"]
 japanese = "ありがとう…。<line-break><value:$28>…<line-break>そして…僕は、君のことを愛している。<end>"
@@ -311,6 +327,10 @@ korean = "…안주도 말이야.<end>"
 ["1420258"]
 japanese = "針をなくした時計、か…。<end>"
 korean = "바늘을 잃은 시계인가….<end>"
+
+["1420260"]
+japanese = "うむ。わしもまったく同感じゃ。<line-break>この場に<value:$28>がいたなら、<line-break>酒のうまさはよりいっそう…<end>"
+korean = "음. 나도 완전히 동감이네. 이 자리에 <value:$28>이 있었다면 술맛은 더욱….<end>"
 
 ["1420261"]
 japanese = "ゼネテス、お前のジョッキ、空じゃぞ！<end>"
@@ -595,6 +615,10 @@ korean = "네가 손을 더럽힐 필요는 없어.<end>"
 ["1420410"]
 japanese = "汚れるのは…<line-break>俺だけで十分だ。<end>"
 korean = "더러워지는 건… 나 하나면 충분해.<end>"
+
+["1420411"]
+japanese = "ともに歩んでいこうというのか？<line-break>ダルケニスであるこの俺と…。<line-break> <line-break>後悔するぞ…。<end>"
+korean = "함께 걸어가겠다는 건가? 다르케니스인 이 나와…. 후회할 거다….<end>"
 
 ["1420412"]
 japanese = "………………。<line-break> <line-break> <line-break>…すまない。<line-break>馬鹿なことを聞いた。<end>"

@@ -44,6 +44,10 @@ korean = "왕녀라고 부르지 마.<end>"
 japanese = "下がって結構です。<end>"
 korean = "물러가셔도 됩니다.<end>"
 
+["660020"]
+japanese = "なんのご用です？<line-break>ファーロス総司令閣下。<end>"
+korean = "무슨 용건이십니까? 파로스 총사령관 각하.<end>"
+
 ["660021"]
 japanese = "姫さんのご機嫌うかがいにね。<end>"
 korean = "공주님 기분도 살필 겸.<end>"
@@ -128,6 +132,10 @@ korean = "제네테스 님….<end>"
 japanese = "あ…、ゼネテス様…。<end>"
 korean = "아…, 제네테스 님….<end>"
 
+["660084"]
+japanese = "私、お母様に告げ口したり<line-break>いたしません。<end>"
+korean = "저, 어머님께 일러바치거나 하지 않아요.<end>"
+
 ["660090"]
 japanese = "ゼネテス様…。<end>"
 korean = "제네테스 님….<end>"
@@ -143,6 +151,10 @@ korean = "없어요.<end>"
 ["660105"]
 japanese = "…こんな偽りの笑顔を？<end>"
 korean = "…이런 거짓 웃음을?<end>"
+
+["660108"]
+japanese = "きゃっ！<line-break>勝手に部屋に入ってくるなんて！<end>"
+korean = "꺄! 멋대로 방에 들어오다니!<end>"
 
 ["660109"]
 japanese = "ちゃんとノックしたが、<line-break>返事がないから入ったんだ。<line-break>そうだろ、<value:$28>？<end>"

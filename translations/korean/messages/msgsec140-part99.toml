@@ -176,6 +176,10 @@ korean = "…제네테스?<end>"
 japanese = "誰が、貴様のお義兄さまだ！<end>"
 korean = "누가 네 형님이냐!<end>"
 
+["1400065"]
+japanese = "…我が弟、<value:$28>よ。<line-break>そんなバカのそばに寄るんじゃない。<line-break>バカとなまけぐせがうつるぞ。<end>"
+korean = "…내 동생 <value:$28>아. 그런 바보 곁에 가지 마라. 바보와 게으름이 옮는다.<end>"
+
 ["1400069"]
 japanese = "う、うるさい！<end>"
 korean = "시, 시끄러워!<end>"
@@ -435,6 +439,10 @@ korean = "…제네테스?<end>"
 ["1400228"]
 japanese = "…何が言いたい！？<end>"
 korean = "…무슨 말을 하고 싶은 거야!?<end>"
+
+["1400229"]
+japanese = "…我が弟、<value:$28>よ。<line-break>そんなバカのそばに寄るんじゃない。<line-break>バカとなまけぐせがうつるぞ。<end>"
+korean = "…내 동생 <value:$28>아. 그런 바보 곁에 가지 마라. 바보와 게으름이 옮는다.<end>"
 
 ["1400233"]
 japanese = "う、うるさい！<end>"

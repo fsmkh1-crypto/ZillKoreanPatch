@@ -8,6 +8,10 @@ korean = "V7 파트 3 시작<end>"
 japanese = "また、会いにいらしてください。<line-break>私の不安を取り除けるのは<line-break><value:$28>様だけなのですから。<end>"
 korean = "또 만나러 와 주세요. 제 불안을 없애 줄 수 있는 분은 <value:$28>님뿐이니까요.<end>"
 
+["1910002"]
+japanese = "また会いにいらしてください。<line-break><value:$28>様とお話しできれば、<line-break>私の不安は解消されますから。<end>"
+korean = "또 만나러 와 주세요. <value:$28>님과 이야기하면 제 불안도 사라지니까요.<end>"
+
 ["1910003"]
 japanese = "あ、<value:$28>様。<end>"
 korean = "아, <value:$28> 님.<end>"
@@ -135,6 +139,10 @@ korean = "으으…, 역시 강해….<end>"
 ["1910100"]
 japanese = "やめて、ナーシェス。<line-break><value:$28>さんに<line-break>そのことは言わないで！<end>"
 korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>"
+
+["1910104"]
+japanese = "ノエル…。<line-break>あたしたち…もう…いくわ…<end>"
+korean = "노엘…. 우리… 이제… 갈게….<end>"
 
 ["1910107"]
 japanese = "あ…、レイヴン…！？<end>"

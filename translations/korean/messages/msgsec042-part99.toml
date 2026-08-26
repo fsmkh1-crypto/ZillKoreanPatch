@@ -260,6 +260,10 @@ korean = "궁금한 게 있으면 대답해 드리죠.<end>"
 japanese = "そうですか…。<line-break>弟さんが…。<end>"
 korean = "그렇습니까…. 동생분이….<end>"
 
+["420261"]
+japanese = "貴様…　　　　　　<line-break>ノーブルの<value:$28>…。<line-break><line-break>今は忙しい。<line-break>急いで用件を言え。<end>"
+korean = "네놈… 노블의 <value:$28>…. 지금은 바쁘다. 용건을 빨리 말해라.<end>"
+
 ["420262"]
 japanese = "俺の従者になりたいだと？<line-break>正気か？<end>"
 korean = "내 종자가 되고 싶다고? 제정신이냐?<end>"

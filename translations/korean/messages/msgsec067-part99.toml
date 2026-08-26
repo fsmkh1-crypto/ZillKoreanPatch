@@ -16,6 +16,10 @@ korean = "…어머니. 무슨 일이신가요?<end>"
 japanese = "それは意外ですわ。<end>"
 korean = "그건 뜻밖이네요.<end>"
 
+["670007"]
+japanese = "そのように<line-break>誰もが噂しておりましたので。<end>"
+korean = "다들 그렇게 소문내고 있었으니까요.<end>"
+
 ["670009"]
 japanese = "少しのどが渇いた。<end>"
 korean = "조금 목이 마르네.<end>"
@@ -183,6 +187,10 @@ korean = "다정한 노래 고맙구나.<end>"
 ["670090"]
 japanese = "…帰りましょう。<end>"
 korean = "…돌아가죠.<end>"
+
+["670092"]
+japanese = "私の部屋はこちらでは<line-break>なかったはずです。<end>"
+korean = "제 방은 이쪽이 아니었던 것 같은데요.<end>"
 
 ["670093"]
 japanese = "今日は…<line-break>よい勉強になりました。<end>"

@@ -12,6 +12,10 @@ korean = "누구야?<end>"
 japanese = "どうしたの？<line-break>キミ、元気ないよ？<end>"
 korean = "왜 그래? 너, 기운이 없어 보여?<end>"
 
+["1160018"]
+japanese = "ね、<value:$28>、<line-break>この町を、よーく、探してみようよ。<line-break>ボク、火の巫女に会ってみたいんだ。<end>"
+korean = "있잖아, <value:$28>, 이 마을을 꼼꼼히 찾아보자. 나, 불의 무녀를 만나 보고 싶어.<end>"
+
 ["1160028"]
 japanese = "誰…？　　　　　　　　　<line-break>　<line-break>　<line-break>…長老以外の…人…。<end>"
 korean = "누구…? …장로님 말고… 다른 사람….<end>"

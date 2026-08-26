@@ -564,6 +564,10 @@ korean = "글쎄, 왜일까….<end>"
 japanese = "<if><value:$29><equal>%0あの少年か…。<end>あの少女か…。<end>"
 korean = "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<end>"
 
+["890462"]
+japanese = "私だけではない。<line-break>お前もだ、アスティア。<end>"
+korean = "나만이 아니다. 너도다, 아스티아.<end>"
+
 ["890468"]
 japanese = "さぁ、それはどうかしら？<end>"
 korean = "글쎄, 그건 어떨까?<end>"
