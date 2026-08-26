@@ -4,6 +4,10 @@
 japanese = "エステルメッセージVOL1開始<end>"
 korean = "에스텔 메시지 VOL1 시작<end>"
 
+["880007"]
+japanese = "じゃあね、<line-break>………………。<end>"
+korean = "그럼 안녕, ……………….<end>"
+
 ["880013"]
 japanese = "あれ、<line-break><value:$28>じゃない？<end>"
 korean = "어라, <value:$28> 아니야?<end>"
@@ -251,6 +255,10 @@ korean = "그럼 같이 가자.<end>"
 ["880263"]
 japanese = "君はここにいるべきだよ<end>"
 korean = "넌 여기 있어야 해.<end>"
+
+["880264"]
+japanese = "ホント！？<line-break>やったあー！！<end>"
+korean = "정말!? 해냈다-!!<end>"
 
 ["880277"]
 japanese = "やあ、<value:$28>。<line-break>また来てくれたんだ。<line-break>うれしいよ。<end>"

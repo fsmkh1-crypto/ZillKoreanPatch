@@ -52,6 +52,22 @@ korean = "마비 가스<end>"
 japanese = "爆発<end>"
 korean = "폭발<end>"
 
+["1960450"]
+japanese = "モンスター出現（Ｍサイズ）<end>"
+korean = "몬스터 출현(M 사이즈)<end>"
+
+["1960451"]
+japanese = "モンスター出現（Ｌサイズ）<end>"
+korean = "몬스터 출현(L 사이즈)<end>"
+
+["1960453"]
+japanese = "モンスター消滅（Ｍサイズ）<end>"
+korean = "몬스터 소멸(M 사이즈)<end>"
+
+["1960454"]
+japanese = "モンスター消滅（Ｌサイズ）<end>"
+korean = "몬스터 소멸(L 사이즈)<end>"
+
 ["1960456"]
 japanese = "光１<end>"
 korean = "빛1<end>"
@@ -71,6 +87,18 @@ korean = "자뢰(M 크기: 루프)<end>"
 ["1960460"]
 japanese = "紫雷（Ｌサイズ：ループ）<end>"
 korean = "자뢰(L 크기: 루프)<end>"
+
+["1960461"]
+japanese = "紫雷（ＬＬサイズ：ループ）<end>"
+korean = "자뢰(LL 사이즈: 루프)<end>"
+
+["1960468"]
+japanese = "浮遊する玉１（１：ループ）<end>"
+korean = "떠다니는 구슬 1(1: 루프)<end>"
+
+["1960469"]
+japanese = "浮遊する玉１（６：ループ）<end>"
+korean = "떠다니는 구슬 1(6: 루프)<end>"
 
 ["1960471"]
 japanese = "バインドM<end>"
@@ -128,6 +156,10 @@ korean = "시대 8: 네메아 부활~<end>"
 japanese = "だましもの<end>"
 korean = "사기꾼<end>"
 
+["1960508"]
+japanese = "迫撃！　トリプルゴブリン！<end>"
+korean = "박격! 트리플 고블린!<end>"
+
 ["1960509"]
 japanese = "はむかうもの<end>"
 korean = "맞서는 자<end>"
@@ -155,6 +187,10 @@ korean = "정령력 MAX 직전<end>"
 ["1960522"]
 japanese = "　解放軍を見捨てる<end>"
 korean = "　해방군을 버린다<end>"
+
+["1960524"]
+japanese = "　カルラVs.ジラーク（前半）<end>"
+korean = "카를라 Vs. 지라크(전반)<end>"
 
 ["1960525"]
 japanese = "　ロセンの鐘を鳴らせ<end>"
@@ -260,6 +296,10 @@ korean = "소울 이터 해방<end>"
 japanese = "　双子と闇の巨人１<end>"
 korean = "　쌍둥이와 어둠의 거인 1<end>"
 
+["1960572"]
+japanese = "　ツェラシェルと夜中の会話<end>"
+korean = "체라셸과 한밤중의 대화<end>"
+
 ["1960574"]
 japanese = "　双子と会話<end>"
 korean = " 쌍둥이와 대화<end>"
@@ -268,9 +308,17 @@ korean = " 쌍둥이와 대화<end>"
 japanese = "　シャリとツェラシェル<end>"
 korean = "샤리와 체라셸<end>"
 
+["1960577"]
+japanese = "　エルファスとツェラシェル<end>"
+korean = "엘파스와 체라셸<end>"
+
 ["1960578"]
 japanese = "　ツェラシェル忘却<end>"
 korean = "　체라셸 망각<end>"
+
+["1960579"]
+japanese = "　（男主）双子と闇の巨人２<end>"
+korean = "(남주) 쌍둥이와 어둠의 거인 2<end>"
 
 ["1960581"]
 japanese = "　イオンズ導入<end>"
@@ -496,6 +544,10 @@ korean = "0816_자기브End#17<end>"
 japanese = "　19ザギウ　女主人公ver END<end>"
 korean = "19 자기브 여성 주인공 ver END<end>"
 
+["1960686"]
+japanese = "　21ティァナ　女主人公ver END<end>"
+korean = "21 티아나 여성 주인공 ver END<end>"
+
 ["1960687"]
 japanese = "　27レムオン_女主人公ver END<end>"
 korean = "27 레므온_여주인공 ver END<end>"
@@ -511,6 +563,10 @@ korean = "30 비아 공통 ver END<end>"
 ["1960691"]
 japanese = "　31ヴァイ　共通ver END<end>"
 korean = "31 바이 공통 ver END<end>"
+
+["1960692"]
+japanese = "　32ベルゼーウァ　共通ver END<end>"
+korean = "32 벨제바 공통 ver END<end>"
 
 ["1960693"]
 japanese = "　33シャリ　共通ver END<end>"
@@ -531,6 +587,10 @@ korean = "36 플레어 남성 주인공 ver END<end>"
 ["1960697"]
 japanese = "　37エア　男主人公ver END<end>"
 korean = "37 에아 남주인공 ver END<end>"
+
+["1960698"]
+japanese = "　38イークレムン　共通ver END<end>"
+korean = "38 이크렘 공통 ver END<end>"
 
 ["1960699"]
 japanese = "　40全員集合　共通ver END<end>"
@@ -1955,6 +2015,10 @@ korean = "플린트 사망<end>"
 ["1961161"]
 japanese = "美女の誘惑終了<end>"
 korean = "미녀의 유혹 종료<end>"
+
+["1961162"]
+japanese = "美女の誘惑後メッセージ変更<end>"
+korean = "미녀의 유혹 후 메시지 변경<end>"
 
 ["1961163"]
 japanese = "二度めの美女の誘惑<end>"

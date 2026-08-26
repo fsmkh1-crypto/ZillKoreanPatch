@@ -24,6 +24,10 @@ korean = "큭! 움직일 수 없어!<end>"
 japanese = "やめろ！！<end>"
 korean = "그만둬!!<end>"
 
+["1360056"]
+japanese = "<value:$28>！<line-break>お前まで、どうしてここに！<line-break>危険だ！　逃げろ！<end>"
+korean = "<value:$28>! 너까지 왜 여기에! 위험해! 도망쳐!<end>"
+
 ["1360073"]
 japanese = "…私も同じだ。<end>"
 korean = "…나도 마찬가지야.<end>"

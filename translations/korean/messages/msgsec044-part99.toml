@@ -68,13 +68,25 @@ korean = "오빠! 괜찮아요!?<end>"
 japanese = "こいつっ！！<end>"
 korean = "이 자식!!<end>"
 
+["440075"]
+japanese = "でもこいつ！<line-break>兄さんを！！<end>"
+korean = "하지만 이 녀석이! 형을!!<end>"
+
 ["440077"]
 japanese = "行くぞ、ヴァイ、ヴィア。<end>"
 korean = "가자, 바이, 비아.<end>"
 
+["440082"]
+japanese = "んー…、<line-break>やりすぎたかな？<end>"
+korean = "음…, 너무 심했나?<end>"
+
 ["440085"]
 japanese = "…<value:$28>。<line-break>ここで…何を…？<line-break>　<line-break>！！<end>"
 korean = "…<value:$28>. 여기서… 뭘…? !!<end>"
+
+["440086"]
+japanese = "…貴様。<line-break>見た…のか…！？<end>"
+korean = "…네놈. 봤…느냐…!?<end>"
 
 ["440089"]
 japanese = "なんの話？<end>"

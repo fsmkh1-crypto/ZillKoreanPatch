@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["710027"]
+japanese = "日蝕、です。　　　　　<line-break>　<end>"
+korean = "일식, 입니다.<end>"
+
 ["710028"]
 japanese = "日蝕…。<end>"
 korean = "일식….<end>"
@@ -59,6 +63,10 @@ korean = "그렇게는 못 해!<end>"
 ["710130"]
 japanese = "早く逃げて！<line-break><value:$28>！<end>"
 korean = "빨리 도망쳐! <value:$28>!<end>"
+
+["710134"]
+japanese = "…アイリーンは<line-break>どうした？<end>"
+korean = "…아이린은 어떻게 됐지?<end>"
 
 ["710138"]
 japanese = "<value:$28>か。<end>"

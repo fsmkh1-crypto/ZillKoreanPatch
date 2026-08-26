@@ -176,6 +176,10 @@ korean = "부드럽게 안아 준다<end>"
 japanese = "全力で振り払う<end>"
 korean = "온 힘을 다해 뿌리친다<end>"
 
+["1350207"]
+japanese = "ウウ……<line-break>…<value:$28>…か？<end>"
+korean = "으으…… …<value:$28>…인가?<end>"
+
 ["1350215"]
 japanese = "ウウォォォォォオオオオオ！<end>"
 korean = "우오오오오오오오오오!<end>"
@@ -244,6 +248,10 @@ korean = "다르케니스인 게 뭐가 나빠!<end>"
 japanese = "ガアアアッ！！<end>"
 korean = "가아아앗!!<end>"
 
+["1350278"]
+japanese = "<value:$28>…、<line-break>俺は…。<line-break>…いや。<line-break>…ゼネテスを頼む！<end>"
+korean = "<value:$28>…, 나는…. …아니. …제네테스를 부탁해!<end>"
+
 ["1350279"]
 japanese = "レムオン！<end>"
 korean = "레몬!<end>"
@@ -291,6 +299,10 @@ korean = "여, 명을 받들겠습니다! 우, 우오오오오오!!<end>"
 ["1350318"]
 japanese = "ティ…ティアナ…。<line-break> <line-break> <line-break>お前は…生きて…。<end>"
 korean = "티… 티아나…. 너는… 살아서….<end>"
+
+["1350319"]
+japanese = "…<value:$28>様、<line-break>お静かに…<end>"
+korean = "…<value:$28> 님, 조용히….<end>"
 
 ["1350322"]
 japanese = "大丈夫です。<line-break><value:$28>様は、<line-break>私たちの味方です。<end>"
@@ -571,6 +583,10 @@ korean = "이 느낌은… 마치….<end>"
 ["1350571"]
 japanese = "何か情報は？<end>"
 korean = "무슨 정보라도 있어?<end>"
+
+["1350590"]
+japanese = "人が人を救うことに理由がいるのかい？<line-break>なぁ？<line-break><value:$28>。 <end>"
+korean = "사람이 사람을 구하는 데 이유가 필요한가? 그렇지? <value:$28>.<end>"
 
 ["1350592"]
 japanese = "追加メッセージここから<end>"

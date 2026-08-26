@@ -56,6 +56,10 @@ korean = "우뉴우….<end>"
 japanese = "勝った。勝った。<end>"
 korean = "이겼어. 이겼어.<end>"
 
+["1050069"]
+japanese = "<value:$28>。<line-break>あなたがいてくれるのなら、<line-break>我々はまだ戦える。<end>"
+korean = "<value:$28>. 네가 있어 준다면, 우리는 아직 싸울 수 있다.<end>"
+
 ["1050073"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"

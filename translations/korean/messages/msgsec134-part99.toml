@@ -128,6 +128,10 @@ korean = "그럼, 왜!<end>"
 japanese = "ふざけんな！<end>"
 korean = "장난치지 마!<end>"
 
+["1340125"]
+japanese = "…<value:$28><line-break>ごめん…ね…。<end>"
+korean = "…<value:$28> 미안…해….<end>"
+
 ["1340131"]
 japanese = "ヴァン…。<end>"
 korean = "반….<end>"
@@ -303,6 +307,10 @@ korean = "역시 기다려! 카핀!<end>"
 ["1340284"]
 japanese = "え…？<end>"
 korean = "어…?<end>"
+
+["1340287"]
+japanese = "でも…<line-break>あ、<value:$28>さん！<end>"
+korean = "하지만… 아, <value:$28> 씨!<end>"
 
 ["1340288"]
 japanese = "あっ…！<end>"

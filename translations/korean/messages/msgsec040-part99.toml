@@ -160,6 +160,10 @@ korean = "유감이군, 에류마르크.<end>"
 japanese = "は。もちろんです。<end>"
 korean = "네. 물론입니다.<end>"
 
+["400104"]
+japanese = "う…！<line-break>か、体の自由が…。<end>"
+korean = "으…! 모, 몸이 말을 안 들어….<end>"
+
 ["400113"]
 japanese = "次は…、渡さないわ！<end>"
 korean = "다음엔… 안 넘겨줘!<end>"
@@ -315,6 +319,10 @@ korean = "빈칸<end>"
 ["400222"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["400227"]
+japanese = "よかろう。<line-break>連れてまいれ。<end>"
+korean = "좋다. 데려오너라.<end>"
 
 ["400228"]
 japanese = "ネメア様をお連れしました。<end>"

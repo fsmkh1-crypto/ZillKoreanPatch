@@ -8,6 +8,10 @@ korean = "…<value:$28>, 조심해.<end>"
 japanese = "あの女…強い…。<end>"
 korean = "그 여자… 강해….<end>"
 
+["690015"]
+japanese = "くっ！<line-break>瞬間移動…だと！？<end>"
+korean = "큭! 순간이동…이라고!?<end>"
+
 ["690029"]
 japanese = "…女、<line-break>俺に命令するな。<end>"
 korean = "…여자, 나한테 명령하지 마.<end>"
@@ -175,6 +179,10 @@ korean = "아무것도 기억나지 않는 건가…?<end>"
 ["690264"]
 japanese = "…寄るな！<end>"
 korean = "…다가오지 마!<end>"
+
+["690265"]
+japanese = "…なんでもない。<line-break>ゆくぞ。<end>"
+korean = "…아무것도 아니다. 가자.<end>"
 
 ["690270"]
 japanese = "聖杯って何のことだろう？<end>"

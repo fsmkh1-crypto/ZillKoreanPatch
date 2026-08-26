@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1060020"]
+japanese = "よく来た、<value:$28>よ。<line-break>話は、すでに聞いている。<line-break>手紙を。<end>"
+korean = "잘 왔다, <value:$28>. 이야기는 이미 들었다. 편지를.<end>"
+
 ["1060039"]
 japanese = "だ、ダメだよ、ヴァン。<end>"
 korean = "아, 안 돼, 반.<end>"
@@ -31,6 +35,10 @@ korean = "해방군 본부가 파괴됐어.<end>"
 ["1060115"]
 japanese = "…まさか、<value:$28>様？<end>"
 korean = "…설마, <value:$28> 님?<end>"
+
+["1060117"]
+japanese = "<value:$28>様、<line-break>どうして…！<end>"
+korean = "<value:$28> 님, 어째서…!<end>"
 
 ["1060118"]
 japanese = "そ、そんな…。<line-break><value:$28>様が…、<line-break>そんな…。<end>"

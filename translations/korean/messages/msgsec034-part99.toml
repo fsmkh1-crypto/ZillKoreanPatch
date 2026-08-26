@@ -36,6 +36,10 @@ korean = "설마…. 아니, 이번에는 반드시!<end>"
 japanese = "く…っ、何だ？<end>"
 korean = "큭… 뭐지?<end>"
 
+["340040"]
+japanese = "さっそく準備だ。<line-break><value:$28>、<line-break>一番赤い炎竜岩を持ってこい。<end>"
+korean = "바로 준비하자. <value:$28>, 가장 붉은 염룡암을 가져와.<end>"
+
 ["340041"]
 japanese = "早く炎竜岩を<line-break>持ってこい。<end>"
 korean = "빨리 염룡암을 가져와.<end>"

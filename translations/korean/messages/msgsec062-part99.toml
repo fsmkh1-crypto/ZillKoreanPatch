@@ -216,6 +216,10 @@ korean = "아앗!!<end>"
 japanese = "く、苦しいゴブ…。<end>"
 korean = "크, 괴로운 고브….<end>"
 
+["620164"]
+japanese = "なによ！<line-break>っるさいわねー！<end>"
+korean = "뭐야! 시끄럽다니까-!<end>"
+
 ["620165"]
 japanese = "ゴブー！<end>"
 korean = "고부~!<end>"
@@ -439,6 +443,10 @@ korean = "미사용<end>"
 ["620362"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
+
+["620364"]
+japanese = "ほら、<value:$28>、<line-break>さっさとギルドに登録しちゃいましょ。<line-break>　<end>"
+korean = "자, <value:$28>, 얼른 길드에 등록해 버리자.<end>"
 
 ["620365"]
 japanese = "予備メッセージ９<line-break>　<end>"

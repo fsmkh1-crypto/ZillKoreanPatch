@@ -492,6 +492,10 @@ korean = "같이 도망치자<end>"
 japanese = "将軍ー！<line-break><value:$28>将軍ー！<end>"
 korean = "장군님~! <value:$28> 장군님~!<end>"
 
+["560486"]
+japanese = "<value:$28>将軍。<line-break>お手柄です！<line-break>さっそく、連行いたします！！<end>"
+korean = "<value:$28> 장군. 큰 공을 세우셨습니다! 바로 연행하겠습니다!!<end>"
+
 ["560487"]
 japanese = "…ごめん…なさい…。<end>"
 korean = "…미안…해요….<end>"
@@ -499,6 +503,10 @@ korean = "…미안…해요….<end>"
 ["560491"]
 japanese = "将軍ー！<line-break><value:$28>将軍ー！<end>"
 korean = "장군님~! <value:$28> 장군님~!<end>"
+
+["560494"]
+japanese = "<value:$28>将軍。<line-break>お手柄です！<line-break>さっそく、連行いたします！！<end>"
+korean = "<value:$28> 장군. 큰 공을 세우셨습니다! 바로 연행하겠습니다!!<end>"
 
 ["560495"]
 japanese = "…<value:$28>。<line-break> <line-break> <line-break>いえ、…なんでもないわ。<end>"
@@ -515,6 +523,10 @@ korean = "…미안해요<end>"
 ["560517"]
 japanese = "あ、あなた…！<end>"
 korean = "다, 당신…!<end>"
+
+["560534"]
+japanese = "<value:$28>、<line-break>これからも、<line-break>わたくしを助けてくださいますか？<end>"
+korean = "<value:$28>, 앞으로도 저를 도와주시겠습니까?<end>"
 
 ["560541"]
 japanese = "ほい、これ報酬ね。<end>"
@@ -608,6 +620,10 @@ korean = "그렇군요……<end>"
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28> 님!<end>"
 
+["560649"]
+japanese = "ティアナ様はもう…<line-break>陛下…<end>"
+korean = "티아나 님은 이미… 폐하…<end>"
+
 ["560654"]
 japanese = "私…やってみます。<end>"
 korean = "저… 해볼게요.<end>"
@@ -647,6 +663,10 @@ korean = "거절한다!<end>"
 ["560780"]
 japanese = "おぉ、<value:$28>だ。<line-break><value:$28>が帰ってきたぞ！<end>"
 korean = "오, <value:$28>다. <value:$28>가 돌아왔다!<end>"
+
+["560792"]
+japanese = "…<value:$28>様。<line-break>あなたをお通しする<line-break>わけにはまいりません。<end>"
+korean = "…<value:$28> 님. 당신을 들여보낼 수는 없습니다.<end>"
 
 ["560797"]
 japanese = "ちっ！<end>"

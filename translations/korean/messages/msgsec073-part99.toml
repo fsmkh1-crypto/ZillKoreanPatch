@@ -32,6 +32,10 @@ korean = "내… 마음…?<end>"
 japanese = "サイフォス…。<end>"
 korean = "사이포스….<end>"
 
+["730057"]
+japanese = "…今の感じ…。<line-break>姉さんか？<end>"
+korean = "…방금 그 느낌…. 누나인가?<end>"
+
 ["730061"]
 japanese = "…セラ。<end>"
 korean = "…세라.<end>"
@@ -47,6 +51,10 @@ korean = "자, 가자. 누나.<end>"
 ["730064"]
 japanese = "どうして…！<line-break>姉さん！<end>"
 korean = "어째서…! 언니!<end>"
+
+["730074"]
+japanese = "忘却の仮面が…<line-break>外れた…。<end>"
+korean = "망각의 가면이… 벗겨졌다….<end>"
 
 ["730075"]
 japanese = "…<value:$28>か？<end>"

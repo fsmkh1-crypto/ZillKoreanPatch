@@ -24,6 +24,10 @@ korean = "아, 저기, 그게…<end>"
 japanese = "フフ。<line-break>…よろしく。<end>"
 korean = "후후. …잘 부탁해.<end>"
 
+["1170016"]
+japanese = "それでは、失礼する。<line-break>…無限のソウルを持つ者、<line-break><value:$28>。<end>"
+korean = "그럼, 실례하겠다. …무한의 소울을 지닌 자, <value:$28>.<end>"
+
 ["1170017"]
 japanese = "まったく、無愛想な男よね。<end>"
 korean = "정말 무뚝뚝한 남자네.<end>"

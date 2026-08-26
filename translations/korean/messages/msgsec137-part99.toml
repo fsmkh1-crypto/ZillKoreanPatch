@@ -48,6 +48,10 @@ korean = "알겠습니다<end>"
 japanese = "ちょっと、わからない<end>"
 korean = "잘 모르겠어.<end>"
 
+["1370117"]
+japanese = "<value:$28>、<line-break>…がんばれよ。<end>"
+korean = "<value:$28>, …힘내라.<end>"
+
 ["1370128"]
 japanese = "おう、<value:$28>か。<end>"
 korean = "오, <value:$28>인가.<end>"
@@ -107,6 +111,10 @@ korean = "잠깐 기다려<end>"
 ["1370193"]
 japanese = "はい<end>"
 korean = "네<end>"
+
+["1370197"]
+japanese = "準備はいいか、<line-break><value:$28>。<end>"
+korean = "준비됐나, <value:$28>.<end>"
 
 ["1370199"]
 japanese = "大丈夫か、<value:$28>？<end>"
