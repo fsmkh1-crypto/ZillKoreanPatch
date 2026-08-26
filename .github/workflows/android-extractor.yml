@@ -6,15 +6,21 @@ on:
     paths:
       - 'android-patcher/**'
       - 'cmd/zill/build_korean_iso.go'
+      - 'cmd/zill/build_korean_mobile_plan.go'
       - 'cmd/zill/main.go'
       - 'internal/release/korean_mobile.go'
+      - 'internal/release/korean_font_mobile.go'
+      - 'internal/zillfont/korean_rewrite.go'
       - '.github/workflows/android-extractor.yml'
   pull_request:
     paths:
       - 'android-patcher/**'
       - 'cmd/zill/build_korean_iso.go'
+      - 'cmd/zill/build_korean_mobile_plan.go'
       - 'cmd/zill/main.go'
       - 'internal/release/korean_mobile.go'
+      - 'internal/release/korean_font_mobile.go'
+      - 'internal/zillfont/korean_rewrite.go'
       - '.github/workflows/android-extractor.yml'
 
 permissions:
