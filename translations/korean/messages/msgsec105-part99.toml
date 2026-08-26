@@ -32,6 +32,10 @@ korean = "전부, 전부.<end>"
 japanese = "全部だそうです。<end>"
 korean = "전부라고 합니다.<end>"
 
+["1050051"]
+japanese = "よけいなお世話だのう。<end>"
+korean = "쓸데없는 참견이구먼.<end>"
+
 ["1050055"]
 japanese = "むにゅー…。<end>"
 korean = "우뉴우….<end>"
@@ -51,3 +55,7 @@ korean = "이 원한은 잊지 않겠어<end>"
 ["1050079"]
 japanese = "ありがとう……。<end>"
 korean = "고마워요…….<end>"
+
+["1050082"]
+japanese = "な…、なんですって！？<end>"
+korean = "뭐… 뭐라고요!?<end>"

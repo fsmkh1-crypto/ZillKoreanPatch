@@ -44,6 +44,10 @@ korean = "아…, <value:$28> 님….<end>"
 japanese = "この前は…。<end>"
 korean = "지난번에는….<end>"
 
+["770039"]
+japanese = "ありがとうございます。<end>"
+korean = "감사합니다.<end>"
+
 ["770045"]
 japanese = "わぁ。<line-break>きれい…。<end>"
 korean = "와. 예쁘다….<end>"
@@ -80,6 +84,10 @@ korean = "재미있는 무늬….<end>"
 japanese = "まぁ、おいしそう。<end>"
 korean = "어머, 맛있겠네.<end>"
 
+["770087"]
+japanese = "すらいむの…あんかけ？<end>"
+korean = "슬라임… 앙카케?<end>"
+
 ["770095"]
 japanese = "それじゃ、これは？<end>"
 korean = "그럼, 이건 어때?<end>"
@@ -99,6 +107,10 @@ korean = "네, 알겠습니다.<end>"
 ["770117"]
 japanese = "はい、がんばります。<end>"
 korean = "네, 열심히 할게요.<end>"
+
+["770120"]
+japanese = "ああ…、<line-break>お母…様…。<end>"
+korean = "아아… 어머…님….<end>"
 
 ["770136"]
 japanese = "キャアアアア！<end>"

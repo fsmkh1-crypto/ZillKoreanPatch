@@ -88,6 +88,10 @@ korean = "어떻게 생각해, <value:$28>?<end>"
 japanese = "おもしろそうね<end>"
 korean = "재미있겠네<end>"
 
+["420162"]
+japanese = "きっとだよ！<line-break><value:$28>。<end>"
+korean = "꼭이야! <value:$28>.<end>"
+
 ["420176"]
 japanese = "姉ちゃん、待ってよー。<end>"
 korean = "누나, 기다려 줘ー.<end>"

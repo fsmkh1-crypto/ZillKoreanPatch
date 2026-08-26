@@ -16,6 +16,10 @@ korean = "지금은 됐어<end>"
 japanese = "シャリ！<end>"
 korean = "샤리!<end>"
 
+["890057"]
+japanese = "き、キミは…シャリ！！<end>"
+korean = "너, 너는… 샤리!!<end>"
+
 ["890070"]
 japanese = "…シャリ！<end>"
 korean = "…샤리!<end>"
@@ -63,6 +67,10 @@ korean = "어쩔 수 없지<end>"
 ["890125"]
 japanese = "関係ない<end>"
 korean = "상관없어<end>"
+
+["890136"]
+japanese = "は…ああ…あ、あぁあ。<end>"
+korean = "하… 아아… 아, 아아아.<end>"
 
 ["890140"]
 japanese = "はい<end>"
@@ -176,6 +184,10 @@ korean = "…지금이야!<end>"
 japanese = "ぐあっ！<end>"
 korean = "크악!<end>"
 
+["890310"]
+japanese = "君たちの力を回復した。<end>"
+korean = "너희의 힘을 회복시켰다.<end>"
+
 ["890313"]
 japanese = "間に合ったか。<end>"
 korean = "제때 왔나.<end>"
@@ -207,6 +219,10 @@ korean = "으윽…!<end>"
 ["890356"]
 japanese = "ザギヴ…！<end>"
 korean = "자기브…!<end>"
+
+["890369"]
+japanese = "おっと、失礼しました。<end>"
+korean = "앗, 실례했습니다.<end>"
 
 ["890383"]
 japanese = "あ…。<end>"
@@ -432,6 +448,10 @@ korean = "그렇습니까.<end>"
 japanese = "カ、カフィン！<end>"
 korean = "카, 카핀!<end>"
 
+["890646"]
+japanese = "ああ…カ、カフィン…！<end>"
+korean = "아아… 카, 카핀…!<end>"
+
 ["890647"]
 japanese = "ぐっ…ぐううっ！<end>"
 korean = "크윽… 으으윽!<end>"
@@ -539,6 +559,10 @@ korean = "뭐?<end>"
 ["890718"]
 japanese = "そ、それは…<end>"
 korean = "그, 그건…<end>"
+
+["890719"]
+japanese = "チッ！　仕方ねぇなぁ。<end>"
+korean = "쳇! 어쩔 수 없군.<end>"
 
 ["890721"]
 japanese = "ヴァン！<end>"

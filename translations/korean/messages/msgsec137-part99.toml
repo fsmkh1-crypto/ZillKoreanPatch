@@ -136,6 +136,10 @@ korean = "기억을 더듬는다…?<end>"
 japanese = "（似ている……。）<end>"
 korean = "(닮았어…….)<end>"
 
+["1370219"]
+japanese = "あ、ロイさまと<line-break><value:$28>さまだ！<line-break><value:$28>さまー！<end>"
+korean = "아, 로이 님과 <value:$28> 님이다! <value:$28> 님~!<end>"
+
 ["1370221"]
 japanese = "<value:$28>、<line-break>無事だったんだ…。<line-break>よかった…。<end>"
 korean = "<value:$28>, 무사했구나…. 다행이야….<end>"

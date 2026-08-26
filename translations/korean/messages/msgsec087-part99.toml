@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["870000"]
+japanese = "カルラメッセージVOL4開始<end>"
+korean = "카를라 메시지 VOL4 시작<end>"
+
 ["870016"]
 japanese = "ブゾリの配下？<end>"
 korean = "부조리의 부하?<end>"
@@ -15,3 +19,7 @@ korean = "건강<end>"
 ["870042"]
 japanese = "そうでもない<end>"
 korean = "그렇지도 않아<end>"
+
+["870045"]
+japanese = "カルラメッセージVOL4終端<end>"
+korean = "카를라 메시지 VOL4 끝<end>"

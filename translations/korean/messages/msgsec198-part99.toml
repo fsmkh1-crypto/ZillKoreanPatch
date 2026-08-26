@@ -112,6 +112,10 @@ korean = "에엣!<end>"
 japanese = "そ、そうですか…。<end>"
 korean = "그, 그런가요….<end>"
 
+["1980205"]
+japanese = "その魔道器…<line-break>見つかるといいですね、<line-break><value:$28>。<end>"
+korean = "그 마도기… 찾을 수 있으면 좋겠네요, <value:$28>.<end>"
+
 ["1980209"]
 japanese = "いえ。ありますよ。<end>"
 korean = "아니요. 있어요.<end>"
@@ -127,6 +131,10 @@ korean = "그런가요…. …다행이다.<end>"
 ["1980215"]
 japanese = "何か言いましたか？<end>"
 korean = "뭐라고 하셨나요?<end>"
+
+["1980223"]
+japanese = "その魔道器…<line-break>見つかるといいですね、<line-break><value:$28>。<end>"
+korean = "그 마도기… 찾을 수 있으면 좋겠네요, <value:$28>.<end>"
 
 ["1980232"]
 japanese = "そ、そうですか…。<end>"

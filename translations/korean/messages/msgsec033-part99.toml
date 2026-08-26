@@ -108,9 +108,17 @@ korean = "바보 자식!<end>"
 japanese = "…わかった。<end>"
 korean = "…알았어.<end>"
 
+["330137"]
+japanese = "急いでね、<line-break><value:$28>…。<end>"
+korean = "서둘러, <value:$28>….<end>"
+
 ["330138"]
 japanese = "なんだ、お前は！<end>"
 korean = "뭐야, 넌!<end>"
+
+["330139"]
+japanese = "<if><value:$29><equal>%0フリントの息子、だと？<end>フリントの娘、だと？<end>"
+korean = "<if><value:$29><equal>%0플린트의 아들이라고?<end>플린트의 딸이라고?<end>"
 
 ["330147"]
 japanese = "下がるがよい。<end>"
@@ -171,6 +179,10 @@ korean = "조금만 더…<end>"
 ["330212"]
 japanese = "とう！<end>"
 korean = "타앗!<end>"
+
+["330226"]
+japanese = "…ゴメンね。<line-break><value:$28>。<end>"
+korean = "…미안해. <value:$28>.<end>"
 
 ["330231"]
 japanese = "<value:$28>もお礼！<end>"

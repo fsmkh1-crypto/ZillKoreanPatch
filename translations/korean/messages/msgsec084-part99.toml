@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["840000"]
+japanese = "カルラメッセージVOL1開始<end>"
+korean = "카를라 메시지 VOL1 시작<end>"
+
 ["840004"]
 japanese = "おわっ！<end>"
 korean = "우왓!<end>"
@@ -15,6 +19,10 @@ korean = "함께 간다<end>"
 ["840021"]
 japanese = "遠慮しとく<end>"
 korean = "사양한다<end>"
+
+["840023"]
+japanese = "そんじゃ、行きますか。<end>"
+korean = "그럼, 가볼까.<end>"
 
 ["840052"]
 japanese = "ほ～らっ！<end>"
@@ -68,6 +76,10 @@ korean = "누구?<end>"
 japanese = "<value:$28>、ね。<line-break>そんじゃね、<value:$28>。<end>"
 korean = "<value:$28>, 그렇지. 그럼 안녕, <value:$28>.<end>"
 
+["840154"]
+japanese = "…同情したら、殺すよ？<end>"
+korean = "…동정하면 죽일 거야?<end>"
+
 ["840184"]
 japanese = "お待たせー！<end>"
 korean = "기다렸지!<end>"
@@ -76,6 +88,14 @@ korean = "기다렸지!<end>"
 japanese = "あの、でも…。<end>"
 korean = "저기, 하지만….<end>"
 
+["840193"]
+japanese = "ありがとうございます。<end>"
+korean = "감사합니다.<end>"
+
+["840200"]
+japanese = "そんな大切なものを…！<end>"
+korean = "그렇게 소중한 걸…!<end>"
+
 ["840203"]
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
@@ -83,3 +103,7 @@ korean = "네, 네!<end>"
 ["840206"]
 japanese = "あの、でも…<end>"
 korean = "저기, 하지만…<end>"
+
+["840225"]
+japanese = "カルラメッセージVOL1終端<end>"
+korean = "카를라 메시지 VOL1 끝<end>"

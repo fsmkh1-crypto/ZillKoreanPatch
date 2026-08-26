@@ -80,6 +80,10 @@ korean = "반!<end>"
 japanese = "う…う…。<end>"
 korean = "으…으….<end>"
 
+["280153"]
+japanese = "やめるんだ、<line-break><value:$28>！<end>"
+korean = "그만둬, <value:$28>!<end>"
+
 ["280166"]
 japanese = "ケンカか…。<end>"
 korean = "싸움인가….<end>"

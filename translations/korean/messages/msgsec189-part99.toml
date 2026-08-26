@@ -12,6 +12,10 @@ korean = "그렇다. 짐이다.<end>"
 japanese = "また訪れるがよい。<end>"
 korean = "다시 찾아오도록 해.<end>"
 
+["1890033"]
+japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
+korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
+
 ["1890042"]
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
@@ -23,6 +27,10 @@ korean = "어떻게 할 생각이야?<end>"
 ["1890063"]
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
+
+["1890070"]
+japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
+korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 
 ["1890074"]
 japanese = "あれ？　なんだ…？<end>"

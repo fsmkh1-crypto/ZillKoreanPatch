@@ -120,6 +120,10 @@ korean = "잡아라.<end>"
 japanese = "…元気で、ね。<end>"
 korean = "…잘 지내.<end>"
 
+["370187"]
+japanese = "<value:$28>、<line-break>来ちゃダメ！<end>"
+korean = "<value:$28>, 오면 안 돼!<end>"
+
 ["370199"]
 japanese = "わかんねぇのか？　　<end>"
 korean = "모르겠냐?<end>"

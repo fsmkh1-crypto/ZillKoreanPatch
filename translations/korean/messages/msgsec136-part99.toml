@@ -200,6 +200,10 @@ korean = "<value:$28> 님….<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1360397"]
+japanese = "お気をつけて、<value:$28>様…。<end>"
+korean = "조심히 가세요, <value:$28> 님….<end>"
+
 ["1360398"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -207,6 +211,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1360399"]
 japanese = "愛する…人のため？<end>"
 korean = "사랑하는… 사람을 위해?<end>"
+
+["1360407"]
+japanese = "お気をつけて、<value:$28>様…。<end>"
+korean = "조심히 가세요, <value:$28> 님….<end>"
 
 ["1360408"]
 japanese = "<value:$28>様…。<end>"

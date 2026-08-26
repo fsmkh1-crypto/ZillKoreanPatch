@@ -2852,13 +2852,33 @@ korean = "이온즈 확인 대화<end>"
 japanese = "チュートリアル発生<end>"
 korean = "튜토리얼 발생<end>"
 
+["1971388"]
+japanese = "*チュートリアル用予備<end>"
+korean = "*튜토리얼용 예비<end>"
+
+["1971389"]
+japanese = "*チュートリアル用予備<end>"
+korean = "*튜토리얼용 예비<end>"
+
 ["1971402"]
 japanese = "未使用未使用<end>"
 korean = "미사용 미사용<end>"
 
+["1971406"]
+japanese = "#4解放軍を見捨てる発生<end>"
+korean = "#4 해방군을 버리다 발생<end>"
+
 ["1971407"]
 japanese = "#5リベルダム占領発生<end>"
 korean = "#5 리벨담 점령 발생<end>"
+
+["1971409"]
+japanese = "#7カルラVs.ジラーク発生<end>"
+korean = "#7 카를라 Vs. 지라크 발생<end>"
+
+["1971411"]
+japanese = "#9ロセンの鐘の英雄発生<end>"
+korean = "#9 로센의 종의 영웅 발생<end>"
 
 ["1971416"]
 japanese = "#14ザギヴの歌発生<end>"
@@ -2983,6 +3003,10 @@ korean = "발생<end>"
 ["1971506"]
 japanese = "#104　ﾉｴﾙ再開発生<end>"
 korean = "#104 노엘 재개 발생<end>"
+
+["1971507"]
+japanese = "#105　エストの手紙発生<end>"
+korean = "#105 에스트의 편지 발생<end>"
 
 ["1971512"]
 japanese = "発生<end>"
@@ -3348,9 +3372,21 @@ korean = "발생<end>"
 japanese = "未使用未使用<end>"
 korean = "미사용 미사용<end>"
 
+["1971606"]
+japanese = "#4解放軍を見捨てる終了<end>"
+korean = "#4 해방군을 버리다 종료<end>"
+
 ["1971607"]
 japanese = "#5リベルダム占領終了<end>"
 korean = "#5 리벨담 점령 종료<end>"
+
+["1971609"]
+japanese = "#7カルラVs.ジラーク終了<end>"
+korean = "#7 카를라 Vs. 지라크 종료<end>"
+
+["1971611"]
+japanese = "#9ロセンの鐘の英雄終了<end>"
+korean = "#9 로센의 종의 영웅 종료<end>"
 
 ["1971616"]
 japanese = "#14ザギヴの歌終了<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["850000"]
+japanese = "カルラメッセージVOL2開始<end>"
+korean = "카를라 메시지 VOL2 시작<end>"
+
 ["850002"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -72,6 +76,10 @@ korean = "너, 너는…?<end>"
 japanese = "く、くそっ！<end>"
 korean = "제, 젠장!<end>"
 
+["850060"]
+japanese = "お父様？　今の騒ぎは？<end>"
+korean = "아버님? 방금 소란은 뭐죠?<end>"
+
 ["850083"]
 japanese = "お父様？<end>"
 korean = "아버님?<end>"
@@ -95,3 +103,7 @@ korean = "믿고 있을게<end>"
 ["850166"]
 japanese = "頼りにしてるわよ<end>"
 korean = "믿고 있을게<end>"
+
+["850181"]
+japanese = "カルラメッセージVOL2終端<end>"
+korean = "카를라 메시지 VOL2 끝<end>"

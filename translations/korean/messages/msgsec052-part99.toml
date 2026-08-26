@@ -48,6 +48,10 @@ korean = "물러나라! 물러나아아!<end>"
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
 
+["520133"]
+japanese = "総司令閣下、<line-break>ノーブル伯<value:$28>様が<line-break>おいでです。<end>"
+korean = "총사령관 각하, 노블 백작 <value:$28> 님께서 오셨습니다.<end>"
+
 ["520134"]
 japanese = "<if><value:$29><equal>%0レムオンの弟か…。<end>レムオンの妹か…。<end>"
 korean = "<if><value:$29><equal>%0레므온의 남동생인가….<end>레므온의 여동생인가….<end>"

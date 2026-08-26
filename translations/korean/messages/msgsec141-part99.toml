@@ -108,6 +108,10 @@ korean = "고마워요. …기뻐요, <value:$28> 님.<end>"
 japanese = "………………。<line-break><line-break><line-break><value:$28>様！<end>"
 korean = "………………. <value:$28> 님!<end>"
 
+["1410129"]
+japanese = "同じ女性でも、<line-break><value:$28>様だから<line-break>聞けるのです。<end>"
+korean = "같은 여자라도 <value:$28> 님이시기에 여쭤볼 수 있는 겁니다.<end>"
+
 ["1410132"]
 japanese = "本当？　嬉しいです！<end>"
 korean = "정말요? 기뻐요!<end>"
@@ -219,6 +223,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410320"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410321"]
+japanese = "…いよいよ、<line-break>行ってしまうんですね、<line-break><value:$28>。<end>"
+korean = "…드디어 떠나시는군요, <value:$28>.<end>"
 
 ["1410327"]
 japanese = "<value:$28>様！<end>"

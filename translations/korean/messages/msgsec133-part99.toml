@@ -32,6 +32,10 @@ korean = "간다<end>"
 japanese = "行かない<end>"
 korean = "안 가<end>"
 
+["1330073"]
+japanese = "<value:$28>！<line-break>…そんな！<end>"
+korean = "<value:$28>! …그럴 수가!<end>"
+
 ["1330095"]
 japanese = "あなたは…？<end>"
 korean = "당신은…?<end>"
@@ -68,6 +72,10 @@ korean = "희망, 인가…….<end>"
 japanese = "終わったわ…。<end>"
 korean = "끝났어….<end>"
 
+["1330206"]
+japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
+korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
+
 ["1330215"]
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
@@ -75,6 +83,10 @@ korean = "어라? 뭐지…?<end>"
 ["1330221"]
 japanese = "どうするつもり？<end>"
 korean = "어떻게 할 생각이야?<end>"
+
+["1330234"]
+japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
+korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 
 ["1330238"]
 japanese = "あれ？　なんだ…？<end>"
@@ -148,6 +160,10 @@ korean = "벨제바 님!<end>"
 japanese = "は？　宰相、何を…？<end>"
 korean = "예? 재상, 무슨…?<end>"
 
+["1330326"]
+japanese = "…来たか。<line-break><value:$28>。<end>"
+korean = "…왔나. <value:$28>.<end>"
+
 ["1330333"]
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
@@ -211,6 +227,14 @@ korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 ["1330555"]
 japanese = "…お前…<value:$28>？<line-break><value:$28>…なの…か…？<end>"
 korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
+
+["1330564"]
+japanese = "…<value:$28>？<line-break>俺は…？<end>"
+korean = "…<value:$28>? 나는…?<end>"
+
+["1330574"]
+japanese = "…<value:$28>？<line-break>俺は…？<end>"
+korean = "…<value:$28>? 나는…?<end>"
 
 ["1330583"]
 japanese = "…お前…<value:$28><line-break><value:$28>…なの…か…？<end>"

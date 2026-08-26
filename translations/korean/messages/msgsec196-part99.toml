@@ -80,6 +80,14 @@ korean = "차원의 고리<end>"
 japanese = "闇に憑かれる.<end>"
 korean = "어둠에 씌다.<end>"
 
+["1960478"]
+japanese = "新ボス死にエフェクト.<end>"
+korean = "신규 보스 사망 이펙트.<end>"
+
+["1960480"]
+japanese = "天上から土ぼこり 多め<end>"
+korean = "위에서 흙먼지 많이<end>"
+
 ["1960481"]
 japanese = "インビジブル.<end>"
 korean = "인비저블.<end>"
@@ -304,6 +312,14 @@ korean = " 아스티아 3<end>"
 japanese = "　予備<end>"
 korean = "　예비<end>"
 
+["1960658"]
+japanese = "　906-宿屋イベント_ｴｱ<end>"
+korean = "906-여관 이벤트_에아<end>"
+
+["1960674"]
+japanese = "　922-宿屋イベント_ロイ<end>"
+korean = "922-여관 이벤트_로이<end>"
+
 ["1960676"]
 japanese = "　0800_ﾈﾒｱEnd#01<end>"
 korean = " 0800_네메아End#01<end>"
@@ -331,6 +347,10 @@ korean = " 0814_카를라End#15<end>"
 ["1960682"]
 japanese = "　0815_ｸﾘｭEnd#16<end>"
 korean = " 0815_크뤼End#16<end>"
+
+["1960683"]
+japanese = "　0816_ｻﾞｷﾞｳﾞEnd#17<end>"
+korean = "0816_자기브End#17<end>"
 
 ["1960688"]
 japanese = "　28ロイ　共通ver END<end>"

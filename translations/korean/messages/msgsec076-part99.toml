@@ -28,6 +28,14 @@ korean = "네.<end>"
 japanese = "それなら、いい。<end>"
 korean = "그렇다면 됐어.<end>"
 
+["760037"]
+japanese = "それでは、失礼します。<end>"
+korean = "그럼, 이만 실례하겠습니다.<end>"
+
+["760041"]
+japanese = "それでは、失礼します。<end>"
+korean = "그럼, 이만 실례하겠습니다.<end>"
+
 ["760043"]
 japanese = "…返す言葉もない<end>"
 korean = "…할 말이 없군<end>"
@@ -92,6 +100,10 @@ korean = "미사용: 무례하군!<end>"
 japanese = "未：くそ！よくも！<end>"
 korean = "미사용: 젠장! 감히!<end>"
 
+["760070"]
+japanese = "未：アトレイア…姫様。<end>"
+korean = "미사용: 아트레이아… 공주님.<end>"
+
 ["760071"]
 japanese = "未：放っておいて！！<end>"
 korean = "미사용: 내버려 둬!!<end>"
@@ -103,6 +115,10 @@ korean = "미사용: 노래라면 부를 수 있어요!<end>"
 ["760083"]
 japanese = "未：…ん？なんだい。<end>"
 korean = "미사용: …응? 뭐야.<end>"
+
+["760089"]
+japanese = "未：うふ…ふふ…ふ…。<end>"
+korean = "미사용: 우후… 후후… 후….<end>"
 
 ["760102"]
 japanese = "色惑の瞳を奪われた。<end>"

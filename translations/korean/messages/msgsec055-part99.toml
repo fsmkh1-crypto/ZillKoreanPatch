@@ -140,6 +140,10 @@ korean = "꺄~!<end>"
 japanese = "な…！<line-break>遅かったか！<end>"
 korean = "뭐…! 늦었나!<end>"
 
+["550080"]
+japanese = "奴を追うぞ！<line-break><value:$28>！<end>"
+korean = "놈을 쫓자! <value:$28>!<end>"
+
 ["550082"]
 japanese = "追うわよ、<value:$28>！<end>"
 korean = "쫓아가자, <value:$28>!<end>"
@@ -211,6 +215,10 @@ korean = "＜없음＞<end>"
 ["550122"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
+
+["550129"]
+japanese = "ねえ、<value:$28><line-break>大丈夫？<end>"
+korean = "저기, <value:$28> 괜찮아?<end>"
 
 ["550136"]
 japanese = "（奴を追わなきゃ…。）<end>"

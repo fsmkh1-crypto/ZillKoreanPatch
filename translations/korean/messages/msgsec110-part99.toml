@@ -72,6 +72,14 @@ korean = "그 괴물?<end>"
 japanese = "…私、を…。<end>"
 korean = "…나를….<end>"
 
+["1100088"]
+japanese = "は…ああ…あ、あぁあ。<end>"
+korean = "하… 아아… 아, 아아아.<end>"
+
+["1100091"]
+japanese = "いったい、いつまで…。<end>"
+korean = "대체 언제까지….<end>"
+
 ["1100092"]
 japanese = "あなたは…<line-break><value:$28>…。<line-break>見ていたの？<end>"
 korean = "당신은… <value:$28>…. 보고 있었어?<end>"
