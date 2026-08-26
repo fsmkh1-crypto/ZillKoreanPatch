@@ -296,6 +296,10 @@ korean = "왜 그래! 술집 아저씨!<end>"
 japanese = "勇者様、魔王がでました。<end>"
 korean = "용사님, 마왕이 나타났습니다.<end>"
 
+["450220"]
+japanese = "オヤジ、今のはナシだ。<line-break>でやっ！！<end>"
+korean = "아저씨, 방금 건 무효야. 이야앗!!<end>"
+
 ["450223"]
 japanese = "ガルドランが、いたの…？<end>"
 korean = "갈드란이 있었어…?<end>"
@@ -303,6 +307,10 @@ korean = "갈드란이 있었어…?<end>"
 ["450225"]
 japanese = "矢…？　ガルドランの…？<end>"
 korean = "화살…? 갈드란의…?<end>"
+
+["450238"]
+japanese = "俺様は未来の勇者！<line-break>ガルドラン！！<end>"
+korean = "이 몸은 미래의 용사! 갈드란!!<end>"
 
 ["450241"]
 japanese = "ガルドラン…ヴァンの仇…。<end>"

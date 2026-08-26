@@ -12,6 +12,10 @@ korean = "누구?<end>"
 japanese = "ようこそ、<line-break>勇者<value:$28>様。<end>"
 korean = "어서 오십시오, 용사 <value:$28>님.<end>"
 
+["750007"]
+japanese = "そして僕はシャリ、<line-break>知ってるよね？<end>"
+korean = "그리고 나는 샤리, 알고 있지?<end>"
+
 ["750009"]
 japanese = "何でもありませんよ、王女様。<end>"
 korean = "아무것도 아닙니다, 공주님.<end>"
@@ -147,6 +151,10 @@ korean = "저, 저기….<end>"
 ["750102"]
 japanese = "君はそう思うかい？<line-break><value:$28>。<end>"
 korean = "넌 그렇게 생각하니? <value:$28>.<end>"
+
+["750104"]
+japanese = "フフ、やさしいんだなあ。<line-break>君って。<end>"
+korean = "후후, 상냥하구나. 너는.<end>"
 
 ["750105"]
 japanese = "…うれしい…です。<end>"
