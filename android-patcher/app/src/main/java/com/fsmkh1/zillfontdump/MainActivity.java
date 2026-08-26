@@ -2,27 +2,31 @@ package com.fsmkh1.zillfontdump;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
 import android.provider.DocumentsContract;
-import android.provider.OpenableColumns;
 import android.view.Gravity;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.nio.channels.FileChannel;
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public final class MainActivity extends Activity {
     private static final int PICK_ISO = 1001;
-    private static final int CREATE_AUDIT_ZIP = 1002;
-    private static final int CREATE_PATCHED_ISO = 1003;
+    private static final int CREATE_PATCHED_ISO = 1002;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private TextView status;
@@ -42,26 +46,26 @@ public final class MainActivity extends Activity {
         root.setPadding(pad, pad, pad, pad);
 
         TextView title = new TextView(this);
-        title.setText("Zill Infinite Plus – Korean Patch PoC");
+        title.setText("질올 인피니트 플러스 한국어 패치 Alpha");
         title.setTextSize(22);
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: ULJM-05410 v1.03\n원본 ISO는 절대 수정하지 않습니다.\nISO 선택 시 BOOT/EBOOT/폰트/bindata와 시작 대사 원문을 다시 검증합니다.\n감사 ZIP 추출과 별도로, 아래 버튼에서 첫 실제 한글 문장 PoC ISO를 만들 수 있습니다.\n신규 게임 첫 화면의 첫 줄만 ‘테스트 성공’으로 바뀌고 뒤의 두 일본어 줄이 그대로면 custom renderer key + message remap 경로가 실기에서 성공한 것입니다.");
+        info.setText("대상: 일본판 ULJM-05410 v1.03\n현재 번역 완료 부분은 한국어, 미번역 부분은 일본어로 유지됩니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n첫 실행은 최신 한글 데이터 파일을 앱 내부로 준비하느라 조금 더 오래 걸릴 수 있습니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
         root.addView(info, infoParams);
 
         chooseButton = new Button(this);
-        chooseButton.setText("원본 ISO 선택 → 감사 ZIP 추출");
+        chooseButton.setText("원본 ISO 선택");
         chooseButton.setOnClickListener(v -> pickIso());
         LinearLayout.LayoutParams buttonParams = new LinearLayout.LayoutParams(-1, -2);
         buttonParams.topMargin = pad;
         root.addView(chooseButton, buttonParams);
 
         patchButton = new Button(this);
-        patchButton.setText("첫 한글 문장 PoC ISO 만들기");
+        patchButton.setText("부분 한글화 Alpha ISO 만들기");
         patchButton.setEnabled(false);
         patchButton.setOnClickListener(v -> choosePatchedIsoDestination());
         LinearLayout.LayoutParams patchParams = new LinearLayout.LayoutParams(-1, -2);
@@ -92,8 +96,6 @@ public final class MainActivity extends Activity {
         if (requestCode == PICK_ISO) {
             sourceUri = data.getData();
             inspectSelectedIso();
-        } else if (requestCode == CREATE_AUDIT_ZIP) {
-            exportAuditZip(data.getData());
         } else if (requestCode == CREATE_PATCHED_ISO) {
             createPatchedIso(data.getData());
         }
@@ -101,7 +103,7 @@ public final class MainActivity extends Activity {
 
     private void inspectSelectedIso() {
         inspection = null;
-        setBusy(true, "원본 ISO와 PoC 대상 리소스를 검증 중…");
+        setBusy(true, "원본 ISO 검증 중…");
         Uri uri = sourceUri;
         worker.execute(() -> {
             try (ParcelFileDescriptor pfd = getContentResolver().openFileDescriptor(uri, "r");
@@ -110,57 +112,11 @@ public final class MainActivity extends Activity {
                 if (channel == null) throw new IllegalStateException("ISO를 읽기 전용으로 열 수 없습니다.");
                 FontExtractor.Inspection checked = FontExtractor.inspect(channel);
                 inspection = checked;
-                runOnUiThread(() -> {
-                    setBusy(false, "원본 및 시작 대사 검증 완료. 감사 ZIP 저장 위치를 선택하세요.");
-                    Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
-                    out.addCategory(Intent.CATEGORY_OPENABLE);
-                    out.setType("application/zip");
-                    out.putExtra(Intent.EXTRA_TITLE, "zill-slot-audit-assets-ULJM05410-v103.zip");
-                    startActivityForResult(out, CREATE_AUDIT_ZIP);
-                });
+                runOnUiThread(() -> setBusy(false,
+                        "검증 완료: " + checked.discId + " v" + checked.version + ". 아래 버튼으로 Alpha ISO를 만드세요."));
             } catch (Exception e) {
                 inspection = null;
                 runOnUiThread(() -> setBusy(false, "검증 실패: " + message(e)));
-            }
-        });
-    }
-
-    private void exportAuditZip(Uri outputUri) {
-        if (sourceUri == null || inspection == null) {
-            status.setText("먼저 지원되는 원본 ISO를 선택해야 합니다.");
-            return;
-        }
-        if (sourceUri.equals(outputUri)) {
-            status.setText("원본 ISO와 같은 문서에는 쓸 수 없습니다.");
-            return;
-        }
-        setBusy(true, "감사 자료 추출 중… ISO는 읽기 전용입니다.");
-        Uri inputUri = sourceUri;
-        FontExtractor.Inspection checked = inspection;
-        String sourceName = displayName(inputUri);
-        worker.execute(() -> {
-            boolean success = false;
-            try (ParcelFileDescriptor inPfd = getContentResolver().openFileDescriptor(inputUri, "r");
-                 ParcelFileDescriptor outPfd = getContentResolver().openFileDescriptor(outputUri, "rwt");
-                 FileInputStream in = inPfd == null ? null : new FileInputStream(inPfd.getFileDescriptor());
-                 FileOutputStream out = outPfd == null ? null : new FileOutputStream(outPfd.getFileDescriptor());
-                 FileChannel channel = in == null ? null : in.getChannel()) {
-                if (channel == null || out == null) throw new IllegalStateException("입출력 파일을 열 수 없습니다.");
-                FontExtractor.Inspection fresh = FontExtractor.inspect(channel);
-                if (!fresh.discId.equals(checked.discId) || !fresh.version.equals(checked.version) ||
-                        fresh.isoSize != checked.isoSize) {
-                    throw new IllegalStateException("선택된 ISO가 검증 후 변경되었습니다.");
-                }
-                FontExtractor.export(channel, fresh, out, sourceName);
-                out.flush();
-                success = true;
-                runOnUiThread(() -> setBusy(false,
-                        "감사 ZIP 추출 완료. 원본 ISO는 변경되지 않았습니다. 아래 PoC 버튼도 사용할 수 있습니다."));
-            } catch (Exception e) {
-                final String error = message(e);
-                runOnUiThread(() -> setBusy(false, "감사 자료 추출 실패: " + error));
-            } finally {
-                if (!success) deleteQuietly(outputUri);
             }
         });
     }
@@ -173,7 +129,7 @@ public final class MainActivity extends Activity {
         Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
         out.addCategory(Intent.CATEGORY_OPENABLE);
         out.setType("application/octet-stream");
-        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_FirstSentence_PoC.iso");
+        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_Alpha.iso");
         startActivityForResult(out, CREATE_PATCHED_ISO);
     }
 
@@ -186,38 +142,137 @@ public final class MainActivity extends Activity {
             status.setText("원본 ISO와 같은 문서에는 쓸 수 없습니다.");
             return;
         }
-        setBusy(true, "첫 한글 문장 PoC ISO 생성 중… 원본은 읽기 전용입니다.");
+
+        setBusy(true, "한국어 Alpha 빌드 준비 중…");
         Uri inputUri = sourceUri;
         FontExtractor.Inspection checked = inspection;
         worker.execute(() -> {
             boolean success = false;
-            try (ParcelFileDescriptor inPfd = getContentResolver().openFileDescriptor(inputUri, "r");
-                 ParcelFileDescriptor outPfd = getContentResolver().openFileDescriptor(outputUri, "rwt");
-                 FileInputStream in = inPfd == null ? null : new FileInputStream(inPfd.getFileDescriptor());
-                 FileOutputStream out = outPfd == null ? null : new FileOutputStream(outPfd.getFileDescriptor());
-                 FileChannel channel = in == null ? null : in.getChannel()) {
-                if (channel == null || out == null) throw new IllegalStateException("입출력 파일을 열 수 없습니다.");
-                FontExtractor.Inspection fresh = FontExtractor.inspect(channel);
-                if (!fresh.discId.equals(checked.discId) || !fresh.version.equals(checked.version) ||
-                        fresh.isoSize != checked.isoSize) {
-                    throw new IllegalStateException("선택된 ISO가 검증 후 변경되었습니다.");
+            File session = new File(getCacheDir(), "korean-alpha-" + System.nanoTime());
+            try {
+                if (!session.mkdirs()) throw new IllegalStateException("임시 작업 폴더를 만들 수 없습니다.");
+                File rootDir = ensureProjectAssets();
+                File source = new File(session, "source.iso");
+                File output = new File(session, "korean-alpha.iso");
+                File work = new File(session, "work");
+
+                updateStatus("원본 ISO를 앱 작업공간으로 복사 중…");
+                copyUriToFile(inputUri, source);
+                if (source.length() != checked.isoSize) {
+                    throw new IllegalStateException("복사된 ISO 크기가 검증 값과 다릅니다.");
                 }
-                channel.position(0);
-                PoCPatcher.copyAndPatch(in, out, fresh);
-                out.flush();
-                if (out.getChannel().size() != fresh.isoSize) {
-                    throw new IllegalStateException("결과 ISO 크기가 원본과 다릅니다.");
+
+                File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
+                if (!executable.isFile()) {
+                    throw new IllegalStateException("내장 Korean builder를 찾을 수 없습니다: " + executable);
                 }
+
+                updateStatus("게임 데이터 추출 및 한글 메시지/폰트 빌드 시작…");
+                ProcessBuilder builder = new ProcessBuilder(
+                        executable.getAbsolutePath(),
+                        "build-korean-iso",
+                        "--iso", source.getAbsolutePath(),
+                        "--out", output.getAbsolutePath(),
+                        "--work-dir", work.getAbsolutePath(),
+                        "--version", "mobile-alpha");
+                builder.directory(rootDir);
+                builder.redirectErrorStream(true);
+                Process process = builder.start();
+                Deque<String> tail = new ArrayDeque<>();
+                try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
+                    String line;
+                    while ((line = reader.readLine()) != null) {
+                        if (tail.size() == 12) tail.removeFirst();
+                        tail.addLast(line);
+                        updateStatus(line);
+                    }
+                }
+                int exit = process.waitFor();
+                if (exit != 0) {
+                    throw new IllegalStateException("Korean builder 실패(" + exit + "): " + String.join(" | ", tail));
+                }
+                if (!output.isFile() || output.length() == 0) {
+                    throw new IllegalStateException("Korean builder가 결과 ISO를 만들지 못했습니다.");
+                }
+
+                updateStatus("완성 ISO를 선택한 위치로 저장 중…");
+                copyFileToUri(output, outputUri);
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "완료. PPSSPP에서 신규 게임을 시작하세요. 첫 줄이 ‘테스트 성공’, 뒤 두 줄이 일본어 그대로면 성공입니다."));
+                        "완료. 생성된 Korean Alpha ISO를 PPSSPP에서 실행해 주세요. 번역된 부분은 한국어, 나머지는 일본어로 표시됩니다."));
             } catch (Exception e) {
                 final String error = message(e);
                 runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
             } finally {
+                deleteRecursively(session);
                 if (!success) deleteQuietly(outputUri);
             }
         });
+    }
+
+    private File ensureProjectAssets() throws Exception {
+        File root = new File(getFilesDir(), "zillroot-v7");
+        File marker = new File(root, ".ready");
+        if (marker.isFile()) return root;
+        deleteRecursively(root);
+        if (!root.mkdirs()) throw new IllegalStateException("내장 한글 데이터 폴더를 만들 수 없습니다.");
+        copyAssetTree("zillroot", root);
+        if (!marker.createNewFile()) throw new IllegalStateException("내장 한글 데이터 준비를 완료할 수 없습니다.");
+        return root;
+    }
+
+    private void copyAssetTree(String assetPath, File destination) throws Exception {
+        String[] children = getAssets().list(assetPath);
+        if (children == null) throw new IllegalStateException("assets 목록을 읽을 수 없습니다: " + assetPath);
+        if (children.length == 0) {
+            File parent = destination.getParentFile();
+            if (parent != null && !parent.isDirectory() && !parent.mkdirs()) {
+                throw new IllegalStateException("assets 출력 폴더 생성 실패");
+            }
+            try (InputStream in = getAssets().open(assetPath);
+                 OutputStream out = new FileOutputStream(destination)) {
+                copy(in, out);
+            }
+            return;
+        }
+        if (!destination.isDirectory() && !destination.mkdirs()) {
+            throw new IllegalStateException("assets 폴더 생성 실패: " + destination);
+        }
+        for (String child : children) {
+            copyAssetTree(assetPath + "/" + child, new File(destination, child));
+        }
+    }
+
+    private void copyUriToFile(Uri uri, File destination) throws Exception {
+        try (ParcelFileDescriptor pfd = getContentResolver().openFileDescriptor(uri, "r");
+             InputStream in = pfd == null ? null : new FileInputStream(pfd.getFileDescriptor());
+             OutputStream out = new FileOutputStream(destination)) {
+            if (in == null) throw new IllegalStateException("원본 ISO를 열 수 없습니다.");
+            copy(in, out);
+        }
+    }
+
+    private void copyFileToUri(File source, Uri uri) throws Exception {
+        try (InputStream in = new FileInputStream(source);
+             ParcelFileDescriptor pfd = getContentResolver().openFileDescriptor(uri, "rwt");
+             OutputStream out = pfd == null ? null : new FileOutputStream(pfd.getFileDescriptor())) {
+            if (out == null) throw new IllegalStateException("결과 ISO 저장 위치를 열 수 없습니다.");
+            copy(in, out);
+            out.flush();
+        }
+    }
+
+    private static void copy(InputStream in, OutputStream out) throws Exception {
+        byte[] buffer = new byte[1024 * 1024];
+        int read;
+        while ((read = in.read(buffer)) >= 0) {
+            if (read == 0) continue;
+            out.write(buffer, 0, read);
+        }
+    }
+
+    private void updateStatus(String text) {
+        runOnUiThread(() -> status.setText(text));
     }
 
     private void deleteQuietly(Uri uri) {
@@ -227,22 +282,22 @@ public final class MainActivity extends Activity {
         }
     }
 
+    private static void deleteRecursively(File file) {
+        if (file == null || !file.exists()) return;
+        if (file.isDirectory()) {
+            File[] children = file.listFiles();
+            if (children != null) {
+                for (File child : children) deleteRecursively(child);
+            }
+        }
+        //noinspection ResultOfMethodCallIgnored
+        file.delete();
+    }
+
     private void setBusy(boolean busy, String text) {
         chooseButton.setEnabled(!busy);
         patchButton.setEnabled(!busy && inspection != null);
         status.setText(text);
-    }
-
-    private String displayName(Uri uri) {
-        try (Cursor c = getContentResolver().query(uri,
-                new String[]{OpenableColumns.DISPLAY_NAME}, null, null, null)) {
-            if (c != null && c.moveToFirst()) {
-                String value = c.getString(0);
-                if (value != null && !value.trim().isEmpty()) return value;
-            }
-        } catch (Exception ignored) {
-        }
-        return "source.iso";
     }
 
     private static String message(Exception e) {
