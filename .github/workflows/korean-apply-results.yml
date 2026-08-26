@@ -9,6 +9,10 @@ on:
       - 'work/korean-results/*.jsonl'
       - 'tools/korean/apply-results.py'
       - 'tools/korean/refresh-japanese-refs.py'
+      - 'tools/korean/next-packet.py'
+      - 'tools/korean/auto-trivial.py'
+      - 'tools/korean/auto-safe.py'
+      - 'tools/korean/migrate-semantic-linebreaks.py'
       - 'internal/corpus/korean.go'
       - '.github/workflows/korean-apply-results.yml'
 
@@ -27,6 +31,7 @@ jobs:
         with:
           ref: translation/section001-batch2
           fetch-depth: 0
+
       - name: Apply pending result packets idempotently
         shell: bash
         run: |
@@ -39,11 +44,17 @@ jobs:
           fi
           printf '%s\n' "${files[@]}" > /tmp/korean-processed-files
           python3 tools/korean/apply-results.py "${files[@]}"
-      - name: Quarantine invalid legacy overlays
+
+      - name: Migrate legacy semantic line breaks
+        run: python3 tools/korean/migrate-semantic-linebreaks.py
+
+      - name: Refresh canonical Japanese references
         run: python3 tools/korean/refresh-japanese-refs.py
-      - name: Validate Korean corpus
+
+      - name: Validate applied Korean corpus
         run: ./zill korean-check
-      - name: Commit generated overlays and consume processed packets
+
+      - name: Commit applied overlays and consume processed packets
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
@@ -63,9 +74,53 @@ jobs:
             git push origin HEAD:translation/section001-batch2
           fi
 
-      # Commits created with GITHUB_TOKEN do not reliably trigger a second
-      # workflow via push. Keep the post-apply derived state synchronized here
-      # so the helper packet can never remain stale after a successful apply.
+      # Build a fresh candidate from the just-applied corpus, then run only
+      # fail-closed deterministic automation against that fresh state.
+      - name: Generate fresh mixed-lane candidate packet
+        run: |
+          rm -rf /tmp/korean-packet
+          mkdir -p /tmp/korean-packet
+          python3 tools/korean/next-packet.py \
+            --max-records 2500 \
+            --max-bytes 600000 \
+            --order mixed \
+            --out /tmp/korean-packet/current.jsonl \
+            --progress /tmp/korean-packet/progress.json
+
+      - name: Auto-apply safe TM, patterns, and deterministic literals
+        shell: bash
+        run: |
+          python3 tools/korean/auto-safe.py \
+            /tmp/korean-packet/current.jsonl \
+            --out /tmp/korean-packet/safe.jsonl
+          python3 tools/korean/auto-trivial.py \
+            /tmp/korean-packet/current.jsonl \
+            --out /tmp/korean-packet/trivial.jsonl
+
+          inputs=()
+          [ -s /tmp/korean-packet/safe.jsonl ] && inputs+=(/tmp/korean-packet/safe.jsonl)
+          [ -s /tmp/korean-packet/trivial.jsonl ] && inputs+=(/tmp/korean-packet/trivial.jsonl)
+          if [ ${#inputs[@]} -eq 0 ]; then
+            echo 'No safe automatic translations available.'
+            exit 0
+          fi
+
+          python3 tools/korean/apply-results.py "${inputs[@]}"
+          python3 tools/korean/refresh-japanese-refs.py
+          ./zill korean-check
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          if git diff --cached --quiet; then
+            echo 'No automatic translation changes.'
+          else
+            git commit -m 'Auto-translate safe Korean repetitions and literals'
+            git fetch origin translation/section001-batch2
+            git rebase origin/translation/section001-batch2
+            git push origin HEAD:translation/section001-batch2
+          fi
+
       - name: Keep Korean raster catalog synchronized
         run: |
           if ./zill korean-font-check; then
@@ -95,6 +150,8 @@ jobs:
             git push origin HEAD:translation/section001-batch2
           fi
 
+      # Rebuild after both human and deterministic automatic translations so
+      # the helper branch always represents the true remaining queue.
       - name: Regenerate next untranslated packet
         run: |
           rm -rf /tmp/korean-packet
