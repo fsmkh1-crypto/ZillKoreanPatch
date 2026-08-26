@@ -328,6 +328,10 @@ korean = "별로…<end>"
 japanese = "なんか、かっこいいよね。セラってさ。<line-break>ちょっと、気になるかな。<line-break>　<line-break>…ってボクが言ったら<line-break><value:$28>は気になる？<end>"
 korean = "뭔가 멋있지, 세라는. 조금 신경 쓰인달까. …내가 그렇게 말하면 <value:$28>은 신경 쓰여?<end>"
 
+["690219"]
+japanese = "あ、ウソウソ、冗談だよ！<line-break>ね、ね、こっち向いてよ！<end>"
+korean = "아, 거짓말 거짓말, 농담이야! 자, 자, 이쪽 좀 봐!<end>"
+
 ["690220"]
 japanese = "あー、ボクのことからかってたんだ！ <line-break>ひどいよ、<value:$28>。<line-break>ボク…本気で嫌われたと思ったんだよ！<end>"
 korean = "아, 나 놀린 거였구나! 너무해, <value:$28>. 나… 진짜 미움받은 줄 알았어!<end>"

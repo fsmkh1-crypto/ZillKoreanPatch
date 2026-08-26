@@ -256,6 +256,10 @@ korean = "세라?<end>"
 japanese = "（…いや、違う。女だ。）<end>"
 korean = "(…아니, 달라. 여자다.)<end>"
 
+["1370210"]
+japanese = "実は、探し物をしているの。<line-break>とても大事なものなのよ。<end>"
+korean = "사실 찾고 있는 게 있어. 아주 중요한 물건이야.<end>"
+
 ["1370211"]
 japanese = "何を探しておられるのです？<end>"
 korean = "무엇을 찾고 계십니까?<end>"
@@ -352,9 +356,17 @@ korean = "앗, <value:$28> 님이시군.<end>"
 japanese = "<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"
 korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님께 줄게.<end>"
 
+["1370249"]
+japanese = "ロイは死を覚悟している。<line-break>…奴のことなら、わかる。<end>"
+korean = "로이는 죽음을 각오하고 있다. …녀석이라면 알아.<end>"
+
 ["1370251"]
 japanese = "…来い。<end>"
 korean = "…와.<end>"
+
+["1370253"]
+japanese = "なかなかの手並みだったが、<line-break>兄を置いて逃げるのか？<end>"
+korean = "제법 솜씨가 좋았지만 형을 두고 도망칠 셈인가?<end>"
 
 ["1370255"]
 japanese = "…それで、<line-break>お前は逃げるのか？<end>"
@@ -519,6 +531,10 @@ korean = "쳇, 취객을 놀리고 싶었을 뿐이냐. 혼자 있게 해 줘. �
 ["1370330"]
 japanese = "<value:$28>様、<line-break>お帰りなさいませ。　　　　<line-break>おケガは？<end>"
 korean = "<value:$28> 님, 돌아오셨군요. 다치신 곳은요?<end>"
+
+["1370339"]
+japanese = "月光に反応はない。<line-break>ロイはここにはいないようだな。<end>"
+korean = "월광에 반응이 없다. 로이는 여기 없는 모양이군.<end>"
 
 ["1370342"]
 japanese = "セラという男についていく<end>"
@@ -1055,6 +1071,10 @@ korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
 ["1370656"]
 japanese = "よかった！<line-break>じゃ、よろしくお願いします！<end>"
 korean = "다행이다! 그럼 잘 부탁드립니다!<end>"
+
+["1370669"]
+japanese = "おう！<line-break>ギアもいるから、貯めとけよ。　　　<line-break>　<end>"
+korean = "좋아! 기아도 필요하니까 모아 둬.<end>"
 
 ["1370671"]
 japanese = "こんにちは。<end>"
