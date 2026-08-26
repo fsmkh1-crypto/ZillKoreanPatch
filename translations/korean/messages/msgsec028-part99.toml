@@ -28,6 +28,10 @@ korean = "봉가 씨한테 가서 나무를 좀 나눠 달라고 하자.<end>"
 japanese = "ヴァンも手伝ってくれるよね？<end>"
 korean = "반도 도와줄 거지?<end>"
 
+["280011"]
+japanese = "ちっ、しょうがねえな。<line-break><value:$28>、行こうぜ。<end>"
+korean = "쳇, 어쩔 수 없네. <value:$28>, 가자.<end>"
+
 ["280012"]
 japanese = "じゃ、行こう。<end>"
 korean = "그럼, 가자.<end>"
@@ -259,6 +263,10 @@ korean = "아앗, 기다려, 반. 정말!<end>"
 ["280132"]
 japanese = "僕はヴァンを追いかけて<line-break>先に行くから、<line-break><value:$28>もすぐ来てね。<end>"
 korean = "난 반을 쫓아 먼저 갈 테니까 <value:$28>도 바로 와.<end>"
+
+["280133"]
+japanese = "あ、<value:$28>。<line-break>ボンガさんの家はこっちだよ。<end>"
+korean = "아, <value:$28>. 봉가 씨 집은 이쪽이야.<end>"
 
 ["280134"]
 japanese = "<value:$28>、何やってんだよ！<line-break>こっちだよ、こっち。<line-break>早く来いよ！<end>"

@@ -72,6 +72,10 @@ korean = "분명 <value:$28> 일행은 현자의 숲 고양이 저택을 중계�
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
 
+["1350055"]
+japanese = "アレ、返してくれ。<line-break>ほら、アレだよ、アレ。<end>"
+korean = "그거 돌려줘. 있잖아, 그거 말이야, 그거.<end>"
+
 ["1350057"]
 japanese = "<value:$28>は<line-break>ゼネテスの遺書を手渡した。<end>"
 korean = "<value:$28>은 제네테스의 유서를 건넸다.<end>"
@@ -235,6 +239,10 @@ korean = "그럴지도. 그게 다야?<end>"
 ["1350173"]
 japanese = "…それは、悲しいよ。<end>"
 korean = "…그건 슬퍼.<end>"
+
+["1350174"]
+japanese = "もはや助けも間にあわん！<line-break>これで終わりだ！<end>"
+korean = "이젠 구원도 늦었다! 이걸로 끝이다!<end>"
 
 ["1350177"]
 japanese = "貴様は！　道化！<line-break>なにがおかしい！<end>"
@@ -915,6 +923,10 @@ korean = "오빠!!<end>"
 ["1350549"]
 japanese = "<value:$28>様、<line-break>お見苦しいところをお目にかけました…<line-break>申しわけありません。<end>"
 korean = "<value:$28>님, 추한 모습을 보여 드렸습니다… 죄송합니다.<end>"
+
+["1350550"]
+japanese = "ねえ、助けてよ、<value:$28>！<line-break>お兄ちゃんが！　お兄ちゃんがヘンなの<line-break>ねえ、もう私、どうしていいのか…！<end>"
+korean = "있잖아, 도와줘, <value:$28>! 오빠가! 오빠가 이상해. 나 이제 어떻게 해야 할지 모르겠어…!<end>"
 
 ["1350553"]
 japanese = "え…？<line-break><value:$28>、<line-break>ホントに来てくれたの？<end>"

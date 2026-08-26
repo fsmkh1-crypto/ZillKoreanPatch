@@ -624,6 +624,10 @@ korean = "그런데 우리, 왜 여기서 <value:$28>를 기다리고 있는 거
 japanese = "どうしてって、それは…<end>"
 korean = "왜냐고? 그건….<end>"
 
+["1420351"]
+japanese = "<value:$28>様のそばに<line-break>お仕えしたいからです。<end>"
+korean = "<value:$28>님 곁에서 모시고 싶기 때문입니다.<end>"
+
 ["1420357"]
 japanese = "ア、アイリーンこそ！<line-break> <line-break> <line-break>何の目的もないのに、<line-break>ここにいるのは、<line-break>おかしいじゃない！？<end>"
 korean = "아, 아이린이야말로! 아무 목적도 없으면서 여기 있는 게 이상하잖아!?<end>"

@@ -12,6 +12,10 @@ korean = "<value:$28>의 느낌이 아무래도 이상하구나. 무슨 일이�
 japanese = "じゃね。<line-break><value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
 
+["580024"]
+japanese = "すまんな、年寄りの昔語りに<line-break>長々とつきあわせてしもうた…。　　<line-break>　<line-break>…ちと、外の空気が吸いとうなった。<end>"
+korean = "미안하구나, 늙은이의 옛날이야기에 오래 붙잡아 뒀어…. …잠깐 바깥 공기를 쐬고 싶구나.<end>"
+
 ["580057"]
 japanese = "例えば、今、こうやって酒が飲める。<line-break>これには、何ものもかえられぬ。<line-break>そうじゃろう、<value:$28>？<end>"
 korean = "예를 들면 지금 이렇게 술을 마실 수 있지. 이건 무엇과도 바꿀 수 없다. 그렇지, <value:$28>?<end>"

@@ -212,6 +212,10 @@ korean = "고마워요. …기뻐요, <value:$28> 님.<end>"
 japanese = "………………。<line-break> <line-break> <line-break>それにしても…<line-break>私が、魅力的だなんて…。<end>"
 korean = "………………. 그런데… 내가 매력적이라니….<end>"
 
+["1410125"]
+japanese = "<value:$28>様も<line-break>今日は一日、ご苦労様でした。<end>"
+korean = "<value:$28>님도 오늘 하루 수고 많으셨습니다.<end>"
+
 ["1410127"]
 japanese = "………………。<line-break><line-break><line-break><value:$28>様！<end>"
 korean = "………………. <value:$28> 님!<end>"
@@ -347,6 +351,10 @@ korean = "<value:$28>님, 저 열심히 할 테니 앞으로 잘 부탁드려요
 ["1410221"]
 japanese = "…なんだか、夢みたいです。<line-break>憧れの<value:$28>さんと一緒に<line-break>冒険の旅ができるなんて…。<end>"
 korean = "…왠지 꿈만 같아요. 동경하던 <value:$28>님과 함께 모험할 수 있다니….<end>"
+
+["1410222"]
+japanese = "それでは、行きましょうか、<line-break><value:$28>さん！<end>"
+korean = "그럼 가 볼까요, <value:$28>님!<end>"
 
 ["1410223"]
 japanese = "行ってしまったな。<end>"
@@ -771,6 +779,10 @@ korean = "뒤, 뒤는 부탁해… 약속을…. ……………….<end>"
 ["1410459"]
 japanese = "…なあんてな。<line-break> <line-break> <line-break>ちょいとは、心配したか？<line-break>ん？<end>"
 korean = "…농담이야. 조금은 걱정했나? 응?<end>"
+
+["1410461"]
+japanese = "ついてこい、<value:$28>！<line-break>封士イオンズ様が、<line-break>みっちり鍛えてやるぞい！<line-break>わーはっはっはっ！<end>"
+korean = "따라와라, <value:$28>! 봉사 이온즈 님이 제대로 단련시켜 주마! 와하하하하!<end>"
 
 ["1410462"]
 japanese = "追加メッセージここから<end>"

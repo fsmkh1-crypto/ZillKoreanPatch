@@ -288,6 +288,10 @@ korean = "후고에게서 뭘 팔 생각이야?<end>"
 japanese = "いい子だ。<end>"
 korean = "착한 아이야.<end>"
 
+["750146"]
+japanese = "じゃ、そこには用はないな。<line-break>別の所に行くといい。<line-break>　<line-break>俺はお前が行くまで<line-break>見張ってることにする。<end>"
+korean = "그럼 거긴 볼일 없겠네. 다른 곳으로 가. 나는 네가 갈 때까지 지켜보고 있지.<end>"
+
 ["750162"]
 japanese = "そうだよ。ありがとう。<line-break>勇者様！<end>"
 korean = "맞아. 고마워, 용사님!<end>"
@@ -363,6 +367,10 @@ korean = "그 정도는 아니야<end>"
 ["750214"]
 japanese = "フフ、私に気を使って<line-break>いただかなくても結構ですわ。<line-break>　<line-break><value:$28>様は<line-break>本当におやさしいですね。<end>"
 korean = "후후, 저를 신경 쓰지 않으셔도 괜찮아요. <value:$28>님은 정말 상냥하시네요.<end>"
+
+["750219"]
+japanese = "ティアナ様には<line-break>もうお会いになりましたか？<end>"
+korean = "티아나 님은 이미 만나셨나요?<end>"
 
 ["750220"]
 japanese = "真っ先に会いに行った<end>"

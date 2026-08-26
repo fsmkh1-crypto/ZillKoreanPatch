@@ -152,6 +152,10 @@ korean = "최악이야! 이런 악취미!<end>"
 japanese = "<value:$28>、大丈夫！？<end>"
 korean = "<value:$28>, 괜찮아!?<end>"
 
+["840086"]
+japanese = "モンスターの声を聞いて<line-break>駆けつけたんだけど<line-break>…遅かったみたい。<line-break>ごめんなさい。<line-break>役に立たなくて。<end>"
+korean = "몬스터 소리를 듣고 달려왔는데… 늦은 것 같아. 미안해. 도움이 못 돼서.<end>"
+
 ["840088"]
 japanese = "え？<end>"
 korean = "어?<end>"

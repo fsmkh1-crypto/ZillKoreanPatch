@@ -844,6 +844,10 @@ korean = "나… 나… 무슨 짓을 한 거야…? 잘못한 건… 나… 나
 japanese = "…どうも、ご親切に。　　　<end>"
 korean = "…정말 친절하시네요.<end>"
 
+["550309"]
+japanese = "助けていただき<line-break>ありがとうございました。　<end>"
+korean = "도와주셔서 감사합니다.<end>"
+
 ["550313"]
 japanese = "あきらめるな<end>"
 korean = "포기하지 마<end>"
@@ -863,6 +867,10 @@ korean = "나만 살아 있다는 것….<end>"
 ["550318"]
 japanese = "剣が…答えた…？<end>"
 korean = "검이… 대답했어…?<end>"
+
+["550319"]
+japanese = "それ…が…？<line-break>あきらめるなってことですか？<end>"
+korean = "그게…? 포기하지 말라는 뜻인가요?<end>"
 
 ["550320"]
 japanese = "剣の言葉を聞けって…。<end>"
@@ -908,6 +916,14 @@ korean = "저예요, 노엘이에요.<end>"
 japanese = "俺はレイヴン。<line-break>ま、ひとつよろしく。<end>"
 korean = "난 레이븐이야. 뭐, 잘 부탁해.<end>"
 
+["550337"]
+japanese = "え、で…ですね…。<line-break>こちらはカフィンです。<end>"
+korean = "저, 그… 그렇군요…. 이쪽은 카핀입니다.<end>"
+
+["550340"]
+japanese = "うるさい男ね。<line-break>あんた１人でおやりなさい。<end>"
+korean = "시끄러운 남자네. 혼자서 하세요.<end>"
+
 ["550341"]
 japanese = "それから、<line-break>あっちにいるのがナーシェス。<end>"
 korean = "그리고 저쪽에 있는 게 나셰스야.<end>"
@@ -935,6 +951,10 @@ korean = "방금 그 여자애 엉덩이보고 있었지?<end>"
 ["550350"]
 japanese = "さあて、どうなのかしらね？　　　　<end>"
 korean = "글쎄, 어떨까?<end>"
+
+["550353"]
+japanese = "俺と一緒に地平線に沈む<line-break>夕日を見ないかい？<end>"
+korean = "나와 함께 지평선 너머로 지는 석양을 보지 않을래?<end>"
 
 ["550357"]
 japanese = "まぁ、ノエルはあきらめることね。　<end>"
@@ -979,6 +999,10 @@ korean = "그리고 지금도 말이지….<end>"
 ["550373"]
 japanese = "それじゃ、この人たちは…。<end>"
 korean = "그럼 이 사람들은….<end>"
+
+["550374"]
+japanese = "間違いない。<line-break>施文院の暗殺者、告死天使だ。<end>"
+korean = "틀림없어. 시문원의 암살자, 고사천사다.<end>"
 
 ["550388"]
 japanese = "ノエル・ボリューム１終端<end>"

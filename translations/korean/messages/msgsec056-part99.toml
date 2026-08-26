@@ -88,6 +88,10 @@ korean = "가자.<end>"
 japanese = "<value:$28>さん！<end>"
 korean = "<value:$28>씨!<end>"
 
+["560045"]
+japanese = "ノエル、行きましょ？<line-break>レイヴンをお願いね。<end>"
+korean = "노엘, 가자. 레이븐을 부탁해.<end>"
+
 ["560046"]
 japanese = "あ、えと…、はい！<end>"
 korean = "아, 저기… 네!<end>"
@@ -764,6 +768,10 @@ korean = "왔나….<end>"
 japanese = "さあ、君の力を見せてくれ。<end>"
 korean = "자, 네 힘을 보여줘.<end>"
 
+["560411"]
+japanese = "フッ<line-break>見事だ。<line-break> <line-break>よかろう。<line-break>このベルゼーヴァ・ベルライン<line-break>人類の革新のため、力を貸そう。<end>"
+korean = "흥, 훌륭하다. 좋아. 이 벨제바 벨라인, 인류의 혁신을 위해 힘을 빌려주지.<end>"
+
 ["560421"]
 japanese = "デモリッシュを習得した。<end>"
 korean = "데몰리시를 습득했다.<end>"
@@ -827,6 +835,10 @@ korean = "그럼 안티노도…?<end>"
 ["560473"]
 japanese = "<value:$28>の言いたいことも<line-break>わかるけどさ。<line-break>ま、戦争だかんね～、これってば。<end>"
 korean = "<value:$28>이 무슨 말 하는지는 알겠지만. 뭐, 이건 전쟁이니까 말이야~.<end>"
+
+["560478"]
+japanese = "あ、あなたは…<line-break><value:$28>…。<line-break> <line-break>…カルラの部下になったと聞いたわ。<line-break>わたくしを捕らえに来たのね。<end>"
+korean = "다, 당신은… <value:$28>…. …카를라의 부하가 됐다고 들었어요. 저를 잡으러 온 거군요.<end>"
 
 ["560479"]
 japanese = "反乱者は逃がせない<end>"

@@ -72,6 +72,10 @@ korean = "감사합니다, 마스터!<end>"
 japanese = "猫屋敷っていうところで<line-break>呼びだすんですか？<line-break>　<line-break>分かりました。<line-break>じゃあ私待ってますね。<end>"
 korean = "고양이 저택이라는 곳에서 부르는 건가요? 알겠습니다. 그럼 기다릴게요.<end>"
 
+["1980046"]
+japanese = "<value:$28>から聞いたんだけど<line-break>何かくだらない話を知ってるそうね。<line-break>伝説のフライパンだか、何とか。<end>"
+korean = "<value:$28>에게 들었는데, 무슨 시시한 이야기를 안다면서? 전설의 프라이팬인가 뭔가.<end>"
+
 ["1980047"]
 japanese = "は、はい…。<end>"
 korean = "네, 네….<end>"
@@ -91,6 +95,10 @@ korean = "찾을 만큼 찾아보자.<end>"
 ["1980060"]
 japanese = "ええっ！？<end>"
 korean = "뭐!?<end>"
+
+["1980063"]
+japanese = "<value:$28>さん…。<line-break>ほ、本当に探すんですか？<end>"
+korean = "<value:$28>님…. 저, 정말 찾으실 건가요?<end>"
 
 ["1980066"]
 japanese = "早く流れ星を見つけて<line-break>お願いしなくっちゃ。<line-break>　<line-break>私のウソが<value:$28>さんに<line-break>バレないように…。<end>"

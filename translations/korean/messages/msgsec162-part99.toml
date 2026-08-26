@@ -136,6 +136,10 @@ korean = "그 남자의!? 이유를 설명해 주시오.<end>"
 japanese = "くっ…。<line-break>くだらん理屈を！<end>"
 korean = "큭…. 시시한 논리를!<end>"
 
+["1620116"]
+japanese = "<value:$28>殿を<line-break>お連れしました、ゼネテス様。<end>"
+korean = "<value:$28>님을 모셔 왔습니다, 제네테스 님.<end>"
+
 ["1620117"]
 japanese = "入ってくれ。<end>"
 korean = "들어와.<end>"

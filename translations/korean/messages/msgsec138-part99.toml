@@ -172,6 +172,10 @@ korean = "딱히 신경 쓰지 않아도 되는데 말이야.<end>"
 japanese = "じゃねー。<end>"
 korean = "또 봐.<end>"
 
+["1380122"]
+japanese = "<value:$28>…？<line-break>こんな夜遅くに、どうしたの？<end>"
+korean = "<value:$28>…? 이렇게 늦은 밤에 무슨 일이야?<end>"
+
 ["1380135"]
 japanese = "ありがとう。<line-break>おやすみなさい、<line-break><value:$28>…。<end>"
 korean = "고마워. 잘 자, <value:$28>….<end>"

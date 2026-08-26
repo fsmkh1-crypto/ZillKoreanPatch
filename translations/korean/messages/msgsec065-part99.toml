@@ -16,6 +16,10 @@ korean = "꺅!<end>"
 japanese = "ティアナ王女に<line-break>会わせてほしいのですか？<end>"
 korean = "티아나 공주님을 만나고 싶으신가요?<end>"
 
+["650005"]
+japanese = "何かわけありのようですね。<line-break>護衛を呼ぶのは簡単ですが…。<line-break>　<line-break>いいですよ。<line-break>お話を聞きましょう。<end>"
+korean = "무슨 사정이 있는 모양이군요. 호위를 부르는 건 간단하지만…. 좋아요. 이야기를 들어 보죠.<end>"
+
 ["650006"]
 japanese = "あのお人形…、<line-break>そういうことでしたの。<end>"
 korean = "그 인형… 그런 사정이었군요.<end>"
@@ -116,9 +120,17 @@ korean = "야, <value:$28>.<end>"
 japanese = "見破られるなよ、　　　　　　　<line-break><value:$28>。<line-break>　<end>"
 korean = "들키지 마라, <value:$28>.<end>"
 
+["650046"]
+japanese = "これはティアナ王女、<line-break>今日は一段と美しい。<end>"
+korean = "이런, 티아나 공주님. 오늘은 한층 더 아름다우시군요.<end>"
+
 ["650051"]
 japanese = "お目にかかれて光栄です、<line-break>ノーブル伯。<end>"
 korean = "뵙게 되어 영광입니다, 노블 백작님.<end>"
+
+["650054"]
+japanese = "レムオン様、<line-break>またいらっしゃってください。<end>"
+korean = "레무온 님, 또 와 주세요.<end>"
 
 ["650056"]
 japanese = "フィアンセ殿に怒られなければな。<end>"

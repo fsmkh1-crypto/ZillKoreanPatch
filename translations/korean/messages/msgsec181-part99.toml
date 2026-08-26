@@ -68,6 +68,10 @@ korean = "안 듣는다<end>"
 japanese = "　　　　　　　　では、語ろう。　　　　　　　<end>"
 korean = "그럼, 이야기하지.<end>"
 
+["1810064"]
+japanese = "<value:$28>は<line-break>インフィニティアを手に入れた。<end>"
+korean = "<value:$28>은 인피니티아를 손에 넣었다.<end>"
+
 ["1810066"]
 japanese = "デモリッシュを習得した。<end>"
 korean = "데몰리시를 습득했다.<end>"

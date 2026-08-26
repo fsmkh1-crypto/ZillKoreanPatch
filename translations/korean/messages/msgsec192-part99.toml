@@ -16,6 +16,10 @@ korean = "<value:$28>, 일어나…<end>"
 japanese = "起きなさい、<value:$28>！<line-break>もう、お昼よ！<end>"
 korean = "일어나, <value:$28>! 벌써 점심이야!<end>"
 
+["1920006"]
+japanese = "おはよう、<value:$28>。<line-break>どう？　目は覚めた？<end>"
+korean = "좋은 아침, <value:$28>. 어때? 잠은 깼어?<end>"
+
 ["1920008"]
 japanese = "あら、<value:$28>。<line-break>目が覚めたみたいね。<line-break>朝ご飯はできてるわよ。　　　　<end>"
 korean = "어머, <value:$28>. 깨어난 모양이네. 아침밥은 다 됐어.<end>"
@@ -75,6 +79,10 @@ korean = "그러니 <value:$28>님. 부디 언제까지나 제 곁에 있어 주
 ["1920053"]
 japanese = "ありがとう。<line-break>…うれしいです、<line-break><value:$28>様。<end>"
 korean = "고마워요. …기뻐요, <value:$28> 님.<end>"
+
+["1920054"]
+japanese = "<value:$28>！<line-break>こっち、こっち。<line-break><line-break>今日は私が考案した<line-break>新しい魔法のお披露目があるの。<end>"
+korean = "<value:$28>! 이쪽, 이쪽. 오늘은 내가 고안한 새로운 마법을 선보일 거야.<end>"
 
 ["1920055"]
 japanese = "それで、ぜひ見てもらおうと思って<line-break><value:$28>のこと<line-break>わざわざ呼び出しちゃった。<end>"
@@ -351,6 +359,10 @@ korean = "<value:$28>님, 저 열심히 할 테니 앞으로 잘 부탁드려요
 ["1920250"]
 japanese = "…なんだか、夢みたいです。<line-break>憧れの<value:$28>さんと一緒に<line-break>冒険の旅ができるなんて…。<end>"
 korean = "…왠지 꿈만 같아요. 동경하던 <value:$28>님과 함께 모험할 수 있다니….<end>"
+
+["1920251"]
+japanese = "それでは、行きましょうか、<line-break><value:$28>さん！<end>"
+korean = "그럼 가 볼까요, <value:$28>님!<end>"
 
 ["1920252"]
 japanese = "行ってしまったな。<end>"

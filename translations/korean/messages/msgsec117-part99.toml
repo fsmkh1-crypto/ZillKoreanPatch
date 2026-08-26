@@ -16,6 +16,10 @@ korean = "노엘도 열심히 하고 있구나<end>"
 japanese = "人を助けるためじゃないよ<end>"
 korean = "사람을 돕기 위해서가 아니야<end>"
 
+["1170008"]
+japanese = "あっ、そうだ、<line-break>わたしの仲間を紹介します！<end>"
+korean = "아, 맞다. 제 동료들을 소개할게요!<end>"
+
 ["1170009"]
 japanese = "<if><value:$29><equal>%0初めまして、ボウヤ。<end>初めまして、子猫ちゃん。<end>"
 korean = "<if><value:$29><equal>%0처음 뵙겠군, 꼬마야.<end>처음 뵙겠어, 아가씨.<end>"
@@ -91,6 +95,10 @@ korean = "그리고 지금도 말이지….<end>"
 ["1170045"]
 japanese = "それじゃ、この人たちは…。<end>"
 korean = "그럼 이 사람들은….<end>"
+
+["1170046"]
+japanese = "間違いない。<line-break>施文院の暗殺者、告死天使だ。<end>"
+korean = "틀림없어. 시문원의 암살자, 고사천사다.<end>"
 
 ["1170055"]
 japanese = "い、いや、<line-break>そんなことは…ない。<end>"

@@ -48,6 +48,10 @@ korean = "<value:$28>, 그대는 몇 살인가?<end>"
 japanese = "そうか。<line-break>　<line-break>　<line-break><value:$28>よ。<line-break>また来るとよい。<end>"
 korean = "그런가. <value:$28>여, 또 오거라.<end>"
 
+["1680050"]
+japanese = "<value:$28>、<line-break>そなたには礼を言わねばならぬ。<end>"
+korean = "<value:$28>, 너에게는 감사를 해야겠구나.<end>"
+
 ["1680059"]
 japanese = "そうか。<line-break><value:$28>よ。<line-break>これからもティアナを頼む。<line-break>私の命より大事な娘だ。<end>"
 korean = "그렇군. <value:$28>여. 앞으로도 티아나를 부탁한다. 내 목숨보다 소중한 딸이다.<end>"

@@ -8,6 +8,10 @@ korean = "이종족 간 4용 시작<end>"
 japanese = "えっ、あのエルフが俺を呼んでいる？<end>"
 korean = "뭐, 그 엘프가 나를 부른다고?<end>"
 
+["2100003"]
+japanese = "ふーん、あの娘、<line-break>フィアっていうのか…。<end>"
+korean = "흐음, 그 애 이름이 피아인가….<end>"
+
 ["2100007"]
 japanese = "なあ、頼む。<line-break>できれば<value:$28>も<line-break>一緒に来てくれないか？<end>"
 korean = "부탁이야. 가능하면 <value:$28>도 같이 와 주지 않을래?<end>"

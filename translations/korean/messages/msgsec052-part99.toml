@@ -88,6 +88,10 @@ korean = "…남편을 걱정하는 것은 아내의 역할입니다.<end>"
 japanese = "…陛下。<end>"
 korean = "…폐하.<end>"
 
+["520053"]
+japanese = "帝国軍が内海を縦断するという<line-break>その根拠は？<end>"
+korean = "제국군이 내해를 종단한다는 근거는 무엇이지?<end>"
+
 ["520061"]
 japanese = "では、敵はどう出ると？<end>"
 korean = "그럼 적은 어떻게 나올까요?<end>"
@@ -195,6 +199,10 @@ korean = "그런가.<end>"
 ["520148"]
 japanese = "では、会議は以上だ<line-break>各人の奮戦を望む。<end>"
 korean = "그럼 회의는 여기까지다.각자의 분전을 기대하겠다.<end>"
+
+["520154"]
+japanese = "の、ノーブル伯、お逃げください！<line-break>ぐわっ！<end>"
+korean = "노, 노블 백작님, 도망치십시오! 으악!<end>"
 
 ["520158"]
 japanese = "これも戦場のならい。<line-break>ゆくぞ、<value:$28>！<end>"

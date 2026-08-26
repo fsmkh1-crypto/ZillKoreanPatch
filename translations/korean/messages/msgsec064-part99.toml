@@ -140,6 +140,10 @@ korean = "…저 같은 사람에게 무슨 볼일이신가요?<end>"
 japanese = "私にご用なんて<line-break>ないんでしょう？<line-break>　<line-break>私はしょせん<line-break>お母様の…。<end>"
 korean = "저한테 볼일은 없으시겠죠? 저는 어차피 어머님의….<end>"
 
+["640072"]
+japanese = "話しかけるお方が<line-break>違うのではありませんか？<end>"
+korean = "말을 거실 상대를 잘못 고르신 것 아닌가요?<end>"
+
 ["640074"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
@@ -300,6 +304,10 @@ korean = "아쉽네요. 다음에 또 와 주세요.<end>"
 japanese = "何かお飲物をおもちしましょうか？<end>"
 korean = "뭔가 마실 것을 가져다드릴까요?<end>"
 
+["640184"]
+japanese = "相変わらず、<line-break>お忙しいのですね。　　　<line-break>　<line-break>でも、安心しました。<line-break>とてもお元気そうで。<line-break>　<end>"
+korean = "여전히 바쁘시군요. 그래도 안심했어요. 아주 건강해 보이셔서요.<end>"
+
 ["640192"]
 japanese = "ごめんなさい。<line-break>せっかく<value:$28>様が<line-break>来てくださったというのに…。<end>"
 korean = "죄송해요. 모처럼 <value:$28> 님이 와 주셨는데….<end>"
@@ -415,6 +423,10 @@ korean = "의사 선생님은? 빨리 의사를 불러!<end>"
 ["640250"]
 japanese = "あんた、傷を見て<line-break>おかしくなっちまったのかい？<line-break>　<line-break>医者を呼ぶ金が<line-break>どこにあるっていうんだい。<end>"
 korean = "너, 상처를 보고 이상해진 거야? 의사를 부를 돈이 어디 있다고 그래.<end>"
+
+["640252"]
+japanese = "イヤだ！　痛いよ！<line-break>かあさ…ん、助けて…。<end>"
+korean = "싫어! 아파! 엄마… 도와줘….<end>"
 
 ["640253"]
 japanese = "どこ行ったんだ、<line-break>こいつの母ちゃんは？<end>"
@@ -535,6 +547,10 @@ korean = "미사용<end>"
 ["640298"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
+
+["640299"]
+japanese = "大変だ！<line-break>チダフが、貴族の馬にはねられた！<end>"
+korean = "큰일이야! 치다프가 귀족의 말에 치였어!<end>"
 
 ["640300"]
 japanese = "大丈夫かい？<end>"

@@ -304,6 +304,10 @@ korean = "핫!<end>"
 japanese = "いえ、その…。<end>"
 korean = "아니, 그게….<end>"
 
+["1330264"]
+japanese = "あんたの死にどころ、<line-break>ここじゃないっしょ？<end>"
+korean = "네가 죽을 곳은 여기가 아니잖아?<end>"
+
 ["1330265"]
 japanese = "…ぎょ、御意っ！<end>"
 korean = "…어, 어명 받들겠습니다!<end>"
@@ -431,6 +435,10 @@ korean = "다치면 돌아오거라.<end>"
 ["1330335"]
 japanese = "<value:$28>よ、<line-break>余のかわいい人類の革新の鉄槌よ。<line-break>回復してやろう。<end>"
 korean = "<value:$28>여, 짐의 귀여운 인류 혁신의 철퇴여. 회복시켜 주마.<end>"
+
+["1330337"]
+japanese = "んじゃ、あとは任せたかんね。<line-break>ほい、回復。<end>"
+korean = "그럼 나머지는 맡길게. 자, 회복.<end>"
 
 ["1330341"]
 japanese = "これでも本職は魔道アカデミーの<line-break>卒業者です。傷ついたら、<line-break>いつでも戻ってきてください。<line-break>御武運を！<end>"
@@ -567,6 +575,10 @@ korean = "기다려, <value:$28>!<end>"
 ["1330460"]
 japanese = "…魔王バロルはどこだ？<end>"
 korean = "…마왕 바로르는 어디 있지?<end>"
+
+["1330470"]
+japanese = "うふふ…。<line-break>あらがっても苦しむだけなのに…<end>"
+korean = "후후…. 저항해 봐야 괴로울 뿐인데….<end>"
 
 ["1330471"]
 japanese = "いらっしゃい…いとしい殿方たち。<end>"
@@ -888,6 +900,10 @@ korean = "어떻게? 무슨 방법이 있는 거야?<end>"
 japanese = "どうしても入る<end>"
 korean = "무슨 일이 있어도 들어간다<end>"
 
+["1330699"]
+japanese = "どうしても入らなくては<line-break>ならないのですか？<end>"
+korean = "정말 꼭 들어가야 합니까?<end>"
+
 ["1330701"]
 japanese = "それがいいですよ<end>"
 korean = "그게 좋겠어요<end>"
@@ -911,6 +927,10 @@ korean = "…소용없다. 어떤 힘으로도 나를 멸할 수 없다. 나는 
 ["1330710"]
 japanese = "こ、これはウルグ様の力…。<line-break> <line-break> <line-break>お前は一体！<line-break>まあ…よい。<line-break>お前こそ我が求めていた存在。<end>"
 korean = "이, 이건 울그 님의 힘…. 너는 대체! 뭐… 됐다. 네가 바로 내가 찾던 존재다.<end>"
+
+["1330712"]
+japanese = "さらばだ…アスティアの子よ。<line-break>礼を言うぞ。<end>"
+korean = "잘 있어라… 아스티아의 아이여. 감사한다.<end>"
 
 ["1330714"]
 japanese = "<value:$28>さん、<line-break>わたしにはこんなことを言う<line-break>資格はないですけど…<end>"
@@ -947,6 +967,10 @@ korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
 ["1330734"]
 japanese = "以上であります。<end>"
 korean = "이상입니다.<end>"
+
+["1330735"]
+japanese = "私は<value:$28>様なら<line-break>閣下に追いつけると信じております。<line-break>我が軍の勝利のため、<line-break>一刻も早く将軍のもとへ！<end>"
+korean = "저는 <value:$28>님이라면 각하를 따라잡을 수 있다고 믿습니다. 우리 군의 승리를 위해 한시라도 빨리 장군님께로!<end>"
 
 ["1330737"]
 japanese = "お、お主が<value:$28>か？<line-break>なるほど堂々とした面構え。<line-break>カルラ様がお待ちだ。通れ。<end>"
