@@ -55,3 +55,28 @@ jobs:
           git fetch origin translation/section001-batch2
           git rebase origin/translation/section001-batch2
           git push origin HEAD:translation/section001-batch2
+      - name: Remove successfully processed staging packets
+        if: success()
+        shell: bash
+        run: |
+          if [ ! -s /tmp/korean-staging-files ]; then
+            echo 'No staging packets were processed.'
+            exit 0
+          fi
+          cd /tmp/korean-manual-staging
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          while IFS= read -r file; do
+            rel=${file#/tmp/korean-manual-staging/}
+            if [ -f "$rel" ]; then
+              git rm -- "$rel"
+            fi
+          done < /tmp/korean-staging-files
+          if git diff --cached --quiet; then
+            echo 'No processed staging packets remained to remove.'
+            exit 0
+          fi
+          git commit -m 'Consume processed Korean staging packets'
+          git fetch origin korean-manual-staging
+          git rebase origin/korean-manual-staging
+          git push origin HEAD:korean-manual-staging
