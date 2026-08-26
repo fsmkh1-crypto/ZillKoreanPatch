@@ -12,6 +12,10 @@ korean = "<value:$28>… 씨…!<end>"
 japanese = "わ、わたし…。<end>"
 korean = "저, 저는….<end>"
 
+["1740007"]
+japanese = "ネメアのこと、聞いてるでしょう？<end>"
+korean = "네메아 이야기, 들었지?<end>"
+
 ["1740008"]
 japanese = "聞いた<end>"
 korean = "들었어<end>"
@@ -32,6 +36,10 @@ korean = "…네메아는 죽었어.<end>"
 japanese = "ネメアはきっと生きている<end>"
 korean = "네메아는 분명 살아 있어<end>"
 
+["1740027"]
+japanese = "泣いたって、死んだ人間は戻らない<end>"
+korean = "울어도 죽은 사람은 돌아오지 않아.<end>"
+
 ["1740032"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
@@ -47,6 +55,10 @@ korean = "간다고? 어디로 가는 거지?<end>"
 ["1740047"]
 japanese = "やれやれ。<line-break>不器用な奴よ。<end>"
 korean = "이런. 서투른 녀석이군.<end>"
+
+["1740049"]
+japanese = "わかった。<line-break>もう、いいわ。<end>"
+korean = "알았어. 이제 됐어.<end>"
 
 ["1740051"]
 japanese = "引き受ける<end>"
@@ -123,6 +135,10 @@ korean = "주사프브로스….<end>"
 ["1740133"]
 japanese = "…まさか！<end>"
 korean = "…설마!<end>"
+
+["1740137"]
+japanese = "あなたは何を企んでいるのですか？<end>"
+korean = "당신은 무엇을 꾸미고 있습니까?<end>"
 
 ["1740139"]
 japanese = "さあ、出番だ。<end>"

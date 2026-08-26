@@ -108,6 +108,10 @@ korean = "누구?<end>"
 japanese = "メイア…。<end>"
 korean = "메이아….<end>"
 
+["370084"]
+japanese = "返した方がいいわ。　　　　　　　　<end>"
+korean = "돌려주는 게 좋아.<end>"
+
 ["370087"]
 japanese = "エア様は冷酷よ。　　　　　　　　<end>"
 korean = "에어 님은 냉혹해.<end>"
@@ -159,6 +163,10 @@ korean = "끈질기네. 아줌마.<end>"
 ["370115"]
 japanese = "えらい。<end>"
 korean = "대단해.<end>"
+
+["370117"]
+japanese = "あぁ。　　　　　　　　　　　　　　<end>"
+korean = "그래.<end>"
 
 ["370124"]
 japanese = "最悪の人間って？<end>"
@@ -232,6 +240,10 @@ korean = "당황하지 마라, 죽이진 않는다.<end>"
 japanese = "今は、な。<end>"
 korean = "지금은 말이지.<end>"
 
+["370212"]
+japanese = "わらわは運命を知ることができる。　<end>"
+korean = "나는 운명을 알 수 있다.<end>"
+
 ["370216"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"
@@ -267,6 +279,10 @@ korean = "말리지 마!<end>"
 ["370244"]
 japanese = "誰だ？<end>"
 korean = "누구냐?<end>"
+
+["370246"]
+japanese = "今すぐ返すんだ。　　　　　　　　　<end>"
+korean = "지금 당장 돌려줘.<end>"
 
 ["370248"]
 japanese = "エア様は冷酷だ。　　　　　　　　<end>"

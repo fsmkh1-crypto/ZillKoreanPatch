@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["520000"]
+japanese = "ファーロス・ボリューム２その２開始<end>"
+korean = "파로스 볼륨2 그 2 시작<end>"
+
 ["520005"]
 japanese = "根拠は？<end>"
 korean = "근거는?<end>"
@@ -107,3 +111,7 @@ korean = "…가아아아악!<end>"
 ["520165"]
 japanese = "敵襲！<end>"
 korean = "적습!<end>"
+
+["520183"]
+japanese = "ファーロス・ボリューム２その２終端<end>"
+korean = "파로스 볼륨2 그 2 끝<end>"

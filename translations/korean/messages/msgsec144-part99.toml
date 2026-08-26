@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1440000"]
+japanese = "グフトク、Ｖｏｌ３メッセージ開始<end>"
+korean = "구프토크 볼륨3 메시지 시작<end>"
+
+["1440008"]
+japanese = "グフトクＶｏｌ３予備メッセージ１<end>"
+korean = "구프토크 볼륨3 예비 메시지1<end>"
+
 ["1440009"]
 japanese = "グフトクＶｏｌ３予備メッセージ2<end>"
 korean = "구프트크 Vol3 예비 메시지 2<end>"
@@ -35,3 +43,7 @@ korean = "구프트크 Vol3 예비 메시지 9<end>"
 ["1440017"]
 japanese = "グフトクＶｏｌ３予備メッセージ10<end>"
 korean = "구프트크 Vol3 예비 메시지 10<end>"
+
+["1440018"]
+japanese = "グフトク、Ｖｏｌ３メッセージ終端<end>"
+korean = "구프토크 볼륨3 메시지 끝<end>"

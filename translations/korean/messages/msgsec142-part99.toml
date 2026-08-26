@@ -128,6 +128,10 @@ korean = "그리고, 그리고….<end>"
 japanese = "あたりめーだ！<end>"
 korean = "당연하지!<end>"
 
+["1420151"]
+japanese = "やめろ！俺は、何もしちゃいない！<end>"
+korean = "그만둬! 난 아무것도 안 했어!<end>"
+
 ["1420155"]
 japanese = "うっ…！？<end>"
 korean = "윽…!?<end>"
@@ -143,6 +147,10 @@ korean = "…물러가라.<end>"
 ["1420160"]
 japanese = "やべえ、逃げるぞっ！<end>"
 korean = "젠장, 도망가자!<end>"
+
+["1420162"]
+japanese = "アキュリュースに、何をしに行く？<end>"
+korean = "아큐류스에 뭘 하러 가는 거지?<end>"
 
 ["1420170"]
 japanese = "追加メッセージここから<end>"
@@ -208,6 +216,10 @@ korean = "난 이제 됐어, 아저씨.<end>"
 japanese = "微妙に、時差がある…。<end>"
 korean = "미묘하게 시차가 있어….<end>"
 
+["1420267"]
+japanese = "あっ、うまいこと言うね、レーグ。<end>"
+korean = "앗, 말 잘하네, 레이그.<end>"
+
 ["1420272"]
 japanese = "そうか…。<line-break>のう、<value:$28>は、<line-break>本当に戻ってくるのか？<end>"
 korean = "그런가…. 그런데 <value:$28>은 정말 돌아오는 건가?<end>"
@@ -215,6 +227,10 @@ korean = "그런가…. 그런데 <value:$28>은 정말 돌아오는 건가?<end
 ["1420273"]
 japanese = "どうした、とっつあん。心配か？<end>"
 korean = "왜 그래, 아저씨. 걱정돼?<end>"
+
+["1420279"]
+japanese = "男装の麗人って…ボ、ボクのこと？<end>"
+korean = "남장한 미인이라니… 나, 나 말이야?<end>"
 
 ["1420284"]
 japanese = "行こうっ！<end>"
@@ -375,6 +391,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1420380"]
 japanese = "行くのか…<line-break><value:$28>。<end>"
 korean = "가는 건가… <value:$28>.<end>"
+
+["1420390"]
+japanese = "我々に口を挟む権利はありません。<end>"
+korean = "우리에게 참견할 권리는 없습니다.<end>"
 
 ["1420395"]
 japanese = "追加メッセージここから<end>"
@@ -683,6 +703,10 @@ korean = "무슨 용건이냐… 세바스찬.<end>"
 ["1420589"]
 japanese = "行くのか…<line-break><value:$28><end>"
 korean = "가는 건가… <value:$28><end>"
+
+["1420599"]
+japanese = "我々に口を挟む権利はありません。<end>"
+korean = "우리에게 참견할 권리는 없습니다.<end>"
 
 ["1420604"]
 japanese = "こ、ここで待っていれば…<end>"

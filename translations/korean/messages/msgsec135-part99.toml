@@ -160,6 +160,10 @@ korean = "뭐, 뭐!?<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1350191"]
+japanese = "ウウ…ガ……ウウグッ……アアッ！<end>"
+korean = "우우… 가…… 우욱…… 아악!<end>"
+
 ["1350192"]
 japanese = "ひいいい！<end>"
 korean = "히이이익!<end>"
@@ -315,6 +319,10 @@ korean = "…<value:$28> 님, 조용히….<end>"
 ["1350322"]
 japanese = "大丈夫です。<line-break><value:$28>様は、<line-break>私たちの味方です。<end>"
 korean = "괜찮습니다. <value:$28> 님은 저희 편입니다.<end>"
+
+["1350324"]
+japanese = "それで、何が起こっているのです？<end>"
+korean = "그래서, 무슨 일이 일어나고 있는 겁니까?<end>"
 
 ["1350326"]
 japanese = "レムオン様が！？<end>"

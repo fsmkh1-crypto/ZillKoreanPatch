@@ -252,6 +252,10 @@ korean = "소울 리프라고?<end>"
 japanese = "ねえ、<value:$28><line-break>大丈夫？<end>"
 korean = "저기, <value:$28> 괜찮아?<end>"
 
+["550133"]
+japanese = "拙者の母上は強力かつ大災害なお方。<end>"
+korean = "제 어머니는 강력하고도 대재앙 같은 분이십니다.<end>"
+
 ["550136"]
 japanese = "（奴を追わなきゃ…。）<end>"
 korean = "(놈을 쫓아가야 해….)<end>"
@@ -760,6 +764,10 @@ korean = "검의 말을 들어라<end>"
 japanese = "あきらめるなって…。<end>"
 korean = "포기하지 말라고….<end>"
 
+["550316"]
+japanese = "わたしだけが生きているということ…<end>"
+korean = "나만 살아 있다는 것….<end>"
+
 ["550318"]
 japanese = "剣が…答えた…？<end>"
 korean = "검이… 대답했어…?<end>"
@@ -803,6 +811,14 @@ korean = "어딜 보고 있는 거야? 꼬마야.<end>"
 ["550347"]
 japanese = "え？<end>"
 korean = "어?<end>"
+
+["550350"]
+japanese = "さあて、どうなのかしらね？　　　　<end>"
+korean = "글쎄, 어떨까?<end>"
+
+["550357"]
+japanese = "まぁ、ノエルはあきらめることね。　<end>"
+korean = "뭐, 노엘은 포기하는 게 좋아.<end>"
 
 ["550359"]
 japanese = "…誤解だ。<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["460000"]
+japanese = "ガルドラン・ボリューム１その２開始<end>"
+korean = "갈드란 볼륨1 그 2 시작<end>"
+
 ["460002"]
 japanese = "黙れ、この野郎！<end>"
 korean = "닥쳐, 이 자식아!<end>"
@@ -67,6 +71,10 @@ korean = "묵지 않는다<end>"
 ["460088"]
 japanese = "疲れはとれたかい？<end>"
 korean = "피로는 좀 풀렸어?<end>"
+
+["460089"]
+japanese = "それはよかった。　　　　　　　　　<end>"
+korean = "그건 다행이군.<end>"
 
 ["460094"]
 japanese = "親父、やめろ。<end>"
@@ -179,3 +187,7 @@ korean = "맞아<end>"
 ["460231"]
 japanese = "いや違う<end>"
 korean = "아니, 틀려<end>"
+
+["460260"]
+japanese = "ガルドラン・ボリューム１その２終端<end>"
+korean = "갈드란 볼륨1 그 2 끝<end>"

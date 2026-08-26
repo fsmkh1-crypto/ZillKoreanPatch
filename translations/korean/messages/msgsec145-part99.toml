@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1450000"]
+japanese = "グフトク、Ｖｏｌ６メッセージ開始<end>"
+korean = "구프토크 볼륨6 메시지 시작<end>"
+
 ["1450001"]
 japanese = "私が恐い？<end>"
 korean = "내가 무서워?<end>"
@@ -40,6 +44,10 @@ korean = "그럴 수는 없어.<end>"
 japanese = "…禁断の聖杯だわ。<end>"
 korean = "…금단의 성배야.<end>"
 
+["1450038"]
+japanese = "グフトクＶｏｌ６予備メッセージ１<end>"
+korean = "구프토크 볼륨6 예비 메시지1<end>"
+
 ["1450039"]
 japanese = "グフトクＶｏｌ６予備メッセージ2<end>"
 korean = "구프트크 Vol6 예비 메시지 2<end>"
@@ -75,3 +83,7 @@ korean = "구프트크 Vol6 예비 메시지 9<end>"
 ["1450047"]
 japanese = "グフトクＶｏｌ６予備メッセージ10<end>"
 korean = "구프트크 Vol6 예비 메시지 10<end>"
+
+["1450048"]
+japanese = "グフトク、Ｖｏｌ６メッセージ終端<end>"
+korean = "구프토크 볼륨6 메시지 끝<end>"

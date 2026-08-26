@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["450000"]
+japanese = "ガルドラン・ボリューム１その１開始<end>"
+korean = "갈드란 볼륨1 그 1 시작<end>"
+
 ["450001"]
 japanese = "ねぇ、ガルドラン、だよね。<end>"
 korean = "저기, 갈드란… 맞지?<end>"
@@ -7,6 +11,10 @@ korean = "저기, 갈드란… 맞지?<end>"
 ["450002"]
 japanese = "ふっ、俺様のファンか！　　　　　<end>"
 korean = "훗, 내 팬인가!<end>"
+
+["450005"]
+japanese = "あ、危ないじゃないかっ！　　　　　<end>"
+korean = "아, 위험하잖아!<end>"
 
 ["450007"]
 japanese = "ガルドラン！　僕の名はナッジ。<end>"
@@ -23,6 +31,10 @@ korean = "그런가!<end>"
 ["450012"]
 japanese = "ちっ、違うよ！　　　　　　　<end>"
 korean = "아, 아니야!<end>"
+
+["450017"]
+japanese = "この期に及んでまだしらを切るとは！<end>"
+korean = "이 지경인데도 아직 시치미를 떼다니!<end>"
 
 ["450021"]
 japanese = "うわっ！　目が！<end>"
@@ -123,6 +135,10 @@ korean = "기분 나빠!<end>"
 ["450101"]
 japanese = "ううん、別にいいんだ。　　　　<end>"
 korean = "아니, 딱히 괜찮아.<end>"
+
+["450105"]
+japanese = "…ごめん。　　　　　　　　　　　　<end>"
+korean = "…미안.<end>"
 
 ["450109"]
 japanese = "おかえり、<value:$28>。<end>"
@@ -304,6 +320,10 @@ korean = "반… 원수는 갚았어.<end>"
 japanese = "…なんだと？　　　　　　　<end>"
 korean = "…뭐라고?<end>"
 
+["450264"]
+japanese = "メンツなんかのために、だとおお！？<end>"
+korean = "체면 따위 때문에, 라고오!?<end>"
+
 ["450270"]
 japanese = "待ってよ！　ヴァン！<end>"
 korean = "기다려! 반!<end>"
@@ -312,6 +332,10 @@ korean = "기다려! 반!<end>"
 japanese = "おなかが…すいて…。<end>"
 korean = "배가… 고파서….<end>"
 
+["450281"]
+japanese = "くっ、飢えか！　よし、任せろ！！　<end>"
+korean = "큭, 굶주림인가! 좋아, 맡겨!!<end>"
+
 ["450290"]
 japanese = "あ、あれ？　君は前に…。<end>"
 korean = "아, 어라? 너 전에….<end>"
@@ -319,3 +343,7 @@ korean = "아, 어라? 너 전에….<end>"
 ["450291"]
 japanese = "<value:$28>っていうんだね。<line-break>よろしく、<value:$28>。<end>"
 korean = "<value:$28>라고 하는구나. 잘 부탁해, <value:$28>.<end>"
+
+["450308"]
+japanese = "ガルドラン・ボリューム１その１終端<end>"
+korean = "갈드란 볼륨1 그 1 끝<end>"

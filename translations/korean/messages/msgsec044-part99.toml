@@ -12,9 +12,17 @@ korean = "너도 올 건가?<end>"
 japanese = "ティアナ王女を訪ねるところだ。<end>"
 korean = "티아나 공주를 찾아가는 길이다.<end>"
 
+["440005"]
+japanese = "相変わらず気の利かぬ女だ。　　　　<end>"
+korean = "여전히 눈치 없는 여자군.<end>"
+
 ["440007"]
 japanese = "バカか。本気にするな。<end>"
 korean = "바보냐. 진지하게 받아들이지 마.<end>"
+
+["440009"]
+japanese = "笑わないでやってくれ。　　　　　　<end>"
+korean = "웃지 말아 줘.<end>"
 
 ["440012"]
 japanese = "フッ、これは意外だ。　　　　　<end>"
@@ -44,9 +52,17 @@ korean = "후후…. 만족하나?　　<end>"
 japanese = "お前に見放されたら、俺は…。<end>"
 korean = "네가 날 버리면, 난….<end>"
 
+["440042"]
+japanese = "おっと、そんなに恐い顔をするなよ。<end>"
+korean = "어이, 그렇게 무서운 얼굴 하지 마.<end>"
+
 ["440044"]
 japanese = "よう、また会ったな。<end>"
 korean = "여어, 또 만났군.<end>"
+
+["440048"]
+japanese = "お前もよく知ってるレムオンの話さ。<end>"
+korean = "네가 잘 아는 레무온 이야기야.<end>"
 
 ["440054"]
 japanese = "やっぱり気になる<end>"

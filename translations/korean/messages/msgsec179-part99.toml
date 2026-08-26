@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1790000"]
+japanese = "ロストールメッセージＶ５／２開始<end>"
+korean = "로스톨 메시지 V5/2 시작<end>"
+
 ["1790004"]
 japanese = "…何をご冗談を。<end>"
 korean = "…무슨 농담을.<end>"
@@ -15,3 +19,7 @@ korean = "생색내려는 거냐?<end>"
 ["1790015"]
 japanese = "そんなんじゃねぇさ。<end>"
 korean = "그런 게 아니야.<end>"
+
+["1790033"]
+japanese = "ロストールメッセージＶ５／２終端<end>"
+korean = "로스톨 메시지 V5/2 끝<end>"

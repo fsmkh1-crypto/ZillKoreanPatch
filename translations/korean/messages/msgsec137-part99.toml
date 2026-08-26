@@ -404,6 +404,10 @@ korean = "마법과 정령력<end>"
 japanese = "すべて理解している<end>"
 korean = "모두 이해하고 있다<end>"
 
+["1370427"]
+japanese = "本当にすべて理解しているのだな？<end>"
+korean = "정말 전부 이해하고 있는 거지?<end>"
+
 ["1370428"]
 japanese = "説明してほしい<end>"
 korean = "설명해 줬으면 해<end>"
@@ -411,6 +415,10 @@ korean = "설명해 줬으면 해<end>"
 ["1370429"]
 japanese = "理解した<end>"
 korean = "이해했다<end>"
+
+["1370432"]
+japanese = "本当にすべて理解しているのだな？<end>"
+korean = "정말 전부 이해하고 있는 거지?<end>"
 
 ["1370433"]
 japanese = "理解した<end>"
@@ -695,6 +703,10 @@ korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
 ["1370671"]
 japanese = "こんにちは。<end>"
 korean = "안녕하세요.<end>"
+
+["1370683"]
+japanese = "はは。2人で散歩でもしてたのかい？<end>"
+korean = "하하. 둘이 산책이라도 했나?<end>"
 
 ["1370685"]
 japanese = "あ、ありがとう。<end>"

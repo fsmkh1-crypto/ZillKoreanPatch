@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1750000"]
+japanese = "ロッシマ（２）メッセージＶ１開始<end>"
+korean = "롯시마(2) 메시지 V1 시작<end>"
+
 ["1750005"]
 japanese = "<value:$28>ゆーんか。<line-break>わしはロッシマじゃ。<line-break>よろしくのう。<end>"
 korean = "<value:$28>라고 하는가. 나는 로시마다. 잘 부탁하네.<end>"
@@ -75,3 +79,7 @@ korean = "끼워 넣지 않는다<end>"
 ["1750065"]
 japanese = "はめ込む<end>"
 korean = "끼워 넣는다<end>"
+
+["1750084"]
+japanese = "ロッシマ（２）メッセージＶ１終端<end>"
+korean = "롯시마(2) 메시지 V1 끝<end>"

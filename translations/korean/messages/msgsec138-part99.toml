@@ -120,6 +120,10 @@ korean = "다행이다….<end>"
 japanese = "ナッジ…。<end>"
 korean = "나지….<end>"
 
+["1380179"]
+japanese = "お、俺だって、よくわかんねえよ！<end>"
+korean = "나, 나도 잘 모르겠어!<end>"
+
 ["1380188"]
 japanese = "さ、殺気っ？<end>"
 korean = "사, 살기?<end>"
@@ -223,6 +227,10 @@ korean = "아니, 이제 됐어. <value:$28>도 신경 쓰지 마….<end>"
 ["1380281"]
 japanese = "そう意固地になるなよ。<end>"
 korean = "그렇게 고집부리지 마.<end>"
+
+["1380286"]
+japanese = "ロイ、やはり俺はもう部屋へ戻る。<end>"
+korean = "로이, 역시 난 이제 방으로 돌아가겠다.<end>"
 
 ["1380295"]
 japanese = "追加メッセージここから<end>"

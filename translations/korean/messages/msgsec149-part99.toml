@@ -28,6 +28,10 @@ korean = "괜찮아?<end>"
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
 
+["1490036"]
+japanese = "な、なんだ？　どこへ行ったのだ？<end>"
+korean = "뭐, 뭐지? 어디로 간 거야?<end>"
+
 ["1490043"]
 japanese = "助ける<end>"
 korean = "돕는다<end>"
@@ -83,6 +87,10 @@ korean = "괜찮아?<end>"
 ["1490094"]
 japanese = "うわっ！<end>"
 korean = "우왓!<end>"
+
+["1490096"]
+japanese = "な、なんだ？　どこへ行ったのだ？<end>"
+korean = "뭐, 뭐지? 어디로 간 거야?<end>"
 
 ["1490103"]
 japanese = "…！<line-break>…貴様…何者だ？<end>"
@@ -247,6 +255,10 @@ korean = "도와주자<end>"
 ["1490299"]
 japanese = "放っておこう<end>"
 korean = "내버려 두자<end>"
+
+["1490307"]
+japanese = "僕が手を降せば一瞬だったのに…。<end>"
+korean = "내가 손을 썼다면 순식간이었을 텐데….<end>"
 
 ["1490310"]
 japanese = "君の名…、聞いておきたい。<end>"

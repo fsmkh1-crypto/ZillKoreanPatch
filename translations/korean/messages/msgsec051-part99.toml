@@ -20,6 +20,10 @@ korean = "하지만, 형!<end>"
 japanese = "わかってるさ。<end>"
 korean = "알고 있어.<end>"
 
+["510030"]
+japanese = "だから、お前を腕ずくで連れていく。<end>"
+korean = "그러니 널 힘으로라도 데려가겠다.<end>"
+
 ["510037"]
 japanese = "うん…<end>"
 korean = "응…<end>"
@@ -115,3 +119,7 @@ korean = "네<end>"
 ["510159"]
 japanese = "いいえ<end>"
 korean = "아니요<end>"
+
+["510168"]
+japanese = "ファーロス・ボリューム２その１終端<end>"
+korean = "파로스 볼륨2 그 1 끝<end>"
