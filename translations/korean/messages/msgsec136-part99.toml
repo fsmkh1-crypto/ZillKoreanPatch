@@ -248,6 +248,10 @@ korean = "자, 가자. 누나.<end>"
 japanese = "どうして…！<line-break>姉さん！<end>"
 korean = "어째서…! 언니!<end>"
 
+["1360307"]
+japanese = "…何をしている、<line-break>置いていくぞ。<end>"
+korean = "…뭐 하고 있나, 두고 간다.<end>"
+
 ["1360308"]
 japanese = "サイ…フォス…。<end>"
 korean = "사이… 포스….<end>"
@@ -283,6 +287,10 @@ korean = "자, 가자. 누나.<end>"
 ["1360323"]
 japanese = "どうして…！<line-break>姉さん！<end>"
 korean = "어째서…! 언니!<end>"
+
+["1360328"]
+japanese = "…何をしている、<line-break>置いていくぞ。<end>"
+korean = "…뭐 하고 있나, 두고 간다.<end>"
 
 ["1360329"]
 japanese = "忘却の仮面が…<line-break>外れた…。<end>"
@@ -359,6 +367,10 @@ korean = "…세라…인가?<end>"
 ["1360366"]
 japanese = "…ロイ。<line-break>いったか…。<end>"
 korean = "…로이. 갔나….<end>"
+
+["1360367"]
+japanese = "…これは、<line-break>お前が預かってくれ。<end>"
+korean = "…이건 네가 맡아 줘.<end>"
 
 ["1360371"]
 japanese = "<value:$28>様…。<end>"
