@@ -4,6 +4,10 @@
 japanese = "ノエル２用メッセージＶ４開始<end>"
 korean = "노엘2용 메시지 V4 시작<end>"
 
+["1420004"]
+japanese = "あ、あのふたりとも<line-break>落ち着いて…<end>"
+korean = "저, 두 분 다 진정하세요….<end>"
+
 ["1420007"]
 japanese = "堅実と言いなさい！　堅実と！<end>"
 korean = "착실하다고 해! 착실하다고!<end>"
@@ -75,6 +79,10 @@ korean = "…이걸로 괜찮았던 건가요?<end>"
 ["1420075"]
 japanese = "後ろ、向いてください。<end>"
 korean = "뒤돌아 주세요.<end>"
+
+["1420078"]
+japanese = "囚われたのは貴方？<line-break>それとも私？<end>"
+korean = "붙잡힌 건 당신? 아니면 나?<end>"
 
 ["1420079"]
 japanese = "追加メッセージここから<end>"
@@ -775,6 +783,10 @@ korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를…
 ["1420566"]
 japanese = "何！？<end>"
 korean = "뭐!?<end>"
+
+["1420567"]
+japanese = "…まさか！？<line-break>いえ…あの方なら…<end>"
+korean = "…설마!? 아니… 그분이라면….<end>"
 
 ["1420571"]
 japanese = "レ、レムオン様。<end>"

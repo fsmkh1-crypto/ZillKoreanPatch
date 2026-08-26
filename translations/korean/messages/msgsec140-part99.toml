@@ -412,6 +412,10 @@ korean = "흥… 나왔나.<end>"
 japanese = "シャリだな！？<line-break>どこだ！！<end>"
 korean = "샤리구나!? 어디냐!!<end>"
 
+["1400263"]
+japanese = "シャリ！！<line-break>どこだ！　姿を現せ！<end>"
+korean = "샤리!! 어디냐! 모습을 드러내라!<end>"
+
 ["1400287"]
 japanese = "お出ましだね…。<line-break>竜王…。<end>"
 korean = "나타났군…. 용왕….<end>"
@@ -467,6 +471,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1400319"]
 japanese = "あなたに問題はありません。<end>"
 korean = "당신에게 문제는 없습니다.<end>"
+
+["1400320"]
+japanese = "私の…内部に…<line-break>問題があるのです<end>"
+korean = "제… 내부에… 문제가 있습니다.<end>"
 
 ["1400323"]
 japanese = "<value:$28>さん。<line-break>来てくれたんですね…。<line-break>ありがとうございます。<end>"

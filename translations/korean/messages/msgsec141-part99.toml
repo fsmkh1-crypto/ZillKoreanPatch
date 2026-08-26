@@ -600,6 +600,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410531"]
+japanese = "た、助けてくれ～！<line-break>ひ、人殺し！<end>"
+korean = "사, 살려 줘~! 사, 살인자다!<end>"
+
 ["1410532"]
 japanese = "黙れ、この野郎！<end>"
 korean = "닥쳐, 이 자식아!<end>"
@@ -703,6 +707,10 @@ korean = "응, 물론 그럴 생각이지만.<end>"
 ["1410579"]
 japanese = "ああ…。<end>"
 korean = "아아….<end>"
+
+["1410584"]
+japanese = "めまいがいたします…。<line-break>ああ…。<end>"
+korean = "현기증이 납니다…. 아아….<end>"
 
 ["1410585"]
 japanese = "追加メッセージここから<end>"
