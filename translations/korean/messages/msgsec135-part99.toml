@@ -140,6 +140,10 @@ korean = "그, <value:$28>?<end>"
 japanese = "もう！<end>"
 korean = "정말!<end>"
 
+["1350128"]
+japanese = "おのれ、何者だ！？<line-break>ここに何しにきた！<end>"
+korean = "네놈, 누구냐!? 여긴 왜 왔지!<end>"
+
 ["1350131"]
 japanese = "ならば、死ね！<line-break>多くの人間のために！<end>"
 korean = "그렇다면 죽어라! 수많은 사람을 위해!<end>"
@@ -603,6 +607,10 @@ korean = "그럼 물건은 가져가겠다.잘 있어.<end>"
 ["1350364"]
 japanese = "ナイトメアの雫を奪われた。<end>"
 korean = "나이트메어의 물방울을 빼앗겼다.<end>"
+
+["1350365"]
+japanese = "ハァイ、ちょうどいいとこに来たわ、<line-break><value:$28>。<line-break>いよいよ、ロストールを攻略するわよ。<end>"
+korean = "하이, 마침 잘 왔어, <value:$28>. 이제 로스토올을 공략할 거야.<end>"
 
 ["1350368"]
 japanese = "それは、なぜなのです。<line-break>カルラ様。<end>"
