@@ -400,6 +400,10 @@ korean = "괜찮아? <value:$28>.<end>"
 japanese = "いったいなんなんだ？<line-break>あいつ…。<end>"
 korean = "대체 뭐야? 저 녀석….<end>"
 
+["370225"]
+japanese = "…あのときは、<line-break>ほんと、立ち直れないと思った。<line-break>今、ここまで立ち直れたのも<line-break>時が流れたってのも<line-break>あるんだろうけど…<end>"
+korean = "…그때는 정말 다시 일어설 수 없을 줄 알았어. 지금 이렇게까지 회복한 것도 시간이 흘렀기 때문이겠지만….<end>"
+
 ["370226"]
 japanese = "それよりも何よりも、<line-break><value:$28>が<line-break>そばにいてくれたおかげだよ。　<end>"
 korean = "무엇보다도 <value:$28>가 곁에 있어 준 덕분이야.<end>"

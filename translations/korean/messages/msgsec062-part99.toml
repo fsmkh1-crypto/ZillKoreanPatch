@@ -236,6 +236,10 @@ korean = "두목, 어디로 도망가 고브?<end>"
 japanese = "ちょ、ちょっと、待ちなさいよ！<end>"
 korean = "자, 잠깐, 기다려!<end>"
 
+["620100"]
+japanese = "ゴブゴブ団団員として<line-break>誇り高く死ぬ覚悟はできているゴブ。<line-break>　<line-break>煮て食うなり、焼いて食うなり、<line-break>好きにするゴブ！<end>"
+korean = "고브고브단 단원으로서 자랑스럽게 죽을 각오는 되어 있다 고브. 삶아 먹든 구워 먹든 마음대로 해라 고브!<end>"
+
 ["620101"]
 japanese = "ゴブリンなんて食べないわよ。<end>"
 korean = "고블린 같은 건 안 먹어.<end>"
@@ -500,6 +504,10 @@ korean = "(미사용)<end>"
 japanese = "きっと、そう、答えたんでしょうね…。<end>"
 korean = "분명 그렇게 대답했겠죠….<end>"
 
+["620254"]
+japanese = "あなたみたいなのでも<line-break>いてくれて、<line-break>正直、すごく安心したわ。　　<line-break>うん…あなたの背中見てると、<line-break>すごく安心した…。<end>"
+korean = "당신 같은 사람이라도 있어 줘서 솔직히 정말 안심했어. 응… 당신 등을 보고 있으면 정말 마음이 놓여….<end>"
+
 ["620260"]
 japanese = "…寝てるわ。<line-break>…相変わらず子供ねえ。<end>"
 korean = "…자고 있네. …여전히 애라니까.<end>"
@@ -599,6 +607,10 @@ korean = "…저, <value:$28>님을 기다려도 되는 건가요?<end>"
 ["620309"]
 japanese = "…ちゃんと答えてください。<line-break>私、<value:$28>さんを<line-break>信じていていいんですね？<end>"
 korean = "…제대로 대답해 주세요. 저, <value:$28>님을 믿어도 되는 거죠?<end>"
+
+["620311"]
+japanese = "あ、<value:$28>さん！ <line-break>帰ってきてくださったんですね。<line-break>嬉しいです！<line-break>今日もアイリーンさんは<line-break>ご一緒じゃないんですね。<end>"
+korean = "아, <value:$28>님! 돌아오셨군요. 기뻐요! 오늘도 아이린 씨는 함께가 아니시네요.<end>"
 
 ["620313"]
 japanese = "<value:$28>さんは<line-break>ロストールに帰ってきても　　　<line-break>おかしくないと思います。<end>"

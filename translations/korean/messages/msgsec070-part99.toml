@@ -188,6 +188,10 @@ korean = "예비 선택지 20<end>"
 japanese = "よぉ、<value:$28><line-break>邪魔していいか？<end>"
 korean = "여어, <value:$28>. 방해 좀 해도 될까?<end>"
 
+["700213"]
+japanese = "いやー、きれいだわ。<line-break>セラちゃんは、もう。　<line-break>　<line-break>きゃー、セラ様ー！<line-break>って感じかな。<line-break>いやー、かっこいいわ。<end>"
+korean = "이야, 예쁘네. 세라는 정말. 꺄아, 세라 님~! 이런 느낌인가. 이야, 멋있다.<end>"
+
 ["700218"]
 japanese = "イックショイ！！　ちくしょ！<line-break>うー、夜はさぶいやね～。<line-break>中、入んね？　<value:$28>。<end>"
 korean = "에취!! 젠장! 으으, 밤은 춥네~. 안에 들어갈래, <value:$28>?<end>"

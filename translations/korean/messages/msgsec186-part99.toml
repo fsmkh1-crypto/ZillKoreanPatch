@@ -128,6 +128,14 @@ korean = "하하, 이래 보여도 의외로 바쁜 몸이라서 말이야.<end>
 japanese = "じゃあな、<line-break>フリントさん、ルルアンタ、<line-break>それに<value:$28>。<end>"
 korean = "그럼 안녕, 플린트 씨, 루루안타, 그리고 <value:$28>.<end>"
 
+["1860076"]
+japanese = "ゼネテスさんもお気をつけて。　　<line-break>　<line-break>　<end>"
+korean = "제네테스 씨도 조심하세요.<end>"
+
+["1860077"]
+japanese = "あんたもな。<line-break>本当に、無茶をするんじゃないぜ。<end>"
+korean = "너도 말이야. 정말 무리하지 마.<end>"
+
 ["1860080"]
 japanese = "<value:$28>、待ちなさい。<line-break>　　　　　　　　　　　　　　　　<line-break>　<end>"
 korean = "<value:$28>, 기다리세요.<end>"
@@ -140,6 +148,10 @@ korean = "플린트의 단검을 손에 넣었다.<end>"
 japanese = "さぁ、それでは行こうか、　　　　<line-break><value:$28>。<line-break>　<line-break>短剣のこと、頼んだよ。<end>"
 korean = "자, 그럼 가자, <value:$28>. 단검 건은 부탁할게.<end>"
 
+["1860089"]
+japanese = "ん？　こ、これは…！！　　　　　<line-break>　<line-break>　<end>"
+korean = "응? 이, 이건…!!<end>"
+
 ["1860092"]
 japanese = "あぁ、ビックリしたぁ。<end>"
 korean = "아아, 깜짝 놀랐네.<end>"
@@ -151,6 +163,18 @@ korean = "…이번엔 단체인 모양이군. <value:$28>, 루루안타, 뒤로
 ["1860098"]
 japanese = "あぁーっ！<line-break>あんたたちぃ、この間のぉ！<end>"
 korean = "아앗! 너희들, 지난번 그 녀석들이잖아!<end>"
+
+["1860100"]
+japanese = "…どのようなご用件でしょう？　　<line-break>　<line-break>　<end>"
+korean = "…무슨 용건이십니까?<end>"
+
+["1860102"]
+japanese = "そのような物は存じ上げません。　<line-break>　<line-break>　<end>"
+korean = "그런 물건은 모릅니다.<end>"
+
+["1860107"]
+japanese = "子供たちに手出しはさせん！　　　<line-break>　<line-break>　<end>"
+korean = "아이들에게는 손대지 못하게 하겠다!<end>"
 
 ["1860109"]
 japanese = "<value:$28>、<line-break>こちらが終わったらすぐに行く！　<line-break>それまで持ちこたえてくれ！<end>"
@@ -236,6 +260,10 @@ korean = "알았다. 나머지는 맡아 두지.<end>"
 japanese = "…<value:$28>、<line-break>もう…ずっとそうしてるよ？<end>"
 korean = "…<value:$28>, 벌써… 계속 그러고 있잖아?<end>"
 
+["1860166"]
+japanese = "じゃあ、じゃあ<line-break>ルルアンタ、行ってくるからね。<end>"
+korean = "그럼, 그럼 루루안타 다녀올게!<end>"
+
 ["1860167"]
 japanese = "あー！<line-break>あの人、この前のぉ…！<end>"
 korean = "아! 그 사람, 지난번의…!<end>"
@@ -243,6 +271,10 @@ korean = "아! 그 사람, 지난번의…!<end>"
 ["1860171"]
 japanese = "なんだぁ。まだふさぎ込んでるのか？<end>"
 korean = "뭐야. 아직도 풀이 죽어 있는 거야?<end>"
+
+["1860183"]
+japanese = "ケガをされたお客様の　　<line-break>具合はいかがですか？<end>"
+korean = "다치신 손님의 상태는 어떻습니까?<end>"
 
 ["1860184"]
 japanese = "旅立ち・Messenger<line-break>予備メッセージの４だよぉ。<end>"

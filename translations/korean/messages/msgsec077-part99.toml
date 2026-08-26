@@ -92,6 +92,10 @@ korean = "네…? 또 밖으로… 가시는 건가요? 하지만… 지난번�
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
 
+["770040"]
+japanese = "わかりました…。<line-break>一緒に連れていってください。<end>"
+korean = "알겠습니다…. 함께 데려가 주세요.<end>"
+
 ["770041"]
 japanese = "すみません。<line-break>何時間も考え込んでしまって…。<line-break>でも、決心がつかなくて…。<line-break>お願い…します。<end>"
 korean = "죄송합니다. 몇 시간이나 고민했는데…. 그래도 결심이 서지 않아서…. 부탁…드릴게요.<end>"
@@ -219,6 +223,10 @@ korean = "돈은 괜찮으니까, 저기….<end>"
 ["770106"]
 japanese = "…ん？　なんだい。　　　　　　<line-break>　<line-break>　<end>"
 korean = "…응? 뭐지.<end>"
+
+["770107"]
+japanese = "この…メニューを<line-break>いただけませんでしょうか…。<end>"
+korean = "이… 메뉴를 받을 수 있을까요….<end>"
 
 ["770114"]
 japanese = "その前に睡眠をとらないと<end>"

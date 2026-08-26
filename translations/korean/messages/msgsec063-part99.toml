@@ -80,6 +80,14 @@ korean = "네엣!!<end>"
 japanese = "へぇ…、ティアナ王女にね。<end>"
 korean = "헤에…, 티아나 왕녀에게 말이지.<end>"
 
+["630057"]
+japanese = "手がないこともない。　　　<line-break>　<line-break>　<line-break>ロストール城の城門近くに<line-break>秘密通路があるって噂を<line-break>聞いたことがある。<end>"
+korean = "방법이 아주 없는 건 아니야. 로스토올 성문 근처에 비밀 통로가 있다는 소문을 들은 적이 있어.<end>"
+
+["630058"]
+japanese = "その通路は、<line-break>普通に探していたら<line-break>扉さえ見つけられないんだが、<line-break>この銀竜の首飾りを使えば<line-break>見つけられるらしい。<end>"
+korean = "그 통로는 보통 찾아서는 문조차 발견할 수 없지만, 이 은룡의 목걸이를 쓰면 찾을 수 있다더군.<end>"
+
 ["630060"]
 japanese = "大丈夫ですか？<line-break>無理はしないでくださいね。<end>"
 korean = "괜찮으세요? 무리하지 마세요.<end>"
@@ -315,6 +323,10 @@ korean = "티아나 님, 오늘은 한층 더 빛나시는군요.<end>"
 ["630166"]
 japanese = "ふふふ…、レムオン様ったら。<end>"
 korean = "후후후…, 레므온 님도 참.<end>"
+
+["630171"]
+japanese = "バカな。<line-break>ティアナを利用できるものなら、<line-break>とっくに利用している。<line-break>お望みならば、人質として<line-break>ここから連れ去ろうか？<end>"
+korean = "말도 안 돼. 티아나를 이용할 수 있었다면 벌써 이용했을 거다. 원한다면 인질로 여기서 데려가 줄까?<end>"
 
 ["630173"]
 japanese = "仰せのとおりだ。<line-break>では、そろそろ失礼する。<end>"

@@ -212,6 +212,10 @@ korean = "아무것도 아니야. 그냥 각오가 필요하다는 뜻이야.<en
 japanese = "なんだよ！<line-break>キミ、何様のつもり！？<end>"
 korean = "뭐야! 너, 뭐라도 되는 줄 알아!?<end>"
 
+["690152"]
+japanese = "フッ…、自分が何者なのか<line-break>わかっている人間などいない。<line-break>　<line-break>だが、お前が<line-break>何者かは教えてやる。<line-break>役立たずだ。<end>"
+korean = "흥…. 자신이 무엇인지 아는 인간은 없어. 하지만 네가 무엇인지는 알려 주지. 쓸모없는 녀석이다.<end>"
+
 ["690153"]
 japanese = "放せ！　放せしてよ！<line-break><value:$28>！<end>"
 korean = "놔! 놓으라고! <value:$28>!<end>"

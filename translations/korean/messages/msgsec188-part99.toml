@@ -40,6 +40,10 @@ korean = "<value:$28>, 뭐 하고 있어? 빨리 가자.<end>"
 japanese = "ちょっと、<value:$28>、<line-break>なにしてんの？　早く行こうよ。　<line-break>　<line-break>まさか、ネコババしようってんじゃ<line-break>ないよね？<end>"
 korean = "잠깐, <value:$28>, 뭐 하는 거야? 빨리 가자. 설마 슬쩍 챙기려는 건 아니지?<end>"
 
+["1880030"]
+japanese = "それではさっそく<line-break>取りにゆかねばなりませんね。<end>"
+korean = "그럼 바로 가지러 가야겠군요.<end>"
+
 ["1880032"]
 japanese = "わかりました。それではさっそく！<end>"
 korean = "알겠습니다. 그럼 바로!<end>"

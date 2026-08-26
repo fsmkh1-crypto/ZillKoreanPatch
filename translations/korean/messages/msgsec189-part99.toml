@@ -108,6 +108,10 @@ korean = "아무튼 지금은 고양이 저택으로 돌아가죠.<end>"
 japanese = "そ、そんな…！<line-break>私に…、私にできることは？<end>"
 korean = "그, 그럴 수가…! 내가… 내가 할 수 있는 일은?<end>"
 
+["1890096"]
+japanese = "これはネメアの戦いです。<line-break>手出しはできません。<end>"
+korean = "이건 네메아의 싸움입니다. 손댈 수 없습니다.<end>"
+
 ["1890097"]
 japanese = "兄さん…。<end>"
 korean = "형….<end>"
@@ -211,6 +215,10 @@ korean = "아무래도 이 녀석을 되살린 자가 이 앞에 있는 모양�
 ["1890153"]
 japanese = "ゆくぞ、<value:$28>！<end>"
 korean = "간다, <value:$28>!<end>"
+
+["1890154"]
+japanese = "…ケリュネイア。<line-break>どこまでついてくるつもりだ？<end>"
+korean = "…케류네이아. 어디까지 따라올 생각이지?<end>"
 
 ["1890156"]
 japanese = "ケリュネイア。<line-break>お前はここに残れ。<end>"

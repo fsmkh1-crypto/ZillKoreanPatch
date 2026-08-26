@@ -20,6 +20,10 @@ korean = "음, 성배를 노리는 나쁜 인간 고브!<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["720016"]
+japanese = "オルナット！　何をするゴブ！<line-break>そこを退くゴブ！<end>"
+korean = "오르나트! 뭐 하는 거냐 고브! 비켜라 고브!<end>"
+
 ["720018"]
 japanese = "あんな聖杯がなくても<line-break>幸せにはなれるゴブ！！<end>"
 korean = "그런 성배가 없어도 행복해질 수 있다 고브!!<end>"
@@ -63,6 +67,10 @@ korean = "세라…, 세라…인가…?<end>"
 ["720047"]
 japanese = "…ロイ、なのだな。<end>"
 korean = "…로이, 맞구나.<end>"
+
+["720049"]
+japanese = "しかし、私は今、あの女のもとを抜け、<line-break>お前たちを探していたのだ。<line-break>一緒に旅をしようと思ってな。<line-break>セラ、…会いたかったぞ。<end>"
+korean = "하지만 나는 지금 그 여자 곁을 떠나 너희를 찾고 있었다. 함께 여행하려고 말이지. 세라… 만나고 싶었다.<end>"
 
 ["720051"]
 japanese = "…お前…なのだな。<end>"
@@ -167,6 +175,10 @@ korean = "………………. 음…. …아!<end>"
 ["720110"]
 japanese = "ねえ、ちょっと。<line-break><value:$28>…。<end>"
 korean = "저기, 잠깐. <value:$28>….<end>"
+
+["720111"]
+japanese = "…いえ。<line-break>これ以上巻き込まない方が…。<line-break>ここで別れた方がお互いのためね。<line-break>聖杯は、私ひとりで<line-break>取り返してみせる…！<end>"
+korean = "…아니요. 더 이상 끌어들이지 않는 편이…. 여기서 헤어지는 게 서로를 위해 좋아. 성배는 나 혼자 되찾겠어…!<end>"
 
 ["720112"]
 japanese = "さよなら、<value:$28>。<line-break>元気でね。<end>"

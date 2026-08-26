@@ -260,6 +260,10 @@ korean = "호출<end>"
 japanese = "まさか、ネメア様が　　　<line-break>戻ってこないなんてね。<line-break>　<line-break>死んだとは思えないけど、<line-break>何かあったのは確かね。<end>"
 korean = "설마 네메아 님이 돌아오지 않을 줄이야. 죽었다고는 생각하지 않지만 뭔가 생긴 건 확실해.<end>"
 
+["1800146"]
+japanese = "申し訳ありません。<line-break>私がもたついたばかりに…！<end>"
+korean = "죄송합니다. 제가 꾸물거리는 바람에…!<end>"
+
 ["1800148"]
 japanese = "ともかく、<value:$28>。<line-break>あんたのおかげで、<line-break>助かったわ。ありがと。　　<end>"
 korean = "아무튼, <value:$28>. 네 덕분에 살았어. 고마워.<end>"
