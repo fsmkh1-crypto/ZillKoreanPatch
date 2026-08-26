@@ -108,6 +108,10 @@ korean = "묻고 싶은 게 있으면 답해 드릴게요.<end>"
 japanese = "団長までそれゴブか！<line-break>ひどいゴブ！<end>"
 korean = "단장까지 그러는 거냐고브! 너무하다고브!<end>"
 
+["690086"]
+japanese = "失礼するゴブ。<line-break>この酒場は食事もできるゴブか？<end>"
+korean = "실례한다 고브. 이 술집은 식사도 할 수 있다 고브?<end>"
+
 ["690088"]
 japanese = "じゃあ、適当に何か<line-break>運んできてほしいゴブ。<end>"
 korean = "그럼 적당히 뭔가 가져와 줬으면 한다 고브.<end>"
@@ -115,6 +119,10 @@ korean = "그럼 적당히 뭔가 가져와 줬으면 한다 고브.<end>"
 ["690091"]
 japanese = "あ、<value:$28>、<line-break>ここにいたの。<end>"
 korean = "아, <value:$28>, 여기 있었구나.<end>"
+
+["690098"]
+japanese = "なぜゴブ！　なぜ、ガサツ女は<line-break>現れないゴブ！！<end>"
+korean = "왜 고브! 왜 거친 여자는 나타나지 않는 고브!!<end>"
 
 ["690101"]
 japanese = "親分、アレって何でゴブ？<end>"
@@ -131,6 +139,10 @@ korean = "뭐? 말하는 고블린? 음, 그런 소문은 들었지만 실제로
 ["690109"]
 japanese = "団長、何を騒いでいるゴブ？<end>"
 korean = "단장, 뭘 그렇게 떠드는 거야 고브?<end>"
+
+["690112"]
+japanese = "聖杯は渡さないゴブ！<line-break>ゴブゴブ団、撤退ゴブ～！<end>"
+korean = "성배는 못 준다 고브! 고브고브단, 철수 고브~!<end>"
 
 ["690114"]
 japanese = "団長！　あいつゴブ！<end>"
@@ -171,6 +183,10 @@ korean = "…<value:$28>, 인가.발목은 잡지 마라.<end>"
 ["690139"]
 japanese = "…くそっ！<end>"
 korean = "…젠장!<end>"
+
+["690141"]
+japanese = "どきなさいよ！<line-break>あなたがバカにされているのよ！<end>"
+korean = "비켜! 네가 무시당하고 있잖아!<end>"
 
 ["690144"]
 japanese = "ずいぶんな言いようだな。<end>"

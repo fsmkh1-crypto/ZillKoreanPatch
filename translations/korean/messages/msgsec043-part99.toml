@@ -248,6 +248,10 @@ korean = "(나는 여기로 돌아올 수 없어…)<end>"
 japanese = "まったく話にならん！<end>"
 korean = "전혀 말이 안 통하는군!<end>"
 
+["430146"]
+japanese = "しかし、宮廷で才覚のある人間が、<line-break>雌狐ひとりというのもお寒い話だ。<line-break>　<line-break>このままではロストールも<line-break>長くないぞ。<end>"
+korean = "하지만 궁정에 재능 있는 인간이 암여우 하나뿐이라는 것도 한심한 얘기군. 이대로라면 로스토올도 오래 못 가.<end>"
+
 ["430147"]
 japanese = "<value:$28>、世界を見ろ。<end>"
 korean = "<value:$28>, 세상을 봐라.<end>"

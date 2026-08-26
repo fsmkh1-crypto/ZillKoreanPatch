@@ -4,6 +4,10 @@
 japanese = "エルファス　ボリューム２　開始<end>"
 korean = "엘파스 볼륨2 시작<end>"
 
+["1510007"]
+japanese = "そんな、誤解です！　　　　　　<line-break>　<line-break>　<end>"
+korean = "그런, 오해입니다!<end>"
+
 ["1510010"]
 japanese = "な、な、な。　　　　　　　　　　<line-break>　<line-break>　<end>"
 korean = "뭐, 뭐, 뭐….<end>"
@@ -11,6 +15,14 @@ korean = "뭐, 뭐, 뭐….<end>"
 ["1510012"]
 japanese = "わぁ…、すごい！<end>"
 korean = "와아…, 대단해!<end>"
+
+["1510013"]
+japanese = "…神よ、感謝します！　　　　　<line-break>　<line-break>　<end>"
+korean = "…신이여, 감사합니다!<end>"
+
+["1510019"]
+japanese = "だ、だんな様。<line-break>宝石、ございました。　　　　<end>"
+korean = "주, 주인님. 보석이 있었습니다.<end>"
 
 ["1510020"]
 japanese = "ヤジ馬は消えろ！　見せ物じゃない！<end>"

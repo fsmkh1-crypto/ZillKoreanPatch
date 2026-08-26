@@ -8,6 +8,10 @@ korean = "아무래도 이 <value:$15>은 <value:$16>에 숨어 있는 모양이
 japanese = "街の近くに住みついている<value:$15>を<line-break>退治してほしい。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内に排除してほしい。<end>"
 korean = "마을 근처에 눌러앉은 <value:$15>을 퇴치해 주길 바란다. 보수는 <value:$1A>기아. <value:$1B>일 안에 제거해 줘.<end>"
 
+["220041"]
+japanese = "戦士たちよ、<value:$15>を征伐し、<line-break>再びこの地に安寧をもたらしたまえ。<line-break>期限は<value:$1B>日以内。<line-break>報酬は<value:$1A>ギアである。<end>"
+korean = "전사들이여, <value:$15>을 토벌하여 다시 이 땅에 평안을 가져오라. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기아다.<end>"
+
 ["220073"]
 japanese = "ラドラス１<end>"
 korean = "라드라스1<end>"

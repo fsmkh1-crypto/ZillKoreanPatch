@@ -4,6 +4,10 @@
 japanese = "アトレイア　ボリューム３～開始<end>"
 korean = "아트레이아 볼륨3 시작<end>"
 
+["760001"]
+japanese = "<value:$28>…。<line-break>無限のソウルの持ち主…。<line-break>　<line-break>君が生きていてくれて<line-break>僕は嬉しいよ。<line-break>フフッ、ホントさ。<end>"
+korean = "<value:$28>…. 무한의 소울을 지닌 자…. 네가 살아 있어 줘서 기뻐. 후후, 진심이야.<end>"
+
 ["760011"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"

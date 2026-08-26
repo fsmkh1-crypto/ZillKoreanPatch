@@ -112,6 +112,10 @@ korean = "아뇨, 아무것도 아닙니다.<end>"
 japanese = "そうか、ならば行こう。<end>"
 korean = "그런가, 그럼 가자.<end>"
 
+["1340056"]
+japanese = "この空洞に星のようにまたたく光、<line-break>これがすべて、聖光石なのか…？<line-break>　<line-break>すばらしい。<line-break>なんとすばらしいのだ…。<end>"
+korean = "이 공동에 별처럼 반짝이는 빛, 이게 전부 성광석인가…? 훌륭하다. 정말 훌륭하군….<end>"
+
 ["1340068"]
 japanese = "…<value:$28>君…。<line-break>私を…殺してくれたまえ。<end>"
 korean = "…<value:$28>군…. 나를… 죽여 주게.<end>"
@@ -1231,6 +1235,10 @@ korean = "10000기아를 지원한다<end>"
 ["1340657"]
 japanese = "援助しない<end>"
 korean = "지원하지 않는다<end>"
+
+["1340658"]
+japanese = "ありがとうございます、<line-break><value:$28>様。<line-break> <line-break>ロストールの建て直しのために、<line-break>有意義に使わせていただきますわ。<end>"
+korean = "감사합니다, <value:$28>님. 로스토올 재건을 위해 뜻깊게 사용하겠습니다.<end>"
 
 ["1340661"]
 japanese = "立ち去らない<end>"

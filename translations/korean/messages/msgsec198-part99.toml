@@ -104,6 +104,10 @@ korean = "뭐!?<end>"
 japanese = "<value:$28>さん…。<line-break>ほ、本当に探すんですか？<end>"
 korean = "<value:$28>님…. 저, 정말 찾으실 건가요?<end>"
 
+["1980064"]
+japanese = "バッカじゃないの！<line-break>　<line-break>　<line-break>世界中どこを探したって<line-break>そんなくだらない魔道器<line-break>見つかるわけないでしょぉ！<end>"
+korean = "바보 아니야! 세상 어디를 뒤져도 그런 시시한 마도기는 나올 리 없잖아!<end>"
+
 ["1980066"]
 japanese = "早く流れ星を見つけて<line-break>お願いしなくっちゃ。<line-break>　<line-break>私のウソが<value:$28>さんに<line-break>バレないように…。<end>"
 korean = "빨리 별똥별을 찾아서 소원을 빌어야 해. 내 거짓말을 <value:$28>님이 눈치채지 않게….<end>"
@@ -188,6 +192,10 @@ korean = "꼭 그래야 해?<end>"
 japanese = "呪文に詳しい方を<line-break>ご存じなんですか？<line-break>　<line-break>古代遺跡を調べている<line-break>考古学者のエストさん…。<end>"
 korean = "주문에 밝은 분을 아세요? 고대 유적을 조사하는 고고학자 에스트 씨….<end>"
 
+["1980141"]
+japanese = "ほら、ここ。<line-break>このフライパンみたいな絵と、<line-break>この呪文…。<line-break>まさしく、その魔道器のことが<line-break>記されているんだよ。<end>"
+korean = "봐, 여기. 이 프라이팬 같은 그림과 이 주문…. 틀림없이 그 마도기에 대해 적혀 있어.<end>"
+
 ["1980147"]
 japanese = "じゃ、あとは僕に任せて。<line-break>みんな下がってて…。<end>"
 korean = "그럼 나머지는 내게 맡겨. 다들 물러나 있어….<end>"
@@ -223,6 +231,10 @@ korean = "저, 저는…. 저는…. 흐윽…. 흑….<end>"
 ["1980158"]
 japanese = "あっ、<value:$28>さん…。<end>"
 korean = "앗, <value:$28> 씨….<end>"
+
+["1980159"]
+japanese = "ええ。そうですね。<line-break>私もエストさんから聞きました。<line-break>　<line-break>形こそ似ているけど、<line-break>あれはフライパンじゃないって。<end>"
+korean = "네, 그렇네요. 저도 에스트 씨에게 들었습니다. 모양은 비슷하지만 저건 프라이팬이 아니라고요.<end>"
 
 ["1980161"]
 japanese = "えっ？　どうしてって…それは…。<end>"
