@@ -16,6 +16,10 @@ korean = "후후, 오랜만이군.<end>"
 japanese = "ふっふ、久しいな。<end>"
 korean = "후후, 오랜만이군.<end>"
 
+["1900092"]
+japanese = "じゃあね、<value:$28>。<end>"
+korean = "그럼 안녕, <value:$28>.<end>"
+
 ["1900115"]
 japanese = "ネメア様！<end>"
 korean = "네메아 님!<end>"

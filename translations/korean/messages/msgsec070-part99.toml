@@ -8,6 +8,10 @@ korean = "도움을 받는다<end>"
 japanese = "手伝ってもらわない<end>"
 korean = "도움받지 않는다<end>"
 
+["700008"]
+japanese = "<value:$28>、ね。<line-break>よろしく、<value:$28>。<end>"
+korean = "<value:$28>, 그렇지. 잘 부탁해, <value:$28>.<end>"
+
 ["700016"]
 japanese = "手伝ってもらう<end>"
 korean = "도움을 받는다<end>"

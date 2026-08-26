@@ -96,6 +96,10 @@ korean = "…살아 있었군.<end>"
 japanese = "お前の名は？<end>"
 korean = "네 이름은?<end>"
 
+["320094"]
+japanese = "あっ、<value:$28>様じゃ。<end>"
+korean = "앗, <value:$28> 님이구나.<end>"
+
 ["320108"]
 japanese = "…来い。<end>"
 korean = "…와.<end>"

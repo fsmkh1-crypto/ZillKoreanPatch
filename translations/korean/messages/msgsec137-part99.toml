@@ -36,6 +36,10 @@ korean = "아름다움<end>"
 japanese = "よくわからない<end>"
 korean = "잘 모르겠어<end>"
 
+["1370103"]
+japanese = "おや、<value:$28>かい。<end>"
+korean = "어라, <value:$28>인가.<end>"
+
 ["1370105"]
 japanese = "わかります<end>"
 korean = "알겠습니다<end>"
@@ -271,6 +275,10 @@ korean = "<value:$28>인가.<end>"
 ["1370461"]
 japanese = "だ、だって…。<end>"
 korean = "하, 하지만….<end>"
+
+["1370480"]
+japanese = "<value:$28>、頼んだぜ。<end>"
+korean = "<value:$28>, 부탁한다.<end>"
 
 ["1370495"]
 japanese = "お願いする<end>"

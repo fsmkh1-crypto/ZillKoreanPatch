@@ -76,6 +76,10 @@ korean = "여어, 와줬구나.<end>"
 japanese = "おもしろそうね<end>"
 korean = "재미있겠네<end>"
 
+["420186"]
+japanese = "…<value:$28>さん。<line-break>　<line-break>　<end>"
+korean = "…<value:$28> 씨.<end>"
+
 ["420210"]
 japanese = "猫がしゃべった！<end>"
 korean = "고양이가 말했다!<end>"

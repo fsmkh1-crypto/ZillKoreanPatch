@@ -36,6 +36,10 @@ korean = "좋아, 시작한다.<end>"
 japanese = "…よし！<end>"
 korean = "…좋아!<end>"
 
+["340045"]
+japanese = "<value:$28>、大丈夫か！？<end>"
+korean = "<value:$28>, 괜찮아!?<end>"
+
 ["340046"]
 japanese = "くっ、こんなときに。<end>"
 korean = "큭, 이럴 때에.<end>"

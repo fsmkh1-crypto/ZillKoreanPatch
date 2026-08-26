@@ -124,6 +124,10 @@ korean = "하지만… 그만뒀어.<end>"
 japanese = "うん…。そうだね。<end>"
 korean = "응…. 그렇네.<end>"
 
+["1380301"]
+japanese = "…待って、<value:$28>。<end>"
+korean = "…기다려, <value:$28>.<end>"
+
 ["1380311"]
 japanese = "うわーん！<end>"
 korean = "으아앙!<end>"

@@ -64,6 +64,10 @@ korean = "어?<end>"
 japanese = "誰？<end>"
 korean = "누구?<end>"
 
+["840137"]
+japanese = "<value:$28>、ね。<line-break>そんじゃね、<value:$28>。<end>"
+korean = "<value:$28>, 그렇지. 그럼 안녕, <value:$28>.<end>"
+
 ["840184"]
 japanese = "お待たせー！<end>"
 korean = "기다렸지!<end>"

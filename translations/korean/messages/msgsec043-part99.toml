@@ -52,6 +52,10 @@ korean = "사고사입니다.<end>"
 japanese = "女にですと！？<end>"
 korean = "여자한테라고요!?<end>"
 
+["430072"]
+japanese = "<if><value:$29><equal>%0弟？<end>妹？<end>"
+korean = "<if><value:$29><equal>%0남동생?<end>여동생?<end>"
+
 ["430084"]
 japanese = "…ふん、ぬけぬけと。<end>"
 korean = "…흥, 뻔뻔하게.<end>"
@@ -75,6 +79,10 @@ korean = "지금은 입을 다문다<end>"
 ["430143"]
 japanese = "まったく話にならん！<end>"
 korean = "전혀 말이 안 통하는군!<end>"
+
+["430147"]
+japanese = "<value:$28>、世界を見ろ。<end>"
+korean = "<value:$28>, 세상을 봐라.<end>"
 
 ["430151"]
 japanese = "…賊か。<line-break>　<end>"

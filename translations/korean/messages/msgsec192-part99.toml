@@ -4,6 +4,10 @@
 japanese = "私の、<value:$28>…。<end>"
 korean = "나의, <value:$28>….<end>"
 
+["1920003"]
+japanese = "<value:$28>、起きて…。<end>"
+korean = "<value:$28>, 일어나…<end>"
+
 ["1920018"]
 japanese = "うぅ…参った。<end>"
 korean = "으으… 졌어.<end>"
