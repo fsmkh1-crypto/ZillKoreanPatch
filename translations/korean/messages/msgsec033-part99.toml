@@ -4,6 +4,10 @@
 japanese = "旅立ち０６メッセージ<end>"
 korean = "여행 출발 06 메시지<end>"
 
+["330006"]
+japanese = "またぁ？<line-break>しょうがないんだからぁ！<end>"
+korean = "또야? 정말 어쩔 수 없다니까!<end>"
+
 ["330014"]
 japanese = "ふぅーん。<end>"
 korean = "흐~응.<end>"
@@ -19,6 +23,10 @@ korean = "어이 어이, 루루안타….<end>"
 ["330021"]
 japanese = "フリントさんは黙ってて！<end>"
 korean = "플린트 씨는 조용히 해!<end>"
+
+["330027"]
+japanese = "復活の真珠ですね。<line-break>はい、どうぞ。<end>"
+korean = "부활의 진주군요. 네, 여기요.<end>"
 
 ["330028"]
 japanese = "次はロストールですってね？<end>"

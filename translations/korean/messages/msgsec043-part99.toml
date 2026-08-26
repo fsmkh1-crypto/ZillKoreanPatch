@@ -236,6 +236,10 @@ korean = "<value:$28> 맞지? 그럼 또 만날 수 있으면 좋겠다, <value:
 japanese = "そうだ、君の名前を聞いてもいい？<end>"
 korean = "그래, 네 이름을 물어봐도 될까?<end>"
 
+["430216"]
+japanese = "ね、君の名前、<line-break>聞いてもいいかな？<end>"
+korean = "저기, 네 이름 물어봐도 될까?<end>"
+
 ["430217"]
 japanese = "<value:$28>だね？<line-break>じゃ、また会えるといいね、<line-break><value:$28>。<end>"
 korean = "<value:$28> 맞지? 그럼 또 만날 수 있으면 좋겠다, <value:$28>.<end>"

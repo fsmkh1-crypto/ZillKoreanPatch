@@ -4,6 +4,10 @@
 japanese = "旅立ち０４メッセージ<end>"
 korean = "여행 출발 04 메시지<end>"
 
+["310008"]
+japanese = "ひっ、ひいい！<line-break>お、おぼえてろよ！<end>"
+korean = "히, 히익! 두, 두고 봐라!<end>"
+
 ["310012"]
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
@@ -192,6 +196,10 @@ korean = "마음에 안 드는군.<end>"
 japanese = "な、何者だ！！<end>"
 korean = "누, 누구냐!!<end>"
 
+["310168"]
+japanese = "何者か知れば、<line-break>きっと後悔するぞ。<end>"
+korean = "내가 누군지 알면 분명 후회할 거다.<end>"
+
 ["310169"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
@@ -267,6 +275,10 @@ korean = "(차카….)<end>"
 ["310219"]
 japanese = "に、逃げろ！！<end>"
 korean = "도, 도망쳐!!<end>"
+
+["310222"]
+japanese = "そ、それって、<line-break>どういうことだよ！<end>"
+korean = "그, 그게 무슨 뜻이야!<end>"
 
 ["310227"]
 japanese = "えっ！？<end>"
