@@ -100,6 +100,10 @@ korean = "그렇습니까.<end>"
 japanese = "よ、<value:$28>、<line-break>困りごとかい？<end>"
 korean = "여어, <value:$28>. 무슨 고민이라도 있어?<end>"
 
+["1800078"]
+japanese = "ま、いいってことよ。<line-break>じゃあな。<end>"
+korean = "뭐, 됐어. 그럼 이만.<end>"
+
 ["1800099"]
 japanese = "あの…、カルラ様。<end>"
 korean = "저기…, 카를라 님.<end>"

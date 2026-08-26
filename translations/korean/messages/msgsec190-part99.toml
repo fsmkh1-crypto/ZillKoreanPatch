@@ -16,6 +16,10 @@ korean = "봐, 왔어. <value:$28>가.<end>"
 japanese = "ふっふ、久しいな。<end>"
 korean = "후후, 오랜만이군.<end>"
 
+["1900040"]
+japanese = "ザギヴめ…。<line-break>闇を退けおったか！<end>"
+korean = "자기브 녀석…. 어둠을 물리친 건가!<end>"
+
 ["1900048"]
 japanese = "ふっふ、久しいな。<end>"
 korean = "후후, 오랜만이군.<end>"
@@ -71,6 +75,10 @@ korean = "쓸데없는 걱정을 끼쳤군. 용서해라.<end>"
 ["1900118"]
 japanese = "いえ、生きていてさえくだされば。<end>"
 korean = "아니요, 살아 계시기만 한다면.<end>"
+
+["1900120"]
+japanese = "わかりました。<line-break>死守いたします。<end>"
+korean = "알겠습니다. 목숨 걸고 지키겠습니다.<end>"
 
 ["1900121"]
 japanese = "頼むぞ、<value:$28>。<end>"

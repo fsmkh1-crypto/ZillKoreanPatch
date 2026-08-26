@@ -104,9 +104,17 @@ korean = "고마워. …기뻐.<end>"
 japanese = "だから、<value:$28>。<line-break>これからも、わたくしの<line-break>そばにいて…。<end>"
 korean = "그러니 <value:$28>. 앞으로도 제 곁에 있어 주세요….<end>"
 
+["1920117"]
+japanese = "失礼します、陛下。<line-break>　<line-break>　<end>"
+korean = "실례하겠습니다, 폐하.<end>"
+
 ["1920118"]
 japanese = "お入りなさい。<end>"
 korean = "들어오세요.<end>"
+
+["1920121"]
+japanese = "かしこまりました。<line-break>　<line-break>　<end>"
+korean = "알겠습니다.<end>"
 
 ["1920125"]
 japanese = "お願いします。<end>"
