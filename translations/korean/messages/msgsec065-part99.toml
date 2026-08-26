@@ -168,6 +168,10 @@ korean = "웃기는 농담이군.<end>"
 japanese = "…それはできんな。<end>"
 korean = "…그건 할 수 없군.<end>"
 
+["650081"]
+japanese = "女が出しゃばるのは<line-break>好きではありません。<line-break>　<line-break>特にお母様みたいに<line-break>出しゃばるのは…。<line-break>それに…。<end>"
+korean = "여자가 나서는 건 좋아하지 않습니다. 특히 어머니처럼 나서는 건…. 그리고….<end>"
+
 ["650082"]
 japanese = "どうする、<value:$28>？<line-break>　<line-break>　<line-break>お前、いつも<line-break>男なんかには負けないと<line-break>言い張っているではないか。<end>"
 korean = "어쩔 거냐, <value:$28>? 너는 늘 남자 따위에게는 안 진다고 우기잖아.<end>"

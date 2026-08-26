@@ -24,6 +24,10 @@ korean = "샤리의 의뢰는 받을 수 없다<end>"
 japanese = "…返す言葉もない<end>"
 korean = "…할 말이 없군<end>"
 
+["760025"]
+japanese = "どうやら、私たちは<line-break>一杯食わされたようだな。<end>"
+korean = "아무래도 우리가 한 방 먹은 모양이군.<end>"
+
 ["760026"]
 japanese = "なんですって？<end>"
 korean = "뭐라고요?<end>"
@@ -175,6 +179,10 @@ korean = "아, 또 왔어? 의외로 <value:$28>도 성급하네.<end>"
 ["760093"]
 japanese = "やあ、<value:$28>。<line-break>またあえると思ってたよ。<end>"
 korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
+
+["760097"]
+japanese = "じゃ、頼んだからね。<line-break>色惑の瞳、よろしく～。<end>"
+korean = "그럼 부탁할게. 색혹의 눈동자, 잘 부탁해~.<end>"
 
 ["760100"]
 japanese = "じゃ、頼むからね、ホントに。<end>"

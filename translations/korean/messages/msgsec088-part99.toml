@@ -4,6 +4,10 @@
 japanese = "エステルメッセージVOL1開始<end>"
 korean = "에스텔 메시지 VOL1 시작<end>"
 
+["880001"]
+japanese = "ちぇっ、ちょっと見せてくれても<line-break>いいのにな。<end>"
+korean = "쳇, 조금 보여 줘도 되잖아.<end>"
+
 ["880007"]
 japanese = "じゃあね、<line-break>………………。<end>"
 korean = "그럼 안녕, ……………….<end>"
@@ -75,6 +79,10 @@ korean = "아야야! 젠장!<end>"
 ["880054"]
 japanese = "…？<line-break>会っておきたい人？<end>"
 korean = "…? 만나두고 싶은 사람?<end>"
+
+["880055"]
+japanese = "と、ともかく、<line-break>もうしばらく自由にさせてよ！<end>"
+korean = "아, 아무튼 조금만 더 자유롭게 있게 해 줘!<end>"
 
 ["880056"]
 japanese = "だめです。<line-break>逃がしませんよ！<end>"
@@ -348,6 +356,10 @@ korean = "그만둘까<end>"
 japanese = "　　　　　　　ならば行くがよい。　　　　　　<end>"
 korean = "그렇다면 가라.<end>"
 
+["880237"]
+japanese = "わかったよ。<line-break>キミが決めたことには従うよ…。<end>"
+korean = "알았어. 네가 정한 일이라면 따를게….<end>"
+
 ["880240"]
 japanese = "愚かなり、地の巫女よ。<line-break>精霊神に躍らされ、<line-break>我を撃ち、闇を呼ぶか…。<line-break>愚かなり…愚かなり…。<end>"
 korean = "어리석구나, 대지의 무녀여. 정령신에게 놀아나 나를 치고 어둠을 부르는가…. 어리석구나… 어리석어….<end>"
@@ -451,6 +463,10 @@ korean = "에스텔이야. 비었어.<end>"
 ["880294"]
 japanese = "あ…、<line-break><value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"
+
+["880295"]
+japanese = "やった。<line-break>じゃあ、出発するときに合流するね。<end>"
+korean = "좋았어. 그럼 출발할 때 합류할게.<end>"
 
 ["880296"]
 japanese = "やっぱり、<line-break>冒険って楽しいよね。<end>"

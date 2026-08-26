@@ -868,9 +868,17 @@ korean = "저, 정말입니까, <value:$28>님! 그럼 마음이 바뀌기 전�
 japanese = "あのー、神官さん。<end>"
 korean = "저기요, 신관님.<end>"
 
+["1360574"]
+japanese = "特に、こんな荒れたご時世、<line-break><value:$28>のような大冒険者の力は<line-break>どうしても必要になる。<line-break>わかってくれ、<value:$28>。<end>"
+korean = "특히 이런 어수선한 시대에는 <value:$28> 같은 대모험자의 힘이 꼭 필요하다. 이해해 줘, <value:$28>.<end>"
+
 ["1360578"]
 japanese = "うはは、困ってるぜ、神官さん。<end>"
 korean = "우하하, 곤란해 보이는데, 신관 양반.<end>"
+
+["1360579"]
+japanese = "う、ううむ…そうですか。<line-break>気立てのいい子なのですが…。<line-break> <line-break>では、せめてこれを<line-break>持っていってください。<end>"
+korean = "으, 음… 그렇습니까. 마음씨 좋은 아이인데…. 그럼 적어도 이것만은 받아 가 주세요.<end>"
 
 ["1360581"]
 japanese = "それを持っていれば、<line-break>崩落から身を守ることができたと<line-break>いわれております。<line-break>きっと、お役に立つでしょう。<end>"

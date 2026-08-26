@@ -120,6 +120,14 @@ korean = "로스토올의 그 저택을? 무엇 때문에?<end>"
 japanese = "…それはまた<line-break>大がかりな計画だな。<end>"
 korean = "…그건 또 꽤 대규모 계획이군.<end>"
 
+["780062"]
+japanese = "ええ。<line-break>もし、許していただけるのでしたら…。<end>"
+korean = "네. 허락해 주신다면….<end>"
+
+["780063"]
+japanese = "好きにするといい。<line-break>今の俺には無用のものだ。<end>"
+korean = "마음대로 해. 지금의 나한테는 필요 없는 물건이다.<end>"
+
 ["780064"]
 japanese = "ありがとうございます！<end>"
 korean = "감사합니다!<end>"
@@ -143,6 +151,10 @@ korean = "<value:$28>님. 사실 드릴 말씀이 있습니다.<end>"
 ["780071"]
 japanese = "私、このお屋敷を出ようと思います。<end>"
 korean = "저, 이 저택을 나가려고 합니다.<end>"
+
+["780074"]
+japanese = "実は、しなければならないことが<line-break>あるのです。<end>"
+korean = "사실 해야 할 일이 있습니다.<end>"
 
 ["780096"]
 japanese = "アトレイア　ボリューム６～終了<end>"

@@ -60,6 +60,10 @@ korean = "너, 너는… 샤리!!<end>"
 japanese = "誰がキミなんかと！<line-break>絶対、お断りだよ！！<end>"
 korean = "누가 너 따위랑! 절대 사양이야!!<end>"
 
+["890069"]
+japanese = "ハァイ、エステル。<line-break>相変わらず元気そうだね。<end>"
+korean = "하이, 에스텔. 여전히 건강해 보이네.<end>"
+
 ["890070"]
 japanese = "…シャリ！<end>"
 korean = "…샤리!<end>"
@@ -212,6 +216,10 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["890145"]
+japanese = "フフ、歌がうまいのね。<line-break>それに覚えも早いわ。<end>"
+korean = "후후, 노래를 잘하네. 게다가 배우는 것도 빨라.<end>"
+
 ["890147"]
 japanese = "おう！　<value:$28><line-break>手紙が届いているぜ。<end>"
 korean = "오! <value:$28>, 편지가 왔어.<end>"
@@ -255,6 +263,10 @@ korean = "다, 당신… 언제부터 거기 있었어!?<end>"
 ["890161"]
 japanese = "なら、いいわ。<line-break>こっちに来て。<end>"
 korean = "그렇다면 됐어. 이쪽으로 와.<end>"
+
+["890165"]
+japanese = "これは私からの気持ちよ、<line-break>受け取っておいて。<end>"
+korean = "이건 내 마음이야. 받아 둬.<end>"
 
 ["890167"]
 japanese = "引き受ける<end>"
@@ -320,6 +332,10 @@ korean = "고마워, 이제 물러가도 돼.<end>"
 japanese = "姉ちゃん、どうしよう。<line-break>ザギヴはショック状態みたいだ。<line-break>　<line-break>…ここに、置いてっちゃおうか？<end>"
 korean = "누나, 어떡하지. 자기브는 충격에 빠진 것 같아. …여기 두고 갈까?<end>"
 
+["890210"]
+japanese = "ありがとう。<line-break>多分、もう、大丈…夫…だから…<end>"
+korean = "고마워. 아마 이제 괜…찮을… 거야….<end>"
+
 ["890212"]
 japanese = "あのときの…記憶が…<line-break>甦って…<end>"
 korean = "그때의… 기억이… 되살아나서…<end>"
@@ -327,6 +343,10 @@ korean = "그때의… 기억이… 되살아나서…<end>"
 ["890217"]
 japanese = "私…だけ…<end>"
 korean = "나…만…<end>"
+
+["890218"]
+japanese = "私…だけ…。私のせいなのに…<line-break>私…だけ…むざむざと…<line-break>生き残ってしまった！<line-break>私、生まれなければ…よかった…！<end>"
+korean = "나…만…. 내 탓인데… 나만… 뻔뻔하게… 살아남아 버렸어! 나, 태어나지 않았으면… 좋았을 텐데…!<end>"
 
 ["890219"]
 japanese = "近づかないで！<end>"
@@ -380,6 +400,10 @@ korean = "절망을 밀어냈단 말인가…<end>"
 japanese = "<value:$28>、<line-break>彼女を旅に連れていってくれませんか？<end>"
 korean = "<value:$28>, 그녀를 여행에 데려가 주시겠습니까?<end>"
 
+["890253"]
+japanese = "ケリュネイア。<line-break>　<line-break>　<line-break>人とは、どんな時であっても、<line-break>挑み続けなくてはならない<line-break>ものなのですよ。<end>"
+korean = "케류네이아. 사람은 어떤 때라도 계속 도전해야 하는 법이랍니다.<end>"
+
 ["890256"]
 japanese = "<value:$28>！<line-break>あなたまで、そんな！<end>"
 korean = "<value:$28>! 당신까지 그러다니!<end>"
@@ -387,6 +411,10 @@ korean = "<value:$28>! 당신까지 그러다니!<end>"
 ["890261"]
 japanese = "<value:$28>、<line-break>彼女を旅に連れていってくれませんか？<end>"
 korean = "<value:$28>, 그녀를 여행에 데려가 주시겠습니까?<end>"
+
+["890274"]
+japanese = "おや…<line-break>そこにおるのは<line-break>無限のソウルの持ち主か…<line-break>なるほど、なるほど。<line-break>わしにも未来が読めぬワケじゃ。<end>"
+korean = "오호… 거기 있는 건 무한의 소울을 지닌 자인가…. 그렇군, 그렇군. 나조차 미래를 읽을 수 없는 이유가 있었구나.<end>"
 
 ["890278"]
 japanese = "…終わりだ。<end>"
@@ -1223,6 +1251,10 @@ korean = "…카핀, …레이븐!<end>"
 ["890687"]
 japanese = "ノエル、あなた…。<end>"
 korean = "노엘, 당신….<end>"
+
+["890688"]
+japanese = "はい。<line-break>わたし、一生懸命、祈ったんです…。<line-break><line-break>みんなの魂が、あるべきところへ<line-break>戻って来るようにって…。<end>"
+korean = "네. 저, 정말 열심히 기도했어요…. 모두의 영혼이 있어야 할 곳으로 돌아오기를….<end>"
 
 ["890689"]
 japanese = "ノエル…。<end>"

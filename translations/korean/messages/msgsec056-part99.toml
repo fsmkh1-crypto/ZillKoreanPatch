@@ -244,6 +244,10 @@ korean = "으, 으아아아아아앗!<end>"
 japanese = "暖かさ、優しさ、喜び…　　　　　　　<end>"
 korean = "따뜻함, 다정함, 기쁨…<end>"
 
+["560125"]
+japanese = "悲しみ、不安、嫉妬、そして…怒り…。<line-break>　<line-break>　<line-break>俺は感情の波に揺さぶられ、<line-break>もてあそばれて…また逃げ出した。<end>"
+korean = "슬픔, 불안, 질투, 그리고… 분노…. 나는 감정의 파도에 흔들리고 농락당하다가… 또 도망쳤다.<end>"
+
 ["560128"]
 japanese = "フッ、お前を殺しやしない。<end>"
 korean = "훗, 널 죽이진 않아.<end>"
@@ -799,6 +803,10 @@ korean = "<value:$28>, 너는 잘되고 있어?<end>"
 ["560367"]
 japanese = "そうなの…<line-break>私は相変わらず忙しいわ。<end>"
 korean = "그렇구나…. 난 여전히 바빠.<end>"
+
+["560368"]
+japanese = "本当に猫の手も借りたいくらい。<line-break>休もうとしても、頭の中から<line-break>軍務のことが離れなくって<line-break>だから、ちょっと疲れ気味。<end>"
+korean = "정말 고양이 손이라도 빌리고 싶을 정도야. 쉬려고 해도 머릿속에서 군무가 떠나질 않아서 좀 지쳤어.<end>"
 
 ["560369"]
 japanese = "フフフ。<line-break><value:$28>に<line-break>心配されるなんてね。<end>"

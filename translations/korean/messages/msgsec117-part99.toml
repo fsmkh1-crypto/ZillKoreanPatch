@@ -52,6 +52,10 @@ korean = "노엘, 이제 가자.<end>"
 japanese = "あ、そうですね。<end>"
 korean = "아, 그렇네요.<end>"
 
+["1170021"]
+japanese = "それじゃあ、<line-break><value:$28>さん。<line-break>わたしたち、もう行きます。<line-break>あの、<value:$28>さんも<line-break>がんばってくださいね。<end>"
+korean = "그럼 <value:$28>님. 저희는 이제 가겠습니다. 저기, <value:$28>님도 힘내세요.<end>"
+
 ["1170023"]
 japanese = "あ、ノエル。<line-break>…フフ、しょうがない子ね。<end>"
 korean = "아, 노엘. …후후, 어쩔 수 없는 아이네.<end>"

@@ -144,6 +144,10 @@ korean = "아, 정말이네. 그 보석이 초라해 보여. 그거 빼는 게 �
 japanese = "ええ、構いません。<line-break>どうぞ。<end>"
 korean = "네, 괜찮습니다. 어서요.<end>"
 
+["770065"]
+japanese = "ついでに、そっちの指輪も<line-break>はずした方がいい。<end>"
+korean = "그리고 그쪽 반지도 빼는 게 좋아.<end>"
+
 ["770069"]
 japanese = "いいんです。<end>"
 korean = "괜찮습니다.<end>"
@@ -211,6 +215,10 @@ korean = "하하하하하! 네 노래 덕분에 손님들도 신나서 장사가
 ["770105"]
 japanese = "お金は結構ですから、あの…。<end>"
 korean = "돈은 괜찮으니까, 저기….<end>"
+
+["770106"]
+japanese = "…ん？　なんだい。　　　　　　<line-break>　<line-break>　<end>"
+korean = "…응? 뭐지.<end>"
 
 ["770114"]
 japanese = "その前に睡眠をとらないと<end>"
