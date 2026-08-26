@@ -9,6 +9,7 @@ import (
 	"github.com/HK47196/zill/internal/cp932"
 	"github.com/HK47196/zill/internal/fixeddata"
 	"github.com/HK47196/zill/internal/koreanslots"
+	"github.com/HK47196/zill/internal/release"
 	"github.com/HK47196/zill/internal/slotaudit"
 )
 
