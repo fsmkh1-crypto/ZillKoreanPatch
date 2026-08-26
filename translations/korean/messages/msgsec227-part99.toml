@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2270002"]
+japanese = "…だ、誰かーっ！<end>"
+korean = "…누, 누구 없어요ー!<end>"
+
+["2270004"]
+japanese = "ごめんなさーい！<end>"
+korean = "미안해요ー!<end>"
+
 ["2270008"]
 japanese = "ぐはっ…！<end>"
 korean = "크헉…!<end>"
@@ -7,6 +15,10 @@ korean = "크헉…!<end>"
 ["2270011"]
 japanese = "だめーっ！！<end>"
 korean = "안 돼!!<end>"
+
+["2270012"]
+japanese = "バカ！　逃げろ！<end>"
+korean = "바보야! 도망쳐!<end>"
 
 ["2270022"]
 japanese = "えっ…！？<end>"
@@ -23,6 +35,10 @@ korean = "친구!<end>"
 ["2270033"]
 japanese = "そっか…<end>"
 korean = "그렇구나…<end>"
+
+["2270035"]
+japanese = "一緒に遊ぼうぜ！<end>"
+korean = "같이 놀자!<end>"
 
 ["2270036"]
 japanese = "うん！<end>"

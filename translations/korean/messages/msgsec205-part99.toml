@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["2050000"]
+japanese = "初めての海用開始<end>"
+korean = "첫 바다용 시작<end>"
+
 ["2050005"]
 japanese = "ありがとう…。<end>"
 korean = "고마워….<end>"
+
+["2050006"]
+japanese = "初めての海用終端<end>"
+korean = "첫 바다용 종료<end>"
