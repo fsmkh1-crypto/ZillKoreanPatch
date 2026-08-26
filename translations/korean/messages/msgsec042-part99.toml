@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["420002"]
+japanese = "エリスについてもう少し尋ねる<end>"
+korean = "엘리스에 대해 조금 더 묻는다<end>"
+
 ["420003"]
 japanese = "うなずく<end>"
 korean = "고개를 끄덕인다<end>"
@@ -183,6 +187,10 @@ korean = "…예쁜… 잠든 얼굴이군.<end>"
 ["420286"]
 japanese = "…ふっ。<line-break>くだらぬ。<end>"
 korean = "…흥. 시시하군.<end>"
+
+["420289"]
+japanese = "では、行ってらっしゃいませ。<end>"
+korean = "그럼 다녀오세요.<end>"
 
 ["420292"]
 japanese = "ん？<end>"

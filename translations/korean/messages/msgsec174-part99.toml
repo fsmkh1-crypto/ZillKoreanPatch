@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1740000"]
+japanese = "オイフェメッセージＶ７開始<end>"
+korean = "오이페 메시지 V7 시작<end>"
+
 ["1740001"]
 japanese = "<value:$28>…さん…！<end>"
 korean = "<value:$28>… 씨…!<end>"
@@ -59,6 +63,10 @@ korean = "바꿀 수 없다고?<end>"
 ["1740074"]
 japanese = "…遅かった、です。<end>"
 korean = "…늦었어요.<end>"
+
+["1740078"]
+japanese = "邪竜が本当に出てきたら…。<end>"
+korean = "사룡이 정말 나타난다면….<end>"
 
 ["1740082"]
 japanese = "復活させたい<end>"
@@ -179,3 +187,7 @@ korean = "너는 적이다<end>"
 ["1740210"]
 japanese = "なんだと！？<end>"
 korean = "뭐라고!?<end>"
+
+["1740214"]
+japanese = "オイフェメッセージＶ７終端<end>"
+korean = "오이페 메시지 V7 끝<end>"

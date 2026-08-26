@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["470000"]
+japanese = "ガルドラン・ボリューム２開始<end>"
+korean = "갈드란 볼륨 2 시작<end>"
+
 ["470005"]
 japanese = "その通り<end>"
 korean = "맞아<end>"
@@ -23,3 +27,7 @@ korean = "나지…!?<end>"
 ["470035"]
 japanese = "本当？<end>"
 korean = "정말?<end>"
+
+["470053"]
+japanese = "ガルドラン・ボリューム２終端<end>"
+korean = "갈드란 볼륨 2 끝<end>"

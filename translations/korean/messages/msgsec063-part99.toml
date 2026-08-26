@@ -56,6 +56,10 @@ korean = "네엣!!<end>"
 japanese = "へぇ…、ティアナ王女にね。<end>"
 korean = "헤에…, 티아나 왕녀에게 말이지.<end>"
 
+["630075"]
+japanese = "そいつは受け取るのが礼儀だ。<end>"
+korean = "그건 받아야 예의지.<end>"
+
 ["630076"]
 japanese = "<value:$28>は３ギアを手に入れた。<end>"
 korean = "<value:$28>은 3기아를 손에 넣었다.<end>"
@@ -88,6 +92,10 @@ korean = "정답이야.<end>"
 japanese = "それに、<value:$28>様。<end>"
 korean = "그리고 <value:$28> 님.<end>"
 
+["630118"]
+japanese = "ち、違います。無礼などは…。<end>"
+korean = "아, 아닙니다. 무례라니….<end>"
+
 ["630123"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -116,6 +124,14 @@ korean = "…미안해요.<end>"
 japanese = "あら、まだこれからですわ。<end>"
 korean = "어머, 아직 이제부터랍니다.<end>"
 
+["630166"]
+japanese = "ふふふ…、レムオン様ったら。<end>"
+korean = "후후후…, 레므온 님도 참.<end>"
+
+["630180"]
+japanese = "ち、違います。無礼などは…。<end>"
+korean = "아, 아닙니다. 무례라니….<end>"
+
 ["630185"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -139,6 +155,10 @@ korean = "글쎄….<end>"
 ["630200"]
 japanese = "バカな。<end>"
 korean = "말도 안 돼.<end>"
+
+["630211"]
+japanese = "誰が結婚などするものですか！<end>"
+korean = "누가 결혼 같은 걸 한답니까!<end>"
 
 ["630214"]
 japanese = "きれいな妹君…か。<end>"

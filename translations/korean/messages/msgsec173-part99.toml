@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1730000"]
+japanese = "オイフェメッセージＶ５開始<end>"
+korean = "오이페 메시지 V5 시작<end>"
+
 ["1730006"]
 japanese = "助けに行こう<end>"
 korean = "도우러 가자<end>"
@@ -88,6 +92,10 @@ korean = "끌어내!<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["1730099"]
+japanese = "シャリ、失敗したようだな。<end>"
+korean = "샤리, 실패한 모양이군.<end>"
+
 ["1730100"]
 japanese = "そ、それは…。<end>"
 korean = "그, 그건….<end>"
@@ -119,3 +127,7 @@ korean = "부하가 된다<end>"
 ["1730130"]
 japanese = "部下にならない<end>"
 korean = "부하가 되지 않는다<end>"
+
+["1730139"]
+japanese = "オイフェメッセージＶ５終端<end>"
+korean = "오이페 메시지 V5 끝<end>"

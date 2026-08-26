@@ -232,6 +232,14 @@ korean = "소울은 어떻게 단련하지?<end>"
 japanese = "ありがとう、よくわかったよ<end>"
 korean = "고마워, 잘 알았어.<end>"
 
+["400178"]
+japanese = "Ｗｉｌｄについて教えてほしい<end>"
+korean = "Wild에 대해 알려 줬으면 해<end>"
+
+["400179"]
+japanese = "Ｃｏｏｌについて教えてほしい<end>"
+korean = "Cool에 대해 알려 줬으면 해<end>"
+
 ["400193"]
 japanese = "（穴の中に何かが見える…）<end>"
 korean = "(구멍 안에 뭔가 보여…)<end>"
@@ -239,6 +247,10 @@ korean = "(구멍 안에 뭔가 보여…)<end>"
 ["400194"]
 japanese = "穴に飛び込みますか？<end>"
 korean = "구멍에 뛰어들까요?<end>"
+
+["400195"]
+japanese = "（暖炉の火は消えている…。）<end>"
+korean = "(벽난로 불은 꺼져 있다….)<end>"
 
 ["400196"]
 japanese = "火をつけてみますか？<end>"

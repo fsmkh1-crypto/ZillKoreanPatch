@@ -224,6 +224,10 @@ korean = "적 1체에 암속성 공격<end>"
 japanese = "敵全体に闇属性攻撃<end>"
 korean = "적 전체에 암속성 공격<end>"
 
+["1650063"]
+japanese = "敵１体を死の呪い状態にする<end>"
+korean = "적 1명을 죽음의 저주 상태로 만든다<end>"
+
 ["1650064"]
 japanese = "敵１体を呪い状態にする<end>"
 korean = "적 1명을 저주 상태로 만든다<end>"
@@ -239,6 +243,10 @@ korean = "아군 전원의 저주를 해제한다.<end>"
 ["1650067"]
 japanese = "味方全員にバリアをはる<end>"
 korean = "아군 전원에게 배리어를 친다<end>"
+
+["1650068"]
+japanese = "味方全員に魔法バリアをはる<end>"
+korean = "아군 전원에게 마법 장벽을 친다<end>"
 
 ["1650070"]
 japanese = "敵全体に闇属性攻撃<end>"
@@ -300,9 +308,25 @@ korean = "적 1체를 2연속 공격<end>"
 japanese = "敵一体を即死<end>"
 korean = "적 1체를 즉사<end>"
 
+["1650091"]
+japanese = "ＨＰ消費で聖エネルギー攻撃<end>"
+korean = "HP를 소비해 성 에너지로 공격<end>"
+
+["1650092"]
+japanese = "ＨＰ消費で闇エネルギー攻撃<end>"
+korean = "HP를 소비해 어둠 에너지로 공격<end>"
+
+["1650094"]
+japanese = "ＨＰ消費で敵１体を連続攻撃<end>"
+korean = "HP를 소비해 적 1명을 연속 공격<end>"
+
 ["1650096"]
 japanese = "衝撃波で敵全体を攻撃<end>"
 korean = "충격파로 적 전체를 공격한다.<end>"
+
+["1650097"]
+japanese = "武器の精霊力を解放して攻撃<end>"
+korean = "무기의 정령력을 해방해 공격<end>"
 
 ["1650099"]
 japanese = "一度に２つの魔法を使用<end>"
@@ -316,6 +340,14 @@ korean = "상대의 공격 마법을 상쇄한다.<end>"
 japanese = "装備品に属性を付加する魔法<end>"
 korean = "장비에 속성을 부여하는 마법<end>"
 
+["1650103"]
+japanese = "一度に２つのアイテムを使用<end>"
+korean = "한 번에 아이템 2개를 사용<end>"
+
+["1650105"]
+japanese = "悪魔系の敵１体を消滅させる<end>"
+korean = "악마계 적 1명을 소멸시킨다<end>"
+
 ["1650107"]
 japanese = "敵全体を幻覚状態にする<end>"
 korean = "적 전체를 환각 상태로 만든다<end>"
@@ -328,9 +360,17 @@ korean = "HP를 소량의 MP로 변환<end>"
 japanese = "回避時にカウンター攻撃<end>"
 korean = "회피 시 카운터 공격<end>"
 
+["1650113"]
+japanese = "ダメージ時にカウンター攻撃<end>"
+korean = "피해를 받을 때 반격<end>"
+
 ["1650115"]
 japanese = "距離に関係なく攻撃<end>"
 korean = "거리에 상관없이 공격<end>"
+
+["1650119"]
+japanese = "宝箱の罠を解除しやすくなる<end>"
+korean = "보물상자의 함정을 해제하기 쉬워진다<end>"
 
 ["1650129"]
 japanese = "盾を装備できるようになる<end>"
@@ -339,6 +379,10 @@ korean = "방패를 장비할 수 있게 된다<end>"
 ["1650130"]
 japanese = "森羅万象の力を結集した最高魔法<end>"
 korean = "삼라만상의 힘을 결집한 최고위 마법<end>"
+
+["1650131"]
+japanese = "防御成功時にカウンター攻撃<end>"
+korean = "방어 성공 시 반격<end>"
 
 ["1650134"]
 japanese = "敵のＨＰ／ＭＰを見抜ける<end>"

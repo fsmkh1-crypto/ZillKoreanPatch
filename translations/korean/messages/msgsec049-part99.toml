@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["490000"]
+japanese = "ルルアンタ・ボリューム１開始<end>"
+korean = "루루안타 볼륨 1 시작<end>"
+
 ["490001"]
 japanese = "まずはギルドへ行こう。<end>"
 korean = "우선 길드로 가자.<end>"
@@ -11,6 +15,10 @@ korean = "뭐, 여러 곳이지.<end>"
 ["490018"]
 japanese = "わかった。<end>"
 korean = "알았어.<end>"
+
+["490030"]
+japanese = "ま、その辺はなんとかするさ。<end>"
+korean = "뭐, 그건 어떻게든 되겠지.<end>"
 
 ["490032"]
 japanese = "今日にも来ると思うが…。<end>"
@@ -172,6 +180,14 @@ korean = "<미사용><end>"
 japanese = "…<value:$28>、つけられたな。<end>"
 korean = "…<value:$28>, 미행당했군.<end>"
 
+["490149"]
+japanese = "うう…、まさか、この俺が…。<end>"
+korean = "으으…, 설마 이 내가….<end>"
+
+["490154"]
+japanese = "そうだな。賢者の森へ急ごう。<end>"
+korean = "그래. 현자의 숲으로 서두르자.<end>"
+
 ["490155"]
 japanese = "よ、どんなぐあいだ？<end>"
 korean = "여어, 상태는 어때?<end>"
@@ -183,6 +199,10 @@ korean = "이제 괜찮아?<end>"
 ["490160"]
 japanese = "そうだな…葬って…やろう。<end>"
 korean = "그래… 묻어… 주자.<end>"
+
+["490162"]
+japanese = "そうだな…葬ってやるべきだ。<end>"
+korean = "그래… 묻어 줘야겠어.<end>"
 
 ["490173"]
 japanese = "ちっ、おぼえてやがれ！<end>"
@@ -223,6 +243,10 @@ korean = "아야야야…. 으~.<end>"
 ["490222"]
 japanese = "わ、すごいすごーい！！<end>"
 korean = "와, 대단해 대단해ー!!<end>"
+
+["490223"]
+japanese = "騒ぐなって。頭に響く。　　　<end>"
+korean = "시끄럽게 굴지 마. 머리가 울려.<end>"
 
 ["490228"]
 japanese = "わっ、これ何？<line-break>これ何？<end>"
@@ -395,3 +419,7 @@ korean = "<미사용><end>"
 ["490322"]
 japanese = "よう、<value:$28>。<end>"
 korean = "여어, <value:$28>.<end>"
+
+["490331"]
+japanese = "ルルアンタ・ボリューム１終端<end>"
+korean = "루루안타 볼륨 1 끝<end>"

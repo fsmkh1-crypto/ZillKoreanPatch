@@ -88,6 +88,10 @@ korean = "<value:$28> 씨~!<end>"
 japanese = "<value:$28>さん！！<end>"
 korean = "<value:$28> 씨!!<end>"
 
+["410035"]
+japanese = "あり得ない。　　　　　　　　<end>"
+korean = "말도 안 돼.<end>"
+
 ["410044"]
 japanese = "私を疑うのか？<end>"
 korean = "날 의심하는 건가?<end>"
@@ -115,6 +119,10 @@ korean = "헤헤…, 헤헤….<end>"
 ["410061"]
 japanese = "…ありがとう、<value:$28>。<end>"
 korean = "…고마워, <value:$28>.<end>"
+
+["410070"]
+japanese = "いいぜ、ドワーフのおっさん。<end>"
+korean = "좋아, 드워프 아저씨.<end>"
 
 ["410072"]
 japanese = "…いつの間に？<end>"
@@ -175,6 +183,10 @@ korean = "기다려! <value:$28> 씨!<end>"
 ["410126"]
 japanese = "…ありがとう、<value:$28>。<end>"
 korean = "…고마워, <value:$28>.<end>"
+
+["410129"]
+japanese = "やっぱり待って！　カフィン！<end>"
+korean = "역시 기다려! 카핀!<end>"
 
 ["410130"]
 japanese = "え？<end>"

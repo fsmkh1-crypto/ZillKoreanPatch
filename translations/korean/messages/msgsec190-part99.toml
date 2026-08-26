@@ -40,6 +40,10 @@ korean = "어…! 카, 카를라 님?<end>"
 japanese = "ネメア様！<end>"
 korean = "네메아 님!<end>"
 
+["1900117"]
+japanese = "いらぬ心配をかけた。許せ。<end>"
+korean = "쓸데없는 걱정을 끼쳤군. 용서해라.<end>"
+
 ["1900121"]
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
@@ -80,6 +84,14 @@ korean = "반드시 돌아오겠다고 약속한다<end>"
 japanese = "できるだけそうすると言う<end>"
 korean = "가능한 한 그렇게 하겠다고 말한다<end>"
 
+["1900154"]
+japanese = "ティアナはひとりでも大丈夫<end>"
+korean = "티아나는 혼자서도 괜찮아<end>"
+
+["1900155"]
+japanese = "助けが必要なら言ってほしい<end>"
+korean = "도움이 필요하면 말해 줬으면 해<end>"
+
 ["1900164"]
 japanese = "ティアナならできると言う<end>"
 korean = "티아나라면 할 수 있다고 말한다<end>"
@@ -87,6 +99,14 @@ korean = "티아나라면 할 수 있다고 말한다<end>"
 ["1900173"]
 japanese = "心配しすぎだと言う<end>"
 korean = "걱정이 지나치다고 말한다<end>"
+
+["1900174"]
+japanese = "自分も捜索に協力すると言う<end>"
+korean = "자신도 수색에 협력하겠다고 한다<end>"
+
+["1900182"]
+japanese = "それはよい考えだと同意する<end>"
+korean = "좋은 생각이라고 동의한다<end>"
 
 ["1900200"]
 japanese = "Ｖ７その２終端<end>"

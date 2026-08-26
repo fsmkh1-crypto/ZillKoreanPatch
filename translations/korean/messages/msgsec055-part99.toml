@@ -132,6 +132,10 @@ korean = "면, 면목이 없소이다.<end>"
 japanese = "（みんな同じ刺青がある…）<end>"
 korean = "(모두 같은 문신이 있어…)<end>"
 
+["550071"]
+japanese = "（奴らを追いかけなくちゃ！）<end>"
+korean = "(녀석들을 쫓아가야 해!)<end>"
+
 ["550072"]
 japanese = "ノエルがやったぞ！<end>"
 korean = "노엘이 해냈다!<end>"
@@ -748,6 +752,10 @@ korean = "검의 말을 들으라니….<end>"
 japanese = "剣が、わたしを、選んだ…？<end>"
 korean = "검이 나를 선택한 거야…?<end>"
 
+["550323"]
+japanese = "で、でも、わたしなんかに…！<end>"
+korean = "하, 하지만 나 같은 애가…!<end>"
+
 ["550324"]
 japanese = "…<value:$28>、…さん。<end>"
 korean = "…<value:$28>, …씨.<end>"
@@ -759,6 +767,10 @@ korean = "…포기하면 안 돼.<end>"
 ["550331"]
 japanese = "<value:$28>さん！<end>"
 korean = "<value:$28>씨!<end>"
+
+["550332"]
+japanese = "わたしです、ノエルです。　　<end>"
+korean = "저예요, 노엘이에요.<end>"
 
 ["550346"]
 japanese = "どこ見てるの？<line-break>ボウヤ。<end>"

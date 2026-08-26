@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["510000"]
+japanese = "ファーロス・ボリューム２開始<end>"
+korean = "파로스 볼륨 2 시작<end>"
+
 ["510002"]
 japanese = "ふぅん、デートのお誘い？<end>"
 korean = "흐응, 데이트 신청?<end>"
@@ -39,6 +43,10 @@ korean = "맡지 않는다<end>"
 ["510050"]
 japanese = "ロストールの傭兵になる<end>"
 korean = "로스톨의 용병이 된다.<end>"
+
+["510051"]
+japanese = "ディンガルの傭兵のままでいる<end>"
+korean = "딩갈 용병으로 계속 남는다<end>"
 
 ["510059"]
 japanese = "ならば、すぐ出撃だ。<end>"

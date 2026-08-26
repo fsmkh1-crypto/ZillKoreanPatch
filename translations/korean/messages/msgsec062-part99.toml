@@ -8,6 +8,10 @@ korean = "그, 그만해 주세요!<end>"
 japanese = "あっ。た、助けてください！<end>"
 korean = "앗. 사, 살려 주세요!<end>"
 
+["620013"]
+japanese = "お強いんですね。感心します。<end>"
+korean = "강하시네요. 감탄했어요.<end>"
+
 ["620014"]
 japanese = "失礼ですが、お名前は…。<end>"
 korean = "실례지만, 성함은….<end>"
@@ -47,6 +51,10 @@ korean = "음, 거친 여자와 기타 1명!<end>"
 ["620044"]
 japanese = "ああ、メシ～。<end>"
 korean = "아아, 밥~.<end>"
+
+["620050"]
+japanese = "な、なんかドキドキするゴブ。<end>"
+korean = "뭔가 두근두근한다 고브.<end>"
 
 ["620051"]
 japanese = "ガント親分、がんばるゴブ。<end>"
@@ -144,6 +152,14 @@ korean = "에에~!?<end>"
 japanese = "親分、どこに逃げるゴブ？<end>"
 korean = "두목, 어디로 도망가 고브?<end>"
 
+["620101"]
+japanese = "ゴブリンなんて食べないわよ。<end>"
+korean = "고블린 같은 건 안 먹어.<end>"
+
+["620103"]
+japanese = "ゴブリンが人間を襲うからよ！<end>"
+korean = "고블린이 인간을 습격하니까!<end>"
+
 ["620110"]
 japanese = "親分！　あいつらゴブ！<end>"
 korean = "두목! 저놈들 고브!<end>"
@@ -163,6 +179,10 @@ korean = "아앗!!<end>"
 ["620123"]
 japanese = "団長、逃げるゴブ！<end>"
 korean = "단장, 도망치는 고브!<end>"
+
+["620128"]
+japanese = "親分、自分が間違ってたゴブ！<end>"
+korean = "두목, 내가 틀렸어 고브!<end>"
 
 ["620132"]
 japanese = "うるうるうる…。<end>"
@@ -351,6 +371,10 @@ korean = "윽.<end>"
 ["620319"]
 japanese = "あ、だ、だいひょうぶでふ！<end>"
 korean = "아, 괘, 괜찮아여!<end>"
+
+["620327"]
+japanese = "あ、その、…お、おいしいよ。<end>"
+korean = "아, 그게, …마, 맛있어.<end>"
 
 ["620328"]
 japanese = "死ぬほどまずい！<end>"

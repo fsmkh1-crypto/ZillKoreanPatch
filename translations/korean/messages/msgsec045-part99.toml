@@ -8,6 +8,10 @@ korean = "저기, 갈드란… 맞지?<end>"
 japanese = "？<end>"
 korean = "？<end>"
 
+["450012"]
+japanese = "ちっ、違うよ！　　　　　　　<end>"
+korean = "아, 아니야!<end>"
+
 ["450021"]
 japanese = "うわっ！　目が！<end>"
 korean = "으악! 눈이!<end>"
@@ -132,6 +136,10 @@ korean = "히, 히이이익!<end>"
 japanese = "く、ずらかれ！<end>"
 korean = "튀, 튀어!<end>"
 
+["450145"]
+japanese = "…私に挑む者のほうがまれか。<end>"
+korean = "…나에게 도전하는 자가 드문 건가.<end>"
+
 ["450146"]
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
@@ -155,6 +163,10 @@ korean = "기다려! 악당들!<end>"
 ["450175"]
 japanese = "なんだ、貴様！<end>"
 korean = "뭐냐, 네놈!<end>"
+
+["450176"]
+japanese = "俺様は未来の勇者ガルドラン！<end>"
+korean = "이 몸은 미래의 용사 갈드란!<end>"
 
 ["450177"]
 japanese = "改！<end>"
@@ -183,6 +195,10 @@ korean = "가르드란이…!<end>"
 ["450207"]
 japanese = "くそっ、おぼえてやがれ！<end>"
 korean = "젠장, 두고 보자!<end>"
+
+["450211"]
+japanese = "…どうせ、どうせ、俺なんか…<end>"
+korean = "…어차피, 어차피 나 같은 건….<end>"
 
 ["450215"]
 japanese = "お客さん。<end>"

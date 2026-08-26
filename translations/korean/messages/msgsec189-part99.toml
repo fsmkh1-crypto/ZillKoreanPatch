@@ -12,6 +12,10 @@ korean = "그렇다. 짐이다.<end>"
 japanese = "また訪れるがよい。<end>"
 korean = "다시 찾아오도록 해.<end>"
 
+["1890024"]
+japanese = "新たな力を得たくはないか？<end>"
+korean = "새로운 힘을 얻고 싶지 않나?<end>"
+
 ["1890033"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
@@ -111,6 +115,10 @@ korean = "간다, <value:$28>!<end>"
 ["1890172"]
 japanese = "人類の革新を目指したい<end>"
 korean = "인류의 혁신을 지향하고 싶다<end>"
+
+["1890189"]
+japanese = "私をさげすむか、ゾフォル？<end>"
+korean = "나를 업신여기는 건가, 조폴?<end>"
 
 ["1890199"]
 japanese = "Ｖ７終端<end>"

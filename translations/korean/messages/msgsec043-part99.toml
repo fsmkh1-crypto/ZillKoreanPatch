@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["430001"]
+japanese = "エリエナイ公とお見受けする。<end>"
+korean = "엘리에나이 공으로 보이는군.<end>"
+
 ["430002"]
 japanese = "…その命、もらった！<end>"
 korean = "…그 목숨, 받아가겠다!<end>"
@@ -167,6 +171,10 @@ korean = "<value:$28> 맞지? 그럼 또 만날 수 있으면 좋겠다, <value:
 ["430219"]
 japanese = "…賊か。<line-break>　<end>"
 korean = "…도적인가.<end>"
+
+["430220"]
+japanese = "リューガ・ボリューム１その２<end>"
+korean = "류가 볼륨 1 그 2<end>"
 
 ["430221"]
 japanese = "フッ、はやるな。<line-break>行くぞ。<end>"

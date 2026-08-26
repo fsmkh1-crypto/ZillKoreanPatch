@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1770003"]
+japanese = "床からトゲの罠を見つけた。<end>"
+korean = "바닥에서 가시 함정을 발견했다.<end>"
+
 ["1770007"]
 japanese = "手に入れない<end>"
 korean = "손에 넣지 않는다<end>"
@@ -31,6 +35,10 @@ korean = "교환하지 않는다<end>"
 ["1770017"]
 japanese = "交換する<end>"
 korean = "교환한다<end>"
+
+["1770028"]
+japanese = "床からトゲの罠を見つけた。<end>"
+korean = "바닥에서 가시 함정을 발견했다.<end>"
 
 ["1770031"]
 japanese = "そのままにする<end>"

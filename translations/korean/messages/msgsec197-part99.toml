@@ -3248,6 +3248,58 @@ korean = "로센 파르티잔 출현<end>"
 japanese = "アンティノの研究所　出現<end>"
 korean = "안티노 연구소 출현<end>"
 
+["1971071"]
+japanese = "ティラの娘２退治依頼　発生<end>"
+korean = "티라의 딸 2 토벌 의뢰 발생<end>"
+
+["1971072"]
+japanese = "ティラの娘３退治依頼　発生<end>"
+korean = "티라의 딸 3 토벌 의뢰 발생<end>"
+
+["1971073"]
+japanese = "ティラの娘４退治依頼　発生<end>"
+korean = "티라의 딸 4 토벌 의뢰 발생<end>"
+
+["1971074"]
+japanese = "ティラの娘５退治依頼　発生<end>"
+korean = "티라의 딸 5 토벌 의뢰 발생<end>"
+
+["1971075"]
+japanese = "ティラの娘６退治依頼　発生<end>"
+korean = "티라의 딸 6 토벌 의뢰 발생<end>"
+
+["1971076"]
+japanese = "ティラの娘７退治依頼　発生<end>"
+korean = "티라의 딸 7 토벌 의뢰 발생<end>"
+
+["1971077"]
+japanese = "ティラの娘１退治引受　発生<end>"
+korean = "티라의 딸 1 토벌 수락 발생<end>"
+
+["1971078"]
+japanese = "ティラの娘２退治引受　発生<end>"
+korean = "티라의 딸 2 토벌 수락 발생<end>"
+
+["1971079"]
+japanese = "ティラの娘３退治引受　発生<end>"
+korean = "티라의 딸 3 토벌 수락 발생<end>"
+
+["1971080"]
+japanese = "ティラの娘４退治引受　発生<end>"
+korean = "티라의 딸 4 토벌 수락 발생<end>"
+
+["1971081"]
+japanese = "ティラの娘５退治引受　発生<end>"
+korean = "티라의 딸 5 토벌 수락 발생<end>"
+
+["1971082"]
+japanese = "ティラの娘６退治引受　発生<end>"
+korean = "티라의 딸 6 토벌 수락 발생<end>"
+
+["1971083"]
+japanese = "ティラの娘７退治引受　発生<end>"
+korean = "티라의 딸 7 토벌 수락 발생<end>"
+
 ["1971084"]
 japanese = "ティラの娘１　死亡<end>"
 korean = "티라의 딸 1 사망<end>"
@@ -3276,6 +3328,34 @@ korean = "티라의 딸 6 사망<end>"
 japanese = "ティラの娘７　死亡<end>"
 korean = "티라의 딸 7 사망<end>"
 
+["1971091"]
+japanese = "ティラの娘１退治報告　発生<end>"
+korean = "티라의 딸 1 토벌 보고 발생<end>"
+
+["1971092"]
+japanese = "ティラの娘２退治報告　発生<end>"
+korean = "티라의 딸 2 토벌 보고 발생<end>"
+
+["1971093"]
+japanese = "ティラの娘３退治報告　発生<end>"
+korean = "티라의 딸 3 토벌 보고 발생<end>"
+
+["1971094"]
+japanese = "ティラの娘４退治報告　発生<end>"
+korean = "티라의 딸 4 토벌 보고 발생<end>"
+
+["1971095"]
+japanese = "ティラの娘５退治報告　発生<end>"
+korean = "티라의 딸 5 토벌 보고 발생<end>"
+
+["1971096"]
+japanese = "ティラの娘６退治報告　発生<end>"
+korean = "티라의 딸 6 토벌 보고 발생<end>"
+
+["1971097"]
+japanese = "ティラの娘７退治報告　発生<end>"
+korean = "티라의 딸 7 토벌 보고 발생<end>"
+
 ["1971098"]
 japanese = "スラムの青年　情報<end>"
 korean = "슬럼가 청년 정보<end>"
@@ -3283,6 +3363,18 @@ korean = "슬럼가 청년 정보<end>"
 ["1971099"]
 japanese = "ティラ復活　準備<end>"
 korean = "티라 부활 준비<end>"
+
+["1971100"]
+japanese = "Ｅｖフゴー＃７＿Ａ　進行中<end>"
+korean = "Ev 휴고 #7_A 진행 중<end>"
+
+["1971101"]
+japanese = "Ｅｖフゴー＃７＿Ｂ　進行中<end>"
+korean = "Ev 휴고 #7_B 진행 중<end>"
+
+["1971102"]
+japanese = "Ｅｖフゴー＃７＿Ｃ　進行中<end>"
+korean = "Ev 휴고 #7_C 진행 중<end>"
 
 ["1971103"]
 japanese = "ノーブルの奇跡　発生<end>"
@@ -3368,9 +3460,17 @@ korean = "딩갈 용병 이야기 발생<end>"
 japanese = "ヴァイヴィアの伝言　発生<end>"
 korean = "바이 비아의 전언 발생<end>"
 
+["1971129"]
+japanese = "Ｅｖファーロス＃５　進行中<end>"
+korean = "Ev 파로스 #5 진행 중<end>"
+
 ["1971130"]
 japanese = "ボルダン捜索願　発生<end>"
 korean = "볼단 수색 요청 발생<end>"
+
+["1971131"]
+japanese = "冒険者襲撃事件を聞く　発生<end>"
+korean = "모험자 습격 사건을 듣다 발생<end>"
 
 ["1971132"]
 japanese = "ゼリグ　登場<end>"
@@ -3391,6 +3491,10 @@ korean = "Ev 네메아 #34 진행 중<end>"
 ["1971139"]
 japanese = "人形奪還報告　発生<end>"
 korean = "인형 탈환 보고 발생<end>"
+
+["1971140"]
+japanese = "罠クエスト依頼受注中　状態<end>"
+korean = "함정 퀘스트 의뢰 수주 중 상태<end>"
 
 ["1971141"]
 japanese = "罠クエスト依頼　発生<end>"
@@ -3444,6 +3548,10 @@ korean = "로티 의뢰 수락 발생<end>"
 japanese = "クロイス邸配達　発生<end>"
 korean = "크로이스 저택 배달 발생<end>"
 
+["1971160"]
+japanese = "Ｅｖエステル＃１８　進行中<end>"
+korean = "Ev 에스텔 #18 진행 중<end>"
+
 ["1971161"]
 japanese = "タルテュバ密談　発生<end>"
 korean = "탈테ュ바 밀담 발생<end>"
@@ -3459,6 +3567,10 @@ korean = "Ev 무도회 #5 진행 중<end>"
 ["1971164"]
 japanese = "Ｅｖ舞踏会＃６　進行中<end>"
 korean = "Ev 무도회 #6 진행 중<end>"
+
+["1971167"]
+japanese = "アンギルダン過去語り　発生<end>"
+korean = "앙길단 과거 이야기 발생<end>"
 
 ["1971170"]
 japanese = "Ｅｖ舞踏会＃７　進行中<end>"
@@ -3488,9 +3600,17 @@ korean = "대왕오징어 격퇴 발생<end>"
 japanese = "グフトク　情報<end>"
 korean = "구프토크 정보<end>"
 
+["1971178"]
+japanese = "アーギルシャイア正体　情報<end>"
+korean = "아길샤이어 정체 정보<end>"
+
 ["1971179"]
 japanese = "ヴァシュタール　死亡<end>"
 korean = "바슈타르 사망<end>"
+
+["1971180"]
+japanese = "Ｅｖアーギラ＃３２　進行中<end>"
+korean = "Ev 아기라 #32 진행 중<end>"
 
 ["1971181"]
 japanese = "ヴァンとチャカ　発生<end>"
@@ -3503,6 +3623,10 @@ korean = "캇츠 오두막 확인 발생<end>"
 ["1971183"]
 japanese = "デルガドカッツ追悼　発生<end>"
 korean = "델가드 카츠 추도 발생<end>"
+
+["1971184"]
+japanese = "カッツの小屋へ寄ろう　発生<end>"
+korean = "카츠의 오두막에 들르자 발생<end>"
 
 ["1971185"]
 japanese = "ケリュネイアの依頼　発生<end>"
@@ -3544,6 +3668,14 @@ korean = "금단의 성배 보상 발생<end>"
 japanese = "カルラ進軍　準備<end>"
 korean = "카를라 진군 준비<end>"
 
+["1971204"]
+japanese = "シャリに追い出された　発生<end>"
+korean = "샤리에게 쫓겨났다 발생<end>"
+
+["1971205"]
+japanese = "Ｅｖアトレイア＃１　進行中<end>"
+korean = "Ev 아트레이아 #1 진행 중<end>"
+
 ["1971206"]
 japanese = "オルファウス猫　状態<end>"
 korean = "오르파우스 고양이 상태<end>"
@@ -3563,6 +3695,10 @@ korean = "Ev 오이페 #2 진행 중<end>"
 ["1971212"]
 japanese = "孤児救済告知　発生<end>"
 korean = "고아 구제 공지 발생<end>"
+
+["1971213"]
+japanese = "ノエルネメア死亡情報　発生<end>"
+korean = "노엘 네메아 사망 정보 발생<end>"
 
 ["1971214"]
 japanese = "オイフェ護衛依頼　発生<end>"
@@ -3587,6 +3723,10 @@ korean = "돌드람 사망<end>"
 ["1971220"]
 japanese = "邪竜復活阻止　発生<end>"
 korean = "사룡 부활 저지 발생<end>"
+
+["1971221"]
+japanese = "フェティデルガドＯＫ　発生<end>"
+korean = "페티 델가드 OK 발생<end>"
 
 ["1971222"]
 japanese = "シャンマ　死亡<end>"
@@ -3620,6 +3760,10 @@ korean = "Ev 구프트크 #7 진행 중<end>"
 japanese = "イークレムン警告　発生<end>"
 korean = "이크렘 경고 발생<end>"
 
+["1971232"]
+japanese = "クリュセイス暗殺未遂　発生<end>"
+korean = "크류세이스 암살 미수 발생<end>"
+
 ["1971233"]
 japanese = "交渉成功　発生<end>"
 korean = "교섭 성공 발생<end>"
@@ -3636,6 +3780,10 @@ korean = "카를라 진군 극비 정보<end>"
 japanese = "リベルダム陥落　準備<end>"
 korean = "리벨담 함락 준비<end>"
 
+["1971237"]
+japanese = "フゴー邸がさ入れ依頼　発生<end>"
+korean = "휴고 저택 압수수색 의뢰 발생<end>"
+
 ["1971238"]
 japanese = "フゴー交渉　終了<end>"
 korean = "후고 교섭 종료<end>"
@@ -3643,6 +3791,10 @@ korean = "후고 교섭 종료<end>"
 ["1971239"]
 japanese = "解放軍本部ロセン　情報<end>"
 korean = "해방군 본부 로센 정보<end>"
+
+["1971241"]
+japanese = "解放軍お使い時間切れ　発生<end>"
+korean = "해방군 심부름 시간 초과 발생<end>"
 
 ["1971242"]
 japanese = "お使い　終了<end>"
@@ -3676,6 +3828,10 @@ korean = "페우다 이벤트 진행 중<end>"
 japanese = "ロセン地下道脱出　発生<end>"
 korean = "로센 지하도 탈출 발생<end>"
 
+["1971254"]
+japanese = "ロセン地下道脱出完了　発生<end>"
+korean = "로센 지하도 탈출 완료 발생<end>"
+
 ["1971255"]
 japanese = "カルラ進軍　許可<end>"
 korean = "카를라 진군 허가<end>"
@@ -3688,6 +3844,10 @@ korean = "마고스 사망<end>"
 japanese = "ザギヴ執務室　出現<end>"
 korean = "자기브 집무실 출현<end>"
 
+["1971259"]
+japanese = "ネメア死す後ザギヴ先　発生<end>"
+korean = "네메아 사망 후 자기브 우선 발생<end>"
+
 ["1971261"]
 japanese = "アルノートゥン上　状態<end>"
 korean = "알노툰 상부 상태<end>"
@@ -3695,6 +3855,10 @@ korean = "알노툰 상부 상태<end>"
 ["1971262"]
 japanese = "カルラ食い止め中　発生<end>"
 korean = "카를라 저지 중 발생<end>"
+
+["1971263"]
+japanese = "Ｅｖオイフェ＃２６　進行中<end>"
+korean = "Ev 오이페 #26 진행 중<end>"
 
 ["1971264"]
 japanese = "エア　登場<end>"
@@ -3707,6 +3871,14 @@ korean = "상왕 인도 발생<end>"
 ["1971266"]
 japanese = "空中都市阻止突入　発生<end>"
 korean = "공중도시 저지 돌입 발생<end>"
+
+["1971267"]
+japanese = "Ｅｖエア＃２５＿Ａ　進行中<end>"
+korean = "Ev 에어 #25_A 진행 중<end>"
+
+["1971268"]
+japanese = "Ｅｖエア＃２５＿Ｂ　進行中<end>"
+korean = "Ev 에어 #25_B 진행 중<end>"
 
 ["1971269"]
 japanese = "飛行阻止到着　発生<end>"
@@ -3880,6 +4052,10 @@ korean = "카를라 암살 의뢰 발생<end>"
 japanese = "ｱｲﾘｰﾝ決闘発生<end>"
 korean = "아이린 결투 발생<end>"
 
+["1971315"]
+japanese = "イオンズイズキヤル物語発生<end>"
+korean = "이온즈 이즈키야루 이야기 발생<end>"
+
 ["1971316"]
 japanese = "コーンスと宥和状態<end>"
 korean = "콘스와 화해 상태<end>"
@@ -3928,6 +4104,10 @@ korean = "VS 마인 발생 플래그 발생<end>"
 japanese = "ﾌﾚｱ死亡準備<end>"
 korean = "플레어 사망 준비<end>"
 
+["1971337"]
+japanese = "ヴァイヴィア会話フラグ会話<end>"
+korean = "바이비아 회화 플래그 회화<end>"
+
 ["1971339"]
 japanese = "新ナッジ死亡フラグ<end>"
 korean = "신 나지 사망 플래그<end>"
@@ -3955,6 +4135,10 @@ korean = "렐라 여관 발생<end>"
 ["1971345"]
 japanese = "ﾚﾙﾗ宿屋発生<end>"
 korean = "렐라 여관 발생<end>"
+
+["1971346"]
+japanese = "ﾍﾞﾙｾﾞｰｳﾞｱ宿屋発生<end>"
+korean = "벨제브아 여관 발생<end>"
 
 ["1971347"]
 japanese = "ﾚﾑｵﾝ宿屋発生<end>"
@@ -4072,6 +4256,10 @@ korean = "#8 로센의 종을 울려라 발생<end>"
 japanese = "#9ロセンの鐘の英雄発生<end>"
 korean = "#9 로센의 종의 영웅 발생<end>"
 
+["1971413"]
+japanese = "#11クリュセイス暗殺未遂発生<end>"
+korean = "#11 크류세이스 암살 미수 발생<end>"
+
 ["1971414"]
 japanese = "#12クリュセイスと会う発生<end>"
 korean = "#12 크류세이스와 만남 발생<end>"
@@ -4100,6 +4288,14 @@ korean = "#21 엔샨트 도성 학살 발생<end>"
 japanese = "#22ゾフォルとの決着発生<end>"
 korean = "#22 조폴과 결판 발생<end>"
 
+["1971425"]
+japanese = "#23エンシャント陥落告知発生<end>"
+korean = "#23 엔샨트 함락 고지 발생<end>"
+
+["1971426"]
+japanese = "#24エルファスが神になる発生<end>"
+korean = "#24 엘파스가 신이 됨 발생<end>"
+
 ["1971427"]
 japanese = "#25プレボス戦発生<end>"
 korean = "#25 프리보스전 발생<end>"
@@ -4124,6 +4320,10 @@ korean = "#29 이즈키얄을 이야기함 발생<end>"
 japanese = "#34ナッジ分離告知発生<end>"
 korean = "#34 나지 분리 통보 발생<end>"
 
+["1971441"]
+japanese = "#39イシュバアルを倒す①発生<end>"
+korean = "#39 이슈바알을 쓰러뜨림 ① 발생<end>"
+
 ["1971444"]
 japanese = "#42フレア死亡発生<end>"
 korean = "#42 플레어 사망 발생<end>"
@@ -4139,6 +4339,10 @@ korean = "#44 아트레이아 구출 발생<end>"
 ["1971448"]
 japanese = "#46ゼネテス処刑発生<end>"
 korean = "#46 제네테스 처형 발생<end>"
+
+["1971452"]
+japanese = "#50イークレムンとミズチ発生<end>"
+korean = "#50 이크레문과 미즈치 발생<end>"
 
 ["1971456"]
 japanese = "#54空中都市発生<end>"
@@ -4196,9 +4400,21 @@ korean = "#80 쌍둥이와 대화 발생<end>"
 japanese = "#81双子仲間入り発生<end>"
 korean = "#81 쌍둥이 동료 합류 발생<end>"
 
+["1971484"]
+japanese = "#82シャリとツェラシェル発生<end>"
+korean = "#82 샤리와 체라셸 발생<end>"
+
 ["1971486"]
 japanese = "#84ツェラシェル忘却発生<end>"
 korean = "#84 체라셸 망각 발생<end>"
+
+["1971487"]
+japanese = "#85お兄ちゃんと呼ぶ理由発生<end>"
+korean = "#85 오빠라고 부르는 이유 발생<end>"
+
+["1971488"]
+japanese = "#86済み双子と闇の巨人２発生<end>"
+korean = "#86 완료 쌍둥이와 어둠의 거인 2 발생<end>"
 
 ["1971489"]
 japanese = "#87イオンズ導入発生<end>"
@@ -4207,6 +4423,10 @@ korean = "#87 이온즈 도입 발생<end>"
 ["1971490"]
 japanese = "#88イズキヤル暴れる発生<end>"
 korean = "#88 이즈키얄 난동 발생<end>"
+
+["1971491"]
+japanese = "#89フレア死亡カウンター発生<end>"
+korean = "#89 플레어 사망 카운터 발생<end>"
 
 ["1971492"]
 japanese = "#90ジラーク反乱発生<end>"
@@ -4231,6 +4451,10 @@ korean = "#94 서 있는 아이린 발생<end>"
 ["1971497"]
 japanese = "#95カルラのギルド依頼発生<end>"
 korean = "#95 카를라의 길드 의뢰 발생<end>"
+
+["1971498"]
+japanese = "#96カルラの依頼を受ける発生<end>"
+korean = "#96 카를라의 의뢰를 받음 발생<end>"
 
 ["1971500"]
 japanese = "#98アイリーン救出発生<end>"
@@ -4652,6 +4876,10 @@ korean = "#8 로센의 종을 울려라 종료<end>"
 japanese = "#9ロセンの鐘の英雄終了<end>"
 korean = "#9 로센의 종의 영웅 종료<end>"
 
+["1971613"]
+japanese = "#11クリュセイス暗殺未遂終了<end>"
+korean = "#11 크류세이스 암살 미수 종료<end>"
+
 ["1971614"]
 japanese = "#12クリュセイスと会う終了<end>"
 korean = "#12 크류세이스와 만남 종료<end>"
@@ -4679,6 +4907,14 @@ korean = "#21 엔샨트 도성 학살 종료<end>"
 ["1971624"]
 japanese = "#22ゾフォルとの決着終了<end>"
 korean = "#22 조폴과 결판 종료<end>"
+
+["1971625"]
+japanese = "#23エンシャント陥落告知終了<end>"
+korean = "#23 엔샨트 함락 고지 종료<end>"
+
+["1971626"]
+japanese = "#24エルファスが神になる終了<end>"
+korean = "#24 엘파스가 신이 됨 종료<end>"
 
 ["1971627"]
 japanese = "#25プレボス戦終了<end>"
