@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["850020"]
+japanese = "そうだ！<end>"
+korean = "맞아!<end>"
+
 ["850022"]
 japanese = "殺せ！<end>"
 korean = "죽여!<end>"
@@ -7,3 +11,11 @@ korean = "죽여!<end>"
 ["850030"]
 japanese = "断る<end>"
 korean = "거절한다<end>"
+
+["850083"]
+japanese = "お父様？<end>"
+korean = "아버님?<end>"
+
+["850085"]
+japanese = "お父様？<end>"
+korean = "아버님?<end>"

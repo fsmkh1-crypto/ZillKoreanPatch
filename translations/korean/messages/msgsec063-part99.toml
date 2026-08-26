@@ -1,13 +1,33 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["630078"]
+japanese = "でも…。<end>"
+korean = "하지만….<end>"
+
 ["630111"]
 japanese = "正解だ。<end>"
 korean = "정답이야.<end>"
+
+["630128"]
+japanese = "…何か？<end>"
+korean = "…뭔가?<end>"
+
+["630190"]
+japanese = "…何か？<end>"
+korean = "…뭔가?<end>"
 
 ["630200"]
 japanese = "バカな。<end>"
 korean = "말도 안 돼.<end>"
 
+["630249"]
+japanese = "…何か？<end>"
+korean = "…뭔가?<end>"
+
 ["630296"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
+
+["630364"]
+japanese = "約束する<end>"
+korean = "약속한다<end>"

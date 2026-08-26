@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["660041"]
+japanese = "弔い酒？<end>"
+korean = "추모주?<end>"
+
 ["660062"]
 japanese = "ヒマ<end>"
 korean = "한가함<end>"
@@ -7,3 +11,7 @@ korean = "한가함<end>"
 ["660063"]
 japanese = "忙しい<end>"
 korean = "바빠<end>"
+
+["660172"]
+japanese = "もう！<end>"
+korean = "정말!<end>"

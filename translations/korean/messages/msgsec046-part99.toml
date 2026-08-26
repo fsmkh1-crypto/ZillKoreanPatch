@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["460021"]
+japanese = "ぐふっ！<end>"
+korean = "크헉!<end>"
+
 ["460046"]
 japanese = "本当？<end>"
 korean = "정말?<end>"
@@ -11,6 +15,10 @@ korean = "묵는다<end>"
 ["460100"]
 japanese = "親父！<end>"
 korean = "아버지!<end>"
+
+["460152"]
+japanese = "くすっ。<end>"
+korean = "후훗.<end>"
 
 ["460203"]
 japanese = "もらう<end>"

@@ -16,10 +16,26 @@ korean = "누구?<end>"
 japanese = "待て。<end>"
 korean = "기다려.<end>"
 
+["370104"]
+japanese = "いやよ。<end>"
+korean = "싫어.<end>"
+
+["370115"]
+japanese = "えらい。<end>"
+korean = "대단해.<end>"
+
 ["370127"]
 japanese = "はい。<end>"
 korean = "네.<end>"
 
+["370242"]
+japanese = "くっ！！<end>"
+korean = "큭!!<end>"
+
 ["370244"]
 japanese = "誰だ？<end>"
 korean = "누구냐?<end>"
+
+["370256"]
+japanese = "やだね。<end>"
+korean = "싫은데.<end>"

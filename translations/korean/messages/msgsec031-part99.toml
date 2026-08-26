@@ -12,6 +12,10 @@ korean = "아!<end>"
 japanese = "みんな？<end>"
 korean = "다들?<end>"
 
+["310169"]
+japanese = "兄さん！<end>"
+korean = "형!<end>"
+
 ["310185"]
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
@@ -23,6 +27,14 @@ korean = "쏴!!<end>"
 ["310201"]
 japanese = "ぐわっ！<end>"
 korean = "크악!<end>"
+
+["310210"]
+japanese = "え…！？<end>"
+korean = "어…!?<end>"
+
+["310227"]
+japanese = "えっ！？<end>"
+korean = "어!?<end>"
 
 ["310278"]
 japanese = "大通り<end>"

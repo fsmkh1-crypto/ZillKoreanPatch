@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["690034"]
+japanese = "…聖杯？<end>"
+korean = "…성배?<end>"
+
+["690130"]
+japanese = "…では。<end>"
+korean = "…그럼.<end>"
+
+["690146"]
+japanese = "…ふん。<end>"
+korean = "…흥.<end>"
+
 ["690170"]
 japanese = "待て！<end>"
 korean = "기다려!<end>"
@@ -8,6 +20,18 @@ korean = "기다려!<end>"
 japanese = "別に…<end>"
 korean = "별로…<end>"
 
+["690237"]
+japanese = "…では。<end>"
+korean = "…그럼.<end>"
+
 ["690238"]
 japanese = "待て！<end>"
 korean = "기다려!<end>"
+
+["690240"]
+japanese = "行くぞ。<end>"
+korean = "간다.<end>"
+
+["690247"]
+japanese = "…では。<end>"
+korean = "…그럼.<end>"

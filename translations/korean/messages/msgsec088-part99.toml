@@ -1,5 +1,25 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["880025"]
+japanese = "まぁね<end>"
+korean = "뭐, 그렇지<end>"
+
+["880082"]
+japanese = "今はいい<end>"
+korean = "지금은 됐어<end>"
+
+["880089"]
+japanese = "わかった<end>"
+korean = "알았어<end>"
+
+["880091"]
+japanese = "う～ん…<end>"
+korean = "으~음…<end>"
+
+["880097"]
+japanese = "今はいい<end>"
+korean = "지금은 됐어<end>"
+
 ["880167"]
 japanese = "はい<end>"
 korean = "네<end>"
@@ -7,3 +27,7 @@ korean = "네<end>"
 ["880168"]
 japanese = "いいえ<end>"
 korean = "아니요<end>"
+
+["880193"]
+japanese = "殺れ。<end>"
+korean = "죽여.<end>"

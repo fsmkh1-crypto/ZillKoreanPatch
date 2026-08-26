@@ -1,5 +1,17 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["570026"]
+japanese = "それは？<end>"
+korean = "그건?<end>"
+
+["570042"]
+japanese = "これは？<end>"
+korean = "이건?<end>"
+
 ["570085"]
 japanese = "あ！<end>"
 korean = "아!<end>"
+
+["570096"]
+japanese = "いいよ<end>"
+korean = "좋아<end>"

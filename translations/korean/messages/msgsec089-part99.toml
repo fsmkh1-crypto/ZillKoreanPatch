@@ -1,5 +1,25 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["890041"]
+japanese = "今はいい<end>"
+korean = "지금은 됐어<end>"
+
+["890046"]
+japanese = "シャリ！<end>"
+korean = "샤리!<end>"
+
+["890109"]
+japanese = "わかった<end>"
+korean = "알았어<end>"
+
+["890110"]
+japanese = "関係ない<end>"
+korean = "상관없어<end>"
+
+["890125"]
+japanese = "関係ない<end>"
+korean = "상관없어<end>"
+
 ["890140"]
 japanese = "はい<end>"
 korean = "네<end>"
@@ -16,9 +36,45 @@ korean = "아…<end>"
 japanese = "逃げる<end>"
 korean = "도망친다<end>"
 
+["890236"]
+japanese = "逃げない<end>"
+korean = "도망치지 않아<end>"
+
+["890282"]
+japanese = "ぐあっ！<end>"
+korean = "크악!<end>"
+
+["890289"]
+japanese = "ぐあっ！<end>"
+korean = "크악!<end>"
+
+["890301"]
+japanese = "…今よ！<end>"
+korean = "…지금이야!<end>"
+
+["890302"]
+japanese = "ぐあっ！<end>"
+korean = "크악!<end>"
+
 ["890383"]
 japanese = "あ…。<end>"
 korean = "아…<end>"
+
+["890393"]
+japanese = "待って。<end>"
+korean = "기다려.<end>"
+
+["890417"]
+japanese = "ふふふ。<end>"
+korean = "후후후.<end>"
+
+["890683"]
+japanese = "ノエル！<end>"
+korean = "노엘!<end>"
+
+["890707"]
+japanese = "待って！<end>"
+korean = "기다려!<end>"
 
 ["890712"]
 japanese = "なに？<end>"
