@@ -12,6 +12,10 @@ korean = "??? 무슨 소리지?<end>"
 japanese = "きゃっ！<end>"
 korean = "꺅!<end>"
 
+["650006"]
+japanese = "あのお人形…、<line-break>そういうことでしたの。<end>"
+korean = "그 인형… 그런 사정이었군요.<end>"
+
 ["650007"]
 japanese = "ええ、私がティアナです。<line-break>ごめんなさい、名乗らないで。<line-break>　<line-break>少し待っていてくださいね。<end>"
 korean = "네, 제가 티아나예요. 미안해요, 이름은 말하지 말아 주세요. 잠깐 기다려 주세요.<end>"
@@ -107,6 +111,10 @@ korean = "야, <value:$28>.<end>"
 ["650044"]
 japanese = "見破られるなよ、　　　　　　　<line-break><value:$28>。<line-break>　<end>"
 korean = "들키지 마라, <value:$28>.<end>"
+
+["650051"]
+japanese = "お目にかかれて光栄です、<line-break>ノーブル伯。<end>"
+korean = "뵙게 되어 영광입니다, 노블 백작님.<end>"
 
 ["650056"]
 japanese = "フィアンセ殿に怒られなければな。<end>"

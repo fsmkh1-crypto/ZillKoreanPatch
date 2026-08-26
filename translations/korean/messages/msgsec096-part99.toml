@@ -28,6 +28,10 @@ korean = "그때 나는 네 이름을 알게 되겠지.<end>"
 japanese = "<value:$28>…。<line-break>それが、<line-break>うぬの名か…？<end>"
 korean = "<value:$28>…. 그게 네 이름인가…?<end>"
 
+["960016"]
+japanese = "…我が前に<line-break>現れるときを、<line-break>待っていた…。<line-break>…うぬの力、<line-break>我に、見せよ！<end>"
+korean = "…내 앞에 나타날 때를 기다리고 있었다…. 네 힘을 내게 보여라!<end>"
+
 ["960017"]
 japanese = "…見事だ。<end>"
 korean = "…훌륭하군.<end>"

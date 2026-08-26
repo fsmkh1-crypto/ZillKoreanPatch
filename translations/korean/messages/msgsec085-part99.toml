@@ -116,6 +116,10 @@ korean = "마침 잘됐다. 그 원수, 내가 갚겠다.<end>"
 japanese = "く、くそっ！<end>"
 korean = "제, 젠장!<end>"
 
+["850059"]
+japanese = "…あ、ありがとう。<line-break>おかげで助かった。<end>"
+korean = "…고, 고마워. 덕분에 살았어.<end>"
+
 ["850060"]
 japanese = "お父様？　今の騒ぎは？<end>"
 korean = "아버님? 방금 소란은 뭐죠?<end>"
@@ -187,6 +191,34 @@ korean = "후후, 잘 해낸 모양이네?<end>"
 ["850166"]
 japanese = "頼りにしてるわよ<end>"
 korean = "믿고 있을게<end>"
+
+["850171"]
+japanese = "予備メッセージ１<line-break>カルラ、ボリューム２<end>"
+korean = "예비 메시지 1 카를라, 볼륨 2<end>"
+
+["850172"]
+japanese = "予備メッセージ２<line-break>カルラ、ボリューム２<end>"
+korean = "예비 메시지 2 카를라, 볼륨 2<end>"
+
+["850173"]
+japanese = "予備メッセージ３<line-break>カルラ、ボリューム２<end>"
+korean = "예비 메시지 3 카를라, 볼륨 2<end>"
+
+["850176"]
+japanese = "予備メッセージ６<line-break>カルラ、ボリューム２<end>"
+korean = "예비 메시지 6 카를라, 볼륨 2<end>"
+
+["850177"]
+japanese = "予備メッセージ７<line-break>カルラ、ボリューム２<end>"
+korean = "예비 메시지 7 카를라, 볼륨 2<end>"
+
+["850178"]
+japanese = "予備メッセージ８<line-break>カルラ、ボリューム２<end>"
+korean = "예비 메시지 8 카를라, 볼륨 2<end>"
+
+["850179"]
+japanese = "予備メッセージ９<line-break>カルラ、ボリューム２<end>"
+korean = "예비 메시지 9 카를라, 볼륨 2<end>"
 
 ["850180"]
 japanese = "予備メッセージ１０<line-break>カルラ、ボリューム２<end>"

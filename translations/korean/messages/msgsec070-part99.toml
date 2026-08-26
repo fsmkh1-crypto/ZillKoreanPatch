@@ -184,6 +184,10 @@ korean = "누나아.<end>"
 japanese = "星のきれいな夜だよね…。<end>"
 korean = "별이 아름다운 밤이네….<end>"
 
+["700261"]
+japanese = "姉ちゃんの瞳の中にも<line-break>星が降ってるよ。<end>"
+korean = "누나 눈동자 속에도 별이 내리고 있어.<end>"
+
 ["700266"]
 japanese = "お星様はきれい？<line-break><value:$28>。<end>"
 korean = "별은 예뻐? <value:$28>.<end>"

@@ -20,9 +20,17 @@ korean = "네, 네. 말씀하신 대로예요.<end>"
 japanese = "まぁ、何かしら？<end>"
 korean = "어머, 무슨 일이죠?<end>"
 
+["640016"]
+japanese = "人間だ。<line-break>卑しい平民どもだよ。ククク…<end>"
+korean = "인간이다. 천한 평민들이지. 크크크…<end>"
+
 ["640027"]
 japanese = "ううっ…。<line-break>な、なんだ貴様は！<end>"
 korean = "으윽…. 뭐, 뭐냐 네놈은!<end>"
+
+["640028"]
+japanese = "ひいっ！<line-break>お、俺はタルテュバ様だぞっ！<end>"
+korean = "히익! 내, 내가 타르튜바 님이시다!<end>"
 
 ["640029"]
 japanese = "や、や、やめろっ！<end>"
@@ -116,6 +124,10 @@ korean = "저한테 볼일은 없으시겠죠? 저는 어차피 어머님의….
 japanese = "未使用<end>"
 korean = "미사용<end>"
 
+["640075"]
+japanese = "この間は…<line-break>申しわけありませんでした。<end>"
+korean = "지난번에는… 죄송했습니다.<end>"
+
 ["640078"]
 japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
 korean = "아, 지나가십시오. <value:$28> 님.<end>"
@@ -135,6 +147,10 @@ korean = "오늘은… 돌아가 주시지 않겠어요?<end>"
 ["640092"]
 japanese = "…すみません。<end>"
 korean = "…죄송합니다.<end>"
+
+["640099"]
+japanese = "この間は…<line-break>申しわけありませんでした。<end>"
+korean = "지난번에는… 죄송했습니다.<end>"
 
 ["640101"]
 japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
@@ -228,17 +244,33 @@ korean = "그래서 그만 농담을 해버렸어요. <value:$28> 님은 참 신
 japanese = "あ、もうお帰りなのですか？<end>"
 korean = "아, 벌써 돌아가시나요?<end>"
 
+["640164"]
+japanese = "残念です。<line-break>また、いらしてくださいね。<end>"
+korean = "아쉽네요. 다음에 또 와 주세요.<end>"
+
 ["640167"]
 japanese = "あ、もうお帰りなのですか？<end>"
 korean = "아, 벌써 돌아가시나요?<end>"
+
+["640168"]
+japanese = "残念です。<line-break>また、いらしてくださいね。<end>"
+korean = "아쉽네요. 다음에 또 와 주세요.<end>"
 
 ["640177"]
 japanese = "あ、もうお帰りなのですか？<end>"
 korean = "아, 벌써 돌아가시나요?<end>"
 
+["640178"]
+japanese = "残念です。<line-break>また、いらしてくださいね。<end>"
+korean = "아쉽네요. 다음에 또 와 주세요.<end>"
+
 ["640181"]
 japanese = "あ、もうお帰りなのですか？<end>"
 korean = "아, 벌써 돌아가시나요?<end>"
+
+["640182"]
+japanese = "残念です。<line-break>また、いらしてくださいね。<end>"
+korean = "아쉽네요. 다음에 또 와 주세요.<end>"
 
 ["640183"]
 japanese = "何かお飲物をおもちしましょうか？<end>"
@@ -316,6 +348,10 @@ korean = "이 사람, 오빠 여자친구야?<end>"
 japanese = "ふふっ。そうよ。<end>"
 korean = "후훗. 그래.<end>"
 
+["640232"]
+japanese = "ふーん。<line-break>おにあいのカノジョじゃない。<end>"
+korean = "흐응. 잘 어울리는 여자친구잖아.<end>"
+
 ["640234"]
 japanese = "なんで知ってるの？<end>"
 korean = "어떻게 알고 있어?<end>"
@@ -336,9 +372,17 @@ korean = "언니도 타르튜바한테 괴롭힘당하면 <value:$28>한테 도�
 japanese = "えっ、ええ…<end>"
 korean = "어, 어어…<end>"
 
+["640244"]
+japanese = "ふーん、それにしては<line-break>おしとやかだね。<end>"
+korean = "흐응, 그래도 꽤 얌전하네.<end>"
+
 ["640247"]
 japanese = "ひどい…。<line-break>　<line-break>　<line-break>誰なの？<line-break>誰がこんなひどいことを！<end>"
 korean = "끔찍해…. 누가? 누가 이런 짓을 한 거야!<end>"
+
+["640253"]
+japanese = "どこ行ったんだ、<line-break>こいつの母ちゃんは？<end>"
+korean = "이 녀석 엄마는 어디 간 거야?<end>"
 
 ["640259"]
 japanese = "この子のために…頼む。<end>"
@@ -359,6 +403,10 @@ korean = "그래. 친구야.<end>"
 ["640268"]
 japanese = "…自己満足です。<end>"
 korean = "…자기만족입니다.<end>"
+
+["640269"]
+japanese = "あなたは英雄を<line-break>気取っているだけです。<end>"
+korean = "당신은 영웅인 척하고 있을 뿐입니다.<end>"
 
 ["640274"]
 japanese = "確かに、あのときは…。<end>"

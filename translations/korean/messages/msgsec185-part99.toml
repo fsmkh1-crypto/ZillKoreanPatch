@@ -44,6 +44,10 @@ korean = "안 된 거야!? 아아, 실망이네.<end>"
 japanese = "今日はもうお引き取りください。<end>"
 korean = "오늘은 이제 돌아가 주세요.<end>"
 
+["1850045"]
+japanese = "これは、<value:$28>様。<line-break>お入りください。<end>"
+korean = "<value:$28>님이시군요. 들어오세요.<end>"
+
 ["1850046"]
 japanese = "おや、<value:$28>様。<line-break>このような時に来られるとは。<line-break>どのようなご用ですかな？<end>"
 korean = "이런, <value:$28>님. 이런 때 오시다니. 무슨 용건이신지요?<end>"

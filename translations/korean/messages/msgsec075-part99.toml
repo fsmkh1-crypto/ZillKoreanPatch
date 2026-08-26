@@ -68,6 +68,10 @@ korean = "그럼 공주님, 실례하겠습니다.<end>"
 japanese = "きゃっ。<end>"
 korean = "꺅.<end>"
 
+["750038"]
+japanese = "これはお礼だよ。<line-break>ホントにありがとう。<end>"
+korean = "이건 답례야. 정말 고마워.<end>"
+
 ["750039"]
 japanese = "３０００ギア手に入れた。<end>"
 korean = "3000기아를 손에 넣었다.<end>"
@@ -164,6 +168,10 @@ korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드
 japanese = "きゃっ。<end>"
 korean = "꺅.<end>"
 
+["750092"]
+japanese = "これはお礼だよ。<line-break>ホントにありがとう。<end>"
+korean = "이건 답례야. 정말 고마워.<end>"
+
 ["750093"]
 japanese = "３０００ギア手に入れた。<end>"
 korean = "3000기아를 손에 넣었다.<end>"
@@ -232,6 +240,10 @@ korean = "…그렇지 않으면.<end>"
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
 
+["750137"]
+japanese = "フゴーの所で<line-break>何を売るつもりなんだい。<end>"
+korean = "후고에게서 뭘 팔 생각이야?<end>"
+
 ["750145"]
 japanese = "いい子だ。<end>"
 korean = "착한 아이야.<end>"
@@ -255,6 +267,10 @@ korean = "맞아. 고마워, 용사님!<end>"
 ["750197"]
 japanese = "…<value:$28>様、<line-break>どうか、またいらしてください。<line-break>…お願い、します。<end>"
 korean = "…<value:$28> 님, 부디 또 와 주세요. …부탁드립니다.<end>"
+
+["750198"]
+japanese = "…すみません。<line-break>お恥ずかしい姿ですね。<end>"
+korean = "…죄송합니다. 부끄러운 모습을 보였네요.<end>"
 
 ["750203"]
 japanese = "そんなことは言わない方がいい<end>"

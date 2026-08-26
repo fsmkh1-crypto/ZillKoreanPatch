@@ -12,6 +12,10 @@ korean = "나의, <value:$28>….<end>"
 japanese = "<value:$28>、起きて…。<end>"
 korean = "<value:$28>, 일어나…<end>"
 
+["1920004"]
+japanese = "起きなさい、<value:$28>！<line-break>もう、お昼よ！<end>"
+korean = "일어나, <value:$28>! 벌써 점심이야!<end>"
+
 ["1920008"]
 japanese = "あら、<value:$28>。<line-break>目が覚めたみたいね。<line-break>朝ご飯はできてるわよ。　　　　<end>"
 korean = "어머, <value:$28>. 깨어난 모양이네. 아침밥은 다 됐어.<end>"
@@ -35,6 +39,10 @@ korean = "역시 고브. 이걸로 <value:$28>의 78연승 고브!<end>"
 ["1920026"]
 japanese = "っるさい！<end>"
 korean = "시끄러워!<end>"
+
+["1920031"]
+japanese = "<value:$28>。<line-break>明日は絶対に負けないわよ！<end>"
+korean = "<value:$28>. 내일은 절대 지지 않을 거야!<end>"
 
 ["1920035"]
 japanese = "私が…魅力的？<end>"

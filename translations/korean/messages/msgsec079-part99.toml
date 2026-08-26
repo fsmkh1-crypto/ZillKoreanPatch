@@ -8,6 +8,10 @@ korean = "유리스 메시지 VOL1 시작<end>"
 japanese = "なんともはや…。<end>"
 korean = "이거 참….<end>"
 
+["790014"]
+japanese = "あの…もしかして、<line-break>冒険者の方ですか？<end>"
+korean = "저기… 혹시 모험자이신가요?<end>"
+
 ["790015"]
 japanese = "いいですね、自由って…。<end>"
 korean = "좋네요, 자유라는 건….<end>"
@@ -23,6 +27,10 @@ korean = "…꺅! 어서 오세요. 아, 당신은… 지난번의….<end>"
 ["790021"]
 japanese = "きゃっ、誰かと思えば…。<end>"
 korean = "꺅, 누군가 했더니….<end>"
+
+["790024"]
+japanese = "………………。　　　　　<line-break>　<line-break>　<line-break>もしかして…<line-break>あなた、アカデミーの人？<end>"
+korean = "………………. 혹시… 당신, 아카데미 사람인가요?<end>"
 
 ["790031"]
 japanese = "助けてやる<end>"
@@ -123,6 +131,10 @@ korean = "유리스의 복학을 허가한다!<end>"
 ["790116"]
 japanese = "きゃっ、<value:$28>！<line-break>聞いた聞いた？<line-break>私、アカデミーに復帰できるの！<line-break>みじめな冒険者生活ともサヨナラよ！<end>"
 korean = "꺄, <value:$28>! 들었어, 들었어? 나 아카데미에 복귀할 수 있어! 비참한 모험자 생활도 이제 안녕이야!<end>"
+
+["790119"]
+japanese = "………………。<line-break>　<line-break>　<line-break>アカデミーに戻るのって<line-break>案外つまらないのかも…。<end>"
+korean = "………………. 아카데미로 돌아가는 건 의외로 재미없을지도….<end>"
 
 ["790121"]
 japanese = "どういうことです？<end>"
