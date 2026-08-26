@@ -90,6 +90,11 @@ jobs:
       - name: Auto-apply safe TM, patterns, and deterministic literals
         shell: bash
         run: |
+          if [ ! -s /tmp/korean-processed-files ]; then
+            echo 'Maintenance-only run; skipping automatic translation mutation.'
+            exit 0
+          fi
+
           python3 tools/korean/auto-safe.py \
             /tmp/korean-packet/current.jsonl \
             --out /tmp/korean-packet/safe.jsonl
