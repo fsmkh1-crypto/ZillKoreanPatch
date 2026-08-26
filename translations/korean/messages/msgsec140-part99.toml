@@ -584,6 +584,10 @@ korean = "아니야. 샤리는 인형이 아니야!<end>"
 japanese = "………………。<line-break><line-break><line-break>誰かの、痛みを、感じること…<line-break>それが、僕の、願い…？<end>"
 korean = "………………. 누군가의 아픔을 느끼는 것… 그게 내 소원…?<end>"
 
+["1400301"]
+japanese = "じゃ、<value:$28>。<line-break>せっかくだから、墜落の瞬間まで<line-break>ゆっくりしてってよ。<line-break>あはははは！<line-break>じゃあね～。<end>"
+korean = "그럼 <value:$28>. 모처럼이니 추락하는 순간까지 느긋하게 있다 가. 아하하하! 잘 가~.<end>"
+
 ["1400305"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
