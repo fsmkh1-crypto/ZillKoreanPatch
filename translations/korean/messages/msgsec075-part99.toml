@@ -336,6 +336,10 @@ korean = "그런 말은 하지 않는 편이 좋아<end>"
 japanese = "その通りだ<end>"
 korean = "그 말대로야<end>"
 
+["750205"]
+japanese = "…す、すみません。<line-break>私、変なことを言ってしまって…。　<line-break>　<line-break>でも、つい…、比べてしまって……。<end>"
+korean = "…죄, 죄송합니다. 제가 이상한 말을 해 버려서…. 하지만 저도 모르게… 비교하게 돼서……. <end>"
+
 ["750206"]
 japanese = "…そう…ですよね。<line-break>…その通りですよね。<end>"
 korean = "…그렇…군요. …말씀하신 대로예요.<end>"
@@ -355,6 +359,10 @@ korean = "예쁘다<end>"
 ["750212"]
 japanese = "それほどでもない<end>"
 korean = "그 정도는 아니야<end>"
+
+["750214"]
+japanese = "フフ、私に気を使って<line-break>いただかなくても結構ですわ。<line-break>　<line-break><value:$28>様は<line-break>本当におやさしいですね。<end>"
+korean = "후후, 저를 신경 쓰지 않으셔도 괜찮아요. <value:$28>님은 정말 상냥하시네요.<end>"
 
 ["750220"]
 japanese = "真っ先に会いに行った<end>"

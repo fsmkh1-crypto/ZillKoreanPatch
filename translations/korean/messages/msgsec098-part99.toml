@@ -8,6 +8,10 @@ korean = "아이린 메시지 VOL1용 시작<end>"
 japanese = "あ…、<value:$28>さん。<end>"
 korean = "아…, <value:$28> 씨.<end>"
 
+["980002"]
+japanese = "キス…<line-break>してくれました。　　　<line-break>　<line-break>おかえりなさい。<line-break><value:$28>さん。<line-break>…不安だったです。<end>"
+korean = "키스… 해 줬어요. 돌아오셨군요, <value:$28>님. …불안했어요.<end>"
+
 ["980003"]
 japanese = "もう一度…。<end>"
 korean = "다시 한 번….<end>"

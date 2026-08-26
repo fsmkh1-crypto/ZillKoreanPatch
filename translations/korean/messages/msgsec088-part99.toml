@@ -232,6 +232,10 @@ korean = "아, 움직여져!<end>"
 japanese = "くすっ、よかったね。<line-break><value:$28>に感謝しないとね。<line-break>じゃ、またね。<line-break>あははっ。<end>"
 korean = "후후, 다행이네. <value:$28>에게 감사해야겠어. 그럼 또 봐. 아하하.<end>"
 
+["880157"]
+japanese = "族長がいなければ、<line-break>ラドラスは砂漠に沈む。<end>"
+korean = "족장이 없으면 라드라스는 사막에 가라앉는다.<end>"
+
 ["880159"]
 japanese = "さ、ついてきて。<end>"
 korean = "자, 따라와.<end>"

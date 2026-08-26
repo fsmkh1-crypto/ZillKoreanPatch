@@ -44,6 +44,10 @@ korean = "맞아!<end>"
 japanese = "殺せ！<end>"
 korean = "죽여!<end>"
 
+["850024"]
+japanese = "そうだ。これで終わったと思うな！<line-break>ブゾリ！<end>"
+korean = "그래. 이걸로 끝났다고 생각하지 마라! 부조리!<end>"
+
 ["850027"]
 japanese = "<value:$28>さん<line-break>…ですね。<end>"
 korean = "<value:$28> 씨… 맞죠.<end>"
@@ -72,6 +76,10 @@ korean = "<value:$28>님, 기다리고 있었습니다.<end>"
 japanese = "さ、こちらへ…。<end>"
 korean = "자, 이쪽으로….<end>"
 
+["850035"]
+japanese = "こちらが依頼主。<line-break>ロセン総督ブゾリ様です。<end>"
+korean = "이분이 의뢰인, 로센 총독 부조리 님입니다.<end>"
+
 ["850039"]
 japanese = "どうかしら？<end>"
 korean = "어때?<end>"
@@ -99,6 +107,10 @@ korean = "방해하지 않는다<end>"
 ["850048"]
 japanese = "絶対阻止してみせる<end>"
 korean = "반드시 저지하겠어<end>"
+
+["850050"]
+japanese = "確かめさせて？<line-break>あなたの生きている意味を。<end>"
+korean = "확인하게 해 줘. 네가 살아 있는 의미를.<end>"
 
 ["850054"]
 japanese = "（…ブゾリの刺客？）<end>"
@@ -164,6 +176,10 @@ korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시
 japanese = "そこで、ね。　　　　　　　　　　　<end>"
 korean = "그래서 말인데.<end>"
 
+["850100"]
+japanese = "どお？<line-break>ディンガルの皇帝になってみない？　<end>"
+korean = "어때? 딘갈의 황제가 되어 보지 않을래?<end>"
+
 ["850115"]
 japanese = "頼りにしてるわよ<end>"
 korean = "믿고 있을게<end>"
@@ -175,6 +191,10 @@ korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시
 ["850127"]
 japanese = "そこで、ね。　　　　　　　　　　　<end>"
 korean = "그래서 말인데.<end>"
+
+["850131"]
+japanese = "どお？<line-break>ディンガルの皇帝になってみない？　<end>"
+korean = "어때? 딘갈의 황제가 되어 보지 않을래?<end>"
 
 ["850146"]
 japanese = "頼りにしてるわよ<end>"

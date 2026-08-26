@@ -68,6 +68,10 @@ korean = "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집
 japanese = "冗談よ。<line-break>相変わらず子供ねぇ。<end>"
 korean = "농담이야. 여전히 어린애네.<end>"
 
+["300053"]
+japanese = "くすっ。<line-break>足手まといにだけはならないでね。<end>"
+korean = "후훗. 짐만 되지는 마.<end>"
+
 ["300054"]
 japanese = "あ！　<value:$28>！<line-break>　<line-break>　<line-break>きゃーーーーー！！！！！！<line-break>　<line-break>　<end>"
 korean = "아! <value:$28>! 꺄아아아아아아!!!!<end>"
@@ -75,6 +79,10 @@ korean = "아! <value:$28>! 꺄아아아아아아!!!!<end>"
 ["300059"]
 japanese = "くすっ。<line-break>はいはい、子供のころの話よね。　　<line-break>　<line-break>…だんだん目が慣れてきたわ。<end>"
 korean = "후훗. 그래그래, 어릴 적 이야기지. …점점 눈이 익숙해지네.<end>"
+
+["300061"]
+japanese = "そっちはどう？<line-break>もう少し探してみましょう。<end>"
+korean = "그쪽은 어때? 조금 더 찾아보자.<end>"
 
 ["300062"]
 japanese = "くやしいけど、なすすべなしね。<end>"

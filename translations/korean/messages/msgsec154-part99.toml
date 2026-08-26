@@ -148,6 +148,10 @@ korean = "어라? 혹시 나를 적으로 돌리겠다는 뜻인가?"
 japanese = "ああ。ずるいね、エルファス。<line-break>君は姉さんの代わりを…安らぎを<line-break><value:$28>に求めてるんだ。<end>"
 korean = "그래. 치사하네, 엘파스. 넌 누나의 대신을… 안식을 <value:$28>에게서 찾고 있는 거야.<end>"
 
+["1540073"]
+japanese = "違う。<value:$28>が…。<line-break>僕にとって大事な存在だからだ。<line-break>　<line-break>僕はただ<value:$28>を<line-break>守りたい…。<end>"
+korean = "아니야. <value:$28>이… 내게 소중한 존재라서 그래. 나는 그저 <value:$28>을 지키고 싶어….<end>"
+
 ["1540074"]
 japanese = "くすっ。<line-break>ふーん、そう。<end>"
 korean = "후훗. 흐음, 그렇구나.<end>"

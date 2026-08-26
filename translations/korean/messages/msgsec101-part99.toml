@@ -12,6 +12,10 @@ korean = "빨리 가세요.<end>"
 japanese = "…ほんっとに<line-break>しょうがない…奴。<end>"
 korean = "…정말 어쩔 수 없는… 녀석.<end>"
 
+["1010006"]
+japanese = "…<value:$28>、<line-break>まだ、解放軍に味方してるの？<end>"
+korean = "…<value:$28>, 아직도 해방군 편을 들고 있어?<end>"
+
 ["1010009"]
 japanese = "…皮肉なものね、<line-break>運命なんて。<end>"
 korean = "…운명이라는 것도 참 얄궂네.<end>"
@@ -55,6 +59,10 @@ korean = "…난 군무로 바빠. 너도 이제 나한테서 졸업해. 그럼,
 ["1010043"]
 japanese = "早く、行きなさい。<end>"
 korean = "빨리 가세요.<end>"
+
+["1010044"]
+japanese = "…<value:$28>、<line-break>まだ、解放軍に味方してるの？<end>"
+korean = "…<value:$28>, 아직도 해방군 편을 들고 있어?<end>"
 
 ["1010051"]
 japanese = "…次は…ないわ。<end>"

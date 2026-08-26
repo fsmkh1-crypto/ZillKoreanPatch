@@ -88,6 +88,10 @@ korean = "반, 왜 그래? 기쁘지 않아?<end>"
 japanese = "…ナッジのこと、頼むぜ。<end>"
 korean = "…나지 부탁한다.<end>"
 
+["460084"]
+japanese = "よぉ、<value:$28>。<line-break>元気そうで何よりだ。<line-break>　<line-break>泊まっていくかい？<line-break>あんたらなら、タダでいいぜ。<end>"
+korean = "여어, <value:$28>. 건강해 보여서 다행이다. 묵고 갈래? 너희라면 공짜로 해 줄게.<end>"
+
 ["460085"]
 japanese = "泊まる<end>"
 korean = "묵는다<end>"
@@ -191,6 +195,10 @@ korean = "아마 이 아이는 도움이 될 거예요.<end>"
 ["460167"]
 japanese = "ど、どうなってるの？<line-break>ねえ、<value:$28>！<end>"
 korean = "어, 어떻게 된 거야? 저기, <value:$28>!<end>"
+
+["460170"]
+japanese = "さて、何か質問があれば、<line-break>受け付けますよ。<end>"
+korean = "자, 질문이 있으면 받겠습니다.<end>"
 
 ["460171"]
 japanese = "無限のソウルとは<end>"

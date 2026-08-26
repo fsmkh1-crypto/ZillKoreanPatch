@@ -12,6 +12,10 @@ korean = "흐응, 데이트 신청?<end>"
 japanese = "来ていただけるかしら、<line-break>ゼネテス様？<end>"
 korean = "와 주시겠어요, 제네테스 님?<end>"
 
+["510013"]
+japanese = "力ずくでも、来ていただくわ、<line-break>ゼネテス様。<end>"
+korean = "힘으로라도 모셔 가겠습니다, 제네테스 님.<end>"
+
 ["510016"]
 japanese = "ヴァイ、ヴィア、やめろ！<end>"
 korean = "바이, 비아, 그만해!<end>"
@@ -76,6 +80,10 @@ korean = "로스톨의 용병이 된다.<end>"
 japanese = "ディンガルの傭兵のままでいる<end>"
 korean = "딩갈 용병으로 계속 남는다<end>"
 
+["510056"]
+japanese = "そうかい。<line-break>ま、それもいいかもしれないな。<end>"
+korean = "그래. 뭐, 그것도 괜찮을지 모르겠네.<end>"
+
 ["510058"]
 japanese = "傭兵志願者か？<line-break>お前はついている！　<line-break>すぐ仕事だ。<line-break>戦いの用意はよいか？<end>"
 korean = "용병 지원자인가? 운이 좋군! 바로 일이다. 싸울 준비는 됐나?<end>"
@@ -112,6 +120,14 @@ korean = "수고했다. 물러가도 좋다.<end>"
 japanese = "よう、<value:$28>。<line-break>久しぶり。<end>"
 korean = "여어, <value:$28>. 오랜만이야.<end>"
 
+["510079"]
+japanese = "ロストール軍は、海路からの<line-break>侵攻に<line-break><end>"
+korean = "로스토올군은 해로에서의 침공에<end>"
+
+["510091"]
+japanese = "そんなロマンチズムに<line-break>つきあう気はないな。<end>"
+korean = "그런 낭만주의에 어울려 줄 생각은 없어.<end>"
+
 ["510099"]
 japanese = "５分でいい。<line-break>頼むぜ、<value:$28>。<end>"
 korean = "5분이면 돼. 부탁한다, <value:$28>.<end>"
@@ -123,6 +139,10 @@ korean = "말도 안 돼, 로스톨군이라고!<end>"
 ["510102"]
 japanese = "奇襲だ！<line-break>とにかく、もみつぶせ！<end>"
 korean = "기습이다! 어쨌든 짓뭉개 버려!<end>"
+
+["510106"]
+japanese = "…とっつぁん、<line-break>悪いが、命をもらう。　　<line-break>　<line-break>…ロストールの兵の<line-break>命がかかってるんでな。<end>"
+korean = "…아저씨, 미안하지만 목숨을 받겠다. …로스토올 병사들의 목숨이 걸려 있어서 말이야.<end>"
 
 ["510110"]
 japanese = "朱雀将軍が討ち取られたぞ！<end>"

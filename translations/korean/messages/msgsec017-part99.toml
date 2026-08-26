@@ -32,6 +32,10 @@ korean = "그럼, <value:$15>는 어때?<end>"
 japanese = "名前を入力してください。<line-break><end>"
 korean = "이름을 입력해 주세요.<end>"
 
+["170027"]
+japanese = "方向キーでカーソル移動、①ボタンで決定。<line-break><end>"
+korean = "방향키로 커서를 이동하고, ① 버튼으로 결정.<end>"
+
 ["170028"]
 japanese = "８文字まで入力できます。<end>"
 korean = "8자까지 입력할 수 있습니다.<end>"

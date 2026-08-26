@@ -12,6 +12,10 @@ korean = "응? 딸? 무슨 소리야?<end>"
 japanese = "おわっ！<end>"
 korean = "우왓!<end>"
 
+["840007"]
+japanese = "ちょっと、あんた！<line-break>何ボーっと見てんのよ！<end>"
+korean = "잠깐, 너! 뭘 멍하니 보고 있어!<end>"
+
 ["840009"]
 japanese = "そんじゃ、<line-break>さっさと片付けちゃおうか！？<end>"
 korean = "그럼, 빨리 끝내 버릴까!?<end>"
@@ -364,6 +368,10 @@ korean = "감사합니다. 하지만 그분 혼자서 괜찮으실까요?<end>"
 japanese = "なんとか抜け出したわね。<end>"
 korean = "어떻게든 빠져나왔네.<end>"
 
+["840181"]
+japanese = "そんな…、私たちは　　　　　　<line-break>カルラさんに力を貸しただけ。<line-break>　<line-break>カルラさん、大丈夫なのかな…。<end>"
+korean = "그럴 수가… 우린 카를라 씨를 도왔을 뿐인데. 카를라 씨, 괜찮은 걸까….<end>"
+
 ["840183"]
 japanese = "ありがとうございました。<line-break>　<line-break>　<line-break>でも、あの方はおひとりで<line-break>無事なのでしょうか？<end>"
 korean = "감사합니다. 하지만 그분 혼자서 무사하실까요?<end>"
@@ -419,6 +427,10 @@ korean = "큰일! 이제 임무로 돌아가야 해.<end>"
 ["840215"]
 japanese = "また会おうね！<line-break>今度は歴史の大舞台でさ。<end>"
 korean = "또 만나자! 다음엔 역사의 큰 무대에서.<end>"
+
+["840216"]
+japanese = "よっし、追いついた。<line-break>さ、早く逃げましょ。<end>"
+korean = "좋아, 따라잡았다. 자, 빨리 도망치자.<end>"
 
 ["840218"]
 japanese = "ちょっとちょっと、<line-break>また戻ってどうすんの。<line-break>　<line-break>しっかりしてよね、<line-break>非常時なんだから。<end>"

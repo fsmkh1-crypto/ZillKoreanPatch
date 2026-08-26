@@ -32,6 +32,10 @@ korean = "공기가 가벼워…. 달빛이 이렇게 부드럽고 밝다니….
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"
 
+["770018"]
+japanese = "な、なんだ貴様？<line-break>こっ、この俺のジャマをする気か？<line-break>クズのくせにクズのくせにクズの…！<line-break>殺す！<end>"
+korean = "뭐, 뭐냐 네놈? 이, 이 나를 방해할 셈이냐? 쓰레기 주제에, 쓰레기 주제에, 쓰레기…! 죽여 버리겠다!<end>"
+
 ["770019"]
 japanese = "…<value:$28>。<line-break>こ、この…。<line-break>く、くそっ！　覚えていろ！<end>"
 korean = "…<value:$28>. 이, 이…. 젠장! 두고 봐!<end>"
@@ -184,6 +188,10 @@ korean = "아무도 기다리고 있지 않아!<end>"
 japanese = "歌なら歌えます！<end>"
 korean = "노래라면 부를 수 있어요!<end>"
 
+["770104"]
+japanese = "ハハハハハハ！<line-break>あんたの歌のおかげで<line-break>客も盛り上がって、大繁盛さ。　<line-break>少ないけど、とっときな。<end>"
+korean = "하하하하하! 네 노래 덕분에 손님들도 신나서 장사가 잘됐어. 얼마 안 되지만 받아 둬.<end>"
+
 ["770105"]
 japanese = "お金は結構ですから、あの…。<end>"
 korean = "돈은 괜찮으니까, 저기….<end>"
@@ -207,6 +215,10 @@ korean = "네, 열심히 할게요.<end>"
 ["770120"]
 japanese = "ああ…、<line-break>お母…様…。<end>"
 korean = "아아… 어머…님….<end>"
+
+["770122"]
+japanese = "キャアアアアー！！<line-break>お母様！　お母様ーッ！<end>"
+korean = "꺄아아아아!! 어머니! 어머니!!<end>"
 
 ["770124"]
 japanese = "イヤ…嫌ァアアアアア！！　　<line-break>　<line-break>　<line-break>お母様！　お母様！<line-break>置いていかないで！　お母様！<end>"

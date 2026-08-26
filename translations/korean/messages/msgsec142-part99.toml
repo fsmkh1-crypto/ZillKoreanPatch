@@ -552,6 +552,10 @@ korean = "<value:$28>, 자네가 있으면 해산할 수가 없지 않나!<end>"
 japanese = "<value:$28>！<line-break>解散しても、<line-break>家にカエサンつもりかよっ！<end>"
 korean = "<value:$28>! 해산해도 집에는 안 돌려보낼 셈이냐!<end>"
 
+["1420322"]
+japanese = "同感だ…。<line-break> <line-break> <line-break>ここは、私たちが<line-break><value:$28>を見送った方が<line-break>話がうまく行きそうだな。<end>"
+korean = "동감이야…. 여기서는 우리가 <value:$28>을 배웅하는 편이 일이 잘 풀릴 것 같군.<end>"
+
 ["1420323"]
 japanese = "…きれいに流されたね、ヴァン。<end>"
 korean = "…깔끔하게 흘려버렸네, 반.<end>"

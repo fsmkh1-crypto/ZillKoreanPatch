@@ -12,6 +12,10 @@ korean = "여어.<end>"
 japanese = "やあ、ヴァン。<end>"
 korean = "안녕, 반.<end>"
 
+["280007"]
+japanese = "本当によく壊れなかったよね。<line-break>あちこち修理しなきゃならないけど。<line-break>　<line-break>あ、ねえ、<value:$28>。<line-break><end>"
+korean = "정말 잘도 안 부서졌네. 여기저기 고쳐야 하긴 하지만. 아, 있잖아, <value:$28>.<end>"
+
 ["280008"]
 japanese = "ねえ、<value:$28>。<end>"
 korean = "있잖아, <value:$28>.<end>"
@@ -116,6 +120,10 @@ korean = "아, <value:$28>. 여관의 반에게 큰일이 생겼다며?<end>"
 japanese = "おう、遅かったじゃないか。<end>"
 korean = "어이, 늦었잖아.<end>"
 
+["280056"]
+japanese = "木こりの奥さんの見立てなら<line-break>間違いないね。<end>"
+korean = "나무꾼 아내의 안목이라면 틀림없지.<end>"
+
 ["280057"]
 japanese = "なに言ってんだい。<end>"
 korean = "무슨 소릴 하는 거야.<end>"
@@ -163,6 +171,10 @@ korean = "받아라!! 필살! 무적 부활 용사창!!<end>"
 ["280080"]
 japanese = "子供とて許されると思うな！<end>"
 korean = "아이라고 봐줄 줄 아느냐!<end>"
+
+["280081"]
+japanese = "俺様の燃える瞳は…<line-break>悪の火種を見逃さんっ！<end>"
+korean = "나의 불타는 눈은… 악의 불씨를 놓치지 않는다!<end>"
 
 ["280082"]
 japanese = "ヴァンは僕が看てる。<line-break><value:$28>は<line-break>道具屋で薬草を買ってきて。<end>"
@@ -279,6 +291,10 @@ korean = "으…으….<end>"
 ["280147"]
 japanese = "ヴァンは宿屋だ。<line-break>早く行ってやれ。<end>"
 korean = "반은 여관에 있다. 어서 가 봐.<end>"
+
+["280151"]
+japanese = "善意の薬草は<line-break>ヴァンの父に踏みにじられた。<end>"
+korean = "선의로 준 약초는 반의 아버지에게 짓밟혔다.<end>"
 
 ["280153"]
 japanese = "やめるんだ、<line-break><value:$28>！<end>"

@@ -68,6 +68,10 @@ korean = "해방군 본부가 파괴됐어.<end>"
 japanese = "ロセン提督、ブゾリの手の者の<line-break>仕業だろう<end>"
 korean = "로센 제독, 부조리의 부하들이 한 짓이겠지.<end>"
 
+["1060111"]
+japanese = "そ、そんな…。<line-break><value:$28>様が…、そんな…。<end>"
+korean = "그, 그럴 수가…. <value:$28>님이… 그럴 수가….<end>"
+
 ["1060112"]
 japanese = "クリュセイス、ショックだったろう。<end>"
 korean = "크류세이스, 충격이었겠지.<end>"

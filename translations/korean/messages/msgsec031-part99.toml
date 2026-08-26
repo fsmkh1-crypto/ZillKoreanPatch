@@ -28,6 +28,10 @@ korean = "다치신 곳은 없습니까?<end>"
 japanese = "<value:$28>さん…、<line-break>悪代官ボルボラに立ち向かう者を率いる<line-break>勇敢な少女。<end>"
 korean = "<value:$28> 씨…, 악대관 볼보라에 맞서는 사람들을 이끄는 용감한 소녀.<end>"
 
+["310020"]
+japanese = "やれやれ。<line-break>わかっていただけたようですな。<end>"
+korean = "이런. 알아들으신 모양이군요.<end>"
+
 ["310022"]
 japanese = "<value:$28>…。<line-break>いい目をした少女だ…。<line-break>反乱は予定より早く起こりそうですな。<end>"
 korean = "<value:$28>…. 좋은 눈을 한 소녀군…. 반란은 예정대로보다 빨리 일어날 것 같군.<end>"
@@ -200,6 +204,10 @@ korean = "레므온을 따라가지 않는다<end>"
 japanese = "そんな…勝手すぎだぜ！！<end>"
 korean = "그런… 너무 제멋대로잖아!!<end>"
 
+["310154"]
+japanese = "姉ちゃん。<line-break>もう、起きた？<line-break>入るぜ。<end>"
+korean = "누나. 벌써 일어났어? 들어갈게.<end>"
+
 ["310155"]
 japanese = "やっぱ、寝てないんだ…。<end>"
 korean = "역시, 안 잤구나….<end>"
@@ -311,6 +319,10 @@ korean = "여, 여러분!! 도망치시오!!<end>"
 ["310203"]
 japanese = "ひいいいっ！！<end>"
 korean = "히이익!!<end>"
+
+["310206"]
+japanese = "う…ううん…。<line-break>気を…失っていたの…か…。<end>"
+korean = "으… 으응…. 정신을… 잃고 있었던 건가….<end>"
 
 ["310207"]
 japanese = "ね…姉ちゃん、<line-break>大丈夫？<end>"

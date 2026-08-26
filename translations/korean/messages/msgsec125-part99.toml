@@ -140,6 +140,10 @@ korean = "벨제바 님…. ……………….<end>"
 japanese = "湖に沈んだ遺跡？<line-break><line-break><line-break>そうだな…<line-break>夢幻の湖がそんな感じだな。<line-break>行ってみるかい？<end>"
 korean = "호수에 가라앉은 유적? 그렇군… 몽환의 호수가 그런 느낌이지. 가 볼래?<end>"
 
+["1250238"]
+japanese = "湖に沈んだ遺跡？<line-break>見つけたとしても、どうやって<line-break>そこにいけばいいのかのう？<line-break>泳ぐのは苦手じゃしな。<end>"
+korean = "호수에 가라앉은 유적? 찾는다 해도 어떻게 거기까지 가지? 난 수영도 서툰데.<end>"
+
 ["1250239"]
 japanese = "湖に沈んだ遺跡かぁ…<line-break>心辺りがないなぁ。<line-break><line-break>僕のあまり知らない大陸の南側に<line-break>あるのかもしれないね。<end>"
 korean = "호수에 가라앉은 유적이라…. 짐작 가는 데가 없네. 내가 잘 모르는 대륙 남쪽에 있을지도 몰라.<end>"
@@ -176,10 +180,30 @@ korean = "벨제바 님…. ……………….<end>"
 japanese = "魔導の塔、夢幻の湖…。<line-break><line-break><line-break>私は、そこへ禁呪を求めに行ったのだ。<line-break>人間の、さらなる進歩のために…！<end>"
 korean = "마도의 탑, 몽환의 호수…. 나는 그곳에 금주를 찾으러 갔다. 인간의 더 큰 진보를 위해…!<end>"
 
+["1250306"]
+japanese = "聖座のボゲー<line-break>聖座のボゲー<line-break>聖座のボゲー<line-break>聖座のボゲー<line-break>聖座のボゲー<line-break>聖座のボゲー<end>"
+korean = "성좌의 보게 성좌의 보게 성좌의 보게 성좌의 보게 성좌의 보게 성좌의 보게<end>"
+
 ["1250314"]
 japanese = "イオンズせりふ追加予定！！！<end>"
 korean = "이온즈 대사 추가 예정!!!<end>"
 
+["1250323"]
+japanese = "エルファス…。<line-break>結局は奴もシャリの手のひらで<line-break>踊らされていたのじゃな…。<line-break>むなしいことじゃ…。<end>"
+korean = "엘파스…. 결국 그자도 샤리의 손바닥 위에서 놀아났던 거구나…. 허무한 일이야….<end>"
+
+["1250324"]
+japanese = "きゃっ！　<line-break>神様って初めてみたかも。<line-break><line-break>どうせなら、私の願いを<line-break>かなえて欲しかったかも。<end>"
+korean = "꺅! 신은 처음 보는 것 같아. 이왕이면 내 소원도 들어 줬으면 좋았을 텐데.<end>"
+
+["1250332"]
+japanese = "まいったね…。<line-break>相手は神様ときたか。<line-break>まったく…退屈しない人生だな。<line-break>行こうか、<value:$28>。<end>"
+korean = "곤란하군…. 상대가 신이라니. 정말… 지루할 틈 없는 인생이야. 가자, <value:$28>.<end>"
+
 ["1250336"]
 japanese = "この大地を闇の眷属の好きにさせる<line-break>訳にはいけない。<line-break>行くぞ！　<value:$28>。<end>"
 korean = "이 대지를 어둠의 권속들 마음대로 하게 둘 수는 없다. 가자, <value:$28>!<end>"
+
+["1250373"]
+japanese = "ほほに傷のある男か。<line-break>心当たりがないな。<line-break>　<line-break>旅なれた者なら<line-break>何か知っているかもしれんが。<end>"
+korean = "뺨에 상처가 있는 남자인가. 짐작 가는 사람이 없군. 여행에 익숙한 사람이라면 뭔가 알지도 모르지.<end>"

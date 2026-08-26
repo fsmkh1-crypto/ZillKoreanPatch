@@ -8,6 +8,10 @@ korean = "유리스 메시지 VOL1 시작<end>"
 japanese = "なんともはや…。<end>"
 korean = "이거 참….<end>"
 
+["790006"]
+japanese = "これから<line-break>どこで研究を続ければいいんだ…。<end>"
+korean = "앞으로 어디서 연구를 계속해야 하지….<end>"
+
 ["790013"]
 japanese = "…きゃっ！<line-break>　<line-break>　<line-break>いらっしゃいませ！<line-break>さえない宿屋ですけど、<line-break>がまんしてくださーい。<end>"
 korean = "…꺅! 어서 오세요! 변변찮은 여관이지만 참아 주세요!<end>"
@@ -35,6 +39,10 @@ korean = "꺅, 누군가 했더니….<end>"
 ["790024"]
 japanese = "………………。　　　　　<line-break>　<line-break>　<line-break>もしかして…<line-break>あなた、アカデミーの人？<end>"
 korean = "………………. 혹시… 당신, 아카데미 사람인가요?<end>"
+
+["790030"]
+japanese = "私、こんなに<line-break>がんばっているのに…。　<line-break>　<line-break>お願いです、私をここから<line-break>助け出してください！<end>"
+korean = "저, 이렇게 열심히 하고 있는데…. 부탁이에요, 저를 여기서 구해 주세요!<end>"
 
 ["790031"]
 japanese = "助けてやる<end>"
@@ -100,6 +108,10 @@ korean = "지금은 무리야<end>"
 japanese = "きゃっ！<line-break>かなりステキな展開かも！<end>"
 korean = "꺄! 꽤 멋진 전개일지도!<end>"
 
+["790074"]
+japanese = "私、この薄汚い宿屋で<line-break>一生を終えるのね…。<end>"
+korean = "나, 이 지저분한 여관에서 평생을 보내게 되는 거구나….<end>"
+
 ["790076"]
 japanese = "やれやれ、また始まった。<end>"
 korean = "이런, 또 시작했군.<end>"
@@ -116,6 +128,10 @@ korean = "알았어<end>"
 japanese = "そんな都合のいい話はないだろう<end>"
 korean = "그렇게 형편 좋은 이야기는 없겠지<end>"
 
+["790094"]
+japanese = "…なるほど。<line-break>天才魔道士マノンね。　　　<line-break>　<line-break>あの魔道の塔に<line-break>そんなに偉大な魔道士が…。<end>"
+korean = "…그렇군. 천재 마도사 마논이라. 저 마도의 탑에 그렇게 위대한 마도사가….<end>"
+
 ["790099"]
 japanese = "さぁ、みなさん！<line-break>起きて起きて！<end>"
 korean = "자, 여러분! 일어나요, 일어나!<end>"
@@ -123,6 +139,10 @@ korean = "자, 여러분! 일어나요, 일어나!<end>"
 ["790101"]
 japanese = "ふっふっふっふ…。<end>"
 korean = "후후후후….<end>"
+
+["790106"]
+japanese = "まだまだ、これからが本題。<line-break>　<line-break>　<line-break>これからは私、ユニオンスペルで<line-break>大活躍しちゃうもんね。<end>"
+korean = "아직 멀었어, 이제부터가 본론이야. 앞으로는 나, 유니온 스펠로 크게 활약할 거니까.<end>"
 
 ["790109"]
 japanese = "信じられない。あのユーリスが。<end>"

@@ -488,6 +488,10 @@ korean = "로이….<end>"
 japanese = "ありがとう、<value:$28>。<line-break>あなたが私たちの考えに<line-break>賛同してくれて、とても頼もしい。<end>"
 korean = "고마워, <value:$28>. 네가 우리 생각에 동의해 줘서 정말 든든해.<end>"
 
+["1410315"]
+japanese = "ああ、そうだな。<line-break>私たちには希望がある。<line-break> <line-break>そう信じられることは、<line-break>うれしいことだな…。<end>"
+korean = "그래, 맞아. 우리에겐 희망이 있어. 그렇게 믿을 수 있다는 건 기쁜 일이군….<end>"
+
 ["1410316"]
 japanese = "続けましょう、ロイ、<value:$28>。<line-break>世界のために、<line-break>私たちの未来のために、ね。<end>"
 korean = "계속하자, 로이, <value:$28>. 세상을 위해, 우리의 미래를 위해.<end>"
@@ -643,6 +647,10 @@ korean = "인류의 혁신은 지금, 여기서 시작된다!<end>"
 ["1410396"]
 japanese = "<value:$28>…。<line-break>終わったな…。<end>"
 korean = "<value:$28>…. 끝났군….<end>"
+
+["1410397"]
+japanese = "…そうだな。<line-break>これはまだ始まりにすぎない…。<line-break> <line-break>それは苦難に満ちた<line-break>道のりとなるだろう。<end>"
+korean = "…그렇군. 이건 아직 시작에 불과해…. 고난으로 가득한 길이 되겠지.<end>"
 
 ["1410400"]
 japanese = "追加メッセージここから<end>"
@@ -967,6 +975,10 @@ korean = "♪미래의 용사 그 이름은 갈드란~!<end>"
 ["1410551"]
 japanese = "あ、ありがとうございました。<end>"
 korean = "아, 감사합니다.<end>"
+
+["1410552"]
+japanese = "俺様の熱き魂が<line-break>また一つの悪を滅ぼした。<line-break> <line-break>俺様伝説にあらたな１ページが<line-break>加えられた！<end>"
+korean = "나의 뜨거운 혼이 또 하나의 악을 멸했다. 내 전설에 새로운 한 페이지가 더해졌다!<end>"
 
 ["1410553"]
 japanese = "♪熱く燃える　正しい魂～<end>"

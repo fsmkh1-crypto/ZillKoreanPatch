@@ -32,6 +32,14 @@ korean = "닥쳐!<end>"
 japanese = "…まだ…来ておらぬ。　　　　　<line-break>　<end>"
 korean = "…아직… 오지 않았다.<end>"
 
+["520022"]
+japanese = "よ。…ヒック。<line-break>皆さんおそろいで。へへ…。<end>"
+korean = "여어. …딸꾹. 다들 모였네. 헤헤….<end>"
+
+["520023"]
+japanese = "ま、まさか…、<line-break>…泥酔して…おいでなのか？<end>"
+korean = "서, 설마… 완전히 취하신 겁니까?<end>"
+
 ["520024"]
 japanese = "よ。奇遇だな。<line-break><value:$28>。<end>"
 korean = "여어. 우연이군, <value:$28>.<end>"
@@ -43,6 +51,10 @@ korean = "헤헤… 헤헤….<end>"
 ["520027"]
 japanese = "よ。お初にお目にかかる。<end>"
 korean = "여. 처음 뵙겠습니다.<end>"
+
+["520030"]
+japanese = "帰れ、ゼネテス！<line-break>体面が悪い！　帰るのだ。<end>"
+korean = "돌아가라, 제네테스! 체면이 서지 않는다! 돌아가는 거다.<end>"
 
 ["520037"]
 japanese = "戻る<end>"
