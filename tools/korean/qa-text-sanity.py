@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Advisory Korean text-sanity scan for localization artifacts.
+"""High-signal advisory Korean text-sanity scan.
 
-Finds suspicious typography/automation residue that structural token checks do
-not catch. This tool is advisory-only by design: dialogue and stylized UI text
-can legitimately violate normal prose spacing.
+Structural token checks cannot catch typography residue such as full-width
+spaces in translated prose or sentence boundaries accidentally glued together.
+This scan is advisory-only and deliberately excludes token-boundary artifacts,
+blank/passthrough rows, and common short reduplication.
 """
 from __future__ import annotations
 
@@ -17,14 +18,12 @@ import tomllib
 ROOT = Path(__file__).resolve().parents[2]
 KOREAN_DIR = ROOT / "translations" / "korean" / "messages"
 SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:(?:-part\d+)|b)?\.toml$")
-HANGUL = r"가-힣"
+HANGUL_RE = re.compile(r"[가-힣]")
 TOKEN_RE = re.compile(r"<[^>]+>")
-# Strong signals: sentence-final punctuation glued directly to Korean text.
-GLUED_SENTENCE_RE = re.compile(rf"[.!?。！？][{HANGUL}]")
-# Space immediately before a runtime/fixed token is often accidental, especially <end>.
-SPACE_BEFORE_TOKEN_RE = re.compile(r"[ \u3000]+(?=<[^>]+>)")
-# Same 2+ Hangul syllables duplicated adjacently, e.g. 눈동자동자.
-ADJACENT_REPEAT_RE = re.compile(rf"([{HANGUL}]{{2,8}})\1")
+GLUED_SENTENCE_RE = re.compile(r"[.!?。！？][가-힣]")
+SPACE_BEFORE_END_RE = re.compile(r"(?<=[가-힣0-9.!?…。！？])([ \u3000]+)(?=<end>)")
+# Three or more syllables repeated immediately is unusual enough to review.
+ADJACENT_REPEAT_RE = re.compile(r"([가-힣]{3,8})\1")
 
 
 def issue(kind: str, section: int, rid: str, path: str, ja: str, ko: str, detail: str) -> dict[str, object]:
@@ -62,26 +61,29 @@ def main() -> None:
             if not isinstance(ja, str) or not isinstance(ko, str):
                 continue
 
-            if "\u3000" in ko:
-                findings.append(issue("fullwidth_space", section, rid, path.name, ja, ko, f"count={ko.count(chr(0x3000))}"))
+            # Ignore blank/layout-only rows and exact passthrough rows.
+            semantic = TOKEN_RE.sub(" ", ko)
+            if not HANGUL_RE.search(semantic):
+                continue
 
-            for match in SPACE_BEFORE_TOKEN_RE.finditer(ko):
-                findings.append(issue("space_before_token", section, rid, path.name, ja, ko, repr(match.group(0))))
+            if "\u3000" in ko and ko != ja:
+                findings.append(issue("fullwidth_space_in_korean", section, rid, path.name, ja, ko, f"count={ko.count(chr(0x3000))}"))
 
-            semantic = TOKEN_RE.sub("", ko)
-            for match in GLUED_SENTENCE_RE.finditer(semantic):
+            for match in SPACE_BEFORE_END_RE.finditer(ko):
+                findings.append(issue("space_before_end", section, rid, path.name, ja, ko, repr(match.group(1))))
+
+            # Tokens become separators, never disappear: branch boundaries must
+            # not create false glued-sentence findings.
+            separated = TOKEN_RE.sub(" ", ko)
+            for match in GLUED_SENTENCE_RE.finditer(separated):
                 findings.append(issue("glued_sentence", section, rid, path.name, ja, ko, match.group(0)))
 
-            # Restrict duplicated-fragment warning to suspicious longer repeats;
-            # exclude laughter/onomatopoeia-like one-syllable repeats by construction.
-            for match in ADJACENT_REPEAT_RE.finditer(semantic):
-                frag = match.group(1)
-                if len(frag) >= 2:
-                    findings.append(issue("adjacent_duplicate_fragment", section, rid, path.name, ja, ko, frag))
+            for match in ADJACENT_REPEAT_RE.finditer(separated):
+                findings.append(issue("long_adjacent_duplicate_fragment", section, rid, path.name, ja, ko, match.group(1)))
 
     counts = Counter(str(x["kind"]) for x in findings)
     report = {
-        "schema": 1,
+        "schema": 2,
         "unique_records": unique_records,
         "finding_count": len(findings),
         "finding_by_kind": dict(sorted(counts.items())),
