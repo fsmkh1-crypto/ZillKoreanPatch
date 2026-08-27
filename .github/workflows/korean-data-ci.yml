@@ -44,6 +44,8 @@ jobs:
         run: python3 tools/korean/qa-consistency.py --json /tmp/korean-qa-consistency.json --max-examples 40
       - name: Triage QA-3 inconsistencies by risk
         run: python3 tools/korean/qa-consistency-triage.py --json /tmp/korean-qa-consistency-triage.json --max-examples 40
+      - name: Run Korean text sanity scan
+        run: python3 tools/korean/qa-text-sanity.py --json /tmp/korean-qa-text-sanity.json --max-examples 80
       - name: Upload Korean QA reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -54,4 +56,5 @@ jobs:
             /tmp/korean-qa-terminology.json
             /tmp/korean-qa-consistency.json
             /tmp/korean-qa-consistency-triage.json
+            /tmp/korean-qa-text-sanity.json
           if-no-files-found: warn
