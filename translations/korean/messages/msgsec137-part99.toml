@@ -1472,6 +1472,10 @@ korean = "<if><value:$29><equal>%0<value:$28>. 괴물이 돌아다니는 미이�
 japanese = "<if><value:$29><equal>%0…<value:$28>…な…の？<line-break>に…逃げ…て…、は…早…く…　　<line-break>　<line-break>…わ…私…もう…ダメ…だから…<line-break>キ…キミ…だけでも…<end>イ…イヤ…死にたく…ない…<line-break>か、かめ…ん…なんて…<line-break>ホント…知らな…い…<end>"
 korean = "<if><value:$29><equal>%0…<value:$28>…인…가? 도…도망…쳐… 어…어서… …나…난… 이제… 틀렸…으니까… 너…너라도…<end>아…안 돼… 죽기 싫…어… 가, 가면… 같은 건… 정말… 몰라…<end>"
 
+["1370372"]
+japanese = "<select><value:$20>%3ロイ様は修行の旅から戻られて<line-break>いっそうたくましくなられましたな。<line-break>　<line-break>少々魔物がうろついたところで、<line-break>ロイ様と<value:$28>様が<line-break>おられれば安心ですな。<end><value:$28>様もロイ様のように、<line-break>神器の守護者としての実力をつけるため<line-break>いずれは旅に出られるのでしょうなあ。<end>ロイ様の持っておられる短剣は<line-break>日光という聖剣らしいですな。<line-break>修行の旅の途中見つけられたとか。<end>"
+korean = "<select><value:$20>%3로이 님은 수행 여행에서 돌아오신 뒤 더욱 듬직해지셨습니다. 마물이 좀 돌아다녀도 로이 님과 <value:$28>님이 계시면 안심입니다.<end><value:$28>님도 로이 님처럼 신기의 수호자로서 실력을 키우기 위해 언젠가는 여행을 떠나시겠지요.<end>로이 님이 지닌 단검은 일광이라는 성검이라고 합니다. 수행 여행 도중에 찾으셨다더군요.<end>"
+
 ["1370373"]
 japanese = "<select><value:$20>%2ヘンな女が空から降りてきて…<line-break>村が…村が…炎に包まれて…。<end>火だ…火だ…火だアア！<line-break>だ、誰か、助けてくれえ！<end>"
 korean = "<select><value:$20>%2이상한 여자가 하늘에서 내려오고…마을이… 마을이… 불길에 휩싸여서….<end>불이다… 불이다… 불이야아아!누, 누가 좀 살려줘어!<end>"
