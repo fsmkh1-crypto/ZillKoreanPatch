@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["100003"]
+japanese = "<select><value:$20>%3ここ水の都アキュリュースは<line-break>古代魔道王国ラドラスの水の巫女ネイが<line-break>５世紀に造った町なんじゃよ。<end>今でもネイの血をひく女性が水の巫女として<line-break>代々、水の精霊神に仕えておるんじゃ。<line-break>そういえば、今の水の巫女は誰じゃったかな。<end>こうして美しく咲いた花を愛でたり、<line-break>水の流れを耳で感じておる時が、<line-break>わしの至福の一時なんじゃよ。<end>"
+korean = "<select><value:$20>%3이 물의 도시 아큐류스는 고대 마도왕국 라드라스의 물의 무녀 네이가 5세기에 만든 도시라네.<end>지금도 네이의 피를 이은 여성이 대대로 물의 무녀가 되어 물의 정령신을 섬기고 있지. 그러고 보니 지금 물의 무녀가 누구였더라.<end>이렇게 아름답게 핀 꽃을 감상하거나 물 흐르는 소리를 듣고 있을 때가 내게는 가장 행복한 시간이라네.<end>"
+
 ["100011"]
 japanese = "<if><value:$2A><less-equal>%49ロストールにはゼネテスっていう<line-break>腕利きの冒険者がいるんだ。<line-break>会ったことあるかい？<end><if><value:$2A><less-equal>%120君は傭兵をしたことがあるかい？<line-break>もしないなら一度やっておくといい。<line-break>何事も経験だから。<end>君は<value:$28>だろ？<line-break>思ったより若いんでびっくりしたよ。<line-break>たいした腕前なんだってね。<end>"
 korean = "<if><value:$2A><less-equal>%49로스토올에는 제네테스라는 실력 좋은 모험자가 있어. 만나 본 적 있나?<end><if><value:$2A><less-equal>%120자네는 용병 일을 해 본 적 있나? 없다면 한 번쯤 해 보는 게 좋아. 뭐든 경험이니까.<end>자네가 <value:$28>지? 생각보다 젊어서 놀랐어. 실력이 대단하다면서?<end>"

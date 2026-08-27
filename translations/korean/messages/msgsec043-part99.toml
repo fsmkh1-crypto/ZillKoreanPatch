@@ -284,6 +284,10 @@ korean = "게다가 볼보라는 노블에서 횡포를 부려 그대를 곤란�
 japanese = "フッ…、おたわむれを。<line-break>　<line-break>　<line-break>彼は有能な男でした。現にこれまで、<line-break>ボルボラのあとを任せられる者が<line-break>おらず、頭を悩ませておりました。<end>"
 korean = "훗… 농담도. 그는 유능한 남자였습니다. 실제로 지금까지 볼보라의 뒤를 맡길 사람이 없어 골머리를 앓고 있었습니다.<end>"
 
+["430071"]
+japanese = "<if><value:$29><equal>%0ですが、ようやくその結論が<line-break>得られたので、今日はその件について<line-break>お願いに上がった次第です。<line-break>ノーブルの支配を、<line-break>我が弟<value:$28>に<line-break>任せたく存じます。<end>ですが、ようやくその結論が<line-break>得られたので、今日はその件について<line-break>お願いに上がった次第です。<line-break>ノーブルの支配を、<line-break>我が妹<value:$28>に<line-break>任せたく存じます。<end>"
+korean = "<if><value:$29><equal>%0하지만 마침내 결론을 내렸기에 오늘 그 일로 부탁드리러 왔습니다. 노블의 통치를 제 남동생 <value:$28>에게 맡기고 싶습니다.<end>하지만 마침내 결론을 내렸기에 오늘 그 일로 부탁드리러 왔습니다. 노블의 통치를 제 여동생 <value:$28>에게 맡기고 싶습니다.<end>"
+
 ["430072"]
 japanese = "<if><value:$29><equal>%0弟？<end>妹？<end>"
 korean = "<if><value:$29><equal>%0남동생?<end>여동생?<end>"

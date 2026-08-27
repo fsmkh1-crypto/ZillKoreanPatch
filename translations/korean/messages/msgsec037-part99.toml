@@ -584,6 +584,10 @@ korean = "<if><value:$29><equal>%0유리아슈!<end>유슈알!<end>"
 japanese = "<if><value:$29><equal>%0<value:$28>、<line-break>早くユリアシュをとめるんだ！<end><value:$28>！<line-break>早くユシュアルをとめるんだ！<end>"
 korean = "<if><value:$29><equal>%0<value:$28>,빨리 유리아슈를 막아!<end><value:$28>!빨리 유슈알을 막아!<end>"
 
+["370148"]
+japanese = "<if><value:$29><equal>%0愚かなるリア氏族のユリアシュが、<line-break>父マシュラウにならって反逆しおった。<line-break>竜の座の追い求めるくせ者を逃がし、<line-break>竜の座の女官たる<line-break>この私を侮辱したのじゃ！<end>愚かなるリア氏族のユシュアルが、<line-break>父マシュラウにならって反逆しおった。<line-break>竜の座の追い求めるくせ者を逃がし、<line-break>竜の座の女官たるこの私を<line-break>侮辱したのじゃ！<end>"
+korean = "<if><value:$29><equal>%0어리석은 리아 씨족의 유리아슈가 아버지 마슈라우를 따라 반역했느니라. 용의 좌가 쫓던 수상한 자를 놓아주고, 용의 좌의 여관인 이 몸을 모욕했도다!<end>어리석은 리아 씨족의 유슈알이 아버지 마슈라우를 따라 반역했느니라. 용의 좌가 쫓던 수상한 자를 놓아주고, 용의 좌의 여관인 이 몸을 모욕했도다!<end>"
+
 ["370150"]
 japanese = "エルズの民は自由の民だ。<line-break>脅しなんかに屈しねぇぞ！<end>"
 korean = "엘즈 사람들은 자유로운 사람들이야. 협박 따위에 굴복하지 않아!<end>"

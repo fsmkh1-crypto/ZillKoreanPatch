@@ -736,6 +736,14 @@ korean = "어, 지금 손을 뗄 수가 없어. 나중에 다시 와줘. 미안�
 japanese = "<select><value:$20>%3おう、<value:$28>。<line-break>たまには、うちのカミサンのとこにも<line-break>ちゃんと顔を出してるか？<end>ヴァンの親御さんは相変わらずだが、<line-break>テラネはお前のふるさとだ。<line-break>ま、ゆっくりしていきな。<end>おう、<value:$28>。<line-break>うちのカミサンの料理が<line-break>恋しくなって戻ってきたのかい？<end>"
 korean = "<select><value:$20>%3오, <value:$28>. 가끔은 우리 마누라한테도 제대로 얼굴 비추고 있냐?<end>반의 부모는 여전하지만 테라네는 네 고향이다. 뭐, 푹 쉬다 가라.<end>오, <value:$28>. 우리 마누라 요리가 그리워서 돌아온 거냐?<end>"
 
+["280193"]
+japanese = "<select><value:$20>%3私の料理はおいしんだよ。<line-break>また、機会があったら<line-break>食べにきておくれよ。<end>うちの人は今日も裏山さ。<line-break>ホントに仕事熱心っていうか、<line-break>なんというか…。<end>宿屋のご亭主に会ったかい？　　　<line-break>あの人も悪い人じゃあ、<line-break>ないんだけどねえ。<line-break>ま、世の中には<line-break>いろいろな人がいるものさ。<line-break>グジグジ気にしちゃあいけないよ。<end>"
+korean = "<select><value:$20>%3내 요리는 맛있어. 또 기회가 되면 먹으러 오렴.<end>우리 남편은 오늘도 뒷산에 갔어. 정말 일에 열심이라 해야 할지, 뭐라 해야 할지….<end>여관 주인은 만나 봤니? 그 사람도 나쁜 사람은 아닌데 말이야. 세상엔 여러 사람이 있는 법이지. 끙끙 앓으며 신경 쓸 것 없어.<end>"
+
+["280194"]
+japanese = "<select><value:$20>%3<value:$28>。<line-break>約束どおり、<line-break>小屋はピカピカにしといたよ。<line-break>　<line-break>よしとくれよ、礼なんて。<line-break>みずくさい。<end>うちの人は今日も裏山さ。<line-break>ホントに仕事熱心っていうか、<line-break>なんというか…。<end><value:$28>。<line-break>なんだか旅に出て、<line-break>少ししまったいい顔になったねえ。<line-break>ま、うちの人には<line-break>まだまだ、かなわないけどね。<end>"
+korean = "<select><value:$20>%3<value:$28>. 약속대로 오두막은 반짝반짝하게 청소해 뒀어. 됐어, 감사 인사는. 남처럼 굴지 마.<end>우리 남편은 오늘도 뒷산에 갔어. 정말 일에 열심이라 해야 할지, 뭐라 해야 할지….<end><value:$28>. 여행을 다녀오더니 어딘가 좀 더 야무지고 좋은 얼굴이 됐네. 그래도 우리 남편한테는 아직 한참 못 미치지만.<end>"
+
 ["280195"]
 japanese = "ね、ねえ、<value:$28>。<line-break>じ、地震だよ！！<end>"
 korean = "저, 저기 <value:$28>. 지, 지진이야!!<end>"
