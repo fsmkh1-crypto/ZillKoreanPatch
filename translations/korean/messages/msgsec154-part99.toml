@@ -32,6 +32,10 @@ korean = "싫어하잖아?<end>"
 japanese = "いい子だ。<line-break>さて、実践の方に行こうか？<end>"
 korean = "착하네. 자, 이제 실전으로 가 볼까?<end>"
 
+["1540019"]
+japanese = "はぁい、お元気？　　　　　　　　<line-break><value:$28>。<line-break>　<line-break>せっかく会えたんだけど、<line-break>僕は用があるから、<line-break>失礼するよ。<end>"
+korean = "안녕, 잘 지내? <value:$28>. 모처럼 만났지만 난 볼일이 있어서 이만 갈게.<end>"
+
 ["1540022"]
 japanese = "エルファスＶｏｌ５予備メッセージ１<end>"
 korean = "엘파스 Vol5 예비 메시지 1<end>"

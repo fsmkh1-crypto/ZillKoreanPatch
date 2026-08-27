@@ -216,6 +216,14 @@ korean = "알았어<end>"
 japanese = "関係ないな<end>"
 korean = "상관없군<end>"
 
+["1610119"]
+japanese = "そうか、ありがとうよ。<line-break>じゃ、よろしく頼んだぜ。<end>"
+korean = "그래, 고맙다. 그럼 부탁하지.<end>"
+
+["1610120"]
+japanese = "そうか…。残念だ。<line-break>意外と淡白な性格なんだな…。<end>"
+korean = "그런가…. 아쉽군. 의외로 담백한 성격이네….<end>"
+
 ["1610123"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -412,6 +420,10 @@ korean = "…훗, 무지하고 제멋대로인 엘프인가?<end>"
 japanese = "…では、行くぞ。<end>"
 korean = "…그럼, 간다.<end>"
 
+["1610218"]
+japanese = "くすっ、<value:$28>、<line-break>また会えてうれしいわ。　　　　　　　<line-break>　<line-break>でも、とっても残念。<line-break>約束を果たせそうもないわ…。　<end>"
+korean = "후후, <value:$28>, 다시 만나서 기뻐. 하지만 정말 아쉽네. 약속을 지키긴 어려울 것 같아….<end>"
+
 ["1610220"]
 japanese = "貴様が…やはり…！<end>"
 korean = "네놈이… 역시…!<end>"
@@ -467,6 +479,10 @@ korean = "<value:$28>, 왜 나를 혼내는 거야? 이 경우 이상한 건 그
 ["1610249"]
 japanese = "チャカは少し頭が悪くなった。　<line-break>ＩＮＴが１下がった。<line-break>　<line-break>チャカは少し打たれ強くなった。<line-break>ＶＩＴが１上がった。<end>"
 korean = "차카는 조금 머리가 나빠졌다. INT가 1 내려갔다. 차카는 조금 더 맷집이 좋아졌다. VIT가 1 올랐다.<end>"
+
+["1610251"]
+japanese = "なんか、かっこいいよね。セラってさ。<line-break>ちょっと、気になるかな。<line-break>　<line-break>…なーんてボクが言ったら<line-break><value:$28>は気になる？<end>"
+korean = "세라, 좀 멋있지 않아? 조금 신경 쓰이네. …내가 이렇게 말하면 <value:$28>은 신경 쓰여?<end>"
 
 ["1610252"]
 japanese = "あ、ウソウソ、冗談だよ！<line-break>ね、ね、こっち向いてよ！<end>"

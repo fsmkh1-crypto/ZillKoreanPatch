@@ -4,6 +4,10 @@
 japanese = "イークレムン　Ｖ５－１　開始<end>"
 korean = "이크레문 V5-1 시작<end>"
 
+["1720001"]
+japanese = "おお。<value:$28>。<line-break>今から、ジラークにひとつ<line-break>言うてやろうと思っておるところじゃ。<line-break>ちょうどよい。<line-break>お主も来てくれ。<end>"
+korean = "오, <value:$28>. 지금 지라크에게 한마디 하러 가려던 참이다. 잘됐군. 너도 와라.<end>"
+
 ["1720002"]
 japanese = "また、卿か。<end>"
 korean = "또 그대인가.<end>"

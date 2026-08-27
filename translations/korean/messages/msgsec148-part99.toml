@@ -96,6 +96,10 @@ korean = "와, 대단해 대단해ー!!<end>"
 japanese = "あっ、これ何？<line-break>これ何？<end>"
 korean = "앗, 이거 뭐야? 이거 뭐야?<end>"
 
+["1480044"]
+japanese = "わ！　ゼネテスが出てきたぁ！<line-break>どうなってるのぉ？<end>"
+korean = "와! 제네테스가 나왔어! 어떻게 된 거야?<end>"
+
 ["1480049"]
 japanese = "すごいすごーい！<end>"
 korean = "대단해, 대단해~!<end>"
@@ -163,6 +167,14 @@ korean = "잊지 않도록 기억해 둬야겠어.<end>"
 ["1480083"]
 japanese = "あ、<value:$28>。<line-break>もう、行っちゃうの？<end>"
 korean = "아, <value:$28>. 벌써 가는 거야?<end>"
+
+["1480085"]
+japanese = "オルファウスさん。<line-break>本当にお世話になりましたぁ。<end>"
+korean = "오르파우스 씨, 정말 신세 많이 졌어요.<end>"
+
+["1480087"]
+japanese = "オルファウスさん、<line-break>それじゃあ、行ってきまーす！<end>"
+korean = "오르파우스 씨, 그럼 다녀올게요!<end>"
 
 ["1480092"]
 japanese = "だからね、<value:$28>は<line-break>運命に選ばれたんだって、<line-break>ゼネテスは言ってた…。<end>"

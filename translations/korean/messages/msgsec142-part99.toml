@@ -84,6 +84,10 @@ korean = "그럼 노엘, 우리도 슬슬 가자.<end>"
 japanese = "失礼するよ、<value:$28>。<line-break>君もしっかりな。<end>"
 korean = "실례하지, <value:$28>. 자네도 힘내게.<end>"
 
+["1420029"]
+japanese = "あ、待ちなさい！<line-break>あたしはまだ納得してないわよ！<end>"
+korean = "아, 잠깐! 난 아직 납득 못 했어!<end>"
+
 ["1420031"]
 japanese = "あ、カフィン、待って！<end>"
 korean = "아, 카핀, 기다려!<end>"
@@ -223,6 +227,10 @@ korean = "아저씨, 술은 아직이야?<end>"
 ["1420101"]
 japanese = "あらかじめ知ってしまっては、<line-break>不運もないが運もない。<line-break>不幸もないが幸もない…。<line-break>じゃろう、<value:$28>？<end>"
 korean = "미리 알아 버리면 불운도 없지만 행운도 없고, 불행도 없지만 행복도 없지…. 그렇지, <value:$28>?<end>"
+
+["1420102"]
+japanese = "みな、そなたがわらわに<line-break>教えてくれたことじゃ…。<end>"
+korean = "모두 네가 내게 가르쳐 준 것들이다….<end>"
 
 ["1420103"]
 japanese = "ゆこう、<value:$28>。<line-break>新たな土地へ。新たな未来へ…。<end>"
@@ -576,6 +584,10 @@ korean = "…안주도 말이야.<end>"
 japanese = "うん。僕もわかるよ、エステル。<line-break> <line-break> <line-break>例えるなら、僕らは、<line-break>時計に似ているのかもしれないね。<end>"
 korean = "응. 나도 알아, 에스텔. 비유하자면 우리는 시계와 비슷한 걸지도 모르겠네.<end>"
 
+["1420256"]
+japanese = "えーと、つまりー、<line-break>時計は故障してるんですねぇ？<end>"
+korean = "음, 그러니까 시계가 고장 났다는 거죠?<end>"
+
 ["1420258"]
 japanese = "針をなくした時計、か…。<end>"
 korean = "바늘을 잃은 시계인가….<end>"
@@ -615,6 +627,10 @@ korean = "앗, 말 잘하네, 레이그.<end>"
 ["1420269"]
 japanese = "ときに、<value:$28>は<line-break>どこへ行ったんじゃ？<end>"
 korean = "그런데 <value:$28>은 어디로 갔느냐?<end>"
+
+["1420270"]
+japanese = "<value:$28>は、<line-break>ここにいるみんなの代表として、<line-break><line-break>自分の町へ帰らなくちゃならない<line-break>みんなを見送りに行ったんじゃない。<end>"
+korean = "<value:$28>은 여기 있는 모두를 대표해서 자기 마을로 돌아가야 하는 사람들을 배웅하러 간 거잖아.<end>"
 
 ["1420272"]
 japanese = "そうか…。<line-break>のう、<value:$28>は、<line-break>本当に戻ってくるのか？<end>"

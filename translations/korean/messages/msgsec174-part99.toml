@@ -108,6 +108,10 @@ korean = "이런. 서투른 녀석이군.<end>"
 japanese = "わかった。<line-break>もう、いいわ。<end>"
 korean = "알았어. 이제 됐어.<end>"
 
+["1740050"]
+japanese = "<value:$28>、突然だけど<line-break>私の護衛をしてもらえる？<line-break>どうしてもエルズのエアに会いたいの。<line-break>どう？<line-break>引き受けてもらえる？<end>"
+korean = "<value:$28>, 갑작스럽지만 내 호위를 맡아 줄래? 꼭 엘즈의 에아를 만나고 싶어. 어때? 맡아 줄 수 있어?<end>"
+
 ["1740051"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"

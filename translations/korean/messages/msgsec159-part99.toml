@@ -40,6 +40,10 @@ korean = "아! <value:$28>! 이 사람들은… 우물우물.<end>"
 japanese = "余計なことは言うんじゃねえ！<end>"
 korean = "쓸데없는 소리는 하지 마!<end>"
 
+["1590024"]
+japanese = "あとは頼んだ、俺はこいつを<line-break>賢者の森で処分する！<end>"
+korean = "나머지는 부탁한다. 난 이 녀석을 현자의 숲에서 처리하겠다!<end>"
+
 ["1590025"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>아!<end>"
@@ -51,6 +55,10 @@ korean = "큭, 두고 보자!<end>"
 ["1590030"]
 japanese = "念には念をいれとかねえとな。<line-break>俺たちの一団が誘拐事件の黒幕だなんて<line-break>ばらされたら、いっかんの終わりだぜ。<line-break>…誰だ！<end>"
 korean = "확실히 해 둬야지. 우리 일행이 유괴 사건의 배후라는 게 들통나면 끝장이야. …누구냐!<end>"
+
+["1590034"]
+japanese = "あのリルビ－のガキと一緒に<line-break>地獄に送ってやるぜ！<end>"
+korean = "저 릴비 꼬맹이와 함께 지옥으로 보내 주마!<end>"
 
 ["1590035"]
 japanese = "本当に知らねぇよ。<line-break>森の奥の方に行っちまったんだ。<end>"
@@ -123,6 +131,10 @@ korean = "닥쳐, 이 바보 고양이.<end>"
 ["1590068"]
 japanese = "そうだよぉ、このバカネコ！<end>"
 korean = "그래, 이 바보 고양이!<end>"
+
+["1590069"]
+japanese = "ぐ…ガキの分際で。<line-break>おもしれぇ、相手になってや…<end>"
+korean = "큭… 꼬맹이 주제에. 재밌군, 상대해 주마…<end>"
 
 ["1590070"]
 japanese = "何を言ってるんです、<line-break>猫の分際で。<end>"
@@ -371,6 +383,10 @@ korean = "운명에 선택받은… 자?<end>"
 ["1590182"]
 japanese = "それじゃあ、<line-break>よろしくお願いします。<end>"
 korean = "그럼 잘 부탁드립니다.<end>"
+
+["1590184"]
+japanese = "俺は猫じゃない、ネモだ。<line-break>破壊神の円卓騎士ネモ！<end>"
+korean = "나는 고양이가 아니다, 네모다. 파괴신의 원탁기사 네모!<end>"
 
 ["1590185"]
 japanese = "わ、すごいすごーい！！<end>"

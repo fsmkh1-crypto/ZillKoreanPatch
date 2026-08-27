@@ -24,6 +24,10 @@ korean = "…아직 원념이 남아 있다.<end>"
 japanese = "うかつに動くと、<line-break>目を覚ますな、こいつ。<line-break>そうなったら、えらい目に会う。<line-break>ここはとっとと<line-break>ずらかった方がいいだろうな。<end>"
 korean = "섣불리 움직이면 이 녀석이 깨어나겠군. 그러면 큰일이야. 여긴 얼른 빠져나가는 게 좋겠어.<end>"
 
+["610011"]
+japanese = "急いで、ここを出ろ。<line-break>だたし、動作はゆっくりとな。<end>"
+korean = "서둘러 여기서 나가. 다만 움직임은 천천히 해.<end>"
+
 ["610013"]
 japanese = "ま、いい、出世払いで、いつか<line-break>払ってもらうことにするさ。<line-break>じゃあな！　<value:$28>。<end>"
 korean = "뭐, 됐어. 성공하면 그때 갚는 걸로 하지. 잘 가, <value:$28>.<end>"

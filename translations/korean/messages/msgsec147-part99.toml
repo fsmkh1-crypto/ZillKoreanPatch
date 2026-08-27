@@ -48,6 +48,10 @@ korean = "! 이건….<end>"
 japanese = "<value:$28>。<line-break>どうやら、まずいことになりそうだ。<end>"
 korean = "<value:$28>. 아무래도 일이 안 좋게 돌아갈 것 같아.<end>"
 
+["1470040"]
+japanese = "見覚えがあるだろう？<line-break>ルルアンタの服のボタンだ。<end>"
+korean = "본 적 있지? 루루안타 옷의 단추야.<end>"
+
 ["1470042"]
 japanese = "おい、そこの兄さん。<line-break>ちょっと、待ってくれ。<end>"
 korean = "이봐, 거기 형씨. 잠깐 기다려 줘.<end>"
@@ -55,6 +59,10 @@ korean = "이봐, 거기 형씨. 잠깐 기다려 줘.<end>"
 ["1470043"]
 japanese = "えー？　ボクに用があるのかーい？<line-break>　<line-break>　<end>"
 korean = "어? 나한테 볼일이 있는 거야?<end>"
+
+["1470048"]
+japanese = "ああ、ひきとめちまって<line-break>悪かったな。助かったぜ。<end>"
+korean = "아, 붙잡아 둬서 미안했다. 덕분에 살았어.<end>"
 
 ["1470051"]
 japanese = "すぐに出発しよう。<line-break>うまくいけば、途中で<line-break>捕まえられるかもしれん。<line-break>俺は門で待っている。<line-break>準備をすませてきてくれ。<end>"
@@ -151,6 +159,10 @@ korean = "응? <value:$28>인가.<end>"
 ["1470122"]
 japanese = "よし、そんじゃ、<line-break>俺は門の所で待ってるぜ。<end>"
 korean = "좋아, 그럼 난 문 앞에서 기다릴게.<end>"
+
+["1470123"]
+japanese = "おい、<value:$28>。<line-break>今は仕事を受けている時じゃ<line-break>ないだろう？<line-break>ルルアンタひとりじゃ危険だ。<line-break>早く捜しだしてやろうぜ。<end>"
+korean = "야, <value:$28>. 지금 일이나 받을 때가 아니잖아? 루루안타 혼자면 위험해. 빨리 찾아보자.<end>"
 
 ["1470124"]
 japanese = "おい、<value:$28>。<line-break>のんびりと宿屋に泊まっていられる<line-break>状況じゃないだろう？<line-break>ルルアンタの身が心配だ。<line-break>早く助けに行ってやろうぜ。<end>"
