@@ -1276,6 +1276,10 @@ korean = "난 레이븐이야. 뭐, 잘 부탁해.<end>"
 japanese = "え、で…ですね…。<line-break>こちらはカフィンです。<end>"
 korean = "저, 그… 그렇군요…. 이쪽은 카핀입니다.<end>"
 
+["550338"]
+japanese = "<if><value:$29><equal>%0あなたが<value:$28>？<line-break>ふ～ん、かわいいボウヤだこと。<line-break>あなたと一夜を過ごせるなんて<line-break>ステキだわ。<end>あなたが<value:$28>？<line-break>ふ～ん、かわいい子猫ちゃんだこと。<line-break>あなたと一夜を過ごせるなんて<line-break>ステキだわ。<end>"
+korean = "<if><value:$29><equal>%0네가 <value:$28>이니? 흐음~ 귀여운 꼬마네. 너와 하룻밤을 보낼 수 있다니 멋지겠는걸.<end>네가 <value:$28>이니? 흐음~ 귀여운 아기 고양이네. 너와 하룻밤을 보낼 수 있다니 멋지겠는걸.<end>"
+
 ["550339"]
 japanese = "相部屋はイヤなんだろ？<line-break>なんなら、今夜は野宿したら？<end>"
 korean = "한방 쓰는 건 싫지? 그럼 오늘 밤은 야영할래?<end>"

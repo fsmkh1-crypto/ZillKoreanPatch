@@ -68,6 +68,10 @@ korean = "고시. 흉포한 몬스터가 백성을 해치고 있다. 시정의 �
 japanese = "夜中のうちに畑が荒らされていることが<line-break>ありまして、夜に見張っていたら、<line-break>これが<value:$15>の仕業でして…。<line-break>この悪者を退治してほしいんです。<line-break><value:$1A>ギアをお礼にさしあげます。<line-break><value:$1B>日以内に頼みますよ。<end>"
 korean = "밤사이 밭이 망가지는 일이 있어서 밤에 지켜봤더니 <value:$15>의 짓이더군요…. 이 악당을 퇴치해 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드려요.<end>"
 
+["220036"]
+japanese = "近頃、<value:$15>が出ます。<line-break>たいへん物騒なモンスターなので、<line-break>アイテムの材料を集めに行けません。<line-break>どなたか、モンスター退治を<line-break>していただけませんか。<line-break><value:$1A>ギアを支払いましょう。<line-break><value:$1B>日以内にお願いします。<end>"
+korean = "요즘 <value:$15>이 나타납니다. 아주 위험한 몬스터라서 아이템 재료를 모으러 갈 수가 없습니다. 누군가 몬스터를 퇴치해 주시겠습니까? <value:$1A>기어를 지급하겠습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
+
 ["220037"]
 japanese = "求む！　強者！<line-break>恐ろしい<value:$15>の出現で、<line-break>鉱石を取りに行けなくて困ってる。<line-break>誰か腕に覚えのある冒険者がいたらよ、<line-break><value:$15>をやっつけてくれ。<line-break>報酬は、<value:$1A>ギアだ。悪くねぇだろ？<line-break><value:$1B>日以内で頼むぜ。<end>"
 korean = "강자 모집! 무서운 <value:$15>이 나타나 광석을 캐러 갈 수 없어 곤란하다. 실력 있는 모험자가 있다면 <value:$15>을 쓰러뜨려 줘. 보수는 <value:$1A>기어다. 나쁘지 않지? <value:$1B>일 이내로 부탁한다.<end>"

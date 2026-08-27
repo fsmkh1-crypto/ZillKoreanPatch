@@ -72,6 +72,10 @@ korean = "인간이다. 천한 평민들이지. 크크크…<end>"
 japanese = "…あの日、俺は<line-break>草むらで野宿している<line-break>旅商人の一行にねらいをつけた<end>"
 korean = "…그날, 나는풀숲에서 노숙하던행상인 일행을 노렸어.<end>"
 
+["640018"]
+japanese = "<if><value:$29><equal>%0中年の男に、リルビーの娘…。<line-break>それに、さえない若造もいたっけな。<line-break>とにかく薄汚い奴らだった。<end><if><value:$29><equal>%1中年の男に、リルビーの娘…。<line-break>それに、あか抜けない小娘もいたっけな。<line-break>とにかく薄汚い奴らだった。<end>"
+korean = "<if><value:$29><equal>%0중년 남자에 릴비 여자애…. 게다가 별 볼 일 없는 젊은 녀석도 있었지. 어쨌든 다들 꾀죄죄했어.<end><if><value:$29><equal>%1중년 남자에 릴비 여자애…. 게다가 촌스러운 어린 여자애도 있었지. 어쨌든 다들 꾀죄죄했어.<end>"
+
 ["640019"]
 japanese = "ところが、俺より先に<line-break>そいつらを狙ってる冒険者がいたのさ。<line-break>　<end>"
 korean = "그런데 나보다 먼저 그 녀석들을 노리는 모험자가 있었어.<end>"

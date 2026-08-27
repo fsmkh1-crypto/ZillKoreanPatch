@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["110005"]
+japanese = "<select><value:$20>%4おっきくなったら船長になるんだ！<line-break>海の男だぞ。<end>海の男になるために、<line-break>足腰を鍛えるんだ！<line-break>がんばるぞ！<end>遅いぞ！<line-break>それじゃあ海の男になんて<line-break>なれないぞ。<end>今、特訓中なんだ。<line-break>邪魔しないでよ！<end>"
+korean = "<select><value:$20>%4크면 선장이 될 거야! 바다의 사나이가 될 거라고.<end>바다의 사나이가 되려면 하체를 단련해야 해! 힘낼 거야!<end>느려! 그러고선 바다의 사나이가 될 수 없어.<end>지금 특훈 중이야. 방해하지 마!<end>"
+
 ["110006"]
 japanese = "<select><value:$20>%4お兄ちゃん、<line-break>あたしも海の男になりたいよぉ。<end>お兄ちゃん、<line-break>走るの速すぎるよぉ～<line-break>あたしを何回も抜いちゃやだ～。<end>お兄ちゃん、<line-break>目が回るよぉ～<end>お兄ちゃん、<line-break>待ってぇ～、待ってよぉ～。<end>"
 korean = "<select><value:$20>%4오빠, 나도 바다 사나이가 되고 싶어.<end>오빠, 너무 빨라~ 나를 몇 번이나 추월하면 싫어~.<end>오빠, 어지러워~<end>오빠, 기다려~ 기다려 줘~.<end>"

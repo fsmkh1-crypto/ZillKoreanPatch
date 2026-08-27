@@ -180,6 +180,10 @@ korean = "레몬 님, 어서 오십시오.<end>"
 japanese = "これはティアナ王女、<line-break>今日は一段と美しい。<end>"
 korean = "이런, 티아나 공주님. 오늘은 한층 더 아름다우시군요.<end>"
 
+["650047"]
+japanese = "<if><value:$29><equal>%0くすっ、レムオン様ったら　<line-break>お上手ですこと。<line-break>　<line-break>弟君の前では<line-break>紳士で通すおつもりかしら？<end>くすっ、レムオン様ったら　<line-break>お上手ですこと。<line-break>　<line-break>妹君の前では<line-break>紳士で通すおつもりかしら？<end>"
+korean = "<if><value:$29><equal>%0후훗, 레몬님도 참 말씀을 잘하시네요. 남동생 앞에서는 신사로 보이고 싶으신가요?<end>후훗, 레몬님도 참 말씀을 잘하시네요. 여동생 앞에서는 신사로 보이고 싶으신가요?<end>"
+
 ["650048"]
 japanese = "<if><value:$29><equal>%0弟のことをご存じとは<line-break>お耳が早い。さすがは、<line-break>諜略に長けたエリスの娘だな。<end>妹のことをご存じとは<line-break>お耳が早い。さすがは、<line-break>諜略に長けたエリスの娘だな。<end>"
 korean = "<if><value:$29><equal>%0동생 일을 벌써 알고 있다니 귀가 빠르군. 역시 책략에 능한 엘리스의 딸답다.<end>여동생 일을 벌써 알고 있다니 귀가 빠르군. 역시 책략에 능한 엘리스의 딸답다.<end>"
