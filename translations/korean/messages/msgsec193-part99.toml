@@ -104,6 +104,10 @@ korean = "월광을 지닌 세라라면 우리가 여기 있는 걸 알고 있�
 japanese = "セラ…、<line-break>あなたの祝福は<line-break>確かに受け取ったわ。<end>"
 korean = "세라… 당신의 축복은 확실히 받았어.<end>"
 
+["1930030"]
+japanese = "私たちはふたりで<line-break>このミイスを復興させ　　　<line-break>神器を守ろう。<line-break>お前たちは自由に旅をし、<line-break>お前たちの探し求めるものを<line-break>手に入れるがいい。<end>"
+korean = "우리 둘이서 이 미이스를 부흥시키고 신기를 지키자. 너희는 자유롭게 여행하며 너희가 찾아 헤매던 것을 손에 넣으면 돼.<end>"
+
 ["1930031"]
 japanese = "お前たちなら、<line-break>きっと手に入れられる。<line-break>セラ、<value:$28>…。<end>"
 korean = "너희라면 분명 손에 넣을 수 있어. 세라, <value:$28>….<end>"
@@ -287,6 +291,10 @@ korean = "이제 이 노래, 외워 줬지?<end>"
 ["1930091"]
 japanese = "ぼくは<line-break><value:$28>との旅で<line-break>たっくさんのキレイに出会った。<end>"
 korean = "나는 <value:$28>와 여행하면서 정말 많은 아름다움을 만났어.<end>"
+
+["1930093"]
+japanese = "いずれ、みんな歌にするつもりだよ。<line-break>みんなの憎しみが、<line-break>時にいやされたころにね。<line-break>それまで、<line-break>キレイのかけらを求めて<line-break>旅をするつもり。<end>"
+korean = "언젠가 모두 노래로 만들 생각이야. 모두의 증오가 시간에 치유될 무렵에 말이야. 그때까지 아름다움의 조각을 찾아 여행할 거야.<end>"
 
 ["1930094"]
 japanese = "ぼくに一番キレイを見せてくれる<line-break><value:$28>と<line-break>一緒にね。<end>"

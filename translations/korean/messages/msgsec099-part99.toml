@@ -156,6 +156,10 @@ korean = "맛? 최악이네. 한마디로 소금과 기름 맛이랄까? 세상�
 japanese = "…そうね。<line-break>確かに堕落ね。　　　　　　　　<line-break>　<line-break>人間ごときに気を使うなんて、　<line-break>高貴で優雅なエルフである<line-break>アタクシらしくないわ…。<end>"
 korean = "…그래. 확실히 타락했네. 인간 따위에게 신경을 쓰다니, 고귀하고 우아한 엘프인 나답지 않아…<end>"
 
+["990048"]
+japanese = "セキニンっていう言葉が<line-break>聞こえたんですけど…、<line-break>セキニンっていったい…？<end>"
+korean = "'책임'이라는 말이 들렸는데요… 책임이란 대체…?<end>"
+
 ["990049"]
 japanese = "そ、そ、そうですよね！<line-break>そんなわけないですよね！<end>"
 korean = "그, 그렇죠! 그럴 리 없죠!<end>"
@@ -323,6 +327,10 @@ korean = "<value:$28>잖아. 그럼 난 바쁘니까.<end>"
 ["990112"]
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりで<line-break>ここに来ているの？<line-break>今の私たちは敵同士なのよ！？<end>"
 korean = "<value:$28>…. 무슨 생각으로 여기에 온 거야? 지금 우리는 적이라고!?<end>"
+
+["990114"]
+japanese = "…あなたも懲りない人ね。<line-break>同じことを何回も言わせないで。<line-break>　<line-break>私たちは逆の道を歩いているの。<line-break>もう、ここに来ないで。<line-break>次は見逃してあげないから…。<end>"
+korean = "…당신도 참 질리지 않는 사람이네. 같은 말 몇 번씩 하게 하지 마. 우리는 반대 길을 걷고 있어. 이제 여기 오지 마. 다음엔 봐주지 않을 테니까….<end>"
 
 ["990116"]
 japanese = "ディンガル帝国青竜軍副将として、<line-break><value:$28>、お前を討つ！<end>"

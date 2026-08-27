@@ -308,6 +308,10 @@ korean = "유괴 상태 플래그를 ON으로 한다<end>"
 japanese = "ＯＦＦのままでよい<end>"
 korean = "OFF인 채로 둔다<end>"
 
+["880101"]
+japanese = "フラグをＯＮにしました。<line-break>もう一度話しかけて返事をしなければ<line-break>ＯＫです。<end>"
+korean = "플래그를 ON으로 했습니다. 다시 말을 걸었을 때 응답이 없으면 OK입니다.<end>"
+
 ["880102"]
 japanese = "では、何もしません。<end>"
 korean = "그럼 아무것도 하지 않겠습니다.<end>"
@@ -427,6 +431,10 @@ korean = "무슨 수를 써서라도 한 달 안에 찾아 주세요.<end>"
 ["880141"]
 japanese = "<value:$28>！<line-break>危ない！<end>"
 korean = "<value:$28>! 위험해!<end>"
+
+["880142"]
+japanese = "アハハ、物騒な世の中になったなぁ。<line-break>電撃がとんでくるなんて。<line-break>君、大丈夫？<end>"
+korean = "아하하, 험악한 세상이 됐네. 전격이 날아오다니. 너 괜찮아?<end>"
 
 ["880143"]
 japanese = "大丈夫、大丈夫。<line-break>彼女に手荒な真似はしてないよ。<line-break>　<line-break>動けないように<line-break>呪縛をかけちゃったけどね。<end>"
@@ -719,6 +727,10 @@ korean = "안녕, <value:$28>. 와 줬구나.<end>"
 ["880259"]
 japanese = "へへへ～。<line-break>ボクのこのカッコも、見なれると<line-break>だいぶいい感じでしょ？<end>"
 korean = "헤헤헤~. 내 이 차림도 익숙해지니 꽤 괜찮아 보이지?<end>"
+
+["880261"]
+japanese = "ところでさあ…。<line-break>う～、う～、<line-break>やっぱりボクも外に行きたいなあ…。<line-break><value:$28>、ボクも<line-break>連れていってくれないかなあ？<line-break>ボク、きっとキミの役に立てるよ。<end>"
+korean = "그런데 말이야…. 으으, 으으, 역시 나도 밖에 나가고 싶어…. <value:$28>, 나도 데려가 주면 안 될까? 나, 분명 네 도움이 될 거야.<end>"
 
 ["880262"]
 japanese = "じゃあ、一緒に行こう<end>"

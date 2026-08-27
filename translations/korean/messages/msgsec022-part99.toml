@@ -12,6 +12,10 @@ korean = "마을 근처에 눌러앉은 <value:$15>을 퇴치해 주길 바란�
 japanese = "戦士たちよ、<value:$15>を征伐し、<line-break>再びこの地に安寧をもたらしたまえ。<line-break>期限は<value:$1B>日以内。<line-break>報酬は<value:$1A>ギアである。<end>"
 korean = "전사들이여, <value:$15>을 토벌하여 다시 이 땅에 평안을 가져오라. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기아다.<end>"
 
+["220042"]
+japanese = "<value:$15>が出没しています。<line-break>何が目的なのかわかりません。<line-break>それだけに私たちは恐くて恐くて…。<line-break>みなで集めた<value:$1A>ギアで、<line-break><value:$1B>日以内に退治をお願いできますか。<end>"
+korean = "<value:$15>이 출몰하고 있습니다. 목적을 몰라 더 무섭습니다…. 모두 모은 <value:$1A>기어로 부탁드립니다. <value:$1B>일 안에 퇴치해 주시겠습니까?<end>"
+
 ["220045"]
 japanese = "武器の材料集めを邪魔する奴がおる。<line-break><value:$15>じゃ。<line-break>こいつを倒してほしい。<line-break><value:$1A>ギア出せるでの。<line-break><value:$1B>日以内に頼むぞ。<end>"
 korean = "무기 재료를 모으는 걸 방해하는 놈이 있다. <value:$15>다. 이놈을 쓰러뜨려 줘. <value:$1A>기어를 내지. <value:$1B>일 안에 부탁한다.<end>"

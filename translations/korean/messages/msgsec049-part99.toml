@@ -76,6 +76,10 @@ korean = "여어, 기다렸어. 우선 돈부터 받자고.<end>"
 japanese = "金の方は用意できている。<line-break>商品の方の配送も終わった。<line-break>　<line-break>大変だったぜ。<line-break>いきなりあんだけの仕事が<line-break>舞い込んだんだからな。<end>"
 korean = "돈은 준비돼 있다. 상품 배송도 끝났고. 고생 좀 했지. 갑자기 그렇게 많은 일이 몰려들었으니까.<end>"
 
+["490026"]
+japanese = "こっちが、<line-break>あんたの荷物や馬車を処分したり、<line-break>商品の代金を集めたりしてできた金。　<line-break>こっちが<line-break>冒険者を雇った人件費、その他<line-break>もろもろの諸経費。確認してくれ。<end>"
+korean = "이쪽이 네 짐과 마차를 처분하고 상품 대금을 모아 만든 돈. 이쪽이 모험자를 고용한 인건비와 그 밖의 여러 경비야. 확인해 줘.<end>"
+
 ["490027"]
 japanese = "これを差し引きして…、残りはちょうど５０００だ。はいよ。<end>"
 korean = "이걸 빼고 나면… 남은 건 정확히 5000이다. 자.<end>"
@@ -148,6 +152,10 @@ korean = "좋아. 뭘로 승부하지?<end>"
 japanese = "この酒場に次に来る客は<line-break>男か、女か。これを当てる。<line-break>さあ、どっちだい？<end>"
 korean = "이 술집에 다음으로 들어올 손님이 남자인지 여자인지 맞히는 거야. 자, 어느 쪽일까?<end>"
 
+["490053"]
+japanese = "女、だ。<line-break>俺の耳は今、ここに向かって歩く<line-break>女の足音をしっかりととらえている。<end>"
+korean = "여자다. 내 귀에는 지금 이쪽으로 걸어오는 여자의 발소리가 똑똑히 들리고 있어.<end>"
+
 ["490054"]
 japanese = "ふーん、女か。　　　　　　　　　<line-break>　<line-break>　<line-break>この酒場はそこにいるべっぴんさん<line-break>目当ての客が多いらしいんだがな。<line-break>ま、女でいいんだな？<end>"
 korean = "흐음, 여자라고. 이 술집은 저기 있는 미인을 보러 오는 손님이 많다던데. 뭐, 여자로 하면 되는 거지?<end>"
@@ -163,6 +171,10 @@ korean = "알겠어. 남자구나.<end>"
 ["490057"]
 japanese = "こんにちはフェルムちゃん。<line-break>この前お願いしたお酒、ある？<end>"
 korean = "안녕, 페름. 전에 부탁한 술 있어?<end>"
+
+["490058"]
+japanese = "あ、おばあちゃん、こんにちは。<line-break>あのお酒、ありますよ。<line-break>はい、これですよね？<end>"
+korean = "아, 할머니, 안녕하세요. 그 술 있어요. 네, 이거 맞죠?<end>"
 
 ["490060"]
 japanese = "はい。<line-break>また来てくださいね、おばあちゃん。<end>"
@@ -183,6 +195,10 @@ korean = "이런, 아쉽군. 그럼 정보를 들려주겠나.<end>"
 ["490064"]
 japanese = "……ちっ。<line-break>まず、最初のほうだが、あんた、<line-break><value:$28>、だっけ？<line-break>エリスは結構、あんたのことを<line-break>気に入っているようだ。<line-break>殺されることはまずないな。<end>"
 korean = "……쳇. 우선 첫 번째인데, 당신 <value:$28> 맞지? 엘리스는 꽤 당신을 마음에 들어 하는 모양이야. 죽을 일은 거의 없겠군.<end>"
+
+["490066"]
+japanese = "まずいな。<line-break>ルルアンタの性格なら、まず確実に<line-break>面倒事に首を突っ込むだろうな。<end>"
+korean = "큰일이군. 루루안타 성격이라면 틀림없이 골칫거리에 끼어들 거야.<end>"
 
 ["490067"]
 japanese = "そうか、なら<line-break>生きて再会したければ<line-break>早く追いかけることだな。　　<line-break>その一座はこれから<line-break>リベルダムをまわって<line-break>エンシャントへ向かうそうだ。<end>"
@@ -228,6 +244,10 @@ korean = "오, <value:$28>인가. 이쪽은 안길단. 엉덩이를 붙이고 �
 japanese = "ハハ、失礼な奴じゃな。<end>"
 korean = "하하, 무례한 녀석이군.<end>"
 
+["490096"]
+japanese = "その後、世界中を傭兵として<line-break>渡り歩いたが、<line-break>結局、どこにも落ち着かずじまい。<end>"
+korean = "그 뒤 세계 곳곳을 용병으로 떠돌았지만 결국 어디에도 정착하지 못했어.<end>"
+
 ["490099"]
 japanese = "はっはっはっ、<line-break>それはお主の説明の仕方が悪いんじゃ。<end>"
 korean = "하하하, 그건 네 설명 방식이 나빴던 게야.<end>"
@@ -235,6 +255,10 @@ korean = "하하하, 그건 네 설명 방식이 나빴던 게야.<end>"
 ["490100"]
 japanese = "わしはアンギルダン。<line-break><value:$28>、今後よろしく頼む。<end>"
 korean = "나는 앙길단이다. <value:$28>, 앞으로 잘 부탁한다.<end>"
+
+["490101"]
+japanese = "今、ゼネテスとも話しておったのだが…<line-break>　<line-break>　<line-break>そのルルアンタとかいう　　　　　　　<line-break>リルビーの踊り子らしい少女は、<line-break>確かに、その一座の中におったぞ。<end>"
+korean = "방금 제네테스와도 이야기하고 있었는데… 그 루루안타라는 릴비 무희로 보이는 소녀는 확실히 그 일행 안에 있었다.<end>"
 
 ["490102"]
 japanese = "しかし、もう、エンシャントへ<line-break>行ってしもうた。<line-break>　<line-break>先に言うておいてくれたら、<line-break>わしが奴らを<line-break>ふん縛っておいたものを。<end>"
@@ -336,6 +360,10 @@ korean = "아, 미안하네. 그럼 잘 부탁해.<end>"
 japanese = "うるせえ。<line-break>賭けの負けは負けだ。<line-break>とっとと乗れ。<end>"
 korean = "시끄러워. 내기에서 진 건 진 거야. 얼른 타.<end>"
 
+["490130"]
+japanese = "ん？　ああ、いや、さっきな。<line-break>この男前と軽く勝負したんだよ。<line-break>船賃を賭けてな。<end>"
+korean = "응? 아, 아니, 방금 이 잘생긴 남자와 가볍게 승부했어. 뱃삯을 걸고 말이지.<end>"
+
 ["490131"]
 japanese = "まあまあ、細かいこといいなさんな。<line-break>ほら、早くしないと船が出ちまうぜ。<end>"
 korean = "뭐, 사소한 건 됐어. 자, 빨리 안 가면 배가 떠나 버린다고.<end>"
@@ -367,6 +395,10 @@ korean = "…놈들은 아직 엔샨트에 있어. 뭐, 이제부터는 너무 �
 ["490145"]
 japanese = "貴様ら、何をかぎまわっている？<end>"
 korean = "네놈들, 뭘 캐고 다니는 거냐?<end>"
+
+["490146"]
+japanese = "まず、旅の一座に隠れみのにしている　<line-break>誘拐組織のこと。<line-break>　<line-break>そして<line-break>その秘密を知って悪者に追われている、<line-break>かわいいリルビーの女の子のことさ。<end>"
+korean = "먼저 여행 악단을 위장막으로 삼은 유괴 조직 이야기. 그리고 그 비밀을 알고 악당들에게 쫓기는 귀여운 릴비 여자아이 이야기지.<end>"
 
 ["490147"]
 japanese = "それだけ事が悟られていては<line-break>死んでもらうしかないな。<end>"
@@ -855,6 +887,10 @@ korean = "성배를 노리는 나쁜 마인은 아기르샤이아. 성배를 가
 ["490290"]
 japanese = "忘れないように<line-break>覚えておかなくちゃ。<line-break>　<end>"
 korean = "잊지 않도록 기억해 둬야겠어.<end>"
+
+["490291"]
+japanese = "俺も冒険者だ。<line-break>それこそ、世界中をまわった。　　　<line-break>　<line-break>賢者の森にも何度も来た。だが、<line-break>ここに入ったことは一度もなかった。<line-break>運命に選ばれていなかったんだな。<end>"
+korean = "나도 모험자야. 정말 세계 곳곳을 돌았지. 현자의 숲에도 몇 번이나 왔어. 하지만 여기에 들어온 적은 한 번도 없었지. 운명에 선택받지 못했던 거야.<end>"
 
 ["490292"]
 japanese = "その俺がここにいる。<line-break>これはどういうことだって思う？<end>"

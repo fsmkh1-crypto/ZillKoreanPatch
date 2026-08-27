@@ -8,13 +8,29 @@ korean = "오시 볼륨 5 시작<end>"
 japanese = "<value:$28>様…。　　　　　　<line-break> <line-break> <line-break>今晩はこの宿にお泊りなのですか？<end>"
 korean = "<value:$28>님…. 오늘 밤은 이 여관에 묵으시나요?<end>"
 
+["1380002"]
+japanese = "いえ、私は、復興団の活動で<line-break>立ち寄ったのです。<line-break>少しお話ししていっても構いませんか？<line-break><value:$28>様には、<line-break>聞いていただきたいことが<line-break>たくさんあるのです…。<end>"
+korean = "아뇨, 저는 부흥단 활동 때문에 들렀습니다. 잠시 이야기하고 가도 될까요? <value:$28> 님께 들려드리고 싶은 이야기가 많아요….<end>"
+
 ["1380003"]
 japanese = "<value:$28>様…。<line-break><value:$28>様にだから　　　　　　<line-break>お話しするのですが…<line-break>今回のクーデターは、実は私、<line-break>どこか現実味がないんです。<end>"
 korean = "<value:$28>님…. <value:$28>님이라서 말씀드리는 건데… 이번 쿠데타가 사실 저는 어딘가 현실감이 없어요.<end>"
 
+["1380005"]
+japanese = "視力を失って、長年王宮というものと<line-break>縁遠くして生きてきた<line-break>せいかもしれません。<end>"
+korean = "시력을 잃고 오랫동안 왕궁과 거리를 두고 살아온 탓인지도 모르겠습니다.<end>"
+
 ["1380006"]
 japanese = "<value:$28>様、<line-break>人はどうしてそこまで、権力などという<line-break>物騒なものを欲しがるのでしょうか？<line-break>みなが安らかに暮らせることだけを、<line-break>すなおに願えないのはなぜ…？<end>"
 korean = "<value:$28> 님, 사람들은 어째서 그렇게까지 권력 같은 위험한 것을 원하는 걸까요? 모두가 편안히 살기만을 순수하게 바랄 수 없는 건 왜일까요…?<end>"
+
+["1380007"]
+japanese = "…私は、そういう思いから、<line-break>復興団の創立を思い立ったのです。<line-break> <line-break>多くの方のお力を借りました。<line-break>今でも、復興団は彼らによって<line-break>支えられています。<end>"
+korean = "…저는 그런 생각에서 부흥단 창립을 결심했습니다. 많은 분의 힘을 빌렸습니다. 지금도 부흥단은 그분들이 지탱해 주고 있습니다.<end>"
+
+["1380008"]
+japanese = "そして彼らは、余さず、<line-break>市井の生活を知っている人々でも<line-break>あります。<line-break>誰かが誰かを治めるのではなく、<line-break>すべての人々が、<line-break>おのおの自分の主であるような…<end>"
+korean = "그리고 그들은 빠짐없이 서민의 삶을 아는 사람들이기도 합니다. 누군가가 누군가를 다스리는 게 아니라 모든 사람이 각자 자신의 주인이 되는…<end>"
 
 ["1380010"]
 japanese = "うれしく思います、<value:$28>様。<line-break>これからもアトレイアを暖かく<line-break>見守っていてくださいね。<end>"
@@ -248,6 +264,10 @@ korean = "뭐야, 누군가 했더니 <value:$28>잖아. 있지, 이쪽으로 �
 japanese = "…静かな夜だね。　　　　　　　<line-break><line-break><line-break><value:$28>、キミはきっと<line-break>不思議に思ってるはずだよね。<end>"
 korean = "…조용한 밤이네. <value:$28>, 넌 분명 이상하게 생각하고 있겠지.<end>"
 
+["1380086"]
+japanese = "何って、ほら、ボクが突然、<line-break>ゴメン！　って、<line-break>いなくなっちゃうことについてさ。<end>"
+korean = "뭐냐니, 있잖아. 내가 갑자기 '미안!' 하고 사라져 버리는 일 말이야.<end>"
+
 ["1380087"]
 japanese = "さあこれからでっかい依頼に<line-break>チャレンジするぞ！　って時でも、<line-break>その時がくれば、<line-break>ボクはいなくなっちゃう。<line-break><line-break><end>"
 korean = "자, 이제 큰 의뢰에 도전한다! 하는 순간에도 그때가 오면 나는 사라져 버려.<end>"
@@ -452,9 +472,17 @@ korean = "저요? 복흥단 활동 때문에 여기 방 하나를 빌렸거든�
 japanese = "よろしければ、<line-break>少しお話していかれませんか？<end>"
 korean = "괜찮으시면 잠시 이야기하고 가시겠습니까?<end>"
 
+["1380163"]
+japanese = "<value:$28>様、<line-break>復興団の活動は、難しい仕事です。<line-break> <line-break>先のクーデターに影響を受けられた<line-break>方々をお助けするのが役割ですが、<line-break>中には、拒絶される方も多くて…。<end>"
+korean = "<value:$28> 님, 부흥단 활동은 어려운 일입니다. 지난 쿠데타의 영향을 받은 분들을 돕는 역할이지만 그중에는 거부하는 분도 많아서….<end>"
+
 ["1380164"]
 japanese = "いえ、無理もありません。<line-break> <line-break> <line-break>彼らに打撃を与えたのは、 <line-break>他でもない、<line-break>私たち貴族なのですから…。<end>"
 korean = "아뇨, 무리도 아닙니다. 그들에게 타격을 준 건 다름 아닌 우리 귀족들이니까요….<end>"
+
+["1380165"]
+japanese = "けれど、くじけず、<line-break>何度でも挑戦しようと思っています。<line-break> <line-break>くどくど過去を振り返るより、<line-break>前を向いて進むことこそが、<line-break>明るい未来を作るいしずえとなる…。<end>"
+korean = "하지만 꺾이지 않고 몇 번이고 도전할 생각입니다. 과거만 되씹는 것보다 앞을 보고 나아가는 것이야말로 밝은 미래를 만드는 초석이 되니까요….<end>"
 
 ["1380166"]
 japanese = "ティアナの考えは間違っていますか？<line-break><value:$28>様？<end>"
@@ -500,6 +528,10 @@ korean = "나, 나도 잘 모르겠어!<end>"
 japanese = "<value:$28>。<line-break>このことを僕に気付かせてくれたのは、<line-break>君だよ。<line-break>僕は、僕として、僕自身の力で、<line-break>しっかり生きていく。<end>"
 korean = "<value:$28>. 이걸 깨닫게 해 준 건 너야. 나는 나로서, 내 힘으로 제대로 살아갈 거야.<end>"
 
+["1380181"]
+japanese = "それ以上に大事なことなんて、<line-break>それ以上にすばらしいことなんて、<line-break>他にあるかい？<end>"
+korean = "그보다 더 중요한 게, 그보다 더 멋진 게 또 있을까?<end>"
+
 ["1380182"]
 japanese = "クゥー！　さすが俺のダチだ、　　　<line-break>いいこと言うぜ！<line-break><line-break>よし！　じゃ、晴れてトリオ結成を<line-break>声高らかに宣言しようじゃねえか！<end>"
 korean = "크으! 역시 내 친구야, 좋은 말 하는데! 좋아! 그럼 당당히 트리오 결성을 크게 선언해 보자고!<end>"
@@ -523,6 +555,10 @@ korean = "사, 살기?<end>"
 ["1380192"]
 japanese = "第一、どこのどいつなのよー！<line-break>こんなひどいところに<line-break>泊まろうって言い出したアホウは…<line-break>………………！<end>"
 korean = "애초에 어느 바보야! 이런 형편없는 곳에서 묵자고 한 녀석은… ………………!<end>"
+
+["1380193"]
+japanese = "アンタね、ド下等生物ッ！！<line-break>キイーーーッ！<line-break>許せない、許せないッ！<line-break>アンタと一緒に旅するように<line-break>なってから、アタクシは<line-break>運から見放されっぱなしなのよ！<end>"
+korean = "당신 말이야, 최하등생물!! 키이이익! 용서 못 해, 용서 못 해! 당신과 같이 여행하게 된 뒤로 나는 운이 완전히 떠나 버렸다고!<end>"
 
 ["1380195"]
 japanese = "もう少しの辛抱だ<end>"
@@ -1296,6 +1332,10 @@ korean = "그럼 지나가십시오.<end>"
 japanese = "…そうですか。<end>"
 korean = "…그렇습니까.<end>"
 
+["1380435"]
+japanese = "ロストール王宮に何か用かね？<line-break>王宮に用事のない者がうろつくのは<line-break>感心できぬな。<end>"
+korean = "로스토올 왕궁에 무슨 용무인가? 왕궁에 볼일 없는 자가 어슬렁거리는 건 좋지 않군.<end>"
+
 ["1380436"]
 japanese = "最近、王宮内の雰囲気が変わった…。<line-break> <line-break> <line-break>あんなことがあったから、<line-break>当然のことかもしれないが…。<end>"
 korean = "최근 왕궁 안 분위기가 달라졌어…. 그런 일이 있었으니 당연할지도 모르지만….<end>"
@@ -1528,6 +1568,10 @@ korean = "다행이다! 그럼 잘 부탁드립니다!<end>"
 japanese = "それじゃまず、<line-break>鍛冶屋さんに寄りましょう。<line-break>　<line-break>ご存知かもしれませんが、<line-break>この街の鍛冶屋さんは、<line-break>道具屋さんの地下にありますよ。<end>"
 korean = "그럼 먼저 대장간에 들르죠. 아실지도 모르지만 이 도시 대장간은 도구점 지하에 있습니다.<end>"
 
+["1380508"]
+japanese = "おやじ、剣が古くなってきたから　　<line-break>新しいのを買いたいんだ。<line-break>いい剣はないか？<end>"
+korean = "아저씨, 검이 낡아 와서 새 걸 사고 싶어. 좋은 검 없어?<end>"
+
 ["1380509"]
 japanese = "あんた、新米冒険者だね？　　　　　<line-break>　<line-break>　<end>"
 korean = "당신, 신참 모험자지?<end>"
@@ -1543,6 +1587,10 @@ korean = "그, 그렇군. 그렇다면 강화해 주지 않겠나.<end>"
 ["1380513"]
 japanese = "武器の強化には、錬剛石が必要だが、<line-break>持ってるかい？<line-break>　<end>"
 korean = "무기 강화에는 연강석이 필요한데, 가지고 있나?<end>"
+
+["1380514"]
+japanese = "錬剛石？　いや、持ってないな。　　<line-break>その錬剛石って、どうすれば<line-break>手に入るんだ？<end>"
+korean = "연강석? 아니, 없는데. 그 연강석은 어떻게 하면 구할 수 있어?<end>"
 
 ["1380517"]
 japanese = "なるほど。<line-break>冒険者は何ごとも冒険から　　　　　<line-break>ってことだな。<line-break>それじゃあ、おやじ。<line-break>錬剛石を手に入れたら、また来るよ。<end>"
@@ -1664,6 +1712,10 @@ korean = "정령 속성 변경이란?<end>"
 japanese = "すべて理解できている<end>"
 korean = "전부 이해하고 있다.<end>"
 
+["1380550"]
+japanese = "ただし、鍛えれば鍛えるほど、<line-break>武器の重量が重くなって扱いが<line-break>難しくなることも知っておいてくれ。<line-break>ま、買ったままの武器でも<line-break>そこそこ戦えるようには鍛えてある。<end>"
+korean = "다만 단련할수록 무기 무게가 늘어서 다루기 어려워질 수도 있다는 건 알아 둬. 뭐, 산 그대로의 무기도 어느 정도 싸울 수 있게 단련돼 있어.<end>"
+
 ["1380552"]
 japanese = "おう、効果のことな。<line-break>お前さん、<line-break>ハチに刺されたことがあるだろ？<end>"
 korean = "아, 효과 말이지. 너 벌에 쏘여 본 적 있지?<end>"
@@ -1703,6 +1755,10 @@ korean = "제 지팡이 수리비를 싸게 해 주신다면 생각해 볼게요
 ["1380564"]
 japanese = "うおっ、神様のしもべが俺の足元を！<line-break>天空神様へのお布施ってやつですかい？<end>"
 korean = "우왓, 신의 하인이 내 발밑에! 천공신께 드리는 헌금이란 겁니까?<end>"
+
+["1380565"]
+japanese = "ふふ、冗談ですよ、冗談。<line-break>で、精霊属性のことですね？<line-break>　<line-break>装備品の精霊属性を変更する仕事は、<line-break>鍛冶屋ではなく、<line-break>神と人とをつなぐ神殿の領分なのです。<end>"
+korean = "후후, 농담입니다, 농담. 정령 속성 이야기죠? 장비의 정령 속성을 바꾸는 일은 대장간이 아니라 신과 사람을 잇는 신전의 영역입니다.<end>"
 
 ["1380567"]
 japanese = "精霊属性の変更とは、すなわち、<line-break>火や水といった精霊の力を<line-break>武器や防具に宿すことを意味します。<line-break>精霊の属性については<line-break>もうご存知ですか？<end>"

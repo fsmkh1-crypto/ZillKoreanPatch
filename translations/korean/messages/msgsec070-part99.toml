@@ -8,6 +8,10 @@ korean = "아길샤이어 메시지 VOL1-2 시작<end>"
 japanese = "よ。もしかして　　　　<line-break>ご同業？<line-break>闇の怪物を退治しに来たのかい？<end>"
 korean = "여어. 혹시 동업자? 어둠의 괴물을 퇴치하러 왔나?<end>"
 
+["700002"]
+japanese = "やっぱ、そうか。<line-break>だが、奴の相手は、少しばかし<line-break>きついかもしんないぜ？<end>"
+korean = "역시 그런가. 하지만 놈을 상대하는 건 조금 벅찰지도 몰라.<end>"
+
 ["700003"]
 japanese = "で、どうだい？<line-break>俺でよければ<line-break>手伝わしてくれないか？<end>"
 korean = "그래, 어때? 나라도 괜찮다면 도와주게 해주지 않을래?<end>"
@@ -39,6 +43,10 @@ korean = "그 용감한 용자님의 이름을 듣고 싶은데?<end>"
 ["700011"]
 japanese = "<value:$28>、ね。<line-break>カッコいいじゃない。　　　　<line-break>　<line-break>俺はゼネテスっていうんだ。<line-break>それじゃ、ま、がんばってな。<end>"
 korean = "<value:$28>이라고? 멋진 이름이네. 난 제네테스라고 해. 그럼 뭐, 힘내라고.<end>"
+
+["700012"]
+japanese = "おう、<value:$28>。<line-break>久しぶり。　　　　　　　　　　　　　<line-break>　<line-break>しっかし、あのときはまいったぜ。<line-break>いきなり金持って姿消すんだからな。　<line-break>俺は酒場で待ちぼうけだ。<end>"
+korean = "오, <value:$28>. 오랜만이야. 그런데 그때는 참 난감했어. 갑자기 돈 들고 사라져 버리니 말이야. 난 술집에서 하염없이 기다렸다고.<end>"
 
 ["700014"]
 japanese = "なんだ、あんたか。　　　　　　　　　<line-break>また会ったな。<line-break>　<line-break>今日はこの奥の怪物退治かい？<line-break>余計なお節介かもしれないが<line-break>強いぜ、あの怪物は。<end>"

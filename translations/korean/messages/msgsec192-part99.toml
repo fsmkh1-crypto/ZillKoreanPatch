@@ -72,6 +72,10 @@ korean = "아이린, 이제 그만하는 게 좋다 고브. 한 번도 못 이�
 japanese = "っるさいわね！<line-break>なれなれしく、アイリーンなんて<line-break>呼ばないでよ！<end>"
 korean = "시끄러워! 친한 척 아이린이라고 부르지 마!<end>"
 
+["1920023"]
+japanese = "我々はオッシ先生に<line-break>弟子入りした身ゴブ。<line-break>アイリーンとは兄弟弟子ゴブ。<end>"
+korean = "우리는 오시 선생님께 제자로 들어간 몸 고브. 아이린과는 동문 제자 고브.<end>"
+
 ["1920024"]
 japanese = "うぅ…。<line-break>こいつらと兄弟弟子だなんて…。<end>"
 korean = "으으…. 이 녀석들과 동문이라니….<end>"
@@ -203,6 +207,10 @@ korean = "아아, 또 해버렸어…. 겨우 마도 아카데미로 돌아왔�
 ["1920063"]
 japanese = "そうだよね。<line-break>大失敗は成功の元って言うし！<line-break>　<line-break>ねっ、<value:$28>。<line-break>また旅をはじめない？<line-break>私、ついていくから。<end>"
 korean = "그렇지. 큰 실패는 성공의 어머니라고 하잖아! 있지, <value:$28>. 다시 여행을 시작하지 않을래? 나도 따라갈게.<end>"
+
+["1920064"]
+japanese = "<value:$28>と一緒に<line-break>旅をしていれば、きっとまた何か<line-break>すごいことがあるでしょ。<line-break>今回も、それでたぶん<line-break>アカデミーに許してもらえると<line-break>思うんだけど…。<end>"
+korean = "<value:$28>와 함께 여행하면 분명 또 굉장한 일이 생기겠지. 이번에도 그걸로 아카데미에서 용서해 줄 거라고 생각하는데….<end>"
 
 ["1920065"]
 japanese = "いたぞ！　ユーリスだ。　　<line-break>捕まえろ！<line-break>　<end>"
@@ -395,6 +403,10 @@ korean = "과분한 말씀입니다. 그럼 근위장군을 불러오겠습니�
 ["1920125"]
 japanese = "お願いします。<end>"
 korean = "부탁드립니다.<end>"
+
+["1920128"]
+japanese = "眠りにつこうとするとき、<line-break>今でも、ときどき恐くなる。<line-break>　<line-break>朝、目を覚ましたとき、<line-break>また、あの闇が私を覆ってしまう<line-break>のではないか、って。<end>"
+korean = "잠들려고 할 때면 지금도 가끔 무서워져. 아침에 눈을 떴을 때 또 그 어둠이 나를 덮어 버리는 게 아닐까, 하고.<end>"
 
 ["1920130"]
 japanese = "開いているわ。<line-break>入って。<end>"
@@ -675,6 +687,10 @@ korean = "<value:$28>은 <value:$28>이잖아. 내가 정말 좋아하는 <value
 ["1920222"]
 japanese = "そうですね。ルルアンタ、<line-break>あなたの言うとおりです。<end>"
 korean = "그렇군요. 루루안타, 당신 말이 맞아요.<end>"
+
+["1920224"]
+japanese = "くすっ。年を取ると、話し方が<line-break>ついお説教っぽくなりがちですね。<line-break>許してください。<line-break>で、さきほどの話ですが、<line-break>これから、どうするつもりですか？<end>"
+korean = "후훗. 나이를 먹으면 말투가 자꾸 훈계조가 되네요. 용서하세요. 그럼 아까 이야기인데, 이제부터 어떻게 하실 생각인가요?<end>"
 
 ["1920225"]
 japanese = "また旅に出るのですか？<line-break>それは、いいですね。<end>"

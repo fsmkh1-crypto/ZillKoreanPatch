@@ -36,6 +36,10 @@ korean = "…그렇군.<end>"
 japanese = "なるほど…、わかりました。<line-break>陛下、迎撃軍の指揮は私めにお任せを。<end>"
 korean = "과연… 알겠습니다. 폐하, 요격군의 지휘는 제게 맡겨 주십시오.<end>"
 
+["520011"]
+japanese = "経験のない若造は引っ込んでいるがよい。<line-break>ロストール軍総司令であるわしが指揮をとる。<end>"
+korean = "경험 없는 애송이는 빠져 있어라. 로스토올군 총사령인 내가 지휘한다.<end>"
+
 ["520014"]
 japanese = "…エリエナイ公、無礼であろう。<line-break>こ、言葉を慎まれよ。<end>"
 korean = "…에리에나이 공, 무례하오. 마, 말을 삼가시오.<end>"
@@ -79,6 +83,14 @@ korean = "여. 처음 뵙겠습니다.<end>"
 ["520030"]
 japanese = "帰れ、ゼネテス！<line-break>体面が悪い！　帰るのだ。<end>"
 korean = "돌아가라, 제네테스! 체면이 서지 않는다! 돌아가는 거다.<end>"
+
+["520031"]
+japanese = "副司令だからって<line-break>無理矢理連れてきておいて…　　　<line-break>　<line-break>来てみれば、いきなり帰れじゃ<line-break>帰れませんよ、父上。<line-break>会議に加えさせてもらいましょう。<end>"
+korean = "부사령관이라고 억지로 데려와 놓고… 와 보니 갑자기 돌아가라니 못 돌아갑니다, 아버지. 회의에 끼게 해 주십시오.<end>"
+
+["520035"]
+japanese = "何をバカな！　貴殿の手など借りぬ。<line-break>さっさと帰られるといい、<line-break>エリエナイ公！<end>"
+korean = "무슨 바보 같은 소리냐! 귀공의 손 따윈 빌리지 않겠다. 얼른 돌아가시오, 엘리에나이 공!<end>"
 
 ["520036"]
 japanese = "フッ、閣下がそうおっしゃるなら、<line-break>戻るとしましょう。<line-break>　<line-break>さて、ノーブル伯、<line-break>卿はどうなされるのかな？<line-break>愚者の会議から一緒に戻られるか？<end>"
@@ -264,6 +276,10 @@ korean = "주작장군이 쓰러졌다!<end>"
 japanese = "退け！　退けええい！<end>"
 korean = "물러나라! 물러나아아!<end>"
 
+["520127"]
+japanese = "タルテュバのバカが、臆病風に吹かれ、<line-break>兵を捨てて、自分だけこっそり逃げて…<line-break>　<end>"
+korean = "타르튜바 그 바보가 겁먹고 병사들을 버린 채 자기만 몰래 도망쳐서…<end>"
+
 ["520129"]
 japanese = "ノーブル伯、<line-break><value:$28>・リューガ。<end>"
 korean = "노블 백작, <value:$28>·류가.<end>"
@@ -332,6 +348,10 @@ korean = "노, 노블 백작님, 도망치십시오! 으악!<end>"
 japanese = "ノーブル伯！　ぐわっ！<line-break>た、助けてください！　ぐわー！<end>"
 korean = "노블 백작! 윽! 사, 살려 주세요! 으악!<end>"
 
+["520156"]
+japanese = "やんごとなき貴族とお見受けする。<line-break>天命は我らが皇帝ネメア様にあり！<line-break>お命頂戴！<end>"
+korean = "귀한 신분의 귀족으로 보이는군. 천명은 우리 황제 네메아 님께 있다! 목을 내놓아라!<end>"
+
 ["520158"]
 japanese = "これも戦場のならい。<line-break>ゆくぞ、<value:$28>！<end>"
 korean = "이것도 전장의 법도다. 간다, <value:$28>!<end>"
@@ -363,6 +383,10 @@ korean = "뭐라고!? 아군이 징발하러 나간 틈을 노리고 온 거냐!
 ["520168"]
 japanese = "頭だけで考えると<line-break>現実が見えなくなるぜ！<end>"
 korean = "머리로만 생각하면 현실이 안 보인다고!<end>"
+
+["520170"]
+japanese = "そうだ！<line-break>アンギルダンのとっつぁん。<line-break>俺がファーロスのドラ息子だ。<line-break>悪いが、死んでもらう。<line-break>俺は今、ロストールの兵と<line-break>民を背負ってるんでな。<end>"
+korean = "그래! 앙길단 아저씨. 내가 파로스의 망나니 아들이다. 미안하지만 죽어 줘야겠어. 지금 나는 로스토올의 병사와 백성을 짊어지고 있으니까.<end>"
 
 ["520171"]
 japanese = "わしとても同じじゃ。<line-break>ディンガルの兵のために<line-break>お主を倒す！　ゆくぞ！<end>"

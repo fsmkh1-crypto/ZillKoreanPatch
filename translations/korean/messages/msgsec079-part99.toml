@@ -148,6 +148,10 @@ korean = "우와, 최악…. 빨리 돈을 모아 와 주세요. 그때까지 �
 japanese = "人聞きの悪いこと言いやがって…。<end>"
 korean = "남 듣기 안 좋은 소리 하네….<end>"
 
+["790045"]
+japanese = "おいおい、誰がケチだって？<line-break>泣きごと言ってるヒマがあったら<line-break>働くこったな。<end>"
+korean = "어이, 누가 구두쇠라고? 징징댈 시간 있으면 일이나 해.<end>"
+
 ["790046"]
 japanese = "もう限界。お願いです。<line-break>ここから助け出してください～。<line-break>　<line-break>このままでは、<line-break>死んでも死に切れません～。<end>"
 korean = "이제 한계예요. 부탁이에요. 여기서 구해 주세요~. 이대로라면 죽어도 눈을 못 감겠어요~.<end>"
@@ -287,6 +291,10 @@ korean = "역시 <value:$28>님. 뭐든 참견하는 타입이시군요.<end>"
 ["790090"]
 japanese = "確かに、そうなんだけど…。<line-break>ワラにもすがりたい気持ちなの。<end>"
 korean = "확실히 그렇긴 하지만…. 지푸라기라도 잡고 싶은 심정이야.<end>"
+
+["790092"]
+japanese = "あらやだ、もうこんな時間。<line-break>早く寝た方がいいですよ。<line-break>明日も早いんだから。<end>"
+korean = "어머나, 벌써 이런 시간. 빨리 자는 게 좋아요. 내일도 일찍 일어나야 하니까.<end>"
 
 ["790094"]
 japanese = "…なるほど。<line-break>天才魔道士マノンね。　　　<line-break>　<line-break>あの魔道の塔に<line-break>そんなに偉大な魔道士が…。<end>"

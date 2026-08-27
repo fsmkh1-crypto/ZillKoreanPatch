@@ -304,6 +304,10 @@ korean = "당신은?<end>"
 japanese = "ええ。<end>"
 korean = "네.<end>"
 
+["410087"]
+japanese = "そして、あなたは<line-break>それにある程度成功している。　　　　<line-break>　<line-break>このダンジョンは、失礼だが<line-break>あなたの実力でここまで来られるような<line-break>安全なところではない。<end>"
+korean = "그리고 당신은 어느 정도 성공하고 있습니다. 실례지만 이 던전은 당신의 실력으로 여기까지 올 수 있을 만큼 안전한 곳이 아닙니다.<end>"
+
 ["410089"]
 japanese = "その通り…だけど、<line-break>いったい…？<end>"
 korean = "맞아… 하지만 대체…?<end>"

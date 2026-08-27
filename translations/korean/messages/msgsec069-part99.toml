@@ -104,6 +104,10 @@ korean = "난 녀석 동료지만 보호자는 아니야. 불평 같은 걸 들�
 japanese = "…女、<line-break>俺に命令するな。<end>"
 korean = "…여자, 나한테 명령하지 마.<end>"
 
+["690030"]
+japanese = "女…って私は男ですよ。<line-break>アーギルシャイアの仲間でもないです。<line-break>そして、命令でなくて提案です。<line-break>それとも、さっきの一撃で<line-break>動けませんか？<line-break>加減はしたんですよ。<end>"
+korean = "여자…라니 저는 남자입니다. 아기르샤이아의 동료도 아니고요. 그리고 명령이 아니라 제안입니다. 아니면 아까 한 방에 움직이지 못하시겠습니까? 힘 조절은 했는데요.<end>"
+
 ["690031"]
 japanese = "…くっ。<line-break>…すぐ行く。<end>"
 korean = "…큭. …곧 간다.<end>"
@@ -207,6 +211,10 @@ korean = "질문은 없다<end>"
 ["690064"]
 japanese = "フフ、それは秘密です。　　<line-break>ま、おいおい、わかりますよ。<line-break>　<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<line-break>　<end>"
 korean = "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일단 길드에서 일을 해 주세요.<end>"
+
+["690065"]
+japanese = "他人のために働くことで<line-break>魂を成長させていけば、<line-break>いずれ、わかってきますよ。<end>"
+korean = "다른 사람을 위해 일하며 영혼을 성장시키다 보면 언젠가 알게 될 겁니다.<end>"
 
 ["690068"]
 japanese = "破壊神ウルグの復活に用いられた<line-break>強力な魔道器です。<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
@@ -692,6 +700,10 @@ korean = "좋습니다. 가죠.<end>"
 japanese = "相手は強力な怪物です。<line-break>油断なきよう…。<end>"
 korean = "상대는 강력한 괴물입니다. 방심하지 마십시오….<end>"
 
+["690245"]
+japanese = "念には念を…ということです。<line-break>それでは。<line-break>また会うこともあるでしょう。<end>"
+korean = "확실히 해 두자는 뜻입니다. 그럼. 또 만날 일도 있겠지요.<end>"
+
 ["690246"]
 japanese = "私の名…ですか？<line-break>私は…、　　　　　　　　　　　<line-break>　<line-break>…私は、そう、仮面のしもべ…、<line-break>あのお方は私をサイフォスと<line-break>お呼びくださいます。<end>"
 korean = "제 이름…입니까? 저는… 저는… 그래요, 가면의 종…. 그분은 저를 사이포스라 불러 주십니다.<end>"
@@ -699,6 +711,10 @@ korean = "제 이름…입니까? 저는… 저는… 그래요, 가면의 종�
 ["690247"]
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
+
+["690248"]
+japanese = "おや、またお会いできましたね。　　　<line-break>…<value:$28>さん。<line-break>　<line-break>今回も我々の目的は同じ…<line-break>そう見ましたが、いかがでしょう？<line-break>また協力させていただきたいのですが。<end>"
+korean = "이런, 또 만났군요. …<value:$28> 씨. 이번에도 우리의 목적은 같은 것 같은데, 어떻습니까? 또 협력하고 싶습니다만.<end>"
 
 ["690249"]
 japanese = "…あなただけは、なぜか<line-break>不審をぬぐえないようですね。<end>"

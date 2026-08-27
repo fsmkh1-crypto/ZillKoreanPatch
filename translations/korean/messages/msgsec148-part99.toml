@@ -160,6 +160,10 @@ korean = "후후, 앞으로는 그런 일 없을 겁니다.<end>"
 japanese = "フフ、信じてるぜ。<end>"
 korean = "후후, 믿고 있어.<end>"
 
+["1480059"]
+japanese = "うーん。<line-break>最終的な判断は　　　　　　　　<line-break><value:$28>に任せるが、<line-break>そろそろ<value:$28>に、<line-break>ロストールのお偉いさん方から<line-break>なんらかの接触があると思うぜ。<end>"
+korean = "음. 최종 판단은 <value:$28>에게 맡기겠지만 슬슬 로스토올의 높은 분들이 <value:$28>에게 어떤 식으로든 접촉해 올 것 같아.<end>"
+
 ["1480063"]
 japanese = "えー？<line-break>ゼネテス、もう行っちゃうのぉ？<end>"
 korean = "에에? 제네테스, 벌써 가는 거야?<end>"
@@ -208,6 +212,10 @@ korean = "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니
 japanese = "忘れないように<line-break>覚えておかなくちゃ。<line-break>　<end>"
 korean = "잊지 않도록 기억해 둬야겠어.<end>"
 
+["1480082"]
+japanese = "あぁ？　なんだって？<line-break>…あいてててって。う～。<line-break>話はオルファウスに聞いてくれ。<end>"
+korean = "아앙? 뭐라고? …아야야야. 으으. 이야기는 올파우스한테 들어.<end>"
+
 ["1480083"]
 japanese = "あ、<value:$28>。<line-break>もう、行っちゃうの？<end>"
 korean = "아, <value:$28>. 벌써 가는 거야?<end>"
@@ -223,6 +231,10 @@ korean = "오르파우스 씨, 정말 신세 많이 졌어요.<end>"
 ["1480087"]
 japanese = "オルファウスさん、<line-break>それじゃあ、行ってきまーす！<end>"
 korean = "오르파우스 씨, 그럼 다녀올게요!<end>"
+
+["1480089"]
+japanese = "<value:$28>、あなたの<line-break>ソウルは無限の可能性を秘めている…<line-break>いわば、無限のソウルです。<line-break>世界を巡って人に出会い、<line-break>仲間を作って、<line-break>そのソウルを高めてください。<end>"
+korean = "<value:$28>, 당신의 소울은 무한한 가능성을 품고 있습니다… 말하자면 무한의 소울입니다. 세계를 돌며 사람을 만나고 동료를 만들며 그 소울을 키워 주세요.<end>"
 
 ["1480090"]
 japanese = "その中で世界は<line-break>様々な顔を見せてくれるでしょう。<line-break>自由な旅を！<end>"
@@ -275,6 +287,10 @@ korean = "미사용<end>"
 ["1480115"]
 japanese = "おや、なかなか耳ざといですね。<line-break>フフ、今はまだ秘密です。<line-break>　<line-break>おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
 korean = "오, 귀가 밝군요. 후후, 지금은 아직 비밀입니다. 차차 알게 될 겁니다. 일단 길드에서 일을 해 나가세요.<end>"
+
+["1480116"]
+japanese = "他人のために働くことで、<line-break>魂を成長させていけば<line-break>いずれ、わかってきますよ。　　<end>"
+korean = "다른 사람을 위해 일하며 영혼을 성장시키다 보면 언젠가 알게 될 겁니다.<end>"
 
 ["1480117"]
 japanese = "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。　<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
@@ -339,6 +355,10 @@ korean = "바로 간다<end>"
 ["1480135"]
 japanese = "気が向いたら行く<end>"
 korean = "마음이 내키면 간다<end>"
+
+["1480136"]
+japanese = "そう。それはよかった。<line-break>私たちは先に戻ってエリス様に<line-break>そのことをお伝えするわ。<end>"
+korean = "그래. 잘됐네. 우리는 먼저 돌아가 엘리스 님께 그 일을 전할게.<end>"
 
 ["1480137"]
 japanese = "それでは、<line-break>すぐにロストールの城を<line-break>訪ねて来てください。<end>"

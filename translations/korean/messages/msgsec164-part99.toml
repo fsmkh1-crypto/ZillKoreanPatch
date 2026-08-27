@@ -8,6 +8,10 @@ korean = "네메아 볼륨1 그 2 시작<end>"
 japanese = "お、<value:$28>か。<line-break>いくつか仕事もこなして、<line-break>冒険者らしくなってきたな。　　<line-break>リベルダムには、行ったか？<line-break>あそこは冒険者ギルドの本部だ。<end>"
 korean = "오, <value:$28>인가. 몇 가지 일도 해내고 모험자다워졌군. 리벨덤에는 가봤나? 거긴 모험자 길드 본부다.<end>"
 
+["1640003"]
+japanese = "変わったことですか？<line-break>それも魔族とか魔物とか<line-break>そんなたぐいの奴ねえ…。<end>"
+korean = "이상한 일 말인가요? 그것도 마족이나 마물 같은 종류의 녀석 말이죠….<end>"
+
 ["1640004"]
 japanese = "そうだ。<line-break>ささいなことでもかまわない。<line-break>　<line-break>闇の気配を感じるような話を<line-break>聞いていたら、教えてほしい。<end>"
 korean = "그래. 사소한 것이라도 상관없다. 어둠의 기운이 느껴지는 이야기를 들었다면 알려 줘.<end>"
@@ -20,9 +24,17 @@ korean = "…그러고 보니 요즘 도시를 떠들썩하게 하는 엘프가 
 japanese = "ダークエルフ…。<end>"
 korean = "다크 엘프….<end>"
 
+["1640007"]
+japanese = "けっこうな手練ですよ。<line-break>名をあげようと挑んだ冒険者は<line-break>全員やられちまってます。<end>"
+korean = "제법 솜씨 있는 녀석입니다. 이름을 날리려고 도전한 모험자들은 전부 당했어요.<end>"
+
 ["1640008"]
 japanese = "よう、<value:$28>。<line-break>こんなところに出くわすとは<line-break>運がいいな。<end>"
 korean = "여어, <value:$28>. 이런 데서 마주치다니 운이 좋군.<end>"
+
+["1640009"]
+japanese = "彼があのネメアだ。<line-break>冒険者にとっちゃ神様のような人だ。<line-break>知ってるだろ？<end>"
+korean = "저 사람이 그 네메아야. 모험자한테는 신 같은 사람이지. 알고 있지?<end>"
 
 ["1640010"]
 japanese = "<value:$28>というのか。<line-break>かけ出しの冒険者のようだな。<end>"
@@ -47,6 +59,10 @@ korean = "또 나타났냐!<end>"
 ["1640015"]
 japanese = "かなり近いな。<line-break>行ってみるとしよう。<end>"
 korean = "꽤 가깝군. 가 보자.<end>"
+
+["1640016"]
+japanese = "この事件も一件落着だな。<line-break>噂のダークエルフも<line-break>あの人にゃ、かなうまい。<end>"
+korean = "이 사건도 일단락됐군. 소문의 다크엘프도 저 사람을 이기진 못하겠지.<end>"
 
 ["1640017"]
 japanese = "騒ぎが収まるまで<line-break>ここでじっとしておった方が<line-break>いいぞ。<end>"
@@ -160,6 +176,10 @@ korean = "뭐!?<end>"
 japanese = "闇におびえ、生を捨てるのか？<end>"
 korean = "어둠에 떨며 삶을 버릴 셈인가?<end>"
 
+["1640047"]
+japanese = "お前に何がわかる！<line-break>憎しみで闇に染まったエルフに<line-break>生きる場所などあるものか！<end>"
+korean = "네가 뭘 알아! 증오로 어둠에 물든 엘프에게 살아갈 곳 따위 있을 것 같아!<end>"
+
 ["1640048"]
 japanese = "心まで闇に負けたわけではあるまい。<line-break>…急ぐことはない。<line-break>死ぬのは簡単だ。<line-break>その前に考えろ。<line-break>生きているお前が<line-break>死んだ妹のためにできることを。<end>"
 korean = "마음까지 어둠에 진 건 아니겠지. 서두를 필요 없다. 죽는 건 쉽다. 그 전에 생각해라. 살아 있는 네가 죽은 여동생을 위해 할 수 있는 일을.<end>"
@@ -215,6 +235,10 @@ korean = "그럼 죽여!<end>"
 ["1640061"]
 japanese = "人間は…残酷だ…。<end>"
 korean = "인간은… 잔혹해….<end>"
+
+["1640062"]
+japanese = "妹をあんな目にあわせて、<line-break>私の体を憎しみに染めて、<line-break>それでも生きろだなんて…。<end>"
+korean = "여동생을 그런 꼴로 만들고, 내 몸을 증오로 물들이고, 그래도 살라고 하다니….<end>"
 
 ["1640063"]
 japanese = "よう、<value:$28>。<line-break>冒険者に腕試しを挑んでくる　<line-break>ボルダンには会ったかい？<line-break>あちこちの街道に出没して、<line-break>強そうな冒険者に<line-break>勝負を挑んでくるらしいんだ。<end>"

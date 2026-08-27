@@ -28,6 +28,10 @@ korean = "뭐, 뭐. 그때도 다행히 무사히 끝났으니까….<end>"
 japanese = "でも、<value:$28>には<line-break>商売を継がせるんでしょお？<line-break>だったら剣の稽古なんて…。<end>"
 korean = "하지만 <value:$28>한테 장사를 물려줄 거잖아? 그럼 검술 수련은….<end>"
 
+["1860013"]
+japanese = "けど、あのときのフリントさん、　　<line-break>すごかったね。<line-break>ほんとうは強いんだ。<end>"
+korean = "하지만 그때 플린트 씨, 대단했지. 사실은 강한 사람이었어.<end>"
+
 ["1860014"]
 japanese = "あのときは、<value:$28>を<line-break>守るので必死だったからね。<line-break>親というものはそんなものだよ。　　<end>"
 korean = "그때는 <value:$28>을 지키느라 필사적이었으니까. 부모란 그런 거야.<end>"
@@ -167,6 +171,10 @@ korean = "정말! <value:$28>, 이러면 안 되잖아! 빨리 여관에 가야 
 ["1860059"]
 japanese = "ま、いいさ。察しはついてる。<line-break>だが、感心しねぇな。<end>"
 korean = "뭐, 됐어. 짐작은 가. 하지만 감탄할 일은 아니군.<end>"
+
+["1860062"]
+japanese = "私は、今度のお務めが終わったら、<line-break>お暇をいただこうかと<line-break>考えております。<end>"
+korean = "저는 이번 임무가 끝나면 휴가를 받을까 생각하고 있습니다.<end>"
 
 ["1860063"]
 japanese = "そうだな。<line-break>それがいいんだろうが…。<line-break>　<line-break>あんたは得難い存在だろうからな。<line-break>そう簡単に手放してくれるかどうか。<end>"
@@ -407,6 +415,10 @@ korean = "서둘러, <value:$28>….<end>"
 ["1860146"]
 japanese = "王宮か？<line-break>この道をずっとまっすぐ行けば<line-break>王宮の門に出るよ。<end>"
 korean = "왕궁? 이 길을 계속 곧장 가면 왕궁 문이 나와.<end>"
+
+["1860147"]
+japanese = "<if><value:$29><equal>%0（こっちだと街の外に出てしまう…。<line-break>　王宮は確か逆方向だったな。）<end>（こっちだと街の外に出ちゃう…。<line-break>　王宮は確か逆方向よね。）<end>"
+korean = "<if><value:$29><equal>%0(이쪽으로 가면 도시 밖으로 나가 버린다…. 왕궁은 분명 반대 방향이었지.)<end>(이쪽으로 가면 도시 밖으로 나가 버려…. 왕궁은 분명 반대 방향이었지.)<end>"
 
 ["1860148"]
 japanese = "（父さんが心配だから、<line-break>　早く帰らなきゃ。）<end>"

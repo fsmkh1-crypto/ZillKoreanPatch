@@ -192,6 +192,10 @@ korean = "그럼 돌아갈까요!<end>"
 japanese = "　　　　　　　　ノエルよ…。　　　　　　　　<line-break>　　　　　　　　我との約束、<line-break>　　　　　　　忘れるでないぞ。<line-break>　<end>"
 korean = "노엘이여…. 나와의 약속을 잊지 말거라.<end>"
 
+["1870056"]
+japanese = "<value:$28>さん、<line-break>わたしたち、<line-break>一度オズワルドに戻ってみます。<line-break>でも、冒険者はやめません。<line-break>ですから、オズワルドを出たら<line-break>またお会いしましょう！<end>"
+korean = "<value:$28> 씨, 저희는 한번 오즈월드로 돌아가 보려고 해요. 하지만 모험자를 그만두진 않아요. 오즈월드를 나오면 다시 만나요!<end>"
+
 ["1870058"]
 japanese = "あなたとノエルを会わせてくれた<line-break>ことには、感謝したいわ。<end>"
 korean = "당신과 노엘을 만나게 해 준 것에는 감사하고 싶어.<end>"

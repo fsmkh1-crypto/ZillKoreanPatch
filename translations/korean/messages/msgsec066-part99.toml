@@ -296,6 +296,10 @@ korean = "저기, 내 행실이 나쁘다고 고모한테 고자질한 건 아�
 japanese = "私、お母様に告げ口したり<line-break>いたしません。<end>"
 korean = "저, 어머님께 일러바치거나 하지 않아요.<end>"
 
+["660086"]
+japanese = "…ゼネテス様がそうしろと<line-break>おっしゃるのなら、努力はしてみます。<line-break>でも…<end>"
+korean = "…제네테스 님이 그렇게 하라고 하신다면 노력은 해 보겠습니다. 하지만…<end>"
+
 ["660087"]
 japanese = "…いいさ。俺の方こそ<line-break>家族関係に立ち入るようなことを<line-break>言っちまった。悪かったな。<line-break><value:$28>、<line-break>なに突っ立ってるんだ。帰るぞ。<end>"
 korean = "…됐어. 나도 가족 일에 끼어드는 말을 해 버렸네. 미안하다. <value:$28>, 뭐 하고 서 있어. 돌아가자.<end>"
@@ -348,6 +352,10 @@ korean = "좋은 것은 반복된다. 그렇기에 진부해지기도 하지.<en
 japanese = "…こんな偽りの笑顔を？<end>"
 korean = "…이런 거짓 웃음을?<end>"
 
+["660106"]
+japanese = "…偽り？<line-break>あんたが笑いかけてくれる<line-break>俺にはこれ以上の真実はないんだよ。<end>"
+korean = "…거짓이라고? 네가 웃어 주는 나에겐 이것보다 더한 진실은 없어.<end>"
+
 ["660108"]
 japanese = "きゃっ！<line-break>勝手に部屋に入ってくるなんて！<end>"
 korean = "꺄! 멋대로 방에 들어오다니!<end>"
@@ -355,6 +363,10 @@ korean = "꺄! 멋대로 방에 들어오다니!<end>"
 ["660109"]
 japanese = "ちゃんとノックしたが、<line-break>返事がないから入ったんだ。<line-break>そうだろ、<value:$28>？<end>"
 korean = "노크는 했는데 대답이 없어서 들어온 거야. 그렇지, <value:$28>?<end>"
+
+["660110"]
+japanese = "それとも、入ってきたのが<line-break>タルテュバじゃなくて<line-break>がっかりしてるのかい？<end>"
+korean = "아니면 들어온 사람이 타르튜바가 아니라서 실망한 거야?<end>"
 
 ["660111"]
 japanese = "わ、私、タルテュバ様とは<line-break>そういう関係では…！<end>"

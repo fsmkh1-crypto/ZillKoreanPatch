@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V2용 시작<end>"
 japanese = "クリュセイス！　　　　　　　<line-break>奴だ！<line-break>　<line-break>お前の父、<line-break>ロティを殺したのは奴だ！<line-break>あの非市民だ！<end>"
 korean = "크류세이스! 저놈이다! 네 아버지 로티를 죽인 건 저놈이야! 저 비시민이다!<end>"
 
+["1030002"]
+japanese = "お父さま…、いえ、<line-break>市民ロティ・クロイス殺害の罪で<line-break>あなたを逮捕します。<end>"
+korean = "아버님… 아니, 시민 로티 크로이스 살해 혐의로 당신을 체포합니다.<end>"
+
 ["1030003"]
 japanese = "しらを切るつもりなの？<line-break>市民アンティノ・マモンから<line-break>証言を得ているのよ。<line-break>あなたがクロイス宛てに<line-break>毒の入った酒を届けたのを<line-break>彼は目撃したのよ！<end>"
 korean = "시치미 뗄 생각이야? 시민 안티노 마몬에게 증언을 받았어. 네가 크로이스에게 독이 든 술을 배달하는 걸 그가 목격했다고!<end>"
@@ -99,6 +103,10 @@ korean = "아, 아니야… 아니! 멀리 있었어! 쫓아갔지만 따라잡�
 ["1030033"]
 japanese = "なるほどね。<line-break>じゃあ整理するとこういうことかな。<line-break>　<line-break>あんたは遠くから、怪しい奴が<line-break>クロイス邸に毒入りの酒を<line-break>持ってきたところを目撃したわけだ。<end>"
 korean = "그렇군. 그럼 정리하면 이런 거지. 당신은 멀리서 수상한 녀석이 크로이스 저택에 독 든 술을 가져오는 걸 목격한 거야.<end>"
+
+["1030035"]
+japanese = "小うるさい非市民ね。<line-break>市民に向かって無礼だわ！　　　<line-break>　<line-break>それに、あなたの言っていることは、<line-break>この非市民が父殺しの犯人でない<line-break>という証拠にもならなくてよ！<end>"
+korean = "시끄러운 비시민이네. 시민에게 무례해! 게다가 네 말은 이 비시민이 아버지를 죽인 범인이 아니라는 증거도 안 돼!<end>"
 
 ["1030036"]
 japanese = "だが、<value:$28>を<line-break>しょっぴくには無理があるだろ？<end>"

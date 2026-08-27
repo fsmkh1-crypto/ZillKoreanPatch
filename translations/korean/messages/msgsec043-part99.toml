@@ -616,6 +616,10 @@ korean = "아니<end>"
 japanese = "さようでございますか。<line-break>それは、大変な旅でございましたね。<line-break>　<line-break><value:$28>様、<line-break>あまり、ご無理はなさいませぬよう<line-break>お願い申しあげます。<end>"
 korean = "그러셨군요. 참 힘든 여행이셨겠습니다. <value:$28> 님, 너무 무리하지 않으시길 부탁드립니다.<end>"
 
+["430191"]
+japanese = "おはようございます、<value:$28>様<line-break>今日もよい天気でございますよ。　　　<line-break>　<line-break>それでは、行ってらっしゃいませ。<line-break>竜王様のご加護が<value:$28>様を<line-break>守りますように。<end>"
+korean = "좋은 아침입니다, <value:$28> 님. 오늘도 좋은 날씨입니다. 그럼 다녀오십시오. 용왕님의 가호가 <value:$28> 님을 지켜 주시길.<end>"
+
 ["430192"]
 japanese = "さようでございますか。<line-break>それでは、いってらっしゃいませ。　　<line-break>　<line-break>あまり、ご無理はなさいませぬよう。<line-break>竜王様のご加護が<value:$28>様を<line-break>守りますように。<end>"
 korean = "그렇습니까. 그럼 다녀오십시오. 너무 무리는 하지 마십시오. 용왕님의 가호가 <value:$28> 님을 지켜 주기를.<end>"

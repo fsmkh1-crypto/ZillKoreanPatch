@@ -192,6 +192,10 @@ korean = "환술 계통에도 해당되지 않고, 범죄 등록에도 걸리지
 japanese = "団長！<end>"
 korean = "단장!<end>"
 
+["620056"]
+japanese = "これでゴブゴブ団も<line-break>公的に認められたゴブ！<line-break>お前たちにも苦労をかけたゴブ！<end>"
+korean = "이걸로 고브고브단도 공식적으로 인정받았다 고브! 너희에게도 고생시켰다 고브!<end>"
+
 ["620057"]
 japanese = "団長！<end>"
 korean = "단장!<end>"
@@ -360,6 +364,10 @@ korean = "고블린이 인간을 습격하니까!<end>"
 japanese = "ゴブリンも、人間がゴブリンを襲うから<line-break>自衛のために戦っているだけゴブ！<end>"
 korean = "고블린도 인간이 고블린을 공격하니까 자위하려고 싸우는 것뿐이다 고브!<end>"
 
+["620105"]
+japanese = "あんたたちはそんなこと<line-break>考えてないでしょ。<line-break>あんたたちは本能で人を襲うのよ。<end>"
+korean = "너희는 그런 걸 생각하진 않잖아. 너희는 본능으로 사람을 덮쳐.<end>"
+
 ["620106"]
 japanese = "そうね、ゴブリンと口ゲンカしてる<line-break>場合じゃなかったわ。<line-break>　<line-break>あいつらは港から内海を<line-break>渡るつもりよ。追いましょ！<line-break>港で捕まえるのよ！<end>"
 korean = "그래, 고블린과 말싸움할 때가 아니었어. 저 녀석들은 항구에서 내해를 건널 생각이야. 쫓아가자! 항구에서 잡는 거야!<end>"
@@ -408,6 +416,10 @@ korean = "결국 배 안에서는 못 찾았네.<end>"
 japanese = "親分、腹減ったゴブ～。<end>"
 korean = "두목, 배고프다 고브~.<end>"
 
+["620121"]
+japanese = "む、仕方ないゴブ。<line-break>奴らに見つからないように<line-break>荷物の中に隠れてたゴブからな。<end>"
+korean = "음, 어쩔 수 없다 고브. 놈들에게 들키지 않으려고 짐 속에 숨어 있었으니 고브.<end>"
+
 ["620122"]
 japanese = "あーっ！！<end>"
 korean = "아앗!!<end>"
@@ -424,6 +436,10 @@ korean = "흥, 거친 여자와 그 밖의 한 명. 그리고 마룬!<end>"
 japanese = "オルナット、<line-break>あきらめてはいかんでゴブ！<end>"
 korean = "오르나트, 포기하면 안 된다 고브!<end>"
 
+["620127"]
+japanese = "あきらめなければ、<line-break>あの地平の向こうにきっと、<line-break>幸せの大地が待ってるゴブ。<end>"
+korean = "포기하지 않으면 저 지평선 너머에 분명 행복의 땅이 기다리고 있다 고브.<end>"
+
 ["620128"]
 japanese = "親分、自分が間違ってたゴブ！<end>"
 korean = "두목, 내가 틀렸어 고브!<end>"
@@ -436,6 +452,10 @@ korean = "너희들! 이번엔 놓치지 않을 거야!<end>"
 japanese = "わかってるわよ。<line-break>所持金が船賃には足りないんでしょ。<line-break>　<line-break>任せときなさいって。<line-break>こういう時にこそ、<line-break>私の美貌が役に立つのよ。<end>"
 korean = "알고 있어. 가진 돈이 뱃삯에 모자라지? 맡겨 두라니까. 이럴 때야말로 내 미모가 도움이 되는 거야.<end>"
 
+["620131"]
+japanese = "何よ、その疑わしそうな目は。<line-break>いいわ、女の武器の使い方、<line-break>見せてあげるから。<end>"
+korean = "뭐야, 그 의심스러운 눈은. 좋아, 여자의 무기 쓰는 법을 보여 줄게.<end>"
+
 ["620132"]
 japanese = "うるうるうる…。<end>"
 korean = "울먹울먹울먹….<end>"
@@ -447,6 +467,10 @@ korean = "뭐야? 뱃삯은 있냐?<end>"
 ["620134"]
 japanese = "ボルダンのおじさぁん。<line-break>船賃はないのぉ。　　　　　<line-break>　<line-break>でもぉ、エンシャントでは<line-break>一人暮らしのおばあさんが<line-break>病気になっててぇ、<end>"
 korean = "볼단 아저씨~. 뱃삯은 없어~. 하지만 엔샨트에서는 혼자 사는 할머니가 병이 나서….<end>"
+
+["620135"]
+japanese = "お見舞いの品を届けに<line-break>行かなくちゃいけないのぉ。<line-break>お願いぃ、お船に乗せてぇ。<end>"
+korean = "문병 선물을 전하러 가야 해애. 부탁이야아, 배 좀 태워 줘어.<end>"
 
 ["620137"]
 japanese = "…なんだか気持ち悪いが、　<line-break>ま、いいだろ。<line-break>　<line-break>そっちの男はともかく、<line-break>こっちの姉ちゃんは、<line-break>へへ、結構いい感じだしな。<end>"
@@ -559,6 +583,10 @@ korean = "어쨌든 빨리 녀석들을 쫓아가야 해.<end>"
 ["620169"]
 japanese = "行きましょ、<value:$28>。<end>"
 korean = "가죠, <value:$28>.<end>"
+
+["620170"]
+japanese = "今さら何言ってるのよ。<line-break>ロストールに帰りたくないの？　<line-break>　<line-break>聖杯も取り戻さずに、おめおめと<line-break>迷子の猫が舞い戻るみたいに<line-break>帰っても、恥ずかしくないの？<end>"
+korean = "이제 와서 무슨 소리야. 로스토올로 돌아가기 싫어? 성배도 되찾지 못하고 길 잃은 고양이처럼 돌아가도 안 부끄러워?<end>"
 
 ["620171"]
 japanese = "もう、うつむいてないで！<line-break>ほぉーら、行くわよ！<end>"

@@ -140,6 +140,10 @@ korean = "설명을 끝낸다<end>"
 japanese = "ようこそ、強者の集う戦いの場へ。<end>"
 korean = "강자들이 모이는 전장에 온 것을 환영한다.<end>"
 
+["270050"]
+japanese = "優勝者は予選には出場できません。<line-break>そのかわり、８月の決勝大会で、<line-break>防衛戦がありますよ。<line-break>必ず来てくださいね。<line-break>来ないと大変なことになりますよ。<end>"
+korean = "우승자는 예선에 출전할 수 없습니다. 대신 8월 결승대회에서 방어전이 있어요. 꼭 와 주세요. 안 오시면 큰일이 납니다.<end>"
+
 ["270051"]
 japanese = "<value:$28>さんは、<line-break>すでに決勝に出場できる権利を<line-break>持っていますよ。<end>"
 korean = "<value:$28> 씨는 이미 결승에 출전할 자격을 갖고 있어요.<end>"

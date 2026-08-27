@@ -176,6 +176,14 @@ korean = "불길한 예감이 들어…. 단단히 각오하고 가는 게 좋�
 japanese = "この仕事、危険な匂いがするわ。<line-break><line-break><line-break>それにあのロティっていう商人からは<line-break>いい噂を聞かないし…。<line-break>用心したほうがいいわよ。<end>"
 korean = "이 일, 위험한 냄새가 나. 게다가 로티라는 그 상인은 평판도 좋지 않고… 조심하는 게 좋아.<end>"
 
+["1230158"]
+japanese = "ロティさんのお屋敷なら<line-break>時計台がある広場の先の<line-break>居住区にありますよ。<end>"
+korean = "로티 씨의 저택이라면 시계탑이 있는 광장 너머 주거구역에 있어요.<end>"
+
+["1230160"]
+japanese = "（タルテュバがハンナの人形を<line-break>　ティアナ王女にプレゼントした<line-break>　らしい）<line-break>（ハンナのためにも、<line-break>　ティアナ王女に頼んで<line-break>　返してもらおう）<end>"
+korean = "(타르튜바가 한나의 인형을 티아나 왕녀에게 선물한 모양이다) (한나를 위해서라도 티아나 왕녀에게 부탁해서 돌려받자)<end>"
+
 ["1230166"]
 japanese = "余裕があるのね、<value:$28>。<line-break>子供のために貴族と敵対するなんて。<line-break>フフフッ、なかなか面白いわ。<end>"
 korean = "여유 있네, <value:$28>. 아이를 위해 귀족과 맞서다니. 후후후, 꽤 재미있어.<end>"
@@ -215,6 +223,10 @@ korean = "하프엘프 케류네이아 말로는 첫 번째 어둠의 신기가 
 ["1230202"]
 japanese = "闇の神器の１個は、<line-break>ウルカーンに隠されているらしい。<line-break><line-break>その、ケリュネイアという<line-break>ハーフエルフの言うことを<line-break>信じるなら。<end>"
 korean = "어둠의 신기 하나는 울칸에 숨겨져 있는 모양이야. 그 케류네이아라는 하프엘프의 말을 믿는다면 말이지.<end>"
+
+["1230203"]
+japanese = "そっか、闇の神器のひとつは<line-break>ウルカーンにあるってわけか。<line-break>で、どうするんだい？<line-break>その依頼を受ける気があるなら<line-break>早く探しにいったほうがいいだろう。<end>"
+korean = "그렇구나, 어둠의 신기 하나는 울칸에 있다는 거군. 그래서 어쩔 거야? 그 의뢰를 받을 생각이면 빨리 찾으러 가는 게 좋겠어.<end>"
 
 ["1230211"]
 japanese = "………………。<line-break><line-break><line-break>ウルカーンだ…。<end>"

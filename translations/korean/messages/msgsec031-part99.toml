@@ -56,6 +56,10 @@ korean = "<value:$28>…. 좋은 눈을 한 소녀군…. 반란은 예정대로
 japanese = "姉ちゃーん！<end>"
 korean = "누나아!<end>"
 
+["310025"]
+japanese = "…また<line-break>父さんの遺してくれた<line-break>畑を見てたんだね。<line-break>ボルボラなんかに負けるもんか！<line-break>絶対、あいつの横暴から<line-break>町を…父さんの畑を守ってやる！<end>"
+korean = "…또 아버지가 남겨 주신 밭을 보고 있었구나. 볼보라 같은 놈한테 질까 보냐! 반드시 그놈의 횡포에서 마을을… 아버지의 밭을 지켜 내겠어!<end>"
+
 ["310026"]
 japanese = "あ、そうだった！<line-break>仲間にノーブルの森で集まるよう<line-break>伝えてきたよ。<line-break>それから、頼まれてた元気の薬。<line-break>渡しとくぜ、姉ちゃん！<end>"
 korean = "아, 맞다! 동료들에게 노블의 숲에 모이라고 전해 뒀어. 그리고 부탁했던 원기의 약. 줄게, 누나!<end>"
@@ -172,6 +176,10 @@ korean = "그건… 그저 꿈같은 이야기야.<end>"
 japanese = "そうだね。<line-break>今は…まだね。<line-break>　<line-break>だけど、夢見ることは<line-break>夢を実現させるための<line-break>大事な第１歩だと思うんだ。<end>"
 korean = "그래. 지금은… 아직이야. 하지만 꿈꾸는 건 꿈을 이루기 위한 중요한 첫걸음이라고 생각해.<end>"
 
+["310069"]
+japanese = "…ありがとう。<line-break>君にそう言ってもらえて<line-break>うれしいよ。<line-break>ふふ、君に研究の成果を<line-break>見せてあげられるかもしれない。<line-break>楽しみにしてて！　じゃあ！<end>"
+korean = "…고마워. 네가 그렇게 말해 줘서 기뻐. 후후, 연구 성과를 보여 줄 수 있을지도 모르겠네. 기대하고 있어! 그럼!<end>"
+
 ["310071"]
 japanese = "ごめんなさい！<line-break>だいじょうぶですかぁ？<end>"
 korean = "미안해요! 괜찮으세요?<end>"
@@ -203,6 +211,10 @@ korean = "…반란 같은 걸 일으키면 마을 사람 전부가 몰살당할
 ["310086"]
 japanese = "カタがつくだと！？<line-break>ウソだ！<line-break>貴族が俺らのことなど考えるもんか！<end>"
 korean = "끝난다고!? 거짓말이야! 귀족들이 우리 같은 사람을 생각할 리가 있나!<end>"
+
+["310088"]
+japanese = "そうだ！<line-break>次は姉ちゃんでも<line-break>勝てるかどうかわからない！<line-break>そんときゃ長老たちは、<line-break>姉ちゃんを代官にさしだそうとする！<line-break>今立たないと俺たちは破滅なんだ！<end>"
+korean = "그래! 다음에는 누나라도 이길 수 있을지 몰라! 그때가 되면 장로들은 누나를 대관에게 넘기려 들 거야! 지금 일어나지 않으면 우리는 끝장이야!<end>"
 
 ["310090"]
 japanese = "立ち上がろう！<end>"
@@ -276,6 +288,10 @@ korean = "게헤헤… 바보 남매 같으니! 순순히 유인당해 나왔군
 japanese = "ボルボラ！！<line-break>お前もこれで終わりだ！<line-break>降参しろ！<end>"
 korean = "볼보라!! 너도 이걸로 끝이다! 항복해!<end>"
 
+["310113"]
+japanese = "降参だと？<line-break>せっかくお前らをおびき寄せたのに？<line-break>ゲヘヘヘ…。<line-break>ゲヘ、教えてやろうか？<line-break>俺の怪物がやられたのも罠、反乱も罠。<line-break>すべては王宮の政争の一環なのさ。<end>"
+korean = "항복이라고? 모처럼 너희를 유인했는데? 게헤헤헤…. 게헤, 가르쳐 줄까? 내 괴물이 당한 것도 함정, 반란도 함정. 전부 왕궁의 권력 다툼 일부야.<end>"
+
 ["310114"]
 japanese = "なんだと、ボルボラ！？<end>"
 korean = "뭐라고, 볼보라!?<end>"
@@ -311,6 +327,10 @@ korean = "…그럴 순 없다.<end>"
 ["310130"]
 japanese = "ゲヒッ！！<line-break>レ、レムオン様…。<end>"
 korean = "게힛!! 레, 레므온 님….<end>"
+
+["310131"]
+japanese = "俺の領地で<line-break>好き放題やってくれているようだな。<line-break>ボルボラ。<line-break>その上、エリス王妃に通じて<line-break>俺の秘密を探り、<line-break>俺の領地に反乱を起こそうとは…<end>"
+korean = "내 영지에서 제멋대로 날뛰고 있나 보군, 볼보라. 게다가 엘리스 왕비와 내통해 내 비밀을 캐고, 내 영지에서 반란을 일으키려 하다니…<end>"
 
 ["310132"]
 japanese = "それなりの覚悟は<line-break>できているのだろうな？<end>"
@@ -583,6 +603,10 @@ korean = "젠장!! 우리는 대체 뭘 위해 볼보라를 쓰러뜨린 거야!
 ["310222"]
 japanese = "そ、それって、<line-break>どういうことだよ！<end>"
 korean = "그, 그게 무슨 뜻이야!<end>"
+
+["310224"]
+japanese = "ボルボラの腹づもりでは<line-break>わざと反乱を起こさせて<line-break>それをねじ伏せる気でいたのだろう。<line-break>もっとも、計算がやや違って<line-break>お前らに倒されてしまったがな。<end>"
+korean = "볼보라 생각으로는 일부러 반란을 일으키게 한 뒤 짓밟을 셈이었겠지. 다만 계산이 조금 어긋나 너희에게 당하고 말았지만.<end>"
 
 ["310225"]
 japanese = "そんなバカな！！<line-break>俺たちは貴族の権力争いのために<line-break>こんな…！<line-break>ウソだ！！<line-break>だいたい、なんでお前に<line-break>そんなことがわかるんだよ！！<end>"

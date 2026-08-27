@@ -12,6 +12,10 @@ korean = "안녕, <value:$28>. 드디어 공주님을 만나러 와 줬구나. �
 japanese = "誰？<end>"
 korean = "누구?<end>"
 
+["750004"]
+japanese = "君に光を与える勇者だよ、<line-break>アトレイア王女。<line-break>くすっ。さ、ごあいさつを。<end>"
+korean = "너에게 빛을 가져다줄 용사야, 아트레이아 왕녀. 후훗. 자, 인사해.<end>"
+
 ["750005"]
 japanese = "ようこそ、<line-break>勇者<value:$28>様。<end>"
 korean = "어서 오십시오, 용사 <value:$28>님.<end>"
@@ -540,6 +544,10 @@ korean = "맞아. 고마워, 용사님!<end>"
 japanese = "礼には及ばない。<line-break>俺様は悪ある所必ず現れるのだ！<line-break>　<line-break>では、さらばだ！<line-break>世界中が俺様を呼んでるぜ！<line-break>でやっ！<end>"
 korean = "감사는 필요 없다. 이 몸은 악이 있는 곳엔 반드시 나타난다! 그럼 안녕이다! 온 세상이 나를 부르고 있다! 이야앗!<end>"
 
+["750171"]
+japanese = "俺様はガルドラン改・激！！<line-break>暗闇の中の王女の光を奪う悪党め！<line-break>　<line-break>この世に正義がある限り、いやさ<line-break>俺様がある限り、色惑の瞳を<line-break>売り飛ばさせはせん！　いくぞ！<end>"
+korean = "나는 갈드란 개·격!! 어둠 속 왕녀의 빛을 빼앗는 악당아! 이 세상에 정의가 있는 한, 아니 내가 있는 한 색혹의 눈동자를 팔아넘기게 둘 수 없다! 간다!<end>"
+
 ["750173"]
 japanese = "フフッ、ガルドランじゃ、<line-break>やっぱり無理だったよね。アハハ！<end>"
 korean = "후후, 갈드란으로는 역시 무리였네. 아하하!<end>"
@@ -735,6 +743,10 @@ korean = "처음 뵙겠습니다. 저는 샤리. 사람들은 동방의 박사�
 ["750231"]
 japanese = "ここは、君のまだ知らない　　　　　<line-break>お姫様の部屋だよ。<line-break>　<line-break>でも、彼女のことを話すには<line-break>君はまだちょっと頼りないな。<line-break>だから、会わせるわけにもいかない。<end>"
 korean = "여긴 네가 아직 모르는 공주님의 방이야. 하지만 그녀 이야기를 하기엔 넌 아직 좀 미덥지 못해. 그래서 만나게 해 줄 수도 없어.<end>"
+
+["750232"]
+japanese = "もっと、いろんな冒険を<line-break>体験してきてくれなくちゃ。<line-break>お姫様を守る騎士様としてね。<line-break>じゃ、またおいでよ。<line-break>いつかきっと、王女様に<line-break>会わせてあげるよ。じゃあね。<end>"
+korean = "더 여러 모험을 경험해 와야 해. 공주님을 지키는 기사님으로서 말이지. 그럼 또 와. 언젠가 꼭 왕녀님을 만나게 해 줄게. 잘 가.<end>"
 
 ["750233"]
 japanese = "気をつかっていただいて　　　　<line-break>ありがとうございます。<line-break>　<line-break><value:$28>様が、こうして<line-break>部屋に来てくださるだけで<line-break>私は、充分です…。<end>"

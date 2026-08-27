@@ -24,6 +24,10 @@ korean = "가끔 술버릇이 나쁜 손님이 있어서 곤란해요…. 그래
 japanese = "いらっしゃいませ！<line-break><value:$28>さん！<line-break>　<line-break>うれしい。来てくれたんですね。<end>"
 korean = "어서 오세요, <value:$28>님! 기뻐요. 와 주셨군요.<end>"
 
+["1980007"]
+japanese = "あっ、そうだ。<value:$28>さん。<line-break>実は私、ちょっと<line-break>新しいお料理の研究をしてて…<line-break>あの、それでよろしければ…。<line-break><value:$28>さんも、<line-break>味見してくださいませんか？<end>"
+korean = "아, 맞다. <value:$28> 씨. 사실 저 새 요리를 좀 연구하고 있는데… 괜찮으시면 <value:$28> 씨도 맛을 봐 주시겠어요?<end>"
+
 ["1980008"]
 japanese = "遠慮しておく<end>"
 korean = "사양한다<end>"
@@ -211,6 +215,10 @@ korean = "앗, <value:$28> 씨….<end>"
 ["1980072"]
 japanese = "えっ？　ああ、私ですか。<line-break>今、ちょっと星空を<line-break>ながめていたんです。<end>"
 korean = "네? 아, 저요? 지금 잠깐 별하늘을 바라보고 있었어요.<end>"
+
+["1980074"]
+japanese = "でも、ときどき不安になるんです。<line-break>このまま冒険を続けていたら、<line-break>楽しいことよりも、辛いことのほうが<line-break>多くなるのかなって。<line-break><value:$28>さんはどう思います？<end>"
+korean = "하지만 가끔 불안해져요. 이대로 모험을 계속하면 즐거운 일보다 괴로운 일이 더 많아질까 하고요. <value:$28> 씨는 어떻게 생각하세요?<end>"
 
 ["1980075"]
 japanese = "これからも楽しいことがたくさんあるさ<end>"

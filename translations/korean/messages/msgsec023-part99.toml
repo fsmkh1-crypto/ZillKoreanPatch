@@ -32,6 +32,10 @@ korean = "<value:$15>이 필요하게 되었습니다. 그래서 모험자분께
 japanese = "<value:$15>を探し出し、入手してほしい。<line-break>期限は、<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアとする。<end>"
 korean = "<value:$15>을 찾아 입수해 줬으면 한다. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다.<end>"
 
+["230055"]
+japanese = "外はモンスターだらけで、<line-break>武器の材料を手に入れるのも一苦労だ。<line-break>誰か代わりに行ってきちゃあくれねぇか？<line-break><value:$1A>ギア出すぜ。<line-break><value:$1B>日以内に持ってきてくれよ。<end>"
+korean = "밖은 몬스터투성이라 무기 재료를 구하는 것도 큰일이야. 누가 대신 다녀와 주지 않을래? <value:$1A>기어 줄게. <value:$1B>일 안에 가져와 줘.<end>"
+
 ["230083"]
 japanese = "日々の儀式には様々な品が必要である。<line-break>今回はそのひとつである<value:$15>を<line-break><value:$1B>日以内に持ち帰ってほしい。<line-break>報酬は、<value:$1A>ギアである。<end>"
 korean = "매일의 의식에는 여러 물품이 필요하다. 이번에는 그중 하나인 <value:$15>을 <value:$1B>일 이내에 가져와 줬으면 한다. 보수는 <value:$1A>기어다.<end>"

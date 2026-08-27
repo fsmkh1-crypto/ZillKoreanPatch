@@ -24,6 +24,10 @@ korean = "응. 차라리 그쪽이 속 시원하고. 승부하자.<end>"
 japanese = "ちょっと、あんた！<line-break>何ボーっと見てんのよ！<end>"
 korean = "잠깐, 너! 뭘 멍하니 보고 있어!<end>"
 
+["840008"]
+japanese = "そう、あんたのことよ。<line-break>こいつら人さらいなの。<line-break>さっさと手を貸しなさいよ。<end>"
+korean = "그래, 당신 말이야. 이 녀석들 유괴범이야. 얼른 도와줘.<end>"
+
 ["840009"]
 japanese = "そんじゃ、<line-break>さっさと片付けちゃおうか！？<end>"
 korean = "그럼, 빨리 끝내 버릴까!?<end>"
@@ -659,6 +663,10 @@ korean = "네, 네!<end>"
 ["840204"]
 japanese = "な～んか、かわいーなー。<line-break>昔の私、見てるみたい。<end>"
 korean = "왠지 귀엽네~. 옛날의 나를 보는 것 같아.<end>"
+
+["840205"]
+japanese = "そ、そんな！<line-break>私、カルラさんみたいに強くないし、<line-break>美人じゃないし、それに…<end>"
+korean = "그, 그럴 수가! 저, 칼라 씨처럼 강하지도 않고 미인도 아니고, 게다가…<end>"
 
 ["840206"]
 japanese = "あの、でも…<end>"

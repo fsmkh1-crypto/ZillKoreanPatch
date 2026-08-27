@@ -8,6 +8,10 @@ korean = "해방군 이벤트 시작<end>"
 japanese = "おお、<value:$28>。<line-break>お前が来るのを待っていたんだ。<line-break>クリュセイス様のお話を聞いてくれ。<end>"
 korean = "오, <value:$28>. 네가 오길 기다리고 있었다. 크류세이스 님의 말씀을 들어 줘.<end>"
 
+["1880002"]
+japanese = "待っていました、<line-break><value:$28>。<line-break>あなたに頼みたいことがあります。<line-break>先日、リベルダムの廃墟から、<line-break>埋蔵金のありかを記した地図が<line-break>見つかったのです。<end>"
+korean = "기다리고 있었습니다, <value:$28>. 부탁드릴 일이 있습니다. 얼마 전 리벨덤 폐허에서 매장금의 위치를 적은 지도가 발견됐습니다.<end>"
+
 ["1880004"]
 japanese = "そこで、<value:$28>。<line-break>あなたに、埋蔵金のありかを<line-break>調査してもらいたいのです。<line-break>引き受けてもらえますね？<end>"
 korean = "그래서, <value:$28>. 당신에게 매장금의 위치를 조사해 주었으면 합니다. 맡아 주시겠지요?<end>"
@@ -196,6 +200,10 @@ korean = "제 마음의 창을 열어 준 건 당신의 다정함이니까요.<e
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
 
+["1880084"]
+japanese = "わたくし、<value:$28>には<line-break>ずっとそばにいてほしいのです。　　<line-break>　<line-break>…でも、それはわたくしのわがまま。<line-break>そんなもので、あなたを<line-break>縛っておくことなどできません。<end>"
+korean = "저는 <value:$28>가 계속 곁에 있어 줬으면 해요. …하지만 그건 제 욕심. 그런 걸로 당신을 묶어 둘 수는 없어요.<end>"
+
 ["1880085"]
 japanese = "でも、これだけは覚えていてください。<line-break>ここには、あなたを待っている<line-break>わたくしがいることを…。<line-break>どこに行こうとも、必ず<line-break>わたくしのもとへ帰ってきてください。<end>"
 korean = "하지만 이것만은 기억해 주세요. 여기에는 당신을 기다리는 제가 있다는 것을…. 어디를 가더라도 반드시 제게 돌아와 주세요.<end>"
@@ -203,6 +211,10 @@ korean = "하지만 이것만은 기억해 주세요. 여기에는 당신을 기
 ["1880089"]
 japanese = "だから、<value:$28>も<line-break>忘れないでください。あなたのことを<line-break>放っておけないわたくしがいることを。<end>"
 korean = "그러니 <value:$28>도 잊지 말아 주세요. 당신을 그냥 내버려 둘 수 없는 제가 있다는 걸.<end>"
+
+["1880090"]
+japanese = "<value:$28>、<line-break>難民の数は膨れ上がる一方です。　<line-break>このままでは、また資金が…。<line-break><value:$28>には、<line-break>１００００ギアほど提供してくれる<line-break>ようなあてはありませんか？<end>"
+korean = "<value:$28>, 난민은 계속 늘어나고 있습니다. 이대로면 또 자금이…. <value:$28>에게 10000기어 정도 제공해 줄 만한 사람이 없습니까?<end>"
 
 ["1880091"]
 japanese = "資金を援助する<end>"
@@ -223,6 +235,10 @@ korean = "…감사의 말씀도 다 못 드리겠습니다. 이 자금을 필�
 ["1880095"]
 japanese = "１００００ギアを資金提供した。<end>"
 korean = "10000기어를 자금으로 제공했다.<end>"
+
+["1880096"]
+japanese = "それでは、わたくし、さっそく<line-break>難民を支援できるように手配を　　<line-break>整えてきます。<line-break><value:$28>、今のわたくしは<line-break>あなただけが頼りです。<line-break>それでは、行ってきます。<end>"
+korean = "그럼 저는 바로 난민 지원 준비를 하러 가겠습니다. <value:$28>, 지금의 저는 당신만 믿고 있습니다. 그럼 다녀올게요.<end>"
 
 ["1880098"]
 japanese = "無理なこと言ってしまいましたね。<line-break>…忘れてください。<end>"
@@ -247,6 +263,10 @@ korean = "그런 거액은 줄 수 없다<end>"
 ["1880109"]
 japanese = "え？　今なんて…？<end>"
 korean = "어? 방금 뭐라고…?<end>"
+
+["1880110"]
+japanese = "あ、あなたが、<line-break>資金を出してくれると言うのですか？<line-break>１００００ギアも！？<end>"
+korean = "다, 당신이 자금을 내 주시겠다고요? 10000기어나!?<end>"
 
 ["1880111"]
 japanese = "どうしてそれほどの大金を<line-break>そんなに簡単に出してくれるのです？<line-break>解放軍のため？　難民のため？<line-break>それとも、わたくしの…。<end>"

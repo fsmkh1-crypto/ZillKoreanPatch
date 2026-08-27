@@ -8,6 +8,10 @@ korean = "롯시마(2) 메시지 V1 시작<end>"
 japanese = "はい、はい。<line-break>あとで持っていきますから。<end>"
 korean = "네, 네. 나중에 가져다드릴게요.<end>"
 
+["1750003"]
+japanese = "とっておきの小部屋も、すっかり<line-break>あの老人専用になってしまったな、<line-break>トホホホ…<end>"
+korean = "아껴 둔 작은 방도 완전히 그 노인 전용이 되어 버렸군, 흐흐흑….<end>"
+
 ["1750005"]
 japanese = "<value:$28>ゆーんか。<line-break>わしはロッシマじゃ。<line-break>よろしくのう。<end>"
 korean = "<value:$28>라고 하는가. 나는 로시마다. 잘 부탁하네.<end>"
@@ -32,6 +36,10 @@ korean = "재미없어요<end>"
 japanese = "そりゃあ結構なことじゃ。　　　　<line-break>冒険はロマンじゃけえのー。<line-break>　<line-break>じゃけど、まだ、ほんまの楽しみは<line-break>知らんじゃろう。<end>"
 korean = "그거 좋은 일이구먼. 모험은 낭만이니까. 하지만 아직 진짜 재미는 모르는 모양이군.<end>"
 
+["1750013"]
+japanese = "ほーか、つまらんか。<line-break>なるほどのう。<line-break>じゃが、冒険者を続けるんじゃろ？<end>"
+korean = "그런가, 재미없나. 그렇군. 그래도 모험자는 계속할 거지?<end>"
+
 ["1750014"]
 japanese = "ほんなら、楽しいほうが<line-break>ええじゃろうのう。<end>"
 korean = "그렇다면 즐거운 쪽이 낫겠지.<end>"
@@ -55,6 +63,10 @@ korean = "여긴 말이지, 옛날에 도적 호랑이굴이라고 불리던 곳
 ["1750020"]
 japanese = "ここにいろいろな罠を仕掛けといた。<line-break>それをうまく突破して、<line-break>試練の証を見つけんさい。<line-break>われの実力を<line-break>見させてもらうけぇのう。<end>"
 korean = "여기에 여러 함정을 설치해 뒀다. 잘 돌파해서 시련의 증표를 찾아 봐라. 네 실력을 보겠다.<end>"
+
+["1750023"]
+japanese = "ほんまか…。　　　　　　　　<line-break>そんならしょうがないの。<line-break>わしはここで待っとるけぇ。<line-break>われが暇になったらきんさい。<line-break>冒険のおもしろさを<line-break>教えてやるけんの。<end>"
+korean = "정말인가…. 그렇다면 어쩔 수 없지. 나는 여기서 기다릴 테니 네가 한가해지면 와라. 모험의 재미를 알려 주마.<end>"
 
 ["1750024"]
 japanese = "どしたんね？<line-break>実は暇じゃったんかいの？<end>"
@@ -83,6 +95,10 @@ korean = "여긴 말이지, 옛날에 도적 호랑이굴이라고 불리던 곳
 ["1750030"]
 japanese = "ここにいろいろな罠を仕掛けといた。<line-break>それをうまく突破して、<line-break>試練の証を見つけんさい。<line-break>われの実力を<line-break>見させてもらうけぇのう。<end>"
 korean = "여기에 여러 함정을 설치해 뒀다. 잘 돌파해서 시련의 증표를 찾아 봐라. 네 실력을 보겠다.<end>"
+
+["1750033"]
+japanese = "ほんまか…。　　　　　　　　<line-break>そんならしょうがないの。<line-break>わしはここで待っとるけぇ。<line-break>われが暇になったらきんさい。<line-break>冒険のおもしろさを<line-break>教えてやるけんの。<end>"
+korean = "정말인가…. 그렇다면 어쩔 수 없지. 나는 여기서 기다릴 테니 네가 한가해지면 와라. 모험의 재미를 알려 주마.<end>"
 
 ["1750034"]
 japanese = "怪しいと思うたら、調べてみにゃあ<line-break>始まらんで。気い抜いたら死じゃ。<end>"

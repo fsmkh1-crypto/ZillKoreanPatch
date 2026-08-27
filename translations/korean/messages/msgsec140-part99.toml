@@ -140,6 +140,10 @@ korean = "…나한테 명령하지 마.<end>"
 japanese = "くすっ。<line-break>なにを恐れているんだい？<end>"
 korean = "후훗. 뭘 두려워하는 거지?<end>"
 
+["1400038"]
+japanese = "タルテュバ、君の痛みはわかるよ。<line-break>だから、ついでに<line-break>願いをかなえてあげるのさ。<end>"
+korean = "타르튜바, 네 아픔은 알아. 그러니까 덤으로 소원을 이루어 주는 거야.<end>"
+
 ["1400040"]
 japanese = "王妃様からお話は伺っています。<line-break>どうぞ、お通りください。<end>"
 korean = "왕비님께 말씀 들었습니다. 들어가십시오.<end>"
@@ -159,6 +163,10 @@ korean = "…나한테 명령하지 마.<end>"
 ["1400046"]
 japanese = "くすっ。<line-break>なにを恐れているんだい？<end>"
 korean = "후훗. 뭘 두려워하는 거지?<end>"
+
+["1400048"]
+japanese = "タルテュバ、君の痛みはわかるよ。<line-break>だから、ついでに<line-break>願いをかなえてあげるのさ。<end>"
+korean = "타르튜바, 네 아픔은 알아. 그러니까 덤으로 소원을 이루어 주는 거야.<end>"
 
 ["1400049"]
 japanese = "（あれは、いったい…？）<end>"
@@ -247,6 +255,10 @@ korean = "너는 샤리!? 광대 녀석! 무슨 속셈이지?<end>"
 ["1400082"]
 japanese = "気に入らねえゴタクだな。<line-break>何様のつもりだ？<end>"
 korean = "마음에 안 드는 소리군. 네가 뭐라도 되는 줄 알아?<end>"
+
+["1400089"]
+japanese = "ヤバそうだね、こりゃ。<line-break>理性も何もトんじまってる。<line-break>俺が目当てだったことも忘れてるな。<line-break>…みんな逃げろ！<line-break>ここは俺と<value:$28>で<line-break>なんとかする！<end>"
+korean = "이거 위험해 보이는데. 이성이고 뭐고 다 날아갔어. 내가 목적이었던 것도 잊었군. …다들 도망쳐! 여긴 나와 <value:$28>가 어떻게든 할게!<end>"
 
 ["1400090"]
 japanese = "<value:$28>様！<end>"
@@ -444,6 +456,10 @@ korean = "아트레이아를 에스코트한다<end>"
 japanese = "アトレイアをエスコートしない<end>"
 korean = "아트레이아를 에스코트하지 않는다<end>"
 
+["1400161"]
+japanese = "…とても…感激です。<line-break>まるで、運命が<line-break>変わっていくように感じます。<line-break>では、さっそく空中庭園まで<line-break>その…エスコート、してください、<line-break><value:$28>様。<end>"
+korean = "…정말… 감격이에요. 마치 운명이 변해 가는 것 같아요. 그럼 바로 공중정원까지 그… 에스코트해 주세요, <value:$28> 님.<end>"
+
 ["1400162"]
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
@@ -583,6 +599,10 @@ korean = "…제네테스?<end>"
 ["1400203"]
 japanese = "おもしろい展開ですけれど<line-break>ありえませんわ。<line-break>　<line-break>つまり、レムオン様も<line-break>おびき寄せられたと。<end>"
 korean = "흥미로운 전개이긴 하지만 있을 수 없는 일이군요. 즉, 레무온 님도 유인당했다는 거군요.<end>"
+
+["1400204"]
+japanese = "たぶんな。<line-break>俺には手紙の文面も予測できるぜ。<line-break>恋は盲目、とはよく言ったもんだ。<end>"
+korean = "아마 그렇겠지. 난 편지 내용도 예상할 수 있어. 사랑은 눈을 멀게 한다는 말이 딱 맞군.<end>"
 
 ["1400206"]
 japanese = "いったい何を言っている！？<line-break>どういうことだ！<line-break>説明しろ、ゼネテス！<end>"

@@ -148,6 +148,10 @@ korean = "네. 저기…<end>레무온 님의 저택을<end>빌려 주실 수 �
 japanese = "ロストールのあの屋敷をか？<line-break>なんのために？<end>"
 korean = "로스토올의 그 저택을? 무엇 때문에?<end>"
 
+["780056"]
+japanese = "実は、ずっと考えていたのですが…<line-break>私、どうしても<line-break>したいことがあるのです。<end>"
+korean = "사실 계속 생각하고 있었는데요… 저, 꼭 하고 싶은 일이 있어요.<end>"
+
 ["780058"]
 japanese = "…それはまた<line-break>大がかりな計画だな。<end>"
 korean = "…그건 또 꽤 대규모 계획이군.<end>"
@@ -188,6 +192,10 @@ korean = "괜찮습니다. 그럼, 실례하겠습니다.<end>"
 japanese = "何を言い出すかと思えば…。<end>"
 korean = "무슨 말을 하나 했더니….<end>"
 
+["780069"]
+japanese = "あのアトレイアが、自分から<line-break>何かを始めようと言うのだ。<line-break>放っておくがいい。<end>"
+korean = "그 아트레이아가 스스로 뭔가를 시작하겠다고 하는 거다. 내버려 둬.<end>"
+
 ["780070"]
 japanese = "<value:$28>様。<line-break>実は、お話したいことがあるのです。<end>"
 korean = "<value:$28>님. 사실 드릴 말씀이 있습니다.<end>"
@@ -203,6 +211,10 @@ korean = "아니요, 사실은… 해야 할 일이 있습니다.<end>"
 ["780074"]
 japanese = "実は、しなければならないことが<line-break>あるのです。<end>"
 korean = "사실 해야 할 일이 있습니다.<end>"
+
+["780080"]
+japanese = "ええ。<line-break>でも、精一杯やってみるつもりです。<line-break>ときどき励ましに来てください。<end>"
+korean = "네. 그래도 있는 힘껏 해 볼 생각이에요. 가끔 격려하러 와 주세요.<end>"
 
 ["780084"]
 japanese = "いろいろとお世話になりました。<line-break>また、お会いしましょう。<end>"

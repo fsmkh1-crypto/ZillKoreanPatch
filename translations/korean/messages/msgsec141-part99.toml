@@ -852,6 +852,10 @@ korean = "정신 차리고 보니, 조포르의 예언대로 된 셈이네….<e
 japanese = "私は予言などには負けまいと…<line-break>信じまいと、戦ってきたつもりなのに…。<end>"
 korean = "나는 예언 따위에는 지지 않겠다고… 믿지 않겠다고 싸워왔다고 생각했는데….<end>"
 
+["1410257"]
+japanese = "気がつけばこのザマよ。<line-break>おかしいでしょう？<line-break> <line-break>私はやっぱり呪われた予言から<line-break>逃げられなかった…そう思うわよね、<line-break><value:$28>？<end>"
+korean = "정신을 차려 보니 이 꼴이야. 우습지? 난 역시 저주받은 예언에서 벗어나지 못했어… 그렇게 생각하지, <value:$28>?<end>"
+
 ["1410258"]
 japanese = "２人きりの時に、そんなこと<line-break>しなくていいって言ったでしょう！？<end>"
 korean = "둘만 있을 때는 그런 거 하지 않아도 된다고 했잖아!?<end>"
@@ -1472,6 +1476,10 @@ korean = "<value:$28>님은 그런 저를 변함없이 이 신전까지 찾아�
 japanese = "世界は変わっても、<line-break>私たちは、<line-break>あまり変わってはいないのですね。<line-break>フフフ…。<end>"
 korean = "세상이 변해도 우리는 별로 변하지 않았네요. 후후후….<end>"
 
+["1410438"]
+japanese = "そうですね。<line-break>時々、声をかけてくださる方も<line-break>いらっしゃいます。<line-break>こんなところで閉じこもって、<line-break>外の世界の広さを<line-break>見ないのはもったいないことだ、と…。<end>"
+korean = "그렇네요. 가끔 말을 걸어 주시는 분도 계세요. 이런 곳에 틀어박혀 바깥세상의 넓음을 보지 않는 건 아깝다고….<end>"
+
 ["1410439"]
 japanese = "でも、私、最近特に思うんです。<line-break>変わることも大切ならば、<line-break>また、変わらぬことも、<line-break>同じくらい<line-break>大切なことじゃないのかって。<end>"
 korean = "하지만 전 요즘 특히 이런 생각을 해요. 변하는 것도 중요하다면, 변하지 않는 것도 그만큼 중요한 게 아닐까 하고요.<end>"
@@ -1531,6 +1539,10 @@ korean = "오늘은 좀 무리를 했구먼. 욕심내서 중간에 네 도움�
 ["1410454"]
 japanese = "封士の心得と一緒に、<line-break>何度も語り聞かせたろうが、<line-break><value:$28>。<line-break>あきれた奴じゃ、もう忘れたか？<end>"
 korean = "봉사의 마음가짐과 함께, 몇 번이나 말해 줬잖느냐, <value:$28>. 한심한 녀석, 벌써 잊었나?<end>"
+
+["1410455"]
+japanese = "わしは、<line-break>その約束を果たさねばならぬのじゃ。<line-break>是が非でも、わしの、この手でな…。<line-break>しかし、<value:$28>、<line-break>おぬしの手助けも要る。<line-break>なくてはならん。<end>"
+korean = "나는 그 약속을 지켜야 한다. 무슨 일이 있어도 내 손으로 말이다…. 하지만 <value:$28>, 네 도움이 필요하다. 반드시 필요해.<end>"
 
 ["1410458"]
 japanese = "あ、とは、頼む…約束を…。<line-break>　<line-break>　<line-break>………………。<end>"
@@ -1939,6 +1951,10 @@ korean = "이 근처에는 초고대… 지금의 문명이 생기기 훨씬 이
 ["1410569"]
 japanese = "しかし、今は、ご覧のとおり。<line-break>王朝はある時、<line-break>跡形もなく滅んでしまったらしい…。<line-break>どうしてなのか？<line-break>どうやってなのか？<end>"
 korean = "하지만 지금은 보는 그대로다. 왕조는 어느 순간 흔적도 없이 멸망한 모양이야…. 왜였을까? 어떻게였을까?<end>"
+
+["1410570"]
+japanese = "いいかい、驚かないでおくれよ、<line-break><value:$28>。<line-break>僕はね、この王朝が、<line-break>ものすごく高度な兵器を用いた戦争で<line-break>滅んだんじゃないかって、<line-break>にらんでるんだ！<end>"
+korean = "잘 들어, 놀라지 마, <value:$28>. 나는 이 왕조가 엄청나게 고도화된 병기를 사용한 전쟁 때문에 멸망한 게 아닐까 보고 있어!<end>"
 
 ["1410572"]
 japanese = "エスト様、<line-break>お約束の日時となりましたので、<line-break>お迎えに参りました。<line-break>そろそろ、ロストールへ…<end>"

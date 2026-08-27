@@ -4,6 +4,10 @@
 japanese = "ネメア・ボリューム１開始<end>"
 korean = "네메아 볼륨 1 시작<end>"
 
+["400001"]
+japanese = "あんた、ロストールの西にある<line-break>城塞都市跡に行ったことあるかい？<line-break>　<line-break>実はあの場所で、<line-break>怪現象が起こるって話があってさ。<line-break>ギルドで情報を集めてるんだ。<end>"
+korean = "당신, 로스토올 서쪽에 있는 성새도시 터에 가 본 적 있어? 사실 거기서 괴현상이 일어난다는 이야기가 있어서 길드에서 정보를 모으고 있어.<end>"
+
 ["400003"]
 japanese = "お！　城塞都市の噂を突き止めたか！　<line-break>よしよし、聞かせてくれよ。<line-break>　<end>"
 korean = "오! 요새도시의 소문을 알아냈나! 좋아, 들려줘.<end>"
@@ -167,6 +171,10 @@ korean = "네메아 님, 오늘 정말 즐거웠어요!<end>"
 ["400054"]
 japanese = "…楽しかった？<end>"
 korean = "…즐거웠어?<end>"
+
+["400055"]
+japanese = "ネメア様、あんまり<line-break>喜んでおられないみたいだわ…。<line-break>ま、いいか。ずらかろっと！<end>"
+korean = "네메아 님, 별로 기뻐하시는 것 같지 않네…. 뭐, 됐나. 튀자!<end>"
 
 ["400056"]
 japanese = "それじゃ、私、町を見てくるわ<line-break>じゃあね、<value:$28>！<end>"
@@ -392,6 +400,10 @@ korean = "…어둠의 신기를 찾고 있는 거야?<end>"
 japanese = "確かに君の言うとおり、　<line-break>僕は闇の神器を<line-break>ひとつ持っているよ。<line-break>でも、今は渡せないよ。<line-break>あれは、きちんと<line-break>研究しなければならない。<end>"
 korean = "네 말대로 난 어둠의 신기를 하나 가지고 있어. 하지만 지금은 줄 수 없어. 그건 제대로 연구해야 하거든.<end>"
 
+["400129"]
+japanese = "闇の神器は全部で１２種類。<line-break>世界中に散らばってて、<line-break>それぞれにすごい威力を秘めてる。<line-break>でもそれは闇の力だ。<line-break>使い方を間違えると<line-break>恐ろしいことになる。<end>"
+korean = "어둠의 신기는 모두 12종류. 세계 곳곳에 흩어져 있고 각각 엄청난 힘을 숨기고 있어. 하지만 그건 어둠의 힘이야. 잘못 쓰면 무서운 일이 벌어진다.<end>"
+
 ["400131"]
 japanese = "僕は古代の力を信じる。<line-break>だから、研究を続けるよ。<line-break>　<line-break>きっと、何か他の使い道も<line-break>あるはずだから。<end>"
 korean = "나는 고대의 힘을 믿어. 그러니 연구를 계속할 거야. 분명 다른 용도도 있을 테니까.<end>"
@@ -580,6 +592,10 @@ korean = "(벽난로 불은 꺼져 있다….)<end>"
 japanese = "火をつけてみますか？<end>"
 korean = "불을 붙여볼까요?<end>"
 
+["400197"]
+japanese = "おやじ、剣が古くなってきたから　　<line-break>新しいのを買いたいんだ。<line-break>いい剣はないか？<end>"
+korean = "아저씨, 검이 낡아 와서 새 걸 사고 싶어. 좋은 검 없어?<end>"
+
 ["400198"]
 japanese = "あんた、新米冒険者だね？　　　　　<line-break>　<line-break>　<end>"
 korean = "당신, 신참 모험자지?<end>"
@@ -595,6 +611,10 @@ korean = "그, 그렇군. 그렇다면 강화해 주지 않겠나.<end>"
 ["400202"]
 japanese = "武器の強化には、錬剛石が必要だが、<line-break>持ってるかい？<line-break>　<end>"
 korean = "무기 강화에는 연강석이 필요한데, 가지고 있나?<end>"
+
+["400203"]
+japanese = "錬剛石？　いや、持ってないな。　　<line-break>その錬剛石って、どうすれば<line-break>手に入るんだ？<end>"
+korean = "연강석? 아니, 없는데. 그 연강석은 어떻게 하면 구할 수 있어?<end>"
 
 ["400205"]
 japanese = "なるほど。<line-break>冒険者は何ごとも冒険から　　　　　<line-break>ってことだな。<line-break>それじゃあ、おやじ。<line-break>錬剛石を手に入れたら、また来るよ。<end>"
@@ -820,6 +840,10 @@ korean = "바보 녀석! 경솔하게 다가오다니! 너희에게 넘겨줄 �
 japanese = "くっ…不覚。<end>"
 korean = "큭… 방심했군.<end>"
 
+["400275"]
+japanese = "闇の神器を使えば<line-break>確かに強くはなるが、<line-break>心が闇に堕ちてしまうのじゃぞ！<end>"
+korean = "어둠의 신기를 쓰면 확실히 강해지긴 하지만 마음이 어둠에 빠져 버린다!<end>"
+
 ["400276"]
 japanese = "神器の力を使ってもこの程度か。<line-break>…つまらぬ男だ。<line-break>　<line-break>このような者が神器を使い<line-break>長老の地位を守るため、<line-break>汲々としていたのか。<end>"
 korean = "신기의 힘을 써도 이 정도인가. …시시한 남자군. 이런 자가 신기를 이용해 장로의 지위를 지키려고 발버둥쳤단 말인가.<end>"
@@ -856,9 +880,21 @@ korean = "오, 또 만났군. 묘지가 마음에 드는 장소인가? <value:$2
 japanese = "墓地を散歩するのも<line-break>面白いものでな。　　　　　　<line-break>　<line-break>墓地は人生の終点であり、<line-break>その人間について記された<line-break>大いなる書物でもある。<end>"
 korean = "묘지를 산책하는 것도 꽤 재미있는 일이지. 묘지는 인생의 종착점이자 그 인간에 대해 기록된 거대한 책이기도 하다.<end>"
 
+["400285"]
+japanese = "歴史の物言わぬ証人でもあり、<line-break>遺された人間にとっては<line-break>記憶の眠る場所でもある。<end>"
+korean = "역사의 말없는 증인이기도 하고 남겨진 인간에게는 기억이 잠든 장소이기도 하다.<end>"
+
 ["400289"]
 japanese = "ネメア様は皇帝の命に従い<line-break>イズ様をさらったのじゃ。<end>"
 korean = "네메아 님은 황제의 명을 따라 이즈 님을 납치한 거야.<end>"
+
+["400290"]
+japanese = "どんな事情があるのか<line-break>ようわからんが、<line-break>ネメア様はその命に従った。<line-break>エリュマルク帝はイズ様に恋し、<line-break>イズ様を皇后にした。<line-break>しかし、イズ様は心を開かなかった。<end>"
+korean = "무슨 사정인지는 잘 모르겠지만 네메아 님은 그 명령에 따랐다. 엘류마르크 황제는 이즈 님을 사랑해 황후로 삼았다. 하지만 이즈 님은 마음을 열지 않았다.<end>"
+
+["400293"]
+japanese = "また、来なさるとよい。<line-break>ヒマと縁があれば、<line-break>昔語りなどしようほどにの。<end>"
+korean = "또 오너라. 시간과 인연이 닿으면 옛이야기라도 해 주마.<end>"
 
 ["400294"]
 japanese = "これでわかった？<line-break>私は、手加減しないわ。<line-break>もう邪魔をしないことね。<end>"

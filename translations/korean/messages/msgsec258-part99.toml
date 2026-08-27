@@ -8,6 +8,10 @@ korean = "PSP용 생일 이벤트용<end>"
 japanese = "おめでとう、<value:$28>。<line-break><line-break><line-break>誕生日のお祝いすると、<line-break>ロストールにいたころを思い出すわ。<line-break><line-break>みんな元気でやってるかしら？<end>"
 korean = "축하해, <value:$28>. 생일을 축하하니 로스토올에 있던 때가 생각나네. 다들 잘 지내고 있으려나?<end>"
 
+["2580003"]
+japanese = "ふふ、すべてがめまぐるしくて<line-break>自分の誕生日も<line-break>忘れておったのではないか？<end>"
+korean = "후후, 모든 일이 숨 가쁘게 돌아가서 자기 생일도 잊고 있었던 것 아니냐?<end>"
+
 ["2580005"]
 japanese = "おめでとう！<line-break>さ、今日は、<value:$28>の<line-break>おごりでご馳走かも！<line-break>生まれてきてくれて<line-break>ありがとね、<value:$28>。<end>"
 korean = "축하해! 자, 오늘은 <value:$28>이 한턱내는 걸로 잔치일지도! 태어나 줘서 고마워, <value:$28>.<end>"
@@ -175,6 +179,10 @@ korean = "<value:$28>. 오늘은 네 생일이었지.<end>"
 ["2580066"]
 japanese = "どうした？　うれしそうだな。<line-break><value:$28>。<end>"
 korean = "왜 그래? 기뻐 보이네, <value:$28>.<end>"
+
+["2580067"]
+japanese = "姉ちゃん！<line-break>今日、誕生日だよな！<line-break>俺、しっかり覚えてたぜ！<line-break>忘れてたりしたら、<line-break>どんなひどい目に遭わされるか<line-break>わかったもんじゃないもんな！<end>"
+korean = "누나! 오늘 생일이지! 나 제대로 기억하고 있었어! 잊기라도 했다간 얼마나 험한 꼴을 당할지 모르잖아!<end>"
 
 ["2580068"]
 japanese = "<value:$28>。<line-break>今日は、お主の誕生日だったかの？<end>"

@@ -16,9 +16,17 @@ korean = "네, 짐작하신 대로입니다. 고양이 저택에 오신 걸 환�
 japanese = "はじめまして。<line-break>私はオルファウス。<line-break>この屋敷の主です。<end>"
 korean = "처음 뵙겠습니다. 저는 오르파우스. 이 저택의 주인입니다.<end>"
 
+["570005"]
+japanese = "俺はゼネテス。<line-break>そしてこっちは<value:$28>。<line-break>　　　　　　　　　　　　　　　　　<line-break>いきなりで悪いが<line-break>俺たちは人を探している。<line-break>ルルアンタというリルビーの少女だ。<end>"
+korean = "나는 제네테스. 그리고 이쪽은 <value:$28>. 갑자기 미안하지만 우리는 사람을 찾고 있어. 루루안타라는 릴비 소녀야.<end>"
+
 ["570006"]
 japanese = "ルルアンタさん…ですか？<end>"
 korean = "루루안타 씨…인가요?<end>"
+
+["570007"]
+japanese = "ああ、盗賊にさらわれちまってな。<line-break>この森にいるらしいんだが<line-break>見なかったかい？<end>"
+korean = "그래, 도적에게 납치됐어. 이 숲에 있는 모양인데 못 봤어?<end>"
 
 ["570008"]
 japanese = "ああ、あの子ですか。<line-break>ええ、お会いしましたよ。　<line-break>ですが、今どこにいるのかは<line-break>私にもわかりません。<end>"
@@ -171,6 +179,10 @@ korean = "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니
 ["570065"]
 japanese = "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
 korean = "파괴신 울그의 부활에 쓰인 강력한 마도기입니다. 12종류가 있다고 하죠. 금단의 성배도 그중 하나입니다.<end>"
+
+["570066"]
+japanese = "禁断の聖杯については<line-break>今、ゴブゴブ団と名乗る<line-break>３匹のゴブリンが持っています。<line-break>とりあえずは、<line-break>エンシャントを探してみると<line-break>彼らに会えると思いますよ。<end>"
+korean = "금단의 성배는 지금 고브고브단이라는 고블린 셋이 가지고 있습니다. 우선 엔샨트를 찾아보면 그들을 만날 수 있을 거예요.<end>"
 
 ["570069"]
 japanese = "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"

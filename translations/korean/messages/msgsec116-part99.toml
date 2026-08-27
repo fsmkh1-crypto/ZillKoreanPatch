@@ -44,6 +44,10 @@ korean = "있잖아, <value:$28>, 이 마을을 꼼꼼히 찾아보자. 나, 불
 japanese = "よし！<line-break>じゃ、今日はもう休もう。<line-break>明日からまた、がんばらなきゃね。<line-break>それじゃ、おやすみ。<line-break><value:$28>。<end>"
 korean = "좋아! 그럼 오늘은 이제 쉬자. 내일부터 또 힘내야지. 그럼 잘 자, <value:$28>.<end>"
 
+["1160021"]
+japanese = "火の巫女フレア様は、<line-break>人を避けておられる。<line-break>集中の邪魔になるからな。<end>"
+korean = "불의 무녀 플레어 님은 사람을 피하고 계신다. 집중에 방해가 되기 때문이지.<end>"
+
 ["1160022"]
 japanese = "君も二度と精霊神殿には<line-break>近づかないことだ。<end>"
 korean = "너도 두 번 다시 정령신전에는 가까이 가지 마라.<end>"
@@ -91,6 +95,10 @@ korean = "그 길로 가서는 안 됩니다. 이 신전 깊숙한 곳의 봉인
 ["1160042"]
 japanese = "…役目のためだけに生きることは<line-break>つらくはないか？　…ですか？<end>"
 korean = "…역할을 위해서만 사는 건 괴롭지 않냐고요…?<end>"
+
+["1160043"]
+japanese = "針と糸は縫い物をするとき、　　<line-break>幸せではないでしょうか？<line-break>　<line-break>その役目を果たせるということは<line-break>幸せではないでしょうか？<line-break>私は道具に生まれて幸せです。<end>"
+korean = "바늘과 실은 바느질할 때 행복하지 않을까요? 자신의 역할을 다할 수 있다는 건 행복하지 않을까요? 저는 도구로 태어나 행복합니다.<end>"
 
 ["1160044"]
 japanese = "あなたには私は必要でない。<line-break>私の存在はあなたの存在に<line-break>意味をなさない。<line-break>…それなのに、ここに来る。<end>"

@@ -36,6 +36,10 @@ korean = "오류 메시지입니다.<end>"
 japanese = "…賢者の森だ。<line-break>勝手に行くといいだろう。<end>"
 korean = "…현자의 숲이다. 마음대로 가면 되겠지.<end>"
 
+["1220053"]
+japanese = "ガルドランは、エンシャント南東の<line-break>賢者の森に向かったらしいよ！<line-break><line-break>猫屋敷の賢者様に会うつもりだとは<line-break>思うけど、運命は味方について<line-break>くれるのかな～？<end>"
+korean = "갈드란은 엔샨트 남동쪽 현자의 숲으로 갔대! 고양이 저택의 현자님을 만나려는 것 같긴 한데, 운명이 편을 들어 줄까~?<end>"
+
 ["1220056"]
 japanese = "ガルドラン…？<line-break>ヴィア、そんな人、<line-break>知らないよ。<end>"
 korean = "갈드란…? 비아, 그런 사람 난 몰라.<end>"
@@ -151,6 +155,10 @@ korean = "소녀의 거울에 출몰하는 마물 퇴치가 의뢰 내용이지�
 ["1220152"]
 japanese = "乙女の鏡にいる魔物退治だって。<line-break>お礼、ちゃんともらえるのかな？<end>"
 korean = "소녀의 거울에 있는 마물 퇴치래. 보수는 제대로 받을 수 있을까?<end>"
+
+["1220154"]
+japanese = "乙女の鏡に出没する魔物退治が<line-break>依頼だが…これはギルドを通した<line-break>仕事ではない。<line-break>報酬がもらえなくても自暴自棄を<line-break>起こすんじゃないぞ、<line-break><value:$28>。<end>"
+korean = "소녀의 거울에 나타나는 마물을 퇴치하는 의뢰지만… 길드를 통한 일은 아니야. 보수를 못 받더라도 자포자기하진 마, <value:$28>.<end>"
 
 ["1220160"]
 japanese = "（アミラルの冒険者ギルドで、<line-break>　幻惑の洞窟に現れる獣を<line-break>　退治するよう頼まれたな）<line-break>（獣を倒したら、<line-break>　忘れずに報告しないと…）<end>"

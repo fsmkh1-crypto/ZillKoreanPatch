@@ -16,6 +16,10 @@ korean = "두려워할 것 없다. 진정 네가 두려워해야 할 것은 따�
 japanese = "そうだ。余だ。<end>"
 korean = "그렇다. 짐이다.<end>"
 
+["1890004"]
+japanese = "フフ、さすがにこのおぞましい姿には　<line-break>驚きを隠せぬか…。<line-break>　<line-break>余はシャローム。<line-break>人類の革新を夢見たために<line-break>竜王にうとまれ、この有様だ。<end>"
+korean = "후후, 역시 이 흉측한 모습엔 놀라움을 감출 수 없나…. 나는 샤롬. 인류의 혁신을 꿈꿨다는 이유로 용왕의 미움을 사 이 꼴이 되었지.<end>"
+
 ["1890005"]
 japanese = "見知り置くがよい、<line-break><value:$28>よ。<end>"
 korean = "잘 기억해 두어라, <value:$28>여.<end>"
@@ -39,6 +43,10 @@ korean = "후후후… 믿기 어려운 모양이군. 이 모습이니 어쩔 �
 ["1890012"]
 japanese = "憎き支配者…竜王。<line-break>奴は、革新を果たした余を恐れた。<line-break>人類の力を恐れたのだ。<line-break>それゆえ、余を<line-break>こそくな術で縛りおった。<end>"
 korean = "증오스러운 지배자… 용왕. 놈은 혁신을 이룬 나를 두려워했다. 인류의 힘을 두려워한 것이다. 그래서 나를 비겁한 술법으로 묶어 두었다.<end>"
+
+["1890015"]
+japanese = "１２００年も前になる。<line-break>この世では小国同士の小競り合いが<line-break>繰り返されていた。<line-break>当時、すでに魔法は失われていたゆえ<line-break>戦はすべて肉弾戦であった。<end>"
+korean = "1200년도 더 전의 일이다. 이 세상에서는 소국들 사이의 분쟁이 계속되고 있었다. 당시 이미 마법은 사라져 있었기에 전쟁은 모두 육탄전이었다.<end>"
 
 ["1890016"]
 japanese = "ただ神聖王国アルレシアのみが<line-break>神より魔法を授かっていたのだ。　<line-break>　<line-break>アルレシアは魔法を武器に<line-break>小国を平定し、戦乱を終結させた。<end>"
@@ -87,6 +95,10 @@ korean = "용왕은 너를 놓아주지 않을 거다. 모든 용을 죽였다�
 ["1890033"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
+
+["1890035"]
+japanese = "あはは。そう邪険にしないでよ。<line-break>ネメアを助けに来ただけなんだから。<line-break><value:$28>だって、そうでしょ？<line-break>でも、もういいや。<line-break>ネメア、いらなくなっちゃった。<end>"
+korean = "아하하. 그렇게 매몰차게 굴지 마. 네메아를 구하러 왔을 뿐이니까. <value:$28>도 그렇지? 하지만 이제 됐어. 네메아, 필요 없어졌거든.<end>"
 
 ["1890036"]
 japanese = "<value:$28>、<line-break>君がいるからね。<end>"
