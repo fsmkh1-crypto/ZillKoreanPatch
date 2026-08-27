@@ -12,6 +12,10 @@ korean = "잠깐. <value:$28> 아닌가.<end>"
 japanese = "どうだ、あれから記憶は戻ったか？<end>"
 korean = "어때, 그 뒤로 기억은 돌아왔나?<end>"
 
+["2430003"]
+japanese = "そうか。まだ思い出せぬか。<line-break>残念だな。<line-break>　<line-break>自分が何者なのか<line-break>わからぬというのは、<line-break>さぞやもどかしいだろう。<line-break>だが、焦らぬことだ。<line-break>浅慮は時として、破滅につながる。<end>"
+korean = "그런가. 아직 기억나지 않는가. 유감이군. 자신이 누구인지 모른다는 건 몹시 답답하겠지. 하지만 조급해하지 마라. 경솔한 판단은 때로 파멸로 이어진다.<end>"
+
 ["2430004"]
 japanese = "フッ、<value:$28>のことを<line-break>心配しているわけではない。<line-break>ただ、理不尽さを覚えたまでだ。<line-break>無限のソウルの持ち主が<line-break>己を生かすことさえ知らず、<line-break>いたずらに力を浪費していることにな。<end>"
 korean = "후, <value:$28>를 걱정하는 게 아니다. 그저 부조리함을 느꼈을 뿐. 무한의 소울을 지닌 자가 자기 자신을 살리는 법조차 모르고 헛되이 힘을 낭비하고 있으니.<end>"
@@ -27,6 +31,10 @@ korean = "잠깐. <value:$28> 아닌가.<end>"
 ["2430008"]
 japanese = "どうだ、あれから記憶は戻ったか？<end>"
 korean = "어때, 그 뒤로 기억은 돌아왔나?<end>"
+
+["2430009"]
+japanese = "そうか。まだ思い出せぬか。<line-break>残念だな。<line-break>　<line-break>自分が何者なのか<line-break>わからぬというのは、<line-break>さぞやもどかしいだろう。<line-break>だが、焦らぬことだ。<line-break>浅慮は時として、破滅につながる。<end>"
+korean = "그런가. 아직 기억나지 않는가. 유감이군. 자신이 누구인지 모른다는 건 몹시 답답하겠지. 하지만 조급해하지 마라. 경솔한 판단은 때로 파멸로 이어진다.<end>"
 
 ["2430010"]
 japanese = "フッ、<value:$28>のことを<line-break>心配しているわけではない。<line-break>ただ、理不尽さを覚えたまでだ。<line-break>無限のソウルの持ち主が<line-break>己を生かすことさえ知らず、<line-break>いたずらに力を浪費していることにな。<end>"

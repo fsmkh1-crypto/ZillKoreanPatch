@@ -224,6 +224,10 @@ korean = "그런데 방금 그건 대체…? 마치 커다란 짐승이 포효�
 japanese = "ちょっと、<value:$28>！<line-break>変なとこ触らないでよ！　　　　　　<line-break>　<line-break>…それにしても、ここ狭いわね。<line-break>それに真っ暗で何も見えないわ。<line-break>　<end>"
 korean = "잠깐, <value:$28>! 이상한 데 만지지 마! …그나저나 여기 좁네. 게다가 너무 어두워서 아무것도 안 보여.<end>"
 
+["300058"]
+japanese = "私は全然平気だけど、　　　　　　　<line-break><value:$28>、恐いんでしょう。<line-break>無理しなくてもいいわよ。<line-break>ふふっ、私の家に来たばかりのころ、<line-break>納屋に閉じ込められて<line-break>１時間も大泣きしてたのはどこの誰？<end>"
+korean = "나는 전혀 괜찮은데, <value:$28>, 무서운 거지? 무리하지 않아도 돼. 후후, 우리 집에 막 왔을 때 헛간에 갇혀 한 시간이나 엉엉 울었던 게 누구였더라?<end>"
+
 ["300059"]
 japanese = "くすっ。<line-break>はいはい、子供のころの話よね。　　<line-break>　<line-break>…だんだん目が慣れてきたわ。<end>"
 korean = "후훗. 그래그래, 어릴 적 이야기지. …점점 눈이 익숙해지네.<end>"

@@ -16,6 +16,10 @@ korean = "그래, 사실이야. 꽤 오래전부터 소식이 끊겼어. 그러�
 japanese = "なんてこった。<line-break>こうしちゃいられないぜ！　　<line-break>　<end>"
 korean = "이런. 이럴 때가 아니야!<end>"
 
+["970004"]
+japanese = "やれやれ、行っちまったか。<line-break>オズワルドのことを知ってるはずだから<line-break>調査を頼もうと思ってたんだが…。<end>"
+korean = "이런, 가 버렸나. 오즈왈드에 대해 알고 있을 테니 조사를 부탁하려고 했는데….<end>"
+
 ["970005"]
 japanese = "ん？　あんた、この前、　　　　　　　<line-break>冒険者の登録をしてた<line-break><value:$28>だな？<line-break>今の話、聞いてただろう？<line-break>ノーブルの西にあるオズワルドの町と<line-break>連絡が取れないんだ。<end>"
 korean = "응? 너, 전에 모험가 등록하던 <value:$28>지? 지금 이야기 들었지? 노블 서쪽에 있는 오즈월드 마을과 연락이 끊겼어.<end>"

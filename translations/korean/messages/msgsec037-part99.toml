@@ -404,6 +404,10 @@ korean = "아마 도와주지 않으면 후회할… 것 같아.<end>"
 japanese = "待て。<end>"
 korean = "기다려.<end>"
 
+["370103"]
+japanese = "<if><value:$29><equal>%0リア氏族のユリアシュよ。<line-break>でかした。<line-break>さ、早う、そのくせ者を<line-break>引き渡すのじゃ。<end>リア氏族のユシュアルよ。<line-break>でかした。<line-break>さ、早う、そのくせ者を<line-break>引き渡すのじゃ。<end>"
+korean = "<if><value:$29><equal>%0리아 씨족의 유리아슈여. 잘했다. 자, 어서 그 수상한 자를 넘겨라.<end>리아 씨족의 유슈알이여. 잘했다. 자, 어서 그 수상한 자를 넘겨라.<end>"
+
 ["370104"]
 japanese = "いやよ。<end>"
 korean = "싫어.<end>"
