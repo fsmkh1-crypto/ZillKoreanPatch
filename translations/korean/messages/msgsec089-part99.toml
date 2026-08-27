@@ -20,6 +20,14 @@ korean = "그건 에스텔 님 본인의 의지로만 벗겨지는 것입니다.
 japanese = "そして、エステル様は<line-break>我ら砂漠の一族の族長なのです。<line-break>　<end>"
 korean = "그리고 에스텔님은 우리 사막 일족의 족장입니다.<end>"
 
+["890006"]
+japanese = "滅亡時、魔道王国の支配者のひとり、ズゥは<line-break>その魔道技術がラムゼーの手に渡るのを恐れ、<line-break>魔法で砂漠を作って魔道王国を砂に沈めました。<line-break>私たちは、その砂漠に埋もれた<line-break>魔道王国の遺産を、外部の人間から守るために<line-break>残された砂漠の一族なのです。<end>"
+korean = "멸망 당시 마도왕국의 지배자 중 하나였던 즈는 그 마도기술이 람제의 손에 넘어가는 것을 두려워해 마법으로 사막을 만들고 마도왕국을 모래에 가라앉혔습니다. 우리는 그 사막에 묻힌 마도왕국의 유산을 외부인에게서 지키기 위해 남겨진 사막의 일족입니다.<end>"
+
+["890008"]
+japanese = "ただ、この技術が外部の者に渡らないように、<line-break>不定期的にラドラスが族長の血統の者が<line-break>ラドラス内にいるかを調べます。<line-break>ラドラス内に族長がいないと、ラドラスが<line-break>異邦人によって占拠されたと判断され、<line-break>魔道技術の秘密を守るため、砂に沈むのです。<end>"
+korean = "다만 이 기술이 외부인에게 넘어가지 않도록 라드라스는 불규칙적으로 족장 혈통의 사람이 라드라스 안에 있는지 조사합니다. 족장이 없으면 이방인이 라드라스를 점거했다고 판단해 마도기술의 비밀을 지키기 위해 모래 속으로 가라앉습니다.<end>"
+
 ["890009"]
 japanese = "…そこで、族長であるエステル様なのです。　　<line-break>　<line-break>　<line-break>エステル様は好奇心がお強く、<line-break>よく、ラドラスを抜けて<line-break>砂漠の外へ冒険に出かけられます。<end>"
 korean = "…그래서 족장인 에스텔 님입니다. 에스텔 님은 호기심이 많아 자주 라드라스를 빠져나와 사막 밖으로 모험을 나가십니다.<end>"
@@ -27,6 +35,10 @@ korean = "…그래서 족장인 에스텔 님입니다. 에스텔 님은 호기
 ["890011"]
 japanese = "今回は、会いたい人がいるからと<line-break>聞き分けていただけず、<line-break>あのような事態になったのです。<end>"
 korean = "이번에는 만나고 싶은 사람이 있다며 말을 듣지 않으셔서 그런 일이 벌어진 겁니다.<end>"
+
+["890012"]
+japanese = "まあ、あのときのことはもういいのです。<line-break>本題に入りましょう。<line-break>また、チェックの時が近づいております。<line-break>ですが、エステル様が戻られないのです。<line-break>我々はエステル様の身に<line-break>何か起こったのではと案じております。<end>"
+korean = "뭐, 그때 일은 이제 됐습니다. 본론으로 들어가죠. 다시 점검할 때가 가까워지고 있습니다. 그런데 에스텔 님이 돌아오지 않으셨습니다. 우리는 에스텔 님께 무슨 일이 생긴 건 아닌지 걱정하고 있습니다.<end>"
 
 ["890014"]
 japanese = "エステル様が戻らなければ、<line-break>我々はあと１ケ月で、ラドラスもろとも　　<line-break>砂に沈むことになります。<line-break>どうか、エステル様を捜してください。<line-break>あと１ケ月しかないんです。<line-break>お願いします、<value:$28>さん。<end>"
@@ -376,6 +388,10 @@ korean = "상관없어<end>"
 japanese = "　　　　　　　　　　よし。　　　　　　　　　<line-break>　　　　　　　では我は、汝を<line-break>　　　　　　 精霊の座へと導かん。<line-break>　<line-break>　　　　 　汝、気高き地の光を越え<line-break>　　　　 　　彼の巨人に挑むがよい。<line-break>　　　　  　挑み、打ち破るがよい…。<end>"
 korean = "좋다. 그럼 내가 그대를 정령의 자리로 인도하리라. 그대, 고귀한 땅의 빛을 넘어 저 거인에게 도전하라. 도전하여 쓰러뜨려라….<end>"
 
+["890112"]
+japanese = "　　　　　　　　　そうか。　　　　　　　　　<line-break>　　　　　ならば無理強いはすまい。<line-break>　<line-break>　<line-break>　　　　　うつろいやすき人の子よ。<line-break>　　　　　　気が変わったならば<line-break>　　　　　　また我を訪ねるがよい。<end>"
+korean = "그런가. 그렇다면 억지로 강요하지는 않겠다. 변덕스러운 인간의 아이여. 마음이 바뀐다면 다시 나를 찾아오거라.<end>"
+
 ["890113"]
 japanese = "　　　　　　　　　どうした？　　　　　　　　<line-break>　　　　　　　巨人を前に臆したか？<end>"
 korean = "왜 그러지? 거인을 앞에 두고 겁먹었나?<end>"
@@ -611,6 +627,10 @@ korean = "맡아 주실 수 있을까요?<end>"
 ["890171"]
 japanese = "ありがとう。<line-break>それでは、状況を説明するわ。<end>"
 korean = "고마워. 그럼 상황을 설명할게.<end>"
+
+["890172"]
+japanese = "カルラはロセンに利権を集中させ、<line-break>巨利を得、自軍を強化している。<line-break>…帝国にいつ牙を剥くかわからない。<line-break>だから、ロセンの領内視察を名目に<line-break>その辺を内密に調査するつもりなの。<line-break>カルラの野望をくじくためにね。<end>"
+korean = "카를라는 로센에 이권을 집중시켜 막대한 이익을 얻고 자기 군을 강화하고 있어. …언제 제국에 이를 드러낼지 몰라. 그래서 로센 영내 시찰을 명목으로 그 주변을 은밀히 조사할 생각이야. 카를라의 야망을 꺾기 위해서.<end>"
 
 ["890173"]
 japanese = "その私の警護をカルラが担当するの。<line-break>カルラだってこっちの意図は覚ってる…<line-break>絶対に何かしかけてくるわ。<line-break>と言って、こちらから大々的な<line-break>警護部隊をしつらえるわけにも<line-break>いかないの。<end>"
@@ -1280,6 +1300,10 @@ korean = "아…, <value:$28>.<end>"
 japanese = "今日は、少し、いいみたいなの…。<line-break>でも…。<end>"
 korean = "오늘은 조금 괜찮은 것 같아…. 그래도….<end>"
 
+["890351"]
+japanese = "<select><value:$20>%2また…、<line-break>いつ闇に飲まれるかわからない。<line-break>今度もマゴスに<line-break>支配されずにいられるかわからない…。<line-break>私、こわい…。<end>もう…限界かも知れない。<line-break> <line-break> <line-break>それに<line-break>これ以上、みんなに迷惑…<line-break>かけられない…。<end>"
+korean = "<select><value:$20>%2또… 언제 어둠에 삼켜질지 몰라. 이번에도 마고스에게 지배당하지 않을 수 있을지 모르겠어…. 나, 무서워….<end>이제… 한계일지도 몰라. 게다가 더는 모두에게 폐를… 끼칠 수 없어….<end>"
+
 ["890352"]
 japanese = "あら、<value:$28>。<line-break>来てくれたのね。<end>"
 korean = "어머, <value:$28>. 와 줬구나.<end>"
@@ -1363,6 +1387,10 @@ korean = "고양이와… 귀여운 고양이와 이야기했어… 아아, 행�
 ["890372"]
 japanese = "お待ちしていましたよ。<line-break>さあ、ここです。<end>"
 korean = "기다리고 있었습니다. 자, 여기입니다.<end>"
+
+["890373"]
+japanese = "<if><value:$01><equal>14これは…。<line-break>なんと…美しいのじゃ…。<end><if><value:$01><equal>17………………。<line-break><line-break><line-break>……キ…レイ…。<end><if><value:$01><equal>19わぁああ…！<line-break>きっれ～い…！！<line-break>きれい…だぁ…。<end><if><value:$01><equal>22わぁ……！<line-break>きれいだぁ…。<end>"
+korean = "<if><value:$01><equal>14이건…. 정말… 아름답구나….<end><if><value:$01><equal>17………………. ……예…뻐….<end><if><value:$01><equal>19와아아…! 예쁘다아…!! 예뻐….<end><if><value:$01><equal>22와아……! 예쁘다….<end>"
 
 ["890374"]
 japanese = "なんて…美しい…。<line-break>…こんな所が…あったなんて…。<end>"

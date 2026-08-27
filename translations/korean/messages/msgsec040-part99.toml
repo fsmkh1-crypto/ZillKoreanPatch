@@ -180,6 +180,10 @@ korean = "<if><value:$01><equal>5진짜 리벨덤이야. …대단해.<end>…�
 japanese = "<if><value:$01><equal>5あ、あんた、本物の<line-break>勇者ネメアだったんだな！ <end>…さすがだ。 <end>"
 korean = "<if><value:$01><equal>5너, 너 진짜 용자 네메아였구나!<end>…역시 대단해.<end>"
 
+["400050"]
+japanese = "<if><value:$01><equal>5…お、俺、いつか、あんたを<line-break>越えてやるぜ！<line-break>　<line-break>んじゃ、俺はちょっと町を見てくる。<line-break>町を出るときに<line-break>また会おうぜ、<value:$28>！ <end><if><value:$01><equal>14<value:$28>、<line-break>また町を出るときに合流じゃ。 <end>…先に行く。 <end>"
+korean = "<if><value:$01><equal>5…나, 언젠가 널 넘어설 거야! 그럼 난 잠깐 도시를 둘러보고 올게. 도시를 나설 때 다시 만나자, <value:$28>!<end><if><value:$01><equal>14<value:$28>, 도시를 나설 때 다시 합류하자.<end>…먼저 간다.<end>"
+
 ["400051"]
 japanese = "空<end>"
 korean = "빈칸<end>"

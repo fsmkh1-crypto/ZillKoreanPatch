@@ -100,6 +100,10 @@ korean = "…<value:$28>, 무한의 소울을 지닌 자여… 공중도시는 �
 japanese = "　　　　　　　では、さらばだ。　　　　　　　<line-break>　　　　　無限のソウルを持つ者よ。<end>"
 korean = "그럼, 잘 가라. 무한의 소울을 지닌 자여.<end>"
 
+["1120036"]
+japanese = "　　　　　　…<value:$28>、<line-break>　　　　　　<value:$28>よ…。<line-break>　　　　　　　　聞こえるか…。　　　　　　　<line-break>　<line-break>　　　　　わらわじゃ、エアじゃ。<line-break>　　　　　　　すべては定め…<line-break>　　　こうなることはわかっておった…<line-break>　<end>"
+korean = "…<value:$28>, <value:$28>여…. 들리는가…. 나다, 에어다. 모든 것은 정해진 운명… 이렇게 될 줄 알고 있었다….<end>"
+
 ["1120044"]
 japanese = "イークレムン！！<end>"
 korean = "이클레문!!<end>"
@@ -448,6 +452,10 @@ korean = "자, 너도 가거라. 무한의 소울을 지닌 자여. 마지막으
 japanese = "行くがよい。　　　　　　　<line-break><value:$28>よ。<line-break>　<line-break>そなたの力ならば<line-break>この大陸を包む暗き運命をも<line-break>打ち砕くことができようぞ。<end>"
 korean = "가거라, <value:$28>여. 그대의 힘이라면 이 대륙을 뒤덮은 어두운 운명마저 깨뜨릴 수 있을 것이다.<end>"
 
+["1120134"]
+japanese = "　　　　　　　　待っていたぞ。　　　　　　　<line-break>　　　　　　　地の巫女よ。そして<line-break>　　　　　　無限のソウルを持つ者よ…。<line-break>　<line-break>　　　　　　　　かつて汝らに<line-break>　　　　巨人フルーヴを倒してもらったが<line-break>　　　　　　我の力はいまだ戻らぬ。<end>"
+korean = "기다리고 있었다. 대지의 무녀여. 그리고 무한의 소울을 가진 자여…. 예전에 그대들에게 거인 플루브를 쓰러뜨려 달라고 했지만, 내 힘은 아직 돌아오지 않았다.<end>"
+
 ["1120137"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
@@ -563,6 +571,10 @@ korean = "어리석구나, 인간의 아이여. 정령신에게 놀아나, 나�
 ["1120169"]
 japanese = "　　　　　　　　よくやった…　　　　　　　　<line-break>　　　　　　　我が地の巫女よ…。<line-break>　　　　　無限のソウルを持つ者よ…。<end>"
 korean = "잘했다…. 나의 대지의 무녀여…. 무한의 소울을 지닌 자여….<end>"
+
+["1120170"]
+japanese = "　　地の巫女よ、無限のソウルを持つ者よ。　　<line-break>　　　よくぞ、巨人フルーヴを倒した。<line-break>　　　心から、礼を言わせてもらうぞ。<line-break>　<line-break>　　　　　　さあ、再び行くがよい。<line-break>　　　　　汝らのなすべき旅の道へ。<line-break>　　　　　　　　　さらばだ。<end>"
+korean = "대지의 무녀여, 무한의 소울을 가진 자여. 거인 플루브를 잘 쓰러뜨렸다. 진심으로 감사를 표하마. 자, 다시 가거라. 그대들이 가야 할 여행의 길로. 잘 가라.<end>"
 
 ["1120172"]
 japanese = "えっ！？<line-break>せ、制御の間ですか？<end>"

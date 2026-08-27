@@ -364,6 +364,10 @@ korean = "살아남은 건 너뿐이다. 묻겠다. 여기가 미이스 마을�
 japanese = "お前の名は？<end>"
 korean = "네 이름은?<end>"
 
+["320092"]
+japanese = "<if><value:$29><equal>%0…フ、なるほどな。<line-break>お前がロイの弟か。<line-break>ロイから名前は聞いている。<line-break>俺はセラ。<line-break>ロイの友だ。<end>…フ、なるほどな。<line-break>お前がロイの妹か。<line-break>ロイから名前は聞いている。<line-break>俺はセラ。<line-break>ロイの友だ。<end>"
+korean = "<if><value:$29><equal>%0…후, 그렇군. 네가 로이의 남동생인가. 로이에게 이름은 들었다. 나는 세라. 로이의 친구다.<end>…후, 그렇군. 네가 로이의 여동생인가. 로이에게 이름은 들었다. 나는 세라. 로이의 친구다.<end>"
+
 ["320093"]
 japanese = "大丈夫だ。<line-break>私がウソをついたことがあったか？<end>"
 korean = "괜찮다. 내가 거짓말한 적이 있었나?<end>"
@@ -407,6 +411,10 @@ korean = "왜 그러지, 안 오는 건가. 후회하고 싶다면 말리진 않
 ["320103"]
 japanese = "俺はセラ。<line-break>ロイは俺が認めた<line-break>唯一の男だ。<line-break>お前を守る気はない。<line-break>足手まといにはなるな。<end>"
 korean = "나는 세라다. 로이는 내가 인정한 유일한 남자다. 널 지킬 생각은 없어. 발목 잡지는 마.<end>"
+
+["320104"]
+japanese = "<if><value:$29><equal>%0さすがに<line-break>俺が認めた男の<line-break>弟だけのことはある。<line-break>いい手並みだった。<line-break>兄を救いに行くつもりか？<end>さすがに<line-break>俺が認めた男の<line-break>妹だけのことはある。<line-break>いい手並みだった。<line-break>兄を救いに行くつもりか？<end>"
+korean = "<if><value:$29><equal>%0역시 내가 인정한 남자의 남동생답군. 좋은 솜씨였다. 형을 구하러 갈 생각인가?<end>역시 내가 인정한 남자의 여동생답군. 좋은 솜씨였다. 오빠를 구하러 갈 생각인가?<end>"
 
 ["320105"]
 japanese = "…ロイはお前を逃がすために、<line-break>村人を逃がすよう言ったのだぞ。<end>"
@@ -487,6 +495,10 @@ korean = "<value:$28>님도 신기의 수호자 일족입니다. 괜찮다고 �
 ["320128"]
 japanese = "<if><value:$29><equal>%0よう、<value:$28>。<line-break>朝早いってのに、<line-break>魔物騒ぎで大変だったな。<end><value:$28>。<line-break>無事でよかった…。　　　　　　<line-break>　<line-break>魔物騒ぎで森に行ったってっから<line-break>俺…、寝てらんなくって…。<line-break>でも、無事でホントよかったよ。<end>"
 korean = "<if><value:$29><equal>%0여, <value:$28>. 아침부터 마물 소동으로 고생했군.<end><value:$28>. 무사해서 다행이야…. 마물 소동 때문에 숲에 갔다길래 나… 잠도 못 잤어…. 그래도 정말 무사해서 다행이야.<end>"
+
+["320129"]
+japanese = "<if><value:$29><equal>%0<value:$28>。<line-break>無事でよかった…。　　　　　　　　　　<line-break>　<line-break>魔物騒ぎがあって、<line-break>キミが退治に行ったっていうから、<line-break>心配で朝早いのにここに来たんだよ。<end>魔物がこんな村近くの森にまで…。<line-break>心配でゆっくり寝てられないわ。<end>"
+korean = "<if><value:$29><equal>%0<value:$28>. 무사해서 다행이야…. 마물 소동이 있었고 네가 퇴치하러 갔다길래 걱정돼서 이른 아침인데도 여기까지 왔어.<end>마물이 이런 마을 근처 숲까지…. 걱정돼서 편히 잘 수도 없겠어.<end>"
 
 ["320130"]
 japanese = "お…おっきなじしんだったね！<line-break>わ…わたし、びっくりしちゃった。<end>"

@@ -132,6 +132,10 @@ korean = "네? 무슨 이야기냐고요? 저기, 그게… 그건 분명…<end
 japanese = "あ、そうだ！<line-break>思い出しました！<line-break>伝説の…えと、ふ、フライパンです！<end>"
 korean = "아, 맞다! 생각났어요! 전설의… 어, 프, 프라이팬이에요!<end>"
 
+["1980034"]
+japanese = "と、とと…とにかくそのフライパンは<line-break>恐ろしい闇の神器なんです。<line-break>　<line-break>世界を滅ぼすほどの破壊力を<line-break>秘めているほどの…。<line-break>　<line-break>ひょっとしたら<line-break><value:$28>さんが<line-break>探しているのと同じものかも…。<end>"
+korean = "그, 그러니까… 아무튼 그 프라이팬은 무서운 어둠의 신기예요. 세계를 멸망시킬 만큼의 파괴력을 품고 있을 정도로…. 어쩌면 <value:$28> 님이 찾고 있는 것과 같은 물건일지도….<end>"
+
 ["1980035"]
 japanese = "あ、あの…。<line-break>もしよろしければ、ですけど<line-break>私も協力させてくださいっ！<line-break>おばあちゃんから聞いた話が、<line-break>もしかすると何か手がかりに<line-break>なることだって…。<end>"
 korean = "저, 저기…. 괜찮으시다면 저도 협력하게 해 주세요! 할머니께 들은 이야기가 혹시 뭔가 단서가 될 수도 있으니까요….<end>"
