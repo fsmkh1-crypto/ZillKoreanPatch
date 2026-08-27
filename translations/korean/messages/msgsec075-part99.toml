@@ -76,9 +76,17 @@ korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드
 japanese = "それでは、王女様、<line-break>失礼いたします。<end>"
 korean = "그럼 공주님, 실례하겠습니다.<end>"
 
+["750032"]
+japanese = "アトレイア様、<line-break>あなたの勇者が光を持ってきました。<end>"
+korean = "아트레아 님, 당신의 용자가 빛을 가져왔습니다.<end>"
+
 ["750033"]
 japanese = "きゃっ。<end>"
 korean = "꺅.<end>"
+
+["750035"]
+japanese = "見える…、見えます…！<line-break>私…私…今、見えています！<end>"
+korean = "보여… 보여요…! 저… 저… 지금 보여요!<end>"
 
 ["750038"]
 japanese = "これはお礼だよ。<line-break>ホントにありがとう。<end>"
@@ -208,6 +216,10 @@ korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드
 japanese = "…ホント、冷たい人だね、君って。<line-break>正直、ガッカリだよ。<line-break>　<line-break>フフフ、でも、あの娘なら、<line-break>やってくれそうだな…。<end>"
 korean = "…정말 차가운 사람이네, 너. 솔직히 실망했어. 후후후, 그래도 그 아이라면 해낼 것 같군….<end>"
 
+["750086"]
+japanese = "アトレイア様、<line-break>あなたの勇者が光を持ってきました。<end>"
+korean = "아트레아 님, 당신의 용자가 빛을 가져왔습니다.<end>"
+
 ["750087"]
 japanese = "きゃっ。<end>"
 korean = "꺅.<end>"
@@ -215,6 +227,10 @@ korean = "꺅.<end>"
 ["750088"]
 japanese = "…あなたの光を望む願い、<line-break>かないましたか？<end>"
 korean = "…당신이 빛을 바랐던 소원, 이루어졌나요?<end>"
+
+["750089"]
+japanese = "見える…、見えます…！<line-break>私…私…今、見えています！<end>"
+korean = "보여… 보여요…! 저… 저… 지금 보여요!<end>"
 
 ["750092"]
 japanese = "これはお礼だよ。<line-break>ホントにありがとう。<end>"
@@ -455,6 +471,10 @@ korean = "아, 또 왔어? 의외로 <value:$28>도 성급하네.<end>"
 ["750229"]
 japanese = "やあ、<value:$28>。<line-break>また会えると思ってたよ。<end>"
 korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
+
+["750234"]
+japanese = "<value:$28>様……。<line-break>………………。<line-break>いえ、なんでもありません。<line-break>退屈な部屋でしょうが<line-break>ゆっくりしていってください…。<end>"
+korean = "<value:$28>님……. …아니요, 아무것도 아닙니다. 지루한 방이겠지만 편히 쉬다 가세요….<end>"
 
 ["750236"]
 japanese = "アトレイア　ボリューム１～終了<end>"

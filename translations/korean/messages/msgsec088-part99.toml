@@ -240,6 +240,10 @@ korean = "미사용: 차카, 가자?<end>"
 japanese = "未使用：う、うん…。<line-break>すぐ、いくよ。<end>"
 korean = "미사용: 으, 응…. 금방 갈게.<end>"
 
+["880117"]
+japanese = "未使用：よし、突撃じゃ！<line-break>いくぞ！　ばあさんや！<end>"
+korean = "미사용: 좋아, 돌격이다! 간다! 할멈아!<end>"
+
 ["880119"]
 japanese = "未使用：はて、誰でしたかいのう、ばあさんや。<end>"
 korean = "미사용: 글쎄, 누구였더라, 할멈아.<end>"
@@ -371,6 +375,10 @@ korean = "아, …미안.<end>"
 ["880210"]
 japanese = "え！？<line-break>今の、<value:$28>にも<line-break>聞こえたの！？<end>"
 korean = "어!? 방금 거, <value:$28>에게도 들렸어!?<end>"
+
+["880211"]
+japanese = "<value:$28>。<line-break>あのさ、悪いんだけど<line-break>ちょっとつきあってくれないかな？<line-break>さっきの声…、地の精霊神に<line-break>会ってみたいんだ。<end>"
+korean = "<value:$28>. 저기, 미안한데 잠깐 같이 가 줄래? 아까 그 목소리… 땅의 정령신을 만나 보고 싶어.<end>"
 
 ["880212"]
 japanese = "この柱…。<line-break>普段は壊れてて<line-break>ウンともスンともいわないけど…。<line-break>さっきの声の感じ…<line-break>きっと、この向こうに…。<end>"

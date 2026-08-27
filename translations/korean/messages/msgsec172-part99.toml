@@ -40,6 +40,10 @@ korean = "소개하지. 그가 마도사 샤리다.<end>"
 japanese = "やあ、<value:$28>。<line-break>まさかこんな所で会えるなんて。<line-break>　<line-break>世界は広いっていうけど<line-break>結構、人の世って狭いね。<end>"
 korean = "안녕, <value:$28>. 설마 이런 곳에서 만날 줄이야. 세상은 넓다지만 사람 사는 세상은 꽤 좁네.<end>"
 
+["1720018"]
+japanese = "やあ、よろしく。　　　<line-break>君は<value:$28>だよね？<line-break>　<line-break>あはは、知ってるさ。<line-break>たとえ君は僕のこと<line-break>まだ知らなくってもね。<end>"
+korean = "안녕, 잘 부탁해. 너는 <value:$28> 맞지? 하하, 알고 있어. 네가 아직 나를 모르더라도 말이야.<end>"
+
 ["1720020"]
 japanese = "死竜に人を喰わせとったのは、<line-break>お主か！<end>"
 korean = "사룡에게 사람을 먹인 게 너였느냐!<end>"

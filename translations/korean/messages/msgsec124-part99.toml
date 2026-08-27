@@ -20,6 +20,10 @@ korean = "밀서 배달에 <value:$28>님을 쓰다니 용서 못 해요! 그런
 japanese = "この密書を解放軍の本部へ<line-break>届ければいいんだよ。<line-break><value:$28>なら簡単だよね。<end>"
 korean = "이 밀서를 해방군 본부에 전하면 돼. <value:$28>이라면 간단하지?<end>"
 
+["1240081"]
+japanese = "密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<end>"
+korean = "밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게<end>"
+
 ["1240082"]
 japanese = "<value:$28>の最初の任務は、<line-break>この密書を解放軍の本部に<line-break>届けることだよぉ。<end>"
 korean = "<value:$28>의 첫 임무는 이 밀서를 해방군 본부에 전달하는 거야.<end>"
@@ -36,6 +40,10 @@ korean = "해방군 본부에 밀서를 운반하는 것이 크류세이스의 �
 japanese = "一度ならず二度までも密書の配達を<line-break><value:$28>様に命令するなんて！<line-break>そんな密書、海に捨てちゃいましょう。<end>"
 korean = "한 번도 아니고 두 번이나 밀서 배달을 <value:$28>님께 명령하다니! 그런 밀서는 바다에 버려 버려요.<end>"
 
+["1240113"]
+japanese = "密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<end>"
+korean = "밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게<end>"
+
 ["1240114"]
 japanese = "<value:$28>の次の任務は、<line-break>ロセンにある解放軍支部に<line-break>密書を届けることだよぉ。<end>"
 korean = "<value:$28>의 다음 임무는 로센에 있는 해방군 지부에 밀서를 전달하는 거야.<end>"
@@ -43,6 +51,10 @@ korean = "<value:$28>의 다음 임무는 로센에 있는 해방군 지부에 �
 ["1240115"]
 japanese = "………………。<line-break><line-break><line-break>ロセンの解放軍支部に届けろ。<end>"
 korean = "………………. 로센 해방군 지부에 전해라.<end>"
+
+["1240145"]
+japanese = "密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<end>"
+korean = "밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게<end>"
 
 ["1240146"]
 japanese = "<value:$28>の最終任務は、<line-break>リベルダムにあるクロイス邸に<line-break>密書を届けることだよぉ。<end>"
@@ -75,6 +87,10 @@ korean = "오르파우스 공의 말에 틀림은 없다고 생각하지만, 사
 ["1240189"]
 japanese = "邪竜の断層から、<line-break>強い妖気を感じます。<line-break><line-break>封印されたアズラゴーザが<line-break>覚醒したのかもしれません。<end>"
 korean = "사룡의 단층에서, 강한 요기를 느낍니다. 봉인된 아즈라고자가 깨어났을지도 모릅니다.<end>"
+
+["1240209"]
+japanese = "古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<end>"
+korean = "고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게<end>"
 
 ["1240223"]
 japanese = "オルファウスが世界の成り立ちを<line-break>古の樹海で語るつもりらしい。<line-break><line-break><value:$28>はこの話を、<line-break>聞いておいたほうがいいね。<end>"

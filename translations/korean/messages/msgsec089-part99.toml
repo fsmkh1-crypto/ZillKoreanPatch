@@ -8,6 +8,10 @@ korean = "에스텔 메시지 VOL4 시작<end>"
 japanese = "<value:$28>…さんだな？<end>"
 korean = "<value:$28>… 씨 맞지?<end>"
 
+["890018"]
+japanese = "<value:$28>、<line-break>それは…？　　　　　　　　<line-break>　<line-break>お姉ちゃんの首飾り…。<line-break>これでお姉ちゃんの居所が<line-break>わかるんだね？<end>"
+korean = "<value:$28>, 그건…? 언니의 목걸이…. 이걸로 언니가 어디 있는지 알 수 있는 거지?<end>"
+
 ["890019"]
 japanese = "…竜骨の砂漠の真ん中…。<end>"
 korean = "…용골 사막 한가운데….<end>"
@@ -19,6 +23,10 @@ korean = "라드라스 근처야? 어떻게 된 거야? 있잖아, <value:$28>, 
 ["890022"]
 japanese = "<value:$28>様！<line-break>エステル様が、エステル様が！<line-break>シャリという魔術師にさらわれてしまいました！<end>"
 korean = "<value:$28>님! 에스텔 님이, 에스텔 님이! 샤리라는 마술사에게 납치됐습니다!<end>"
+
+["890026"]
+japanese = "…竜骨の砂漠の真ん中…。　<line-break>ラドラスのあたりだよ？<line-break>どうなってるの？<line-break>ねぇ、<value:$28>、<line-break>とにかく助けに行かなきゃ！<end>"
+korean = "…용골 사막 한가운데…. 라드라스 근처잖아? 어떻게 된 거야? <value:$28>, 일단 구하러 가야 해!<end>"
 
 ["890028"]
 japanese = "（エステルは、ここに、<line-break>　いるのかもしれない…）<end>"

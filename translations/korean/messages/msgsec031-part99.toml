@@ -40,6 +40,10 @@ korean = "<value:$28>…. 좋은 눈을 한 소녀군…. 반란은 예정대로
 japanese = "姉ちゃーん！<end>"
 korean = "누나아!<end>"
 
+["310026"]
+japanese = "あ、そうだった！<line-break>仲間にノーブルの森で集まるよう<line-break>伝えてきたよ。<line-break>それから、頼まれてた元気の薬。<line-break>渡しとくぜ、姉ちゃん！<end>"
+korean = "아, 맞다! 동료들에게 노블의 숲에 모이라고 전해 뒀어. 그리고 부탁했던 원기의 약. 줄게, 누나!<end>"
+
 ["310029"]
 japanese = "また、ボルボラの手下だ！<end>"
 korean = "또 볼보라 부하들이야!<end>"
@@ -75,6 +79,10 @@ korean = "아!<end>"
 ["310047"]
 japanese = "みんな？<end>"
 korean = "다들?<end>"
+
+["310048"]
+japanese = "な、なあ、姉ちゃん！<line-break>この人は腕も立つし、<line-break>味方になってもらおうよ！<line-break>ノーブルの森での会合に<line-break>この人にも来てもらおうぜ。<end>"
+korean = "저, 저기 누나! 이 사람 실력도 좋으니까 우리 편이 되어 달라고 하자! 노블의 숲 회합에도 와 달라고 하자.<end>"
 
 ["310050"]
 japanese = "女、女って呼ぶな！<line-break>姉ちゃんにはちゃんと<line-break><value:$28>って名がある！<end>"
@@ -276,6 +284,10 @@ korean = "형!<end>"
 japanese = "かかってくるがいい。<line-break>俺に勝ったら教えてやる。<end>"
 korean = "덤벼라. 나를 이기면 알려 주지.<end>"
 
+["310172"]
+japanese = "ロストールの王宮では<line-break>エリス王妃と兄さんの間で<line-break>しれつな権力争いがあるんだ。<line-break>兄さんには、<line-break>君みたいな味方が必要なんだ。<end>"
+korean = "로스토올 왕궁에서는 엘리스 왕비와 형 사이에 치열한 권력 다툼이 있어. 형에겐 너 같은 아군이 필요해.<end>"
+
 ["310173"]
 japanese = "お願い、兄さんを守って！<end>"
 korean = "부탁해, 오빠를 지켜 줘!<end>"
@@ -331,6 +343,10 @@ korean = "뭐라고!? 에스트 님이… 대체…?<end>"
 ["310199"]
 japanese = "撃て！！<end>"
 korean = "쏴!!<end>"
+
+["310200"]
+japanese = "僕を…お…怒らせないで…！<line-break>僕の…僕の…黒い心が…ああ…、<line-break>君たちを殺そうと…する…！<line-break>お…抑えきれない…。<line-break>逃げて！！<end>"
+korean = "나를… 화나게 하지 마…! 내… 내 검은 마음이… 아아… 너희를 죽이려 해…! 억누를 수 없어…. 도망쳐!!<end>"
 
 ["310201"]
 japanese = "ぐわっ！<end>"

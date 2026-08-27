@@ -20,6 +20,10 @@ korean = "…훗, …푸념이군. 나답지 않게.<end>"
 japanese = "…いや、間違いならば<line-break>いいのだがな…。<end>"
 korean = "…아니, 내가 틀렸다면 좋겠지만….<end>"
 
+["710022"]
+japanese = "そうだ。サイフォスこそ<line-break>俺の親友だった男、ロイだ。<end>"
+korean = "그래. 사이포스야말로 내 절친했던 남자, 로이다.<end>"
+
 ["710024"]
 japanese = "貴様、神聖語…<line-break>失われた古代の言葉に詳しいか？<end>"
 korean = "네놈, 신성어… 잃어버린 고대의 언어를 잘 아나?<end>"
@@ -43,6 +47,10 @@ korean = "일식….<end>"
 ["710029"]
 japanese = "いつもながら見事な手並みです。<line-break><value:$28>さん。<end>"
 korean = "언제 봐도 훌륭한 솜씨입니다, <value:$28>님.<end>"
+
+["710031"]
+japanese = "なんのつもりです？<line-break>私の剣に触ろうとは無礼ですよ？<end>"
+korean = "무슨 짓입니까? 제 검에 손대려 하다니 무례하군요.<end>"
 
 ["710032"]
 japanese = "…確かめたかっただけだ。<line-break>こんなふうにな。<end>"
@@ -120,6 +128,10 @@ korean = "…<value:$28>! 위험해! 비켜!<end>"
 japanese = "イヤだっていったら？<end>"
 korean = "싫다고 하면?<end>"
 
+["710076"]
+japanese = "お前の生命をもらってから<line-break>姉シェスターを取り戻す。<end>"
+korean = "네 목숨을 받은 뒤 누나 셰스터를 되찾겠다.<end>"
+
 ["710078"]
 japanese = "くすっ、ホント、容赦ないのね。<end>"
 korean = "후훗, 정말 봐주질 않네.<end>"
@@ -175,6 +187,10 @@ korean = "…<value:$28>! 위험해! 비켜!<end>"
 ["710118"]
 japanese = "イヤだっていったら？<end>"
 korean = "싫다고 하면?<end>"
+
+["710119"]
+japanese = "お前の生命をもらってから<line-break>姉シェスターを取り戻す。<end>"
+korean = "네 목숨을 받은 뒤 누나 셰스터를 되찾겠다.<end>"
 
 ["710121"]
 japanese = "くすっ、ホント、容赦ないのね。<end>"

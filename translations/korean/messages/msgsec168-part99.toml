@@ -40,6 +40,10 @@ korean = "평소 침착한 남자인 만큼 이성을 잃으면 무슨 짓을 �
 japanese = "…確かに気の回しすぎかもしれぬ。<end>"
 korean = "…확실히 너무 신경 쓴 걸지도 모르겠군.<end>"
 
+["1680020"]
+japanese = "アトレイアも変わった。<line-break>明るくなった。<line-break>　<line-break>最近、空中庭園でよく見かけるが、<line-break>笑顔であいさつをするようになった。<end>"
+korean = "아트레아도 변했어. 밝아졌지. 요즘 공중정원에서 자주 보는데 웃으며 인사하게 됐어.<end>"
+
 ["1680029"]
 japanese = "<value:$28>よ。<line-break>期待している。<line-break>フリントのこと、忘れるな。<end>"
 korean = "<value:$28>. 기대하고 있다. 플린트 일을 잊지 마라.<end>"
@@ -51,6 +55,10 @@ korean = "<value:$28>, 그대는 몇 살인가?<end>"
 ["1680033"]
 japanese = "<value:$28>か。<line-break>ゼネテスはどうしておる？<line-break>総司令らしく振る舞っておるか？<end>"
 korean = "<value:$28>인가. 제네테스는 어떻게 지내나? 총사령관답게 행동하고 있나?<end>"
+
+["1680034"]
+japanese = "フフ…、厳しい評価だ。<line-break>まあ、よい。<line-break>最初から期待しておらぬ。<line-break>だが、ゼネテスは<line-break>そなたを高く買っているようだ。<end>"
+korean = "후후… 엄한 평가군. 뭐, 됐다. 처음부터 기대하지 않았으니까. 하지만 제네테스는 자네를 높이 평가하는 모양이야.<end>"
 
 ["1680036"]
 japanese = "<value:$28>か。<line-break>　<line-break>　<line-break>ゼネテスとはうまくやっているか？<end>"
@@ -123,6 +131,10 @@ korean = "정권을 제멋대로 휘두르려 했던 것이다.<end>"
 ["1680079"]
 japanese = "陛下、<line-break>ようこそお越しくださいました。<end>"
 korean = "폐하, 잘 오셨습니다.<end>"
+
+["1680081"]
+japanese = "陛下、本日はともに食事でもと…。<line-break>私が料理をいたしました。<line-break>　<line-break>すぐに運ばせましょう。<line-break>しばし、お待ちください。<end>"
+korean = "폐하, 오늘은 함께 식사라도…. 제가 요리했습니다. 곧 가져오게 하겠습니다. 잠시 기다려 주십시오.<end>"
 
 ["1680088"]
 japanese = "では、料理を運ばせましょう。<end>"

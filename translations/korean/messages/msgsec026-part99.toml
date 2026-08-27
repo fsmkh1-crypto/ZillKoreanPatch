@@ -8,6 +8,10 @@ korean = "성새도시 유적에서 일어나는 괴현상을 조사한다고? �
 japanese = "……………。<line-break><line-break><line-break>黒い闇に似た生物が現れるという。<end>"
 korean = "……………. 검은 어둠을 닮은 생물이 나타난다고 한다.<end>"
 
+["260028"]
+japanese = "城塞都市跡の噂？<line-break>黒い闇みたいな生き物がいるとか、<line-break>怪現象が起きるっていう話ね。<line-break>ギルドから報酬も出るし、<line-break>行ってみる？<end>"
+korean = "성채도시 유적 소문? 검은 어둠 같은 생물이 있다거나 괴현상이 일어난다는 이야기 말이지. 길드에서 보수도 나오니 가 볼래?<end>"
+
 ["260033"]
 japanese = "大陸の南西にある島に行けば、<line-break>ネメア様を助けることができるのね？<line-break>行きましょう、<value:$28>！<end>"
 korean = "대륙 남서쪽 섬에 가면 네메아 님을 도울 수 있는 거지? 가자, <value:$28>!<end>"
@@ -47,6 +51,10 @@ korean = "……………. 제국은 저 태양보다 빛난다, 다.<end>"
 ["260087"]
 japanese = "ディンガル帝国の合い言葉…。<line-break>………………<line-break>あっ、いえ…<line-break><value:$28>様の<line-break>邪魔になるようなことは<line-break>いたしません。<end>"
 korean = "딘갈 제국의 암호…. ………… 아, 아닙니다…. <value:$28>님께 방해될 일은 하지 않겠습니다.<end>"
+
+["260088"]
+japanese = "ディンガル帝国の合い言葉かぁ。<line-break>欲しい国一杯ありそう。<line-break>あっ…ごめんなさい。<line-break>お兄ちゃん…<line-break>ヴィアはそんなことしないよ。<end>"
+korean = "딘갈 제국의 암호라…. 탐내는 나라는 많겠네. 아… 미안해. 오빠… 비아는 그런 짓 안 해.<end>"
 
 ["260102"]
 japanese = "もう忘れたの？<line-break>奴らは賢者の森を目指しているわ。<line-break><line-break>ゴブリンのすることだから、<line-break>理由までは知らないわ。<end>"

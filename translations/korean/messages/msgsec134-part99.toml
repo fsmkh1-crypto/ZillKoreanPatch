@@ -128,6 +128,10 @@ korean = "…<value:$28>군…. 나를… 죽여 주게.<end>"
 japanese = "ウグアアアアア…！<end>"
 korean = "우그아아아아…!<end>"
 
+["1340074"]
+japanese = "いや、まだだよ。貴様を<line-break>世に放つわけにはいかんのでね。<line-break>　<line-break>この命を燃やし尽くしてでも<line-break>私が貴様を封じてみせる。<end>"
+korean = "아니, 아직이다. 네놈을 세상에 풀어놓을 순 없어서 말이지. 이 목숨을 다 태워서라도 내가 네놈을 봉인하겠다.<end>"
+
 ["1340080"]
 japanese = "今日はこのへんで…<end>"
 korean = "오늘은 이쯤에서….<end>"
@@ -728,6 +732,10 @@ korean = "정말로… 감사…했습니다….<end>"
 japanese = "…あ、あの、<line-break><value:$28>さんっ。<end>"
 korean = "…저, 저기, <value:$28> 씨.<end>"
 
+["1340366"]
+japanese = "目の前に死ぬ運命の男がいたとする。<line-break>お前さんはその男を予定より<line-break>早く殺すことも、逆にその男を<line-break>救ってやることもできる。<end>"
+korean = "눈앞에 죽을 운명의 남자가 있다고 치자. 넌 그 남자를 예정된 때보다 빨리 죽일 수도 있고, 반대로 구할 수도 있어.<end>"
+
 ["1340369"]
 japanese = "それが…<line-break>無限のソウルってことじゃないか？<line-break>んー。言葉にするとズレちまったが<line-break>…ま、そう思ったわけだ。<end>"
 korean = "그게… 무한의 소울이라는 거 아닐까? 음. 말로 하니까 좀 어긋난 것 같지만… 뭐, 그렇게 생각했어.<end>"
@@ -908,6 +916,10 @@ korean = "…기다려.<end>"
 japanese = "…俺みたいな奴を<line-break>なぜ、助ける？<end>"
 korean = "…나 같은 놈을 왜 돕는 거지?<end>"
 
+["1340446"]
+japanese = "…なぜだ？　なぜ？<line-break>打算も見返りもなしにやさしくなれる？<line-break>どうして、…俺みたいな…奴に？　<line-break>ティアナ…あ、あんたもだ。<end>"
+korean = "…왜지? 왜? 계산도 대가도 없이 다정할 수 있는 거지? 어째서… 나 같은 놈에게? 티아나… 너도 그래.<end>"
+
 ["1340448"]
 japanese = "そんなこと…。<end>"
 korean = "그럴 수가….<end>"
@@ -951,6 +963,10 @@ korean = "여왕으로서… 이 나라에서 살아가는 한 사람으로서�
 ["1340482"]
 japanese = "<value:$28>様、<line-break>私もここで、ロストール復興のために<line-break>働かせていただいております。<end>"
 korean = "<value:$28>님, 저도 여기서 로스토올 부흥을 위해 일하고 있습니다.<end>"
+
+["1340487"]
+japanese = "あ、<value:$28>様、<line-break>ようこそ、いらっしゃいました。<end>"
+korean = "아, <value:$28>님. 어서 오십시오.<end>"
 
 ["1340488"]
 japanese = "<value:$28>様…。<line-break> <line-break> <line-break>実は<value:$28>様を<line-break>見込んでお願いしたいことが<line-break>あるのです。<end>"

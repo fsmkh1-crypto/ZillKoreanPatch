@@ -52,6 +52,10 @@ korean = "…<value:$28>! 위험해! 비켜!<end>"
 japanese = "イヤだって言ったら？<end>"
 korean = "싫다고 하면?<end>"
 
+["720033"]
+japanese = "お前の生命をもらってから<line-break>姉シェスターを取り戻す。<end>"
+korean = "네 목숨을 받은 뒤 누나 셰스터를 되찾겠다.<end>"
+
 ["720035"]
 japanese = "くすっ、ホント、容赦ないのね。<end>"
 korean = "후훗, 정말 봐주질 않네.<end>"
@@ -191,6 +195,46 @@ korean = "…아니요. 더 이상 끌어들이지 않는 편이…. 여기서 �
 ["720112"]
 japanese = "さよなら、<value:$28>。<line-break>元気でね。<end>"
 korean = "잘 가, <value:$28>. 건강해.<end>"
+
+["720113"]
+japanese = "予備メッセージ１４<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 14 아기르샤이아, 볼륨 2<end>"
+
+["720114"]
+japanese = "予備メッセージ１５<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 15 아기르샤이아, 볼륨 2<end>"
+
+["720115"]
+japanese = "予備メッセージ１６<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 16 아기르샤이아, 볼륨 2<end>"
+
+["720116"]
+japanese = "予備メッセージ１７<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 17 아기르샤이아, 볼륨 2<end>"
+
+["720117"]
+japanese = "予備メッセージ１８<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 18 아기르샤이아, 볼륨 2<end>"
+
+["720118"]
+japanese = "予備メッセージ１９<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 19 아기르샤이아, 볼륨 2<end>"
+
+["720119"]
+japanese = "予備メッセージ２０<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 20 아기르샤이아, 볼륨 2<end>"
+
+["720120"]
+japanese = "予備メッセージ２１<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 21 아기르샤이아, 볼륨 2<end>"
+
+["720121"]
+japanese = "予備メッセージ２２<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 22 아기르샤이아, 볼륨 2<end>"
+
+["720122"]
+japanese = "予備メッセージ２３<line-break>アーギルシャイア、ボリューム２<end>"
+korean = "예비 메시지 23 아기르샤이아, 볼륨 2<end>"
 
 ["720123"]
 japanese = "アーギルシャイアメッセージ終端<end>"

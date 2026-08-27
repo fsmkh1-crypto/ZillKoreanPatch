@@ -44,6 +44,10 @@ korean = "…뭐, 됐나. 그럼 안녕, <value:$28>.<end>"
 japanese = "待ちなよ。<end>"
 korean = "기다려.<end>"
 
+["1030036"]
+japanese = "だが、<value:$28>を<line-break>しょっぴくには無理があるだろ？<end>"
+korean = "하지만 <value:$28>을 잡아가는 건 무리잖아?<end>"
+
 ["1030039"]
 japanese = "…レーグ。<end>"
 korean = "…레그.<end>"
