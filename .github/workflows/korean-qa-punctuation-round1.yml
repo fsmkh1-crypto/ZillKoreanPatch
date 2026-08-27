@@ -1,0 +1,62 @@
+name: Korean QA repeated-line punctuation round 1
+
+on:
+  push:
+    paths:
+      - 'tools/korean/qa-fix-punctuation-round1.py'
+      - '.github/workflows/korean-qa-punctuation-round1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: translation/section001-batch2
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+      - name: Baseline QA-3
+        run: python3 tools/korean/qa-consistency.py --json /tmp/before.json --max-examples 0
+      - name: Apply punctuation normalization
+        run: python3 tools/korean/qa-fix-punctuation-round1.py
+      - name: Validate normalized corpus
+        run: |
+          ./zill korean-check
+          ./zill korean-font-check
+          python3 tools/korean/qa-integrity.py --json /tmp/integrity.json --max-examples 20
+          python3 tools/korean/qa-terminology.py --json /tmp/terms.json --max-examples 20
+          python3 tools/korean/qa-consistency.py --json /tmp/after.json --max-examples 20
+          python3 tools/korean/qa-consistency-triage.py --json /tmp/triage.json --max-examples 20
+          python3 tools/korean/qa-text-sanity.py --json /tmp/sanity.json --max-examples 20
+          python3 - <<'PY'
+          import json
+          b=json.load(open('/tmp/before.json', encoding='utf-8'))
+          a=json.load(open('/tmp/after.json', encoding='utf-8'))
+          t=json.load(open('/tmp/terms.json', encoding='utf-8'))
+          s=json.load(open('/tmp/sanity.json', encoding='utf-8'))
+          bg=int(b['inconsistent_groups']); ag=int(a['inconsistent_groups'])
+          br=int(b['inconsistent_records']); ar=int(a['inconsistent_records'])
+          print(f'QA-3 inconsistency change: groups {bg}->{ag}; records {br}->{ar}')
+          if ag > bg or ar > br:
+              raise SystemExit('punctuation pass increased QA-3 inconsistency')
+          if int(t['mismatch_count']) != 0:
+              raise SystemExit('punctuation pass introduced terminology mismatch')
+          if int(s['finding_count']) != 0:
+              raise SystemExit('punctuation pass left high-signal sanity findings')
+          PY
+      - name: Commit punctuation normalization
+        run: |
+          if git diff --quiet -- translations/korean/messages; then
+            echo 'No punctuation fixes needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          git commit -m 'Normalize unambiguous repeated-line punctuation'
+          git push origin HEAD:translation/section001-batch2
