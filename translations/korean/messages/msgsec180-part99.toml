@@ -128,6 +128,10 @@ korean = "에리스의 집무실<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["1800075"]
+japanese = "今、王宮は大騒ぎなのだ。<line-break>さあ、行った行った！<end>"
+korean = "지금 왕궁은 큰 소동이다. 자, 어서 가!<end>"
+
 ["1800076"]
 japanese = "よ、<value:$28>、<line-break>困りごとかい？<end>"
 korean = "여어, <value:$28>. 무슨 고민이라도 있어?<end>"
