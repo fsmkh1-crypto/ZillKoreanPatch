@@ -1,0 +1,17 @@
+{
+  "1030053": {
+    "old": "<if><value:$2A><less>50여어, 당신이<value:$28>지?<end><value:$2B>의 <value:$28>…당신 말이지?<end>",
+    "new": "<if><value:$2A><less>50여어, 자네가 <value:$28>지?<end><value:$2B>의 <value:$28>… 자네 말이지?<end>",
+    "reason": "Tserashel consistently uses familiar お前さん/あんた; adjacent 1030052 already renders お前さん方 as 자네들. Preserve the same older/familiar register in both branches."
+  },
+  "1290015": {
+    "old": "<if><value:$3C><equal>1안녕, 당신. 일거리를 찾고 있지? 사실 말이야, 당신을 솜씨 좋은 모험자라고 보고 부탁 하나가 있어.<end>안녕, 자네들. 일거리를 찾고 있지? 사실 말이야, 자네들을 솜씨 좋은 모험자라고 보고 부탁 하나가 있어.<end>",
+    "new": "<if><value:$3C><equal>1안녕, 자네. 일거리를 찾고 있지? 사실 말이야, 자네를 솜씨 좋은 모험자라고 보고 부탁 하나가 있어.<end>안녕, 자네들. 일거리를 찾고 있지? 사실 말이야, 자네들을 솜씨 좋은 모험자라고 보고 부탁 하나가 있어.<end>",
+    "reason": "Same quest-giver voice as 1290014, where お前さん is already 자네; singular/plural branches should preserve that register."
+  },
+  "1610162": {
+    "old": "그렇군, 봉황은 정말 있었나. 당신, 정말 상냥하군.<end>",
+    "new": "그렇군, 봉황은 정말 있었나. 자네, 정말 상냥하군.<end>",
+    "reason": "お前さん is a familiar, gently older-speaker address; 당신 introduces unnecessary polite/distant register against the sentence's casual いたかい/やさしいんだね tone."
+  }
+}
