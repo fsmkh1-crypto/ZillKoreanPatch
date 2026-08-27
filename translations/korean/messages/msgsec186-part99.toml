@@ -38,7 +38,7 @@ korean = "지난번처럼 이상한 아저씨들에게 습격당하면 어쩌려
 
 ["1860009"]
 japanese = "まあまあ、あのときも<line-break>幸い無事ですんだことだし…。　　　<line-break>　<end>"
-korean = "뭐, 뭐. 그때도 다행히 무사히 끝났으니까….<end>"
+korean = "뭐, 그때도 다행히 무사했으니까….<end>"
 
 ["1860010"]
 japanese = "でも、<value:$28>には<line-break>商売を継がせるんでしょお？<line-break>だったら剣の稽古なんて…。<end>"
@@ -194,7 +194,7 @@ korean = "자. 방금 녀석과 친구로는 안 보이는데?<end>"
 
 ["1860048"]
 japanese = "私も知らないよぉー、<line-break>あんなおじさん。<line-break>　<line-break>お前がフリントの子かって<line-break><value:$28>に<line-break>近づいてきただけだもん。<end>"
-korean = "나도 몰라, 그런 아저씨. 네가 플린트의 자식이냐고 하면서 <value:$28>에게 다가왔을 뿐이야.<end>"
+korean = "나도 몰라~ 그런 아저씨. 네가 플린트의 아이냐고 하면서 <value:$28>에게 다가왔을 뿐이야.<end>"
 
 ["1860049"]
 japanese = "…フリント？<end>"
@@ -594,7 +594,7 @@ korean = "(아버지가 걱정되니까 빨리 돌아가야 해.)<end>"
 
 ["1860149"]
 japanese = "なんだ、お前は！<end>"
-korean = "뭐냐, 넌!<end>"
+korean = "뭐야, 넌!<end>"
 
 ["1860150"]
 japanese = "まあ、待て。<line-break>何か急ぎの用がありそうだ。　　　　<line-break>どうしたのだ？<end>"

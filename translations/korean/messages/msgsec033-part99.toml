@@ -554,7 +554,7 @@ korean = "<if><value:$29><equal>%0플린트의 아들이라고?<end>플린트의
 
 ["330140"]
 japanese = "王妃様がお会いになるそうだ。<line-break>ついてこい。<end>"
-korean = "왕비님께서 만나시겠다고 하셨다. 따라와라.<end>"
+korean = "왕비님께서 만나시겠답니다. 따라오시오.<end>"
 
 ["330141"]
 japanese = "…密書は確かに受け取った。<line-break>ご苦労だった。<line-break>これは報酬だ。<end>"
@@ -750,7 +750,7 @@ korean = "여기까지 호위해 왔지만 결국 내가 나설 일은 없었군
 
 ["330190"]
 japanese = "ケガをされたお客様の<line-break>具合はいかがですか？<end>"
-korean = "다치신 손님 상태는 어떻습니까?<end>"
+korean = "다치신 손님의 상태는 어떻습니까?<end>"
 
 ["330191"]
 japanese = "お父様はお亡くなりに…<line-break>そうですか…。<end>"
@@ -834,7 +834,7 @@ korean = "왕궁? 이 길을 계속 곧장 가면 왕궁 문이 나와.<end>"
 
 ["330211"]
 japanese = "まあ、待て。<line-break>何か急ぎの用がありそうだ。<line-break>どうしたのだ？<end>"
-korean = "잠깐. 뭔가 급한 일이 있는 모양이군. 무슨 일이야?<end>"
+korean = "잠깐, 기다려라. 무언가 급한 용무가 있는 것 같군. 무슨 일이냐?<end>"
 
 ["330212"]
 japanese = "とう！<end>"
