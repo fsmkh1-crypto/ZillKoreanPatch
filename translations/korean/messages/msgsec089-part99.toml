@@ -356,6 +356,10 @@ korean = "(에스텔의 수정에 뭔가 비치고 있어.) (…용골 사막…
 japanese = "（…ここに<line-break>　エステルがいる！？）<end>"
 korean = "(…여기에 에스텔이 있어!?)<end>"
 
+["890107"]
+japanese = "　　　　　　　 　　汝は…。　　　　　　　　　<line-break>　　　　　　　　　なるほど。<line-break>　　　　　　無限のソウルを持つ者か…。<line-break>　<line-break>　　　　　　無限のソウルを持つ者よ…。<line-break>　　　　　　　　汝に頼みがある。<end>"
+korean = "그대는…. 그렇군. 무한의 소울을 가진 자인가…. 무한의 소울을 가진 자여…. 그대에게 부탁이 있다.<end>"
+
 ["890108"]
 japanese = "　　　　　ここより先に、<line-break>　　フルーヴという巨人がおる。<line-break>　<line-break>　<line-break>　　　汝の力で葬ってくれ。<line-break>　 　あ奴は我の力を妨げる。<line-break>　　　不要な存在なのだ…。<end>"
 korean = "이 앞에 후르브라는 거인이 있다. 네 힘으로 묻어 버려라. 그 녀석은 나의 힘을 방해한다. 불필요한 존재다…<end>"
@@ -367,6 +371,10 @@ korean = "알았어<end>"
 ["890110"]
 japanese = "関係ない<end>"
 korean = "상관없어<end>"
+
+["890111"]
+japanese = "　　　　　　　　　　よし。　　　　　　　　　<line-break>　　　　　　　では我は、汝を<line-break>　　　　　　 精霊の座へと導かん。<line-break>　<line-break>　　　　 　汝、気高き地の光を越え<line-break>　　　　 　　彼の巨人に挑むがよい。<line-break>　　　　  　挑み、打ち破るがよい…。<end>"
+korean = "좋다. 그럼 내가 그대를 정령의 자리로 인도하리라. 그대, 고귀한 땅의 빛을 넘어 저 거인에게 도전하라. 도전하여 쓰러뜨려라….<end>"
 
 ["890113"]
 japanese = "　　　　　　　　　どうした？　　　　　　　　<line-break>　　　　　　　巨人を前に臆したか？<end>"

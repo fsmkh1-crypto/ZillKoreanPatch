@@ -480,6 +480,10 @@ korean = "아버지이신 천공신 노툰과 사랑의 신 라이라네트의 �
 japanese = "<value:$28>様も<line-break>神器の守護者のご一族。<line-break>大丈夫ですと申し上げておりますのに。　　<end>"
 korean = "<value:$28>님도 신기의 수호자 일족입니다. 괜찮다고 말씀드렸는데도….<end>"
 
+["320128"]
+japanese = "<if><value:$29><equal>%0よう、<value:$28>。<line-break>朝早いってのに、<line-break>魔物騒ぎで大変だったな。<end><value:$28>。<line-break>無事でよかった…。　　　　　　<line-break>　<line-break>魔物騒ぎで森に行ったってっから<line-break>俺…、寝てらんなくって…。<line-break>でも、無事でホントよかったよ。<end>"
+korean = "<if><value:$29><equal>%0여, <value:$28>. 아침부터 마물 소동으로 고생했군.<end><value:$28>. 무사해서 다행이야…. 마물 소동 때문에 숲에 갔다길래 나… 잠도 못 잤어…. 그래도 정말 무사해서 다행이야.<end>"
+
 ["320130"]
 japanese = "お…おっきなじしんだったね！<line-break>わ…わたし、びっくりしちゃった。<end>"
 korean = "커… 커다란 지진이었어! 나… 나 깜짝 놀랐어.<end>"

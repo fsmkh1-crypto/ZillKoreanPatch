@@ -240,6 +240,10 @@ korean = "그 무엇도 아닌 자여…. 곧 모든 것인 자여….<end>"
 japanese = "　　　　　　　　我はたたえ…　　　　　　　　<line-break>　　　　　　　我は認めよう…。<line-break>　　　　　　　　汝のソウル…<line-break>　　　　　　　無限のソウルを…。<end>"
 korean = "나는 찬양하고… 나는 인정하리라…. 그대의 소울… 무한의 소울을….<end>"
 
+["1810063"]
+japanese = "　　　　　　　さあ、宿すがよい…。　　　　　<line-break>　　　　　　　　無限のソウル…<line-break>　　　　　　　インフィニティアを…。<end>"
+korean = "자, 품어라…. 무한의 소울… 인피니티아를….<end>"
+
 ["1810064"]
 japanese = "<value:$28>は<line-break>インフィニティアを手に入れた。<end>"
 korean = "<value:$28>은 인피니티아를 손에 넣었다.<end>"

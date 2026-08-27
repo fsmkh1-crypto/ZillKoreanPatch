@@ -584,6 +584,10 @@ korean = "나, 이 싸움이 끝나면　　<value:$28>의 모험시를쓸 거�
 japanese = "だから、<value:$28>。<line-break>必ず帰ってこようね。<end>"
 korean = "그러니까 <value:$28>. 반드시 돌아오자.<end>"
 
+["1910151"]
+japanese = "　　　　　　　愚かな者たちよ…　　　　　　　<line-break>　　　　　　死こそ、汝らにとって<line-break>　　　　　最高の結末であったろうに…<end>"
+korean = "어리석은 자들이여… 죽음이야말로 너희에게 최고의 결말이었을 텐데….<end>"
+
 ["1910152"]
 japanese = "　　　　　　　　　我は竜王…　　　　　　　　<line-break>　　　　　世界の牧者、神の代理なり…。　　　<line-break>　　　　　　<value:$28>よ…<line-break>　　　我の息吹にかかって消えるがよい…！　　<end>"
 korean = "나는 용왕… 세계의 목자, 신의 대리자…. <value:$28>여… 내 숨결에 사라져라…!<end>"

@@ -232,6 +232,10 @@ korean = "뭐!?<end>"
 japanese = "冗談でしょ、<value:$28>！<line-break>まさか、本気じゃないわよね！？<end>"
 korean = "농담이지, <value:$28>! 설마 진심은 아니지!?<end>"
 
+["1980062"]
+japanese = "今度こそ、本当にあきれたわ！<line-break>真偽を見極める目を持っていないから、<line-break>あんたたちは下等生物なのよぉ！<line-break>存在もしない伝説のフライパンを探す？<line-break>雲をつかむような話ってよく言うけど<line-break>まさに、これがそうよ！<end>"
+korean = "이번엔 정말 질렸어! 진위를 가려 볼 눈도 없으니까 너희는 하등생물인 거야! 존재하지도 않는 전설의 프라이팬을 찾겠다고? 뜬구름 잡는 이야기라는 말이 딱 이런 거야!<end>"
+
 ["1980063"]
 japanese = "<value:$28>さん…。<line-break>ほ、本当に探すんですか？<end>"
 korean = "<value:$28>님…. 저, 정말 찾으실 건가요?<end>"
@@ -536,6 +540,10 @@ korean = "믿을 수 없어. 난 정말 운이 좋군. 예로부터 수많은 �
 japanese = "ロストールに伝わっていた伝承。<line-break>古文書に記された呪文。<line-break>そして、城塞都市跡…。<end>"
 korean = "로스토올에 전해지던 전승. 고문서에 적힌 주문. 그리고 성채도시 터…<end>"
 
+["1980144"]
+japanese = "素晴らしいよ、<value:$28>！<line-break>僕も一緒に連れてってよ。<line-break>一生のお願い！<line-break>伝説の魔道器がよみがえる瞬間を、<line-break>僕はこの目に焼きつけたいんだ。<line-break>　<line-break>もし、イヤだって言われても、<line-break>僕は絶対についていくよ。いいね<end>"
+korean = "멋져, <value:$28>! 나도 같이 데려가 줘. 평생의 부탁이야! 전설의 마도기가 되살아나는 순간을 이 눈에 새기고 싶어. 싫다고 해도 난 반드시 따라갈 거야. 알겠지?<end>"
+
 ["1980146"]
 japanese = "よし、古文書に記されている場所は<line-break>間違いなくここだ。<end>"
 korean = "좋아, 고문서에 적힌 장소는 틀림없이 여기다.<end>"
@@ -743,6 +751,10 @@ korean = "그, 그게 정말인가요!?<end>"
 ["1980198"]
 japanese = "そ、そうですか…。<end>"
 korean = "그, 그런가요….<end>"
+
+["1980199"]
+japanese = "（どうしよう…。まさか<line-break>　こんなことになっちゃうなんて…。）<line-break>　<line-break>（このまま<value:$28>さんが、<line-break>　伝説のフライパンを探し続けたら、<line-break>　私のウソがバレて嫌われちゃう…。）<line-break>（ああん！　どうしたらいいの…！？）<end>"
+korean = "(어쩌지…. 설마 이렇게 될 줄이야….) (이대로 <value:$28> 씨가 전설의 프라이팬을 계속 찾으면 내 거짓말이 들켜서 미움받을 거야….) (아앙! 어떡하면 좋아…!?)<end>"
 
 ["1980200"]
 japanese = "ど、どうしよう…。<line-break>　<line-break>　<line-break>なんとかして、それとなく<line-break><value:$28>さんに<line-break>あきらめてもらわないと…。<end>"

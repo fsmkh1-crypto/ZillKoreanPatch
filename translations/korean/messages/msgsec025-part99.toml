@@ -8,6 +8,10 @@ korean = "한 번도 전투하지 않으면 보너스가 나온다. 잘해 봐.<
 japanese = "我が帝国の<value:$17><value:$16>を<line-break><value:$15>まで<line-break>無事送り届ける護衛者を募集する。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内である。<end>"
 korean = "우리 제국의 <value:$17><value:$16>을 <value:$15>까지 무사히 호위할 자를 모집한다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
 
+["250004"]
+japanese = "冒険者の方々には、お世話になっております。<line-break>このたびお願いするのは、旅の道中の護衛です。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>まで行く間、<line-break>同行して身を守ってください。<line-break>お礼は、<value:$1A>ギア用意しました。<line-break><value:$1B>日以内に着くようにお願いします。<end>"
+korean = "모험자 여러분께 늘 신세지고 있습니다. 이번 부탁은 여행길의 호위입니다. 이 마을의 <value:$17><value:$16>가 <value:$15>까지 가는 동안 동행해 지켜 주세요. 사례는 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 도착하도록 부탁드립니다.<end>"
+
 ["250007"]
 japanese = "我が宿に泊まられた<line-break><value:$17><value:$16>様を<line-break><value:$15>までお送りください。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に<line-break>お送りくださるようお願いします。<end>"
 korean = "저희 여관에 묵으신<value:$17><value:$16> 님을<value:$15>까지 모셔다 주세요.사례는 <value:$1A> 기아.<value:$1B>일 이내에모셔다 주시길 바랍니다.<end>"
@@ -51,6 +55,10 @@ korean = "<value:$15>까지 무사히 데려다주시겠습니까? 사례는 <va
 ["250033"]
 japanese = "道中の危険を排除する勇者を募集する。<line-break>精強な戦士諸君の応募を心待ちにしている。<line-break>護衛対象：<value:$17><value:$16><line-break>目的地　：<value:$15><line-break>到着期限：<value:$1B>日以内<line-break>報酬　　：<value:$1A>ギア<end>"
 korean = "여정의 위험을 제거할 용사를 모집한다. 정예 전사들의 지원을 기다린다. 호위 대상: <value:$17><value:$16> 목적지: <value:$15> 도착 기한: <value:$1B>일 이내 보수: <value:$1A>기어<end>"
+
+["250035"]
+japanese = "ちょっと用事がありましてね、<line-break><value:$15>まで人をやらねばなりません。<line-break>でも、途中は危険がいっぱいなんですよ。<line-break>そんなわけで、村の<value:$16>を<line-break>守ってください。<line-break>報酬は、<value:$1A>ギアです。<line-break><value:$1B>日以内に着けるように頼みますよ。<end>"
+korean = "볼일이 있어서 <value:$15>까지 사람을 보내야 합니다. 하지만 가는 길은 위험투성이죠. 그러니 마을의 <value:$16>를 지켜 주세요. 보수는 <value:$1A>기어입니다. <value:$1B>일 이내에 도착하도록 부탁합니다.<end>"
 
 ["250036"]
 japanese = "近頃、旅の道程はたいへん物騒です。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>に行くまでの護衛を<line-break>どなたかしていただけませんか。<line-break><value:$1A>ギアを支払いましょう。<line-break><value:$1B>日以内にこなせる方にお願いします。<end>"
@@ -123,6 +131,10 @@ korean = "시민 길드의 <value:$16>이 볼일이 있어 <value:$15>에 가는
 ["250067"]
 japanese = "うちんとこの<value:$16>が、<line-break><value:$15>の街まで行くことになってな。<line-break>護衛を頼みたいんだ。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内ってとこだな。<end>"
 korean = "우리 쪽 <value:$16>이 <value:$15> 마을까지 가게 됐어. 호위를 부탁하고 싶다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
+
+["250068"]
+japanese = "このたび<value:$15>まで、<line-break><value:$17><value:$16>が<line-break>出向くこととなりました。<line-break>道中のことを考えると、護衛が必要です。<line-break><value:$1A>ギアのお礼で、到着は、<value:$1B>日以内<line-break>という条件で、引き受けてくださる方、<line-break>待っています。<end>"
+korean = "이번에 <value:$15>까지 <value:$17><value:$16>가 가게 됐습니다. 도중의 위험을 생각하면 호위가 필요합니다. <value:$1A>기어의 사례, <value:$1B>일 이내 도착이라는 조건으로 맡아 주실 분을 기다립니다.<end>"
 
 ["250069"]
 japanese = "<value:$17><value:$16>が、<line-break><value:$15>に用があってよ、<line-break>途中、なんだかおっかねえのが出るらしいんで、<line-break>護衛を頼みたいんだ。<line-break><value:$1A>ギアで、<value:$1B>日以内。<line-break>よろしくな。<end>"
@@ -199,6 +211,10 @@ korean = "요즘은 어디든 험악하지. 우리도 싸움에는 자신 있지
 ["250100"]
 japanese = "日頃のご愛顧、ありがとうございます。<line-break>この町の<value:$17><value:$16>を<line-break><value:$15>まで護衛していただきたい。<line-break><value:$1B>日以内の到着を希望します。<line-break>報酬は、<value:$1A>ギアです。<end>"
 korean = "평소 이용해 주셔서 감사합니다. 이 도시의 <value:$17><value:$16>를 <value:$15>까지 호위해 주셨으면 합니다. <value:$1B>일 이내 도착을 희망합니다. 보수는 <value:$1A>기어입니다.<end>"
+
+["250101"]
+japanese = "俺たちは仕事の都合で他の街に行くことがある。<line-break>近頃じゃ、道中は安全とはいえねえ。<line-break>何度も危ない目にあってる。護衛が必要だ。<line-break><value:$17><value:$16>が、<line-break><value:$15>に行くんだ。その護衛を頼む。<line-break><value:$1B>日以内に到着してくれ。<line-break>報酬は、<value:$1A>ギア用意したぜ。<end>"
+korean = "우린 일 때문에 다른 도시로 갈 때가 있다. 요즘은 길이 안전하지 않아 몇 번이나 위험한 일을 겪었지. 호위가 필요하다. <value:$17><value:$16>가 <value:$15>에 간다. 그 호위를 부탁해. <value:$1B>일 이내에 도착해 줘. 보수는 <value:$1A>기어를 준비했다.<end>"
 
 ["250103"]
 japanese = "<value:$17><value:$16>様を<line-break><value:$15>まで送ってくださる方を<line-break>募集いたします。<line-break><value:$1B>日以内の到着、<line-break><value:$1A>ギアの報酬という条件で、<line-break>ぜひお願いいたします。<end>"

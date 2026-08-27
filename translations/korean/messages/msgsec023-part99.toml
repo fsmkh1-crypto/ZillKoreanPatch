@@ -132,6 +132,10 @@ korean = "<value:$15>를 구해야 합니다. 이것이 있으면 장사가 잘�
 japanese = "依頼したいのは<value:$15>の探索と入手。<line-break>期限は、<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアだ。<line-break>鍛冶屋ギルドにとって重要な材料だ。<line-break>よろしく頼む。<end>"
 korean = "의뢰하고 싶은 건 <value:$15>의 탐색과 입수다. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다. 대장장이 길드에 중요한 재료다. 부탁한다.<end>"
 
+["230040"]
+japanese = "手に入れたいものがあるんだ。<line-break><value:$15>なんだけどね。<line-break>なにしろモンスターがたくさんいるもんでね、<line-break>あたしたちじゃ取りにいけないのさ。<line-break><value:$15>を探して持ってきてもらえる？<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギア払うよ。<end>"
+korean = "갖고 싶은 물건이 있어. <value:$15>인데 말이야. 몬스터가 워낙 많아서 우리로선 가지러 갈 수가 없어. <value:$15>을 찾아서 가져다줄래? <value:$1B>일 이내에 해 주면 <value:$1A>기어를 줄게.<end>"
+
 ["230041"]
 japanese = "<value:$15>が、必要になりました。<line-break>そこで、冒険者の方にお願いしようと思います。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアとさせていただきます。<end>"
 korean = "<value:$15>이 필요하게 되었습니다. 그래서 모험자분께 부탁드리려 합니다. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어입니다.<end>"
@@ -232,6 +236,14 @@ korean = "물건 찾는 걸 도와줄 사람 없나? 바다를 건너야 얻을 
 japanese = "<value:$15>を持ち帰ってほしい。<line-break>回復用の道具の材料さ。<line-break>報酬は、<value:$1A>ギア。<value:$1B>日以内だ。<line-break>海の上じゃあ、物が足りなくなったら、<line-break>自分らで作らなきゃならねぇ。<line-break>材料の確保は大切なのさ。頼んだぜ。<end>"
 korean = "<value:$15>를 가져와 줬으면 해. 회복용 도구의 재료야. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내. 바다 위에선 물건이 부족하면 직접 만들어야 하니까 재료 확보가 중요해. 부탁한다.<end>"
 
+["230086"]
+japanese = "<value:$15>が切れてしまいました。<line-break>これがなくなってしまうと<line-break>品物を作れなくなってしまいます。<line-break><value:$15>を持ち帰ってださい。<line-break>日限は、<value:$1B>日以内とさせていただきます。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
+korean = "<value:$15>이 떨어졌습니다. 이게 없으면 물건을 만들 수 없습니다. <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내로 하겠습니다. 사례는 <value:$1A>기어면 어떨까요.<end>"
+
+["230088"]
+japanese = "手に入れたいものがあるんだ。<line-break><value:$15>なんだけどね。<line-break>なにしろモンスターがたくさんいるもんでね、<line-break>あたしたちじゃ取りにいけないのさ。<line-break><value:$15>を探して持ってきてもらえる？<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギア払うよ。<end>"
+korean = "갖고 싶은 물건이 있어. <value:$15>인데 말이야. 몬스터가 워낙 많아서 우리로선 가지러 갈 수가 없어. <value:$15>을 찾아서 가져다줄래? <value:$1B>일 이내에 해 주면 <value:$1A>기어를 줄게.<end>"
+
 ["230091"]
 japanese = "ラドラス１<end>"
 korean = "라드라스1<end>"
@@ -292,6 +304,10 @@ korean = "물건 찾는 걸 도와줄 사람 없나? 우리 손에는 좀 벅차
 japanese = "酒の調合に、<value:$15>がいるんだよ。<line-break>取りに行こうにも、モンスターが出るんでね。<line-break>で、冒険者に取ってきてもらいたいんだ。<line-break><value:$1B>日以内、<value:$1A>ギアでどうかな。<line-break>よろしくね。<end>"
 korean = "술을 조합하는 데 <value:$15>가 필요해. 직접 가지러 가려니 몬스터가 나오거든. 그래서 모험자가 가져와 줬으면 해. <value:$1B>일 이내, <value:$1A>기어면 어때? 부탁해.<end>"
 
+["230115"]
+japanese = "<value:$15>を持ち帰ってほしい。<line-break>回復用の道具の材料さ。<line-break>報酬は、<value:$1A>ギア。<value:$1B>日以内だ。<line-break>海の上じゃあ、物が足りなくなったら、<line-break>自分らで作らなきゃならねぇ。<line-break>材料の確保は、大切なのさ。頼んだぜ。<end>"
+korean = "<value:$15>을 가져와 줘. 회복용 도구의 재료야. 보수는 <value:$1A>기어. <value:$1B>일 이내다. 바다 위에선 물건이 떨어지면 우리가 직접 만들어야 하거든. 재료 확보는 중요해. 부탁한다.<end>"
+
 ["230116"]
 japanese = "自衛用にギルドで独自に作っている武具の材料、<line-break><value:$15>を採ってきて欲しい。<line-break>危険な場所にあるから、気をつけていってくれ。<line-break><value:$1A>ギア用意した。<line-break>期限は、<value:$1B>日以内だ。<end>"
 korean = "자위용으로 길드에서 자체 제작하는 무구의 재료 <value:$15>를 채취해 와 줘. 위험한 곳에 있으니 조심해서 가. <value:$1A>기어를 준비했다. 기한은 <value:$1B>일 이내다.<end>"
@@ -299,6 +315,10 @@ korean = "자위용으로 길드에서 자체 제작하는 무구의 재료 <val
 ["230117"]
 japanese = "必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"
 korean = "필요한 물건이 있네. <value:$15>인데, 찾아서 가져다주지 않겠나. 미안하지만 <value:$1B>일 이내로 부탁하네. 모두 돈을 모아 <value:$1A>기어를 마련했어. 사례로 이 정도면 어떻겠나.<end>"
+
+["230120"]
+japanese = "手に入れたいものがあるんだ。<line-break><value:$15>なんだけどね。<line-break>なにしろモンスターがたくさんいるもんでね、<line-break>あたしたちじゃ取りにいけないのさ。<line-break><value:$15>を探して持ってきてもらえる？<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギア払うよ。<end>"
+korean = "갖고 싶은 물건이 있어. <value:$15>인데 말이야. 몬스터가 워낙 많아서 우리로선 가지러 갈 수가 없어. <value:$15>을 찾아서 가져다줄래? <value:$1B>일 이내에 해 주면 <value:$1A>기어를 줄게.<end>"
 
 ["230122"]
 japanese = "探し物ができました。<value:$15>です。<line-break>いろいろと重宝する材料なんですよ。<line-break>冒険者の方に探し出していただきたいのですが、<line-break><value:$1B>日以内の期限で、<value:$1A>ギアの報酬。<line-break>どうでしょう、やってもらえませんか？<end>"

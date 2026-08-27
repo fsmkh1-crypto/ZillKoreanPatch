@@ -572,6 +572,10 @@ korean = "서둘러 돌아가. …한시가 급한 상황이다.<end>"
 japanese = "急いでね、<line-break><value:$28>…。<end>"
 korean = "서둘러, <value:$28>….<end>"
 
+["1860144"]
+japanese = "<select><value:$20>%3エリス王妃に会って<line-break>生命のかけらをもらってこい。<line-break>王妃はロストール王宮だ。<end>王妃のいる王宮へは、<line-break>とにかく奥へ奥へと行けばいい。<line-break>頼んだぜ、<value:$28>。<end>急いで戻れ。<line-break>…思ったより、衰弱が激しい。<end>"
+korean = "<select><value:$20>%3엘리스 왕비를 만나 생명의 조각을 받아 와. 왕비는 로스토올 왕궁에 있어.<end>왕비가 있는 왕궁에는 계속 안쪽으로 가면 돼. 부탁한다, <value:$28>.<end>서둘러 돌아와. …생각보다 쇠약이 심해.<end>"
+
 ["1860145"]
 japanese = "ロストール王宮を知ってるかーい？<line-break>青い紋章の入った柱の間を行けば、　<line-break>貴族街に出るのさー。<line-break>その貴族街のさらに奥に行けば<line-break>王宮に出るのさー。<line-break>遠いから、ボクは行かないけどねー。<end>"
 korean = "로스토올 왕궁 알아~? 파란 문장이 들어간 기둥 사이를 지나면 귀족가가 나와~. 그 귀족가 더 안쪽으로 가면 왕궁이 나오지~. 멀어서 난 안 가지만~.<end>"
