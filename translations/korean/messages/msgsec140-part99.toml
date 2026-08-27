@@ -380,6 +380,10 @@ korean = "행사요? 저는 듣지 못했는데요….<end>"
 japanese = "やっこさんもそうじゃねえの？<end>"
 korean = "그 녀석도 그런 거 아냐?<end>"
 
+["1400174"]
+japanese = "貴様…、ゼネテス…！<line-break>いったい、なんでこんな所へ？<end>"
+korean = "네놈… 제네테스…! 대체 왜 이런 곳에?<end>"
+
 ["1400175"]
 japanese = "フフ…<line-break>それは僕が教えてあげるよ。<end>"
 korean = "후후… 그건 내가 알려 줄게.<end>"
@@ -419,6 +423,10 @@ korean = "…행사?<end>"
 ["1400189"]
 japanese = "やっこさんもそうじゃねえの？<end>"
 korean = "그 녀석도 그런 거 아냐?<end>"
+
+["1400190"]
+japanese = "貴様…、ゼネテス…！<line-break>いったい、なんでこんな所へ？<end>"
+korean = "네놈… 제네테스…! 대체 왜 이런 곳에?<end>"
 
 ["1400191"]
 japanese = "フフ…<line-break>それは僕が教えてあげるよ。<end>"
@@ -691,6 +699,10 @@ korean = "그리고 지금 <value:$28>님이 정말 구하러 와 주셔서…. 
 ["1400337"]
 japanese = "みんな！<line-break>大丈夫！？<end>"
 korean = "다들! 괜찮아!?<end>"
+
+["1400338"]
+japanese = "そなたに心配されるほど<line-break>弱くはないわ、地の巫女よ。<end>"
+korean = "그대에게 걱정받을 만큼 약하지는 않다, 땅의 무녀여.<end>"
 
 ["1400339"]
 japanese = "まだ少し、体に力が入りませんが…<line-break>大丈夫です。<value:$28>さん、<line-break>ありがとうございます。<end>"

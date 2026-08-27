@@ -332,6 +332,10 @@ korean = "…정말입니까? 감사합니다. 제네테스 님은 알현실에�
 japanese = "あ、それから…。<end>"
 korean = "아, 그리고….<end>"
 
+["1800186"]
+japanese = "目に見えなくとも、<line-break>それは確かに存在しています。<line-break>　<line-break><value:$28>様は、<line-break>いつかその闇と戦うことに<line-break>なるのですね…。<end>"
+korean = "눈에 보이지 않아도 그것은 분명 존재합니다. <value:$28>님은 언젠가 그 어둠과 싸우게 되겠군요….<end>"
+
 ["1800187"]
 japanese = "<value:$28>様、<line-break>どうか、お気をつけて。<end>"
 korean = "<value:$28>님, 부디 조심하십시오.<end>"

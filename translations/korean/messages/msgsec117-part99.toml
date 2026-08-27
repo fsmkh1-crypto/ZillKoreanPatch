@@ -132,6 +132,10 @@ korean = "…무슨 뜻이야?<end>"
 japanese = "そ、そうだな…。<end>"
 korean = "그, 그렇군….<end>"
 
+["1170069"]
+japanese = "えと…、<value:$28>さん、　　　<line-break>ありがとうございました！<line-break>　<line-break>わたしも<value:$28>さんに<line-break>負けないくらい、強くなりますから！<end>"
+korean = "저기… <value:$28>님, 감사합니다! 저도 <value:$28>님에게 지지 않을 만큼 강해질게요!<end>"
+
 ["1170070"]
 japanese = "予備メッセージだ。<line-break>ノエル２／Ｖ２の１番目。<end>"
 korean = "예비 메시지다. 노엘 2/V2의 첫 번째.<end>"

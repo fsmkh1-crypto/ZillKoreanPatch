@@ -184,6 +184,10 @@ korean = "그만둘까<end>"
 japanese = "　　　　　　　ならば行くがよい。　　　　　　<end>"
 korean = "그렇다면 가라.<end>"
 
+["890117"]
+japanese = "フン…貴様、<line-break>無限のソウルを持つ者か…。<line-break>　<line-break>グラジェオンめ…、<line-break>闇の力の高まりを知り<line-break>我を滅ぼさんと欲したか。<end>"
+korean = "흥… 네놈, 무한의 소울을 지닌 자인가…. 그라제온 녀석… 어둠의 힘이 커지는 걸 알고 나를 없애려 한 건가.<end>"
+
 ["890119"]
 japanese = "愚かなり、無限のソウルを持つ者よ。<line-break>精霊神に躍らされ、<line-break>我を撃ち、闇を呼ぶか…。<line-break>愚かなり…愚かなり…。<end>"
 korean = "어리석구나, 무한의 소울을 지닌 자여. 정령신에게 놀아나 나를 치고 어둠을 부르는가…. 어리석구나… 어리석어….<end>"
@@ -807,6 +811,10 @@ korean = "응. 정말 고마워.<end>"
 ["890449"]
 japanese = "それでは、失礼いたします。<line-break>　<line-break>　<end>"
 korean = "그럼, 실례하겠습니다.　　<end>"
+
+["890450"]
+japanese = "今日は本当に、疲れたわ…。<line-break>文書の最後に署名を書くだけだった<line-break>けれど、少し曲がってしまったし…。<line-break>もっと、がんばらなくては。<end>"
+korean = "오늘은 정말 피곤하네…. 문서 끝에 서명만 하면 됐는데 조금 삐뚤어졌고…. 더 열심히 해야겠어.<end>"
 
 ["890451"]
 japanese = "あ、<value:$28>様ですか？<line-break>どうぞ、お入りになって。<end>"

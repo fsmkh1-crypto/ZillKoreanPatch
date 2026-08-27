@@ -172,6 +172,10 @@ korean = "그럴 수는 없다!<end>"
 japanese = "できん！<line-break>そんなことはできん！！<end>"
 korean = "못 해! 그런 건 못 한다!!<end>"
 
+["1360127"]
+japanese = "倒すもよし、負けて殺されるもよし。<line-break>ただね、選択の時は来たんだ。<line-break> <line-break>僕だって忙しいんだから。<line-break>サッサと決断してよね。<end>"
+korean = "쓰러뜨려도 좋고, 져서 죽어도 좋아. 다만 선택할 때는 왔어. 나도 바쁘니까 얼른 결정해.<end>"
+
 ["1360128"]
 japanese = "勝った事にする<end>"
 korean = "이긴 걸로 한다<end>"
@@ -580,6 +584,10 @@ korean = "저에게… 그런 가치가 있을까요?<end>"
 japanese = "私に…<line-break>いえ…何でもありません。<end>"
 korean = "저에게… 아니… 아무것도 아닙니다.<end>"
 
+["1360375"]
+japanese = "束縛の腕輪は、闇の神器です。<line-break> <line-break> <line-break>そのような危険なものなのに、<line-break>あなたはなぜそれを<line-break>手放そうとしないのですか？<end>"
+korean = "속박의 팔찌는 어둠의 신기입니다. 그렇게 위험한 물건인데도 당신은 왜 그걸 놓으려 하지 않는 겁니까?<end>"
+
 ["1360376"]
 japanese = "私の命のため？<line-break>無価値な、私の命の…？<line-break> <line-break>………………。<end>"
 korean = "내 목숨 때문에? 가치 없는, 내 목숨을…? ……………….<end>"
@@ -607,6 +615,10 @@ korean = "제 걱정은 하지 않으셔도 됩니다. 부디 조심하세요, <
 ["1360389"]
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
+
+["1360392"]
+japanese = "教えてください…。<line-break> <line-break> <line-break>役目でもなく、価値でもない…<line-break>なら、人とは、何のために<line-break>生きるべきものなのでしょうか？<end>"
+korean = "가르쳐 주세요…. 역할도 아니고 가치도 아니라면… 사람은 무엇을 위해 살아야 하는 걸까요?<end>"
 
 ["1360397"]
 japanese = "お気をつけて、<value:$28>様…。<end>"

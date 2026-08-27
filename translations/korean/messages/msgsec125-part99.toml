@@ -28,6 +28,10 @@ korean = "현무장군에게서 의뢰가 왔다고? 내 홍보 활동이 결실
 japanese = "<value:$28>様。<line-break>帝国中枢部とカルラには意見の対立が<line-break>あるようです。<line-break>この依頼、危険かもしれません。<end>"
 korean = "<value:$28>님. 제국 중추부와 카를라 사이에 의견 충돌이 있는 것 같습니다. 이번 의뢰, 위험할지도 모릅니다.<end>"
 
+["1250031"]
+japanese = "<value:$28>さんって<line-break>偉い人にも名前が知られてるんですね。<line-break>自分のことじゃないけど誇らしいです！<line-break>でもいったい何の用でしょうか？<end>"
+korean = "<value:$28>님은 높은 분들에게도 이름이 알려져 있군요. 제 일도 아닌데 자랑스러워요! 그런데 대체 무슨 용무일까요?<end>"
+
 ["1250042"]
 japanese = "姉ちゃん！<line-break>とりあえず謁見の間へ行くぞ！<line-break>姉ちゃんなら敵の百人や二百人っ！<line-break>くうっ～。<line-break>ぶたなくてもいいじゃんかよ。<end>"
 korean = "누나! 일단 알현실로 가자! 누나라면 적 백 명이나 이백 명쯤! 아야~. 때리지 않아도 되잖아.<end>"
@@ -315,6 +319,10 @@ korean = "꺅! 신은 처음 보는 것 같아. 이왕이면 내 소원도 들�
 ["1250332"]
 japanese = "まいったね…。<line-break>相手は神様ときたか。<line-break>まったく…退屈しない人生だな。<line-break>行こうか、<value:$28>。<end>"
 korean = "곤란하군…. 상대가 신이라니. 정말… 지루할 틈 없는 인생이야. 가자, <value:$28>.<end>"
+
+["1250333"]
+japanese = "あれは、神などではない。<line-break>俺には分かる。<line-break><line-break>やつらはエンシャントのどこかに<line-break>いるはずだ。<line-break>油断するな。<value:$28>。<end>"
+korean = "저건 신 같은 게 아니야. 난 알아. 녀석들은 엔샨트 어딘가에 있을 거다. 방심하지 마, <value:$28>.<end>"
 
 ["1250336"]
 japanese = "この大地を闇の眷属の好きにさせる<line-break>訳にはいけない。<line-break>行くぞ！　<value:$28>。<end>"

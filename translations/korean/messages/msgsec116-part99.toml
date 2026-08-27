@@ -152,6 +152,10 @@ korean = "…<value:$28>….이런 때에 오다니….　…나는 이제 죽�
 japanese = "あなたには、<line-break>私がみにくく死ぬさまを　　　<line-break>見られたくありません。<line-break>さようなら。<line-break>私の死を苦いものにした人よ。<end>"
 korean = "당신에게 제가 추하게 죽는 모습을 보이고 싶지 않습니다. 안녕히. 제 죽음을 쓰디쓰게 만든 사람이여.<end>"
 
+["1160110"]
+japanese = "<value:$28>様…。<line-break>　　　　　　　　　　　　<line-break>　<line-break>あなたが<line-break>ここにいらっしゃることは<line-break>相変わらず、意味がありません。<end>"
+korean = "<value:$28>님…. 당신이 여기 계시는 건 여전히 아무 의미가 없습니다.<end>"
+
 ["1160119"]
 japanese = "わかった<end>"
 korean = "알았어<end>"

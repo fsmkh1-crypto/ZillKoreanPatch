@@ -556,6 +556,10 @@ korean = "다들 돌인 채로…. 노력해도 어쩔 수 없는 일이 있는 
 japanese = "今は、まだ悲しい場面だけど…。<end>"
 korean = "지금은 아직 슬픈 장면이지만….<end>"
 
+["560223"]
+japanese = "エルファスを倒す者がいるとすれば、<line-break>それは<value:$28>だろう。<line-break>　<line-break>そして、<value:$28>は、<line-break>比類なき力を手に入れる。<line-break>　<end>"
+korean = "엘파스를 쓰러뜨릴 자가 있다면 아마 <value:$28>겠지. 그리고 <value:$28>은 비할 데 없는 힘을 손에 넣게 될 거야.<end>"
+
 ["560224"]
 japanese = "…そうならないことを祈るがね。<end>"
 korean = "…그렇게 되지 않기를 바라지.<end>"
@@ -751,6 +755,10 @@ korean = "카핀은 우리 동료야! 손가락 하나 못 대게 할 거야!<en
 ["560287"]
 japanese = "やっちまえっ！<end>"
 korean = "해치워!<end>"
+
+["560289"]
+japanese = "<value:$28>さん！<line-break>すいません！　力を貸してください！<line-break>　<line-break>わたしたちでカフィンを運び出します！<line-break>ですから、<value:$28>さんは！<end>"
+korean = "<value:$28>님! 죄송하지만 힘을 빌려 주세요! 저희가 카핀을 옮길게요! 그러니 <value:$28>님은!<end>"
 
 ["560295"]
 japanese = "へへへ、逃げられるもんなら<line-break>逃げてみな！　あばよ！<end>"

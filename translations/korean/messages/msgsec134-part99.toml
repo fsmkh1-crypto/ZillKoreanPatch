@@ -452,6 +452,10 @@ korean = "너, 너는….<end>"
 japanese = "あ…ありがとう！<end>"
 korean = "아… 고마워!<end>"
 
+["1340251"]
+japanese = "<value:$28>…。             <line-break> <line-break> <line-break><value:$28>、彼を倒せ！<line-break>そこの魔道士は闇の神器を使って<line-break>世界を滅ぼそうとしていたのだ！<end>"
+korean = "<value:$28>…. <value:$28>, 그를 쓰러뜨려! 저 마도사는 어둠의 신기를 써서 세계를 멸망시키려 했다!<end>"
+
 ["1340252"]
 japanese = "ナ、ナーシェス！？<end>"
 korean = "나, 나셰스!?<end>"

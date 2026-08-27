@@ -124,6 +124,10 @@ korean = "그럼, 무슨 뜻이지?<end>"
 japanese = "<value:$28>が…。<line-break>僕にとって大事な存在だからだ。<end>"
 korean = "<value:$28>이… 내게 소중한 존재이기 때문이야.<end>"
 
+["1540057"]
+japanese = "わかってはいる。だけど…。<line-break>もう耐えきれないんだ。<end>"
+korean = "알고 있어. 하지만…. 이제 더는 견딜 수 없어.<end>"
+
 ["1540058"]
 japanese = "理解してくれとは言わぬ。<line-break>だが<value:$28>を決して<line-break>死なせはしない。<end>"
 korean = "이해해 달라고는 하지 않겠다. 하지만 <value:$28>를 절대 죽게 두지 않겠다.<end>"
@@ -163,6 +167,10 @@ korean = "아니야. <value:$28>이… 내게 소중한 존재라서 그래. 나
 ["1540074"]
 japanese = "くすっ。<line-break>ふーん、そう。<end>"
 korean = "후훗. 흐음, 그렇구나.<end>"
+
+["1540076"]
+japanese = "わかってはいる。だけど…。<line-break>もう耐えきれないんだ。<end>"
+korean = "알고 있어. 하지만…. 이제 더는 견딜 수 없어.<end>"
 
 ["1540077"]
 japanese = "理解してくれとは言わぬ。<line-break>だが<value:$28>を決して<line-break>死なせはしない。<end>"

@@ -12,6 +12,10 @@ korean = "<value:$28>… 씨…!<end>"
 japanese = "わ…わたしのせい…<line-break>わたしのせい…なんです…。<end>"
 korean = "제… 제 탓… 제 탓이에요….<end>"
 
+["1740003"]
+japanese = "わたし…、わたし、もう<line-break>どうすれば…いい…のか…。<end>"
+korean = "나… 나, 이제 어떻게 해야… 할지….<end>"
+
 ["1740004"]
 japanese = "ノエル！　　　　　　　　<line-break>　<line-break>　<line-break>突然、いなくなるなんて！<line-break>…おどかさないで。<end>"
 korean = "노엘! 갑자기 사라지다니! …놀라게 하지 마.<end>"
@@ -52,6 +56,10 @@ korean = "내가 무슨 말을 해도 소용없는 모양이네.<end>"
 japanese = "ありがとう…ございました。　　　<line-break>　<line-break>　<line-break><value:$28>さんのおかげで、<line-break>あの…、少し落ち着きました。<end>"
 korean = "감사…합니다. <value:$28>님 덕분에 저… 조금 진정됐어요.<end>"
 
+["1740022"]
+japanese = "あ…、あまり遅くなると<line-break>カフィンが心配しますから。<end>"
+korean = "아… 너무 늦으면 카핀이 걱정할 테니까요.<end>"
+
 ["1740026"]
 japanese = "ネメアはきっと生きている<end>"
 korean = "네메아는 분명 살아 있어<end>"
@@ -71,6 +79,10 @@ korean = "<value:$28>… 씨….<end>"
 ["1740033"]
 japanese = "ノエル！　　　　　　　　　　　　<line-break>　<line-break>　<line-break>こっそり部屋を抜け出すなんて！<line-break>…おどかさないで。<end>"
 korean = "노엘! 몰래 방을 빠져나가다니! …놀라게 하지 마.<end>"
+
+["1740035"]
+japanese = "もう大丈夫です。<line-break>それじゃ、あの…おやすみなさい。<end>"
+korean = "이제 괜찮아요. 그럼 저기… 안녕히 주무세요.<end>"
 
 ["1740036"]
 japanese = "さぁ、もう遅いわ。<line-break>今日は休みましょう。<end>"

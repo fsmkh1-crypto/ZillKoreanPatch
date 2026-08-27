@@ -120,6 +120,10 @@ korean = "…아버지여, 뭐라 하든 그때 죽으려던 나를 구하고 �
 japanese = "しかし、この旅に出れば、<line-break>もうあなたには…。<end>"
 korean = "하지만 이 여행을 떠나면 이제 당신에게는….<end>"
 
+["1410063"]
+japanese = "ふふ、今度こそ、<line-break>お土産を待っていますよ、ネメア。<end>"
+korean = "후후, 이번에는 꼭 선물을 기다리고 있을게요, 네메아.<end>"
+
 ["1410064"]
 japanese = "………………。<line-break> <line-break> <line-break>フッ、あなたらしい別れの言葉だ。<end>"
 korean = "………………. 훗, 당신다운 작별 인사군.<end>"
@@ -367,6 +371,10 @@ korean = "아, 아버님… 어머님.<end>"
 ["1410192"]
 japanese = "あ、あの…その<line-break>これは…。<end>"
 korean = "아, 저기… 그게….<end>"
+
+["1410193"]
+japanese = "行ってきなさい、ノエル。　　　　　　<line-break>　<line-break>　<end>"
+korean = "다녀오렴, 노엘.<end>"
 
 ["1410194"]
 japanese = "…え！？<end>"
@@ -616,6 +624,10 @@ korean = "로이….<end>"
 japanese = "精霊の死をいたみ、<line-break>嘆き悲しみ、<line-break>謝るばかりが方法ではない。<line-break>私は、シェスターに、<line-break>そのことを教わったつもりだ。<end>"
 korean = "정령의 죽음을 슬퍼하고 한탄하며 사과만 하는 게 방법은 아니야. 나는 셰스터에게 그걸 배웠다고 생각해.<end>"
 
+["1410312"]
+japanese = "精霊たちを傷つけたのは、<line-break>間違いなく、私たちのこの手だ。<line-break> <line-break>しかしまた、この手は、<line-break>精霊たちを癒す手伝いもできる…。<end>"
+korean = "정령들을 상처 입힌 건 틀림없이 우리 손이다. 하지만 이 손으로 정령들의 상처를 치유하는 일도 도울 수 있어….<end>"
+
 ["1410314"]
 japanese = "ありがとう、<value:$28>。<line-break>あなたが私たちの考えに<line-break>賛同してくれて、とても頼もしい。<end>"
 korean = "고마워, <value:$28>. 네가 우리 생각에 동의해 줘서 정말 든든해.<end>"
@@ -776,9 +788,17 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "<value:$28>様、<line-break>お待ちしていました。<end>"
 korean = "<value:$28>님, 기다리고 있었습니다.<end>"
 
+["1410373"]
+japanese = "ヴィアですか？　ヴィアには、<line-break>一歩先に行ってもらっています。<line-break> <line-break>きっと今頃、私のことを探しているとは<line-break>思いますが…。<end>"
+korean = "비아요? 비아는 한발 먼저 가게 했습니다. 아마 지금쯤 저를 찾고 있겠지만….<end>"
+
 ["1410374"]
 japanese = "どうしても<value:$28>様に、<line-break>お話ししておきたいことがあったのです。<line-break>旅立ちの前に…。<end>"
 korean = "꼭 <value:$28>님께 말씀드리고 싶은 게 있었습니다. 떠나시기 전에….<end>"
+
+["1410379"]
+japanese = "心…心のカケラ…。<line-break>あの時なくした…たいせつな…。<end>"
+korean = "마음… 마음의 조각…. 그때 잃어버린… 소중한….<end>"
 
 ["1410380"]
 japanese = "ごめんなさい、<line-break>自分でもわからないんです…。<line-break> <line-break>あの時っていつなのか…。<line-break>心のカケラって、何なのか…。<end>"
@@ -1275,6 +1295,10 @@ korean = "이 근처에는 초고대… 지금의 문명이 생기기 훨씬 이
 ["1410572"]
 japanese = "エスト様、<line-break>お約束の日時となりましたので、<line-break>お迎えに参りました。<line-break>そろそろ、ロストールへ…<end>"
 korean = "에스트 님, 약속한 시간이 되어 모시러 왔습니다. 이제 로스토올로….<end>"
+
+["1410573"]
+japanese = "うーん。せっかくだけど、<line-break>それどころじゃないんだ。<end>"
+korean = "음. 모처럼이지만 지금은 그럴 때가 아니야.<end>"
 
 ["1410575"]
 japanese = "じゃあ、セバスチャンも、<line-break>僕たちの発掘調査を<line-break>手伝ってくれるってのはどうかな？<line-break>そうすれば、早く帰れるかもね。<end>"

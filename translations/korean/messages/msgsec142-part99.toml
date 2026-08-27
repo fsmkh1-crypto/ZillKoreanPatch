@@ -612,6 +612,10 @@ korean = "그런가…. 그런데 <value:$28>은 정말 돌아오는 건가?<end
 japanese = "どうした、とっつあん。心配か？<end>"
 korean = "왜 그래, 아저씨. 걱정돼?<end>"
 
+["1420274"]
+japanese = "何ともなしにな…。<line-break>あの<value:$28>のことじゃ…<line-break><line-break>旅の風にふかれて、<line-break>ふらりといなくなってしまいや<line-break>しないかとな。<end>"
+korean = "그냥 왠지 말이지…. 저 <value:$28>이라면 여행 바람에 휩쓸려 훌쩍 사라져 버리는 건 아닐까 해서.<end>"
+
 ["1420276"]
 japanese = "そうだね…。<line-break><line-break><line-break><value:$28>と、冒険の旅かあ。<line-break>いいなあ！　ボクも行きたいなあ！<end>"
 korean = "그러게…. <value:$28>과 모험 여행이라. 좋겠다! 나도 가고 싶어!<end>"
@@ -627,6 +631,10 @@ korean = "남장한 미인이라니… 나, 나 말이야?<end>"
 ["1420280"]
 japanese = "って、違う違う！<line-break>そうじゃなくって！<end>"
 korean = "아니, 아니야! 그게 아니라니까!<end>"
+
+["1420281"]
+japanese = "そいじゃ、こういうのはどうだ？<line-break><line-break><line-break>これから俺たちみんなで<line-break><value:$28>を迎えに出て、<line-break>そのまま冒険の旅に出ちまう。<end>"
+korean = "그럼 이런 건 어때? 이제 우리 모두 <value:$28>을 마중 나가서 그대로 모험 여행을 떠나는 거야.<end>"
 
 ["1420284"]
 japanese = "行こうっ！<end>"

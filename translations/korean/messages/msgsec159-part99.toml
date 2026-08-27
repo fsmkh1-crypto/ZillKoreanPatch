@@ -8,6 +8,18 @@ korean = "루루안타 볼륨 1 파트 3 시작<end>"
 japanese = "あっ！　ちょうどよかった。<line-break>ねぇ、<value:$28>。<line-break>冒険者ギルドって知ってる？<end>"
 korean = "아! 마침 잘됐다. 저기, <value:$28>. 모험자 길드라는 곳 알아?<end>"
 
+["1590004"]
+japanese = "それじゃあ、ルルアンタ<line-break>冒険者ギルドでまってるね。<end>"
+korean = "그럼 루루안타, 모험자 길드에서 기다릴게.<end>"
+
+["1590005"]
+japanese = "あー、<value:$28>、<line-break>やっと来たぁー。　　　<line-break>　<line-break>冒険者登録するよぉ。<line-break>はやくカウンターに！<line-break>ほら、はやく、はやく！<end>"
+korean = "아~ <value:$28>, 이제야 왔네~. 모험자 등록할 거야. 빨리 카운터로! 어서, 어서!<end>"
+
+["1590006"]
+japanese = "すみませ～ん。<line-break>冒険者の登録をしたいんですけどぉ。<end>"
+korean = "실례합니다~. 모험자 등록을 하고 싶은데요.<end>"
+
 ["1590008"]
 japanese = "おチビちゃんじゃないよぉ。<line-break>あたしはルルアンタ。<line-break>　<line-break>外見だけで判断するなんて、<line-break>おじさんもまだまだね。<end>"
 korean = "꼬맹이 아니거든~. 나는 루루안타야. 겉모습만 보고 판단하다니, 아저씨도 아직 멀었네.<end>"
@@ -39,6 +51,10 @@ korean = "큭, 두고 보자!<end>"
 ["1590030"]
 japanese = "念には念をいれとかねえとな。<line-break>俺たちの一団が誘拐事件の黒幕だなんて<line-break>ばらされたら、いっかんの終わりだぜ。<line-break>…誰だ！<end>"
 korean = "확실히 해 둬야지. 우리 일행이 유괴 사건의 배후라는 게 들통나면 끝장이야. …누구냐!<end>"
+
+["1590035"]
+japanese = "本当に知らねぇよ。<line-break>森の奥の方に行っちまったんだ。<end>"
+korean = "정말 모른다니까. 숲 안쪽으로 가 버렸어.<end>"
 
 ["1590036"]
 japanese = "覚えてやがれ！<end>"
@@ -140,13 +156,25 @@ korean = "좋은 아침, <value:$28>, 루루안타. 루루안타는 정말 활�
 japanese = "うふふ。<line-break>ありがとうございます！<end>"
 korean = "후후. 감사합니다!<end>"
 
+["1590080"]
+japanese = "用意してあった朝ごはんは<line-break>食べていただけましたか。<end>"
+korean = "준비해 둔 아침 식사는 드셨나요?<end>"
+
 ["1590081"]
 japanese = "とーってもおいしかったです。<end>"
 korean = "정말 맛있었어요.<end>"
 
+["1590082"]
+japanese = "オルファウスさんって<line-break>料理上手なんですねぇ。　　　<end>"
+korean = "오르파우스 씨는 요리를 잘하시네요.<end>"
+
 ["1590083"]
 japanese = "くすっ、ありがとうございます。　<end>"
 korean = "후훗, 감사합니다.<end>"
+
+["1590084"]
+japanese = "それでは、昨日の話の続きをしても<line-break>かまいませんか？<end>"
+korean = "그럼 어제 이야기의 계속을 해도 괜찮겠습니까?<end>"
 
 ["1590086"]
 japanese = "それって、まさか…。<end>"
@@ -339,6 +367,30 @@ korean = "서두르지 않으면 안 돼, <value:$28>.<end>"
 ["1590196"]
 japanese = "待ってよぉ！<end>"
 korean = "기다려어!<end>"
+
+["1590198"]
+japanese = "予備用メッセージ１<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 1 루루안타, 볼륨 1 그 3<end>"
+
+["1590199"]
+japanese = "予備用メッセージ２<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 2 루루안타, 볼륨 1 그 3<end>"
+
+["1590200"]
+japanese = "予備用メッセージ３<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 3 루루안타, 볼륨 1 그 3<end>"
+
+["1590201"]
+japanese = "予備用メッセージ４<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 4 루루안타, 볼륨 1 그 3<end>"
+
+["1590202"]
+japanese = "予備用メッセージ５<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 5 루루안타, 볼륨 1 그 3<end>"
+
+["1590203"]
+japanese = "予備用メッセージ６<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 6 루루안타, 볼륨 1 그 3<end>"
 
 ["1590204"]
 japanese = "予備用メッセージ７<line-break>ルルアンタ・ボリューム１その３<end>"

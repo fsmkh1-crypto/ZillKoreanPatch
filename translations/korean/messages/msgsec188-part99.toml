@@ -92,6 +92,10 @@ korean = "쓸데없는 걱정을 끼치고 싶지 않아<end>"
 japanese = "こんなことでは、わたくし<line-break>どんどん<value:$28>に<line-break>嫌われてしまう…。<end>"
 korean = "이러다간 저, 점점 <value:$28>에게 미움받고 말겠어요….<end>"
 
+["1880069"]
+japanese = "<value:$28>。<line-break>早く、エリス王妃の元へ　　　<line-break>向かってください。<line-break>この作戦は時期を逃しては…。<line-break>とにかく、急いでください。<end>"
+korean = "<value:$28>. 서둘러 엘리스 왕비에게 가 주세요. 이 작전은 때를 놓치면…. 아무튼 서둘러 주세요.<end>"
+
 ["1880070"]
 japanese = "<value:$28>。<line-break>エリス王妃への援助要請の件は<line-break>どうなったのですか？<end>"
 korean = "<value:$28>. 엘리스 왕비께 원조를 요청한 건은 어떻게 됐습니까?<end>"

@@ -88,6 +88,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "確か、<value:$28>たちは、<line-break>賢者の森の猫屋敷を中継に<line-break>してんだったな。<end>"
 korean = "분명 <value:$28> 일행은 현자의 숲 고양이 저택을 중계지로 쓰고 있었지.<end>"
 
+["1350052"]
+japanese = "危うく踏みとどまったシャバの<line-break>うまい酒と…<line-break> <line-break>起きたコトがコトだ、途中で寄らなきゃ<line-break>ならねえところもあるだろうしな。<end>"
+korean = "간신히 남아 있는 속세의 맛있는 술도 있고… 일이 이렇게 됐으니 가는 길에 들러야 할 곳도 있겠지.<end>"
+
 ["1350054"]
 japanese = "じゃあな、<value:$28>。<end>"
 korean = "그럼 이만, <value:$28>.<end>"
@@ -619,6 +623,10 @@ korean = "<value:$28>님!<end>"
 ["1350290"]
 japanese = "王宮の中の雰囲気が<line-break>おかしいのです。<end>"
 korean = "왕궁 안의 분위기가 이상합니다.<end>"
+
+["1350292"]
+japanese = "ノ、ノーブル伯！　<line-break>我らに刃向かわれるおつもりか？<line-break> <line-break>この決起はご尊兄の主導だというのに…<line-break>なんと嘆かわしいことか！<end>"
+korean = "노, 노블 백작! 우리에게 맞설 셈이오? 이번 거사는 귀하의 형님이 주도한 것인데… 참으로 한탄스럽소!<end>"
 
 ["1350297"]
 japanese = "<value:$28>様！<end>"
