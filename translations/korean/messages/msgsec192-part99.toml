@@ -184,6 +184,10 @@ korean = "아, 아하하하…. 방금 거 혹시 들었어?<end>"
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
 
+["1920078"]
+japanese = "あ、でも、元はと言えば<line-break><value:$28>が約束の時間に<line-break>来ないのが原因だったんだよ。<line-break>ボク、すっごく長い間、<line-break>ここで、待ってたんだから。<end>"
+korean = "아, 하지만 애초에 <value:$28>이 약속 시간에 안 온 게 원인이야. 나 정말 오랫동안 여기서 기다렸다고.<end>"
+
 ["1920079"]
 japanese = "え？<line-break>まだ約束の時間になってない？<line-break>あれ？<line-break>あの、約束の時間って<line-break>いつだったっけ？<end>"
 korean = "어? 아직 약속 시간이 안 됐다고? 어라? 그 약속 시간이 언제였더라?<end>"
@@ -379,6 +383,10 @@ korean = "아, <value:$28>님. 좋은 아침이에요!<end>"
 ["1920172"]
 japanese = "わたし、がんばりますから！<end>"
 korean = "저, 열심히 할 테니까요!<end>"
+
+["1920173"]
+japanese = "…ええ。実はお父様とお母様の　　<line-break>ことは心残りなんです。<line-break>　<line-break>でも、旅に出るって言っちゃったら<line-break>絶対ダメって言われるから…！<end>"
+korean = "…네. 사실 아버지와 어머니가 마음에 걸려요. 하지만 여행을 떠난다고 말하면 절대 안 된다고 하실 테니까…!<end>"
 
 ["1920174"]
 japanese = "お、お父様…お母様。<end>"
