@@ -168,6 +168,14 @@ korean = "무한의 소울의 가능성을 품고 있다…. 하지만 아직 �
 japanese = "笑止。あれこそ、<line-break>魔人のでき損ないではないか。<end>"
 korean = "가소롭군. 저것이야말로 마인의 실패작 아닌가.<end>"
 
+["1100112"]
+japanese = "そして、もうひとり。　　　<line-break>…<value:$28>。<line-break>　<line-break>無限のソウルを持つ者だ…。<line-break>あるいは、あの者にも、<line-break>革新を望めるかもしれぬ。<end>"
+korean = "그리고 또 한 명…. <value:$28>. 무한의 소울을 지닌 자다…. 어쩌면 그자에게도 혁신을 기대할 수 있을지 모른다.<end>"
+
+["1100113"]
+japanese = "息子よ。我が道の他に<line-break>革新の道なし。ともに歩むのだ。<end>"
+korean = "아들이여. 나의 길 외에 혁신의 길은 없다. 함께 걷자.<end>"
+
 ["1100115"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"

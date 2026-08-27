@@ -8,6 +8,10 @@ korean = "에스텔 메시지 VOL1 시작<end>"
 japanese = "ちぇっ、ちょっと見せてくれても<line-break>いいのにな。<end>"
 korean = "쳇, 조금 보여 줘도 되잖아.<end>"
 
+["880006"]
+japanese = "あのさ、<line-break>動いているってすごいよね…。<line-break>　<line-break>ボクの住んでいるところにも<line-break>魔法仕掛けのものがたくさん<line-break>あるんだけどさ…。<end>"
+korean = "있잖아, 움직인다는 거 대단하지…. 내가 사는 곳에도 마법 장치가 잔뜩 있지만 말이야….<end>"
+
 ["880007"]
 japanese = "じゃあね、<line-break>………………。<end>"
 korean = "그럼 안녕, ……………….<end>"
@@ -312,6 +316,10 @@ korean = "아, 움직여져!<end>"
 japanese = "くすっ、よかったね。<line-break><value:$28>に感謝しないとね。<line-break>じゃ、またね。<line-break>あははっ。<end>"
 korean = "후후, 다행이네. <value:$28>에게 감사해야겠어. 그럼 또 봐. 아하하.<end>"
 
+["880150"]
+japanese = "<value:$28>、ありがとう！<line-break>助けに来てくれるって信じてた！<end>"
+korean = "<value:$28>, 고마워! 구하러 와 줄 거라고 믿었어!<end>"
+
 ["880153"]
 japanese = "ありがと、<value:$28>。<line-break>じゃあ行こう。ラドラスへ。<line-break>　<line-break>ラドラスは<line-break>竜骨の砂漠の中にあるんだ。<line-break>ボクが案内するよ。<end>"
 korean = "고마워, <value:$28>. 그럼 가자. 라드라스로. 라드라스는 용골 사막 안에 있어. 내가 안내할게.<end>"
@@ -528,6 +536,10 @@ korean = "부우~. 그런가~. 재미없어~. 그래도 언젠가 또 나도 같
 japanese = "やあ、<value:$28>。<line-break>何回もボクに会いに来てくれるなんて<line-break>うれしいよ。<end>"
 korean = "안녕, <value:$28>. 몇 번이나 날 만나러 와 주다니 기뻐.<end>"
 
+["880275"]
+japanese = "って、おい！！<line-break>そういえばパーティー満員じゃない！！<line-break>ホントにもう！<line-break>ま、しょうがないか。<line-break>今度はボクも一緒に連れて行ってよね。<end>"
+korean = "아니, 잠깐!! 그러고 보니 파티가 꽉 찼잖아!! 정말이지! 뭐, 어쩔 수 없나. 다음엔 나도 같이 데려가 줘.<end>"
+
 ["880276"]
 japanese = "ぐむむ～。<line-break>やっぱりそう言うの～？<line-break>しょうがないか…。<line-break>でも、いつかまたボクも<line-break>一緒に冒険させてよね。<line-break>約束だよ！<end>"
 korean = "으으~. 역시 그렇게 말하는 거야~? 어쩔 수 없네…. 그래도 언젠가 또 나도 같이 모험하게 해 줘. 약속이야!<end>"
@@ -535,6 +547,10 @@ korean = "으으~. 역시 그렇게 말하는 거야~? 어쩔 수 없네…. 그
 ["880277"]
 japanese = "やあ、<value:$28>。<line-break>また来てくれたんだ。<line-break>うれしいよ。<end>"
 korean = "안녕, <value:$28>. 또 와줬구나. 기뻐.<end>"
+
+["880279"]
+japanese = "ぶ～。　　　　　　　　<line-break>またそう言うんだ～。<line-break>つまんないの～。<line-break>でも、いつかまたボクも<line-break>一緒に冒険させてよね。<line-break>約束だよ！<end>"
+korean = "뿌우~. 또 그런 말 하는구나~. 재미없어~. 그래도 언젠가 나도 같이 모험하게 해 줘. 약속이야!<end>"
 
 ["880282"]
 japanese = "エステルだよ。<line-break>空きだよ。<end>"

@@ -4,6 +4,10 @@
 japanese = "ファーロス・ボリューム２その２開始<end>"
 korean = "파로스 볼륨2 그 2 시작<end>"
 
+["520001"]
+japanese = "おい、放浪者！<line-break>よいところへ来た。来い！　　　<line-break>　<line-break>エリスが緊急召集をかけてきた。<line-break>…どうやら、<line-break>ディンガルが動き出すらしい。<end>"
+korean = "어이, 방랑자! 잘 왔다. 이리 와! 엘리스가 긴급 소집을 걸었다. …아무래도 딘갈이 움직이기 시작한 모양이야.<end>"
+
 ["520002"]
 japanese = "エリエナイ公レムオン様と<line-break>ノーブル伯<value:$28>様が<line-break>おいでです、総司令閣下。<end>"
 korean = "엘리에나이 공 레무온 님과 노블 백작 <value:$28>님께서 오셨습니다, 총사령관 각하.<end>"
@@ -120,6 +124,10 @@ korean = "그럼 전례가 되면 된다. 설명하지.<end>"
 japanese = "そんな…、考えられない…！<end>"
 korean = "그럴 수가…, 믿을 수 없어…!<end>"
 
+["520073"]
+japanese = "考えられないところを突くから<line-break>一番、効果があるんだよ。<end>"
+korean = "생각지도 못한 곳을 찌르니까 가장 효과적인 거야.<end>"
+
 ["520076"]
 japanese = "略奪？<line-break>そんな下劣で非道なことを！<end>"
 korean = "약탈? 그런 비열하고 잔혹한 짓을!<end>"
@@ -227,6 +235,10 @@ korean = "그럼 회의는 여기까지다.각자의 분전을 기대하겠다.<
 ["520154"]
 japanese = "の、ノーブル伯、お逃げください！<line-break>ぐわっ！<end>"
 korean = "노, 노블 백작님, 도망치십시오! 으악!<end>"
+
+["520155"]
+japanese = "ノーブル伯！　ぐわっ！<line-break>た、助けてください！　ぐわー！<end>"
+korean = "노블 백작! 윽! 사, 살려 주세요! 으악!<end>"
 
 ["520158"]
 japanese = "これも戦場のならい。<line-break>ゆくぞ、<value:$28>！<end>"

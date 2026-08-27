@@ -28,6 +28,10 @@ korean = "시간이 있으면 올 수 있다고 말한다<end>"
 japanese = "…そうですか。<line-break>よかったです。　　　　　　<line-break>　<line-break>私、<value:$28>様に<line-break>食べていただくために、<line-break>がんばってお料理覚えます。<end>"
 korean = "…그렇군요. 다행이에요. 저, <value:$28>님께 드시게 하려고 열심히 요리를 배울게요.<end>"
 
+["1910011"]
+japanese = "ですから、そのときは<line-break>なるべく食べにいらしてください。<end>"
+korean = "그러니 그때는 되도록 먹으러 와 주세요.<end>"
+
 ["1910014"]
 japanese = "自分がついていると言う<end>"
 korean = "자신이 함께하겠다고 말한다<end>"
@@ -83,6 +87,10 @@ korean = "그 둘이라면 괜찮다<end>"
 ["1910042"]
 japanese = "必ず探しだしてみせる<end>"
 korean = "반드시 찾아내고 말겠다<end>"
+
+["1910044"]
+japanese = "おふたりとも、この国の平和のために<line-break>必要な方ですから。<end>"
+korean = "두 분 모두 이 나라의 평화를 위해 필요한 분들이니까요.<end>"
 
 ["1910047"]
 japanese = "<value:$28>様が、世界を覆う<line-break>不安に飲み込まれてしまうのでは<line-break>ないかと心配なのです。<end>"

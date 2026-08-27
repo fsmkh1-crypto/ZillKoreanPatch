@@ -20,6 +20,10 @@ korean = "그냥 술주정뱅이<end>"
 japanese = "ロセンの略奪の時、老人子供を虐殺した剣<end>"
 korean = "로센 약탈 때 노인과 아이를 학살한 검<end>"
 
+["920013"]
+japanese = "ハッ！　当代一の刀工じゃと？<line-break>当代一の刀工はこんな風に話すのか？<line-break>こんな風に酒浸りの毎日を送るのか？<line-break>では、わしはいったい誰なんじゃ？<end>"
+korean = "흥! 당대 최고의 도공이라고? 최고의 도공이 이렇게 말하나? 매일 술에 절어 사나? 그럼 나는 대체 누구지?<end>"
+
 ["920014"]
 japanese = "デルガドの影だよ。<end>"
 korean = "델가도의 그림자야.<end>"
@@ -43,6 +47,10 @@ korean = "동료로 삼는다<end>"
 ["920023"]
 japanese = "仲間にしない<end>"
 korean = "동료로 삼지 않는다<end>"
+
+["920024"]
+japanese = "そうか。ではこれから<line-break>よろしく頼むぞ、若いの。　　　　　　<line-break>　<line-break>おっと、名前を聞いておらなんだな。<line-break>名はなんという、若いの？<end>"
+korean = "그런가. 그럼 앞으로 잘 부탁한다, 젊은이. 아차, 이름을 묻지 않았군. 이름이 무엇이냐, 젊은이?<end>"
 
 ["920025"]
 japanese = "<value:$28>か…。<line-break>よろしくな、<value:$28>。<end>"
@@ -127,6 +135,10 @@ korean = "…그쪽이 안 나간다면 내가 나가겠네!<end>"
 ["920076"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
+
+["920077"]
+japanese = "剣を打つ…とは<line-break>どういうことなんじゃろうな？<line-break>　<line-break>ハハ、すまん。<line-break>いきなりこんなことを言うても<line-break>お主にはピンとこんか。<end>"
+korean = "검을 벼린다는 건… 대체 무슨 뜻일까. 하하, 미안하네. 갑자기 이런 말을 해도 자네에겐 와닿지 않겠지.<end>"
 
 ["920086"]
 japanese = "では、炎竜山へ出発じゃ。<line-break>町を出る時に落ちあおうぞ。<end>"

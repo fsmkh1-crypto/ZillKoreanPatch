@@ -176,6 +176,10 @@ korean = "<value:$28>, 잘 왔다.<end>"
 japanese = "今からティアナ王女の所へ行く。<line-break>お前も来い。<end>"
 korean = "지금부터 티아나 왕녀에게 간다. 너도 와라.<end>"
 
+["650064"]
+japanese = "…いやに素直だな。<line-break>どこか身体の具合でも悪いのか？<end>"
+korean = "…이상할 만큼 순순하군. 어디 몸이라도 안 좋은 건가?<end>"
+
 ["650065"]
 japanese = "フッ、さすがは<line-break>丈夫なだけが取り柄の奴だ。<end>"
 korean = "흥, 역시 튼튼한 것만이 장점인 녀석답군.<end>"
@@ -235,6 +239,10 @@ korean = "딸의 제멋대로인 행동 때문에 그 치밀한 계획도 물거
 ["650091"]
 japanese = "ひどいわ、レムオン様！<line-break>わがままだなんて。　　　　　　　<line-break>　<line-break>これでも、国のことを<line-break>いろいろと考えているつもりです。<end>"
 korean = "너무해요, 레몬 님! 제멋대로라니. 이래 봬도 나라 일은 여러모로 생각하고 있어요.<end>"
+
+["650092"]
+japanese = "これは失礼、ティアナ王女。<line-break>さすがはファーロスの…<end>"
+korean = "이거 실례했습니다, 티아나 왕녀님. 역시 파로스의….<end>"
 
 ["650093"]
 japanese = "ええ、<line-break>ファーロスの雌狐の娘です！<end>"
@@ -311,6 +319,10 @@ korean = "…제네테스 씨. 미안하다.<end>"
 ["650119"]
 japanese = "貴族だろうが国王だろうが、<line-break>人を踏みにじっていいやつなんか<line-break>いやしないんだ。<line-break>そのことだけは覚えておけ。<end>"
 korean = "귀족이든 국왕이든 사람을 짓밟아도 되는 자는 없어. 그것만은 기억해 둬.<end>"
+
+["650120"]
+japanese = "ま、タルテュバも<line-break>しばらくはおとなしくしてるだろ。<end>"
+korean = "뭐, 타르튜바도 당분간은 얌전히 있겠지.<end>"
 
 ["650121"]
 japanese = "ありがとうよ、本当に。<line-break>助かったよ。<end>"

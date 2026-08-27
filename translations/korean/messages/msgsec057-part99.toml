@@ -156,6 +156,10 @@ korean = "정말 손이 많이 가게 하는군!<end>"
 japanese = "何者だ、貴様！<end>"
 korean = "네놈, 정체가 뭐냐!<end>"
 
+["570083"]
+japanese = "見られちまった以上、<line-break>こいつも始末するしかねぇってか！<end>"
+korean = "들켜 버린 이상 이 녀석도 처리할 수밖에 없다는 건가!<end>"
+
 ["570084"]
 japanese = "うんん…。<end>"
 korean = "으음….<end>"
@@ -212,6 +216,10 @@ korean = "그럼 또 봐! 도와줘서 고마워!<end>"
 japanese = "<value:$28>か？<end>"
 korean = "<value:$28>인가?<end>"
 
+["570115"]
+japanese = "ダメだこりゃ。<line-break>何がなんだかわかってないよ。お客さん。<end>"
+korean = "이건 안 되겠네. 뭐가 뭔지도 모르잖아, 손님.<end>"
+
 ["570117"]
 japanese = "お客さん。<end>"
 korean = "손님.<end>"
@@ -259,6 +267,10 @@ korean = "이래선 녹슬어서 쓸 수가 없어. 그리고 봐. 이 화살, �
 ["570134"]
 japanese = "よお、そろそろ出港だろ？<line-break>そんじゃ、よろしく頼むぜ。<end>"
 korean = "여어, 슬슬 출항할 때지? 그럼 잘 부탁한다.<end>"
+
+["570135"]
+japanese = "そいつが迷子になってた連れか…。<line-break>ち、さっさと乗んな。<end>"
+korean = "저 녀석이 길 잃었던 일행인가…. 쳇, 얼른 타.<end>"
 
 ["570136"]
 japanese = "あん？<line-break>船賃はいいのかって？<end>いいんだ。<line-break>さっきこの男前と軽く勝負してな。<line-break>タダで乗っけてもらう事になったんだ。<end>"

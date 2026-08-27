@@ -688,6 +688,10 @@ korean = "<value:$28> 님….<end>"
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
 
+["1360411"]
+japanese = "束縛されないことばかりに<line-break>一生懸命になるということは、　　<line-break> <line-break>そのこと自体に束縛されている<line-break>ということではないのでしょうか…？<end>"
+korean = "속박되지 않으려고만 필사적인 건, 그 자체에 속박되어 있다는 뜻 아닐까요…?<end>"
+
 ["1360413"]
 japanese = "<value:$28>様には<line-break>教えていただきたいことが<line-break>たくさんあります。<end>"
 korean = "<value:$28> 님께 배우고 싶은 게 정말 많습니다.<end>"
@@ -1143,6 +1147,10 @@ korean = "뭐가 보이는 걸까?<end>"
 ["1360730"]
 japanese = "人の心の中…？<end>"
 korean = "사람의 마음속…?<end>"
+
+["1360735"]
+japanese = "まぁ、いっか。<line-break>まだまだたくさん<line-break>産まれたからね。<end>"
+korean = "뭐, 됐나. 아직 많이 태어났으니까.<end>"
 
 ["1360736"]
 japanese = "ふふ…あらがわないほうが<line-break>幸せなのに。<end>"

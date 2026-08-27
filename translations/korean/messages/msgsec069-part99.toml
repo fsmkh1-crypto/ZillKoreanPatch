@@ -132,6 +132,10 @@ korean = "뭐, 이런 느낌입니다. 이해하셨나요?<end>"
 japanese = "聞きたいことがあれば<line-break>答えますよ。<end>"
 korean = "묻고 싶은 게 있으면 답해 드릴게요.<end>"
 
+["690081"]
+japanese = "団長、幸せの地もいいゴブが<line-break>自分は腹が減ったゴブ。<end>"
+korean = "단장, 행복의 땅도 좋지만 나는 배고프다 고브.<end>"
+
 ["690085"]
 japanese = "団長までそれゴブか！<line-break>ひどいゴブ！<end>"
 korean = "단장까지 그러는 거냐고브! 너무하다고브!<end>"
@@ -147,6 +151,10 @@ korean = "예… 예, 식사도 내드릴 수 있습니다만….<end>"
 ["690088"]
 japanese = "じゃあ、適当に何か<line-break>運んできてほしいゴブ。<end>"
 korean = "그럼 적당히 뭔가 가져와 줬으면 한다 고브.<end>"
+
+["690090"]
+japanese = "む？　あれは凶暴女のおつきゴブ。<line-break>ということは…？<end>"
+korean = "음? 저건 난폭녀의 부하 고브. 그렇다면…?<end>"
 
 ["690091"]
 japanese = "あ、<value:$28>、<line-break>ここにいたの。<end>"

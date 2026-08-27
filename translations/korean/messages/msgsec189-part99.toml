@@ -24,6 +24,10 @@ korean = "다시 찾아오도록 해.<end>"
 japanese = "かつて余は<line-break>それを証明してみせた。<end>"
 korean = "과거 짐은 그것을 증명해 보였다.<end>"
 
+["1890011"]
+japanese = "フッフッフ…、<line-break>信用できぬようだな。<line-break>仕方あるまい、この姿では。　<line-break>だが、この姿こそ<line-break>覚醒を経験した証とも言えよう。<end>"
+korean = "후후후… 믿기 어려운 모양이군. 이 모습이니 어쩔 수 없지. 하지만 이 모습이야말로 각성을 경험한 증거라 할 수 있다.<end>"
+
 ["1890016"]
 japanese = "ただ神聖王国アルレシアのみが<line-break>神より魔法を授かっていたのだ。　<line-break>　<line-break>アルレシアは魔法を武器に<line-break>小国を平定し、戦乱を終結させた。<end>"
 korean = "오직 신성왕국 알레시아만이 신에게서 마법을 받았다. 알레시아는 마법을 무기로 소국들을 평정하고 전란을 끝냈다.<end>"
@@ -31,6 +35,10 @@ korean = "오직 신성왕국 알레시아만이 신에게서 마법을 받았�
 ["1890021"]
 japanese = "<value:$28>、<line-break>汝も注意することだ。<line-break>　<line-break>目立った真似をすると<line-break>竜王に消される…。<end>"
 korean = "<value:$28>, 그대도 조심하라. 눈에 띄는 짓을 하면 용왕에게 지워질 것이다….<end>"
+
+["1890022"]
+japanese = "人類が覚醒を果たすまで、<line-break>竜王に屈する日々が続くのだ。<end>"
+korean = "인류가 각성할 때까지 용왕에게 굴복하는 나날이 계속될 것이다.<end>"
 
 ["1890024"]
 japanese = "新たな力を得たくはないか？<end>"
@@ -315,6 +323,10 @@ korean = "아, 맞다! 지금이라도 늦지 않았어. 이쪽으로 돌아올�
 ["1890189"]
 japanese = "私をさげすむか、ゾフォル？<end>"
 korean = "나를 업신여기는 건가, 조폴?<end>"
+
+["1890191"]
+japanese = "わしは<line-break>自分の見た未来に従って<line-break>ただ進むのみ…。<end>"
+korean = "나는 내가 본 미래를 따라 그저 나아갈 뿐….<end>"
 
 ["1890199"]
 japanese = "Ｖ７終端<end>"

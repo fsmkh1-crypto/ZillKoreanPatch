@@ -304,6 +304,10 @@ korean = "후후, 신기하네요. <value:$28>님과 이야기하고 있으면 �
 japanese = "聞いてくれ、<value:$28>！<line-break>マジな話、俺たち、とてつもなく<line-break>お前に感謝してるんだ。<end>"
 korean = "들어 줘, <value:$28>! 진심으로 우리 모두 정말 너한테 고마워하고 있어.<end>"
 
+["1380171"]
+japanese = "ちょっとヴァンは唐突だけどね、<line-break>そういう話をしてたんだ。<end>"
+korean = "반이 좀 갑작스럽긴 하지만, 그런 이야기를 하고 있었어.<end>"
+
 ["1380173"]
 japanese = "ナッジ…。<end>"
 korean = "나지….<end>"
@@ -315,6 +319,10 @@ korean = "나, 나도 잘 모르겠어!<end>"
 ["1380186"]
 japanese = "<value:$28>とお前、<line-break>つっこみふたりがかりで<line-break>ようやく対等ってもんだぜ！<line-break>何だか燃えてきた！　<line-break>うおぉぉぉ！<end>"
 korean = "<value:$28>과 너, 츳코미 둘이 달라붙어야 겨우 나와 대등하지! 왠지 불타오르는데! 우오오오!<end>"
+
+["1380187"]
+japanese = "…まったく、イヤになるわ。<line-break>何もかも、もう、ホントにっ！<end>"
+korean = "…정말 싫다. 전부 다, 정말이지!<end>"
 
 ["1380188"]
 japanese = "さ、殺気っ？<end>"
@@ -539,6 +547,10 @@ korean = "누나 이야기가 나오는 게 괴로운가?<end>"
 ["1380288"]
 japanese = "そう思いたくば、それでもいい。　<line-break><line-break><line-break><value:$28>。<line-break>おまえの力は役に立つはずだ。<line-break>他の無能な連中に比べれば、だがな。<end>"
 korean = "그렇게 생각하고 싶다면 그래도 좋다. <value:$28>. 네 힘은 도움이 될 거야. 다른 무능한 녀석들에 비하면 말이지.<end>"
+
+["1380291"]
+japanese = "素直じゃないな、まったく。　<line-break>だが、奴の言ったことは<line-break>当たっていると思うよ。<line-break>私も、<value:$28>には、<line-break>何かを変える力を感じるんだ。<end>"
+korean = "참 솔직하지 못하군. 하지만 녀석 말이 맞다고 생각해. 나도 <value:$28>에게 뭔가를 바꾸는 힘이 느껴져.<end>"
 
 ["1380294"]
 japanese = "明日からまたお互い力を尽くそう、<line-break><value:$28>。<end>"

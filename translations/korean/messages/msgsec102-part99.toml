@@ -96,6 +96,10 @@ korean = "…지금의 나는 선생님에게도 <value:$28>에게도 이길 수
 japanese = "…今の私では、先生には勝てない。<end>"
 korean = "…지금의 나로는 선생님을 이길 수 없어.<end>"
 
+["1020050"]
+japanese = "アイリーン、帰ってこい。<line-break>お前に圧制者は似合わない。<end>"
+korean = "아이린, 돌아와. 네겐 압제자가 어울리지 않아.<end>"
+
 ["1020052"]
 japanese = "さようなら…<value:$28>。<end>"
 korean = "안녕… <value:$28>.<end>"
@@ -119,6 +123,10 @@ korean = "말하지 마세요, 선생님! 지금 의사를 데려올게요!<end>
 ["1020063"]
 japanese = "先生…。<line-break>うぅ…こ、こんなことって…。<end>"
 korean = "선생님….으윽… 이, 이런 일이….<end>"
+
+["1020065"]
+japanese = "いや…こんなのいやー！<line-break>先生、目を開けて！　先生ー！<end>"
+korean = "싫어… 이런 건 싫어! 선생님, 눈 떠요! 선생님!<end>"
 
 ["1020066"]
 japanese = "どうしよう…。<line-break>ねぇ、<value:$28>。<line-break>私、どうしよう…。<line-break>私、先生、殺しちゃった…。<line-break>殺しちゃったよー！<end>"
@@ -151,6 +159,14 @@ korean = "말하지 마세요, 선생님! 지금 의사를 데려올게요!<end>
 ["1020079"]
 japanese = "先生…。<line-break>うぅ…こ、こんなことって…。<end>"
 korean = "선생님….으윽… 이, 이런 일이….<end>"
+
+["1020081"]
+japanese = "いや…こんなのいやー！<line-break>先生、目を開けて！　先生ー！<end>"
+korean = "싫어… 이런 건 싫어! 선생님, 눈 떠요! 선생님!<end>"
+
+["1020086"]
+japanese = "エルメスさんは、もうここには<line-break>いないわ。ひとりっきりのお嬢さんが　<line-break>亡くなったんですって。<line-break>もしかして、<line-break>あなた、<value:$28>さん？<end>"
+korean = "에르메스 씨는 이제 여기 없어요. 하나뿐인 따님이 돌아가셨대요. 혹시 당신, <value:$28> 씨인가요?<end>"
 
 ["1020088"]
 japanese = "エルメスさんはもう、ここには<line-break>いないわ。ひとりっきりのお嬢さんが　<line-break>亡くなったんですって。<line-break>もう、この街に戻ることはないそうよ。<end>"

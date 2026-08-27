@@ -4,6 +4,10 @@
 japanese = "ユーリスメッセージVOL1開始<end>"
 korean = "유리스 메시지 VOL1 시작<end>"
 
+["790002"]
+japanese = "ひどいでしょ？<line-break>アカデミー始まって以来の劣等生、<line-break>ユーリスの仕業よ。<line-break>ユーリスが実験に失敗して<line-break>校舎を爆破したのよ。<end>"
+korean = "심하지? 아카데미 개교 이래 최악의 열등생 유리스 짓이야. 실험에 실패해서 교사를 폭파했어.<end>"
+
 ["790004"]
 japanese = "なんともはや…。<end>"
 korean = "이거 참….<end>"
@@ -87,6 +91,10 @@ korean = "걱정하지 마세요. 저, 열심히 할 테니까요. 아이 참, �
 ["790040"]
 japanese = "え？<line-break>定員オーバー？　　　　　　　<line-break>　<line-break>それじゃ、私の出番になったら<line-break>呼んでね。<line-break>その猫屋敷ってところで。<end>"
 korean = "뭐? 정원 초과? 그럼 내 차례가 되면 불러 줘. 그 고양이 저택이라는 곳에서.<end>"
+
+["790041"]
+japanese = "やっと自由になれたっと。　　　<line-break>　<line-break>　<line-break>冒険者ってのも、さえないけど…<line-break>行く当てもないし、<line-break>宿屋にいるよりはマシよね。<end>"
+korean = "드디어 자유다. 모험자도 썩 멋지진 않지만… 갈 데도 없고 여관에 있는 것보단 낫겠지.<end>"
 
 ["790042"]
 japanese = "うわっ、最悪…。　　　　　　　　<line-break>　<line-break>　<line-break>早くお金を貯めてきてくださいね。<line-break>私はそれまで<line-break>捕らわれの身なのです。<end>"
@@ -191,6 +199,10 @@ korean = "역시 <value:$28>님. 뭐든 참견하는 타입이시군요.<end>"
 ["790094"]
 japanese = "…なるほど。<line-break>天才魔道士マノンね。　　　<line-break>　<line-break>あの魔道の塔に<line-break>そんなに偉大な魔道士が…。<end>"
 korean = "…그렇군. 천재 마도사 마논이라. 저 마도의 탑에 그렇게 위대한 마도사가….<end>"
+
+["790095"]
+japanese = "ユニオンスペルの謎、<line-break>ついに、つかんじゃったかも！<end>"
+korean = "유니온 스펠의 수수께끼, 드디어 알아낸 것 같아!<end>"
 
 ["790096"]
 japanese = "そしてついに、<line-break>マノンに続く天才魔道士　<line-break>エンシャントに現る！<line-break>私の才能が世間に知れたら<line-break>大変なことになるかも。<end>"

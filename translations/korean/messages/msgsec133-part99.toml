@@ -552,6 +552,10 @@ korean = "잘 부탁드립니다, <value:$28>님! 여기는 맡겨 주십시오.
 japanese = "（もう後戻りするわけにはいかない…。）<end>"
 korean = "(이제는 되돌아갈 수 없어….)<end>"
 
+["1330346"]
+japanese = "<value:$28>の目…。<line-break> <line-break> <line-break>ロセン軍に攻め込まれたあたしの村を、<line-break>救いに現れた、あの時の<line-break>ネメア様の目にそっくりだった…。<end>"
+korean = "<value:$28>의 눈…. 로센군이 쳐들어온 내 마을을 구하러 나타났던 그때의 네메아 님 눈과 똑같았어….<end>"
+
 ["1330347"]
 japanese = "何千というロセン兵を、<line-break>たった２８騎で迎え討とうっていう、<line-break> <line-break>何のてらいも、曇りもない、<line-break>あの時のネメア様の目に…。<end>"
 korean = "수천의 로센 병사를 단 28기로 맞아 싸우려 했던, 아무 꾸밈도 흐림도 없던 그때의 네메아 님의 눈에….<end>"
@@ -579,6 +583,10 @@ korean = "이런 추악한 세상… 보지 말았어야 했어…. 몰랐어야
 ["1330357"]
 japanese = "人は運命にあらがえないのよ。<line-break>ベルゼーヴァ…。<end>"
 korean = "사람은 운명에 거스를 수 없어. 벨제바….<end>"
+
+["1330359"]
+japanese = "それはどうかな？<line-break>私は運命を切り開くために<line-break>戻ってきた。<line-break>いくぞ！　<value:$28>！<line-break>闇を払い、<line-break>人類に革新の光を示すのだ！<end>"
+korean = "그건 어떨까? 나는 운명을 개척하기 위해 돌아왔다. 가자, <value:$28>! 어둠을 걷어 내고 인류에게 혁신의 빛을 보여 주자!<end>"
 
 ["1330360"]
 japanese = "…見えなければ、よかった。<end>"

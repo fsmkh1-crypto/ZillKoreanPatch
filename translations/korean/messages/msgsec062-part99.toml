@@ -12,6 +12,10 @@ korean = "그, 그만해 주세요!<end>"
 japanese = "困ります、お客さん。<line-break>い、いや…！　触らないで！<end>"
 korean = "곤란합니다, 손님. 아, 아니…! 만지지 마세요!<end>"
 
+["620004"]
+japanese = "俺様と２人で愛の冒険に旅立つ。<line-break>それが君の運命なんだ！<end>"
+korean = "이 몸과 둘이 사랑의 모험을 떠난다. 그게 네 운명이야!<end>"
+
 ["620005"]
 japanese = "あっ。た、助けてください！<end>"
 korean = "앗. 사, 살려 주세요!<end>"
@@ -52,6 +56,10 @@ korean = "<value:$28>… 씨….<end>"
 japanese = "見ててくれたか？　　　　　　　　　<end>"
 korean = "보고 있었나?<end>"
 
+["620017"]
+japanese = "これが俺様の愛の…<line-break>溢れんばかりにほとばしる愛の力！！<end>"
+korean = "이것이 이 몸의 사랑의… 넘쳐흐르는 사랑의 힘!!<end>"
+
 ["620018"]
 japanese = "恐れずに飛び込んでくるといい。<end>"
 korean = "두려워 말고 뛰어들면 된다.<end>"
@@ -91,6 +99,10 @@ korean = "미, 미안해요. 그렇죠.<end>"
 ["620029"]
 japanese = "ほぉーらあ！<line-break><value:$28>、<line-break>起きなさい！<end>"
 korean = "자아! <value:$28>, 일어나!<end>"
+
+["620032"]
+japanese = "それでは、ごゆっくりどうぞ。　　　　<line-break>　<line-break>　<end>"
+korean = "그럼 편히 쉬세요.<end>"
 
 ["620034"]
 japanese = "む、わかったでゴブ！<end>"
@@ -268,6 +280,10 @@ korean = "에에~!?<end>"
 japanese = "そ、そんな～！　ひどいゴブ～！<end>"
 korean = "그, 그런~! 너무하잖아고블~!<end>"
 
+["620096"]
+japanese = "だが、お前の尊い犠牲は忘れないゴブ！<line-break>さらばゴブ！<end>"
+korean = "하지만 네 고귀한 희생은 잊지 않겠다 고브! 잘 가라 고브!<end>"
+
 ["620097"]
 japanese = "親分、どこに逃げるゴブ？<end>"
 korean = "두목, 어디로 도망가 고브?<end>"
@@ -364,6 +380,10 @@ korean = "배에 타지 마!<end>"
 japanese = "見なさい！<line-break>これが美貌のなせる技よ！<end>"
 korean = "보라고! 이게 미모가 만들어 내는 기술이야!<end>"
 
+["620140"]
+japanese = "っるさいわねー。文句言ってないで、<line-break>早く船に乗るわよ。<end>"
+korean = "시끄럽네. 불평 말고 얼른 배에 타.<end>"
+
 ["620145"]
 japanese = "至極妥当な気がするゴブ。<end>"
 korean = "지극히 타당한 것 같다 고브.<end>"
@@ -403,6 +423,10 @@ korean = "너희들, 이번엔 놓치지 않을 거야!<end>"
 ["620161"]
 japanese = "く、苦しいゴブ…。<end>"
 korean = "크, 괴로운 고브….<end>"
+
+["620162"]
+japanese = "賢者の森まで、追っかけたけど<line-break>見失っちゃったわ…。<end>"
+korean = "현자의 숲까지 쫓아갔는데 놓쳐 버렸어….<end>"
 
 ["620164"]
 japanese = "なによ！<line-break>っるさいわねー！<end>"
@@ -587,6 +611,10 @@ korean = "분명 그렇게 대답했겠죠….<end>"
 ["620254"]
 japanese = "あなたみたいなのでも<line-break>いてくれて、<line-break>正直、すごく安心したわ。　　<line-break>うん…あなたの背中見てると、<line-break>すごく安心した…。<end>"
 korean = "당신 같은 사람이라도 있어 줘서 솔직히 정말 안심했어. 응… 당신 등을 보고 있으면 정말 마음이 놓여….<end>"
+
+["620255"]
+japanese = "ねえ。<line-break>…やっぱり、<line-break>ロストールに戻りたい？<end>"
+korean = "있지…. 역시 로스토올로 돌아가고 싶어?<end>"
 
 ["620256"]
 japanese = "あ、別に答えにくかったら<line-break>答えなくていいのよ。<end>"

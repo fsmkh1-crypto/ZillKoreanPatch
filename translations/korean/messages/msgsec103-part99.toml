@@ -36,6 +36,10 @@ korean = "난 에스텔이야. 넌?<end>"
 japanese = "へぇー、<value:$28>か。<line-break>　<line-break>　<line-break>ところで<value:$28>、<line-break>ボクの名前、覚えた？<end>"
 korean = "헤에, <value:$28>인가. 그런데 <value:$28>, 내 이름 기억했어?<end>"
 
+["1030021"]
+japanese = "よしよし、正解正解。<line-break>人の名前と顔を覚えるのは<line-break>人付き合いの基本だからね。　<line-break>じゃ、<value:$28>。<line-break>またどこかで会えるといいね。<end>"
+korean = "그래 그래, 정답. 사람 이름과 얼굴을 기억하는 건 인간관계의 기본이지. 그럼 <value:$28>, 또 어디선가 만나면 좋겠네.<end>"
+
 ["1030023"]
 japanese = "…ま、いいか。<line-break>それじゃあね、<value:$28>。<end>"
 korean = "…뭐, 됐나. 그럼 안녕, <value:$28>.<end>"
@@ -136,6 +140,10 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1030070"]
+japanese = "目が覚めたようね。<line-break>どう？　闘技場で迎える目覚めは？<end>"
+korean = "정신이 든 모양이네. 어때? 투기장에서 맞는 아침은?<end>"
+
 ["1030073"]
 japanese = "くっくっく。試合中の事故は<line-break>闘技場ではよくあることだからな。　<line-break>　<line-break>闘技場好きのクリュセイスならではの<line-break>趣向というわけだ。<end>"
 korean = "크크크. 경기 중 사고는 투기장에선 흔한 일이니까. 투기장을 좋아하는 크류세이스다운 취향인 셈이지.<end>"
@@ -151,6 +159,10 @@ korean = "하지만 인력이 충분한 건 아닙니다. 특히 위험한 임�
 ["1030090"]
 japanese = "…何を言っている、<line-break>クリュセイス？<end>"
 korean = "…무슨 말을 하는 거냐, 크류세이스?<end>"
+
+["1030092"]
+japanese = "だが、まだまだ機会はある。<line-break>そう、落胆しないことだ。<end>"
+korean = "하지만 아직 기회는 많아. 그렇게 낙담하지 마.<end>"
 
 ["1030094"]
 japanese = "<value:$28>…。<line-break>バカな人。　　　　　　　　　　　<line-break>　<line-break>…お父様、<line-break>これでお父様も満足して<line-break>いらっしゃいますよね？　　　　　<end>"

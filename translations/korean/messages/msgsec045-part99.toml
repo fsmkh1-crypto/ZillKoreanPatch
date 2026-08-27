@@ -208,6 +208,10 @@ korean = "기분 나빠!<end>"
 japanese = "ごめんね、<value:$28>。<line-break>僕が一緒にいたばかりに…。<end>"
 korean = "미안해, <value:$28>. 내가 같이 있었던 탓에….<end>"
 
+["450097"]
+japanese = "ヴァンのおじさんはちょっと<line-break>思いこみが強いとこがあって、　　　　<line-break>　<line-break>僕がみなしごだったから、<line-break>前から僕のことを目の敵にしてたんだ。<end>"
+korean = "반 아저씨는 조금 생각이 지나친 데가 있어. 내가 고아라서 예전부터 나를 눈엣가시로 여겼거든.<end>"
+
 ["450099"]
 japanese = "ヴァンのおじさんが<line-break>僕を嫌ってたわけ？　　　　　　<line-break>　<line-break>…みなしごがいると<line-break>町の雰囲気が悪くなるんだって。<end>"
 korean = "반 아저씨가 나를 싫어했던 거야? …고아가 있으면 마을 분위기가 나빠진대.<end>"
@@ -439,6 +443,10 @@ korean = "…난 가르드란을 용서할 수 없어.<end>"
 ["450202"]
 japanese = "僕は、ガルドランに負けられない。<end>"
 korean = "나는 갈드란에게 질 수 없어.<end>"
+
+["450205"]
+japanese = "む、誰かは知らないが、勇者のピンチに<line-break>正義を愛する魂が駆けつけてくれたか！<line-break>　<line-break>正しき魂の諸君！<line-break>ザコは任せたぞ！！<line-break>さらば！<end>"
+korean = "음, 누군진 모르지만 용사의 위기에 정의를 사랑하는 영혼이 달려와 줬군! 정의로운 영혼들이여! 잡졸은 맡기겠다!! 그럼 이만!<end>"
 
 ["450206"]
 japanese = "な、なんだお前らは！？<line-break>あのバカの仲間か！？<line-break>　<line-break>わけがわかんねぇが<line-break>やろうってんなら<line-break>相手になってやるぜ！！<end>"

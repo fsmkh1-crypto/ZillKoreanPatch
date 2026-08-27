@@ -124,6 +124,10 @@ korean = "무슨 말인지 알아, <value:$28>. 하지만 이게 전쟁이야. �
 japanese = "どうすんの、<value:$28>？<line-break>逃げなきゃやられちゃうよ～？<line-break>宰相サンの革新も台無しよん？<end>"
 korean = "어쩔 거야, <value:$28>? 도망치지 않으면 당한다고~? 재상님의 혁신도 물거품이야?<end>"
 
+["1250108"]
+japanese = "悔しいが、ここは一度退くぞ、<line-break><value:$28>。<line-break><line-break>俺たちまでやられちゃ、<line-break>エンシャントの人々の<line-break>仇を討つこともできなくなる。<end>"
+korean = "분하지만 여기선 일단 물러나자, <value:$28>. 우리까지 당하면 엔샨트 사람들의 원수를 갚을 수도 없어.<end>"
+
 ["1250111"]
 japanese = "人類の革新なんて、<line-break>よくわからないけど、<line-break>死ぬのだけはゴメンだよ！<line-break>早くこの町を脱出しなくちゃ！<end>"
 korean = "인류의 혁신이니 뭐니, 잘 모르겠지만, 죽는 것만은 싫어! 빨리 이 도시를 빠져나가야 해!<end>"
@@ -163,6 +167,10 @@ korean = "네메아 님이 없다고 반란을 일으키다니…. 지라크 장
 ["1250139"]
 japanese = "血迷ったな、ジラーク。<line-break><line-break><line-break>ネメア様の厚意をふいにして<line-break>一種族のための反乱に走るとは…<line-break>見損なったわ。<end>"
 korean = "정신이 나갔군, 지라크. 네메아 님의 호의를 저버리고 한 종족만을 위한 반란을 일으키다니… 실망했어.<end>"
+
+["1250143"]
+japanese = "きみにわかってもらおうとは<line-break>思わないよ、<value:$28>。<line-break><line-break>きみは人間で、僕はコーンス。<line-break>生まれた時からそうだったんだもの…。<line-break><end>"
+korean = "네가 이해해 주길 바라진 않아, <value:$28>. 넌 인간이고 나는 코른스야. 태어날 때부터 그랬으니까….<end>"
 
 ["1250144"]
 japanese = "待てなかったか、ジラーク…。<end>"
@@ -323,6 +331,10 @@ korean = "엘파스…. 결국 그자도 샤리의 손바닥 위에서 놀아났
 ["1250324"]
 japanese = "きゃっ！　<line-break>神様って初めてみたかも。<line-break><line-break>どうせなら、私の願いを<line-break>かなえて欲しかったかも。<end>"
 korean = "꺅! 신은 처음 보는 것 같아. 이왕이면 내 소원도 들어 줬으면 좋았을 텐데.<end>"
+
+["1250328"]
+japanese = "あの神も虚無の子も我々とは<line-break>相容れぬ存在のようです。<line-break><line-break>倒す必要があります。<line-break><value:$28>。<line-break>あなたの力をお借りしますよ。<end>"
+korean = "그 신도 허무의 아이도 우리와 양립할 수 없는 존재인 듯합니다. 쓰러뜨려야 합니다. <value:$28>. 당신의 힘을 빌리겠습니다.<end>"
 
 ["1250332"]
 japanese = "まいったね…。<line-break>相手は神様ときたか。<line-break>まったく…退屈しない人生だな。<line-break>行こうか、<value:$28>。<end>"

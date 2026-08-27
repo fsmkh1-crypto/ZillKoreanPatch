@@ -1044,6 +1044,10 @@ korean = "앗…. 감사합니다, <value:$28> 님.<end>"
 japanese = "お姫様、こんなケチに<line-break>お礼を言っちゃだめゴブ！<line-break> <line-break><value:$28>！<line-break>まったく、同じ冒険者として<line-break>恥ずかしいゴブよ！<end>"
 korean = "공주님, 이런 구두쇠에게 감사하면 안 돼 고브! <value:$28>! 정말 같은 모험자로서 부끄럽다 고브!<end>"
 
+["1340502"]
+japanese = "そ、そんなに援助して<line-break>大丈夫なんでゴブか！？<line-break> <line-break>ただのカッコつけゴブ！<line-break>そ、それしきでは、<line-break>博愛心は認められないゴブよ！<end>"
+korean = "그, 그렇게 지원해도 괜찮은 고브!? 그냥 멋부리는 거 고브! 그 정도로는 박애심을 인정할 수 없는 고브!<end>"
+
 ["1340504"]
 japanese = "（…と思ったけど<line-break>　お金が足りないな。）<end>"
 korean = "(…라고 생각했지만　돈이 부족하네.)<end>"

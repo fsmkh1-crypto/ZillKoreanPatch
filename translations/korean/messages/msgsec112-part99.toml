@@ -168,6 +168,10 @@ korean = "<value:$28>…. 나… 정말로…….<end>"
 japanese = "よいか？　エステルよ。<end>"
 korean = "잘 듣거라, 에스텔.<end>"
 
+["1120133"]
+japanese = "行くがよい。　　　　　　　<line-break><value:$28>よ。<line-break>　<line-break>そなたの力ならば<line-break>この大陸を包む暗き運命をも<line-break>打ち砕くことができようぞ。<end>"
+korean = "가거라, <value:$28>여. 그대의 힘이라면 이 대륙을 뒤덮은 어두운 운명마저 깨뜨릴 수 있을 것이다.<end>"
+
 ["1120137"]
 japanese = "わかった<end>"
 korean = "알았어<end>"

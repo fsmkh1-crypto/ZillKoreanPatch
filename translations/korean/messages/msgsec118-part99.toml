@@ -76,6 +76,10 @@ korean = "그런데 동료분들은 어떻게 됐나요?<end>"
 japanese = "おや？　<value:$28>。<line-break>ダメじゃないですか、<line-break>こんな危ない場面に出てきたら。<end>"
 korean = "어라? <value:$28>. 안 되잖아요, 이렇게 위험한 곳에 나오면.<end>"
 
+["1180042"]
+japanese = "まったくふたりとも…、<line-break>なんでこう私を困らせるのか。<end>"
+korean = "정말 둘 다…. 왜 이렇게 나를 곤란하게 하는 거야.<end>"
+
 ["1180043"]
 japanese = "どうしても、<line-break>魂吸いの指輪が必要ですか？<end>"
 korean = "꼭 영혼 흡수의 반지가 필요한가요?<end>"
@@ -107,6 +111,10 @@ korean = "아, 아버지….<end>"
 ["1180053"]
 japanese = "兄妹ゲンカなんてみっともない。<end>"
 korean = "남매 싸움이라니 보기 흉해.<end>"
+
+["1180054"]
+japanese = "ネメア、あなたがあくまで<line-break>運命と戦うというのならば…<end>"
+korean = "네메아, 네가 끝까지 운명과 싸우겠다면….<end>"
 
 ["1180055"]
 japanese = "私も黙って見ているわけには<line-break>いきません。<end>"

@@ -124,9 +124,17 @@ korean = "하핫!<end>"
 japanese = "だから何よ。<end>"
 korean = "그래서 뭐.<end>"
 
+["840061"]
+japanese = "よ、余は毎日<line-break>政務に追われ<line-break>神経をすり減らしておる。<line-break>余がいるからこそ、<line-break>ロセンという国がある。<line-break>ち、違うか？<end>"
+korean = "여, 여는 매일 정무에 쫓겨 신경이 닳고 있다. 여가 있기에 로센이라는 나라가 있는 것이다. 아, 아니냐?<end>"
+
 ["840062"]
 japanese = "…それで？<end>"
 korean = "…그래서?<end>"
+
+["840063"]
+japanese = "その余が、民の１０人や２０人、<line-break>どうしようと勝手ではないか！<line-break>　<line-break>それで、余の気分が晴れるなら<line-break>構わんではないか！！<end>"
+korean = "그런 여가 백성 열 명이나 스무 명쯤 어찌하든 상관없지 않느냐! 그걸로 여의 기분이 풀린다면 됐지 않느냐!!<end>"
 
 ["840064"]
 japanese = "なーるほどね。<end>"
@@ -419,6 +427,10 @@ korean = "빈칸 163 카를라, 볼륨 1<end>"
 ["840172"]
 japanese = "空　１６４<line-break>カルラ、ボリューム１<end>"
 korean = "빈칸 164 카를라, 볼륨 1<end>"
+
+["840175"]
+japanese = "ロセンの暗愚王ペウダは、カルラの力を<line-break>過小評価したため、その才能と実力を<line-break>戦場で思い知ることとなった。<line-break>敗北と自らの死によって…。<end>"
+korean = "로센의 암군 페우다는 칼라의 힘을 과소평가했고, 전장에서 그 재능과 실력을 뼈저리게 깨닫게 되었다. 패배와 자신의 죽음으로….<end>"
 
 ["840178"]
 japanese = "ありがとうございました。<line-break>　<line-break>　<line-break>でも、あの方はおひとりで<line-break>大丈夫なのでしょうか？<end>"

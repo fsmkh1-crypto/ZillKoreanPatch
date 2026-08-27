@@ -28,6 +28,10 @@ korean = "아, 당신은 그 유명한 <value:$2B>의 <value:$28>! 지나가십�
 japanese = "どんな意味のなさそうな言葉にも<line-break>言霊の力があり、<line-break>その力は意外な所で実を結ぶもの…。　<line-break>私の言葉を聞きなさい…。<end>"
 korean = "아무 의미 없어 보이는 말에도 언령의 힘이 있고, 그 힘은 뜻밖의 곳에서 결실을 맺는 법…. 내 말을 들으세요….<end>"
 
+["800019"]
+japanese = "（金環食が始まる…。<line-break>　あとＸ分で終わりそうだ。）<end>"
+korean = "(금환식이 시작된다…. 앞으로 X분이면 끝날 것 같다.)<end>"
+
 ["800022"]
 japanese = "いやあっ！<line-break>…扉が、開くぅ！<end>"
 korean = "싫어! …문이, 열려어!<end>"
@@ -115,6 +119,10 @@ korean = "언제 봐도 좋은 그림이구나.<end>"
 ["800071"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"
+
+["800073"]
+japanese = "それは興味深いのぉ。<line-break>いつか全部行ってみたいのぉ。<end>"
+korean = "그거 흥미롭구먼. 언젠가 전부 가 보고 싶구먼.<end>"
 
 ["800074"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"

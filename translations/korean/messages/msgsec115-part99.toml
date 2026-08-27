@@ -44,6 +44,10 @@ korean = "…그래.<end>"
 japanese = "ごめんなさい。<line-break>ひとりで考えさせて。<end>"
 korean = "미안해요. 혼자 생각하게 해 주세요.<end>"
 
+["1150017"]
+japanese = "予言が…成就するのかしら？<line-break>運命は変わらないの…！？<end>"
+korean = "예언이… 이루어지는 걸까? 운명은 바뀌지 않는 거야…!?<end>"
+
 ["1150018"]
 japanese = "私が望まなくとも<line-break>私が闇にのまれてしまえば…<line-break>　<line-break>そのときは、<line-break>私の闇がディンガルを<line-break>支配するのでしょうね…。<end>"
 korean = "내가 원하지 않아도 내가 어둠에 삼켜진다면… 그때는 내 어둠이 딘갈을 지배하게 되겠지….<end>"
@@ -63,6 +67,10 @@ korean = "부탁이야…. 혼자 있게 해 줘….<end>"
 ["1150023"]
 japanese = "今は、もう話せることなどない。<end>"
 korean = "지금은 더 이야기할 것도 없다.<end>"
+
+["1150025"]
+japanese = "予言が正しかったというのか。<line-break>あのゾフォルの予言が！<end>"
+korean = "예언이 옳았다는 건가. 그 조포르의 예언이!<end>"
 
 ["1150026"]
 japanese = "<value:$28>か。<line-break>ネメア様が亡くなられた<line-break>という噂を知っているか？<end>"

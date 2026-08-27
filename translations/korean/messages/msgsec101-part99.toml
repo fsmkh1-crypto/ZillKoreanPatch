@@ -32,6 +32,10 @@ korean = "…운명이라는 것도 참 얄궂네.<end>"
 japanese = "…ほんっとに<line-break>しょうがない、奴…。<end>"
 korean = "…정말 어쩔 수 없는 녀석….<end>"
 
+["1010018"]
+japanese = "ノーブル伯<value:$28>！<line-break>こんな所で何をしている！　<line-break>　<line-break>早く出ていきなさい！<line-break>こんな所に来ていい身分だと<line-break>思っているの？<end>"
+korean = "노블 백작 <value:$28>! 이런 곳에서 뭘 하는 겁니까! 빨리 나가세요! 이런 곳에 와도 되는 신분이라고 생각합니까?<end>"
+
 ["1010019"]
 japanese = "ほんっとに<line-break>いつまでたっても子供なんだから！<end>"
 korean = "정말이지 언제까지나 어린애라니까!<end>"
@@ -123,6 +127,10 @@ korean = "후후, 그게 귀족의 긍지…인 걸까?<end>"
 ["1010055"]
 japanese = "…決着をつける日を<line-break>楽しみにしているわ。<end>"
 korean = "…결판을 낼 날을 기대하고 있을게.<end>"
+
+["1010059"]
+japanese = "ノーブル伯<value:$28>！<line-break>こんな所で何をしている！　<line-break>　<line-break>早く出ていきなさい！<line-break>こんな所に来ていい身分だと<line-break>思っているの？<end>"
+korean = "노블 백작 <value:$28>! 이런 곳에서 뭘 하는 겁니까! 빨리 나가세요! 이런 곳에 와도 되는 신분이라고 생각합니까?<end>"
 
 ["1010060"]
 japanese = "今度会うときは<line-break>戦場ね。<end>"

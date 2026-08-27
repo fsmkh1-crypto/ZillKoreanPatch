@@ -104,9 +104,17 @@ korean = "부탁이야, 레이븐. 가지 마.<end>"
 japanese = "…ありがとう。　　　　　<line-break>　<line-break>　<line-break>君が俺を必要とする限り、<line-break>俺は君のそばに…いるよ。<end>"
 korean = "…고마워. 네가 날 필요로 하는 한, 난 네 곁에… 있을게.<end>"
 
+["1410051"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその１０ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘 2/V3의 그 10이야.<end>"
+
 ["1410054"]
 japanese = "いや、ひょっとしたら、　　　<line-break>あの子が<value:$28>の旅に<line-break>　<line-break>ついていくということなのかも<line-break>しれませんね。<end>"
 korean = "아니, 어쩌면 그 아이가 <value:$28>의 여행에 따라간다는 뜻일지도 모르겠군요.<end>"
+
+["1410055"]
+japanese = "今だから言いますが、あの子は、<line-break>内心いつも悩んでいました。<line-break> <line-break>その、どこか近寄りがたいような<line-break>雰囲気のせいもありますが…。<end>"
+korean = "이제 와 말하지만 그 아이는 속으로 늘 고민하고 있었어요. 어딘가 가까이하기 힘든 분위기 탓도 있었지만….<end>"
 
 ["1410058"]
 japanese = "…いや、それは、あなたが一番よく<line-break>知っていることですね、<line-break><value:$28>？<end>"
@@ -315,6 +323,10 @@ korean = "호ー호호호.<end>"
 ["1410141"]
 japanese = "おそいなぁ、<value:$28>。<line-break>まさか、忘れちゃったんじゃ<line-break>ないよなぁ。<end>"
 korean = "늦네, <value:$28>. 설마 잊은 건 아니겠지.<end>"
+
+["1410142"]
+japanese = "もう！　ようやく、みんなを説得して<line-break>自由に冒険できるようになったって<line-break>言うのにぃ！<line-break>何やってるんだよぉ、<line-break><value:$28>…。<line-break>　<end>"
+korean = "정말! 겨우 모두를 설득해서 자유롭게 모험할 수 있게 됐는데! 뭐 하는 거야, <value:$28>….<end>"
 
 ["1410145"]
 japanese = "君に頼らせて、って言ったら、<line-break><value:$28>は、勝手だって<line-break>怒るかな？<end>"
@@ -1276,6 +1288,10 @@ korean = "기다려! 악당!<end>"
 japanese = "な、何者だ。<end>"
 korean = "누, 누구냐.<end>"
 
+["1410535"]
+japanese = "♪熱く燃える　世界一の魂～<line-break>♪煮えたぎる　悪党への怒り～<end>"
+korean = "♪뜨겁게 타오르는 세계 제일의 영혼~ ♪끓어오르는 악당을 향한 분노~<end>"
+
 ["1410537"]
 japanese = "な、長っ！<end>"
 korean = "기, 길어!<end>"
@@ -1355,6 +1371,10 @@ korean = "있잖아. <value:$28>.<end>"
 ["1410557"]
 japanese = "♪天を切り裂く　正義の光～<end>"
 korean = "♪하늘을 가르는 정의의 빛~<end>"
+
+["1410558"]
+japanese = "うおうおー。俺様伝説絶好調！<line-break>俺様の熱い魂が燃えている！<end>"
+korean = "우오오~. 이 몸의 전설 절정! 이 몸의 뜨거운 영혼이 타오른다!<end>"
 
 ["1410559"]
 japanese = "追加メッセージここから<end>"

@@ -140,6 +140,10 @@ korean = "…나한테 명령하지 마.<end>"
 japanese = "くすっ。<line-break>なにを恐れているんだい？<end>"
 korean = "후훗. 뭘 두려워하는 거지?<end>"
 
+["1400040"]
+japanese = "王妃様からお話は伺っています。<line-break>どうぞ、お通りください。<end>"
+korean = "왕비님께 말씀 들었습니다. 들어가십시오.<end>"
+
 ["1400041"]
 japanese = "…これで強くなれるんだな。<end>"
 korean = "…이제 강해질 수 있는 거군.<end>"
@@ -480,6 +484,10 @@ korean = "…제네테스?<end>"
 japanese = "おもしろい展開ですけれど<line-break>ありえませんわ。<line-break>　<line-break>つまり、レムオン様も<line-break>おびき寄せられたと。<end>"
 korean = "흥미로운 전개이긴 하지만 있을 수 없는 일이군요. 즉, 레무온 님도 유인당했다는 거군요.<end>"
 
+["1400207"]
+japanese = "僕から説明させてもらうよ。<line-break>エリエナイ公レムオン、フフ。<end>"
+korean = "내가 설명하지. 말도 안 되는 공작 레몬, 후후.<end>"
+
 ["1400209"]
 japanese = "そうですか…。<end>"
 korean = "그렇습니까….<end>"
@@ -636,6 +644,10 @@ korean = "그 목소리… 샤리구나!! 나와!<end>"
 japanese = "行かせないよ。<line-break>言ったでしょ？<line-break>君は招かれざる客だって。<line-break>僕はこれを使ってやるんだ。<line-break>それをジャマするのは<line-break>ほっとけないな。<end>"
 korean = "보내 줄 수 없어. 말했지? 넌 초대받지 않은 손님이라고. 나는 이걸 쓸 거야. 그걸 방해한다면 그냥 둘 수 없지.<end>"
 
+["1400281"]
+japanese = "これが運命。<line-break>かきまわしたところで<line-break>悪く転ぶだけ。<end>"
+korean = "이게 운명이야. 휘저어 봐야 나쁘게 흘러갈 뿐이지.<end>"
+
 ["1400285"]
 japanese = "ん？<line-break>この振動、外から！？<line-break>来たね…。<end>"
 korean = "응? 이 진동, 밖에서!? 왔군….<end>"
@@ -715,6 +727,10 @@ korean = "당신에게 문제는 없습니다.<end>"
 ["1400320"]
 japanese = "私の…内部に…<line-break>問題があるのです<end>"
 korean = "제… 내부에… 문제가 있습니다.<end>"
+
+["1400322"]
+japanese = "<value:$28>よ…。<line-break>そなたがここまで来ること、<line-break>このエアにも見通せなんだ。<line-break>無限のソウルを持つ者の未来は<line-break>誰にも見えぬということか。<end>"
+korean = "<value:$28>여…. 그대가 여기까지 올 줄은 이 에아도 내다보지 못했다. 무한의 소울을 지닌 자의 미래는 누구에게도 보이지 않는다는 건가.<end>"
 
 ["1400323"]
 japanese = "<value:$28>さん。<line-break>来てくれたんですね…。<line-break>ありがとうございます。<end>"

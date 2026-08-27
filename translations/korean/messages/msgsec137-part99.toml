@@ -48,6 +48,14 @@ korean = "신경 쓰이지 않는다<end>"
 japanese = "い？<line-break>そういう話じゃないのかい？　　　　　　<end>"
 korean = "응? 그런 이야기가 아니었나?<end>"
 
+["1370047"]
+japanese = "おっと、そういう話じゃ　　　　　　　　<line-break>なかったっけか？<end>"
+korean = "어라, 그런 얘기가 아니었던가?<end>"
+
+["1370048"]
+japanese = "そういうのはいかんなあ。<line-break>無関心は向上につながらねえぜ？<end>"
+korean = "그런 건 좋지 않아. 무관심은 발전으로 이어지지 않는다고?<end>"
+
 ["1370050"]
 japanese = "なんだ。<line-break>ここの貴族さんたちのことかい？<end>"
 korean = "뭐야. 여기 귀족들 이야기야?<end>"
@@ -624,6 +632,10 @@ korean = "…무슨 일이야?<end>"
 japanese = "よし、では行こうか。<end>"
 korean = "좋아, 그럼 가볼까.<end>"
 
+["1370359"]
+japanese = "どうした？<line-break>調査の前に<line-break>やり残したことがあるのか？<end>"
+korean = "왜 그래? 조사 전에 아직 할 일이 남았나?<end>"
+
 ["1370360"]
 japanese = "ならば行ってくるといい。<line-break>私はここで待っている。<end>"
 korean = "그렇다면 다녀오도록 해. 나는 여기서 기다리겠다.<end>"
@@ -940,6 +952,10 @@ korean = "괜찮아<end>"
 japanese = "ただいま帰りました。<end>"
 korean = "다녀왔습니다.<end>"
 
+["1370546"]
+japanese = "あ、ギルドのご主人さん。<line-break>いらっしゃいませ、こんにちは。<end>"
+korean = "아, 길드 주인님. 어서 오세요, 안녕하세요.<end>"
+
 ["1370548"]
 japanese = "それに、お前さんは、<line-break><value:$28>じゃないか。<end>"
 korean = "게다가 너, <value:$28>잖아.<end>"
@@ -955,6 +971,10 @@ korean = "그, 그만해 주세요!<end>"
 ["1370554"]
 japanese = "困ります、お客さん。<line-break>い、いや…！　触らないで。<end>"
 korean = "곤란합니다, 손님. 아, 아니…! 만지지 마세요.<end>"
+
+["1370555"]
+japanese = "俺様とふたりで愛の冒険に旅立つ。<line-break>それが君の運命なんだ！<end>"
+korean = "이 몸과 둘이 사랑의 모험을 떠난다. 그게 네 운명이야!<end>"
 
 ["1370556"]
 japanese = "あっ、<value:$28>さん！<line-break>助けてください！<end>"
@@ -1036,6 +1056,10 @@ korean = "그, 그만해 주세요!<end>"
 japanese = "困ります、お客さん。<line-break>い、いや…！　触らないで。<end>"
 korean = "곤란합니다, 손님. 아, 아니…! 만지지 마세요.<end>"
 
+["1370591"]
+japanese = "俺様とふたりで愛の冒険に旅立つ。<line-break>それが君の運命なんだ！<end>"
+korean = "이 몸과 둘이 사랑의 모험을 떠난다. 그게 네 운명이야!<end>"
+
 ["1370592"]
 japanese = "あっ、<value:$28>さん！<line-break>助けてください！<end>"
 korean = "아, <value:$28>님! 도와주세요!<end>"
@@ -1075,6 +1099,10 @@ korean = "네.<end>"
 ["1370608"]
 japanese = "ちぇっ。<end>"
 korean = "쳇.<end>"
+
+["1370611"]
+japanese = "ほう、そりゃよかったな。<line-break>見たとこ、冒険者のようだが…。<end>"
+korean = "호오, 그거 잘됐군. 보아하니 모험자인 것 같은데….<end>"
 
 ["1370612"]
 japanese = "<value:$28>か…、いい名だ。<line-break>オッシのとこで教わってるのか。<line-break>ふうん…、あいつんとこで…<line-break>おっと悪い、俺はゼネテスだ。<end>"
@@ -1175,6 +1203,10 @@ korean = "맞아, <value:$28> 씨가 있었잖아.<end>"
 ["1370651"]
 japanese = "あの、実は私、これから<line-break>酒場の用事でお使いに<line-break>行かなければならないんです。<line-break>この先のスラムにある<line-break>酒場なのですが…。<end>"
 korean = "저기, 사실 저는 지금부터 술집 심부름을 가야 합니다. 이 앞 빈민가에 있는 술집인데요….<end>"
+
+["1370654"]
+japanese = "最近、このロストールでも、<line-break>女の人を狙って付きまとってくる<line-break>変質者が出るらしいんです。<line-break><value:$28>さんは、<line-break>冒険者志望でしたよね？<end>"
+korean = "최근 로스토올에서도 여자를 노리고 따라다니는 변태가 나타난대요. <value:$28> 씨는 모험자 지망이었죠?<end>"
 
 ["1370656"]
 japanese = "よかった！<line-break>じゃ、よろしくお願いします！<end>"

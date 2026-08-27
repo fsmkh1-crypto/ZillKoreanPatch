@@ -208,6 +208,10 @@ korean = "어, <value:$28> 아니야. 설마 네가 이 아이 보호자냐?<end
 japanese = "エア…？　エアってえと…<line-break>ま、まさかあんた、<line-break>あの、エルズのエアか！<line-break>ひっ！<line-break>こ、こいつは失礼しましたっ！<end>"
 korean = "에아…? 에아라면… 서, 설마 당신, 그 엘즈의 에아인가! 힉! 시, 실례했습니다!<end>"
 
+["1420092"]
+japanese = "へええ、こいつはこいつは。<line-break>…で、どこまで行かれる旅で？<end>"
+korean = "호오, 이거 이거. …그래서 어디까지 가는 여행이신가?<end>"
+
 ["1420095"]
 japanese = "…無理が、ないですかね？<end>"
 korean = "…무리하는 건, 아닌가요?<end>"
@@ -395,6 +399,10 @@ korean = "젠장, 도망가자!<end>"
 ["1420162"]
 japanese = "アキュリュースに、何をしに行く？<end>"
 korean = "아큐류스에 뭘 하러 가는 거지?<end>"
+
+["1420166"]
+japanese = "その答え、自分で考えるといいわ。<line-break>考えている間は、生きることができる。<line-break> <line-break>真剣に考えている間は、<line-break>憎しみを忘れることができる。<end>"
+korean = "그 답은 스스로 생각해 봐. 생각하는 동안은 살아갈 수 있어. 진지하게 생각하는 동안은 증오를 잊을 수 있으니까.<end>"
 
 ["1420170"]
 japanese = "追加メッセージここから<end>"
@@ -664,6 +672,10 @@ korean = "아니, 아니야! 그게 아니라니까!<end>"
 japanese = "そいじゃ、こういうのはどうだ？<line-break><line-break><line-break>これから俺たちみんなで<line-break><value:$28>を迎えに出て、<line-break>そのまま冒険の旅に出ちまう。<end>"
 korean = "그럼 이런 건 어때? 이제 우리 모두 <value:$28>을 마중 나가서 그대로 모험 여행을 떠나는 거야.<end>"
 
+["1420282"]
+japanese = "バイアシオン大陸といわず、<line-break>世界の果てを見るような旅に。<end>"
+korean = "바이아시온 대륙뿐 아니라 세상 끝까지 보는 여행을.<end>"
+
 ["1420284"]
 japanese = "行こうっ！<end>"
 korean = "가자!<end>"
@@ -728,6 +740,10 @@ korean = "불가능하겠지.<end>"
 japanese = "セラ…。<end>"
 korean = "세라….<end>"
 
+["1420304"]
+japanese = "なぜ俺たちがここにいるか、<line-break>考えろ。<line-break> <line-break>俺たちは、それぞれが帰る理由と<line-break>場所を抱えているからこそ、<line-break>今、ここにいる。<end>"
+korean = "우리가 왜 여기 있는지 생각해라. 우리는 각자 돌아갈 이유와 장소가 있기 때문에 지금 여기 있는 거다.<end>"
+
 ["1420305"]
 japanese = "そりゃそうだけどよお…。<end>"
 korean = "그야 그렇긴 하지만….<end>"
@@ -755,6 +771,10 @@ korean = "나는 알노툰으로 간다. 이즈키야르의 무덤을 만들어 
 ["1420313"]
 japanese = "面倒だがな。<end>"
 korean = "귀찮긴 하지만.<end>"
+
+["1420314"]
+japanese = "わしはもちろん、<line-break>ドワーフ王国じゃわい。<line-break> <line-break>訪ね来てくれるのであれば、<line-break>でかい炉があるからの、<line-break>いい仕事ができよう。<end>"
+korean = "나는 물론 드워프 왕국이지. 찾아온다면 큰 화로가 있으니 좋은 일을 할 수 있을 게야.<end>"
 
 ["1420315"]
 japanese = "じゃ、俺はおっさんたちと<line-break>途中まで行くぜ。<line-break> <line-break>姉ちゃんがいつか帰ってくるまで<line-break>ノーブルを守るのは、俺だからな。<end>"
@@ -1640,6 +1660,10 @@ korean = "불가능하겠지.<end>"
 japanese = "セラ…。<end>"
 korean = "세라….<end>"
 
+["1420654"]
+japanese = "なぜ俺たちがここにいるか、<line-break>考えろ。<line-break> <line-break>俺たちは、それぞれが帰る理由と<line-break>場所を抱えているからこそ、<line-break>今、ここにいる。<end>"
+korean = "우리가 왜 여기 있는지 생각해라. 우리는 각자 돌아갈 이유와 장소가 있기 때문에 지금 여기 있는 거다.<end>"
+
 ["1420655"]
 japanese = "そりゃそうだけどよお…。<end>"
 korean = "그야 그렇긴 하지만….<end>"
@@ -1667,6 +1691,10 @@ korean = "나는 알노툰으로 간다. 이즈키야르의 무덤을 만들어 
 ["1420663"]
 japanese = "面倒だがな。<end>"
 korean = "귀찮긴 하지만.<end>"
+
+["1420664"]
+japanese = "わしはもちろん、<line-break>ドワーフ王国じゃわい。<line-break> <line-break>訪ね来てくれるのであれば、<line-break>でかい炉があるからの、<line-break>いい仕事ができよう。<end>"
+korean = "나는 물론 드워프 왕국이지. 찾아온다면 큰 화로가 있으니 좋은 일을 할 수 있을 게야.<end>"
 
 ["1420665"]
 japanese = "じゃ、俺はおっさんたちと<line-break>途中まで行くぜ。<line-break> <line-break>姉ちゃんがいつか帰ってくるまで<line-break>ノーブルを守るのは、俺だからな。<end>"

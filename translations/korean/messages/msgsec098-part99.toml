@@ -24,6 +24,10 @@ korean = "어서 오세요.<end>"
 japanese = "あ…、行っちゃうんですか…？　　　　<line-break>あ、あの…、<line-break>　<line-break>いえっ！　ありがとうございましたー！<line-break>また、いらしてくださいね！<end>"
 korean = "아… 가시는 건가요…? 저, 저기… 아니에요! 감사합니다! 또 와 주세요!<end>"
 
+["980009"]
+japanese = "♪愛されすぎて最・強！<line-break>♪強すぎるのも愛・嬌！<line-break>　<line-break>♪俺の名前はガルドラ～ン<line-break>♪未来の勇者ガルドラ～ン<line-break>♪愛の翼を　君に～<end>"
+korean = "♪사랑받아 최강! ♪너무 강한 것도 애교! ♪내 이름은 갈드란~ ♪미래의 용사 갈드란~ ♪사랑의 날개를 너에게~<end>"
+
 ["980017"]
 japanese = "…<value:$28>さん！<line-break>恐かったです！<end>"
 korean = "…<value:$28> 씨! 무서웠어요!<end>"
@@ -115,6 +119,10 @@ korean = "그럼 안녕. 인연이 있으면 또 만나자.<end>"
 ["980080"]
 japanese = "なによ。っるさいわねー。<line-break>お酒なんか飲んでないわよ。<line-break>　<line-break>もう、余計なところで<line-break>干渉しないでよ。<line-break>なんか用？<end>"
 korean = "뭐야, 시끄럽네. 술 같은 거 안 마셨어. 정말 쓸데없는 데서 간섭하지 마. 무슨 일이야?<end>"
+
+["980081"]
+japanese = "…用もないのに<line-break>ただ、声をかけただけなのね。　<line-break>　<line-break>まあ、いいわ。<line-break>今日はゆっくりと語ってあげる。<line-break>そこに座りなさい。<end>"
+korean = "…볼일도 없는데 그냥 말을 건 거였구나. 뭐, 좋아. 오늘은 천천히 이야기해 줄게. 거기 앉아.<end>"
 
 ["980082"]
 japanese = "す・わ・り・な・さ・い！<end>"

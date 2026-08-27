@@ -100,6 +100,10 @@ korean = "내 힘이 필요하면 불러. 이번엔 내가 네 힘이 될 차례
 japanese = "さあ、目覚めよ。<line-break>ザギヴに潜みし闇よ！<end>"
 korean = "자, 깨어나라. 자기브 안에 숨은 어둠이여!<end>"
 
+["1900068"]
+japanese = "じゃが、シャリよ。<line-break>お主らの切り札は残っておろう。<line-break>あとは任せよう。<line-break>わしは、ここらで、<line-break>わしの運命に決着をつける。<end>"
+korean = "하지만 샤리여, 너희 비장의 수는 남아 있겠지. 뒤는 맡기겠다. 나는 여기서 내 운명과 결판을 내겠다.<end>"
+
 ["1900070"]
 japanese = "さて、わしの運命の幕を<line-break>降ろしてもらおうか。<line-break>　<line-break>…ネメアよ。<end>"
 korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
@@ -331,6 +335,10 @@ korean = "풍운이 급박한 V7의 2다. 예비 메시지 8이군.<end>"
 ["1900198"]
 japanese = "風雲急を告げるＶ７の２だ。<line-break>予備メッセージの９だな。<end>"
 korean = "풍운이 급박한 V7의 2다. 예비 메시지 9이군.<end>"
+
+["1900199"]
+japanese = "風雲急を告げるＶ７の２だ。<line-break>予備メッセージの１０だな。<end>"
+korean = "풍운이 급박한 V7의 2다. 예비 메시지 10이지.<end>"
 
 ["1900200"]
 japanese = "Ｖ７その２終端<end>"

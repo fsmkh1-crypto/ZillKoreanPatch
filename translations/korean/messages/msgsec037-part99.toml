@@ -8,6 +8,10 @@ korean = "여행 출발 11 메시지<end>"
 japanese = "感じる、感じるの…。　　　　　　　　<line-break>　<line-break>私たちにとっていむべき力…　　　　　<line-break>無限のソウルを持つ者を…。<end>"
 korean = "느껴져, 느껴져…. 우리에게 있어야 할 힘… 무한의 소울을 지닌 자를….<end>"
 
+["370002"]
+japanese = "でも、かあさまを閉じこめている<line-break>竜王の手先を避けるにはその力が必要。<line-break>そのあまりにも大きな可能性が。<line-break>その大きさゆえにいむべき希望の力が。<end>"
+korean = "하지만 어머니를 가둔 용왕의 수하를 피하려면 그 힘이 필요해. 너무나 큰 가능성, 그 크기 때문에 두려운 희망의 힘이.<end>"
+
 ["370003"]
 japanese = "お願い、来て…<line-break>私をかあさまのところへ導いて…。　　<end>"
 korean = "부탁이야, 와 줘…. 나를 어머니에게로 인도해 줘….<end>"
@@ -535,6 +539,10 @@ korean = "여왕 에아 님은 천년의 세월을 내다보는 분이야. 틀�
 ["370232"]
 japanese = "あのとき、<value:$28>も<line-break>大変だったんだよな。　　　　　　<line-break>お父さんの<line-break>…イシュベノブおじさんの船が<line-break>行方不明になって、さ…。<end>"
 korean = "그때 <value:$28>도 힘들었지. 아버지… 이슈베노브 아저씨의 배가 실종돼서 말이야….<end>"
+
+["370233"]
+japanese = "それなのに、ごめんな。<line-break>俺、<value:$28>の気持ち、<line-break>ちっとも考えてやれなかった。　　<line-break>ただ、ずっと、<value:$28>に<line-break>当たり散らして…。<end>"
+korean = "그런데도 미안해. 난 <value:$28>의 마음을 조금도 생각하지 못했어. 계속 <value:$28>에게 화풀이만 하고….<end>"
 
 ["370234"]
 japanese = "…それでも、<value:$28>は<line-break>ずっと、俺のそばにいてくれて…。<line-break>わざわざアミラルまで<line-break>花を買いにいくのにも<line-break>ついていていくれて…。<end>"

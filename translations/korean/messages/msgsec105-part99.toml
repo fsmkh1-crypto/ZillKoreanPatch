@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V3-2용 시작<end>"
 japanese = "例の件ですが…。<end>"
 korean = "그 건 말입니다….<end>"
 
+["1050007"]
+japanese = "…おじさま。<line-break>先日、わたくしは何者かに　<line-break>命を狙われました。<line-break>幸いにも<value:$28>が<line-break>かけつけてくれたので、<line-break>無事でしたが…。<end>"
+korean = "…아저씨. 얼마 전 저는 누군가에게 목숨을 노림받았습니다. 다행히 <value:$28>이 달려와 줘서 무사했지만….<end>"
+
 ["1050008"]
 japanese = "そうか、<value:$28>が<line-break>助けたのか…。<end>"
 korean = "그렇군, <value:$28>이 구한 건가….<end>"
@@ -40,6 +44,10 @@ korean = "어떠냐, <value:$28>. 진실을 알고도 목숨을 걸고 지킬 �
 japanese = "そんなことはどうでもいい<end>"
 korean = "그런 건 아무래도 좋아<end>"
 
+["1050025"]
+japanese = "まもなくディンガル軍が<line-break>リベルダム市内にやってくる。<end>"
+korean = "곧 딘갈군이 리벨덤 시내로 들어올 거다.<end>"
+
 ["1050027"]
 japanese = "どうやら、俺の勝ちだな。<line-break>　<line-break>　<line-break>さぁ、こいつらを<line-break>引っとらえてくれ！<end>"
 korean = "아무래도 내 승리군. 자, 이 녀석들을 붙잡아 줘!<end>"
@@ -67,6 +75,10 @@ korean = "…이대로 여기 있으면 잡히는 것도 시간문제…. 어쩔
 ["1050037"]
 japanese = "さあ、早く！<end>"
 korean = "자, 어서!<end>"
+
+["1050038"]
+japanese = "ふむ…、なるほど。<line-break>リベルダムを脱出させてほしいと。<end>"
+korean = "흠… 그렇군. 리벨덤에서 탈출시켜 달라는 거군.<end>"
 
 ["1050040"]
 japanese = "その後の我々の活動にまでは<line-break>助力を求めません。<end>"
@@ -156,6 +168,10 @@ korean = "고마워요…….<end>"
 japanese = "な…、なんですって！？<end>"
 korean = "뭐… 뭐라고요!?<end>"
 
+["1050083"]
+japanese = "わ、わかったわ。<line-break>今は逃げることだけを考えましょう。<end>"
+korean = "아, 알았어. 지금은 도망치는 것만 생각하자.<end>"
+
 ["1050085"]
 japanese = "ふん、お人好しめ。<line-break>ならば、一緒に死ぬがいい。<end>"
 korean = "흥, 인정 많은 녀석. 그렇다면 함께 죽어라.<end>"
@@ -167,6 +183,14 @@ korean = "나이트메어의 물방울은 어떻게 됐지?<end>"
 ["1050090"]
 japanese = "おはよう、荷物泥棒さん。<line-break>気分はいかが。<end>"
 korean = "좋은 아침, 짐 도둑 씨. 기분은 어때?<end>"
+
+["1050097"]
+japanese = "フヒュヒュ。<line-break>クリュセイスお嬢様。<line-break>こちらに。<end>"
+korean = "후히히. 크류세이스 아가씨, 이쪽으로.<end>"
+
+["1050111"]
+japanese = "予備メッセージ１０<line-break>クリュセイス、ボリューム３その２<end>"
+korean = "예비 메시지 10 크류세이스, 볼륨 3 그 2<end>"
 
 ["1050112"]
 japanese = "クリュセイスメッセージ終端<end>"

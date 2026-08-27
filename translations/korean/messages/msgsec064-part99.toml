@@ -16,6 +16,10 @@ korean = "큰일이야, 타르튜바 님이야!<end>"
 japanese = "<value:$28>様、<line-break>早く隠れてください！<end>"
 korean = "<value:$28>님, 빨리 숨으세요!<end>"
 
+["640006"]
+japanese = "今、王女様にお取り次ぎしますから<line-break>お待ちください。<end>"
+korean = "지금 왕녀님께 말씀드릴 테니 기다려 주세요.<end>"
+
 ["640007"]
 japanese = "そこをどけ！<line-break>これ以上逆らうと死刑だぞ！<end>"
 korean = "비켜라! 더 거역하면 사형이다!<end>"
@@ -176,6 +180,10 @@ korean = "지난번에는… 죄송했습니다.<end>"
 japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
 korean = "아, 지나가십시오. <value:$28> 님.<end>"
 
+["640082"]
+japanese = "さぁ、今日はどんなお話を<line-break>聞かせてくださるのです？<end>"
+korean = "자, 오늘은 어떤 이야기를 들려주실 건가요?<end>"
+
 ["640083"]
 japanese = "うふふ…、お話もないのに<line-break>会いにきてくださったんですね。<line-break>　<line-break>フフ、いけませんわ。<line-break>ティアナは<line-break>期待してしまいますよ。<end>"
 korean = "후후… 할 이야기도 없는데 만나러 와 주셨군요. 후후, 그러시면 안 돼요. 티아나는 기대하게 된답니다.<end>"
@@ -239,6 +247,10 @@ korean = "…죄송합니다.<end>"
 ["640116"]
 japanese = "先ほど、レムオン様が<line-break>いらっしゃったのです。　　<line-break>　<line-break><value:$28>様のことを<line-break>本当に得意げに<line-break>お話しされてゆかれました。<end>"
 korean = "방금 레몬 님께서 다녀가셨습니다. <value:$28>님 이야기를 정말 자랑스럽게 하고 가셨어요.<end>"
+
+["640117"]
+japanese = "レムオン様は<line-break>とても妹思いなのですね。　<line-break>　<end>"
+korean = "레몬 님은 정말 여동생을 아끼시는군요.<end>"
 
 ["640123"]
 japanese = "慈愛の神ライラネートよ。　　　<end>"
@@ -555,6 +567,10 @@ korean = "그게, 리벨덤에 장을 보러 나갔다고 해서….<end>"
 ["640255"]
 japanese = "答えなさい、ゼネテス！<line-break>ここで何をしているの！？<end>"
 korean = "대답해, 제네테스! 여기서 뭐 하고 있는 거야!?<end>"
+
+["640256"]
+japanese = "いいえ、その前にお医者様だわ！<line-break>今すぐ城に戻って…<end>"
+korean = "아니, 그 전에 의사부터 불러야 해요! 당장 성으로 돌아가서….<end>"
 
 ["640257"]
 japanese = "バカ！　金切り声を出すな。<line-break>チダフが怯えちまう。<end>"

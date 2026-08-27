@@ -16,6 +16,10 @@ korean = "누구?<end>"
 japanese = "ようこそ、<line-break>勇者<value:$28>様。<end>"
 korean = "어서 오십시오, 용사 <value:$28>님.<end>"
 
+["750006"]
+japanese = "彼女は先のロストール王の娘、<line-break>アトレイア王女。<line-break>　<line-break>ティアナ王女の従姉で、<line-break>彼女に次ぐ王位継承権の<line-break>持ち主さ。<end>"
+korean = "그녀는 선대 로스토올 왕의 딸 아트레이아 왕녀야. 티아나 왕녀의 사촌이며 그녀 다음가는 왕위 계승권자지.<end>"
+
 ["750007"]
 japanese = "そして僕はシャリ、<line-break>知ってるよね？<end>"
 korean = "그리고 나는 샤리, 알고 있지?<end>"
@@ -176,6 +180,10 @@ korean = "미사용: (출구다….)<end>"
 japanese = "シャリ…？<end>"
 korean = "샤리…?<end>"
 
+["750070"]
+japanese = "アトレイア王女、喜んで。<line-break>また、<value:$28>が来てくれた。<end>"
+korean = "아트레이아 왕녀님, 기뻐하세요. 또 <value:$28>이 와 줬습니다.<end>"
+
 ["750071"]
 japanese = "まあ…。<end>"
 korean = "어머….<end>"
@@ -256,6 +264,10 @@ korean = "이건 답례야. 정말 고마워.<end>"
 japanese = "３０００ギア手に入れた。<end>"
 korean = "3000기아를 손에 넣었다.<end>"
 
+["750094"]
+japanese = "それでは、僕が<value:$28>様を<line-break>王宮の外までご案内します。<end>"
+korean = "그럼 제가 <value:$28>님을 왕궁 밖까지 안내하겠습니다.<end>"
+
 ["750095"]
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
@@ -335,6 +347,10 @@ korean = "…그런가.<end>"
 ["750137"]
 japanese = "フゴーの所で<line-break>何を売るつもりなんだい。<end>"
 korean = "후고에게서 뭘 팔 생각이야?<end>"
+
+["750139"]
+japanese = "お姫様を助けるんだって話は<line-break>じゃあ、なんだったんだい？<line-break>　<line-break>俺たちをだましてまで<line-break>金が欲しかったのかい？<line-break>ゲスだねえ。<end>"
+korean = "공주님을 구한다는 얘기는 그럼 뭐였어? 우리까지 속여 가며 돈이 필요했던 거야? 비열하네.<end>"
 
 ["750145"]
 japanese = "いい子だ。<end>"

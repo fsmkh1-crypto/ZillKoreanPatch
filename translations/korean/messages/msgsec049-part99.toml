@@ -36,6 +36,10 @@ korean = "알았어.<end>"
 japanese = "んじゃ、あと１週間も<line-break>ぶらぶらしてるのもなんだしな。<line-break>　<line-break>仕事するか？<line-break><value:$28>？<end>"
 korean = "그럼 앞으로 일주일을 빈둥대기도 그렇고. 일할래, <value:$28>?<end>"
 
+["490022"]
+japanese = "おっと。<line-break>世界に出るより、まずはギルドだ。<line-break>　<line-break>おやじさんの荷物の処分も<line-break>しなくちゃ行けないし、<line-break>お前さんも今日から冒険者だ。<end>"
+korean = "잠깐. 세상으로 나가기 전에 우선 길드부터야. 아버지 짐도 처분해야 하고, 너도 오늘부터 모험자잖아.<end>"
+
 ["490023"]
 japanese = "ギルドで冒険者登録は<line-break>済ませとかないと困るぜ？　　　　<line-break><value:$28>。<end>"
 korean = "길드에서 모험자 등록은 해 둬야 한다고, <value:$28>.<end>"
@@ -212,6 +216,10 @@ korean = "그 남자의 동료냐? …쳇, 타.<end>"
 japanese = "いやあ、悪いな。<line-break>じゃ、よろしく頼むわ。<end>"
 korean = "아, 미안하네. 그럼 잘 부탁해.<end>"
 
+["490129"]
+japanese = "うるせえ。<line-break>賭けの負けは負けだ。<line-break>とっとと乗れ。<end>"
+korean = "시끄러워. 내기에서 진 건 진 거야. 얼른 타.<end>"
+
 ["490139"]
 japanese = "さて、と。着いたな。　<line-break>　<line-break>　<line-break>帝都エンシャント。<line-break>ディンガル帝国の首都。<line-break>大陸北部最大の都市だ。<end>"
 korean = "자, 도착했군. 제도 엔샨트. 딘갈 제국의 수도이자 대륙 북부 최대 도시다.<end>"
@@ -223,6 +231,10 @@ korean = "자, 정보 수집이다. 나중에 다시 만나자.<end>"
 ["490141"]
 japanese = "ああ、旅芸人の一座だろ。来てたよ。<end>"
 korean = "아아, 유랑 예인단 말이지. 왔었어.<end>"
+
+["490142"]
+japanese = "え、リルビーの女の子の踊り子？<line-break>見なかったようだが…。<end>"
+korean = "뭐, 릴비 여자아이 무희? 못 본 것 같은데….<end>"
 
 ["490143"]
 japanese = "…<value:$28>、つけられたな。<end>"
@@ -259,6 +271,10 @@ korean = "그래. 현자의 숲으로 서두르자.<end>"
 ["490155"]
 japanese = "よ、どんなぐあいだ？<end>"
 korean = "여어, 상태는 어때?<end>"
+
+["490158"]
+japanese = "あるものさ。何気なく…<line-break>本当に何気なくしたことが…　<line-break>　<line-break>もう二度と<line-break>取り返しの着かないことに、<line-break>なってしまうこと、てのは…。<end>"
+korean = "그런 일이 있지. 아무 생각 없이… 정말 무심코 한 일이… 다시는 되돌릴 수 없는 일이 되어 버리는 것….<end>"
 
 ["490159"]
 japanese = "もう、いいのか？<end>"
@@ -396,6 +412,10 @@ korean = "좋은 아침, <value:$28>, 루루안타. 루루안타는 정말 활�
 japanese = "オルファウスさんが<line-break>助けてくれたんだよぉ。　　　　　　　<line-break><value:$28>からもお礼言ってね。<end>"
 korean = "오르파우스 씨가 구해 줬어. <value:$28>도 고맙다고 해 줘.<end>"
 
+["490216"]
+japanese = "ふふ、どういたしまして。<line-break>ゼネテスさんはどうしました？<end>"
+korean = "후후, 천만에요. 제네테스 씨는 어떻게 됐나요?<end>"
+
 ["490217"]
 japanese = "まだ寝てるよぉ。<line-break>ほんと、お寝坊さんなんだからぁ！<end>"
 korean = "아직 자고 있어. 정말 늦잠꾸러기라니까!<end>"
@@ -419,6 +439,10 @@ korean = "와, 대단해 대단해ー!!<end>"
 ["490223"]
 japanese = "騒ぐなって。頭に響く。　　　<end>"
 korean = "시끄럽게 굴지 마. 머리가 울려.<end>"
+
+["490224"]
+japanese = "オルファウスとゼネテスと<line-break>朝まで飲んでて、このザマだ。<end>"
+korean = "오르파우스랑 제네테스랑 아침까지 마시다가 이 꼴이 됐어.<end>"
 
 ["490226"]
 japanese = "しかし、さすがは<line-break>破壊神の円卓騎士ですよね。<line-break>　<line-break>猫の姿になってなお<line-break>人語を操るんですから。<end>"
@@ -555,6 +579,10 @@ korean = "자네가 운명에 선택받은 인간이라는 뜻이지.<end>"
 ["490295"]
 japanese = "待ってよぉ！<end>"
 korean = "기다려어!<end>"
+
+["490296"]
+japanese = "もう、ちゃんとオルファウスさんに<line-break>ごあいさつしてよぉ。<line-break>　<line-break>そういうことって、いっつも<line-break>ルルアンタしか<line-break>気づかないんだからぁ！<end>"
+korean = "정말, 오르파우스 씨께 제대로 인사해 줘. 그런 건 늘 루루안타만 알아챈다니까!<end>"
 
 ["490298"]
 japanese = "うーい、じゃ、行きますか。<end>"

@@ -24,6 +24,10 @@ korean = "하하하하, 말도 안 돼! 아, 실례. 모험자의 상상력에�
 japanese = "どうしたの？<line-break>キミ、元気ないよ？<end>"
 korean = "왜 그래? 너, 기운이 없어 보여?<end>"
 
+["1160014"]
+japanese = "ふぅん、ウルカーンの長老に<line-break>そんなこと言われたんだ。<end>"
+korean = "흐음, 울칸의 장로에게 그런 말을 들었구나.<end>"
+
 ["1160018"]
 japanese = "ね、<value:$28>、<line-break>この町を、よーく、探してみようよ。<line-break>ボク、火の巫女に会ってみたいんだ。<end>"
 korean = "있잖아, <value:$28>, 이 마을을 꼼꼼히 찾아보자. 나, 불의 무녀를 만나 보고 싶어.<end>"
@@ -92,6 +96,10 @@ korean = "(이건…… 일기인가?)<end>"
 japanese = "私が生涯でただひとり愛した女性よ。<line-break>私の永遠の恋人フレアよ…。<line-break>どうか、彼女がとこしえに<line-break>この世界にあり続けますように…。<end>"
 korean = "내 평생 단 한 사람 사랑한 여자여. 나의 영원한 연인 플레어여…. 부디 그녀가 영원히 이 세계에 존재하기를….<end>"
 
+["1160067"]
+japanese = "そうですか。あなたが<line-break>シェムハザ様を殺したのですか。<end>"
+korean = "그렇습니까. 당신이 셈하자 님을 죽였군요.<end>"
+
 ["1160068"]
 japanese = "私に対して、<line-break>気を使う必要はありません。<end>"
 korean = "저에게 신경 쓰실 필요는 없습니다.<end>"
@@ -111,6 +119,10 @@ korean = "죄송…합니다.<end>"
 ["1160082"]
 japanese = "…そうです。<end>"
 korean = "…그렇습니다.<end>"
+
+["1160083"]
+japanese = "つまり、封印を守り通すなんて、<line-break>もうできないんだよ。<end>"
+korean = "그러니까 봉인을 끝까지 지키는 건 이제 불가능해.<end>"
 
 ["1160085"]
 japanese = "…そうです。<line-break>私には存在価値がありません。<end>"
@@ -143,6 +155,10 @@ korean = "나의 역할…, 앞으로의 내 존재의 의미…. 당신은 내�
 ["1160098"]
 japanese = "あ…。<end>"
 korean = "아…<end>"
+
+["1160099"]
+japanese = "<value:$28>～。<line-break>無粋だなあ、君って奴は。　<line-break>　<line-break>これから、ふたりっきりで<line-break>出かけようっていう時に<line-break>顔出さないでくれるかなあ？<end>"
+korean = "<value:$28>~. 참 눈치 없네. 이제 둘이서 나가려는 참인데 얼굴 좀 내밀지 말아 줄래?<end>"
 
 ["1160102"]
 japanese = "…<value:$28>…。<line-break>このようなときに来られるとは…。<line-break>　<line-break>…私は、これから、死にます。<end>"
