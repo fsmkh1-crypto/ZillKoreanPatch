@@ -32,6 +32,7 @@ FIXES = {
 
 record_re = re.compile(r'^\["(\d+)"\]$')
 changed = 0
+already = 0
 files_changed = set()
 found = set()
 
@@ -47,6 +48,11 @@ for path in ROOT.glob("msgsec*-part99.toml"):
         if current in FIXES and line.startswith('korean = "'):
             old, new = FIXES[current]
             actual = line[len('korean = "'):-1]
+            if actual == new:
+                already += 1
+                found.add(current)
+                current = None
+                continue
             if actual != old:
                 raise SystemExit(f"guard mismatch id={current} path={path}: {actual!r}")
             lines[i] = f'korean = "{new}"'
@@ -61,4 +67,4 @@ for path in ROOT.glob("msgsec*-part99.toml"):
 missing = set(FIXES) - found
 if missing:
     raise SystemExit(f"missing ids: {sorted(missing)}")
-print(f"surface batch9: changed={changed} files={len(files_changed)}")
+print(f"surface batch9: changed={changed} already={already} files={len(files_changed)}")
