@@ -20,6 +20,10 @@ korean = "아니, 어쩌면 그 아이가 <value:$28>의 여행에 따라간다�
 japanese = "行こうか、<value:$28>。<end>"
 korean = "가자, <value:$28>.<end>"
 
+["1930008"]
+japanese = "俺の力じゃないさ。<line-break>必死に国を守ろうとした<line-break>みんなのおかげだ。<end>"
+korean = "내 힘이 아니야. 필사적으로 나라를 지키려 한 모두의 덕분이지.<end>"
+
 ["1930010"]
 japanese = "それにねー、ゼネテスには、<line-break>さいこーの相棒がいるんだもんね。<end>"
 korean = "그리고 말이지—, 제네테스에겐 최고의 동료가 있잖아.<end>"

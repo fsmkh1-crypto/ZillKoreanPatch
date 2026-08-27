@@ -180,6 +180,10 @@ korean = "안 가<end>"
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
 
+["1400059"]
+japanese = "レムオン？<line-break>こりゃおもしろい。<line-break>おい、お前がこの手紙の主か？<end>"
+korean = "레몬? 이거 재미있군. 이봐, 네가 이 편지의 주인이냐?<end>"
+
 ["1400060"]
 japanese = "だっ誰が、貴様などに<line-break>ラブレターを出すものか！！<end>"
 korean = "누, 누가 네놈 따위에게 러브레터를 보낸다는 거냐!!<end>"
@@ -259,6 +263,10 @@ korean = "싫어어어어!<end>"
 ["1400101"]
 japanese = "くっ、<value:$28>。<line-break>いくぞ！！<end>"
 korean = "큭, <value:$28>. 간다!!<end>"
+
+["1400103"]
+japanese = "あの力…？<line-break>…フフ、そういうことか。<line-break>今日は新月であったな。<end>"
+korean = "그 힘…? …후후, 그런 거였나. 오늘은 신월이었지.<end>"
 
 ["1400105"]
 japanese = "<value:$28>様！<line-break>ご無事ですか！？<end>"
@@ -343,6 +351,10 @@ korean = "그 힘…? …후후, 그런 거였나. 오늘은 신월이었지.<en
 ["1400138"]
 japanese = "…るせぇ…な…。<line-break>聞こえてるぜ…。<end>"
 korean = "…시끄러…워…. 들리고 있어….<end>"
+
+["1400140"]
+japanese = "とにかく、じっとしていてください！<line-break>すぐに人を呼んで運ばせます。<end>"
+korean = "어쨌든 가만히 계세요! 곧 사람을 불러 옮기게 하겠습니다.<end>"
 
 ["1400141"]
 japanese = "甘っちょろい冒険者め！<line-break>これが私の破滅につながるのだぞ…！<end>"

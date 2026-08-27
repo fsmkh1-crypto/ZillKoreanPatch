@@ -168,6 +168,10 @@ korean = "예비 메시지야, 꼬마야. 노엘 2/V3의 그 10이야.<end>"
 japanese = "そうですか。あの子とともに、<line-break>この海の向こうを目指しますか。<end>"
 korean = "그렇습니까. 그 아이와 함께 이 바다 너머를 향하시겠습니까.<end>"
 
+["1410053"]
+japanese = "ふふふ、あの子が、<line-break>自分の旅に他人を誘うなんて、<line-break>本当に珍しい。<end>"
+korean = "후후후, 그 아이가 자기 여행에 남을 초대하다니 정말 드문 일이네.<end>"
+
 ["1410054"]
 japanese = "いや、ひょっとしたら、　　　<line-break>あの子が<value:$28>の旅に<line-break>　<line-break>ついていくということなのかも<line-break>しれませんね。<end>"
 korean = "아니, 어쩌면 그 아이가 <value:$28>의 여행에 따라간다는 뜻일지도 모르겠군요.<end>"
@@ -208,6 +212,10 @@ korean = "………………. 훗, 당신다운 작별 인사군.<end>"
 japanese = "では行こうか、<value:$28>。<line-break>行ける限り、地の果てまでも。<end>"
 korean = "그럼 가자, <value:$28>. 갈 수 있는 데까지, 세상 끝까지.<end>"
 
+["1410069"]
+japanese = "俺の力じゃないさ。<line-break>必死に国を守ろうとした<line-break>みんなのおかげだ。<end>"
+korean = "내 힘이 아니야. 필사적으로 나라를 지키려 한 모두의 덕분이지.<end>"
+
 ["1410070"]
 japanese = "まったくだよ。<line-break>感謝しなきゃね。<line-break> <line-break>貴族にだって、<line-break>ゼネさんみたいなのがいるんだ。<line-break>この国は変わるかもしれないよ。<end>"
 korean = "정말 그래. 감사해야겠네. 귀족 중에도 제네 씨 같은 사람이 있구나. 이 나라도 변할지 몰라.<end>"
@@ -247,6 +255,10 @@ korean = "…숙모가 죽고 나서 역시 뭔가 달라졌지.<end>"
 ["1410081"]
 japanese = "変わりたくないって言ったとこで、<line-break>変わらずにゃいられない…。<line-break> <line-break>それだけ叔母貴の存在が<line-break>大きかったってことだものな。<end>"
 korean = "변하고 싶지 않다고 해도 변하지 않을 수는 없어…. 그만큼 숙모의 존재가 컸다는 뜻이니까.<end>"
+
+["1410083"]
+japanese = "俺も、ひとつ、<line-break>料理でもやってみようと思うんだが…<line-break>どうかな？<end>"
+korean = "나도 한번 요리를 해 볼까 하는데… 어때?<end>"
 
 ["1410084"]
 japanese = "な、なんだよ、<value:$28>？<line-break>その、けげんそうな顔は？<line-break>俺の腕が疑わしいってのか？<end>"

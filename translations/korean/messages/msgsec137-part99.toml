@@ -572,6 +572,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1370261"]
+japanese = "私は、<line-break>私が管理するはずの<line-break>大切なものをもらいに来たの。<line-break>神殿でたずねてみたけど、<line-break>誰も何も教えてくれないの。<line-break>くすくす…。ひどい話よね。<end>"
+korean = "나는 내가 관리해야 할 소중한 것을 받으러 왔어. 신전에서 물어봤지만 아무도 아무것도 안 알려 주더라. 후후… 너무하잖아.<end>"
+
 ["1370262"]
 japanese = "だから、みんな殺しちゃった。<end>"
 korean = "그래서 모두 죽여 버렸어.<end>"
@@ -1115,6 +1119,10 @@ korean = "높으신 분들이 못 미더우니 우리끼리라도 마을을 지�
 ["1370486"]
 japanese = "おう、来たか、<value:$28>。<line-break>例のしゃべるゴブリンどもの<line-break>居場所の見当がついたぞ。<line-break>思ったとおりだ。<line-break>ゼグナ鉱山にいるらしい。<end>"
 korean = "오, 왔구나 <value:$28>. 그 말하는 고블린 녀석들의 위치를 알아냈어. 생각대로 제그나 광산에 있는 모양이야.<end>"
+
+["1370490"]
+japanese = "…いつも言ってるはずだぞ。<line-break>一番大切なのは仲間だってな。<line-break>　<end>"
+korean = "…늘 말했을 텐데. 가장 중요한 건 동료라고.<end>"
 
 ["1370491"]
 japanese = "おっと、待ちな、<value:$28>。<line-break> <line-break> <line-break>…気をつけろよ。<end>"

@@ -48,6 +48,10 @@ korean = "기다려, <value:$28>. 마물의 기척이 느껴진다.<end>"
 japanese = "<value:$28>、初めてか？<line-break>魔物と戦うのは。<end>"
 korean = "<value:$28>, 처음인가? 마물과 싸우는 건.<end>"
 
+["320014"]
+japanese = "心配するな。訓練と同じでいい。<line-break>兄がついている。<line-break>…ゆくぞ。<end>"
+korean = "걱정 마. 훈련과 똑같이 하면 돼. 형이 곁에 있다. …가자.<end>"
+
 ["320015"]
 japanese = "大丈夫か、<value:$28>？<end>"
 korean = "괜찮아, <value:$28>?<end>"
@@ -176,6 +180,10 @@ korean = "아버님. 이제 <value:$28>도 수행을 떠날 나이입니다. 저
 japanese = "…ロイがそこまで言うならばよかろう。<line-break><value:$28>も行くがよい。<end>"
 korean = "…로이가 그렇게까지 말한다면 좋다. <value:$28>도 가거라.<end>"
 
+["320059"]
+japanese = "冒険者は万事に備えることが肝心だ。<line-break>復活の真珠を持っていくとよい。<end>"
+korean = "모험자는 만사에 대비하는 것이 중요하다. 부활의 진주를 가져가도록 해.<end>"
+
 ["320060"]
 japanese = "では、私は村の広場で待っている。<line-break>用意ができたら来てくれ。<end>"
 korean = "그럼 나는 마을 광장에서 기다리겠다. 준비가 되면 와 줘.<end>"
@@ -183,6 +191,10 @@ korean = "그럼 나는 마을 광장에서 기다리겠다. 준비가 되면 �
 ["320062"]
 japanese = "…いや、なんでもない。<line-break>　<line-break>　<line-break>お前もロイと同じように、<line-break>神器の守護者となるべく<line-break>修行の旅に出る年になったのだな…。<end>"
 korean = "…아니, 아무것도 아니다. 너도 로이처럼 신기의 수호자가 되기 위한 수행의 여행을 떠날 나이가 되었구나….<end>"
+
+["320063"]
+japanese = "フフ、私らしくもない。<line-break>こんなことを言うようではいかんな。<line-break>　<end>"
+korean = "후후, 나답지 않군. 이런 말을 해선 안 되겠어.<end>"
 
 ["320064"]
 japanese = "…強くなるのだぞ。<end>"
@@ -411,6 +423,10 @@ korean = "세라라는 남자는 믿을 수 없다<end>"
 ["320145"]
 japanese = "（村の人たちを助けに行かなきゃ…。）<line-break>　<line-break>　<line-break>（…そう。<line-break>　兄さんと約束したんだから…。）<end>"
 korean = "(마을 사람들을 구하러 가야 해….) (…그래. 오빠와 약속했으니까….)<end>"
+
+["320146"]
+japanese = "結界か…。<line-break>モンスターを全滅させるまで<line-break>逃げられないようだな。<end>"
+korean = "결계인가… 몬스터를 전멸시키기 전엔 도망칠 수 없는 모양이군.<end>"
 
 ["320148"]
 japanese = "…フ。<line-break>ロストメモリー予備４だ<end>"
