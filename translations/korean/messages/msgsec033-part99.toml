@@ -704,6 +704,10 @@ korean = "네가 노블에 있는 동안 계속 가던 마을 밖 숲으로 갔�
 japanese = "おやおや、フリントさんは<line-break>今日ご出発でしょう？<line-break>ここでおしゃべりしてていいんですか？<end>"
 korean = "어머나, 플린트 씨는 오늘 출발하시죠? 여기서 이야기하고 있어도 괜찮습니까?<end>"
 
+["330181"]
+japanese = "<select><value:$20>%3エリス王妃に会って<line-break>生命のかけらをもらってこい。<line-break>王妃はロストール王宮だ。<end>王妃のいる王宮へは、<line-break>とにかく奥へ奥へと行けばいい。<line-break>頼んだぜ、<value:$28>。<end>急いで戻れ。<line-break>…思ったより、衰弱が激しい。<end>"
+korean = "<select><value:$20>%3엘리스 왕비를 만나 생명의 조각을 받아 와. 왕비는 로스토올 왕궁에 있어.<end>왕비가 있는 왕궁에는 계속 안쪽으로 가면 돼. 부탁한다, <value:$28>.<end>서둘러 돌아와. …생각보다 쇠약이 심해.<end>"
+
 ["330182"]
 japanese = "<value:$28>……、急いでね。<line-break>早く帰ってきてね。早く帰ってきて<line-break><line-break><end>フリントさんを笑顔にしてあげてね。<end>"
 korean = "<value:$28>……, 서둘러 줘.빨리 돌아와 줘. 빨리 돌아와 줘.<end>플린트 씨를 웃게 해 줘.<end>"
@@ -799,6 +803,10 @@ korean = "그렇군. 그럼 단단히 준비해서 오게.<end>"
 ["330206"]
 japanese = "じゃあ、この辺で<line-break>少し休むことにしよう。<end>"
 korean = "그럼 이 근처에서 조금 쉬도록 하자.<end>"
+
+["330207"]
+japanese = "<select><value:$20>%3エリス王妃に会って<line-break>生命のかけらをもらってこい。<line-break>王妃はロストール王宮だ。<end>王妃のいる王宮へは、<line-break>とにかく奥へ奥へと行けばいい。<line-break>頼んだぜ、<value:$28>。<end>急いで戻れ。<line-break>…思ったより、衰弱が激しい。<end>"
+korean = "<select><value:$20>%3엘리스 왕비를 만나 생명의 조각을 받아 와. 왕비는 로스토올 왕궁에 있어.<end>왕비가 있는 왕궁에는 계속 안쪽으로 가면 돼. 부탁한다, <value:$28>.<end>서둘러 돌아와. …생각보다 쇠약이 심해.<end>"
 
 ["330208"]
 japanese = "この奥にみごとな千年樹が　　　<line-break>見えますじゃろう？<line-break>あすこが広場ですじゃ。<line-break>その広場を右手に行くと貴族街。<line-break>その貴族街のずっとずっと奥が<line-break>王妃様のおられる王宮ですじゃ。<end>"
