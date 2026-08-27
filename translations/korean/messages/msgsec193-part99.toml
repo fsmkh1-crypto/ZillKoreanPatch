@@ -16,6 +16,10 @@ korean = "아니, 어쩌면 그 아이가 <value:$28>의 여행에 따라간다�
 japanese = "行こうか、<value:$28>。<end>"
 korean = "가자, <value:$28>.<end>"
 
+["1930010"]
+japanese = "それにねー、ゼネテスには、<line-break>さいこーの相棒がいるんだもんね。<end>"
+korean = "그리고 말이지—, 제네테스에겐 최고의 동료가 있잖아.<end>"
+
 ["1930011"]
 japanese = "そう。<line-break>ハンナはよくわかってるな。<end>"
 korean = "그래. 한나는 잘 알고 있구나.<end>"
