@@ -40,6 +40,10 @@ korean = "흐음. 그건 견해 차이군. 내 눈에는 네가 도움을 청하
 japanese = "いいだろ。<line-break>なんも、問題はねえ。<line-break>そうだろ、<value:$28>？<end>"
 korean = "괜찮잖아. 아무 문제도 없어. 그렇지, <value:$28>?<end>"
 
+["1350023"]
+japanese = "あ、ああ。<line-break>よろしく頼む、<line-break>冒険者、ゼネテス。<end>"
+korean = "아, 그래. 잘 부탁한다, 모험자 제네테스.<end>"
+
 ["1350024"]
 japanese = "それと、だ。<end>"
 korean = "그리고 말이야.<end>"
@@ -155,6 +159,10 @@ korean = "<value:$28>님… 저도 할 수 있을까요? 제네테스 님의 기
 ["1350091"]
 japanese = "ええ、まだロストールは<line-break>滅んだわけではありませんわ。<line-break> <line-break>リューガ邸は<line-break>エスト様がお継ぎになるはず。<end>"
 korean = "네, 아직 로스토올이 멸망한 것은 아닙니다. 류가 저택은 에스트 님이 이어받으실 겁니다.<end>"
+
+["1350092"]
+japanese = "あの方ならば、きっと<line-break>お力を貸してくださるはずです。<end>"
+korean = "그분이라면 분명 힘을 빌려주실 겁니다.<end>"
 
 ["1350093"]
 japanese = "ああ、<line-break>次々とやらねばならないことが<line-break>見えてくる…。<line-break>きっと…<line-break>きっとゼネテス様が、<line-break>お示しくださったのですね…。<end>"
@@ -348,6 +356,10 @@ korean = "…그건 슬퍼.<end>"
 japanese = "もはや助けも間にあわん！<line-break>これで終わりだ！<end>"
 korean = "이젠 구원도 늦었다! 이걸로 끝이다!<end>"
 
+["1350176"]
+japanese = "　　　　　くすくす…<line-break>　　うふふふ…あーっはははは！<end>"
+korean = "후후후… 우후후후… 아하하하하!<end>"
+
 ["1350177"]
 japanese = "貴様は！　道化！<line-break>なにがおかしい！<end>"
 korean = "네놈은! 광대! 뭐가 우습지!<end>"
@@ -503,6 +515,10 @@ korean = "티아나…?<end>"
 ["1350233"]
 japanese = "ティアナ…？<line-break>まさか、お前さんが黒幕…？<end>"
 korean = "티아나…? 설마 네가 흑막…?<end>"
+
+["1350235"]
+japanese = "そして…あなた。<line-break>この泥棒猫…<line-break>わたしからすべてを奪うつもりなのね。<line-break>あなたには…<line-break>あなたには…<line-break>何も…何も渡さない！<end>"
+korean = "그리고… 당신. 이 도둑고양이… 내게서 모든 걸 빼앗을 생각이군. 당신에게는… 아무것도… 아무것도 주지 않을 거야!<end>"
 
 ["1350239"]
 japanese = "ならば、死ね！<line-break>多くの人間のために！<end>"
@@ -664,9 +680,17 @@ korean = "왕궁 안의 분위기가 이상합니다.<end>"
 japanese = "ノ、ノーブル伯！　<line-break>我らに刃向かわれるおつもりか？<line-break> <line-break>この決起はご尊兄の主導だというのに…<line-break>なんと嘆かわしいことか！<end>"
 korean = "노, 노블 백작! 우리에게 맞설 셈이오? 이번 거사는 귀하의 형님이 주도한 것인데… 참으로 한탄스럽소!<end>"
 
+["1350294"]
+japanese = "くっ。ジャマするか、貴様！<line-break>剣のサビにしてくれるわ！<end>"
+korean = "큭. 방해하겠다는 거냐, 네놈! 검의 녹으로 만들어 주마!<end>"
+
 ["1350297"]
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28>님!<end>"
+
+["1350298"]
+japanese = "ありがとうございます！<line-break>では…よろしくお願いします。<end>"
+korean = "감사합니다! 그럼… 잘 부탁드립니다.<end>"
 
 ["1350300"]
 japanese = "私を…救ってくださるのですか？<end>"

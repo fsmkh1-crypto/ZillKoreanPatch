@@ -8,6 +8,10 @@ korean = "아이린 메시지 VOL5용 시작<end>"
 japanese = "（…閉まっているようだ。）<end>"
 korean = "(…닫혀 있는 것 같다.)<end>"
 
+["1020004"]
+japanese = "それじゃ、行くとするか。<line-break><value:$28>、お前も来るだろう？<end>"
+korean = "그럼 출발할까. <value:$28>, 너도 올 거지?<end>"
+
 ["1020009"]
 japanese = "先生のこと、よろしく頼んだぜ。<end>"
 korean = "선생님을 잘 부탁한다.<end>"

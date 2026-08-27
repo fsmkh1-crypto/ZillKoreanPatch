@@ -8,6 +8,10 @@ korean = "아길샤이어 메시지 vol3 시작<end>"
 japanese = "ひー、だっせー。<line-break>信じられねーよ！<end>"
 korean = "으하, 촌스러워. 믿을 수가 없네!<end>"
 
+["730002"]
+japanese = "だろ？　だろ？　ハハハ！<line-break>お前もそう思うだろ？　な？<end>"
+korean = "그렇지? 그렇지? 하하하! 너도 그렇게 생각하지? 응?<end>"
+
 ["730003"]
 japanese = "…うーん、世の中って<line-break>なかなかうまくいかないんだなあ。<end>"
 korean = "…음, 세상일은 참 뜻대로 안 되는구나.<end>"
@@ -87,6 +91,10 @@ korean = "지옥까지 쫓겠다고 했지. …자비는 없다. 가자. 월광�
 ["730039"]
 japanese = "アーギルシャイア様！<line-break><value:$28>が、ここまで<line-break>攻めてまいりました！<end>"
 korean = "아길샤이어 님! <value:$28>가 여기까지 쳐들어왔습니다!<end>"
+
+["730041"]
+japanese = "っくっ…。はぁ…。<line-break>ヴァシュタールにやられた傷が…。<end>"
+korean = "윽…. 하아…. 바슈타르에게 당한 상처가….<end>"
 
 ["730049"]
 japanese = "私は精霊たちの死の苦しみから<line-break>生まれた魔人…。<line-break>　<line-break>すべての生きとし生けるものに<line-break>死の苦しみを教えてあげるわ！<end>"

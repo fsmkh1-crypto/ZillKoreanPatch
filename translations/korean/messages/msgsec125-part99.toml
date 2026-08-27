@@ -56,6 +56,10 @@ korean = "누나! 일단 알현실로 가자! 누나라면 적 백 명이나 이
 japanese = "早く行こう、<value:$28>！<line-break>ゼネテスが処刑されたら、<line-break>ロストールはどうなるかわからない。<end>"
 korean = "빨리 가자, <value:$28>! 제네테스가 처형되면 로스토올이 어떻게 될지 몰라.<end>"
 
+["1250050"]
+japanese = "ゼネテス救出ボゲー<line-break>ゼネテス救出ボゲー<line-break>ゼネテス救出ボゲー<line-break>ゼネテス救出ボゲー<line-break>ゼネテス救出ボゲー<line-break>ゼネテス救出ボゲー<end>"
+korean = "제네테스 구출 보게 제네테스 구출 보게 제네테스 구출 보게 제네테스 구출 보게 제네테스 구출 보게 제네테스 구출 보게<end>"
+
 ["1250052"]
 japanese = "………………。<line-break><line-break><line-break>…ゼネテスを救うのか？<end>"
 korean = "………………. …제네테스를 구할 건가?<end>"
@@ -308,6 +312,10 @@ korean = "호수에 가라앉은 유적? 찾는다 해도 어떻게 거기까지
 japanese = "湖に沈んだ遺跡かぁ…<line-break>心辺りがないなぁ。<line-break><line-break>僕のあまり知らない大陸の南側に<line-break>あるのかもしれないね。<end>"
 korean = "호수에 가라앉은 유적이라…. 짐작 가는 데가 없네. 내가 잘 모르는 대륙 남쪽에 있을지도 몰라.<end>"
 
+["1250242"]
+japanese = "ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<end>"
+korean = "벨제 성공 보게 벨제 성공 보게 벨제 성공 보게 벨제 성공 보게 벨제 성공 보게 벨제 성공 보게<end>"
+
 ["1250243"]
 japanese = "湖に沈んだ遺跡？<line-break>ゴメンね。<value:$28>。<line-break>ルルアンタ、分からないよぉ。<end>"
 korean = "호수에 가라앉은 유적? 미안해, <value:$28>. 루루안타는 모르겠어.<end>"
@@ -348,9 +356,21 @@ korean = "불사의 왕 샬롬이군요…. 그의 다음 표적은… 아마 �
 japanese = "ベルゼーヴァ様…。<line-break><line-break><line-break>………………。<end>"
 korean = "벨제바 님…. ……………….<end>"
 
+["1250274"]
+japanese = "ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<end>"
+korean = "벨제 실패 보게 벨제 실패 보게 벨제 실패 보게 벨제 실패 보게 벨제 실패 보게 벨제 실패 보게<end>"
+
+["1250277"]
+japanese = "ベルゼーヴァの消えた先を<line-break>探していると？<line-break><line-break>新月の塔か、夢幻の湖か…。<line-break>奴は以前からこの二箇所を<line-break>調査していたらしい。<end>"
+korean = "벨제바가 사라진 곳을 찾고 있다고요? 신월의 탑이나 몽환의 호수…. 녀석은 예전부터 이 두 곳을 조사했던 모양이에요.<end>"
+
 ["1250279"]
 japanese = "魔導の塔、夢幻の湖…。<line-break><line-break><line-break>私は、そこへ禁呪を求めに行ったのだ。<line-break>人間の、さらなる進歩のために…！<end>"
 korean = "마도의 탑, 몽환의 호수…. 나는 그곳에 금주를 찾으러 갔다. 인간의 더 큰 진보를 위해…!<end>"
+
+["1250285"]
+japanese = "ちょっとわからないわ。<line-break>でも革新って言うくらいだし<line-break>強力な力が必要よね。<line-break>どこか強力な力が封じられた場所に<line-break>いるんじゃない？<end>"
+korean = "잘 모르겠어. 그래도 혁신이라고 할 만큼 강한 힘이 필요하겠지. 어디 강력한 힘이 봉인된 곳에 있는 거 아닐까?<end>"
 
 ["1250306"]
 japanese = "聖座のボゲー<line-break>聖座のボゲー<line-break>聖座のボゲー<line-break>聖座のボゲー<line-break>聖座のボゲー<line-break>聖座のボゲー<end>"

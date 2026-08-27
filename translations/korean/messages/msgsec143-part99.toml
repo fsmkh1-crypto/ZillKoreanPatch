@@ -8,6 +8,10 @@ korean = "구프토크 볼륨1 메시지 시작<end>"
 japanese = "ここまでたどり着けるとは、<line-break>少しは腕が立つらしいな。<end>"
 korean = "여기까지 도달한 걸 보니 제법 실력이 있나 보군.<end>"
 
+["1430002"]
+japanese = "さぁて、どうだかな？            <line-break>　<line-break>　<line-break>最近じゃ、仕事にあぶれて<line-break>にわか冒険者で食いつないでる奴も<line-break>多いって言うぜ。<end>"
+korean = "글쎄, 어떨까? 요즘은 일거리가 없어 임시 모험자로 먹고사는 녀석도 많다더군.<end>"
+
 ["1430004"]
 japanese = "ならば、ひとつ<line-break>腕前を試させてもらおう。<end>"
 korean = "그렇다면 실력을 한번 시험해 보지.<end>"
@@ -247,6 +251,10 @@ korean = "예, 두목!<end>"
 ["1430099"]
 japanese = "助かったわ、<value:$28>。<line-break>おかげで、また船を出せる。<line-break>秘宝探しに出られるわ。<end>"
 korean = "살았어, <value:$28>. 덕분에 다시 배를 띄울 수 있어. 비보를 찾으러 갈 수 있겠네.<end>"
+
+["1430101"]
+japanese = "言ってみれば、海の冒険者ね。<line-break>人知れず眠っている宝を求めて<line-break>島々をめぐっているの。<line-break>かつて海賊が隠した<line-break>財宝とかをさ…。<end>"
+korean = "말하자면 바다의 모험자지. 아무도 모르게 잠든 보물을 찾아 섬들을 돌아다녀. 옛 해적이 숨긴 보물 같은 걸 말이야….<end>"
 
 ["1430103"]
 japanese = "しぶきの群島、古城、<line-break>闇の門の島について知りたければ、<line-break>また、私の所に来て。<line-break>今度、話してあげるわ。<end>"

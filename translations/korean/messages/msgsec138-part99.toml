@@ -144,6 +144,10 @@ korean = "보고 싶지 않아<end>"
 japanese = "…フフ、フフフフ。<end>"
 korean = "…후후, 후후후후.<end>"
 
+["1380068"]
+japanese = "すまぬ、すまぬ。<line-break>いや、わらわも無駄なことを<line-break>したものだと思ってな。<line-break>…尋ねる必要なぞ、<line-break>これっぽっちもなかったのじゃ。<end>"
+korean = "미안하구나, 미안해. 나도 쓸데없는 짓을 했다고 생각해서 말이지. …물을 필요 따윈 조금도 없었어.<end>"
+
 ["1380070"]
 japanese = "そうか、そなたといえども、<line-break>未来については、とりわけ奇抜な考えは<line-break>持っておらぬのだな…。<line-break>少し、勉強になった。<end>"
 korean = "그렇군, 자네라도 미래에 대해서는 특별히 기발한 생각을 가진 건 아니군…. 조금 배웠다.<end>"
@@ -159,6 +163,10 @@ korean = "잘 가게. 또 만나세.<end>"
 ["1380075"]
 japanese = "…フフ、フフフフ。<end>"
 korean = "…후후, 후후후후.<end>"
+
+["1380076"]
+japanese = "すまぬ、すまぬ。<line-break>いや、わらわも無駄なことを<line-break>したものだと思ってな。<line-break>…尋ねる必要なぞ、<line-break>これっぽっちもなかったのじゃ。<end>"
+korean = "미안하구나, 미안해. 나도 쓸데없는 짓을 했다고 생각해서 말이지. …물을 필요 따윈 조금도 없었어.<end>"
 
 ["1380080"]
 japanese = "例えば、今宵の出会いが、<line-break>思いがけぬものだったとしたなら…<line-break>あるいは、わらわはそこに…<line-break>………………。<end>"
@@ -459,6 +467,10 @@ korean = "너한테도 들렸나….<end>"
 ["1380229"]
 japanese = "…そんな顔をするな。<end>"
 korean = "…그런 얼굴 하지 마.<end>"
+
+["1380241"]
+japanese = "が…<line-break>うぬは我が剣を受けても<line-break>立ち上がってきた。<end>"
+korean = "하지만… 너는 내 검을 맞고도 다시 일어섰다.<end>"
 
 ["1380242"]
 japanese = "何が、お前に<line-break>それほどの力をもたらす…。<end>"
@@ -800,6 +812,10 @@ korean = "다, 당신이 숲의 현자님?<end>"
 japanese = "えっ！　いいんですか？<end>"
 korean = "어! 정말 괜찮은 건가요?<end>"
 
+["1380359"]
+japanese = "構いませんとも。<line-break>たいしたおもてなしもできませんがね。<end>"
+korean = "물론 괜찮습니다. 대단한 대접은 못 해 드리지만요.<end>"
+
 ["1380360"]
 japanese = "それじゃあ、<line-break>よろしくお願いします。<end>"
 korean = "그럼 잘 부탁드립니다.<end>"
@@ -832,6 +848,10 @@ korean = "닥쳐, 이 바보 고양이.<end>"
 japanese = "おっと！<end>"
 korean = "어이쿠!<end>"
 
+["1380374"]
+japanese = "すいませんね、<value:$28>。<line-break>何せ、気の利かないネコでね。<end>"
+korean = "미안하네요, <value:$28>. 워낙 눈치 없는 고양이라서요.<end>"
+
 ["1380377"]
 japanese = "そうですね。<line-break>それでは、おやすみなさい。<end>"
 korean = "그렇군요. 그럼 안녕히 주무세요.<end>"
@@ -855,6 +875,10 @@ korean = "아길샤이어…?<end>"
 ["1380385"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
+
+["1380386"]
+japanese = "強大で凶々しい力を持つ<line-break>１２の魔道器のことです。<line-break>　<line-break>かつて、破壊神ウルグの<line-break>復活に使われたと言われています。<line-break>　<end>"
+korean = "강대하고 불길한 힘을 지닌 12개의 마도기입니다. 과거 파괴신 울그의 부활에 쓰였다고 합니다.<end>"
 
 ["1380391"]
 japanese = "ひょっとして…<line-break>名前を知るもの、ネモ？<end>"
@@ -1183,6 +1207,10 @@ korean = "부재중. 곧 돌아옵니다.<end>"
 ["1380526"]
 japanese = "　　　　　留守中。すぐに戻ります。　　　　　<end>"
 korean = "부재중. 곧 돌아옵니다.<end>"
+
+["1380527"]
+japanese = "今はお留守みたいですね。<line-break>行きましょう、<value:$28>さん。<end>"
+korean = "지금은 부재중인 것 같네요. 가죠, <value:$28>님.<end>"
 
 ["1380528"]
 japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"

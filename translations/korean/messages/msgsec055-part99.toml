@@ -192,6 +192,10 @@ korean = "괴, 괴이하군! 전부 같은 문신….<end>"
 japanese = "兄弟子の意見が正しいでござる。　<end>"
 korean = "사형의 의견이 옳습니다.<end>"
 
+["550068"]
+japanese = "この機会を逃したら<line-break>あの奇怪な奴らの正体はわからぬ！<end>"
+korean = "이 기회를 놓치면 저 기괴한 녀석들의 정체를 알 수 없다!<end>"
+
 ["550069"]
 japanese = "む、面目もござらぬ。<end>"
 korean = "면, 면목이 없소이다.<end>"
@@ -320,6 +324,14 @@ korean = "＜없음＞<end>"
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
 
+["550117"]
+japanese = "…死んだ父ちゃんと母ちゃんが見えた。<line-break>なつかしかった…。<end>"
+korean = "…죽은 아빠와 엄마가 보였어. 그리웠어….<end>"
+
+["550118"]
+japanese = "あ、ああ、姉ちゃんのいうとおりだ<line-break>早く追いかけなくちゃ！<end>"
+korean = "아, 그래. 누나 말이 맞아. 빨리 쫓아가야 해!<end>"
+
 ["550119"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
@@ -335,6 +347,10 @@ korean = "＜없음＞<end>"
 ["550122"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
+
+["550124"]
+japanese = "それより、さっきの人<line-break>追いかけなきゃ！　村のみんなが…！<end>"
+korean = "그보다 아까 그 사람을 쫓아가야 해! 마을 사람들이…!<end>"
 
 ["550125"]
 japanese = "ソウルリープだってぇ？　　　　　<end>"
@@ -540,6 +556,10 @@ korean = "반…, 이럴 때 그런 농담은 그만해. 그것보다 <value:$28
 japanese = "ホントだ。<end>"
 korean = "정말이야.<end>"
 
+["550186"]
+japanese = "し、師匠、すばらしい！<line-break>背筋がゾクッとくる寒さでござる！<end>"
+korean = "스, 스승님, 훌륭하십니다! 등골이 오싹해지는 추위입니다!<end>"
+
 ["550189"]
 japanese = "ちっ、ホントなら<line-break>大ウケなのによ！<end>"
 korean = "쳇, 진짜라면 대박인데!<end>"
@@ -727,6 +747,10 @@ korean = "＜없음＞<end>"
 ["550238"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
+
+["550239"]
+japanese = "…目が覚めるとキミがいた。<line-break>ボクは、眠りのお姫様…。<end>"
+korean = "…눈을 뜨니 네가 있었어. 나는 잠자는 공주….<end>"
 
 ["550240"]
 japanese = "どーして、キミは<line-break>ボクにだけ、そーゆー態度取るかなあ！<end>"
@@ -1044,6 +1068,10 @@ korean = "<value:$28>씨!<end>"
 japanese = "わたしです、ノエルです。　　<end>"
 korean = "저예요, 노엘이에요.<end>"
 
+["550335"]
+japanese = "あっ、そうだ、<line-break>わたしの仲間を紹介します！　　<line-break>　<end>"
+korean = "아, 맞다. 제 동료를 소개할게요!<end>"
+
 ["550336"]
 japanese = "俺はレイヴン。<line-break>ま、ひとつよろしく。<end>"
 korean = "난 레이븐이야. 뭐, 잘 부탁해.<end>"
@@ -1051,6 +1079,10 @@ korean = "난 레이븐이야. 뭐, 잘 부탁해.<end>"
 ["550337"]
 japanese = "え、で…ですね…。<line-break>こちらはカフィンです。<end>"
 korean = "저, 그… 그렇군요…. 이쪽은 카핀입니다.<end>"
+
+["550339"]
+japanese = "相部屋はイヤなんだろ？<line-break>なんなら、今夜は野宿したら？<end>"
+korean = "한방 쓰는 건 싫지? 그럼 오늘 밤은 야영할래?<end>"
 
 ["550340"]
 japanese = "うるさい男ね。<line-break>あんた１人でおやりなさい。<end>"
@@ -1132,6 +1164,10 @@ korean = "싫다 정말…. 다들 시문원의 문신을 하고 있어. 우리,
 japanese = "えと、…せもんいん？<end>"
 korean = "저기, …세몬인?<end>"
 
+["550370"]
+japanese = "施文院とは、天空神ノトゥーンに　<line-break>仕える宗派のひとつだ。<line-break>　<line-break>もともとは、<line-break>各地を巡って邪悪なものを<line-break>封印していたのだ。<end>"
+korean = "시문원은 천공신 노툰을 섬기는 종파 중 하나다. 원래는 각지를 돌아다니며 사악한 것을 봉인하던 자들이지.<end>"
+
 ["550372"]
 japanese = "そして、現在もな…。<end>"
 korean = "그리고 지금도 말이지….<end>"
@@ -1143,6 +1179,10 @@ korean = "그럼 이 사람들은….<end>"
 ["550374"]
 japanese = "間違いない。<line-break>施文院の暗殺者、告死天使だ。<end>"
 korean = "틀림없어. 시문원의 암살자, 고사천사다.<end>"
+
+["550376"]
+japanese = "戦っているときの真剣な顔…<line-break>フフフ…、かわいかったわよ。<end>"
+korean = "싸울 때의 진지한 얼굴… 후후후… 귀여웠어.<end>"
 
 ["550377"]
 japanese = "あ、あの、それじゃ、<line-break>わたしはこれで失礼します！<end>"

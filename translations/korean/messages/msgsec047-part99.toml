@@ -48,6 +48,10 @@ korean = "크헉!<end>"
 japanese = "あぁ？　いきなり何言い出すんだ？<end>"
 korean = "뭐? 갑자기 무슨 소리야?<end>"
 
+["470031"]
+japanese = "…けっ、ガルドランのくせに<line-break>偉そうに語りやがって…。<end>"
+korean = "…쳇, 갈드란 주제에 잘난 척 떠들어 대긴….<end>"
+
 ["470032"]
 japanese = "ナッジ…！？<end>"
 korean = "나지…!?<end>"
@@ -71,6 +75,14 @@ korean = "…<value:$28>! 반에게는 여관이….<end>"
 ["470039"]
 japanese = "いいって、いいって。<line-break>じゃ、よろしくな、<value:$28>。<end>"
 korean = "괜찮아, 괜찮아. 그럼 잘 부탁해, <value:$28>.<end>"
+
+["470040"]
+japanese = "ねえ、本当にガルドランを<line-break>放っておいていいのかなあ。<end>"
+korean = "있지, 정말 갈드란을 그냥 내버려 둬도 되는 걸까?<end>"
+
+["470042"]
+japanese = "じゃ、俺はこいつの面倒みるから。<line-break>あとで、一緒にな。<end>"
+korean = "그럼 난 이 녀석을 돌볼게. 나중에 같이 가자.<end>"
 
 ["470044"]
 japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ２の予備その２だ！<end>"
@@ -103,6 +115,10 @@ korean = "이 몸은 미래의 용자 갈드란! V2 예비 8이다!<end>"
 ["470051"]
 japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ２の予備その９だ！<end>"
 korean = "이 몸은 미래의 용자 갈드란! V2 예비 9이다!<end>"
+
+["470052"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ２の予備その１０だ！<end>"
+korean = "나는 미래의 용사 갈드란! V2 예비 메시지 10이다!<end>"
 
 ["470053"]
 japanese = "ガルドラン・ボリューム２終端<end>"

@@ -8,6 +8,10 @@ korean = "에스텔 메시지 VOL1 시작<end>"
 japanese = "ちぇっ、ちょっと見せてくれても<line-break>いいのにな。<end>"
 korean = "쳇, 조금 보여 줘도 되잖아.<end>"
 
+["880004"]
+japanese = "見てよ、この時計塔。<line-break>大陸一でっかい魔法仕掛けの時計。<end>"
+korean = "봐, 이 시계탑. 대륙에서 가장 큰 마법 장치 시계야.<end>"
+
 ["880006"]
 japanese = "あのさ、<line-break>動いているってすごいよね…。<line-break>　<line-break>ボクの住んでいるところにも<line-break>魔法仕掛けのものがたくさん<line-break>あるんだけどさ…。<end>"
 korean = "있잖아, 움직인다는 거 대단하지…. 내가 사는 곳에도 마법 장치가 잔뜩 있지만 말이야….<end>"
@@ -55,6 +59,10 @@ korean = "뭐, 그렇지<end>"
 ["880026"]
 japanese = "まだまだ駆け出し<end>"
 korean = "아직 풋내기<end>"
+
+["880027"]
+japanese = "もう戻ってください！<line-break>前みたいにギリギリでは困ります！<end>"
+korean = "이제 돌아가 주세요! 지난번처럼 아슬아슬하면 곤란해요!<end>"
 
 ["880028"]
 japanese = "ちゃんと戻るよ！<line-break>そんなにボクが信用できないの！？<end>"

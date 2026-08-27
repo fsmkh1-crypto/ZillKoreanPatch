@@ -748,6 +748,10 @@ korean = "이크레문 님!! 무사하셨습니까! 다행입니다. 정말 다�
 japanese = "お父…さ…<end>"
 korean = "아버… 지…<end>"
 
+["1400326"]
+japanese = "…いえ<line-break>アンギルダン様も<line-break>ありがとうございます。<end>"
+korean = "…아뇨. 앙길단 님도 감사합니다.<end>"
+
 ["1400327"]
 japanese = "私…ずっと考えてました。<line-break><value:$28>さんが助けてくれたら<line-break>どんなにうれしいだろうって。<end>"
 korean = "저… 계속 생각했어요. <value:$28>님이 도와주시면 얼마나 기쁠까 하고요.<end>"
@@ -2235,6 +2239,10 @@ korean = "맡는다<end>"
 ["1400760"]
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
+
+["1400761"]
+japanese = "そうか、引き受けてくれるかね。<line-break>では、よろしく頼むぞ。<end>"
+korean = "그런가, 맡아 주겠나. 그럼 잘 부탁하네.<end>"
 
 ["1400762"]
 japanese = "そうか、困ったな…<line-break><end>"

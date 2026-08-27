@@ -728,6 +728,10 @@ korean = "오, <value:$28>. 돌아왔군. 수고했다.<end>"
 japanese = "な、何事だ？<end>"
 korean = "무, 무슨 일이지?<end>"
 
+["1370389"]
+japanese = "うむ…。<line-break>この世が乱れるとき<line-break>竜王が覚醒すると言われておる。<line-break>つまり、<line-break>乱世の原因を除くべく<line-break>目覚めるというのだが…。<end>"
+korean = "음…. 세상이 어지러워질 때 용왕이 깨어난다고 전해진다. 즉 난세의 원인을 없애기 위해 깨어난다는 뜻인데….<end>"
+
 ["1370392"]
 japanese = "わかりました、父上。<line-break><value:$28>も、<line-break>連れていってよろしいでしょうか。<end>"
 korean = "알겠습니다, 아버님. <value:$28>도 데려가도 될까요?<end>"
@@ -791,6 +795,10 @@ korean = "마법에는 종류마다 고유한 레벨이 있다. 그리고 그 �
 ["1370423"]
 japanese = "例えば、<value:$28>、<line-break>お前が水属性のスライムを<line-break>倒したとしよう。<line-break>すると、お前は水属性の精霊力を<line-break>得られるのだ。<end>"
 korean = "예를 들어 <value:$28>, 네가 물 속성 슬라임을 쓰러뜨렸다고 하자. 그러면 너는 물 속성 정령력을 얻게 된다.<end>"
+
+["1370425"]
+japanese = "水属性ならば、最初は１レベルの<line-break>アクアしか使えないが、<line-break>３レベルではポイズン、<line-break>４レベルではインビジブルを<line-break>覚えられるのだ。<end>"
+korean = "물 속성이라면 처음엔 레벨 1 아쿠아만 쓸 수 있지만 레벨 3엔 포이즌, 레벨 4엔 인비저블을 익힐 수 있다.<end>"
 
 ["1370427"]
 japanese = "本当にすべて理解しているのだな？<end>"
@@ -1303,6 +1311,10 @@ korean = "부재중. 곧 돌아옵니다.<end>"
 ["1370677"]
 japanese = "　　　　　　　　　留守中。すぐに戻ります。　　　<end>"
 korean = "부재중. 곧 돌아옵니다.<end>"
+
+["1370678"]
+japanese = "今は居ないみたいですね。<line-break>行きましょう、<value:$28>さん。<end>"
+korean = "지금은 없는 모양이네요. 가죠, <value:$28>님.<end>"
 
 ["1370679"]
 japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"

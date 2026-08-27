@@ -24,6 +24,10 @@ korean = "그럼 안녕, <value:$28>.<end>"
 japanese = "すまんな、年寄りの昔語りに<line-break>長々とつきあわせてしもうた…。　　<line-break>　<line-break>…ちと、外の空気が吸いとうなった。<end>"
 korean = "미안하구나, 늙은이의 옛날이야기에 오래 붙잡아 뒀어…. …잠깐 바깥 공기를 쐬고 싶구나.<end>"
 
+["580054"]
+japanese = "実は、わしも<line-break>ネメア同様、お尋ね者なのじゃ。<line-break>　<line-break>わしには<line-break>ズバズバものを言うクセがある。<line-break>それが、皇帝にうとまれてな。<end>"
+korean = "사실 나도 네메아처럼 수배자다. 나는 말을 거침없이 하는 버릇이 있지. 그게 황제 눈 밖에 나서 말이야.<end>"
+
 ["580057"]
 japanese = "例えば、今、こうやって酒が飲める。<line-break>これには、何ものもかえられぬ。<line-break>そうじゃろう、<value:$28>？<end>"
 korean = "예를 들면 지금 이렇게 술을 마실 수 있지. 이건 무엇과도 바꿀 수 없다. 그렇지, <value:$28>?<end>"
@@ -84,6 +88,10 @@ korean = "기다려.<end>"
 japanese = "竜の死骸か…。<end>"
 korean = "용의 시체인가….<end>"
 
+["580084"]
+japanese = "死んだ竜っていや、<line-break>昔、賢王アルキュオネたちに<line-break>倒された邪竜エルアザルだけだ。<line-break>つまり、<line-break>こいつはエルアザルの死体ってわけだ。<end>"
+korean = "죽은 용이라면 옛날 현왕 알큐오네 일행에게 쓰러진 사룡 엘아자르뿐이야. 즉 이건 엘아자르의 시체라는 거지.<end>"
+
 ["580085"]
 japanese = "おーこわ、こいつ…。<line-break>…まだ、怨念が残ってら。<end>"
 korean = "으, 무서워라 이 녀석…. …아직 원한이 남아 있군.<end>"
@@ -95,6 +103,10 @@ korean = "어쨌든 사룡이야. 섣불리 다가가 깨웠다간 큰일 나지
 ["580088"]
 japanese = "しっかしまた、<line-break>暇つぶしに冒険してたら、<line-break>えらいもんを見つけちまったな。<line-break>ま、ここに長居は無用ってことだ。<line-break>じゃあな。<end>"
 korean = "참, 심심풀이로 모험하다가 엄청난 걸 찾아버렸군. 뭐, 여기 오래 있을 필요는 없겠지. 그럼 잘 가.<end>"
+
+["580092"]
+japanese = "よ。<line-break>ここで会ったも何かの縁だ。<line-break>ひとつ自己紹介と行こうぜ。<line-break>俺はゼネテス。冒険者だ。<line-break>世界中を旅してる。<line-break>お前さんは？<end>"
+korean = "여어. 여기서 만난 것도 인연이지. 자기소개나 하자고. 난 제네테스, 모험자다. 세계를 돌아다니고 있어. 넌?<end>"
 
 ["580093"]
 japanese = "<value:$28>…ね。<line-break>なるほど。フフ…　　　　　　　　　<line-break>　<line-break>つまり、ロストールの貴族<line-break><value:$28>・リューガ様って<line-break>わけだ。<end>"

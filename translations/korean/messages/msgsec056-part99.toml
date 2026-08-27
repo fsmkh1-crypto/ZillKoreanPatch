@@ -28,6 +28,14 @@ korean = "용왕의 앞잡이 놈. 무슨 꿍꿍이냐!<end>"
 japanese = "ただ、世界の均衡をとること。　<end>"
 korean = "그저 세계의 균형을 맞추는 것.<end>"
 
+["560011"]
+japanese = "これまでも、そして、これからも<line-break>竜王様の目的は変わらぬ。<end>"
+korean = "지금까지도, 앞으로도 용왕님의 목적은 변하지 않는다.<end>"
+
+["560013"]
+japanese = "愚かな…。<line-break>我々はバランスをとっているのだ。<line-break>　<line-break>こざかしい人間どもが、<line-break>いたずらに数を増やし、<line-break>世界を破滅させぬよう…<end>"
+korean = "어리석군…. 우리는 균형을 맞추고 있다. 영악한 인간들이 함부로 수를 늘려 세계를 멸망시키지 않도록….<end>"
+
 ["560015"]
 japanese = "争いに消えた命はどうなる？<line-break>俺たちの悲しみはどうなる？<end>"
 korean = "싸움 속에 사라진 목숨은 어떻게 되는 거지? 우리의 슬픔은 어떻게 되는 거냐?<end>"
@@ -75,6 +83,10 @@ korean = "저항하지 않는 사람에게 폭력을 휘두르다니 최악이�
 ["560033"]
 japanese = "なんだ、貴様ら。<line-break>まとめて牢にぶちこむぞ！<end>"
 korean = "뭐냐, 네놈들. 모조리 감옥에 처넣겠다!<end>"
+
+["560034"]
+japanese = "はっ、ネメアの威を借る<line-break>木っ端役人のくせに！　いくわよ！<end>"
+korean = "흥, 네메아의 위세를 빌린 말단 관리 주제에! 간다!<end>"
 
 ["560035"]
 japanese = "レイヴン！<end>"
@@ -715,6 +727,10 @@ korean = "말도 안 하고 있다니! 계속 아무 말도 안 했다니!<end>"
 ["560252"]
 japanese = "俺…<line-break>俺、本当は…<end>"
 korean = "나… 사실 나는….<end>"
+
+["560253"]
+japanese = "お願い！　言わないで！　　　　　　　<line-break>聞くのが…恐い…。<line-break>　<line-break>一番大切な仲間なのに<line-break>ときどき、すごく遠くに感じる…。<line-break>　<end>"
+korean = "부탁해! 말하지 마! 듣는 게… 무서워…. 가장 소중한 동료인데도 가끔 너무 멀게 느껴져….<end>"
 
 ["560254"]
 japanese = "レイヴンも、ナーシェスも、<line-break>カフィンも…。<end>"
@@ -1971,6 +1987,10 @@ korean = "…으… 흑… 으으…<end>"
 ["560870"]
 japanese = "…<value:$28><line-break>…ゴメン…なさ…い…。<end>"
 korean = "…<value:$28> …미안…해….<end>"
+
+["560871"]
+japanese = "ディンガル軍が<line-break>入城を始めたようだ。<line-break>俺が門を開いたのだ。<line-break>降伏しなければ、リベルダムは<line-break>ディンガルに破壊されてしまうのでな。<end>"
+korean = "딘갈군이 입성을 시작한 모양이다. 내가 문을 열었다. 항복하지 않으면 리벨덤은 딘갈에게 파괴되고 말 테니.<end>"
 
 ["560874"]
 japanese = "大変です。カルラが！<line-break>街を破壊しています！<end>"

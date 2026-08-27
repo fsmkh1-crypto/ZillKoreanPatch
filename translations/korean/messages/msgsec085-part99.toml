@@ -216,6 +216,10 @@ korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시
 japanese = "そこで、ね。　　　　　　　　　　　<end>"
 korean = "그래서 말인데.<end>"
 
+["850097"]
+japanese = "あなたを、ザギヴの次の<line-break>皇帝にしてあげようと思うわけ。<end>"
+korean = "당신을 자기브 다음 황제로 만들어 주려는 거야.<end>"
+
 ["850100"]
 japanese = "どお？<line-break>ディンガルの皇帝になってみない？　<end>"
 korean = "어때? 딘갈의 황제가 되어 보지 않을래?<end>"
@@ -236,9 +240,17 @@ korean = "어머, 아쉽네? 뭐, 좋아. 난 기다릴 테니까 마음이 내�
 japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
 korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
 
+["850125"]
+japanese = "だけど、そんなことでは<line-break>予言は終わらないって思うわけ。<end>"
+korean = "하지만 그런 걸로 예언이 끝날 거라곤 생각하지 않아.<end>"
+
 ["850127"]
 japanese = "そこで、ね。　　　　　　　　　　　<end>"
 korean = "그래서 말인데.<end>"
+
+["850128"]
+japanese = "あなたを、ザギヴの次の<line-break>皇帝にしてあげようと思うわけ。<end>"
+korean = "당신을 자기브 다음 황제로 만들어 주려는 거야.<end>"
 
 ["850131"]
 japanese = "どお？<line-break>ディンガルの皇帝になってみない？　<end>"

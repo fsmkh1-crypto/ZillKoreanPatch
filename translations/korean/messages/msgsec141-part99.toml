@@ -664,6 +664,10 @@ korean = "…적어도… 그래, 적어도 그분이 곁에 있어 준다면…
 japanese = "…でもあの方も、<line-break>もう長いこと姿を<line-break>見せてくださらない。<line-break>ふふ、きっと…あきれられたのね。<end>"
 korean = "…하지만 그분도 오랫동안 모습을 보여 주지 않으셨어. 후후, 분명… 질리신 거겠지.<end>"
 
+["1410296"]
+japanese = "本当なら、あの方の強さの半分、<line-break>いいえ百分の一の勇気でも<line-break>身に着けるべきだったのに…。<line-break>私は、現実を見ようとはしていなかった。<end>"
+korean = "정말이라면 그분 강함의 절반, 아니 백분의 일만큼의 용기라도 익혔어야 했는데…. 나는 현실을 보려 하지 않았어.<end>"
+
 ["1410297"]
 japanese = "だから今、<line-break>私はその責任から<line-break>逃げることはできない。<line-break>もしも、<line-break>もう一度あの方と出会えた時に、私は…。<end>"
 korean = "그래서 지금 나는 그 책임에서 도망칠 수 없어. 만약 다시 그분을 만날 수 있다면 나는….<end>"
@@ -796,6 +800,10 @@ korean = "앗, 또 바이만 오빠한테 아부해!<end>"
 japanese = "退屈しない旅になりそうですねえ、<line-break><value:$28>？<end>"
 korean = "심심하지 않은 여행이 되겠네요, <value:$28>?<end>"
 
+["1410340"]
+japanese = "忘れるは、人の常。<line-break>忘れられぬは、人の業…そう言います。<line-break>　<line-break>見つかるかどうか、わかりませんよ？<line-break>それでも行くんですね？<end>"
+korean = "잊는 것은 사람의 상사, 잊지 못하는 것은 사람의 업이라고 합니다. 찾을 수 있을지 모릅니다. 그래도 가시겠습니까?<end>"
+
 ["1410341"]
 japanese = "今さら、わかりきったことでしたね。<end>"
 korean = "이제 와선 너무 당연한 일이었네요.<end>"
@@ -843,6 +851,10 @@ korean = "저기, <value:$28>. <value:$28>한테는 이제 다 끝난 거야?<en
 ["1410355"]
 japanese = "そうだね。私もヴァイも、<line-break>もうあんな風に戦うことは<line-break>ないって思ってるんだ。<line-break>でもね…。<end>"
 korean = "그래. 나도 바이도 이제 그런 식으로 싸울 일은 없을 거라 생각해. 하지만….<end>"
+
+["1410356"]
+japanese = "…私ね、<line-break>戦いすぎちゃったみたいなの。<line-break>　<line-break>戦いすぎて、大事なものを、<line-break>どっかに落として<line-break>きちゃったみたいなの…。<end>"
+korean = "…나, 너무 많이 싸운 것 같아. 너무 싸워서 소중한 걸 어딘가에 떨어뜨리고 온 것 같아….<end>"
 
 ["1410358"]
 japanese = "わからない…<line-break>おかしくなりそうなの！<line-break>　<line-break>私、どうしても、それを探しに<line-break>行かなくちゃならない…！<end>"
@@ -979,6 +991,10 @@ korean = "그것이 아무리 큰 고통을 가져온다 해도….<end>"
 ["1410412"]
 japanese = "君が愛しいよ。<line-break><value:$28>。<line-break>僕らが交わすのは口付けではなく刃。<line-break>愛の言葉ではなく呪いの言葉。<end>"
 korean = "네가 사랑스럽다. <value:$28>. 우리가 주고받는 건 입맞춤이 아니라 칼날. 사랑의 말이 아니라 저주의 말이지.<end>"
+
+["1410413"]
+japanese = "それでも、<line-break>君だけが僕の心を捕らえつづける。<line-break>僕と君、この二人が<line-break>創造という輪を回し続けるんだ。<line-break>フフフ、アハハハハハ。<end>"
+korean = "그래도 너만은 계속 내 마음을 붙잡고 있어. 나와 너, 이 둘이 창조라는 수레바퀴를 계속 돌리는 거야. 후후후, 아하하하하.<end>"
 
 ["1410414"]
 japanese = "さあ、僕に死の口付けを！<line-break>君には愛の抱擁を！<line-break>幾千万の願いを賭けて、<line-break>果てなきダンスを踊り続けよう！<end>"
@@ -1243,6 +1259,10 @@ korean = "갖고 싶구먼. 용의 송곳니, 한번 손에 넣어 보고 싶구
 ["1410515"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"
+
+["1410516"]
+japanese = "しかし、それがどこにあるか、<line-break>どんなものなのかすらも<line-break>伝わってはいません。<line-break>大変なご苦労になるでしょうし、<line-break>おそらく…。<end>"
+korean = "하지만 그것이 어디 있는지, 어떤 것인지조차 전해지지 않았습니다. 큰 고생이 되겠고, 아마도….<end>"
 
 ["1410517"]
 japanese = "それでもお探しになりますか？<end>"

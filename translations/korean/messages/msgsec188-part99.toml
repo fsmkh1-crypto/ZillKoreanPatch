@@ -80,6 +80,10 @@ korean = "안 간다<end>"
 japanese = "…そうですか。<line-break>仕方ありません、他の人に<line-break>行ってもらうことにします。　<line-break>あなたへの用はそれだけです。<line-break>もう、下がってください。<end>"
 korean = "…그렇습니까. 어쩔 수 없군요, 다른 사람에게 가 달라고 하겠습니다. 당신에게 볼일은 그게 전부입니다. 이제 물러가 주세요.<end>"
 
+["1880044"]
+japanese = "あなたへの用はもうありません。<line-break>下がってください。<end>"
+korean = "당신께 더 볼일은 없습니다. 물러가 주세요.<end>"
+
 ["1880045"]
 japanese = "おう、<value:$28>。<line-break>今戻ったか。クリュセイス様が<line-break>お待ちかねだ。<end>"
 korean = "오, <value:$28>. 이제 돌아왔나. 크류세이스 님이 기다리고 계신다.<end>"

@@ -32,6 +32,10 @@ korean = "첩자의 보고. 병력과 군량 비축.<end>"
 japanese = "…なるほど。<end>"
 korean = "…그렇군.<end>"
 
+["520014"]
+japanese = "…エリエナイ公、無礼であろう。<line-break>こ、言葉を慎まれよ。<end>"
+korean = "…에리에나이 공, 무례하오. 마, 말을 삼가시오.<end>"
+
 ["520017"]
 japanese = "黙れ！　　　　　　　　　　　　<line-break>　<end>"
 korean = "닥쳐!<end>"
@@ -95,6 +99,10 @@ korean = "…남편을 걱정하는 것은 아내의 역할입니다.<end>"
 ["520047"]
 japanese = "…陛下。<end>"
 korean = "…폐하.<end>"
+
+["520052"]
+japanese = "以上です。　　　　　　　　　　　<line-break>何か質問は？<line-break>　<end>"
+korean = "이상입니다. 질문 있습니까?<end>"
 
 ["520053"]
 japanese = "帝国軍が内海を縦断するという<line-break>その根拠は？<end>"
@@ -163,6 +171,10 @@ korean = "징발 때문에 군이 거의 다 나가 있는 때에!<end>"
 ["520113"]
 japanese = "奇襲だ！<line-break>とにかく、もみつぶせ！<end>"
 korean = "기습이다! 어쨌든 짓뭉개 버려!<end>"
+
+["520114"]
+japanese = "くっ、どうしたことだ！<line-break>ロストール軍が復活したとは！<end>"
+korean = "큭, 이게 어떻게 된 일이냐! 로스토올군이 부활했다니!<end>"
 
 ["520115"]
 japanese = "ゼネテス…、<line-break>そうか、お主がおったのか！　　　<line-break>　<line-break>お主ならば、あの敗軍を<line-break>まとめる器量がある！<line-break>くっ、ぬかったわ！<end>"
@@ -311,6 +323,10 @@ korean = "예비 메시지 8 파로스, 볼륨 2 그 2<end>"
 ["520181"]
 japanese = "予備用メッセージ９<line-break>ファーロス・ボリューム２その２<end>"
 korean = "예비 메시지 9 파로스, 볼륨 2 그 2<end>"
+
+["520182"]
+japanese = "予備用メッセージ１０<line-break>ファーロス・ボリューム２その２<end>"
+korean = "예비 메시지 10 파로스 볼륨 2 그 2<end>"
 
 ["520183"]
 japanese = "ファーロス・ボリューム２その２終端<end>"

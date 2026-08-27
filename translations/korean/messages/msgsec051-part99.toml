@@ -36,6 +36,10 @@ korean = "바이, 비아, 그만해!<end>"
 japanese = "いくらお前たちでも、<line-break>奴相手だと無事ではすまん。<end>"
 korean = "아무리 너희라도 녀석을 상대하면 무사하진 못한다.<end>"
 
+["510018"]
+japanese = "ヴィアだな、<line-break>雌狐に踊らされたのは。<line-break>　<line-break>血の気の多いお前のことだ。<line-break>強い奴がいると聞いて、<line-break>ふたつ返事で来たんだろう。<end>"
+korean = "비아였군, 암여우에게 놀아난 건. 피가 뜨거운 너니까 강한 녀석이 있다는 말에 두말없이 왔겠지.<end>"
+
 ["510019"]
 japanese = "でも、兄さん！<end>"
 korean = "하지만, 형!<end>"
@@ -176,6 +180,10 @@ korean = "징발 때문에 군이 거의 다 나가 있는 때에!<end>"
 japanese = "奇襲だ！<line-break>とにかく、もみつぶせ！<end>"
 korean = "기습이다! 어쨌든 짓뭉개 버려!<end>"
 
+["510103"]
+japanese = "くっ、どうしたことだ！<line-break>ロストール軍が復活したとは！<end>"
+korean = "큭, 이게 어떻게 된 일이냐! 로스토올군이 부활했다니!<end>"
+
 ["510104"]
 japanese = "ゼネテス…、<line-break>そうか、お主がおったのか！　　　<line-break>　<line-break>お主ならば、あの敗軍を<line-break>まとめる器量がある！<line-break>くっ、ぬかったわ！<end>"
 korean = "제네테스…. 그렇군, 네놈이 있었나! 네놈이라면 그 패잔군을 수습할 역량이 있다! 큭, 방심했군!<end>"
@@ -299,6 +307,10 @@ korean = "예비 메시지 8 파로스, 볼륨 2 그 1<end>"
 ["510166"]
 japanese = "予備用メッセージ９<line-break>ファーロス・ボリューム２その１<end>"
 korean = "예비 메시지 9 파로스, 볼륨 2 그 1<end>"
+
+["510167"]
+japanese = "予備用メッセージ１０<line-break>ファーロス・ボリューム２その１<end>"
+korean = "예비 메시지 10 파로스 볼륨 2 그 1<end>"
 
 ["510168"]
 japanese = "ファーロス・ボリューム２その１終端<end>"
