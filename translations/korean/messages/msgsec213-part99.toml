@@ -44,6 +44,10 @@ korean = "어쩔 수 없군<end>"
 japanese = "ちょっと今は…<end>"
 korean = "지금은 좀….<end>"
 
+["2130014"]
+japanese = "ありがとう、恩に着るぜ。<line-break>またあんたには借りが<line-break>できそうだな…。<line-break>俺はしばらく仕事でここを離れる。<line-break>結果はあとで聞かせてくれ。<line-break>頼んだぜ！<end>"
+korean = "고마워, 신세 졌다. 또 네게 빚을 지게 될 것 같군… 난 잠시 일 때문에 이곳을 떠나. 결과는 나중에 들려줘. 부탁한다!<end>"
+
 ["2130015"]
 japanese = "では行くかの、<value:$28>。<line-break>シェーヌの森とやらへ。<end>"
 korean = "그럼 가 볼까, <value:$28>. 셰느의 숲이라는 곳으로.<end>"

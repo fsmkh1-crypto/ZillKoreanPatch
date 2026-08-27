@@ -64,6 +64,10 @@ korean = "자, 가자, <value:$28>.<end>"
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
 
+["750020"]
+japanese = "あの、よろしければ…その<line-break>また、いらしてくださいませんか？<end>"
+korean = "저기, 괜찮으시다면… 그… 또 와주시겠어요?<end>"
+
 ["750022"]
 japanese = "君はそう思うかい、<line-break><value:$28>？<end>"
 korean = "넌 그렇게 생각하니, <value:$28>?<end>"
@@ -87,6 +91,10 @@ korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드
 ["750029"]
 japanese = "それでは、王女様、<line-break>失礼いたします。<end>"
 korean = "그럼 공주님, 실례하겠습니다.<end>"
+
+["750030"]
+japanese = "待ってたよ、<value:$28>。<line-break>この前、少し話したよね？<line-break>この方がアトレイア王女さ。　　　<line-break>じゃあ、さっそくで悪いんだけど、<line-break>それ、もらっちゃうね。<end>"
+korean = "기다렸어, <value:$28>. 전에 조금 이야기했지? 이분이 아트레이아 왕녀야. 자, 바로라 미안하지만 그거 받을게.<end>"
 
 ["750032"]
 japanese = "アトレイア様、<line-break>あなたの勇者が光を持ってきました。<end>"
@@ -312,6 +320,10 @@ korean = "자, 갈까? <value:$28>.<end>"
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
 
+["750100"]
+japanese = "あの、よろしければ…その<line-break>また、いらしてくださいませんか？<end>"
+korean = "저기, 괜찮으시다면… 그… 또 와주시겠어요?<end>"
+
 ["750102"]
 japanese = "君はそう思うかい？<line-break><value:$28>。<end>"
 korean = "넌 그렇게 생각하니? <value:$28>.<end>"
@@ -407,6 +419,10 @@ korean = "착한 아이야.<end>"
 ["750146"]
 japanese = "じゃ、そこには用はないな。<line-break>別の所に行くといい。<line-break>　<line-break>俺はお前が行くまで<line-break>見張ってることにする。<end>"
 korean = "그럼 거긴 볼일 없겠네. 다른 곳으로 가. 나는 네가 갈 때까지 지켜보고 있지.<end>"
+
+["750156"]
+japanese = "悪党め。新婚の勇者である俺様に<line-break>倒されることを幸せに思うがいい！<end>"
+korean = "악당 놈. 신혼의 용자인 이 몸에게 쓰러지는 걸 행복으로 알아라!<end>"
 
 ["750159"]
 japanese = "フフッ、ガルドランじゃ、<line-break>やっぱり無理だったよね。アハハ！<end>"
@@ -615,6 +631,10 @@ korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
 ["750230"]
 japanese = "はじめまして。<line-break>僕はシャリ。人は東方の博士なんて<line-break>呼んでくれたりもするんだ。<line-break>よろしくね、<line-break><value:$28>。<end>"
 korean = "처음 뵙겠습니다. 저는 샤리. 사람들은 동방의 박사라고도 부르죠. 잘 부탁해, <value:$28>.<end>"
+
+["750233"]
+japanese = "気をつかっていただいて　　　　<line-break>ありがとうございます。<line-break>　<line-break><value:$28>様が、こうして<line-break>部屋に来てくださるだけで<line-break>私は、充分です…。<end>"
+korean = "신경 써주셔서 감사합니다. <value:$28>님께서 이렇게 방에 와주시는 것만으로 저는 충분합니다…<end>"
 
 ["750234"]
 japanese = "<value:$28>様……。<line-break>………………。<line-break>いえ、なんでもありません。<line-break>退屈な部屋でしょうが<line-break>ゆっくりしていってください…。<end>"

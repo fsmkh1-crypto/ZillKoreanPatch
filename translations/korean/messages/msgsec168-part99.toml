@@ -36,6 +36,10 @@ korean = "레몬은 어릴 때부터 티아나에게 끌리고 있었다.<end>"
 japanese = "普段、冷静な男なだけに<line-break>逆上すると<line-break>何をしでかすかわからない。<line-break>無用な心配とは思うが、<line-break>気に留めておいてほしい。<end>"
 korean = "평소 침착한 남자인 만큼 이성을 잃으면 무슨 짓을 할지 몰라. 쓸데없는 걱정일지도 모르지만 기억해 두었으면 한다.<end>"
 
+["1680017"]
+japanese = "それから、ティアナの方も、<line-break>何か様子がおかしかった。<line-break>気づかってやってくれ。<line-break>フフ…、娘を気づかうのは<line-break>本来は母親の役目なのだろうがな。<end>"
+korean = "그리고 티아나도 어딘가 상태가 이상했다. 잘 살펴줘. 후후… 딸을 돌보는 건 원래 어머니의 역할이겠지만.<end>"
+
 ["1680019"]
 japanese = "…確かに気の回しすぎかもしれぬ。<end>"
 korean = "…확실히 너무 신경 쓴 걸지도 모르겠군.<end>"
@@ -51,6 +55,10 @@ korean = "<value:$28>인가. 오늘 아침 공중정원에서 아트레이아를
 ["1680026"]
 japanese = "<value:$28>か。<line-break>レムオン坊やとはうまくいっておるか？<end>"
 korean = "<value:$28>인가. 레몬 도련님과는 잘 지내고 있나?<end>"
+
+["1680027"]
+japanese = "フフフ…、<line-break>あの男、他人と仲よくやれるような<line-break>人間ではない。<line-break>屋敷を追い出されない以上、<line-break>この上なく、うまくいっていると<line-break>見るべきだろう。<end>"
+korean = "후후후… 그 남자는 남과 사이좋게 지낼 수 있는 인간이 아니다. 저택에서 쫓겨나지 않은 이상 이보다 더 잘될 수 없을 정도라고 봐야겠지.<end>"
 
 ["1680029"]
 japanese = "<value:$28>よ。<line-break>期待している。<line-break>フリントのこと、忘れるな。<end>"
@@ -75,6 +83,10 @@ korean = "<value:$28>인가. 제네테스는 어떻게 지내나? 총사령관�
 ["1680034"]
 japanese = "フフ…、厳しい評価だ。<line-break>まあ、よい。<line-break>最初から期待しておらぬ。<line-break>だが、ゼネテスは<line-break>そなたを高く買っているようだ。<end>"
 korean = "후후… 엄한 평가군. 뭐, 됐다. 처음부터 기대하지 않았으니까. 하지만 제네테스는 자네를 높이 평가하는 모양이야.<end>"
+
+["1680035"]
+japanese = "その期待に応えてやってほしい。<line-break>そなたにならば、できるはずだ。<end>"
+korean = "그 기대에 부응해 주었으면 한다. 그대라면 할 수 있을 것이다.<end>"
 
 ["1680036"]
 japanese = "<value:$28>か。<line-break>　<line-break>　<line-break>ゼネテスとはうまくやっているか？<end>"
@@ -140,6 +152,10 @@ korean = "왕궁을 빠져나와 밀회라니, 티아나가 푹 빠지는 것도
 japanese = "…ゼネテスを婿に選んだのは、<line-break>早計だったかもしれぬ。<end>"
 korean = "…제네테스를 사위로 고른 건 성급했을지도 모르겠군.<end>"
 
+["1680056"]
+japanese = "悪い話ではないが、<line-break>ティアナを不幸にしてまで<line-break>実現する価値はない。<line-break>ティアナの婿は<line-break>ファーロス家の者でなくとも<line-break>よいのだ。<end>"
+korean = "나쁜 이야기는 아니지만 티아나를 불행하게 하면서까지 실현할 가치는 없어. 티아나의 남편은 파로스 가문 사람이 아니어도 된다.<end>"
+
 ["1680057"]
 japanese = "ただ、ティアナを幸せにできる<line-break>男であれば…。<end>"
 korean = "그저 티아나를 행복하게 해 줄 남자라면….<end>"
@@ -180,9 +196,17 @@ korean = "그래서 티아나를 가졌을 때의 기쁨은 컸다. 티아나야
 japanese = "政権をほしいままにしようと<line-break>したのだ。<end>"
 korean = "정권을 제멋대로 휘두르려 했던 것이다.<end>"
 
+["1680071"]
+japanese = "私は、誰よりも先に陰謀に気づき、<line-break>これを阻止するため奔走した。<end>"
+korean = "나는 누구보다 먼저 음모를 알아차리고 이를 막기 위해 동분서주했다.<end>"
+
 ["1680075"]
 japanese = "私は、アトレイアを救うため、<line-break>毒にも詳しくなった。<line-break>　<line-break>家族を守りたいがため、<line-break>必死で戦った。<line-break>…そして、これがその結果だ。<end>"
 korean = "나는 아트레이아를 구하기 위해 독에도 밝아졌다. 가족을 지키려 필사적으로 싸웠다. …그리고 이것이 그 결과다.<end>"
+
+["1680076"]
+japanese = "貴族は力を失った。<line-break>ティアナは母を嫌悪している。<line-break>そして、私の夫は…<line-break>国王セルモノーは<line-break>政治から離れ、<line-break>すべてにおいてあの調子だ。<end>"
+korean = "귀족은 힘을 잃었다. 티아나는 어머니를 혐오하고 있다. 그리고 내 남편… 국왕 셀모노는 정치에서 물러나 모든 일에 늘 저런 상태다.<end>"
 
 ["1680078"]
 japanese = "さて、そろそろ<line-break>シドア候の<line-break>愚痴に耳を貸してくれようか。<line-break><value:$28>、<line-break>はずしてくれぬか？<line-break>　<line-break>また来るがよい。<end>"

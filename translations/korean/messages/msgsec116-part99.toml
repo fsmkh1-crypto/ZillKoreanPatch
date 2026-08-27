@@ -72,6 +72,10 @@ korean = "…역할을 위해서만 사는 건 괴롭지 않냐고요…?<end>"
 japanese = "あなたには私は必要でない。<line-break>私の存在はあなたの存在に<line-break>意味をなさない。<line-break>…それなのに、ここに来る。<end>"
 korean = "당신에게 나는 필요하지 않아. 내 존재는 당신의 존재에 의미가 없어. …그런데도 여기 오는군.<end>"
 
+["1160046"]
+japanese = "あなたは、<line-break>私を必要としているようには　　<line-break>感じられません。<line-break>それなのに、なぜ、何度もここに<line-break>来られるのですか？<line-break>私にはわかりません。<end>"
+korean = "당신은 저를 필요로 하는 것처럼 느껴지지 않습니다. 그런데 왜 몇 번이나 이곳에 오시는 겁니까? 저는 모르겠습니다.<end>"
+
 ["1160049"]
 japanese = "…あなたはなぜ<line-break>ここに来るのですか？　　　　<line-break>私には理解できません。<line-break>その上、不安を感じます。<line-break>長老に対してよりも、ずっと。<end>"
 korean = "…당신은 왜 여기 오는 겁니까? 이해할 수 없습니다. 게다가 불안하기까지 합니다. 장로님을 대할 때보다 훨씬 더.<end>"
@@ -187,6 +191,10 @@ korean = "아…<end>"
 ["1160099"]
 japanese = "<value:$28>～。<line-break>無粋だなあ、君って奴は。　<line-break>　<line-break>これから、ふたりっきりで<line-break>出かけようっていう時に<line-break>顔出さないでくれるかなあ？<end>"
 korean = "<value:$28>~. 참 눈치 없네. 이제 둘이서 나가려는 참인데 얼굴 좀 내밀지 말아 줄래?<end>"
+
+["1160100"]
+japanese = "剣は人を斬ることを拒みません。<line-break>ペンは言葉を記すことを拒みません。<line-break>　<line-break>私もまた、役目があるのであれば<line-break>それを拒むことはありません。<end>"
+korean = "검은 사람을 베는 것을 거부하지 않습니다. 펜은 말을 기록하는 것을 거부하지 않습니다. 저 역시 맡은 역할이 있다면 거부하지 않습니다.<end>"
 
 ["1160102"]
 japanese = "…<value:$28>…。<line-break>このようなときに来られるとは…。<line-break>　<line-break>…私は、これから、死にます。<end>"

@@ -120,6 +120,10 @@ korean = "이봐, 모험자 등록하러 왔나?<end>"
 japanese = "えーっ！？<end>"
 korean = "에엣!?<end>"
 
+["280035"]
+japanese = "ヴァンは落ち着きがないから、<line-break>山に行ったらきっとケガするしね。<end>"
+korean = "반은 차분하지 못하니까 산에 가면 분명 다칠 거야.<end>"
+
 ["280036"]
 japanese = "な、なにをぉぉ！！<end>"
 korean = "뭐, 뭐라고오오!!<end>"
@@ -139,6 +143,10 @@ korean = "이것도 가져가. 다치면 써.<end>"
 ["280041"]
 japanese = "おう。<line-break>誰かと思ったら小僧どもか。<line-break>どうした？<end>"
 korean = "오. 누군가 했더니 꼬맹이들이군. 무슨 일이냐?<end>"
+
+["280042"]
+japanese = "弁当？<line-break>そうか、ありがとよ。<line-break>んじゃ、ひと休みするか。　<end>"
+korean = "도시락? 그래, 고맙다. 그럼 잠깐 쉬자.<end>"
 
 ["280043"]
 japanese = "…そうか、昨日の地震でねえ。<line-break>　<end>"
@@ -251,6 +259,10 @@ korean = "너 혼자 쓰는 길도 아니잖아! 잘난 척하지 마!<end>"
 ["280075"]
 japanese = "生意気な！<line-break>人として許せん！　　　　　　<line-break>　<line-break>俺様を敵に回すと<line-break>割に合わないことを思い知れ！<end>"
 korean = "건방진! 인간으로서 용서할 수 없다! 나를 적으로 돌린 대가가 얼마나 큰지 깨닫게 해 주마!<end>"
+
+["280076"]
+japanese = "こっ…の、小僧ども！<line-break>この俺様を２度も転ばせたな！　<line-break>　<line-break>貴様らなど、<line-break>俺様が編み出した伝説の必殺技で<line-break>こらしめてやる！<end>"
+korean = "이… 꼬맹이들! 이 몸을 두 번이나 넘어뜨렸겠다! 네놈들 따위 내가 만들어낸 전설의 필살기로 혼내주마!<end>"
 
 ["280077"]
 japanese = "ヘッ。<line-break>偉そうなこと言っておいてよ。<line-break>ザマぁねえな！！<end>"

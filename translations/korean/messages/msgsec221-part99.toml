@@ -44,6 +44,10 @@ korean = "그런 사정이니까 이 아이를 부탁해.<end>"
 japanese = "さ、行こ、<value:$28>。<end>"
 korean = "자, 가자, <value:$28>.<end>"
 
+["2210013"]
+japanese = "あの…。<line-break>こういう時はどうすれば<line-break>よろしいのでしょうか？<end>"
+korean = "저기… 이럴 때는 어떻게 하면 좋을까요?<end>"
+
 ["2210014"]
 japanese = "すみません。私に訊かれても…。<line-break>　<line-break>　<line-break>………………。<line-break>　<line-break>　<line-break>ひとまず、あやしてみては<line-break>どうでしょうか？<end>"
 korean = "죄송합니다. 저한테 물으셔도…. ………………. 우선 달래 보는 건 어떨까요?<end>"
@@ -79,6 +83,10 @@ korean = "정말 죄송했습니다. 감사합니다.<end>"
 ["2210026"]
 japanese = "ありがとー！　お姉ちゃん。<end>"
 korean = "고마워-! 누나.<end>"
+
+["2210027"]
+japanese = "本物のフレアも<line-break>あんなふうに子供の頃が<line-break>あったのでしょうか？<end>"
+korean = "진짜 플레어도 저렇게 어린 시절이 있었을까요?<end>"
 
 ["2210028"]
 japanese = "子供というのは不思議なものですね…。<end>"

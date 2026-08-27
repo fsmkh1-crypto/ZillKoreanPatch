@@ -12,6 +12,10 @@ korean = "기다려 주세요.<end>"
 japanese = "竜の死骸ですね…。<end>"
 korean = "용의 사체네요….<end>"
 
+["590003"]
+japanese = "この世界にいる竜は７匹。<line-break>竜王、翔王、海王の３聖竜。　　　<line-break>　<line-break>…そして<line-break>アズラゴーザ、イシュバアル、<line-break>エルアザル、シャンマの４邪竜…。<end>"
+korean = "이 세계의 용은 일곱. 용왕, 상왕, 해왕의 세 성룡. …그리고 아즈라고자, 이슈바알, 엘아자르, 샨마의 네 사룡…<end>"
+
 ["590013"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -63,6 +67,10 @@ korean = "아, <value:$28>이군. 편지가 와 있어.<end>"
 ["590034"]
 japanese = "朱雀将軍から承っております。<line-break>どうぞお通りください！<end>"
 korean = "주작장군께 말씀 들었습니다. 들어가십시오!<end>"
+
+["590035"]
+japanese = "よく来てくれた、　　　　　　　　<line-break><value:$28>。<line-break>　<line-break>いよいよ、ロストールへ進攻する。<line-break>ついては、お主に、わしの副将に<line-break>なってほしいのだ。<end>"
+korean = "잘 와줬다, <value:$28>. 드디어 로스토올로 진공한다. 그래서 네가 내 부장이 되어줬으면 한다.<end>"
 
 ["590037"]
 japanese = "引き受ける<end>"
@@ -188,6 +196,10 @@ korean = "…그럼 논공행상을 시작한다. 마지막은 <value:$28>.<end>
 japanese = "<value:$28>、<line-break>お主が最高殊勲者だ。<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"
 korean = "<value:$28>, 네가 최고 공훈자다. 이 공으로 널 딘갈의 기사로 추천하고 여기서 임시 서임을 하겠다.<end>"
 
+["590100"]
+japanese = "<value:$28>、<line-break>お主はすばらしい戦績を残した。<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"
+korean = "<value:$28>, 자네는 훌륭한 전과를 세웠다. 이 공을 인정해 자네를 딘갈의 기사로 추천하고 여기서 가서임하려 한다.<end>"
+
 ["590101"]
 japanese = "<value:$28>、<line-break>まずまずの戦功だ。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに、励むがよい。<line-break>期待しておるぞ。<end>"
 korean = "<value:$28>, 제법 전공을 세웠구나. 이것은 포상이다. 더 힘쓰도록 해라. 기대하고 있겠다.<end>"
@@ -208,6 +220,10 @@ korean = "내 방식이마음에 들지 않는 모양이군.<end>"
 japanese = "て、て、敵襲ー！<end>"
 korean = "저, 저, 적습이다ー!<end>"
 
+["590107"]
+japanese = "ロストールが敗残兵を立て直し、<line-break>き、奇襲っ！　ぐわああっ！<end>"
+korean = "로스토올이 패잔병을 재정비하고, 기, 기습을! 으아아악!<end>"
+
 ["590110"]
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
@@ -219,6 +235,10 @@ korean = "호오, 여기까지 도달하다니 제법이군….<end>"
 ["590113"]
 japanese = "<value:$28>よ。<line-break>すまぬが、敗軍の将に<line-break>つきあってくれる気はあるか？<end>"
 korean = "<value:$28>여. 미안하지만 패군의 장수와 함께해 줄 생각이 있느냐?<end>"
+
+["590114"]
+japanese = "ならば、生きて会おう。<line-break>エンシャントの政庁前で待っておる！<end>"
+korean = "그렇다면 살아서 만나자. 엔샨트 정청 앞에서 기다리겠다!<end>"
 
 ["590118"]
 japanese = "今、担当が席を外しておる。<line-break>またあとで来るといい。<end>"

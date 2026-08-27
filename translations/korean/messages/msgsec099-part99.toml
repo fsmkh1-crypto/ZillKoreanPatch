@@ -216,6 +216,10 @@ korean = "아, <value:$28>….<end>"
 japanese = "…どうして、<line-break>どうしてあなたがノーブル伯なの…。<end>"
 korean = "…왜, 왜 당신이 노블 백작인 거야….<end>"
 
+["990093"]
+japanese = "ノーブル伯<value:$28>！<line-break>こんな所で何をしているの！　　　<line-break>　<line-break>早く出ていきなさい。<line-break>あなたはこんな所に来られるような<line-break>人ではないはずよ。<end>"
+korean = "노블 백작 <value:$28>! 이런 데서 뭘 하고 있는 거야! 빨리 나가. 당신은 이런 곳에 와도 되는 사람이 아니잖아.<end>"
+
 ["990094"]
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりで<line-break>ここに来ているのかしら？<line-break>今の私たちは敵同士も同然よ？<end>"
 korean = "<value:$28>…. 무슨 생각으로 여기 온 거야? 지금 우리는 적이나 다름없어.<end>"

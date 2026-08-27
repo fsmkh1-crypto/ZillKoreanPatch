@@ -128,6 +128,10 @@ korean = "신기의 힘에 지배된 자가 마음을 되찾다니….<end>"
 japanese = "…助けに来て…くれたんだね？　　<end>"
 korean = "…구하러… 와 준 거야?<end>"
 
+["410038"]
+japanese = "うれしいよ、君の姿が見られて…。<line-break>さ…早く、僕を…殺して。<end>"
+korean = "기뻐, 네 모습을 볼 수 있어서… 자… 어서, 나를… 죽여줘.<end>"
+
 ["410039"]
 japanese = "無限のソウル…？<line-break>バカな。まだ発動していないはず…。<end>"
 korean = "무한의 소울…? 말도 안 돼. 아직 발동하지 않았을 텐데….<end>"
@@ -164,6 +168,10 @@ korean = "레이븐, 네놈….<end>"
 japanese = "悪いな。　　　　　　　　　　　　<end>"
 korean = "미안하군.<end>"
 
+["410048"]
+japanese = "お前さんの言っていることは<line-break>正しいんだろうが、納得できない。<end>"
+korean = "네가 하는 말이 옳은 것 같긴 한데, 납득할 수 없어.<end>"
+
 ["410049"]
 japanese = "神器はいただく。<line-break>あいつは始末させない。　　　　　<end>"
 korean = "신기는 받아 가겠다. 녀석은 처리하게 두지 않아.<end>"
@@ -175,6 +183,10 @@ korean = "! …이 느낌은!<end>"
 ["410051"]
 japanese = "あ、あれが…、獅子帝ネメア…。　　<end>"
 korean = "저, 저게… 사자제 네메아….<end>"
+
+["410052"]
+japanese = "ば、バロル帝が倒されるはずだわ…。<line-break>なんて…い、威圧…感…。<end>"
+korean = "바, 바로르 황제가 쓰러질 만하군… 이 무슨… 위, 위압감…<end>"
 
 ["410053"]
 japanese = "レイヴン！<end>"
@@ -199,6 +211,10 @@ korean = "레이븐, 정신이 들었구나! 다행이야!<end>"
 ["410058"]
 japanese = "…へへ、<line-break>ざまぁ…ねぇな…、へへ。<end>"
 korean = "…헤헤, 꼴이… 말이 아니군… 헤헤.<end>"
+
+["410059"]
+japanese = "また、俺を戻してくれたのは、<line-break>あんただったのか…ノエル…。<end>"
+korean = "또 나를 되돌려준 건 너였나… 노엘…<end>"
 
 ["410060"]
 japanese = "その様子では、<line-break>神器はネメアに奪われたようだな…。<line-break>　<line-break>ゆくぞ。<line-break>カフィン、レイヴンを助けて行け。<end>"
@@ -252,6 +268,10 @@ korean = "그럴 순 없어. 볼일이 생겼거든.<end>"
 japanese = "授業料はその闇の神器で頼むぞい。<end>"
 korean = "수업료는 그 어둠의 신기로 받지.<end>"
 
+["410078"]
+japanese = "<value:$28>、<line-break>詳しいことは知らないが、　　　　　　<line-break>　<line-break>この魔人、あんたと縁があったんだろ？<line-break>あいつらからけじめは<line-break>取っておかないとな！<end>"
+korean = "<value:$28>, 자세한 사정은 모르지만 이 마인, 너와 인연이 있었던 거지? 저놈들에게 책임은 물어야겠군!<end>"
+
 ["410079"]
 japanese = "できの悪い生徒で<line-break>何も学びとれなかったぜ。<line-break>　<line-break>授業料は払わないが、<line-break>いいよな？<end>"
 korean = "형편없는 학생이라 아무것도 배우지 못했어. 수업료는 안 낼 건데, 괜찮지?<end>"
@@ -279,6 +299,10 @@ korean = "네.<end>"
 ["410089"]
 japanese = "その通り…だけど、<line-break>いったい…？<end>"
 korean = "맞아… 하지만 대체…?<end>"
+
+["410090"]
+japanese = "闇の神器…<line-break>先人類が作った究極の魔道器だ…。　　<line-break>　<line-break>あなたは、ある程度までだが、<line-break>その力を抽出することも成功している。<line-break>…違いますか？<end>"
+korean = "어둠의 신기… 선인류가 만든 궁극의 마도기다… 당신은 어느 정도지만 그 힘을 추출하는 데도 성공했다. …아닙니까?<end>"
 
 ["410091"]
 japanese = "…ええ。<end>"
@@ -376,6 +400,10 @@ korean = "<value:$28>, 신기를… 지켜 줘!<end>"
 japanese = "フッ、愚かな…。　　　　　　　　　　<end>"
 korean = "훗, 어리석군….<end>"
 
+["410118"]
+japanese = "ノエル、私とレイヴンは<line-break>神器を安全なところまで持って行く。　<end>"
+korean = "노엘, 나와 레이븐은 신기를 안전한 곳까지 가져가겠다.<end>"
+
 ["410120"]
 japanese = "で、でも…。<end>"
 korean = "하, 하지만….<end>"
@@ -399,6 +427,10 @@ korean = "기다려! <value:$28> 씨!<end>"
 ["410126"]
 japanese = "…ありがとう、<value:$28>。<end>"
 korean = "…고마워, <value:$28>.<end>"
+
+["410127"]
+japanese = "ううん。あのエルフ以外は<line-break>わかってくれたみたいだし。<line-break>　<line-break>僕はもう大丈夫だよ。<line-break>ここの調査も終わったし、<line-break>もう行くよ。…じゃね。<end>"
+korean = "아니. 그 엘프 말고는 알아준 것 같고. 난 이제 괜찮아. 이곳 조사도 끝났으니 갈게. …그럼.<end>"
 
 ["410129"]
 japanese = "やっぱり待って！　カフィン！<end>"
@@ -451,6 +483,10 @@ korean = "네메아다!<end>"
 ["410143"]
 japanese = "<value:$28>、<line-break>神器を…、守ってくれ！<end>"
 korean = "<value:$28>, 신기를… 지켜 줘!<end>"
+
+["410144"]
+japanese = "ありがとう。<line-break>僕はエスト・リューガ。<line-break>考古学者だよ。君は？<end>"
+korean = "고마워. 나는 에스트 류가. 고고학자야. 너는?<end>"
 
 ["410146"]
 japanese = "<value:$28>、<line-break>これからも兄さんをよろしくね。<end>"

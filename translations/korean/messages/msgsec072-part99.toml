@@ -52,6 +52,10 @@ korean = "나쁜 인간에게 빼앗겼다 고브! 그게 없으면 행복해질
 japanese = "オルナット！　何をするゴブ！<line-break>そこを退くゴブ！<end>"
 korean = "오르나트! 뭐 하는 거냐 고브! 비켜라 고브!<end>"
 
+["720017"]
+japanese = "聖杯がないと、あの聖杯がないと<line-break>幸せになれないんでゴブよ！<end>"
+korean = "성배가 없으면, 그 성배가 없으면 행복해질 수 없다 고브!<end>"
+
 ["720018"]
 japanese = "あんな聖杯がなくても<line-break>幸せにはなれるゴブ！！<end>"
 korean = "그런 성배가 없어도 행복해질 수 있다 고브!!<end>"
@@ -95,6 +99,10 @@ korean = "네 목숨을 받은 뒤 누나 셰스터를 되찾겠다.<end>"
 ["720035"]
 japanese = "くすっ、ホント、容赦ないのね。<end>"
 korean = "후훗, 정말 봐주질 않네.<end>"
+
+["720037"]
+japanese = "この月光は精神を斬れる。<line-break>…心配は、無用だ。<line-break>　<line-break>死にたくなければ<line-break>まず、姉を返すのだな。<line-break>アーギルシャイア！<end>"
+korean = "이 월광은 정신을 벨 수 있다. …걱정은 필요 없다. 죽고 싶지 않다면 먼저 누나를 돌려줘라. 아기르샤이아!<end>"
 
 ["720041"]
 japanese = "くすっ、無様ね。もう少しは<line-break>楽しませてくれると思ったけど。<line-break>　<line-break>おもしろくないオモチャは<line-break>消えなさい。<line-break>ウフフフ！<end>"
@@ -251,6 +259,10 @@ korean = "헤어질까?<end>"
 ["720100"]
 japanese = "あ！　<value:$28>さん！<line-break>こ、こんにちは。　　　　　　<line-break><line-break>あの、知ってますか？<line-break>グフトクって魔獣の話？<end>"
 korean = "아! <value:$28>님! 아, 안녕하세요. 저기, 알고 계세요? 구프트크라는 마수 이야기요?<end>"
+
+["720103"]
+japanese = "グフトクを倒すには、<line-break>精神攻撃しかないんだって…。<line-break>　<line-break>伝説に出てくる月神の剣<line-break>リネールラースでも<line-break>あればいいんですけど…。<end>"
+korean = "구프트크를 쓰러뜨리려면 정신 공격밖에 없대… 전설에 나오는 월신의 검 리네르라스라도 있으면 좋겠는데…<end>"
 
 ["720104"]
 japanese = "あ…、私、そろそろ行かなくちゃ！<line-break>カフィンが待ってるんです。<line-break>　<line-break>それじゃ、<value:$28>さん。<line-break>がんばってください！<end>"

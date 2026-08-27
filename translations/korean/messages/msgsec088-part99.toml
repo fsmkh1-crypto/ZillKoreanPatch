@@ -24,6 +24,10 @@ korean = "그럼 안녕, ……………….<end>"
 japanese = "ね。<line-break>中身が見てみたいと思わない？<end>"
 korean = "있지. 안에 뭐가 들었는지 보고 싶지 않아?<end>"
 
+["880012"]
+japanese = "ふぅーん、　　　　　　　　　　<line-break><value:$28>っていうのか。<line-break>　<line-break>とにかく、<line-break>ボク、リベルダムによくいるし、<line-break>また会おうよ。じゃあね！<end>"
+korean = "흐음, <value:$28>라고 하는구나. 아무튼 나 리벨덤에 자주 있으니까 또 만나자. 그럼 안녕!<end>"
+
 ["880013"]
 japanese = "あれ、<line-break><value:$28>じゃない？<end>"
 korean = "어라, <value:$28> 아니야?<end>"
@@ -324,6 +328,10 @@ korean = "미사용: 레므온, 가자?<end>"
 japanese = "未使用：あ、ああ…。<end>"
 korean = "미사용: 아, 아아….<end>"
 
+["880126"]
+japanese = "未使用：<value:$28>、よかったな。<line-break>エステルが帰ってきて。<end>"
+korean = "미사용: <value:$28>, 잘됐군. 에스텔이 돌아와서.<end>"
+
 ["880127"]
 japanese = "えっ、あっ、おみやげね。<line-break>ハハハ……ない。　　　　　　　<line-break>　<line-break>…ごめんなさい！<line-break>それじゃ、猫屋敷で呼んでくれんの<line-break>待ってるから！<end>"
 korean = "어, 아, 선물 말이지. 하하하…… 없어. …미안! 그럼 고양이 저택에서 불러 주길 기다릴게!<end>"
@@ -335,6 +343,10 @@ korean = "<value:$28> 씨군요.<end>"
 ["880131"]
 japanese = "そして、エステル様は<line-break>我ら砂漠の一族の族長なのです。<end>"
 korean = "그리고 에스텔 님은 우리 사막 일족의 족장이십니다.<end>"
+
+["880134"]
+japanese = "まずは、我々とエステル様の関係を<line-break>おわかりいただけたでしょうか？<end>"
+korean = "우선 저희와 에스텔 님의 관계를 이해하셨겠습니까?<end>"
 
 ["880137"]
 japanese = "我々も手を尽くしたのですが<line-break>居場所をつかむことができず…！<end>"

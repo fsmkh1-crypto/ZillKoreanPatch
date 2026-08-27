@@ -116,6 +116,10 @@ korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
 japanese = "その間、<value:$28>が<line-break>この村を守ってたからな。<end>"
 korean = "그동안 <value:$28>이 이 마을을 지켜 줬으니까.<end>"
 
+["320040"]
+japanese = "やれやれ。<line-break><value:$28>、<line-break>人気者はつらいな。<line-break>私は一足先に神殿に戻っている。<line-break>なるべく早く戻ってこい。<line-break>それにまだ朝早い。静かにな。<end>"
+korean = "이런. <value:$28>, 인기인은 힘들군. 난 먼저 신전으로 돌아가 있겠다. 되도록 빨리 돌아와. 아직 이른 아침이니 조용히 하고.<end>"
+
 ["320043"]
 japanese = "あー！！　もう！！　　<line-break>　<line-break>　<end>"
 korean = "아아!! 정말!!<end>"

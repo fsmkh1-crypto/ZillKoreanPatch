@@ -124,6 +124,10 @@ korean = "그만둬, 샤리!<end>"
 japanese = "逃げろ、<value:$28>！"
 korean = "도망쳐, <value:$28>!"
 
+["1540047"]
+japanese = "無理無理。<line-break>さあ、出ておいで！<line-break>格好の遊び相手だよ。<end>"
+korean = "무리야, 무리. 자, 나와! 딱 좋은 놀이 상대야.<end>"
+
 ["1540048"]
 japanese = "そこどいてよ、エルファス。<line-break><value:$28>には<line-break>もう退場してもらうんだから。<end>"
 korean = "비켜, 엘파스. <value:$28>은 이제 퇴장해 줘야 하니까.<end>"
@@ -160,6 +164,10 @@ korean = "알고 있어. 하지만…. 이제 더는 견딜 수 없어.<end>"
 japanese = "理解してくれとは言わぬ。<line-break>だが<value:$28>を決して<line-break>死なせはしない。<end>"
 korean = "이해해 달라고는 하지 않겠다. 하지만 <value:$28>를 절대 죽게 두지 않겠다.<end>"
 
+["1540060"]
+japanese = "もう君には、僕がかなえてあげるだけの<line-break>願いはないみたいだからね。<end>"
+korean = "이제 너에겐 내가 이루어줄 만한 소원이 없는 것 같으니까.<end>"
+
 ["1540063"]
 japanese = "やめてくれ、シャリ！<end>"
 korean = "그만둬, 샤리!<end>"
@@ -167,6 +175,10 @@ korean = "그만둬, 샤리!<end>"
 ["1540065"]
 japanese = "逃げろ、<value:$28>！"
 korean = "도망쳐, <value:$28>!"
+
+["1540066"]
+japanese = "無理無理。<line-break>さあ、出ておいで！<line-break>格好の遊び相手だよ。<end>"
+korean = "무리야, 무리. 자, 나와! 딱 좋은 놀이 상대야.<end>"
 
 ["1540067"]
 japanese = "なんのマネだい、エルファス？<end>"
@@ -196,6 +208,10 @@ korean = "아니야. <value:$28>이… 내게 소중한 존재라서 그래. 나
 japanese = "くすっ。<line-break>ふーん、そう。<end>"
 korean = "후훗. 흐음, 그렇구나.<end>"
 
+["1540075"]
+japanese = "絶望ってね、<line-break>ホントは<line-break>深い、深ーい願いなんだよ。<line-break><value:$28>ってさ、<line-break>可能性とか希望そのものだし、<line-break>彼が強く惹かれるのも当然かもね。<end>"
+korean = "절망이라는 건 사실 아주 깊고 깊은 소망이야. <value:$28>는 가능성이나 희망 그 자체니까, 그가 강하게 끌리는 것도 당연할지 모르지.<end>"
+
 ["1540076"]
 japanese = "わかってはいる。だけど…。<line-break>もう耐えきれないんだ。<end>"
 korean = "알고 있어. 하지만…. 이제 더는 견딜 수 없어.<end>"
@@ -207,6 +223,10 @@ korean = "이해해 달라고는 하지 않겠다. 하지만 <value:$28>를 절�
 ["1540078"]
 japanese = "ふーん。まあいいさ。<line-break>僕は願いをかなえるけど<line-break>強制はしない。<line-break>君の代わりを探すことにするよ。<line-break>さようなら、エルファス。<end>"
 korean = "흐음. 뭐, 좋아. 나는 소원은 이루어 주지만 강요하진 않아. 네 대신을 찾지. 잘 가, 엘파스.<end>"
+
+["1540079"]
+japanese = "もう君には、僕がかなえてあげるだけの<line-break>願いはないみたいだからね。<end>"
+korean = "이제 너에겐 내가 이루어줄 만한 소원이 없는 것 같으니까.<end>"
 
 ["1540094"]
 japanese = "やめるんだ、シャリ。<line-break>できれば、お前を討ちたくはない…。<end>"

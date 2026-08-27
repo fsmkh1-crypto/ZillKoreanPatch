@@ -56,6 +56,10 @@ korean = "네메아 구출 보게이 a<end>"
 japanese = "……………。<line-break><line-break><line-break>闇の門の島へ行くぞ。<end>"
 korean = "……………. 어둠의 문 섬으로 간다.<end>"
 
+["260054"]
+japanese = "ネメア様が生きておられる！<line-break>闇の門の島で、まだ…まだ、<line-break>お救いできる！<line-break><value:$28>、頼む！<line-break>何としてもネメア様を<line-break>お救いしてくれ！<end>"
+korean = "네메아 님이 살아 계셔! 어둠의 문의 섬에서 아직… 아직 구할 수 있어! <value:$28>, 부탁한다! 어떻게든 네메아 님을 구해줘!<end>"
+
 ["260055"]
 japanese = "大陸の南西、闇の門の島で、<line-break>ネメアを救出することは、<line-break>破壊神復活を阻止することと一体です。<line-break>迷わず向かいましょう、<line-break><value:$28>様。<end>"
 korean = "대륙 남서쪽 어둠의 문의 섬에서 네메아를 구출하는 것은 파괴신 부활을 막는 것과 한몸입니다. 망설이지 말고 갑시다, <value:$28>님.<end>"
@@ -104,6 +108,10 @@ korean = "딘갈 제국의 암호…. ………… 아, 아닙니다…. <value:
 japanese = "ディンガル帝国の合い言葉かぁ。<line-break>欲しい国一杯ありそう。<line-break>あっ…ごめんなさい。<line-break>お兄ちゃん…<line-break>ヴィアはそんなことしないよ。<end>"
 korean = "딘갈 제국의 암호라…. 탐내는 나라는 많겠네. 아… 미안해. 오빠… 비아는 그런 짓 안 해.<end>"
 
+["260092"]
+japanese = "アキュリュースの港にいる女性に<line-break>合い言葉を言えばいいのよ。<line-break><line-break>合い言葉は確か…、<line-break>帝国はあの陽より輝く、だったかしら。<end>"
+korean = "아큐류스 항구에 있는 여자에게 암호를 말하면 돼. 암호는 분명… 제국은 저 태양보다 빛난다, 였던가.<end>"
+
 ["260099"]
 japanese = "あっ、そのしゃべるゴブリンなら～、<line-break>あっちへ行きましたよ？<end>"
 korean = "아, 그 말하는 고블린이라면 저쪽으로 갔어요?<end>"
@@ -140,6 +148,10 @@ korean = "말하는 고블린이라니 신기하네. 비아도 한번 보고 싶
 japanese = "奴らなら禁断の聖杯を持って<line-break>賢者の森に向かったらしい。<end>"
 korean = "녀석들이라면 금단의 성배를 들고 현자의 숲으로 향한 모양이야.<end>"
 
+["260145"]
+japanese = "聖杯を狙う魔人など拙者が<line-break>成敗してくれる…。<line-break><line-break>聖杯と成敗がダジャレになって<line-break>いるのですが、どうですかな？<line-break>やっぱり、ダメですか…。<end>"
+korean = "성배를 노리는 마인 따위 소생이 성패하겠소… 성배와 성패가 말장난인데 어떻소? 역시 안 됩니까…<end>"
+
 ["260147"]
 japanese = "………………。<line-break><line-break><line-break>闇の神器のひとつらしいな。<line-break>魔人アーギルシャイアもねらっている。<line-break>ゴブリンどもを捜すのだ。<end>"
 korean = "………………. 어둠의 신기 중 하나인 모양이군. 마인 아기르샤이아도 노리고 있다. 고블린들을 찾아라.<end>"
@@ -175,6 +187,14 @@ korean = "………………. 엔샨트다. 그 뒤는 모른다.<end>"
 ["260187"]
 japanese = "エンシャントに向かったと <line-break>あの猫が言っていたな。<line-break><line-break>酒場やギルドで聞き込みをすれば<line-break>何かわかるかもしれないな。<end>"
 korean = "엔샨트로 향했다고 그 고양이가 말했었지. 술집이나 길드에서 물어보면 뭔가 알 수 있을지도 모르겠군.<end>"
+
+["260188"]
+japanese = "たしか、エンシャントに<line-break>向かったって言ってたわね。<line-break><line-break>しゃべるゴブリンなんて珍しいから、<line-break>街の人が目撃してるはずだわ。<end>"
+korean = "분명 엔샨트로 향했다고 했지. 말하는 고블린은 드무니까 마을 사람들이 목격했을 거야.<end>"
+
+["260209"]
+japanese = "聖杯を狙う魔人など拙者が<line-break>成敗してくれる…。<line-break><line-break>聖杯と成敗がダジャレになって<line-break>いるのですが、どうですかな？<line-break>やっぱり、ダメですか…。<end>"
+korean = "성배를 노리는 마인 따위 소생이 성패하겠소… 성배와 성패가 말장난인데 어떻소? 역시 안 됩니까…<end>"
 
 ["260211"]
 japanese = "………………。<line-break><line-break><line-break>闇の神器のひとつらしいな。<line-break>魔人アーギルシャイアもねらっている。<line-break>ゴブリンどもを捜すのだ。<end>"

@@ -56,6 +56,10 @@ korean = "안녕, <value:$28>. 설마 이런 곳에서 만날 줄이야. 세상�
 japanese = "やあ、よろしく。　　　<line-break>君は<value:$28>だよね？<line-break>　<line-break>あはは、知ってるさ。<line-break>たとえ君は僕のこと<line-break>まだ知らなくってもね。<end>"
 korean = "안녕, 잘 부탁해. 너는 <value:$28> 맞지? 하하, 알고 있어. 네가 아직 나를 모르더라도 말이야.<end>"
 
+["1720019"]
+japanese = "僕はシャリ。<line-break>人は東方の博士なんて呼ぶんだ。<line-break>よろしくね。<end>"
+korean = "나는 샤리. 사람들은 동방의 박사라고 부르지. 잘 부탁해.<end>"
+
 ["1720020"]
 japanese = "死竜に人を喰わせとったのは、<line-break>お主か！<end>"
 korean = "사룡에게 사람을 먹인 게 너였느냐!<end>"
@@ -67,6 +71,10 @@ korean = "무슨 소리야? 다짜고짜 실례네, 이 사람. 뭐, 됐어.<end
 ["1720022"]
 japanese = "んじゃ、お仕事に<line-break>精を出しちゃおうかな。<end>"
 korean = "그럼 일에 힘 좀 써 볼까.<end>"
+
+["1720023"]
+japanese = "汝、吹きすさぶ風に生まれ、<line-break>汝、まきあがる土と現る。<line-break>　<line-break>暗雲と共にいでよ！<line-break>汝！　雄々しき雷よ！<line-break>我に仇なす者を撃て！！<end>"
+korean = "그대, 휘몰아치는 바람에서 태어나고, 그대, 솟구치는 흙과 함께 나타나라. 먹구름과 함께 오라! 그대여! 용맹한 천둥이여! 나의 적을 쳐라!!<end>"
 
 ["1720024"]
 japanese = "ミ、ミズチが…。<end>"
@@ -196,6 +204,10 @@ korean = "놈을 쫓는 거다!<end>"
 japanese = "軍規がいかほどのものか！<line-break>わしはわしが正しいと思う道を行く！<end>"
 korean = "군율이 대수냐! 나는 내가 옳다고 생각하는 길을 간다!<end>"
 
+["1720075"]
+japanese = "…なぜだ。<line-break>なぜ卿はそれほどまでに<line-break>あの娘にこだわる…。<end>"
+korean = "…왜지. 왜 경은 그토록 그 소녀에게 집착하는가…<end>"
+
 ["1720078"]
 japanese = "これを見ろ。<end>"
 korean = "이걸 봐.<end>"
@@ -207,6 +219,10 @@ korean = "전에 이야기했던가? 인어의 비늘로 만든 귀걸이다. �
 ["1720080"]
 japanese = "<value:$28>、すまんが<line-break>今しばらく、わしに力を貸してくれ。<end>"
 korean = "<value:$28>, 미안하지만 조금만 더 내게 힘을 빌려주게.<end>"
+
+["1720083"]
+japanese = "これは、お主に預けておこう。<line-break>何かの手がかりになるかもしれん。<end>"
+korean = "이건 자네에게 맡겨두지. 무언가 단서가 될지도 모르네.<end>"
 
 ["1720084"]
 japanese = "人魚のイヤリングを手に入れた。<end>"

@@ -12,9 +12,21 @@ korean = "<value:$28>님…. 잠시 이야기해도 괜찮을까요?<end>"
 japanese = "言える<end>"
 korean = "말할 수 있어<end>"
 
+["2380005"]
+japanese = "つまらないことを訊いてしまいました。<line-break>どうか忘れてください。<end>"
+korean = "쓸데없는 걸 물었군요. 부디 잊어주세요.<end>"
+
 ["2380006"]
 japanese = "おやすみなさい…。<end>"
 korean = "안녕히 주무세요….<end>"
+
+["2380007"]
+japanese = "…ですが、私は<line-break>ただの土くれにすぎません。<line-break>　<line-break>そんな物でも、いつの日か<line-break>自分で何かを選び取ることが<line-break>可能でしょうか？<end>"
+korean = "…하지만 저는 그저 흙덩이에 불과합니다. 그런 것이라도 언젠가 스스로 무언가를 선택할 수 있을까요?<end>"
+
+["2380008"]
+japanese = "もしも、いつの日か<line-break>私自身が心から欲しいと望むものが<line-break>できたとしたら…。<line-break>それは自分で選んだということに<line-break>なるのでしょうか？<end>"
+korean = "만약 언젠가 제 자신이 진심으로 원하는 것이 생긴다면… 그건 제가 스스로 선택한 것이 되는 걸까요?<end>"
 
 ["2380010"]
 japanese = "<value:$28>様の手は温かい。<line-break>今はこの温もりだけが、<line-break>私に安らぎを与えてくれます。<end>"

@@ -40,6 +40,10 @@ korean = "하핫!<end>"
 japanese = "なるほど、冒険者か。<line-break>では、さらばだ<value:$28>。<line-break>旅の無事を祈っておるぞ。<end>"
 korean = "그렇군, 모험자인가. 그럼 잘 가거라, <value:$28>. 여행길의 무사를 빌겠다.<end>"
 
+["1710014"]
+japanese = "聞けば、お主がドワーフ王に<line-break>敗残兵の保護を願い出てくれた<line-break>そうではないか。<line-break>お主のおかげで、多くの兵が<line-break>安全に逃げ延びることができた。<line-break>　<end>"
+korean = "듣자 하니 자네가 드워프 왕에게 패잔병 보호를 부탁했다더군. 자네 덕분에 많은 병사가 무사히 도망칠 수 있었다.<end>"
+
 ["1710015"]
 japanese = "兵に代わって礼をいう。<line-break>この通りじゃ。<end>"
 korean = "병사들을 대신해 감사를 표하네. 이렇게 부탁하네.<end>"
@@ -87,6 +91,10 @@ korean = "지라크, 나는 할 말이 있어서 왔다. 이대로는 공연히 
 ["1710041"]
 japanese = "よ、余計じゃと…。<end>"
 korean = "쓸, 쓸데없다고….<end>"
+
+["1710042"]
+japanese = "卿は昔、ディンガルから脱走したあと、<line-break>アキュリュースの傭兵隊長を<line-break>していたそうではないか。<line-break>卿の策に<line-break>利敵行為がないとは言えぬ。<end>"
+korean = "경은 예전에 딘갈에서 탈주한 뒤 아큐류스의 용병대장을 했다고 하지 않았나. 경의 계책에 적을 이롭게 하는 행위가 없다고는 할 수 없지.<end>"
 
 ["1710043"]
 japanese = "利敵行為じゃと？<line-break>見損なうな、ジラーク！<end>"
@@ -140,6 +148,10 @@ korean = "그렇다! 주작 장군 앙길단이라 한다. 그대는?<end>"
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
 
+["1710065"]
+japanese = "つい先程も、この岸に　　　　　<line-break>そちらの兵の方が<line-break>ふたりほど漂着されました。<line-break>今、傷の手当が終わったところです。<line-break>まもなくこちらに来るでしょう。<end>"
+korean = "조금 전에도 이 해안에 그쪽 병사 두 명 정도가 표류해 왔습니다. 지금 막 상처 치료가 끝났습니다. 곧 이쪽으로 올 겁니다.<end>"
+
 ["1710066"]
 japanese = "なんと…。<line-break>かたじけない、感謝いたす！<end>"
 korean = "뭐라고…. 고맙다, 감사하네!<end>"
@@ -167,6 +179,10 @@ korean = "바, 바보 같은 소리 마라! 자, 본진으로 돌아가자.<end>
 ["1710078"]
 japanese = "そんなことは卿に言われずとも<line-break>わかっている！！<line-break>　<line-break>…もうよい、下がれ。<line-break>今後の作戦は後日<line-break>追って指示する。<end>"
 korean = "그런 건 경이 말하지 않아도 알고 있다!! …됐다, 물러가라. 이후 작전은 나중에 다시 지시하겠다.<end>"
+
+["1710079"]
+japanese = "アンギルダン将軍…。<line-break>我々のために…<line-break>申しわけありません。<end>"
+korean = "앙길단 장군… 저희를 위해… 죄송합니다.<end>"
 
 ["1710082"]
 japanese = "フハハハハ。<line-break>では、またな。<end>"
@@ -243,6 +259,10 @@ korean = "무슨… 그런 심한 말을 하는 겁니까!!<end>"
 ["1710121"]
 japanese = "おお恐い。ハハハ…。<end>"
 korean = "오, 무서워라. 하하하….<end>"
+
+["1710125"]
+japanese = "この下へ行かれるのですか…？<line-break>どうか、気をつけてください……。<end>"
+korean = "이 아래로 가시려는 건가요…? 부디 조심하세요……<end>"
 
 ["1710128"]
 japanese = "<value:$28>じゃない。<line-break>私に何か？<end>"

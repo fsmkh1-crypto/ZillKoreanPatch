@@ -48,6 +48,10 @@ korean = "<value:$28>, 부탁한다.<end>"
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
 
+["300030"]
+japanese = "やめることなどできん！　　　　　　<line-break>　<line-break>　<line-break>未来の勇者の俺様の熱く昂ぶる愛は！<line-break>誰にも…、そう、<line-break>この俺様にすらとめることはできん！<end>"
+korean = "그만둘 수는 없다! 미래의 용자인 이 몸의 뜨겁게 타오르는 사랑은! 누구도… 그래, 이 몸조차 멈출 수 없어!<end>"
+
 ["300031"]
 japanese = "困ります、お客さん。<line-break>い、いや…！　触らないで。<end>"
 korean = "곤란합니다, 손님. 아, 아니…! 만지지 마세요.<end>"
@@ -107,6 +111,10 @@ korean = "아! <value:$28>! 꺄아아아아아아!!!!<end>"
 ["300055"]
 japanese = "いたたたた…。　　　　　　　<line-break><value:$28>、大丈夫？<line-break>　<line-break>もう、<value:$28>が<line-break>押してくるから、ふたりとも<line-break>穴に落ちちゃったじゃない。<end>"
 korean = "아야야야…. <value:$28>, 괜찮아? 정말, <value:$28>이 밀어대는 바람에 둘 다 구멍에 떨어졌잖아.<end>"
+
+["300057"]
+japanese = "ちょっと、<value:$28>！<line-break>変なとこ触らないでよ！　　　　　　<line-break>　<line-break>…それにしても、ここ狭いわね。<line-break>それに真っ暗で何も見えないわ。<line-break>　<end>"
+korean = "잠깐, <value:$28>! 이상한 데 만지지 마! …그나저나 여기 좁네. 게다가 너무 어두워서 아무것도 안 보여.<end>"
 
 ["300059"]
 japanese = "くすっ。<line-break>はいはい、子供のころの話よね。　　<line-break>　<line-break>…だんだん目が慣れてきたわ。<end>"
@@ -235,6 +243,10 @@ korean = "알고 있다니까.<end>"
 ["300094"]
 japanese = "<value:$28>、<line-break>何か飲み物を持ってくるわね。　　　<end>"
 korean = "<value:$28>, 뭔가 마실 걸 가져올게.<end>"
+
+["300095"]
+japanese = "ひとりで聖杯を取り戻そうなんて<line-break>考えないでよね。<line-break>…あれは、私の失敗なんだから。<line-break>少し眠ったら？<line-break>そうすれば、すぐによくなるわ。<line-break>　<end>"
+korean = "혼자 성배를 되찾으려는 생각은 하지 마. …그건 내 실수였으니까. 조금 자는 게 어때? 그러면 금방 좋아질 거야.<end>"
 
 ["300096"]
 japanese = "私がいなくても大丈夫よね…　　　　　<line-break><value:$28>は。<end>"

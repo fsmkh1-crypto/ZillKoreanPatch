@@ -12,6 +12,10 @@ korean = "<value:$28>… 씨 맞지?<end>"
 japanese = "ありがとうございます。<line-break>どうか、よろしくお願いします。<end>"
 korean = "감사합니다. 부디 잘 부탁드립니다.<end>"
 
+["890016"]
+japanese = "（反応した…。リベルダムから<line-break>　そう遠くないダンジョンだな…。）<end>"
+korean = "(반응했다… 리벨덤에서 그리 멀지 않은 던전이군…)<end>"
+
 ["890017"]
 japanese = "大変だ、<value:$28>！<line-break>エステルがシャリにさらわれちゃった！<end>"
 korean = "큰일이야, <value:$28>! 에스텔이 샤리에게 납치됐어!<end>"
@@ -59,6 +63,10 @@ korean = "헤헤, 고마워. 있잖아, 앉지 않을래?<end>"
 ["890033"]
 japanese = "チェックが終わったあと、<line-break>ボク、いつもここに来るんだ。<line-break>　<line-break>ここは、ラドラスから外が見える<line-break>たったひとつの場所だから。<line-break>　<end>"
 korean = "점검이 끝나면 난 늘 여기 와. 라드라스에서 바깥을 볼 수 있는 유일한 장소거든.<end>"
+
+["890037"]
+japanese = "それでも復活の日まで、<line-break>ボクたちはこのラドラスに飼われて、<line-break>ここを守り続けなくちゃならない。<line-break>それが運命…ってやつ。<line-break><line-break><end>"
+korean = "그래도 부활의 날까지 우리는 이 라드라스에 매여 이곳을 계속 지켜야 해. 그게 운명…이라는 거지.<end>"
 
 ["890039"]
 japanese = "ね、また、一緒に旅をしよ？<line-break>いいでしょ？<line-break>　<end>"
@@ -588,6 +596,10 @@ korean = "<value:$28>, 그녀를 여행에 데려가 주시겠습니까?<end>"
 japanese = "ケリュネイア。<line-break>　<line-break>　<line-break>人とは、どんな時であっても、<line-break>挑み続けなくてはならない<line-break>ものなのですよ。<end>"
 korean = "케류네이아. 사람은 어떤 때라도 계속 도전해야 하는 법이랍니다.<end>"
 
+["890254"]
+japanese = "挑むのをやめる時、それがすなわち、<line-break>生きるのをやめる時なのです。<end>"
+korean = "도전을 멈출 때, 바로 그때가 살아가기를 멈출 때입니다.<end>"
+
 ["890256"]
 japanese = "<value:$28>！<line-break>あなたまで、そんな！<end>"
 korean = "<value:$28>! 당신까지 그러다니!<end>"
@@ -747,6 +759,10 @@ korean = "후후후. 여기까지 와서 구더기에서 금파리로 승격했�
 ["890329"]
 japanese = "な、なんだと…？<end>"
 korean = "뭐, 뭐라고…?<end>"
+
+["890330"]
+japanese = "これは取り引きだ、我が子よ。<line-break>汝の、親しみやすき肉体をささげ、<line-break>この金蝿の王と契約せよ。<line-break>さすれば、余はこの窮地から、<line-break><value:$28>を救い出そう。<end>"
+korean = "이건 거래다, 나의 아이여. 그 친근한 육체를 바치고 이 금파리의 왕과 계약하라. 그러면 짐이 이 궁지에서 <value:$28>를 구해내마.<end>"
 
 ["890332"]
 japanese = "…わかっている。<line-break>だが、完全に食い潰されさえ<line-break>しなければ…<line-break>いつか必ず奴の支配に対して<line-break>私は反旗をひるがえす…<end>"
@@ -1219,6 +1235,10 @@ korean = "아, <value:$28>님. 송구하지만 들여보내 드릴 수 없습니
 ["890514"]
 japanese = "これは、<value:$28>様。<line-break> <line-break> <line-break>雨が降ろうが槍が降ろうが、<line-break>ここに城がある限り、<line-break>我々はここを守り続ける所存です。<end>"
 korean = "이런, <value:$28>님. 비가 오든 창이 쏟아지든 이 성이 있는 한 저희는 계속 이곳을 지킬 생각입니다.<end>"
+
+["890515"]
+japanese = "王宮の怪異を調べに？<line-break>しかし…<line-break>陛下からは誰も通すなと…。<end>"
+korean = "왕궁의 괴이를 조사하러? 하지만… 폐하께선 아무도 들이지 말라고…<end>"
 
 ["890516"]
 japanese = "説得を続ける<end>"

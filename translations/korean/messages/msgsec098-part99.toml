@@ -16,6 +16,10 @@ korean = "키스… 해 줬어요. 돌아오셨군요, <value:$28>님. …불안
 japanese = "もう一度…。<end>"
 korean = "다시 한 번….<end>"
 
+["980004"]
+japanese = "今日も飲むぞお！<line-break>今日も飲むぞお！！<line-break>今日も飲むぞお！！！<end>"
+korean = "오늘도 마신다! 오늘도 마신다!! 오늘도 마신다!!!<end>"
+
 ["980006"]
 japanese = "いらっしゃいませー。<end>"
 korean = "어서 오세요.<end>"
@@ -176,6 +180,10 @@ korean = "그런 거니까, 부탁한다 고브.<end>"
 japanese = "あ、ご主人。すまないゴブが、<line-break>今日の宿泊はキャンセルするゴブ。<line-break>　<line-break>我々も忙しい身ゴブ。<line-break>その辺りの事情をくんでほしいゴブ。<line-break>　<end>"
 korean = "아, 주인장. 미안하지만 오늘 숙박은 취소할 고브. 우리도 바쁜 몸이니 그 사정을 헤아려 줬으면 고브.<end>"
 
+["980105"]
+japanese = "今のお客さん、何かやらかしたんですか？<line-break>お知り合いみたいですが。<end>"
+korean = "방금 손님, 무슨 사고라도 쳤나요? 아는 사이 같던데.<end>"
+
 ["980106"]
 japanese = "お待たせしました。<line-break>それではお部屋にご案内…<end>"
 korean = "기다리셨습니다. 그럼 방으로 안내해 드리겠습니다….<end>"
@@ -244,6 +252,10 @@ korean = "아이린은 솔직하지 못해서 언제까지고 당신을 아이 �
 japanese = "<value:$28>…。<line-break>おかえりなさい。<end>"
 korean = "<value:$28>…. 어서 와요.<end>"
 
+["980140"]
+japanese = "<value:$28>、<line-break>あの子が、目指しているものを　　<line-break>見失ったとき…<line-break>あの子のそばにいてあげて。<line-break>力になってあげてほしいの。<line-break>お願いね。<end>"
+korean = "<value:$28>, 그 아이가 자신이 목표로 하던 걸 잃어버릴 때… 그 아이 곁에 있어줘. 힘이 되어줬으면 해. 부탁할게.<end>"
+
 ["980147"]
 japanese = "…あなたがいてくれることが　　　<line-break>何よりも、なぐさめだわ。<line-break>　<line-break>さ、今日はあなたの好きなものを<line-break>作ってあげる。<line-break>楽しみにしていてね。<end>"
 korean = "…당신이 있어 주는 게 무엇보다 위로가 돼. 자, 오늘은 당신이 좋아하는 걸 만들어 줄게. 기대해.<end>"
@@ -255,6 +267,10 @@ korean = "아이린을 잘 부탁드립니다.<end>"
 ["980153"]
 japanese = "アイリーンは<line-break>少し気が強いところがありますが　<line-break>あれで、やさしい娘なんです。<line-break>娘のこと、<line-break>よろしくお願いしますね。<end>"
 korean = "아이린은 조금 기가 센 구석이 있지만 그래도 상냥한 아이예요. 제 딸을 잘 부탁드립니다.<end>"
+
+["980160"]
+japanese = "<value:$28>さん、<line-break>あの子が、目指しているものを　　<line-break>見失ったとき…<line-break>あの子のそばにいてあげて。<line-break>力になってあげてください。<line-break>お願いします。<end>"
+korean = "<value:$28> 씨, 그 아이가 목표로 하는 것을 잃어버릴 때… 그 아이 곁에 있어주세요. 힘이 되어주세요. 부탁합니다.<end>"
 
 ["980162"]
 japanese = "あの子はきっといつか<line-break>自分の夢を勝ち取ります。<line-break>親バカかもしれませんがね。　　　<line-break>ただ、現実は残酷なものです。<end>"

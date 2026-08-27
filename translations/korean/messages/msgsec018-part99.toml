@@ -120,6 +120,10 @@ korean = "헤헤, 이거야 이거. 좋아, <value:$28>, 길드에 가져가서 
 japanese = "…これね。<line-break>さあ、<value:$28>、<line-break>ギルドに帰りましょう。<end>"
 korean = "…이거네. 자, <value:$28>, 길드로 돌아가자.<end>"
 
+["180055"]
+japanese = "フン、これか。<line-break>帰るぞ。<line-break>まったく、くだらん使い走りだ。<end>"
+korean = "흥, 이건가. 돌아간다. 정말 시시한 심부름이군.<end>"
+
 ["180056"]
 japanese = "おお、これじゃな。<line-break>あとはギルドに渡すだけじゃ。<line-break>行くぞい、<value:$28>。<end>"
 korean = "오오, 이거구나. 이제 길드에 넘기기만 하면 된다. 가자, <value:$28>.<end>"

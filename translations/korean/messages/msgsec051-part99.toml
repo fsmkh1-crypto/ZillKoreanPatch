@@ -20,6 +20,10 @@ korean = "그래. 우리가 아니라 숙모님께서 만나고 싶으시대.<en
 japanese = "…んなこと突然、言われてもなあ。　　<line-break>　<line-break>　<line-break>俺は今、とーってもでっかいものを<line-break>追っかけてるんでな。<line-break>悪いが戻れんと、叔母貴に伝えてくれ。<end>"
 korean = "…그런 말을 갑자기 해도 말이지. 나는 지금 엄청나게 큰 걸 쫓고 있어서. 미안하지만 못 돌아간다고 숙모에게 전해 줘.<end>"
 
+["510006"]
+japanese = "そうはまいりません。　　　　　　　<line-break>　<line-break>　<line-break>…兄が申しておりました。<line-break>あれは無限のソウルを持つ者だと。<line-break>興味をひかれることはわかります。<end>"
+korean = "그럴 수는 없습니다. …형님께서 말씀하셨습니다. 저 사람은 무한의 소울을 지닌 자라고. 흥미가 끌리는 건 이해합니다.<end>"
+
 ["510010"]
 japanese = "来ていただけるかしら、<line-break>ゼネテス様？<end>"
 korean = "와 주시겠어요, 제네테스 님?<end>"
@@ -27,6 +31,10 @@ korean = "와 주시겠어요, 제네테스 님?<end>"
 ["510011"]
 japanese = "悪いな、話の調子を変えてくれ。<line-break>友達が来た。<end>"
 korean = "미안하지만 이야기 분위기를 좀 바꿔 줘. 친구가 왔어.<end>"
+
+["510012"]
+japanese = "よう、<value:$28>。<line-break>ヒマに任せてひとりで冒険に出てたら、<line-break>美人姉妹にデートに誘われちゃってさ。<line-break>結構、強引なのよ。<line-break>どうしようかね、これ。<end>"
+korean = "여, <value:$28>. 심심해서 혼자 모험을 나왔더니 미인 자매한테 데이트 신청을 받았어. 꽤 강압적인데. 어쩌면 좋을까, 이거.<end>"
 
 ["510013"]
 japanese = "力ずくでも、来ていただくわ、<line-break>ゼネテス様。<end>"
@@ -179,6 +187,10 @@ korean = "로스토올군은 해로에서의 침공에<end>"
 ["510091"]
 japanese = "そんなロマンチズムに<line-break>つきあう気はないな。<end>"
 korean = "그런 낭만주의에 어울려 줄 생각은 없어.<end>"
+
+["510093"]
+japanese = "さ～てと。<line-break>生き残る方法を考えなきゃ、だな。　　<line-break>　<line-break>アンギルダンのとっつぁんは<line-break>俺らを叩きつぶすのよりも、<line-break>物資調達の方を優先させた。<end>"
+korean = "자아. 살아남을 방법을 생각해야겠군. 앙길단 아저씨는 우리를 짓밟는 것보다 물자 조달을 우선했어.<end>"
 
 ["510099"]
 japanese = "５分でいい。<line-break>頼むぜ、<value:$28>。<end>"

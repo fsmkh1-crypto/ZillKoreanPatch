@@ -24,6 +24,10 @@ korean = "다시 시작한다<end>"
 japanese = "よっしゃ。<line-break>それでは、出発じゃ。<end>"
 korean = "좋아. 그럼 출발하자.<end>"
 
+["130016"]
+japanese = "それじゃ、わしはここで待っとるから、<line-break>用が済んだら、声をかけてくれ。<end>"
+korean = "그럼 난 여기서 기다리고 있을 테니 볼일이 끝나면 말을 걸어줘.<end>"
+
 ["130018"]
 japanese = "おう、用事は済んだのかい。<line-break>連れて帰ってよいんじゃな？<end>"
 korean = "그래, 볼일은 끝났나. 데리고 돌아가도 되는 거지?<end>"
@@ -39,6 +43,10 @@ korean = "기다려 주세요<end>"
 ["130021"]
 japanese = "よっしゃ。<line-break>それじゃ戻ろうかの。<end>"
 korean = "좋아. 그럼 돌아갈까.<end>"
+
+["130022"]
+japanese = "また、用があったら声をかけてくれ。<line-break>わしは、いつもここにおるからの。<end>"
+korean = "또 볼일이 있으면 말을 걸어줘. 난 언제나 여기 있으니까.<end>"
 
 ["130023"]
 japanese = "そうかい。<line-break>じゃ、用事が済んだら声をかけてくれ。<end>"

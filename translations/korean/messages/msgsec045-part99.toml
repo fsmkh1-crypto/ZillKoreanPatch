@@ -92,6 +92,10 @@ korean = "모험자끼리 싸우는 거니 내버려 둔다<end>"
 japanese = "くっ、第三の刺客か！<end>"
 korean = "큭, 세 번째 자객인가!<end>"
 
+["450025"]
+japanese = "貴様！　あのときの！<line-break>そうか。貴様も魔王の刺客だったのか！<line-break><line-break>あのときは<line-break>腹が減っていて敗れたが、<line-break>今回はそうはいかん。ゆくぞ！<end>"
+korean = "네놈! 그때의! 그렇군. 네놈도 마왕의 자객이었나! 그때는 배가 고파 패했지만 이번엔 다르다. 간다!<end>"
+
 ["450030"]
 japanese = "ガルドラン、待て！<end>"
 korean = "갈드란, 기다려!<end>"
@@ -220,6 +224,10 @@ korean = "요즘 인간들의 뿔 사냥 때문에 우리 수는 점점 줄어�
 japanese = "でも、角は僕らの急所だから<line-break>取られたら死んじゃうんだ！！<end>"
 korean = "하지만 뿔은 우리 급소라서 빼앗기면 죽고 말아!!<end>"
 
+["450076"]
+japanese = "うちの息子は冒険者にひどい目に<line-break>遭わされて、まだ寝込んでいるんだ！<line-break>　<line-break>出て行け！<line-break>冒険者なんか、顔も見たくない！<line-break>出ていってくれ！<end>"
+korean = "우리 아들은 모험자에게 심한 꼴을 당해 아직도 누워 있어! 나가! 모험자 따윈 얼굴도 보기 싫어! 나가줘!<end>"
+
 ["450077"]
 japanese = "う、うちのヴァンをどこにやった！<line-break>こっ、この、ひとさらいめ！！<end>"
 korean = "우, 우리 반을 어디로 데려갔어! 이, 이 유괴범 놈아!!<end>"
@@ -235,6 +243,10 @@ korean = "네놈…! 모험자…! …나가라! 내가 신사적으로 말할 �
 ["450081"]
 japanese = "うちは巡礼客だけでやってるんでな。<line-break>冒険者を泊める気はないよ。<end>"
 korean = "우린 순례객만 받는다. 모험자를 재울 생각은 없어.<end>"
+
+["450084"]
+japanese = "ヴァンちゃんに苦労させないで。<line-break>ヴァンちゃんがかわいそうでしょ。<end>"
+korean = "반을 고생시키지 마. 반이 불쌍하잖아.<end>"
 
 ["450089"]
 japanese = "ナッジ…よくも、よくも、<line-break>私たちの前に顔が出せたもんだな！<line-break>　<line-break>お前のせいでヴァンは！<end>"
@@ -503,6 +515,10 @@ korean = "젠장, 코른스를 놓쳐 버렸어…! 모처럼의 보물을…!<e
 ["450185"]
 japanese = "ぶっ殺してやる！<end>"
 korean = "죽여 버리겠어!<end>"
+
+["450186"]
+japanese = "ムダだ！　　　　　　　　　　　　　　<line-break>　<line-break>　<line-break>貴様らごときザコ冒険者では、<line-break>極上の冒険者として日夜絶賛される<line-break>俺様にかなうべくもない！！<end>"
+korean = "소용없다! 네놈들 같은 잡졸 모험자로는 최고급 모험자로 밤낮없이 칭송받는 이 몸을 당해낼 수 없다!!<end>"
 
 ["450188"]
 japanese = "なんか。ヤバそうな奴ですぜ。<line-break>アニキ。<end>"

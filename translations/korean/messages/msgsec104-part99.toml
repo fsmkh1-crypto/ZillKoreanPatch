@@ -28,6 +28,10 @@ korean = "귀찮네<end>"
 japanese = "何かご用ですか？　　　　　　　　<line-break>　<line-break>　<line-break>ロティ様に届けもの？<line-break>そうですか、それはわざわざ<line-break>ご苦労さまでした。<end>"
 korean = "무슨 용건이십니까? 로티 님께 전해 드릴 물건이라고요? 그렇군요, 수고하셨습니다.<end>"
 
+["1040011"]
+japanese = "確かに受け取りました。　　　　　<line-break>　<line-break>　<line-break>ところで…、なんですかこれは？<line-break>重さからすると水のようですが…。<line-break>きっと、お酒か何かですね。<end>"
+korean = "확실히 받았습니다. 그런데… 이게 뭡니까? 무게로 보면 물 같은데… 분명 술 같은 거겠군요.<end>"
+
 ["1040013"]
 japanese = "残念だよ、<value:$28>君。<line-break>これほど仕事が遅いとは…。<line-break>手紙は別の者に届けてもらった。<line-break>もっとできる冒険者だと<line-break>思っていたのだが…。<end>"
 korean = "아쉽군, <value:$28>군. 이렇게 일이 늦을 줄이야…. 편지는 다른 사람에게 맡겼다. 좀 더 유능한 모험자라고 생각했는데….<end>"

@@ -264,6 +264,10 @@ korean = "게힛!! 레, 레므온 님….<end>"
 japanese = "それなりの覚悟は<line-break>できているのだろうな？<end>"
 korean = "그만한 각오는 되어 있겠지?<end>"
 
+["310133"]
+japanese = "覚悟？　ゲヘヘ…<line-break>俺様の強さがわからねえらしいな！<line-break>覚悟しろとはこっちのセリフだ！<line-break>死んでもらうぜ！！<line-break>我が主、レムオン・リューガ様よぉ！<end>"
+korean = "각오? 게헤헤… 이 몸의 강함을 모르는 모양이군! 각오하라는 건 이쪽 대사다! 죽어라!! 나의 주인, 레몬 류가 님이여!<end>"
+
 ["310134"]
 japanese = "<value:$28>！<line-break>回復してやる！　立て！<line-break>このブタ野郎に殺されたくなければな！<end>"
 korean = "<value:$28>! 회복시켜 주마! 일어나! 이 돼지 자식한테 죽고 싶지 않으면!<end>"
@@ -488,6 +492,10 @@ korean = "그럴 리가!! 우리는 귀족들의 권력 다툼 때문에 이렇�
 japanese = "えっ！？<end>"
 korean = "어!?<end>"
 
+["310228"]
+japanese = "フリントはボルボラから<line-break>俺の秘密に関する密書を受け取り、<line-break>それをエリスに報告に向かっている。<line-break>俺は急いで王都へ戻り、<line-break>エリスに会わねばならん。<end>"
+korean = "플린트는 볼보라에게서 내 비밀에 관한 밀서를 받아 엘리스에게 보고하러 가고 있다. 나는 서둘러 왕도로 돌아가 엘리스를 만나야 한다.<end>"
+
 ["310229"]
 japanese = "俺についてこい。<line-break><value:$28>。<line-break>この町にはもうお前に居場所はない。<line-break>だが、俺はお前を必要としている。<line-break>俺と王都に来い。<line-break><value:$28>。<end>"
 korean = "나를 따라와, <value:$28>. 이 마을에는 이제 네 자리가 없다. 하지만 난 네가 필요하다. 나와 왕도로 가자, <value:$28>.<end>"
@@ -531,6 +539,10 @@ korean = "이… 이 악동 녀석!<end>"
 ["310239"]
 japanese = "早く逃げて！！<line-break>早く！！<end>"
 korean = "빨리 도망쳐!! 빨리!!<end>"
+
+["310250"]
+japanese = "レムオン様。<line-break>あなたの秘密についての密書、<line-break>ボルボラより受け取っております。<line-break>あなたは密書を取り戻さねば破滅。<line-break>反乱にかまっているヒマはない。<end>"
+korean = "레몬 님. 당신의 비밀에 관한 밀서, 볼보라에게서 받았습니다. 밀서를 되찾지 못하면 당신은 파멸합니다. 반란에 신경 쓸 여유는 없습니다.<end>"
 
 ["310255"]
 japanese = "どうした？<line-break>チャカとかいう弟を助けに行くぞ。<end>"
@@ -595,6 +607,10 @@ korean = "장로의 집<end>"
 ["310285"]
 japanese = "ギルド<end>"
 korean = "길드<end>"
+
+["310289"]
+japanese = "闇の神器というのは<line-break>伝説によると破壊神復活に使われた<line-break>強力な１２個の魔道器の総称です。<line-break>しかし、そのようなものが<line-break>現実に存在するのでしょうか？<end>"
+korean = "어둠의 신기란 전설에 따르면 파괴신 부활에 사용된 강력한 12개의 마도기를 통칭합니다. 하지만 그런 것이 실제로 존재할까요?<end>"
 
 ["310291"]
 japanese = "鍛冶屋<end>"

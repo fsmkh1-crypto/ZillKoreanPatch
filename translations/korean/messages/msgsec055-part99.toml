@@ -48,6 +48,10 @@ korean = "<value:$28>, 봐.<end>"
 japanese = "この人たち、みんな同じ刺青してる！<line-break>どういうこと？<end>"
 korean = "이 사람들, 전부 같은 문신을 하고 있어! 어떻게 된 거야?<end>"
 
+["550020"]
+japanese = "見てよ！　この人たち、<line-break>みんな、同じ刺青してる…。<line-break><line-break>天空神ノトゥーンの紋章…？<line-break>いや、ちょっと違う。<line-break>どこか、まがまがしい…。<end>"
+korean = "봐! 이 사람들 모두 같은 문신을 하고 있어… 천공신 노툰의 문장…? 아니, 조금 달라. 어딘가 불길해…<end>"
+
 ["550021"]
 japanese = "うん、行ってみようよ。<line-break>すっごく、気になるしさ。<end>"
 korean = "응, 가 보자. 엄청 신경 쓰이기도 하고.<end>"
@@ -63,6 +67,10 @@ korean = "그렇군요.<end>"
 ["550027"]
 japanese = "…施文院だ。<end>"
 korean = "…시문원이다.<end>"
+
+["550028"]
+japanese = "説明はまたの機会だ。<line-break>連中を追っかけようぜ。<line-break><line-break>石化獣…とかいうのが<line-break>この村には封印されているそうだな。<line-break>急がないとヤバいかもしれない。<end>"
+korean = "설명은 다음 기회에 하지. 놈들을 쫓자. 석화수…라는 게 이 마을에 봉인돼 있다더군. 서두르지 않으면 위험할지도 몰라.<end>"
 
 ["550029"]
 japanese = "＜無＞<end>"
@@ -1107,6 +1115,10 @@ korean = "저예요, 노엘이에요.<end>"
 ["550333"]
 japanese = "いつか、石化獣に襲われたとき<line-break>助けていただいたノエルです！<end>"
 korean = "예전에 석화수에게 습격당했을 때 도와주셨던 노엘입니다!<end>"
+
+["550334"]
+japanese = "わたし、冒険者になったんです。<line-break>村のみんなの呪いを解くため…。<line-break>それから、<value:$28>さん<line-break>みたいに強くなって…、<line-break>たくさんの人を助けるために。<end>"
+korean = "저, 모험자가 됐어요. 마을 사람들의 저주를 풀기 위해… 그리고 <value:$28> 씨처럼 강해져서 많은 사람을 돕기 위해서요.<end>"
 
 ["550335"]
 japanese = "あっ、そうだ、<line-break>わたしの仲間を紹介します！　　<line-break>　<end>"

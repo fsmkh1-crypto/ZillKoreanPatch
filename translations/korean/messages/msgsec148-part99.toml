@@ -16,6 +16,10 @@ korean = "후후, 여기는 결계를 쳐 두었습니다.<end>"
 japanese = "未使用<end>"
 korean = "미사용<end>"
 
+["1480004"]
+japanese = "運命に選ばれた人だけが、<line-break>結界を抜けてここに入ってくるのです。<line-break>　<line-break>ですから、あなたほどの冒険者でも　　<line-break>ここに来たことがないんですよ。<line-break>　<end>"
+korean = "운명에 선택받은 사람만 결계를 지나 이곳에 들어옵니다. 그래서 당신만 한 모험자도 이곳에 온 적이 없는 거죠.<end>"
+
 ["1480005"]
 japanese = "いらっしゃい。<line-break>お待ちしていましたよ。<line-break>　<line-break>私はオルファウス。<line-break>この猫屋敷の主です。<end>"
 korean = "어서 오세요. 기다리고 있었습니다. 저는 오르파우스. 이 고양이 저택의 주인입니다.<end>"
@@ -63,6 +67,10 @@ korean = "흐윽, 흐윽…<end>"
 ["1480023"]
 japanese = "うわ～ん！！！<line-break><value:$28>～！<line-break>こわかったよぉ～～～！<end>"
 korean = "으아앙!!! <value:$28>~! 무서웠어~~~!<end>"
+
+["1480024"]
+japanese = "あんたがルルアンタを<line-break>助けてくれたんだな。<line-break>礼を言う。<end>"
+korean = "네가 루루안타를 구해줬구나. 고맙다.<end>"
 
 ["1480027"]
 japanese = "すまない。<line-break>そうさせてもらえると助かる。<end>"

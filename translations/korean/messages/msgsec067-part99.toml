@@ -152,6 +152,10 @@ korean = "후후, 나도 팔불출이군. 잘 부탁한다, <value:$28>.<end>"
 japanese = "ティアナ、邪魔をしたな。<end>"
 korean = "티아나, 방해했군.<end>"
 
+["670041"]
+japanese = "飲み物は、毒が入っておらぬなら、<line-break>供の者にでもやるとよい。<end>"
+korean = "마실 것에 독이 들지 않았다면 수행원에게라도 주면 되겠지.<end>"
+
 ["670043"]
 japanese = "…そう。<end>"
 korean = "…그래.<end>"
@@ -164,9 +168,17 @@ korean = "어머님은 정말 아름다우시다.<end>"
 japanese = "ですが、お父様は…<line-break>あまりパッとしません。<line-break>　<line-break>…釣り合いませんよね。<end>"
 korean = "하지만 아버님은… 별로 눈에 띄지 않으세요. …어울리지 않죠.<end>"
 
+["670046"]
+japanese = "たとえ、お父様の他に誰かがいても、<line-break>不思議はありませんよね？<end>"
+korean = "아버지 말고 다른 누군가가 있어도 이상할 건 없겠죠?<end>"
+
 ["670047"]
 japanese = "男の人は、美人には弱いのですね…。<end>"
 korean = "남자는 미인에게 약하군요….<end>"
+
+["670048"]
+japanese = "…今日は…気分がすぐれません。<line-break>お引き取りいただけませんか？<end>"
+korean = "…오늘은… 기분이 좋지 않네요. 돌아가 주시겠어요?<end>"
 
 ["670049"]
 japanese = "<value:$28>、どうした？<end>"
@@ -279,6 +291,10 @@ korean = "티아나 말이 맞다고 생각해<end>"
 ["670085"]
 japanese = "ティアナの言うことは何か違うと思う<end>"
 korean = "티아나 말은 뭔가 아닌 것 같아<end>"
+
+["670086"]
+japanese = "なるほどね。　　　　　　　　　<line-break>　<line-break>　<line-break>俺たちが、今ここでやったこと…<line-break>確かになんの解決にも<line-break>なっちゃあいないだろうが、<end>"
+korean = "그렇군. 우리가 지금 여기서 한 일… 확실히 아무 해결도 되지 않았겠지만,<end>"
 
 ["670087"]
 japanese = "意味はあったと思いたいねぇ。<end>"

@@ -16,6 +16,10 @@ korean = "불경한…. 신이시여, 부디 용서해 주십시오.<end>"
 japanese = "この男は救世主などではないぞ。<line-break>この男の世迷い言など信じるな。<line-break>信じた者は、同罪とみなす。<line-break>頭を冷やせ！<line-break>世界が滅びるものか！<end>"
 korean = "이 남자는 구세주 같은 게 아니다. 이자의 헛소리를 믿지 마라. 믿는 자도 동죄로 간주한다. 정신 차려! 세계가 멸망할 리 없다!<end>"
 
+["1500007"]
+japanese = "黙れ！<line-break>貴様が救世主というのなら<line-break>その証拠を見せろ！<end>"
+korean = "닥쳐! 네놈이 구세주라면 그 증거를 보여라!<end>"
+
 ["1500008"]
 japanese = "剣は貴様の喉元に向いている。<line-break>本当に神の遣いなら、<line-break>素手で剣を受け止めてみろ！<line-break>奇跡を起こしてみろ！<end>"
 korean = "검은 네 목을 겨누고 있다. 정말 신의 사자라면 맨손으로 검을 받아 봐라! 기적을 일으켜 봐라!<end>"
@@ -84,6 +88,10 @@ korean = "엘파스 님!<end>"
 japanese = "救世主様！<end>"
 korean = "구세주님!<end>"
 
+["1500028"]
+japanese = "ようやくお目覚めか…。<line-break>　<line-break>　<line-break>君は僕の正体を知っているはずだ。<line-break>この僕があいつらに不覚をとるなど<line-break>ありえない…、違うか？<end>"
+korean = "드디어 깨어났나… 자네는 내 정체를 알고 있을 텐데. 이 내가 그런 녀석들에게 당한다는 건 있을 수 없어… 그렇지?<end>"
+
 ["1500029"]
 japanese = "わかっているなら、<line-break>邪魔をするのはやめてくれ。<line-break>　<line-break>僕に挑もうというのなら話は別だが。<end>"
 korean = "알고 있다면 방해하지 마. 나에게 도전하겠다면 얘기가 다르지만.<end>"
@@ -131,6 +139,10 @@ korean = "뭐!?<end>"
 ["1500043"]
 japanese = "うぐ…、やりやがった…な。<end>"
 korean = "으윽…, 해냈구나….<end>"
+
+["1500045"]
+japanese = "エルファス様は奇跡を見せてくださった。<line-break>あのお方は救世主だ。<end>"
+korean = "엘파스 님은 기적을 보여주셨다. 그분은 구세주다.<end>"
 
 ["1500046"]
 japanese = "ああ、エルファス様。<line-break>私は神にすべてを捧げます。<end>"

@@ -60,6 +60,10 @@ korean = "으으… 졌어.<end>"
 japanese = "さすがゴブ。<line-break>これで<value:$28>の<line-break>７８連勝ゴブ！<end>"
 korean = "역시 고브. 이걸로 <value:$28>의 78연승 고브!<end>"
 
+["1920020"]
+japanese = "アイリーン、<line-break>もうやめた方がいいゴブよ。　　　<line-break>　<line-break>一本とれなくったって、<line-break><value:$28>はアイリーンの<line-break>よさをちゃんとわかっているゴブ。<end>"
+korean = "아이린, 이제 그만하는 게 좋다 고브. 한 번도 못 이겨도 <value:$28>는 아이린의 좋은 점을 제대로 알고 있다 고브.<end>"
+
 ["1920024"]
 japanese = "うぅ…。<line-break>こいつらと兄弟弟子だなんて…。<end>"
 korean = "으으…. 이 녀석들과 동문이라니….<end>"
@@ -520,6 +524,10 @@ korean = "고마워, <value:$28>. 네 덕분에 아버지의… 칸다칸의 유
 japanese = "<value:$28>が見つけて<line-break>なかったら、中に隠されてた<line-break>暗号文ごと箱の中で眠っていたわ。<end>"
 korean = "<value:$28>이 찾아내지 않았으면 안에 숨겨진 암호문째 상자 속에서 잠들어 있었겠지.<end>"
 
+["1920199"]
+japanese = "年下のあなたに、<line-break>こんなことを言うなんて、<line-break>弱い女だと思うかもしれないけど、<line-break>これが、偽りのない私。<line-break>あなたにだけ見せられる本当の私。<line-break>　<end>"
+korean = "나보다 어린 당신에게 이런 말을 하면 약한 여자라고 생각할지도 모르지만, 이게 거짓 없는 나야. 당신에게만 보여줄 수 있는 진짜 나.<end>"
+
 ["1920200"]
 japanese = "私にここまで言わせたんだから、<line-break><value:$28>、これからもずっと<line-break>私と一緒に海に出てくれるわよね？<end>"
 korean = "내가 여기까지 말했으니, <value:$28>, 앞으로도 계속 나와 함께 바다로 나가 줄 거지?<end>"
@@ -595,6 +603,10 @@ korean = "다시 <value:$28>과 함께 여행할 수 있다니 기뻐!<end>"
 ["1920229"]
 japanese = "ルルアンタは、これからも<line-break><value:$28>に、<line-break>ありったけの笑顔をあげるから。<line-break>だから、ずっと一緒にいようね。<end>"
 korean = "루루안타는 앞으로도 <value:$28>에게 있는 힘껏 웃어 줄 거야. 그러니까 계속 함께 있자.<end>"
+
+["1920231"]
+japanese = "その時は、ぶさいくなネコちゃんにも<line-break>ちゃんとお土産、持ってくるね。<end>"
+korean = "그때는 못생긴 고양이한테도 제대로 선물 가져올게.<end>"
 
 ["1920233"]
 japanese = "<value:$28>さーん！<end>"

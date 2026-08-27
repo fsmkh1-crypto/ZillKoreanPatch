@@ -8,6 +8,10 @@ korean = "아트레이아 볼륨3 시작<end>"
 japanese = "<value:$28>…。<line-break>無限のソウルの持ち主…。<line-break>　<line-break>君が生きていてくれて<line-break>僕は嬉しいよ。<line-break>フフッ、ホントさ。<end>"
 korean = "<value:$28>…. 무한의 소울을 지닌 자…. 네가 살아 있어 줘서 기뻐. 후후, 진심이야.<end>"
 
+["760003"]
+japanese = "こんにちは。　　　　　　　　　　　<line-break><value:$28>…だっけ？<line-break>　<line-break>僕はこの大陸から東にある<line-break>遠い遠い所から来た魔道学士、<line-break>東方の博士シャリ。<end>"
+korean = "안녕하세요. <value:$28>…였죠? 저는 이 대륙에서 동쪽으로 아주 멀리 떨어진 곳에서 온 마도학사, 동방의 박사 샤리입니다.<end>"
+
 ["760011"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -75,6 +79,10 @@ korean = "의뢰인이 나쁜 녀석이었으니까<end>"
 ["760043"]
 japanese = "…返す言葉もない<end>"
 korean = "…할 말이 없군<end>"
+
+["760045"]
+japanese = "いいえ、あたしたちに仕事を依頼<line-break>してきたのは王女の侍女だったわ。<end>"
+korean = "아니, 우리에게 일을 의뢰한 건 왕녀의 시녀였어.<end>"
 
 ["760047"]
 japanese = "空<end>"

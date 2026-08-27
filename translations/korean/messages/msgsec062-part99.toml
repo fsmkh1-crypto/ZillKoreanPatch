@@ -160,6 +160,10 @@ korean = "바이아시온 최대의 도시. 문화와 상업의 수도…. 역�
 japanese = "あ、あの…、<line-break>冒険者登録したいんでゴブが…。<end>"
 korean = "저, 저기… 모험자 등록을 하고 싶다 고브….<end>"
 
+["620049"]
+japanese = "では、まずここに<line-break>パーティー名を記入してくれ。　<line-break>　<end>"
+korean = "그럼 먼저 여기에 파티 이름을 적어줘.<end>"
+
 ["620050"]
 japanese = "な、なんかドキドキするゴブ。<end>"
 korean = "뭔가 두근두근한다 고브.<end>"
@@ -260,6 +264,10 @@ korean = "단장, 늦다 고브. 또 어디서 군것질하고 있는 거 고브
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["620082"]
+japanese = "とうとう捕まえたわ。これで<line-break>あの変な必殺技も使えないわよね。<end>"
+korean = "드디어 잡았어. 이제 그 이상한 필살기도 못 쓰겠지.<end>"
+
 ["620083"]
 japanese = "うーん、不覚ゴブ～！<end>"
 korean = "으음, 방심한 고브~!<end>"
@@ -295,6 +303,10 @@ korean = "…마룬, 미안하다 고브.<end>"
 ["620092"]
 japanese = "ええ～！？<end>"
 korean = "에에~!?<end>"
+
+["620093"]
+japanese = "聖杯がなければ、また、<line-break>人間におびえる暮らしが待ってるゴブ。<end>"
+korean = "성배가 없으면 또 인간에게 벌벌 떨며 사는 생활이 기다린다 고브.<end>"
 
 ["620094"]
 japanese = "それだけはもうイヤゴブ！　　　　　<line-break>　<line-break>　<line-break>ゴブゴブ団の団長として、個人より<line-break>組織を優先しなければならないことも<line-break>あるのでゴブ。<end>"
@@ -568,6 +580,10 @@ korean = "마룬!<end>"
 japanese = "…スマンでゴブ。<line-break>苦労をかけたゴブ。<end>"
 korean = "…미안하다고브. 고생시켰다고브.<end>"
 
+["620196"]
+japanese = "オルファウス様！　お願いゴブ！<line-break>我らを幸せにして欲しいゴブ！<end>"
+korean = "올파우스 님! 부탁이다 고브! 우리를 행복하게 해줬으면 한다 고브!<end>"
+
 ["620197"]
 japanese = "それは無理ですね。<end>"
 korean = "그건 무리네요.<end>"
@@ -583,6 +599,10 @@ korean = "행복은 결국 자신의 손으로 붙잡는 것이니까요.<end>"
 ["620200"]
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
+
+["620202"]
+japanese = "それはできないゴブ！<line-break>これがないと我らはもとの暮らしに…！<end>"
+korean = "그럴 수 없다 고브! 이게 없으면 우리는 원래 생활로…!<end>"
 
 ["620204"]
 japanese = "だけど…。<end>"
@@ -640,6 +660,10 @@ korean = "…그렇네. 죽일 생각이었다면 진작 그랬겠지. …분하
 japanese = "どうですか？<end>"
 korean = "어떻습니까?<end>"
 
+["620221"]
+japanese = "あ、あの、<line-break>とてもおいしかったです。　　　<line-break>　<line-break>あの、ほんと、<line-break>お世辞なんかじゃなくて…、<line-break>とても、やさしい味がしました。<end>"
+korean = "아, 저기, 정말 맛있었어요. 정말 빈말이 아니라… 아주 다정한 맛이 났어요.<end>"
+
 ["620222"]
 japanese = "ありがとう。私が作ったんです。<line-break>何よりのほめ言葉ですよ。<end>"
 korean = "고마워요. 제가 만든 거예요. 최고의 칭찬이네요.<end>"
@@ -672,13 +696,25 @@ korean = "잘 부탁드립니다.<end>"
 japanese = "あんたの予想通りだ。<end>"
 korean = "네 예상대로야.<end>"
 
+["620240"]
+japanese = "一応、俺の管理物だからな。<line-break>仲間とは言え、取られたくはない。<end>"
+korean = "일단 내 관리 물건이니까. 동료라 해도 빼앗기고 싶진 않아.<end>"
+
 ["620242"]
 japanese = "あんたの方も<line-break>俺に言うべき事があるだろう？<end>"
 korean = "너도 나한테 해야 할 말이 있잖아?<end>"
 
+["620244"]
+japanese = "また、大きく<line-break>時代が動き出しそうですねえ。　　　<line-break>　<end>"
+korean = "또 크게 시대가 움직이기 시작할 것 같네요.<end>"
+
 ["620245"]
 japanese = "あんた、あの子供に聖杯を<line-break>管理させようとしているな？<end>"
 korean = "너, 그 아이에게 성배를 맡기려는 거지?<end>"
+
+["620247"]
+japanese = "アーギルシャイアは残虐だ。<line-break>あいつがねらってるのに大丈夫か？<end>"
+korean = "아기르샤이아는 잔혹해. 녀석이 노리고 있는데 괜찮겠어?<end>"
 
 ["620248"]
 japanese = "大丈夫ですよ。<line-break>私、信じてますから。<end>"

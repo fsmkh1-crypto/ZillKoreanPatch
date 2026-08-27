@@ -4,6 +4,10 @@
 japanese = "ネメア・ボリューム１その２開始<end>"
 korean = "네메아 볼륨1 그 2 시작<end>"
 
+["1640001"]
+japanese = "お、<value:$28>か。<line-break>いくつか仕事もこなして、<line-break>冒険者らしくなってきたな。　　<line-break>リベルダムには、行ったか？<line-break>あそこは冒険者ギルドの本部だ。<end>"
+korean = "오, <value:$28>인가. 몇 가지 일도 해내고 모험자다워졌군. 리벨덤에는 가봤나? 거긴 모험자 길드 본부다.<end>"
+
 ["1640004"]
 japanese = "そうだ。<line-break>ささいなことでもかまわない。<line-break>　<line-break>闇の気配を感じるような話を<line-break>聞いていたら、教えてほしい。<end>"
 korean = "그래. 사소한 것이라도 상관없다. 어둠의 기운이 느껴지는 이야기를 들었다면 알려 줘.<end>"
@@ -244,6 +248,10 @@ korean = "뭣…! 너, 너는!!<end>"
 japanese = "ネメア！！<end>"
 korean = "네메아!!<end>"
 
+["1640076"]
+japanese = "各地の街道で<line-break>冒険者を襲っているボルダンとは、<line-break>お前か？<end>"
+korean = "각지의 가도에서 모험자를 습격한다는 볼단이 네놈이냐?<end>"
+
 ["1640077"]
 japanese = "いかにも。<line-break>フフフ、運がいい。<line-break>このような大物と出会えるとは！<line-break>さあ、ネメア！<line-break>我と勝負しろ！！<end>"
 korean = "그렇다. 후후후, 운이 좋군. 이런 거물을 만나다니! 자, 네메아! 나와 승부해라!!<end>"
@@ -271,6 +279,10 @@ korean = "마, 말도 안 돼…. 전혀 움직일 수 없다니….<end>"
 ["1640083"]
 japanese = "フフフ…。<line-break>おもしろい。<line-break>これほど強い奴がいるとは…。<end>"
 korean = "후후후… 재미있군. 이렇게 강한 녀석이 있다니…<end>"
+
+["1640084"]
+japanese = "我らボルダンの中でも<line-break>最強の戦士レーグは、<line-break>お前と引き分けたと聞く。<line-break>ならば我は、<line-break>いずれお前を倒し、<line-break>レーグをも超えて見せよう。<end>"
+korean = "우리 볼단 중 최강의 전사 레그가 너와 비겼다고 들었다. 그렇다면 나는 언젠가 너를 쓰러뜨리고 레그마저 뛰어넘겠다.<end>"
 
 ["1640085"]
 japanese = "今のお前では、<line-break>レーグは超えられまい。<line-break>　<line-break>いずれその若者にも、<line-break>追い抜かれよう。<end>"
@@ -303,6 +315,10 @@ korean = "그 볼단을 쫓고 있었다. 닥치는 대로 모험자를 습격�
 ["1640092"]
 japanese = "竜王の覚醒は聞いたか？<end>"
 korean = "용왕의 각성 소식은 들었나?<end>"
+
+["1640093"]
+japanese = "激動の時代を告げる神の声だ。<line-break>あれ以来、闇の気配を追っている。<end>"
+korean = "격동의 시대를 알리는 신의 목소리다. 그 뒤로 계속 어둠의 기척을 쫓고 있다.<end>"
 
 ["1640094"]
 japanese = "わかるのだ、私には。<end>"

@@ -176,6 +176,10 @@ korean = "아~ 치사해! 애들 싸움에 어른이 끼어들었어!<end>"
 japanese = "復活の時に無限のソウルの持ち主が<line-break>生まれあわせているなんて…。<line-break>　<line-break>しかもそれが、<value:$28>、<line-break>お前だなんて…。<end>"
 korean = "부활의 때에 무한의 소울을 지닌 자가 태어나 있다니…. 게다가 그게 <value:$28>, 너라니….<end>"
 
+["360060"]
+japanese = "破壊神ウルグの円卓騎士<line-break>告げるものアスティアよ。　　　<line-break>お前の背信のもくろみは失敗だ。<line-break>どうあがこうと<line-break>運命には逆らえないということだな。<end>"
+korean = "파괴신 울그의 원탁기사, 고하는 자 아스티아여. 네 배신의 계략은 실패다. 아무리 발버둥 쳐도 운명에는 거스를 수 없다는 뜻이지.<end>"
+
 ["360061"]
 japanese = "<value:$28>、逃げなさい！<line-break>この町を出るの！<line-break>私もすぐにあとを追うわ！<end>"
 korean = "<value:$28>, 도망쳐! 이 마을을 떠나! 나도 곧 뒤따라갈게!<end>"

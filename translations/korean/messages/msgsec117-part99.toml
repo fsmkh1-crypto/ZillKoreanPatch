@@ -96,6 +96,10 @@ korean = "…너, 너희들….<end>"
 japanese = "何かしら？<line-break>あたしたちにご用？<end>"
 korean = "무슨 일이야? 우리한테 볼일 있어?<end>"
 
+["1170029"]
+japanese = "聞く耳もたぬって感じね。<line-break>…強引な男って嫌いじゃないけど<line-break>こういうのはいい気がしないわね。<line-break>ちょっと、痛い目に<line-break>あってもらうしかないかしら？<end>"
+korean = "들을 생각이 전혀 없는 것 같네. …강압적인 남자가 싫은 건 아니지만 이런 건 기분이 좋지 않아. 조금 아픈 꼴을 보게 해줄 수밖에 없으려나?<end>"
+
 ["1170030"]
 japanese = "<value:$28>さん！<end>"
 korean = "<value:$28> 씨!<end>"

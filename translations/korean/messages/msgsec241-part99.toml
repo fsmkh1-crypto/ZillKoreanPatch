@@ -8,6 +8,10 @@ korean = "PSP용 신규 시작 이벤트04용 시작<end>"
 japanese = "うむ。間違いはないゴブ。<line-break>信じて進むゴブ。<end>"
 korean = "음. 틀림없다 고브. 믿고 나아간다 고브.<end>"
 
+["2410003"]
+japanese = "でも噂によると選ばれた者しか<line-break>行き着けないと聞いたゴブ…。<end>"
+korean = "하지만 소문으로는 선택받은 자만 도달할 수 있다고 들었다 고브…<end>"
+
 ["2410005"]
 japanese = "そ、そうでゴブね。<line-break>何か希望が出てきたでゴブ。<end>"
 korean = "그, 그렇군 고브. 뭔가 희망이 생긴 것 같아 고브.<end>"
@@ -31,6 +35,10 @@ korean = "뭐!?<end>"
 ["2410018"]
 japanese = "親分、<line-break>こんなところで争っても<line-break>幸せにはなれないゴブ。<line-break>賢者様の屋敷を<line-break>探すのが先ゴブ。<end>"
 korean = "두목, 이런 데서 싸워 봐야 행복해질 수 없다 고브. 현자님의 저택을 찾는 게 먼저다 고브.<end>"
+
+["2410020"]
+japanese = "よし、いくゴブ！<line-break>ゴブゴブ団の幸せに向かって<line-break>全速前進ゴブ！<end>"
+korean = "좋아, 간다 고브! 고브고브단의 행복을 향해 전속 전진 고브!<end>"
 
 ["2410021"]
 japanese = "あっ、見て。逃げるわよ！<line-break>追ってみましょ！<end>"

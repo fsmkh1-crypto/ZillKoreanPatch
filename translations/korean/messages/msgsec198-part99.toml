@@ -72,6 +72,10 @@ korean = "아! 혹시 그때…. 소금인 줄 알고 얀바이초 가루를 넣
 japanese = "うう…。まさかこんな失敗作を<line-break><value:$28>さんに<line-break>お出ししてたなんて…。<end>"
 korean = "으으…. 설마 이런 실패작을 <value:$28> 씨에게 내놓고 있었다니….<end>"
 
+["1980025"]
+japanese = "…でも<line-break>こんなにもまずい料理を<line-break>あんなにも食べてくれた…。<line-break><value:$28>さんって<line-break>強いだけじゃなくて、<line-break>とっても優しい人なんだ…。<end>"
+korean = "…하지만 이렇게 맛없는 요리를 그렇게 많이 먹어줬어… <value:$28> 씨는 강하기만 한 게 아니라 정말 다정한 사람이구나…<end>"
+
 ["1980026"]
 japanese = "い、いらっしゃいませ、<line-break><value:$28>さん！<line-break>　<line-break>きょ、今日は<line-break>いいお天気ですね。<end>"
 korean = "어, 어서 오세요, <value:$28>님! 오, 오늘은 날씨가 좋네요.<end>"
@@ -91,6 +95,10 @@ korean = "아, 아니요. 물론 알고 있어요. 어둠의 신기죠.<end>"
 ["1980030"]
 japanese = "えーと…。<line-break>……<line-break>……。<end>"
 korean = "음…. …… …….<end>"
+
+["1980032"]
+japanese = "えっ？　どんな話って？<line-break>えーと、そ、その…。<line-break>あれは確か…。<end>"
+korean = "네? 무슨 이야기냐고요? 저기, 그게… 그건 분명…<end>"
 
 ["1980036"]
 japanese = "喜んで<end>"
@@ -139,6 +147,10 @@ korean = "마, 맞아요…. 그래서 전설의 프라이팬은 드워프의 �
 ["1980054"]
 japanese = "つ、作り話なんかじゃありません。<line-break>本当です。信じてください。<end>"
 korean = "지, 지어낸 이야기가 아니에요. 사실이에요. 믿어 주세요.<end>"
+
+["1980055"]
+japanese = "バカバカしい！<line-break>そんな話、信じるも何も、<line-break>検討の余地すらないじゃない！<line-break><value:$28>の口から<line-break>びしっと言ってあげなさいよ！<line-break>ほら、早く！<end>"
+korean = "말도 안 돼! 그런 이야기는 믿고 말고 할 것도 없이 검토할 가치조차 없잖아! <value:$28>가 딱 잘라 말해줘! 자, 빨리!<end>"
 
 ["1980056"]
 japanese = "確かにおかしな話だ<end>"
@@ -356,6 +368,10 @@ korean = "이, 이건… 혹시…!<end>"
 japanese = "伝説の魔道器だ！<end>"
 korean = "전설의 마도기다!<end>"
 
+["1980155"]
+japanese = "そうか！　わかったぞ。<line-break>あの怪物は<line-break>魔道器の守護者だったんだ。<line-break>万が一、封印が解かれた時は、<line-break>侵入者を滅ぼすよう、<line-break>仕掛けられていたんだ。<end>"
+korean = "그래! 알겠어. 그 괴물은 마도기의 수호자였던 거야. 만일 봉인이 풀렸을 때 침입자를 없애도록 만들어져 있었던 거야.<end>"
+
 ["1980156"]
 japanese = "見てください、<value:$28>さん。<line-break>本当に…<line-break>本当にあったんです…。<end>"
 korean = "보세요, <value:$28> 씨. 정말… 정말 있었어요….<end>"
@@ -555,6 +571,10 @@ korean = "미안해요, <value:$28>님. 저, 그 사람은 좀 어려워서 숨�
 ["1980240"]
 japanese = "今はそれどころじゃないって…。<line-break><value:$28>さんは<line-break>私のことをどう思って…。<end>"
 korean = "지금은 그럴 때가 아니라니까…. <value:$28>님은 나를 어떻게 생각하고….<end>"
+
+["1980241"]
+japanese = "あ、いえ。気にしていません…。<line-break>大丈夫です…。<line-break>　<line-break><value:$28>さんは考えがあって<line-break>あの場はそう言ったのだと<line-break>信じていますから…。<end>"
+korean = "아, 아니요. 신경 쓰지 않아요… 괜찮아요… <value:$28> 씨에게는 생각이 있어서 그 자리에서 그렇게 말한 거라고 믿으니까요…<end>"
 
 ["1980242"]
 japanese = "<value:$28>さん…。<line-break>あの人は？<end>"

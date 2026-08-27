@@ -24,6 +24,10 @@ korean = "예를 들면 마도의 탑에 남겨진 보물이나… 고대 문명
 japanese = "でも、魔道の塔の宝は　　　　<line-break>ほとんど残ってないし、<line-break>　<line-break>ラドラスは、８００年前に<line-break>滅亡して、謎に包まれてる…。<end>"
 korean = "하지만 마도의 탑 보물은 거의 남아 있지 않고, 라드라스는 800년 전에 멸망해서 수수께끼에 싸여 있어….<end>"
 
+["1460006"]
+japanese = "だから、そこから先人類の謎に<line-break>たどり着くのは、難しいと思う。<end>"
+korean = "그러니까 거기서 선인류의 수수께끼까지 도달하기는 어려울 것 같아.<end>"
+
 ["1460009"]
 japanese = "現実を見ろよ<end>"
 korean = "현실을 봐<end>"
@@ -52,6 +56,10 @@ korean = "내가 일을 방해하지 못하게 하려는 거야. 물론 형은 �
 japanese = "わかってないんだ。<line-break>魔道文明を人類が手にすれば…<line-break>　<line-break>兄さんを悩ます<line-break>王宮のゴタゴタなんて<line-break>いっぺんに解決するのに。<end>"
 korean = "모르는구나. 마도 문명을 인류가 손에 넣으면… 형을 괴롭히는 왕궁의 난리 따윈 단숨에 해결될 텐데.<end>"
 
+["1460018"]
+japanese = "貴族だろうと、平民だろうと<line-break>楽して豊かな生活ができるのに。<line-break>　<line-break>この研究はね、<line-break>兄さんの…<line-break>いやロストールのためでもある。<end>"
+korean = "귀족이든 평민이든 편하게 풍요롭게 살 수 있는데. 이 연구는 형을… 아니, 로스토올을 위해서이기도 해.<end>"
+
 ["1460020"]
 japanese = "それは勝手な言い分だ<end>"
 korean = "그건 제멋대로인 말이야.<end>"
@@ -63,6 +71,10 @@ korean = "확실히 그래<end>"
 ["1460022"]
 japanese = "…確かに勝手だよね。<line-break>なんの成果もあげてないんだから。<end>"
 korean = "…확실히 제멋대로긴 하지. 아무 성과도 내지 못했으니까.<end>"
+
+["1460023"]
+japanese = "でも、見ててよ。<line-break>きっと役に立ってみせる。<line-break>きっと…。<end>"
+korean = "그래도 지켜봐 줘. 꼭 도움이 되어 보일게. 반드시…<end>"
 
 ["1460024"]
 japanese = "ありがと。<line-break>君ならわかってくれると思ってた。<line-break>　<line-break>きっと、古代の謎を解き明かして<line-break>人類の生活を変えてみせるからね。<end>"
@@ -87,6 +99,10 @@ korean = "그런 힘을 다루고 싶다<end>"
 ["1460032"]
 japanese = "それじゃ、人は進歩しない。<line-break>満足しちゃったら、<line-break>それ以上はないよ。<line-break>僕は、そんなのイヤだ。<line-break>少しでも前へ進みたいんだ。<end>"
 korean = "그러면 사람은 발전하지 않아. 만족해 버리면 그 이상은 없잖아. 난 그런 건 싫어. 조금이라도 앞으로 나아가고 싶어.<end>"
+
+["1460033"]
+japanese = "見ていて。<line-break>僕がその力を<line-break>人間の手に取り戻してみせる。<end>"
+korean = "지켜봐. 내가 그 힘을 인간의 손에 되찾아 보이겠어.<end>"
 
 ["1460034"]
 japanese = "さてと。<line-break>僕は調査を続けるよ。<line-break>　<line-break><value:$28>、<line-break>君も頑張ってね。<end>"
@@ -123,6 +139,10 @@ korean = "어드벤트를 습득했다.<end>"
 ["1460046"]
 japanese = "…余計なことを言ったようだ。<end>"
 korean = "…쓸데없는 말을 한 것 같군.<end>"
+
+["1460052"]
+japanese = "彼らは愚かだろうか？<line-break>…彼らは弱かっただけだ。<line-break>あるいはその両方かもしれない。<line-break>なんにせよ、弱さが、<line-break>この世の悲しみを生むのだ。<end>"
+korean = "그들은 어리석었을까? …그저 약했을 뿐이다. 아니면 둘 다였을지도 모르지. 어쨌든 약함이 이 세상의 슬픔을 낳는다.<end>"
 
 ["1460053"]
 japanese = "悪いが、はずしてくれ。<line-break>片付けてしまいたい仕事がある。<end>"

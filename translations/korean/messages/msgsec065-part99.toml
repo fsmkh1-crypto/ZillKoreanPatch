@@ -56,6 +56,10 @@ korean = "아버님이? 큰일이야!<end>"
 japanese = "<value:$28>様、<line-break>お人形のこと、お願いいたします。<line-break>私が謝っていたと伝えてください。<end>"
 korean = "<value:$28>님, 인형 일은 부탁드릴게요. 제가 미안해했다고 전해 주세요.<end>"
 
+["650022"]
+japanese = "追い返すようで<line-break>申しわけありません。<line-break>では、また…。<end>"
+korean = "쫓아내는 것 같아 죄송합니다. 그럼 다음에 또…<end>"
+
 ["650023"]
 japanese = "ダミー<line-break><end>"
 korean = "더미<end>"
@@ -196,6 +200,10 @@ korean = "…이상할 만큼 순순하군. 어디 몸이라도 안 좋은 건�
 japanese = "フッ、さすがは<line-break>丈夫なだけが取り柄の奴だ。<end>"
 korean = "흥, 역시 튼튼한 것만이 장점인 녀석답군.<end>"
 
+["650066"]
+japanese = "ほめたつもりだが…。ふふっ。<line-break>不器用な兄を許してやってくれ。<end>"
+korean = "칭찬한 건데… 후훗. 서투른 형을 용서해줘.<end>"
+
 ["650067"]
 japanese = "これはレムオン様、<line-break>それに<value:$28>様。<line-break>　<line-break>ようこそ<line-break>お越しくださいました。<end>"
 korean = "레무온 님, 그리고 <value:$28>님. 어서 오십시오.<end>"
@@ -215,6 +223,10 @@ korean = "꽤나 정중한 대접 아닌가?<end>"
 ["650072"]
 japanese = "笑える冗談だ。　　　　　　　　　<end>"
 korean = "웃기는 농담이군.<end>"
+
+["650073"]
+japanese = "しかし、どういうものかな？<line-break>俺のような者を部屋に入れるとは。<end>"
+korean = "하지만 어떻게 된 일이지? 나 같은 사람을 방에 들이다니.<end>"
 
 ["650074"]
 japanese = "フィアンセが聞いたら<line-break>怒るのではないか？　　　　　　　<end>"
@@ -252,6 +264,10 @@ korean = "용서해 주는 건가….<end>"
 japanese = "お前、もしかして<line-break>俺以外には寛大なのか？<end>"
 korean = "너, 혹시 나 말고 다른 사람한테는 관대한 거냐?<end>"
 
+["650087"]
+japanese = "私はファーロス家を発展させるための<line-break>道具ではありませんもの。<end>"
+korean = "저는 파로스 가문을 발전시키기 위한 도구가 아니니까요.<end>"
+
 ["650088"]
 japanese = "やれやれ、エリスも哀れだな。　<end>"
 korean = "이런, 에리스도 불쌍하군.<end>"
@@ -283,6 +299,10 @@ korean = "언젠가 엘리스의 전제를 무너뜨리겠다.<end>"
 ["650096"]
 japanese = "悲しいですわ。<line-break>ティアナはそのとき…、　　　<line-break>　<line-break>お母様と一緒に<line-break>ファーロスの一族として、<line-break>粛清されてしまうのですね…。<end>"
 korean = "슬프군요. 티아나는 그때… 어머니와 함께 파로스 일족으로서 숙청당하고 마는 거군요….<end>"
+
+["650097"]
+japanese = "心配するな。幼なじみのよしみで<line-break>特別に大きな墓を建ててやる。<end>"
+korean = "걱정 마. 소꿉친구 정으로 특별히 큰 무덤을 만들어주지.<end>"
 
 ["650098"]
 japanese = "もう、レムオン様！<end>"

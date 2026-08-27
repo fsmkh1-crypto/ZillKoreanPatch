@@ -32,6 +32,10 @@ korean = "두, 두목!<end>"
 japanese = "気に入ったよ。<end>"
 korean = "마음에 들었어.<end>"
 
+["1430010"]
+japanese = "この野郎！<line-break>おかしらに向かって、<line-break>なんて口のきき方だ！<end>"
+korean = "이 자식! 두목한테 무슨 말버릇이야!<end>"
+
 ["1430011"]
 japanese = "聞いておどろくなよ！      <line-break>このお方はな…<line-break>　<line-break>ワッシャー海賊、第２代頭領<line-break>ヒルダリア様だ！<end>"
 korean = "듣고 놀라지 마라! 이분은 말이다… 와셔 해적 제2대 두목, 힐다리아 님이시다!<end>"
@@ -47,6 +51,10 @@ korean = "예, 옙.<end>"
 ["1430014"]
 japanese = "聞いてのとおり、<line-break>私はヒルダリア。<line-break>　<line-break>あんたたちの力、<line-break>試させてもらったよ。<end>"
 korean = "들었겠지만 나는 힐다리아야. 너희 실력, 시험해 봤어.<end>"
+
+["1430016"]
+japanese = "…怒るのも当然ね。<line-break>確かに汚いやり方だった。<line-break>その点は謝るわ。<line-break>でも、これで、<line-break>あんたたちが筋金入りの冒険者だって<line-break>ことがわかった。<end>"
+korean = "…화낼 만도 하지. 확실히 더러운 방법이었어. 그 점은 사과할게. 하지만 이걸로 너희가 뼛속까지 모험자라는 건 알았어.<end>"
 
 ["1430017"]
 japanese = "その腕を見込んで、<line-break>ひとつ頼みがあるのよ。<end>"
@@ -124,6 +132,10 @@ korean = "두, 두목! 해적이 돈을 낸다고요?<end>"
 japanese = "下がってな！<end>"
 korean = "뒤로 물러나!<end>"
 
+["1430054"]
+japanese = "しぶきの群島、闇の門の島、古城…。<line-break>ワッシャー海賊でなきゃ<line-break>渡れない島々へね。<line-break>冒険者にとっては、<line-break>悪い条件じゃないと思うけど？<end>"
+korean = "물보라 군도, 어둠의 문의 섬, 고성… 왓샤 해적이 아니면 건널 수 없는 섬들이지. 모험자에겐 나쁜 조건은 아니라고 생각하는데?<end>"
+
 ["1430055"]
 japanese = "とにかく、<line-break>よく考えてみてちょうだい。<line-break>　<line-break>…大イカは手強いわ。<end>"
 korean = "아무튼 잘 생각해 봐. …대왕오징어는 만만치 않아.<end>"
@@ -155,6 +167,10 @@ korean = "(아까 그 녀석들은 대체…)<end>"
 ["1430066"]
 japanese = "おかしら、こいつどうします？<end>"
 korean = "두목, 이 녀석 어쩔까요?<end>"
+
+["1430067"]
+japanese = "残念ね。<line-break>少しは期待したんだけど…。<line-break>　<line-break>ま、あんたたちに勝てないようじゃ、<line-break>話にならないわね。<line-break>森の入り口に捨ててきな。<end>"
+korean = "아쉽네. 조금은 기대했는데… 뭐, 너희가 이기지 못할 정도면 이야기가 안 되지. 숲 입구에 버리고 와.<end>"
 
 ["1430068"]
 japanese = "来てくれると思っていたわ。<line-break>大イカを退治してくれるのね？<line-break>　<line-break>もう準備はできているのかしら？<end>"

@@ -4,6 +4,10 @@
 japanese = "アトレイア　ボリューム６～開始<end>"
 korean = "아트레이아 볼륨6 시작<end>"
 
+["780002"]
+japanese = "私にはその事件の記憶はありません。<line-break>まだ、赤ちゃんでしたから…。<end>"
+korean = "저는 그 사건을 기억하지 못해요. 아직 아기였으니까…<end>"
+
 ["780012"]
 japanese = "あ、あの…、<line-break>あなたはいったい…？<end>"
 korean = "저, 저기… 당신은 대체…?<end>"
@@ -27,6 +31,14 @@ korean = "자, 감사는 이제 됐지, 아트레이아? 그럼 제가 <value:$2
 ["780019"]
 japanese = "あ、あの…。<end>"
 korean = "저, 저기….<end>"
+
+["780020"]
+japanese = "あの…、よろしければ…その…<line-break>…また、いらしてくださいませんか？<end>"
+korean = "저기… 괜찮으시다면… 그… 또 와주시겠어요?<end>"
+
+["780021"]
+japanese = "ま、アトレイア王女もああ言ってるし、<line-break>君もたまには顔を出してよ。<end>"
+korean = "뭐, 아트레이아 왕녀도 저렇게 말하니 너도 가끔 얼굴 좀 비춰줘.<end>"
 
 ["780022"]
 japanese = "それでは、王女様、<line-break>失礼いたします。<end>"
@@ -91,6 +103,10 @@ korean = "…기뻐요. <value:$28> 씨에게 칭찬받으니 더더욱.<end>"
 ["780044"]
 japanese = "料理で、<line-break>ネモ様にほめられても<line-break>あまり、自慢にはなりません。<line-break>ネモ様は文句が多いわりに<line-break>なんでも、<line-break>喜んで食べてくれますから。<end>"
 korean = "요리로 네모 님께 칭찬받아도 별로 자랑할 일은 아니에요. 네모 님은 불평은 많지만 뭐든 기쁘게 드시거든요.<end>"
+
+["780045"]
+japanese = "なんだ、アトレイア。<line-break>師匠に向かって<line-break>その口の聞き方は…？<end>"
+korean = "뭐야, 아트레이아. 스승에게 그게 무슨 말버릇이야…?<end>"
 
 ["780046"]
 japanese = "そんな…。<end>"

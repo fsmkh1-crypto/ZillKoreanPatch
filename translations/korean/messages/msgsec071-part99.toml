@@ -136,6 +136,10 @@ korean = "나쁜 인간에게 빼앗겼다 고브! 그게 없으면 행복해질
 japanese = "オルナット！　何をするゴブ！<line-break>そこをどくゴブ！<end>"
 korean = "오르나트! 뭐 하는 거냐 고브! 비켜라 고브!<end>"
 
+["710060"]
+japanese = "聖杯がないと、あの聖杯がないと<line-break>幸せになれないんでゴブよ！<end>"
+korean = "성배가 없으면, 그 성배가 없으면 행복해질 수 없다 고브!<end>"
+
 ["710061"]
 japanese = "あんな聖杯がなくても<line-break>幸せにはなれるゴブ！！<end>"
 korean = "그런 성배가 없어도 행복해질 수 있다 고브!!<end>"
@@ -244,6 +248,10 @@ korean = "나쁜 인간에게 빼앗겼다 고브! 그게 없으면 행복해질
 japanese = "オルナット！　何をするゴブ！<line-break>そこをどくゴブ！<end>"
 korean = "오르나트! 뭐 하는 거냐 고브! 비켜라 고브!<end>"
 
+["710103"]
+japanese = "聖杯がないと、あの聖杯がないと<line-break>幸せになれないんでゴブよ！<end>"
+korean = "성배가 없으면, 그 성배가 없으면 행복해질 수 없다 고브!<end>"
+
 ["710104"]
 japanese = "あんな聖杯がなくても<line-break>幸せにはなれるゴブ！！<end>"
 korean = "그런 성배가 없어도 행복해질 수 있다 고브!!<end>"
@@ -316,6 +324,10 @@ korean = "<value:$28>!뭐 하는 거야! 빨리 도망쳐!<end>"
 japanese = "…アイリーンは<line-break>どうした？<end>"
 korean = "…아이린은 어떻게 됐지?<end>"
 
+["710135"]
+japanese = "…そうか。<line-break>お前が目を覚ましたときには<line-break>もういなかったか…。<line-break>アーギルシャイアに奪われた<line-break>聖杯を追ったのか、<line-break>あるいは…。<end>"
+korean = "…그런가. 네가 눈을 떴을 때는 이미 없었나… 아기르샤이아에게 빼앗긴 성배를 쫓은 건가, 아니면…<end>"
+
 ["710136"]
 japanese = "…来い。<line-break>…俺は何があっても　<line-break>姉を取り戻す。<line-break>…お前もあいつに<line-break>つけるべき、<line-break>けじめがあるだろう。<end>"
 korean = "…와라. …나는 무슨 일이 있어도 누나를 되찾겠다. …너도 녀석에게 매듭지어야 할 일이 있잖아.<end>"
@@ -335,6 +347,18 @@ korean = "<value:$28>인가.<end>"
 ["710145"]
 japanese = "待て、<value:$28>。<line-break>あの魔人はこの森の奥に<line-break>いるはずだ。<line-break>外に出るのなら<line-break>この森を探してからにしろ。<end>"
 korean = "기다려, <value:$28>. 그 마인은 이 숲 안쪽에 있을 거다. 밖으로 나갈 거라면 이 숲부터 찾아봐.<end>"
+
+["710146"]
+japanese = "予備メッセージ１０<line-break>アーギルシャイア、ボリューム１、その３<end>"
+korean = "예비 메시지 10. 아기르샤이아, 볼륨 1, 그 3.<end>"
+
+["710147"]
+japanese = "予備メッセージ１１<line-break>アーギルシャイア、ボリューム１、その３<end>"
+korean = "예비 메시지 11. 아기르샤이아, 볼륨 1, 그 3.<end>"
+
+["710148"]
+japanese = "予備メッセージ１２<line-break>アーギルシャイア、ボリューム１、その３<end>"
+korean = "예비 메시지 12. 아기르샤이아, 볼륨 1, 그 3.<end>"
 
 ["710149"]
 japanese = "アーギルシャイアメッセージVOL1-3終端<end>"

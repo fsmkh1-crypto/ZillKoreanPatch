@@ -112,6 +112,10 @@ korean = "아…, <value:$28> 님.<end>"
 japanese = "<value:$28>だぁ！？<end>"
 korean = "<value:$28>라고!?<end>"
 
+["640042"]
+japanese = "くそっ、くそっ、くそっ！<line-break>俺と一緒に来い！<line-break>ティアナ！<end>"
+korean = "젠장, 젠장, 젠장! 나와 함께 가! 티아나!<end>"
+
 ["640043"]
 japanese = "<value:$28>様！<end>"
 korean = "<value:$28> 님!<end>"
@@ -119,6 +123,14 @@ korean = "<value:$28> 님!<end>"
 ["640046"]
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"
+
+["640051"]
+japanese = "…ゼネテス。<line-break>こ、この…。<line-break>く、くそっ！　覚えていろ！<end>"
+korean = "…제네테스. 이, 이 자식… 제, 젠장! 두고 봐!<end>"
+
+["640052"]
+japanese = "礼はいいって言ってるのに。<line-break>タルテュバも義理堅いことだな。<end>"
+korean = "감사는 됐다고 했는데. 타르튜바도 의리가 참 깊군.<end>"
 
 ["640053"]
 japanese = "姫さん。さ、手を。<end>"
@@ -219,6 +231,14 @@ korean = "…죄송합니다.<end>"
 ["640093"]
 japanese = "先ほど、レムオン様が<line-break>ここへお見えになりました。　　　<line-break>　<line-break>レムオン様ったら<line-break>なんて言ったと思います？<line-break>　<end>"
 korean = "아까 레몬 님이 여기 오셨어요. 레몬 님이 뭐라고 했는지 아세요?<end>"
+
+["640094"]
+japanese = "<value:$28>は純情だから、<line-break>あんまり色目を使うなですって。<line-break>くすっ。<line-break>あのレムオン様が<line-break>そんなに弟思いだなんて<line-break>知りませんでした。ふふふ。<end>"
+korean = "<value:$28>는 순진하니까 너무 추파를 던지지 말래요. 후훗. 그 레몬 님이 그렇게 동생을 아끼는 줄은 몰랐네요. 후후.<end>"
+
+["640098"]
+japanese = "<value:$28>様に嫌われるなんて<line-break>考えただけで、胸が苦しくなります。<line-break>　<line-break>だから、ティアナは<line-break>わがままは申しません。<line-break>…どうか、お気をつけて。<end>"
+korean = "<value:$28>님께 미움받는다고 생각만 해도 가슴이 아파요. 그래서 티아나는 억지를 부리지 않겠습니다. …부디 조심하세요.<end>"
 
 ["640099"]
 japanese = "この間は…<line-break>申しわけありませんでした。<end>"
@@ -488,6 +508,10 @@ korean = "뭔가 마실 것을 가져다드릴까요?<end>"
 japanese = "相変わらず、<line-break>お忙しいのですね。　　　<line-break>　<line-break>でも、安心しました。<line-break>とてもお元気そうで。<line-break>　<end>"
 korean = "여전히 바쁘시군요. 그래도 안심했어요. 아주 건강해 보이셔서요.<end>"
 
+["640186"]
+japanese = "レムオン様は、<line-break>ご一緒ではないのですね？　　　<line-break>　<line-break>レムオン様は、いつも<line-break>あのような調子だから<line-break>誤解されやすいのですが、<end>"
+korean = "레몬 님은 함께 계시지 않군요? 레몬 님은 늘 그런 식이라 오해받기 쉽지만,<end>"
+
 ["640189"]
 japanese = "あの方は、今日もどこかで、<line-break>飲んでおいでですの？<end>"
 korean = "그분은 오늘도 어딘가에서 술을 드시고 계신가요?<end>"
@@ -535,6 +559,10 @@ korean = "그 정도는 혼자 할 수 있습니다.<end>"
 ["640206"]
 japanese = "<value:$28>様…<line-break>いつからそこに？<end>"
 korean = "<value:$28>님… 언제부터 거기에?<end>"
+
+["640207"]
+japanese = "これから会食のお約束があるのです。<line-break>お話なら次の機会に…。<end>"
+korean = "이제부터 회식 약속이 있습니다. 이야기는 다음 기회에…<end>"
 
 ["640211"]
 japanese = "もしもあの街の小さな家に<line-break>生まれていたら…。<end>"
@@ -703,6 +731,10 @@ korean = "이 사람, 언니 친구야?<end>"
 ["640263"]
 japanese = "そうよ。お友だち。<end>"
 korean = "그래. 친구야.<end>"
+
+["640266"]
+japanese = "それにしても大したもんだぜ。<line-break>よくあの痛みに耐えたもんだ。<end>"
+korean = "그건 그렇고 대단하군. 그 고통을 잘도 견뎠어.<end>"
 
 ["640268"]
 japanese = "…自己満足です。<end>"

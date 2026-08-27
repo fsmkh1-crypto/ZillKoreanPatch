@@ -44,6 +44,10 @@ korean = "한가합니다<end>"
 japanese = "忙しいです<end>"
 korean = "바쁩니다<end>"
 
+["1750018"]
+japanese = "ほんなら、行こうか。<line-break>仲間をつれて<line-break>わしについてきんさい。<end>"
+korean = "그럼 가볼까. 동료들을 데리고 나를 따라오게.<end>"
+
 ["1750019"]
 japanese = "ここはのう、昔、盗人虎の穴と<line-break>呼ばれとった所よ。<end>"
 korean = "여긴 말이지, 옛날에 도적 호랑이굴이라고 불리던 곳이야.<end>"
@@ -68,6 +72,10 @@ korean = "한가합니다<end>"
 japanese = "忙しいです<end>"
 korean = "바쁩니다<end>"
 
+["1750028"]
+japanese = "ほんなら、行こうか。<line-break>仲間をつれて<line-break>わしについてきんさい。<end>"
+korean = "그럼 가볼까. 동료들을 데리고 나를 따라오게.<end>"
+
 ["1750029"]
 japanese = "ここはのう、昔、盗人虎の穴と<line-break>呼ばれとった所よ。<end>"
 korean = "여긴 말이지, 옛날에 도적 호랑이굴이라고 불리던 곳이야.<end>"
@@ -80,6 +88,10 @@ korean = "여기에 여러 함정을 설치해 뒀다. 잘 돌파해서 시련�
 japanese = "そがーな罠はのう、<line-break>はずせて当然なんじゃけぇ。<end>"
 korean = "그런 덫쯤은 말이지, 풀 수 있어야 당연한 거야.<end>"
 
+["1750039"]
+japanese = "このアホたれが！<line-break>猛毒の矢じゃったら、<line-break>われ死んどったぞ。<end>"
+korean = "이 멍청아! 맹독 화살이었으면 넌 죽었어.<end>"
+
 ["1750040"]
 japanese = "そがーな罠はのう、コツさえ<line-break>つかめば簡単なんでぇ。<end>"
 korean = "그런 함정은 요령만 알면 간단해.<end>"
@@ -91,6 +103,10 @@ korean = "함정을 발견했다.<end>"
 ["1750046"]
 japanese = "床からトゲの罠を発見した。<line-break>しかし、解除してあるようだ。<end>"
 korean = "바닥에서 가시 함정을 발견했다. 하지만 이미 해제되어 있는 것 같다.<end>"
+
+["1750047"]
+japanese = "竜の像の口の中にスイッチを見つけた<line-break>スイッチを押してみますか？<end>"
+korean = "용 석상의 입 안에서 스위치를 발견했다. 스위치를 눌러보겠습니까?<end>"
 
 ["1750048"]
 japanese = "押さない<end>"
@@ -167,6 +183,10 @@ korean = "은빛 원반은 둥근 홈에 딱 맞게 들어갔다.<end>"
 ["1750067"]
 japanese = "やーっとここまで来たのう。<line-break>もう一息でぇ。<end>"
 korean = "드디어 여기까지 왔구먼. 이제 한 걸음 남았어.<end>"
+
+["1750068"]
+japanese = "よっしゃ、よう試練を乗り越えたの。<line-break>そいじゃあ、外へ出ようかの。<end>"
+korean = "좋아, 시험을 잘 넘겼군. 그럼 밖으로 나가자.<end>"
 
 ["1750070"]
 japanese = "ほんじゃあ、<line-break>ロストールに帰ろうかのう。<end>"

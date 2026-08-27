@@ -12,6 +12,10 @@ korean = "크류세이스! 저놈이다! 네 아버지 로티를 죽인 건 저�
 japanese = "待ってよ。その人、<line-break>やってないって<line-break>言ってるじゃない！<end>"
 korean = "잠깐. 그 사람, 자기는 안 했다고 하잖아!<end>"
 
+["1030006"]
+japanese = "また、下等な非市民ね。<line-break>非市民は黙っていなさい。　　　<line-break>　<line-break>これはリベルダムの問題なの。<line-break>非市民のあなたに<line-break>口出しする権利はないわ。<end>"
+korean = "또 천한 비시민이군. 비시민은 입 다물고 있어. 이건 리벨덤의 문제야. 비시민인 당신에게 끼어들 권리는 없어.<end>"
+
 ["1030007"]
 japanese = "なんだよ。非市民非市民って<line-break>いっつも見下して。<end>"
 korean = "뭐야. 비시민, 비시민 하면서 늘 깔보잖아.<end>"
@@ -19,6 +23,10 @@ korean = "뭐야. 비시민, 비시민 하면서 늘 깔보잖아.<end>"
 ["1030009"]
 japanese = "どうして、そんなに<line-break>非市民をバカにするんだ！<line-break>　<line-break>リベルダムの繁栄は<line-break>非市民の労働が<line-break>支えているんだぞ！<end>"
 korean = "왜 그렇게 비시민을 무시하는 거야! 리벨덤의 번영은 비시민들의 노동이 떠받치고 있다고!<end>"
+
+["1030014"]
+japanese = "引き上げるですって、<line-break>アンティノおじさま？<line-break>父を殺した者が目の前にいるのに？　<line-break>非市民のクズどもなんて<line-break>いくら集まってもクズはクズですわ。<end>"
+korean = "물러나자고요, 안티노 아저씨? 아버지를 죽인 자가 눈앞에 있는데? 비시민 쓰레기들은 아무리 모여도 쓰레기는 쓰레기예요.<end>"
 
 ["1030015"]
 japanese = "クズだと！<end>"
@@ -163,6 +171,10 @@ korean = "맡지 않는다<end>"
 ["1030070"]
 japanese = "目が覚めたようね。<line-break>どう？　闘技場で迎える目覚めは？<end>"
 korean = "정신이 든 모양이네. 어때? 투기장에서 맞는 아침은?<end>"
+
+["1030071"]
+japanese = "先日話した通り、今日から闘技場で<line-break>戦ってもらいます。あなた自身の<line-break>借金のために。<line-break>さあ、もう試合の準備は<line-break>整っています。行きなさい。<end>"
+korean = "지난번에 말했듯 오늘부터 투기장에서 싸워야 합니다. 당신 자신의 빚을 위해서요. 자, 시합 준비는 이미 끝났습니다. 가세요.<end>"
 
 ["1030073"]
 japanese = "くっくっく。試合中の事故は<line-break>闘技場ではよくあることだからな。　<line-break>　<line-break>闘技場好きのクリュセイスならではの<line-break>趣向というわけだ。<end>"

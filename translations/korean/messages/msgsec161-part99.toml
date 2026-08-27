@@ -108,6 +108,14 @@ korean = "퇴치하러 간다<end>"
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
 
+["1610049"]
+japanese = "そうか、ま、お前さんも　<line-break>色々と忙しいだろうからな。　　　　　<line-break>　<line-break>無理に頼みはしないよ。<line-break>まあ、気が向いたら<line-break>話だけでも聞きに来てくれ。<end>"
+korean = "그래, 뭐 너도 여러모로 바쁘겠지. 억지로 부탁하진 않을게. 마음이 내키면 이야기만이라도 들으러 와줘.<end>"
+
+["1610050"]
+japanese = "あ、あんた…　スラムでタルテュバを　<line-break>返り討ちにした人だな…。<end>"
+korean = "아, 당신… 슬럼에서 타르튜바를 되받아친 사람이군…<end>"
+
 ["1610053"]
 japanese = "話を聞こう<end>"
 korean = "이야기를 들어 보자<end>"
@@ -156,6 +164,10 @@ korean = "수락한다<end>"
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
 
+["1610074"]
+japanese = "そうか…。じゃあ、この話は他の奴に<line-break>声をかけてみることにするよ。<end>"
+korean = "그런가… 그럼 이 이야기는 다른 사람에게 부탁해 보기로 하지.<end>"
+
 ["1610075"]
 japanese = "本当なんだよ！<line-break>本当に、鳳凰がいたんだよ！<end>"
 korean = "진짜라니까! 정말로 봉황이 있었어!<end>"
@@ -175,6 +187,10 @@ korean = "시끄러워<end>"
 ["1610081"]
 japanese = "だーかーらー！<line-break>絶っ対にいるんだってば！！<end>"
 korean = "그러니까! 절대로 있다니까!!<end>"
+
+["1610082"]
+japanese = "ね、頼むよ。鳳凰を見つけてきてよ。<line-break>本当にいるんだよ。ね、ね！<end>"
+korean = "부탁이야. 봉황을 찾아와 줘. 정말 있다니까. 응, 응!<end>"
 
 ["1610083"]
 japanese = "任せとけ<end>"
@@ -280,6 +296,10 @@ korean = "그래, 고맙다. 그럼 부탁하지.<end>"
 japanese = "そうか…。残念だ。<line-break>意外と淡白な性格なんだな…。<end>"
 korean = "그런가…. 아쉽군. 의외로 담백한 성격이네….<end>"
 
+["1610122"]
+japanese = "どうだ？　無理にとは言わんが、<line-break>この仕事、お前がやってみないか？<end>"
+korean = "어때? 억지로 권하진 않겠지만 이 일, 네가 해보지 않겠나?<end>"
+
 ["1610123"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -308,6 +328,10 @@ korean = "그거, 내 이번 달 용돈 전부야. 보수 필요하지? 그럼 �
 japanese = "それじゃ、ありがとうよ！<line-break>また仕事の方、よろしく頼むぜ。<end>"
 korean = "그럼 고맙다! 또 일거리도 잘 부탁할게.<end>"
 
+["1610141"]
+japanese = "す、すげえぇ！！　さすがはあの有名な<line-break><value:$28>だ！<line-break>　<line-break>助かったぁ！　これで俺も自分の<line-break>仕事を達成できる。<line-break>ありがとう。じゃあ！<end>"
+korean = "대, 대단해!! 역시 그 유명한 <value:$28>다! 살았다! 이걸로 나도 내 일을 달성할 수 있어. 고마워. 그럼!<end>"
+
 ["1610142"]
 japanese = "あ、あわわ、お礼の話だよな？<line-break>わ、忘れてないぜ。大丈夫だ。<line-break>　<line-break>じゃあ、これ。俺の宝物だ。<end>"
 korean = "아, 아앗, 보답 이야기지? 이, 잊지 않았어. 괜찮아. 자, 이거. 내 보물이야.<end>"
@@ -324,9 +348,17 @@ korean = "수고했어, <value:$28>. 무사히 화산암 지대의 마물을 쓰
 japanese = "さて、その勇者様に報酬をお渡しせねば<line-break>なりませんな。<end>"
 korean = "자, 그 용사님께 보수를 드려야겠군요.<end>"
 
+["1610148"]
+japanese = "本当にお疲れさまだったな。<line-break>これからもよろしく頼むぜ、勇者様。<end>"
+korean = "정말 수고 많았어. 앞으로도 잘 부탁한다, 용자님.<end>"
+
 ["1610149"]
 japanese = "<value:$28>…。そうか、<line-break>城塞都市跡の魔獣を倒したか…。　<line-break>　<line-break>これで、あいつも安心してあの世で<line-break>仲間たちと眠れるってもんだな…。<end>"
 korean = "<value:$28>…. 그렇군, 성채도시 유적의 마수를 쓰러뜨렸나…. 이제 그 녀석도 저승에서 동료들과 편히 잠들 수 있겠지….<end>"
+
+["1610150"]
+japanese = "そうか、お前は知らなかったんだな。<line-break>　<line-break>　<line-break>あの男はお前に仕事を頼んだあと、<line-break>静かに息を引き取ったんだ。<line-break>すまなそうな、つらそうな顔で…。<end>"
+korean = "그렇구나, 넌 몰랐던 거군. 그 남자는 네게 일을 부탁한 뒤 조용히 숨을 거뒀어. 미안하고 괴로운 듯한 얼굴로…<end>"
 
 ["1610152"]
 japanese = "俺からも礼を言わせてくれ。<line-break>ありがとう。<value:$28>。<line-break>　<line-break>これからもお前のその力で<line-break>人々の力になってやってくれ。<end>"
@@ -347,6 +379,10 @@ korean = "그렇구나…. 그 봉황은 나쁜 봉황이었구나…. 그래도
 ["1610160"]
 japanese = "そっか…。<end>"
 korean = "그렇구나….<end>"
+
+["1610162"]
+japanese = "そうか、鳳凰は本当にいたかい。<line-break>お前さん、本当にやさしいんだね。<end>"
+korean = "그렇군, 봉황은 정말 있었나. 당신, 정말 상냥하군.<end>"
 
 ["1610166"]
 japanese = "…待て。<line-break>貴様、名を名乗れ。<end>"
@@ -431,6 +467,10 @@ korean = "돌다리도 두드려 보라는 거죠. 후후, 저도 참 융통성 
 ["1610191"]
 japanese = "ま、こいつも、実は<line-break>かわいそうな奴なのかも、な。<line-break>　<line-break>んじゃ、な。<line-break><value:$28>。<line-break>また、会おうぜ。<end>"
 korean = "뭐, 이 녀석도 사실은 불쌍한 놈일지도 모르지. 그럼 간다, <value:$28>. 또 만나자.<end>"
+
+["1610192"]
+japanese = "貴様……、今ここに<line-break>小剣を持った<line-break>仮面の男がいなかったか？<end>"
+korean = "네놈…… 방금 여기 단검을 든 가면의 남자가 있지 않았나?<end>"
 
 ["1610193"]
 japanese = "そうか。<line-break>奴はどっちへ行った？<end>"
@@ -583,6 +623,10 @@ korean = "누나, 누나. 그 세라라는 녀석 말이야, 어때? 취향이�
 ["1610249"]
 japanese = "チャカは少し頭が悪くなった。　<line-break>ＩＮＴが１下がった。<line-break>　<line-break>チャカは少し打たれ強くなった。<line-break>ＶＩＴが１上がった。<end>"
 korean = "차카는 조금 머리가 나빠졌다. INT가 1 내려갔다. 차카는 조금 더 맷집이 좋아졌다. VIT가 1 올랐다.<end>"
+
+["1610250"]
+japanese = "オッシ先生が言ってたわ。<line-break>実力があっても、かえってそれで<line-break>目をふさがれて、自滅するって。<line-break>彼ってそんな感じかしら？<line-break>なんにせよ、すごい自信よね。<end>"
+korean = "오시 선생님이 그러셨어. 실력이 있어도 오히려 그것 때문에 눈이 가려져 자멸한다고. 그 사람도 그런 느낌일까? 어쨌든 대단한 자신감이네.<end>"
 
 ["1610251"]
 japanese = "なんか、かっこいいよね。セラってさ。<line-break>ちょっと、気になるかな。<line-break>　<line-break>…なーんてボクが言ったら<line-break><value:$28>は気になる？<end>"

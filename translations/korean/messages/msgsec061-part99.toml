@@ -16,9 +16,17 @@ korean = "여어, 또 만났군.<end>"
 japanese = "竜の死骸か…。<end>"
 korean = "용의 시체인가….<end>"
 
+["610005"]
+japanese = "この世界にいる竜は７匹。<line-break>竜王、翔王、海王の３聖竜。　　　<line-break>　<line-break>…そして<line-break>アズラゴーザ、イシュバアル、<line-break>エルアザル、シャンマの４邪竜…。<end>"
+korean = "이 세계의 용은 일곱. 용왕, 상왕, 해왕의 세 성룡. …그리고 아즈라고자, 이슈바알, 엘아자르, 샨마의 네 사룡…<end>"
+
 ["610007"]
 japanese = "…まだ、怨念が残っている。<end>"
 korean = "…아직 원념이 남아 있다.<end>"
+
+["610008"]
+japanese = "…絶対に、急には動くな。<line-break>ゆっくりと、静かに出て行くんだ。<end>"
+korean = "…절대로 갑자기 움직이지 마. 천천히, 조용히 나가는 거야.<end>"
 
 ["610010"]
 japanese = "うかつに動くと、<line-break>目を覚ますな、こいつ。<line-break>そうなったら、えらい目に会う。<line-break>ここはとっとと<line-break>ずらかった方がいいだろうな。<end>"

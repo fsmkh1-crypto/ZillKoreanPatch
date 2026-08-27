@@ -44,6 +44,10 @@ korean = "노엘!<end>"
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
 
+["970027"]
+japanese = "…そ、そうですよね。<line-break>くよくよしてちゃ<line-break>ダメなんですよね。<end>"
+korean = "…그, 그렇죠. 계속 끙끙 앓으면 안 되는 거죠.<end>"
+
 ["970033"]
 japanese = "あ、あの…<value:$28>さん<line-break>…でしたっけ？<line-break>その…ありがとうございました。<line-break>あの、<value:$28>さんは<line-break>冒険者をされてるんですか？<end>"
 korean = "저, 저기… <value:$28>님… 맞죠? 그… 감사합니다. 저기, <value:$28>님은 모험자이신가요?<end>"

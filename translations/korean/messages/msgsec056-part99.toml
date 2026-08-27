@@ -200,6 +200,10 @@ korean = "아, <value:$28> 씨!<end>"
 japanese = "あ、あの、<value:$28>さん<line-break>わたしって、ちっちゃいですか？<end>"
 korean = "저, 저기 <value:$28>님. 저, 작은 편인가요?<end>"
 
+["560065"]
+japanese = "なんだ。<value:$28>？<line-break>独り言言ってんじゃなかったんだ。<line-break>　<line-break>おチビちゃんと話してたんだ。<line-break>いやー、見えなくて<line-break>わからなかったぜ！　ハハ！<end>"
+korean = "뭐야, <value:$28>? 혼잣말하는 게 아니었네. 꼬마랑 얘기하고 있었구나. 이야, 안 보여서 몰랐어! 하하!<end>"
+
 ["560066"]
 japanese = "う～。ま、また言われてしまいました！<line-break>大きくなりたい…。<end>"
 korean = "으으~. 또, 또 그런 말을 들었어요! 커지고 싶어….<end>"
@@ -359,6 +363,10 @@ korean = "너인가… 자주 마주치네.<end>"
 ["560113"]
 japanese = "ま、座んなよ。ちょうど話し相手が<line-break>ほしかったところさ。<end>"
 korean = "뭐, 앉아. 마침 말상대가 필요하던 참이야.<end>"
+
+["560114"]
+japanese = "…いつか告死天使が俺たちを<line-break>襲ったことがあったろ。<line-break>　<line-break>あれは…俺を狙ってたんだ。<line-break>告死天使を抜けた俺を<line-break>殺しにきたのさ。<end>"
+korean = "…언젠가 고사천사가 우리를 습격한 적 있었지. 그건… 나를 노린 거였어. 고사천사를 빠져나온 나를 죽이러 온 거야.<end>"
 
 ["560117"]
 japanese = "俺は、エルファスより<line-break>ネメア暗殺の命を受けた。　　　　<line-break>　<line-break>勇者ネメア…。<line-break>そのときの俺には<line-break>相手が誰であろうと関係なかった。<end>"
@@ -679,6 +687,10 @@ korean = "석화수를 봉인했는데도 마을은 원래대로 돌아오지 �
 ["560219"]
 japanese = "みんな石のまま…。　　　　<line-break>　<line-break>　<line-break>努力しても、<line-break>どうしようもないことって、<line-break>あるのかな…。<end>"
 korean = "다들 돌인 채로…. 노력해도 어쩔 수 없는 일이 있는 걸까….<end>"
+
+["560220"]
+japanese = "そ、そうですよね。<line-break>願い続ければかないますよね。　　<line-break>　<line-break>私、どうしたんだろ。<line-break>そう、きっと、この話も<line-break>ハッピーエンドで終わるんですよ。<end>"
+korean = "그, 그렇죠. 계속 바라면 이루어지겠죠. 나 왜 이러지. 그래, 분명 이 이야기도 해피엔딩으로 끝날 거예요.<end>"
 
 ["560221"]
 japanese = "今は、まだ悲しい場面だけど…。<end>"
@@ -1352,6 +1364,10 @@ korean = "이런… 쓸데없는 말을 한 것 같군.<end>"
 japanese = "父と母は、ゾフォルに連れられて<line-break>魔道の塔へとおもむき、<line-break>シャロームに肉体を貸した。<line-break>そして、奴の子を身ごもったのだ。<end>"
 korean = "아버지와 어머니는 조포르에게 이끌려 마도의 탑으로 가 샬롬에게 육체를 빌려주었다. 그리고 그의 아이를 가졌다.<end>"
 
+["560443"]
+japanese = "彼らは愚かだろうか？<line-break>…彼らは弱かっただけだ。<line-break>あるいはその両方かも知れない。<line-break>なんにせよ、弱さが、<line-break>この世の悲しみを生むのだ。<end>"
+korean = "그들은 어리석었을까? …그저 약했을 뿐이다. 아니면 둘 다였을지도 모르지. 어쨌든 약함이 이 세상의 슬픔을 낳는 것이다.<end>"
+
 ["560444"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -1732,6 +1748,10 @@ korean = "청룡군 부장 <value:$28>여, 이번 그대의 빛나는 공훈에 
 japanese = "んじゃ、<value:$28>。<line-break>冒険に連れてってよ！<end>"
 korean = "그럼 <value:$28>. 나도 모험에 데려가 줘!<end>"
 
+["560624"]
+japanese = "生きて出られたら、<line-break>家来になったげるって<line-break>言ったっしょ？<line-break>さ、行こう！<line-break>遠慮なんかしないでよ。<line-break>あたし、家来なんだからさ！<end>"
+korean = "살아서 나가면 부하가 되어준다고 했잖아? 자, 가자! 사양하지 마. 나 부하니까!<end>"
+
 ["560625"]
 japanese = "カルラ様！<line-break>そのような…！<line-break><line-break>危険です！<line-break>カルラ様の身に<line-break>今回のようなことがあっては…！<end>"
 korean = "카를라 님! 그런…! 위험합니다! 카를라 님께 이번 같은 일이 또 생기면…!<end>"
@@ -1815,6 +1835,10 @@ korean = "저… 해볼게요.<end>"
 ["560666"]
 japanese = "<value:$28>か、ちょうどいい。<line-break>今、ロセンの潜入作戦について<line-break>説明している。お前も聞いておけ。<end>"
 korean = "<value:$28>인가, 마침 잘 왔다. 지금 로센 잠입 작전을 설명 중이다. 너도 들어 둬라.<end>"
+
+["560667"]
+japanese = "さて、<line-break>先日の戦いで、ロセン王国は<line-break>カルラ率いる東方攻略軍に敗れた。<line-break>噂によると、次はこのリベルダムを<line-break>攻略するための準備を行っているらしい。<end>"
+korean = "자, 지난 전투에서 로센 왕국은 카를라가 이끄는 동방 공략군에 패했다. 소문에 따르면 다음에는 이 리벨덤을 공략할 준비를 하고 있다더군.<end>"
 
 ["560672"]
 japanese = "そこでだ、<value:$28>。<line-break>お前の任務だが…<end>"
@@ -2340,6 +2364,10 @@ korean = "뭐, 들은 그대로다. 어설픈 모험자에겐 맡길 수 없는 
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
 
+["560926"]
+japanese = "仕方ねえさ、神官さん。<line-break>依頼を受けるかどうか決めるのは、<line-break>命をかける冒険者だからな。<line-break><value:$28>、この話、<line-break>聞かなかったことにしてくれ。<end>"
+korean = "어쩔 수 없지, 신관님. 의뢰를 받을지 말지 결정하는 건 목숨을 거는 모험자니까. <value:$28>, 이 얘긴 못 들은 걸로 해줘.<end>"
+
 ["560928"]
 japanese = "よし来た！<line-break>あんたならきっと<line-break>そう言ってくれると思ってたよ。<line-break>よかったな、神官さん。<end>"
 korean = "좋아! 당신이라면 분명 그렇게 말해 줄 줄 알았어. 잘됐네요, 신관님.<end>"
@@ -2375,6 +2403,10 @@ korean = "추가 메시지 여기부터<end>"
 ["560942"]
 japanese = "それじゃ、頼んだぜ。<end>"
 korean = "그럼 부탁한다.<end>"
+
+["560944"]
+japanese = "仕方ねえさ、神官さん。<line-break>依頼を受けるかどうか決めるのは、<line-break>命をかける冒険者だからな。<line-break><value:$28>、この話、<line-break>聞かなかったことにしてくれ。<end>"
+korean = "어쩔 수 없지, 신관님. 의뢰를 받을지 말지 결정하는 건 목숨을 거는 모험자니까. <value:$28>, 이 얘긴 못 들은 걸로 해줘.<end>"
 
 ["560948"]
 japanese = "話はつけてきたのか？<line-break>早く頼むよ。<end>"

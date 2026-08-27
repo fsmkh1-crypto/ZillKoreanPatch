@@ -208,6 +208,10 @@ korean = "<value:$28>님, 도망쳐요! 당신이 죽으면 누가 조폴을 쓰
 japanese = "ネメア様がいないからって、<line-break>反乱を起こすだなんて…。<line-break><line-break>ジラーク将軍はもっと冷静な方だと<line-break>思っていたのに。<end>"
 korean = "네메아 님이 없다고 반란을 일으키다니…. 지라크 장군은 좀 더 냉정한 분이라고 생각했는데.<end>"
 
+["1250132"]
+japanese = "きゃ！　反乱だって！<line-break>勝ち目はあるのかしら！<line-break><end>"
+korean = "꺅! 반란이라고! 승산은 있는 거야?<end>"
+
 ["1250139"]
 japanese = "血迷ったな、ジラーク。<line-break><line-break><line-break>ネメア様の厚意をふいにして<line-break>一種族のための反乱に走るとは…<line-break>見損なったわ。<end>"
 korean = "정신이 나갔군, 지라크. 네메아 님의 호의를 저버리고 한 종족만을 위한 반란을 일으키다니… 실망했어.<end>"
@@ -435,6 +439,10 @@ korean = "몽환의 호수에 수중 유적이 있는데, 가 볼래?<end>"
 ["1250257"]
 japanese = "（ベルゼーヴァ…）<line-break><line-break><end>"
 korean = "(벨제바…)<end>"
+
+["1250258"]
+japanese = "ベルゼーヴァ様…。<line-break>あの方のことだから、<line-break>大丈夫だと思うけど…<end>"
+korean = "벨제바 님… 그분이라면 괜찮을 것 같긴 하지만…<end>"
 
 ["1250260"]
 japanese = "きゃっ、ベルゼーヴァさんの<line-break>消えた先を知ってるかって？<line-break><line-break>…新月の塔かも？<line-break>あそこには封印された呪文が<line-break>あるって話だし。<end>"

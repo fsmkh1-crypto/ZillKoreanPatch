@@ -28,6 +28,10 @@ korean = "빈칸<end>"
 japanese = "危ないところだったな。<end>"
 korean = "큰일 날 뻔했군.<end>"
 
+["400013"]
+japanese = "そうだ。<line-break>以前話した闇の気配…。<line-break>それが、ここにある。<end>"
+korean = "그래. 전에 말한 어둠의 기척… 그게 여기 있다.<end>"
+
 ["400015"]
 japanese = "…バルザーを知っているのか？<end>"
 korean = "…발자를 알고 있나?<end>"
@@ -35,6 +39,10 @@ korean = "…발자를 알고 있나?<end>"
 ["400016"]
 japanese = "そうか。<line-break>ならば、話が早い。<end>"
 korean = "그런가. 그렇다면 이야기가 빠르군.<end>"
+
+["400018"]
+japanese = "行動を共にした方が<line-break>安全だと思うが、<line-break>構わないかな？<end>"
+korean = "함께 행동하는 편이 안전하다고 생각하는데, 괜찮겠나?<end>"
 
 ["400019"]
 japanese = "では、行こう。<line-break>おそらく、バルザーを倒さねば<line-break>この異空間は消えない。<line-break>ヤツのもとにたどり着き<line-break>雌雄を決さねばなるまい。<end>"
@@ -284,6 +292,10 @@ korean = "순순히 넘기지 않겠다면 힘으로 빼앗겠다.<end>"
 japanese = "わしらも手荒なマネはしとうない。<line-break>　<line-break>　<line-break>闇の神器さえ手に入れば、<line-break>ウルカーンには、<line-break>軍を派遣することもなかろうて。<end>"
 korean = "우리도 거칠게 굴고 싶진 않다. 어둠의 신기만 손에 넣으면 울칸에 군대를 보낼 일도 없겠지.<end>"
 
+["400103"]
+japanese = "…仕方あるまい。<line-break>束縛の腕輪はここだ。<line-break>取りに来い。<end>"
+korean = "…어쩔 수 없군. 속박의 팔찌는 여기 있다. 가지러 와라.<end>"
+
 ["400104"]
 japanese = "う…！<line-break>か、体の自由が…。<end>"
 korean = "으…! 모, 몸이 말을 안 들어….<end>"
@@ -383,6 +395,10 @@ korean = "고대 마법의 힘을 얕보는 건 아니야. 그래도 위험하�
 ["400137"]
 japanese = "ごめんね、<value:$28>。<line-break>残念だけど、今は渡せない。<line-break>　<line-break>何かわかったら<line-break>すぐに君に知らせるから、<line-break>待っててほしい。<end>"
 korean = "미안해, <value:$28>. 아쉽지만 지금은 줄 수 없어. 뭔가 알게 되면 바로 알려 줄 테니 기다려 줘.<end>"
+
+["400138"]
+japanese = "ロストールの貴族街にある<line-break>リューガ邸に時々寄ってみてよ。<line-break>　<line-break>研究に進展があったら<line-break>伝言を残しておくから。<line-break>じゃあ、僕は行くよ。<end>"
+korean = "로스토올 귀족가에 있는 류가 저택에 가끔 들러줘. 연구에 진전이 있으면 전언을 남겨둘게. 그럼 난 갈게.<end>"
 
 ["400141"]
 japanese = "ネメア様のおっしゃったとおりだな。<end>"
@@ -656,6 +672,10 @@ korean = "과거 마왕 바롤을 쓰러뜨리고 용사라 불린 남자 네메
 japanese = "そして、宰相ベルゼーヴァの　<line-break>指揮の下、豊富な国力を生かして　<line-break>大軍隊を組織。同時に、それを率いる　<line-break>４人の将軍を大抜擢した。　　　<end>"
 korean = "그리고 재상 벨제바의 지휘 아래 풍부한 국력을 살려 대군을 조직했다. 동시에 이를 이끌 네 명의 장군을 파격 발탁했다.<end>"
 
+["400239"]
+japanese = "魔道アカデミーを首席で卒業した　　<line-break>ザギヴ・ディンガルを　　　　　<line-break>帝国内務統括、玄武将軍に任命、　　<line-break>ベルゼーヴァの下で国内を掌握させ…　<end>"
+korean = "마도 아카데미를 수석 졸업한 자기브 딘갈을 제국 내무 총괄 현무장군으로 임명, 벨제바 휘하에서 국내를 장악하게 하고…<end>"
+
 ["400240"]
 japanese = "さらに、少数種族である<line-break>コーンス族からジラークを登用、<line-break>西方攻略軍総司令、白虎将軍に任じ、<line-break>アキュリュースへの攻撃を命じ…<end>"
 korean = "또한 소수종족인 코른스족에서 지라크를 등용해 서방공략군 총사령, 백호장군으로 임명하고 아큐류스 공격을 명령….<end>"
@@ -771,6 +791,10 @@ korean = "난 당신을 죽일 거야. …그뿐이야.<end>"
 ["400283"]
 japanese = "おお、また会うたな。<line-break>墓場はお気に入りの場所かな？<line-break>　<line-break><value:$28>、<line-break>何度も会うのも、何かの縁じゃ。<line-break>少し散歩でもせんかね。<end>"
 korean = "오, 또 만났군. 묘지가 마음에 드는 장소인가? <value:$28>, 몇 번이나 만나는 것도 인연이니 잠깐 산책이라도 하지 않겠나.<end>"
+
+["400284"]
+japanese = "墓地を散歩するのも<line-break>面白いものでな。　　　　　　<line-break>　<line-break>墓地は人生の終点であり、<line-break>その人間について記された<line-break>大いなる書物でもある。<end>"
+korean = "묘지를 산책하는 것도 꽤 재미있는 일이지. 묘지는 인생의 종착점이자 그 인간에 대해 기록된 거대한 책이기도 하다.<end>"
 
 ["400289"]
 japanese = "ネメア様は皇帝の命に従い<line-break>イズ様をさらったのじゃ。<end>"

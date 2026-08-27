@@ -4,6 +4,14 @@
 japanese = "よお、ヒヨッコ。俺に何の用だ？<end>"
 korean = "어이, 풋내기. 내게 무슨 볼일이지?<end>"
 
+["170001"]
+japanese = "よお、だいぶいい顔つきになってきたな。<line-break>今日はどうしたんだ？<end>"
+korean = "오, 표정이 많이 좋아졌군. 오늘은 무슨 일이야?<end>"
+
+["170004"]
+japanese = "他に用事があるんなら言ってくれ。<line-break>遠慮なんかするんじゃないぜ。<end>"
+korean = "다른 볼일이 있으면 말해줘. 사양하지 마.<end>"
+
 ["170005"]
 japanese = "じゃあ、また来てくれよ。<end>"
 korean = "그럼 또 와 줘.<end>"
@@ -603,6 +611,10 @@ korean = "다른 희귀한 물건은 없습니까?<end>"
 ["170201"]
 japanese = "特に珍しい品物は、<line-break>持っていないようですが…。<end>"
 korean = "특별히 희귀한 물건은 가지고 있지 않은 것 같습니다만….<end>"
+
+["170203"]
+japanese = "おお、このような品をお持ちですか。<line-break><value:$1A>ギアでいかがですかな？<end>"
+korean = "오, 이런 물건을 가지고 계시는군요. <value:$1A>기어면 어떻습니까?<end>"
 
 ["170207"]
 japanese = "<value:$15>ですか。<line-break>ふむ…<value:$1A>ギアですな。<end>"

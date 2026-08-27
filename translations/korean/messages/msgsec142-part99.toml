@@ -128,6 +128,10 @@ korean = "<value:$28>…. 난 노엘이 슬퍼하는 모습을 보고 싶지 않
 japanese = "やぁ、君か。<end>"
 korean = "여어, 너구나.<end>"
 
+["1420049"]
+japanese = "目の光が険しくなったね。<line-break>死の羽音の一件が<line-break>気に入らなかったのかい？　<line-break>気にすることはない。<line-break>僕だって彼にかまってばかり<line-break>いられないからね。<end>"
+korean = "눈빛이 험해졌군. 죽음의 날갯소리 건이 마음에 안 들었나? 신경 쓰지 마. 나도 그에게만 매달려 있을 수는 없으니까.<end>"
+
 ["1420055"]
 japanese = "姉さんはネメアの手に抱かれ<line-break>僕の前から消えた。<line-break>　<line-break>…僕は姉さんを守れなかった。<end>"
 korean = "누나는 네메아의 품에 안겨 내 앞에서 사라졌어. …나는 누나를 지키지 못했어.<end>"
@@ -231,6 +235,10 @@ korean = "호오, 나에게 도전하겠다는 거냐. 재미있군. …보인�
 ["1420088"]
 japanese = "あっ、<value:$28>じゃねえか。<line-break>まさか、<line-break>あんたがこの子供の保護者なのか？<end>"
 korean = "어, <value:$28> 아니야. 설마 네가 이 아이 보호자냐?<end>"
+
+["1420089"]
+japanese = "ほほほほ。のう、親父。<line-break>これでわかったろうが。<line-break>わらわは子供ではないぞ。<line-break>エアの名ならば、<line-break>そなたも知っておろうが？<line-break>ん？<end>"
+korean = "호호호호. 이보게, 아저씨. 이제 알겠지? 나는 어린애가 아니다. 에아라는 이름이라면 자네도 알고 있겠지? 응?<end>"
 
 ["1420090"]
 japanese = "エア…？　エアってえと…<line-break>ま、まさかあんた、<line-break>あの、エルズのエアか！<line-break>ひっ！<line-break>こ、こいつは失礼しましたっ！<end>"
@@ -524,6 +532,10 @@ korean = "나는 나. 그래요, 내 방식대로 가려고 합니다. 고마워
 japanese = "安心したら、何だか、<line-break>すっと体が軽くなりましたわ。<end>"
 korean = "안심하고 나니 왠지 몸이 가벼워졌어요.<end>"
 
+["1420185"]
+japanese = "ねえ、<value:$28>様は、<line-break>湖はお好きかしら？<line-break> <line-break>今年も渡り鳥の群れが山の向こうの湖に<line-break>舞い降りたそうですわ。<line-break>これから見に行きませんか？<end>"
+korean = "저기, <value:$28>님은 호수를 좋아하시나요? 올해도 철새 떼가 산 너머 호수에 내려앉았다던데, 지금 보러 가지 않으실래요?<end>"
+
 ["1420187"]
 japanese = "ふふふ、行きましょ<value:$28>様。<line-break>いつか、<line-break>一緒にお城を抜け出した時みたいに！<end>"
 korean = "후후후, 가요 <value:$28>님. 언젠가 함께 성을 빠져나갔을 때처럼!<end>"
@@ -547,6 +559,10 @@ korean = "나는 전 세계의 소울과 하나가 되어 많은 것을 알게 �
 ["1420195"]
 japanese = "…人の心の色は、<line-break>無垢な純白ではない。<line-break>けれど、それらに触れて僕は感じた…。<line-break>美しい、と…。<end>"
 korean = "…사람 마음의 색은 티 없는 순백이 아니야. 하지만 그 모든 것에 닿고 나는 느꼈어…. 아름답다고….<end>"
+
+["1420196"]
+japanese = "そう、世界は、人の心は、<line-break>こんなにも美しいものだったんだ…。<end>"
+korean = "그래, 세계는, 사람의 마음은 이렇게나 아름다운 것이었구나…<end>"
 
 ["1420197"]
 japanese = "僕は今まで、そんな当たり前のことに<line-break>気付きはしなかった…。<end>"
@@ -592,6 +608,10 @@ korean = "우리 딘갈 제국은 새로운 황제를 옹립할 겁니다. 인�
 japanese = "そちらでは無法と<line-break>見えるのかもしれません。<line-break> <line-break>しかし、我が国は<line-break>血筋よりも能力を尊びます。<end>"
 korean = "그쪽에서는 무법으로 보일지 모르겠습니다. 하지만 우리나라는 혈통보다 능력을 중시합니다.<end>"
 
+["1420214"]
+japanese = "血筋など王家の人間と契りを結べば<line-break>手に入るもの。<line-break> <line-break>そんなものより、人間として、<line-break>英雄として偉大なソウルを持つものが<line-break>必要なのです。<end>"
+korean = "혈통 따윈 왕가의 사람과 인연을 맺으면 얻을 수 있는 것. 그런 것보다 인간으로서, 영웅으로서 위대한 소울을 가진 자가 필요합니다.<end>"
+
 ["1420216"]
 japanese = "何用だ…セバスチャン。<end>"
 korean = "무슨 일이지… 세바스찬.<end>"
@@ -631,6 +651,10 @@ korean = "우리 딘갈 제국은 새로운 황제를 옹립할 겁니다. 인�
 ["1420229"]
 japanese = "そちらでは無法と<line-break>見えるのかもしれません。<line-break> <line-break>しかし、我が国は<line-break>血筋よりも能力を尊びます。<end>"
 korean = "그쪽에서는 무법으로 보일지 모르겠습니다. 하지만 우리나라는 혈통보다 능력을 중시합니다.<end>"
+
+["1420230"]
+japanese = "血筋など王家の人間と契りを結べば<line-break>手に入るもの。<line-break> <line-break>そんなものより、人間として、<line-break>英雄として偉大なソウルを持つものが<line-break>必要なのです。<end>"
+korean = "혈통 따윈 왕가의 사람과 인연을 맺으면 얻을 수 있는 것. 그런 것보다 인간으로서, 영웅으로서 위대한 소울을 가진 자가 필요합니다.<end>"
 
 ["1420231"]
 japanese = "あの、それは…。<end>"
@@ -699,6 +723,10 @@ korean = "…안주도 말이야.<end>"
 ["1420254"]
 japanese = "うん。僕もわかるよ、エステル。<line-break> <line-break> <line-break>例えるなら、僕らは、<line-break>時計に似ているのかもしれないね。<end>"
 korean = "응. 나도 알아, 에스텔. 비유하자면 우리는 시계와 비슷한 걸지도 모르겠네.<end>"
+
+["1420255"]
+japanese = "おのおのの時間をしるした<line-break>文字盤だけはあっても、<line-break> <line-break>それを指す針がなければ、<line-break>肝心の時間はわからない。<line-break>そんな気分じゃないのかな…？<end>"
+korean = "각각의 시간을 적은 문자판만 있어도 그걸 가리키는 바늘이 없으면 정작 시간은 알 수 없지. 그런 기분 아닐까…?<end>"
 
 ["1420256"]
 japanese = "えーと、つまりー、<line-break>時計は故障してるんですねぇ？<end>"
@@ -799,6 +827,10 @@ korean = "응!<end>"
 ["1420286"]
 japanese = "わしを置いてくなよ、ゼネテス。<end>"
 korean = "나를 두고 가지 마, 제네테스.<end>"
+
+["1420287"]
+japanese = "きゃっ！<line-break>ちょっと大変な展開に<line-break>なってきちゃったかも！<end>"
+korean = "꺅! 조금 심각한 전개가 되어버렸을지도 몰라!<end>"
 
 ["1420288"]
 japanese = "追加メッセージここから<end>"
@@ -1296,6 +1328,10 @@ korean = "…그렇군.<end>"
 japanese = "行くの？<end>"
 korean = "가는 거야?<end>"
 
+["1420436"]
+japanese = "ああ…。<line-break>エスリンに会う前に<line-break>するべきことがあってな。<end>"
+korean = "아아… 에스린을 만나기 전에 해야 할 일이 있어서 말이지.<end>"
+
 ["1420438"]
 japanese = "大丈夫よ。<line-break>あの子のいる世界、<line-break>あの子達の築く世界だもの…<end>"
 korean = "괜찮아. 그 아이가 있는 세계, 그 아이들이 만들어 갈 세계니까….<end>"
@@ -1664,6 +1700,10 @@ korean = "우리 딘갈 제국은 새로운 황제를 세울 겁니다. 인류�
 japanese = "そちらでは無法と<line-break>見えるのかもしれません。<line-break> <line-break>しかし、我が国は<line-break>血筋よりも能力を尊びます。<end>"
 korean = "그쪽에서는 무법으로 보일지 모르겠습니다. 하지만 우리나라는 혈통보다 능력을 중시합니다.<end>"
 
+["1420562"]
+japanese = "血筋など王家の人間と契りを結べば<line-break>手に入るもの。<line-break> <line-break>そんなものより、人間として、<line-break>英雄として偉大なソウルを持つものが<line-break>必要なのです。<end>"
+korean = "혈통 따윈 왕가의 사람과 인연을 맺으면 얻을 수 있는 것. 그런 것보다 인간으로서, 영웅으로서 위대한 소울을 가진 자가 필요합니다.<end>"
+
 ["1420564"]
 japanese = "何用だ…セバスチャン<end>"
 korean = "무슨 용건이냐… 세바스찬.<end>"
@@ -1703,6 +1743,10 @@ korean = "우리 딘갈 제국은 새로운 황제를 세울 겁니다. 인류�
 ["1420577"]
 japanese = "そちらでは無法と<line-break>見えるのかもしれません。<line-break> <line-break>しかし、我が国は<line-break>血筋よりも能力を尊びます。<end>"
 korean = "그쪽에서는 무법으로 보일지 모르겠습니다. 하지만 우리나라는 혈통보다 능력을 중시합니다.<end>"
+
+["1420578"]
+japanese = "血筋など王家の人間と契りを結べば<line-break>手に入るもの。<line-break> <line-break>そんなものより、人間として、<line-break>英雄として偉大なソウルを持つものが<line-break>必要なのです。<end>"
+korean = "혈통 따윈 왕가의 사람과 인연을 맺으면 얻을 수 있는 것. 그런 것보다 인간으로서, 영웅으로서 위대한 소울을 가진 자가 필요합니다.<end>"
 
 ["1420579"]
 japanese = "あの、それは…。<end>"
@@ -1783,6 +1827,10 @@ korean = "흠, 그렇군. 그래서 아무것도 모르는 <value:$28>이 지나
 ["1420609"]
 japanese = "まっ、待ち伏せだなんて、<line-break>人聞きの悪い。<line-break> <line-break>アタクシを、そんな悪事の巻きぞえに<line-break>しないでくれるかしら？<end>"
 korean = "매, 매복이라니 듣기 거북하네요. 저를 그런 나쁜 일에 끌어들이지 말아 주실래요?<end>"
+
+["1420610"]
+japanese = "だったらちょっと、<line-break>せまいから、<line-break>どいてほしいんだけど<end>"
+korean = "그럼 좀 비좁으니까 비켜줬으면 하는데.<end>"
 
 ["1420611"]
 japanese = "しっ、誰か来そうよ！<end>"
@@ -1975,6 +2023,10 @@ korean = "아, 내가 대표로 말하지.<end>"
 ["1420669"]
 japanese = "<value:$28>、<line-break>おぬしがいては、<line-break>解散できぬではないか！<end>"
 korean = "<value:$28>, 자네가 있으면 해산할 수가 없지 않나!<end>"
+
+["1420670"]
+japanese = "あの時、あなたは神殿で<line-break>こう言ってくれました。<line-break>新しい役目を探しに行こう、と。<line-break>…でも、結局それはどこにも<line-break>見つからなかった…。<end>"
+korean = "그때 당신은 신전에서 이렇게 말해줬죠. 새로운 역할을 찾으러 가자고. …하지만 결국 어디에서도 찾지 못했어요…<end>"
 
 ["1420672"]
 japanese = "ノエル用メッセージＶ４終端<end>"

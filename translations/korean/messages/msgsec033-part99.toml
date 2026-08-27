@@ -228,6 +228,10 @@ korean = "네~!<end>"
 japanese = "フリントさーん！<line-break>早く早くぅ！<end>"
 korean = "플린트 씨! 빨리, 빨리요!<end>"
 
+["330080"]
+japanese = "…いきなりで驚いたろうが、<line-break>子細はいずれ、ゆっくりと話す。<line-break><line-break>とにかく、密書のこと、<line-break>頼んだぞ、<value:$28>。<end>"
+korean = "…갑작스러워 놀랐겠지만 자세한 건 나중에 천천히 이야기하지. 아무튼 밀서 건, 부탁한다, <value:$28>.<end>"
+
 ["330082"]
 japanese = "ただの商人にしちゃ、<line-break>ちょっと器用すぎるくらいだ。　<line-break><end>"
 korean = "그냥 상인치고는 조금 지나치게 손재주가 좋군.<end>"
@@ -639,6 +643,10 @@ korean = "하하하, 알았어. 마음 내키면 갈게.<end>"
 ["330233"]
 japanese = "きっとだよ！<line-break>ルルアンタ、先に行って<line-break>待ってるから！<end>"
 korean = "꼭 와! 루루안타는 먼저 가서 기다릴게!<end>"
+
+["330235"]
+japanese = "宿屋でおやじさんが<line-break>待ってるんだろう？<line-break>早く行ってやるといい。<line-break>俺もあとから<line-break>ちょっと、おやじさんに<line-break>あいさつさせてもらうから。<end>"
+korean = "여관에서 아버지가 기다리고 있지? 빨리 가보는 게 좋아. 나도 나중에 아버지께 인사하러 갈 테니까.<end>"
 
 ["330236"]
 japanese = "<value:$28>、<line-break>あの人、連れてきてくれたら<line-break>よかったのに。<end>"

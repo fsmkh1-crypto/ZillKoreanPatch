@@ -108,6 +108,10 @@ korean = "알겠습니다…. 함께 데려가 주세요.<end>"
 japanese = "すみません。<line-break>何時間も考え込んでしまって…。<line-break>でも、決心がつかなくて…。<line-break>お願い…します。<end>"
 korean = "죄송합니다. 몇 시간이나 고민했는데…. 그래도 결심이 서지 않아서…. 부탁…드릴게요.<end>"
 
+["770042"]
+japanese = "外の…空気…。<line-break>なんだか、心が、<line-break>のびやかになってきます。<end>"
+korean = "밖의… 공기… 왠지 마음이 탁 트이는 것 같아요.<end>"
+
 ["770043"]
 japanese = "スラムの酒場に行くって…<line-break>…酒場ってなんですか？<end>"
 korean = "슬럼가 술집에 간다니… 술집이 뭐예요?<end>"
@@ -147,6 +151,10 @@ korean = "그건 어떨까. 여기엔 더 아름다운 게 있는데.<end>"
 ["770054"]
 japanese = "え？　どこに？<end>"
 korean = "어? 어디로?<end>"
+
+["770055"]
+japanese = "君だよ。<line-break>俺が作り出した幻なんかより、<line-break>君はずっと美しい。<end>"
+korean = "너야. 내가 만들어낸 환상 같은 것보다 네가 훨씬 아름다워.<end>"
 
 ["770056"]
 japanese = "私が…？　美しい？<end>"
@@ -231,6 +239,10 @@ korean = "나지라네… 팬케이크? 팬케이크가 뭐지?<end>"
 ["770081"]
 japanese = "まぁ、おいしそう。<end>"
 korean = "어머, 맛있겠네.<end>"
+
+["770082"]
+japanese = "ナジラネのパンケーキで　　　　　　　<line-break>よろしいですね？<line-break>　<end>"
+korean = "나지라네 팬케이크로 괜찮으시죠?<end>"
 
 ["770083"]
 japanese = "いえ、待ってください。<line-break>これはなんて書いてあるのかしら？<end>"
@@ -323,6 +335,10 @@ korean = "네, 알겠습니다.<end>"
 ["770117"]
 japanese = "はい、がんばります。<end>"
 korean = "네, 열심히 할게요.<end>"
+
+["770118"]
+japanese = "あ…、もう、こんな時間。<line-break>衛兵たちが通常勤務に入る前に<line-break>出て行かれた方がよろしいですよ。<line-break><value:$28>様、また、<line-break>私の部屋にいらしてくださいね。<end>"
+korean = "아… 벌써 이런 시간이네요. 위병들이 평상 근무에 들어가기 전에 나가시는 게 좋겠어요. <value:$28>님, 또 제 방에 와주세요.<end>"
 
 ["770119"]
 japanese = "アトレイア…。<line-break>私のかわいいアトレイア…。　　　<line-break>　<end>"

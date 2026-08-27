@@ -44,6 +44,10 @@ korean = "제그나 광산에서 네메아를 봤나?<end>"
 japanese = "妙だな…、<line-break>なぜ単独行動を…。<end>"
 korean = "이상하군… 왜 단독행동을….<end>"
 
+["1780030"]
+japanese = "…考えてもムダか。<line-break>ネメアが考えてることなんざ、<line-break>俺にわかるわけないな。<line-break>ま、今はカルラとの戦いに<line-break>勝つことを考えよう。<line-break>さあ、行こうか。<end>"
+korean = "…생각해도 소용없나. 네메아가 무슨 생각을 하는지 내가 알 리 없지. 뭐, 지금은 카를라와의 싸움에서 이기는 걸 생각하자. 자, 가자.<end>"
+
 ["1780033"]
 japanese = "…そりゃ、<line-break>アンギルダンも負けるわ。<line-break>うん。<end>"
 korean = "…그렇겠네. 앙길단도 질 만해. 응.<end>"
@@ -176,6 +180,10 @@ korean = "우선 레몬 님인데요, 모습이 보이지 않습니다.<end>"
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
 
+["1780074"]
+japanese = "エリス様の指示で、<line-break>ずっと動向を見守っていたのだけど、<line-break>突然、姿を消してしまったの。<line-break>ゼネテス様が出陣して、<line-break>何日も経たずにね。<end>"
+korean = "엘리스 님 지시로 계속 동향을 지켜보고 있었는데 갑자기 모습을 감췄어. 제네테스 님이 출진하고 며칠 지나지도 않아서.<end>"
+
 ["1780079"]
 japanese = "シャリです。<line-break>ゼネテス様の出陣のあとも、<line-break>王宮でその姿を見た者がいますが、<line-break>私たちもそれ以上のことは、<line-break>わかっていません。<end>"
 korean = "샤리입니다. 제네테스 님이 출진한 뒤에도 왕궁에서 그 모습을 본 사람이 있지만, 저희도 그 이상은 알지 못합니다.<end>"
@@ -191,6 +199,10 @@ korean = "뭐라고요? 그런 정보는 대체 어디서?<end>"
 ["1780083"]
 japanese = "お前らの兄貴さ。<line-break>気になってたんでな、<line-break>調べてもらった。<line-break>あいつの情報なら間違いないだろう。<end>"
 korean = "너희 형 이야기다. 신경 쓰여서 조사해 봤지. 그 녀석 정보라면 틀림없을 거다.<end>"
+
+["1780084"]
+japanese = "お前さんから聞いた<line-break>ネメアのことも気になるしな。<line-break>　<line-break>どうやら、ことは、<line-break>国と国のケンカなんていう次元を<line-break>越えたレベルまでいってそうだな。<end>"
+korean = "네게 들은 네메아 이야기도 신경 쓰이고. 아무래도 이 일은 나라와 나라의 싸움 따위의 차원을 넘어선 수준까지 간 것 같군.<end>"
 
 ["1780086"]
 japanese = "<value:$28>、<line-break>お前の今までの冒険のことを、<line-break>あとで話してくれないか？<end>"

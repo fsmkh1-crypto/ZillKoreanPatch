@@ -224,6 +224,10 @@ korean = "<value:$28>, 너를 따르던 노엘이 왜 여기 왔는지 아나? �
 japanese = "ノエル…。<line-break>あたしたち…もう…いくわ…<end>"
 korean = "노엘…. 우리… 이제… 갈게….<end>"
 
+["1910106"]
+japanese = "さぁ、どうする？<line-break>お前が死ななければ、<line-break>このふたりは死ぬぞ！<end>"
+korean = "자, 어떻게 할래? 네가 죽지 않으면 이 둘이 죽는다!<end>"
+
 ["1910107"]
 japanese = "あ…、レイヴン…！？<end>"
 korean = "아…, 레이븐…!?<end>"
@@ -319,6 +323,10 @@ korean = "난 누나를 믿어. 그러니 끝까지 따라갈 거야!<end>"
 ["1910143"]
 japanese = "さぁ、あと一息じゃ。<line-break>戦いの準備はできたのか、<line-break><value:$28>？<end>"
 korean = "자, 이제 한숨만 더 내쉬면 된다. 전투 준비는 됐느냐, <value:$28>?<end>"
+
+["1910146"]
+japanese = "ここまで来て諦めるなんて、<line-break>ぜーーったいに許せなくってよ、<line-break><value:$28>！<line-break>自分の力を信じて、<line-break>最後まで戦うのよ！<line-break>いいわね、<value:$28>！？<end>"
+korean = "여기까지 와서 포기하다니 절대로 용서 못 해, <value:$28>! 자신의 힘을 믿고 끝까지 싸워! 알겠지, <value:$28>!?<end>"
 
 ["1910147"]
 japanese = "この戦いが終わったら、もう<line-break>戦わなくてもいいんだよね？<line-break>　<line-break>ルルアンタもがんばるから、<line-break><value:$28>も絶対に<line-break>負けちゃダメだよ。<end>"

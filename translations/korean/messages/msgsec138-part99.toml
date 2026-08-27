@@ -432,6 +432,10 @@ korean = "<value:$28>. 이걸 깨닫게 해 준 건 너야. 나는 나로서, �
 japanese = "クゥー！　さすが俺のダチだ、　　　<line-break>いいこと言うぜ！<line-break><line-break>よし！　じゃ、晴れてトリオ結成を<line-break>声高らかに宣言しようじゃねえか！<end>"
 korean = "크으! 역시 내 친구야, 좋은 말 하는데! 좋아! 그럼 당당히 트리오 결성을 크게 선언해 보자고!<end>"
 
+["1380185"]
+japanese = "へっ、気にすんな、ナッジ！<line-break>俺様のイカしたギャグにゃ、<end>"
+korean = "헷, 신경 쓰지 마, 나지! 이 몸의 멋진 농담은 말이지,<end>"
+
 ["1380186"]
 japanese = "<value:$28>とお前、<line-break>つっこみふたりがかりで<line-break>ようやく対等ってもんだぜ！<line-break>何だか燃えてきた！　<line-break>うおぉぉぉ！<end>"
 korean = "<value:$28>과 너, 츳코미 둘이 달라붙어야 겨우 나와 대등하지! 왠지 불타오르는데! 우오오오!<end>"
@@ -656,6 +660,10 @@ korean = "그야 <value:$28>와 여행하고 있으니까!<end>"
 japanese = "うーん。<line-break>ぼくはやっぱりツイてるなぁ！<end>"
 korean = "음.역시 나는 운이 좋구나!<end>"
 
+["1380273"]
+japanese = "ぼく、ちょっと近くの森まで行って<line-break>今の気持ちを曲にしてくるよ！<end>"
+korean = "나, 근처 숲까지 가서 지금 기분을 곡으로 만들어올게!<end>"
+
 ["1380274"]
 japanese = "ない！　ない！　ない！<line-break>レルラのハープがないよー！<end>"
 korean = "없어! 없어! 없어! 렐라의 하프가 없어!<end>"
@@ -691,6 +699,10 @@ korean = "사실 세라와 셰스터에 대해 이야기하고 있었어. 아니
 ["1380284"]
 japanese = "たやすいことではないだろうな。　<line-break><line-break><line-break>俺自身、これまで幾多の<line-break>精霊を苦しめて来たか、<line-break>わからない。<end>"
 korean = "쉬운 일은 아니겠지. 나 자신도 지금까지 얼마나 많은 정령을 괴롭혀 왔는지 모르니까.<end>"
+
+["1380285"]
+japanese = "私も同感だ。それに、残念なことには、<line-break>精霊との共存ということを<line-break>身をもって実践している人間は、<line-break>いまだシェスター<line-break>ただひとりしか知らない。<end>"
+korean = "나도 동감이다. 게다가 유감스럽게도 정령과의 공존을 몸소 실천하는 인간은 아직 셰스터 단 한 명밖에 모른다.<end>"
 
 ["1380286"]
 japanese = "ロイ、やはり俺はもう部屋へ戻る。<end>"
@@ -1316,6 +1328,10 @@ korean = "후후후, 그렇네요. 술을 마시지 않는 <value:$28> 씨에겐
 japanese = "最近、このロストールでも、<line-break>女の人を狙う<line-break>変質者が出るらしいんです。<line-break><value:$28>さんは、<line-break>冒険者志望でしたよね？<end>"
 korean = "최근 이 로스토올에도 여성을 노리는 변태가 나타난다고 해요. <value:$28>님은 모험자 지망생이셨죠?<end>"
 
+["1380504"]
+japanese = "お願いです、<line-break>スラムの酒場まで、<line-break>つきあってください。<end>"
+korean = "부탁입니다, 슬럼가의 술집까지 함께 가 주세요.<end>"
+
 ["1380505"]
 japanese = "よかった！<line-break>じゃ、よろしくお願いします！<end>"
 korean = "다행이다! 그럼 잘 부탁드립니다!<end>"
@@ -1459,6 +1475,10 @@ korean = "우리한테도 좋은 벌이가 되니까.<end>"
 ["1380557"]
 japanese = "ははは！<end>"
 korean = "하하하!<end>"
+
+["1380559"]
+japanese = "同じ剣にしても、もっと細身がいいとか<line-break>まっすぐなのがいいとか、あるだろ？<line-break>そういうことだよ。<line-break>もちろん、<line-break>昔の形に戻すことだってできるぜ。<end>"
+korean = "같은 검이라도 좀 더 가느다란 게 좋다거나 곧은 게 좋다거나 있잖아? 그런 거야. 물론 예전 형태로 되돌릴 수도 있어.<end>"
 
 ["1380560"]
 japanese = "精霊ＬＶのことか。<line-break>確かにそれも装備品まわりの<line-break>ことではあるが、ちょいと…<line-break>それは鍛冶屋じゃなくて、<line-break>神殿の仕事なんでな。<end>"

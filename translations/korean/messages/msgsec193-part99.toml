@@ -120,6 +120,10 @@ korean = "아버님……. 갑자기 무슨 일이세요?<end>"
 japanese = "お、お父さま…、そんな…。<end>"
 korean = "아, 아버님… 그럴 수가….<end>"
 
+["1930046"]
+japanese = "というわけで、わしは旅に出る。<line-break>死ぬ前に、お世話になったみんなに<line-break>あいさつしておかねばの。<line-break>では、<value:$28>。<line-break>娘はよろしく頼んだぞ。<end>"
+korean = "그래서 나는 여행을 떠나려 한다. 죽기 전에 신세 진 모두에게 인사해야지. 그럼, <value:$28>. 딸아이를 잘 부탁한다.<end>"
+
 ["1930047"]
 japanese = "あ…、え？　え？<end>"
 korean = "아…, 어? 어?<end>"
@@ -180,6 +184,10 @@ korean = "나도 그렇게 생각해.<end>"
 japanese = "ヴァン、別の大陸って？<end>"
 korean = "반, 다른 대륙이라니?<end>"
 
+["1930066"]
+japanese = "ん？　<line-break>だから、どっか別の大陸さ。<line-break>あるだろ？　そういうの。<end>"
+korean = "응? 그러니까 다른 대륙 어딘가야. 있잖아? 그런 데.<end>"
+
 ["1930068"]
 japanese = "よーし、じゃあそこ！！<line-break><value:$28>、<line-break>それでいいよな？<end>"
 korean = "좋아, 그럼 거기!! <value:$28>, 그걸로 괜찮지?<end>"
@@ -232,6 +240,10 @@ korean = "훌륭해! 이게 렐라=론톤이 만든 <value:$28>의 시인가.<en
 japanese = "アンコール！<line-break>アンコール！<end>"
 korean = "앙코르! 앙코르!<end>"
 
+["1930085"]
+japanese = "みんなー。<line-break>ぼくの歌を聴いてくれてありがとう！<line-break>じゃあねー。<end>"
+korean = "여러분—. 내 노래를 들어줘서 고마워! 그럼 안녕—.<end>"
+
 ["1930086"]
 japanese = "お疲れさまでした。<end>"
 korean = "수고하셨습니다.<end>"
@@ -279,6 +291,10 @@ korean = "그런 건 알아. 하지만 남겨지는 쪽에도 저마다의 마�
 ["1930106"]
 japanese = "その辺にしておきなさい。<line-break><value:$28>だって<line-break>考えた上での選択でしょう。<end>"
 korean = "그쯤 해 두세요. <value:$28>도 생각한 끝에 내린 선택이겠죠.<end>"
+
+["1930107"]
+japanese = "それでは、そろそろ<line-break>あなたの望むところへ<line-break>お連れしましょう。<end>"
+korean = "그럼 슬슬 당신이 원하는 곳으로 데려다드리죠.<end>"
 
 ["1930108"]
 japanese = "さあ、どうぞ。<end>"

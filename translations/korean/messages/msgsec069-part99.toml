@@ -36,6 +36,10 @@ korean = "아, 전송 중에 오면 위험합니다. 물러나세요….<end>"
 japanese = "くっ！<line-break>瞬間移動…だと！？<end>"
 korean = "큭! 순간이동…이라고!?<end>"
 
+["690018"]
+japanese = "…いや、奴の目的地から<line-break>そう遠くに放り出されてはいない。<line-break>　<line-break>…瞬間移動は<line-break>そう使える術ではない。<line-break>奴も、この近くにいる。<end>"
+korean = "…아니, 녀석의 목적지에서 그리 멀리 떨어진 곳에 내던져진 건 아니다. …순간이동은 그렇게 자주 쓸 수 있는 술법이 아니야. 녀석도 이 근처에 있다.<end>"
+
 ["690019"]
 japanese = "…そうだな。<line-break>この森から捜そう。<end>"
 korean = "…그래. 이 숲부터 찾아보자.<end>"
@@ -204,6 +208,10 @@ korean = "으, 역시나 흉포한 여자가 지긋지긋한 전개로 등장했
 japanese = "店主さん、申しわけないが<line-break>さっきの注文は取り消しゴブ。　　<line-break>　<line-break>では、さらばゴブ。<line-break>できれば我々のことは<line-break>もう捜さないでほしいゴブ。<end>"
 korean = "주인장, 미안하지만 아까 주문은 취소다 고브. 그럼 이만 고브. 가능하면 우리를 더는 찾지 말아 줬으면 한다 고브.<end>"
 
+["690095"]
+japanese = "もう！　何なのよ！？<line-break>許さない！<line-break>こら、待ちなさいよ！<end>"
+korean = "정말! 뭐야!? 용서 못 해! 야, 기다려!<end>"
+
 ["690096"]
 japanese = "あーっ！　あんたたち！<line-break>いいかげん、聖杯を返しなさいよ！<end>"
 korean = "아! 너희들! 이제 그만 성배를 돌려줘!<end>"
@@ -211,6 +219,10 @@ korean = "아! 너희들! 이제 그만 성배를 돌려줘!<end>"
 ["690098"]
 japanese = "なぜゴブ！　なぜ、ガサツ女は<line-break>現れないゴブ！！<end>"
 korean = "왜 고브! 왜 거친 여자는 나타나지 않는 고브!!<end>"
+
+["690099"]
+japanese = "そうゴブ！　そうゴブ！<line-break>パターンは繰り返さないとダメゴブ！<end>"
+korean = "그렇다 고브! 그렇다 고브! 패턴은 반복해야 한다 고브!<end>"
 
 ["690101"]
 japanese = "親分、アレって何でゴブ？<end>"
@@ -351,6 +363,10 @@ korean = "…<value:$28>가 그렇게 말한다면….<end>"
 ["690157"]
 japanese = "あんだって？<line-break>この…！<end>"
 korean = "뭐라고? 이…!<end>"
+
+["690159"]
+japanese = "なーんか、当たってる気がするから<line-break>なおのことムカツクねえ…。<end>"
+korean = "왠지 맞는 말 같아서 더 열받네…<end>"
 
 ["690160"]
 japanese = "わかったよ。<line-break>あんたがそう言うんならさ…。<line-break>　<line-break>ふーんだ。<line-break>なんだい。<line-break>ちょっといい男だと思ってさ！<end>"
@@ -531,6 +547,10 @@ korean = "…당신만은 어째서인지 의심을 거둘 수 없는 모양이�
 ["690250"]
 japanese = "…なぜだか、<line-break>思い出せないのか。<end>"
 korean = "…왜인지 기억이 안 나는 건가.<end>"
+
+["690252"]
+japanese = "確かに世界は広い。じゃが、<line-break>この広い世界にお前の居場所はない。<line-break>　<line-break>人間どもにとって<line-break>お前は恐怖以外の何ものでもない。<line-break>　<end>"
+korean = "확실히 세계는 넓다. 하지만 이 넓은 세계에 네가 있을 곳은 없다. 인간들에게 너는 공포 그 자체일 뿐이다.<end>"
 
 ["690255"]
 japanese = "お前が身を守れば、お前は奴らの<line-break>敵だったことが証明される。<line-break>　<line-break>かくて、正義の名の下に<line-break>奴らの刃がお前を襲う。<line-break>…つぎつぎとな。<end>"

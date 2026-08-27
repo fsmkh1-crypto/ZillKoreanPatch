@@ -80,6 +80,10 @@ korean = "알겠습니다. 그럼 바로!<end>"
 japanese = "<value:$28>…。<line-break>その…ご苦労でしたね。<line-break>これで解放軍も、もち直します。<line-break>ありがとう…。<line-break>私を助けてくれて…。<line-break>　<end>"
 korean = "<value:$28>…. 그… 수고했어요. 이걸로 해방군도 다시 일어설 겁니다. 고마워요…. 저를 구해 줘서….<end>"
 
+["1880034"]
+japanese = "あ、言っておきますけど、<line-break>今のはあくまで、解放軍を率いる身<line-break>として言ったのですよ。<line-break>そこのところを間違えないでね。<line-break>…もう、下がっていいですよ。<end>"
+korean = "아, 말해두겠지만 방금 건 어디까지나 해방군을 이끄는 입장에서 한 말이에요. 그 점 착각하지 마세요. …이제 물러가도 됩니다.<end>"
+
 ["1880035"]
 japanese = "あなたが見つけてきてくれた埋蔵金は<line-break>わたくしが責任を持って解放軍の<line-break>活動に役立てます。<line-break>任務、ご苦労でした。<line-break>下がっていいですよ。<end>"
 korean = "당신이 찾아온 매장금은 제가 책임지고 해방군 활동에 쓰겠습니다. 임무 수고하셨습니다. 물러가셔도 좋습니다.<end>"
@@ -119,6 +123,10 @@ korean = "로스톨군에 참전했다고 말한다<end>"
 ["1880049"]
 japanese = "参戦したことは伏せておく<end>"
 korean = "참전한 사실은 숨겨 둔다<end>"
+
+["1880052"]
+japanese = "今回の任務では<line-break>本当にご苦労さまでした。<line-break>ゆっくり休んでください。　　<line-break>もう下がっていいですよ。<line-break>…それと、<line-break>みなさんも下がってください。<end>"
+korean = "이번 임무 정말 수고 많으셨습니다. 푹 쉬세요. 이제 물러가셔도 됩니다. …그리고 여러분도 물러가 주세요.<end>"
 
 ["1880053"]
 japanese = "解放軍を率いる者として…だなんて…<line-break>わたくし、どうして、<line-break>素直に言えないの？<line-break>本当にわたくし、<line-break>かわいげのない女だわ…。<line-break>でも…。<end>"

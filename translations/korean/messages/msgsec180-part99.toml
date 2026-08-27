@@ -156,6 +156,10 @@ korean = "뭐, 됐어. 그럼 이만.<end>"
 japanese = "よう、<value:$28>。<line-break>ここに来れば会えると思ってたぜ。<end>"
 korean = "여어, <value:$28>. 여기 오면 만날 수 있을 줄 알았어.<end>"
 
+["1800083"]
+japanese = "…別に死にに行く気はないさ。　　　　<line-break>俺なりに少ないながら勝算はある。<line-break>　<line-break>ツェラシェルを使って、<line-break>ネメアがらみの有力な情報もつかんだ。<end>"
+korean = "…딱히 죽으러 갈 생각은 없어. 나름대로 적지만 승산은 있다. 체라셸을 이용해서 네메아와 관련된 유력한 정보도 잡았고.<end>"
+
 ["1800085"]
 japanese = "<value:$28>、<line-break>俺と一緒に出撃してくれ。<end>"
 korean = "<value:$28>, 나와 함께 출격해 줘.<end>"
@@ -251,6 +255,10 @@ korean = "그, 그럴 수가! 제가 꾸물거리는 바람에…!<end>"
 ["1800123"]
 japanese = "し、しかし！<end>"
 korean = "하, 하지만!<end>"
+
+["1800125"]
+japanese = "さ、気持ちを切り替えなさい！<line-break>　<line-break>　<line-break>兵の命を救いたかったら、<line-break>早めに引き上げるしかないわ。<line-break>しんがりにはあたしが出るわ。<end>"
+korean = "자, 마음을 다잡아! 병사들의 목숨을 구하고 싶으면 일찍 철수할 수밖에 없어. 후미는 내가 맡을게.<end>"
 
 ["1800126"]
 japanese = "カルラ様…。<end>"
@@ -431,6 +439,10 @@ korean = "세상 같은 건… 보이지 않았으면 좋았을 텐데….<end>"
 ["1800197"]
 japanese = "おう、<value:$28>。<line-break>手紙が来てるぜ。<end>"
 korean = "오, <value:$28>. 편지가 왔어.<end>"
+
+["1800198"]
+japanese = "ゼグナ鉱山の奥に、闇の神器、<line-break>貪欲の盾があることがわかったわ。<line-break>ネメアが向かうはずよ。渡さないで。<line-break>　　　　　　　　　　　ケリュネイア<end>"
+korean = "제그나 광산 깊은 곳에 어둠의 신기, 탐욕의 방패가 있다는 걸 알아냈어. 네메아가 향할 거야. 넘겨주지 마. 케류네이아<end>"
 
 ["1800200"]
 japanese = "目に見えなくとも、<line-break>それは確かに存在しています。<end>"

@@ -44,6 +44,14 @@ korean = "바보야! 네 설교 따위 누가 듣냐!<end>"
 japanese = "あ、コラ、待て。<line-break>話はまだ終わっていないぞ！<end>"
 korean = "아, 이봐, 기다려. 이야기는 아직 안 끝났어!<end>"
 
+["2260014"]
+japanese = "うーむ。このままではあの子たちの<line-break>心がゆがんだままになってしまう。<line-break>　<line-break>間違った道に進まぬよう、<line-break>悪の芽を摘み取ってやるのも<line-break>勇者の使命。<end>"
+korean = "음. 이대로는 저 아이들의 마음이 비뚤어진 채가 되어버리겠군. 잘못된 길로 가지 않도록 악의 싹을 뽑아주는 것도 용자의 사명.<end>"
+
+["2260016"]
+japanese = "やれやれ…。<line-break>これはちと面倒なことに<line-break>なりそうじゃ…。<line-break>あの男、悪いヤツではないんじゃが、<line-break>いささか思いこみが強すぎて<line-break>暴走するからのう。<end>"
+korean = "이런 이런… 이건 좀 성가신 일이 될 것 같군… 그 남자, 나쁜 녀석은 아니지만 너무 자기 생각이 강해서 폭주하거든.<end>"
+
 ["2260017"]
 japanese = "どうする、<value:$28>？<end>"
 korean = "어떻게 할래, <value:$28>?<end>"
