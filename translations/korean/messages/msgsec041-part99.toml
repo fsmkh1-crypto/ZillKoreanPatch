@@ -360,6 +360,10 @@ korean = "하, 하지만….<end>"
 japanese = "…ごめんなさい！<line-break><value:$28>さん！<end>"
 korean = "…미안해요! <value:$28> 씨!<end>"
 
+["410123"]
+japanese = "待って！<value:$28>。<line-break>この人たちを殺さないよね？　ね？<end>"
+korean = "잠깐! <value:$28>. 이 사람들 죽이지 않을 거지? 그렇지?<end>"
+
 ["410124"]
 japanese = "…やっぱり、<value:$28>さんは<line-break>間違ってなかった…。<end>"
 korean = "…역시 <value:$28>님은 틀리지 않았어….<end>"

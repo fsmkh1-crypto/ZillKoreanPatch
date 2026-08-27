@@ -40,6 +40,10 @@ korean = "(에스텔은 여기에 있을지도 몰라…)<end>"
 japanese = "おかげでチェックに間に合ったよ。<line-break>ありがとう、<value:$28>。<line-break>　<line-break>ねぇ、ちょっと座って話そっか。<end>"
 korean = "덕분에 점검에 맞췄어. 고마워, <value:$28>. 자, 잠깐 앉아서 이야기할까.<end>"
 
+["890031"]
+japanese = "あ、この衣装？<line-break>巫女の正装なんだ。<line-break>似合う？<end>"
+korean = "아, 이 옷? 무녀의 정장이야. 어울려?<end>"
+
 ["890032"]
 japanese = "えへへ、ありがと。<line-break>ねえ、座らない？<end>"
 korean = "헤헤, 고마워. 있잖아, 앉지 않을래?<end>"
@@ -47,6 +51,10 @@ korean = "헤헤, 고마워. 있잖아, 앉지 않을래?<end>"
 ["890033"]
 japanese = "チェックが終わったあと、<line-break>ボク、いつもここに来るんだ。<line-break>　<line-break>ここは、ラドラスから外が見える<line-break>たったひとつの場所だから。<line-break>　<end>"
 korean = "점검이 끝나면 난 늘 여기 와. 라드라스에서 바깥을 볼 수 있는 유일한 장소거든.<end>"
+
+["890039"]
+japanese = "ね、また、一緒に旅をしよ？<line-break>いいでしょ？<line-break>　<end>"
+korean = "있지, 또 같이 여행하자. 응?<end>"
 
 ["890040"]
 japanese = "パーティーに加える<end>"
@@ -324,6 +332,10 @@ korean = "다, 당신… 언제부터 거기 있었어!?<end>"
 japanese = "なら、いいわ。<line-break>こっちに来て。<end>"
 korean = "그렇다면 됐어. 이쪽으로 와.<end>"
 
+["890162"]
+japanese = "今日は、どうしても<line-break>あなたにお礼が言いたかったの。<end>"
+korean = "오늘은 꼭 네게 고맙다고 말하고 싶었어.<end>"
+
 ["890165"]
 japanese = "これは私からの気持ちよ、<line-break>受け取っておいて。<end>"
 korean = "이건 내 마음이야. 받아 둬.<end>"
@@ -352,6 +364,10 @@ korean = "미안하네, <value:$28>.<end>"
 japanese = "我らは反ディンガルの闘士！<line-break>ロセン王国復興を志す者だ！<end>"
 korean = "우리는 반 딘갈의 투사! 로센 왕국의 부흥을 뜻하는 자들이다!<end>"
 
+["890180"]
+japanese = "ディンガルの侵略者！<line-break>その巨魁ザギヴ・ディンガル！<end>"
+korean = "딘갈의 침략자! 그 우두머리 자기브 딘갈!<end>"
+
 ["890182"]
 japanese = "<value:$28>？<line-break>貴様、<value:$28>ではないか！<end>"
 korean = "<value:$28>? 네놈, <value:$28> 아니냐!<end>"
@@ -363,6 +379,10 @@ korean = "큭, 무슨 속셈이지. 딘갈로 돌아선 건가!<end>"
 ["890186"]
 japanese = "さ、<value:$28>、<line-break>行くわ！<end>"
 korean = "자, <value:$28>, 간다!<end>"
+
+["890189"]
+japanese = "そうね。正確には、<line-break>カルラに利用されていただけね。<end>"
+korean = "그래. 정확히는 칼라에게 이용당했을 뿐이야.<end>"
 
 ["890190"]
 japanese = "くっ…、ま、ま…だ言う…か…。<end>"
@@ -931,6 +951,10 @@ korean = "후후…. 배신자인 나를 죽이러 온 거 아니야? 원탁기�
 ["890462"]
 japanese = "私だけではない。<line-break>お前もだ、アスティア。<end>"
 korean = "나만이 아니다. 너도다, 아스티아.<end>"
+
+["890465"]
+japanese = "ええ、考えなかったわ。<line-break> <line-break> <line-break>愛を知ったあなたが、<line-break>失うということの痛みを前に、<line-break>踏みとどまらないわけがないもの。<end>"
+korean = "그래, 생각하지 않았어. 사랑을 알게 된 네가 잃는 고통 앞에서 멈추지 않을 리 없으니까.<end>"
 
 ["890466"]
 japanese = "…運命は変えられぬ。<line-break> <line-break> <line-break>お前のしていることは、<line-break>無駄なことだぞ、アスティア。<end>"

@@ -48,6 +48,10 @@ korean = "죽여!<end>"
 japanese = "そうだ。これで終わったと思うな！<line-break>ブゾリ！<end>"
 korean = "그래. 이걸로 끝났다고 생각하지 마라! 부조리!<end>"
 
+["850025"]
+japanese = "ゲスねぇ。美しくないわ。<line-break>命はもっと尊いものよん。<end>"
+korean = "천박하네. 아름답지 않아. 목숨은 훨씬 소중한 거야.<end>"
+
 ["850027"]
 japanese = "<value:$28>さん<line-break>…ですね。<end>"
 korean = "<value:$28> 씨… 맞죠.<end>"
@@ -163,6 +167,10 @@ korean = "자네가 <value:$28>군이군. 최근 단숨에 유명해진 모험�
 ["850064"]
 japanese = "<value:$28>さん…。<line-break>本当にありがとうございます。<line-break>お怪我はありませんか？<end>"
 korean = "<value:$28> 씨…. 정말 감사합니다. 다친 곳은 없으세요?<end>"
+
+["850065"]
+japanese = "そうか、やはり、<line-break>ロセン総督ブゾリのさしがねか…。<end>"
+korean = "그런가, 역시 로센 총독 부조리의 사주였나….<end>"
 
 ["850073"]
 japanese = "頼む、<line-break>私たちに力を貸してくれたまえ。　　　<line-break><value:$28>君。<end>"

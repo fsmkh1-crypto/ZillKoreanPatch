@@ -248,6 +248,10 @@ korean = "갈드란이 있었어…?<end>"
 japanese = "矢…？　ガルドランの…。<end>"
 korean = "화살…? 갈드란의…?<end>"
 
+["570128"]
+japanese = "…やっぱり、<value:$28>、<line-break>まだフリントさんのことで…。<end>"
+korean = "…역시 <value:$28>, 아직 플린트 씨 일 때문에….<end>"
+
 ["570129"]
 japanese = "ホントだ。<line-break>毒が塗ってあった形跡がない。<end>"
 korean = "정말이네. 독을 발랐던 흔적이 없어.<end>"
@@ -275,6 +279,10 @@ korean = "저 녀석이 길 잃었던 일행인가…. 쳇, 얼른 타.<end>"
 ["570136"]
 japanese = "あん？<line-break>船賃はいいのかって？<end>いいんだ。<line-break>さっきこの男前と軽く勝負してな。<line-break>タダで乗っけてもらう事になったんだ。<end>"
 korean = "응? 뱃삯은 괜찮냐고?<end>괜찮아. 아까 이 미남하고 가볍게 승부해서 공짜로 태워 주기로 했거든.<end>"
+
+["570139"]
+japanese = "なんだかなあ…。<line-break>ルルアンタを探すつもりが<line-break>変な方向に話がふくらんできたな…。<line-break>まあ、今は話を聞いておこうや。<line-break>さ、行ってみようぜ。<end>"
+korean = "참…. 루루안타를 찾으려던 게 이상한 방향으로 이야기가 커졌군…. 뭐, 지금은 이야기를 들어 보자. 자, 가 보자고.<end>"
 
 ["570140"]
 japanese = "そうだな、とりあえずは動くしかない。<line-break>お前さんの言う通りだ。<line-break>　<line-break>んじゃ、行きますか？<end>"

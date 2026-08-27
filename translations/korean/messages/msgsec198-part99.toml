@@ -184,6 +184,10 @@ korean = "네? 현자님을 짐작 가는 분이 있나요?<end>"
 japanese = "猫屋敷に住んでいる、<line-break>オルファウスさん…。<end>"
 korean = "고양이 저택에 사는 오르파우스 씨….<end>"
 
+["1980102"]
+japanese = "いらっしゃい、<value:$28>。<line-break>今日はどうしたんですか？<end>"
+korean = "어서 와요, <value:$28>. 오늘은 무슨 일이에요?<end>"
+
 ["1980105"]
 japanese = "いえ。ありますよ。<end>"
 korean = "아니요. 있어요.<end>"
@@ -371,6 +375,10 @@ korean = "네? 그게 무슨 뜻인가요?<end>"
 ["1980205"]
 japanese = "その魔道器…<line-break>見つかるといいですね、<line-break><value:$28>。<end>"
 korean = "그 마도기… 찾을 수 있으면 좋겠네요, <value:$28>.<end>"
+
+["1980206"]
+japanese = "いらっしゃい、<value:$28>。<line-break>今日はどうしたんですか？<end>"
+korean = "어서 와요, <value:$28>. 오늘은 무슨 일이에요?<end>"
 
 ["1980209"]
 japanese = "いえ。ありますよ。<end>"

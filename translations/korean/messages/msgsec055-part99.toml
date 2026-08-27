@@ -544,6 +544,10 @@ korean = "정말이야.<end>"
 japanese = "ちっ、ホントなら<line-break>大ウケなのによ！<end>"
 korean = "쳇, 진짜라면 대박인데!<end>"
 
+["550190"]
+japanese = "おーい、<value:$28>。<line-break>黒づくめもいねえぞ。どうすんだ？<end>"
+korean = "어이, <value:$28>. 검은 옷 녀석도 없는데 어쩔 거야?<end>"
+
 ["550194"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
@@ -755,6 +759,10 @@ korean = "스, 스승님, 훌륭합니다! 등골이 얼어붙을 만큼 춥습�
 ["550252"]
 japanese = "ちっ、ホントなら<line-break>大ウケなのによ！<end>"
 korean = "쳇, 진짜라면 대박인데!<end>"
+
+["550253"]
+japanese = "おーい、<value:$28>。<line-break>黒づくめもいねえぞ。どうすんだ？<end>"
+korean = "어이, <value:$28>. 검은 옷 녀석도 없는데 어쩔 거야?<end>"
 
 ["550260"]
 japanese = "＜無＞<end>"

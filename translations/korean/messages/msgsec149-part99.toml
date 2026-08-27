@@ -228,6 +228,10 @@ korean = "<value:$28>…. 그게 네 이름이야? 그런 걸 내게 알려서 �
 japanese = "こら、君！<line-break>その男から離れなさい！　　　　<line-break>　<line-break>その男は救世主でも<line-break>神の遣いでもない。<line-break>大ウソつきのインチキ予言者だ。<end>"
 korean = "이봐, 너! 그 남자에게서 떨어져! 그 남자는 구세주도 신의 사자도 아니야. 새빨간 거짓말쟁이 사기 예언자다.<end>"
 
+["1490120"]
+japanese = "すぐに立ち去るんだ。<line-break>我々も手荒な真似はしたくない。<end>"
+korean = "당장 떠나라. 우리도 거칠게 하고 싶진 않다.<end>"
+
 ["1490121"]
 japanese = "少年よ、家で、<line-break>その友と共に待っているがよい。<end>"
 korean = "소년이여, 집에서 그 친구와 함께 기다리고 있어라.<end>"
@@ -364,9 +368,17 @@ korean = "감사하옵니다, 감사하옵니다.<end>"
 japanese = "ああ、エルファス様！<line-break>私はあなたを信じます。<end>"
 korean = "아아, 엘파스 님! 저는 당신을 믿습니다.<end>"
 
+["1490185"]
+japanese = "…わからないな。<line-break>まったく、君の意図は計り知れない。<end>"
+korean = "…모르겠군. 정말 네 의도는 헤아릴 수 없어.<end>"
+
 ["1490186"]
 japanese = "あいつらなら僕が片付けた。　　<line-break>　<line-break>　<line-break>あの程度の男、何人束になろうと<line-break>僕の相手ではない。<end>"
 korean = "그 녀석들이라면 내가 처리했어. 그 정도 남자는 몇 명이 덤벼도 내 상대가 안 돼.<end>"
+
+["1490187"]
+japanese = "そのくらい君にもわかっているはずだ。<line-break>それなのに…。<end>"
+korean = "그 정도는 너도 알고 있을 텐데. 그런데도….<end>"
 
 ["1490190"]
 japanese = "あいつらなら僕が片付けた。　　<line-break>　<line-break>　<line-break>君もあいつらと変わらない。<line-break>…すべてを力で解決しようとする。<end>"
@@ -492,6 +504,10 @@ korean = "………………. 네가 몇 번이나 나를 구하려 해도, 너�
 japanese = "そのことは覚えていて欲しい。<end>"
 korean = "그건 기억해 줬으면 해.<end>"
 
+["1490237"]
+japanese = "ノーブル伯…、君がね…。<line-break>それで僕をどうするつもり？<end>"
+korean = "노블 백작… 네가 말이지…. 그래서 날 어떻게 할 생각이야?<end>"
+
 ["1490239"]
 japanese = "僕をどうするつもりだ？<end>"
 korean = "나를 어떻게 할 셈이지?<end>"
@@ -556,6 +572,10 @@ korean = "나를 도우려 한 건가…? 내가 누군지 알고 있을 텐데.
 japanese = "第一、…僕は君の敵だ。<end>"
 korean = "무엇보다… 나는 네 적이다.<end>"
 
+["1490263"]
+japanese = "君みたいな人間は初めてだ。<line-break>君ほど不可解な人間はね。<end>"
+korean = "너 같은 인간은 처음이야. 너만큼 이해할 수 없는 인간은 말이지.<end>"
+
 ["1490264"]
 japanese = "…やっと気が付いたようだね。<end>"
 korean = "…이제야 눈치챈 모양이네.<end>"
@@ -567,6 +587,10 @@ korean = "그 녀석들이라면 내가 처리했다. 자기 힘을 과신하니
 ["1490267"]
 japanese = "やっと気が付いたたようだね。<line-break>　<line-break>　<line-break>君も僕を領主の前へ<line-break>突き出すつもりだったの？<end>"
 korean = "이제야 눈치챈 모양이네. 너도 나를 영주 앞에 끌고 갈 생각이었어?<end>"
+
+["1490268"]
+japanese = "そう…、<line-break>それなら僕をあいつらから<line-break>救おうと？<end>"
+korean = "그래… 그럼 나를 저 녀석들에게서 구하려고?<end>"
 
 ["1490272"]
 japanese = "君の名…、聞いておきたい。<end>"

@@ -296,6 +296,10 @@ korean = "너인가… 자주 마주치네.<end>"
 japanese = "ま、座んなよ。ちょうど話し相手が<line-break>ほしかったところさ。<end>"
 korean = "뭐, 앉아. 마침 말상대가 필요하던 참이야.<end>"
 
+["560117"]
+japanese = "俺は、エルファスより<line-break>ネメア暗殺の命を受けた。　　　　<line-break>　<line-break>勇者ネメア…。<line-break>そのときの俺には<line-break>相手が誰であろうと関係なかった。<end>"
+korean = "나는 엘파스에게 네메아 암살 명령을 받았다. 용사 네메아…. 그때의 내겐 상대가 누구든 상관없었다.<end>"
+
 ["560118"]
 japanese = "冷静に奴を誘き寄せ、追いつめた。<line-break>だが…<line-break>　<end>"
 korean = "냉정하게 녀석을 유인해서 몰아붙였다. 하지만….<end>"
@@ -347,6 +351,10 @@ korean = "실바라는 마을에 마물이 봉인되어 있다. 그 봉인을 �
 ["560137"]
 japanese = "そして、あんたに出くわした。　　　<line-break>　<line-break>　<line-break>石化獣の封印を解いた黒ずくめの男。<line-break>…あれが俺だ。<line-break>　<end>"
 korean = "그리고 너와 마주쳤지. 석화수의 봉인을 푼 검은 옷의 남자. …그게 나다.<end>"
+
+["560138"]
+japanese = "石化獣に立ち向かうノエルを見て、<line-break>俺は、また人間に戻っちまった。<line-break>　<line-break>そして…今度こそ<line-break>自分の意志で生きていこうと決めた。<line-break>　<end>"
+korean = "석화수에 맞서는 노엘을 보고 나는 다시 인간으로 돌아왔다. 그리고… 이번엔 내 의지로 살아가겠다고 결심했지.<end>"
 
 ["560142"]
 japanese = "間違いない。<line-break>この奥へ逃げ込んだようだ。<end>"
@@ -988,6 +996,10 @@ korean = "그럼 서로 힘내죠.<end>"
 japanese = "あら、<value:$28><line-break>こんな所で会うなんて怪しいわね。<end>"
 korean = "어머, <value:$28>. 이런 곳에서 만나다니 수상하네.<end>"
 
+["560360"]
+japanese = "ふん、どうかしらね。<line-break>あなたの言うことなんて<line-break>信用できないわ。<line-break>カルラ様を裏切るような真似をすれば…<line-break>いつでも私が成敗してあげるわ。<end>"
+korean = "흥, 글쎄. 네 말 같은 건 믿을 수 없어. 칼라 님을 배신하는 짓을 하면… 언제든 내가 처단해 주겠어.<end>"
+
 ["560361"]
 japanese = "<value:$28>、<line-break>調子はどう？<end>"
 korean = "<value:$28>, 상태는 어때?<end>"
@@ -1031,6 +1043,10 @@ korean = "<value:$28>, 이런 데서 뭐 하고 있어!<end>"
 ["560379"]
 japanese = "私に余裕がない？<line-break>当たり前じゃない、戦争なのよ！<end>"
 korean = "내게 여유가 없다고? 당연하잖아, 전쟁이라고!<end>"
+
+["560380"]
+japanese = "あなたのようにぼんやりしている方が<line-break>どうかしているわ。<line-break>どういう神経をしているのか…。<line-break>私は忙しいから<line-break>あなたもしっかりやりなさい。<end>"
+korean = "당신처럼 멍하니 있는 쪽이 이상한 거예요. 무슨 신경을 가진 건지…. 저는 바쁘니까 당신도 제대로 하세요.<end>"
 
 ["560382"]
 japanese = "長生きしたいのなら<line-break>そのつもりでいることね。<end>"
@@ -1967,6 +1983,10 @@ korean = "추가 메시지 여기부터<end>"
 ["560911"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["560915"]
+japanese = "いや、そうではないのだ…。<line-break>これは、あなたのために<line-break>言っておるのですぞ、お若いの。<line-break>その命、無駄に散らしてしまうのは<line-break>もったいない。<end>"
+korean = "아니, 그런 게 아닙니다…. 이건 당신을 위해 하는 말이에요, 젊은이. 그 목숨을 허무하게 버리기엔 아깝습니다.<end>"
 
 ["560916"]
 japanese = "そうだぜ…っと。<end>"

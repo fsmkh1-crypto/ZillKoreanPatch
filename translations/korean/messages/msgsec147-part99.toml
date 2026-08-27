@@ -32,6 +32,10 @@ korean = "어이, <value:$28>. 어디 가는 거야?<end>"
 japanese = "…ひょっとしたら…<line-break>…まさかな。<end>"
 korean = "…혹시… …설마.<end>"
 
+["1470027"]
+japanese = "一緒にいた女の子ですか？<line-break>まだ、戻ってきてませんよ。<end>"
+korean = "함께 있던 여자아이요? 아직 돌아오지 않았어요.<end>"
+
 ["1470028"]
 japanese = "おい、<value:$28>。<line-break>どこに行くんだ？<end>"
 korean = "야, <value:$28>. 어디 가는 거야?<end>"
@@ -104,6 +108,10 @@ korean = "젠장, 침입자인가. 여기서부터는 못 지나간다!<end>"
 japanese = "世の中、そう都合よくは<line-break>いかないと思うがな。<end>"
 korean = "세상일이 그렇게 뜻대로 되진 않을 텐데.<end>"
 
+["1470074"]
+japanese = "もう、お前たち以外に<line-break>満足に動ける奴は残ってないぜ。<end>"
+korean = "이제 너희 말고 제대로 움직일 수 있는 사람은 남지 않았어.<end>"
+
 ["1470075"]
 japanese = "な、なんだと…！　　　　　　　　　　<line-break>　<line-break>　<end>"
 korean = "뭐, 뭐라고…!<end>"
@@ -115,6 +123,10 @@ korean = "자, 이 녀석들만 쓰러뜨리면 끝이야. 빨리 해치우자, 
 ["1470094"]
 japanese = "やれやれ。今度は賢者の森かい？<end>"
 korean = "이런. 이번엔 현자의 숲인가?<end>"
+
+["1470095"]
+japanese = "よぉ、アンギルダンのとっつぁん。<line-break>まだ生きていたか。<end>"
+korean = "여어, 앙길단 영감. 아직 살아 있었나.<end>"
 
 ["1470096"]
 japanese = "ワハハ、死んでたまるか。<end>"

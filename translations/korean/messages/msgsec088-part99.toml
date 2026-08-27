@@ -56,6 +56,10 @@ korean = "뭐, 그렇지<end>"
 japanese = "まだまだ駆け出し<end>"
 korean = "아직 풋내기<end>"
 
+["880028"]
+japanese = "ちゃんと戻るよ！<line-break>そんなにボクが信用できないの！？<end>"
+korean = "제대로 돌아올 거야! 그렇게 내가 못 미더워!?<end>"
+
 ["880030"]
 japanese = "またまたぁ。<line-break>ボクって結構、目利きなんだよ。<line-break>　<line-break>キミもボクと同じで<line-break>まだまだ駆け出しってところ<line-break>なんじゃないの？<end>"
 korean = "또 그런다. 나 꽤 사람 보는 눈이 있어. 너도 나처럼 아직 풋내기 아니야?<end>"
@@ -95,6 +99,10 @@ korean = "귀찮다. 처리해!<end>"
 ["880050"]
 japanese = "イタタタ！　くそっ！<end>"
 korean = "아야야! 젠장!<end>"
+
+["880053"]
+japanese = "まだ、やだよ。<line-break>会っておきたい人がいるんだから！！<end>"
+korean = "아직 싫어. 만나 두고 싶은 사람이 있단 말이야!!<end>"
 
 ["880054"]
 japanese = "…？<line-break>会っておきたい人？<end>"
@@ -368,6 +376,10 @@ korean = "아니요<end>"
 japanese = "じゃ、ボク待ってるから。<end>"
 korean = "그럼 난 기다리고 있을게.<end>"
 
+["880174"]
+japanese = "ちょっと幻滅だわ。<line-break>あたしの言いたいのはそれだけ。<end>"
+korean = "조금 실망이야. 내가 하고 싶은 말은 그게 전부야.<end>"
+
 ["880176"]
 japanese = "い、今さら何しに来たんだよ。<line-break>絶対、キミが助けてくれるって<line-break>信じてたのに…。<line-break>だけど、キミは来なかった…。<line-break>　<line-break>　<end>"
 korean = "이, 이제 와서 왜 온 거야. 난 네가 반드시 구해 줄 거라고 믿었는데…. 그런데 넌 오지 않았어….<end>"
@@ -499,6 +511,10 @@ korean = "멋지다고 생각해<end>"
 ["880250"]
 japanese = "ガラじゃない<end>"
 korean = "내 스타일이 아냐<end>"
+
+["880256"]
+japanese = "じゃ、ボク、自分の部屋に帰るから。<line-break>またあとでね！<end>"
+korean = "그럼 난 내 방으로 돌아갈게. 나중에 또 봐!<end>"
 
 ["880258"]
 japanese = "やあ、<value:$28>。<line-break>来てくれたんだね。<end>"

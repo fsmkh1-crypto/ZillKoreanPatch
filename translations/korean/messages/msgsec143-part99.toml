@@ -4,6 +4,10 @@
 japanese = "グフトク、Ｖｏｌ１メッセージ開始<end>"
 korean = "구프토크 볼륨1 메시지 시작<end>"
 
+["1430001"]
+japanese = "ここまでたどり着けるとは、<line-break>少しは腕が立つらしいな。<end>"
+korean = "여기까지 도달한 걸 보니 제법 실력이 있나 보군.<end>"
+
 ["1430004"]
 japanese = "ならば、ひとつ<line-break>腕前を試させてもらおう。<end>"
 korean = "그렇다면 실력을 한번 시험해 보지.<end>"
@@ -44,6 +48,10 @@ korean = "들었겠지만 나는 힐다리아야. 너희 실력, 시험해 봤�
 japanese = "その腕を見込んで、<line-break>ひとつ頼みがあるのよ。<end>"
 korean = "그 실력을 믿고 부탁 하나 할 게 있어.<end>"
 
+["1430020"]
+japanese = "こちらにおられるのが、<line-break>第２代頭領、ヒルダリア様だ！<end>"
+korean = "여기 계신 분이 제2대 두령 힐다리아 님이다!<end>"
+
 ["1430021"]
 japanese = "どうだ！？　怖じ気づいたか！<end>"
 korean = "어떠냐!? 겁먹었나!<end>"
@@ -83,6 +91,22 @@ korean = "그 실력을 믿고 부탁 하나 할게.<end>"
 ["1430042"]
 japanese = "その大イカを<line-break>退治してもらいたいの。<end>"
 korean = "그 대왕오징어를 퇴치해 줬으면 해.<end>"
+
+["1430044"]
+japanese = "…そうね。<line-break>勝手なことを言ってるって<line-break>私も思うわ。<end>"
+korean = "…그래. 나도 제멋대로인 말을 하고 있다고 생각해.<end>"
+
+["1430046"]
+japanese = "…そうね。<line-break>勝手なことを言ってるって<line-break>私も思うわ。<end>"
+korean = "…그래. 나도 제멋대로인 말을 하고 있다고 생각해.<end>"
+
+["1430047"]
+japanese = "その大イカを<line-break>退治してもらいたいの。<line-break>あんたにさ。<end>"
+korean = "그 대왕오징어를 퇴치해 줬으면 해. 네가 말이야.<end>"
+
+["1430048"]
+japanese = "…そうね。<line-break>勝手なことを言ってるって<line-break>私も思うわ。<end>"
+korean = "…그래. 나도 제멋대로인 말을 하고 있다고 생각해.<end>"
 
 ["1430050"]
 japanese = "お、おかしら！<line-break>海賊が金を払うってんですかい？<end>"

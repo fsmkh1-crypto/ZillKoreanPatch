@@ -504,6 +504,10 @@ korean = "알고 있어, 선장.<end>"
 japanese = "ど、どうしたんだよ？　船長。<end>"
 korean = "왜, 왜 그래? 선장.<end>"
 
+["370222"]
+japanese = "<value:$28>が乗ってたら、<line-break>なんで、手を出さないんだよ。<end>"
+korean = "<value:$28>이 타고 있었는데 왜 손을 안 댄 거야.<end>"
+
 ["370223"]
 japanese = "大丈夫か？　<value:$28>。<end>"
 korean = "괜찮아? <value:$28>.<end>"

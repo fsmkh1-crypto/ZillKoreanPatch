@@ -132,6 +132,10 @@ korean = "무언가의 장치가 작동한 것 같다.<end>"
 japanese = "ええい！　<line-break><value:$28>、<line-break>ここはまかせたで！<end>"
 korean = "에잇! <value:$28>, 여긴 맡길게!<end>"
 
+["1760101"]
+japanese = "急ぎんさい、<value:$28>！<line-break>ヤツに追いつかれんさんな！<end>"
+korean = "서둘러, <value:$28>! 녀석에게 따라잡히지 마!<end>"
+
 ["1760102"]
 japanese = "何かの装置が作動したようだ。<end>"
 korean = "무언가의 장치가 작동한 것 같다.<end>"

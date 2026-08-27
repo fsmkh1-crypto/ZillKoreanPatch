@@ -484,6 +484,10 @@ korean = "다시 여행을 떠나는 건가요? 그거 좋네요.<end>"
 japanese = "えっ、ルルアンタのこと、<line-break>連れてってくれるの？<end>"
 korean = "뭐, 루루안타를 데려가 줄 거야?<end>"
 
+["1920228"]
+japanese = "また<value:$28>と一緒に<line-break>旅ができるなんて、うれしい！<end>"
+korean = "다시 <value:$28>과 함께 여행할 수 있다니 기뻐!<end>"
+
 ["1920229"]
 japanese = "ルルアンタは、これからも<line-break><value:$28>に、<line-break>ありったけの笑顔をあげるから。<line-break>だから、ずっと一緒にいようね。<end>"
 korean = "루루안타는 앞으로도 <value:$28>에게 있는 힘껏 웃어 줄 거야. 그러니까 계속 함께 있자.<end>"

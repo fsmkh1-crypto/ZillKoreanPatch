@@ -100,6 +100,10 @@ korean = "여자, 여자라고 부르지 마! 누나한테도 <value:$28>라는 
 japanese = "あの…、ちょっといいかな？<end>"
 korean = "저기…, 잠깐 괜찮아?<end>"
 
+["310055"]
+japanese = "僕…兄さんに会うために<line-break>このノーブルに来たんだ。<line-break>金髪で背の高い旅人を知らない？<line-break>一見、<line-break>すごく冷たそうなんだけど…。<end>"
+korean = "난 형을 만나려고 이 노블에 왔어. 금발에 키 큰 여행자를 몰라? 얼핏 보면 굉장히 차가워 보이는데….<end>"
+
 ["310057"]
 japanese = "そう…、ありがとう。<end>"
 korean = "그래…, 고마워.<end>"
@@ -111,6 +115,10 @@ korean = "<value:$28>…. 멋진 이름이네. 그럼 이만.<end>"
 ["310060"]
 japanese = "あ…、<value:$28>。<line-break>や、やあ！<line-break>　<line-break>さっきはいきなり話しかけて、<line-break>しかも、さっさと行っちゃって<line-break>…ゴメンね。<end>"
 korean = "아… <value:$28>. 아, 안녕! 아까 갑자기 말을 걸고선 바로 가 버려서… 미안해.<end>"
+
+["310064"]
+japanese = "僕はね、古代の魔法文明の力を<line-break>借りたいんだ。<line-break>　<line-break>闇の神器は<line-break>古代の失われた魔法文明の技で<line-break>造られた物なんだよ。<end>"
+korean = "난 고대 마법문명의 힘을 빌리고 싶어. 어둠의 신기는 고대에 잃어버린 마법문명의 기술로 만들어진 물건이거든.<end>"
 
 ["310066"]
 japanese = "そうなるといいね<end>"

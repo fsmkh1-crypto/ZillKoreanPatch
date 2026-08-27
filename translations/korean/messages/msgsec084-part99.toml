@@ -84,6 +84,10 @@ korean = "거봐, 카를라 님 말대로잖아.<end>"
 japanese = "ここから出れば、<line-break>ペウダの部屋も目と鼻の先よ。<end>"
 korean = "여기서 나가면 페우다의 방도 바로 코앞이야.<end>"
 
+["840041"]
+japanese = "さぁて、ペウダのエロおやじに<line-break>ご拝謁といきますか！<end>"
+korean = "자, 페우다 변태 아저씨를 알현하러 가 볼까!<end>"
+
 ["840042"]
 japanese = "あ、ちょっと待って。　　　　<line-break>　<line-break>　<line-break>みんなで仲よく乗り込むのって<line-break>頭悪すぎよ。<end>"
 korean = "아, 잠깐만. 다 같이 사이좋게 쳐들어가는 건 너무 바보 같아.<end>"
@@ -91,6 +95,10 @@ korean = "아, 잠깐만. 다 같이 사이좋게 쳐들어가는 건 너무 바
 ["840044"]
 japanese = "じゃあさ、<line-break>あたしと<value:$28>以外は<line-break>ここに残って、見張り役ね。<end>"
 korean = "그럼 나랑 <value:$28> 말고는 여기 남아서 망을 봐 줘.<end>"
+
+["840045"]
+japanese = "さぁて、ペウダのエロおやじに<line-break>ご拝謁といきますか！<end>"
+korean = "자, 페우다 변태 아저씨를 알현하러 가 볼까!<end>"
 
 ["840050"]
 japanese = "お願いです！　許してください！<end>"
@@ -368,6 +376,14 @@ korean = "<value:$28>, 그렇지. 그럼 안녕, <value:$28>.<end>"
 japanese = "<value:$28>…。<line-break>また、あんた？<end>"
 korean = "<value:$28>…. 또 당신이야?<end>"
 
+["840139"]
+japanese = "何度も墓場に来るなんて、<line-break>ほんと、気持ち悪いわね。<end>"
+korean = "몇 번이나 묘지에 오다니, 정말 기분 나쁘네.<end>"
+
+["840140"]
+japanese = "行ってくれない？<line-break>今日は日が悪くてイライラするの。<end>"
+korean = "가 줄래? 오늘은 운이 나빠서 짜증 나거든.<end>"
+
 ["840142"]
 japanese = "アハハ、<value:$28>。<line-break>また来てくれたんだ。<end>"
 korean = "아하하, <value:$28>.또 와 줬구나.<end>"
@@ -479,6 +495,10 @@ korean = "저기, 하지만….<end>"
 ["840193"]
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
+
+["840195"]
+japanese = "こんな格好でもね、<line-break>母親の形見くらい持ってんのよ。<end>"
+korean = "이런 꼴이어도 어머니 유품 정도는 가지고 있어.<end>"
 
 ["840196"]
 japanese = "ああ、いーのいーの。<line-break>宝石なんてなくても<line-break>思い出は残るから。<line-break>でも、あの娘には<line-break>あれが必要だもん。<line-break>…でしょ？<end>"

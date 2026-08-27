@@ -20,6 +20,10 @@ korean = "다크 엘프….<end>"
 japanese = "よう、<value:$28>。<line-break>こんなところに出くわすとは<line-break>運がいいな。<end>"
 korean = "여어, <value:$28>. 이런 데서 마주치다니 운이 좋군.<end>"
 
+["1640010"]
+japanese = "<value:$28>というのか。<line-break>かけ出しの冒険者のようだな。<end>"
+korean = "<value:$28>이라고 하나. 이제 막 시작한 모험자 같군.<end>"
+
 ["1640011"]
 japanese = "だが、<line-break>…いい目をしている。<end>"
 korean = "하지만… 좋은 눈을 하고 있군.<end>"

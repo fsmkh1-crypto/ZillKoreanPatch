@@ -232,6 +232,10 @@ korean = "훌륭한 모험자가 되렴, <value:$28>.<end>"
 japanese = "<value:$28>じゃない、<line-break>じゃ、忙しいから。<end>"
 korean = "<value:$28>잖아. 그럼 난 바쁘니까.<end>"
 
+["990112"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりで<line-break>ここに来ているの？<line-break>今の私たちは敵同士なのよ！？<end>"
+korean = "<value:$28>…. 무슨 생각으로 여기에 온 거야? 지금 우리는 적이라고!?<end>"
+
 ["990118"]
 japanese = "…行きなさい。<line-break>次はないわ。<end>"
 korean = "…가. 다음은 없어.<end>"
@@ -251,6 +255,10 @@ korean = "아, <value:$28>….<end>"
 ["990126"]
 japanese = "…どうして、<line-break>どうしてあなたがノーブル伯なの…。<end>"
 korean = "…왜, 왜 당신이 노블 백작인 거야….<end>"
+
+["990127"]
+japanese = "ノーブル伯、<value:$28>！<line-break>こんな所で何をしている！　<line-break>　<line-break>早く出ていきなさい。<line-break>あなたが来ていい所では<line-break>ないはずよ。<end>"
+korean = "노블 백작 <value:$28>! 이런 곳에서 뭘 하는 거야! 빨리 나가. 네가 와도 되는 곳이 아니잖아.<end>"
 
 ["990131"]
 japanese = "…どうして、<line-break>どうしてあなたがゼネテスの配下に…。<end>"

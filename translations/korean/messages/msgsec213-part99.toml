@@ -24,6 +24,10 @@ korean = "…당신은?<end>"
 japanese = "わしはイオンズ。<line-break>縁あって<value:$28>と<line-break>知り合った神官じゃ。<end>"
 korean = "나는 이온즈. 인연이 닿아 <value:$28>와 알게 된 신관일세.<end>"
 
+["2130008"]
+japanese = "どうじゃ、<value:$28>。<line-break>シェーヌの森へ行ってみんか？<end>"
+korean = "어때, <value:$28>. 셰느의 숲에 가 보지 않겠나?<end>"
+
 ["2130010"]
 japanese = "むしろ、そうでない場合が<line-break>心配なんじゃ…。<end>"
 korean = "오히려 그렇지 않은 경우가 걱정인 게야….<end>"

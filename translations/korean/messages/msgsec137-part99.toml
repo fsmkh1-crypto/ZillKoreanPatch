@@ -160,6 +160,10 @@ korean = "그럼 잘 가, <value:$28>. 너도 모험 열심히 해.<end>"
 japanese = "…よし、<value:$28>。<line-break>今日の稽古は、<line-break>この辺にしておこうか。<end>"
 korean = "…좋아, <value:$28>. 오늘 수련은 이쯤 해 둘까.<end>"
 
+["1370155"]
+japanese = "落胆することはない。<line-break>実戦ではなく、私との訓練だけで<line-break>ここまで来たのだ。<line-break>お前の素質はたいしたものだと<line-break>思っているよ。<end>"
+korean = "낙담할 건 없다. 실전도 아닌 나와의 훈련만으로 여기까지 온 거다. 네 소질은 대단하다고 생각해.<end>"
+
 ["1370157"]
 japanese = "上手な戦い方は？<end>"
 korean = "잘 싸우는 법은?<end>"
@@ -355,6 +359,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1370230"]
 japanese = "これからは、今日のように、<line-break>戦いに出る機会が増えるだろう。<line-break> <line-break>自身の鍛練もそうだが、<line-break>装備も強くしておかねばならない。<end>"
 korean = "앞으로는 오늘처럼 전투에 나갈 기회가 늘겠지. 자기 수련도 중요하지만 장비도 강화해 둬야 한다.<end>"
+
+["1370233"]
+japanese = "ねえ、いったい最近どうなってるの？<line-break><line-break><line-break>ここは神器を守る村。<line-break>結界に守られていて、<line-break>魔物なんて近寄れないはずよ。<end>"
+korean = "있지, 요즘 대체 어떻게 된 거야? 여긴 신기를 지키는 마을이야. 결계로 보호돼서 마물은 가까이 오지도 못할 텐데.<end>"
 
 ["1370234"]
 japanese = "なあなあ、魔物と戦ったのか？<line-break>ケガはなかったか？<end>"
@@ -559,6 +567,10 @@ korean = "우리한테도 좋은 벌이가 되니까.<end>"
 ["1370309"]
 japanese = "ははは！<end>"
 korean = "하하하!<end>"
+
+["1370311"]
+japanese = "精霊属性ってのはだな、<line-break>火や水といった精霊の力を<line-break>武器や防具に宿すことさ。<line-break>精霊の属性については<line-break>もう知ってるのかい？<end>"
+korean = "정령 속성이란 불이나 물 같은 정령의 힘을 무기나 방어구에 깃들게 하는 거야. 정령 속성에 대해선 이미 알고 있나?<end>"
 
 ["1370312"]
 japanese = "知らない<end>"

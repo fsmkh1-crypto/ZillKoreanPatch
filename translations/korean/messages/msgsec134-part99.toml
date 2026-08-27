@@ -52,6 +52,10 @@ korean = "<value:$28> 님이시군요. 말씀은 들었습니다. 그럼 가시�
 japanese = "あ、<value:$28>様！<line-break>お送りします。<line-break>待ってください～。<end>"
 korean = "아, <value:$28> 님! 모셔다 드릴게요. 기다려 주세요~.<end>"
 
+["1340028"]
+japanese = "あなたは…<line-break>無限のソウルを持つ者ですね…。<line-break>　<line-break>お願いです。<line-break>どうぞお助けください。<line-break>あなたの力が必要なのです。<end>"
+korean = "당신은… 무한의 소울을 지닌 분이군요…. 부탁드립니다. 제발 도와주세요. 당신의 힘이 필요합니다.<end>"
+
 ["1340030"]
 japanese = "力を貸す<end>"
 korean = "힘을 빌려준다<end>"
@@ -1156,6 +1160,10 @@ korean = "…기다려.<end>"
 japanese = "…俺みたいな奴を<line-break>なぜ、助ける？<end>"
 korean = "…나 같은 놈을 왜 돕는 거지?<end>"
 
+["1340546"]
+japanese = "なぜだ？　なぜ？<line-break>打算も見返りもなしにやさしくなれる？<line-break>どうして、…俺みたいな…奴に？　<line-break>あ、あんたもだ。<line-break>姫さん…。<end>"
+korean = "왜지? 왜? 계산도 보답도 없이 친절할 수 있어? 왜… 나 같은 녀석에게? 너도 그래. 공주님….<end>"
+
 ["1340548"]
 japanese = "いいえ、そんなことはありません！<end>"
 korean = "아니요, 그렇지 않습니다!<end>"
@@ -1427,6 +1435,10 @@ korean = "<value:$28>님!<end>"
 ["1340679"]
 japanese = "…そうですか。<line-break>　<line-break>　<line-break>あ、おかげで復興の方も<line-break>軌道に乗ってまいりました。<line-break>人の笑顔はいいものですね。<end>"
 korean = "…그렇습니까. 아, 덕분에 부흥도 궤도에 오르고 있습니다. 사람들의 웃는 얼굴은 좋군요.<end>"
+
+["1340681"]
+japanese = "人の死に慣れてしまったのでしょうか。<line-break>幼いときから一緒にいた方の死なのに<line-break>感慨がありません…。<line-break>でも、安らかなお顔でしたね。<end>"
+korean = "사람의 죽음에 익숙해진 걸까요. 어릴 때부터 함께한 분의 죽음인데도 아무 느낌이 없어요…. 그래도 편안한 얼굴이셨네요.<end>"
 
 ["1340684"]
 japanese = "<value:$28>様…<line-break>少しだけ、一人にさせてください…。<end>"
