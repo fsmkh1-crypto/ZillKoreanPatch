@@ -1,0 +1,20 @@
+name: Korean QA focused inspection
+
+on:
+  push:
+    paths:
+      - 'tools/korean/qa-inspect-next.py'
+      - '.github/workflows/korean-qa-inspect-next.yml'
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: translation/section001-batch2
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+      - name: Inspect current Korean QA candidates
+        run: python3 tools/korean/qa-inspect-next.py
