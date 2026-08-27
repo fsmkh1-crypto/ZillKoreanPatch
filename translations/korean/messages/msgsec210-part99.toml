@@ -12,6 +12,10 @@ korean = "뭐, 그 엘프가 나를 부른다고?<end>"
 japanese = "ふーん、あの娘、<line-break>フィアっていうのか…。<end>"
 korean = "흐음, 그 애 이름이 피아인가….<end>"
 
+["2100005"]
+japanese = "いやいや、違うよ。<line-break>会いたくないわけじゃないんだ。<end>"
+korean = "아니야, 아니야. 만나기 싫다는 뜻은 아니야.<end>"
+
 ["2100007"]
 japanese = "なあ、頼む。<line-break>できれば<value:$28>も<line-break>一緒に来てくれないか？<end>"
 korean = "부탁이야. 가능하면 <value:$28>도 같이 와 주지 않을래?<end>"
@@ -23,6 +27,10 @@ korean = "같이 간다<end>"
 ["2100009"]
 japanese = "悪いけど…<end>"
 korean = "미안하지만…<end>"
+
+["2100010"]
+japanese = "ありがとよ。助かるぜ。<line-break>じゃあ、さっそく行こうか。<end>"
+korean = "고맙다. 살았어. 그럼 바로 가 볼까.<end>"
 
 ["2100011"]
 japanese = "よかった…。<line-break>来てくださったんですね。<line-break><line-break>ありがとうございます。<line-break>ペンダントも拾っていただいて。<end>"

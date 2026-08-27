@@ -52,6 +52,10 @@ korean = "누나, 고마워.<end>"
 japanese = "ありがとう。<end>"
 korean = "고마워.<end>"
 
+["2220021"]
+japanese = "あの子、照れちまって、<line-break>お礼言うの忘れたんだな…。<end>"
+korean = "그 애, 부끄러워서 감사 인사를 잊었나 보네….<end>"
+
 ["2220023"]
 japanese = "ほら。<value:$28>もヴァンも<line-break>ボーッと突っ立っていないで<line-break>何かしてよ。<end>"
 korean = "자. <value:$28>도 반도 멍하니 서 있지 말고 뭐라도 해.<end>"

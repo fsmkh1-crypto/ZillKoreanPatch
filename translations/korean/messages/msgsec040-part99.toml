@@ -64,6 +64,10 @@ korean = "이걸 용자라 부르지 않으면 누굴 용자라 부르겠나?<en
 japanese = "…だが、ムダだ。<line-break>うぬとても運命には逆らえぬ。<end>"
 korean = "…하지만 소용없다. 너 역시 운명에는 거스를 수 없어.<end>"
 
+["400027"]
+japanese = "我らが主、破壊神ウルグ様は<line-break>必ずや復活される…。<end>"
+korean = "우리의 주인, 파괴신 울그 님은 반드시 부활하신다….<end>"
+
 ["400028"]
 japanese = "ゆくぞ、<value:$28>。<end>"
 korean = "간다, <value:$28>.<end>"
@@ -244,6 +248,10 @@ korean = "네. 물론입니다.<end>"
 japanese = "なぜそれほど<line-break>闇の神器を欲しがるのだ？<end>"
 korean = "왜 그렇게까지 어둠의 신기를 원하는 거지?<end>"
 
+["400101"]
+japanese = "素直に渡さぬのならば、<line-break>力ずくで奪うことになる。<end>"
+korean = "순순히 넘기지 않겠다면 힘으로 빼앗겠다.<end>"
+
 ["400104"]
 japanese = "う…！<line-break>か、体の自由が…。<end>"
 korean = "으…! 모, 몸이 말을 안 들어….<end>"
@@ -312,6 +320,10 @@ korean = "때와 경우에 따라 달라<end>"
 japanese = "それを聞いて安心したよ。<end>"
 korean = "그 말을 들으니 안심이군.<end>"
 
+["400137"]
+japanese = "ごめんね、<value:$28>。<line-break>残念だけど、今は渡せない。<line-break>　<line-break>何かわかったら<line-break>すぐに君に知らせるから、<line-break>待っててほしい。<end>"
+korean = "미안해, <value:$28>. 아쉽지만 지금은 줄 수 없어. 뭔가 알게 되면 바로 알려 줄 테니 기다려 줘.<end>"
+
 ["400141"]
 japanese = "ネメア様のおっしゃったとおりだな。<end>"
 korean = "네메아 님 말씀대로군.<end>"
@@ -319,6 +331,10 @@ korean = "네메아 님 말씀대로군.<end>"
 ["400142"]
 japanese = "この若者は勇敢にも<line-break>ネメア様に挑戦する気らしいぞ。<end>"
 korean = "이 젊은이는 용감하게도 네메아 님께 도전할 생각인 모양이다.<end>"
+
+["400143"]
+japanese = "お前に先を越されるとは、　　　<line-break>うかつだったな。<end>"
+korean = "네게 선수를 빼앗기다니, 방심했군.<end>"
 
 ["400145"]
 japanese = "そう功をあせるな、オイフェよ。<end>"

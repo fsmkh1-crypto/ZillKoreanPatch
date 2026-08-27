@@ -40,6 +40,10 @@ korean = "흐~응.<end>"
 japanese = "どうした？<end>"
 korean = "무슨 일이야?<end>"
 
+["2180012"]
+japanese = "あ、いえ、ごめんなさい。<line-break>ちょっと意外だったから。<end>"
+korean = "아, 아니에요. 죄송해요. 조금 의외여서요.<end>"
+
 ["2180016"]
 japanese = "迷子イベント1用終端<end>"
 korean = "미아 이벤트 1용 종료<end>"

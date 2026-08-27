@@ -48,6 +48,10 @@ korean = "제네테스와 함께 싸운다<end>"
 japanese = "悪いが、一緒に戦えない<end>"
 korean = "미안하지만 함께 싸울 수 없어.<end>"
 
+["1800026"]
+japanese = "ま、戦場で会ったら、<line-break>適当に手加減してくれや。<end>"
+korean = "뭐, 전장에서 만나면 적당히 봐줘.<end>"
+
 ["1800029"]
 japanese = "ここに来てくれたってことは<line-break>ついてきてくれるんだな。<line-break><value:$28>。<end>"
 korean = "여기까지 와 줬다는 건 따라와 주겠다는 거지, <value:$28>.<end>"
@@ -143,6 +147,10 @@ korean = "뭐, 됐어. 그럼 이만.<end>"
 ["1800085"]
 japanese = "<value:$28>、<line-break>俺と一緒に出撃してくれ。<end>"
 korean = "<value:$28>, 나와 함께 출격해 줘.<end>"
+
+["1800086"]
+japanese = "そんじゃ、行こうぜ。<line-break>青い死神のお相手をしに！<end>"
+korean = "그럼 가자. 푸른 사신을 상대하러!<end>"
 
 ["1800092"]
 japanese = "ハァイ、ちょうどいいとこに来たわ、<line-break><value:$28>。<line-break>いよいよ、ロストールを攻略するわよ。<end>"

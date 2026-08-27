@@ -32,6 +32,10 @@ korean = "얻어먹을까.<end>"
 japanese = "ありがとうございます。<line-break>今すぐお持ちしますね！<end>"
 korean = "감사합니다. 지금 바로 가져올게요!<end>"
 
+["1980012"]
+japanese = "お待たせしました。<line-break>どうぞ、召し上がってください。<end>"
+korean = "기다리게 했습니다. 자, 드세요.<end>"
+
 ["1980013"]
 japanese = "ど、どうしたんです？<line-break><value:$28>さん…。<line-break>まさか、お口に合いませんか？<end>"
 korean = "무, 무슨 일이세요? <value:$28>님…. 혹시 입맛에 안 맞으셨나요?<end>"
@@ -95,6 +99,10 @@ korean = "<value:$28>에게 들었는데, 무슨 시시한 이야기를 안다�
 ["1980047"]
 japanese = "は、はい…。<end>"
 korean = "네, 네….<end>"
+
+["1980049"]
+japanese = "すみません…。<line-break>それが私にもよくわからないんです。<end>"
+korean = "죄송해요…. 그건 저도 잘 모르겠어요.<end>"
 
 ["1980051"]
 japanese = "その伝説のフライパンってやつ？<end>"
@@ -163,6 +171,10 @@ korean = "어? 저건…. 뭔가요?<end>"
 ["1980090"]
 japanese = "ええっ！<end>"
 korean = "에엣!<end>"
+
+["1980092"]
+japanese = "あの…。もしかして、<line-break>どこにあるのか、ご存じでは？<end>"
+korean = "저기…. 혹시 어디 있는지 알고 계신가요?<end>"
 
 ["1980098"]
 japanese = "えっ？　賢者様の<line-break>心当たりがあるんですか？<end>"
@@ -399,6 +411,10 @@ korean = "그, 그런데 잘 생각해 보면 이상한 이야기죠? 예전부�
 ["1980232"]
 japanese = "そ、そうですか…。<end>"
 korean = "그, 그런가요….<end>"
+
+["1980234"]
+japanese = "だ、大丈夫です！<line-break>皆さんの足手まといにならないよう<line-break>なんとかがんばりますから…。<line-break>さ、行きましょう、<line-break><value:$28>さん。<end>"
+korean = "괜, 괜찮아요! 여러분께 짐이 되지 않도록 어떻게든 힘낼게요…. 자, 가요, <value:$28>님.<end>"
 
 ["1980235"]
 japanese = "変なことを言うんだな<end>"

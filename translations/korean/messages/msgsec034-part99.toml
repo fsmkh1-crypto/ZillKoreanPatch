@@ -24,6 +24,10 @@ korean = "아!! 저거군요!!<end>"
 japanese = "…ん…<end>"
 korean = "…응…<end>"
 
+["340010"]
+japanese = "私は炎竜山の炎が<line-break>復活したのかと思いましたっ！！<end>"
+korean = "저는 염룡산의 불길이 되살아난 줄 알았습니다!!<end>"
+
 ["340011"]
 japanese = "うーむ…。<end>"
 korean = "으음….<end>"
@@ -119,6 +123,10 @@ korean = "<value:$28>, 괜찮아!?<end>"
 ["340046"]
 japanese = "くっ、こんなときに。<end>"
 korean = "큭, 이럴 때에.<end>"
+
+["340047"]
+japanese = "伝説の剣、緋炎の宝剣よ！<line-break>お前の力を見せてくれ！<end>"
+korean = "전설의 검, 비염의 보검이여! 네 힘을 보여 줘!<end>"
 
 ["340048"]
 japanese = "なに！？　緋炎の宝剣がっ！？<end>"

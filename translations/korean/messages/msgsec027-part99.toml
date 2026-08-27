@@ -4,6 +4,10 @@
 japanese = "ちゃんと用意はできてる？<line-break>しっかりね！<end>"
 korean = "준비는 제대로 됐어? 정신 바짝 차려!<end>"
 
+["270001"]
+japanese = "落ち着いてな。<line-break>まずはしっかり準備をするのじゃ。<end>"
+korean = "침착하게. 우선 제대로 준비부터 하게.<end>"
+
 ["270002"]
 japanese = "優勝したらすごいな。<line-break>ひょっとして賞金は山分けかも。<end>"
 korean = "우승하면 대단하겠네. 혹시 상금은 나눠 가질지도 몰라.<end>"
@@ -20,9 +24,17 @@ korean = "대단하네, <value:$28>. 나도 이번엔 열심히 해야겠어.<en
 japanese = "私のために優勝してね。<line-break>私…、待ってる。<line-break>　<line-break>なーんてね。<line-break>ちっとはどきどきした？<end>"
 korean = "나를 위해 우승해 줘. 나… 기다릴게. …농담이야. 조금은 두근거렸어?<end>"
 
+["270008"]
+japanese = "ねえちゃん、大丈夫か？<line-break>ちゃんと体力回復してる？<end>"
+korean = "누나, 괜찮아? 체력은 제대로 회복했어?<end>"
+
 ["270010"]
 japanese = "勝敗は時の運、ってな。<line-break>最後まで勝負を捨てるなよ。<end>"
 korean = "승패는 그때그때 운에 달렸지. 끝까지 승부를 포기하지 마.<end>"
+
+["270011"]
+japanese = "暇つぶしに見にきただけだ。<line-break>期待などしていない。<end>"
+korean = "심심해서 보러 왔을 뿐이다. 기대는 하지 않는다.<end>"
 
 ["270012"]
 japanese = "準備は終わっとるのか？<line-break>油断せずにな。<end>"
@@ -159,6 +171,10 @@ korean = "영광을 짓밟는 자의 칭호를 얻었다.<end>"
 ["270078"]
 japanese = "<line-break>元デュエルマスターの称号を得た。<line-break>　<end>"
 korean = "전 듀얼 마스터의 칭호를 얻었다.<end>"
+
+["270079"]
+japanese = "また挑戦してね。<line-break>返り咲きを、楽しみにしてるわ。<end>"
+korean = "또 도전해 줘. 다시 정상에 오르길 기대할게.<end>"
 
 ["270080"]
 japanese = "すごいわ！　さすがね！　<line-break>また、あなたがチャンプよ！<end>"

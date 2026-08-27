@@ -100,6 +100,10 @@ korean = "아저씨는 악의 근원이지!<end>"
 japanese = "違う！　その逆だ！　　　　　　　　<end>"
 korean = "아니야! 그 반대다!<end>"
 
+["330047"]
+japanese = "わぁ～、<line-break>変なおじさん、<line-break>目がコワイよ～。<end>"
+korean = "우와~ 이상한 아저씨, 눈이 무서워~.<end>"
+
 ["330048"]
 japanese = "ぶひゃっ！！<end>"
 korean = "부햑!!<end>"
@@ -135,6 +139,10 @@ korean = "<value:$28>의 아버지야. 그렇지, <value:$28>.<end>"
 ["330057"]
 japanese = "なるほど、ね。<end>"
 korean = "그렇군.<end>"
+
+["330058"]
+japanese = "送ってくぜ。<line-break>あれであきらめたとは思えんからな。<end>"
+korean = "바래다주지. 그걸로 포기했을 거라 생각되진 않으니까.<end>"
 
 ["330059"]
 japanese = "おや、おかえり、<line-break><value:$28>。<line-break>ご苦労様だったね。<end>"
@@ -299,6 +307,10 @@ korean = "바보 자식!<end>"
 ["330128"]
 japanese = "…わかった。<end>"
 korean = "…알았어.<end>"
+
+["330129"]
+japanese = "お前さんがそこまで言うなら<line-break>ロストールへ急ごう。<end>"
+korean = "자네가 그렇게까지 말한다면 로스토올로 서두르자.<end>"
 
 ["330131"]
 japanese = "<value:$28>、<line-break>…頼みが…ある。　　　　　<line-break>例の密書を…<line-break>…あの密書を、<line-break>王妃…エリス様に…<line-break>…届けてくれ。<end>"

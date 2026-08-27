@@ -232,6 +232,10 @@ korean = "그 몸…. 당신, 대체…?<end>"
 japanese = "お願い。助けて…。　　　　　<end>"
 korean = "부탁이야. 도와줘….<end>"
 
+["370092"]
+japanese = "はぁ…はぁ…、かあさまに…、<line-break>私、かあさまに…。<end>"
+korean = "하아… 하아… 어머니께… 나, 어머니께….<end>"
+
 ["370093"]
 japanese = "人間じゃ、ないのね。<end>"
 korean = "인간이 아니구나.<end>"
@@ -336,6 +340,10 @@ korean = "그게 도리라는 거잖아?<end>"
 japanese = "<value:$28>！<line-break>メイアが！　メイアが！<line-break>突然苦しみ出して、<line-break>顔つきが変わって、<line-break>窓から…出てって…！<end>"
 korean = "<value:$28>! 메이아가! 메이아가! 갑자기 괴로워하더니, 얼굴이 변하고, 창문으로… 나가 버렸어…!<end>"
 
+["370134"]
+japanese = "朝から客の多い日だね。<line-break>入っといで。開いてるよ。<end>"
+korean = "아침부터 손님이 많네. 들어와. 열려 있어.<end>"
+
 ["370141"]
 japanese = "それから、その娘はわけありだから、<line-break>目を離すなって。<end>"
 korean = "그리고 그 아이는 사정이 있으니 눈을 떼지 말라고 했어.<end>"
@@ -355,6 +363,10 @@ korean = "자자, 비켜라!! 돈파돈 님이 나가신다.<end>"
 ["370155"]
 japanese = "なんだ！　お前ら！　　　　<end>"
 korean = "뭐야! 너희들!<end>"
+
+["370157"]
+japanese = "こんな奴らの言うことを　　<line-break>聞いてどうするんだ！<end>"
+korean = "이런 녀석들 말을 들어서 어쩌자는 거야!<end>"
 
 ["370158"]
 japanese = "なんじゃ？<line-break>この存在自体が無礼な下郎は！<end>"
@@ -496,6 +508,10 @@ korean = "무엇보다도 <value:$28>가 곁에 있어 준 덕분이야.<end>"
 japanese = "…フフ、去年の俺じゃ　　　　<line-break>言えないセリフだな。<end>"
 korean = "…후후, 작년의 나라면 못 했을 말이군.<end>"
 
+["370228"]
+japanese = "父さんと母さんが、<line-break>エア様の怒りにふれて…　　　<end>"
+korean = "아버지와 어머니가 에아 님의 노여움을 사서….<end>"
+
 ["370230"]
 japanese = "…わかってるさ。<end>"
 korean = "…알고 있어.<end>"
@@ -531,6 +547,10 @@ korean = "말리지 마!<end>"
 ["370244"]
 japanese = "誰だ？<end>"
 korean = "누구냐?<end>"
+
+["370245"]
+japanese = "何を持っている？<line-break>まさか、竜の座から盗んだのか？<end>"
+korean = "뭘 가지고 있지? 설마 용의 자리에서 훔친 건가?<end>"
 
 ["370246"]
 japanese = "今すぐ返すんだ。　　　　　　　　　<end>"
@@ -591,6 +611,10 @@ korean = "<value:$28>! 메이아가! 메이아가!<end>"
 ["370266"]
 japanese = "男があわてるんじゃないよ。<line-break>落ち着きな。<end>"
 korean = "남자가 당황해서 쓰나. 진정해.<end>"
+
+["370268"]
+japanese = "やれやれ、窓からとは、<line-break>せっかちなお客さんだね。<end>"
+korean = "이런, 창문으로 들어오다니 성급한 손님이군.<end>"
 
 ["370270"]
 japanese = "ウソだ！　俺だ！　　　　　　　　<end>"

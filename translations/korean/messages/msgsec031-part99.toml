@@ -24,6 +24,10 @@ korean = "윽!!<end>"
 japanese = "おケガはございませんか？<end>"
 korean = "다치신 곳은 없습니까?<end>"
 
+["310016"]
+japanese = "いえいえ、礼にはおよびませんよ。　<line-break>　<line-break>　<end>"
+korean = "아뇨 아뇨, 감사하실 것 없습니다.<end>"
+
 ["310017"]
 japanese = "<value:$28>さん…、<line-break>悪代官ボルボラに立ち向かう者を率いる<line-break>勇敢な少女。<end>"
 korean = "<value:$28> 씨…, 악대관 볼보라에 맞서는 사람들을 이끄는 용감한 소녀.<end>"
@@ -43,6 +47,10 @@ korean = "누나아!<end>"
 ["310026"]
 japanese = "あ、そうだった！<line-break>仲間にノーブルの森で集まるよう<line-break>伝えてきたよ。<line-break>それから、頼まれてた元気の薬。<line-break>渡しとくぜ、姉ちゃん！<end>"
 korean = "아, 맞다! 동료들에게 노블의 숲에 모이라고 전해 뒀어. 그리고 부탁했던 원기의 약. 줄게, 누나!<end>"
+
+["310028"]
+japanese = "ああ、わしの畑がああ！<line-break>あああ、誰か！　誰かあ！<end>"
+korean = "아아, 내 밭이! 아아아, 누가! 누가 좀!<end>"
 
 ["310029"]
 japanese = "また、ボルボラの手下だ！<end>"
@@ -379,6 +387,10 @@ korean = "누… 누나, 괜찮아?<end>"
 ["310208"]
 japanese = "どのくらい<line-break>気を失っていたんだろう…。<end>"
 korean = "얼마나 정신을 잃고 있었던 걸까….<end>"
+
+["310209"]
+japanese = "東の空が白んでいる…てことは、<line-break>もう、夜明けか。<end>"
+korean = "동쪽 하늘이 밝아 오고 있어… 그렇다면 벌써 새벽인가.<end>"
 
 ["310210"]
 japanese = "え…！？<end>"
