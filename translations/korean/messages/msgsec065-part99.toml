@@ -52,6 +52,10 @@ korean = "후후후…. 그렇게 이상한가요? 한 나라의 공주가 처�
 japanese = "そうかもしれません。<line-break>…でも、あなたが悪い人には<line-break>とても見えないから…。<line-break>では、お名前だけでも<line-break>うかがいましょうか、<line-break>不法侵入者さん？<end>"
 korean = "그럴지도 모르겠네요. …하지만 당신이 나쁜 사람으로는 도저히 보이지 않아서…. 그럼 이름이라도 들어 볼까요, 불법 침입자님?<end>"
 
+["650013"]
+japanese = "<if><value:$29><equal>%0<value:$28>…様？<line-break>レムオン様の弟君で、先ごろ<line-break>ノーブル伯になられた、あの…？<end><if><value:$29><equal>%1<value:$28>…様？<line-break>レムオン様の妹君で、先ごろ<line-break>ノーブル伯になられた、あの…？<end>"
+korean = "<if><value:$29><equal>%0<value:$28>… 님? 레몬 님의 남동생이시고 얼마 전 노블 백작이 되신 그분…?<end><if><value:$29><equal>%1<value:$28>… 님? 레몬 님의 여동생이시고 얼마 전 노블 백작이 되신 그분…?<end>"
+
 ["650015"]
 japanese = "ふふ、確かに王女に会いたいと<line-break>言っても、面識のない門番の方は<line-break>連れてきてくれませんよね。<end>"
 korean = "후후, 확실히 왕녀님을 만나고 싶다고 해도 안면도 없는 문지기가 데려다주진 않겠죠.<end>"

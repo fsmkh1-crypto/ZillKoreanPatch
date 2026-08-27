@@ -40,6 +40,10 @@ korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_08 9 이하)<end><if><v
 japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_09 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_09 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_09 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_09 50以上）<end>"
 korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_09 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_09 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_09 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_09 50 이상)<end>"
 
+["1280038"]
+japanese = "ルーマスの葉を使った、高級なお茶さ。<line-break>貴族たちが、噂話をしながら飲むのはこれだぜ。<line-break>そうそう、噂話と言えば…<end>"
+korean = "루마스 잎을 쓴 고급 차야. 귀족들이 소문을 나누며 마시는 게 바로 이거지. 그래, 소문이라고 하니….<end>"
+
 ["1280041"]
 japanese = "<if><value:$2A><less-equal>%25（未：RUMORTEA_02 25以下）<end><if><value:$2A><less-equal>%50（未：RUMORTEA_02 50以下）<end><if><value:$2A><less-equal>%75（未：RUMORTEA_02 75以下）<end><if><value:$2A><greater-equal>%76（未：RUMORTEA_02 76以上）<end>"
 korean = "<if><value:$2A><less-equal>%25(미완: RUMORTEA_02 25 이하)<end><if><value:$2A><less-equal>%50(미완: RUMORTEA_02 50 이하)<end><if><value:$2A><less-equal>%75(미완: RUMORTEA_02 75 이하)<end><if><value:$2A><greater-equal>%76(미완: RUMORTEA_02 76 이상)<end>"

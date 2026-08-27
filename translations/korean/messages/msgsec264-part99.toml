@@ -40,6 +40,10 @@ korean = "고마워, 칭찬해 줘서. 나 꽤 열심히 일하지? 보기보다
 japanese = "リベルダムの宿屋で<line-break>働いていたこともあったのよ。<line-break>　<line-break>もしかすると、その時に<line-break><value:$28>とも<line-break>会っていたかもね。ふふっ。<end>"
 korean = "리벨덤의 여관에서 일했던 적도 있어. 어쩌면 그때 <value:$28>과 만났을지도 모르겠네. 후훗.<end>"
 
+["2640013"]
+japanese = "えっ？　あたしの生まれ？<line-break>　<line-break>　<line-break>…ロストールよ。<line-break>家はそこの下級貴族だったわ。<line-break>　<line-break>でも、故郷にはいい思い出が<line-break>あまりないから話したくないの。<line-break>それ以上は訊かないで…。<end>"
+korean = "응? 내 출신? …로스토올이야. 집안은 그곳의 하급 귀족이었어. 하지만 고향엔 좋은 추억이 별로 없어서 말하고 싶지 않아. 그 이상은 묻지 마….<end>"
+
 ["2640015"]
 japanese = "えっ？　あたしの捜している人が<line-break>どんな人かって？<end>"
 korean = "응? 내가 찾는 사람이 어떤 사람이냐고?<end>"
@@ -100,6 +104,10 @@ korean = "그래. 내가 풀이 죽어 있으면 정말 답이 없겠지. 고마
 japanese = "こっちに来ない？　いい星空よ。<end>"
 korean = "이쪽으로 올래? 별이 정말 예뻐.<end>"
 
+["2640040"]
+japanese = "世界がどんなに変わっても、<line-break>この星空は変わらない…。<line-break>　<line-break>人の心もこの星空のように<line-break>永遠に変わらなければいいのに…。<line-break>　<line-break>でも、そう望んでしまうことこそが<line-break>人の心の弱さなのかもね…。<end>"
+korean = "세상이 아무리 변해도 이 별하늘은 변하지 않아…. 사람의 마음도 이 별하늘처럼 영원히 변하지 않으면 좋을 텐데…. 하지만 그렇게 바라 버리는 것 자체가 인간 마음의 약함일지도 모르겠네….<end>"
+
 ["2640042"]
 japanese = "えっ、ジリオンのことを？<end>"
 korean = "어, 질리온 말이야?<end>"
@@ -115,6 +123,10 @@ korean = "…아무것도 아니야.그저 질리온이 무사하기를기도하
 ["2640049"]
 japanese = "こっちに来ない？　いい星空よ。<end>"
 korean = "이쪽으로 올래? 별이 정말 예뻐.<end>"
+
+["2640050"]
+japanese = "世界がどんなに変わっても、<line-break>この星空は変わらない…。<line-break>　<line-break>人の心もこの星空のように<line-break>永遠に変わらなければいいのに…。<line-break>　<line-break>でも、そう望んでしまうことこそが<line-break>人の心の弱さなのかもね…。<end>"
+korean = "세상이 아무리 변해도 이 별하늘은 변하지 않아…. 사람의 마음도 이 별하늘처럼 영원히 변하지 않으면 좋을 텐데…. 하지만 그렇게 바라 버리는 것 자체가 인간 마음의 약함일지도 모르겠네….<end>"
 
 ["2640051"]
 japanese = "<value:$28>…。<line-break>最近、あたし、思うようになったの。<line-break>　<line-break>これ以上、多くを望んでしまう前に、<line-break>今、このまま消えることになったら<line-break>それが一番幸せなのかもしれないって。<end>"

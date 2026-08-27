@@ -88,9 +88,17 @@ korean = "그런데 너, 이 도시에서 보관하던 성배가 도둑맞았다
 japanese = "よし。んじゃ、頼んだ。<line-break>ま、お前ひとりで十分だろうが…、　　　　<line-break>　<line-break>念のため、お前の幼ななじみも<line-break>あとから行かせる。<line-break>仲よくやるんだぞ。<end>"
 korean = "좋아. 그럼 부탁한다. 뭐, 너 혼자면 충분하겠지만… 혹시 모르니 네 소꿉친구도 뒤따라 보내지. 사이좋게 해.<end>"
 
+["300025"]
+japanese = "昨日、アイリーンに助けられたこと、　　　<line-break>まーだ、気にしてんのか？<line-break>だったら、ちょうどいいじゃねえか。<line-break>今日はお前がアイリーンを<line-break>助けてやんな。<line-break>それで、貸し借りはなしだ。<end>"
+korean = "어제 아이린에게 도움받은 거, 아직도 신경 쓰여? 그럼 딱 좋잖아. 오늘은 네가 아이린을 도와줘. 그걸로 빚은 없는 거다.<end>"
+
 ["300026"]
 japanese = "…いつも言ってるはずだぞ。　　　　　　　<line-break>一番大切なのは仲間だってな。<line-break>　<end>"
 korean = "…늘 말했을 텐데.　　　　　　　가장 중요한 건 동료라고.　<end>"
+
+["300027"]
+japanese = "ほら、わかったら行ってこい。<line-break>念のため、薬を渡しておこう。<line-break>ケガをしたら、すぐに使うんだ。　　　　　<end>"
+korean = "자, 알았으면 다녀와. 혹시 모르니 약을 줄게. 다치면 바로 써.<end>"
 
 ["300028"]
 japanese = "<value:$28>、頼んだぜ。<line-break>　　　　　　　　　　　　　　　　　　　　<line-break>　<end>"
