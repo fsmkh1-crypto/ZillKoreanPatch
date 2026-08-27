@@ -244,6 +244,10 @@ korean = "…왜, 왜 당신이 노블 백작인 거야….<end>"
 japanese = "ロストールの将、<value:$28>！<line-break>こんな所で何をしている！<line-break>早く出ていきなさい。<line-break>あなたはこんな所に来ていい<line-break>人間ではないはずよ。<end>"
 korean = "로스토올의 장군, <value:$28>! 이런 곳에서 뭘 하고 있는 거야! 빨리 나가. 당신은 이런 곳에 와도 될 사람이 아니잖아.<end>"
 
+["990135"]
+japanese = "<value:$28>、どうしたの？<line-break>私に用？　それともカルラ様？<end>"
+korean = "<value:$28>, 왜 그래? 나한테 볼일이야? 아니면 칼라 님?<end>"
+
 ["990141"]
 japanese = "<value:$28>じゃない、<line-break>じゃ、忙しいから。<end>"
 korean = "<value:$28>잖아. 그럼 난 바쁘니까.<end>"
