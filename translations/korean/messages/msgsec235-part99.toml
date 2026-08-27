@@ -36,6 +36,14 @@ korean = "종자야<end>"
 japanese = "大事な人だよ<end>"
 korean = "소중한 사람이야<end>"
 
+["2350011"]
+japanese = "そ、そう。僕の従者だよ。<line-break>確か冒険者ギルドで雇ったんだ。<line-break>よく働いてくれている。<end>"
+korean = "그, 그래. 내 수행원이야. 분명 모험가 길드에서 고용했어. 아주 열심히 일해 주고 있지.<end>"
+
+["2350012"]
+japanese = "へえ。さすがはエルファス様。<line-break>とっても強そうな人を<line-break>従者につれているんだね。<end>"
+korean = "헤에. 역시 엘파스 님이네. 엄청 강해 보이는 사람을 수행원으로 데리고 있구나.<end>"
+
 ["2350013"]
 japanese = "フフッ…。<line-break>強いことは確かだよ。<line-break>　<line-break>その辺の魔物だって<line-break><value:$28>を見たら<line-break>裸足で逃げ出すんじゃないかな。<line-break>ねえ、<value:$28>？<end>"
 korean = "후후…. 강한 건 확실해. 웬만한 마물도 <value:$28>을 보면 맨발로 도망치지 않을까. 그렇지, <value:$28>?<end>"

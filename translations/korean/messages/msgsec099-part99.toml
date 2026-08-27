@@ -360,6 +360,10 @@ korean = "로스토올의 장군, <value:$28>! 이런 곳에서 뭘 하고 있�
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break><value:$28>、何の用？<line-break>ただ、私に会いに来た、<line-break>なんて言わないわよね？<end>"
 korean = "<value:$28>…. <value:$28>, 무슨 일이야? 그냥 나 보러 왔다고 하진 않겠지?<end>"
 
+["990101"]
+japanese = "お互いに目指しているものが<line-break>違うんだから。私だっていつまでも<line-break>あなたの面倒を見てられないの！<line-break>わかった？　わかったら、<line-break>あなたも早く私から卒業して、<line-break>一人前の冒険者になってよね！<end>"
+korean = "서로 목표로 하는 게 다르잖아. 나도 언제까지나 네 뒤치다꺼리를 해 줄 순 없어! 알겠어? 알았으면 너도 빨리 나한테서 졸업해서 한 사람 몫 하는 모험가가 돼.<end>"
+
 ["990102"]
 japanese = "…がんばってね、<line-break><value:$28>。<end>"
 korean = "…힘내, <value:$28>.<end>"

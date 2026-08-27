@@ -108,6 +108,10 @@ korean = "너한텐 이 녀석이 있잖아. 울고 싶을 때는 실컷 울면 
 japanese = "あーーーーー！<line-break><value:$28>っ！<line-break><value:$28>ー！<end>"
 korean = "아ーーーーー! <value:$28>! <value:$28>ー!<end>"
 
+["1020037"]
+japanese = "あ～あ。でっけえ声だなあ。<line-break>これは、しばらく止まりそうにないな。　<line-break>…ま、これで大丈夫か。<line-break><value:$28>。<line-break>しばらく、アイリーンのお守りをしてな。<line-break>俺はディンガル軍の動向を見てくる。<end>"
+korean = "아아, 목소리 크네. 당분간은 멈출 것 같지 않군. …뭐, 이걸로 괜찮겠지. <value:$28>. 잠시 아이린을 돌봐 줘. 난 딘갈군의 움직임을 보고 오겠다.<end>"
+
 ["1020038"]
 japanese = "泣きたいときには<line-break>思いっきり泣けばいいんだよ。<end>"
 korean = "울고 싶을 때는 마음껏 울면 돼.<end>"

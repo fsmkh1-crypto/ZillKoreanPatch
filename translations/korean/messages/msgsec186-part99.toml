@@ -84,6 +84,10 @@ korean = "…그리고 나도 말이지.<end>"
 japanese = "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？　　<end>"
 korean = "어라, <value:$28>. 돌아왔구나. 루루안타는 같이 안 왔어?<end>"
 
+["1860023"]
+japanese = "そうか。<line-break>いや、今お前を捜しに行ったんだ。　<line-break>すれ違ってしまったみたいだね。<line-break>そろそろ、ロストールへ出発だ。<line-break>悪いが、<value:$28>、<line-break>ルルアンタを捜してきてくれないか？<end>"
+korean = "그래. 아니, 방금 널 찾으러 갔었어. 엇갈린 모양이네. 이제 로스토올로 출발할 때야. 미안하지만 <value:$28>, 릴비를 찾아와 주지 않을래?<end>"
+
 ["1860024"]
 japanese = "これを持っていきなさい。　　　　　<line-break>十分、注意するんだよ。<line-break>　<end>"
 korean = "이걸 가져가렴. 충분히 조심하고.<end>"

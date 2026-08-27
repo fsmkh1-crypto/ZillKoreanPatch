@@ -252,6 +252,10 @@ korean = "<if><value:$29><equal>%0소년이여, 보여 줘라. 네가 살아남�
 japanese = "無なる黒は光無き闇、<line-break>無の壁は無の黒にして世界を絶つ<line-break>…虚無の壁！<end>"
 korean = "무의 검정은 빛 없는 어둠, 무의 벽은 무의 검정으로 세계를 끊는다… 허무의 벽!<end>"
 
+["360070"]
+japanese = "システィーナの涙よ、星のかけらよ。<line-break>愚者の胸より疾く来たりて、<line-break>我が力となれ…ソウルリープ！<end>"
+korean = "시스티나의 눈물이여, 별의 조각이여. 어리석은 자의 가슴보다 빠르게 와서 나의 힘이 되어라… 소울 리프!<end>"
+
 ["360071"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"

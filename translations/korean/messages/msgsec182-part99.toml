@@ -40,6 +40,10 @@ korean = "아… <value:$28>님. 안녕하세요.<end>"
 japanese = "<value:$28>さんは<line-break>冒険者なんですよね？<line-break>ご家族は、いらっしゃるんですか？　　<line-break>私の両親は、私が赤ん坊のころに<line-break>亡くなったんだそうです。<line-break>だから、私、家族の記憶がないんです。<end>"
 korean = "<value:$28> 씨는 모험가죠? 가족은 있으신가요? 제 부모님은 제가 아기였을 때 돌아가셨대요. 그래서 저는 가족에 대한 기억이 없어요.<end>"
 
+["1820013"]
+japanese = "それと、これを見てると、<line-break>なんだか懐かしい雰囲気の人の姿が<line-break>ぼんやりと頭に浮かぶんです。<line-break>赤い鎧を着た大きな男性と、<line-break>私によく似た感じの女性。<line-break>あれは、私の両親なのでしょうか…？<end>"
+korean = "그리고 이걸 보고 있으면 왠지 그리운 분위기의 사람들이 희미하게 떠올라요. 붉은 갑옷을 입은 큰 남자와 저와 닮은 느낌의 여자. 저분들이 제 부모님일까요…?<end>"
+
 ["1820014"]
 japanese = "あ…、おしゃべりしていて<line-break>おつとめを忘れるところでした…。　<line-break>　<line-break>それでは、…<value:$28>さん。<line-break>失礼します。<line-break>　<end>"
 korean = "아… 이야기하다가 임무를 잊을 뻔했네요…. 그럼… <value:$28>님. 실례하겠습니다.<end>"

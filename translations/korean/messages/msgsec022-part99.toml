@@ -4,6 +4,10 @@
 japanese = "どうやら、この<value:$15>は、<line-break><value:$16>に潜んでいるらしい。<end>"
 korean = "아무래도 이 <value:$15>은 <value:$16>에 숨어 있는 모양이다.<end>"
 
+["220005"]
+japanese = "いつも世話になってるな。<line-break>最近、採鉱場に<value:$15>が出るように<line-break>なったんで、仕事に影響がでてきている。<line-break>こいつを倒してほしいんだ。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に退治してくれ。<end>"
+korean = "늘 신세지고 있어. 요즘 채굴장에 <value:$15>가 나타나서 일에 지장이 생겼어. 이 녀석을 쓰러뜨려 줘. 사례는 <value:$1A>기어. <value:$1B>일 이내에 퇴치해 줘.<end>"
+
 ["220020"]
 japanese = "近頃暴れてる<value:$15>のおかげで、<line-break>材料の仕入れに苦労しています。<line-break><value:$15>退治を依頼します。<line-break><value:$1A>ギア出します。<line-break><value:$1B>日以内にお願いします。<end>"
 korean = "요즘 날뛰는 <value:$15> 때문에,재료를 들여오는 데 애를 먹고 있습니다.<value:$15> 퇴치를 의뢰합니다.<value:$1A> 기아를 드리겠습니다.<value:$1B>일 이내로 부탁합니다.<end>"

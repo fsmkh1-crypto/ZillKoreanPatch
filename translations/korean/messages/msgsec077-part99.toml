@@ -8,6 +8,10 @@ korean = "아트레이아 볼륨4 시작<end>"
 japanese = "あ…、<value:$28>様。<line-break>またいらしてくださって<line-break>本当にうれしく思います。<end>"
 korean = "아… <value:$28> 님. 또 와 주셔서 정말 기쁩니다.<end>"
 
+["770002"]
+japanese = "でも、この部屋はこんなに薄暗くて…。<line-break>私、あなたがいらっしゃらなければ<line-break>いいと思う時があるんです。<end>"
+korean = "하지만 이 방은 이렇게 어둑하고…. 가끔은 당신이 오시지 않았으면 좋겠다고 생각할 때도 있어요.<end>"
+
 ["770003"]
 japanese = "あなたは広く明るい世界で<line-break>冒険をしていらっしゃいます。<line-break>そんなあなたにはこの薄暗い部屋は…。<end>"
 korean = "당신은 넓고 밝은 세계를 모험하고 계세요. 그런 당신에게 이 어두컴컴한 방은….<end>"
@@ -555,6 +559,10 @@ korean = "아… <value:$28> 님, 와 주셨군요. …기뻐요.<end>"
 ["770147"]
 japanese = "この前のメニューの字は<line-break>ほぼ覚えました。そうしたら今度は、<line-break>お料理を作ってみたくなりました。<line-break>…いつか、<line-break>味見していただけると<line-break>うれしいのですけれど…。<end>"
 korean = "지난번 메뉴의 글자는 거의 외웠어요. 그러고 나니 이번엔 요리를 만들어 보고 싶어졌어요. …언젠가 맛을 봐 주시면 기쁠 것 같아요….<end>"
+
+["770148"]
+japanese = "…<value:$28>様のおかげで<line-break>私の人生は変わりました。<line-break>…けれど、まだ恐ろしいのです。<line-break>ひょっとしたら<line-break>真の闇の深淵がまだ、私を飲み込もうと<line-break>しているのではないかと…。<end>"
+korean = "…<value:$28> 님 덕분에 제 인생은 바뀌었습니다. …하지만 아직 무서워요. 혹시 진정한 어둠의 심연이 아직도 저를 삼키려 하고 있는 건 아닐까 하고….<end>"
 
 ["770149"]
 japanese = "人というものは<line-break>どうして、こんなに<line-break>間違うのでしょう？　　　<line-break>そしてそれでも、<line-break>私のようにやり直せるのは<line-break>どうしてなのでしょう？<end>"

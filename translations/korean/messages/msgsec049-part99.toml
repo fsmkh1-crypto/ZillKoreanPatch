@@ -172,6 +172,10 @@ korean = "말도 안 되는군.<end>"
 japanese = "ふざけるな。お前のイカサマに<line-break>金を払う義務も必要もない。<end>"
 korean = "웃기지 마. 네 사기에 돈을 낼 의무도 필요도 없어.<end>"
 
+["490050"]
+japanese = "ちぇ。じゃあ、ここでまたひとつ　　<line-break>俺と勝負といこうや。<line-break>イカサマは、なしだ。<line-break>俺が勝ったら今の条件で情報をもらう。<line-break>お前が勝ったら今の条件分、全部<line-break>お前が持って帰っていい。どうだ？<end>"
+korean = "쳇. 그럼 여기서 또 한 번 나와 승부하자. 사기는 없다. 내가 이기면 지금 조건대로 정보를 받는다. 네가 이기면 지금 조건에 걸린 걸 전부 네가 가져가도 돼. 어때?<end>"
+
 ["490051"]
 japanese = "いいだろう。<line-break>何で勝負だ？<end>"
 korean = "좋아. 뭘로 승부하지?<end>"
@@ -223,6 +227,10 @@ korean = "이런, 아쉽군. 그럼 정보를 들려주겠나.<end>"
 ["490064"]
 japanese = "……ちっ。<line-break>まず、最初のほうだが、あんた、<line-break><value:$28>、だっけ？<line-break>エリスは結構、あんたのことを<line-break>気に入っているようだ。<line-break>殺されることはまずないな。<end>"
 korean = "……쳇. 우선 첫 번째인데, 당신 <value:$28> 맞지? 엘리스는 꽤 당신을 마음에 들어 하는 모양이야. 죽을 일은 거의 없겠군.<end>"
+
+["490065"]
+japanese = "あとの方だが、ルルアンタは<line-break>旅芸人の一座にくっついて行った。<line-break>が、これが問題含みだ。<line-break>最近起こっている誘拐事件、あれに<line-break>関わっている盗賊団が、その一座を<line-break>隠れみのに使っている。<end>"
+korean = "뒤쪽 이야기인데, 릴비는 떠돌이 공연단을 따라갔어. 그런데 이게 문제야. 요즘 일어나는 유괴 사건에 관련된 도적단이 그 공연단을 은신처로 쓰고 있거든.<end>"
 
 ["490066"]
 japanese = "まずいな。<line-break>ルルアンタの性格なら、まず確実に<line-break>面倒事に首を突っ込むだろうな。<end>"
@@ -716,6 +724,10 @@ korean = "오르파우스 씨, 좋은 아침입니다!!<end>"
 japanese = "おはよう、　　　　　　　　　　<line-break><value:$28>、ルルアンタ。<line-break>　<line-break>ルルアンタは本当に元気ですね。<end>"
 korean = "좋은 아침, <value:$28>, 루루안타. 루루안타는 정말 활기차네요.<end>"
 
+["490214"]
+japanese = "うふふ。ありがとうございます！　　　<line-break>あ、ねえねえ、<value:$28>。<line-break>　<line-break>ルルアンタがこの森で<line-break>悪い人たちから逃げてね。道に迷って、<line-break>モンスターに襲われて困ってたとき、<end>"
+korean = "후후. 감사합니다! 아, 있잖아 <value:$28>. 릴비가 이 숲에서 나쁜 사람들에게서 도망치다가 길을 잃고 몬스터에게 습격당해 곤란해했을 때,<end>"
+
 ["490215"]
 japanese = "オルファウスさんが<line-break>助けてくれたんだよぉ。　　　　　　　<line-break><value:$28>からもお礼言ってね。<end>"
 korean = "오르파우스 씨가 구해 줬어. <value:$28>도 고맙다고 해 줘.<end>"
@@ -863,6 +875,10 @@ korean = "강대하고 흉악한 힘을 지닌 12개의 마도기다. 예전에 
 ["490251"]
 japanese = "正解です。<line-break>よく、ご存じですね。　　　　　　　<line-break>　<line-break>ただ、彼女は<line-break>その本来の使い方以外のことを<line-break>しようとしています。<end>"
 korean = "정답입니다. 잘 알고 계시네요. 다만 그녀는 그 본래의 쓰임새 이외의 일을 하려 하고 있습니다.<end>"
+
+["490252"]
+japanese = "彼女は究極の合成怪物を作り<line-break>その力でおもしろ半分に世界を　　　<line-break>破壊しようと考えています。<line-break>その合成怪物を作るための知識を<line-break>闇の神器のひとつ、禁断の聖杯から<line-break>得ようとしているのです。<end>"
+korean = "그녀는 궁극의 합성괴물을 만들어 그 힘으로 재미 삼아 세계를 파괴하려 하고 있습니다. 그 합성괴물을 만들 지식을 어둠의 신기 중 하나인 금단의 성배에서 얻으려 하는 겁니다.<end>"
 
 ["490253"]
 japanese = "なるほど、ね。　　　　　　　　　　　<line-break>　<line-break>　<line-break>それで、その禁断の聖杯が<line-break>アーギルシャイアの手に落ちる前に<line-break>俺たちに取ってきてほしいってわけか。<end>"
@@ -1055,6 +1071,10 @@ korean = "반대편에 뭔가 보인다. 가 보자, <value:$28>.<end>"
 ["490325"]
 japanese = "なあ、<value:$28><line-break>俺の我がままにつきあってくれないか<line-break>もう少しこの森を調べてみたいんだ。<end>"
 korean = "있잖아, <value:$28>. 내 고집에 조금만 더 어울려 주지 않을래? 이 숲을 좀 더 조사하고 싶어.<end>"
+
+["490326"]
+japanese = "船に乗りたいのか？<line-break>あいにくだがしばらく出港予定はない。<line-break>目処が立ったころにまた来るんだな。<end>"
+korean = "배를 타고 싶나? 유감이지만 당분간 출항 예정은 없다. 전망이 설 때 다시 와.<end>"
 
 ["490327"]
 japanese = "予備用メッセージ７<line-break>ルルアンタ・ボリューム１<end>"

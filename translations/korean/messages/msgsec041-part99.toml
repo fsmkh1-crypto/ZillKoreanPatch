@@ -544,6 +544,10 @@ korean = "<value:$28>, 신기를… 지켜 줘!<end>"
 japanese = "ありがとう。<line-break>僕はエスト・リューガ。<line-break>考古学者だよ。君は？<end>"
 korean = "고마워. 나는 에스트 류가. 고고학자야. 너는?<end>"
 
+["410145"]
+japanese = "そうか！　ふふふふっ。　　　　　　　<line-break>君があの<value:$28>なんだ。<line-break>　<line-break>兄さんからの手紙で聞いてるよ。<line-break>エリエナイ公レムオン・リューガは<line-break>僕の兄さんなんだ。そうか…。君が…。<end>"
+korean = "그렇구나! 후후후. 네가 그 <value:$28>구나. 형님 편지에서 들었어. 에리에나이 공 레몬 류가는 내 형이야. 그렇구나…. 네가….<end>"
+
 ["410146"]
 japanese = "<value:$28>、<line-break>これからも兄さんをよろしくね。<end>"
 korean = "<value:$28>, 앞으로도 오빠를 잘 부탁해.<end>"

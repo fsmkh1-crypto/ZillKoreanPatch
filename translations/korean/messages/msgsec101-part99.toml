@@ -84,6 +84,10 @@ korean = "정말이지 언제까지나 어린애라니까!<end>"
 japanese = "<value:$28>…。<line-break><line-break><line-break>…どういうつもり？<line-break>あなた、ゼネテスの配下なのよ。<line-break>次の私たちの目標がわからないの？<end>"
 korean = "<value:$28>…. …무슨 생각이야? 넌 제네테스의 부하잖아. 다음 목표가 뭔지 모르겠어?<end>"
 
+["1010021"]
+japanese = "ロストールはもう目と鼻の先。　　<line-break>無駄な抵抗などせずに、<line-break>さっさと降伏することね。<line-break>その方が、犠牲者も少なくなるわ。<line-break>あなたも命を失わなくて<line-break>すむでしょうし。<end>"
+korean = "로스토올은 이제 코앞이야. 쓸데없는 저항은 그만두고 빨리 항복해. 그 편이 희생자도 줄어들어. 너도 목숨을 잃지 않아도 될 테고.<end>"
+
 ["1010022"]
 japanese = "…早く行きなさい。<line-break>戦場で運命の女神が教えてくれるわ。<line-break>どちらの道が正しかったのか。<end>"
 korean = "…빨리 가. 전장에서 운명의 여신이 가르쳐 줄 거야. 어느 길이 옳았는지.<end>"
@@ -239,6 +243,10 @@ korean = "다음에 만날 땐 전장이겠네.<end>"
 ["1010061"]
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break>…あなたはゼネテスの配下よ。<line-break>どういうつもりでここに来たの？<line-break>次の私たちの目標がわからないの？<end>"
 korean = "<value:$28>…. …당신은 제네테스의 부하잖아. 무슨 생각으로 여기 온 거야? 다음 목표가 뭔지 모르는 거야?<end>"
+
+["1010062"]
+japanese = "ロストールはもう目と鼻の先。　　<line-break>無駄な抵抗などせずに、<line-break>さっさと降伏することね。<line-break>その方が、犠牲者も少なくなるわ。<line-break>あなたも命を失わなくて<line-break>すむでしょうし。<end>"
+korean = "로스토올은 이제 코앞이야. 쓸데없는 저항은 그만두고 빨리 항복해. 그 편이 희생자도 줄어들어. 너도 목숨을 잃지 않아도 될 테고.<end>"
 
 ["1010063"]
 japanese = "…今度会うときは<line-break>戦場…というわけね。<end>"

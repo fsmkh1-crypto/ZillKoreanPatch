@@ -36,6 +36,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["760013"]
+japanese = "ホント？　ありがとう。<line-break>色惑の瞳はロストール北西の　<line-break>邪眼の迷宮にあるんだ。<line-break>期待してるよ、<value:$28>。<line-break>僕と王女はロストールの王城で<line-break>待ってるからねえ。フフフッ。<end>"
+korean = "정말? 고마워. 색혹의 눈동자는 로스토올 북서쪽 사안의 미궁에 있어. 기대할게, <value:$28>. 나와 왕녀는 로스토올 왕성에서 기다리고 있을게. 후후후.<end>"
+
 ["760015"]
 japanese = "じゃ、よろしくね、<line-break><value:$28>。<end>"
 korean = "그럼 잘 부탁해, <value:$28>.<end>"
@@ -284,6 +288,10 @@ korean = "미사용: 하하하. 아마 분위기에 취했겠지.<end>"
 japanese = "未：ちぇ、せっかく僕の綺麗な<line-break>歌の出番だったのになぁ。　　　<line-break>　<line-break>ま、いいや。<value:$28>の<line-break>ためにいい曲弾いちゃうよ！<end>"
 korean = "미사용: 쳇, 모처럼 내 아름다운 노래가 나올 차례였는데. 뭐, 됐어. <value:$28>을 위해 좋은 곡을 연주해 줄게!<end>"
 
+["760081"]
+japanese = "未：ハハハ、あなたの歌のおかげで<line-break>客も盛り上がって、こっちも大繁盛さ。<line-break>少ないけどとっときな。<end>"
+korean = "미사용: 하하하, 당신 노래 덕분에 손님들도 신나고 우리도 장사가 잘됐어. 적지만 받아 둬.<end>"
+
 ["760082"]
 japanese = "未：お金は結構ですから、あの…。<end>"
 korean = "미사용: 돈은 됐으니까, 저기….<end>"
@@ -335,6 +343,10 @@ korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
 ["760094"]
 japanese = "はじめまして。<line-break>僕はシャリ。人は東方の博士なんて<line-break>呼んでくれたりもするんだ。<line-break>よろしくね。<line-break><value:$28>。<end>"
 korean = "처음 뵙겠습니다. 저는 샤리. 사람들은 동방의 박사라고도 부르죠. 잘 부탁해요, <value:$28>.<end>"
+
+["760095"]
+japanese = "ここは、君のまだ知らない<line-break>王女様の部屋だよ。<line-break>君には、ぜひ彼女に会ってもらいたい。<line-break>でも、その前に、もっとこの国のこと<line-break>知ってもらいたいな。<line-break>例えば、町のこと、貴族のこと…。<end>"
+korean = "여긴 네가 아직 모르는 왕녀님의 방이야. 꼭 그녀를 만나게 해 주고 싶어. 하지만 그 전에 이 나라에 대해 좀 더 알았으면 해. 예를 들면 마을이나 귀족 같은 것들….<end>"
 
 ["760096"]
 japanese = "そして、もうひとりの　　　　　　<line-break>お姫様のこと。<line-break>　<line-break>だから、今日はまだおあずけ。<line-break>もっと経験をつんできたら<line-break>きっと、彼女に会わせてあげるよ。<end>"

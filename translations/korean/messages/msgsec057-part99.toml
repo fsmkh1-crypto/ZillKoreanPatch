@@ -160,6 +160,10 @@ korean = "그렇군.<end>"
 japanese = "あなたが将来、旅で人と出会い<line-break>仲間を増やしたとき、<line-break>　<line-break>一緒に旅する仲間を<line-break>変更をしたいと思ったとき<line-break>ここに来てください。<end>"
 korean = "앞으로 여행 중 사람들을 만나 동료가 늘고, 함께 여행할 동료를 바꾸고 싶을 때 여기로 오세요.<end>"
 
+["570051"]
+japanese = "あ、今後は、パーティーメンバーの<line-break>了解を取ってから呼び出しますから<line-break>そのあたりのことはご心配なく。<end>"
+korean = "아, 앞으로는 파티 멤버의 허락을 받은 뒤 불러낼 테니 그 부분은 걱정하지 않으셔도 됩니다.<end>"
+
 ["570052"]
 japanese = "あんたには<line-break>色々世話になりそうだな。<end>"
 korean = "너한테는 여러모로 신세를 지게 될 것 같군.<end>"
@@ -272,6 +276,10 @@ korean = "그럼, 갈까요.<end>"
 japanese = "まったく手間をとらせやがって！<end>"
 korean = "정말 손이 많이 가게 하는군!<end>"
 
+["570081"]
+japanese = "誘拐の現場を見られちまった以上、<line-break>生かしておくわけにはいかねぇんでな。<line-break>森の方で始末しちまおう。<end>"
+korean = "유괴 현장을 들킨 이상 살려 둘 수는 없어. 숲 쪽에서 처리하자.<end>"
+
 ["570082"]
 japanese = "何者だ、貴様！<end>"
 korean = "네놈, 정체가 뭐냐!<end>"
@@ -307,6 +315,10 @@ korean = "그랬구나. 고마워. 그리고 미안해.<end>"
 ["570090"]
 japanese = "う～ん。<line-break>おうちにかえりなさいって言われても、<line-break>…ルルアンタ、困っちゃうな。<line-break>あのね、ルルアンタ、<line-break>お父さんとお母さんいないの。<line-break>ずっとはやく、死んじゃった。<end>"
 korean = "으음. 집에 돌아가라고 해도… 릴비는 곤란한걸. 있잖아, 릴비는 아빠랑 엄마가 없어. 아주 오래전에 돌아가셨어.<end>"
+
+["570092"]
+japanese = "<if><value:$29><equal>%0それで、ルルアンタも<line-break>捕まっちゃってたところを<line-break>お兄ちゃんに助けてもらったの。<end>それで、ルルアンタも<line-break>捕まっちゃってたところを<line-break>お姉ちゃんに助けてもらったの。<end>"
+korean = "<if><value:$29><equal>%0그래서 릴비도 붙잡혀 있던 걸 오빠한테 도움받았어.<end>그래서 릴비도 붙잡혀 있던 걸 언니한테 도움받았어.<end>"
 
 ["570093"]
 japanese = "うん、ルルアンタ、元気だよ。　　　<line-break>　<line-break>　<line-break>あのね、<line-break>フリントさんが言ってくれたんだ。<line-break>　<end>"

@@ -56,6 +56,10 @@ korean = "…정말로?<end>"
 japanese = "私がウソをついたことが<line-break>ありますか？<end>"
 korean = "제가 거짓말한 적이 있나요?<end>"
 
+["1810015"]
+japanese = "さて、大変なことになりましたね。<line-break>よりによって次元のはざまなんて<line-break>やっかいなところに。<end>"
+korean = "자, 큰일이 됐군요. 하필이면 차원의 틈새라니 까다로운 곳에….<end>"
+
 ["1810016"]
 japanese = "<value:$28>、<line-break>話があります。<line-break>居間に来てもらえますか？<end>"
 korean = "<value:$28>, 할 말이 있습니다. 거실로 와 주시겠어요?<end>"

@@ -12,6 +12,10 @@ korean = "예! <value:$28>님, 들어가십시오!<end>"
 japanese = "うそーん。<line-break>あなたのこと愛してたのにー。<line-break>　<line-break><value:$28>…！<line-break>ブゾリとできてたのねー！<line-break>ひどいわひどいわ。<end>"
 korean = "말도 안 돼~. 당신을 사랑했는데~. <value:$28>…! 부조리와 그런 사이였던 거야~! 너무해, 너무해.<end>"
 
+["870003"]
+japanese = "…いや、青い死神とも恐れられている<line-break>あたしにツッコミを入れたのわ<line-break>あんたが初めてだよ。<end>"
+korean = "…아니, 푸른 사신이라고까지 두려움받는 나한테 태클 건 건 네가 처음이야.<end>"
+
 ["870004"]
 japanese = "うーっす。<value:$28>じゃん。<line-break>ブゾリの下でも働いてたんだ。<end>"
 korean = "어이, <value:$28>이잖아. 부조리 밑에서도 일했었구나.<end>"

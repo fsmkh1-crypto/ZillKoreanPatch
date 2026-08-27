@@ -228,6 +228,10 @@ korean = "<value:$28>님. 지나가십시오.<end>"
 japanese = "あら、<value:$28>じゃん。<line-break>元気にしてた？<line-break>　<line-break>え？　オイフェから手紙？<line-break>ふーん。どれどれ。<end>"
 korean = "어머, <value:$28>잖아. 잘 지냈어? 응? 오이페에게 편지? 흐음. 어디 보자.<end>"
 
+["1730073"]
+japanese = "でも、あんまりオイフェの方ばっかり<line-break>くっついていっちゃヤだよ。<line-break>あたしの方もちゃんとかまってよね？<end>"
+korean = "하지만 너무 오이페 쪽에만 붙어 다니면 싫어. 나한테도 제대로 신경 써 줘, 알았지?<end>"
+
 ["1730074"]
 japanese = "それじゃ、またね。<line-break><value:$28>。<end>"
 korean = "그럼 또 보자, <value:$28>.<end>"

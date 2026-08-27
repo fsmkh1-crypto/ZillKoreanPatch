@@ -68,6 +68,10 @@ korean = "레오닉의 미궁은 도전하는 자의 영혼에 따라 형태가 
 japanese = "なんか、しゃべりすぎて<line-break>疲れたわい…。<end>"
 korean = "너무 많이 떠들었더니 피곤하구먼….<end>"
 
+["1770025"]
+japanese = "親友の墓参りに行くために<line-break>ちょーっと遠出したんよ。<line-break>じゃから、疲れが残っとるんかな…<line-break>今日は、何となくわれが来そうな<line-break>気がしたけぇ無理して来たんが<line-break>いけんかったんかもしれんわい。<end>"
+korean = "친구 무덤에 성묘하러 좀 멀리 다녀왔어. 그래서 피로가 남은 건가…. 오늘은 왠지 네가 올 것 같아서 무리해서 왔는데 그게 안 좋았나 보군.<end>"
+
 ["1770026"]
 japanese = "まあ、２，３日休めば<line-break>元気になるじゃろうて。<line-break>われに会ったことじゃしのう。<end>"
 korean = "뭐, 이삼 일 쉬면 기운이 날 게다. 나를 만났으니 말이야.<end>"
@@ -96,6 +100,10 @@ korean = "그대로 둔다<end>"
 japanese = "下げてみる<end>"
 korean = "내려 본다<end>"
 
+["1770036"]
+japanese = "竜の像の口の中にレバーを見つけた。<line-break>レバーは下がっています。<line-break>レバーを上げてみますか？<end>"
+korean = "용의 석상 입 안에서 레버를 찾았다. 레버는 내려가 있다. 레버를 올려 볼까?<end>"
+
 ["1770037"]
 japanese = "そのままにする<end>"
 korean = "그대로 둔다<end>"
@@ -103,6 +111,10 @@ korean = "그대로 둔다<end>"
 ["1770038"]
 japanese = "上げてみる<end>"
 korean = "올려 본다<end>"
+
+["1770039"]
+japanese = "竜の像の口の中にレバーを見つけた。<line-break>レバーは上がっています。<line-break>レバーを下げてみますか？<end>"
+korean = "용의 석상 입 안에서 레버를 찾았다. 레버는 올라가 있다. 레버를 내려 볼까?<end>"
 
 ["1770040"]
 japanese = "そのままにする<end>"
@@ -112,6 +124,10 @@ korean = "그대로 둔다<end>"
 japanese = "下げてみる<end>"
 korean = "내려 본다<end>"
 
+["1770042"]
+japanese = "竜の像の口の中にレバーを見つけた。<line-break>レバーは下がっています。<line-break>レバーを上げてみますか？<end>"
+korean = "용의 석상 입 안에서 레버를 찾았다. 레버는 내려가 있다. 레버를 올려 볼까?<end>"
+
 ["1770043"]
 japanese = "そのままにする<end>"
 korean = "그대로 둔다<end>"
@@ -119,6 +135,10 @@ korean = "그대로 둔다<end>"
 ["1770044"]
 japanese = "上げてみる<end>"
 korean = "올려 본다<end>"
+
+["1770045"]
+japanese = "竜の像の口の中にレバーを見つけた。<line-break>レバーは上がっています。<line-break>レバーを下げてみますか？<end>"
+korean = "용의 석상 입 안에서 레버를 찾았다. 레버는 올라가 있다. 레버를 내려 볼까?<end>"
 
 ["1770046"]
 japanese = "そのままにする<end>"

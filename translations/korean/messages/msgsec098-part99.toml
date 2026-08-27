@@ -396,6 +396,10 @@ korean = "아직 할 일이 남았어? …여기서 기다려 줄 테니 빨리 
 japanese = "いつでも戻ってらっしゃい。<line-break>ここは、あなたの家なんですから。<end>"
 korean = "언제든 돌아오세요. 여기는 당신의 집이니까요.<end>"
 
+["980126"]
+japanese = "あら、<value:$28>。<line-break>おかえりなさい。<line-break>　　　　　　　　　　　　　　　　　　<line-break>あなたはこうして顔を見せに<line-break>きてくれるけど、アイリーンは全然ね。<line-break>どう？　あの子は元気にしてる？<end>"
+korean = "어머, <value:$28>. 돌아왔구나. 넌 이렇게 얼굴을 비추러 오는데 아이린은 전혀 안 오네. 어때? 그 아이는 잘 지내?<end>"
+
 ["980127"]
 japanese = "未使用になります：はい<end>"
 korean = "미사용입니다: 예<end>"
