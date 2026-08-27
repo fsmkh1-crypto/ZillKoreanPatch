@@ -28,6 +28,10 @@ korean = "즐겁습니다<end>"
 japanese = "つまらないです<end>"
 korean = "재미없어요<end>"
 
+["1750012"]
+japanese = "そりゃあ結構なことじゃ。　　　　<line-break>冒険はロマンじゃけえのー。<line-break>　<line-break>じゃけど、まだ、ほんまの楽しみは<line-break>知らんじゃろう。<end>"
+korean = "그거 좋은 일이구먼. 모험은 낭만이니까. 하지만 아직 진짜 재미는 모르는 모양이군.<end>"
+
 ["1750014"]
 japanese = "ほんなら、楽しいほうが<line-break>ええじゃろうのう。<end>"
 korean = "그렇다면 즐거운 쪽이 낫겠지.<end>"
@@ -92,6 +96,14 @@ korean = "누른다<end>"
 japanese = "何かの装置が作動したようだ。<end>"
 korean = "무언가의 장치가 작동한 것 같다.<end>"
 
+["1750052"]
+japanese = "竜の像の口の中に<line-break>十字型と円型の２つのくぼみがある。<end>"
+korean = "용 석상의 입 안에 십자형과 원형, 두 개의 홈이 있다.<end>"
+
+["1750053"]
+japanese = "竜の像の口の中に<line-break>十字型と円型の２つのくぼみがある。<end>"
+korean = "용 석상의 입 안에 십자형과 원형, 두 개의 홈이 있다.<end>"
+
 ["1750054"]
 japanese = "赤色の十字鍵をはめ込みますか？<end>"
 korean = "붉은 십자 열쇠를 끼우시겠습니까?<end>"
@@ -115,6 +127,10 @@ korean = "끼워 넣지 않는다<end>"
 ["1750060"]
 japanese = "はめ込む<end>"
 korean = "끼워 넣는다<end>"
+
+["1750062"]
+japanese = "竜の像の口の中に<line-break>十字型と円型の２つのくぼみがある。<end>"
+korean = "용 석상의 입 안에 십자형과 원형, 두 개의 홈이 있다.<end>"
 
 ["1750063"]
 japanese = "銀色の円盤をはめ込みますか？<end>"

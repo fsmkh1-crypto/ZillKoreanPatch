@@ -136,6 +136,10 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1730066"]
+japanese = "引き受ける気はないんでしょう。<line-break>早く、行くといいわ。<end>"
+korean = "맡을 생각은 없는 거죠. 빨리 가는 게 좋아요.<end>"
+
 ["1730067"]
 japanese = "<value:$28>って、<line-break>結構、外道かも！　きゃっ。<end>"
 korean = "<value:$28>도 꽤 악당일지도! 꺅.<end>"
@@ -155,6 +159,10 @@ korean = "그럼 또 보자, <value:$28>.<end>"
 ["1730075"]
 japanese = "オイフェ殿からの書状だと？<line-break>しばらく、待て。<end>"
 korean = "오이페 공의 서신이라고? 잠시 기다려라.<end>"
+
+["1730076"]
+japanese = "カルラ様がお会いになるそうだ。<line-break>失礼のないようにな。<end>"
+korean = "칼라 님께서 만나시겠답니다. 실례 없도록 하십시오.<end>"
 
 ["1730078"]
 japanese = "いくわ！！　　　　　　　　　　　<end>"
@@ -184,6 +192,10 @@ korean = "농담이라니까. 진지하게 받아들이지 마. 그럼 볼일 �
 japanese = "オイフェ殿からの書状だと？<line-break>しばらく、待て。<end>"
 korean = "오이페 공의 서신이라고? 잠시 기다려라.<end>"
 
+["1730092"]
+japanese = "カルラ様がお会いになるそうだ。<line-break>失礼のないようにな。<end>"
+korean = "칼라 님께서 만나시겠답니다. 실례 없도록 하십시오.<end>"
+
 ["1730094"]
 japanese = "あら、<value:$28>じゃん。<line-break>オイフェから手紙預かってるんだって？<line-break>どれどれ…<end>"
 korean = "어라, <value:$28>잖아. 오이페에게서 편지를 받아 왔다고? 어디 보자….<end>"
@@ -212,6 +224,10 @@ korean = "실패는 죽음으로 갚아라. 샤리.<end>"
 japanese = "ジュサぷー！<line-break>助けに来てくれたんだ！<end>"
 korean = "주사푸! 구하러 와 줬구나!<end>"
 
+["1730105"]
+japanese = "...でも、もうこれで君も<line-break>あのお方から追われる身だね。<end>"
+korean = "…하지만 이제 너도 그분에게 쫓기는 몸이겠네.<end>"
+
 ["1730110"]
 japanese = "メンゴ。<end>"
 korean = "미안.<end>"
@@ -235,6 +251,10 @@ korean = "등잔 밑이 어둡다잖아. 적정 시찰도 겸하고 있어.<end>
 ["1730119"]
 japanese = "本当に？<end>"
 korean = "정말로?<end>"
+
+["1730120"]
+japanese = "…ごめん。おもしろがって<line-break>何も考えずにここにいます。<end>"
+korean = "…미안. 재미있어 보여서 아무 생각 없이 여기 있어.<end>"
 
 ["1730122"]
 japanese = "楽しみにしてるよ。<line-break>ジュサぷー。<end>"

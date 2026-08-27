@@ -24,6 +24,10 @@ korean = "기다려, 놓칠까 보냐!<end>"
 japanese = "くっ、逃げられたか。<end>"
 korean = "큭, 놓쳤나.<end>"
 
+["2710019"]
+japanese = "助かった。礼を言う。<line-break>よければ名前を聞かせてくれ。<end>"
+korean = "살았다. 고맙다. 괜찮다면 이름을 알려 줘.<end>"
+
 ["2710020"]
 japanese = "<value:$28>か…。<line-break>俺はジリオン。<line-break>縁があったら、また会おう。<end>"
 korean = "<value:$28>인가…. 나는 지리온. 인연이 있으면 다시 만나자.<end>"

@@ -92,6 +92,10 @@ korean = "마지막 말은 그걸로 끝인가?<end>"
 japanese = "確かに、聞いた。<end>"
 korean = "그래, 들었다.<end>"
 
+["400036"]
+japanese = "あわてるな。<line-break>バルザーの死によって、<line-break>異空間がその姿を保てなくなったのだ。<line-break>今からテレポートで脱出する。<line-break>私の周りに集まれ。<end>"
+korean = "당황하지 마. 발자의 죽음으로 이 이공간이 형태를 유지할 수 없게 된 거다. 지금부터 텔레포트로 탈출한다. 내 주변으로 모여.<end>"
+
 ["400037"]
 japanese = "リベルダムまで跳ぶ。<line-break>ゆくぞ。<end>"
 korean = "리벨덤까지 뛰어간다. 가자.<end>"
@@ -103,6 +107,10 @@ korean = "…네 패배다. 파괴신의 원탁기사 발자르여. 파괴신 �
 ["400039"]
 japanese = "さすがだ…、ネメア。<line-break>　<line-break>　<line-break>破壊神の円卓騎士の中でも<line-break>１、２を争う力を持つ我を<line-break>こうもたやすく倒すとは…な…。<end>"
 korean = "역시 대단하군… 네메아. 파괴신의 원탁기사 중에서도 손꼽히는 힘을 가진 나를 이렇게 쉽게 쓰러뜨리다니….<end>"
+
+["400040"]
+japanese = "再会のあいさつは抜きだ。<line-break>それより、すぐにここを<line-break>出なければならない。<line-break>バルザーの死により、<line-break>ここはまもなく崩壊するだろう。<end>"
+korean = "재회의 인사는 생략하지. 그보다 바로 여기서 나가야 한다. 발자의 죽음으로 이곳은 곧 붕괴할 거다.<end>"
 
 ["400042"]
 japanese = "むしろ、<line-break>始まりかもしれん。<end>"
@@ -287,6 +295,10 @@ korean = "어둠의 신기 탐색을 의뢰받은 <value:$28>라는 모험자, �
 ["400122"]
 japanese = "手を引いた方がいいわよ。<line-break>闇の神器…、<line-break>ネメア様もその行方を追っているわ。<line-break>そして、私も<line-break>その旅に同行するつもりよ。<end>"
 korean = "손을 떼는 게 좋아. 어둠의 신기… 네메아 님도 그 행방을 쫓고 있어. 나도 그 여행에 동행할 생각이야.<end>"
+
+["400123"]
+japanese = "私は、ネメア様直属の<line-break>近衛騎士になったのよ。<line-break>　<line-break>私に生きろと言ったあの人が、<line-break>どんな生を歩むのか<line-break>見届けるためにね。<end>"
+korean = "나는 네메아 님 직속 근위기사가 됐어. 나더러 살라고 한 그 사람이 어떤 삶을 사는지 지켜보기 위해서.<end>"
 
 ["400125"]
 japanese = "あなたが闇の神器を探すつもりなら、<line-break>私たちを敵に回すことになるわ。<line-break>　<line-break>その時は…、<line-break>容赦しないわよ。<end>"
@@ -547,6 +559,10 @@ korean = "좋다. 들어 보지.<end>"
 ["400232"]
 japanese = "初めてあったときの私の言葉を<line-break>覚えているか？<end>"
 korean = "처음 만났을 때 내가 한 말을 기억하나?<end>"
+
+["400234"]
+japanese = "エリュマルク帝は崩御された。<line-break>　<line-break>　<line-break>よって、エリュマルク帝の<line-break>姉上エスリン様の遺児である<line-break>ネメア様があとを継がれる。<end>"
+korean = "에류마르크 황제께서 붕어하셨다. 따라서 황제의 누이 에슬린 님의 유자인 네메아 님께서 뒤를 잇게 된다.<end>"
 
 ["400235"]
 japanese = "…世界を手に入れる。<end>"

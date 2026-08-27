@@ -44,6 +44,10 @@ korean = "당기지 않는다<end>"
 japanese = "引いてみる<end>"
 korean = "당겨 본다<end>"
 
+["1760030"]
+japanese = "さあ、最後の一踏ん張りじゃけえ<line-break>気合い入れんさいよ。<end>"
+korean = "자, 마지막 한고비니까 힘내게.<end>"
+
 ["1760032"]
 japanese = "引かない<end>"
 korean = "당기지 않는다<end>"
@@ -75,6 +79,10 @@ korean = "왜 내가 널 제자로 골랐는지 알고 싶지?<end>"
 ["1760051"]
 japanese = "そこへ現れたのが<line-break><value:$28>…お前よ！<end>"
 korean = "그때 나타난 게 <value:$28>… 바로 너다!<end>"
+
+["1760058"]
+japanese = "われは忙しいんじゃろ。<line-break>よっぱらいじじいなんて<line-break>ほっときゃええじゃろが。<line-break>今日はな～んも話すことは<line-break>ありゃせんわい。<end>"
+korean = "자네 바쁘잖아. 술 취한 늙은이는 내버려 둬도 되지. 오늘은 아무 얘기도 할 게 없다네.<end>"
 
 ["1760060"]
 japanese = "用意できました<end>"

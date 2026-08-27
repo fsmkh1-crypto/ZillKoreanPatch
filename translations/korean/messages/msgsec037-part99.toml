@@ -416,6 +416,10 @@ korean = "내가 메이아를 도우러 가자고 했어!<end>"
 japanese = "捕らえよ。<end>"
 korean = "잡아라.<end>"
 
+["370184"]
+japanese = "そなた、あそこの無礼者よりは<line-break>賢かったようじゃの。<line-break>その分別がはじめから働けば、<line-break>このようなことにならずに<line-break>すんだものを…。<end>"
+korean = "그대는 저 무례한 자보다는 현명했던 모양이군. 그 분별력이 처음부터 있었더라면 이런 일은 없었을 텐데….<end>"
+
 ["370186"]
 japanese = "…元気で、ね。<end>"
 korean = "…잘 지내.<end>"
@@ -524,6 +528,10 @@ korean = "그때 <value:$28>도 힘들었지. 아버지… 이슈베노브 아�
 japanese = "…それでも、<value:$28>は<line-break>ずっと、俺のそばにいてくれて…。<line-break>わざわざアミラルまで<line-break>花を買いにいくのにも<line-break>ついていていくれて…。<end>"
 korean = "…그래도 <value:$28>은 계속 내 곁에 있어 줬고…. 일부러 아미랄까지 꽃을 사러 가는 데도 따라와 줬고….<end>"
 
+["370235"]
+japanese = "エルズの花はすべて、<line-break>エア様が強大な魔力で作り出したもの。<line-break>きれいだけど、俺、<line-break>自分の両親の墓に<line-break>そんなもん供えたくない…。<end>"
+korean = "엘즈의 꽃은 전부 에아 님이 강대한 마력으로 만든 거야. 예쁘긴 하지만 난 부모님 무덤에 그런 걸 바치고 싶진 않아….<end>"
+
 ["370236"]
 japanese = "ありがとう、<line-break>…ほんと、感謝してる。<end>"
 korean = "고마워…. 정말 감사해.<end>"
@@ -623,6 +631,10 @@ korean = "거짓말이다! 나다!<end>"
 ["370271"]
 japanese = "俺が<line-break>メイアを助けようって言ったんだ！<end>"
 korean = "내가 메이아를 구하자고 한 거야!<end>"
+
+["370272"]
+japanese = "ごめんな、船長。<line-break>顔つぶしちまって。　　　　　　　　<line-break>エア様は本当に恐ろしいお方なんだ。<line-break>みんなに迷惑、<line-break>かけられないしさ。<end>"
+korean = "미안하군, 선장. 체면을 구겨 버렸네. 에아 님은 정말 무서운 분이야. 모두에게 폐를 끼칠 수도 없고.<end>"
 
 ["370273"]
 japanese = "元気で、な…。<end>"

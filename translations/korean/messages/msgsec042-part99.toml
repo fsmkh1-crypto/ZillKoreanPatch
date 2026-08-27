@@ -260,6 +260,10 @@ korean = "어이, 아가씨. 꽤 죽상이군? 동생이라도 죽게 내버려 
 japanese = "俺はゼネテス、　　　<line-break>冒険者だ。<line-break>　<line-break>あんたの名前は<line-break>聞かなくてもいい…。<line-break>ノーブルの英雄さん。<end>"
 korean = "나는 제네테스, 모험자다. 네 이름은 묻지 않아도 되겠군…. 노블의 영웅 씨.<end>"
 
+["420129"]
+japanese = "あんたがどんな<line-break>気持ちかは知らない。　　　　　<line-break>　<line-break>だが、人間、つらかろうと<line-break>なんだろうと<line-break>生きて行かなきゃならない。<end>"
+korean = "네가 어떤 기분인지는 모르겠다. 하지만 인간은 아무리 괴로워도 살아가야 한다.<end>"
+
 ["420134"]
 japanese = "冒険者登録かい。<line-break>ここに名前を記入してくれ。<end>"
 korean = "모험자 등록인가. 여기에 이름을 적어 줘.<end>"
@@ -368,6 +372,10 @@ korean = "…<value:$28> 씨.<end>"
 japanese = "くすっ。<line-break>あなたのその気性、好きですよ。<line-break>　<line-break>見せたいモノがあります。<line-break>来てください。<line-break><value:$28>。<end>"
 korean = "후훗. 당신의 그 성격, 마음에 들어요. 보여 주고 싶은 게 있습니다. 와 주세요, <value:$28>.<end>"
 
+["420195"]
+japanese = "この子でも役立ててもらおうかな、<line-break>と思うんです。<line-break>　<line-break>この転送機は<line-break>世界中のたいていの所から<line-break>仲間を呼び出せるんです。<end>"
+korean = "이 아이도 도움이 되게 해 볼까 합니다. 이 전송기는 세계 대부분의 장소에서 동료를 불러올 수 있어요.<end>"
+
 ["420196"]
 japanese = "あ、姉ちゃん！<line-break>これ、どうなってるんだ？<end>"
 korean = "아, 누나! 이거 어떻게 된 거야?<end>"
@@ -460,9 +468,17 @@ korean = "뭐, 대충 그런 느낌이네요. 이해하셨습니까?<end>"
 japanese = "聞きたいことがあれば答えますよ。<end>"
 korean = "궁금한 게 있으면 대답해 드리죠.<end>"
 
+["420248"]
+japanese = "世界を巡って、人に出会い、<line-break>仲間を作ってください。<line-break>　<line-break>その中で世界は<line-break>様々な顔を見せてくれるでしょう。<line-break>自由な旅を！<end>"
+korean = "세계를 돌아다니며 사람을 만나고 동료를 만드세요. 그 속에서 세계는 여러 얼굴을 보여 줄 겁니다. 자유로운 여행을!<end>"
+
 ["420249"]
 japanese = "そうですか…。<line-break>弟さんが…。<end>"
 korean = "그렇습니까…. 동생분이….<end>"
+
+["420257"]
+japanese = "たぶん、この子は　　　　　　　<line-break>役に立ちますよ。<line-break>　<line-break>あなたが将来、<line-break>旅の途中で人と出会い、<line-break>仲間を増やしたときにね。<end>"
+korean = "아마 이 아이는 도움이 될 겁니다. 앞으로 여행 중 사람을 만나고 동료가 늘어날 때 말이죠.<end>"
 
 ["420261"]
 japanese = "貴様…　　　　　　<line-break>ノーブルの<value:$28>…。<line-break><line-break>今は忙しい。<line-break>急いで用件を言え。<end>"

@@ -8,6 +8,10 @@ korean = "파로스 볼륨 1용 시작<end>"
 japanese = "よう、<value:$28>。<end>"
 korean = "여어, <value:$28>.<end>"
 
+["500002"]
+japanese = "俺の自由なところがうらやましい？<line-break>変なことを言うもんだな。<line-break>　<line-break>お前さんだって、<line-break>自由気ままな冒険者だぜ？<line-break>違うかい？<end>"
+korean = "내 자유로운 점이 부럽다고? 이상한 말을 하는군. 자네도 자유로운 모험자잖아? 아닌가?<end>"
+
 ["500010"]
 japanese = "痛テテテテテテテ！<end>"
 korean = "아야야야야야야!<end>"
