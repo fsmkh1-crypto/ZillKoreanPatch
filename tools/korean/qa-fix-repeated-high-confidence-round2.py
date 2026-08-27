@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Normalize reviewed high-confidence repeated Japanese sources to one Korean surface.
 
-Only exact normalized Japanese sources listed below are touched.  These are
-repeated UI labels or repeated explanatory/narrative lines where the source is
-identical and the Korean variants differ only in wording/register rather than
-runtime semantics.
+Only exact normalized Japanese sources listed below are touched. These are
+repeated UI labels, fixed names, or repeated explanatory/narrative lines where
+the source is identical and the Korean variants do not encode runtime semantics.
 """
 from __future__ import annotations
 
@@ -29,6 +28,9 @@ def norm_source(text: str) -> str:
 CANONICAL: dict[str, str] = {
     norm_source("引き受ける<end>"): "수락한다<end>",
     norm_source("転送機について<end>"): "전송기에 대해<end>",
+    norm_source("質問はない<end>"): "질문은 없다<end>",
+    norm_source("盗人村<end>"): "도둑 마을<end>",
+    norm_source("ディンガル士官<end>"): "딘갈 장교<end>",
     norm_source("　　　　　　指導者を失った両国は<line-break>　　　一時的な停戦状態に陥るのだった。<end>"): "지도자를 잃은 두 나라는 일시적인 휴전 상태에 들어갔다.<end>",
     norm_source("円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"): "원탁기사에는 그 밖에도 아르길샤이어 등이 있습니다.<end>",
     norm_source("将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"): "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>",
