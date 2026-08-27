@@ -27,6 +27,10 @@ CAN={
  norm('この方のことならば少し聞いている。信頼に足る方だ。<end>'):'이분 이야기는 조금 들었습니다. 신뢰할 만한 분입니다.<end>',
  norm('さすがに鋭いですね。その通り。その聖杯こそ禁断の聖杯です。ですが、それを盗み出させたのは魔人アーギルシャイアではない別の魔人なのです。<end>'):'역시 날카롭군요. 맞습니다. 그 성배가 바로 금단의 성배입니다. 하지만 그걸 훔치게 한 건 마인 아르길샤이어가 아니라 다른 마인입니다.<end>',
 }
+PARTICLE_FIXES={
+ 'バロル':(('발로르은','발로르는'),('발로르과','발로르와')),
+ 'ゾフォル':(('조포르이','조포르가'),),
+}
 seen=set(); changed=files=0
 for p in sorted(KDIR.glob('msgsec*.toml')):
  if not FRE.match(p.name):continue
@@ -43,9 +47,12 @@ for p in sorted(KDIR.glob('msgsec*.toml')):
   if not isinstance(rec,dict):continue
   ja=rec.get('japanese');ko=rec.get('korean')
   if not isinstance(ja,str) or not isinstance(ko,str):continue
-  target=CAN.get(norm(ja))
-  if target is not None and ko!=target:
-   lines[i]='korean = '+json.dumps(target,ensure_ascii=False);dirty=True;changed+=1
+  new=CAN.get(norm(ja),ko)
+  for ja_term,repls in PARTICLE_FIXES.items():
+   if ja_term not in ja:continue
+   for old,replacement in repls:new=new.replace(old,replacement)
+  if new!=ko:
+   lines[i]='korean = '+json.dumps(new,ensure_ascii=False);dirty=True;changed+=1
  if dirty:
   p.write_text('\n'.join(lines)+'\n',encoding='utf-8');files+=1
 print(f'Contextual round 3: {changed} records across {files} files')
