@@ -54,8 +54,6 @@ EXACT_VARIANTS: dict[str, dict[str, str]] = {
     },
 }
 
-# Japanese canonical surface -> known incorrect Korean surface -> canonical.
-# These mappings are safe only because the Japanese source gate must match.
 SOURCE_TERM_VARIANTS: dict[str, dict[str, str]] = {
     "フゴー": {
         "후고": "휴고",
@@ -76,6 +74,19 @@ SOURCE_TERM_VARIANTS: dict[str, dict[str, str]] = {
         "주삽브로스": "주사프브로스",
         "주사브로스": "주사프브로스",
     },
+    "レムオン": {
+        "레무온": "레몬",
+        "레므온": "레몬",
+    },
+    "ウルグ": {
+        "우르그": "울그",
+    },
+    "エア": {
+        "에어": "에아",
+    },
+    "ジリオン": {
+        "질리온": "지리온",
+    },
 }
 
 SOURCE_SUBSTITUTIONS: dict[str, tuple[tuple[str, str], ...]] = {
@@ -88,8 +99,6 @@ SOURCE_SUBSTITUTIONS: dict[str, tuple[tuple[str, str], ...]] = {
     ),
 }
 
-# Current-record rewrites are intentionally whole-string exact. If the corpus
-# changes first, these simply do not match rather than applying to stale text.
 EXACT_RECORD_REWRITES: dict[int, tuple[str, str]] = {
     270054: (
         "이걸로 <value:$28> 님은,결승 대회에 출전할 권리를 얻었습니다.　결승 대회에 참가할 생각이 있다면 8월에여기로 와 주세요. 기다리고 있겠습니다.<end>",
