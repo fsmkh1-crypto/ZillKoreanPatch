@@ -10,7 +10,7 @@ korean = "어이, 방랑자! 잘 왔다. 이리 와! 엘리스가 긴급 소집�
 
 ["520002"]
 japanese = "エリエナイ公レムオン様と<line-break>ノーブル伯<value:$28>様が<line-break>おいでです、総司令閣下。<end>"
-korean = "엘리에나이 공 레무온 님과 노블 백작 <value:$28>님께서 오셨습니다, 총사령관 각하.<end>"
+korean = "엘리에나이 공 레몬 님과 노블 백작 <value:$28>님께서 오셨습니다, 총사령관 각하.<end>"
 
 ["520003"]
 japanese = "…仕方ない、では<line-break>始めるとしよう。<end>"
@@ -538,7 +538,7 @@ korean = "총사령관 각하, 노블 백작 <value:$28> 님께서 오셨습니�
 
 ["520134"]
 japanese = "<if><value:$29><equal>%0レムオンの弟か…。<end>レムオンの妹か…。<end>"
-korean = "<if><value:$29><equal>%0레므온의 남동생인가….<end>레므온의 여동생인가….<end>"
+korean = "<if><value:$29><equal>%0레몬의 남동생인가….<end>레몬의 여동생인가….<end>"
 
 ["520135"]
 japanese = "では、作戦会議を始める。<end>"
