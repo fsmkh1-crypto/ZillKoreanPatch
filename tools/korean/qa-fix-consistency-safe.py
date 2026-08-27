@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Conservative QA-3 exact-source consistency fixer.
 
-Only explicitly reviewed Japanese sources are eligible. Within those sources,
-known-safe spacing variants may be matched after normalizing ASCII/full-width
-whitespace. Dialogue/register, punctuation, and unresolved names are untouched.
+Only explicitly reviewed Japanese sources are eligible. Safe spacing fixes use
+ASCII/full-width whitespace equivalence; lexical fixes require an exact reviewed
+source and exact known-bad Korean variant. Dialogue/register and unresolved
+names are untouched.
 """
 from __future__ import annotations
 
@@ -29,9 +30,6 @@ def no_space(text: str) -> str:
     return WS_RE.sub("", text)
 
 
-# normalized Japanese source -> reviewed canonical Korean.
-# A row is rewritten only when its Korean differs from canonical by whitespace
-# alone, so this cannot collapse lexical or punctuation differences.
 SPACE_CANONICAL: dict[str, str] = {
     norm_source("<value:$28>様！<end>"): "<value:$28>님!<end>",
     norm_source("ノエル！　<end>"): "노엘!<end>",
@@ -44,6 +42,13 @@ SPACE_CANONICAL: dict[str, str] = {
     norm_source("サプキュア<end>"): "서브 큐어<end>",
     norm_source("ゴブゴブ団員<end>"): "고브고브 단원<end>",
     norm_source("気がついたか？放っておいてくれて大丈夫だったのに、…大きなお世話だ。<end>"): "정신이 들었나? 그냥 내버려 둬도 괜찮았는데, …쓸데없는 참견이군.<end>",
+}
+
+# Exact-source lexical fixes require an exact known-bad Korean surface.
+EXACT_VARIANTS: dict[str, dict[str, str]] = {
+    norm_source("冒険者<end>"): {
+        "모험자<end>": "모험가<end>",
+    },
 }
 
 
@@ -84,12 +89,19 @@ def main() -> None:
                 current = None
                 continue
 
-            canonical = SPACE_CANONICAL.get(norm_source(ja))
+            src = norm_source(ja)
+            new = ko
+            canonical = SPACE_CANONICAL.get(src)
             if canonical is not None and ko != canonical and no_space(ko) == no_space(canonical):
-                lines[i] = "korean = " + json.dumps(canonical, ensure_ascii=False)
+                new = canonical
+            elif src in EXACT_VARIANTS and ko in EXACT_VARIANTS[src]:
+                new = EXACT_VARIANTS[src][ko]
+
+            if new != ko:
+                lines[i] = "korean = " + json.dumps(new, ensure_ascii=False)
                 dirty = True
                 changed_records += 1
-                key = f"{ko}->{canonical}"
+                key = f"{ko}->{new}"
                 counts[key] = counts.get(key, 0) + 1
             current = None
 
