@@ -40,6 +40,10 @@ korean = "빈칸<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["400011"]
+japanese = "<if><value:$01><equal>2ね、ネメアさん！？ <end><if><value:$01><equal>4あ！　あの英雄ネメアかも！？ <end><if><value:$01><equal>5あ！　ネメアじゃんか！？ <end><if><value:$01><equal>6あ！　英雄ネメア！？ <end><if><value:$01><equal>12空 <end><if><value:$01><equal>13お前は、<line-break>…ネメアか。 <end><if><value:$01><equal>10ね、ネメア…！？ <end><if><value:$01><equal>14…お主は、<line-break>…ね、ネメアか！？ <end><if><value:$01><equal>15…ね、ネメアさん！？ <end><if><value:$01><equal>17誰よ、誰よ、今度は誰なのよー！<line-break>…って、あなた、ネメア！？ <end><if><value:$01><equal>19あぁ！　ネメアさんだぁ！ <end><if><value:$01><equal>193あ、あなたは<line-break>英雄ネメアさん！？<end><if><value:$01><equal>191あなたは…ネメア！？<end>あ！　英雄ネメアだ！ <end>"
+korean = "<if><value:$01><equal>2네, 네메아 씨!? <end><if><value:$01><equal>4아! 저 영웅 네메아일지도!? <end><if><value:$01><equal>5아! 네메아잖아!? <end><if><value:$01><equal>6아! 영웅 네메아!? <end><if><value:$01><equal>12공백 <end><if><value:$01><equal>13너는… 네메아인가. <end><if><value:$01><equal>10네, 네메아…!? <end><if><value:$01><equal>14…그대는… 네, 네메아인가!? <end><if><value:$01><equal>15…네, 네메아 씨!? <end><if><value:$01><equal>17누구야, 누구야, 이번엔 또 누구냐고―! …잠깐, 당신 네메아!? <end><if><value:$01><equal>19아아! 네메아 씨다아! <end><if><value:$01><equal>193다, 당신은 영웅 네메아 씨!?<end><if><value:$01><equal>191당신은… 네메아!?<end>아! 영웅 네메아다! <end>"
+
 ["400012"]
 japanese = "危ないところだったな。<end>"
 korean = "큰일 날 뻔했군.<end>"
@@ -171,6 +175,10 @@ korean = "네메아 씨, 감사합니다!<end>"
 ["400046"]
 japanese = "こちらこそ。<end>"
 korean = "나야말로.<end>"
+
+["400047"]
+japanese = "<if><value:$01><equal>2それじゃ、町を出るときに<line-break>また会いましょ、<value:$28>。 <end><if><value:$01><equal>15それじゃ、<value:$28>。<line-break>また町を出るときに合流しよう。 <end><if><value:$01><equal>19それじゃ、<value:$28>。<line-break>また町を出るときに合流しようね。 <end><if><value:$01><equal>10それじゃ、姉ちゃん。<line-break>また町を出るときに合流しようぜ。 <end><if><value:$01><equal>193そ、それじゃ、失礼します！<line-break>町を出る時にまた！<end><if><value:$01><equal>191それじゃ、<line-break>町を出るときに合流しましょ。<end>"
+korean = "<if><value:$01><equal>2그럼 마을을 나갈 때 다시 만나자, <value:$28>. <end><if><value:$01><equal>15그럼 <value:$28>. 마을을 나갈 때 다시 합류하자. <end><if><value:$01><equal>19그럼 <value:$28>. 마을을 나갈 때 다시 합류하자. <end><if><value:$01><equal>10그럼, 누나. 마을을 나갈 때 다시 합류하자. <end><if><value:$01><equal>193그, 그럼 실례하겠습니다! 마을을 나갈 때 다시 뵙죠!<end><if><value:$01><equal>191그럼 마을을 나갈 때 합류하자.<end>"
 
 ["400048"]
 japanese = "<if><value:$01><equal>5ホントにリベルダムだぜ。<line-break>…すげえ。 <end>…ここは、…リベルダム。 <end>"
@@ -687,6 +695,10 @@ korean = "Cool에 대해 알려 줬으면 해<end>"
 ["400182"]
 japanese = "Ｂｅｌｉｅｆは信仰心だ。<line-break>神に仕える神官や僧侶には<line-break>なくちゃならない資質だよな。<line-break>いやす力が欲しければ、<line-break>信仰心を持つこった。<end>"
 korean = "Belief는 신앙심이다. 신을 섬기는 신관이나 승려에겐 꼭 필요한 자질이지. 치유의 힘을 원한다면 신앙심을 가져라.<end>"
+
+["400183"]
+japanese = "<select><value:$20>%3Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を<line-break>身につけることができる。<line-break>人間を超えた動物の力は<line-break>きっと役に立つはずさ。<end>Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を<line-break>身につけることができる。<line-break>人間を超えた動物の力は<line-break>きっと役に立つはずさ。<end>Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を　　　　　　　<line-break>身につけることができる。<line-break>ただ、あんまりガサツじゃ<line-break>身につかないソウルもあるってウワサだ。<line-break>よく考えてから、のばしてくれ。<end>"
+korean = "<select><value:$20>%3Wild는 거친 성향이야. 이걸로 위대한 자연의 힘을 익힐 수 있어. 인간을 뛰어넘는 동물의 힘은 분명 도움이 될 거야.<end>Wild는 거친 성향이야. 이걸로 위대한 자연의 힘을 익힐 수 있어. 인간을 뛰어넘는 동물의 힘은 분명 도움이 될 거야.<end>Wild는 거친 성향이야. 이걸로 위대한 자연의 힘을 익힐 수 있어. 다만 너무 거칠면 얻지 못하는 소울도 있다는 소문이야. 잘 생각해서 키워 줘.<end>"
 
 ["400184"]
 japanese = "Ｃｏｏｌは冷静さ。<line-break>冷静な判断力は探検家には　　　　　　　<line-break>必要な能力だよな。<line-break>すばやくなりたいときや<line-break>器用になりたいときは<line-break>この資質をのばしてソウルを得るといい。<end>"

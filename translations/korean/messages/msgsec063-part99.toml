@@ -260,6 +260,10 @@ korean = "<if><value:$29><equal>%0오빠, 오빠. 인형을 되찾아 줘서 고
 japanese = "タルテュバを追い払ってくれて<line-break>ありがとうございました。<end>"
 korean = "타르튜바를 쫓아내 주셔서 감사합니다.<end>"
 
+["630065"]
+japanese = "<if><value:$29><equal>%0お兄ちゃん、お兄ちゃん！　　　　　　<line-break>あたしの宝物のお人形ね、<line-break>　<line-break>この間、いじわるな貴族に<line-break>取られちゃったけど、<line-break>ゼネテスが取り返してくれたんだよ。<end>お姉ちゃん、お姉ちゃん！　　　　　　<line-break>あたしの宝物のお人形ね、<line-break>　<line-break>この間、いじわるな貴族に<line-break>取られちゃったけど、<line-break>ゼネテスが取り返してくれたんだよ。<end>"
+korean = "<if><value:$29><equal>%0오빠, 오빠! 내 보물 인형 있지, 전에 심술궂은 귀족한테 빼앗겼는데 제네테스가 되찾아 줬어.<end>언니, 언니! 내 보물 인형 있지, 전에 심술궂은 귀족한테 빼앗겼는데 제네테스가 되찾아 줬어.<end>"
+
 ["630066"]
 japanese = "そういえば、ゼネテスのおじちゃん　　<line-break>さいきん来ないなぁ…。<line-break>　<line-break>おじちゃんのお嫁さんに<line-break>なってあげるってやくそくしたのに…。<line-break>女の子を待たせるなんて、ダメね。<end>"
 korean = "그러고 보니 제네테스 아저씨 요즘 안 오네…. 아저씨 신부가 되어 주겠다고 약속했는데…. 여자애를 기다리게 하면 안 되지.<end>"

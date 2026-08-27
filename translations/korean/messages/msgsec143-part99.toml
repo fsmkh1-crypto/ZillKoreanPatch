@@ -136,6 +136,10 @@ korean = "다들 아침부터 술에 절어서는… 저 녀석들 보면 알겠
 japanese = "おかしら、そりゃないっスよ。<line-break>俺たちだって、<line-break>好きでこうしてるわけじゃねえっス。<end>"
 korean = "대장, 그건 너무하잖아요. 우리도 좋아서 이러는 건 아니라고요.<end>"
 
+["1430038"]
+japanese = "<if><value:$01><equal>4うわっ、かなりお酒クサイかも。 <end><if><value:$01><equal>12海賊が陸に上がりっきりとはね。<line-break>何かわけありみたいだな。<line-break>いったい、何があったんだ？ <end><if><value:$01><equal>15海賊が陸に上がりっきり？<line-break>何があったんですか？ <end><if><value:$01><equal>19ほんと、お酒くさ～い。<line-break>でも、どうして海へ出ないのぉ？ <end>わっ！　本当に、お酒くさい。<line-break>でも、どうして海へ出ないの？ <end>"
+korean = "<if><value:$01><equal>4우왓, 술 냄새가 꽤 심한데. <end><if><value:$01><equal>12해적이 계속 육지에만 있다니. 무슨 사정이 있는 것 같군. 대체 무슨 일이 있었던 거야? <end><if><value:$01><equal>15해적이 계속 육지에만 있다고요? 무슨 일이 있었나요? <end><if><value:$01><equal>19정말 술 냄새 심해~. 그런데 왜 바다로 안 나가아? <end>왓! 정말 술 냄새가 심해. 그런데 왜 바다로 안 나가? <end>"
+
 ["1430039"]
 japanese = "大イカよ。<line-break>港近くにまで姿を現して、<line-break>船をかたっぱしから沈めてしまうの。<end>"
 korean = "대왕오징어야. 항구 근처까지 나타나서 배를 닥치는 대로 가라앉혀 버려.<end>"
@@ -155,6 +159,10 @@ korean = "그 대왕오징어를 퇴치해 줬으면 해.<end>"
 ["1430044"]
 japanese = "…そうね。<line-break>勝手なことを言ってるって<line-break>私も思うわ。<end>"
 korean = "…그래. 나도 제멋대로인 말을 하고 있다고 생각해.<end>"
+
+["1430045"]
+japanese = "<if><value:$01><equal>4突然、おそいかかってきておいて、<line-break>今度は大イカを倒せだなんて、<line-break>この女、かなり強引かも！ <end><if><value:$01><equal>12そりゃまたムシのいい話だな。<line-break>いきなり斬りかかった挙げ句に<line-break>イカを退治しろだって？ <end><if><value:$01><equal>15突然、おそいかかってきておいて、<line-break>今度は大イカを倒せって言うの？<line-break>それって、ムシがよすぎだよ！ <end><if><value:$01><equal>19そんなこと<line-break>急に言われたって困るよぉ。<line-break>ねぇ、<value:$28>？ <end>そんなこと<line-break>急に言われたって困るよ。<line-break>ねぇ、<value:$28>？ <end>"
+korean = "<if><value:$01><equal>4갑자기 덤벼들어 놓고 이번에는 대왕오징어를 쓰러뜨리라니, 이 여자 꽤 막무가내일지도! <end><if><value:$01><equal>12그거 참 자기 편한 소리군. 갑자기 칼을 휘두른 끝에 오징어까지 퇴치해 달라고? <end><if><value:$01><equal>15갑자기 덤벼들어 놓고 이번에는 대왕오징어를 쓰러뜨리라고? 그건 너무 자기 편한 얘기잖아! <end><if><value:$01><equal>19갑자기 그런 말 들으면 곤란해애. 그렇지, <value:$28>? <end>갑자기 그런 말 들으면 곤란해. 그렇지, <value:$28>? <end>"
 
 ["1430046"]
 japanese = "…そうね。<line-break>勝手なことを言ってるって<line-break>私も思うわ。<end>"

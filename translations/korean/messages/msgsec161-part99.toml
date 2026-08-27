@@ -612,6 +612,10 @@ korean = "나도 감사하게 해 줘. 고맙다, <value:$28>. 앞으로도 그 
 japanese = "<value:$28>！<line-break>紺碧の洞窟の怪物を倒したのか！？<end>"
 korean = "<value:$28>! 감청색 동굴의 괴물을 쓰러뜨린 거야!?<end>"
 
+["1610154"]
+japanese = "<if><value:$2A><greater-equal>50そうか！！　　　　　　　　　　　<line-break>さすがは<value:$2B>だ！<line-break>　<line-break>これで帝国のコロル石採掘作業も<line-break>もとどおりの軌道に乗れるだろう。<line-break>本当によくやってくれた。<end>そうか！！　　　　　　　　　　　<line-break>さすがは<value:$28>だ！<line-break>　<line-break>これで帝国のコロル石採掘作業も<line-break>もとどおりの軌道に乗れるだろう。<line-break>本当によくやってくれた。<end>"
+korean = "<if><value:$2A><greater-equal>50그런가!! 역시 <value:$2B>답군! 이제 제국의 코롤석 채굴 작업도 원래 궤도로 돌아갈 수 있겠어. 정말 잘해 줬다.<end>그런가!! 역시 <value:$28>답군! 이제 제국의 코롤석 채굴 작업도 원래 궤도로 돌아갈 수 있겠어. 정말 잘해 줬다.<end>"
+
 ["1610155"]
 japanese = "しかし、あの町外れの小僧が　　　　<line-break>ここまで立派になるとはな。<line-break>　<line-break>正直言って意外だが、それ以上に<line-break>お前の勇姿を見ることは嬉しいぞ。<line-break>いや、本当に大したもんだよ。<end>"
 korean = "하지만 그 변두리 꼬마가 여기까지 훌륭해질 줄이야. 솔직히 의외지만, 그보다 네 늠름한 모습을 보는 게 더 기쁘군. 정말 대단해.<end>"

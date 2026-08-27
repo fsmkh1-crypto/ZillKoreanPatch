@@ -4,6 +4,10 @@
 japanese = "PSP用新スタートイベント16用開始<end>"
 korean = "PSP용 신규 시작 이벤트 16용 시작<end>"
 
+["2510001"]
+japanese = "フフフ。よく来た<value:$28>。<line-break>どうやら決心がついたようだな。<line-break>　<line-break>さあ、余と共に新しき人類の<line-break>時代を歩むのだ。<line-break>　<line-break>この世の苦しみも悲しみも<line-break>一切が消え去った世界を<line-break><value:$28>に見せてやろう。<line-break>すべての人々が超人類となった<line-break>理想の世界…。<line-break>　<line-break>そこではもはや、汝が造られた存在で<line-break>あることを問う者はいまい。<line-break>　<line-break>さあ、今こそ時は満ちた。<line-break>余と共に来るがよい。<end>"
+korean = "후후후. 잘 왔다, <value:$28>. 아무래도 결심이 선 모양이군. 자, 짐과 함께 새로운 인류의 시대를 걷는 것이다. 이 세상의 고통도 슬픔도 모두 사라진 세계를 <value:$28>에게 보여 주마. 모든 사람들이 초인류가 된 이상적인 세계…. 그곳에서는 더 이상 네가 만들어진 존재라는 사실을 따지는 자도 없을 것이다. 자, 이제 때가 무르익었다. 짐과 함께 오너라.<end>"
+
 ["2510002"]
 japanese = "そんなことはできない<end>"
 korean = "그럴 수는 없어.<end>"

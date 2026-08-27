@@ -568,6 +568,10 @@ korean = "다, 다행이다…. 후… 후후후… 저, 저는… 조금 떨고
 japanese = "フ…フフ…<line-break>私…は…。<line-break>私…は…。<end>"
 korean = "후… 후후… 나…는…. 나…는….<end>"
 
+["770144"]
+japanese = "<select><value:$20>%3お母…様…<line-break>アアア…！　<line-break>ああ…私の目の前で…死ん…だ…。<line-break>私には…虚無しか残されない。<line-break>お…お母様…。<line-break>お母様を殺さないでぇェ！！<end>すべてが…完全な静寂と…。　　　<line-break>フフフ…すべて…が…<line-break>完全なる…平等に…。<line-break>私と…あなたはひとつになる…。<line-break>フフ…それ以上…<line-break>ゼロに…なぁる…。ウフフフッ…。<end>私は…<line-break>私は…<line-break>私は…なぜ見たのかしら…。　<line-break>この世界を…見てしまった…。<line-break>キレイに…なりたい。<line-break>そして…、あの人…。<end>"
+korean = "<select><value:$20>%3어머…니… 아아아…! 아아… 내 눈앞에서… 죽었…어…. 내게는… 허무밖에 남지 않아. 어… 어머니…. 어머니를 죽이지 마아아!!<end>모든 것이… 완전한 정적과…. 후후후… 모든 것이… 완전한… 평등으로…. 나와… 너는 하나가 된다…. 후후… 그 이상으로… 제로가… 돼에…. 우후후훗….<end>나는… 나는… 나는… 왜 본 걸까…. 이 세계를… 봐 버렸어…. 아름다워지고… 싶어. 그리고… 그 사람….<end>"
+
 ["770145"]
 japanese = "あ…<line-break><value:$28>様。<line-break>また、いらしてくださったのですね。<line-break>…うれしい。<end>"
 korean = "아… <value:$28>님. 또 와 주셨군요. …기뻐요.<end>"

@@ -56,6 +56,10 @@ korean = "<select><value:$20>%2지금까지 몇 명이나 저 검에 도전했�
 japanese = "ときどき、こうやって村の力自慢や<line-break>通りがかりの冒険者が挑戦するのさ。<line-break>それをひやかすのが、わしの道楽でね。<end>"
 korean = "가끔 이렇게 마을의 힘센 사람이나 지나가던 모험가가 도전하지. 그걸 구경하며 놀리는 게 내 취미라네.<end>"
 
+["550014"]
+japanese = "<select><value:$20>%3ノエル様は、足におケガをなされた　　<line-break>お父上の代わりに、ときどき、付近の<line-break>怪物退治などにも活躍されている。<line-break>剣の腕もたつ、なかなか利発な<line-break>お嬢さんだ。しかし、惜しいことだ。<line-break>男だったら、竜騎士にもなれたものを。<end>ここの領主様は、<line-break>かつてこの地を荒らした石化獣を　　<line-break>倒した勇者の子孫さ。<line-break>つまり、ノエル様は<line-break>あの剣の持ち主の子孫というわけだ。<line-break>きっと、引き抜くことができるよ。<end>ノエル様からは<line-break>かねがね、英雄の気を感じていたのだ。<end>"
+korean = "<select><value:$20>%3노엘 님은 다리를 다치신 아버님을 대신해 가끔 근처 괴물 퇴치에서도 활약하고 계셔. 검술 솜씨도 뛰어난 꽤 영리한 아가씨지. 하지만 아까워. 남자였다면 용기사도 될 수 있었을 텐데.<end>이곳 영주님은 예전에 이 땅을 황폐하게 만든 석화수를 쓰러뜨린 용자의 후손이야. 그러니까 노엘 님은 저 검 주인의 후손이라는 거지. 분명 뽑아낼 수 있을 거야.<end>노엘 님에게서는 오래전부터 영웅의 기운을 느끼고 있었어.<end>"
+
 ["550015"]
 japanese = "こんな地図にも載っていないような<line-break>珍しい村で、こんな珍しい風習があったなんて。<line-break>実際に世界を旅してないとわからなかったなあ。<line-break>あ、私は数が減って、珍しい存在になった<line-break>コーンスの旅人です。<line-break>う～ん、自分の目で確かめないとなあ。<end>"
 korean = "이런 지도에도 실리지 않은 희귀한 마을에 이런 특이한 풍습이 있었다니. 직접 세계를 돌아다니지 않았다면 몰랐겠군. 아, 나는 수가 줄어 희귀한 존재가 된 코른스 여행자야. 음, 역시 직접 눈으로 확인해야겠어.<end>"
@@ -87,6 +91,10 @@ korean = "응, 가 보자. 엄청 신경 쓰이기도 하고.<end>"
 ["550023"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
+
+["550024"]
+japanese = "<if><value:$01><equal>13…やめておけ。お前程度のひよっこが<line-break>首を突っ込むべきことではない。<line-break><line-break>…と言っても、<line-break>行く気なのだろう？<line-break>死んで後悔しても、知らんぞ。<end><if><value:$01><equal>14そうじゃな。<line-break>行ってみよう。<end><if><value:$01><equal>19そうだね。<line-break>行ってみよ？<end><if><value:$01><equal>10そうだね、姉ちゃん。<line-break>行ってみよう。<end>そうだね。<line-break>行ってみよう。<end>"
+korean = "<if><value:$01><equal>13…그만둬. 너 같은 풋내기가 끼어들 일이 아니다. …라고 해도 갈 생각이겠지? 죽고 나서 후회해도 난 모른다.<end><if><value:$01><equal>14그렇구나. 가 보자.<end><if><value:$01><equal>19그래. 가 보자?<end><if><value:$01><equal>10그래, 누나. 가 보자.<end>그래. 가 보자.<end>"
 
 ["550025"]
 japanese = "なるほど、ね。　　　　　　　　<end>"
@@ -324,6 +332,10 @@ korean = "쫓아가자, <value:$28>!<end>"
 japanese = "私の心配なんてしてないで<line-break>さっさと奴を追うの！<line-break>もう！　ほんっとにグズなんだからぁ！<end>"
 korean = "내 걱정은 그만하고 빨리 녀석을 쫓아가! 정말! 답답해서 못 봐 주겠네!<end>"
 
+["550084"]
+japanese = "<if><value:$01><equal>22アイリーン、それはないよ。　　　　<line-break>少し、ひどいと思うなぁ。<line-break><value:$28>は君のこと<line-break>心配してくれてるんだよ？<line-break>やさしさ、理解してあげなきゃ。<end><if><value:$01><equal>15ねえ、アイリーン、それはないよ。　<line-break>少し、ひどいと思う。<line-break>　<line-break><value:$28>は君のこと<line-break>心配してくれてるんだよ？<line-break>やさしさ、理解してあげなきゃ。<end>アイリーン、ひどいよ。　　　　　<line-break>ルルアンタ、悲しい！<line-break>　<line-break>ねえ、<value:$28>は<line-break>アイリーンのこと<line-break>心配してくれてるんだよぉ？。<end>"
+korean = "<if><value:$01><equal>22아이린, 그건 아니야. 좀 심하다고 생각해. <value:$28>은 네 걱정을 해 주고 있잖아? 그 다정함을 이해해 줘야 해.<end><if><value:$01><equal>15있지, 아이린, 그건 아니야. 좀 심하다고 생각해. <value:$28>은 네 걱정을 해 주고 있잖아? 그 다정함을 이해해 줘야 해.<end>아이린, 너무해. 루루안타, 슬퍼! 있지, <value:$28>은 아이린 걱정을 해 주고 있는 거라구우?<end>"
+
 ["550085"]
 japanese = "<if><value:$01><equal>22<value:$28>のこと<line-break>考えてるのはわかるけどさ。<line-break>きみ、彼の悪い保護者になってるよ。<end><if><value:$01><equal>15<value:$28>のこと考えてるの<line-break>わかるけど。君、<value:$28>の<line-break>悪い保護者になってるよ。　　　　　<end><value:$28>のこと考えてるの<line-break>わかるけど、もっと、<line-break>アイリーンも理解してあげなきゃ。<end>"
 korean = "<if><value:$01><equal>22<value:$28>를 생각하는 건 알겠지만 말이야. 너, 그 애한테 나쁜 보호자가 되고 있어.<end><if><value:$01><equal>15<value:$28>를 생각하는 건 알겠지만. 너, <value:$28>한테 나쁜 보호자가 되고 있어.<end><value:$28>를 생각하는 건 알겠지만, 아이린도 좀 더 이해해 줘야 해.<end>"
@@ -395,6 +407,10 @@ korean = "뭐냐? 뭐냐? 순간 죽은 마누라가 보였다고!<end>"
 ["550103"]
 japanese = "<value:$28>、追うぞ！<line-break>とにかく、危険な奴じゃということは<line-break>わかったからの！<end>"
 korean = "<value:$28>, 쫓아가자! 아무튼 위험한 놈이라는 건 알았으니까!<end>"
+
+["550104"]
+japanese = "<if><value:$01><equal>17ムキー！　ド下等生物の分際で<line-break>いい根性していてよぉぉ！　ムキー！<line-break>　<line-break>高貴で優雅なエルフのこのアタクシが<line-break>天誅加えてさしあげてよぉぉぉ！<line-break>地面にめり込むほど土下座させてやる！<end>ちっくしょう！<line-break>この俺を本気で怒らせやがったな！<line-break>　<line-break>涙もハナミズも枯れ果てるまで<line-break>泣くほど、後悔させてやるぜ！！<line-break>行くぜ、<value:$28>！<end>"
+korean = "<if><value:$01><equal>17끼익! 하등생물 주제에 배짱 하나는 좋구나아아! 끼익! 고귀하고 우아한 엘프인 이 몸이 천벌을 내려 주겠어어어! 땅에 처박힐 정도로 엎드려 빌게 해 주마!<end>젠장! 이 몸을 진짜로 화나게 했겠다! 눈물도 콧물도 마를 때까지 울 만큼 후회하게 해 주마!! 간다, <value:$28>!<end>"
 
 ["550105"]
 japanese = "＜無＞<end>"

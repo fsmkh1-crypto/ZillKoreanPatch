@@ -2264,6 +2264,10 @@ korean = "무슨 정보라도 있어?<end>"
 japanese = "そうですか…<line-break>こちらも収穫なしです。<end>"
 korean = "그렇습니까… 이쪽도 수확이 없습니다.<end>"
 
+["1350573"]
+japanese = "<select><value:$20>%3え？<line-break>私の顔…、うれしそうに<line-break>見えますか…。<line-break>…困りました。<line-break>感情を押し殺すのは得意だったのに、<line-break>隠せないなんて。<end>はあ…<line-break>でも、私なんて…。<line-break> <line-break>いえ…なんでも…ございません。<line-break>だいそれた望みが胸に生まれて<line-break>苦しいだけです。<end><value:$28>様<line-break>あの…<line-break> <line-break>…なんでもございません。<line-break>こういう気持ちははじめてなので<line-break>どう処理してよいのか、とまどいます。<end>"
+korean = "<select><value:$20>%3네? 제 얼굴이… 기뻐 보이나요…. …곤란하군요. 감정을 억누르는 건 자신 있었는데 숨길 수 없다니.<end>하아… 하지만 저 같은 사람이…. 아뇨… 아무것도… 아닙니다. 분에 넘치는 바람이 마음속에 생겨서 괴로울 뿐입니다.<end><value:$28> 님, 저기…. …아무것도 아닙니다. 이런 마음은 처음이라 어떻게 해야 할지 당황스럽습니다.<end>"
+
 ["1350574"]
 japanese = "本当に<value:$28>様には<line-break>何とお礼を言ってよいやら。<line-break> <line-break>あなた様が来てくださることが<line-break>どれだけ私たち姉妹の<line-break>救いになっていることか…。<end>"
 korean = "정말 <value:$28> 님께 뭐라 감사드려야 할지 모르겠습니다. 당신이 와 주시는 게 저희 자매에게 얼마나 큰 구원이 되는지…<end>"
