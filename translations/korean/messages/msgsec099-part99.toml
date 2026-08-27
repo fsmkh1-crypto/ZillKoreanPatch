@@ -68,6 +68,10 @@ korean = "어머, <value:$28>… 지금부터 식사하려고? 네가 여기서 
 japanese = "ディンガルで食べるよりも<line-break>ロストールで食べる方が<line-break>おいしいなんて、おかしいわね。<line-break>それじゃ、私は行くわ。<line-break>今度、機会があれば、<line-break>２人で食事したいわね。<end>"
 korean = "딩갈에서 먹는 것보다 로스토올에서 먹는 게 더 맛있다니 이상하네. 그럼 난 갈게. 다음에 기회가 되면 둘이서 식사하고 싶네.<end>"
 
+["990018"]
+japanese = "ものすごく、おきれいな方ですよね。<line-break>背もスラッとして、物腰も上品で…。<line-break>　<line-break>それに、あの…、なんていうか<line-break>ものすごい…胸…ですよね。<line-break>なんか…圧倒されちゃいますよね。<end>"
+korean = "정말 아름다운 분이시죠. 키도 훤칠하고 몸가짐도 우아하고…. 그리고 그… 뭐랄까, 정말… 가슴이… 대단하죠. 왠지 압도당하잖아요.<end>"
+
 ["990019"]
 japanese = "あ、<value:$28>だ。<line-break>声をかけようかな…。<line-break>そうしよっと！<line-break>あ、<value:$28>、<line-break>とっても、会いたかったの。<line-break>　<end>"
 korean = "아, <value:$28>이다. 말 걸어 볼까…. 그래야지! 아, <value:$28>, 정말 보고 싶었어.<end>"

@@ -100,6 +100,10 @@ korean = "…그래, 승산 낮은 도박이니까. 억지로 부탁할 순 없�
 japanese = "ま、戦場で会ったら、<line-break>適当に手加減してくれや。<end>"
 korean = "뭐, 전장에서 만나면 적당히 봐줘.<end>"
 
+["1800027"]
+japanese = "お前さんのアニキのレムオンは<line-break>今回の出兵に関して、貴族をまとめて<line-break>ボイコットをやってる。<line-break>お前さんも立場的には一緒に<line-break>来づらいだろうが、頼む<line-break>俺と来てくれ、<value:$28>。<end>"
+korean = "네 형 레몬은 이번 출병을 두고 귀족들을 모아 보이콧 중이야. 너도 입장상 같이 오기 어렵겠지만 부탁한다. 나와 함께 가 줘, <value:$28>.<end>"
+
 ["1800028"]
 japanese = "<if><value:$29><equal>%0…あばよ、<value:$28>。<end>…あばよ、<value:$28>。<line-break>いい女に、なれよ。<end>"
 korean = "<if><value:$29><equal>%0…잘 있어, <value:$28>.<end>…잘 있어, <value:$28>. 좋은 여자가 돼라.<end>"

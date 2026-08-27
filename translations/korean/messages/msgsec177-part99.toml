@@ -40,6 +40,10 @@ korean = "되돌리지 않는다<end>"
 japanese = "戻す<end>"
 korean = "되돌린다<end>"
 
+["1770012"]
+japanese = "祭壇の上にレオニックの証が置いてある。<line-break>レオニックの証とロッシマの道具を<line-break>交換しますか？<end>"
+korean = "제단 위에 레오닉의 증표가 놓여 있다. 레오닉의 증표와 롯시마의 도구를 교환하시겠습니까?<end>"
+
 ["1770013"]
 japanese = "交換しない<end>"
 korean = "교환하지 않는다<end>"
@@ -47,6 +51,10 @@ korean = "교환하지 않는다<end>"
 ["1770014"]
 japanese = "交換する<end>"
 korean = "교환한다<end>"
+
+["1770015"]
+japanese = "祭壇の上にロッシマの道具が置いてある。<line-break>ロッシマの道具とレオニックの証を<line-break>交換しますか？<end>"
+korean = "제단 위에 롯시마의 도구가 놓여 있다. 롯시마의 도구와 레오닉의 증표를 교환하시겠습니까?<end>"
 
 ["1770016"]
 japanese = "交換しない<end>"

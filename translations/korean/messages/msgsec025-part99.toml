@@ -20,6 +20,10 @@ korean = "<value:$15>까지 가는데 위험하니 누가 지켜주지 않겠습
 japanese = "当家の<value:$17><value:$16>の<line-break>護衛を引き受けてくれる者を探している。<line-break>目的地は、<value:$15>である。<line-break>褒美は、<value:$1A>ギアとらせる。<line-break><value:$1B>日以内で、無事に送り届けるように。<end>"
 korean = "우리 집의 <value:$17><value:$16>의 호위를 맡아 줄 사람을 찾고 있다. 목적지는 <value:$15>이다. 보수는 <value:$1A>기어를 주겠다. <value:$1B>일 이내에 무사히 데려다주도록.<end>"
 
+["250020"]
+japanese = "この町の<value:$17><value:$16>が、<line-break><value:$15>に行くことになりました。<line-break>護衛を務めてくださる方を募集します。<line-break><value:$1A>ギアをお礼としてさしあげます。<line-break>到着の期限は、<value:$1B>日以内です。<end>"
+korean = "이 마을의 <value:$17><value:$16>가 <value:$15>에 가게 되었습니다. 호위를 맡아 주실 분을 모집합니다. 사례로 <value:$1A>기어를 드리겠습니다. 도착 기한은 <value:$1B>일 이내입니다.<end>"
+
 ["250025"]
 japanese = "このたび、自治連の<value:$16>が、<line-break><value:$15>まで出向くことになっています。<line-break>その護衛を依頼したいと思います。<line-break><value:$1A>ギア用意しました。<line-break><value:$1B>日以内に到着してください。<end>"
 korean = "이번에 자치연의 <value:$16>가 <value:$15>까지 가게 되었습니다. 그 호위를 부탁드리고 싶습니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 도착해 주세요.<end>"

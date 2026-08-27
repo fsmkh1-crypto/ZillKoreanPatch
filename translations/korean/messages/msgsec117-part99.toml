@@ -256,6 +256,10 @@ korean = "뭐, 노엘이 원한다면 다음엔 내 미모로 캐물어 줄게. 
 japanese = "そ、そうだな…。<end>"
 korean = "그, 그렇군….<end>"
 
+["1170068"]
+japanese = "<if><value:$29><equal>%0ボウヤ、今回もありがと。<line-break>お礼はそのうち、させてもらうから<line-break>期待しててね？<end>子猫ちゃん、今回もありがと。<line-break>お礼はそのうち、させてもらうから<line-break>期待しててね？<end>"
+korean = "<if><value:$29><equal>%0꼬마야, 이번에도 고마워. 답례는 나중에 해 줄 테니 기대해도 좋아.<end>아기 고양이, 이번에도 고마워. 답례는 나중에 해 줄 테니 기대해도 좋아.<end>"
+
 ["1170069"]
 japanese = "えと…、<value:$28>さん、　　　<line-break>ありがとうございました！<line-break>　<line-break>わたしも<value:$28>さんに<line-break>負けないくらい、強くなりますから！<end>"
 korean = "저기… <value:$28>님, 감사합니다! 저도 <value:$28>님에게 지지 않을 만큼 강해질게요!<end>"

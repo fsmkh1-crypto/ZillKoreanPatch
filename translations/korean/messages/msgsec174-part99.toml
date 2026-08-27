@@ -552,6 +552,10 @@ korean = "좋아, 그럼 가자. 구세주가 기다리고 있어.<end>"
 japanese = "…よもや、このわしが<line-break>一発でやられるとはな…。<line-break>　<line-break><value:$28>……。<line-break>オイフェと……<line-break>…ゼリグを…頼む。<end>"
 korean = "…설마 이 내가 한 방에 당할 줄이야…. <value:$28>…… 오이페와…… …제리그를… 부탁한다.<end>"
 
+["1740147"]
+japanese = "<value:$28>…。薄情なようですが<line-break>今は急いで邪竜アズラゴーザの<line-break>復活を止めに行かなくてはなりません。<line-break>封印は、この断層の奥にある<line-break>洞窟の中です。<line-break>行きましょう。<value:$28>。<end>"
+korean = "<value:$28>…. 매정하게 들릴지 모르지만 지금은 서둘러 사룡 아즈라고자의 부활을 막으러 가야 합니다. 봉인은 이 단층 안쪽 동굴에 있습니다. 갑시다. <value:$28>.<end>"
+
 ["1740149"]
 japanese = "そのダークエルフが<line-break>邪竜へのいけにえか…。<end>"
 korean = "그 다크 엘프가 사룡에게 바칠 제물인가….<end>"

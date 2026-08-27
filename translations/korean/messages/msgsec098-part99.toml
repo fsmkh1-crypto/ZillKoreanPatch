@@ -140,6 +140,10 @@ korean = "그래, 당신 말이야. 모험자 1번.<end>"
 japanese = "…<value:$28>？<line-break>それが、あなたの名前？　　　　　　<line-break>　<line-break>ずいぶん、もっともらしい名前ね。<line-break>あなたなんて冒険者その１で十分よ。<line-break>来て。聞きたいことがあるの。<end>"
 korean = "…<value:$28>? 그게 네 이름이야? 꽤 그럴듯한 이름이네. 너 같은 건 모험자 1이면 충분해. 따라와. 묻고 싶은 게 있어.<end>"
 
+["980039"]
+japanese = "あなた、しゃべるゴブリンを<line-break>知らない？　　　　　　　　　　　　<line-break>　<line-break>先に言っておきますけれど、ふつうは<line-break>モンスターがしゃべったりしない<line-break>なんてことは、わかってるわよ。<end>"
+korean = "당신, 말하는 고블린 몰라? 미리 말해 두는데 보통 몬스터는 말을 하지 않는다는 정도는 나도 알고 있어.<end>"
+
 ["980041"]
 japanese = "…知らないんなら、別にいいのよ。<line-break>行っていいわ…。<end>"
 korean = "…모른다면 됐어. 가도 돼….<end>"
@@ -243,6 +247,10 @@ korean = "응? 후후, 싫다. 복수 같은 건 생각하지 않아. 아마 선
 ["980073"]
 japanese = "ふふ、また会ったわね。　　　　　<line-break><value:$28>。<line-break>　<line-break>今日、私、とっても機嫌がいいの。<line-break>ね、暇があったら<line-break>ちょっと、つきあってくれない？<end>"
 korean = "후후, 또 만났네, <value:$28>. 오늘 나 기분이 아주 좋아. 있지, 시간 있으면 잠깐 어울려 주지 않을래?<end>"
+
+["980074"]
+japanese = "この間、カルラって人に会ったの。　　<line-break>すごく、カッコいい女の子なのよ。<line-break>　<line-break>ロセンで愚王ペウダの手下が<line-break>村娘をさらおうとしてたの。<line-break>それに単身挑んでいたのがカルラよ。<end>"
+korean = "얼마 전에 카를라라는 사람을 만났어. 정말 멋진 여자아이더라. 로센에서 우왕 페우다의 부하들이 마을 처녀를 납치하려 했는데 거기에 혼자 맞서고 있던 게 카를라였어.<end>"
 
 ["980077"]
 japanese = "ディンガルって実力主義なのよ。<line-break>私も、ディンガルでなら<line-break>騎士になれるかもしれないわ。<end>"
@@ -567,6 +575,10 @@ korean = "딸은 건강해 보였나요?<end>"
 ["980167"]
 japanese = "大貴族リューガ家のご息女、<line-break>ノーブル伯が騎士になられたそうですが<line-break>あれは異例中の異例です。<end>"
 korean = "대귀족 류가 가문의 영애인 노블 백작이 기사가 되셨다고 하지만 그건 정말 이례적인 일입니다.<end>"
+
+["980168"]
+japanese = "そこで、あの子は<line-break>騎士になろうと<line-break>この国を出ていったのです。　　　　　<line-break>意地っ張りで、まっすぐな子です。<line-break>この町を出てからは、私にさえ<line-break>ほとんど会いに来てくれません。<end>"
+korean = "그래서 그 아이는 기사가 되겠다며 이 나라를 떠났습니다. 고집이 세고 곧은 아이예요. 이 마을을 떠난 뒤로는 저한테조차 거의 찾아오지 않네요.<end>"
 
 ["980169"]
 japanese = "しかし、そうですか。　　　　　　　　<line-break>元気そうでしたか。<line-break>…よかった。<line-break>また、アイリーンのことを<line-break>話に来てください。<line-break>ええと、失礼ですが…。<end>"
