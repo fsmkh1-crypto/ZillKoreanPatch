@@ -332,6 +332,10 @@ korean = "<value:$28>님!<end>"
 japanese = "ウフフ。<value:$28>様ったら<line-break>正面から入ってこられれば<line-break>よろしいのに…。<end>"
 korean = "후후. <value:$28>님도 참, 정면으로 들어오시면 될 텐데….<end>"
 
+["1920159"]
+japanese = "え？　町はずれの湖に<line-break>渡り鳥の群が来ているのですか？<end>"
+korean = "네? 마을 외곽 호수에 철새 떼가 왔다고요?<end>"
+
 ["1920160"]
 japanese = "そ、そうなのですか。<line-break>でも、ティアナには…<end>"
 korean = "그, 그런가요. 하지만 티아나는….<end>"
@@ -527,6 +531,10 @@ korean = "뭐야, 미련이라도 있어? 노엘과 <value:$28>을 이어 주겠
 ["1920257"]
 japanese = "…遠慮する。　　　　　　<line-break>　<line-break>　<line-break>俺にも、俺の人生を<line-break>自由に生きる権利がある。<end>"
 korean = "…사양하지. 나도 내 인생을 자유롭게 살 권리가 있어.<end>"
+
+["1920258"]
+japanese = "なによ！　失礼ね！<line-break>あとで、後悔しても知らないわよ！<end>"
+korean = "뭐야! 실례네! 나중에 후회해도 난 몰라!<end>"
 
 ["1920259"]
 japanese = "待ちなさい！<line-break>ちょっとは振り返ったりしなさいよ！<end>"

@@ -176,6 +176,10 @@ korean = "아버지와 어머니가 에아 님의 분노를 사서… 일족 모
 japanese = "わかってる。<end>"
 korean = "알고 있어.<end>"
 
+["370063"]
+japanese = "女王エア様は天地千年を見通すお方。<line-break>間違いなど…ない…。<line-break>それに、いまさら、<line-break>本当はどうだったのかなんて…、<line-break>もう、いいから…。<end>"
+korean = "여왕 에아 님은 천년의 세월을 내다보는 분이야. 틀릴 리가… 없어…. 이제 와서 진실이 어땠는지는… 이제 됐어….<end>"
+
 ["370064"]
 japanese = "あのとき、<value:$28>も<line-break>大変だったのよね。　　　　　　　　<line-break><value:$28>のお父さん<line-break>…イシュベノブおじさんの船が<line-break>行方不明になって…。<end>"
 korean = "그때 <value:$28>도 힘들었지. <value:$28>의 아버지… 이슈베노브 아저씨의 배가 실종돼서….<end>"
@@ -191,6 +195,10 @@ korean = "…계속 곁에 있어 줬구나.<end>"
 ["370071"]
 japanese = "そこの者！<end>"
 korean = "거기 너!<end>"
+
+["370073"]
+japanese = "他の風の氏族より男子をいれ、<line-break>リア氏族の復興を果たすことこそ、　　<line-break>肝要ぞ。<line-break>それよりも、<line-break>ここに怪しい者が<line-break>来なんだか？<end>"
+korean = "다른 바람의 씨족에서 남자를 받아 리아 씨족을 부흥시키는 것이 중요하다. 그보다 여기에 수상한 자가 오지 않았나?<end>"
 
 ["370077"]
 japanese = "許せない！！<end>"
@@ -519,6 +527,10 @@ korean = "아버지와 어머니가 에아 님의 노여움을 사서….<end>"
 ["370230"]
 japanese = "…わかってるさ。<end>"
 korean = "…알고 있어.<end>"
+
+["370231"]
+japanese = "女王エア様は天地千年を見通すお方。<line-break>間違いなど…ない…。<line-break>それに、いまさら、<line-break>本当はどうだったのかなんて…、<line-break>もう、いいんだ…。<end>"
+korean = "여왕 에아 님은 천년의 세월을 내다보는 분이야. 틀릴 리가… 없어…. 이제 와서 진실이 어땠는지는… 이제 됐어….<end>"
 
 ["370232"]
 japanese = "あのとき、<value:$28>も<line-break>大変だったんだよな。　　　　　　<line-break>お父さんの<line-break>…イシュベノブおじさんの船が<line-break>行方不明になって、さ…。<end>"

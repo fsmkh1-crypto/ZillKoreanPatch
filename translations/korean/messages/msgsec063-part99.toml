@@ -20,6 +20,10 @@ korean = "곤란하게 됐어. 그 벽보 말인데….<end>"
 japanese = "そこの人！<end>"
 korean = "거기 당신!<end>"
 
+["630012"]
+japanese = "さあ、クズども、早く出てこい！<line-break>タルテュバ様のお出ましだぞ！　　<line-break>　<line-break>今日はお前らと遊んでやろう。<line-break>たっぷりと死ぬまでなア！<end>"
+korean = "자, 쓰레기들아, 빨리 나와라! 타르튜바 님께서 나오셨다! 오늘은 너희와 놀아 주지. 실컷 죽을 때까지!<end>"
+
 ["630013"]
 japanese = "来たようです。<end>"
 korean = "온 모양입니다.<end>"
@@ -27,6 +31,10 @@ korean = "온 모양입니다.<end>"
 ["630016"]
 japanese = "なんだお前ら！<line-break>出てこないつもりなのかア！？<end>"
 korean = "뭐냐 너희들! 나올 생각이 없는 거냐!?<end>"
+
+["630022"]
+japanese = "ああ、こんなときに<line-break>ゼネテスさんがいてくれたら…。<line-break>　<line-break>あの人なら、<line-break>すぐにタルテュバを<line-break>追い帰してくれるでしょうに。<end>"
+korean = "아아, 이럴 때 제네테스 씨가 있어 줬다면…. 그 사람이라면 바로 타르튜바를 쫓아냈을 텐데.<end>"
 
 ["630024"]
 japanese = "殺す！！<line-break>お前ら全員、ブチのめしてやるゥ！<line-break>　<line-break>リベルダムから取り寄せた<line-break>戦闘用モンスターを連れてこい！！<end>"

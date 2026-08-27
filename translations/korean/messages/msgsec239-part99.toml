@@ -24,6 +24,10 @@ korean = "<value:$28>인가.<end>"
 japanese = "待て、<value:$28>。<end>"
 korean = "기다려, <value:$28>.<end>"
 
+["2390011"]
+japanese = "とりあえず<line-break>当座の金が必要ならば<line-break>町のギルドにでも行くのだな。<line-break>そこで冒険者として仕事をこなせば<line-break>食い物と寝場所には困らない。<end>"
+korean = "당장 돈이 필요하다면 마을 길드라도 가 봐. 거기서 모험자로 일을 하면 먹을 것과 잘 곳은 걱정하지 않아도 된다.<end>"
+
 ["2390014"]
 japanese = "いったい、ここで何をしていた？<end>"
 korean = "도대체 여기서 뭘 하고 있었지?<end>"

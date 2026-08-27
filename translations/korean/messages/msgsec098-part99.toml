@@ -96,6 +96,14 @@ korean = "<value:$28>잖아. 어때? 잘 지내고 있어?<end>"
 japanese = "そう…。私も負けてられないわね。<end>"
 korean = "그래…. 나도 질 수만은 없겠네.<end>"
 
+["980055"]
+japanese = "え？　オッシ先生？<line-break>あなた、先生のことを知っているの？<end>"
+korean = "네? 오시 선생님? 당신, 선생님을 알고 있어요?<end>"
+
+["980061"]
+japanese = "え？　どうしてそんなに<line-break>騎士になりたいのか、ですって？<end>"
+korean = "네? 왜 그렇게 기사가 되고 싶냐고요?<end>"
+
 ["980067"]
 japanese = "…ふふ、ごめんなさい。<line-break>うまく話せてないね、私。<end>"
 korean = "…후후, 미안해요. 저, 말을 잘 못하고 있네요.<end>"
@@ -215,6 +223,10 @@ korean = "아, <value:$28>님……. 어서 오세요…. 기뻐요…… 만나
 ["980176"]
 japanese = "<value:$28>さん、なんだか<line-break>たくましくなりましたね。<line-break>まるで騎士さまみたいです。<line-break>できれば、これからは<line-break>私だけの騎士さまに……。<end>"
 korean = "<value:$28>님, 왠지 듬직해지셨네요. 마치 기사님 같아요. 가능하다면 앞으로는 저만의 기사님으로…….<end>"
+
+["980177"]
+japanese = "………あ、いえ、すいません。<line-break>何言ってるんだろ私……。<end>"
+korean = "………아, 아니, 죄송해요. 나 무슨 말을 하는 거지……. <end>"
 
 ["980181"]
 japanese = "でも、やっぱり<value:$28>さんは<line-break><value:$28>さんでした。<line-break>私、うれしいです。<end>"

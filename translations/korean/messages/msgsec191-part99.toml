@@ -72,6 +72,10 @@ korean = "아트레이아는 신경 쓰지 않아도 된다<end>"
 japanese = "アトレイアにもできることはある<end>"
 korean = "아트레이아에게도 할 수 있는 일은 있어<end>"
 
+["1910035"]
+japanese = "でも、何もしないよりは<line-break>ましかもしれません。ですから私、<line-break>お祈りは続けるつもりです。<line-break>人々の不安が<line-break>少しでも軽くなるようにと。<end>"
+korean = "그래도 아무것도 하지 않는 것보다는 나을지도 몰라요. 그래서 저는 계속 기도할 생각입니다. 사람들의 불안이 조금이라도 가벼워지도록.<end>"
+
 ["1910041"]
 japanese = "あのふたりなら大丈夫<end>"
 korean = "그 둘이라면 괜찮다<end>"
@@ -239,6 +243,10 @@ korean = "네메아 님과 함께 다시 싸우게 될 줄은 몰랐어. 이제 
 ["1910136"]
 japanese = "ですから、<value:$28>。<line-break>運命などというものに<line-break>負けてはいけませんよ。<end>"
 korean = "그러니, <value:$28>. 운명 따위에 져서는 안 됩니다.<end>"
+
+["1910141"]
+japanese = "どうした。<line-break>最後の戦いの準備は<line-break>もういいのか？<end>"
+korean = "왜 그래. 마지막 싸움 준비는 벌써 끝났나?<end>"
 
 ["1910143"]
 japanese = "さぁ、あと一息じゃ。<line-break>戦いの準備はできたのか、<line-break><value:$28>？<end>"

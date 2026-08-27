@@ -576,6 +576,10 @@ korean = "<value:$28>, 당신은 내가 지켜 줄게….<end>"
 japanese = "おはよう、<value:$28>。<line-break>今日はもう旅に出るんですか？<end>"
 korean = "좋은 아침, <value:$28>. 오늘도 벌써 여행을 떠나는 건가요?<end>"
 
+["620266"]
+japanese = "やれやれ、鎧を着たまま<line-break>眠っていたんですか…。　　　　　<line-break>　<line-break>逆に、別れたい仲間を、望む所に<line-break>送り出してやることもできます。<end>"
+korean = "이런, 갑옷을 입은 채로 자고 있었습니까…. 반대로 헤어지고 싶은 동료를 원하는 곳으로 보내 줄 수도 있습니다.<end>"
+
 ["620270"]
 japanese = "お、おはようございます。<end>"
 korean = "아, 안녕하세요.<end>"
@@ -619,6 +623,10 @@ korean = "아길샤이어에 대해서<end>"
 ["620281"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
+
+["620287"]
+japanese = "禁断の聖杯については<line-break>今、ゴブゴブ団という<line-break>３匹のゴブリンが持っています。<line-break>とりあえず、現在<line-break>彼らはエンシャントにいますよ。<end>"
+korean = "금단의 성배는 지금 고브고브단이라는 세 고블린이 가지고 있습니다. 현재는 엔샨트에 있어요.<end>"
 
 ["620293"]
 japanese = "そうですか。<end>"
@@ -683,6 +691,10 @@ korean = "아, <value:$28>님! 돌아오셨군요. 기뻐요! 오늘도 아이�
 ["620313"]
 japanese = "<value:$28>さんは<line-break>ロストールに帰ってきても　　　<line-break>おかしくないと思います。<end>"
 korean = "<value:$28>님은 로스토올로 돌아와도 이상하지 않다고 생각해요.<end>"
+
+["620315"]
+japanese = "あ、…私、<line-break>少し、言いすぎちゃいましたね。　<line-break>　<line-break>…すいません。<line-break>アイリーンさんのこと、<line-break>悪く言う気はなかったんです。<end>"
+korean = "아… 제가 조금 심하게 말했네요. …죄송해요. 아이린 씨를 나쁘게 말할 생각은 없었어요.<end>"
 
 ["620317"]
 japanese = "<value:$28>さん。<line-break>元気を…くださいますか？<end>"

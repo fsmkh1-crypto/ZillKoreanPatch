@@ -224,6 +224,10 @@ korean = "난 나야. 변하지 않아.<end>"
 japanese = "よかった…。<line-break>変わらないでくださいね。<line-break>このまま、ずっと。<line-break>私の胸の内にある、<line-break><value:$28>さんのまま。<end>"
 korean = "다행이에요…. 변하지 말아 주세요. 이대로 계속, 제 마음속의 <value:$28>님 그대로.<end>"
 
+["1980128"]
+japanese = "…えっ？<line-break>その封印を解く方法ですか？<line-break>　<line-break>えーと、そ、そうですね。<line-break>確か、あったことはあったと<line-break>思うんですけど…その…。<end>"
+korean = "…네? 그 봉인을 푸는 방법인가요? 음, 그, 글쎄요. 분명 있긴 했던 것 같은데… 그게….<end>"
+
 ["1980132"]
 japanese = "どうしても？<end>"
 korean = "꼭 그래야 해?<end>"

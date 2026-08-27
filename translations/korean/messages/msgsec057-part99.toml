@@ -128,6 +128,10 @@ korean = "아길샤이어에 대해서<end>"
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
 
+["570065"]
+japanese = "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
+korean = "파괴신 울그의 부활에 쓰인 강력한 마도기입니다. 12종류가 있다고 하죠. 금단의 성배도 그중 하나입니다.<end>"
+
 ["570072"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
@@ -239,6 +243,10 @@ korean = "아니. 독을 닦아 내고 말고 할 것도 없이,<end>"
 ["570131"]
 japanese = "これ、たぶん買ってから一度も<line-break>手入れしてないよぉ。<end>"
 korean = "이거 아마 산 뒤로 한 번도 손질 안 했지?<end>"
+
+["570132"]
+japanese = "これじゃ、さびてて使いものに　<line-break>ならないよ。<line-break>　<line-break>それに見て。<line-break>この矢、フリントさんに<line-break>刺さってたのとぜんぜん違う…。<end>"
+korean = "이래선 녹슬어서 쓸 수가 없어. 그리고 봐. 이 화살, 플린트 씨에게 박혀 있던 것과 전혀 달라….<end>"
 
 ["570136"]
 japanese = "あん？<line-break>船賃はいいのかって？<end>いいんだ。<line-break>さっきこの男前と軽く勝負してな。<line-break>タダで乗っけてもらう事になったんだ。<end>"

@@ -112,6 +112,10 @@ korean = "노빈 각하. 무슨 일이십니까?<end>"
 japanese = "予は疲れた。先に休ませてもらう。<end>"
 korean = "나는 지쳤다. 먼저 쉬도록 하겠다.<end>"
 
+["420053"]
+japanese = "…！　さすがは我が妹よ！<line-break>レムオンめ、そうとは知らずに…。<line-break>　<line-break>ハハハハ！<line-break>小僧めに、一杯食わせてやれて<line-break>せいせいしたわ！<end>"
+korean = "…! 역시 내 동생이군! 레몬 녀석, 그것도 모르고…. 하하하하! 그 애송이를 한방 먹여서 속이 다 시원하군!<end>"
+
 ["420054"]
 japanese = "それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という娘…。<end>"
 korean = "그 정도도 알아채지 못할 남자는 아니겠지. …어리석은 형을 두었군. 그건 그렇고 <value:$28>이라는 여자….<end>"

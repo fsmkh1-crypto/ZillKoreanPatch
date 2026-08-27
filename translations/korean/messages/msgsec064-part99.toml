@@ -176,6 +176,10 @@ korean = "지난번에는… 죄송했습니다.<end>"
 japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
 korean = "아, 지나가십시오. <value:$28> 님.<end>"
 
+["640083"]
+japanese = "うふふ…、お話もないのに<line-break>会いにきてくださったんですね。<line-break>　<line-break>フフ、いけませんわ。<line-break>ティアナは<line-break>期待してしまいますよ。<end>"
+korean = "후후… 할 이야기도 없는데 만나러 와 주셨군요. 후후, 그러시면 안 돼요. 티아나는 기대하게 된답니다.<end>"
+
 ["640084"]
 japanese = "<value:$28>様が<line-break>ティアナのことを気にかけて　　<line-break>くださっているって…。<end>"
 korean = "<value:$28> 님이 티아나를 신경 써 주고 계시다고….<end>"
@@ -215,6 +219,10 @@ korean = "저는 <value:$28>님과 이야기할 때가 제일 즐거워요. <val
 ["640106"]
 japanese = "<value:$28>様が王女なら、<line-break>この王宮も変えられるような<line-break>気がします。<end>"
 korean = "<value:$28> 님이 왕녀가 되신다면 이 왕궁도 바꿀 수 있을 것 같아요.<end>"
+
+["640107"]
+japanese = "そうですね。<line-break>ここは、まるで宝石でできたオリ…。<line-break>　<line-break><value:$28>様にとって<line-break>ここは狭いし、<line-break>きっと退屈すぎるわ…。<end>"
+korean = "그렇군요. 이곳은 마치 보석으로 만든 새장…. <value:$28>님께는 너무 좁고 분명 지루한 곳일 거예요….<end>"
 
 ["640108"]
 japanese = "もう帰ってしまうのですか？　　　<end>"

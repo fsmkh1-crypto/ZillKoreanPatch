@@ -212,6 +212,10 @@ korean = "슬라임… 앙카케?<end>"
 japanese = "かわざかなのしおやき…？<end>"
 korean = "민물고기 소금구이…?<end>"
 
+["770091"]
+japanese = "ああ。さっぱりしてて　　　<line-break>なかなかイケるよ。<line-break> <end>"
+korean = "응. 깔끔해서 꽤 괜찮아.<end>"
+
 ["770093"]
 japanese = "いえ。<line-break>ええと、こっちは？<end>"
 korean = "아뇨. 음, 이쪽은요?<end>"
@@ -303,6 +307,14 @@ korean = "아… <value:$28>님. 또 와 주셨군요. …기뻐요.<end>"
 ["770146"]
 japanese = "あ…<line-break><value:$28>様、<line-break>いらしてくださったのですね。<line-break>…うれしい。<end>"
 korean = "아… <value:$28> 님, 와 주셨군요. …기뻐요.<end>"
+
+["770151"]
+japanese = "…これは、予備メッセージ１…。<line-break>アトレイア、Ｖ４です。 <end>"
+korean = "…이건 예비 메시지 1…. 아트레이아, V4입니다.<end>"
+
+["770152"]
+japanese = "…これは、予備メッセージ２…。<line-break>アトレイア、Ｖ４です。 <end>"
+korean = "…이건 예비 메시지 2…. 아트레이아, V4입니다.<end>"
 
 ["770161"]
 japanese = "アトレイア　ボリューム４～終了<end>"

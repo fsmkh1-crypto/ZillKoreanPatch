@@ -48,6 +48,10 @@ korean = "불렀나~? 오르파우스.<end>"
 japanese = "…なんだ<line-break>このブサイクな猫は。<end>"
 korean = "…뭐야, 이 못생긴 고양이는.<end>"
 
+["690025"]
+japanese = "猫じゃない！<line-break>破壊神の円卓騎士のひとり、<line-break>ネモ様だ！<line-break>今でこそ、<line-break>こんな姿に変えられているが<line-break>本来は立派な魔人なんだ！<end>"
+korean = "고양이가 아니야! 파괴신의 원탁기사 중 하나인 네모 님이다! 지금은 이런 모습으로 변했지만 원래는 훌륭한 마인이야!<end>"
+
 ["690029"]
 japanese = "…女、<line-break>俺に命令するな。<end>"
 korean = "…여자, 나한테 명령하지 마.<end>"
@@ -75,6 +79,10 @@ korean = "운명의 여신도 장난을 좋아하네요. 후후…. <value:$28>�
 ["690049"]
 japanese = "…行け。<line-break>殺す気はないらしい。<line-break>　<line-break>殺す気なら<line-break>とうにやっている。<line-break>あいつは…強い。<end>"
 korean = "…가. 죽일 생각은 없는 모양이다. 죽일 생각이었다면 진작 그랬겠지. 녀석은… 강해.<end>"
+
+["690050"]
+japanese = "軽傷とはいえ、セラを<line-break>ケガさせてしまいましたんでね。<line-break>　<line-break>つぐないに、微力ながら<line-break>お手伝いできること<line-break>ということで…。<end>"
+korean = "가벼운 상처라지만 세라를 다치게 했으니 말이죠. 사죄하는 뜻에서 미력하나마 도울 수 있는 일을….<end>"
 
 ["690051"]
 japanese = "この子でも役立ててもらおうかな<line-break>と思うんです。<line-break>　<line-break>この転送機は世界中の<line-break>たいていの所から<line-break>仲間を呼び出せます。<end>"
