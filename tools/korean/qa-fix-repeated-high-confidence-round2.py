@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Normalize reviewed high-confidence repeated Japanese sources to one Korean surface.
 
-Only exact normalized Japanese sources listed below are touched. These are
-repeated UI labels, fixed names, or repeated explanatory/narrative lines where
-the source is identical and the Korean variants do not encode runtime semantics.
+Exact-source rewrites are used for repeated UI labels and repeated explanatory
+lines.  A tiny source-term rewrite table is also allowed for independently
+anchored global names so compounds such as `盗人村：ロッシマ邸内` inherit the
+same Korean place name without touching unrelated Korean substrings.
 """
 from __future__ import annotations
 
@@ -38,6 +39,10 @@ CANONICAL: dict[str, str] = {
     norm_source("そいつはお前が持っていてくれ。　　　<line-break>よくわからんが、依頼主が<line-break>そうしてくれって言ってたんでな。<end>"): "그건 네가 가지고 있어. 잘 모르겠지만 의뢰인이 그렇게 해 달라고 했거든.<end>",
     norm_source("他人のために働くことで、<line-break>魂を成長させていけば<line-break>いずれ、わかってきますよ。<end>"): "다른 사람을 위해 일하며 영혼을 성장시켜 가면 언젠가 알게 될 겁니다.<end>",
     norm_source("皇帝ネメアの世界統一構想のもと<line-break>南方攻略軍司令、朱雀将軍アンギルダンが　<line-break>ついにロストール攻略に動き出した。<end>"): "황제 네메아의 세계 통일 구상 아래 남방 공략군 사령관, 주작 장군 앙길단이 마침내 로스토올 공략에 나섰다.<end>",
+}
+
+SOURCE_TERM_VARIANTS: dict[str, dict[str, str]] = {
+    "盗人村": {"도적 마을": "도둑 마을"},
 }
 
 
@@ -79,9 +84,20 @@ def main() -> None:
                 current = None
                 continue
             key = norm_source(ja)
+            new = ko
             canonical = CANONICAL.get(key)
-            if canonical is not None and ko != canonical:
-                lines[i] = "korean = " + json.dumps(canonical, ensure_ascii=False)
+            if canonical is not None:
+                new = canonical
+            for ja_term, variants in SOURCE_TERM_VARIANTS.items():
+                if ja_term not in ja:
+                    continue
+                for old, replacement in variants.items():
+                    if old in new:
+                        n = new.count(old)
+                        new = new.replace(old, replacement)
+                        counts[f"term:{ja_term}:{old}->{replacement}"] = counts.get(f"term:{ja_term}:{old}->{replacement}", 0) + n
+            if new != ko:
+                lines[i] = "korean = " + json.dumps(new, ensure_ascii=False)
                 dirty = True
                 changed_records += 1
                 counts[key] = counts.get(key, 0) + 1
