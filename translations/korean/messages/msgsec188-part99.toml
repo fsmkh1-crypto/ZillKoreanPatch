@@ -32,6 +32,10 @@ korean = "해방군 활동에는 아무래도 자금이 필요하다. 리벨덤 
 japanese = "埋蔵金を発見した。<end>"
 korean = "매장금을 발견했다.<end>"
 
+["1880017"]
+japanese = "モンスターが守っているってことは<line-break>埋蔵金はこの奥みたいだね。<line-break>　<line-break>どれくらいあるんだろう。<line-break>早く見てみようよ。<end>"
+korean = "몬스터가 지키고 있다는 건 매장금이 이 안쪽에 있다는 뜻 같네. 얼마나 있을까. 빨리 가 보자.<end>"
+
 ["1880026"]
 japanese = "<value:$28>、<line-break>何をしてるの？<line-break>早く行こうよ。<end>"
 korean = "<value:$28>, 뭐 하고 있어? 빨리 가자.<end>"
@@ -151,6 +155,10 @@ korean = "그런 거액은 줄 수 없다<end>"
 ["1880109"]
 japanese = "え？　今なんて…？<end>"
 korean = "어? 방금 뭐라고…?<end>"
+
+["1880111"]
+japanese = "どうしてそれほどの大金を<line-break>そんなに簡単に出してくれるのです？<line-break>解放軍のため？　難民のため？<line-break>それとも、わたくしの…。<end>"
+korean = "어째서 그토록 큰돈을 그렇게 쉽게 내주시는 겁니까? 해방군을 위해서? 난민을 위해서? 아니면, 저를….<end>"
 
 ["1880114"]
 japanese = "１００００ギアを資金提供した。<end>"

@@ -24,6 +24,10 @@ korean = "아이템과 장비품, 어느 쪽을 팔 거야?<end>"
 japanese = "こいつをいくつ売ってくれるんだ？<end>"
 korean = "이걸 몇 개 팔겠어?<end>"
 
+["170023"]
+japanese = "そうか、ありがとうよ。<line-break>お互い、いい商売をしたな。<end>"
+korean = "그래, 고맙다. 서로 좋은 장사를 했군.<end>"
+
 ["170025"]
 japanese = "じゃ、<value:$15>ってのはどうだ？<line-break><end>"
 korean = "그럼, <value:$15>는 어때?<end>"
@@ -511,6 +515,10 @@ korean = "묵고 가시겠습니까?<end>"
 ["170180"]
 japanese = "お客さん、<line-break>泊まるならお金を払ってください。<end>"
 korean = "손님, 묵으실 거면 돈을 내 주세요.<end>"
+
+["170181"]
+japanese = "いらっしゃいませ。<line-break>どのようなご用向きでしょうか？<end>"
+korean = "어서 오십시오. 어떤 용무이신가요?<end>"
 
 ["170186"]
 japanese = "お買い上げありがとうございます。<end>"

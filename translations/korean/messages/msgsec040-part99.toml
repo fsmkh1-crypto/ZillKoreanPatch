@@ -108,6 +108,10 @@ korean = "나야말로.<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["400052"]
+japanese = "ホントにリベルダムだわ…。<line-break>これって、すごいかも！<end>"
+korean = "정말 리벨덤이네…. 이거, 대단할지도!<end>"
+
 ["400053"]
 japanese = "ネメア様、今日は<line-break>ホントに楽しかったです！<end>"
 korean = "네메아 님, 오늘 정말 즐거웠어요!<end>"
@@ -300,6 +304,10 @@ korean = "그 말을 들으니 안심이군.<end>"
 japanese = "ネメア様のおっしゃったとおりだな。<end>"
 korean = "네메아 님 말씀대로군.<end>"
 
+["400142"]
+japanese = "この若者は勇敢にも<line-break>ネメア様に挑戦する気らしいぞ。<end>"
+korean = "이 젊은이는 용감하게도 네메아 님께 도전할 생각인 모양이다.<end>"
+
 ["400145"]
 japanese = "そう功をあせるな、オイフェよ。<end>"
 korean = "그렇게 공을 서두르지 마라, 오이페.<end>"
@@ -419,6 +427,10 @@ korean = "(벽난로 불은 꺼져 있다….)<end>"
 ["400196"]
 japanese = "火をつけてみますか？<end>"
 korean = "불을 붙여볼까요?<end>"
+
+["400199"]
+japanese = "え？<line-break>なんで新米だってわかったんだ？　　<line-break>　<end>"
+korean = "어? 내가 신참인 걸 어떻게 알았지?<end>"
 
 ["400205"]
 japanese = "なるほど。<line-break>冒険者は何ごとも冒険から　　　　　<line-break>ってことだな。<line-break>それじゃあ、おやじ。<line-break>錬剛石を手に入れたら、また来るよ。<end>"

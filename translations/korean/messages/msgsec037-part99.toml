@@ -460,6 +460,10 @@ korean = "…그때는 정말 다시 일어설 수 없을 줄 알았어. 지금 
 japanese = "それよりも何よりも、<line-break><value:$28>が<line-break>そばにいてくれたおかげだよ。　<end>"
 korean = "무엇보다도 <value:$28>가 곁에 있어 준 덕분이야.<end>"
 
+["370227"]
+japanese = "…フフ、去年の俺じゃ　　　　<line-break>言えないセリフだな。<end>"
+korean = "…후후, 작년의 나라면 못 했을 말이군.<end>"
+
 ["370230"]
 japanese = "…わかってるさ。<end>"
 korean = "…알고 있어.<end>"
@@ -491,6 +495,10 @@ korean = "누구냐?<end>"
 ["370246"]
 japanese = "今すぐ返すんだ。　　　　　　　　　<end>"
 korean = "지금 당장 돌려줘.<end>"
+
+["370247"]
+japanese = "エア様はお前の居所をつかんでいる。<line-break>逃げられない。<end>"
+korean = "에어 님은 네 위치를 알고 있다. 도망칠 수 없어.<end>"
 
 ["370248"]
 japanese = "エア様は冷酷だ。　　　　　　　　<end>"
@@ -559,6 +567,10 @@ korean = "잘 지내라….<end>"
 ["370276"]
 japanese = "なんだ、聞いてねえのか！　　　　　　<end>"
 korean = "뭐야, 못 들었어!<end>"
+
+["370278"]
+japanese = "ハハハハ…、そいつはいい！　　　　　<line-break>ハハハハ…！<end>"
+korean = "하하하하… 그거 좋군! 하하하하…!<end>"
 
 ["370283"]
 japanese = "ハハハ！　よぉし、それでいい！　<end>"
