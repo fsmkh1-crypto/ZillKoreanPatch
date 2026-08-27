@@ -1,0 +1,16 @@
+[
+  {"ids":["1370649","1380498","1980071","1980158"],"category":"speaker_emotion","reason":"Same short Japanese reaction is delivered in distinct scenes/speaker states; 아 and 앗 are both contextually valid."},
+  {"ids":["1330380","1330418","1330425","1540115"],"category":"character_voice","reason":"Laughter rendering differs by character voice; preserving 후후후/우후후 is intentional."},
+  {"ids":["430104","560244","2180011"],"category":"different_speaker","reason":"Generic どうした？ occurs across unrelated speakers/scenes; 왜 그래? and 무슨 일이야? are context-appropriate."},
+  {"ids":["450054","450058","490018"],"category":"different_speaker","reason":"Generic わかった。 occurs in different conversations; 알겠어/알았어 reflects local speaker phrasing."},
+  {"ids":["560018","1160001","370244"],"category":"different_speaker","reason":"Generic 誰だ？ belongs to different speakers; 누구야?/누구냐? reflects each register."},
+  {"ids":["2270022","2110008"],"category":"speaker_emotion","reason":"Short surprise reaction differs by scene intensity; 뭐…!? and 어…!? are intentional contextual renderings."},
+  {"ids":["560906","1400209"],"category":"speaker_register","reason":"そうですか…。 is spoken by different characters; 그렇군요/그렇습니까 preserves local formality."},
+  {"ids":["1340197","400257"],"category":"different_speaker","reason":"な、何事だ！？ is used by different speakers; sentence ending differs with character register."},
+  {"ids":["370120","280057"],"category":"different_speaker","reason":"なに言ってんだい。 occurs in unrelated dialogue; both natural renderings preserve local voice."},
+  {"ids":["330057","550025"],"category":"speaker_register","reason":"なるほど、ね。 is spoken in different relationships; 그렇군/그렇군요 intentionally differ in politeness."},
+  {"ids":["1630002","1680010"],"category":"different_speaker","reason":"The greeting is reused by different speakers/events; Angildan's archaic/formal voice differs from the other speaker."},
+  {"ids":["570082","1590162"],"category":"different_speaker","reason":"何者だ、貴様！ occurs in different confrontations and speakers; both Korean challenges are contextually natural."},
+  {"ids":["620064","900001"],"category":"different_npc","reason":"Same guild-registration prompt is spoken by distinct guild NPC contexts; casual endings differ intentionally."},
+  {"ids":["560844","1050030"],"category":"different_speaker","reason":"Same arrest-order information is delivered by different guards/speakers; 반말 register differs intentionally."}
+]
