@@ -316,6 +316,10 @@ korean = "인간<end>"
 japanese = "　７月　２９日<end>"
 korean = " 7월 29일<end>"
 
+["190104"]
+japanese = "猫のような動きで敵を翻弄する凄腕の冒険者。<line-break><value:$28>に、ある人物の面影を感じ<line-break>行動を共にするようになる。<line-break>旅の合間に、ほほに傷がある男を捜している。<line-break>秘密が多く、実は壮絶な過去を持っている。<line-break><line-break><line-break><end>"
+korean = "고양이 같은 움직임으로 적을 농락하는 뛰어난 모험자. <value:$28>에게서 어떤 인물의 모습을 느끼고 함께 행동하게 된다. 여행 중에는 뺨에 상처가 있는 남자를 찾고 있다. 비밀이 많으며 사실은 처절한 과거를 지니고 있다.<end>"
+
 ["190106"]
 japanese = "愛されし女性<end>"
 korean = "사랑받는 여성<end>"

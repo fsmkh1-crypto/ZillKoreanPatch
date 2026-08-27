@@ -44,9 +44,17 @@ korean = "요즘 마을 근처에 <value:$15>가 나타나. 무서워서 밤에�
 japanese = "冒険者の方々に依頼したいことがございます。<line-break><value:$15>の退治です。<line-break>お礼は<value:$1A>ギア、<line-break>期間は<value:$1B>日以内でどうでしょうか。<line-break>街の外に出ると<value:$15>が襲ってくる<line-break>ので、思うように仕事がはかどらないのです。<end>"
 korean = "모험자 여러분께 부탁드릴 일이 있습니다. <value:$15> 퇴치입니다. 사례는 <value:$1A>기어, 기간은 <value:$1B>일 이내면 어떨까요. 마을 밖에 나가면 <value:$15>이 습격해 와서 일이 뜻대로 진척되지 않습니다.<end>"
 
+["220028"]
+japanese = "闘技場で戦う戦士にゃ武器は重要だからな。<line-break>俺たちもはりきって仕事をしてるんだ。<line-break>けどよ、材料をとりに街の外に出ると<line-break><value:$15>が邪魔しやがる。<line-break>こいつを倒してくれないか。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内が期限だぜ。<end>"
+korean = "투기장에서 싸우는 전사에겐 무기가 중요하니까 우리도 힘내서 일하고 있어. 그런데 재료를 구하러 마을 밖에 나가면 <value:$15>이 방해해. 이놈 좀 쓰러뜨려 줘. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내야.<end>"
+
 ["220031"]
 japanese = "街の近くに住みついている<value:$15>を<line-break>退治してほしい。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内に排除してほしい。<end>"
 korean = "마을 근처에 눌러앉은 <value:$15>을 퇴치해 주길 바란다. 보수는 <value:$1A>기아. <value:$1B>일 안에 제거해 줘.<end>"
+
+["220032"]
+japanese = "英雄の歌を作るのを競い合っています。<line-break>現在は題材を探している所です。<line-break>どなたかモンスター退治を<line-break>してくださいませんか。<line-break>最近話題の<value:$15>を倒してください。<line-break><value:$1A>ギアお支払いします。<line-break><value:$1B>日以内にお願いします。<end>"
+korean = "영웅의 노래 만들기를 겨루고 있습니다. 지금은 소재를 찾는 중입니다. 누군가 몬스터를 퇴치해 주시겠습니까? 요즘 화제인 <value:$15>을 쓰러뜨려 주세요. <value:$1A>기어를 드리겠습니다. <value:$1B>일 안에 부탁합니다.<end>"
 
 ["220033"]
 japanese = "　　　　　　　告<line-break>狂暴なモンスターが人民を傷つけている。<line-break>市井の勇者よ、モンスターに正義の鉄槌を<line-break>下してくれたまえ。<line-break>対象：<value:$15><line-break>期間：<value:$1B>日以内<line-break>報酬：<value:$1A>ギア<end>"

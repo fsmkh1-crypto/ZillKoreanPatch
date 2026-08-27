@@ -72,6 +72,10 @@ korean = "그래. 밤하늘을 보고 있었어. 저 크리스털에 들어가�
 japanese = "俺はクリスタルから解放されて<line-break>今日まで、自分が生きているという<line-break>実感がなかった。<line-break>ただ、イーシャのために<line-break>かりそめの命を<line-break>もらっているだけだと…。<end>"
 korean = "나는 크리스털에서 해방된 뒤 오늘까지 내가 살아 있다는 실감이 없었어. 그저 이샤를 위해 임시로 목숨을 받은 것뿐이라고….<end>"
 
+["2720021"]
+japanese = "俺は自分が犠牲になることで<line-break>イーシャを幸せにできると<line-break>考えていた。<line-break>それが…結果はどうだ。<line-break>　<line-break>　<line-break>イーシャは生きることを拒絶して<line-break>俺を復活させ、自分が<line-break>クリスタルに入ってしまった。<end>"
+korean = "나는 내가 희생되면 이샤를 행복하게 할 수 있다고 생각했어. 그런데 결과는 어땠지. 이샤는 살아가기를 거부하고 나를 부활시킨 뒤, 자신이 크리스털 속에 들어가 버렸어.<end>"
+
 ["2720022"]
 japanese = "教えてくれ、<value:$28>…。<line-break>俺は間違っていたのか？<line-break>　<line-break>彼女にとって俺の行為は<line-break>重荷でしかなかったのか？<line-break>それとも俺の自己満足だったのか？<end>"
 korean = "말해 줘, <value:$28>…. 내가 틀렸던 건가? 그녀에게 내 행동은 짐일 뿐이었나? 아니면 내 자기만족이었던 건가?<end>"
@@ -100,6 +104,10 @@ korean = "그래. 밤하늘을 보고 있었어. 저 크리스털에 들어가�
 japanese = "俺はクリスタルから解放されて<line-break>今日まで、自分が生きているという<line-break>実感がなかった。<line-break>ただ、イーシャのために<line-break>かりそめの命を<line-break>もらっているだけだと…。<end>"
 korean = "나는 크리스털에서 해방된 뒤 오늘까지 내가 살아 있다는 실감이 없었어. 그저 이샤를 위해 임시로 목숨을 받은 것뿐이라고….<end>"
 
+["2720030"]
+japanese = "俺は自分が犠牲になることで<line-break>イーシャを幸せにできると<line-break>思っていた。<line-break>それが…結果はどうだ。<line-break>　<line-break>　<line-break>イーシャは生きることを拒絶して<line-break>俺を復活させ、自分が<line-break>クリスタルに入ってしまった。<end>"
+korean = "나는 내가 희생되면 이샤를 행복하게 할 수 있다고 생각했어. 그런데 결과는 어땠지. 이샤는 살아가기를 거부하고 나를 부활시킨 뒤, 자신이 크리스털 속에 들어가 버렸어.<end>"
+
 ["2720033"]
 japanese = "ありがとう。<value:$28>。<line-break>　<line-break>　<line-break>俺自身が出さなければ<line-break>いけない答えなのに、<line-break>お前に甘えてしまった。<end>"
 korean = "고맙다, <value:$28>. 내가 스스로 내야 할 답인데 네게 기대고 말았군.<end>"
@@ -124,9 +132,17 @@ korean = "그래. 그런 날이 오면 좋겠군. 나와 이샤와 <value:$28>, 
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
 
+["2720039"]
+japanese = "俺が冒険者になった理由？<line-break>さあな。<line-break>もう覚えちゃいないな。<line-break>ただ、冒険者になると決めた時<line-break>親父が遺してくれた剣に誓ったんだ。<line-break>　<line-break>一流の鍛冶屋だった親父に<line-break>負けない人生を歩んでみせるってな。<end>"
+korean = "내가 모험자가 된 이유? 글쎄, 이젠 기억도 안 나. 다만 모험자가 되기로 했을 때 아버지가 남겨 준 검에 맹세했지. 일류 대장장이였던 아버지에게 지지 않는 삶을 살겠다고.<end>"
+
 ["2720040"]
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
+
+["2720041"]
+japanese = "イーシャは<line-break>ダークエルフと取引してまで<line-break>俺を復活させた。<line-break>イーシャをそこまで追い詰めたのは<line-break>たぶん俺自身なんだろうな。<line-break>　<line-break>俺はあいつの苦しみを<line-break>わかってやれなかった…。<line-break>もう同じ過ちを犯したくはない。<end>"
+korean = "이샤는 다크엘프와 거래까지 해서 나를 부활시켰어. 이샤를 그만큼 몰아붙인 건 아마 나 자신이었겠지. 난 그 애의 고통을 이해해 주지 못했어…. 다시는 같은 실수를 하고 싶지 않아.<end>"
 
 ["2720042"]
 japanese = "<value:$28>か…。<end>"
@@ -156,6 +172,14 @@ korean = "<value:$28>인가….<end>"
 japanese = "ああ。夜空を眺めていた。<line-break>　<line-break>　<line-break>あのクリスタルに入る前は<line-break>星空がこれほど美しいと<line-break>感じることはなかった。<line-break>自分でも不思議なんだ。<line-break>今はなぜだか、素直に<line-break>感動することができる。<end>"
 korean = "그래. 밤하늘을 보고 있었어. 저 크리스털에 들어가기 전에는 별하늘이 이렇게 아름답다고 느낀 적이 없었거든. 나도 신기해. 지금은 왜인지 솔직하게 감동할 수 있어.<end>"
 
+["2720052"]
+japanese = "イーシャとはテジャワの変で出会った。<line-break>ときに味方として思いをぶつけ合い、<line-break>ときには敵として刃を交えた。<line-break>でも、最後は互いにわかり合えたと<line-break>信じていた。<line-break>　<line-break>だからこそ俺はあいつに<line-break>幸せになってもらいたかった。<end>"
+korean = "이샤와는 테자와의 변에서 만났어. 때로는 동료로 서로의 마음을 부딪쳤고, 때로는 적으로 칼을 맞댔지. 그래도 마지막에는 서로 이해했다고 믿었어. 그래서 더욱 그 애가 행복해지길 바랐던 거야.<end>"
+
+["2720053"]
+japanese = "俺は自分が犠牲になることで<line-break>イーシャを幸せにできると<line-break>思っていた。<line-break>それが…結果はどうだ。<line-break>　<line-break>　<line-break>イーシャは生きることを拒絶して<line-break>俺を復活させ、自分が<line-break>クリスタルに入ってしまった。<end>"
+korean = "나는 내가 희생되면 이샤를 행복하게 할 수 있다고 생각했어. 그런데 결과는 어땠지. 이샤는 살아가기를 거부하고 나를 부활시킨 뒤, 자신이 크리스털 속에 들어가 버렸어.<end>"
+
 ["2720056"]
 japanese = "ありがとう。<value:$28>。<line-break>　<line-break>　<line-break>俺自身が出さなければ<line-break>いけない答えなのに、<line-break>お前に甘えてしまった。<end>"
 korean = "고맙다, <value:$28>. 내가 스스로 내야 할 답인데 네게 기대고 말았군.<end>"
@@ -175,6 +199,14 @@ korean = "그래. 밤하늘을 보고 있었어. 저 크리스털에 들어가�
 ["2720060"]
 japanese = "俺はクリスタルから解放されて<line-break>今日まで、自分が生きているという<line-break>実感がなかった。<line-break>ただ、イーシャのために<line-break>かりそめの命を<line-break>もらっているだけだと…。<end>"
 korean = "나는 크리스털에서 해방된 뒤 오늘까지 내가 살아 있다는 실감이 없었어. 그저 이샤를 위해 임시로 목숨을 받은 것뿐이라고….<end>"
+
+["2720061"]
+japanese = "イーシャとはテジャワの変で出会った。<line-break>ときに味方として思いをぶつけ合い、<line-break>ときには敵として刃を交えた。<line-break>でも、最後は互いにわかり合えたと<line-break>信じていた。<line-break>　<line-break>だからこそ俺はあいつに<line-break>幸せになってもらいたかった。<end>"
+korean = "이샤와는 테자와의 변에서 만났어. 때로는 동료로 서로의 마음을 부딪쳤고, 때로는 적으로 칼을 맞댔지. 그래도 마지막에는 서로 이해했다고 믿었어. 그래서 더욱 그 애가 행복해지길 바랐던 거야.<end>"
+
+["2720062"]
+japanese = "俺は自分が犠牲になることで<line-break>イーシャを幸せにできると<line-break>考えていた。<line-break>それが…結果はどうだ。<line-break>　<line-break>　<line-break>イーシャは生きることを拒絶して<line-break>俺を復活させ、自分が<line-break>クリスタルに入ってしまった。<end>"
+korean = "나는 내가 희생되면 이샤를 행복하게 할 수 있다고 생각했어. 그런데 결과는 어땠지. 이샤는 살아가기를 거부하고 나를 부활시킨 뒤, 자신이 크리스털 속에 들어가 버렸어.<end>"
 
 ["2720063"]
 japanese = "教えてくれ、<value:$28>…。<line-break>俺は間違っていたのか？<line-break>　<line-break>彼女にとって俺の行為は<line-break>重荷でしかなかったのか？<line-break>それとも俺の自己満足だったのか？<end>"

@@ -16,6 +16,10 @@ korean = "음, 그렇게 말해도 말이지. 어떻게 할까? 네 소원을 �
 japanese = "<value:$28>…。なぜ、ここに？<end>"
 korean = "<value:$28>…. 왜 여기에?<end>"
 
+["2670004"]
+japanese = "アハハハ。たまにはいい場面で<line-break>登場してくれるね、<value:$28><line-break>お陰でいいこと思いついたよ。<line-break><value:$28>のソウルを<line-break>使えばいいんだ。<line-break>　<line-break>この方法ならジリオンとイーシャ<line-break>２人の願いを同時にかなえられる。<end>"
+korean = "아하하하. 가끔은 좋은 타이밍에 등장해 주는군, <value:$28>. 덕분에 좋은 생각이 났어. <value:$28>의 소울을 쓰면 돼. 이 방법이면 지리온과 이샤, 두 사람의 소원을 동시에 이룰 수 있어.<end>"
+
 ["2670005"]
 japanese = "そ、そんな…！<line-break>ダメよ。そんなことできないわ。<end>"
 korean = "그, 그럴 수가…! 안 돼. 그런 건 못 해.<end>"
