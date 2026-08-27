@@ -412,6 +412,10 @@ korean = "나중에 여행 중 사람들을 만나 동료가 늘었을 때 같�
 japanese = "ど、どうなってるの？<line-break>ねえ、<value:$28>！<end>"
 korean = "어, 어떻게 된 거야? 저기, <value:$28>!<end>"
 
+["460168"]
+japanese = "うふふ、<line-break>驚かせてしまってすみません。　　　<line-break>　<line-break>今後は呼び出す前に<line-break>相手の方に都合を確認します。<line-break>もう、こんなことはありませんから。<end>"
+korean = "후후, 놀라게 해서 죄송합니다. 앞으로는 불러내기 전에 상대방의 사정을 확인하겠습니다. 이제 이런 일은 없을 겁니다.<end>"
+
 ["460169"]
 japanese = "一緒に旅する仲間を<line-break>変更したくなったら<line-break>遠慮なくここに来てください。<end>"
 korean = "함께 여행하는 동료를 바꾸고 싶어지면 언제든 여기로 와 주세요.<end>"

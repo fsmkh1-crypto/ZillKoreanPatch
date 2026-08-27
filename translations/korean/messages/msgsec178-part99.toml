@@ -92,6 +92,10 @@ korean = "기다려, <value:$28>! 도망치는 거야!?<end>"
 japanese = "ディンガルの奴らが<line-break>逃げていくぞ！<end>"
 korean = "딩갈 녀석들이 도망간다!<end>"
 
+["1780045"]
+japanese = "俺たちの勝利だ！<line-break>奇跡だ！<line-break>ゼネテス・ファーロス総司令万歳！<end>"
+korean = "우리의 승리다! 기적이다! 제네테스 파로스 총사령관 만세!<end>"
+
 ["1780046"]
 japanese = "<value:$28>、<line-break>カルラは？<end>"
 korean = "<value:$28>, 카를라는?<end>"
@@ -127,6 +131,10 @@ korean = "그런가… 목숨을 걸고 지킨 거군. …어쩔 수 없지.<end
 ["1780055"]
 japanese = "つらい思いをさせちまったな。<line-break>…すまない。<end>"
 korean = "힘든 일을 겪게 했구나. …미안하다.<end>"
+
+["1780056"]
+japanese = "はぁ…はぁ…。<line-break>か、カルラさま…<line-break>もうしわけ…ありません…。<end>"
+korean = "하아… 하아…. 카, 카를라 님… 죄송…합니다….<end>"
 
 ["1780058"]
 japanese = "…かぁ、さん…<line-break>…せんせぇ…。<end>"

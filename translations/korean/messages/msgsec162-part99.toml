@@ -116,6 +116,10 @@ korean = "훌륭하네….<end>"
 japanese = "そんなロマンチシズムに<line-break>つきあう気はないな。<end>"
 korean = "그런 낭만주의에 어울려 줄 생각은 없어.<end>"
 
+["1620047"]
+japanese = "悪いな。<line-break>そんなバカな理屈に<line-break>付き合ってる場合じゃないんだ。<end>"
+korean = "미안하군. 그런 바보 같은 논리에 어울려줄 상황이 아니야.<end>"
+
 ["1620048"]
 japanese = "さ～て、と。<line-break>生き残る方法を考えなきゃ、だな。　　<line-break>な、<value:$28>。<end>"
 korean = "자, 그럼. 살아남을 방법을 생각해야겠군. 그렇지, <value:$28>.<end>"
@@ -196,6 +200,10 @@ korean = "간다, <value:$28>.<end>"
 japanese = "…じゃあな、とっつぁん。<line-break>あの世で、いつか飲み明かそうぜ。<end>"
 korean = "…잘 가라, 영감. 저세상에서 언젠가 밤새 술이나 마시자고.<end>"
 
+["1620081"]
+japanese = "くっ、最高の殊勲は<line-break>ファーロスのドラ息子に<line-break>奪われるとはな。<end>"
+korean = "큭, 최고의 공훈을 파로스의 망나니 아들에게 빼앗기다니.<end>"
+
 ["1620082"]
 japanese = "第二の殊勲、<value:$28>。<end>"
 korean = "제2의 공훈, <value:$28>.<end>"
@@ -275,6 +283,10 @@ korean = "이만 실례하겠다!<end>"
 ["1620105"]
 japanese = "おやおや、レムオン卿。<line-break>突然、何ごとか？<end>"
 korean = "이런 이런, 레무온 경. 갑자기 무슨 일인가?<end>"
+
+["1620106"]
+japanese = "我が陣営に<line-break>ノーブル伯の名がなかったので、<line-break>不審に思いまして。<line-break>しかも、エリス王妃<line-break>じきじきのお呼びがあったと<line-break>聞きましたから…。<end>"
+korean = "우리 진영에 노블 백작의 이름이 없어서 이상하게 생각했습니다. 게다가 엘리스 왕비께서 직접 부르셨다고 들었으니까요….<end>"
 
 ["1620109"]
 japanese = "ノーブル伯には、<line-break>ゼネテス卿の副官をやってもらう。<end>"

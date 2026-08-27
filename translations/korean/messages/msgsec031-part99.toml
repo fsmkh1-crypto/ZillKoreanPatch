@@ -92,6 +92,10 @@ korean = "젠장! 볼보라 놈! 이런 녀석에게 먹힐 순 없어!<end>"
 japanese = "おい、女、<line-break>助太刀してやる。<end>"
 korean = "어이, 여자. 도와주지.<end>"
 
+["310040"]
+japanese = "やったぜ！<line-break>ボルボラご自慢の戦闘モンスターを<line-break>やっつけたぜ！！<end>"
+korean = "해냈다! 볼보라가 자랑하던 전투 몬스터를 쓰러뜨렸어!!<end>"
+
 ["310041"]
 japanese = "リベルダム製の戦闘モンスターか。<line-break>なぜ、こんな所に…？<end>"
 korean = "리벨덤제 전투 몬스터인가. 왜 이런 곳에…?<end>"
@@ -192,6 +196,10 @@ korean = "자, 누나, 가자. 모두 숲 안쪽에서 기다리고 있어.<end>
 japanese = "今こそ立ち上がろう！<line-break><value:$28>！<end>"
 korean = "지금이야말로 일어서자! <value:$28>!<end>"
 
+["310084"]
+japanese = "…反乱など起こせば<line-break>町の者全員が<line-break>皆殺しにされるかもしれぬぞ。<end>"
+korean = "…반란 같은 걸 일으키면 마을 사람 전부가 몰살당할지도 모른다.<end>"
+
 ["310086"]
 japanese = "カタがつくだと！？<line-break>ウソだ！<line-break>貴族が俺らのことなど考えるもんか！<end>"
 korean = "끝난다고!? 거짓말이야! 귀족들이 우리 같은 사람을 생각할 리가 있나!<end>"
@@ -211,6 +219,10 @@ korean = "<value:$28>! 잘 말해 줬다! 영주 저택의 볼보라를 쓰러�
 ["310093"]
 japanese = "我々は先に行っている！<line-break><value:$28>も<line-break>急いで来てくれ！<end>"
 korean = "우리는 먼저 가 있겠다! <value:$28>도 서둘러 와 줘!<end>"
+
+["310094"]
+japanese = "…みずから<line-break>陰謀の炎のうずに飛びこんで<line-break>身を焼こうというのか？<end>"
+korean = "…스스로 음모의 불길 속으로 뛰어들어 몸을 태우겠다는 건가?<end>"
 
 ["310095"]
 japanese = "これは仕組まれた反乱なのだ。<line-break>それもわからぬとは…愚かな。<end>"
@@ -627,6 +639,10 @@ korean = "이제 마을에 들어간다. 네 이름으로 중지를 호소해.<e
 ["310250"]
 japanese = "レムオン様。<line-break>あなたの秘密についての密書、<line-break>ボルボラより受け取っております。<line-break>あなたは密書を取り戻さねば破滅。<line-break>反乱にかまっているヒマはない。<end>"
 korean = "레몬 님. 당신의 비밀에 관한 밀서, 볼보라에게서 받았습니다. 밀서를 되찾지 못하면 당신은 파멸합니다. 반란에 신경 쓸 여유는 없습니다.<end>"
+
+["310252"]
+japanese = "奴の言うとおり、<line-break>俺はこの地の領主、<line-break>レムオン・リューガだ。<end>"
+korean = "녀석 말대로, 나는 이 땅의 영주 레몬 류가다.<end>"
 
 ["310255"]
 japanese = "どうした？<line-break>チャカとかいう弟を助けに行くぞ。<end>"

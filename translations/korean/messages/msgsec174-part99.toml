@@ -100,6 +100,10 @@ korean = "살았네. …지금 노엘에게는 그렇게 말해 주는 게 제�
 japanese = "…わかってます…。<line-break>わかってる…けど…。<end>"
 korean = "…알고 있어요…. 알고는… 있지만….<end>"
 
+["1740031"]
+japanese = "大したもんね。<line-break>ナーシェスだって<line-break>あそこまでは言えるかしら？<end>"
+korean = "대단하네. 나셰스라도 저 정도까지 말할 수 있으려나?<end>"
+
 ["1740032"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
@@ -347,6 +351,10 @@ korean = "…당신도 조심해서 가세요.<end>"
 ["1740121"]
 japanese = "やっぱり、ここに来ていたのね。　　<line-break>　<line-break>　<line-break>率直に言うわ。<line-break>あなたたちの持つ闇の神器を渡して。<end>"
 korean = "역시 여기 와 있었네. 단도직입적으로 말할게. 너희가 가진 어둠의 신기를 넘겨.<end>"
+
+["1740122"]
+japanese = "やれやれ。<line-break>人にものを譲ってもらうときの<line-break>態度とは思えんわ。<end>"
+korean = "이런 이런. 남에게 물건을 양보받을 때의 태도라고는 생각되지 않는군.<end>"
 
 ["1740123"]
 japanese = "ネメア様は生きているわ。<line-break>そして、破壊神復活に必要な<line-break>闇の神器さえ持っていれば、<line-break>ネメア様は私たちの前に<line-break>きっと、現れるはず。<line-break>さぁ、神器を渡して。<end>"

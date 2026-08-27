@@ -568,6 +568,10 @@ korean = "무, 무슨 일 있었나요?<end>"
 japanese = "ふん、大騒ぎしおって。<line-break>大事なのは平常心じゃ。<line-break>むふふふ…。<end>"
 korean = "흥, 호들갑 떨기는. 중요한 건 평정심이야. 무후후후….<end>"
 
+["280191"]
+japanese = "おう、今、手が離せねえんだ。<line-break>また、あとにしてくれ。<line-break>悪いな。<end>"
+korean = "어, 지금 손을 뗄 수가 없어. 나중에 다시 와줘. 미안하군.<end>"
+
 ["280195"]
 japanese = "ね、ねえ、<value:$28>。<line-break>じ、地震だよ！！<end>"
 korean = "저, 저기 <value:$28>. 지, 지진이야!!<end>"

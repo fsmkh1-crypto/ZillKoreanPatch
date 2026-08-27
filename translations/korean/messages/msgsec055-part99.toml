@@ -272,6 +272,10 @@ korean = "뭐…! 늦었나!<end>"
 japanese = "奴を追うぞ！<line-break><value:$28>！<end>"
 korean = "놈을 쫓자! <value:$28>!<end>"
 
+["550081"]
+japanese = "…ソウルリープガキカナイ…。　　　<line-break>…無限ノ、ソウル…<line-break>他ノ対象ニモ予定ノ効果ハ現レナイ。<line-break>…シカシ障害ハコレニテ除去終了。<line-break>任務続行…。<end>"
+korean = "…소울 리프가 듣지 않는다…. …무한의 소울… 다른 대상에게도 예정된 효과는 나타나지 않는다. …그러나 장애물은 이것으로 제거 완료. 임무 속행….<end>"
+
 ["550082"]
 japanese = "追うわよ、<value:$28>！<end>"
 korean = "쫓아가자, <value:$28>!<end>"

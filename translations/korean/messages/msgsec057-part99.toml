@@ -92,6 +92,10 @@ korean = "서둘러야겠군. <value:$28>.<end>"
 japanese = "んじゃ、行くか、<line-break><value:$28>。<end>"
 korean = "그럼 갈까, <value:$28>.<end>"
 
+["570041"]
+japanese = "あ、その前に<line-break>お見せしたいものがあります。<line-break>こちらに来てください。<end>"
+korean = "아, 그 전에 보여드리고 싶은 것이 있습니다. 이쪽으로 와주세요.<end>"
+
 ["570042"]
 japanese = "これは？<end>"
 korean = "이건?<end>"
@@ -275,6 +279,10 @@ korean = "…뭐, 잘 생각해 봐. 인간은 약하고 쉽게 부서지는 생
 ["570113"]
 japanese = "お客さん。飲み過ぎだよ。<line-break>店の酒、みーんな、飲んじまって…。<end>"
 korean = "손님, 너무 마셨어. 가게 술을 전부 마셔버리고…<end>"
+
+["570114"]
+japanese = "…どうせ、どうせ、俺なんか、<line-break>世界で一番さ、フヒャヒャヒャヒャ…。<end>"
+korean = "…어차피, 어차피 나 같은 건 세상에서 제일이지, 흐햐햐햐햐….<end>"
 
 ["570115"]
 japanese = "ダメだこりゃ。<line-break>何がなんだかわかってないよ。お客さん。<end>"

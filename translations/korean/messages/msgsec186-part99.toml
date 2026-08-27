@@ -20,6 +20,10 @@ korean = "어라? 플린트 씨, <value:$28>은?<end>"
 japanese = "またぁ？<line-break>しょうがないんだからぁ！<end>"
 korean = "또야? 정말 어쩔 수 없다니까!<end>"
 
+["1860009"]
+japanese = "まあまあ、あのときも<line-break>幸い無事ですんだことだし…。　　　<line-break>　<end>"
+korean = "뭐, 뭐. 그때도 다행히 무사히 끝났으니까….<end>"
+
 ["1860010"]
 japanese = "でも、<value:$28>には<line-break>商売を継がせるんでしょお？<line-break>だったら剣の稽古なんて…。<end>"
 korean = "하지만 <value:$28>한테 장사를 물려줄 거잖아? 그럼 검술 수련은….<end>"
@@ -412,6 +416,10 @@ korean = "(아버지가 걱정되니까 빨리 돌아가야 해.)<end>"
 japanese = "なんだ、お前は！<end>"
 korean = "뭐냐, 넌!<end>"
 
+["1860150"]
+japanese = "まあ、待て。<line-break>何か急ぎの用がありそうだ。　　　　<line-break>どうしたのだ？<end>"
+korean = "잠깐, 기다려라. 무언가 급한 용무가 있는 것 같군. 무슨 일이냐?<end>"
+
 ["1860152"]
 japanese = "王妃様がお会いになるそうだ。　　　<line-break>ついてこい。<line-break>　<end>"
 korean = "왕비님께서 만나시겠답니다. 따라오시오.<end>"
@@ -423,6 +431,10 @@ korean = "…밀서는 확실히 받았다. 수고했다. 이건 보수다.<end>
 ["1860155"]
 japanese = "ほう、<line-break>ゼネテスという冒険者がな…。　　<line-break>なるほど。<line-break>よかろう。<line-break>生命のかけらを与える。<line-break>これでフリントも回復しよう。<end>"
 korean = "호오, 제네테스라는 모험자가…. 그렇군. 좋다. 생명의 조각을 주마. 이걸로 플린트도 회복하겠지.<end>"
+
+["1860156"]
+japanese = "下がるがよい。<line-break>時をおいて、また連絡する。<line-break>役目、ご苦労だった。<end>"
+korean = "물러가도 좋다. 때가 되면 다시 연락하지. 수고했다.<end>"
 
 ["1860157"]
 japanese = "<value:$28>…。<line-break>ぐすっ。フリントさんが大変なの…。<end>"
@@ -439,6 +451,10 @@ korean = "지금까지 네게… 숨긴 게 있었다…. 미안했다…. 아, 
 ["1860161"]
 japanese = "わかった。<line-break>あとのことは引き受ける。<end>"
 korean = "알았다. 나머지는 맡아 두지.<end>"
+
+["1860162"]
+japanese = "ゼネテス様に…ついていくのだ。　　　<line-break>この方なら…お前を…。<line-break>　<end>"
+korean = "제네테스 님을… 따라가거라. 이분이라면… 너를….<end>"
 
 ["1860163"]
 japanese = "ひっく、ひっく…<line-break>フリントさん、フリントさん！<line-break>　<line-break>目を開けてよぉ！<line-break>そんなのイヤだよぉ！<line-break>うわ～ん！！！<end>"

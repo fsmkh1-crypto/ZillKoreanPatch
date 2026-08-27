@@ -8,6 +8,14 @@ korean = "앙길단 볼륨1용 시작<end>"
 japanese = "おお、<value:$28>か！<line-break>よく来た。まあ、飲もうぞ！<end>"
 korean = "오오, <value:$28>인가! 잘 왔다. 자, 한잔하자!<end>"
 
+["580002"]
+japanese = "あちゃー、さっそくアンギルダンに<line-break>捕まってるよ。しょうがないねえ。<end>"
+korean = "아차, 벌써 앙기르단에게 붙잡혔네. 어쩔 수 없지.<end>"
+
+["580003"]
+japanese = "どうした、初めて会うような顔をして。<line-break>わしじゃ、アンギルダンじゃ。<end>"
+korean = "왜 그러느냐, 처음 보는 사람 같은 얼굴을 하고. 나다, 앙기르단이야.<end>"
+
 ["580004"]
 japanese = "おお、フィーユ！　なんじゃ！<line-break><value:$28>と知り合いか！<end>"
 korean = "오, 피유! 뭐냐! <value:$28>과 아는 사이였나!<end>"
@@ -15,6 +23,10 @@ korean = "오, 피유! 뭐냐! <value:$28>과 아는 사이였나!<end>"
 ["580006"]
 japanese = "<value:$28>の感じが<line-break>どうも、変なんじゃ。<line-break>どうしたのじゃ、フィーユ？<end>"
 korean = "<value:$28>의 느낌이 아무래도 이상하구나. 무슨 일이냐, 피유?<end>"
+
+["580007"]
+japanese = "…ちっ、カンのいい爺さんだね。<line-break>いや、その、記憶喪失なんだ。うん！<end>"
+korean = "…칫, 눈치 빠른 영감이네. 아니, 그게, 기억상실이야. 응!<end>"
 
 ["580008"]
 japanese = "記憶喪失？　ハハハハ！<line-break>そりゃ、いいわい！　ハハハ！　　　　<line-break>　<line-break>じゃが、わしには、<value:$28>が<line-break>記憶喪失なぞではなく、<line-break>別人になったように見える。<end>"
@@ -71,6 +83,10 @@ korean = "하지만 이런 맛있는 이야기엔 대개 뒷사정이 있어. �
 ["580063"]
 japanese = "ま、気が向いたら行ってみな。<line-break>死竜の洞窟の一番奥にあるらしいぜ。<end>"
 korean = "뭐, 마음이 내키면 가 봐. 사룡의 동굴 가장 깊숙한 곳에 있다더군.<end>"
+
+["580064"]
+japanese = "お、これは黄泉の乙女像！<line-break>ごくろうさん。<line-break>ほらよ、こいつが報酬だ。<end>"
+korean = "오, 이건 황천의 소녀상! 수고했다. 자, 이게 보수다.<end>"
 
 ["580065"]
 japanese = "誰も持ってきてくれないんで、<line-break>こりゃあ、ダメかなと思ってた。<line-break>助かったよ。<line-break>なんかあったら、<line-break>またよろしく頼む。<end>"
@@ -171,6 +187,10 @@ korean = "후후, 만나서 반갑다. 그럼 잘 가, <value:$28>. 인연이 �
 ["580098"]
 japanese = "おお、<value:$28>か。<line-break>ちょうどいい。<line-break>　<line-break>この前の、邪竜の死体の件じゃが、<line-break>エンシャントのギルドに、死竜の洞窟を<line-break>探索する仕事の依頼が出とってだな…<end>"
 korean = "오, <value:$28>인가. 마침 잘 왔군. 지난번 사룡 시체 건인데, 엔샨트 길드에 사룡의 동굴을 탐색하는 의뢰가 나와 있다네….<end>"
+
+["580102"]
+japanese = "指名手配、<line-break>反逆者アンギルダン・ゼイエン<line-break>罪状：皇帝に対する不服従<end>"
+korean = "지명수배. 반역자 앙기르단 제이엔. 죄목: 황제에 대한 불복종.<end>"
 
 ["580103"]
 japanese = "おお、<value:$28>か。<line-break>お前も飲みにきたのか。<end>"

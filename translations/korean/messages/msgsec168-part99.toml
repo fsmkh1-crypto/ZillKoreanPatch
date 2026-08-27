@@ -8,6 +8,10 @@ korean = "파로스 볼륨 3 그 3 시작<end>"
 japanese = "先の空中庭園のおり…<line-break>そなた、気づいたか？<line-break>…アトレイアだ。<line-break>あのときの<line-break>アトレイアの表情には<line-break>鬼気迫るものがあった。<end>"
 korean = "지난 공중정원 때… 자네도 눈치챘나? …아트레아 말일세. 그때 아트레아의 표정에는 섬뜩할 만큼 절박한 기운이 있었어.<end>"
 
+["1680005"]
+japanese = "あの娘の人生には<line-break>少し、関わりがあってな。<line-break>気になるのだ…。<end>"
+korean = "그 아이의 인생에는 조금 연관이 있어서 말이지. 신경이 쓰이는군….<end>"
+
 ["1680006"]
 japanese = "<value:$28>か。<line-break>ティアナを頼むぞ。<end>"
 korean = "<value:$28>인가. 티아나를 부탁한다.<end>"
@@ -63,6 +67,10 @@ korean = "후후… 그 아이의 인생에는 조금 인연이 있어서 말이
 ["1680022"]
 japanese = "<value:$28>か。<line-break>今朝、空中庭園で<line-break>アトレイアに会って驚いた。<line-break>目を見張るほど美しくなった。<line-break>…そう思わぬか？<end>"
 korean = "<value:$28>인가. 오늘 아침 공중정원에서 아트레이아를 만나 놀랐지. 눈이 휘둥그레질 만큼 아름다워졌더군. …그렇지 않나?<end>"
+
+["1680025"]
+japanese = "あの誇り高い男が堕ちていくのを<line-break>この玉座から見守ってやるとしよう。<end>"
+korean = "그 자존심 높은 남자가 타락해 가는 모습을 이 왕좌에서 지켜보도록 하지.<end>"
 
 ["1680026"]
 japanese = "<value:$28>か。<line-break>レムオン坊やとはうまくいっておるか？<end>"
@@ -167,6 +175,10 @@ korean = "왕궁을 빠져나와 밀회라니, 티아나가 푹 빠지는 것도
 ["1680054"]
 japanese = "…ゼネテスを婿に選んだのは、<line-break>早計だったかもしれぬ。<end>"
 korean = "…제네테스를 사위로 고른 건 성급했을지도 모르겠군.<end>"
+
+["1680055"]
+japanese = "フフフ…、はっきり言うがいい。<line-break>ゼネテスを次期国王につけ<line-break>ファーロス家が王位を簒奪する。<line-break>雌狐エリスが、そう企んでいると<line-break>言うのであろう？<end>"
+korean = "후후후… 똑똑히 말해 보거라. 제네테스를 차기 국왕으로 세워 파로스 가문이 왕위를 찬탈한다. 암여우 엘리스가 그렇게 꾸미고 있다고 말하려는 것이겠지?<end>"
 
 ["1680056"]
 japanese = "悪い話ではないが、<line-break>ティアナを不幸にしてまで<line-break>実現する価値はない。<line-break>ティアナの婿は<line-break>ファーロス家の者でなくとも<line-break>よいのだ。<end>"

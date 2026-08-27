@@ -12,6 +12,10 @@ korean = "그래, 내가 이 도장의 사범 오시다. 무슨 볼일이지?<en
 japanese = "そうかい。ま、用がなくてもいいやな。<line-break>ゆっくりしてくといいさ。<end>"
 korean = "그런가. 뭐, 볼일이 없어도 괜찮지. 느긋하게 쉬다 가.<end>"
 
+["1370006"]
+japanese = "おう、<value:$28>じゃないか。<line-break>今日はアイリーンは一緒じゃないんだな。<end>"
+korean = "오, <value:$28> 아니냐. 오늘은 아이린과 함께가 아니군.<end>"
+
 ["1370009"]
 japanese = "おう、<value:$28>じゃないか。<line-break>今日はアイリーンは一緒じゃないんだな。<line-break>また、ケンカでもやらかしたか？<end>"
 korean = "오, <value:$28> 아니야. 오늘은 아이린이 같이 없네. 또 싸우기라도 했어?<end>"
@@ -1179,6 +1183,10 @@ korean = "하, 하지만….<end>"
 ["1370462"]
 japanese = "いやあ、実は、<line-break>酒場にツケがたまっていてな。<line-break>　<line-break>俺よりたくさんツケがたまってる<line-break>鍛冶屋の親父とワリカンして<line-break>払うって約束になってんだ。<end>"
 korean = "사실 술집 외상이 쌓여 있어서 말이지. 나보다 외상이 더 많은 대장간 아저씨와 반씩 내기로 약속했거든.<end>"
+
+["1370463"]
+japanese = "俺って太っ腹だろ？<line-break>　<line-break>　<line-break>で、すまねえが、こいつと<line-break>鍛冶屋の親父の分をあわせて、<line-break>酒場のフェルムに払ってきてくれ。<end>"
+korean = "나 꽤 통 크지? 그런데 미안하지만 이거랑 대장장이 아저씨 몫을 합쳐서 술집의 페름에게 가져다줘.<end>"
 
 ["1370465"]
 japanese = "<value:$28>、頼んだぜ。<line-break>　　　　　　　　　　　　　　　　<line-break>　<end>"

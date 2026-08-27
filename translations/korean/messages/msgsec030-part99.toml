@@ -332,6 +332,10 @@ korean = "…자, 그럼. 나도 슬슬 가 볼까.<end>"
 japanese = "あら。方向が同じみたいね。<line-break>でも偶然よね、偶然。<end>"
 korean = "어머. 방향이 같은 모양이네. 하지만 우연이지, 우연.<end>"
 
+["300105"]
+japanese = "<value:$28>も<line-break>意地っ張りねぇー。<line-break>一緒に行ってあげるわよ。　<line-break>あのおかしなゴブリンたちを<line-break>倒さないことには、<line-break>私の気も収まらないしね。<end>"
+korean = "<value:$28>도 참 고집 세네. 같이 가줄게. 그 이상한 고블린들을 쓰러뜨리지 않고서는 내 성미도 풀리지 않으니까.<end>"
+
 ["300106"]
 japanese = "あら、<value:$28>さん、<line-break>いらっしゃいませ。<line-break>何かご用ですか？<end>"
 korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end>"
@@ -355,6 +359,10 @@ korean = "크, 큰일이야! 바닥 구멍이 더 커지고 있어…!<end>"
 ["300121"]
 japanese = "あら、<value:$28>。<line-break>オッシさんの道場に行くのでは　<line-break>なかったの？<end>"
 korean = "어머, <value:$28>. 오시 씨 도장에 가는 거 아니었어?<end>"
+
+["300126"]
+japanese = "やったゴブ！<line-break>実力で人間の魔の手から<line-break>逃れることができたゴブ！<end>"
+korean = "해냈다 고브! 실력으로 인간의 마수에서 벗어날 수 있었다 고브!<end>"
 
 ["300127"]
 japanese = "くっ…暗闇だからとはいえ、<line-break>不覚だったわ…。<end>"
