@@ -27,6 +27,7 @@ RULES = [
     ("msgsec194-part99.toml", "1940007", "Burnin'! 부모와 자식 매<end>", "Burnin'! 부전자전<end>"),
     ("msgsec196-part99.toml", "1960512", "Burnin'! 부모와 자식 매<end>", "Burnin'! 부전자전<end>"),
     ("msgsec001-part01.toml", "10182", "Ｂｕｒｎｉｎ’！부전자전<end>", "Burnin'! 부전자전<end>"),
+    ("msgsec001b.toml", "10182", "Ｂｕｒｎｉｎ’！부전자전<end>", "Burnin'! 부전자전<end>"),
     ("msgsec002-part02.toml", "20112", "도망<end>", "도망친다<end>"),
 ]
 
