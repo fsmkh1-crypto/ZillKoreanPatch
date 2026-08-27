@@ -1236,6 +1236,10 @@ korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
 japanese = "ウフフ、<value:$28>様も<line-break>今日は一日、ご苦労様でした。　　　<line-break>　<line-break>そうそう。<value:$28>様を<line-break>お呼びしたのは、これを<line-break>受け取ってもらいたかったからです。<end>"
 korean = "우후후, <value:$28> 님도 오늘 하루 수고 많으셨어요. 그리고 <value:$28> 님을 부른 건 이걸 받아 주셨으면 해서예요.<end>"
 
+["890453"]
+japanese = "私が初めて誰の助けも借りずに<line-break>焼いたクッキーです。<line-break>召しあがってください。<end>"
+korean = "제가 처음으로 누구 도움도 받지 않고 구운 쿠키예요. 드셔 주세요.<end>"
+
 ["890454"]
 japanese = "時は満ちた。<line-break>しかし、なぜ時を告げぬ？<line-break> <line-break>告げるものよ…？<end>"
 korean = "때가 찼다. 그런데 왜 때를 알리지 않느냐? 알리는 자여…?<end>"
@@ -1355,6 +1359,10 @@ korean = "하지만 너와 보낸 16년… 나는 처음으로 평온을 알았�
 ["890495"]
 japanese = "自分の身を捨ててまで逃がすか…<line-break>アスティアよ、母とは強いものだな。<end>"
 korean = "자신을 희생해서까지 도망치게 하나… 아스티아여, 어머니란 강한 존재구나.<end>"
+
+["890498"]
+japanese = "王妃様にお会いになるのですね。<line-break>かしこまりました。<line-break>どうぞお通りください。<end>"
+korean = "왕비님을 만나러 가시는군요. 알겠습니다. 지나가십시오.<end>"
 
 ["890499"]
 japanese = "王妃様に会うのか。<line-break>よかろう、話は承っている。<line-break>通るとよい。<end>"
@@ -1528,9 +1536,17 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["890552"]
+japanese = "そうか、残念だな。<line-break>それならば、こちらも援助できぬ。<line-break>下がるがよい。<end>"
+korean = "그런가, 유감이군. 그렇다면 이쪽도 지원할 수 없다. 물러가라.<end>"
+
 ["890555"]
 japanese = "あたし、お腹ぺこぺこ。<line-break>　<line-break>　<line-break>この家からいい匂いがするよぅ。<line-break>おじゃましてみようかなぁ。<end>"
 korean = "나 배고파 죽겠어. 이 집에서 좋은 냄새가 나. 한번 들어가 볼까.<end>"
+
+["890557"]
+japanese = "王妃様にお会いになるのですね。<line-break>かしこまりました。<line-break>どうぞお通りください。<end>"
+korean = "왕비님을 만나러 가시는군요. 알겠습니다. 지나가십시오.<end>"
 
 ["890558"]
 japanese = "王妃様に会うのか。<line-break>よかろう、話は承っている。<line-break>通るとよい。<end>"

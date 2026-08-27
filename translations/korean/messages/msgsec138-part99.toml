@@ -192,6 +192,10 @@ korean = "…후후, 후후후후.<end>"
 japanese = "すまぬ、すまぬ。<line-break>いや、わらわも無駄なことを<line-break>したものだと思ってな。<line-break>…尋ねる必要なぞ、<line-break>これっぽっちもなかったのじゃ。<end>"
 korean = "미안하구나, 미안해. 나도 쓸데없는 짓을 했다고 생각해서 말이지. …물을 필요 따윈 조금도 없었어.<end>"
 
+["1380069"]
+japanese = "わらわには、あらかじめ、<line-break>そなたの答えることが<line-break>わかっておるのだからな…。<end>"
+korean = "짐은 애초에 네가 뭐라고 대답할지 알고 있으니 말이다….<end>"
+
 ["1380070"]
 japanese = "そうか、そなたといえども、<line-break>未来については、とりわけ奇抜な考えは<line-break>持っておらぬのだな…。<line-break>少し、勉強になった。<end>"
 korean = "그렇군, 자네라도 미래에 대해서는 특별히 기발한 생각을 가진 건 아니군…. 조금 배웠다.<end>"
@@ -1428,6 +1432,10 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1380476"]
+japanese = "そうか、残念だな。<line-break>それならば、こちらも援助できぬ。<line-break>下がるがよい。<end>"
+korean = "그런가, 유감이군. 그렇다면 이쪽도 지원할 수 없다. 물러가라.<end>"
+
 ["1380479"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -1719,6 +1727,10 @@ korean = "네<end>"
 ["1380580"]
 japanese = "ん？　オッシの奴が？<line-break>酒場のツケを、<line-break>俺のと奴のとでワリカンに？<line-break>そうかー！　思い出したぞ。<end>"
 korean = "응? 오시 녀석이? 술집 외상을 나랑 자기 거랑 반씩 내기로 했다고? 아! 생각났다.<end>"
+
+["1380583"]
+japanese = "悪いな。<line-break>よし、じゃ、あんたには、<line-break>駄賃といったらなんだが…<end>"
+korean = "미안하군. 좋아, 그럼 자네에겐 품삯이라 하기엔 뭐하지만….<end>"
 
 ["1380584"]
 japanese = "こいつを持ってきな。<end>"

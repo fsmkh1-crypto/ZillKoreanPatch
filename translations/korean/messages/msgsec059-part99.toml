@@ -88,6 +88,10 @@ korean = "수락한다<end>"
 japanese = "断る<end>"
 korean = "거절한다<end>"
 
+["590039"]
+japanese = "そうか、お主さえ来れば<line-break>他に待つものはない。<line-break>さっそく、出撃じゃ！<end>"
+korean = "그런가, 네가 왔으니 더 기다릴 사람은 없다. 당장 출격이다!<end>"
+
 ["590047"]
 japanese = "<value:$28>、よくやった。<line-break>お主が最高殊勲者じゃ！<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"
 korean = "<value:$28>, 잘했다. 자네가 최고 공훈자다! 이 공적으로 자네를 딘갈 기사로 추천하고 여기서 임시 서임을 하려 한다.<end>"

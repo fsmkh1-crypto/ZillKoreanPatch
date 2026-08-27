@@ -892,6 +892,10 @@ korean = "그러게…. <value:$28>과 모험 여행이라. 좋겠다! 나도 �
 japanese = "私とおんなじですね、エステル様。<line-break><line-break><line-break>英雄<value:$28>様と<line-break>凄腕女魔法使いと<line-break>男装の麗人のパーティ。<end>"
 korean = "저랑 똑같네요, 에스텔 님. 영웅 <value:$28>님과 실력 좋은 여자 마법사, 남장한 미인의 파티.<end>"
 
+["1420278"]
+japanese = "きっと依頼がワンサカきて…<line-break>世界一の冒険者も夢じゃありませんよ！<line-break>きゃっ！<end>"
+korean = "분명 의뢰가 잔뜩 들어올 거예요… 세계 제일의 모험가도 꿈이 아니에요! 꺄악!<end>"
+
 ["1420279"]
 japanese = "男装の麗人って…ボ、ボクのこと？<end>"
 korean = "남장한 미인이라니… 나, 나 말이야?<end>"
@@ -1727,6 +1731,10 @@ korean = "아직 고브.<end>"
 ["1420511"]
 japanese = "なにをするゴブ？<line-break>急がないと晩ごはんに<line-break>間に合わないゴブ。<end>"
 korean = "뭐 하는 고브? 서두르지 않으면 저녁밥에 늦는다 고브.<end>"
+
+["1420514"]
+japanese = "おなかをすかせた人が<line-break>いなくなってからでも<line-break>ごちそうはきっと食べれるゴブ。<end>"
+korean = "배고픈 사람이 없어지고 나서도 진수성찬은 분명 먹을 수 있다 고브.<end>"
 
 ["1420515"]
 japanese = "…す、凄いゴブ。<line-break>オルナットがごちそうを<line-break>あきらめたゴブ！<end>"

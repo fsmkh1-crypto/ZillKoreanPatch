@@ -740,6 +740,10 @@ korean = "화, 확실히 우리로서는… 하지만…<end>"
 japanese = "…了解しました！<line-break>では我々は魔物をエンシャントから<line-break>出さないようにこの地を死守します。<line-break>未来は、あなたに託します。<line-break>御武運を、<value:$28>殿！<end>"
 korean = "…알겠습니다! 그럼 우리는 마물이 엔샨트 밖으로 나가지 못하게 이곳을 사수하겠습니다. 미래는 당신께 맡깁니다. 무운을, <value:$28> 님!<end>"
 
+["1330296"]
+japanese = "エンシャントから撤退する。<line-break>すぐに兵を集結させ、<line-break>退却の準備に入れ。<end>"
+korean = "엔샨트에서 철수한다. 즉시 병력을 집결시키고 퇴각 준비에 들어가라.<end>"
+
 ["1330297"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -1564,6 +1568,10 @@ korean = "그것이 용왕님의 뜻….<end>"
 japanese = "<value:$28>は今や<line-break>地上最強の存在となりつつある。<line-break> <line-break>もし、その<value:$28>が<line-break>心変わりをしたら<line-break>誰がとめられるというのだ？<end>"
 korean = "<value:$28>은 이제 지상 최강의 존재가 되어 가고 있다. 만약 그 <value:$28>이 마음을 바꾼다면 누가 막을 수 있겠는가?<end>"
 
+["1330604"]
+japanese = "こんなことになってしまって<line-break>残念だけど、<line-break>全力でいかせてもらうわ！<end>"
+korean = "이렇게 돼서 유감이지만, 전력으로 상대해 주겠어!<end>"
+
 ["1330605"]
 japanese = "カフィンは下がってて。<end>"
 korean = "카핀은 물러나 있어.<end>"
@@ -1612,6 +1620,10 @@ korean = "으으…, 역시 강해….<end>"
 japanese = "やめて、ナーシェス。<line-break><value:$28>さんに<line-break>そのことは言わないで！<end>"
 korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>"
 
+["1330620"]
+japanese = "世界の均衡を崩すほどに<line-break>成長してしまった<line-break>自らの命を絶つ気にな。フフ…。<end>"
+korean = "세계의 균형을 무너뜨릴 만큼 성장해 버린 자신의 목숨을 끊을 생각이었지. 후후….<end>"
+
 ["1330621"]
 japanese = "<value:$28>、<line-break>お前を慕っていたノエルが<line-break>ここに来た理由がわかるか？<line-break>お前が死なない限り、<line-break>カフィンとレイヴンが死人に<line-break>戻ってしまうからだ！<end>"
 korean = "<value:$28>, 너를 따르던 노엘이 왜 여기 왔는지 아나? 네가 죽지 않는 한 카핀과 레이븐이 다시 죽은 자로 돌아가 버리기 때문이다!<end>"
@@ -1647,6 +1659,10 @@ korean = "자, 돌아가자. 싸움이 끝나도 해야 할 일은 남아 있다
 ["1330633"]
 japanese = "とりあえず、闇の侵攻は、<line-break>くい止められましたね。<line-break>よくやってくれました。<line-break>でも、これであなたの旅が、<line-break>終わったわけではありません。<end>"
 korean = "일단 어둠의 침공은 막았습니다. 잘해 주셨어요. 하지만 이걸로 당신의 여행이 끝난 건 아닙니다.<end>"
+
+["1330634"]
+japanese = "ふふふ。これからあなたは、<line-break>どんな道を進むのでしょうね？<line-break>楽しみです。<end>"
+korean = "후후후. 앞으로 당신은 어떤 길을 걷게 될까요? 기대되네요.<end>"
 
 ["1330637"]
 japanese = "わしか…？<line-break>わしはイオンズ。<line-break>ここの神官じゃ。<end>"

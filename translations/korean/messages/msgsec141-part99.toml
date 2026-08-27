@@ -348,6 +348,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "女王様、はじめてのお務めは<line-break>いかがでしたか？<end>"
 korean = "여왕님, 첫 임무는 어떠셨습니까?<end>"
 
+["1410102"]
+japanese = "…とても緊張しました。<line-break>周りのみなさんが私のことを<line-break>見ているのですもの。<end>"
+korean = "…정말 긴장했어요. 주변 사람들이 모두 저를 보고 있었으니까요.<end>"
+
 ["1410104"]
 japanese = "私が…魅力的？<end>"
 korean = "내가… 매력적이라고?<end>"
@@ -687,6 +691,10 @@ korean = "그래, 우연이지만 같은 여관에 <value:$28>가 묵고 있는 
 ["1410212"]
 japanese = "　　　もしかしたら、一緒に冒険の旅に<line-break>　　連れていってくれるかもしれないわね。<line-break>　　　　　　それじゃ、またね。<line-break>　　　　　　　　　　　　　　　カフィンより　<end>"
 korean = "어쩌면 함께 모험 여행에 데려가 줄지도 모르겠네. 그럼 또 봐. 카핀으로부터<end>"
+
+["1410214"]
+japanese = "それで、今朝起きてみたら<line-break>今度はカフィンもレイヴンも<line-break>いなかったんです。<end>"
+korean = "그래서 오늘 아침 일어나 보니 이번엔 카핀도 레이븐도 없었어요.<end>"
 
 ["1410215"]
 japanese = "どうしてなんだろう…。<line-break>やっぱり、わたしがドジだから<line-break>みんな嫌いになっちゃったのかな…。<line-break>わたし、これから<line-break>どうしたらいいんだろう…。<end>"

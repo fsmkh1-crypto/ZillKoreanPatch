@@ -144,6 +144,10 @@ korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
 japanese = "ウフフ、<value:$28>様も<line-break>今日は一日、ご苦労様でした。　　　<line-break>　<line-break>そうそう。<value:$28>様を<line-break>お呼びしたのは、これを<line-break>受け取ってもらいたかったからです。<end>"
 korean = "우후후, <value:$28> 님도 오늘 하루 수고 많으셨어요. 그리고 <value:$28> 님을 부른 건 이걸 받아 주셨으면 해서예요.<end>"
 
+["1920047"]
+japanese = "私が初めて誰の助けも借りずに<line-break>焼いたクッキーです。<line-break>召しあがってください。<end>"
+korean = "제가 처음으로 누구 도움도 받지 않고 구운 쿠키예요. 드셔 주세요.<end>"
+
 ["1920048"]
 japanese = "あ、待ってください。<line-break>感想はあとで…、<line-break>ここでは食べないで…。<end>"
 korean = "아, 기다려 주세요. 감상은 나중에… 여기서는 먹지 마세요….<end>"

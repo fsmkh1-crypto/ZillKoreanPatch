@@ -36,6 +36,10 @@ korean = "자, 슬슬 떠날 때인가. 이 장난감이 추락하기 전에 난
 japanese = "じゃ、<value:$28>。<line-break>せっかくだから、墜落の瞬間まで<line-break>ゆっくりしてってよ。<line-break>あはははは！<line-break>じゃあね～。<end>"
 korean = "그럼 <value:$28>. 모처럼이니 추락하는 순간까지 느긋하게 있다 가. 아하하하! 잘 가~.<end>"
 
+["1120031"]
+japanese = "　　　　　　　では、さらばだ。　　　　　　　<line-break>　　　　　無限のソウルを持つ者よ。<end>"
+korean = "그럼, 잘 가라. 무한의 소울을 지닌 자여.<end>"
+
 ["1120044"]
 japanese = "イークレムン！！<end>"
 korean = "이클레문!!<end>"
@@ -323,6 +327,10 @@ korean = "에스텔의 무녀로서의 힘이 크게 끌어내졌다.<end>"
 ["1120155"]
 japanese = "すごい…。<line-break>これが、ボクの力…？<end>"
 korean = "대단해…. 이게 내 힘…?<end>"
+
+["1120157"]
+japanese = "　　　　　　　では、さらばだ。　　　　　　　<line-break>　　　　　無限のソウルを持つ者よ。<end>"
+korean = "그럼, 잘 가라. 무한의 소울을 지닌 자여.<end>"
 
 ["1120159"]
 japanese = "しょうがない<end>"
