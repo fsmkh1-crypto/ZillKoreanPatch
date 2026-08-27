@@ -388,6 +388,10 @@ korean = "…역시 내가 곁에 있으면 <value:$28>은 안 되는 걸까?<en
 japanese = "別れましょ？<end>"
 korean = "헤어질까?<end>"
 
+["720099"]
+japanese = "このままじゃ、よくないわ。<line-break>あなたにとっても、私にとっても…。<line-break>　<line-break>これからはお互いが、それぞれ<line-break>お互いの目指す道を進みましょ。<line-break>それが、たぶん、賢いやり方だわ…。<end>"
+korean = "이대로는 좋지 않아. 너에게도, 나에게도…. 앞으로는 서로 각자가 목표로 하는 길을 나아가자. 그게 아마 현명한 방법일 거야….<end>"
+
 ["720100"]
 japanese = "あ！　<value:$28>さん！<line-break>こ、こんにちは。　　　　　　<line-break><line-break>あの、知ってますか？<line-break>グフトクって魔獣の話？<end>"
 korean = "아! <value:$28>님! 아, 안녕하세요. 저기, 알고 계세요? 구프트크라는 마수 이야기요?<end>"

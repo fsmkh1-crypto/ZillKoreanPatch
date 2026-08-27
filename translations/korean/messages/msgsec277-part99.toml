@@ -24,6 +24,10 @@ korean = "질리온….<end>"
 japanese = "　　　お前は俺のために充分、頑張った。<line-break>　　　これからはお前自身の幸せのために<line-break>　　　　　　　　　生きろ。<line-break>　<line-break>　<line-break>　　　　大丈夫。<value:$28>なら<line-break>　　　　きっとお前を支えてくれる。<end>"
 korean = "넌 나를 위해 충분히 애썼다. 이제부터는 네 자신의 행복을 위해 살아라. 괜찮아. <value:$28>라면 분명 널 지탱해 줄 거야.<end>"
 
+["2770010"]
+japanese = "でも…。それでもあたしは<line-break>あなたについてゆきたい。<line-break>もしも、許されるのであれば…。<end>"
+korean = "하지만…. 그래도 난 너를 따라가고 싶어. 허락된다면….<end>"
+
 ["2770011"]
 japanese = "ありがとう。<value:$28>。<end>"
 korean = "고마워. <value:$28>.<end>"

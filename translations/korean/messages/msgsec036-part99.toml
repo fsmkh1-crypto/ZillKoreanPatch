@@ -128,6 +128,10 @@ korean = "…예쁘네.<end>"
 japanese = "…知りたがってるね？<end>"
 korean = "…알고 싶어 하지?<end>"
 
+["360037"]
+japanese = "今まで信じてきたもの<line-break>ずべてが疑わしくなった。　　<line-break>フフ…そんな顔をしているよ、君。<end>"
+korean = "지금까지 믿어 온 모든 것이 의심스러워졌군. 후후… 그런 얼굴을 하고 있어, 자네.<end>"
+
 ["360038"]
 japanese = "ああ、自己紹介するね。　　　<line-break>僕は東方の博士シャリ。<line-break>　<line-break>そして君は<value:$28>。<line-break>アスティアが１６年前に<line-break>拾った赤ん坊。ウフフアハハ！<end>"
 korean = "아, 자기소개할게. 나는 동방의 박사 샤리. 그리고 넌 <value:$28>. 아스티아가 16년 전에 주운 아기지. 우후후아하하!<end>"

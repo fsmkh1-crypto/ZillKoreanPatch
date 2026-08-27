@@ -12,6 +12,10 @@ korean = "들리느냐, <value:$28>여.<end>"
 japanese = "だが、その前にひとつだけ<line-break><value:$28>に確かめておきたい。<line-break>　<line-break>君はシャロームに従うつもりなのか？<line-break>もしそうであれば、君とはここまでだ。<line-break>答えてくれ、<value:$28>？<end>"
 korean = "하지만 그 전에 하나만 <value:$28>에게 확인하고 싶어. 너는 샬롬을 따를 생각인가? 그렇다면 너와는 여기까지다. 대답해 줘, <value:$28>.<end>"
 
+["2530007"]
+japanese = "…あのウジ虫とは決別したわけか。<line-break>ならば話そう。<line-break>わずかに残された最後の希望を…。<end>"
+korean = "…그 구더기 같은 놈과 결별한 모양이군. 그렇다면 말해 주지. 얼마 남지 않은 마지막 희망을….<end>"
+
 ["2530008"]
 japanese = "<value:$28>よ…。<line-break>多少、時間はかかったが、<line-break>すべては余の計画通りになった。<line-break>いよいよだぞ。<line-break>我らが人類の革新に<line-break>本格的に乗り出すのは…。<end>"
 korean = "<value:$28>…. 조금 시간은 걸렸지만 모든 것이 내 계획대로 되었다. 이제 시작이다. 우리 인류의 혁신에 본격적으로 나서는 것이….<end>"

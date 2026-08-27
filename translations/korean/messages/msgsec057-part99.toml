@@ -132,6 +132,10 @@ korean = "하지만 아르길샤이어는 지금도 성배를 노리고 있을 �
 japanese = "急がないとな。<line-break><value:$28>。<end>"
 korean = "서둘러야겠군. <value:$28>.<end>"
 
+["570039"]
+japanese = "ゴブリンは聖杯の力で言葉を話し、<line-break>ゴブゴブ団を名乗っています。<line-break>　<line-break>あと、ネモの話だと<line-break>エンシャントにいるという話でしたが<line-break>急がないと、移動してしまうでしょう。<end>"
+korean = "고블린은 성배의 힘으로 말을 하며 고브고브단이라고 자칭하고 있습니다. 그리고 네모의 말로는 엔샨트에 있다고 했지만, 서두르지 않으면 이동해 버릴 겁니다.<end>"
+
 ["570040"]
 japanese = "んじゃ、行くか、<line-break><value:$28>。<end>"
 korean = "그럼 갈까, <value:$28>.<end>"

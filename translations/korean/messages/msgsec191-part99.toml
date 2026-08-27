@@ -336,6 +336,10 @@ korean = "그건 당신입니다. 어둠을 모두 지워 버릴 만큼 강렬�
 japanese = "それはどうかな？<line-break><value:$28>は今や<line-break>地上最強の存在となりつつある。<line-break>もし、その<value:$28>が<line-break>心変わりをしたら<line-break>誰がとめられるというのだ？<end>"
 korean = "그건 어떨까? <value:$28>는 지금 지상 최강의 존재가 되어 가고 있다. 만약 그 <value:$28>가 마음을 바꾸면 누가 막을 수 있겠나?<end>"
 
+["1910094"]
+japanese = "そうなる前に排除せよとの　　　　<line-break>竜王様の賢明なるご判断だ。<line-break>　<line-break>さぁ、ノエル、カフィン、レイヴン、<line-break>竜王様の加護を受けし者たちよ。<line-break>今こそその恩に報いるときだ。<end>"
+korean = "그렇게 되기 전에 배제하라는 용왕님의 현명한 판단이다. 자, 노엘, 카핀, 레이븐, 용왕님의 가호를 받은 자들이여. 지금이야말로 그 은혜에 보답할 때다.<end>"
+
 ["1910095"]
 japanese = "…俺はノエルに従うと決めている。<line-break>ノエルの前に立つ敵は<line-break>排除する。…それだけだ。<end>"
 korean = "…나는 노엘을 따르기로 정했다. 노엘 앞을 막는 적은 제거한다. …그뿐이다.<end>"
@@ -387,6 +391,10 @@ korean = "아…, 레이븐…!?<end>"
 ["1910108"]
 japanese = "ば、バカな！<line-break>貴様、正気か…！？　　<line-break>　<line-break>私に刃向かうのは<line-break>竜王様に剣を向けるのと<line-break>同じことだぞ！<end>"
 korean = "마, 말도 안 돼! 네놈, 제정신이냐…!? 내게 대드는 것은 용왕님께 칼을 겨누는 것과 같은 일이다!<end>"
+
+["1910109"]
+japanese = "…あんたの言いぐさは<line-break>聞くに耐えないんでな。　　　　　　　<line-break>　<line-break>殺人機械だった俺を、<line-break>助け出してくれたことには感謝してる。<line-break>だが、ノエルを悲しませるのは許さん。<end>"
+korean = "…네 말투는 듣고 있을 수가 없군. 살인 기계였던 나를 구해 준 건 감사하고 있어. 하지만 노엘을 슬프게 하는 건 용서 못 해.<end>"
 
 ["1910110"]
 japanese = "ノエル…。<line-break>今の俺はお前の重荷にすぎない。<line-break>それは…俺には許されないことなのだ。<line-break>お前のそばにいるようになって、<line-break>俺は人間に戻ることができた。<line-break>感謝している。…さらばだ。<end>"
@@ -515,6 +523,10 @@ korean = "자, 이제 한숨만 더 내쉬면 된다. 전투 준비는 됐느냐
 ["1910144"]
 japanese = "テラネを出るとき、<line-break>こんなすごい冒険が待ってるなんて<line-break>思ってもいなかったよ。<line-break>その旅もこれで終わるんだね。<line-break>…<value:$28>、<line-break>もう準備はいいの？<end>"
 korean = "테라네를 나올 때 이런 엄청난 모험이 기다리고 있을 줄은 몰랐어. 그 여행도 이제 끝나는구나. …<value:$28>, 준비는 다 됐어?<end>"
+
+["1910145"]
+japanese = "運命と戦い、そして、勝て。<line-break>竜王の力は未知数だが、<line-break>命を賭けて挑む価値はあろう。　<line-break>その結果どうなるかはわからぬが、<line-break>神の時代に終止符を打つのも<line-break>悪くはあるまい。<end>"
+korean = "운명과 싸워라. 그리고 이겨라. 용왕의 힘은 미지수지만 목숨을 걸고 도전할 가치는 있겠지. 그 결과가 어찌 될지는 모르나 신의 시대에 종지부를 찍는 것도 나쁘지 않을 것이다.<end>"
 
 ["1910146"]
 japanese = "ここまで来て諦めるなんて、<line-break>ぜーーったいに許せなくってよ、<line-break><value:$28>！<line-break>自分の力を信じて、<line-break>最後まで戦うのよ！<line-break>いいわね、<value:$28>！？<end>"

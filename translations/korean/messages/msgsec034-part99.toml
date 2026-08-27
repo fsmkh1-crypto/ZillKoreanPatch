@@ -124,6 +124,10 @@ korean = "좋아, 준비됐지. 간다. 산짐승을 조심해.<end>"
 japanese = "よし、母さんに<line-break>あいさつしていこう。<end>"
 korean = "좋아, 엄마한테 인사하고 가자.<end>"
 
+["340031"]
+japanese = "ロッチナ…。炎竜山がついに復活した。<line-break>これで宝剣が打てる。<line-break>俺たちの夢がかなうぞ…。<end>"
+korean = "롯치나…. 염룡산이 드디어 부활했어. 이제 보검을 만들 수 있다. 우리 꿈이 이루어지는 거야….<end>"
+
 ["340032"]
 japanese = "それと、今日<line-break><value:$28>が剣を打った。<line-break>見てやってくれ。　　　　　　　<end>"
 korean = "그리고 오늘 <value:$28>가 검을 만들었어. 봐 줘.<end>"

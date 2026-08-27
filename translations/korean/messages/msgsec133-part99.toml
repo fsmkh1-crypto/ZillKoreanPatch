@@ -260,6 +260,10 @@ korean = "안 가<end>"
 japanese = "…愚かな。<line-break>どこまでも、運命を受け入れぬか。<line-break>　<line-break>………………。<line-break>よかろう、ならば送ってやる。<line-break>運命の待つ、制御の間へとな。<end>"
 korean = "…어리석군. 끝까지 운명을 받아들이지 않는가. ………………. 좋다. 그렇다면 보내 주마. 운명이 기다리는 제어실로.<end>"
 
+["1330072"]
+japanese = "見せてもらうぞ。　　　　　　　　　　<line-break>そなたらの言う、希望とやらを。<line-break>　<line-break>シャリを追い返した時点で<line-break>不本意ながら、そなたらに賭けたことに<line-break>なったのじゃからな。<end>"
+korean = "보여 다오. 너희가 말하는 그 희망이라는 것을. 샤리를 쫓아낸 시점에서 내키지는 않았으나 너희에게 걸어 버린 셈이니 말이다.<end>"
+
 ["1330073"]
 japanese = "<value:$28>！<line-break>…そんな！<end>"
 korean = "<value:$28>! …그럴 수가!<end>"
@@ -403,6 +407,10 @@ korean = "<value:$28> 씨……! 분명, 분명 와 줄 거라고 생각했어�
 ["1330109"]
 japanese = "<value:$28>さん……？<line-break>助けに来て…くださったのですか？<line-break>　<line-break>ありがとう…ございます……。<end>"
 korean = "<value:$28>님……? 구하러… 와 주신 건가요? 감사…합니다…….<end>"
+
+["1330110"]
+japanese = "ですが、どうしましょう…。<line-break>ここをこのままにしておくと、<line-break>いずれまた大変なことに……。<end>"
+korean = "하지만 어떻게 하죠…. 여길 이대로 두면 언젠가 다시 큰일이…….<end>"
 
 ["1330111"]
 japanese = "ここを、動かなくしよう。<line-break>二度と使えないように。<end>"
@@ -972,6 +980,10 @@ korean = "큭! 물러나라, 물러나!<end>"
 japanese = "市内の状況はどうなっている。<end>"
 korean = "시내 상황은 어떻게 되어 있지.<end>"
 
+["1330285"]
+japanese = "完全に制圧されました！<line-break>魔物が至る所を徘徊し、<line-break>城へは、たどり着くことすらできません。<end>"
+korean = "완전히 제압당했습니다! 마물이 곳곳을 돌아다녀 성에는 도달조차 할 수 없습니다.<end>"
+
 ["1330286"]
 japanese = "くっ！　あのシャリという奴、<line-break>いったい何者なのだ！<line-break> <line-break>あれだけの数の魔物を…<line-break>魔物どころか邪竜までもを<line-break>召喚してしまうとは！<end>"
 korean = "큭! 그 샤리라는 놈, 대체 정체가 뭐지! 저 많은 마물을… 마물도 모자라 사룡까지 소환하다니!<end>"
@@ -1099,6 +1111,10 @@ korean = "벨제바 님!<end>"
 ["1330320"]
 japanese = "市内の状況はどうなっておる？<end>"
 korean = "시내 상황은 어떻게 되어 있느냐?<end>"
+
+["1330321"]
+japanese = "完全に制圧されました！<line-break>魔物が至る所を徘徊し、<line-break>城へは、たどり着くことすらできません。<end>"
+korean = "완전히 제압당했습니다! 마물이 곳곳을 돌아다녀 성에는 도달조차 할 수 없습니다.<end>"
 
 ["1330323"]
 japanese = "は？　宰相、何を…？<end>"
@@ -1372,9 +1388,17 @@ korean = "…설령 어둠에 떨어져도 나는 나다!<end>"
 japanese = "くっ！<line-break>破滅の槍の力を解放する気？<end>"
 korean = "큭! 파멸의 창의 힘을 해방할 셈이야?<end>"
 
+["1330396"]
+japanese = "必ず、いらしてください。<line-break>その死に様を見届けてさしあげます。<line-break>フフ…フフフ…アハハ…！<end>"
+korean = "꼭 와 주세요. 그 최후를 지켜봐 드리겠습니다. 후후… 후후후… 아하하…!<end>"
+
 ["1330397"]
 japanese = "すまぬ。<line-break>手間取った。<end>"
 korean = "미안하다. 시간이 좀 걸렸다.<end>"
+
+["1330398"]
+japanese = "あのおびただしいソウルの流れ<line-break>おそらく、世界中の人間が<line-break>バロルにソウルを奪われた…。<end>"
+korean = "저 엄청난 소울의 흐름…. 아마 전 세계의 인간들이 바로르에게 소울을 빼앗긴 거야….<end>"
 
 ["1330399"]
 japanese = "世界のすべてが<line-break>静寂に<line-break>支配されているだろう。<end>"
@@ -1607,6 +1631,10 @@ korean = "티아나를 싫어하게 되어 이제 와 주지 않으실까 봐 �
 ["1330460"]
 japanese = "…魔王バロルはどこだ？<end>"
 korean = "…마왕 바로르는 어디 있지?<end>"
+
+["1330461"]
+japanese = "くすっ。<line-break>魔王バロルをネメアが倒すという予言…<line-break>その運命にあくまで操られるおつもり？<end>"
+korean = "후후. 마왕 바로르를 네메아가 쓰러뜨린다는 예언… 그 운명에 끝까지 휘둘릴 생각이야?<end>"
 
 ["1330462"]
 japanese = "運命など関係ない。<line-break>バロルが世を<line-break>虚無に帰すがゆえに討つのだ。<end>"

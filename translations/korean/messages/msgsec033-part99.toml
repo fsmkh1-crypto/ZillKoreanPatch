@@ -260,6 +260,10 @@ korean = "제네테스… 씨.<end>"
 japanese = "うんっとね。<line-break>変なおじさんが襲ってきてね。<line-break>　<line-break>でもね、でもね、<line-break>かっこいいお兄さんが出てきて<line-break>やっつけてくれたんだよぉ。<end>"
 korean = "그러니까 말이지, 이상한 아저씨가 덤볐는데 멋진 오빠가 나타나서 해치워 줬어!<end>"
 
+["330066"]
+japanese = "これは、どうも。<line-break>子供たちを助けていただいたそうで。<line-break>本当にありがとうございました。<end>"
+korean = "아, 이거 참. 아이들을 구해 주셨다고 들었습니다. 정말 감사합니다.<end>"
+
 ["330067"]
 japanese = "礼にはおよばんさ。<end>"
 korean = "감사할 것까진 없어.<end>"
@@ -687,6 +691,10 @@ korean = "(아버지가 걱정돼…. 빨리 돌아가야 해.)<end>"
 ["330179"]
 japanese = "お前がノーブルにいる間中行っていた<line-break>町の外の森に行ったはずだ。<line-break>頼んだよ、<value:$28>。<end>"
 korean = "네가 노블에 있는 동안 계속 가던 마을 밖 숲으로 갔을 거야. 부탁한다, <value:$28>.<end>"
+
+["330180"]
+japanese = "おやおや、フリントさんは<line-break>今日ご出発でしょう？<line-break>ここでおしゃべりしてていいんですか？<end>"
+korean = "어머나, 플린트 씨는 오늘 출발하시죠? 여기서 이야기하고 있어도 괜찮습니까?<end>"
 
 ["330182"]
 japanese = "<value:$28>……、急いでね。<line-break>早く帰ってきてね。早く帰ってきて<line-break><line-break><end>フリントさんを笑顔にしてあげてね。<end>"
