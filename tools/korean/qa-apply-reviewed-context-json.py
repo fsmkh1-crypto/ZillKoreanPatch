@@ -4,9 +4,17 @@ import json
 import re
 
 ROOT = Path("translations/korean/messages")
-FIX_PATH = Path("tools/korean/reviewed-context-fixes.json")
+FIX_ROOT = Path("tools/korean")
+FIX_GLOB = "reviewed-context-fixes*.json"
 
-fixes = json.loads(FIX_PATH.read_text(encoding="utf-8"))
+fixes = {}
+for fix_path in sorted(FIX_ROOT.glob(FIX_GLOB)):
+    data = json.loads(fix_path.read_text(encoding="utf-8"))
+    overlap = set(fixes) & set(data)
+    if overlap:
+        raise SystemExit(f"duplicate reviewed-context ids in {fix_path}: {sorted(overlap)}")
+    fixes.update(data)
+
 record_re = re.compile(r'^\["(\d+)"\]$')
 changed = 0
 already = 0
@@ -46,4 +54,4 @@ for path in ROOT.glob("msgsec*-part99.toml"):
 missing = set(fixes) - found
 if missing:
     raise SystemExit(f"missing ids: {sorted(missing)}")
-print(f"reviewed-context-json: changed={changed} already={already} files={len(files_changed)}")
+print(f"reviewed-context-json: changed={changed} already={already} files={len(files_changed)} shards={len(list(FIX_ROOT.glob(FIX_GLOB)))}")
