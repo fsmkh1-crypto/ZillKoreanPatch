@@ -4,6 +4,10 @@
 japanese = "やあ、<value:$28>。<line-break>どうだい、私が君の父親になってあげようか？<line-break>お父さんと呼んでくれたまえ…ひっく。<end>"
 korean = "안녕, <value:$28>. 어때, 내가 네 아버지가 되어 줄까? 아빠라고 불러 보게… 딸꾹.<end>"
 
+["1600001"]
+japanese = "大人になったら都会に行ってやるって<line-break>思ってたのに…。<line-break>なぜか離れられないんだよな。<end>"
+korean = "어른이 되면 도시로 나가 버릴 생각이었는데…. 이상하게 떠날 수가 없네.<end>"
+
 ["1600003"]
 japanese = "ねえ、<value:$28>。<line-break>また、一緒に森に行こうね。<line-break>約束だよ。<end>"
 korean = "있잖아, <value:$28>. 또 같이 숲에 가자. 약속이야.<end>"

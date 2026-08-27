@@ -36,6 +36,10 @@ korean = "좋아<end>"
 japanese = "今は忙しい<end>"
 korean = "지금은 바빠<end>"
 
+["2090010"]
+japanese = "ありがとうございます！<line-break>私、ここで待っておりますから<line-break>どうぞよろしくお願いいたします。<end>"
+korean = "감사합니다! 저는 여기서 기다리고 있을 테니 잘 부탁드리겠습니다.<end>"
+
 ["2090011"]
 japanese = "…そうですか。<line-break>　<line-break>　<line-break>すみませんでした。<line-break>変なお願いをしてしまって。<line-break>気を悪くなさらないでください。<end>"
 korean = "…그렇군요. 죄송했습니다. 이상한 부탁을 해 버렸네요. 기분 나쁘게 생각하지 말아 주세요.<end>"

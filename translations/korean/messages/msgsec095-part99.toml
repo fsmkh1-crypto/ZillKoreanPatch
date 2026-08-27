@@ -116,9 +116,17 @@ korean = "조금 칭찬했다고 우쭐대지 마!<end>"
 japanese = "キャー！<end>"
 korean = "꺄악!<end>"
 
+["950043"]
+japanese = "からまれてる女の子を　　　　　　　<line-break>助けに入るなんて<line-break><value:$28>さんらしいですね。<line-break>……私が同じようになっても、<line-break>助けに入って………。<line-break>あ、い、いえ、なんでもないです…。<end>"
+korean = "곤란한 여자아이를 도와주러 들어가다니 <value:$28> 씨답네요. ……제가 똑같은 일을 당해도 도와주러……. 아, 아뇨, 아무것도 아니에요….<end>"
+
 ["950044"]
 japanese = "くっ…うるさいハエが！<end>"
 korean = "큭… 시끄러운 파리 같으니!<end>"
+
+["950045"]
+japanese = "我こそはウルグの円卓騎士、　　　　<line-break>打ち砕く者、ダナン。<line-break>いにしえのドワーフの勇者…。<line-break>我が城に、<line-break>のこのこ入り込む者がいようとは、<line-break>このダナンも、なめられたものよ…。<end>"
+korean = "나는 울그의 원탁기사, 분쇄하는 자 다난. 고대의 드워프 용사…. 내 성에 이렇게 태연히 들어오는 자가 있다니, 이 다난도 우습게 보였군….<end>"
 
 ["950047"]
 japanese = "熟れた果実のごとく、<line-break>その頭、<line-break>かち割ってくれようぞ！<end>"
@@ -155,6 +163,10 @@ korean = "후후, 짐을… 짐을 끌어내다니… 어리석은 자들이여�
 ["950061"]
 japanese = "そして力を求め、<line-break>ボルキスに倒された邪竜シャンマと<line-break>融合した…。<line-break>ダナンが倒れた今、<line-break>シャンマが立ち上がるよ。<line-break>気をつけて。<end>"
 korean = "그리고 힘을 원해 볼키스에게 쓰러진 사룡 샨마와 융합했어… 다난이 쓰러진 지금, 샨마가 일어설 거야. 조심해.<end>"
+
+["950062"]
+japanese = "　　　　　　さすがは地の巫女よ…　　　　　　<line-break>　　　　余のこと、よう知っておる…。<end>"
+korean = "역시 땅의 무녀로구나…. 짐을 아주 잘 알고 있어….<end>"
 
 ["950063"]
 japanese = "　　　　　　余は邪竜シャンマ、　　　　　　　<line-break>　　ダナンを滅ぼしたること、感謝する…。<line-break>　　　　うぬが解放したる余の力、<line-break>　　　その身でとくと味わうがよい…。<end>"

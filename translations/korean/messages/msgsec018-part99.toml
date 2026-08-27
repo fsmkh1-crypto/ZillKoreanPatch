@@ -8,6 +8,10 @@ korean = "후우, 어떻게든 쓰러뜨렸네. 자, <value:$28>, 이제 길드�
 japanese = "ふわっはっは。手強かったのう。<line-break>さて、あとはギルドに報告じゃな。<line-break>行こうぞ。<value:$28>。<end>"
 korean = "후하하. 만만치 않았군. 자, 이제 길드에 보고하면 되겠어. 가자, <value:$28>.<end>"
 
+["180003"]
+japanese = "ふう。やっつけちゃった。<line-break>でも生き物の命を奪ってお金もらうって<line-break>実はものすごく野蛮かも！<end>"
+korean = "후우. 해치워 버렸네. 그래도 생명체의 목숨을 빼앗고 돈을 받는다는 건 사실 엄청 야만적인 일일지도!<end>"
+
 ["180004"]
 japanese = "へへっ、いっちょうあがり！<line-break>よし、<value:$28>、報告しに<line-break>ギルドに行こうぜ！<end>"
 korean = "헤헷, 한 건 끝냈다! 좋아, <value:$28>, 길드에 보고하러 가자!<end>"
@@ -43,6 +47,10 @@ korean = "흥, 별것 아니군. 돌아가자. 길드에 보고해야지.<end>"
 ["180013"]
 japanese = "やれやれ、骨が折れたのう。<line-break>あとはギルドへ行って報告じゃ。<line-break>行くぞい、<value:$28>。<end>"
 korean = "이런, 고생 좀 했구나. 이제 길드에 가서 보고하자. 가자, <value:$28>.<end>"
+
+["180014"]
+japanese = "ふ～っ、危なかったね。<line-break>でも、これで依頼は達成だね。<line-break>さあ、帰ってギルドに報告しよう。<end>"
+korean = "후~ 위험했네. 그래도 이걸로 의뢰는 달성했어. 자, 돌아가서 길드에 보고하자.<end>"
 
 ["180015"]
 japanese = "終わったな。<line-break>戻るぞ、<value:$28>。<line-break>　<end>"

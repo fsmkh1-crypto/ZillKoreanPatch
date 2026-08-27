@@ -8,6 +8,14 @@ korean = "케류네이아 V2 시작<end>"
 japanese = "お、<value:$28>。<line-break>ちょっと来てくれないか。　　　　　<end>"
 korean = "오, <value:$28>. 잠깐 와 줄래?<end>"
 
+["1190002"]
+japanese = "実はな、お前に名指しで　　　　　　<line-break>依頼が来ているそうだ。<line-break>　<line-break>依頼主はハーフエルフらしい。　　　<line-break>エンシャントの冒険者ギルドで<line-break>詳しい内容が聞けるぜ。<end>"
+korean = "사실 말이야, 너를 지목한 의뢰가 들어왔대. 의뢰인은 하프엘프라는군. 엔샨트 모험자 길드에서 자세한 내용을 들을 수 있어.<end>"
+
+["1190003"]
+japanese = "指名されるなんて大したもんだぜ。　<line-break>この依頼、逃すなよ。<line-break>名を売る絶好の機会だからな。<end>"
+korean = "지명 의뢰라니 대단한데. 이 의뢰 놓치지 마. 이름을 알릴 절호의 기회니까.<end>"
+
 ["1190004"]
 japanese = "お、<value:$28>。<line-break>ちょっと来てくれないか。<end>"
 korean = "오, <value:$28>. 잠깐 와 줄래?<end>"

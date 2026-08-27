@@ -352,6 +352,10 @@ korean = "하하하, 그럴지도.<end>"
 japanese = "でも、ゼネテス、<line-break>いじけちゃダメだよ。　<line-break>　<line-break>困ったら、ルルアンタが<line-break>養ってあげるからね。<end>"
 korean = "하지만 제네테스, 삐지면 안 돼. 힘들면 루루안타가 먹여 살려 줄게.<end>"
 
+["330093"]
+japanese = "…<value:$28>、<line-break>今朝方、久しぶりに<line-break>母さんの夢を見たよ。　　　　　　<line-break>母さんが死んでから、<line-break>お前はよくがんばってくれたな。<line-break>礼を言うよ、本当にありがとう…。<end>"
+korean = "…<value:$28>, 오늘 아침 오랜만에 엄마 꿈을 꿨어. 엄마가 돌아가신 뒤로 넌 정말 잘 버텨 줬구나. 고맙다는 말을 하고 싶어. 정말 고마워….<end>"
+
 ["330096"]
 japanese = "えっ…？　なに、なに？<end>"
 korean = "어…? 뭐, 뭐야?<end>"
@@ -743,6 +747,10 @@ korean = "그렇군. 그럼 단단히 준비해서 오게.<end>"
 ["330206"]
 japanese = "じゃあ、この辺で<line-break>少し休むことにしよう。<end>"
 korean = "그럼 이 근처에서 조금 쉬도록 하자.<end>"
+
+["330208"]
+japanese = "この奥にみごとな千年樹が　　　<line-break>見えますじゃろう？<line-break>あすこが広場ですじゃ。<line-break>その広場を右手に行くと貴族街。<line-break>その貴族街のずっとずっと奥が<line-break>王妃様のおられる王宮ですじゃ。<end>"
+korean = "이 안쪽에 멋진 천년수가 보이지요? 저기가 광장입니다. 그 광장에서 오른쪽으로 가면 귀족가. 그리고 그 귀족가 아주 깊숙한 곳이 왕비님이 계시는 왕궁입니다.<end>"
 
 ["330210"]
 japanese = "王宮か？<line-break>この道をずっとまっすぐ行けば<line-break>王宮の門に出るよ。<end>"

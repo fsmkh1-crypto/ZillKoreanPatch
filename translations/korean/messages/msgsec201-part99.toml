@@ -12,9 +12,17 @@ korean = "재채기가 나와서 혹시나 했는데, 또 제 이야기입니까
 japanese = "おう。お前がどれだけ手のかかる<line-break>問題児だったか、<value:$28>に<line-break>聞かせていたんだ。<end>"
 korean = "그래. 네가 얼마나 손이 많이 가는 문제아였는지 <value:$28>에게 들려주고 있었지.<end>"
 
+["2010006"]
+japanese = "じゃあ、俺はとばっちりで、<line-break>火傷したってのか！？<line-break>ひでえ！　なんて生徒だ…。<end>"
+korean = "그럼 난 애꿎게 휘말려서 화상 입은 거야!? 너무하잖아! 대체 무슨 학생이야….<end>"
+
 ["2010007"]
 japanese = "きっと、その日のネモの運勢が<line-break>あまりよくなかったんですよ。<line-break>　<line-break>そういう運の悪い日は<line-break>誰にでもありますから。<end>"
 korean = "분명 그날 네모의 운세가 별로 좋지 않았던 거예요. 누구에게나 그런 운 나쁜 날은 있으니까요.<end>"
+
+["2010009"]
+japanese = "さて、ネモがもっと悪い記憶を<line-break>掘り起こさないうちに<line-break>退散するとしましょうか。<end>"
+korean = "자, 네모가 더 나쁜 기억을 파헤치기 전에 이만 물러나도록 할까.<end>"
 
 ["2010010"]
 japanese = "ふうっ。<line-break>なんだか話す気が失せちまった。<line-break>　<line-break>続きはまた今度、<line-break>俺様の機嫌がいい時にしてやるよ。<end>"

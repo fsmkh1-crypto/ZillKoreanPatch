@@ -392,9 +392,21 @@ korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end
 japanese = "あっ、<value:$28>さん、<line-break>先ほどはどうも<line-break>ありがとうございました。<line-break>今度、お時間があるときに<line-break>ゆっくりお話しさせてください。<end>"
 korean = "아, <value:$28>님. 아까는 정말 감사합니다. 다음에 시간 되실 때 천천히 이야기 나누게 해 주세요.<end>"
 
+["300111"]
+japanese = "あ、やっと来たわね。<line-break>…あら？　そのお金どうしたの？<line-break>ずいぶんたくさんあるみたいだけど。<end>"
+korean = "아, 이제야 왔네. …어라? 그 돈은 뭐야? 꽤 많이 가진 것 같은데.<end>"
+
+["300112"]
+japanese = "ええええ！？<line-break>先生のお酒のお代をまだ払ってない？<line-break>何やってるのよ、<value:$28>。<line-break>待っててあげるから、さっさと<line-break>酒場に行ってらっしゃい。<line-break>もう、本当にしょうがないんだから。<end>"
+korean = "뭐어어!? 선생님 술값을 아직도 안 냈어? 뭐 하는 거야, <value:$28>. 기다려 줄 테니 얼른 술집에 다녀와. 정말 못 말린다니까.<end>"
+
 ["300114"]
 japanese = "ちょっと、<value:$28>。<line-break>どこに行くつもり？<line-break>まだ聖杯を取り戻してないわよ。<line-break>ここまで来て怖じ気づいたなんて<line-break>言わないわよね？<line-break>しっかりしてよ、<value:$28>。<end>"
 korean = "잠깐, <value:$28>. 어디 가려는 거야? 아직 성배를 되찾지 못했잖아. 여기까지 와서 겁먹었다고 하진 않겠지? 정신 차려, <value:$28>.<end>"
+
+["300115"]
+japanese = "お前たちふたりなら<line-break>任せても問題ないだろう。<line-break>聖杯とゴブリンのこと頼んだぞ。　　　<line-break>それと酒代の方もな。<line-break>酒場なら街から出るときに前を通るから<line-break>ついでだろ？　わるいな。<end>"
+korean = "너희 둘이라면 맡겨도 문제없겠지. 성배와 고블린 건 부탁한다. 그리고 술값도 말이야. 도시를 나갈 때 술집 앞을 지나가니 가는 길이지? 미안하다.<end>"
 
 ["300116"]
 japanese = "ん？　どうしたんだ？<line-break>さっき、お前の幼なじみが来たから、<line-break>聖杯とゴブリンの話はしておいたぞ。<line-break>今ごろ、門の辺りで待ってるだろう。<line-break>早く行ってやんな。<line-break>　<end>"
@@ -423,6 +435,10 @@ korean = "어머, <value:$28>. 오시 씨 도장에 가는 거 아니었어?<end
 ["300123"]
 japanese = "あなたなら、きっと<line-break>アイリーンよりも強くなれるわ。<line-break>がんばってらっしゃい。<end>"
 korean = "당신이라면 분명아이린보다 강해질 수 있어.힘내고 와.<end>"
+
+["300125"]
+japanese = "ああ、<value:$28>か。<line-break>広場では大変だったそうだな。　　　　　<line-break>　<line-break>そういえば、アイリーンが捜していたぞ。<line-break>ぐずぐずしてないで、早く行ってやんな。<line-break>門の外で待ってるそうだ。<end>"
+korean = "아, <value:$28>인가. 광장에서 큰일이었다면서. 그러고 보니 아이린이 찾고 있었어. 꾸물거리지 말고 빨리 가 봐. 문 밖에서 기다린대.<end>"
 
 ["300126"]
 japanese = "やったゴブ！<line-break>実力で人間の魔の手から<line-break>逃れることができたゴブ！<end>"

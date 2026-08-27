@@ -24,9 +24,21 @@ korean = "뭐라고오오오오오오오오!<end>"
 japanese = "戦場で見苦しいマネをした貴様が、<line-break>王宮内で無礼を働くなど、<line-break>許されざることだ！<end>"
 korean = "전장에서 추태를 보인 네놈이 왕궁 안에서 무례를 저지르다니 용서할 수 없다!<end>"
 
+["530010"]
+japanese = "…昔、アンギルダンのとっつぁんは<line-break>ロストールで傭兵をしてたこともある。<line-break>　<line-break>俺が物心つくかつかないころだ。<line-break>…だが、俺は鮮明に覚えてる。<line-break>ホントに、でけえ人だった。<end>"
+korean = "…예전에 앙길단 아저씨는 로스토올에서 용병을 한 적도 있어. 내가 철들기 전후의 일이야. …하지만 난 선명하게 기억해. 정말 큰 사람이었어.<end>"
+
+["530011"]
+japanese = "肩車してもらったこともある。　　　　<line-break>とっつぁんは覚えちゃ<line-break>いなかったろうがな…。<end>"
+korean = "목말을 타 본 적도 있어. 아저씨는 기억도 못 했겠지만….<end>"
+
 ["530012"]
 japanese = "…剣を振ってくる。<line-break>じゃあな。<end>"
 korean = "…검 좀 휘두르고 올게. 그럼.<end>"
+
+["530013"]
+japanese = "<value:$28>か。<line-break>先のディンガルとの戦で　　　　　<line-break>兄、ノヴィンが死んだ。<line-break>気の利かぬ、察しの悪い男だった。<line-break>よく言えば、たくらみのない、<line-break>悪く言えば、ぼんくらな男だった。<end>"
+korean = "<value:$28>인가. 지난 딩갈과의 전쟁에서 형 노빈이 죽었다. 눈치 없고 둔한 남자였지. 좋게 말하면 꿍꿍이가 없고, 나쁘게 말하면 멍청한 남자였다.<end>"
 
 ["530018"]
 japanese = "リューガ家に売国奴の反逆者を出して<line-break>レムオンを巻き込もうとしたのか？　<line-break>　<line-break>もしそうならば<line-break>以後、そのような<line-break>愚かなマネはせぬことだ。<end>"

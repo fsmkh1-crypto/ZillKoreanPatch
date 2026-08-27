@@ -36,17 +36,41 @@ korean = "기억상실? 하하하하! 그거 좋군! 하하하! 하지만 내 �
 japanese = "…ハハ…ハハ！　おかしいねえ！<line-break>そんなバカなこと！　ハハ！<end>"
 korean = "…하하… 하하! 웃기네! 그런 바보 같은 일이! 하하!<end>"
 
+["580010"]
+japanese = "傭兵として世界を渡り歩いた<line-break>わしのカンがそう言うておる。　　　<line-break>　<line-break>そうバカにしたもんでもないと<line-break>自分では思うておるがな。往々にして<line-break>常識よりカンが正しいものじゃ。<end>"
+korean = "용병으로 세계를 떠돌아다닌 내 감이 그렇게 말하고 있어. 그리 얕볼 만한 감은 아니라고 생각한다네. 종종 상식보다 감이 맞는 법이지.<end>"
+
+["580011"]
+japanese = "ハ…ハハ…ハハハ！<line-break>じ、冗談だよ。<line-break>記憶喪失ってのは、さ。　　　　　　　<line-break><value:$28>は○○○○○○○○。<line-break>それ以上でも以下でもない。<line-break>それだけさ。そう、それだけのことさ。<end>"
+korean = "하… 하하… 하하하! 노, 농담이야. 기억상실이라는 건 말이지. <value:$28>는 ○○○○○○○○. 그 이상도 이하도 아니야. 그뿐이야. 그래, 그게 다야.<end>"
+
 ["580012"]
 japanese = "別に詮索はせんさ。<line-break>それも、冒険者のおきてじゃからな。<line-break>　<line-break>さてと、今日もよう飲んだ。<line-break>ちと、外へ出て、よい空気でも　　　<line-break>吸うとしようか。<end>"
 korean = "딱히 캐묻지는 않지. 그것도 모험자의 규칙이니까. 자, 오늘도 실컷 마셨군. 밖에 나가 좋은 공기라도 좀 마셔 볼까.<end>"
+
+["580014"]
+japanese = "今のはアンギルダンのとっつぁんさ。<line-break>見ての通り、年だけど、強いのなんの！<line-break>　<line-break>力だけじゃなくて頭も切れる。<line-break>さっき、あんたも、もう少しで<line-break>正体ばれるとこだったろ。<end>"
+korean = "방금 사람은 앙길단 아저씨야. 보다시피 나이가 많지만 엄청 강해! 힘만 센 게 아니라 머리도 잘 돌아가. 아까 너도 하마터면 정체를 들킬 뻔했잖아.<end>"
 
 ["580017"]
 japanese = "じゃね。<line-break><value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
 
+["580023"]
+japanese = "そのバロルを討ったのが、<line-break>殺された娘の胎から奇跡的に　　　　<line-break>生まれた子…勇者ネメアよ。<end>"
+korean = "그 바롤을 쓰러뜨린 게 살해당한 딸의 배 속에서 기적적으로 태어난 아이… 용사 네메아다.<end>"
+
 ["580024"]
 japanese = "すまんな、年寄りの昔語りに<line-break>長々とつきあわせてしもうた…。　　<line-break>　<line-break>…ちと、外の空気が吸いとうなった。<end>"
 korean = "미안하구나, 늙은이의 옛날이야기에 오래 붙잡아 뒀어…. …잠깐 바깥 공기를 쐬고 싶구나.<end>"
+
+["580025"]
+japanese = "おお、<value:$28>か。<line-break>よく来たの。まあ、飲め！　　　　　　<line-break>　<line-break>…と、お主は酒は飲まんのじゃったな。<line-break>よい！　牛乳でも茶でもジュースでも<line-break>好きなものをなんでも飲めばいい！<end>"
+korean = "오오, <value:$28>인가. 잘 왔네. 자, 마셔! …아, 자네는 술을 안 마셨지. 좋아! 우유든 차든 주스든 원하는 걸 마시게!<end>"
+
+["580028"]
+japanese = "よいか、<value:$28>、<line-break>冒険者は世界を広く旅して、<line-break>見聞を広めることが大事じゃ。　　　　<line-break>このリベルダムの西には<line-break>ロストール王国の都ロストールがある。<line-break>行ってみるといい。<end>"
+korean = "잘 들어, <value:$28>. 모험자는 세계를 넓게 여행하며 견문을 넓히는 게 중요해. 이 리벨덤 서쪽에는 로스토올 왕국의 수도 로스토올이 있다. 한번 가 보게.<end>"
 
 ["580029"]
 japanese = "よいか、<value:$28>、<line-break>冒険者と言うからには　　　　<line-break>冒険をせねばならぬ。<line-break>ギルドで仕事を得たり、<line-break>自分で修行のため洞窟や迷宮に<line-break>挑んでみるといいぞ。<end>"
@@ -128,6 +152,10 @@ korean = "이 세계의 용은 일곱. 세계를 다스리는 용왕과 그 양�
 japanese = "…まだ、怨念が残っておる。<end>"
 korean = "…아직 원념이 남아 있구나.<end>"
 
+["580072"]
+japanese = "同じ冒険者としての助言じゃ。<line-break>この仕事はあきらめて、<line-break>静かに出ていった方がよいぞ。<end>"
+korean = "같은 모험자로서 하는 조언이야. 이 일은 포기하고 조용히 떠나는 게 좋아.<end>"
+
 ["580073"]
 japanese = "悪いことは言わん。<line-break>こいつには手を出さぬ方がよい。<end>"
 korean = "충고하겠는데, 이 녀석에게는 손대지 않는 게 좋아.<end>"
@@ -135,6 +163,10 @@ korean = "충고하겠는데, 이 녀석에게는 손대지 않는 게 좋아.<e
 ["580074"]
 japanese = "こいつはまだ、<line-break>完全には死んでおらぬ。　　<line-break>　<line-break>うかつに近づけば、<line-break>目覚めさせることになろう。<end>"
 korean = "이 녀석은 아직 완전히 죽지 않았다. 섣불리 다가가면 깨워 버릴지도 모른다.<end>"
+
+["580075"]
+japanese = "アンデッド化しておるが、<line-break>邪竜には変わりない。<line-break>その力は、計り知れぬぞ。　　　　　<line-break>もし挑みたいのなら、<line-break>止めはせんが、もっと<line-break>力をつけてからでも遅くはあるまい。<end>"
+korean = "언데드가 되었어도 사룡인 건 변함없다. 그 힘은 헤아릴 수 없을 정도야. 도전하고 싶다면 말리진 않겠지만 좀 더 힘을 기른 뒤라도 늦지 않아.<end>"
 
 ["580076"]
 japanese = "冒険者をやっているとな、<line-break>時々とんでもない代物に<line-break>ぶち当たることがある。<line-break>まったく、退屈せんわな。<line-break>これだからやめられん。<end>"
@@ -207,6 +239,10 @@ korean = "<value:$28>군요…. 그렇군요? 후후…. 지금 화제의 <value
 ["580096"]
 japanese = "フフ、会えてうれしいぜ。　　<line-break>じゃあな、<value:$28><line-break>縁があったらまた会おうや。<end>"
 korean = "후후, 만나서 반갑다. 그럼 잘 가, <value:$28>. 인연이 있으면 또 만나자고.<end>"
+
+["580097"]
+japanese = "<value:$28>ね。<line-break>あんた、いい目をしてるよ。　　　　　<line-break>　<line-break>俺の叔母貴がよく言ってる。<line-break>目の輝きは魂の輝きを表すってね。<line-break>あんたの目には無限の可能性を感じる。<end>"
+korean = "<value:$28>구나. 너, 눈빛이 좋네. 우리 숙모가 자주 말했어. 눈의 빛은 영혼의 빛을 나타낸다고. 네 눈에서는 무한한 가능성이 느껴져.<end>"
 
 ["580098"]
 japanese = "おお、<value:$28>か。<line-break>ちょうどいい。<line-break>　<line-break>この前の、邪竜の死体の件じゃが、<line-break>エンシャントのギルドに、死竜の洞窟を<line-break>探索する仕事の依頼が出とってだな…<end>"

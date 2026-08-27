@@ -12,6 +12,10 @@ korean = "여기는 푸고 님의 저택이다.<end>"
 japanese = "あ、ああ、あなたは、あの有名な<line-break><value:$2B>の<value:$28>！<line-break>どうぞ、お通りください。<end>"
 korean = "아, 당신은 그 유명한 <value:$2B>의 <value:$28>! 지나가십시오.<end>"
 
+["820003"]
+japanese = "誰だ？　お前は？<line-break>どこの馬の骨ともわからん奴に<line-break>フゴー様はお会いにならん。帰れ。<end>"
+korean = "누구냐, 넌? 어디서 굴러온지도 모르는 놈을 후고 님께서 만나실 리 없다. 돌아가.<end>"
+
 ["820004"]
 japanese = "フゴーＶｏｌ４予備メッセージ１<end>"
 korean = "휴고 Vol4 예비 메시지 1<end>"

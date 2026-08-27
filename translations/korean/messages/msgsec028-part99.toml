@@ -340,6 +340,10 @@ korean = "반, 정신 차려. 네가 없어지면… 나…. 으아아아앙.<en
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
 korean = "<value:$28>… 약초는?<end>"
 
+["280086"]
+japanese = "うちのヴァンはな、<line-break>この宿屋の大切な跡継ぎなんだ。<line-break>お前たちみたいなノラ犬とは違うんだ！<end>"
+korean = "우리 반은 말이야, 이 여관의 소중한 후계자야. 너희 같은 들개들과는 달라!<end>"
+
 ["280087"]
 japanese = "…ああ。<line-break>お前たちと関わったばかりに　　　　　<line-break>ヴァンはこんな目に…。<line-break>出て行け！<line-break>そして二度とヴァンに近づくな！！<line-break>出て行け！<end>"
 korean = "…그래. 너희와 엮인 탓에 반이 이런 꼴을… 나가! 그리고 두 번 다시 반에게 가까이 오지 마!! 나가!<end>"
@@ -491,6 +495,10 @@ korean = "좋아, 가자!<end>"
 ["280126"]
 japanese = "気が進まないな…<end>"
 korean = "내키지 않는데…<end>"
+
+["280127"]
+japanese = "（…ボンガさんのとこに行って、<line-break>　ボンガさんに、いったい<line-break>　なんて言えばいいんだ…？　）<end>"
+korean = "(…본가 씨에게 가서 대체 뭐라고 말해야 하지…?)<end>"
 
 ["280128"]
 japanese = "（…とにかく<line-break>　まず、ヴァンの所に<line-break>　行かなきゃ…。　　　）<end>"

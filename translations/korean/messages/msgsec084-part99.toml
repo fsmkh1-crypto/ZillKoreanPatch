@@ -12,6 +12,10 @@ korean = "이제 도망칠 수 없어. 그 아이를 어디로 데려갔는지 �
 japanese = "あん？　娘？<line-break>なんのことだ？<end>"
 korean = "응? 딸? 무슨 소리야?<end>"
 
+["840003"]
+japanese = "へ～え、とぼけるつもり？<line-break>往生際が悪い男ってサイテー。<line-break>鎌を持つ手も震えるって。<end>"
+korean = "헤에~ 시치미 떼려는 거야? 미련한 남자는 최악이야. 낫 든 손도 떨린다니까.<end>"
+
 ["840004"]
 japanese = "おわっ！<end>"
 korean = "우왓!<end>"
@@ -155,6 +159,10 @@ korean = "자, 페우다 변태 아저씨를 알현하러 가 볼까!<end>"
 ["840042"]
 japanese = "あ、ちょっと待って。　　　　<line-break>　<line-break>　<line-break>みんなで仲よく乗り込むのって<line-break>頭悪すぎよ。<end>"
 korean = "아, 잠깐만. 다 같이 사이좋게 쳐들어가는 건 너무 바보 같아.<end>"
+
+["840043"]
+japanese = "この通路ふさがれたら<line-break>あたしたち帰れないわけでしょ。<line-break>退路を確保しとかないとね。<end>"
+korean = "이 통로가 막히면 우리 못 돌아가는 거잖아. 퇴로는 확보해 둬야지.<end>"
 
 ["840044"]
 japanese = "じゃあさ、<line-break>あたしと<value:$28>以外は<line-break>ここに残って、見張り役ね。<end>"
@@ -523,6 +531,10 @@ korean = "방해야. 미안하지만 가 줄래? 지금 바빠.<end>"
 ["840142"]
 japanese = "アハハ、<value:$28>。<line-break>また来てくれたんだ。<end>"
 korean = "아하하, <value:$28>.또 와 줬구나.<end>"
+
+["840144"]
+japanese = "つい会いに来ちゃうのよね。<line-break>哀しくなるだけなのにさ。<line-break>ばっかみたいだよねー。<end>"
+korean = "자꾸 만나러 오게 되네. 슬퍼질 뿐인데 말이야. 바보 같지.<end>"
 
 ["840145"]
 japanese = "くすっ、悪いわね。<line-break>しんみりしちゃって。<line-break>じゃ、あたし行くわ。<end>"

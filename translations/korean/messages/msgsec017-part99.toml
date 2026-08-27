@@ -764,6 +764,10 @@ korean = "오오, 이것이 <value:$15>입니까. <value:$1A>기아에 넘겨주
 japanese = "こ、これがかの<value:$15>っ！<line-break><value:$1A>ギアでよろしいですか！？<end>"
 korean = "이, 이것이 그 <value:$15>! <value:$1A>기아면 되겠습니까!?<end>"
 
+["170210"]
+japanese = "珍しい物を手に入れたおりには<line-break>ぜひ、お持ちください。<line-break>高く買い取らせていただきますぞ。<end>"
+korean = "희귀한 물건을 손에 넣으시면 꼭 가져와 주세요. 비싸게 사들이겠습니다.<end>"
+
 ["170211"]
 japanese = "商談成立ですね。<line-break>フゴー様もお喜びでしょう。<line-break>では、こちらが代金です。<end>"
 korean = "거래 성립이군요.후고 님도 기뻐하시겠죠.그럼, 여기 대금입니다.<end>"

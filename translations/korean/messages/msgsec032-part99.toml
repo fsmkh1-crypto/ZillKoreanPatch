@@ -40,6 +40,10 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["320010"]
+japanese = "<select><value:$20>%3そうか。<line-break>集め終わったら言ってくれ。<end>そうか。<line-break>あまりムリはしないようにな。<end>そうか。<line-break>すこし急ごう。<line-break>父上も神殿でお待ちかねだろうからな。<end>"
+korean = "<select><value:$20>%3그런가. 다 모으면 말해 줘.<end>그런가. 너무 무리는 하지 마.<end>그런가. 조금 서두르자. 아버님도 신전에서 기다리고 계실 테니까.<end>"
+
 ["320011"]
 japanese = "そうだな。<line-break>このぐらいで足りるだろう。<line-break>　<line-break>父上も神殿で<line-break>お前のことを心配しておられよう。<line-break>戻ろうか。<end>"
 korean = "그래. 이 정도면 충분하겠지. 아버님도 신전에서 널 걱정하고 계실 거야. 돌아갈까.<end>"
@@ -63,6 +67,10 @@ korean = "괜찮아, <value:$28>?<end>"
 ["320016"]
 japanese = "破壊神の復活の時が来たら<line-break>魔人どもが神器をねらってくる。<line-break>　<line-break>そのときはお前も、<line-break>神器を守る一族のひとりとして<line-break>魔人や魔物と戦わねばならない。<end>"
 korean = "파괴신 부활의 때가 오면 마인들이 신기를 노릴 거다. 그때는 너도 신기를 지키는 일족의 한 사람으로서 마인과 마물과 싸워야 한다.<end>"
+
+["320017"]
+japanese = "…そうだな。もう、お前も<line-break>魔人と戦う力をつけるために<line-break>修行の旅に出てもよい年頃だな…。<end>"
+korean = "…그래. 이제 너도 마인과 싸울 힘을 기르기 위해 수련 여행을 떠나도 될 나이가 됐구나….<end>"
 
 ["320018"]
 japanese = "セラ？<end>"
@@ -128,6 +136,10 @@ korean = "아, 로이 님과 <value:$28> 님이다! <value:$28> 님~!<end>"
 japanese = "<if><value:$29><equal>%0魔物に襲われた人のケガは<line-break>ダディアス様がなおしてくれたよ。<line-break>さすがはノトゥーン神に仕える神官様だ。<end><value:$28>、<line-break>無事だったんだ…。<line-break>よかった…。<end>"
 korean = "<if><value:$29><equal>%0마물에게 습격당한 사람의 부상은 다디아스 님이 치료해 주셨어. 역시 노툰 신을 섬기는 신관님이야.<end><value:$28>, 무사했구나…. 다행이야…<end>"
 
+["320035"]
+japanese = "<if><value:$29><equal>%0<value:$28>クン…。<line-break>無事だったんだ…。<line-break>心配してたのよ…。<end>魔物に襲われた人なら<line-break>ダディアス様がケガをなおしてくださったわ。<line-break>さすがノトゥーン神に仕える神官ね。<end>"
+korean = "<if><value:$29><equal>%0<value:$28> 군…. 무사했구나…. 걱정했어….<end>마물에게 습격당한 사람이라면 다디아스 님께서 상처를 치료해 주셨어. 역시 노툰 신을 섬기는 신관님이야.<end>"
+
 ["320036"]
 japanese = "なあなあ、<value:$28>。<line-break>魔物、どうだったんだ？<end>"
 korean = "있잖아, <value:$28>. 마물은 어땠어?<end>"
@@ -180,6 +192,10 @@ korean = "…아버님, 방금 것이 용왕의 각성… 그 첫 울음일까�
 japanese = "うむ…。<line-break>この世が乱れるとき<line-break>竜王が覚醒すると言われておる。<line-break>つまり、<line-break>乱世の原因を除くべく<line-break>目覚めるというのだが…。<end>"
 korean = "음…. 세상이 어지러워질 때 용왕이 깨어난다고 전해진다. 즉 난세의 원인을 없애기 위해 깨어난다는 뜻인데….<end>"
 
+["320052"]
+japanese = "この地は神器を守るための結界があり、<line-break>魔物は近寄れぬはず…。<line-break>それが先ほども森で遭遇いたしました。<line-break>このことも関係あるのでしょうか。<line-break>破壊神ウルグの復活の時だとしたら…。<end>"
+korean = "이 땅에는 신기를 지키는 결계가 있어 마물이 가까이 오지 못할 텐데…. 그런데 아까도 숲에서 마물을 만났습니다. 이것도 관계가 있는 걸까요. 파괴신 울그가 부활할 때라면….<end>"
+
 ["320053"]
 japanese = "もしそうならば、ゆゆしき事態だ。<line-break>ロイ、あの森を調査するのだ。<end>"
 korean = "만약 그렇다면 큰일이다. 로이, 저 숲을 조사해라.<end>"
@@ -199,6 +215,10 @@ korean = "아버님. 이제 <value:$28>도 수행을 떠날 나이입니다. 저
 ["320057"]
 japanese = "…ロイがそこまで言うならばよかろう。<line-break><value:$28>も行くがよい。<end>"
 korean = "…로이가 그렇게까지 말한다면 좋다. <value:$28>도 가거라.<end>"
+
+["320058"]
+japanese = "お前も、兄、ロイのように、<line-break>神器を守れるだけの力が必要だ。　　　　<line-break>　<line-break>いずれお前も修行に出ることになろう。<line-break>これはその予行と思うがよい。<line-break>ロイとともに調査に行くのだ。<end>"
+korean = "너도 형 로이처럼 신기를 지킬 만한 힘이 필요하다. 언젠가 너도 수련을 떠나게 될 거야. 이번 일을 그 예행연습이라 생각해. 로이와 함께 조사하러 가거라.<end>"
 
 ["320059"]
 japanese = "冒険者は万事に備えることが肝心だ。<line-break>復活の真珠を持っていくとよい。<end>"

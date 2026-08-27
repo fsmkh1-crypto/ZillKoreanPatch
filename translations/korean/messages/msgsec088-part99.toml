@@ -60,6 +60,10 @@ korean = "비시민 아니야<end>"
 japanese = "非市民で悪い？<end>"
 korean = "비시민이라 나빠?<end>"
 
+["880018"]
+japanese = "へへーん。そんなのウソだね。　　　　<line-break>ボクの目は節穴じゃないぞ。<line-break>　<line-break>ボクは人を見る目には自信があるんだ。<line-break>キミってさぁ、ぜ～んぜん<line-break>市民って感じしないもん。<end>"
+korean = "헤헤~ 그런 건 거짓말이야. 내 눈은 장식이 아니거든. 난 사람 보는 눈에는 자신 있어. 너는 전~혀 시민 같은 느낌이 안 나.<end>"
+
 ["880019"]
 japanese = "あ、言っておくけど、<line-break>悪い意味で言ってんじゃないよ。<line-break>　<line-break>自分では何もしてないのに<line-break>いばり散らしてるだけのリベルダム市民<line-break>なんて、ボク大っ嫌いだから。<end>"
 korean = "아, 말해 두는데 나쁜 뜻으로 한 말은 아니야. 자기는 아무것도 안 하면서 으스대기만 하는 리벨덤 시민 같은 건 난 정말 싫어하거든.<end>"
@@ -119,6 +123,10 @@ korean = "흐음, 내 착각인가? 아니면 겸손한 거야? 뭐, 처음엔 �
 ["880033"]
 japanese = "キミもそのうち、<line-break>レーグみたいに<line-break>強くなれるかもよ？　　　　　<end>"
 korean = "너도 언젠가는 레그처럼 강해질지도 몰라.<end>"
+
+["880034"]
+japanese = "そうではありません。<line-break>何があるかわかりませんから<line-break>用心に用心を重ねなくては！<end>"
+korean = "그렇지 않습니다. 무슨 일이 있을지 모르니 조심하고 또 조심해야 합니다!<end>"
 
 ["880035"]
 japanese = "ボクの生まれた所？<line-break>…ここからはかなり遠いよ。　　　<line-break>　<line-break>ボク、時々こうして<line-break>故郷を抜け出して、いろんなとこを<line-break>見てまわっているんだ。<end>"
@@ -204,6 +212,10 @@ korean = "그래, 먼저 손을 댄 건 우리 쪽이지만…. 멋대로 끼어
 japanese = "ほっとけなかったからって…。<line-break>　<line-break>　<line-break><value:$28>…。<end>"
 korean = "내버려 둘 수 없었다고…. <value:$28>….<end>"
 
+["880060"]
+japanese = "そ、そんな心配しなくたって<line-break>ボクも冒険者なんだ。<line-break>自分の身は自分で守れるよ。<end>"
+korean = "그, 그렇게 걱정 안 해도 나도 모험자야. 내 몸은 내가 지킬 수 있어.<end>"
+
 ["880061"]
 japanese = "じゃ、急ぐから。<end>"
 korean = "그럼, 급해서 이만.<end>"
@@ -223,6 +235,10 @@ korean = "헤헤, 고마워.그래서 말인데, 고마운 김에부탁 하나 �
 ["880065"]
 japanese = "いや、砂漠でも大丈夫。<line-break>この水晶を持ってれば<line-break>きっと見つかる。<line-break>これ、首飾りと<line-break>引き合う様にできてるんだ。<end>"
 korean = "아니, 사막이어도 괜찮아. 이 수정을 가지고 있으면 반드시 찾을 수 있어. 이건 목걸이와 서로 끌리게 되어 있거든.<end>"
+
+["880066"]
+japanese = "絶対、他の人じゃダメなんだ！<line-break>キミに…探してほしいんだ。<line-break>お願い…。ダメかな…？<end>"
+korean = "절대 다른 사람은 안 돼! 네가… 찾아줬으면 해. 부탁이야…. 안 될까…?<end>"
 
 ["880067"]
 japanese = "ありがと！<line-break>よかった…。<line-break>　<line-break>じゃあ、はい。<line-break>この水晶がみちびいてくれるよ。<end>"
@@ -331,6 +347,10 @@ korean = "파티에 즉시 합류<end>"
 ["880097"]
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
+
+["880098"]
+japanese = "これはデバッグ用メッセージです。<line-break>通常は、ＯＦＦのままでよい<line-break>を選んでください。<end>"
+korean = "이것은 디버그용 메시지입니다. 평소에는 'OFF인 채로 둔다'를 선택해 주세요.<end>"
 
 ["880099"]
 japanese = "誘拐状態フラグをＯＮにする<end>"
@@ -455,6 +475,10 @@ korean = "그리고 에스텔 님은 우리 사막 일족의 족장이십니다.
 ["880134"]
 japanese = "まずは、我々とエステル様の関係を<line-break>おわかりいただけたでしょうか？<end>"
 korean = "우선 저희와 에스텔 님의 관계를 이해하셨겠습니까?<end>"
+
+["880136"]
+japanese = "問題はここからなのです。<line-break>実は、そのエステル様が<line-break>ここしばらく行方不明なのです。<end>"
+korean = "문제는 지금부터입니다. 사실 그 에스텔 님이 최근 한동안 행방불명 상태입니다.<end>"
 
 ["880137"]
 japanese = "我々も手を尽くしたのですが<line-break>居場所をつかむことができず…！<end>"
@@ -632,6 +656,14 @@ korean = "그게 대답이야? 좀 더 신사적으로 부탁하고 싶었는데
 japanese = "殺れ。<end>"
 korean = "죽여.<end>"
 
+["880194"]
+japanese = "フフ、そんなんじゃ<line-break>ぜんぜんダメだよ、エステル。<line-break>いつか命を落とすよ？<line-break>君は他のパーティーメンバーに<line-break>あまり貢献していない。<line-break>平たく言えば役立たずだね！<end>"
+korean = "후후, 그런 식이면 전혀 안 돼, 에스텔. 언젠가 목숨을 잃을걸? 넌 다른 파티 멤버들에게 별로 기여하지 못하고 있어. 쉽게 말하면 쓸모없다는 거지!<end>"
+
+["880196"]
+japanese = "君は地の巫女だ。<line-break>その気になれば、今の怪物なんて<line-break>ひとひねりだったろうに…。<end>"
+korean = "넌 땅의 무녀야. 마음만 먹었으면 방금 괴물쯤은 단숨에 해치웠을 텐데….<end>"
+
 ["880203"]
 japanese = "ボクが…地の巫女…<line-break>魔道文明を復活させる鍵のひとり…？<end>"
 korean = "내가… 땅의 무녀… 마도문명을 부활시키는 열쇠 중 하나라고…?<end>"
@@ -759,6 +791,10 @@ korean = "우, 우와! 뭐야 이 옷!? …응?<end>"
 ["880247"]
 japanese = "なんだろ？　この感じ。<line-break>ボク、いろんなことがわかるような<line-break>不思議な感じだ…。<line-break>この服も…<line-break>巫女の服なんだ…。<line-break>精霊神がくれたのかな…。<end>"
 korean = "뭐지, 이 느낌. 나, 여러 가지를 알 것 같은 이상한 느낌이야…. 이 옷도… 무녀의 옷이구나…. 정령신이 준 걸까….<end>"
+
+["880248"]
+japanese = "これが、地の巫女になったって　　<line-break>ことなのかな…？<line-break>うーん、よくわかんないや。<line-break>たはっ、なんだかスースーするや。<line-break>…ね、<value:$28>、<line-break>このカッコ、どう思う？<end>"
+korean = "이게 땅의 무녀가 됐다는 건가…? 음, 잘 모르겠어. 하하, 왠지 휑하네. …저기, <value:$28>, 이 모습 어때?<end>"
 
 ["880249"]
 japanese = "ステキだと思う<end>"

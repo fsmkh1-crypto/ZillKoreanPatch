@@ -56,6 +56,10 @@ korean = "제대로 먹어 봐! 정말 맛있었으니까. 그럼 안녕!<end>"
 japanese = "とても、気持ちよく<line-break>食べてくださる方ですね。　　　　<line-break>　<line-break>あれだけ食べても、<line-break>あんなにいいスタイルだなんて…<line-break>ちょっとうらやましいですね。<end>"
 korean = "정말 맛있게 드시는 분이네요. 그렇게 많이 먹고도 저렇게 좋은 몸매라니… 조금 부러워요.<end>"
 
+["990017"]
+japanese = "ディンガルで食べるよりも<line-break>ロストールで食べる方が<line-break>おいしいなんて、おかしいわね。<line-break>それじゃ、私は行くわ。<line-break>今度、機会があれば、<line-break>２人で食事したいわね。<end>"
+korean = "딩갈에서 먹는 것보다 로스토올에서 먹는 게 더 맛있다니 이상하네. 그럼 난 갈게. 다음에 기회가 되면 둘이서 식사하고 싶네.<end>"
+
 ["990019"]
 japanese = "あ、<value:$28>だ。<line-break>声をかけようかな…。<line-break>そうしよっと！<line-break>あ、<value:$28>、<line-break>とっても、会いたかったの。<line-break>　<end>"
 korean = "아, <value:$28>이다. 말 걸어 볼까…. 그래야지! 아, <value:$28>, 정말 보고 싶었어.<end>"
@@ -152,9 +156,17 @@ korean = "여기, 네 단골 가게였어? 그러니까 맛이 없었던 거구�
 japanese = "味？　最悪ねー。<line-break>一言で言えば塩と油って感じかしら？<line-break>　<line-break>世界は驚きに満ちているって言う<line-break>あなたの言葉を、ホントに<line-break>今日は思い知らされたわー。<end>"
 korean = "맛? 최악이네. 한마디로 소금과 기름 맛이랄까? 세상은 놀라움으로 가득하다는 네 말을 오늘 정말 실감했어.<end>"
 
+["990044"]
+japanese = "こーんなものを食べて生きている<line-break>生物がいるんですもの。<line-break>ホントにまったくオドロキよねー。<end>"
+korean = "이런 걸 먹고 사는 생물이 있잖아. 정말 놀랍다니까.<end>"
+
 ["990046"]
 japanese = "…そうね。<line-break>確かに堕落ね。　　　　　　　　<line-break>　<line-break>人間ごときに気を使うなんて、　<line-break>高貴で優雅なエルフである<line-break>アタクシらしくないわ…。<end>"
 korean = "…그래. 확실히 타락했네. 인간 따위에게 신경을 쓰다니, 고귀하고 우아한 엘프인 나답지 않아…<end>"
+
+["990047"]
+japanese = "でもでも、こうなってしまったのも<line-break>あなたのせいなんですからね！<line-break>セキニンとってほしいわ！<end>"
+korean = "하지만 이렇게 된 것도 당신 탓이잖아요! 책임져 줬으면 좋겠어요!<end>"
 
 ["990048"]
 japanese = "セキニンっていう言葉が<line-break>聞こえたんですけど…、<line-break>セキニンっていったい…？<end>"
@@ -300,9 +312,17 @@ korean = "노블 백작 <value:$28>! 이런 데서 뭘 하고 있는 거야! 빨
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりで<line-break>ここに来ているのかしら？<line-break>今の私たちは敵同士も同然よ？<end>"
 korean = "<value:$28>…. 무슨 생각으로 여기 온 거야? 지금 우리는 적이나 다름없어.<end>"
 
+["990095"]
+japanese = "あなたはゼネテス配下の将軍。<line-break>私はディンガルの青竜軍副将。<line-break>もう、昔の私たちではないの。<line-break>…早く、行きなさい。<line-break>今回だけは見逃してあげる。<line-break>もう私の前に姿を見せないで！<end>"
+korean = "당신은 제네테스 휘하의 장군. 나는 딩갈 청룡군 부장. 이제 예전의 우리가 아니야. …빨리 가. 이번만은 봐줄게. 다시는 내 앞에 나타나지 마!<end>"
+
 ["990096"]
 japanese = "あ、<value:$28>…。<end>"
 korean = "아, <value:$28>….<end>"
+
+["990097"]
+japanese = "あなたも懲りない人ね？<line-break>同じことを何回も言わせないで。　　　<line-break>　<line-break>私たちはまったく逆の道を歩いている。<line-break>今の私は、昔のアイリーンではないの。<line-break>…もう、ここには来ないで！<end>"
+korean = "당신도 정말 질리지 않네? 같은 말을 몇 번이나 하게 하지 마. 우리는 완전히 반대 길을 걷고 있어. 지금의 나는 옛날 아이린이 아니야. …이제 여기 오지 마!<end>"
 
 ["990098"]
 japanese = "…どうして、<line-break>どうしてあなたがゼネテスの配下に…。<end>"
@@ -323,6 +343,18 @@ korean = "…힘내, <value:$28>.<end>"
 ["990103"]
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break><value:$28>、今度は何？<line-break>私は忙しいんだから、<line-break>いつまでも私をあてにされても…。<end>"
 korean = "<value:$28>…. <value:$28>, 이번엔 또 뭐야? 난 바쁜데 언제까지나 나한테 기대도….<end>"
+
+["990104"]
+japanese = "え、違うの？　　　　　　　　　　　　<line-break>そ、そう…。<line-break>　<line-break>…そ、それなら、何しに来たのよ？<line-break>こんな所に来るヒマがあるなら、<line-break>ギルドで仕事でもこなしたら！<end>"
+korean = "어, 아니야? 그, 그래…. …그, 그럼 뭐 하러 온 거야? 이런 데 올 시간이 있으면 길드에서 일이라도 해!<end>"
+
+["990105"]
+japanese = "もう私は守ってあげられないんだから、<line-break>ちゃんと剣の腕も磨くのよ。<line-break>それに…。<end>"
+korean = "이제 내가 지켜 줄 수는 없으니까 검 실력도 제대로 갈고닦아. 그리고….<end>"
+
+["990106"]
+japanese = "…もういいわ。早く行きなさい。<line-break>あまり部外者に、この辺を<line-break>うろついてもらいたくないの。　<end>"
+korean = "…이제 됐어. 빨리 가. 외부인이 이 근처를 돌아다니는 건 별로 원치 않아.<end>"
 
 ["990107"]
 japanese = "…気をつけるのよ、<line-break><value:$28>。<end>"
@@ -396,6 +428,14 @@ korean = "노블 백작 <value:$28>! 이런 곳에서 뭘 하는 거야! 빨리 
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりで<line-break>ここに来ているのかしら？<line-break>今の私たちは敵同士も同然よ？<end>"
 korean = "<value:$28>…. 무슨 생각으로 여기 온 거야? 지금 우리는 적이나 다름없어.<end>"
 
+["990129"]
+japanese = "あなたはゼネテス配下の将軍。<line-break>私はディンガルの青竜軍副将。<line-break>もう、昔の私たちではないわ。<line-break>…早く、行きなさい。<line-break>今回だけは見逃してあげる。<line-break>もう私の前に姿を見せないで！<end>"
+korean = "당신은 제네테스 휘하의 장군. 나는 딩갈 청룡군 부장. 이제 예전의 우리가 아니야. …빨리 가. 이번만은 봐줄게. 다시는 내 앞에 나타나지 마!<end>"
+
+["990130"]
+japanese = "あなたも懲りない人ね？<line-break>同じことを何回も言わせないで。　　　<line-break>　<line-break>私たちはまったく逆の道を歩いている。<line-break>今の私は、昔のアイリーンではないの。<line-break>…もう、ここには来ないで！<end>"
+korean = "당신도 정말 질리지 않네? 같은 말을 몇 번이나 하게 하지 마. 우리는 완전히 반대 길을 걷고 있어. 지금의 나는 옛날 아이린이 아니야. …이제 여기 오지 마!<end>"
+
 ["990131"]
 japanese = "…どうして、<line-break>どうしてあなたがゼネテスの配下に…。<end>"
 korean = "…왜, 왜 당신이 제네테스의 부하로….<end>"
@@ -427,6 +467,10 @@ korean = "아, 그래도 볼일 없이 또 오면 안 돼. 여긴 군대니까. 
 ["990138"]
 japanese = "<value:$28>、冒険の方はどう？<line-break>何かおもしろいことでもあった？<end>"
 korean = "<value:$28>, 모험은 어때? 뭔가 재미있는 일이라도 있었어?<end>"
+
+["990139"]
+japanese = "へぇ、そんなことがあったんだ。　　　<line-break>やるじゃない、<value:$28>。<line-break>　<line-break>私の方も日々いろんな仕事があってね。<line-break>軍隊を構成するのは人間だもの。<line-break>マニュアル通りにはいかないわ。<end>"
+korean = "헤에, 그런 일이 있었구나. 제법인데, <value:$28>. 나도 매일 이런저런 일이 있어. 군대를 이루는 건 사람이니까 매뉴얼대로만 되진 않아.<end>"
 
 ["990140"]
 japanese = "問題にぶつかるたびに、<line-break>カルラ様のすごさを実感するわ。<line-break>私はまだまだだもの。<line-break>私も負けてられないわね。<line-break>それじゃあね、<value:$28>。<end>"

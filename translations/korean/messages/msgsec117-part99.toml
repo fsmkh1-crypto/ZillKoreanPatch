@@ -184,6 +184,10 @@ korean = "후후, 맞는 말이군. 그럼 물러나도록 하지.<end>"
 japanese = "あ、あの、それじゃ、<line-break>わたしはこれで失礼します！<end>"
 korean = "저, 저기, 그럼 저는 이만 실례하겠습니다!<end>"
 
+["1170052"]
+japanese = "物騒な世の中になったものね。　<line-break>こんなところで、<line-break>白昼堂々襲ってくるなんて。<line-break>いったい、誰がお目当てか<line-break>知らないけど、<line-break>いいかげんにしてもらいたいわね。<end>"
+korean = "험한 세상이 됐네. 이런 곳에서 대낮에 대놓고 습격하다니. 대체 누가 목표인지는 모르겠지만 이제 좀 그만했으면 좋겠어.<end>"
+
 ["1170054"]
 japanese = "ちょっと、レイヴン。<line-break>あんた、何びびってんのよ？<end>"
 korean = "잠깐, 레이븐. 너 뭐가 그렇게 겁나?<end>"
@@ -195,6 +199,10 @@ korean = "아, 아니, 그런 건… 아니야.<end>"
 ["1170056"]
 japanese = "あ！<line-break><value:$28>さん！<end>"
 korean = "아! <value:$28> 씨!<end>"
+
+["1170057"]
+japanese = "あ、<value:$28>さん、<line-break>ありがとうございます！<line-break>また助けてもらっちゃいました。<line-break>わたしも、一日も早く<line-break><value:$28>さんみたいな<line-break>一人前の冒険者になりたいな…。<end>"
+korean = "아, <value:$28> 씨, 감사합니다! 또 도움을 받았네요. 저도 하루빨리 <value:$28> 씨 같은 어엿한 모험자가 되고 싶어요….<end>"
 
 ["1170058"]
 japanese = "ふむ…また施文院の連中か？<end>"

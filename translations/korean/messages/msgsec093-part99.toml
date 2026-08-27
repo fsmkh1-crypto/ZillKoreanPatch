@@ -20,6 +20,10 @@ korean = "그래, <value:$28>! 그게 빠져 있었던 거야!<end>"
 japanese = "おぉ、そうじゃ、そうだったんじゃ！<line-break>　<line-break>　<end>"
 korean = "오오, 그래, 그랬었지!<end>"
 
+["930011"]
+japanese = "何をわけわかんないこと言ってるの、<line-break>このヒゲダルマ！<line-break>早く、どきなさいよー！<end>"
+korean = "뭔 소린지 하나도 모르겠어, 이 수염 뚱보! 빨리 비켜!<end>"
+
 ["930012"]
 japanese = "こうしちゃあ、おれん。<line-break>ゆくぞ、<value:$28>！<end>"
 korean = "이러고 있을 때가 아니다. 간다, <value:$28>!<end>"
@@ -91,6 +95,10 @@ korean = "내 오랜 꿈은 이루어졌다. 캇츠와 롯치나의 꿈도…. �
 ["930031"]
 japanese = "では、戻ろうかの。<line-break>なぜだか無性に、<line-break>酒が飲みとうなったわ。<end>"
 korean = "그럼 돌아갈까. 왠지 몹시 술이 마시고 싶어졌구나.<end>"
+
+["930032"]
+japanese = "カッツ、ロッチナ、　　　　　　　<line-break>わしはやったぞ。<line-break>お主らの宝剣と共に…。<line-break>きっとお主らも、あの世から<line-break>手助けしてくれていたのじゃろう。<line-break>ありがとう。<end>"
+korean = "카츠, 로치나, 나 해냈다. 너희 보검과 함께…. 분명 너희도 저세상에서 도와줬겠지. 고맙다.<end>"
 
 ["930033"]
 japanese = "この剣はお主に進呈しよう。<line-break>わしの最高の剣を持つに<line-break>ふさわしいのは、きっと…<line-break>他の勇者でも剣聖でもなく<line-break>お主じゃろう。<line-break>わしはそう信じておる。<end>"

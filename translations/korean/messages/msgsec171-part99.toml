@@ -148,6 +148,10 @@ korean = "오, <value:$28>, 잘 왔다. 이제 아큐류스 공략이 시작되�
 japanese = "時間のようじゃ。<line-break>行くぞ！　<value:$28>！<end>"
 korean = "시간이 된 모양이군. 간다, <value:$28>!<end>"
 
+["1710052"]
+japanese = "やはりミズチの棲む湖を越えるのは<line-break>無理であったか。<line-break>この船ももう長くは持つまい…。<end>"
+korean = "역시 미즈치가 사는 호수를 건너는 건 무리였나. 이 배도 이제 오래 버티지 못하겠군….<end>"
+
 ["1710053"]
 japanese = "<value:$28>、<line-break>お主、泳ぎは得意か？<end>"
 korean = "<value:$28>, 자네 수영은 잘하나?<end>"
@@ -256,9 +260,17 @@ korean = "후하하하하. 그럼 또 보자.<end>"
 japanese = "先日の娘か…。<line-break>老いぼれの昔話、聞く気があるか？<end>"
 korean = "며칠 전 그 아가씨인가…. 늙은이의 옛날이야기를 들어 볼 텐가?<end>"
 
+["1710085"]
+japanese = "バロルとたもとを分かって、<line-break>アキュリュ－スの傭兵隊長を<line-break>しとるとき、わしは恋に落ちた。　　<line-break>ルフェイと言った。<line-break>先日の娘と同じように<line-break>水の神殿の巫女じゃった。<end>"
+korean = "바롤과 결별하고 아큐류스의 용병대장을 하고 있을 때, 나는 사랑에 빠졌지. 루페이라고 했다. 얼마 전 그 처녀처럼 물의 신전의 무녀였어.<end>"
+
 ["1710088"]
 japanese = "彼女は自分の魔法力のすべてを使って<line-break>ネモを撃退した。<line-break>アキュリュースもわしも助かった。　<line-break>だが、彼女は…。<line-break>　<line-break>　<end>"
 korean = "그녀는 자신의 모든 마력을 써서 네모를 물리쳤다. 아큐류스도 나도 살아났지. 하지만 그녀는….<end>"
+
+["1710091"]
+japanese = "…思えば、あのころはまだまだ<line-break>若かったんじゃな。<line-break>そんな恥ずかしいまねも平気でできた。<end>"
+korean = "…생각해 보면 그때는 아직 젊었구먼. 그런 부끄러운 짓도 아무렇지 않게 했으니.<end>"
 
 ["1710093"]
 japanese = "おい、お前！<line-break>ディンガルの密偵か！？　　　　　<line-break>密偵なのか！？<line-break>この船はアキュリュースへ渡る<line-break>唯一の足だ。お前をここから先へと<line-break>通すわけにはいかないぞ！<end>"
@@ -391,6 +403,14 @@ korean = "　　　　　　　　그걸로 됐다.　　　　　　　　　�
 ["1710141"]
 japanese = "　　　　　　　　何をしておる。　　　　　　　<line-break>　　　　　　早く引き返すがよい。<line-break>　　　　　　　　いたずらに命を<line-break>　　　　　　縮めることはあるまい。<end>"
 korean = "　　　　　　　　뭘 하고 있느냐.　　　　　　　　　　　　　어서 돌아가거라.　　　　　　　　쓸데없이 목숨을　　　　　　재촉할 필요는 없다.<end>"
+
+["1710142"]
+japanese = "一緒に戦うお仲間以外の方を<line-break>ご案内するわけにはいきません。　　<line-break>　<line-break>どうか、そちらに連れておられる方と<line-break>お別れになられてから<line-break>もう一度ここにいらしてください。<end>"
+korean = "함께 싸우는 동료가 아닌 분을 안내할 수는 없습니다. 부디 데리고 계신 분과 헤어진 뒤 다시 여기로 와 주세요.<end>"
+
+["1710143"]
+japanese = "<value:$28>様、<line-break>アンギルダン様から伝言です。　　　<line-break>　<line-break>ジラーク軍は今のところ動く気配なし。<line-break>どうやら東を攻めている死神カルラに<line-break>歩調をあわせる腹づもりらしい。<end>"
+korean = "<value:$28> 님, 앙길단 님의 전언입니다. 지라크군은 현재 움직일 기미가 없음. 아무래도 동쪽을 공격 중인 사신 카를라의 움직임에 보조를 맞출 생각인 듯합니다.<end>"
 
 ["1710144"]
 japanese = "青竜軍に大きな動きがあった時に<line-break>早急に本陣へ戻ればよいであろう。　<line-break>わしもしばらく旅にでも出るわ。<line-break>…との事です。<line-break>以上、確かにお伝えしました。<line-break>　<end>"

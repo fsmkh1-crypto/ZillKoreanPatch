@@ -8,6 +8,10 @@ korean = "이크레문 V5-2 시작<end>"
 japanese = "神官長、大変です！<line-break>ディンガル帝国の軍が<line-break>また、攻めてまいりました！<end>"
 korean = "신관장님, 큰일입니다! 딘갈 제국군이 또 공격해 왔습니다!<end>"
 
+["1840002"]
+japanese = "何度も、無益な争いを…。<line-break>ミズチが防いでくれている間に<line-break>町の人を避難させなさい。<end>"
+korean = "또 무익한 싸움을…. 미즈치가 막아 주는 동안 마을 사람들을 대피시키세요.<end>"
+
 ["1840004"]
 japanese = "き、来ました！<line-break>例の大蛇です！！<end>"
 korean = "와, 왔습니다! 그 큰 뱀입니다!!<end>"
@@ -248,6 +252,10 @@ korean = "인어의 귀걸이를 손에 넣었다.<end>"
 japanese = "イークレムン様のこと、<line-break>よろしくお願いします。<line-break>　<end>"
 korean = "이클렘 님을 잘 부탁드립니다.<end>"
 
+["1840072"]
+japanese = "その耳飾りは、先代の水の巫女である　<line-break>ルフェイ様が、恋仲の男性から<line-break>贈られたものだと聞いています。<line-break>つまり、イークレムン様にとっては<line-break>ご両親の形見ということになるのです。<end>"
+korean = "그 귀걸이는 선대 물의 무녀 루페이 님께서 사랑하던 남성에게 받은 것이라고 들었습니다. 즉 이크렘 님에게는 부모님의 유품인 셈입니다.<end>"
+
 ["1840073"]
 japanese = "ネメアにより西方攻略を命じられた<line-break>白虎将軍ジラークは、<line-break>難航不落といわれたアキュリュースを<line-break>ほぼ無傷のまま支配下に収めた。<end>"
 korean = "네메아에게 서방 공략을 명령받은 백호장군 지라크는 난공불락이라 불리던 아큐류스를 거의 피해 없이 지배하에 두었다.<end>"
@@ -367,6 +375,10 @@ korean = "사람을 잘못 봤다<end>"
 ["1840109"]
 japanese = "…そうですか。<line-break>…やはり…。<end>"
 korean = "…그렇습니까. …역시….<end>"
+
+["1840111"]
+japanese = "あとの判断はあなたにお任せします。<line-break>…突然こんなことを言い出して<line-break>ごめんなさい。<end>"
+korean = "나머지 판단은 당신께 맡기겠습니다. …갑자기 이런 말을 꺼내서 미안해요.<end>"
 
 ["1840112"]
 japanese = "そうでしたか。<line-break>これは大変失礼いたしました。<line-break>　<line-break>私の言ったことは<line-break>忘れてくださって結構です。<line-break>それでは、失礼します。<end>"

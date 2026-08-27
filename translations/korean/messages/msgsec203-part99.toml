@@ -12,6 +12,10 @@ korean = "재채기가 나와서 혹시나 했는데, 또 제 이야기입니까
 japanese = "しかも怒鳴ろうが殴ろうが<line-break>まったく起きやしねえ。<line-break>　<line-break>あれだけ根性入れて眠ってたのは<line-break>天界でもお前だけだろうよ。<end>"
 korean = "게다가 소리쳐도 때려도 전혀 일어나질 않더군. 그렇게 근성 있게 자는 놈은 천계에서도 너뿐일 거다.<end>"
 
+["2030005"]
+japanese = "根性じゃありません、呪文ですよ。<line-break>自分にスリープの呪文を<line-break>かけていたんです。<end>"
+korean = "근성이 아니라 주문이에요. 자기 자신에게 슬립 주문을 걸어 둔 겁니다.<end>"
+
 ["2030007"]
 japanese = "むしろ逆でしたかね。<line-break>　<line-break>　<line-break>すでに自分の知っている知識を<line-break>授業で繰り返されても<line-break>つまらないだけですよ。<end>"
 korean = "오히려 반대였나 보군요. 이미 아는 내용을 수업에서 반복해 봐야 지루할 뿐이죠.<end>"
@@ -23,6 +27,10 @@ korean = "있잖아, <value:$28>?<end>"
 ["2030009"]
 japanese = "な、なんだとぉ～！<end>"
 korean = "뭐, 뭐라고오~!<end>"
+
+["2030011"]
+japanese = "…なんか、素直に喜べねえな。<line-break>学問よりも先に、もう少し礼節を<line-break>学ばせるべきだったか…。<end>"
+korean = "…왠지 마냥 기뻐할 수가 없네. 학문보다 먼저 예절을 좀 더 가르쳤어야 했나….<end>"
 
 ["2030012"]
 japanese = "今頃反省しても遅いと思いますけど。<line-break>　<line-break>　<line-break>さて、ネモがもっと悪い記憶を<line-break>掘り起こさないうちに<line-break>退散するとしましょうか。<end>"

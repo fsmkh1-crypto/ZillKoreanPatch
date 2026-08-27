@@ -96,6 +96,10 @@ korean = "＜없음＞<end>"
 japanese = "あ、みんな同じ刺青だわ。<line-break>ちょっと、個性がないかも。きゃっ！<end>"
 korean = "아, 다들 같은 문신이네. 조금 개성이 없을지도. 꺅!<end>"
 
+["550032"]
+japanese = "この危険そうな奴らを追いかけるって…<line-break>どうしよっかな…。<line-break><line-break>ついていこうっと！　でもでも<line-break>こんな危険に飛び込もうとするなんて、<line-break>ちょっと、おバカさんかも！　きゃっ！<end>"
+korean = "이 위험해 보이는 녀석들을 쫓아간다고… 어떡하지…. 따라가야지! 하지만 이런 위험 속으로 뛰어들려고 하다니 조금 바보일지도! 꺄악!<end>"
+
 ["550033"]
 japanese = "見ろよ！　<value:$28>！<line-break>こいつらみんな同じ刺青してる！<line-break><line-break>へへっ、わかったぜ！<line-break>ってことは、つまり…。<end>"
 korean = "봐, <value:$28>! 이 녀석들 전부 같은 문신을 하고 있어! 헤헤, 알겠다! 그러니까 이건….<end>"
@@ -288,6 +292,14 @@ korean = "…소울 리프가 듣지 않는다…. …무한의 소울… 다른
 japanese = "追うわよ、<value:$28>！<end>"
 korean = "쫓아가자, <value:$28>!<end>"
 
+["550083"]
+japanese = "私の心配なんてしてないで<line-break>さっさと奴を追うの！<line-break>もう！　ほんっとにグズなんだからぁ！<end>"
+korean = "내 걱정은 그만하고 빨리 녀석을 쫓아가! 정말! 답답해서 못 봐 주겠네!<end>"
+
+["550087"]
+japanese = "アイリーン、過保護な母親みたいね！<line-break><value:$28>はマザコンの子供！<line-break>　<line-break>人間って個の自立が足りなくてよ。<line-break>甘えて、依存して、馴れ合って<line-break>それで友情とか絆とか言っちゃって！<end>"
+korean = "아이린, 과보호하는 엄마 같네! <value:$28>는 마마보이 꼬맹이! 인간은 개체의 자립이 부족해. 응석 부리고, 의존하고, 끼리끼리 어울리면서 그걸 우정이니 유대니 하잖아!<end>"
+
 ["550088"]
 japanese = "チャラチャラ親子ごっこしてないで<line-break>さ、行くわよ。<end>"
 korean = "그렇게 가벼운 가족놀이나 하지 말고, 가자.<end>"
@@ -423,6 +435,10 @@ korean = "＜없음＞<end>"
 ["550122"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
+
+["550123"]
+japanese = "うん、ルルアンタ、大丈夫だよぉ！<line-break>一瞬、フリントさんが見えたけどね…<line-break>　<line-break><value:$28>の方から<line-break>何かおっきなものがルルアンタを包んで<line-break>ルルアンタをここに連れ戻したんだよ。<end>"
+korean = "응, 루루안타 괜찮아! 순간 플린트 씨가 보였지만…. <value:$28> 쪽에서 뭔가 커다란 것이 루루안타를 감싸고 여기로 데려왔어.<end>"
 
 ["550124"]
 japanese = "それより、さっきの人<line-break>追いかけなきゃ！　村のみんなが…！<end>"

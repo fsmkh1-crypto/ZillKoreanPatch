@@ -132,6 +132,10 @@ korean = "어라? 뭐지…?<end>"
 japanese = "神器に異物が混入…だと？<line-break>意志あるもの…、ソウル…？<end>"
 korean = "신기에 이물질이 섞였다고…? 의지를 지닌 것… 소울…?<end>"
 
+["1890044"]
+japanese = "はじめまして、シャリ君。<line-break>私はオルファウスといいます。<line-break>よろしくお見知り置きを。<end>"
+korean = "처음 뵙겠습니다, 샤리 군. 저는 오르파우스라고 합니다. 잘 부탁합니다.<end>"
+
 ["1890045"]
 japanese = "クッ、こうなることを見越し、<line-break>魂吸いの指輪にわざとソウルを<line-break>吸わせて潜んでいたのか…。<line-break>破壊神の復活を<line-break>直前でくい止めるために…。<end>"
 korean = "큭, 이렇게 될 걸 내다보고 영혼흡수의 반지에 일부러 소울을 빨아들이게 한 뒤 숨어 있었나…. 파괴신의 부활을 직전에 막기 위해….<end>"
@@ -212,6 +216,10 @@ korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 japanese = "誤解しないでほしいな。<line-break>僕は、ネメアを救ってあげたんだ。<line-break>次元のはざまからね。<end>"
 korean = "오해하지 않았으면 해. 나는 네메아를 구해 준 거야. 차원의 틈새에서 말이지.<end>"
 
+["1890073"]
+japanese = "せっかく<value:$28>と僕で<line-break>闇の神器を１２個集めたのに、<line-break>あんなことで死なれちゃ困るからね。<line-break>フフフ。さあ、<value:$28>。<line-break>残りの神器を僕にくれないかな。<line-break>　<end>"
+korean = "모처럼 <value:$28>와 내가 어둠의 신기를 12개나 모았는데 그런 일로 죽으면 곤란하거든. 후후후. 자, <value:$28>. 남은 신기를 나한테 주지 않을래?<end>"
+
 ["1890074"]
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
@@ -219,6 +227,10 @@ korean = "어라? 뭐지…?<end>"
 ["1890075"]
 japanese = "神器に異物が混入…だと？<line-break>意志あるもの…、ソウル…？<end>"
 korean = "신기에 이물질이 섞였다고…? 의지를 지닌 것… 소울…?<end>"
+
+["1890076"]
+japanese = "はじめまして、シャリ君。<line-break>私はオルファウスといいます。<line-break>よろしくお見知り置きを。<end>"
+korean = "처음 뵙겠습니다, 샤리 군. 저는 오르파우스라고 합니다. 잘 부탁합니다.<end>"
 
 ["1890077"]
 japanese = "クッ、こうなることを見越し、<line-break>魂吸いの指輪にわざとソウルを<line-break>吸わせて潜んでいたのか…。<line-break>破壊神の復活を<line-break>直前でくい止めるために…。<end>"
@@ -440,6 +452,10 @@ korean = "곤란하군. 돌아왔어. 어둠의 세계에서.<end>"
 japanese = "闇の世界で私は知った。<line-break>光も闇も、何もかもを無に帰する虚無。<line-break>その存在を。<line-break>虚無の子シャリよ。<line-break>お前は何を望んでいる？<line-break>すべてを無に帰することか？<end>"
 korean = "어둠의 세계에서 나는 알았다. 빛도 어둠도, 모든 것을 무로 되돌리는 허무. 그 존재를. 허무의 아이 샤리여. 너는 무엇을 바라는가? 모든 것을 무로 되돌리는 것인가?<end>"
 
+["1890144"]
+japanese = "違うよ、ネメア。<line-break>僕は虚無から生まれたけど、<line-break>僕に命を吹き込んだのは別のものさ。<end>"
+korean = "아니야, 네메아. 난 허무에서 태어났지만 내게 생명을 불어넣은 건 다른 것이었어.<end>"
+
 ["1890146"]
 japanese = "フフフ、ネメア。<line-break>もう思いどおりになってるんだよ。<line-break>　<line-break>僕はあと少しで、<line-break>この時代での役割を終える。<end>"
 korean = "후후후, 네메아. 이미 내 뜻대로 되고 있어. 나는 이제 조금만 있으면 이 시대에서의 역할을 끝낸다.<end>"
@@ -488,9 +504,17 @@ korean = "케류네이아. 너는 여기 남아라.<end>"
 japanese = "イヤよ！<line-break>ついていく！<line-break>　<line-break>足手まといにはならないわ！<line-break>私だって魔王を倒した勇者のひとり、<line-break>閃光のケリュネイアよ！<end>"
 korean = "싫어! 따라갈 거야! 발목 잡진 않을게! 나도 마왕을 쓰러뜨린 용사 중 하나, 섬광의 케류네이아야!<end>"
 
+["1890158"]
+japanese = "だからこそだ。<line-break>お前にはここで、次々にわいてくる<line-break>ザコどもをくいとめてもらう。<line-break>そして、<value:$28>の<line-break>仲間たちを呼び出してもらう。<line-break>これができるのはお前だけだ。<end>"
+korean = "그러니까 네가 필요한 거다. 여기서 계속 몰려드는 졸개들을 막아 줘. 그리고 <value:$28>의 동료들을 불러내라. 이걸 할 수 있는 건 너뿐이야.<end>"
+
 ["1890159"]
 japanese = "難しい仕事だ。<line-break>できるか、ケリュネイア？<end>"
 korean = "어려운 일이다. 할 수 있겠나, 케류네이아?<end>"
+
+["1890160"]
+japanese = "わかったわ、兄さん。<line-break>勇者ネメアの妹として恥ずかしくない<line-break>働きをしてみせる。<end>"
+korean = "알았어, 오빠. 용사 네메아의 여동생으로 부끄럽지 않게 활약해 보일게.<end>"
 
 ["1890161"]
 japanese = "<value:$28>、私はここにいるわ。<line-break>仲間を呼び出したかったら<line-break>私に言って。<line-break>あとは頼んだわ、<line-break><value:$28>。<end>"

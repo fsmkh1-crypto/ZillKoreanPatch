@@ -148,6 +148,10 @@ korean = "<value:$28>, 딸을 부탁한다.<end>"
 japanese = "お父さま……。<line-break>突然、どうしたのですか？<end>"
 korean = "아버님……. 갑자기 무슨 일이세요?<end>"
 
+["1930043"]
+japanese = "お父さま…、そんな…。<line-break>私は、何もいりませぬ。<line-break>お父さまさえいてくだされば。<end>"
+korean = "아버님…, 그런…. 저는 아무것도 필요 없습니다. 아버님만 계셔 주신다면.<end>"
+
 ["1930045"]
 japanese = "お、お父さま…、そんな…。<end>"
 korean = "아, 아버님… 그럴 수가….<end>"
@@ -331,6 +335,10 @@ korean = "결판을 내자.<end>"
 ["1930097"]
 japanese = "そうですか、<line-break>この大陸を出ていくのですか。<end>"
 korean = "그렇군요. 이 대륙을 떠나시는 겁니까.<end>"
+
+["1930099"]
+japanese = "あなたの存在は、<line-break>その流れをゆるがしかねない。<line-break>あなたの意志に関係なく、ね。<end>"
+korean = "당신의 존재는 그 흐름을 뒤흔들 수도 있어. 당신의 의지와 상관없이 말이야.<end>"
 
 ["1930100"]
 japanese = "人間は簡単に<line-break>他人を祭りあげたりするからな。<line-break>　<line-break>これからの変革によって、<line-break>今まで持っていた力を<line-break>脅かされた連中が、<end>"

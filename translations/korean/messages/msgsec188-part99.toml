@@ -148,6 +148,10 @@ korean = "참전한 사실은 숨겨 둔다<end>"
 japanese = "…やはりそうだったのですか。　　　　<line-break>　<line-break>　<line-break>実は、すでにロストール軍の中に、<line-break>あなたに似た将軍がいたと報告を<line-break>受けていました。それで、もしやと…。<end>"
 korean = "…역시 그랬군요. 사실 이미 로스토올군 안에 당신과 닮은 장군이 있다는 보고를 받았습니다. 그래서 혹시나 하고….<end>"
 
+["1880051"]
+japanese = "…解放軍のために命を懸けて<line-break>くださったのですね。<line-break>解放軍を率いる者として礼を言います。<line-break>本当にありがとう。<line-break>…それと、ごめんなさい。<line-break>危険な目にあわせてしまって…。<end>"
+korean = "…해방군을 위해 목숨을 거셨군요. 해방군을 이끄는 사람으로서 감사드립니다. 정말 고마워요. …그리고 미안해요. 위험한 일을 겪게 해서….<end>"
+
 ["1880052"]
 japanese = "今回の任務では<line-break>本当にご苦労さまでした。<line-break>ゆっくり休んでください。　　<line-break>もう下がっていいですよ。<line-break>…それと、<line-break>みなさんも下がってください。<end>"
 korean = "이번 임무 정말 수고 많으셨습니다. 푹 쉬세요. 이제 물러가셔도 됩니다. …그리고 여러분도 물러가 주세요.<end>"
@@ -155,6 +159,10 @@ korean = "이번 임무 정말 수고 많으셨습니다. 푹 쉬세요. 이제 
 ["1880053"]
 japanese = "解放軍を率いる者として…だなんて…<line-break>わたくし、どうして、<line-break>素直に言えないの？<line-break>本当にわたくし、<line-break>かわいげのない女だわ…。<line-break>でも…。<end>"
 korean = "해방군을 이끄는 자로서…라니…. 나는 왜 솔직하게 말하지 못하는 거지? 정말 나는 귀염성 없는 여자야…. 하지만….<end>"
+
+["1880055"]
+japanese = "どうして、言ってくれないのです。<line-break>本当のことを言ってください。<line-break>これは命令ですよ。<end>"
+korean = "왜 말씀해 주지 않는 겁니까. 사실대로 말해 주세요. 명령입니다.<end>"
 
 ["1880056"]
 japanese = "…やはり、そうだったのですか。　<line-break>　<line-break>　<line-break>でも、なぜ隠していたのです？<line-break>あなたはわたくしに報告する義務が<line-break>あるはずですよ。<end>"
@@ -199,6 +207,10 @@ korean = "<value:$28>. 엘리스 왕비께 원조를 요청한 건은 어떻게 
 ["1880071"]
 japanese = "…そうですか。王妃は<line-break><value:$28>にロストール軍への<line-break>参加を求めてきたのですか…。<end>"
 korean = "…그렇습니까. 왕비가 <value:$28>에게 로스토올군 참가를 요청한 것이군요….<end>"
+
+["1880072"]
+japanese = "<value:$28>さん、<line-break>どうしてロストール軍への参加を　　<line-break>拒否したんですか？<line-break>ロストール軍に参加して<line-break>それなりの功績を挙げられれば<line-break>援助を承知してくれたんでしょう？<end>"
+korean = "<value:$28> 씨, 왜 로스토올군 참가를 거절하셨어요? 로스토올군에 참가해서 어느 정도 공적을 세우면 지원을 승인해 줬을 거잖아요?<end>"
 
 ["1880073"]
 japanese = "おやめなさい。わたくしが与えた<line-break>任務は、わたくしの提案を王妃に<line-break>伝えることです。<line-break>王妃がそれを聞き入れなかった<line-break>というのでは、仕方ありません。<end>"

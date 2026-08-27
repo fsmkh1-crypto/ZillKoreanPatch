@@ -340,6 +340,10 @@ korean = "나도 방금 왔으니 신경 쓰지 마. 자, 갑판으로 올라가
 japanese = "あ、いたいた。<line-break>待ってー。クリュセイスお姉ちゃん、<line-break><value:$28>お兄ちゃん。<end>"
 korean = "아, 여기 있었네. 기다려ー. 크류세이스 언니, <value:$28> 오빠.<end>"
 
+["1920101"]
+japanese = "はい、これ。<line-break>母ちゃんが、今日のお礼だって。　　<line-break>ふたりで食べてくれってさ。<end>"
+korean = "자, 이거. 엄마가 오늘 답례래. 둘이서 먹으라고 하셨어.<end>"
+
 ["1920102"]
 japanese = "まぁ、こんなにたくさん。<line-break>ありがとう。<line-break>お母さんによろしく言ってね。<end>"
 korean = "어머, 이렇게나 많이.고마워.어머니께 안부 전해 줘.<end>"
@@ -564,6 +568,10 @@ korean = "아, <value:$28>님. 좋은 아침이에요!<end>"
 japanese = "あ、あの、<value:$28>さん。<line-break>本当にわたし、旅に連れていって<line-break>もらっていいんですか？<line-break>その、わたし<line-break><value:$28>さんに<line-break>迷惑かけちゃうだろうし…。<end>"
 korean = "저, 저기, <value:$28> 씨. 정말 저도 여행에 데려가 주셔도 괜찮은가요? 그게, 제가 <value:$28> 씨께 폐를 끼칠 것 같아서….<end>"
 
+["1920170"]
+japanese = "いえ、あの、<line-break><value:$28>さんが誘ってくれて<line-break>とってもうれしいんです。　　　　　　<line-break>カフィンもレイヴンも、<line-break><value:$28>さんと一緒だったら<line-break>安心して見守ってくれると思いますし。<end>"
+korean = "아뇨, 저, <value:$28> 씨가 권해 줘서 정말 기뻐요. 카핀도 레이븐도 <value:$28> 씨와 함께라면 안심하고 지켜봐 줄 것 같고요.<end>"
+
 ["1920172"]
 japanese = "わたし、がんばりますから！<end>"
 korean = "저, 열심히 할 테니까요!<end>"
@@ -616,6 +624,10 @@ korean = "이걸 가져가렴. <value:$28>님과 함께 소중히 쓰도록 해.
 japanese = "こ、こんなにたくさん…。<end>"
 korean = "이, 이렇게나 많이….<end>"
 
+["1920185"]
+japanese = "そのかわり、これだけは約束しなさい。<line-break>必ず、私たちの元へ、帰ってくると。<line-break>　<end>"
+korean = "대신 이것만은 약속해. 반드시 우리 곁으로 돌아오겠다고.<end>"
+
 ["1920186"]
 japanese = "は、はい！<end>"
 korean = "네, 네!<end>"
@@ -655,6 +667,10 @@ korean = "<value:$28>이 찾아내지 않았으면 안에 숨겨진 암호문째
 ["1920197"]
 japanese = "本当は私、<line-break>遺宝なんてどうでもいいのよ。<line-break>…ちょっとは興味あるけどね。<line-break>でも、私は何より、あなたが<line-break>私のところに来てくれたことが<line-break>一番うれしいの。<end>"
 korean = "사실 나는 유보 따윈 아무래도 좋아. …조금은 관심 있지만. 그래도 무엇보다 네가 나를 찾아와 준 게 제일 기뻐.<end>"
+
+["1920198"]
+japanese = "あなたには言ってあるわよね。<line-break>私はずっと求めていた。<line-break>疲れたとき、そっと寄りかかれる人。<line-break>くじけそうになったとき<line-break>私のことを励ましてくれる人。<line-break>父さんみたいな人…。<end>"
+korean = "당신에게 말했었지. 난 계속 원해 왔어. 지쳤을 때 조용히 기대어 쉴 수 있는 사람. 꺾일 것 같을 때 나를 격려해 주는 사람. 아버지 같은 사람….<end>"
 
 ["1920199"]
 japanese = "年下のあなたに、<line-break>こんなことを言うなんて、<line-break>弱い女だと思うかもしれないけど、<line-break>これが、偽りのない私。<line-break>あなたにだけ見せられる本当の私。<line-break>　<end>"
@@ -839,6 +855,10 @@ korean = "뭐야, 미련이라도 있어? 노엘과 <value:$28>을 이어 주겠
 ["1920254"]
 japanese = "反対ではない。<line-break>それが、ノエルのためだと　<line-break>思うからな。<line-break>お前の方こそ、<line-break>いつまでもノエルと一緒に<line-break>いたかったのではないのか？<end>"
 korean = "반대하는 건 아니다. 그게 노엘을 위한 일이라 생각하니까. 오히려 너야말로 언제까지나 노엘과 함께 있고 싶었던 것 아닌가?<end>"
+
+["1920255"]
+japanese = "ま、あの子のそばにいると<line-break>目が離せないのは確かだけどね。　　　<line-break>　<line-break>でも、あたしだってまだ若いんだから、<line-break>いつまでも子守ばかりしてられないわ。<line-break>ここらが潮時なのよ。<end>"
+korean = "뭐, 그 아이 곁에 있으면 눈을 뗄 수 없는 건 사실이지만. 그래도 나도 아직 젊은데 언제까지나 아이만 돌볼 순 없잖아. 이쯤이 그만둘 때야.<end>"
 
 ["1920256"]
 japanese = "どう？　ひとり者どうし、<line-break>しばらく、ふたりで旅を続けてみる？<end>"

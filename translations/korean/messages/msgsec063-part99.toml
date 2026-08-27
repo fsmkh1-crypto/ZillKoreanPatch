@@ -32,6 +32,10 @@ korean = "하지만 떼어 내는 건 불쌍하고. 나도 귀족은 싫어하�
 japanese = "そこの人！<end>"
 korean = "거기 당신!<end>"
 
+["630009"]
+japanese = "ボーっとしていたらダメです。<line-break>もうすぐタルテュバが来ます。<line-break>さあ、早くこちらへ！！<end>"
+korean = "멍하니 있으면 안 됩니다. 곧 타르튜바가 옵니다. 자, 빨리 이쪽으로!!<end>"
+
 ["630010"]
 japanese = "おお、よかった。<line-break>タルテュバに見つかる前に<line-break>隠れられたようじゃの。<end>"
 korean = "오오, 다행이구나.타르튜바에게 들키기 전에숨은 모양이로군.<end>"
@@ -131,6 +135,10 @@ korean = "네가 파티 리더라니, 나도 자랑스럽다.<end>"
 ["630039"]
 japanese = "よ、正義の味方さん。<line-break>俺はゼネテス。冒険者だ。<line-break>お前さんは？<end>"
 korean = "여, 정의의 편. 나는 제네테스, 모험자다. 너는?<end>"
+
+["630040"]
+japanese = "<if><value:$2A><less>50<value:$28>、ね。<line-break>まぁ、よろしく。<end><value:$28>？<line-break>ってーと…　　　　　　　　　<line-break><value:$2B>の<value:$28>？<line-break>俺も噂は聞いていた。<line-break>ま、これからよろしく頼むぜ。<end>"
+korean = "<if><value:$2A><less>50<value:$28>구나. 뭐, 잘 부탁해.<end><value:$28>? 그러니까… <value:$2B>의 <value:$28>? 나도 소문은 들었어. 뭐, 앞으로 잘 부탁한다.<end>"
 
 ["630041"]
 japanese = "よ、ひさしぶり。<line-break>お前さんもいいとこあるじゃない。<end>"
@@ -376,6 +384,10 @@ korean = "하나 묻지. 내가 네 뜻을 조금이라도존중할 거라고 �
 japanese = "そ、そうか…。<line-break>と、とにかく、もう決めたのだ。<line-break>俺についてこい。<end>"
 korean = "그, 그런가… 어, 어쨌든 이미 정했다. 나를 따라와.<end>"
 
+["630110"]
+japanese = "何を白々しいことを言っている。<line-break>俺がそんな男でないことは<line-break>お前も知っているだろうが。<end>"
+korean = "뻔뻔한 소리 하지 마. 내가 그런 남자가 아니라는 건 너도 알잖아.<end>"
+
 ["630111"]
 japanese = "正解だ。<end>"
 korean = "정답이야.<end>"
@@ -512,6 +524,10 @@ korean = "그 사람 이야기는 그만해 주세요. 모처럼 즐거운 시�
 japanese = "結婚をひかえた女性の<line-break>言葉とは思えぬな。<end>"
 korean = "결혼을 앞둔 여성의 말이라고는 생각되지 않는군.<end>"
 
+["630148"]
+japanese = "誰が結婚などするものですか！<line-break>貴族としての責務も捨てて、<line-break>酒におぼれる男となんて…！<end>"
+korean = "누가 결혼 같은 걸 한답니까! 귀족의 책임도 버리고 술에 빠져 사는 남자와는 절대로…!<end>"
+
 ["630149"]
 japanese = "フフ…<line-break>わかった、わかった。　　　<line-break>　<line-break>さて、そろそろ失礼するか。<line-break>宮中の噂になってはかなわぬからな。<end>"
 korean = "후후… 알았다, 알았어. 자, 슬슬 실례하지. 궁중의 소문거리가 되면 곤란하니까.<end>"
@@ -551,6 +567,10 @@ korean = "그거 좋군. 티아나의 화난 얼굴도 한 번 보고 싶어. �
 ["630158"]
 japanese = "それでは、そのとなりに<line-break>レムオン様が大笑いした顔を<line-break>描かせましょうか？<end>"
 korean = "그럼 그 옆에 레몬 님이 크게 웃는 얼굴을 그리게 할까요?<end>"
+
+["630159"]
+japanese = "やれやれ。王妃ではなく<line-break>王女にやり込められるようでは、<line-break>リューガ家に勝ち目はないな。<end>"
+korean = "원 참. 왕비도 아니고 공주에게 당할 정도라면 류가 가문에 승산은 없겠군.<end>"
 
 ["630160"]
 japanese = "まぁ、レムオン様が弱音を…。<line-break>めずらしいこと。<end>"
@@ -1015,6 +1035,10 @@ korean = "그거 좋군. 티아나가 화난 얼굴도 한 번 보고 싶어. �
 ["630281"]
 japanese = "それでは、そのとなりに<line-break>レムオン様が大笑いした顔を<line-break>描かせましょうか？<end>"
 korean = "그럼 그 옆에 레몬 님이 크게 웃는 얼굴을 그리게 할까요?<end>"
+
+["630282"]
+japanese = "やれやれ。王妃ではなく<line-break>王妃の娘にやり込められるようでは、<line-break>リューガ家に勝ち目はないな。<end>"
+korean = "원 참. 왕비가 아니라 왕비의 딸에게 당할 정도라면 류가 가문에 승산은 없겠군.<end>"
 
 ["630283"]
 japanese = "まぁ、レムオン様が弱音を…。<line-break>めずらしいこと。<end>"

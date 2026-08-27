@@ -232,6 +232,10 @@ korean = "…고마워, <value:$28>.<end>"
 japanese = "ううん。あのエルフ以外は<line-break>わかってくれたみたいだし。<line-break>　<line-break>僕はもう大丈夫だよ。<end>"
 korean = "응. 그 엘프 말고는 다들 이해해 준 것 같고. 난 이제 괜찮아.<end>"
 
+["410063"]
+japanese = "あのエルフ、たぶん竜王の使者だよ。<line-break>彼は竜王の命で僕を処理しに来たんだ。<line-break>　<line-break>闇の神器に支配されたものは<line-break>決して元に戻れない。<line-break>君はその僕をソウルでいやしてくれた。<end>"
+korean = "그 엘프, 아마 용왕의 사자야. 용왕의 명령으로 나를 처리하러 온 거지. 어둠의 신기에 지배된 자는 절대 원래대로 돌아갈 수 없어. 그런데 너는 그런 나를 소울로 치유해 줬어.<end>"
+
 ["410065"]
 japanese = "<value:$28>、<line-break>ほんとに嬉しかったよ。　　　　　　　<line-break>　<line-break>僕を闇から救い出してくれたこと、<line-break>そして、救い出してくれたのが<line-break>他ならぬ君だったってこと。<end>"
 korean = "<value:$28>, 정말 기뻤어. 나를 어둠에서 구해 준 것, 그리고 구해 준 사람이 다름 아닌 너였다는 게.<end>"
@@ -315,6 +319,10 @@ korean = "네.<end>"
 ["410087"]
 japanese = "そして、あなたは<line-break>それにある程度成功している。　　　　<line-break>　<line-break>このダンジョンは、失礼だが<line-break>あなたの実力でここまで来られるような<line-break>安全なところではない。<end>"
 korean = "그리고 당신은 어느 정도 성공하고 있습니다. 실례지만 이 던전은 당신의 실력으로 여기까지 올 수 있을 만큼 안전한 곳이 아닙니다.<end>"
+
+["410088"]
+japanese = "あなたは、魔道器の研究から<line-break>その力を引き出すことに成功し、<line-break>その力でここまで来たのだ。<end>"
+korean = "당신은 마도기를 연구해 그 힘을 끌어내는 데 성공했고, 그 힘으로 여기까지 온 것이다.<end>"
 
 ["410089"]
 japanese = "その通り…だけど、<line-break>いったい…？<end>"
