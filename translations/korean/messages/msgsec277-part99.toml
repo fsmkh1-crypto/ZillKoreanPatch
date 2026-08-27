@@ -2,11 +2,11 @@
 
 ["2770000"]
 japanese = "ジリオン＆イーシャイベントED2用開始<end>"
-korean = "지리온&이샤 이벤트 ED2용 시작<end>"
+korean = "질리온&이샤 이벤트 ED2용 시작<end>"
 
 ["2770001"]
 japanese = "教えて、ジリオン…。<line-break>あたしはどうすればいいの？<end>"
-korean = "가르쳐 줘, 지리온…. 난 어떻게 해야 해?<end>"
+korean = "가르쳐 줘, 질리온…. 난 어떻게 해야 해?<end>"
 
 ["2770002"]
 japanese = "あたしはこれまでずっと<line-break>陰謀と裏切りの世界に生きてきたわ。<line-break>　<line-break>あたしがテジャワの変に加担したから、<line-break>多くの人が死に、そして…。<line-break>アトレイア様の目は光を失った。<line-break>あたしはいろんな人を不幸にしてきたのよ。<line-break>　<line-break>　<line-break>そんなあたしに<value:$28>から<line-break>愛される資格なんて…。<end>"
@@ -26,7 +26,7 @@ korean = "이건 내가 직접 선택한 길이다. 누구에게도 책임은 �
 
 ["2770006"]
 japanese = "ジリオン…。<end>"
-korean = "지리온….<end>"
+korean = "질리온….<end>"
 
 ["2770007"]
 japanese = "　　　お前は俺のために充分、頑張った。<line-break>　　　これからはお前自身の幸せのために<line-break>　　　　　　　　　生きろ。<line-break>　<line-break>　<line-break>　　　　大丈夫。<value:$28>なら<line-break>　　　　きっとお前を支えてくれる。<end>"
@@ -46,7 +46,7 @@ korean = "고마워. <value:$28>.<end>"
 
 ["2770012"]
 japanese = "本当にこれでよかったのかい？<line-break>ジリオンの願いは…これで…<line-break>かなえられたの？<end>"
-korean = "정말 이걸로 괜찮았던 걸까? 지리온의 소원은… 이걸로… 이루어진 거야?<end>"
+korean = "정말 이걸로 괜찮았던 걸까? 질리온의 소원은… 이걸로… 이루어진 거야?<end>"
 
 ["2770013"]
 japanese = "そう。ならいいんだ…。<end>"
@@ -54,4 +54,4 @@ korean = "그래. 그럼 됐어….<end>"
 
 ["2770014"]
 japanese = "ジリオン＆イーシャイベントED2用開終端<end>"
-korean = "지리온&이샤 이벤트 ED2용 시작·종료<end>"
+korean = "질리온&이샤 이벤트 ED2용 시작·종료<end>"

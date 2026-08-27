@@ -2,11 +2,11 @@
 
 ["2740000"]
 japanese = "ジリオン＆イーシャイベント18用開始<end>"
-korean = "지리온&이샤 이벤트18용 시작<end>"
+korean = "질리온&이샤 이벤트18용 시작<end>"
 
 ["2740001"]
 japanese = "　　　　　　　よかった…。<line-break>　　　　どうにか声が届いたようだ。<line-break>　　　　　　俺の名はジリオン。<end>"
-korean = "다행이다…. 어떻게든 목소리가 닿은 모양이군. 내 이름은 지리온.<end>"
+korean = "다행이다…. 어떻게든 목소리가 닿은 모양이군. 내 이름은 질리온.<end>"
 
 ["2740002"]
 japanese = "　<line-break>　　　そうだ。アルノートゥンの天経院で<line-break>　　　　お前が見たあのクリスタル…。<line-break>　<line-break>　<line-break>　　　　　　俺は今もあの中で<line-break>　　　　　　眠りについている。<end>"
@@ -26,4 +26,4 @@ korean = "고마워, <value:$28>. 이샤를 부탁한다.<end>"
 
 ["2740006"]
 japanese = "ジリオン＆イーシャイベント18用開終端<end>"
-korean = "지리온 & 이샤 이벤트18용 시작/끝<end>"
+korean = "질리온 & 이샤 이벤트18용 시작/끝<end>"
