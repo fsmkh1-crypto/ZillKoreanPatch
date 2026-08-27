@@ -13,5 +13,25 @@
     "old": "<value:$28>,이 녀석이 날 납치했어!<end>",
     "new": "<value:$28>, 이 녀석이 날 납치했어!<end>",
     "reason": "Obvious missing space after the player-name placeholder."
+  },
+  "890670": {
+    "old": "그게 네 소원이라면, 무한의 소울을 지닌 네 소원이라면 용왕님께서 들어주실지도 모른다. 자, 빌어라.<end>",
+    "new": "그 소원이 무한의 소울을 지닌 네 소원이라면 용왕님께서 들어주실지도 모른다. 자, 소원을 빌어라.<end>",
+    "reason": "Same Nashes resurrection-event line as 1870027; use the clearer established rendering."
+  },
+  "1410211": {
+    "old": "그래, 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>",
+    "new": "아, 참. 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>",
+    "reason": "Same Kafin letter text as 1920239; normalize the reused letter wording."
+  },
+  "1920239": {
+    "old": " 아, 참. 우연이지만, 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>",
+    "new": "아, 참. 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>",
+    "reason": "Same Kafin letter text as 1410211; remove stray leading space and normalize punctuation."
+  },
+  "1920235": {
+    "old": "오늘 일어나 보니이런 편지가 놓여 있어서…. 읽어 봐 주세요.<end>",
+    "new": "오늘 일어나 보니 이런 편지가 놓여 있어서…. 읽어 봐 주세요.<end>",
+    "reason": "Obvious missing space in Noel's preceding line."
   }
 }
