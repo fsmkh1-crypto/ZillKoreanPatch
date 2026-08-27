@@ -32,6 +32,10 @@ korean = "…발자를 알고 있나?<end>"
 japanese = "そうか。<line-break>ならば、話が早い。<end>"
 korean = "그런가. 그렇다면 이야기가 빠르군.<end>"
 
+["400019"]
+japanese = "では、行こう。<line-break>おそらく、バルザーを倒さねば<line-break>この異空間は消えない。<line-break>ヤツのもとにたどり着き<line-break>雌雄を決さねばなるまい。<end>"
+korean = "그럼 가자. 아마 발자를 쓰러뜨리지 않으면 이 이공간은 사라지지 않을 거야. 녀석에게 가서 결판을 내야 한다.<end>"
+
 ["400020"]
 japanese = "待っていた…。<end>"
 korean = "기다리고 있었어….<end>"
@@ -91,6 +95,10 @@ korean = "리벨덤까지 뛰어간다. 가자.<end>"
 ["400038"]
 japanese = "…お前の負けだ。<line-break>破壊神の円卓騎士バルザーよ。<line-break>　<line-break>破壊神ウルグ、復活はさせぬ。<end>"
 korean = "…네 패배다. 파괴신의 원탁기사 발자르여. 파괴신 울그를 부활시키진 않겠다.<end>"
+
+["400039"]
+japanese = "さすがだ…、ネメア。<line-break>　<line-break>　<line-break>破壊神の円卓騎士の中でも<line-break>１、２を争う力を持つ我を<line-break>こうもたやすく倒すとは…な…。<end>"
+korean = "역시 대단하군… 네메아. 파괴신의 원탁기사 중에서도 손꼽히는 힘을 가진 나를 이렇게 쉽게 쓰러뜨리다니….<end>"
 
 ["400042"]
 japanese = "むしろ、<line-break>始まりかもしれん。<end>"
@@ -267,6 +275,10 @@ korean = "오랜만이네.<end>"
 ["400121"]
 japanese = "闇の神器の探索を依頼された<line-break><value:$28>という冒険者、<line-break>あなただったのね。<end>"
 korean = "어둠의 신기 탐색을 의뢰받은 <value:$28>라는 모험자, 당신이었군요.<end>"
+
+["400122"]
+japanese = "手を引いた方がいいわよ。<line-break>闇の神器…、<line-break>ネメア様もその行方を追っているわ。<line-break>そして、私も<line-break>その旅に同行するつもりよ。<end>"
+korean = "손을 떼는 게 좋아. 어둠의 신기… 네메아 님도 그 행방을 쫓고 있어. 나도 그 여행에 동행할 생각이야.<end>"
 
 ["400125"]
 japanese = "あなたが闇の神器を探すつもりなら、<line-break>私たちを敵に回すことになるわ。<line-break>　<line-break>その時は…、<line-break>容赦しないわよ。<end>"
@@ -524,6 +536,10 @@ korean = "처음 만났을 때 내가 한 말을 기억하나?<end>"
 japanese = "…世界を手に入れる。<end>"
 korean = "…세계를 손에 넣는다.<end>"
 
+["400240"]
+japanese = "さらに、少数種族である<line-break>コーンス族からジラークを登用、<line-break>西方攻略軍総司令、白虎将軍に任じ、<line-break>アキュリュースへの攻撃を命じ…<end>"
+korean = "또한 소수종족인 코른스족에서 지라크를 등용해 서방공략군 총사령, 백호장군으로 임명하고 아큐류스 공격을 명령….<end>"
+
 ["400245"]
 japanese = "な、何者だ！<line-break>ディンガル帝国の者か？<end>"
 korean = "너, 누구냐! 딩갈 제국 사람인가?<end>"
@@ -564,6 +580,10 @@ korean = "4기!? 말도 안 돼!<end>"
 japanese = "そ、それが…！<end>"
 korean = "그, 그게…!<end>"
 
+["400265"]
+japanese = "皇帝直属遊撃隊、獅子の牙所属<line-break>黒鎧近衛騎士オイフェ以下２名。<line-break>　<line-break>闇の神器、束縛の腕輪を奪取すべく<line-break>突撃します！<end>"
+korean = "황제 직속 유격대, 사자의 송곳니 소속 흑갑 근위기사 오이페 이하 2명. 어둠의 신기, 속박의 팔찌를 탈취하러 돌격합니다!<end>"
+
 ["400266"]
 japanese = "バカな！　マグマゴーレムが全滅！？<line-break>し、信じられぬ！<end>"
 korean = "말도 안 돼! 마그마 골렘이 전멸!? 미, 믿을 수 없어!<end>"
@@ -571,6 +591,10 @@ korean = "말도 안 돼! 마그마 골렘이 전멸!? 미, 믿을 수 없어!<e
 ["400269"]
 japanese = "…同じくゼリグ。<end>"
 korean = "…나도 제리그다.<end>"
+
+["400271"]
+japanese = "マグマゴーレムがあっという間に<line-break>倒され、町の者は皆、<line-break>抵抗する気が失せておる。<line-break>長老、降伏なされ。<line-break>悪いようにはせん。<end>"
+korean = "마그마 골렘이 순식간에 쓰러져 마을 사람들도 모두 저항할 마음을 잃었습니다. 장로님, 항복하십시오. 나쁘게 대하지 않겠습니다.<end>"
 
 ["400274"]
 japanese = "くっ…不覚。<end>"

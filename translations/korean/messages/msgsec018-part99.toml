@@ -20,6 +20,10 @@ korean = "해냈다! 쓰러뜨렸어. 이제 길드에 보고만 하면 돼. 가
 japanese = "これでこの仕事はカタがついたわね。<line-break>さあ、<value:$28>、帰って<line-break>ギルドに報告しましょう。<end>"
 korean = "이걸로 이 일은 끝났네. 자, <value:$28>, 돌아가서 길드에 보고하자.<end>"
 
+["180012"]
+japanese = "フ、他愛もないな。<line-break>帰るぞ。<line-break>ギルドに報告だ。<end>"
+korean = "흥, 별것 아니군. 돌아가자. 길드에 보고해야지.<end>"
+
 ["180013"]
 japanese = "やれやれ、骨が折れたのう。<line-break>あとはギルドへ行って報告じゃ。<line-break>行くぞい、<value:$28>。<end>"
 korean = "이런, 고생 좀 했구나. 이제 길드에 가서 보고하자. 가자, <value:$28>.<end>"

@@ -1264,6 +1264,10 @@ korean = "…당신, 이번엔 카를라 님을 배신할 생각이야?<end>"
 japanese = "<value:$28>、<line-break>これからも、<line-break>わたくしを助けてくださいますか？<end>"
 korean = "<value:$28>, 앞으로도 저를 도와주시겠습니까?<end>"
 
+["560536"]
+japanese = "<value:$28>、頼りにしています。<line-break>わたくしには…、<line-break> <line-break>いえ、わたくしたち解放軍には<line-break>あなたのような人が必要なのです。<end>"
+korean = "<value:$28>, 믿고 있습니다. 저에게는… 아니, 우리 해방군에는 당신 같은 사람이 필요합니다.<end>"
+
 ["560537"]
 japanese = "同志<value:$28>。<line-break>君がいれば、我々はまだ戦える。<end>"
 korean = "동지 <value:$28>. 자네가 있다면 우리는 아직 싸울 수 있다.<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["140019"]
+japanese = "いらっしゃい。ここは道具屋だ。<line-break>何が欲しいんだい？<end>"
+korean = "어서 와. 여긴 도구점이야. 뭘 원하지?<end>"
+
 ["140021"]
 japanese = "テラネメッセージここまで<end>"
 korean = "테라네 메시지 여기까지<end>"

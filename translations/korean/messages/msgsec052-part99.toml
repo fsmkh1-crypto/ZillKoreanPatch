@@ -104,6 +104,10 @@ korean = "전쟁은 상식으로 하는 게 아니야. 설명을 요구한다.<e
 japanese = "では、敵はどう出ると？<end>"
 korean = "그럼 적은 어떻게 나올까요?<end>"
 
+["520062"]
+japanese = "それほど大軍でない精兵で<line-break>分断の山脈の上を越える！<end>"
+korean = "그리 대군이 아닌 정예병으로 분단의 산맥 위를 넘는다!<end>"
+
 ["520063"]
 japanese = "バカな！<line-break>第一、そんなこと、前例がない！<end>"
 korean = "말도 안 돼! 애초에 그런 일은 전례가 없어!<end>"
@@ -251,6 +255,18 @@ korean = "머리로만 생각하면 현실이 안 보인다고!<end>"
 ["520172"]
 japanese = "よくやったな。<line-break>やるじゃねえか。<end>"
 korean = "잘했군. 제법인데.<end>"
+
+["520173"]
+japanese = "予備用メッセージ１<line-break>ファーロス・ボリューム２その２<end>"
+korean = "예비 메시지 1 파로스, 볼륨 2 그 2<end>"
+
+["520174"]
+japanese = "予備用メッセージ２<line-break>ファーロス・ボリューム２その２<end>"
+korean = "예비 메시지 2 파로스, 볼륨 2 그 2<end>"
+
+["520175"]
+japanese = "予備用メッセージ３<line-break>ファーロス・ボリューム２その２<end>"
+korean = "예비 메시지 3 파로스, 볼륨 2 그 2<end>"
 
 ["520181"]
 japanese = "予備用メッセージ９<line-break>ファーロス・ボリューム２その２<end>"

@@ -348,6 +348,10 @@ korean = "누구?<end>"
 japanese = "あーっ、<line-break><value:$28>じゃん。<line-break>　<line-break>久しぶり。死んでない？<end>"
 korean = "아, <value:$28>잖아. 오랜만이네. 안 죽었어?<end>"
 
+["840136"]
+japanese = "あ、名前教えてよ。<line-break>ちょっと、気になるからさ。<line-break>　<line-break>あたしはカルラ。<line-break>これでもディンガルの軍人。<line-break>で、あんたは？<end>"
+korean = "아, 이름 알려 줘. 좀 궁금하거든. 난 칼라. 이래 봬도 딘갈의 군인이야. 그래서 넌?<end>"
+
 ["840137"]
 japanese = "<value:$28>、ね。<line-break>そんじゃね、<value:$28>。<end>"
 korean = "<value:$28>, 그렇지. 그럼 안녕, <value:$28>.<end>"

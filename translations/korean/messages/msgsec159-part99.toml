@@ -296,6 +296,10 @@ korean = "네~!<end>"
 japanese = "だいぶ、遅くなっちゃったね。　　<end>"
 korean = "꽤 늦어졌네.<end>"
 
+["1590155"]
+japanese = "あれ、<value:$28>。<line-break>こんなところに、お家があるよぉ。<end>"
+korean = "어라, <value:$28>. 이런 곳에 집이 있네.<end>"
+
 ["1590156"]
 japanese = "おや、おや、<line-break>こんな時間に女の子が来るなんて。<end>"
 korean = "어머, 어머. 이런 시간에 여자아이가 오다니.<end>"

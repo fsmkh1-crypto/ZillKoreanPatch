@@ -188,6 +188,10 @@ korean = "물러나라! 물러나아아!<end>"
 japanese = "第２の殊勲、<value:$28>。<end>"
 korean = "제2의 공훈, <value:$28>.<end>"
 
+["510117"]
+japanese = "しかも、第２の殊勲も<line-break>ファーロスのゆかりの者か…！<end>"
+korean = "게다가 두 번째 공로자도 파로스와 연이 있는 자인가…!<end>"
+
 ["510118"]
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
@@ -255,6 +259,30 @@ korean = "네<end>"
 ["510159"]
 japanese = "いいえ<end>"
 korean = "아니요<end>"
+
+["510161"]
+japanese = "予備用メッセージ４<line-break>ファーロス・ボリューム２その１<end>"
+korean = "예비 메시지 4 파로스, 볼륨 2 그 1<end>"
+
+["510162"]
+japanese = "予備用メッセージ５<line-break>ファーロス・ボリューム２その１<end>"
+korean = "예비 메시지 5 파로스, 볼륨 2 그 1<end>"
+
+["510163"]
+japanese = "予備用メッセージ６<line-break>ファーロス・ボリューム２その１<end>"
+korean = "예비 메시지 6 파로스, 볼륨 2 그 1<end>"
+
+["510164"]
+japanese = "予備用メッセージ７<line-break>ファーロス・ボリューム２その１<end>"
+korean = "예비 메시지 7 파로스, 볼륨 2 그 1<end>"
+
+["510165"]
+japanese = "予備用メッセージ８<line-break>ファーロス・ボリューム２その１<end>"
+korean = "예비 메시지 8 파로스, 볼륨 2 그 1<end>"
+
+["510166"]
+japanese = "予備用メッセージ９<line-break>ファーロス・ボリューム２その１<end>"
+korean = "예비 메시지 9 파로스, 볼륨 2 그 1<end>"
 
 ["510168"]
 japanese = "ファーロス・ボリューム２その１終端<end>"

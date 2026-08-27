@@ -480,9 +480,17 @@ korean = "내 활 솜씨를 믿지 않는 건가?<end>"
 japanese = "エラーメッセージ　鎌<end>"
 korean = "에러 메시지 낫<end>"
 
+["200261"]
+japanese = "槍ではだめか？<line-break>私にはふさわしい武器だと思うのだが。<end>"
+korean = "창은 안 되나? 내게 어울리는 무기라고 생각하는데.<end>"
+
 ["200265"]
 japanese = "…片手剣に…しろ。<end>"
 korean = "…한손검으로… 해라.<end>"
+
+["200270"]
+japanese = "密偵は素早さが命なの。<line-break>重いものは装備したくないな。<end>"
+korean = "밀정은 민첩함이 생명이야. 무거운 건 장비하고 싶지 않아.<end>"
 
 ["200276"]
 japanese = "ごめんなさい。<line-break>私、これじゃないと戦えません。<end>"
@@ -556,6 +564,10 @@ korean = "에러 메시지 로치나아아아아아아아아!<end>"
 japanese = "たわけがぁぁ！<line-break>わしは胴鎧しかきれんのじゃ！<end>"
 korean = "이 바보가아아! 나는 몸통 갑옷밖에 못 입는단 말이다!<end>"
 
+["200309"]
+japanese = "防具は胸当てにしろって、<line-break>お爺ちゃんがいってたんだ。<end>"
+korean = "방어구는 흉갑으로 하라고 할아버지가 말했어.<end>"
+
 ["200310"]
 japanese = "エラーメッセージ<line-break>俺は全身鎧しか身に付けない。<end>"
 korean = "에러 메시지 나는 전신 갑옷밖에 입지 않는다.<end>"
@@ -563,6 +575,10 @@ korean = "에러 메시지 나는 전신 갑옷밖에 입지 않는다.<end>"
 ["200314"]
 japanese = "…鎧はいやだ。<end>"
 korean = "…갑옷은 싫어.<end>"
+
+["200319"]
+japanese = "密偵は素早さが命なの。<line-break>重いものは装備したくないな。<end>"
+korean = "밀정은 민첩함이 생명이야. 무거운 건 장비하고 싶지 않아.<end>"
 
 ["200322"]
 japanese = "防具？<line-break>俺は、胸当てで十分だ。<end>"
@@ -648,6 +664,10 @@ korean = "에러 메시지 천 방어구<end>"
 japanese = "ごめんね。<line-break>これって私のお気に入りなの。<end>"
 korean = "미안해. 이건 내가 아끼는 거야.<end>"
 
+["200350"]
+japanese = "私にも好き嫌いがある…。<line-break>それを気に入っているのだ。<end>"
+korean = "나도 호불호가 있어…. 그게 마음에 든다.<end>"
+
 ["200355"]
 japanese = "おっと、こいつは俺のお気に入り<line-break>なんでね。<end>"
 korean = "어이쿠, 이건 내가 아끼는 거라서 말이야.<end>"
@@ -675,6 +695,10 @@ korean = "………못 넘겨.<end>"
 ["200364"]
 japanese = "これは俺にとって譲れないもの…<line-break>失いたくはない。<end>"
 korean = "이건 나에게 양보할 수 없는 것…. 잃고 싶지 않아.<end>"
+
+["200368"]
+japanese = "密偵は素早さが命なの。<line-break>重いものは装備したくないな。<end>"
+korean = "밀정은 민첩함이 생명이야. 무거운 건 장비하고 싶지 않아.<end>"
 
 ["200371"]
 japanese = "困ります。それは研究に必要なもの<line-break>なんですから。<end>"

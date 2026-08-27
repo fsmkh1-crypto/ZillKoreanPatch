@@ -56,6 +56,10 @@ korean = "이봐, 거기 형씨. 잠깐 기다려 줘.<end>"
 japanese = "えー？　ボクに用があるのかーい？<line-break>　<line-break>　<end>"
 korean = "어? 나한테 볼일이 있는 거야?<end>"
 
+["1470051"]
+japanese = "すぐに出発しよう。<line-break>うまくいけば、途中で<line-break>捕まえられるかもしれん。<line-break>俺は門で待っている。<line-break>準備をすませてきてくれ。<end>"
+korean = "바로 출발하자. 잘하면 가는 길에 붙잡을 수 있을지도 몰라. 나는 문에서 기다릴 테니 준비하고 와.<end>"
+
 ["1470054"]
 japanese = "<value:$28>、<line-break>もう準備はいいんだな？<end>"
 korean = "<value:$28>, 준비는 다 됐지?<end>"
@@ -67,6 +71,10 @@ korean = "준비됐다<end>"
 ["1470056"]
 japanese = "まだ準備中<end>"
 korean = "아직 준비 중<end>"
+
+["1470057"]
+japanese = "そんじゃ、出かけるとしよう。<line-break>急ごうぜ、<value:$28>。<end>"
+korean = "그럼 출발하자. 서두르자, <value:$28>.<end>"
 
 ["1470062"]
 japanese = "そんじゃ、行くとしますか。<end>"

@@ -120,6 +120,10 @@ korean = "후후, 믿고 있어.<end>"
 japanese = "えー？<line-break>ゼネテス、もう行っちゃうのぉ？<end>"
 korean = "에에? 제네테스, 벌써 가는 거야?<end>"
 
+["1480064"]
+japanese = "あぁ。ルルアンタがいれば、<line-break><value:$28>は大丈夫だろ？<end>"
+korean = "그래. 루루안타가 있으면 <value:$28>은 괜찮겠지?<end>"
+
 ["1480067"]
 japanese = "ゼネテス、行っちゃったね…。<end>"
 korean = "제네테스, 가 버렸네….<end>"
@@ -199,6 +203,10 @@ korean = "그렇습니까.<end>"
 ["1480124"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
+
+["1480125"]
+japanese = "ついたよぉ、<value:$28>。<line-break>これから、どこに行くのぉ？<end>"
+korean = "도착했어, <value:$28>. 이제 어디로 갈 거야?<end>"
 
 ["1480126"]
 japanese = "フリントの子、<line-break><value:$28>ですね？<end>"

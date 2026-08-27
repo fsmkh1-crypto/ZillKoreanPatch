@@ -220,6 +220,10 @@ korean = "아저씨, 술은 아직이야?<end>"
 japanese = "あらかじめ知ってしまっては、<line-break>不運もないが運もない。<line-break>不幸もないが幸もない…。<line-break>じゃろう、<value:$28>？<end>"
 korean = "미리 알아 버리면 불운도 없지만 행운도 없고, 불행도 없지만 행복도 없지…. 그렇지, <value:$28>?<end>"
 
+["1420103"]
+japanese = "ゆこう、<value:$28>。<line-break>新たな土地へ。新たな未来へ…。<end>"
+korean = "가자, <value:$28>. 새로운 땅으로. 새로운 미래로….<end>"
+
 ["1420105"]
 japanese = "気がする…か。<line-break>エルズのエアが、<line-break>そんな言葉を使うようになるとは…。<line-break>世の中、面白いもんだね、まったく。<end>"
 korean = "느낌이라…. 엘즈의 에아가 그런 말을 쓰게 되다니…. 세상 참 재미있군.<end>"
@@ -395,6 +399,10 @@ korean = "하, 하지만 그런 짓을 하면 양국은….<end>"
 ["1420174"]
 japanese = "わが国の財政に<line-break>余裕がないのも確かです。<line-break> <line-break>でも、そんな時だからこそ、<line-break>他国との交流を欠いてはなりません。<end>"
 korean = "우리 나라 재정에 여유가 없는 것도 사실입니다. 하지만 이런 때일수록 다른 나라와의 교류를 끊어선 안 됩니다.<end>"
+
+["1420176"]
+japanese = "そ、そこまでお考えとは…<line-break>余計な詮索をしてしまって<line-break>お恥ずかしい。<line-break>我ら貴族も、<line-break>微力ながら力をお貸しいたします。<end>"
+korean = "그, 그렇게까지 생각하고 계셨다니…. 괜한 참견을 해 부끄럽습니다. 우리 귀족들도 미력하나마 힘을 보태겠습니다.<end>"
 
 ["1420177"]
 japanese = "ふふふ、お疲れのようね、<line-break><value:$28>様。<end>"

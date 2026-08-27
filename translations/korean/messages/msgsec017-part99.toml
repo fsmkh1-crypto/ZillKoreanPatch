@@ -16,6 +16,10 @@ korean = "좋아, 잠깐만 기다려….<end>"
 japanese = "じゃあ、これでいいんだな。<end>"
 korean = "그럼 이걸로 된 거지.<end>"
 
+["170016"]
+japanese = "そうか、ありがとうよ。<line-break>自分好みに鍛えてやってくれ。<end>"
+korean = "그래, 고맙다. 네 취향대로 단련해 줘.<end>"
+
 ["170017"]
 japanese = "アイテムと装備品、どっちを売ってくれるんだ？<end>"
 korean = "아이템과 장비품, 어느 쪽을 팔 거야?<end>"
@@ -503,6 +507,14 @@ korean = "캐벌리어<end>"
 ["170168"]
 japanese = "ドラグーンメイル<end>"
 korean = "드라군 메일<end>"
+
+["170169"]
+japanese = "お気をつけて。<line-break>旅の安全を心からお祈りしております。<end>"
+korean = "조심하세요. 여행의 안전을 진심으로 기원합니다.<end>"
+
+["170171"]
+japanese = "お気をつけて。<line-break>旅の安全を心からお祈りしております。<end>"
+korean = "조심하세요. 여행의 안전을 진심으로 기원합니다.<end>"
 
 ["170175"]
 japanese = "ようこそ<value:$28>さん。有名な<line-break><value:$2B>をお迎えできて光栄です。<end>"

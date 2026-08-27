@@ -308,6 +308,10 @@ korean = "어라? 뭐지…?<end>"
 japanese = "とっさの思いつきだったんですけど、<line-break>ネメアはできのいい子でしてね。<line-break>無言で理解してくれましたよ。<line-break>ウルグの復活は、失敗ですね。<end>"
 korean = "순간 떠오른 생각이었지만 네메아는 영리한 아이여서 말없이 이해해 줬습니다. 울그의 부활은 실패네요.<end>"
 
+["1330220"]
+japanese = "そうでもないさ。　　　　　　　<line-break>　<line-break>　<line-break>ウルグの力の一部は、<line-break>すでに<value:$28>の精神に<line-break>入り込んでるんだよ？<end>"
+korean = "꼭 그렇지도 않아. 울그의 힘 일부는 이미 <value:$28>의 정신 속에 들어가 있거든?<end>"
+
 ["1330221"]
 japanese = "どうするつもり？<end>"
 korean = "어떻게 할 생각이야?<end>"
@@ -675,6 +679,10 @@ korean = "<value:$28>, …나도 힘을 보태지.<end>"
 ["1330443"]
 japanese = "よう、待ってたよ。<line-break>無限のソウルの持ち主。<line-break><value:$28>。<end>"
 korean = "여어, 기다리고 있었어. 무한의 소울을 지닌 자. <value:$28>.<end>"
+
+["1330448"]
+japanese = "行くぞ、<value:$28>！<line-break>今こそ、ナッジの恨みを晴らす！<end>"
+korean = "가자, <value:$28>! 지금이야말로 나지의 원한을 풀 때다!<end>"
 
 ["1330451"]
 japanese = "待てよ、<value:$28>！<end>"

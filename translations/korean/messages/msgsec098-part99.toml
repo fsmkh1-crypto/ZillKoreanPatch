@@ -80,6 +80,10 @@ korean = "저기, 거기 모험자.<end>"
 japanese = "そう、あなたよ。<line-break>冒険者その１。<end>"
 korean = "그래, 당신 말이야. 모험자 1번.<end>"
 
+["980041"]
+japanese = "…知らないんなら、別にいいのよ。<line-break>行っていいわ…。<end>"
+korean = "…모른다면 됐어. 가도 돼….<end>"
+
 ["980042"]
 japanese = "…って、知ってるの！？<line-break>どこよ、どこで見かけたのよ！<end>"
 korean = "…뭐, 알고 있어!? 어디야, 어디서 봤어!<end>"
@@ -95,6 +99,10 @@ korean = "그래…. 나도 질 수만은 없겠네.<end>"
 ["980067"]
 japanese = "…ふふ、ごめんなさい。<line-break>うまく話せてないね、私。<end>"
 korean = "…후후, 미안해요. 저, 말을 잘 못하고 있네요.<end>"
+
+["980079"]
+japanese = "それじゃあね。<line-break>縁があったら、また会いましょ。　　<end>"
+korean = "그럼 안녕. 인연이 있으면 또 만나자.<end>"
 
 ["980080"]
 japanese = "なによ。っるさいわねー。<line-break>お酒なんか飲んでないわよ。<line-break>　<line-break>もう、余計なところで<line-break>干渉しないでよ。<line-break>なんか用？<end>"
@@ -195,6 +203,10 @@ korean = "아이린은 조금 기가 센 구석이 있지만 그래도 상냥한
 ["980162"]
 japanese = "あの子はきっといつか<line-break>自分の夢を勝ち取ります。<line-break>親バカかもしれませんがね。　　　<line-break>ただ、現実は残酷なものです。<end>"
 korean = "그 아이는 언젠가 반드시 자기 꿈을 이룰 겁니다. 부모의 욕심일지도 모르지만요. 다만 현실은 잔혹하지요.<end>"
+
+["980165"]
+japanese = "娘は元気そうでしたか？　　　　　　　<line-break>　<line-break>　<end>"
+korean = "딸은 건강해 보였나요?<end>"
 
 ["980174"]
 japanese = "あ、<value:$28>さん……。<line-break>　　　　　　　　　　　　　<line-break>　<line-break>おかえりなさい…。<line-break>うれしい……、<line-break>会いに来てくれるなんて…。<end>"

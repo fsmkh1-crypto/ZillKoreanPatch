@@ -160,6 +160,10 @@ korean = "약혼자에게 혼나지만 않는다면.<end>"
 japanese = "フィアンセだなんて！<line-break>存じません、そんな方！<end>"
 korean = "약혼자라니! 그런 분은 모릅니다!<end>"
 
+["650060"]
+japanese = "酒とバクチにおぼれ、<line-break>宮廷にも近づこうとしません。　　　<line-break>　<line-break>そんな方と結婚するだなんて<line-break>とても考えられません。<end>"
+korean = "술과 도박에 빠져 궁정에도 가까이하지 않습니다. 그런 분과 결혼하다니 도저히 생각할 수 없어요.<end>"
+
 ["650062"]
 japanese = "<value:$28>、よく来た。　<end>"
 korean = "<value:$28>, 잘 왔다.<end>"
@@ -255,6 +259,10 @@ korean = "<value:$28>님도.<end>"
 ["650105"]
 japanese = "またお会いできる日を<line-break>楽しみにしています。<end>"
 korean = "다시 뵐 날을 기대하고 있겠습니다.<end>"
+
+["650107"]
+japanese = "…今日は<line-break>無理に付き合わせて悪かった。　<line-break>これでも感謝しているつもりだ。<line-break>お前なら、<line-break>わかってくれるだろうが…。<end>"
+korean = "…오늘은 억지로 끌고 다녀서 미안했다. 이래 봬도 감사하고 있어. 너라면 알아주겠지만….<end>"
 
 ["650110"]
 japanese = "予備メッセージ３<line-break>ティアナ、ボリューム２<end>"

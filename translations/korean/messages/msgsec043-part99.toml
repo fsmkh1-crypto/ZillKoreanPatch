@@ -104,9 +104,21 @@ korean = "볼보라에게 어울릴 만한 사고라도 꾸며 내라.<end>"
 japanese = "兄さんは？<end>"
 korean = "형은?<end>"
 
+["430037"]
+japanese = "言っておくが<line-break>お前に断る自由はない。　　<line-break>　<line-break>まだ仕事は終わっていない。<line-break>無事、王都に着くまでは、<line-break>金も払えん。<end>"
+korean = "말해 두지만 네게 거절할 자유는 없어. 아직 일은 끝나지 않았다. 무사히 왕도에 도착하기 전까진 돈도 줄 수 없어.<end>"
+
 ["430039"]
 japanese = "ごめん、眠ってた？<line-break>君に謝ろうと思って…。　　　　　　　<line-break>　<line-break>僕はこの土地の領主リューガ家の<line-break>人間なんだ。<end>"
 korean = "미안, 자고 있었어? 사과하려고…. 나는 이 땅의 영주인 류가 가문의 사람이야.<end>"
+
+["430041"]
+japanese = "問題は、これからだ。　　　　<line-break>　<line-break>　<line-break>騒ぎの処理は、お前に任せる。<line-break>ボルボラにお似合いの事故でも<line-break>でっちあげろ。<end>"
+korean = "문제는 이제부터다. 소동의 처리는 네게 맡긴다. 볼보라에게 어울릴 만한 사고라도 꾸며 내라.<end>"
+
+["430042"]
+japanese = "ごめん、眠ってた？　　　　　　　　　<line-break>　<line-break>　<line-break>あ、僕はエスト。<line-break>一応、この土地の領主、<line-break>リューガ家の人間なんだ。<end>"
+korean = "미안, 자고 있었어? 아, 나는 에스트야. 일단 이 땅의 영주인 류가 가문의 사람이야.<end>"
 
 ["430045"]
 japanese = "本当にごめんなさい…。　　　　　　　<line-break>　<line-break>　<line-break>でも、許してほしい…。<line-break>それから…<line-break>兄さんを見捨てないでほしいんだ。<end>"
@@ -327,6 +339,10 @@ korean = "후후, 나답지 않게… 말을 너무 많이 했군.<end>"
 ["430151"]
 japanese = "…賊か。<line-break>　<end>"
 korean = "…도적인가.<end>"
+
+["430152"]
+japanese = "貴様…。<line-break>助太刀など、無用な。<line-break>　<line-break>むしろこの賊どもも<line-break>俺の手にかかった方が<line-break>一瞬の苦しみで済んだものを。<end>"
+korean = "네놈…. 도움 따윈 필요 없다. 차라리 이 도적들도 내 손에 죽었으면 한순간의 고통으로 끝났을 것을.<end>"
 
 ["430153"]
 japanese = "…ハハハハ！<line-break>まったく、お前らしいな。<end>"
