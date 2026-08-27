@@ -468,6 +468,10 @@ korean = "검으로 결판내자….<end>"
 japanese = "こ、こんな時に…？<line-break>くっ、ダメだ…。理性が…！！<line-break>　<line-break>アア…グ…血…グ…<line-break>ウウウ…血…ググ…ガ…<line-break>…ガアアアアアアアアッ！！！<end>"
 korean = "이, 이런 때에…? 큭, 안 돼…. 이성이…!! 아아… 그… 피… 으으… 피… 그그… 가… 가아아아아아!!<end>"
 
+["430118"]
+japanese = "<if><value:$01><equal>19大丈夫？　<value:$28>。 <end><if><value:$01><equal>5大丈夫かよ？　<value:$28>。 <end><if><value:$01><equal>14大丈夫かの？<line-break><value:$28>。 <end><if><value:$01><equal>3大丈夫かの？<line-break><value:$28>。 <end><if><value:$01><equal>193大丈夫ですか？<line-break><value:$28>さん。<end><if><value:$01><equal>191大丈夫？　<value:$28>。<end>大丈夫？　<value:$28>。 <end>"
+korean = "<if><value:$01><equal>19괜찮아? <value:$28>.<end><if><value:$01><equal>5괜찮냐? <value:$28>.<end><if><value:$01><equal>14괜찮은가? <value:$28>.<end><if><value:$01><equal>3괜찮은가? <value:$28>.<end><if><value:$01><equal>193괜찮으십니까? <value:$28> 씨.<end><if><value:$01><equal>191괜찮아? <value:$28>.<end>괜찮아? <value:$28>.<end>"
+
 ["430121"]
 japanese = "＜未使用＞ねえ、昨日の…アレ…<line-break>なんだったんだろうね。<end>"
 korean = "<미사용> 있지, 어제 그… 그거… 뭐였을까.<end>"

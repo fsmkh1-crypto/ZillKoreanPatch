@@ -120,6 +120,10 @@ korean = "실례하지, <value:$28>. 자네도 힘내게.<end>"
 japanese = "あ、待ちなさい！<line-break>あたしはまだ納得してないわよ！<end>"
 korean = "아, 잠깐! 난 아직 납득 못 했어!<end>"
 
+["1420030"]
+japanese = "<if><value:$29><equal>%0ボウヤ、今日は<line-break>かまってあげられなくて　　<line-break>ごめんなさい。<line-break>また、今度<line-break>ゆっくりお話ししましょう。<line-break>じゃあね。<end>子猫ちゃん、今日は<line-break>かまってあげられなくて　　<line-break>ごめんなさい。<line-break>また、今度<line-break>ゆっくりお話ししましょう。<line-break>じゃあね。<end>"
+korean = "<if><value:$29><equal>%0꼬마야, 오늘은 상대해 주지 못해서 미안해. 다음에 천천히 이야기하자. 그럼 안녕.<end>아가씨, 오늘은 상대해 주지 못해서 미안해. 다음에 천천히 이야기하자. 그럼 안녕.<end>"
+
 ["1420031"]
 japanese = "あ、カフィン、待って！<end>"
 korean = "아, 카핀, 기다려!<end>"

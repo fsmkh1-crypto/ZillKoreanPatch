@@ -484,6 +484,10 @@ korean = "…<value:$28>이 없었으면 저세상 갈 뻔했어. 후우….<end
 japanese = "術者のレベルが魔人レベルだったら<line-break>どのみち、あの世行きだったけど。<end>"
 korean = "술자의 수준이 마인급이었다면 어차피 저승행이었지만.<end>"
 
+["550128"]
+japanese = "<if><value:$29><equal>%0<value:$28>、カッコよかったなあ<line-break>って思っただけだよ。ふふ。<line-break>さ、奴を追いかけよう！<line-break>村のみんなが心配だよ。<line-break>急がなきゃ！<end><value:$28>、きれいだったなあ<line-break>って思っただけだよ。ふふ。<line-break>さ、奴を追いかけよう！<line-break>村のみんなが心配だよ。<line-break>急がなきゃ！<end>"
+korean = "<if><value:$29><equal>%0<value:$28>, 멋졌다고 생각했을 뿐이야. 후후. 자, 녀석을 쫓아가자! 마을 사람들이 걱정돼. 서둘러야 해!<end><value:$28>, 예뻤다고 생각했을 뿐이야. 후후. 자, 녀석을 쫓아가자! 마을 사람들이 걱정돼. 서둘러야 해!<end>"
+
 ["550129"]
 japanese = "ねえ、<value:$28><line-break>大丈夫？<end>"
 korean = "저기, <value:$28> 괜찮아?<end>"

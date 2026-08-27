@@ -80,6 +80,10 @@ korean = "노엘, 알겠어? 네메아는 이렇게 될 걸 알고도 노엘을 
 japanese = "あたしが何を言っても<line-break>ダメみたいね。<end>"
 korean = "내가 무슨 말을 해도 소용없는 모양이네.<end>"
 
+["1740020"]
+japanese = "<if><value:$29><equal>%0ボウヤ、お願い。<line-break>しばらくノエルのそばにいてあげて。<line-break>　<line-break>ボウヤなら、この子を<line-break>なぐさめてあげられると思うの。<end>お願いよ、子猫ちゃん。<line-break>しばらくノエルのそばにいてあげて。<line-break>　<line-break>あなたなら、この子を<line-break>なぐさめてあげられると思うの。<end>"
+korean = "<if><value:$29><equal>%0꼬마야, 부탁이야. 잠시 노엘 곁에 있어 줘. 너라면 이 아이를 위로해 줄 수 있을 것 같아.<end>부탁이야, 아가씨. 잠시 노엘 곁에 있어 줘. 너라면 이 아이를 위로해 줄 수 있을 것 같아.<end>"
+
 ["1740021"]
 japanese = "ありがとう…ございました。　　　<line-break>　<line-break>　<line-break><value:$28>さんのおかげで、<line-break>あの…、少し落ち着きました。<end>"
 korean = "감사…합니다. <value:$28>님 덕분에 저… 조금 진정됐어요.<end>"
