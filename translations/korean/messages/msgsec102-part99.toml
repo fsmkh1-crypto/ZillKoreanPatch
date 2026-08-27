@@ -128,6 +128,10 @@ korean = "어… 왜, 왜….<end>"
 japanese = "せ、先生！<end>"
 korean = "서, 선생님!<end>"
 
+["1020060"]
+japanese = "お前には無理なんだよ、アイリーン。<line-break>心を鬼にする、なんてのはな。<end>"
+korean = "너한텐 무리야, 아이린. 마음을 독하게 먹는다는 건 말이지.<end>"
+
 ["1020061"]
 japanese = "しゃべらないで、先生！<line-break>今、医者を連れてきます！<end>"
 korean = "말하지 마세요, 선생님! 지금 의사를 데려올게요!<end>"
@@ -143,6 +147,10 @@ korean = "싫어… 이런 건 싫어! 선생님, 눈 떠요! 선생님!<end>"
 ["1020066"]
 japanese = "どうしよう…。<line-break>ねぇ、<value:$28>。<line-break>私、どうしよう…。<line-break>私、先生、殺しちゃった…。<line-break>殺しちゃったよー！<end>"
 korean = "어쩌지…. 있잖아, <value:$28>. 나 어떡하지…. 나, 선생님을 죽여 버렸어…. 죽여 버렸다고!<end>"
+
+["1020067"]
+japanese = "どうして…どうして、<line-break>目を開けてくれないの…。<line-break>目を開けてよ…先生…。<end>"
+korean = "왜… 왜 눈을 안 떠 주는 거야…. 눈을 떠 줘… 선생님….<end>"
 
 ["1020068"]
 japanese = "<value:$28>…。<line-break>先生のこと、お願い。<end>"
@@ -164,6 +172,10 @@ korean = "어… 왜, 왜….<end>"
 japanese = "せ、先生！<end>"
 korean = "서, 선생님!<end>"
 
+["1020076"]
+japanese = "お前には無理なんだよ、アイリーン。<line-break>心を鬼にする、なんてのはな。<end>"
+korean = "너한텐 무리야, 아이린. 마음을 독하게 먹는다는 건 말이지.<end>"
+
 ["1020077"]
 japanese = "しゃべらないで、先生！<line-break>今、医者を連れてきます！<end>"
 korean = "말하지 마세요, 선생님! 지금 의사를 데려올게요!<end>"
@@ -175,6 +187,14 @@ korean = "선생님….으윽… 이, 이런 일이….<end>"
 ["1020081"]
 japanese = "いや…こんなのいやー！<line-break>先生、目を開けて！　先生ー！<end>"
 korean = "싫어… 이런 건 싫어! 선생님, 눈 떠요! 선생님!<end>"
+
+["1020082"]
+japanese = "どうして…どうして、<line-break>目を開けてくれないの…。<line-break>目を開けてよ…先生…。<end>"
+korean = "왜… 왜 눈을 안 떠 주는 거야…. 눈을 떠 줘… 선생님….<end>"
+
+["1020083"]
+japanese = "みんな…みんな、死んじゃう。<line-break>あいつも…先生も…<line-break>私…私が…殺した…。<end>"
+korean = "모두… 모두 죽어 버려. 그 녀석도… 선생님도… 내가… 내가… 죽였어….<end>"
 
 ["1020084"]
 japanese = "みんな…どうして行っちゃうの…。<line-break>私…みんなに…<line-break>生きて欲しかったのに…。<line-break>争うことのない…<line-break>誰も殺されない…<line-break>それを…めざしてたのに…。<end>"

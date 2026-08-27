@@ -124,6 +124,10 @@ korean = "…성배?<end>"
 japanese = "…で、聖杯はどこにある。<end>"
 korean = "…그래서, 성배는 어디 있지.<end>"
 
+["690038"]
+japanese = "ゴブゴブ団を名乗るゴブリンどもが<line-break>今、聖杯を持っている。<line-break>　<line-break>聖杯の力で人間の言葉を<line-break>しゃべれるようになっている。<line-break>すぐわかるはずだ。<end>"
+korean = "고브고브단이라는 고블린들이 지금 성배를 갖고 있다. 성배의 힘으로 인간 말을 할 수 있게 됐으니 금방 알아볼 거야.<end>"
+
 ["690039"]
 japanese = "くすっ。<line-break>ネモはもとの姿に戻るために<line-break>彼らを操り、聖杯を盗ませたのですが、<line-break>知恵を付けた彼らに見放されて、　　　<line-break>今もこの格好なんです。<end>"
 korean = "후훗. 네모는 원래 모습으로 돌아가기 위해 그들을 조종해 성배를 훔치게 했지만, 지혜를 얻은 그들에게 버림받아서 지금도 이 모습이랍니다.<end>"
@@ -215,6 +219,10 @@ korean = "금단의 성배라면 지금 고브고브단이라는 고블린 셋�
 ["690072"]
 japanese = "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"
 korean = "원탁기사에는 그 밖에도 아기르샤이아 등이 있습니다.<end>"
+
+["690075"]
+japanese = "セラとは何か因縁があるようですが、<line-break>セラはそのことについて<line-break>一切、語ろうとしません。<line-break>円卓騎士には他に<line-break>うちのネモなどがいますね。<line-break>　<end>"
+korean = "세라와 무슨 인연이 있는 듯하지만 세라는 그 일에 대해 전혀 말하지 않습니다. 원탁기사 중에는 우리 네모도 있지요.<end>"
 
 ["690076"]
 japanese = "そうですか。<end>"
@@ -332,6 +340,10 @@ korean = "흥, 승패는 병가의 상사. 고브고브단, 후퇴 고브!<end>"
 japanese = "これに懲りて<line-break>もう、我らの幸せの邪魔はするなゴブ！<line-break>　<line-break>さあ、聖杯とともに<line-break>ゴブゴブ団、幸せに向けて<line-break>進軍を続行するゴブ～！<end>"
 korean = "이번 일로 정신 차리고 이제 우리 행복을 방해하지 마라 고브! 자, 성배와 함께 고브고브단은 행복을 향해 진군을 계속하는 고브~!<end>"
 
+["690118"]
+japanese = "む。また、お前ゴブか！<line-break>しつこいゴブ。　　　　　　　　<line-break>　<line-break>我らの幸せのため、<line-break>お前たちに聖杯は渡せないゴブ。<line-break>ゴブゴブ団、突撃ゴブ！<end>"
+korean = "음. 또 너 고브냐! 끈질기다 고브. 우리 행복을 위해 너희에게 성배는 못 준다 고브. 고브고브단, 돌격 고브!<end>"
+
 ["690119"]
 japanese = "マルーンがやられたゴブ～。<line-break>ゴブゴブ団、撤退ゴブ～。<end>"
 korean = "마룬이 당했다 고브~. 고브고브단, 후퇴다 고브~.<end>"
@@ -359,6 +371,10 @@ korean = "상대는 강력한 괴물입니다. 방심하지 마십시오….<end
 ["690128"]
 japanese = "念には念…ということです。<line-break>それでは。<line-break>また会うこともあるでしょう。<end>"
 korean = "돌다리도 두드려 보라는 거죠. 그럼. 또 만날 일도 있겠죠.<end>"
+
+["690129"]
+japanese = "私の名…ですか？<line-break>私は…　　　　　　　　　　　　<line-break>　<line-break>私は…、そう、仮面のしもべ…、<line-break>あのお方は私をサイフォスと<line-break>お呼びくださいます。<end>"
+korean = "제 이름…입니까? 저는… 저는… 그래요, 가면의 종…. 그분은 저를 사이포스라 불러 주십니다.<end>"
 
 ["690130"]
 japanese = "…では。<end>"
@@ -640,6 +656,10 @@ korean = "돌다리도 두드려 보라는 거죠. 그럼. 또 만날 일도 있
 japanese = "…待て。<line-break>貴様、名を名乗れ。<end>"
 korean = "…기다려. 네놈, 이름을 대라.<end>"
 
+["690235"]
+japanese = "私の名…ですか？<line-break>私は…、　　　　　　　　　　　<line-break>　<line-break>…私は、そう、仮面のしもべ…、<line-break>あのお方は私をサイフォスと<line-break>お呼びくださいます。<end>"
+korean = "제 이름…입니까? 저는… 저는… 그래요, 가면의 종…. 그분은 저를 사이포스라 불러 주십니다.<end>"
+
 ["690236"]
 japanese = "サイフォス？<line-break>それが本当に貴様の名なのか？<end>"
 korean = "사이포스? 그게 정말 네 이름이냐?<end>"
@@ -667,6 +687,10 @@ korean = "좋습니다. 가죠.<end>"
 ["690244"]
 japanese = "相手は強力な怪物です。<line-break>油断なきよう…。<end>"
 korean = "상대는 강력한 괴물입니다. 방심하지 마십시오….<end>"
+
+["690246"]
+japanese = "私の名…ですか？<line-break>私は…、　　　　　　　　　　　<line-break>　<line-break>…私は、そう、仮面のしもべ…、<line-break>あのお方は私をサイフォスと<line-break>お呼びくださいます。<end>"
+korean = "제 이름…입니까? 저는… 저는… 그래요, 가면의 종…. 그분은 저를 사이포스라 불러 주십니다.<end>"
 
 ["690247"]
 japanese = "…では。<end>"

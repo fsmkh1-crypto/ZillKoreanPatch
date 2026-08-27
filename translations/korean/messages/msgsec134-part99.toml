@@ -292,6 +292,10 @@ korean = "지라크가 아르노툰에 코른스를 모으고 있다더군.<end>
 japanese = "やさしい奴だな、ナッジは。<end>"
 korean = "착한 녀석이군, 나지는.<end>"
 
+["1340108"]
+japanese = "ジラークのばくちが当たったら、<line-break>コーンスの世界が来る。<line-break>そのとき、お前らを助けられる人間が<line-break>ジラークの隣にいなくちゃいけないって<line-break>思ったんだろう。<end>"
+korean = "지라크의 도박이 맞아떨어지면 코른스의 세상이 온다. 그때 너희를 도울 수 있는 인간이 지라크 곁에 있어야 한다고 생각한 거겠지.<end>"
+
 ["1340110"]
 japanese = "どうする？<line-break><value:$28>。<end>"
 korean = "어떻게 할래? <value:$28>.<end>"
@@ -663,6 +667,10 @@ korean = "너, 너는….<end>"
 ["1340247"]
 japanese = "あ…ありがとう！<end>"
 korean = "아… 고마워!<end>"
+
+["1340248"]
+japanese = "…ノエルさん、って言ったね。<line-break>君でなかったら、<line-break>手放す気にはならなかったはずだよ。<line-break>君なら、大丈夫だと思ったんだ。<line-break>君から感じる、暖かい魂があれば…。<end>"
+korean = "…노엘이라고 했지. 네가 아니었다면 넘겨줄 생각이 들지 않았을 거야. 너라면 괜찮다고 생각했어. 네게서 느껴지는 따뜻한 혼이 있다면….<end>"
 
 ["1340250"]
 japanese = "心配しなくていい。　　　　<line-break> <line-break> <line-break>俺は、レイヴン。<line-break>君と似て、<line-break>ノエルの魂に恩を受けた者だ。<end>"
@@ -1212,6 +1220,10 @@ korean = "<value:$28>님이시군요. 저… 티아나의 부탁을 들어 주�
 japanese = "ええ。あのとき確かに<line-break>タルテュバ様は怪物になられ、<line-break>退治されました。<line-break>それが、どういうわけか、<line-break>元のお姿で、衰弱しきって<line-break>発見されたのです。<end>"
 korean = "네. 그때 분명 타르튜바 님은 괴물이 되셨고 퇴치당했습니다. 그런데 어찌 된 일인지 원래 모습으로, 완전히 쇠약해진 채 발견되셨습니다.<end>"
 
+["1340434"]
+japanese = "意識も…戻りません。<line-break>いつどうなってもおかしくないのです。<line-break>ですから…。<line-break>タルテュバ様の療治のため、<line-break>生命のかけらを<line-break>分けていただきたいのです。<end>"
+korean = "의식도… 돌아오지 않습니다. 언제 어떻게 되어도 이상하지 않아요. 그래서… 타르튜바 님의 치료를 위해 생명의 조각을 나눠 주셨으면 합니다.<end>"
+
 ["1340436"]
 japanese = "<value:$28>様、<line-break>どうか、お願いします…。<end>"
 korean = "<value:$28>님, 부디 부탁드립니다….<end>"
@@ -1247,6 +1259,10 @@ korean = "그럴 수가….<end>"
 ["1340449"]
 japanese = "な、慰めはいい。<line-break>俺だって自分のことぐらいはわかる。<end>"
 korean = "위, 위로는 됐어. 나도 내 처지 정도는 알아.<end>"
+
+["1340455"]
+japanese = "ティアナ…にだって<line-break>俺はひどいことをした。<line-break>覚えているだろう？　<line-break>俺には助けられるだけの価値はない…<line-break>…だのに、なぜ…<line-break>あんたらは、俺を助ける？<end>"
+korean = "티아나에게도 난 끔찍한 짓을 했어. 기억하지? 난 도움받을 가치가 없어… 그런데도 왜… 너희는 날 구하는 거지?<end>"
 
 ["1340459"]
 japanese = "タルテュバ様…。<end>"
@@ -1516,6 +1532,10 @@ korean = "그분은 저와 같았습니다. 모든 것을 증오하고 마음속
 japanese = "でも…安らかな、お顔でした…。<end>"
 korean = "하지만… 편안한 얼굴이었습니다….<end>"
 
+["1340562"]
+japanese = "私からもお礼を言わせてください。<line-break><value:$28>様が<line-break>いらっしゃらなければ、<line-break>あのようなお顔は<line-break>できなかったでしょう。<line-break>ありがとうございました。<end>"
+korean = "저도 감사드리겠습니다. <value:$28>님이 계시지 않았다면 그런 표정은 지으실 수 없었겠지요. 감사합니다.<end>"
+
 ["1340563"]
 japanese = "ありがとうございました。<end>"
 korean = "감사합니다.<end>"
@@ -1684,6 +1704,10 @@ korean = "무사히 탈출할 수 있을 것 같네요.<end>"
 japanese = "し、死んだ？<end>"
 korean = "주, 죽었어?<end>"
 
+["1340628"]
+japanese = "そこへきて、ゼネテスは<line-break>カルラを相手にまたも奇跡の大勝利…<line-break>　<line-break>ファーロス家の力が拡大するのを恐れた<line-break>レムオンがクーデターを<line-break>起こしたってワケ。<end>"
+korean = "거기에 제네테스가 카를라를 상대로 또 기적 같은 대승을 거뒀지…. 파로스 가문의 세력이 커지는 걸 두려워한 레몬이 쿠데타를 일으킨 거야.<end>"
+
 ["1340631"]
 japanese = "なんですって？<line-break>ゼネテス様まで？<end>"
 korean = "뭐라고요? 제네테스 님까지?<end>"
@@ -1807,6 +1831,10 @@ korean = "독부 엘리스는 이미 처형됐고, 간신 제네테스도 곧 �
 ["1340665"]
 japanese = "よいのですか？<line-break>あれは確かゼネテスの側近、<line-break><value:$28>将軍ですぞ？<end>"
 korean = "괜찮으십니까? 저자는 분명 제네테스의 측근, <value:$28> 장군입니다만?<end>"
+
+["1340670"]
+japanese = "　　　　　　 よくぞ来たな…　　<line-break>　　　　無限のソウルを持つ者よ…。　<end>"
+korean = "잘 왔다… 무한의 소울을 지닌 자여….<end>"
 
 ["1340671"]
 japanese = "　　　　 ククク…笑止！　　　<line-break>　　　汝が我を討つだと…？　　　<end>"

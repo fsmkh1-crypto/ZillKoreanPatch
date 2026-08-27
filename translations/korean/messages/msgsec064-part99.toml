@@ -244,6 +244,10 @@ korean = "아, <value:$28>님. 오늘은 여러 번 와 주시는군요. 티아�
 japanese = "…<value:$28>様！<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break>いらしてくださるなら、<line-break>どうして先に、来ると<line-break>おっしゃってくださらないのです？<end>"
 korean = "…<value:$28>님! 와 주실 거라면 왜 미리 오신다고 말씀해 주지 않으셨어요?<end>"
 
+["640081"]
+japanese = "そうしたら、お茶の支度をして<line-break>きれいなドレスに着替えて<line-break>お待ちすることができたのに…。<line-break>あ、すみません。<line-break>どうぞ、お入りになってください。<end>"
+korean = "그랬다면 차 준비도 하고 예쁜 드레스로 갈아입고 기다릴 수 있었을 텐데…. 아, 죄송해요. 들어오세요.<end>"
+
 ["640082"]
 japanese = "さぁ、今日はどんなお話を<line-break>聞かせてくださるのです？<end>"
 korean = "자, 오늘은 어떤 이야기를 들려주실 건가요?<end>"

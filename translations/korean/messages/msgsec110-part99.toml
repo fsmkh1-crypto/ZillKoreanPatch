@@ -20,9 +20,17 @@ korean = "무시한다<end>"
 japanese = "貴様！　本官に逆らうか！<line-break>殺してもかまわん！　排除しろ！<end>"
 korean = "네놈! 본관에게 거역하겠다는 거냐! 죽여도 상관없다! 제거해라!<end>"
 
+["1100006"]
+japanese = "礼を言わせてもらうぞ。しかし…<line-break>ふふ、余計なことをしたものじゃ。<end>"
+korean = "감사는 하지. 하지만… 후후, 괜한 짓을 했구나.<end>"
+
 ["1100007"]
 japanese = "気がついたか？<end>"
 korean = "정신이 들었나?<end>"
+
+["1100008"]
+japanese = "礼を言わせてもらうぞ。しかし…<line-break>ふふ、余計なことをしたものじゃ。<end>"
+korean = "감사는 하지. 하지만… 후후, 괜한 짓을 했구나.<end>"
 
 ["1100011"]
 japanese = "ついてくるがいい。<end>"
@@ -208,6 +216,10 @@ korean = "두렵지 않다<end>"
 japanese = "放っておけなかった<end>"
 korean = "내버려둘 수 없었다<end>"
 
+["1100096"]
+japanese = "変な人ね。<line-break>初めてだわ…。<line-break>そんな人、今までいなかった…。<end>"
+korean = "이상한 사람이네. 처음이야…. 그런 사람, 지금까지 없었어….<end>"
+
 ["1100097"]
 japanese = "待て、そこの冒険者。<end>"
 korean = "기다려, 거기 모험자.<end>"
@@ -243,6 +255,10 @@ korean = "걷는다고? 후후, 아버님, 당신은 거기 매달려 있는 게
 ["1100115"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
+
+["1100116"]
+japanese = "いつか、君に<line-break>先人類の話をしたことがある。<line-break>覚えているか？<end>"
+korean = "언젠가 너에게 선인류 이야기를 한 적이 있지. 기억하나?<end>"
 
 ["1100119"]
 japanese = "空きメッセージ<end>"

@@ -16,6 +16,10 @@ korean = "(…뭐, 뭐지…? 왠지 몸이 떠 있는 것 같은….)<end>"
 japanese = "剣闘士<value:$28>、<line-break>もう試合の時間ですよ。　　　　　　　<line-break>　<line-break>さっきから観客は興奮しっぱなしです。<line-break>さあ、早く天武陣の方へ！<end>"
 korean = "검투사 <value:$28>, 이제 시합 시간이야. 아까부터 관중들이 계속 흥분해 있어. 자, 빨리 천무진으로!<end>"
 
+["1040004"]
+japanese = "お、ちょうどよかった。<line-break>ちょっと頼まれてくれないかな？<line-break>　<end>"
+korean = "오, 마침 잘 왔네. 부탁 하나 들어주지 않을래?<end>"
+
 ["1040006"]
 japanese = "お安いご用<end>"
 korean = "식은 죽 먹기지<end>"

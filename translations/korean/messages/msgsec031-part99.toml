@@ -148,6 +148,10 @@ korean = "<value:$28>…. 멋진 이름이네. 그럼 이만.<end>"
 japanese = "あ…、<value:$28>。<line-break>や、やあ！<line-break>　<line-break>さっきはいきなり話しかけて、<line-break>しかも、さっさと行っちゃって<line-break>…ゴメンね。<end>"
 korean = "아… <value:$28>. 아, 안녕! 아까 갑자기 말을 걸고선 바로 가 버려서… 미안해.<end>"
 
+["310063"]
+japanese = "フフ、別に僕は強くなりたくて、<line-break>闇の神器を求めてるわけじゃないよ。<end>"
+korean = "후후, 난 강해지고 싶어서 어둠의 신기를 찾는 게 아니야.<end>"
+
 ["310064"]
 japanese = "僕はね、古代の魔法文明の力を<line-break>借りたいんだ。<line-break>　<line-break>闇の神器は<line-break>古代の失われた魔法文明の技で<line-break>造られた物なんだよ。<end>"
 korean = "난 고대 마법문명의 힘을 빌리고 싶어. 어둠의 신기는 고대에 잃어버린 마법문명의 기술로 만들어진 물건이거든.<end>"
@@ -323,6 +327,10 @@ korean = "…누나랑 나를 죽일 셈이야!?<end>"
 ["310144"]
 japanese = "姉ちゃん！！<end>"
 korean = "누나!!<end>"
+
+["310145"]
+japanese = "紙一重で斬ったとはいえ<line-break>少しも動じぬとは…。<line-break>いい度胸だな。<end>"
+korean = "종이 한 장 차이로 베었는데도 조금도 동요하지 않다니…. 배짱 좋군.<end>"
 
 ["310146"]
 japanese = "…フリントがエリスに密書を渡し、<line-break>反乱の報告をするとなれば、<line-break>こちらも手を打たねばならぬ。<line-break>俺についてこい、<line-break><value:$28>。<line-break>お前の力が必要なのだ。<end>"
@@ -699,6 +707,10 @@ korean = "길드 마스터도, 여기 자주 있던 그 예쁜 분도 반란에 
 ["310291"]
 japanese = "鍛冶屋<end>"
 korean = "대장간<end>"
+
+["310292"]
+japanese = "おう、<value:$28>！<line-break>俺も武器を作ったりして<line-break>反乱を応援させてもらってるぜ。<line-break>俺も金持ちじゃあねえから、<line-break>ただで作ってやるわけには<line-break>いかねえんだがよ。<end>"
+korean = "오, <value:$28>! 나도 무기를 만들면서 반란을 돕고 있어. 나도 부자는 아니라 공짜로 만들어 줄 순 없지만 말이야.<end>"
 
 ["310293"]
 japanese = "道具屋<end>"

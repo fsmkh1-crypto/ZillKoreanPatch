@@ -652,6 +652,10 @@ korean = "그러게…. <value:$28>과 모험 여행이라. 좋겠다! 나도 �
 japanese = "私とおんなじですね、エステル様。<line-break><line-break><line-break>英雄<value:$28>様と<line-break>凄腕女魔法使いと<line-break>男装の麗人のパーティ。<end>"
 korean = "저랑 똑같네요, 에스텔 님. 영웅 <value:$28>님과 실력 좋은 여자 마법사, 남장한 미인의 파티.<end>"
 
+["1420204"]
+japanese = "きっと依頼がワンサカきて…<line-break>世界一の冒険者も夢じゃありませんよ！<line-break>きゃっ！<end>"
+korean = "분명 의뢰가 잔뜩 들어올 거예요… 세계 제일의 모험가도 꿈이 아니에요! 꺄악!<end>"
+
 ["1420205"]
 japanese = "…分断の山脈における兵数削減は<line-break>予定どおり進行中である。<line-break> <line-break>…レムオン卿。<line-break>何か不満があるようだな。<end>"
 korean = "…분단의 산맥에서 병력 감축은 예정대로 진행 중이다. …레몬 경. 불만이 있는 모양이군.<end>"
@@ -839,6 +843,10 @@ korean = "난 이제 됐어, 아저씨.<end>"
 ["1420263"]
 japanese = "だが、ま、<line-break><value:$28>も大変だな。<end>"
 korean = "하지만 뭐, <value:$28>도 고생이 많군.<end>"
+
+["1420264"]
+japanese = "騒動がおさまっても、<line-break>結局なんだかんだ抱え込む定めを<line-break>まぬがれないようだ。<end>"
+korean = "소동이 가라앉아도 결국 이것저것 떠안는 운명은 피할 수 없는 모양이군.<end>"
 
 ["1420265"]
 japanese = "あっ、みなさん、わかりましたよ！<line-break> <line-break> <line-break>時計の針って、<line-break><value:$28>様のことなんですね！<line-break>きゃ！<end>"
@@ -2087,6 +2095,10 @@ korean = "………………! 서, 설마, 그럴 수가…!<end>"
 ["1420634"]
 japanese = "は、犯人が、この中にいる…！？<end>"
 korean = "버, 범인이 이 안에 있다고…!?<end>"
+
+["1420635"]
+japanese = "まー、ンなこと、<line-break>このかれんな乙女たちが<line-break>たくらむわきゃないわねー<end>"
+korean = "뭐, 그런 걸 이 가련한 소녀들이 꾸밀 리 없잖아.<end>"
 
 ["1420636"]
 japanese = "尻尾女と同じなのは<line-break>気に食わないけど、<line-break>アタクシもそう思ってよ。<end>"

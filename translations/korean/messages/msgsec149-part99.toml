@@ -152,6 +152,10 @@ korean = "<value:$28>! 부탁이야, 눈을 떠 줘!<end>"
 japanese = "…気がついたか？　　　　　　　　<line-break><value:$28>。<line-break>　<line-break>僕が告死天使の長だと知っても、<line-break>システィーナの伝道師の一員だと<line-break>知っても、君は僕を助けるのか…？<end>"
 korean = "…정신이 들었나? <value:$28>. 내가 고사천사의 우두머리인 걸 알아도, 시스티나 전도사의 일원인 걸 알아도 너는 나를 돕는 건가…?<end>"
 
+["1490062"]
+japanese = "僕は告死天使の長だ。<line-break>奴らごとき、なんでもない。　　<line-break>　<line-break>これからは僕のことより<line-break>ディンガル兵ぐらいにのされる<line-break>自分のことを心配することだな。<end>"
+korean = "나는 고사천사의 우두머리다. 저런 녀석들은 아무것도 아니야. 이제부터는 나보다 딘갈 병사 정도에게 당하는 자기 걱정이나 하지.<end>"
+
 ["1490063"]
 japanese = "…別に、何も変なことは<line-break>聞かなかったな？<end>"
 korean = "…딱히 이상한 얘기는 못 들었지?<end>"
@@ -872,6 +876,10 @@ korean = "엘파스 님은 구세주다! 틀림없어!<end>"
 japanese = "エルファスというのは貴様だな。<line-break>これ以上、勝手な真似はさせん。<end>"
 korean = "엘파스라는 게 네놈이군. 더 이상 제멋대로 굴게 두지 않겠다.<end>"
 
+["1490292"]
+japanese = "救世主様に何しやがる！<line-break>おかしな真似したら<line-break>ただじゃおかねぇぞ！<end>"
+korean = "구세주님께 무슨 짓이야! 이상한 짓 하면 가만두지 않겠어!<end>"
+
 ["1490293"]
 japanese = "なんだと？<line-break>　<line-break>　<line-break>お前、船乗りだな？<line-break>誰の許しで船を出せると思ってる。<line-break>港から締め出されたいのか？　え？<end>"
 korean = "뭐라고? 너 선원이구나? 누구 허락으로 배를 띄울 수 있다고 생각하지. 항구에서 쫓겨나고 싶나? 응?<end>"
@@ -883,6 +891,10 @@ korean = "큭… 뭐, 뭐 이런 비겁한 놈이 다 있어!<end>"
 ["1490295"]
 japanese = "あんた、おやめよ！<line-break>船に乗れなくなったら元も子もないだろ。<end>"
 korean = "그만해! 배를 못 타게 되면 다 소용없잖아.<end>"
+
+["1490296"]
+japanese = "ふん…。<line-break>さぁ、こっちへ来い。ニセ予言者。       <line-break>　<line-break>貴様の作り話のせいで、<line-break>仕事や財産を投げ出す者も出ているんだ。<line-break>国を混乱に陥れた罪は重いぞ。<end>"
+korean = "흥…. 자, 이리 와라, 가짜 예언자. 네 지어낸 이야기 때문에 일과 재산을 내던지는 자까지 나오고 있다. 나라를 혼란에 빠뜨린 죄는 무겁다.<end>"
 
 ["1490297"]
 japanese = "空を拝めるのも、今日が最後だと思え！<end>"

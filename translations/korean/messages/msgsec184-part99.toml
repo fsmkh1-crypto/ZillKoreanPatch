@@ -4,6 +4,10 @@
 japanese = "イークレムン　Ｖ５－２　開始<end>"
 korean = "이크레문 V5-2 시작<end>"
 
+["1840001"]
+japanese = "神官長、大変です！<line-break>ディンガル帝国の軍が<line-break>また、攻めてまいりました！<end>"
+korean = "신관장님, 큰일입니다! 딘갈 제국군이 또 공격해 왔습니다!<end>"
+
 ["1840004"]
 japanese = "き、来ました！<line-break>例の大蛇です！！<end>"
 korean = "와, 왔습니다! 그 큰 뱀입니다!!<end>"
@@ -51,6 +55,10 @@ korean = "무슨 일이십니까, 이크레문 님!<end>"
 ["1840017"]
 japanese = "ミズチたちが…、湖の中の<line-break>すべての命が…、消えた…。<end>"
 korean = "미즈치들이… 호수 속 모든 생명이… 사라졌어….<end>"
+
+["1840018"]
+japanese = "大変です！<line-break>雷の矢が湖に降り注ぎ、<line-break>ミズチたちはみな消滅いたしました！<end>"
+korean = "큰일입니다! 번개의 화살이 호수에 쏟아져 미즈치들이 모두 소멸했습니다!<end>"
 
 ["1840019"]
 japanese = "なんと…<line-break>なんということでしょう…。<end>"
@@ -259,6 +267,10 @@ korean = "정말 귀찮네. 이걸로 조용히 해 줘.<end>"
 ["1840095"]
 japanese = "さて、じゃ、行こうかな。<line-break>バイバ～イ。<end>"
 korean = "자, 그럼 갈까. 바이바~이.<end>"
+
+["1840098"]
+japanese = "老いぼれの最期の頼みと思って<line-break>聞いてやってくれ。<line-break>あとは、任せたぞ…。<end>"
+korean = "늙은이의 마지막 부탁이라 생각하고 들어다오. 나머지는 맡기마….<end>"
 
 ["1840102"]
 japanese = "この時、朱雀将軍アンギルダンは、<line-break>自らの娘を巡って魔道士シャリと対立。<line-break>シャリの魔法の前に倒れ、<line-break>過去の名将となった。<end>"

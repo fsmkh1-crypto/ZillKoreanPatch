@@ -228,6 +228,10 @@ korean = "너도 슬슬 위험하겠군. 제법 모험자처럼 보이기 시작
 japanese = "そこの冒険者、待て。<end>"
 korean = "거기 모험자, 기다려.<end>"
 
+["1640067"]
+japanese = "我が名は、ゼリグ。<line-break>ボルダンの拳士。<line-break>我との勝負、受けてもらう！！<end>"
+korean = "내 이름은 제리그. 볼단의 권사다. 나와의 승부, 받아라!!<end>"
+
 ["1640068"]
 japanese = "くっ…！<line-break>よもや、負けるとは。<end>"
 korean = "큭…! 설마, 지다니.<end>"
@@ -243,6 +247,10 @@ korean = "<value:$28>인가. 기억해 두지. 이 패배를 가슴에 새기고
 ["1640071"]
 japanese = "私が出るまでも、<line-break>なかったようだな。<end>"
 korean = "내가 나설 필요도 없었던 모양이군.<end>"
+
+["1640072"]
+japanese = "他愛もない。<line-break>お前では、我にさらなる強さを<line-break>見せてはくれぬようだ。<end>"
+korean = "시시하군. 너로서는 내게 더 큰 강함을 보여 주지 못하는 모양이다.<end>"
 
 ["1640073"]
 japanese = "ん…！？<end>"

@@ -60,6 +60,10 @@ korean = "제네테스와 함께 싸운다<end>"
 japanese = "悪いが、一緒に戦えない<end>"
 korean = "미안하지만 함께 싸울 수 없어.<end>"
 
+["1800025"]
+japanese = "…そうか、分の悪いバクチだしな。<line-break>無理にとは言えない。<line-break>…じゃあな。<end>"
+korean = "…그래, 승산 낮은 도박이니까. 억지로 부탁할 순 없지. …그럼 잘 가.<end>"
+
 ["1800026"]
 japanese = "ま、戦場で会ったら、<line-break>適当に手加減してくれや。<end>"
 korean = "뭐, 전장에서 만나면 적당히 봐줘.<end>"
@@ -103,6 +107,10 @@ korean = "맡는다<end>"
 ["1800048"]
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
+
+["1800051"]
+japanese = "そうか、残念だな。<line-break>それならば、こちらも援助できぬ。<line-break>下がるがよい。<end>"
+korean = "그런가, 유감이군. 그렇다면 이쪽도 지원할 수 없다. 물러가라.<end>"
 
 ["1800054"]
 japanese = "私がエリスだ。<line-break>なんの用か？<end>"
@@ -491,6 +499,10 @@ korean = "그렇다면 제그나 광산, 거짓의 숲 너머에 있는 죽음�
 ["1800194"]
 japanese = "もう、遅いです。　　　　<line-break>何もかも…。<line-break>でも、仕方ありませんね。<line-break>こんな世界なのですもの。<line-break>こんなに醜い…。<line-break>ふふふ…。<end>"
 korean = "이제 늦었어요. 모든 게… 하지만 어쩔 수 없겠죠. 이런 세상이니까요. 이렇게 추악한… 후후후…<end>"
+
+["1800195"]
+japanese = "一度、全部壊してしまわないと。<line-break>何もかも、<line-break>一度なくしてしまわないと。<end>"
+korean = "한번 전부 부숴 버려야 해. 모든 걸, 한번은 없애 버려야 해.<end>"
 
 ["1800196"]
 japanese = "世界なんて…、<line-break>見えなければよかった…。<end>"

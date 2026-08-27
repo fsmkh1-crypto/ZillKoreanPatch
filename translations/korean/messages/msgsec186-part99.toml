@@ -52,6 +52,10 @@ korean = "…그리고 나도 말이지.<end>"
 japanese = "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？　　<end>"
 korean = "어라, <value:$28>. 돌아왔구나. 루루안타는 같이 안 왔어?<end>"
 
+["1860024"]
+japanese = "これを持っていきなさい。　　　　　<line-break>十分、注意するんだよ。<line-break>　<end>"
+korean = "이걸 가져가렴. 충분히 조심하고.<end>"
+
 ["1860025"]
 japanese = "お前がノーブルにいる間中行っていた<line-break>町の外の林に行ったはずだ。<line-break>頼んだよ、<value:$28>。<end>"
 korean = "네가 노블에 있는 동안 계속 가던 마을 밖 숲으로 갔을 거야. 부탁한다, <value:$28>.<end>"
@@ -95,6 +99,10 @@ korean = "이, 인질이라고!?<end>"
 ["1860041"]
 japanese = "大の大人が子供を相手に刃物かい？<line-break>見られたもんじゃねえなぁ。<end>"
 korean = "다 큰 어른이 아이를 상대로 칼을 드나? 보기 좋진 않군.<end>"
+
+["1860042"]
+japanese = "お前こそなんだ！？　　　　　　　　　<line-break>邪魔すると、<line-break>痛い目にあうぞ！<end>"
+korean = "넌 또 뭐야!? 방해하면 아픈 꼴을 볼 줄 알아!<end>"
 
 ["1860043"]
 japanese = "ぶひゃっ！！　　　　　　　　　　　　<line-break>　<line-break>　<end>"
@@ -264,9 +272,17 @@ korean = "어…? 무슨 일 있었어요, 플린트 씨?<end>"
 japanese = "…今度は団体のようだ。　　　　　<line-break><value:$28>、ルルアンタ、<line-break>下がっていなさい。<end>"
 korean = "…이번엔 단체인 모양이군. <value:$28>, 루루안타, 뒤로 물러나 있어.<end>"
 
+["1860097"]
+japanese = "ちっ。今の地震で気配がばれたか。　<line-break>さすがだな、フリント。<line-break>　<end>"
+korean = "칫. 방금 지진 때문에 기척을 들켰나. 역시 플린트로군.<end>"
+
 ["1860098"]
 japanese = "あぁーっ！<line-break>あんたたちぃ、この間のぉ！<end>"
 korean = "아앗! 너희들, 지난번 그 녀석들이잖아!<end>"
+
+["1860099"]
+japanese = "うるせぇ、このガキ！<line-break>今日はこの前のようには　　　　　<line-break>いかないぜえ！<end>"
+korean = "시끄러워, 이 꼬맹이! 오늘은 저번처럼 되진 않을 거다!<end>"
 
 ["1860100"]
 japanese = "…どのようなご用件でしょう？　　<line-break>　<line-break>　<end>"
@@ -279,6 +295,10 @@ korean = "그런 물건은 모릅니다.<end>"
 ["1860107"]
 japanese = "子供たちに手出しはさせん！　　　<line-break>　<line-break>　<end>"
 korean = "아이들에게는 손대지 못하게 하겠다!<end>"
+
+["1860108"]
+japanese = "おっと、よそ見してるとケガするぜ。<line-break>お前の相手はこの俺だ！<line-break>　<end>"
+korean = "어이, 한눈팔면 다친다. 네 상대는 바로 나다!<end>"
 
 ["1860109"]
 japanese = "<value:$28>、<line-break>こちらが終わったらすぐに行く！　<line-break>それまで持ちこたえてくれ！<end>"
@@ -299,6 +319,10 @@ korean = "플린트 씨, 플린트 씨! 정신 차려요!<end>"
 ["1860118"]
 japanese = "<value:$28>…、　　　　　　<line-break>ルルアンタ…、<line-break>無事か…？<end>"
 korean = "<value:$28>…, 루루안타…, 무사한가…?<end>"
+
+["1860119"]
+japanese = "う、うん。平気だよ。<line-break>悪い人たちは、みんな<line-break>どっかに行っちゃった。<end>"
+korean = "으, 응. 괜찮아. 나쁜 사람들은 모두 어디론가 가 버렸어.<end>"
 
 ["1860120"]
 japanese = "…<value:$28>。<line-break>ノーブルを発つ前にお前に渡した　<line-break>短剣は…持っているな…？<end>"

@@ -252,6 +252,10 @@ korean = "최근 작품이지만 고대 방식이군. …설마… 비염의 보
 japanese = "あら、珍しい剣ね。<line-break>折れてるみたいだけど。<line-break>見ていい？<end>"
 korean = "어머, 희한한 검이네. 부러진 것 같지만. 봐도 돼?<end>"
 
+["920114"]
+japanese = "ありがとう。<line-break>珍しいものが見られたわ。<line-break>それじゃ、失礼するわね。<end>"
+korean = "고마워. 신기한 걸 봤네. 그럼 실례할게.<end>"
+
 ["920115"]
 japanese = "やあ、<value:$28>。<line-break>さすが、ドワーフ王国の酒場だね。<line-break>もんのすごーくお酒がおいしいよ。<end>"
 korean = "여어, <value:$28>. 역시 드워프 왕국 술집이네. 술이 정말 엄청 맛있어.<end>"

@@ -160,6 +160,10 @@ korean = "…그래. 확실히 타락했네. 인간 따위에게 신경을 쓰�
 japanese = "そ、そ、そうですよね！<line-break>そんなわけないですよね！<end>"
 korean = "그, 그렇죠! 그럴 리 없죠!<end>"
 
+["990050"]
+japanese = "あー、<value:$28>！<line-break>また、酒場に来てるぅ！　　　　<line-break>　<line-break>もう！　<value:$28>ってば<line-break>目を離すとすぐこれなんだから！<line-break>ダメだよ。お酒なんか飲んじゃ！<end>"
+korean = "아, <value:$28>! 또 술집에 왔어! 정말, <value:$28>는 눈만 떼면 이렇다니까! 안 돼. 술 마시면!<end>"
+
 ["990051"]
 japanese = "そぉお？<line-break>なら、いいんだけど。<line-break>それじゃ、ルルアンタ、行くね。<end>"
 korean = "그래애? 그럼 됐지만. 그럼 루루안타, 갈게.<end>"

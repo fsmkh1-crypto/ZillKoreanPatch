@@ -20,6 +20,10 @@ korean = "그랬구나. 길을 잃어버렸구나.<end>"
 japanese = "涙はキレイだけど、<line-break>笑った顔はもっともっと<line-break>キレイだと思うよ。<end>"
 korean = "눈물도 예쁘지만 웃는 얼굴은 훨씬 더 예쁘다고 생각해.<end>"
 
+["2200006"]
+japanese = "そうだよ。<line-break>おひさまみたいに笑ったら<line-break>きっと、げんきがでてくるよ。<end>"
+korean = "그래. 해님처럼 웃으면 분명 힘이 날 거야.<end>"
+
 ["2200007"]
 japanese = "うわー、すごーい！<end>"
 korean = "우와, 대단해ー!<end>"
@@ -47,6 +51,10 @@ korean = "고마워. 노래랑 춤, 정말 재미있었어.<end>"
 ["2200016"]
 japanese = "どうしたの？<end>"
 korean = "무슨 일이야?<end>"
+
+["2200017"]
+japanese = "なんでもないよ。<line-break>それより何か食べに行かない？<line-break>もうお腹がぺこぺこだよ。<end>"
+korean = "아무것도 아니야. 그것보다 뭐 먹으러 가지 않을래? 배가 완전히 고팠어.<end>"
 
 ["2200018"]
 japanese = "迷子イベント3用終端<end>"

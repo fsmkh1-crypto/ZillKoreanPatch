@@ -16,6 +16,10 @@ korean = "오, 피유! 뭐냐! <value:$28>과 아는 사이였나!<end>"
 japanese = "<value:$28>の感じが<line-break>どうも、変なんじゃ。<line-break>どうしたのじゃ、フィーユ？<end>"
 korean = "<value:$28>의 느낌이 아무래도 이상하구나. 무슨 일이냐, 피유?<end>"
 
+["580008"]
+japanese = "記憶喪失？　ハハハハ！<line-break>そりゃ、いいわい！　ハハハ！　　　　<line-break>　<line-break>じゃが、わしには、<value:$28>が<line-break>記憶喪失なぞではなく、<line-break>別人になったように見える。<end>"
+korean = "기억상실? 하하하하! 그거 좋군! 하하하! 하지만 내 눈엔 <value:$28>가 기억상실이라기보다 다른 사람이 된 것처럼 보인다.<end>"
+
 ["580009"]
 japanese = "…ハハ…ハハ！　おかしいねえ！<line-break>そんなバカなこと！　ハハ！<end>"
 korean = "…하하… 하하! 웃기네! 그런 바보 같은 일이! 하하!<end>"
@@ -31,6 +35,14 @@ korean = "그럼 안녕, <value:$28>.<end>"
 ["580024"]
 japanese = "すまんな、年寄りの昔語りに<line-break>長々とつきあわせてしもうた…。　　<line-break>　<line-break>…ちと、外の空気が吸いとうなった。<end>"
 korean = "미안하구나, 늙은이의 옛날이야기에 오래 붙잡아 뒀어…. …잠깐 바깥 공기를 쐬고 싶구나.<end>"
+
+["580029"]
+japanese = "よいか、<value:$28>、<line-break>冒険者と言うからには　　　　<line-break>冒険をせねばならぬ。<line-break>ギルドで仕事を得たり、<line-break>自分で修行のため洞窟や迷宮に<line-break>挑んでみるといいぞ。<end>"
+korean = "잘 듣게, <value:$28>. 모험가라면 모험을 해야지. 길드에서 일을 받거나 스스로 수련을 위해 동굴이나 미궁에 도전해 보게.<end>"
+
+["580041"]
+japanese = "ま、わしも、数えきれぬほど　　　<line-break>戦いに臨んできたが…<line-break>　<line-break>あの戦いに、ネメアの２８騎の<line-break>ひとりとして参加できたことは<line-break>まこと、晴れがましい思い出じゃ。<end>"
+korean = "나도 셀 수 없이 많은 전투에 나섰지만… 그 싸움에 네메아의 28기 중 하나로 참가할 수 있었던 건 정말 자랑스러운 추억이야.<end>"
 
 ["580054"]
 japanese = "実は、わしも<line-break>ネメア同様、お尋ね者なのじゃ。<line-break>　<line-break>わしには<line-break>ズバズバものを言うクセがある。<line-break>それが、皇帝にうとまれてな。<end>"
@@ -155,6 +167,10 @@ korean = "<value:$28>군요…. 그렇군요? 후후…. 지금 화제의 <value
 ["580096"]
 japanese = "フフ、会えてうれしいぜ。　　<line-break>じゃあな、<value:$28><line-break>縁があったらまた会おうや。<end>"
 korean = "후후, 만나서 반갑다. 그럼 잘 가, <value:$28>. 인연이 있으면 또 만나자고.<end>"
+
+["580098"]
+japanese = "おお、<value:$28>か。<line-break>ちょうどいい。<line-break>　<line-break>この前の、邪竜の死体の件じゃが、<line-break>エンシャントのギルドに、死竜の洞窟を<line-break>探索する仕事の依頼が出とってだな…<end>"
+korean = "오, <value:$28>인가. 마침 잘 왔군. 지난번 사룡 시체 건인데, 엔샨트 길드에 사룡의 동굴을 탐색하는 의뢰가 나와 있다네….<end>"
 
 ["580103"]
 japanese = "おお、<value:$28>か。<line-break>お前も飲みにきたのか。<end>"

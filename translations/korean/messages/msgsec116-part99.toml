@@ -264,6 +264,14 @@ korean = "하지만 저는 무너지는 그 순간까지 제 역할을 다하겠
 japanese = "<value:$28>様…。<line-break>　　　　　　　　　　　　<line-break>　<line-break>あなたが<line-break>ここにいらっしゃることは<line-break>相変わらず、意味がありません。<end>"
 korean = "<value:$28>님…. 당신이 여기 계시는 건 여전히 아무 의미가 없습니다.<end>"
 
+["1160112"]
+japanese = "そこから先へは<line-break>通すことはできません。　　　　<line-break>　<line-break>たとえ、残る命が短くても、<line-break>それが私の果たすべき役目です。<line-break>どうか、お引き取りください。<end>"
+korean = "그 앞은 지나갈 수 없습니다. 남은 목숨이 짧더라도 그게 제가 해야 할 역할입니다. 부디 돌아가 주세요.<end>"
+
+["1160116"]
+japanese = "そこから先へは<line-break>通すことはできません。　　　　<line-break>　<line-break>たとえ、残る命が短くても、<line-break>それが私の果たすべき役目です。<line-break>どうか、お引き取りください。<end>"
+korean = "그 앞은 지나갈 수 없습니다. 남은 목숨이 짧더라도 그게 제가 해야 할 역할입니다. 부디 돌아가 주세요.<end>"
+
 ["1160117"]
 japanese = "　　　　　　　　よくぞ、来た。　　　　　　　<line-break>　　　　　無限のソウルを持つ者よ。<line-break>　　　　我は火の精霊神ウルカーン。<line-break>　　　　　　我が願いをかなえよ。<end>"
 korean = "잘 왔다. 무한의 소울 소유자여. 나는 불의 정령신 울칸. 나의 소원을 이루어라.<end>"
@@ -275,6 +283,10 @@ korean = "알았어<end>"
 ["1160120"]
 japanese = "関係ない<end>"
 korean = "상관없어<end>"
+
+["1160123"]
+japanese = "　　　　　　　　…どうした？　　　　　　　　<line-break>　　　　　　　怖じ気づいたか？<end>"
+korean = "…왜 그러지? 겁먹었나?<end>"
 
 ["1160124"]
 japanese = "そんなことはない<end>"

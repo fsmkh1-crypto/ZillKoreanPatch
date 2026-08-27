@@ -160,6 +160,10 @@ korean = "정말, 도망치는 건 빠르다니까! <value:$28>, 쫓아가자.<e
 japanese = "バイアシオン最大の都市。<line-break>文化と商業の都…。<line-break>　<line-break>さっすがに大きな街よね、<line-break>リベルダムって！<end>"
 korean = "바이아시온 최대의 도시. 문화와 상업의 수도…. 역시 큰 도시네, 리벨덤은!<end>"
 
+["620047"]
+japanese = "とにかく、この広い街並みから　　<line-break>あいつら３匹を捜さなきゃ。<line-break>　<line-break>まずは、ギルドに行ってみましょ。<line-break>あいつらがいなくても、<line-break>ついでに冒険者登録できるし。<end>"
+korean = "아무튼 이 넓은 거리에서 그 세 녀석을 찾아야 해. 우선 길드에 가 보자. 녀석들이 없어도 겸사겸사 모험가 등록도 할 수 있고.<end>"
+
 ["620048"]
 japanese = "あ、あの…、<line-break>冒険者登録したいんでゴブが…。<end>"
 korean = "저, 저기… 모험자 등록을 하고 싶다 고브….<end>"
@@ -480,6 +484,10 @@ korean = "지극히 타당한 것 같다 고브.<end>"
 japanese = "アイリーンのＳＴＲが３上がった。<end>"
 korean = "아이린의 STR이 3 올랐다.<end>"
 
+["620148"]
+japanese = "よお、あんたすげえな。<line-break>ボルダンの男衆も顔負けだぜ。<line-break>ガハハハ…！<line-break>おかげで仕事がはかどった。<line-break>これは少ねえが駄賃だ。<line-break>とっときな。<end>"
+korean = "오, 자네 대단하군. 볼단 남자들도 울고 가겠어. 가하하하! 덕분에 일이 잘됐어. 적지만 품삯이야. 받아 둬.<end>"
+
 ["620149"]
 japanese = "１００ギア手に入れた。<end>"
 korean = "100기어를 손에 넣었다.<end>"
@@ -572,9 +580,17 @@ korean = "잘 왔다. 어둠의 아이들이여….<end>"
 japanese = "ね、猫がしゃべったゴブ。<end>"
 korean = "고, 고양이가 말했어 고브.<end>"
 
+["620176"]
+japanese = "フフ、驚くことはない。　　　　　　　<line-break>　<line-break>　<line-break>俺は猫の姿に封じ込められてはいるが、<line-break>本来は魔界の将。<line-break>闇の神器、禁断の聖杯の管理者…<end>"
+korean = "후후, 놀랄 것 없다. 나는 고양이 모습에 갇혀 있지만 본래 마계의 장수. 어둠의 신기, 금단의 성배의 관리자다….<end>"
+
 ["620178"]
 japanese = "うそ臭いゴブ。<end>"
 korean = "수상쩍다 고브.<end>"
+
+["620181"]
+japanese = "こいつら～。　　　　　　　　　<line-break>お前らを操ってたのは俺なんだぞ！<line-break>　<line-break>聖杯を盗むようにしむけたのも、　<line-break>ここに来るようにしむけたのも、<line-break>全部俺なんだよ！<end>"
+korean = "이 녀석들! 너희를 조종한 건 나라고! 성배를 훔치게 한 것도, 여기 오게 한 것도 전부 나야!<end>"
 
 ["620182"]
 japanese = "俺の言うことを<line-break>さっさと聞いてだな、<line-break>早く俺をもとの姿に戻せ！　　　　<end>"

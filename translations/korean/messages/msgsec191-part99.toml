@@ -100,6 +100,10 @@ korean = "아트레이아에게도 할 수 있는 일은 있어<end>"
 japanese = "でも、何もしないよりは<line-break>ましかもしれません。ですから私、<line-break>お祈りは続けるつもりです。<line-break>人々の不安が<line-break>少しでも軽くなるようにと。<end>"
 korean = "그래도 아무것도 하지 않는 것보다는 나을지도 몰라요. 그래서 저는 계속 기도할 생각입니다. 사람들의 불안이 조금이라도 가벼워지도록.<end>"
 
+["1910036"]
+japanese = "…私にもできること？<line-break>あの、それはいったい<line-break>どんなことなのでしょうか？<end>"
+korean = "…저에게도 할 수 있는 일? 그건 대체 어떤 일인가요?<end>"
+
 ["1910041"]
 japanese = "あのふたりなら大丈夫<end>"
 korean = "그 둘이라면 괜찮다<end>"
@@ -228,6 +232,10 @@ korean = "그건 당신입니다. 어둠을 모두 지워 버릴 만큼 강렬�
 japanese = "それはどうかな？<line-break><value:$28>は今や<line-break>地上最強の存在となりつつある。<line-break>もし、その<value:$28>が<line-break>心変わりをしたら<line-break>誰がとめられるというのだ？<end>"
 korean = "그건 어떨까? <value:$28>는 지금 지상 최강의 존재가 되어 가고 있다. 만약 그 <value:$28>가 마음을 바꾸면 누가 막을 수 있겠나?<end>"
 
+["1910096"]
+japanese = "こんなことになってしまって<line-break>残念だけど、<line-break>全力でいかせてもらうわ！<end>"
+korean = "이렇게 돼서 유감이지만, 전력으로 상대해 주겠어!<end>"
+
 ["1910097"]
 japanese = "<value:$28>さん！<line-break>ノエルの最後の剣、<line-break>受けとめてください！<end>"
 korean = "<value:$28> 씨! 노엘의 마지막 검을 받아 주세요!<end>"
@@ -243,6 +251,10 @@ korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>
 ["1910102"]
 japanese = "<value:$28>、<line-break>お前を慕っていたノエルが<line-break>ここに来た理由がわかるか？<line-break>お前が死なない限り、<line-break>カフィンとレイヴンが死人に<line-break>戻ってしまうからだ！<end>"
 korean = "<value:$28>, 너를 따르던 노엘이 왜 여기 왔는지 아나? 네가 죽지 않는 한 카핀과 레이븐이 다시 죽은 자로 돌아가 버리기 때문이다!<end>"
+
+["1910103"]
+japanese = "世界の均衡を崩すほどに<line-break>成長してしまった<line-break>自らの命を絶つ気にな。フフ…。<end>"
+korean = "세계의 균형을 무너뜨릴 만큼 성장해 버린 자신의 목숨을 끊을 생각이었지. 후후….<end>"
 
 ["1910104"]
 japanese = "ノエル…。<line-break>あたしたち…もう…いくわ…<end>"
@@ -263,6 +275,10 @@ korean = "마, 말도 안 돼! 네놈, 제정신이냐…!? 내게 대드는 것
 ["1910111"]
 japanese = "レイヴン！<end>"
 korean = "레이븐!<end>"
+
+["1910112"]
+japanese = "ノエル。<line-break>あたしのノエル。<line-break>もう泣かないで…<line-break>あたしたちは一度死んだ身だったの。<line-break>そのあたしたちが生きているなんて<line-break>いけないことだったのよ。<end>"
+korean = "노엘. 내 노엘. 이제 울지 마…. 우리는 한 번 죽었던 몸이야. 그런 우리가 살아 있는 건 해서는 안 되는 일이었던 거야.<end>"
 
 ["1910114"]
 japanese = "カフィン！<end>"
@@ -320,9 +336,17 @@ korean = "힘내세요….<end>"
 japanese = "これが、本当に最後の戦いね。<line-break><value:$28>、<line-break>ちゃんと準備はできた？<end>"
 korean = "이게 정말 마지막 싸움이네. <value:$28>, 준비는 제대로 됐어?<end>"
 
+["1910130"]
+japanese = "さぁ、もう一踏ん張りじゃ。<line-break>最後の決戦、気を引き締めて<line-break>ゆかねばな。<end>"
+korean = "자, 이제 한 번 더 힘내자. 마지막 결전이다. 마음 단단히 먹고 가야 해.<end>"
+
 ["1910131"]
 japanese = "ついに、このお話も最後だよね？<line-break><value:$28>、ガンバろうね。<line-break>　<line-break>竜王様を倒したら、<line-break>もっと有名になっちゃうかも。<line-break>きゃっ！<end>"
 korean = "드디어 이 이야기도 마지막이지? <value:$28>, 힘내자. 용왕님을 쓰러뜨리면 더 유명해질지도 몰라. 꺄!<end>"
+
+["1910132"]
+japanese = "今さらビビったりしてないよな？<line-break>この戦いでケリがつくんだ。<line-break>腕がなるぜ！<end>"
+korean = "이제 와서 겁먹은 건 아니지? 이번 싸움으로 끝장이야. 몸이 근질거리네!<end>"
 
 ["1910133"]
 japanese = "ついにここまで来てしまったね。<line-break><value:$28>と初めて会ったとき、<line-break>今の状況は予測もつかなかった…。<line-break>でも、ここまできたら、<line-break>最後までついていくよ！<end>"
@@ -335,6 +359,10 @@ korean = "네메아 님과 함께 다시 싸우게 될 줄은 몰랐어. 이제 
 ["1910136"]
 japanese = "ですから、<value:$28>。<line-break>運命などというものに<line-break>負けてはいけませんよ。<end>"
 korean = "그러니, <value:$28>. 운명 따위에 져서는 안 됩니다.<end>"
+
+["1910138"]
+japanese = "竜王の力はどれほどのものか<line-break>想像もつかないわ。<line-break>最後まで気を抜かないで。<end>"
+korean = "용왕의 힘이 어느 정도인지 상상도 안 돼. 마지막까지 방심하지 마.<end>"
 
 ["1910140"]
 japanese = "心配しなさんな。<line-break>もしもお前がヤバくなったときは<line-break>俺がとめてやるさ。<line-break>だから、<value:$28>。<line-break>自分を信じて戦おうぜ。<end>"
@@ -395,6 +423,10 @@ korean = "그렇군요. 지금은 인간의 가능성을 믿고 시간의 흐름
 ["1910161"]
 japanese = "とりあえず、闇の侵攻は、<line-break>くい止められましたね。<line-break>よくやってくれました。<line-break>でも、これであなたの旅が、<line-break>終わったわけではありません。<end>"
 korean = "일단 어둠의 침공은 막았습니다. 잘해 주셨어요. 하지만 이걸로 당신의 여행이 끝난 건 아닙니다.<end>"
+
+["1910162"]
+japanese = "ふふふ。これからあなたは、<line-break>どんな道を進むのでしょうね？<line-break>楽しみです。<end>"
+korean = "후후후. 앞으로 당신은 어떤 길을 걷게 될까요? 기대되네요.<end>"
 
 ["1910165"]
 japanese = "Ｖ７の３か、終幕は近い。<line-break>予備メッセージの８だ。<end>"

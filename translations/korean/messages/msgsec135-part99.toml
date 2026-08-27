@@ -12,6 +12,10 @@ korean = "너를 만나기 전까진 말이지….<end>"
 japanese = "結局、自分ひとりで<line-break>こだわって<line-break>世界をゆがめていたんだな。<end>"
 korean = "결국 혼자 집착해서 세계를 일그러뜨리고 있었던 거구나.<end>"
 
+["1350008"]
+japanese = "教えてくれ<line-break>あの晩のことをゼネテスが<line-break>知っているようだったのは、<line-break>奴があそこにいたからなのだろう？<line-break>そして貴様と一緒に、<line-break>俺を救ったからなのだろう？<end>"
+korean = "말해 줘. 그날 밤 일을 제네테스가 알고 있었던 건 녀석이 거기 있었기 때문이지? 그리고 너와 함께 나를 구했기 때문이지?<end>"
+
 ["1350009"]
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
@@ -1036,6 +1040,10 @@ korean = "나이트메어의 물방울을 빼앗겼다.<end>"
 japanese = "ハァイ、ちょうどいいとこに来たわ、<line-break><value:$28>。<line-break>いよいよ、ロストールを攻略するわよ。<end>"
 korean = "하이, 마침 잘 왔어, <value:$28>. 이제 로스토올을 공략할 거야.<end>"
 
+["1350367"]
+japanese = "それで、このタイミングになったわけ。<line-break>しっかし、あのお方も<line-break>何考えてんだか、わかんないよね。<line-break>ま、今回の戦、<line-break>たぶん勝てるから<line-break>いいんだけどね。<end>"
+korean = "그래서 이 타이밍이 된 거야. 그런데 그분도 무슨 생각인지 모르겠네. 뭐, 이번 전쟁은 아마 이길 테니 상관없지만.<end>"
+
 ["1350368"]
 japanese = "それは、なぜなのです。<line-break>カルラ様。<end>"
 korean = "그건 왜입니까, 카를라 님.<end>"
@@ -1244,6 +1252,10 @@ korean = "좋아… 윽…<end>"
 japanese = "だいじょうぶ！？<line-break>お兄ち…兄さん！<end>"
 korean = "괜찮아!? 오빠… 아니, 형!<end>"
 
+["1350448"]
+japanese = "ごめんなさい。<line-break>兄さん、その技を使える体じゃないのに<line-break>私のせいで…<end>"
+korean = "미안해. 오빠, 그 기술을 쓸 수 있는 몸도 아닌데 나 때문에….<end>"
+
 ["1350451"]
 japanese = "（なんだか意識が遠くなってきた<line-break>　気を失ってしまいそうだ…）<end>"
 korean = "(왠지 의식이 멀어져 간다. 정신을 잃을 것 같다….)<end>"
@@ -1323,6 +1335,10 @@ korean = "이런. 자네를 만날 것 같은 느낌이 들어 기다렸더니�
 ["1350484"]
 japanese = "かなり運を使っちまったようだ。<line-break>当分、ツキはなさそうだ。<end>"
 korean = "운을 꽤 써버린 모양이군. 당분간은 운이 없겠어.<end>"
+
+["1350486"]
+japanese = "出たよ。<line-break>お得意のダンマリだ。<line-break>ホント、あんたって食えない女だよ。<end>"
+korean = "또 시작이네. 특기인 묵묵부답이야. 정말, 당신은 속을 모르겠는 여자라니까.<end>"
 
 ["1350488"]
 japanese = "ただな…<line-break>うずくんだよ<line-break>心が。<end>"

@@ -652,6 +652,10 @@ korean = "뭐, 뭐야 너희!? 저 바보 녀석 패거리냐!? 영문은 모르
 japanese = "くそっ、おぼえてやがれ！<end>"
 korean = "젠장, 두고 보자!<end>"
 
+["450208"]
+japanese = "ねえ、<value:$28>。<line-break>　　　　　　　　　　　　　　　　　　<line-break>　<line-break>僕は、町を出てからずっと<line-break>強さってなんなのか迷ってた…。<line-break>だけど、今、わかってきたよ。<end>"
+korean = "있잖아, <value:$28>. 난 마을을 나온 뒤로 계속 강함이 뭔지 고민했어…. 그런데 이제 조금 알 것 같아.<end>"
+
 ["450209"]
 japanese = "僕が欲しかったのは、<line-break>ガルドランを倒す強さじゃない。<line-break>　<line-break>何かを守る強さなんだ。<end>"
 korean = "내가 원했던 건 갈드란을 쓰러뜨릴 힘이 아니야. 무언가를 지킬 힘이야.<end>"

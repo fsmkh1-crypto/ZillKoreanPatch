@@ -8,6 +8,10 @@ korean = "루루안타 볼륨 1 파트 3 시작<end>"
 japanese = "あっ！　ちょうどよかった。<line-break>ねぇ、<value:$28>。<line-break>冒険者ギルドって知ってる？<end>"
 korean = "아! 마침 잘됐다. 저기, <value:$28>. 모험자 길드라는 곳 알아?<end>"
 
+["1590002"]
+japanese = "町にはたいてい、<line-break>冒険者ギルドっていうのがあってね、　<line-break>　<line-break>登録した冒険者に、<line-break>お仕事を探してくれたり、<line-break>その他にも色々助けてくれるんだよぉ。<end>"
+korean = "마을에는 보통 모험가 길드라는 게 있어서 등록한 모험가에게 일을 찾아주거나 그 밖에도 여러 도움을 줘.<end>"
+
 ["1590004"]
 japanese = "それじゃあ、ルルアンタ<line-break>冒険者ギルドでまってるね。<end>"
 korean = "그럼 루루안타, 모험자 길드에서 기다릴게.<end>"
@@ -195,6 +199,10 @@ korean = "난 고양이가 아니야, 네모다.<end>"
 ["1590062"]
 japanese = "アスティアや、ヴァシュタールと同じ<line-break>破壊神の円卓騎士、ネモ！<end>"
 korean = "아스티아와 바슈타르와 같은 파괴신의 원탁기사, 네모!<end>"
+
+["1590063"]
+japanese = "フフ、心配はいりません。　　　　　<line-break>　<line-break>　<line-break>昔、勇者ネメアに倒されてからは<line-break>猫の姿に封印されて、<line-break>今はなんの力も残っていませんから。<end>"
+korean = "후후, 걱정 마세요. 예전에 용자 네메아에게 패한 뒤 고양이 모습으로 봉인되어 지금은 아무 힘도 남지 않았으니까요.<end>"
 
 ["1590066"]
 japanese = "どう考えたって、死んだぜ。　　　　　<line-break>アスティアはよ。<end>"

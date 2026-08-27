@@ -80,6 +80,10 @@ korean = "이봐, 너희도 잡아간다!<end>"
 japanese = "でたらめを言いふらして人心を惑わす<line-break>いんちき予言者が！<end>"
 korean = "헛소문을 퍼뜨려 사람들을 현혹하는 사기 예언가가!<end>"
 
+["560026"]
+japanese = "なにが滅びの日だ。な～にが神の使いだ。<line-break>もっともらしく杖なんて持ちおって。<end>"
+korean = "뭐가 멸망의 날이야. 뭐가 신의 사자야. 그럴듯하게 지팡이나 들고 말이지.<end>"
+
 ["560027"]
 japanese = "おごり高ぶる罪深き輩よ。<line-break>神はお前たちの傲慢を打ち砕くだろう。<end>"
 korean = "교만에 빠진 죄 많은 자들이여. 신은 너희의 오만을 깨뜨릴 것이다.<end>"
@@ -211,6 +215,10 @@ korean = "아, <value:$28> 씨!<end>"
 ["560062"]
 japanese = "あ、あの、<value:$28>さん<line-break>わたしって、ちっちゃいですか？<end>"
 korean = "저, 저기 <value:$28>님. 저, 작은 편인가요?<end>"
+
+["560064"]
+japanese = "で、背がおっきくなりたいなあって、<line-break>そのとき、思いました！<line-break>　<line-break>あの、<value:$28>さん！<line-break>どうすれば背がおっきくなって<line-break>他人の視界に入れるんでしょう？<end>"
+korean = "그래서 그때 키가 커지고 싶다고 생각했어요! 저기, <value:$28> 씨! 어떻게 해야 키가 커져서 다른 사람 눈에 들어올 수 있을까요?<end>"
 
 ["560065"]
 japanese = "なんだ。<value:$28>？<line-break>独り言言ってんじゃなかったんだ。<line-break>　<line-break>おチビちゃんと話してたんだ。<line-break>いやー、見えなくて<line-break>わからなかったぜ！　ハハ！<end>"
@@ -1460,6 +1468,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "あっ、来てくれてたんだー。<line-break>ちょうどいいや。<line-break><line-break>あんたに伝えなきゃいけないことが<line-break>あったんだ。<end>"
 korean = "아, 와 줬구나. 잘됐네. 네게 전해야 할 말이 있었어.<end>"
 
+["560451"]
+japanese = "解放軍の内情？<line-break>ああ、いーからいーから。<line-break>どーせ、筒抜けだかんねー。<end>"
+korean = "해방군 사정? 아, 됐어 됐어. 어차피 다 새고 있으니까.<end>"
+
 ["560454"]
 japanese = "あ、そうだ。あんたさぁ…。<end>"
 korean = "아, 맞다. 너 말이야….<end>"
@@ -1812,6 +1824,10 @@ korean = "이, 일단 철수!<end>"
 japanese = "待って、<value:$28>！<line-break>今、何か…<end>"
 korean = "잠깐, <value:$28>! 방금 뭔가….<end>"
 
+["560611"]
+japanese = "…このバカネコ！<line-break>どっから…迷い込んできたのよ。<line-break>こんなとこ、不似合いでしょ！<line-break>力もない、<line-break>かわいくもない、<line-break>ぼろぼろのバカネコ…。<end>"
+korean = "…이 바보 고양이! 어디서… 길을 잃고 들어온 거야. 이런 곳과 안 어울리잖아! 힘도 없고, 귀엽지도 않고, 너덜너덜한 바보 고양이….<end>"
+
 ["560612"]
 japanese = "それは、あたし…か。<end>"
 korean = "그건 나…인가.<end>"
@@ -2159,6 +2175,10 @@ korean = "후훗, 배신하면 싫어, <value:$28>.<end>"
 ["560759"]
 japanese = "<value:$28>！<line-break>ロープを伝ってこい！<end>"
 korean = "<value:$28>! 로프를 타고 와!<end>"
+
+["560763"]
+japanese = "甘い、甘い、甘い、甘い！<line-break>あたしの性格、理解してないっしょ？<line-break>あたしは、まず、ロープを切って<line-break>その後、呆然とするか逆上したあんたを<line-break>ゆうゆうと斬って捨てるわ。<end>"
+korean = "물러, 물러, 물러, 물러! 내 성격을 이해 못 하네? 난 먼저 밧줄을 끊고, 그다음 멍하니 있거나 발끈한 널 느긋하게 베어 버릴 거야.<end>"
 
 ["560767"]
 japanese = "それが、大切な幼なじみを<line-break>救うためでもね。<end>"

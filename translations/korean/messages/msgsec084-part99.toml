@@ -4,6 +4,10 @@
 japanese = "カルラメッセージVOL1開始<end>"
 korean = "카를라 메시지 VOL1 시작<end>"
 
+["840001"]
+japanese = "もう逃げられないからね。<line-break>あの娘をどこへやったか<line-break>言いなさいよ！<end>"
+korean = "이제 도망칠 수 없어. 그 아이를 어디로 데려갔는지 말해!<end>"
+
 ["840002"]
 japanese = "あん？　娘？<line-break>なんのことだ？<end>"
 korean = "응? 딸? 무슨 소리야?<end>"
@@ -91,6 +95,10 @@ korean = "이쪽, 이쪽. 이 지하도로 성 안에 잠입할 수 있을 텐�
 ["840036"]
 japanese = "ここはね、エサの搬入口。<line-break>ペウダが飼ってるモンスターのエサよ。<line-break>　<line-break>きっと、とんでもない大食らいなのね。<line-break>…エサの中身は知りたくないけど。<end>"
 korean = "여기는 먹이 반입구야. 페우다가 기르는 몬스터 먹이지. 엄청난 대식가인가 봐. …먹이 내용물은 알고 싶지 않지만.<end>"
+
+["840037"]
+japanese = "この通路をうまく抜ければ<line-break>ペウダの部屋の近くに<line-break>出られる…はず。<end>"
+korean = "이 통로를 잘 빠져나가면 페우다 방 근처로 나갈 수 있을… 거야.<end>"
 
 ["840038"]
 japanese = "だーいじょーぶ、だいじょーぶ。<line-break>カルラ様を信用しなさいって。<end>"

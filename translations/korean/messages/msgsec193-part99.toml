@@ -96,6 +96,10 @@ korean = "…너도 작별 인사를 해 둬.<end>"
 japanese = "行ってしまいましたね。<end>"
 korean = "가버렸네요.<end>"
 
+["1930028"]
+japanese = "月光を持つセラなら、<line-break>私たちがここにいることは<line-break>知っていただろうにな。<end>"
+korean = "월광을 지닌 세라라면 우리가 여기 있는 걸 알고 있었을 텐데.<end>"
+
 ["1930029"]
 japanese = "セラ…、<line-break>あなたの祝福は<line-break>確かに受け取ったわ。<end>"
 korean = "세라… 당신의 축복은 확실히 받았어.<end>"
@@ -163,6 +167,10 @@ korean = "돌아왔구나…. 아버지의 밭으로….<end>"
 ["1930052"]
 japanese = "姉ちゃん…。　　　　<line-break>　<line-break>　<line-break>姉ちゃんは<line-break>冒険を続けるんだろ。<end>"
 korean = "누나…. 누나는 모험을 계속할 거지.<end>"
+
+["1930053"]
+japanese = "…やっぱり、そうだよな。<line-break>姉ちゃんには<line-break>このノーブルはせますぎるもんな。<end>"
+korean = "…역시 그렇지. 누나한텐 이 노블은 너무 좁으니까.<end>"
 
 ["1930055"]
 japanese = "いってーなー。<line-break>すぐ手が出るんだから！<line-break>もう！<end>"
@@ -339,6 +347,10 @@ korean = "오랜만이네, <value:$28>. 어때? 한동안 못 봤는데 실력�
 ["1930115"]
 japanese = "<value:$28>が守ってくれるの？<line-break>…それは仲間として？<line-break><line-break>それとも…<end>"
 korean = "<value:$28>이 지켜 줄 거야? …그건 동료로서? 아니면…<end>"
+
+["1930116"]
+japanese = "なんてね。冗談よ。<line-break>おくれをとらないように、<line-break>精一杯ついていくわ。<end>"
+korean = "…라고 해도 농담이야. 뒤처지지 않도록 죽을힘을 다해 따라갈게.<end>"
 
 ["1930117"]
 japanese = "<value:$28>が守ってくれるの？<line-break><line-break><line-break>…フフ、期待してるわ。<line-break>私もこの弓で、精一杯<line-break>バックアップさせてもらうから。<end>"

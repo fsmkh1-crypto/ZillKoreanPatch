@@ -8,6 +8,10 @@ korean = "이크렘 V1 시작<end>"
 japanese = "あ、こんにちは。<line-break>いいお天気ですね。<end>"
 korean = "아, 안녕하세요. 좋은 날씨네요.<end>"
 
+["1820004"]
+japanese = "あ、うふふっ。<line-break>ホントに、なんででしょうね。　　　<line-break>　<line-break>あの、お名前はなんというんですか？<line-break>私は、ここの神殿の巫女、<line-break>イークレムンといいます。<end>"
+korean = "아, 후후. 정말 왜 그런 걸까요. 저기, 이름이 어떻게 되세요? 저는 이 신전의 무녀 이크레문이라고 해요.<end>"
+
 ["1820005"]
 japanese = "<value:$28>さん…ですか。<line-break>…不思議です。私もなぜか<line-break>この子と同じように…<end>"
 korean = "<value:$28>님…이신가요. …신기하네요. 저도 왠지 이 아이와 똑같이….<end>"

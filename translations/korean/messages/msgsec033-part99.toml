@@ -540,6 +540,10 @@ korean = "…루루안타, …갈게.<end>"
 japanese = "…今のお前さんには<line-break>なに言っても無駄、か。<end>"
 korean = "…지금 너한테는 무슨 말을 해도 소용없나.<end>"
 
+["330172"]
+japanese = "…気持ちもわからないじゃないが、<line-break>生きている人間には<line-break>やらないといけないことがある。<line-break>まず、夜明けまでに、<line-break>おやじさんを弔う。<line-break>行くぞ、<value:$28>。<end>"
+korean = "…네 마음도 모르는 건 아니지만, 살아 있는 사람에겐 해야 할 일이 있어. 우선 새벽까지 아버님 장례를 치른다. 가자, <value:$28>.<end>"
+
 ["330174"]
 japanese = "自分さえ、もう少し強ければ…、<line-break>そう思ってるんだろ？<line-break>　<line-break>だが、ただ、お前さんが強けりゃ、<line-break>おやじさんは<line-break>本当に死なずにすんだのかい？<end>"
 korean = "내가 조금만 더 강했더라면… 그렇게 생각하지? 하지만 네가 강하기만 했다면 아버지가 정말 죽지 않았을까?<end>"

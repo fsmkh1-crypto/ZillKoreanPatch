@@ -16,6 +16,10 @@ korean = "안녕하세요! <value:$28>님이 보여서 달려왔어요.<end>"
 japanese = "ちょ、ちょっと、カフィン…！<end>"
 korean = "자, 잠깐, 카핀…!<end>"
 
+["1410005"]
+japanese = "あ、あの違うんです。<line-break>いや、えと、違わないけど…<line-break>違わないんです！　あれ？<end>"
+korean = "아, 아니, 그게 아니에요. 아니, 그러니까, 틀린 건 아닌데… 아니에요! 어라?<end>"
+
 ["1410007"]
 japanese = "カフィン、<line-break>子供をからかうもんじゃないよ。<end>"
 korean = "카핀, 아이를 놀리면 안 돼.<end>"
@@ -31,6 +35,10 @@ korean = "뭐, 뭐야. 그렇게 노골적으로 뒤로 물러날 것까진 없�
 ["1410011"]
 japanese = "違う。<line-break>もうひとり、客が来た。<end>"
 korean = "아니야. 손님이 한 명 더 왔어.<end>"
+
+["1410012"]
+japanese = "久しぶりだね、死の羽音。<line-break>いや、今はレイヴンと<line-break>呼んだ方がいいかな？<end>"
+korean = "오랜만이군, 죽음의 날갯소리. 아니, 지금은 레이븐이라고 부르는 게 좋을까?<end>"
 
 ["1410013"]
 japanese = "ひっ………！<end>"
@@ -304,6 +312,14 @@ korean = "싸움을 승부라 부른다. 하지만 내게 그 의미는 사라�
 japanese = "頂点には<line-break>ひとり分の場所しかない。<line-break>敵する者なき、孤独な場所だ。<end>"
 korean = "정상에는 한 사람 몫의 자리밖에 없다. 맞설 자 없는 고독한 자리다.<end>"
 
+["1410093"]
+japanese = "だが、うぬが現れた。<line-break>そして運命という檻を壊した。<line-break>我に戦いを取り戻した。<end>"
+korean = "하지만 네가 나타났다. 그리고 운명이라는 우리를 부쉈지. 내게 싸움을 되돌려 줬다.<end>"
+
+["1410094"]
+japanese = "返礼だ、頂点に立つ者よ。<line-break>こたびは、我がうぬに挑み、<line-break>うぬの孤独を壊そう。<end>"
+korean = "답례다, 정상에 선 자여. 이번에는 내가 네게 도전해 네 고독을 깨뜨리겠다.<end>"
+
 ["1410095"]
 japanese = "…ゆくぞ。<end>"
 korean = "…간다.<end>"
@@ -375,6 +391,10 @@ korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
 ["1410115"]
 japanese = "ウフフ、<value:$28>様も<line-break>今日は一日、ご苦労様でした。　　　<line-break>　<line-break>そうそう。<value:$28>様を<line-break>お呼びしたのは、これを<line-break>受け取ってもらいたかったからです。<end>"
 korean = "우후후, <value:$28> 님도 오늘 하루 수고 많으셨어요. 그리고 <value:$28> 님을 부른 건 이걸 받아 주셨으면 해서예요.<end>"
+
+["1410116"]
+japanese = "私が初めて誰の助けも借りずに<line-break>焼いたクッキーです。<line-break>召しあがってください。<end>"
+korean = "제가 처음으로 누구 도움도 받지 않고 구운 쿠키예요. 드셔 주세요.<end>"
 
 ["1410117"]
 japanese = "あ、待ってください。<line-break>感想はあとで…、<line-break>ここでは食べないで…。<end>"
@@ -1440,6 +1460,10 @@ korean = "그 마음을 헛되게 해서는 안 된다고… 그렇게 믿고 �
 japanese = "これからも、私はずっとここにいます。<line-break>ミズチの魂と語らい、<line-break>水のせせらぐ音を聞いて、<line-break>ゆっくり、生きていくことでしょう。<end>"
 korean = "앞으로도 저는 계속 여기 있을 겁니다. 미즈치의 영혼과 이야기하고 물 흐르는 소리를 들으며 천천히 살아가겠지요.<end>"
 
+["1410443"]
+japanese = "旅の途中、<line-break>いつでも立ち寄ってください。<line-break>たくさん、お話をしましょう。<line-break>いつでもここで、イークレムンは、<line-break><value:$28>様のことを<line-break>お待ちしております…。<end>"
+korean = "여행 중 언제든 들러 주세요. 많은 이야기를 나눠요. 언제나 여기서 이크레문은 <value:$28>님을 기다리고 있겠습니다….<end>"
+
 ["1410444"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -1487,6 +1511,10 @@ korean = "뒤, 뒤는 부탁해… 약속을…. ……………….<end>"
 ["1410459"]
 japanese = "…なあんてな。<line-break> <line-break> <line-break>ちょいとは、心配したか？<line-break>ん？<end>"
 korean = "…농담이야. 조금은 걱정했나? 응?<end>"
+
+["1410460"]
+japanese = "はっはっは！<line-break>世界最強となったはいいが、<line-break>心の面はまだまだ青いようだのう！<end>"
+korean = "하하하! 세계 최강이 된 건 좋지만 마음은 아직도 풋내기구나!<end>"
 
 ["1410461"]
 japanese = "ついてこい、<value:$28>！<line-break>封士イオンズ様が、<line-break>みっちり鍛えてやるぞい！<line-break>わーはっはっはっ！<end>"
@@ -1575,6 +1603,10 @@ korean = "아직 고브.<end>"
 ["1410483"]
 japanese = "なにをするゴブ？<line-break>急がないと晩ごはんに<line-break>間に合わないゴブ。<end>"
 korean = "뭐 하는 고브? 서두르지 않으면 저녁밥에 늦는다 고브.<end>"
+
+["1410486"]
+japanese = "おなかをすかせた人が<line-break>いなくなってからでも<line-break>ごちそうはきっと食べれるゴブ。<end>"
+korean = "배고픈 사람이 없어지고 나서도 진수성찬은 분명 먹을 수 있다 고브.<end>"
 
 ["1410487"]
 japanese = "…す、凄いゴブ。<line-break>オルナットがごちそうを<line-break>あきらめたゴブ！<end>"

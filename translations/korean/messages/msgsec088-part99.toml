@@ -52,6 +52,10 @@ korean = "비시민이라 나빠?<end>"
 japanese = "そんなことないよ。<line-break>むしろ、市民って聞くと<line-break>構えちゃうかな。<line-break>まぁ、ボクだって<line-break>市民はみんな悪者だなんて<line-break>考えてるわけじゃないけどさ。<end>"
 korean = "그렇지 않아. 오히려 시민이라고 하면 경계하게 되려나. 뭐, 나도 시민이 전부 나쁜 사람이라고 생각하진 않지만.<end>"
 
+["880021"]
+japanese = "ボク、市民かどうかなんて<line-break>つまらないレベルで人を見ないから。<line-break>　<end>"
+korean = "난 시민인지 아닌지 같은 시시한 수준으로 사람을 보지 않아.<end>"
+
 ["880022"]
 japanese = "それじゃあね、<value:$28>。<line-break>見たい試合があるからボクは行くよ。<line-break>またね。<end>"
 korean = "그럼 안녕, <value:$28>. 보고 싶은 시합이 있어서 난 갈게. 또 보자.<end>"
@@ -328,6 +332,10 @@ korean = "OFF인 채로 둔다<end>"
 japanese = "これはデバッグ用メッセージです。<line-break>私は、今、誘拐されていません。<line-break>　<end>"
 korean = "이건 디버그용 메시지입니다. 저는 지금 유괴당하지 않았습니다.<end>"
 
+["880108"]
+japanese = "フラグをＯＮにしました。<line-break>もう一度話しかけて確認してください<line-break>　<end>"
+korean = "플래그를 ON으로 했습니다. 다시 한 번 말을 걸어 확인해 주세요.<end>"
+
 ["880109"]
 japanese = "これはデバッグ用メッセージです。<line-break>私は、今、誘拐されています。<line-break>　<end>"
 korean = "이건 디버그용 메시지입니다. 저는 지금 유괴되어 있습니다.<end>"
@@ -355,6 +363,10 @@ korean = "미사용: 그래도 누나, 다행이네. 에스텔이 돌아와서.<
 ["880117"]
 japanese = "未使用：よし、突撃じゃ！<line-break>いくぞ！　ばあさんや！<end>"
 korean = "미사용: 좋아, 돌격이다! 간다! 할멈아!<end>"
+
+["880118"]
+japanese = "未使用：なんだよ！　ゼネテスもレムオンも。<line-break>ボクはエステルだよ。もう！<end>"
+korean = "미사용: 뭐야! 제네테스도 레몬도. 난 에스텔이라고. 정말!<end>"
 
 ["880119"]
 japanese = "未使用：はて、誰でしたかいのう、ばあさんや。<end>"
@@ -419,6 +431,14 @@ korean = "괜찮아, 괜찮아. 그 여자에게 거칠게 하진 않았어. 움
 ["880144"]
 japanese = "<value:$28>、<line-break>こいつがボクをさらったんだ！<end>"
 korean = "<value:$28>,이 녀석이 날 납치했어!<end>"
+
+["880145"]
+japanese = "くすっ、僕じゃないさ。<line-break>正確にはこいつだろ？<line-break>君をさらったのは。<end>"
+korean = "후후, 내가 아니야. 정확히는 이 녀석이지? 널 납치한 건.<end>"
+
+["880146"]
+japanese = "勇者君、こいつはちょっち手強いよ！<line-break>がんばって！　死んだりしないでね！<end>"
+korean = "용자군, 이 녀석 조금 강해! 힘내! 죽거나 하지 마!<end>"
 
 ["880147"]
 japanese = "おみごと！　強いねぇ。<line-break>ご褒美に呪縛を解いてあげるよ。<end>"

@@ -168,6 +168,10 @@ korean = "노블 백작 <value:$28>! 이런 곳에서 뭘 하는 겁니까! 빨�
 japanese = "今度会うときは<line-break>戦場ね。<end>"
 korean = "다음에 만날 땐 전장이겠네.<end>"
 
+["1010061"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break>…あなたはゼネテスの配下よ。<line-break>どういうつもりでここに来たの？<line-break>次の私たちの目標がわからないの？<end>"
+korean = "<value:$28>…. …당신은 제네테스의 부하잖아. 무슨 생각으로 여기 온 거야? 다음 목표가 뭔지 모르는 거야?<end>"
+
 ["1010063"]
 japanese = "…今度会うときは<line-break>戦場…というわけね。<end>"
 korean = "…다음에 만날 때는전장…이라는 거네.<end>"
@@ -195,6 +199,10 @@ korean = "하지만 볼일도 없는데 오면 안 돼. 여긴 군대니까. 공
 ["1010074"]
 japanese = "<value:$28>、冒険の方はどう？<line-break>何かおもしろいことでもあった？<end>"
 korean = "<value:$28>, 모험은 어때? 뭔가 재미있는 일이라도 있었어?<end>"
+
+["1010076"]
+japanese = "問題にぶつかるたびに、カルラ様の<line-break>すごさに感心しちゃうわね。私より<line-break>年下なのに立派にこなしているもの。<line-break>私も負けてられないわ。<line-break>それじゃあね、<value:$28>。<end>"
+korean = "문제가 생길 때마다 카를라 님의 대단함에 감탄하게 되네. 나보다 어린데도 훌륭히 해내니까. 나도 질 수 없지. 그럼 또 봐, <value:$28>.<end>"
 
 ["1010077"]
 japanese = "…私、軍務で忙しいの。<line-break><value:$28>、それじゃ。<end>"

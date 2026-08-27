@@ -192,6 +192,10 @@ korean = "…오늘은… 기분이 좋지 않네요. 돌아가 주시겠어요?
 japanese = "<value:$28>、どうした？<end>"
 korean = "<value:$28>, 무슨 일이야?<end>"
 
+["670050"]
+japanese = "陛下の他に男が？<line-break>あのエリスにか？　　　　　　　　　　<line-break>　<line-break>くだらん噂話はやめろと言ったはずだ。<line-break>エリスが色恋におぼれるような女なら<line-break>俺も苦労はしない。<end>"
+korean = "폐하 말고 다른 남자가? 그 엘리스에게? 시답잖은 소문은 그만두랬을 텐데. 엘리스가 사랑에 빠질 여자라면 나도 고생 안 하지.<end>"
+
 ["670052"]
 japanese = "ティアナか？<end>"
 korean = "티아나인가?<end>"

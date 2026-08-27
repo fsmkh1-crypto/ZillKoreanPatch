@@ -104,6 +104,10 @@ korean = "그럼 공주님, 실례하겠습니다.<end>"
 japanese = "待ってたよ、<value:$28>。<line-break>この前、少し話したよね？<line-break>この方がアトレイア王女さ。　　　<line-break>じゃあ、さっそくで悪いんだけど、<line-break>それ、もらっちゃうね。<end>"
 korean = "기다렸어, <value:$28>. 전에 조금 이야기했지? 이분이 아트레이아 왕녀야. 자, 바로라 미안하지만 그거 받을게.<end>"
 
+["750031"]
+japanese = "<value:$28>、ありがとう。<line-break>これで彼女に世界を見せてあげられる。<line-break>　<line-break>悲しみと憎悪に彩られた世界をね。<line-break>くすっ、あははははは！<line-break>ホント、ありがとうね！<end>"
+korean = "<value:$28>, 고마워. 이제 그녀에게 세상을 보여 줄 수 있어. 슬픔과 증오로 물든 세상을 말이야. 후후, 아하하하하! 정말 고마워!<end>"
+
 ["750032"]
 japanese = "アトレイア様、<line-break>あなたの勇者が光を持ってきました。<end>"
 korean = "아트레아 님, 당신의 용자가 빛을 가져왔습니다.<end>"
@@ -480,6 +484,14 @@ korean = "색혹의 눈동자를 후고에게 팔 생각이야? 네가 원래 �
 japanese = "ちょいと待ちな。　　　　　　　<line-break>そこの悪党！<line-break>　<line-break>忘れられた王女を救うはずの<line-break>色惑の瞳…それをフゴーに売って<line-break>もうけようとは言語道断…。<end>"
 korean = "잠깐 기다려. 거기 악당! 잊힌 왕녀를 구할 색혹의 눈동자를 후고에게 팔아 돈을 벌려 하다니 말도 안 돼….<end>"
 
+["750151"]
+japanese = "そう！　俺様は最高の人生の伴侶を得て<line-break>世界最強の幸せ者、ガルドランだ！<end>"
+korean = "그래! 이 몸은 최고의 인생 동반자를 얻은 세상에서 가장 행복한 사나이, 갈드란이다!<end>"
+
+["750153"]
+japanese = "おうっ！　なんということだ！<line-break>悪党の正体がお姉さまだったなんて！<end>"
+korean = "오오! 이게 무슨 일이야! 악당의 정체가 누님이었다니!<end>"
+
 ["750156"]
 japanese = "悪党め。新婚の勇者である俺様に<line-break>倒されることを幸せに思うがいい！<end>"
 korean = "악당 놈. 신혼의 용자인 이 몸에게 쓰러지는 걸 행복으로 알아라!<end>"
@@ -583,6 +595,10 @@ korean = "감사는 필요 없다. 이 몸은 악이 있는 곳엔 반드시 나
 ["750192"]
 japanese = "それに、また来ていただけるなんて。<line-break>私、本当にうれしいです。<line-break>　<line-break>…こんなによくしていただいて<line-break>本当にいいのかと思うくらいです。<end>"
 korean = "게다가 또 와 주시다니. 정말 기뻐요. …이렇게까지 잘해 주셔도 되는 건지 생각할 정도예요.<end>"
+
+["750193"]
+japanese = "すみません<line-break>この部屋…暗い…ですか？　　　　　　<line-break>　<line-break>でも、目が見えることが周りに知れると<line-break>この身が危険になるだろうと<line-break>シャリ様がおっしゃいますので…。<end>"
+korean = "죄송해요. 이 방… 어두운가요? 하지만 눈이 보인다는 걸 주변에서 알면 위험해질 거라고 샤리 님이 말씀하셔서….<end>"
 
 ["750195"]
 japanese = "平気です。さびしくは…ありません。<line-break>孤独と闇には、なれていますもの。<end>"
@@ -715,6 +731,10 @@ korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
 ["750230"]
 japanese = "はじめまして。<line-break>僕はシャリ。人は東方の博士なんて<line-break>呼んでくれたりもするんだ。<line-break>よろしくね、<line-break><value:$28>。<end>"
 korean = "처음 뵙겠습니다. 저는 샤리. 사람들은 동방의 박사라고도 부르죠. 잘 부탁해, <value:$28>.<end>"
+
+["750231"]
+japanese = "ここは、君のまだ知らない　　　　　<line-break>お姫様の部屋だよ。<line-break>　<line-break>でも、彼女のことを話すには<line-break>君はまだちょっと頼りないな。<line-break>だから、会わせるわけにもいかない。<end>"
+korean = "여긴 네가 아직 모르는 공주님의 방이야. 하지만 그녀 이야기를 하기엔 넌 아직 좀 미덥지 못해. 그래서 만나게 해 줄 수도 없어.<end>"
 
 ["750233"]
 japanese = "気をつかっていただいて　　　　<line-break>ありがとうございます。<line-break>　<line-break><value:$28>様が、こうして<line-break>部屋に来てくださるだけで<line-break>私は、充分です…。<end>"

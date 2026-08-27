@@ -40,9 +40,17 @@ korean = "그보다 아이린, 넌 여자아이잖니. 위험한 짓은 하면 �
 japanese = "ハ、ハハ。<line-break>あ、それじゃ、お母さん。<line-break>あとは任せたわね。<end>"
 korean = "하, 하하. 그럼 엄마. 나머지는 맡길게.<end>"
 
+["300015"]
+japanese = "もう、しょうのない子ね。　　　　　　<line-break>いってらっしゃい。<line-break>　<end>"
+korean = "정말, 어쩔 수 없는 애라니까. 다녀오렴.<end>"
+
 ["300016"]
 japanese = "あら、目が覚めたみたいね、          <line-break><value:$28>。<line-break>　<end>"
 korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
+
+["300018"]
+japanese = "はい、大事な剣。　　　　　　　　　　<line-break>あなたのお父様の形見。<line-break>　<end>"
+korean = "자, 소중한 검이야. 네 아버지의 유품.<end>"
 
 ["300019"]
 japanese = "<value:$28>なら、<line-break>きっとあの娘より強くなれるわ。　　　<line-break>がんばってらっしゃい。<end>"
@@ -107,6 +115,10 @@ korean = "미안해요… 저 같은 사람 때문에. …다치기까지 하게
 ["300044"]
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"
+
+["300046"]
+japanese = "ご、ごめんなさい。そうですよね。<line-break>…アイリーンさんがいますもんね。<end>"
+korean = "죄, 죄송해요. 그렇죠. …아이린 씨가 있으니까요.<end>"
 
 ["300047"]
 japanese = "それじゃあ、<value:$28>さん。<line-break>私は仕事に戻ります。<line-break>たまには酒場に遊びにきてくださいね。<end>"

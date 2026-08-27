@@ -92,6 +92,10 @@ korean = "자, 내 여행은 끝났다. 이제부터 나는 자네와 여행을 
 japanese = "さっそく準備じゃ。<line-break><value:$28>、そこにある<line-break>光る炎竜岩を拾ってくれんか。<end>"
 korean = "당장 준비하자. <value:$28>, 거기 있는 빛나는 염룡암을 주워다 주겠나.<end>"
 
+["930041"]
+japanese = "カッツの奴め、相変わらず　　　　　<line-break>道具の手入れがいきとどいとる。<line-break>　<line-break>これなら、<value:$28>とわしでも<line-break>十分に炎の神剣を打つことが<line-break>できるじゃろうな。<end>"
+korean = "캇츠 녀석, 여전히 도구 손질이 잘돼 있군. 이 정도면 <value:$28>와 나라도 충분히 화염의 신검을 벼릴 수 있겠어.<end>"
+
 ["930042"]
 japanese = "予備用メッセージ８<line-break>デルガド・ボリューム４<end>"
 korean = "예비 메시지 8 델가도, 볼륨 4<end>"

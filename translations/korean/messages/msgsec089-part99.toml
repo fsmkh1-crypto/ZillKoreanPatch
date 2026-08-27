@@ -40,6 +40,10 @@ korean = "…용골 사막 한가운데….<end>"
 japanese = "ラドラスのあたりだよ？<line-break>どうなってるの？　　　　　<line-break>　<line-break>ねぇ、<value:$28>、<line-break>とにかく助けに行かなきゃ！<end>"
 korean = "라드라스 근처야? 어떻게 된 거야? 있잖아, <value:$28>, 어쨌든 구하러 가야 해!<end>"
 
+["890021"]
+japanese = "僕、とにかく、情報をあつめるよ。<line-break>用があったら猫屋敷で呼んで。じゃね！<end>"
+korean = "난 일단 정보를 모아 볼게. 볼일 있으면 고양이 저택에서 불러. 그럼!<end>"
+
 ["890022"]
 japanese = "<value:$28>様！<line-break>エステル様が、エステル様が！<line-break>シャリという魔術師にさらわれてしまいました！<end>"
 korean = "<value:$28>님! 에스텔 님이, 에스텔 님이! 샤리라는 마술사에게 납치됐습니다!<end>"
@@ -448,6 +452,10 @@ korean = "고마워. 그럼 상황을 설명할게.<end>"
 japanese = "そこで、あなたに私の警護を<line-break>お願いしたいの。<line-break>ごく私的な警護を、ね。<end>"
 korean = "그래서 당신에게 제 경호를 부탁하고 싶어요. 지극히 사적인 경호를요.<end>"
 
+["890176"]
+japanese = "フフ、うれしいわ。<line-break>こっちの用意はできています。<line-break>すぐ出発しましょう。<end>"
+korean = "후후, 기쁘네. 이쪽 준비는 끝났어. 바로 출발하자.<end>"
+
 ["890178"]
 japanese = "すまんの、<value:$28>。<end>"
 korean = "미안하네, <value:$28>.<end>"
@@ -547,6 +555,10 @@ korean = "그때의… 기억이… 되살아나서…<end>"
 ["890215"]
 japanese = "私の…目の前で…家族が…私の家族が…<line-break>な、なぶり…殺されて…いった。<line-break>　<line-break>私が…ザギヴという名前…だった…<line-break>ばっかりに…<end>"
 korean = "내… 눈앞에서… 가족이… 내 가족이… 괴롭힘당하며 죽어 갔어. 내가… 자기브라는 이름이었던 것 때문에….<end>"
+
+["890216"]
+japanese = "あのとき…、<line-break>ネメア様が助けに来て…くださって…、<line-break>私だけ…助かった…<end>"
+korean = "그때… 네메아 님이 구하러 와… 주셔서… 나만… 살았어….<end>"
 
 ["890217"]
 japanese = "私…だけ…<end>"
@@ -744,6 +756,10 @@ korean = "아무리 발버둥 쳐도 소용없어. 모든 것은 운명….<end>
 japanese = "いくらあらがおうとも…<line-break>すべては、さだめ…。<line-break>ふふ…うふふふふふ。<end>"
 korean = "아무리 저항해도… 모든 것은 숙명…. 후후… 우후후후후.<end>"
 
+["890296"]
+japanese = "気をつけたまえ。<line-break>彼女の内には、円卓騎士マゴスが<line-break>棲みついているのだ。<end>"
+korean = "조심하게. 그녀 안에는 원탁기사 마고스가 깃들어 있다.<end>"
+
 ["890298"]
 japanese = "くっ、玄武将軍…。<end>"
 korean = "큭, 현무 장군….<end>"
@@ -796,6 +812,10 @@ korean = "지금의 우리로는 녀석들에게 이길 수 없다. …네메아
 japanese = "…その自信はどこから来るのだ？<line-break> <line-break> <line-break>しかし…<line-break>君のおかげで命が助かったのは事実だ。<end>"
 korean = "…그 자신감은 어디서 나오는 거지? 하지만… 네 덕분에 목숨을 건진 건 사실이다.<end>"
 
+["890316"]
+japanese = "今の我らでは、やつらには勝てまい。<line-break>さらなる力を手に入れる必要がある。<end>"
+korean = "지금의 우리로는 녀석들에게 이길 수 없다. 더 큰 힘을 손에 넣어야 한다.<end>"
+
 ["890317"]
 japanese = "…かつて、そのあまりの威力ゆえ、<line-break>封士レオニックの手によって<line-break>遺跡に封印されたという、<line-break>禁呪とも呼ぶべき最強の聖魔法、<line-break>アドヴェント。<end>"
 korean = "…과거 그 엄청난 위력 때문에 봉사 레오닉의 손으로 유적에 봉인되었다는, 금주라 불러도 될 최강의 성마법 아드벤트.<end>"
@@ -812,9 +832,17 @@ korean = "오, 온다…!<end>"
 japanese = "フフフ…なんとふがいなき有り様か。<line-break>我が子よ…。<end>"
 korean = "후후후… 이 얼마나 한심한 꼴인가. 내 아이여….<end>"
 
+["890323"]
+japanese = "シャローム…貴様！<line-break>醜きウジ虫の魂までは、<line-break>ソウルリープも見逃したか！<end>"
+korean = "샬롬… 네놈! 추악한 구더기의 혼까지는 소울리프도 놓친 건가!<end>"
+
 ["890325"]
 japanese = "クッ！<line-break>貴様の悪趣味ぶりには<line-break>吐き気すら覚える！<line-break>息子の死に際くらい、<line-break>気を利かせられないのか！<end>"
 korean = "큭! 네 악취미에는 구역질까지 난다! 아들이 죽는 순간만큼은 눈치 좀 챌 수 없나!<end>"
+
+["890326"]
+japanese = "まあ、そう捨て鉢になるな。<line-break>我が子の死を悲しまない親が<line-break>いると思うか？<end>"
+korean = "그렇게 자포자기하지 마라. 자기 자식의 죽음을 슬퍼하지 않는 부모가 있다고 생각하나?<end>"
 
 ["890327"]
 japanese = "貴様が欲しているのは、<line-break>意のままに操れる人形だろう！<line-break> <line-break>恥を知れ！<line-break>貴様は、人類の革新者どころか、<line-break>死肉にたかる金蝿そのものだ！<end>"
@@ -1827,6 +1855,10 @@ korean = "이제 우리에게 물러설 길은 남아 있지 않다는 건가…
 ["890659"]
 japanese = "<value:$28>、ノエルは私が守る。<line-break><line-break><line-break>ソウルイーターは手負いだ、<line-break>今なら倒せるだろう。<line-break>頼んだぞ！<end>"
 korean = "<value:$28>, 노엘은 내가 지킨다. 소울이터는 부상당했다. 지금이라면 쓰러뜨릴 수 있을 거야. 부탁한다!<end>"
+
+["890660"]
+japanese = "…<value:$28>さん。<line-break>ありがとうございます。<line-break>ソウルイーターを倒してくれて。<line-break>…でも、ふたりが、<line-break>カフィンも、レイヴンも<line-break>目を開けてくれないんです…。<end>"
+korean = "…<value:$28> 씨. 감사합니다. 소울이터를 쓰러뜨려 줘서. …하지만 두 사람, 카핀도 레이븐도 눈을 떠 주지 않아요….<end>"
 
 ["890662"]
 japanese = "ノエル、このふたりを生き返らせる<line-break>手段はないでもない。<end>"
