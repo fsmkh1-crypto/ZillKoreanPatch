@@ -8,6 +8,10 @@ korean = "여행 출발 06(개) 메시지 시작<end>"
 japanese = "フリントさん。<line-break>今日、ノーブルをご出発ですか。　<line-break>　<end>"
 korean = "플린트 씨. 오늘 노블을 떠나시는 겁니까.<end>"
 
+["1860002"]
+japanese = "ええ。<line-break>ここでの商売も終わりましたので、　<line-break>ロストールへ向かうつもりです。<end>"
+korean = "네. 여기서의 장사도 끝났으니 로스토올로 갈 생각입니다.<end>"
+
 ["1860004"]
 japanese = "そうですね。気をつけておきます。　<line-break>　<line-break>　<end>"
 korean = "그렇군요. 조심해 두겠습니다.<end>"
@@ -19,6 +23,10 @@ korean = "어라? 플린트 씨, <value:$28>은?<end>"
 ["1860007"]
 japanese = "またぁ？<line-break>しょうがないんだからぁ！<end>"
 korean = "또야? 정말 어쩔 수 없다니까!<end>"
+
+["1860008"]
+japanese = "この前みたいに、<line-break>変なおじさんたちに襲われたら<line-break>どうするつもりなのかしら。<end>"
+korean = "지난번처럼 이상한 아저씨들에게 습격당하면 어쩌려고 그러는 걸까.<end>"
 
 ["1860009"]
 japanese = "まあまあ、あのときも<line-break>幸い無事ですんだことだし…。　　　<line-break>　<end>"
@@ -75,6 +83,10 @@ korean = "루루안타는 마을 밖 숲으로 향했을 거야. 부탁한다, <
 ["1860027"]
 japanese = "おお、フリントさんとこの<line-break><value:$28>か。<line-break>今日出発かな。<end>"
 korean = "오오, 플린트 씨네 <value:$28>구나. 오늘 출발하나?<end>"
+
+["1860028"]
+japanese = "いつも一緒のおチビちゃんが<line-break>お前を捜しとった。<line-break>町の外の林の方に行ったぞ。<end>"
+korean = "늘 같이 다니는 꼬마가 널 찾고 있었어. 마을 밖 숲 쪽으로 갔다.<end>"
 
 ["1860030"]
 japanese = "あーっ、<value:$28>！<line-break>もう、どこ行ってたのよぉ！<line-break>捜したんだよぉ。<end>"
@@ -179,6 +191,10 @@ korean = "설령 당신이라 해도,그건 말씀드릴 수 없습니다….　
 ["1860059"]
 japanese = "ま、いいさ。察しはついてる。<line-break>だが、感心しねぇな。<end>"
 korean = "뭐, 됐어. 짐작은 가. 하지만 감탄할 일은 아니군.<end>"
+
+["1860060"]
+japanese = "…言葉もございません。<line-break>この町の住民には<line-break>申しわけなく思っております…。　<end>"
+korean = "…드릴 말씀이 없습니다. 이 마을 주민들에게 죄송하게 생각하고 있습니다….<end>"
 
 ["1860062"]
 japanese = "私は、今度のお務めが終わったら、<line-break>お暇をいただこうかと<line-break>考えております。<end>"
@@ -331,6 +347,10 @@ korean = "어이, 한눈팔면 다친다. 네 상대는 바로 나다!<end>"
 ["1860109"]
 japanese = "<value:$28>、<line-break>こちらが終わったらすぐに行く！　<line-break>それまで持ちこたえてくれ！<end>"
 korean = "<value:$28>, 이쪽이 끝나면 곧 갈게! 그때까지 버텨 줘!<end>"
+
+["1860111"]
+japanese = "こ、こいつら、ガキのくせに強い。<line-break>こんな話、聞いてないぜえ、<line-break>ちくしょお！<end>"
+korean = "이, 이 녀석들, 애들 주제에 강하잖아. 이런 얘긴 못 들었다고, 젠장!<end>"
 
 ["1860112"]
 japanese = "<value:$28>、<line-break>フリントさんを助けなきゃ！<end>"

@@ -96,6 +96,10 @@ korean = "시끄러워!<end>"
 japanese = "先生、また今日も<line-break>稽古をつけてください！　　　　<line-break>　<line-break>明日こそ、<value:$28>から<line-break>一本取ってみせます！<end>"
 korean = "선생님, 오늘도 수련 부탁드립니다! 내일이야말로 <value:$28>에게 한 판 따내겠습니다!<end>"
 
+["1920028"]
+japanese = "うげっ！　またか？<line-break>もう勘弁してくれよ。<line-break>お前の方が俺より強いじゃねえか。<end>"
+korean = "우웩! 또야? 이제 좀 봐줘. 네가 나보다 강하잖아.<end>"
+
 ["1920030"]
 japanese = "とほほ…。　　　　　　　　　　　<line-break>　<line-break>　<end>"
 korean = "흑흑….<end>"
@@ -308,6 +312,10 @@ korean = "자, 기운 내서 가자~! 다음 대륙이 우리를 부르고 있�
 japanese = "今日もいいお天気ね。<line-break>よかったわ、晴れてくれて。　<line-break>　<line-break>雲がほとんど見えない<line-break>きれいな青空。<line-break>いい船旅になりそうね。<end>"
 korean = "오늘도 날씨가 좋네. 맑아서 다행이야. 구름이 거의 없는 맑고 푸른 하늘. 좋은 뱃길이 되겠어.<end>"
 
+["1920093"]
+japanese = "戦争が終わって３年。<line-break>ようやくリベルダムも、<line-break>元の姿に戻ってきたわ。　　<line-break>ロストール王家に加えて<line-break>ディンガル帝国も、<line-break>町の復興を援助してくれて…。<end>"
+korean = "전쟁이 끝난 지 3년. 드디어 리벨덤도 원래 모습으로 돌아오고 있어. 로스토올 왕가에 더해 딩갈 제국도 도시 복구를 지원해 주고 있고….<end>"
+
 ["1920095"]
 japanese = "そうしたら、わたくし、<line-break>世界を回ってみたい。<line-break>いろいろな町を見てみたい。　<line-break>できれば、あの人と一緒に…。<end>"
 korean = "그러면 저도 세계를 돌아보고 싶어요. 여러 도시를 보고 싶어요. 가능하다면 그 사람과 함께….<end>"
@@ -395,6 +403,10 @@ korean = "실례하겠습니다, 폐하.<end>"
 ["1920118"]
 japanese = "お入りなさい。<end>"
 korean = "들어오세요.<end>"
+
+["1920119"]
+japanese = "陛下、近衛将軍が面会を求めて　　<line-break>おられます。お通しして<line-break>よろしいですか？<end>"
+korean = "폐하, 근위장군께서 면회를 청하고 계십니다. 들여보내도 되겠습니까?<end>"
 
 ["1920120"]
 japanese = "私が呼んだのです。<line-break>すぐにお通ししなさい。<end>"
@@ -635,6 +647,10 @@ korean = "고마워, <value:$28>. 네 덕분에 아버지의… 칸다칸의 유
 ["1920196"]
 japanese = "<value:$28>が見つけて<line-break>なかったら、中に隠されてた<line-break>暗号文ごと箱の中で眠っていたわ。<end>"
 korean = "<value:$28>이 찾아내지 않았으면 안에 숨겨진 암호문째 상자 속에서 잠들어 있었겠지.<end>"
+
+["1920197"]
+japanese = "本当は私、<line-break>遺宝なんてどうでもいいのよ。<line-break>…ちょっとは興味あるけどね。<line-break>でも、私は何より、あなたが<line-break>私のところに来てくれたことが<line-break>一番うれしいの。<end>"
+korean = "사실 나는 유보 따윈 아무래도 좋아. …조금은 관심 있지만. 그래도 무엇보다 네가 나를 찾아와 준 게 제일 기뻐.<end>"
 
 ["1920199"]
 japanese = "年下のあなたに、<line-break>こんなことを言うなんて、<line-break>弱い女だと思うかもしれないけど、<line-break>これが、偽りのない私。<line-break>あなたにだけ見せられる本当の私。<line-break>　<end>"

@@ -260,6 +260,10 @@ korean = "이 마을은 지켜졌군요. 하지만 이크레문 님은….<end>"
 japanese = "<value:$28>、<line-break>大丈夫か？　　　　　　　　<line-break>　<line-break>まったく、無茶をしおる。<line-break>相手はあのミズチらを一撃で<line-break>倒すほどの魔道士なのに。<end>"
 korean = "<value:$28>, 괜찮나? 정말 무모하군. 상대는 그 미즈치들을 일격에 쓰러뜨릴 정도의 마도사인데.<end>"
 
+["1840079"]
+japanese = "しかし、お主がやらなんだなら<line-break>きっとわしが同じように<line-break>飛び出しただろうがな。<line-break>あのイークレムンという娘…、<line-break>確信は持てんが、おそらくは<line-break>わしの…。<end>"
+korean = "하지만 자네가 그러지 않았더라면 분명 나도 똑같이 뛰쳐나갔을 걸세. 그 이크렘이라는 소녀… 확신은 없지만 아마도 나의….<end>"
+
 ["1840080"]
 japanese = "ん？<line-break>あれは…。<end>"
 korean = "응? 저건….<end>"
@@ -275,6 +279,10 @@ korean = "그건 인어의 비늘로 만든 귀걸이다. 이크레문이 떨어
 ["1840083"]
 japanese = "<value:$28>、すまんが<line-break>わしに力を貸してくれんか？　　　　<line-break>　<line-break>イークレムンを、あの不気味な魔道士<line-break>シャリから取り戻したいのじゃ。<line-break>お主がいれば、頼りになる。<end>"
 korean = "<value:$28>, 미안하지만 내게 힘을 빌려 주지 않겠나? 이크레문을 그 기분 나쁜 마도사 샤리에게서 되찾고 싶다. 네가 있으면 든든하겠어.<end>"
+
+["1840084"]
+japanese = "では、わしはジラークに<line-break>単独行動の許可を受けてくる。<line-break>またあとで合流じゃ。<end>"
+korean = "그럼 나는 지라크에게 단독 행동 허가를 받고 오마. 나중에 다시 합류하자.<end>"
 
 ["1840086"]
 japanese = "これは、お主に預けておこう。<line-break>何かの手がかりになるかもしれん。<end>"

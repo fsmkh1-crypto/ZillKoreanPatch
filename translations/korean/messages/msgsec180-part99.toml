@@ -36,6 +36,10 @@ korean = "제가 할 수 있는 건 그저 기도하는 것, 그것뿐입니다.
 japanese = "私にできることは、<line-break>ただ祈ること、<line-break>それだけです。<end>"
 korean = "제가 할 수 있는 건 그저 기도하는 것, 그것뿐입니다.<end>"
 
+["1800015"]
+japanese = "お願い…です…。<line-break>あなただけでも、ティアナのそばに<line-break>とどまってください…。<end>"
+korean = "부탁…드립니다…. 당신만이라도 티아나 곁에 남아 주세요….<end>"
+
 ["1800016"]
 japanese = "行く<end>"
 korean = "간다<end>"
@@ -87,6 +91,10 @@ korean = "여기까지 와 줬다는 건 따라와 주겠다는 거지, <value:$
 ["1800030"]
 japanese = "ありがとよ、<value:$28>。<line-break>んじゃ、行くか。<end>"
 korean = "고맙다, <value:$28>. 그럼 갈까.<end>"
+
+["1800031"]
+japanese = "叔母貴…、一応、聞いておく。<line-break>あんたひとりなら生き延びる手は<line-break>あるんだろ？<end>"
+korean = "숙모… 일단 물어볼게. 숙모 혼자라면 살아남을 방법이 있는 거지?<end>"
 
 ["1800033"]
 japanese = "俺にも、守るべきいろんなものが<line-break>あるんでな。<line-break>じゃ、叔母貴、天国で会おうや。<end>"

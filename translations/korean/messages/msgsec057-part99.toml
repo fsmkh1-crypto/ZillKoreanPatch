@@ -296,6 +296,10 @@ korean = "그래…. 조금 실망이네.<end>"
 japanese = "じゃあ、またねえ！<line-break>助けてくれてありがとう！<end>"
 korean = "그럼 또 봐! 도와줘서 고마워!<end>"
 
+["570107"]
+japanese = "あれから、心は毎日雨降りだったけど、<line-break><value:$28>のおかげで、今は<line-break>ルルアンタにもおひさまが見えるよ。<line-break>ルルアンタ、元気だよ。<line-break>心配しないでね、フリントさん…。<end>"
+korean = "그 뒤로 마음엔 매일 비가 왔지만 <value:$28> 덕분에 지금은 루루안타에게도 해님이 보여. 루루안타, 잘 지내. 걱정하지 마, 플린트 씨….<end>"
+
 ["570108"]
 japanese = "<value:$28>か？<end>"
 korean = "<value:$28>인가?<end>"

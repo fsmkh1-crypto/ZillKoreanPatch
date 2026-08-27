@@ -48,6 +48,10 @@ korean = "…<value:$28>. 시간의 흐름은 네가 생각하는 것보다 훨�
 japanese = "…ほんっとに<line-break>しょうがない、奴…。<end>"
 korean = "…정말 어쩔 수 없는 녀석….<end>"
 
+["1010015"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>あなたも懲りない人ね、ノーブル伯？<line-break>いつまでも昔のよしみが通用すると<line-break>思わないでもらいたいわ。<end>"
+korean = "<value:$28>…. 당신도 참 끈질기네, 노블 백작? 언제까지나 옛정이 통할 거라 생각하지 않았으면 해.<end>"
+
 ["1010016"]
 japanese = "私たちが同じ道を歩くことは<line-break>もうあり得ない。<line-break>あなたが、今の道を捨てない限り…。<line-break>降伏する気なら、<line-break>私がカルラ将軍との間を<line-break>取り持ってあげてもいいけど…？<end>"
 korean = "우리가 같은 길을 걷는 일은 이제 없어. 당신이 지금의 길을 버리지 않는 한…. 항복할 생각이라면 내가 칼라 장군과 사이를 주선해 줘도 되는데…?<end>"
@@ -67,6 +71,10 @@ korean = "<value:$28>…. …무슨 생각이야? 넌 제네테스의 부하잖�
 ["1010023"]
 japanese = "ほんっとに<line-break>しょうがない奴…。<end>"
 korean = "정말 어쩔 수 없는 녀석….<end>"
+
+["1010024"]
+japanese = "<value:$28>…。　　　　　　　<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break>あなたも懲りない人ね。<line-break>いつまでも昔のよしみが通用すると<line-break>思わないでもらいたいわ。<end>"
+korean = "<value:$28>…. 당신도 참 끈질기네. 언제까지나 옛정이 통할 거라 생각하지 않았으면 해.<end>"
 
 ["1010026"]
 japanese = "…<value:$28>。<line-break>救いようのない頑固者ね。　　　　　<line-break>　<line-break>時の流れはあなたが考えているよりも<line-break>もっと早いものよ。<line-break>よく考えてみることね。<end>"
@@ -163,6 +171,10 @@ korean = "후후, 그게 귀족의 긍지…인 걸까?<end>"
 ["1010055"]
 japanese = "…決着をつける日を<line-break>楽しみにしているわ。<end>"
 korean = "…결판을 낼 날을 기대하고 있을게.<end>"
+
+["1010056"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>あなたも懲りない人ね、ノーブル伯？<line-break>いつまでも昔のよしみが通用すると<line-break>思わないでもらいたいわ。<end>"
+korean = "<value:$28>…. 당신도 참 끈질기네, 노블 백작? 언제까지나 옛정이 통할 거라 생각하지 않았으면 해.<end>"
 
 ["1010058"]
 japanese = "埋めようがない溝があるのかしら？<line-break>私たちの間には…。<line-break>　<line-break>時の流れはあなたが考えているより<line-break>もっと早いものよ。<line-break>よく考えてみることね。<end>"

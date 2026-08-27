@@ -32,6 +32,10 @@ korean = "고맙다, <value:$28>.<end>"
 japanese = "なるほど、では、その猫屋敷とやらで<line-break>声がかかるのを待てばよいのだな？<end>"
 korean = "그렇군. 그럼 그 고양이 저택이라는 곳에서 연락이 오길 기다리면 되는 거군?<end>"
 
+["1350014"]
+japanese = "…あのとき、<line-break>俺がダルケニスとして覚醒したとき<line-break>貴様もいたのか、ゼネテス。<end>"
+korean = "…그때 내가 다르케니스로 각성했을 때 네놈도 거기 있었던 건가, 제네테스.<end>"
+
 ["1350015"]
 japanese = "んー、まあ、な。<end>"
 korean = "음, 뭐, 그렇지.<end>"
@@ -404,6 +408,10 @@ korean = "이… 사악한 흡혈귀 놈!<end>"
 japanese = "な、何を…言う。<line-break>ティアナ。<end>"
 korean = "무, 무슨 말을… 티아나.<end>"
 
+["1350139"]
+japanese = "邪悪な吸血鬼って言ったの。<line-break>だってそうでしょう？<line-break>あなた、ダルケニスなのだから…。<line-break>小さいころから<line-break>ずっと一緒にいて<line-break>気づかなかったとでも思って？<end>"
+korean = "사악한 흡혈귀라고 했어. 그렇잖아? 당신은 다르케니스니까…. 어릴 때부터 계속 함께 있었는데 눈치채지 못했을 거라고 생각해?<end>"
+
 ["1350140"]
 japanese = "まさか？<line-break>本当にあの汚らわしい<line-break>ダルケニスなのか？<end>"
 korean = "설마? 정말 그 더러운 다르케니스란 말인가?<end>"
@@ -551,6 +559,10 @@ korean = "초석이 되는 거야. 세계를 끝낸다는 역사적 위업의 �
 ["1350180"]
 japanese = "くっ…。<line-break>貴様！<end>"
 korean = "큭…. 네놈!<end>"
+
+["1350181"]
+japanese = "さあ、アトレイア。<line-break>いいかげんウザイから、<line-break>この短絡バカ、やっちゃってよ。<end>"
+korean = "자, 아트레이아. 이제 슬슬 짜증 나니까 이 단순무식한 바보 좀 처리해 줘.<end>"
 
 ["1350182"]
 japanese = "私はアトレイア。<line-break>ずっと、暗闇に閉ざされてきた<line-break>もうひとりの王女です…<line-break>ふふ…ふふふ。<end>"
@@ -1368,6 +1380,10 @@ korean = "아…<end>"
 japanese = "…君の笑顔の仇、王妃エリスは死んだ。<end>"
 korean = "…네 미소의 원수, 왕비 엘리스는 죽었다.<end>"
 
+["1350437"]
+japanese = "君にも笑顔が戻ったことと思う。<line-break>心から祝福しよう。<line-break>おめでとう…だってさ。<end>"
+korean = "너에게도 웃음이 돌아왔으리라 생각한다. 진심으로 축복하지. 축하해…라고 하네.<end>"
+
 ["1350438"]
 japanese = "…笑うよ。<end>"
 korean = "…웃을 거야.<end>"
@@ -1484,6 +1500,10 @@ korean = "아침…인가… 이제 끝인가 했는데… 헤헤… 아직 살�
 japanese = "こいつが…<line-break>エルファスの呪いから<line-break>俺を助けてくれたのか…？<end>"
 korean = "이 녀석이… 엘파스의 저주에서 나를 구해 준 건가…?<end>"
 
+["1350475"]
+japanese = "んなわけねーわな。<line-break>感覚が残ってるとこには<line-break>鋭く痛みがある。呪いは健在だ。<end>"
+korean = "그럴 리가 없지. 감각이 남은 곳엔 날카로운 통증이 있어. 저주는 건재해.<end>"
+
 ["1350479"]
 japanese = "ちぇっ<line-break>しょうがねえな。<line-break>ったく！<end>"
 korean = "쳇, 어쩔 수 없네. 정말!<end>"
@@ -1564,6 +1584,10 @@ korean = "이제 오래 못 가. 하지만 후회는 없어. 난 나 자신만�
 japanese = "また朝だな、おい<line-break>あんたと朝を迎えるの<line-break>何度目だっけ？<line-break>ま、んなこた、どうでもいっか。<end>"
 korean = "또 아침이네. 너랑 아침을 맞는 게 몇 번째더라? 뭐, 그런 건 아무래도 좋나.<end>"
 
+["1350504"]
+japanese = "ガタガタの街が立ち直っていくのは<line-break>いいなあ…<line-break>朝が来るのもいいもんだなあ。<end>"
+korean = "엉망이던 거리가 다시 일어서는 건 좋구나…. 아침이 오는 것도 나쁘지 않네.<end>"
+
 ["1350508"]
 japanese = "ありがとよ…<line-break><value:$28>…<end>"
 korean = "고맙다… <value:$28>….<end>"
@@ -1604,6 +1628,10 @@ korean = "감시하러 왔어? 내가 사라질까 봐.<end>"
 japanese = "…なんでもねえよ。<end>"
 korean = "…아무것도 아니야.<end>"
 
+["1350524"]
+japanese = "ちっ、起きてたのかよ。<line-break>なんでもねえよ！<line-break>黙ってたから、わからなかったぜ。<end>"
+korean = "칫, 깨어 있었냐. 아무것도 아니야! 조용히 있길래 몰랐잖아.<end>"
+
 ["1350525"]
 japanese = "<select><value:$20>%3ヒマなの？<end>俺の顔とか好みなわけ？<end>趣味は徹夜とか？<end>"
 korean = "<select><value:$20>%3한가해?<end>내 얼굴이 취향이라도 돼?<end>취미는 밤새우기 같은 거야?<end>"
@@ -1619,6 +1647,10 @@ korean = "기다려!<end>"
 ["1350528"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
+
+["1350529"]
+japanese = "ねえ、ヴィア、もうやめて！<line-break>私はもういいから…ね？<line-break>私が悪かったのよ…ね？<end>"
+korean = "저기, 비아, 이제 그만해! 난 이제 괜찮으니까… 응? 내가 잘못했어… 알겠지?<end>"
 
 ["1350530"]
 japanese = "素通りする<end>"
@@ -1728,6 +1760,10 @@ korean = "허무의 검이나 형이 갈 만한 곳, 짐작 가는 데 없어?<e
 japanese = "今…、闇の門の島…と<line-break>おっしゃいましたね。<line-break>いったい？<end>"
 korean = "방금… 어둠의 문 섬…이라고 하셨죠. 대체 무슨 뜻입니까?<end>"
 
+["1350567"]
+japanese = "ご自身でも<line-break>なぜそんなことをおっしゃったのか<line-break>おわかりにならないのですか？<end>"
+korean = "본인도 왜 그런 말씀을 하셨는지 모르시겠습니까?<end>"
+
 ["1350568"]
 japanese = "でも、信じられるよ。<line-break>今、<value:$28>のソウルから<line-break>すごく懐かしい感じがしたから。<end>"
 korean = "그래도 믿을 수 있어. 지금 <value:$28>의 소울에서 아주 그리운 느낌이 들었거든.<end>"
@@ -1767,6 +1803,10 @@ korean = "<if><value:$29><equal>%0아, 오빠,돌아와 줬구나!<end>아, <val
 ["1350582"]
 japanese = "最近、なんか邪険にするし<line-break>顔も見せてくれないしさ、<line-break>心配したんだよ。<end>"
 korean = "요즘 왠지 차갑게 대하고 얼굴도 보여 주지 않아서 걱정했잖아.<end>"
+
+["1350583"]
+japanese = "エンシャントのスラムで<line-break>別に私たちなんかいらないと言って<line-break>姿を消したあと…<line-break>ヴィアは毎日、夜が来ると<line-break>泣いていたんですよ。<line-break>察してあげてください。<end>"
+korean = "엔샨트 빈민가에서 우리 따윈 필요 없다고 말하고 사라진 뒤… 비아는 매일 밤이 되면 울었어요. 알아주세요.<end>"
 
 ["1350584"]
 japanese = "もう、いいよ<line-break>だって、これからはまた、<line-break>いっしょに旅ができるんだからさ。<end>"

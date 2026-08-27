@@ -36,6 +36,10 @@ korean = "악당 놈… 네놈도 맛보아라…. 나의 사랑과 정의와 �
 japanese = "ひ、ひいいい！<line-break>ずらかれー！<end>"
 korean = "히, 히익! 튀어!<end>"
 
+["460012"]
+japanese = "フッ、未来の勇者にとっては他愛もない<line-break>敵だった…。<line-break><line-break>さぁ、来るんだお嬢さん！！<line-break>君の恋人はこの未来の勇者ガルドランが<line-break>助け出してあげたよおおおん！！<end>"
+korean = "흥, 미래의 용사에겐 별것 아닌 적이었다…. 자, 이리 오시오 아가씨!! 당신의 연인은 이 미래의 용사 갈드란이 구해 냈소오오!!<end>"
+
 ["460013"]
 japanese = "ブレンダ…来てくれたんだ。<end>"
 korean = "브렌다… 와줬구나.<end>"
@@ -79,6 +83,10 @@ korean = "뭘 부끄러운 소릴 하는 거야! 이 문어야!!<end>"
 ["460035"]
 japanese = "貴様…、<line-break>その少年のテラネの友人だな？<end>"
 korean = "네놈… 그 소년 테라네의 친구로군?<end>"
+
+["460036"]
+japanese = "ケガが治って…よかったな。　　　　　<line-break>　<line-break><line-break>貴様は昔の俺様によく似ている…。<line-break>世の中の汚いものに反発しているが、<line-break>それが何か、どうすればいいかわからず<end>"
+korean = "상처가 나아서… 다행이군. 너는 옛날의 나와 많이 닮았다…. 세상의 추악한 것에 반발하고 있지만 그게 무엇인지, 어떻게 해야 하는지 몰랐지.<end>"
 
 ["460038"]
 japanese = "だが、それはすべて憶病だからなのだ！<line-break>　<line-break><line-break>認めたいものは、全部認めるがいい！<line-break>貴様が認めたいと思った時点で<line-break>それは認めるに値するものだから！！<end>"
@@ -295,6 +303,10 @@ korean = "미안하군.<end>"
 ["460103"]
 japanese = "ねえ、<value:$28>、<line-break>僕ら、ガルドランを捜してるんだよ。<line-break>　<line-break>ガルドランはテラネから<line-break>出ていったばかりだよ。<line-break>別の町に行こうよ。<end>"
 korean = "있지, <value:$28>. 우리는 갈드란을 찾고 있어. 갈드란은 테라네를 막 떠났어. 다른 마을로 가자.<end>"
+
+["460104"]
+japanese = "そうだ、<value:$28>。<line-break>まず、ギルドへ行ってみようよ。　　<line-break>　<line-break>ガルドランは冒険者だから<line-break>ギルドにいるかもしれないし、<line-break>何か情報が手に入るんじゃないかな？<end>"
+korean = "그래, <value:$28>. 우선 길드에 가 보자. 갈드란은 모험자니까 길드에 있을지도 모르고 뭔가 정보를 얻을 수 있지 않을까?<end>"
 
 ["460105"]
 japanese = "それじゃ、ギルドは…<line-break>　<line-break>　<line-break>あ、あの建物がそうだね。<line-break>行こう、<value:$28>。<end>"

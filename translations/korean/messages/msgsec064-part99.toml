@@ -4,6 +4,10 @@
 japanese = "ティアナメッセージVOL1-2開始<end>"
 korean = "티아나 메시지 VOL1-2 시작<end>"
 
+["640001"]
+japanese = "まあ、<value:$28>様、　　　<line-break>よくいらしてくださいました。　　<line-break>　<line-break>ひとりで退屈していたところです。<line-break>ティアナのおしゃべりに<line-break>つき合っていただこうかしら。<end>"
+korean = "어머, <value:$28> 님, 잘 오셨어요. 혼자 심심하던 참이었어요. 티아나의 수다에 어울려 주실래요?<end>"
+
 ["640002"]
 japanese = "お待ちください！<line-break>勝手に入られては困ります！<end>"
 korean = "잠깐만요! 마음대로 들어오시면 곤란합니다!<end>"

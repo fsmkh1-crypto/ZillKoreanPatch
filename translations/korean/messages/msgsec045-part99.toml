@@ -184,6 +184,10 @@ korean = "미안… 다치게 해서.<end>"
 japanese = "まただ…。僕は…また…。<line-break>くやしい…よ…、力が…欲しい…。<end>"
 korean = "또야…. 난… 또…. 분해… 힘이… 필요해….<end>"
 
+["450049"]
+japanese = "ねえ、<value:$28>。<line-break>唐突だけど、僕を仲間にしてくれない？<line-break><line-break>僕、あのガルドランを倒したい…。<line-break>だけど、くやしいけど、<line-break>僕じゃ、まだまだ、力が足りない…。<end>"
+korean = "저기, <value:$28>. 갑작스럽지만 나를 동료로 받아 주지 않을래? 나, 그 갈드란을 쓰러뜨리고 싶어…. 하지만 분하게도 아직 내 힘이 부족해….<end>"
+
 ["450050"]
 japanese = "ねえ、<value:$28>。<line-break>お願いだよ。僕は強くなりたい。<line-break>僕を連れていってほしいんだ。　　　　<end>"
 korean = "있잖아, <value:$28>. 부탁이야. 난 강해지고 싶어. 나도 데려가 줘.<end>"
@@ -543,6 +547,10 @@ korean = "마, 말도 안 돼. 이 내가 패배한다고? 아니! 나는 곧 �
 ["450167"]
 japanese = "待て、ガルドラン！<line-break>ヴァンの仇…！<end>"
 korean = "기다려, 갈드란! 반의 원수…!<end>"
+
+["450168"]
+japanese = "ふ～っ、逃げられたよ。<line-break>まったく、ガルドランの奴<line-break>どこまでも迷惑な奴だよね。<line-break>でも…、僕が欲しい力って<line-break>あいつを倒すことで<line-break>手に入れられるのかなあ…。<end>"
+korean = "후우, 도망쳤네. 정말 갈드란 녀석은 어디까지나 민폐야. 하지만… 내가 원하는 힘은 녀석을 쓰러뜨리면 얻을 수 있는 걸까….<end>"
 
 ["450169"]
 japanese = "楽・勝！<line-break>わかってはいたが、俺様は強い！<line-break>　<line-break>さあ、敗者は退場だ。<line-break>出ていくがいい！<end>"

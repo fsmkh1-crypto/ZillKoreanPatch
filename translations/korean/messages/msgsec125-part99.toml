@@ -212,6 +212,10 @@ korean = "우리의 도시, 엔샨트가…. ……………….<end>"
 japanese = "<value:$28>様。<line-break>謁見の間へ行かれるのですね。<line-break>お供させていただきますわ。<end>"
 korean = "<value:$28>님. 알현실로 가시는군요. 함께 가겠습니다.<end>"
 
+["1250089"]
+japanese = "ゾフォルをやっつけに謁見の間に<line-break>行くんでしょ？<line-break>ねえ、ヴィアも連れてって！<end>"
+korean = "조포르를 쓰러뜨리러 알현실에 가는 거지? 저기, 비아도 데려가 줘!<end>"
+
 ["1250090"]
 japanese = "ゾフォルめ、想像以上に恐ろしい奴…。<line-break>エンシャントの人々を皆殺しにしてなお<line-break>平然と笑おうとは…。<line-break>謁見の間へ急ぐぞ、<value:$28>。<line-break>奴を討つのじゃ！<end>"
 korean = "조포르, 상상 이상으로 무서운 놈이군…. 엔샨트 사람들을 몰살하고도 태연히 웃다니…. 알현실로 서두르자, <value:$28>. 녀석을 친다!<end>"
@@ -251,6 +255,10 @@ korean = "빠, 빨리 도망쳐야 해! 다음 소울 리프가 오면 우리도
 ["1250103"]
 japanese = "悔しいけれど、<line-break>今は立ち止まっていられない。<line-break>帝都の門まで退くのよ！<end>"
 korean = "분하지만 지금은 멈춰 있을 때가 아니야. 제도의 문까지 물러나!<end>"
+
+["1250104"]
+japanese = "ソウルリープ…また厄介なものを<line-break>持ち出して来ましたね。<line-break>早く退きましょう。<end>"
+korean = "소울 리프… 또 성가신 걸 꺼내 들었군요. 어서 물러납시다.<end>"
 
 ["1250105"]
 japanese = "どうすんの、<value:$28>？<line-break>逃げなきゃやられちゃうよ～？<line-break>宰相サンの革新も台無しよん？<end>"
@@ -299,6 +307,10 @@ korean = "서둘러라, <value:$28>! 인류의 혁신을 포기할 수는 없다
 ["1250120"]
 japanese = "<value:$28>様、<line-break>お早く都市の外へ！<line-break>ソウルリープが来ます！<end>"
 korean = "<value:$28>님, 어서 도시 밖으로! 소울 리프가 옵니다!<end>"
+
+["1250124"]
+japanese = "悔しいがここは退くんだ。<line-break>死んだらエンシャントの皆の<line-break>仇も討てなくなるぞ。<end>"
+korean = "분하지만 여기선 물러나야 해. 죽으면 엔샨트 사람들의 원수도 갚지 못한다고.<end>"
 
 ["1250125"]
 japanese = "さすがにここは退かないと<line-break>命が危ないわ。<line-break>早く町を脱出しましょ！<end>"
@@ -667,6 +679,10 @@ korean = "마도의 탑이나 신월의 탑에는 강대한 마법이 봉인돼 
 ["1250252"]
 japanese = "夢幻の湖に水中遺跡があるが、<line-break>行ってみるか？<end>"
 korean = "몽환의 호수에 수중 유적이 있는데, 가 볼래?<end>"
+
+["1250253"]
+japanese = "夢幻の湖の水中遺跡の話を<line-break>以前聞いたことがあるわ。<line-break>そこかもしれないわね。<end>"
+korean = "전에 몽환의 호수 수중 유적 이야기를 들은 적이 있어. 거기일지도 모르겠네.<end>"
 
 ["1250257"]
 japanese = "（ベルゼーヴァ…）<line-break><line-break><end>"

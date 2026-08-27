@@ -524,6 +524,10 @@ korean = "으으, 왜 그렇게 혹사당해야 하는 거야아!<end>"
 japanese = "至極妥当な気がするゴブ。<end>"
 korean = "지극히 타당한 것 같다 고브.<end>"
 
+["620146"]
+japanese = "っるさいわねー。<line-break>おかげでなんか体中に筋肉が<line-break>ついちゃったような気がするわ。<end>"
+korean = "시끄럽네! 덕분에 온몸에 근육이 붙어 버린 것 같잖아.<end>"
+
 ["620147"]
 japanese = "アイリーンのＳＴＲが３上がった。<end>"
 korean = "아이린의 STR이 3 올랐다.<end>"
@@ -743,6 +747,10 @@ korean = "<value:$28>, 물러나…. 네가 감당할… 상대가… 아니야�
 ["620213"]
 japanese = "お願い、<value:$28>。<line-break>私、あなたを守りたいの…。<end>"
 korean = "부탁해, <value:$28>. 나, 당신을 지키고 싶어….<end>"
+
+["620215"]
+japanese = "みなさん、そう肩肘を張らないで。<line-break>どうでしょう、<line-break>中でお茶にでもしませんか？<end>"
+korean = "여러분, 그렇게 긴장하지 마세요. 어떠세요, 안에서 차라도 한잔하지 않으시겠어요?<end>"
 
 ["620216"]
 japanese = "私も、あなたたちに<line-break>お話ししたいことがありますから。<end>"
@@ -1068,6 +1076,10 @@ korean = "아이린 씨는 힘이 제일이라고 생각하는 사람 같죠. �
 japanese = "あ、…私、<line-break>少し、言いすぎちゃいましたね。　<line-break>　<line-break>…すいません。<line-break>アイリーンさんのこと、<line-break>悪く言う気はなかったんです。<end>"
 korean = "아… 제가 조금 심하게 말했네요. …죄송해요. 아이린 씨를 나쁘게 말할 생각은 없었어요.<end>"
 
+["620316"]
+japanese = "ただ、<value:$28>さんと<line-break>会えないとき、<line-break>私、ものすごく不安なんです。　　<line-break>こんなに笑顔でいられるのも<line-break>あなたと一緒のときだけなんです。<line-break>それで、つい…。<end>"
+korean = "다만 <value:$28> 씨를 만나지 못할 때는 정말 불안해요. 이렇게 웃을 수 있는 것도 당신과 함께 있을 때뿐이에요. 그래서 그만….<end>"
+
 ["620317"]
 japanese = "<value:$28>さん。<line-break>元気を…くださいますか？<end>"
 korean = "<value:$28>님. 제게 힘을… 주시겠어요?<end>"
@@ -1159,6 +1171,10 @@ korean = "아, <value:$28>님. 그러고 보니 지난번에 말이죠….<end>"
 ["620341"]
 japanese = "あ、はいー！<line-break>わかりましたー！<end>"
 korean = "아, 네에! 알겠습니다아!<end>"
+
+["620343"]
+japanese = "あ、<value:$28>さん<line-break>いらっしゃいませー！　　　　　　　　<line-break>　<line-break>来てくださってうれしいです！<line-break>今日はお客さんがいなくて…<line-break>とっても考えこむ時間が多くて…。<end>"
+korean = "아, <value:$28> 씨, 어서 오세요! 와 주셔서 기뻐요! 오늘은 손님이 없어서… 생각에 잠길 시간이 너무 많았거든요….<end>"
 
 ["620344"]
 japanese = "ずっと、あなたのことばかり<line-break>考えちゃって、なんかさびしくて…<line-break>だから、来てくださってうれしいです！<line-break>…あのー<line-break>…<value:$28>さん。<line-break>今、お時間、いいですか？<end>"

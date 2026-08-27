@@ -24,6 +24,10 @@ korean = "있잖아, 움직인다는 거 대단하지…. 내가 사는 곳에�
 japanese = "じゃあね、<line-break>………………。<end>"
 korean = "그럼 안녕, ……………….<end>"
 
+["880008"]
+japanese = "…キミの名前、<line-break>ボク、まだ聞いてないよ！　　　　<line-break>　<line-break>こっちは、職務質問と間違えて<line-break>もうしゃべっちゃったんだから。<line-break>キミも教えないと公平じゃないよ！<end>"
+korean = "…네 이름, 나 아직 못 들었어! 나는 직무 질문인 줄 알고 이미 말했잖아. 너도 알려 줘야 공평하지!<end>"
+
 ["880010"]
 japanese = "ね。<line-break>中身が見てみたいと思わない？<end>"
 korean = "있지. 안에 뭐가 들었는지 보고 싶지 않아?<end>"
@@ -235,6 +239,10 @@ korean = "고마워! 찾아와 준 거구나!<end>"
 ["880071"]
 japanese = "あ、水晶の方はいいの！<line-break>キミが持っててくれるかな…？<end>"
 korean = "아, 수정은 됐어! 네가 가지고 있어 줄래…?<end>"
+
+["880072"]
+japanese = "よかった…。そうじゃなきゃ…　　　　<line-break>意味がないんだ…。<line-break>　<line-break>あっ、えっ、その<line-break>…ハハハ、何でもないよ！　独り言！<line-break>あんまり根ほり葉ほり聞かないの！<end>"
+korean = "다행이다…. 그렇지 않으면… 의미가 없어…. 아, 어, 그게… 하하하, 아무것도 아니야! 혼잣말이야! 너무 꼬치꼬치 캐묻지 마!<end>"
 
 ["880073"]
 japanese = "えっ、あっ、報酬…？<line-break>アハハハ…。<line-break>…体で払うって、ダメ？<line-break>あ、変な意味じゃなくて、<line-break>ボクがキミのパーティーに<line-break>入るってことなんだけどね。<end>"

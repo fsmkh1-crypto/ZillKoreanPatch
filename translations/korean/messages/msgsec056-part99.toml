@@ -2276,6 +2276,10 @@ korean = "…밖의 부대에 알리려고? 그렇구나. 서둘러야 해!<end>
 japanese = "逃げてもムダムダ<line-break>町中、包囲してっから。<end>"
 korean = "도망쳐도 소용없어. 마을 전체를 포위했으니까.<end>"
 
+["560712"]
+japanese = "わっかんないかなー<line-break><value:$28>は鐘楼に向かったのよ<line-break>門の近くにあったでしょ。デカイのが。<line-break>あの鐘を鳴らして<line-break>外にいるお仲間に<line-break>異変を伝えるつもりなのよ。<end>"
+korean = "모르겠어? <value:$28>는 종루로 향했어. 문 근처에 큰 거 있었잖아. 그 종을 울려서 밖에 있는 동료들에게 이상을 알리려는 거야.<end>"
+
 ["560714"]
 japanese = "<if><value:$01><equal>13…早く鳴らせ。<end><if><value:$01><equal>22着いたよ、<value:$28>。<line-break>早く鐘を鳴らして！<end><if><value:$01><equal>6鐘だよ、<value:$28>。<line-break>早く鳴らして！<end>"
 korean = "<if><value:$01><equal>13…빨리 울려.<end><if><value:$01><equal>22도착했어, <value:$28>. 빨리 종을 울려!<end><if><value:$01><equal>6종이야, <value:$28>. 빨리 울려!<end>"

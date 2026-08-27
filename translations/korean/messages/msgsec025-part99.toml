@@ -95,3 +95,7 @@ korean = "라드라스8<end>"
 ["250081"]
 japanese = "<value:$15>への使いの護衛者を募集する。<line-break>報酬は、<value:$1A>ギア。<line-break>到着期限は、<value:$1B>日以内である。<line-break>屈強な冒険者を待っている。<end>"
 korean = "<value:$15>로 가는 사자의 호위자를 모집한다. 보수는 <value:$1A>기어. 도착 기한은 <value:$1B>일 이내다. 강인한 모험자를 기다린다.<end>"
+
+["250103"]
+japanese = "<value:$17><value:$16>様を<line-break><value:$15>まで送ってくださる方を<line-break>募集いたします。<line-break><value:$1B>日以内の到着、<line-break><value:$1A>ギアの報酬という条件で、<line-break>ぜひお願いいたします。<end>"
+korean = "<value:$17><value:$16> 님을 <value:$15>까지 모셔다 주실 분을 모집합니다. <value:$1B>일 이내 도착, 보수는 <value:$1A>기어라는 조건으로 부탁드립니다.<end>"

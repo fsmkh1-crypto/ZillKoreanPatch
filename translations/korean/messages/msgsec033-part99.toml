@@ -448,6 +448,10 @@ korean = "기다려. 위험해.<end>"
 japanese = "待てと言っている！<end>"
 korean = "기다리라고 했잖아!<end>"
 
+["330122"]
+japanese = "おやじさんは、<line-break>命に代えてもお前を守ろうとした。<line-break>…そこんとこを汲んでやれ。<end>"
+korean = "아저씨는 목숨을 바쳐서라도 널 지키려 했어. …그 마음을 헤아려 줘.<end>"
+
 ["330123"]
 japanese = "いい子だ。<line-break><line-break><line-break>それよりも、急いでおやじさんを、<line-break>町へ運ばなきゃならん。<line-break>ここから一番近い町は…。<end>"
 korean = "착하구나. 그보다 서둘러 아버지를 마을로 옮겨야 해. 여기서 가장 가까운 마을은….<end>"
@@ -651,6 +655,10 @@ korean = "네가 노블에 있는 동안 계속 가던 마을 밖 숲으로 갔�
 ["330182"]
 japanese = "<value:$28>……、急いでね。<line-break>早く帰ってきてね。早く帰ってきて<line-break><line-break><end>フリントさんを笑顔にしてあげてね。<end>"
 korean = "<value:$28>……, 서둘러 줘.빨리 돌아와 줘. 빨리 돌아와 줘.<end>플린트 씨를 웃게 해 줘.<end>"
+
+["330183"]
+japanese = "さぁて、と。<line-break>これからどうするか、だが…。<line-break>ま、とりあえず、ついてきてくれ。<end>"
+korean = "자, 그럼. 이제부터 어떻게 할지인데…. 일단 따라와 줘.<end>"
 
 ["330184"]
 japanese = "ここはロストール王宮だ。<line-break>用なき者は立ち去るのだな。<end>"

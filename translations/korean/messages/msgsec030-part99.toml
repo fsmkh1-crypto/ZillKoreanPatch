@@ -348,6 +348,10 @@ korean = "혼자 성배를 되찾으려는 생각은 하지 마. …그건 내 �
 japanese = "私がいなくても大丈夫よね…　　　　　<line-break><value:$28>は。<end>"
 korean = "내가 없어도 괜찮겠지… <value:$28>은.<end>"
 
+["300097"]
+japanese = "がはははは！<line-break>お前は一生、アイリーンの尻に　　　　<line-break>しかれ続けるんだろうな！<end>"
+korean = "가하하하하! 넌 평생 아이린에게 잡혀 살겠구나!<end>"
+
 ["300098"]
 japanese = "こいつ弱いでゴブ～！　　　　　　　　<line-break>やっつけるでゴブ～！<end>"
 korean = "이 녀석 약하다 고브~! 해치운다 고브~!<end>"
@@ -387,6 +391,10 @@ korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end
 ["300107"]
 japanese = "あっ、<value:$28>さん、<line-break>先ほどはどうも<line-break>ありがとうございました。<line-break>今度、お時間があるときに<line-break>ゆっくりお話しさせてください。<end>"
 korean = "아, <value:$28>님. 아까는 정말 감사합니다. 다음에 시간 되실 때 천천히 이야기 나누게 해 주세요.<end>"
+
+["300114"]
+japanese = "ちょっと、<value:$28>。<line-break>どこに行くつもり？<line-break>まだ聖杯を取り戻してないわよ。<line-break>ここまで来て怖じ気づいたなんて<line-break>言わないわよね？<line-break>しっかりしてよ、<value:$28>。<end>"
+korean = "잠깐, <value:$28>. 어디 가려는 거야? 아직 성배를 되찾지 못했잖아. 여기까지 와서 겁먹었다고 하진 않겠지? 정신 차려, <value:$28>.<end>"
 
 ["300117"]
 japanese = "うわぁ。すごい大きな穴。<line-break>それに天井まで崩れてるわ。<line-break>この辺りは地盤がもろいみたいね。<line-break><value:$28>、<line-break>近づきすぎて落ちたりしないでよ？<line-break>　<end>"

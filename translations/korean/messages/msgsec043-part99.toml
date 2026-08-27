@@ -44,6 +44,10 @@ korean = "이름은?<end>"
 japanese = "<value:$28>か。<line-break>ついてこい。<line-break>俺は急ぎノーブルへ向かう。<line-break>貴様は黙って護衛をしていれば、<line-break>それでいい。<end>"
 korean = "<value:$28>인가. 따라와라. 나는 급히 노블로 간다. 너는 말없이 호위만 하면 된다.<end>"
 
+["430011"]
+japanese = "金ははずむぞ、冒険者。　　　　　　　<line-break>　<line-break>　<line-break>それとも、人の命がかかっている<line-break>とでも言った方が、その気になるのか？<line-break>貴様のような甘っちょろい冒険者は。<end>"
+korean = "돈은 후하게 주겠다, 모험자. 아니면 사람 목숨이 걸렸다고 해야 의욕이 생기나? 네놈처럼 물러터진 모험자는.<end>"
+
 ["430012"]
 japanese = "…引き受けよう<end>"
 korean = "…맡지.<end>"
@@ -159,6 +163,10 @@ korean = "미안, 미안. 내 이야기를 하러 온 게 아니었어. 네게 �
 ["430045"]
 japanese = "本当にごめんなさい…。　　　　　　　<line-break>　<line-break>　<line-break>でも、許してほしい…。<line-break>それから…<line-break>兄さんを見捨てないでほしいんだ。<end>"
 korean = "정말 미안해…. 하지만 용서해 줬으면 해…. 그리고… 형을 버리지 말아 줘.<end>"
+
+["430047"]
+japanese = "王妃は他にも、ボルボラを使って<line-break>兄さんの弱みを探っていたらしい…。　<line-break>　<line-break>兄さんには、<line-break>君みたいな味方が必要なんだ。<line-break>お願いだ。兄さんを守ってほしい。<end>"
+korean = "왕비는 볼보라를 이용해 형님의 약점도 찾고 있었던 모양이야…. 형님에겐 너 같은 편이 필요해. 부탁이야. 형님을 지켜 줘.<end>"
 
 ["430048"]
 japanese = "…それじゃ、僕は行くね。<line-break>おやすみ。<end>"

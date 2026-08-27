@@ -176,6 +176,10 @@ korean = "(…부조리의 자객?)<end>"
 japanese = "き、君は…？<end>"
 korean = "너, 너는…?<end>"
 
+["850056"]
+japanese = "お、お前は、<value:$28>！<line-break>よ、よくも、ロセンではアニキたちを！<line-break>　<line-break>アニキたちはお前との戦いのあと<line-break>ぎっくり腰になって、<line-break>すげえ腰痛にうめいているんだ！<end>"
+korean = "너, 너는 <value:$28>! 로센에서 형님들을 그렇게 만들어 놓고! 형님들은 너와 싸운 뒤 허리를 삐끗해서 심한 요통에 신음하고 있다고!<end>"
+
 ["850057"]
 japanese = "ついでだ。<line-break>その仇、取らせてもらう。<end>"
 korean = "마침 잘됐다. 그 원수, 내가 갚겠다.<end>"
@@ -272,6 +276,10 @@ korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시
 japanese = "いらっしゃーい。<line-break>待ってたわ！　　　　　　　　　　　<line-break>　<line-break>嬉しいじゃない？<line-break>あのテロの親玉を殺してくれたなんて！<line-break>あ、これ、謝礼ね。<end>"
 korean = "어서 와~. 기다렸어! 기쁘지 않아? 그 테러 우두머리를 죽여 줬다니! 아, 이건 사례금이야.<end>"
 
+["850090"]
+japanese = "今までにいくつもの予言をして　　　　<line-break>そのすべてが当たってるのよ。<line-break>　<line-break>一番有名なのは、魔王バロルが<line-break>バロルの娘の子に殺されるって<line-break>予言したことね。<end>"
+korean = "지금까지 수많은 예언을 했고 전부 맞았어. 가장 유명한 건 마왕 바롤이 바롤의 딸의 아이에게 죽는다고 예언한 거지.<end>"
+
 ["850094"]
 japanese = "だけど、そんなことでは<line-break>予言は終わらないって思うわけ。<end>"
 korean = "하지만 그런 걸로 예언이 끝날 거라곤 생각하지 않아.<end>"
@@ -327,6 +335,10 @@ korean = "네, 이쪽 분을 총독부 앞까지 데려다줘.<end>"
 ["850118"]
 japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
 korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
+
+["850121"]
+japanese = "今までにいくつもの予言をして　　　　<line-break>そのすべてが当たってるのよ。<line-break>　<line-break>一番有名なのは、魔王バロルが<line-break>バロルの娘の子に殺されるって<line-break>予言したことね。<end>"
+korean = "지금까지 수많은 예언을 했고 전부 맞았어. 가장 유명한 건 마왕 바롤이 바롤의 딸의 아이에게 죽는다고 예언한 거지.<end>"
 
 ["850125"]
 japanese = "だけど、そんなことでは<line-break>予言は終わらないって思うわけ。<end>"

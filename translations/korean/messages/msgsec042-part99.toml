@@ -188,6 +188,10 @@ korean = "그럼 실례하겠습니다.<end>"
 japanese = "本来なら処刑されるところ<line-break>だったのだからな。<line-break>そのくらい耐えろ。<line-break>よいな、<line-break>我が妹、<value:$28>よ。<line-break>また、帰ってこい。<end>"
 korean = "원래라면 처형될 일이었다. 그 정도는 견뎌라. 알겠나, 내 여동생 <value:$28>아. 다시 돌아와라.<end>"
 
+["420062"]
+japanese = "…不思議な女だ。<line-break>可能性の女神がいれば、<line-break>あんな感じか…。<line-break>まあいい。バカで退屈な貴族どもには<line-break>飽き飽きしていた。奴がいれば<line-break>脳が腐らずにすみそうだ。<end>"
+korean = "…신기한 여자군. 가능성의 여신이 있다면 저런 느낌인가…. 뭐 됐어. 멍청하고 따분한 귀족들에게 질려 있었지. 저 녀석이 있으면 머리가 썩지는 않겠어.<end>"
+
 ["420063"]
 japanese = "貴様がノーブルの新しい領主、　　<line-break>ノーブル伯だな！<end>"
 korean = "네놈이 노블의 새로운 영주, 노블 백작이군!<end>"
@@ -220,6 +224,10 @@ korean = "차카는 조금 더 맷집이 좋아졌다. VIT가 1 올랐다.<end>"
 japanese = "…でも、いったい<line-break>どういうことなんだ？　　<line-break>　<line-break>処刑されたんじゃ<line-break>なかったのか？<line-break>それにノーブル伯って…。<end>"
 korean = "…그런데 대체 어떻게 된 거지? 처형된 게 아니었나? 게다가 노블 백작이라니….<end>"
 
+["420073"]
+japanese = "…なるほどね。<line-break>そういうことだったのか。　　　　　　<line-break>　<line-break>確かに、あのときの俺は<line-break>姉ちゃんが殺されるの一点張りで<line-break>まともに話も聞かなかったろうけどさ。<end>"
+korean = "…그렇구나. 그런 거였어. 확실히 그때의 나는 누나가 죽는다는 생각밖에 없어서 제대로 이야기도 듣지 않았겠지만.<end>"
+
 ["420075"]
 japanese = "ノーブルへ帰れって言うんだろうけど、<line-break>俺、帰らないよ。<line-break>　<line-break>もともと、ノーブル伯を殺して<line-break>死ぬつもりだったんだ。<line-break>俺も姉ちゃんと同じ、死人になるよ。<end>"
 korean = "노블로 돌아가라고 할 거지? 하지만 나 안 돌아가. 원래 노블 백작을 죽이고 죽을 생각이었어. 나도 누나처럼 죽은 사람이 될 거야.<end>"
@@ -235,6 +243,10 @@ korean = "해냈다! 역시 누나, 말이 통한다니까!<end>"
 ["420079"]
 japanese = "姉ちゃん、冒険者としてやっていこう！<line-break>これからは自由にさ！<end>"
 korean = "누나, 모험자로 살아가자! 이제부터는 자유롭게!<end>"
+
+["420080"]
+japanese = "なあ、そうしようぜ、姉ちゃん！　<line-break>世界を股に掛けて旅するんだ！<line-break>　<line-break>そうと決まれば、<line-break>さっそくギルドで冒険者登録だ。<line-break>俺、先にギルド行って待ってるよ！<end>"
+korean = "그래, 그렇게 하자, 누나! 세계를 누비며 여행하는 거야! 정했으면 당장 길드에서 모험자 등록이야. 난 먼저 길드에 가서 기다릴게!<end>"
 
 ["420081"]
 japanese = "姉ちゃん、それじゃ！<end>"
@@ -355,6 +367,10 @@ korean = "레몬을 섬겨라.<end>"
 ["420123"]
 japanese = "姉ちゃん、冒険者としてやっていこう！<line-break>これからは自由にさ！<end>"
 korean = "누나, 모험자로 살아가자! 이제부터는 자유롭게!<end>"
+
+["420124"]
+japanese = "なあ、そうしようぜ、姉ちゃん！　<line-break>世界を股にかけて旅するんだ！<line-break>　<line-break>そうと決まれば、<line-break>さっそくギルドで冒険者登録だ。<line-break>俺、先にギルド行って待ってるよ！<end>"
+korean = "그래, 그렇게 하자, 누나! 세계를 누비며 여행하는 거야! 정했으면 당장 길드에서 모험자 등록이야. 난 먼저 길드에 가서 기다릴게!<end>"
 
 ["420125"]
 japanese = "よぉ、<value:$28>、<line-break>しけた面してるな。<end>"

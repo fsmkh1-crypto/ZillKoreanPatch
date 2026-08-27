@@ -132,6 +132,10 @@ korean = "리벨덤제 전투 몬스터인가. 왜 이런 곳에…?<end>"
 japanese = "それをいいことに<line-break>代官のボルボラは<line-break>この町でやりたい放題だ。<line-break>重税をかけて私腹を肥やし、<line-break>そして貯めこんだ金で<line-break>あの戦闘モンスターを買ったんだ。<end>"
 korean = "그걸 빌미로대관 볼보라는이 마을에서 제멋대로 하고 있어.무거운 세금을 매겨 배를 불리고,그렇게 모은 돈으로그 전투 몬스터를 산 거야.<end>"
 
+["310045"]
+japanese = "このことを聞いたら、<line-break>みんな、きっと喜ぶぜ！<line-break>ボルボラを倒すのは今だってな！<end>"
+korean = "이 소식을 들으면 모두 분명 기뻐할 거야! 볼보라를 쓰러뜨릴 때는 지금이라고!<end>"
+
 ["310046"]
 japanese = "あ！<end>"
 korean = "아!<end>"
@@ -351,6 +355,10 @@ korean = "닥쳐, 볼보라!!<end>"
 ["310117"]
 japanese = "…なんだと？<line-break>それじゃ、この反乱は…。<line-break>まさか…。<end>"
 korean = "…뭐라고? 그럼 이 반란은…. 설마….<end>"
+
+["310121"]
+japanese = "ゲヘヘ…、そんなこんなも<line-break>今日で終わりだと思うと<line-break>さびしいぜ…。ゲヘヘヘ…。<end>"
+korean = "게헤헤… 이런저런 일도 오늘로 끝이라고 생각하니 섭섭하군…. 게헤헤헤….<end>"
 
 ["310122"]
 japanese = "ぼ…ボルボラ…、<line-break>お前…いったい…！？<end>"
@@ -752,6 +760,10 @@ korean = "빨리 도망쳐!! 빨리!!<end>"
 japanese = "いよいよ町に入る。<line-break>お前の名前で<line-break>中止を呼びかけるんだ。<end>"
 korean = "이제 마을에 들어간다. 네 이름으로 중지를 호소해.<end>"
 
+["310243"]
+japanese = "それに、もう遅い。<line-break>すでに、町では騒ぎが起こり、<line-break>代官ボルボラは死にました。<end>"
+korean = "게다가 이미 늦었습니다. 벌써 마을에 소동이 일어났고 대관 볼보라는 죽었습니다.<end>"
+
 ["310250"]
 japanese = "レムオン様。<line-break>あなたの秘密についての密書、<line-break>ボルボラより受け取っております。<line-break>あなたは密書を取り戻さねば破滅。<line-break>反乱にかまっているヒマはない。<end>"
 korean = "레몬 님. 당신의 비밀에 관한 밀서, 볼보라에게서 받았습니다. 밀서를 되찾지 못하면 당신은 파멸합니다. 반란에 신경 쓸 여유는 없습니다.<end>"
@@ -868,6 +880,10 @@ korean = "여관<end>"
 japanese = "は、は、はは、反乱ですか？<end>"
 korean = "바, 바, 반란입니까?<end>"
 
+["310299"]
+japanese = "お泊まりじゃ…ない…ですよね。<line-break>ご立派な自分の家が<line-break>大通りにあるんですから。<end>"
+korean = "숙박은… 아니시죠. 대로에 훌륭한 자기 집이 있으시니까요.<end>"
+
 ["310300"]
 japanese = "は、反乱？<line-break>ああ、フリントさんの<line-break>言ったとおりになった。<end>"
 korean = "바, 반란? 아아, 플린트 씨가 말한 대로 됐어.<end>"
@@ -891,6 +907,10 @@ korean = "히익! 죄, 죄송합니다!거, 거짓말이에요 거짓말!저, �
 ["310309"]
 japanese = "領主邸前<end>"
 korean = "영주 저택 앞<end>"
+
+["310310"]
+japanese = "ここはノーブルの領主邸だ。<line-break>代官ボルボラ様はここで<line-break>政務を執り行われるのだ。<end>"
+korean = "여기는 노블 영주의 저택이다. 대관 볼보라 님께서 이곳에서 정무를 보신다.<end>"
 
 ["310311"]
 japanese = "あ、<value:$28>さん。<line-break>困りますよ。<line-break>あの…、その…。　　　　　　　　<end>"

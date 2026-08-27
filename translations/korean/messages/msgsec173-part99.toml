@@ -104,6 +104,10 @@ korean = "도망쳤어? …뭐, 됐어. 지금은 조금이라도 피해를 줄�
 japanese = "ふぅ。<line-break>生き残りはこれで全部かの？<end>"
 korean = "후우. 살아남은 건 이게 전부인가?<end>"
 
+["1730034"]
+japanese = "えぇ。生き残ったのは子供だけ。<line-break>それも、小さな子ばかり。<line-break>あとは全滅だわ。<end>"
+korean = "그래. 살아남은 건 아이들뿐이야. 그것도 어린아이들뿐. 나머지는 전멸했어.<end>"
+
 ["1730035"]
 japanese = "小僧。<line-break>貪欲の盾は、どこだ？<end>"
 korean = "꼬마. 탐욕의 방패는 어디 있지?<end>"
@@ -143,6 +147,10 @@ korean = "그건, 방패는 중요하지만…. 어쩔 수 없네. 돌드람.<en
 ["1730045"]
 japanese = "今度は何かな？<end>"
 korean = "이번엔 뭐지?<end>"
+
+["1730046"]
+japanese = "私とゼリグで盾の所在を<line-break>報告に行くわ。あなたは<line-break>この子たちのことをお願い。<end>"
+korean = "나와 제리그가 방패의 소재를 보고하러 갈게. 당신은 이 아이들을 부탁해.<end>"
 
 ["1730047"]
 japanese = "やれやれ。<line-break>わしの助けはいらんのと違ったかな？<end>"
@@ -395,6 +403,10 @@ korean = "부하가 된다<end>"
 ["1730130"]
 japanese = "部下にならない<end>"
 korean = "부하가 되지 않는다<end>"
+
+["1730131"]
+japanese = "うぐ…ひっく、ひっく…。<line-break>このおねえちゃん、恐いけど　<line-break>やさしいよぉ……。<end>"
+korean = "흑… 훌쩍, 훌쩍…. 이 언니, 무섭지만 착해요오…….<end>"
 
 ["1730132"]
 japanese = "も、もう、<line-break>恐くなんてないんだから。<line-break>泣いてなんていないんだから！<line-break>泣いてなんて…泣いてなんて…<line-break>ぶえ～ん、恐かったよ～～。<end>"

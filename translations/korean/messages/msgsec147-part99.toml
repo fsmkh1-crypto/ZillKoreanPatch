@@ -248,6 +248,10 @@ korean = "뭐, 뭐냐 네놈!? 방해하지 마!<end>"
 japanese = "おう、捕まえてくれたか。<line-break>助かったわ。<line-break>わしはアンギルダン、冒険者じゃ。<end>"
 korean = "오, 잡아 줬나. 살았군. 나는 안길단, 모험자다.<end>"
 
+["1470089"]
+japanese = "<value:$28>か。<line-break>その名、覚えておこう。　　　　　<line-break>　<line-break>最近、ロストール付近で子供たちを<line-break>ねらった誘拐事件が増えていてな。<line-break>こやつは、その一味なんじゃ。<end>"
+korean = "<value:$28>인가. 그 이름, 기억해 두지. 최근 로스토올 부근에서 아이들을 노린 유괴 사건이 늘고 있다. 이 녀석은 그 일당이야.<end>"
+
 ["1470091"]
 japanese = "じゃが、お主の言うルルアンタらしい<line-break>リルビーの娘は見あたらなかったぞ。<end>"
 korean = "하지만 자네가 말한 루루안타라는 릴비 여자아이는 보이지 않았어.<end>"
@@ -431,6 +435,10 @@ korean = "자, 루루안타가 어디 있는지 말해 주실까?<end>"
 ["1470160"]
 japanese = "なんだと！？<end>"
 korean = "뭐라고!?<end>"
+
+["1470161"]
+japanese = "…ウソじゃないぜ。あのガキには　<line-break>逃げられちまったんだよ…。<line-break>　<line-break>チビひとりじゃ…どのみち<line-break>この森からは抜けだせん…。<line-break>ざ、残念だったな…ぐふっ。<end>"
+korean = "…거짓말 아니야. 그 꼬맹이는 놓쳐 버렸어…. 꼬마 혼자선… 어차피 이 숲에서 빠져나갈 수 없어…. 자, 잘됐네… 크흑.<end>"
 
 ["1470162"]
 japanese = "まずいことになったな。　　　<line-break>早くルルアンタを捜そう。<line-break>　<line-break>こいつの言うとおり、<line-break>女の子ひとりで抜け出せるような<line-break>森じゃない。急いで捜すんだ。<end>"
