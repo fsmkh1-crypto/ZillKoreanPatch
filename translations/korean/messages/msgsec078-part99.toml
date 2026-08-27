@@ -296,6 +296,10 @@ korean = "아니요, 사실은… 해야 할 일이 있습니다.<end>"
 japanese = "実は、しなければならないことが<line-break>あるのです。<end>"
 korean = "사실 해야 할 일이 있습니다.<end>"
 
+["780075"]
+japanese = "<if><value:$01><equal>2なんなの？<line-break>しなければならないことって？<end><if><value:$01><equal>3ほう。<line-break>いったい何を始めるつもりじゃ？<end><if><value:$01><equal>4それで、それで？<end><if><value:$01><equal>6なんなの？<line-break>しなければならないことって？<end><if><value:$01><equal>7話してくれるかしら？<end><if><value:$01><equal>9で、何を始めようっての？<end><if><value:$01><equal>11なんなの？<line-break>しなければならにことって？<end><if><value:$01><equal>12そりゃ、どんなことかな？<line-break>ぜひとも聞かせてもらいたいね。<end><if><value:$01><equal>14ほう。<line-break>何を始めるつもりじゃ？<end><if><value:$01><equal>15何を始めるの？<line-break>僕たちに話してよ。<end><if><value:$01><equal>17だーかーらー、<line-break>なんなのよ、それは？<end><if><value:$01><equal>19なになに、なぁーにぃ？<end><if><value:$01><equal>22何を始めるの？<line-break>ボクにも教えてよ。<end>なんだよ、それ？<end>"
+korean = "<if><value:$01><equal>2뭐야? 해야 할 일이란 게?<end><if><value:$01><equal>3호오. 대체 뭘 시작하려는 게냐?<end><if><value:$01><equal>4그래서, 그래서?<end><if><value:$01><equal>6뭐야? 해야 할 일이란 게?<end><if><value:$01><equal>7말해 줄래?<end><if><value:$01><equal>9그래서, 뭘 시작하려는 건데?<end><if><value:$01><equal>11뭐야? 해야 할 일이란 게?<end><if><value:$01><equal>12그게 어떤 일인데? 꼭 들려줘.<end><if><value:$01><equal>14호오. 뭘 시작하려는 게냐?<end><if><value:$01><equal>15뭘 시작하려는 거야? 우리한테 말해 줘.<end><if><value:$01><equal>17그-러-니-까, 그게 뭐냐고?<end><if><value:$01><equal>19뭐야 뭐야, 뭐냐구우?<end><if><value:$01><equal>22뭘 시작하는 거야? 나한테도 알려 줘.<end>그게 뭐야?<end>"
+
 ["780076"]
 japanese = "ロストールをもとの姿に<line-break>戻したいのです。<line-break>美しい都市をよみがえらせたいのです。<end>"
 korean = "로스토올을 원래 모습으로 되돌리고 싶습니다. 아름다운 도시를 되살리고 싶습니다.<end>"
@@ -303,6 +307,10 @@ korean = "로스토올을 원래 모습으로 되돌리고 싶습니다. 아름�
 ["780078"]
 japanese = "もちろん、私１人の力では無理です。<line-break>まずは、ロストール復興を<line-break>願う人たちを集めるつもりです。<line-break>そして、何ができるか<line-break>話し合うところから<line-break>始めようと思っています。<end>"
 korean = "물론 저 혼자의 힘으로는 무리예요. 우선 로스토올의 부흥을 바라는 사람들을 모을 생각입니다. 그리고 무엇을 할 수 있을지 함께 이야기하는 데서 시작하려고 해요.<end>"
+
+["780079"]
+japanese = "<if><value:$01><equal>3なるほど。<line-break>しかし、簡単なことではないぞ。<end><if><value:$01><equal>4すごいかも！<line-break>私なら、あきらめちゃうかな！<line-break>きゃっ！<end><if><value:$01><equal>5へぇ、大変そうだな。<end><if><value:$01><equal>6大変そうだね。<end><if><value:$01><equal>9決心固いみたいだし…<line-break>応援するっきゃないっしょ。<line-break>大変だろうけどさ。<end><if><value:$01><equal>11そう。<line-break>決して平たんな道のりではないわ。<line-break>それも承知の上ね？<end><if><value:$01><equal>12わかってるとは思うが、<line-break>キツいぜ？<end><if><value:$01><equal>10へぇ、なんだか大変そうだな。<end><if><value:$01><equal>14簡単なことではないぞ。<line-break>わかっておるのじゃな？<end><if><value:$01><equal>15そうか…。大変そうだね。<end><if><value:$01><equal>17別に、<line-break>何をやろうとアナタの<line-break>勝手だからとめないけどー。<end><if><value:$01><equal>19ふ～ん、なんだか大変そうだね。<end><if><value:$01><equal>22おもしろそう！<line-break>%2<end>大変そうね。<end>"
+korean = "<if><value:$01><equal>3그렇군. 하지만 쉬운 일은 아닐 게다.<end><if><value:$01><equal>4대단할지도! 나라면 포기했을 거야! 꺅!<end><if><value:$01><equal>5헤에, 힘들 것 같네.<end><if><value:$01><equal>6힘들겠네.<end><if><value:$01><equal>9결심이 굳은 것 같고… 응원할 수밖에 없겠네. 힘들겠지만.<end><if><value:$01><equal>11그래. 결코 평탄한 길은 아닐 거야. 그것도 각오한 거지?<end><if><value:$01><equal>12알고 있겠지만, 힘들 거야?<end><if><value:$01><equal>10헤에, 뭔가 힘들어 보이네.<end><if><value:$01><equal>14쉬운 일은 아닐 게다. 알고 있겠지?<end><if><value:$01><equal>15그렇구나… 힘들겠네.<end><if><value:$01><equal>17뭐, 뭘 하든 당신 마음이니까 말리진 않겠지만.<end><if><value:$01><equal>19흐음, 뭔가 힘들어 보이네.<end><if><value:$01><equal>22재밌겠다! %2<end>힘들겠네.<end>"
 
 ["780080"]
 japanese = "ええ。<line-break>でも、精一杯やってみるつもりです。<line-break>ときどき励ましに来てください。<end>"

@@ -64,6 +64,10 @@ korean = "하지만 죽음을 앞둔 나는 자유롭다. 바람이여, 작은 �
 japanese = "翔王…様…。<end>"
 korean = "상왕…님….<end>"
 
+["1320016"]
+japanese = "<if><value:$01><equal>12…竜の強さはあんなものじゃない。<line-break>翔王はお前さんに<line-break>倒してもらいたかったんだ…。 <end><if><value:$01><equal>20死に急ぐか…翔王…。<line-break>…全力のお前と戦いたかった。 <end><if><value:$01><equal>8なんとも…悲しい魂ですね。<line-break>このような形でしか、あなたに<line-break>運命を託せなかったのですから。 <end><if><value:$01><equal>16…高潔な魂は束縛を拒む。<line-break>死を望み、本気を出さぬか、翔王…。<line-break>　<line-break>私は全力で戦った。<line-break>真に強き者への礼儀だ…。 <end><if><value:$01><equal>11<value:$28>…。<line-break>竜の本来の強さはこの程度じゃないわ。<line-break>彼…あなたに倒されたがっていたのね。 <end><if><value:$01><equal>3竜の強さはこんなものではない。<line-break><value:$28>よ、<line-break>翔王はお主に倒されたかったんじゃな。 <end>………………。 <end>"
+korean = "<if><value:$01><equal>12…용의 강함은 저 정도가 아니야. 상왕은 네게 쓰러지고 싶었던 거다…<end><if><value:$01><equal>20죽음을 재촉하는가… 상왕… 나는 전력을 다한 너와 싸우고 싶었다.<end><if><value:$01><equal>8참으로… 슬픈 영혼이군요. 이런 방식으로밖에 당신에게 운명을 맡길 수 없었으니까요.<end><if><value:$01><equal>16…고결한 영혼은 속박을 거부한다. 죽음을 바라며 전력을 내지 않는가, 상왕… 나는 전력으로 싸웠다. 진정 강한 자에 대한 예의다…<end><if><value:$01><equal>11<value:$28>… 용의 본래 힘은 이 정도가 아니야. 그… 당신에게 쓰러지고 싶었던 거네.<end><if><value:$01><equal>3용의 강함은 이런 정도가 아니다. <value:$28>여, 상왕은 자네에게 쓰러지고 싶었던 게로군.<end>……………….<end>"
+
 ["1320017"]
 japanese = "…出ていって…くれぬか？<end>"
 korean = "…나가 주지 않겠나?<end>"

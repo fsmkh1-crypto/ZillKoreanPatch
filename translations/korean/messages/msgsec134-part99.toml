@@ -640,6 +640,10 @@ korean = "방해되는 건 제거한다. 그게 너희 인간의 방식이지? �
 japanese = "ジラーク将軍…！<line-break>同胞の世界を…必ず…！<end>"
 korean = "지라크 장군…! 동포들의 세계를… 반드시…!<end>"
 
+["1340161"]
+japanese = "<if><value:$01><equal>3<value:$28>。<line-break>こっちじゃ。<line-break>街中に通じる旧坑道がある。<end><if><value:$01><equal>11こちらに来て。<line-break>街の内部に続いてそうな<line-break>坑道みたいなのがあるの。<end><if><value:$01><equal>12こっちだ。<line-break>坑道を見つけた。<line-break>きっと街の中に続いてる。<end><if><value:$01><equal>14おい、こっちじゃ<line-break>坑道があるぞ。来い。<line-break> <line-break>ドワーフのカンじゃ。<line-break>あの穴から中に入れるぞ。<end><if><value:$01><equal>26<value:$28>、<line-break>こっちにアルノートゥンに通じる<line-break>古い坑道がある。<end><if><value:$01><equal>24<value:$28>様<line-break>以前、調査したおりに、こちらに<line-break>中に通じる旧坑を見つけてあります。<end><if><value:$01><equal>25<value:$28><line-break>こっち。<line-break>中に通じる旧坑があるの。<end><if><value:$01><equal>22<value:$28>、こっち！<line-break>古い坑道があるよ。<line-break>きっとここから中に入れるよ！<end>"
+korean = "<if><value:$01><equal>3<value:$28>. 이쪽이다. 시내로 이어지는 옛 갱도가 있다.<end><if><value:$01><equal>11이쪽으로 와. 도시 안쪽으로 이어지는 것 같은 갱도가 있어.<end><if><value:$01><equal>12이쪽이야. 갱도를 찾았어. 분명 도시 안으로 이어질 거야.<end><if><value:$01><equal>14어이, 이쪽이다. 갱도가 있어. 와라. 드워프의 감이다. 저 구멍으로 안에 들어갈 수 있어.<end><if><value:$01><equal>26<value:$28>, 이쪽에 알노툰으로 이어지는 오래된 갱도가 있다.<end><if><value:$01><equal>24<value:$28> 님, 예전에 조사했을 때 이쪽에서 내부로 이어지는 옛 갱도를 찾아 두었습니다.<end><if><value:$01><equal>25<value:$28>, 이쪽. 안으로 이어지는 옛 갱도가 있어.<end><if><value:$01><equal>22<value:$28>, 이쪽! 오래된 갱도가 있어. 분명 여기서 안으로 들어갈 수 있어!<end>"
+
 ["1340162"]
 japanese = "（…どうやら向こうから入れそうだ）<end>"
 korean = "(…아무래도 저쪽에서 들어갈 수 있겠군)<end>"
@@ -1287,6 +1291,10 @@ korean = "어느 날 한 용사가 나타나 이 신전에 마물을 봉인했�
 ["1340326"]
 japanese = "この世を救う使命を負った勇者だけが、<line-break>あの剣を引き抜くことができるという…<line-break>古くからの言い伝えじゃ。<end>"
 korean = "이 세상을 구할 사명을 짊어진 용사만이 그 검을 뽑을 수 있다는… 오래된 전승이란다.<end>"
+
+["1340327"]
+japanese = "<select><value:$20>%3ノエル様は時おり<line-break>怪物退治などにも活躍されている。<line-break> <line-break>剣の腕もたつ、利発なお嬢さんだが、<line-break>しかし、惜しいことだ。<line-break>男だったら、竜騎士にもなれたものを。<end>ここの領主様は、かつて<line-break>ソウルイーターを倒したという　　　<line-break>勇者の子孫だということだ。<line-break>つまり、その娘であるノエル様も、<line-break>勇者の血筋であるということになる。<line-break>きっと、あの剣を抜けると思うよ。<end>数日前、旅の預言者様がいらしてな。<line-break>折れたままだった俺の足を、<line-break>祈るだけで治してしまわれたんだよ。<line-break>あれは全く奇蹟だった。<line-break>そのあと、預言者様は、ノエル様こそが<line-break>あの剣を抜く者だと預言されたそうだ。<end>"
+korean = "<select><value:$20>%3노엘 님은 때때로 괴물 퇴치에도 나서신다네. 검술도 뛰어나고 총명한 아가씨지만, 참 아쉬운 일이야. 남자였다면 용기사도 될 수 있었을 텐데.<end>이곳 영주님은 예전에 소울 이터를 쓰러뜨렸다는 용사의 후손이라고 하네. 그러니 그 딸인 노엘 님도 용사의 혈통이라는 뜻이지. 분명 그 검을 뽑을 수 있을 거야.<end>며칠 전 여행 중인 예언자님이 오셨는데 말이야. 부러진 채였던 내 다리를 기도만으로 고쳐 버리셨다네. 정말 기적이었어. 그 뒤 예언자님은 노엘 님이야말로 그 검을 뽑을 자라고 예언하셨다더군.<end>"
 
 ["1340328"]
 japanese = "ここの領主様は、かつて<line-break>ソウルイーターを倒したという<line-break>勇者の子孫だということだ。<line-break>つまり、その娘であるノエル様も、<line-break>勇者の血筋であるということになる。<line-break>きっと、あの剣を抜けると思うよ。<end>"

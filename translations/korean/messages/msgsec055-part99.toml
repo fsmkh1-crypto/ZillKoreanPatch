@@ -576,6 +576,10 @@ korean = "아니야! 내가 아니야! 난 농담한 게 아니라고!<end>"
 japanese = "さ、さすが師匠！<end>"
 korean = "여, 역시 스승님!<end>"
 
+["550144"]
+japanese = "<if><value:$01><equal>2う、うそ…<line-break>みんな…石になってる…！？<end><if><value:$01><equal>13…これだけの人数が石化している？<end>…いや、ただの石化ではない。　　<line-break>これは…。<end><if><value:$01><equal>4きゃっ、みんな、石になってる。<line-break>少し、ここに来たの、後悔してるかも！<end><if><value:$01><equal>14なんということじゃ！<line-break>村人を石に変えるとは！　おのれ…。<end><if><value:$01><equal>17な、なんなのよぉ！　石、石…！<line-break>み～んな石になってるじゃない！<end><if><value:$01><equal>19ひ、ひどい！<line-break>みんな…石になってるよぉ！<end><if><value:$01><equal>22みんな魂を抜かれて石にされてるよ。<line-break>さっきの男？　それともあの怪物？<end><if><value:$01><equal>10どういうことだよ！<line-break>みんな石にされちまってる！<end>ね、ねえ、<value:$28>…<line-break>みんな…石になってるよ…！<end>"
+korean = "<if><value:$01><equal>2거, 거짓말… 다들… 돌이 됐어…!?<end><if><value:$01><equal>13…이 많은 사람들이 석화했다고?<end>…아니, 단순한 석화가 아니다. 이건…<end><if><value:$01><equal>4꺅, 다들 돌이 됐어. 여기 온 거 조금 후회될지도!<end><if><value:$01><equal>14이 무슨 짓인가! 마을 사람들을 돌로 만들다니! 이놈…<end><if><value:$01><equal>17뭐, 뭐야아! 돌, 돌…! 전부 돌이 됐잖아!<end><if><value:$01><equal>19너, 너무해! 다들… 돌이 됐어어!<end><if><value:$01><equal>22다들 소울을 빼앗기고 돌이 됐어. 아까 그 남자? 아니면 그 괴물?<end><if><value:$01><equal>10이게 무슨 일이야! 다들 돌이 돼 버렸잖아!<end>저, 저기, <value:$28>… 다들… 돌이 됐어…!<end>"
+
 ["550145"]
 japanese = "…ソウルリープ！　　　　　　　　　　<line-break>　<line-break><line-break>この状況…さっきの奴よりも<line-break>強力な使い手がいるってことか…。<line-break>石化獣って名前はダテじゃないんだな。<end>"
 korean = "…소울 리프! 이 상황… 아까 녀석보다 더 강한 사용자가 있다는 건가…. 석화수라는 이름이 괜히 붙은 게 아니군.<end>"
@@ -999,6 +1003,14 @@ korean = "쳇, 진짜라면 대박인데!<end>"
 ["550253"]
 japanese = "おーい、<value:$28>。<line-break>黒づくめもいねえぞ。どうすんだ？<end>"
 korean = "어이, <value:$28>. 검은 옷 녀석도 없는데 어쩔 거야?<end>"
+
+["550255"]
+japanese = "<if><value:$01><equal>2もう、びっくりさせないで！<line-break>死んだかと思ったじゃない。<end><if><value:$01><equal>13…フッ。<line-break>いらぬ心配をかけるな。<end><if><value:$01><equal>10姉ちゃん、<line-break>…よかった。<end><if><value:$01><equal>14<value:$28>、<line-break>ちゃんと生きておるか？<end><if><value:$01><equal>15…よかった。<line-break>ねえ、<value:$28>、<line-break>僕、心配しちゃたよ。<end><if><value:$01><equal>17な、な、な、な、なによ！<line-break>生きてるんなら、<line-break>さっさと起きなさいよ！<line-break>下等生物であるあなたが、<line-break>高貴なエルフであるアタクシに<line-break>心配かけるなんて５００年早くてよぉ！<end><if><value:$01><equal>18兄弟子…<line-break>お気がつかれましたか。<end><if><value:$01><equal>4きゃっ！　生きてたみたい！<end><if><value:$01><equal>19よかったあ！<line-break>大丈夫？<end>よかったぁ！<line-break>このまま目を開けなかったら<line-break>どうしようかと思った。<end>"
+korean = "<if><value:$01><equal>2정말, 놀라게 하지 마! 죽은 줄 알았잖아.<end><if><value:$01><equal>13…후. 쓸데없는 걱정을 끼치지 마라.<end><if><value:$01><equal>10누나… 다행이야.<end><if><value:$01><equal>14<value:$28>, 제대로 살아 있느냐?<end><if><value:$01><equal>15…다행이다. 저기, <value:$28>, 나 걱정했잖아.<end><if><value:$01><equal>17뭐, 뭐, 뭐, 뭐야! 살아 있으면 빨리 일어나요! 하등생물인 당신이 고귀한 엘프인 이 몸을 걱정시키다니 500년은 일러요!<end><if><value:$01><equal>18사형… 정신이 드셨습니까.<end><if><value:$01><equal>4꺅! 살아 있었나 봐!<end><if><value:$01><equal>19다행이다아! 괜찮아?<end>다행이다아! 이대로 눈을 안 뜨면 어쩌나 했어.<end>"
+
+["550258"]
+japanese = "<if><value:$01><equal>2…ちょ、ちょっと！<line-break><value:$28>！<end><if><value:$01><equal>13…フッ、やれやれ、<line-break>しょうがない奴だ。<end><if><value:$01><equal>10とにかく、今できることは<line-break>そのコを助けることだよな。<end><if><value:$01><equal>14…ショックじゃったのじゃろうな。<line-break>まるで、ふぬけのようじゃ。<end><if><value:$01><equal>15…ひとりぼっちで生き残って<line-break>つらいだろうな、あのコ。<end><if><value:$01><equal>17こらこらこら！　高貴なエルフである<line-break>アタクシをおいていくなんて<line-break>８００年早くてよぉ！<end><if><value:$01><equal>18…その子もつらかろう。<line-break>自分の村がこの有様では…。<end><if><value:$01><equal>4あ、助けにいくんだ。<line-break>うふふ、ホントにおせっかいさん！<end><if><value:$01><equal>19ねえ、ノエルってお姉ちゃん、<line-break>だいじょうぶそう？<line-break><value:$28>。<end>…でも、立ち直れるかな。<line-break>彼女…。<end>"
+korean = "<if><value:$01><equal>2자, 잠깐! <value:$28>!<end><if><value:$01><equal>13…후, 정말이지. 어쩔 수 없는 녀석이군.<end><if><value:$01><equal>10아무튼 지금 할 수 있는 건 그 애를 돕는 거겠지.<end><if><value:$01><equal>14…충격이 컸던 모양이군. 완전히 넋이 나가 버렸어.<end><if><value:$01><equal>15…혼자 살아남아서 힘들겠지, 저 애.<end><if><value:$01><equal>17잠깐잠깐잠깐! 고귀한 엘프인 이 몸을 두고 가다니 800년은 일러요!<end><if><value:$01><equal>18…그 아이도 괴롭겠지. 자기 마을이 이 지경이 됐으니…<end><if><value:$01><equal>4아, 도우러 가는구나. 후후, 정말 참견쟁이라니까!<end><if><value:$01><equal>19저기, 노엘이라는 언니 괜찮아 보여? <value:$28>.<end>…하지만 다시 일어설 수 있을까. 그녀…<end>"
 
 ["550259"]
 japanese = "（怪物もあの黒づくめもいない。<line-break>　…助かったのか。　　　　　　）<end>"

@@ -188,6 +188,10 @@ korean = "역시 <value:$28>이 조사를 끝낼 때까지 산책이나 해야�
 japanese = "…なぜだ？　なんで、みんな<line-break>いなくなっちまったんだ？<line-break>…町の中は何も変わってないのに…。<end>"
 korean = "…왜지? 왜 다들 사라진 거야? …도시 안은 아무것도 변하지 않았는데….<end>"
 
+["970049"]
+japanese = "<if><value:$01><equal>2あ、<value:$28>。<line-break>誰かいるわよ。<line-break>行ってみましょう。 <end><if><value:$01><equal>4あ、<value:$28>。<line-break>誰かが何かして遊んでいる<line-break>みたいだわ。 <end><if><value:$01><equal>5おい、<value:$28>。<line-break>誰かいるぜ。 <end><if><value:$01><equal>6あ、<value:$28>。<line-break>見て、誰かいるよ。 <end><if><value:$01><equal>13…誰かいるぞ。 <end><if><value:$01><equal>10あ、姉ちゃん。<line-break>誰かいるぞ。 <end><if><value:$01><equal>14おい、<value:$28>。<line-break>誰かおるぞ。 <end><if><value:$01><equal>15あ、<value:$28>。<line-break>誰かいるよ。<line-break>行ってみようよ。 <end><if><value:$01><equal>17見なさい、<value:$28>。<line-break>いかにも低能そうな人間が<line-break>倒れていてよ。 <end><if><value:$01><equal>19あー！　<value:$28>。<line-break>誰かいるよぉ。<line-break>行ってみよう。 <end>あ、<value:$28>。<line-break>誰かいるよ。<line-break>話を聞いてみようよ。 <end>"
+korean = "<if><value:$01><equal>2아, <value:$28>. 누가 있어. 가 보자.<end><if><value:$01><equal>4아, <value:$28>. 누가 뭔가 하며 놀고 있는 것 같아.<end><if><value:$01><equal>5어이, <value:$28>. 누가 있다.<end><if><value:$01><equal>6아, <value:$28>. 봐, 누가 있어.<end><if><value:$01><equal>13…누가 있다.<end><if><value:$01><equal>10아, 누나. 누가 있어.<end><if><value:$01><equal>14어이, <value:$28>. 누가 있네.<end><if><value:$01><equal>15아, <value:$28>. 누가 있어. 가 보자.<end><if><value:$01><equal>17보세요, <value:$28>. 보기만 해도 저능해 보이는 인간이 쓰러져 있어요.<end><if><value:$01><equal>19아! <value:$28>. 누가 있어어. 가 보자.<end>아, <value:$28>. 누가 있어. 이야기 들어 보자.<end>"
+
 ["970050"]
 japanese = "…なんだ、お前たちは？<line-break>みんながどこに行ったのか　　　　　　<line-break>知っているのか？<line-break>そうじゃないなら、放っておいてくれ。<line-break>今は人と話せる気分じゃないんだ。<end>"
 korean = "…뭐냐, 너희는? 다들 어디로 갔는지 알고 있나? 아니라면 내버려 둬. 지금은 사람과 이야기할 기분이 아니야.<end>"
@@ -199,6 +203,14 @@ korean = "아으으, 역시 도시 안을 돌아다녀야 하는구나. 하지�
 ["970054"]
 japanese = "…みんな、どこに行っちまったんだ？<line-break>母さんは…？　父さんは…？<line-break>…ちくしょう…。<end>"
 korean = "…다들 어디 간 거야? 엄마는…? 아빠는…? …젠장….<end>"
+
+["970055"]
+japanese = "<if><value:$01><equal>2あ、<value:$28>。<line-break>どう、なにかわかった？ <end><if><value:$01><equal>4あ、<value:$28>。<line-break>もう、お散歩は終わったの？ <end><if><value:$01><equal>5<value:$28>。<line-break>何か、わかったか？ <end><if><value:$01><equal>6あ、<value:$28>。<line-break>どう、何かわかった？ <end><if><value:$01><equal>13どうだ、<line-break>何かわかったか？ <end><if><value:$01><equal>10あ、姉ちゃん、<line-break>どう、何かわかった？ <end><if><value:$01><equal>14おう、<value:$28>。<line-break>どうじゃ、何かわかったか？ <end><if><value:$01><equal>15あ、<value:$28>。<line-break>どう、何かわかった？ <end><if><value:$01><equal>17ちょっと、<value:$28>。<line-break>アタクシ、もうこんなさびれた町に<line-break>いるのは、がまんできなくてよ！<line-break>これだけ、時間をかけたのですもの。<line-break>もちろん、何かわかったんでしょうね？ <end><if><value:$01><equal>19あ、<value:$28>。<line-break>どう？　何かわかったぁ？ <end>あ、<value:$28>。<line-break>どう？　何かわかった？ <end>"
+korean = "<if><value:$01><equal>2아, <value:$28>. 어때, 뭔가 알아냈어?<end><if><value:$01><equal>4아, <value:$28>. 이제 산책은 끝났어?<end><if><value:$01><equal>5<value:$28>. 뭔가 알아냈나?<end><if><value:$01><equal>6아, <value:$28>. 어때, 뭔가 알아냈어?<end><if><value:$01><equal>13어때, 뭔가 알아냈나?<end><if><value:$01><equal>10아, 누나. 어때, 뭔가 알아냈어?<end><if><value:$01><equal>14오, <value:$28>. 어때, 뭔가 알아냈나?<end><if><value:$01><equal>15아, <value:$28>. 어때, 뭔가 알아냈어?<end><if><value:$01><equal>17잠깐, <value:$28>. 이 몸은 이제 이런 쓸쓸한 마을에 있는 건 참을 수 없어요! 이만큼 시간을 썼으니 당연히 뭔가 알아냈겠죠?<end><if><value:$01><equal>19아, <value:$28>. 어때? 뭔가 알아냈어어?<end>아, <value:$28>. 어때? 뭔가 알아냈어?<end>"
+
+["970056"]
+japanese = "<if><value:$01><equal>2え？<line-break>町の人に会えたの？<line-break>それじゃあ… <end><if><value:$01><equal>4町の人に会うことができたの？<line-break>…もしかして、私を待たせて<line-break>その人たちと遊んでたのかも！ <end><if><value:$01><equal>5なんだって？<line-break>町の人がまだいたのか？<line-break>てことは… <end><if><value:$01><equal>6え、本当？<line-break>町の人に会えたんだ？<line-break>それじゃあ… <end><if><value:$01><equal>13町に人が残っていた？<line-break>ということは… <end><if><value:$01><equal>10え？<line-break>町の人に会えたのか？<line-break>てことは… <end><if><value:$01><equal>14なんと？<line-break>町の者に会えたのか？<line-break>ということは… <end><if><value:$01><equal>15え？<line-break>町の人に会うことができたの？<line-break>それじゃあ… <end><if><value:$01><equal>17なんですって！？<line-break>この寂れた町にまだ住んでる人間が<line-break>いたと言うの？　ということは… <end><if><value:$01><equal>19え？<line-break>町の人に会えたのぉ？<line-break>それなら… <end>え？<line-break>町の人に会えたの？<line-break>それなら… <end>"
+korean = "<if><value:$01><equal>2어? 마을 사람을 만났어? 그럼…<end><if><value:$01><equal>4마을 사람을 만날 수 있었어? …혹시 날 기다리게 해 놓고 그 사람들이랑 놀고 있었던 거 아냐!<end><if><value:$01><equal>5뭐라고? 마을 사람이 아직 남아 있었나? 그렇다면…<end><if><value:$01><equal>6어, 정말? 마을 사람을 만났어? 그럼…<end><if><value:$01><equal>13마을에 사람이 남아 있었다? 그렇다면…<end><if><value:$01><equal>10어? 마을 사람을 만났어? 그렇다면…<end><if><value:$01><equal>14뭐라고? 마을 사람을 만났느냐? 그렇다면…<end><if><value:$01><equal>15어? 마을 사람을 만날 수 있었어? 그럼…<end><if><value:$01><equal>17뭐라고요!? 이 쓸쓸한 마을에 아직 사는 인간이 있었다고요? 그렇다면…<end><if><value:$01><equal>19어? 마을 사람을 만났어어? 그럼…<end>어? 마을 사람을 만났어? 그럼…<end>"
 
 ["970057"]
 japanese = "ふぅん、そんなことがあったんだ。<line-break>…でも、たましいを吸われるって<line-break>どんなかんじなのかな？<line-break>ふわふわっとするのかな？<line-break>すーすーするのかな？<line-break>ちょっと、興味があるかも！<end>"
