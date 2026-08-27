@@ -868,6 +868,10 @@ korean = "자, 슬슬 떠날 때인가. 이 장난감이 추락하기 전에 난
 japanese = "じゃ、<value:$28>。<line-break>せっかくだから、墜落の瞬間まで<line-break>ゆっくりしてってよ。<line-break>あはははは！<line-break>じゃあね～。<end>"
 korean = "그럼 <value:$28>. 모처럼이니 추락하는 순간까지 느긋하게 있다 가. 아하하하! 잘 가~.<end>"
 
+["1400302"]
+japanese = "　　　　　　…<value:$28>、<line-break>　　　　　無限のソウルを持つ者よ…　　　　　<line-break>　　　　　空中都市はこのままゆけば、<line-break>　　　　あとわずかの時で地に落ちよう。<end>"
+korean = "…<value:$28>, 무한의 소울을 지닌 자여… 공중도시는 이대로라면 이제 얼마 지나지 않아 땅으로 추락할 것이다.<end>"
+
 ["1400304"]
 japanese = "　　　　　　　では、さらばだ。　　　　　　　<line-break>　　　　　無限のソウルを持つ者よ。<end>"
 korean = "그럼, 잘 가라. 무한의 소울을 지닌 자여.<end>"
@@ -1144,6 +1148,10 @@ korean = "말하지 않아도 된다, 물의 무녀여.<end>"
 japanese = "言わずとも、<line-break>無限のソウルの持ち主ならば<line-break>最良の結果を導こう。<end>"
 korean = "말하지 않아도 무한의 소울을 지닌 자라면 최선의 결과를 이끌어내겠지.<end>"
 
+["1400389"]
+japanese = "さて、精霊の巫女たちよ。<line-break>そなたらを、あるべき地へ<line-break>帰してやらねばなるまいな。<end>"
+korean = "자, 정령의 무녀들이여. 너희를 있어야 할 곳으로 돌려보내 줘야겠구나.<end>"
+
 ["1400390"]
 japanese = "では、私は<line-break>アキュリュースへ帰ります。<line-break>　<line-break><value:$28>さん、<line-break>アキュリュースに来た時には<line-break>私の所にも来てくださいね。<end>"
 korean = "그럼 저는 아큐류스로 돌아가겠습니다. <value:$28>님, 아큐류스에 오시면 제게도 들러 주세요.<end>"
@@ -1271,6 +1279,10 @@ korean = "어쩔 수 없지<end>"
 ["1400435"]
 japanese = "…気が進まない<end>"
 korean = "…내키지 않아<end>"
+
+["1400436"]
+japanese = "　　　 　　よし　　<line-break>　　　 ならば、汝を<line-break>　　 精霊の座へ導かん<line-break><line-break>　　　気高き地の光を越え<line-break>　 　彼の巨人に挑むがよい<line-break>   挑み、そして打ち破るのだ<end>"
+korean = "좋다. 그렇다면 너를 정령의 자리로 이끌겠다. 고결한 대지의 빛을 넘어 저 거인에게 도전하라. 도전하고, 쓰러뜨려라.<end>"
 
 ["1400437"]
 japanese = "　　　　…そうか<line-break>　　無理強いはすまい<line-break><line-break><line-break>　うつろいやすき人の子よ<line-break>　　気が変わったならば<line-break>　 また我を訪ねるがよい<end>"

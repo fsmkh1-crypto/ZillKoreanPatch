@@ -60,6 +60,10 @@ korean = "여어, <value:$28>. 마침 잘 왔어. 사실 자네를 믿고 부탁
 japanese = "どうだ、やってくれるかい？<end>"
 korean = "어때, 해주겠어?<end>"
 
+["1290019"]
+japanese = "そうか…、残念だが仕方ない。<line-break>また今度、別の機会があったら<line-break>その時は頼むよ。<end>"
+korean = "그런가… 아쉽지만 어쩔 수 없지. 다음에 다른 기회가 생기면 그때 부탁할게.<end>"
+
 ["1290020"]
 japanese = "<value:$1A>ギアを手に入れた。<end>"
 korean = "<value:$1A>기어를 손에 넣었다.<end>"
@@ -71,6 +75,10 @@ korean = "경험치를 <value:$1A> 획득했다.<end>"
 ["1290022"]
 japanese = "スキルポイントを<value:$1A>獲得した。<end>"
 korean = "스킬 포인트를 <value:$1A> 획득했다.<end>"
+
+["1290023"]
+japanese = "<if><value:$1A><equal>%0<value:$15>を手に入れた。<end><value:$15>を<value:$1A>個手に入れた。<end>"
+korean = "<if><value:$1A><equal>%0<value:$15>을 손에 넣었다.<end><value:$15>을 <value:$1A>개 손에 넣었다.<end>"
 
 ["1290024"]
 japanese = "<value:$15>は<value:$16>のスキルを<line-break>習得した。<end>"

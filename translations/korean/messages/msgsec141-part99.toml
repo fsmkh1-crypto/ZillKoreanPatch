@@ -232,6 +232,10 @@ korean = "그럼 가자, <value:$28>. 갈 수 있는 데까지, 세상 끝까지
 japanese = "へへ、悪かった。<line-break>だますつもりはなかったんだが、<line-break>ま、許してくれや。<end>"
 korean = "헤헤, 미안. 속일 생각은 없었는데, 뭐 용서해 줘.<end>"
 
+["1410068"]
+japanese = "そりゃ、もちろんですよ。<line-break>ゼネテスさんのおかげで、<line-break>この国は助かったんだから！<end>"
+korean = "그야 물론이죠. 제네테스 씨 덕분에 이 나라가 살아났으니까요!<end>"
+
 ["1410069"]
 japanese = "俺の力じゃないさ。<line-break>必死に国を守ろうとした<line-break>みんなのおかげだ。<end>"
 korean = "내 힘이 아니야. 필사적으로 나라를 지키려 한 모두의 덕분이지.<end>"
@@ -412,6 +416,10 @@ korean = "저, 저기…. 어때요?<end>"
 japanese = "…よかった。<end>"
 korean = "…다행이다.<end>"
 
+["1410120"]
+japanese = "私、これからも、いろんなことを<line-break>ひとりでできるようになりたいのです。<line-break>　<line-break><value:$28>様と一緒にいても<line-break>迷惑にならないように<line-break>なりたいのです。<end>"
+korean = "저, 앞으로도 여러 가지 일을 혼자 할 수 있게 되고 싶어요. <value:$28> 님과 함께 있어도 폐를 끼치지 않게 되고 싶어요.<end>"
+
 ["1410121"]
 japanese = "ですから、<value:$28>様。<line-break>どうか、いつまでも、私の近くに<line-break>いてください。<end>"
 korean = "그러니 <value:$28>님. 부디 언제까지나 제 곁에 있어 주세요.<end>"
@@ -588,6 +596,10 @@ korean = "너랑 와서 다행이야, <value:$28>. 자, 이 기세로 어디까�
 japanese = "全速・前進～！<end>"
 korean = "전속력・전진~!<end>"
 
+["1410175"]
+japanese = "あたしは<value:$28>と<line-break>一緒に行くだけだから。<line-break> <line-break>あたしはただ、<value:$28>と<line-break>一緒にいれば、ずっと笑って<line-break>いられるんじゃないかって思っただけ。<end>"
+korean = "난 <value:$28>와 같이 갈 뿐이야. 난 그냥 <value:$28>와 함께 있으면 계속 웃을 수 있을 것 같다고 생각했을 뿐이야.<end>"
+
 ["1410176"]
 japanese = "心から笑うことができるあたしを<line-break>見つけられるんじゃないかってね。<end>"
 korean = "진심으로 웃을 수 있는 나를 찾을 수 있지 않을까 해서.<end>"
@@ -607,6 +619,10 @@ korean = "누군가를 위해 살아가는 것, 누군가를 사랑한다는 게
 ["1410180"]
 japanese = "君と、もっと親しくなりたかった…。<line-break>だけど、僕はもう旅立たねばならない…。<line-break>最後まで言えなかったことを、<line-break>今、言うよ。<end>"
 korean = "너와 좀 더 친해지고 싶었어…. 하지만 나는 이제 떠나야 해…. 끝까지 말하지 못했던 걸 지금 말할게.<end>"
+
+["1410181"]
+japanese = "えと、誰にも気づかれなかったよね。<line-break>よかった。昨日のうちから<line-break>準備しておいて。<end>"
+korean = "저기, 아무도 눈치 못 챘지? 다행이다. 어제부터 준비해 둬.<end>"
 
 ["1410184"]
 japanese = "急に旅に出るなんて<line-break>書き置きを見たら<line-break>びっくりするだろうな。<line-break>ごめんなさい、<line-break>お父様、お母様。<line-break>でも、わたしは…。<end>"
@@ -939,6 +955,10 @@ korean = "하지만… 그렇기 때문에 국내의 이익만 보고 있어선 
 ["1410283"]
 japanese = "そうなった折、<line-break>出来上がる協調的な国際世界において、<line-break>このロストールが<line-break>強い発言権を持つための、<line-break>いわばこれは布石なのです。<end>"
 korean = "그때 형성될 협력적인 국제사회에서 이 로스토올이 강한 발언권을 갖기 위한, 말하자면 포석입니다.<end>"
+
+["1410284"]
+japanese = "しかし！<line-break>いや…分かりました。<line-break> <line-break>そこまでお考えなら<line-break>申し上げることはございません。<end>ティアナ様のお心に沿うよう努力いたします。<end>"
+korean = "하지만! 아니… 알겠습니다. 그렇게까지 생각하셨다면 더 드릴 말씀은 없습니다.<end>티아나 님의 뜻에 따르도록 노력하겠습니다.<end>"
 
 ["1410285"]
 japanese = "ティアナ様のお心に沿うよう<line-break>努力いたします。<end>"

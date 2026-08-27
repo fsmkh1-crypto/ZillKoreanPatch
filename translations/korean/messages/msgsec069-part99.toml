@@ -128,6 +128,10 @@ korean = "…그렇군요, 당신은 미이스의 생존자군요. 그래서 아
 japanese = "…聖杯？<end>"
 korean = "…성배?<end>"
 
+["690036"]
+japanese = "彼女が追っている聖杯を追えば　　　　<line-break>彼女といつか関わることに<line-break>なるでしょう。<end>"
+korean = "그녀가 쫓고 있는 성배를 쫓으면 언젠가 그녀와 관계하게 되겠지요.<end>"
+
 ["690037"]
 japanese = "…で、聖杯はどこにある。<end>"
 korean = "…그래서, 성배는 어디 있지.<end>"
@@ -220,6 +224,10 @@ korean = "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일�
 japanese = "他人のために働くことで<line-break>魂を成長させていけば、<line-break>いずれ、わかってきますよ。<end>"
 korean = "다른 사람을 위해 일하며 영혼을 성장시키다 보면 언젠가 알게 될 겁니다.<end>"
 
+["690066"]
+japanese = "将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。　　　　　　<line-break>　<line-break>一緒に旅する仲間を変更したくなったら<line-break>この猫屋敷に来てください。<line-break>　<end>"
+korean = "앞으로 여행 도중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶으면 이 고양이 저택으로 와 주세요.<end>"
+
 ["690068"]
 japanese = "破壊神ウルグの復活に用いられた<line-break>強力な魔道器です。<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
 korean = "파괴신 울그의 부활에 쓰였던 강력한 마도기입니다. 12종류가 있다고 합니다. 금단의 성배는 그중 하나죠.<end>"
@@ -231,6 +239,10 @@ korean = "금단의 성배라면 지금 고브고브단이라는 고블린 셋�
 ["690072"]
 japanese = "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"
 korean = "원탁기사에는 그 밖에도 아기르샤이아 등이 있습니다.<end>"
+
+["690074"]
+japanese = "究極生物を作ろうとして、<line-break>その製法を禁断の聖杯から得ようと<line-break>ねらっています。<line-break>また、その究極生物の核には<line-break>グフトクを使おうと考えています。<line-break>　<end>"
+korean = "궁극 생물을 만들려고 그 제조법을 금단의 성배에서 얻으려 노리고 있습니다. 또 그 궁극 생물의 핵에는 구프트크를 쓰려 하고 있습니다.<end>"
 
 ["690075"]
 japanese = "セラとは何か因縁があるようですが、<line-break>セラはそのことについて<line-break>一切、語ろうとしません。<line-break>円卓騎士には他に<line-break>うちのネモなどがいますね。<line-break>　<end>"
@@ -315,6 +327,10 @@ korean = "왜 고브! 왜 거친 여자는 나타나지 않는 고브!!<end>"
 ["690099"]
 japanese = "そうゴブ！　そうゴブ！<line-break>パターンは繰り返さないとダメゴブ！<end>"
 korean = "그렇다 고브! 그렇다 고브! 패턴은 반복해야 한다 고브!<end>"
+
+["690100"]
+japanese = "お約束だからこそ、基本だからこそ、<line-break>おろそかにしてはならんでゴブ！<line-break>　<line-break>そういうことでは…<line-break>そういう姿勢では…<line-break>立派なアレになれないゴブよ！！<end>"
+korean = "정석이기 때문에, 기본이기 때문에 소홀히 해서는 안 된다 고브! 그런 식으로는… 그런 자세로는… 훌륭한 그것이 될 수 없다 고브!!<end>"
 
 ["690101"]
 japanese = "親分、アレって何でゴブ？<end>"
@@ -727,6 +743,10 @@ korean = "…당신만은 어째서인지 의심을 거둘 수 없는 모양이�
 ["690250"]
 japanese = "…なぜだか、<line-break>思い出せないのか。<end>"
 korean = "…왜인지 기억이 안 나는 건가.<end>"
+
+["690251"]
+japanese = "さあ。それに警戒されるべき理由など<line-break>存在するのでしょうか？<line-break>　<line-break>とにかく、まいりましょう。<line-break>あなたのような戦士とご一緒できて<line-break>光栄ですよ、<value:$28>さん。<end>"
+korean = "글쎄요. 경계받을 이유가 존재하기는 할까요? 어쨌든 갑시다. 당신 같은 전사와 함께할 수 있어 영광입니다, <value:$28> 씨.<end>"
 
 ["690252"]
 japanese = "確かに世界は広い。じゃが、<line-break>この広い世界にお前の居場所はない。<line-break>　<line-break>人間どもにとって<line-break>お前は恐怖以外の何ものでもない。<line-break>　<end>"

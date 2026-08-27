@@ -32,6 +32,10 @@ korean = "어머, <value:$28>. 깨어난 모양이네. 아침밥은 다 됐어.<
 japanese = "アイリーンが待ってるから　　　<line-break>朝ご飯を食べていく時間がない？<line-break>ふふ、仕方ないわね。<line-break>それじゃ、行ってらっしゃい、<line-break><value:$28>。<line-break>ほどほどにね。<end>"
 korean = "아이린이 기다려서 아침 먹을 시간도 없어? 후후, 어쩔 수 없네. 그럼 다녀와, <value:$28>. 적당히 해.<end>"
 
+["1920010"]
+japanese = "あの日…。アイリーンと　　　　<line-break><value:$28>が町を出た<line-break>あの日…。<line-break>ふたりがこっそりと出ていくのを、<line-break>黙って見送ってしまったことを<line-break>何度も後悔したけれど…。<end>"
+korean = "그날…. 아이린과 <value:$28>이 마을을 떠난 그날…. 두 사람이 몰래 떠나는 걸 말없이 배웅한 걸 몇 번이나 후회했지만….<end>"
+
 ["1920011"]
 japanese = "でも、あの子たちは　　　　　　<line-break>帰ってきてくれた。<line-break>この家に…。<line-break>あのころと変わらない毎日。<line-break>でも、こんなにうれしいことは<line-break>ないわ。<end>"
 korean = "하지만 그 아이들은 돌아와 줬어. 이 집으로…. 그때와 다르지 않은 매일. 그런데 이렇게 기쁠 수가 없어.<end>"
@@ -527,6 +531,10 @@ korean = "갑자기 여행을 떠난다는 메모를 보면 놀라시겠지. 죄
 ["1920168"]
 japanese = "あ、<value:$28>さん。<line-break>おはようございます！<end>"
 korean = "아, <value:$28>님. 좋은 아침이에요!<end>"
+
+["1920169"]
+japanese = "あ、あの、<value:$28>さん。<line-break>本当にわたし、旅に連れていって<line-break>もらっていいんですか？<line-break>その、わたし<line-break><value:$28>さんに<line-break>迷惑かけちゃうだろうし…。<end>"
+korean = "저, 저기, <value:$28> 씨. 정말 저도 여행에 데려가 주셔도 괜찮은가요? 그게, 제가 <value:$28> 씨께 폐를 끼칠 것 같아서….<end>"
 
 ["1920172"]
 japanese = "わたし、がんばりますから！<end>"

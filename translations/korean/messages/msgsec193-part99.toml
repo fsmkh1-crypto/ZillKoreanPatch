@@ -192,6 +192,10 @@ korean = "있잖아….<end>"
 japanese = "ん？<line-break>どうしたの、ヴァン？<end>"
 korean = "응? 왜 그래, 반?<end>"
 
+["1930059"]
+japanese = "いや…、<line-break>けっこう、いいもんだよな。　　<line-break>テラネの町って…。<line-break>ちょっと…かなり地味だけどよ、<line-break>なんていうか、こう、みんな<line-break>生きてるな、って感じがしてさ。<end>"
+korean = "아니…, 꽤 괜찮은 곳이네. 테라네라는 마을…. 조금… 꽤 수수하지만, 뭐랄까, 다들 살아 있다는 느낌이 들어.<end>"
+
 ["1930060"]
 japanese = "そうだね……。<end>"
 korean = "그렇네…….<end>"
@@ -215,6 +219,10 @@ korean = "반, 다른 대륙이라니?<end>"
 ["1930066"]
 japanese = "ん？　<line-break>だから、どっか別の大陸さ。<line-break>あるだろ？　そういうの。<end>"
 korean = "응? 그러니까 다른 대륙 어딘가야. 있잖아? 그런 데.<end>"
+
+["1930067"]
+japanese = "ヴァン…。　　　　　　　　　　　　<line-break>相変わらずだね…。<line-break>　<line-break>あ、でも、そういえば昔<line-break>お爺ちゃんが、西の方にすごく大きな<line-break>大陸があるって言ってたような…。<end>"
+korean = "반…. 여전하네…. 아, 그런데 그러고 보니 옛날에 할아버지가 서쪽에 아주 큰 대륙이 있다고 했던 것 같아….<end>"
 
 ["1930068"]
 japanese = "よーし、じゃあそこ！！<line-break><value:$28>、<line-break>それでいいよな？<end>"
@@ -479,3 +487,7 @@ korean = "예비 메시지 END2의 49<end>"
 ["1930146"]
 japanese = "予備メッセージ<line-break>ＥＮＤ２の、その５０<end>"
 korean = "예비 메시지 END2의 50<end>"
+
+["1930147"]
+japanese = "ＺｉｌｌＯ’ｌｌ　エンディング２メッセージ終端<end>追加メッセージここから<end>"
+korean = "Zill O'll 엔딩 2 메시지 끝<end>추가 메시지는 여기부터<end>"

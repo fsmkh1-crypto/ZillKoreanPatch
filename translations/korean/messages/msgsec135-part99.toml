@@ -336,6 +336,10 @@ korean = "정말!<end>"
 japanese = "冒険の合間にきっと応援しに行くぜ。<line-break>がんばれよ、ティアナ。<end>"
 korean = "모험 중간에 꼭 응원하러 갈게. 힘내, 티아나.<end>"
 
+["1350119"]
+japanese = "私は王女ですから…<line-break>こうするしかないのでしょう<line-break>そういう役割を演じるしかない…<end>"
+korean = "저는 공주니까… 이렇게 할 수밖에 없겠죠. 그런 역할을 연기할 수밖에 없어….<end>"
+
 ["1350122"]
 japanese = "<value:$28>様にも<line-break>助けていただきたいことが<line-break>多々出てくると思います。<line-break>お忙しいこととは存じますが<line-break>お時間があればお寄り下さい。<end>"
 korean = "<value:$28>님께도 도움을 부탁드릴 일이 많이 생길 것 같습니다. 바쁘시겠지만 시간 나실 때 들러 주세요.<end>"
@@ -1000,6 +1004,10 @@ korean = "노, 노블 백작님!? 벌써 손을 쓰신 건가….<end>"
 japanese = "大丈夫です。<line-break><value:$28>様は、<line-break>私たちの味方です。<end>"
 korean = "괜찮습니다. <value:$28> 님은 저희 편입니다.<end>"
 
+["1350323"]
+japanese = "わっ、わかりました。<line-break>アトレイア様がそうおっしゃるので<line-break>あれば…<end>"
+korean = "아, 알겠습니다. 아트레이아 님께서 그렇게 말씀하신다면…<end>"
+
 ["1350324"]
 japanese = "それで、何が起こっているのです？<end>"
 korean = "그래서, 무슨 일이 일어나고 있는 겁니까?<end>"
@@ -1019,6 +1027,10 @@ korean = "예! 왕도는 완전히 레무온님의 병사들이… 에, 엘리�
 ["1350328"]
 japanese = "叔母様が…<end>"
 korean = "숙모님이…<end>"
+
+["1350329"]
+japanese = "アトレイア様！<line-break>早く、ここからお逃げください。<line-break>兵士たちがすぐにやってきます！<end>"
+korean = "아트레이아 님! 빨리 여기서 도망치세요. 병사들이 곧 옵니다!<end>"
 
 ["1350330"]
 japanese = "…秘密通路から、<line-break>脱出しましょう。<end>"
@@ -1075,6 +1087,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1350350"]
 japanese = "よう、また会ったな。<end>"
 korean = "여어, 또 만났군.<end>"
+
+["1350351"]
+japanese = "今日は、あんたたちの敵だ。<line-break>悪いが、ナイトメアの雫は<line-break>いただく。<end>"
+korean = "오늘은 너희의 적이다. 미안하지만 나이트메어의 물방울은 받아 가겠다.<end>"
 
 ["1350353"]
 japanese = "強盗が名乗るのもおこがましいが<line-break>俺はツェラシェルと言う。<line-break>　<line-break>あんたの持っている<line-break>ナイトメアの雫をもらいに来た。<line-break>悪いな。<end>"
@@ -1276,6 +1292,10 @@ korean = "큭…. 카를라 혼자였다면 해치웠을 텐데!<end>"
 japanese = "ゼネテス様！<end>"
 korean = "제네테스님!<end>"
 
+["1350413"]
+japanese = "ちょっち気が早いけど…ほい、報酬。<line-break>ま、色々忙しくなりそうだからねー。<end>"
+korean = "조금 이르긴 하지만… 자, 보수. 뭐, 여러모로 바빠질 것 같으니까.<end>"
+
 ["1350419"]
 japanese = "残る邪魔者は？<line-break>そのとき、ゼネテスはどうなると思う？<end>"
 korean = "남은 방해꾼은? 그때 제네테스는 어떻게 될 것 같아?<end>"
@@ -1375,6 +1395,10 @@ korean = "기가 세고 잔소리 많은, 또 한 명의 귀여운 여동생이�
 ["1350457"]
 japanese = "もう！<line-break>兄さんのイジワル！<end>"
 korean = "정말! 오빠 심술쟁이!<end>"
+
+["1350458"]
+japanese = "それにしても兄さん、<line-break>あの巨人は…？<line-break>私が手も足も出ないなんて…<end>"
+korean = "그런데 오빠, 그 거인은…? 내가 꼼짝도 못 하다니…<end>"
 
 ["1350462"]
 japanese = "何かは終わっても世界は終わらんよ。<line-break>すべてが虚無に帰らない限りな。<line-break> <line-break>そして、破壊神ですら<line-break>世界を虚無にできなかった。<end>"
@@ -1504,6 +1528,10 @@ korean = "허무의 검인가? 어둠의 신기 중 하나인 강력한 마도�
 japanese = "死ぬんじゃない。<line-break>一切の力を失い、<line-break>そして世界中から忘れ去られるんだ。<line-break>最初からいなかったことになる。<line-break>いたことすら消えてしまうのさ。<end>"
 korean = "죽는 게 아니야. 모든 힘을 잃고 세상 모두에게 잊히는 거다. 처음부터 존재하지 않았던 게 되는 거야. 존재했다는 사실조차 사라져.<end>"
 
+["1350516"]
+japanese = "出たよ。またダンマリだ。<line-break>俺がウソをつくなんて<line-break>日常茶飯事だろ？<end>"
+korean = "또 시작이네. 또 입을 닫았어. 내가 거짓말하는 건 일상이잖아?<end>"
+
 ["1350518"]
 japanese = "…悪かったよ。<line-break>心配してくれてるのに<line-break>ウソついて…<end>"
 korean = "…미안했어. 걱정해 주고 있는데 거짓말해서….<end>"
@@ -1519,6 +1547,10 @@ korean = "감시하러 왔어? 내가 사라질까 봐.<end>"
 ["1350522"]
 japanese = "…なんでもねえよ。<end>"
 korean = "…아무것도 아니야.<end>"
+
+["1350525"]
+japanese = "<select><value:$20>%3ヒマなの？<end>俺の顔とか好みなわけ？<end>趣味は徹夜とか？<end>"
+korean = "<select><value:$20>%3한가해?<end>내 얼굴이 취향이라도 돼?<end>취미는 밤새우기 같은 거야?<end>"
 
 ["1350526"]
 japanese = "あんたってホント、<line-break>謎めいた美少女だよな。<end>"
@@ -1655,6 +1687,14 @@ korean = "그렇습니까… 이쪽도 수확이 없습니다.<end>"
 ["1350574"]
 japanese = "本当に<value:$28>様には<line-break>何とお礼を言ってよいやら。<line-break> <line-break>あなた様が来てくださることが<line-break>どれだけ私たち姉妹の<line-break>救いになっていることか…。<end>"
 korean = "정말 <value:$28> 님께 뭐라 감사드려야 할지 모르겠습니다. 당신이 와 주시는 게 저희 자매에게 얼마나 큰 구원이 되는지…<end>"
+
+["1350582"]
+japanese = "最近、なんか邪険にするし<line-break>顔も見せてくれないしさ、<line-break>心配したんだよ。<end>"
+korean = "요즘 왠지 차갑게 대하고 얼굴도 보여 주지 않아서 걱정했잖아.<end>"
+
+["1350585"]
+japanese = "ご用がおありのときは<line-break>猫屋敷…で呼び出す、ですか？<line-break>ええと、猫屋敷というと…？<end>"
+korean = "용건이 있을 때는 고양이 저택…에서 불러낸다고요? 저기, 고양이 저택이라면…?<end>"
 
 ["1350586"]
 japanese = "ヴァイ、忘れたの？<line-break>ずっと、そうだったでしょ？<line-break>ヘンだよ。<end>"

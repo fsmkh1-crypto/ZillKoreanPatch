@@ -328,6 +328,10 @@ korean = "그래서 너까지 이런 일에 휘말리게 했어. …정말 미�
 japanese = "ヴァンのおじさんが<line-break>僕を嫌ってたわけ？　　　　　　<line-break>　<line-break>…みなしごがいると<line-break>町の雰囲気が悪くなるんだって。<end>"
 korean = "반 아저씨가 나를 싫어했던 거야? …고아가 있으면 마을 분위기가 나빠진대.<end>"
 
+["450100"]
+japanese = "…コーンスだってのも嫌ってた。<line-break>モンスターみたいで<line-break>気味が悪いんだって。<end>"
+korean = "…코른스라는 것도 싫어했어. 몬스터 같아서 기분 나쁘다나 봐.<end>"
+
 ["450101"]
 japanese = "ううん、別にいいんだ。　　　　<end>"
 korean = "아니, 딱히 괜찮아.<end>"
@@ -488,6 +492,10 @@ korean = "아, 네.<end>"
 japanese = "哀しい目だな…。<line-break>復讐のための旅か？<end>"
 korean = "슬픈 눈이군…. 복수를 위한 여행인가?<end>"
 
+["450149"]
+japanese = "…はい…。<line-break>おっしゃりたいことはわかります。　<line-break>だけど…。<line-break>僕、くやしいんです。<line-break>僕の力が足りなかったせいで…<line-break>大切な友達が傷ついてしまって…。<end>"
+korean = "…네…. 무슨 말씀을 하고 싶으신지는 알아요. 하지만…. 저, 분해요. 제 힘이 부족해서… 소중한 친구가 다쳐 버려서….<end>"
+
 ["450150"]
 japanese = "そうか。<line-break>ならば、力を求めるとよい。<end>"
 korean = "그렇군. 그렇다면 힘을 구하는 게 좋겠어.<end>"
@@ -631,6 +639,10 @@ korean = "으악!눈이… 눈이이이이이이!!<end>"
 ["450195"]
 japanese = "ガルドランが…！<end>"
 korean = "가르드란이…!<end>"
+
+["450196"]
+japanese = "き、貴様ら！<line-break>なんて卑劣な作戦を…。<line-break>俺様なら絶対こんな手は使わんぞ…。<end>"
+korean = "이, 이놈들! 이런 비겁한 작전을…. 나라면 절대 이런 수는 쓰지 않는다….<end>"
 
 ["450197"]
 japanese = "<value:$28>、<line-break>…ガルドランを助けようよ！<end>"

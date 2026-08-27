@@ -72,6 +72,10 @@ korean = "네.<end>"
 japanese = "それなら、いい。<end>"
 korean = "그렇다면 됐어.<end>"
 
+["760036"]
+japanese = "あ、あの、<value:$28>さん。<line-break>今回は違った行動を<line-break>とってしまいましたね。<line-break>でも、わたし、<line-break><value:$28>さんなら、<line-break>わかってくださると信じてますから。<end>"
+korean = "저, 저기, <value:$28> 씨. 이번에는 다른 행동을 해 버렸네요. 하지만 전 <value:$28> 씨라면 이해해 주실 거라 믿어요.<end>"
+
 ["760037"]
 japanese = "それでは、失礼します。<end>"
 korean = "그럼, 이만 실례하겠습니다.<end>"
@@ -263,6 +267,10 @@ korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
 ["760094"]
 japanese = "はじめまして。<line-break>僕はシャリ。人は東方の博士なんて<line-break>呼んでくれたりもするんだ。<line-break>よろしくね。<line-break><value:$28>。<end>"
 korean = "처음 뵙겠습니다. 저는 샤리. 사람들은 동방의 박사라고도 부르죠. 잘 부탁해요, <value:$28>.<end>"
+
+["760096"]
+japanese = "そして、もうひとりの　　　　　　<line-break>お姫様のこと。<line-break>　<line-break>だから、今日はまだおあずけ。<line-break>もっと経験をつんできたら<line-break>きっと、彼女に会わせてあげるよ。<end>"
+korean = "그리고 또 한 명의 공주님 이야기. 그러니 오늘은 아직 안 돼. 경험을 더 쌓고 오면 분명 그녀를 만나게 해 줄게.<end>"
 
 ["760097"]
 japanese = "じゃ、頼んだからね。<line-break>色惑の瞳、よろしく～。<end>"

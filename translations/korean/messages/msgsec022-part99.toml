@@ -51,3 +51,7 @@ korean = "라드라스7<end>"
 ["220080"]
 japanese = "ラドラス８<end>"
 korean = "라드라스8<end>"
+
+["220081"]
+japanese = "国民に害をなすモンスターが徘徊している。<line-break>悪を斬る刃を持つ者に依頼する。<line-break><value:$15>を成敗してくれたまえ。<line-break>報酬は<value:$1A>ギア、<line-break>期限は<value:$1B>日以内である。<end>"
+korean = "국민에게 해를 끼치는 몬스터가 돌아다니고 있다. 악을 베는 칼날을 지닌 자에게 의뢰한다. <value:$15>을 토벌해 주게. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내다.<end>"

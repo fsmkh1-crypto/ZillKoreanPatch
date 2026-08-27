@@ -60,9 +60,17 @@ korean = "에스트라면 아, 겉보기와 달리 행동파인 고고학자 말
 japanese = "なるほど、エストのやつがねえ。<line-break>確かにあいつは、闇の神器の研究を<line-break>していたな。<line-break>しっかし、あのさすらいの考古学者を<line-break>見つけるのはホネだぜぇ。<end>"
 korean = "그렇군, 에스트 녀석이 말이지. 확실히 그 녀석은 어둠의 신기를 연구했었어. 하지만 떠돌이 고고학자를 찾는 건 꽤 힘들겠군.<end>"
 
+["1240044"]
+japanese = "そのエストとかいう考古学者が<line-break>闇の神器を持っているのだな。<line-break>考古学者か…<line-break>ノーブルの南にある夢幻の湖には<line-break>謎の水中遺跡がある。<line-break>そこにいるかもしれないな。<end>"
+korean = "그 에스트라는 고고학자가 어둠의 신기를 가지고 있구나. 고고학자라… 노블 남쪽의 몽환의 호수에는 수수께끼의 수중 유적이 있다. 거기 있을지도 모르겠군.<end>"
+
 ["1240051"]
 japanese = "………………。<line-break><line-break><line-break>エストを捜せ…。<end>"
 korean = "………………. 에스트를 찾아라….<end>"
+
+["1240052"]
+japanese = "エストが３個目の闇の神器を<line-break>持っているだと？<line-break>くっ、居場所は俺も知らん！<line-break>もしかすると、今頃、魔人や<line-break>他の勢力に襲われているかもしれん。<line-break>急ぐぞ、<value:$28>！<end>"
+korean = "에스트가 세 번째 어둠의 신기를 가지고 있다고? 큭, 나도 있는 곳은 몰라! 어쩌면 지금쯤 마인이나 다른 세력에게 습격당하고 있을지도 모른다. 서두르자, <value:$28>!<end>"
 
 ["1240054"]
 japanese = "３個目は個人が所持しているのか！<line-break>道理で見つからないわけだ。<line-break><line-break>相手は考古学者だ。<line-break>各地の古代遺跡をしらみつぶしに<line-break>当たるぞ！<end>"
@@ -71,6 +79,10 @@ korean = "세 번째는 개인이 가지고 있는 건가! 어쩐지 못 찾겠�
 ["1240061"]
 japanese = "３個目の闇の神器の場所は、<line-break>私にはわかりません。<end>"
 korean = "세 번째 어둠의 신기가 어디 있는지는 저도 모릅니다.<end>"
+
+["1240065"]
+japanese = "この密書を解放軍の本部に<line-break>届ければいいのよ。<line-break>忘れたわけじゃないよね。<end>"
+korean = "이 밀서를 해방군 본부에 전하면 돼. 잊은 건 아니지?<end>"
 
 ["1240067"]
 japanese = "密書の配達に<value:$28>様を<line-break>つかうなんて許せません！<line-break>そんな仕事、無視しちゃいましょう。<end>"
@@ -99,6 +111,10 @@ korean = "해방군 본부에 밀서를 운반하는 것이 크류세이스의 �
 ["1240089"]
 japanese = "解放軍本部に密書を運ぶのじゃ。<line-break>わしも、おぬしほどの頃には、<line-break>こう、危ない仕事をいろいろとな…<line-break>聞いておるか、<value:$28>？<end>"
 korean = "해방군 본부에 밀서를 운반하는 게야. 나도 네 나이 때는 이런 위험한 일을 이것저것… 듣고 있느냐, <value:$28>?<end>"
+
+["1240091"]
+japanese = "手紙を解放軍本部に届けるのが<line-break>今回の仕事だ。<line-break>さっさと届けてしまおう。<end>"
+korean = "편지를 해방군 본부에 전하는 게 이번 일이야. 얼른 전해 버리자.<end>"
 
 ["1240092"]
 japanese = "クリュセイスって信用できないわ。<line-break>何か私たちに隠してる気がするのよね。<line-break>女のカンってやつ？<line-break>とりあえず、この手紙は<line-break>解放軍本部に届けましょ。<end>"
@@ -132,9 +148,17 @@ korean = "다음은 로센 해방군 지부인가. 이런 시시한 일은 빨�
 japanese = "今度は解放軍ロセン支部か。<line-break>船で行ったほうが早いかな。<end>"
 korean = "이번엔 해방군 로센 지부인가. 배로 가는 게 빠르려나.<end>"
 
+["1240129"]
+japanese = "この密書をクリュセイスに返せば、<line-break>今回の任務は完了ね。<line-break>あと、一息よ。<end>"
+korean = "이 밀서를 크류세이스에게 돌려주면 이번 임무는 완료야. 이제 조금만 더 가면 돼.<end>"
+
 ["1240134"]
 japanese = "これで最後ね。<line-break>クリュセイスの元まで密書を<line-break>持って帰るのよ。<end>"
 korean = "이걸로 마지막이네. 크류세이스에게 밀서를 가지고 돌아가.<end>"
+
+["1240135"]
+japanese = "若いのに用心深いですね、<line-break>クリュセイスも。<line-break>リベルダムへ戻りましょう。<end>"
+korean = "젊은데도 신중하군요, 크류세이스도. 리벨덤으로 돌아갑시다.<end>"
 
 ["1240140"]
 japanese = "最後は、クロイス邸だ。<line-break>さっさと終わらせて<line-break>冒険に戻るぞ。<end>"
@@ -192,6 +216,10 @@ korean = "사룡의 단층은 아즈라고자가 봉인된 곳이잖아. 물론 
 japanese = "邪竜の断層へボゲー<line-break>邪竜の断層へボゲー<line-break>邪竜の断層へボゲー<line-break>邪竜の断層へボゲー<line-break>邪竜の断層へボゲー<line-break>邪竜の断層へボゲー<end>"
 korean = "사룡의 단층으로 보게 사룡의 단층으로 보게 사룡의 단층으로 보게 사룡의 단층으로 보게 사룡의 단층으로 보게 사룡의 단층으로 보게<end>"
 
+["1240178"]
+japanese = "オルファウスさんがね、<line-break>邪竜の断層に連れていって<line-break>欲しいみたいだよぉ。<line-break>お願い、<value:$28>。<line-break>オルファウスさんを<line-break>連れていってあげてよぉ。<end>"
+korean = "오르파우스 씨가 말이야, 사룡의 단층에 데려가 달래. 부탁이야, <value:$28>. 오르파우스 씨를 데려가 줘.<end>"
+
 ["1240179"]
 japanese = "………………。<line-break><line-break><line-break>邪竜の断層へ行け。<line-break>何かが起ころうとしている。<end>"
 korean = "………………. 사룡의 단층으로 가라. 무언가 일어나려 하고 있다.<end>"
@@ -223,6 +251,10 @@ korean = "사룡의 단층에서, 강한 요기를 느낍니다. 봉인된 아�
 ["1240191"]
 japanese = "この気配は<line-break>邪竜の断層に封印されている<line-break>アズラゴーザのものだ。<line-break>覚醒は時間の問題だ。<line-break>復活したら手に負えなくなる。<line-break>止めるなら今しかない。<end>"
 korean = "이 기척은 사룡의 단층에 봉인된 아즈라고자의 것이다. 각성은 시간문제다. 부활하면 감당할 수 없게 된다. 막으려면 지금뿐이야.<end>"
+
+["1240196"]
+japanese = "古の樹海で、オルファウスが<line-break>世界の成り立ちを教えてくれる<line-break>らしい。行こうぜ！<end>"
+korean = "태고의 수해에서 오르파우스가 세계의 성립을 알려 준대. 가자!<end>"
 
 ["1240209"]
 japanese = "古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<end>"

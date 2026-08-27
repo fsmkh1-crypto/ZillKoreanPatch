@@ -140,6 +140,10 @@ korean = "정말… 옛날부터 인간은 좋아할 수가 없었어…. 약하
 japanese = "分をわきまえなさい！<line-break>あなたたちは私のオモチャなの。　　<line-break>　<line-break>暇つぶしに殺そうと思って、<line-break>断末魔の悲鳴を楽しもうと思って、<line-break>ここに呼んだだけの存在なの。<end>"
 korean = "분수를 알아! 너희는 내 장난감이야. 심심풀이로 죽이고, 단말마의 비명을 즐기려고 여기 부른 것뿐이야.<end>"
 
+["720040"]
+japanese = "それなのに私を傷つけ、<line-break>かわいいロイも傷つけて…。<line-break>少し、おイタが過ぎるわね。<end>"
+korean = "그런데도 나를 다치게 하고 귀여운 로이까지 다치게 했지…. 장난이 좀 지나치네.<end>"
+
 ["720041"]
 japanese = "くすっ、無様ね。もう少しは<line-break>楽しませてくれると思ったけど。<line-break>　<line-break>おもしろくないオモチャは<line-break>消えなさい。<line-break>ウフフフ！<end>"
 korean = "후후, 꼴사납네. 조금은 즐겁게 해 줄 줄 알았는데. 재미없는 장난감은 사라져. 우후후후!<end>"
@@ -327,6 +331,10 @@ korean = "헤어질까?<end>"
 ["720100"]
 japanese = "あ！　<value:$28>さん！<line-break>こ、こんにちは。　　　　　　<line-break><line-break>あの、知ってますか？<line-break>グフトクって魔獣の話？<end>"
 korean = "아! <value:$28>님! 아, 안녕하세요. 저기, 알고 계세요? 구프트크라는 마수 이야기요?<end>"
+
+["720102"]
+japanese = "レイヴンの話だと、<line-break>グフトクにはどんな攻撃も　<line-break>きかないみたいなんです。<line-break>どんなに力いっぱい戦っても<line-break>どんなに威力のある武器でも<line-break>ダメらしいんです。<end>"
+korean = "레이븐 말로는 구프트크에게는 어떤 공격도 통하지 않는대요. 아무리 힘껏 싸워도, 아무리 위력 있는 무기라도 안 된다고 해요.<end>"
 
 ["720103"]
 japanese = "グフトクを倒すには、<line-break>精神攻撃しかないんだって…。<line-break>　<line-break>伝説に出てくる月神の剣<line-break>リネールラースでも<line-break>あればいいんですけど…。<end>"

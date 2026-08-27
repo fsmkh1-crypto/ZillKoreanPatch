@@ -80,6 +80,10 @@ korean = "(미사용)18<end>"
 japanese = "あ、<value:$28>様。<line-break>エスト様から　　　　　　　　　　　　<line-break>何か、言づてがあったようです。<line-break>中でレムオン様がお待ちです。<end>"
 korean = "아, <value:$28>님. 에스트 님에게서 뭔가 전갈이 온 모양입니다. 안에서 레몬 님이 기다리고 계십니다.<end>"
 
+["410020"]
+japanese = "<value:$28>様ですか？<line-break>エスト様からお言づてがあります。　　<line-break>　<line-break>詳しくは、レムオン様が<line-break>聞いているとのことです。<end>中にお入りください。<end>"
+korean = "<value:$28> 님이십니까? 에스트 님께서 전언을 남기셨습니다. 자세한 내용은 레몬 님께서 듣고 계신다고 합니다.<end>안으로 들어가십시오.<end>"
+
 ["410021"]
 japanese = "エストから、手紙を預かった。<line-break>確かに渡したぞ。<end>"
 korean = "에스트에게 편지를 맡았다. 확실히 전해 줬다.<end>"

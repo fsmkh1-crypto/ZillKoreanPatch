@@ -156,6 +156,10 @@ korean = "<value:$28>…. 멋진 이름이네. 그럼 이만.<end>"
 japanese = "あ…、<value:$28>。<line-break>や、やあ！<line-break>　<line-break>さっきはいきなり話しかけて、<line-break>しかも、さっさと行っちゃって<line-break>…ゴメンね。<end>"
 korean = "아… <value:$28>. 아, 안녕! 아까 갑자기 말을 걸고선 바로 가 버려서… 미안해.<end>"
 
+["310061"]
+japanese = "そう言ってくれるとホッとする。<line-break>じゃ、あらためて、<line-break>ちゃんと自己紹介するね。<line-break>僕はエスト。考古学者。<line-break>闇の神器というものについて<line-break>研究しているんだ。<end>"
+korean = "그렇게 말해 주니 안심되네. 그럼 다시 제대로 소개할게. 나는 에스트. 고고학자야. 어둠의 신기라는 것에 대해 연구하고 있어.<end>"
+
 ["310063"]
 japanese = "フフ、別に僕は強くなりたくて、<line-break>闇の神器を求めてるわけじゃないよ。<end>"
 korean = "후후, 난 강해지고 싶어서 어둠의 신기를 찾는 게 아니야.<end>"
@@ -351,6 +355,10 @@ korean = "그래. 이 반란의 속사정도 대충 알게 된 모양이군. 그
 ["310139"]
 japanese = "何をする気だ！<end>"
 korean = "무슨 짓을 할 셈이야!<end>"
+
+["310140"]
+japanese = "俺がここにいたことになれば、<line-break>俺は反乱を知っていることになる。<line-break>　<line-break>そうなれば、俺はこの町に<line-break>鎮圧軍を差し向けねばならぬ。<line-break>犠牲はふたりではすまなくなる。<end>"
+korean = "내가 여기 있었다는 게 되면 내가 반란을 알고 있었다는 뜻이 된다. 그러면 나는 이 마을에 진압군을 보내야 해. 희생이 둘로 끝나지 않을 거다.<end>"
 
 ["310141"]
 japanese = "…姉ちゃんと俺を殺す気か！？<end>"
@@ -787,6 +795,10 @@ korean = "바, 반란? 아아, 플린트 씨가 말한 대로 됐어.<end>"
 ["310303"]
 japanese = "広場<end>"
 korean = "광장<end>"
+
+["310306"]
+japanese = "<select><value:$20>%2ボルボラ様の手下の俺の前に<line-break>ノコノコ現れるとは<line-break>大した度胸だな、コラ！<end>ちょっと、腕が立つからって　<line-break>うぬぼれてっと、<line-break>足下すくわれっぞ、コラ！<end>"
+korean = "<select><value:$20>%2볼보라 님의 부하인 내 앞에 태연히 나타나다니 배짱 좋군, 이 자식!<end>좀 싸운다고 우쭐대다가는 발밑을 잡힐 거다, 이 자식!<end>"
 
 ["310309"]
 japanese = "領主邸前<end>"

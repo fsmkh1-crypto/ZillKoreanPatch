@@ -32,6 +32,10 @@ korean = "…그 말은 당신이 이 숲에 산다는 현자인가?<end>"
 japanese = "…そうか、あんたが。<line-break>…おっと、自分のことを名乗るのを<line-break>忘れていたな。<line-break>俺はゼネテス。<line-break>こっちは<value:$28>。<line-break>ふたりとも冒険者だ。<end>"
 korean = "…그런가, 네가. …아차, 내 소개를 잊었군. 난 제네테스. 이쪽은 <value:$28>. 둘 다 모험자다.<end>"
 
+["1480010"]
+japanese = "フフ。あなた方が捜している<line-break>女の子はルルアンタさんと<line-break>おっしゃいませんか？<end>"
+korean = "후후. 당신들이 찾고 있는 여자아이는 루루안타 씨라고 하지 않나요?<end>"
+
 ["1480011"]
 japanese = "どうして、ルルアンタのことを<line-break>知っている？<end>"
 korean = "어떻게 루루안타를 알고 있지?<end>"
@@ -51,6 +55,10 @@ korean = "그럼, 가보자.<end>"
 ["1480016"]
 japanese = "あ…、<value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"
+
+["1480017"]
+japanese = "ふたりで捜しに来てくれた<line-break>そうですよ。<line-break>よかったですね、ルルアンタさん。<end>"
+korean = "두 분이 함께 찾으러 와 주셨대요. 잘됐네요, 루루안타 씨.<end>"
 
 ["1480018"]
 japanese = "<value:$28>、ルルアンタを追って<line-break>こんな所まで来てくれたんだ…。<line-break>ありがとう…。<end>"
@@ -75,6 +83,10 @@ korean = "으아앙!!! <value:$28>~! 무서웠어~~~!<end>"
 ["1480024"]
 japanese = "あんたがルルアンタを<line-break>助けてくれたんだな。<line-break>礼を言う。<end>"
 korean = "네가 루루안타를 구해줬구나. 고맙다.<end>"
+
+["1480026"]
+japanese = "腕によりをかけて<line-break>晩御飯を作りますから、<line-break>ゆっくり休んでいってください。<end>"
+korean = "솜씨를 발휘해서 저녁을 만들 테니 푹 쉬다 가세요.<end>"
 
 ["1480027"]
 japanese = "すまない。<line-break>そうさせてもらえると助かる。<end>"
@@ -136,6 +148,10 @@ korean = "후후. 이 아이는 전송기라고 해요. 한번 써 볼까요.<en
 japanese = "わ！　ゼネテスが出てきたぁ！<line-break>どうなってるのぉ？<end>"
 korean = "와! 제네테스가 나왔어! 어떻게 된 거야?<end>"
 
+["1480045"]
+japanese = "ウフフ。この子を使えば<line-break>このように、遠くにいる人を<line-break>呼び寄せたりできるんですよ。<end>"
+korean = "우후후. 이 아이를 쓰면 이렇게 멀리 있는 사람을 불러올 수도 있답니다.<end>"
+
 ["1480047"]
 japanese = "それにしても、ゼネテスったらぁ。<line-break>みっともないんだからぁ。<end>"
 korean = "그나저나 제네테스도 참. 꼴사납다니까.<end>"
@@ -163,6 +179,10 @@ korean = "후후, 믿고 있어.<end>"
 ["1480059"]
 japanese = "うーん。<line-break>最終的な判断は　　　　　　　　<line-break><value:$28>に任せるが、<line-break>そろそろ<value:$28>に、<line-break>ロストールのお偉いさん方から<line-break>なんらかの接触があると思うぜ。<end>"
 korean = "음. 최종 판단은 <value:$28>에게 맡기겠지만 슬슬 로스토올의 높은 분들이 <value:$28>에게 어떤 식으로든 접촉해 올 것 같아.<end>"
+
+["1480062"]
+japanese = "さーてと。<line-break>俺はそろそろロストールに戻るか。<line-break>こう見えてもけっこう忙しいんでね。<end>"
+korean = "자, 그럼. 난 슬슬 로스토올로 돌아갈까. 이래 보여도 꽤 바쁘거든.<end>"
 
 ["1480063"]
 japanese = "えー？<line-break>ゼネテス、もう行っちゃうのぉ？<end>"
@@ -263,6 +283,10 @@ korean = "어둠의 신기?<end>"
 ["1480102"]
 japanese = "わかったら、早くエンシャントへ<line-break>行くんだ！　…って、うぅ<line-break>頭が…。<end>"
 korean = "알았으면 빨리 엔샨트로 가! …으윽, 머리가….<end>"
+
+["1480106"]
+japanese = "ミイスの時のように<line-break>聖杯を持ってるゴブリンがいる町ごと<line-break>焼き払ってしまうかもしれないのです。<line-break>ですから、あなたに急いで聖杯を<line-break>取り戻してもらいたいのです。<end>"
+korean = "미이스 때처럼 성배를 가진 고블린이 있는 마을째 불태워 버릴지도 모릅니다. 그래서 당신이 서둘러 성배를 되찾아 주셨으면 합니다.<end>"
 
 ["1480110"]
 japanese = "他に何か、聞きたいことがあれば、<line-break>私にできる範囲でお答えしますよ。<end>"

@@ -268,6 +268,10 @@ korean = "당신에게 제가 추하게 죽는 모습을 보이고 싶지 않습
 japanese = "ですが私は、<line-break>崩れ落ちるその瞬間まで<line-break>自分の役割を果たしましょう。<line-break>この神殿の先へと<line-break>進ませるわけにはいきません。<line-break>立ち去ってください。<end>"
 korean = "하지만 저는 무너지는 그 순간까지 제 역할을 다하겠습니다. 이 신전 너머로는 보내 드릴 수 없습니다. 돌아가 주세요.<end>"
 
+["1160107"]
+japanese = "じきに、私の体は<line-break>土くれのように<line-break>崩れ落ちるでしょう。　　　　　　　<line-break>それによって<line-break>役目を全うすることができないのは<line-break>本当に申しわけないことだと思います。<end>"
+korean = "곧 제 몸은 흙덩이처럼 무너져 내릴 겁니다. 그 때문에 역할을 다하지 못하는 건 정말 죄송한 일이라고 생각합니다.<end>"
+
 ["1160110"]
 japanese = "<value:$28>様…。<line-break>　　　　　　　　　　　　<line-break>　<line-break>あなたが<line-break>ここにいらっしゃることは<line-break>相変わらず、意味がありません。<end>"
 korean = "<value:$28>님…. 당신이 여기 계시는 건 여전히 아무 의미가 없습니다.<end>"

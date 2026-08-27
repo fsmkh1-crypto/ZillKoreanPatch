@@ -200,6 +200,10 @@ korean = "전장에서 만나자, <value:$28>.<end>"
 japanese = "<value:$28>、どうしたの？<line-break>私に用？　それともカルラ様？<end>"
 korean = "<value:$28>, 왜 그래? 나한테 볼일이야? 아니면 칼라 님?<end>"
 
+["1010072"]
+japanese = "何も用がないのなら、どうして　　　　<line-break>こんな所に来てるのかしら。<line-break>　<line-break>あいにく、私はこの前の戦いの処理で<line-break>忙しいの。今度、また冒険の話でも<line-break>聞かせて。<end>"
+korean = "아무 용건도 없다면 왜 이런 곳까지 온 거지? 공교롭게도 난 지난 전투의 뒷처리로 바빠. 다음에 또 모험 이야기를 들려줘.<end>"
+
 ["1010073"]
 japanese = "でも、用もないのに来てはダメよ。<line-break>ここは軍隊なんだから。公私の混同は<line-break>軍人の最もさけるべきことだもの。<line-break>それじゃあね、<value:$28>。<end>"
 korean = "하지만 볼일도 없는데 오면 안 돼. 여긴 군대니까. 공사를 구분하지 못하는 건 군인이 가장 피해야 할 일이야. 그럼 안녕, <value:$28>.<end>"

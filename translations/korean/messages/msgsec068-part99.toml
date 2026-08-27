@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["680005"]
+japanese = "<select><value:$20>%2サラドの料理はうまい。<line-break>腹一杯食べて力いっぱい働く所存。<end>ここはみんなが使う場所。<line-break>壊れたところはすぐに直す。<line-break>これが俺の仕事。<end>"
+korean = "<select><value:$20>%2사라드의 요리는 맛있다. 배불리 먹고 힘껏 일할 생각이다.<end>여긴 모두가 쓰는 곳. 망가진 곳은 바로 고친다. 그게 내 일이다.<end>"
+
 ["680013"]
 japanese = "砦から出る<end>"
 korean = "요새에서 나간다<end>"

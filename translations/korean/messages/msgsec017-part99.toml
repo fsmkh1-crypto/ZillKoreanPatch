@@ -24,6 +24,22 @@ korean = "다른 볼일이 있으면 말해줘. 사양하지 마.<end>"
 japanese = "じゃあ、また来てくれよ。<end>"
 korean = "그럼 또 와 줘.<end>"
 
+["170006"]
+japanese = "%s　攻撃力%u<line-break>強度%u　階級%u　ＥＣ%u　ＥＳ%s<line-break>%sの特殊効果を持っている<end>"
+korean = "%s 공격력%u 강도%u 계급%u EC%u ES%s %s의 특수효과 보유<end>"
+
+["170007"]
+japanese = "%s　攻撃力%u<line-break>強度%u　階級%u　ＥＣ%u　ＥＳ%s<line-break>特殊効果は持っていない<end>"
+korean = "%s 공격력%u 강도%u 계급%u EC%u ES%s 특수효과 없음<end>"
+
+["170008"]
+japanese = "%s　防御力%u<line-break>強度%u　階級%u　ＥＣ%u　ＥＳ%s<line-break>%sの特殊効果を持っている<end>"
+korean = "%s 방어력%u 강도%u 계급%u EC%u ES%s %s의 특수효과 보유<end>"
+
+["170009"]
+japanese = "%s　防御力%u<line-break>強度%u　階級%u　ＥＣ%u　ＥＳ%s<line-break>特殊効果は持っていない<end>"
+korean = "%s 방어력%u 강도%u 계급%u EC%u ES%s 특수효과 없음<end>"
+
 ["170010"]
 japanese = "そいつはちょっと…無理だな。<line-break>できがよすぎて、それ以上鍛えようがないぜ。<end>"
 korean = "그건 좀… 무리겠는데. 너무 잘 만들어져서 더 이상 단련할 데가 없어.<end>"
@@ -639,6 +655,10 @@ korean = "그 밖에도 무엇이든 필요하신 게 있으신가요? 사양 �
 ["170186"]
 japanese = "お買い上げありがとうございます。<end>"
 korean = "구매해 주셔서 감사합니다.<end>"
+
+["170187"]
+japanese = "こちらの商品は充分お持ちのようですね。<line-break>これ以上は無駄な荷物になると思いますが…。<end>"
+korean = "이 상품은 충분히 가지고 계신 것 같네요. 이 이상은 쓸데없는 짐이 될 것 같습니다만….<end>"
 
 ["170188"]
 japanese = "こちらの商品を、いくつ買っていただけますか？<end>"

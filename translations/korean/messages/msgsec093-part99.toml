@@ -4,6 +4,10 @@
 japanese = "デルガド　Ｖ４　開始<end>"
 korean = "델가드 V4 시작<end>"
 
+["930001"]
+japanese = "もぅ、ほんっっっっっっっっとに　　　<line-break>あったま、きちゃうわ！<line-break>　<line-break>何が世界は驚きに満ちているよ！<line-break>ぜんっぜん、なんっにもないじゃない、<line-break>そんなの！<end>"
+korean = "정말, 진짜 너무 열받아! 세상이 놀라움으로 가득하다니 뭐야! 전혀, 아무것도 없잖아, 그런 거!<end>"
+
 ["930002"]
 japanese = "<value:$28>のウソツキー！<line-break>　<end>"
 korean = "<value:$28> 거짓말쟁이~!<end>"

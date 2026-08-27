@@ -32,6 +32,10 @@ korean = "시간이 있으면 올 수 있다고 말한다<end>"
 japanese = "本当ですか？<line-break>ありがとうございます。<line-break>…よかった。<end>"
 korean = "정말인가요? 감사합니다. …다행이다.<end>"
 
+["1910009"]
+japanese = "…お料理の作り方を　　<line-break>教えてくださった方が<line-break>言っておられましたから…。<line-break>お料理がうまくなるには<line-break>…好きな人に食べてもらうために<line-break>作るのが一番だって…。<end>"
+korean = "…요리법을 가르쳐 주신 분이 말씀하셨거든요…. 요리를 잘하려면… 좋아하는 사람에게 먹여 주기 위해 만드는 게 제일이라고….<end>"
+
 ["1910010"]
 japanese = "…そうですか。<line-break>よかったです。　　　　　　<line-break>　<line-break>私、<value:$28>様に<line-break>食べていただくために、<line-break>がんばってお料理覚えます。<end>"
 korean = "…그렇군요. 다행이에요. 저, <value:$28>님께 드시게 하려고 열심히 요리를 배울게요.<end>"
@@ -88,6 +92,10 @@ korean = "<value:$28>님이 저를 걱정해 주신다면 그것만으로 충분
 japanese = "あ、<value:$28>様。<line-break>私に会いに来てくださったのですね。<line-break>…うれしいです。<end>"
 korean = "아, <value:$28>님. 저를 만나러 와 주셨군요. …기뻐요.<end>"
 
+["1910031"]
+japanese = "でも、私には何もできません。　　<line-break>私にできることは…<line-break>お祈りをするくらいです。<line-break><value:$28>様、<line-break>この世界は、人々の不安に包まれて<line-break>どうなってしまうのでしょう？<end>"
+korean = "하지만 저는 아무것도 할 수 없습니다. 제가 할 수 있는 건… 기도하는 정도예요. <value:$28> 님, 이 세계는 사람들의 불안에 둘러싸여 어떻게 되는 걸까요?<end>"
+
 ["1910032"]
 japanese = "アトレイアは気にしなくていい<end>"
 korean = "아트레이아는 신경 쓰지 않아도 된다<end>"
@@ -103,6 +111,10 @@ korean = "그래도 아무것도 하지 않는 것보다는 나을지도 몰라�
 ["1910036"]
 japanese = "…私にもできること？<line-break>あの、それはいったい<line-break>どんなことなのでしょうか？<end>"
 korean = "…저에게도 할 수 있는 일? 그건 대체 어떤 일인가요?<end>"
+
+["1910040"]
+japanese = "<value:$28>様、<line-break>ティアナ様はまだ見つからない　　<line-break>ようなのです。<line-break>レムオン様もどこかへ行って<line-break>しまわれて…。おふたりに間違いが<line-break>起こらなければいいのですが…。<end>"
+korean = "<value:$28> 님, 티아나 님은 아직 찾지 못한 모양입니다. 레몬 님도 어디론가 가 버리셨고…. 두 분께 무슨 일이라도 생기지 않으면 좋겠는데….<end>"
 
 ["1910041"]
 japanese = "あのふたりなら大丈夫<end>"
@@ -364,6 +376,10 @@ korean = "마침내 여기까지 왔네. <value:$28>과 처음 만났을 때는 
 japanese = "ネメア様と一緒にもう一度<line-break>戦えるなんて思ってなかったわ。<line-break>あと一息ね、<value:$28>。<end>"
 korean = "네메아 님과 함께 다시 싸우게 될 줄은 몰랐어. 이제 한숨만 더 내면 돼, <value:$28>.<end>"
 
+["1910135"]
+japanese = "あなたが猫屋敷を訪れてから<line-break>始まった冒険も、これでようやく<line-break>ひとつの終わりを迎えます。<line-break>でも、<value:$28>。<line-break>冒険はあなたの人生のほんの<line-break>一部でしかありません。<end>"
+korean = "당신이 고양이 저택을 방문하면서 시작된 모험도 이제 하나의 끝을 맞습니다. 하지만 <value:$28>. 모험은 당신 인생의 아주 작은 일부일 뿐입니다.<end>"
+
 ["1910136"]
 japanese = "ですから、<value:$28>。<line-break>運命などというものに<line-break>負けてはいけませんよ。<end>"
 korean = "그러니, <value:$28>. 운명 따위에 져서는 안 됩니다.<end>"
@@ -408,6 +424,10 @@ korean = "용왕… 부족함 없는 상대다.<end>"
 japanese = "だから、<value:$28>。<line-break>必ず帰ってこようね。<end>"
 korean = "그러니까 <value:$28>. 반드시 돌아오자.<end>"
 
+["1910152"]
+japanese = "　　　　　　　　　我は竜王…　　　　　　　　<line-break>　　　　　世界の牧者、神の代理なり…。　　　<line-break>　　　　　　<value:$28>よ…<line-break>　　　我の息吹にかかって消えるがよい…！　　<end>"
+korean = "나는 용왕… 세계의 목자, 신의 대리자…. <value:$28>여… 내 숨결에 사라져라…!<end>"
+
 ["1910156"]
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
@@ -439,6 +459,10 @@ korean = "후후후. 앞으로 당신은 어떤 길을 걷게 될까요? 기대�
 ["1910163"]
 japanese = "では、戻りましょうか。<line-break>無事な姿をみんなに見せないと。<line-break>さあ、行きましょう。<end>"
 korean = "그럼 돌아갈까요. 무사한 모습을 모두에게 보여 줘야죠. 자, 갑시다.<end>"
+
+["1910164"]
+japanese = "　　　　　神聖暦<value:$24>年<value:$25>月　　　　<line-break>後に多くの吟遊詩人に歌われるこの騒乱の後<line-break>　　ディンガル帝国とロストール王国は　　<line-break>　　　　　和平条約を締結した。　　　　　<end>"
+korean = "신성력 <value:$24>년 <value:$25>월 후에 수많은 음유시인이 노래하게 될 이 소란 뒤 딩갈 제국과 로스토올 왕국은 평화조약을 체결했다.<end>"
 
 ["1910165"]
 japanese = "Ｖ７の３か、終幕は近い。<line-break>予備メッセージの８だ。<end>"

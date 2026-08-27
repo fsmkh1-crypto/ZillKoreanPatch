@@ -436,6 +436,10 @@ korean = "누구?<end>"
 japanese = "あーっ、<line-break><value:$28>じゃん。<line-break>　<line-break>久しぶり。死んでない？<end>"
 korean = "아, <value:$28>잖아. 오랜만이네. 안 죽었어?<end>"
 
+["840133"]
+japanese = "くすっ、冗談よ。ま、墓地だし、<line-break>もしかしてってこともあるじゃない？<line-break>　<line-break>でも、悪いんだけどさ～、<line-break>今、忙しいから、でっきれば<line-break>外してほしいかな～。<end>"
+korean = "후훗, 농담이야. 뭐, 묘지니까 혹시라는 일도 있잖아? 그런데 미안하지만 지금 바빠서, 가능하면 빠져 줬으면 좋겠네~.<end>"
+
 ["840134"]
 japanese = "ゴメーン。　　　　　　　　　　　　　<line-break>　<line-break>　<line-break>でもさ、こんなとこで会えたんだから、<line-break>また、どっかで会えるよ。<line-break>そんときにはゆっくりね。<end>"
 korean = "미안~. 그래도 이런 데서 만났으니 또 어디선가 만나겠지. 그때는 천천히 이야기하자.<end>"
@@ -496,6 +500,10 @@ korean = "정말 미안해, <value:$28>.<end>"
 japanese = "<value:$28>じゃない。<line-break>ホント墓場好きだよね、あんたってさ。<end>"
 korean = "<value:$28>이잖아. 정말 묘지를 좋아한다니까, 너.<end>"
 
+["840152"]
+japanese = "ふーん、あんたって、　　　　　　<line-break>ひょっとして、<line-break>あたしのこと気になってる？<line-break>ま、墓場によくいる女だもんねー。<line-break>わけありに見えても<line-break>しゃーないやね。<end>"
+korean = "흐음, 너 혹시 나한테 관심 있어? 뭐, 묘지에 자주 있는 여자니까. 사연 있어 보인다고 생각해도 어쩔 수 없지.<end>"
+
 ["840153"]
 japanese = "は？<line-break>どうして、あたしが軍人に<line-break>なったのかって？<line-break>…どーしても、聞きたいわけ？<end>"
 korean = "뭐? 왜 내가 군인이 됐냐고? …정말 그렇게 듣고 싶어?<end>"
@@ -519,6 +527,10 @@ korean = "그걸 확인하러 오는 거야. 이 차가운 죽음의 정적 속�
 ["840163"]
 japanese = "ふぅ、つまんない昔話はおしまい。<line-break>悪いね、不幸自慢みたいに<line-break>なっちゃって。<line-break>じゃ、バイバイ。<line-break>聞き上手の冒険者さん。<end>"
 korean = "후, 시시한 옛날이야기는 끝. 미안하네, 불행 자랑처럼 돼 버려서. 그럼 안녕, 이야기 잘 들어 주는 모험자 씨.<end>"
+
+["840164"]
+japanese = "<select><value:$20>%4空　１５６<line-break>カルラ、ボリューム１<end>空　１５６<line-break>カルラ、ボリューム１<end>空　１５６<line-break>カルラ、ボリューム１<end>空　１５６<line-break>カルラ、ボリューム１<end>"
+korean = "<select><value:$20>%4빈칸 156 카를라, 볼륨 1<end>빈칸 156 카를라, 볼륨 1<end>빈칸 156 카를라, 볼륨 1<end>빈칸 156 카를라, 볼륨 1<end>"
 
 ["840165"]
 japanese = "空　１５７<line-break>カルラ、ボリューム１<end>"

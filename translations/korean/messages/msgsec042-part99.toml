@@ -652,6 +652,10 @@ korean = "네모는 원래 모습으로 돌아가기 위해 그들을 조종해 
 japanese = "知恵を付けた彼らに見放されて、　　　<line-break>今もこの格好なんです。<end>"
 korean = "지혜를 얻은 그들에게 버림받아서 지금도 이 모습인 겁니다.<end>"
 
+["420221"]
+japanese = "そういうわけで<line-break>聖杯を取ってきてほしいのです。<line-break>お願いできるでしょうか？<end>"
+korean = "그런 이유로 성배를 가져와 주셨으면 합니다. 부탁드려도 될까요?<end>"
+
 ["420222"]
 japanese = "うふふ。ありがとうございます。　　<line-break>　<line-break>　<line-break>聖杯はここに持ってきてくれれば<line-break>私が預かります。<end>"
 korean = "후후. 감사합니다. 성배는 여기로 가져오시면 제가 보관하겠습니다.<end>"
@@ -743,6 +747,14 @@ korean = "세계를 돌아다니며 사람을 만나고 동료를 만드세요. 
 ["420249"]
 japanese = "そうですか…。<line-break>弟さんが…。<end>"
 korean = "그렇습니까…. 동생분이….<end>"
+
+["420251"]
+japanese = "<value:$28>、<line-break>ソウル、という言葉を<line-break>聞いたことがありますか？<line-break>人は誰でもソウルというものを<line-break>持っています。平たい言葉で言うと<line-break>心のかたち、という感じでしょうか。<end>"
+korean = "<value:$28>, 소울이라는 말을 들어 본 적 있습니까? 사람은 누구나 소울이라는 걸 가지고 있습니다. 쉽게 말하면 마음의 형태 같은 것일까요.<end>"
+
+["420255"]
+japanese = "そこで、わたしもささやかながら<line-break>あなたの冒険に<line-break>協力をしたいと思います。<end>"
+korean = "그래서 저도 미약하나마 당신의 모험에 힘을 보태고 싶습니다.<end>"
 
 ["420256"]
 japanese = "逆に、別れた仲間を<line-break>望むところに<line-break>送り返してやれます。<line-break>今後はちゃんと、呼び出す前に<line-break>相手の都合を確認して、<line-break>そっちを優先しますがね。<end>"

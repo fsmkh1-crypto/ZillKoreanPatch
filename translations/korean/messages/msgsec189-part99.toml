@@ -112,6 +112,10 @@ korean = "자, 의식을 시작할까.<end>"
 japanese = "ウルグはネメアに降臨する。<line-break>僕もそう思っていたよ。<line-break>　<line-break>でもね、ウルグは<line-break>いつだって捜してるんだ。<line-break>もっとも適した入れ物をね。<end>"
 korean = "울그는 네메아에게 강림한다. 나도 그렇게 생각했어. 하지만 울그는 언제나 찾고 있어. 가장 알맞은 그릇을.<end>"
 
+["1890040"]
+japanese = "<value:$28>、<line-break>君は強くなりすぎたんだ。<line-break>ウルグはネメアより君がいいってさ。<line-break>君に降臨した方が<line-break>より強大な力を出せるんだよ。<line-break>破壊神は君の肉体をお望みだ。<end>"
+korean = "<value:$28>, 넌 너무 강해졌어. 울그는 네메아보다 네가 좋대. 네게 강림하는 편이 더 강대한 힘을 낼 수 있다는 거지. 파괴신은 네 육체를 원하셔.<end>"
+
 ["1890042"]
 japanese = "あれ？　なんだ…？<end>"
 korean = "어라? 뭐지…?<end>"
@@ -308,6 +312,10 @@ korean = "시내 상황은 어떻게 되어 있지.<end>"
 japanese = "完全に制圧されました！<line-break>中心地から西側にかけては、　　　　<line-break>壊滅状態です。<line-break>魔物が至る所を徘徊し、<line-break>城へたどり着くことすらできません。<end>"
 korean = "완전히 제압당했습니다! 중심지에서 서쪽에 걸쳐 괴멸 상태입니다. 마물이 곳곳을 배회해 성에 도착하는 것조차 불가능합니다.<end>"
 
+["1890111"]
+japanese = "くっ！　あのシャリという奴、　　<line-break>いったい何者なのだ！<line-break>　<line-break>あれだけの数の魔物を<line-break>一度に召喚するとは！<line-break>しかも、邪竜まで襲来するとは！！<end>"
+korean = "큭! 그 샤리라는 녀석, 대체 정체가 뭐야! 저 많은 마물을 한꺼번에 소환하다니! 게다가 사룡까지 습격해 오다니!!<end>"
+
 ["1890114"]
 japanese = "だが、ネメア様のいない今、<line-break>いったい誰が<line-break>その役割を成しえるのか？<end>"
 korean = "하지만 네메아 님이 없는 지금, 대체 누가 그 역할을 해낼 수 있겠는가?<end>"
@@ -427,6 +435,10 @@ korean = "파괴신 울그의 원탁기사 중 하나, 속박된 자 삼손이�
 ["1890151"]
 japanese = "どうやらこいつを甦らせた奴が、<line-break>この先にいるようだ。<line-break>　<line-break>まずはこいつを片付ける。<line-break>ゆくぞ、<value:$28>。<end>"
 korean = "아무래도 이 녀석을 되살린 자가 이 앞에 있는 모양이다. 우선 이 녀석부터 처리한다. 가자, <value:$28>.<end>"
+
+["1890152"]
+japanese = "またも円卓騎士のひとりか。<line-break>嘲笑うものザハクと言ったか？　<line-break>　<line-break>よほどの妖術士でなければ<line-break>このような大物は召喚できまい。<line-break>この先にいるのは、ゾフォルか？<end>"
+korean = "또 원탁기사 중 하나인가. 비웃는 자 자하크라고 했나? 상당한 요술사가 아니라면 이런 거물을 소환하지 못할 거다. 이 앞에 있는 건 조포르인가?<end>"
 
 ["1890153"]
 japanese = "ゆくぞ、<value:$28>！<end>"

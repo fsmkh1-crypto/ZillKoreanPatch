@@ -408,6 +408,10 @@ korean = "빈 메시지<end>"
 japanese = "空きメッセージ<end>"
 korean = "빈 메시지<end>"
 
+["1110105"]
+japanese = "宰相閣下はただいま<line-break>会議で出ていらっしゃいます。<line-break>また後日、お越しください。<end>"
+korean = "재상 각하께서는 지금 회의로 자리를 비우셨습니다. 다음에 다시 와 주십시오.<end>"
+
 ["1110107"]
 japanese = "ああ、君か。<line-break>そうだな…。<line-break>君は知っておいた方がいいだろう。<end>"
 korean = "아, 너구나. 그래…. 넌 알아 두는 게 좋겠어.<end>"
@@ -427,6 +431,10 @@ korean = "한계까지 계속 성장할 수 있는 자는 드물지. 아무리 �
 ["1110114"]
 japanese = "君はどうかな？<line-break>どこまでやれるのか<line-break>…楽しみにしているよ。<end>"
 korean = "넌 어떨까? 어디까지 해낼 수 있을지… 기대하고 있어.<end>"
+
+["1110115"]
+japanese = "さて、悪いが<line-break>予定が詰まっているのでね。<line-break>気が向いたら、また顔を出してくれ。<end>"
+korean = "자, 미안하지만 일정이 꽉 차 있어서 말이야. 마음 내키면 또 들러 줘.<end>"
 
 ["1110116"]
 japanese = "気が向いたら、<line-break>また顔を出してくれ。<end>"

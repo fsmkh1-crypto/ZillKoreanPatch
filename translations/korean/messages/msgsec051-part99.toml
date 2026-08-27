@@ -144,6 +144,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["510048"]
+japanese = "そうこなくちゃ。<line-break>よしよし、今、登録して　　　　　<line-break>紹介状を送るからな。<line-break>…って、あんたディンガルの傭兵も<line-break>引き受けてるじゃないか。<line-break>困るなぁ。<end>"
+korean = "그래야지. 좋아, 지금 등록하고 소개장을 보내마. …그런데 너 딩갈의 용병 일도 맡고 있잖아. 곤란한데.<end>"
+
 ["510050"]
 japanese = "ロストールの傭兵になる<end>"
 korean = "로스톨의 용병이 된다.<end>"
@@ -159,6 +163,10 @@ korean = "딘갈의 용병으로 그대로 있어도 괜찮은 거지?<end>"
 ["510054"]
 japanese = "それじゃ、登録はすんでるから<line-break>エンシャントの政庁に行くといい。<end>"
 korean = "그럼 등록은 끝났으니 엔샨트의 관청으로 가면 돼.<end>"
+
+["510055"]
+japanese = "そうこなくちゃ。<line-break>よしよし、今、登録して　　　　<line-break>紹介状を送るからな。<line-break>あんたはロストールの王宮へ<line-break>行けばいい。<line-break>話はそれで通るはずだからな。<end>"
+korean = "그래야지. 좋아, 지금 등록하고 소개장을 보내마. 넌 로스토올 왕궁으로 가면 돼. 그러면 이야기가 통할 거야.<end>"
 
 ["510056"]
 japanese = "そうかい。<line-break>ま、それもいいかもしれないな。<end>"

@@ -284,6 +284,10 @@ korean = "맞다, 당신 거짓말했죠? 모른다니. 후후, 그거 당신 �
 japanese = "あなたのお父様の死体から、<line-break>記憶をじかに探らせてもらったわ。<line-break>　<end>"
 korean = "네 아버지의 시체에서 기억을 직접 읽어 냈어.<end>"
 
+["320083"]
+japanese = "誰に殺されるのかもわからずに<line-break>死んでいくのはかわいそうだから<line-break>教えてあげる。<line-break>私は破壊神ウルグの円卓騎士<line-break>心をなくすものアーギルシャイア。<line-break>じゃあね。<end>"
+korean = "누구에게 죽는지도 모르고 죽어 가는 건 불쌍하니 알려 줄게. 나는 파괴신 울그의 원탁기사, 마음을 없애는 자 아길샤이어. 그럼 안녕.<end>"
+
 ["320084"]
 japanese = "<value:$28>、<line-break>ここを離れるんだ。<line-break>村人を避難させてくれ。<end>"
 korean = "<value:$28>, 여길 떠나. 마을 사람들을 대피시켜 줘.<end>"
@@ -331,6 +335,10 @@ korean = "마물이 입구를 막고 있어서 도망칠 수 없습니다! 도�
 ["320096"]
 japanese = "<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"
 korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님께 줄게.<end>"
+
+["320097"]
+japanese = "<if><value:$29><equal>%0ロイの弟…<line-break><value:$28>と言ったな。<end>ロイの妹…<line-break><value:$28>と言ったな。<end>"
+korean = "<if><value:$29><equal>%0로이의 남동생… <value:$28>라고 했지.<end>로이의 여동생… <value:$28>라고 했지.<end>"
 
 ["320098"]
 japanese = "なかなかの手並みだったが、<line-break>兄を置いて逃げるのか？<end>"
@@ -403,6 +411,10 @@ korean = "로이를 뒤쫓을 생각은 없나?<end>"
 ["320117"]
 japanese = "俺に不信があるなら<line-break>いずれ答えてやる。<line-break>ただし、それは今ではない。<line-break>今、俺は急ぐ。<end>"
 korean = "나를 못 믿겠다면 언젠가 답해 주지. 하지만 지금은 아니다. 지금 나는 서둘러야 한다.<end>"
+
+["320118"]
+japanese = "<if><value:$29><equal>%0来い。<line-break>ロイの弟よ。<end>来い<line-break>ロイの妹よ。<end>"
+korean = "<if><value:$29><equal>%0와라. 로이의 남동생이여.<end>와라. 로이의 여동생이여.<end>"
 
 ["320119"]
 japanese = "アーギルシャイアは<line-break>俺の大事なものを奪った…。　　<line-break>　<line-break>俺は強くなる、<line-break>…どんな手段を使ってもな。<line-break>そして、俺のすべてを取り戻す。<end>"

@@ -188,9 +188,17 @@ korean = "로센에서 은밀히 진군한 칼라군은 단 하룻밤 만에 리
 japanese = "だが、解放軍の首謀者と目されていた<line-break>クリュセイス・クロイスは捕らえられず、<line-break>内通者アンティノの行方も<line-break>つかむことはできなかった。<end>"
 korean = "하지만 해방군의 수괴로 지목된 크류세이스 크로이스는 붙잡지 못했고, 내통자 안티노의 행방도 알아낼 수 없었다.<end>"
 
+["1050068"]
+japanese = "今回、命がけでわたくしを<line-break>助け出してくれたあなたの<line-break>勇気ある行動に感謝します。<line-break><value:$28>、<line-break>これからも、<line-break>わたくしを助けてくださいますか？<end>"
+korean = "이번에 목숨을 걸고 저를 구해 준 당신의 용기 있는 행동에 감사드립니다. <value:$28>, 앞으로도 저를 도와주시겠습니까?<end>"
+
 ["1050069"]
 japanese = "<value:$28>。<line-break>あなたがいてくれるのなら、<line-break>我々はまだ戦える。<end>"
 korean = "<value:$28>. 네가 있어 준다면, 우리는 아직 싸울 수 있다.<end>"
+
+["1050070"]
+japanese = "あんたは、英雄だ。<line-break>あんたさえいれば、<line-break>いつかは俺らが勝つ日が来る！<end>"
+korean = "당신은 영웅이야. 당신만 있으면 언젠가 우리가 이길 날이 올 거야!<end>"
 
 ["1050071"]
 japanese = "頼りにしています。　　　　　　　<line-break>　<line-break>　<line-break>わたくしには…<line-break>いえ、わたくしたち解放軍には<line-break>あなたのような人が必要なのです。<end>"

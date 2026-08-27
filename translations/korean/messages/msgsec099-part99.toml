@@ -196,6 +196,10 @@ korean = "아, 어서 오세요!<end>"
 japanese = "い、いえ、本当はいい人なんです。<line-break>ただ、ちょっとカッコいいから…。<end>"
 korean = "아, 아니요, 사실은 좋은 사람이에요. 다만, 조금 멋있어서….<end>"
 
+["990064"]
+japanese = "俺様にかぎって、<line-break>君を苦しめることはない。<line-break>俺様は誓えるさ！<line-break>さあ、フェルムちゃん！<line-break>愛溢れる俺様と出会った幸福を、<line-break>この接吻で思う存分、味わうがいい！<end>"
+korean = "이 몸이 너를 괴롭힐 리 없어. 맹세할 수 있지! 자, 펠름! 사랑이 넘치는 이 몸을 만난 행복을 이 입맞춤으로 마음껏 맛봐라!<end>"
+
 ["990065"]
 japanese = "い、いやっ！<end>"
 korean = "시, 싫어!<end>"
@@ -211,6 +215,10 @@ korean = "…아, <value:$28>님. 저, 저기… 아무것도 아니에요! 그�
 ["990069"]
 japanese = "久しぶりね、<value:$28>。<end>"
 korean = "오랜만이네, <value:$28>.<end>"
+
+["990070"]
+japanese = "私…<line-break>あれから、カルラ様に助けられて…<line-break>カルラ様の配下になったの。　　<line-break>今の私はディンガル帝国黒鎧騎士、<line-break>東方攻略軍所属、青竜軍副将<line-break>アイリーン・エルメスよ。<end>"
+korean = "나… 그 뒤 카를라 님께 도움받고… 카를라 님의 부하가 됐어. 지금 나는 딩갈 제국 흑갑기사, 동방공략군 소속 청룡군 부장 아이린 에르메스야.<end>"
 
 ["990071"]
 japanese = "これからはお互い、<line-break>それぞれの夢を追いましょ。<line-break>それじゃ、<value:$28>。<end>"
@@ -239,6 +247,10 @@ korean = "드디어 꿈이 이루어졌어. 그럼.<end>"
 ["990077"]
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>こんなところに来るなんて<line-break>どういうつもり？<line-break>今の私たちは敵同士なのよ！？<end>"
 korean = "<value:$28>…. 이런 곳에 오다니 무슨 생각이야? 지금 우리는 적이나 다름없다고!?<end>"
+
+["990079"]
+japanese = "…あなたも懲りない人ね。<line-break>同じことを何回も言わせないで。<line-break>　<line-break>私たちは逆の道を歩いているの。<line-break>もう、ここには来ないで。<line-break>次は見逃してあげないから。<end>"
+korean = "…당신도 참 질리지 않는 사람이네. 같은 말 몇 번이나 하게 하지 마. 우리는 반대의 길을 걷고 있어. 이제 여기 오지 마. 다음엔 봐주지 않을 테니까.<end>"
 
 ["990080"]
 japanese = "こんなことになるなんて…<line-break>思ってもみなかった…。<end>"

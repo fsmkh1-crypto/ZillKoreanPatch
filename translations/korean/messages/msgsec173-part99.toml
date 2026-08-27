@@ -4,6 +4,10 @@
 japanese = "オイフェメッセージＶ５開始<end>"
 korean = "오이페 메시지 V5 시작<end>"
 
+["1730001"]
+japanese = "やあ、こんにちは。<line-break>あなたも、これから　　　　　　　<line-break>旅に出るのですか？<end>"
+korean = "안녕하세요. 당신도 이제 여행을 떠나는 건가요?<end>"
+
 ["1730003"]
 japanese = "た、たたた、わたた、<line-break>たすけてくれぇぇぇ！！<line-break>　<line-break>ばけ、ばけもの…<line-break>化け物が、化け物が<line-break>俺たちのねぐらにぃぃーっ！<end>"
 korean = "도, 도도도, 도와, 도와줘어어!! 괴, 괴물… 괴물이, 괴물이 우리 소굴에에에!<end>"
@@ -167,6 +171,10 @@ korean = "화내지 마라. 나도 그 정도로 재주가 좋았으면 한다�
 ["1730053"]
 japanese = "やれやれ。<end>"
 korean = "이런, 이런.<end>"
+
+["1730054"]
+japanese = "戦争になれば、孤児が増える。　　　<line-break>お前さん、そのすべてを<line-break>拾って歩く気かね？<line-break>悪いが、わしらには時間がないのだ。<line-break>ベルゼーヴァ卿も<line-break>次はないと仰せだしな。<end>"
+korean = "전쟁이 나면 고아가 늘어난다. 자네, 그 모두를 주워 다닐 셈인가? 미안하지만 우리에겐 시간이 없다. 벨제바 경도 다음은 없다고 하셨으니.<end>"
 
 ["1730055"]
 japanese = "先に行かせてもらうぞ。<end>"

@@ -492,6 +492,10 @@ korean = "아니야! 내가 아니야! 난 농담한 게 아니라고!<end>"
 japanese = "さ、さすが師匠！<end>"
 korean = "여, 역시 스승님!<end>"
 
+["550145"]
+japanese = "…ソウルリープ！　　　　　　　　　　<line-break>　<line-break><line-break>この状況…さっきの奴よりも<line-break>強力な使い手がいるってことか…。<line-break>石化獣って名前はダテじゃないんだな。<end>"
+korean = "…소울 리프! 이 상황… 아까 녀석보다 더 강한 사용자가 있다는 건가…. 석화수라는 이름이 괜히 붙은 게 아니군.<end>"
+
 ["550146"]
 japanese = "<value:$28>、気をつけろ！<line-break>魂抜かれて、石にされるぞ！<end>"
 korean = "<value:$28>, 조심해! 영혼을 빼앗겨 돌이 될 거야!<end>"
@@ -871,6 +875,10 @@ korean = "난 여자 이름이라면 한 번 들으면 잊지 않아. 뭐, 절�
 ["550245"]
 japanese = "こっちからも助けを出してやらないと<line-break>まずい状況みたいだぜ？　彼女。<end>"
 korean = "이쪽에서도 도움을 보내지 않으면 위험한 상황 같은데? 그녀 말이야.<end>"
+
+["550246"]
+japanese = "イテテテ…お、俺としたことが、<line-break>怪ぶつにやられて、おだぶつ。<line-break>ププププ…。<end>"
+korean = "아야야… 나, 나도 참, 괴물한테 당해서 죽다니. 푸푸푸….<end>"
 
 ["550247"]
 japanese = "ヴァン…、こういうときに、<line-break>そういう冗談やめようよ。<line-break>　<line-break>それよりも、<line-break>ねえ、<value:$28><line-break>あの黒づくめも…。<end>"
@@ -1264,6 +1272,10 @@ korean = "글쎄, 어떨까?<end>"
 japanese = "なんたって、あたしの目の前で<line-break>ノエルを口説こうとした男だものね。<end>"
 korean = "뭐니 뭐니 해도 내 눈앞에서 노엘을 꼬시려 했던 남자니까.<end>"
 
+["550352"]
+japanese = "あれは違う！<line-break>いいかげんに信じてほしいな…。　　　<line-break>あのときは、冒険者になりたてで…<line-break>ノエルの…、いや、あんたたちの仲間に<line-break>入りたかった。それだけだ。<end>"
+korean = "그건 아니야! 이제 좀 믿어 줬으면 좋겠는데…. 그때는 모험자가 된 지 얼마 안 됐고… 노엘의…, 아니, 너희 동료가 되고 싶었어. 그것뿐이야.<end>"
+
 ["550353"]
 japanese = "俺と一緒に地平線に沈む<line-break>夕日を見ないかい？<end>"
 korean = "나와 함께 지평선 너머로 지는 석양을 보지 않을래?<end>"
@@ -1295,6 +1307,10 @@ korean = "…오해야.<end>"
 ["550360"]
 japanese = "なにかしら？<line-break>あたしたちに何かご用？<end>"
 korean = "무슨 일이야? 우리에게 볼일이라도 있어?<end>"
+
+["550361"]
+japanese = "あいさつもなしに剣を抜くなんて<line-break>感心しないわ。<line-break>もてないわよ、そういうの？<end>"
+korean = "인사도 없이 검부터 뽑다니 별로네. 그러면 인기 없어, 알지?<end>"
 
 ["550362"]
 japanese = "…カフィン、やはり、お前に<line-break>言い寄ってくる男じゃないようだぜ？<end>"

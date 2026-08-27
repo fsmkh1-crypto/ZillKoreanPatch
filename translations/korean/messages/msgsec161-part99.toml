@@ -36,6 +36,10 @@ korean = "그래! 맡아 주는 거냐! 고맙다. 역시 <value:$28>이군. 잘
 japanese = "うっ！　<line-break>そ、そうか…、勘弁してくれ、か…。　<line-break>　<line-break>いや、こっちとしても仕事を無理強い<line-break>するわけにはいかないからな…。<line-break>じゃあ、気が向いたらまた来てくれ。<end>"
 korean = "윽! 그, 그런가… 봐 달라는 건가…. 아니, 우리도 일을 억지로 시킬 순 없으니까…. 마음 내키면 다시 와 줘.<end>"
 
+["1610011"]
+japanese = "そ、そうなのか…。　　　　　　　　　<line-break>悪かったな。<line-break>　<line-break>ちょっと、困った事になっててな。<line-break>そうか、忙しいなら仕方ないな…。<line-break>また暇な時にでも頼むよ。<end>"
+korean = "그, 그런가…. 미안하군. 좀 곤란한 일이 있어서 말이야. 그래, 바쁘다면 어쩔 수 없지…. 또 한가할 때 부탁할게.<end>"
+
 ["1610012"]
 japanese = "じゃ、気をつけて冒険を続けてくれ。　<line-break>まあ、お前さんなら心配いらんか。<end>"
 korean = "그럼 조심해서 모험을 계속해. 뭐, 너라면 걱정 없겠지만.<end>"
@@ -76,6 +80,10 @@ korean = "어머, 든든하네. 그럼 부탁할게. 보수는 일이 끝나면 
 japanese = "報酬は仕事が終わったらお渡しするわ。<line-break>頑張って魔物を追い出してね。<end>"
 korean = "보수는 일이 끝나면 줄게. 힘내서 마물들을 쫓아내 줘.<end>"
 
+["1610023"]
+japanese = "あら、それができるようなら　　　　　<line-break>とっくにそうしてるわ。<line-break>　<line-break>だからあなたのような<line-break>有名人に頼んだのに…。<line-break>仕方ないわね。しばらく他を当たるわ。<end>"
+korean = "어머, 그게 가능했으면 진작 했지. 그래서 당신 같은 유명인에게 부탁한 건데…. 어쩔 수 없네. 당분간 다른 사람을 알아볼게.<end>"
+
 ["1610025"]
 japanese = "あ、あああ、あんた、<line-break>あの<value:$28>か？<end>"
 korean = "아, 아아, 당신… 그 <value:$28>인가?<end>"
@@ -99,6 +107,10 @@ korean = "어쩔 수 없네<end>"
 ["1610032"]
 japanese = "情けないなあ<end>"
 korean = "한심하네<end>"
+
+["1610033"]
+japanese = "そ、そうか！　やってくれるか！！<line-break>ありがとう。本当にありがとう！<line-break>　<line-break>あの獣を倒してきてくれたら、<line-break>俺の宝をあんたにやるよ。<line-break>じゃ、倒したらまた来てくれよ。<end>"
+korean = "그, 그래! 해 주는 거냐!! 고마워. 정말 고마워! 그 짐승을 쓰러뜨리고 오면 내 보물을 줄게. 쓰러뜨리면 다시 와 줘.<end>"
 
 ["1610034"]
 japanese = "仕事、よろしく頼んだぜ。<line-break>あんたにも俺にもいい話だろ？<end>"
@@ -324,9 +336,17 @@ korean = "어쩔 수 없네<end>"
 japanese = "情けないなあ<end>"
 korean = "한심하네<end>"
 
+["1610106"]
+japanese = "そ、そうか！　やってくれるか！！<line-break>ありがとう。本当にありがとう！<line-break>　<line-break>あの獣を倒してきてくれたら、<line-break>俺の宝をあんたにやるよ。<line-break>じゃ、倒したらまた来てくれよ。<end>"
+korean = "그, 그래! 해 주는 거냐!! 고마워. 정말 고마워! 그 짐승을 쓰러뜨리고 오면 내 보물을 줄게. 쓰러뜨리면 다시 와 줘.<end>"
+
 ["1610107"]
 japanese = "仕事、よろしく頼んだぜ。<line-break>あんたにも俺にもいい話だろ？<end>"
 korean = "일은 잘 부탁한다. 너한테도 나한테도 좋은 이야기잖아?<end>"
+
+["1610109"]
+japanese = "よう、<value:$28>。<line-break>こないだの神官様の話、覚えてるか？<line-break>　<line-break>ほら、火山岩地帯にいる魔物の話さ。<line-break>こんな仕事を任せられるのはあんた<line-break>くらいだ。やってみないかい？<end>"
+korean = "어이, <value:$28>. 전에 그 신관님 이야기 기억나? 화산암 지대에 있는 마물 얘기 말이야. 이런 일을 맡길 수 있는 건 너 정도야. 해 볼래?<end>"
 
 ["1610110"]
 japanese = "退治に行く<end>"
@@ -371,6 +391,10 @@ korean = "수락한다<end>"
 ["1610124"]
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
+
+["1610127"]
+japanese = "<if><value:$29><equal>%0あ！　この前のおにいちゃん！！<end>あ！　この前のおねえちゃん！！<end>"
+korean = "<if><value:$29><equal>%0앗! 저번에 만난 오빠!!<end>앗! 저번에 만난 언니!!<end>"
 
 ["1610129"]
 japanese = "任せとけ<end>"
@@ -483,6 +507,10 @@ korean = "그렇구나….<end>"
 ["1610162"]
 japanese = "そうか、鳳凰は本当にいたかい。<line-break>お前さん、本当にやさしいんだね。<end>"
 korean = "그렇군, 봉황은 정말 있었나. 당신, 정말 상냥하군.<end>"
+
+["1610163"]
+japanese = "見るがよい…。人間どもにとって　　<line-break>お前は恐怖以外の何者でもない。<line-break>　<line-break>そこから生まれる、相容れないという<line-break>精神の呪縛…。<line-break>そして奴らは、お前を殺しに来る。<end>"
+korean = "보아라…. 인간들에게 너는 공포 그 자체다. 거기서 생겨나는 서로 받아들일 수 없다는 정신의 속박…. 그리고 놈들은 너를 죽이러 온다.<end>"
 
 ["1610166"]
 japanese = "…待て。<line-break>貴様、名を名乗れ。<end>"
@@ -671,6 +699,10 @@ korean = "네놈이… 역시…!<end>"
 ["1610222"]
 japanese = "待て！<end>"
 korean = "기다려!<end>"
+
+["1610223"]
+japanese = "しつこいわ、セラ。<line-break>もういいかげん大人になって…。　　　<line-break>　<line-break>私も、もう大人なの。<line-break>あなたの保護はいらないわ。<line-break>…新しい保護者もできたしね。くすっ。<end>"
+korean = "끈질기네, 세라. 이제 그만 어른이 돼…. 나도 이제 어른이야. 네 보호는 필요 없어. …새 보호자도 생겼고. 후훗.<end>"
 
 ["1610224"]
 japanese = "貴様アアア！<end>"

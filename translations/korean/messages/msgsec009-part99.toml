@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["90010"]
+japanese = "<select><value:$20>%2ぼくもゾフォルみたいな歴史に残る<line-break>悪の魔道士になるんだ。<end>魔法の勉強してるとすぐに眠くなるんだ。<line-break>だから息抜きに運動しないとね。<end>"
+korean = "<select><value:$20>%2나도 조포르처럼 역사에 남을 악의 마도사가 될 거야.<end>마법 공부를 하면 금방 졸려. 그래서 기분 전환으로 운동도 해야 해.<end>"
+
 ["90011"]
 japanese = "ウルカーンメッセージここまで<end>"
 korean = "울칸 메시지 여기까지<end>"

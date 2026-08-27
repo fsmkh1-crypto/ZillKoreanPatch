@@ -172,6 +172,10 @@ korean = "질문은 없다<end>"
 japanese = "おや、なかなか耳ざといですね。<line-break>フフ、今はまだ秘密です。<line-break>　<line-break>ま、おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
 korean = "오, 꽤 귀가 밝으시군요. 후후, 지금은 아직 비밀입니다. 뭐, 차차 알게 될 겁니다. 일단 길드에서 일을 해 주세요.<end>"
 
+["570062"]
+japanese = "他人のために働くことで、<line-break>魂を成長させていけば<line-break>いずれ、わかってきますよ。<end>"
+korean = "다른 사람을 위해 일하며 영혼을 성장시켜 가면 언젠가 알게 될 겁니다.<end>"
+
 ["570063"]
 japanese = "将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
 korean = "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>"
@@ -367,6 +371,10 @@ korean = "이거 아마 산 뒤로 한 번도 손질 안 했지?<end>"
 ["570132"]
 japanese = "これじゃ、さびてて使いものに　<line-break>ならないよ。<line-break>　<line-break>それに見て。<line-break>この矢、フリントさんに<line-break>刺さってたのとぜんぜん違う…。<end>"
 korean = "이래선 녹슬어서 쓸 수가 없어. 그리고 봐. 이 화살, 플린트 씨에게 박혀 있던 것과 전혀 달라….<end>"
+
+["570133"]
+japanese = "まったく。<line-break>港に来ないと思ったら、案の定これだ。<line-break>何やってんだ、<value:$28>。<end>今は急ごうっていう状況だろ？<line-break>こっからエンシャントなら絶対に船だ。<line-break>さあ、港に急ごうぜ。<end>"
+korean = "정말. 항구에 안 오길래 역시 이거였군. 뭐 하는 거야, <value:$28>.<end>지금은 서둘러야 하는 상황이잖아? 여기서 엔샨트라면 무조건 배야. 자, 항구로 서두르자.<end>"
 
 ["570134"]
 japanese = "よお、そろそろ出港だろ？<line-break>そんじゃ、よろしく頼むぜ。<end>"

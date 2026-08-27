@@ -492,6 +492,10 @@ korean = "<value:$28>! 메이아가! 메이아가! 갑자기 괴로워하더니,
 japanese = "朝から客の多い日だね。<line-break>入っといで。開いてるよ。<end>"
 korean = "아침부터 손님이 많네. 들어와. 열려 있어.<end>"
 
+["370137"]
+japanese = "<if><value:$29><equal>%0それで、お前たち、ユリアシュを<line-break>捕まえに来たんじゃないだろうね。<end>それで、お前たち、ユシュアルを<line-break>捕まえに来たんじゃないだろうね。<end>"
+korean = "<if><value:$29><equal>%0그래서 너희, 유리아슈를 잡으러 온 건 아니겠지.<end>그래서 너희, 유슈알을 잡으러 온 건 아니겠지.<end>"
+
 ["370138"]
 japanese = "見損なわないでくだせぇ！<line-break>ドンパドン船長のいいつけでさ。<end>"
 korean = "절 얕보지 마십쇼! 돈파돈 선장의 명령입니다.<end>"
@@ -519,6 +523,10 @@ korean = "용의 자리 녀석들은 평소부터 마음에 안 들었거든요.
 ["370145"]
 japanese = "ダメ！　　　　　　　　　　　<line-break>　<line-break>エルズの人たちは、<line-break>エア様の恐ろしさを知らない。<line-break>刃向かっちゃダメ！<end>"
 korean = "안 돼! 엘즈 사람들은 에아 님이 얼마나 무서운지 몰라. 맞서면 안 돼!<end>"
+
+["370146"]
+japanese = "<if><value:$29><equal>%0ユリアシュ！　　　　　　　　<end>ユシュアル！　　　　　　　　<end>"
+korean = "<if><value:$29><equal>%0유리아슈!<end>유슈알!<end>"
 
 ["370150"]
 japanese = "エルズの民は自由の民だ。<line-break>脅しなんかに屈しねぇぞ！<end>"

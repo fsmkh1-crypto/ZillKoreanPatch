@@ -96,6 +96,10 @@ korean = "…고마워. 다정하네, <value:$28>. 자, 가자! 빨리 돌아가
 japanese = "おっと！<line-break>ちょっと、待ってもらうぜえ！<end>"
 korean = "어이쿠! 잠깐 기다려 줘!<end>"
 
+["1860035"]
+japanese = "<if><value:$29><equal>%0お前がフリントの息子、　　　　　　　<line-break><value:$28>だな？<line-break>　<end>お前がフリントの娘、　　　　　　　　<line-break><value:$28>だな？<line-break>　<end>"
+korean = "<if><value:$29><equal>%0네가 플린트의 아들, <value:$28>로군?<end>네가 플린트의 딸, <value:$28>로군?<end>"
+
 ["1860036"]
 japanese = "なんなのよぉ、あんた！<end>"
 korean = "뭐야, 너!<end>"

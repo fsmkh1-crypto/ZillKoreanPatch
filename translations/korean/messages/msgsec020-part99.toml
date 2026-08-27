@@ -728,6 +728,10 @@ korean = "우리 일은 몸이 가벼워야 할 수 있습니다. 죄송합니�
 japanese = "密偵は素早さが命なの。<line-break>重いものは装備したくないな。<end>"
 korean = "밀정은 민첩함이 생명이야. 무거운 건 장비하고 싶지 않아.<end>"
 
+["200320"]
+japanese = "防具は全身鎧が一番じゃよ。<line-break>傭兵として戦場に出れば嫌でもわかる<line-break>ことじゃよ。<end>"
+korean = "방어구는 전신갑옷이 최고지. 용병으로 전장에 나가 보면 싫어도 알게 될 게다.<end>"
+
 ["200322"]
 japanese = "防具？<line-break>俺は、胸当てで十分だ。<end>"
 korean = "방어구? 난 흉갑이면 충분해.<end>"
@@ -1336,6 +1340,10 @@ korean = "필드에서 사용하는 스킬입니다.<end>"
 japanese = "自動的に発動するスキルです。<end>"
 korean = "자동으로 발동하는 스킬입니다.<end>"
 
+["200487"]
+japanese = "キャラクターの持っているスキルポイントです。<line-break>これと引き替えにスキルを習得します。<end>"
+korean = "캐릭터가 가진 스킬 포인트입니다. 이것과 교환해 스킬을 습득합니다.<end>"
+
 ["200491"]
 japanese = "キャラクターのレベル(LEVEL)です。<end>"
 korean = "캐릭터의 레벨(LEVEL)입니다.<end>"
@@ -1351,6 +1359,10 @@ korean = "다음 레벨까지 필요한 경험치입니다.<end>"
 ["200494"]
 japanese = "筋力(STRENGTH)を表します。<line-break>物理攻撃の威力に影響します。<end>"
 korean = "근력(STRENGTH)을 나타냅니다. 물리 공격의 위력에 영향을 줍니다.<end>"
+
+["200495"]
+japanese = "生命力(VITALITY)を表します。<line-break>物理的攻撃に対する防御力や、<line-break>HPの増加率に影響します。<end>"
+korean = "생명력(VITALITY)을 나타냅니다. 물리 공격에 대한 방어력과 HP 증가율에 영향을 줍니다.<end>"
 
 ["200496"]
 japanese = "知力(INTELLIGENCE)を表します。<line-break>精霊属性魔法の威力に影響します。<end>"
@@ -1403,6 +1415,10 @@ korean = "필드에서 사용하는 스킬입니다.<end>"
 ["200513"]
 japanese = "自動的に発動するスキルです。<end>"
 korean = "자동으로 발동하는 스킬입니다.<end>"
+
+["200514"]
+japanese = "キャラクターの持っているスキルポイントです。<line-break>これと引き替えにスキルを習得します。<end>"
+korean = "캐릭터가 가진 스킬 포인트입니다. 이것과 교환해 스킬을 습득합니다.<end>"
 
 ["200515"]
 japanese = "装備をはずします。<end>"

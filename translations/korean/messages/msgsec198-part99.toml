@@ -648,6 +648,10 @@ korean = "그 마도기… 찾을 수 있으면 좋겠네요, <value:$28>.<end>"
 japanese = "どうしよう…。<line-break>何とかして<value:$28>さんに<line-break>あきらめてもらわないと…。<end>"
 korean = "어쩌지…. 어떻게든 <value:$28> 씨가 포기하게 해야 해….<end>"
 
+["1980227"]
+japanese = "（終わった…。ううう…。<line-break>　そんな専門家に尋ねたら<line-break>　私のウソなんて見抜かれちゃう…。）<line-break>（そうなったら、もう<line-break>　<value:$28>さんの<line-break>　おそばにいられない…。）<end>"
+korean = "(끝났다…. 으으…. 그런 전문가에게 물어보면 내 거짓말 같은 건 들켜 버릴 거야….) (그러면 이제 <value:$28> 씨 곁에 있을 수 없어….)<end>"
+
 ["1980230"]
 japanese = "で、でもよく考えてみると<line-break>変な話ですよね？<line-break>　<line-break>昔から仲の悪いエルフとドワーフが<line-break>協力して作った魔道器なんて…。<end>"
 korean = "그, 그런데 잘 생각해 보면 이상한 이야기죠? 예전부터 사이가 나쁜 엘프와 드워프가 협력해서 만든 마도기라니….<end>"
@@ -703,6 +707,10 @@ korean = "그럼 포기해 주신 거네요. 다행이다…. <value:$28> 씨 �
 ["1980244"]
 japanese = "<value:$28>さん！<line-break>大丈夫ですか！？<end>"
 korean = "<value:$28>님! 괜찮으세요!?<end>"
+
+["1980245"]
+japanese = "<value:$28>さんは<line-break>やっばり優しいんですね、<line-break>わざと負けてあげるなんて。<line-break>私、うれしいです、<line-break>そんな<value:$28>さんと<line-break>一緒に旅ができたことが…。<end>"
+korean = "<value:$28> 씨는 역시 상냥하시네요, 일부러 져 주시다니. 저, 기뻐요. 그런 <value:$28> 씨와 함께 여행할 수 있어서….<end>"
 
 ["1980246"]
 japanese = "伝説のフライパンを手に入れた。<end>"

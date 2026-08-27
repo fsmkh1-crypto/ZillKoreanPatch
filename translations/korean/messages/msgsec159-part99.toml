@@ -24,6 +24,10 @@ korean = "아~ <value:$28>, 이제야 왔네~. 모험자 등록할 거야. 빨�
 japanese = "すみませ～ん。<line-break>冒険者の登録をしたいんですけどぉ。<end>"
 korean = "실례합니다~. 모험자 등록을 하고 싶은데요.<end>"
 
+["1590007"]
+japanese = "ほう、こりゃまた、かわいらしい冒険者だな。<line-break>おチビちゃんたちで本当にだいじょうぶかい？<end>"
+korean = "오, 또 귀여운 모험자들이군. 꼬맹이들끼리 정말 괜찮겠어?<end>"
+
 ["1590008"]
 japanese = "おチビちゃんじゃないよぉ。<line-break>あたしはルルアンタ。<line-break>　<line-break>外見だけで判断するなんて、<line-break>おじさんもまだまだね。<end>"
 korean = "꼬맹이 아니거든~. 나는 루루안타야. 겉모습만 보고 판단하다니, 아저씨도 아직 멀었네.<end>"
@@ -92,6 +96,10 @@ korean = "큭, 두고 보자!<end>"
 japanese = "とんだヘマだぜ。<line-break>ここまで連れてきて逃げられちまうとはな。<end>"
 korean = "큰 실수를 했군. 여기까지 데려와 놓고 도망치게 하다니.<end>"
 
+["1590029"]
+japanese = "だが、リルビーのガキひとり、こんな森の中で<line-break>迷ったら、モンスターに食われておしまいさ。<end>"
+korean = "하지만 릴비 꼬마 하나가 이런 숲에서 길을 잃으면 몬스터에게 잡아먹히고 끝이야.<end>"
+
 ["1590030"]
 japanese = "念には念をいれとかねえとな。<line-break>俺たちの一団が誘拐事件の黒幕だなんて<line-break>ばらされたら、いっかんの終わりだぜ。<line-break>…誰だ！<end>"
 korean = "확실히 해 둬야지. 우리 일행이 유괴 사건의 배후라는 게 들통나면 끝장이야. …누구냐!<end>"
@@ -156,6 +164,10 @@ korean = "어? 그럼 당신이 숲의 현자님이야?<end>"
 japanese = "ウフフ、そんな風に私のことを　　<line-break>呼ぶ人もいるようですね。<line-break>　<line-break>それに、世間ではこんな風にも<line-break>言われているようですよ。<line-break><end>"
 korean = "후후, 저를 그렇게 부르는 사람도 있는 모양이네요. 게다가 세상에서는 이렇게도 부르는 모양이에요.<end>"
 
+["1590048"]
+japanese = "賢者の森の猫屋敷に<line-break>入ることができるのは<line-break>運命に選ばれた者だけだ、ともね。<end>"
+korean = "현자의 숲 고양이 저택에 들어갈 수 있는 건 운명에 선택받은 자뿐이라는 말도 있었지.<end>"
+
 ["1590049"]
 japanese = "うんめいに、選ばれた、もの？<end>"
 korean = "운명에 선택받은 자?<end>"
@@ -187,6 +199,10 @@ korean = "그렇군요. 그런 일이 있었습니까….<end>"
 ["1590056"]
 japanese = "<value:$28>、<line-break>かわいそう…。<end>"
 korean = "<value:$28>, 불쌍해….<end>"
+
+["1590057"]
+japanese = "破壊神の円卓騎士、<line-break>告げるものアスティアと、　　<line-break>　<line-break>開け放つものヴァシュタール。<line-break>それに、無限のソウルを持つもの。<line-break>運命は、時として皮肉ですね…。<end>"
+korean = "파괴신의 원탁기사, 알리는 자 아스티아와 열어젖히는 자 바슈타르. 그리고 무한의 소울을 지닌 자. 운명은 때로 참 얄궂군요….<end>"
 
 ["1590058"]
 japanese = "大丈夫だよ、<value:$28>。<line-break>お母さんはきっと生きてるよぉ。<end>"
@@ -444,6 +460,10 @@ korean = "질문은 없어<end>"
 japanese = "フフ、それは秘密です。　　<line-break>　<line-break>　<line-break>ま、おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
 korean = "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일단 길드에서 일을 해 주세요.<end>"
 
+["1590133"]
+japanese = "他人のために働くことで、<line-break>魂を成長させていけば<line-break>いずれ、わかってきますよ。<end>"
+korean = "다른 사람을 위해 일하며 영혼을 성장시켜 가면 언젠가 알게 될 겁니다.<end>"
+
 ["1590134"]
 japanese = "将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。　　　　　　<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
 korean = "앞으로 여행 도중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶다면 이 고양이 저택으로 오세요.<end>"
@@ -547,6 +567,10 @@ korean = "그랬구나. 고마워. 그리고 미안해.<end>"
 ["1590173"]
 japanese = "うん、ルルアンタ、元気だよ。　　　<line-break>　<line-break>　<line-break>あのね、<line-break>フリントさんが言ってくれたんだ。<line-break>　<end>"
 korean = "응, 루루안타는 잘 지내. 있잖아, 플린트 씨가 말해 줬어.<end>"
+
+["1590174"]
+japanese = "ルルアンタは元気だね、<line-break>ルルアンタが元気だと私も<line-break>うれしくなって元気が出るって。<line-break>だから、ルルアンタ、<line-break>天国のフリントさんが<line-break>喜んでくれるように元気なんだ。<end>"
+korean = "루루안타는 건강하구나. 루루안타가 건강하면 나도 기뻐져서 힘이 난대. 그래서 루루안타는 천국의 플린트 씨가 기뻐하도록 건강한 거야.<end>"
 
 ["1590177"]
 japanese = "じゃ、あらためてぇ…。　　　　<end>"

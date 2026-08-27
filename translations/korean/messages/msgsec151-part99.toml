@@ -8,6 +8,10 @@ korean = "엘파스 볼륨2 시작<end>"
 japanese = "なんて娘だ！<line-break>いままでこんな娘を<line-break>屋敷に置いていたとは！　　　　　<end>"
 korean = "이 무슨 아이인가! 지금까지 이런 아이를 저택에 두고 있었다니!<end>"
 
+["1510002"]
+japanese = "誤解です！　信じてください。　<line-break>私、だんな様の宝石を<line-break>盗んだりしていません。<end>"
+korean = "오해입니다! 믿어 주세요. 저는 주인님의 보석을 훔치지 않았습니다.<end>"
+
 ["1510003"]
 japanese = "だまれ！　お前に決まっているわ！<line-break>私の部屋に出入りできるのは<line-break>お前しかいないんだぞ。<line-break>さぁ、どこに隠した！<line-break>正直にいわんか！<end>"
 korean = "닥쳐! 네놈이 분명하다! 내 방에 드나들 수 있는 건 너뿐이잖아. 자, 어디 숨겼어! 솔직히 말해!<end>"
@@ -27,6 +31,14 @@ korean = "아, 엘파스 님! 부디 구해 주세요! 저는 주인님의 보�
 ["1510007"]
 japanese = "そんな、誤解です！　　　　　　<line-break>　<line-break>　<end>"
 korean = "그런, 오해입니다!<end>"
+
+["1510008"]
+japanese = "な、なんじゃ。<line-break>わしは間違っておらんぞ。<line-break>この娘は人の物を盗んだのだ。　　<end>"
+korean = "뭐, 뭐냐. 나는 틀리지 않았어. 이 계집애가 남의 물건을 훔쳤단 말이다.<end>"
+
+["1510009"]
+japanese = "この娘に罪はない。<line-break>すぐに知らせが来よう。<line-break>汝は、己が過ちを知ることになる。<end>"
+korean = "이 아이에게 죄는 없다. 곧 소식이 올 것이다. 너는 자신의 잘못을 알게 되리라.<end>"
 
 ["1510010"]
 japanese = "な、な、な。　　　　　　　　　　<line-break>　<line-break>　<end>"
@@ -127,6 +139,10 @@ korean = "너는 정말 힘을 휘두르고 싶은 모양이군. 아무도 도�
 ["1510037"]
 japanese = "僕が礼を言うとでも思ったのか？<end>"
 korean = "내가 감사라도 할 줄 알았나?<end>"
+
+["1510038"]
+japanese = "君、僕を知らないのか…？<line-break>それなら、礼を言う代わりに<line-break>ひとつ忠告しよう。<line-break>力にすがるのは愚かなことだ。<line-break>力はただ、より強い力によって<line-break>叩き伏せられるのみだ。<end>"
+korean = "너, 나를 모르는 건가…? 그렇다면 감사 대신 한 가지 충고하지. 힘에 의지하는 건 어리석은 일이다. 힘은 그저 더 강한 힘에게 짓눌릴 뿐이야.<end>"
 
 ["1510039"]
 japanese = "僕は神が遣わしたる救世主、<line-break>エルファス。<line-break>僕の言葉は、神の言葉だ。<end>"
@@ -288,6 +304,10 @@ korean = "기적이야!<end>"
 japanese = "子供が甦った！<end>"
 korean = "아이가 되살아났어!<end>"
 
+["1510090"]
+japanese = "ただ、我を信じよ。滅びの日は近い。<line-break>その日に我を信じるもののみが<line-break>救われるのだ。<end>"
+korean = "오직 나를 믿어라. 멸망의 날은 가깝다. 그날 나를 믿는 자만이 구원받는다.<end>"
+
 ["1510091"]
 japanese = "…なぜ、助ける？<line-break>僕が告死天使の長であることは<line-break>知っているのだろう？<line-break>…なぜ、助ける？<line-break>僕は、敵、だ。<end>"
 korean = "…왜 돕는 거지? 내가 고사천사의 우두머리라는 건 알고 있겠지? …왜 돕는 거지? 나는 적이다.<end>"
@@ -339,6 +359,10 @@ korean = "기적이야!<end>"
 ["1510103"]
 japanese = "貴族に斬り殺された子供が甦った！<end>"
 korean = "귀족에게 베여 죽은 아이가 되살아났다!<end>"
+
+["1510104"]
+japanese = "ただ、我を信じよ。滅びの日は近い。<line-break>その日に我を信じるもののみが<line-break>救われるのだ。<end>"
+korean = "오직 나를 믿어라. 멸망의 날은 가깝다. 그날 나를 믿는 자만이 구원받는다.<end>"
 
 ["1510105"]
 japanese = "さては、お前らみんな仲間だな！　<line-break>　<line-break>　<end>"

@@ -136,6 +136,10 @@ korean = "죄, 죄송합니다, 죄송합니다!<end>"
 japanese = "にゃー！<end>"
 korean = "냐옹~!<end>"
 
+["780052"]
+japanese = "<if><value:$29><equal>%0やさしくねえ男だな。<line-break>やさしくねえ男なんか<line-break>生きている価値もねえよ。<end>やさしくねえ女だな。<line-break>女は愛嬌って言葉を<line-break>知らないのか？<end>"
+korean = "<if><value:$29><equal>%0정 없는 남자군. 정 없는 남자는 살아 있을 가치도 없어.<end>정 없는 여자군. 여자는 애교라는 말을 모르나?<end>"
+
 ["780053"]
 japanese = "それで？<line-break>この俺に、話とはなんだ？<end>"
 korean = "그래서? 이 나에게 무슨 이야기지?<end>"
@@ -151,6 +155,10 @@ korean = "로스토올의 그 저택을? 무엇 때문에?<end>"
 ["780056"]
 japanese = "実は、ずっと考えていたのですが…<line-break>私、どうしても<line-break>したいことがあるのです。<end>"
 korean = "사실 계속 생각하고 있었는데요… 저, 꼭 하고 싶은 일이 있어요.<end>"
+
+["780057"]
+japanese = "ロストールをもとの姿に<line-break>戻したいのです。<line-break>美しい都市をよみがえらせたいのです。<end>"
+korean = "로스토올을 원래 모습으로 되돌리고 싶습니다. 아름다운 도시를 되살리고 싶습니다.<end>"
 
 ["780058"]
 japanese = "…それはまた<line-break>大がかりな計画だな。<end>"
@@ -211,6 +219,10 @@ korean = "아니요, 사실은… 해야 할 일이 있습니다.<end>"
 ["780074"]
 japanese = "実は、しなければならないことが<line-break>あるのです。<end>"
 korean = "사실 해야 할 일이 있습니다.<end>"
+
+["780076"]
+japanese = "ロストールをもとの姿に<line-break>戻したいのです。<line-break>美しい都市をよみがえらせたいのです。<end>"
+korean = "로스토올을 원래 모습으로 되돌리고 싶습니다. 아름다운 도시를 되살리고 싶습니다.<end>"
 
 ["780080"]
 japanese = "ええ。<line-break>でも、精一杯やってみるつもりです。<line-break>ときどき励ましに来てください。<end>"

@@ -12,9 +12,21 @@ korean = "오, 왔군, <value:$28>. 그럼 길드로 가자. 따라와.<end>"
 japanese = "ま、いろんなとこだ。　　　　　　　<line-break>　<line-break>　<line-break>で、さっそくだが、こいつのギルド<line-break>登録をしてやってくれないか？<line-break>俺の新しい相棒なんでな。<end>"
 korean = "뭐, 여러 곳이지. 그보다 바로 본론인데, 이 녀석을 길드에 등록해 주지 않겠어? 내 새 파트너거든.<end>"
 
+["1470004"]
+japanese = "へえ。あんたかい。<line-break>ゼネテスさんが目を付けたんだ。<line-break>将来有望なんだろうね。<end>"
+korean = "오. 네가 그 사람이야? 제네테스 씨가 눈여겨봤다니 장래가 유망한가 보네.<end>"
+
+["1470006"]
+japanese = "それで、ゼネテスさん。<line-break>せっかく来たんだから、<line-break>ひとつ仕事を頼まれてみないかい？<end>"
+korean = "그래서 제네테스 씨. 모처럼 왔으니 일 하나 맡아 보지 않을래?<end>"
+
 ["1470007"]
 japanese = "ん？　そうだな、<line-break>初心者向けのだったら、<line-break>聞いてみてもいいぜ？<end>"
 korean = "응? 그래, 초보자용이라면 물어봐도 돼.<end>"
+
+["1470008"]
+japanese = "初心者向けとは言えないだろうが、<line-break>あんたが一緒だったら<line-break>大丈夫なんじゃないかな。<end>"
+korean = "초보자용이라고는 못 하겠지만 네가 함께라면 괜찮지 않을까.<end>"
 
 ["1470009"]
 japanese = "ふぅん。<line-break>…で、どんなんだい？<end>"
@@ -99,6 +111,10 @@ korean = "<value:$28>. 아무래도 일이 안 좋게 돌아갈 것 같아.<end>
 ["1470040"]
 japanese = "見覚えがあるだろう？<line-break>ルルアンタの服のボタンだ。<end>"
 korean = "본 적 있지? 루루안타 옷의 단추야.<end>"
+
+["1470041"]
+japanese = "あぁ、誘拐かはともかく<line-break>ルルアンタに何かあったのは<line-break>間違いなさそうだな。<end>"
+korean = "그래, 유괴인지는 몰라도 루루안타에게 무슨 일이 생긴 건 틀림없는 것 같군.<end>"
 
 ["1470042"]
 japanese = "おい、そこの兄さん。<line-break>ちょっと、待ってくれ。<end>"
@@ -212,6 +228,10 @@ korean = "거기 자네, 모험자군! 그 남자를 잡아 줘! 유괴범이다
 japanese = "な、なんだ貴様！？　　　　　　　　　<line-break>邪魔すんじゃねぇ！<line-break>　<end>"
 korean = "뭐, 뭐냐 네놈!? 방해하지 마!<end>"
 
+["1470088"]
+japanese = "おう、捕まえてくれたか。<line-break>助かったわ。<line-break>わしはアンギルダン、冒険者じゃ。<end>"
+korean = "오, 잡아 줬나. 살았군. 나는 안길단, 모험자다.<end>"
+
 ["1470091"]
 japanese = "じゃが、お主の言うルルアンタらしい<line-break>リルビーの娘は見あたらなかったぞ。<end>"
 korean = "하지만 자네가 말한 루루안타라는 릴비 여자아이는 보이지 않았어.<end>"
@@ -311,6 +331,14 @@ korean = "아직 준비 중<end>"
 ["1470128"]
 japanese = "ルルアンタは賢者の森だ。<line-break>はやく助けてやろうぜ、<line-break><value:$28>。<line-break>おっと、その前に体力を<line-break>回復しておかないとな。<end>"
 korean = "루루안타는 현자의 숲에 있어. 빨리 구하러 가자, <value:$28>. 아, 그 전에 체력부터 회복해야겠군.<end>"
+
+["1470129"]
+japanese = "あんまりグズグズしていられる<line-break>状況じゃない。準備は肝心だが<line-break>急いでくれ。<end>"
+korean = "너무 꾸물거릴 상황이 아니야. 준비는 중요하지만 서둘러 줘.<end>"
+
+["1470131"]
+japanese = "おいおい、そっちは出口だぞ。<line-break>今はのんびりしていられる<line-break>状況じゃないぜ？<end>"
+korean = "어이, 그쪽은 출구야. 지금은 느긋하게 있을 상황이 아니라고?<end>"
 
 ["1470137"]
 japanese = "何者だ、お前ら！<line-break>こんな所をうろついているとは　　　　<line-break>怪しい奴め！<end>"

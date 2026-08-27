@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["80015"]
+japanese = "<select><value:$20>%2わーい、イズキヤル！<line-break>こっち、こっちー！<end>遅いぞ、はやくはやく！<end>"
+korean = "<select><value:$20>%2와아, 이즈키얄! 여기, 여기야!<end>늦었어, 빨리 빨리!<end>"
+
 ["80016"]
 japanese = "アルノートゥンメッセージここまで<end>"
 korean = "알노툰 메시지 여기까지<end>"

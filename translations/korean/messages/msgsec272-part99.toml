@@ -56,6 +56,10 @@ korean = "그래. 우선 주사프브로스에게서 동화의 머리장식을 �
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
 
+["2720019"]
+japanese = "俺はクリスタルから解放されて<line-break>今日まで、自分が生きているという<line-break>実感がなかった。<line-break>ただ、イーシャのために<line-break>かりそめの命を<line-break>もらっているだけだと…。<end>"
+korean = "나는 크리스털에서 해방된 뒤 오늘까지 내가 살아 있다는 실감이 없었어. 그저 이샤를 위해 임시로 목숨을 받은 것뿐이라고….<end>"
+
 ["2720022"]
 japanese = "教えてくれ、<value:$28>…。<line-break>俺は間違っていたのか？<line-break>　<line-break>彼女にとって俺の行為は<line-break>重荷でしかなかったのか？<line-break>それとも俺の自己満足だったのか？<end>"
 korean = "말해 줘, <value:$28>…. 내가 틀렸던 건가? 그녀에게 내 행동은 짐일 뿐이었나? 아니면 내 자기만족이었던 건가?<end>"
@@ -68,9 +72,17 @@ korean = "알고 있어. 내 선택을 후회하는 건 아니야. 다만 이샤
 japanese = "そうだな。<value:$28>。<line-break>俺の行動が正しかったかどうかは<line-break>俺自身にもわからない。<line-break>だけど、イーシャへの想いは真実だ。<line-break>それだけは胸を張って言える。<end>"
 korean = "그래, <value:$28>. 내 행동이 옳았는지는 나도 몰라. 하지만 이샤를 향한 마음은 진심이다. 그것만은 당당히 말할 수 있어.<end>"
 
+["2720025"]
+japanese = "ありがとう。<value:$28>。<line-break>おかげで少し楽になった。<line-break>"
+korean = "고마워. <value:$28>. 덕분에 조금 편해졌어."
+
 ["2720026"]
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
+
+["2720028"]
+japanese = "俺はクリスタルから解放されて<line-break>今日まで、自分が生きているという<line-break>実感がなかった。<line-break>ただ、イーシャのために<line-break>かりそめの命を<line-break>もらっているだけだと…。<end>"
+korean = "나는 크리스털에서 해방된 뒤 오늘까지 내가 살아 있다는 실감이 없었어. 그저 이샤를 위해 임시로 목숨을 받은 것뿐이라고….<end>"
 
 ["2720033"]
 japanese = "ありがとう。<value:$28>。<line-break>　<line-break>　<line-break>俺自身が出さなければ<line-break>いけない答えなのに、<line-break>お前に甘えてしまった。<end>"
@@ -128,6 +140,10 @@ korean = "고맙다, <value:$28>. 내가 스스로 내야 할 답인데 네게 �
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
 
+["2720060"]
+japanese = "俺はクリスタルから解放されて<line-break>今日まで、自分が生きているという<line-break>実感がなかった。<line-break>ただ、イーシャのために<line-break>かりそめの命を<line-break>もらっているだけだと…。<end>"
+korean = "나는 크리스털에서 해방된 뒤 오늘까지 내가 살아 있다는 실감이 없었어. 그저 이샤를 위해 임시로 목숨을 받은 것뿐이라고….<end>"
+
 ["2720063"]
 japanese = "教えてくれ、<value:$28>…。<line-break>俺は間違っていたのか？<line-break>　<line-break>彼女にとって俺の行為は<line-break>重荷でしかなかったのか？<line-break>それとも俺の自己満足だったのか？<end>"
 korean = "말해 줘, <value:$28>…. 내가 틀렸던 건가? 그녀에게 내 행동은 짐일 뿐이었나? 아니면 내 자기만족이었던 건가?<end>"
@@ -159,6 +175,10 @@ korean = "이제 소중한 사람을 슬프게 하지 않는 선택을….<end>"
 ["2720073"]
 japanese = "ずっとクリスタルの中にいたんで<line-break>月夜が懐かしくてな。<line-break>思わず眺めていた。<end>"
 korean = "계속 크리스털 안에 있었더니 달밤이 그리워서 말이야. 나도 모르게 바라보고 있었어.<end>"
+
+["2720074"]
+japanese = "俺はクリスタルから解放されて<line-break>今日まで、自分が生きているという<line-break>実感がなかった。<line-break>ただ、イーシャのために<line-break>かりそめの命を<line-break>もらっているだけだと…。<end>"
+korean = "나는 크리스털에서 해방된 뒤 오늘까지 내가 살아 있다는 실감이 없었어. 그저 이샤를 위해 임시로 목숨을 받은 것뿐이라고….<end>"
 
 ["2720075"]
 japanese = "ジリオン＆イーシャイベント14用開終端<end>"

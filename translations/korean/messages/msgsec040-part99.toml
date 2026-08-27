@@ -156,6 +156,14 @@ korean = "네메아 씨, 감사합니다!<end>"
 japanese = "こちらこそ。<end>"
 korean = "나야말로.<end>"
 
+["400048"]
+japanese = "<if><value:$01><equal>5ホントにリベルダムだぜ。<line-break>…すげえ。 <end>…ここは、…リベルダム。 <end>"
+korean = "<if><value:$01><equal>5진짜 리벨덤이야. …대단해.<end>…여긴, …리벨덤.<end>"
+
+["400049"]
+japanese = "<if><value:$01><equal>5あ、あんた、本物の<line-break>勇者ネメアだったんだな！ <end>…さすがだ。 <end>"
+korean = "<if><value:$01><equal>5너, 너 진짜 용자 네메아였구나!<end>…역시 대단해.<end>"
+
 ["400051"]
 japanese = "空<end>"
 korean = "빈칸<end>"
@@ -823,6 +831,10 @@ korean = "나는 황제 직속 유격대, 사자의 송곳니 소속 흑갑 근�
 ["400269"]
 japanese = "…同じくゼリグ。<end>"
 korean = "…나도 제리그다.<end>"
+
+["400270"]
+japanese = "同じくドルドラム。<line-break>ソリアスに使える神官じゃ。　　　　　<line-break>　<line-break>長老シェムハザ殿、いかな大軍も<line-break>寄せつけぬマグマゴーレムも、<line-break>少数の勇者にはかなわなんだな。<end>"
+korean = "나도 도르드람이다. 소리아스를 섬기는 신관이지. 장로 셰무하자 공, 아무리 대군도 막아내는 마그마 골렘도 소수의 용자에게는 당해내지 못했군.<end>"
 
 ["400271"]
 japanese = "マグマゴーレムがあっという間に<line-break>倒され、町の者は皆、<line-break>抵抗する気が失せておる。<line-break>長老、降伏なされ。<line-break>悪いようにはせん。<end>"
