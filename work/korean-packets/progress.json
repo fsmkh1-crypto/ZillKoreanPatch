@@ -1,25 +1,25 @@
 {
   "records_total": 43116,
-  "records_translated": 37648,
+  "records_translated": 38036,
   "records_no_text_skipped": 380,
   "records_passthrough_skipped": 777,
-  "records_done_effective": 38805,
-  "records_remaining": 4311,
-  "percent_done": 90.0014,
+  "records_done_effective": 39193,
+  "records_remaining": 3923,
+  "percent_done": 90.9013,
   "packet_order": "mixed",
   "packet_lanes": {
     "short": 0,
-    "medium": 1060,
-    "complex": 1060
+    "medium": 1045,
+    "complex": 1044
   },
-  "packet_records": 2120,
-  "packet_bytes": 599933,
+  "packet_records": 2089,
+  "packet_bytes": 599671,
   "packet_first": {
-    "section": 235,
-    "id": "2350014"
+    "section": 28,
+    "id": "280101"
   },
   "packet_last": {
-    "section": 108,
-    "id": "1080096"
+    "section": 163,
+    "id": "1630135"
   }
 }
