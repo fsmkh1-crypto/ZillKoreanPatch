@@ -17,11 +17,11 @@ layout = "이런, <value:$28> 님.<line-break>오늘은 어느 분께 용무가 
 
 ["30035"]
 japanese = "町から出る<end>"
-korean = "도시에서 나간다<end>"
+korean = "마을에서 나간다<end>"
 
 ["30036"]
 japanese = "町から出ない<end>"
-korean = "도시에서 나가지 않는다<end>"
+korean = "마을에서 나가지 않는다<end>"
 
 ["30037"]
 japanese = "エンシャントメッセージここまで<end>"

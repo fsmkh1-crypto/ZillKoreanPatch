@@ -52,11 +52,11 @@ layout = "<if><value:$2A><less-equal>%49오, 도시를 나갈 거구나.<line-br
 
 ["60049"]
 japanese = "町から出る<end>"
-korean = "도시에서 나간다<end>"
+korean = "마을에서 나간다<end>"
 
 ["60050"]
 japanese = "町から出ない<end>"
-korean = "도시에서 나가지 않는다<end>"
+korean = "마을에서 나가지 않는다<end>"
 
 ["60051"]
 japanese = "リベルダムメッセージここまで<end>"
