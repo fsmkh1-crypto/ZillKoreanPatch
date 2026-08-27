@@ -168,6 +168,10 @@ korean = "저, 저기…. 어때요?<end>"
 japanese = "…よかった。<end>"
 korean = "…다행이다.<end>"
 
+["1920051"]
+japanese = "私、これからも、いろんなことを<line-break>ひとりでできるようになりたいのです。<line-break>　<line-break><value:$28>様と一緒にいても<line-break>迷惑にならないように<line-break>なりたいのです。<end>"
+korean = "저, 앞으로도 여러 가지 일을 혼자 할 수 있게 되고 싶어요. <value:$28> 님과 함께 있어도 폐를 끼치지 않게 되고 싶어요.<end>"
+
 ["1920052"]
 japanese = "ですから、<value:$28>様。<line-break>どうか、いつまでも、私の近くに<line-break>いてください。<end>"
 korean = "그러니 <value:$28>님. 부디 언제까지나 제 곁에 있어 주세요.<end>"
@@ -523,6 +527,10 @@ korean = "…정말 강하게 밀어붙이시는군요, <value:$28>님은. 알�
 ["1920163"]
 japanese = "ティアナは見てみたいのです。<line-break>あなたが心を動かされるものを、<line-break>あなたと一緒に見ていきたい。<line-break>これからも、ずっと…。<end>"
 korean = "티아나는 보고 싶어요. 당신의 마음을 움직이는 것을 당신과 함께 보고 싶습니다. 앞으로도 계속….<end>"
+
+["1920164"]
+japanese = "えと、誰にも気づかれなかったよね。<line-break>よかった。昨日のうちから<line-break>準備しておいて。<end>"
+korean = "저기, 아무도 눈치 못 챘지? 다행이다. 어제부터 준비해 둬.<end>"
 
 ["1920167"]
 japanese = "急に旅に出るなんて<line-break>書き置きを見たら<line-break>びっくりするだろうな。<line-break>ごめんなさい、<line-break>お父様、お母様。<line-break>でも、わたしは…。<end>"

@@ -1520,6 +1520,10 @@ korean = "이 손님, 취해 있어서….<end>"
 japanese = "なんだ貴様ぁ！<line-break>ちょうどいい。<line-break>俺様の愛の伝説のわき役にしてやる！<end>"
 korean = "뭐냐 네놈! 마침 잘됐다. 나의 사랑의 전설에 조연으로 만들어 주마!<end>"
 
+["1370559"]
+japanese = "こ、こんなはずは…。<line-break>ええい、まだだ！<line-break>俺様の無敵伝説はこれから始まるんだ！<end>"
+korean = "이, 이럴 리가…. 젠장, 아직이다! 이 몸의 무적 전설은 이제부터 시작이야!<end>"
+
 ["1370560"]
 japanese = "ありがとうございますっ！<line-break><value:$28>さん、<line-break>ケガはありませんか？<end>"
 korean = "감사합니다! <value:$28> 씨, 다친 데는 없으세요?<end>"
@@ -1539,6 +1543,10 @@ korean = "괘, 괜찮으세요? <value:$28>님.<end>"
 ["1370565"]
 japanese = "ごめんなさい…私なんかのために。<line-break>…ケガまでさせてしまって…。<end>"
 korean = "미안해요… 저 같은 사람 때문에. …다치기까지 하게 해서…<end>"
+
+["1370566"]
+japanese = "はい？<line-break>あ、オッシさんのお酒のお代ですね。<line-break>毎度、ありがとうございましたー。<end>"
+korean = "네? 아, 오시 씨 술값이군요. 매번 감사합니다.<end>"
 
 ["1370567"]
 japanese = "あっ、<value:$28>さん！<end>"

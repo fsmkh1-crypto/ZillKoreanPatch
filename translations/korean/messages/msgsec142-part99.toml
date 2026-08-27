@@ -976,6 +976,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "…なんともまあ、<line-break>考えようによっては、<line-break>ぜいたくなことじゃな。<line-break>救世の英雄に、見送って<line-break>もらえるのじゃからな。<end>"
 korean = "…뭐랄까, 생각하기에 따라서는 호사스러운 일이군. 구세의 영웅에게 배웅받는 것이니.<end>"
 
+["1420291"]
+japanese = "姉ちゃんに見送ってもらえるのが、<line-break>ぜいたくか…。<line-break>なんか、わかんねえな。<end>"
+korean = "누나가 배웅해 주는 게 사치인가…. 뭔가 잘 모르겠네.<end>"
+
 ["1420292"]
 japanese = "なあ、<value:$28>、<line-break>これからどうすんだよ？<line-break> <line-break>ホントに俺んちに遊びに<line-break>来ねえのか？<end>"
 korean = "야, <value:$28>, 이제 어떻게 할 거야? 정말 우리 집에 놀러 안 올 거냐?<end>"
@@ -1323,6 +1327,10 @@ korean = "당신이 마음만 먹는다면… 이 대륙에 다시 전쟁을 일
 ["1420386"]
 japanese = "だが、お前には仲間がいる。<line-break> <line-break> <line-break>それはお前が正しいことに力を<line-break>振るってきた証であり、<line-break>お前の力を抑える枷でもある。<end>"
 korean = "하지만 너에겐 동료가 있다. 그건 네가 옳은 일을 위해 힘을 써 왔다는 증거이자 네 힘을 억누르는 족쇄이기도 하지.<end>"
+
+["1420387"]
+japanese = "そこに友がいる限り、その力は破滅を<line-break>招くことはない。<line-break>自分と仲間を信じるがいい。<end>"
+korean = "그곳에 친구가 있는 한 그 힘이 파멸을 부르는 일은 없다. 자신과 동료를 믿어라.<end>"
 
 ["1420388"]
 japanese = "その人たちに何も告げずに行くなんて、<line-break>許されないわ。<line-break> <line-break>残される方にも、それぞれの思いが<line-break>あるんだから。<end>"
