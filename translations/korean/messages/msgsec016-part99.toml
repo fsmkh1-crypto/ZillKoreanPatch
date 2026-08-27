@@ -48,6 +48,10 @@ korean = "지금 네가 맡고 있는 일이야. 기한은 지켜 줘.<end>"
 japanese = "ありがとうよ。<line-break>また頼むぜ。<end>"
 korean = "고맙다. 또 부탁할게.<end>"
 
+["160016"]
+japanese = "おしいな。期限さえ守ってくれれば…<line-break>悪いが、報酬は半額だ。<end>"
+korean = "아깝군. 기한만 지켜 줬다면…. 미안하지만 보수는 절반이다.<end>"
+
 ["160017"]
 japanese = "おっ、なんだ？<line-break>手におえない仕事でもあるのか？<end>"
 korean = "어, 뭐야? 감당 못 할 일이라도 있나?<end>"
@@ -71,6 +75,10 @@ korean = "그럼 무사히 돌아와.<end>"
 ["160023"]
 japanese = "仕事を受けたあとのセリフ<line-break><end>"
 korean = "의뢰를 받은 뒤 대사<end>"
+
+["160025"]
+japanese = "あんたなら、問題なくこなせる仕事だ。<line-break>どうだい？　頼むよ。<end>"
+korean = "당신이라면 문제없이 해낼 일이야. 어때? 부탁할게.<end>"
 
 ["160034"]
 japanese = "<value:$15>を救ってきてくれ。<line-break>一刻を争う仕事だぜ。<end>"

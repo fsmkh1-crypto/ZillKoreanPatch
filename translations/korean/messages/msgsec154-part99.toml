@@ -8,6 +8,10 @@ korean = "엘파스 볼륨5 시작<end>"
 japanese = "………………。<line-break>　<line-break>　<line-break>美しいな…、<line-break>世界は…。<end>"
 korean = "………………. 아름답구나…, 세계는….<end>"
 
+["1540004"]
+japanese = "フフ、でもね、それは裏切りだよ？<line-break>君の姉さんに対する…。<end>"
+korean = "후후, 하지만 그건 배신이야? 네 누나에 대한….<end>"
+
 ["1540007"]
 japanese = "…姉さんは死を望んでいた。<end>"
 korean = "…누나는 죽음을 바라고 있었어.<end>"
@@ -204,9 +208,17 @@ korean = "이해해 달라고는 하지 않겠다. 하지만 <value:$28>를 절�
 japanese = "ふーん。まあいいさ。<line-break>僕は願いをかなえるけど<line-break>強制はしない。<line-break>君の代わりを探すことにするよ。<line-break>さようなら、エルファス。<end>"
 korean = "흐음. 뭐, 좋아. 나는 소원은 이루어 주지만 강요하진 않아. 네 대신을 찾지. 잘 가, 엘파스.<end>"
 
+["1540094"]
+japanese = "やめるんだ、シャリ。<line-break>できれば、お前を討ちたくはない…。<end>"
+korean = "그만둬, 샤리. 가능하면 너를 쓰러뜨리고 싶지는 않아….<end>"
+
 ["1540098"]
 japanese = "そして、彼女を闇に突き落とした<line-break>最大の功労者は君だよ。<line-break><value:$28>。アハハハ。<end>"
 korean = "그리고 그녀를 어둠으로 밀어 넣은 가장 큰 공로자는 너야, <value:$28>. 아하하하.<end>"
+
+["1540100"]
+japanese = "ウフフ…アハハ！　すごい！<line-break>予想以上だね、バロルの力は！<end>"
+korean = "우후후… 아하하! 대단해! 예상 이상이야, 바로르의 힘은!<end>"
 
 ["1540101"]
 japanese = "ネ、ネメア…。<line-break>生きていたの…。<line-break> <line-break>ふふふ…でも、同じ事。<line-break>魔王バロルよ、<line-break>闇の者、ネメアを消し去りたまえ！<end>"
@@ -232,6 +244,10 @@ korean = "하지만, 그렇게는… 안 돼!<end>"
 japanese = "そんなこと知るもんか。<end>"
 korean = "그런 걸 내가 알 게 뭐야.<end>"
 
+["1540114"]
+japanese = "やめるんだ、シャリ。<line-break>できれば、お前を討ちたくはない…。<end>"
+korean = "그만둬, 샤리. 가능하면 너를 쓰러뜨리고 싶지는 않아….<end>"
+
 ["1540115"]
 japanese = "ウフフ…。<end>"
 korean = "우후후….<end>"
@@ -247,6 +263,10 @@ korean = "조폴 영감, 부탁할게.<end>"
 ["1540121"]
 japanese = "ありがとう、<value:$28>。<line-break>彼女を闇に突き落とした<line-break>最大の功労者は君だよ。アハハハ！<end>"
 korean = "고마워, <value:$28>. 그녀를 어둠에 빠뜨린 최대 공로자는 너야. 아하하하!<end>"
+
+["1540123"]
+japanese = "ウフフ…アハハ！　すごい！<line-break>予想以上だね、バロルの力は！<end>"
+korean = "우후후… 아하하! 대단해! 예상 이상이야, 바로르의 힘은!<end>"
 
 ["1540124"]
 japanese = "あら、ネメア…。<line-break>破壊神の門たる<line-break>偽りの勇者様。<line-break>あなたに彼らと一緒にいる<line-break>資格はないわ。<line-break>神よ、汚らわしきネメアを消せ！<end>"

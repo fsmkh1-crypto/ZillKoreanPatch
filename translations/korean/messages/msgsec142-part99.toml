@@ -128,6 +128,10 @@ korean = "여어, 너구나.<end>"
 japanese = "姉さんはネメアの手に抱かれ<line-break>僕の前から消えた。<line-break>　<line-break>…僕は姉さんを守れなかった。<end>"
 korean = "누나는 네메아의 품에 안겨 내 앞에서 사라졌어. …나는 누나를 지키지 못했어.<end>"
 
+["1420059"]
+japanese = "その後、姉さんがどうなったか、　<line-break>だって？<line-break>　<line-break>知らないのか？<line-break>絶世の美女イズは、<line-break>皇帝エリュマルクに殺されたんだ。<end>"
+korean = "그 뒤에 누나가 어떻게 됐냐고? 몰라? 절세의 미녀 이즈는 황제 엘류마르크에게 살해당했어.<end>"
+
 ["1420061"]
 japanese = "フフ、予備メッセージだ。<line-break>ノエル２／Ｖ４、その１。<end>"
 korean = "후후, 예비 메시지다. 노엘2/V4, 그 1.<end>"
@@ -1548,6 +1552,10 @@ korean = "영원의 끝을 찾아 헤매는 썩지 않는 시체. 네 증오도 
 japanese = "こ、これはウルグ様の力…。<line-break> <line-break> <line-break>お前は一体！<line-break>まあ…よい。<line-break>お前こそ我が求めていた存在。<end>"
 korean = "이, 이건 울그 님의 힘…. 너는 대체! 뭐… 됐다. 네가 바로 내가 찾던 존재다.<end>"
 
+["1420544"]
+japanese = "さあ、その力で我を撃て。<line-break> <line-break> <line-break>闇の中の闇。<line-break>ウルグ様の力であれば我も<line-break>眠ることができよう。<end>"
+korean = "자, 그 힘으로 나를 쏴라. 어둠 속의 어둠. 우르그 님의 힘이라면 나도 잠들 수 있겠지.<end>"
+
 ["1420545"]
 japanese = "さらばだ…アスティアの子よ。<line-break>礼を言うぞ。<end>"
 korean = "잘 있어라… 아스티아의 아이여. 감사한다.<end>"
@@ -1719,6 +1727,10 @@ korean = "쉿, 누가 올 것 같아!<end>"
 ["1420614"]
 japanese = "こないわ。<end>"
 korean = "안 오네.<end>"
+
+["1420616"]
+japanese = "ちょっと！<line-break>大きな声出すんじゃないわよ、<line-break>馬の尻尾女！<line-break>それで<value:$28>が<line-break>気付いたらどうするのよ！<end>"
+korean = "잠깐! 큰 소리 내지 마, 말꼬리 여자! 그러다 <value:$28>이 눈치채면 어떡할 거야!<end>"
 
 ["1420618"]
 japanese = "フェティだよぉ。<end>"

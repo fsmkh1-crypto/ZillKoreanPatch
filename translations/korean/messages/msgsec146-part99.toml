@@ -36,9 +36,17 @@ korean = "그렇게 되면 좋겠네<end>"
 japanese = "その日まで、<line-break>僕はあきらめないから。<end>"
 korean = "그날까지 난 포기하지 않을 거야.<end>"
 
+["1460013"]
+japanese = "ありがと。　　　　　　　　　　　<line-break>　<line-break>　<line-break>僕の話を聞くと、みんな笑うんだ。<line-break>でも、君は違うね。<line-break>君はみんなと違うよ。<end>"
+korean = "고마워. 내 이야기를 들으면 다들 웃어. 하지만 넌 다르네. 넌 다른 사람들과 달라.<end>"
+
 ["1460014"]
 japanese = "兄さんのおかげで、<line-break>僕はこうして考古学に熱中できる。<line-break>感謝してるよ。<line-break>でもね、兄さんが僕を好きなように<line-break>させておくのは…<end>"
 korean = "형 덕분에 나는 이렇게 고고학에 몰두할 수 있어. 감사하고 있어. 하지만 형이 날 마음대로 하게 두는 건….<end>"
+
+["1460017"]
+japanese = "わかってないんだ。<line-break>魔道文明を人類が手にすれば…<line-break>　<line-break>兄さんを悩ます<line-break>王宮のゴタゴタなんて<line-break>いっぺんに解決するのに。<end>"
+korean = "모르는구나. 마도 문명을 인류가 손에 넣으면… 형을 괴롭히는 왕궁의 난리 따윈 단숨에 해결될 텐데.<end>"
 
 ["1460020"]
 japanese = "それは勝手な言い分だ<end>"
@@ -123,6 +131,10 @@ korean = "그럼, 또 봐.<end>"
 ["1460059"]
 japanese = "そうだよね。<line-break>兄さんなら、大丈夫だよね。<end>"
 korean = "그렇지. 오빠라면 괜찮을 거야.<end>"
+
+["1460060"]
+japanese = "じゃあ、僕は、一度戻って、<line-break>中を調べる準備をしてくるよ。<end>"
+korean = "그럼 난 한번 돌아가서 안을 조사할 준비를 해 올게.<end>"
 
 ["1460061"]
 japanese = "予備メッセージ<line-break>エストＶ１～Ｖ７　その８<end>"

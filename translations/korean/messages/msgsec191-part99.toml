@@ -36,6 +36,10 @@ korean = "…그렇군요. 다행이에요. 저, <value:$28>님께 드시게 하
 japanese = "ですから、そのときは<line-break>なるべく食べにいらしてください。<end>"
 korean = "그러니 그때는 되도록 먹으러 와 주세요.<end>"
 
+["1910013"]
+japanese = "私の不安も…<line-break>消えることはありません。　　<line-break>　<line-break>あの深い闇の中に<line-break>また吸い込まれてしまうのでは<line-break>ないかという不安が…。<end>"
+korean = "제 불안도… 사라지지 않습니다. 저 깊은 어둠 속으로 다시 빨려 들어가는 건 아닐까 하는 불안이….<end>"
+
 ["1910014"]
 japanese = "自分がついていると言う<end>"
 korean = "자신이 함께하겠다고 말한다<end>"
@@ -151,6 +155,10 @@ korean = "후후후, 역시 대단하군. 네메아, <value:$28>.<end>"
 ["1910072"]
 japanese = "エルファス、お前も望むのか？<line-break>世界の破滅を。<end>"
 korean = "엘파스, 너도 바라는 건가? 세계의 파멸을.<end>"
+
+["1910073"]
+japanese = "当たり前だよ、ネメア。<line-break>姉さんのいない世界に何の価値がある？<line-break>　<line-break>愛するもののほほえみのない世界など<line-break>存在する意味はない。<end>"
+korean = "당연하지, 네메아. 누나가 없는 세상에 무슨 가치가 있어? 사랑하는 사람의 미소가 없는 세상 따윈 존재할 의미가 없어.<end>"
 
 ["1910074"]
 japanese = "すべてを無に。<line-break>そして、再生を。<end>"

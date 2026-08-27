@@ -16,6 +16,10 @@ korean = "노인을 돕는다<end>"
 japanese = "無視する<end>"
 korean = "무시한다<end>"
 
+["1100005"]
+japanese = "貴様！　本官に逆らうか！<line-break>殺してもかまわん！　排除しろ！<end>"
+korean = "네놈! 본관에게 거역하겠다는 거냐! 죽여도 상관없다! 제거해라!<end>"
+
 ["1100007"]
 japanese = "気がついたか？<end>"
 korean = "정신이 들었나?<end>"
@@ -23,6 +27,10 @@ korean = "정신이 들었나?<end>"
 ["1100011"]
 japanese = "ついてくるがいい。<end>"
 korean = "따라오도록 해.<end>"
+
+["1100014"]
+japanese = "探求心がお前を駆り立てるなら、<line-break>また、ここに来るがよい。<end>"
+korean = "탐구심이 너를 재촉한다면 다시 이곳에 오너라.<end>"
 
 ["1100036"]
 japanese = "人はきれいに生きようとする。<line-break>悲しいほどにきれいにな。<line-break>　<line-break>そうすると人を許せなくなる。<line-break>滑稽なほどに。<line-break>無責任なほどにな。<end>"
@@ -87,6 +95,10 @@ korean = "지금 갈게.<end>"
 ["1100063"]
 japanese = "ごめんなさい、失礼するわ。<end>"
 korean = "미안해, 실례할게.<end>"
+
+["1100069"]
+japanese = "ま、ザギヴという娘は、その後、<line-break>魔道アカデミーを主席で卒業。<line-break>そして、官僚になったそうじゃ。<line-break>かなり有能で<line-break>将来有望らしいぞ。<end>"
+korean = "뭐, 자기브라는 아가씨는 그 뒤 마도 아카데미를 수석 졸업하고 관료가 되었다더군. 상당히 유능해서 장래가 촉망된다는군.<end>"
 
 ["1100073"]
 japanese = "<value:$28>、か。<line-break>また会おうぞ、<value:$28>。<end>"

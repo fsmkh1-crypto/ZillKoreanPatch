@@ -192,6 +192,10 @@ korean = "응? 왜, 아이린?<end>"
 japanese = "今回の戦い、私に指揮を<line-break>とらせてください。<end>"
 korean = "이번 싸움은 제가 지휘하게 해 주세요.<end>"
 
+["1800102"]
+japanese = "…あたしには、自分の祖国を<line-break>踏みにじらせたくないのかな？<end>"
+korean = "…난 내 조국이 짓밟히는 걸 원하지 않는 걸까?<end>"
+
 ["1800105"]
 japanese = "ずっと考えていました。<line-break>…なぜ騎士になりたかったのか。<end>"
 korean = "계속 생각하고 있었습니다. …왜 기사가 되고 싶었던 건지.<end>"
@@ -251,6 +255,10 @@ korean = "카를라님….<end>"
 ["1800127"]
 japanese = "今は、兵の命が大事よ。<end>"
 korean = "지금은 병사들의 목숨이 중요해.<end>"
+
+["1800129"]
+japanese = "アイリーンの敗北はあたしの敗北よ。<line-break>それに、次は勝つわ。<end>"
+korean = "아이린의 패배는 내 패배야. 그리고 다음엔 이길 거야.<end>"
 
 ["1800132"]
 japanese = "いたぞ！<line-break>カルラだ！！<end>"
@@ -344,9 +352,17 @@ korean = "네메아를 쫓지 않는다<end>"
 japanese = "貴様らか？　破壊神を<line-break>復活させようとしている者は？<end>"
 korean = "네놈들인가? 파괴신을 부활시키려는 자들이?<end>"
 
+["1800164"]
+japanese = "俺たちじゃないさ。<line-break>運命だよ。<line-break>わかってるんだろ？<end>"
+korean = "우리가 아니야. 운명이지. 알고 있잖아?<end>"
+
 ["1800168"]
 japanese = "そこから離れろ！<line-break><value:$28>！！<end>"
 korean = "거기서 떨어져! <value:$28>!!<end>"
+
+["1800169"]
+japanese = "いやいや、さすがだよネメア。<line-break>やはり助けたか…、くくく。<end>"
+korean = "아니, 역시 네메아답군. 역시 구해냈나… 크크크.<end>"
 
 ["1800172"]
 japanese = "それだけじゃない。<line-break>これでネメアは、より闇に近づいた。<line-break>復活がたやすくなったよ。<line-break>まったく、いいことづくめだね。<end>"

@@ -52,6 +52,10 @@ korean = "스위치계 함정<end>"
 japanese = "魔法の宝箱<end>"
 korean = "마법의 보물상자<end>"
 
+["1070015"]
+japanese = "華麗な手さばきで解除したため<line-break>ＤＥＸが<value:$1A>上がった。<end>"
+korean = "화려한 솜씨로 해제해서 DEX가 <value:$1A> 올랐다.<end>"
+
 ["1070016"]
 japanese = "<value:$1A>ギアを手に入れた。<end>"
 korean = "<value:$1A>기어를 손에 넣었다.<end>"
@@ -171,6 +175,10 @@ korean = "………………. 무리야….<end>"
 ["1070069"]
 japanese = "くっ！　<line-break>この私に解除できない罠があるとは…。<end>"
 korean = "큭! 이 내가 해제하지 못하는 함정이 있다니….<end>"
+
+["1070071"]
+japanese = "ごめんね。お兄ちゃん。<line-break>難しすぎて私には解除できないよ。<end>"
+korean = "미안해, 오빠. 너무 어려워서 난 해제할 수 없어.<end>"
 
 ["1070076"]
 japanese = "私ではこの罠を<line-break>解除できそうにありません。<end>"

@@ -164,6 +164,10 @@ korean = "우선 레몬 님인데요, 모습이 보이지 않습니다.<end>"
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
 
+["1780079"]
+japanese = "シャリです。<line-break>ゼネテス様の出陣のあとも、<line-break>王宮でその姿を見た者がいますが、<line-break>私たちもそれ以上のことは、<line-break>わかっていません。<end>"
+korean = "샤리입니다. 제네테스 님이 출진한 뒤에도 왕궁에서 그 모습을 본 사람이 있지만, 저희도 그 이상은 알지 못합니다.<end>"
+
 ["1780080"]
 japanese = "<value:$28>、何か知らないの？<line-break>今回の件の人たちとは、<line-break>少なからず関わりがあるでしょう？<end>"
 korean = "<value:$28>, 뭔가 아는 거 없어? 이번 일에 관련된 사람들과 적지 않게 얽혀 있잖아?<end>"

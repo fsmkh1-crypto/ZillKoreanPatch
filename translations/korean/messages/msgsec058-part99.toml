@@ -76,6 +76,10 @@ korean = "모험자를 하다 보면 가끔 터무니없는 물건과 마주칠 
 japanese = "急いで、しかし動作はゆっくりと<line-break>ここを出るのじゃ。<line-break><value:$28>。<end>"
 korean = "서두르되 움직임은 천천히, 여길 빠져나가자. <value:$28>.<end>"
 
+["580079"]
+japanese = "ここで会うたも何かの縁じゃ。<line-break>ひとつ名を教えてくれんか。<end>"
+korean = "여기서 만난 것도 인연이지. 이름 하나 알려 주지 않겠나.<end>"
+
 ["580081"]
 japanese = "それではな、<value:$28>。<line-break>また会おうぞ。<end>"
 korean = "그럼 잘 있어라, <value:$28>. 또 만나자.<end>"

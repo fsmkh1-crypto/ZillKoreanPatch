@@ -232,6 +232,10 @@ korean = "결판을 내자.<end>"
 japanese = "そうですか、<line-break>この大陸を出ていくのですか。<end>"
 korean = "그렇군요. 이 대륙을 떠나시는 겁니까.<end>"
 
+["1930100"]
+japanese = "人間は簡単に<line-break>他人を祭りあげたりするからな。<line-break>　<line-break>これからの変革によって、<line-break>今まで持っていた力を<line-break>脅かされた連中が、<end>"
+korean = "인간은 쉽게 남을 떠받들곤 하니까. 앞으로의 변혁으로 지금까지 가진 힘을 위협받은 녀석들이,<end>"
+
 ["1930101"]
 japanese = "<value:$28>の<line-break>名前を利用して反対勢力を作る<line-break>…あり得る話だ。<end>"
 korean = "<value:$28>의 이름을 이용해 반대 세력을 만든다… 충분히 있을 법한 이야기다.<end>"

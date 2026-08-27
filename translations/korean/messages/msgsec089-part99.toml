@@ -320,6 +320,10 @@ korean = "후후, 노래를 잘하네. 게다가 배우는 것도 빨라.<end>"
 japanese = "おう！　<value:$28><line-break>手紙が届いているぜ。<end>"
 korean = "오! <value:$28>, 편지가 왔어.<end>"
 
+["890148"]
+japanese = "　　　<value:$28>殿<line-break>　　依頼いたしたき件あり。<line-break>　　至急、エンシャント政庁まで<line-break>　　お越しくださるよう。<line-break>　　　ザギヴ・ディンガル<end>"
+korean = "<value:$28> 님. 의뢰드릴 일이 있습니다. 급히 엔션트 정청으로 와 주십시오. 자기브 딘갈<end>"
+
 ["890149"]
 japanese = "おう！　<value:$28><line-break>手紙が届いているぜ。<end>"
 korean = "오! <value:$28>, 편지가 왔어.<end>"

@@ -144,6 +144,10 @@ korean = "대왕오징어를 퇴치할 마음이 생기면 이 앞의 요새로 
 japanese = "おかしら、<line-break>こいつ、どうします？<end>"
 korean = "두목, 이 녀석 어떻게 할까요?<end>"
 
+["1430062"]
+japanese = "残念ね。<line-break>少しは期待してたんだけど…。<line-break>　<line-break>あんたらに勝てないようじゃ、<line-break>話にならないね。<line-break>森の入り口に捨ててきな。<end>"
+korean = "아쉽네. 조금은 기대했는데…. 너희한테도 못 이길 정도면 말이 안 되지. 숲 입구에 버리고 와.<end>"
+
 ["1430065"]
 japanese = "（さっきの連中は、いったい…）<end>"
 korean = "(아까 그 녀석들은 대체…)<end>"
@@ -311,6 +315,10 @@ korean = "괜찮아. 이게 내 사명이니까.<end>"
 ["1430117"]
 japanese = "ええ。待ってるわ。<line-break><value:$28>とは<line-break>いい友だちになれそうね。<end>"
 korean = "응. 기다릴게. <value:$28>와는 좋은 친구가 될 수 있을 것 같아.<end>"
+
+["1430118"]
+japanese = "せっかく来たのに、もう帰るって？<line-break>待ってる女でもいるの？<end>"
+korean = "모처럼 왔는데 벌써 돌아가겠다고? 기다리는 여자라도 있어?<end>"
 
 ["1430120"]
 japanese = "憎らしい男だね！<end>"

@@ -8,6 +8,10 @@ korean = "페름 메시지 시작<end>"
 japanese = "ありがとうございますっ！<line-break>大丈夫ですか？<end>"
 korean = "감사합니다! 괜찮으세요?<end>"
 
+["1980002"]
+japanese = "お強いんですね。感心します。<line-break>失礼ですが、お名前は…？ <end>"
+korean = "강하시군요. 감탄했습니다. 실례지만 성함은…?<end>"
+
 ["1980003"]
 japanese = "<value:$28>…さん…。<end>"
 korean = "<value:$28>… 씨….<end>"
@@ -268,6 +272,10 @@ korean = "다행이에요…. 변하지 말아 주세요. 이대로 계속, 제 
 japanese = "あっ、<value:$28>さん。<line-break>どうしたんですか、こんな夜に…。<end>"
 korean = "아, <value:$28>님. 이런 밤중에 무슨 일이세요…?<end>"
 
+["1980127"]
+japanese = "そこまで厳重に封印されたものを<line-break>探すのは難しいような気が…。<line-break>　<line-break>残念ですけど、ここはきっぱりと<line-break>あきらめて他の魔道器を…。<end>"
+korean = "그렇게 엄중히 봉인된 걸 찾는 건 어려울 것 같은데…. 아쉽지만 여기선 깔끔하게 포기하고 다른 마도기를….<end>"
+
 ["1980128"]
 japanese = "…えっ？<line-break>その封印を解く方法ですか？<line-break>　<line-break>えーと、そ、そうですね。<line-break>確か、あったことはあったと<line-break>思うんですけど…その…。<end>"
 korean = "…네? 그 봉인을 푸는 방법인가요? 음, 그, 글쎄요. 분명 있긴 했던 것 같은데… 그게….<end>"
@@ -276,9 +284,17 @@ korean = "…네? 그 봉인을 푸는 방법인가요? 음, 그, 글쎄요. 분
 japanese = "どうしても？<end>"
 korean = "꼭 그래야 해?<end>"
 
+["1980133"]
+japanese = "そ、そうですか…。<line-break>やっぱり、ここまで来たら<line-break>見つけたいですよね。<line-break>でも、そんな古い呪文なんて、<line-break>そうそう、わかるはずが…。<end>"
+korean = "그, 그런가요…. 역시 여기까지 왔으면 찾고 싶죠. 하지만 그렇게 오래된 주문 같은 건 쉽게 알 리가….<end>"
+
 ["1980134"]
 japanese = "呪文に詳しい方を<line-break>ご存じなんですか？<line-break>　<line-break>古代遺跡を調べている<line-break>考古学者のエストさん…。<end>"
 korean = "주문에 밝은 분을 아세요? 고대 유적을 조사하는 고고학자 에스트 씨….<end>"
+
+["1980139"]
+japanese = "えっ？　僕に聞きたいことがあるの？<line-break>　<line-break>　<line-break>…伝説のフライパンだって？<line-break>驚いたな…。<line-break>ちょっと、この古文書を見てよ。<end>"
+korean = "응? 나한테 물어볼 게 있어? …전설의 프라이팬이라고? 놀랍네…. 잠깐, 이 고문서를 봐.<end>"
 
 ["1980141"]
 japanese = "ほら、ここ。<line-break>このフライパンみたいな絵と、<line-break>この呪文…。<line-break>まさしく、その魔道器のことが<line-break>記されているんだよ。<end>"
@@ -515,6 +531,10 @@ korean = "지금은 그럴 때가 아니라니까…. <value:$28>님은 나를 �
 ["1980242"]
 japanese = "<value:$28>さん…。<line-break>あの人は？<end>"
 korean = "<value:$28> 씨…. 그 사람은?<end>"
+
+["1980243"]
+japanese = "じゃあ、<line-break>あきらめてくれたんですね。<line-break>よかった…。<line-break><value:$28>さんのお陰です。<line-break>ありがとうございます。<end>"
+korean = "그럼 포기해 주신 거네요. 다행이다…. <value:$28> 씨 덕분이에요. 감사합니다.<end>"
 
 ["1980244"]
 japanese = "<value:$28>さん！<line-break>大丈夫ですか！？<end>"

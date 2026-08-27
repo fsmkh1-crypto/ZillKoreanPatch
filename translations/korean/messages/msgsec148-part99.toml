@@ -176,6 +176,10 @@ korean = "잊지 않도록 기억해 둬야겠어.<end>"
 japanese = "あ、<value:$28>。<line-break>もう、行っちゃうの？<end>"
 korean = "아, <value:$28>. 벌써 가는 거야?<end>"
 
+["1480084"]
+japanese = "じゃあ、オルファウスさんに<line-break>ちゃんとお礼を言ってからね。<end>"
+korean = "그럼 오르파우스 씨에게 제대로 감사 인사를 한 다음에.<end>"
+
 ["1480085"]
 japanese = "オルファウスさん。<line-break>本当にお世話になりましたぁ。<end>"
 korean = "오르파우스 씨, 정말 신세 많이 졌어요.<end>"
@@ -271,6 +275,10 @@ korean = "마음이 내키면 간다<end>"
 ["1480138"]
 japanese = "<value:$28>、<line-break>ゼネテスの言ってたこと、<line-break>本当になっちゃったね。<end>"
 korean = "<value:$28>, 제네테스가 한 말이 정말 현실이 됐네.<end>"
+
+["1480145"]
+japanese = "ん？　なんだ、お前は？<line-break>お城に何か用があるのか？　　　　<end>"
+korean = "응? 뭐냐, 너는? 성에 무슨 볼일이라도 있나?<end>"
 
 ["1480151"]
 japanese = "わざわざ、すまなかったな。<line-break>そなたの元気な姿を見ることができて<line-break>安心した。<line-break>さがってよい。<line-break>フリントの子<value:$28>よ。<end>"

@@ -144,6 +144,10 @@ korean = "그자가 그렇게 비열한 인물인 줄 알아보지 못한 내 �
 japanese = "…まさか、<value:$28>様？<end>"
 korean = "…설마, <value:$28> 님?<end>"
 
+["1060116"]
+japanese = "君が裏切り者だったのか。<line-break>悲しいよ、なぜそんなことを…！<end>"
+korean = "네가 배신자였나. 슬프군, 왜 그런 짓을…!<end>"
+
 ["1060117"]
 japanese = "<value:$28>様、<line-break>どうして…！<end>"
 korean = "<value:$28> 님, 어째서…!<end>"

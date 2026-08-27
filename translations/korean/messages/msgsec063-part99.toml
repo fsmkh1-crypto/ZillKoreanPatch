@@ -16,6 +16,10 @@ korean = "오, <value:$28>인가.<end>"
 japanese = "困ったことになったよ。<line-break>あの張り紙なんだが…。<end>"
 korean = "곤란하게 됐어. 그 벽보 말인데….<end>"
 
+["630005"]
+japanese = "ほうしゅう：３ぎあ<line-break>　　　　　　スラムのハンナ<line-break>　<end>"
+korean = "보수: 3기아 슬럼의 한나<end>"
+
 ["630008"]
 japanese = "そこの人！<end>"
 korean = "거기 당신!<end>"
@@ -740,6 +744,10 @@ korean = "별고 없으신지요,티아나 님.<end>"
 japanese = "ほう、とてもそうは見えないが。<end>"
 korean = "호오, 전혀 그렇게 보이지 않는데.<end>"
 
+["630278"]
+japanese = "ほぅ、ウェディングドレスの<line-break>仮縫いでも始まるのか？　　　<end>"
+korean = "호오, 웨딩드레스 가봉이라도 시작하는 건가?<end>"
+
 ["630279"]
 japanese = "また、そのお話？<line-break>レムオン様でも怒りますよ。<end>"
 korean = "또 그 이야기인가요? 레몬 님이라도 화내실 거예요.<end>"
@@ -851,6 +859,10 @@ korean = "약혼자가 들으면 화내지 않을까?<end>"
 ["630327"]
 japanese = "やれやれ、エリスも哀れだな。　<end>"
 korean = "이런, 에리스도 불쌍하군.<end>"
+
+["630328"]
+japanese = "ファーロス家発展のために<line-break>知略の限りを尽くしたところが、<end>"
+korean = "파로스 가문의 발전을 위해 온갖 지략을 다 짜낸 결과가,<end>"
 
 ["630329"]
 japanese = "娘のわがままのせいで<line-break>その綿密な計画も水の泡か。<end>"

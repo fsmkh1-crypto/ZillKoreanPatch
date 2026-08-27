@@ -4,6 +4,10 @@
 japanese = "ジリオン＆イーシャイベント08用開始<end>"
 korean = "질리온&이샤 이벤트08용 시작<end>"
 
+["2670001"]
+japanese = "同化の髪飾りはあげるわ。<line-break>だからジリオンをもとに戻して！<end>"
+korean = "동화의 머리장식은 줄게. 그러니까 지리온을 원래대로 돌려놔!<end>"
+
 ["2670003"]
 japanese = "<value:$28>…。なぜ、ここに？<end>"
 korean = "<value:$28>…. 왜 여기에?<end>"
@@ -23,6 +27,10 @@ korean = "이샤를 희생시킨다<end>"
 ["2670014"]
 japanese = "ジリオン！<end>"
 korean = "지리온!<end>"
+
+["2670015"]
+japanese = "イーシャ…。イーシャなのか？<line-break>俺はいったい、どうして…？<end>"
+korean = "이샤…. 이샤인 거야? 나는 대체, 왜…?<end>"
 
 ["2670018"]
 japanese = "わかってるわ、<value:$28>…。<line-break>あなたにはもっと大事な役割が<line-break>残っているんだから。<line-break>あなたと一緒に旅ができてよかった。<line-break>さようなら…。<end>"

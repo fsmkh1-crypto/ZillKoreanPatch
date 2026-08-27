@@ -148,6 +148,10 @@ korean = "그렇습니까.<end>"
 japanese = "ま、こんな感じですかね。<line-break>わかっていただけましたか？<end>"
 korean = "뭐, 이런 느낌입니다. 이해하셨나요?<end>"
 
+["570075"]
+japanese = "その俺がここにいる。<line-break>これはどういうことだって思う？　　<end>"
+korean = "그런 내가 여기 있어. 이게 무슨 뜻이라고 생각해?<end>"
+
 ["570076"]
 japanese = "お前さんが<line-break>運命に選ばれた人間だってことさ。　　<end>"
 korean = "자네가 운명에 선택받은 인간이라는 뜻이지.<end>"
@@ -247,6 +251,10 @@ korean = "용사님, 마왕이 나타났습니다.<end>"
 ["570122"]
 japanese = "オヤジ、今のは、なしだ。<line-break>でやっ！！<end>"
 korean = "아저씨, 방금 건 없던 걸로 해. 이야앗!!<end>"
+
+["570123"]
+japanese = "あれあれ、忘れ物だ。<line-break>弓なんか置いて行かれても困るなあ。<end>"
+korean = "어라, 두고 간 물건이네. 활 같은 걸 두고 가도 곤란한데.<end>"
 
 ["570124"]
 japanese = "あー、<value:$28>だ。<line-break>お酒なんか飲んじゃダメだよお。<line-break>　<line-break>ゼネテスさんみたいな<line-break>飲兵衛になっちゃうから。<end>"

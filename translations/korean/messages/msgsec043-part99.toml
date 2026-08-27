@@ -80,6 +80,10 @@ korean = "마, 말도 안 됩니다! 주민들이 날뛰어서 어쩔 수 없이
 japanese = "ふん…。　　　　　　　　　　　　　<end>"
 korean = "흥….<end>"
 
+["430025"]
+japanese = "エリスの手下フリントと<line-break>何か示し合わせるのも代官の責務か？<end>"
+korean = "엘리스의 부하 플린트와 무언가 짜고 움직이는 것도 대관의 책무인가?<end>"
+
 ["430026"]
 japanese = "あ…、あ…いえ！<line-break>お、お助けを！<end>"
 korean = "아… 아… 아니! 도, 도와줘!<end>"
@@ -120,6 +124,10 @@ korean = "형은?<end>"
 japanese = "言っておくが<line-break>お前に断る自由はない。　　<line-break>　<line-break>まだ仕事は終わっていない。<line-break>無事、王都に着くまでは、<line-break>金も払えん。<end>"
 korean = "말해 두지만 네게 거절할 자유는 없어. 아직 일은 끝나지 않았다. 무사히 왕도에 도착하기 전까진 돈도 줄 수 없어.<end>"
 
+["430038"]
+japanese = "夜明け前にここを発つ。　　<line-break>しばらく休むのだな。<line-break>　<end>"
+korean = "동트기 전에 이곳을 떠난다. 잠시 쉬어 두도록.<end>"
+
 ["430039"]
 japanese = "ごめん、眠ってた？<line-break>君に謝ろうと思って…。　　　　　　　<line-break>　<line-break>僕はこの土地の領主リューガ家の<line-break>人間なんだ。<end>"
 korean = "미안, 자고 있었어? 사과하려고…. 나는 이 땅의 영주인 류가 가문의 사람이야.<end>"
@@ -147,6 +155,10 @@ korean = "기다리고 있었습니다, 에리에나이 공.<end>"
 ["430050"]
 japanese = "そなたの領地で物騒な事件が<line-break>あったときくが？<end>"
 korean = "그대 영지에서 흉흉한 사건이 있었다고 들었는데?<end>"
+
+["430051"]
+japanese = "さすがにお耳が早い。<line-break>ノーブルの代官ボルボラが死にました。<end>"
+korean = "역시 소식이 빠르군. 노블의 대관 볼보라가 죽었습니다.<end>"
 
 ["430052"]
 japanese = "ほう？<end>"
@@ -215,6 +227,10 @@ korean = "기사의 증표인 방패다. 받아라.<end>"
 ["430082"]
 japanese = "迅速なご処置、心より感謝いたします。<end>"
 korean = "신속한 조치에 진심으로 감사드립니다.<end>"
+
+["430083"]
+japanese = "リューガ家は、陛下に<line-break>以後、いっそうの忠誠を誓いましょう。<end>"
+korean = "류가 가문은 앞으로 폐하께 더욱 충성을 맹세하겠습니다.<end>"
 
 ["430084"]
 japanese = "…ふん、ぬけぬけと。<end>"
@@ -511,6 +527,10 @@ korean = "재미있었어<end>"
 ["430203"]
 japanese = "そう…。残念だな。<end>"
 korean = "그래…. 유감이군.<end>"
+
+["430204"]
+japanese = "でも、闇の神器を知ってるなんて…<line-break>君の名前を聞いてもいい？<end>"
+korean = "그런데 어둠의 신기를 알고 있다니… 네 이름을 물어봐도 될까?<end>"
 
 ["430205"]
 japanese = "<value:$28>だね？<line-break>それじゃ、また会えるといいね、<line-break><value:$28>。<end>"

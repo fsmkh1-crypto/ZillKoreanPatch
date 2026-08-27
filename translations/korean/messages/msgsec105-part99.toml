@@ -100,6 +100,10 @@ korean = "호호호호. 그렇군요오.<end>"
 japanese = "そ、それは…。<end>"
 korean = "그, 그건….<end>"
 
+["1050045"]
+japanese = "あの中には、父の形見もあります。<line-break>全部というわけには…。<end>"
+korean = "그 안에는 아버지의 유품도 있습니다. 전부는 좀….<end>"
+
 ["1050046"]
 japanese = "ぜんぶ、ぜんぶ。<end>"
 korean = "전부, 전부.<end>"
@@ -107,6 +111,10 @@ korean = "전부, 전부.<end>"
 ["1050047"]
 japanese = "全部だそうです。<end>"
 korean = "전부라고 합니다.<end>"
+
+["1050049"]
+japanese = "その代わり、<line-break>形見の分はまけろと<line-break>言うわけですな？<end>"
+korean = "그 대신 유품 몫만큼은 깎아 달라는 말씀이군요?<end>"
 
 ["1050050"]
 japanese = "<value:$28>…。<line-break>あなた…。<end>"
@@ -147,6 +155,10 @@ korean = "하지만 해방군의 수괴로 지목된 크류세이스 크로이�
 ["1050069"]
 japanese = "<value:$28>。<line-break>あなたがいてくれるのなら、<line-break>我々はまだ戦える。<end>"
 korean = "<value:$28>. 네가 있어 준다면, 우리는 아직 싸울 수 있다.<end>"
+
+["1050071"]
+japanese = "頼りにしています。　　　　　　　<line-break>　<line-break>　<line-break>わたくしには…<line-break>いえ、わたくしたち解放軍には<line-break>あなたのような人が必要なのです。<end>"
+korean = "믿고 있습니다. 저에겐… 아니, 저희 해방군에겐 당신 같은 사람이 필요합니다.<end>"
 
 ["1050073"]
 japanese = "あ、<value:$28>。<end>"
@@ -199,6 +211,10 @@ korean = "좋은 아침, 짐 도둑 씨. 기분은 어때?<end>"
 ["1050092"]
 japanese = "このリベルダムではお金で<line-break>買えないものはないのよ。<end>"
 korean = "이 리벨덤에서는 돈으로 살 수 없는 건 없어.<end>"
+
+["1050093"]
+japanese = "待ちなさい。わたくしが<line-break>お金を払ったって言ったでしょう？<end>"
+korean = "기다리세요. 제가 돈을 냈다고 했잖아요?<end>"
 
 ["1050097"]
 japanese = "フヒュヒュ。<line-break>クリュセイスお嬢様。<line-break>こちらに。<end>"

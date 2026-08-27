@@ -24,6 +24,10 @@ korean = "상관없어. 지금 여기서 해치워! 내버려 두면 이놈은 �
 japanese = "ふざけんな。<line-break>ダークエルフをかばう気か、てめえ！<end>"
 korean = "웃기지 마. 다크엘프를 감싸겠다는 거냐, 이 자식아!<end>"
 
+["2060007"]
+japanese = "説得しようとしたってムダよ、<line-break><value:$28>。<line-break>　<line-break>こいつらは矢で口をふさがないかぎり<line-break>引き下がらないわ。<end>"
+korean = "설득해 봐야 소용없어, <value:$28>. 이 녀석들은 화살로 입을 막지 않는 한 물러서지 않을 거야.<end>"
+
 ["2060009"]
 japanese = "なんだと、貴様。ふざけるな！<end>"
 korean = "뭐라고, 네놈. 장난치지 마!<end>"

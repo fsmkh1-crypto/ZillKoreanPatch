@@ -4,6 +4,10 @@
 japanese = "異種族間の４用開始<end>"
 korean = "이종족 간 4용 시작<end>"
 
+["2100001"]
+japanese = "恩に着るぜ、<value:$28>。<line-break>あんたのことだ。<line-break>ペンダントは渡してきてくれたんだろ？<line-break>さあ、一杯おごらせてくれ。<end>"
+korean = "신세 졌다, <value:$28>. 너라면 펜던트는 전해 줬겠지? 자, 한잔 사게 해 줘.<end>"
+
 ["2100002"]
 japanese = "えっ、あのエルフが俺を呼んでいる？<end>"
 korean = "뭐, 그 엘프가 나를 부른다고?<end>"
@@ -15,6 +19,10 @@ korean = "흐음, 그 애 이름이 피아인가….<end>"
 ["2100005"]
 japanese = "いやいや、違うよ。<line-break>会いたくないわけじゃないんだ。<end>"
 korean = "아니야, 아니야. 만나기 싫다는 뜻은 아니야.<end>"
+
+["2100006"]
+japanese = "ただ、その…なんて言うか…。<line-break>あまり慣れていないんだよ…。<line-break>女の子と話すのは…。<line-break>それもエルフの女性となると<line-break>なおさら、な。<end>"
+korean = "다만, 그게… 뭐랄까…. 별로 익숙하지 않거든…. 여자애랑 이야기하는 건…. 게다가 엘프 여성이라면 더더욱.<end>"
 
 ["2100007"]
 japanese = "なあ、頼む。<line-break>できれば<value:$28>も<line-break>一緒に来てくれないか？<end>"

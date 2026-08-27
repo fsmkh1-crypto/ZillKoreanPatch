@@ -40,6 +40,10 @@ korean = "그런 사정이니까 이 아이를 부탁해.<end>"
 japanese = "さ、行こ、<value:$28>。<end>"
 korean = "자, 가자, <value:$28>.<end>"
 
+["2210014"]
+japanese = "すみません。私に訊かれても…。<line-break>　<line-break>　<line-break>………………。<line-break>　<line-break>　<line-break>ひとまず、あやしてみては<line-break>どうでしょうか？<end>"
+korean = "죄송합니다. 저한테 물으셔도…. ………………. 우선 달래 보는 건 어떨까요?<end>"
+
 ["2210015"]
 japanese = "あやすとは、どういうことを<line-break>すればよいのですか？<end>"
 korean = "달랜다는 건 뭘 하면 되는 겁니까?<end>"

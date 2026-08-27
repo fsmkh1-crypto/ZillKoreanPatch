@@ -328,9 +328,17 @@ korean = "예전에는 모험자라기보다 떠돌이 상인 같은 느낌이�
 japanese = "ティアナの目は確かですわ。<end>"
 korean = "티아나의 안목은 확실해요.<end>"
 
+["640138"]
+japanese = "以前は、冒険者と言うより<line-break>農家の娘さんという感じでした。<end>"
+korean = "예전에는 모험자라기보다 농가의 딸 같은 느낌이었어요.<end>"
+
 ["640139"]
 japanese = "ティアナの目は確かですわ。<end>"
 korean = "티아나의 안목은 확실해요.<end>"
+
+["640140"]
+japanese = "以前は、冒険者と言うより<line-break>宿屋の娘さんという感じでした。<end>"
+korean = "예전에는 모험자라기보다 여관집 딸 같은 느낌이었어요.<end>"
 
 ["640141"]
 japanese = "ティアナの目は確かですわ。<end>"
@@ -431,6 +439,10 @@ korean = "아쉽네요. 다음에 또 와 주세요.<end>"
 ["640169"]
 japanese = "<value:$28>様は、レムオン様と<line-break>似ていらっしゃらないのですね。　　<end>"
 korean = "<value:$28>님은 레몬 님과 닮지 않으셨군요.<end>"
+
+["640171"]
+japanese = "<value:$28>様。<line-break>…今日はおひとりですのね。　　　<line-break>安心しました。<line-break>いえ、お酒とバクチに明け暮れた<line-break>あの野蛮な人とご一緒かと思って。<end>"
+korean = "<value:$28> 님. …오늘은 혼자시군요. 안심했습니다. 아니, 술과 도박에 빠진 그 야만적인 사람과 함께일까 봐요.<end>"
 
 ["640172"]
 japanese = "いいのです。あの人の<line-break>肩を持つ必要はありませんわ。　　<line-break>　<line-break>だいたい<line-break>私、あの人を婚約者だなんて<line-break>認めておりません。<end>"

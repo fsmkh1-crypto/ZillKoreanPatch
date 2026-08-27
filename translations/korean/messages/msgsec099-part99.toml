@@ -244,6 +244,10 @@ korean = "<value:$28>…. <value:$28>, 이번엔 또 뭐야? 난 바쁜데 언�
 japanese = "…気をつけるのよ、<line-break><value:$28>。<end>"
 korean = "…조심해, <value:$28>.<end>"
 
+["990108"]
+japanese = "<value:$28>…。　　　　　　<line-break>　<line-break>　<line-break>…せっかくだけど、今は忙しいの。<line-break>時間があれば、手合わせぐらいなら<line-break>かまわないけれど…。<end>"
+korean = "<value:$28>…. …모처럼이지만 지금은 바빠. 시간이 있으면 대련 정도는 괜찮지만….<end>"
+
 ["990109"]
 japanese = "…もう、あなたは私抜きで<line-break>行かなければならないの。<end>"
 korean = "…이제 당신은 나 없이 가야 해.<end>"
@@ -311,6 +315,10 @@ korean = "아, 그래도 볼일 없이 또 오면 안 돼. 여긴 군대니까. 
 ["990138"]
 japanese = "<value:$28>、冒険の方はどう？<line-break>何かおもしろいことでもあった？<end>"
 korean = "<value:$28>, 모험은 어때? 뭔가 재미있는 일이라도 있었어?<end>"
+
+["990140"]
+japanese = "問題にぶつかるたびに、<line-break>カルラ様のすごさを実感するわ。<line-break>私はまだまだだもの。<line-break>私も負けてられないわね。<line-break>それじゃあね、<value:$28>。<end>"
+korean = "문제에 부딪힐 때마다 카를라 님의 대단함을 실감해. 난 아직 멀었거든. 나도 질 수 없지. 그럼 안녕, <value:$28>.<end>"
 
 ["990141"]
 japanese = "<value:$28>じゃない、<line-break>じゃ、忙しいから。<end>"

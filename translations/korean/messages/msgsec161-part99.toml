@@ -216,6 +216,10 @@ korean = "맡겨<end>"
 japanese = "勘弁して<end>"
 korean = "봐줘<end>"
 
+["1610093"]
+japanese = "そうか！　引き受けてくれるか！<line-break>　<line-break>　<line-break>ありがとよ。<line-break>さすがは<value:$2B>だ。<line-break>よろしく頼むぜ。<end>"
+korean = "그래! 맡아 주겠나! 고맙다. 역시 <value:$2B>답군. 잘 부탁한다.<end>"
+
 ["1610094"]
 japanese = "そうか！　引き受けてくれるか！<line-break>　<line-break>　<line-break>ありがとよ。<line-break>さすがは<value:$28>だ。<line-break>よろしく頼むぜ。<end>"
 korean = "그래! 맡아 주는 건가! 고맙다. 역시 <value:$28>이군. 잘 부탁해.<end>"
