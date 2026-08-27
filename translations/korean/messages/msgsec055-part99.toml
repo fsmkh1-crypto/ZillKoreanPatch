@@ -30,7 +30,7 @@ korean = "여어, 용사님~!<end>"
 
 ["550007"]
 japanese = "今日こそ、その大剣、天動地鳴が<line-break>抜ける日だ！<end>"
-korean = "오늘이야말로 그 대검 천동지명이 뽑히는 날이다!<end>"
+korean = "오늘이야말로 그 대검, 천동지명이 뽑히는 날이다!<end>"
 
 ["550008"]
 japanese = "<if><value:$29><equal>%0おらおら、坊主！<line-break>じゃまするんじゃないぞ！<end>おらおら、姉ちゃん！<line-break>じゃましちゃダメだぜ！<end>"
