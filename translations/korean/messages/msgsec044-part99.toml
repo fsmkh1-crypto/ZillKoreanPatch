@@ -100,6 +100,10 @@ korean = "…그래.<end>"
 japanese = "…お前の言うとおりだ。<line-break>俺はティアナを好きだった！　　　<end>"
 korean = "…네 말이 맞아. 난 티아나를 좋아했어!<end>"
 
+["440026"]
+japanese = "あんな男と婚約する前から…<line-break>幼いころから、ずっと！　ずっと！<end>"
+korean = "그런 남자와 약혼하기 전부터… 어릴 때부터 줄곧! 줄곧!<end>"
+
 ["440027"]
 japanese = "だが、許されないことだ！　　　　　<line-break>　<line-break>　<line-break>この想いを告げることも、<line-break>いや、こんな気持ちを抱くことすらも<line-break>許されないのだ！<end>"
 korean = "하지만 용납될 수 없는 일이다! 이 마음을 전하는 것도, 아니, 이런 마음을 품는 것조차 용납되지 않는다!<end>"
@@ -179,6 +183,10 @@ korean = "<value:$28>인가.<end>"
 ["440059"]
 japanese = "ん…？<line-break>あんたは…。<end>"
 korean = "응…? 너는….<end>"
+
+["440061"]
+japanese = "ああ。<line-break>確かに何かやばい感じがする。<line-break>…行ってみるか。<end>"
+korean = "그래. 확실히 뭔가 위험한 느낌이 들어. …가 볼까.<end>"
 
 ["440063"]
 japanese = "何だ？　…この匂い…。<line-break>こんな真夜中に、香をたいているのか？<line-break>　<line-break>向こうからか…。<line-break>よし、行くぞ、<value:$28>！<end>"
@@ -316,9 +324,45 @@ korean = "신이 떠난 세상에서, 그대는 무엇을 시험하려는가. �
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
 korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
 
+["440105"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の２。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 2.<end>"
+
+["440106"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の３。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 3.<end>"
+
+["440107"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の４。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 4.<end>"
+
+["440108"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の５。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 5.<end>"
+
+["440109"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の６。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 6.<end>"
+
+["440110"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の７。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 7.<end>"
+
+["440111"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の８。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 8.<end>"
+
+["440112"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の９。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 9.<end>"
+
 ["440113"]
 japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の１０。<end>"
 korean = "엘리에나이 공 레몬 류가다. 예비 메시지 V3의 10.<end>"
+
+["440114"]
+japanese = "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の１。<end>"
+korean = "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 1.<end>"
 
 ["440115"]
 japanese = "リューガ・ボリューム３終端<end>"

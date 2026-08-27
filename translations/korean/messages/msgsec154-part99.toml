@@ -8,6 +8,10 @@ korean = "엘파스 볼륨5 시작<end>"
 japanese = "………………。<line-break>　<line-break>　<line-break>美しいな…、<line-break>世界は…。<end>"
 korean = "………………. 아름답구나…, 세계는….<end>"
 
+["1540003"]
+japanese = "姉さん以外に好きな人間ができたの？<line-break>エルファス…？<line-break>　<end>"
+korean = "누나 말고 좋아하는 사람이 생긴 거야? 엘파스…?<end>"
+
 ["1540004"]
 japanese = "フフ、でもね、それは裏切りだよ？<line-break>君の姉さんに対する…。<end>"
 korean = "후후, 하지만 그건 배신이야? 네 누나에 대한….<end>"
@@ -148,6 +152,10 @@ korean = "그건 못 해.<end>"
 japanese = "うーん、理解に苦しむなぁ。<end>"
 korean = "음, 이해하기 어렵군.<end>"
 
+["1540051"]
+japanese = "あれあれ？　ひょっとして、<line-break>僕を敵に回すって意思表示なのかな？<end>"
+korean = "어라어라? 혹시 나를 적으로 돌리겠다는 뜻인가?<end>"
+
 ["1540052"]
 japanese = "それも違う。<end>"
 korean = "그것도 아니야.<end>"
@@ -244,6 +252,10 @@ korean = "그만둬, 샤리. 가능하면 너를 쓰러뜨리고 싶지는 않�
 japanese = "そして、彼女を闇に突き落とした<line-break>最大の功労者は君だよ。<line-break><value:$28>。アハハハ。<end>"
 korean = "그리고 그녀를 어둠으로 밀어 넣은 가장 큰 공로자는 너야, <value:$28>. 아하하하.<end>"
 
+["1540099"]
+japanese = "さぁて、邪眼帝と呼ばれたバロルの<line-break>お手並み拝見といこうかな。<end>"
+korean = "자, 사안제라 불리던 바로르의 솜씨를 구경해 볼까.<end>"
+
 ["1540100"]
 japanese = "ウフフ…アハハ！　すごい！<line-break>予想以上だね、バロルの力は！<end>"
 korean = "우후후… 아하하! 대단해! 예상 이상이야, 바로르의 힘은!<end>"
@@ -291,6 +303,10 @@ korean = "조폴 영감, 부탁할게.<end>"
 ["1540121"]
 japanese = "ありがとう、<value:$28>。<line-break>彼女を闇に突き落とした<line-break>最大の功労者は君だよ。アハハハ！<end>"
 korean = "고마워, <value:$28>. 그녀를 어둠에 빠뜨린 최대 공로자는 너야. 아하하하!<end>"
+
+["1540122"]
+japanese = "さぁて、邪眼帝と呼ばれたバロルの<line-break>お手並み拝見といこうかな。<end>"
+korean = "자, 사안제라 불리던 바로르의 솜씨를 구경해 볼까.<end>"
 
 ["1540123"]
 japanese = "ウフフ…アハハ！　すごい！<line-break>予想以上だね、バロルの力は！<end>"

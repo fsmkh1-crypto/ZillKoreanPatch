@@ -124,6 +124,10 @@ korean = "왼손을 잃지 않았더라면… 내 감을 믿고 그때 손을 �
 japanese = "われは忙しいんじゃろ。<line-break>よっぱらいじじいなんて<line-break>ほっときゃええじゃろが。<line-break>今日はな～んも話すことは<line-break>ありゃせんわい。<end>"
 korean = "자네 바쁘잖아. 술 취한 늙은이는 내버려 둬도 되지. 오늘은 아무 얘기도 할 게 없다네.<end>"
 
+["1760059"]
+japanese = "待っとったで、<value:$28>。<line-break>最後の試練を受ける用意はできたんか？<end>"
+korean = "기다리고 있었네, <value:$28>. 마지막 시련을 받을 준비는 됐나?<end>"
+
 ["1760060"]
 japanese = "用意できました<end>"
 korean = "준비됐습니다<end>"

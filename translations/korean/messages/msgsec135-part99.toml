@@ -900,6 +900,10 @@ korean = "큰, 큰일입니다. 레, 레몬 님이 쿠데타를!<end>"
 japanese = "レムオン様が！？<end>"
 korean = "레몬 님이!?<end>"
 
+["1350327"]
+japanese = "はい！<line-break>王都は完全にレムオン様の兵が…<line-break>エ、エリス様も…<end>"
+korean = "예! 왕도는 완전히 레무온님의 병사들이… 에, 엘리스님도….<end>"
+
 ["1350328"]
 japanese = "叔母様が…<end>"
 korean = "숙모님이…<end>"
@@ -1115,6 +1119,10 @@ korean = "제네테스!<end>"
 ["1350406"]
 japanese = "まいったね…。<line-break>カルラだけじゃないわけか。<end>"
 korean = "곤란하군…. 카를라만이 아니었나.<end>"
+
+["1350407"]
+japanese = "お前さんとこういう形で　　<line-break>戦うことになるとはな。<line-break>　<line-break>人生ってのは、おもしれぇ。<line-break>なあ、<value:$28>、<line-break>手加減はしない。行くぜ！<end>"
+korean = "이런 식으로 너와 싸우게 될 줄이야. 인생이란 참 재미있군. 그렇지, <value:$28>. 봐주진 않겠다. 간다!<end>"
 
 ["1350408"]
 japanese = "ここでお前を討ちとれば、<line-break>戦力差がどうあれ、<line-break>こっちの勝ちだ。<line-break>いくぜ！<end>"

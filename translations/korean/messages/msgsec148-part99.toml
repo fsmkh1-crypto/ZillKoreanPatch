@@ -108,6 +108,10 @@ korean = "아야야야…. 으~.<end>"
 japanese = "わ、ブサイクな猫がしゃべった！<end>"
 korean = "와, 못생긴 고양이가 말했어!<end>"
 
+["1480036"]
+japanese = "俺は猫じゃない、ネモだ。<line-break>破壊神の円卓騎士ネモ！　っててて…。<end>"
+korean = "난 고양이가 아니야, 네모다. 파괴신의 원탁기사 네모! 아야야….<end>"
+
 ["1480037"]
 japanese = "わ、すごいすごーい！！<end>"
 korean = "와, 대단해 대단해ー!!<end>"
@@ -307,6 +311,10 @@ korean = "바로 간다<end>"
 ["1480135"]
 japanese = "気が向いたら行く<end>"
 korean = "마음이 내키면 간다<end>"
+
+["1480137"]
+japanese = "それでは、<line-break>すぐにロストールの城を<line-break>訪ねて来てください。<end>"
+korean = "그럼 곧바로 로스토르 성을 찾아와 주세요.<end>"
 
 ["1480138"]
 japanese = "<value:$28>、<line-break>ゼネテスの言ってたこと、<line-break>本当になっちゃったね。<end>"

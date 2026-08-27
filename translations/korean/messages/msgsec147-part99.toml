@@ -156,6 +156,10 @@ korean = "뭐, 뭐라고…!<end>"
 japanese = "さて、こいつらを叩けば終わりだ。<line-break>さっさとやっちまおうぜ、<line-break><value:$28>。<end>"
 korean = "자, 이 녀석들만 쓰러뜨리면 끝이야. 빨리 해치우자, <value:$28>.<end>"
 
+["1470077"]
+japanese = "ち、ちくしょう！<line-break>おい、お前ら、ぬかるんじゃねえぞ！<line-break>　<end>"
+korean = "제, 젠장! 어이, 너희들 실수하지 마라!<end>"
+
 ["1470078"]
 japanese = "ちっ、ちくしょう…。　　　　　　　　<line-break>こんなはずじゃ…。<line-break>　<end>"
 korean = "제, 젠장… 이럴 리가…<end>"
@@ -264,6 +268,10 @@ korean = "일대일로 승부한다<end>"
 japanese = "挑発には乗らない<end>"
 korean = "도발에 넘어가지 않는다<end>"
 
+["1470146"]
+japanese = "ひっ、ひぃ～～～～～！<line-break>こいつ、強すぎる～～～～～。<line-break>　<end>"
+korean = "히, 히이~~~~! 이 녀석 너무 강해~~~~.<end>"
+
 ["1470147"]
 japanese = "ふぅ、冷や冷やしたが、<line-break>よくやったな、<value:$28>。<end>"
 korean = "후우, 조마조마했지만 잘했어, <value:$28>.<end>"
@@ -283,6 +291,10 @@ korean = "뭐, 됐어. 그래서 루루안타는 어디에 두고 왔어?<end>"
 ["1470155"]
 japanese = "<value:$28>、<line-break>仮にもフリントを倒した相手だ。<line-break>気を引き締めてくれよ。<end>"
 korean = "<value:$28>, 어쨌든 플린트를 쓰러뜨린 상대다. 정신 바짝 차려.<end>"
+
+["1470156"]
+japanese = "ひっ、ひぃ～～～～～！<line-break>こいつ、強すぎる～～～～～。<line-break>　<end>"
+korean = "히, 히이~~~~! 이 녀석 너무 강해~~~~.<end>"
 
 ["1470157"]
 japanese = "ふぅ、よくやったな、<line-break><value:$28>。<end>"

@@ -180,6 +180,10 @@ korean = "아, 정말이네. 그 보석이 초라해 보여. 그거 빼는 게 �
 japanese = "この腕輪…ですか…？<line-break>え…ええ。<line-break>では…そうします。<end>"
 korean = "이 팔찌… 말인가요…? 네… 네. 그럼… 그렇게 하겠습니다.<end>"
 
+["770063"]
+japanese = "よかったら、そいつを　　　　　<line-break>俺にくれないか？<line-break>　<line-break>美しい君が身に付けていたものを<line-break>持っていたいんだ。<line-break>今日、出会った記念にね。<end>"
+korean = "괜찮다면 그걸 나한테 주지 않을래? 아름다운 네가 몸에 지니고 있던 걸 갖고 싶어. 오늘 만난 기념으로 말이야.<end>"
+
 ["770064"]
 japanese = "ええ、構いません。<line-break>どうぞ。<end>"
 korean = "네, 괜찮습니다. 어서요.<end>"
@@ -307,6 +311,14 @@ korean = "이봐, 이 애 한 방울도 안 마셨지?<end>"
 ["770101"]
 japanese = "ハハハ。<line-break>おおかた、酒場の雰囲気に<line-break>酔ったんだろう。<end>"
 korean = "하하하. 아마 술집 분위기에 취한 거겠지.<end>"
+
+["770102"]
+japanese = "ちぇ～！<line-break>せーっかく、ぼくのキレイな　　<line-break>歌の出番だったのになぁ。<line-break>ま、いいや！<line-break><value:$28>のためだ！<line-break>キレイな、いい曲弾いちゃうよ！<end>"
+korean = "쳇~! 모처럼 내 아름다운 노래가 나설 차례였는데. 뭐, 됐어! <value:$28>을 위해서니까! 아름답고 멋진 곡을 연주해 줄게!<end>"
+
+["770103"]
+japanese = "ちぇ～！<line-break>せーっかく、ぼくのキレイな　　　　　<line-break>歌の出番だったのになぁ。<line-break>よーし！<line-break>キレイなきみのために<line-break>キレイな曲弾いちゃうよ！<end>"
+korean = "쳇~! 모처럼 내 아름다운 노래가 나설 차례였는데. 좋아! 아름다운 너를 위해 아름다운 곡을 연주해 줄게!<end>"
 
 ["770104"]
 japanese = "ハハハハハハ！<line-break>あんたの歌のおかげで<line-break>客も盛り上がって、大繁盛さ。　<line-break>少ないけど、とっときな。<end>"

@@ -412,6 +412,10 @@ korean = "그 색혹의 눈동자는 제대로 공주님께 드릴 거야. 그�
 japanese = "…待て。<line-break>フゴーに何を売る気だ？　　　　<line-break>　<line-break>…お姫様を助けるためと言って<line-break>取ってきた色惑の瞳という宝石を<line-break>売り飛ばすつもりか？<end>"
 korean = "…잠깐. 후고에게 뭘 팔 생각이지? …공주님을 돕는다며 가져온 색혹의 눈동자라는 보석을 팔아넘길 생각이냐?<end>"
 
+["750132"]
+japanese = "…つまり、<line-break>俺たちをだましたのか？　　　　<line-break>　<line-break>お姫様を救うという言葉で<line-break>お前が俺たちをだましてないなら<line-break>ここからすぐに立ち去れ。<end>"
+korean = "…그러니까 우리를 속인 건가? 공주님을 구한다는 말로 우리를 속인 게 아니라면 당장 여기서 떠나라.<end>"
+
 ["750133"]
 japanese = "…さもなくば。<end>"
 korean = "…그렇지 않으면.<end>"
@@ -599,6 +603,10 @@ korean = "예? 네…. 확실히 어둠은 마음에 안식을 줍니다.<end>"
 ["750208"]
 japanese = "私といると、<line-break>ホッとする…のですか？<end>"
 korean = "저와 있으면 마음이 놓이시나요…?<end>"
+
+["750209"]
+japanese = "フフ、ありがとうございます。　<line-break>とてもうれしいです。<line-break>　<line-break>私、今、みなが本当に<line-break>闇の王女って呼んでくれたら、<line-break>いいなと思いました。<end>"
+korean = "후후, 감사합니다. 정말 기뻐요. 지금은 모두가 정말 저를 어둠의 왕녀라고 불러 줬으면 좋겠다고 생각했어요.<end>"
 
 ["750210"]
 japanese = "あの…、<value:$28>様。<line-break>ひとつ、伺ってよろしいでしょうか？<line-break>　<line-break>ティアナ様っておきれいですか？<end>"

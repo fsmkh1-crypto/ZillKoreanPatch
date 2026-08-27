@@ -676,6 +676,10 @@ korean = "기다려! 조금은 뒤돌아보기도 해!<end>"
 japanese = "そうですか…。<line-break>あれだけの大事件が<line-break>起こったのですものね…。<end>"
 korean = "그렇군요… 그만한 큰 사건이 일어났으니까요…<end>"
 
+["1410232"]
+japanese = "おや、<value:$28>じゃないか。<line-break>久々だな。いつものお茶でいいかい？<end>"
+korean = "오, <value:$28> 아닌가. 오랜만이군. 늘 마시던 차면 되겠나?<end>"
+
 ["1410233"]
 japanese = "ああ…いよいよ、<line-break>次の旅に出かけるのか。<end>"
 korean = "아아… 드디어 다음 여행을 떠나는 건가.<end>"
@@ -1180,6 +1184,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410391"]
+japanese = "終わりだ…。<line-break>古き神…竜王よ…。<line-break>お前の役目は終わった。<end>"
+korean = "끝이다…. 오래된 신… 용왕이여…. 네 역할은 끝났다.<end>"
+
 ["1410393"]
 japanese = "神に手を借りねば歩けぬほど<line-break>我らは弱くは無い。<line-break> <line-break>神々の揺り篭を捨て、<line-break>我らが自らの足で歩く時がきたのだ。<end>"
 korean = "신의 도움 없이는 걷지 못할 만큼 우리는 약하지 않다. 신들의 요람을 버리고 스스로의 발로 걸을 때가 왔다.<end>"
@@ -1351,6 +1359,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410445"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410446"]
+japanese = "…許せよ。<line-break>今のわしらは、<line-break>これ以上に良い方法を持たん。<end>"
+korean = "…용서해라. 지금의 우리는 이보다 나은 방법이 없다.<end>"
 
 ["1410447"]
 japanese = "いつか、良い方法を編み出し、再び、<line-break>そして必ず、お前の元を訪れよう。<line-break>だから、それまで…静かに眠れ。<line-break>眠っていてくれ…。<end>"

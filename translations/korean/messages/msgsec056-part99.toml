@@ -76,6 +76,10 @@ korean = "헛소문을 퍼뜨려 사람들을 현혹하는 사기 예언가가!<
 japanese = "おごり高ぶる罪深き輩よ。<line-break>神はお前たちの傲慢を打ち砕くだろう。<end>"
 korean = "교만에 빠진 죄 많은 자들이여. 신은 너희의 오만을 깨뜨릴 것이다.<end>"
 
+["560028"]
+japanese = "なんだと？　ふざけおって。<line-break>痛い目にあわないとわからんようだな。<end>"
+korean = "뭐라고? 장난치는군. 호되게 당해 봐야 알아듣겠나 보군.<end>"
+
 ["560029"]
 japanese = "はっ！　せいぜい泣きわめいて、<line-break>お前の神様に救いを乞うがいい！<end>"
 korean = "하! 실컷 울부짖으며 네 신에게 구원을 빌어 봐라!<end>"
@@ -572,6 +576,10 @@ korean = "여어, 난 체라셸. 신관 출신 모험자다. 당신은?<end>"
 japanese = "…<value:$28>、ね。<line-break>なんか困りごとがあるようだが？<end>"
 korean = "…<value:$28>, 인가. 뭔가 곤란한 일이 있는 모양이군?<end>"
 
+["560186"]
+japanese = "どうだ？　お前さんの有り金全部で<line-break>なんでも、情報を売ってやるぜ。<end>"
+korean = "어때? 네가 가진 돈 전부를 주면 어떤 정보든 팔아 주지.<end>"
+
 ["560187"]
 japanese = "売ってもらう<end>"
 korean = "팔아 달라고 한다<end>"
@@ -939,6 +947,10 @@ korean = "네! 맞아요! 슬럼까지 가는 길을 확보해 주세요!<end>"
 ["560291"]
 japanese = "何、よそ見してやがんだ！<line-break>お前の相手は俺だ。いくぞ！<end>"
 korean = "어딜 한눈팔고 있어! 네 상대는 나다. 간다!<end>"
+
+["560292"]
+japanese = "ちくしょう！　なんて奴らだ！<line-break>だがこのまま逃げ切れると思うなよ！<end>"
+korean = "젠장! 무슨 놈들이야! 하지만 이대로 도망칠 수 있을 거라 생각하지 마!<end>"
 
 ["560294"]
 japanese = "…ひ、ひどい！<line-break>…どうして、どうして、そんなことを！<end>"
@@ -1440,6 +1452,10 @@ korean = "반란자는 놓칠 수 없다<end>"
 japanese = "一緒に逃げよう<end>"
 korean = "같이 도망치자<end>"
 
+["560481"]
+japanese = "反乱者…。<line-break>…わたくしは反乱者の<line-break>親玉として殺されるのね。<end>"
+korean = "반란자…. …저는 반란자의 우두머리로 죽게 되는 거군요.<end>"
+
 ["560483"]
 japanese = "将軍ー！<line-break><value:$28>将軍ー！<end>"
 korean = "장군님~! <value:$28> 장군님~!<end>"
@@ -1487,6 +1503,10 @@ korean = "이쪽이다. 크류세이스는 이쪽으로 도망쳤다!<end>"
 ["560499"]
 japanese = "な、何を…<end>"
 korean = "뭐, 뭘…<end>"
+
+["560500"]
+japanese = "あっ、クリュセイス！<line-break>将軍、まさか！　裏切られるか！！<line-break> <end>"
+korean = "앗, 크리세이스! 장군, 설마! 배신당한 건가!!<end>"
 
 ["560502"]
 japanese = "…償いたかった？<line-break>わたくしに償いたかったと言うの？<end>"
@@ -1871,6 +1891,10 @@ korean = "물론 큰 위험이 따르지만 이 역할을 맡길 수 있는 건 
 ["560677"]
 japanese = "くっくっく、そうか！<line-break>やってくれるか、<value:$28>。<end>"
 korean = "큭큭큭, 그런가! 해 주겠나, <value:$28>.<end>"
+
+["560678"]
+japanese = "我々の今後を左右する<line-break>重大な任務です。<line-break>…健闘を祈ります。<end>"
+korean = "우리의 앞날을 좌우할 중대한 임무입니다. …건투를 빕니다.<end>"
 
 ["560679"]
 japanese = "よし、聞いてのとおりだ。<line-break>この作戦が成功すれば、<line-break>ロセン復興の日も近いぞ！<line-break>すぐ準備にとりかかるのだ！！<end>"
@@ -2415,6 +2439,10 @@ korean = "추가 메시지 여기부터<end>"
 ["560942"]
 japanese = "それじゃ、頼んだぜ。<end>"
 korean = "그럼 부탁한다.<end>"
+
+["560943"]
+japanese = "左様ですか…。<line-break>仕方がない、<line-break>他に頼れる方を探すとします。<end>"
+korean = "그렇습니까…. 어쩔 수 없군요. 다른 부탁할 분을 찾아보겠습니다.<end>"
 
 ["560944"]
 japanese = "仕方ねえさ、神官さん。<line-break>依頼を受けるかどうか決めるのは、<line-break>命をかける冒険者だからな。<line-break><value:$28>、この話、<line-break>聞かなかったことにしてくれ。<end>"

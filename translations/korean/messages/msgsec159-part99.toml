@@ -188,6 +188,10 @@ korean = "와, 못생긴 고양이가 말했어!<end>"
 japanese = "俺は猫じゃない、ネモだ。　　　　　<end>"
 korean = "난 고양이가 아니야, 네모다.<end>"
 
+["1590062"]
+japanese = "アスティアや、ヴァシュタールと同じ<line-break>破壊神の円卓騎士、ネモ！<end>"
+korean = "아스티아와 바슈타르와 같은 파괴신의 원탁기사, 네모!<end>"
+
 ["1590066"]
 japanese = "どう考えたって、死んだぜ。　　　　　<line-break>アスティアはよ。<end>"
 korean = "아무리 생각해도 죽었어. 아스티아는.<end>"
@@ -480,6 +484,10 @@ korean = "루루안타, 봤거든! 여러분~! 이 사람….<end>"
 japanese = "むが　むが　むがが<end>"
 korean = "우물 우물 우물물<end>"
 
+["1590169"]
+japanese = "そうだったんだ。<line-break>ありがとう。<line-break>それに、ごめんなさい。<end>"
+korean = "그랬구나. 고마워. 그리고 미안해.<end>"
+
 ["1590173"]
 japanese = "うん、ルルアンタ、元気だよ。　　　<line-break>　<line-break>　<line-break>あのね、<line-break>フリントさんが言ってくれたんだ。<line-break>　<end>"
 korean = "응, 루루안타는 잘 지내. 있잖아, 플린트 씨가 말해 줬어.<end>"
@@ -515,6 +523,10 @@ korean = "와, 대단해 대단해ー!!<end>"
 ["1590188"]
 japanese = "くすっ、ありがとうございます。<line-break>何よりのほめ言葉です。<line-break>　<line-break>それでは、さっそくですが…<line-break>先日、ミイスの村が<line-break>消失したことをご存じですか？<end>"
 korean = "후후, 감사합니다. 최고의 칭찬이네요. 그럼 바로… 얼마 전 미이스 마을이 사라진 것을 알고 계십니까?<end>"
+
+["1590189"]
+japanese = "ことはミイスを焼き払った魔人<line-break>アーギルシャイアに関わります。<end>"
+korean = "이 일은 미이스를 불태운 마인 아길샤이어와 관련되어 있습니다.<end>"
 
 ["1590193"]
 japanese = "急がないと、　　　　　　　　　　　　<line-break><value:$28>。<line-break>　<end>"

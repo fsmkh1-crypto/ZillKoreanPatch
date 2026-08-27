@@ -52,6 +52,10 @@ korean = "누구…? …장로님 말고… 다른 사람….<end>"
 japanese = "…ここは、<line-break>火の精霊神殿。　　　　　<line-break>　<line-break>私はフレア。<line-break>この神殿と、それに連なる<line-break>封印を守る…火の巫女。<end>"
 korean = "…여기는 불의 정령신전. 나는 플레어. 이 신전과 그에 이어진 봉인을 지키는… 불의 무녀다.<end>"
 
+["1160030"]
+japanese = "その道を進むことは　　　　　<line-break>なりません。<line-break>　<line-break>この神殿の奥にある封印…、<line-break>それを守るのが私の役目。<line-break>どうか、お引き取りください。<end>"
+korean = "그 길로 가서는 안 됩니다. 이 신전 깊숙한 곳의 봉인… 그것을 지키는 것이 제 역할입니다. 부디 돌아가 주십시오.<end>"
+
 ["1160031"]
 japanese = "誰…？　　　　　　　　　<line-break>　<line-break>　<line-break>…長老以外の…人…。<end>"
 korean = "누구…? …장로님 말고… 다른 사람….<end>"
@@ -67,6 +71,14 @@ korean = "대체 뭘 하고 있는 건가, 자네는!?<end>"
 ["1160035"]
 japanese = "はい、長老。<end>"
 korean = "네, 장로님.<end>"
+
+["1160037"]
+japanese = "ここから先は通すわけにはいかん。<line-break>そもそも、君がここにいること自体<line-break>認めるわけにはいかないのだ。<line-break>さあ、早々に<line-break>ここから立ち去ってくれ。<end>"
+korean = "여기서부터는 통과시킬 수 없다. 애초에 네가 여기 있는 것 자체를 인정할 수 없어. 자, 어서 이곳을 떠나라.<end>"
+
+["1160038"]
+japanese = "その道を進むことは　　　　　<line-break>なりません。<line-break>　<line-break>この神殿の奥にある封印…、<line-break>それを守るのが私の役目。<line-break>どうか、お引き取りください。<end>"
+korean = "그 길로 가서는 안 됩니다. 이 신전 깊숙한 곳의 봉인… 그것을 지키는 것이 제 역할입니다. 부디 돌아가 주십시오.<end>"
 
 ["1160042"]
 japanese = "…役目のためだけに生きることは<line-break>つらくはないか？　…ですか？<end>"
@@ -179,6 +191,10 @@ korean = "그렇다는데? 후후, 어떻게 할래?<end>"
 ["1160093"]
 japanese = "お見事！<line-break>まさに無敵だね！　　　<line-break>　<line-break>僕も君の強さに敬服して<line-break>たまには約束を守るよ。<line-break>じゃあね～。<end>"
 korean = "훌륭해! 정말 무적이군! 나도 네 강함에 감탄했으니 가끔은 약속을 지켜 주지. 그럼 안녕~.<end>"
+
+["1160094"]
+japanese = "…あの人は、少なくとも、<line-break>道具としての私を必要としていました。<end>"
+korean = "…그 사람은 적어도 도구로서의 나를 필요로 했습니다.<end>"
 
 ["1160095"]
 japanese = "…あなたが私を必要としている<line-break>という意味が、私にはわかりません。<line-break>　<line-break>私は、たぶん、あなたを<line-break>満足させられないでしょう。<end>"

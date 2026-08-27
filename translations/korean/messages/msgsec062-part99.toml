@@ -352,6 +352,10 @@ korean = "고블린이 인간을 습격하니까!<end>"
 japanese = "ゴブリンも、人間がゴブリンを襲うから<line-break>自衛のために戦っているだけゴブ！<end>"
 korean = "고블린도 인간이 고블린을 공격하니까 자위하려고 싸우는 것뿐이다 고브!<end>"
 
+["620106"]
+japanese = "そうね、ゴブリンと口ゲンカしてる<line-break>場合じゃなかったわ。<line-break>　<line-break>あいつらは港から内海を<line-break>渡るつもりよ。追いましょ！<line-break>港で捕まえるのよ！<end>"
+korean = "그래, 고블린과 말싸움할 때가 아니었어. 저 녀석들은 항구에서 내해를 건널 생각이야. 쫓아가자! 항구에서 잡는 거야!<end>"
+
 ["620107"]
 japanese = "ゴブリン質になってしまったゴブ～。<end>"
 korean = "고블린 체질이 되어버렸다 고브~.<end>"
@@ -495,6 +499,10 @@ korean = "너희들, 이번엔 놓치지 않을 거야!<end>"
 ["620159"]
 japanese = "む、ゴブゴブ団、我らの幸せの待つ<line-break>賢者の森へ、進軍ゴブ！<end>"
 korean = "자, 고브고브단! 우리 행복이 기다리는 현자의 숲으로 진군 고브!<end>"
+
+["620160"]
+japanese = "<value:$28>、ボーっとしてないで<line-break>連中を賢者の森まで追いかけるのよ！<end>"
+korean = "<value:$28>, 멍하니 있지 말고 저들을 현자의 숲까지 쫓아가자!<end>"
 
 ["620161"]
 japanese = "く、苦しいゴブ…。<end>"
@@ -712,6 +720,10 @@ korean = "그래서 당신은 그 고블린을 이용해 성배를 확보하려 
 japanese = "一応、俺の管理物だからな。<line-break>仲間とは言え、取られたくはない。<end>"
 korean = "일단 내 관리 물건이니까. 동료라 해도 빼앗기고 싶진 않아.<end>"
 
+["620241"]
+japanese = "結果的には、<line-break>それがいい方向に働きましたね。<line-break>　<line-break>ロストールがミイス同様に<line-break>焼かれずにすんだんですからね。<line-break>感謝してますよ、ネモ。<end>"
+korean = "결과적으로는 그게 좋은 방향으로 작용했군요. 로스토르가 미이스처럼 불타지 않고 끝났으니까요. 고맙습니다, 네모.<end>"
+
 ["620242"]
 japanese = "あんたの方も<line-break>俺に言うべき事があるだろう？<end>"
 korean = "너도 나한테 해야 할 말이 있잖아?<end>"
@@ -755,6 +767,10 @@ korean = "있지…. 역시 로스토올로 돌아가고 싶어?<end>"
 ["620256"]
 japanese = "あ、別に答えにくかったら<line-break>答えなくていいのよ。<end>"
 korean = "아, 대답하기 곤란하면 굳이 안 해도 돼.<end>"
+
+["620258"]
+japanese = "ゴメン。<line-break>怒った？<line-break>なんかしゃべってよ。　　　<line-break>フェルムちゃんとあなたが<line-break>何かあるとかそーゆーことを<line-break>言ってるんじゃないから。<end>"
+korean = "미안. 화났어? 뭐라도 말해 봐. 페름과 네 사이에 뭐가 있다는 그런 얘기를 하는 건 아니니까.<end>"
 
 ["620260"]
 japanese = "…寝てるわ。<line-break>…相変わらず子供ねえ。<end>"
@@ -824,6 +840,10 @@ korean = "아길샤이어에 대해서<end>"
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
 
+["620282"]
+japanese = "そんなこと、口にしましたっけ。<line-break>まあ、秘密です。<line-break>　<line-break>ま、おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
+korean = "제가 그런 말을 했던가요. 뭐, 비밀입니다. 차차 알게 될 거예요. 우선 길드에서 일을 해 주세요.<end>"
+
 ["620284"]
 japanese = "将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。　　　　　　<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
 korean = "앞으로 여행 도중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶어지면 이 고양이 저택으로 오세요.<end>"
@@ -855,6 +875,10 @@ korean = "아, <value:$28> 씨!<end>"
 ["620296"]
 japanese = "……心配…してた…んです…よ。<end>"
 korean = "……걱정… 했…어요….<end>"
+
+["620297"]
+japanese = "ひどいです！　旅に出るなんて、<line-break>何も、教えてくれませんでした！　　　<line-break>　<line-break>そのあとも、何も…<line-break>なんの連絡も、くれませんでした！<line-break>　<end>"
+korean = "너무해요! 여행을 떠난다는 말도 아무것도 알려 주지 않았어요! 그 뒤에도 아무것도… 아무 연락도 주지 않았고요!<end>"
 
 ["620298"]
 japanese = "確かに、私、<line-break>力ではアイリーンさんにかないません！<line-break>冒険では足手まといです！<line-break>でも！　でも！<line-break>せめて一言…！<end>"

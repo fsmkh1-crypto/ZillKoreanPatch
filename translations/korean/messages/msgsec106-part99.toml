@@ -12,6 +12,10 @@ korean = "잘 왔다, <value:$28>여. 이야기는 이미 들었다. 편지를 �
 japanese = "よく来た、<value:$28>よ。<line-break>話は、すでに聞いている。<line-break>手紙を。<end>"
 korean = "잘 왔다, <value:$28>. 이야기는 이미 들었다. 편지를.<end>"
 
+["1060026"]
+japanese = "君のような勇者が<line-break>解放軍にいることは心強い限りだ。　<line-break>　<line-break>我らの理想が大きければ大きいほど<line-break>ふりかかる困難は厳しくなるだろう。<line-break>　<end>"
+korean = "너 같은 용자가 해방군에 있다는 건 든든한 일이야. 우리의 이상이 크면 클수록 닥쳐올 어려움도 더 혹독하겠지.<end>"
+
 ["1060033"]
 japanese = "ロセンの存続は彼女にかかっているのだ！<end>"
 korean = "로센의 존속은 그녀에게 달려 있다!<end>"
@@ -63,6 +67,10 @@ korean = "안 돼, 안 돼. 역시 그런 짓을 하면 안 돼.<end>"
 ["1060056"]
 japanese = "ああん、もぅ！<line-break>本当にダメなんだったら！<end>"
 korean = "아앙, 정말! 진짜 안 된다니까!<end>"
+
+["1060061"]
+japanese = "…ザギヴ将軍のところに　<line-break>行ってきてあげなよ。<line-break>　<line-break>…ボク、知ってるよ。<line-break>ザギヴ将軍とは…その…<line-break>いい、お友達…なんだろ？<end>"
+korean = "…자기브 장군에게 다녀와 줘. …나 알고 있어. 자기브 장군과는… 그… 좋은 친구…인 거지?<end>"
 
 ["1060062"]
 japanese = "ねえねえ、<value:$28>。<line-break>この手紙ちょっとだけ見てみようよぉ。<end>"

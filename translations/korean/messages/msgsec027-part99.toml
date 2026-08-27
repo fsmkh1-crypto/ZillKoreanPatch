@@ -64,6 +64,10 @@ korean = "네 싸움, 지켜보겠다.<end>"
 japanese = "勝てとまでは言わんがな。<line-break>無様な負け方はするなよ。<end>"
 korean = "꼭 이기라고까지는 안 하겠다. 꼴사납게 지지는 마라.<end>"
 
+["270020"]
+japanese = "最後まで勝ち進んだら歌になるなー。<line-break>がんばってね、<value:$28>。<end>"
+korean = "끝까지 이기면 노래로 만들 수 있겠네. 힘내, <value:$28>.<end>"
+
 ["270021"]
 japanese = "無限のソウルの力…<line-break>見せてもらおう。<end>"
 korean = "무한한 소울의 힘… 보여 주마.<end>"
@@ -191,6 +195,10 @@ korean = "아쉽게 됐네. 뭐, 내년도 있으니까.<end>"
 ["270071"]
 japanese = "どっちのことが聞きたい？<end>"
 korean = "어느 쪽 이야기를 듣고 싶어?<end>"
+
+["270073"]
+japanese = "決勝は、トーナメント戦よ。　　　　　<line-break>開催は毎年８月。<line-break><line-break>１回戦、２回戦、準決勝、決勝と戦い、<line-break>勝ち残れば、チャンプへ挑戦できるわ。<end>"
+korean = "결승은 토너먼트전이야. 매년 8월에 열려. 1회전, 2회전, 준결승, 결승을 치러 살아남으면 챔피언에게 도전할 수 있어.<end>"
 
 ["270075"]
 japanese = "<line-break>栄光を踏みにじる者の称号を得た。<line-break>　<end>"

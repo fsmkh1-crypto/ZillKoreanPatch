@@ -304,6 +304,10 @@ korean = "…<value:$28> 미안…해….<end>"
 japanese = "バカ野郎！<line-break>まだ、そんなこと言ってんのかよ！<end>"
 korean = "이 바보야! 아직도 그런 소릴 하고 있어!<end>"
 
+["1340130"]
+japanese = "ちがうだろ？<line-break>俺たちゃ、んなもんじゃない。<line-break>ダチだろ？<end>"
+korean = "아니잖아? 우린 그런 사이가 아니야. 친구잖아?<end>"
+
 ["1340131"]
 japanese = "ヴァン…。<end>"
 korean = "반….<end>"
@@ -679,6 +683,10 @@ korean = "레, 레이븐…?<end>"
 ["1340267"]
 japanese = "いや、渡していないが…<line-break>ノエル、まさか？<end>"
 korean = "아니, 건네진 않았는데… 노엘, 설마?<end>"
+
+["1340269"]
+japanese = "俺たちよりも<value:$28>の方が<line-break>正しく、力でも大きく勝っている…。<end>"
+korean = "우리보다 <value:$28> 쪽이 옳고, 힘에서도 훨씬 앞서 있어….<end>"
 
 ["1340270"]
 japanese = "ノエル、君は、<line-break>そう確信したというのだな？<end>"
@@ -1811,6 +1819,10 @@ korean = "얼마 전 딘갈 황제 네메아가 울칸까지 왔었지.<end>"
 ["1340696"]
 japanese = "<value:$28>さん…。<end>"
 korean = "<value:$28> 씨….<end>"
+
+["1340697"]
+japanese = "でも、それでも、なかなか…<line-break> <line-break> <line-break>お恥ずかしながら、資金の不足から、<line-break>手が回らないところが<line-break>たくさん出てきてしまっています…。<end>"
+korean = "하지만 그래도 쉽지가 않네요…. 부끄럽지만 자금이 부족해서 손이 미치지 못하는 곳이 많이 생기고 있습니다….<end>"
 
 ["1340698"]
 japanese = "ジラーク用メッセージ終端<end>"

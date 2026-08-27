@@ -32,6 +32,10 @@ korean = "따라오도록 해.<end>"
 japanese = "探求心がお前を駆り立てるなら、<line-break>また、ここに来るがよい。<end>"
 korean = "탐구심이 너를 재촉한다면 다시 이곳에 오너라.<end>"
 
+["1100019"]
+japanese = "人は神の力を手に入れることも　　　　<line-break>可能ではないのか？<line-break>　<line-break>その男、シャロームは愚かにも<line-break>その不遜な考えを実行に移そうとした。<end>"
+korean = "인간도 신의 힘을 손에 넣을 수 있지 않은가? 그 남자 샤로움은 어리석게도 그 불손한 생각을 실행에 옮기려 했다.<end>"
+
 ["1100028"]
 japanese = "ふぉっふぉっふぉ。<line-break>マノンの封印について聞きたいのか？　<line-break>　<line-break>昔、アリアロという<line-break>無限のソウルの持ち主が、<line-break>その力でシャロームの封印を破った。<end>"
 korean = "허허허. 마논의 봉인에 대해 묻고 싶은가? 옛날 아리아로라는 무한의 소울 소유자가 그 힘으로 샤롬의 봉인을 깨뜨렸다네.<end>"
@@ -148,6 +152,10 @@ korean = "왜냐고?<end>"
 japanese = "…私にとって闇の怪物は、<line-break>仇…だからよ。<end>"
 korean = "…나에게 어둠의 괴물은 원수…니까.<end>"
 
+["1100083"]
+japanese = "フフ、<value:$28>、どうしたの？<line-break>私をこの墓の中に入れてくれるの？<end>"
+korean = "후후, <value:$28>, 왜 그래? 나를 이 무덤 안에 넣어 줄 거야?<end>"
+
 ["1100084"]
 japanese = "冗談よ。<line-break>私もたまには冗談くらい言うわ。<end>"
 korean = "농담이야. 나도 가끔은 농담 정도는 해.<end>"
@@ -167,6 +175,10 @@ korean = "하… 아아… 아, 아아아.<end>"
 ["1100089"]
 japanese = "い、意識を…保たな…きゃ…。<line-break>う、うう…！<end>"
 korean = "으, 의식을… 유지해야… 해…. 으, 으으…!<end>"
+
+["1100090"]
+japanese = "お、収まった…？<line-break>まだ…まだ私だ。<line-break>私でいられている…。<end>"
+korean = "오, 가라앉았나…? 아직… 아직 나는 나다. 나로 있을 수 있어….<end>"
 
 ["1100091"]
 japanese = "いったい、いつまで…。<end>"

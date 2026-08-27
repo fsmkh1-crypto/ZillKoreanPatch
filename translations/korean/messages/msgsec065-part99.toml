@@ -236,9 +236,17 @@ korean = "약혼자가 들으면 화내지 않을까?<end>"
 japanese = "婚約者といっても、<line-break>お母様が勝手に決めたこと。　　　<line-break>　<line-break>幼なじみのレムオン様とのことを<line-break>とやかく言われる筋合いは<line-break>ありません。<end>"
 korean = "약혼자라 해도 어머니가 마음대로 정한 일입니다. 소꿉친구인 레몬 님과의 일을 이래라저래라 들을 이유는 없어요.<end>"
 
+["650077"]
+japanese = "いっそのこと、レムオン様が私の<line-break>夫になってくださればいいのです。<end>"
+korean = "차라리 레무온님께서 제 남편이 되어 주시면 됩니다.<end>"
+
 ["650078"]
 japanese = "…それはできんな。<end>"
 korean = "…그건 할 수 없군.<end>"
+
+["650080"]
+japanese = "何も王が男子でなければならぬ<line-break>理由はない。<line-break>　<line-break>ティアナも、エリスのように<line-break>女王として君臨すれば、<line-break>無理に結婚することもなかろう？<end>"
+korean = "왕이 반드시 남자여야 할 이유는 없다. 티아나도 엘리스처럼 여왕으로 군림하면 억지로 결혼할 필요도 없지 않겠나?<end>"
 
 ["650081"]
 japanese = "女が出しゃばるのは<line-break>好きではありません。<line-break>　<line-break>特にお母様みたいに<line-break>出しゃばるのは…。<line-break>それに…。<end>"
@@ -295,6 +303,10 @@ korean = "네, 파로스의 암여우 딸이에요!<end>"
 ["650094"]
 japanese = "俺はいつかエリスの専政を打ち破る。<end>"
 korean = "언젠가 엘리스의 전제를 무너뜨리겠다.<end>"
+
+["650095"]
+japanese = "そして広場の千年樹に記されたとおり<line-break>貴族共和の政治を復活させる。<end>"
+korean = "그리고 광장의 천년수에 기록된 대로 귀족 공화 정치를 부활시킨다.<end>"
 
 ["650096"]
 japanese = "悲しいですわ。<line-break>ティアナはそのとき…、　　　<line-break>　<line-break>お母様と一緒に<line-break>ファーロスの一族として、<line-break>粛清されてしまうのですね…。<end>"

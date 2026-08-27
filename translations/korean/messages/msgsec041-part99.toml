@@ -416,6 +416,10 @@ korean = "노엘, 나와 레이븐은 신기를 안전한 곳까지 가져가겠
 japanese = "で、でも…。<end>"
 korean = "하, 하지만….<end>"
 
+["410121"]
+japanese = "<value:$28>を殺せとは言わん。<line-break>世界全体の人の命がかかっているのだ！<end>"
+korean = "<value:$28>을 죽이라는 말은 하지 않겠다. 세계 전체 사람들의 목숨이 걸려 있다!<end>"
+
 ["410122"]
 japanese = "…ごめんなさい！<line-break><value:$28>さん！<end>"
 korean = "…미안해요! <value:$28> 씨!<end>"

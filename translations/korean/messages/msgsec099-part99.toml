@@ -220,6 +220,10 @@ korean = "…가. 다음은 없어.<end>"
 japanese = "…どうして、<line-break>どうして解放軍なんかに…。<end>"
 korean = "…왜, 왜 해방군 같은 곳에….<end>"
 
+["990086"]
+japanese = "<value:$28>！<line-break>こんな所で何をしているの！　<line-break>　<line-break>早く出ていきなさい。<line-break>今回だけは見逃してあげる。<line-break>もう私の前に顔を出さないで。<end>"
+korean = "<value:$28>! 이런 곳에서 뭐 하고 있는 거야! 빨리 나가. 이번만은 봐 줄게. 다시는 내 앞에 나타나지 마.<end>"
+
 ["990087"]
 japanese = "…ほんっとに<line-break>いつまでたっても子供なんだから！<end>"
 korean = "…정말이지 언제까지나 어린애라니까!<end>"
@@ -299,6 +303,10 @@ korean = "…가. 다음은 없어.<end>"
 ["990119"]
 japanese = "…どうして、<line-break>どうして解放軍なんかに…。<end>"
 korean = "…왜, 왜 해방군 같은 곳에….<end>"
+
+["990120"]
+japanese = "<value:$28>！<line-break>こんな所で何をしている！　　<line-break>　<line-break>早く出ていきなさい。<line-break>今回だけは見逃してあげる。<line-break>もう私の前に顔を出さないで。<end>"
+korean = "<value:$28>! 이런 곳에서 뭐 하고 있어! 빨리 나가. 이번만은 봐 줄게. 다시는 내 앞에 나타나지 마.<end>"
 
 ["990121"]
 japanese = "まったく、<line-break>どうして、解放軍などに！<end>"

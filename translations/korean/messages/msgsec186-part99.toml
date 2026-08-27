@@ -224,6 +224,10 @@ korean = "플린트 씨! 준비됐어. 빨리 빨리!<end>"
 japanese = "さぁ、それでは行こうか、　　　　<line-break><value:$28>。<line-break>　<line-break>短剣のこと、頼んだよ。<end>"
 korean = "자, 그럼 가자, <value:$28>. 단검 건은 부탁할게.<end>"
 
+["1860085"]
+japanese = "じゃあ、この辺にしよう。　　　　<line-break>ここで少し休憩だ。<line-break>　<end>"
+korean = "그럼 이쯤 하지. 여기서 잠깐 쉬자.<end>"
+
 ["1860089"]
 japanese = "ん？　こ、これは…！！　　　　　<line-break>　<line-break>　<end>"
 korean = "응? 이, 이건…!!<end>"

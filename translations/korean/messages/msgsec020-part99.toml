@@ -1268,6 +1268,14 @@ korean = "다음 레벨까지 필요한 경험치입니다.<end>"
 japanese = "筋力(STRENGTH)を表します。<line-break>物理攻撃の威力に影響します。<end>"
 korean = "근력(STRENGTH)을 나타냅니다. 물리 공격의 위력에 영향을 줍니다.<end>"
 
+["200496"]
+japanese = "知力(INTELLIGENCE)を表します。<line-break>精霊属性魔法の威力に影響します。<end>"
+korean = "지력(INTELLIGENCE)을 나타냅니다. 정령 속성 마법의 위력에 영향을 줍니다.<end>"
+
+["200497"]
+japanese = "精神力(MIND)を表します。<line-break>精神魔法の威力やMPの増加率に影響します。<end>"
+korean = "정신력(MIND)을 나타냅니다. 정신 마법의 위력과 MP 증가율에 영향을 줍니다.<end>"
+
 ["200507"]
 japanese = "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
 korean = "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"

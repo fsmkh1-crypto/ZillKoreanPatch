@@ -112,6 +112,10 @@ korean = "네가 자신을 지키면 네가 놈들의 적이었다는 게 증명
 japanese = "そうじゃ。なれば、<line-break>地上から奴らを消せばいい。　　　<line-break>　<line-break>奴らがお前にすることを<line-break>ただ、やり返してやればいい。<line-break>　<end>"
 korean = "그래. 그렇다면 지상에서 놈들을 없애면 된다. 놈들이 네게 하는 짓을 그대로 되갚아 주면 돼.<end>"
 
+["700034"]
+japanese = "奴らが正しいならば、<line-break>お前にはそれ以上の正当性がある。<line-break>　<end>"
+korean = "그들이 옳다면 너에게는 그보다 더 큰 정당성이 있다.<end>"
+
 ["700035"]
 japanese = "そら、お前を殺そうとして<line-break>凶悪な冒険者がやってきおった。<line-break>　<line-break>まず、奴らを血祭りに上げよ。<line-break>よいな。<end>"
 korean = "자, 너를 죽이려 흉악한 모험자들이 찾아왔다. 우선 녀석들을 피바다로 만들어라. 알겠느냐.<end>"
@@ -728,6 +732,10 @@ korean = "아, <value:$28>다! 저기, 저기, 엄청난 걸 발견했어! 들�
 japanese = "もうイヤ、もうイヤ！　もぉうイヤ！！<end>"
 korean = "이제 싫어, 싫어! 정말 싫어!!<end>"
 
+["700226"]
+japanese = "こら。高貴なエルフであるアタクシの<line-break>言うことをちゃんと聞きなさいよー！<line-break>　<line-break>信じられない！　信じられないわ！！<line-break>お待ちなさい！　<value:$28>！<end>"
+korean = "이봐. 고귀한 엘프인 이 몸의 말을 제대로 들으란 말이야! 믿을 수 없어! 정말 믿을 수가 없어!! 기다려! <value:$28>!<end>"
+
 ["700227"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"
@@ -780,6 +788,10 @@ korean = "여어, <value:$28><end>"
 japanese = "気づいてた？<line-break>セラとアーギルシャイアって<line-break>似てるよね。<line-break>ねぇ、<value:$28>、<line-break>何かセラから聞いてないの？<end>"
 korean = "눈치챘어? 세라와 아기르샤이아는 닮았지. <value:$28>, 세라에게 뭔가 들은 거 없어?<end>"
 
+["700247"]
+japanese = "そっか、まだ、そこまでの信頼は<line-break>得てはいないんだね。<line-break>　<line-break>最近、セラが<value:$28>に<line-break>ちょっと、心を許したかなって<line-break>思ったんだけどな…。<end>"
+korean = "그런가, 아직 그 정도까지 신뢰를 얻진 못했구나. 요즘 세라가 <value:$28>에게 조금 마음을 연 것 같다고 생각했는데….<end>"
+
 ["700251"]
 japanese = "…<value:$28>、<line-break>最近、セラと仲がいいみたいだな。<end>"
 korean = "…<value:$28>, 요즘 세라랑 사이가 좋은 것 같네.<end>"
@@ -831,6 +843,10 @@ korean = "여어, 별이라도 보고 있나? <value:$28>.<end>"
 ["700271"]
 japanese = "星空もきれいだけど<line-break>セラの奴もきれいだよな。<end>"
 korean = "별하늘도 예쁘지만 세라도 예쁘지.<end>"
+
+["700273"]
+japanese = "い、いや、そういうんじゃなくてだな。<line-break>おーい！　待ってくれよ！<end>"
+korean = "아, 아니, 그런 뜻이 아니라니까. 어이! 기다려 줘!<end>"
 
 ["700274"]
 japanese = "ねえ、セラとアーギルシャイアの<line-break>関係って、なんだと思う？<end>"

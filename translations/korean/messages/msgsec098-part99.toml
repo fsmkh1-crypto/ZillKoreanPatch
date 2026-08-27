@@ -128,6 +128,10 @@ korean = "내 쪽은 아쉽지만 아직 성배를 되찾지 못했어. 이래�
 japanese = "…その、闇討ちをした奴って、<line-break>今どこで何をしてるのかなあ？<end>"
 korean = "…그 습격한 녀석은 지금 어디서 뭘 하고 있을까?<end>"
 
+["980073"]
+japanese = "ふふ、また会ったわね。　　　　　<line-break><value:$28>。<line-break>　<line-break>今日、私、とっても機嫌がいいの。<line-break>ね、暇があったら<line-break>ちょっと、つきあってくれない？<end>"
+korean = "후후, 또 만났네, <value:$28>. 오늘 나 기분이 아주 좋아. 있지, 시간 있으면 잠깐 어울려 주지 않을래?<end>"
+
 ["980079"]
 japanese = "それじゃあね。<line-break>縁があったら、また会いましょ。　　<end>"
 korean = "그럼 안녕. 인연이 있으면 또 만나자.<end>"

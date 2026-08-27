@@ -120,6 +120,10 @@ korean = "사룡 샨마…!<end>"
 japanese = "<if><value:$01><equal>4きゃん！<line-break>もしかして…！<end>しっ…！<end>"
 korean = "<if><value:$01><equal>4꺅! 혹시…!<end>쉿…!<end>"
 
+["950058"]
+japanese = "フフ、余を…<line-break>余を引きずり出すとは…<line-break>うつけた者どもよ…<end>"
+korean = "후후, 짐을… 짐을 끌어내다니… 어리석은 자들이여….<end>"
+
 ["950061"]
 japanese = "そして力を求め、<line-break>ボルキスに倒された邪竜シャンマと<line-break>融合した…。<line-break>ダナンが倒れた今、<line-break>シャンマが立ち上がるよ。<line-break>気をつけて。<end>"
 korean = "그리고 힘을 원해 볼키스에게 쓰러진 사룡 샨마와 융합했어… 다난이 쓰러진 지금, 샨마가 일어설 거야. 조심해.<end>"

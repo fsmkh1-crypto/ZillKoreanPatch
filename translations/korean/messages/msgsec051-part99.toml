@@ -68,6 +68,10 @@ korean = "너도 여전하군. 상황은 알고 있을 텐데.<end>"
 japanese = "わかってるさ。<end>"
 korean = "알고 있어.<end>"
 
+["510024"]
+japanese = "イヤだ。俺が追いかけてる奴は<line-break>いずれ、世界に関わることになる。<end>"
+korean = "싫어. 내가 쫓는 녀석은 결국 세계와 관련된 존재가 될 거야.<end>"
+
 ["510025"]
 japanese = "お前が出ていかなければ、<line-break>ロストールの民や兵が<line-break>大勢死ぬだろうな。<line-break>彼らを放っておくなんてマネ、<line-break>お前にできるのか？<end>"
 korean = "네가 나가지 않으면 로스토올의 백성과 병사들이 많이 죽을 거다. 그들을 내버려 둘 수 있겠나?<end>"
@@ -95,6 +99,10 @@ korean = "…네가 이겼다. 알았어. 갈게.<end>"
 ["510035"]
 japanese = "<value:$28>、<line-break>悪いが、急用ができた。<line-break>俺はここで降ろさせてもらう。<line-break>厄介なことに、<line-break>俺にしかできない用事でな。<line-break>だから、しばらくはお別れだ。<end>"
 korean = "<value:$28>, 미안하지만 급한 일이 생겼다. 난 여기서 내릴게. 성가시게도 나밖에 할 수 없는 일이거든. 그러니 한동안 작별이다.<end>"
+
+["510036"]
+japanese = "引き留めてくれるのかい？　　　　<line-break>うれしいねえ。<line-break>　<line-break>だけど、俺なしじゃやって<line-break>いけないのかい？<line-break>自分ひとりじゃ何もできないのか？<end>"
+korean = "붙잡아 주는 건가? 기쁘군. 하지만 나 없이는 못 하는 거야? 혼자서는 아무것도 못 하나?<end>"
 
 ["510037"]
 japanese = "うん…<end>"
@@ -135,6 +143,10 @@ korean = "딩갈 용병으로 계속 남는다<end>"
 ["510053"]
 japanese = "ディンガルの傭兵のままで　　　　<line-break>いいんだね？<end>"
 korean = "딘갈의 용병으로 그대로 있어도 괜찮은 거지?<end>"
+
+["510054"]
+japanese = "それじゃ、登録はすんでるから<line-break>エンシャントの政庁に行くといい。<end>"
+korean = "그럼 등록은 끝났으니 엔샨트의 관청으로 가면 돼.<end>"
 
 ["510056"]
 japanese = "そうかい。<line-break>ま、それもいいかもしれないな。<end>"

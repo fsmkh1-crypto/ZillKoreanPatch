@@ -76,6 +76,10 @@ korean = "그래야지. 그럼 잘 부탁해.<end>"
 japanese = "おっかえりー。<line-break>で、どうだった？<end>"
 korean = "어서 와ー. 그래서, 어땠어?<end>"
 
+["1850033"]
+japanese = "ふーん。<line-break>やるわね、クリュセイス。　<line-break>したたかじゃない。<end>"
+korean = "흐음. 제법이네, 크리세이스. 만만치 않잖아.<end>"
+
 ["1850034"]
 japanese = "ま、フゴーがらみじゃ、　　<line-break>しゃーないわね。<line-break>よし、捜索は打ち切り！<line-break>最後に、時計塔を壊して、<line-break>リベルダム占領作戦は終了！<end>"
 korean = "뭐, 후고가 얽혔다면 어쩔 수 없지. 좋아, 수색은 중단! 마지막으로 시계탑을 부수고 리벨덤 점령 작전은 종료!<end>"
@@ -123,6 +127,10 @@ korean = "이런, <value:$28>님. 이런 때 오시다니. 무슨 용건이신�
 ["1850047"]
 japanese = "何かな、何かな。<end>"
 korean = "뭘까, 뭘까.<end>"
+
+["1850048"]
+japanese = "ふむ…。<line-break>クリュセイス・クロイスの<line-break>ことについてですか。<end>"
+korean = "흠…. 크리세이스 크로이스에 관한 이야기입니까.<end>"
 
 ["1850049"]
 japanese = "なんじゃ…。<line-break>お宝を持ってきたんじゃ<line-break>ないんじゃのぉ。<end>"
@@ -187,6 +195,10 @@ korean = "우뉴우….<end>"
 ["1850066"]
 japanese = "ほーっほっほっ、<line-break>むにゅー、ですわねー。<end>"
 korean = "호호호호, 말랑말랑하군요~.<end>"
+
+["1850067"]
+japanese = "お見事です。<line-break>約束通り、お教えしましょう。　　<line-break>　<line-break>クリュセイス様は、<line-break>貴重な報酬と引き換えに<line-break>我々がすでにお逃がししています。<end>"
+korean = "훌륭합니다. 약속대로 알려 드리죠. 크리세이스님은 귀중한 보수와 맞바꾸어 우리가 이미 도망치게 해 드렸습니다.<end>"
 
 ["1850068"]
 japanese = "リベルダムには、<line-break>すでにいらっしゃいません。<end>"

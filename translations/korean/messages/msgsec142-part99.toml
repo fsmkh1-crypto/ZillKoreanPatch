@@ -188,6 +188,10 @@ korean = "후후, 예비 메시지다. 노엘 2/V4, 그 10.<end>"
 japanese = "…これでよかったのですか？<end>"
 korean = "…이걸로 괜찮았던 건가요?<end>"
 
+["1420072"]
+japanese = "夢だってあったのでしょう？<line-break>欲しいものだってあったのでしょう？<line-break>あなたが望みさえすれば…<line-break>富も名誉も…それこそ全てが<line-break>手に入ったのに。<end>"
+korean = "꿈도 있었겠죠? 갖고 싶은 것도 있었겠죠? 당신이 바라기만 했다면… 부도 명예도… 정말 모든 걸 손에 넣을 수 있었는데.<end>"
+
 ["1420073"]
 japanese = "それでも…<line-break>あなたは、このけがれた抜け殻を<line-break>望むのですか？<end>"
 korean = "그래도… 당신은 이 더럽혀진 빈 껍데기를 원하십니까?<end>"
@@ -284,6 +288,10 @@ korean = "모두 네가 내게 가르쳐 준 것들이다….<end>"
 japanese = "ゆこう、<value:$28>。<line-break>新たな土地へ。新たな未来へ…。<end>"
 korean = "가자, <value:$28>. 새로운 땅으로. 새로운 미래로….<end>"
 
+["1420104"]
+japanese = "…親父、酒はまた今度じゃ。<line-break>また、ここへは来る気がするのでな。<end>"
+korean = "…영감, 술은 다음에 하지. 다시 여기 오게 될 것 같으니까.<end>"
+
 ["1420105"]
 japanese = "気がする…か。<line-break>エルズのエアが、<line-break>そんな言葉を使うようになるとは…。<line-break>世の中、面白いもんだね、まったく。<end>"
 korean = "느낌이라…. 엘즈의 에아가 그런 말을 쓰게 되다니…. 세상 참 재미있군.<end>"
@@ -363,6 +371,10 @@ korean = "네모. <value:$28>은 모든 종족이 손을 맞잡고 살아가는 
 ["1420130"]
 japanese = "すべての種族？<end>"
 korean = "모든 종족?<end>"
+
+["1420131"]
+japanese = "そう。人間も、エルフも、<line-break>ドワーフも…そしてもちろん魔人もね。<end>"
+korean = "그래. 인간도, 엘프도, 드워프도… 그리고 물론 마인도.<end>"
 
 ["1420132"]
 japanese = "…だから、お前は<line-break>甘ちゃんだって言ってんだ。<line-break>　<line-break>そんな世界が<line-break>本当にあると思ってんのか？<end>"
@@ -515,6 +527,10 @@ korean = "그, 그렇게까지 생각하고 계셨다니…. 괜한 참견을 �
 ["1420177"]
 japanese = "ふふふ、お疲れのようね、<line-break><value:$28>様。<end>"
 korean = "후후후, 피곤해 보이시네요, <value:$28>님.<end>"
+
+["1420178"]
+japanese = "<value:$28>様が<line-break>いらしてくださったおかげで、<line-break>場がぐっとしまりました。<line-break>きっと、ティアナだけでは、<line-break>まだ説得力に不安がありますもの…。<end>"
+korean = "<value:$28>님께서 와 주신 덕분에 분위기가 훨씬 단단해졌어요. 티아나 혼자였다면 아직 설득력이 부족했을 테니까요….<end>"
 
 ["1420181"]
 japanese = "…<value:$28>様、<line-break>私は、かわいそうな女でしょうか？<end>"
@@ -1007,6 +1023,10 @@ korean = "알아아! 그런 걸 매복이라고 하는 거지.<end>"
 ["1420335"]
 japanese = "まっ、待ち伏せだなんて、<line-break>人聞きの悪い。<line-break> <line-break>アタクシを、そんな悪事の巻きぞえに<line-break>しないでくれるかしら？<end>"
 korean = "매, 매복이라니 듣기 거북하네요. 저를 그런 나쁜 일에 끌어들이지 말아 주실래요?<end>"
+
+["1420336"]
+japanese = "だったらちょっと、<line-break>せまいから、<line-break>どいてほしいんだけど。<end>"
+korean = "그렇다면 좀 좁으니까 비켜 줬으면 하는데.<end>"
 
 ["1420337"]
 japanese = "しっ、誰か来そうよ！<end>"
