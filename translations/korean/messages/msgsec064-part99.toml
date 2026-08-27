@@ -344,6 +344,10 @@ korean = "뭔가 마실 것을 가져다드릴까요?<end>"
 japanese = "相変わらず、<line-break>お忙しいのですね。　　　<line-break>　<line-break>でも、安心しました。<line-break>とてもお元気そうで。<line-break>　<end>"
 korean = "여전히 바쁘시군요. 그래도 안심했어요. 아주 건강해 보이셔서요.<end>"
 
+["640189"]
+japanese = "あの方は、今日もどこかで、<line-break>飲んでおいでですの？<end>"
+korean = "그분은 오늘도 어딘가에서 술을 드시고 계신가요?<end>"
+
 ["640192"]
 japanese = "ごめんなさい。<line-break>せっかく<value:$28>様が<line-break>来てくださったというのに…。<end>"
 korean = "죄송해요. 모처럼 <value:$28> 님이 와 주셨는데….<end>"
@@ -355,6 +359,10 @@ korean = "…알겠습니다.<end>"
 ["640202"]
 japanese = "先に始めていただいて。<line-break>すぐに行きますから。<end>"
 korean = "먼저 시작하고 계세요. 곧 갈 테니까요.<end>"
+
+["640203"]
+japanese = "では、着替えのお手伝いを…。　　　<line-break>　<line-break>　<end>"
+korean = "그럼 갈아입는 걸 도와드리겠습니다….<end>"
 
 ["640204"]
 japanese = "そのぐらい、ひとりでできます。<end>"
@@ -487,6 +495,14 @@ korean = "싫어! 아파! 엄마… 도와줘….<end>"
 ["640253"]
 japanese = "どこ行ったんだ、<line-break>こいつの母ちゃんは？<end>"
 korean = "이 녀석 엄마는 어디 간 거야?<end>"
+
+["640255"]
+japanese = "答えなさい、ゼネテス！<line-break>ここで何をしているの！？<end>"
+korean = "대답해, 제네테스! 여기서 뭐 하고 있는 거야!?<end>"
+
+["640257"]
+japanese = "バカ！　金切り声を出すな。<line-break>チダフが怯えちまう。<end>"
+korean = "바보! 꽥꽥 소리 지르지 마. 치다프가 겁먹잖아.<end>"
 
 ["640259"]
 japanese = "この子のために…頼む。<end>"
@@ -771,6 +787,10 @@ korean = "예비 메시지 8 티아나 볼륨 1 그 2<end>"
 ["640344"]
 japanese = "予備メッセージ９<line-break>ティアナ、ボリューム１その２<end>"
 korean = "예비 메시지 9 티아나 볼륨 1 그 2<end>"
+
+["640345"]
+japanese = "予備メッセージ１０<line-break>ティアナ、ボリューム１その２<end>"
+korean = "예비 메시지 10 티아나, 볼륨 1 그 2<end>"
 
 ["640346"]
 japanese = "ティアナメッセージVOL1-2終端<end>"

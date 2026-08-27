@@ -124,6 +124,10 @@ korean = "더미<end>"
 japanese = "おい、<value:$28>。<end>"
 korean = "야, <value:$28>.<end>"
 
+["650041"]
+japanese = "今から王宮のティアナ王女を<line-break>訪ねる。お前も来い。<end>"
+korean = "지금부터 왕궁의 티아나 공주를 찾아간다. 너도 와.<end>"
+
 ["650044"]
 japanese = "見破られるなよ、　　　　　　　<line-break><value:$28>。<line-break>　<end>"
 korean = "들키지 마라, <value:$28>.<end>"
@@ -139,6 +143,10 @@ korean = "이런, 티아나 공주님. 오늘은 한층 더 아름다우시군�
 ["650051"]
 japanese = "お目にかかれて光栄です、<line-break>ノーブル伯。<end>"
 korean = "뵙게 되어 영광입니다, 노블 백작님.<end>"
+
+["650052"]
+japanese = "俺は他にも用事がある。<line-break>お前はあとは好きにしろ。<end>"
+korean = "나는 다른 볼일도 있다. 너는 이제 마음대로 해.<end>"
 
 ["650054"]
 japanese = "レムオン様、<line-break>またいらっしゃってください。<end>"
@@ -171,6 +179,10 @@ korean = "레무온 님, 그리고 <value:$28>님. 어서 오십시오.<end>"
 ["650068"]
 japanese = "ティアナ様にもご機嫌うるわしく。<end>"
 korean = "티아나 님도 평안하시고.<end>"
+
+["650069"]
+japanese = "さぁ、ご遠慮なさらずに<line-break>奥へお入りくださいませ。<end>"
+korean = "자, 사양하지 마시고 안으로 들어오세요.<end>"
 
 ["650070"]
 japanese = "ずいぶん丁重な<line-break>もてなしようではないか？<end>"

@@ -168,6 +168,10 @@ korean = "이걸로 탐색 의뢰는 완료다. <value:$28>, 길드로 돌아가
 japanese = "これだな。<line-break>早くギルドに持って帰るぞ。　<end>"
 korean = "이거군. 빨리 길드로 가져가자.<end>"
 
+["180083"]
+japanese = "これなのですか？<line-break>では戻りましょう。<line-break>　<end>"
+korean = "이건가요? 그럼 돌아가죠.<end>"
+
 ["180085"]
 japanese = "これなのかい？<line-break>なら早く持って帰ろう。<line-break>　<end>"
 korean = "이건가? 그럼 빨리 가져가자.<end>"

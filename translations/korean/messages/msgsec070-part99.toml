@@ -228,6 +228,10 @@ korean = "안녕, <value:$28>…. 나, 그쪽으로 가도 돼?<end>"
 japanese = "<value:$28>…<line-break>そっち行って…いい？<end>"
 korean = "<value:$28>… 그쪽으로 가도… 돼?<end>"
 
+["700239"]
+japanese = "あのさ、セラと<line-break>アーギルシャイアって似てるよね。<end>"
+korean = "저기, 세라와 아기르샤이아는 닮았지?<end>"
+
 ["700240"]
 japanese = "何もごまかしてるわけじゃないよ。<line-break>本当に似てるなって思ったんだ。<line-break>　<line-break>じゃね、<value:$28>。<line-break>ボクは中に入ってるよ。<end>"
 korean = "딱히 얼버무리는 건 아니야. 정말 닮았다고 생각했어. 그럼 또 봐, <value:$28>. 난 안으로 들어가 있을게.<end>"

@@ -88,6 +88,10 @@ korean = "아, 너희들! 성배를 돌려줘!<end>"
 japanese = "む、ガサツ女と<line-break>聖杯をねらう悪い人間ゴブ！<end>"
 korean = "으, 거친 여자와 성배를 노리는 나쁜 인간이다 고브!<end>"
 
+["710051"]
+japanese = "だ、だ、だから、<line-break>引き上げようって言ったゴブ～！<end>"
+korean = "그, 그러니까 철수하자고 했잖아 고브~!<end>"
+
 ["710053"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
@@ -95,6 +99,10 @@ korean = "핫!<end>"
 ["710056"]
 japanese = "うふふ、やっと…<line-break>やっと聖杯を取り返せたわ！<end>"
 korean = "후후, 드디어… 드디어 성배를 되찾았어!<end>"
+
+["710057"]
+japanese = "ああっ！　聖杯が！<line-break>我らの幸せをもたらすものが！<end>"
+korean = "아앗! 성배가! 우리에게 행복을 가져다줄 것이!<end>"
 
 ["710059"]
 japanese = "オルナット！　何をするゴブ！<line-break>そこをどくゴブ！<end>"
@@ -124,6 +132,10 @@ korean = "세라… 보고 싶었다.<end>"
 japanese = "…<value:$28>！<line-break>危ない！　どけ！<end>"
 korean = "…<value:$28>! 위험해! 비켜!<end>"
 
+["710074"]
+japanese = "そんなものはどうでもいい。<line-break>姉を返してもらおう。<end>"
+korean = "그런 건 아무래도 좋아. 누나를 돌려받겠다.<end>"
+
 ["710075"]
 japanese = "イヤだっていったら？<end>"
 korean = "싫다고 하면?<end>"
@@ -152,9 +164,17 @@ korean = "그럴 시간 없다 고브! 고브고브단, 전진 고브!<end>"
 japanese = "む、聖杯をねらう<line-break>悪い人間たちゴブ！<end>"
 korean = "으, 성배를 노리는 나쁜 인간들 고브!<end>"
 
+["710095"]
+japanese = "だ、だ、だから、<line-break>引き上げようって言ったゴブ～！<end>"
+korean = "그, 그러니까 철수하자고 했잖아 고브~!<end>"
+
 ["710097"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["710100"]
+japanese = "ああっ！　聖杯が！<line-break>我らの幸せをもたらすものが！<end>"
+korean = "아앗! 성배가! 우리에게 행복을 가져다줄 것이!<end>"
 
 ["710102"]
 japanese = "オルナット！　何をするゴブ！<line-break>そこをどくゴブ！<end>"
@@ -183,6 +203,10 @@ korean = "세라… 보고 싶었다.<end>"
 ["710114"]
 japanese = "…<value:$28>！<line-break>危ない！　どけ！<end>"
 korean = "…<value:$28>! 위험해! 비켜!<end>"
+
+["710117"]
+japanese = "そんなものはどうでもいい。<line-break>姉を返してもらおう。<end>"
+korean = "그런 건 아무래도 좋아. 누나를 돌려받겠다.<end>"
 
 ["710118"]
 japanese = "イヤだっていったら？<end>"

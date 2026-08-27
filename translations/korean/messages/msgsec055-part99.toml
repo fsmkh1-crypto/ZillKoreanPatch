@@ -892,6 +892,10 @@ korean = "＜없음＞<end>"
 japanese = "…わたしが剣を抜いた。　　<end>"
 korean = "…내가 검을 뽑았어.<end>"
 
+["550299"]
+japanese = "そして、石化獣が復活して<line-break>みんなを石に変えた。<end>"
+korean = "그리고 석화수가 부활해서 모두를 돌로 만들어 버렸어.<end>"
+
 ["550300"]
 japanese = "わたしはなぜか<line-break>石にならなかった…。　　<end>"
 korean = "나는 어째서인지 돌이 되지 않았어….<end>"
@@ -911,6 +915,14 @@ korean = "나만은 왜인지 돌이 되지 않았어….<end>"
 ["550304"]
 japanese = "…わたしが剣を抜いた。　<end>"
 korean = "…내가 검을 뽑았어.<end>"
+
+["550305"]
+japanese = "だから、石化獣が復活して<line-break>みんなを石に変えた。<end>"
+korean = "그래서 석화수가 부활해서 모두를 돌로 만들어 버렸어.<end>"
+
+["550306"]
+japanese = "わたしだけは、だから<line-break>石にならなかった…。　　<end>"
+korean = "그래서 나만 돌이 되지 않았어….<end>"
 
 ["550307"]
 japanese = "わたし…<line-break>わたし…何をしたの…？<line-break>悪いのは…<line-break>わたし…わたし<line-break>…<end>"
@@ -1135,6 +1147,10 @@ korean = "예비 메시지 8 노엘, 볼륨 1 그 1<end>"
 ["550386"]
 japanese = "予備メッセージ９<line-break>ノエル、ボリューム１その１<end>"
 korean = "예비 메시지 9 노엘, 볼륨 1 그 1<end>"
+
+["550387"]
+japanese = "予備メッセージ１０<line-break>ノエル、ボリューム１その１<end>"
+korean = "예비 메시지 10 노엘, 볼륨 1 그 1<end>"
 
 ["550388"]
 japanese = "ノエル・ボリューム１終端<end>"

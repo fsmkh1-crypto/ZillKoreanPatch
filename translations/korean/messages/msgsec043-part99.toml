@@ -252,6 +252,10 @@ korean = "<미사용> 괜찮아? <value:$28>.<end>"
 japanese = "＜未使用＞大丈夫かの？<line-break><value:$28>。<end>"
 korean = "<미사용> 괜찮은가? <value:$28>.<end>"
 
+["430128"]
+japanese = "＜未使用＞昨日の…アレ…<line-break>なんじゃったのか…。<end>"
+korean = "<未使用> 어제 그… 그건… 대체 뭐였던 걸까….<end>"
+
 ["430131"]
 japanese = "まったく、昨日の…アレ…<line-break>いったい、なんなのよぉ！<end>"
 korean = "정말, 어제 그… 그거… 대체 뭐였던 거야!<end>"
