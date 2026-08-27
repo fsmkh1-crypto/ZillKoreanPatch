@@ -40,6 +40,16 @@ CANONICAL: dict[str, str] = {
     norm_source("スラムの青年<end>"): "빈민가의 청년<end>",
     norm_source("て、敵襲！<end>"): "저, 적습이다!<end>",
     norm_source("へ、へい！<end>"): "예, 예!<end>",
+    # Repeated narration / same-register dialogue. These Japanese sources are
+    # identical, so divergent Korean register or paraphrase is not contextual.
+    norm_source("お主がおるとわかっておれば、<line-break>敗残兵の殲滅を優先させたものを！<line-break>　<end>"): "네놈이 있는 줄 알았다면 패잔병 섬멸을 우선했을 것을!<end>",
+    norm_source("ゼネテス…、<line-break>そうか、お主がおったのか！　　　<line-break>　<line-break>お主ならば、あの敗軍を<line-break>まとめる器量がある！<line-break>くっ、ぬかったわ！<end>"): "제네테스…. 그렇군, 네놈이 있었나! 네놈이라면 그 패잔군을 수습할 역량이 있다! 큭, 방심했군!<end>",
+    norm_source("フッフッフ…。<line-break><line-break><line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"): "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는다….<end>",
+    norm_source("　　　　　　　　　そうか。　　　　　　　　　<line-break>　　　　　ならば無理強いはすまい。<line-break>　<line-break>　<line-break>　　　　　うつろいやすき人の子よ。<line-break>　　　　　　気が変わったならば<line-break>　　　　　　また我を訪ねるがよい。<end>"): "그런가. 그렇다면 억지로 강요하진 않겠다. 변덕스러운 인간의 아이여. 마음이 바뀌면 다시 나를 찾아오거라.<end>",
+    norm_source("　　…我ハ再び降臨セリ。<line-break>生あるモノすべてに滅びヲ…。<line-break>　一切ノ事象ヲ無に帰さん…。<end>"): "…나는 다시 강림했노라. 살아 있는 모든 것에 멸망을…. 모든 현상을 무로 돌리리라….<end>",
+    norm_source("ついに復活したぜ！<line-break>これで本格的に活動できる！<line-break>ありがとよ。ギーヒッヒッ！<line-break>まず手始めに、お前を殺す！<line-break>マゴス様の恐怖のフルコース、<line-break>とくと味わえ！　ギーヒッ！<end>"): "드디어 부활했다! 이제 본격적으로 활동할 수 있어! 고맙다. 기히히힛! 우선 시작으로 네놈을 죽여 주마! 마고스 님의 공포 풀코스, 실컷 맛봐라! 기힛!<end>",
+    norm_source("ネメアにより西方攻略を命じられた　<line-break>白虎将軍ジラークは、　　　　<line-break>難航不落といわれたアキュリュースを<line-break>ほぼ無傷のまま支配下に収めた。<end>"): "네메아에게 서방 공략을 명령받은 백호장군 지라크는 난공불락이라 불리던 아큐류스를 거의 피해 없이 지배하에 두었다.<end>",
+    norm_source("王妃様にお会いになるのですね。<line-break>かしこまりました。<line-break>どうぞお通りください。<line-break>しかし、伯爵様、よろしいのですか？<line-break>お兄君のエリエナイ公は…<line-break>い、いえ、出過ぎだ発言でした。<end>"): "왕비님을 만나러 가시는군요. 알겠습니다. 들어가십시오. 하지만 백작님, 괜찮으십니까? 형님이신 에리에나이 공은…. 아, 아닙니다. 제가 주제넘은 말을 했습니다.<end>",
     norm_source("　　　　　　指導者を失った両国は<line-break>　　　一時的な停戦状態に陥るのだった。<end>"): "지도자를 잃은 두 나라는 일시적인 휴전 상태에 들어갔다.<end>",
     norm_source("円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"): "원탁기사에는 그 밖에도 아르길샤이어 등이 있습니다.<end>",
     norm_source("将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"): "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>",
