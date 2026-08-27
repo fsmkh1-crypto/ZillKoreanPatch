@@ -112,6 +112,139 @@ class HistoricalRowsTests(unittest.TestCase):
                     )
                 )
 
+    def test_unreachable_recovery_source_fails_closed(self) -> None:
+        commit = "f" * 40
+        proc = SimpleNamespace(returncode=128, stdout="", stderr="fatal: invalid object name")
+        with mock.patch.object(apply_results.subprocess, "run", return_value=proc):
+            with self.assertRaisesRegex(SystemExit, "cannot read recovery source"):
+                list(
+                    apply_results.historical_rows(
+                        {
+                            "recover_from": {
+                                "commit": commit,
+                                "path": "work/korean-results/missing.jsonl",
+                            }
+                        },
+                        Path("manifest.jsonl"),
+                        1,
+                    )
+                )
+
+
+class RecoveryConflictTests(unittest.TestCase):
+    def _run_recovery_main(
+        self,
+        packet_texts: dict[str, str],
+        manifest_rows: list[dict[str, object]],
+        *,
+        existing: dict[tuple[int, str], str] | None = None,
+        canonical: dict[str, dict[str, object]] | None = None,
+    ) -> tuple[str, str, Path]:
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        root = Path(self.tmp.name)
+        manifest = root / "manifest.jsonl"
+        manifest.write_text(
+            "\n".join(__import__("json").dumps(row) for row in manifest_rows) + "\n",
+            encoding="utf-8",
+        )
+        output_dir = root / "korean"
+        existing = existing or {}
+        canonical = canonical or {"30000": {"japanese": "A<end>"}}
+
+        def fake_git_show(argv: list[str], **_: object) -> SimpleNamespace:
+            spec = argv[2]
+            try:
+                content = packet_texts[spec]
+            except KeyError:
+                return SimpleNamespace(returncode=128, stdout="", stderr=f"missing {spec}")
+            return SimpleNamespace(returncode=0, stdout=content, stderr="")
+
+        stdout = io.StringIO()
+        stderr = io.StringIO()
+        with (
+            mock.patch.object(apply_results, "KOREAN", output_dir),
+            mock.patch.object(apply_results, "load_existing", return_value=(existing.copy(), {})),
+            mock.patch.object(apply_results, "canonical_for", return_value=canonical),
+            mock.patch.object(apply_results.subprocess, "run", side_effect=fake_git_show),
+            mock.patch.object(apply_results.sys, "argv", ["apply-results.py", str(manifest)]),
+            contextlib.redirect_stdout(stdout),
+            contextlib.redirect_stderr(stderr),
+        ):
+            apply_results.main()
+        return stdout.getvalue(), stderr.getvalue(), output_dir
+
+    def test_identical_id_across_two_recovery_pointers_applies_once(self) -> None:
+        c1, c2 = "1" * 40, "2" * 40
+        p1 = "work/korean-results/a.jsonl"
+        p2 = "work/korean-results/b.jsonl"
+        row = '{"section":3,"id":"30000","korean":"같음<end>"}\n'
+        stdout, stderr, output_dir = self._run_recovery_main(
+            {f"{c1}:{p1}": row, f"{c2}:{p2}": row},
+            [
+                {"recover_from": {"commit": c1, "path": p1}},
+                {"recover_from": {"commit": c2, "path": p2}},
+            ],
+        )
+        self.assertIn("applied 1 new translations", stdout)
+        self.assertNotIn("recovery-skip", stderr)
+        rendered = (output_dir / "msgsec003-part99.toml").read_text(encoding="utf-8")
+        self.assertEqual(rendered.count('["30000"]'), 1)
+        self.assertIn('korean = "같음<end>"', rendered)
+
+    def test_conflicting_recovery_pointers_preserve_first_input(self) -> None:
+        c1, c2 = "3" * 40, "4" * 40
+        p1 = "work/korean-results/a.jsonl"
+        p2 = "work/korean-results/b.jsonl"
+        stdout, stderr, output_dir = self._run_recovery_main(
+            {
+                f"{c1}:{p1}": '{"section":3,"id":"30000","korean":"첫값<end>"}\n',
+                f"{c2}:{p2}": '{"section":3,"id":"30000","korean":"둘째값<end>"}\n',
+            },
+            [
+                {"recover_from": {"commit": c1, "path": p1}},
+                {"recover_from": {"commit": c2, "path": p2}},
+            ],
+        )
+        self.assertIn("applied 1 new translations", stdout)
+        self.assertIn("1 historical conflicts preserved current corpus", stdout)
+        self.assertIn("recovery-skip 3/30000: earlier input preserved", stderr)
+        rendered = (output_dir / "msgsec003-part99.toml").read_text(encoding="utf-8")
+        self.assertIn('korean = "첫값<end>"', rendered)
+        self.assertNotIn("둘째값", rendered)
+
+    def test_recovery_conflict_preserves_current_corpus(self) -> None:
+        commit = "5" * 40
+        path = "work/korean-results/a.jsonl"
+        stdout, stderr, output_dir = self._run_recovery_main(
+            {f"{commit}:{path}": '{"section":3,"id":"30000","korean":"옛값<end>"}\n'},
+            [{"recover_from": {"commit": commit, "path": path}}],
+            existing={(3, "30000"): "현재값<end>"},
+        )
+        self.assertIn("applied 0 new translations", stdout)
+        self.assertIn("1 historical conflicts preserved current corpus", stdout)
+        self.assertIn("recovery-skip 3/30000: current corpus preserved", stderr)
+        self.assertFalse(output_dir.exists(), "recovery conflict must not rewrite the current corpus")
+
+    def test_recovery_unknown_id_fails_closed(self) -> None:
+        commit = "6" * 40
+        path = "work/korean-results/a.jsonl"
+        with self.assertRaisesRegex(SystemExit, "unknown canonical id 3/39999"):
+            self._run_recovery_main(
+                {f"{commit}:{path}": '{"section":3,"id":"39999","korean":"값<end>"}\n'},
+                [{"recover_from": {"commit": commit, "path": path}}],
+            )
+
+    def test_recovery_fixed_token_mismatch_fails_closed(self) -> None:
+        commit = "7" * 40
+        path = "work/korean-results/a.jsonl"
+        with self.assertRaisesRegex(SystemExit, "fixed-control mismatch 3/30000"):
+            self._run_recovery_main(
+                {f"{commit}:{path}": '{"section":3,"id":"30000","korean":"값<end>"}\n'},
+                [{"recover_from": {"commit": commit, "path": path}}],
+                canonical={"30000": {"japanese": "A<value:$28><end><end>"}},
+            )
+
 
 class OrdinaryConflictTests(unittest.TestCase):
     def test_reports_all_conflicts_and_writes_nothing(self) -> None:
