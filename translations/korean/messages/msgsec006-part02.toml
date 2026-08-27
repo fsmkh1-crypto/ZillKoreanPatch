@@ -17,7 +17,7 @@ layout = "<if><value:$33><less-equal>2젠장! 뭐가 꿈이 이루어지는 도�
 
 ["60028"]
 japanese = "<if><value:$2C><less-equal>%9剣聖レーグこそ、我らボルダンの誇り。<line-break>彼に勝てるものは、この世にはいないだろう。<line-break>お前ごときでは、一撃ともたないだろうな。<end><if><value:$2C><less-equal>%29剣聖レーグは勇者ネメアとともに<line-break>魔王バロルを倒したという。<line-break>ゼネテスとやらも、二撃ともたないだろうな。<end><if><value:$2C><less-equal>%49ロストールのレムオンという貴族は<line-break>二刀流の使い手らしいな。<line-break>だが、レーグの二刀流は無敵だ！<line-break>その男も、三撃ともたないだろうな。<line-break>レーグは最強の男だからな。<end>…たぶん無理だと思うが、<line-break>お前なら竜王にも勝てるかもしれんな。<line-break>たぶん無理だと思うが…<end>"
-korean = "<if><value:$2C><less-equal>%9검성 레그야말로 우리 볼단의 자랑이다. 그를 이길 자는 이 세상에 없겠지. 너 정도는 한 방도 못 버틸 거다.<end><if><value:$2C><less-equal>%29검성 레그는 용사 네메아와 함께 마왕 바로르를 쓰러뜨렸다지. 제네테스라는 자도 두 방은 못 버틸 거다.<end><if><value:$2C><less-equal>%49로스토올의 레몬이라는 귀족은 이도류의 달인이라더군. 하지만 레그의 이도류는 무적이다! 그 남자도 세 방은 못 버틸 거야. 레그는 최강의 남자니까.<end>…아마 무리라고 생각하지만, 너라면 용왕에게도 이길지 모르겠군. 아마 무리겠지만….<end>"
+korean = "<if><value:$2C><less-equal>%9검성 레그야말로 우리 볼단의 자랑이다. 그를 이길 자는 이 세상에 없겠지. 너 정도는 한 방도 못 버틸 거다.<end><if><value:$2C><less-equal>%29검성 레그는 용사 네메아와 함께 마왕 발로르를 쓰러뜨렸다지. 제네테스라는 자도 두 방은 못 버틸 거다.<end><if><value:$2C><less-equal>%49로스토올의 레몬이라는 귀족은 이도류의 달인이라더군. 하지만 레그의 이도류는 무적이다! 그 남자도 세 방은 못 버틸 거야. 레그는 최강의 남자니까.<end>…아마 무리라고 생각하지만, 너라면 용왕에게도 이길지 모르겠군. 아마 무리겠지만….<end>"
 layout = "<if><value:$2C><less-equal>%9검성 레그야말로 우리 볼단의 자랑이다.<line-break>그를 이길 자는 이 세상에 없겠지.<line-break>너 정도는 한 방도 못 버틸 거다.<end><if><value:$2C><less-equal>%29검성 레그는 용사 네메아와 함께<line-break>마왕 바로르를 쓰러뜨렸다지.<line-break>제네테스라는 자도 두 방은 못 버틸 거다.<end><if><value:$2C><less-equal>%49로스토르의 레무온이라는 귀족은<line-break>이도류의 달인이라더군.<line-break>하지만 레그의 이도류는 무적이다!<line-break>그 남자도 세 방은 못 버틸 거야.<line-break>레그는 최강의 남자니까.<end>…아마 무리라고 생각하지만,<line-break>너라면 용왕에게도 이길지 모르겠군.<line-break>아마 무리겠지만….<end>"
 
 ["60029"]

@@ -150,7 +150,7 @@ korean = "<if><value:$2C><less-equal>%9전투 중 속도는 민첩 AGI와 장비
 
 ["1280037"]
 japanese = "<if><value:$2C><less-equal>%9ソウルを宿していたときに、<line-break>あまり使わなかったスキルは、<line-break>無理に習得しなくてもいいだろう。<end><if><value:$2C><less-equal>%29宝箱は無理に開けずに、解除に自信がつくまで<line-break>とっておくのもひとつの手だぜ。<end><if><value:$2C><less-equal>%49西の海に、しぶきの群島があるそうだ。<line-break>そこに向かって生きて帰った者は<line-break>いないっていうから危険な所なんだろうな。<end><if><value:$2C><greater-equal>%50エンシャントの中には<line-break>魔王バロルの廃城があって、<line-break>今でも闇の力が強いんだってよ。<end>"
-korean = "<if><value:$2C><less-equal>%9소울을 깃들였을 때 별로 쓰지 않았던 스킬은 억지로 익히지 않아도 될 거야.<end><if><value:$2C><less-equal>%29보물상자는 무리해서 열지 말고 해제에 자신이 생길 때까지 남겨 두는 것도 방법이야.<end><if><value:$2C><less-equal>%49서쪽 바다에 물보라 군도가 있다더군. 거기로 갔다가 살아 돌아온 사람이 없다니 위험한 곳이겠지.<end><if><value:$2C><greater-equal>%50엔샨트 안에는 마왕 바롤의 폐성이 있는데 지금도 어둠의 힘이 강하대.<end>"
+korean = "<if><value:$2C><less-equal>%9소울을 깃들였을 때 별로 쓰지 않았던 스킬은 억지로 익히지 않아도 될 거야.<end><if><value:$2C><less-equal>%29보물상자는 무리해서 열지 말고 해제에 자신이 생길 때까지 남겨 두는 것도 방법이야.<end><if><value:$2C><less-equal>%49서쪽 바다에 물보라 군도가 있다더군. 거기로 갔다가 살아 돌아온 사람이 없다니 위험한 곳이겠지.<end><if><value:$2C><greater-equal>%50엔샨트 안에는 마왕 발로르의 폐성이 있는데 지금도 어둠의 힘이 강하대.<end>"
 
 ["1280038"]
 japanese = "ルーマスの葉を使った、高級なお茶さ。<line-break>貴族たちが、噂話をしながら飲むのはこれだぜ。<line-break>そうそう、噂話と言えば…<end>"
@@ -158,7 +158,7 @@ korean = "루마스 잎을 쓴 고급 차야. 귀족들이 소문을 나누며 �
 
 ["1280039"]
 japanese = "<if><value:$2A><less-equal>%50猫屋敷に住んでいる賢者様は、<line-break>勇者ネメアと一緒に魔王バロルを倒した<line-break>仲間の１人らしいぜ。<end><if><value:$2A><less-equal>%119ザギヴ将軍はライラネート神殿のとなりにある<line-break>墓地をよく訪れるそうだよ。<end><if><value:$2A><less-equal>%150乙女の鏡に強そうなモンスターが<line-break>住み着いたらしいよ。<line-break>もう、誰か、退治してくれたかな？<end><if><value:$2A><greater-equal>%151ここで飲んでるお客さんが、あんたのことを<line-break>話してるのを見ると、なんだか自分の事<line-break>みたいにうれしくなってしまってね。<end>"
-korean = "<if><value:$2A><less-equal>%50고양이 저택에 사는 현자님은 용사 네메아와 함께 마왕 바롤을 쓰러뜨린 동료 중 한 명이라더군.<end><if><value:$2A><less-equal>%119자기브 장군은 라이라네이트 신전 옆 묘지를 자주 찾는다고 해.<end><if><value:$2A><less-equal>%150소녀의 거울에 강해 보이는 몬스터가 자리 잡았다더군. 벌써 누가 퇴치했으려나?<end><if><value:$2A><greater-equal>%151여기서 술 마시는 손님들이 네 이야기를 하는 걸 보면 왠지 내 일처럼 기뻐져.<end>"
+korean = "<if><value:$2A><less-equal>%50고양이 저택에 사는 현자님은 용사 네메아와 함께 마왕 발로르을 쓰러뜨린 동료 중 한 명이라더군.<end><if><value:$2A><less-equal>%119자기브 장군은 라이라네이트 신전 옆 묘지를 자주 찾는다고 해.<end><if><value:$2A><less-equal>%150소녀의 거울에 강해 보이는 몬스터가 자리 잡았다더군. 벌써 누가 퇴치했으려나?<end><if><value:$2A><greater-equal>%151여기서 술 마시는 손님들이 네 이야기를 하는 걸 보면 왠지 내 일처럼 기뻐져.<end>"
 
 ["1280040"]
 japanese = "<if><value:$2A><less-equal>%50エリエナイ公の弟エストは考古学者として<line-break>闇の神器とかいう魔法のアイテムを<line-break>研究しているそうだな。<end><if><value:$2A><less-equal>%119自称未来の勇者ガルドランの奴、<line-break>どうもフェルムちゃんにほれたみたいでな、<line-break>しょっちゅうやって来るんだ。<end><if><value:$2A><less-equal>%149城塞都市跡に恐ろしい魔物が住み着いて、<line-break>うっかり奥に入り込んだ駆け出し冒険者が<line-break>何人か犠牲になってるそうだよ。<end><if><value:$2A><greater-equal>%150駆け出しの吟遊詩人が何人か訪ねてきてね、<line-break>大陸一の冒険者<value:$28>の冒険談を<line-break>知っていたら教えてくださいってさ。<end>"
@@ -214,4 +214,4 @@ korean = "<if><value:$2A><less-equal>%50에리스 왕비는 리벨덤의 무기�
 
 ["1280053"]
 japanese = "<if><value:$2A><less-equal>%50盾を装備できるのは騎士として<line-break>認められた者だけなんだそうだよ。<end><if><value:$2A><less-equal>%100ドワーフ王国の王ジンガは、<line-break>若いころに闘士として、<line-break>闘技場で活躍していたそうだよ。<end><if><value:$2A><less-equal>%120フゴーに仕えているダイダロは、<line-break>闘技場で優勝したこともある、<line-break>なかなかの戦士らしいぜ。<end><if><value:$2A><greater-equal>%121フゴーとフゴー夫人の愛の物語を<line-break>最後まで聞いた人間は、恐怖のあまりに<line-break>狂ってしまうらしいぜ。恐い話だよな。<end>"
-korean = "<if><value:$2A><less-equal>%50방패를 장비할 수 있는 건 기사로 인정받은 자뿐이라더군.<end><if><value:$2A><less-equal>%100드워프 왕국의 왕 진가는 젊었을 때 투사로서 투기장에서 활약했다더군.<end><if><value:$2A><less-equal>%120휴고를 섬기는 다이달로는 투기장에서 우승한 적도 있는 꽤 뛰어난 전사라던데.<end><if><value:$2A><greater-equal>%121휴고와 휴고 부인의 사랑 이야기를 끝까지 들은 사람은 공포 때문에 미쳐 버린다더군. 무서운 이야기지.<end>"
+korean = "<if><value:$2A><less-equal>%50방패를 장비할 수 있는 건 기사로 인정받은 자뿐이라더군.<end><if><value:$2A><less-equal>%100드워프 왕국의 왕 징가는 젊었을 때 투사로서 투기장에서 활약했다더군.<end><if><value:$2A><less-equal>%120휴고를 섬기는 다이다로는 투기장에서 우승한 적도 있는 꽤 뛰어난 전사라던데.<end><if><value:$2A><greater-equal>%121휴고와 휴고 부인의 사랑 이야기를 끝까지 들은 사람은 공포 때문에 미쳐 버린다더군. 무서운 이야기지.<end>"
