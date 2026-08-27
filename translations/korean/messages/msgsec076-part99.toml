@@ -104,6 +104,10 @@ korean = "네.<end>"
 japanese = "それなら、いい。<end>"
 korean = "그렇다면 됐어.<end>"
 
+["760034"]
+japanese = "あたしもノエルと同じよ。<line-break>結果的には、そのシャリって奴の<line-break>思惑に乗ってしまったけど、<line-break>後悔はしていないわ。<line-break>かわいそうな王女を放っておくなんて<line-break>できないもの。<end>"
+korean = "나도 노엘과 같은 생각이야. 결과적으로는 샤리라는 녀석의 의도대로 움직인 셈이지만 후회는 없어. 불쌍한 왕녀를 내버려 둘 수는 없잖아.<end>"
+
 ["760036"]
 japanese = "あ、あの、<value:$28>さん。<line-break>今回は違った行動を<line-break>とってしまいましたね。<line-break>でも、わたし、<line-break><value:$28>さんなら、<line-break>わかってくださると信じてますから。<end>"
 korean = "저, 저기, <value:$28> 씨. 이번에는 다른 행동을 해 버렸네요. 하지만 전 <value:$28> 씨라면 이해해 주실 거라 믿어요.<end>"

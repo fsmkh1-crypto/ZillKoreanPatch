@@ -216,6 +216,10 @@ korean = "후후, 앞으로는 그런 일 없을 겁니다.<end>"
 japanese = "フフ、信じてるぜ。<end>"
 korean = "후후, 믿고 있어.<end>"
 
+["1480057"]
+japanese = "さぁて、すっかり<line-break>長居しちまったからな。<line-break>そろそろ、おいとまするとしようか？<end>"
+korean = "자, 너무 오래 있었군. 슬슬 실례하도록 할까?<end>"
+
 ["1480059"]
 japanese = "うーん。<line-break>最終的な判断は　　　　　　　　<line-break><value:$28>に任せるが、<line-break>そろそろ<value:$28>に、<line-break>ロストールのお偉いさん方から<line-break>なんらかの接触があると思うぜ。<end>"
 korean = "음. 최종 판단은 <value:$28>에게 맡기겠지만 슬슬 로스토올의 높은 분들이 <value:$28>에게 어떤 식으로든 접촉해 올 것 같아.<end>"

@@ -908,6 +908,10 @@ korean = "전령을 보내라! 새로운 황제 <value:$28>의 수색을 시작�
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1420245"]
+japanese = "はいはい！<line-break>宴もたけなわになってきましたが、<line-break>ちょっとみんな、こっち注目ー！<end>"
+korean = "자자! 연회도 한창 무르익었는데, 잠깐 다들 이쪽 주목!<end>"
+
 ["1420246"]
 japanese = "なんじぇいエステル、<line-break>いつから司会者になったんじゃあ。<end>"
 korean = "아니 에스텔, 언제부터 사회자가 된 게냐.<end>"
@@ -1331,6 +1335,10 @@ korean = "아, 아이린이야말로! 아무 목적도 없으면서 여기 있�
 ["1420358"]
 japanese = "うっ…。<end>"
 korean = "윽….<end>"
+
+["1420359"]
+japanese = "とにかく、落ち着きなさいよー！<line-break>そんなこと言ってる今が、<line-break>一番危険なのよー！<end>"
+korean = "아무튼 진정하라니까! 그런 소리 하고 있는 지금이 제일 위험하다고!<end>"
 
 ["1420360"]
 japanese = "アタクシが考えるに、向こうには<line-break>馬鹿でかい蜂の巣があったから、<line-break> <line-break><value:$28>は、<line-break>ここを通るはずなのよー！<end>"

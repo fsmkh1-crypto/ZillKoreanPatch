@@ -28,6 +28,10 @@ korean = "어쩔 수 없군<end>"
 japanese = "忙しいからダメ<end>"
 korean = "바쁘니까 안 돼<end>"
 
+["2080009"]
+japanese = "ありがとう！　シェーヌの森に<line-break>届けてくれるんだな。<line-break>これで俺も安心して旅立てる。<end>"
+korean = "고마워! 셰느의 숲에 전해 주는 거구나. 이걸로 나도 안심하고 떠날 수 있겠어.<end>"
+
 ["2080010"]
 japanese = "恩に着るぜ。<line-break>今日のところはここでお別れだ。<line-break>またな、<value:$28>！<end>"
 korean = "신세 졌다. 오늘은 여기서 헤어지자. 또 보자, <value:$28>!<end>"

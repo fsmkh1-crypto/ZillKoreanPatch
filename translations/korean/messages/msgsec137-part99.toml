@@ -616,6 +616,10 @@ korean = "있잖아, <value:$28>. 마물은 어땠어?<end>"
 japanese = "ハハハ。<line-break><value:$28>、<line-break>大した人気だな。<end>"
 korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
 
+["1370225"]
+japanese = "神器の守護者として、<line-break>修行の旅に出てらっしゃる間に<line-break>ロイ様は人気が下がったのよ。<end>"
+korean = "신기의 수호자로서 수행 여행을 떠나 계시는 동안 로이 님의 인기가 떨어졌어요.<end>"
+
 ["1370226"]
 japanese = "その間、<value:$28>が<line-break>この村を守ってたからな。<end>"
 korean = "그동안 <value:$28>이 이 마을을 지켜 줬으니까.<end>"
@@ -1412,6 +1416,10 @@ korean = "자, 무엇에 대해 설명할까?<end>"
 japanese = "おう、昨日のケガは大丈夫か？<line-break>　<line-break>　<end>"
 korean = "어, 어제 다친 곳은 괜찮아?<end>"
 
+["1370453"]
+japanese = "ところでお前、この街で保管されていた　　<line-break>聖杯が盗まれたって話は知ってっか？<line-break>　<end>"
+korean = "그런데 너, 이 도시에서 보관하던 성배가 도둑맞았다는 얘기 알아?<end>"
+
 ["1370455"]
 japanese = "言葉をしゃべるゴブリンなんて<line-break>今まで聞いたことがない。<line-break>な、怪しいと思うだろ？<end>"
 korean = "말하는 고블린이라니 지금까지 들어 본 적이 없어. 수상하다고 생각하지?<end>"
@@ -1455,6 +1463,10 @@ korean = "<value:$28>, 부탁한다.<end>"
 ["1370466"]
 japanese = "おう、昨日のケガは大丈夫か？<end>"
 korean = "어이, 어제 다친 곳은 괜찮아?<end>"
+
+["1370468"]
+japanese = "ところでお前、この街で保管されていた　　<line-break>聖杯が盗まれたって話は知ってっか？<line-break>　<end>"
+korean = "그런데 너, 이 도시에서 보관하던 성배가 도둑맞았다는 얘기 알아?<end>"
 
 ["1370470"]
 japanese = "言葉をしゃべるゴブリンなんて　　　　　　<line-break>今まで聞いたことがない。<line-break>な、怪しいと思うだろ？<end>"
@@ -1551,6 +1563,10 @@ korean = "부탁한다<end>"
 ["1370496"]
 japanese = "今はそれどころじゃない<end>"
 korean = "지금은 그럴 때가 아니야.<end>"
+
+["1370497"]
+japanese = "よし来た！<line-break>んじゃ、どっから教えてやろうか？<line-break>オッシ道場じゃ、遠慮はタブーだぜ。<end>"
+korean = "좋아! 그럼 어디부터 가르쳐 줄까? 오시 도장에선 사양하는 게 금지라고.<end>"
 
 ["1370498"]
 japanese = "ソウルとは？<end>"

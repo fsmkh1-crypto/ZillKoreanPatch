@@ -48,9 +48,17 @@ korean = "<value:$28>인가. 지난 딩갈과의 전쟁에서 형 노빈이 죽�
 japanese = "凡庸だったが、<line-break>死んでみると、やはり悲しいものだ。　<line-break>それが親族というものかもしれぬ。<end>"
 korean = "평범한 사람이었지만 죽고 나니 역시 슬프군. 그게 혈육이라는 것일지도 모르지.<end>"
 
+["530017"]
+japanese = "フフ、ゼネテスの正体を知って　　　　<line-break>驚いているのか、<line-break><value:$28>？<line-break>驚いているのは私の方だ。<line-break>私の配下がディンガル側にいて<line-break>ロストール軍と戦っているのだからな。<end>"
+korean = "후후, 제네테스의 정체를 알고 놀랐느냐, <value:$28>? 놀란 건 오히려 나다. 내 부하가 딩갈 쪽에서 로스토올군과 싸우고 있으니 말이지.<end>"
+
 ["530018"]
 japanese = "リューガ家に売国奴の反逆者を出して<line-break>レムオンを巻き込もうとしたのか？　<line-break>　<line-break>もしそうならば<line-break>以後、そのような<line-break>愚かなマネはせぬことだ。<end>"
 korean = "류가 가문에 매국노 반역자를 만들어 레몬을 끌어들이려 한 건가? 그렇다면 앞으로는 그런 어리석은 짓은 하지 마라.<end>"
+
+["530019"]
+japanese = "そなたの父フリントは<line-break>決して捨て身の行動はとらなかった。<line-break>なぜだかわかるか？<line-break>捨て身になれば、人は判断力を失う。<line-break>何も守るものがない者は<line-break>強くはなれぬ。<end>"
+korean = "그대의 아버지 플린트는 결코 목숨을 내던지는 행동을 하지 않았다. 왜인지 아느냐? 자포자기하면 사람은 판단력을 잃는다. 지킬 것이 없는 자는 강해질 수 없다.<end>"
 
 ["530021"]
 japanese = "さて、愚かなマネをしてくれた。　<line-break>　<line-break>　<line-break>フリントの子供ゆえ、<line-break>守ってやりたいが、<line-break>事が露見してはかばいきれぬぞ。<end>"

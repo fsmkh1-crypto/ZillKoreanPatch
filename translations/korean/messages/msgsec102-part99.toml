@@ -208,9 +208,17 @@ korean = "왜… 왜 눈을 안 떠 주는 거야…. 눈을 떠 줘… 선생�
 japanese = "<value:$28>…。<line-break>先生のこと、お願い。<end>"
 korean = "<value:$28>…. 선생님을 부탁해.<end>"
 
+["1020069"]
+japanese = "心配しないで。<line-break>もう、街を襲ったりはしない。<line-break>先生が命をかけて教えてくれたから…。<end>"
+korean = "걱정하지 마. 이제 마을을 습격하지 않을 거야. 선생님이 목숨을 걸고 가르쳐 주셨으니까….<end>"
+
 ["1020070"]
 japanese = "<value:$28>…。<line-break>カルラ様を裏切った罪、<line-break>償ってもらうわよ。<end>"
 korean = "<value:$28>…. 카를라 님을 배신한 죄, 갚게 해주겠어.<end>"
+
+["1020071"]
+japanese = "ノーブル伯…。<line-break>貴族のくせにこんな所に出てきて…。<line-break>まず、あなたから殺してあげる。<end>"
+korean = "노블 백작…. 귀족 주제에 이런 곳까지 나오다니…. 우선 당신부터 죽여 줄게.<end>"
 
 ["1020072"]
 japanese = "<value:$28>。<line-break>せめて、苦しまないように<line-break>殺してあげる。<end>"

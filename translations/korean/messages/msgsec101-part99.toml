@@ -8,6 +8,10 @@ korean = "아이린 메시지 VOL4용 시작<end>"
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>帝国に弓ひく身でありながら<line-break>私の前に出てくるなんていい度胸ね。<line-break>　<end>"
 korean = "<value:$28>…. 제국에 반기를 든 몸으로 내 앞에 나타나다니 배짱이 좋구나.<end>"
 
+["1010002"]
+japanese = "いつまでも解放軍に味方してても<line-break>なんにもならないわよ。<line-break>私たちの方についたらどう？<end>"
+korean = "언제까지 해방군 편을 들어도 아무 소용 없어. 우리 쪽으로 오는 게 어때?<end>"
+
 ["1010003"]
 japanese = "そう言うと思った。<line-break>相変わらず、バカね。　<line-break>　<line-break>今度、私と目があったら<line-break>すぐに逃げることね。<line-break>…首が飛ぶわよ。<end>"
 korean = "그렇게 말할 줄 알았어. 여전히 바보네. 다음에 나와 눈이 마주치면 바로 도망쳐. …목이 날아갈 거야.<end>"
@@ -155,6 +159,10 @@ korean = "…난 군무로 바빠. 너도 이제 나한테서 졸업해. 그럼,
 ["1010040"]
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>帝国に弓ひく身でありながら<line-break>私の前に出てくるなんて<line-break>いい度胸ね。<end>"
 korean = "<value:$28>…. 제국에 반기를 든 몸으로 내 앞에 나타나다니 배짱이 좋구나.<end>"
+
+["1010041"]
+japanese = "いつまでも解放軍に味方してても<line-break>なんにもならないわよ。<line-break>私たちの方についたらどう？<end>"
+korean = "언제까지 해방군 편을 들어도 아무 소용 없어. 우리 쪽으로 오는 게 어때?<end>"
 
 ["1010042"]
 japanese = "そう言うと思った。<line-break>相変わらず、バカね。　<line-break>　<line-break>今度、私と目があったら<line-break>すぐに逃げることね。<line-break>…首が飛ぶわよ。<end>"

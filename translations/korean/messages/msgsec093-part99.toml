@@ -12,6 +12,10 @@ korean = "정말, 진짜 너무 열받아! 세상이 놀라움으로 가득하�
 japanese = "<value:$28>のウソツキー！<line-break>　<end>"
 korean = "<value:$28> 거짓말쟁이~!<end>"
 
+["930004"]
+japanese = "ふんっ、ふんっ、ふっっっんだ！<line-break>初めてギルドの依頼を達成したときの<line-break>感動ですって？<end>"
+korean = "흥, 흥, 흐으응! 처음 길드 의뢰를 달성했을 때의 감동이라고?<end>"
+
 ["930006"]
 japanese = "それじゃ、<value:$28>！<line-break>それが欠けていたんじゃ！<end>"
 korean = "그래, <value:$28>! 그게 빠져 있었던 거야!<end>"
@@ -71,6 +75,10 @@ korean = "좋아, 불꽃의 샘이 염룡의 불꽃으로 가득 찼다.<end>"
 ["930023"]
 japanese = "さっそく準備じゃ。<line-break><value:$28>、そこにある<line-break>光る炎竜岩を持ってきてくれ。<end>"
 korean = "당장 준비하자. <value:$28>, 거기 있는 빛나는 염룡암을 가져와 줘.<end>"
+
+["930024"]
+japanese = "どこへ行く気じゃ？　<line-break>少しくらい暑くともガマンせい。<line-break>お主なら耐えられるはずじゃ。<end>"
+korean = "어디 가려는 게냐? 좀 덥더라도 참거라. 너라면 견딜 수 있을 게다.<end>"
 
 ["930025"]
 japanese = "<value:$28>、<line-break>早く炎竜岩を持ってくるんじゃ。<end>"

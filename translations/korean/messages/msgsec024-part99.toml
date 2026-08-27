@@ -8,9 +8,21 @@ korean = "이미 알지도 모르지만 탈력의 팔찌를 가지고 있으면 
 japanese = "もう知ってるかもしれないが、セヅネの根を<line-break>持ってると、ＶＩＴが極端に低下しちまうんだ。<end>"
 korean = "이미 알지도 모르지만 세즈네의 뿌리를 가지고 있으면 VIT가 극단적으로 낮아져.<end>"
 
+["240002"]
+japanese = "もう知ってるかもしれないが、トヅカネの枝を<line-break>持ってると、ＡＧＩが極端に低下しちまうんだ。<end>"
+korean = "이미 알고 있을지도 모르지만 토즈카네의 가지를 가지고 있으면 AGI가 극단적으로 낮아져.<end>"
+
 ["240003"]
 japanese = "もう知ってるかもしれないが、ヒャンデ鉱を<line-break>持ってると、ＡＧＩが極端に低下しちまうんだ。<end>"
 korean = "이미 알지도 모르지만 햔데 광석을 가지고 있으면 AGI가 극단적으로 낮아져.<end>"
+
+["240004"]
+japanese = "もう知ってるかもしれないが、きれぐもの巣を<line-break>持ってると、ＤＥＸが極端に低下しちまうんだ。<end>"
+korean = "이미 알고 있을지도 모르지만 키레구모의 둥지를 가지고 있으면 DEX가 극단적으로 낮아져.<end>"
+
+["240005"]
+japanese = "もう知ってるかもしれないが、ヒャンデ砂鉄を<line-break>持ってると、ＤＥＸが極端に低下しちまうんだ。<end>"
+korean = "이미 알고 있을지도 모르지만 현데 사철을 가지고 있으면 DEX가 극단적으로 낮아져.<end>"
 
 ["240006"]
 japanese = "もう知ってるかもしれないが、ハヤスの葉を<line-break>持ってると、ＩＮＴが極端に低下しちまうんだ。<end>"
@@ -107,6 +119,10 @@ korean = "<value:$15>을 <value:$1B>일 이내에 <value:$16>까지 운반해 �
 ["240061"]
 japanese = "急募　運び屋さん<line-break><value:$15>を送り届けてください。<line-break><value:$16>が目的地です。<line-break><value:$1B>日以内に届けてくださったならば、<line-break><value:$1A>ギアさしあげます。<end>"
 korean = "긴급 모집 운반원. <value:$15>을 데려다주세요. 목적지는 <value:$16>입니다. <value:$1B>일 안에 데려다주시면 <value:$1A>기어를 드립니다.<end>"
+
+["240071"]
+japanese = "<value:$15>を運んでくれる方募集！！<line-break>お礼は、<value:$1A>ギア！<line-break>目的地は<value:$16>！<line-break>期限は<value:$1B>日以内！<line-break>物品の運搬をしてくれる者を探しておる。<line-break>条件は上記の通りだ。<end>"
+korean = "<value:$15>을 운반해 줄 사람 모집!! 사례금은 <value:$1A>기어! 목적지는 <value:$16>! 기한은 <value:$1B>일 이내! 물품을 운반해 줄 사람을 찾고 있다. 조건은 위와 같다.<end>"
 
 ["240073"]
 japanese = "<value:$15>を<value:$16>に運びます。<line-break>運搬を請け負ってくださる方を募ります。<line-break>到着の期限は<value:$1B>日以内でお願いします。<line-break>お礼は、<value:$1A>ギアご用意しました。<end>"

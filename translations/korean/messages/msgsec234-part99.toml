@@ -8,6 +8,10 @@ korean = "PSP용 사이좋은 차카와 반 이벤트06용<end>"
 japanese = "さっきからコソコソと…。<line-break>俺に何か用か？<end>"
 korean = "아까부터 몰래몰래…. 나한테 무슨 볼일이야?<end>"
 
+["2340002"]
+japanese = "別に用ってほどでもないけど…。<line-break>俺たちは、ただセラと<line-break>仲よくなりたくてさ…。<end>"
+korean = "딱히 볼일이 있는 건 아니지만…. 우린 그냥 세라와 친해지고 싶어서….<end>"
+
 ["2340003"]
 japanese = "たまたま<value:$28>と<line-break>行動を共にして<line-break>お前たちと知り合ったまでだ。<line-break>親しくなる必要はない。<end>"
 korean = "우연히 <value:$28>과 행동을 함께하다 너희와 알게 됐을 뿐이다. 친해질 필요는 없어.<end>"
@@ -47,6 +51,10 @@ korean = "아, 아아… 재미있었던… 것 같아. 왠지 모르게…<end>
 ["2340014"]
 japanese = "き、聞いたか、チャカ？<end>"
 korean = "드, 들었나, 차카?<end>"
+
+["2340015"]
+japanese = "もちろんさ、ヴァン。<line-break>セラがわかってくれたよ！<line-break>俺たちの苦労が報われたんだ！<end>"
+korean = "물론이지, 반. 세라가 알아줬어! 우리 고생이 보답받은 거야!<end>"
 
 ["2340016"]
 japanese = "姉ちゃん、聞いてくれよ。<line-break>やっと俺たちの思いが通じたんだ。<line-break>　<line-break>セラだって、やっぱり俺たちと<line-break>同じ感性だったんだよ！<end>"

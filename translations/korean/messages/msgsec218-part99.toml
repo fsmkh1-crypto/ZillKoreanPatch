@@ -32,6 +32,10 @@ korean = "어?<end>"
 japanese = "ここで待っていろ。<end>"
 korean = "여기서 기다려.<end>"
 
+["2180008"]
+japanese = "どうも、すみません。<line-break>私がちょっと目を離したばっかりに<line-break>迷子になってしまって…。<end>"
+korean = "정말 죄송합니다. 제가 잠깐 한눈을 판 사이에 길을 잃어버려서….<end>"
+
 ["2180009"]
 japanese = "ありがとう、おっきいオジちゃん。<line-break>またね。<end>"
 korean = "고마워, 큰 아저씨. 또 봐.<end>"
@@ -47,6 +51,10 @@ korean = "무슨 일이야?<end>"
 ["2180012"]
 japanese = "あ、いえ、ごめんなさい。<line-break>ちょっと意外だったから。<end>"
 korean = "아, 아니에요. 죄송해요. 조금 의외여서요.<end>"
+
+["2180014"]
+japanese = "見かけによらずって言ったら<line-break>失礼なんだろうけど、<line-break>結構、子供好きだったのね。<end>"
+korean = "보기와 다르다고 하면 실례겠지만, 꽤 아이들을 좋아했네.<end>"
 
 ["2180015"]
 japanese = "子供は宝だ。<line-break>無限の可能性を秘めた<line-break>かけがえのない、な。<end>"
