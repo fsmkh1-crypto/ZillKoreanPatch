@@ -136,6 +136,10 @@ korean = "다시 온다<end>"
 japanese = "説明を終わる<end>"
 korean = "설명을 끝낸다<end>"
 
+["270047"]
+japanese = "あら、今日の予選大会は、<line-break>もう、終わったのよ。<line-break>また明日、来てちょうだい。<end>"
+korean = "어머, 오늘 예선 대회는이미 끝났어요.내일 다시 와 주세요.<end>"
+
 ["270048"]
 japanese = "あら、今年の決勝大会は、<line-break>もう、終わったのよ。<line-break>今月は、大会は開かれないわ。<end>"
 korean = "어머, 올해 결승대회는 이미 끝났어요. 이번 달에는 대회가 열리지 않아요.<end>"
@@ -156,6 +160,10 @@ korean = "<value:$28> 씨는 이미 결승에 출전할 자격을 갖고 있어�
 japanese = "それでも出場しますか？<end>"
 korean = "그래도 출전하시겠습니까?<end>"
 
+["270054"]
+japanese = "これで<value:$28>さんは、<line-break>決勝大会に出場する権利を得ました。　<line-break><line-break>決勝大会に参加する気があったら８月に<line-break>ここに来てください。<line-break>待っていますよ。<end>"
+korean = "이걸로 <value:$28> 님은,결승 대회에 출전할 권리를 얻었습니다.　결승 대회에 참가할 생각이 있다면 8월에여기로 와 주세요.기다리고 있겠습니다.<end>"
+
 ["270056"]
 japanese = "<value:$28>さんは<line-break>すでに決勝大会に出場する権利が　<line-break>ありますね。<line-break>８月に決勝大会がありますからね。<line-break>忘れずに来てくださいね。<end>"
 korean = "<value:$28>님은 이미 결승대회 출전 자격이 있습니다. 8월에 결승대회가 있으니 잊지 말고 와 주세요.<end>"
@@ -175,6 +183,10 @@ korean = "좀 더 강해진 뒤에 오는 게 좋겠어요.<end>"
 ["270060"]
 japanese = "いらっしゃい、チャンプ。<line-break>対戦相手は、もう決まっているわ。<line-break>すぐに控え室に行ってちょうだい。<line-break>連覇、期待しているわよ。<end>"
 korean = "어서 와, 챔프. 상대는 이미 정해졌어. 바로 대기실로 가 줘. 연승 기대할게.<end>"
+
+["270061"]
+japanese = "決勝大会にようこそ。<line-break>あなたは出場権利を持っているけど、<line-break>どうする？　<end>"
+korean = "결승 대회에 어서 오세요.당신은 출전권이 있는데,어떻게 할래요?　<end>"
 
 ["270062"]
 japanese = "いま、決勝大会をやっているの。<line-break>悪いけど、出場権利を持っていない<line-break>人は出られないのよ。<line-break>予選を勝ち抜いて、<line-break>来年こそ出場してね。<end>"
@@ -223,6 +235,10 @@ korean = "결승은 토너먼트전이야. 매년 8월에 열려. 1회전, 2회�
 ["270075"]
 japanese = "<line-break>栄光を踏みにじる者の称号を得た。<line-break>　<end>"
 korean = "영광을 짓밟는 자의 칭호를 얻었다.<end>"
+
+["270077"]
+japanese = "まさか、レーグに勝ったあなたが、<line-break>負けるなんて……。<line-break>上には上がいるのね。<end>"
+korean = "설마 레그에게 이긴 당신이,지다니…….위에는 위가 있네요.<end>"
 
 ["270078"]
 japanese = "<line-break>元デュエルマスターの称号を得た。<line-break>　<end>"

@@ -4,6 +4,10 @@
 japanese = "イークレムン　Ｖ２　開始<end>"
 korean = "이크렘 V2 시작<end>"
 
+["1830001"]
+japanese = "傭兵志願の方ですね。<line-break>どうぞ、神官長様のお話を<line-break>お聞きください。<end>"
+korean = "용병 지원자시군요.부디 신관장님의 말씀을들어 주십시오.<end>"
+
 ["1830003"]
 japanese = "では、これよりあなたには<line-break>この聖地の盾として働いてもらいます。<line-break>まずは…<end>"
 korean = "그럼 이제부터 당신에게 이 성지의 방패로 일해 주셔야겠습니다. 우선은…<end>"
@@ -40,6 +44,10 @@ korean = "후우, 수고했다. 그런데 이번 적은 제법 기합이 들어�
 japanese = "よかったよ～。<line-break>なんとか生きて報酬もらえたよ～。<line-break>もうこんなのこりごりだ～。<end>"
 korean = "다행이다~. 어떻게든 살아서 보수도 받았어~. 이런 건 이제 질렸어~.<end>"
 
+["1830024"]
+japanese = "<if><value:$2A><greater-equal>50よお、<value:$2B>の<line-break><value:$28>じゃないか。<line-break>どうだい、調子の方は？<end>よお、<value:$28>か。<line-break>どうだい、調子は？<end>"
+korean = "<if><value:$2A><greater-equal>50여어, <value:$2B>의<value:$28> 아니야.어때, 상태는?<end>여어, <value:$28>인가.어때, 상태는?<end>"
+
 ["1830027"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
@@ -63,6 +71,10 @@ korean = "그럼 지금까지처럼 딩갈 제국 편이라는 걸로 잘 부탁
 ["1830034"]
 japanese = "じゃ、書類の方は送っとくから、<line-break>アキュリュースの神殿の方へ行ってくれ。<line-break>そこで、詳しい話があるはずだ。<line-break>今後はアキュリュース兵ってことで<line-break>がんばってくれよな。<end>"
 korean = "그럼 서류는 보내 둘 테니 아큐류스 신전으로 가 줘. 거기서 자세한 이야기를 들을 수 있을 거야. 앞으로는 아큐류스 병사로서 힘내 줘.<end>"
+
+["1830037"]
+japanese = "今、アキュリュースがディンガルに<line-break>攻められそうになっててな、<line-break>傭兵を募集しているんだよ。<line-break>報酬は１戦ごとに払うらしい。<line-break>どうだい？　やってみるかい？<end>"
+korean = "지금 아큐류스가 딩갈에게공격받을 것 같아서,용병을 모집하고 있어.보수는 전투마다 지급한다더군.어때? 해 볼래?<end>"
 
 ["1830038"]
 japanese = "引き受ける<end>"

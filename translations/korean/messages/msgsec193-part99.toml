@@ -136,6 +136,10 @@ korean = "알고 있다. 뭐, 내 이야기를 들어 보게.<end>"
 japanese = "<value:$28>、<line-break>娘を頼んだぞ。<end>"
 korean = "<value:$28>, 딸을 부탁한다.<end>"
 
+["1930038"]
+japanese = "<if><value:$29><equal>%0お、お父さま…！<line-break>と、突然、<line-break>何を言い出すんですか！<end>お父さま……。<line-break>突然、どうしたのですか？<end>"
+korean = "<if><value:$29><equal>%0아, 아버님…!가, 갑자기,무슨 말씀을 하시는 겁니까!<end>아버님…….갑자기 왜 그러십니까?<end>"
+
 ["1930040"]
 japanese = "<value:$28>、<line-break>娘を頼んだぞ。<end>"
 korean = "<value:$28>, 딸을 부탁한다.<end>"

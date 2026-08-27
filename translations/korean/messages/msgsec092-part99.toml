@@ -212,6 +212,10 @@ korean = "검을 벼린다는 건… 대체 무슨 뜻일까. 하하, 미안하�
 japanese = "炎竜山か…。<line-break>すまぬが、わしは登りとうない。<line-break>　<line-break>この山で鍛冶をしてるはずの<line-break>古い仲間に、今のわしを<line-break>見られるのはつらい……。<end>"
 korean = "염룡산인가…. 미안하지만 난 오르고 싶지 않네. 이 산에서 대장장이 일을 하고 있을 옛 동료에게 지금의 나를 보이는 건 괴로워….<end>"
 
+["920082"]
+japanese = "すまぬ。わしにはどうしても　　　<line-break>この先へ進むことができん。<line-break>お主らだけで行ってくれ。<line-break>また、わしで力になれるなら<line-break>すまんがもう一度呼び出してくれ。<end>"
+korean = "미안하구나. 나는 아무래도　　　이 앞으론 나아갈 수가 없다.너희끼리 가거라.또 내 힘이 필요하다면미안하지만 한 번 더 불러 다오.<end>"
+
 ["920086"]
 japanese = "では、炎竜山へ出発じゃ。<line-break>町を出る時に落ちあおうぞ。<end>"
 korean = "그럼 염룡산으로 출발하자. 마을을 나갈 때 합류하자꾸나.<end>"
@@ -219,6 +223,10 @@ korean = "그럼 염룡산으로 출발하자. 마을을 나갈 때 합류하자
 ["920088"]
 japanese = "カッツ…。<line-break>ロッチナ…。<line-break>　<end>"
 korean = "캇츠…. 롯치나….<end>"
+
+["920090"]
+japanese = "ん？　なんじゃ。<line-break>墓のようじゃが…。<line-break>ここにささっているのは…剣か？<end>"
+korean = "응? 뭐지.무덤 같은데….여기에 꽂혀 있는 건… 검인가?<end>"
 
 ["920091"]
 japanese = "こ、これは…。　　　　　<line-break>この剣は…。<line-break>　<line-break>なんと…いうことじゃ…。<end>"
@@ -243,6 +251,10 @@ korean = "<value:$28>, 미안하지만 오늘은 산을 내려가 주겠나? 지
 ["920099"]
 japanese = "すまん。<end>"
 korean = "미안하군.<end>"
+
+["920100"]
+japanese = "カッツ、ロッチナ。<line-break>お前たちの夢、このわしが<line-break>引き継がせてもらうぞ。<end>"
+korean = "카츠, 로치나.너희의 꿈은 이 내가이어받도록 하마.<end>"
 
 ["920101"]
 japanese = "わぁ、珍しい剣だね。<line-break>折れてるけど…ね、見せてよ。<end>"

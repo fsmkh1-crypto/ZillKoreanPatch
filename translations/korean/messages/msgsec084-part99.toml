@@ -16,6 +16,10 @@ korean = "응? 딸? 무슨 소리야?<end>"
 japanese = "おわっ！<end>"
 korean = "우왓!<end>"
 
+["840005"]
+japanese = "正直に言ったほうが<line-break>いいんじゃなーい？<line-break>あたし、こう見えても短気だから。<end>"
+korean = "솔직하게 말하는 게낫지 않아?나, 이래 보여도 성질이 급하거든.<end>"
+
 ["840006"]
 japanese = "うん。<line-break>いっそ、その方が気持ちイイし。<line-break>勝負しようじゃない。<end>"
 korean = "응. 차라리 그쪽이 속 시원하고. 승부하자.<end>"
@@ -44,9 +48,17 @@ korean = "그거 충분히 나쁜 거잖아.<end>"
 japanese = "うう…。<end>"
 korean = "으으….<end>"
 
+["840014"]
+japanese = "この近くの村でさ、<line-break>年頃の女の子が<line-break>次々に誘拐されててね。<line-break>ペウダ国王の悪癖は<line-break>ウワサに聞いてたけど、<line-break>まさかホントに国王が犯人とはね。<end>"
+korean = "이 근처 마을에서 말이야,혼기가 찬 여자아이들이차례차례 납치되고 있어.페우다 국왕의 나쁜 버릇은소문으로 들었지만,설마 정말 국왕이 범인일 줄이야.<end>"
+
 ["840015"]
 japanese = "…それにしてもくやしいな。　　<line-break>一足遅かったか。<line-break>　<line-break>こいつの話じゃ、連れてこられた<line-break>女の子は、もうペウダのところに<line-break>運び込まれたってさ。<end>"
 korean = "…그나저나 분하네. 한발 늦었나. 이 녀석 말로는 끌려온 여자아이는 이미 페우다에게 보내졌대.<end>"
+
+["840019"]
+japanese = "偶然、やつらを見かけたもんで<line-break>任務を放り出して<line-break>ここまで来ちゃったわけ。<line-break>どう？　ついでだからさ、<line-break>さらわれた女の子を助けに、<line-break>一緒に行かない？<end>"
+korean = "우연히 녀석들을 봐 버려서임무를 내팽개치고여기까지 와 버린 거야.어때? 온 김에,납치된 여자애를 구하러같이 가지 않을래?<end>"
 
 ["840020"]
 japanese = "一緒に行く<end>"
@@ -55,6 +67,10 @@ korean = "함께 간다<end>"
 ["840021"]
 japanese = "遠慮しとく<end>"
 korean = "사양한다<end>"
+
+["840022"]
+japanese = "うるうる、勇者様！<line-break>きっと助けてくださると<line-break>信じてござりましたですわ！<end>"
+korean = "흑흑, 용사님!분명 도와주실 거라고믿고 있었사옵니다!<end>"
 
 ["840023"]
 japanese = "そんじゃ、行きますか。<end>"
@@ -207,6 +223,10 @@ korean = "잘 알겠어. 네가 살아갈 가치도 없는 최악의 인간이�
 ["840067"]
 japanese = "ひいっ！<end>"
 korean = "히익!<end>"
+
+["840068"]
+japanese = "ここまで来てビビってんの？<line-break>こーんな王様、<line-break>いない方が国民のためだって。<end>"
+korean = "여기까지 와서 겁먹은 거야?이런 왕은,없는 편이 국민을 위해서도 낫다니까.<end>"
 
 ["840069"]
 japanese = "命まで取る必要はない？<line-break>何を甘ちゃんなことを<line-break>言ってんの。<line-break>こういう連中はヤれるときに<line-break>ヤっとかないと、泣きをみる<line-break>人が増えるだけだって！<end>"
@@ -516,6 +536,10 @@ korean = "…동정하면 죽일 거야?<end>"
 japanese = "くすっ、あんたってさー、<line-break>割とバカだよね。<line-break>いいわ。教えてあげる。<line-break>そのかわり、同情したら<line-break>ホントに殺すかんね？<end>"
 korean = "후후, 너 말이야 꽤 바보지. 좋아, 알려 줄게. 대신 동정하면 정말 죽여 버릴 거야, 알았어?<end>"
 
+["840156"]
+japanese = "あたしね、笑ってたいの。<line-break>だからね、強くないと<line-break>いけないんだ…。<line-break>あたしが１２になったころ、<line-break>ロセン王ペウダが<line-break>ディンガルの東方に攻め込んだの。<end>"
+korean = "나, 웃고 싶어.그래서 강하지 않으면안 되는 거야….내가 열두 살쯤 됐을 때,로센 왕 페우다가딩갈 동부로 쳐들어왔어.<end>"
+
 ["840160"]
 japanese = "あたし、その時、強烈に思ったんだ…。<line-break>いつでも、笑っていたいって。<line-break>　<line-break>だからね、<line-break>強くなくちゃいけないの。<line-break>誰よりもね…。<end>"
 korean = "나, 그때 강하게 생각했어… 언제나 웃고 싶다고. 그래서 강해야 해. 누구보다도…<end>"
@@ -619,6 +643,10 @@ korean = "네, 네. 이 근처 마을에 부모님과 남동생이….<end>"
 ["840189"]
 japanese = "それじゃ、家族と一緒に　　<line-break>今すぐディンガルへ逃げて。<line-break>　<line-break>奴らに家を知られている以上、<line-break>村にいるのは危険だわ。<end>"
 korean = "그럼 가족과 함께 지금 당장 딘갈로 도망쳐. 녀석들이 집을 아는 이상 마을에 있는 건 위험해.<end>"
+
+["840190"]
+japanese = "ディンガルに入ったら<line-break>この宝石を売るの。<line-break>ちょっとしたお金になるはずよ。<end>"
+korean = "딩갈에 들어가면이 보석을 팔 거야.제법 돈이 될 거야.<end>"
 
 ["840191"]
 japanese = "あの、でも…。<end>"

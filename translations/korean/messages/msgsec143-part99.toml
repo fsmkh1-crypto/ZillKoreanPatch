@@ -88,6 +88,10 @@ korean = "예, 옙.<end>"
 japanese = "聞いてのとおり、<line-break>私はヒルダリア。<line-break>　<line-break>あんたたちの力、<line-break>試させてもらったよ。<end>"
 korean = "들었겠지만 나는 힐다리아야. 너희 실력, 시험해 봤어.<end>"
 
+["1430025"]
+japanese = "<if><value:$01><equal>4試した？　うっ…嫌な言葉。<line-break>魔道アカデミーの試験を<line-break>思い出しちゃうかも…。 <end><if><value:$01><equal>19試したぁ？ <end>試した？ <end>"
+korean = "<if><value:$01><equal>4시험해 봤냐고? 윽… 싫은 말이네.마도 아카데미 시험이떠오를 것 같아…. <end><if><value:$01><equal>19시험해 봤어어? <end>시험해 봤어? <end>"
+
 ["1430026"]
 japanese = "見た目よりも、ずっと腕が立つようね。<line-break>その腕を見込んで頼みがあるの。<end>"
 korean = "보기보다 훨씬 실력이 좋네. 그 실력을 믿고 부탁이 있어.<end>"
@@ -363,6 +367,10 @@ korean = "섬 한가운데에 운석이 떨어진 것 같은 큰 구멍이 있�
 ["1430110"]
 japanese = "いつだったか、<line-break>あの穴へ降りてみようと思ったけど<line-break>そばまで行って、あきらめたわ。<line-break>あそこには、人の進入を拒む<line-break>何かがあるのよ。<end>"
 korean = "언젠가 그 구멍에 내려가 보려 했지만 근처까지 가고 포기했어. 저기에는 사람의 침입을 거부하는 무언가가 있어.<end>"
+
+["1430112"]
+japanese = "美しい島よ。<line-break>古代の生物がそのままの姿で<line-break>生息しているの。<line-break>でも危険な所だわ。<line-break>外部の者を寄せ付けないからこそ、<line-break>あの美しさを保っているのね。<end>"
+korean = "아름다운 섬이야.고대 생물이 옛 모습 그대로살고 있어.하지만 위험한 곳이지.외부인을 가까이하지 않기에,그 아름다움을 유지하는 거겠지.<end>"
 
 ["1430113"]
 japanese = "目の前にイイ女がいるのに…。<line-break>たまには、他のことを聞いたらどう？<end>"

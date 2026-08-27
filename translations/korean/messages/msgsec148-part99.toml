@@ -136,6 +136,10 @@ korean = "와, 대단해 대단해ー!!<end>"
 japanese = "騒ぐなって。頭に響く。　　　　　　　<line-break>　<line-break>　<line-break>オルファウスとゼネテスと<line-break>朝まで飲んでて、ふつか酔いなんだよ。<line-break>いてててって…。<end>"
 korean = "떠들지 마. 머리에 울려. 오르파우스와 제네테스와 아침까지 마셔서 숙취라고. 아야야….<end>"
 
+["1480041"]
+japanese = "さて、このバカ猫はほっといて。<line-break>ここまで訪ねてきてくれた<line-break>あなたたちに見せたいものがあります。<line-break>これから始まる冒険の旅の役に<line-break>きっと立つと思いますよ。<end>"
+korean = "자, 이 바보 고양이는 내버려 두고.여기까지 찾아와 준여러분에게 보여 드릴 게 있습니다.이제 시작될 모험 여행에분명 도움이 될 거예요.<end>"
+
 ["1480042"]
 japanese = "あっ、これ何？<line-break>これ何？<end>"
 korean = "앗, 이거 뭐야? 이거 뭐야?<end>"
@@ -160,6 +164,10 @@ korean = "그나저나 제네테스도 참. 꼴사납다니까.<end>"
 japanese = "すごいすごーい！<end>"
 korean = "대단해, 대단해~!<end>"
 
+["1480050"]
+japanese = "あなたが将来、<line-break>旅で人と出会い、<line-break>仲間を増やしたとき、　　　　　　<line-break>一緒に旅する仲間を<line-break>変更したいと思ったら<line-break>ここに来てください。<end>"
+korean = "당신이 앞으로,여행에서 사람들을 만나고,동료가 늘었을 때,　　　　　　함께 여행할 동료를바꾸고 싶다면여기로 와 주세요.<end>"
+
 ["1480052"]
 japanese = "おはよう、ゼネテス！<end>"
 korean = "좋은 아침, 제네테스!<end>"
@@ -167,6 +175,10 @@ korean = "좋은 아침, 제네테스!<end>"
 ["1480053"]
 japanese = "おはようございます。<line-break>気分はどうですか？<end>"
 korean = "좋은 아침입니다. 기분은 어떠세요?<end>"
+
+["1480054"]
+japanese = "…最悪だ。<line-break>朝まで飲んで寝てるところを<line-break>実験台に使われたんだからな…。<end>"
+korean = "…최악이야.아침까지 마시고 자고 있는 걸실험 대상으로 써 버렸으니까….<end>"
 
 ["1480055"]
 japanese = "くすっ、以後は<line-break>そんなことはありませんから。<end>"
@@ -227,6 +239,10 @@ korean = "아길샤이어에 대해서<end>"
 ["1480076"]
 japanese = "将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
 korean = "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>"
+
+["1480080"]
+japanese = "聖杯をねらってる悪い魔人は　<line-break>アーギルシャイア。<line-break>　<line-break>聖杯を持ってるゴブリンは<line-break>ゴブゴブ団って言って<line-break>今はエンシャントにいる…と。<end>"
+korean = "성배를 노리는 나쁜 마인은　아길샤이어.　성배를 가진 고블린은고브고브단이라고 하고지금은 엔샨트에 있다… 이거지.<end>"
 
 ["1480081"]
 japanese = "忘れないように<line-break>覚えておかなくちゃ。<line-break>　<end>"
@@ -328,6 +344,10 @@ korean = "금단의 성배라면 지금 고브고브단이라는 고블린 셋�
 japanese = "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"
 korean = "원탁기사에는 그 밖에도 아기르샤이아 등이 있습니다.<end>"
 
+["1480121"]
+japanese = "究極生物を作ろうとして、<line-break>その製法を神器、禁断の聖杯から　　<line-break>得ようと、聖杯をねらっています。<line-break>円卓騎士には他に<line-break>うちのネモなどがいますね。<line-break>　<end>"
+korean = "궁극 생물을 만들려고,그 제조법을 신기, 금단의 성배에서　　얻기 위해 성배를 노리고 있습니다.원탁기사에는 그 밖에도저희 네모 같은 이들이 있죠.　<end>"
+
 ["1480122"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
@@ -395,6 +415,10 @@ korean = "<value:$28>, 제네테스가 한 말이 정말 현실이 됐네.<end>"
 ["1480145"]
 japanese = "ん？　なんだ、お前は？<line-break>お城に何か用があるのか？　　　　<end>"
 korean = "응? 뭐냐, 너는? 성에 무슨 볼일이라도 있나?<end>"
+
+["1480146"]
+japanese = "フリントの子だと？<line-break>…そう言えば、<line-break>お前の顔には見覚えがあるな。　　<line-break>お前が訪ねてくるという話は<line-break>聞いている。エリス様がお待ちだ。<line-break>ついてこい。<end>"
+korean = "플린트의 자식이라고?…그러고 보니,네 얼굴은 본 기억이 있군.　　네가 찾아올 거라는 얘기는들었다. 엘리스 님이 기다리신다.따라와.<end>"
 
 ["1480151"]
 japanese = "わざわざ、すまなかったな。<line-break>そなたの元気な姿を見ることができて<line-break>安心した。<line-break>さがってよい。<line-break>フリントの子<value:$28>よ。<end>"

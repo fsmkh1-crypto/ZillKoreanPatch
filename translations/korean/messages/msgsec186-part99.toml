@@ -172,6 +172,10 @@ korean = "자, 빨리 여관으로 돌아가야지. 루루안타, 먼저 가 있
 japanese = "もう！<line-break><value:$28>ったら<line-break>ダメじゃない！　　　　　　　<line-break>早く宿屋に行かないと、<line-break>フリントさんが心配するよぉ。<line-break>ほら、早くぅ。<end>"
 korean = "정말! <value:$28>, 이러면 안 되잖아! 빨리 여관에 가야 해. 플린트 씨가 걱정할 거야. 자, 빨리.<end>"
 
+["1860058"]
+japanese = "たとえ、あなたであっても、<line-break>それは申し上げられません…。　　<line-break>　<end>"
+korean = "설령 당신이라 해도,그건 말씀드릴 수 없습니다….　　　<end>"
+
 ["1860059"]
 japanese = "ま、いいさ。察しはついてる。<line-break>だが、感心しねぇな。<end>"
 korean = "뭐, 됐어. 짐작은 가. 하지만 감탄할 일은 아니군.<end>"
@@ -203,6 +207,10 @@ korean = "어라. 그러고 보니 이름을 못 들었네.<end>"
 ["1860069"]
 japanese = "ん？　あぁ、俺はゼネテス。<line-break>冒険者だ。<end>"
 korean = "응? 아, 난 제네테스. 모험자다.<end>"
+
+["1860070"]
+japanese = "ゼネテスさんね。<line-break>私はルルアンタ。　　　　　<line-break>それと<value:$28>。<end>さっきは本当に<line-break>ありがとうございましたぁ。<end>"
+korean = "제네테스 씨군요.저는 루루안타.　　　　　그리고 <value:$28>.<end>아까는 정말로고마웠어요오.<end>"
 
 ["1860072"]
 japanese = "いや、なに。<line-break>大したことはしてないさ。　　　　<line-break>　<line-break>さて、俺はそろそろ行くとするか。<end>"
@@ -307,6 +315,10 @@ korean = "…무슨 용건이십니까?<end>"
 ["1860102"]
 japanese = "そのような物は存じ上げません。　<line-break>　<line-break>　<end>"
 korean = "그런 물건은 모릅니다.<end>"
+
+["1860104"]
+japanese = "ちょっとぉ、目の細いおじさぁん！<line-break>そんなものないって言ってるでしょぉ！<end>"
+korean = "저기요, 눈 가느다란 아저씨이!그런 건 없다니까요오!<end>"
 
 ["1860107"]
 japanese = "子供たちに手出しはさせん！　　　<line-break>　<line-break>　<end>"

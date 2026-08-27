@@ -332,6 +332,10 @@ korean = "나도 방금 왔으니 신경 쓰지 마. 자, 갑판으로 올라가
 japanese = "あ、いたいた。<line-break>待ってー。クリュセイスお姉ちゃん、<line-break><value:$28>お兄ちゃん。<end>"
 korean = "아, 여기 있었네. 기다려ー. 크류세이스 언니, <value:$28> 오빠.<end>"
 
+["1920102"]
+japanese = "まぁ、こんなにたくさん。<line-break>ありがとう。<line-break>お母さんによろしく言ってね。<end>"
+korean = "어머, 이렇게나 많이.고마워.어머니께 안부 전해 줘.<end>"
+
 ["1920103"]
 japanese = "それにしても、<line-break>クリュセイスお姉ちゃんたち、　　　<line-break>いつも一緒にいるね。<line-break>今日もこれから、でーと？<end>"
 korean = "그러고 보니 크류세이스 언니네는 늘 같이 다니네. 오늘도 이제부터 데이트야?<end>"
@@ -740,6 +744,10 @@ korean = "<value:$28> 씨~!<end>"
 japanese = "よかった。<line-break><value:$28>さんと<line-break>すぐに会うことができて。<line-break>あの、実は大変なことに<line-break>なってしまって。<line-break>話を聞いてもらえますか？<end>"
 korean = "다행이에요. <value:$28>님과 바로 만날 수 있어서. 저기, 사실 큰일이 생겼어요. 이야기 좀 들어 주실래요?<end>"
 
+["1920235"]
+japanese = "今日起きてみたら<line-break>こんな手紙が置いてあって…。<line-break>読んでみてください。<end>"
+korean = "오늘 일어나 보니이런 편지가 놓여 있어서….읽어 봐 주세요.<end>"
+
 ["1920236"]
 japanese = "　　　　ノエル、あたしとレイヴンは　　　　　<line-break>　　　　　このあたりで、あなたと<line-break>　　　　別行動を取ることにしたわ。<line-break>　<end>"
 korean = "노엘, 나와 레이븐은 이쯤에서 너와 따로 움직이기로 했어.<end>"
@@ -751,6 +759,10 @@ korean = "언제까지나 당신과 함께 있는 건 서로에게 좋지 않다
 ["1920238"]
 japanese = "　　　　ナーシェスもいなくなって、　　　　　<line-break>　　　　パーティーを解散するのに<line-break>　　　今がちょうどいい頃合いでしょ？<line-break>　<end>"
 korean = "나셰스도 없어졌고, 파티를 해산하기엔 지금이 딱 좋은 때잖아?<end>"
+
+["1920239"]
+japanese = "　　　　　そうそう、偶然だけど、　　　　　　<line-break>　　　　　同じ宿に<value:$28>が<line-break>　　　　　　泊まっているみたいよ。<line-break>　　　　一度、話してみたらどうかしら。<end>"
+korean = "　　　　　아, 참. 우연이지만,　　　　　　　　　　　같은 여관에 <value:$28>가　　　　　　묵고 있는 것 같아.　　　　한번 이야기해 보는 게 어때?<end>"
 
 ["1920240"]
 japanese = "空<end>"

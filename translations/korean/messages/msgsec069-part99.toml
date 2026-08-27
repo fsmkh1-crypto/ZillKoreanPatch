@@ -12,6 +12,10 @@ korean = "여기가 딩갈 제국의 수도 엔샨트다. 도시 안에서까지
 japanese = "冒険者として<line-break>旅をした経験は？<end>"
 korean = "모험자로 여행해 본 경험은?<end>"
 
+["690003"]
+japanese = "…だろうな。<line-break>今からギルドで冒険者登録をする。<line-break>ギルドは、そこだ。<end>"
+korean = "…그렇겠지.지금부터 길드에서 모험가 등록을 한다.길드는 저기다.<end>"
+
 ["690004"]
 japanese = "…来たか。<line-break>カウンターにいるおやじに<line-break>話しかけろ。…登録してくれる。<end>"
 korean = "…왔군. 카운터에 있는 아저씨에게 말을 걸어. …등록해 줄 거다.<end>"
@@ -263,6 +267,10 @@ korean = "묻고 싶은 게 있으면 답해 드릴게요.<end>"
 ["690079"]
 japanese = "世界を巡って、人に出会い、　　　<line-break>仲間を作ってください。<line-break>　<line-break>その中で世界は<line-break>様々な顔を見せてくれるでしょう。<line-break>自由な旅を！<end>"
 korean = "세계를 돌며 사람을 만나고 동료를 만드세요. 그 속에서 세계는 다양한 모습을 보여 줄 겁니다. 자유로운 여행을!<end>"
+
+["690080"]
+japanese = "すごいゴブ！ <line-break>やっぱりこの聖杯は我らを<line-break>幸せの地へ連れていってくれるゴブ！<end>"
+korean = "대단하다 고브! 역시 이 성배는 우리를행복의 땅으로 데려가 줄 거다 고브!<end>"
 
 ["690081"]
 japanese = "団長、幸せの地もいいゴブが<line-break>自分は腹が減ったゴブ。<end>"
@@ -624,6 +632,10 @@ korean = "취미일지도<end>"
 japanese = "別に…<end>"
 korean = "별로…<end>"
 
+["690212"]
+japanese = "いったあ！　<line-break>姉ちゃん、すぐ殴るのやめろよ！<line-break>頭、悪くなるだろ！　もう！<end>"
+korean = "아야!　누나, 자꾸 때리지 좀 마!머리 나빠지잖아! 정말!<end>"
+
 ["690213"]
 japanese = "チャカは少し頭が悪くなった。<line-break>ＩＮＴが１下がった。<line-break>　<line-break>チャカは少し打たれ強くなった。<line-break>ＶＩＴが１上がった。<end>"
 korean = "차카는 조금 머리가 나빠졌다. INT가 1 내려갔다. 차카는 조금 맷집이 좋아졌다. VIT가 1 올랐다.<end>"
@@ -756,6 +768,10 @@ korean = "확실히 세계는 넓다. 하지만 이 넓은 세계에 네가 있�
 japanese = "お前が、住むべきわずかな場所と、　<line-break>生きていくのに必要なだけの<line-break>肉を求めたとしても、<line-break>奴らの頭の中では、<line-break>お前は凶悪な侵略者でしかない。<line-break>　<end>"
 korean = "네가 살 작은 장소와 살아가는 데 필요한 만큼의 고기를 원할 뿐이어도, 녀석들 머릿속에서 넌 흉악한 침략자일 뿐이다.<end>"
 
+["690254"]
+japanese = "奴らはお前の力に嫉妬し、恐怖し、　<line-break>憎悪し、そしてお前を殺しに来る。<line-break>　<end>"
+korean = "놈들은 네 힘을 질투하고 두려워하며,　증오하고, 결국 널 없애러 올 거다.　<end>"
+
 ["690255"]
 japanese = "お前が身を守れば、お前は奴らの<line-break>敵だったことが証明される。<line-break>　<line-break>かくて、正義の名の下に<line-break>奴らの刃がお前を襲う。<line-break>…つぎつぎとな。<end>"
 korean = "네가 자신을 지키면 네가 놈들의 적이었다는 게 증명된다. 그리하여 정의의 이름 아래 놈들의 칼날이 너를 덮친다. …차례차례 말이지.<end>"
@@ -795,6 +811,10 @@ korean = "…아무것도 아니다. 가자.<end>"
 ["690266"]
 japanese = "では、まいりましょう。<line-break><value:$28>さん。<line-break>　<line-break>あなたのような<line-break>資質の優れた方と<line-break>ご一緒できて光栄です。<end>"
 korean = "그럼 가시죠, <value:$28>님. 당신처럼 자질이 뛰어난 분과 함께할 수 있어 영광입니다.<end>"
+
+["690268"]
+japanese = "また、お会いできる日を　　　　　　<line-break>楽しみにしています。<line-break>では、さらば！<end>"
+korean = "다시 만날 날을　　　　　　기대하고 있겠습니다.그럼, 안녕히!<end>"
 
 ["690270"]
 japanese = "聖杯って何のことだろう？<end>"

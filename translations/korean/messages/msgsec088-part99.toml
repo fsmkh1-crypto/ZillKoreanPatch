@@ -8,6 +8,10 @@ korean = "에스텔 메시지 VOL1 시작<end>"
 japanese = "ちぇっ、ちょっと見せてくれても<line-break>いいのにな。<end>"
 korean = "쳇, 조금 보여 줘도 되잖아.<end>"
 
+["880002"]
+japanese = "わあっ。すいませんっ！<line-break>ま、まだ何もしてませんっ。　　<line-break>　<line-break>エステル・ズゥ、非市民ですっ！<line-break>職業は冒険者ですっ！<line-break>ちゃんとギルドに登録してま…。<end>"
+korean = "와앗. 죄송합니다!아, 아직 아무것도 안 했어요!　　　에스텔 즈, 비시민입니다!직업은 모험가예요!제대로 길드에 등록도 했….<end>"
+
 ["880004"]
 japanese = "見てよ、この時計塔。<line-break>大陸一でっかい魔法仕掛けの時計。<end>"
 korean = "봐, 이 시계탑. 대륙에서 가장 큰 마법 장치 시계야.<end>"
@@ -39,6 +43,10 @@ korean = "어라, <value:$28> 아니야?<end>"
 ["880014"]
 japanese = "あぁ、リベルダムのこと？<line-break>残念だけど、ボクは…。<end>"
 korean = "아, 리벨덤 이야기? 아쉽지만 나는….<end>"
+
+["880015"]
+japanese = "ボクがリベルダム出身じゃない<line-break>ことぐらいすぐわかるだって？<line-break>　<line-break>どーせボクは<line-break>小汚いカッコした非市民だよ。<line-break>キミだって非市民じゃないか？<end>"
+korean = "내가 리베르담 출신이 아니라는 건금방 알 수 있다고?　그래, 나는꾀죄죄한 차림의 비시민이야.너도 비시민 아니야?<end>"
 
 ["880016"]
 japanese = "非市民じゃない<end>"
@@ -128,6 +136,10 @@ korean = "…그런 곳에 묻혀 평생을 끝내다니, 난 절대로 싫어! 
 japanese = "さ、我々と一緒に。<end>"
 korean = "자, 우리와 함께.<end>"
 
+["880044"]
+japanese = "…時計はさ、いろいろな部品から　　　<line-break>できあがっているよね。　　　　　　　<line-break>　<line-break>部品の１個１個は、<line-break>ひたすら同じ動きを繰り返してる。<line-break>　<end>"
+korean = "…시계는 여러 가지 부품으로　　　만들어져 있잖아.　　　　　　　　부품 하나하나는,그저 같은 움직임을 계속 반복하지.　<end>"
+
 ["880045"]
 japanese = "でもさ、そのなかの１個だけでも<line-break>動くのをやめてしまったら、<line-break>時計全体は止まってしまうんだよね…。<line-break>ひとつの部品がヤダって言ったら…。<line-break>　<line-break>　<end>"
 korean = "하지만 그중 하나라도 움직임을 멈추면 시계 전체가 멈춰 버리잖아… 부품 하나가 싫다고 하면…<end>"
@@ -195,6 +207,10 @@ korean = "여어, …오랜만이네.<end>"
 ["880063"]
 japanese = "しばらくさ、用があって<line-break>リベルダム離れてたんだ。<line-break>　<line-break>…この前は、ありがと。<line-break>ごめんね、礼も言わずに行っちゃって。<line-break>…怒ってる？<end>"
 korean = "한동안 볼일이 있어서 리벨덤을 떠나 있었어. …지난번엔 고마워. 미안해, 인사도 없이 가 버려서. …화났어?<end>"
+
+["880064"]
+japanese = "てへへ、ありがと。<line-break>で、あのさ。ありがとついでに、<line-break>ちょっと頼まれてほしいんだけど…。<line-break>首飾りを探してほしいんだ。<line-break>竜骨の砂漠に落ちている…。<end>"
+korean = "헤헤, 고마워.그래서 말인데, 고마운 김에부탁 하나 들어줬으면 해….목걸이를 찾아 줘.용골의 사막에 떨어져 있어….<end>"
 
 ["880065"]
 japanese = "いや、砂漠でも大丈夫。<line-break>この水晶を持ってれば<line-break>きっと見つかる。<line-break>これ、首飾りと<line-break>引き合う様にできてるんだ。<end>"
@@ -479,6 +495,10 @@ korean = "엣…! 어떻게… 내가 라드라스 사람인 걸 알고 있어?<
 ["880153"]
 japanese = "ありがと、<value:$28>。<line-break>じゃあ行こう。ラドラスへ。<line-break>　<line-break>ラドラスは<line-break>竜骨の砂漠の中にあるんだ。<line-break>ボクが案内するよ。<end>"
 korean = "고마워, <value:$28>. 그럼 가자. 라드라스로. 라드라스는 용골 사막 안에 있어. 내가 안내할게.<end>"
+
+["880156"]
+japanese = "ボクたち以外にも<line-break>いろんな仕掛けがラドラスの遺産を<line-break>守っているんだ。<line-break>不定期に行われる<line-break>族長がいるかいないかのチェックも<line-break>そのひとつなんだよ。<end>"
+korean = "우리 말고도여러 장치가 라드라스의 유산을지키고 있어.불규칙하게 시행되는족장이 있는지 없는지 확인하는 것도그중 하나야.<end>"
 
 ["880157"]
 japanese = "族長がいなければ、<line-break>ラドラスは砂漠に沈む。<end>"

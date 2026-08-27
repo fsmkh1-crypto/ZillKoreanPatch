@@ -176,6 +176,10 @@ korean = "뭐!? 갑자기 뭐야!! 난 에스텔이야! 라드라스 태생이�
 japanese = "やれやれ、<line-break>君って僕のことを<line-break>ホントに邪険にするんだね。<line-break>でも、来てもらうよ。<line-break>空中都市ラドラスが飛ぶことは<line-break>願いだからね。<end>"
 korean = "이런, 넌 정말 날 매정하게 대하는구나. 그래도 같이 가 줘야겠어. 공중도시 라드라스가 나는 건 소원이니까.<end>"
 
+["890064"]
+japanese = "ラドラスが…飛ぶ？<line-break>…空中都市だって？<line-break>そんなこと…。<line-break>…仮にキミの言ってることが<line-break>正しいとして、ラドラスを飛ばすことが<line-break>キミの願いなのか！？<end>"
+korean = "라드라스가… 난다고?…공중도시라고?그럴 수가….…설령 네 말이맞다고 해도, 라드라스를 띄우는 게네 소원이냐!?<end>"
+
 ["890069"]
 japanese = "ハァイ、エステル。<line-break>相変わらず元気そうだね。<end>"
 korean = "하이, 에스텔. 여전히 건강해 보이네.<end>"
@@ -259,6 +263,10 @@ korean = "부탁입니다! 에스텔 님을 구해 주세요!!<end>"
 ["890102"]
 japanese = "これは…竜骨の砂漠……。<line-break>バカな！<line-break>我らのラドラスに……！？<end>"
 korean = "이건… 용골의 사막…… 말도 안 돼! 우리 라드라스에……!?<end>"
+
+["890103"]
+japanese = "いや、この水晶がラドラスを映すなら<line-break>我々はラドラスに戻るべきだろう。<line-break>　<line-break><value:$28>様も、是非<line-break>ラドラスまで来て、我々に<line-break>力をお貸しください。<end>"
+korean = "아니, 이 수정이 라드라스를 비춘다면우리는 라드라스로 돌아가야겠지.　<value:$28> 님도 꼭라드라스까지 와서 저희에게힘을 빌려 주십시오.<end>"
 
 ["890104"]
 japanese = "よし、では行くぞ。<end>"
@@ -724,6 +732,10 @@ korean = "<value:$28>, 그녀를 여행에 데려가 주시겠습니까?<end>"
 japanese = "それでは<value:$28>、<line-break>ザギヴさんのこと、頼みますよ。<line-break>　<line-break><value:$28>、<line-break>ザギヴさんを呼び出したいときは<line-break>他の人と同じく転送機ですからね。<end>"
 korean = "그럼 <value:$28>, 자기브 씨를 부탁합니다. <value:$28>, 자기브 씨를 부르고 싶을 때도 다른 사람처럼 전송기를 쓰면 됩니다.<end>"
 
+["890265"]
+japanese = "おや、君か。<line-break>こんな時に私を訪ねてくるとは<line-break>君もほとほと運がないな。<end>"
+korean = "오, 자네인가.이런 때에 나를 찾아오다니자네도 참 운이 없군.<end>"
+
 ["890266"]
 japanese = "すぐにわかる。<line-break>ケガをしたくなければ<line-break>じっとしていることだ。<end>"
 korean = "곧 알게 될 거다. 다치고 싶지 않으면 가만히 있어.<end>"
@@ -739,6 +751,10 @@ korean = "육체의 아버지, 울리아 벨라인. 영혼의 아버지, 혹은 
 ["890274"]
 japanese = "おや…<line-break>そこにおるのは<line-break>無限のソウルの持ち主か…<line-break>なるほど、なるほど。<line-break>わしにも未来が読めぬワケじゃ。<end>"
 korean = "오호… 거기 있는 건 무한의 소울을 지닌 자인가…. 그렇군, 그렇군. 나조차 미래를 읽을 수 없는 이유가 있었구나.<end>"
+
+["890275"]
+japanese = "わざわざ出てきてもらって<line-break>ご苦労だったが、<line-break>さっそく消えてもらおう。<end>"
+korean = "일부러 나와 주느라수고했지만,당장 사라져 줘야겠어.<end>"
 
 ["890276"]
 japanese = "その自信が命取りじゃ。<line-break>この妖術宰相の力、<line-break>目に焼き付けるがよい！<end>"
@@ -911,6 +927,10 @@ korean = "뭐, 뭐라고…?<end>"
 ["890330"]
 japanese = "これは取り引きだ、我が子よ。<line-break>汝の、親しみやすき肉体をささげ、<line-break>この金蝿の王と契約せよ。<line-break>さすれば、余はこの窮地から、<line-break><value:$28>を救い出そう。<end>"
 korean = "이건 거래다, 나의 아이여. 그 친근한 육체를 바치고 이 금파리의 왕과 계약하라. 그러면 짐이 이 궁지에서 <value:$28>를 구해내마.<end>"
+
+["890331"]
+japanese = "人類革新の方針は違えど、<line-break><value:$28>は、<line-break>余にとってもかけがえのない存在だ。<line-break>こんなところで、<line-break>みすみす失いたくはない。<line-break>悪い話ではあるまい？<end>"
+korean = "인류 혁신의 방침은 다르지만,<value:$28>는,짐에게도 무엇과도 바꿀 수 없는 존재다.이런 곳에서,속절없이 잃고 싶지는 않다.나쁜 제안은 아니겠지?<end>"
 
 ["890332"]
 japanese = "…わかっている。<line-break>だが、完全に食い潰されさえ<line-break>しなければ…<line-break>いつか必ず奴の支配に対して<line-break>私は反旗をひるがえす…<end>"
@@ -1888,6 +1908,10 @@ korean = "네. <value:$28> 님이시군요. 지나가십시오!<end>"
 japanese = "いいって、いいって。<line-break>じゃあ、さっそく行こうか！<end>"
 korean = "됐어, 됐어. 그럼 바로 가 볼까!<end>"
 
+["890635"]
+japanese = "なるほど。<line-break>猫屋敷ってとこで呼び出すってんだな。<line-break>なら、待ってるぜ。<end>"
+korean = "그렇군.고양이 저택이라는 곳에서 불러내겠다는 거군.그럼 기다리고 있지.<end>"
+
 ["890636"]
 japanese = "カフィン、やめて！<line-break><line-break><line-break>あなたまで…あなたまで<line-break>死んでしまったら、わたし…！<end>"
 korean = "카핀, 그만해! 너까지… 너까지 죽어 버리면, 나는…!<end>"
@@ -1983,6 +2007,10 @@ korean = "<value:$28>, 노엘은 내가 지킨다. 소울이터는 부상당했�
 ["890660"]
 japanese = "…<value:$28>さん。<line-break>ありがとうございます。<line-break>ソウルイーターを倒してくれて。<line-break>…でも、ふたりが、<line-break>カフィンも、レイヴンも<line-break>目を開けてくれないんです…。<end>"
 korean = "…<value:$28> 씨. 감사합니다. 소울이터를 쓰러뜨려 줘서. …하지만 두 사람, 카핀도 레이븐도 눈을 떠 주지 않아요….<end>"
+
+["890661"]
+japanese = "…やっと、<line-break>ソウルイーターを倒したのに…。<line-break>こんなはずじゃ、なかったのに…。<line-break>わたし、何をやってるんだろう…<line-break>結局また大切な人たちを失って…。<end>"
+korean = "…겨우,소울이터를 쓰러뜨렸는데….이럴 리가 없었는데….나, 뭘 하고 있는 거지…결국 또 소중한 사람들을 잃고….<end>"
 
 ["890662"]
 japanese = "ノエル、このふたりを生き返らせる<line-break>手段はないでもない。<end>"
@@ -2159,6 +2187,10 @@ korean = "비켜! 내가 그 녀석한테 무슨 꼴을 당했는지 모르는 �
 ["890709"]
 japanese = "それは…そうだけど。<end>"
 korean = "그건… 그렇지만.<end>"
+
+["890710"]
+japanese = "なら…どうして！<line-break>俺達、友達だろ？<line-break>どうして、俺の邪魔をするんだよ！<end>"
+korean = "그럼… 왜!우리 친구잖아?왜 내 앞을 막는 거야!<end>"
 
 ["890711"]
 japanese = "友達だから！<end>"

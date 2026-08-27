@@ -332,6 +332,10 @@ korean = "강대하고 흉흉한 힘을 지닌 12개의 마도기입니다. 과�
 japanese = "取り戻す？<line-break>聖杯は誰かに盗まれちゃったのぉ？<end>"
 korean = "되찾는다고? 성배를 누가 훔쳐 간 거야?<end>"
 
+["1590095"]
+japanese = "ええ。すでに聖杯はロストールの町から<line-break>盗み出されています。<line-break>　<line-break>ですが、それを盗み出させたのは<line-break>魔人アーギルシャイアではない<line-break>別の魔人なのです。<end>"
+korean = "예. 이미 성배는 로스톨 거리에서도난당했습니다.　하지만 그것을 훔치게 한 것은마인 아길샤이어가 아니라다른 마인입니다.<end>"
+
 ["1590096"]
 japanese = "それじゃあ、誰なのぉ？<end>"
 korean = "그럼, 누구야아?<end>"
@@ -560,6 +564,10 @@ korean = "루루안타, 봤거든! 여러분~! 이 사람….<end>"
 japanese = "むが　むが　むがが<end>"
 korean = "우물 우물 우물물<end>"
 
+["1590168"]
+japanese = "<if><value:$29><equal>%0それじゃあ、<line-break>お兄ちゃんが助けてくれたの？<end>それじゃあ、<line-break>お姉ちゃんが助けてくれたの？<end>"
+korean = "<if><value:$29><equal>%0그럼,오빠가 도와준 거야?<end>그럼,언니가 도와준 거야?<end>"
+
 ["1590169"]
 japanese = "そうだったんだ。<line-break>ありがとう。<line-break>それに、ごめんなさい。<end>"
 korean = "그랬구나. 고마워. 그리고 미안해.<end>"
@@ -571,6 +579,10 @@ korean = "응, 루루안타는 잘 지내. 있잖아, 플린트 씨가 말해 �
 ["1590174"]
 japanese = "ルルアンタは元気だね、<line-break>ルルアンタが元気だと私も<line-break>うれしくなって元気が出るって。<line-break>だから、ルルアンタ、<line-break>天国のフリントさんが<line-break>喜んでくれるように元気なんだ。<end>"
 korean = "루루안타는 건강하구나. 루루안타가 건강하면 나도 기뻐져서 힘이 난대. 그래서 루루안타는 천국의 플린트 씨가 기뻐하도록 건강한 거야.<end>"
+
+["1590175"]
+japanese = "<if><value:$29><equal>%0お兄ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>お姉ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>"
+korean = "<if><value:$29><equal>%0오빠도,루루안타가 건강하면 기뻐?<end>언니도,루루안타가 건강하면 기뻐?<end>"
 
 ["1590177"]
 japanese = "じゃ、あらためてぇ…。　　　　<end>"
@@ -627,6 +639,10 @@ korean = "서두르지 않으면 안 돼, <value:$28>.<end>"
 ["1590194"]
 japanese = "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"
 korean = "원탁기사에는 그 밖에도 아기르샤이아 등이 있습니다.<end>"
+
+["1590195"]
+japanese = "究極生物を作ろうとして、<line-break>その製法を神器、禁断の聖杯から　　<line-break>得ようと、聖杯をねらっています。<line-break>円卓騎士には他に<line-break>うちのネモなどがいますね。<line-break>　<end>"
+korean = "궁극 생물을 만들려고,그 제조법을 신기, 금단의 성배에서　　얻기 위해 성배를 노리고 있습니다.원탁기사에는 그 밖에도저희 네모 같은 이들이 있죠.　<end>"
 
 ["1590196"]
 japanese = "待ってよぉ！<end>"

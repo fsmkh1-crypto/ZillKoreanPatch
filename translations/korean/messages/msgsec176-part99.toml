@@ -24,6 +24,10 @@ korean = "그럼 가볼까. 동료들을 데리고 나를 따라오게.<end>"
 japanese = "ほいじゃー、行こうかの。<end>"
 korean = "그럼, 가 볼까.<end>"
 
+["1760008"]
+japanese = "わしゃーこのとおり、　　　　　　<line-break>右目は見えんし<line-break>左手は義手じゃけえのぅ。<line-break>自分を守るんで手一杯なんよねぇ。<line-break>じゃけぇ勘弁してちょうだいや。<end>"
+korean = "나는 보다시피,　　　　　　오른눈은 안 보이고왼손은 의수라서 말이야.내 몸 지키는 것만으로도 벅차다네.그러니 좀 봐주게나.<end>"
+
 ["1760010"]
 japanese = "ほいじゃー、行こうかの。<end>"
 korean = "그럼, 가 볼까.<end>"
@@ -212,9 +216,17 @@ korean = "여기까지는 흔한 장치인데… 불길한 예감이 드는군.<
 japanese = "なんやー、<line-break>せっかくほめたのに<line-break>もう、これかいなー。<end>"
 korean = "뭐야, 모처럼 칭찬했더니 벌써 이 모양이냐.<end>"
 
+["1760090"]
+japanese = "じゃけど、ここまでは、<line-break>ようある仕掛けじゃが…。<line-break>イヤな予感がするのう。<end>"
+korean = "하지만 여기까지는,흔히 있는 장치인데….불길한 예감이 드는군.<end>"
+
 ["1760091"]
 japanese = "扉はビクともしない。<end>"
 korean = "문은 꿈쩍도 하지 않는다.<end>"
+
+["1760092"]
+japanese = "双頭の獅子像の口の中に<line-break>それぞれスイッチを見つけた。<line-break>スイッチを押して…<end>"
+korean = "쌍두 사자상의 입 안에서각각 스위치를 찾았다.스위치를 눌러서…<end>"
 
 ["1760095"]
 japanese = "何かの装置が作動したようだ。<end>"
@@ -244,9 +256,17 @@ korean = "무언가의 장치가 작동한 것 같다.<end>"
 japanese = "よう正解がわかったのう。<line-break>勘じゃったんか？<end>"
 korean = "용케 정답을 알아냈구먼. 찍은 건가?<end>"
 
+["1760104"]
+japanese = "最後に頼るのは自分の勘よぉ。<line-break>わしは、それができんで冒険者を<line-break>やめにゃあいけんようになった。<line-break>われは、わし以上の冒険者に<line-break>なれそうじゃのう。<end>"
+korean = "마지막에 의지할 건 자기 감이야.나는 그걸 못해서 모험가를그만둬야 했지.자네는 나보다 훌륭한 모험가가될 것 같구먼.<end>"
+
 ["1760105"]
 japanese = "さあ、<value:$28>！<line-break>脱出するでぇ！<line-break>宝を忘れんさんな。<end>"
 korean = "자, <value:$28>! 탈출하자! 보물 잊지 마라.<end>"
+
+["1760106"]
+japanese = "宝も手に入れたことだし、<line-break>あとは帰るだけでぇ。<line-break>何をぐずぐずしとんねぇ。<end>"
+korean = "보물도 손에 넣었으니,이제 돌아가기만 하면 돼.뭘 꾸물거리고 있는 거야.<end>"
 
 ["1760107"]
 japanese = "ほんま、最後の罠は久々に　　<line-break>緊張感を味わえたわい。<line-break>われも、よう突破したのう。<line-break>しかし、われは運がええわい。<line-break>おかげで、わしも助かった。<end>"

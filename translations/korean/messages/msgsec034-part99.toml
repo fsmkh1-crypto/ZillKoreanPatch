@@ -28,6 +28,10 @@ korean = "전에 부탁드린 의식용 메이스 6자루, 완성됐습니까!?<
 japanese = "あっ！！　あれですねっ！！<end>"
 korean = "아!! 저거군요!!<end>"
 
+["340007"]
+japanese = "す、すごいっ！　さすがカッツさんっ！<line-break>すばらしいできですっ！　感動ですっ！<end>"
+korean = "대, 대단해요! 역시 카츠 씨!훌륭한 완성도예요! 감동이에요!<end>"
+
 ["340008"]
 japanese = "そう言えばっ！　夜明け前の地震は<line-break>すごかったですねっ！<end>"
 korean = "그러고 보니! 새벽 전 지진은 정말 대단했죠!<end>"
@@ -59,6 +63,14 @@ korean = "<value:$28>, 받아 둬.<end>"
 ["340015"]
 japanese = "初めてにしては悪くないが…。<end>"
 korean = "처음치고는 나쁘지 않지만….<end>"
+
+["340016"]
+japanese = "カッツさんっ！<line-break>その剣はなんですかっ！<line-break>カッツさんの新作ですかっ！？<end>"
+korean = "카츠 씨!그 검은 뭔가요!카츠 씨의 신작인가요!?<end>"
+
+["340017"]
+japanese = "<if><value:$29><equal>%0いや、これは<line-break>せがれが初めて打った剣だ。<end>いや、これは<line-break>娘が初めて打った剣だ。<end>"
+korean = "<if><value:$29><equal>%0아니, 이건아들이 처음 만든 검이야.<end>아니, 이건딸이 처음 만든 검이야.<end>"
 
 ["340018"]
 japanese = "そっ、そうなんですかっ！？<line-break>ついに<value:$28>さんも<line-break>一人前にっ！<end>"

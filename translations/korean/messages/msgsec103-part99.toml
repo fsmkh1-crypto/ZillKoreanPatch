@@ -156,6 +156,10 @@ korean = "여어, 또 만났군.<end>"
 japanese = "今日は、お前さん方の敵だ。<line-break>悪いが、ナイトメアの雫は<line-break>いただく。<end>"
 korean = "오늘은 자네들의 적이다. 미안하지만 나이트메어의 물방울은 받아 가겠다.<end>"
 
+["1030053"]
+japanese = "<if><value:$2A><less>50よう、あんた<line-break><value:$28>だな？<end><value:$2B>の<value:$28>…<line-break>お前さんのことだな？<end>"
+korean = "<if><value:$2A><less>50여어, 당신이<value:$28>지?<end><value:$2B>의 <value:$28>…당신 말이지?<end>"
+
 ["1030054"]
 japanese = "強盗が名乗るのもおこがましいが<line-break>俺はツェラシェルと言う。<line-break>　<line-break>お前さんの持っている<line-break>ナイトメアの雫をもらいに来た。<line-break>悪いな。<end>"
 korean = "강도가 이름을 대는 것도 우습지만 난 츠ェ라셸이라고 해. 네가 가진 나이트메어의 물방울을 받으러 왔다. 미안하군.<end>"

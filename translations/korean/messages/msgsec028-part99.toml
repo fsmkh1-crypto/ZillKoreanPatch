@@ -120,6 +120,10 @@ korean = "너무 맛있어 보인다고 중간에 먹으면 가만 안 둬.<end>
 japanese = "ちぇ。<line-break>自分で作ってよく言うぜ。<end>"
 korean = "쳇. 자기가 만들어 놓고 잘도 말하네.<end>"
 
+["280031"]
+japanese = "そうだ。<line-break>ヴァンはここに残りな。<line-break>小屋の木材選びを手伝ってもらうよ。<end>"
+korean = "그래.반은 여기에 남아.오두막에 쓸 목재 고르는 걸 도와줘.<end>"
+
 ["280032"]
 japanese = "よう、<line-break>冒険者登録に来たのかい？　　　　<line-break>　<end>"
 korean = "이봐, 모험자 등록하러 왔나?<end>"
@@ -368,6 +372,10 @@ korean = "반… 반한테 가 보자.<end>"
 japanese = "ヴァンちゃん…、しっかりするのよ。<line-break>かわいそうに、痛かったでしょうに…。<end>"
 korean = "반아… 정신 차려. 불쌍하게, 많이 아팠겠지….<end>"
 
+["280098"]
+japanese = "…タチの悪い冒険者を相手にするから<line-break>こんな目に…。<line-break>全部、お前らのせいだ！<end>"
+korean = "…질 나쁜 모험가를 상대하다가이런 꼴을….전부 너희 탓이야!<end>"
+
 ["280099"]
 japanese = "いいか！？<line-break>ヴァンは大事なうちの跡取り息子だ。<line-break>お前らみたいなノラ犬とは違うんだ！<line-break>うちのヴァンにつきまとうな！<line-break>出て行け！<line-break>さあ、もう帰ってくれ！<end>"
 korean = "잘 들어!? 반은 우리 집의 소중한 후계자 아들이야. 너희 같은 들개랑은 달라! 우리 반에게 들러붙지 마! 나가! 자, 이제 돌아가!<end>"
@@ -388,6 +396,10 @@ korean = "아아악! 바아안!!<end>"
 japanese = "フン！　どうだ俺様の愛の槍は！？<line-break>貴様のような悪ガキにはいい薬だ！<end>"
 korean = "흥! 어떠냐, 이 몸의 사랑의 창은!? 너 같은 악동에겐 좋은 약이지!<end>"
 
+["280105"]
+japanese = "ヴァン、ヴァン！<line-break>ごめんね、僕、動けなかった…。<line-break>僕らが、僕らがすぐに…。<end>"
+korean = "반, 반!미안해, 나 움직일 수가 없었어….우리가, 우리가 곧….<end>"
+
 ["280106"]
 japanese = "僕、先に行って<line-break>待ってるから！<end>"
 korean = "난 먼저 가서 기다릴게!<end>"
@@ -399,6 +411,14 @@ korean = "…너희 둘 다 반을 죽게 내버려 둔 거구나!<end>"
 ["280108"]
 japanese = "違うよ、おじさん！<line-break>僕たちは…<end>"
 korean = "아니야, 아저씨! 우리는….<end>"
+
+["280109"]
+japanese = "いつもはヴァンと友達ぶってるくせに、<line-break>いざってときは知らん顔か？<line-break>くっ…！<end>"
+korean = "평소엔 반의 친구인 척하더니,정작 중요한 때엔 모른 척이냐?큭…!<end>"
+
+["280110"]
+japanese = "お前たちは友達なんかじゃあない！<line-break>出て行け！<line-break>二度とヴァンに近づくな！<end>"
+korean = "너희는 친구 같은 게 아니야!나가!두 번 다시 반에게 접근하지 마!<end>"
 
 ["280111"]
 japanese = "…これだね。　　　　　<end>"
@@ -423,6 +443,14 @@ korean = "…나, 소중한 친구가 다쳤는데 아무것도 못 했다니…
 ["280116"]
 japanese = "やっぱりそうか。<line-break>まったく、お前たちって奴は…。<end>"
 korean = "역시 그랬군. 정말이지, 너희들이란….<end>"
+
+["280117"]
+japanese = "…これを持っていけ。<line-break>うちにある物で<line-break>役に立ちそうなのはこれくらいだ。　<end>"
+korean = "…이걸 가져가.우리 집에 있는 것 중도움이 될 만한 건 이 정도야.　<end>"
+
+["280118"]
+japanese = "仇討ちなんてやめろって言いたいが…<line-break>どうせ、聞きゃあしねえんだろ？<line-break>　<end>"
+korean = "복수 따윈 그만두라고 말하고 싶지만…어차피 들어먹지도 않겠지?　<end>"
 
 ["280119"]
 japanese = "ま、いずれわかるさ。<line-break>力は自分の中の<line-break>正しいことのためだけに使え。　　　<line-break>…今はそれだけを胸に刻んどけ。<line-break>　<line-break>　<end>"
@@ -500,6 +528,10 @@ korean = "특대 사랑꾼 도시락을 봉가에게 건넸다.<end>"
 japanese = "あ、ヴァン、待ってよ！<line-break>…もう。<end>"
 korean = "아, 반, 기다려! …정말.<end>"
 
+["280141"]
+japanese = "ねえ、僕らも広場に行こう。<line-break>あの調子じゃ、<line-break>ヴァンが何やらかすか心配だよ。<end>"
+korean = "있지, 우리도 광장에 가자.저 상태라면,반이 무슨 일을 벌일지 걱정돼.<end>"
+
 ["280144"]
 japanese = "ヴァン！<end>"
 korean = "반!<end>"
@@ -515,6 +547,14 @@ korean = "빨리 도구점에 가서 약초를 사 와…. 응, 부탁이야….
 ["280147"]
 japanese = "ヴァンは宿屋だ。<line-break>早く行ってやれ。<end>"
 korean = "반은 여관에 있다. 어서 가 봐.<end>"
+
+["280148"]
+japanese = "ヴァンだったら、<line-break>知らせを聞いた宿屋のご亭主が<line-break>宿屋に運んでいったわよ。<end>"
+korean = "반이라면,소식을 들은 여관 주인이여관으로 데려갔어.<end>"
+
+["280149"]
+japanese = "宿屋のご亭主は<line-break>大切なひとり息子がケガをさせられたって<line-break>もう、カンカンよ。<end>"
+korean = "여관 주인은소중한 외아들이 다쳤다고지금 잔뜩 화가 났어.<end>"
 
 ["280150"]
 japanese = "薬草だと！？<line-break>お前たちの薬草など<line-break>いらん！！<end>"
@@ -543,6 +583,10 @@ korean = "당신도 그래, 여관 주인. 그 정도로 해 둬.<end>"
 ["280156"]
 japanese = "さ、小僧ども、うちに来い。<end>"
 korean = "자, 꼬맹이들아, 우리 집으로 와.<end>"
+
+["280157"]
+japanese = "町はちょっとした騒ぎだ。<line-break>外に出ても、あまり<line-break>いい気分はしないだろうな。　<end>"
+korean = "마을이 좀 소란스러워.밖에 나가도 별로기분 좋진 않을 거야.　<end>"
 
 ["280158"]
 japanese = "寝ろ。<line-break>明日になれば、騒ぎも収まる。<line-break>今日は寝ちまえ。<end>"
@@ -575,6 +619,10 @@ korean = "역시 못된 짓을 해 줬구나!! 이 천벌 받을 것들아! 오,
 ["280180"]
 japanese = "なんだ、なんだ？<line-break>いったい何があったんだね？<end>"
 korean = "뭐야, 뭐야? 대체 무슨 일이 있었던 거지?<end>"
+
+["280184"]
+japanese = "<select><value:$20>%2ったく…。きっちり、<line-break>やっかいごとを起こしやがって…！<end>おい、こんなとこで<line-break>ぼやぼやしてる場合なのかよ？<end>"
+korean = "<select><value:$20>%2정말…. 제대로골칫거리를 일으켰군…!<end>야, 이런 데서꾸물거릴 때냐?<end>"
 
 ["280185"]
 japanese = "な、何かあったのですか？<end>"

@@ -40,6 +40,10 @@ korean = "소중한 사람이야<end>"
 japanese = "フフッ…。<line-break>強いことは確かだよ。<line-break>　<line-break>その辺の魔物だって<line-break><value:$28>を見たら<line-break>裸足で逃げ出すんじゃないかな。<line-break>ねえ、<value:$28>？<end>"
 korean = "후후…. 강한 건 확실해. 웬만한 마물도 <value:$28>을 보면 맨발로 도망치지 않을까. 그렇지, <value:$28>?<end>"
 
+["2350015"]
+japanese = "もちろんさ。<line-break>さあ、お母さんが心配しているよ。<line-break>そろそろ家にお帰り。<end>"
+korean = "물론이지.자, 어머니가 걱정하고 계셔.이제 집으로 돌아가렴.<end>"
+
 ["2350016"]
 japanese = "うん。またね。<line-break>エルファス様！<line-break>それと従者さん！<end>"
 korean = "응. 또 봐. 엘파스 님! 그리고 수행원 씨도!<end>"

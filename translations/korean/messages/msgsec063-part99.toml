@@ -32,6 +32,10 @@ korean = "하지만 떼어 내는 건 불쌍하고. 나도 귀족은 싫어하�
 japanese = "そこの人！<end>"
 korean = "거기 당신!<end>"
 
+["630010"]
+japanese = "おお、よかった。<line-break>タルテュバに見つかる前に<line-break>隠れられたようじゃの。<end>"
+korean = "오오, 다행이구나.타르튜바에게 들키기 전에숨은 모양이로군.<end>"
+
 ["630012"]
 japanese = "さあ、クズども、早く出てこい！<line-break>タルテュバ様のお出ましだぞ！　　<line-break>　<line-break>今日はお前らと遊んでやろう。<line-break>たっぷりと死ぬまでなア！<end>"
 korean = "자, 쓰레기들아, 빨리 나와라! 타르튜바 님께서 나오셨다! 오늘은 너희와 놀아 주지. 실컷 죽을 때까지!<end>"
@@ -224,6 +228,10 @@ korean = "타르튜바라는 귀족 남자가 가끔 슬럼에 나타나 난동�
 japanese = "タルテュバを追い払ってくれて<line-break>ありがとうございました。<end>"
 korean = "타르튜바를 쫓아내 주셔서 감사합니다.<end>"
 
+["630073"]
+japanese = "<if><value:$29><equal>%0うわぁ、あたしのお人形！<line-break>ありがとう、お兄ちゃん！<end>うわぁ、あたしのお人形！<line-break>ありがとう、お姉ちゃん！<end>"
+korean = "<if><value:$29><equal>%0우와, 내 인형!고마워, 오빠!<end>우와, 내 인형!고마워, 언니!<end>"
+
 ["630074"]
 japanese = "これ、やくそくのお金。<line-break>ほうしゅう…ね。<end>"
 korean = "이거, 약속한 돈. 보수…야.<end>"
@@ -351,6 +359,10 @@ korean = "티아나 볼륨 1 파트 1 23<end>"
 ["630107"]
 japanese = "ちょうどいいところへ来たな。<line-break>俺についてこい。<end>"
 korean = "마침 잘 왔다. 나를 따라와.<end>"
+
+["630108"]
+japanese = "ひとつ聞く。俺がお前の意向を少しでも<line-break>尊重すると心の隅ででも思ったのか？<end>"
+korean = "하나 묻지. 내가 네 뜻을 조금이라도존중할 거라고 마음 한구석에서라도 생각했나?<end>"
 
 ["630109"]
 japanese = "そ、そうか…。<line-break>と、とにかく、もう決めたのだ。<line-break>俺についてこい。<end>"
@@ -924,6 +936,10 @@ korean = "…미안해요.<end>"
 japanese = "ティアナ様、<line-break>今日は一段とお美しい。<end>"
 korean = "티아나 님, 오늘은 한층 더 아름다우십니다.<end>"
 
+["630267"]
+japanese = "ティアナ様、<line-break>お相手を間違えておいででは？<line-break>あなたのフィアンセは…<end>"
+korean = "티아나 님,상대를 잘못 보신 것 아닙니까?당신의 약혼자는…<end>"
+
 ["630268"]
 japanese = "あの人の話なら、やめてください。<line-break>せっかくの楽しい時間が台なしです。<end>"
 korean = "그 사람 이야기라면 그만해 주세요. 모처럼 즐거운 시간이 망가집니다.<end>"
@@ -1203,6 +1219,10 @@ korean = "레몬 님. 꼭 다시 와 주세요.<end>"
 ["630345"]
 japanese = "<value:$28>様、<line-break>もう出てきてもよろしいですよ。<end>"
 korean = "<value:$28>님, 이제 나오셔도 됩니다.<end>"
+
+["630347"]
+japanese = "ありがとうございます。<line-break>必ず、いらしてくださいね。<line-break>お待ちしてますから。<end>"
+korean = "감사합니다.꼭 와 주세요.기다리고 있을게요.<end>"
 
 ["630348"]
 japanese = "…そうですよね。<line-break>もう、わがままは言いません。<line-break>気をつけてお帰りください。<end>"

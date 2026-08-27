@@ -100,6 +100,10 @@ korean = "어서 오세요. 오늘은 무엇으로 하시겠습니까? 네? 릴�
 japanese = "お店には、他にリルビーの方は<line-break>来てないと思いますよ。<line-break>ごめんなさい。<end>"
 korean = "가게에는 다른 릴비 분은 안 온 것 같아요. 죄송합니다.<end>"
 
+["1470037"]
+japanese = "<if><value:$29><equal>%0（はやく、ルルアンタを捜さないと。<line-break>　まずは町の中を捜そう。）<end>（はやく、ルルアンタを捜さないと。<line-break>　まずは町の中を捜しましょう。）<end>"
+korean = "<if><value:$29><equal>%0(빨리 루루안타를 찾아야 해.　우선 마을 안부터 찾아보자.)<end>(빨리 루루안타를 찾아야 해요.　우선 마을 안부터 찾아보죠.)<end>"
+
 ["1470038"]
 japanese = "！　これは…。<end>"
 korean = "! 이건….<end>"
@@ -144,6 +148,10 @@ korean = "그래애. 그렇다면 난 가 볼게.<end>"
 japanese = "すぐに出発しよう。<line-break>うまくいけば、途中で<line-break>捕まえられるかもしれん。<line-break>俺は門で待っている。<line-break>準備をすませてきてくれ。<end>"
 korean = "바로 출발하자. 잘하면 가는 길에 붙잡을 수 있을지도 몰라. 나는 문에서 기다릴 테니 준비하고 와.<end>"
 
+["1470053"]
+japanese = "気にすんな。<line-break>返したきゃ、出世払いでいいって。<line-break>じゃ、門で待ってるぜ。<end>"
+korean = "신경 쓰지 마.갚고 싶으면 출세한 뒤에 갚아도 돼.그럼 문에서 기다릴게.<end>"
+
 ["1470054"]
 japanese = "<value:$28>、<line-break>もう準備はいいんだな？<end>"
 korean = "<value:$28>, 준비는 다 됐지?<end>"
@@ -180,6 +188,10 @@ korean = "응? 뭐야, 넌!?<end>"
 japanese = "あん？　お前、ノーブルで<line-break>邪魔してきた男だな。<line-break>ふざけやがってえ！<end>"
 korean = "앙? 너, 노블에서 방해했던 놈이군. 장난하냐!<end>"
 
+["1470066"]
+japanese = "<if><value:$29><equal>%0（正面はゼネテスさんに任せよう。<line-break>　急がないと。）<end>（正面はゼネテスさんに任せましょう。<line-break>　急がないと。）<end>"
+korean = "<if><value:$29><equal>%0(정면은 제네테스 씨에게 맡기자.　서둘러야 해.)<end>(정면은 제네테스 씨에게 맡기죠.　서둘러야 해요.)<end>"
+
 ["1470067"]
 japanese = "なんだぁ、こいつ。<line-break>やっちまえ。<end>"
 korean = "뭐야, 이 녀석. 해치워 버려.<end>"
@@ -191,6 +203,10 @@ korean = "젠장, 침입자인가. 여기서부터는 못 지나간다!<end>"
 ["1470069"]
 japanese = "なんだ、貴様！？<line-break>どうやって入ってきた？　　　　　　　<line-break>　<end>"
 korean = "뭐냐, 네놈!? 어떻게 들어왔지?<end>"
+
+["1470070"]
+japanese = "あぁん？　リルビーの娘だと？<line-break>あぁ、あのやかましい小娘のことか？　<line-break>　<line-break>あいつなら、さっき<line-break>他のガキどもと一緒に<line-break>エンシャントに送っちまったぜ。<end>"
+korean = "뭐어? 릴비의 딸이라고?아, 그 시끄러운 계집애 말이냐?　　그 녀석이라면 아까다른 꼬마들과 함께엔샨트로 보내 버렸어.<end>"
 
 ["1470073"]
 japanese = "世の中、そう都合よくは<line-break>いかないと思うがな。<end>"
@@ -300,6 +316,10 @@ korean = "그게 원인이 되어 황제에게 처형당할 뻔하다 탈주. �
 japanese = "人の過去にはこだわらないって？<line-break>いいね、そういうの好きだぜ。<end>"
 korean = "남의 과거에는 연연하지 않는다고? 좋네, 그런 거 마음에 들어.<end>"
 
+["1470119"]
+japanese = "そんじゃ、エンシャントの<line-break>門で落ち合うとしよう。<line-break>じゃ、行ってくるぜ。<end>"
+korean = "그럼 엔샨트의문에서 만나자.그럼 다녀올게.<end>"
+
 ["1470120"]
 japanese = "ん？　<value:$28>か。<end>"
 korean = "응? <value:$28>인가.<end>"
@@ -339,6 +359,10 @@ korean = "너무 꾸물거릴 상황이 아니야. 준비는 중요하지만 서
 ["1470131"]
 japanese = "おいおい、そっちは出口だぞ。<line-break>今はのんびりしていられる<line-break>状況じゃないぜ？<end>"
 korean = "어이, 그쪽은 출구야. 지금은 느긋하게 있을 상황이 아니라고?<end>"
+
+["1470132"]
+japanese = "ちっ。あのリルビーのガキめ。<line-break>いったい、どこに逃げやがったんだ。　<line-break>　<end>"
+korean = "쳇. 그 릴비 꼬맹이.대체 어디로 도망친 거야.　　<end>"
 
 ["1470137"]
 japanese = "何者だ、お前ら！<line-break>こんな所をうろついているとは　　　　<line-break>怪しい奴め！<end>"

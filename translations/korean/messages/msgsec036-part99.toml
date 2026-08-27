@@ -24,6 +24,10 @@ korean = "아직은 괜찮아…. 빛은 날이 갈수록 강해지지만 부활
 japanese = "<value:$28>…。<line-break>ここはお前の来るところではないわ。<line-break>いい？　二度と来ないの。<end>"
 korean = "<value:$28>…. 여긴 네가 올 곳이 아니야. 알겠지? 다시는 오지 마.<end>"
 
+["360007"]
+japanese = "…竜王の覚醒？　…そんな！？ <line-break>運命は…<line-break>変えられない？　　　　　　　<end>"
+korean = "…용왕의 각성? …그럴 수가!? 운명은…바꿀 수 없는 건가?　　　　　　　<end>"
+
 ["360009"]
 japanese = "お前に出会って<line-break>もう１７年になるのね。　　　　　　<line-break>　<line-break>ずっと、こうしていたかったけれど、<line-break>運命はそれを許しては<line-break>くれないようね。<end>"
 korean = "너를 만난 지도 벌써 17년이구나. 계속 이렇게 있고 싶었지만 운명은 그걸 허락하지 않는 모양이네.<end>"
@@ -180,6 +184,10 @@ korean = "후후. 좋다. 때가 무르익었다. 어둠의 문을 여는 건, �
 japanese = "なーに言ってんの！<line-break>この町を作ったのは、なんのため？　<line-break>たくさん、人間を飼っておいて<line-break>目覚めたときに、ソウルを刈り取って<line-break>力を吸収するためでしょ？<end>"
 korean = "무슨 소리야! 이 마을을 만든 이유가 뭐였는데? 인간을 잔뜩 길러 뒀다가 깨어났을 때 소울을 거둬 힘을 흡수하려고 한 거잖아?<end>"
 
+["360055"]
+japanese = "さぁ、さくさく住民の魂を　　　　　<line-break>吸い取っちゃってよ。<line-break>ヴァシュタール。<end>"
+korean = "자, 어서 주민들의 영혼을　　　　　빨아들여 버려.바슈타르.<end>"
+
 ["360056"]
 japanese = "ダメだよ、<value:$28>。　　<line-break>せっかく卵を割って、<line-break>中身を見せてあげてるのに…。<line-break>それにね、フフフ、<line-break>割れた卵はもとには戻らないんだ。<end>"
 korean = "안 돼, <value:$28>. 모처럼 알을 깨서 안을 보여 주고 있는데…. 그리고 후후후, 깨진 알은 원래대로 돌아오지 않아.<end>"
@@ -267,6 +275,10 @@ korean = "<if><value:$29><equal>%0여기? 로스토올. 왕국의 수도야. 오
 ["360085"]
 japanese = "だから、ルルアンタ、<line-break>天国のフリントさんが<line-break>喜んでくれるように元気なんだ。　　<end>"
 korean = "그러니까 루루안타, 천국의 플린트 씨가 기뻐할 수 있게 씩씩하게 지내는 거야.<end>"
+
+["360086"]
+japanese = "<if><value:$29><equal>%0お兄ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>お姉ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>"
+korean = "<if><value:$29><equal>%0오빠도,루루안타가 건강하면 기뻐?<end>언니도,루루안타가 건강하면 기뻐?<end>"
 
 ["360088"]
 japanese = "じゃ、あらためてぇ…。<line-break>あたしは、ルルアンタ。<line-break>よろしくね、<value:$28>。<end>"

@@ -72,6 +72,10 @@ korean = "하지만….<end>"
 japanese = "…そ、そうですよね。<line-break>くよくよしてちゃ<line-break>ダメなんですよね。<end>"
 korean = "…그, 그렇죠. 계속 끙끙 앓으면 안 되는 거죠.<end>"
 
+["970030"]
+japanese = "ありがと。<line-break>あなたのおかげで、<line-break>ノエルも元気になってくれたわ。<line-break>あ、そういえば、<line-break>まだ名乗ってなかったわね。<line-break>私はカフィン。こっちはノエルよ。<end>"
+korean = "고마워.당신 덕분에,노엘도 기운을 되찾았어.아, 그러고 보니,아직 이름을 말하지 않았네.난 카핀. 이쪽은 노엘이야.<end>"
+
 ["970032"]
 japanese = "さぁ、ノエル。<line-break>ナーシェスとレイヴンが<line-break>待ってるわ。行くわよ。<end>"
 korean = "자, 노엘. 나셰스와 레이븐이 기다려. 가자.<end>"
@@ -99,6 +103,10 @@ korean = "…하지만 그녀는 상처 입었어.<end>"
 ["970039"]
 japanese = "あの娘の目を開かせるためだ。　<line-break>多少のショックを与えるのは<line-break>仕方のないこと。<line-break>無限のソウルを持つ者とはいえ、<line-break>眠ったままでは、宝の持ち腐れだ。<line-break>　<end>"
 korean = "그 아이의 눈을 뜨게 하기 위해서다. 어느 정도 충격을 주는 건 어쩔 수 없어. 무한의 소울을 가진 자라도 잠든 채라면 보물을 썩히는 셈이지.<end>"
+
+["970040"]
+japanese = "あの娘には強くなってもらわねば<line-break>ならない。そのためにも、<line-break>まずは舞台にあげてやらねばな。<line-break>すべてはこの世界の秩序を<line-break>守らんがためだ。<line-break>フフフ。<end>"
+korean = "그 아이는 강해져야 한다.그러기 위해서라도,우선 무대에 올려 줘야지.모든 것은 이 세계의 질서를지키기 위해서다.후후후.<end>"
 
 ["970041"]
 japanese = "ん？　この気配は…。<line-break>この町にも客がいたか。<end>"
@@ -139,6 +147,10 @@ korean = "안녕, <value:$28>. 오즈월드 조사 쪽은 끝났나?<end>"
 ["970064"]
 japanese = "そうか。それじゃあ、<line-break>さっそく報告してくれ。　　　　　　　<line-break><end>"
 korean = "그런가. 그럼 바로 보고해 줘.<end>"
+
+["970066"]
+japanese = "…そりゃ、えらいことだな。<line-break>で、その話は、確かなんだろうな？　　<line-break>　<end>"
+korean = "…그거 큰일이군.그래서 그 얘기는 확실한 거지?　　　<end>"
 
 ["970067"]
 japanese = "…なるほど。冒険者に助けられた　　　<line-break>村の住民の生き残りから<line-break>話を聞いたってわけか。<line-break>…わかった。<line-break>ご苦労だったな、<value:$28>。<line-break>これが報酬の２０００ギアだ。<end>"

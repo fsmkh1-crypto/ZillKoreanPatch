@@ -104,6 +104,10 @@ korean = "형, 드디어 볼보라를….<end>"
 japanese = "君は…<value:$28>。<line-break>どうしてここに？<end>"
 korean = "너는… <value:$28>. 왜 여기 있지?<end>"
 
+["430030"]
+japanese = "<if><value:$29><equal>%0エスト、お前、<line-break>この男を知っているのか？<end>エスト、お前、<line-break>この女を知っているのか？<end>"
+korean = "<if><value:$29><equal>%0에스트, 너,이 남자를 알고 있나?<end>에스트, 너,이 여자를 알고 있나?<end>"
+
 ["430031"]
 japanese = "う、うん。<line-break>…最近知り合った…友人だよ。<end>"
 korean = "으, 응. …최근에 알게 된… 친구야.<end>"
@@ -192,6 +196,10 @@ korean = "일단 보고드렸을 뿐입니다.<end>"
 japanese = "弟エストが処理にあたっています。<line-break>近日中に詳細をご報告できるかと。<end>"
 korean = "동생 에스트가 처리하고 있습니다. 조만간 자세한 내용을 보고드릴 수 있을 겁니다.<end>"
 
+["430057"]
+japanese = "では、それを待とう。　　　　　　　　<line-break>　<line-break>　<line-break>しかし、残念なことよ。<line-break>ボルボラに聞きたいことがあったのだが<line-break>むくろを問いただすわけにもいくまい。<end>"
+korean = "그럼 그걸 기다리지.　　　　　　　　　　하지만 참 아쉽군.볼보라에게 묻고 싶은 게 있었지만시체를 붙잡고 캐물을 수도 없으니.<end>"
+
 ["430058"]
 japanese = "領主の私に<line-break>答えられることでしたら…。<end>"
 korean = "영주인 제가 답할 수 있는 일이라면….<end>"
@@ -232,9 +240,17 @@ korean = "<if><value:$29><equal>%0남동생?<end>여동생?<end>"
 japanese = "ここに連れてまいりました。<end>"
 korean = "이곳으로 데려왔습니다.<end>"
 
+["430074"]
+japanese = "<if><value:$29><equal>%0エストの他に兄弟があったとは、<line-break>初耳だが。<end>エストの他に兄弟があったとは、<line-break>初耳だが。<end>"
+korean = "<if><value:$29><equal>%0에스트 말고도 형제가 있었다니,처음 듣는군.<end>에스트 말고도 형제가 있었다니,처음 듣는군.<end>"
+
 ["430075"]
 japanese = "わけあって、<line-break>公にはしておりませんでした。<line-break>　<line-break>そのわけは…<line-break>申し上げなくとも<line-break>おわかりでしょう。<end>"
 korean = "사정이 있어 공개하지 않았습니다. 그 이유는… 말씀드리지 않아도 아시겠죠.<end>"
+
+["430076"]
+japanese = "<if><value:$29><equal>%0この少年こそ、<line-break>…この手紙にある子供だと？<end>この少女こそ、<line-break>…この手紙にある子供だと？<end>"
+korean = "<if><value:$29><equal>%0이 소년이야말로,…이 편지에 적힌 아이라고?<end>이 소녀야말로,…이 편지에 적힌 아이라고?<end>"
 
 ["430078"]
 japanese = "ならん！　ならん！！<line-break>ふざけたことを！<end>"
@@ -275,6 +291,10 @@ korean = "아, 아니. 로스토올을 위해 실컷 고생해 주게.<end>"
 ["430087"]
 japanese = "予は疲れた。先に休ませてもらう。<end>"
 korean = "나는 지쳤다. 먼저 쉬도록 하겠다.<end>"
+
+["430091"]
+japanese = "…！　さすがは我が妹よ！<line-break>レムオンめ、そうとは知らずに…。<line-break>　<line-break>ハハハハ！<line-break>小僧めに、一杯食わせて<line-break>せいせいしたわ！<end>"
+korean = "…! 역시 내 여동생이군!레몬 녀석, 그것도 모르고….　하하하하!그 애송이를 한 방 먹여서속이 다 시원하군!<end>"
 
 ["430093"]
 japanese = "無限の可能性を感じさせる…。　　<line-break>あの目の輝きはどうだ。<line-break>　<line-break>フフフ…、<line-break>レムオン坊やも楽しませてくれる。<end>"
@@ -435,6 +455,10 @@ korean = "전혀 말이 안 통하는군!<end>"
 ["430144"]
 japanese = "貴族どものことだ。　　　　　　<line-break>無能なうえに視野が狭い。<line-break>　<line-break>都合のよい妄想はできるくせに、<line-break>まっとうな想像力はない。<end>"
 korean = "귀족들이란 말이지. 무능한 데다 시야도 좁아. 자기 편한 망상은 하면서 제대로 된 상상력은 없어.<end>"
+
+["430145"]
+japanese = "あいつらをまとめて、<line-break>雌狐に対抗せねばならぬと思うと<line-break>気がめいる。<line-break>フッ、ま、雌狐の方も<line-break>ノヴィンという厄介者を<line-break>かかえているのだから対等か。<end>"
+korean = "저 녀석들을 한데 묶어,암여우에게 맞서야 한다고 생각하니기운이 빠지는군.훗, 뭐 암여우 쪽도노빈이라는 골칫덩이를안고 있으니 피차일반인가.<end>"
 
 ["430146"]
 japanese = "しかし、宮廷で才覚のある人間が、<line-break>雌狐ひとりというのもお寒い話だ。<line-break>　<line-break>このままではロストールも<line-break>長くないぞ。<end>"

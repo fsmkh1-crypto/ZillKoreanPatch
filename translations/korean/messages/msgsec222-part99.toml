@@ -12,6 +12,10 @@ korean = "으앙, 으앙! 아파아!<end>"
 japanese = "どうしたの？<line-break>　<line-break>　<line-break>ああ、転んでケガしちゃったんだ。<line-break>痛かったね～。<line-break>ほら、お姉ちゃんに見せてみて？<end>"
 korean = "왜 그래? 아, 넘어져서 다쳤구나. 아팠지~. 자, 언니한테 보여 줄래?<end>"
 
+["2220004"]
+japanese = "ほら。お兄ちゃんもヴァンも<line-break>ボーッと突っ立っていないで<line-break>何かしてよ。<end>"
+korean = "자. 오빠도 반도멍하니 서 있지 말고뭐라도 해 봐.<end>"
+
 ["2220005"]
 japanese = "何かって…。<line-break>何すりゃいいんだよ？<end>"
 korean = "뭘 하라니…. 뭘 하면 되는데?<end>"
@@ -31,6 +35,10 @@ korean = "그만둬, <value:$28>. 그런 어려운 모험 이야기를 애가 �
 ["2220009"]
 japanese = "いいから俺に任せとけって。<line-break>こういうのなら<line-break>得意中の得意なんだ。<end>"
 korean = "됐으니까 나한테 맡겨. 이런 건 내가 제일 잘하거든.<end>"
+
+["2220010"]
+japanese = "いいか、坊主。<line-break>今度はお兄ちゃんが<line-break>とっておきのやつを見せてやるぜ。<end>"
+korean = "잘 봐라, 꼬마.이번엔 형이비장의 걸 보여 주마.<end>"
 
 ["2220011"]
 japanese = "よっ、はっ、とおっ。<end>"

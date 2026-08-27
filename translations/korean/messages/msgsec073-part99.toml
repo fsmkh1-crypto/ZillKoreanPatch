@@ -128,6 +128,10 @@ korean = "…전이조차 이제 쓸 수 없을 만큼 약해진 건가.<end>"
 japanese = "地獄までも追うと言ったはずだ。<line-break>…情けなど、かけん。<line-break>　<line-break>行くぞ。<line-break>月光の導くままに！<end>"
 korean = "지옥까지 쫓겠다고 했지. …자비는 없다. 가자. 월광이 이끄는 대로!<end>"
 
+["730037"]
+japanese = "…ここだ。<line-break>ここが、奴らの隠れ家だ。　　　　<line-break>　<line-break>アンティノが戦闘モンスターの<line-break>秘密研究所を持っていたと聞いたが<line-break>この隠れ家が研究所のようだな。<end>"
+korean = "…여기다.여기가 놈들의 은신처야.　　　　　안티노가 전투 몬스터의비밀 연구소를 가지고 있었다고 들었는데이 은신처가 연구소인 모양이군.<end>"
+
 ["730038"]
 japanese = "奴らはここで究極生物とやらを<line-break>作っているんだ。<line-break>ゆくぞ。<end>"
 korean = "녀석들은 여기서 궁극생물이란 걸 만들고 있다. 간다.<end>"
@@ -135,6 +139,10 @@ korean = "녀석들은 여기서 궁극생물이란 걸 만들고 있다. 간다
 ["730039"]
 japanese = "アーギルシャイア様！<line-break><value:$28>が、ここまで<line-break>攻めてまいりました！<end>"
 korean = "아길샤이어 님! <value:$28>가 여기까지 쳐들어왔습니다!<end>"
+
+["730040"]
+japanese = "うるさい！<line-break>悪い知らせを持って来たお前には、<line-break>悪い結果で報いよう！<end>"
+korean = "시끄럽다!나쁜 소식을 가져온 너에게는,나쁜 결과로 보답해 주마!<end>"
 
 ["730041"]
 japanese = "っくっ…。はぁ…。<line-break>ヴァシュタールにやられた傷が…。<end>"
@@ -219,6 +227,10 @@ korean = "…강해졌구나. 너와 칼을 맞댈 수 있었고 네 힘을 느�
 ["730071"]
 japanese = "私は、他に守らなければ<line-break>ならないものがある。<end>"
 korean = "나는 따로 지켜야 할 것이 있다.<end>"
+
+["730073"]
+japanese = "あなたこそ、この忘却の仮面を<line-break>守るにふさわしい力とソウルを<line-break>持っている。<end>"
+korean = "당신이야말로 이 망각의 가면을지키기에 걸맞은 힘과 소울을지니고 있어.<end>"
 
 ["730074"]
 japanese = "忘却の仮面が…<line-break>外れた…。<end>"

@@ -44,6 +44,10 @@ korean = "이봐, 의뢰를 거절해 놓고 오히려 네 쪽에서 일을 가�
 japanese = "大事なお客様ってわけだ。<line-break>　<line-break>　<line-break>それともうひとつ。<line-break>ツェラシェルに会いたい。<line-break>奴を呼んでくれ。<end>"
 korean = "중요한 손님이라는 거군. 그리고 하나 더. 체라셸을 만나고 싶다. 녀석을 불러 줘.<end>"
 
+["490015"]
+japanese = "ツェラシェル？<line-break>あいつは金に汚いし、<line-break>詐欺師まがいの評判の悪い冒険者だよ？<end>"
+korean = "체라셸?그 녀석은 돈에 지저분하고,사기꾼 비슷하다는 악평이 있는 모험가야.<end>"
+
 ["490016"]
 japanese = "そのかわり、一流だ。　　　　　　　<line-break>奴の腕が必要なんだ。<line-break>　<line-break>ま、そーゆーわけで早急に金もいる。<line-break>以上２件、いつまでにできる？<end>"
 korean = "대신 일류야. 그 녀석 솜씨가 필요해. 뭐, 그런 이유로 급히 돈도 필요하고. 이상 두 건, 언제까지 가능해?<end>"
@@ -491,6 +495,10 @@ korean = "뭐, 그런 셈이지. 자, 이제 우리 용건이다. 루루안타�
 ["490168"]
 japanese = "さぁな。<line-break>モンスターにでも食われてて<line-break>くれるといいんだがな。<end>"
 korean = "글쎄. 몬스터한테라도 잡아먹혔으면 좋겠는데.<end>"
+
+["490169"]
+japanese = "大丈夫。<line-break>ちゃんとお前らもここで殺して<line-break>心配なんかしなくてよくしてやるぜ！<end>"
+korean = "괜찮아.너희도 여기서 확실히 끝내서걱정할 일 없게 해 줄게!<end>"
 
 ["490170"]
 japanese = "そんなに気を遣うなよ。<line-break>こっちはこっちで<line-break>好きなようにさせてもらうからよ。<end>"

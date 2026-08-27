@@ -4,6 +4,10 @@
 japanese = "ファーロス・ボリューム３その３開始<end>"
 korean = "파로스 볼륨 3 그 3 시작<end>"
 
+["1680003"]
+japanese = "カルラが迫っておるのに、<line-break>宮廷の勢力争いかと<line-break>あきれておるのか？<line-break>フフ、私もあきれておる。<line-break>だが、愚かと知っていても、<line-break>やらざるを得ぬ事もある。<end>"
+korean = "카를라가 다가오고 있는데,궁정의 권력 다툼이냐며어이없어하는 건가?후후, 나도 어이없다.하지만 어리석은 줄 알아도,해야만 하는 일도 있는 법이지.<end>"
+
 ["1680004"]
 japanese = "先の空中庭園のおり…<line-break>そなた、気づいたか？<line-break>…アトレイアだ。<line-break>あのときの<line-break>アトレイアの表情には<line-break>鬼気迫るものがあった。<end>"
 korean = "지난 공중정원 때… 자네도 눈치챘나? …아트레아 말일세. 그때 아트레아의 표정에는 섬뜩할 만큼 절박한 기운이 있었어.<end>"
@@ -19,6 +23,10 @@ korean = "<value:$28>인가. 티아나를 부탁한다.<end>"
 ["1680007"]
 japanese = "フフフ…。<line-break>その顔だと、気づいておらぬようだな。<line-break>　<line-break>レムオンは、幼いころから<line-break>ティアナに惹かれていた。<end>"
 korean = "후후후…. 그 표정을 보니 눈치채지 못한 모양이군. 레몬은 어릴 때부터 티아나에게 마음이 있었어.<end>"
+
+["1680008"]
+japanese = "ティアナもレムオンを<line-break>兄のように慕っているが、<line-break>それ以上の感情はない…。<line-break>あのタルテュバの一件で、<line-break>レムオンにもようやくそれが<line-break>わかったようだ。<end>"
+korean = "티아나도 레몬을오빠처럼 따르고 있지만,그 이상의 감정은 없어….그 타르튜바 사건으로,레몬도 드디어 그걸알게 된 모양이야.<end>"
 
 ["1680009"]
 japanese = "普段、冷静な男なだけに<line-break>逆上すると<line-break>何をしでかすかわからない。<line-break>無用な心配とは思うが、<line-break>気に留めておいてほしい。<end>"
@@ -39,6 +47,10 @@ korean = "요즘 레몬의 움직임 중 신경 쓰이는 건 없나?<end>"
 ["1680014"]
 japanese = "レムオンは、幼いころから<line-break>ティアナに惹かれていた。<end>"
 korean = "레몬은 어릴 때부터 티아나에게 끌리고 있었다.<end>"
+
+["1680015"]
+japanese = "ティアナもレムオンを<line-break>兄のように慕っているが、<line-break>それ以上の感情はない…。<line-break>あのタルテュバの一件で、<line-break>レムオンにもようやくそれが<line-break>わかったようだ。<end>"
+korean = "티아나도 레몬을오빠처럼 따르고 있지만,그 이상의 감정은 없어….그 타르튜바 사건으로,레몬도 드디어 그걸알게 된 모양이야.<end>"
 
 ["1680016"]
 japanese = "普段、冷静な男なだけに<line-break>逆上すると<line-break>何をしでかすかわからない。<line-break>無用な心配とは思うが、<line-break>気に留めておいてほしい。<end>"
@@ -139,6 +151,10 @@ korean = "그대가 평온을 원한다면 그 바람은 버리는 편이 좋다
 ["1680043"]
 japanese = "<value:$28>か。<line-break>旅はどうだ？<line-break>　<line-break>今は存分に世界を見て回ることだ。<line-break>そなたには、それが許されている。<end>"
 korean = "<value:$28>인가. 여행은 어떠냐? 지금은 마음껏 세상을 둘러보아라. 그대에게는 그것이 허락되어 있다.<end>"
+
+["1680044"]
+japanese = "私は死ぬまで、いや、<line-break>死んだあともこの王宮を<line-break>出ることはないだろう。<line-break>もはや、それを不幸とは思わぬが、<line-break>そなたを見ていると<line-break>うらやましくもある。<end>"
+korean = "나는 죽을 때까지, 아니,죽은 뒤에도 이 왕궁을떠나지 못하겠지.이제 그것을 불행이라 생각하진 않지만,너를 보고 있으면부럽기도 하구나.<end>"
 
 ["1680045"]
 japanese = "<value:$28>、<line-break>そなたいくつになる？<end>"

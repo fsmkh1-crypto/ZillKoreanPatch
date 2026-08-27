@@ -160,6 +160,10 @@ korean = "의뢰품은 이거군요. 자, 길드로 돌아가서 전해드리죠
 japanese = "み～っけ。これよね。<line-break>んじゃ、サクッと持ってって<line-break>ギルドで報酬もらいましょ。<end>"
 korean = "찾았다. 이거지. 그럼 얼른 가져가서 길드에서 보수 받자.<end>"
 
+["180054"]
+japanese = "ん、これだな。<line-break>さ、ギルドに渡して金もらって、<line-break>酒場で一杯といこうぜ。<end>"
+korean = "응, 이거군.자, 길드에 넘기고 돈 받아서,술집에서 한잔하자고.<end>"
+
 ["180055"]
 japanese = "フン、これか。<line-break>帰るぞ。<line-break>まったく、くだらん使い走りだ。<end>"
 korean = "흥, 이건가. 돌아간다. 정말 시시한 심부름이군.<end>"
@@ -192,9 +196,17 @@ korean = "이건가…. 그럼 돌아갈까.<end>"
 japanese = "これでいいのだな？<line-break>行くぞ。<line-break>　<end>"
 korean = "이걸로 된 거지? 간다.<end>"
 
+["180064"]
+japanese = "はっけ～ん！！<line-break>よーし、あとはギルドに持ってって<line-break>報酬もらうだけだね。<end>"
+korean = "찾았다아!!좋아, 이제 길드에 가져가서보상만 받으면 돼.<end>"
+
 ["180066"]
 japanese = "目標物、確保しました。<line-break>これで町へ帰れますね、<line-break><value:$28>様。<end>"
 korean = "목표물을 확보했습니다. 이제 마을로 돌아갈 수 있겠군요, <value:$28> 님.<end>"
+
+["180067"]
+japanese = "これでよし、と。<line-break>早いとこ、ギルドへ持ってって、<line-break>報酬と引き換えなきゃね。<end>"
+korean = "이걸로 됐고.빨리 길드에 가져가서,보상과 바꿔야겠네.<end>"
 
 ["180075"]
 japanese = "これで探索の依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"

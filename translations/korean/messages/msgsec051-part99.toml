@@ -40,6 +40,10 @@ korean = "여, <value:$28>. 심심해서 혼자 모험을 나왔더니 미인 �
 japanese = "力ずくでも、来ていただくわ、<line-break>ゼネテス様。<end>"
 korean = "힘으로라도 모셔 가겠습니다, 제네테스 님.<end>"
 
+["510014"]
+japanese = "おやおや、<line-break>俺があまのじゃくだって　　<line-break>知らなかった？<line-break>そういうの、嫌いなんだよ。<line-break>力ずくで、相手を意のままに<line-break>しようってやり方がさ。<end>"
+korean = "이런 이런,내가 심술쟁이라는 걸　　몰랐어?난 그런 게 싫거든.힘으로 상대를 제멋대로움직이려는 방식 말이야.<end>"
+
 ["510015"]
 japanese = "けど、あんたら相手に<line-break>いつもの調子じゃ負けるんでな。<line-break>本気を出させてもらうぜ。<end>"
 korean = "하지만 너희를 상대로 평소처럼 해선 지니까. 진심으로 해 주지.<end>"
@@ -95,6 +99,10 @@ korean = "하지만 너와 맞붙으면 비아의 실력으로도 무사하진 �
 ["510030"]
 japanese = "だから、お前を腕ずくで連れていく。<end>"
 korean = "그러니 널 힘으로라도 데려가겠다.<end>"
+
+["510031"]
+japanese = "なるほどな。<line-break>魔法で筋力のほとんどを奪われた<line-break>お前さんでも…<line-break>その薬を飲めば、<line-break>施文院の殺人機械に戻れるわけだ。<line-break>"
+korean = "그렇군.마법으로 근력을 거의 빼앗긴너라도…그 약을 마시면,시문원의 살인기계로 돌아갈 수 있다는 거군."
 
 ["510032"]
 japanese = "妹を守るためなら<line-break>なんだってするさ。<end>"
@@ -231,6 +239,10 @@ korean = "그 뒤에는 왕도 로스토올까지 대가도가 이어져 있어 
 ["510077"]
 japanese = "俺の予測が外れていてくれると<line-break>いいんだがな。<end>"
 korean = "내 예상이 빗나가면 좋겠는데.<end>"
+
+["510078"]
+japanese = "ま、いざってときに<line-break>頼りになる奴が欲しかったんでね。<line-break>　<line-break>お前さんが傭兵の中にいるのを<line-break>見つけたんで、来てもらった。<line-break>よろしく頼むぜ。<end>"
+korean = "뭐, 정작 필요할 때믿을 만한 녀석이 필요했거든.　네가 용병들 사이에 있는 걸발견해서, 와 달라고 했어.잘 부탁하지.<end>"
 
 ["510079"]
 japanese = "ロストール軍は、海路からの<line-break>侵攻に<line-break><end>"

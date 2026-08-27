@@ -36,6 +36,10 @@ korean = "누구냐 네놈! 어디선가 본 것 같기도 하고 아닌 것 같
 japanese = "グルグル回るぅ！　ヒック！　<line-break>…ぬおっ、そうか！<line-break>それがねらいか！<line-break>俺様を混乱させて<line-break>そのスキに俺様を倒そうとする<line-break>魔王の刺客だな！　貴様！<end>"
 korean = "빙글빙글 돈다아! 딸꾹! …오오, 그렇군! 그게 목적이냐! 나를 혼란시킨 틈에 쓰러뜨리려는 마왕의 자객이구나! 네놈!<end>"
 
+["620009"]
+japanese = "フッ、ちょうどいい。　　　　<line-break>俺様の愛の伝説の<line-break>わき役にしてやる！<end>"
+korean = "훗, 마침 잘됐군.　　　　이 몸의 사랑의 전설에조연으로 넣어 주마!<end>"
+
 ["620010"]
 japanese = "なんだ貴様ぁ！　　　<line-break>　<line-break>　<line-break>フッ、ちょうどいい。<line-break>俺様の愛の伝説の<line-break>わき役にしてやる！<end>"
 korean = "뭐냐 네놈! 흥, 마침 잘됐군. 내 사랑의 전설에 조연으로 끼워 주마!<end>"
@@ -144,6 +148,10 @@ korean = "누가 거친 여자라는 거야! 그 성배, 돌려받겠어!<end>"
 japanese = "何が天から与えられたよ！<line-break>盗んだくせに！<end>"
 korean = "뭐가 하늘이 내린 거야! 훔친 주제에!<end>"
 
+["620041"]
+japanese = "む、ガサツ女が狂暴化したゴブ！<line-break>危険ゴブ！<line-break>ゴブゴブ団、退却ゴブ！<end>"
+korean = "으, 거친 여자가 흉폭해졌다 고브!위험하다 고브!고브고브단, 후퇴 고브!<end>"
+
 ["620042"]
 japanese = "あ、おねーさん、<line-break>お代はここに置いておくゴブ！<end>"
 korean = "아, 누나, 계산은 여기 두고 갈게 고브!<end>"
@@ -183,6 +191,10 @@ korean = "뭔가 두근두근한다 고브.<end>"
 ["620051"]
 japanese = "ガント親分、がんばるゴブ。<end>"
 korean = "간트 두목, 힘내 고브.<end>"
+
+["620052"]
+japanese = "ごぶごぶだん、　　　　　　　　<line-break>でいいのかい？　　　　　　　　<line-break>　<end>"
+korean = "고브고브단,　　　　　　　　이면 되는 거야?　　　　　　　　　<end>"
 
 ["620053"]
 japanese = "よろしくお願いするでゴブ。<end>"
@@ -779,6 +791,10 @@ korean = "왜! …어째서입니까?<end>"
 ["620229"]
 japanese = "でも、あれはずーっと<line-break>町にまつられてて、別に何も…。<end>"
 korean = "하지만 그건 계속 마을에 모셔져 있었고, 딱히 아무 일도….<end>"
+
+["620233"]
+japanese = "ゴブリンの諸君の行き先は　　　　　<line-break>その間に、私が探知しておきましょう。<end>"
+korean = "고블린 여러분이 향하는 곳은　　　　　그사이에 제가 탐지해 두겠습니다.<end>"
 
 ["620234"]
 japanese = "よろしく、お願いします。<end>"

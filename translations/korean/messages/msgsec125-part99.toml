@@ -52,6 +52,10 @@ korean = "네 이름을 지목한 의뢰인가…. 자기브도 장군 중 하�
 japanese = "玄武将軍からの呼び出しか。<line-break>たしか、エンシャントの政庁に<line-break>行くんじゃったな。<end>"
 korean = "현무장군의 호출인가. 분명 엔샨트 정청으로 가는 거였지.<end>"
 
+["1250018"]
+japanese = "ザギヴからの手紙ボゲー<line-break>ザギヴからの手紙ボゲー<line-break>ザギヴからの手紙ボゲー<line-break>ザギヴからの手紙ボゲー<line-break>ザギヴからの手紙ボゲー<line-break>ザギヴからの手紙ボゲー<end>"
+korean = "자기브의 편지 보게ー자기브의 편지 보게ー자기브의 편지 보게ー자기브의 편지 보게ー자기브의 편지 보게ー자기브의 편지 보게ー<end>"
+
 ["1250019"]
 japanese = "ザギヴさんからお手紙がきたのぉ？<line-break><line-break><line-break>もちろん<value:$28>は、<line-break>エンシャントの政庁に、<line-break>行ってあげるんだよねぇ。<end>"
 korean = "자기브 씨에게서 편지가 왔어? 물론 <value:$28>은 엔샨트 정청에 가 줄 거지?<end>"
@@ -212,6 +216,10 @@ korean = "<value:$28>님. 알현실로 가시는군요. 함께 가겠습니다.<
 japanese = "ゾフォルめ、想像以上に恐ろしい奴…。<line-break>エンシャントの人々を皆殺しにしてなお<line-break>平然と笑おうとは…。<line-break>謁見の間へ急ぐぞ、<value:$28>。<line-break>奴を討つのじゃ！<end>"
 korean = "조포르, 상상 이상으로 무서운 놈이군…. 엔샨트 사람들을 몰살하고도 태연히 웃다니…. 알현실로 서두르자, <value:$28>. 녀석을 친다!<end>"
 
+["1250091"]
+japanese = "闇の中で闇を祓う…。<line-break>まるで、困難であることの<line-break>例え話のようだ。<line-break>しかし、私は信じているよ。<line-break><value:$28>になら、<line-break>必ずそれが成し遂げられると。<end>"
+korean = "어둠 속에서 어둠을 몰아낸다….마치 어려운 일을비유하는 말 같군.하지만 나는 믿고 있어.<value:$28>라면,반드시 해낼 수 있다고.<end>"
+
 ["1250092"]
 japanese = "街の人たちを生贄に…<line-break>街の人たちの未来を奪ったあいつを<line-break>俺は許せない！<line-break><value:$28>！<line-break>謁見の間へ急ぐぞ！<end>"
 korean = "마을 사람들을 제물로… 사람들의 미래를 빼앗은 그 녀석을 난 용서 못 해! <value:$28>! 알현실로 서두르자!<end>"
@@ -344,6 +352,10 @@ korean = "네가 이해해 주길 바라진 않아, <value:$28>. 넌 인간이�
 japanese = "待てなかったか、ジラーク…。<end>"
 korean = "기다리지 못했나, 질라크….<end>"
 
+["1250146"]
+japanese = "コ―ンスの反乱のボゲー<line-break>コ―ンスの反乱のボゲー<line-break>コ―ンスの反乱のボゲー<line-break>コ―ンスの反乱のボゲー<line-break>コ―ンスの反乱のボゲー<line-break>コ―ンスの反乱のボゲー<end>"
+korean = "콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー<end>"
+
 ["1250147"]
 japanese = "戦争で解決するなんて、<line-break>力で勝てばいいだなんて…！<line-break>そんなの、間違ってるよぉ！<line-break><value:$28>、<line-break>アルノートゥンへ行こう？<line-break>止めなくちゃいけないよぉ！<end>"
 korean = "전쟁으로 해결한다니, 힘으로 이기면 된다니…! 그런 건 잘못됐어! <value:$28>, 알노툰으로 가자? 막아야 해!<end>"
@@ -363,6 +375,10 @@ korean = "<value:$28>님, 코른스라는 슬픈 일족을 도와야 합니다. 
 ["1250153"]
 japanese = "<value:$28>、<line-break>もちろん、アルノートゥンに<line-break>行くんだよね？<line-break>ヴァイにも聞いてみて、<line-break>私たちも力を貸すつもりだよ！<end>"
 korean = "<value:$28>, 물론 알노트운에 갈 거지? 바위에게도 물어보고 우리도 힘을 보탤 생각이야!<end>"
+
+["1250154"]
+japanese = "止めねばならぬ…！<line-break>聖光石の坑道には、<line-break>恐ろしい秘密があるのじゃ！<end>"
+korean = "막아야 한다…!성광석 갱도에는,무서운 비밀이 있단다!<end>"
 
 ["1250156"]
 japanese = "力ですべてを解決しようとするのは<line-break>間違っている。<line-break>コーンスの反乱を止めるぞ。<end>"
@@ -400,6 +416,10 @@ korean = "나지! 젠장! 그 녀석까지 반란에 가담하다니! 그러면�
 japanese = "あの優しいナッジが、<line-break>あんなことに加わるなんて…。<line-break><line-break>アルノートゥンに行こうっ、<line-break><value:$28>！<end>"
 korean = "그 착한 나지가 그런 일에 가담하다니…. 알노툰으로 가자, <value:$28>!<end>"
 
+["1250169"]
+japanese = "反乱とは、やってくれるじゃない、<line-break>あの白ヤギじーさんたち！<line-break><line-break>このカルラさんが<line-break>駆け足で行ってあげるから、<line-break>ガッカリさせないで欲しいもんだね！<end>"
+korean = "반란이라니 제법인데,그 흰 염소 영감들!이 카를라 님이달려가 줄 테니까,실망시키지 않았으면 좋겠네!<end>"
+
 ["1250170"]
 japanese = "俺も小さいころ、<line-break>コーンスの子をいじめて、<line-break>姉ちゃんにぶたれたよな…。<line-break>あのナッジたちが敵だなんて…。<line-break>俺、信じたくねえよ…！<end>"
 korean = "나도 어릴 때 코른스 아이를 괴롭혔다가 누나한테 맞았었지… 그 나지 일행이 적이라니… 난 믿고 싶지 않아…!<end>"
@@ -420,6 +440,10 @@ korean = "<value:$28>, 미안해. 하지만 널 배신할 생각은 없어. 콘�
 japanese = "待てなかったか、ジラーク…。<end>"
 korean = "기다리지 못했나, 질라크….<end>"
 
+["1250178"]
+japanese = "コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<end>"
+korean = "콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー<end>"
+
 ["1250179"]
 japanese = "戦争で解決するなんて、<line-break>力で勝てばいいだなんて…！<line-break>そんなの、間違ってるよぉ！<line-break><value:$28>、<line-break>お願い、やめさせて！<end>"
 korean = "전쟁으로 해결한다니, 힘으로 이기면 된다니…! 그런 건 잘못됐어! <value:$28>, 부탁이야, 막아 줘!<end>"
@@ -439,6 +463,10 @@ korean = "<value:$28>님, 코른스라는 슬픈 일족을 도와야 합니다. 
 ["1250185"]
 japanese = "<value:$28>、<line-break>もちろん、アルノートゥンに<line-break>行くんだよね？<line-break>ヴァイにも聞いてみて、<line-break>私たちも力を貸すつもりだよ！<end>"
 korean = "<value:$28>, 물론 알노트운에 갈 거지? 바위에게도 물어보고 우리도 힘을 보탤 생각이야!<end>"
+
+["1250186"]
+japanese = "止めねばならぬ…！<line-break>聖光石の坑道には、<line-break>恐ろしい秘密があるのじゃ！<end>"
+korean = "막아야 한다…!성광석 갱도에는,무서운 비밀이 있단다!<end>"
 
 ["1250188"]
 japanese = "まずいな…。<line-break>ナッジが大切なら<line-break>助けに行かないと。<end>"
@@ -515,6 +543,10 @@ korean = "콘스의 세계…인가.<end>"
 ["1250209"]
 japanese = "コーンスも人間も野蛮だわ！<line-break>高貴で優雅で知性あふれるエルフの<line-break>ように静かに生きれないの？<line-break>アタクシ、泥臭い戦争は嫌いよ！<end>"
 korean = "코른스도 인간도 야만적이야! 고귀하고 우아하며 지성 넘치는 엘프처럼 조용히 살 수 없어? 난 촌스러운 전쟁은 싫어!<end>"
+
+["1250210"]
+japanese = "コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<line-break>コーンスの反乱のボゲー<end>"
+korean = "콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー콘스의 반란 보게ー<end>"
 
 ["1250211"]
 japanese = "カルラさん、行っちゃったね。<line-break>追いかけないの？<end>"
@@ -775,6 +807,10 @@ korean = "인간은 자신의 힘으로 미래를 개척한다. 신에게… 만
 ["1250345"]
 japanese = "人の願いから産まれた神…。<line-break>そんなものに勝てるのかな…。<line-break>お兄ちゃん…。<end>"
 korean = "사람의 소원에서 태어난 신…. 그런 걸 이길 수 있을까…. 오빠….<end>"
+
+["1250346"]
+japanese = "あれが神じゃと？<line-break>あんなもの断じて神ではない！<line-break><line-break>人の願いを利用しとるだけの存在を<line-break>神などと…わしは断じて認めん！<line-break><end>"
+korean = "저게 신이라고?저런 것은 결코 신이 아니다!사람의 소원을 이용하기만 하는 존재를신이라니… 나는 결코 인정 못 한다!<end>"
 
 ["1250348"]
 japanese = "あれが神だとしても、あんなものに<line-break>俺たちの未来を決められるのは<line-break>ごめんだ！<line-break>俺たちの未来は俺たちが決める！<end>"

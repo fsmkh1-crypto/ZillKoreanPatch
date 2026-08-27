@@ -56,6 +56,10 @@ korean = "그대, 티아나의 방에도 얼굴을 비췄던 건가.<end>"
 japanese = "これからもティアナのこと、<line-break>守ってやってほしい。<end>"
 korean = "앞으로도 티아나를 지켜 줬으면 한다.<end>"
 
+["670015"]
+japanese = "<if><value:$29><equal>%0レムオン坊やの弟君が<line-break>何をしておいでか？<end>レムオン坊やの妹君が<line-break>何をしておいでか？<end>"
+korean = "<if><value:$29><equal>%0레몬 꼬마의 남동생이뭘 하고 있는지?<end>레몬 꼬마의 여동생이뭘 하고 있는지?<end>"
+
 ["670016"]
 japanese = "お母様、私のお客様です。<line-break>失礼なことはおっしゃらないで。<end>"
 korean = "어머니, 제 손님이에요. 실례되는 말씀은 하지 마세요.<end>"
@@ -232,6 +236,10 @@ korean = "…당신, 눈빛이 좋군.<end>"
 japanese = "俺の叔母貴がよく言ってるよ。<line-break>目の輝きは魂の輝きを示すってね。<end>"
 korean = "우리 숙모가 자주 하는 말이 있어. 눈빛은 영혼의 빛을 보여 준다고.<end>"
 
+["670061"]
+japanese = "…あんたの目には<line-break>無限の可能性を感じる。<line-break>名前はなんて言うんだい？<end>"
+korean = "…네 눈에서는무한한 가능성이 느껴져.이름이 뭐지?<end>"
+
 ["670062"]
 japanese = "<value:$28>ね。<line-break>俺はゼネテス。よろしく。<end>"
 korean = "<value:$28>이지. 난 제네테스다. 잘 부탁해.<end>"
@@ -255,6 +263,14 @@ korean = "여러 가지지. 밥 먹고 자고, 이것저것. 미안하지만 얘
 ["670067"]
 japanese = "どんな具合だい？<end>"
 korean = "상태가 어때?<end>"
+
+["670068"]
+japanese = "骨は折れちゃいない。<line-break>問題はショックで<line-break>体温が下がってきていることだな。<end>"
+korean = "뼈가 부러진 건 아니야.문제는 충격 때문에체온이 내려가고 있다는 거지.<end>"
+
+["670069"]
+japanese = "ゼネテス！<line-break>このような所で何をしているのです。<line-break>まじめに答えてください！<end>"
+korean = "제네테스!이런 곳에서 뭘 하고 있는 겁니까.진지하게 대답하세요!<end>"
 
 ["670070"]
 japanese = "…今まで歌ってたの、あんただな。<end>"

@@ -32,6 +32,10 @@ korean = "오오…. 훌륭하다…….<end>"
 japanese = "いかがでございましょうか？<line-break>白虎将軍閣下。<end>"
 korean = "어떠십니까? 백호장군 각하.<end>"
 
+["1840010"]
+japanese = "うむ。<line-break>　<line-break>　　　　　　　　　　　　　<end>全軍前進！<line-break>アキュリュースに着岸せよ！<end>"
+korean = "음.　　　　　　　　　　　　　　<end>전군 전진!아큐류스에 상륙하라!<end>"
+
 ["1840011"]
 japanese = "うむ。<end>"
 korean = "음.<end>"
@@ -136,6 +140,10 @@ korean = "상관없다. 마음대로 해라.<end>"
 japanese = "ねえ、君、イークレムンだよね？<line-break>　<line-break>　<line-break>僕は君に用があるんだ。<line-break>急で悪いんだけど、僕に<line-break>ついてきてくれないかなあ？<end>"
 korean = "있지, 너 이크레문 맞지? 난 너한테 볼일이 있어. 갑작스러워서 미안한데 나를 따라와 주지 않을래?<end>"
 
+["1840042"]
+japanese = "それはなりませぬ！<line-break>イークレムン様はいずれ水の巫女として<line-break>精霊神に仕えるお方。<line-break>そのような得体の知れぬ者に<line-break>渡すことは、決して許されませぬ！<end>"
+korean = "그건 안 됩니다!이크레문 님은 언젠가 물의 무녀로서정령신을 섬기실 분.그런 정체 모를 자에게넘기는 것은 결코 허락할 수 없습니다!<end>"
+
 ["1840044"]
 japanese = "やあ、君たちは　　　　　　<line-break>さっきの水蛇たちだね？<line-break>　<line-break>僕が憎い？　ならどうする？<line-break>ここで僕とまた戦おっか？<line-break>よーし、負けないぞ！！<end>"
 korean = "여어, 너희는 아까 그 물뱀들이지? 내가 미워? 그럼 어쩔래? 여기서 나랑 또 싸울까? 좋아, 안 질 거야!!<end>"
@@ -219,6 +227,10 @@ korean = "무사해서 다행입니다. …하지만 이크레문 님은….<end
 ["1840066"]
 japanese = "あら？<line-break>あれは…。<end>"
 korean = "어라? 저건….<end>"
+
+["1840067"]
+japanese = "それは…、<line-break>イークレムン様の耳飾りです。　　　　<line-break>　<line-break>人魚のウロコから作られたもので、<line-break>イークレムン様にとっては、<line-break>お母様の形見です。<end>"
+korean = "그건…이크레문 님의 귀걸이입니다.　　　　　인어의 비늘로 만든 것으로,이크레문 님에게는어머님의 유품입니다.<end>"
 
 ["1840070"]
 japanese = "人魚のイヤリングを手に入れた。<end>"

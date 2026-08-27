@@ -60,9 +60,17 @@ korean = "본인이 해결할 수밖에 없다고 말한다<end>"
 japanese = "…うれしいです。　　　　　　　　<line-break>　<line-break>　<line-break><value:$28>様が一緒であれば<line-break>私、あの闇にうち勝つことが<line-break>できると思います。<end>"
 korean = "…기뻐요. <value:$28>님이 함께라면 저, 그 어둠을 이겨낼 수 있을 것 같아요.<end>"
 
+["1910017"]
+japanese = "いえ、<value:$28>様が<line-break>そばにいてくだされば、私が不安に<line-break>かられることもなくなりますから。　<line-break>ですから、<value:$28>様。<line-break>また、私に会いにいらしてください。<end>"
+korean = "아니요, <value:$28> 님이곁에 있어 주시면 제가 불안에휩싸일 일도 없어질 테니까요.　그러니, <value:$28> 님.또 저를 만나러 와 주세요.<end>"
+
 ["1910018"]
 japanese = "…私にできるでしょうか。　　<line-break>　<line-break>　<line-break><value:$28>様がそばに<line-break>いてくださるなら、<line-break>できるのかもしれませんが…。<end>"
 korean = "…제가 할 수 있을까요. <value:$28>님이 곁에 있어 주신다면 할 수 있을지도 모르지만….<end>"
+
+["1910019"]
+japanese = "私の不安を解消できるのは<line-break><value:$28>様がそばにいることで<line-break>得られる安心なのだと思います。　<line-break>ですから、<value:$28>様。<line-break>また、私に会いにいらしてください。<end>"
+korean = "제 불안을 없앨 수 있는 건<value:$28> 님이 곁에 계실 때느끼는 안도감인 것 같아요.　그러니, <value:$28> 님.또 저를 만나러 와 주세요.<end>"
 
 ["1910022"]
 japanese = "みんな心配すると言う<end>"
@@ -419,6 +427,10 @@ korean = "이 싸움이 끝나면 이제 싸우지 않아도 되는 거지? 루�
 ["1910148"]
 japanese = "竜王…、<line-break>不足のない相手だ。<end>"
 korean = "용왕… 부족함 없는 상대다.<end>"
+
+["1910149"]
+japanese = "僕、この戦いが終わったら　　<line-break><value:$28>の冒険の詩を<line-break>作るんだ。<line-break>その<value:$28>の旅に<line-break>少しでも参加することができて<line-break>とーってもうれしいよ。<end>"
+korean = "나, 이 싸움이 끝나면　　<value:$28>의 모험시를쓸 거야.그 <value:$28>의 여행에조금이라도 참여할 수 있어서정말 기뻐.<end>"
 
 ["1910150"]
 japanese = "だから、<value:$28>。<line-break>必ず帰ってこようね。<end>"

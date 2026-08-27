@@ -116,6 +116,10 @@ korean = "확실히 세계는 넓다. 하지만 이 넓은 세계에 네가 있�
 japanese = "お前が、住むべきわずかな場所と、　<line-break>生きていくのに必要なだけの<line-break>肉を求めたとしても、<line-break>奴らの頭の中では、<line-break>お前は凶悪な侵略者でしかない。<line-break>　<end>"
 korean = "네가 살 작은 장소와 살아가는 데 필요한 만큼의 고기를 원할 뿐이어도, 녀석들 머릿속에서 넌 흉악한 침략자일 뿐이다.<end>"
 
+["700031"]
+japanese = "奴らはお前の力に嫉妬し、恐怖し、　<line-break>憎悪し、そしてお前を殺しに来る。<line-break>　<end>"
+korean = "놈들은 네 힘을 질투하고 두려워하며,　증오하고, 결국 널 없애러 올 거다.　<end>"
+
 ["700032"]
 japanese = "お前が身を守れば、お前は奴らの<line-break>敵だったことが証明される。<line-break>　<line-break>かくて、正義の名の下に<line-break>奴らの刃がお前を襲う。<line-break>…つぎつぎとな。<end>"
 korean = "네가 자신을 지키면 네가 놈들의 적이었다는 게 증명된다. 그리하여 정의의 이름 아래 놈들의 칼날이 너를 덮친다. …차례차례 말이지.<end>"
@@ -144,6 +148,10 @@ korean = "확실히 세상은 넓다. 하지만 이 넓은 세상에 네 자리�
 japanese = "お前が、住むべきわずかな場所と、　<line-break>生きていくのに必要なだけの<line-break>肉を求めたとしても、<line-break>奴らの頭の中では、<line-break>お前は凶悪な侵略者でしかない。<line-break>　<end>"
 korean = "네가 살 작은 장소와 살아가는 데 필요한 만큼의 고기를 원할 뿐이어도, 녀석들 머릿속에서 넌 흉악한 침략자일 뿐이다.<end>"
 
+["700039"]
+japanese = "奴らはお前の力に嫉妬し、恐怖し、　<line-break>憎悪し、そしてお前を殺しに来る。<line-break>　<end>"
+korean = "놈들은 네 힘을 질투하고 두려워하며,　증오하고, 결국 널 없애러 올 거다.　<end>"
+
 ["700040"]
 japanese = "お前が身を守れば、お前は奴らの<line-break>敵だったことが証明される。<line-break>　<line-break>かくて、正義の名の下に<line-break>奴らの刃がお前を襲う。<line-break>…つぎつぎとな。<end>"
 korean = "네가 자신을 지키면 네가 놈들의 적이었다는 게 증명된다. 그리하여 정의의 이름 아래 놈들의 칼날이 너를 덮친다. …차례차례 말이지.<end>"
@@ -159,6 +167,10 @@ korean = "그들이 옳다면 너에게는 그보다 더 큰 정당성이 있다
 ["700043"]
 japanese = "そら、お前を殺そうとして<line-break>凶悪な冒険者がやってきおった。<line-break>　<line-break>まず、奴らを血祭りに上げよ。<line-break>よいな。<end>"
 korean = "자, 너를 죽이려 흉악한 모험자들이 찾아왔다. 우선 녀석들을 피바다로 만들어라. 알겠느냐.<end>"
+
+["700044"]
+japanese = "<if><value:$29><equal>%0あら、かわいい坊やね。<line-break>くすくす…。<end>あら、かわいいコね。<line-break>くすくす…。<end>"
+korean = "<if><value:$29><equal>%0어머, 귀여운 꼬마네.후훗….<end>어머, 귀여운 아이네.후훗….<end>"
 
 ["700045"]
 japanese = "くすっ、おびえなくていいのよ。<line-break>ねぇ、ちょっと探してるものが<line-break>あるんだけど…。<end>"
@@ -211,6 +223,10 @@ korean = "예비 선택지 3<end>"
 ["700062"]
 japanese = "ほら、大丈夫かい？　　　　　<line-break>立てるかい？<line-break>　<end>"
 korean = "자, 괜찮아? 일어설 수 있겠어?<end>"
+
+["700063"]
+japanese = "大丈夫みたいだね。<line-break>物騒だからあんまりこんな所で<line-break>倒れてるんじゃないよ。<end>"
+korean = "괜찮은 것 같네.위험하니까 이런 데서자꾸 쓰러져 있으면 안 돼.<end>"
 
 ["700064"]
 japanese = "予備メッセージ１１<line-break>アーギルシャイア、ボリューム１、その２<end>"
@@ -872,6 +888,10 @@ korean = "그 녀석, 분명 그 마인과 뭔가 관계가 있어…. 최악의
 japanese = "<value:$28>…<line-break>お前は月からの使者としての　　　　　<line-break>使命があるだろ？<line-break>魔人なんかと関わって、<line-break>使命を達成しないうちに<line-break>命を落とすわけにはいかないだろ？<end>"
 korean = "<value:$28>… 너는 달의 사자로서 사명이 있잖아? 마인 같은 것과 얽혀 사명을 이루기 전에 목숨을 잃을 수는 없지?<end>"
 
+["700257"]
+japanese = "…すまない。<line-break>…お前、アミラルを出てから<line-break>どんどん、変わっていくんだな。<end>"
+korean = "…미안해.…너, 아미랄을 떠난 뒤로점점 변해 가는구나.<end>"
+
 ["700259"]
 japanese = "姉ちゃーん。<end>"
 korean = "누나아.<end>"
@@ -883,6 +903,10 @@ korean = "별이 아름다운 밤이네….<end>"
 ["700261"]
 japanese = "姉ちゃんの瞳の中にも<line-break>星が降ってるよ。<end>"
 korean = "누나 눈동자 속에도 별이 내리고 있어.<end>"
+
+["700262"]
+japanese = "いったあ！　もう！<line-break>単に姉弟の親睦を深めようと<line-break>会話しに来ただけじゃんかよ！　　　<line-break>どうして、すぐ手が出るかなー！<line-break>バカになったら姉ちゃんのせいだぜ！<end>"
+korean = "아야! 정말!그냥 남매끼리 친목을 다지려고얘기하러 온 것뿐이잖아!　　　왜 바로 손부터 나가는 거야!바보가 되면 누나 책임이야!<end>"
 
 ["700263"]
 japanese = "チャカは少し頭が悪くなった。<line-break>チャカのＩＮＴが１下がった。<end>"

@@ -84,6 +84,10 @@ korean = "그래서 감사의 뜻을 담아… 술자리를 마련했다.<end>"
 japanese = "まさか、受けぬと言わんじゃろうな？<end>"
 korean = "설마 받지 않겠다고 하진 않겠지?<end>"
 
+["1380023"]
+japanese = "ハハハ、<line-break>無理に飲まんでもよい。<line-break>わしにつきあってくれれば十分じゃ。<end>"
+korean = "하하하,억지로 마실 필요는 없다.나와 함께 있어 주기만 하면 충분하다.<end>"
+
 ["1380024"]
 japanese = "よし、そうと決まれば善は急げじゃ。<line-break>さっそく、酒場に繰り出そうぞ。<end>"
 korean = "좋아, 정했으면 쇠뿔도 단김에 빼야지. 당장 술집으로 가자꾸나.<end>"
@@ -147,6 +151,10 @@ korean = "그럼 <value:$28> 씨, 다시 만날 날을 기대하고 있겠습니
 ["1380039"]
 japanese = "猫さんも、ね。<end>"
 korean = "고양이도, 응.<end>"
+
+["1380040"]
+japanese = "な、なんだよ。<end>ケリュネイアに付き合ってて<line-break>すきをついて自由行動してんだよ。<line-break>悪いか？<end>"
+korean = "뭐, 뭐야.<end>케류네이아랑 어울리다가틈을 봐서 자유행동 중인 거야.불만이냐?<end>"
 
 ["1380045"]
 japanese = "おっと、そろそろ、戻らねぇと。<line-break>ケリュネイアにチクられでもしたら、<line-break>一大事だからな。<line-break>じゃあな。あんまり夜更かしすんなよ。<end>"
@@ -392,6 +400,10 @@ korean = "<value:$28>…? 이렇게 늦은 밤에 무슨 일이야?<end>"
 japanese = "今晩みたいに、それが気になって<line-break>眠れないこともある…。<end>"
 korean = "오늘 밤처럼 그게 신경 쓰여 잠들지 못할 때도 있어….<end>"
 
+["1380127"]
+japanese = "大丈夫、心配はしないで。<line-break>それとも、私がそんなに<line-break>頼りなさそうに見える？<end>"
+korean = "괜찮아, 걱정하지 마.아니면 내가 그렇게못 미더워 보여?<end>"
+
 ["1380134"]
 japanese = "もう少し夜風に吹かれて、<line-break>気分が落ち着いたら部屋へ戻るわ。<end>"
 korean = "조금 더 밤바람을 쐬고 마음이 진정되면 방으로 돌아갈게.<end>"
@@ -451,6 +463,10 @@ korean = "하지만… 하지만 말이야! 누나, 부탁해. 내 누나라는 
 ["1380155"]
 japanese = "…い、いけねえ、明日から<line-break>また忙しくなるんだったよな。<line-break>　<line-break>貴族のフリをするんだから、<line-break>勉強もしなくちゃだめだぜ、<line-break>姉ちゃん。<end>"
 korean = "…아, 이런. 내일부터 또 바빠지는 거였지. 귀족인 척하려면 공부도 해야 한다고, 누나.<end>"
+
+["1380156"]
+japanese = "田舎者っぽいボロがひとつでも<line-break>出たら、そこでお芝居は<line-break>おしまいだからな！<end>"
+korean = "촌놈 티가 하나라도나면 그 자리에서 연극은끝장이니까!<end>"
 
 ["1380157"]
 japanese = "へへへっ、その調子、その調子。　　　<line-break><line-break><line-break>一緒に行こうぜ、姉ちゃん。<line-break>一緒に、デカいことを成し遂げよう。<line-break>失敗なんか怖がる必要はないぜ。<end>"
@@ -519,6 +535,10 @@ korean = "…그때 성광석 갱도에서 반과 <value:$28>이 막아 주지 �
 ["1380173"]
 japanese = "ナッジ…。<end>"
 korean = "나지….<end>"
+
+["1380175"]
+japanese = "でも、君たちに叩きのめされて、<line-break>それが必ずしも正しいことじゃないって<line-break>気付いたんだ。<line-break>死んじゃったら、何にもならない。<line-break>何にもできやしないんだってね。<end>"
+korean = "하지만 너희에게 호되게 당하고,그게 반드시 옳은 건 아니라는 걸깨달았어.죽고 나면 아무 의미도 없어.아무것도 할 수 없다는 걸 말이야.<end>"
 
 ["1380178"]
 japanese = "ふふ、その例え、<line-break>なんだかよくわかんないな、ヴァン。<end>"
@@ -920,6 +940,10 @@ korean = "<if><value:$29><equal>%0소년이여, 심부름을 부탁하고 싶다
 japanese = "案内を頼んだ老婆に、<line-break>礼をしそびれた。<end>"
 korean = "길 안내를 부탁한 노파에게,인사를 못 했군.<end>"
 
+["1380305"]
+japanese = "この皮袋にいくばくか、<line-break>謝礼が入っている。<line-break>これを渡してきてほしい。<end>"
+korean = "이 가죽 주머니에 얼마간의사례금이 들어 있다.이걸 전해 줬으면 한다.<end>"
+
 ["1380307"]
 japanese = "老婆に皮袋を<line-break>渡してきてくれ。<end>"
 korean = "노파에게 가죽주머니를 건네주고 와 줘.<end>"
@@ -1051,6 +1075,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1380339"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1380340"]
+japanese = "<if><value:$29><equal>%0おーい。<line-break>こんなとこで寝てると<line-break>風邪ひいちゃうよ。<end><if><value:$29><equal>%1おーい。<line-break>こんなとこで寝てると<line-break>危険が一杯だよ。女の子なんだから。<end>"
+korean = "<if><value:$29><equal>%0이봐.이런 데서 자면감기 걸려.<end><if><value:$29><equal>%1이봐.이런 데서 자면위험한 일이 많아. 여자애잖아.<end>"
 
 ["1380342"]
 japanese = "復讐？　魔人？　故郷？<line-break>竜王の目覚め？<line-break>無限のソウル？<end>"
@@ -1220,6 +1248,10 @@ korean = "강대하고 불길한 힘을 지닌 12개의 마도기입니다. 과�
 japanese = "取り戻す？<line-break>聖杯は別の誰かに<line-break>盗まれちゃったってこと？<end>"
 korean = "되찾는다고? 성배를 다른 누군가에게 도둑맞았다는 뜻이야?<end>"
 
+["1380390"]
+japanese = "ええ。すでに聖杯はロストールの街から<line-break>盗み出されています。<line-break>　<line-break>ですが、それを盗み出させたのは<line-break>魔人アーギルシャイアではない<line-break>別の魔人なのです。<end>"
+korean = "예. 이미 성배는 로스톨 거리에서도난당했습니다.　하지만 그것을 훔치게 한 것은마인 아길샤이어가 아니라다른 마인입니다.<end>"
+
 ["1380391"]
 japanese = "ひょっとして…<line-break>名前を知るもの、ネモ？<end>"
 korean = "혹시…이름을 아는 자, 네모?<end>"
@@ -1243,6 +1275,10 @@ korean = "뭐, 덕분에 로스토올은 불타 없어지지 않았지만요.<en
 ["1380400"]
 japanese = "ええ。よろしく頼みます。<end>"
 korean = "예. 잘 부탁드립니다.<end>"
+
+["1380401"]
+japanese = "じゃあ、まずは<line-break>そのゴブリンを見つけないと…<line-break>行き先とか心当たりは？<end>"
+korean = "그럼 우선그 고블린을 찾아야겠네…어디로 갔는지 짐작 가는 데는?<end>"
 
 ["1380403"]
 japanese = "人語をしゃべるゴブリン…<line-break>早く会ってみたいな。<line-break>ねぇ、<value:$28>！<end>"
@@ -1284,6 +1320,10 @@ korean = "이런 식으로 여기 있는 사람을 먼 곳으로 보내기도 �
 japanese = "すごい、すごいや！<end>"
 korean = "대단해, 정말 대단해!<end>"
 
+["1380413"]
+japanese = "一緒に旅する仲間を<line-break>変更したくなったら、<line-break>この猫屋敷に来てください。<end>"
+korean = "함께 여행할 동료를바꾸고 싶어지면,이 고양이 저택으로 와 주세요.<end>"
+
 ["1380415"]
 japanese = "ま、こんなところですかね？<end>"
 korean = "뭐, 이 정도인가요?<end>"
@@ -1311,6 +1351,10 @@ korean = "왕비님을 만나러 가시는군요. 알겠습니다. 지나가십�
 ["1380423"]
 japanese = "王妃様に会うのか。<line-break>よかろう、話は承っている。<line-break>通るとよい。<end>"
 korean = "왕비님을 만나러 가는가. 좋다, 이야기는 들었다. 지나가라.<end>"
+
+["1380426"]
+japanese = "王妃様にお会いしたいだと？<line-break>王妃様はお忙しいのだ。<line-break>さあ、帰った帰った！<end>"
+korean = "왕비님을 뵙고 싶다고?왕비님은 바쁘시다.자, 돌아가! 돌아가!<end>"
 
 ["1380428"]
 japanese = "よく来た、フリントの息子<line-break><value:$28>よ。<line-break>今日は何用か？<end>"
@@ -1803,6 +1847,10 @@ korean = "네<end>"
 ["1380580"]
 japanese = "ん？　オッシの奴が？<line-break>酒場のツケを、<line-break>俺のと奴のとでワリカンに？<line-break>そうかー！　思い出したぞ。<end>"
 korean = "응? 오시 녀석이? 술집 외상을 나랑 자기 거랑 반씩 내기로 했다고? 아! 생각났다.<end>"
+
+["1380582"]
+japanese = "おまけにその酒癖ときちゃあ…。<line-break>ま、約束したなら仕方がねえな。<line-break>頼むよ。<end>"
+korean = "게다가 그 술버릇까지….뭐, 약속했다면 어쩔 수 없지.부탁한다.<end>"
 
 ["1380583"]
 japanese = "悪いな。<line-break>よし、じゃ、あんたには、<line-break>駄賃といったらなんだが…<end>"

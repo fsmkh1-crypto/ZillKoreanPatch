@@ -324,6 +324,10 @@ korean = "그런가요…. …다행이다.<end>"
 japanese = "何か言いましたか？<end>"
 korean = "뭐라고 하셨나요?<end>"
 
+["1980112"]
+japanese = "い、いえ、何も…！<line-break>　<line-break>　<line-break>あ、でも、行方知れずに<line-break>なっているのなら、<line-break>もう探しようがないですよね。<line-break>ここは、きっぱりあきらめたほうが…。<end>"
+korean = "아, 아니요, 아무것도…!　　아, 하지만 행방불명이된 거라면,이젠 찾을 방법도 없잖아요.여기선 깨끗이 포기하는 게….<end>"
+
 ["1980114"]
 japanese = "え…ええーっ！？<line-break>そ、そんな、まさか…。<end>"
 korean = "에… 에엣!? 그, 그럴 리가….<end>"
@@ -476,6 +480,10 @@ korean = "에? 왜냐니… 그건….<end>"
 japanese = "ごめんなさい！<line-break>伝説のフライパンって、<line-break>全部、ウソだったんです。<end>"
 korean = "미안해요! 전설의 프라이팬 이야기는 전부 거짓말이었어요.<end>"
 
+["1980163"]
+japanese = "おばあちゃんから聞いたというのは<line-break>本当ですけど…。<line-break>　<line-break>でも、おばあちゃんの話は<line-break>幼かった私を楽しませるための<line-break>おとぎ話だって知ってたから…。<end>"
+korean = "할머니에게 들었다는 건사실이지만….　하지만 할머니 이야기는어렸던 나를 즐겁게 해 주기 위한동화라는 걸 알고 있었으니까….<end>"
+
 ["1980165"]
 japanese = "でも、不思議と今は自分のついたウソに<line-break>後悔がないんです。<end>"
 korean = "하지만 이상하게도 지금은 제가 한 거짓말을 후회하지 않아요.<end>"
@@ -491,6 +499,10 @@ korean = "그런 일은…<end>"
 ["1980172"]
 japanese = "あ、いいんです。<line-break>気を遣わないでください。<line-break>　<line-break><value:$28>さんと一緒に<line-break>ここまで来られただけでも<line-break>私は幸せ者ですから。<end>"
 korean = "아, 괜찮아요. 신경 쓰지 마세요. <value:$28>님과 함께 여기까지 올 수 있었던 것만으로도 저는 행복한 사람이니까요.<end>"
+
+["1980173"]
+japanese = "でも…。<line-break>あと、ほんのもう少しだけ、<line-break>ご一緒させてください。<line-break>あまり、お役には立てないかも<line-break>しれませんけど、私…。<line-break>一生懸命、がんばりますから。<end>"
+korean = "하지만….조금만, 정말 조금만 더,함께 있게 해 주세요.별로 도움이 되지 못할지도모르지만, 저….최선을 다해 노력할게요.<end>"
 
 ["1980174"]
 japanese = "それにしても、お前さんは<line-break>人間ができているねえ。<line-break>よく怒らないもんだ。<end>"
@@ -619,6 +631,10 @@ korean = "그런가요…. …다행이다.<end>"
 ["1980215"]
 japanese = "何か言いましたか？<end>"
 korean = "뭐라고 하셨나요?<end>"
+
+["1980216"]
+japanese = "い、いえ、何も…！<line-break>　<line-break>　<line-break>あ、でも、行方知れずに<line-break>なっているのなら、<line-break>もう探しようがないですよね。<line-break>ここは、きっぱりあきらめたほうが…。<end>"
+korean = "아, 아니요, 아무것도…!　　아, 하지만 행방불명이된 거라면,이젠 찾을 방법도 없잖아요.여기선 깨끗이 포기하는 게….<end>"
 
 ["1980217"]
 japanese = "いえ、そうとも限りませんよ。<line-break>わずかですが手がかりはあります。<end>"

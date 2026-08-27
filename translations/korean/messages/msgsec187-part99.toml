@@ -4,6 +4,10 @@
 japanese = "ノエル２用メッセージＶ５開始<end>"
 korean = "노엘2용 메시지 V5 시작<end>"
 
+["1870001"]
+japanese = "今日はノエルの使いで<line-break>お前に会いに来た。<line-break><line-break>シルヴァを襲ったソウルイーターが<line-break>竜王の島に現れたのだ。ノエルは先に<line-break>竜王の島へ向かった。<end>"
+korean = "오늘은 노엘의 심부름으로너를 만나러 왔다.실바를 습격한 소울이터가용왕의 섬에 나타났다. 노엘은 먼저용왕의 섬으로 향했다.<end>"
+
 ["1870003"]
 japanese = "<value:$28>。<line-break>ノエルの求めに応じて、今すぐに<line-break>竜王の島へ出向く気があるか？<end>"
 korean = "<value:$28>. 노엘의 요청에 응해 지금 당장 용왕의 섬으로 갈 생각이 있나?<end>"
@@ -184,6 +188,10 @@ korean = "그럼 가볼까.<end>"
 japanese = "あ、待ってください！<end>"
 korean = "아, 기다려 주세요!<end>"
 
+["1870052"]
+japanese = "<value:$28>さん、<line-break>今日は本当に<line-break>ありがとうございました！　　　　<line-break>わたし、<value:$28>さんなら<line-break>きっと、助けに来てくれるって<line-break>信じてたんです！<end>"
+korean = "<value:$28> 님,오늘은 정말로감사했습니다!　　　　저는 <value:$28> 님이라면분명 구하러 와 주실 거라고믿고 있었어요!<end>"
+
 ["1870053"]
 japanese = "わたし、よかったです。<line-break><value:$28>さんという人に<line-break>出会うことができて！<end>"
 korean = "저, 정말 다행이에요. <value:$28>님이라는 분을 만날 수 있어서요!<end>"
@@ -199,6 +207,10 @@ korean = "노엘이여…. 나와의 약속을 잊지 말거라.<end>"
 ["1870056"]
 japanese = "<value:$28>さん、<line-break>わたしたち、<line-break>一度オズワルドに戻ってみます。<line-break>でも、冒険者はやめません。<line-break>ですから、オズワルドを出たら<line-break>またお会いしましょう！<end>"
 korean = "<value:$28> 씨, 저희는 한번 오즈월드로 돌아가 보려고 해요. 하지만 모험자를 그만두진 않아요. 오즈월드를 나오면 다시 만나요!<end>"
+
+["1870057"]
+japanese = "<value:$28>、<line-break>あたしたちを助けに来てくれて、<line-break>本当にありがとう。<line-break>あたしは今まで、<line-break>竜王様のご加護ってものを<line-break>そんなには信じてなかったけど、<end>"
+korean = "<value:$28>,우리를 구하러 와 줘서,정말 고마워.나는 지금까지,용왕님의 가호라는 걸그렇게 믿진 않았지만,<end>"
 
 ["1870058"]
 japanese = "あなたとノエルを会わせてくれた<line-break>ことには、感謝したいわ。<end>"

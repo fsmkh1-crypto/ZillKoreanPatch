@@ -272,6 +272,10 @@ korean = "하지만 저는 무너지는 그 순간까지 제 역할을 다하겠
 japanese = "じきに、私の体は<line-break>土くれのように<line-break>崩れ落ちるでしょう。　　　　　　　<line-break>それによって<line-break>役目を全うすることができないのは<line-break>本当に申しわけないことだと思います。<end>"
 korean = "곧 제 몸은 흙덩이처럼 무너져 내릴 겁니다. 그 때문에 역할을 다하지 못하는 건 정말 죄송한 일이라고 생각합니다.<end>"
 
+["1160108"]
+japanese = "<value:$28>様、ですか？<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>体を維持するための魔力が<line-break>弱まっているのでしょう。<line-break>最近は、目もよく見えません。<end>"
+korean = "<value:$28> 님인가요?　　　　　　　　　　　　　　　몸을 유지하는 마력이약해지고 있는 거겠죠.요즘은 눈도 잘 보이지 않습니다.<end>"
+
 ["1160110"]
 japanese = "<value:$28>様…。<line-break>　　　　　　　　　　　　<line-break>　<line-break>あなたが<line-break>ここにいらっしゃることは<line-break>相変わらず、意味がありません。<end>"
 korean = "<value:$28>님…. 당신이 여기 계시는 건 여전히 아무 의미가 없습니다.<end>"
@@ -335,6 +339,10 @@ korean = "불의 최고위 마법이 해방되었다.<end>"
 ["1160135"]
 japanese = "　　　　　　　では、さらばだ。　　　　　　　<line-break>　　　　　　　<value:$28>、<line-break>　　　　　無限のソウルを持つ者よ。<end>"
 korean = "그럼 잘 있어라. <value:$28>, 무한의 소울을 지닌 자여.<end>"
+
+["1160136"]
+japanese = "　　　　　　再び来たか。<value:$28>、<line-break>　　　　　　無限のソウルを持つ者よ。　　　　<line-break>　　　　　　プネウマを退治する気に<line-break>　　　　　　　　なったのだな？<end>"
+korean = "　　　　　　다시 왔는가. <value:$28>,　　　　　　무한의 소울을 지닌 자여.　　　　　　　　　　프네우마를 퇴치할 마음이　　　　　　　　생긴 것이냐?<end>"
 
 ["1160137"]
 japanese = "しょうがないな<end>"

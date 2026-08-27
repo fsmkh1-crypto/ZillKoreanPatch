@@ -436,6 +436,14 @@ korean = "<value:$28>님도 신기의 수호자 일족입니다. 괜찮다고 �
 japanese = "お…おっきなじしんだったね！<line-break>わ…わたし、びっくりしちゃった。<end>"
 korean = "커… 커다란 지진이었어! 나… 나 깜짝 놀랐어.<end>"
 
+["320135"]
+japanese = "<select><value:$20>%2こわいよぉ！<line-break>こわいよぉ！<end><value:$28>さまぁ！<line-break>たすけて！！<line-break>みんな…みんな…もえちゃうよお！<end>"
+korean = "<select><value:$20>%2무서워어!무서워어!<end><value:$28> 님!도와줘!!모두… 모두… 타 버려어!<end>"
+
+["320136"]
+japanese = "<select><value:$20>%2ヘンな女が空から降りてきて…<line-break>村が…村が…炎に包まれて…。<end>火だ…火だ…火だアア！<line-break>だ、誰か、助けてくれえ！<end>"
+korean = "<select><value:$20>%2이상한 여자가 하늘에서 내려오고…마을이… 마을이… 불길에 휩싸여서….<end>불이다… 불이다… 불이야아아!누, 누가 좀 살려줘어!<end>"
+
 ["320139"]
 japanese = "<value:$28>さまー。<line-break>おかえりなさい。<line-break>お疲れさまでしたー。<end>"
 korean = "<value:$28> 님~. 어서 오세요. 수고하셨어요~.<end>"

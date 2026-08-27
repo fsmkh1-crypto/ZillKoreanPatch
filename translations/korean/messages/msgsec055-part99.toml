@@ -32,9 +32,17 @@ korean = "여어, 용사님~!<end>"
 japanese = "今日こそ、その大剣、天動地鳴が<line-break>抜ける日だ！<end>"
 korean = "오늘이야말로 그 대검 천동지명이 뽑히는 날이다!<end>"
 
+["550008"]
+japanese = "<if><value:$29><equal>%0おらおら、坊主！<line-break>じゃまするんじゃないぞ！<end>おらおら、姉ちゃん！<line-break>じゃましちゃダメだぜ！<end>"
+korean = "<if><value:$29><equal>%0어이, 꼬마!방해하지 마라!<end>어이, 아가씨!방해하면 안 돼!<end>"
+
 ["550009"]
 japanese = "かつて、この地には<line-break>魔物が住みついておった。　　　　　　<line-break>　<line-break>すべてを石に変えてしまう<line-break>恐ろしい魔物じゃ。<end>"
 korean = "옛날 이 땅에는 마물이 살고 있었다. 모든 것을 돌로 바꿔 버리는 무서운 마물이었지.<end>"
+
+["550012"]
+japanese = "<select><value:$20>%2今までに何人があの剣に挑んだかねぇ。<line-break>でも成功したためしは一度もないよ。<end>あの娘は領主様の１人娘ノエルさ。<line-break>身体は小さいけど、剣の腕は確かだよ。<end>"
+korean = "<select><value:$20>%2지금까지 몇 명이나 저 검에 도전했는지 몰라.하지만 성공한 사람은 한 번도 없었어.<end>저 아이는 영주님의 외동딸 노엘이야.몸은 작아도 검 솜씨는 확실하지.<end>"
 
 ["550016"]
 japanese = "…ふっ、<line-break>竜王様のおっしゃるとおりだ。<end>"

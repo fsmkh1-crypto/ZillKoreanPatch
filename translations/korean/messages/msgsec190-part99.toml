@@ -32,6 +32,10 @@ korean = "그렇게 소란 피울 것 없다. 이것도 운명. 자기브에게 
 japanese = "だが、お主への想いが<line-break>どうやら最後の覚醒にいたらせぬ<line-break>原因のようじゃ。<end>"
 korean = "하지만 네게 품은 마음이 아무래도 마지막 각성에 이르지 못하는 원인인 듯하구나.<end>"
 
+["1900010"]
+japanese = "フフフ、<value:$28>が<line-break>ザギヴの最後の希望ってわけだね。　　<line-break>　<line-break>周囲から疎まれ続けたザギヴにとって、<line-break><value:$28>だけが<line-break>心を許せる人物だったんだ。<end>"
+korean = "후후후, <value:$28>가자기브의 마지막 희망이라는 거군.　　　주변에서 계속 미움받아 온 자기브에게,<value:$28>만이마음을 허락할 수 있는 사람이었던 거야.<end>"
+
 ["1900011"]
 japanese = "だが、それも幻想にすぎぬということを<line-break>教えてやらねばなるまい。<line-break>　<line-break><value:$28>よ、どうする？<line-break>ザギヴとともに闇を滅ぼすか？<line-break>じゃが、そのときはザギヴも死ぬぞ。<end>"
 korean = "하지만 그것도 환상에 지나지 않는다는 걸 가르쳐 줘야겠군. <value:$28>여, 어떻게 할 거냐? 자기브와 함께 어둠을 멸할 건가? 하지만 그때는 자기브도 죽는다.<end>"
@@ -195,6 +199,10 @@ korean = "으으…. 우우… 아… 아아… 아악…. 가아아아악!<end>
 ["1900064"]
 japanese = "ギーヒッヒッ！　長かったぜぇ！<line-break>ネメアにやられてから<line-break>ずっと待ってたんだよ！<line-break>この女の中に潜んで、<line-break>闇の力が強くなるのをよ！<line-break>"
 korean = "기히히힛! 오래 기다렸다고! 네메아에게 당한 뒤로 계속 기다렸어! 이 여자 안에 숨어서 어둠의 힘이 강해지기를 말이야!"
+
+["1900066"]
+japanese = "ギーヒッヒッ！<line-break>俺様を殺してどうするつもりなんだ？　<line-break>何も変わりゃ…しないぜ…！<line-break>ザギヴって女も、<line-break>生きかえりは…しないぜ。<line-break>クク…。ハハハ！<end>"
+korean = "기히히힛!이 몸을 쓰러뜨려서 어쩔 셈이지?　아무것도 변하진… 않아…!자기브라는 여자도,다시 살아나진… 않아.크크…. 하하하!<end>"
 
 ["1900068"]
 japanese = "じゃが、シャリよ。<line-break>お主らの切り札は残っておろう。<line-break>あとは任せよう。<line-break>わしは、ここらで、<line-break>わしの運命に決着をつける。<end>"
@@ -491,6 +499,10 @@ korean = "티아나라면 할 수 있다고 말한다<end>"
 ["1900165"]
 japanese = "ロストールの王女ならできると言う<end>"
 korean = "로스톨의 왕녀라면 할 수 있다고 한다<end>"
+
+["1900166"]
+japanese = "…<value:$28>様。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>不思議ですね。<value:$28>様が<line-break>そうおっしゃるだけで、本当に私にも<line-break>できる気がしてきます。<end>"
+korean = "…<value:$28> 님.　　　　　　　　　　　　　　　　　　신기하네요. <value:$28> 님이그렇게 말씀해 주시기만 해도, 정말 저도할 수 있을 것 같은 기분이 들어요.<end>"
 
 ["1900167"]
 japanese = "本当は<value:$28>様がいつも<line-break>そばにいらしてくだされば、ティアナは<line-break>もっとがんばれるのですけれど、<line-break>それは、ティアナのわがままと<line-break>いうものですね。<line-break>　<end>"
