@@ -704,6 +704,10 @@ korean = "감사합니다. 모두 여러분 덕분입니다.<end>"
 japanese = "そんな…、私たちは　　　　　　<line-break>カルラさんに力を貸しただけ。<line-break>　<line-break>カルラさん、大丈夫なのかな…。<end>"
 korean = "그럴 수가… 우린 카를라 씨를 도왔을 뿐인데. 카를라 씨, 괜찮은 걸까….<end>"
 
+["840182"]
+japanese = "<if><value:$01><equal>4ふぅ、なんとか助かったみたい。<end><if><value:$01><equal>6ここまで来れば安心だね。<end><if><value:$01><equal>15なんとか抜け出したね。<end><if><value:$01><equal>17まったく、<line-break>とんでもない目にあったわ。<end><if><value:$01><equal>19ここまで来れば大丈夫だよね。<end><if><value:$01><equal>22ここまで来れば大丈夫だよね。<end>なんとか抜け出したか。<end>"
+korean = "<if><value:$01><equal>4후우, 어떻게든 살았나 봐.<end><if><value:$01><equal>6여기까지 왔으면 안심이네.<end><if><value:$01><equal>15어떻게든 빠져나왔네.<end><if><value:$01><equal>17정말이지, 끔찍한 일을 겪었어.<end><if><value:$01><equal>19여기까지 왔으면 괜찮겠지.<end><if><value:$01><equal>22여기까지 왔으면 괜찮겠지.<end>어떻게든 빠져나왔군.<end>"
+
 ["840183"]
 japanese = "ありがとうございました。<line-break>　<line-break>　<line-break>でも、あの方はおひとりで<line-break>無事なのでしょうか？<end>"
 korean = "감사합니다. 하지만 그분 혼자서 무사하실까요?<end>"

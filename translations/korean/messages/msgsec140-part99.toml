@@ -1240,6 +1240,10 @@ korean = "당신에게 문제는 없습니다.<end>"
 japanese = "私の…内部に…<line-break>問題があるのです<end>"
 korean = "제… 내부에… 문제가 있습니다.<end>"
 
+["1400321"]
+japanese = "<if><value:$29><equal>%0………………。<line-break>………………。<line-break>…むう。<line-break>世間にかような複雑な思いが<line-break>存在することは知っておったが<line-break>よもやこの身に起ころうとはな…。<end><value:$28>よ…。<line-break>そなたがここまで来ること、<line-break>このエアにも見通せなんだ。<line-break>無限のソウルを持つ者の未来は<line-break>誰にも見えぬということか。<end>"
+korean = "<if><value:$29><equal>%0………………. ………………. …음. 세상에 이토록 복잡한 마음이 존재한다는 건 알고 있었지만 설마 이 몸에게 일어날 줄이야….<end><value:$28>여…. 그대가 여기까지 올 줄은 이 에아도 내다보지 못했다. 무한의 소울을 지닌 자의 미래는 누구도 볼 수 없다는 것인가.<end>"
+
 ["1400322"]
 japanese = "<value:$28>よ…。<line-break>そなたがここまで来ること、<line-break>このエアにも見通せなんだ。<line-break>無限のソウルを持つ者の未来は<line-break>誰にも見えぬということか。<end>"
 korean = "<value:$28>여…. 그대가 여기까지 올 줄은 이 에아도 내다보지 못했다. 무한의 소울을 지닌 자의 미래는 누구에게도 보이지 않는다는 건가.<end>"

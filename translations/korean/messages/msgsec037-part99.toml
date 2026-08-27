@@ -744,6 +744,10 @@ korean = "<if><value:$29><equal>%0<value:$28>,유리아슈는 어떻게 됐어!?
 japanese = "お前はメイアって娘を<line-break>捜しに行かなくちゃならないよ。<end>"
 korean = "넌 메이아라는 아이를 찾으러 가야 해.<end>"
 
+["370193"]
+japanese = "<if><value:$29><equal>%0<value:$28>、支度しろい！<line-break>メイアを追うんだ。　　　　　<line-break>ユリアシュを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end><value:$28>、支度しな！<line-break>メイアを追うんだ。　　　　　<line-break>ユシュアルを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end>"
+korean = "<if><value:$29><equal>%0<value:$28>, 준비해! 메이아를 쫓는다. 유리아슈를 구하려면 메이아에게서 용좌의 보물이라는 걸 되찾는 수밖에 없어.<end><value:$28>, 준비해! 메이아를 쫓는다. 유슈알을 구하려면 메이아에게서 용좌의 보물이라는 걸 되찾는 수밖에 없어.<end>"
+
 ["370194"]
 japanese = "お前がメイアって娘を助けたこと、<line-break>あたしは正しかったと思ってるよ。　　<line-break>だからこそ、最後まで貫き通して、<line-break>最後まで正しかったことを見せとくれ。<line-break>それが、筋ってもんだろ！<end>"
 korean = "네가 메이아라는 아이를 구한 건 옳았다고 생각해. 그러니 마지막까지 밀고 나가서 끝까지 옳았다는 걸 보여 줘. 그게 도리잖아!<end>"

@@ -292,6 +292,10 @@ korean = "시스티나의 눈물이여, 별의 조각이여. 어리석은 자의
 japanese = "<value:$28>、<line-break>強く…生きて…。<end>"
 korean = "<value:$28>, 강하게… 살아가….<end>"
 
+["360078"]
+japanese = "<if><value:$29><equal>%0逃げ延びたのか？　　　　　　　<line-break>　<line-break>　<line-break>フッ、あの少年なら、<line-break>私に永遠の眠りをもたらすことが<line-break>できるのかもしれぬな…。<end>逃げ延びたのか？　　　　　　　<line-break>　<line-break>　<line-break>フッ、あの少女こそ、<line-break>私に永遠の眠りをもたらすことが<line-break>できるのかもしれぬな…。<end>"
+korean = "<if><value:$29><equal>%0살아남았나? 훗, 그 소년이라면 내게 영원한 잠을 가져다줄 수 있을지도 모르겠군….<end>살아남았나? 훗, 그 소녀야말로 내게 영원한 잠을 가져다줄 수 있을지도 모르겠군….<end>"
+
 ["360079"]
 japanese = "んしょ、んしょ。<line-break>僕も、いいかげん、面倒見がいいよね。<end>"
 korean = "영차, 영차. 나도 참 남 잘 챙긴다니까.<end>"

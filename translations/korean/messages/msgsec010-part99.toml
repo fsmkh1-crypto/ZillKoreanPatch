@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["100011"]
+japanese = "<if><value:$2A><less-equal>%49ロストールにはゼネテスっていう<line-break>腕利きの冒険者がいるんだ。<line-break>会ったことあるかい？<end><if><value:$2A><less-equal>%120君は傭兵をしたことがあるかい？<line-break>もしないなら一度やっておくといい。<line-break>何事も経験だから。<end>君は<value:$28>だろ？<line-break>思ったより若いんでびっくりしたよ。<line-break>たいした腕前なんだってね。<end>"
+korean = "<if><value:$2A><less-equal>%49로스토올에는 제네테스라는 실력 좋은 모험자가 있어. 만나 본 적 있나?<end><if><value:$2A><less-equal>%120자네는 용병 일을 해 본 적 있나? 없다면 한 번쯤 해 보는 게 좋아. 뭐든 경험이니까.<end>자네가 <value:$28>지? 생각보다 젊어서 놀랐어. 실력이 대단하다면서?<end>"
+
 ["100012"]
 japanese = "アキュリュースを出るんだな。<line-break>じゃ、船に乗らなきゃいかんぞ。<line-break>金はとらんが準備はできているんだろうな。<end>"
 korean = "아큐류스를 떠나는 거지. 그럼 배를 타야 해. 돈은 안 받지만 준비는 되어 있겠지?<end>"

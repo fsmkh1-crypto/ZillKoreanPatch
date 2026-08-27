@@ -12,6 +12,10 @@ korean = "<value:$28> 씨~!<end>"
 japanese = "こんにちは！<line-break><value:$28>さんの姿が見えたので<line-break>走ってきてしまいました。<end>"
 korean = "안녕하세요! <value:$28>님이 보여서 달려왔어요.<end>"
 
+["1410003"]
+japanese = "<if><value:$29><equal>%0もう、ノエルったら<line-break>ひとりで走っていかないでよね。　<line-break>　<line-break>まぁ、ボウヤがいたんじゃ<line-break>仕方ないかしらね？<line-break>ノエルはボウヤにぞっこんだから。<end>もう、ノエルったら<line-break>ひとりで走っていかないでよね。　　　<line-break>　<line-break>まぁ、子猫ちゃんがいたんじゃ<line-break>仕方ないかしらね？<line-break>ノエルは子猫ちゃんにぞっこんだから。<end>"
+korean = "<if><value:$29><equal>%0정말, 노엘도 참. 혼자 뛰어가지 말라니까. 뭐, 꼬마가 있었으니 어쩔 수 없었으려나? 노엘은 꼬마한테 푹 빠졌으니까.<end>정말, 노엘도 참. 혼자 뛰어가지 말라니까. 뭐, 아기고양이가 있었으니 어쩔 수 없었으려나? 노엘은 아기고양이한테 푹 빠졌으니까.<end>"
+
 ["1410004"]
 japanese = "ちょ、ちょっと、カフィン…！<end>"
 korean = "자, 잠깐, 카핀…!<end>"
@@ -19,6 +23,10 @@ korean = "자, 잠깐, 카핀…!<end>"
 ["1410005"]
 japanese = "あ、あの違うんです。<line-break>いや、えと、違わないけど…<line-break>違わないんです！　あれ？<end>"
 korean = "아, 아니, 그게 아니에요. 아니, 그러니까, 틀린 건 아닌데… 아니에요! 어라?<end>"
+
+["1410006"]
+japanese = "<if><value:$29><equal>%0ウフフ…あたしもボウヤに　　　　<line-break>この前のお礼をしなきゃ<line-break>いけないんだったわね。<line-break>さぁて、どんなお礼がいいかしら？<line-break>ねぇ？<end>そうだ。あたしも子猫ちゃんに　　<line-break>この前のお礼をしなきゃ<line-break>いけないんだったわね。<line-break>さぁて、どんなお礼がいいかしら？<line-break>ねぇ？<end>"
+korean = "<if><value:$29><equal>%0후후… 나도 꼬마한테 지난번 답례를 해야 했지. 자, 어떤 답례가 좋으려나? 응?<end>그래. 나도 아기고양이한테 지난번 답례를 해야 했지. 자, 어떤 답례가 좋으려나? 응?<end>"
 
 ["1410007"]
 japanese = "カフィン、<line-break>子供をからかうもんじゃないよ。<end>"

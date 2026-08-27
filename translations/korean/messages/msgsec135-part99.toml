@@ -2064,6 +2064,10 @@ korean = "<select><value:$20>%3사라지면 이제 알 수 없어. 허무의 검
 japanese = "…なんでもねえよ。<end>"
 korean = "…아무것도 아니야.<end>"
 
+["1350523"]
+japanese = "<select><value:$20>%3こんなカワイイ横顔してたなんて<line-break>ほんの少し前までは<line-break>気づかなかったんだよな…<end>…ありがとよ、<value:$28>。<line-break>今日も俺みたいな奴のために<line-break>俺がひとりで苦しまないようにって。<end>ちっ、<line-break>なんだってこんなときに<line-break>こんな奴と出会っちまったんだ。<line-break>もう少し遅ければ<line-break>俺はいなかったし。<line-break>もう少し早ければ…<end>"
+korean = "<select><value:$20>%3이렇게 귀여운 옆얼굴이었다니 조금 전까지만 해도 몰랐군….<end>…고맙다, <value:$28>. 오늘도 나 같은 놈을 위해, 내가 혼자 괴로워하지 않도록 해 주는구나.<end>쳇, 왜 하필 이런 때 이런 녀석을 만나 버린 거야. 조금만 늦었으면 난 없었을 테고. 조금만 빨랐으면….<end>"
+
 ["1350524"]
 japanese = "ちっ、起きてたのかよ。<line-break>なんでもねえよ！<line-break>黙ってたから、わからなかったぜ。<end>"
 korean = "칫, 깨어 있었냐. 아무것도 아니야! 조용히 있길래 몰랐잖아.<end>"

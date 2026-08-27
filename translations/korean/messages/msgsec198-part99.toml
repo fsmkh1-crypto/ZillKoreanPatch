@@ -288,6 +288,10 @@ korean = "앗, <value:$28> 씨….<end>"
 japanese = "えっ？　ああ、私ですか。<line-break>今、ちょっと星空を<line-break>ながめていたんです。<end>"
 korean = "네? 아, 저요? 지금 잠깐 별하늘을 바라보고 있었어요.<end>"
 
+["1980073"]
+japanese = "私、知らなかったんです。<line-break>世界がこんなにも広く、<line-break>驚きと楽しさに満ちていたなんて…。<line-break>ロストールの酒場は大好きですけど、<line-break>ずっとあそこで働いていたら、<line-break>　<line-break>こんな世界を知ることもなく、<line-break>人生を終えていたのかもしれませんね。<line-break>　<line-break>ありがとうございます。<line-break><value:$28>さん。<end>"
+korean = "저는 몰랐어요. 세상이 이렇게 넓고 놀라움과 즐거움으로 가득하다는 걸…. 로스토올의 술집을 정말 좋아하지만, 계속 거기서 일했다면 이런 세계를 알지도 못한 채 인생을 끝냈을지도 모르겠네요. 고마워요. <value:$28> 씨.<end>"
+
 ["1980074"]
 japanese = "でも、ときどき不安になるんです。<line-break>このまま冒険を続けていたら、<line-break>楽しいことよりも、辛いことのほうが<line-break>多くなるのかなって。<line-break><value:$28>さんはどう思います？<end>"
 korean = "하지만 가끔 불안해져요. 이대로 모험을 계속하면 즐거운 일보다 괴로운 일이 더 많아질까 하고요. <value:$28> 씨는 어떻게 생각하세요?<end>"

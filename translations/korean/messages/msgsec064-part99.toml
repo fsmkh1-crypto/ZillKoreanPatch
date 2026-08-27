@@ -724,6 +724,10 @@ korean = "레몬 님은 함께 계시지 않군요? 레몬 님은 늘 그런 식
 japanese = "本当はやさしいお方なのです。<line-break>ただ、それを表現するのが<line-break>ヘタなのですわ。<end>"
 korean = "사실은 다정한 분이에요.다만 그걸 표현하는 게서투르실 뿐이죠.<end>"
 
+["640188"]
+japanese = "<if><value:$29><equal>%0ごめんなさい。実の弟でいらっしゃる<line-break><value:$28>様に向かって。<line-break>　<line-break><value:$28>様は、<line-break>私などより、ずっと<line-break>レムオン様をご存じなはずですね。<end>ごめんなさい。実の妹でいらっしゃる<line-break><value:$28>様に向かって。<line-break>　<line-break><value:$28>様は<line-break>私などよりずっと、<line-break>レムオン様をご存じなはずですね。<end>"
+korean = "<if><value:$29><equal>%0죄송합니다. 친동생이신 <value:$28> 님을 앞에 두고…. <value:$28> 님께서는 저 따위보다 훨씬 레몬 님을 잘 알고 계시겠지요.<end>죄송합니다. 친여동생이신 <value:$28> 님을 앞에 두고…. <value:$28> 님께서는 저 따위보다 훨씬 레몬 님을 잘 알고 계시겠지요.<end>"
+
 ["640189"]
 japanese = "あの方は、今日もどこかで、<line-break>飲んでおいでですの？<end>"
 korean = "그분은 오늘도 어딘가에서 술을 드시고 계신가요?<end>"

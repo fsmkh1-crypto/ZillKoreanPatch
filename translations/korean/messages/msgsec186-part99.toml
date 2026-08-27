@@ -600,6 +600,10 @@ korean = "뭐냐, 넌!<end>"
 japanese = "まあ、待て。<line-break>何か急ぎの用がありそうだ。　　　　<line-break>どうしたのだ？<end>"
 korean = "잠깐, 기다려라. 무언가 급한 용무가 있는 것 같군. 무슨 일이냐?<end>"
 
+["1860151"]
+japanese = "<if><value:$29><equal>%0フリントの息子、だと？　　　　　　<line-break>　<line-break>　<line-break>むむ？　確かにその短剣の<line-break>柄にあるのは王家の紋章に違いない。<line-break>少し待て。<end>フリントの娘、だと？　　　　　　　<line-break>　<line-break>　<line-break>むむ？　確かにその短剣の<line-break>柄にあるのは王家の紋章に違いない。<line-break>少し待て。<end>"
+korean = "<if><value:$29><equal>%0플린트의 아들이라고? 음? 확실히 그 단검 자루에 있는 건 왕가의 문장이 틀림없군. 잠깐 기다려라.<end>플린트의 딸이라고? 음? 확실히 그 단검 자루에 있는 건 왕가의 문장이 틀림없군. 잠깐 기다려라.<end>"
+
 ["1860152"]
 japanese = "王妃様がお会いになるそうだ。　　　<line-break>ついてこい。<line-break>　<end>"
 korean = "왕비님께서 만나시겠답니다. 따라오시오.<end>"
@@ -607,6 +611,10 @@ korean = "왕비님께서 만나시겠답니다. 따라오시오.<end>"
 ["1860153"]
 japanese = "…密書は確かに受け取った。<line-break>ご苦労だった。<line-break>これは報酬だ。<end>"
 korean = "…밀서는 확실히 받았다. 수고했다. 이건 보수다.<end>"
+
+["1860154"]
+japanese = "<if><value:$29><equal>%0シロウラギリの毒、だと？　　　　<line-break>フリントがか？<line-break>しかし…<line-break>フリントの息子、<line-break><value:$28>といったな。<line-break>ずいぶんと毒に詳しいではないか。<end>シロウラギリの毒、だと？　　　　<line-break>フリントがか？<line-break>しかし…<line-break>フリントの娘、<line-break><value:$28>といったな。<line-break>ずいぶんと毒に詳しいではないか。<end>"
+korean = "<if><value:$29><equal>%0시로우라기리의 독이라고? 플린트가? 하지만… 플린트의 아들, <value:$28>라고 했지. 독에 대해 꽤 잘 아는군.<end>시로우라기리의 독이라고? 플린트가? 하지만… 플린트의 딸, <value:$28>라고 했지. 독에 대해 꽤 잘 아는군.<end>"
 
 ["1860155"]
 japanese = "ほう、<line-break>ゼネテスという冒険者がな…。　　<line-break>なるほど。<line-break>よかろう。<line-break>生命のかけらを与える。<line-break>これでフリントも回復しよう。<end>"

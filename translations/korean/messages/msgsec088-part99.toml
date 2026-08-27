@@ -676,6 +676,10 @@ korean = "아니요<end>"
 japanese = "じゃ、ボク待ってるから。<end>"
 korean = "그럼 난 기다리고 있을게.<end>"
 
+["880170"]
+japanese = "<if><value:$29><equal>%0エステルって、坊やの仲間よね。<line-break>この前、あたしたちが助けたわ。　<line-break>　<line-break>ずいぶん長いこと<line-break>囚われの身だったみたいで、<line-break>かなり衰弱してたわ。<end>エステルって、子猫ちゃんの仲間よね。<line-break>この前、あたしたちが助けたわ。<line-break>　<line-break>ずいぶん長いこと<line-break>囚われの身だったみたいで、<line-break>かなり衰弱してたわ。<end>"
+korean = "<if><value:$29><equal>%0에스텔은 꼬마의 동료지? 지난번에 우리가 구해 줬어. 꽤 오랫동안 붙잡혀 있었던 모양이라 많이 쇠약해져 있었어.<end>에스텔은 아기고양이의 동료지? 지난번에 우리가 구해 줬어. 꽤 오랫동안 붙잡혀 있었던 모양이라 많이 쇠약해져 있었어.<end>"
+
 ["880171"]
 japanese = "どうして助けに行かなかったわけ？<line-break>彼女、衰弱よりも何よりもそれが<line-break>つらかったみたいだったわ。<line-break>彼女、<line-break>あんたのパーティーを抜けるって。<line-break>あたしは大賛成してあげたわ。<end>"
 korean = "왜 구하러 가지 않았던 거야? 그 애, 쇠약해진 것보다 무엇보다 그게 더 괴로웠던 모양이더라. 그 애 네 파티에서 나간대. 난 적극 찬성해 줬어.<end>"

@@ -324,6 +324,10 @@ korean = "쫓아가자, <value:$28>!<end>"
 japanese = "私の心配なんてしてないで<line-break>さっさと奴を追うの！<line-break>もう！　ほんっとにグズなんだからぁ！<end>"
 korean = "내 걱정은 그만하고 빨리 녀석을 쫓아가! 정말! 답답해서 못 봐 주겠네!<end>"
 
+["550085"]
+japanese = "<if><value:$01><equal>22<value:$28>のこと<line-break>考えてるのはわかるけどさ。<line-break>きみ、彼の悪い保護者になってるよ。<end><if><value:$01><equal>15<value:$28>のこと考えてるの<line-break>わかるけど。君、<value:$28>の<line-break>悪い保護者になってるよ。　　　　　<end><value:$28>のこと考えてるの<line-break>わかるけど、もっと、<line-break>アイリーンも理解してあげなきゃ。<end>"
+korean = "<if><value:$01><equal>22<value:$28>를 생각하는 건 알겠지만 말이야. 너, 그 애한테 나쁜 보호자가 되고 있어.<end><if><value:$01><equal>15<value:$28>를 생각하는 건 알겠지만. 너, <value:$28>한테 나쁜 보호자가 되고 있어.<end><value:$28>를 생각하는 건 알겠지만, 아이린도 좀 더 이해해 줘야 해.<end>"
+
 ["550087"]
 japanese = "アイリーン、過保護な母親みたいね！<line-break><value:$28>はマザコンの子供！<line-break>　<line-break>人間って個の自立が足りなくてよ。<line-break>甘えて、依存して、馴れ合って<line-break>それで友情とか絆とか言っちゃって！<end>"
 korean = "아이린, 과보호하는 엄마 같네! <value:$28>는 마마보이 꼬맹이! 인간은 개체의 자립이 부족해. 응석 부리고, 의존하고, 끼리끼리 어울리면서 그걸 우정이니 유대니 하잖아!<end>"
@@ -1427,6 +1431,10 @@ korean = "그럼 이 사람들은….<end>"
 ["550374"]
 japanese = "間違いない。<line-break>施文院の暗殺者、告死天使だ。<end>"
 korean = "틀림없어. 시문원의 암살자, 고사천사다.<end>"
+
+["550375"]
+japanese = "<if><value:$29><equal>%0こんな、物騒な連中に<line-break>ねらわれるようなこと…したかしら。<line-break>　<line-break>でも、おかげでボウヤと<line-break>再会できたわけだし…。<line-break>フフフッ。<end>こんな、物騒な連中に<line-break>ねらわれるようなこと…したかしら。<line-break>　<line-break>でも、おかげで子猫ちゃんと<line-break>再会できたわけだし…。<line-break>フフフッ。<end>"
+korean = "<if><value:$29><equal>%0이런 험악한 녀석들에게 노려질 만한 짓을… 내가 했던가. 그래도 덕분에 꼬마와 다시 만났으니…. 후후후.<end>이런 험악한 녀석들에게 노려질 만한 짓을… 내가 했던가. 그래도 덕분에 아기고양이와 다시 만났으니…. 후후후.<end>"
 
 ["550376"]
 japanese = "戦っているときの真剣な顔…<line-break>フフフ…、かわいかったわよ。<end>"

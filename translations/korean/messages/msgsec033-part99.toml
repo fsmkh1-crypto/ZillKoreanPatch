@@ -376,6 +376,10 @@ korean = "…<value:$28>, 오늘 아침 오랜만에 엄마 꿈을 꿨어. 엄�
 japanese = "ははは、私はどうしてこんなことを<line-break>急に言い出したのだろうな。<line-break>今日は、少しどうかしている…。<end>"
 korean = "하하하, 나는 왜 갑자기 이런 이야기를 하는 걸까. 오늘은 좀 이상한 모양이군….<end>"
 
+["330095"]
+japanese = "<select><value:$20>%3ゼネテスって、<line-break>なんか、<line-break>だらしないのよねえ…。<line-break>きっと、あれがカッコいいと<line-break>思ってるんだわ。<line-break>子供ねぇー。<end>フリントさんって、<line-break>ほんとうに、<line-break>いいお父さんだよね。<end>フリントさんって、<line-break>ほんとうは強いんだよね。<line-break>いつもは、かくしてるけど。<line-break>でも、なんで<line-break>かくしてるのかな？<end>"
+korean = "<select><value:$20>%3제네테스는 왠지 좀 칠칠맞지 못해…. 분명 저게 멋있다고 생각하는 거겠지. 어린애라니까.<end>플린트 씨는 정말 좋은 아버지지.<end>플린트 씨는 사실 강하잖아. 늘 숨기고 있지만. 그런데 왜 숨기는 걸까?<end>"
+
 ["330096"]
 japanese = "えっ…？　なに、なに？<end>"
 korean = "어…? 뭐, 뭐야?<end>"
@@ -567,6 +571,10 @@ korean = "하지만 갈드란인가…. 후후, 또 갈드란이라니. 녀석�
 ["330144"]
 japanese = "レムオン坊やも<line-break>思いきった人選をするものだ。<line-break>もっとも、今回は失敗だったようだな。<end>"
 korean = "레몬 도련님도 과감한 인선을 하는군. 하지만 이번에는 실패였던 모양이야.<end>"
+
+["330145"]
+japanese = "<if><value:$29><equal>%0シロウラギリの毒、だと？<line-break>フリントがか？<line-break>しかし…<line-break>フリントの息子、<line-break><value:$28>といったな。<line-break>ずいぶんと毒に詳しいではないか。<end>シロウラギリの毒、だと？<line-break>フリントがか？<line-break>しかし…<line-break>フリントの娘、<line-break><value:$28>といったな。<line-break>ずいぶんと毒に詳しいではないか。<end>"
+korean = "<if><value:$29><equal>%0시로우라기리의 독이라고? 플린트가? 하지만… 플린트의 아들, <value:$28>라고 했지. 독에 대해 꽤 잘 아는군.<end>시로우라기리의 독이라고? 플린트가? 하지만… 플린트의 딸, <value:$28>라고 했지. 독에 대해 꽤 잘 아는군.<end>"
 
 ["330146"]
 japanese = "ほう、<line-break>ゼネテスという冒険者がな…。<line-break>なるほど？<line-break>よかろう。<line-break>生命のかけらを与える。<line-break>これでフリントも回復しよう。<end>"
