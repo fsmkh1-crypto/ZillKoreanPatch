@@ -2,10 +2,16 @@
 from pathlib import Path
 import json
 import re
+import unicodedata
 
 ROOT = Path("translations/korean/messages")
 FIX_ROOT = Path("tools/korean")
 FIX_GLOB = "reviewed-context-fixes*.json"
+
+
+def same_text(a: str, b: str) -> bool:
+    return unicodedata.normalize("NFC", a) == unicodedata.normalize("NFC", b)
+
 
 fixes = {}
 for fix_path in sorted(FIX_ROOT.glob(FIX_GLOB)):
@@ -35,13 +41,16 @@ for path in ROOT.glob("msgsec*-part99.toml"):
             old = item["old"]
             new = item["new"]
             actual = line[len('korean = "'):-1]
-            if actual == new:
+            if same_text(actual, new):
                 already += 1
                 found.add(current)
                 current = None
                 continue
-            if actual != old:
-                raise SystemExit(f"guard mismatch id={current} path={path}: {actual!r}")
+            if not same_text(actual, old):
+                raise SystemExit(
+                    f"guard mismatch id={current} path={path}: "
+                    f"actual={actual!r} old={old!r} new={new!r}"
+                )
             lines[i] = f'korean = "{new}"'
             changed += 1
             found.add(current)
