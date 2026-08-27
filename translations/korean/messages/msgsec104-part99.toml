@@ -32,6 +32,10 @@ korean = "식은 죽 먹기지<end>"
 japanese = "かったるいな<end>"
 korean = "귀찮네<end>"
 
+["1040009"]
+japanese = "そりゃあ、そうだよな。<line-break>普通こんな話は受けないんだがな。　　<line-break>いや、悪かったな。他を当たるよ。<end>"
+korean = "뭐, 그렇겠지. 보통은 이런 이야기를 받아들이지 않으니까. 아니, 미안했어. 다른 데 알아볼게.<end>"
+
 ["1040010"]
 japanese = "何かご用ですか？　　　　　　　　<line-break>　<line-break>　<line-break>ロティ様に届けもの？<line-break>そうですか、それはわざわざ<line-break>ご苦労さまでした。<end>"
 korean = "무슨 용건이십니까? 로티 님께 전해 드릴 물건이라고요? 그렇군요, 수고하셨습니다.<end>"
@@ -199,6 +203,10 @@ korean = "뭡니까?<end>"
 ["1040057"]
 japanese = "おじさまのお屋敷で見た？<line-break>何を言っているのです。<line-break>そんなはずは…<end>"
 korean = "아저씨 저택에서 봤다고요? 무슨 말씀이세요. 그럴 리가…<end>"
+
+["1040059"]
+japanese = "そのおじさまが解放軍を裏切る…<line-break>いえ、わたくしを襲うようなマネを<line-break>するはずがありません。<line-break>解放軍の士気に関わります。<line-break>軽はずみな言動はつつしんで<line-break>いただきたいわ。おわかり？<end>"
+korean = "그 아저씨가 해방군을 배신… 아니, 저를 습격할 리 없습니다. 해방군의 사기에 관계된 일이에요. 경솔한 말은 삼가 주셨으면 해요. 아시겠어요?<end>"
 
 ["1040060"]
 japanese = "わ、わたくしはあなたのことを<line-break>責めているつもりではなくて、<line-break>ただ…<end>"

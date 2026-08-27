@@ -56,6 +56,10 @@ korean = "또 전쟁의 시대가 시작되는군. …이제 지긋지긋해.<en
 japanese = "…バルザー。<end>"
 korean = "…발저.<end>"
 
+["360015"]
+japanese = "<if><value:$29><equal>%0少年よ。この金で<line-break>元気の薬を買ってきてくれぬか。<line-break>慣れぬ地で勝手がわからないのだ。<end>少女よ。この金で<line-break>元気の薬を買ってきてくれぬか。<line-break>慣れぬ地で勝手がわからないのだ。<end>"
+korean = "<if><value:$29><equal>%0소년이여. 이 돈으로 원기약을 사다 주겠느냐. 낯선 땅이라 사정이 익숙하지 않구나.<end>소녀여. 이 돈으로 원기약을 사다 주겠느냐. 낯선 땅이라 사정이 익숙하지 않구나.<end>"
+
 ["360016"]
 japanese = "時は来た。<line-break>…それなのに、なぜ時を告げぬ？<line-break>告げるものよ。<end>"
 korean = "때가 왔다. …그런데 왜 때를 알리지 않지? 고하는 자여.<end>"
@@ -307,6 +311,10 @@ korean = "그러니까 루루안타, 천국의 플린트 씨가 기뻐할 수 �
 ["360086"]
 japanese = "<if><value:$29><equal>%0お兄ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>お姉ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>"
 korean = "<if><value:$29><equal>%0오빠도,루루안타가 건강하면 기뻐?<end>언니도,루루안타가 건강하면 기뻐?<end>"
+
+["360087"]
+japanese = "<if><value:$29><equal>%0うふふ、じゃあ、ルルアンタ、<line-break>お兄ちゃんと一緒にいてあげるね。<line-break>お兄ちゃん、お名前は？<end>うふふ、じゃあ、ルルアンタ、<line-break>お姉ちゃんと一緒にいてあげるね。<line-break>お姉ちゃん、お名前は？<end>"
+korean = "<if><value:$29><equal>%0후후, 그럼 루루안타가 오빠랑 같이 있어 줄게. 오빠, 이름이 뭐야?<end>후후, 그럼 루루안타가 언니랑 같이 있어 줄게. 언니, 이름이 뭐야?<end>"
 
 ["360088"]
 japanese = "じゃ、あらためてぇ…。<line-break>あたしは、ルルアンタ。<line-break>よろしくね、<value:$28>。<end>"

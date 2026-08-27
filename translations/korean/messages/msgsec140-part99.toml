@@ -192,6 +192,10 @@ korean = "(저건 대체…?)<end>"
 japanese = "よ、<value:$28>。<line-break>こんな手紙が来た。<line-break>読んでみてくれ。<end>"
 korean = "여어, <value:$28>. 이런 편지가 왔어. 읽어봐.<end>"
 
+["1400053"]
+japanese = "…てなわけで、これから、ちょっくら、<line-break>危険に足をつっこみに行こうと<line-break>思うわけだが、一緒に来るよな？<end>"
+korean = "…그런 이유로 이제 좀 위험한 곳에 발을 들이밀러 가려는데, 같이 올 거지?<end>"
+
 ["1400054"]
 japanese = "行く<end>"
 korean = "간다<end>"

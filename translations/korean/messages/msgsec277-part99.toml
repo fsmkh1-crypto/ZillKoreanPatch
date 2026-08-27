@@ -20,6 +20,10 @@ korean = "이건 내가 직접 선택한 길이다. 누구에게도 책임은 �
 japanese = "ジリオン…。<end>"
 korean = "질리온….<end>"
 
+["2770007"]
+japanese = "　　　お前は俺のために充分、頑張った。<line-break>　　　これからはお前自身の幸せのために<line-break>　　　　　　　　　生きろ。<line-break>　<line-break>　<line-break>　　　　大丈夫。<value:$28>なら<line-break>　　　　きっとお前を支えてくれる。<end>"
+korean = "넌 나를 위해 충분히 애썼다. 이제부터는 네 자신의 행복을 위해 살아라. 괜찮아. <value:$28>라면 분명 널 지탱해 줄 거야.<end>"
+
 ["2770011"]
 japanese = "ありがとう。<value:$28>。<end>"
 korean = "고마워. <value:$28>.<end>"

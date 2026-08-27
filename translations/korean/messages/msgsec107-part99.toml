@@ -288,6 +288,10 @@ korean = "이건 내 힘으로는 어려울 것 같아. 도움이 못 돼서 미
 japanese = "難易度<color:e><value:$1A><color:f>の罠が仕掛けられています。<line-break>罠の解除に挑戦するにはＤＥＸが<line-break><color:e><value:$1B><color:f>以上必要です。<end>"
 korean = "난이도 <color:e><value:$1A><color:f>의 함정이 설치되어 있습니다. 함정 해제에 도전하려면 DEX가 <color:e><value:$1B><color:f> 이상 필요합니다.<end>"
 
+["1070080"]
+japanese = "方向キーを下に入れると<line-break>判定ラインのスピードが遅くなります。<line-break>ただし、その間はＭＰを消費します。<end>"
+korean = "방향키를 아래로 입력하면 판정 라인의 속도가 느려집니다. 단, 그동안 MP를 소비합니다.<end>"
+
 ["1070081"]
 japanese = "はＨＰに大打撃を受けた。<end>"
 korean = "HP에 큰 타격을 입었다.<end>"

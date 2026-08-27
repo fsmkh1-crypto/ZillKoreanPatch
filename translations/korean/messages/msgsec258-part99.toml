@@ -8,9 +8,17 @@ korean = "PSP용 생일 이벤트용<end>"
 japanese = "おめでとう、<value:$28>。<line-break><line-break><line-break>誕生日のお祝いすると、<line-break>ロストールにいたころを思い出すわ。<line-break><line-break>みんな元気でやってるかしら？<end>"
 korean = "축하해, <value:$28>. 생일을 축하하니 로스토올에 있던 때가 생각나네. 다들 잘 지내고 있으려나?<end>"
 
+["2580002"]
+japanese = "おめでとう、<value:$28>。<line-break><line-break><line-break>この１年…いろいろあったけど<line-break>あなたがいてくれたおかげで<line-break>乗り切れたんだと思う…。<line-break>これからの１年もよろしくね？<line-break><value:$28>。<end>"
+korean = "축하해, <value:$28>. 지난 1년… 여러 일이 있었지만 네가 있어 줬기에 헤쳐 나올 수 있었던 것 같아…. 앞으로 1년도 잘 부탁해, <value:$28>.<end>"
+
 ["2580003"]
 japanese = "ふふ、すべてがめまぐるしくて<line-break>自分の誕生日も<line-break>忘れておったのではないか？<end>"
 korean = "후후, 모든 일이 숨 가쁘게 돌아가서 자기 생일도 잊고 있었던 것 아니냐?<end>"
+
+["2580004"]
+japanese = "これまで<line-break>冒険と戦争に明け暮れた人生で<line-break>我が子の誕生日も祝ってやれなんだ。<line-break>今日、お主の生まれた日を<line-break>祝ってやれることが…なんというか<line-break>わしには、この上なく、うれしい。<end>"
+korean = "지금까지 모험과 전쟁에만 매달린 인생이라 내 아이 생일조차 축하해 주지 못했다. 오늘 네가 태어난 날을 축하해 줄 수 있다는 게… 뭐랄까, 나한테는 더없이 기쁘구나.<end>"
 
 ["2580005"]
 japanese = "おめでとう！<line-break>さ、今日は、<value:$28>の<line-break>おごりでご馳走かも！<line-break>生まれてきてくれて<line-break>ありがとね、<value:$28>。<end>"
@@ -88,6 +96,10 @@ korean = "…그렇구나. 우리가 노블을 떠난 지도 벌써 꽤 됐네. 
 japanese = "よし。<line-break>今日は祝宴じゃ！<line-break>めいっぱい飲もうかの。<end>"
 korean = "좋아. 오늘은 잔치다! 실컷 마셔 보자꾸나.<end>"
 
+["2580024"]
+japanese = "そうか、誕生日か…。<line-break>お主の成長がうれしくもあるいっぽう<line-break>人の子は寿命が短いから寂しくもある。<line-break>まあよい！<line-break>今日は思い切り飲んで、<line-break>お主の成長を喜ぶことに専念しようぞ！<end>"
+korean = "그래, 생일인가…. 네 성장이 기쁘면서도 인간의 아이는 수명이 짧아 서글프기도 하구나. 뭐 됐다! 오늘은 마음껏 마시며 네 성장을 기뻐하는 데 전념하자꾸나!<end>"
+
 ["2580025"]
 japanese = "<value:$28>。<line-break>誕生日おめでとう。<end>"
 korean = "<value:$28>. 생일 축하해.<end>"
@@ -132,6 +144,10 @@ korean = "누군가의 생일을 축하하는 건 오랜만이군. 축하해, <v
 japanese = "<value:$28>という生命が生まれ<line-break>今日、ここまで成長したのだな。<line-break>なんだか、感慨深いよ。<line-break>これからも<line-break>お前の成長を見守ることが<line-break>できたらいいと思っている。<end>"
 korean = "<value:$28>라는 생명이 태어나 오늘 여기까지 성장한 거구나. 왠지 감회가 깊어. 앞으로도 네 성장을 지켜볼 수 있으면 좋겠어.<end>"
 
+["2580040"]
+japanese = "天が巡り、星座がまた<line-break>汝が生まれた時と同じ配置となった。<line-break>汝に天空神の加護があらんことを。<line-break>ま、誕生日じゃなくとも、<line-break>天も星々も、お主が生まれたことを<line-break>いつも祝福しとるんじゃがな。<end>"
+korean = "하늘이 돌고 별자리가 다시 네가 태어났을 때와 같은 배치가 되었구나. 하늘신의 가호가 네게 있기를. 뭐, 생일이 아니어도 하늘과 별들은 네가 태어난 걸 늘 축복하고 있지만 말이지.<end>"
+
 ["2580041"]
 japanese = "誕生日おめでとうございます。<line-break><value:$28>様。<end>"
 korean = "생일 축하드립니다, <value:$28>님.<end>"
@@ -139,6 +155,10 @@ korean = "생일 축하드립니다, <value:$28>님.<end>"
 ["2580043"]
 japanese = "<value:$28>。<line-break>誕生日おめでとう。<end>"
 korean = "<value:$28>. 생일 축하해.<end>"
+
+["2580044"]
+japanese = "誕生日おめでとう。<line-break>今まで無事にやってこられたのも、<line-break><value:$28>のおかげかな。<line-break>これからの戦いは大変だけど、<line-break><value:$28>や仲間と一緒なら、<line-break>きっと大丈夫だよね！<end>"
+korean = "생일 축하해. 지금까지 무사히 지낼 수 있었던 것도 <value:$28> 덕분이려나. 앞으로 싸움은 힘들겠지만 <value:$28>와 동료들이 함께라면 분명 괜찮을 거야!<end>"
 
 ["2580045"]
 japanese = "よーし、記念に、<line-break><value:$28>の歌を作るよ。<end>"
@@ -152,9 +172,17 @@ korean = "태어난 날짜라는 건 축하해야 하는 것…입니까?<end>"
 japanese = "た、誕生日おめでとうございます。<line-break><value:$28>さん。<end>"
 korean = "새, 생일 축하합니다. <value:$28>님.<end>"
 
+["2580050"]
+japanese = "わ、私…<line-break>道具があればケーキ焼いたんですけど…<line-break>　<line-break>でも、ケーキが無くても<line-break>気持ちさえあれば、<line-break>ちゃんと誕生日お祝いできますよね！？<line-break><value:$28>さん、<line-break>おめでとうございます。<end>"
+korean = "저, 저… 도구만 있었으면 케이크를 구웠을 텐데…. 그래도 케이크가 없어도 마음만 있으면 제대로 생일을 축하할 수 있겠죠!? <value:$28> 씨, 축하드려요.<end>"
+
 ["2580051"]
 japanese = "<value:$28>。<line-break>誕生日おめでとう。<end>"
 korean = "<value:$28>. 생일 축하해.<end>"
+
+["2580052"]
+japanese = "僕も昔、姉さんに<line-break>祝ってもらったことがあるよ。<line-break>　<line-break>とてもうれしかったと記憶している。<line-break>　<line-break>　<line-break>今日は僕が、<line-break><value:$28>のお祝いをするよ。<line-break>　<line-break>誕生日、おめでとう。<end>"
+korean = "나도 옛날에 누나에게 축하받은 적이 있어. 정말 기뻤다고 기억해. 오늘은 내가 <value:$28>를 축하해 줄게. 생일 축하해.<end>"
 
 ["2580053"]
 japanese = "誕生日なのね。<line-break>おめでとう。<line-break><value:$28>は何歳になったの？<end>"
@@ -235,6 +263,10 @@ korean = "오늘은 <value:$28>의 생일인가.<end>"
 ["2580075"]
 japanese = "<value:$28>、<line-break>お前の誕生日、今日だったな。<end>"
 korean = "<value:$28>, 네 생일 오늘이었지.<end>"
+
+["2580076"]
+japanese = "天と暦を司るノトゥーン神は<line-break>誕生日を重要視する。<line-break>今日はそのお主の誕生日よ。<end>"
+korean = "하늘과 역법을 관장하는 노툰 신은 생일을 중요하게 여기지. 오늘이 바로 네 생일이다.<end>"
 
 ["2580077"]
 japanese = "<value:$28>様、<line-break>今日はお誕生日ですね。<end>"

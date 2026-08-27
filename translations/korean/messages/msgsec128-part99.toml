@@ -12,6 +12,14 @@ korean = "여어, 천하의 <value:$28>. 유명해져도 생김새는 그대로�
 japanese = "どうだい、おいしかっただろう？<line-break>まだ時間があるなら、他のお茶も<line-break>飲んでいかないかい？<end>"
 korean = "어때, 맛있었지? 아직 시간이 있으면 다른 차도 마시고 가지 않을래?<end>"
 
+["1280005"]
+japanese = "それじゃ、また来てくれよな。<line-break>あんたのためにいつでもスペシャルティーを<line-break>用意して待っているからよ。<end>"
+korean = "그럼 또 와 줘. 널 위해 언제든 스페셜티를 준비해 기다리고 있을 테니까.<end>"
+
+["1280022"]
+japanese = "レベリスの葉を使ったお茶さ。このお茶を<line-break>おいしくいれるには、少し技術が必要なんだよ。<line-break>そういえば…<end>"
+korean = "레베리스 잎으로 만든 차야. 이 차를 맛있게 우려내려면 약간의 기술이 필요하지. 그러고 보니….<end>"
+
 ["1280025"]
 japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_02 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_02 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_02 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_02 50以上）<end>"
 korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_02 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_02 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_02 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_02 50 이상)<end>"
