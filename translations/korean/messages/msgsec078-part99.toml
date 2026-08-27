@@ -288,6 +288,10 @@ korean = "<value:$28>님. 사실 드릴 말씀이 있습니다.<end>"
 japanese = "私、このお屋敷を出ようと思います。<end>"
 korean = "저, 이 저택을 나가려고 합니다.<end>"
 
+["780072"]
+japanese = "<if><value:$01><equal>2どうして？<line-break>ネモにいじめられるから？<end><if><value:$01><equal>3なぜじゃ？<line-break>ネモにからかわれたか？<end><if><value:$01><equal>4どうしてなのかな？<end><if><value:$01><equal>5さては、ネモの野郎が<line-break>いじめたんだな？<end><if><value:$01><equal>6どうして？<line-break>ネモにいじめられたの？<end><if><value:$01><equal>7いったい、何があったの？<end><if><value:$01><equal>9うっそぉ～ん。どーして？<end><if><value:$01><equal>11どういうこと？<line-break>何があったの？<end><if><value:$01><equal>12へぇ、そりゃまた<line-break>どういう心境の変化かな？<end><if><value:$01><equal>10さては、ネモに<line-break>いじめられたんだろ？<end><if><value:$01><equal>14急な話じゃのう。<line-break>何かあったのか？<end><if><value:$01><equal>15どこかへ行ってしまうの？<line-break>どうして？<end><if><value:$01><equal>17あ～ら、アタクシはぜんぜん<line-break>構わなくてよ。でも、<line-break>理由だけは聞かせてもらおうかしら。<end><if><value:$01><equal>19ええ～っ！<line-break>お姉ちゃん、どこかへ行っちゃうの？<end>どうして？<line-break>何かあったの？<end>"
+korean = "<if><value:$01><equal>2왜? 네모가 괴롭혀서?<end><if><value:$01><equal>3왜 그러느냐? 네모가 놀렸나?<end><if><value:$01><equal>4왜 그런 걸까?<end><if><value:$01><equal>5혹시 네모 녀석이 괴롭힌 거냐?<end><if><value:$01><equal>6왜? 네모가 괴롭혔어?<end><if><value:$01><equal>7대체 무슨 일이 있었어?<end><if><value:$01><equal>9말도 안 돼~. 왜에?<end><if><value:$01><equal>11무슨 말이야? 무슨 일이 있었어?<end><if><value:$01><equal>12호오, 그건 또 무슨 심경의 변화지?<end><if><value:$01><equal>10혹시 네모한테 괴롭힘당한 거지?<end><if><value:$01><equal>14갑작스러운 이야기구나. 무슨 일 있었나?<end><if><value:$01><equal>15어디론가 가 버리는 거야? 왜?<end><if><value:$01><equal>17아~라, 이 몸은 전혀 상관없지만 이유 정도는 들어 보겠어.<end><if><value:$01><equal>19에에~! 언니, 어디 가 버리는 거야?<end>왜? 무슨 일 있었어?<end>"
+
 ["780073"]
 japanese = "いえ、実は…<line-break>しなければならないことが<line-break>あるのです。<end>"
 korean = "아니요, 사실은… 해야 할 일이 있습니다.<end>"
@@ -303,6 +307,10 @@ korean = "<if><value:$01><equal>2뭐야? 해야 할 일이란 게?<end><if><valu
 ["780076"]
 japanese = "ロストールをもとの姿に<line-break>戻したいのです。<line-break>美しい都市をよみがえらせたいのです。<end>"
 korean = "로스토올을 원래 모습으로 되돌리고 싶습니다. 아름다운 도시를 되살리고 싶습니다.<end>"
+
+["780077"]
+japanese = "<if><value:$01><equal>2…でも、そんなことできるの？<end><if><value:$01><equal>3それはまた、大きなことを<line-break>始めるんじゃな。<line-break>お主１人で大丈夫か？<end><if><value:$01><equal>4それって、かなり無謀かも…。<end><if><value:$01><equal>5戻すって言ったって…。<line-break>なぁ、<value:$28>。<end><if><value:$01><equal>6すごいよ、アトレイア！<line-break>でも、ほんとにできるの？<end><if><value:$01><equal>7見かけによらず、大胆ね。<line-break>本気なの？<end><if><value:$01><equal>9…それって、マジ？<end><if><value:$01><equal>11…あなた本気で言ってるの？<end><if><value:$01><equal>12立派なもんだ。<line-break>だが、１人でできることじゃないぜ。<end><if><value:$01><equal>10本気かよ？<line-break>だって、そんなこと…。<end><if><value:$01><equal>14しかし、おぬし１人に<line-break>何ができるというんじゃ？<end><if><value:$01><equal>15…そうか。<line-break>でも、大変なことだと思うよ。<end><if><value:$01><equal>17言わせてもらいますけど、<line-break>アナタ１人で、そんなこと<line-break>やったってムダよ、ム～ダ！<end><if><value:$01><equal>19すご～い。<line-break>お姉ちゃん、すごいよ。<line-break>でも、お姉ちゃん１人で大丈夫？<end>え～っ！？<line-break>本気でそんなこと<line-break>始めるつもり？<end>"
+korean = "<if><value:$01><equal>2…그래도 그런 게 가능해?<end><if><value:$01><equal>3그건 또 큰일을 시작하는구나. 너 혼자 괜찮겠느냐?<end><if><value:$01><equal>4그건 꽤 무모할지도….<end><if><value:$01><equal>5되돌린다고 해도…. 저기, <value:$28>.<end><if><value:$01><equal>6대단해, 아트레이아! 그래도 정말 할 수 있어?<end><if><value:$01><equal>7보기와 달리 대담하네. 진심이야?<end><if><value:$01><equal>9…그거 진짜야?<end><if><value:$01><equal>11…너 진심으로 하는 말이야?<end><if><value:$01><equal>12훌륭하군. 하지만 혼자 할 수 있는 일은 아니야.<end><if><value:$01><equal>10진심이야? 그런 걸 어떻게….<end><if><value:$01><equal>14하지만 너 혼자 무엇을 할 수 있다는 거냐?<end><if><value:$01><equal>15…그렇구나. 하지만 힘든 일일 것 같아.<end><if><value:$01><equal>17말해 두겠는데, 당신 혼자 그런 짓을 해 봐야 소용없어. 소용없다고!<end><if><value:$01><equal>19대단해~. 언니 대단해. 그래도 언니 혼자 괜찮아?<end>에엣!? 진심으로 그런 일을 시작할 생각이야?<end>"
 
 ["780078"]
 japanese = "もちろん、私１人の力では無理です。<line-break>まずは、ロストール復興を<line-break>願う人たちを集めるつもりです。<line-break>そして、何ができるか<line-break>話し合うところから<line-break>始めようと思っています。<end>"
@@ -324,9 +332,17 @@ korean = "최선을 다해 볼 생각이에요. 하지만 부탁이에요. 가�
 japanese = "レムオン様のお屋敷を<line-break>貸していただこうと思っています。<line-break>そこを活動の拠点にするつもりです。<end>"
 korean = "레몬 님의 저택을 빌리려고 합니다. 그곳을 활동 거점으로 삼을 생각이에요.<end>"
 
+["780083"]
+japanese = "<if><value:$01><equal>3エリエナイ邸か。<line-break>あれだけ広けりゃ十分じゃろう。<end><if><value:$01><equal>4あそこなら広くていいかも。<end><if><value:$01><equal>5ああ、あのデカい屋敷か。<end><if><value:$01><equal>6あそこなら広くていいね。<end><if><value:$01><equal>9エリエナイ邸ね。<line-break>いい場所を見つけたじゃん。<line-break>意外と抜け目ないんだ。<end><if><value:$01><equal>11エリエナイ邸？<line-break>確かに、あそこなら<line-break>うってつけだわ。<end><if><value:$01><equal>12なるほど、エリエナイ邸か。<line-break>あそこなら言うことないな。<end><if><value:$01><equal>10貴族の屋敷か。<line-break>ま、いいんじゃないか？<end><if><value:$01><equal>14なるほど。<line-break>あの広い屋敷なら、もってこいじゃ。<end><if><value:$01><equal>15あそこなら、広くていいね。<end><if><value:$01><equal>17あのバカでかい悪趣味な屋敷ね。<end><if><value:$01><equal>19あの大きなお屋敷ね。<end><if><value:$01><equal>22あの大きなお屋敷だね。<line-break>あそこなら広くていいよ。<end>あそこなら広くていいわね。<end>"
+korean = "<if><value:$01><equal>3에리에나이 저택인가. 그 정도로 넓으면 충분하겠지.<end><if><value:$01><equal>4거기라면 넓어서 좋을지도.<end><if><value:$01><equal>5아, 그 커다란 저택인가.<end><if><value:$01><equal>6거기라면 넓어서 좋겠네.<end><if><value:$01><equal>9에리에나이 저택이네. 좋은 곳을 찾았잖아. 의외로 빈틈이 없네.<end><if><value:$01><equal>11에리에나이 저택? 확실히 거기라면 딱 맞아.<end><if><value:$01><equal>12과연, 에리에나이 저택인가. 거기라면 더 바랄 게 없지.<end><if><value:$01><equal>10귀족 저택인가. 뭐, 괜찮지 않아?<end><if><value:$01><equal>14그렇군. 그 넓은 저택이라면 안성맞춤이지.<end><if><value:$01><equal>15거기라면 넓어서 좋겠네.<end><if><value:$01><equal>17그 멍청하게 크고 취향 나쁜 저택 말이지.<end><if><value:$01><equal>19그 큰 저택 말이지.<end><if><value:$01><equal>22그 큰 저택이구나. 거기라면 넓어서 좋아.<end>거기라면 넓어서 좋겠네.<end>"
+
 ["780084"]
 japanese = "いろいろとお世話になりました。<line-break>また、お会いしましょう。<end>"
 korean = "여러모로 신세 졌습니다. 또 만나요.<end>"
+
+["780085"]
+japanese = "<if><value:$01><equal>2がんばって。<line-break>応援してるわ。<end><if><value:$01><equal>3がんばるのじゃぞ。<end><if><value:$01><equal>4昔から、スゴイことって、<line-break>誰の目から見てもバカなことを<line-break>できると信じることから始まってるの。<line-break>バカなことを信じたところで、<line-break>アトレイアは最初の難関を突破したよ。<line-break>うふふ。じゃあね。<end><if><value:$01><equal>5がんばれよな。<end><if><value:$01><equal>6がんばって。<line-break>応援してるからね。<end><if><value:$01><equal>7気をつけて。<end><if><value:$01><equal>9応援してっからね。<end><if><value:$01><equal>11あまり危険な真似はしないように。<line-break>気をつけるのよ。<end><if><value:$01><equal>12元気でやれよ。<line-break>たまには顔を見せるからな。<end><if><value:$01><equal>10がんばれよ。<line-break>俺も姉ちゃんも応援してるからさ。<end><if><value:$01><equal>14達者でな。<end><if><value:$01><equal>15気をつけて。<end><if><value:$01><equal>17ま、せいぜい、がんばることね。<line-break>高貴なエルフであるアタクシも<line-break>応援してあげないでもなくってよ！<end><if><value:$01><equal>19がんばってね～！<line-break>ルルアンタ、応援してるからね！<end>気をつけてね。<line-break>今度、遊びにいくから。<end>"
+korean = "<if><value:$01><equal>2힘내. 응원할게.<end><if><value:$01><equal>3힘내거라.<end><if><value:$01><equal>4예로부터 굉장한 일은 누구 눈에도 바보 같은 일을 할 수 있다고 믿는 데서 시작됐어. 바보 같은 일을 믿었다는 점에서 아트레이아는 첫 관문을 넘은 거야. 후후. 그럼 안녕.<end><if><value:$01><equal>5힘내라고.<end><if><value:$01><equal>6힘내. 응원할게.<end><if><value:$01><equal>7조심해.<end><if><value:$01><equal>9응원하고 있으니까.<end><if><value:$01><equal>11너무 위험한 짓은 하지 마. 조심하고.<end><if><value:$01><equal>12잘 지내라. 가끔 얼굴 보러 올 테니까.<end><if><value:$01><equal>10힘내. 나도 누나도 응원할 테니까.<end><if><value:$01><equal>14잘 지내거라.<end><if><value:$01><equal>15조심해.<end><if><value:$01><equal>17뭐, 기껏 열심히 해 보시지. 고귀한 엘프인 이 몸도 응원해 주지 않는 건 아니니까!<end><if><value:$01><equal>19힘내~! 루루안타가 응원할게!<end>조심해. 다음에 놀러 갈게.<end>"
 
 ["780086"]
 japanese = "…これは、予備メッセージ１…。<line-break>アトレイア、Ｖ６です。 <end>"
