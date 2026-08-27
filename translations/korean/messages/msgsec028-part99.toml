@@ -80,6 +80,10 @@ korean = "대신 우리 남편에게 도시락 좀 전해 주지 않을래?<end>
 japanese = "おや、いらっしゃい、<value:$28>。<line-break>うちのダンナに用があるんだってね。　<line-break>話はナッジから聞いたよ。<end>"
 korean = "어머, 어서 와, <value:$28>. 우리 남편한테 볼일이 있다지? 이야기는 나지한테 들었어.<end>"
 
+["280021"]
+japanese = "でも、あいにくうちのダンナだったら、<line-break>仕事だって山に出ちまってるのさ。<line-break><end>"
+korean = "하지만 공교롭게도 우리 남편이라면 일하러 산에 나가 버렸어.<end>"
+
 ["280022"]
 japanese = "昨日あんな地震があったってのに？<end>"
 korean = "어제 그렇게 지진이 났는데도?<end>"
@@ -232,6 +236,10 @@ korean = "후후, 그 사람이라면 그렇게 말할 줄 알았어. 다들 오
 japanese = "お、俺もいいの？<end>"
 korean = "나, 나도 괜찮아?<end>"
 
+["280065"]
+japanese = "夕飯の支度ができるまで<line-break>遊んできな。<line-break>あ、弁当箱は置いていきなよ。<end>"
+korean = "저녁 준비가 될 때까지 놀다 와. 아, 도시락통은 두고 가.<end>"
+
 ["280066"]
 japanese = "空の弁当箱をボンガ夫人に渡した。<end>"
 korean = "빈 도시락통을 봉가 부인에게 건넸다.<end>"
@@ -251,6 +259,10 @@ korean = "응. 게다가 밤에는 진수성찬이라니 기대되네.<end>"
 ["280071"]
 japanese = "よっしゃ！<line-break>町の広場に行ってみようぜ！<line-break>イヤッホー！！<end>"
 korean = "좋았어! 마을 광장에 가 보자! 야호!!<end>"
+
+["280072"]
+japanese = "こ、小僧～！！<line-break>この誇り高き俺様にぶつかっておいて<line-break>一言もなしか？<end>"
+korean = "이, 이 꼬맹이~!! 이 자랑스러운 나님과 부딪치고도 한마디도 없느냐?<end>"
 
 ["280073"]
 japanese = "なんだよオッサン。　　　　<end>"
@@ -335,6 +347,10 @@ korean = "아, 저기…, 반…은…?<end>"
 ["280096"]
 japanese = "ヴァン…、<line-break>ヴァンの所へ行ってみようよ。<end>"
 korean = "반… 반한테 가 보자.<end>"
+
+["280097"]
+japanese = "ヴァンちゃん…、しっかりするのよ。<line-break>かわいそうに、痛かったでしょうに…。<end>"
+korean = "반아… 정신 차려. 불쌍하게, 많이 아팠겠지….<end>"
 
 ["280100"]
 japanese = "おじさん、ヴァンは、<line-break>ヴァンは大丈夫なんですか？<end>"
@@ -431,6 +447,10 @@ korean = "<value:$28>, 뭐 하는 거야! 이쪽이야, 이쪽. 빨리 와!<end>
 ["280135"]
 japanese = "じゃ、行こう、<value:$28>。<end>"
 korean = "그럼 가자, <value:$28>.<end>"
+
+["280136"]
+japanese = "裏山の道には<line-break>モンスターが出るからね。<line-break>一緒に力を合わせて行こう。<end>"
+korean = "뒷산 길에는 몬스터가 나오니까. 함께 힘을 합쳐 가자.<end>"
 
 ["280137"]
 japanese = "あ、ねえ、<value:$28>。<line-break>ボンガさんがいる裏山は<line-break>奥だよ。<end>"

@@ -164,6 +164,10 @@ korean = "후후, <value:$28>, 왜 그래? 나를 이 무덤 안에 넣어 줄 �
 japanese = "冗談よ。<line-break>私もたまには冗談くらい言うわ。<end>"
 korean = "농담이야. 나도 가끔은 농담 정도는 해.<end>"
 
+["1100085"]
+japanese = "あなたなら、私が一番憎んでいる怪物を<line-break>退治してくれるかもしれないわね。<end>"
+korean = "당신이라면 내가 가장 증오하는 괴물을 퇴치해 줄지도 모르겠네.<end>"
+
 ["1100086"]
 japanese = "その怪物？<end>"
 korean = "그 괴물?<end>"
@@ -232,6 +236,10 @@ korean = "그리고 또 한 명…. <value:$28>. 무한의 소울을 지닌 자�
 japanese = "息子よ。我が道の他に<line-break>革新の道なし。ともに歩むのだ。<end>"
 korean = "아들이여. 나의 길 외에 혁신의 길은 없다. 함께 걷자.<end>"
 
+["1100114"]
+japanese = "歩く？　フフ、父上、あなたには<line-break>そこで吊られているのがお似合いだ。<end>"
+korean = "걷는다고? 후후, 아버님, 당신은 거기 매달려 있는 게 잘 어울려요.<end>"
+
 ["1100115"]
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
@@ -271,6 +279,10 @@ korean = "빈 메시지<end>"
 ["1100127"]
 japanese = "そこの若いの。<line-break>どう思うかね？<line-break>嘆かわしい世の中ではないか。<line-break>このまま見捨てるか？<line-break>それとも、助けてくれるかな？<end>"
 korean = "거기 젊은이. 어떻게 생각하나? 한탄스러운 세상이 아닌가. 이대로 외면할 텐가? 아니면 도와주겠나?<end>"
+
+["1100128"]
+japanese = "やさしいのね。<line-break>でも、そういうやさしさは、<line-break>身を滅ぼすかもしれないわよ。<end>"
+korean = "상냥하네. 하지만 그런 상냥함은 네 몸을 망칠지도 몰라.<end>"
 
 ["1100131"]
 japanese = "予備メッセージ３<line-break>ザギヴ、ボリューム１<end>"

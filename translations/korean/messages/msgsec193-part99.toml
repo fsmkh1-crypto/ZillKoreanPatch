@@ -44,6 +44,10 @@ korean = "후후후.<end>"
 japanese = "ところで、ゼネさん、<line-break>あんたこんなところにいていいのかい？<end>"
 korean = "그런데 제네 씨, 이런 데 있어도 괜찮아?<end>"
 
+["1930015"]
+japanese = "おう、<value:$28>。<line-break>ギルドでいい仕事を　　　　　　　<line-break>見つけたんだわ。<line-break>どうだ、ちょっくら<line-break>やってみないか？<line-break>古代王国の秘宝探しなんだけどよ。<end>"
+korean = "오, <value:$28>. 길드에서 괜찮은 일을 찾았어. 어때, 한번 해 보지 않을래? 고대 왕국의 비보 찾기야.<end>"
+
 ["1930016"]
 japanese = "よし、決まりだ！<line-break>行こうぜ、<value:$28>。<end>"
 korean = "좋아, 결정이다! 가자, <value:$28>.<end>"
@@ -247,6 +251,10 @@ korean = "알겠다. 최고의 무기를 만들어 보이지. 후후후, 솜씨�
 ["1930081"]
 japanese = "おお！　師匠がやる気に！<end>"
 korean = "오오! 스승님이 의욕을!<end>"
+
+["1930082"]
+japanese = "さあ、ぼさっとするな！<line-break>大仕事だぞ！<line-break>気を引き締めるんじゃぞ！<end>"
+korean = "자, 멍하니 있지 마라! 큰일이다! 정신 바짝 차려라!<end>"
 
 ["1930083"]
 japanese = "すばらしい！<line-break>これがレルラ＝ロントンが作った<line-break><value:$28>の詩か。<end>"

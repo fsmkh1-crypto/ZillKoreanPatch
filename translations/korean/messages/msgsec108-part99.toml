@@ -160,6 +160,10 @@ korean = "오즈월드 조사<end>"
 japanese = "えっと…<line-break>確かディンガル帝国の傭兵に申し込んだ<line-break>と思うけど？<line-break>ゴメン…ボクも覚えてないんだ。<end>"
 korean = "음…. 분명 딩갈 제국 용병에 지원했던 것 같은데? 미안… 나도 기억이 안 나.<end>"
 
+["1080166"]
+japanese = "あなたはディンガル帝国の傭兵として<line-break>登録したはずよ！<line-break>情けない！<end>"
+korean = "당신은 딘갈 제국의 용병으로 등록했잖아! 한심해!<end>"
+
 ["1080170"]
 japanese = "あなたが傭兵登録したのは<line-break>ディンガル帝国だったと思いますよ。<end>"
 korean = "당신이 용병 등록을 한 곳은 딘갈 제국이었던 것 같습니다.<end>"
@@ -167,6 +171,10 @@ korean = "당신이 용병 등록을 한 곳은 딘갈 제국이었던 것 같�
 ["1080172"]
 japanese = "ディンガル帝国だ。<line-break>もう、忘れるな。<end>"
 korean = "딩갈 제국이다. 이제 잊지 마라.<end>"
+
+["1080175"]
+japanese = "ふふふ、君は私をからかっているのか？<line-break>君の雇い主はディンガル帝国だろ。<end>"
+korean = "후후후, 자네는 나를 놀리는 건가? 자네 고용주는 딘갈 제국이잖아.<end>"
 
 ["1080179"]
 japanese = "………………。<line-break><line-break><line-break>ディンガル帝国だ。<end>"
@@ -188,9 +196,17 @@ korean = "이봐, <value:$28>. 나한테 물어본 게 다행이군. 딩갈 제�
 japanese = "忘れるな。<line-break>ディンガル帝国だ。<line-break> <line-break>しかし、まさかロストールを <line-break>攻めることになるとはな…。<end>"
 korean = "잊지 마라. 딩갈 제국이다. 하지만 설마 로스토올을 공격하게 될 줄이야….<end>"
 
+["1080190"]
+japanese = "ディンガル帝国ですよ。<line-break>でも…<line-break>　<line-break>ディンガル帝国の傭兵ってことは、<line-break>ロストールを攻めちゃうんですよね…。<line-break>…い、いえ、なんでもないです！<end>"
+korean = "딘갈 제국이에요. 하지만… 딘갈 제국의 용병이라면 로스토올을 공격하게 되는 거죠…. …아, 아니, 아무것도 아니에요!<end>"
+
 ["1080197"]
 japanese = "えっと…<line-break>確かロストール王国の傭兵に申し込んだ<line-break>と思うけど？<line-break>ゴメン…ボクも覚えてないんだ。<end>"
 korean = "음…. 분명 로스토올 왕국 용병에 지원했던 것 같은데? 미안… 나도 기억이 안 나.<end>"
+
+["1080198"]
+japanese = "あなたはロストール王国の傭兵として<line-break>登録したはずよ！<line-break>全く、なさけない！<end>"
+korean = "당신은 로스토올 왕국의 용병으로 등록했잖아! 정말 한심해!<end>"
 
 ["1080202"]
 japanese = "あなたが傭兵登録したのは<line-break>ロストール王国だったと思いますよ。<end>"
@@ -199,6 +215,10 @@ korean = "당신이 용병 등록을 한 곳은 로스토올 왕국이었던 것
 ["1080204"]
 japanese = "ロストール王国だ。<line-break>もう、忘れるな。<end>"
 korean = "로스토올 왕국이다. 이제 잊지 마라.<end>"
+
+["1080207"]
+japanese = "ふふふ、君は私をからかっているのか？<line-break>君の雇い主はロストール王国だろ。<end>"
+korean = "후후후, 자네는 나를 놀리는 건가? 자네 고용주는 로스토올 왕국이잖아.<end>"
 
 ["1080211"]
 japanese = "………………。<line-break><line-break><line-break>ロストール王国だ。<end>"

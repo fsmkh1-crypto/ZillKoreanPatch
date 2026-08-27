@@ -52,6 +52,10 @@ korean = "여기 요리 정말 맛있었어. 내가 추천하는 건 솔바어 �
 japanese = "ちゃんと食べてみてよ！<line-break>すっごくおいしかったんだから。<line-break>じゃあね！<end>"
 korean = "제대로 먹어 봐! 정말 맛있었으니까. 그럼 안녕!<end>"
 
+["990015"]
+japanese = "とても、気持ちよく<line-break>食べてくださる方ですね。　　　　<line-break>　<line-break>あれだけ食べても、<line-break>あんなにいいスタイルだなんて…<line-break>ちょっとうらやましいですね。<end>"
+korean = "정말 맛있게 드시는 분이네요. 그렇게 많이 먹고도 저렇게 좋은 몸매라니… 조금 부러워요.<end>"
+
 ["990019"]
 japanese = "あ、<value:$28>だ。<line-break>声をかけようかな…。<line-break>そうしよっと！<line-break>あ、<value:$28>、<line-break>とっても、会いたかったの。<line-break>　<end>"
 korean = "아, <value:$28>이다. 말 걸어 볼까…. 그래야지! 아, <value:$28>, 정말 보고 싶었어.<end>"
@@ -144,6 +148,10 @@ korean = "미사용 메시지<end>"
 japanese = "ここ、あなたの行きつけの店だったの？<line-break>だーから、おいしくなかったのねー。<end>"
 korean = "여기, 네 단골 가게였어? 그러니까 맛이 없었던 거구나.<end>"
 
+["990043"]
+japanese = "味？　最悪ねー。<line-break>一言で言えば塩と油って感じかしら？<line-break>　<line-break>世界は驚きに満ちているって言う<line-break>あなたの言葉を、ホントに<line-break>今日は思い知らされたわー。<end>"
+korean = "맛? 최악이네. 한마디로 소금과 기름 맛이랄까? 세상은 놀라움으로 가득하다는 네 말을 오늘 정말 실감했어.<end>"
+
 ["990046"]
 japanese = "…そうね。<line-break>確かに堕落ね。　　　　　　　　<line-break>　<line-break>人間ごときに気を使うなんて、　<line-break>高貴で優雅なエルフである<line-break>アタクシらしくないわ…。<end>"
 korean = "…그래. 확실히 타락했네. 인간 따위에게 신경을 쓰다니, 고귀하고 우아한 엘프인 나답지 않아…<end>"
@@ -151,6 +159,10 @@ korean = "…그래. 확실히 타락했네. 인간 따위에게 신경을 쓰�
 ["990049"]
 japanese = "そ、そ、そうですよね！<line-break>そんなわけないですよね！<end>"
 korean = "그, 그렇죠! 그럴 리 없죠!<end>"
+
+["990051"]
+japanese = "そぉお？<line-break>なら、いいんだけど。<line-break>それじゃ、ルルアンタ、行くね。<end>"
+korean = "그래애? 그럼 됐지만. 그럼 루루안타, 갈게.<end>"
 
 ["990053"]
 japanese = "ごちそうさん。<end>"
@@ -351,6 +363,10 @@ korean = "로스토올의 장군, <value:$28>! 이런 곳에서 뭘 하고 있�
 ["990135"]
 japanese = "<value:$28>、どうしたの？<line-break>私に用？　それともカルラ様？<end>"
 korean = "<value:$28>, 왜 그래? 나한테 볼일이야? 아니면 칼라 님?<end>"
+
+["990136"]
+japanese = "何も用がないのなら、どうして　　　　<line-break>こんな所に来てるのよ。<line-break>　<line-break>あいにく、<line-break>私は次の戦いの準備で忙しいの。<line-break>今度、また冒険の話でも聞かせて。<end>"
+korean = "아무 용건도 없으면 왜 이런 데 온 거야. 공교롭게도 난 다음 전투 준비로 바빠. 다음에 또 모험 이야기나 들려줘.<end>"
 
 ["990137"]
 japanese = "あ、でも、また用もなく来てはダメよ。<line-break>ここは軍隊なんだから。公私の混同は<line-break>軍人の最もさけるべきことだもの。<line-break>それじゃあね、<value:$28>。<end>"

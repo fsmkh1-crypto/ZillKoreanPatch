@@ -8,6 +8,10 @@ korean = "루루안타 볼륨 1 시작<end>"
 japanese = "まずはギルドへ行こう。<end>"
 korean = "우선 길드로 가자.<end>"
 
+["490002"]
+japanese = "おやじさんの荷物の後始末を　　　<line-break>しなくちゃ行けないからな。<line-break>　<line-break>それにこれからは、冒険者になる。<line-break>ギルドで冒険者登録を<line-break>しておかないと、な。<end>"
+korean = "아저씨 짐을 정리해야 하거든. 그리고 이제부터는 모험자가 될 거야. 길드에 모험자 등록도 해 둬야지.<end>"
+
 ["490004"]
 japanese = "ま、いろんなとこだ。<end>"
 korean = "뭐, 여러 곳이지.<end>"
@@ -108,6 +112,10 @@ korean = "그럼 이따 보자. 난 술집에서 기다릴게. 너도 곧 와 �
 japanese = "よ、待ってたぜ。　<end>"
 korean = "여어, 기다리고 있었어.　<end>"
 
+["490039"]
+japanese = "これからツェラシェルという<line-break>冒険者に会う。<line-break>色々と問題はあるが、腕は一流の男だ。<line-break>そいつから情報を仕入れて<line-break>俺たちは<line-break>ルルアンタを追いかける。<end>"
+korean = "이제 체라셸이라는 모험자를 만날 거야. 여러 문제가 있지만 솜씨는 일류인 남자지. 그에게서 정보를 얻어 루루안타를 쫓는다.<end>"
+
 ["490040"]
 japanese = "自分のつらさを乗り越えて、お前さんに<line-break>優しい手を差し伸べてくれた女の子に、<line-break>今度はお前さんが手を差し出すんだ。<line-break>…っと、来たみたいだな。<end>"
 korean = "자기 고통을 이겨내고 네게 다정한 손을 내밀어 준 여자아이에게 이번엔 네가 손을 내미는 거야. …어이쿠, 온 것 같군.<end>"
@@ -136,6 +144,10 @@ korean = "웃기지 마. 네 사기에 돈을 낼 의무도 필요도 없어.<en
 japanese = "いいだろう。<line-break>何で勝負だ？<end>"
 korean = "좋아. 뭘로 승부하지?<end>"
 
+["490052"]
+japanese = "この酒場に次に来る客は<line-break>男か、女か。これを当てる。<line-break>さあ、どっちだい？<end>"
+korean = "이 술집에 다음으로 들어올 손님이 남자인지 여자인지 맞히는 거야. 자, 어느 쪽일까?<end>"
+
 ["490054"]
 japanese = "ふーん、女か。　　　　　　　　　<line-break>　<line-break>　<line-break>この酒場はそこにいるべっぴんさん<line-break>目当ての客が多いらしいんだがな。<line-break>ま、女でいいんだな？<end>"
 korean = "흐음, 여자라고. 이 술집은 저기 있는 미인을 보러 오는 손님이 많다던데. 뭐, 여자로 하면 되는 거지?<end>"
@@ -163,6 +175,10 @@ korean = "여자였지….<end>"
 ["490062"]
 japanese = "ああ、<line-break>かなり歳をくってはいるが<line-break>女だった…。<line-break>………………。<end>"
 korean = "그래, 나이는 꽤 들었지만 여자였어…. ……………….<end>"
+
+["490063"]
+japanese = "いや、残念だったな。<line-break>そんじゃ、<line-break>情報、聞かせてもらおうか。<end>"
+korean = "이런, 아쉽군. 그럼 정보를 들려주겠나.<end>"
 
 ["490064"]
 japanese = "……ちっ。<line-break>まず、最初のほうだが、あんた、<line-break><value:$28>、だっけ？<line-break>エリスは結構、あんたのことを<line-break>気に入っているようだ。<line-break>殺されることはまずないな。<end>"
@@ -204,6 +220,10 @@ korean = "그대도 마찬가지다. 언제까지 이런 곳에서 빈둥거리�
 japanese = "んー、あ、ああ。<line-break>ま、すぐ行くさ。<end>"
 korean = "음, 아, 그래. 뭐, 금방 갈게.<end>"
 
+["490093"]
+japanese = "おう、<value:$28>か。<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break>こいつはアンギルダン、<line-break>尻を落ち着けることを知らなくて、<line-break>一生を棒に振った老傭兵だ。<end>"
+korean = "오, <value:$28>인가. 이쪽은 안길단. 엉덩이를 붙이고 사는 법을 몰라 인생을 날린 늙은 용병이지.<end>"
+
 ["490094"]
 japanese = "ハハ、失礼な奴じゃな。<end>"
 korean = "하하, 무례한 녀석이군.<end>"
@@ -235,6 +255,10 @@ korean = "녀석들이 본색을 드러낼 만한 짓은 없었던 거군.<end>"
 ["490106"]
 japanese = "うむ。<line-break>怪しい素振りはまったくなかった。<line-break>　<line-break>あったら、わしが成敗しておるわい。<line-break>はっはっは！<end>"
 korean = "음. 수상한 움직임은 전혀 없었다. 있었다면 내가 벌써 처단했지. 하하하!<end>"
+
+["490107"]
+japanese = "…てことは、まだ、ルルアンタは<line-break>奴らの正体に気づいていないんだな。<end>"
+korean = "…그 말은 아직 루루안타가 놈들의 정체를 눈치채지 못했다는 거군.<end>"
 
 ["490108"]
 japanese = "そうだな。エンシャントへ行こう。<line-break>急げば間に合う。<line-break>　<line-break>準備ができたら、<line-break>港へ行って、乗船しよう。<line-break>俺も港にすぐに行く。<end>"
@@ -411,6 +435,10 @@ korean = "쳇, 실수했군. 여기까지 데려와 놓고 도망치게 하다�
 ["490165"]
 japanese = "ああ、だが<line-break>念には念をいれとかねえとな。<line-break>　<line-break>…誰だ！<end>"
 korean = "그래, 하지만 만전을 기해야지. …누구냐!<end>"
+
+["490168"]
+japanese = "さぁな。<line-break>モンスターにでも食われてて<line-break>くれるといいんだがな。<end>"
+korean = "글쎄. 몬스터한테라도 잡아먹혔으면 좋겠는데.<end>"
 
 ["490171"]
 japanese = "…っつっても、<line-break>それじゃあそちらさんは<line-break>納得できないみたいだな。<end>"
@@ -704,6 +732,10 @@ korean = "강대하고 흉악한 힘을 지닌 12개의 마도기다. 예전에 
 japanese = "正解です。<line-break>よく、ご存じですね。　　　　　　　<line-break>　<line-break>ただ、彼女は<line-break>その本来の使い方以外のことを<line-break>しようとしています。<end>"
 korean = "정답입니다. 잘 알고 계시네요. 다만 그녀는 그 본래의 쓰임새 이외의 일을 하려 하고 있습니다.<end>"
 
+["490253"]
+japanese = "なるほど、ね。　　　　　　　　　　　<line-break>　<line-break>　<line-break>それで、その禁断の聖杯が<line-break>アーギルシャイアの手に落ちる前に<line-break>俺たちに取ってきてほしいってわけか。<end>"
+korean = "그렇군. 그래서 그 금단의 성배가 아기르샤이아 손에 들어가기 전에 우리가 가져와 달라는 거구나.<end>"
+
 ["490256"]
 japanese = "それじゃあ、誰なのぉ？<end>"
 korean = "그럼, 누구야아?<end>"
@@ -779,6 +811,10 @@ korean = "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니
 ["490280"]
 japanese = "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。　<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
 korean = "파괴신 울그의 부활에 쓰인 강력한 마도기입니다. 12종류가 있다고 하지요. 금단의 성배도 그중 하나입니다.<end>"
+
+["490281"]
+japanese = "禁断の聖杯については<line-break>今、ゴブゴブ団という<line-break>３匹のゴブリンが持っています。<line-break>とりあえずは、<line-break>エンシャントを探してみると<line-break>彼らに会えると思いますよ。<end>"
+korean = "금단의 성배라면 지금 고브고브단이라는 고블린 셋이 가지고 있습니다. 일단 엔샨트를 찾아보면 그들을 만날 수 있을 거예요.<end>"
 
 ["490284"]
 japanese = "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。<line-break>　<end>"

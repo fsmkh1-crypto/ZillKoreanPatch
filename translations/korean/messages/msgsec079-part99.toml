@@ -56,6 +56,10 @@ korean = "좋네요, 자유라는 건….<end>"
 japanese = "自由…。私も自由になりたい…。<end>"
 korean = "자유…. 나도 자유로워지고 싶어….<end>"
 
+["790017"]
+japanese = "どうして失敗しちゃったのかな？<line-break>今度こそ自信あったのに。<line-break>　<line-break>アカデミーは仕方ないとしても<line-break>宿屋まで壊しちゃうなんて。<line-break>…ついてないな。<end>"
+korean = "왜 실패했을까? 이번엔 자신 있었는데. 아카데미야 그렇다 쳐도 여관까지 부수다니. …운도 없네.<end>"
+
 ["790018"]
 japanese = "でも、あきらめたら最後。<line-break>今度こそ、実験を成功させよっと。<end>"
 korean = "하지만 포기하면 끝이야. 이번에야말로 실험을 성공시켜야지.<end>"
@@ -88,6 +92,10 @@ korean = "…다행이다. 그럼 솔직히 말할게요. 당신 말대로 아�
 japanese = "お願いです！<line-break>私をここから連れ出してください。<line-break>　<line-break>私はこんな所で<line-break>一生を終えるのはイヤなんです。<end>"
 korean = "부탁이에요! 저를 여기서 데려가 주세요. 저는 이런 곳에서 평생을 끝내고 싶지 않아요.<end>"
 
+["790028"]
+japanese = "こんな所とはなんだ！<line-break>立派な別館を壊したのは　　<line-break>お前だろが！<line-break>それに、こっちだってな、<line-break>お前に一生いてもらっちゃ<line-break>商売上がったりだ。<end>"
+korean = "이런 곳이라니 무슨 소리야! 훌륭한 별관을 부순 건 너잖아! 게다가 우리도 네가 평생 눌러앉으면 장사 망해.<end>"
+
 ["790029"]
 japanese = "さっさと修理代の分だけ働いて<line-break>出ていってほしいもんだよ。<end>"
 korean = "빨리 수리비만큼 일하고 나가 줬으면 좋겠네.<end>"
@@ -119,6 +127,10 @@ korean = "꺄! 꽤 멋진 전개일지도!<end>"
 ["790037"]
 japanese = "心配はいりません。<line-break>私、がんばりますから。　　<line-break>　<line-break>やだ、とぼけちゃって。<line-break>今日から私も仲間じゃない！<end>"
 korean = "걱정하지 마세요. 저, 열심히 할 테니까요. 아이 참, 모르는 척하기는. 오늘부터 저도 동료잖아요!<end>"
+
+["790039"]
+japanese = "あ、そうだ！<line-break>冒険の準備をしてこよっと。<line-break>まずは形から入らなきゃ。<end>"
+korean = "아, 맞다! 모험 준비를 해 와야지. 우선 겉모습부터 갖춰야 해.<end>"
 
 ["790040"]
 japanese = "え？<line-break>定員オーバー？　　　　　　　<line-break>　<line-break>それじゃ、私の出番になったら<line-break>呼んでね。<line-break>その猫屋敷ってところで。<end>"
@@ -172,6 +184,10 @@ korean = "꺄! 꽤 멋진 전개일지도!<end>"
 japanese = "心配はいりません。<line-break>私、がんばりますから。　　<line-break>　<line-break>やだ、とぼけちゃって。<line-break>今日から私も仲間じゃない！<end>"
 korean = "걱정하지 마세요. 저, 열심히 할 테니까요. 아이 참, 모르는 척하기는. 오늘부터 저도 동료잖아요!<end>"
 
+["790057"]
+japanese = "あ、そうだ！<line-break>冒険の準備をしてこよっと。<line-break>まずは形から入らなきゃ。<end>"
+korean = "아, 맞다! 모험 준비를 해 와야지. 우선 겉모습부터 갖춰야 해.<end>"
+
 ["790058"]
 japanese = "え？<line-break>定員オーバー？　　　　　　　<line-break>　<line-break>それじゃ、私の出番になったら<line-break>呼んでね。<line-break>その猫屋敷ってところで。<end>"
 korean = "뭐? 정원 초과? 그럼 내 차례가 되면 불러 줘. 그 고양이 저택이라는 곳에서.<end>"
@@ -212,6 +228,10 @@ korean = "당신도 별난 사람이네. 그래도 덕분에 살았어. 더 실�
 japanese = "心配はいりません。<line-break>私、がんばりますから。　　<line-break>　<line-break>やだ、とぼけちゃって。<line-break>今日から私も仲間じゃない！<end>"
 korean = "걱정하지 마세요. 저, 열심히 할 테니까요. 아이 참, 모르는 척하기는. 오늘부터 저도 동료잖아요!<end>"
 
+["790071"]
+japanese = "あ、そうだ！<line-break>冒険の準備をしてこよっと。<line-break>まずは形から入らなきゃ。<end>"
+korean = "아, 맞다! 모험 준비를 해 와야지. 우선 겉모습부터 갖춰야 해.<end>"
+
 ["790072"]
 japanese = "え？<line-break>定員オーバー？　　　　　　　<line-break>　<line-break>それじゃ、私の出番になったら<line-break>呼んでね。<line-break>その猫屋敷ってところで。<end>"
 korean = "뭐? 정원 초과? 그럼 내 차례가 되면 불러 줘. 그 고양이 저택이라는 곳에서.<end>"
@@ -247,6 +267,10 @@ korean = "저, 저기… 그래서 부탁이 하나 있는데.<end>"
 ["790085"]
 japanese = "あとちょっとのところで<line-break>どうしてもひっかかる問題があって…<line-break>　<line-break>何かヒントになりそうな情報を<line-break>仕入れたら、<line-break>私に教えてほしいの。<end>"
 korean = "거의 다 됐는데 아무래도 걸리는 문제가 하나 있어…. 뭔가 힌트가 될 정보를 얻으면 내게 알려 줘.<end>"
+
+["790086"]
+japanese = "そうだな…。<line-break>偉大な魔法使いの話とか、<line-break>そんな感じの。<end>"
+korean = "그래… 위대한 마법사의 이야기라든가, 뭐 그런 느낌의.<end>"
 
 ["790087"]
 japanese = "わかった<end>"
@@ -312,9 +336,17 @@ korean = "확실히….<end>"
 japanese = "ユーリスの復学を許そう！<end>"
 korean = "유리스의 복학을 허가한다!<end>"
 
+["790115"]
+japanese = "やったー！<line-break>そうこなくっちゃ。<line-break>私、アカデミーの学生に戻れるのね！<end>"
+korean = "해냈다! 그래야지. 나, 아카데미 학생으로 돌아갈 수 있는 거네!<end>"
+
 ["790116"]
 japanese = "きゃっ、<value:$28>！<line-break>聞いた聞いた？<line-break>私、アカデミーに復帰できるの！<line-break>みじめな冒険者生活ともサヨナラよ！<end>"
 korean = "꺄, <value:$28>! 들었어, 들었어? 나 아카데미에 복귀할 수 있어! 비참한 모험자 생활도 이제 안녕이야!<end>"
+
+["790117"]
+japanese = "ちょっと待てよ。<line-break>もう冒険はおしまいってこと？<line-break>　<line-break>アカデミーに戻って<line-break>教授に怒られ、研究にあけくれる毎日。<line-break>おまけにお金もヒマもない。<end>"
+korean = "잠깐만. 이제 모험은 끝이라는 거야? 아카데미로 돌아가 교수에게 혼나고 연구에 매달리는 매일. 게다가 돈도 시간도 없어.<end>"
 
 ["790119"]
 japanese = "………………。<line-break>　<line-break>　<line-break>アカデミーに戻るのって<line-break>案外つまらないのかも…。<end>"

@@ -92,6 +92,10 @@ korean = "크류세이스는 믿을 수 없어. 뭔가 우리에게 숨기는 �
 japanese = "一度ならず二度までも密書の配達を<line-break><value:$28>様に命令するなんて！<line-break>そんな密書、海に捨てちゃいましょう。<end>"
 korean = "한 번도 아니고 두 번이나 밀서 배달을 <value:$28>님께 명령하다니! 그런 밀서는 바다에 버려 버려요.<end>"
 
+["1240107"]
+japanese = "お前さんの次の任務は、<line-break>この密書を解放軍のロセン支部に<line-break>届けることだぜ。<end>"
+korean = "자네의 다음 임무는 이 밀서를 해방군 로센 지부에 전달하는 거야.<end>"
+
 ["1240113"]
 japanese = "密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<end>"
 korean = "밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게 밀서 배달 보게<end>"
@@ -104,9 +108,21 @@ korean = "<value:$28>의 다음 임무는 로센에 있는 해방군 지부에 �
 japanese = "………………。<line-break><line-break><line-break>ロセンの解放軍支部に届けろ。<end>"
 korean = "………………. 로센 해방군 지부에 전해라.<end>"
 
+["1240116"]
+japanese = "次はロセンの解放軍支部か。<line-break>こんなつまらん仕事は<line-break>早く片付けるに限るな。<end>"
+korean = "다음은 로센 해방군 지부인가. 이런 시시한 일은 빨리 끝내는 게 상책이지.<end>"
+
 ["1240123"]
 japanese = "今度は解放軍ロセン支部か。<line-break>船で行ったほうが早いかな。<end>"
 korean = "이번엔 해방군 로센 지부인가. 배로 가는 게 빠르려나.<end>"
+
+["1240134"]
+japanese = "これで最後ね。<line-break>クリュセイスの元まで密書を<line-break>持って帰るのよ。<end>"
+korean = "이걸로 마지막이네. 크류세이스에게 밀서를 가지고 돌아가.<end>"
+
+["1240140"]
+japanese = "最後は、クロイス邸だ。<line-break>さっさと終わらせて<line-break>冒険に戻るぞ。<end>"
+korean = "마지막은 크로이스 저택이다. 빨리 끝내고 모험으로 돌아가자.<end>"
 
 ["1240145"]
 japanese = "密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<line-break>密書の配達ボゲー<end>"
@@ -187,6 +203,14 @@ korean = "사룡의 단층에서, 강한 요기를 느낍니다. 봉인된 아�
 ["1240209"]
 japanese = "古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<end>"
 korean = "고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게<end>"
+
+["1240211"]
+japanese = "…古の樹海へ行け。<line-break>オルファウスが世界の成り立ちを<line-break>話すそうだ。<end>"
+korean = "…고대의 수해로 가라. 오르파우스가 세계가 어떻게 만들어졌는지 이야기해 준다고 한다.<end>"
+
+["1240219"]
+japanese = "世界の成り立ちをオルファウスが<line-break>古の樹海で語ってくれるらしい。<line-break>急ぐぞ。<end>"
+korean = "세계가 어떻게 만들어졌는지 오르파우스가 고대 수해에서 이야기해 준다더군. 서두르자.<end>"
 
 ["1240220"]
 japanese = "古の樹海でオルファウスが<line-break>世界の成り立ちについて<line-break>語ってくれるらしいわ。<line-break>急いでオルファウスを連れて<line-break>向かったほうがいいわね。<end>"

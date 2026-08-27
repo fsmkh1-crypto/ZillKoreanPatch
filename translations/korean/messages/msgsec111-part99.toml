@@ -36,6 +36,10 @@ korean = "빈 메시지<end>"
 japanese = "おう！　<value:$28>。<line-break>なんかすごいことになってるぜ。　<line-break>　<line-break>ディンガルの四天王のひとり、<line-break>玄武将軍ザギヴが、<line-break>お前に礼を言いたいそうだ。<end>"
 korean = "오! <value:$28>. 뭔가 굉장한 일이 벌어졌어. 딘갈 사천왕 중 하나인 현무 장군 자기브가 네게 감사하고 싶대.<end>"
 
+["1110009"]
+japanese = "城まで来てくれってさ。<line-break>いやー、お前も大物になったなぁ。<line-break>　<end>"
+korean = "성까지 와 달래. 이야, 너도 거물이 됐구나.<end>"
+
 ["1110010"]
 japanese = "無限のソウルの資質を持つ者よ。<line-break>私の執務室まで来てくれ。<end>"
 korean = "무한의 소울 자질을 가진 자여. 내 집무실로 와 주게.<end>"
@@ -47,6 +51,10 @@ korean = "볼일이 있다. 국정에 관계된 중대사다. 네메아 님의 �
 ["1110012"]
 japanese = "冗談だ。君ごときなら、<line-break>今、私ひとりで始末できる。<end>"
 korean = "농담이다. 너 정도라면 지금 나 혼자서도 처리할 수 있어.<end>"
+
+["1110014"]
+japanese = "君はだいたいネメア様に<line-break>たてつくようなマネは<line-break>何もしていないではないか。<end>"
+korean = "넌 애초에 네메아 님께 맞서는 짓은 아무것도 하지 않았잖아.<end>"
 
 ["1110017"]
 japanese = "それでは意味がないのだ。<end>"
@@ -388,6 +396,10 @@ korean = "빈 메시지<end>"
 japanese = "空きメッセージ<end>"
 korean = "빈 메시지<end>"
 
+["1110107"]
+japanese = "ああ、君か。<line-break>そうだな…。<line-break>君は知っておいた方がいいだろう。<end>"
+korean = "아, 너구나. 그래…. 넌 알아 두는 게 좋겠어.<end>"
+
 ["1110110"]
 japanese = "ああ、君か。<line-break>この私になんの用だ？<end>"
 korean = "아, 너인가. 이 나에게 무슨 용무지?<end>"
@@ -399,6 +411,10 @@ korean = "무한의 소울에 대해 알고 싶은 건가?<end>"
 ["1110113"]
 japanese = "もっとも限界まで、<line-break>成長を続けられるものは<line-break>まれだがな。<line-break>いかに大器であろうと<line-break>器を満たせねば、<line-break>凡人と変わらん。<end>"
 korean = "한계까지 계속 성장할 수 있는 자는 드물지. 아무리 큰 그릇이라도 채우지 못하면 범인과 다를 바 없다.<end>"
+
+["1110114"]
+japanese = "君はどうかな？<line-break>どこまでやれるのか<line-break>…楽しみにしているよ。<end>"
+korean = "넌 어떨까? 어디까지 해낼 수 있을지… 기대하고 있어.<end>"
 
 ["1110116"]
 japanese = "気が向いたら、<line-break>また顔を出してくれ。<end>"

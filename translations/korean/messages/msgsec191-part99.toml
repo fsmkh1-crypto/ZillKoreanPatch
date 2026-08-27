@@ -136,6 +136,10 @@ korean = "그래도 저는 <value:$28>님이 와 주시길 기다리고 있을�
 japanese = "あああ…、いったいどこに<line-break>行かれてしまわれたのでしょう。<end>"
 korean = "아아… 대체 어디로 가 버리신 걸까요.<end>"
 
+["1910060"]
+japanese = "君たちがここまで来たということは、<line-break>シャリはやられてしまったのか…。<end>"
+korean = "너희가 여기까지 왔다는 건 샤리가 당한 건가….<end>"
+
 ["1910061"]
 japanese = "残るはお前だけだ、エルファス。<end>"
 korean = "남은 건 너뿐이다, 엘파스.<end>"
@@ -219,6 +223,10 @@ korean = "당신의 활약으로 세계는 구원받았습니다. 하지만 그 
 ["1910091"]
 japanese = "それはあなたです。<line-break>闇をすべて消し去ってしまうほどの<line-break>強烈な光の存在。<line-break>世界の均衡を保つため、<line-break>わたしは、あなたを<line-break>…とめなければなりません。<end>"
 korean = "그건 당신입니다. 어둠을 모두 지워 버릴 만큼 강렬한 빛의 존재. 세계의 균형을 지키기 위해 저는 당신을… 막아야 합니다.<end>"
+
+["1910093"]
+japanese = "それはどうかな？<line-break><value:$28>は今や<line-break>地上最強の存在となりつつある。<line-break>もし、その<value:$28>が<line-break>心変わりをしたら<line-break>誰がとめられるというのだ？<end>"
+korean = "그건 어떨까? <value:$28>는 지금 지상 최강의 존재가 되어 가고 있다. 만약 그 <value:$28>가 마음을 바꾸면 누가 막을 수 있겠나?<end>"
 
 ["1910097"]
 japanese = "<value:$28>さん！<line-break>ノエルの最後の剣、<line-break>受けとめてください！<end>"
@@ -343,6 +351,10 @@ korean = "난 누나를 믿어. 그러니 끝까지 따라갈 거야!<end>"
 ["1910143"]
 japanese = "さぁ、あと一息じゃ。<line-break>戦いの準備はできたのか、<line-break><value:$28>？<end>"
 korean = "자, 이제 한숨만 더 내쉬면 된다. 전투 준비는 됐느냐, <value:$28>?<end>"
+
+["1910144"]
+japanese = "テラネを出るとき、<line-break>こんなすごい冒険が待ってるなんて<line-break>思ってもいなかったよ。<line-break>その旅もこれで終わるんだね。<line-break>…<value:$28>、<line-break>もう準備はいいの？<end>"
+korean = "테라네를 나올 때 이런 엄청난 모험이 기다리고 있을 줄은 몰랐어. 그 여행도 이제 끝나는구나. …<value:$28>, 준비는 다 됐어?<end>"
 
 ["1910146"]
 japanese = "ここまで来て諦めるなんて、<line-break>ぜーーったいに許せなくってよ、<line-break><value:$28>！<line-break>自分の力を信じて、<line-break>最後まで戦うのよ！<line-break>いいわね、<value:$28>！？<end>"

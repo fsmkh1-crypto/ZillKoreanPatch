@@ -40,6 +40,10 @@ korean = "과연… 알겠습니다. 폐하, 요격군의 지휘는 제게 맡�
 japanese = "…エリエナイ公、無礼であろう。<line-break>こ、言葉を慎まれよ。<end>"
 korean = "…에리에나이 공, 무례하오. 마, 말을 삼가시오.<end>"
 
+["520015"]
+japanese = "この作戦の指揮は総司令であるわしがとり、<line-break>我が息子が副司令となる。<end>"
+korean = "이 작전의 지휘는 총사령인 내가 맡고, 내 아들이 부사령이 된다.<end>"
+
 ["520017"]
 japanese = "黙れ！　　　　　　　　　　　　<line-break>　<end>"
 korean = "닥쳐!<end>"
@@ -103,6 +107,10 @@ korean = "짐도 피곤하구나.짐도 물러나겠다.<end>"
 ["520043"]
 japanese = "陛下、お供いたします。<end>"
 korean = "폐하, 모시겠습니다.<end>"
+
+["520044"]
+japanese = "王妃がおらねば、らちがあくまい。<line-break>余のような用なしとはわけが違う。<end>"
+korean = "왕비가 없으면 일이 풀리지 않겠군. 짐 같은 쓸모없는 자와는 다르다.<end>"
 
 ["520045"]
 japanese = "…夫を気遣うのは<line-break>妻の役目でございます。<end>"
@@ -224,6 +232,10 @@ korean = "큭, 이게 어떻게 된 일이냐! 로스토올군이 부활했다�
 japanese = "ゼネテス…、<line-break>そうか、お主がおったのか！　　　<line-break>　<line-break>お主ならば、あの敗軍を<line-break>まとめる器量がある！<line-break>くっ、ぬかったわ！<end>"
 korean = "제네테스…. 그렇군, 네놈이 있었나! 네놈이라면 그 패잔군을 수습할 역량이 있다! 큭, 방심했군!<end>"
 
+["520116"]
+japanese = "お主がおるとわかっておれば、<line-break>敗残兵の殲滅を優先させたものを！<line-break>　<end>"
+korean = "네놈이 있는 줄 알았다면 패잔병 섬멸을 우선했을 것을!<end>"
+
 ["520117"]
 japanese = "…とっつぁん、<line-break>悪いが、命をもらう。　　<line-break>　<line-break>…ロストールの兵の<line-break>命がかかっているんでな。<end>"
 korean = "…아저씨, 미안하지만 목숨을 받겠다. …로스토올 병사들의 목숨이 걸려 있어서 말이야.<end>"
@@ -331,6 +343,10 @@ korean = "…가아아아악!<end>"
 ["520165"]
 japanese = "敵襲！<end>"
 korean = "적습!<end>"
+
+["520166"]
+japanese = "なんだと！？　<line-break>味方が徴発に出払っているすきを<line-break>ついてきたというのか！<end>"
+korean = "뭐라고!? 아군이 징발하러 나간 틈을 노리고 온 거냐!<end>"
 
 ["520168"]
 japanese = "頭だけで考えると<line-break>現実が見えなくなるぜ！<end>"

@@ -16,6 +16,10 @@ korean = "오, <value:$28>. 잠깐 와 줄래?<end>"
 japanese = "ともかく、闇の神器を見つけたら、　<line-break>持ってきてくれ。<line-break>　<line-break>期限は無期限。<line-break>今言った３つ以外でもいいそうだから<line-break>がんばってくれよ。<end>"
 korean = "어쨌든 어둠의 신기를 찾으면 가져와 줘. 기한은 무기한. 방금 말한 세 개가 아니어도 된다니까 힘내 줘.<end>"
 
+["1190010"]
+japanese = "ま、なんだか怪しい感じだからな。　<line-break>無理はしないこった。<line-break>気をつけろよ。<end>"
+korean = "뭐, 어쩐지 수상한 느낌이니까. 무리하지 마. 조심해.<end>"
+
 ["1190011"]
 japanese = "あなたが<value:$28>ね。<end>"
 korean = "당신이 <value:$28>군요.<end>"

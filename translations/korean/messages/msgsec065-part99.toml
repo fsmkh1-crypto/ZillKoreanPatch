@@ -36,13 +36,25 @@ korean = "네, 제가 티아나예요. 미안해요, 이름은 말하지 말아 
 japanese = "では、お返しします。<end>"
 korean = "그럼 돌려드리겠습니다.<end>"
 
+["650010"]
+japanese = "そのお人形…、<line-break>とても大切にされていたようですね。<line-break>本当に申しわけないことをしました。<line-break>ティアナが心から謝っていたと<line-break>女の子に伝えてください。<end>"
+korean = "그 인형… 정말 소중히 여기고 있었나 보네요. 정말 미안한 일을 했습니다. 티아나가 진심으로 사과했다고 그 아이에게 전해 주세요.<end>"
+
 ["650011"]
 japanese = "ふふふ…。<line-break>そんなに変ですか？ <line-break>　<line-break>一国の王女が見ず知らずの侵入者を<line-break>親しげにおもてなしするのが。<end>"
 korean = "후후후…. 그렇게 이상한가요? 한 나라의 공주가 처음 보는 침입자를 친근하게 대접하는 게.<end>"
 
+["650012"]
+japanese = "そうかもしれません。<line-break>…でも、あなたが悪い人には<line-break>とても見えないから…。<line-break>では、お名前だけでも<line-break>うかがいましょうか、<line-break>不法侵入者さん？<end>"
+korean = "그럴지도 모르겠네요. …하지만 당신이 나쁜 사람으로는 도저히 보이지 않아서…. 그럼 이름이라도 들어 볼까요, 불법 침입자님?<end>"
+
 ["650016"]
 japanese = "わかりました。<line-break>私から、話を通しておきますわ。<end>"
 korean = "알겠습니다. 제가 이야기를 전해 두겠습니다.<end>"
+
+["650017"]
+japanese = "今度からは、堂々と正面から<line-break>お入りくださいね。<line-break>　<line-break>侵入者と間違えられて<line-break>騒ぎにでもなったら、あなたのお兄様に<line-break>迷惑がかかるでしょう？<end>"
+korean = "다음부터는 당당하게 정문으로 들어오세요. 침입자로 오해받아 소동이 나면 당신 오라버니께 폐가 되잖아요?<end>"
 
 ["650018"]
 japanese = "<value:$28>…様。<line-break>素敵なお名前ですね。<end>"

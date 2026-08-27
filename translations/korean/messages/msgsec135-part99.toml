@@ -44,6 +44,10 @@ korean = "왜냐고?<end>"
 japanese = "ふーん。<line-break>そりゃ、見解の相違だな。<line-break> <line-break>俺には、お前さんが<line-break>助けを求めてるような気がしたんだ。<line-break>それだけさ。<end>"
 korean = "흐음. 그건 견해 차이군. 내 눈에는 네가 도움을 청하는 것처럼 보였어. 그뿐이야.<end>"
 
+["1350020"]
+japanese = "許してくれ…とは言わぬ。<line-break>許されることではないからな。<line-break>ただ、一緒に旅をさせてくれ。<line-break>…俺も、<line-break>お前たちの見てきた世界が<line-break>見たいのだ。<end>"
+korean = "용서해 달라고는 하지 않겠다. 용서받을 일이 아니니까. 다만 함께 여행하게 해 줘. …나도 너희가 봐 온 세상을 보고 싶다.<end>"
+
 ["1350021"]
 japanese = "いいだろ。<line-break>なんも、問題はねえ。<line-break>そうだろ、<value:$28>？<end>"
 korean = "괜찮잖아. 아무 문제도 없어. 그렇지, <value:$28>?<end>"
@@ -296,9 +300,17 @@ korean = "<value:$28>님께도 도움을 부탁드릴 일이 많이 생길 것 �
 japanese = "クッ、しぶとい奴め！<line-break>罪を認めろ！<line-break>そうすればラクにしてやる！<end>"
 korean = "큭, 질긴 녀석! 죄를 인정해라! 그러면 편하게 해주지!<end>"
 
+["1350126"]
+japanese = "俺は…俺だ。<line-break>それに…誰だろうが…<line-break>何者だろうが…人の命は…。<line-break>そう、何者だろうが、<line-break>人の命は…大事なんだ…。<line-break>だろ…？　レムオン…。<end>"
+korean = "나는… 나다. 그리고… 누구든… 무엇이든… 사람의 목숨은…. 그래, 누구든 사람의 목숨은… 소중해…. 그렇지…? 레몬….<end>"
+
 ["1350128"]
 japanese = "おのれ、何者だ！？<line-break>ここに何しにきた！<end>"
 korean = "네놈, 누구냐!? 여긴 왜 왔지!<end>"
+
+["1350129"]
+japanese = "よく、来てくれた<line-break>…って言いたいところだが、<line-break>すまねえ。<line-break>ここで、お前さんに<line-break>助けられるわけにはいかねえんだ。<line-break>それじゃ、意味がない。<end>"
+korean = "잘 와 줬다…고 말하고 싶지만 미안하다. 여기서 네 도움을 받을 수는 없어. 그러면 의미가 없거든.<end>"
 
 ["1350131"]
 japanese = "ならば、死ね！<line-break>多くの人間のために！<end>"
@@ -627,6 +639,10 @@ korean = "티아나…? 설마 네가 흑막…?<end>"
 ["1350235"]
 japanese = "そして…あなた。<line-break>この泥棒猫…<line-break>わたしからすべてを奪うつもりなのね。<line-break>あなたには…<line-break>あなたには…<line-break>何も…何も渡さない！<end>"
 korean = "그리고… 당신. 이 도둑고양이… 내게서 모든 걸 빼앗을 생각이군. 당신에게는… 아무것도… 아무것도 주지 않을 거야!<end>"
+
+["1350237"]
+japanese = "よく、来てくれた<line-break>…って言いたいところだが、<line-break>すまねえ。<line-break>ここで、お前さんに<line-break>助けられるわけにはいかねえんだ。<line-break>それじゃ、意味がない。<end>"
+korean = "잘 와 줬다…고 말하고 싶지만 미안하다. 여기서 네 도움을 받을 수는 없어. 그러면 의미가 없거든.<end>"
 
 ["1350239"]
 japanese = "ならば、死ね！<line-break>多くの人間のために！<end>"

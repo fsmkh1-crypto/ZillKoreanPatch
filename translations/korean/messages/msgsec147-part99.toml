@@ -44,6 +44,10 @@ korean = "아저씨, 들은 대로야. 그 의뢰, 우리가 맡을게.<end>"
 japanese = "そうかい。そうこなくっちゃな。<line-break>それじゃ、頼んだぜ、ゼネテスさん。<line-break>それに、<value:$28>。<end>"
 korean = "그래, 그래야지. 그럼 부탁한다, 제네테스 씨. 그리고 <value:$28>.<end>"
 
+["1470020"]
+japanese = "そんじゃ、依頼も受けたことだし、<line-break>そろそろ宿屋に戻った方がいいな。<line-break>出発は明日だ。<line-break>ルルアンタが作るっていう夕飯、<line-break>俺も同席していいだろう？<end>"
+korean = "그럼 의뢰도 받았으니 슬슬 여관으로 돌아가는 게 좋겠군. 출발은 내일이야. 루루안타가 만든다는 저녁, 나도 같이 먹어도 되겠지?<end>"
+
 ["1470021"]
 japanese = "俺は先に宿屋に戻ってる。<line-break><value:$28>も<line-break>寄り道してないでさっさと戻れよ。<end>"
 korean = "난 먼저 여관으로 돌아갈게. <value:$28>도 딴 데 들르지 말고 얼른 돌아와.<end>"
@@ -71,6 +75,10 @@ korean = "야, <value:$28>. 어디 가는 거야?<end>"
 ["1470031"]
 japanese = "よし、そんじゃ、俺も心当たりを<line-break>当たってみることにする。<line-break><value:$28>も頼んだぜ。<end>"
 korean = "좋아, 그럼 나도 짚이는 데를 알아볼게. <value:$28>도 부탁한다.<end>"
+
+["1470035"]
+japanese = "いらっしゃいませ。<line-break>今日は何になさいますか？　　　<line-break>　<line-break>え？　リルビーの女の子ですか？<line-break>カウンターにいるお客さんでは<line-break>ないんですよね？<end>"
+korean = "어서 오세요. 오늘은 무엇으로 하시겠습니까? 네? 릴비 여자아이요? 카운터에 있는 손님은 아니시죠?<end>"
 
 ["1470036"]
 japanese = "お店には、他にリルビーの方は<line-break>来てないと思いますよ。<line-break>ごめんなさい。<end>"
@@ -180,9 +188,17 @@ korean = "제, 젠장! 어이, 너희들 실수하지 마라!<end>"
 japanese = "ちっ、ちくしょう…。　　　　　　　　<line-break>こんなはずじゃ…。<line-break>　<end>"
 korean = "제, 젠장… 이럴 리가…<end>"
 
+["1470086"]
+japanese = "そこのお主、冒険者だな！<line-break>その男を捕まえてくれ！<line-break>人さらいじゃ！<end>"
+korean = "거기 자네, 모험자군! 그 남자를 잡아 줘! 유괴범이다!<end>"
+
 ["1470087"]
 japanese = "な、なんだ貴様！？　　　　　　　　　<line-break>邪魔すんじゃねぇ！<line-break>　<end>"
 korean = "뭐, 뭐냐 네놈!? 방해하지 마!<end>"
+
+["1470091"]
+japanese = "じゃが、お主の言うルルアンタらしい<line-break>リルビーの娘は見あたらなかったぞ。<end>"
+korean = "하지만 자네가 말한 루루안타라는 릴비 여자아이는 보이지 않았어.<end>"
 
 ["1470094"]
 japanese = "やれやれ。今度は賢者の森かい？<end>"

@@ -152,6 +152,10 @@ korean = "그럼 등록은 끝났으니 엔샨트의 관청으로 가면 돼.<en
 japanese = "そうかい。<line-break>ま、それもいいかもしれないな。<end>"
 korean = "그래. 뭐, 그것도 괜찮을지 모르겠네.<end>"
 
+["510057"]
+japanese = "傭兵志願者か？<line-break>今、担当がおらん。<line-break>また、出直してくるがよい。<end>"
+korean = "용병 지원자인가? 지금 담당자가 없다. 다시 오도록 해라.<end>"
+
 ["510058"]
 japanese = "傭兵志願者か？<line-break>お前はついている！　<line-break>すぐ仕事だ。<line-break>戦いの用意はよいか？<end>"
 korean = "용병 지원자인가? 운이 좋군! 바로 일이다. 싸울 준비는 됐나?<end>"
@@ -191,6 +195,14 @@ korean = "수고했다. 물러가도 좋다.<end>"
 ["510067"]
 japanese = "よう、<value:$28>。<line-break>久しぶり。<end>"
 korean = "여어, <value:$28>. 오랜만이야.<end>"
+
+["510070"]
+japanese = "ハハ、お前さんなら、俺が<line-break>名家ファーロス家の跡取りだと知っても<line-break>変わりなく接してくれるって信じてた。<line-break>だから、別に言い出す必要もないと<line-break>思ってたんだよ。<end>"
+korean = "하하, 자네라면 내가 명문 파로스 가문의 후계자란 걸 알아도 변함없이 대해 줄 거라 믿었어. 그래서 굳이 말할 필요도 없다고 생각했지.<end>"
+
+["510071"]
+japanese = "お前さんたち傭兵は、<line-break>詳しい事の成り行きを<line-break>知らないんだろ？<end>"
+korean = "자네들 용병은 자세한 사정의 흐름을 모르고 있지?<end>"
 
 ["510077"]
 japanese = "俺の予測が外れていてくれると<line-break>いいんだがな。<end>"
@@ -232,6 +244,10 @@ korean = "큭, 이게 어떻게 된 일이냐! 로스토올군이 부활했다�
 japanese = "ゼネテス…、<line-break>そうか、お主がおったのか！　　　<line-break>　<line-break>お主ならば、あの敗軍を<line-break>まとめる器量がある！<line-break>くっ、ぬかったわ！<end>"
 korean = "제네테스…. 그렇군, 네놈이 있었나! 네놈이라면 그 패잔군을 수습할 역량이 있다! 큭, 방심했군!<end>"
 
+["510105"]
+japanese = "お主がおるとわかっておれば、<line-break>敗残兵の殲滅を優先させたものを！<line-break>　<end>"
+korean = "네놈이 있는 줄 알았다면 패잔병 섬멸을 우선했을 것을!<end>"
+
 ["510106"]
 japanese = "…とっつぁん、<line-break>悪いが、命をもらう。　　<line-break>　<line-break>…ロストールの兵の<line-break>命がかかってるんでな。<end>"
 korean = "…아저씨, 미안하지만 목숨을 받겠다. …로스토올 병사들의 목숨이 걸려 있어서 말이야.<end>"
@@ -247,6 +263,10 @@ korean = "주작장군이 쓰러졌다!<end>"
 ["510111"]
 japanese = "退け！　退けええい！<end>"
 korean = "물러나라! 물러나아아!<end>"
+
+["510115"]
+japanese = "くっ、最高の殊勲を<line-break>ファーロスのドラ息子に<line-break>奪われるとはな。<end>"
+korean = "큭, 최고의 공을 파로스의 망나니 아들에게 빼앗기다니.<end>"
 
 ["510116"]
 japanese = "第２の殊勲、<value:$28>。<end>"
@@ -280,6 +300,10 @@ korean = "<value:$28>의 명성치가 올랐다.<end>"
 japanese = "おらぬのか…。<end>"
 korean = "없는 건가….<end>"
 
+["510129"]
+japanese = "お主…<value:$28>…。<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>戦場をひとりで死守する<line-break>ロストールの傭兵がおると聞いて<line-break>来てみれば、お主じゃったのか！<end>"
+korean = "너… <value:$28>…. 전장을 혼자 지키는 로스토올 용병이 있다기에 와 봤더니, 너였나!<end>"
+
 ["510130"]
 japanese = "これも戦場の習いじゃ。<line-break>いくぞ、<value:$28>！<end>"
 korean = "이것도 전장의 법칙이지. 간다, <value:$28>!<end>"
@@ -311,6 +335,10 @@ korean = "뭐라고!? 아군이 징발하러 나간 틈을 노리다니!<end>"
 ["510140"]
 japanese = "頭だけで考えると<line-break>現実が見えなくなるぜ！<end>"
 korean = "머리로만 생각하면 현실이 안 보인다고!<end>"
+
+["510143"]
+japanese = "わしとて同じじゃ。<line-break>ディンガルの兵のために<line-break>お主を倒す！　ゆくぞ！<end>"
+korean = "나 역시 마찬가지다. 딘갈의 병사들을 위해 네놈을 쓰러뜨리겠다! 간다!<end>"
 
 ["510146"]
 japanese = "朱雀将軍が討ち取られたぞ！<end>"

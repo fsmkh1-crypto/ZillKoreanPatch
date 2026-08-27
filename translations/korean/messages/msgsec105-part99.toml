@@ -48,6 +48,10 @@ korean = "어떠냐, <value:$28>. 진실을 알고도 목숨을 걸고 지킬 �
 japanese = "そんなことはどうでもいい<end>"
 korean = "그런 건 아무래도 좋아<end>"
 
+["1050024"]
+japanese = "はっはっは。　　　　　　　　　　<line-break>そうだよな。迷うよなぁ。<line-break>　<line-break>だがな、事実を知られたからには、<line-break>お前も生かしておくわけには<line-break>いかんのだよ！<end>"
+korean = "하하하. 그렇지. 망설여지겠지. 하지만 사실을 알아 버린 이상 너도 살려 둘 수는 없다!<end>"
+
 ["1050025"]
 japanese = "まもなくディンガル軍が<line-break>リベルダム市内にやってくる。<end>"
 korean = "곧 딘갈군이 리벨덤 시내로 들어올 거다.<end>"
@@ -87,6 +91,10 @@ korean = "자, 어서!<end>"
 ["1050038"]
 japanese = "ふむ…、なるほど。<line-break>リベルダムを脱出させてほしいと。<end>"
 korean = "흠… 그렇군. 리벨덤에서 탈출시켜 달라는 거군.<end>"
+
+["1050039"]
+japanese = "ディンガル軍もあなた方には　　　　　<line-break>手を出せないはず。<line-break>　<line-break>リベルダムを脱出して、<line-break>解放軍本部まで送り届けてもらえれば、<line-break>それで十分です。<end>"
+korean = "딘갈군도 여러분에게는 손을 댈 수 없을 겁니다. 리벨덤을 빠져나가 해방군 본부까지 데려다주기만 하면 충분합니다.<end>"
 
 ["1050040"]
 japanese = "その後の我々の活動にまでは<line-break>助力を求めません。<end>"
@@ -136,6 +144,10 @@ korean = "우리는 처음부터 끝까지 탈출을 돕도록 의뢰받았습�
 japanese = "わかりました。　　　　　　<line-break>　<line-break>　<line-break>護衛は依頼者を<line-break>より安全に守る力がある方に<line-break>受ける権利があるもの。<end>"
 korean = "알겠습니다. 호위는 의뢰인을 더 안전하게 지킬 능력이 있는 쪽이 맡을 권리가 있는 법이지요.<end>"
 
+["1050054"]
+japanese = "どちらがより護衛者に<line-break>ふさわしいか…、<line-break>決着をつけましょうか。<end>"
+korean = "어느 쪽이 더 수호자에 어울리는지… 결판을 내 볼까요.<end>"
+
 ["1050055"]
 japanese = "むにゅー…。<end>"
 korean = "우뉴우….<end>"
@@ -155,6 +167,10 @@ korean = "이겼어. 이겼어.<end>"
 ["1050061"]
 japanese = "…わかりました。<line-break>それで、どのような方法で？<end>"
 korean = "…알겠습니다. 그래서 어떤 방법으로?<end>"
+
+["1050062"]
+japanese = "フゴー美術館の美術品を運び出します。<line-break>その際に、美術品と一緒に<line-break>リベルダムを脱出していただきます。<line-break>手配いたしますので、<line-break>しばらくお待ちください。<end>"
+korean = "후고 미술관의 미술품을 반출합니다. 그때 미술품과 함께 리벨덤을 탈출해 주세요. 준비할 테니 잠시 기다려 주세요.<end>"
 
 ["1050065"]
 japanese = "ロセンからひそかに進軍していたカルラ軍は、<line-break>たった一夜で、リベルダムを制圧し、<line-break>帝国に刃向かう者への見せしめとして、<line-break>リベルダムを徹底的に破壊した。<end>"
@@ -227,6 +243,14 @@ korean = "나이트메어의 물방울은 어떻게 됐지?<end>"
 ["1050087"]
 japanese = "ないだと！<line-break>まさか、貴様が<line-break>盗んだんじゃないだろうな！？<end>"
 korean = "없다고!? 설마 네가 훔친 건 아니겠지!?<end>"
+
+["1050088"]
+japanese = "いいわけは依頼人の前でしろ！<line-break>この冒険者の面汚しが！<line-break>とらえろ！<end>"
+korean = "변명은 의뢰인 앞에서 해라! 이 모험자의 망신아! 잡아라!<end>"
+
+["1050089"]
+japanese = "気がついたかしら？<line-break>まぁ、あれだけ殴られたら、<line-break>気を失うのもムリないわ。<end>"
+korean = "정신이 들었나 봐? 뭐, 그렇게 두들겨 맞았으니 기절해도 무리는 아니지.<end>"
 
 ["1050090"]
 japanese = "おはよう、荷物泥棒さん。<line-break>気分はいかが。<end>"

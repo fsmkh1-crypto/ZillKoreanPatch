@@ -136,6 +136,10 @@ korean = "3000기아를 손에 넣었다.<end>"
 japanese = "それでは、僕が<value:$28>を<line-break>王宮の外までご案内します。<end>"
 korean = "그럼 제가 <value:$28>을 왕궁 밖까지 안내하겠습니다.<end>"
 
+["750041"]
+japanese = "今日は本当にありがとう。<line-break>これで彼女に世界を見せてあげられる。<line-break>　<line-break>悲しみと憎悪に彩られた世界をね。<line-break>くすっ、あはははは！<line-break>ホント、ありがとうね！<end>"
+korean = "오늘 정말 고마워. 이제 그녀에게 세상을 보여 줄 수 있어. 슬픔과 증오로 물든 세상을 말이야. 후후, 아하하하! 정말 고마워!<end>"
+
 ["750042"]
 japanese = "はい。お気をつけて…。<end>"
 korean = "네. 조심히 가세요….<end>"
@@ -147,6 +151,10 @@ korean = "수락한다<end>"
 ["750049"]
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
+
+["750050"]
+japanese = "アトレイア、喜んで！<line-break>勇者殿は引き受けてくれるってさ。<line-break>　<end>"
+korean = "아트레이아, 기뻐해! 용자님이 맡아 주겠대.<end>"
 
 ["750051"]
 japanese = "フフフッ…<line-break>じゃあ、<value:$28>、<line-break>待ってるよ。<end>"
@@ -384,6 +392,10 @@ korean = "그럴 생각이야.<end>"
 japanese = "そんなつもりはない。<end>"
 korean = "그럴 생각은 없어.<end>"
 
+["750117"]
+japanese = "じゃ、なんでこんな所にいるのよ。<line-break>ほぉら！　ここから出ていくの！<end>"
+korean = "그럼 왜 이런 데 있는 거야. 자아! 여기서 나가!<end>"
+
 ["750118"]
 japanese = "もう！　いい？　その色惑の瞳は<line-break>ちゃんとお姫様に渡すの。わかった？<end>"
 korean = "정말! 알겠어? 그 색혹의 눈동자는 제대로 공주님께 드리는 거야. 알았지?<end>"
@@ -395,6 +407,10 @@ korean = "다행이다…. 그럼 다른 곳으로 가자. 응?<end>"
 ["750122"]
 japanese = "…とにかく　その色惑の瞳は<line-break>ちゃんとお姫様に渡そうよ。ね？<end>"
 korean = "…어쨌든 그 색혹의 눈동자는 제대로 공주님께 전해 주자. 응?<end>"
+
+["750125"]
+japanese = "じゃ、なんでこんな所にいるのよ？<line-break>ほら！　ここから出ていくのぉ！<end>"
+korean = "그럼 왜 이런 데 있는 거야? 자! 여기서 나가라고!<end>"
 
 ["750126"]
 japanese = "もう！　いい？　その宝石はぁ、<line-break>ちゃんとお姫様に渡すんだよぉ！<end>"
@@ -455,6 +471,14 @@ korean = "착한 아이야.<end>"
 ["750146"]
 japanese = "じゃ、そこには用はないな。<line-break>別の所に行くといい。<line-break>　<line-break>俺はお前が行くまで<line-break>見張ってることにする。<end>"
 korean = "그럼 거긴 볼일 없겠네. 다른 곳으로 가. 나는 네가 갈 때까지 지켜보고 있지.<end>"
+
+["750147"]
+japanese = "色惑の瞳、フゴーに売る気なの？<line-break>君が根っからゲスなのか。<line-break>それとも僕を信用できないのか…。<line-break>ま、どっちかわからないけど。<line-break>とにかく契約違反は許せないな。<end>"
+korean = "색혹의 눈동자를 후고에게 팔 생각이야? 네가 원래 쓰레기인지, 아니면 날 못 믿는 건지…. 어느 쪽이든 계약 위반은 용서 못 해.<end>"
+
+["750149"]
+japanese = "ちょいと待ちな。　　　　　　　<line-break>そこの悪党！<line-break>　<line-break>忘れられた王女を救うはずの<line-break>色惑の瞳…それをフゴーに売って<line-break>もうけようとは言語道断…。<end>"
+korean = "잠깐 기다려. 거기 악당! 잊힌 왕녀를 구할 색혹의 눈동자를 후고에게 팔아 돈을 벌려 하다니 말도 안 돼….<end>"
 
 ["750156"]
 japanese = "悪党め。新婚の勇者である俺様に<line-break>倒されることを幸せに思うがいい！<end>"
@@ -560,6 +584,10 @@ korean = "감사는 필요 없다. 이 몸은 악이 있는 곳엔 반드시 나
 japanese = "それに、また来ていただけるなんて。<line-break>私、本当にうれしいです。<line-break>　<line-break>…こんなによくしていただいて<line-break>本当にいいのかと思うくらいです。<end>"
 korean = "게다가 또 와 주시다니. 정말 기뻐요. …이렇게까지 잘해 주셔도 되는 건지 생각할 정도예요.<end>"
 
+["750195"]
+japanese = "平気です。さびしくは…ありません。<line-break>孤独と闇には、なれていますもの。<end>"
+korean = "괜찮아요. 외롭지는… 않아요. 고독과 어둠에는 익숙하니까요.<end>"
+
 ["750196"]
 japanese = "…それに、少しの光は、余計に<line-break>闇を濃くしてしまうものですから。<end>"
 korean = "…게다가 작은 빛은 오히려 어둠을 더 짙게 만들기도 하니까요.<end>"
@@ -579,6 +607,10 @@ korean = "감사합니다. 이제… 괜찮아요.<end>"
 ["750200"]
 japanese = "あ、<value:$28>様<line-break>ようこそいらっしゃいました。<end>"
 korean = "아, <value:$28>님. 어서 오세요.<end>"
+
+["750201"]
+japanese = "ティアナ様は王宮では<line-break>光の王女と呼ばれているそうです。<line-break>　<line-break>輝くようなお美しさと<line-break>明るく、やさしいお心を<line-break>みなが讃えているのでしょうね。<end>"
+korean = "티아나 님은 왕궁에서 빛의 왕녀라고 불린다고 합니다. 빛나는 아름다움과 밝고 상냥한 마음을 모두가 칭송하는 것이겠지요.<end>"
 
 ["750202"]
 japanese = "そうすると、私はさしずめ<line-break>闇の王女でしょうか。<line-break>　<end>"
@@ -632,6 +664,10 @@ korean = "그렇…죠…. 정말 아름다운 분이네요.<end>"
 japanese = "フフ、私に気を使って<line-break>いただかなくても結構ですわ。<line-break>　<line-break><value:$28>様は<line-break>本当におやさしいですね。<end>"
 korean = "후후, 저를 신경 쓰지 않으셔도 괜찮아요. <value:$28>님은 정말 상냥하시네요.<end>"
 
+["750215"]
+japanese = "実は、このあいだ<line-break>ティアナ様にお会いしたのです。　　　<line-break>…本当に、お美しい方でした。<line-break>それに、とても気さくで<line-break>おやさしい方ですね。<line-break>　<end>"
+korean = "사실 얼마 전에 티아나 님을 뵈었어요. …정말 아름다운 분이셨어요. 그리고 아주 소탈하고 상냥하시더군요.<end>"
+
 ["750218"]
 japanese = "…この暗い部屋を見られるのが、<line-break>恥ずかしかったのです。<end>"
 korean = "…이 어두운 방을 보여 주는 게 부끄러웠어요.<end>"
@@ -647,6 +683,10 @@ korean = "가장 먼저 만나러 갔다<end>"
 ["750221"]
 japanese = "ティアナではなく、アトレイアに会いに来た<end>"
 korean = "티아나가 아니라 아트레이아를 만나러 왔다<end>"
+
+["750222"]
+japanese = "そうですよね。ティアナ様は<line-break>本当に輝いておられますもの。<line-break>　<line-break>でも、ついででもいいんです。<line-break>私に会いに来てくださって、<line-break>うれしいです。<end>"
+korean = "그렇죠. 티아나 님은 정말 빛나시는 분이니까요. 그래도 덤이라도 좋아요. 저를 만나러 와 주셔서 기뻐요.<end>"
 
 ["750223"]
 japanese = "あ…。<end>"

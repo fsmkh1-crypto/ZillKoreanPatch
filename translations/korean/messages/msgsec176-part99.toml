@@ -200,6 +200,10 @@ korean = "무언가의 장치가 작동한 것 같다.<end>"
 japanese = "ええい！　<line-break><value:$28>、<line-break>ここはまかせたで！<end>"
 korean = "에잇! <value:$28>, 여긴 맡길게!<end>"
 
+["1760099"]
+japanese = "ストーンデビルを倒すとはのう。　<line-break>われは大したもんじゃ、<line-break>おかげで扉も開いたでぇ。<line-break>よっしゃ！<line-break>次の罠が発動する前に早う出よう。<line-break>宝を忘れんさんな。<end>"
+korean = "스톤 데빌을 쓰러뜨리다니 대단하구먼. 덕분에 문도 열렸어. 좋아! 다음 함정이 발동하기 전에 어서 나가자. 보물도 잊지 말고.<end>"
+
 ["1760101"]
 japanese = "急ぎんさい、<value:$28>！<line-break>ヤツに追いつかれんさんな！<end>"
 korean = "서둘러, <value:$28>! 녀석에게 따라잡히지 마!<end>"

@@ -12,6 +12,10 @@ korean = "여기까지 도달한 걸 보니 제법 실력이 있나 보군.<end>
 japanese = "さぁて、どうだかな？            <line-break>　<line-break>　<line-break>最近じゃ、仕事にあぶれて<line-break>にわか冒険者で食いつないでる奴も<line-break>多いって言うぜ。<end>"
 korean = "글쎄, 어떨까? 요즘은 일거리가 없어 임시 모험자로 먹고사는 녀석도 많다더군.<end>"
 
+["1430003"]
+japanese = "こいつらも、その口じゃねえのか？<line-break>運がいいだけのあぶれ者さ。<line-break>　<end>"
+korean = "이 녀석들도 그런 부류 아닌가? 운만 좋은 떠돌이들이지.<end>"
+
 ["1430004"]
 japanese = "ならば、ひとつ<line-break>腕前を試させてもらおう。<end>"
 korean = "그렇다면 실력을 한번 시험해 보지.<end>"
@@ -59,6 +63,10 @@ korean = "…화낼 만도 하지. 확실히 더러운 방법이었어. 그 점�
 ["1430017"]
 japanese = "その腕を見込んで、<line-break>ひとつ頼みがあるのよ。<end>"
 korean = "그 실력을 믿고 부탁 하나 할 게 있어.<end>"
+
+["1430019"]
+japanese = "聞いておどろくな！<line-break>俺たちはな…<line-break>洋上の王者、ワッシャー海賊！！<end>"
+korean = "듣고 놀라지 마라! 우리는… 바다의 왕자, 워셔 해적단이다!!<end>"
 
 ["1430020"]
 japanese = "こちらにおられるのが、<line-break>第２代頭領、ヒルダリア様だ！<end>"

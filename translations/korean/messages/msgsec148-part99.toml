@@ -24,6 +24,10 @@ korean = "운명에 선택받은 사람만 결계를 지나 이곳에 들어옵�
 japanese = "いらっしゃい。<line-break>お待ちしていましたよ。<line-break>　<line-break>私はオルファウス。<line-break>この猫屋敷の主です。<end>"
 korean = "어서 오세요. 기다리고 있었습니다. 저는 오르파우스. 이 고양이 저택의 주인입니다.<end>"
 
+["1480006"]
+japanese = "…ということは、あんたが<line-break>この森に住んでいるという<line-break>賢者なのか？<end>"
+korean = "…그 말은 당신이 이 숲에 산다는 현자인가?<end>"
+
 ["1480008"]
 japanese = "…そうか、あんたが。<line-break>…おっと、自分のことを名乗るのを<line-break>忘れていたな。<line-break>俺はゼネテス。<line-break>こっちは<value:$28>。<line-break>ふたりとも冒険者だ。<end>"
 korean = "…그런가, 네가. …아차, 내 소개를 잊었군. 난 제네테스. 이쪽은 <value:$28>. 둘 다 모험자다.<end>"
@@ -267,6 +271,10 @@ korean = "미사용<end>"
 ["1480114"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
+
+["1480115"]
+japanese = "おや、なかなか耳ざといですね。<line-break>フフ、今はまだ秘密です。<line-break>　<line-break>おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
+korean = "오, 귀가 밝군요. 후후, 지금은 아직 비밀입니다. 차차 알게 될 겁니다. 일단 길드에서 일을 해 나가세요.<end>"
 
 ["1480117"]
 japanese = "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。　<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"

@@ -60,6 +60,10 @@ korean = "<value:$28>인가….<end>"
 japanese = "教えてくれ、<value:$28>…。<line-break>俺は間違っていたのか？<line-break>　<line-break>彼女にとって俺の行為は<line-break>重荷でしかなかったのか？<line-break>それとも俺の自己満足だったのか？<end>"
 korean = "말해 줘, <value:$28>…. 내가 틀렸던 건가? 그녀에게 내 행동은 짐일 뿐이었나? 아니면 내 자기만족이었던 건가?<end>"
 
+["2720023"]
+japanese = "わかっている。<line-break>俺は自分の選択に悔いている<line-break>わけじゃない。<line-break>ただ、イーシャが本当はどんな幸せを<line-break>望んでいたのか。<line-break>そんな疑問がたまに頭をよぎるんだ。<end>"
+korean = "알고 있어. 내 선택을 후회하는 건 아니야. 다만 이샤가 진정 어떤 행복을 바랐는지, 그런 의문이 가끔 머리를 스쳐.<end>"
+
 ["2720024"]
 japanese = "そうだな。<value:$28>。<line-break>俺の行動が正しかったかどうかは<line-break>俺自身にもわからない。<line-break>だけど、イーシャへの想いは真実だ。<line-break>それだけは胸を張って言える。<end>"
 korean = "그래, <value:$28>. 내 행동이 옳았는지는 나도 몰라. 하지만 이샤를 향한 마음은 진심이다. 그것만은 당당히 말할 수 있어.<end>"
@@ -127,6 +131,10 @@ korean = "<value:$28>인가….<end>"
 ["2720063"]
 japanese = "教えてくれ、<value:$28>…。<line-break>俺は間違っていたのか？<line-break>　<line-break>彼女にとって俺の行為は<line-break>重荷でしかなかったのか？<line-break>それとも俺の自己満足だったのか？<end>"
 korean = "말해 줘, <value:$28>…. 내가 틀렸던 건가? 그녀에게 내 행동은 짐일 뿐이었나? 아니면 내 자기만족이었던 건가?<end>"
+
+["2720064"]
+japanese = "わかっている。<line-break>俺は自分の選択を悔いている<line-break>わけじゃない。<line-break>ただ、イーシャが本当は<line-break>どんな幸せを望んでいたのか。<line-break>そんな疑問がたまに頭をよぎるんだ。<end>"
+korean = "알고 있어. 내 선택을 후회하는 건 아니야. 다만 이샤가 진정 어떤 행복을 바랐는지, 그런 의문이 가끔 머리를 스쳐.<end>"
 
 ["2720065"]
 japanese = "そうだな。<value:$28>。<line-break>俺の行動が正しかったかどうかは<line-break>俺自身にもわからない。<line-break>だけど、イーシャへの想いは真実だ。<line-break>それだけは胸を張って言える。<end>"

@@ -20,6 +20,10 @@ korean = "가!<end>"
 japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
 korean = "봐, 왔어. <value:$28>가.<end>"
 
+["1900008"]
+japanese = "そう騒ぐでない。これも運命。<line-break>ザギヴに巣くっておった闇が、<line-break>時を得て甦りつつあるだけのこと。<line-break>ネメアを失い、弱くなった心では、<line-break>闇を抑えきれなかったのよ。<end>"
+korean = "그렇게 소란 피울 것 없다. 이것도 운명. 자기브에게 깃들어 있던 어둠이 때를 얻어 되살아나고 있을 뿐이다. 네메아를 잃고 약해진 마음으로는 어둠을 억누르지 못한 것이지.<end>"
+
 ["1900012"]
 japanese = "さあ、ザギヴ。<line-break>自らの手で試すがよい。<line-break>　<line-break>たとえ<value:$28>であっても、<line-break>恐怖の存在には剣を向けるしかない<line-break>ということをな。<end>"
 korean = "자, 자기브. 네 손으로 직접 시험해 봐라. 설령 <value:$28>이라도 공포의 존재 앞에서는 검을 겨눌 수밖에 없다는 걸.<end>"
@@ -356,6 +360,10 @@ korean = "티아나 님은 조금 전부터 완전히 달라지셔서… 땅에 
 japanese = "あ、<value:$28>様。<end>"
 korean = "아, <value:$28> 님.<end>"
 
+["1900139"]
+japanese = "うれしい…。<line-break>また、ティアナに会いに来て<line-break>くださったのですね。<end>"
+korean = "기뻐요…. 또 티아나를 만나러 와 주셨군요.<end>"
+
 ["1900141"]
 japanese = "<value:$28>様、<line-break>ティアナは不安なのです。　<line-break>　<line-break>今度は<value:$28>様が<line-break>急にいなくなって<line-break>しまうのではないかと…。<end>"
 korean = "<value:$28>님, 티아나는 불안해요. 이번엔 <value:$28>님이 갑자기 사라져 버리는 건 아닐까 하고….<end>"
@@ -435,6 +443,10 @@ korean = "걱정이 지나치다고 말한다<end>"
 ["1900174"]
 japanese = "自分も捜索に協力すると言う<end>"
 korean = "자신도 수색에 협력하겠다고 한다<end>"
+
+["1900176"]
+japanese = "<value:$28>様、約束して<line-break>ください。<value:$28>様は<line-break>急にいなくなったりはしないと。　<line-break>私に何も言わずに、どこかへ行って<line-break>しまわれたりはしないと。<end>"
+korean = "<value:$28> 님, 약속해 주세요. <value:$28> 님은 갑자기 사라지지 않는다고. 제게 아무 말도 없이 어디론가 가 버리지 않겠다고.<end>"
 
 ["1900182"]
 japanese = "それはよい考えだと同意する<end>"

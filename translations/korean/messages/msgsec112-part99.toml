@@ -4,6 +4,10 @@
 japanese = "エステルメッセージVOL5開始<end>"
 korean = "에스텔 메시지 VOL5 시작<end>"
 
+["1120011"]
+japanese = "今、彼女たちには、<line-break>この都市の底の動力の間で<line-break>動力になってもらってるよ。<end>"
+korean = "지금 그 아이들은 이 도시 밑의 동력실에서 동력이 되어 주고 있어.<end>"
+
 ["1120014"]
 japanese = "フフ…、意外にやるね。<line-break>まさか、これだけ力を出したのに　<line-break>負けるとは思わなかったな。<line-break>でも、たぶん君にとって<line-break>状況はちっともよくなってないよ。<end>"
 korean = "후후… 의외로 제법이네. 이만큼 힘을 냈는데 질 줄은 몰랐어. 하지만 아마 네 상황은 전혀 나아지지 않았을 거야.<end>"
@@ -23,6 +27,10 @@ korean = "크… 용왕…!!<end>"
 ["1120026"]
 japanese = "うわ、言ってくれるね。<line-break>確かにその通りだけどさ。<end>"
 korean = "우와, 말은 잘하네. 확실히 맞는 말이긴 하지만.<end>"
+
+["1120027"]
+japanese = "さてと、そろそろ潮時かな。<line-break>このオモチャが墜落する前に<line-break>僕は失礼するよ。<end>"
+korean = "자, 슬슬 떠날 때인가. 이 장난감이 추락하기 전에 난 실례하지.<end>"
 
 ["1120028"]
 japanese = "じゃ、<value:$28>。<line-break>せっかくだから、墜落の瞬間まで<line-break>ゆっくりしてってよ。<line-break>あはははは！<line-break>じゃあね～。<end>"
@@ -84,6 +92,10 @@ korean = "에아!!<end>"
 japanese = "わかっておる。<line-break>あそこへ飛びたいというのじゃな？<line-break>大丈夫じゃ。それくらいの魔力はある。<line-break>時間がない。<line-break>ゆくぞ。<end>"
 korean = "알고 있다. 저곳으로 날아가고 싶은 거지? 괜찮다. 그 정도 마력은 있어. 시간이 없다. 가자.<end>"
 
+["1120073"]
+japanese = "この都市が落ちるまで、<line-break>そんなに時間がありませんね…。<line-break>どうしましょう？<end>"
+korean = "이 도시가 떨어질 때까지 시간이 그리 많지 않네요…. 어떻게 하죠?<end>"
+
 ["1120076"]
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
@@ -136,6 +148,10 @@ korean = "전이라고? 에스텔, 무슨 생각이냐?<end>"
 japanese = "ここを、動かなくしよう。<line-break>二度と使えないように。<end>"
 korean = "여기를 움직이지 못하게 하자. 다시는 쓸 수 없게.<end>"
 
+["1120093"]
+japanese = "それは！！<line-break>…これを壊すことは…<line-break>動かなくするということは…。<line-break>私たち巫女が今まで<line-break>存在しつづけてきた意味も理由も<line-break>なくなってしまいます。<end>"
+korean = "그건!! …이걸 부순다는 건… 움직이지 못하게 한다는 건…. 우리 무녀들이 지금까지 존재해 온 의미와 이유도 사라져 버립니다.<end>"
+
 ["1120096"]
 japanese = "じゃあ、イークレムンとフレアは<line-break>自分たちの制御球の所に行って。<end>"
 korean = "그럼 이크레문과 플레어는 자기들 제어구 쪽으로 가 줘.<end>"
@@ -176,6 +192,10 @@ korean = "아니야, 에아. <value:$28>이 특별해서 이렇게 된 게 아�
 japanese = "フッ…そうか。<line-break>そなたらしい言葉だな、<line-break>地の巫女よ。<end>"
 korean = "흥… 그런가. 그대다운 말이군, 땅의 무녀여.<end>"
 
+["1120109"]
+japanese = "じゃあ、ボクはラドラスに帰るよ。<line-break>たぶん、もう大丈夫でしょ。<line-break>　<line-break>じゃあね、<value:$28>。<line-break>ラドラスを守ってくれて<line-break>ホントにありがとう！<end>"
+korean = "그럼 난 라드라스로 돌아갈게. 아마 이제 괜찮겠지. 그럼 안녕, <value:$28>. 라드라스를 지켜 줘서 정말 고마워!<end>"
+
 ["1120110"]
 japanese = "では、私も<line-break>アキュリュースへ帰ります。<line-break>　<line-break><value:$28>さん、<line-break>アキュリュースに来た時には<line-break>私の所にも来てくださいね。<end>"
 korean = "그럼 저도 아큐류스로 돌아가겠습니다. <value:$28>님, 아큐류스에 오시면 제게도 들러 주세요.<end>"
@@ -187,6 +207,10 @@ korean = "저는… 도구로서의 역할을 완전히 잃어버렸습니다…
 ["1120113"]
 japanese = "さあ、そなたも行くがよい。<line-break>無限のソウルを持つ者よ。<line-break>　<line-break>最後に、礼を言うぞ。<line-break>そなたのおかげで、わらわも<line-break>未来に希望を見出せそうじゃ。<end>"
 korean = "자, 그대도 가거라. 무한의 소울을 지닌 자여. 마지막으로 감사하마. 그대 덕분에 나도 미래에서 희망을 찾을 수 있을 것 같구나.<end>"
+
+["1120114"]
+japanese = "じゃあ、ボクはラドラスに帰るよ。<line-break>たぶん、もう大丈夫でしょ。<line-break>　<line-break>じゃあね、<value:$28>。<line-break>ラドラスを守ってくれて<line-break>ホントにありがとう！<end>"
+korean = "그럼 난 라드라스로 돌아갈게. 아마 이제 괜찮겠지. 그럼 안녕, <value:$28>. 라드라스를 지켜 줘서 정말 고마워!<end>"
 
 ["1120115"]
 japanese = "私も、ウルカーンへ戻ります。<line-break>そこにはもう、私の役目は<line-break>何もないかもしれませんが…。<line-break><value:$28>様、<line-break>それでは…。<end>"
@@ -224,6 +248,10 @@ korean = "<value:$28>…. 나… 정말로…….<end>"
 japanese = "よいか？　エステルよ。<end>"
 korean = "잘 듣거라, 에스텔.<end>"
 
+["1120130"]
+japanese = "え！！<line-break>あ、あ、あ、ああ、うん。<line-break>よろしくお願い…します。<end>"
+korean = "에!! 아, 아, 아, 아아, 응. 잘 부탁…드립니다.<end>"
+
 ["1120133"]
 japanese = "行くがよい。　　　　　　　<line-break><value:$28>よ。<line-break>　<line-break>そなたの力ならば<line-break>この大陸を包む暗き運命をも<line-break>打ち砕くことができようぞ。<end>"
 korean = "가거라, <value:$28>여. 그대의 힘이라면 이 대륙을 뒤덮은 어두운 운명마저 깨뜨릴 수 있을 것이다.<end>"
@@ -235,6 +263,10 @@ korean = "알았어<end>"
 ["1120138"]
 japanese = "関係ないな<end>"
 korean = "상관없어<end>"
+
+["1120141"]
+japanese = "　　　　　　　　どうした？　　　　　　　　　<line-break>　　　　　　巨人を前に臆したか？<end>"
+korean = "왜 그러느냐? 거인을 앞에 두고 겁먹었느냐?<end>"
 
 ["1120142"]
 japanese = "そんなことはない<end>"

@@ -40,6 +40,10 @@ korean = "그 용감한 용자님의 이름을 듣고 싶은데?<end>"
 japanese = "<value:$28>、ね。<line-break>カッコいいじゃない。　　　　<line-break>　<line-break>俺はゼネテスっていうんだ。<line-break>それじゃ、ま、がんばってな。<end>"
 korean = "<value:$28>이라고? 멋진 이름이네. 난 제네테스라고 해. 그럼 뭐, 힘내라고.<end>"
 
+["700014"]
+japanese = "なんだ、あんたか。　　　　　　　　　<line-break>また会ったな。<line-break>　<line-break>今日はこの奥の怪物退治かい？<line-break>余計なお節介かもしれないが<line-break>強いぜ、あの怪物は。<end>"
+korean = "뭐야, 너였나. 또 만났군. 오늘은 이 안쪽의 괴물 퇴치인가? 괜한 참견일지 모르지만 그 괴물은 강해.<end>"
+
 ["700015"]
 japanese = "俺でよければ、<line-break>お手伝いさせてもらうが、<line-break>どうだい、<value:$28>？<end>"
 korean = "나라도 괜찮다면 도와주지. 어때, <value:$28>?<end>"
@@ -148,6 +152,18 @@ korean = "그들이 옳다면 너에게는 그보다 더 큰 정당성이 있다
 japanese = "そら、お前を殺そうとして<line-break>凶悪な冒険者がやってきおった。<line-break>　<line-break>まず、奴らを血祭りに上げよ。<line-break>よいな。<end>"
 korean = "자, 너를 죽이려 흉악한 모험자들이 찾아왔다. 우선 녀석들을 피바다로 만들어라. 알겠느냐.<end>"
 
+["700046"]
+japanese = "友達の宝物で<line-break>禁断の聖杯というの。<line-break>聞いたことないかしら？<end>"
+korean = "친구의 보물인데, 금단의 성배라고 해. 들어본 적 없니?<end>"
+
+["700047"]
+japanese = "ウフフ、ご存じのようね。<line-break>じゃあ、しゃべるゴブリンは？<line-break>　<end>"
+korean = "후후, 알고 있나 보네. 그럼 말하는 고블린은?<end>"
+
+["700051"]
+japanese = "ねえ、動けないでしょ？<line-break>さあ、今私がゆっくり<line-break>なぶり殺してあげるわ。<end>"
+korean = "자, 움직일 수 없지? 이제 내가 천천히 가지고 놀다 죽여 줄게.<end>"
+
 ["700053"]
 japanese = "じゃあ、いくわよ…。<end>"
 korean = "그럼, 간다….<end>"
@@ -155,6 +171,10 @@ korean = "그럼, 간다….<end>"
 ["700054"]
 japanese = "誰か来る…。<line-break>無粋ね、こんな時に。<end>"
 korean = "누가 온다…. 분위기 깨네, 이런 때에.<end>"
+
+["700055"]
+japanese = "まぁ、いいわ。<line-break>あせって、殺しちゃっても<line-break>物足りないもの。<end>"
+korean = "뭐, 됐어. 서두르다 죽여 버리면 시시하니까.<end>"
 
 ["700057"]
 japanese = "じゃあね、<value:$28>。<line-break>その名前、覚えておくわ…。<line-break>　<end>"
@@ -591,6 +611,22 @@ korean = "예비 메시지 103. 아기르샤이아, 볼륨 1, 그 2.<end>"
 ["700168"]
 japanese = "予備メッセージ１０４<line-break>アーギルシャイア、ボリューム１、その２<end>"
 korean = "예비 메시지 104. 아기르샤이아, 볼륨 1, 그 2.<end>"
+
+["700169"]
+japanese = "予備メッセージ１０５<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 105 아기르샤이아, 볼륨 1, 그 2<end>"
+
+["700170"]
+japanese = "予備メッセージ１０６<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 106 아기르샤이아, 볼륨 1, 그 2<end>"
+
+["700171"]
+japanese = "予備メッセージ１０７<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 107 아기르샤이아, 볼륨 1, 그 2<end>"
+
+["700172"]
+japanese = "予備メッセージ１０８<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 108 아기르샤이아, 볼륨 1, 그 2<end>"
 
 ["700173"]
 japanese = "予備メッセージ１０９<line-break>アーギルシャイア、ボリューム１、その２<end>"

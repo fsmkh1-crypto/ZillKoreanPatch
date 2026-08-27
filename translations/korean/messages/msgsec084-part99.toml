@@ -84,6 +84,10 @@ korean = "그래. 그럼 나 혼자 갈 테니까.<end>"
 japanese = "空　０３３<line-break>カルラ、ボリューム１<end>"
 korean = "빈칸 033 카를라, 볼륨 1<end>"
 
+["840034"]
+japanese = "こっちこっち。<line-break>この地下道から城の中に<line-break>潜り込めるはずなんだけど…。<end>"
+korean = "이쪽, 이쪽. 이 지하도로 성 안에 잠입할 수 있을 텐데….<end>"
+
 ["840036"]
 japanese = "ここはね、エサの搬入口。<line-break>ペウダが飼ってるモンスターのエサよ。<line-break>　<line-break>きっと、とんでもない大食らいなのね。<line-break>…エサの中身は知りたくないけど。<end>"
 korean = "여기는 먹이 반입구야. 페우다가 기르는 몬스터 먹이지. 엄청난 대식가인가 봐. …먹이 내용물은 알고 싶지 않지만.<end>"
@@ -155,6 +159,10 @@ korean = "아, 아와…와…. 뭐, 뭐 하는 거냐! 붙잡아라!<end>"
 ["840058"]
 japanese = "ははっ！<end>"
 korean = "하핫!<end>"
+
+["840059"]
+japanese = "ま、ま、ま、待て！<line-break>余の話を聞け！<line-break>余はこの国の、こ、国王であるぞ！<end>"
+korean = "자, 자, 잠깐! 짐의 말을 들어라! 짐은 이 나라의 구, 국왕이니라!<end>"
 
 ["840060"]
 japanese = "だから何よ。<end>"
@@ -263,6 +271,10 @@ korean = "거짓말, 거짓말. 정말 큰 도움이 됐어. 그래도 안심하
 ["840094"]
 japanese = "ここで追っ手をくい止めるわ。<line-break>先行っててくんないかな？<end>"
 korean = "여기서 추격자들을 막을게. 먼저 가 줄래?<end>"
+
+["840095"]
+japanese = "ちょっとちょっと、<line-break>反対行かないと、<line-break>またペウダの部屋に逆戻りよ。<end>"
+korean = "잠깐, 반대로 가지 않으면 또 페우다의 방으로 되돌아가게 돼.<end>"
 
 ["840096"]
 japanese = "空　０９６<line-break>カルラ、ボリューム１<end>"
@@ -411,6 +423,10 @@ korean = "누구?<end>"
 ["840132"]
 japanese = "あーっ、<line-break><value:$28>じゃん。<line-break>　<line-break>久しぶり。死んでない？<end>"
 korean = "아, <value:$28>잖아. 오랜만이네. 안 죽었어?<end>"
+
+["840134"]
+japanese = "ゴメーン。　　　　　　　　　　　　　<line-break>　<line-break>　<line-break>でもさ、こんなとこで会えたんだから、<line-break>また、どっかで会えるよ。<line-break>そんときにはゆっくりね。<end>"
+korean = "미안~. 그래도 이런 데서 만났으니 또 어디선가 만나겠지. 그때는 천천히 이야기하자.<end>"
 
 ["840136"]
 japanese = "あ、名前教えてよ。<line-break>ちょっと、気になるからさ。<line-break>　<line-break>あたしはカルラ。<line-break>これでもディンガルの軍人。<line-break>で、あんたは？<end>"
@@ -583,6 +599,10 @@ korean = "그럼 가족과 함께 지금 당장 딘갈로 도망쳐. 녀석들�
 ["840191"]
 japanese = "あの、でも…。<end>"
 korean = "저기, 하지만….<end>"
+
+["840192"]
+japanese = "さぁ、急いで。<line-break>ペウダの奴、逆上してるから<line-break>何するかわからないわよ。<end>"
+korean = "자, 서둘러. 페우다가 흥분했으니 무슨 짓을 할지 몰라.<end>"
 
 ["840193"]
 japanese = "ありがとうございます。<end>"

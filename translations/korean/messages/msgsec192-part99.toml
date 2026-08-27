@@ -68,6 +68,10 @@ korean = "역시 고브. 이걸로 <value:$28>의 78연승 고브!<end>"
 japanese = "アイリーン、<line-break>もうやめた方がいいゴブよ。　　　<line-break>　<line-break>一本とれなくったって、<line-break><value:$28>はアイリーンの<line-break>よさをちゃんとわかっているゴブ。<end>"
 korean = "아이린, 이제 그만하는 게 좋다 고브. 한 번도 못 이겨도 <value:$28>는 아이린의 좋은 점을 제대로 알고 있다 고브.<end>"
 
+["1920021"]
+japanese = "っるさいわね！<line-break>なれなれしく、アイリーンなんて<line-break>呼ばないでよ！<end>"
+korean = "시끄러워! 친한 척 아이린이라고 부르지 마!<end>"
+
 ["1920024"]
 japanese = "うぅ…。<line-break>こいつらと兄弟弟子だなんて…。<end>"
 korean = "으으…. 이 녀석들과 동문이라니….<end>"
@@ -131,6 +135,14 @@ korean = "적혀 있는 내용을 알아볼 수 있게 되어야 해.<end>"
 ["1920045"]
 japanese = "あ、<value:$28>様ですか？<line-break>どうぞ、お入りになって。<end>"
 korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
+
+["1920046"]
+japanese = "ウフフ、<value:$28>様も<line-break>今日は一日、ご苦労様でした。　　　<line-break>　<line-break>そうそう。<value:$28>様を<line-break>お呼びしたのは、これを<line-break>受け取ってもらいたかったからです。<end>"
+korean = "우후후, <value:$28> 님도 오늘 하루 수고 많으셨어요. 그리고 <value:$28> 님을 부른 건 이걸 받아 주셨으면 해서예요.<end>"
+
+["1920048"]
+japanese = "あ、待ってください。<line-break>感想はあとで…、<line-break>ここでは食べないで…。<end>"
+korean = "아, 기다려 주세요. 감상은 나중에… 여기서는 먹지 마세요….<end>"
 
 ["1920049"]
 japanese = "あ、あの…。<line-break>どう、ですか？<end>"
@@ -247,6 +259,10 @@ korean = "그럼, <value:$28>. 가자!<end>"
 ["1920083"]
 japanese = "でも、ディンガルとロストールが<line-break>仲よくなっちゃったから、<line-break>戦争はもうおしまい。<line-break>これから、バイアシオンは<line-break>ひとつになっていくんだろうね。<end>"
 korean = "하지만 딘갈과 로스토올이 사이좋아졌으니 전쟁은 이제 끝이야. 앞으로 바이아시온은 하나가 되어 가겠지.<end>"
+
+["1920085"]
+japanese = "いや～、力を持ちすぎた者の宿命って<line-break>やつですか？　しょうがないよね。<end>"
+korean = "이야~, 힘을 너무 많이 가진 자의 숙명이라는 건가요? 어쩔 수 없죠.<end>"
 
 ["1920089"]
 japanese = "心から笑うことができるあたしを<line-break>見つけられるんじゃないかってね。<end>"
@@ -456,6 +472,10 @@ korean = "<value:$28>님!<end>"
 japanese = "ウフフ。<value:$28>様ったら<line-break>正面から入ってこられれば<line-break>よろしいのに…。<end>"
 korean = "후후. <value:$28>님도 참, 정면으로 들어오시면 될 텐데….<end>"
 
+["1920158"]
+japanese = "いえ、そんなことよりも、<line-break>どこに行ってらしたのです？　　　　<line-break>　<line-break><value:$28>様が<line-break>しばらく会いに来てくださらないから<line-break>私、不安だったのですよ。<end>"
+korean = "아니, 그것보다 어디에 다녀오신 겁니까? <value:$28> 님이 한동안 만나러 와 주지 않으셔서 저, 불안했어요.<end>"
+
 ["1920159"]
 japanese = "え？　町はずれの湖に<line-break>渡り鳥の群が来ているのですか？<end>"
 korean = "네? 마을 외곽 호수에 철새 떼가 왔다고요?<end>"
@@ -515,6 +535,14 @@ korean = "아버지는 가도 좋다고 하셨어, 노엘.<end>"
 ["1920179"]
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
+
+["1920180"]
+japanese = "親を甘く見るものじゃないよ、ノエル。<line-break>お前がずっと、冒険の旅に出たがって<line-break>いるのはお見通しだ。<line-break>お前は、すぐに思っていることが<line-break>顔に出るからね。<line-break>　<end>"
+korean = "부모를 얕보지 마라, 노엘. 네가 줄곧 모험 여행을 떠나고 싶어 했다는 건 다 알고 있어. 넌 생각하는 게 금세 얼굴에 드러나니까.<end>"
+
+["1920181"]
+japanese = "行ってきなさい、ノエル。<line-break>お前が信頼している<line-break>この方と一緒に。<end>"
+korean = "다녀오너라, 노엘. 네가 신뢰하는 이분과 함께.<end>"
 
 ["1920182"]
 japanese = "<value:$28>さん、<line-break>娘をどうかお願いします。<end>"

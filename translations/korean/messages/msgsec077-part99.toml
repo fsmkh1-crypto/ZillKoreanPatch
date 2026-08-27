@@ -60,6 +60,10 @@ korean = "아트레이아… 님.<end>"
 japanese = "放っておいて！！<end>"
 korean = "내버려 둬!!<end>"
 
+["770023"]
+japanese = "くっ。実力もないくせに<line-break>クズがカッコ付けおって！<line-break>興が失せた。帰る。<end>"
+korean = "큭. 실력도 없는 쓰레기가 멋있는 척이나 하고! 흥이 깨졌다. 돌아간다.<end>"
+
 ["770025"]
 japanese = "アトレイア…様。<end>"
 korean = "아트레이아… 님.<end>"
@@ -83,6 +87,10 @@ korean = "아… <value:$28> 님!<end>"
 ["770030"]
 japanese = "…アトレイア様は<line-break>本当の先王の娘、本当の王女。　<line-break>でも、私は…<line-break>だから…みんな…<line-break>私のそばを…<line-break>すりぬけて…いく…。<end>"
 korean = "…아트레이아 님은 진짜 선왕의 딸, 진짜 왕녀. 하지만 나는… 그래서… 모두가… 내 곁을… 빠져나가… 가 버려….<end>"
+
+["770032"]
+japanese = "ごめんなさい。<line-break>私みたいに醜い者がついていって、<line-break>あなたに恥をかかせて…<line-break>すみません。<line-break>行って…ください…。<line-break>お願い…ひとりに…して…。<end>"
+korean = "미안해요. 저처럼 못생긴 사람이 따라다녀서 당신을 부끄럽게 하고…. 죄송해요. 가 주세요…. 부탁이니… 혼자 있게 해 줘….<end>"
 
 ["770033"]
 japanese = "アトレイア様…、<line-break>大丈夫でしょうか？<end>"
@@ -232,6 +240,10 @@ korean = "그러니까 그건 무늬가 아니라 글자야. 봐, 이쪽에는 �
 japanese = "すてき！<line-break>あなた、みんなわかるのね？<end>"
 korean = "멋져! 당신, 전부 아는 거지?<end>"
 
+["770076"]
+japanese = "へへへっ。ホントは、パパに<line-break>教えてもらったばかりなんだ。<line-break>でもパパは、なんだって読めるよ。<line-break>ボクもパパみたいに<line-break>なんでも読めるようになるんだ。<end>"
+korean = "헤헤. 사실 아빠한테 막 배운 참이야. 하지만 아빠는 뭐든 읽을 수 있어. 나도 아빠처럼 뭐든 읽게 될 거야.<end>"
+
 ["770077"]
 japanese = "お…しょくじ…も…どう…ぞ？<end>"
 korean = "식…사…도… 드…세요?<end>"
@@ -340,6 +352,14 @@ korean = "…응? 뭐지.<end>"
 japanese = "この…メニューを<line-break>いただけませんでしょうか…。<end>"
 korean = "이… 메뉴를 받을 수 있을까요….<end>"
 
+["770110"]
+japanese = "…すみません、<line-break>騒ぎ過ぎてしまって。<line-break>朝になって…しまいましたね…。<end>"
+korean = "…죄송합니다, 너무 떠들었네요. 아침이… 되어 버렸군요….<end>"
+
+["770112"]
+japanese = "私、今日、<line-break>世界中に人がたくさんいて<line-break>本当によかったって思います。<end>"
+korean = "저, 오늘 세상에 사람이 많이 있어서 정말 다행이라고 생각해요.<end>"
+
 ["770114"]
 japanese = "その前に睡眠をとらないと<end>"
 korean = "그 전에 잠부터 자야 해<end>"
@@ -368,6 +388,10 @@ korean = "아트레이아…. 내 귀여운 아트레이아….<end>"
 japanese = "ああ…、<line-break>お母…様…。<end>"
 korean = "아아… 어머…님….<end>"
 
+["770121"]
+japanese = "アトレ…イア…。<line-break>お前だけでも…<line-break>生き…延びて……。　　　　　　　<end>"
+korean = "아트레…이아…. 너만이라도… 살아… 남아…….<end>"
+
 ["770122"]
 japanese = "キャアアアアー！！<line-break>お母様！　お母様ーッ！<end>"
 korean = "꺄아아아아!! 어머니! 어머니!!<end>"
@@ -376,6 +400,10 @@ korean = "꺄아아아아!! 어머니! 어머니!!<end>"
 japanese = "イヤ…嫌ァアアアアア！！　　<line-break>　<line-break>　<line-break>お母様！　お母様！<line-break>置いていかないで！　お母様！<end>"
 korean = "싫어… 싫어어어어어!! 어머니! 어머니! 두고 가지 마세요! 어머니!<end>"
 
+["770126"]
+japanese = "つらくて…悲しい…世界……。　　<line-break>だから…みんな…虚無に……。<line-break>　<end>"
+korean = "괴롭고… 슬픈… 세계……. 그래서… 모두… 허무로…….<end>"
+
 ["770128"]
 japanese = "困るなあ、<line-break>調教のジャマされちゃ…。　　　　<line-break>　<line-break>まあ、人形はまた作ればいいし、<line-break>せっかくだから、君もお人形さんで<line-break>遊んでいきなよ。<end>"
 korean = "곤란하네, 조교를 방해하면…. 뭐, 인형은 다시 만들면 되고, 모처럼이니 너도 인형이랑 놀다 가.<end>"
@@ -383,6 +411,10 @@ korean = "곤란하네, 조교를 방해하면…. 뭐, 인형은 다시 만들�
 ["770130"]
 japanese = "何度もこんなことするの、<line-break>本当はイヤなんだけどなあ…。<end>"
 korean = "몇 번이나 이런 짓을 하는 건 사실 싫은데….<end>"
+
+["770132"]
+japanese = "困るなあ…ああいうことされちゃ。<line-break>彼女の心の窓が開いちゃう。<line-break>いい闇の王女になれないよ。<line-break>あーあ、<line-break>僕、こういう荒っぽいのは<line-break>キライなのになあ…。<end>"
+korean = "곤란한데… 저런 짓을 하면 그녀 마음의 창이 열려 버려. 좋은 어둠의 왕녀가 될 수 없잖아. 아아, 난 이런 난폭한 건 싫은데….<end>"
 
 ["770135"]
 japanese = "さて、自己紹介も終わったことだし<line-break>死んでくれるかな。<end>"

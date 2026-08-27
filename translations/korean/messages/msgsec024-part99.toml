@@ -1,8 +1,32 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["240011"]
+japanese = "もう知ってるかもしれないが、妖精の粉を<line-break>持ってると、暗闇状態になっちまうんだ。<end>"
+korean = "이미 알고 있을지도 모르지만, 요정의 가루를 갖고 있으면 암흑 상태가 돼.<end>"
+
+["240012"]
+japanese = "もう知ってるかもしれないが、食心の壷を<line-break>持ってると、幻覚状態になっちまうんだ。<end>"
+korean = "이미 알고 있을지도 모르지만, 식심의 항아리를 갖고 있으면 환각 상태가 돼.<end>"
+
+["240014"]
+japanese = "もう知ってるかもしれないが、ノロガメを<line-break>持ってると、呪い状態になっちまうんだ。<end>"
+korean = "이미 알고 있을지도 모르지만, 노로가메를 갖고 있으면 저주 상태가 돼.<end>"
+
+["240016"]
+japanese = "もう知ってるかもしれないが、魔物の骨を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
+korean = "이미 알고 있을지도 모르지만, 마물의 뼈를 갖고 있으면 저주 상태가 돼.<end>"
+
 ["240018"]
 japanese = "<value:$15>を無事に送り届けて欲しい。<line-break>なるべく早く届けてくれよ。<end>"
 korean = "<value:$15>을 무사히 데려다줬으면 한다. 되도록 빨리 데려다줘.<end>"
+
+["240019"]
+japanese = "重要物件である<value:$15>を<line-break><value:$16>まで運搬する者を募集する。<line-break>信頼のおける冒険者に依頼したい。<line-break>期限は<value:$1B>日以内。<line-break>成功報酬は<value:$1A>ギアである。<end>"
+korean = "중요 물품인 <value:$15>을 <value:$16>까지 운반할 사람을 모집한다. 믿을 수 있는 모험자에게 의뢰하고 싶다. 기한은 <value:$1B>일 이내. 성공 보수는 <value:$1A>기어다.<end>"
+
+["240047"]
+japanese = "品物を届けてもらいたくてね。<line-break><value:$15>なんだけどさ、<line-break><value:$16>まで、<value:$1B>日以内で運べる？<line-break>引き受けてくれるんなら、<line-break><value:$1A>ギア払うよ。お願いね。<end>"
+korean = "물건을 배달해 줬으면 해. <value:$15>인데, <value:$16>까지 <value:$1B>일 안에 옮길 수 있어? 맡아 준다면 <value:$1A>기어를 줄게. 부탁해.<end>"
 
 ["240049"]
 japanese = "依頼内容は、<value:$15>を<line-break><value:$16>まで運搬すること。<line-break>期限は<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアである。<end>"

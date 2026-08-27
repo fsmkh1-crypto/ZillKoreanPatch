@@ -4,6 +4,14 @@
 japanese = "ジリオン＆イーシャイベントED3用開始<end>"
 korean = "질리온&이샤 이벤트 ED3용 시작<end>"
 
+["2780001"]
+japanese = "<value:$28>と出会ってから、<line-break>俺はいろんなことに気づかされた。<line-break>　<line-break>自分を犠牲にすることの意味、<line-break>俺を想ってくれる人の願い、<line-break>幸せのありかた…。<end>"
+korean = "<value:$28>와 만나고 나서 나는 많은 걸 깨달았다. 자신을 희생한다는 의미, 나를 생각해 주는 사람의 바람, 행복이라는 것….<end>"
+
+["2780003"]
+japanese = "でも、それでもなお俺はイーシャを<line-break>このままにしてはおけない。<line-break>　<line-break>たとえ世界中を探してでも<line-break>イーシャをもとに戻す方法を<line-break>俺は必ず見つけだす。<end>"
+korean = "그래도 나는 이샤를 이대로 둘 수 없어. 세계를 전부 뒤져서라도 이샤를 원래대로 되돌릴 방법을 반드시 찾아내겠어.<end>"
+
 ["2780004"]
 japanese = "だけど、それは自分を犠牲にして<line-break>救うためじゃない。<line-break>　<line-break>イーシャを解放し、そして俺も<line-break>笑って<value:$28>と<line-break>未来を歩むためだ。<end>"
 korean = "하지만 그건 나를 희생해서 구하기 위해서가 아니야. 이샤를 해방하고, 나도 웃으면서 <value:$28>과 미래를 걷기 위해서야.<end>"

@@ -76,6 +76,10 @@ korean = "자, 드디어 세기의 실험이 시작된다.<end>"
 japanese = "じゃあ、<value:$28><line-break>さっそく手伝って。<line-break>ここに首飾りをかざしてほしいの。<end>"
 korean = "그럼 <value:$28>, 바로 도와줘. 여기에 목걸이를 대 줬으면 해.<end>"
 
+["2560025"]
+japanese = "どうせ失敗するのがオチなんだから。<line-break>つまらないわ。ホントつまらない。<end>"
+korean = "어차피 실패로 끝날 텐데. 시시해. 정말 시시해.<end>"
+
 ["2560026"]
 japanese = "その角度で大丈夫よ、<line-break><value:$28>。<line-break>えーと、それから次は…。<end>"
 korean = "그 각도면 괜찮아, <value:$28>. 음, 그리고 다음은….<end>"

@@ -24,6 +24,10 @@ korean = "…정말 어쩔 수 없는… 녀석.<end>"
 japanese = "…<value:$28>、<line-break>まだ、解放軍に味方してるの？<end>"
 korean = "…<value:$28>, 아직도 해방군 편을 들고 있어?<end>"
 
+["1010007"]
+japanese = "…<value:$28>。<line-break>時勢を見る目は持つべきね。　　　　<line-break>　<line-break>いつまでも昔のまま、なんてことは<line-break>ないのよ。時の流れの速さを嘆いても<line-break>なんにもならないわ。<end>"
+korean = "…<value:$28>. 시대의 흐름을 보는 눈은 가져야 해. 언제까지나 예전 그대로일 수는 없어. 시간의 흐름이 빠르다고 한탄해 봐야 소용없어.<end>"
+
 ["1010009"]
 japanese = "…皮肉なものね、<line-break>運命なんて。<end>"
 korean = "…운명이라는 것도 참 얄궂네.<end>"
@@ -31,6 +35,10 @@ korean = "…운명이라는 것도 참 얄궂네.<end>"
 ["1010010"]
 japanese = "<value:$28>！<line-break>こんな所で何をしている！　<line-break>　<line-break>…早く出ていきなさい！<line-break>今回だけは見逃してあげる。<line-break>もう、私の前に顔を出さないで！<end>"
 korean = "<value:$28>! 이런 곳에서 뭐 하는 거야! …빨리 나가! 이번만은 봐줄게. 다시는 내 앞에 나타나지 마!<end>"
+
+["1010011"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりでここに来ているの？<line-break>次の私たちの目標は<line-break>わかっているはずよ。<end>"
+korean = "<value:$28>…. 무슨 생각으로 여기에 온 거야? 다음 우리 목표는 알고 있을 텐데.<end>"
 
 ["1010013"]
 japanese = "…<value:$28>。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>時の流れはあなたが考えているより<line-break>もっと早いものよ。<line-break>よく考えてみることね。<end>"
@@ -55,6 +63,10 @@ korean = "<value:$28>…. …무슨 생각이야? 넌 제네테스의 부하잖�
 ["1010023"]
 japanese = "ほんっとに<line-break>しょうがない奴…。<end>"
 korean = "정말 어쩔 수 없는 녀석….<end>"
+
+["1010026"]
+japanese = "…<value:$28>。<line-break>救いようのない頑固者ね。　　　　　<line-break>　<line-break>時の流れはあなたが考えているよりも<line-break>もっと早いものよ。<line-break>よく考えてみることね。<end>"
+korean = "…<value:$28>. 구제 불능의 고집쟁이네. 시간의 흐름은 네가 생각하는 것보다 훨씬 빨라. 잘 생각해 봐.<end>"
 
 ["1010027"]
 japanese = "…どうして、<line-break>ゼネテスの配下なんかに…。<end>"
@@ -131,6 +143,10 @@ korean = "<value:$28>! 이런 곳에서 뭘 하고 있어! 빨리 나가! 이번
 ["1010051"]
 japanese = "…次は…ないわ。<end>"
 korean = "…다음은… 없어.<end>"
+
+["1010052"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりでここに来ているの？<line-break>次の私たちの目標は<line-break>わかっているはず…。<end>"
+korean = "<value:$28>…. 무슨 생각으로 여기에 온 거야? 다음 우리 목표는 알고 있을 텐데….<end>"
 
 ["1010054"]
 japanese = "フフ、それって<line-break>貴族の誇り…かしら？<end>"

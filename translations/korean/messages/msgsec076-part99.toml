@@ -52,6 +52,10 @@ korean = "뭐라고요?<end>"
 japanese = "そんな…、<line-break>でも…………。<end>"
 korean = "그럴 수가…, 하지만………….<end>"
 
+["760029"]
+japanese = "…ノエル、<line-break>ひとつ、聞いておく。<line-break>　<line-break>お前はアトレイア王女のそばに、<line-break>シャリという奴がいるのを知っていたら<line-break>王女を助けるのを断ったか？<end>"
+korean = "…노엘, 하나 물어 두지. 네가 아트레이아 왕녀 곁에 샤리라는 녀석이 있다는 걸 알았다면 왕녀를 돕는 걸 거절했겠나?<end>"
+
 ["760030"]
 japanese = "いいえ。<end>"
 korean = "아니요.<end>"
@@ -83,6 +87,10 @@ korean = "의뢰인이 나쁜 녀석이었으니까<end>"
 ["760043"]
 japanese = "…返す言葉もない<end>"
 korean = "…할 말이 없군<end>"
+
+["760044"]
+japanese = "シャリ、ですって？<line-break>子供の格好をして悪いことを<line-break>たくらんでいる…？<end>"
+korean = "샤리라고요? 아이 모습으로 나쁜 일을 꾸미고 있다…?<end>"
 
 ["760045"]
 japanese = "いいえ、あたしたちに仕事を依頼<line-break>してきたのは王女の侍女だったわ。<end>"

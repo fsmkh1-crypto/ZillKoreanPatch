@@ -468,6 +468,10 @@ korean = "지라크 장군….<end>"
 japanese = "…よい。<line-break>もはやよいのだ、ナッジ君。<line-break> <line-break>私が間違っていた。<line-break>種族平等は力で達成できるものでは<line-break>なかったのだ。<end>"
 korean = "…됐다. 이제 됐다, 나지 군. 내가 틀렸어. 종족 평등은 힘으로 이룰 수 있는 게 아니었던 거야.<end>"
 
+["1340172"]
+japanese = "それを、焦って…。<line-break>愚かなことだ…。<line-break>…ゴホッ、…ゴホッ！<end>"
+korean = "그걸 조급해해서…. 어리석은 짓이다…. …콜록, …콜록!<end>"
+
 ["1340173"]
 japanese = "ジラーク将軍！<end>"
 korean = "지라크 장군!<end>"
@@ -1107,6 +1111,10 @@ korean = "호호호호, 말랑말랑하군요~.<end>"
 ["1340399"]
 japanese = "これは、<value:$28>様。<line-break>どうぞ、お通りください。<end>"
 korean = "아, <value:$28>님이시군요. 지나가십시오.<end>"
+
+["1340401"]
+japanese = "あ、<value:$28>様。<line-break>ロストール復興のための組織を<line-break>作ったのです。<line-break>今回の事件でこの街も<line-break>ずいぶん傷つきました。<line-break>みなのためにできることはないかと…<end>"
+korean = "아, <value:$28> 님. 로스토올 복구를 위한 조직을 만들었어요. 이번 사건으로 이 도시도 많이 다쳤습니다. 모두를 위해 할 수 있는 일이 없을까 해서….<end>"
 
 ["1340404"]
 japanese = "<value:$28>様、<line-break>私もここで、ロストール復興のために<line-break>働かせていただいております。<end>"

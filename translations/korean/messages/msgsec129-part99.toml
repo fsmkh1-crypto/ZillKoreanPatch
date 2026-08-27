@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1290000"]
+japanese = "おかげ様で無事着くことができました。<line-break>これが報酬です。ありがとう。<end>"
+korean = "덕분에 무사히 도착했습니다. 이게 보수입니다. 고마워요.<end>"
+
 ["1290001"]
 japanese = "おかげ様で命拾いしました。<line-break>これが報酬です。ありがとう。<end>"
 korean = "덕분에 목숨을 건졌습니다. 이것이 보수입니다. 고맙습니다.<end>"
@@ -67,6 +71,10 @@ korean = "스킬 포인트를 <value:$1A> 획득했다.<end>"
 ["1290024"]
 japanese = "<value:$15>は<value:$16>のスキルを<line-break>習得した。<end>"
 korean = "<value:$15>는 <value:$16>의 스킬을 습득했다.<end>"
+
+["1290025"]
+japanese = "あんた、冒険者登録がまだだね。<line-break>登録が済んでから、また来ておくれ。<end>"
+korean = "자네, 아직 모험자 등록을 안 했군. 등록을 마치고 다시 와 줘.<end>"
 
 ["1290027"]
 japanese = "クエスト・汎用メッセージファイル終端<end>"

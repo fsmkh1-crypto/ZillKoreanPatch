@@ -76,6 +76,10 @@ korean = "네메아를 구출하는 게 파괴신 부활을 막는 일이 되는
 japanese = "次元のはざまに落とされてなお<line-break>生を保っておるとは…<line-break>やはりネメア、ただものではないわい。<line-break>闇の門の島へ急ぐのじゃ！<end>"
 korean = "차원의 틈에 떨어지고도 살아 있다니… 역시 네메아, 보통 인물이 아니구나. 어둠의 문 섬으로 서두르자!<end>"
 
+["260058"]
+japanese = "勇者ネメアを救うことが<line-break>破壊神の再臨を阻止することに<line-break>なるとは…。<line-break>この先待っている困難が今までに<line-break>ないものになるだろうことは、<line-break>想像に難くないな…。<end>"
+korean = "용자 네메아를 구하는 것이 파괴신의 재림을 막는 일이 될 줄이야…. 앞으로 기다리는 어려움이 지금까지와는 다를 거라는 건 쉽게 짐작할 수 있군….<end>"
+
 ["260059"]
 japanese = "早くネメアを助けて<line-break>破壊神の復活を阻止するんだ。<line-break>　<line-break>大陸南西の島に急ぐぞ。<line-break><value:$28>。<end>"
 korean = "빨리 네메아를 구해서 파괴신의 부활을 막아야 해.　대륙 남서쪽 섬으로 서두르자. <value:$28>.<end>"
@@ -91,6 +95,10 @@ korean = "큰일이에요! 네메아 씨가 파괴신이 된다니…! <value:$2
 ["260069"]
 japanese = "アキュリュースの港にいる<line-break>女性に言う合い言葉だね。<line-break>もちろんボクだって知ってるよ。<line-break>帝国はあの陽より輝く、<line-break>…ま、間違ってないよね？<end>"
 korean = "아큐류스 항구에 있는 여성에게 말할 암호지. 물론 나도 알고 있어. 제국은 저 태양보다 빛난다, …마, 맞지?<end>"
+
+["260070"]
+japanese = "情けない…。<line-break>合い言葉を忘れるような人間に、<line-break>任務を受ける資格はないわ！<end>"
+korean = "한심하군…. 암호를 잊어버리는 인간에게 임무를 맡을 자격은 없어!<end>"
 
 ["260071"]
 japanese = "おやおや、合い言葉をお忘れですか？<line-break>いかに私と言えども、それは…。<line-break><line-break>…帝国はあの陽より輝く。<line-break>ですよ。<line-break>思い出しましたか？<end>"
@@ -115,6 +123,10 @@ korean = "……………. 제국은 저 태양보다 빛난다, 다.<end>"
 ["260084"]
 japanese = "帝国に通じる合い言葉、だと？<line-break>そんなものを、どうして私が<line-break>知っていると思ったのだ。<line-break>見損なったぞ、<value:$28>。<end>"
 korean = "제국에 통하는 암호라고? 그런 걸 내가 왜 알고 있을 거라 생각한 거지. 실망이군, <value:$28>.<end>"
+
+["260086"]
+japanese = "やれやれ、アンギルダンも、<line-break>物好きな奴だ。<line-break>だが、私は彼とは違うぞ。<line-break>どんなに素質があろうとも、<line-break>合い言葉を忘れるような人間に、<line-break>未来はありはしない。<end>"
+korean = "참, 안길단도 별난 녀석이군. 하지만 난 그와 달라. 아무리 소질이 있어도 암호를 잊어버리는 인간에겐 미래가 없어.<end>"
 
 ["260087"]
 japanese = "ディンガル帝国の合い言葉…。<line-break>………………<line-break>あっ、いえ…<line-break><value:$28>様の<line-break>邪魔になるようなことは<line-break>いたしません。<end>"
@@ -203,6 +215,10 @@ korean = "사형! 말하는 고블린 따위는 내버려 둡시다! ………�
 ["260179"]
 japanese = "………………。<line-break><line-break><line-break>エンシャントだ。<line-break>あとは知らん。<end>"
 korean = "………………. 엔샨트다. 그 뒤는 모른다.<end>"
+
+["260184"]
+japanese = "ゴブゴブ団なら<line-break>エンシャントへ行ったんだって。<line-break>…目立つよね、あの三匹。<end>"
+korean = "고브고브단이라면 엔샨트로 갔다더라. …눈에 띄지, 그 셋.<end>"
 
 ["260187"]
 japanese = "エンシャントに向かったと <line-break>あの猫が言っていたな。<line-break><line-break>酒場やギルドで聞き込みをすれば<line-break>何かわかるかもしれないな。<end>"

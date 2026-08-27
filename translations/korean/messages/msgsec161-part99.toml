@@ -4,6 +4,10 @@
 japanese = "アーギルシャイアメッセージVOL2-2開始<end>"
 korean = "아길샤이어 메시지 VOL2-2 시작<end>"
 
+["1610001"]
+japanese = "おう、<value:$28>か。<line-break>ちょうどいい所に来てくれた。　　　　<line-break>　<line-break>お前さんの腕を見込んで、ひとつ<line-break>頼みたいことがあるんだが…。<line-break>聞いてくれるか？<end>"
+korean = "오, <value:$28>인가. 마침 잘 왔다. 네 솜씨를 믿고 하나 부탁하고 싶은 게 있는데…. 들어 줄래?<end>"
+
 ["1610002"]
 japanese = "話してみて<end>"
 korean = "말해 봐<end>"
@@ -116,6 +120,10 @@ korean = "퇴치하러 간다<end>"
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
 
+["1610047"]
+japanese = "それじゃあ、頼んだぜ。　　　　　　　<line-break>終わったらまた来てくれよ。<line-break>　<end>"
+korean = "그럼 부탁한다. 끝나면 다시 와 줘.<end>"
+
 ["1610048"]
 japanese = "そうか、ま、お前さんも　<line-break>色々と忙しいだろうからな。　　　　　<line-break>　<line-break>無理に頼みはしないよ。<line-break>そのうち気が向いたら<line-break>また仕事を探しに来てくれ。<end>"
 korean = "그런가. 뭐, 너도 여러모로 바쁘겠지. 억지로 부탁하진 않을게. 나중에 마음이 내키면 또 일을 찾으러 와 줘.<end>"
@@ -131,6 +139,10 @@ korean = "아, 당신… 슬럼에서 타르튜바를 되받아친 사람이군�
 ["1610051"]
 japanese = "あんた…、強そうだな…<line-break>…仕事を…引き受けてくれないか…？　<end>"
 korean = "당신… 강해 보이는군… …일을… 맡아 주지 않겠나…?<end>"
+
+["1610052"]
+japanese = "そいつ、朝からずっとそうしてるんだ。<line-break>頼むから話だけでも聞いてやってくれ。<end>"
+korean = "그 녀석, 아침부터 계속 저러고 있어. 부탁이니 이야기라도 들어 줘.<end>"
 
 ["1610053"]
 japanese = "話を聞こう<end>"
@@ -403,6 +415,10 @@ korean = "<value:$28>! 감청색 동굴의 괴물을 쓰러뜨린 거야!?<end>"
 ["1610156"]
 japanese = "じゃあ、これが帝国からの報酬　　　　<line-break>５０００ギアだ。<line-break>　<line-break>いい仕事をしたな。<line-break>胸を張って受け取ってくれ。<end>"
 korean = "자, 이게 제국에서 주는 보수 5000기어다. 좋은 일을 했어. 가슴 펴고 받아.<end>"
+
+["1610157"]
+japanese = "これからもお前に期待してるぜ。　　　<line-break>がんばれよ、大冒険者<value:$28>！<end>"
+korean = "앞으로도 네게 기대할게. 힘내라, 대모험자 <value:$28>!<end>"
 
 ["1610159"]
 japanese = "そうなんだ…。<line-break>あの鳳凰、悪い鳳凰だったんだ…。<line-break>　<line-break>でも、確かにいたんだよね！？<line-break>うそじゃなかったんだよね？<end>"
@@ -683,6 +699,10 @@ korean = "아, 날 놀린 거였구나! 너무해, <value:$28>. 나… 진짜 �
 ["1610254"]
 japanese = "…ボク、やっぱり役立たずなのかな。<end>"
 korean = "…나, 역시 쓸모없는 걸까.<end>"
+
+["1610257"]
+japanese = "もっとも、求めるべき物すらも　　　　<line-break>見失うことがも<line-break>ままあるがな。<end>"
+korean = "다만, 정작 무엇을 추구해야 하는지조차 잃어버릴 때도 종종 있지만 말이지.<end>"
 
 ["1610259"]
 japanese = "では、行きましょう。<end>"

@@ -484,6 +484,10 @@ korean = "조용히 해, 돌드람! 간다!<end>"
 japanese = "くっ…！<line-break>私が負けるなんて…！！<end>"
 korean = "큭…! 내가 지다니…!!<end>"
 
+["400159"]
+japanese = "ソリアスの名にかけて<line-break>友情と努力の下に勝利を。<line-break>チームワークは大切じゃな。<line-break><value:$28>よ、<line-break>今回はわしらの負けじゃ。<line-break>ここはおとなしく退くわい。<end>"
+korean = "소리아스의 이름을 걸고 우정과 노력 아래 승리를. 팀워크는 중요하지. <value:$28>여, 이번에는 우리 패배다. 얌전히 물러나지.<end>"
+
 ["400160"]
 japanese = "傲慢の首飾りを失った。<end>"
 korean = "오만의 목걸이를 잃었다.<end>"

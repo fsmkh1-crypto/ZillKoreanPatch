@@ -52,6 +52,10 @@ korean = "아, 전송 중에 오면 위험합니다. 물러나세요….<end>"
 japanese = "くっ！<line-break>瞬間移動…だと！？<end>"
 korean = "큭! 순간이동…이라고!?<end>"
 
+["690016"]
+japanese = "…瞬間移動だ。<line-break>空間をねじ曲げて一瞬のうちに<line-break>何かを移動させる術。<line-break>空間をねじ曲げることができるのは<line-break>高レベルの魔道士だけだ。<line-break>…魔人クラスのな。<end>"
+korean = "…순간이동이다. 공간을 비틀어 순식간에 무언가를 이동시키는 술법. 공간을 비틀 수 있는 건 고위 마도사뿐이야. …마인급이지.<end>"
+
 ["690017"]
 japanese = "奴も魔人かもしれん。<line-break>つまり、<line-break>アーギルシャイアの仲間…。<end>"
 korean = "그 녀석도 마인일지 모른다. 즉 아길샤이어의 동료….<end>"
@@ -71,6 +75,10 @@ korean = "어라, 드문 일이네요. 손님인가요?<end>"
 ["690021"]
 japanese = "…くっ、やはり<line-break>アーギルシャイアの仲間か！<end>"
 korean = "…큭, 역시 아기르샤이아의 동료인가!<end>"
+
+["690022"]
+japanese = "違いますよ。<line-break>アーギルシャイアの仲間にご用なら<line-break>呼びましょう。<end>"
+korean = "아닙니다. 아기르샤이아의 동료에게 볼일이 있다면 불러 드리죠.<end>"
 
 ["690023"]
 japanese = "呼んだかー？　オルファウス。<end>"
@@ -104,6 +112,10 @@ korean = "…큭. …곧 간다.<end>"
 japanese = "それは結構です。<line-break>待っていますね。<end>"
 korean = "그거 좋네요. 기다리고 있을게요.<end>"
 
+["690033"]
+japanese = "…そうですか、あなたは<line-break>ミイスの生き残りなんですね。<line-break>それで、アーギルシャイアを追った。<line-break>それならば、あなたがたは<line-break>聖杯を追うとよいでしょう。<end>"
+korean = "…그렇군요, 당신은 미이스의 생존자군요. 그래서 아기르샤이아를 쫓았고. 그렇다면 여러분은 성배를 쫓는 게 좋겠습니다.<end>"
+
 ["690034"]
 japanese = "…聖杯？<end>"
 korean = "…성배?<end>"
@@ -116,9 +128,17 @@ korean = "…그래서, 성배는 어디 있지.<end>"
 japanese = "くすっ。<line-break>ネモはもとの姿に戻るために<line-break>彼らを操り、聖杯を盗ませたのですが、<line-break>知恵を付けた彼らに見放されて、　　　<line-break>今もこの格好なんです。<end>"
 korean = "후훗. 네모는 원래 모습으로 돌아가기 위해 그들을 조종해 성배를 훔치게 했지만, 지혜를 얻은 그들에게 버림받아서 지금도 이 모습이랍니다.<end>"
 
+["690043"]
+japanese = "聖杯はここに持ってきてくれれば　　<line-break>私が預かります。<line-break>　<line-break>もっとも、私が信用できないなら、<line-break>あなたが責任持って<line-break>預かっていてくれてもかまいません。<end>"
+korean = "성배는 여기 가져오시면 제가 맡겠습니다. 다만 저를 믿을 수 없다면 당신이 책임지고 보관해도 괜찮습니다.<end>"
+
 ["690044"]
 japanese = "そのあたりの判断は<line-break>あなた方にお任せします。　　　　　<line-break>　<end>"
 korean = "그 부분의 판단은 여러분께 맡기겠습니다.<end>"
+
+["690045"]
+japanese = "あと、合成怪物を作る素材を<line-break>アーギルシャイアは求めています。　<line-break>　<line-break>最近、妖術宰相ゾフォルが<line-break>古代の闇の怪物、ティラの娘たちを<line-break>復活させています。<end>"
+korean = "그리고 아기르샤이아는 합성괴물을 만들 재료를 찾고 있습니다. 최근 요술재상 조포르가 고대 어둠의 괴물, 티라의 딸들을 부활시키고 있어요.<end>"
 
 ["690047"]
 japanese = "それにしても、<line-break>無限のソウルを持つ者ですかぁ…。<line-break>　<line-break>竜王が目覚め、闇の門が開き、<line-break>そして無限のソウルの<line-break>持ち主が現れる…。<end>"
@@ -147,6 +167,10 @@ korean = "반대로 헤어지고 싶은 동료를 원하는 곳으로 보내 줄
 ["690054"]
 japanese = "あなたが将来、旅の途中で<line-break>さまざまな人と出会い、<line-break>仲間を増やしたとき、<line-break>たぶん、この子が<line-break>役に立ちますよ。<end>"
 korean = "당신이 앞으로 여행 중 여러 사람을 만나 동료를 늘리게 되면 아마 이 아이가 도움이 될 겁니다.<end>"
+
+["690056"]
+japanese = "くすくす。<line-break>驚かせてしまってすみません。　　　<line-break>　<line-break>今後は呼び出す前に<line-break>相手の方に都合を確認します。<line-break>もう、こんなことはありませんから。<end>"
+korean = "후후. 놀라게 해서 죄송합니다. 앞으로는 불러내기 전에 상대방 사정을 확인하겠습니다. 다시는 이런 일 없을 겁니다.<end>"
 
 ["690057"]
 japanese = "一緒に旅する仲間を変更したいときは<line-break>この猫屋敷に来てください。　　　　<line-break>　<line-break>ああ、すいません。<line-break>私ばかり話してしまって…。<end>"
@@ -183,6 +207,10 @@ korean = "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일�
 ["690068"]
 japanese = "破壊神ウルグの復活に用いられた<line-break>強力な魔道器です。<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
 korean = "파괴신 울그의 부활에 쓰였던 강력한 마도기입니다. 12종류가 있다고 합니다. 금단의 성배는 그중 하나죠.<end>"
+
+["690069"]
+japanese = "禁断の聖杯については<line-break>今、ゴブゴブ団という<line-break>３匹のゴブリンが持っています。<line-break>とりあえずは、<line-break>エンシャントを探してみると<line-break>彼らに会えると思いますよ。<end>"
+korean = "금단의 성배라면 지금 고브고브단이라는 고블린 셋이 가지고 있습니다. 일단 엔샨트를 찾아보면 그들을 만날 수 있을 거예요.<end>"
 
 ["690072"]
 japanese = "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"
@@ -468,6 +496,10 @@ korean = "네놈이이이!<end>"
 japanese = "…お前たちには関係ない。<end>"
 korean = "…너희와는 상관없다.<end>"
 
+["690174"]
+japanese = "…さっきはすまなかった。<line-break>お前たちを、<line-break>巻き込んでしまったな。<end>"
+korean = "…아까는 미안했다. 너희를 휘말리게 했군.<end>"
+
 ["690175"]
 japanese = "…アーギルシャイアのことも<line-break>知っていたのか。<end>"
 korean = "…아기르샤이아에 대해서도 알고 있었나.<end>"
@@ -571,6 +603,14 @@ korean = "아, 나 놀린 거였구나! 너무해, <value:$28>. 나… 진짜 �
 ["690221"]
 japanese = "…ボク、やっぱり役立たずなのかな。<end>"
 korean = "…나, 역시 쓸모없는 걸까.<end>"
+
+["690224"]
+japanese = "もっとも、求めるべき物すらも　　　　<line-break>見失うことがも<line-break>ままあるがな。<end>"
+korean = "다만, 정작 무엇을 추구해야 하는지조차 잃어버릴 때도 종종 있지만 말이지.<end>"
+
+["690226"]
+japanese = "…あなたがただけでは、<line-break>少し、危険では、ありませんか？　　<line-break>　<end>"
+korean = "…여러분만으로는 조금 위험하지 않을까요?<end>"
 
 ["690228"]
 japanese = "ともに怪物を倒しましょう。<line-break>いかがですか？<end>"

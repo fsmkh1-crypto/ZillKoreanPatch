@@ -12,6 +12,10 @@ korean = "이게 바다…인가요…. 바라보는 곳마다 푸른 물뿐….
 japanese = "海よりも、もっと深い驚きが<line-break>他にもあるのですか…？<end>"
 korean = "바다보다 더 깊은 놀라움이 또 있다는 건가요…?<end>"
 
+["2050004"]
+japanese = "あのまま神殿で朽ち果てても<line-break>悔いはないつもりでしたが、<line-break>　<line-break>今こうして<value:$28>様と<line-break>いろいろなものを見ていると<line-break>これでよかったと思います…。<end>"
+korean = "그대로 신전에서 썩어 사라져도 후회는 없을 생각이었습니다만, 지금 이렇게 <value:$28> 님과 여러 가지를 보니 이게 잘된 일이라 생각합니다….<end>"
+
 ["2050005"]
 japanese = "ありがとう…。<end>"
 korean = "고마워….<end>"
