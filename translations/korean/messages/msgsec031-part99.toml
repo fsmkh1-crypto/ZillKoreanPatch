@@ -388,6 +388,10 @@ korean = "여, 여러분!! 도망치시오!!<end>"
 japanese = "ひいいいっ！！<end>"
 korean = "히이익!!<end>"
 
+["310205"]
+japanese = "<value:$28>…、<line-break>お願い…、兄さんのこと…<line-break>許して…あげて…。<line-break>そして…どうか…。<line-break>兄さんのこと…たすけ…<end>"
+korean = "<value:$28>… 부탁해… 형을… 용서해 줘…. 그리고… 제발… 형을… 구해….<end>"
+
 ["310206"]
 japanese = "う…ううん…。<line-break>気を…失っていたの…か…。<end>"
 korean = "으… 으응…. 정신을… 잃고 있었던 건가….<end>"

@@ -56,6 +56,10 @@ korean = "예! <value:$28>님, 들어가십시오!<end>"
 japanese = "ありゃ、<value:$28>じゃん。<line-break>元気ぃ？<end>"
 korean = "어라, <value:$28>잖아. 잘 지내?<end>"
 
+["870036"]
+japanese = "それは、結構。<line-break><value:$28>はあたしの<line-break>部下なんだから、<line-break>いざというときのために<line-break>体調を整えておいてよね。<end>"
+korean = "그거 좋네. <value:$28>은 내 부하니까 만일을 위해 몸 상태를 잘 관리해 둬.<end>"
+
 ["870041"]
 japanese = "元気<end>"
 korean = "건강<end>"

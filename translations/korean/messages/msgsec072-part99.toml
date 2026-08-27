@@ -204,6 +204,10 @@ korean = "계속 여관에서 편하게만 있으면 강해질 수 없어! 알�
 japanese = "もう、<value:$28>。<line-break>マジメに考えてよね！<end>"
 korean = "정말, <value:$28>. 진지하게 생각해 줘!<end>"
 
+["720097"]
+japanese = "…やっぱり、私が、そばにいると<line-break><value:$28>はダメになる？<end>"
+korean = "…역시 내가 곁에 있으면 <value:$28>은 안 되는 걸까?<end>"
+
 ["720098"]
 japanese = "別れましょ？<end>"
 korean = "헤어질까?<end>"

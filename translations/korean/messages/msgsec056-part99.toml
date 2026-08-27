@@ -1028,6 +1028,10 @@ korean = "<value:$28>, 이런 곳에서 만나다니 드문 일이네.<end>"
 japanese = "私？<line-break>ちょっとしたお使い。<line-break>そっちは？<end>"
 korean = "나? 잠깐 심부름. 너는?<end>"
 
+["560355"]
+japanese = "そう。<line-break>調子はいいみたいね。<line-break>安心したわ。<line-break>じゃあ、私はロセンに戻るわ。<line-break>しっかりね。<line-break><value:$28><end>"
+korean = "그래. 상태는 좋아 보이네. 안심했어. 그럼 난 로센으로 돌아갈게. 잘해, <value:$28>.<end>"
+
 ["560356"]
 japanese = "<value:$28><line-break>そっちの調子はどう？<end>"
 korean = "<value:$28>, 그쪽은 어때?<end>"

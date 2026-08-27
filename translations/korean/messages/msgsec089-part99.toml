@@ -32,6 +32,10 @@ korean = "<value:$28>님! 에스텔 님이, 에스텔 님이! 샤리라는 마�
 japanese = "…竜骨の砂漠の真ん中…。　<line-break>ラドラスのあたりだよ？<line-break>どうなってるの？<line-break>ねぇ、<value:$28>、<line-break>とにかく助けに行かなきゃ！<end>"
 korean = "…용골 사막 한가운데…. 라드라스 근처잖아? 어떻게 된 거야? <value:$28>, 일단 구하러 가야 해!<end>"
 
+["890027"]
+japanese = "（…ここには確か、<line-break>　地の精霊神の座所への道が…。）<end>"
+korean = "(…여기엔 분명 땅의 정령신이 있는 곳으로 가는 길이….)<end>"
+
 ["890028"]
 japanese = "（エステルは、ここに、<line-break>　いるのかもしれない…）<end>"
 korean = "(에스텔은 여기에 있을지도 몰라…)<end>"
@@ -63,6 +67,10 @@ korean = "파티에 합류시킨다<end>"
 ["890041"]
 japanese = "今はいい<end>"
 korean = "지금은 됐어<end>"
+
+["890044"]
+japanese = "じゃあ、猫屋敷で呼んでね。<line-break>待ってるから。<line-break>　<end>"
+korean = "그럼 고양이 저택에서 불러 줘. 기다리고 있을게.<end>"
 
 ["890045"]
 japanese = "こんばんは、エステル。<line-break>ごきげんはいかが？<end>"
@@ -284,6 +292,14 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["890142"]
+japanese = "そう…<line-break>なんだか…<line-break>どうなってもいい気分だわ…<end>"
+korean = "그래… 왠지… 어떻게 돼도 상관없을 것 같은 기분이야….<end>"
+
+["890143"]
+japanese = "そう…<line-break>なんだか…<line-break>どうなってもいい気分だわ…<end>"
+korean = "그래… 왠지… 어떻게 돼도 상관없을 것 같은 기분이야….<end>"
+
 ["890145"]
 japanese = "フフ、歌がうまいのね。<line-break>それに覚えも早いわ。<end>"
 korean = "후후, 노래를 잘하네. 게다가 배우는 것도 빨라.<end>"
@@ -499,6 +515,10 @@ korean = "이…노래…<end>"
 ["890242"]
 japanese = "絶望を、押し返しおったか…<end>"
 korean = "절망을 밀어냈단 말인가…<end>"
+
+["890246"]
+japanese = "お前は<value:$28>と<line-break>猫屋敷へ行く。<line-break>　<line-break>あそこの結界に守られていれば<line-break>マゴスの復活を遅らせられるからな。<end>"
+korean = "넌 <value:$28>과 고양이 저택으로 가라. 그곳의 결계 안에 있으면 마고스의 부활을 늦출 수 있으니까.<end>"
 
 ["890248"]
 japanese = "ザギヴさんですが、<line-break>とりあえず眠ってもらいました。<end>"

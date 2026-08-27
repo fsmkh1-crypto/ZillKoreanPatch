@@ -52,6 +52,10 @@ korean = "앙길단의 암호 보게<end>"
 japanese = "……………。<line-break><line-break><line-break>帝国はあの陽より輝く、だ。<end>"
 korean = "……………. 제국은 저 태양보다 빛난다, 다.<end>"
 
+["260084"]
+japanese = "帝国に通じる合い言葉、だと？<line-break>そんなものを、どうして私が<line-break>知っていると思ったのだ。<line-break>見損なったぞ、<value:$28>。<end>"
+korean = "제국에 통하는 암호라고? 그런 걸 내가 왜 알고 있을 거라 생각한 거지. 실망이군, <value:$28>.<end>"
+
 ["260087"]
 japanese = "ディンガル帝国の合い言葉…。<line-break>………………<line-break>あっ、いえ…<line-break><value:$28>様の<line-break>邪魔になるようなことは<line-break>いたしません。<end>"
 korean = "딘갈 제국의 암호…. ………… 아, 아닙니다…. <value:$28>님께 방해될 일은 하지 않겠습니다.<end>"
@@ -79,6 +83,10 @@ korean = "………………. 어둠의 신기 중 하나인 모양이군. 마�
 ["260150"]
 japanese = "禁断の聖杯のありかだと？<line-break><line-break><line-break>まあ、ディンガル諜報部を使えば<line-break>造作もなく調べがつくだろうが…<end>"
 korean = "금단의 성배가 있는 곳이라고? 뭐, 딘갈 첩보부를 쓰면 어렵지 않게 알아낼 수 있겠지만….<end>"
+
+["260152"]
+japanese = "禁断の聖杯って…<line-break>魔人が狙ってるんでしょ？<line-break>そんなの持って動いてるなんて…<line-break>ゴブリンは危険を感じないのかな？<end>"
+korean = "금단의 성배라니… 마인이 노리고 있는 거지? 그런 걸 들고 다니다니… 고블린은 위험을 못 느끼는 걸까?<end>"
 
 ["260157"]
 japanese = "闇の神器が魔人アーギルシャイア<line-break>の手に渡ると危険です。 <line-break>　<line-break>探索を急いだ方がいいでしょう。<end>"

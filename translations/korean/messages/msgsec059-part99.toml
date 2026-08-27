@@ -84,6 +84,10 @@ korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
 japanese = "そして、これは恩賞じゃ。<line-break>さらに励んでくれ。<end>"
 korean = "그리고 이것은 포상이다. 더욱 힘써 주게.<end>"
 
+["590053"]
+japanese = "<value:$28>、<line-break>まずまずの戦功じゃな。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに、励んでくれ。<line-break>期待しておるぞ。<end>"
+korean = "<value:$28>, 제법 전공을 세웠구나. 이건 포상이다. 더욱 힘써라. 기대하고 있겠다.<end>"
+
 ["590054"]
 japanese = "このようなことも<line-break>あるものなのかもしれんな。<end>"
 korean = "이런 일도 있을 수 있는 법이지.<end>"

@@ -204,9 +204,17 @@ korean = "미사용: 우후… 후후… 후….<end>"
 japanese = "あーもう、また来たの？<line-break>意外と<value:$28>って<line-break>せっかちなんだね。<end>"
 korean = "아, 또 왔어? 의외로 <value:$28>도 성급하네.<end>"
 
+["760092"]
+japanese = "暗くて何も見えないかい？<line-break>じゃ、今明かりをつけよう。<end>"
+korean = "어두워서 아무것도 안 보여? 그럼 지금 불을 켤게.<end>"
+
 ["760093"]
 japanese = "やあ、<value:$28>。<line-break>またあえると思ってたよ。<end>"
 korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
+
+["760094"]
+japanese = "はじめまして。<line-break>僕はシャリ。人は東方の博士なんて<line-break>呼んでくれたりもするんだ。<line-break>よろしくね。<line-break><value:$28>。<end>"
+korean = "처음 뵙겠습니다. 저는 샤리. 사람들은 동방의 박사라고도 부르죠. 잘 부탁해요, <value:$28>.<end>"
 
 ["760097"]
 japanese = "じゃ、頼んだからね。<line-break>色惑の瞳、よろしく～。<end>"

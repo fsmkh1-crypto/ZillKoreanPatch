@@ -20,6 +20,10 @@ korean = "바깥세상을 보러 가자<end>"
 japanese = "…すみません。<line-break>…つい。<end>"
 korean = "…죄송합니다. …그만.<end>"
 
+["770008"]
+japanese = "…そんなこと…。<line-break>私なんかはこの暗闇の中でずっと…。<end>"
+korean = "…그런 건…. 나는 이 어둠 속에서 계속….<end>"
+
 ["770009"]
 japanese = "…え、あの。<line-break><value:$28>様！？<end>"
 korean = "…어, 저기. <value:$28>님!?<end>"
@@ -200,6 +204,10 @@ korean = "식…사…도… 드…세요?<end>"
 japanese = "さくらんぼ…の…じゅーす。<line-break>　<line-break>　<line-break>それなら、こっちは<line-break>なんて書いてあるのです？<end>"
 korean = "체리… 주스. 그럼 이쪽에는 뭐라고 적혀 있나요?<end>"
 
+["770079"]
+japanese = "なじらね…の…ぱんけーき？<line-break>パンケーキって何かしら？<end>"
+korean = "나지라네… 팬케이크? 팬케이크가 뭐지?<end>"
+
 ["770081"]
 japanese = "まぁ、おいしそう。<end>"
 korean = "어머, 맛있겠네.<end>"
@@ -287,6 +295,10 @@ korean = "꺄아아아아!! 어머니! 어머니!!<end>"
 ["770124"]
 japanese = "イヤ…嫌ァアアアアア！！　　<line-break>　<line-break>　<line-break>お母様！　お母様！<line-break>置いていかないで！　お母様！<end>"
 korean = "싫어… 싫어어어어어!! 어머니! 어머니! 두고 가지 마세요! 어머니!<end>"
+
+["770135"]
+japanese = "さて、自己紹介も終わったことだし<line-break>死んでくれるかな。<end>"
+korean = "자, 자기소개도 끝났으니 이제 죽어 줄래?<end>"
 
 ["770136"]
 japanese = "キャアアアア！<end>"

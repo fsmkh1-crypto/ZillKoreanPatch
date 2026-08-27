@@ -64,6 +64,10 @@ korean = "그게 답이야? 너무 어리석군.<end>"
 japanese = "エア、シャリのねらいはなんなの？<line-break>空中都市って？<end>"
 korean = "에아, 샤리의 목적은 뭐야? 공중도시라니?<end>"
 
+["1330062"]
+japanese = "わらわなら可能じゃ。<line-break>しかし、それを聞いてどうする？<end>"
+korean = "나라면 가능하다. 하지만 그걸 들어서 어쩌려는 게냐?<end>"
+
 ["1330064"]
 japanese = "愚かな…。<line-break>そなたらは運命に抗えると思うのか？<end>"
 korean = "어리석군…. 너희는 운명에 맞설 수 있다고 생각하나?<end>"
@@ -176,6 +180,10 @@ korean = "하나, 둘!!<end>"
 japanese = "ここ…<line-break>壊れてしまうのでしょうか…？<line-break>　<line-break>そんな…<line-break>せっかく…。<end>"
 korean = "여기… 부서져 버리는 걸까요…? 그런… 모처럼….<end>"
 
+["1330119"]
+japanese = "役目が終われば<line-break>ここにいる理由もない。<line-break>　<line-break>そして<line-break>存在の意味もない。<line-break>だから、これでいい…。<end>"
+korean = "역할이 끝나면 여기 있을 이유도 없다. 그리고 존재의 의미도 없다. 그러니 이걸로 됐어….<end>"
+
 ["1330122"]
 japanese = "あなたは…？<end>"
 korean = "당신은…?<end>"
@@ -203,6 +211,10 @@ korean = "<value:$28>……! 이렇게 될 줄 알았습니다. 분명 여기로
 ["1330128"]
 japanese = "<value:$28>…。<line-break>あなたも、ここへと<line-break>みちびかれたのですか…。<end>"
 korean = "<value:$28>…. 당신도 이곳으로 이끌린 건가요….<end>"
+
+["1330129"]
+japanese = "しかし、この絶望の都市で<line-break>何をしようというのですか？<end>"
+korean = "하지만 이 절망의 도시에서 무엇을 하려는 겁니까?<end>"
 
 ["1330130"]
 japanese = "しかし、本当に<line-break>空中都市の復活を止めるとは…。　　　<line-break>　<line-break>無限のソウルの行く先は<line-break>このわらわにも見えんということか…。<end>"
@@ -660,6 +672,10 @@ korean = "큭! 파멸의 창의 힘을 해방할 셈이야?<end>"
 japanese = "すまぬ。<line-break>手間取った。<end>"
 korean = "미안하다. 시간이 좀 걸렸다.<end>"
 
+["1330399"]
+japanese = "世界のすべてが<line-break>静寂に<line-break>支配されているだろう。<end>"
+korean = "세계의 모든 것이 정적에 지배되어 있겠지.<end>"
+
 ["1330403"]
 japanese = "…強くなったな、<line-break><value:$28>。<line-break>私も力を貸そう。<end>"
 korean = "…강해졌군, <value:$28>. 나도 힘을 보태지.<end>"
@@ -1051,6 +1067,10 @@ korean = "카핀!<end>"
 ["1330631"]
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
+
+["1330637"]
+japanese = "わしか…？<line-break>わしはイオンズ。<line-break>ここの神官じゃ。<end>"
+korean = "나 말인가…? 나는 이온즈. 이곳의 신관이다.<end>"
 
 ["1330638"]
 japanese = "天空神の祝福が<line-break>汝にあらんことを…<end>"

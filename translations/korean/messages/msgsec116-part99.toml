@@ -88,6 +88,10 @@ korean = "그래서 장로의 구속 팔찌는 어떻게 되었습니까.<end>"
 japanese = "…そうですか。　　　　<line-break>　<line-break>　<line-break>いえ、あなたには<line-break>別に関係のない話です。<line-break>すみませんでした。<end>"
 korean = "…그렇습니까. 아니, 당신과는 별로 관계없는 이야기입니다. 죄송했습니다.<end>"
 
+["1160057"]
+japanese = "そこから先へは<line-break>通すことはできません。　　　<line-break>　<line-break>それが私の役目です。<line-break>どうか、お引き取りください。<end>"
+korean = "그 앞은 지나가게 할 수 없습니다. 그게 제 역할입니다. 부디 돌아가 주세요.<end>"
+
 ["1160060"]
 japanese = "（これは……日記か？）<end>"
 korean = "(이건…… 일기인가?)<end>"
@@ -115,6 +119,10 @@ korean = "…그렇습니까.<end>"
 ["1160072"]
 japanese = "すみ…ません。<end>"
 korean = "죄송…합니다.<end>"
+
+["1160077"]
+japanese = "そこから先へは<line-break>通すことはできません。　　　<line-break>　<line-break>それが私の役目です。<line-break>どうか、お引き取りください。<end>"
+korean = "그 앞은 지나가게 할 수 없습니다. 그게 제 역할입니다. 부디 돌아가 주세요.<end>"
 
 ["1160082"]
 japanese = "…そうです。<end>"
