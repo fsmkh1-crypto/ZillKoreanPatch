@@ -120,6 +120,10 @@ korean = "오르나트, 밥 먹고 있을 때가 아니다 고브!<end>"
 japanese = "ああ、メシ～。<end>"
 korean = "아아, 밥~.<end>"
 
+["620045"]
+japanese = "ったく、逃げ足だけは早いわね！<line-break><value:$28>、追いましょ。<end>"
+korean = "정말, 도망치는 건 빠르다니까! <value:$28>, 쫓아가자.<end>"
+
 ["620046"]
 japanese = "バイアシオン最大の都市。<line-break>文化と商業の都…。<line-break>　<line-break>さっすがに大きな街よね、<line-break>リベルダムって！<end>"
 korean = "바이아시온 최대의 도시. 문화와 상업의 수도…. 역시 큰 도시네, 리벨덤은!<end>"

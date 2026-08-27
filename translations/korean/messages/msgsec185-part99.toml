@@ -136,6 +136,10 @@ korean = "이겼어. 이겼어.<end>"
 japanese = "冒険者か？　名を名乗れ。<end>"
 korean = "모험자인가? 이름을 대라.<end>"
 
+["1850072"]
+japanese = "えーと、<value:$28>…。<line-break>フゴー邸に出入りのある者です。<end>"
+korean = "음, <value:$28>…. 후고 저택에 출입하는 사람입니다.<end>"
+
 ["1850074"]
 japanese = "現在、リベルダムは、封鎖中だ。<line-break>立ち去るがよい。<end>"
 korean = "현재 리벨덤은 봉쇄 중이다. 물러가라.<end>"

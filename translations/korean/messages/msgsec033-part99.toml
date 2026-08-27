@@ -48,6 +48,10 @@ korean = "플린트 씨는 조용히 해!<end>"
 japanese = "復活の真珠がもうないの。<line-break>さ、一緒に買いにいくのよ。<line-break><value:$28>！<end>"
 korean = "부활의 진주가 이제 없어. 자, 같이 사러 가자, <value:$28>!<end>"
 
+["330023"]
+japanese = "そうだな、<value:$28>。<line-break>すまんが、買ってきれくれないか。<end>"
+korean = "그래, <value:$28>. 미안하지만 사다 줄래?<end>"
+
 ["330025"]
 japanese = "さ、行こ、<value:$28>。<line-break>復活の真珠は道具屋だよぉ。<end>"
 korean = "자, 가자, <value:$28>. 부활의 진주는 도구점에 있어~.<end>"

@@ -92,6 +92,10 @@ korean = "그래. 지리온도 <value:$28>처럼 무한한 소울을 가지고 �
 japanese = "でも、たぶんあたしのために<line-break>その力を…。<end>"
 korean = "하지만 아마 나를 위해 그 힘을….<end>"
 
+["2640080"]
+japanese = "ううん。なんでもないわ。<line-break>おやすみなさい、<value:$28>。<end>"
+korean = "아니, 아무것도 아니야. 잘 자, <value:$28>.<end>"
+
 ["2640081"]
 japanese = "ジリオン＆イーシャイベント05用開終端<end>"
 korean = "지리온 & 이샤 이벤트05용 시작/끝<end>"

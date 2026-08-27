@@ -100,6 +100,10 @@ korean = "빨리 가세요.<end>"
 japanese = "…<value:$28>、<line-break>まだ、解放軍に味方してるの？<end>"
 korean = "…<value:$28>, 아직도 해방군 편을 들고 있어?<end>"
 
+["1010047"]
+japanese = "…<value:$28>、あなたと私は<line-break>目指しているものが違うの！<end>"
+korean = "…<value:$28>, 당신과 나는 목표로 하는 게 달라!<end>"
+
 ["1010050"]
 japanese = "<value:$28>！<line-break>こんな所で何をしている！　<line-break>　<line-break>早く出ていきなさい！<line-break>今回だけは見逃すけど<line-break>もう私の前に顔を出すないで！<end>"
 korean = "<value:$28>! 이런 곳에서 뭘 하고 있어! 빨리 나가! 이번만은 봐주겠지만 다시는 내 앞에 나타나지 마!<end>"
@@ -131,6 +135,10 @@ korean = "로스토올의 <value:$28>! 이런 곳에서 뭘 하고 있지! 어�
 ["1010068"]
 japanese = "戦場で会いましょ。<line-break><value:$28>。<end>"
 korean = "전장에서 만나자, <value:$28>.<end>"
+
+["1010071"]
+japanese = "<value:$28>、どうしたの？<line-break>私に用？　それともカルラ様？<end>"
+korean = "<value:$28>, 왜 그래? 나한테 볼일이야? 아니면 칼라 님?<end>"
 
 ["1010073"]
 japanese = "でも、用もないのに来てはダメよ。<line-break>ここは軍隊なんだから。公私の混同は<line-break>軍人の最もさけるべきことだもの。<line-break>それじゃあね、<value:$28>。<end>"

@@ -4,6 +4,10 @@
 japanese = "ロッシマ（２）メッセージＶ３－１開始<end>"
 korean = "롯시마(2) 메시지 V3-1 시작<end>"
 
+["1760001"]
+japanese = "待っとったで、<value:$28>。<line-break>次の宝探しに行けるんかい？<end>"
+korean = "기다리고 있었어, <value:$28>. 다음 보물찾기를 갈 수 있겠나?<end>"
+
 ["1760002"]
 japanese = "行けます<end>"
 korean = "갈 수 있습니다<end>"

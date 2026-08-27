@@ -380,6 +380,10 @@ korean = "카를라 님!<end>"
 japanese = "状況は？<end>"
 korean = "상황은?<end>"
 
+["1330272"]
+japanese = "だが、ネメア様のいない今、<line-break>いったい誰が、その役割を<line-break>成しえるのだろうか？<line-break>…なーんて言ってる場合じゃ<line-break>ないんだけどねえ。<end>"
+korean = "하지만 네메아 님이 없는 지금, 대체 누가 그 역할을 해낼 수 있을까? …이런 말이나 하고 있을 때는 아니지만.<end>"
+
 ["1330273"]
 japanese = "発見！　その手があったね！<end>"
 korean = "찾았다! 그 수가 있었네!<end>"
@@ -479,6 +483,10 @@ korean = "…왔나. <value:$28>.<end>"
 ["1330327"]
 japanese = "<value:$28>、<line-break>エンシャントは失陥した。<line-break>たった数人の魔道士のためにな。<end>"
 korean = "<value:$28>, 엔샨트는 함락됐다. 단 몇 명의 마도사 때문에.<end>"
+
+["1330328"]
+japanese = "ガラクタと言えど、神代の存在。<line-break>凡庸な愚か者どもでは、<line-break>エンシャントを守りきれなかったのだ。<line-break>ま、革新ができぬ輩が減ってよかった<end>"
+korean = "잡동사니라 해도 신대의 존재다. 평범한 어리석은 자들로는 엔샨트를 지키지 못했다. 뭐, 혁신하지 못할 자들이 줄어 다행이군.<end>"
 
 ["1330329"]
 japanese = "この地獄と化した城内に乗り込むか？<line-break> <line-break> <line-break>よかろう。<line-break>行け、人類の革新のために。<end>"
@@ -655,6 +663,10 @@ korean = "여어, 기다리고 있었어. 무한의 소울을 지닌 자. <value
 ["1330451"]
 japanese = "待てよ、<value:$28>！<end>"
 korean = "기다려, <value:$28>!<end>"
+
+["1330458"]
+japanese = "あ…、<value:$28>様…。<line-break>いらしてくださったのですね…。<end>"
+korean = "아… <value:$28>님…. 와 주셨군요….<end>"
 
 ["1330460"]
 japanese = "…魔王バロルはどこだ？<end>"
@@ -1095,6 +1107,10 @@ korean = "<value:$28>님! 장군 각하께서 전언을 보내셨습니다.<end>
 ["1330720"]
 japanese = "以上であります。<end>"
 korean = "이상입니다.<end>"
+
+["1330721"]
+japanese = "僭越ですが…<value:$28>様。<line-break>私も何か嫌な予感がします。<end>"
+korean = "외람되지만… <value:$28>님. 저도 왠지 불길한 예감이 듭니다.<end>"
 
 ["1330722"]
 japanese = "なにとぞ、<line-break><value:$28>様のお力を<line-break>カルラ様にお貸しください。<end>"

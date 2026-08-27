@@ -204,6 +204,10 @@ korean = "저기, 갈드란이라는 모험자를 아세요?<end>"
 japanese = "知ってるんですか？<end>"
 korean = "알고 계신가요?<end>"
 
+["460121"]
+japanese = "じゃ、町を出るときに合流しよう。<line-break>それじゃ、<value:$28>。<end>"
+korean = "그럼 마을을 나갈 때 합류하자. 그럼, <value:$28>.<end>"
+
 ["460123"]
 japanese = "運命！　これぞ運命！！<line-break>　<line-break>　<line-break>エンシャント南東、賢者の森の奥、<line-break>猫屋敷…運命に選ばれた者のみが<line-break>入れるという。<end>"
 korean = "운명! 이것이야말로 운명!! 엔샨트 남동쪽 현자의 숲 깊은 곳, 고양이 저택… 운명에 선택된 자만 들어갈 수 있다고 한다.<end>"

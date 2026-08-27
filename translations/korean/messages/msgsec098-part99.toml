@@ -32,6 +32,10 @@ korean = "…<value:$28> 씨! 무서웠어요!<end>"
 japanese = "…<value:$28>さんのおかげで<line-break>少し、落ち着きました。<end>"
 korean = "…<value:$28>님 덕분에 조금 진정됐습니다.<end>"
 
+["980019"]
+japanese = "また、来てくださいね。<line-break>最近、あの人よく来るんです。<end>"
+korean = "또 오세요. 요즘 그 사람 자주 오거든요.<end>"
+
 ["980020"]
 japanese = "待ってよ。聖杯は<line-break>まだ取り返してないのよ？<line-break>　<line-break>それで、おめおめと<line-break>ロストールに帰るつもり？<end>"
 korean = "잠깐. 성배는 아직 되찾지 못했잖아? 그런데 이대로 로스토올로 돌아갈 생각이야?<end>"
@@ -75,6 +79,10 @@ korean = "저기, 거기 모험자.<end>"
 ["980037"]
 japanese = "そう、あなたよ。<line-break>冒険者その１。<end>"
 korean = "그래, 당신 말이야. 모험자 1번.<end>"
+
+["980042"]
+japanese = "…って、知ってるの！？<line-break>どこよ、どこで見かけたのよ！<end>"
+korean = "…뭐, 알고 있어!? 어디야, 어디서 봤어!<end>"
 
 ["980044"]
 japanese = "<value:$28>じゃない。<line-break>どう？　うまくやってる？<end>"
@@ -144,6 +152,10 @@ korean = "하지만 그건 우리가 운명에 선택받은 자들이란 뜻이�
 japanese = "こ、この扱いには<line-break>断固、抗議するゴブ…。<end>"
 korean = "이, 이런 대우에는 단호히 항의한다 고브….<end>"
 
+["980119"]
+japanese = "ちょっと、<value:$28>。<line-break>どこに行くつもりよ。<line-break>そっちに行くと、森の出口よ。<line-break>早くゴブリンを追うのよ。<line-break>わかったわね、<value:$28>？<end>"
+korean = "잠깐, <value:$28>. 어디 갈 생각이야. 그쪽은 숲 출구잖아. 빨리 고블린을 쫓아. 알았지, <value:$28>?<end>"
+
 ["980120"]
 japanese = "マルーンを失った。<end>"
 korean = "마룬을 잃었다.<end>"
@@ -179,6 +191,14 @@ korean = "<value:$28>…. 어서 와요.<end>"
 ["980153"]
 japanese = "アイリーンは<line-break>少し気が強いところがありますが　<line-break>あれで、やさしい娘なんです。<line-break>娘のこと、<line-break>よろしくお願いしますね。<end>"
 korean = "아이린은 조금 기가 센 구석이 있지만 그래도 상냥한 아이예요. 제 딸을 잘 부탁드립니다.<end>"
+
+["980174"]
+japanese = "あ、<value:$28>さん……。<line-break>　　　　　　　　　　　　　<line-break>　<line-break>おかえりなさい…。<line-break>うれしい……、<line-break>会いに来てくれるなんて…。<end>"
+korean = "아, <value:$28>님……. 어서 오세요…. 기뻐요…… 만나러 와 주시다니….<end>"
+
+["980176"]
+japanese = "<value:$28>さん、なんだか<line-break>たくましくなりましたね。<line-break>まるで騎士さまみたいです。<line-break>できれば、これからは<line-break>私だけの騎士さまに……。<end>"
+korean = "<value:$28>님, 왠지 듬직해지셨네요. 마치 기사님 같아요. 가능하다면 앞으로는 저만의 기사님으로…….<end>"
 
 ["980181"]
 japanese = "でも、やっぱり<value:$28>さんは<line-break><value:$28>さんでした。<line-break>私、うれしいです。<end>"

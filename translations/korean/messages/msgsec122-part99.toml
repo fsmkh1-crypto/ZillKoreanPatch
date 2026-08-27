@@ -24,6 +24,10 @@ korean = "(지라크의 알노툰 공격을 돕기로 약속했다) (준비가 �
 japanese = "………………。<line-break><line-break><line-break>ジラークと共に、アルノートゥンを<line-break>攻めると約束したのではないのか。<end>"
 korean = "………………. 지라크와 함께 알노툰을 공격하기로 약속하지 않았나.<end>"
 
+["1220090"]
+japanese = "ジラークが頼んできたのは、<line-break>アルノートゥン攻めだったはずだ。<line-break><line-break>準備が整い次第、アキュリュースに<line-break>来てくれとのことだった。<end>"
+korean = "지라크가 부탁한 건 알노툰 공략이었을 거야. 준비가 되는 대로 아큐류스에 와 달라고 했지.<end>"
+
 ["1220111"]
 japanese = "風泣きの洞窟に出没する怪物か…。<line-break>気にかかることがある。<line-break>用心してくれ、<value:$28>。<end>"
 korean = "바람우는 동굴에 나타나는 괴물인가…. 신경 쓰이는 게 있어. 조심해, <value:$28>.<end>"
@@ -55,6 +59,10 @@ korean = "엄청난 짐승은 괴물! 괴물은 외톨이! 소인은 광대! 사
 ["1220179"]
 japanese = "………………。<line-break><line-break><line-break>追いつめられた獣は手強い。<line-break>油断するな。<end>"
 korean = "………………. 궁지에 몰린 짐승은 강하다. 방심하지 마라.<end>"
+
+["1220193"]
+japanese = "神官の話だと、その魔物は<line-break>とてつもない闇の力を持っている<line-break>らしいじゃない。<line-break>自分の実力を過信して挑めば、<line-break>命を落とすわよ。<end>"
+korean = "신관 말로는 그 마물이 엄청난 어둠의 힘을 지녔다던데. 자기 실력을 과신하고 덤비면 목숨을 잃을 거야.<end>"
 
 ["1220211"]
 japanese = "………………。<line-break><line-break><line-break>戦いは生か死だ。<line-break>気を抜いた者が死ぬ。<end>"

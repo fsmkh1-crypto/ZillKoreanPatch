@@ -396,6 +396,10 @@ korean = "<value:$28>. 저기, 미안한데 잠깐 같이 가 줄래? 아까 그
 japanese = "この柱…。<line-break>普段は壊れてて<line-break>ウンともスンともいわないけど…。<line-break>さっきの声の感じ…<line-break>きっと、この向こうに…。<end>"
 korean = "이 기둥…. 평소에는 고장 나서 꿈쩍도 안 하지만…. 아까 그 목소리 느낌으로는… 분명 이 너머에….<end>"
 
+["880213"]
+japanese = "よ、よかったー！<line-break>いっきなりボクひとりで<line-break>飛ばされちゃうんだもんなー。　<line-break><value:$28>が来なかったら<line-break>どうしようかって思ったよ。<end>"
+korean = "다, 다행이다~! 갑자기 나 혼자 날아가 버렸잖아. <value:$28>이 안 오면 어쩌나 했어.<end>"
+
 ["880224"]
 japanese = "よし、じゃあ行こう<end>"
 korean = "좋아, 그럼 가자<end>"

@@ -44,6 +44,10 @@ korean = "잘 가. 이제 엄마에게서 떨어지면 안 돼.<end>"
 japanese = "うん。<end>"
 korean = "응.<end>"
 
+["2190013"]
+japanese = "どうしたの、<value:$28>？<line-break>そんな不思議そうな顔をして。<end>"
+korean = "왜 그래, <value:$28>? 그렇게 신기한 표정을 짓고.<end>"
+
 ["2190014"]
 japanese = "やさしいんだね。<end>"
 korean = "상냥하구나.<end>"

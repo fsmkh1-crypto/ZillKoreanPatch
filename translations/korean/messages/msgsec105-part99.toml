@@ -116,6 +116,10 @@ korean = "이겼어. 이겼어.<end>"
 japanese = "…わかりました。<line-break>それで、どのような方法で？<end>"
 korean = "…알겠습니다. 그래서 어떤 방법으로?<end>"
 
+["1050066"]
+japanese = "だが、解放軍の首謀者と目されていた<line-break>クリュセイス・クロイスは捕らえられず、<line-break>内通者アンティノの行方も<line-break>つかむことはできなかった。<end>"
+korean = "하지만 해방군의 수괴로 지목된 크류세이스 크로이스는 붙잡지 못했고, 내통자 안티노의 행방도 알아낼 수 없었다.<end>"
+
 ["1050069"]
 japanese = "<value:$28>。<line-break>あなたがいてくれるのなら、<line-break>我々はまだ戦える。<end>"
 korean = "<value:$28>. 네가 있어 준다면, 우리는 아직 싸울 수 있다.<end>"

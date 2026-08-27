@@ -228,6 +228,10 @@ korean = "그럼 내일도 일찍 일어나야 하니 슬슬 자자. <value:$28>
 japanese = "じゃねー。<end>"
 korean = "또 봐.<end>"
 
+["1380121"]
+japanese = "何度でもあなたに言いたい。<line-break>ありがとう、<value:$28>…。<end>"
+korean = "몇 번이고 당신에게 말하고 싶어요. 고마워요, <value:$28>….<end>"
+
 ["1380122"]
 japanese = "<value:$28>…？<line-break>こんな夜遅くに、どうしたの？<end>"
 korean = "<value:$28>…? 이렇게 늦은 밤에 무슨 일이야?<end>"
@@ -1111,6 +1115,10 @@ korean = "아, <value:$28>님. 슬럼가는 그쪽이 아니에요. 곧장 간 �
 ["1380537"]
 japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"
 korean = "너무 돌아다니지 않는 게 좋을 것 같아요. 가죠, <value:$28>님.<end>"
+
+["1380539"]
+japanese = "<value:$28>さんと一緒だったから<line-break>すごく安心できました。<end>"
+korean = "<value:$28>님과 함께였으니까 정말 안심됐어요.<end>"
 
 ["1380540"]
 japanese = "あの…、あたし…<end>"
