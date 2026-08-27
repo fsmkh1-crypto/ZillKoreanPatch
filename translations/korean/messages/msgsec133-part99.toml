@@ -780,6 +780,10 @@ korean = "어떻게 할 생각이야?<end>"
 japanese = "<value:$28>を<line-break>甘く見ないことですね。　　　　　　<line-break>　<line-break>闇の神器の力さえ取り除けば、<line-break><value:$28>は<line-break>破壊神にも負けはしないでしょう。<end>"
 korean = "<value:$28>을 얕보지 마세요. 어둠의 신기의 힘만 제거하면 <value:$28>은 파괴신에게도 지지 않을 겁니다.<end>"
 
+["1330223"]
+japanese = "あはは、おもしろいね。<line-break>確かにそうかもしれないよ。<line-break>ま、今回は一本とられたってとこかな。<line-break>でもね、これが切り札じゃないんだよ。<line-break>フフフ、ここから戻れたら、<line-break>エンシャントにおいでよ。<end>"
+korean = "아하하, 재미있네. 확실히 그럴지도 몰라. 뭐, 이번엔 한 방 먹었다고 해 두지. 하지만 이게 비장의 수는 아니야. 후후후, 여기서 돌아올 수 있으면 엔샨트로 와.<end>"
+
 ["1330224"]
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"
