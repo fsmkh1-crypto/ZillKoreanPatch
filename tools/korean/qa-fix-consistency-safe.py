@@ -5,6 +5,8 @@ Reviewed lexical/spacing fixes remain source-gated. Corpus-wide typography
 repairs are limited to punctuation/terminal whitespace and cannot alter words,
 register, control tokens, or punctuation. Internal spacing repairs are allowed
 only for explicitly reviewed Japanese sources or exact current-record rewrites.
+Proper-name repairs are source-gated by the Japanese canonical surface so a
+Korean substring can never be rewritten outside the matching source context.
 """
 from __future__ import annotations
 
@@ -49,6 +51,26 @@ SPACE_CANONICAL: dict[str, str] = {
 EXACT_VARIANTS: dict[str, dict[str, str]] = {
     norm_source("冒険者<end>"): {
         "모험자<end>": "모험가<end>",
+    },
+}
+
+# Japanese canonical surface -> known incorrect Korean surface -> canonical.
+# These mappings are safe only because the Japanese source gate must match.
+SOURCE_TERM_VARIANTS: dict[str, dict[str, str]] = {
+    "フゴー": {
+        "후고": "휴고",
+    },
+    "オルナット": {
+        "올나트": "오르나트",
+    },
+    "アンギルダン": {
+        "안길단": "앙길단",
+    },
+    "ダルケニス": {
+        "달케니스": "다르케니스",
+    },
+    "ジュサプブロス": {
+        "주삽브로스": "주사프브로스",
     },
 }
 
@@ -132,6 +154,16 @@ def main() -> None:
                 new = canonical
             elif src in EXACT_VARIANTS and new in EXACT_VARIANTS[src]:
                 new = EXACT_VARIANTS[src][new]
+
+            for ja_term, variants in SOURCE_TERM_VARIANTS.items():
+                if ja_term not in ja:
+                    continue
+                for old, replacement in variants.items():
+                    n = new.count(old)
+                    if n:
+                        new = new.replace(old, replacement)
+                        key = f"proper-name:{ja_term}:{old}->{replacement}"
+                        counts[key] = counts.get(key, 0) + n
 
             for old, replacement in SOURCE_SUBSTITUTIONS.get(src, ()):
                 n = new.count(old)
