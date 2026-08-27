@@ -16,6 +16,10 @@ korean = "그렇군요…. <value:$28>이 깨어났다는 마도의 탑에 가 �
 japanese = "…それに最近、<line-break>気がかりなことがありましてね。<end>"
 korean = "…그리고 요즘 신경 쓰이는 일이 하나 있어서요.<end>"
 
+["2520004"]
+japanese = "ええ。<line-break>どうも魔道の塔から<line-break>不穏な空気を感じるのです。<line-break>まだ漠然としたものですし、<line-break><value:$28>に直接、<line-break>関わりがあるかはわかりません。<line-break>ただ、調べてきてもらえると<line-break>私としてはありがたいですね。<line-break><line-break>もし、何事もなければ、<line-break>私の思い過ごしだと安心できますから。<end>"
+korean = "예. 아무래도 마도의 탑에서 불온한 기운이 느껴집니다. 아직 막연한 느낌이고 <value:$28>와 직접 관계가 있는지는 모르겠습니다. 다만 한번 조사해 주신다면 저로서는 고맙겠군요. 아무 일도 없다면 제 기우였다고 안심할 수 있을 테니까요.<end>"
+
 ["2520005"]
 japanese = "PSP用新スタートイベント17用終端<end>"
 korean = "PSP용 신규 시작 이벤트 17용 끝<end>"
