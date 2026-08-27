@@ -6,7 +6,7 @@ korean = "여행 출발 06 메시지<end>"
 
 ["330001"]
 japanese = "ええ。<line-break>ここでの商売も終わりましたので、<line-break>ロストールへ向かうつもりです。<end>"
-korean = "예. 여기서 장사도 끝났으니 로스토올로 향할 생각입니다.<end>"
+korean = "네. 여기서 장사도 끝났으니 로스토올로 갈 생각입니다.<end>"
 
 ["330002"]
 japanese = "フリントさん。<line-break>今日、ノーブルをご出発ですか。<line-break>　<end>"
@@ -854,7 +854,7 @@ korean = "아…. 저기, 저기! 그럼 루루안타가 <value:$28>을 찾아�
 
 ["330216"]
 japanese = "ルルアンタが、私たちと<line-break>一緒に行動するようになって１０年か。<line-break>…あっという間だったな。<line-break>あの子のほほえみは<line-break>母親を亡くした幼い<value:$28>を<line-break>ずいぶん元気づけてくれたよ。<end>"
-korean = "릴비가 우리와 함께 다니게 된 지도 10년인가. …순식간이었군. 그 아이의 미소는 어머니를 잃은 어린 <value:$28>에게 큰 힘이 되어 줬어.<end>"
+korean = "루루안타가 우리와 함께 다니게 된 지도 10년인가. …순식간이었군. 그 아이의 미소는 어머니를 잃은 어린 <value:$28>에게 큰 힘이 되어 줬어.<end>"
 
 ["330217"]
 japanese = "…そして、私もな。　　　　　　　　　<line-break><line-break><end>"
@@ -862,15 +862,15 @@ korean = "…그리고 나도 말이지.<end>"
 
 ["330218"]
 japanese = "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？<end>"
-korean = "오, <value:$28>. 돌아왔군. 루루안타는 같이 안 왔나?<end>"
+korean = "어라, <value:$28>. 돌아왔구나. 루루안타는 같이 안 왔어?<end>"
 
 ["330219"]
 japanese = "そうか。<line-break>いや、今、お前を捜しに行ったのだ。<line-break>すれ違ってしまったようだな。<line-break>そろそろ、ロストールへ出発だ。<line-break>悪いが、<value:$28>、<line-break>ルルアンタを捜してきてくれないか？<end>"
-korean = "그렇군. 아니, 방금 너를 찾으러 갔었어. 엇갈린 모양이군. 슬슬 로스토올로 출발할 때야. 미안하지만 <value:$28>, 릴비를 찾아와 주지 않겠어?<end>"
+korean = "그렇군. 아니, 방금 너를 찾으러 갔었어. 엇갈린 모양이군. 슬슬 로스토올로 출발할 때야. 미안하지만 <value:$28>, 루루안타를 찾아와 주지 않겠어?<end>"
 
 ["330220"]
 japanese = "お前なら大丈夫だろうが、<line-break>十分、注意するんだよ。<line-break>これを持っていきなさい。<end>"
-korean = "너라면 괜찮겠지만,충분히 조심하렴. 이걸 가져가.<end>"
+korean = "너라면 괜찮겠지만, 충분히 조심하렴. 이걸 가져가.<end>"
 
 ["330221"]
 japanese = "おお、フリントさんとこの<line-break><value:$28>か。<line-break>今日出発かな。<end>"
@@ -878,7 +878,7 @@ korean = "오오, 플린트 씨네 <value:$28>구나. 오늘 출발하나?<end>"
 
 ["330222"]
 japanese = "いつも一緒のおチビちゃんが<line-break>お前を捜しとった。<line-break>町の外の森の方に行ったぞ。<end>"
-korean = "늘 같이 다니는 꼬마가너를 찾고 있더구나. 마을 밖 숲 쪽으로 갔어.<end>"
+korean = "늘 같이 다니는 꼬마가 너를 찾고 있더구나. 마을 밖 숲 쪽으로 갔어.<end>"
 
 ["330223"]
 japanese = "<if><value:$29><equal>%0あいかわらず、俺様の目に狂いなし！<line-break>あれがフリントの息子、<line-break><value:$28>だな？<line-break>奴を捕らえ、<line-break>悪の使者フリントから密書を奪う！<line-break>俺様の正義伝説の幕開けだ！<end>あいかわらず、俺様の目に狂いなし！<line-break>あれがフリントの娘、<line-break><value:$28>だな？<line-break>奴を捕らえ、<line-break>悪の使者フリントから密書を奪う！<line-break>俺様の正義伝説の幕開けだ！<end>"
