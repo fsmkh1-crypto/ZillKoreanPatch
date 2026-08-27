@@ -408,6 +408,10 @@ korean = "…루루안타, …갈게.<end>"
 japanese = "…今のお前さんには<line-break>なに言っても無駄、か。<end>"
 korean = "…지금 너한테는 무슨 말을 해도 소용없나.<end>"
 
+["330160"]
+japanese = "夜明けまでに、<line-break>おやじさんを弔う。　　　　　　　　　<line-break>おやじさんは、<line-break>この国の政争に関わる<line-break>極秘の仕事をしてた。<end>"
+korean = "새벽까지 아버지를 장사지낸다. 아버지는 이 나라의 정쟁과 관련된 극비 일을 하고 있었어.<end>"
+
 ["330162"]
 japanese = "<value:$28>～。<line-break>ぐすっ。フリントさんが大変なの…。<end>"
 korean = "<value:$28>~. 훌쩍. 플린트 씨가 큰일이야….<end>"
@@ -467,6 +471,10 @@ korean = "다치신 손님 상태는 어떻습니까?<end>"
 ["330191"]
 japanese = "お父様はお亡くなりに…<line-break>そうですか…。<end>"
 korean = "아버님은 돌아가셨군요… 그렇습니까….<end>"
+
+["330192"]
+japanese = "ルルアンタを捜してきてくれないか？<line-break>お前がノーブルにいる間中行っていた<line-break>町の外の森に行ったはずだ。<line-break>頼んだよ、<value:$28>。<end>"
+korean = "루루안타를 찾아와 주겠어? 네가 노블에 있는 동안 계속 갔던 마을 밖 숲으로 갔을 거야. 부탁한다, <value:$28>.<end>"
 
 ["330193"]
 japanese = "予備メッセージ１７<end>"

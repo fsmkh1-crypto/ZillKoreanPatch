@@ -108,6 +108,10 @@ korean = "오빠라고 부르는 건 <value:$28>님께 실례야. 그만하렴, 
 japanese = "フシギだよ。<line-break><value:$28>をお兄ちゃんて呼ぶと<line-break>胸がギュッとするんだ。<end>"
 korean = "신기해. <value:$28>를 오빠라고 부르면 가슴이 꽉 조이는 느낌이야.<end>"
 
+["1360087"]
+japanese = "とにかく<line-break>私が助けに入るから<line-break>援護をお願い！<end>"
+korean = "아무튼 내가 구하러 들어갈 테니 지원 부탁해!<end>"
+
 ["1360088"]
 japanese = "ヴァイ！<end>"
 korean = "바이!<end>"
@@ -119,6 +123,10 @@ korean = "해냈다! 오빠!<end>"
 ["1360090"]
 japanese = "…じゃなくて、兄さん。<end>"
 korean = "…아니, 형.<end>"
+
+["1360091"]
+japanese = "…あれ？　別にいいんだ<line-break>兄さんって訂正しなくても。<end>"
+korean = "…어라? 굳이 형이라고 정정하지 않아도 괜찮아.<end>"
 
 ["1360092"]
 japanese = "だいじょうぶ？<line-break>お兄ちゃん。<end>"
@@ -952,6 +960,10 @@ korean = "저기요, 신관님.<end>"
 japanese = "特に、こんな荒れたご時世、<line-break><value:$28>のような大冒険者の力は<line-break>どうしても必要になる。<line-break>わかってくれ、<value:$28>。<end>"
 korean = "특히 이런 어수선한 시대에는 <value:$28> 같은 대모험자의 힘이 꼭 필요하다. 이해해 줘, <value:$28>.<end>"
 
+["1360576"]
+japanese = "あの鉱山で鉱夫をしていた<line-break>私の先祖が伝えた品です。<end>"
+korean = "그 광산에서 광부였던 제 조상이 전해 준 물건입니다.<end>"
+
 ["1360578"]
 japanese = "うはは、困ってるぜ、神官さん。<end>"
 korean = "우하하, 곤란해 보이는데, 신관 양반.<end>"
@@ -959,6 +971,10 @@ korean = "우하하, 곤란해 보이는데, 신관 양반.<end>"
 ["1360579"]
 japanese = "う、ううむ…そうですか。<line-break>気立てのいい子なのですが…。<line-break> <line-break>では、せめてこれを<line-break>持っていってください。<end>"
 korean = "으, 음… 그렇습니까. 마음씨 좋은 아이인데…. 그럼 적어도 이것만은 받아 가 주세요.<end>"
+
+["1360580"]
+japanese = "あの鉱山で鉱夫をしていた<line-break>私の先祖が伝えた品です。<end>"
+korean = "그 광산에서 광부였던 제 조상이 전해 준 물건입니다.<end>"
 
 ["1360581"]
 japanese = "それを持っていれば、<line-break>崩落から身を守ることができたと<line-break>いわれております。<line-break>きっと、お役に立つでしょう。<end>"

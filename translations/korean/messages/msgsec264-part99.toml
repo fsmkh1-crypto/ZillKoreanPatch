@@ -12,6 +12,10 @@ korean = "응? 내가 모험하는 이유?<end>"
 japanese = "そうね。一緒に旅をしているんだし<line-break>それぐらいは話しておくべきかしら。<line-break>　<line-break>人を捜しているの。<end>"
 korean = "그래. 함께 여행하는 사이니까 그 정도는 말해 둬야겠네. 사람을 찾고 있어.<end>"
 
+["2640003"]
+japanese = "さあ、どこにいるのか今のところ<line-break>見当もつかないわ…。<end>"
+korean = "글쎄, 지금은 어디 있는지 짐작도 안 가….<end>"
+
 ["2640004"]
 japanese = "ごめんなさい。<line-break>今は詳しく話せない。<line-break>　<line-break>昔、いろいろあって、<line-break>すぐには他人を<line-break>信じることができないの…。<end>"
 korean = "미안해요. 지금은 자세히 말할 수 없어요. 예전에 여러 일이 있어서 쉽게 다른 사람을 믿지 못해요….<end>"
@@ -43,6 +47,10 @@ korean = "잘 자요, <value:$28>.<end>"
 ["2640031"]
 japanese = "えっ、ジリオンのこと？<line-break>　<line-break>　<line-break>そうね。どんな関係って<line-break>訊かれても…。<end>"
 korean = "뭐, 지리온 말이야? 글쎄. 무슨 관계냐고 물어도….<end>"
+
+["2640032"]
+japanese = "敵だったり、味方だったり…。<line-break>　<line-break>　<line-break>協力したかと思ったら、<line-break>お互い意固地になって反発して…。<line-break>よくケンカしたわ。<end>"
+korean = "적이었다가 아군이었다가…. 협력했나 싶으면 서로 고집부리며 맞서고…. 자주 싸웠지.<end>"
 
 ["2640036"]
 japanese = "もっとも、そんな未来があればの<line-break>話だけど…。<end>"
@@ -80,6 +88,10 @@ korean = "응? 내가 모험하는 이유?<end>"
 japanese = "そうね。一緒に旅をしてるんだし<line-break>それぐらいは話しておくべきかしら。<line-break>　<line-break>人を捜しているの。<end>"
 korean = "그래. 같이 여행 중이니 그 정도는 말해 둬야겠지. 사람을 찾고 있어.<end>"
 
+["2640060"]
+japanese = "さあ、どこにいるのか今のところ<line-break>見当もつかないわ…。<end>"
+korean = "글쎄, 지금은 어디 있는지 짐작도 안 가….<end>"
+
 ["2640061"]
 japanese = "ごめんなさい。<line-break>今は詳しく話せない。<line-break>　<line-break>昔、いろいろあって、<line-break>すぐには他人を<line-break>信じることができないの…。<end>"
 korean = "미안해요. 지금은 자세히 말할 수 없어요. 예전에 여러 일이 있어서 쉽게 다른 사람을 믿지 못해요….<end>"
@@ -103,6 +115,10 @@ korean = "그래. 지리온도 <value:$28>처럼 무한한 소울을 가지고 �
 ["2640071"]
 japanese = "でも、たぶんあたしのために<line-break>その力を…。<end>"
 korean = "하지만 아마 나를 위해 그 힘을….<end>"
+
+["2640076"]
+japanese = "もう、あたしにもどうしたらいいか<line-break>わからないのよ…。<end>"
+korean = "이젠 나도 어떻게 해야 할지 모르겠어….<end>"
 
 ["2640080"]
 japanese = "ううん。なんでもないわ。<line-break>おやすみなさい、<value:$28>。<end>"

@@ -324,6 +324,10 @@ korean = "나지….<end>"
 japanese = "お、俺だって、よくわかんねえよ！<end>"
 korean = "나, 나도 잘 모르겠어!<end>"
 
+["1380180"]
+japanese = "<value:$28>。<line-break>このことを僕に気付かせてくれたのは、<line-break>君だよ。<line-break>僕は、僕として、僕自身の力で、<line-break>しっかり生きていく。<end>"
+korean = "<value:$28>. 이걸 깨닫게 해 준 건 너야. 나는 나로서, 내 힘으로 제대로 살아갈 거야.<end>"
+
 ["1380186"]
 japanese = "<value:$28>とお前、<line-break>つっこみふたりがかりで<line-break>ようやく対等ってもんだぜ！<line-break>何だか燃えてきた！　<line-break>うおぉぉぉ！<end>"
 korean = "<value:$28>과 너, 츳코미 둘이 달라붙어야 겨우 나와 대등하지! 왠지 불타오르는데! 우오오오!<end>"
@@ -511,6 +515,10 @@ korean = "그야 <value:$28>와 여행하고 있으니까!<end>"
 ["1380272"]
 japanese = "うーん。<line-break>ぼくはやっぱりツイてるなぁ！<end>"
 korean = "음.역시 나는 운이 좋구나!<end>"
+
+["1380274"]
+japanese = "ない！　ない！　ない！<line-break>レルラのハープがないよー！<end>"
+korean = "없어! 없어! 없어! 렐라의 하프가 없어!<end>"
 
 ["1380275"]
 japanese = "<value:$28>！<line-break>何か知らない？<end>"

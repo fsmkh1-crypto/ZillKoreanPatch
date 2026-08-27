@@ -8,6 +8,10 @@ korean = "아길샤이어 메시지 시작<end>"
 japanese = "冒険者として<line-break>旅をした経験は？<end>"
 korean = "모험자로 여행해 본 경험은?<end>"
 
+["690005"]
+japanese = "カウンターにいるおやじに<line-break>話しかけろ。登録してくれる。<end>"
+korean = "카운터에 있는 아저씨에게 말 걸어. 등록해 줄 거야.<end>"
+
 ["690007"]
 japanese = "幻術計振れておらず<line-break>犯罪登録当てはまらず。<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"
 korean = "환술계 수치도 없고 범죄 등록에도 해당하지 않는군. 축하해. 너도 모험자로 등록됐어.<end>"
@@ -388,6 +392,10 @@ korean = "취미일지도<end>"
 japanese = "別に…<end>"
 korean = "별로…<end>"
 
+["690213"]
+japanese = "チャカは少し頭が悪くなった。<line-break>ＩＮＴが１下がった。<line-break>　<line-break>チャカは少し打たれ強くなった。<line-break>ＶＩＴが１上がった。<end>"
+korean = "차카는 조금 머리가 나빠졌다. INT가 1 내려갔다. 차카는 조금 맷집이 좋아졌다. VIT가 1 올랐다.<end>"
+
 ["690218"]
 japanese = "なんか、かっこいいよね。セラってさ。<line-break>ちょっと、気になるかな。<line-break>　<line-break>…ってボクが言ったら<line-break><value:$28>は気になる？<end>"
 korean = "뭔가 멋있지, 세라는. 조금 신경 쓰인달까. …내가 그렇게 말하면 <value:$28>은 신경 쓰여?<end>"
@@ -503,6 +511,10 @@ korean = "그럼 가시죠, <value:$28>님. 당신처럼 자질이 뛰어난 분
 ["690270"]
 japanese = "聖杯って何のことだろう？<end>"
 korean = "성배가 대체 뭘까?<end>"
+
+["690275"]
+japanese = "そこまでは付き合ってやろう。<line-break>行くぞ。ぐずぐずするな。<end>"
+korean = "거기까진 같이 가 주지. 간다. 꾸물대지 마.<end>"
 
 ["690276"]
 japanese = "その男との話は終わったのか？<line-break>　<line-break>　<line-break>俺は今、お前と話すことはない。<line-break>用が済んだのならすぐ出るぞ。<line-break>　<end>"

@@ -16,6 +16,10 @@ korean = "호위해 주실 분을 모집합니다. 목적지는 <value:$15>입�
 japanese = "この町の<value:$17><value:$16>が、<line-break>商談で<value:$15>に出かけます。<line-break>護衛を務めてください。<line-break><value:$1A>ギア、<line-break><value:$1B>日以内の到着が条件です。<end>"
 korean = "이 마을의 <value:$17><value:$16>이 상담을 위해 <value:$15>로 갑니다. 호위를 맡아 주세요. <value:$1A>기어, <value:$1B>일 이내 도착이 조건입니다.<end>"
 
+["250072"]
+japanese = "<value:$15>に行きたいのですが、<line-break>護衛してくださる方を募集します。<line-break>お礼は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内とします。<end>"
+korean = "<value:$15>에 가고 싶은데 호위해 주실 분을 모집합니다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다.<end>"
+
 ["250073"]
 japanese = "ラドラス１<end>"
 korean = "라드라스1<end>"

@@ -96,9 +96,17 @@ korean = "누, 누가! 당신 따위에게!<end>"
 japanese = "失礼で野蛮で、<line-break>酒とバクチにおぼれた人なんて！<end>"
 korean = "무례하고 야만적이고, 술과 도박에 빠진 사람이라니!<end>"
 
+["660032"]
+japanese = "少し手柄をあげたくらいで<line-break>調子に乗らないでください。　<end>"
+korean = "조금 공을 세웠다고 우쭐대지 마세요.<end>"
+
 ["660034"]
 japanese = "そうだな…。<line-break>ありゃ、ほんとに運がよかった。<line-break>　<line-break>どう考えても<line-break>アンギルダンのとっつぁんが<line-break>勝つ戦だった。<end>"
 korean = "그래…. 그건 정말 운이 좋았어. 어떻게 생각해도 앙길단 아저씨가 이길 전투였지.<end>"
+
+["660035"]
+japanese = "あのときばかりは、<line-break>運命の女神の気まぐれに感謝したぜ。<end>"
+korean = "그때만큼은 운명의 여신 변덕에 감사했지.<end>"
 
 ["660036"]
 japanese = "ロストール軍総司令のあなたが<line-break>そんな言い方を…！<end>"
@@ -244,6 +252,10 @@ korean = "뭐라고 대답할 것 같아?<end>"
 japanese = "ありませんわ。<end>"
 korean = "없어요.<end>"
 
+["660098"]
+japanese = "そりゃ、残念。<line-break>そうしたら次に<line-break>俺はなんて言う？<end>"
+korean = "그거 아쉽네. 그럼 다음엔 내가 뭐라고 하지?<end>"
+
 ["660102"]
 japanese = "よいものは繰り返される。<line-break>それゆえに陳腐にもなる。<end>"
 korean = "좋은 것은 반복된다. 그렇기에 진부해지기도 하지.<end>"
@@ -355,6 +367,10 @@ korean = "시시한 억지입니다.<end>"
 ["660169"]
 japanese = "ロストールが滅ぶ日ね。<line-break>よしわかった。そのときは<line-break>姫さんをこの城から助け出してやるよ。<line-break>な、<value:$28>。<end>"
 korean = "로스토올이 멸망하는 날이네. 좋아, 알았어. 그때는 공주님을 이 성에서 구해 내 줄게. 그렇지, <value:$28>.<end>"
+
+["660171"]
+japanese = "そっちは、<line-break>しかとは約束できないな。<line-break>んじゃな。<end>"
+korean = "그쪽은 확실히 약속 못 하겠네. 그럼 간다.<end>"
 
 ["660172"]
 japanese = "もう！<end>"

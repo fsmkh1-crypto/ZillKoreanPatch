@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V4용 시작<end>"
 japanese = "ま、自分の目で確かめてみるのが、　　　<line-break>一番いいだろうな。<line-break>　<line-break>リベルダムに知り合いがいるなら、<line-break>なおさらな。<end>"
 korean = "뭐, 직접 눈으로 확인해 보는 게 제일 좋겠지. 리벨덤에 아는 사람이 있다면 더더욱.<end>"
 
+["1850007"]
+japanese = "アンティノの手引きで<line-break>リベルダムを攻めた青竜将軍カルラは、<line-break>反乱分子の掃討を名目として、<line-break>一夜のうちに市内を徹底的に破壊した。<end>"
+korean = "안티노의 안내로 리벨덤을 공격한 청룡장군 칼라는 반란분자 소탕을 명목으로 하룻밤 만에 시내를 철저히 파괴했다.<end>"
+
 ["1850012"]
 japanese = "フゴーって、<line-break>そんなにすごいんですか？<end>"
 korean = "후고라는 게 그렇게 대단한가요?<end>"
@@ -35,6 +39,10 @@ korean = "어, <value:$28>잖아. 딱 잘 왔다. 너 후고랑 아는 사이야
 ["1850022"]
 japanese = "ラッキー！<line-break>さすがは<value:$28>。<line-break>頼りになるじゃん。<end>"
 korean = "럭키! 역시 <value:$28>. 믿음직하잖아.<end>"
+
+["1850029"]
+japanese = "どう、引き受けてくれる？<line-break>カルラ軍とは、関係ないふりして、<line-break>聞き出してきて。<line-break>成功すれば、<line-break>あたしが自腹で報酬出すわよ。<end>"
+korean = "어때, 맡아 줄래? 칼라군과 관계없는 척하고 알아내 와. 성공하면 내가 사비로 보수를 줄게.<end>"
 
 ["1850030"]
 japanese = "そうこなくっちゃね。<line-break>じゃ、よろしくー。<end>"

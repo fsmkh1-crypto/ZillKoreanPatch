@@ -24,6 +24,10 @@ korean = "아, 맞다. 제 동료들을 소개할게요!<end>"
 japanese = "<if><value:$29><equal>%0初めまして、ボウヤ。<end>初めまして、子猫ちゃん。<end>"
 korean = "<if><value:$29><equal>%0처음 뵙겠군, 꼬마야.<end>처음 뵙겠어, 아가씨.<end>"
 
+["1170010"]
+japanese = "あ、この人は、カフィンです。<line-break>えと、で、こちらが…<end>"
+korean = "아, 이 사람은 카핀입니다. 어, 그리고 이쪽이….<end>"
+
 ["1170011"]
 japanese = "俺はレイヴン。<line-break> <line-break> <line-break>…よろしく。<end>"
 korean = "나는 레이븐. …잘 부탁해.<end>"
@@ -31,6 +35,10 @@ korean = "나는 레이븐. …잘 부탁해.<end>"
 ["1170012"]
 japanese = "あ、えと、その…<end>"
 korean = "아, 저기, 그게…<end>"
+
+["1170013"]
+japanese = "そう、それから、<line-break>こっちにいるのがナーシェスです。<end>"
+korean = "그래, 그리고 여기 있는 사람이 나셰스입니다.<end>"
 
 ["1170014"]
 japanese = "フフ。<line-break>…よろしく。<end>"

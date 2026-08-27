@@ -68,6 +68,10 @@ korean = "네메아는 분명 살아 있어<end>"
 japanese = "泣いたって、死んだ人間は戻らない<end>"
 korean = "울어도 죽은 사람은 돌아오지 않아.<end>"
 
+["1740028"]
+japanese = "で、でも…　　　　　　　　　　　<line-break>　<line-break>　<line-break>そうですね…。<line-break>生きているかも…しれませんよね。<line-break>ありがとうございます。<end>"
+korean = "그, 그래도… 그렇네요…. 살아 있을지도… 모르잖아요. 고마워요.<end>"
+
 ["1740030"]
 japanese = "…わかってます…。<line-break>わかってる…けど…。<end>"
 korean = "…알고 있어요…. 알고는… 있지만….<end>"
@@ -127,6 +131,10 @@ korean = "그래. 어쩔 수 없지. 나는 혼자라도 갈 거야.<end>"
 ["1740057"]
 japanese = "フフフ、来たか。<line-break><value:$28>よ。<line-break>そして、オイフェよ。<end>"
 korean = "후후후, 왔구나. <value:$28>이여. 그리고 오이페여.<end>"
+
+["1740062"]
+japanese = "そなたに破壊神が宿る…。<line-break>それは抗えぬ運命だ。<line-break>…私は奴にそう答えた。<line-break>それから、奴はその運命と<line-break>戦い続けておるのじゃ。<end>"
+korean = "그대에게 파괴신이 깃든다…. 그것은 거스를 수 없는 운명이다. …나는 그에게 그렇게 답했다. 그 뒤로 그는 그 운명과 계속 싸우고 있지.<end>"
 
 ["1740063"]
 japanese = "ネメア様に破壊神が宿る…？<line-break>でたらめを言うな！<end>"
@@ -280,6 +288,10 @@ korean = "주사프브로스! 왜 네메아 님을 차원의 틈새로 떨어뜨
 japanese = "…まさか！<end>"
 korean = "…설마!<end>"
 
+["1740136"]
+japanese = "すいません。<value:$28>。<line-break>隠していたわけでもないのですが、<line-break>名乗るほどのこともないと思ったので。<line-break>ま、その話はあとです。<end>"
+korean = "미안합니다, <value:$28>. 숨기려던 건 아니고 굳이 이름을 댈 정도는 아니라고 생각해서요. 뭐, 그 이야기는 나중에 하죠.<end>"
+
 ["1740137"]
 japanese = "あなたは何を企んでいるのですか？<end>"
 korean = "당신은 무엇을 꾸미고 있습니까?<end>"
@@ -411,6 +423,10 @@ korean = "너는 적이다<end>"
 ["1740195"]
 japanese = "ありがとう。<line-break>よろしく頼むわ。<end>"
 korean = "고마워. 잘 부탁할게.<end>"
+
+["1740196"]
+japanese = "…そう、<line-break>ここで呼び出すのね。<line-break>わかったわ。<end>"
+korean = "…그래, 여기서 불러내는 거구나. 알았어.<end>"
 
 ["1740201"]
 japanese = "私は少しケリュネイアと話をします。<end>"

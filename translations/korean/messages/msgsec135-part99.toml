@@ -240,6 +240,10 @@ korean = "네놈, 누구냐!? 여긴 왜 왔지!<end>"
 japanese = "ならば、死ね！<line-break>多くの人間のために！<end>"
 korean = "그렇다면 죽어라! 수많은 사람을 위해!<end>"
 
+["1350133"]
+japanese = "　　ウフフフ…アハハハハ<line-break>　　　決定的瞬間だね…。<end>"
+korean = "우후후후… 아하하하하. 결정적인 순간이네….<end>"
+
 ["1350134"]
 japanese = "　　ね…<line-break>　…ティアナ。<end>"
 korean = "있잖아… …티아나.<end>"
@@ -576,6 +580,10 @@ korean = "레몬, 와!!<end>"
 japanese = "俺は…俺…は、<line-break>もう…。<end>"
 korean = "나는… 나는… 이제….<end>"
 
+["1350267"]
+japanese = "…ですって、<line-break>放っておきなさい。<line-break>フフフ…。<end>"
+korean = "…그렇대. 내버려 둬. 후후후….<end>"
+
 ["1350268"]
 japanese = "くっ！<end>"
 korean = "큭!<end>"
@@ -831,6 +839,10 @@ korean = "그건 왜입니까, 카를라 님.<end>"
 ["1350372"]
 japanese = "そんな…！<end>"
 korean = "그럴 수가…!<end>"
+
+["1350375"]
+japanese = "でも、どうせなら１回で勝ちたいよねー。<line-break>くすくす…<end>"
+korean = "그래도 이왕이면 한 번에 이기고 싶잖아. 후후….<end>"
 
 ["1350376"]
 japanese = "あの…、カルラ様。<end>"
@@ -1203,6 +1215,10 @@ korean = "감사합니다, <value:$28>님.<end>"
 ["1350562"]
 japanese = "大神官様と兄との間で<line-break>そんなことが！<end>"
 korean = "대신관님과 형 사이에 그런 일이!<end>"
+
+["1350565"]
+japanese = "虚無の剣や、兄さんの行きそうな場所<line-break>心当たりない？<end>"
+korean = "허무의 검이나 형이 갈 만한 곳, 짐작 가는 데 없어?<end>"
 
 ["1350568"]
 japanese = "でも、信じられるよ。<line-break>今、<value:$28>のソウルから<line-break>すごく懐かしい感じがしたから。<end>"

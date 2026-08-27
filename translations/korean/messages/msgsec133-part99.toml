@@ -124,6 +124,10 @@ korean = "물의 무녀 이크레문과 불의 무녀 플레어는 샤리의 손
 japanese = "あなたは…？<end>"
 korean = "당신은…?<end>"
 
+["1330096"]
+japanese = "君を助けに来たんだよ。<line-break>君、イークレムン、だよね？<end>"
+korean = "널 구하러 왔어. 너, 이크레문 맞지?<end>"
+
 ["1330097"]
 japanese = "は、はい…。<line-break>あなたたちは…？<end>"
 korean = "네, 네…. 당신들은…?<end>"
@@ -155,6 +159,10 @@ korean = "네….<end>"
 ["1330104"]
 japanese = "あのー…。　　　　　　　　　　<line-break>　<line-break>　<line-break>なんだか、ボクたち<line-break>入っていきづらいんですけど…。<end>"
 korean = "저기…. 왠지 우리, 들어가기가 좀 힘든데….<end>"
+
+["1330106"]
+japanese = "うん。地の巫女。<line-break>エステルっていうんだ。よろしく。<end>"
+korean = "응. 땅의 무녀. 에스텔이라고 해. 잘 부탁해.<end>"
 
 ["1330107"]
 japanese = "エステルさん、<line-break>それに、<value:$28>さん、<line-break>本当に、ありがとうございます。<end>"
@@ -359,6 +367,10 @@ korean = "자, 고양이 저택으로 돌아가죠.<end>"
 ["1330234"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
 korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
+
+["1330237"]
+japanese = "破壊神ウルグを呼び出して、<line-break>世界を虚無に帰すんだ。<end>"
+korean = "파괴신 울그를 불러내서 세계를 허무로 되돌리는 거야.<end>"
 
 ["1330238"]
 japanese = "あれ？　なんだ…？<end>"
@@ -695,6 +707,10 @@ korean = "뭐, 됐나. 아직 많이 태어났으니까.<end>"
 ["1330411"]
 japanese = "ふふ…あらがわないほうが<line-break>幸せなのに。<end>"
 korean = "후후… 거스르지 않는 편이 행복할 텐데.<end>"
+
+["1330414"]
+japanese = "…手だては…ある。<line-break>お前が教えてくれた手だてが…。<end>"
+korean = "…방법은… 있어. 네가 알려 준 방법이….<end>"
 
 ["1330417"]
 japanese = "我を信じよ…<line-break>すべてを我になげうて…<line-break>すべてをゆだねよ…<line-break>祈るがいい…<line-break>そして心を開くのだ…<line-break>すべてをゆだねよ…<end>"
@@ -1088,6 +1104,10 @@ korean = "아, 또야? 지금 가.<end>"
 japanese = "それじゃぁな。<end>"
 korean = "그럼, 잘 있어.<end>"
 
+["1330643"]
+japanese = "こう見えてな、<line-break>わしは若いころ、傭兵だったんじゃ。<end>"
+korean = "이래 보여도 말이지, 난 젊었을 때 용병이었어.<end>"
+
 ["1330648"]
 japanese = "神官と傭兵だらけ…<line-break>いやはや、殺風景な町じゃ。<end>"
 korean = "신관과 용병뿐이군…. 참 삭막한 마을이야.<end>"
@@ -1099,6 +1119,10 @@ korean = "아아, 이 녀석인가. 이 녀석은 말이지….<end>"
 ["1330660"]
 japanese = "ギー、オレ、イズキヤル。<line-break>イオンズノ、トモ。<end>"
 korean = "기, 나 이즈키야르. 이온즈 친구.<end>"
+
+["1330668"]
+japanese = "ソノマエニ、　　　　　　<line-break>ダイブヤリアッタガ、ナ。<end>"
+korean = "그전에 꽤 한바탕 했지만 말이지.<end>"
 
 ["1330671"]
 japanese = "フフ、そうじゃ。　　<line-break>ま、そういう奴だ。<end>"
@@ -1131,6 +1155,10 @@ korean = "기이! 좋아. 기다려!<end>"
 ["1330681"]
 japanese = "ナッジは参加したんだよね。<end>"
 korean = "나지는 참가했지.<end>"
+
+["1330682"]
+japanese = "続々とコーンスがアルノートゥンに<line-break>集まってるって。<end>"
+korean = "코른스가 잇따라 알노툰으로 모이고 있대.<end>"
 
 ["1330685"]
 japanese = "つけぼくろがついてるでしょ？<line-break>他のすべてのリルビーにもついてる…。<line-break>　<line-break>これ…とれないんだ。<end>"

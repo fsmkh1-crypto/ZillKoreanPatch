@@ -4,6 +4,10 @@
 japanese = "PSP用フレア新イベント02用<end>"
 korean = "PSP용 플레어 신규 이벤트 02용<end>"
 
+["2370001"]
+japanese = "<value:$28>様、<line-break>エルファスという方が言っていた<line-break>救いとは何でしょう？<line-break>人はなぜ、救われたいと<line-break>願っているのですか？<end>"
+korean = "<value:$28>님, 엘파스라는 분이 말한 구원이란 무엇인가요? 사람은 왜 구원받고 싶어 하는 건가요?<end>"
+
 ["2370002"]
 japanese = "何故だろう？<end>"
 korean = "왜일까?<end>"
@@ -36,9 +40,17 @@ korean = "구원에 대해 <value:$28>에게 물어도 소용없어.<end>"
 japanese = "君にとって大事なものは何だい？<end>"
 korean = "너에게 소중한 건 뭐지?<end>"
 
+["2370016"]
+japanese = "彼らは幸せになるために、<line-break>心の支えとして救いを選んだ。<line-break>　<line-break>そして、その救いを僕に…。<line-break>いや、僕を通して神に求めたのさ。<end>"
+korean = "그들은 행복해지기 위해 마음의 버팀목으로 구원을 택했어. 그리고 그 구원을 내게… 아니, 나를 통해 신에게 구한 거지.<end>"
+
 ["2370019"]
 japanese = "そして、今もそれを支えにして<line-break>生きている…。<end>"
 korean = "그리고 지금도 그걸 버팀목 삼아 살아가고 있어….<end>"
+
+["2370020"]
+japanese = "<value:$28>様、<line-break>エルファスという方が言っていた<line-break>救いとは何でしょう？<line-break>人はなぜ、救われたいと<line-break>願っているのですか？<end>"
+korean = "<value:$28>님, 엘파스라는 분이 말한 구원이란 무엇인가요? 사람은 왜 구원받고 싶어 하는 건가요?<end>"
 
 ["2370021"]
 japanese = "何故だろう？<end>"
@@ -72,9 +84,17 @@ korean = "구원에 대해 <value:$28>에게 물어도 소용없어.<end>"
 japanese = "君にとって大事なものは何だい？<end>"
 korean = "너에게 소중한 건 뭐지?<end>"
 
+["2370035"]
+japanese = "彼らは幸せになるために、<line-break>心の支えとして救いを選んだ。<line-break>　<line-break>そして、その救いを僕に…。<line-break>いや、僕を通して神に求めたのさ。<end>"
+korean = "그들은 행복해지기 위해 마음의 버팀목으로 구원을 택했어. 그리고 그 구원을 내게… 아니, 나를 통해 신에게 구한 거지.<end>"
+
 ["2370038"]
 japanese = "そして、今もそれを支えにして<line-break>生きている…。<end>"
 korean = "그리고 지금도 그걸 버팀목 삼아 살아가고 있어….<end>"
+
+["2370039"]
+japanese = "<value:$28>様、<line-break>エルファスという方が言っていた<line-break>救いとは何でしょう？<line-break>人はなぜ、救われたいと<line-break>願っているのですか？<end>"
+korean = "<value:$28>님, 엘파스라는 분이 말한 구원이란 무엇인가요? 사람은 왜 구원받고 싶어 하는 건가요?<end>"
 
 ["2370040"]
 japanese = "何故だろう？<end>"
@@ -108,9 +128,17 @@ korean = "구원에 대해 <value:$28>에게 물어도 소용없어.<end>"
 japanese = "君にとって大事なものは何だい？<end>"
 korean = "너에게 소중한 건 뭐지?<end>"
 
+["2370054"]
+japanese = "彼らは幸せになるために、<line-break>心の支えとして救いを選んだ。<line-break>　<line-break>そして、その救いを僕に…。<line-break>いや、僕を通して神に求めたのさ。<end>"
+korean = "그들은 행복해지기 위해 마음의 버팀목으로 구원을 택했어. 그리고 그 구원을 내게… 아니, 나를 통해 신에게 구한 거지.<end>"
+
 ["2370057"]
 japanese = "そして、今もそれを支えにして<line-break>生きている…。<end>"
 korean = "그리고 지금도 그걸 버팀목 삼아 살아가고 있어….<end>"
+
+["2370058"]
+japanese = "<value:$28>様、<line-break>エルファスという方が言っていた<line-break>救いとは何でしょう？<line-break>人はなぜ、救われたいと<line-break>願っているのですか？<end>"
+korean = "<value:$28>님, 엘파스라는 분이 말한 구원이란 무엇인가요? 사람은 왜 구원받고 싶어 하는 건가요?<end>"
 
 ["2370059"]
 japanese = "何故だろう？<end>"
@@ -143,6 +171,10 @@ korean = "구원에 대해 <value:$28>에게 물어도 소용없어.<end>"
 ["2370070"]
 japanese = "君にとって大事なものは何だい？<end>"
 korean = "너에게 소중한 건 뭐지?<end>"
+
+["2370073"]
+japanese = "彼らは幸せになるために、<line-break>心の支えとして救いを選んだ。<line-break>　<line-break>そして、その救いを僕に…。<line-break>いや、僕を通して神に求めたのさ。<end>"
+korean = "그들은 행복해지기 위해 마음의 버팀목으로 구원을 택했어. 그리고 그 구원을 내게… 아니, 나를 통해 신에게 구한 거지.<end>"
 
 ["2370076"]
 japanese = "そして、今もそれを支えにして<line-break>生きている…。<end>"

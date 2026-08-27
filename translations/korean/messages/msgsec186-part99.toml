@@ -92,6 +92,10 @@ korean = "쳇. 이런 녀석이 있다는 얘긴 못 들었는데. 젠장!<end>"
 japanese = "さてと。<line-break>今の奴とお友達とは思えないが？<end>"
 korean = "자. 방금 녀석과 친구로는 안 보이는데?<end>"
 
+["1860048"]
+japanese = "私も知らないよぉー、<line-break>あんなおじさん。<line-break>　<line-break>お前がフリントの子かって<line-break><value:$28>に<line-break>近づいてきただけだもん。<end>"
+korean = "나도 몰라, 그런 아저씨. 네가 플린트의 자식이냐고 하면서 <value:$28>에게 다가왔을 뿐이야.<end>"
+
 ["1860049"]
 japanese = "…フリント？<end>"
 korean = "…플린트?<end>"

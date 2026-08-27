@@ -40,6 +40,10 @@ korean = "자신이 함께하겠다고 말한다<end>"
 japanese = "本人が解決するしかないと言う<end>"
 korean = "본인이 해결할 수밖에 없다고 말한다<end>"
 
+["1910018"]
+japanese = "…私にできるでしょうか。　　<line-break>　<line-break>　<line-break><value:$28>様がそばに<line-break>いてくださるなら、<line-break>できるのかもしれませんが…。<end>"
+korean = "…제가 할 수 있을까요. <value:$28>님이 곁에 있어 주신다면 할 수 있을지도 모르지만….<end>"
+
 ["1910022"]
 japanese = "みんな心配すると言う<end>"
 korean = "모두 걱정한다고 말한다<end>"
@@ -143,6 +147,10 @@ korean = "모든 것을 무로. 그리고 재생을.<end>"
 ["1910075"]
 japanese = "フフフ…、施文院は…、古来…<line-break>数…多くの闇を…封印してきた。　<line-break>　<line-break>その中で…、最も強力なものは…<line-break>闇の巨人…。<end>"
 korean = "후후후… 시문원은… 예로부터… 수많은 어둠을… 봉인해 왔다. 그중… 가장 강력한 것은… 어둠의 거인….<end>"
+
+["1910076"]
+japanese = "人の…あらゆる…負の感情を集め、　<line-break>闇の王と…闇の王女…<line-break>　<line-break>死体を…媒体として、産み出される、<line-break>負の力の…、集合体…。<end>"
+korean = "인간의… 모든… 부정적인 감정을 모아, 어둠의 왕과… 어둠의 왕녀… 시체를… 매개로 만들어지는 부정적인 힘의… 집합체….<end>"
 
 ["1910078"]
 japanese = "そういうことか。<line-break>くっ…！　やってくれる！<line-break>来るぞ、<value:$28>！<end>"
@@ -252,6 +260,10 @@ korean = "네메아 님과 함께 다시 싸우게 될 줄은 몰랐어. 이제 
 japanese = "ですから、<value:$28>。<line-break>運命などというものに<line-break>負けてはいけませんよ。<end>"
 korean = "그러니, <value:$28>. 운명 따위에 져서는 안 됩니다.<end>"
 
+["1910140"]
+japanese = "心配しなさんな。<line-break>もしもお前がヤバくなったときは<line-break>俺がとめてやるさ。<line-break>だから、<value:$28>。<line-break>自分を信じて戦おうぜ。<end>"
+korean = "걱정 마. 네가 위험해지면 내가 막아 줄 테니까. 그러니 <value:$28>, 자신을 믿고 싸우자.<end>"
+
 ["1910141"]
 japanese = "どうした。<line-break>最後の戦いの準備は<line-break>もういいのか？<end>"
 korean = "왜 그래. 마지막 싸움 준비는 벌써 끝났나?<end>"
@@ -271,6 +283,10 @@ korean = "그러니까 <value:$28>. 반드시 돌아오자.<end>"
 ["1910156"]
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
+
+["1910158"]
+japanese = "竜王が倒れましたか…。<line-break>　<line-break>　<line-break>うつしよの最後の神が消え、<line-break>人は自分たちの力だけで<line-break>歩まねばならなくなりましたね。<end>"
+korean = "용왕이 쓰러졌습니까…. 현세의 마지막 신이 사라지고 인간은 자기 힘만으로 걸어가야 하게 됐군요.<end>"
 
 ["1910159"]
 japanese = "この日が訪れたことを<line-break>喜ぶべきか悲しむべきか…。<end>"

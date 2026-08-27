@@ -16,6 +16,10 @@ korean = "자기브 씨가 당신에게 편지를요? 오, 그건…. 그녀에�
 japanese = "最近は色々危ないからねー。<line-break><value:$28>も<line-break>気をつけてないとヤバイかもよ？<line-break>それでも行く？<line-break>まっ、そういうの、嫌いじゃないけどね。<end>"
 korean = "요즘은 여러모로 위험하니까. <value:$28>도 조심하지 않으면 위험할지도 몰라? 그래도 갈 거야? 뭐, 그런 거 싫진 않지만.<end>"
 
+["1250011"]
+japanese = "この手紙は私が出したものよ。<line-break>当然、来るでしょう？<end>"
+korean = "이 편지는 내가 보낸 거야. 당연히 오겠지?<end>"
+
 ["1250020"]
 japanese = "………………。<line-break><line-break><line-break>エンシャントの政庁へ行け。<end>"
 korean = "………………. 엔샨트 정청으로 가라.<end>"

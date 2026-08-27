@@ -80,6 +80,10 @@ korean = "여기에 여러 함정을 설치해 뒀다. 잘 돌파해서 시련�
 japanese = "そがーな罠はのう、<line-break>はずせて当然なんじゃけぇ。<end>"
 korean = "그런 덫쯤은 말이지, 풀 수 있어야 당연한 거야.<end>"
 
+["1750040"]
+japanese = "そがーな罠はのう、コツさえ<line-break>つかめば簡単なんでぇ。<end>"
+korean = "그런 함정은 요령만 알면 간단해.<end>"
+
 ["1750042"]
 japanese = "罠を発見した。<end>"
 korean = "함정을 발견했다.<end>"
@@ -128,6 +132,10 @@ korean = "끼워 넣지 않는다<end>"
 japanese = "はめ込む<end>"
 korean = "끼워 넣는다<end>"
 
+["1750061"]
+japanese = "銀色の円盤は円型のくぼみに<line-break>ぴったりとおさまった。<end>"
+korean = "은빛 원반은 둥근 홈에 딱 맞게 들어갔다.<end>"
+
 ["1750062"]
 japanese = "竜の像の口の中に<line-break>十字型と円型の２つのくぼみがある。<end>"
 korean = "용 석상의 입 안에 십자형과 원형, 두 개의 홈이 있다.<end>"
@@ -143,6 +151,10 @@ korean = "끼워 넣지 않는다<end>"
 ["1750065"]
 japanese = "はめ込む<end>"
 korean = "끼워 넣는다<end>"
+
+["1750066"]
+japanese = "銀色の円盤は円型のくぼみに<line-break>ぴったりとおさまった。<end>"
+korean = "은빛 원반은 둥근 홈에 딱 맞게 들어갔다.<end>"
 
 ["1750067"]
 japanese = "やーっとここまで来たのう。<line-break>もう一息でぇ。<end>"

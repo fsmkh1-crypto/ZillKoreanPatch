@@ -56,9 +56,17 @@ korean = "무슨 말인지 모르겠어. 다음!<end>"
 japanese = "ほら。次、次っ！<end>"
 korean = "자. 다음, 다음!<end>"
 
+["2320020"]
+japanese = "起きてよ、姉ちゃん！<line-break>特訓の成果、聞いてほしいんだ。<end>"
+korean = "일어나, 누나! 특훈 성과를 들어 줬으면 해.<end>"
+
 ["2320021"]
 japanese = "俺、かなり上達したよな？<end>"
 korean = "나, 꽤 늘었지?<end>"
+
+["2320022"]
+japanese = "ああ、抱腹絶倒、間違いなし！<line-break>これでセラも大笑いさ。<end>"
+korean = "그래, 배꼽 빠지게 웃을 게 틀림없어! 이걸로 세라도 크게 웃겠지.<end>"
 
 ["2320024"]
 japanese = "どう、<value:$28>？<end>"

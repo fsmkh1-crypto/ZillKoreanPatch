@@ -160,6 +160,10 @@ korean = "늦네, <value:$28>. 설마 잊은 건 아니겠지.<end>"
 japanese = "もう！　ようやく、みんなを説得して<line-break>自由に冒険できるようになったって<line-break>言うのにぃ！<line-break>何やってるんだよぉ、<line-break><value:$28>…。<line-break>　<end>"
 korean = "정말! 겨우 모두를 설득해서 자유롭게 모험할 수 있게 됐는데! 뭐 하는 거야, <value:$28>….<end>"
 
+["1920071"]
+japanese = "いつのまにか、<line-break>ボクにとっての<line-break>冒険の旅っていうのは、<line-break><value:$28>と<line-break>一緒にいることに<line-break>なっちゃたんだな…。<end>"
+korean = "어느새 내게 모험 여행이라는 건 <value:$28>과 함께 있는 게 되어 버렸네….<end>"
+
 ["1920072"]
 japanese = "はやく来てよぉ<line-break><value:$28>…。<end>"
 korean = "빨리 와 줘, <value:$28>….<end>"
@@ -364,6 +368,10 @@ korean = "…정말 강하게 밀어붙이시는군요, <value:$28>님은. 알�
 japanese = "ティアナは見てみたいのです。<line-break>あなたが心を動かされるものを、<line-break>あなたと一緒に見ていきたい。<line-break>これからも、ずっと…。<end>"
 korean = "티아나는 보고 싶어요. 당신의 마음을 움직이는 것을 당신과 함께 보고 싶습니다. 앞으로도 계속….<end>"
 
+["1920167"]
+japanese = "急に旅に出るなんて<line-break>書き置きを見たら<line-break>びっくりするだろうな。<line-break>ごめんなさい、<line-break>お父様、お母様。<line-break>でも、わたしは…。<end>"
+korean = "갑자기 여행을 떠난다는 메모를 보면 놀라시겠지. 죄송해요, 아버지, 어머니. 그래도 저는….<end>"
+
 ["1920168"]
 japanese = "あ、<value:$28>さん。<line-break>おはようございます！<end>"
 korean = "아, <value:$28>님. 좋은 아침이에요!<end>"
@@ -416,6 +424,10 @@ korean = "그럼 아버님, 어머님. 다녀오겠습니다!<end>"
 japanese = "<value:$28>さん、<line-break>行きましょう！<end>"
 korean = "<value:$28> 씨, 갑시다!<end>"
 
+["1920189"]
+japanese = "天気も上々だし、<line-break>これだけ海が穏やかなら　　　　<line-break>問題なさそうね。<line-break>今日こそ、父さんが遺した財宝を<line-break>引き上げてみせるわ。<end>"
+korean = "날씨도 좋고 바다도 이만큼 잔잔하면 문제없겠네. 오늘이야말로 아버지가 남긴 보물을 건져 올리겠어.<end>"
+
 ["1920190"]
 japanese = "<value:$28>と一緒に<line-break>解読した父さんの暗号によると、<line-break>この辺りで目印が見つかるはず。<end>"
 korean = "<value:$28>과 함께 풀어낸 아버지의 암호대로라면, 이 근처에서 표식을 찾을 수 있을 거야.<end>"
@@ -435,6 +447,10 @@ korean = "<value:$28>이 찾아내지 않았으면 안에 숨겨진 암호문째
 ["1920200"]
 japanese = "私にここまで言わせたんだから、<line-break><value:$28>、これからもずっと<line-break>私と一緒に海に出てくれるわよね？<end>"
 korean = "내가 여기까지 말했으니, <value:$28>, 앞으로도 계속 나와 함께 바다로 나가 줄 거지?<end>"
+
+["1920203"]
+japanese = "よくやったね。<line-break>暗号によると、海面が光ってるのは<line-break>そんなに長い時間じゃないよ。<line-break>すぐに財宝を引き上げる<line-break>準備にかかりな！<end>"
+korean = "잘했어. 암호에 따르면 해면이 빛나는 시간은 그리 길지 않아. 바로 보물을 건질 준비를 시작해!<end>"
 
 ["1920204"]
 japanese = "へい、おかしら！<line-break>　<line-break>　<end>"
@@ -523,6 +539,10 @@ korean = "네? 저를 데려가 주시는 건가요?<end>"
 ["1920246"]
 japanese = "…で、でも、いいんですか？<line-break>わたし、<value:$28>さんに<line-break>迷惑をかけちゃうかも…。<end>"
 korean = "…그, 그래도 괜찮아요? 제가 <value:$28>님께 폐를 끼칠지도….<end>"
+
+["1920247"]
+japanese = "え、いえ、その、嫌じゃないですよ！<line-break>すっごく、嬉しいんです。<line-break>嬉しいんですけど…<line-break>本当に、わたしが一緒で<line-break>いいんですか？<end>"
+korean = "아, 아니, 싫은 건 아니에요! 정말 기뻐요. 기쁘긴 한데… 정말 제가 함께해도 괜찮나요?<end>"
 
 ["1920249"]
 japanese = "<value:$28>さん、<line-break>わたし、一生懸命がんばりますから<line-break>これから、よろしくお願いします！<end>"

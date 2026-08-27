@@ -32,6 +32,10 @@ korean = "샤리, 무슨 일이죠? 살기가….<end>"
 japanese = "何でもありませんよ、王女様。<end>"
 korean = "아무것도 아닙니다, 공주님.<end>"
 
+["750010"]
+japanese = "彼女は光を知らないんだ。<line-break>ここでそういうの、よさない？<end>"
+korean = "그녀는 빛을 몰라. 여기서 그런 말은 그만하지?<end>"
+
 ["750013"]
 japanese = "…<value:$28>様、<line-break>本当にありがとうございました。<end>"
 korean = "…<value:$28>님, 정말 감사합니다.<end>"
@@ -348,6 +352,10 @@ korean = "…네가 한 말에는 책임을 져 줘야겠어.<end>"
 japanese = "…そうか。<end>"
 korean = "…그런가.<end>"
 
+["750136"]
+japanese = "…ならば、それを態度で示せ。<line-break>ここからすぐに立ち去れ。<end>"
+korean = "…그렇다면 행동으로 보여라. 여기서 당장 떠나라.<end>"
+
 ["750137"]
 japanese = "フゴーの所で<line-break>何を売るつもりなんだい。<end>"
 korean = "후고에게서 뭘 팔 생각이야?<end>"
@@ -487,6 +495,10 @@ korean = "그렇…죠…. 정말 아름다운 분이네요.<end>"
 ["750214"]
 japanese = "フフ、私に気を使って<line-break>いただかなくても結構ですわ。<line-break>　<line-break><value:$28>様は<line-break>本当におやさしいですね。<end>"
 korean = "후후, 저를 신경 쓰지 않으셔도 괜찮아요. <value:$28>님은 정말 상냥하시네요.<end>"
+
+["750218"]
+japanese = "…この暗い部屋を見られるのが、<line-break>恥ずかしかったのです。<end>"
+korean = "…이 어두운 방을 보여 주는 게 부끄러웠어요.<end>"
 
 ["750219"]
 japanese = "ティアナ様には<line-break>もうお会いになりましたか？<end>"

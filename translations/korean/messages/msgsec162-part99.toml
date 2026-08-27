@@ -140,6 +140,10 @@ korean = "게다가 두 번째 공훈도 파로스와 연이 있는 자인가…
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
 
+["1620087"]
+japanese = "よくやった、<value:$28>。<line-break>　<line-break>　<line-break>最高の殊勲こそ<line-break>ファーロスのドラ息子に奪われたが、<line-break>第二の殊勲は、お前だ。<end>"
+korean = "잘했다, <value:$28>. 최고의 공은 파로스의 망나니 아들에게 빼앗겼지만 두 번째 공은 네 것이다.<end>"
+
 ["1620089"]
 japanese = "ノーブル伯、<line-break><value:$28>・リューガ。<end>"
 korean = "노블 백작, <value:$28>·류가.<end>"

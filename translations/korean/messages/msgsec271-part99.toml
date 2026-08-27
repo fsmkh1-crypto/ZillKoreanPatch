@@ -16,6 +16,10 @@ korean = "상관없어. 해 줘.<end>"
 japanese = "お前がイーシャをそそのかしたのか？<end>"
 korean = "네가 이샤를 부추긴 거냐?<end>"
 
+["2710011"]
+japanese = "減らず口はそこまでだ。<line-break>同化の髪飾りは返してもらう。<end>"
+korean = "쓸데없는 소리는 거기까지다. 동화의 머리장식은 돌려받겠다.<end>"
+
 ["2710016"]
 japanese = "待て、逃がすか！<end>"
 korean = "기다려, 놓칠까 보냐!<end>"
@@ -35,6 +39,10 @@ korean = "<value:$28>인가…. 나는 지리온. 인연이 있으면 다시 만
 ["2710021"]
 japanese = "そうだ。<line-break>あのジュサプブロスという男を<line-break>追うつもりだ。<line-break>奴が持って逃げた同化の髪飾りを<line-break>絶対に取り返す。<end>"
 korean = "그래. 주사프브로스라는 남자를 쫓을 거야. 녀석이 갖고 달아난 동화의 머리장식을 반드시 되찾겠어.<end>"
+
+["2710022"]
+japanese = "<value:$28>の仲間に？<line-break>　<line-break>　<line-break>いいのか？　奴は手強いぞ。<line-break>俺が一緒にいると、<line-break>お前に迷惑がかかるかもしれん。<end>"
+korean = "<value:$28>의 동료로? 괜찮겠어? 녀석은 강해. 내가 같이 있으면 네게 폐가 될지도 몰라.<end>"
 
 ["2710023"]
 japanese = "それでも構わないと言うのか…？<end>"

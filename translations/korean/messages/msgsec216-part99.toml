@@ -16,6 +16,10 @@ korean = "미안했다. 사실 바로 보고하고 싶었는데 출항이 급해
 japanese = "だったら、自分の分まで<line-break>その子どもたちを<line-break>愛してくれればいいって<line-break>彼が、そう言ってくれたんです。<end>"
 korean = "그렇다면 자기 몫까지 그 아이들을 사랑해 주면 된다고 그 사람이 말해 줬어요.<end>"
 
+["2160006"]
+japanese = "ありがとう、<value:$28>。<line-break>　<line-break>　<line-break>あんたには本当に世話になった。<line-break>ちゃんと別れの挨拶ができて<line-break>うれしいぜ…。<end>"
+korean = "고마워, <value:$28>. 네게 정말 신세 많이 졌어. 제대로 작별 인사를 할 수 있어서 기쁘다….<end>"
+
 ["2160007"]
 japanese = "また世界のどこかで会おうぜ、<line-break><value:$28>！<end>"
 korean = "또 세상 어딘가에서 만나자, <value:$28>!<end>"

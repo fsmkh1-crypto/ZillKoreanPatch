@@ -76,6 +76,10 @@ korean = "후훗, 정말 봐주질 않네.<end>"
 japanese = "くすっ、無様ね。もう少しは<line-break>楽しませてくれると思ったけど。<line-break>　<line-break>おもしろくないオモチャは<line-break>消えなさい。<line-break>ウフフフ！<end>"
 korean = "후후, 꼴사납네. 조금은 즐겁게 해 줄 줄 알았는데. 재미없는 장난감은 사라져. 우후후후!<end>"
 
+["720042"]
+japanese = "聖杯はいただいておくわ。<line-break>あなたたちには不要でしょう？<end>"
+korean = "성배는 내가 가져갈게. 너희한텐 필요 없잖아?<end>"
+
 ["720043"]
 japanese = "…行くぞ。<line-break>…俺は何があっても<line-break>姉を取り戻す。<end>"
 korean = "…간다. …나는 무슨 일이 있어도 누나를 되찾겠다.<end>"
@@ -99,6 +103,10 @@ korean = "하지만 나는 지금 그 여자 곁을 떠나 너희를 찾고 있�
 ["720051"]
 japanese = "…お前…なのだな。<end>"
 korean = "…너…구나.<end>"
+
+["720053"]
+japanese = "聖杯はいただいておくわ。<line-break>あなたたちには不要でしょう？<end>"
+korean = "성배는 내가 가져갈게. 너희한텐 필요 없잖아?<end>"
 
 ["720055"]
 japanese = "させないっ！<end>"
@@ -179,6 +187,10 @@ korean = "…구해 주는 거다. 이름 정도는 밝혀라.<end>"
 ["720084"]
 japanese = "…<value:$28>か。<line-break>わかった。<line-break>　<line-break>…それでは俺についてこい！<line-break>足手まといになるなよ！<line-break>行くぞ！<end>"
 korean = "…<value:$28>인가. 알았다. …그럼 나를 따라와! 발목 잡지 마라! 간다!<end>"
+
+["720085"]
+japanese = "くすっ、目的のためなら<line-break>ホント、親友にも容赦ないのね。<end>"
+korean = "후후, 목적을 위해서라면 정말 친한 친구한테도 가차 없네.<end>"
 
 ["720086"]
 japanese = "…さっきの女は？<end>"

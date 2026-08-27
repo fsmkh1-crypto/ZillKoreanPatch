@@ -428,6 +428,10 @@ korean = "간다<end>"
 japanese = "行かない<end>"
 korean = "안 가<end>"
 
+["1400182"]
+japanese = "ありがとうございます。<line-break>…こんな変なこと、お願いして<line-break>すみません。<line-break>では、<value:$28>様、<line-break>空中庭園に参りましょう。<end>"
+korean = "감사합니다. …이런 이상한 부탁을 해서 죄송해요. 그럼 <value:$28>님, 공중정원으로 가죠.<end>"
+
 ["1400183"]
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
