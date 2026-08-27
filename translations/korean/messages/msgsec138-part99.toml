@@ -828,6 +828,10 @@ korean = "뭐, 이 정도인가요?<end>"
 japanese = "オルファウスさん。<line-break>本当にお世話になりました。<line-break> <line-break>す、すごい冒険だよ。<line-break>さっそく出発しよう！<line-break><value:$28>！<end>"
 korean = "오르파우스 씨. 정말 신세 많이 졌습니다. 굉장한 모험이야. 바로 출발하자! <value:$28>!<end>"
 
+["1380418"]
+japanese = "世界を巡って、人に出会い、<line-break>仲間を作ってください。<line-break>　<line-break>その中で世界は<line-break>様々な顔を見せてくれるでしょう。<line-break>自由な旅を！<end>"
+korean = "세계를 돌아다니며 사람을 만나고 동료를 만드세요. 그 속에서 세계는 여러 얼굴을 보여 줄 겁니다. 자유로운 여행을!<end>"
+
 ["1380419"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
