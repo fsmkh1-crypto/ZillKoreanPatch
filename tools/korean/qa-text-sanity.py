@@ -4,7 +4,7 @@
 Structural token checks cannot catch typography residue. This scan intentionally
 prefers precision over recall: it reports only ASCII sentence punctuation glued
 to Hangul plus full-width spaces in translated Korean. Deliberate full-width
-title punctuation and expressive reduplication are not treated as errors.
+title punctuation and a tiny set of verified UI-layout rows are excluded.
 """
 from __future__ import annotations
 
@@ -20,8 +20,9 @@ KOREAN_DIR = ROOT / "translations" / "korean" / "messages"
 SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:(?:-part\d+)|b)?\.toml$")
 HANGUL_RE = re.compile(r"[가-힣]")
 TOKEN_RE = re.compile(r"<[^>]+>")
-# ASCII only. Full-width punctuation is commonly intentional in copied titles/UI.
 GLUED_ASCII_SENTENCE_RE = re.compile(r"[.!?][가-힣]")
+# Verified display-layout rows where U+3000 is intentional and should remain.
+ALLOWED_FULLWIDTH_SPACE_IDS = {190373, 190378, 190383, 200077}
 
 
 def issue(kind: str, section: int, rid: str, path: str, ja: str, ko: str, detail: str) -> dict[str, object]:
@@ -63,16 +64,15 @@ def main() -> None:
             if not HANGUL_RE.search(separated):
                 continue
 
-            if "\u3000" in ko and ko != ja:
+            if "\u3000" in ko and ko != ja and numeric not in ALLOWED_FULLWIDTH_SPACE_IDS:
                 findings.append(issue("fullwidth_space_in_korean", section, rid, path.name, ja, ko, f"count={ko.count(chr(0x3000))}"))
 
-            # Tokens are separators so branch boundaries cannot create false hits.
             for match in GLUED_ASCII_SENTENCE_RE.finditer(separated):
                 findings.append(issue("glued_ascii_sentence", section, rid, path.name, ja, ko, match.group(0)))
 
     counts = Counter(str(x["kind"]) for x in findings)
     report = {
-        "schema": 3,
+        "schema": 4,
         "unique_records": unique_records,
         "finding_count": len(findings),
         "finding_by_kind": dict(sorted(counts.items())),
