@@ -1,554 +1,400 @@
-{"section":102,"id":"1020003","japanese":"先生。来ました！<line-break>ディンガル軍がこちらに向かってきます。<line-break>先頭にいるのは間違いなくアイリーンです。<end>"}
-{"section":56,"id":"560822","japanese":"その<value:$28>が言うのです。<line-break>暗殺者のあとを追っていったが<line-break>おじさまの屋敷の前で見失った、と。<line-break>これは、どういうことなのでしょう。<line-break>おじさま、何かおっしゃってください。<line-break>このままでは…<end>"}
-{"section":102,"id":"1020021","japanese":"お前、心が泣いてるじゃねえか。<line-break>そんなに自分を追い込むもんじゃない。　<line-break>痛々しくて見てられないぜ。<end>"}
-{"section":56,"id":"560873","japanese":"クリュセイスがいなくなり<line-break>俺がリベルダムの支配者となった以上<line-break>お前もどうでもいい存在だ。<line-break>もう、お前の生命を取る必要もない。<line-break>勝手にどこへでも行くがいい。<line-break><value:$28>…。クックック…。<end>"}
-{"section":105,"id":"1050058","japanese":"フゴー美術館の美術品を運び出します。<line-break>その際に、美術品と一緒に<line-break>リベルダムを脱出していただきます。<end>"}
-{"section":59,"id":"590111","japanese":"…<value:$28>！　お前も<line-break>アンギルダンのとっつぁんの側か！　<line-break>人物は人物を呼ぶんだな。<line-break>こりゃあ、ちょっと分が悪いな。<line-break>ま、いい。なんとか運命の女神を<line-break>振り向かせるのには成功したようだ。<end>"}
-{"section":106,"id":"1060006","japanese":"君の今後の活躍に期待している。　　　<line-break>これからも、よろしく頼む。<line-break>我らが同志、ロセンの鐘の英雄よ。<end>"}
-{"section":103,"id":"1030101","japanese":"…言っておきますけど、<line-break>あなたの命は問題ではありません。<line-break>補償金が無駄になるから、それだけよ。<line-break>あなたには、補償金の額だけ<line-break>しっかり働いてもらわないと<line-break>困りますから、そのつもりで。<end>"}
-{"section":106,"id":"1060060","japanese":"…でも、普通、こういうのって<line-break>機密事項だよね？　ザギヴ将軍って<line-break>味方の中にも敵が多い人なのかな…？<end>"}
-{"section":107,"id":"1070041","japanese":"もちろん、これは魔法の宝箱だから<line-break>ディテクターなしで開けることができるよ。<line-break>もっともアンチハードルも役に立たないけどね。<line-break>だから、本当の実力勝負ってわけ。<line-break>で、やってみる気になったかい？<end>"}
-{"section":124,"id":"1240144","japanese":"もう知らない知らない！<line-break>クロイス邸だろうが好きに行ったらぁ、<line-break>アタクシにはぜ～んぜん関係ないわっ！<end>"}
-{"section":108,"id":"1080028","japanese":"凄腕の冒険者の間じゃ有名な噂よ。<line-break>エンシャント南東の森の奥にある<line-break>賢者が住んでるって屋敷の噂。<line-break>運命に選ばれた者しかたどりつけない…<line-break>って話なんだけど。<line-break>気になるなら行ってみない？<end>"}
-{"section":125,"id":"1250080","japanese":"かつてのバイアシオン最大の都市が<line-break>ゾフォルひとりの手でここまで…。<line-break>この戦、負けるわけにはいかん。<end>"}
-{"section":108,"id":"1080055","japanese":"猫屋敷とは、エンシャント南東の<line-break>賢者の森に隠されているという<line-break>賢者様の屋敷のことでしょう。<line-break>しかし、そこへは運命に選ばれないと<line-break>永遠にたどりつくことができないとも<line-break>聞いております。<end>"}
-{"section":125,"id":"1250331","japanese":"シャリはあれを神などと呼んだけど…<line-break>あれは絶対に神などではないわ。<line-break>あれは、醜い怪物に他ならない。<end>"}
-{"section":108,"id":"1080060","japanese":"凄腕の冒険者の間じゃ有名な噂よ。<line-break>エンシャント南東の森の奥にある<line-break>賢者が住んでるって屋敷の噂。<line-break>運命に選ばれた者しかたどりつけない…<line-break>って話なんだけど。<line-break>気になるなら行ってみない？<end>"}
-{"section":125,"id":"1250364","japanese":"イーシャがほほに傷のある男をねぇ。<line-break>誰を捜してるのか見当はつくんだが、<line-break>居場所まではわからないな。<end>"}
-{"section":108,"id":"1080112","japanese":"オズワルドなんて辺境の町を、<line-break>どーして高貴なエルフのアタクシが<line-break>調査に行かなくてはいけないのよ！<line-break>連絡が途絶えたのは、<line-break>田舎暮らしがイヤになって、<line-break>みんなで都会に引っ越したからよ！<end>"}
-{"section":125,"id":"1250374","japanese":"ああ、彼のことなら知ってるけど…<line-break>どうなったか知らせないほうがいいよ。<line-break>力になれなくて、ごめんね。<end>"}
-{"section":140,"id":"1400415","japanese":"それを…、キミが解いてしまった…。<line-break>ティラは世界を生み、<line-break>そしてノトゥーンに奪われた女神だ。<line-break>ティラは人が自然を破壊するのを<line-break>我が子が傷つけられるように<line-break>悲しみ、怒り、憎んでいる。<end>"}
-{"section":51,"id":"510069","japanese":"あれ、言わなかったけか？<line-break>ま、俺のあふれ出る気品みたいなもんで<line-break>貴族だとわかってると思ってたんでな。<end>"}
-{"section":148,"id":"1480025","japanese":"いえいえ、森を歩いていたら<line-break>迷子に出会ったものですから。<line-break>助けるのは当然というものですよ。　　<line-break>それより、皆さんお疲れのようですし、<line-break>久々の再会で話すことも<line-break>たくさんあるでしょう。<end>"}
-{"section":53,"id":"530034","japanese":"兄は無能ゆえに多くの兵を死なせた。<line-break>死をもって報いるのが当然だろう。<line-break>息子のゼネテスに跡を継がせた。<end>"}
-{"section":157,"id":"1570141","japanese":"どうもありがとうございました。　　　　　　　<line-break>このご恩は一生忘れません。<line-break>　<line-break>助けていただいたお礼です。<line-break>契約の料金よりも多いですが、私の気持ちです。<line-break>どうか、お受け取りください。<end>"}
-{"section":55,"id":"550011","japanese":"この世を救う使命を負った勇者だけが、<line-break>あの剣を引き抜くことができるという…<line-break>古くからの言い伝えじゃ。<end>"}
-{"section":159,"id":"1590192","japanese":"破壊神の円卓騎士ネモですよ。<line-break>もともと聖杯は彼のものなのです。　　<line-break>　<line-break>アーギルシャイアの企みを知った彼は<line-break>自分の神器を奪われたくないと考え、<line-break>この際、神器の力でもとの姿に戻ろうと<end>"}
-{"section":57,"id":"570034","japanese":"禁断の聖杯は持ち主に英知を与えます。<line-break>知恵を身につけたゴブリンたちは<line-break>ネモを見限ってしまったのです。<end>"}
-{"section":161,"id":"1610004","japanese":"実はな、最近、風泣きの洞窟に　　　　<line-break>ものすごい怪物が出るらしい。<line-break>　<line-break>あそこは島唯一のコロル石の産地だから<line-break>町の連中も割と足を踏み入れるんだが、<line-break>このままではとてつもなく危険だ。<end>"}
-{"section":58,"id":"580013","japanese":"ハハハ！　そうすれば、ただでさえ、<line-break>最近は物忘れが激しいんじゃ。<line-break>今のことも忘れてしまうじゃろうて。<end>"}
-{"section":161,"id":"1610112","japanese":"そうか。いや、あんたのことだ。　　　<line-break>絶対に引き受けてくれると思ってたよ。<line-break>　<line-break>あ、そうそう。言い忘れてたけど、<line-break>報酬はもう神官様からもらってる。<line-break>３０００ギアだ。結構なもんだろ？<end>"}
-{"section":62,"id":"620208","japanese":"オルファウス様、さよならゴブ！<line-break>今は聖杯は渡せないゴブ！　だけど、<line-break>いつか我らなりに答えを出すゴブ！<end>"}
-{"section":123,"id":"1230050","japanese":"紺碧の洞窟の怪物を退治したら、<line-break><value:$28>、テラネのギルドへ<line-break>報告に行くんでしょ。<line-break>テラネのボンガさんはいい人だよぉ。<line-break>ルルアンタ、お菓子をもらっちゃった。<line-break>また今度遊びに行くんだぁ。<end>"}
 {"section":69,"id":"690108","japanese":"お、お前、これをねらってるゴブな！<line-break>渡さないゴブ！　渡せないゴブ！<line-break>我らは絶対に幸せになるのでゴブ！<end>"}
-{"section":123,"id":"1230082","japanese":"鳳凰山に鳳凰を探しに行くの？<line-break>ルルアンタも連れてって欲しいなあ。<line-break>だって鳳凰、見たことないんだもん。<line-break>もしダメなら捕まえてきてね。<line-break>約束だよ、ね、<value:$28>。<line-break>ルルアンタのお願いだよ。<end>"}
+{"section":159,"id":"1590192","japanese":"破壊神の円卓騎士ネモですよ。<line-break>もともと聖杯は彼のものなのです。　　<line-break>　<line-break>アーギルシャイアの企みを知った彼は<line-break>自分の神器を奪われたくないと考え、<line-break>この際、神器の力でもとの姿に戻ろうと<end>"}
 {"section":69,"id":"690239","japanese":"…貴様には関わりのないことだ。<line-break>人のことにかまっていられるほどの<line-break>実力もない者は、黙っているんだな。<end>"}
-{"section":125,"id":"1250095","japanese":"私怖いです、<value:$28>さん。<line-break>街をこんなにした人と戦わなくちゃって<line-break>思うと、ふるえちゃうんです…。<line-break>でもこんなんじゃダメですよね。<line-break>これ以上犠牲を出さないためにも、<line-break>勇気を出さないと！<end>"}
+{"section":123,"id":"1230050","japanese":"紺碧の洞窟の怪物を退治したら、<line-break><value:$28>、テラネのギルドへ<line-break>報告に行くんでしょ。<line-break>テラネのボンガさんはいい人だよぉ。<line-break>ルルアンタ、お菓子をもらっちゃった。<line-break>また今度遊びに行くんだぁ。<end>"}
 {"section":70,"id":"700052","japanese":"こういう時の人間の恐怖心って<line-break>とってもイイの。記憶をたぐる時に<line-break>ビンビンきて…。フフ、たまらないわ。<end>"}
-{"section":140,"id":"1400179","japanese":"あ、<value:$28>様…。<line-break>あ、あの、空中庭園まで<line-break>ご一緒していただけないでしょうか？<line-break>ゼネテス様からお手紙が来たのです。<line-break>空中庭園に来るようにと。ですが、<line-break>まだひとりで行く勇気がなくて…。<end>"}
+{"section":123,"id":"1230082","japanese":"鳳凰山に鳳凰を探しに行くの？<line-break>ルルアンタも連れてって欲しいなあ。<line-break>だって鳳凰、見たことないんだもん。<line-break>もしダメなら捕まえてきてね。<line-break>約束だよ、ね、<value:$28>。<line-break>ルルアンタのお願いだよ。<end>"}
 {"section":80,"id":"800032","japanese":"これで、汝は強大なる源羅の力を得た。<line-break>…いよいよの活躍、期待しているぞ。<line-break>人類の革新のために、な…。<end>"}
-{"section":148,"id":"1480140","japanese":"そうそう。<value:$28>は<line-break>ギルドで受けた仕事を達成してるから<line-break>ギルドに行けば報酬がもらえるよぉ。<line-break>だから、時間があったら<line-break>ロストールのギルドに行った方が<line-break>いいよ。じゃあ、またあとでねぇ。<end>"}
+{"section":125,"id":"1250095","japanese":"私怖いです、<value:$28>さん。<line-break>街をこんなにした人と戦わなくちゃって<line-break>思うと、ふるえちゃうんです…。<line-break>でもこんなんじゃダメですよね。<line-break>これ以上犠牲を出さないためにも、<line-break>勇気を出さないと！<end>"}
 {"section":85,"id":"850110","japanese":"あの女が東方方面を調べるからって<line-break>護衛を依頼してきたら、必ず受けるの。<line-break>きっとあなたの株が上がるわ。<end>"}
-{"section":148,"id":"1480144","japanese":"そうそう。<value:$28>は<line-break>ギルドで受けた仕事を達成してるから<line-break>ギルドに行けば報酬がもらえるよぉ。<line-break>だから、ロストールに行くんだったら<line-break>ギルドに行った方がいいよ。<line-break>じゃあ、またあとでねぇ。<end>"}
+{"section":140,"id":"1400179","japanese":"あ、<value:$28>様…。<line-break>あ、あの、空中庭園まで<line-break>ご一緒していただけないでしょうか？<line-break>ゼネテス様からお手紙が来たのです。<line-break>空中庭園に来るようにと。ですが、<line-break>まだひとりで行く勇気がなくて…。<end>"}
 {"section":85,"id":"850141","japanese":"あの女が東方方面を調べるからって<line-break>護衛を依頼してきたら、必ず受けるの。<line-break>きっとあなたの株が上がるわ。<end>"}
-{"section":154,"id":"1540043","japanese":"はぁい、元気そうだね、<value:$28>。　<line-break>でも、ここまでくるとさすがに<line-break>目ざわりなんだよね。<line-break>　<line-break>無限のソウルの持ち主は、<line-break>もうひとりいるから、<line-break>君にはそろそろ退場してもらおうかな。<end>"}
+{"section":148,"id":"1480140","japanese":"そうそう。<value:$28>は<line-break>ギルドで受けた仕事を達成してるから<line-break>ギルドに行けば報酬がもらえるよぉ。<line-break>だから、時間があったら<line-break>ロストールのギルドに行った方が<line-break>いいよ。じゃあ、またあとでねぇ。<end>"}
 {"section":85,"id":"850161","japanese":"あの女が東方方面を調べるからって<line-break>護衛を依頼してきたら、必ず受けるの。<line-break>きっとあなたの株が上がるわ。<end>"}
-{"section":170,"id":"1700003","japanese":"<value:$28>は今、<line-break>冒険者をしているんですってね。　　　<line-break>チャカもそうなの？<line-break>長老様は文句を言うかもしれないけど、<line-break>たいていの人は、あなたたち姉弟が<line-break>帰ってきてくれるのを待っているのよ。<end>"}
+{"section":148,"id":"1480144","japanese":"そうそう。<value:$28>は<line-break>ギルドで受けた仕事を達成してるから<line-break>ギルドに行けば報酬がもらえるよぉ。<line-break>だから、ロストールに行くんだったら<line-break>ギルドに行った方がいいよ。<line-break>じゃあ、またあとでねぇ。<end>"}
 {"section":88,"id":"880129","japanese":"ま、待ってください！<line-break>私たちは怪しいものではありません！<line-break>その水晶、エステル様からもらったんですね？<end>"}
-{"section":170,"id":"1700004","japanese":"まあ、<value:$28>…。　　　　　<line-break>こうして平和な町になったのも<line-break>あなたたち姉弟のおかげよ。<line-break>あなたたちが立ち上がらなかったら、<line-break>今でも怯えながら生きていたと思うわ。<line-break>本当にありがとうね。<end>"}
+{"section":154,"id":"1540043","japanese":"はぁい、元気そうだね、<value:$28>。　<line-break>でも、ここまでくるとさすがに<line-break>目ざわりなんだよね。<line-break>　<line-break>無限のソウルの持ち主は、<line-break>もうひとりいるから、<line-break>君にはそろそろ退場してもらおうかな。<end>"}
 {"section":89,"id":"890002","japanese":"ま、待ってください！<line-break>私たちは怪しいものではありません！<line-break>その水晶、エステル様からもらったんですね？<end>"}
-{"section":173,"id":"1730072","japanese":"どこで何をやってるかと思ったら。　<line-break>相変わらず、甘ちゃんね。<line-break>…ま、そこがかわいいんだけどね。<line-break>わかったわ。大したことじゃないし、<line-break>他ならぬ<value:$28>の<line-break>頼みだからね。聞いといたげる。<end>"}
-{"section":89,"id":"890229","japanese":"さぁ、お前の痛みを解放するがいい。<line-break>世界がお前に産みつけた痛みを、<line-break>この世界にわからせてやるのじゃ。<end>"}
-{"section":188,"id":"1880112","japanese":"わたくし、何を言っているのかしら。<line-break><value:$28>は、解放軍の一員<line-break>ですもの、解放軍のためよね。<line-break>でも、あなたはわたくしのやり方に<line-break>賛同してくれるのですね。<line-break>…正直に言って、うれしいです。<end>"}
-{"section":89,"id":"890668","japanese":"シルヴァは以前より竜王様への<line-break>信仰が厚かった地。お前も幼少より、<line-break>竜王様に祈りを捧げてきたのだろう？<end>"}
-{"section":267,"id":"2670009","japanese":"そんな、<value:$28>…。<line-break>やめて。あたしたちのために<line-break>あなたが犠牲になるなんて…。<line-break>もう大事な人をそんな目に<line-break>あわせたくないの。<line-break>　<line-break>あたしひとりだけ残されるのは<line-break>もうイヤ！<end>"}
-{"section":92,"id":"920039","japanese":"や～ね～、自分の尺度でしか<line-break>ものを見られないなんて。　　　　　<line-break>所詮、下等生物なんてその程度かしら。<end>"}
-{"section":22,"id":"220026","japanese":"近頃、村の近くに<value:$15>が出るのよ。<line-break>私たちは恐くて夜も眠れないわ。<line-break><value:$15>を倒して、<line-break>村の近くから追い払って。<line-break>多くないけど<value:$1A>ギアなら用意できるわ。<line-break><value:$1B>日以内にお願いね。<end>"}
-{"section":92,"id":"920040","japanese":"とにかく、その泥くっさいドワーフと<line-break>一緒に旅しないといけないくらいなら<line-break>舌かんで死んだ方がましだわ！<end>"}
-{"section":24,"id":"240048","japanese":"業務の関係で、<value:$15>を<line-break><value:$16>まで輸送します。<line-break>強奪の危険を回避するため、<line-break>冒険者の方に運搬を依頼いたします。<line-break>期限は<value:$1B>日以内です。<line-break>報酬は、<value:$1A>ギアとさせていただきます。<end>"}
-{"section":92,"id":"920066","japanese":"とにかく、その泥くっさいドワーフと<line-break>一緒に旅しないといけないくらいなら<line-break>舌かんで死んだ方がましだわ！<end>"}
-{"section":24,"id":"240076","japanese":"<value:$15>を運ぶ人募集<line-break><value:$16>まで<line-break><value:$1A>ギアの好条件<line-break>品物を運搬してくれる方はいませんか。<line-break>旅ならおまかせというあなた、チャンスです。<line-break><value:$1B>日以内に送り届けられる方、待ってます。<end>"}
-{"section":93,"id":"930007","japanese":"きゃ、ちょ、ちょっと、どきなさいよ！<line-break>この酒まみれ泥ドワーフ！<line-break>アタクシに酒臭い身体、近づけないで！<end>"}
-{"section":26,"id":"260082","japanese":"アンギルダンのお爺ちゃんに<line-break>会いに行く時には合い言葉がいるよぉ。<line-break><value:$28>はおぼえてる？<line-break>帝国はあの陽より輝く、だからね。<line-break>アキュリュースの船着き場で、<line-break>女の人に会ったら言うんだよぉ。<end>"}
-{"section":97,"id":"970065","japanese":"え？　遺跡に封印されていた<line-break>ソウルイーターっていう魔物が復活して<line-break>住民は魂を吸われてしまっただって？<end>"}
-{"section":73,"id":"730120","japanese":"ちょっと、<value:$28>。<line-break>結局、この研究所のどこにも<line-break>禁断の聖杯なんてなくってよー！<line-break>それにあのアンティノとかいう<line-break>超下等動物も！　あー、もうこれ以上<line-break>こんな所にいたくないわ。帰るのよー！<end>"}
-{"section":98,"id":"980156","japanese":"人なんて、いいかげんなものですね。<line-break>これまで、白い目で見ていた人が<line-break>エルメス将軍にお取りなしをって。<end>"}
-{"section":88,"id":"880281","japanese":"ラドラスが浮上したときは<line-break>どうなることかと思ったけど、<line-break>無事に着地できてほんとうに良かったわ。<line-break>死んでしまったら外の世界を冒険する<line-break>ことができなくなるものね。<line-break><value:$28>さんありがとう。<end>"}
-{"section":135,"id":"1350424","japanese":"　　そして青竜将軍カルラのもとへは<line-break>　　　帝国宰相ベルゼーヴァより<line-break>　　　 一通の書状が届いていた。<end>"}
-{"section":108,"id":"1080025","japanese":"賢者の森に隠れ住む賢者とな。<line-break>森は、運命に選ばれた者のみを<line-break>その元へ通すのだという。<line-break>静かに暮らしたいという気持ちは<line-break>わからんでもないが、いささか<line-break>気まぐれなところがあるようじゃの。<end>"}
-{"section":102,"id":"1020087","japanese":"エルメスさんから伝言があるわ。<line-break>ごめんなさい、そう伝えてって。<line-break>もう、この街に戻ることはないそうよ。<end>"}
-{"section":108,"id":"1080058","japanese":"エンシャントの南東、賢者の森が<line-break>運命に選ばれた者のみを通すという、<line-break>賢者の屋敷のことだろう。<line-break>試してみたいのは私も同じだが、<line-break>いざたどり着けないとなると、<line-break>少々、自信を失いそうだな。<end>"}
-{"section":106,"id":"1060090","japanese":"ま、あなたの立場もあることだし、　　<line-break>今はそっちはほっときましょ？<line-break>これは報酬。また、情報お願いね？<end>"}
-{"section":108,"id":"1080128","japanese":"（調査も終了したし、<line-break>　あとはギルドに報告すれば<line-break>　依頼は達成したことになる。）<line-break>（これからも、今回のような依頼を<line-break>　受けることがあるだろうけど、<line-break>　忘れずに結果を報告しないと…。）<end>"}
-{"section":108,"id":"1080006","japanese":"賢者の森はエンシャントの南東よ。<line-break>しかし、その奥にあるという屋敷には<line-break>まだ誰もたどりつけていない…。<end>"}
-{"section":121,"id":"1210085","japanese":"死竜の洞窟はね、邪竜エルアザルが<line-break>賢王アルキュオネによって倒された<line-break>場所なんだよねぇ。<line-break>だから、黄泉の乙女像があるっていう<line-break>洞窟の一番奥には、邪竜の幽霊が<line-break>でるかもよ、ふふふふふ…。<end>"}
-{"section":108,"id":"1080081","japanese":"なるほど、兄弟子の質問をお題にして<line-break>ダジャレを言えばいいのですな。<line-break>わかり申した。期待してくだされ。<end>"}
-{"section":121,"id":"1210128","japanese":"（名指しの依頼が来た。<line-break>　依頼主はハーフエルフだという。<line-break>　どんな依頼なんだろう？）<line-break>（詳しい依頼内容は、エンシャントの<line-break>　冒険者ギルドで教えてくれる<line-break>　という話だから行ってみよう）<end>"}
-{"section":108,"id":"1080084","japanese":"何をすればいいのかわからなくなったら<line-break>仲間に尋ねてみるがいい。<line-break>そこから道が開けることもあるだろう。<end>"}
-{"section":122,"id":"1220197","japanese":"キミがロセンで引き受けた仕事だね。<line-break>ギルドに依頼してきた神官の話だと、<line-break>闇の力を持った魔物なんでしょ。<line-break>どう？　やっつける自信あるの？<line-break>ボク…キミにはあまり無茶を<line-break>しないで欲しいな。<end>"}
-{"section":133,"id":"1330251","japanese":"私がネメアの精神を守っておきます。<line-break>本気で戦って打ち負かしてください。<line-break>でないと、みんな死にますよ！<end>"}
-{"section":124,"id":"1240039","japanese":"３個目の闇の神器は、<line-break>あの考古学者のエスト・リューガが<line-break>所持しているのですか。<line-break>確証は持てませんが、彼なら古代遺跡を<line-break>調査に行っているはずです。<line-break>運がよければ、そこで会えるでしょう。<end>"}
+{"section":170,"id":"1700003","japanese":"<value:$28>は今、<line-break>冒険者をしているんですってね。　　　<line-break>チャカもそうなの？<line-break>長老様は文句を言うかもしれないけど、<line-break>たいていの人は、あなたたち姉弟が<line-break>帰ってきてくれるのを待っているのよ。<end>"}
 {"section":133,"id":"1330479","japanese":"クーデターで死んだゼネテスを、<line-break>私の操り人形としてよみがえらせたの。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":125,"id":"1250049","japanese":"高貴で優雅なエルフのアタクシを<line-break>ド下等生物同士の醜い争いに<line-break>巻き込まないでくれる！？<line-break>アタクシは高貴で優雅でハイソで<line-break>知性あふれるエ・ル・フなのよ！<line-break>あなた、ほんとにわかってるの！？<end>"}
+{"section":170,"id":"1700004","japanese":"まあ、<value:$28>…。　　　　　<line-break>こうして平和な町になったのも<line-break>あなたたち姉弟のおかげよ。<line-break>あなたたちが立ち上がらなかったら、<line-break>今でも怯えながら生きていたと思うわ。<line-break>本当にありがとうね。<end>"}
 {"section":133,"id":"1330539","japanese":"クーデターで死んだゼネテスを、<line-break>私の操り人形としてよみがえらせたの。<line-break>フフ、ウフフ…すてきでしょう？<end>"}
-{"section":133,"id":"1330139","japanese":"死神の鎌はその輝きを増し、<line-break>最後の王国をなぎ払おうとしておる。<line-break>相対し得るは剣狼の牙のみ。<line-break>その影で、獅子は闇と戦っておる。<line-break>汝、いずれに与すか。<line-break>道は分かれ、未来もまた分かたれる。<end>"}
+{"section":173,"id":"1730072","japanese":"どこで何をやってるかと思ったら。　<line-break>相変わらず、甘ちゃんね。<line-break>…ま、そこがかわいいんだけどね。<line-break>わかったわ。大したことじゃないし、<line-break>他ならぬ<value:$28>の<line-break>頼みだからね。聞いといたげる。<end>"}
 {"section":133,"id":"1330657","japanese":"わしも傭兵時代に探したもんじゃが…<line-break>まさか、そのレオニックと同じ<line-break>あだ名をもらうことになるとはのう。<end>"}
-{"section":133,"id":"1330154","japanese":"円卓騎士をはじめとする魔人、<line-break>いきのよい怪物どもや、凶暴な邪竜、<line-break>そして、偉大なる破壊神。<line-break>それらを召喚するためには、<line-break>それこそ人知を超える莫大な<line-break>魔道エネルギーが必要となるのじゃ。<end>"}
+{"section":125,"id":"1250049","japanese":"高貴で優雅なエルフのアタクシを<line-break>ド下等生物同士の醜い争いに<line-break>巻き込まないでくれる！？<line-break>アタクシは高貴で優雅でハイソで<line-break>知性あふれるエ・ル・フなのよ！<line-break>あなた、ほんとにわかってるの！？<end>"}
 {"section":134,"id":"1340142","japanese":"ヴァン、叫ぶのやめなって…。<line-break>腹を立てるのはバカのやることだって<line-break>死んだおじいちゃんも言ってたよ…。<end>"}
-{"section":133,"id":"1330383","japanese":"君みたいな痛みなら強弱の差はあれ、<line-break>誰でも持ってるものなんだよ。<line-break>いい勉強になった？　アハハ…！<line-break>でも困ったな。精神が無くて<line-break>判断ができないんじゃ粗悪品だよ。<line-break>ちゃんと動くのかな…。<end>"}
+{"section":133,"id":"1330139","japanese":"死神の鎌はその輝きを増し、<line-break>最後の王国をなぎ払おうとしておる。<line-break>相対し得るは剣狼の牙のみ。<line-break>その影で、獅子は闇と戦っておる。<line-break>汝、いずれに与すか。<line-break>道は分かれ、未来もまた分かたれる。<end>"}
 {"section":134,"id":"1340266","japanese":"ええ。私たち、負けちゃいました。<line-break>正々堂々戦って、負けたんです。<line-break>レイヴン、闇の神器はナーシェスに？<end>"}
-{"section":133,"id":"1330428","japanese":"君みたいな痛みなら強弱の差はあれ、<line-break>誰でも持ってるものなんだよ。<line-break>いい勉強になった？　アハハ…！<line-break>でも困ったな。精神が無くて<line-break>判断ができないんじゃ粗悪品だよ。<line-break>ちゃんと動くのかな…。<end>"}
-{"section":134,"id":"1340326","japanese":"この世を救う使命を負った勇者だけが、<line-break>あの剣を引き抜くことができるという…<line-break>古くからの言い伝えじゃ。<end>"}
-{"section":133,"id":"1330688","japanese":"これを回避するために、リルビーは、<line-break>今後、ニ度とこんなことを<line-break>起こさないことを誓い、<line-break>人間の子供と区別するために、<line-break>すべてのリルビーにつけぼくろを<line-break>埋め込むことで人間と和解したんだ。<end>"}
+{"section":133,"id":"1330154","japanese":"円卓騎士をはじめとする魔人、<line-break>いきのよい怪物どもや、凶暴な邪竜、<line-break>そして、偉大なる破壊神。<line-break>それらを召喚するためには、<line-break>それこそ人知を超える莫大な<line-break>魔道エネルギーが必要となるのじゃ。<end>"}
 {"section":177,"id":"1770050","japanese":"よくぞ我が試練を乗り越え、ここまで参った。<line-break>約束どおり、禁忌の力を授けよう。<line-break>祭壇の前に立つがよい。<end>"}
-{"section":134,"id":"1340556","japanese":"俺は何もかも…決めてかかっていた。<line-break>憎けりゃ、殺したくなる。<line-break>愛されない奴は憎まれるしかない。<line-break>そう、思っていた。<line-break>だが、すべては…人の心にあるんだな。<line-break>人の心が状況を変えるのだな。<end>"}
-{"section":189,"id":"1890087","japanese":"私がネメアの精神を守っておきます。<line-break>本気で戦って打ち負かしてください。<line-break>でないと、みんな死にますよ！<end>"}
-{"section":135,"id":"1350429","japanese":"うぬう！　ネメア陛下不在と見るや<line-break>即座に政治を独占、国利を捨て<line-break>保身に走るか、あのトンガリ頭め！<line-break>このままでは青竜軍の名折れ！<line-break>即座に帝都に軍を返し、玄武軍を<line-break>蹴散らして、あの髪を！<end>"}
+{"section":133,"id":"1330383","japanese":"君みたいな痛みなら強弱の差はあれ、<line-break>誰でも持ってるものなんだよ。<line-break>いい勉強になった？　アハハ…！<line-break>でも困ったな。精神が無くて<line-break>判断ができないんじゃ粗悪品だよ。<line-break>ちゃんと動くのかな…。<end>"}
 {"section":190,"id":"1900110","japanese":"助ける方法はこれから探すの？<line-break>そう…、なんだったらアイリーン使う？<line-break>あたしは何か探すのって苦手でね。<end>"}
-{"section":136,"id":"1360110","japanese":"我々が知らぬと拒否しますと<line-break>イズキヤルを操り、その記憶から<line-break>聖光石の鉱脈を探り出したのです。<line-break>ほんの小僧のくせに使い手で<line-break>神官どもを蹴散らして<line-break>イズキヤルとともに鉱脈へ向かいました。<end>"}
+{"section":133,"id":"1330428","japanese":"君みたいな痛みなら強弱の差はあれ、<line-break>誰でも持ってるものなんだよ。<line-break>いい勉強になった？　アハハ…！<line-break>でも困ったな。精神が無くて<line-break>判断ができないんじゃ粗悪品だよ。<line-break>ちゃんと動くのかな…。<end>"}
 {"section":192,"id":"1920143","japanese":"あら、お母様。リベルダム、ロセンには<line-break>今のうちに恩を売った方がいい<line-break>ということはご存じのはずですわ。<end>"}
-{"section":136,"id":"1360206","japanese":"…なーんてさ、どっかの宰相みたいに<line-break>インケンなことは考えてないから。<line-break>安心しちゃって。<line-break>あたしが青竜将軍カルラ。<line-break>ま、これまでのことは水に流して<line-break>サクサク行こうよ。とりあえずは、さ。<end>"}
-{"section":92,"id":"920110","japanese":"これを打った者も、失敗しておったな。<line-break>ま、人間の打ったものが、神を斬れる<line-break>わけがないということじゃな。<end>"}
-{"section":162,"id":"1620046","japanese":"閣下はこうもおっしゃっておいででした。<line-break>ゼネテス様には、やや貴族としての<line-break>常識にかけるところがある。<line-break>命を惜しみ、おめおめと生き残ろうと<line-break>するならば、ゼネテス様の<line-break>介錯をしてさしあ…<end>"}
-{"section":95,"id":"950018","japanese":"バカじゃない？　アホじゃない？<line-break>どこへ行っても新しい驚きなんかない。<line-break>陳腐で何もかもがありふれてたわ。<end>"}
-{"section":57,"id":"570021","japanese":"正解です。よく、ご存じですね。<line-break>ただ、彼女はその本来の使い方<line-break>以外のことをしようとしています。<line-break>彼女は究極の合成怪物を作り<line-break>その力でおもしろ半分に世界を<line-break>破壊しようと考えているのです。<end>"}
-{"section":125,"id":"1250216","japanese":"この短期間の間に出陣するなんて。<line-break>帝国内で何かあったのかもしれません。<line-break>追いかけた方が良さそうですね。<end>"}
-{"section":62,"id":"620349","japanese":"周りのお客さんって、<line-break>私がいくら困ってたって、<line-break>ああいうとき、ただ笑ってるんです。　<line-break>私、別にお姫様じゃないですから、<line-break>誰も守ってはくれないんです。<line-break>ときどき、泣きたくなっちゃいます。<end>"}
-{"section":128,"id":"1280000","japanese":"いらっしゃい、何にしましょうか？<line-break>えっ！　酒は飲めないのかい。<line-break>よし、それなら特別にお茶を用意しよう。<end>"}
-{"section":69,"id":"690163","japanese":"無知なわがままエルフぅ？　よくって？<line-break>アタクシは１６００年も生きてるの…！<line-break>　<line-break>１００年も生きていない下等生物に<line-break>無知呼ばわりされるようなことなんて<line-break>絶対、絶対、絶対なくってよぉおお！<end>"}
-{"section":128,"id":"1280003","japanese":"おや、お金が足りないようだな。<line-break>いくら心の広い俺でも、タダでは<line-break>スペシャルティーを飲ませてやれないぜ。<end>"}
-{"section":69,"id":"690216","japanese":"…しっかし、クールでかっこいいねえ。<line-break>そのくせに子供みたいにわがままで、<line-break>どこか影があって…セクシーだねえ。<line-break>結構、実力もあるしさ。<line-break>なんていうか、<line-break>ちょっと惹かれちゃうねえ。　　　　<end>"}
-{"section":133,"id":"1330038","japanese":"おや、地の巫女エステルちゃん！<line-break>ごめんね。今は君に構ってられない。<line-break>僕の代わりにこいつがお相手するよ。<end>"}
-{"section":134,"id":"1340328","japanese":"ここの領主様は、かつて<line-break>ソウルイーターを倒したという<line-break>勇者の子孫だということだ。<line-break>つまり、その娘であるノエル様も、<line-break>勇者の血筋であるということになる。<line-break>きっと、あの剣を抜けると思うよ。<end>"}
-{"section":133,"id":"1330142","japanese":"このような未来があったとはな…。<line-break>そなたの持つ可能性は、わらわにさえ<line-break>見通すことができんようだな……。<end>"}
-{"section":134,"id":"1340456","japanese":"俺は何もかも…決めてかかっていた。<line-break>憎けりゃ、殺したくなる。<line-break>愛されない奴は憎まれるしかない。<line-break>…そう、思っていた。<line-break>だが、すべては…人の心にあるんだな。<line-break>人の心が状況を変えるのだな。<end>"}
-{"section":133,"id":"1330185","japanese":"いいえ…これからが始まりなのね。<line-break>これからの毎日こそ…私が私として<line-break>生きてゆく、本当の未来なのだもの。<end>"}
-{"section":134,"id":"1340534","japanese":"タルテュバ様のお体はボロボロです。<line-break>日頃から大酒を飲まれ、<line-break>不摂生をなさっていたこともあって…。<line-break>その上、今までどうなさっていたのか。<line-break>とにかく、衰弱がひどくて<line-break>かなり深刻な容態です。<end>"}
-{"section":133,"id":"1330658","japanese":"まあ、もう少しゆっくりさせてくれ。<line-break>しばらくしたら、神殿に戻って、<line-break>神官様らしく行儀よう座っとるでな。<end>"}
-{"section":134,"id":"1340570","japanese":"救世主エルファス様も<line-break>復興にはひとかたならぬ<line-break>お力をお貸しくださっています。<line-break>エルファス様は、ロストールだけでなく<line-break>世界中の都市で復興のため働いて、<line-break>神のようにあがめられているのです。<end>"}
-{"section":134,"id":"1340443","japanese":"…俺で…さえ、俺自身で…さえ、<line-break>俺のことが…好きに…なれなかった。<line-break>だのに…なぜ…？　ゲホッ、ゲホッ！<end>"}
-{"section":135,"id":"1350002","japanese":"俺がダルケニスであることなど関係なく<line-break>義母は、俺のことを才能があると<line-break>よく、はげましてくれた。<line-break>その義母が死ぬとき、<line-break>初めて実の母の消息を話してくれた。<line-break>母が冒険者に討たれたことを…。<end>"}
-{"section":135,"id":"1350029","japanese":"どういう…って、あんただって俺の<line-break>性分は知ってんだろ？　我ながら、<line-break>まっすぐ向かう保証はないもんでな。<end>"}
-{"section":135,"id":"1350037","japanese":"俺なら、なんとかなったって<line-break>思うほど、傲慢じゃないさ。<line-break>ただ責任も感じないほど図太くもない。<line-break>シャリはティアナが欲しかったんだ。<line-break>そして、俺はみすみす<line-break>奴にティアナを渡してしまった…。<end>"}
-{"section":135,"id":"1350186","japanese":"いいんじゃない？　教えてあげなよ。<line-break>虐げられ、恐れられてきた吸血鬼、<line-break>ダルケニスこそ君の正体だってさ。<end>"}
-{"section":135,"id":"1350251","japanese":"あなたが起こしたクーデター、それと<line-break>あなたのために傷つき、死んでいった者<line-break>たちの悲鳴と悲しみのおかげで…<line-break>この力を得ることができました。<line-break>たっぷりと味わいなさい…<line-break>おバカな吸血鬼さん。<end>"}
-{"section":135,"id":"1350366","japanese":"ネメア様が敵国深くのゼグナにある<line-break>闇の神器を取りにいくってっからさ。<line-break>放っとくわけにもいかないじゃん？<end>"}
-{"section":137,"id":"1370002","japanese":"なんだ。アイリーンを知ってるのか。<line-break>アイリーンは女だが、このあたりじゃ<line-break>かなう者がない剣の使い手だ。<line-break>アイリーンの父親は騎士でな。<line-break>アイリーンが男じゃなかったことを<line-break>くやしがってたよ。<end>"}
-{"section":135,"id":"1350515","japanese":"俺がシャリの誘いに乗らないっつって<line-break>のこのこ霊峰トールまで行ったこと…<line-break>もしかして、今さら怒ってんの？<end>"}
-{"section":137,"id":"1370007","japanese":"あん？<line-break>聖杯を取り返せないうちは<line-break>俺に合わす顔がないって言ってた？　　　<line-break>相変わらず妙なところでお堅い奴だな。<line-break>ここはただでさえ女っ気がねぇんだから、<line-break>紅一点の存在は貴重なんだがなぁ。<end>"}
-{"section":136,"id":"1360019","japanese":"ウフフアハハ！　関係あるさあ！<line-break>なんの感情も持たない告死天使の君を<line-break>ここまでにしてくれた彼の影響だよ。<end>"}
-{"section":137,"id":"1370302","japanese":"ズバリ、エモノの形のことだな。<line-break>使ってる武器がいまいち好みじゃねえ<line-break>…そんな時は、鍛冶屋の出番だ。<line-break>代金さえもらえりゃ、ある程度、<line-break>お前さんの好みに従って形を<line-break>仕立て直すことが可能だ。<end>"}
-{"section":136,"id":"1360020","japanese":"次！　ドンドンいこう！　ねえ？<line-break>君ははるか昔にエルアザルを倒した<line-break>忘れられた剣士に誰の姿を重ねてるの？<end>"}
-{"section":137,"id":"1370706","japanese":"さらに、この精霊の力は、<line-break>装備品ごとに上限が定まってはいますが、<line-break>レベルとして向上させることができます。<line-break>同じ火の属性の剣でも、<line-break>１レベルと３レベルでは<line-break>大きくその威力が変わってくる。<end>"}
+{"section":133,"id":"1330688","japanese":"これを回避するために、リルビーは、<line-break>今後、ニ度とこんなことを<line-break>起こさないことを誓い、<line-break>人間の子供と区別するために、<line-break>すべてのリルビーにつけぼくろを<line-break>埋め込むことで人間と和解したんだ。<end>"}
 {"section":136,"id":"1360217","japanese":"開け放つものって魔人がいるかって？<line-break>破壊神ウルグ様の円卓騎士筆頭<line-break>ヴァシュタールがそうだが、どうしたよ<end>"}
-{"section":138,"id":"1380117","japanese":"大商人の娘として育ち、欲したものを<line-break>何でもすぐに手に入れて当たり前という<line-break>生活をしてきた私の人生のうち、<line-break>今ほど、望んだものが手に入らず、<line-break>もがき苦しんだことなんて、<line-break>他にはないわ…。<end>"}
+{"section":134,"id":"1340556","japanese":"俺は何もかも…決めてかかっていた。<line-break>憎けりゃ、殺したくなる。<line-break>愛されない奴は憎まれるしかない。<line-break>そう、思っていた。<line-break>だが、すべては…人の心にあるんだな。<line-break>人の心が状況を変えるのだな。<end>"}
 {"section":136,"id":"1360250","japanese":"繰り返され代わり映えせぬ光と闇の戦い<line-break>その主役がどうしたことだ？<line-break>魔人とは戦えと、教えられなかったか？<end>"}
-{"section":140,"id":"1400416","japanese":"その悲しみや怒りや憎しみが<line-break>神々の戦いを引き起こし、<line-break>それは、現在にまで尾を引いている。<line-break>かつて戦いに敗れたティラは<line-break>その身体を４つに裂かれて封印された。<line-break>キミはその封印を解いたんだ。<end>"}
+{"section":135,"id":"1350429","japanese":"うぬう！　ネメア陛下不在と見るや<line-break>即座に政治を独占、国利を捨て<line-break>保身に走るか、あのトンガリ頭め！<line-break>このままでは青竜軍の名折れ！<line-break>即座に帝都に軍を返し、玄武軍を<line-break>蹴散らして、あの髪を！<end>"}
 {"section":136,"id":"1360273","japanese":"開け放つもの、ヴァシュタールか…。<line-break>ソウルと引き替えに開け放って<line-break>もらおっかな、あたしの心の底のアレ。<end>"}
-{"section":147,"id":"1470045","japanese":"うーん、そういえばこの辺りで<line-break>リルビーの女の子が、人相の悪ーい<line-break>男たちと、もめてるのを見たねー。<line-break>でも、しばらくしたら<line-break>女の子は男たちと一緒に町の外に<line-break>行ってしまったみたいだけどねー。<end>"}
+{"section":136,"id":"1360110","japanese":"我々が知らぬと拒否しますと<line-break>イズキヤルを操り、その記憶から<line-break>聖光石の鉱脈を探り出したのです。<line-break>ほんの小僧のくせに使い手で<line-break>神官どもを蹴散らして<line-break>イズキヤルとともに鉱脈へ向かいました。<end>"}
 {"section":136,"id":"1360422","japanese":"神官になったおぬしと同じくらい、<line-break>わしもいろいろと険しい人生の峠を<line-break>越えてきたもんで、忘れてしまった。<end>"}
-{"section":148,"id":"1480097","japanese":"アーギルシャイアは<line-break>破壊神ウルグの円卓騎士と呼ばれる　<line-break>強力な魔人のひとりです。<line-break>妖艶な美女で、残酷で気まぐれです。<line-break>闇の神器をひとつ手に入れるために<line-break>ミイスを焼き払ってしまいました。<end>"}
+{"section":136,"id":"1360206","japanese":"…なーんてさ、どっかの宰相みたいに<line-break>インケンなことは考えてないから。<line-break>安心しちゃって。<line-break>あたしが青竜将軍カルラ。<line-break>ま、これまでのことは水に流して<line-break>サクサク行こうよ。とりあえずは、さ。<end>"}
 {"section":136,"id":"1360483","japanese":"そして、すべては徒労に終わる。<line-break>貴様は破壊神の円卓騎士サムスンと<line-break>このザハクによって、ここで死ぬのだ。<end>"}
-{"section":156,"id":"1560024","japanese":"……何事もなく無事に旅を終えられましたな。<line-break>神のご加護に感謝しなさい。<line-break>　<line-break>これは神があなたに与えられる報酬です。<line-break>少し多めなのは神のご慈悲です。<line-break>神に失礼なきよう、有意義に使われよ。<end>"}
+{"section":162,"id":"1620046","japanese":"閣下はこうもおっしゃっておいででした。<line-break>ゼネテス様には、やや貴族としての<line-break>常識にかけるところがある。<line-break>命を惜しみ、おめおめと生き残ろうと<line-break>するならば、ゼネテス様の<line-break>介錯をしてさしあ…<end>"}
 {"section":136,"id":"1360632","japanese":"そして、すべては徒労に終わる。<line-break>貴様は破壊神の円卓騎士サムスンと<line-break>このザハクによって、ここで死ぬのだ。<end>"}
-{"section":161,"id":"1610165","japanese":"ああ、今の祈りですか？<line-break>闇の力を浄化したのです。<line-break>念には念を、というところですか。<line-break>これで、闇がひとつ滅びましたね。<line-break>それでは、急ぐので失礼します。<line-break>またいつか会うこともあるでしょう。<end>"}
+{"section":137,"id":"1370706","japanese":"さらに、この精霊の力は、<line-break>装備品ごとに上限が定まってはいますが、<line-break>レベルとして向上させることができます。<line-break>同じ火の属性の剣でも、<line-break>１レベルと３レベルでは<line-break>大きくその威力が変わってくる。<end>"}
 {"section":136,"id":"1360673","japanese":"そして、すべては徒労に終わる。<line-break>貴様は破壊神の円卓騎士サムスンと<line-break>このザハクによって、ここで死ぬのだ。<end>"}
-{"section":161,"id":"1610215","japanese":"無知なわがままエルフぅ？　よくって？<line-break>アタクシは１６００年も生きてるの…！<line-break>　<line-break>１００年も生きていない下等生物に<line-break>無知呼ばわりされるようなことなんて<line-break>絶対、絶対、絶対なくってよぉおお！<end>"}
+{"section":138,"id":"1380117","japanese":"大商人の娘として育ち、欲したものを<line-break>何でもすぐに手に入れて当たり前という<line-break>生活をしてきた私の人生のうち、<line-break>今ほど、望んだものが手に入らず、<line-break>もがき苦しんだことなんて、<line-break>他にはないわ…。<end>"}
 {"section":137,"id":"1370089","japanese":"俺の弟子はやっぱり正しかった…つまり<line-break>俺の目も、俺がここでしてきたことも<line-break>正しかったってことだからな。<end>"}
-{"section":162,"id":"1620137","japanese":"これだけの兵と物資を抱えて、<line-break>ディンガルとロストールを隔てている<line-break>分断の山脈を越えることはできない。<line-break>おそらく海路で来るはず…。<line-break>ロストール軍はそう判断して、<line-break>上陸時を叩く作戦に出た。<end>"}
+{"section":140,"id":"1400416","japanese":"その悲しみや怒りや憎しみが<line-break>神々の戦いを引き起こし、<line-break>それは、現在にまで尾を引いている。<line-break>かつて戦いに敗れたティラは<line-break>その身体を４つに裂かれて封印された。<line-break>キミはその封印を解いたんだ。<end>"}
 {"section":137,"id":"1370456","japanese":"モンスター騒ぎも落ち着いたし、<line-break>そろそろ、街の連中も聖杯がないことに<line-break>気づくだろう。となると大騒ぎだ。<end>"}
-{"section":163,"id":"1630019","japanese":"現在、我が軍の主力が、敵の先鋒と交戦中です。<line-break>我々は、この隙に兵が集結しきっていない、<line-break>本陣を急襲します。<line-break>アンギルダン将軍も別経路で本陣をつきます。<line-break>この作戦の成否が、勝敗を分けましょう。<end>"}
-{"section":137,"id":"1370527","japanese":"ソウルにソウルポイントがあるように、<line-break>スキルにはスキルポイントがある。<line-break>ま、言うなれば、実戦経験だな。<end>"}
-{"section":169,"id":"1690011","japanese":"あたし、逃げ回ってるわけじゃないの。<line-break>今までがまんしてたから、いろんな人と<line-break>お話しできるのがうれしくて、うれしくて…。<line-break>あなたも外の世界のできごとや<line-break>あたしの知らないことをたくさん教えてね。<end>"}
-{"section":138,"id":"1380140","japanese":"政敵を葬ったことなど何度もある。<line-break>配下の者を捨て駒に使ったこともある。<line-break>邪魔な国を滅ぼしたこともある。<end>"}
-{"section":174,"id":"1740167","japanese":"それが外だった。　　　　　　　　　　<line-break>太陽の光がまぶしくて<line-break>明るくて、暖かくて、清潔だった。<line-break>兄貴はその光の中で死んだよ。<line-break>ダークエルフ狩りのエルフに見つかって<line-break>笑顔のまま射抜かれた。<end>"}
-{"section":138,"id":"1380191","japanese":"そしてアンタは、どうしてこんな宿に<line-break>うれしそうに泊まってるのか！<line-break>納得できるように説明してちょうだい！<end>"}
-{"section":175,"id":"1750069","japanese":"どうね？　楽しかったじゃろ？<line-break>今日の失敗は、明日への糧じゃけぇ。<line-break>同じ失敗は、もうせんことよ。<line-break>われのようなひよっこはのぉ、<line-break>一歩一歩調べながら進むぐらいの<line-break>心構えでおらんといけんで。<end>"}
-{"section":138,"id":"1380194","japanese":"いつになったら、驚きに満ちた<line-break>世界とやらを見せてくれるつもりっ？<line-break>返答次第によっては、許さなくってよ！<end>"}
-{"section":178,"id":"1780089","japanese":"ネメア死す。<line-break>ゼネテスの放った<line-break>偽情報を裏付けるかのごとく、<line-break>　<line-break>ゼグナ鉱山で<line-break>闇の神器を探索したあと、<line-break>青竜軍に合流するはずだった<line-break>ネメアが、ついに戻らなかったのである。<end>"}
-{"section":138,"id":"1380266","japanese":"あそこで、ああしておけばよかった…<line-break>もっと、うまくできたんじゃないか？<line-break>いつも、いつも、そう思ってる。<end>"}
-{"section":180,"id":"1800008","japanese":"…レムオン様が貴族をまとめ　　　　<line-break>今回の戦には出兵しないと<line-break>言ってきたのです。<line-break>お母様に対しての稚拙な脅しです。<line-break>国内で争っている場合ではないのに<line-break>レムオン様には見えていないのです。<end>"}
-{"section":138,"id":"1380293","japanese":"そうそう、ありのままでいいんだ。<line-break>シェスターの夢の実現も、そう遠い<line-break>未来ではないような気がしてくるよ。<end>"}
-{"section":180,"id":"1800090","japanese":"ネメア死す。<line-break>ゼネテスの放った<line-break>偽情報を裏付けるかのごとく、<line-break>　<line-break>ゼグナ鉱山で<line-break>闇の神器を探索したあと、<line-break>青竜軍に合流するはずだった<line-break>ネメアが、ついに戻らなかったのである。<end>"}
-{"section":140,"id":"1400213","japanese":"…ご相談したいことがあるのです。<line-break>本日、空中庭園でお待ちしています。<line-break>　　　　　　　　ティアナ・リュー<end>"}
-{"section":180,"id":"1800173","japanese":"おっと、悪いが逃げさせてもらうよ。<line-break>君と戦える余力はない。<line-break>ネメアは本当に強くてね。<line-break>そのかわり、貪欲の盾を置いてゆこう。<line-break>君を命がけで守ったネメアの形見だよ。<line-break>大事にね。フフフフ…。<end>"}
-{"section":142,"id":"1420403","japanese":"いっ、いいところに来た、お前達。<line-break>こ、こいつを倒したら、褒美を出す。<line-break>りゅ、竜騎士にしてやってもいい！<end>"}
-{"section":183,"id":"1830026","japanese":"それでもな、アキュリュースの人が　　<line-break>頭下げて頼みに来るんだよ。<line-break>どうかお願いしますってな。<line-break>あんたの実力なら<line-break>彼らの力になってやれるかもしれない。<line-break>どうだい？　やってみてくれないか？<end>"}
-{"section":180,"id":"1800093","japanese":"ネメア様が敵国深くのゼグナにある<line-break>闇の神器を取りに行くってっからさ。<line-break>放っとくわけにもいかないじゃん？<end>"}
-{"section":188,"id":"1880102","japanese":"カルラ軍はロセンとリベルダムを<line-break>攻略する際、無抵抗の市民は決して<line-break>殺さないように厳命しています。<line-break>そのおかげで多くの命が無意味に<line-break>奪われることなくすみました。<line-break>ですが、そのかわりに…。<end>"}
-{"section":186,"id":"1860173","japanese":"これからはお互いに助けあって<line-break>生きていかなきゃならない。いつまでも<line-break>お前さんがそんな風でどうするんだ。<end>"}
-{"section":192,"id":"1920043","japanese":"今日は本当に、疲れたわ…。<line-break>文書の最後に署名を書くだけだった<line-break>けれど、少し曲がってしまったし…。<line-break>でも、私、がんばらなくては。<line-break>もっと勉強して、エリス様に<line-break>文書を読んでもらわなくても、<end>"}
-{"section":187,"id":"1870025","japanese":"オズワルドは以前より竜王様への<line-break>信仰があつかった。お前も幼少より、<line-break>竜王様に祈りを捧げてきたのだろう？<end>"}
-{"section":56,"id":"560512","japanese":"みんなみんな、わたくしをだまして！<line-break>おじさまさえ、わたくしを捨てたのよ！<line-break>今さら、あなたを信じられると思って？<line-break>助けてくれたことには感謝します。<line-break>でも、もうわたくしに<line-break>つきまとわないで！<end>"}
-{"section":198,"id":"1980019","japanese":"こんなに食べてもらえてうれしいです。<line-break>次も、もっとおいしい料理を作りますね！<line-break>また、いらしてください。<end>"}
-{"section":56,"id":"560544","japanese":"気を悪くしないでね、アイリーン。<line-break>今度のことは戦争を早く終えるため<line-break>仕方のなかったことなの。<line-break>これで、ロストールの貴族たちも<line-break>士気が落ちてるはず。次の戦いでは<line-break>あまり人が死なずにすむわ。<end>"}
-{"section":198,"id":"1980167","japanese":"でも、その旅ももう終わりですね…。<line-break>伝説のフライパンは見つかったし、<line-break>私が一緒にいる理由もありません。<end>"}
-{"section":56,"id":"560568","japanese":"あんたはそうやって<line-break>種族間の憎悪を育ててるだけ。<line-break>人間の数ってのを無視しちゃダメよん。<line-break>力で押さえても、数がはねのけるわ。<line-break>それからコーンスはダルケニス同様に<line-break>人間によって駆逐されるわ。<end>"}
-{"section":198,"id":"1980179","japanese":"私はただの港なだけで充分なんです。<line-break>冒険という荒々しい未知の航海から、<line-break>あの人が帰ってくるための港…。<end>"}
-{"section":56,"id":"560722","japanese":"緊急事態ということは<line-break>敵にこちらの動きが知られてしまった<line-break>可能性が大きいわ。<line-break>今、突入しても、被害を出すだけです。<line-break>急いで引き返しましょう。おそらく、<line-break>命がけで知らせてくれたのですから。<end>"}
-{"section":267,"id":"2670012","japanese":"フフッ。ようやく気づいたみたいだね。<line-break>君の願いに同化の髪飾りが反応している。<line-break>さあ、仕上げといこうか。<end>"}
-{"section":56,"id":"560801","japanese":"おじさまはお父様の親友です。<line-break>お父様が亡くなる前にも後にも<line-break>わたくしたちを助けてくださいました。<line-break>そのおじさまが解放軍を裏切る…<line-break>いえ、わたくしを襲うようなマネを<line-break>するはずがありません。<end>"}
-{"section":277,"id":"2770003","japanese":"　　　　愛に資格なんて必要ない。<line-break>　　　もう自分を責めるのはよせ。<line-break>　　自分を許し、過去を忘れるんだ。<end>"}
-{"section":62,"id":"620177","japanese":"破壊神ウルグの円卓騎士　　　　　　　<line-break>名前を知るものネモ様なのだからな！<line-break>　<line-break>さあ、その聖杯の力で俺の封印を解け！<line-break>そして、ともに破壊と絶望の世界を、<line-break>お前たち闇の者の帝国を築くのだ！！<end>"}
+{"section":147,"id":"1470045","japanese":"うーん、そういえばこの辺りで<line-break>リルビーの女の子が、人相の悪ーい<line-break>男たちと、もめてるのを見たねー。<line-break>でも、しばらくしたら<line-break>女の子は男たちと一緒に町の外に<line-break>行ってしまったみたいだけどねー。<end>"}
 {"section":15,"id":"150018","japanese":"は～い、乗船の方はこちらですよ。<line-break>あなたも旅立たれるんですね。<line-break>お金に余裕があれば船旅などいかがですか。<end>"}
-{"section":70,"id":"700204","japanese":"あれをみんなは、ケンカだとか<line-break>槍もでき、人の受けもいい俺のことを<line-break>嫉妬してだとか言ってたけど、違う。　<line-break>その証拠に俺は奴に１回も<line-break>勝てたことがない。<line-break>それでも、奴は俺に何度も挑み続けた。<end>"}
+{"section":148,"id":"1480097","japanese":"アーギルシャイアは<line-break>破壊神ウルグの円卓騎士と呼ばれる　<line-break>強力な魔人のひとりです。<line-break>妖艶な美女で、残酷で気まぐれです。<line-break>闇の神器をひとつ手に入れるために<line-break>ミイスを焼き払ってしまいました。<end>"}
 {"section":31,"id":"310262","japanese":"お前もな、昔から気に入らなかった！<line-break>俺は何かにつけてお前と比べられて<line-break>コソクだ、意気地なしだと言われた。<end>"}
-{"section":76,"id":"760014","japanese":"そうそう、これを渡さなきゃね。<line-break>これは、銀竜の首飾りっていって…、<line-break>ま、早い話が通行手形さ。<line-break>ロストールのお城の正門の右側に<line-break>秘密通路があるんだけど、<line-break>これがあれば通れるようになるから。<end>"}
+{"section":156,"id":"1560024","japanese":"……何事もなく無事に旅を終えられましたな。<line-break>神のご加護に感謝しなさい。<line-break>　<line-break>これは神があなたに与えられる報酬です。<line-break>少し多めなのは神のご慈悲です。<line-break>神に失礼なきよう、有意義に使われよ。<end>"}
 {"section":40,"id":"400292","japanese":"これが、自分をさらったネメア様への、<line-break>イズ様の復讐だったのかもしれぬ。<line-break>…なんにせよ、悲劇的なことじゃ。<end>"}
-{"section":88,"id":"880040","japanese":"今は、自分じゃ何もしていないのに<line-break>市民の家に生まれたっていうだけで<line-break>市民だ市民だっていばってる方が、<line-break>よっぽどカッコ悪いって思うんだよね。<line-break>…生まれた家なんて<line-break>…自分には関係ないのにさ。<end>"}
+{"section":161,"id":"1610165","japanese":"ああ、今の祈りですか？<line-break>闇の力を浄化したのです。<line-break>念には念を、というところですか。<line-break>これで、闇がひとつ滅びましたね。<line-break>それでは、急ぐので失礼します。<line-break>またいつか会うこともあるでしょう。<end>"}
 {"section":43,"id":"430211","japanese":"ものすごい力を秘めていてね。<line-break>それを使えば、僕みたいにひ弱な男でも<line-break>強い戦士や怪物をひとひねりにできる。<end>"}
-{"section":89,"id":"890737","japanese":"　                           <line-break>　　　 　　フフフ。<line-break>　　　　なぜか、だと？<line-break>　                           <line-break>　                           <line-break>　　 ベルゼーヴァと取り引きをし、<line-break>　 余がその肉体を手に入れるためだ。<end>"}
+{"section":162,"id":"1620137","japanese":"これだけの兵と物資を抱えて、<line-break>ディンガルとロストールを隔てている<line-break>分断の山脈を越えることはできない。<line-break>おそらく海路で来るはず…。<line-break>ロストール軍はそう判断して、<line-break>上陸時を叩く作戦に出た。<end>"}
 {"section":45,"id":"450255","japanese":"俺の方のケガもだいぶよくなって、<line-break>そろそろお前らと一緒にあいつを倒しに<line-break>行こうと思ってるんだ。いいだろ？<end>"}
-{"section":98,"id":"980049","japanese":"でも、私の生まれたロストールでは<line-break>女は騎士になれないの。<line-break>頭にきちゃうけど、しょうがないわ。<line-break>だからね、こうして、聖杯を追いながら<line-break>私を騎士として登用してくれる国を<line-break>探しているってわけ。<end>"}
+{"section":163,"id":"1630019","japanese":"現在、我が軍の主力が、敵の先鋒と交戦中です。<line-break>我々は、この隙に兵が集結しきっていない、<line-break>本陣を急襲します。<line-break>アンギルダン将軍も別経路で本陣をつきます。<line-break>この作戦の成否が、勝敗を分けましょう。<end>"}
 {"section":85,"id":"850008","japanese":"ブゾリはペウダが傾けたロセン経済を<line-break>あっと言う間に立て直したしな。<line-break>愚王ペウダよりは実績がある分マシだ。<end>"}
-{"section":141,"id":"1410187","japanese":"いえ、あの、<value:$28>さんが<line-break>わたしの意見に賛成してくれて、<line-break>とってもうれしいんです。　　　　　　<line-break>カフィンもレイヴンも、<line-break><value:$28>さんと一緒だったら<line-break>安心して見守ってくれると思いますし。<end>"}
+{"section":192,"id":"1920043","japanese":"今日は本当に、疲れたわ…。<line-break>文書の最後に署名を書くだけだった<line-break>けれど、少し曲がってしまったし…。<line-break>でも、私、がんばらなくては。<line-break>もっと勉強して、エリス様に<line-break>文書を読んでもらわなくても、<end>"}
 {"section":88,"id":"880132","japanese":"以前お会いしたとき、<line-break>我々がエステル様と言い争っていたのは、<line-break>エステル様をラドラスに連れ戻すためでした。<end>"}
-{"section":171,"id":"1710021","japanese":"かつては赤い巨星の異名をとる名将。<line-break>その名声にのぼせ上がって<line-break>いささか、調子にのりすぎたのでは？ <line-break>日頃から、規則を無視する<line-break>おごりたかぶった振る舞い。<line-break>その結果がこれですか、朱雀将軍？<end>"}
+{"section":62,"id":"620177","japanese":"破壊神ウルグの円卓騎士　　　　　　　<line-break>名前を知るものネモ様なのだからな！<line-break>　<line-break>さあ、その聖杯の力で俺の封印を解け！<line-break>そして、ともに破壊と絶望の世界を、<line-break>お前たち闇の者の帝国を築くのだ！！<end>"}
 {"section":92,"id":"920041","japanese":"是非とも死んでほしいものじゃが…、<line-break>わしもその娘との旅はガマンできん！<line-break>その娘がおらんときに呼んでくれ。<end>"}
-{"section":190,"id":"1900150","japanese":"<value:$28>様は冒険者ですもの。<line-break>必ず戻ってこれるという保証はない　　<line-break>ということはわかっています。<line-break>でも、<value:$28>様。<line-break>忘れないでください。あなたの帰りを<line-break>待っている私がここにいることを。<end>"}
+{"section":70,"id":"700204","japanese":"あれをみんなは、ケンカだとか<line-break>槍もでき、人の受けもいい俺のことを<line-break>嫉妬してだとか言ってたけど、違う。　<line-break>その証拠に俺は奴に１回も<line-break>勝てたことがない。<line-break>それでも、奴は俺に何度も挑み続けた。<end>"}
 {"section":92,"id":"920067","japanese":"是非とも死んでほしいものじゃが…、<line-break>わしもその娘との旅はガマンできん！<line-break>その娘がおらんときに呼んでくれ。<end>"}
-{"section":275,"id":"2750006","japanese":"ありがとう。<value:$28>と会えてよかった。　<line-break>あたしひとりだけなら、きっと<line-break>無力感にさいなまれ、迷子みたいに<line-break>闇のなかで途方に暮れていたと思う。<line-break>もう一度、言わせて<value:$28>。<line-break>ありがとう…。<end>"}
+{"section":76,"id":"760014","japanese":"そうそう、これを渡さなきゃね。<line-break>これは、銀竜の首飾りっていって…、<line-break>ま、早い話が通行手形さ。<line-break>ロストールのお城の正門の右側に<line-break>秘密通路があるんだけど、<line-break>これがあれば通れるようになるから。<end>"}
 {"section":98,"id":"980066","japanese":"だから、私は守れるようになりたいの。<line-break>そいつはもう、いないけど…、<line-break>二度と、あんなことは繰り返さないわ。<end>"}
-{"section":23,"id":"230037","japanese":"村の特産品の材料を採ってきてくだされ。<line-break>戦いの素人が採りに行くには<line-break>ちとやっかいな品物での。<line-break><value:$15>というんじゃ。<line-break><value:$1B>日以内に頼むよ。<line-break>あんまり多くはないが、お礼もするつもりじゃ。<end>"}
+{"section":88,"id":"880040","japanese":"今は、自分じゃ何もしていないのに<line-break>市民の家に生まれたっていうだけで<line-break>市民だ市民だっていばってる方が、<line-break>よっぽどカッコ悪いって思うんだよね。<line-break>…生まれた家なんて<line-break>…自分には関係ないのにさ。<end>"}
 {"section":7,"id":"70026","japanese":"もう旅立つって言うんだな。<line-break>よっしゃ！　金さえ払えば船に乗せてやるぜ。<line-break>ただし、金がないんなら歩いて行け。<end>"}
-{"section":137,"id":"1370101","japanese":"なんだい？　<line-break><value:$28>じゃないか。<line-break>いつ帰ってきたんだい？　　　　　　　　　<line-break>おや、今日はナッジは一緒じゃないんだね。<line-break>ま、せっかく来たんならうちのダンナにも<line-break>会ってってやっておくれよ。<end>"}
+{"section":89,"id":"890737","japanese":"　                           <line-break>　　　 　　フフフ。<line-break>　　　　なぜか、だと？<line-break>　                           <line-break>　                           <line-break>　　 ベルゼーヴァと取り引きをし、<line-break>　 余がその肉体を手に入れるためだ。<end>"}
 {"section":106,"id":"1060102","japanese":"何でもないだと？　こっちは仕事しているんだ！<line-break>お前のような暇人の相手をしている暇はない。<line-break>とっとと行け！<end>"}
-{"section":159,"id":"1590172","japanese":"<if><value:$29><equal>%0それを知っちゃって<line-break>ルルアンタも捕まっちゃったところを<line-break>お兄ちゃんに助けてもらったの。<end>それを知っちゃって<line-break>ルルアンタも捕まっちゃったところを<line-break>お姉ちゃんに助けてもらったの。<end>"}
+{"section":98,"id":"980049","japanese":"でも、私の生まれたロストールでは<line-break>女は騎士になれないの。<line-break>頭にきちゃうけど、しょうがないわ。<line-break>だからね、こうして、聖杯を追いながら<line-break>私を騎士として登用してくれる国を<line-break>探しているってわけ。<end>"}
 {"section":108,"id":"1080180","japanese":"自分の仕える国を忘れるとは…<line-break>しょせん騎士と傭兵は別ということか。<line-break>お前の所属はディンガルだ。忘れるな。<end>"}
-{"section":163,"id":"1630064","japanese":"…<value:$28>！　お前も<line-break>アンギルダンのとっつぁんの側か！<line-break>ちっ、人物は人物を呼ぶんだな。<line-break>こりゃあ、ちょっと分が悪いな。<line-break>ま、いい。なんとか運命の女神を<line-break>振り向かせるのには成功したようだ。<end>"}
+{"section":141,"id":"1410187","japanese":"いえ、あの、<value:$28>さんが<line-break>わたしの意見に賛成してくれて、<line-break>とってもうれしいんです。　　　　　　<line-break>カフィンもレイヴンも、<line-break><value:$28>さんと一緒だったら<line-break>安心して見守ってくれると思いますし。<end>"}
 {"section":108,"id":"1080212","japanese":"自分の仕える国を忘れるとは…<line-break>しょせん騎士と傭兵は別ということか。<line-break>お前の所属はロストールだ。忘れるな。<end>"}
-{"section":173,"id":"1730063","japanese":"<if><value:$01><equal>4うふふ。ただでさえ、<line-break>いっぱい問題を抱えているのに、<line-break>またまた面倒ごとを抱えちゃった。<line-break><value:$28>って、<line-break>面倒大好き人間みたい！　きゃっ。 <end>………………。<line-break>面倒なことを。 <end>"}
-{"section":40,"id":"400244","japanese":"かくして世界は、　　　　　　　<line-break>激動と混沌の時代を迎え　　　　　　<line-break>大きなうねりを描きはじめた…。　　　　<end>"}
-{"section":186,"id":"1860088","japanese":"<select><value:$20>%2フリントさんって、<line-break>ほんとうに、<line-break>いいお父さんだよね。<end>フリントさんって、<line-break>ほんとうは強いんだよぉ。<line-break>いつもは、かくしてるけどね。<line-break>でも、なんで<line-break>かくしてるのかな？<end>"}
-{"section":44,"id":"440091","japanese":"レムオン様が、ダルケニスだったってのさ。<line-break>とんでもない話だよ、吸血鬼が大きな顔して<line-break>のさばってたなんてさ。<end>"}
-{"section":188,"id":"1880079","japanese":"<value:$28>。<line-break>わたくし、この前、リベルダムの　　　<line-break>難民のもとへ行ってきました。<line-break>実際に彼らの暮らしにふれる必要がある<line-break>と思ったのです。これまでは、資金と<line-break>物資の工面をするだけでしたから。<end>"}
-{"section":75,"id":"750155","japanese":"さて！　たとえ、相手がお姉さまでも<line-break>悪を見逃すわけにはまいりません！！<line-break>俺様の正義の槍を受けてもらいます！<end>"}
-{"section":110,"id":"1100064","japanese":"こんにちは。墓まいりかね？　　　　<line-break>わしはドルドラム。<line-break>ソリアスに仕える神官じゃ。<line-break>ドワーフでソリアスの神官というのも<line-break>珍しかろ？　これも、何かの縁じゃ。<line-break>少し、一緒に散歩でもせんかね。<end>"}
-{"section":85,"id":"850070","japanese":"無論、解放軍の支援はきれいごとだけが<line-break>理由じゃない。ディンガルの魔手が<line-break>リベルダムに及ばないためでもある。<end>"}
-{"section":112,"id":"1120094","japanese":"でも、もし再びこのようなことが<line-break>起きれば、また悲しみが生まれます。<line-break>大切な命が失われるでしょう。<line-break>それよりは、今この空中都市を<line-break>永久に封じた方が、世界にとって<line-break>いいのではないでしょうか。<end>"}
-{"section":88,"id":"880207","japanese":"　　　　　　　…エステルよ…　　　　　　　　<line-break>　　　　　　　目覚めるのだ…<line-break>　　　　　　　我が地の巫女よ…<end>"}
-{"section":174,"id":"1740171","japanese":"…ちょっと複雑な気分ですね。<line-break>ですが、みなさんのおかげで<line-break>邪竜の復活を防ぐことはできました。<line-break>ひとまず、私の家へ戻って、<line-break>これからのことを考えましょう。<line-break>これで終わりではないでしょうし。<end>"}
-{"section":89,"id":"890308","japanese":"くっ…やはり、ここまでが限界か。<line-break>次のソウルリープからは逃げられん。<line-break>人類の革新なる前に果てるさだめか…！<end>"}
-{"section":176,"id":"1760038","japanese":"こーーーのバカ弟子がぁ！　　　　　<line-break>最後の最後で失敗するとは<line-break>どーゆーこっちゃ！<line-break>わしの注意を聞いとらんかったんか！<line-break>人の話を聞かんヤツは進歩せんでぇ。<line-break>２度目はないと思いんさいやぁ！！<end>"}
-{"section":89,"id":"890414","japanese":"まったくだよ。感謝しなきゃね。<line-break>貴族だって、ゼネさんみたいなのがいるんだ。<line-break>この国は変わるかもしれないよ。<end>"}
-{"section":176,"id":"1760055","japanese":"冒険者にとって最後に頼れるのは、<line-break>自分だけじゃけぇ、自分を鍛えることを<line-break>忘れちゃあいけん。<line-break>そして鍛えた自分を信じにゃあいけん。<line-break>自分の勘と運を信じるんじゃ。<line-break>自分を信じて努力しんさい。<end>"}
-{"section":92,"id":"920008","japanese":"ま、剣を打ってくれっつっても、<line-break>あれじゃ、無理だろうけどねえ。<line-break>え？　師匠に用があったんじゃないの？　　　<end>"}
-{"section":177,"id":"1770023","japanese":"今のわれは、冒険者ロッシマを超える<line-break>ことができるはずじゃ。<line-break>われはわしの最高の弟子なんじゃけぇ。<line-break>生きとりゃあ、何回でも挑戦できる。<line-break>命を大切にしんさいよ。<line-break>無謀と勇気は違うんじゃけぇ。<end>"}
-{"section":93,"id":"930003","japanese":"ふんっっっっっっだ！　それじゃ、<line-break>あんたが心を動かされたってのは何？<line-break>いったい、何だって言うのよーーーー！<end>"}
-{"section":258,"id":"2580039","japanese":"天が巡り、星座がまた<line-break>汝が生まれた時と同じ配置となった。<line-break>汝に天空神の加護があらんことを。<line-break>天空神ノトゥーンの誕生日の経文よ。<line-break>わしからじゃありがたみは薄いだろうが<line-break>一応、利益はあるぞ。<end>"}
-{"section":98,"id":"980005","japanese":"飲むのはいいけど、勘定のときになると<line-break>酔いつぶれるのはやめてくれよな。<line-break>いっつも俺ばかり、払わされてるよ。<end>"}
-{"section":26,"id":"260164","japanese":"エンシャントへ行ったって話なんだろ。<line-break>だったら行けばいいじゃねえか。<line-break>何を迷う必要があるんだよ。<line-break>もしゴブリンどもがいなかったら<line-break>猫屋敷に帰って、俺らをだました<line-break>エセ賢者をぶん殴ってやる。<end>"}
-{"section":102,"id":"1020018","japanese":"アイリーン、無茶なことはやめろ。<line-break>お前には、この作戦の指揮は無理だ。<line-break>それはお前が劣っているからではない。<end>"}
-{"section":26,"id":"260178","japanese":"オルファウスさんがゴブリンたちは<line-break>エンシャントにいるって<line-break>教えてくれたんでしょ？<line-break>エンシャントは大きな町だから捜すの<line-break>大変かもしれないけど安心していいよ。<line-break>だってルルアンタがついてるもん。<end>"}
-{"section":102,"id":"1020033","japanese":"悲しいときに泣けないような奴が、<line-break>苦しいときに泣けないような奴が、<line-break>人のために何かできると思っているのか？<end>"}
-{"section":26,"id":"260185","japanese":"オルファウス殿の言によるならば、<line-break>ゴブリンめらはエンシャントへ向かった<line-break>そうじゃな。<line-break>エンシャントのような人の多い町中では<line-break>おそらく目立つじゃろうから、<line-break>それだけにわしらも遅れはとれぬぞ。<end>"}
-{"section":102,"id":"1020074","japanese":"…アイリーンは俺の大事な弟子だろうが。<line-break>不出来な弟子をいさめるのは師匠の役目と<line-break>昔っから決まってんだよ…。<end>"}
-{"section":40,"id":"400170","japanese":"ソウルを鍛えるには、<line-break>他人のために何かをしてあげればいい。　　<line-break>その心が、ソウルを育てる。<line-break>ま、ギルドのクエストをやりゃあいいのよ。<line-break>そしたら、ソウルが育つ。<line-break>どう育てるかは、お前次第だ。<end>"}
-{"section":103,"id":"1030047","japanese":"ただ、こいつは保管が難しくてな、<line-break>普通に持ち歩いたら２週間ともたずに<line-break>露のように消えるんだ。気をつけろよ。<end>"}
-{"section":40,"id":"400187","japanese":"ラミリー山を探検していると、　　　　<line-break>光る場所が見つかることがある。<line-break>そんな時は、迷わず調べてみるのだ！<line-break>錬剛石が落ちているからな。<line-break>ただし、他の冒険者が拾うこともある。<line-break>早い者勝ちだぞ。<end>"}
-{"section":108,"id":"1080169","japanese":"姉ちゃん他人の話を聞いてるのか？<line-break>なんで自分で傭兵登録したのに忘れる<line-break>かなー。ディンガルだよ登録したのは。<end>"}
-{"section":170,"id":"1700007","japanese":"こ、こ、こ、これは<value:$28>様！<line-break>へへへ…今日もお美しいですね。<line-break>も、もちろん悪いことなんてしてません。<line-break>みなさんのお手伝いをしたり、<line-break>子供と遊んだりしてます。<line-break>もう悪い子じゃないですから。<end>"}
-{"section":108,"id":"1080201","japanese":"姉ちゃん他人の話を聞いてるのか？<line-break>なんで自分で傭兵登録したのに忘れる<line-break>かなー。ロストールだよ登録したのは。<end>"}
-{"section":186,"id":"1860086","japanese":"あぁ、ちょっと周りが気になってね。<line-break>ノーブルを出る前のように<line-break>何者かが襲ってきたりしないかと。<line-break>なに、心配はいらないさ。<line-break><value:$28>だって剣が使えるし、<line-break>いざというときは父さんが守るからな。<end>"}
+{"section":171,"id":"1710021","japanese":"かつては赤い巨星の異名をとる名将。<line-break>その名声にのぼせ上がって<line-break>いささか、調子にのりすぎたのでは？ <line-break>日頃から、規則を無視する<line-break>おごりたかぶった振る舞い。<line-break>その結果がこれですか、朱雀将軍？<end>"}
 {"section":120,"id":"1200038","japanese":"今はまだ、わからないかもしれません。<line-break>しかし、挑み続けているうちに、<line-break>いずれ、ぼんやりとわかってきますよ。<end>"}
-{"section":190,"id":"1900179","japanese":"<value:$28>様はご存じですか？<line-break>リベルダムやロセンでは、町を追われた<line-break>人たちが難民となっているそうです。<line-break>ですから私、お母様にお願いしに<line-break>あがろうと思うのです。両方の町に<line-break>支援を送れないかと。<end>"}
+{"section":190,"id":"1900150","japanese":"<value:$28>様は冒険者ですもの。<line-break>必ず戻ってこれるという保証はない　　<line-break>ということはわかっています。<line-break>でも、<value:$28>様。<line-break>忘れないでください。あなたの帰りを<line-break>待っている私がここにいることを。<end>"}
 {"section":134,"id":"1340121","japanese":"だから、おとなしく、ジラーク将軍が<line-break>コーンスの世界を作るのを見てて…<line-break>と言ったら、素直に手を引いてくれる？<end>"}
-{"section":24,"id":"240046","japanese":"いつも世話になってるね。<line-break>今回はお願いしたいことがあるんだ。<line-break><value:$15>を<value:$16>の町に<line-break>届ける用事がある。こいつをやってもらいたい。<line-break><value:$1B>日以内に届けてくれるんなら、<line-break><value:$1A>ギア出すぜ。<end>"}
+{"section":275,"id":"2750006","japanese":"ありがとう。<value:$28>と会えてよかった。　<line-break>あたしひとりだけなら、きっと<line-break>無力感にさいなまれ、迷子みたいに<line-break>闇のなかで途方に暮れていたと思う。<line-break>もう一度、言わせて<value:$28>。<line-break>ありがとう…。<end>"}
 {"section":135,"id":"1350465","japanese":"どんな身体になっても生きていられる。<line-break>自分の意志に従って生きていける。<line-break>妹の笑顔が見られる。それで十分だ。<end>"}
-{"section":57,"id":"570109","japanese":"…なあ、<value:$28>。<line-break>冒険をしてて時々思うんだが、<line-break>強さとか弱さって、何だと思う？　　<line-break>ま、俺も答が見えたわけじゃないが、<line-break>少しづつ、わかってきたことはある。<line-break>人ってのは、みんな弱いって事さ。<end>"}
+{"section":23,"id":"230037","japanese":"村の特産品の材料を採ってきてくだされ。<line-break>戦いの素人が採りに行くには<line-break>ちとやっかいな品物での。<line-break><value:$15>というんじゃ。<line-break><value:$1B>日以内に頼むよ。<line-break>あんまり多くはないが、お礼もするつもりじゃ。<end>"}
 {"section":135,"id":"1350466","japanese":"ヴァイ、ヴィア、こいつを送ってやれ。<line-break>こいつは、今でこそこんなザマだが、<line-break>世界の未来を変えうる存在になる。<end>"}
-{"section":106,"id":"1060019","japanese":"信じられぬスピードだ。<line-break>ディンガルでは、あの青い死神のことを<line-break>神速の用兵家と呼んでいるようだ。<line-break>我らロセンの人材の窮乏と比べて<line-break>なぜ、ディンガルにはこうも<line-break>すぐれた人材が登場してくるのだ。<end>"}
+{"section":137,"id":"1370101","japanese":"なんだい？　<line-break><value:$28>じゃないか。<line-break>いつ帰ってきたんだい？　　　　　　　　　<line-break>おや、今日はナッジは一緒じゃないんだね。<line-break>ま、せっかく来たんならうちのダンナにも<line-break>会ってってやっておくれよ。<end>"}
 {"section":135,"id":"1350476","japanese":"つまり呪いの解き方もわからないのに<line-break>ただ、でくの坊みたいにオロオロと<line-break>徹夜でここにいたってのか、こいつは？<end>"}
-{"section":106,"id":"1060037","japanese":"信じられぬスピードだ。<line-break>ディンガルでは、あの青い死神のことを<line-break>神速の用兵家と呼んでいるようだ。<line-break>我らロセンの人材の窮乏と比べて<line-break>なぜ、ディンガルにはこうも<line-break>すぐれた人材が登場してくるのだ。<end>"}
+{"section":159,"id":"1590172","japanese":"<if><value:$29><equal>%0それを知っちゃって<line-break>ルルアンタも捕まっちゃったところを<line-break>お兄ちゃんに助けてもらったの。<end>それを知っちゃって<line-break>ルルアンタも捕まっちゃったところを<line-break>お姉ちゃんに助けてもらったの。<end>"}
 {"section":136,"id":"1360053","japanese":"ほほう、貴様も消えたがっているのか。<line-break>この２匹の女どもに、心の痛みを<line-break>与えぬため、という理由はくだらんが。<end>"}
-{"section":108,"id":"1080065","japanese":"何かわからないことがあったら私に<line-break>聞きなさいよ。ひとりで悩んでいたって<line-break>しょうがないんだからね。<line-break>もちろん、私の知らないことを<line-break>聞かれたら答えられないかもしれない<line-break>けど…なんとかなるわよ。<end>"}
+{"section":163,"id":"1630064","japanese":"…<value:$28>！　お前も<line-break>アンギルダンのとっつぁんの側か！<line-break>ちっ、人物は人物を呼ぶんだな。<line-break>こりゃあ、ちょっと分が悪いな。<line-break>ま、いい。なんとか運命の女神を<line-break>振り向かせるのには成功したようだ。<end>"}
 {"section":136,"id":"1360116","japanese":"すごいや！　この聖光石の鉱脈があれば<line-break>白ヤギおじいさんの願いがかなうよ。<line-break>これで同胞種族は救われるってね。<end>"}
-{"section":108,"id":"1080072","japanese":"あなたの悩みにズバリとお答えします<line-break>ってことよ。わかんないことをひとりで<line-break>悩んだってしょうがないでしょ。<line-break>まっ、人生経験豊かなあたしにかかれば<line-break>家庭問題から恋の悩みまでスパーっと<line-break>解決よ。<end>"}
+{"section":173,"id":"1730063","japanese":"<if><value:$01><equal>4うふふ。ただでさえ、<line-break>いっぱい問題を抱えているのに、<line-break>またまた面倒ごとを抱えちゃった。<line-break><value:$28>って、<line-break>面倒大好き人間みたい！　きゃっ。 <end>………………。<line-break>面倒なことを。 <end>"}
 {"section":140,"id":"1400034","japanese":"ティアナ様なんかが見ている前で<line-break>のしちゃった方が効果的じゃないかな。<line-break>その舞台もちゃんと用意してあげるよ。<end>"}
-{"section":108,"id":"1080096","japanese":"（突然、連絡が途絶えたオズワルドを<line-break>　調査するという依頼を受けた。<line-break>　いったい何が起きたのだろう…。）<line-break>（ノーブルの西にある偽りの森。<line-break>　オズワルドは、その森を抜けた先に<line-break>　あるらしい。）<end>"}
+{"section":186,"id":"1860088","japanese":"<select><value:$20>%2フリントさんって、<line-break>ほんとうに、<line-break>いいお父さんだよね。<end>フリントさんって、<line-break>ほんとうは強いんだよぉ。<line-break>いつもは、かくしてるけどね。<line-break>でも、なんで<line-break>かくしてるのかな？<end>"}
 {"section":140,"id":"1400044","japanese":"ティアナ様なんかが見ている前で<line-break>のしちゃった方が効果的じゃないかな。<line-break>その舞台もちゃんと用意してあげるよ。<end>"}
-{"section":108,"id":"1080109","japanese":"連絡が途絶えた原因を調査しに、<line-break>オズワルドへ行くのじゃな。<line-break>まずは、偽りの森を抜けるのじゃ。<line-break>オズワルドは小さな町じゃから、<line-break>宿屋や道具屋もないであろう。<line-break>そのことを考えて準備するのだぞ。<end>"}
+{"section":186,"id":"1860086","japanese":"あぁ、ちょっと周りが気になってね。<line-break>ノーブルを出る前のように<line-break>何者かが襲ってきたりしないかと。<line-break>なに、心配はいらないさ。<line-break><value:$28>だって剣が使えるし、<line-break>いざというときは父さんが守るからな。<end>"}
 {"section":173,"id":"1730061","japanese":"言っておきますけど、アタクシは絶対に<line-break>死んでも、行かなくてよー。行くなら、<line-break>アタクシをここに残して行って！<end>"}
-{"section":108,"id":"1080110","japanese":"連絡が途絶えた原因を調査する<line-break>オズワルドは、ノーブルの西にある<line-break>偽りの森を抜けた先にあるそうだね。<line-break>途中、モンスターと戦うこともある<line-break>だろうから、元気の薬を多めに<line-break>買った方がいいと思うよ。<end>"}
+{"section":190,"id":"1900179","japanese":"<value:$28>様はご存じですか？<line-break>リベルダムやロセンでは、町を追われた<line-break>人たちが難民となっているそうです。<line-break>ですから私、お母様にお願いしに<line-break>あがろうと思うのです。両方の町に<line-break>支援を送れないかと。<end>"}
 {"section":178,"id":"1780078","japanese":"私たちは、王宮の人間の動きならば、<line-break>ほぼすべて把握していたつもりよ。<line-break>でも、ひとりだけわからない奴がいた。<end>"}
-{"section":110,"id":"1100025","japanese":"そこにわしがつけ込んだのよ。　　　　<line-break>魔法の儀式に立ち会えば<line-break>地位と金をやろうとな。<line-break>ベルゼーヴァの父母ウリアとバシテバは<line-break>シャロームに身体を貸した。<line-break>マノンの封印の弱まる金環食の日にな。<end>"}
+{"section":24,"id":"240046","japanese":"いつも世話になってるね。<line-break>今回はお願いしたいことがあるんだ。<line-break><value:$15>を<value:$16>の町に<line-break>届ける用事がある。こいつをやってもらいたい。<line-break><value:$1B>日以内に届けてくれるんなら、<line-break><value:$1A>ギア出すぜ。<end>"}
 {"section":191,"id":"1910021","japanese":"私には、ティアナ様のような華やかさが<line-break>ありませんから。誰も気づいてくれない<line-break>のではないかと不安になります。<end>"}
-{"section":121,"id":"1210035","japanese":"シャリさんの話だと、色惑の瞳を使えば<line-break>アトレイア王女の目を見えるように<line-break>することができるんですよね。<line-break>色惑の瞳、絶対手に入れましょうね！<line-break>ロストールの北西にある邪眼の迷宮へ<line-break>急ぎましょう。<end>"}
+{"section":57,"id":"570109","japanese":"…なあ、<value:$28>。<line-break>冒険をしてて時々思うんだが、<line-break>強さとか弱さって、何だと思う？　　<line-break>ま、俺も答が見えたわけじゃないが、<line-break>少しづつ、わかってきたことはある。<line-break>人ってのは、みんな弱いって事さ。<end>"}
 {"section":191,"id":"1910113","japanese":"一度死んだって、祈れば生き返る。<line-break>…そんなことになってごらんなさい。<line-break>命の価値がどんどん低くなってしまう。<end>"}
-{"section":121,"id":"1210072","japanese":"ま～だ取りにいってなかったわけぇ？<line-break>洞窟の一番奥にあるって話でしょ。<line-break>奥へ奥へと進めばいいだけじゃん。<line-break>なんたってカルラ様が一緒なんだから<line-break>楽勝って感じよね。<line-break>さっさと片付けちゃいましょ。<end>"}
-{"section":193,"id":"1930009","japanese":"まったくだよ。感謝しなきゃね。<line-break>貴族だって、ゼネさんみたいなのがいるんだ。<line-break>この国は変わるかもしれないよ。<end>"}
-{"section":121,"id":"1210090","japanese":"死竜の洞窟の由来は調べたか？<line-break>邪竜エルアザルが賢王アルキュオネに<line-break>葬られたのがこの地らしいのだ。<line-break>そんな場所の最深部にある<line-break>黄泉の乙女像とは…いったい、<line-break>どれほどの価値のものなのだろうな？<end>"}
+{"section":106,"id":"1060019","japanese":"信じられぬスピードだ。<line-break>ディンガルでは、あの青い死神のことを<line-break>神速の用兵家と呼んでいるようだ。<line-break>我らロセンの人材の窮乏と比べて<line-break>なぜ、ディンガルにはこうも<line-break>すぐれた人材が登場してくるのだ。<end>"}
 {"section":198,"id":"1980229","japanese":"で、ですから、伝説のフライパンは<line-break>ドワーフの技術とエルフの魔力によって<line-break>強力無比な破壊力を秘めているとか。<end>"}
-{"section":121,"id":"1210146","japanese":"へ～、依頼主の人は<value:$28>に<line-break>やって欲しいってお願いしたいんだね。<line-break><value:$28>ってすごいんだぁ。<line-break>もちろん<value:$28>は、<line-break>仕事の中身を聞きに、エンシャントの<line-break>冒険者ギルドに行ってみるんだよねぇ？<end>"}
+{"section":106,"id":"1060037","japanese":"信じられぬスピードだ。<line-break>ディンガルでは、あの青い死神のことを<line-break>神速の用兵家と呼んでいるようだ。<line-break>我らロセンの人材の窮乏と比べて<line-break>なぜ、ディンガルにはこうも<line-break>すぐれた人材が登場してくるのだ。<end>"}
 {"section":224,"id":"2240003","japanese":"さあ、悪党どもめ、改心の時間だ！<line-break>俺の正義の心を槍から注入してやろう！<line-break>食らえ！　必殺！　悪者成敗勇者槍！<end>"}
-{"section":137,"id":"1370126","japanese":"<if><value:$29><equal>%0<value:$28>か。<line-break>いい名前だな。なんていうか、こう、　<line-break>広がりがあるっていうのか…。<end><if><value:$29><equal>%1<value:$28>か。<line-break>いい名前だな。なんていうか、こう、　<line-break>安らぎがあるっていうのか…。<end>"}
+{"section":108,"id":"1080065","japanese":"何かわからないことがあったら私に<line-break>聞きなさいよ。ひとりで悩んでいたって<line-break>しょうがないんだからね。<line-break>もちろん、私の知らないことを<line-break>聞かれたら答えられないかもしれない<line-break>けど…なんとかなるわよ。<end>"}
 {"section":13,"id":"130017","japanese":"なんだ、地下街道の案内じゃないのか。<line-break>わしは、いつもここにおるから、<line-break>そのうち、用があったら声をかけてくれ。<end>"}
-{"section":137,"id":"1370319","japanese":"さらにこの精霊属性ってのには、<line-break>装備品ごと、最初から決まった強弱…<line-break>いわゆるレベルってもんがある。<line-break>同じ火属性を宿したとしても、<line-break>片手剣なら４、槍なら２、<line-break>ナックルだと６、って具合になる。<end>"}
+{"section":108,"id":"1080072","japanese":"あなたの悩みにズバリとお答えします<line-break>ってことよ。わかんないことをひとりで<line-break>悩んだってしょうがないでしょ。<line-break>まっ、人生経験豊かなあたしにかかれば<line-break>家庭問題から恋の悩みまでスパーっと<line-break>解決よ。<end>"}
 {"section":20,"id":"200539","japanese":"武器なら敵を眠り状態にします。<line-break>防具なら敵の眠り攻撃を防ぎます。<line-break>眠っている敵は起きるまで攻撃してきません。<end>"}
-{"section":137,"id":"1370518","japanese":"例えば攻撃魔法を使いたいと思ったら、<line-break>まずはウォーロックを宿す他にはねえ。<line-break>ファイアやアクアなんかの魔法は、<line-break>ウォーロックを宿すことによって<line-break>身につくスキル、ロースペルに<line-break>含まれるからだ。<end>"}
+{"section":108,"id":"1080096","japanese":"（突然、連絡が途絶えたオズワルドを<line-break>　調査するという依頼を受けた。<line-break>　いったい何が起きたのだろう…。）<line-break>（ノーブルの西にある偽りの森。<line-break>　オズワルドは、その森を抜けた先に<line-break>　あるらしい。）<end>"}
 {"section":46,"id":"460117","japanese":"でも、誰も見たことのないものがあるなんて<line-break>なんで、そんな噂が広まっているんだか…。<line-break>そっちの方が謎だよなあ。<end>"}
-{"section":137,"id":"1370575","japanese":"冒険者として登録してくれれば<line-break>お前も明日から自由な冒険者さ。<line-break>胸躍らせる冒険がお前を待ってるぞ。<line-break>そうしたら、仕事も面倒見させてもらうぜ。<line-break>だが、まずは引き受けてる用事を<line-break>片付けちまいな。<end>"}
+{"section":108,"id":"1080109","japanese":"連絡が途絶えた原因を調査しに、<line-break>オズワルドへ行くのじゃな。<line-break>まずは、偽りの森を抜けるのじゃ。<line-break>オズワルドは小さな町じゃから、<line-break>宿屋や道具屋もないであろう。<line-break>そのことを考えて準備するのだぞ。<end>"}
 {"section":51,"id":"510125","japanese":"皇帝ネメアの世界統一構想のもと<line-break>南方攻略軍司令、朱雀将軍アンギルダンが　<line-break>ついにロストール攻略に動き出した。<end>"}
-{"section":137,"id":"1370715","japanese":"この前、あいつと飲んでて、<line-break>何か約束したような気になってたのは、<line-break>そのことだったか！<line-break>くっ、あいつのが飲んでるってのに<line-break>ワリカンとは…。オッシの野郎、<line-break>こっちがあぜんとするほど飲むんだぜ。<end>"}
+{"section":108,"id":"1080110","japanese":"連絡が途絶えた原因を調査する<line-break>オズワルドは、ノーブルの西にある<line-break>偽りの森を抜けた先にあるそうだね。<line-break>途中、モンスターと戦うこともある<line-break>だろうから、元気の薬を多めに<line-break>買った方がいいと思うよ。<end>"}
 {"section":147,"id":"1470117","japanese":"だが、こういう風に長々と語るより、<line-break>落ち着きがなくて、一生を棒に振った<line-break>老傭兵といった方がわかりやすいかな。<end>"}
-{"section":138,"id":"1380152","japanese":"降ってわいたような成り行きで<line-break>姉ちゃんが貴族になっちゃって、　<line-break>俺、ちょっと心配だったんだよ。<line-break>おかげでボルボラは倒せたし、<line-break>俺たちの村も、もっと豊かになれる<line-break>見込みが見えてきた気がする。<end>"}
+{"section":110,"id":"1100025","japanese":"そこにわしがつけ込んだのよ。　　　　<line-break>魔法の儀式に立ち会えば<line-break>地位と金をやろうとな。<line-break>ベルゼーヴァの父母ウリアとバシテバは<line-break>シャロームに身体を貸した。<line-break>マノンの封印の弱まる金環食の日にな。<end>"}
 {"section":156,"id":"1560011","japanese":"なんとか、たどり着くことができましたが、<line-break>期限を過ぎてしまいました。<line-break>申しわけありませんが、報酬は半額です。<end>"}
-{"section":139,"id":"1390135","japanese":"　　　　 ベルゼーヴァはこれを承認。<line-break>　　　　　　捕虜の解放を命じた。<line-break><line-break><line-break>　　　　コーンス達は、傷ついた身体を<line-break>　　 引きずりながら、それぞれの故郷へと<line-break>　　　　　　　 去っていった。<end>"}
+{"section":121,"id":"1210035","japanese":"シャリさんの話だと、色惑の瞳を使えば<line-break>アトレイア王女の目を見えるように<line-break>することができるんですよね。<line-break>色惑の瞳、絶対手に入れましょうね！<line-break>ロストールの北西にある邪眼の迷宮へ<line-break>急ぎましょう。<end>"}
 {"section":156,"id":"1560042","japanese":"やれやれ、ひどいめにあわされてしまったの。<line-break>報酬金なんかやらんぞい。<line-break>人間に護衛なんぞ頼むもんじゃないわい。<end>"}
-{"section":142,"id":"1420057","japanese":"すべてに空しくなった僕は<line-break>気がついたら、施文院の暗殺組織　　<line-break>告死天使の長に納まっていた。<line-break>僕の家は代々施文院の大神官を<line-break>務めていたからね。空虚になった僕に<line-break>おあつらえ向きのポジションだ。<end>"}
+{"section":121,"id":"1210072","japanese":"ま～だ取りにいってなかったわけぇ？<line-break>洞窟の一番奥にあるって話でしょ。<line-break>奥へ奥へと進めばいいだけじゃん。<line-break>なんたってカルラ様が一緒なんだから<line-break>楽勝って感じよね。<line-break>さっさと片付けちゃいましょ。<end>"}
 {"section":156,"id":"1560070","japanese":"やれやれ、ひどいめにあわされてしまったの。<line-break>報酬金なんかやらんぞい。<line-break>人間に護衛なんぞ頼むもんじゃないわい。<end>"}
-{"section":146,"id":"1460027","japanese":"一見、無関係のようなことでも、<line-break>よく調べると、つながっている。<line-break>古代文明が土台になっているんだよ。<line-break>例えば、竜骨の砂漠。<line-break>あれは、古代の魔法を受け継いだ国<line-break>ラドラス王国が滅亡しかけたとき、<end>"}
+{"section":121,"id":"1210090","japanese":"死竜の洞窟の由来は調べたか？<line-break>邪竜エルアザルが賢王アルキュオネに<line-break>葬られたのがこの地らしいのだ。<line-break>そんな場所の最深部にある<line-break>黄泉の乙女像とは…いったい、<line-break>どれほどの価値のものなのだろうな？<end>"}
 {"section":156,"id":"1560123","japanese":"君、やっとたどり着いたね。<line-break>でも、約束の期限には遅れてしまった。<line-break>とりあえず、報酬の半額だ、受け取ってくれ。<end>"}
-{"section":148,"id":"1480139","japanese":"じゃあじゃあ、用意ができたら　　<line-break>早くロストールに行こうよ。<line-break>ルルアンタも準備してくるから。<line-break>町を出るときに合流するからね。<line-break>ロストールにはゼネテスがいるから<line-break>また会えるね。楽しみだなぁ。<end>"}
+{"section":121,"id":"1210146","japanese":"へ～、依頼主の人は<value:$28>に<line-break>やって欲しいってお願いしたいんだね。<line-break><value:$28>ってすごいんだぁ。<line-break>もちろん<value:$28>は、<line-break>仕事の中身を聞きに、エンシャントの<line-break>冒険者ギルドに行ってみるんだよねぇ？<end>"}
 {"section":156,"id":"1560139","japanese":"やっと着いたね。どうもありがと。<line-break>でも、約束の日にちより、遅れちゃったね。<line-break>護衛の料金は半額でいいんだよね。<end>"}
-{"section":157,"id":"1570133","japanese":"ありがとうございました。あなたさまのおかげで<line-break>無事に戻ってくることができました。<line-break>　<line-break>助けていただいたお礼です。<line-break>契約の料金よりも多いですが、私の気持ちです。<line-break>どうか、お受け取りください。<end>"}
+{"section":137,"id":"1370126","japanese":"<if><value:$29><equal>%0<value:$28>か。<line-break>いい名前だな。なんていうか、こう、　<line-break>広がりがあるっていうのか…。<end><if><value:$29><equal>%1<value:$28>か。<line-break>いい名前だな。なんていうか、こう、　<line-break>安らぎがあるっていうのか…。<end>"}
 {"section":157,"id":"1570138","japanese":"あぁ、危なかったねぇ。でも、いい詩には<line-break>危険がつきものだものね。<line-break>はい、助けてくれたお礼、どうもありがとね。<end>"}
-{"section":157,"id":"1570145","japanese":"ありがとうございましたですわ。<line-break>またそのうちお願いいたしますわ、ウフ。　　　<line-break>これは、助けていただいた料金ですわ。<line-break>それとボーナスですわね。…今晩お暇でしたら、<line-break>宿屋の二階にいらしてくださいね。<end>"}
+{"section":137,"id":"1370319","japanese":"さらにこの精霊属性ってのには、<line-break>装備品ごと、最初から決まった強弱…<line-break>いわゆるレベルってもんがある。<line-break>同じ火属性を宿したとしても、<line-break>片手剣なら４、槍なら２、<line-break>ナックルだと６、って具合になる。<end>"}
 {"section":163,"id":"1630013","japanese":"　　分断の山脈を軍隊が越えたのは<line-break>　歴史上初の壮挙である。こうして、<line-break>帝国軍は王都ロストールに王手をかけた。<end>"}
-{"section":157,"id":"1570149","japanese":"ありがとうございました。あなたさまのおかげで<line-break>無事に戻ってくることができました。<line-break>　<line-break>助けていただいたお礼です。<line-break>契約の料金よりも多いですが、私の気持ちです。<line-break>どうか、お受け取りください。<end>"}
+{"section":137,"id":"1370518","japanese":"例えば攻撃魔法を使いたいと思ったら、<line-break>まずはウォーロックを宿す他にはねえ。<line-break>ファイアやアクアなんかの魔法は、<line-break>ウォーロックを宿すことによって<line-break>身につくスキル、ロースペルに<line-break>含まれるからだ。<end>"}
 {"section":163,"id":"1630015","japanese":"ロストール軍はわしに戦いを挑むべく<line-break>隊列がバラバラになるのもかまわずに<line-break>夜を日に継いで急行軍で来とるという。<end>"}
-{"section":56,"id":"560776","japanese":"フフ、ノエルの無理なお願いには<line-break>もう、ならされてるさ。<line-break>ただ、気をつけたほうがいいぜ。<line-break>俺たちにも聞こえてくるぐらいだ。<line-break>解放軍の情報はどこかで漏れてる。<line-break>内部に裏切り者がいる可能性が高い。<end>"}
+{"section":137,"id":"1370575","japanese":"冒険者として登録してくれれば<line-break>お前も明日から自由な冒険者さ。<line-break>胸躍らせる冒険がお前を待ってるぞ。<line-break>そうしたら、仕事も面倒見させてもらうぜ。<line-break>だが、まずは引き受けてる用事を<line-break>片付けちまいな。<end>"}
 {"section":163,"id":"1630097","japanese":"皇帝ネメアの世界統一構想のもと<line-break>南方攻略軍司令、朱雀将軍アンギルダンが　<line-break>ついにロストール攻略に動き出した。<end>"}
-{"section":56,"id":"560865","japanese":"謝っても許してもらえるとは<line-break>思っていません。でも、一度<line-break>はっきりと言っておきたかった。<line-break>おじさまの言ったことは本当です。<line-break>わたくしにはあなたに命をかけてまで<line-break>守ってもらえる資格はありません。<end>"}
+{"section":137,"id":"1370715","japanese":"この前、あいつと飲んでて、<line-break>何か約束したような気になってたのは、<line-break>そのことだったか！<line-break>くっ、あいつのが飲んでるってのに<line-break>ワリカンとは…。オッシの野郎、<line-break>こっちがあぜんとするほど飲むんだぜ。<end>"}
 {"section":169,"id":"1690009","japanese":"ボルボラのかわりに新しい領主様が<line-break>決まってね、あたしはどんな人か<line-break>知らないけど、悪い人じゃないんだろうね。　<end>"}
-{"section":56,"id":"560935","japanese":"そこで、よくない結果を招くより早く、<line-break>屈強な方に真相を確かめてきて欲しいと<line-break>考えたのです。<line-break>行って何もなければ、それでよい。<line-break>それでも報酬は支払いましょう。<line-break>なにとぞ、よろしくお願いします。<end>"}
+{"section":138,"id":"1380152","japanese":"降ってわいたような成り行きで<line-break>姉ちゃんが貴族になっちゃって、　<line-break>俺、ちょっと心配だったんだよ。<line-break>おかげでボルボラは倒せたし、<line-break>俺たちの村も、もっと豊かになれる<line-break>見込みが見えてきた気がする。<end>"}
 {"section":171,"id":"1710105","japanese":"この、あふれる感謝の思いはなんだ…。<line-break>胸の奥底から、温かい気持ちになる…。<line-break>これが信仰の力、これが人の愛か。<end>"}
-{"section":57,"id":"570023","japanese":"なるほど、ね。その禁断の聖杯が<line-break>アーギルシャイアの手に落ちる前に<line-break>俺たちに取ってきてほしいってわけか。<line-break>だが、聖杯って名前の魔道器が<line-break>盗み出される事件がロストールで<line-break>最近あったと思ったがな。<end>"}
+{"section":139,"id":"1390135","japanese":"　　　　 ベルゼーヴァはこれを承認。<line-break>　　　　　　捕虜の解放を命じた。<line-break><line-break><line-break>　　　　コーンス達は、傷ついた身体を<line-break>　　 引きずりながら、それぞれの故郷へと<line-break>　　　　　　　 去っていった。<end>"}
 {"section":183,"id":"1830062","japanese":"ディンガルから守ってくれてありがとう。<line-break>あんたたち傭兵とミズチがいるから<line-break>あたしらは安心して暮らせるんだよ。<end>"}
-{"section":58,"id":"580052","japanese":"その後ろには、あの稀代の謀略家<line-break>ファーロスの雌狐とも異名をとる<line-break>ロストール王妃エリスもいたらしい。<line-break>周辺諸国はディンガル帝国を<line-break>よく思っていない。そんなときに<line-break>嫉妬でネメアを追放するとは…。<end>"}
+{"section":142,"id":"1420057","japanese":"すべてに空しくなった僕は<line-break>気がついたら、施文院の暗殺組織　　<line-break>告死天使の長に納まっていた。<line-break>僕の家は代々施文院の大神官を<line-break>務めていたからね。空虚になった僕に<line-break>おあつらえ向きのポジションだ。<end>"}
 {"section":40,"id":"400167","japanese":"ソウルを鍛えていくことで、<line-break>お前の魂は形を変えていき、お前の成長を助け、<line-break>いろんな能力を与えてくれるだろうよ。<end>"}
-{"section":69,"id":"690204","japanese":"リディオンも銀狼を退治したほど<line-break>腕は立ったが、かたくなな奴だからな。<line-break>誰とも仲よくしようとしない。<line-break>何かと、俺のことライバル視して<line-break>突っかかってきてた。<line-break>…奴がああなったのもわけがあるんだ。<end>"}
+{"section":146,"id":"1460027","japanese":"一見、無関係のようなことでも、<line-break>よく調べると、つながっている。<line-break>古代文明が土台になっているんだよ。<line-break>例えば、竜骨の砂漠。<line-break>あれは、古代の魔法を受け継いだ国<line-break>ラドラス王国が滅亡しかけたとき、<end>"}
 {"section":41,"id":"410023","japanese":"　　　ただ、最近は身の危険を感じるんだ。<line-break>　　　　　　　いつも、誰かに<line-break>　　　　　見られてるような感じがして。<end>"}
-{"section":75,"id":"750141","japanese":"その点、フゴーに売っちまえば<line-break>警備状態のいいフゴーの倉なら<line-break>魔人からでもアレを守れるだろう。　　<line-break>だが、それにしても気に入らんな。<line-break>どうにも、事なかれ主義で<line-break>大上段からものを見過ぎてないか？<end>"}
+{"section":148,"id":"1480139","japanese":"じゃあじゃあ、用意ができたら　　<line-break>早くロストールに行こうよ。<line-break>ルルアンタも準備してくるから。<line-break>町を出るときに合流するからね。<line-break>ロストールにはゼネテスがいるから<line-break>また会えるね。楽しみだなぁ。<end>"}
 {"section":52,"id":"520029","japanese":"と、とにかく、ロストール王国の危機に<line-break>このていたらくとは！　総司令閣下！<line-break>あまりと言えばあまりではないですか？<end>"}
-{"section":78,"id":"780009","japanese":"一度、王位を狙った者である私が<line-break>赤子だったにせよ、生きていられたのも<line-break>それならば、うなずけます。<line-break>それなのに、私は何も見ようとせず、<line-break>暗闇の中で、叔母様とティアナ様を<line-break>恨みつづけていました。<end>"}
+{"section":157,"id":"1570133","japanese":"ありがとうございました。あなたさまのおかげで<line-break>無事に戻ってくることができました。<line-break>　<line-break>助けていただいたお礼です。<line-break>契約の料金よりも多いですが、私の気持ちです。<line-break>どうか、お受け取りください。<end>"}
 {"section":56,"id":"560425","japanese":"運命の女神の書く脚本は、どうして、<line-break>こんなに陳腐で予定調和なのだろうな？<line-break>その脚本で動く役者としては不満だな。<end>"}
-{"section":85,"id":"850106","japanese":"いいのいいの、あんな奴ら、捨て駒よ。<line-break>それよりもザギヴの信頼を<line-break>あなたが勝ち得たことの方が大事だわ。<line-break>この調子でザギヴに取り入るの。<line-break>こまめにザギヴのいる<line-break>エンシャントの政庁に出入りしてね。<end>"}
+{"section":157,"id":"1570145","japanese":"ありがとうございましたですわ。<line-break>またそのうちお願いいたしますわ、ウフ。　　　<line-break>これは、助けていただいた料金ですわ。<line-break>それとボーナスですわね。…今晩お暇でしたら、<line-break>宿屋の二階にいらしてくださいね。<end>"}
 {"section":69,"id":"690182","japanese":"あれはあれで結構つらい生き方だぜ？<line-break>ま、理解してやれ、とまでは言わないが<line-break>少なくとも拒絶はしないでやるんだな。<end>"}
-{"section":85,"id":"850108","japanese":"あなた、ザギヴの好感度は<line-break>かなり高いわよねえ。あの女、<line-break>あなたのことを結構、信頼してるわよ。<line-break>あの女は古代の闇の怪物の殲滅に<line-break>入れ込んでいるみたいだから。<line-break>その仕事をこなして点数を稼ぐのよ。<end>"}
+{"section":157,"id":"1570149","japanese":"ありがとうございました。あなたさまのおかげで<line-break>無事に戻ってくることができました。<line-break>　<line-break>助けていただいたお礼です。<line-break>契約の料金よりも多いですが、私の気持ちです。<line-break>どうか、お受け取りください。<end>"}
 {"section":80,"id":"800063","japanese":"きみからは無限の可能性を感じる…。<line-break>そしてきみはその可能性に怖じてない。<line-break>それは、とても、キレイなことなんだ。<end>"}
-{"section":85,"id":"850137","japanese":"いいのいいの、あんな奴ら、捨て駒よ。<line-break>それよりもザギヴの信頼を<line-break>あなたが勝ち得たことの方が大事だわ。<line-break>この調子でザギヴに取り入るの。<line-break>こまめにザギヴのいる<line-break>エンシャントの政庁に出入りしてね。<end>"}
+{"section":56,"id":"560776","japanese":"フフ、ノエルの無理なお願いには<line-break>もう、ならされてるさ。<line-break>ただ、気をつけたほうがいいぜ。<line-break>俺たちにも聞こえてくるぐらいだ。<line-break>解放軍の情報はどこかで漏れてる。<line-break>内部に裏切り者がいる可能性が高い。<end>"}
 {"section":87,"id":"870034","japanese":"ルグ様、私はあのコを帝位につけます。<line-break>あなたではなくあのコを帝位につけ、<line-break>そして、今度こそ、守って見せます…。<end>"}
-{"section":85,"id":"850139","japanese":"あなた、ザギヴの好感度は<line-break>かなり高いわよねえ。あの女、<line-break>あなたのことを結構、信頼してるわよ。<line-break>あの女は古代の闇の怪物の殲滅に<line-break>入れ込んでいるみたいだから。<line-break>その仕事をこなして点数を稼ぐのよ。<end>"}
+{"section":56,"id":"560865","japanese":"謝っても許してもらえるとは<line-break>思っていません。でも、一度<line-break>はっきりと言っておきたかった。<line-break>おじさまの言ったことは本当です。<line-break>わたくしにはあなたに命をかけてまで<line-break>守ってもらえる資格はありません。<end>"}
 {"section":104,"id":"1040017","japanese":"待たせたな。次はロセン支部に<line-break>クリュセイス様の手紙を持っていってくれ。<line-break>支部はロセンの南に２日行った所にある。<end>"}
-{"section":86,"id":"860010","japanese":"そう、ここにいたんだよねー。<line-break>あたしの故郷を襲い、略奪した　　　　<line-break>あの愚王ペウダがさ。<line-break>まずはペウダ、そして奴を影で<line-break>操っていたリベルダムの武器商人ども。<line-break>そして、次はロストールを倒す…。<end>"}
+{"section":56,"id":"560935","japanese":"そこで、よくない結果を招くより早く、<line-break>屈強な方に真相を確かめてきて欲しいと<line-break>考えたのです。<line-break>行って何もなければ、それでよい。<line-break>それでも報酬は支払いましょう。<line-break>なにとぞ、よろしくお願いします。<end>"}
 {"section":124,"id":"1240077","japanese":"クリュセイスから預かっておる密書を<line-break>解放軍の本部へ届ければよいのじゃな。<line-break>では、さっそく出かけようではないか。<end>"}
-{"section":89,"id":"890035","japanese":"でもボクたちは、古代の魔道王国の遺産<line-break>っていうのが、他にどんなすごいことを<line-break>秘めているのか、知らないんだ。<line-break>動いているのも、このラドラスの<line-break>居住システムだけ。<line-break>他の魔道文明は眠ったまんまさ。<end>"}
+{"section":57,"id":"570023","japanese":"なるほど、ね。その禁断の聖杯が<line-break>アーギルシャイアの手に落ちる前に<line-break>俺たちに取ってきてほしいってわけか。<line-break>だが、聖杯って名前の魔道器が<line-break>盗み出される事件がロストールで<line-break>最近あったと思ったがな。<end>"}
 {"section":124,"id":"1240121","japanese":"次の目的地はロセンの解放軍支部だった<line-break>はずじゃ。支部まで作っておるとは、<line-break>なかなか組織力があるのかもしれんな。<end>"}
-{"section":134,"id":"1340606","japanese":"♪運命の女神さえ嫉妬する～<line-break>♪俺様とフェルムちゃんの純愛を～<line-break>♪壊したのはキ・サ・マ～！<line-break>♪そう、貴様は２人を引き裂くオニ～！<line-break>♪ヒ・ド・イ・奴～！　オニ～！<line-break>…フェルムちゃん、ゴメンね。 <end>"}
+{"section":58,"id":"580052","japanese":"その後ろには、あの稀代の謀略家<line-break>ファーロスの雌狐とも異名をとる<line-break>ロストール王妃エリスもいたらしい。<line-break>周辺諸国はディンガル帝国を<line-break>よく思っていない。そんなときに<line-break>嫉妬でネメアを追放するとは…。<end>"}
 {"section":125,"id":"1250330","japanese":"姉ちゃん、あれは何だったんだろうな。<line-break>エルファスは世界を救おうとしたのか？<line-break>…俺には、何が何だかわかんねえよ。<end>"}
-{"section":193,"id":"1930102","japanese":"そこまでいかないにしても、　　　　<line-break><value:$28>を冒険に出る前の<line-break><value:$28>として接してくれる<line-break>人は、もういないかもしれませんね。<line-break>ある意味、それが無限のソウルを<line-break>持ったことの代償かもしれません。<end>"}
+{"section":69,"id":"690204","japanese":"リディオンも銀狼を退治したほど<line-break>腕は立ったが、かたくなな奴だからな。<line-break>誰とも仲よくしようとしない。<line-break>何かと、俺のことライバル視して<line-break>突っかかってきてた。<line-break>…奴がああなったのもわけがあるんだ。<end>"}
 {"section":133,"id":"1330226","japanese":"　　　　　　相容れぬの…ならば…、　　　　　<line-break>　　　　　　　ヨワき存在が…、<line-break>　　　　　　消え去る…、のみ…。<end>"}
-{"section":25,"id":"250021","japanese":"旅の者の護衛を頼みたい。<line-break><value:$17><value:$16>が、<line-break><value:$15>まで行く。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内。<line-break>道中は戦闘要員がいなければ危険な場所だ。<line-break>あんたたちの腕に期待してるよ。<end>"}
+{"section":75,"id":"750141","japanese":"その点、フゴーに売っちまえば<line-break>警備状態のいいフゴーの倉なら<line-break>魔人からでもアレを守れるだろう。　　<line-break>だが、それにしても気に入らんな。<line-break>どうにも、事なかれ主義で<line-break>大上段からものを見過ぎてないか？<end>"}
 {"section":134,"id":"1340663","japanese":"ロストールは、現在、戒厳下にある！<line-break>エリエナイ公が王家をないがしろにする<line-break>ファーロス家を討伐すべく立ったのだ！<end>"}
-{"section":25,"id":"250058","japanese":"<value:$17><value:$16>の護衛募集<line-break><value:$15>までの往路<line-break><value:$1A>ギアの好条件<line-break>旅の道中を護衛してくれる方はいませんか。<line-break>腕自慢のあなた、稼ぐチャンスです。<line-break><value:$1B>日以内に送り届けられる方、待ってます。<end>"}
+{"section":78,"id":"780009","japanese":"一度、王位を狙った者である私が<line-break>赤子だったにせよ、生きていられたのも<line-break>それならば、うなずけます。<line-break>それなのに、私は何も見ようとせず、<line-break>暗闇の中で、叔母様とティアナ様を<line-break>恨みつづけていました。<end>"}
 {"section":136,"id":"1360007","japanese":"フフ。エルファスの呪いの具合はどう？<line-break>ホントはもう歩くのすら困難なはずさ。<line-break>そんな身体で屍竜に挑む気だったの？<end>"}
-{"section":122,"id":"1220185","japanese":"わしに一種特殊な勘があると言ったら、<line-break><value:$28>、おぬしは<line-break>それを信じてくれるか？<line-break>…幻惑の洞窟の、凶暴かつ巨大な獣。<line-break>それが怒りとともに発している悲しみを<line-break>わしはふと直感した気がするのじゃ。<end>"}
+{"section":85,"id":"850106","japanese":"いいのいいの、あんな奴ら、捨て駒よ。<line-break>それよりもザギヴの信頼を<line-break>あなたが勝ち得たことの方が大事だわ。<line-break>この調子でザギヴに取り入るの。<line-break>こまめにザギヴのいる<line-break>エンシャントの政庁に出入りしてね。<end>"}
 {"section":136,"id":"1360034","japanese":"君が意識下で死を恐れる理由はこれ。<line-break>自分が負った大事な人を失うという傷を<line-break>大事な妹たちに負わせるのが恐いんだ。<end>"}
-{"section":122,"id":"1220198","japanese":"ディンガルは何をしている？<line-break>闇の魔物が出没していると言うのに、<line-break>その退治を冒険者ごときに任すつもり？<line-break><value:$28>が通りかかったのは、<line-break>幸いだったとしか言い様がないわ。<line-break>火山岩地帯へ向かうわよ！<end>"}
+{"section":85,"id":"850108","japanese":"あなた、ザギヴの好感度は<line-break>かなり高いわよねえ。あの女、<line-break>あなたのことを結構、信頼してるわよ。<line-break>あの女は古代の闇の怪物の殲滅に<line-break>入れ込んでいるみたいだから。<line-break>その仕事をこなして点数を稼ぐのよ。<end>"}
 {"section":136,"id":"1360040","japanese":"人はね、ココロがあって生きてるんだ。<line-break>そのココロの底の願いがかなうってのに<line-break>ジャマばっかしてさ。おしおきだよ！<end>"}
-{"section":148,"id":"1480066","japanese":"なぁに、一生の別れというんじゃない。　<line-break>俺の力が必要になったら、ロストールの<line-break>スラムを訪ねてきてくれればいい。<line-break>じゃあ、またな、<line-break><value:$28>、ルルアンタ。<line-break>オルファウスさんにも世話になったな。<end>"}
+{"section":85,"id":"850137","japanese":"いいのいいの、あんな奴ら、捨て駒よ。<line-break>それよりもザギヴの信頼を<line-break>あなたが勝ち得たことの方が大事だわ。<line-break>この調子でザギヴに取り入るの。<line-break>こまめにザギヴのいる<line-break>エンシャントの政庁に出入りしてね。<end>"}
 {"section":136,"id":"1360054","japanese":"それなら虚無の剣を使うまでもないな。<line-break>私が貴様の前にこの女どもを始末しよう。<line-break>そうすれば痛むべき心もなくなる。<end>"}
-{"section":180,"id":"1800084","japanese":"お前がカルラの配下なのは知ってる。<line-break>だが、この際、奴の手下をやめて<line-break>俺と一緒に奴と戦ってほしいんだ。<line-break>…有利な側から不利な負け側に来いと<line-break>言ってるんだ、無理強いはしない。<line-break>どうだ、<value:$28>？<end>"}
+{"section":85,"id":"850139","japanese":"あなた、ザギヴの好感度は<line-break>かなり高いわよねえ。あの女、<line-break>あなたのことを結構、信頼してるわよ。<line-break>あの女は古代の闇の怪物の殲滅に<line-break>入れ込んでいるみたいだから。<line-break>その仕事をこなして点数を稼ぐのよ。<end>"}
 {"section":136,"id":"1360120","japanese":"ここでイズキヤルに大暴れさせちゃおう。<line-break>そんで邪竜イシュバアルを目覚めさせ<line-break>アルノートゥンに裁きを！　アハハ！<end>"}
-{"section":189,"id":"1890167","japanese":"この世界に存在する、<line-break>生きとし生けるものすべてが、<line-break>　<line-break>それぞれの悩みや痛みを抱いて、<line-break>生命をまっとうしているのだと…。<line-break>　<line-break>僕は<value:$28>のお蔭で<line-break>他人の痛みを知ることができた。<end>"}
+{"section":86,"id":"860010","japanese":"そう、ここにいたんだよねー。<line-break>あたしの故郷を襲い、略奪した　　　　<line-break>あの愚王ペウダがさ。<line-break>まずはペウダ、そして奴を影で<line-break>操っていたリベルダムの武器商人ども。<line-break>そして、次はロストールを倒す…。<end>"}
 {"section":136,"id":"1360210","japanese":"で…調べによると、彼女は失踪する直前に<line-break>リベルダムであんたと接触してんのよ。<line-break>ほれ、何があったか白状しなさい？<end>"}
-{"section":24,"id":"240032","japanese":"<value:$15>を<value:$16>まで<line-break>届けたいのですが、強盗に奪われないように<line-break>戦うことのできる冒険者の方に<line-break>届けていただこうと思います。<line-break><value:$1B>日以内に到着してください。<line-break><value:$1A>ギアをお礼といたします。<end>"}
+{"section":89,"id":"890035","japanese":"でもボクたちは、古代の魔道王国の遺産<line-break>っていうのが、他にどんなすごいことを<line-break>秘めているのか、知らないんだ。<line-break>動いているのも、このラドラスの<line-break>居住システムだけ。<line-break>他の魔道文明は眠ったまんまさ。<end>"}
 {"section":140,"id":"1400086","japanese":"くっ、くっ、クズめ…クズめ、クズめ！<line-break>俺が、俺が英雄になるべきだったのに…<line-break>どいつも、俺のことを認めないで…！<end>"}
-{"section":24,"id":"240103","japanese":"<value:$15>を<value:$16>に<line-break>届けることになったんだが、忙しくてな。<line-break>長い日数を割くわけにはいかない。<line-break>そこで、冒険者に運搬を依頼したい。<line-break>お礼として<value:$1A>ギア用意した。<line-break><value:$1B>日以内の期限で頼む。<end>"}
+{"section":134,"id":"1340606","japanese":"♪運命の女神さえ嫉妬する～<line-break>♪俺様とフェルムちゃんの純愛を～<line-break>♪壊したのはキ・サ・マ～！<line-break>♪そう、貴様は２人を引き裂くオニ～！<line-break>♪ヒ・ド・イ・奴～！　オニ～！<line-break>…フェルムちゃん、ゴメンね。 <end>"}
 {"section":140,"id":"1400088","japanese":"俺のことをいつもバカにしやがって…！<line-break>全部、全部、全部！　お前のせいだ！<line-break>ぶっ殺す！　ぶっ殺す！　ぶっ殺す！！<end>"}
-{"section":24,"id":"240116","japanese":"<value:$15>を<value:$16>まで<line-break>届けなきゃいけないのに、町の外じゃ、<line-break>モンスターとか盗賊が襲ってくる。<line-break>誰か代わりに届け物をしちゃくれないかな。<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギアは出すよ。<end>"}
+{"section":193,"id":"1930102","japanese":"そこまでいかないにしても、　　　　<line-break><value:$28>を冒険に出る前の<line-break><value:$28>として接してくれる<line-break>人は、もういないかもしれませんね。<line-break>ある意味、それが無限のソウルを<line-break>持ったことの代償かもしれません。<end>"}
 {"section":156,"id":"1560044","japanese":"おかげさまで、無事に着くことができました。<line-break>約束の報酬金と心ばかりのお礼です。<line-break>どうもありがとうございました。<end>"}
-{"section":25,"id":"250054","japanese":"<value:$15>に用があって、<line-break>この町の<value:$16>が<line-break>行くことになったんだ。<line-break>１人で行かせるのは、不安だからね。<line-break>誰か護衛をしておくれ。<line-break><value:$1A>ギア、用意したよ。<line-break><value:$1B>日以内にやってほしいね。<end>"}
+{"section":25,"id":"250021","japanese":"旅の者の護衛を頼みたい。<line-break><value:$17><value:$16>が、<line-break><value:$15>まで行く。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内。<line-break>道中は戦闘要員がいなければ危険な場所だ。<line-break>あんたたちの腕に期待してるよ。<end>"}
 {"section":156,"id":"1560079","japanese":"やっと到着しましたね。<line-break>でも、約束の期日には間に合いませんでした。<line-break>とりあえず、料金の半額だけお支払いします。<end>"}
-{"section":104,"id":"1040008","japanese":"こんな話は普通受けないんだが、<line-break>この町の有力な武器商人の依頼でな。　<line-break>断るに断れなかったんだよ。<line-break>クロイス邸のある居住区は<line-break>ここから広場を突っ切ってすぐの所だ。<line-break>散歩がてら、よろしく頼むよ。<end>"}
+{"section":25,"id":"250058","japanese":"<value:$17><value:$16>の護衛募集<line-break><value:$15>までの往路<line-break><value:$1A>ギアの好条件<line-break>旅の道中を護衛してくれる方はいませんか。<line-break>腕自慢のあなた、稼ぐチャンスです。<line-break><value:$1B>日以内に送り届けられる方、待ってます。<end>"}
 {"section":156,"id":"1560084","japanese":"どうもありがとうございました。<line-break>約束の報酬金と心ばかりのお礼です。<line-break>おかげさまで、無事に着くことができました。<end>"}
-{"section":104,"id":"1040044","japanese":"手紙は届けたのかしら？　　　　　<line-break>本部のあとは、ロセン支部にも<line-break>行ってもらうことになるはずよ。<line-break>こんなところに顔を出すより、<line-break>手紙を運ぶのが優先ではなくて？<line-break>怠慢な仕事ぶりは、許さないわよ。<end>"}
+{"section":122,"id":"1220185","japanese":"わしに一種特殊な勘があると言ったら、<line-break><value:$28>、おぬしは<line-break>それを信じてくれるか？<line-break>…幻惑の洞窟の、凶暴かつ巨大な獣。<line-break>それが怒りとともに発している悲しみを<line-break>わしはふと直感した気がするのじゃ。<end>"}
 {"section":157,"id":"1570043","japanese":"やれやれ、ひどいめにあわされてしまったの。<line-break>報酬金なんかやらんぞい。<line-break>わしの仲間がおったら、よかったのにのお。<end>"}
-{"section":108,"id":"1080000","japanese":"（エンシャントの南東にある賢者の森。<line-break>　その奥深くに猫屋敷と呼ばれる<line-break>　誰も近づけない館があるらしい）<line-break>（噂によると、唯一運命に選ばれた者<line-break>　だけが、猫屋敷を見つけることが<line-break>　できるという）<end>"}
+{"section":122,"id":"1220198","japanese":"ディンガルは何をしている？<line-break>闇の魔物が出没していると言うのに、<line-break>その退治を冒険者ごときに任すつもり？<line-break><value:$28>が通りかかったのは、<line-break>幸いだったとしか言い様がないわ。<line-break>火山岩地帯へ向かうわよ！<end>"}
 {"section":157,"id":"1570071","japanese":"やれやれ、ひどいめにあわされてしまったの。<line-break>報酬金なんかやらんぞい。<line-break>わしの仲間がおったら、よかったのにのお。<end>"}
-{"section":108,"id":"1080023","japanese":"その話は、聞いたことがあります。<line-break>エンシャント南東、賢者の森には、<line-break>賢者様の屋敷が隠されていると…。<line-break>しかし、そこへは運命に選ばれないと<line-break>永遠にたどりつくことができないとも<line-break>聞いております。<end>"}
+{"section":148,"id":"1480066","japanese":"なぁに、一生の別れというんじゃない。　<line-break>俺の力が必要になったら、ロストールの<line-break>スラムを訪ねてきてくれればいい。<line-break>じゃあ、またな、<line-break><value:$28>、ルルアンタ。<line-break>オルファウスさんにも世話になったな。<end>"}
 {"section":161,"id":"1610225","japanese":"最後にあなたたちを元気にしてあげる。<line-break>そうして、より多くの苦痛を感じながら<line-break>死んで行ってちょうだい。くすすっ。<end>"}
-{"section":108,"id":"1080141","japanese":"調査も終了したことじゃし、<line-break>あとは、お主がギルドに調査結果を<line-break>報告すれば依頼達成じゃな。<line-break>ギルドで引き受けた依頼は、結果を<line-break>報告して初めて依頼達成なんじゃ。<line-break>そのことを今後も忘れるでないぞ。<end>"}
+{"section":180,"id":"1800084","japanese":"お前がカルラの配下なのは知ってる。<line-break>だが、この際、奴の手下をやめて<line-break>俺と一緒に奴と戦ってほしいんだ。<line-break>…有利な側から不利な負け側に来いと<line-break>言ってるんだ、無理強いはしない。<line-break>どうだ、<value:$28>？<end>"}
 {"section":163,"id":"1630133","japanese":"この戦いで、ゼネテスの声望は<line-break>一気に上がり、奇跡の名将と呼ばれたが　　<line-break>ロストールの被害は甚大なものがあった。<end>"}
-{"section":119,"id":"1190007","japanese":"俺もこれ以上詳しい内容は知らないんだ。　　　<line-break>もっと詳しく知りたかったら、<line-break>ケリュネイアに直接会ってくれ。<line-break>この町の港の向こうに<line-break>ライラネート神殿があるだろ？<line-break>そこで待ってるって言ってたよ。<end>"}
+{"section":189,"id":"1890167","japanese":"この世界に存在する、<line-break>生きとし生けるものすべてが、<line-break>　<line-break>それぞれの悩みや痛みを抱いて、<line-break>生命をまっとうしているのだと…。<line-break>　<line-break>僕は<value:$28>のお蔭で<line-break>他人の痛みを知ることができた。<end>"}
 {"section":189,"id":"1890053","japanese":"　　　　　　相容れぬの…ならば…、　　　　　<line-break>　　　　　　　ヨワき存在が…、<line-break>　　　　　　消え去る…、のみ…。<end>"}
-{"section":120,"id":"1200029","japanese":"それで、彼女の両親は<line-break>赤ん坊の彼女を捨てたのでしょう。<line-break>それを私が拾って育てたのです。<line-break>ハーフエルフであるケリュネイアは<line-break>似た境遇のネメアに親近感を持ち、<line-break>彼になかば恋愛感情を抱いています。<end>"}
+{"section":24,"id":"240032","japanese":"<value:$15>を<value:$16>まで<line-break>届けたいのですが、強盗に奪われないように<line-break>戦うことのできる冒険者の方に<line-break>届けていただこうと思います。<line-break><value:$1B>日以内に到着してください。<line-break><value:$1A>ギアをお礼といたします。<end>"}
 {"section":265,"id":"2650021","japanese":"それが最良の結果になるはずだった…。<line-break>無知な君に台無しにされなければね。<line-break>ホントに善良なお節介焼きだよ、君は。<end>"}
-{"section":121,"id":"1210045","japanese":"シャリとかいうヤツの話だと<line-break>色惑の瞳さえあればアトレイア王女の<line-break>目が見えるようになるのじゃな。<line-break>よし、それなら話は簡単じゃな。<line-break>ロストールの北西にある邪眼の迷宮<line-break>とやらに出かけるとしようぞ。<end>"}
+{"section":24,"id":"240103","japanese":"<value:$15>を<value:$16>に<line-break>届けることになったんだが、忙しくてな。<line-break>長い日数を割くわけにはいかない。<line-break>そこで、冒険者に運搬を依頼したい。<line-break>お礼として<value:$1A>ギア用意した。<line-break><value:$1B>日以内の期限で頼む。<end>"}
 {"section":20,"id":"200608","japanese":"毒、沈黙、呪いからなる系統です。<line-break>別の系統に変えると効力を失います。<line-break>その場合、最初から鍛え直すことになります。<end>"}
-{"section":121,"id":"1210141","japanese":"ほほう、お主に名指しの依頼とな。<line-break>その依頼主も物好きよのう。<line-break>わははは…、冗談じゃよ。<line-break>たしか、エンシャントの冒険者ギルドで<line-break>詳しい依頼内容が聞けるのじゃったな。<line-break>それでは、行くとしようぞ。<end>"}
+{"section":24,"id":"240116","japanese":"<value:$15>を<value:$16>まで<line-break>届けなきゃいけないのに、町の外じゃ、<line-break>モンスターとか盗賊が襲ってくる。<line-break>誰か代わりに届け物をしちゃくれないかな。<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギアは出すよ。<end>"}
 {"section":46,"id":"460020","japanese":"あなたの貴い犠牲は無駄にはしません！！<line-break>僕たち、きっと幸せになります！！<line-break>だから、死んでいてください、それじゃ！<end>"}
-{"section":121,"id":"1210185","japanese":"まったく、最近の若いモンは…<line-break>と言いたいところじゃが、<line-break>こればかりは良く考えるがいいぞ。<line-break>冒険者の世は決して甘くはない。<line-break>ましてや動乱のきざしすらある昨今、<line-break>軽率な行動は命取りとなるからの。<end>"}
+{"section":25,"id":"250054","japanese":"<value:$15>に用があって、<line-break>この町の<value:$16>が<line-break>行くことになったんだ。<line-break>１人で行かせるのは、不安だからね。<line-break>誰か護衛をしておくれ。<line-break><value:$1A>ギア、用意したよ。<line-break><value:$1B>日以内にやってほしいね。<end>"}
 {"section":52,"id":"520086","japanese":"しかし、ディンガルの将アンギルダンは<line-break>海路を進軍する方法を採らず、<line-break>精兵を率いて、分断の山脈を越える道を選んだ。<end>"}
-{"section":121,"id":"1210192","japanese":"（楽な仕事ばかりこなしていると<line-break>　金は貯まるけど、実力はあまり<line-break>　つかないかもしれない）<line-break>（たまには迷宮や洞窟に潜って、<line-break>　モンスター相手に腕試しをするのも<line-break>　実力をつけるにはいいのかも…）<end>"}
+{"section":104,"id":"1040008","japanese":"こんな話は普通受けないんだが、<line-break>この町の有力な武器商人の依頼でな。　<line-break>断るに断れなかったんだよ。<line-break>クロイス邸のある居住区は<line-break>ここから広場を突っ切ってすぐの所だ。<line-break>散歩がてら、よろしく頼むよ。<end>"}
 {"section":53,"id":"530004","japanese":"くそっくそっくそっくそっ！　クズめ！<line-break>クズめクズめクズめ！　クズのくせに！<line-break>俺をバカにしやがって！　クズがアア！<end>"}
-{"section":122,"id":"1220107","japanese":"風泣きの洞窟にものすごい怪物が<line-break>現れるもんで、エルズの人らは<line-break>コロル石を採掘できなくて困っている。<line-break>その怪物を退治するのが、<line-break>お前さんのお仕事ってわけだ。<line-break>退治したらギルドに報告するんだぜ。<end>"}
+{"section":104,"id":"1040044","japanese":"手紙は届けたのかしら？　　　　　<line-break>本部のあとは、ロセン支部にも<line-break>行ってもらうことになるはずよ。<line-break>こんなところに顔を出すより、<line-break>手紙を運ぶのが優先ではなくて？<line-break>怠慢な仕事ぶりは、許さないわよ。<end>"}
 {"section":53,"id":"530024","japanese":"くそっくそっくそっくそっ！　クズめ！<line-break>クズめクズめクズめ！　クズのくせに！<line-break>俺をバカにしやがって！　クズがアア！<end>"}
-{"section":123,"id":"1230041","japanese":"姉ちゃん聞いたぜ！<line-break>テラネで引き受けた怪物退治の仕事は、<line-break>成功報酬が５０００ギアなんだって！<line-break>俺、冒険者やっててよかったよ。<line-break>もちろん畑仕事も好きだけど、<line-break>それじゃ大金は手に入らないからな。<end>"}
+{"section":108,"id":"1080000","japanese":"（エンシャントの南東にある賢者の森。<line-break>　その奥深くに猫屋敷と呼ばれる<line-break>　誰も近づけない館があるらしい）<line-break>（噂によると、唯一運命に選ばれた者<line-break>　だけが、猫屋敷を見つけることが<line-break>　できるという）<end>"}
 {"section":75,"id":"750044","japanese":"ティアナ王女が華やかな日々を送る間、<line-break>彼女は孤独で光なき人生を送っていた。<line-break>この部屋が彼女の世界のすべてなのさ。<end>"}
-{"section":123,"id":"1230043","japanese":"普通は帝国の依頼した仕事なんて、<line-break>腕利きの冒険者じゃないと<line-break>冒険者ギルドも紹介しないもんだ。<line-break>それが依頼されたってんだから、<line-break>お前さんも腕利き冒険者として、<line-break>世間に認められてるってことだぜ。<end>"}
+{"section":108,"id":"1080023","japanese":"その話は、聞いたことがあります。<line-break>エンシャント南東、賢者の森には、<line-break>賢者様の屋敷が隠されていると…。<line-break>しかし、そこへは運命に選ばれないと<line-break>永遠にたどりつくことができないとも<line-break>聞いております。<end>"}
 {"section":88,"id":"880280","japanese":"見ての通り移動の間にしか行けなくなって<line-break>しまったので案内の必要はなくなった。<line-break>これからは何を話せばよいのやら…。<end>"}
-{"section":123,"id":"1230109","japanese":"竜骨の砂漠は、同じような景色が<line-break>続くので迷いやすいところじゃ。<line-break>目印のつけようもないしのう。<line-break>エステルとやらに借りた、<line-break>その水晶の力を信じるしかないのう。<line-break>しかし、なんで自分で探さんのじゃ？<end>"}
+{"section":108,"id":"1080141","japanese":"調査も終了したことじゃし、<line-break>あとは、お主がギルドに調査結果を<line-break>報告すれば依頼達成じゃな。<line-break>ギルドで引き受けた依頼は、結果を<line-break>報告して初めて依頼達成なんじゃ。<line-break>そのことを今後も忘れるでないぞ。<end>"}
 {"section":89,"id":"890121","japanese":"　　　　よくぞ、巨人フルーヴを倒した。　　　<line-break>　　　　　　　　礼を言うぞ。<line-break>　　　　　無限のソウルを持つ者よ…。<end>"}
-{"section":123,"id":"1230215","japanese":"ケリュネイアと名乗るハーフエルフの<line-break>言うことによれば、闇の神器の１個は<line-break>ウルカーンにあるそうです。<line-break>当然ですが、そう簡単に手に入るとは<line-break>思えません。警戒されないように、<line-break>慎重に行きましょう。<end>"}
+{"section":119,"id":"1190007","japanese":"俺もこれ以上詳しい内容は知らないんだ。　　　<line-break>もっと詳しく知りたかったら、<line-break>ケリュネイアに直接会ってくれ。<line-break>この町の港の向こうに<line-break>ライラネート神殿があるだろ？<line-break>そこで待ってるって言ってたよ。<end>"}
 {"section":98,"id":"980136","japanese":"未使用：人なんて、いいかげんなものね。<line-break>この間まで、白い目で見ていた人たちが<line-break>エルメス将軍にお取りなしをって…。<end>"}
-{"section":124,"id":"1240002","japanese":"罪深き者の迷宮はロセンの北じゃ。<line-break>ケリュネイアの話だと、そこにも<line-break>闇の神器が隠されておるのじゃな。<line-break>じゃが、その闇の神器はいつでも<line-break>見つかるわけではないそうじゃな。<line-break>まったく厄介な話よのう。<end>"}
+{"section":120,"id":"1200029","japanese":"それで、彼女の両親は<line-break>赤ん坊の彼女を捨てたのでしょう。<line-break>それを私が拾って育てたのです。<line-break>ハーフエルフであるケリュネイアは<line-break>似た境遇のネメアに親近感を持ち、<line-break>彼になかば恋愛感情を抱いています。<end>"}
 {"section":88,"id":"880215","japanese":"　　 　　　　　　　来たか…。　　　<line-break>　　　エステルよ…。ズゥの血を引く娘よ…。<line-break>　　 　　　　　我が地の巫女よ…。<end>"}
-{"section":133,"id":"1330666","japanese":"傷ついたこいつが眠る洞窟へ何度も　　<line-break>足を運んだ。こいつは怒りと悲しみに<line-break>むしばまれておった。<line-break>こいつの人生は、追われ、傷つけられ、<line-break>封じられ、恨み、殺し、破壊することの<line-break>繰り返しじゃった。<end>"}
+{"section":121,"id":"1210045","japanese":"シャリとかいうヤツの話だと<line-break>色惑の瞳さえあればアトレイア王女の<line-break>目が見えるようになるのじゃな。<line-break>よし、それなら話は簡単じゃな。<line-break>ロストールの北西にある邪眼の迷宮<line-break>とやらに出かけるとしようぞ。<end>"}
 {"section":103,"id":"1030050","japanese":"ま、彼にも色々都合があるようですし、<line-break>今回はあきらめた方がよさそうですね。<line-break>他の方に呼びかけてみてはどうですか？<end>"}
-{"section":134,"id":"1340602","japanese":"よーし、わかった。つまり貴様は<line-break>俺様に恐れをなして戦意喪失。<line-break>俺様の完全勝利ということだな。<line-break>ならばもう貴様ごときに用はない！<line-break>早くフェルムちゃんに報告して<line-break>勝利の熱い抱擁を交わさなければ！<end>"}
+{"section":121,"id":"1210141","japanese":"ほほう、お主に名指しの依頼とな。<line-break>その依頼主も物好きよのう。<line-break>わははは…、冗談じゃよ。<line-break>たしか、エンシャントの冒険者ギルドで<line-break>詳しい依頼内容が聞けるのじゃったな。<line-break>それでは、行くとしようぞ。<end>"}
 {"section":20,"id":"200607","japanese":"暗闇、混乱、幻覚からなる系統です。<line-break>別の系統に変えると効力を失います。<line-break>その場合、最初から鍛え直すことになります。<end>"}
-{"section":134,"id":"1340672","japanese":"　　　　　これこそ我が幸運に他ならぬ…！　　<line-break> <line-break> <line-break> <line-break>　　　　　　悠久の眠りにより衰えた　　　<line-break>　　　　我が身にとって、無限のソウルほど　　<line-break>　　　　　　優れた糧はありはせぬ…。　　　<end>"}
+{"section":121,"id":"1210185","japanese":"まったく、最近の若いモンは…<line-break>と言いたいところじゃが、<line-break>こればかりは良く考えるがいいぞ。<line-break>冒険者の世は決して甘くはない。<line-break>ましてや動乱のきざしすらある昨今、<line-break>軽率な行動は命取りとなるからの。<end>"}
 {"section":46,"id":"460018","japanese":"確かに…！！　あなたが、もしかしたら、<line-break>恩返しを盾に彼女に近づいたりして、<line-break>僕たちにとって驚異になるかもしれない！<end>"}
-{"section":135,"id":"1350094","japanese":"母は…あの人はとてもきれいです。<line-break>お父様には釣り合わない<line-break>…きっと、誰かがいたはずです。<line-break>きっと私は王女でもなんでもない！<line-break>ただいつもへらへらと笑顔でいる<line-break>他人に媚びを売るだけの情けない女！<end>"}
+{"section":121,"id":"1210192","japanese":"（楽な仕事ばかりこなしていると<line-break>　金は貯まるけど、実力はあまり<line-break>　つかないかもしれない）<line-break>（たまには迷宮や洞窟に潜って、<line-break>　モンスター相手に腕試しをするのも<line-break>　実力をつけるにはいいのかも…）<end>"}
 {"section":51,"id":"510152","japanese":"アンギルダンは万一の王都守備軍の速攻に備え、<line-break>付近の町に強制徴発の軍を差し向けた。<line-break>そのため中枢部が手薄になった。<end>"}
-{"section":136,"id":"1360233","japanese":"やさしいのだな。だがそれはお門違いだ。<line-break>守ることのできぬお前を恨むなど<line-break>その者は思いつきもすまい。<line-break>ただ、お前とともに歩いた時間を<line-break>ときに懐かしく思うだけだ。<line-break>そして、残酷だが、そこまでだ。<end>"}
+{"section":122,"id":"1220107","japanese":"風泣きの洞窟にものすごい怪物が<line-break>現れるもんで、エルズの人らは<line-break>コロル石を採掘できなくて困っている。<line-break>その怪物を退治するのが、<line-break>お前さんのお仕事ってわけだ。<line-break>退治したらギルドに報告するんだぜ。<end>"}
 {"section":52,"id":"520151","japanese":"アンギルダン率いるディンガル軍は　　　　　　<line-break>大街道沿いの都市を電撃的に占領。<line-break>王都ロストール攻略に王手をかけた。<end>"}
-{"section":136,"id":"1360243","japanese":"だが、そうすることで<line-break>自ら意志することを放棄していないか？<line-break>お前自身はどこに生きているのだ？<line-break>なんにせよ戦わねばならないようだ。<line-break>お前たちの価値に従えば<line-break>魔人は倒さねばならぬ存在なのだろう？<end>"}
+{"section":123,"id":"1230041","japanese":"姉ちゃん聞いたぜ！<line-break>テラネで引き受けた怪物退治の仕事は、<line-break>成功報酬が５０００ギアなんだって！<line-break>俺、冒険者やっててよかったよ。<line-break>もちろん畑仕事も好きだけど、<line-break>それじゃ大金は手に入らないからな。<end>"}
 {"section":59,"id":"590094","japanese":"歴史上、類を見ない大胆な作戦だ。私も<line-break>最初に聞いたときは驚いたが、必ず成功する。<line-break>君にもこの作戦に参加して欲しい。<end>"}
-{"section":137,"id":"1370063","japanese":"…美しさねぇ。<line-break>まぁ、いいさ。<line-break>剣に何を見るかは人それぞれだしな。　　　　<line-break>お前さん、これからも冒険を続けるんだろう？<line-break>物事にはいろんな面があるってことを<line-break>剣が教えてくれるかもしれねぇやな。<end>"}
+{"section":123,"id":"1230043","japanese":"普通は帝国の依頼した仕事なんて、<line-break>腕利きの冒険者じゃないと<line-break>冒険者ギルドも紹介しないもんだ。<line-break>それが依頼されたってんだから、<line-break>お前さんも腕利き冒険者として、<line-break>世間に認められてるってことだぜ。<end>"}
 {"section":73,"id":"730055","japanese":"　　　何もかも無に帰すことはないわ…。　　　<line-break>　　　　　　私の中で眠りなさい。<line-break>　　　　　　その気持ちと一緒に…。<end>"}
-{"section":137,"id":"1370111","japanese":"でも、だからって男を甘やかしちゃ　　　　<line-break>いけないよ。頼りにしてても、<line-break>それをあまり見せすぎない。<line-break>でも、まったくそれを見せない<line-break>ってのもダメさ。そのさじ加減ってのが<line-break>家を守る秘訣だからね。<end>"}
+{"section":123,"id":"1230109","japanese":"竜骨の砂漠は、同じような景色が<line-break>続くので迷いやすいところじゃ。<line-break>目印のつけようもないしのう。<line-break>エステルとやらに借りた、<line-break>その水晶の力を信じるしかないのう。<line-break>しかし、なんで自分で探さんのじゃ？<end>"}
 {"section":134,"id":"1340037","japanese":"　　　　　　　　 バカな…！　　　　　　　　<line-break>　　　　　　　　竜である我が<line-break>　　　　人の子ごときに敗れようとは…。<end>"}
-{"section":137,"id":"1370172","japanese":"それゆえに価値が大きいというのは<line-break>もちろんあると思うぞ。<line-break>弱点のない仲間は、貴重だからな。<line-break>つまるところ、どうあるべきなのかは、<line-break>お前自身が決めることなのだ。<line-break>自由がある…だからこそ難しい。<end>"}
+{"section":123,"id":"1230215","japanese":"ケリュネイアと名乗るハーフエルフの<line-break>言うことによれば、闇の神器の１個は<line-break>ウルカーンにあるそうです。<line-break>当然ですが、そう簡単に手に入るとは<line-break>思えません。警戒されないように、<line-break>慎重に行きましょう。<end>"}
 {"section":132,"id":"1320007","japanese":"　　　　　　　竜はいかなる時も<line-break>　　　　　真なる言葉しかはかぬこと、<line-break>　　　　その身をもって思い知るがよい。　　　<end>"}
-{"section":138,"id":"1380044","japanese":"猫なんて弱っちいもんになってみて、<line-break>不覚ながら、俺はそういうことに<line-break>気が回るようになっちまった。<line-break>も、もちろん、あのオトコオンナに<line-break>感謝するなんてことは、<line-break>空が落ちてくるよりありえねえがよ。<end>"}
+{"section":124,"id":"1240002","japanese":"罪深き者の迷宮はロセンの北じゃ。<line-break>ケリュネイアの話だと、そこにも<line-break>闇の神器が隠されておるのじゃな。<line-break>じゃが、その闇の神器はいつでも<line-break>見つかるわけではないそうじゃな。<line-break>まったく厄介な話よのう。<end>"}
 {"section":135,"id":"1350430","japanese":"玄武軍は拠点防衛戦のエキスパートよ。<line-break>いくら青竜軍でも無傷で蹴散らせないわ。<line-break>アキュリュースには白虎軍がいるのよ。<end>"}
-{"section":26,"id":"260085","japanese":"アキュリュースの港にいる女の人って<line-break>ディンガル諜報部の人だよね？<line-break>合い言葉なんて諜報部って感じだもの。<line-break>ぼくも合い言葉を言ってみたいなぁ。<line-break>帝国はあの陽より輝く、なんて<line-break>普通は言わないもんね。<end>"}
+{"section":133,"id":"1330666","japanese":"傷ついたこいつが眠る洞窟へ何度も　　<line-break>足を運んだ。こいつは怒りと悲しみに<line-break>むしばまれておった。<line-break>こいつの人生は、追われ、傷つけられ、<line-break>封じられ、恨み、殺し、破壊することの<line-break>繰り返しじゃった。<end>"}
 {"section":136,"id":"1360011","japanese":"おやおや、またもやおジャマ虫の登場だ。<line-break>霊峰トールのノトゥーン神殿においで。<line-break>そこで話の続きをしよう？　くすくす。<end>"}
-{"section":26,"id":"260168","japanese":"うっそー、せっかく猫屋敷の賢者様に<line-break>教えていただいたのにお忘れに<line-break>なったのですか？<line-break>ああ、なんともったいないことを…。<line-break>しょうがないのでエンシャントの酒場に<line-break>でも行ってみましょう…な～んてね。<end>"}
+{"section":134,"id":"1340602","japanese":"よーし、わかった。つまり貴様は<line-break>俺様に恐れをなして戦意喪失。<line-break>俺様の完全勝利ということだな。<line-break>ならばもう貴様ごときに用はない！<line-break>早くフェルムちゃんに報告して<line-break>勝利の熱い抱擁を交わさなければ！<end>"}
 {"section":136,"id":"1360313","japanese":"　　　何もかも無に帰すことはないわ…。　　　<line-break>　　　　　　私の中で眠りなさい。<line-break>　　　　　　その気持ちと一緒に…。<end>"}
-{"section":33,"id":"330046","japanese":"正義のためとはいえ、<line-break>勇者が誘拐など…と思っていたが、<line-break>正義と悪の区別もつかんとは貴様ああ！<line-break>貴様らには、教育的指導が必要だ！<line-break>よかろう！！　今日は特別だ！<line-break>俺様が熱い愛のおしおきをしてやる！<end>"}
+{"section":134,"id":"1340672","japanese":"　　　　　これこそ我が幸運に他ならぬ…！　　<line-break> <line-break> <line-break> <line-break>　　　　　　悠久の眠りにより衰えた　　　<line-break>　　　　我が身にとって、無限のソウルほど　　<line-break>　　　　　　優れた糧はありはせぬ…。　　　<end>"}
 {"section":156,"id":"1560066","japanese":"ずいぶんひどいめにあわされました。<line-break>ぜんぜん護衛になっていないじゃないですか。<line-break>お礼金は支払いません。失礼します！<end>"}
-{"section":36,"id":"360029","japanese":"ヴァシュタールを目覚めさせることが<line-break>できるのは私だけ。そして、闇の門を<line-break>開けられるのはヴァシュタールだけ。<line-break>闇の門を通らなければ、<line-break>ウルグ様は復活できない。<line-break>…違うかしら？　それでも無駄だと？<end>"}
+{"section":135,"id":"1350094","japanese":"母は…あの人はとてもきれいです。<line-break>お父様には釣り合わない<line-break>…きっと、誰かがいたはずです。<line-break>きっと私は王女でもなんでもない！<line-break>ただいつもへらへらと笑顔でいる<line-break>他人に媚びを売るだけの情けない女！<end>"}
 {"section":156,"id":"1560088","japanese":"いずれまた、お願いするかもしれません。<line-break>どうもありがとうございました。<line-break>護衛の料金とボーナスです、お納めください。<end>"}
-{"section":40,"id":"400058","japanese":"傭兵志願者か。<line-break>担当は将軍とともに出ていて<line-break>１ケ月は政庁に戻ってこない。　　　　　　<line-break>ひと月以上たってから来るといい。<line-break>その間に強くなっておくことだ。<line-break>戦場で最後に頼れるのは自分の腕だからな。<end>"}
+{"section":136,"id":"1360233","japanese":"やさしいのだな。だがそれはお門違いだ。<line-break>守ることのできぬお前を恨むなど<line-break>その者は思いつきもすまい。<line-break>ただ、お前とともに歩いた時間を<line-break>ときに懐かしく思うだけだ。<line-break>そして、残酷だが、そこまでだ。<end>"}
 {"section":156,"id":"1560092","japanese":"いずれまた、お願いするかもしれません。<line-break>どうもありがとうございました。<line-break>護衛の料金とボーナスです、お納めください。<end>"}
-{"section":40,"id":"400171","japanese":"おおざっぱに言うとだな、<line-break>Ｂｒａｖｅは勇敢さを、Ｗｉｌｄは荒々しさを、<line-break>Ｓｅａｒｃｈは探究心を、<line-break>Ｃｏｏｌは冷静さを、<line-break>Ｂｅｌｉｅｆは信心深さを、<line-break>Ｋｉｎｄはやさしさを、魂に与えてくれるのさ。<end>"}
+{"section":136,"id":"1360243","japanese":"だが、そうすることで<line-break>自ら意志することを放棄していないか？<line-break>お前自身はどこに生きているのだ？<line-break>なんにせよ戦わねばならないようだ。<line-break>お前たちの価値に従えば<line-break>魔人は倒さねばならぬ存在なのだろう？<end>"}
 {"section":156,"id":"1560098","japanese":"ちゃんと護衛してくださいよォ。<line-break>死ぬかと思っちゃったじゃないですか！<line-break>護衛の料金は僕の治療代にさせていただきます。<end>"}
-{"section":45,"id":"450085","japanese":"ああああ、ヴァンちゃん！　オイオイオイ！<line-break>あなたのせいででヴァンちゃんはあああ！！<line-break>　<line-break>あんなにいい子だったのに…！<line-break>ヴァンちゃんがかわいそうよおお！<line-break>どうしてえええ？　あんないい子があああ！<end>"}
+{"section":137,"id":"1370063","japanese":"…美しさねぇ。<line-break>まぁ、いいさ。<line-break>剣に何を見るかは人それぞれだしな。　　　　<line-break>お前さん、これからも冒険を続けるんだろう？<line-break>物事にはいろんな面があるってことを<line-break>剣が教えてくれるかもしれねぇやな。<end>"}
 {"section":156,"id":"1560102","japanese":"ずいぶんひどいめにあわされました。<line-break>ぜんぜん護衛になっていないじゃないですか。<line-break>お礼金は支払いません。失礼します！<end>"}
-{"section":45,"id":"450087","japanese":"ああああ、ヴァンちゃん！　オイオイオイ！<line-break>どうしてママを置いて死んじゃったのよお！<line-break>　<line-break>あんなにいい子だったのに…！<line-break>ヴァンちゃんがかわいそうよおお！<line-break>どうしてえええ？　あんないい子があああ！<end>"}
+{"section":137,"id":"1370111","japanese":"でも、だからって男を甘やかしちゃ　　　　<line-break>いけないよ。頼りにしてても、<line-break>それをあまり見せすぎない。<line-break>でも、まったくそれを見せない<line-break>ってのもダメさ。そのさじ加減ってのが<line-break>家を守る秘訣だからね。<end>"}
 {"section":156,"id":"1560107","japanese":"ふむ、やっと着いたようだな。<line-break>約束の期日は過ぎてしまったが、まあ、よかろう。<line-break>護衛の手間賃は半額でよかったのだな。<end>"}
-{"section":46,"id":"460039","japanese":"俺様は目標はまだ見えないが<line-break>今、立って歩いてゆける。<line-break>俺様の熱き魂に人を触れさせること…　<line-break>そうして、人にこの熱き魂を<line-break>わけていくことで、俺様は正しき力を<line-break>愛を、正義を、世界に押し広げるのだ。<end>"}
+{"section":137,"id":"1370172","japanese":"それゆえに価値が大きいというのは<line-break>もちろんあると思うぞ。<line-break>弱点のない仲間は、貴重だからな。<line-break>つまるところ、どうあるべきなのかは、<line-break>お前自身が決めることなのだ。<line-break>自由がある…だからこそ難しい。<end>"}
 {"section":156,"id":"1560112","japanese":"いずれまた、お願いするかもしれません。<line-break>どうもありがとうございました。<line-break>護衛の料金とボーナスです、お納めください。<end>"}
-{"section":46,"id":"460079","japanese":"お前、向こう側に行っちまったんだな。<line-break>ガルドランや、強盗たちの方へ…。　　<line-break>　<line-break>ナッジ、お前、何かの命を奪ったことを<line-break>喜々として話す人間じゃなかったのに…<line-break>俺が、俺が、バカだったばっかりに…。<end>"}
+{"section":138,"id":"1380044","japanese":"猫なんて弱っちいもんになってみて、<line-break>不覚ながら、俺はそういうことに<line-break>気が回るようになっちまった。<line-break>も、もちろん、あのオトコオンナに<line-break>感謝するなんてことは、<line-break>空が落ちてくるよりありえねえがよ。<end>"}
 {"section":157,"id":"1570010","japanese":"あなたのおかげで、なんとか戻ってくることが<line-break>できました。ありがとうございます。<line-break>お約束の報酬です。お納めください。<end>"}
-{"section":47,"id":"470028","japanese":"いや、少し違うな。彼らは<line-break>自分の中の正しさのために力を使い、<line-break>その結果として俺様を救ったのだ。<line-break>俺様は震えた…。そして、知ったのだ。<line-break>熱き魂が正しき力を使うとき、<line-break>他人の魂をも、熱く燃やすと。<end>"}
+{"section":26,"id":"260085","japanese":"アキュリュースの港にいる女の人って<line-break>ディンガル諜報部の人だよね？<line-break>合い言葉なんて諜報部って感じだもの。<line-break>ぼくも合い言葉を言ってみたいなぁ。<line-break>帝国はあの陽より輝く、なんて<line-break>普通は言わないもんね。<end>"}
 {"section":157,"id":"1570146","japanese":"ありがとうございましたですわ。<line-break>今度はもう少しお手柔らかに、お願いしますわ。<line-break>これは、助けていただいた料金ですわ。<end>"}
-{"section":51,"id":"510083","japanese":"侵入者を放っておいては<line-break>ロストール貴族の名折れだってな。<line-break>軍を急行させて決戦するんだと。<line-break>急ぐのもいいが、隊列はメチャクチャ、<line-break>兵士も疲れ切ってる軍隊なんて、<line-break>待ちかまえてる帝国軍のエジキさ。<end>"}
+{"section":26,"id":"260168","japanese":"うっそー、せっかく猫屋敷の賢者様に<line-break>教えていただいたのにお忘れに<line-break>なったのですか？<line-break>ああ、なんともったいないことを…。<line-break>しょうがないのでエンシャントの酒場に<line-break>でも行ってみましょう…な～んてね。<end>"}
 {"section":163,"id":"1630100","japanese":"分断の山脈を軍隊が越えたのは歴史上<line-break>いまだかつてない壮挙である。こうして、<line-break>帝国軍は王都ロストールに王手をかけた。<end>"}
-{"section":56,"id":"560467","japanese":"リベルダムの金持ちどもは<line-break>城門を頼りにして安心しきってるぶん、<line-break>いざ城門が破られたら大混乱だね。<line-break>こっちは被害なしに街に侵入し<line-break>パニックに乗じて制圧するだけ。<line-break>簡単に言えばこんなとこ。質問は？<end>"}
+{"section":33,"id":"330046","japanese":"正義のためとはいえ、<line-break>勇者が誘拐など…と思っていたが、<line-break>正義と悪の区別もつかんとは貴様ああ！<line-break>貴様らには、教育的指導が必要だ！<line-break>よかろう！！　今日は特別だ！<line-break>俺様が熱い愛のおしおきをしてやる！<end>"}
 {"section":181,"id":"1810063","japanese":"　　　　　　　さあ、宿すがよい…。　　　　　<line-break>　　　　　　　　無限のソウル…<line-break>　　　　　　　インフィニティアを…。<end>"}
-{"section":56,"id":"560474","japanese":"まだディンガルに逆らおうって連中が<line-break>抵抗するのを断念するくらいに<line-break>リベルダムを破壊すればぁ…<line-break>このあとのロストール攻略なんかも<line-break>サクサク進んで、最終的には<line-break>全体の被害が小さく抑えられるっしょ。<end>"}
+{"section":36,"id":"360029","japanese":"ヴァシュタールを目覚めさせることが<line-break>できるのは私だけ。そして、闇の門を<line-break>開けられるのはヴァシュタールだけ。<line-break>闇の門を通らなければ、<line-break>ウルグ様は復活できない。<line-break>…違うかしら？　それでも無駄だと？<end>"}
 {"section":51,"id":"510081","japanese":"　王都ロストールへ迫った帝国軍に対し、　<line-break>　ロストール側は軍を大街道へ反転させ、<line-break>　　これを迎撃するべく、急行した。<end>"}
-{"section":58,"id":"580040","japanese":"それ以来、ロセンの愚王ペウダは<line-break>ディンガルを恐れ、ロセンを鎖国し<line-break>城にこもって、毎日震えておるという。<line-break>しかし、この勝利は、ますます<line-break>皇帝エリュマルクの不興と嫉妬を<line-break>買う結果になってしもうた。<end>"}
+{"section":40,"id":"400058","japanese":"傭兵志願者か。<line-break>担当は将軍とともに出ていて<line-break>１ケ月は政庁に戻ってこない。　　　　　　<line-break>ひと月以上たってから来るといい。<line-break>その間に強くなっておくことだ。<line-break>戦場で最後に頼れるのは自分の腕だからな。<end>"}
 {"section":51,"id":"510086","japanese":"ルブルグ伯タルテュバ・リューガは<line-break>自分の軍を捨て、ひとりだけ極秘に逃走。　　<line-break>命は助かったが、その評判は地に落ちた。<end>"}
-{"section":58,"id":"580099","japanese":"これの依頼人名が、うさん臭いんじゃ。<line-break>見ろ。システィーナとある。神話の<line-break>黄泉の乙女システィーナと同名じゃ。<line-break>その後、調べていったら、依頼主の<line-break>使者がシャリとかチャリとかいう<line-break>子供だったという。<end>"}
+{"section":40,"id":"400171","japanese":"おおざっぱに言うとだな、<line-break>Ｂｒａｖｅは勇敢さを、Ｗｉｌｄは荒々しさを、<line-break>Ｓｅａｒｃｈは探究心を、<line-break>Ｃｏｏｌは冷静さを、<line-break>Ｂｅｌｉｅｆは信心深さを、<line-break>Ｋｉｎｄはやさしさを、魂に与えてくれるのさ。<end>"}
 {"section":52,"id":"520085","japanese":"ロストールの総司令ノヴィン・ファーロスは、　<line-break>ディンガル軍が海路を進軍すると予測し、<line-break>これを迎え撃つべく軍を進めた。<end>"}
-{"section":70,"id":"700205","japanese":"奴が、最後にすがろうとした　　　　　<line-break>人とのつながりが<line-break>俺…だったんじゃないかな。<line-break>あいつはあいつの心の中の様々な気持ち<line-break>…それは口にすればいいわけになる…<line-break>それを剣に託して伝えたかったんだ。<end>"}
+{"section":45,"id":"450085","japanese":"ああああ、ヴァンちゃん！　オイオイオイ！<line-break>あなたのせいででヴァンちゃんはあああ！！<line-break>　<line-break>あんなにいい子だったのに…！<line-break>ヴァンちゃんがかわいそうよおお！<line-break>どうしてえええ？　あんないい子があああ！<end>"}
 {"section":52,"id":"520097","japanese":"ルブルグ伯タルテュバ・リューガは<line-break>自分の軍を捨て、ひとりだけ極秘に逃走。　　<line-break>命は助かったが、その評判は地に落ちた。<end>"}
-{"section":75,"id":"750157","japanese":"説明しよう！　この俺様ガルドランは、<line-break>アミラルの宿屋の娘、かわいい<line-break>ルフレンちゃんと結婚したのだ！　<line-break>さあ、説明はここまでだ。<line-break>悪党め。新婚の勇者である俺様に<line-break>倒されることを幸せに思うがいい！<end>"}
+{"section":45,"id":"450087","japanese":"ああああ、ヴァンちゃん！　オイオイオイ！<line-break>どうしてママを置いて死んじゃったのよお！<line-break>　<line-break>あんなにいい子だったのに…！<line-break>ヴァンちゃんがかわいそうよおお！<line-break>どうしてえええ？　あんないい子があああ！<end>"}
 {"section":59,"id":"590117","japanese":"朱雀将軍からお話は伺っております！<line-break>将軍は現在、留守にしておられます！<line-break>後日お越しくださいますようお願いいたします！<end>"}
-{"section":89,"id":"890324","japanese":"ほほう、たいした減らず口だ。<line-break>耳元に聞こえる死の息吹、<line-break>その恐怖にどれだけ耐えられるものか。<line-break>人類の革新者たるもの、まずは自身で<line-break>人並みの領域を超越して見せねばならぬ。<line-break>…これは、見ものだな。<end>"}
+{"section":46,"id":"460039","japanese":"俺様は目標はまだ見えないが<line-break>今、立って歩いてゆける。<line-break>俺様の熱き魂に人を触れさせること…　<line-break>そうして、人にこの熱き魂を<line-break>わけていくことで、俺様は正しき力を<line-break>愛を、正義を、世界に押し広げるのだ。<end>"}
 {"section":112,"id":"1120156","japanese":"　　　　　　　　　さよう。　　　　　　　　　<line-break>　　　　その力、我ら精霊の使いとして<line-break>　　　　　　存分にふるうがよい。<end>"}
-{"section":24,"id":"240079","japanese":"今度の<value:$15>の運搬なんだが、<line-break>道中、盗賊やモンスターが出るらしい。<line-break>そこで、だ。<value:$16>まで<line-break><value:$15>を持ってっちゃくれないか。<line-break>お礼はするぜ、<value:$1A>ギアでどうだ。<line-break>期限は<value:$1B>日以内だな。<end>"}
+{"section":46,"id":"460079","japanese":"お前、向こう側に行っちまったんだな。<line-break>ガルドランや、強盗たちの方へ…。　　<line-break>　<line-break>ナッジ、お前、何かの命を奪ったことを<line-break>喜々として話す人間じゃなかったのに…<line-break>俺が、俺が、バカだったばっかりに…。<end>"}
 {"section":112,"id":"1120169","japanese":"　　　　　　　　よくやった…　　　　　　　　<line-break>　　　　　　　我が地の巫女よ…。<line-break>　　　　　無限のソウルを持つ者よ…。<end>"}
-{"section":89,"id":"890107","japanese":"　　　　　　　 　　汝は…。　　　　　　　　　<line-break>　　　　　　　　　なるほど。<line-break>　　　　　　無限のソウルを持つ者か…。<line-break>　<line-break>　　　　　　無限のソウルを持つ者よ…。<line-break>　　　　　　　　汝に頼みがある。<end>"}
+{"section":47,"id":"470028","japanese":"いや、少し違うな。彼らは<line-break>自分の中の正しさのために力を使い、<line-break>その結果として俺様を救ったのだ。<line-break>俺様は震えた…。そして、知ったのだ。<line-break>熱き魂が正しき力を使うとき、<line-break>他人の魂をも、熱く燃やすと。<end>"}
 {"section":128,"id":"1280006","japanese":"熟成すればするほど、香りがよくなる<line-break>エイジアの葉、２０年もののお茶さ。<line-break>時代の香りがするぜ。そうそう時代っていえば…<end>"}
-{"section":102,"id":"1020055","japanese":"…やれやれ。ま、これで一安心だな。<line-break>あの目をしてれば大丈夫だろうよ。<line-break>あいつもあいつなりに考えを出せたようだ。<line-break>お前にも世話になったな。<line-break>ありがとうよ、<value:$28>。<line-break>それじゃあ、戻るとしようか。<end>"}
+{"section":51,"id":"510083","japanese":"侵入者を放っておいては<line-break>ロストール貴族の名折れだってな。<line-break>軍を急行させて決戦するんだと。<line-break>急ぐのもいいが、隊列はメチャクチャ、<line-break>兵士も疲れ切ってる軍隊なんて、<line-break>待ちかまえてる帝国軍のエジキさ。<end>"}
 {"section":130,"id":"1300013","japanese":"　　　　だが、死に臨んで我は自由だ。　　　　<line-break>　　　　　　風よ、小さき娘よ…<line-break>　　　　お前も…自由に、なる…のだ…。<end>"}
-{"section":123,"id":"1230099","japanese":"竜骨の砂漠は広いですよ。<line-break>暑いし、迷うし、モンスターは出るし、<line-break>ぜんっぜんいいことないです。<line-break>しかも、ボランティアなんて…。<line-break><value:$28>様はやさしすぎます！<line-break>今後は、きっぱりと断ってくださいね。<end>"}
+{"section":56,"id":"560467","japanese":"リベルダムの金持ちどもは<line-break>城門を頼りにして安心しきってるぶん、<line-break>いざ城門が破られたら大混乱だね。<line-break>こっちは被害なしに街に侵入し<line-break>パニックに乗じて制圧するだけ。<line-break>簡単に言えばこんなとこ。質問は？<end>"}
 {"section":132,"id":"1320014","japanese":"　　　　だが、死に臨んで我は自由だ。　　　　<line-break>　　　　　　風よ、小さき娘よ…。<line-break>　　　　お前も…自由に、なるのだ…。<end>"}
-{"section":136,"id":"1360251","japanese":"<if><value:$29><equal>%0これが意志する男というものか。<line-break>なるほどお前の未来は見えぬな。<line-break>それはお前の前に道がないからだ。<end>これが意志する女というものか<line-break>美しいぞ…もっと顔を見せてくれ…<line-break>これは美しい女だ。<end>"}
+{"section":56,"id":"560474","japanese":"まだディンガルに逆らおうって連中が<line-break>抵抗するのを断念するくらいに<line-break>リベルダムを破壊すればぁ…<line-break>このあとのロストール攻略なんかも<line-break>サクサク進んで、最終的には<line-break>全体の被害が小さく抑えられるっしょ。<end>"}
 {"section":134,"id":"1340073","japanese":"　　　最後に、もう一度礼を言ってやろう。　　<line-break>　　　　よくぞ余の封印を解いてくれた。<line-break>　　　　　　　では、さらばだ。<end>"}
-{"section":138,"id":"1380492","japanese":"ふふ、うれしいなあ。<line-break>ぼくがとっておきたいって言ったの、<line-break>ちゃんと覚えていてくれたんだね。<line-break>やさしいなあ、<value:$28>は。<line-break>気まぐれなリルビーの言うことなんて<line-break>人間は本気にしてくれないと思ってた。<end>"}
+{"section":58,"id":"580040","japanese":"それ以来、ロセンの愚王ペウダは<line-break>ディンガルを恐れ、ロセンを鎖国し<line-break>城にこもって、毎日震えておるという。<line-break>しかし、この勝利は、ますます<line-break>皇帝エリュマルクの不興と嫉妬を<line-break>買う結果になってしもうた。<end>"}
 {"section":134,"id":"1340180","japanese":"　　　我はイシュバアル…すなわち破滅…！<line-break>　　　　　　破壊神により生まれ…<line-break>　　　　この世界に死をもたらす者なり…！<end>"}
-{"section":174,"id":"1740068","japanese":"<value:$28>じゃないですか。<line-break>実は最近、大陸南東の断層から　　　<line-break>強い妖気が放たれているのです。<line-break>あの辺りは邪竜アズラゴーザが<line-break>封じられている場所なんです。それで<line-break>調査に行こうと思っていたんです。<end>"}
+{"section":58,"id":"580099","japanese":"これの依頼人名が、うさん臭いんじゃ。<line-break>見ろ。システィーナとある。神話の<line-break>黄泉の乙女システィーナと同名じゃ。<line-break>その後、調べていったら、依頼主の<line-break>使者がシャリとかチャリとかいう<line-break>子供だったという。<end>"}
 {"section":137,"id":"1370031","japanese":"でもよ、最初はただ強さを求めていただけな　　<line-break>はずなのに、その過程で何か違うものが<line-break>見えてくるってこともあるんだぜ。<end>"}
-{"section":176,"id":"1760043","japanese":"おお！　<value:$28>か！<line-break>な～んか自信ありげじゃのう。　　　　<line-break>いつでも行けるって感じじゃな。<line-break>じゃけど、わしが万全じゃないんじゃ。<line-break>すまんが、今日は勘弁してくれんかの。<line-break>ほんまにすまんことじゃ。<end>"}
+{"section":70,"id":"700205","japanese":"奴が、最後にすがろうとした　　　　　<line-break>人とのつながりが<line-break>俺…だったんじゃないかな。<line-break>あいつはあいつの心の中の様々な気持ち<line-break>…それは口にすればいいわけになる…<line-break>それを剣に託して伝えたかったんだ。<end>"}
 {"section":137,"id":"1370061","japanese":"でもよ、最初はただ強さを求めていただけな　　<line-break>はずなのに、その過程で何か違うものが<line-break>見えてくるってこともあるんだぜ。<end>"}
-{"section":198,"id":"1980118","japanese":"やっぱり、すごいですね。<line-break><value:$28>さんは…。<line-break>　<line-break>どんなことが起こっても動じないし。<line-break>とっても頼もしくて…。<line-break>優しくて…。<line-break>だけど、ホント言うと…。<line-break>少し不安になることもあります。<end>"}
+{"section":75,"id":"750157","japanese":"説明しよう！　この俺様ガルドランは、<line-break>アミラルの宿屋の娘、かわいい<line-break>ルフレンちゃんと結婚したのだ！　<line-break>さあ、説明はここまでだ。<line-break>悪党め。新婚の勇者である俺様に<line-break>倒されることを幸せに思うがいい！<end>"}
 {"section":138,"id":"1380223","japanese":"　　息子よ。もう、一度だけ言っておこう。　　<line-break>　　　人類を革新に導ける存在は我のみ。<line-break>　　　　　　我と供に歩むのだ。<end>"}
-{"section":258,"id":"2580028","japanese":"ひとつ年取ったくらいでいばらないで！<line-break>高貴なエルフであるアタクシなんて<line-break>もう１６００歳を超えてるのよ～！<line-break>もっとたくさん誕生日を迎えて<line-break>早く高貴なアタクシに近づくのよ！<line-break>いいこと、<value:$28>～！<end>"}
+{"section":89,"id":"890324","japanese":"ほほう、たいした減らず口だ。<line-break>耳元に聞こえる死の息吹、<line-break>その恐怖にどれだけ耐えられるものか。<line-break>人類の革新者たるもの、まずは自身で<line-break>人並みの領域を超越して見せねばならぬ。<line-break>…これは、見ものだな。<end>"}
 {"section":142,"id":"1420520","japanese":"　　　　　　　愚かな者たちよ…　　　　　　　<line-break>　　　　　　死こそ、汝らにとって<line-break>　　　　　最高の結末であったろうに…<end>"}
-{"section":24,"id":"240085","japanese":"<value:$15>を<value:$16>に送りたい。<line-break>途中何が出てくるかわからんから、<line-break>戦いのできる奴に運んでもらいたいんだ。<line-break>そういうわけで、運搬を頼みたい。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内ってとこか。<end>"}
+{"section":24,"id":"240079","japanese":"今度の<value:$15>の運搬なんだが、<line-break>道中、盗賊やモンスターが出るらしい。<line-break>そこで、だ。<value:$16>まで<line-break><value:$15>を持ってっちゃくれないか。<line-break>お礼はするぜ、<value:$1A>ギアでどうだ。<line-break>期限は<value:$1B>日以内だな。<end>"}
 {"section":156,"id":"1560055","japanese":"なんとかたどり着けました。<line-break>約束の期日には、間に合いませんでしたが…。<line-break>残念ながら、報酬は半額にさせていただきます。<end>"}
-{"section":26,"id":"260022","japanese":"城塞都市跡にうごめく、<line-break>闇のように黒い何か、か。<line-break><line-break>浅学な連中はそれを<line-break>生き物だとか言っているようだが…<line-break><line-break>フッ、まあ、真相究明は<line-break>命知らずな<value:$28>、<line-break>君にゆだねるとしよう。<end>"}
+{"section":89,"id":"890107","japanese":"　　　　　　　 　　汝は…。　　　　　　　　　<line-break>　　　　　　　　　なるほど。<line-break>　　　　　　無限のソウルを持つ者か…。<line-break>　<line-break>　　　　　　無限のソウルを持つ者よ…。<line-break>　　　　　　　　汝に頼みがある。<end>"}
 {"section":156,"id":"1560145","japanese":"ありがとうございましたですわ。<line-break>今度はもう少しお手柔らかに、お願いしますわ。<line-break>これは、護衛していただいた料金ですわ。<end>"}
-{"section":26,"id":"260078","japanese":"<value:$28>がアンギルダンさんに<line-break>教えてもらった合い言葉は、<line-break>帝国はあの陽より輝く、だったよね？<line-break>これをアキュリュースの船着き場にいる<line-break>女性に言えば、アンギルダンさんの所に<line-break>案内してくれるはずだよ。<end>"}
+{"section":102,"id":"1020055","japanese":"…やれやれ。ま、これで一安心だな。<line-break>あの目をしてれば大丈夫だろうよ。<line-break>あいつもあいつなりに考えを出せたようだ。<line-break>お前にも世話になったな。<line-break>ありがとうよ、<value:$28>。<line-break>それじゃあ、戻るとしようか。<end>"}
 {"section":163,"id":"1630135","japanese":"　　　　　生き残ったディンガル兵は、　　　　<line-break>　　　　　　ドワーフの王国を抜け、<line-break>　　　　　　ディンガル領内に撤退。<end>"}
-{"section":27,"id":"270053","japanese":"おめでとうございます。すごいですね。<line-break>これで<value:$28>さんは、<line-break>決勝大会に出場する権利を得ました。<line-break>決勝大会に参加する気があったら８月に<line-break>ここに来てください。待っていますよ。<line-break>これは勝利賞金です。<end>"}
+{"section":123,"id":"1230099","japanese":"竜骨の砂漠は広いですよ。<line-break>暑いし、迷うし、モンスターは出るし、<line-break>ぜんっぜんいいことないです。<line-break>しかも、ボランティアなんて…。<line-break><value:$28>様はやさしすぎます！<line-break>今後は、きっぱりと断ってくださいね。<end>"}
 {"section":191,"id":"1910151","japanese":"　　　　　　　愚かな者たちよ…　　　　　　　<line-break>　　　　　　死こそ、汝らにとって<line-break>　　　　　最高の結末であったろうに…<end>"}
-{"section":43,"id":"430090","japanese":"<if><value:$29><equal>%0しかも、腹違いの弟を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>しかも、腹違いの妹を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>"}
+{"section":136,"id":"1360251","japanese":"<if><value:$29><equal>%0これが意志する男というものか。<line-break>なるほどお前の未来は見えぬな。<line-break>それはお前の前に道がないからだ。<end>これが意志する女というものか<line-break>美しいぞ…もっと顔を見せてくれ…<line-break>これは美しい女だ。<end>"}
 {"section":20,"id":"200538","japanese":"装備品の持っている特性効果を表しています。<line-break>特性効果は武器なら敵への攻撃に、<line-break>防具なら敵の攻撃に対して効果があります。<end>"}
-{"section":97,"id":"970031","japanese":"<if><value:$29><equal>%0またどこかで会うかもしれないわね。<line-break>あなたのこと、覚えておくわ。<line-break>それじゃあね、ボウヤ。<end>またどこかで会うかもしれないわね。<line-break>あなたのこと、覚えておくわ。<line-break>それじゃあね、子猫ちゃん。<end>"}
+{"section":138,"id":"1380492","japanese":"ふふ、うれしいなあ。<line-break>ぼくがとっておきたいって言ったの、<line-break>ちゃんと覚えていてくれたんだね。<line-break>やさしいなあ、<value:$28>は。<line-break>気まぐれなリルビーの言うことなんて<line-break>人間は本気にしてくれないと思ってた。<end>"}
 {"section":51,"id":"510080","japanese":"　　帝国軍は分断の山脈を越えて進攻。<line-break>　大街道沿いの都市を電撃的に占領した。<line-break>これは大陸史上、例を見ない壮挙であった。<end>"}
-{"section":106,"id":"1060022","japanese":"これからも苦しい状況が続こうが、　　<line-break>ロセンの血統が存続する限り、<line-break>我らも戦っていくことができる。<line-break>君の今後の活躍に期待している。<line-break>これからも、よろしく頼む。<line-break>我らが同志、ロセンの鐘の英雄よ。<end>"}
+{"section":174,"id":"1740068","japanese":"<value:$28>じゃないですか。<line-break>実は最近、大陸南東の断層から　　　<line-break>強い妖気が放たれているのです。<line-break>あの辺りは邪竜アズラゴーザが<line-break>封じられている場所なんです。それで<line-break>調査に行こうと思っていたんです。<end>"}
 {"section":51,"id":"510126","japanese":"大兵力の動員を予想したロストール側は<line-break>帝国軍が大量輸送の必要から、海路を採ると<line-break>予想し、その上陸地点を叩く作戦に出た。<end>"}
-{"section":108,"id":"1080001","japanese":"賢者の森にあるっていう謎の屋敷ね。<line-break>そこに入った人も、見た人もいないのに<line-break>あるってことだけ知られてる。<line-break>不思議な話よね。運命に選ばれた者<line-break>だけが発見できて、館に入れるって<line-break>いうけど本当かしら。<end>"}
+{"section":176,"id":"1760043","japanese":"おお！　<value:$28>か！<line-break>な～んか自信ありげじゃのう。　　　　<line-break>いつでも行けるって感じじゃな。<line-break>じゃけど、わしが万全じゃないんじゃ。<line-break>すまんが、今日は勘弁してくれんかの。<line-break>ほんまにすまんことじゃ。<end>"}
 {"section":59,"id":"590040","japanese":"皇帝ネメアの世界統一構想のもと　　　<line-break>南方攻略軍司令、朱雀将軍アンギルダンが　<line-break>ついにロストール攻略に動き出した。　　<end>"}
-{"section":108,"id":"1080030","japanese":"エンシャントの南東にある森に、<line-break>そういうお屋敷があるらしいです。<line-break>そこには賢者様が住んでるとか。<line-break>運命に選ばれた人しか入れないって、<line-break>聞いたことがあるんですけど…<line-break>わ、私じゃあ無理ですよね…。<end>"}
+{"section":198,"id":"1980118","japanese":"やっぱり、すごいですね。<line-break><value:$28>さんは…。<line-break>　<line-break>どんなことが起こっても動じないし。<line-break>とっても頼もしくて…。<line-break>優しくて…。<line-break>だけど、ホント言うと…。<line-break>少し不安になることもあります。<end>"}
 {"section":68,"id":"680003","japanese":"あんた、まだ俺たちの仲間じゃないよな。<line-break>ここから先は、よそ者に行かせるわけには<line-break>いかねえんだ。どっかよそに行ってくれ。<end>"}
-{"section":108,"id":"1080033","japanese":"賢者の森にあるっていう謎の屋敷ね。<line-break>そこに入った人も、見た人もいないのに<line-break>あるってことだけ知られてる。<line-break>不思議な話よね。運命に選ばれた者<line-break>だけが発見できて、館に入れるって<line-break>いうけど本当かしら。<end>"}
+{"section":258,"id":"2580028","japanese":"ひとつ年取ったくらいでいばらないで！<line-break>高貴なエルフであるアタクシなんて<line-break>もう１６００歳を超えてるのよ～！<line-break>もっとたくさん誕生日を迎えて<line-break>早く高貴なアタクシに近づくのよ！<line-break>いいこと、<value:$28>～！<end>"}
 {"section":88,"id":"880243","japanese":"　　　　　　さあ、再び行くがよい。　　　　　<line-break>　　　　　　汝のなすべき旅の道へ。<line-break>　　　　　さらばだ。我が地の巫女よ。<end>"}
-{"section":108,"id":"1080062","japanese":"エンシャントの南東にある森に、<line-break>そういうお屋敷があるらしいです。<line-break>そこには賢者様が住んでるとか。<line-break>運命に選ばれた人しか入れないって、<line-break>聞いたことがあるんですけど…<line-break>わ、私じゃあ無理ですよね…。<end>"}
+{"section":24,"id":"240085","japanese":"<value:$15>を<value:$16>に送りたい。<line-break>途中何が出てくるかわからんから、<line-break>戦いのできる奴に運んでもらいたいんだ。<line-break>そういうわけで、運搬を頼みたい。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内ってとこか。<end>"}
 {"section":105,"id":"1050064","japanese":"しかし、その美しい町並みを守るための門は<line-break>市民アンティノ・マモンの内通により<line-break>外敵に破られることなく内側から開かれた。<end>"}
-{"section":110,"id":"1100110","japanese":"そうだとしたらお笑いぐさだ。<line-break>ついえた夢をいまだに見ている　　　　<line-break>おめでたい道化でしかないな。<line-break>人の革新はすでに始まっている。<line-break>ネメア様こそ、真の霊長。<line-break>貴様のでき損ないよりも強く、美しい。<end>"}
+{"section":26,"id":"260022","japanese":"城塞都市跡にうごめく、<line-break>闇のように黒い何か、か。<line-break><line-break>浅学な連中はそれを<line-break>生き物だとか言っているようだが…<line-break><line-break>フッ、まあ、真相究明は<line-break>命知らずな<value:$28>、<line-break>君にゆだねるとしよう。<end>"}
 {"section":112,"id":"1120153","japanese":"　　　　　　我の力を分け与えよう。　　　　　<line-break>　　　　　地の巫女である汝ならば<line-break>　　　　受け入れることができるはずだ。<end>"}
-{"section":116,"id":"1160008","japanese":"同じくラドラスの火の巫女ウルと<line-break>縁があるとはいっても、この地には　<line-break>火の精霊神の聖なる座所はない。<line-break>巫女の縁のある地に精霊神の座所が<line-break>あるなら、地の精霊神の座所は<line-break>いったい、どこにあるんだね？<end>"}
+{"section":26,"id":"260078","japanese":"<value:$28>がアンギルダンさんに<line-break>教えてもらった合い言葉は、<line-break>帝国はあの陽より輝く、だったよね？<line-break>これをアキュリュースの船着き場にいる<line-break>女性に言えば、アンギルダンさんの所に<line-break>案内してくれるはずだよ。<end>"}
 {"section":130,"id":"1300029","japanese":"　　　　　　では、お行きなさい。　　　　　　<line-break>　　　　アビスを倒したとき、あなたに<line-break>　　　　　最高の風を授けましょう。<end>"}
-{"section":121,"id":"1210034","japanese":"アトレイア王女の目を見えるようにする<line-break>ために必要な魔法の宝石じゃな。<line-break>シャリの話ではロストールの北西、<line-break>邪眼の迷宮にあるというが…。<line-break>まあ、お主が依頼を受けた以上、<line-break>成し遂げなくてはならんな。<end>"}
+{"section":27,"id":"270053","japanese":"おめでとうございます。すごいですね。<line-break>これで<value:$28>さんは、<line-break>決勝大会に出場する権利を得ました。<line-break>決勝大会に参加する気があったら８月に<line-break>ここに来てください。待っていますよ。<line-break>これは勝利賞金です。<end>"}
 {"section":133,"id":"1330011","japanese":"　　　　　この我が……希望……か。　　　　　<line-break>　　　　不思議なものだ。汝が言うと<line-break>　　　いかにもという感じがしてくる。<end>"}
-{"section":121,"id":"1210050","japanese":"色惑の瞳を持ってくれば、王女様の<line-break>目が見えるようになるんだよねぇ。<line-break>そしたら、すっごーくうれしいよね。<line-break>ルルアンタ、王女様の喜ぶ顔が<line-break>見たいからがんばるよ。<line-break>だから邪眼の迷宮に早く行こうよぉ。<end>"}
+{"section":43,"id":"430090","japanese":"<if><value:$29><equal>%0しかも、腹違いの弟を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>しかも、腹違いの妹を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>"}
 {"section":135,"id":"1350079","japanese":"　　　　誰にどう接してよいかわからず、<line-break>　　　　　他人の顔色ばかりうかがい、<line-break>　誰にでも媚びを売る自分自身だったんだ。<end>"}
-{"section":121,"id":"1210109","japanese":"ガルドランという冒険者の居場所を<line-break>捜しておるのじゃな。<line-break>冒険者の居場所といえば昔から…<line-break>宿屋、冒険者ギルド、そして酒場と<line-break>決まっておるわい。世界酒場巡りなど<line-break>しておれば、いつかは見つかるわい。<end>"}
+{"section":97,"id":"970031","japanese":"<if><value:$29><equal>%0またどこかで会うかもしれないわね。<line-break>あなたのこと、覚えておくわ。<line-break>それじゃあね、ボウヤ。<end>またどこかで会うかもしれないわね。<line-break>あなたのこと、覚えておくわ。<line-break>それじゃあね、子猫ちゃん。<end>"}
 {"section":137,"id":"1370069","japanese":"俺は、ロストールが負けて、カルラが<line-break>この平民街に危害を加えようとしたとき、<line-break>ここを守るために戦う。命を懸けてもな。　　<end>"}
-{"section":121,"id":"1210195","japanese":"魔法の実力を磨くには、精霊力を<line-break>鍛えることだって学校で習いました。<line-break>精霊力は戦闘で鍛えられるそうですよ。<line-break>ならば、迷宮や洞窟みたいに戦闘が<line-break>たくさんできそうな場所を探検すれば<line-break>問題解決ですね。<end>"}
+{"section":106,"id":"1060022","japanese":"これからも苦しい状況が続こうが、　　<line-break>ロセンの血統が存続する限り、<line-break>我らも戦っていくことができる。<line-break>君の今後の活躍に期待している。<line-break>これからも、よろしく頼む。<line-break>我らが同志、ロセンの鐘の英雄よ。<end>"}
 {"section":156,"id":"1560031","japanese":"契約の期日から何日遅れたと思ってるんだ！？<line-break>無事にたどりつけても、遅れては意味がないぞ。<line-break>当然、報酬は半額にさせてもらうぞ。<end>"}
-{"section":122,"id":"1220098","japanese":"風泣きの洞窟に現れるという怪物を<line-break>退治するのであったな。<line-break>準備ができたら出発しようぞ。<line-break>見事、怪物を倒し冒険者ギルドへ<line-break>報告すれば、エルズの人々も安心して<line-break>コロル石を拾いに行けるようになるな。<end>"}
+{"section":108,"id":"1080001","japanese":"賢者の森にあるっていう謎の屋敷ね。<line-break>そこに入った人も、見た人もいないのに<line-break>あるってことだけ知られてる。<line-break>不思議な話よね。運命に選ばれた者<line-break>だけが発見できて、館に入れるって<line-break>いうけど本当かしら。<end>"}
 {"section":156,"id":"1560035","japanese":"契約の期日から何日遅れたと思ってるんだ！？<line-break>無事にたどりつけても、遅れては意味がないぞ。<line-break>当然、報酬は半額にさせてもらうぞ。<end>"}
-{"section":122,"id":"1220171","japanese":"しっかし、お前さんに泣きついた<line-break>冒険者も、うかつな奴だねぇ。<line-break>仕事は自分の実力で選ぶものだろうに。<line-break>で、その獣は幻惑の洞窟にいるんだな。<line-break>さっさと退治して、噂のうかつ君を<line-break>安心させてやろうや。<end>"}
+{"section":108,"id":"1080030","japanese":"エンシャントの南東にある森に、<line-break>そういうお屋敷があるらしいです。<line-break>そこには賢者様が住んでるとか。<line-break>運命に選ばれた人しか入れないって、<line-break>聞いたことがあるんですけど…<line-break>わ、私じゃあ無理ですよね…。<end>"}
 {"section":156,"id":"1560039","japanese":"契約の期日から何日遅れたと思ってるんだ！？<line-break>無事にたどりつけても、遅れては意味がないぞ。<line-break>当然、報酬は半額にさせてもらうぞ。<end>"}
-{"section":122,"id":"1220182","japanese":"幻惑の洞窟は内部がとても狭くなって<line-break>いたはずだ。ましてや、<line-break>敵の獣の正体は一切不明…。<line-break>不意を突かれれば、君といえど簡単に<line-break>命を失うことになるかもしれない。<line-break>アミラルの人々を、失望させるなよ。<end>"}
+{"section":108,"id":"1080033","japanese":"賢者の森にあるっていう謎の屋敷ね。<line-break>そこに入った人も、見た人もいないのに<line-break>あるってことだけ知られてる。<line-break>不思議な話よね。運命に選ばれた者<line-break>だけが発見できて、館に入れるって<line-break>いうけど本当かしら。<end>"}
 {"section":156,"id":"1560127","japanese":"まったく、なんて護衛じゃ、期日に遅れるとは！<line-break>本来、報酬なんて払えたもんじゃないが、<line-break>ほれ、約束の半分の金額じゃ、受け取れ。<end>"}
-{"section":123,"id":"1230073","japanese":"さすが、姉ちゃんはひと味違うよ。<line-break>世界中捜したって子どもの依頼を<line-break>受ける冒険者は姉ちゃんだけだぜ。<line-break>俺、姉ちゃんの弟だって誇りに思う。<line-break>俺も手伝うからさ、あの子のためにも<line-break>鳳凰を見つけような！<end>"}
+{"section":108,"id":"1080062","japanese":"エンシャントの南東にある森に、<line-break>そういうお屋敷があるらしいです。<line-break>そこには賢者様が住んでるとか。<line-break>運命に選ばれた人しか入れないって、<line-break>聞いたことがあるんですけど…<line-break>わ、私じゃあ無理ですよね…。<end>"}
 {"section":162,"id":"1620040","japanese":"　　だが、この圧倒的に劣勢な戦況下において、<line-break>　　　無傷でこの状況を乗り切った勢力が<line-break>　　　　ロストール軍にもまだ存在した。<end>"}
-{"section":123,"id":"1230154","japanese":"こんな楽な仕事は久々だな。<line-break>ロティ・クロイスの屋敷に、この小さな<line-break>包みを届ければいいのだろう？<line-break>こんなことでわざわざ冒険者を<line-break>雇うなんて、アンティノもロティも、<line-break>大商人と言われるだけはあるな。<end>"}
+{"section":110,"id":"1100110","japanese":"そうだとしたらお笑いぐさだ。<line-break>ついえた夢をいまだに見ている　　　　<line-break>おめでたい道化でしかないな。<line-break>人の革新はすでに始まっている。<line-break>ネメア様こそ、真の霊長。<line-break>貴様のでき損ないよりも強く、美しい。<end>"}
 {"section":181,"id":"1810039","japanese":"　　　　至聖神はいくつかの世界を作り　　　　<line-break>　　　　　そのひとつを戒律の神、<line-break>　　天空神ノトゥーンに治めさせることにした。<end>"}
-{"section":124,"id":"1240013","japanese":"なんと！　闇の神器のひとつが<line-break>罪深き者の迷宮にあるというのか！<line-break>う～む、それは知らんかったわい。<line-break>若いころ、何度も探検したのじゃが…。<line-break>いつも見つかるとは限らないという話は<line-break>本当のことじゃな。<end>"}
+{"section":116,"id":"1160008","japanese":"同じくラドラスの火の巫女ウルと<line-break>縁があるとはいっても、この地には　<line-break>火の精霊神の聖なる座所はない。<line-break>巫女の縁のある地に精霊神の座所が<line-break>あるなら、地の精霊神の座所は<line-break>いったい、どこにあるんだね？<end>"}
 {"section":181,"id":"1810059","japanese":"　　　時を経て、また訪れるがよかろう。　　　<line-break>　　　　汝、さらなる輝きを得ていれば、<line-break>　　　無限のソウルを知ることとなろう。<end>"}
-{"section":124,"id":"1240048","japanese":"もーーーーー、がまんできないっ！<line-break>アタクシにとって闇の神器なんて<line-break>どーでもいい物なの！<line-break>だいたいどこにいるかもわからない<line-break>人間をどうやって捜すつもりなのよ！<line-break>ほーーんと、人間ってバカばかりね。<end>"}
+{"section":121,"id":"1210034","japanese":"アトレイア王女の目を見えるようにする<line-break>ために必要な魔法の宝石じゃな。<line-break>シャリの話ではロストールの北西、<line-break>邪眼の迷宮にあるというが…。<line-break>まあ、お主が依頼を受けた以上、<line-break>成し遂げなくてはならんな。<end>"}
 {"section":46,"id":"460017","japanese":"ごめんなさい！　でも、ガルドランさんには<line-break>とても女の子にしつこいって噂があるから…<line-break>私、どうしてもつきまとわれたら恐いから…！<end>"}
-{"section":126,"id":"1260224","japanese":"ヴァンの駄ジャレの破壊力に感服し、<line-break>自ら弟子入りした困ったヤツ。<line-break>師匠であるヴァンや兄弟子のナッジ（本人に<line-break>その気はない）に負けぬよう、日夜寒い駄ジャレ<line-break>を考えている。<line-break>　<line-break>　<line-break>　<end>"}
+{"section":121,"id":"1210050","japanese":"色惑の瞳を持ってくれば、王女様の<line-break>目が見えるようになるんだよねぇ。<line-break>そしたら、すっごーくうれしいよね。<line-break>ルルアンタ、王女様の喜ぶ顔が<line-break>見たいからがんばるよ。<line-break>だから邪眼の迷宮に早く行こうよぉ。<end>"}
 {"section":68,"id":"680012","japanese":"なんじゃい、もう出てってしまうんかい。<line-break>もうちょい、ゆっくりしていけばええのにのう。<line-break>ほんじゃあ、船を出す準備をするかいのう。<end>"}
-{"section":23,"id":"230029","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
+{"section":121,"id":"1210109","japanese":"ガルドランという冒険者の居場所を<line-break>捜しておるのじゃな。<line-break>冒険者の居場所といえば昔から…<line-break>宿屋、冒険者ギルド、そして酒場と<line-break>決まっておるわい。世界酒場巡りなど<line-break>しておれば、いつかは見つかるわい。<end>"}
 {"section":112,"id":"1120007","japanese":"　　　　　　今生きるすべての命も、　　　　　<line-break>　　　　彼らの所へ連れて行ってやろう。<line-break>　　　さびしくないようにね。アハハハハ！<end>"}
-{"section":23,"id":"230061","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
+{"section":121,"id":"1210195","japanese":"魔法の実力を磨くには、精霊力を<line-break>鍛えることだって学校で習いました。<line-break>精霊力は戦闘で鍛えられるそうですよ。<line-break>ならば、迷宮や洞窟みたいに戦闘が<line-break>たくさんできそうな場所を探検すれば<line-break>問題解決ですね。<end>"}
 {"section":132,"id":"1320005","japanese":"　　　　　　　汝、小さき者よ…、　　　　　　<line-break>　　　　　　次に我の姿を見るときは、<line-break>　　　我の息吹に身を焼かれるときだと思え。<end>"}
-{"section":23,"id":"230069","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
+{"section":122,"id":"1220098","japanese":"風泣きの洞窟に現れるという怪物を<line-break>退治するのであったな。<line-break>準備ができたら出発しようぞ。<line-break>見事、怪物を倒し冒険者ギルドへ<line-break>報告すれば、エルズの人々も安心して<line-break>コロル石を拾いに行けるようになるな。<end>"}
 {"section":140,"id":"1400271","japanese":"　　　　　　今生きるすべての命も、　　　　　<line-break>　　　　彼らの所へ連れて行ってやろう。<line-break>　　　さびしくないようにね。アハハハハ！<end>"}
-{"section":23,"id":"230077","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
+{"section":122,"id":"1220171","japanese":"しっかし、お前さんに泣きついた<line-break>冒険者も、うかつな奴だねぇ。<line-break>仕事は自分の実力で選ぶものだろうに。<line-break>で、その獣は幻惑の洞窟にいるんだな。<line-break>さっさと退治して、噂のうかつ君を<line-break>安心させてやろうや。<end>"}
 {"section":156,"id":"1560142","japanese":"ああ、どうしてこんなに運がないのかしら…。<line-break>もっと強い人に守ってもらいたかったわ。<line-break>お支払いする気になりませんわ。失礼します。<end>"}
-{"section":23,"id":"230117","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
+{"section":122,"id":"1220182","japanese":"幻惑の洞窟は内部がとても狭くなって<line-break>いたはずだ。ましてや、<line-break>敵の獣の正体は一切不明…。<line-break>不意を突かれれば、君といえど簡単に<line-break>命を失うことになるかもしれない。<line-break>アミラルの人々を、失望させるなよ。<end>"}
 {"section":157,"id":"1570143","japanese":"ああ、どうしてこんなに運がないのかしら…。<line-break>もっと強い人に助けてもらいたかったわ。<line-break>お礼金はお支払いできませんわ。失礼します。<end>"}
-{"section":26,"id":"260053","japanese":"勇者ネメアが破壊神になったら、<line-break>世界中の吟遊詩人が大騒ぎだよ。<line-break>それは、ぼくとしても困るなぁ。<line-break>大陸南西にある闇の門の島に行って、<line-break>破壊神の復活を阻止しようよ。<line-break>ネメアの救出もできてお得だしね。<end>"}
+{"section":123,"id":"1230073","japanese":"さすが、姉ちゃんはひと味違うよ。<line-break>世界中捜したって子どもの依頼を<line-break>受ける冒険者は姉ちゃんだけだぜ。<line-break>俺、姉ちゃんの弟だって誇りに思う。<line-break>俺も手伝うからさ、あの子のためにも<line-break>鳳凰を見つけような！<end>"}
 {"section":181,"id":"1810055","japanese":"　　　システィーナの誰かを思いやる心は　　　<line-break>　　星の光とともに地上のすべてに降り注ぎ、<line-break>　　　　人の心の中でソウルとなった。<end>"}
-{"section":26,"id":"260148","japanese":"破壊神ウルグを復活させるために<line-break>造られた１２の闇の神器のひとつ…<line-break>ゴブリンもやっかいな物を盗んだな。<line-break>魔人アーギルシャイアに渡すわけにも<line-break>いかない以上、俺たちがゴブリンから<line-break>奪い返すしかないな。<end>"}
+{"section":123,"id":"1230154","japanese":"こんな楽な仕事は久々だな。<line-break>ロティ・クロイスの屋敷に、この小さな<line-break>包みを届ければいいのだろう？<line-break>こんなことでわざわざ冒険者を<line-break>雇うなんて、アンティノもロティも、<line-break>大商人と言われるだけはあるな。<end>"}
 {"section":191,"id":"1910084","japanese":"　　　　　封印の巨人の…呪縛から…　　　　　<line-break>　　　　　　　　解き放たれ…、　　　　　　　<line-break>　　　　　　復讐の時を…得たり…。<end>"}
-{"section":26,"id":"260192","japanese":"（オルファウスにゴブゴブ団を名乗る<line-break>　３匹のゴブリンたちから取り戻す<line-break>　よう頼まれた。闇の神器のひとつ）<line-break>（魔人アーギルシャイアも聖杯を狙って<line-break>　いるので、一刻も早く手に入れないと<line-break>　いけない）<end>"}
+{"section":124,"id":"1240013","japanese":"なんと！　闇の神器のひとつが<line-break>罪深き者の迷宮にあるというのか！<line-break>う～む、それは知らんかったわい。<line-break>若いころ、何度も探検したのじゃが…。<line-break>いつも見つかるとは限らないという話は<line-break>本当のことじゃな。<end>"}
 {"section":88,"id":"880242","japanese":"　　　　よくぞ、巨人フルーヴを倒した。　　　<line-break>　　　約束通り、汝の内なる力を引き出そう。<line-break>　　　　目覚めよ。地の巫女エステルよ。<end>"}
-{"section":26,"id":"260212","japanese":"破壊神ウルグを復活させるために<line-break>造られた１２の闇の神器のひとつ…<line-break>ゴブリンもやっかいな物を盗んだな。<line-break>魔人アーギルシャイアに渡すわけにも<line-break>いかない以上、俺たちがゴブリンから<line-break>奪い返すしかないな。<end>"}
+{"section":124,"id":"1240048","japanese":"もーーーーー、がまんできないっ！<line-break>アタクシにとって闇の神器なんて<line-break>どーでもいい物なの！<line-break>だいたいどこにいるかもわからない<line-break>人間をどうやって捜すつもりなのよ！<line-break>ほーーんと、人間ってバカばかりね。<end>"}
 {"section":134,"id":"1340038","japanese":"　　　　　　　　…終わらぬぞ…。　　　　　　　<line-break>　　　これしきでは…終わらぬぞオオオオ！<line-break>　　　　ゴオオオオオオオオオオオ！！！<end>"}
-{"section":40,"id":"400192","japanese":"死竜の洞窟を知っているよな。<line-break>あそこに、錬剛石が落ちていることがあるのは<line-break>知っていたかい？<line-break>この間も光っている場所を調べてみたら<line-break>錬剛石が落ちていたよ。<line-break>あと１個くらいは落ちてるんじゃないかな。<end>"}
+{"section":126,"id":"1260224","japanese":"ヴァンの駄ジャレの破壊力に感服し、<line-break>自ら弟子入りした困ったヤツ。<line-break>師匠であるヴァンや兄弟子のナッジ（本人に<line-break>その気はない）に負けぬよう、日夜寒い駄ジャレ<line-break>を考えている。<line-break>　<line-break>　<line-break>　<end>"}
 {"section":52,"id":"520150","japanese":"しかし、ディンガルの将アンギルダンが選んだ　<line-break>道は海路ではなく、分断の山脈を越えるという<line-break>歴史上、誰も取らなかった進軍路であった。<end>"}
-{"section":52,"id":"520018","japanese":"そういえば、ファーロスの御曹司には<line-break>めったに宮廷に来られぬゆえ、<line-break>まだ一度もお目にかかったことがない。<line-break>おられるなら、教えていただきたい。<line-break>総司令閣下、ご子息は、いったい<line-break>どこにおられるのです？<end>"}
+{"section":23,"id":"230029","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
 {"section":88,"id":"880219","japanese":"　　　　　汝こそ、我に仕えし魔道の巫女　　　　<line-break>　　　　　ズゥの血と力を受け継ぐ者なり。<line-break>　　　　　しかし、その力は未だ目覚めず。<end>"}
-{"section":56,"id":"560685","japanese":"なるほど、立派な心がけだ。<line-break>公正な指揮官、というわけだ。<line-break>肝に銘じよう、クリュセイス。<line-break>まあ、ロティならこう言うだろうがね。<line-break>クリュセイス、なぜ怒るのだね？<line-break>お前のためを思ってしたことだよ、と。<end>"}
+{"section":23,"id":"230061","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
 {"section":60,"id":"600001","japanese":"　　　　皇帝ネメアの世界統一構想のもと　　　<line-break>　　南方攻略軍司令、朱雀将軍アンギルダンが　<line-break>　　　ついにロストール攻略に動き出した。<end>"}
-{"section":56,"id":"560687","japanese":"…そして、ロティがそんな奴だったと<line-break>認められるようになったのも、あ奴の<line-break>おかげだというのに気づいているかな？<line-break>…気づいてるな。<line-break>意識的にではないにせよ、な。<line-break>小娘というものはずるいものだからな。<end>"}
+{"section":23,"id":"230069","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
 {"section":95,"id":"950069","japanese":"　　　　　　人の子ごときに敗れるとは…。　　　　<line-break>　　我ら、神々とともに生まれし生き物の時代は…<line-break>　　　　　　　　終わったの…か…？<end>"}
-{"section":57,"id":"570110","japanese":"で、その当たり前に持ってる弱さと　<line-break>共に生きていける奴ってのが<line-break>強い奴なんじゃないかってな。<line-break>弱さに対して、拒まず、甘えず…、<line-break>抱えた弱さを正面から見つめられる。<line-break>自分の弱さも、他人の弱さもだ。<end>"}
+{"section":23,"id":"230077","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
 {"section":184,"id":"1840136","japanese":"　　　　そうですか、仕方ありませんね。　　　<line-break>　では、あなたの世界までお送りしましょう。<line-break>　またいつか、私のもとを訪ねてください…。<end>"}
-{"section":58,"id":"580027","japanese":"のう、こういう噂があるのじゃ。<line-break>エンシャント南東の賢者の森の奥には<line-break>猫屋敷という屋敷があるという。<line-break>これは運命に選ばれたものだけが、<line-break>見つけることのできる屋敷だという。<line-break>一度、行ってみるといい。<end>"}
+{"section":23,"id":"230117","japanese":"必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"}
 {"section":56,"id":"560657","japanese":"　　　飽くことを知らぬかのように広がり続ける戦渦。<line-break>　　　　まことしやかに伝えられる破壊神復活の噂。<line-break>　　　　　　　深まりゆく闇の気配…<end>"}
-{"section":64,"id":"640077","japanese":"うふふ…。あ、笑っていますが、<line-break>反省していないわけではないのです。<line-break>ティアナは移り気に過ぎるようです。<line-break>あなたの言葉を聞くまでは<line-break>涙すら浮かんでいたこの顔に、<line-break>笑みが自然と浮かび上がってきます。<end>"}
+{"section":26,"id":"260053","japanese":"勇者ネメアが破壊神になったら、<line-break>世界中の吟遊詩人が大騒ぎだよ。<line-break>それは、ぼくとしても困るなぁ。<line-break>大陸南西にある闇の門の島に行って、<line-break>破壊神の復活を阻止しようよ。<line-break>ネメアの救出もできてお得だしね。<end>"}
 {"section":56,"id":"560663","japanese":"　　　飽くことを知らぬかのように広がり続ける戦渦。<line-break>　　　　まことしやかに伝えられる破壊神復活の噂。<line-break>　　　　　　　深まりゆく闇の気配…<end>"}
-{"section":69,"id":"690206","japanese":"ロベルトさんの娘はダメだった。<line-break>…その娘を守れなかったって泣いてた<line-break>リディオンの顔が今も忘れられないぜ。<line-break>それからだな、<line-break>リディオンがみんなに心を閉ざして、<line-break>剣だけに打ち込むようになったのは…。<end>"}
+{"section":26,"id":"260148","japanese":"破壊神ウルグを復活させるために<line-break>造られた１２の闇の神器のひとつ…<line-break>ゴブリンもやっかいな物を盗んだな。<line-break>魔人アーギルシャイアに渡すわけにも<line-break>いかない以上、俺たちがゴブリンから<line-break>奪い返すしかないな。<end>"}
 {"section":56,"id":"560656","japanese":"　　　残され貴族達に事態を収拾するだけの力はなく、<line-break>　　王女アトレイアがロストールの王位に就くことに<line-break>　　　　　　意を唱えるものもいなかった。<end>"}
-{"section":75,"id":"750021","japanese":"アトレイア王女、君は純真だね。　　<line-break>だけど、君のそういう行動を見て<line-break>他人はこう思うかもしれない。<line-break>…ちょっと親切にしてやったら<line-break>すぐなついてきた。さもしいことだ。<line-break>これだからさびしい奴は…てね。<end>"}
+{"section":26,"id":"260192","japanese":"（オルファウスにゴブゴブ団を名乗る<line-break>　３匹のゴブリンたちから取り戻す<line-break>　よう頼まれた。闇の神器のひとつ）<line-break>（魔人アーギルシャイアも聖杯を狙って<line-break>　いるので、一刻も早く手に入れないと<line-break>　いけない）<end>"}
 {"section":56,"id":"560662","japanese":"　　　残され貴族達に事態を収拾するだけの力はなく、<line-break>　　　王女ティアナがロストールの王位に就くことに<line-break>　　　　　　意を唱えるものもいなかった。<end>"}
+{"section":26,"id":"260212","japanese":"破壊神ウルグを復活させるために<line-break>造られた１２の闇の神器のひとつ…<line-break>ゴブリンもやっかいな物を盗んだな。<line-break>魔人アーギルシャイアに渡すわけにも<line-break>いかない以上、俺たちがゴブリンから<line-break>奪い返すしかないな。<end>"}
+{"section":40,"id":"400192","japanese":"死竜の洞窟を知っているよな。<line-break>あそこに、錬剛石が落ちていることがあるのは<line-break>知っていたかい？<line-break>この間も光っている場所を調べてみたら<line-break>錬剛石が落ちていたよ。<line-break>あと１個くらいは落ちてるんじゃないかな。<end>"}
+{"section":52,"id":"520018","japanese":"そういえば、ファーロスの御曹司には<line-break>めったに宮廷に来られぬゆえ、<line-break>まだ一度もお目にかかったことがない。<line-break>おられるなら、教えていただきたい。<line-break>総司令閣下、ご子息は、いったい<line-break>どこにおられるのです？<end>"}
+{"section":56,"id":"560685","japanese":"なるほど、立派な心がけだ。<line-break>公正な指揮官、というわけだ。<line-break>肝に銘じよう、クリュセイス。<line-break>まあ、ロティならこう言うだろうがね。<line-break>クリュセイス、なぜ怒るのだね？<line-break>お前のためを思ってしたことだよ、と。<end>"}
+{"section":56,"id":"560687","japanese":"…そして、ロティがそんな奴だったと<line-break>認められるようになったのも、あ奴の<line-break>おかげだというのに気づいているかな？<line-break>…気づいてるな。<line-break>意識的にではないにせよ、な。<line-break>小娘というものはずるいものだからな。<end>"}
+{"section":57,"id":"570110","japanese":"で、その当たり前に持ってる弱さと　<line-break>共に生きていける奴ってのが<line-break>強い奴なんじゃないかってな。<line-break>弱さに対して、拒まず、甘えず…、<line-break>抱えた弱さを正面から見つめられる。<line-break>自分の弱さも、他人の弱さもだ。<end>"}
+{"section":58,"id":"580027","japanese":"のう、こういう噂があるのじゃ。<line-break>エンシャント南東の賢者の森の奥には<line-break>猫屋敷という屋敷があるという。<line-break>これは運命に選ばれたものだけが、<line-break>見つけることのできる屋敷だという。<line-break>一度、行ってみるといい。<end>"}
+{"section":64,"id":"640077","japanese":"うふふ…。あ、笑っていますが、<line-break>反省していないわけではないのです。<line-break>ティアナは移り気に過ぎるようです。<line-break>あなたの言葉を聞くまでは<line-break>涙すら浮かんでいたこの顔に、<line-break>笑みが自然と浮かび上がってきます。<end>"}
+{"section":69,"id":"690206","japanese":"ロベルトさんの娘はダメだった。<line-break>…その娘を守れなかったって泣いてた<line-break>リディオンの顔が今も忘れられないぜ。<line-break>それからだな、<line-break>リディオンがみんなに心を閉ざして、<line-break>剣だけに打ち込むようになったのは…。<end>"}
+{"section":75,"id":"750021","japanese":"アトレイア王女、君は純真だね。　　<line-break>だけど、君のそういう行動を見て<line-break>他人はこう思うかもしれない。<line-break>…ちょっと親切にしてやったら<line-break>すぐなついてきた。さもしいことだ。<line-break>これだからさびしい奴は…てね。<end>"}
 {"section":75,"id":"750101","japanese":"アトレイア王女、君は純真だね。　　<line-break>だけど、君のそういう行動を見て<line-break>他人はこう思うかもしれない。<line-break>…ちょっと親切にしてやったら<line-break>すぐなついてきた。さもしいことだ。<line-break>これだからさびしい奴は…てね。<end>"}
 {"section":76,"id":"760008","japanese":"それから今日までの彼女は、無力で<line-break>害のない王族として、王城の暗く<line-break>静かな一室で孤独な人生を送ってきた。<line-break>ティアナ王女の、華やかで、<line-break>周りのみんなに慕われる生活とは<line-break>正反対の、暗く孤独な生活をね。<end>"}
 {"section":78,"id":"780005","japanese":"叔母様は私を必死で介抱して<line-break>瀕死の私を蘇生させてくれたそうです。<line-break>ただ、視力は戻りませんでしたが…。<line-break>それでも、私に光を取り戻そうとして<line-break>叔母様は、その後、ずいぶん<line-break>毒の研究をなさったそうです。<end>"}
@@ -1558,3 +1404,85 @@
 {"section":178,"id":"1780090","japanese":"　　　　　一方、ロストールでは、<line-break>　レムオンが突然姿を消したことをきっかけに<line-break>　　　　国内の戦力が、再び統合され、<line-break>　青竜軍と戦えるだけの態勢が取り戻された。<line-break>　　こうして、ネメアを失ったディンガルと<line-break>　　　国内の統合に成功したロストールは、<line-break>　　　　再びにらみ合いの状態に入った。<end>"}
 {"section":180,"id":"1800091","japanese":"　　　　　一方、ロストールでは、<line-break>　レムオンが突然姿を消したことをきっかけに<line-break>　　　　国内の戦力が、再び統合され、<line-break>　青竜軍と戦えるだけの態勢が取り戻された。<line-break>　　こうして、ネメアを失ったディンガルと<line-break>　　　国内の統合に成功したロストールは、<line-break>　　　　再びにらみ合いの状態に入った。<end>"}
 {"section":11,"id":"110025","japanese":"<select><value:$20>%4力仕事には自信があるが、<line-break>頭脳労働は苦手だな。<end>航海のことはわからん。<line-break>難しいことは人間に任せて<line-break>荷物運びに励むのがいいのだ。<end>俺もがんばっているが、<line-break>あいつはもっとがんばっている。<line-break>負けるわけにはいかんのだ！<end>なんだ？　難しい話が聞きたいなら<line-break>他の奴に聞いてくれ。<end>"}
+{"section":37,"id":"370193","japanese":"<if><value:$29><equal>%0<value:$28>、支度しろい！<line-break>メイアを追うんだ。　　　　　<line-break>ユリアシュを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end><value:$28>、支度しな！<line-break>メイアを追うんだ。　　　　　<line-break>ユシュアルを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end>"}
+{"section":44,"id":"440034","japanese":"王都ロストールからやや南に位置する<line-break>ノーブルの町で、領主に代わって　<line-break>町を治めていた代官ボルボラの暴政に<line-break>領民が蜂起、暴動となった。<line-break>この騒ぎは、領主であるエリエナイ公<line-break>レムオン・リューガの手によって　<line-break>ボルボラが討たれる事で決着したが、<line-break>その裏には、更に大きなうねりがあった。<end>"}
+{"section":22,"id":"220091","japanese":"最近現れたモンスターが強くて、困っとります。<line-break>なんでも<value:$15>とかいうやつじゃそう<line-break>ですが、わしらでは手に負えませんです。<line-break>ほっとくと畑も村も危ないので、<line-break><value:$1B>日以内に、退治していただきたい。<line-break>お礼はあまりできんですが、できるだけのことは<line-break>するつもりですじゃ。どうかお助けくだされ。<end>"}
+{"section":117,"id":"1170047","japanese":"<if><value:$29><equal>%0こんな、物騒な連中に<line-break>ねらわれるようなこと…<line-break>したかしら？<line-break>でも、ボウヤと再会できたのは<line-break>幸運だったわ…。<line-break>フフフッ。<end>こんな、物騒な連中に<line-break>ねらわれるようなこと…<line-break>したかしら？<line-break>でも、子猫ちゃんと再会できたのは<line-break>幸運だったわ…。<line-break>フフフッ。<end>"}
+{"section":125,"id":"1250298","japanese":"エステルさんがあんなに頼んでんのに、<line-break>迷ってんのかよ、姉ちゃん！<line-break><line-break>わかってる。シャリが言ってたことが<line-break>気になってるってんだろ？<line-break><line-break>でも、だから姉ちゃんが一緒に<line-break>行くんじゃないかよ。<line-break>あんなチビ、姉ちゃんの怪力で…<line-break>い、痛えっ！<line-break>頭の形が変わったらどうすんだ！<end>"}
+{"section":125,"id":"1250309","japanese":"精霊神グラジェオンの聖座へ行き、<line-break>その試練を受けることで、<line-break>エステルが地の巫女となる…。<line-break>エステルがお前を頼っている以上、<line-break>決断する権利はお前にある。<line-break><line-break>滅んだ魔導文明がにわかに復活し、<line-break>ディンガルを、そして世界を焼くか、<line-break>それとも…。<line-break>それが、お前にかかっている。<end>"}
+{"section":22,"id":"220030","japanese":"全世界に広がるフゴー宿屋の本店ですから、誇り<line-break>を持ってみなさまをお迎えします。と言いたいの<line-break>ですが、最近街の近くに<value:$15>が出て<line-break>旅行者の方に危害を加えます。<line-break>これではどうぞお越しくださいとは申せません。<line-break><value:$1A>ギアであなた方に退治を依頼します。<line-break><value:$1B>日以内によろしくお願いします。<end>"}
+{"section":22,"id":"220038","japanese":"近頃この街もにぎやかになったね。それはいいこ<line-break>となんだけど、人が増えたら、それを狙うモンス<line-break>ターも増えちゃってさ。うちのお得意さんで襲わ<line-break>れる人も出てきてるのさ。<value:$1B>日以内で、<line-break><value:$15>を倒してくれないかね。<line-break><value:$1A>ギア出すよ。お得意さんには、<line-break>安心して酒を飲みに来てほしいからね。<end>"}
+{"section":22,"id":"220063","japanese":"水の都として名高いアキュリュースですから、観光<line-break>を目的とされるお客様が多数ご来店なさいます。<line-break>しかし、近頃はモンスターが増えて危険だから、<line-break>と旅行をとりやめるお客様もいらっしゃいます。<line-break><value:$15>を倒して、街周辺の安全を確保<line-break>してください。<value:$1A>ギアの報酬で、<line-break>期限は<value:$1B>日以内です。<end>"}
+{"section":277,"id":"2770002","japanese":"あたしはこれまでずっと<line-break>陰謀と裏切りの世界に生きてきたわ。<line-break>　<line-break>あたしがテジャワの変に加担したから、<line-break>多くの人が死に、そして…。<line-break>アトレイア様の目は光を失った。<line-break>あたしはいろんな人を不幸にしてきたのよ。<line-break>　<line-break>　<line-break>そんなあたしに<value:$28>から<line-break>愛される資格なんて…。<end>"}
+{"section":55,"id":"550375","japanese":"<if><value:$29><equal>%0こんな、物騒な連中に<line-break>ねらわれるようなこと…したかしら。<line-break>　<line-break>でも、おかげでボウヤと<line-break>再会できたわけだし…。<line-break>フフフッ。<end>こんな、物騒な連中に<line-break>ねらわれるようなこと…したかしら。<line-break>　<line-break>でも、おかげで子猫ちゃんと<line-break>再会できたわけだし…。<line-break>フフフッ。<end>"}
+{"section":126,"id":"1260269","japanese":"ロストール王家の分家リューガ家の当主で公爵。<line-break>母親がダルケニス族で、自分もそうであることを<line-break>隠していたが、エリス王妃の雇ったツェラシェル<line-break>によって暴かれてしまう。<line-break>ダルケニス族は人間に恐れられており、<line-break>レムオンの母親も冒険者によって殺されている。<line-break>弟のエストとは、母親が違う。<line-break>　<end>"}
+{"section":136,"id":"1360704","japanese":"　　　　　クックックッ…。<line-break>　　他愛のナイ…見セ物デアッタ…。<line-break>　<line-break>　<line-break>　　ネメア…そして無限のソウルよ…<line-break>　絶望トともに…我ヘノ…供物トなレ…。<line-break>　<line-break>　<line-break>　　これヨり…滅ビノ宴が始まル…。<line-break>　死コソ…うぬらノ逃レえぬ運命…。<line-break>　　無こそ…コノ世界ノ終焉なり…。<end>"}
+{"section":19,"id":"190349","japanese":"システィーナの伝道師と呼ばれるウルグ復活<line-break>を目論む秘密結社のメンバー。<line-break>次元に穴をあけ、空間をねじ曲げる能力を持つ。<line-break>卑劣な性格で、手段を選ばない。<line-break>ゼグナ鉱山で闇の神器を探索中、ネメアと遭遇。<line-break>倒されかけるが、人質を取り、これを助けようと<line-break>したネメアを次元のはざまに落とした。<line-break>　<end>"}
+{"section":22,"id":"220083","japanese":"わしらは細工物を作るのが好きでの。一日中やっ<line-break>ていても飽きはせん。だが、最近村の近くに<line-break><value:$15>が出るようになって、<line-break>恐ろしゅうて落ち着いて細工できんのじゃ。<line-break>うちの村は年寄りばかりだで誰も戦えんのじゃ。<line-break>お願えするだ。モンスターを追い払ってくれ。<line-break><value:$1A>ギア、<value:$1B>日以内でどうじゃ。<end>"}
+{"section":22,"id":"220094","japanese":"冒険者の方々にはごひいきにしていただき、<line-break>ありがとうございます。日頃のご愛顧に応える<line-break>べく、日々、様々な品を作っていますが、<line-break>最近、<value:$15>が出没し、よい材料を<line-break>採集しにくくなっております。そこで、<line-break>報酬<value:$1A>ギアで、退治を依頼いたします。<line-break><value:$1B>日以内で、お願いできませんでしょうか？<end>"}
+{"section":33,"id":"330145","japanese":"<if><value:$29><equal>%0シロウラギリの毒、だと？<line-break>フリントがか？<line-break>しかし…<line-break>フリントの息子、<line-break><value:$28>といったな。<line-break>ずいぶんと毒に詳しいではないか。<end>シロウラギリの毒、だと？<line-break>フリントがか？<line-break>しかし…<line-break>フリントの娘、<line-break><value:$28>といったな。<line-break>ずいぶんと毒に詳しいではないか。<end>"}
+{"section":19,"id":"190119","japanese":"元はエリスの宝石たちの一員。テジャワの変に<line-break>大きく関わり、そのすえに魂切の鎌でソウルを<line-break>刈られるが、闇の神器・同化の髪飾りの力で<line-break>よみがえる。<line-break><value:$28>と旅を続けるうちにジリオンへ<line-break>の想いが薄れ、<value:$28>への想いが大き<line-break>くなった。そのため同化の髪飾りの力が弱まり、<line-break>消滅してしまった。<end>"}
+{"section":126,"id":"1260274","japanese":"リューガ家当主でエリエナイ公。<line-break>貴族派の領袖。王権強化をねらうエリス王妃と<line-break>政争を繰り広げてきた。エリスの甥ゼネテスが<line-break>ディンガル軍に連勝し、ファーロス家の勢力が<line-break>拡大するのをおそれてリューガの変を起こすが<line-break>その混乱の最中に謎の失踪を遂げる。<line-break>彼の生死は現在も不明のままである。<line-break>　<end>"}
+{"section":224,"id":"2240002","japanese":"ふははははは！<line-break>男は、乙女の涙の数だけ強くなる！<line-break>未来の勇者ガルドラン、ついに参上！<line-break>さあ、可憐な少女よ<line-break>すぐさま悪党どもから助けてやる！<line-break>思うさま美しい笑顔の準備をするのだ。<line-break>未来の勇者の熱き魂を感じろ！<line-break>俺様に助けられる幸運をかみしめろ！<line-break>もはや涙など捨ててしまうがいい！<end>"}
+{"section":22,"id":"220068","japanese":"他の街からやってきた商人と交流することは、<line-break>道具屋である私どもには欠かせないことです。<line-break>ところが最近<value:$15>が出るので、<line-break>他の街の商人がエルズに近づけないのです。<line-break>そこで冒険者の方に退治をお願いしたいのです。<line-break>お礼は<value:$1A>ギアでどうでしょうか。<line-break><value:$1B>日以内にやっつけてしまってください。<end>"}
+{"section":22,"id":"220070","japanese":"<value:$15>っていう強い奴がいるんだよ。<line-break>あたしとお客さんが、そいつを倒せる戦士がいる<line-break>かどうかって賭けをしてるのさ。あたしはいる<line-break>ほうに賭けてるってわけ。それでさ…。<line-break><value:$1A>ギアでそいつを倒しに行ってくれない<line-break>かい？　<value:$1B>日以内で。賭けの期限がもう<line-break>その日までしかないんだよ。よろしくね。<end>"}
+{"section":126,"id":"1260064","japanese":"ノーブル出身の少年で、<value:$28>の<line-break>生意気な弟。姉である<value:$28>のことを<line-break>尊敬しており、また、亡き父が遺した畑を大切に<line-break>思っている。少々シスターコンプレックスぎみ。<line-break>身分制度を後ろ盾に威張る貴族が大嫌いで、<line-break>領民に嫌がらせばかりするノーブルの悪代官<line-break>ボルボラに姉とともに立ち向かう。<line-break>　<end>"}
+{"section":198,"id":"1980073","japanese":"私、知らなかったんです。<line-break>世界がこんなにも広く、<line-break>驚きと楽しさに満ちていたなんて…。<line-break>ロストールの酒場は大好きですけど、<line-break>ずっとあそこで働いていたら、<line-break>　<line-break>こんな世界を知ることもなく、<line-break>人生を終えていたのかもしれませんね。<line-break>　<line-break>ありがとうございます。<line-break><value:$28>さん。<end>"}
+{"section":243,"id":"2430013","japanese":"行きたい気持ちはわかるが、<line-break>賛成しかねるな。<line-break>　<line-break>今の君の力ではむざむざと<line-break>魔物に殺されにいくようなものだ。<line-break>　<line-break>それでもあえて赴くというのなら、<line-break>私に止める権利はない。<line-break>　<line-break>だが、せめてもっと腕を上げてから<line-break>挑んでも遅くはあるまい、<line-break>…とだけ忠告しておこう。<end>"}
+{"section":19,"id":"190344","japanese":"アルレシアの七王のひとり。同じ七王のひとり<line-break>ディーヴァと魔道王国ラドラスを建国する。<line-break>人類は真の覚醒を経れば神にも等しい超人類に<line-break>なれるという考えにとりつかれ、自らを強大な<line-break>魔力と朽ちることのない肉体を持つ超人類へと<line-break>変える。その強すぎる力を恐れた竜王は、<line-break>彼を魔道の塔に封印する。<line-break>　<end>"}
+{"section":112,"id":"1120038","japanese":"　　　　しかし、<value:$28>よ。<line-break>　　　そなたを再び母なる大地へと飛ばし、　　<line-break>　　　生きながらえさせるくらいならば<line-break>　　　　　今のわらわにもできよう…。<line-break>　　　　　　　さらばじゃ。<line-break>　　　　　　…<value:$28>よ。<line-break>　　　　　無限のソウルを持つ者よ…。<line-break>　　　そなたはわらわの…希望…であった。<end>"}
+{"section":188,"id":"1880019","japanese":"<if><value:$01><equal>15モンスターに守らせていたということは<line-break>埋蔵金はこの奥のようだね。<line-break>確認してみようよ。 <end><if><value:$01><equal>19モンスターに守らせてるってことはぁ、<line-break>埋蔵金はこの奥だよ。<line-break>確認してみようよぉ。 <end>モンスターに守らせてたってことは<line-break>埋蔵金はこの奥みたいだね。<line-break>どれくらいあるんだろう。 <end>"}
+{"section":22,"id":"220092","japanese":"闇の力が強まり、世界に悪しき気が満ちはじめて<line-break>います。その影響はあまたの生き物にも及んでい<line-break>るようです。巡礼者を脅かす<value:$15>も<line-break>闇にとりつかれた哀れなる命です。<line-break>この悲しき命を、闇の苦痛から救う勇者を捜して<line-break>います。<value:$1B>日以内に、その命を解放して<line-break>くれた者には、お礼をさせていただきます。<end>"}
+{"section":126,"id":"1260254","japanese":"もとは施文院の告死天使。ネメア暗殺に失敗し、<line-break>その恐怖から感情に目覚めた。<line-break>行き倒れになっているところをノエルに介抱され<line-break>それ以来、ノエルを影から守るようになる。<line-break>レイヴンはノエルの元を去るとき、その記憶を<line-break>奪い去った。施文院の秘密を知る者には<line-break>告死天使の魔の手が伸びるからである。<line-break>　<end>"}
+{"section":126,"id":"1260284","japanese":"目には見ることのできないきれいを求めて<line-break>旅をしている吟遊詩人。リルビー族なので<line-break>子供のような外見をしているが、実は３０歳を<line-break>越えている。冒険者歴も長くベテランである。<line-break>本名はクリスピーなのだが、彼にとっては<line-break>きれいでないので、詩聖レルラと楽聖ロントンの<line-break>名前を合わせて名乗っている。<line-break>　<end>"}
+{"section":188,"id":"1880067","japanese":"<select><value:$20>%2どうしたのです、<value:$28>？<line-break>あなたには埋蔵金を調査する任務が<line-break>あるはずですよ。<line-break>こんなところで、<line-break>ぐずぐずしていられる時間は<line-break>ないのではないかしら？<end><value:$28>、<line-break>埋蔵金の調査を急いでください。<line-break>　<line-break>わたくしたち解放軍の活動には、<line-break>どうしても資金が必要なのです。<end>"}
+{"section":19,"id":"190089","japanese":"ノトゥーン神官。もとは荒くれ者の傭兵だったが<line-break>アンギルダンに出会ったことにより自分の小ささ<line-break>に気付き、天空神ノトゥーンに仕える神官として<line-break>生きることを決心する。その後、他人の何十倍も<line-break>努力してアルノートゥンで一番の法力を持つ神官<line-break>となった。古代の怪物退治に功があり封士の<line-break>異名を持つ。<line-break>　<end>"}
+{"section":19,"id":"190249","japanese":"ロストール生まれの鍛冶工。彼の打つ剣は名剣と<line-break>もてはやされ、当代きっての名工と言われる。<line-break>ドワーフの名工デルガドとは親友。<line-break>デルガドの弟子ロッチナと恋に落ち、結婚。<line-break>炎竜山の宝剣伝説を求め、炎竜山にふたりの小屋<line-break>をかまえる。<line-break>伝説の宝剣を打とうとして、炎竜山の噴火に<line-break>巻き込まれ死亡する。<end>"}
+{"section":10,"id":"100011","japanese":"<if><value:$2A><less-equal>%49ロストールにはゼネテスっていう<line-break>腕利きの冒険者がいるんだ。<line-break>会ったことあるかい？<end><if><value:$2A><less-equal>%120君は傭兵をしたことがあるかい？<line-break>もしないなら一度やっておくといい。<line-break>何事も経験だから。<end>君は<value:$28>だろ？<line-break>思ったより若いんでびっくりしたよ。<line-break>たいした腕前なんだってね。<end>"}
+{"section":28,"id":"280177","japanese":"<select><value:$20>%3おい、イタズラもほどほどにしろよ。<line-break>それでなくてもここの神官は<line-break>ガミガミ屋なんだからさ。<end>あんまり神官様を刺激するなよ。<line-break>昨日の大地震でいろいろ壊れて、<line-break>おかんむりなんだからさ。<end>ヴァンがあれほど悪さしてても、<line-break>ヴァンのご両親は気づかないんだからな。<line-break>親バカってホントこわいよ。<end>"}
+{"section":68,"id":"680004","japanese":"<select><value:$20>%3すべての人に食を与えよ！<line-break>それが師匠の遺言だった。<line-break>ゆえに私は、すべての人に食を与えるのだ！！<end>食べたい料理があれば遠慮なく言ってくれ。<line-break>食べたいときに食べたいものを！<line-break>それがカンダカンとの約束だ。<end>そろそろ調味料がなくなるな。<line-break>ヒルダリアに調達するよう頼んで<line-break>おかなくては…。<end>"}
+{"section":7,"id":"70011","japanese":"<select><value:$20>%3フゴー美術館へようこそ。<line-break>世界中から集めた美術品の<line-break>数々をお楽しみください。<end>当美術館は、世界中から集めました<line-break>珍しい品々を展示しております。<line-break>ごゆっくりご鑑賞ください。<end>以前はリベルダムで展示していましたが、<line-break>事情によりこちらへ移って参りました。<line-break>今後ともよろしくお願いします。<end>"}
+{"section":11,"id":"110028","japanese":"<select><value:$20>%3主人の仕事がうまくいったら<line-break>お手伝いさんを雇って楽をしたいわ。<line-break>毎日忙しくて忙しくて…。<end>家事が一段落ついたら、<line-break>主人の仕事を手伝わないといけないわ。<line-break>ほんとに忙しいわね。 <end>私の夢は、我が社を世界一の貿易会社に<line-break>することなのよ。そのためには<line-break>このくらいの苦労なんてへっちゃらよ。<end>"}
+{"section":112,"id":"1120034","japanese":"　　　　だから、ラドラスが落ちるのを　　　　<line-break>　　　　　ボクにはとめられない…。<line-break>　　　砂漠の一族のみんなを助けられない。<line-break>　　　　　　　くやしいけど…。<line-break>　　　　　　　だけど、ボク、<line-break>　　　　たぶん、キミぐらいなら<line-break>　　　なんとか外へ飛ばせそうなんだ。<line-break>　　　　　…助けられそうなんだ。<end>"}
+{"section":136,"id":"1360705","japanese":"　　　　　　クックックッ…。<line-break>　　他愛のナイ…見セ物デアッタ…。<line-break>　<line-break>　<line-break>　　ネメア…そして無限のソウルよ…<line-break>　絶望トともに…我ヘノ…供物トなレ…。<line-break>　<line-break>　<line-break>　　　これヨり…滅ビノ宴が始まル…。<line-break>　　死コソ…うぬらノ逃レえぬ運命…。<line-break>　　　無こそ…コノ世界ノ終焉なり…。<end>"}
+{"section":22,"id":"220023","japanese":"毎度ご利用ありがとうございます。今回みなさま<line-break>にお願いしたいのは、旅行者の道中の安全確保で<line-break>す。旅行者の方は、みなさまのようにお強い方ば<line-break>かりではありません。危険は、あらかじめ取りの<line-break>ぞいておきたいのです。退治して欲しいのは、<line-break><value:$15>です。お礼は<value:$1A>ギア<line-break>です。<value:$1B>日以内にお願いします。<end>"}
+{"section":22,"id":"220095","japanese":"優れた武器防具は、良質の材料と腕のいい職人に<line-break>よって作られる。が、最近、現れた<line-break><value:$15>が物騒なヤツでな。危なくて、<line-break>じっくり材料を集められんと、職人どもが困って<line-break>おる。<value:$1B>日以内に退治して欲しいんだが、<line-break><value:$1A>ギアでどうじゃ？　あんたらにしても<line-break>わしらの仕事がうまくいかんのは困るじゃろう。<end>"}
+{"section":246,"id":"2460008","japanese":"<value:$28>よ。<line-break>余は汝の力を必要としている。<line-break>　<line-break>余が完全に復活するためには、<line-break>その器となる肉体が必要なのだ。<line-break>　<line-break>特に余の息子、ベルゼーヴァの<line-break>身体であれば申し分ない。<line-break>　<line-break>余は復活し、人類の革新に邪魔な<line-break>竜どもを完全に滅ぼさねばならぬ。<line-break>特に余を封じた竜王は、な。<end>"}
+{"section":112,"id":"1120040","japanese":"　　　それなのに、あなたの名前が浮かび、　　<line-break>　　　　この都市の呪縛にあらがって<line-break>　　私はあなたの名前を叫び続けています。<line-break>　<line-break>　　今、私に残された最後の魔力を使って　　　<line-break>　　　あなたを外の大地へと飛ばします。<line-break>　　　　…これは、道具としてではなく<line-break>　　　　　私という命が持つ願いです…。<end>"}
+{"section":140,"id":"1400428","japanese":"　　　エステルを救う方法、なきにしもあらず　　<line-break>　　　　　我が力が完全に復活したならば<line-break>　　　　　力場の乱れ、収めてしんぜよう<line-break><line-break>　　　さすればエステルは封印となる必要なし<line-break>　　　　　再び汝とともに旅に立てよう<line-break>　　　　聖地母神の長兄たる我を封じる巨人<line-break>　　　　　　パンタ・レイを倒すがよい<end>"}
+{"section":178,"id":"1780003","japanese":"　　青竜将軍カルラ率いるディンガル軍と<line-break>　　　ゼネテス率いるロストール軍は<line-break>　　　竜骨の砂漠南の街道で対峙した。<line-break>　<line-break>　　レムオンら有力貴族の出兵拒否により、<line-break>　ロストール側の兵は、ゼネテスの直属である<line-break>　　ファーロス家の私軍のみと噂されたが、<line-break>ゼネテスは、青竜軍を前に延々と陣を展開した。<end>"}
+{"section":216,"id":"2160011","japanese":"ルルアンタ、あのふたりは<line-break>きっとうまくいくと思うな。<line-break>だって、とっても幸せそうだったもん。<line-break>ルルアンタ、昔フリントさんから<line-break>教わったことがあるの。<line-break>　<line-break>どんなに困難な旅路だって、<line-break>信頼し合っている者同士なら<line-break>ちっとも恐くないって。<line-break>うん。あのふたりなら<line-break>きっと大丈夫だよ！<end>"}
+{"section":19,"id":"190189","japanese":"ロストール王国の王妃。名家ファーロス家の出。<line-break>謀略に優れ、２国を滅ぼしロストールに併合する<line-break>という実績を持つ。夫セルモノーも実兄ノヴィン<line-break>も頼りにならないため、国を守るには彼女が謀略<line-break>を用いて他国と戦うしかないのだが、その妖艶で<line-break>悪女的な外見も災いしファーロスの雌狐などと<line-break>呼ばれている。<line-break>　<end>"}
+{"section":140,"id":"1400321","japanese":"<if><value:$29><equal>%0………………。<line-break>………………。<line-break>…むう。<line-break>世間にかような複雑な思いが<line-break>存在することは知っておったが<line-break>よもやこの身に起ころうとはな…。<end><value:$28>よ…。<line-break>そなたがここまで来ること、<line-break>このエアにも見通せなんだ。<line-break>無限のソウルを持つ者の未来は<line-break>誰にも見えぬということか。<end>"}
+{"section":126,"id":"1260164","japanese":"ツィーネの森出身のエルフの少女。<line-break>冒険者エルフの祖ラミュのすすめに従い、世界を<line-break>見るために旅立つ。だが、たいして旅もしない<line-break>間にすべてを見たと信じて、森に帰ろうとする。<line-break>その途中<value:$28>と出会い、一緒に<line-break>旅をすることになる。<line-break>傲慢と偏見の固まりで、最初は何を見ても<line-break>つまらないとしか言わない。<end>"}
+{"section":235,"id":"2350041","japanese":"これからは、自分の過去と向き合い、<line-break>償いをする旅に出るよ。<line-break>　<line-break>その旅がどれだけの時間を<line-break>必要とするかはわからない。<line-break>　<line-break>たぶん長い旅になると思う。<line-break>もしかすると生きている間には<line-break>終わらないかもしれない。<line-break>でも…。それでも僕は君に<line-break>ついてきてほしいんだ。<line-break><value:$28>…。<end>"}
+{"section":109,"id":"1090037","japanese":"青竜将軍カルラ率いる青竜軍とゼネテス率いる<line-break>ロストール軍は、虹色の山脈のふもとで<line-break>激突する。戦力的に劣るゼネテス軍は、<line-break>空の本陣を敷き、青竜軍を足止めし、<line-break>合わせてネメア死すの偽情報を流す。<line-break>ゼネテス軍は動揺する青竜軍の隙を突き<line-break>背後から奇襲をかけ、緒戦の勝利をものにした。<line-break><line-break><line-break><end>"}
+{"section":126,"id":"1260304","japanese":"かつて、芸術的とも言える罠解除の腕から、<line-break>神の腕のロッシマと呼ばれた伝説の冒険者。<line-break>迷宮の踏破を古代の英知との知恵比べととらえ、<line-break>そこに人生の喜びを見いだしていた。<line-break>世界でもっとも深きレオニックの迷宮に挑み<line-break>左腕を失う。現在は、ただの酔っぱらい親父。<line-break>独特の言い回しロッシマ弁でしゃべる。<line-break>　<end>"}
+{"section":22,"id":"220086","japanese":"うちには、旅の人が飲みに来ることもよくあるの<line-break>よ。このごろ、「さっきモンスターに出会った、<line-break>ドワーフの国は安全だって聞いてたのに」なんて<line-break>言う旅の人が多くてね。せっかく旅に出たのに、<line-break>そんなこと言わせちゃかわいそうでしょ。<line-break><value:$1A>ギア出すわ。<value:$15>を<line-break>倒してちょうだい。<value:$1B>日以内によろしくね。<end>"}
+{"section":28,"id":"280170","japanese":"<select><value:$20>%3ひっ！<line-break>すいません！　すいません！<line-break>もう、のぞきはしねえよ！<line-break>だから、このことは<line-break>どうか内密に…！<end>おうっ若造！　ムリするなよ！<line-break>名を売る前に死んじまっちゃあ<line-break>意味がねえからな！<line-break>…って、あ、あのときの！<line-break>へ、へへ…。<line-break>黙っててくれてて助かるよ。<end>に、にらむなよ…。<end>"}
+{"section":19,"id":"190049","japanese":"真紅のプレートメイルに身を包み大斧を振り回す<line-break>老傭兵。若いころはバロルと共に戦場を駆けめぐ<line-break>り幾千の功をたてたが、バロルが闇に堕ちると意<line-break>見が衝突し、処刑されかけて出奔する。<line-break>バロル死後にエリュマルク帝に請われ、将軍を<line-break>勤めるも諫言が皇帝の怒りをかい、<line-break>またも処刑されかけて出奔し現在に至る。<line-break>　<end>"}
+{"section":64,"id":"640188","japanese":"<if><value:$29><equal>%0ごめんなさい。実の弟でいらっしゃる<line-break><value:$28>様に向かって。<line-break>　<line-break><value:$28>様は、<line-break>私などより、ずっと<line-break>レムオン様をご存じなはずですね。<end>ごめんなさい。実の妹でいらっしゃる<line-break><value:$28>様に向かって。<line-break>　<line-break><value:$28>様は<line-break>私などよりずっと、<line-break>レムオン様をご存じなはずですね。<end>"}
+{"section":248,"id":"2480006","japanese":"でも、あなたは私とは違う。<line-break>たったひとりぼっちの存在…。<line-break>　<line-break>異分子として奇異の目で見られ、<line-break>疎まれ、遠ざけられるでしょうね。<line-break>　<line-break>世界はたぶんあなたを受け入れられない。<line-break>あなたという異能者を認められるほど、<line-break>まだ世のなかは成熟していないから…。<line-break>そんな世界であなたは生きていけるの？<end>"}
+{"section":271,"id":"2710010","japanese":"君が勝手に選んだ自己犠牲の道が、<line-break>イーシャには理解できなかった。<line-break>それだけのことだよ。<line-break>君にとっての正解が、<line-break>他者にとっても正解とは限らない。<line-break>そうだろ？<line-break>まあ、そもそもこの世に正解なんて<line-break>存在しないんだがね。<line-break>　<line-break>結局、あるのは行動とその結果だけ。<line-break>おわかりかな、ジリオン君？<end>"}
+{"section":7,"id":"70010","japanese":"<select><value:$20>%3ぼくがまだ子供だったころ、うちの爺さんが<line-break>毎夜のように昔話を聞かせてくれたんだ。<line-break>特に英雄伝説が面白かったよ。<end>ぼくも昔話にでてくるような英雄に<line-break>なろうと思っていたけど、<line-break>現実は厳しいものだね。<end>勇者ネメアは現代の英雄だね。<line-break>きっと彼の活躍は何百年たっても<line-break>伝説として語り継がれると思うよ。<end>"}
+{"section":15,"id":"150015","japanese":"<select><value:$20>%2エルズの女王エアは過去だろうが　<line-break>未来だろうが、何でもお見通しの<line-break>水晶球を持っているんだ。<line-break>エアの所まで行くことができれば<line-break>何でも教えてくれるっていうから、<line-break>知りたいことがあれば行ってみな。<end>俺も長いこと船員をやってるけど、<line-break>西の海にだけは行きたくないぜ。<line-break>あそこは魔の海域だからな。<end>"}
+{"section":112,"id":"1120041","japanese":"　　　　私は今まで、このかりそめの生を　　　<line-break>　　　これほど惜しんだことはありません。<line-break>　　あなたにさえ会わなければ、このような<line-break>　　　　切なさは知らずに済んだのに…。<line-break>　　　　　　　さようなら…<line-break>　　　　　私に迷いを与えた人…<line-break>　　　　私の死を苦いものに変えた人…<line-break>　　　　　　　私の大事な人…。<end>"}
+{"section":136,"id":"1360137","japanese":"　　　　　　　　　イオンズ…　　　<line-break>　　　　　憎しみは憎しみしか生まない　　　<line-break>　　　　人間と兄弟たちの憎しみの連鎖を　　　<line-break>　　　　　　　　断ち切ってくれ　　　<line-break>　<line-break>　　　　　　　俺の妹や…弟たちが　　　<line-break>　　　　　　俺のような…幸せな日々を　　　<line-break>　　　　　過ごせる…時代が…来るように…　　　<end>"}
+{"section":186,"id":"1860154","japanese":"<if><value:$29><equal>%0シロウラギリの毒、だと？　　　　<line-break>フリントがか？<line-break>しかし…<line-break>フリントの息子、<line-break><value:$28>といったな。<line-break>ずいぶんと毒に詳しいではないか。<end>シロウラギリの毒、だと？　　　　<line-break>フリントがか？<line-break>しかし…<line-break>フリントの娘、<line-break><value:$28>といったな。<line-break>ずいぶんと毒に詳しいではないか。<end>"}
+{"section":19,"id":"190229","japanese":"闇の神器である禁断の聖杯を盗んだとき、<line-break>その魔力で人語をしゃべるようになった３匹の<line-break>ゴブリンのひとり。人語はしゃべれても、元々<line-break>ゴブリンなのであまり賢くはない。特にオルナ<line-break>ットはゴブゴブ団の中でも最もヌけている。<line-break>ちなみにゴブゴブ団は、ガント、マルーン、<line-break>オルナットの３匹のゴブリンで構成される。<line-break>　<end>"}
+{"section":19,"id":"190284","japanese":"闇の神器である禁断の聖杯を盗んだとき、<line-break>その魔力で人語をしゃべるようになった３匹の<line-break>ゴブリンのひとり。人語はしゃべれても、元々<line-break>ゴブリンなので賢くはない。臆病なくせに虚勢<line-break>を張るタイプ。マルーン、オルナットを率い、<line-break>ゴブゴブ団の団長を務める。首に巻いている<line-break>しゃれたスカーフが彼のチャームポイント。<line-break><end>"}
+{"section":68,"id":"680011","japanese":"<select><value:$20>%3ヒルダリアには悪いが、<line-break>彼女は冒険者の心を理解してない。<line-break>俺たちは海賊じゃない！　冒険者なんだ！<end>生きるためにフゴーの船を襲うのは納得できる。<line-break>だが海賊を中心に活動して、冒険をしないのは<line-break>絶対に納得できぬのだ！<end>キャプテンは偉大な人だった。<line-break>冒険者としても、指導者としても<line-break>尊敬しているよ。<end>"}
+{"section":244,"id":"2440004","japanese":"でも、<value:$28>。<line-break>これだけは覚えておいてください。<line-break>　<line-break>大事なのは過去を知ることではなく、<line-break>未来において何を為し得るかを<line-break>見つけることですよ。<line-break>過去にとらわれるあまり<line-break>未来を見失ってしまっては<line-break>本末転倒です。<line-break>人は過去にではなく、<line-break>未来に向かってしか<line-break>生きられないのですから。<end>"}
+{"section":13,"id":"130003","japanese":"<select><value:$20>%2我々が通貨として使用しているギアは、<line-break>ここドワーフの国で製造されているのだ。<line-break>それゆえ、ここは人間世界から独立している。<line-break>どこかの国が、ここを占領して通貨を<line-break>独占してしまうと問題だからな。<end>ここにはドワーフ専用地下街道がいくつかある。<line-break>そこにいる案内人に頼めば、連れていって<line-break>もらえるはずだ。<end>"}
+{"section":19,"id":"190219","japanese":"かつて、世界の破滅を目論む秘密結社、<line-break>「システィーナの伝導師」の一員であった男。<line-break>エリュマルクに命ぜられたネメアに、姉イズを<line-break>さらわれ、その時、姉を守れなかったことが<line-break>トラウマとなり、闇に降った。<line-break>だが、<value:$28>と出会い、交流を重ねる<line-break>うちに、誰かを大切に思う心を取り戻し、その闇<line-break>を払拭するに至った。<end>"}
+{"section":163,"id":"1630011","japanese":"　　　　分断の山脈を軍隊が越えたのは<line-break>　　　　　　歴史上初の壮挙である。<line-break>　　　　　こうしてディンガル軍は<line-break>　　　　王都ロストールに王手をかけた。<line-break>　　　事ここに及び、ロストール軍総司令<line-break>　　　　ノヴィンは急きょ、軍を反転、<line-break>　　　アンギルダン率いるディンガル軍を<line-break>　　　　　迎え撃つべく、急行した。<end>"}
+{"section":184,"id":"1840140","japanese":"　　　よくぞ、巨人ゲヘナを倒しました。　　　<line-break>　　　　　ありがとうございます。<line-break>　　　お礼に、私が持つ最高の水の力を<line-break>　　　　　あなたに授けましょう。<line-break>　　　　　あなたの魂が魔道を極め、<line-break>　　内なる水が果てなく、湧き出るならば<line-break>　　　　　　このにごりなき水は、<line-break>　　　　きっとあなたを助けるでしょう。<end>"}
+{"section":272,"id":"2720068","japanese":"時々、ふと思うことがある。<line-break>人は大なり小なり、いつも<line-break>決断を迫られている。<line-break>自分の下した判断に満足することも、<line-break>逆に悔やむこともあるだろう。<line-break>　<line-break>その繰り返しの中で人は生きていく。<line-break>…かなうのならば、正しい選択を<line-break>俺は見つけたい。<line-break>イーシャと俺…。<line-break>どちらも悔やむことがない選択を。<end>"}
+{"section":19,"id":"190059","japanese":"真紅のプレートメイルに身を包み大斧を振り回す<line-break>ディンガル帝国の朱雀将軍。<line-break>朱雀軍を率いて、不可能と言われた分断の<line-break>山脈越えを成功させる。この史上初の快挙は、<line-break>アンギルダンの山越えとして史書に記される<line-break>こととなる。しかし、ロストール軍を大敗させて<line-break>油断したところをゼネテスに急襲され、<line-break>朱雀軍は壊滅する。<end>"}
+{"section":59,"id":"590082","japanese":"　ゼネテスはあえてこれを追撃せず、　<line-break>　　こうして、山越えに始まった　　　<line-break>　ディンガルのロストール侵攻戦は、　<line-break>　　失敗という結末で幕を閉じた。　　<line-break>　ゼネテスの声望は一気に高まり、　　<line-break>　奇跡の名将とまで呼ばれたが、　　　<line-break>　この戦いにおけるロストールの　　　<line-break>　被害は、甚大なものであった…。　　<end>"}
+{"section":59,"id":"590086","japanese":"　ゼネテスはあえてこれを追撃せず、　<line-break>　　こうして、山越えに始まった　　　<line-break>　ディンガルのロストール侵攻戦は、　<line-break>　　失敗という結末で幕を閉じた。　　<line-break>　ゼネテスの声望は一気に高まり、　　<line-break>　奇跡の名将とまで呼ばれたが、　　　<line-break>　この戦いにおけるロストールの　　　<line-break>　被害は、甚大なものであった…。　　<end>"}
+{"section":189,"id":"1890168","japanese":"そうさ。人はみんな<line-break>大なり小なり痛みを抱えて<line-break>生きているんだよ。<line-break>姉さんを失った君だけが<line-break>特別だったわけじゃない。<line-break>　<line-break>ただ君は自分の痛みにだけ目を向け<line-break>他人の痛みを知ろうとはしなかった。<line-break>　<line-break><value:$28>に感謝するんだね。<line-break>君の閉ざされていた目を<line-break>真実へと開かせてくれたんだから。<end>"}
+{"section":126,"id":"1260309","japanese":"リベルダムの有力武器商人。<line-break>ロセン王家の血縁者である妻との間に、<line-break>ひとり娘クリュセイスをもつ。<line-break>親友アンティノと共に、ロセン王国を中心とする<line-break>東方国家群とディンガル帝国の間に火種をまき、<line-break>大量の武器を売りつけることで大金を得ている。<line-break>ロストール王国の王妃エリスとも、裏で通じて<line-break>いると噂される死の商人。<end>"}
+{"section":178,"id":"1780002","japanese":"　　このことはロストールにもすぐに報じられ、<line-break>　　貴族、民衆を問わず大きな衝撃を与えたが、<line-break>　　　　もはやそれに対抗する力も持たず、<line-break>　国内はただただ不協和音に包まれるだけだった。<line-break>　その国家としての命を奪いに来るかのように<line-break>　　　　青い死神が率いる大軍の足音が<line-break>　ロストールに向かって迫ってくるのだった…。<end>"}
+{"section":11,"id":"110014","japanese":"<select><value:$20>%4欲しい物は、たくさんあるのに<line-break>金はなし。どれを買えばお得なのか…。<end>戦闘のことを考えると元気の薬と心の水は<line-break>必要だろうな…う～ん、迷っちゃう。<end>ブロークラストも捨てがたいな…<line-break>午睡の羽もけっこう役に立つし。<end>いざ！　というときのために<line-break>恵みの風は買っておくべきかも<line-break>しれないな。でも…う～ん迷うよ。<end>"}
+{"section":21,"id":"210061","japanese":"　　　　　　　ディンガル帝国。<line-break>　　広大な大地、バイアシオン大陸において<line-break>　　　南のロストール王国と肩を並べる<line-break>　　　　　　　北の大国である。<line-break>　　　　その片隅にテラネの町がある。<line-break>　時折旅人が立ち寄る他は、変化のない日々と<line-break>　　　　　緑とが続く、のどかな町。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"}
