@@ -810,7 +810,7 @@ korean = "그, 그게…!<end>"
 
 ["1340203"]
 japanese = "私はディンガル帝国皇帝<line-break>ネメア・ランガスター・ディンガル<line-break>ウルカーン長老シェムハザに告ぐ。<line-break>これ以上の抵抗は無駄だ。<line-break>降伏して束縛の腕輪を渡せば、<line-break>生命の安全は保障しよう。<end>"
-korean = "나는 딘갈 제국 황제 네메아 랑가스터 딘갈이다. 울칸 장로 셰므하자에게 고한다. 더 이상의 저항은 무의미하다. 항복하고 속박의 팔찌를 넘기면 생명의 안전은 보장하겠다.<end>"
+korean = "나는 딘갈 제국 황제 네메아 랑가스터 딘갈이다. 울칸 장로 셈하자에게 고한다. 더 이상의 저항은 무의미하다. 항복하고 속박의 팔찌를 넘기면 생명의 안전은 보장하겠다.<end>"
 
 ["1340204"]
 japanese = "バカな！　マグマゴーレムが全滅！？<line-break>し、信じられぬ！<end>"
@@ -826,11 +826,11 @@ korean = "나는 황제 직속 기사 오이페.<end>"
 
 ["1340207"]
 japanese = "…同じくゼリグ。<end>"
-korean = "…나도 제리그다.<end>"
+korean = "…나도 젤리그다.<end>"
 
 ["1340208"]
 japanese = "同じくドルドラムじゃ。<line-break>ソリアスに使える神官じゃ。<line-break> <line-break>長老シェムハザ殿、いかな大軍も<line-break>寄せつけぬマグマゴーレムも、<line-break>ただ少数の勇者にはかなわなんだな。<end>"
-korean = "나도 돌드람이다. 솔리아스를 섬기는 신관이지. 장로 셰무하자 공, 아무리 대군도 막아내는 마그마 골렘도 소수의 용자에게는 당해내지 못했군.<end>"
+korean = "나도 돌드람이다. 솔리아스를 섬기는 신관이지. 장로 셈하자 공, 아무리 대군도 막아내는 마그마 골렘도 소수의 용자에게는 당해내지 못했군.<end>"
 
 ["1340209"]
 japanese = "マグマゴーレムがあっという間に倒され<line-break>町の者は皆、抵抗する気が失せておる。<line-break>長老、降伏なされ。悪いようにはせん。<end>"
@@ -2354,7 +2354,7 @@ korean = "기다리다 지쳤다! 나의 숙적, 영원한 라이벌이여!<end>
 
 ["1340591"]
 japanese = "<if><value:$01><equal>3なんじゃ、お主は？<line-break>今はそれどころではない！<line-break>どけ。<end><if><value:$01><equal>4きゃっ！<line-break>また、この人！<line-break>かなりおジャマかも！<end><if><value:$01><equal>5おおお！<line-break>テンション高いぜ！<line-break>ソウルが燃えるぜ！<end><if><value:$01><equal>6…ガルドラン！？<end><if><value:$01><equal>13…貴様と遊んでいるヒマはない。<end><if><value:$01><equal>14道を開けるんじゃ！<line-break>おのれと遊んどるヒマなど<line-break>ないわい！<end><if><value:$01><equal>15ガルドラン！<line-break>ジャマしないで。<line-break>今はそれどころじゃないんだ。<end><if><value:$01><equal>17キャー、なによ！　この下等生物！<line-break>高貴なエルフであるこのアタクシの<line-break>ジャマするなんて１００年早くてよぉ！<end><if><value:$01><equal>19ああーっ！　また変なおじさーん！<line-break>ルルアンタたち、急いでるの！<line-break>ジャマしないでよぉ！<end><if><value:$01><equal>20…消えろ。<end><if><value:$01><equal>26なんじゃ、なんじゃ？<line-break>この熱い…というより<line-break>暑苦しいソウルの持ち主は？<end><if><value:$01><equal>11…みっともない男。<end><if><value:$01><equal>27彼はいったい…？<line-break>これも世界の不安を象徴する<line-break>社会のひずみの現れなのだろうか？<end><if><value:$01><equal>192………………。<line-break><line-break><line-break>…暑苦しい。<end><if><value:$01><equal>194うっ。<line-break>…目障りだ。<end><if><value:$01><equal>191…仮装行列ならどいて。<line-break>エリス様が死んだ日にふさわしくない。<end><if><value:$01><equal>190…ガキ、どけよ。<line-break>俺は最高に機嫌が悪いんだ。<end>そこをどいてよ。<line-break>急いでるんだよ。<line-break>ジャマしないでよぉ。<end>"
-korean = "<if><value:$01><equal>3뭐냐, 네놈은? 지금은 그럴 때가 아니다! 비켜.<end><if><value:$01><equal>4꺅! 또 이 사람! 상당히 방해일지도!<end><if><value:$01><equal>5오오오! 텐션 높아진다! 소울이 불타오른다!<end><if><value:$01><equal>6…갈드란!?<end><if><value:$01><equal>13…네놈과 놀아 줄 시간 없다.<end><if><value:$01><equal>14길을 비켜라! 네놈과 놀 시간 따위 없다!<end><if><value:$01><equal>15갈드란! 방해하지 마. 지금은 그럴 때가 아니야.<end><if><value:$01><equal>17꺄ー, 뭐야! 이 하등생물! 고귀한 엘프인 이 몸을 방해하려 하다니 100년은 일러!<end><if><value:$01><equal>19아아ー! 또 이상한 아저씨ー! 루루안타들은 급해! 방해하지 마아!<end><if><value:$01><equal>20…사라져라.<end><if><value:$01><equal>26뭐냐, 뭐야? 이 뜨거운… 아니, 숨 막히게 더운 소울의 주인은?<end><if><value:$01><equal>11…꼴사나운 남자.<end><if><value:$01><equal>27그는 대체…? 이것도 세계의 불안을 상징하는 사회적 뒤틀림의 발현인가?<end><if><value:$01><equal>192………………. …더워.<end><if><value:$01><equal>194욱. …거슬린다.<end><if><value:$01><equal>191…가장행렬이라면 비켜. 엘리스 님이 죽은 날에 어울리지 않아.<end><if><value:$01><equal>190…꼬마, 비켜. 난 지금 기분이 최악이야.<end>거기 비켜 줘. 급하단 말이야. 방해하지 마아.<end>"
+korean = "<if><value:$01><equal>3뭐냐, 네놈은? 지금은 그럴 때가 아니다! 비켜.<end><if><value:$01><equal>4꺅! 또 이 사람! 상당히 방해일지도!<end><if><value:$01><equal>5오오오! 텐션 높아진다! 소울이 불타오른다!<end><if><value:$01><equal>6…갈드란!?<end><if><value:$01><equal>13…네놈과 놀아 줄 시간 없다.<end><if><value:$01><equal>14길을 비켜라! 네놈과 놀 시간 따위 없다!<end><if><value:$01><equal>15갈드란! 방해하지 마. 지금은 그럴 때가 아니야.<end><if><value:$01><equal>17꺄ー, 뭐야! 이 하등생물! 고귀한 엘프인 이 몸을 방해하려 하다니 100년은 일러!<end><if><value:$01><equal>19아아ー! 또 이상한 아저씨ー! 루루안타들은 급해! 방해하지 마아!<end><if><value:$01><equal>20…사라져라.<end><if><value:$01><equal>26뭐냐, 뭐야? 이 뜨거운… 아니, 숨 막히게 더운 소울의 주인은?<end><if><value:$01><equal>11…꼴사나운 남자.<end><if><value:$01><equal>27그는 대체…? 이것도 세계의 불안을 상징하는 사회적 뒤틀림의 발현인가?<end><if><value:$01><equal>192………………. …더워.<end><if><value:$01><equal>194욱. …거슬린다.<end><if><value:$01><equal>191…가장행렬이라면 비켜. 에리스 님이 죽은 날에 어울리지 않아.<end><if><value:$01><equal>190…꼬마, 비켜. 난 지금 기분이 최악이야.<end>거기 비켜 줘. 급하단 말이야. 방해하지 마아.<end>"
 
 ["1340592"]
 japanese = "さあ、未来の勇者の世界観を<line-break>目をつぶって思う存分<line-break>想像するがいい！<end>"
@@ -2446,7 +2446,7 @@ korean = "레몬 님의 요청을 받았습니다. 이번 의거에 참가해 �
 
 ["1340614"]
 japanese = "でも、エリス様やゼネテスさんを<line-break>処刑するなんて…<line-break>それが正しいなんて思えないんです。<end>"
-korean = "하지만 엘리스 님과 제네테스 씨를 처형하다니… 그게 옳다고는 생각할 수 없습니다.<end>"
+korean = "하지만 에리스 님과 제네테스 씨를 처형하다니… 그게 옳다고는 생각할 수 없습니다.<end>"
 
 ["1340615"]
 japanese = "ゼネテス様が！？<end>"
@@ -2490,7 +2490,7 @@ korean = "티아나 님, 무사하셨군요. 저희가 방에 찾아갔을 때 �
 
 ["1340625"]
 japanese = "大丈夫。エリス様に命じられて<line-break>あなたを拘束しに来たと思ったなら、<line-break>それは間違いよ。<line-break>エリス様は、もういらっしゃらない。<line-break>…死んだわ。<line-break>レムオンの兵士に襲われてね。<end>"
-korean = "괜찮아. 엘리스 님의 명령으로 널 구속하러 왔다고 생각했다면 그건 틀렸어. 엘리스 님은 이제 안 계셔. …죽었어. 레몬의 병사들에게 습격당해서.<end>"
+korean = "괜찮아. 에리스 님의 명령으로 널 구속하러 왔다고 생각했다면 그건 틀렸어. 에리스 님은 이제 안 계셔. …죽었어. 레몬의 병사들에게 습격당해서.<end>"
 
 ["1340626"]
 japanese = "し、死んだ？<end>"
@@ -2506,7 +2506,7 @@ korean = "거기에 제네테스가 카를라를 상대로 또 기적 같은 대
 
 ["1340629"]
 japanese = "エリス様は最期に、私どもに<line-break>ティアナ様をお救いするようにと<line-break>申しつけられ…、ご自身は…。<end>"
-korean = "엘리스 님께서는 마지막으로 저희에게 티아나 님을 구하라 명하시고… 본인은….<end>"
+korean = "에리스 님께서는 마지막으로 저희에게 티아나 님을 구하라 명하시고… 본인은….<end>"
 
 ["1340630"]
 japanese = "ゼネテス様も戦場で捕われ、<line-break>今、謁見の間で処刑を待って<line-break>おられます。<end>"
@@ -2522,7 +2522,7 @@ korean = "천년수에 새겨진 신성법에 따르면 반란 귀족들이 제�
 
 ["1340633"]
 japanese = "まもなく、<line-break>ゼネテス様も<line-break>エリス様と同じように…。<end>"
-korean = "곧 제네테스 님도 엘리스 님과 마찬가지로….<end>"
+korean = "곧 제네테스 님도 에리스 님과 마찬가지로….<end>"
 
 ["1340634"]
 japanese = "<value:$28>様！<end>"
@@ -2646,7 +2646,7 @@ korean = "로스토올은 현재 계엄 상태다! 엘리에나이 공이 왕가
 
 ["1340664"]
 japanese = "毒婦エリスはすでに処刑され、<line-break>奸臣ゼネテスも、まもなく処刑される！<line-break><line-break>邪魔するなら貴様も粛正する！<end>"
-korean = "독부 엘리스는 이미 처형됐고, 간신 제네테스도 곧 처형된다! 방해한다면 네놈도 숙청하겠다!<end>"
+korean = "독부 에리스는 이미 처형됐고, 간신 제네테스도 곧 처형된다! 방해한다면 네놈도 숙청하겠다!<end>"
 
 ["1340665"]
 japanese = "よいのですか？<line-break>あれは確かゼネテスの側近、<line-break><value:$28>将軍ですぞ？<end>"
