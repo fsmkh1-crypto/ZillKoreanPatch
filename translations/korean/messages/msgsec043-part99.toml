@@ -528,6 +528,10 @@ korean = "조금 똑똑해진 것 같다. INT가 1 올랐다.<end>"
 japanese = "<value:$28>…、すまぬ。<line-break>急に王宮に行かねばならなくなった。<end>"
 korean = "<value:$28>… 미안하다. 갑자기 왕궁에 가야 하게 됐다.<end>"
 
+["430187"]
+japanese = "これは、<value:$28>様、<line-break>お帰りなさいませ。　　　　　　　<line-break>　<line-break><value:$28>様、<line-break>よろしければ、私めにも<line-break>冒険のお話など聞かせてください。<end>"
+korean = "<value:$28> 님, 어서 오십시오. <value:$28> 님, 괜찮으시다면 제게도 모험 이야기를 들려주시겠습니까.<end>"
+
 ["430188"]
 japanese = "ああ<end>"
 korean = "아아<end>"

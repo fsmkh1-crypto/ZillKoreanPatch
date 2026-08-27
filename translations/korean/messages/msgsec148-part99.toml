@@ -20,6 +20,10 @@ korean = "미사용<end>"
 japanese = "いらっしゃい。<line-break>お待ちしていましたよ。<line-break>　<line-break>私はオルファウス。<line-break>この猫屋敷の主です。<end>"
 korean = "어서 오세요. 기다리고 있었습니다. 저는 오르파우스. 이 고양이 저택의 주인입니다.<end>"
 
+["1480008"]
+japanese = "…そうか、あんたが。<line-break>…おっと、自分のことを名乗るのを<line-break>忘れていたな。<line-break>俺はゼネテス。<line-break>こっちは<value:$28>。<line-break>ふたりとも冒険者だ。<end>"
+korean = "…그런가, 네가. …아차, 내 소개를 잊었군. 난 제네테스. 이쪽은 <value:$28>. 둘 다 모험자다.<end>"
+
 ["1480011"]
 japanese = "どうして、ルルアンタのことを<line-break>知っている？<end>"
 korean = "어떻게 루루안타를 알고 있지?<end>"

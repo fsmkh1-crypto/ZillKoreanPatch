@@ -860,6 +860,10 @@ korean = "우리가 왜 여기 있는지 생각해라. 우리는 각자 돌아�
 japanese = "そりゃそうだけどよお…。<end>"
 korean = "그야 그렇긴 하지만….<end>"
 
+["1420306"]
+japanese = "まあ、そこは、天運の導きに<line-break>従うまでよ。<line-break> <line-break>考えてみれば、これだけの面々が<line-break>集ったのも、ほとんど偶然のような<line-break>もんじゃからな。<end>"
+korean = "뭐, 그건 천운의 이끄심을 따르면 될 일이지. 생각해 보면 이렇게 많은 사람들이 모인 것도 거의 우연 같은 일이니까.<end>"
+
 ["1420307"]
 japanese = "なるほど、<line-break>そう言われればそうだ。<line-break> <line-break>みなずいぶん方々から、<line-break><value:$28>に惹かれて<line-break>やってきたのじゃな。<end>"
 korean = "그렇군, 듣고 보니 그래. 모두 꽤 먼 곳에서 <value:$28>에게 이끌려 온 거구나.<end>"
@@ -1915,6 +1919,10 @@ korean = "우리가 왜 여기 있는지 생각해라. 우리는 각자 돌아�
 ["1420655"]
 japanese = "そりゃそうだけどよお…。<end>"
 korean = "그야 그렇긴 하지만….<end>"
+
+["1420656"]
+japanese = "まあ、そこは、天運の導きに<line-break>従うまでよ。<line-break> <line-break>考えてみれば、これだけの面々が<line-break>集ったのも、ほとんど偶然のような<line-break>もんじゃからな。<end>"
+korean = "뭐, 그건 천운의 이끄심을 따르면 될 일이지. 생각해 보면 이렇게 많은 사람들이 모인 것도 거의 우연 같은 일이니까.<end>"
 
 ["1420657"]
 japanese = "なるほど、<line-break>そう言われればそうだ。<line-break> <line-break>みなずいぶん方々から、<line-break><value:$28>に惹かれて<line-break>やってきたのじゃな。<end>"

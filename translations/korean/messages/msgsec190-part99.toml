@@ -320,6 +320,10 @@ korean = "아, <value:$28> 님.<end>"
 japanese = "<value:$28>様、<line-break>ティアナは不安なのです。　<line-break>　<line-break>今度は<value:$28>様が<line-break>急にいなくなって<line-break>しまうのではないかと…。<end>"
 korean = "<value:$28>님, 티아나는 불안해요. 이번엔 <value:$28>님이 갑자기 사라져 버리는 건 아닐까 하고….<end>"
 
+["1900142"]
+japanese = "<value:$28>様、<line-break>お願いがあります。<line-break>ティアナと約束してください。<line-break><value:$28>様は<line-break>ティアナに何も告げずに<line-break>いなくなったりはしないと。<end>"
+korean = "<value:$28> 님, 부탁이 있습니다. 티아나와 약속해 주세요. <value:$28> 님은 티아나에게 아무 말도 없이 사라지지 않겠다고.<end>"
+
 ["1900143"]
 japanese = "何があっても必ず、<line-break>ティアナの元へ戻ってくると…。<end>"
 korean = "무슨 일이 있어도 반드시 티아나에게 돌아오겠다고….<end>"

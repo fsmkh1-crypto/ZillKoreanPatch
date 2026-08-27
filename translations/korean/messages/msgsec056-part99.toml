@@ -1004,6 +1004,10 @@ korean = "험한 세상이 됐군. 대낮에 당당히 습격하다니. 유감�
 japanese = "うふふ、いらっしゃい？<line-break>何人だって相手してあげるわ。<end>"
 korean = "후후, 어서 와? 몇 명이든 상대해 줄게.<end>"
 
+["560317"]
+japanese = "あ、<value:$28>さん、<line-break>ありがとうございます！　　　　<line-break>　<line-break>わたしも、一日も早く<line-break><value:$28>さんみたいな<line-break>一人前の冒険者になりたいな…。<end>"
+korean = "아, <value:$28> 씨, 감사합니다! 저도 하루빨리 <value:$28> 씨 같은 어엿한 모험자가 되고 싶어요…<end>"
+
 ["560318"]
 japanese = "また、施文院の連中なの？<end>"
 korean = "또 시문원 녀석들이야?<end>"
@@ -1151,6 +1155,10 @@ korean = "그래. 상태는 좋아 보이네. 안심했어. 그럼 난 로센으
 ["560356"]
 japanese = "<value:$28><line-break>そっちの調子はどう？<end>"
 korean = "<value:$28>, 그쪽은 어때?<end>"
+
+["560357"]
+japanese = "その余裕。<line-break>…さすがね。<line-break>カルラ様が目を掛けるわけだわ。<line-break>と、とにかく、あなたがいると<line-break>私も負けていられないって気に<line-break>なるから。<end>"
+korean = "그 여유… 역시 대단하네. 카를라 님이 눈여겨볼 만해. 아, 아무튼 네가 있으면 나도 질 수 없다는 기분이 드니까.<end>"
 
 ["560358"]
 japanese = "それじゃ、お互いがんばりましょう。<end>"
@@ -1303,6 +1311,10 @@ korean = "흥, 훌륭하다. 좋아. 이 벨제바 벨라인, 인류의 혁신�
 ["560412"]
 japanese = "猫屋敷で呼び出すのか。<line-break>なるほど、かの猫屋敷か。<line-break>興味深いな。<line-break>それでは心待ちにしている。<line-break>さらばだ、諸君。<end>"
 korean = "고양이 저택에서 불러내는 건가. 그렇군, 그 고양이 저택인가. 흥미롭군. 그럼 기대하고 있겠다. 잘 있게, 제군들.<end>"
+
+["560413"]
+japanese = "…<value:$28>か。<line-break>やはり、ここで会うことになったな。<line-break> <line-break>運命の女神の書く脚本は陳腐だな。<line-break>あまりにも予定調和だ。<line-break>そうは思わぬか？<end>"
+korean = "…<value:$28>인가. 역시 여기서 만나게 됐군. 운명의 여신이 쓰는 각본은 진부하군. 너무 예정조화적이야. 그렇게 생각하지 않나?<end>"
 
 ["560421"]
 japanese = "デモリッシュを習得した。<end>"
@@ -1475,6 +1487,10 @@ korean = "이제 됐어! 이제 지긋지긋해!<end>"
 ["560513"]
 japanese = "くっ<line-break>こいつ…強すぎる。<line-break>私ひとりでは…<end>"
 korean = "큭, 이 녀석… 너무 강해. 나 혼자서는….<end>"
+
+["560514"]
+japanese = "くっくっく、ディンガルの犬め！<line-break>アンティノ商会製の<line-break>デスギガースはどうだ？<line-break>私を総督にする約束を破ったことを<line-break>今ごろ後悔しても遅いぞ！<end>"
+korean = "크크크, 딘갈의 개들아! 안티노 상회제 데스기가스 맛이 어떠냐? 나를 총독으로 삼겠다는 약속을 어긴 걸 이제 와 후회해도 늦었다!<end>"
 
 ["560517"]
 japanese = "あ、あなた…！<end>"

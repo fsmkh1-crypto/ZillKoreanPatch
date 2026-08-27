@@ -104,6 +104,10 @@ korean = "자, 이제 늦었어. 오늘은 쉬자.<end>"
 japanese = "<value:$28>、<line-break>聞きたいことがある！<end>"
 korean = "<value:$28>, 묻고 싶은 게 있다!<end>"
 
+["1740038"]
+japanese = "やれやれ。<line-break>それが人にものを尋ねるときの<line-break>態度かのう。<end>"
+korean = "원 참. 그게 남에게 뭘 물어볼 때의 태도냐.<end>"
+
 ["1740041"]
 japanese = "行くわ。<end>"
 korean = "갈게.<end>"
@@ -431,6 +435,10 @@ korean = "…나쁘지 않네. 역시 엘프의 장 파르셴 님이라고 해�
 ["1740177"]
 japanese = "ちょっと待って！　　　<line-break>どういうこと！？<line-break>　<line-break>お父さんに向かって<line-break>あのエルフの長<line-break>パルシェンだなんて…。<end>"
 korean = "잠깐만! 무슨 소리야!? 아버지를 두고 저 엘프의 장 파르셴이라니….<end>"
+
+["1740179"]
+japanese = "な、何かいけませんかって…！？<line-break>どうして、今まで隠してたの？<end>"
+korean = "뭐, 뭐가 문제냐니…!? 왜 지금까지 숨기고 있었어?<end>"
 
 ["1740186"]
 japanese = "ああ、すいませんでした。　　　<line-break>　<line-break>　<line-break>話すと、少し長くなるし、<line-break>とても悲しくなると思いますが、<line-break>それでも構いませんか？<end>"

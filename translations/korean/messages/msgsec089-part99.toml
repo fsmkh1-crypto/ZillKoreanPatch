@@ -592,6 +592,10 @@ korean = "케류네이아. 사람은 어떤 때라도 계속 도전해야 하는
 japanese = "<value:$28>！<line-break>あなたまで、そんな！<end>"
 korean = "<value:$28>! 당신까지 그러다니!<end>"
 
+["890257"]
+japanese = "まあまあ…<line-break><value:$28>を<line-break>信じましょう、ケリュネイア。<line-break><value:$28>、<line-break>ザギヴさんを呼び出したいときは<line-break>他の人と同じく転送機ですからね。<end>"
+korean = "자자… <value:$28>을 믿어 봅시다, 케류네이아. <value:$28>, 자기브 씨를 불러내고 싶을 때는 다른 사람들과 마찬가지로 전송기를 쓰면 돼요.<end>"
+
 ["890258"]
 japanese = "ザギヴさんですが、<line-break>とりあえず眠ってもらいました。<end>"
 korean = "자기브 씨는 일단 잠들게 했습니다.<end>"
@@ -731,6 +735,10 @@ korean = "후후후… 이 얼마나 한심한 꼴인가. 내 아이여….<end>
 ["890325"]
 japanese = "クッ！<line-break>貴様の悪趣味ぶりには<line-break>吐き気すら覚える！<line-break>息子の死に際くらい、<line-break>気を利かせられないのか！<end>"
 korean = "큭! 네 악취미에는 구역질까지 난다! 아들이 죽는 순간만큼은 눈치 좀 챌 수 없나!<end>"
+
+["890327"]
+japanese = "貴様が欲しているのは、<line-break>意のままに操れる人形だろう！<line-break> <line-break>恥を知れ！<line-break>貴様は、人類の革新者どころか、<line-break>死肉にたかる金蝿そのものだ！<end>"
+korean = "네가 원하는 건 마음대로 조종할 수 있는 인형이겠지! 부끄러운 줄 알아라! 너는 인류의 혁신자는커녕 썩은 고기에 달라붙는 금파리 그 자체다!<end>"
 
 ["890328"]
 japanese = "フフフ。<line-break>ここへ来て、ウジ虫から金蝿に格上げか。<line-break> <line-break>で、そのとおりだ、と言ったら<line-break>…何なのだ？<end>"

@@ -172,6 +172,10 @@ korean = "그럼 세 분이 하룻밤 묵으시는 걸로 괜찮으시죠?<end>"
 japanese = "そういうことで、頼むゴブ。<end>"
 korean = "그런 거니까, 부탁한다 고브.<end>"
 
+["980104"]
+japanese = "あ、ご主人。すまないゴブが、<line-break>今日の宿泊はキャンセルするゴブ。<line-break>　<line-break>我々も忙しい身ゴブ。<line-break>その辺りの事情をくんでほしいゴブ。<line-break>　<end>"
+korean = "아, 주인장. 미안하지만 오늘 숙박은 취소할 고브. 우리도 바쁜 몸이니 그 사정을 헤아려 줬으면 고브.<end>"
+
 ["980106"]
 japanese = "お待たせしました。<line-break>それではお部屋にご案内…<end>"
 korean = "기다리셨습니다. 그럼 방으로 안내해 드리겠습니다….<end>"

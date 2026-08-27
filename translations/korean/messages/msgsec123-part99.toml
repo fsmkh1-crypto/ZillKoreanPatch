@@ -4,6 +4,10 @@
 japanese = "（ロストールの冒険者ギルドで青年に、<line-break>　城塞都市跡にいる魔物を<line-break>　倒してくれと頼まれた）<line-break>（彼の仲間は、その魔物に殺された<line-break>　らしい）<end>"
 korean = "(로스토올 모험자 길드에서 청년에게 성채도시 터의 마물을 쓰러뜨려 달라는 부탁을 받았다.) (그의 동료는 그 마물에게 살해당한 모양이다.)<end>"
 
+["1230003"]
+japanese = "仇討ちなんて物騒ですね。<line-break>でも、時代錯誤な<line-break>男のロマンを感じます。<line-break><value:$28>様、<line-break>がんばってくださいね。<line-break>私、応援してますから。<end>"
+korean = "복수라니 무시무시하네요. 하지만 시대착오적인 남자의 로망이 느껴져요. <value:$28> 님, 힘내세요. 저, 응원할게요.<end>"
+
 ["1230010"]
 japanese = "私には、その若者の気持ちが<line-break>痛いほどよくわかるわ。<line-break><line-break><value:$28>、<line-break>あなたが行かないのであれば、<line-break>私が城塞都市跡へ行くわ。<end>"
 korean = "나는 그 젊은이의 마음을 뼈저리게 이해해. <value:$28>, 네가 가지 않는다면 내가 성채도시 유적으로 갈게.<end>"

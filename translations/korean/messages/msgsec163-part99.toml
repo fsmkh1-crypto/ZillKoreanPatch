@@ -80,6 +80,10 @@ korean = "<value:$28>, 제법 전공을 세웠구나. 이건 포상이다. 더�
 japanese = "いかにも略奪行為じゃ。<line-break>じゃがな、<value:$28>。<end>"
 korean = "분명 약탈 행위다. 하지만 말이다, <value:$28>.<end>"
 
+["1630046"]
+japanese = "戦争はどのみち血塗られた道よ。<line-break>いかにとりつくろおうともな。<end>"
+korean = "전쟁은 어차피 피로 물든 길이다. 아무리 꾸며도 마찬가지지.<end>"
+
 ["1630048"]
 japanese = "<value:$28>様<line-break>お気持ちはお察しいたします。<line-break>ですが、命令は遂行なさらないと…。<line-break>すでに他の部隊は、<line-break>物資調達に向かっていますよ。<end>"
 korean = "<value:$28>님, 마음은 이해합니다. 하지만 명령은 수행하셔야 합니다…. 이미 다른 부대는 물자 조달에 나섰습니다.<end>"

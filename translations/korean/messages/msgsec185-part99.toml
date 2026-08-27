@@ -116,6 +116,10 @@ korean = "이런, <value:$28>님. 이런 때 오시다니. 무슨 용건이신�
 japanese = "何かな、何かな。<end>"
 korean = "뭘까, 뭘까.<end>"
 
+["1850049"]
+japanese = "なんじゃ…。<line-break>お宝を持ってきたんじゃ<line-break>ないんじゃのぉ。<end>"
+korean = "뭐냐… 보물을 가져온 건 아니구먼.<end>"
+
 ["1850050"]
 japanese = "つまらんのぉ。<end>"
 korean = "재미없구먼.<end>"
@@ -155,6 +159,10 @@ korean = "돌아가 주십시오.<end>"
 ["1850061"]
 japanese = "ふむー。<line-break>見込みがあるのぉ。<end>"
 korean = "흠~. 가능성이 있구나.<end>"
+
+["1850063"]
+japanese = "あとは、<line-break>情報を守るだけの力が<line-break>あるかどうかじゃのぉ。<end>"
+korean = "이제 남은 건 정보를 지킬 힘이 있는지 여부구먼.<end>"
 
 ["1850065"]
 japanese = "むにゅー…。<end>"
