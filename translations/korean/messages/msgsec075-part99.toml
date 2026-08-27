@@ -144,6 +144,10 @@ korean = "중복 미사용: 그럼 공주님. 049: 제가 <value:$28>을 왕궁 
 japanese = "…ホント、冷たい人だね、君って。<line-break>正直、ガッカリだよ。<line-break>　<line-break>フフフ、でも、あの娘なら、<line-break>やってくれそうだな…。<end>"
 korean = "…정말 차가운 사람이네, 너. 솔직히 실망했어. 후후후, 그래도 그 아이라면 해낼 것 같군….<end>"
 
+["750061"]
+japanese = "まあ、また来てよ。<line-break>気が変わるってこともあるだろうしさ。<end>"
+korean = "뭐, 또 와. 마음이 바뀔 수도 있잖아.<end>"
+
 ["750063"]
 japanese = "そうなのですか…。<line-break>…<value:$28>さん、<line-break>どうか、よろしくお願いします。<end>"
 korean = "그렇군요…. …<value:$28> 씨, 부디 잘 부탁드립니다.<end>"
@@ -219,6 +223,10 @@ korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드
 ["750084"]
 japanese = "…ホント、冷たい人だね、君って。<line-break>正直、ガッカリだよ。<line-break>　<line-break>フフフ、でも、あの娘なら、<line-break>やってくれそうだな…。<end>"
 korean = "…정말 차가운 사람이네, 너. 솔직히 실망했어. 후후후, 그래도 그 아이라면 해낼 것 같군….<end>"
+
+["750085"]
+japanese = "まあ、また来てよ。<line-break>気が変わるってこともあるだろうしさ。<end>"
+korean = "뭐, 또 와. 마음이 바뀔 수도 있잖아.<end>"
 
 ["750086"]
 japanese = "アトレイア様、<line-break>あなたの勇者が光を持ってきました。<end>"
@@ -336,6 +344,10 @@ korean = "착한 아이야.<end>"
 japanese = "じゃ、そこには用はないな。<line-break>別の所に行くといい。<line-break>　<line-break>俺はお前が行くまで<line-break>見張ってることにする。<end>"
 korean = "그럼 거긴 볼일 없겠네. 다른 곳으로 가. 나는 네가 갈 때까지 지켜보고 있지.<end>"
 
+["750160"]
+japanese = "言ったはず…ルフレンちゃんと結婚した<line-break>俺様は最強だと！！<end>"
+korean = "말했을 텐데… 루프렌과 결혼한 이 몸은 최강이라고!!<end>"
+
 ["750161"]
 japanese = "これか？　悲しみの王女の<line-break>求めし色惑の瞳とは！？<end>"
 korean = "이건가? 슬픔의 왕녀가 찾던 색혹의 눈동자란 것이!?<end>"
@@ -412,6 +424,10 @@ korean = "감사합니다. 이제… 괜찮아요.<end>"
 japanese = "あ、<value:$28>様<line-break>ようこそいらっしゃいました。<end>"
 korean = "아, <value:$28>님. 어서 오세요.<end>"
 
+["750202"]
+japanese = "そうすると、私はさしずめ<line-break>闇の王女でしょうか。<line-break>　<end>"
+korean = "그렇다면 나는 말하자면 어둠의 왕녀일까요.<end>"
+
 ["750203"]
 japanese = "そんなことは言わない方がいい<end>"
 korean = "그런 말은 하지 않는 편이 좋아<end>"
@@ -483,6 +499,10 @@ korean = "여, <value:$28>. 다시 만날 줄 알았어.<end>"
 ["750234"]
 japanese = "<value:$28>様……。<line-break>………………。<line-break>いえ、なんでもありません。<line-break>退屈な部屋でしょうが<line-break>ゆっくりしていってください…。<end>"
 korean = "<value:$28>님……. …아니요, 아무것도 아닙니다. 지루한 방이겠지만 편히 쉬다 가세요….<end>"
+
+["750235"]
+japanese = "…これは、予備メッセージ１０…。<line-break>アトレイア、Ｖ１です。<end>"
+korean = "…이건 예비 메시지 10…. 아트레이아, V1입니다.<end>"
 
 ["750236"]
 japanese = "アトレイア　ボリューム１～終了<end>"

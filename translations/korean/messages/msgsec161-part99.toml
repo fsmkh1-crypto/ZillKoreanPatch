@@ -48,6 +48,10 @@ korean = "맡겨<end>"
 japanese = "自分でやれ<end>"
 korean = "네가 직접 해<end>"
 
+["1610021"]
+japanese = "あら、頼もしいのね。<line-break>それじゃ、お願いしようかしら。　　　<line-break>　<line-break>報酬は仕事が終わったらお渡しするわ。<line-break>頑張って魔物を追い出してね。<end>"
+korean = "어머, 든든하네. 그럼 부탁할게. 보수는 일이 끝나면 줄게. 힘내서 마물을 쫓아내 줘.<end>"
+
 ["1610025"]
 japanese = "あ、あああ、あんた、<line-break>あの<value:$28>か？<end>"
 korean = "아, 아아, 당신… 그 <value:$28>인가?<end>"

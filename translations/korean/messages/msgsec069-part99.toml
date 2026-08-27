@@ -148,6 +148,10 @@ korean = "그럼 적당히 뭔가 가져와 줬으면 한다 고브.<end>"
 japanese = "あ、<value:$28>、<line-break>ここにいたの。<end>"
 korean = "아, <value:$28>, 여기 있었구나.<end>"
 
+["690096"]
+japanese = "あーっ！　あんたたち！<line-break>いいかげん、聖杯を返しなさいよ！<end>"
+korean = "아! 너희들! 이제 그만 성배를 돌려줘!<end>"
+
 ["690098"]
 japanese = "なぜゴブ！　なぜ、ガサツ女は<line-break>現れないゴブ！！<end>"
 korean = "왜 고브! 왜 거친 여자는 나타나지 않는 고브!!<end>"
@@ -179,6 +183,10 @@ korean = "단장! 저 녀석 고브!<end>"
 ["690116"]
 japanese = "む、勝敗は兵家の常。<line-break>ゴブゴブ団、退却ゴブ！<end>"
 korean = "흥, 승패는 병가의 상사. 고브고브단, 후퇴 고브!<end>"
+
+["690120"]
+japanese = "団長！　別に、自分だけが<line-break>やられたわけではないゴブよ～。<end>"
+korean = "단장! 단장만 당한 건 아니잖아 고브~.<end>"
 
 ["690125"]
 japanese = "ともに怪物を倒しましょう。<line-break>いかがですか？<end>"

@@ -68,6 +68,10 @@ korean = "…간다!<end>"
 japanese = "サイフォス！！<end>"
 korean = "사이포스!!<end>"
 
+["730035"]
+japanese = "…転移すら、<line-break>もはや使えないほど<line-break>弱っているのか。<end>"
+korean = "…전이조차 이제 쓸 수 없을 만큼 약해진 건가.<end>"
+
 ["730036"]
 japanese = "地獄までも追うと言ったはずだ。<line-break>…情けなど、かけん。<line-break>　<line-break>行くぞ。<line-break>月光の導くままに！<end>"
 korean = "지옥까지 쫓겠다고 했지. …자비는 없다. 가자. 월광이 이끄는 대로!<end>"
@@ -235,6 +239,10 @@ korean = "(형…)<end>"
 ["730108"]
 japanese = "これで…<line-break>永遠に…<line-break>あなたの…かたわらに…。<end>"
 korean = "이제… 영원히… 당신의… 곁에….<end>"
+
+["730110"]
+japanese = "…行け。<line-break>俺の旅は終わった。<line-break>…それだけのことだ。<end>"
+korean = "…가라. 내 여행은 끝났다. …그뿐이다.<end>"
 
 ["730111"]
 japanese = "行け！<end>"

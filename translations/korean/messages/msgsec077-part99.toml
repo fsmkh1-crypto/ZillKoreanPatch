@@ -168,6 +168,10 @@ korean = "그러는 게 좋아요. 그쪽이 훨씬 빛나 보여요.<end>"
 japanese = "いいんです。<end>"
 korean = "괜찮습니다.<end>"
 
+["770070"]
+japanese = "…あんなにほめられたのは、<line-break>生まれて初めてでしたから…。<end>"
+korean = "…그렇게 칭찬받은 건 태어나서 처음이었으니까요….<end>"
+
 ["770071"]
 japanese = "おもしろい模様…。<end>"
 korean = "재미있는 무늬….<end>"
@@ -199,6 +203,10 @@ korean = "체리… 주스. 그럼 이쪽에는 뭐라고 적혀 있나요?<end>
 ["770081"]
 japanese = "まぁ、おいしそう。<end>"
 korean = "어머, 맛있겠네.<end>"
+
+["770083"]
+japanese = "いえ、待ってください。<line-break>これはなんて書いてあるのかしら？<end>"
+korean = "아니, 잠깐만요. 이건 뭐라고 쓰여 있는 걸까요?<end>"
 
 ["770086"]
 japanese = "へへへ…。<line-break>おもしれえ姉ちゃんだ。<line-break>どれ、俺が教えてやるぜ。　　　　<line-break>この店で食うんなら、これだ。<line-break>スライムのあんかけ。<end>"

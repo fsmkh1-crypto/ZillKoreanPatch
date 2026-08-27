@@ -432,6 +432,10 @@ korean = "그래서 모두 죽여 버렸어.<end>"
 japanese = "！<end>"
 korean = "！<end>"
 
+["1370264"]
+japanese = "そうそう、あなた、<line-break>ウソをついていたでしょう？<line-break>知りませんだなんて。<line-break>くすくす、あれ、<line-break>あなたのおうちにあるんじゃない。<line-break>　<end>"
+korean = "맞다, 당신 거짓말했죠? 모른다니. 후후, 그거 당신 집에 있잖아요.<end>"
+
 ["1370267"]
 japanese = "<value:$28>、<line-break>ここを離れるんだ。<line-break>村人を避難させてくれ。<end>"
 korean = "<value:$28>, 여길 떠나. 마을 사람들을 대피시켜 줘.<end>"
@@ -764,6 +768,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["1370447"]
+japanese = "まあ、いわば冒険者たちの<line-break>事務所みてえなもんだよな。<line-break><line-break>ここで受けた依頼をこなして、<line-break>冒険者は日々のかてを<line-break>得るってわけだ。<end>"
+korean = "뭐, 말하자면 모험자들의 사무소 같은 거지. 여기서 받은 의뢰를 해내면서 모험자들은 하루하루 먹고사는 거야.<end>"
+
 ["1370448"]
 japanese = "お、根本的な質問だな。<end>"
 korean = "오, 근본적인 질문이군.<end>"
@@ -879,6 +887,10 @@ korean = "선생님, 질문이 있습니다!<end>"
 ["1370522"]
 japanese = "おう、なんだ。<end>"
 korean = "어, 왜.<end>"
+
+["1370523"]
+japanese = "魔道士系のウォーロックを宿していては<line-break>剣での攻撃力は<line-break>あまり伸びないはずであります。<line-break>しかし、<line-break>剣では倒すのが難しい敵もおります。<end>"
+korean = "마도사 계통의 워록을 품고 있으면 검 공격력은 그다지 늘지 않을 겁니다. 하지만 검으로 쓰러뜨리기 어려운 적도 있습니다.<end>"
 
 ["1370525"]
 japanese = "いい質問だな。<end>"

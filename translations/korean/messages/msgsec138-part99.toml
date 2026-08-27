@@ -80,6 +80,10 @@ korean = "냐…. ………………<end>"
 japanese = "どうしたの？<line-break>私の顔に何かついてる？<end>"
 korean = "왜 그래? 내 얼굴에 뭐 묻었어?<end>"
 
+["1380032"]
+japanese = "<value:$28>さん…この猫さん、<line-break>何か言いたげに見えませんか？<line-break> <line-break>何かこう、猫さんの瞳に、<line-break>訴えかけてくるものを<line-break>感じるような…。<end>"
+korean = "<value:$28>님… 이 고양이, 뭔가 말하고 싶은 것 같지 않나요? 눈빛에서 뭔가 호소하는 느낌이….<end>"
+
 ["1380033"]
 japanese = "…な、なーん。<end>"
 korean = "…나, 냥.<end>"
@@ -319,6 +323,10 @@ korean = "조금만 더 참아<end>"
 ["1380196"]
 japanese = "ある意味ここが…<end>"
 korean = "어떤 의미에선 여기가…<end>"
+
+["1380197"]
+japanese = "うそくさいわ。　　　　　　　　　<line-break><line-break><line-break>最初に言ったと思うけれど、<line-break>エルフのアタクシが知らないような<line-break>驚異と神秘の世界なんて、<end>"
+korean = "수상하네. 처음에도 말했지만 엘프인 내가 모르는 경이와 신비의 세계라니….<end>"
 
 ["1380198"]
 japanese = "そうそう転がってやしないんだから！<end>"

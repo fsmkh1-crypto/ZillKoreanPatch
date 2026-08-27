@@ -132,6 +132,10 @@ korean = "<value:$28>, 무슨 일이야?<end>"
 japanese = "ティアナか？<end>"
 korean = "티아나인가?<end>"
 
+["670053"]
+japanese = "フッ、お前は王宮の事情に<line-break>うといから、からかわれたのだ。<end>"
+korean = "흥, 넌 왕궁 사정에 어두우니까 놀림받은 거다.<end>"
+
 ["670054"]
 japanese = "ゼネテスさん！<end>"
 korean = "제네테스 씨!<end>"
@@ -243,6 +247,10 @@ korean = "다정한 노래 고맙구나.<end>"
 ["670090"]
 japanese = "…帰りましょう。<end>"
 korean = "…돌아가죠.<end>"
+
+["670091"]
+japanese = "隠し通路から出てきたのですもの。<line-break>正面からは帰れません。<end>"
+korean = "비밀 통로로 나왔으니 정면으로 돌아갈 순 없습니다.<end>"
 
 ["670092"]
 japanese = "私の部屋はこちらでは<line-break>なかったはずです。<end>"

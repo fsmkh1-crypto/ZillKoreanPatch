@@ -204,6 +204,10 @@ korean = "여어, <value:$28>. 방해 좀 해도 될까?<end>"
 japanese = "いやー、きれいだわ。<line-break>セラちゃんは、もう。　<line-break>　<line-break>きゃー、セラ様ー！<line-break>って感じかな。<line-break>いやー、かっこいいわ。<end>"
 korean = "이야, 예쁘네. 세라는 정말. 꺄아, 세라 님~! 이런 느낌인가. 이야, 멋있다.<end>"
 
+["700214"]
+japanese = "おんやー？　あたしが彼ばっかり<line-break>ほめるから、すねちった？<end>"
+korean = "어라~? 내가 그 사람만 칭찬하니까 삐친 거야?<end>"
+
 ["700218"]
 japanese = "イックショイ！！　ちくしょ！<line-break>うー、夜はさぶいやね～。<line-break>中、入んね？　<value:$28>。<end>"
 korean = "에취!! 젠장! 으으, 밤은 춥네~. 안에 들어갈래, <value:$28>?<end>"
@@ -292,9 +296,49 @@ korean = "여어, 별이라도 보고 있나? <value:$28>.<end>"
 japanese = "星空もきれいだけど<line-break>セラの奴もきれいだよな。<end>"
 korean = "별하늘도 예쁘지만 세라도 예쁘지.<end>"
 
+["700274"]
+japanese = "ねえ、セラとアーギルシャイアの<line-break>関係って、なんだと思う？<end>"
+korean = "있지, 세라와 아기르샤이아는 무슨 관계라고 생각해?<end>"
+
 ["700276"]
 japanese = "ま、そこがいいところかも<line-break>しれないんだけどね。<end>"
 korean = "뭐, 그런 점이 좋은 걸지도 모르겠지만.<end>"
+
+["700281"]
+japanese = "予備メッセージ１<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 1 아기르샤이아, 볼륨 1 그 2<end>"
+
+["700282"]
+japanese = "予備メッセージ２<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 2 아기르샤이아, 볼륨 1 그 2<end>"
+
+["700283"]
+japanese = "予備メッセージ３<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 3 아기르샤이아, 볼륨 1 그 2<end>"
+
+["700284"]
+japanese = "予備メッセージ４<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 4 아기르샤이아, 볼륨 1 그 2<end>"
+
+["700285"]
+japanese = "予備メッセージ５<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 5 아기르샤이아, 볼륨 1 그 2<end>"
+
+["700286"]
+japanese = "予備メッセージ６<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 6 아기르샤이아, 볼륨 1 그 2<end>"
+
+["700287"]
+japanese = "予備メッセージ７<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 7 아기르샤이아, 볼륨 1 그 2<end>"
+
+["700288"]
+japanese = "予備メッセージ８<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 8 아기르샤이아, 볼륨 1 그 2<end>"
+
+["700289"]
+japanese = "予備メッセージ９<line-break>アーギルシャイア、ボリューム１、その２<end>"
+korean = "예비 메시지 9 아기르샤이아, 볼륨 1 그 2<end>"
 
 ["700291"]
 japanese = "アーギルシャイアメッセージVOL1-2終端<end>"
