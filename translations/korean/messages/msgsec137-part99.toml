@@ -464,6 +464,10 @@ korean = "앗, <value:$28> 님이시군.<end>"
 japanese = "<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"
 korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님께 줄게.<end>"
 
+["1370248"]
+japanese = "…ロイはお前を逃がすために、<line-break>村人を逃がすよう言ったのだぞ。<end>"
+korean = "…로이는 널 도망치게 하려고 마을 사람들을 피신시키라고 한 거다.<end>"
+
 ["1370249"]
 japanese = "ロイは死を覚悟している。<line-break>…奴のことなら、わかる。<end>"
 korean = "로이는 죽음을 각오하고 있다. …녀석이라면 알아.<end>"
@@ -680,6 +684,10 @@ korean = "세라라는 남자를 따라간다<end>"
 japanese = "セラという男は信用できない<end>"
 korean = "세라라는 남자는 믿을 수 없다<end>"
 
+["1370344"]
+japanese = "ついてくるなら、<line-break>それもいいだろう。<line-break>面倒は見んがな。<end>"
+korean = "따라오겠다면 그것도 좋겠지. 돌봐 주진 않겠지만.<end>"
+
 ["1370345"]
 japanese = "ロイのあとを<line-break>追いかける気はないのか？<end>"
 korean = "로이를 뒤쫓을 생각은 없나?<end>"
@@ -687,6 +695,10 @@ korean = "로이를 뒤쫓을 생각은 없나?<end>"
 ["1370346"]
 japanese = "俺に不信があるなら<line-break>いずれ答えてやる。<line-break>ただし、それは今ではない。<line-break>今、俺は急ぐ。<end>"
 korean = "나를 못 믿겠다면 언젠가 답해 주지. 하지만 지금은 아니다. 지금 나는 서둘러야 한다.<end>"
+
+["1370348"]
+japanese = "アーギルシャイアは<line-break>俺の大事なものを奪った…。　　<line-break>　<line-break>俺は強くなる、<line-break>…どんな手段を使ってもな。<line-break>そして、俺のすべてを取り戻す。<end>"
+korean = "아기르샤이아는 내 소중한 것을 빼앗았다…. 난 강해질 거다, …무슨 수를 써서라도. 그리고 내 모든 것을 되찾는다.<end>"
 
 ["1370350"]
 japanese = "追加メッセージここから<end>"
@@ -739,6 +751,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1370378"]
 japanese = "幻術計振れておらず<line-break>犯罪登録当てはまらず。<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"
 korean = "환술계 수치도 없고 범죄 등록에도 해당하지 않는군. 축하해. 너도 모험자로 등록됐어.<end>"
+
+["1370380"]
+japanese = "仕事をこなしながら、<line-break>強くなることだ。<line-break>弱いやつは邪魔なだけだからな。<line-break>仕事の選択は、お前に任せる。<line-break>では、町を出るときに合流しよう。<end>"
+korean = "일을 해내면서 강해져라. 약한 녀석은 방해만 되니까. 어떤 일을 고를지는 네게 맡긴다. 그럼 마을을 나갈 때 합류하지.<end>"
 
 ["1370382"]
 japanese = "追加メッセージここから<end>"

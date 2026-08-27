@@ -4,6 +4,10 @@
 japanese = "ＺｉｌｌＯ’ｌｌ　エンディング２メッセージ開始<end>"
 korean = "Zill O'll 엔딩 2 메시지 시작<end>"
 
+["1930001"]
+japanese = "そうですか。あの子と共に、<line-break>この海の向こうを目指しますか。<end>"
+korean = "그렇습니까. 그 아이와 함께 이 바다 너머를 향하시겠습니까.<end>"
+
 ["1930003"]
 japanese = "いや、ひょっとしたら、　　　<line-break>あの子が<value:$28>の旅に<line-break>　<line-break>ついていくということなのかも<line-break>しれませんね。<end>"
 korean = "아니, 어쩌면 그 아이가 <value:$28>의 여행에 따라간다는 뜻일지도 모르겠군요.<end>"
@@ -19,6 +23,10 @@ korean = "그래. 한나는 잘 알고 있구나.<end>"
 ["1930012"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
+
+["1930013"]
+japanese = "ところで、ゼネさん、<line-break>あんたこんなところにいていいのかい？<end>"
+korean = "그런데 제네 씨, 이런 데 있어도 괜찮아?<end>"
 
 ["1930016"]
 japanese = "よし、決まりだ！<line-break>行こうぜ、<value:$28>。<end>"

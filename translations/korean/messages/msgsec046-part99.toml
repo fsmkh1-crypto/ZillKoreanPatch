@@ -80,6 +80,10 @@ korean = "정말?<end>"
 japanese = "ああ、奴の口から聞いた。<line-break>ところで、<value:$28>…。<end>"
 korean = "그래, 녀석 입으로 들었다. 그런데 <value:$28>….<end>"
 
+["460048"]
+japanese = "俺も仲間に加えてくれ、<line-break>俺、お前らと一緒に旅がしたいんだ。<end>"
+korean = "나도 동료로 넣어 줘. 나, 너희와 함께 여행하고 싶어.<end>"
+
 ["460049"]
 japanese = "…<value:$28>！<line-break>ヴァンには宿屋が…。<end>"
 korean = "…<value:$28>! 반에게는 여관이….<end>"
@@ -443,6 +447,10 @@ korean = "아니, 틀려<end>"
 ["460232"]
 japanese = "ディードの使い方はわかっと～るのね。<end>"
 korean = "디드 사용법은 알고 있겠지.<end>"
+
+["460237"]
+japanese = "そ～れじゃ、ロジクーニンの豆知識を　<line-break>ひ～とつ披露するのね。<end>"
+korean = "그럼 로지쿠닌의 잡지식 하나를 알려 주지.<end>"
 
 ["460242"]
 japanese = "じゃ、中に入ろうか。<line-break><value:$28>。<end>"

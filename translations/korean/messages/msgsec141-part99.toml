@@ -24,6 +24,10 @@ korean = "카핀, 아이를 놀리면 안 돼.<end>"
 japanese = "何よ、あんただって…<end>"
 korean = "뭐야, 너도…<end>"
 
+["1410010"]
+japanese = "な、何よ。<line-break>そんなに露骨に<line-break>あとずさらなくったって…<end>"
+korean = "뭐, 뭐야. 그렇게 노골적으로 뒤로 물러날 것까진 없잖아….<end>"
+
 ["1410011"]
 japanese = "違う。<line-break>もうひとり、客が来た。<end>"
 korean = "아니야. 손님이 한 명 더 왔어.<end>"
@@ -527,6 +531,10 @@ korean = "언제까지나 당신과 함께 있는 건 서로에게 좋지 않다
 ["1410210"]
 japanese = "　　　　ナーシェスもいなくなって、　　　　　<line-break>　　　　パーティーを解散するのに<line-break>　　　今がちょうどいい頃合いでしょ？<line-break>　<end>"
 korean = "나셰스도 없어졌고, 파티를 해산하기엔 지금이 딱 좋은 때잖아?<end>"
+
+["1410215"]
+japanese = "どうしてなんだろう…。<line-break>やっぱり、わたしがドジだから<line-break>みんな嫌いになっちゃったのかな…。<line-break>わたし、これから<line-break>どうしたらいいんだろう…。<end>"
+korean = "왜 그런 걸까…. 역시 내가 덤벙대서 다들 날 싫어하게 된 걸까…. 나, 이제 어떻게 해야 하지….<end>"
 
 ["1410216"]
 japanese = "え？　わたしを<line-break>連れていってくれるんですか？<end>"
