@@ -8,6 +8,10 @@ korean = "갈드란 볼륨 2 시작<end>"
 japanese = "おや、あ～んた、な～んとか君じゃね。<end>"
 korean = "어이쿠, 자네 그 뭐시기 군 아닌가.<end>"
 
+["470004"]
+japanese = "あんた、こ～こには、<line-break>ディードの説明を聞きに来たんじゃね。<end>"
+korean = "당신, 여기에 디드 설명을 들으러 온 거지?<end>"
+
 ["470005"]
 japanese = "その通り<end>"
 korean = "맞아<end>"
@@ -68,6 +72,10 @@ korean = "정말?<end>"
 japanese = "ああ、本当だって。<line-break>ところで、<value:$28>…。<end>"
 korean = "그래, 정말이라니까. 그런데 <value:$28>….<end>"
 
+["470037"]
+japanese = "俺も仲間に加えてくれ、<line-break>俺、お前らと一緒に旅がしたいんだ。<end>"
+korean = "나도 동료로 넣어 줘. 나, 너희와 함께 여행하고 싶어.<end>"
+
 ["470038"]
 japanese = "…<value:$28>！<line-break>ヴァンには宿屋が…。<end>"
 korean = "…<value:$28>! 반에게는 여관이….<end>"
@@ -79,6 +87,10 @@ korean = "괜찮아, 괜찮아. 그럼 잘 부탁해, <value:$28>.<end>"
 ["470040"]
 japanese = "ねえ、本当にガルドランを<line-break>放っておいていいのかなあ。<end>"
 korean = "있지, 정말 갈드란을 그냥 내버려 둬도 되는 걸까?<end>"
+
+["470041"]
+japanese = "いいさ。あいつの熱き魂とやらで<line-break>なんとかするだろ。行こうぜ。<end>"
+korean = "됐어. 그 녀석의 뜨거운 영혼인가 뭔가로 어떻게든 하겠지. 가자.<end>"
 
 ["470042"]
 japanese = "じゃ、俺はこいつの面倒みるから。<line-break>あとで、一緒にな。<end>"

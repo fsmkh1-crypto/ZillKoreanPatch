@@ -124,6 +124,14 @@ korean = "네, 그렇습니까 하고 순순히 내줄 수는 없지. 이쪽도 
 japanese = "あばよ、とっつぁん、<line-break>そして<value:$28>！<line-break>生きて、また会おうぜ！<end>"
 korean = "잘 있어, 아저씨, 그리고 <value:$28>! 살아서 다시 만나자!<end>"
 
+["1630066"]
+japanese = "ほう…。<line-break>ここまでたどり着いてくるとは<line-break>やるな…。<end>"
+korean = "호오…. 여기까지 도착하다니 제법이군….<end>"
+
+["1630069"]
+japanese = "心配するな！　ノーブル伯！<line-break>叔母貴には黙っておくからな！<end>"
+korean = "걱정 마라! 노블 백작! 숙모에게는 비밀로 해 둘 테니까!<end>"
+
 ["1630070"]
 japanese = "フフ、さすがはゼネテスよ…。<line-break>やりおる。<end>"
 korean = "후후, 역시 제네테스군…. 제법이야.<end>"
@@ -159,6 +167,10 @@ korean = "적 약탈 부대의 위치를 알아냈습니다!<end>"
 ["1630085"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1630086"]
+japanese = "…じゃあな、とっつぁん。<line-break>あの世で、いつか飲み明かそうぜ。<end>"
+korean = "…잘 가라, 영감. 저세상에서 언젠가 밤새 술이나 마시자고.<end>"
 
 ["1630087"]
 japanese = "　敗残兵を驚くべき早さで立て直した　<line-break>　　　ゼネテスの奇襲により、<line-break>　アンギルダンが討ち取られると、<line-break>　　帝国軍は総崩れとなった。<end>"
@@ -212,6 +224,10 @@ korean = "이, 이건! 본대는 대체!?<end>"
 japanese = "おお、<value:$28>！！<line-break>お主もこの戦いに参加しておったか。<end>"
 korean = "오, <value:$28>!! 너도 이 싸움에 참가하고 있었나.<end>"
 
+["1630114"]
+japanese = "わしより先にここにたどり着くとは。<line-break>なかなかやりおるわ。<end>"
+korean = "나보다 먼저 여기까지 도착하다니. 제법이구나.<end>"
+
 ["1630115"]
 japanese = "おお、<value:$28>！！<line-break>お主もこの戦いに参加しておったか。<end>"
 korean = "오, <value:$28>!! 너도 이 싸움에 참가하고 있었나.<end>"
@@ -236,6 +252,10 @@ korean = "저, 적습이다!<end>"
 japanese = "敵だと！？<line-break>どういうことだ！<end>"
 korean = "적이라고!? 무슨 소리야!<end>"
 
+["1630125"]
+japanese = "傭兵部隊、出撃だ！<line-break>アンギルダン様をお救いするのだ！！<end>"
+korean = "용병 부대, 출격이다! 앙길단 님을 구해라!!<end>"
+
 ["1630126"]
 japanese = "将軍！　ご無事でしたか。<end>"
 korean = "장군! 무사하셨습니까.<end>"
@@ -259,6 +279,10 @@ korean = "디버그용입니다~. 지우는 거 잊지 마세요~.<end>"
 ["1630140"]
 japanese = "これは騎士の証である盾じゃ。<line-break>受け取るがよい。<end>"
 korean = "이건 기사의 증표인 방패다. 받아라.<end>"
+
+["1630141"]
+japanese = "　　　ロストール攻略軍　　<line-break>朱雀将軍　アンギルダンの本陣<end>"
+korean = "로스토올 공략군 주작 장군 앙길단의 본진<end>"
 
 ["1630142"]
 japanese = "　　ロストール攻略軍<line-break>朱雀軍副将<value:$28>の陣<end>"

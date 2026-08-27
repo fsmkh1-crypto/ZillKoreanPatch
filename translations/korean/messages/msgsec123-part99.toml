@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1230000"]
+japanese = "（ロストールの冒険者ギルドで青年に、<line-break>　城塞都市跡にいる魔物を<line-break>　倒してくれと頼まれた）<line-break>（彼の仲間は、その魔物に殺された<line-break>　らしい）<end>"
+korean = "(로스토올 모험자 길드에서 청년에게 성채도시 터의 마물을 쓰러뜨려 달라는 부탁을 받았다.) (그의 동료는 그 마물에게 살해당한 모양이다.)<end>"
+
 ["1230010"]
 japanese = "私には、その若者の気持ちが<line-break>痛いほどよくわかるわ。<line-break><line-break><value:$28>、<line-break>あなたが行かないのであれば、<line-break>私が城塞都市跡へ行くわ。<end>"
 korean = "나는 그 젊은이의 마음을 뼈저리게 이해해. <value:$28>, 네가 가지 않는다면 내가 성채도시 유적으로 갈게.<end>"
@@ -48,6 +52,10 @@ korean = "그 아이 말로는 봉황산에 진짜 봉황이 내려앉았다는 
 japanese = "鳳凰山の鳳凰、ヴィアも見てみたいな！<line-break>絶対ヴィアも連れてってよ、<line-break><value:$28>！<end>"
 korean = "봉황산의 봉황, 비아도 보고 싶어! 꼭 비아도 데려가 줘, <value:$28>!<end>"
 
+["1230091"]
+japanese = "俺はあの子の言葉を信じる。<line-break>お前も信じているんだろ、<line-break><value:$28>。<line-break>さあ鳳凰を探しに鳳凰山に行くぞ。<line-break>あの子を嘘つきにしないためにな。<end>"
+korean = "난 그 아이의 말을 믿어. 너도 믿고 있잖아, <value:$28>. 자, 봉황을 찾으러 봉황산에 가자. 그 아이를 거짓말쟁이로 만들지 않기 위해서.<end>"
+
 ["1230094"]
 japanese = "優しいですね、<value:$28>さん。<line-break>あの子の依頼を引き受けるなんて。<line-break>信じているんですね、あの子の言葉を。<end>"
 korean = "상냥하시네요, <value:$28>님. 그 아이의 의뢰를 맡다니. 그 아이의 말을 믿고 계시는군요.<end>"
@@ -60,6 +68,10 @@ korean = "그 수정이 목걸이에 반응한다고? 그렇다면 에스텔이 
 japanese = "お前は、広大な砂漠のなかから<line-break>ちっぽけな首飾りを探すと<line-break>いうのか？<line-break>…あきれたお人好しだ。<end>"
 korean = "넌 이 광대한 사막에서 조그만 목걸이를 찾겠다는 거냐? …기가 막힐 만큼 착한 사람이군.<end>"
 
+["1230113"]
+japanese = "砂漠でサバをさばく！<line-break>エステルの首飾りを<line-break>え！　捨てる？<line-break>猛暑の砂漠をも涼しくする<line-break>拙者のダジャレ、<line-break>いかかでござるかな？<end>"
+korean = "사막에서 고등어를 손질한다! 에스텔의 목걸이를 어! 버린다고? 폭염의 사막도 시원하게 할 소인의 말장난, 어떠신가?<end>"
+
 ["1230115"]
 japanese = "………………。<line-break><line-break><line-break>興味がない。<end>"
 korean = "………………. 관심 없어.<end>"
@@ -67,6 +79,10 @@ korean = "………………. 관심 없어.<end>"
 ["1230123"]
 japanese = "不思議だな。<line-break>その水晶と首飾りが<line-break>反応し合うのか。<line-break>とりあえず<line-break>砂漠で首飾りを見つけて<line-break>あの娘に届けてやろう。<end>"
 korean = "신기하군. 그 수정과 목걸이가 서로 반응하는 건가. 일단 사막에서 목걸이를 찾아 그 아이에게 가져다주자.<end>"
+
+["1230137"]
+japanese = "姉ちゃん、この荷物の中身、<line-break>何だと思う？<line-break>差出人の名前がないのが気になるだろ？<line-break>振った時の音からして、<line-break>液体なのは確かなんだけどな。<end>"
+korean = "누나, 이 짐 안에 뭐가 들었다고 생각해? 발신인 이름이 없는 게 신경 쓰이지? 흔들었을 때 소리로 봐선 액체인 건 확실한데.<end>"
 
 ["1230147"]
 japanese = "………………。<line-break><line-break><line-break>居住区は時計台広場の先だ。<end>"
@@ -84,6 +100,10 @@ korean = "한나의 인형 보게 한나의 인형 보게 한나의 인형 보�
 japanese = "………………。<line-break><line-break><line-break>王女に返してもらえ。<end>"
 korean = "………………. 왕녀에게 돌려받아라.<end>"
 
+["1230187"]
+japanese = "奪われた人形が<line-break>よりによってティアナに<line-break>プレゼントされていたとはな。<line-break><value:$28>、<line-break>早く人形を取りにいって<line-break>女の子に返してやれ。<end>"
+korean = "빼앗긴 인형이 하필 티아나에게 선물되어 있었을 줄이야. <value:$28>, 빨리 인형을 찾아서 여자아이에게 돌려줘.<end>"
+
 ["1230188"]
 japanese = "ティアナ様、か…。<line-break><line-break><line-break>今は、王宮に関わりたくないの。<line-break>お人形のことはあなたに任せるわ。<line-break>がんばってね。<end>"
 korean = "티아나 님이라…. 지금은 왕궁에 얽히고 싶지 않아. 인형 일은 당신에게 맡길게. 힘내.<end>"
@@ -91,6 +111,10 @@ korean = "티아나 님이라…. 지금은 왕궁에 얽히고 싶지 않아. �
 ["1230190"]
 japanese = "許せません！<line-break>女の子の大事なお人形さんを<line-break>奪ってティアナ様にあげちゃうなんて。<line-break>早くお人形を返してもらいに<line-break>行きましょう。<end>"
 korean = "용서 못 해요! 여자아이의 소중한 인형을 빼앗아 티아나 님께 주다니. 빨리 인형을 돌려받으러 가요.<end>"
+
+["1230194"]
+japanese = "闇の神器をすべて集めると<line-break>破壊神ウルグを復活させることが<line-break>できるというではないか。<line-break>そのような危険な物を集めても<line-break>よいのかのう…。<end>"
+korean = "어둠의 신기를 모두 모으면 파괴신 울그를 부활시킬 수 있다고 하지 않나. 그런 위험한 물건을 모아도 괜찮은 건지….<end>"
 
 ["1230211"]
 japanese = "………………。<line-break><line-break><line-break>ウルカーンだ…。<end>"

@@ -44,6 +44,10 @@ korean = "그렇군요, 알아 버렸군요. 당신의 과거를… 당신이 �
 japanese = "でも、これで<line-break>失われた過去をあれこれ思うことも<line-break>なくなったわけです。<line-break>要は考え方次第だと思いますよ、<line-break><value:$28>。<end>"
 korean = "그래도 이걸로 잃어버린 과거를 이것저것 생각할 일은 없어졌잖아요. 결국 생각하기 나름이라고 봐요, <value:$28>.<end>"
 
+["2470019"]
+japanese = "どうしました、ケリュネイア？<line-break>何か言いたそうですが…。<end>"
+korean = "무슨 일이죠, 케류네이아? 뭔가 하고 싶은 말이 있는 것 같은데….<end>"
+
 ["2470020"]
 japanese = "別に…。<end>"
 korean = "별로….<end>"

@@ -100,6 +100,10 @@ korean = "꼭 그렇지도 않아. 울그의 힘 일부는 이미 <value:$28>의
 japanese = "どうするつもり？<end>"
 korean = "어떻게 할 생각이야?<end>"
 
+["1890049"]
+japanese = "<value:$28>を<line-break>甘く見ないことですね。　　　　　　<line-break>　<line-break>闇の神器の力さえ取り除けば、<line-break><value:$28>は<line-break>破壊神にも負けはしないでしょう。<end>"
+korean = "<value:$28>을 얕보지 마세요. 어둠의 신기의 힘만 제거하면 <value:$28>은 파괴신에게도 지지 않을 겁니다.<end>"
+
 ["1890051"]
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"
@@ -164,6 +168,10 @@ korean = "그럼, 갑니다.<end>"
 japanese = "ともかく、<line-break>今は猫屋敷に戻りましょう。<end>"
 korean = "아무튼 지금은 고양이 저택으로 돌아가죠.<end>"
 
+["1890093"]
+japanese = "<value:$28>、ありがとう。<line-break>なんてお礼を言ったらいいのか…。<end>"
+korean = "<value:$28>, 고마워. 뭐라고 감사해야 할지….<end>"
+
 ["1890095"]
 japanese = "そ、そんな…！<line-break>私に…、私にできることは？<end>"
 korean = "그, 그럴 수가…! 내가… 내가 할 수 있는 일은?<end>"
@@ -208,6 +216,10 @@ korean = "벨제바 님!<end>"
 japanese = "市内の状況はどうなっている。<end>"
 korean = "시내 상황은 어떻게 되어 있지.<end>"
 
+["1890110"]
+japanese = "完全に制圧されました！<line-break>中心地から西側にかけては、　　　　<line-break>壊滅状態です。<line-break>魔物が至る所を徘徊し、<line-break>城へたどり着くことすらできません。<end>"
+korean = "완전히 제압당했습니다! 중심지에서 서쪽에 걸쳐 괴멸 상태입니다. 마물이 곳곳을 배회해 성에 도착하는 것조차 불가능합니다.<end>"
+
 ["1890115"]
 japanese = "<value:$28>か！<end>"
 korean = "<value:$28>인가!<end>"
@@ -235,6 +247,10 @@ korean = "(이제 돌아갈 수 없어!)<end>"
 ["1890126"]
 japanese = "いらっしゃい、<value:$28>。<line-break>ついに来たね。フフフ。　　　　<line-break>待ってたんだ。<line-break>これを見せてあげたくてね。<end>"
 korean = "어서 와, <value:$28>. 드디어 왔구나. 후후후. 기다리고 있었어. 이걸 보여 주고 싶어서 말이지.<end>"
+
+["1890127"]
+japanese = "驚いてる？<line-break>倒したはずなのにね？<line-break>ははっ、僕が甦らせたのさ。<line-break>君がイシュバアルを<line-break>殺しちゃったからね。<line-break>こいつがその代わりなの。<end>"
+korean = "놀랐어? 분명 쓰러뜨렸는데 말이지? 하하, 내가 되살렸어. 네가 이슈바알을 죽여 버렸으니까. 이 녀석이 그 대신이야.<end>"
 
 ["1890129"]
 japanese = "邪竜エルアザルだよ。<line-break>死竜の洞窟で眠っていたのを　<line-break>僕が起こしてあげたんだ。<line-break>ここにエサがあるよーってね。<line-break>あはははは。<end>"
@@ -371,6 +387,14 @@ korean = "나를 업신여기는 건가, 조폴?<end>"
 ["1890191"]
 japanese = "わしは<line-break>自分の見た未来に従って<line-break>ただ進むのみ…。<end>"
 korean = "나는 내가 본 미래를 따라 그저 나아갈 뿐….<end>"
+
+["1890196"]
+japanese = "しかし、無茶をするものだな、ネメア。<line-break>闇の神器・破滅の槍の力を解放するとは<line-break>余人なら闇に飲まれておるところよ。<line-break>賞賛するぞ、その強靱な精神。<end>"
+korean = "하지만 무모한 짓을 하는군, 네메아. 어둠의 신기 파멸의 창의 힘을 해방하다니. 보통 사람이라면 어둠에 삼켜졌을 터. 그 강인한 정신은 칭찬하마.<end>"
+
+["1890197"]
+japanese = "しかし、無茶をするものだな、ネメア。<line-break>闇の神器・破滅の槍の力を解放するとは<line-break>余人なら闇に飲まれておるところよ。<line-break>賞賛するぞ、その強靱な精神。<end>"
+korean = "하지만 무모한 짓을 하는군, 네메아. 어둠의 신기 파멸의 창의 힘을 해방하다니. 보통 사람이라면 어둠에 삼켜졌을 터. 그 강인한 정신은 칭찬하마.<end>"
 
 ["1890199"]
 japanese = "Ｖ７終端<end>"

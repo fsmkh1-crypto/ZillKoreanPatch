@@ -112,6 +112,10 @@ korean = "<value:$28> 씨!!<end>"
 japanese = "まて、あれは…、<line-break><value:$28>を回復してやがる…。<end>"
 korean = "잠깐, 저건… <value:$28>을 회복시키고 있어….<end>"
 
+["410033"]
+japanese = "バカな！<line-break>神器に支配された者に<line-break>慈しみの心など…！<end>"
+korean = "말도 안 돼! 신기에 지배된 자에게 자비로운 마음 따윈…!<end>"
+
 ["410035"]
 japanese = "あり得ない。　　　　　　　　<end>"
 korean = "말도 안 돼.<end>"
@@ -236,6 +240,10 @@ korean = "…언제 온 거지?<end>"
 japanese = "…やれやれ、魔人の方が<line-break>えらく簡単に片づいたと思ったが、<line-break>　<line-break>やはり、一働きはせんと<line-break>いかんみたいじゃな。<end>"
 korean = "…이런, 마인은 너무 쉽게 정리됐다고 생각했는데 역시 한 번은 힘을 써야 할 모양이군.<end>"
 
+["410074"]
+japanese = "どうした？　帰んなよ？<line-break>用事は魔人討伐だけだったんだろ？<end>"
+korean = "왜 그래? 안 돌아가? 볼일은 마인 토벌뿐이었잖아?<end>"
+
 ["410075"]
 japanese = "そうはいかないわ。<line-break>用事ができたの。<end>"
 korean = "그럴 순 없어. 볼일이 생겼거든.<end>"
@@ -287,6 +295,10 @@ korean = "왜? 그게 내 목적인데?<end>"
 ["410094"]
 japanese = "それがあるお方の意志だからです。　　<end>"
 korean = "그것이 어떤 분의 뜻이기 때문입니다.<end>"
+
+["410095"]
+japanese = "愚かで邪悪な人間に<line-break>高度な魔法文明を与えることは…　　　<end>"
+korean = "어리석고 사악한 인간에게 고도의 마법 문명을 주는 것은….<end>"
 
 ["410097"]
 japanese = "人間は文明を得ることで賢くなる。<end>"

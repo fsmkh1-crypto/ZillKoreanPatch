@@ -224,6 +224,10 @@ korean = "아니, 괜찮아. 아직 끝난 게 아니니까.<end>"
 japanese = "え？<end>"
 korean = "어?<end>"
 
+["840093"]
+japanese = "うそうそ。　　　　　　　　　　　　<line-break>すっごく助かっちゃった。<line-break>　<line-break>でも、安心するのはまだ早いわ。<line-break>ペウダの奴、追っ手をかけるはずよ。<end>"
+korean = "거짓말, 거짓말. 정말 큰 도움이 됐어. 그래도 안심하기엔 아직 일러. 페우다가 추격대를 보낼 거야.<end>"
+
 ["840094"]
 japanese = "ここで追っ手をくい止めるわ。<line-break>先行っててくんないかな？<end>"
 korean = "여기서 추격자들을 막을게. 먼저 가 줄래?<end>"
@@ -404,6 +408,14 @@ korean = "아하하, <value:$28>.또 와 줬구나.<end>"
 japanese = "<value:$28>じゃない。<line-break>どうしたのよ。<end>"
 korean = "<value:$28>잖아. 무슨 일이야?<end>"
 
+["840147"]
+japanese = "あんた墓場好きよねー。<line-break>ま、あたしも人のこと言えないけど。<end>"
+korean = "당신 묘지 좋아하네. 뭐, 나도 남 말할 처지는 아니지만.<end>"
+
+["840148"]
+japanese = "これだけ人が死んだのかって<line-break>思うとすごいよねー。<line-break>　<line-break>死んじゃうと静かだよね。<line-break>沈黙はきれいだろうけど、<line-break>あたしは黙りたくない。<end>"
+korean = "이렇게 많은 사람이 죽었다고 생각하면 대단하지. 죽으면 조용하네. 침묵은 아름답겠지만 난 입 다물고 있고 싶진 않아.<end>"
+
 ["840149"]
 japanese = "ゴメン、ちょっとさ…。<line-break>行ってくれるとうれしーかな。<end>"
 korean = "미안, 좀…. 가 줬으면 좋겠는데.<end>"
@@ -427,6 +439,10 @@ korean = "…동정하면 죽일 거야?<end>"
 ["840155"]
 japanese = "くすっ、あんたってさー、<line-break>割とバカだよね。<line-break>いいわ。教えてあげる。<line-break>そのかわり、同情したら<line-break>ホントに殺すかんね？<end>"
 korean = "후후, 너 말이야 꽤 바보지. 좋아, 알려 줄게. 대신 동정하면 정말 죽여 버릴 거야, 알았어?<end>"
+
+["840162"]
+japanese = "そのことを確認しにくるのよ。<line-break>この冷たい死の静寂の中にね。<end>"
+korean = "그걸 확인하러 오는 거야. 이 차가운 죽음의 정적 속으로.<end>"
 
 ["840163"]
 japanese = "ふぅ、つまんない昔話はおしまい。<line-break>悪いね、不幸自慢みたいに<line-break>なっちゃって。<line-break>じゃ、バイバイ。<line-break>聞き上手の冒険者さん。<end>"
@@ -467,6 +483,10 @@ korean = "빈칸 164 카를라, 볼륨 1<end>"
 ["840175"]
 japanese = "ロセンの暗愚王ペウダは、カルラの力を<line-break>過小評価したため、その才能と実力を<line-break>戦場で思い知ることとなった。<line-break>敗北と自らの死によって…。<end>"
 korean = "로센의 암군 페우다는 칼라의 힘을 과소평가했고, 전장에서 그 재능과 실력을 뼈저리게 깨닫게 되었다. 패배와 자신의 죽음으로….<end>"
+
+["840177"]
+japanese = "ここはロセン王国である！<line-break>現在、ペウダ国王陛下の命により<line-break>一切の人の出入りが禁じられている！<line-break>お前らを通すわけにはいかん。<line-break>立ち去れ！<end>"
+korean = "여기는 로센 왕국이다! 현재 페우다 국왕 폐하의 명으로 모든 사람의 출입이 금지돼 있다! 너희를 통과시킬 수 없다. 물러가라!<end>"
 
 ["840178"]
 japanese = "ありがとうございました。<line-break>　<line-break>　<line-break>でも、あの方はおひとりで<line-break>大丈夫なのでしょうか？<end>"

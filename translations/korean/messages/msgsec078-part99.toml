@@ -88,6 +88,10 @@ korean = "잘됐군, 아트레이아.<end>"
 japanese = "…うれしいです。<line-break><value:$28>さんにほめられると<line-break>いっそう。<end>"
 korean = "…기뻐요. <value:$28> 씨에게 칭찬받으니 더더욱.<end>"
 
+["780044"]
+japanese = "料理で、<line-break>ネモ様にほめられても<line-break>あまり、自慢にはなりません。<line-break>ネモ様は文句が多いわりに<line-break>なんでも、<line-break>喜んで食べてくれますから。<end>"
+korean = "요리로 네모 님께 칭찬받아도 별로 자랑할 일은 아니에요. 네모 님은 불평은 많지만 뭐든 기쁘게 드시거든요.<end>"
+
 ["780046"]
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
@@ -128,6 +132,10 @@ korean = "…그건 또 꽤 대규모 계획이군.<end>"
 japanese = "もちろん、私１人の力では　　　<line-break>できません。<line-break>　<line-break>まずは、ロストール復興を<line-break>願う人たちを集めるつもりです。<end>"
 korean = "물론 저 혼자 힘으로는 할 수 없습니다. 우선 로스토올의 부흥을 바라는 사람들을 모을 생각입니다.<end>"
 
+["780060"]
+japanese = "そして、何ができるか<line-break>話し合うところから<line-break>始めようと思っています。　　　<line-break>でも、そのためには、<line-break>基点となる場所が必要なのです。<end>"
+korean = "그리고 무엇을 할 수 있을지 이야기하는 것부터 시작하려 합니다. 하지만 그러려면 거점이 될 장소가 필요합니다.<end>"
+
 ["780061"]
 japanese = "なるほど。<line-break>俺の屋敷がその基点に<line-break>なるわけか？<end>"
 korean = "그렇군. 내 저택이 그 거점이 되는 건가?<end>"
@@ -163,6 +171,10 @@ korean = "<value:$28>님. 사실 드릴 말씀이 있습니다.<end>"
 ["780071"]
 japanese = "私、このお屋敷を出ようと思います。<end>"
 korean = "저, 이 저택을 나가려고 합니다.<end>"
+
+["780073"]
+japanese = "いえ、実は…<line-break>しなければならないことが<line-break>あるのです。<end>"
+korean = "아니요, 사실은… 해야 할 일이 있습니다.<end>"
 
 ["780074"]
 japanese = "実は、しなければならないことが<line-break>あるのです。<end>"

@@ -12,6 +12,10 @@ korean = "서, 설마, <value:$28>! 너, 처형된 게 아니었나…. 내가 �
 japanese = "あっ！　<value:$28>お姉ちゃん！<line-break>ず～っと、どこに行ってたの？<line-break>チャカお兄ちゃんも元気にしてる？<end>"
 korean = "아! <value:$28> 언니! 계속 어디 갔었어? 차카 오빠도 잘 지내?<end>"
 
+["1700015"]
+japanese = "俺は恐かったんだ…。<line-break>ボルボラも、奴のモンスターも…<line-break>そして何より、<value:$28>！<line-break>お前が恐ろしかったんだ…<line-break>許してくれ…、頼む、頼むよ…。<end>"
+korean = "난 무서웠어…. 볼보라도, 놈의 몬스터도… 그리고 무엇보다 <value:$28>! 네가 무서웠어…. 용서해 줘… 부탁이야….<end>"
+
 ["1700019"]
 japanese = "予備メッセージ１<line-break>ノーブル、ボリューム４<end>"
 korean = "예비 메시지 1 노블, 볼륨 4<end>"

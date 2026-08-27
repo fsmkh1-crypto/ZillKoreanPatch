@@ -48,6 +48,10 @@ korean = "감사합니다. 덕분에 살았습니다!<end>"
 japanese = "ぐふっ！<end>"
 korean = "크헉!<end>"
 
+["460023"]
+japanese = "…誰もが俺様のような熱き魂を<line-break>持っているわけではない…。<line-break><line-break>臆病なのは仕方ない…<line-break>だが、熱き魂を持つ者は<line-break>…ち、違う…のだ。<end>"
+korean = "…누구나 나처럼 뜨거운 영혼을 가진 건 아니다…. 겁이 많은 건 어쩔 수 없어… 하지만 뜨거운 영혼을 지닌 자는… 다, 다르다….<end>"
+
 ["460024"]
 japanese = "ああ？　どう違うんだア？<end>"
 korean = "어? 뭐가 다른데?<end>"
@@ -128,6 +132,10 @@ korean = "반, 나 복수했어. 갈드란을 죽이고 왔어.<end>"
 japanese = "ヴァン、どうしたの？<line-break>喜んでくれないの？<end>"
 korean = "반, 왜 그래? 기쁘지 않아?<end>"
 
+["460071"]
+japanese = "…霊峰トールへの道は険しく、<line-break>途中、モンスターも多い。　　　　　　<line-break>　<line-break>だけどモンスターよりも何よりも、<line-break>人間の敵は人間…なんだ。<end>"
+korean = "…영봉 토르로 가는 길은 험하고 도중에 몬스터도 많아. 하지만 몬스터보다 더 무서운 인간의 적은 인간…이야.<end>"
+
 ["460078"]
 japanese = "…親父がそう言ってたよ。　　　　<line-break>　<line-break>　<end>"
 korean = "…아버지가 그렇게 말했어.<end>"
@@ -135,6 +143,10 @@ korean = "…아버지가 그렇게 말했어.<end>"
 ["460081"]
 japanese = "…ナッジのこと、頼むぜ。<end>"
 korean = "…나지 부탁한다.<end>"
+
+["460082"]
+japanese = "<value:$28>、僕、ヴァンと<line-break>違う世界の人間になっちゃったんだ。<end>"
+korean = "<value:$28>, 나는 반과는 다른 세계의 사람이 되어 버렸어.<end>"
 
 ["460083"]
 japanese = "僕、ヴァンと違う世界の人間に<line-break>なっちゃんたんだね。<end>"
@@ -415,6 +427,10 @@ korean = "다하하하하! 나는 천재라니까~!<end>"
 ["460226"]
 japanese = "おや、あ～んた、な～んとか君じゃね。<end>"
 korean = "어이쿠, 자네 그 뭐시기 군 아닌가.<end>"
+
+["460229"]
+japanese = "あんた、こ～こには、<line-break>ディードの説明を聞きに来たんじゃね。<end>"
+korean = "당신, 여기에 디드 설명을 들으러 온 거지?<end>"
 
 ["460230"]
 japanese = "その通り<end>"

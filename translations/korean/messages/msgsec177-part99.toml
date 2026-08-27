@@ -48,6 +48,10 @@ korean = "교환하지 않는다<end>"
 japanese = "交換する<end>"
 korean = "교환한다<end>"
 
+["1770018"]
+japanese = "おおう！<line-break>われ、レオニックの証を<line-break>手に入れたんか！<end>"
+korean = "오오! 레오닉의 증표를 손에 넣었구나!<end>"
+
 ["1770024"]
 japanese = "なんか、しゃべりすぎて<line-break>疲れたわい…。<end>"
 korean = "너무 많이 떠들었더니 피곤하구먼….<end>"
@@ -108,6 +112,10 @@ korean = "그대로 둔다<end>"
 japanese = "下げてみる<end>"
 korean = "내려 본다<end>"
 
+["1770049"]
+japanese = "見事だ…<line-break>貴様なら禁忌の力を<line-break>正しく使えるはず…<end>"
+korean = "훌륭하다… 네놈이라면 금기의 힘을 올바르게 쓸 수 있을 터….<end>"
+
 ["1770052"]
 japanese = "デモリッシュの封印が解かれた。<end>"
 korean = "데몰리시의 봉인이 풀렸다.<end>"
@@ -115,6 +123,10 @@ korean = "데몰리시의 봉인이 풀렸다.<end>"
 ["1770058"]
 japanese = "なんじゃ、わしの道具を返して<line-break>くれるんか？<end>"
 korean = "뭐냐, 내 도구를 돌려주려는 게냐?<end>"
+
+["1770061"]
+japanese = "それじゃ、達者でな。<line-break>われの活躍を楽しみにしとるでぇ。<end>"
+korean = "그럼 잘 지내라. 내 활약을 기대하고 있으라고.<end>"
 
 ["1770062"]
 japanese = "<value:$28>…<line-break>われのおかげで、わしの人生に<line-break>くいはのうなった。<end>"

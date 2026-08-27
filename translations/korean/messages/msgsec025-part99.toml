@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["250000"]
+japanese = "一度も戦闘をしなけりゃ、ボーナスが出る。<line-break>うまくやれよ。<end>"
+korean = "한 번도 전투하지 않으면 보너스가 나온다. 잘해 봐.<end>"
+
 ["250001"]
 japanese = "我が帝国の<value:$17><value:$16>を<line-break><value:$15>まで<line-break>無事送り届ける護衛者を募集する。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内である。<end>"
 korean = "우리 제국의 <value:$17><value:$16>을 <value:$15>까지 무사히 호위할 자를 모집한다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
@@ -7,6 +11,10 @@ korean = "우리 제국의 <value:$17><value:$16>을 <value:$15>까지 무사히
 ["250031"]
 japanese = "私の<value:$17><value:$16>を<line-break><value:$15>まで無事に送り届けてほしい。<line-break>報酬は、<value:$1A>ギア。<line-break>到着期限は、<value:$1B>日以内とする。<end>"
 korean = "내 <value:$17><value:$16>을 <value:$15>까지 무사히 호송해 주기 바란다. 보수는 <value:$1A>기아. 도착 기한은 <value:$1B>일 이내다.<end>"
+
+["250032"]
+japanese = "<value:$15>まで<line-break>無事に送り届けてもらえませんか？<line-break>お礼は、<value:$1A>ギアです。<line-break><value:$1B>日以内に向こうに着きたいので、<line-break>よろしくお願いします。<end>"
+korean = "<value:$15>까지 무사히 데려다주시겠습니까? 사례는 <value:$1A>기어입니다. <value:$1B>일 안에 도착하고 싶으니 부탁드립니다.<end>"
 
 ["250040"]
 japanese = "護衛をしてくださる方を募っています。<line-break>目的地は<value:$15>です。<line-break><value:$1B>日以内で到着してください。<line-break>お礼は、<value:$1A>ギアです。<end>"

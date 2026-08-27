@@ -12,6 +12,10 @@ korean = "<value:$28>. 더 많은 이정표를 원하나. 그렇다면 들려주
 japanese = "よくぞ来た、<value:$28>よ。<end>"
 korean = "잘 왔다, <value:$28>여.<end>"
 
+["1310007"]
+japanese = "エンシャントの南東にある賢者の森。<line-break>選ばれた者のみに見える館が<line-break>汝を迎え入れるであろう。<line-break>そなたの真の旅は<line-break>そこから始まるであろう…。<end>"
+korean = "엔샨트 남동쪽의 현자의 숲. 선택받은 자에게만 보이는 저택이 그대를 맞이할 것이다. 그대의 진정한 여행은 그곳에서 시작되리라….<end>"
+
 ["1310016"]
 japanese = "今そなたに示すべき道は<line-break>このようなものじゃ。<line-break>進むがよい。<value:$28>よ。<end>"
 korean = "지금 그대에게 보일 길은 이와 같다. 나아가거라, <value:$28>여.<end>"

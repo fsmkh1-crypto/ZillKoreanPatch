@@ -140,6 +140,10 @@ korean = "…좋아, 어떻게든 착지는 한 것 같네. 그럼 다음은, �
 japanese = "…今、これは飛べないまま壊される。<end>"
 korean = "…지금 이건 날지도 못한 채 부서진다.<end>"
 
+["1120105"]
+japanese = "ここならばまず安全じゃろう。　　　<line-break>　<line-break>　<line-break>…しかし、わらわの力では<line-break>このような未来は見えなかった。<line-break>これも<value:$28>の力か…。<end>"
+korean = "여기라면 우선 안전하겠지. …하지만 내 힘으로는 이런 미래를 볼 수 없었다. 이것도 <value:$28>의 힘인가….<end>"
+
 ["1120110"]
 japanese = "では、私も<line-break>アキュリュースへ帰ります。<line-break>　<line-break><value:$28>さん、<line-break>アキュリュースに来た時には<line-break>私の所にも来てくださいね。<end>"
 korean = "그럼 저도 아큐류스로 돌아가겠습니다. <value:$28>님, 아큐류스에 오시면 제게도 들러 주세요.<end>"

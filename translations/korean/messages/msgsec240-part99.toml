@@ -16,6 +16,10 @@ korean = "아, 미안해요. 당신이 아는 사람을 닮아서…. 그 사람
 japanese = "ふーん、あなた<line-break><value:$28>っていうんだ。<end>"
 korean = "흐응, 네 이름이 <value:$28>구나.<end>"
 
+["2400007"]
+japanese = "ちょうどいいわ。私ひとりなの。<line-break>一緒に組まない？<line-break>　<line-break>自分で言うのも何だけど、<line-break>そこいらの冒険者より<line-break>よっぽど役に立つと思うわ。<end>"
+korean = "마침 잘됐네. 나 혼자야. 같이 할래? 내 입으로 말하긴 뭐하지만 웬만한 모험자보다 훨씬 도움 될 거야.<end>"
+
 ["2400008"]
 japanese = "悩む必要なんてないでしょ。<line-break><value:$28>は初心者で、<line-break>あたしは経験者なんだから。<end>"
 korean = "고민할 필요 없잖아. <value:$28>은 초보자고 난 경험자니까.<end>"

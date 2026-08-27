@@ -48,6 +48,10 @@ korean = "쳇, 어쩔 수 없네. <value:$28>, 가자.<end>"
 japanese = "じゃ、行こう。<end>"
 korean = "그럼, 가자.<end>"
 
+["280013"]
+japanese = "ボンガの家って町の北の外れだろ？<line-break>さっさと行ってこようぜ。<end>"
+korean = "봉가의 집은 마을 북쪽 끝이잖아? 빨리 다녀오자.<end>"
+
 ["280014"]
 japanese = "なんだよ、行かないのかよ！？<end>"
 korean = "뭐야, 안 가는 거야!?<end>"
@@ -67,6 +71,10 @@ korean = "하하, 정말이네. <value:$28>, 너 나지한테 행동을 다 읽�
 ["280018"]
 japanese = "じゃ、行こうか。<line-break><value:$28>、ヴァン。<end>"
 korean = "그럼 가자. <value:$28>, 반.<end>"
+
+["280019"]
+japanese = "その代わり、うちのダンナに　<line-break>弁当を届けてくれないかい？<end>"
+korean = "대신 우리 남편에게 도시락 좀 전해 주지 않을래?<end>"
 
 ["280020"]
 japanese = "おや、いらっしゃい、<value:$28>。<line-break>うちのダンナに用があるんだってね。　<line-break>話はナッジから聞いたよ。<end>"
@@ -95,6 +103,10 @@ korean = "뭐, 목재 정도는 내가 봐 줄게.<end>"
 ["280028"]
 japanese = "じゃ、これが弁当。　　　　　<line-break>頼んだよ。<end>"
 korean = "자, 이게 도시락이야. 부탁해.<end>"
+
+["280029"]
+japanese = "あんまりおいしそうだからって<line-break>途中で食べたら承知しないよ。<end>"
+korean = "너무 맛있어 보인다고 중간에 먹으면 가만 안 둬.<end>"
 
 ["280030"]
 japanese = "ちぇ。<line-break>自分で作ってよく言うぜ。<end>"
@@ -164,6 +176,10 @@ korean = "아~ 잘 먹었다, 잘 먹었어.<end>"
 japanese = "すまんが、これを<line-break>かみさんに<line-break>持っていってくれ。<end>"
 korean = "미안하지만 이걸 아내에게 가져다줘.<end>"
 
+["280052"]
+japanese = "じゃあ、<line-break>お仕事がんばってくださいね、<line-break>ボンガさん。<end>"
+korean = "그럼 일 열심히 하세요, 봉가 씨.<end>"
+
 ["280053"]
 japanese = "ああ、<value:$28>。<line-break>宿屋のヴァンが<line-break>大変なことになったんだって？<end>"
 korean = "아, <value:$28>. 여관의 반에게 큰일이 생겼다며?<end>"
@@ -171,6 +187,10 @@ korean = "아, <value:$28>. 여관의 반에게 큰일이 생겼다며?<end>"
 ["280054"]
 japanese = "おう、遅かったじゃないか。<end>"
 korean = "어이, 늦었잖아.<end>"
+
+["280055"]
+japanese = "お帰り。ご苦労さまだったね。<line-break>よさそうな木を選んでおいたよ。<end>"
+korean = "어서 와. 수고했어. 좋아 보이는 나무를 골라 뒀어.<end>"
 
 ["280056"]
 japanese = "木こりの奥さんの見立てなら<line-break>間違いないね。<end>"
@@ -212,6 +232,14 @@ korean = "그럼 놀다 와. 자, 이거. 적지만.<end>"
 japanese = "なに言ってんだい。<line-break>当たり前だろう。<end>"
 korean = "무슨 소리야. 당연하잖아.<end>"
 
+["280070"]
+japanese = "うん。<line-break>それに夜はごちそうだなんて、<line-break>楽しみだね。<end>"
+korean = "응. 게다가 밤에는 진수성찬이라니 기대되네.<end>"
+
+["280071"]
+japanese = "よっしゃ！<line-break>町の広場に行ってみようぜ！<line-break>イヤッホー！！<end>"
+korean = "좋았어! 마을 광장에 가 보자! 야호!!<end>"
+
 ["280073"]
 japanese = "なんだよオッサン。　　　　<end>"
 korean = "뭐야, 아저씨.<end>"
@@ -223,6 +251,10 @@ korean = "너 혼자 쓰는 길도 아니잖아! 잘난 척하지 마!<end>"
 ["280075"]
 japanese = "生意気な！<line-break>人として許せん！　　　　　　<line-break>　<line-break>俺様を敵に回すと<line-break>割に合わないことを思い知れ！<end>"
 korean = "건방진! 인간으로서 용서할 수 없다! 나를 적으로 돌린 대가가 얼마나 큰지 깨닫게 해 주마!<end>"
+
+["280077"]
+japanese = "ヘッ。<line-break>偉そうなこと言っておいてよ。<line-break>ザマぁねえな！！<end>"
+korean = "흥. 잘난 소리 해 놓고 꼴 좋군!!<end>"
 
 ["280078"]
 japanese = "小っ僧ぉぉぉ！<line-break>いい気になるなよぉぉぉお！！<end>"
@@ -251,6 +283,10 @@ korean = "아, <value:$28>. 여관의 반이 큰일이라며? 돈은 됐으니 �
 ["280085"]
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
 korean = "<value:$28>… 약초는?<end>"
+
+["280088"]
+japanese = "…気にするな。<line-break>お前らのせいじゃない。　　　　　<line-break>　<end>"
+korean = "…신경 쓰지 마. 너희 탓이 아니야.<end>"
 
 ["280089"]
 japanese = "お前らともめた<line-break>ガルドランって奴は<line-break>評判の悪い冒険者らしいぞ。　　　<line-break>あの騒ぎで<line-break>もう町を逃げちまったようだがな。<end>"
@@ -315,6 +351,10 @@ korean = "…오늘은 이제 자자.<end>"
 ["280113"]
 japanese = "おはよう。<line-break>ずいぶん早い目覚めだね、<line-break><value:$28>。<line-break>…やっぱり<line-break>眠れなかったんだね…。<end>"
 korean = "좋은 아침. 꽤 일찍 깼네, <value:$28>. …역시 잠을 못 잤구나….<end>"
+
+["280114"]
+japanese = "ねえ。<line-break>僕らでヴァンの仇を<line-break>とりに行こう。<line-break>僕らも冒険者になるんだ。<line-break>ガルドランって奴が冒険者なら<line-break>きっとどこかで会えるよ。<end>"
+korean = "있지. 우리끼리 반의 원수를 갚으러 가자. 우리도 모험자가 되는 거야. 갈드란이란 녀석이 모험자라면 분명 어디선가 만날 수 있어.<end>"
 
 ["280116"]
 japanese = "やっぱりそうか。<line-break>まったく、お前たちって奴は…。<end>"
@@ -400,6 +440,10 @@ korean = "약초라고!? 너희 약초 따위 필요 없다!!<end>"
 japanese = "善意の薬草は<line-break>ヴァンの父に踏みにじられた。<end>"
 korean = "선의로 준 약초는 반의 아버지에게 짓밟혔다.<end>"
 
+["280152"]
+japanese = "なんだ！？<line-break>他人の子に大ケガさせておいて<line-break>その目は！？<end>"
+korean = "뭐야!? 남의 아이를 크게 다치게 해 놓고 그 눈빛은!?<end>"
+
 ["280153"]
 japanese = "やめるんだ、<line-break><value:$28>！<end>"
 korean = "그만둬, <value:$28>!<end>"
@@ -415,6 +459,10 @@ korean = "당신도 그래, 여관 주인. 그 정도로 해 둬.<end>"
 ["280156"]
 japanese = "さ、小僧ども、うちに来い。<end>"
 korean = "자, 꼬맹이들아, 우리 집으로 와.<end>"
+
+["280158"]
+japanese = "寝ろ。<line-break>明日になれば、騒ぎも収まる。<line-break>今日は寝ちまえ。<end>"
+korean = "자. 내일이면 소동도 가라앉을 거야. 오늘은 그냥 자.<end>"
 
 ["280166"]
 japanese = "ケンカか…。<end>"

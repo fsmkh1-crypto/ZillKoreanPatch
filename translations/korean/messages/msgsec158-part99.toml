@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1580011"]
+japanese = "これは、<value:$28>様。<line-break>本日はどなたにご用でございますか？<end>"
+korean = "아, <value:$28>님. 오늘은 누구를 찾아오셨습니까?<end>"
+
 ["1580012"]
 japanese = "ロストールメッセージ２ここまで<end>"
 korean = "로스톨 메시지2 여기까지<end>"

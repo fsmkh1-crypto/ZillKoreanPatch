@@ -252,6 +252,10 @@ korean = "용왕…님, 저는… 이제 싸울 수 없습니다.<end>"
 japanese = "　　　　　　　　いまひとりの　　　　　　　　<line-break>　　　　　　無限のソウルを持つ者…<line-break>　　　　　　<value:$28>よ…<line-break>　　　　　　　　聞くがよい…<end>"
 korean = "또 한 명의 무한의 소울을 지닌 자… <value:$28>여… 들어라….<end>"
 
+["1910126"]
+japanese = "　　　　　　　さぁ、くるがよい…　　　　　　<line-break>　　　　　　汝の前に開けし門が…<line-break>　　　　　　　汝を、我が前へと<line-break>　　　　　　　　呼びよせん…<end>"
+korean = "자, 오너라…. 그대 앞에 열린 문이 그대를 내 앞으로 불러오리라….<end>"
+
 ["1910127"]
 japanese = "<value:$28>さん、<line-break>わたしにはこんなことを言う<line-break>資格はないですけど…<end>"
 korean = "<value:$28> 씨, 제가 이런 말을 할 자격은 없지만…<end>"

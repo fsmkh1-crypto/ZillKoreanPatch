@@ -112,6 +112,10 @@ korean = "죄송합니다. 몇 시간이나 고민했는데…. 그래도 결심
 japanese = "スラムの酒場に行くって…<line-break>…酒場ってなんですか？<end>"
 korean = "슬럼가 술집에 간다니… 술집이 뭐예요?<end>"
 
+["770044"]
+japanese = "はい。<line-break>とにかくついていきます。<line-break>スラムの酒場ですね。<end>"
+korean = "네. 일단 따라가겠습니다. 슬럼의 술집이군요.<end>"
+
 ["770045"]
 japanese = "わぁ。<line-break>きれい…。<end>"
 korean = "와. 예쁘다….<end>"
@@ -159,6 +163,10 @@ korean = "정말…인가요…?<end>"
 ["770061"]
 japanese = "ああ、本当だ。<line-break>その宝石がみすぼらしく<line-break>見えるね。<line-break>それ、はずしたら？<end>"
 korean = "아, 정말이네. 그 보석이 초라해 보여. 그거 빼는 게 어때?<end>"
+
+["770062"]
+japanese = "この腕輪…ですか…？<line-break>え…ええ。<line-break>では…そうします。<end>"
+korean = "이 팔찌… 말인가요…? 네… 네. 그럼… 그렇게 하겠습니다.<end>"
 
 ["770064"]
 japanese = "ええ、構いません。<line-break>どうぞ。<end>"
@@ -248,6 +256,10 @@ korean = "민물고기 소금구이…?<end>"
 japanese = "ああ。さっぱりしてて　　　<line-break>なかなかイケるよ。<line-break> <end>"
 korean = "응. 깔끔해서 꽤 괜찮아.<end>"
 
+["770092"]
+japanese = "それでは、<line-break>川魚の塩焼きでよろしいですか？　　　<line-break>　<end>"
+korean = "그럼 민물고기 소금구이로 괜찮으시겠습니까?<end>"
+
 ["770093"]
 japanese = "いえ。<line-break>ええと、こっちは？<end>"
 korean = "아뇨. 음, 이쪽은요?<end>"
@@ -267,6 +279,10 @@ korean = "노래라면 부를 수 있어요!<end>"
 ["770100"]
 japanese = "おいおい、この娘、<line-break>一滴も飲んでないよなぁ。<line-break>　<end>"
 korean = "이봐, 이 애 한 방울도 안 마셨지?<end>"
+
+["770101"]
+japanese = "ハハハ。<line-break>おおかた、酒場の雰囲気に<line-break>酔ったんだろう。<end>"
+korean = "하하하. 아마 술집 분위기에 취한 거겠지.<end>"
 
 ["770104"]
 japanese = "ハハハハハハ！<line-break>あんたの歌のおかげで<line-break>客も盛り上がって、大繁盛さ。　<line-break>少ないけど、とっときな。<end>"
@@ -299,6 +315,10 @@ korean = "네, 알겠습니다.<end>"
 ["770117"]
 japanese = "はい、がんばります。<end>"
 korean = "네, 열심히 할게요.<end>"
+
+["770119"]
+japanese = "アトレイア…。<line-break>私のかわいいアトレイア…。　　　<line-break>　<end>"
+korean = "아트레이아…. 내 귀여운 아트레이아….<end>"
 
 ["770120"]
 japanese = "ああ…、<line-break>お母…様…。<end>"
@@ -351,6 +371,10 @@ korean = "아… <value:$28>님. 또 와 주셨군요. …기뻐요.<end>"
 ["770146"]
 japanese = "あ…<line-break><value:$28>様、<line-break>いらしてくださったのですね。<line-break>…うれしい。<end>"
 korean = "아… <value:$28> 님, 와 주셨군요. …기뻐요.<end>"
+
+["770149"]
+japanese = "人というものは<line-break>どうして、こんなに<line-break>間違うのでしょう？　　　<line-break>そしてそれでも、<line-break>私のようにやり直せるのは<line-break>どうしてなのでしょう？<end>"
+korean = "사람은 어째서 이렇게 많이 잘못하는 걸까요? 그리고 그래도 저처럼 다시 시작할 수 있는 건 어째서일까요?<end>"
 
 ["770151"]
 japanese = "…これは、予備メッセージ１…。<line-break>アトレイア、Ｖ４です。 <end>"

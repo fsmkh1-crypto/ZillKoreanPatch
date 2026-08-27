@@ -8,6 +8,10 @@ korean = "델가드 V1 시작<end>"
 japanese = "もう、あのザマじゃあな。<end>"
 korean = "이제 저 꼴이니 말이지.<end>"
 
+["920009"]
+japanese = "ふむ、わしがデルガドじゃ。<line-break>若いの、デルガドを知っとるか？<end>"
+korean = "흠, 내가 델가도다. 젊은이, 델가도를 아나?<end>"
+
 ["920010"]
 japanese = "当代一とたたえられた刀工<end>"
 korean = "당대 최고라 칭송받던 도공<end>"
@@ -80,6 +84,10 @@ korean = "정말, 싫어! <value:$28>!<end>"
 japanese = "泥臭い！　ドワーフ臭いわ！<line-break>こぉーんな所、息が詰まってよー！<line-break>早く出るのよ、<value:$28>！<end>"
 korean = "흙냄새 나! 드워프 냄새도! 이런 데 있으면 숨 막혀! 빨리 나가자, <value:$28>!<end>"
 
+["920033"]
+japanese = "いやっ！　またもドワーフぅ！？<line-break>し～か～も、酒臭いわー！？<end>"
+korean = "싫어! 또 드워프야!? 게다가 술 냄새까지 나잖아!?<end>"
+
 ["920045"]
 japanese = "なんか、先が思いやられるね。<line-break><value:$28>…。<end>"
 korean = "앞날이 걱정되네. <value:$28>….<end>"
@@ -95,6 +103,10 @@ korean = "그런가… 그럼 됐다….<end>"
 ["920050"]
 japanese = "ふん！　酒がまずくなった！<end>"
 korean = "흥! 술맛 떨어졌군!<end>"
+
+["920052"]
+japanese = "そうか！<line-break>わしも、もとが付くが冒険者じゃ。<line-break>　<line-break>ちょうど、旅に出たいと<line-break>思うておったところじゃ。<line-break>一緒に連れていってくれんかの。<end>"
+korean = "그렇군! 나도 전직이긴 하지만 모험자다. 마침 여행을 떠나고 싶던 참이야. 함께 데려가 주지 않겠나.<end>"
 
 ["920053"]
 japanese = "では、これから<line-break>よろしく頼むぞ、若いの。　　　　　　<line-break>　<line-break>おっと、名前を聞いておらなんだな。<line-break>名はなんという？<end>"
@@ -139,6 +151,10 @@ korean = "<value:$28>인가.<end>"
 ["920077"]
 japanese = "剣を打つ…とは<line-break>どういうことなんじゃろうな？<line-break>　<line-break>ハハ、すまん。<line-break>いきなりこんなことを言うても<line-break>お主にはピンとこんか。<end>"
 korean = "검을 벼린다는 건… 대체 무슨 뜻일까. 하하, 미안하네. 갑자기 이런 말을 해도 자네에겐 와닿지 않겠지.<end>"
+
+["920081"]
+japanese = "炎竜山か…。<line-break>すまぬが、わしは登りとうない。<line-break>　<line-break>この山で鍛冶をしてるはずの<line-break>古い仲間に、今のわしを<line-break>見られるのはつらい……。<end>"
+korean = "염룡산인가…. 미안하지만 난 오르고 싶지 않네. 이 산에서 대장장이 일을 하고 있을 옛 동료에게 지금의 나를 보이는 건 괴로워….<end>"
 
 ["920086"]
 japanese = "では、炎竜山へ出発じゃ。<line-break>町を出る時に落ちあおうぞ。<end>"

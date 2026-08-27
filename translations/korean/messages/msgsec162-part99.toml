@@ -32,6 +32,10 @@ korean = "들어와.<end>"
 japanese = "よう、久しぶり。<end>"
 korean = "여어, 오랜만이군.<end>"
 
+["1620012"]
+japanese = "突然なんで驚いたろうが、<line-break>俺が、ロストール軍副司令だ。<end>"
+korean = "갑작스러워 놀랐겠지만, 내가 로스토올군 부사령관이다.<end>"
+
 ["1620013"]
 japanese = "親父のノヴィン・ファーロスが<line-break>総司令でね。<line-break>　<line-break>その息子は、副司令なんだそうだ。<line-break>貴族社会のロストールらしい人選だろ？<end>"
 korean = "아버지 노빈 파로스가 총사령관이래. 그리고 그 아들은 부사령관이라더군. 귀족 사회인 로스토올다운 인선이지?<end>"
@@ -44,9 +48,17 @@ korean = "내가 제네테스 파로스. 이 전투의 부사령관이다.<end>"
 japanese = "よく来てくれたな、<value:$28>。<line-break>ギルドのおやじから噂は聞いていた。<line-break>　<line-break><value:$2B>の異名を持つ<line-break>やり手の冒険者がいるってな。<end>"
 korean = "잘 왔다, <value:$28>. 길드 아저씨에게 소문은 들었어. <value:$2B>라는 별명을 가진 실력 좋은 모험자가 있다더군.<end>"
 
+["1620019"]
+japanese = "ところで、この戦いについて、<line-break>詳しいことは知ってるのか？<end>"
+korean = "그런데 이 전투에 대해 자세한 건 알고 있나?<end>"
+
 ["1620020"]
 japanese = "だろうな。<line-break>そんなこったろうと思ったぜ。<line-break>　<line-break>はじめに言っておくが、<line-break>この戦い、このままいけば、<line-break>確実に負ける。<end>"
 korean = "그렇겠지. 그럴 줄 알았어. 먼저 말해 두는데 이 싸움, 이대로 가면 확실히 진다.<end>"
+
+["1620021"]
+japanese = "まあ、待て。ちゃんと説明するって。<line-break>長くなるが、聞くか？<end>"
+korean = "잠깐만. 제대로 설명할 테니까. 길어질 텐데 들을래?<end>"
 
 ["1620022"]
 japanese = "聞く<end>"
@@ -148,6 +160,10 @@ korean = "핫!<end>"
 japanese = "ゆくぞ、<value:$28>。<end>"
 korean = "간다, <value:$28>.<end>"
 
+["1620077"]
+japanese = "…じゃあな、とっつぁん。<line-break>あの世で、いつか飲み明かそうぜ。<end>"
+korean = "…잘 가라, 영감. 저세상에서 언젠가 밤새 술이나 마시자고.<end>"
+
 ["1620082"]
 japanese = "第二の殊勲、<value:$28>。<end>"
 korean = "제2의 공훈, <value:$28>.<end>"
@@ -188,6 +204,14 @@ korean = "당장 마차를 준비해.<end>"
 japanese = "私がお送りいたします。<line-break>急ぎましょう。<end>"
 korean = "제가 모시겠습니다. 서두르시죠.<end>"
 
+["1620101"]
+japanese = "ほう、知らなかったのか？　　　　　<line-break>　<line-break>　<line-break>あの者は、我が軍の総司令<line-break>我が兄ノヴィン・ファーロスの息子。<line-break>私の甥なのだ。<end>"
+korean = "호오, 몰랐나? 저자는 우리 군 총사령관이자 내 형인 노빈 파로스의 아들. 내 조카다.<end>"
+
+["1620102"]
+japanese = "ふふふ。あれでも、貴族なのだ。<line-break>信じられないだろうが。<end>"
+korean = "후후후. 저래 보여도 귀족이다. 믿기 어렵겠지만.<end>"
+
 ["1620104"]
 japanese = "失礼する！<end>"
 korean = "이만 실례하겠다!<end>"
@@ -216,6 +240,10 @@ korean = "나라의 비상사태다. 인재는 유용하게 써야지.<end>"
 japanese = "では、ノーブル伯、<line-break>すぐにゼネテス卿のもとへ。<end>"
 korean = "그럼 노블 백작, 바로 제네테스 경에게 가시오.<end>"
 
+["1620115"]
+japanese = "…行け。<line-break>仕方あるまい。<line-break>功のひとつでも立ててこい！<end>"
+korean = "…가라. 어쩔 수 없군. 공이라도 하나 세우고 와라!<end>"
+
 ["1620116"]
 japanese = "<value:$28>殿を<line-break>お連れしました、ゼネテス様。<end>"
 korean = "<value:$28>님을 모셔 왔습니다, 제네테스 님.<end>"
@@ -235,6 +263,10 @@ korean = "지금까지 신분을 밝히지 않은 건 미안해. 미안, 미안.
 ["1620120"]
 japanese = "エリス王妃に言われて、<line-break>来たんだろ？<end>"
 korean = "에리스 왕비가 보내서 온 거지?<end>"
+
+["1620121"]
+japanese = "この部隊に配属された本当の理由、<line-break>聞いておく気はあるか？<end>"
+korean = "이 부대에 배속된 진짜 이유, 들어 둘 생각은 있나?<end>"
 
 ["1620122"]
 japanese = "聞く<end>"
@@ -259,6 +291,14 @@ korean = "저 정도로 사이가 나쁘면 손쓸 방법이 없네.<end>"
 ["1620130"]
 japanese = "ま、お前さんも、少しは兄貴の立場、<line-break>覚えておいてくれ。<line-break>　<line-break>ことが面倒にならないように、<line-break>見といてくれよな。<end>"
 korean = "뭐, 자네도 형의 입장을 조금은 기억해 줘. 일이 귀찮아지지 않도록 지켜봐 줘.<end>"
+
+["1620131"]
+japanese = "そうか…。<line-break>ま、聞きたくないもんは、<line-break>しゃーないか。<end>"
+korean = "그런가…. 뭐, 듣고 싶지 않은 건 어쩔 수 없지.<end>"
+
+["1620133"]
+japanese = "まあ、待て。ちゃんと説明するって。<line-break>長くなるが、聞くか？<end>"
+korean = "잠깐만. 제대로 설명할 테니까. 길어질 텐데 들을래?<end>"
 
 ["1620134"]
 japanese = "聞く<end>"

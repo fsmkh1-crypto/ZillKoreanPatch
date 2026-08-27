@@ -16,6 +16,10 @@ korean = "카운터에 있는 아저씨에게 말 걸어. 등록해 줄 거야.<
 japanese = "幻術計振れておらず<line-break>犯罪登録当てはまらず。<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"
 korean = "환술계 수치도 없고 범죄 등록에도 해당하지 않는군. 축하해. 너도 모험자로 등록됐어.<end>"
 
+["690009"]
+japanese = "仕事をこなしながら、<line-break>強くなることだ。<line-break>弱いやつは邪魔なだけだからな。<line-break>仕事の選択は、お前に任せる。<line-break>では、町を出るときに合流しよう。<end>"
+korean = "일을 해내면서 강해져라. 약한 녀석은 방해만 되니까. 어떤 일을 고를지는 네게 맡긴다. 그럼 마을을 나갈 때 합류하지.<end>"
+
 ["690010"]
 japanese = "…<value:$28>、<line-break>気をつけろ。<end>"
 korean = "…<value:$28>, 조심해.<end>"
@@ -260,6 +264,10 @@ korean = "…<value:$28>, 인가.발목은 잡지 마라.<end>"
 japanese = "なんだと、こいつ！<line-break>もういっぺん言って見ろ！<end>"
 korean = "뭐라고, 이 녀석! 다시 한 번 말해 봐!<end>"
 
+["690138"]
+japanese = "…フッ<line-break>相手を見て突っかかるのだな。　<line-break>　<line-break>無謀な挑戦は、自分だけではなく<line-break>周りの人間にも迷惑がかかる。<line-break>…覚えておけ。<end>"
+korean = "…흥. 상대를 보고 덤벼라. 무모한 도전은 자신뿐 아니라 주변 사람에게도 폐를 끼친다. …명심해.<end>"
+
 ["690139"]
 japanese = "…くそっ！<end>"
 korean = "…젠장!<end>"
@@ -404,6 +412,10 @@ korean = "별로…<end>"
 japanese = "チャカは少し頭が悪くなった。<line-break>ＩＮＴが１下がった。<line-break>　<line-break>チャカは少し打たれ強くなった。<line-break>ＶＩＴが１上がった。<end>"
 korean = "차카는 조금 머리가 나빠졌다. INT가 1 내려갔다. 차카는 조금 맷집이 좋아졌다. VIT가 1 올랐다.<end>"
 
+["690217"]
+japanese = "すごい自信よね。　　　　　　　<line-break>　<line-break>　<line-break>オッシ先生が言ってたわ。<line-break>実力があっても、かえってそれで<line-break>目をふさがれて、自滅するって。<end>"
+korean = "대단한 자신감이네. 오시 선생님이 그러셨어. 실력이 있어도 오히려 그 때문에 눈이 가려져 자멸한다고.<end>"
+
 ["690218"]
 japanese = "なんか、かっこいいよね。セラってさ。<line-break>ちょっと、気になるかな。<line-break>　<line-break>…ってボクが言ったら<line-break><value:$28>は気になる？<end>"
 korean = "뭔가 멋있지, 세라는. 조금 신경 쓰인달까. …내가 그렇게 말하면 <value:$28>은 신경 쓰여?<end>"
@@ -483,6 +495,10 @@ korean = "…당신만은 어째서인지 의심을 거둘 수 없는 모양이�
 ["690250"]
 japanese = "…なぜだか、<line-break>思い出せないのか。<end>"
 korean = "…왜인지 기억이 안 나는 건가.<end>"
+
+["690255"]
+japanese = "お前が身を守れば、お前は奴らの<line-break>敵だったことが証明される。<line-break>　<line-break>かくて、正義の名の下に<line-break>奴らの刃がお前を襲う。<line-break>…つぎつぎとな。<end>"
+korean = "네가 자신을 지키면 네가 놈들의 적이었다는 게 증명된다. 그리하여 정의의 이름 아래 놈들의 칼날이 너를 덮친다. …차례차례 말이지.<end>"
 
 ["690256"]
 japanese = "そうじゃ。なれば、<line-break>地上から奴らを消せばいい。　　　<line-break>　<line-break>奴らがお前にすることを<line-break>ただ、やり返してやればいい。<line-break>　<end>"

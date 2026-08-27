@@ -76,9 +76,17 @@ korean = "서, 설마… 네메아…!<end>"
 japanese = "こ、この人が！？<end>"
 korean = "이, 이 사람이!?<end>"
 
+["1640027"]
+japanese = "…魔王バロルを倒した英雄。<line-break>こんなところで出会えるとは…。<end>"
+korean = "…마왕 바롤을 쓰러뜨린 영웅. 이런 곳에서 만나게 될 줄이야….<end>"
+
 ["1640028"]
 japanese = "下がっていろ。<end>"
 korean = "물러서 있어.<end>"
+
+["1640029"]
+japanese = "貴様もこいつらの仲間か！<line-break>私の妹を殺した冒険者の仲間か！！<end>"
+korean = "네놈도 이 녀석들 동료냐! 내 여동생을 죽인 모험자들의 동료냐!!<end>"
 
 ["1640030"]
 japanese = "そうか……。<line-break>　<line-break>　<line-break>冒険者に妹を殺され、<line-break>その怒りと憎しみで<line-break>闇にむしばまれたか。<end>"
@@ -275,6 +283,14 @@ korean = "언젠가 다시… 도전하겠다….<end>"
 ["1640089"]
 japanese = "また会ったな。<line-break>大丈夫か？<end>"
 korean = "또 만났군. 괜찮나?<end>"
+
+["1640090"]
+japanese = "そうか。<line-break>前に会ったときより、<line-break>たくましくなったな。<end>"
+korean = "그런가. 전에 만났을 때보다 듬직해졌군.<end>"
+
+["1640091"]
+japanese = "あのボルダンを追っていたのだ。<line-break>　<line-break>　<line-break>手当たりしだいに冒険者を襲う<line-break>ボルダンと聞いて、<line-break>闇の手の者かと思ってな。<end>"
+korean = "그 볼단을 쫓고 있었다. 닥치는 대로 모험자를 습격하는 볼단이라길래 어둠의 수하인가 싶어서 말이지.<end>"
 
 ["1640092"]
 japanese = "竜王の覚醒は聞いたか？<end>"

@@ -280,6 +280,10 @@ korean = "…마룬, 미안하다 고브.<end>"
 japanese = "ええ～！？<end>"
 korean = "에에~!?<end>"
 
+["620094"]
+japanese = "それだけはもうイヤゴブ！　　　　　<line-break>　<line-break>　<line-break>ゴブゴブ団の団長として、個人より<line-break>組織を優先しなければならないことも<line-break>あるのでゴブ。<end>"
+korean = "그것만은 이제 싫다 고브! 고브고브단의 단장으로서 개인보다 조직을 우선해야 할 때도 있다 고브.<end>"
+
 ["620095"]
 japanese = "そ、そんな～！　ひどいゴブ～！<end>"
 korean = "그, 그런~! 너무하잖아고블~!<end>"
@@ -563,6 +567,10 @@ korean = "제 집에 다툼을 끌고 오지는 말아 주세요.<end>"
 ["620211"]
 japanese = "…無限のソウルを持つ者？<line-break><line-break><line-break>フフフ。<line-break>運命の女神はどうしてこう<line-break>あざといことが好きなんでしょうねえ。<end>"
 korean = "…무한의 소울을 가진 자? 후후후. 운명의 여신은 어째서 이렇게 얄미운 장난을 좋아하는 걸까요.<end>"
+
+["620212"]
+japanese = "<value:$28>、下がって…。<line-break>あなたのかなう…相手じゃ…ない…。<end>"
+korean = "<value:$28>, 물러나…. 네가 감당할… 상대가… 아니야….<end>"
 
 ["620213"]
 japanese = "お願い、<value:$28>。<line-break>私、あなたを守りたいの…。<end>"
@@ -907,6 +915,10 @@ korean = "미사용<end>"
 ["620362"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
+
+["620363"]
+japanese = "あ、いらっしゃいませー。<line-break>ここはロストールで一番大きな酒場<line-break>なんですよ。<line-break>あのー、ご用がありましたら<line-break>何でも私に言いつけてくださいね！<end>"
+korean = "아, 어서 오세요. 여기는 로스토올에서 가장 큰 술집이에요. 필요하신 게 있으면 뭐든 제게 말씀해 주세요!<end>"
 
 ["620364"]
 japanese = "ほら、<value:$28>、<line-break>さっさとギルドに登録しちゃいましょ。<line-break>　<end>"

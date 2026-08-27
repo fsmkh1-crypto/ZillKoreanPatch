@@ -428,6 +428,10 @@ korean = "아, 벌써 돌아가시나요?<end>"
 japanese = "残念です。<line-break>また、いらしてくださいね。<end>"
 korean = "아쉽네요. 다음에 또 와 주세요.<end>"
 
+["640169"]
+japanese = "<value:$28>様は、レムオン様と<line-break>似ていらっしゃらないのですね。　　<end>"
+korean = "<value:$28>님은 레몬 님과 닮지 않으셨군요.<end>"
+
 ["640172"]
 japanese = "いいのです。あの人の<line-break>肩を持つ必要はありませんわ。　　<line-break>　<line-break>だいたい<line-break>私、あの人を婚約者だなんて<line-break>認めておりません。<end>"
 korean = "괜찮아요. 그 사람 편을 들어 줄 필요는 없어요. 애초에 전 그 사람을 약혼자라고 인정하지도 않아요.<end>"

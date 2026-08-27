@@ -4,6 +4,10 @@
 japanese = "旅立ち０９メッセージ<end>"
 korean = "여행 출발 09 메시지<end>"
 
+["360002"]
+japanese = "（まさか、　モンスターに<line-break>　操られているんじゃ…。　）　　<end>"
+korean = "(설마 몬스터에게 조종당하고 있는 건…. )<end>"
+
 ["360003"]
 japanese = "（やっぱり、母さん、<line-break>　いない…。）<end>"
 korean = "(역시 엄마는 없어….)<end>"
@@ -15,6 +19,10 @@ korean = "(유적 쪽으로 간다….　…뒤쫓자)<end>"
 ["360006"]
 japanese = "<value:$28>…。<line-break>ここはお前の来るところではないわ。<line-break>いい？　二度と来ないの。<end>"
 korean = "<value:$28>…. 여긴 네가 올 곳이 아니야. 알겠지? 다시는 오지 마.<end>"
+
+["360009"]
+japanese = "お前に出会って<line-break>もう１７年になるのね。　　　　　　<line-break>　<line-break>ずっと、こうしていたかったけれど、<line-break>運命はそれを許しては<line-break>くれないようね。<end>"
+korean = "너를 만난 지도 벌써 17년이구나. 계속 이렇게 있고 싶었지만 운명은 그걸 허락하지 않는 모양이네.<end>"
 
 ["360010"]
 japanese = "おいで、<value:$28>。<end>"
@@ -43,6 +51,10 @@ korean = "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<en
 ["360019"]
 japanese = "そうね。<end>"
 korean = "그러네.<end>"
+
+["360020"]
+japanese = "ヴァシュタールを目覚めさせぬのは、<line-break>我らが主への裏切りだぞ。<end>"
+korean = "바슈타르를 깨우지 않는 건 우리 주인에 대한 배신이다.<end>"
 
 ["360021"]
 japanese = "フフ、裏切り者の私を殺しに来たの？<line-break>円卓騎士バルザー。<end>"
@@ -92,6 +104,10 @@ korean = "…알고 싶어 하지?<end>"
 japanese = "そーれ。<end>"
 korean = "자아.<end>"
 
+["360040"]
+japanese = "お母さんのこと、光る石のこと、<line-break>…卵の中身が気になるんだろ？<end>"
+korean = "엄마 일, 빛나는 돌 일, …알 속이 신경 쓰이지?<end>"
+
 ["360041"]
 japanese = "ねぇ、僕が卵を割ってあげるよ。<line-break>卵の中身を見せたげる。<end>"
 korean = "있지, 내가 알을 깨 줄게. 알 속을 보여 줄게.<end>"
@@ -111,6 +127,10 @@ korean = "또… 깨어나고 만 건가…?<end>"
 ["360046"]
 japanese = "おはよ、破壊神ウルグの円卓騎士<line-break>ヴァシュタール。<end>"
 korean = "좋은 아침, 파괴신 울그의 원탁기사 바슈타르.<end>"
+
+["360047"]
+japanese = "アスティアでは…ない…？<line-break>人間にこのようなことが可能なのか？<end>"
+korean = "아스티아가… 아니라고…? 인간에게 이런 일이 가능한가?<end>"
 
 ["360048"]
 japanese = "なるほど、<line-break>無限のソウルの持ち主か…。<end>"
@@ -155,6 +175,10 @@ korean = "<value:$28>, 도망쳐! 이 마을을 떠나! 나도 곧 뒤따라갈�
 ["360063"]
 japanese = "お願い！　逃げて！<end>"
 korean = "부탁이야! 도망쳐!<end>"
+
+["360064"]
+japanese = "お母さんの言うことを<line-break>聞いといた方がいいよ。　　<line-break>　<line-break>もうすぐここの住民は<line-break>ヴァシュタールに魂を<line-break>吸い取られちゃう。<end>"
+korean = "엄마 말은 듣는 게 좋아. 곧 이곳 주민들은 바슈타르에게 영혼을 빼앗기게 될 거야.<end>"
 
 ["360065"]
 japanese = "君のお母さんなら大丈夫さ。<line-break>破壊神ウルグに仕える<line-break>円卓騎士のひとりだもん。<line-break>ものすごく強いんだから！<line-break>やられはしないよ。<end>"

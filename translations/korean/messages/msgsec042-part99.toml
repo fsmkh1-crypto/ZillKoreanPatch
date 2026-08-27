@@ -224,6 +224,10 @@ korean = "…영웅이다. 하지만……. <end>"
 japanese = "未使用<line-break><line-break><end>"
 korean = "미사용<end>"
 
+["420098"]
+japanese = "…俺はここの領主だ。<line-break>領地の平定を第一に考えねばならん。<end>"
+korean = "…나는 이곳의 영주다. 영지의 평정을 최우선으로 생각해야 한다.<end>"
+
 ["420099"]
 japanese = "俺は王都へ帰る。<line-break>あとの細かい処理は任せたぞ。<end>"
 korean = "나는 왕도로 돌아간다. 나머지 세세한 처리는 맡기마.<end>"
@@ -335,6 +339,10 @@ korean = "재미있겠네<end>"
 ["420152"]
 japanese = "かもしれない。　　　　　　　　　　<line-break>　<line-break>　<line-break>だが、火のないところに<line-break>煙は立たないとも言う。<line-break>この噂にも何かの実体はあるはずだ。<end>"
 korean = "그럴지도 모르지. 하지만 아니 땐 굴뚝에 연기 나랴는 말도 있어. 이 소문에도 뭔가 실체가 있을 거야.<end>"
+
+["420158"]
+japanese = "でも、誰もその猫屋敷に<line-break>たどりついた人はいないんだって。<end>"
+korean = "하지만 아무도 그 고양이 저택에 도착한 사람은 없대.<end>"
 
 ["420159"]
 japanese = "なんだか、変な噂だよね。<end>"
@@ -460,6 +468,10 @@ korean = "후훗.<end>"
 japanese = "うふふ。ありがとうございます。　　<line-break>　<line-break>　<line-break>聖杯はここに持ってきてくれれば<line-break>私が預かります。<end>"
 korean = "후후. 감사합니다. 성배는 여기로 가져오시면 제가 보관하겠습니다.<end>"
 
+["420224"]
+japanese = "それにしても、無限のソウルを<line-break>持つ者ですかぁ…。<line-break>　<line-break>竜王が目覚め、闇の門が開き、<line-break>そして無限のソウルの<line-break>持ち主が現れる…。<end>"
+korean = "그나저나 무한의 소울을 지닌 자라…. 용왕이 눈뜨고 어둠의 문이 열리며, 그리고 무한의 소울을 지닌 자가 나타난다….<end>"
+
 ["420226"]
 japanese = "…いや、これは失礼しました。<line-break>ただの独り言です。<end>"
 korean = "…아니, 실례했습니다. 그냥 혼잣말입니다.<end>"
@@ -540,9 +552,17 @@ korean = "…일단 따라와.<end>"
 japanese = "雌狐に…エリス王妃に　　　<line-break>呼ばれているのだ。<end>"
 korean = "암여우… 엘리스 왕비에게 불려 가는 중이다.<end>"
 
+["420265"]
+japanese = "ノーブルの<value:$28>か。<line-break>どうした。俺の手下になりに来たか？<end>"
+korean = "노블의 <value:$28>인가. 왜 왔지? 내 부하가 되러 왔나?<end>"
+
 ["420266"]
 japanese = "今は忙しいのだ。<line-break>急いで用件を言え。<end>"
 korean = "지금은 바쁘다. 용건을 빨리 말해라.<end>"
+
+["420267"]
+japanese = "何を口ごもるっている？<line-break>とりあえず、ついてこい。<line-break><line-break>今は急いでいるのだ。<line-break>雌狐に…エリス王妃に<line-break>呼ばれているのでな。<end>"
+korean = "뭘 우물거리고 있나? 일단 따라와. 지금은 서둘러야 한다. 암여우… 엘리스 왕비에게 불려 가는 중이라서.<end>"
 
 ["420269"]
 japanese = "<value:$28>様も女性の身なれば、　　<line-break>そろそろ宮廷にデビューなさり、<line-break>よい殿方を見つけてですな…<end>"
@@ -551,6 +571,10 @@ korean = "<value:$28>님도 여성의 몸이시니 이제 궁정에 데뷔하시
 ["420274"]
 japanese = "なに！？　<value:$28>が<line-break>寝込んでいるだと？　　　　　　　<line-break><line-break>あの女にもそんなことがあるのか？<end>"
 korean = "뭐라고!? <value:$28>이 앓아누웠다고? 그 여자도 그런 일이 있나?<end>"
+
+["420276"]
+japanese = "繊細が聞いてあきれる。<line-break>どれ、寝顔でも見にいってやるか。<end>"
+korean = "섬세하단 말이 어이가 없군. 어디, 자는 얼굴이나 보러 갈까.<end>"
 
 ["420278"]
 japanese = "寝汚そうな奴だ。<line-break>殺したって起きぬぞ。<end>"
@@ -584,6 +608,10 @@ korean = "그럼 다녀오세요.<end>"
 japanese = "これは、<value:$28>様、<line-break>お帰りなさいませ。<end>"
 korean = "이런, <value:$28>님. 돌아오셨군요.<end>"
 
+["420291"]
+japanese = "（確か、誰かがスラムで<line-break>　待っているっんだったっけ…。）<end>"
+korean = "(그러고 보니 누군가 슬럼에서 기다리고 있었지…. )<end>"
+
 ["420292"]
 japanese = "ん？<end>"
 korean = "응?<end>"
@@ -591,6 +619,10 @@ korean = "응?<end>"
 ["420293"]
 japanese = "待て、<value:$28>。<end>"
 korean = "기다려, <value:$28>.<end>"
+
+["420296"]
+japanese = "なあ？　もうずいぶん歩いたけど<line-break>これからどこへ行くんだ？<end>"
+korean = "있잖아? 꽤 오래 걸었는데 이제 어디로 가는 거야?<end>"
 
 ["420297"]
 japanese = "王城だ。<line-break>　<end>"

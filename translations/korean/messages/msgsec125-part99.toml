@@ -8,6 +8,14 @@ korean = "현무장군이 직접 지명한 의뢰!? 그건 기회야! 당연히 
 japanese = "ディンガルの内務統括殿とはいろいろと<line-break>あってな、ワシは参加できん。<line-break>すまぬな、<value:$28>。<end>"
 korean = "딩갈의 내무 총괄과는 여러 일이있어서, 나는 참가할 수 없다.미안하군, <value:$28>.<end>"
 
+["1250005"]
+japanese = "俺をさしおいて、なんでお前が<line-break>名指しの依頼を受けるんだよ。<line-break>ちっ、面白くねぇなぁ！<line-break>さっさとエンシャントの政庁に<line-break>行っちまえってんだ。<end>"
+korean = "나를 제쳐 두고 왜 네가 지명 의뢰를 받는 거야. 쳇, 재미없네! 빨리 엔샨트 정청으로 가 버리라고.<end>"
+
+["1250007"]
+japanese = "ザギヴから手紙？<line-break>珍しいこともあるものね。<line-break><line-break>何か裏があるかもしれないけど、<line-break>エンシャントへ行くかどうかは、<line-break>あなたに任せるわ。<end>"
+korean = "자기브에게서 편지? 별일이네. 뭔가 속셈이 있을지도 모르지만 엔샨트에 갈지는 네게 맡길게.<end>"
+
 ["1250008"]
 japanese = "ザギヴさんがあなたにお手紙を？<line-break>ほう、それはそれは…。<line-break><line-break>彼女の力になってあげてくださいね。<line-break><value:$28>。<end>"
 korean = "자기브 씨가 당신에게 편지를요? 오, 그건…. 그녀에게 힘이 되어 주세요, <value:$28>.<end>"
@@ -28,6 +36,10 @@ korean = "자기브 씨에게서 편지가 왔어? 물론 <value:$28>은 엔샨�
 japanese = "………………。<line-break><line-break><line-break>エンシャントの政庁へ行け。<end>"
 korean = "………………. 엔샨트 정청으로 가라.<end>"
 
+["1250021"]
+japanese = "音に聞こえし玄武将軍ザギヴも、<line-break>案外ぬるいものだな。<line-break><line-break>フッ…まあ、<line-break>ディンガルの内情を探るのも<line-break>悪くはないのかもしれん。<end>"
+korean = "명성 높은 현무 장군 자기브도 의외로 물렁하군. 흥… 뭐, 딘갈의 속사정을 살피는 것도 나쁘진 않겠지.<end>"
+
 ["1250022"]
 japanese = "玄武将軍からの依頼が来たって？<line-break>ぼくの広報活動が実ったんだね！<line-break><line-break>さあ、エンシャントの政庁へ行って、<line-break>話を聞こうよ！<end>"
 korean = "현무장군에게서 의뢰가 왔다고? 내 홍보 활동이 결실을 맺었네! 자, 엔샨트 정청으로 가서 이야기를 들어 보자!<end>"
@@ -39,6 +51,10 @@ korean = "<value:$28>님. 제국 중추부와 카를라 사이에 의견 충돌�
 ["1250025"]
 japanese = "こっそり教えるけどね、ザギヴは<line-break>東の方を見に出かけるらしいの。<line-break> <line-break><value:$28>には、護衛を<line-break>お願いするつもりなんじゃないかな？<end>"
 korean = "몰래 알려 주는 건데, 자기브는 동쪽을 보러 나갈 모양이야. <value:$28>에게 호위를 부탁하려는 거 아닐까?<end>"
+
+["1250027"]
+japanese = "玄武将軍ザギヴからの手紙か…。<line-break>エンシャントの政庁に出向けと？<line-break><line-break>すべてを疑えとは言えないが、<line-break>十分気をつけるんだぞ、<line-break><value:$28>。<end>"
+korean = "현무 장군 자기브의 편지인가…. 엔샨트 정청으로 오라고? 모든 걸 의심하라고 할 순 없지만 충분히 조심해, <value:$28>.<end>"
 
 ["1250029"]
 japanese = "すごいわね、<line-break>玄武将軍じきじきの依頼だなんて！<line-break>あなたも有名になったのね。<line-break>でもザギヴは結構なやり手らしいし<line-break>油断は禁物よ。<end>"
@@ -63,6 +79,10 @@ korean = "제네테스 구출 보게 제네테스 구출 보게 제네테스 구
 ["1250052"]
 japanese = "………………。<line-break><line-break><line-break>…ゼネテスを救うのか？<end>"
 korean = "………………. …제네테스를 구할 건가?<end>"
+
+["1250053"]
+japanese = "クーデターを起こしたのは私だ。<line-break>貴様も私の元へ来るがいい…。<end>"
+korean = "쿠데타를 일으킨 건 나다. 네놈도 내게 오너라….<end>"
 
 ["1250056"]
 japanese = "<value:$28>様。<line-break>王女様の安否はお任せください。<line-break>お早く謁見の間へ！<end>"
@@ -184,6 +204,10 @@ korean = "네메아 님이 없다고 반란을 일으키다니…. 지라크 장
 japanese = "血迷ったな、ジラーク。<line-break><line-break><line-break>ネメア様の厚意をふいにして<line-break>一種族のための反乱に走るとは…<line-break>見損なったわ。<end>"
 korean = "정신이 나갔군, 지라크. 네메아 님의 호의를 저버리고 한 종족만을 위한 반란을 일으키다니… 실망했어.<end>"
 
+["1250141"]
+japanese = "フッ、馬鹿め、<line-break>かえって寿命を縮めたな。<line-break><line-break>コーンスだろうが人間だろうが、<line-break>道を踏み誤れば奈落へ落ちる。<line-break>そういうものだ。<end>"
+korean = "흥, 바보 같으니. 오히려 수명을 줄였군. 코른스든 인간이든 길을 잘못 들면 나락으로 떨어진다. 그런 법이지.<end>"
+
 ["1250143"]
 japanese = "きみにわかってもらおうとは<line-break>思わないよ、<value:$28>。<line-break><line-break>きみは人間で、僕はコーンス。<line-break>生まれた時からそうだったんだもの…。<line-break><end>"
 korean = "네가 이해해 주길 바라진 않아, <value:$28>. 넌 인간이고 나는 코른스야. 태어날 때부터 그랬으니까….<end>"
@@ -191,6 +215,10 @@ korean = "네가 이해해 주길 바라진 않아, <value:$28>. 넌 인간이�
 ["1250144"]
 japanese = "待てなかったか、ジラーク…。<end>"
 korean = "기다리지 못했나, 질라크….<end>"
+
+["1250149"]
+japanese = "いつかこのような日が来るとは<line-break>予想していた。<line-break><line-break>それがたまたま今で、<line-break>たまたまコーンスだっただけだ。<line-break>それ以上、言うことはない。<end>"
+korean = "언젠가 이런 날이 올 거라 예상했다. 그게 우연히 지금이고 우연히 코른스였을 뿐이다. 그 이상 할 말은 없다.<end>"
 
 ["1250152"]
 japanese = "<value:$28>様、<line-break>コーンスという、<line-break>哀しき一族を助けなくては。<line-break>私も妹も、そのために助力を<line-break>惜しんだりはいたしません。<end>"
@@ -216,6 +244,10 @@ korean = "나지! 젠장! 그 녀석까지 반란에 가담하다니! 그러면�
 japanese = "あの優しいナッジが、<line-break>あんなことに加わるなんて…。<line-break><line-break>アルノートゥンに行こうっ、<line-break><value:$28>！<end>"
 korean = "그 착한 나지가 그런 일에 가담하다니…. 알노툰으로 가자, <value:$28>!<end>"
 
+["1250173"]
+japanese = "フッ、馬鹿め、<line-break>かえって寿命を縮めたな。<line-break><line-break>コーンスだろうが人間だろうが、<line-break>道を踏み誤れば奈落へ落ちる。<line-break>そういうものだ。<end>"
+korean = "흥, 바보 같으니. 오히려 수명을 줄였군. 코른스든 인간이든 길을 잘못 들면 나락으로 떨어진다. 그런 법이지.<end>"
+
 ["1250175"]
 japanese = "<value:$28>、ごめんよ。<line-break>でも、きみを裏切るつもりじゃない。<line-break>コーンスの未来のためなんだ！<end>"
 korean = "<value:$28>, 미안해. 하지만 널 배신할 생각은 없어. 콘스의 미래를 위해서야!<end>"
@@ -228,6 +260,10 @@ korean = "기다리지 못했나, 질라크….<end>"
 japanese = "戦争で解決するなんて、<line-break>力で勝てばいいだなんて…！<line-break>そんなの、間違ってるよぉ！<line-break><value:$28>、<line-break>お願い、やめさせて！<end>"
 korean = "전쟁으로 해결한다니, 힘으로 이기면 된다니…! 그런 건 잘못됐어! <value:$28>, 부탁이야, 막아 줘!<end>"
 
+["1250181"]
+japanese = "いつかこのような日が来るとは<line-break>予想していた。<line-break><line-break>それがたまたま今で、<line-break>たまたまコーンスだっただけだ。<line-break>それ以上、言うことはない。<end>"
+korean = "언젠가 이런 날이 올 거라 예상했다. 그게 우연히 지금이고 우연히 코른스였을 뿐이다. 그 이상 할 말은 없다.<end>"
+
 ["1250184"]
 japanese = "<value:$28>様、<line-break>コーンスという、<line-break>哀しき一族を助けなくては。<line-break>私も妹も、そのために助力は<line-break>惜しんだりはいたしません。<end>"
 korean = "<value:$28>님, 코른스라는 슬픈 일족을 도와야 합니다. 저도 제 여동생도 그 일을 위해 힘을 아끼지 않겠습니다.<end>"
@@ -235,6 +271,10 @@ korean = "<value:$28>님, 코른스라는 슬픈 일족을 도와야 합니다. 
 ["1250185"]
 japanese = "<value:$28>、<line-break>もちろん、アルノートゥンに<line-break>行くんだよね？<line-break>ヴァイにも聞いてみて、<line-break>私たちも力を貸すつもりだよ！<end>"
 korean = "<value:$28>, 물론 알노트운에 갈 거지? 바위에게도 물어보고 우리도 힘을 보탤 생각이야!<end>"
+
+["1250191"]
+japanese = "まさかナッジさんまで<line-break>反乱に参加するなんて。<line-break>　<line-break>ナッジさんは仲間です。<line-break>それと戦うなんて…。<line-break>どうすればいいんでしょうか…。<end>"
+korean = "설마 나지 씨까지 반란에 참가하다니. 나지 씨는 동료예요. 그 사람과 싸우다니…. 어떻게 해야 하죠….<end>"
 
 ["1250193"]
 japanese = "（カルラの後を追わないと…）<end>"
@@ -251,6 +291,10 @@ korean = "두고 가다니… 좀 너무한 거 아냐?<end>"
 ["1250198"]
 japanese = "えっ？　もう、行っちゃった？<line-break>急いで追いかけないと！<end>"
 korean = "뭐? 벌써 가 버렸어? 서둘러 쫓아가야 해!<end>"
+
+["1250199"]
+japanese = "好機を逃さないってことかしら。<line-break>カルラらしいわ。<line-break><line-break>でも、この強行軍についていける兵は<line-break>少ないはず。<line-break>追いかけた方が良さそうね。<end>"
+korean = "기회를 놓치지 않겠다는 건가. 카를라답네. 하지만 이 강행군을 따라갈 병사는 적을 거야. 쫓아가는 게 좋겠어.<end>"
 
 ["1250201"]
 japanese = "お留守番しといてね。<end>"
@@ -312,6 +356,10 @@ korean = "벨제바 님…. ……………….<end>"
 japanese = "湖に沈んだ遺跡？<line-break><line-break><line-break>そうだな…<line-break>夢幻の湖がそんな感じだな。<line-break>行ってみるかい？<end>"
 korean = "호수에 가라앉은 유적? 그렇군… 몽환의 호수가 그런 느낌이지. 가 볼래?<end>"
 
+["1250237"]
+japanese = "湖に沈んだ遺跡か…<line-break>魔法で守られているのであれば、<line-break>そう簡単には見つけることはできない。<line-break>面倒だが地道に探すしか<line-break>ないのかもしれん。<end>"
+korean = "호수에 가라앉은 유적인가…. 마법으로 보호받고 있다면 쉽게 찾을 순 없겠지. 번거롭지만 차근차근 찾는 수밖에 없을지도 모르겠군.<end>"
+
 ["1250238"]
 japanese = "湖に沈んだ遺跡？<line-break>見つけたとしても、どうやって<line-break>そこにいけばいいのかのう？<line-break>泳ぐのは苦手じゃしな。<end>"
 korean = "호수에 가라앉은 유적? 찾는다 해도 어떻게 거기까지 가지? 난 수영도 서툰데.<end>"
@@ -319,6 +367,10 @@ korean = "호수에 가라앉은 유적? 찾는다 해도 어떻게 거기까지
 ["1250239"]
 japanese = "湖に沈んだ遺跡かぁ…<line-break>心辺りがないなぁ。<line-break><line-break>僕のあまり知らない大陸の南側に<line-break>あるのかもしれないね。<end>"
 korean = "호수에 가라앉은 유적이라…. 짐작 가는 데가 없네. 내가 잘 모르는 대륙 남쪽에 있을지도 몰라.<end>"
+
+["1250241"]
+japanese = "ベルゼーヴァが消えた先？<line-break>湖に沈んだ遺跡？<line-break><line-break>高貴で優雅で知性あふれるエルフには<line-break>下等生物の作った遺跡なんて<line-break>関係ないわ。<end>"
+korean = "벨제바가 사라진 곳? 호수에 가라앉은 유적? 고귀하고 우아하며 지성 넘치는 엘프에겐 하등생물이 만든 유적 따윈 상관없어.<end>"
 
 ["1250242"]
 japanese = "ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<line-break>ベルゼ成功のボゲー<end>"
@@ -339,6 +391,10 @@ korean = "호수에 가라앉은 유적인가…. 전에 에스트에게 몽환�
 ["1250247"]
 japanese = "魔導の塔、夢幻の湖…。<line-break><line-break><line-break>私は、そこへ禁呪を求めに行ったのだ。<line-break>人間の、さらなる進歩のために…！<end>"
 korean = "마도의 탑, 몽환의 호수…. 나는 그곳에 금주를 찾으러 갔다. 인간의 더 큰 진보를 위해…!<end>"
+
+["1250250"]
+japanese = "そうか…聖の禁呪が眠るとされる<line-break>遺跡は湖に眠っているのじゃな。<line-break>そうじゃな…。<line-break>長く旅をしているものなら知っている<line-break>かもしれん。<end>"
+korean = "그렇군… 성의 금주가 잠들었다는 유적은 호수에 잠들어 있구나. 그래…. 오래 여행한 사람이라면 알고 있을지도 모르지.<end>"
 
 ["1250251"]
 japanese = "魔導の塔や新月の塔には<line-break>強大無比な魔法が封じられたと<line-break>聞いているが…。湖か。<line-break>すまない。力になれそうもない。<end>"
@@ -376,6 +432,10 @@ korean = "벨제바가 사라진 곳을 찾고 있다고요? 신월의 탑이나
 japanese = "魔導の塔、夢幻の湖…。<line-break><line-break><line-break>私は、そこへ禁呪を求めに行ったのだ。<line-break>人間の、さらなる進歩のために…！<end>"
 korean = "마도의 탑, 몽환의 호수…. 나는 그곳에 금주를 찾으러 갔다. 인간의 더 큰 진보를 위해…!<end>"
 
+["1250283"]
+japanese = "人類の革新には大きな力が必要だ。<line-break>とすれば、魔道の塔や新月の塔は<line-break>どうだろう？<line-break>あそこにはかつて、<line-break>強大無比な魔法が封じられたと聞く。<end>"
+korean = "인류의 혁신에는 큰 힘이 필요하다. 그렇다면 마도의 탑이나 신월의 탑은 어떨까? 그곳에는 과거 강대무비한 마법이 봉인되었다고 들었다.<end>"
+
 ["1250285"]
 japanese = "ちょっとわからないわ。<line-break>でも革新って言うくらいだし<line-break>強力な力が必要よね。<line-break>どこか強力な力が封じられた場所に<line-break>いるんじゃない？<end>"
 korean = "잘 모르겠어. 그래도 혁신이라고 할 만큼 강한 힘이 필요하겠지. 어디 강력한 힘이 봉인된 곳에 있는 거 아닐까?<end>"
@@ -412,6 +472,10 @@ korean = "저건 신 같은 게 아니야. 난 알아. 녀석들은 엔샨트 �
 japanese = "この大地を闇の眷属の好きにさせる<line-break>訳にはいけない。<line-break>行くぞ！　<value:$28>。<end>"
 korean = "이 대지를 어둠의 권속들 마음대로 하게 둘 수는 없다. 가자, <value:$28>!<end>"
 
+["1250341"]
+japanese = "人の弱さが産んだ<line-break>造られし神…。<line-break>悲しい存在だな。<line-break>しかし…倒さねばなるまい。<line-break>やつらは闇の深いところにいる。<line-break>逃がすな。<end>"
+korean = "사람의 나약함이 낳은 만들어진 신…. 슬픈 존재군. 하지만… 쓰러뜨려야 한다. 놈들은 깊은 어둠 속에 있다. 놓치지 마.<end>"
+
 ["1250343"]
 japanese = "人間は自らの力で未来を切り開く。<line-break>神に…造られた神などに<line-break>未来を委ねる訳にはいかない。<line-break>我々は人類の未来を取り戻すのだ！<end>"
 korean = "인간은 자신의 힘으로 미래를 개척한다. 신에게… 만들어진 신 따위에게 미래를 맡길 수는 없다. 우리는 인류의 미래를 되찾는 것이다!<end>"
@@ -423,6 +487,10 @@ korean = "저게 신이라 해도 저런 것에게 우리 미래를 정하게 �
 ["1250353"]
 japanese = "（イーシャは<line-break>　ほほに傷のある男を<line-break>　捜しているらしい）<line-break>（アルノートゥンのイオンズを<line-break>　訪ねてみよう）<end>"
 korean = "(이샤는 뺨에 흉터가 있는 남자를 찾고 있는 모양이다) (알노툰의 이온즈를 찾아가 보자)<end>"
+
+["1250355"]
+japanese = "ほほに傷のある男？<line-break>心当たりがありすぎて<line-break>見当もつかんな。<line-break>傭兵や冒険者をしておれば、<line-break>顔に傷がつくのも<line-break>珍しくないのでな。<end>"
+korean = "뺨에 상처가 있는 남자? 짚이는 사람이 너무 많아서 모르겠군. 용병이나 모험자를 하다 보면 얼굴에 상처가 생기는 것도 드문 일이 아니니까.<end>"
 
 ["1250362"]
 japanese = "姉ちゃん、他に特徴はないのか？<line-break>それだけじゃわかんねえよ。<end>"

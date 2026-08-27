@@ -8,6 +8,10 @@ korean = "노엘2용 메시지 V2 시작<end>"
 japanese = "あ、<value:$28>さん！<end>"
 korean = "아, <value:$28> 씨!<end>"
 
+["1170002"]
+japanese = "わたしです。ノエルです！<line-break>シルヴァの村でお世話になりました。<end>"
+korean = "저예요. 노엘입니다! 실바 마을에서 신세졌어요.<end>"
+
 ["1170004"]
 japanese = "ノエルもがんばっているんだね<end>"
 korean = "노엘도 열심히 하고 있구나<end>"
@@ -63,6 +67,10 @@ korean = "아, 그렇네요.<end>"
 ["1170021"]
 japanese = "それじゃあ、<line-break><value:$28>さん。<line-break>わたしたち、もう行きます。<line-break>あの、<value:$28>さんも<line-break>がんばってくださいね。<end>"
 korean = "그럼 <value:$28>님. 저희는 이제 가겠습니다. 저기, <value:$28>님도 힘내세요.<end>"
+
+["1170022"]
+japanese = "えと、わたしもがんばりますから、<line-break>それじゃあ、失礼します！<end>"
+korean = "저, 저도 열심히 할 테니까요. 그럼 실례하겠습니다!<end>"
 
 ["1170023"]
 japanese = "あ、ノエル。<line-break>…フフ、しょうがない子ね。<end>"

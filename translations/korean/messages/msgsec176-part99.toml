@@ -36,6 +36,10 @@ korean = "누른다<end>"
 japanese = "何かの装置が作動したようだ。<end>"
 korean = "무언가의 장치가 작동한 것 같다.<end>"
 
+["1760024"]
+japanese = "床からトゲの罠を発見した。<line-break>しかし、解除してあるようだ。<end>"
+korean = "바닥에서 가시 함정을 발견했다. 하지만 이미 해제되어 있는 것 같다.<end>"
+
 ["1760028"]
 japanese = "引かない<end>"
 korean = "당기지 않는다<end>"
@@ -80,6 +84,14 @@ korean = "왜 내가 널 제자로 골랐는지 알고 싶지?<end>"
 japanese = "そこへ現れたのが<line-break><value:$28>…お前よ！<end>"
 korean = "그때 나타난 게 <value:$28>… 바로 너다!<end>"
 
+["1760053"]
+japanese = "世界中の迷宮に挑んで気がついたら　<line-break>３０年も経っとった…。<end>"
+korean = "세계 곳곳의 미궁에 도전하다 정신 차려 보니 30년이나 지나 있었어….<end>"
+
+["1760054"]
+japanese = "左手をなくさんかったら…　　<line-break>自分の勘を信じて、<line-break>あのとき手を引いとったら、<line-break>今頃、まだ世界中を<line-break>旅しとったかもしれんのう…。<end>"
+korean = "왼손을 잃지 않았더라면… 내 감을 믿고 그때 손을 뗐더라면, 지금쯤 아직도 세계를 여행하고 있었을지도 모르겠군….<end>"
+
 ["1760058"]
 japanese = "われは忙しいんじゃろ。<line-break>よっぱらいじじいなんて<line-break>ほっときゃええじゃろが。<line-break>今日はな～んも話すことは<line-break>ありゃせんわい。<end>"
 korean = "자네 바쁘잖아. 술 취한 늙은이는 내버려 둬도 되지. 오늘은 아무 얘기도 할 게 없다네.<end>"
@@ -116,9 +128,17 @@ korean = "무언가의 장치가 작동한 것 같다.<end>"
 japanese = "床からトゲの罠を見つけた<end>"
 korean = "바닥에서 가시 함정을 발견했다<end>"
 
+["1760081"]
+japanese = "床からトゲの罠を発見した。<line-break>しかし、解除してあるようだ。<end>"
+korean = "바닥에서 가시 함정을 발견했다. 하지만 이미 해제되어 있는 것 같다.<end>"
+
 ["1760085"]
 japanese = "なるほど、あいつが宝の番人かいな。<line-break>よくある展開じゃが、あいつを<line-break>倒すしかないようじゃのう。<line-break><value:$28>、出番でぇ！<end>"
 korean = "그렇군, 저 녀석이 보물의 파수꾼인가. 흔한 전개지만 쓰러뜨릴 수밖에 없겠구먼. <value:$28>, 네 차례다!<end>"
+
+["1760089"]
+japanese = "なんやー、<line-break>せっかくほめたのに<line-break>もう、これかいなー。<end>"
+korean = "뭐야, 모처럼 칭찬했더니 벌써 이 모양이냐.<end>"
 
 ["1760091"]
 japanese = "扉はビクともしない。<end>"

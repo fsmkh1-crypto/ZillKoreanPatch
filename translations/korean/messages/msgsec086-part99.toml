@@ -8,6 +8,10 @@ korean = "카를라 메시지 VOL3 시작<end>"
 japanese = "はっ。<value:$28>様で<line-break>ありますね。<line-break>どうぞお通りください！<end>"
 korean = "네. <value:$28> 님이시군요. 지나가십시오!<end>"
 
+["860009"]
+japanese = "なーんか、懐かしいやねー。<line-break>ガムシャラだったあのころがさ。<end>"
+korean = "왠지 그립네. 무작정 달려들던 그 시절이 말이야.<end>"
+
 ["860011"]
 japanese = "ま、そんなわけで<line-break><value:$28>様のお力が必要なの。<line-break>強くなってね。期待してるわ。<end>"
 korean = "뭐, 그런 사정이라 <value:$28>님의 힘이 필요해. 강해져. 기대하고 있을게.<end>"

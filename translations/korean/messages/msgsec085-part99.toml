@@ -24,6 +24,10 @@ korean = "그, 그런! 이런 때에?<end>"
 japanese = "何？　それは本当か？<end>"
 korean = "뭐? 그게 사실인가?<end>"
 
+["850011"]
+japanese = "死にたいなら<line-break>ひとりで死んでちょうだい？<line-break>　<line-break>アタシには、あんたのとは<line-break>比べものにならない、<line-break>すばらしーい人生があるの。<end>"
+korean = "죽고 싶으면 혼자 죽어 줘? 나한텐 네 것과는 비교도 안 되는 멋진 인생이 있으니까.<end>"
+
 ["850012"]
 japanese = "何がお望みかしら？<end>"
 korean = "뭘 원하시나요?<end>"
@@ -252,6 +256,10 @@ korean = "믿고 있을게<end>"
 japanese = "あーら、残念ねーえ？<line-break>ま、いいわ。<line-break>アタシ、待ってるから。　<line-break>その気になったら<line-break>いつでも来てちょうだい。<end>"
 korean = "어머, 아쉽네? 뭐, 좋아. 난 기다릴 테니까 마음이 내키면 언제든 와.<end>"
 
+["850117"]
+japanese = "ハァーイ、こちらを総督府の前まで<line-break>送ってあげてちょうだい？<end>"
+korean = "네, 이쪽 분을 총독부 앞까지 데려다줘.<end>"
+
 ["850118"]
 japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
 korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
@@ -288,6 +296,10 @@ korean = "믿고 있을게<end>"
 japanese = "あらん、また振られちゃったわけね。<line-break>ま、いいわ。アタシ、待ってるから。<line-break>その気になったら<line-break>いつでも来てちょうだい。<end>"
 korean = "어머, 또 차였나 보네. 뭐, 좋아. 난 기다릴 테니까 마음이 내키면 언제든 와.<end>"
 
+["850148"]
+japanese = "ハァーイ、こちらを総督府の前まで<line-break>送ってあげてちょうだい？<end>"
+korean = "네, 이쪽 분을 총독부 앞까지 데려다줘.<end>"
+
 ["850149"]
 japanese = "はっ！　<value:$28>様<line-break>どうぞ、お通りください！<end>"
 korean = "예! <value:$28>님, 들어가십시오!<end>"
@@ -315,6 +327,10 @@ korean = "우선 그녀를 황제로 세우는 것. 알겠지.<end>"
 ["850166"]
 japanese = "頼りにしてるわよ<end>"
 korean = "믿고 있을게<end>"
+
+["850167"]
+japanese = "ハァーイ、こちらを総督府の前まで<line-break>送ってあげてちょうだい？<end>"
+korean = "네, 이쪽 분을 총독부 앞까지 데려다줘.<end>"
 
 ["850168"]
 japanese = "はっ！　<value:$28>様<line-break>どうぞ、お通りください！<end>"

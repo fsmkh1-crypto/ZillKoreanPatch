@@ -4,6 +4,10 @@
 japanese = "（たしかアキュリュースの傭兵として<line-break>　登録したと思うけど…）<line-break><line-break>（アキュリュースの神殿には<line-break>　行ったかな？）<line-break><end>"
 korean = "(분명 아큐류스의 용병으로 등록했던 것 같은데….) (아큐류스 신전에는 갔었나?)<end>"
 
+["1210010"]
+japanese = "あなたが傭兵登録したのは<line-break>アキュリュースだったと思いますよ。<end>"
+korean = "당신이 용병 등록을 한 곳은 아큐류스였던 것 같습니다.<end>"
+
 ["1210019"]
 japanese = "………………。<line-break><line-break><line-break>そうだ、アキュリュースだ。<end>"
 korean = "………………. 그래, 아큐류스다.<end>"
@@ -15,6 +19,10 @@ korean = "응, 아큐류스야! 좀 더 자신감을 가져!<end>"
 ["1210027"]
 japanese = "傭兵登録したのは<line-break>アキュリュースだ。 <line-break>　 <line-break>まあ、あそこはミズチの護りが固いから <line-break>滅多に戦闘にはならないだろうがな。<end>"
 korean = "용병 등록을 한 곳은 아큐류스다. 뭐, 거긴 미즈치의 수비가 단단해서 좀처럼 전투는 없겠지만.<end>"
+
+["1210051"]
+japanese = "………………。<line-break><line-break><line-break>色惑の瞳は邪眼の迷宮にあると聞いた。<line-break>王女の目に光を与えるために必要な<line-break>ものなのだろう。行かないのか？<end>"
+korean = "………………. 색혹의 눈동자는 사안의 미궁에 있다고 들었어. 왕녀의 눈에 빛을 되찾기 위해 필요한 물건이겠지. 안 갈 건가?<end>"
 
 ["1210055"]
 japanese = "邪眼の迷宮にある色惑の瞳…。<line-break>私からもお願いいたします、<line-break><value:$28>様。<line-break>アトレイア様の両目に、再び光を！<end>"
@@ -32,6 +40,10 @@ korean = "내가 모은 정보로는 사룡의 동굴 가장 안쪽에 황천의
 japanese = "黄泉の乙女像は死竜の洞窟の<line-break>一番奥にあるらしいわ。<line-break>それは知っているはずよね？<line-break>早く取りに行った方が<line-break>いいとは思わない？<end>"
 korean = "황천의 소녀상은 사룡의 동굴 가장 깊은 곳에 있다더군. 그건 알고 있겠지? 빨리 가지러 가는 게 좋지 않겠어?<end>"
 
+["1210073"]
+japanese = "姉ちゃん、わかってるって。<line-break>洞窟の一番奥にある<line-break>黄泉の乙女像を探しに行くんだろ。<line-break>それをエンシャントのギルドに<line-break>届ければいいんだよな。<end>"
+korean = "누나, 알고 있다니까. 동굴 가장 안쪽에 있는 황천의 소녀상을 찾으러 가는 거잖아. 그걸 엔샨트 길드에 가져다주면 되는 거지.<end>"
+
 ["1210081"]
 japanese = "黄泉はヨミと読みますでござる。<line-break>黄泉、ヨミ、読み…。<line-break><line-break>兄弟子、聞いておられますか？<end>"
 korean = "황천은 요미라고 읽는 것이오. 황천, 요미, 읽기…. 사형, 듣고 계시오?<end>"
@@ -47,6 +59,10 @@ korean = "사룡의 동굴에 있는 황천의 소녀상을, 엔샨트 길드로
 ["1210092"]
 japanese = "黄泉の乙女像を<line-break>エンシャントのギルドに持ち帰るのが<line-break>あたしたちの今回の仕事よ。<line-break>乙女像は死竜の洞窟の<line-break>一番奥にあるそうよ。<end>"
 korean = "황천의 소녀상을 엔샨트 길드로 가져가는 게 이번 우리 일이야. 소녀상은 사룡의 동굴 가장 안쪽에 있대.<end>"
+
+["1210093"]
+japanese = "死竜の洞窟の一番奥にある<line-break>黄泉の乙女像を持ち帰るのが<line-break>今回の役目です。<line-break>像を見つけたらエンシャントのギルドに<line-break>持って帰りましょう。<end>"
+korean = "사룡의 동굴 가장 안쪽에 있는 황천의 소녀상을 가져오는 게 이번 임무입니다. 상을 찾으면 엔샨트 길드로 가져가죠.<end>"
 
 ["1210102"]
 japanese = "ガルドラン？<line-break>誰、それ。<end>"
@@ -83,6 +99,14 @@ korean = "그만큼 의뢰인이 널 믿고 있다는 뜻이지. 엔샨트 길�
 ["1210156"]
 japanese = "名指しで依頼が来るなんて、<line-break>冒険者として名誉なことよ。<line-break>　<line-break>エンシャントのギルドに行って<line-break>依頼の内容を確かめましょ。<end>"
 korean = "지명 의뢰가 오다니 모험자로서는 영광이지. 엔샨트 길드에 가서 의뢰 내용을 확인하자.<end>"
+
+["1210158"]
+japanese = "名指しで依頼なんて…すごいです！<line-break><value:$28>さんって<line-break>すっごく有名なんですね！<line-break>早くエンシャントのギルドに<line-break>詳しい話を聞きにいきましょう？<end>"
+korean = "지명 의뢰라니… 대단해요! <value:$28>님은 정말 유명하군요! 빨리 엔샨트 길드에 자세한 이야기를 들으러 가죠?<end>"
+
+["1210164"]
+japanese = "なんだよ。<line-break>結局、俺がいなけりゃ<line-break>何も決められないんだな。<line-break>世界中をまわるのさ！<line-break>行ったことのない場所が<line-break>なくなるくらいな！<end>"
+korean = "뭐야. 결국 내가 없으면 아무것도 못 정하잖아. 세계를 다 돌아다니는 거야! 가 보지 않은 곳이 없을 정도로!<end>"
 
 ["1210177"]
 japanese = "どうしようか？ボゲー<end>"

@@ -44,6 +44,10 @@ korean = "좋네요, 자유라는 건….<end>"
 japanese = "自由…。私も自由になりたい…。<end>"
 korean = "자유…. 나도 자유로워지고 싶어….<end>"
 
+["790018"]
+japanese = "でも、あきらめたら最後。<line-break>今度こそ、実験を成功させよっと。<end>"
+korean = "하지만 포기하면 끝이야. 이번에야말로 실험을 성공시켜야지.<end>"
+
 ["790019"]
 japanese = "…きゃっ！<line-break>　<line-break>　<line-break>いらっしゃいませ。<line-break>あ、あなたは…この間の…。<end>"
 korean = "…꺅! 어서 오세요. 아, 당신은… 지난번의….<end>"
@@ -51,6 +55,10 @@ korean = "…꺅! 어서 오세요. 아, 당신은… 지난번의….<end>"
 ["790021"]
 japanese = "きゃっ、誰かと思えば…。<end>"
 korean = "꺅, 누군가 했더니….<end>"
+
+["790022"]
+japanese = "え？<line-break>魔道アカデミー？<line-break>アカデミーが破壊された？　　　<line-break>な、なんのこと？<line-break>さっぱりわかんない。<line-break>ええ、もう…ちんぷんかんぷん。<end>"
+korean = "뭐? 마도 아카데미? 아카데미가 파괴됐다고? 무, 무슨 소리야? 전혀 모르겠어. 정말… 하나도 모르겠다고.<end>"
 
 ["790023"]
 japanese = "私じゃないです。<line-break>私、ぜんぜん関係ないですから。<end>"
@@ -176,6 +184,10 @@ korean = "지금은 무리야<end>"
 japanese = "きゃっ！<line-break>かなりステキな展開かも！<end>"
 korean = "꺄! 꽤 멋진 전개일지도!<end>"
 
+["790068"]
+japanese = "あんたも物好きだね。　　　　<line-break>　<line-break>　<line-break>でも、おかげで助かったよ。<line-break>これ以上、失敗を続けられたら<line-break>店の評判に関わるからね。<end>"
+korean = "당신도 별난 사람이네. 그래도 덕분에 살았어. 더 실패를 거듭했다간 가게 평판에 문제가 생기니까.<end>"
+
 ["790069"]
 japanese = "心配はいりません。<line-break>私、がんばりますから。　　<line-break>　<line-break>やだ、とぼけちゃって。<line-break>今日から私も仲間じゃない！<end>"
 korean = "걱정하지 마세요. 저, 열심히 할 테니까요. 아이 참, 모르는 척하기는. 오늘부터 저도 동료잖아요!<end>"
@@ -192,6 +204,10 @@ korean = "드디어 자유다. 모험자도 그리 멋진 건 아니지만… �
 japanese = "私、この薄汚い宿屋で<line-break>一生を終えるのね…。<end>"
 korean = "나, 이 지저분한 여관에서 평생을 보내게 되는 거구나….<end>"
 
+["790075"]
+japanese = "ああ、自由な人がうらやましい…。<line-break>誰か、不幸な私を助けて～！<end>"
+korean = "아아, 자유로운 사람이 부러워…. 누가 불행한 나 좀 도와줘~!<end>"
+
 ["790076"]
 japanese = "やれやれ、また始まった。<end>"
 korean = "이런, 또 시작했군.<end>"
@@ -200,9 +216,17 @@ korean = "이런, 또 시작했군.<end>"
 japanese = "大変、大変！<line-break>みなさん起きて！<end>"
 korean = "큰일이야, 큰일! 다들 일어나!<end>"
 
+["790079"]
+japanese = "アカデミーに復帰する方法を<line-break>思いついたの。<line-break>　<line-break>それはね、いにしえの精霊融合魔法<line-break>ユニオンスペルを<line-break>使えるようになることなの。<end>"
+korean = "아카데미에 복귀할 방법을 생각해 냈어. 옛 정령융합마법 유니온 스펠을 쓸 수 있게 되는 거야.<end>"
+
 ["790084"]
 japanese = "あ、あの、えっと…、<line-break>それで、お願いがあるんだけど。<end>"
 korean = "저, 저기… 그래서 부탁이 하나 있는데.<end>"
+
+["790085"]
+japanese = "あとちょっとのところで<line-break>どうしてもひっかかる問題があって…<line-break>　<line-break>何かヒントになりそうな情報を<line-break>仕入れたら、<line-break>私に教えてほしいの。<end>"
+korean = "거의 다 됐는데 아무래도 걸리는 문제가 하나 있어…. 뭔가 힌트가 될 정보를 얻으면 내게 알려 줘.<end>"
 
 ["790087"]
 japanese = "わかった<end>"
@@ -215,6 +239,10 @@ korean = "그렇게 형편 좋은 이야기는 없겠지<end>"
 ["790089"]
 japanese = "さすが、<value:$28>様。<line-break>何にでも首を突っ込むタイプ。<end>"
 korean = "역시 <value:$28>님. 뭐든 참견하는 타입이시군요.<end>"
+
+["790090"]
+japanese = "確かに、そうなんだけど…。<line-break>ワラにもすがりたい気持ちなの。<end>"
+korean = "확실히 그렇긴 하지만…. 지푸라기라도 잡고 싶은 심정이야.<end>"
 
 ["790094"]
 japanese = "…なるほど。<line-break>天才魔道士マノンね。　　　<line-break>　<line-break>あの魔道の塔に<line-break>そんなに偉大な魔道士が…。<end>"

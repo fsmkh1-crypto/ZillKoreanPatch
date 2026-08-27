@@ -512,6 +512,10 @@ korean = "…로이.<end>"
 japanese = "<value:$28>、<line-break>私もともに<line-break>旅をさせてもらえないだろうか？<end>"
 korean = "<value:$28>, 나도 함께 여행하게 해주지 않겠나?<end>"
 
+["1360321"]
+japanese = "なるほど<line-break>猫屋敷で呼び出してくれるのだな<line-break>了解した。<end>"
+korean = "그렇군. 고양이 저택에서 불러 주는 거군. 알겠다.<end>"
+
 ["1360322"]
 japanese = "さぁ、行こう。<line-break>姉さん。<end>"
 korean = "자, 가자. 누나.<end>"
@@ -616,6 +620,10 @@ korean = "나는 따로 지켜야 할 것이 있다.<end>"
 japanese = "…<value:$28>か？<end>"
 korean = "…<value:$28>인가?<end>"
 
+["1360360"]
+japanese = "…強く…なったな…。<line-break>お前と…刃を交えることができて、<line-break>うれしかった…ぞ…。<line-break>これを…、<line-break>忘却の仮面を…<line-break>お前が…守ってくれ。<end>"
+korean = "…강해졌구나…. 너와… 검을 맞댈 수 있어 기뻤다…. 이걸… 망각의 가면을… 네가 지켜 줘….<end>"
+
 ["1360361"]
 japanese = "いつか…、<line-break>お前と…旅がしたかった…な…。<line-break>元気でな…、<value:$28>…。<end>"
 korean = "언젠가… 너와… 여행하고 싶었…어…. 잘 지내라…, <value:$28>….<end>"
@@ -663,6 +671,10 @@ korean = "내 목숨 때문에? 가치 없는, 내 목숨을…? ……………
 ["1360378"]
 japanese = "これは…<line-break>震えが止まった？<end>"
 korean = "이건… 떨림이 멎었어?<end>"
+
+["1360380"]
+japanese = "それを手にして、<line-break>私の前に現れたのは、<line-break>どういう理由からなのですか？<line-break>…亡き長老の代わりに、あなたが私を<line-break>束縛しようというのですか？<end>"
+korean = "그걸 손에 들고 제 앞에 나타난 건 무슨 이유입니까? …죽은 장로 대신 당신이 저를 속박하려는 겁니까?<end>"
 
 ["1360381"]
 japanese = "冒険者のあなたにとって私は、<line-break>精霊神への道を閉ざす障害に<line-break>すぎないはずです。<line-break>それなのに…<end>"
@@ -816,6 +828,10 @@ korean = "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는�
 japanese = "ゆくぞ、<value:$28>。<line-break>どのような運命が待とうと、<line-break>進むことしか、私たちには、できぬ。<end>"
 korean = "간다, <value:$28>. 어떤 운명이 기다리든 우리에겐 나아가는 수밖에 없다.<end>"
 
+["1360484"]
+japanese = "どうした？<line-break>一度倒したはずだとでも言いたそうだな。<line-break>我らは魔人なれば不死身だ。<line-break>愚かな人間の召喚で何度でも具現する。<line-break>徒労だったな。<end>"
+korean = "왜 그러지? 한 번 쓰러뜨렸다고 말하고 싶은 모양이군. 우리는 마인이니 불사신이다. 어리석은 인간의 소환으로 몇 번이고 현현하지. 헛수고였다.<end>"
+
 ["1360488"]
 japanese = "………………。<line-break>ゆくぞ、<value:$28>。<line-break>　<line-break>どのような運命が待とうと、<line-break>進むことしか、私たちには、できぬ。<end>"
 korean = "………………. 가자, <value:$28>. 어떤 운명이 기다리든 우리에게는 나아가는 것밖에 할 수 없다.<end>"
@@ -844,6 +860,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1360503"]
+japanese = "なるほど、素晴らしい力だ。<line-break>アスティアはその力に何かを<line-break>感じ取ったのか…。<line-break>だが、私の存在を消すには<line-break>どうにも力不足のようだ。<end>"
+korean = "그렇군, 훌륭한 힘이다. 아스티아는 그 힘에서 무언가를 느꼈나…. 하지만 내 존재를 지우기엔 아무래도 힘이 부족한 모양이군.<end>"
+
 ["1360505"]
 japanese = "そうだろう…<line-break>アスティアの子よ？<end>"
 korean = "그렇겠지… 아스티아의 아이여?<end>"
@@ -871,6 +891,10 @@ korean = "카핀, 아이를 놀리면 안 돼.<end>"
 ["1360517"]
 japanese = "何よ、あんただって…<end>"
 korean = "뭐야, 너도….<end>"
+
+["1360519"]
+japanese = "な、何よ。<line-break>そんなに露骨に<line-break>あとずさらなくったって…<end>"
+korean = "뭐, 뭐야. 그렇게 노골적으로 뒤로 물러날 것까진 없잖아….<end>"
 
 ["1360520"]
 japanese = "違う。<line-break>もうひとり、客が来た。<end>"
@@ -1076,6 +1100,10 @@ korean = "………………. 부적절한 말을 했습니다.<end>"
 japanese = "さあ、目覚めよ。<line-break>ザギヴに潜みし闇よ！<end>"
 korean = "자, 깨어나라. 자기브 안에 숨은 어둠이여!<end>"
 
+["1360604"]
+japanese = "ギーヒッヒッ！　長かったぜぇ！<line-break>ネメアにやられてから、<line-break>ずっと待ってたんだよ！<line-break>この女の中に潜んで、<line-break>闇の力が強くなるのをよ！<end>"
+korean = "기히힛! 길었다! 네메아에게 당한 뒤로 계속 기다렸어! 이 여자 안에 숨어서 어둠의 힘이 강해지기만을 말이야!<end>"
+
 ["1360614"]
 japanese = "フフフ、そうか。<line-break>ならば、最後の予言を残そうか。<line-break>それは…、<line-break>お主らの死じゃ！<end>"
 korean = "후후후, 그런가. 그럼 마지막 예언을 남기지. 그것은… 너희의 죽음이다!<end>"
@@ -1108,6 +1136,10 @@ korean = "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는�
 japanese = "ゆくぞ、<value:$28>。<line-break>どのような運命が待とうと、<line-break>進むことしか、私たちには、できぬ。<end>"
 korean = "간다, <value:$28>. 어떤 운명이 기다리든 우리에겐 나아가는 수밖에 없다.<end>"
 
+["1360633"]
+japanese = "どうした？<line-break>一度倒したはずだとでも言いたそうだな。<line-break>我らは魔人なれば不死身だ。<line-break>愚かな人間の召喚で何度でも具現する。<line-break>徒労だったな。<end>"
+korean = "왜 그러지? 한 번 쓰러뜨렸다고 말하고 싶은 모양이군. 우리는 마인이니 불사신이다. 어리석은 인간의 소환으로 몇 번이고 현현하지. 헛수고였다.<end>"
+
 ["1360637"]
 japanese = "ゆくぞ、<value:$28>。<line-break>どのような運命が待とうと、<line-break>進むことしか、私たちには、できぬ。<end>"
 korean = "간다, <value:$28>. 어떤 운명이 기다리든 우리에겐 나아가는 수밖에 없다.<end>"
@@ -1115,6 +1147,10 @@ korean = "간다, <value:$28>. 어떤 운명이 기다리든 우리에겐 나아
 ["1360642"]
 japanese = "さあ、目覚めよ。<line-break>ザギヴに潜みし闇よ！<end>"
 korean = "자, 깨어나라. 자기브 안에 숨은 어둠이여!<end>"
+
+["1360645"]
+japanese = "ギーヒッヒッ！　長かったぜぇ！<line-break>ネメアにやられてから、<line-break>ずっと待ってたんだよ！<line-break>この女の中に潜んで、<line-break>闇の力が強くなるのをよ！<end>"
+korean = "기히힛! 길었다! 네메아에게 당한 뒤로 계속 기다렸어! 이 여자 안에 숨어서 어둠의 힘이 강해지기만을 말이야!<end>"
 
 ["1360655"]
 japanese = "フフフ、そうか。<line-break>ならば、最後の予言を残そうか。<line-break>それは…、<line-break>お主らの死じゃ！<end>"
@@ -1147,6 +1183,10 @@ korean = "후후후…. 크흑. 소용없다…. 운명은… 바뀌지 않는�
 ["1360671"]
 japanese = "ゆくぞ、<value:$28>。<line-break>どのような運命が待とうと、<line-break>進むことしか、私たちには、できぬ。<end>"
 korean = "간다, <value:$28>. 어떤 운명이 기다리든 우리에겐 나아가는 수밖에 없다.<end>"
+
+["1360674"]
+japanese = "どうした？<line-break>一度倒したはずだとでも言いたそうだな。<line-break>我らは魔人なれば不死身だ。<line-break>愚かな人間の召喚で何度でも具現する。<line-break>徒労だったな。<end>"
+korean = "왜 그러지? 한 번 쓰러뜨렸다고 말하고 싶은 모양이군. 우리는 마인이니 불사신이다. 어리석은 인간의 소환으로 몇 번이고 현현하지. 헛수고였다.<end>"
 
 ["1360678"]
 japanese = "ゆくぞ、<value:$28>。<line-break>どのような運命が待とうと、<line-break>進むことしか、私たちには、できぬ。<end>"
@@ -1295,6 +1335,10 @@ korean = "바롤 님의 성, 폐성의 왕좌로 향하셨다.<end>"
 ["1360763"]
 japanese = "お前たちの作った神…<line-break>出してもらおうか。<end>"
 korean = "너희가 만든 신… 내놓아 봐.<end>"
+
+["1360764"]
+japanese = "世界は新たなる神によって滅ぼされるの。<line-break>それが運命なのよ。<end>"
+korean = "세계는 새로운 신에게 멸망할 거야. 그게 운명이야.<end>"
 
 ["1360765"]
 japanese = "…それが運命だと言うのであれば、<line-break>あらがうまで！<end>"

@@ -132,6 +132,10 @@ korean = "커헉… 카, 칼라 님… 죄송…합니다….<end>"
 japanese = "助っ人ありがとさん。<line-break>おかげで勝つことができた。<end>"
 korean = "도와줘서 고맙다. 덕분에 이길 수 있었어.<end>"
 
+["1780066"]
+japanese = "レムオンが協力してくれれば、<line-break>少しは道が開けるんだがな。<end>"
+korean = "레몬이 협력해 준다면 조금은 길이 열릴 텐데.<end>"
+
 ["1780067"]
 japanese = "ゼネテス様。<end>"
 korean = "제네테스님.<end>"
@@ -139,6 +143,10 @@ korean = "제네테스님.<end>"
 ["1780068"]
 japanese = "どうした、いきなり。<end>"
 korean = "왜 그래, 갑자기.<end>"
+
+["1780069"]
+japanese = "お耳に入れておきたいことがあります。<line-break>極めて重大な話です。<end>"
+korean = "귀에 넣어 두셨으면 하는 이야기가 있습니다. 매우 중대한 이야기입니다.<end>"
 
 ["1780070"]
 japanese = "わかった。<line-break><value:$28>、すまないが…<end>"

@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V2용 시작<end>"
 japanese = "クリュセイス！　　　　　　　<line-break>奴だ！<line-break>　<line-break>お前の父、<line-break>ロティを殺したのは奴だ！<line-break>あの非市民だ！<end>"
 korean = "크류세이스! 저놈이다! 네 아버지 로티를 죽인 건 저놈이야! 저 비시민이다!<end>"
 
+["1030005"]
+japanese = "待ってよ。その人、<line-break>やってないって<line-break>言ってるじゃない！<end>"
+korean = "잠깐. 그 사람, 자기는 안 했다고 하잖아!<end>"
+
 ["1030007"]
 japanese = "なんだよ。非市民非市民って<line-break>いっつも見下して。<end>"
 korean = "뭐야. 비시민, 비시민 하면서 늘 깔보잖아.<end>"
@@ -171,6 +175,14 @@ korean = "분명 아버님도 기뻐하실 거예요….<end>"
 ["1030082"]
 japanese = "ですが、人手が足りているわけ　　<line-break>ではないのです。<line-break>　<line-break>特に危険な任務を実行できる<line-break>人材は不足しています。<end>"
 korean = "하지만 인력이 충분한 건 아닙니다. 특히 위험한 임무를 수행할 수 있는 인재가 부족합니다.<end>"
+
+["1030088"]
+japanese = "くっ。残念だな、クリュセイス。<line-break>本当に、悪運の強い奴だ。<end>"
+korean = "큭. 아쉽군, 크류세이스. 정말 지독하게 운 좋은 녀석이야.<end>"
+
+["1030089"]
+japanese = "…悪運の強さだけではありません。<line-break>あの人、本当に強くなる…。<end>"
+korean = "…운이 좋은 것뿐만은 아닙니다. 그 사람, 정말 강해지고 있어요….<end>"
 
 ["1030090"]
 japanese = "…何を言っている、<line-break>クリュセイス？<end>"

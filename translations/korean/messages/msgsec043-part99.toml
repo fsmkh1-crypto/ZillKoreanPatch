@@ -56,6 +56,10 @@ korean = "사람을 바보 취급하지 마!<end>"
 japanese = "よし、では行くぞ。<line-break>　<line-break>　<line-break>ただし、足手まといになるようなら<line-break>消えてもらう。そのつもりでいろ。<end>"
 korean = "좋아, 그럼 간다. 다만 방해가 된다면 사라져 줘야겠다. 각오해 둬.<end>"
 
+["430016"]
+japanese = "くっ、遅かったか。　　　　　<line-break>　<line-break>　<line-break>行動開始からここまでに<line-break>さほどの時間は要していないはず…。<line-break>さすがは雌狐の手の者だな。<end>"
+korean = "큭, 늦었나. 행동을 시작한 뒤 여기까지 그리 많은 시간이 걸리진 않았을 텐데…. 역시 암여우의 수하답군.<end>"
+
 ["430020"]
 japanese = "<value:$28>、<line-break>ゆくぞ！<end>"
 korean = "<value:$28>, 간다!<end>"
@@ -435,6 +439,10 @@ korean = "하지만 라이기로아는 그것을 전할 말을 몰랐다. 인간
 ["430174"]
 japanese = "リメルダの住む街では、魔道兵器の<line-break>開発が盛んに行われていた。<line-break>強大な力をいむ竜王は、<line-break>これを不遜と考えた。<end>"
 korean = "리멜다가 살던 도시에서는 마도 병기 개발이 활발히 이루어지고 있었다. 강대한 힘을 꺼린 용왕은 이를 불손하다고 여겼다.<end>"
+
+["430176"]
+japanese = "それを知ったライギロアは、街へ戻った。<line-break>ただ、リメルダを救うために…。<line-break>街の中央にある尖塔に登り、<line-break>拳器メテオフィストにソウルを込めた。<end>"
+korean = "그 사실을 안 라이기로아는 거리로 돌아왔다. 오직 리멜다를 구하기 위해…. 거리 중앙의 첨탑에 올라 권기 메테오피스트에 소울을 담았다.<end>"
 
 ["430177"]
 japanese = "一吼すると、落ち来る巨大な隕石を、<line-break>拳で受けとめた。<line-break>ライギロアのソウルの防御壁が、<line-break>衝撃波から街を守った。<end>"

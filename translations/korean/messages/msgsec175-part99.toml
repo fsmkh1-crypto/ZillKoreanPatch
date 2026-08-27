@@ -88,6 +88,10 @@ korean = "그런 함정은 요령만 알면 간단해.<end>"
 japanese = "罠を発見した。<end>"
 korean = "함정을 발견했다.<end>"
 
+["1750046"]
+japanese = "床からトゲの罠を発見した。<line-break>しかし、解除してあるようだ。<end>"
+korean = "바닥에서 가시 함정을 발견했다. 하지만 이미 해제되어 있는 것 같다.<end>"
+
 ["1750048"]
 japanese = "押さない<end>"
 korean = "누르지 않는다<end>"
@@ -119,6 +123,10 @@ korean = "끼워 넣지 않는다<end>"
 ["1750056"]
 japanese = "はめ込む<end>"
 korean = "끼워 넣는다<end>"
+
+["1750057"]
+japanese = "赤色の十字鍵は十字型のくぼみに<line-break>ぴったりとおさまった。<end>"
+korean = "붉은 십자 열쇠가 십자 모양 홈에 꼭 맞았다.<end>"
 
 ["1750058"]
 japanese = "銀色の円盤をはめ込みますか？<line-break>"

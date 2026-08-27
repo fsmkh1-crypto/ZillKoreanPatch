@@ -84,6 +84,10 @@ korean = "뭐라고…?<end>"
 japanese = "ああ…。<end>"
 korean = "아아….<end>"
 
+["400033"]
+japanese = "フフ…奴の予言は…外れぬ。<line-break>　<line-break>　<line-break>疑うならば、エ、エルズの<line-break>巫女エアに確かめてみるが…よい。<line-break>奴は…天地千年を見通す能力がある。<end>"
+korean = "후후… 놈의 예언은… 틀리지 않아. 의심한다면 엘즈의 무녀 에아에게 확인해 봐라…. 놈은 천지 천 년을 내다보는 능력이 있다.<end>"
+
 ["400034"]
 japanese = "最期の言葉は、それで終わりか？<end>"
 korean = "마지막 말은 그걸로 끝인가?<end>"
@@ -268,6 +272,10 @@ korean = "왜 그렇게까지 어둠의 신기를 원하는 거지?<end>"
 japanese = "素直に渡さぬのならば、<line-break>力ずくで奪うことになる。<end>"
 korean = "순순히 넘기지 않겠다면 힘으로 빼앗겠다.<end>"
 
+["400102"]
+japanese = "わしらも手荒なマネはしとうない。<line-break>　<line-break>　<line-break>闇の神器さえ手に入れば、<line-break>ウルカーンには、<line-break>軍を派遣することもなかろうて。<end>"
+korean = "우리도 거칠게 굴고 싶진 않다. 어둠의 신기만 손에 넣으면 울칸에 군대를 보낼 일도 없겠지.<end>"
+
 ["400104"]
 japanese = "う…！<line-break>か、体の自由が…。<end>"
 korean = "으…! 모, 몸이 말을 안 들어….<end>"
@@ -291,6 +299,10 @@ korean = "정신이 든 모양이군. 네 덕분에 이쪽도 태세를 정비�
 ["400117"]
 japanese = "あいつは、私たちが倒したわ。<end>"
 korean = "그 녀석은 우리가 쓰러뜨렸어.<end>"
+
+["400118"]
+japanese = "言ったでしょう、<line-break>この件には手を出すなって。<line-break>　<line-break>時間を稼いでくれたことには<line-break>感謝するけど、あなたにはまだ、<line-break>荷が重いんじゃない？<end>"
+korean = "말했잖아, 이 일에는 손대지 말라고. 시간을 벌어 준 건 고맙지만 너한텐 아직 벅찬 일 아니야?<end>"
 
 ["400119"]
 japanese = "これにこりて、もう手を引くことね。<end>"
@@ -323,6 +335,10 @@ korean = "안녕, <value:$28>. 이런 데서 만나다니, 후후, 기쁜 우연
 ["400127"]
 japanese = "…闇の神器を探しているの？<end>"
 korean = "…어둠의 신기를 찾고 있는 거야?<end>"
+
+["400128"]
+japanese = "確かに君の言うとおり、　<line-break>僕は闇の神器を<line-break>ひとつ持っているよ。<line-break>でも、今は渡せないよ。<line-break>あれは、きちんと<line-break>研究しなければならない。<end>"
+korean = "네 말대로 난 어둠의 신기를 하나 가지고 있어. 하지만 지금은 줄 수 없어. 그건 제대로 연구해야 하거든.<end>"
 
 ["400131"]
 japanese = "僕は古代の力を信じる。<line-break>だから、研究を続けるよ。<line-break>　<line-break>きっと、何か他の使い道も<line-break>あるはずだから。<end>"
@@ -588,6 +604,10 @@ korean = "좋다. 들어 보지.<end>"
 japanese = "初めてあったときの私の言葉を<line-break>覚えているか？<end>"
 korean = "처음 만났을 때 내가 한 말을 기억하나?<end>"
 
+["400233"]
+japanese = "そんなことか。<line-break>たしか戦場だったと記憶している。<line-break>　<line-break>なんのために戦うのか、<line-break>と問うた余に、民のためにと<line-break>答えたのだったな。<end>"
+korean = "그런 일이었나. 분명 전장이었던 걸로 기억한다. 무엇을 위해 싸우느냐는 짐의 물음에 백성을 위해서라고 답했었지.<end>"
+
 ["400234"]
 japanese = "エリュマルク帝は崩御された。<line-break>　<line-break>　<line-break>よって、エリュマルク帝の<line-break>姉上エスリン様の遺児である<line-break>ネメア様があとを継がれる。<end>"
 korean = "에류마르크 황제께서 붕어하셨다. 따라서 황제의 누이 에슬린 님의 유자인 네메아 님께서 뒤를 잇게 된다.<end>"
@@ -595,6 +615,10 @@ korean = "에류마르크 황제께서 붕어하셨다. 따라서 황제의 누�
 ["400235"]
 japanese = "…世界を手に入れる。<end>"
 korean = "…세계를 손에 넣는다.<end>"
+
+["400237"]
+japanese = "かつて、魔王バロルを倒し、　<line-break>勇者と呼ばれた男、ネメアは　　　<line-break>叔父であるエリュマルク帝を退け　　　<line-break>ディンガル帝国の帝位についた。　　　　　<end>"
+korean = "과거 마왕 바롤을 쓰러뜨리고 용사라 불린 남자 네메아는 숙부인 엘류마르크 황제를 몰아내고 딘갈 제국의 제위에 올랐다.<end>"
 
 ["400238"]
 japanese = "そして、宰相ベルゼーヴァの　<line-break>指揮の下、豊富な国力を生かして　<line-break>大軍隊を組織。同時に、それを率いる　<line-break>４人の将軍を大抜擢した。　　　<end>"
@@ -664,6 +688,10 @@ korean = "말도 안 돼! 마그마 골렘이 전멸!? 미, 믿을 수 없어!<e
 japanese = "ディ、ディンガルの騎士？<line-break>しかも、ダークエルフだと！？<end>"
 korean = "디, 딘갈의 기사? 게다가 다크엘프라고!?<end>"
 
+["400268"]
+japanese = "私は皇帝直属遊撃隊、獅子の牙所属<line-break>黒鎧近衛騎士オイフェ。<end>"
+korean = "나는 황제 직속 유격대, 사자의 송곳니 소속 흑갑 근위기사 오이페다.<end>"
+
 ["400269"]
 japanese = "…同じくゼリグ。<end>"
 korean = "…나도 제리그다.<end>"
@@ -675,6 +703,10 @@ korean = "마그마 골렘이 순식간에 쓰러져 마을 사람들도 모두 
 ["400274"]
 japanese = "くっ…不覚。<end>"
 korean = "큭… 방심했군.<end>"
+
+["400276"]
+japanese = "神器の力を使ってもこの程度か。<line-break>…つまらぬ男だ。<line-break>　<line-break>このような者が神器を使い<line-break>長老の地位を守るため、<line-break>汲々としていたのか。<end>"
+korean = "신기의 힘을 써도 이 정도인가. …시시한 남자군. 이런 자가 신기를 이용해 장로의 지위를 지키려고 발버둥쳤단 말인가.<end>"
 
 ["400277"]
 japanese = "あとのことはザギヴに任せる。<line-break>ゆくぞ。<end>"
@@ -695,6 +727,10 @@ korean = "…또 도움받았네.<end>"
 ["400282"]
 japanese = "私は、あなたを殺すわ。　　　　<line-break>…それだけ。<line-break><end>"
 korean = "난 당신을 죽일 거야. …그뿐이야.<end>"
+
+["400283"]
+japanese = "おお、また会うたな。<line-break>墓場はお気に入りの場所かな？<line-break>　<line-break><value:$28>、<line-break>何度も会うのも、何かの縁じゃ。<line-break>少し散歩でもせんかね。<end>"
+korean = "오, 또 만났군. 묘지가 마음에 드는 장소인가? <value:$28>, 몇 번이나 만나는 것도 인연이니 잠깐 산책이라도 하지 않겠나.<end>"
 
 ["400289"]
 japanese = "ネメア様は皇帝の命に従い<line-break>イズ様をさらったのじゃ。<end>"

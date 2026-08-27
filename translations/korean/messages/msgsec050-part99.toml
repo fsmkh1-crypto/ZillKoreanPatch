@@ -96,6 +96,14 @@ korean = "동료 아이를 다치게 하고 싶지 않아. 와, <value:$28>.<end
 japanese = "…ムダですね。<line-break>動けないはずです。<end>"
 korean = "…소용없습니다. 움직일 수 없을 겁니다.<end>"
 
+["500032"]
+japanese = "酒場の中で暴れるつもり？<line-break>しばらく、マヒしてもらってるわ。<end>"
+korean = "술집 안에서 날뛸 생각이야? 잠시 마비돼 있어 줘.<end>"
+
+["500033"]
+japanese = "仲間の子を傷つけたくはないのです。<line-break>一緒に来ていただきます。<end>"
+korean = "동료 아이를 다치게 하고 싶지는 않습니다. 함께 가 주셔야겠습니다.<end>"
+
 ["500039"]
 japanese = "さがってよい。<line-break>フリントの子<value:$28>よ。<end>"
 korean = "물러가도 좋다. 플린트의 아이 <value:$28>여.<end>"

@@ -60,6 +60,10 @@ korean = "알고 있어.<end>"
 japanese = "お前が出ていかなければ、<line-break>ロストールの民や兵が<line-break>大勢死ぬだろうな。<line-break>彼らを放っておくなんてマネ、<line-break>お前にできるのか？<end>"
 korean = "네가 나가지 않으면 로스토올의 백성과 병사들이 많이 죽을 거다. 그들을 내버려 둘 수 있겠나?<end>"
 
+["510026"]
+japanese = "…俺がのこのこ出ていっても、<line-break>総合的な死人の数は変わらない。<end>"
+korean = "…내가 어슬렁어슬렁 나가 봐야 전체 사망자 수는 달라지지 않아.<end>"
+
 ["510027"]
 japanese = "総合的な死人ってことは、<line-break>お前、敵軍の死人増加まで勘定に<line-break>入れてるのか？<line-break>いつも以上に自信家だな。<end>"
 korean = "전체 사망자라니, 너 적군 사망자 증가까지 계산에 넣은 거야? 평소보다 더 자신만만하네.<end>"
@@ -83,6 +87,10 @@ korean = "응…<end>"
 ["510038"]
 japanese = "いいえ！<end>"
 korean = "아니!<end>"
+
+["510041"]
+japanese = "フフ…、そうだ、その調子だ。<line-break>頼もしくなったな、<value:$28>。<end>"
+korean = "후후… 그래, 그 기세다. 믿음직해졌군, <value:$28>.<end>"
 
 ["510044"]
 japanese = "じゃあな。<end>"
@@ -239,6 +247,10 @@ korean = "이것도 전장의 법칙이지. 간다, <value:$28>!<end>"
 ["510131"]
 japanese = "戦場をひとりで守る<line-break>ロストールの傭兵とはお主か！<end>"
 korean = "전장을 혼자 지키는 로스토올의 용병이 자네인가!<end>"
+
+["510132"]
+japanese = "まだ抵抗をやめぬか…天晴れなり！<line-break>勇士よ！　名を名乗られよ！<end>"
+korean = "아직 저항을 멈추지 않는가… 훌륭하도다! 용사여! 이름을 밝혀라!<end>"
 
 ["510134"]
 japanese = "では、まいるぞ！<line-break><value:$28>！<end>"

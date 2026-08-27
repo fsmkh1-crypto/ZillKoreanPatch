@@ -132,6 +132,10 @@ korean = "<value:$28>! 이쪽, 이쪽. 오늘은 내가 고안한 새로운 마�
 japanese = "それで、ぜひ見てもらおうと思って<line-break><value:$28>のこと<line-break>わざわざ呼び出しちゃった。<end>"
 korean = "그래서 꼭 보여 주고 싶어서 <value:$28>을 일부러 불렀어.<end>"
 
+["1920056"]
+japanese = "えっ？　本当に安全なのかって？<line-break>えっと…<line-break>た、たぶん、大丈夫。<line-break>そんなに細かいことに<line-break>こだわってちゃダメよ。<line-break>さっ、行きましょ！<end>"
+korean = "뭐? 정말 안전하냐고? 음… 아, 아마 괜찮아. 그런 사소한 것까지 신경 쓰면 안 돼. 자, 가자!<end>"
+
 ["1920059"]
 japanese = "ユーリス、大変だ！<line-break>お前の装置、暴走してるぞ。<line-break>　<end>"
 korean = "유리스, 큰일이야! 네 장치가 폭주하고 있어.<end>"
@@ -167,6 +171,10 @@ korean = "늦네, <value:$28>. 설마 잊은 건 아니겠지.<end>"
 ["1920068"]
 japanese = "もう！　ようやく、みんなを説得して<line-break>自由に冒険できるようになったって<line-break>言うのにぃ！<line-break>何やってるんだよぉ、<line-break><value:$28>…。<line-break>　<end>"
 korean = "정말! 겨우 모두를 설득해서 자유롭게 모험할 수 있게 됐는데! 뭐 하는 거야, <value:$28>….<end>"
+
+["1920069"]
+japanese = "<value:$28>が来てくれないと<line-break>冒険なんて、できないんだぞ…。<end>"
+korean = "<value:$28>이 와 주지 않으면 모험 같은 건 할 수 없다고….<end>"
 
 ["1920071"]
 japanese = "いつのまにか、<line-break>ボクにとっての<line-break>冒険の旅っていうのは、<line-break><value:$28>と<line-break>一緒にいることに<line-break>なっちゃたんだな…。<end>"
@@ -480,6 +488,10 @@ korean = "잘했어. 암호에 따르면 해면이 빛나는 시간은 그리 �
 japanese = "へい、おかしら！<line-break>　<line-break>　<end>"
 korean = "예, 두목!<end>"
 
+["1920205"]
+japanese = "それじゃあ、<value:$28>。<line-break>父さんの遺宝にご対面といこうか！<end>"
+korean = "그럼 <value:$28>. 아버지의 유보를 직접 만나 보러 가자!<end>"
+
 ["1920206"]
 japanese = "ちょっと、待ちなさいよ<line-break><value:$28>！<end>"
 korean = "잠깐, 기다려 <value:$28>!<end>"
@@ -556,6 +568,10 @@ korean = "나셰스도 없어졌고, 파티를 해산하기엔 지금이 딱 좋
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["1920244"]
+japanese = "どうしてなんだろう…。<line-break>やっぱり、わたしがドジだから<line-break>みんな嫌いになっちゃったのかな…。<line-break>わたし、これから<line-break>どうしたらいいんだろう…。<end>"
+korean = "왜 그런 걸까…. 역시 내가 덤벙대서 다들 날 싫어하게 된 걸까…. 나, 이제 어떻게 해야 하지….<end>"
+
 ["1920245"]
 japanese = "え？　わたしを<line-break>連れていってくれるんですか？<end>"
 korean = "네? 저를 데려가 주시는 건가요?<end>"
@@ -587,6 +603,10 @@ korean = "가버렸군.<end>"
 ["1920253"]
 japanese = "何よ、未練でもあるの？　　　　<line-break>　<line-break>　<line-break>ノエルと<value:$28>を<line-break>くっつけるっていう、あたしの<line-break>計画に賛成だったんじゃないの？<end>"
 korean = "뭐야, 미련이라도 있어? 노엘과 <value:$28>을 이어 주겠다는 내 계획에 찬성했던 거 아니야?<end>"
+
+["1920254"]
+japanese = "反対ではない。<line-break>それが、ノエルのためだと　<line-break>思うからな。<line-break>お前の方こそ、<line-break>いつまでもノエルと一緒に<line-break>いたかったのではないのか？<end>"
+korean = "반대하는 건 아니다. 그게 노엘을 위한 일이라 생각하니까. 오히려 너야말로 언제까지나 노엘과 함께 있고 싶었던 것 아닌가?<end>"
 
 ["1920257"]
 japanese = "…遠慮する。　　　　　　<line-break>　<line-break>　<line-break>俺にも、俺の人生を<line-break>自由に生きる権利がある。<end>"

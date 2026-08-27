@@ -160,6 +160,10 @@ korean = "…제네테스… 님…<end>"
 japanese = "<value:$28>様…<line-break>私にもできるでしょうか？<line-break> <line-break>ゼネテス様のご期待に<line-break>応えられるようなことが…。<end>"
 korean = "<value:$28>님… 저도 할 수 있을까요? 제네테스 님의 기대에 부응할 만한 일을….<end>"
 
+["1350090"]
+japanese = "お母様や、レムオン様、<line-break>ゼネテス様…そして私が生きたあの街に、<line-break>再び…<line-break>いえ、前以上の繁栄を取り戻すのです。<line-break>私たちの、この手で…。<end>"
+korean = "어머니와 레몬 님, 제네테스 님… 그리고 제가 살았던 그 도시에 다시… 아니, 예전 이상의 번영을 되찾을 겁니다. 우리 손으로….<end>"
+
 ["1350091"]
 japanese = "ええ、まだロストールは<line-break>滅んだわけではありませんわ。<line-break> <line-break>リューガ邸は<line-break>エスト様がお継ぎになるはず。<end>"
 korean = "네, 아직 로스토올이 멸망한 것은 아닙니다. 류가 저택은 에스트 님이 이어받으실 겁니다.<end>"
@@ -844,6 +848,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "よう、また会ったな。<end>"
 korean = "여어, 또 만났군.<end>"
 
+["1350353"]
+japanese = "強盗が名乗るのもおこがましいが<line-break>俺はツェラシェルと言う。<line-break>　<line-break>あんたの持っている<line-break>ナイトメアの雫をもらいに来た。<line-break>悪いな。<end>"
+korean = "강도가 이름을 대는 것도 우습지만 난 체라셸이라고 한다. 네가 가진 나이트메어의 물방울을 받으러 왔다. 미안하군.<end>"
+
 ["1350354"]
 japanese = "ヴァイ！　ヴィア！<end>"
 korean = "바이! 비아!<end>"
@@ -939,6 +947,10 @@ korean = "좋아. 그럼 출발하자.<end>"
 ["1350389"]
 japanese = "か、カ、カルラ様！<line-break>大変です！<end>"
 korean = "카, 카, 카를라 님! 큰일입니다!<end>"
+
+["1350390"]
+japanese = "そら来た。　　　　　　　　　<line-break>はいはい、落ち着いて。<line-break>　<line-break>ロストール軍が攻めてきたって<line-break>言うんでしょ。<line-break>それも、後ろから。<end>"
+korean = "올 게 왔네. 자자, 진정해. 로스토올군이 공격해 왔다고 말하려는 거지. 그것도 뒤에서.<end>"
 
 ["1350391"]
 japanese = "そ、そんな！<line-break>私がもたついたばかりに…！<end>"
@@ -1167,6 +1179,14 @@ korean = "이제 당신과는 만나지 않아.<end>"
 ["1350510"]
 japanese = "これが<line-break>自分のために生きるってことなんだよ、<line-break><value:$28>。<end>"
 korean = "이게 자신을 위해 산다는 거야, <value:$28>.<end>"
+
+["1350511"]
+japanese = "虚無の剣か？<line-break>闇の神器の１つで強力な魔道器だ。<line-break>鞘から抜けばすさまじい魔力が得られる。<line-break>だが、その代わりに<line-break>使用者は無にされてしまう。<end>"
+korean = "허무의 검인가? 어둠의 신기 중 하나인 강력한 마도기다. 칼집에서 뽑으면 엄청난 마력을 얻지만 대신 사용자는 무로 돌아간다.<end>"
+
+["1350512"]
+japanese = "死ぬんじゃない。<line-break>一切の力を失い、<line-break>そして世界中から忘れ去られるんだ。<line-break>最初からいなかったことになる。<line-break>いたことすら消えてしまうのさ。<end>"
+korean = "죽는 게 아니야. 모든 힘을 잃고 세상 모두에게 잊히는 거다. 처음부터 존재하지 않았던 게 되는 거야. 존재했다는 사실조차 사라져.<end>"
 
 ["1350519"]
 japanese = "…ちっ<end>"

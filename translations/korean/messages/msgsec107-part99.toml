@@ -148,6 +148,10 @@ korean = "는 저주에 걸렸다.<end>"
 japanese = "宝箱を開けるには、<color:e>ディテクター<color:f>のスキルが<line-break>使えなくてはいけません。<line-break><color:b>グレモリイ<color:f>のソウルを宿してください。<end>"
 korean = "보물상자를 열려면 <color:e>디텍터<color:f> 스킬을 사용할 수 있어야 합니다. <color:b>그레모리<color:f>의 소울을 깃들게 하십시오.<end>"
 
+["1070053"]
+japanese = "恥ずかしいけど、ダメみたい…。<line-break>私の手に負える罠じゃないわ。<end>"
+korean = "부끄럽지만 안 될 것 같아…. 내가 감당할 수 있는 함정이 아니야.<end>"
+
 ["1070059"]
 japanese = "くそっ！<line-break>俺の手に負えない罠とはな…。<end>"
 korean = "젠장! 나로서도 감당 못 할 함정이라니….<end>"
@@ -171,6 +175,10 @@ korean = "큭! 이 내가 해제하지 못하는 함정이 있다니….<end>"
 ["1070076"]
 japanese = "私ではこの罠を<line-break>解除できそうにありません。<end>"
 korean = "저로서는 이 함정을 해제할 수 없을 것 같습니다.<end>"
+
+["1070078"]
+japanese = "これは僕の手には負えないみたいだ。<line-break>力になれなくてすまない。<end>"
+korean = "이건 내 힘으로는 어려울 것 같아. 도움이 못 돼서 미안해.<end>"
 
 ["1070079"]
 japanese = "難易度<color:e><value:$1A><color:f>の罠が仕掛けられています。<line-break>罠の解除に挑戦するにはＤＥＸが<line-break><color:e><value:$1B><color:f>以上必要です。<end>"

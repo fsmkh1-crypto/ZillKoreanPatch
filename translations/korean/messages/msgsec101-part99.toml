@@ -28,6 +28,14 @@ korean = "…<value:$28>, 아직도 해방군 편을 들고 있어?<end>"
 japanese = "…皮肉なものね、<line-break>運命なんて。<end>"
 korean = "…운명이라는 것도 참 얄궂네.<end>"
 
+["1010010"]
+japanese = "<value:$28>！<line-break>こんな所で何をしている！　<line-break>　<line-break>…早く出ていきなさい！<line-break>今回だけは見逃してあげる。<line-break>もう、私の前に顔を出さないで！<end>"
+korean = "<value:$28>! 이런 곳에서 뭐 하는 거야! …빨리 나가! 이번만은 봐줄게. 다시는 내 앞에 나타나지 마!<end>"
+
+["1010013"]
+japanese = "…<value:$28>。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>時の流れはあなたが考えているより<line-break>もっと早いものよ。<line-break>よく考えてみることね。<end>"
+korean = "…<value:$28>. 시간의 흐름은 네가 생각하는 것보다 훨씬 빨라. 잘 생각해 봐.<end>"
+
 ["1010014"]
 japanese = "…ほんっとに<line-break>しょうがない、奴…。<end>"
 korean = "…정말 어쩔 수 없는 녀석….<end>"

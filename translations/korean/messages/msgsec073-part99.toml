@@ -52,6 +52,10 @@ korean = "나는 누나를 되찾기 위해서라면 무슨 짓이든 할 거야
 japanese = "…ふ、…ふ、<line-break>おもしろいことよ…。<end>"
 korean = "…후, …후, 재미있군….<end>"
 
+["730020"]
+japanese = "質問を変えよう。<line-break>なぜ、貴様のような非力な者が<line-break>この私に勝てると思ったのだ？　　<line-break>この最強の円卓騎士、<line-break>開け放つものヴァシュタールに。<end>"
+korean = "질문을 바꾸지. 왜 네놈 같은 나약한 자가 이 나를 이길 수 있다고 생각했지? 이 최강의 원탁기사, 열어젖히는 자 바슈타르를.<end>"
+
 ["730022"]
 japanese = "アーギルシャイア様！<end>"
 korean = "아길샤이어 님!<end>"
@@ -59,6 +63,10 @@ korean = "아길샤이어 님!<end>"
 ["730023"]
 japanese = "サイフォス！<end>"
 korean = "사이포스!<end>"
+
+["730028"]
+japanese = "深入りしすぎると<line-break>つらいだけだぞ。<line-break>フッ、愚か者が…。<end>"
+korean = "너무 깊이 관여하면 괴로울 뿐이다. 흥, 어리석은 녀석….<end>"
 
 ["730029"]
 japanese = "…申しわけ…ありません、<line-break>アーギルシャイア様。<line-break>私のせいで…あのような…。<line-break>………………！<end>"
@@ -95,6 +103,10 @@ korean = "아길샤이어 님! <value:$28>가 여기까지 쳐들어왔습니다
 ["730041"]
 japanese = "っくっ…。はぁ…。<line-break>ヴァシュタールにやられた傷が…。<end>"
 korean = "윽…. 하아…. 바슈타르에게 당한 상처가….<end>"
+
+["730046"]
+japanese = "…そうね。<line-break>わかったわ。<line-break>ありがとう。私のサイフォス。<end>"
+korean = "…그래. 알았어. 고마워. 나의 사이포스.<end>"
 
 ["730049"]
 japanese = "私は精霊たちの死の苦しみから<line-break>生まれた魔人…。<line-break>　<line-break>すべての生きとし生けるものに<line-break>死の苦しみを教えてあげるわ！<end>"

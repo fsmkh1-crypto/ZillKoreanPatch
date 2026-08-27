@@ -8,6 +8,10 @@ korean = "여행 출발 05 메시지<end>"
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["320003"]
+japanese = "しかし、村のすぐ近くまで<line-break>魔物がうろつくようになるとは…。<end>"
+korean = "하지만 마을 바로 근처까지 마물이 돌아다니게 되다니….<end>"
+
 ["320005"]
 japanese = "ハハ、頼りにしているぞ<line-break><value:$28>。<end>"
 korean = "하하, 믿고 있겠다, <value:$28>.<end>"
@@ -136,6 +140,10 @@ korean = "오, <value:$28>. 돌아왔군. 수고했다.<end>"
 japanese = "な、何事だ？<end>"
 korean = "무, 무슨 일이지?<end>"
 
+["320050"]
+japanese = "…父上、<line-break>今のが竜王の覚醒…<line-break>その第一声でしょうか？<end>"
+korean = "…아버님, 방금 것이 용왕의 각성… 그 첫 울음일까요?<end>"
+
 ["320051"]
 japanese = "うむ…。<line-break>この世が乱れるとき<line-break>竜王が覚醒すると言われておる。<line-break>つまり、<line-break>乱世の原因を除くべく<line-break>目覚めるというのだが…。<end>"
 korean = "음…. 세상이 어지러워질 때 용왕이 깨어난다고 전해진다. 즉 난세의 원인을 없애기 위해 깨어난다는 뜻인데….<end>"
@@ -151,6 +159,14 @@ korean = "안 된다. <value:$28>는 아직 미숙하다. 너무 위험해.<end>
 ["320056"]
 japanese = "父上。もう、<value:$28>も<line-break>修行に出してもよい年頃。<line-break>私も一緒に参るのです。ご安心を。<end>"
 korean = "아버님. 이제 <value:$28>도 수행을 떠날 나이입니다. 저도 함께 가겠습니다. 안심하십시오.<end>"
+
+["320060"]
+japanese = "では、私は村の広場で待っている。<line-break>用意ができたら来てくれ。<end>"
+korean = "그럼 나는 마을 광장에서 기다리겠다. 준비가 되면 와 줘.<end>"
+
+["320062"]
+japanese = "…いや、なんでもない。<line-break>　<line-break>　<line-break>お前もロイと同じように、<line-break>神器の守護者となるべく<line-break>修行の旅に出る年になったのだな…。<end>"
+korean = "…아니, 아무것도 아니다. 너도 로이처럼 신기의 수호자가 되기 위한 수행의 여행을 떠날 나이가 되었구나….<end>"
 
 ["320064"]
 japanese = "…強くなるのだぞ。<end>"
@@ -280,6 +296,10 @@ korean = "왜 그러지, 안 오는 건가. 후회하고 싶다면 말리진 않
 japanese = "俺はセラ。<line-break>ロイは俺が認めた<line-break>唯一の男だ。<line-break>お前を守る気はない。<line-break>足手まといにはなるな。<end>"
 korean = "나는 세라다. 로이는 내가 인정한 유일한 남자다. 널 지킬 생각은 없어. 발목 잡지는 마.<end>"
 
+["320105"]
+japanese = "…ロイはお前を逃がすために、<line-break>村人を逃がすよう言ったのだぞ。<end>"
+korean = "…로이는 널 도망치게 하려고 마을 사람들을 피신시키라고 한 거다.<end>"
+
 ["320106"]
 japanese = "ロイは死を覚悟している。<line-break>…奴のことなら、わかる。<end>"
 korean = "로이는 죽음을 각오하고 있다. …녀석이라면 알아.<end>"
@@ -304,6 +324,10 @@ korean = "월광에 반응이 없다. 로이는 여기 없는 모양이군.<end>
 japanese = "…ロイは生きている。<end>"
 korean = "…로이는 살아 있어.<end>"
 
+["320115"]
+japanese = "ついてくるなら、<line-break>それもいいだろう。<line-break>面倒は見んがな。<end>"
+korean = "따라오겠다면 그것도 좋겠지. 돌봐 주진 않겠지만.<end>"
+
 ["320116"]
 japanese = "ロイのあとを<line-break>追いかける気はないのか？<end>"
 korean = "로이를 뒤쫓을 생각은 없나?<end>"
@@ -311,6 +335,10 @@ korean = "로이를 뒤쫓을 생각은 없나?<end>"
 ["320117"]
 japanese = "俺に不信があるなら<line-break>いずれ答えてやる。<line-break>ただし、それは今ではない。<line-break>今、俺は急ぐ。<end>"
 korean = "나를 못 믿겠다면 언젠가 답해 주지. 하지만 지금은 아니다. 지금 나는 서둘러야 한다.<end>"
+
+["320119"]
+japanese = "アーギルシャイアは<line-break>俺の大事なものを奪った…。　　<line-break>　<line-break>俺は強くなる、<line-break>…どんな手段を使ってもな。<line-break>そして、俺のすべてを取り戻す。<end>"
+korean = "아기르샤이아는 내 소중한 것을 빼앗았다…. 난 강해질 거다, …무슨 수를 써서라도. 그리고 내 모든 것을 되찾는다.<end>"
 
 ["320121"]
 japanese = "<value:$28>様、<line-break>お帰りなさいませ。　　　　<line-break>おケガは？<end>"

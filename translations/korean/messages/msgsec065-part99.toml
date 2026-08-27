@@ -208,6 +208,10 @@ korean = "웃기는 농담이군.<end>"
 japanese = "フィアンセが聞いたら<line-break>怒るのではないか？　　　　　　　<end>"
 korean = "약혼자가 들으면 화내지 않을까?<end>"
 
+["650075"]
+japanese = "婚約者といっても、<line-break>お母様が勝手に決めたこと。　　　<line-break>　<line-break>幼なじみのレムオン様とのことを<line-break>とやかく言われる筋合いは<line-break>ありません。<end>"
+korean = "약혼자라 해도 어머니가 마음대로 정한 일입니다. 소꿉친구인 레몬 님과의 일을 이래라저래라 들을 이유는 없어요.<end>"
+
 ["650078"]
 japanese = "…それはできんな。<end>"
 korean = "…그건 할 수 없군.<end>"
@@ -223,6 +227,10 @@ korean = "어쩔 거냐, <value:$28>? 너는 늘 남자 따위에게는 안 진�
 ["650083"]
 japanese = "すみません。　　　　　　<end>"
 korean = "죄송합니다.<end>"
+
+["650084"]
+japanese = "<value:$28>様がどうこうと<line-break>申しあげるつもりはなかったのです。<end>"
+korean = "<value:$28>님에 대해 이러쿵저러쿵 말씀드리려던 건 아니었습니다.<end>"
 
 ["650085"]
 japanese = "許してやるのか…。　　<end>"
@@ -259,6 +267,10 @@ korean = "네, 파로스의 암여우 딸이에요!<end>"
 ["650094"]
 japanese = "俺はいつかエリスの専政を打ち破る。<end>"
 korean = "언젠가 엘리스의 전제를 무너뜨리겠다.<end>"
+
+["650096"]
+japanese = "悲しいですわ。<line-break>ティアナはそのとき…、　　　<line-break>　<line-break>お母様と一緒に<line-break>ファーロスの一族として、<line-break>粛清されてしまうのですね…。<end>"
+korean = "슬프군요. 티아나는 그때… 어머니와 함께 파로스 일족으로서 숙청당하고 마는 거군요….<end>"
 
 ["650098"]
 japanese = "もう、レムオン様！<end>"

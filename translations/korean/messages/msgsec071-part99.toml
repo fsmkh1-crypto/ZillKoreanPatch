@@ -8,6 +8,10 @@ korean = "아길샤이어 메시지 VOL1-3 시작<end>"
 japanese = "…<value:$28>か。<line-break>話がしたい。　　　　　<end>"
 korean = "…<value:$28>인가. 할 말이 있다.<end>"
 
+["710005"]
+japanese = "そして、その旅の途中　　<line-break>俺はお前に出会った。<line-break>　<line-break>姉は今、非常に危険な奴の<line-break>手の内にある…。<line-break>俺は奴から姉を救い出す。<end>"
+korean = "그리고 그 여행 도중 나는 너를 만났다. 누나는 지금 매우 위험한 녀석의 손아귀에 있어…. 난 놈에게서 누나를 구할 거다.<end>"
+
 ["710006"]
 japanese = "ただ、奴の手から<line-break>どうすれば救い出せるのか…<end>"
 korean = "다만, 녀석의 손에서 어떻게 구해 내야 할지….<end>"
@@ -104,6 +108,10 @@ korean = "그, 그러니까 철수하자고 했잖아 고브~!<end>"
 japanese = "はっ！<end>"
 korean = "핫!<end>"
 
+["710054"]
+japanese = "だ、だ、団長！<line-break>じ、自分が間違っていたでゴブ！<line-break>　<line-break>つい、疲れでイライラして団長に<line-break>当たってしまったでゴブ！<line-break>許してほしいゴブ！<end>"
+korean = "다, 단장! 내, 내가 잘못했다 고브! 피곤해서 짜증이 나 단장에게 화풀이했다 고브! 용서해 줘 고브!<end>"
+
 ["710055"]
 japanese = "わかればいい、わかればいいゴブよ。<line-break>マルーン。<line-break>さあ、ゴブゴブ団！<line-break>幸せのために突撃ゴブ！<line-break>聖杯は死守するでゴブよ！<end>"
 korean = "알았으면 됐다, 알았으면 됐다 고브. 마룬. 자, 고브고브단! 행복을 위해 돌격이다 고브! 성배는 죽어도 지킨다 고브!<end>"
@@ -191,6 +199,10 @@ korean = "그, 그러니까 철수하자고 했잖아 고브~!<end>"
 ["710097"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["710098"]
+japanese = "だ、だ、団長！<line-break>じ、自分が間違っていたでゴブ！<line-break>　<line-break>つい、疲れでイライラして団長に<line-break>当たってしまったでゴブ！<line-break>許してほしいゴブ！<end>"
+korean = "다, 단장! 내, 내가 잘못했다 고브! 피곤해서 짜증이 나 단장에게 화풀이했다 고브! 용서해 줘 고브!<end>"
 
 ["710100"]
 japanese = "ああっ！　聖杯が！<line-break>我らの幸せをもたらすものが！<end>"

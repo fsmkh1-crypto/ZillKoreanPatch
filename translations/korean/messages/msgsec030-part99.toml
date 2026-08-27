@@ -88,6 +88,10 @@ korean = "농담이야. 여전히 어린애네.<end>"
 japanese = "遅かったじゃない。<line-break>ん？<line-break>どうしたの、そのケガ？<end>"
 korean = "늦었잖아. 응? 그 상처는 뭐야?<end>"
 
+["300051"]
+japanese = "もう…。<line-break>無茶だけはしないでね。　　　<line-break>　<line-break>あなたに、何かあったら<line-break>亡くなったあなたのお父さまに<line-break>申しわけないもん。<end>"
+korean = "정말…. 무리만은 하지 마. 네게 무슨 일이 생기면 돌아가신 네 아버지께 면목이 없으니까.<end>"
+
 ["300053"]
 japanese = "くすっ。<line-break>足手まといにだけはならないでね。<end>"
 korean = "후훗. 짐만 되지는 마.<end>"
@@ -95,6 +99,10 @@ korean = "후훗. 짐만 되지는 마.<end>"
 ["300054"]
 japanese = "あ！　<value:$28>！<line-break>　<line-break>　<line-break>きゃーーーーー！！！！！！<line-break>　<line-break>　<end>"
 korean = "아! <value:$28>! 꺄아아아아아아!!!!<end>"
+
+["300055"]
+japanese = "いたたたた…。　　　　　　　<line-break><value:$28>、大丈夫？<line-break>　<line-break>もう、<value:$28>が<line-break>押してくるから、ふたりとも<line-break>穴に落ちちゃったじゃない。<end>"
+korean = "아야야야…. <value:$28>, 괜찮아? 정말, <value:$28>이 밀어대는 바람에 둘 다 구멍에 떨어졌잖아.<end>"
 
 ["300059"]
 japanese = "くすっ。<line-break>はいはい、子供のころの話よね。　　<line-break>　<line-break>…だんだん目が慣れてきたわ。<end>"
@@ -184,6 +192,10 @@ korean = "도망간다 고브~!<end>"
 japanese = "ガント親分、<line-break>どこに逃げるでゴブ！？<end>"
 korean = "간트 두목, 어디로 도망가는 고브!?<end>"
 
+["300086"]
+japanese = "むー、暗闇ではこっちが有利ゴブ。<line-break>ゴブゴブ団、突撃ゴブ～！<end>"
+korean = "으음, 어둠에서는 이쪽이 유리하다 고브. 고브고브단, 돌격 고브~!<end>"
+
 ["300087"]
 japanese = "暗くてよく見えないわ…。<line-break><value:$28>、気をつけて！<end>"
 korean = "어두워서 잘 안 보여…. <value:$28>, 조심해!<end>"
@@ -216,9 +228,17 @@ korean = "<value:$28>, 뭔가 마실 걸 가져올게.<end>"
 japanese = "私がいなくても大丈夫よね…　　　　　<line-break><value:$28>は。<end>"
 korean = "내가 없어도 괜찮겠지… <value:$28>은.<end>"
 
+["300098"]
+japanese = "こいつ弱いでゴブ～！　　　　　　　　<line-break>やっつけるでゴブ～！<end>"
+korean = "이 녀석 약하다 고브~! 해치운다 고브~!<end>"
+
 ["300100"]
 japanese = "ふぅーん。<line-break>何も言わずに出ていくんだ。<end>"
 korean = "흐응. 아무 말도 없이 나가는구나.<end>"
+
+["300101"]
+japanese = "私は別に構わないけど、<line-break>酒場のあの娘は悲しむんじゃないの？<end>"
+korean = "난 상관없지만 술집의 그 애는 슬퍼하지 않을까?<end>"
 
 ["300103"]
 japanese = "…さてと。<line-break>私もそろそろ行こうかな。<end>"
@@ -235,6 +255,10 @@ korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end
 ["300107"]
 japanese = "あっ、<value:$28>さん、<line-break>先ほどはどうも<line-break>ありがとうございました。<line-break>今度、お時間があるときに<line-break>ゆっくりお話しさせてください。<end>"
 korean = "아, <value:$28>님. 아까는 정말 감사합니다. 다음에 시간 되실 때 천천히 이야기 나누게 해 주세요.<end>"
+
+["300119"]
+japanese = "じ、地震だわ！　<value:$28>、<line-break>穴に落ちないように気をつけて！<end>"
+korean = "지, 지진이야! <value:$28>, 구멍에 떨어지지 않게 조심해!<end>"
 
 ["300120"]
 japanese = "た、たいへん！<line-break>床の穴が広がって…！<end>"

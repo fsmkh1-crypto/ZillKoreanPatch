@@ -420,6 +420,10 @@ korean = "그, 그런가요….<end>"
 japanese = "ど、どうしよう…。<line-break>　<line-break>　<line-break>なんとかして、それとなく<line-break><value:$28>さんに<line-break>あきらめてもらわないと…。<end>"
 korean = "어, 어떡하지…. 어떻게든 눈치채지 못하게 <value:$28>님이 포기하도록 해야 해….<end>"
 
+["1980202"]
+japanese = "そ、そんなはずは…。<line-break>だってあれは…おばあちゃんから<line-break>聞いた根も葉もないおとぎ話…。<line-break>それこそ、探したって絶対に<line-break>見つかるはずが…。<end>"
+korean = "그, 그럴 리가…. 그건… 할머니께 들은 근거 없는 동화일 뿐인데…. 찾아도 절대 발견될 리가….<end>"
+
 ["1980204"]
 japanese = "えっ？　それって<line-break>どういう意味ですか？<end>"
 korean = "네? 그게 무슨 뜻인가요?<end>"
@@ -443,6 +447,10 @@ korean = "아니요. 있어요.<end>"
 ["1980210"]
 japanese = "はいっ！？<end>"
 korean = "네!?<end>"
+
+["1980212"]
+japanese = "そ、そんなはずは…。<line-break>だってあれは…おばあちゃんから<line-break>聞いた根も葉もないおとぎ話…。<line-break>それこそ、探したって絶対に<line-break>見つかるはずが…。<end>"
+korean = "그, 그럴 리가…. 그건… 할머니께 들은 근거 없는 동화일 뿐인데…. 찾아도 절대 발견될 리가….<end>"
 
 ["1980214"]
 japanese = "そうなんですか…。<line-break>　<line-break>　<line-break>…よかった。<end>"

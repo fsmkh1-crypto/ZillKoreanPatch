@@ -204,6 +204,10 @@ korean = "자, 그럼 가자, <value:$28>. 단검 건은 부탁할게.<end>"
 japanese = "ん？　こ、これは…！！　　　　　<line-break>　<line-break>　<end>"
 korean = "응? 이, 이건…!!<end>"
 
+["1860090"]
+japanese = "きゃーーー！　じ、地震だよぉ！<line-break>フリントさん、<value:$28>！<end>"
+korean = "꺄아아! 지, 지진이야! 플린트 씨, <value:$28>!<end>"
+
 ["1860092"]
 japanese = "あぁ、ビックリしたぁ。<end>"
 korean = "아아, 깜짝 놀랐네.<end>"

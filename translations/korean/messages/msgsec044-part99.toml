@@ -84,6 +84,10 @@ korean = "닥쳐! 나는…<end>"
 japanese = "…そうだ。　　　　　　　　　　　<end>"
 korean = "…그래.<end>"
 
+["440025"]
+japanese = "…お前の言うとおりだ。<line-break>俺はティアナを好きだった！　　　<end>"
+korean = "…네 말이 맞아. 난 티아나를 좋아했어!<end>"
+
 ["440028"]
 japanese = "フフ…。満足か？　　<end>"
 korean = "후후…. 만족하나?　　<end>"
@@ -143,6 +147,10 @@ korean = "역시 신경 쓰여<end>"
 ["440055"]
 japanese = "関係ない。寝よう<end>"
 korean = "상관없어. 자자<end>"
+
+["440057"]
+japanese = "おや、もうお戻りですか。<line-break>それでは、おやすみなさいませ。<end>"
+korean = "어머, 벌써 돌아오셨습니까. 그럼 안녕히 주무십시오.<end>"
 
 ["440058"]
 japanese = "<value:$28>か。<end>"
@@ -211,6 +219,10 @@ korean = "평소의 레몬이 아니야. 방심하지 마, <value:$28>!<end>"
 ["440082"]
 japanese = "んー…、<line-break>やりすぎたかな？<end>"
 korean = "음…, 너무 심했나?<end>"
+
+["440083"]
+japanese = "ま、大丈夫か。<line-break>息してるし、見た目も元に戻ってる。<line-break>しばらくすりゃ気がつくだろう。<line-break>んじゃ、あとは頼むわ。<line-break>任せたぜ、<value:$28>。<end>"
+korean = "뭐, 괜찮겠지. 숨도 쉬고 겉모습도 원래대로 돌아왔어. 좀 있으면 정신 차리겠지. 그럼 나머진 부탁한다, <value:$28>.<end>"
 
 ["440084"]
 japanese = "いや、俺は帰っとくわ。<line-break>俺に助けられたなんて知ったら、<line-break>かえって面倒になりそうだからな。<line-break>そんじゃ、おやすみな。<line-break><value:$28>。<end>"

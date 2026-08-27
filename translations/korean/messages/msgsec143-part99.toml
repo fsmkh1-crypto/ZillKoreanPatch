@@ -88,6 +88,10 @@ korean = "조용히 해! 너희는 물러나 있어!<end>"
 japanese = "へ、へい！<end>"
 korean = "예, 옙!<end>"
 
+["1430032"]
+japanese = "突然、襲いかかるなんて<line-break>卑怯なやり方だった。それは謝るわ。<line-break>でも、あんたの力を試したかったの。<line-break>あんた、<line-break>…思ったとおりのスゴ腕ね。<end>"
+korean = "갑자기 덤벼든 건 비겁한 방식이었어. 그건 사과할게. 그래도 네 힘을 시험해 보고 싶었어. 너… 생각한 대로 대단한 실력이네.<end>"
+
 ["1430033"]
 japanese = "その腕を見込んで、<line-break>ひとつ頼みがあるの。<end>"
 korean = "그 실력을 믿고 부탁 하나 할게.<end>"
@@ -167,6 +171,10 @@ korean = "알겠어. 준비를 갖추고 다시 와.<end>"
 ["1430072"]
 japanese = "大イカは手強いわ。<line-break>装備は抜かりないようにね。<end>"
 korean = "대왕오징어는 강해. 장비를 단단히 챙겨.<end>"
+
+["1430073"]
+japanese = "もう、作戦は立ててあるの。<line-break>聞いて。<line-break>　<line-break>海の中で戦っても<line-break>こっちに勝ち目はないわ。<line-break>だから、大イカを港におびき寄せる。<end>"
+korean = "이미 작전은 세워 뒀어. 들어. 바다에서 싸워서는 승산이 없어. 그러니 큰 오징어를 항구로 유인하는 거야.<end>"
 
 ["1430075"]
 japanese = "お呼びっスか？　　　　　<line-break>　<end>"
@@ -283,6 +291,14 @@ korean = "물보라 군도란?<end>"
 ["1430108"]
 japanese = "また今度<end>"
 korean = "다음에<end>"
+
+["1430109"]
+japanese = "島の真ん中に、隕石が落ちたような<line-break>大きな穴があるの。<line-break>穴の底は深くて、まったく見えないわ。<line-break>きっとそれが、<line-break>闇の門という名の由来ね。<end>"
+korean = "섬 한가운데에 운석이 떨어진 것 같은 큰 구멍이 있어. 바닥은 깊어서 전혀 안 보여. 아마 그게 어둠의 문이라는 이름의 유래겠지.<end>"
+
+["1430110"]
+japanese = "いつだったか、<line-break>あの穴へ降りてみようと思ったけど<line-break>そばまで行って、あきらめたわ。<line-break>あそこには、人の進入を拒む<line-break>何かがあるのよ。<end>"
+korean = "언젠가 그 구멍에 내려가 보려 했지만 근처까지 가고 포기했어. 저기에는 사람의 침입을 거부하는 무언가가 있어.<end>"
 
 ["1430114"]
 japanese = "もう…。今さら遅いわよ。<line-break>　<line-break>　<line-break>どうせ、賊を仕切ってる私なんて、<line-break>女には見えやしないだろうしね。<end>"

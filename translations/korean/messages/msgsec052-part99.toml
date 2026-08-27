@@ -80,6 +80,10 @@ korean = "돌아가지 않는다<end>"
 japanese = "では、私と<value:$28>は<line-break>これにて退出いたします。<line-break>失礼。<end>"
 korean = "그럼 저와 <value:$28>은 이만 물러가겠습니다. 실례합니다.<end>"
 
+["520040"]
+japanese = "フッ、国の大事だというのに<line-break>ファーロス家のごり押しには<line-break>まいったものだ。<line-break>まったくの茶番だった。<line-break>それではな。<line-break><value:$28>。<end>"
+korean = "흥, 나라의 중대사인데 파로스 가문의 억지가 대단하군. 완전히 촌극이었어. 그럼 이만, <value:$28>.<end>"
+
 ["520041"]
 japanese = "…勝手にするがいい！<end>"
 korean = "…마음대로 해라!<end>"
@@ -99,6 +103,10 @@ korean = "…남편을 걱정하는 것은 아내의 역할입니다.<end>"
 ["520047"]
 japanese = "…陛下。<end>"
 korean = "…폐하.<end>"
+
+["520048"]
+japanese = "うぉほん、では作戦の説明をする。<line-break>おい、副官！　説明せよ！<end>"
+korean = "크흠, 그럼 작전을 설명하겠다. 어이, 부관! 설명해라!<end>"
 
 ["520052"]
 japanese = "以上です。　　　　　　　　　　　<line-break>何か質問は？<line-break>　<end>"
@@ -271,6 +279,10 @@ korean = "이것도 전장의 법도다. 간다, <value:$28>!<end>"
 ["520159"]
 japanese = "戦場をひとりで守る<line-break>ロストール貴族とはお主か！<end>"
 korean = "전장을 혼자 지키는 로스토올 귀족이란 네놈이냐!<end>"
+
+["520160"]
+japanese = "まだ抵抗をやめぬか…天晴れなり！<line-break>勇士よ！　名を名乗られよ！<end>"
+korean = "아직 저항을 멈추지 않는가… 훌륭하도다! 용사여! 이름을 밝혀라!<end>"
 
 ["520162"]
 japanese = "では、まいる！<line-break>ノーブル伯<value:$28>！<end>"

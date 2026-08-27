@@ -4,6 +4,10 @@
 japanese = "ファーロス・ボリューム３開始<end>"
 korean = "파로스 볼륨 3 시작<end>"
 
+["530003"]
+japanese = "それなのにどうして俺が白い目で？　　<line-break>俺が俺がア？<line-break>　<end>"
+korean = "그런데 왜 내가 이상한 눈초리를 받아야 해? 내가, 내가아?<end>"
+
 ["530005"]
 japanese = "おとなしくしろ！<line-break>ルブルグ伯タルテュバ！　　<end>"
 korean = "얌전히 있어라! 루블루그 백작 타르튜바!<end>"
@@ -59,6 +63,10 @@ korean = "예비 메시지 9 파로스 볼륨 3<end>"
 ["530033"]
 japanese = "予備用メッセージ１０<line-break>ファーロス・ボリューム３<end>"
 korean = "예비 메시지 10 파로스 볼륨 3<end>"
+
+["530035"]
+japanese = "よくやった。<line-break>戦争などは本来いむべきものだが、<line-break>そなたの活躍、うれしく思うぞ。<line-break>天国のフリントとそなたの母も<line-break>やはり喜んでいよう。<end>"
+korean = "잘했다. 전쟁은 본래 피해야 할 일이지만 네 활약은 기쁘구나. 천국의 플린트와 네 어머니도 분명 기뻐하실 거다.<end>"
 
 ["530037"]
 japanese = "そうか、わかった。<line-break>　<line-break>　<line-break>フリントの子、<value:$28>よ。<line-break>また来るとよい。<end>"
