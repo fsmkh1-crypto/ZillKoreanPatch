@@ -376,6 +376,10 @@ korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
 japanese = "ウフフ、<value:$28>様も<line-break>今日は一日、ご苦労様でした。　　　<line-break>　<line-break>そうそう。<value:$28>様を<line-break>お呼びしたのは、これを<line-break>受け取ってもらいたかったからです。<end>"
 korean = "우후후, <value:$28> 님도 오늘 하루 수고 많으셨어요. 그리고 <value:$28> 님을 부른 건 이걸 받아 주셨으면 해서예요.<end>"
 
+["1410117"]
+japanese = "あ、待ってください。<line-break>感想はあとで…、<line-break>ここでは食べないで…。<end>"
+korean = "아, 기다려 주세요. 감상은 나중에… 여기서는 먹지 마세요….<end>"
+
 ["1410118"]
 japanese = "あ、あの…。<line-break>どう、ですか？<end>"
 korean = "저, 저기…. 어때요?<end>"
@@ -523,6 +527,10 @@ korean = "그럼, <value:$28>. 가자!<end>"
 ["1410162"]
 japanese = "でも、ディンガルとロストールが<line-break>仲よくなっちゃったから、<line-break>戦争はもうおしまい。<line-break>これから、バイアシオンは<line-break>ひとつになっていくんだろうね。<end>"
 korean = "하지만 딘갈과 로스토올이 사이좋아졌으니 전쟁은 이제 끝이야. 앞으로 바이아시온은 하나가 되어 가겠지.<end>"
+
+["1410164"]
+japanese = "いや～、力を持ちすぎた者の宿命って<line-break>やつですか？　しょうがないよね。<end>"
+korean = "이야~, 힘을 너무 많이 가진 자의 숙명이라는 건가요? 어쩔 수 없죠.<end>"
 
 ["1410167"]
 japanese = "なになに？　そんなこっちゃ、<line-break>戦争が目的になっちゃう、　<line-break>って…？<line-break>そ、ね。<line-break>わかってる。<line-break>あたしも、そうだって思うよ。<end>"

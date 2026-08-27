@@ -796,6 +796,10 @@ korean = "………………. 누군가의 아픔을 느끼는 것… 그게 내
 japanese = "うわ、言ってくれるね。<line-break>確かにその通りだけどさ。<end>"
 korean = "우와, 말은 잘하네. 확실히 맞는 말이긴 하지만.<end>"
 
+["1400300"]
+japanese = "さてと、そろそろ潮時かな。<line-break>このオモチャが墜落する前に<line-break>僕は失礼するよ。<end>"
+korean = "자, 슬슬 떠날 때인가. 이 장난감이 추락하기 전에 난 실례하지.<end>"
+
 ["1400301"]
 japanese = "じゃ、<value:$28>。<line-break>せっかくだから、墜落の瞬間まで<line-break>ゆっくりしてってよ。<line-break>あはははは！<line-break>じゃあね～。<end>"
 korean = "그럼 <value:$28>. 모처럼이니 추락하는 순간까지 느긋하게 있다 가. 아하하하! 잘 가~.<end>"

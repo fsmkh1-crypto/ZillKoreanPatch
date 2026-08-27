@@ -1100,6 +1100,10 @@ korean = "후후후.<end>"
 japanese = "ところで、ゼネさん、<line-break>あんたこんなところにいていいのかい？<end>"
 korean = "그런데 제네 씨, 이런 데 있어도 괜찮아?<end>"
 
+["890420"]
+japanese = "おう、<value:$28>。<line-break>ギルドでいい仕事を　　　　　　　<line-break>見つけたんだわ。<line-break>どうだ、ちょっくら<line-break>やってみないか？<line-break>古代王国の秘宝探しなんだけどよ。<end>"
+korean = "오, <value:$28>. 길드에서 괜찮은 일을 찾았어. 어때, 한번 해 보지 않을래? 고대 왕국의 비보 찾기야.<end>"
+
 ["890421"]
 japanese = "よし、決まりだ！<line-break>行こうぜ、<value:$28>。<end>"
 korean = "좋아, 결정이다! 가자, <value:$28>.<end>"
@@ -1199,6 +1203,10 @@ korean = "오늘은 정말 피곤하네…. 문서 끝에 서명만 하면 됐�
 ["890451"]
 japanese = "あ、<value:$28>様ですか？<line-break>どうぞ、お入りになって。<end>"
 korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
+
+["890452"]
+japanese = "ウフフ、<value:$28>様も<line-break>今日は一日、ご苦労様でした。　　　<line-break>　<line-break>そうそう。<value:$28>様を<line-break>お呼びしたのは、これを<line-break>受け取ってもらいたかったからです。<end>"
+korean = "우후후, <value:$28> 님도 오늘 하루 수고 많으셨어요. 그리고 <value:$28> 님을 부른 건 이걸 받아 주셨으면 해서예요.<end>"
 
 ["890454"]
 japanese = "時は満ちた。<line-break>しかし、なぜ時を告げぬ？<line-break> <line-break>告げるものよ…？<end>"

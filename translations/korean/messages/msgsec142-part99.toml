@@ -1704,6 +1704,10 @@ korean = "자, 낮잠이나 자 볼까.<end>"
 japanese = "団長！お祝いするゴブ！ごちそうゴブ。<end>"
 korean = "단장! 축하한다고블! 잔치라고블.<end>"
 
+["1420508"]
+japanese = "マルーン！<line-break>さっそく宿屋の手配を命じるゴブ！<line-break>最高の食事を揃えるゴブ！<end>"
+korean = "마룬! 당장 여관 준비를 명령하는 고브! 최고의 음식을 마련하는 고브!<end>"
+
 ["1420509"]
 japanese = "団長！　いってくるゴ…<end>"
 korean = "단장! 다녀올게고….<end>"
@@ -2031,6 +2035,10 @@ korean = "페티야아.<end>"
 ["1420619"]
 japanese = "こ、こらっ！<end>"
 korean = "이, 이봐!<end>"
+
+["1420621"]
+japanese = "そしておそらく、<line-break>裏をついて、可能な限り<line-break>戦闘を避けようとしてる。<end>"
+korean = "그리고 아마 빈틈을 찔러 가능한 한 전투를 피하려는 거야.<end>"
 
 ["1420622"]
 japanese = "なるほど。<value:$28>なら、<line-break>それくらいはやってきそう…。<line-break> <line-break>この森には、未開な部分が多いし、<line-break>そこをかいくぐられると…。<end>"
