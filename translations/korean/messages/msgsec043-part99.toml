@@ -230,7 +230,7 @@ korean = "동생 에스트가 처리하고 있습니다. 조만간 자세한 내
 
 ["430057"]
 japanese = "では、それを待とう。　　　　　　　　<line-break>　<line-break>　<line-break>しかし、残念なことよ。<line-break>ボルボラに聞きたいことがあったのだが<line-break>むくろを問いただすわけにもいくまい。<end>"
-korean = "그럼 그걸 기다리지.　　　　　　　　　　하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만시체를 붙잡고 캐물을 수도 없으니.<end>"
+korean = "그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만시체를 붙잡고 캐물을 수도 없으니.<end>"
 
 ["430058"]
 japanese = "領主の私に<line-break>答えられることでしたら…。<end>"
@@ -366,7 +366,7 @@ korean = "<if><value:$29><equal>%0게다가 이복동생을 숨기고 있었다�
 
 ["430091"]
 japanese = "…！　さすがは我が妹よ！<line-break>レムオンめ、そうとは知らずに…。<line-break>　<line-break>ハハハハ！<line-break>小僧めに、一杯食わせて<line-break>せいせいしたわ！<end>"
-korean = "…! 역시 내 여동생이군! 레몬 녀석, 그것도 모르고….　하하하하! 그 애송이를 한 방 먹여서속이 다 시원하군!<end>"
+korean = "…! 역시 내 여동생이군! 레몬 녀석, 그것도 모르고…. 하하하하! 그 애송이를 한 방 먹여서속이 다 시원하군!<end>"
 
 ["430092"]
 japanese = "<if><value:$29><equal>%0それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という少年…。<end>それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という娘…。<end>"

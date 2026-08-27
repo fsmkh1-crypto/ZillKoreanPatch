@@ -410,7 +410,7 @@ korean = "봐, 플레어도 이렇게 말하잖아. 우리 일은 그냥 내버�
 
 ["1160102"]
 japanese = "…<value:$28>…。<line-break>このようなときに来られるとは…。<line-break>　<line-break>…私は、これから、死にます。<end>"
-korean = "…<value:$28>…. 이런 때에 오다니….　…나는 이제 죽습니다.<end>"
+korean = "…<value:$28>…. 이런 때에 오다니…. …나는 이제 죽습니다.<end>"
 
 ["1160103"]
 japanese = "束縛の腕輪の力が完全に尽き、<line-break>私の体は土くれとなって<line-break>失われようとしています。<line-break>もはや、腕輪があろうとも<line-break>私の体が崩れ落ちることは<line-break>止めることができないでしょう。<end>"
@@ -434,7 +434,7 @@ korean = "곧 제 몸은 흙덩이처럼 무너져 내릴 겁니다. 그 때문�
 
 ["1160108"]
 japanese = "<value:$28>様、ですか？<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>体を維持するための魔力が<line-break>弱まっているのでしょう。<line-break>最近は、目もよく見えません。<end>"
-korean = "<value:$28> 님인가요?　　　　　　　　　　　　　　　몸을 유지하는 마력이약해지고 있는 거겠죠. 요즘은 눈도 잘 보이지 않습니다.<end>"
+korean = "<value:$28> 님인가요? 몸을 유지하는 마력이약해지고 있는 거겠죠. 요즘은 눈도 잘 보이지 않습니다.<end>"
 
 ["1160109"]
 japanese = "心配などいりません。<line-break>また、心配する意味もありません。<line-break>私がこうなるのは、必然なのです。<end>"
@@ -546,7 +546,7 @@ korean = "그럼 잘 있어라. <value:$28>, 무한의 소울을 지닌 자여.<
 
 ["1160136"]
 japanese = "　　　　　　再び来たか。<value:$28>、<line-break>　　　　　　無限のソウルを持つ者よ。　　　　<line-break>　　　　　　プネウマを退治する気に<line-break>　　　　　　　　なったのだな？<end>"
-korean = "　　　　　　다시 왔는가. <value:$28>,　　　　　　무한의 소울을 지닌 자여.　　　　　　　　　　프네우마를 퇴치할 마음이　　　　　　　　생긴 것이냐?<end>"
+korean = " 다시 왔는가. <value:$28>, 무한의 소울을 지닌 자여. 프네우마를 퇴치할 마음이 생긴 것이냐?<end>"
 
 ["1160137"]
 japanese = "しょうがないな<end>"
