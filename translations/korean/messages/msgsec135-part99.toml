@@ -140,6 +140,10 @@ korean = "<value:$28>님.<end>"
 japanese = "手紙？<line-break>ゼネテス様の？<end>"
 korean = "편지? 제네테스 님의?<end>"
 
+["1350073"]
+japanese = "　これを読んでるってことは<line-break>　　俺は死んだってことか。<end>"
+korean = "이걸 읽고 있다는 건 내가 죽었다는 뜻인가.<end>"
+
 ["1350080"]
 japanese = "　　でも、それが悪いことなのか？<end>"
 korean = "하지만, 그게 나쁜 일인가?<end>"
@@ -472,6 +476,10 @@ korean = "…사랑한다, <value:$28>. …이제 너를 놓고 싶지 않아. �
 japanese = "すまん。<line-break>すまん、<value:$28>…<end>"
 korean = "미안하다. 미안해, <value:$28>….<end>"
 
+["1350212"]
+japanese = "ふふ…ふふふ…ひどい方。<line-break>愛の口づけを振り払うなんて。<end>"
+korean = "후후… 후후후… 너무하시네요. 사랑의 입맞춤을 뿌리치다니.<end>"
+
 ["1350214"]
 japanese = "ふふふ、そうですね。<line-break>レムオン様を歓迎してあげませんとね。<line-break> <line-break>それでは、ごきげんよう。<line-break>良き終末を…<end>"
 korean = "후후후, 그렇군요. 레몬 님을 환영해 드려야겠네요. 그럼 안녕히. 좋은 종말을….<end>"
@@ -631,6 +639,10 @@ korean = "다르케니스인 게 뭐가 나빠!<end>"
 ["1350275"]
 japanese = "ガアアアッ！！<end>"
 korean = "가아아앗!!<end>"
+
+["1350276"]
+japanese = "あれれ。<line-break>逃げられちゃったかな？<line-break>まぁ、いいや。<end>"
+korean = "어라. 도망가 버렸나? 뭐, 됐어.<end>"
 
 ["1350277"]
 japanese = "世界を消せば同じことだよね。<line-break>ティアナ。<end>"

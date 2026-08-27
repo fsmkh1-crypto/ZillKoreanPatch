@@ -108,6 +108,42 @@ korean = "부탁이야, 레이븐. 가지 마.<end>"
 japanese = "…ありがとう。　　　　　<line-break>　<line-break>　<line-break>君が俺を必要とする限り、<line-break>俺は君のそばに…いるよ。<end>"
 korean = "…고마워. 네가 날 필요로 하는 한, 난 네 곁에… 있을게.<end>"
 
+["1410042"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその１ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 1이야.<end>"
+
+["1410043"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその２ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 2야.<end>"
+
+["1410044"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその３ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 3이야.<end>"
+
+["1410045"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその４ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 4야.<end>"
+
+["1410046"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその５ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 5야.<end>"
+
+["1410047"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその６ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 6이야.<end>"
+
+["1410048"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその７ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 7이야.<end>"
+
+["1410049"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその８ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 8이야.<end>"
+
+["1410050"]
+japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその９ね。<end>"
+korean = "예비 메시지야, 꼬마야. 노엘2/V3 그 9야.<end>"
+
 ["1410051"]
 japanese = "予備メッセージよ、ボウヤ。<line-break>ノエル２／Ｖ３のその１０ね。<end>"
 korean = "예비 메시지야, 꼬마야. 노엘 2/V3의 그 10이야.<end>"
@@ -163,6 +199,10 @@ korean = "그래. 한나는 잘 알고 있구나.<end>"
 ["1410073"]
 japanese = "ふふふ。<end>"
 korean = "후후후.<end>"
+
+["1410074"]
+japanese = "ところで、ゼネさん、<line-break>あんたこんな所にいていいのかい？<end>"
+korean = "그런데 제네 씨, 이런 데 있어도 괜찮아?<end>"
 
 ["1410077"]
 japanese = "よし、決まりだ！<line-break>行こうぜ、<value:$28>。<end>"
@@ -528,6 +568,10 @@ korean = "기다려! 조금은 뒤돌아보기도 해!<end>"
 japanese = "ああ…いよいよ、<line-break>次の旅に出かけるのか。<end>"
 korean = "아아… 드디어 다음 여행을 떠나는 건가.<end>"
 
+["1410234"]
+japanese = "そうか、寂しくなるな。<line-break>俺はいいが、きっとあの娘は…。<end>"
+korean = "그런가, 쓸쓸해지겠군. 난 괜찮지만 분명 그 아이는….<end>"
+
 ["1410237"]
 japanese = "やっと見つけたわ、<line-break><value:$28>！<end>"
 korean = "드디어 찾았어, <value:$28>!<end>"
@@ -547,6 +591,10 @@ korean = "그렇게 말할 줄 알았어. 하지만 기억해 봐, <value:$28>�
 ["1410244"]
 japanese = "あの戦乱の日々を。<line-break> <line-break> <line-break>わたくしに違う世界を<line-break>見せてくれたのは、<line-break>あなたじゃなくって？<end>"
 korean = "그 전란의 나날을…. 나에게 다른 세계를 보여 준 건 당신 아니었나요?<end>"
+
+["1410246"]
+japanese = "いいえ、もう決めました。<line-break>仕事の引継ぎも終わってるわ。<end>"
+korean = "아니요, 이미 결정했어요. 업무 인계도 끝났고요.<end>"
 
 ["1410247"]
 japanese = "…一緒に…来てくれない？<end>"

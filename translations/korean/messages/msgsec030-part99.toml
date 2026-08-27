@@ -108,6 +108,10 @@ korean = "그쪽은 어때? 조금 더 찾아보자.<end>"
 japanese = "くやしいけど、なすすべなしね。<end>"
 korean = "분하지만 방법이 없네.<end>"
 
+["300064"]
+japanese = "なんでも、聖杯の力で<line-break>知恵を得たっていうじゃない。　　　<end>"
+korean = "성배의 힘으로 지혜를 얻었다고 하잖아.<end>"
+
 ["300066"]
 japanese = "ねぇ…。<end>"
 korean = "있잖아….<end>"
@@ -195,6 +199,10 @@ korean = "…<value:$28>? …그렇구나, 피곤했구나. …나도 왠지….
 ["300090"]
 japanese = "あら、気がついたのね。<line-break>　<line-break>　<line-break>もう。心配させて…。<line-break>　<line-break>　<end>"
 korean = "어머, 정신이 들었구나. 정말, 걱정시키고….<end>"
+
+["300092"]
+japanese = "だからって、家の壁に<line-break>やつあたりするのは、もうやめてね。<end>"
+korean = "그렇다고 집 벽에 화풀이하는 건 이제 그만해.<end>"
 
 ["300093"]
 japanese = "わかってるわよっ。<end>"

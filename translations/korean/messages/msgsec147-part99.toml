@@ -12,9 +12,17 @@ korean = "오, 왔군, <value:$28>. 그럼 길드로 가자. 따라와.<end>"
 japanese = "ふぅん。<line-break>…で、どんなんだい？<end>"
 korean = "흐음. …그래서, 어떤 건데?<end>"
 
+["1470011"]
+japanese = "へぇ。てことは、アジトの場所は<line-break>つきとめてあるのかい？<end>"
+korean = "헤에. 그럼 아지트 위치는 알아낸 거야?<end>"
+
 ["1470015"]
 japanese = "…だそうだ。<line-break>どうする、<value:$28>？<end>"
 korean = "…그렇다는데. 어떻게 할래, <value:$28>?<end>"
+
+["1470018"]
+japanese = "おやじ、聞いての通りだ。<line-break>その依頼、俺たちが受けるぜ。<end>"
+korean = "아저씨, 들은 대로야. 그 의뢰, 우리가 맡을게.<end>"
 
 ["1470019"]
 japanese = "そうかい。そうこなくっちゃな。<line-break>それじゃ、頼んだぜ、ゼネテスさん。<line-break>それに、<value:$28>。<end>"
