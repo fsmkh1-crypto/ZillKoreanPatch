@@ -76,6 +76,10 @@ korean = "몬스터가 지키고 있다는 건 매장금이 이 안쪽에 있다
 japanese = "うわぁ！　さすが、リベルダムの商人の<line-break>埋蔵金だね。ボクが想像してたのよりも<line-break>ずっとすごいや。<line-break>これで解放軍のお金の問題も解決だね。<line-break>さぁ、戻ろう、<value:$28>。<end>"
 korean = "우와! 역시 리벨덤 상인의 매장금이네. 내가 상상한 것보다 훨씬 대단해. 이걸로 해방군의 자금 문제도 해결이군. 자, 돌아가자, <value:$28>.<end>"
 
+["1880020"]
+japanese = "<if><value:$01><equal>15さすがはリベルダムの商人の<line-break>埋蔵金だね。これだけあれば解放軍の<line-break>財政難もだいぶよくなるはずだよ。 <end><if><value:$01><equal>19うわぁ。さすがはリベルダムの商人の<line-break>埋蔵金だね、<value:$28>。 <end>うわぁ。さすがにリベルダムの商人の<line-break>埋蔵金だけあるね、<value:$28>。 <end>"
+korean = "<if><value:$01><equal>15역시 리벨덤 상인의 매장금답네. 이 정도면 해방군의 재정난도 꽤 나아질 거야.<end><if><value:$01><equal>19와아. 역시 리벨덤 상인의 매장금이네, <value:$28>.<end>와아. 역시 리벨덤 상인의 매장금답네, <value:$28>.<end>"
+
 ["1880022"]
 japanese = "<if><value:$01><equal>15変な話をしてごめん。<line-break>さぁ、戻って報告しないとね。 <end><if><value:$01><equal>19さぁ、<value:$28>。<line-break>埋蔵金見つけたって報告しないと。<line-break>手を出したらダメだからね。 <end>さぁ、<value:$28>。<line-break>戻って報告しなくっちゃ。 <end>"
 korean = "<if><value:$01><equal>15이상한 얘기해서 미안해. 자, 돌아가서 보고해야지. <end><if><value:$01><equal>19자, <value:$28>. 매장금을 찾았다고 보고해야 해. 손대면 안 돼. <end>자, <value:$28>. 돌아가서 보고해야지. <end>"
@@ -427,6 +431,10 @@ korean = "쓸데없는 말을 했군요. 이런 말을 해 봐야 자금이 하�
 ["1880117"]
 japanese = "もし、あなたがディンガルとの戦いを<line-break>望むなら、解放軍を離れた方が<line-break>いいかもしれません。<line-break>わたくしには、そう望む人を<line-break>止める権利はありません。<line-break>…もう、行ってください。<end>"
 korean = "만약 당신이 딘갈과의 싸움을 원한다면 해방군을 떠나는 편이 좋을지도 모릅니다. 저는 그렇게 바라는 사람을 막을 권리가 없습니다. …이제 가 주세요.<end>"
+
+["1880118"]
+japanese = "<select><value:$20>%2わたくしが間違っているのかしら？<line-break>あの難民のすべてを救おうなんて<line-break>思い上がりなのかしら？<end>ディンガルをはやく倒すことが<line-break>できれば、これ以上の難民を<line-break>出さずにすむかもしれない。<line-break>でも、今困っている人たちを<line-break>見過ごすことはできません。<end>"
+korean = "<select><value:$20>%2제가 틀린 걸까요? 저 난민을 전부 구하겠다는 건 오만한 생각일까요?<end>딘갈을 빨리 무너뜨릴 수 있다면 더 이상의 난민이 생기는 걸 막을 수 있을지도 몰라요. 하지만 지금 곤란한 사람들을 외면할 수는 없습니다.<end>"
 
 ["1880119"]
 japanese = "…<value:$28>。<line-break>今日はどうしたのですか？<end>"

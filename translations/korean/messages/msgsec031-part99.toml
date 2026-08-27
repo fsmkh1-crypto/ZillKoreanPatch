@@ -1048,6 +1048,10 @@ korean = "뭐, 뭐야!?<end>"
 japanese = "大通り<end>"
 korean = "대로<end>"
 
+["310280"]
+japanese = "<select><value:$20>%2あのお兄ちゃんは<line-break>やみのじんぎっていうものを　　<line-break>探してるんだって。<line-break>カワイイ顔してるのに、<line-break>なんかヘンなの！<line-break>あんまし、モテそうにないよね！<end>あのお兄ちゃんは、<line-break>お兄ちゃんのお兄ちゃんに<line-break>この町で会うつもりなんだって！<end>"
+korean = "<select><value:$20>%2저 오빠는 어둠의 신기라는 걸 찾고 있대. 귀여운 얼굴인데 뭔가 이상해! 별로 인기 없을 것 같지 않아?<end>저 오빠는 자기 형을 이 도시에서 만나려고 한대!<end>"
+
 ["310281"]
 japanese = "お母さんが、<line-break>お姉ちゃんとお話ししちゃダメだって。<line-break>コワイお代官様ににらまれるんだって。<end>"
 korean = "엄마가 누나랑 이야기하면 안 된대. 무서운 관리님한테 찍힌대.<end>"

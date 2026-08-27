@@ -192,6 +192,10 @@ korean = "<if><value:$29><equal>%0동생 일을 벌써 알고 있다니 귀가 �
 japanese = "フフ、王宮中その噂で持ちきりです。<line-break>ファーロスの雌狐の娘で<line-break>なくても知っていますわ。<end>"
 korean = "후후, 왕궁 전체가 그 소문으로 떠들썩해요. 파로스의 암여우 딸이 아니어도 다 안답니다.<end>"
 
+["650050"]
+japanese = "<if><value:$29><equal>%0まったく、くだらん噂話しか<line-break>能のない奴らが多すぎる。　　　<line-break>　<line-break>紹介する。我が弟、<line-break>ノーブル伯<value:$28>だ。<end>まったく、くだらん噂話しか<line-break>能のない奴らが多すぎる。　　　<line-break>　<line-break>紹介する。我が妹、<line-break>ノーブル伯<value:$28>だ。<end>"
+korean = "<if><value:$29><equal>%0정말이지 시시한 소문이나 떠들 줄 아는 자들이 너무 많군. 소개하지. 내 동생, 노블 백작 <value:$28>이다.<end>정말이지 시시한 소문이나 떠들 줄 아는 자들이 너무 많군. 소개하지. 내 여동생, 노블 백작 <value:$28>이다.<end>"
+
 ["650051"]
 japanese = "お目にかかれて光栄です、<line-break>ノーブル伯。<end>"
 korean = "뵙게 되어 영광입니다, 노블 백작님.<end>"

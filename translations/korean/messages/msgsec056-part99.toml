@@ -328,6 +328,10 @@ korean = "…언니. 차림은 대담하면서 생각하는 건 참 쩨쩨하네
 japanese = "堅実と言いなさい！　堅実と！<end>"
 korean = "착실하다고 해! 착실하다고!<end>"
 
+["560084"]
+japanese = "<if><value:$29><equal>%0あら、ボウヤ、仕事熱心ね。<line-break>　<line-break>　<line-break>でも、あたしたちの仕事を<line-break>横取りしたら、<line-break>ただじゃおかないわよ。<end>あら、子猫ちゃん、仕事熱心ね。<line-break>　<line-break>　<line-break>でも、あたしたちの仕事を<line-break>横取りしたら、<line-break>ただじゃおかないわよ。<end>"
+korean = "<if><value:$29><equal>%0어머 꼬마야, 일에 열심이네. 하지만 우리 일을 가로채면 가만두지 않을 거야.<end>어머 아기고양이, 일에 열심이네. 하지만 우리 일을 가로채면 가만두지 않을 거야.<end>"
+
 ["560085"]
 japanese = "金のことになるとコワイね、<line-break>お姉さまは。<end>"
 korean = "돈 이야기가 나오면 무섭네, 누님은.<end>"
@@ -427,6 +431,10 @@ korean = "아, 그래. 목적은 <value:$28> 쪽이구나. 알았어. 방해꾼�
 ["560109"]
 japanese = "本当は何を話してたんですか？<end>"
 korean = "사실 무슨 얘기 했어요?<end>"
+
+["560111"]
+japanese = "<if><value:$29><equal>%0あらボウヤ、偶然ね。<line-break>ボウヤもここに泊まるの？　<line-break>　<line-break>フフフ、そんな顔しないの。<line-break>取って食いやしないわ。<end>あら子猫ちゃん、偶然ね。<line-break>子猫ちゃんもここに泊まるの？<line-break>　<line-break>フフフ、そんな顔しないの。<line-break>取って食いやしないわ。<end>"
+korean = "<if><value:$29><equal>%0어머 꼬마야, 우연이네. 너도 여기 묵는 거야? 후후후, 그런 표정 짓지 마. 잡아먹진 않아.<end>어머 아기고양이, 우연이네. 너도 여기 묵는 거야? 후후후, 그런 표정 짓지 마. 잡아먹진 않아.<end>"
 
 ["560112"]
 japanese = "あんたか…、よく会うね。　　　　<end>"

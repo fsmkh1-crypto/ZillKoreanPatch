@@ -112,6 +112,10 @@ korean = "…<value:$28>, 무한의 소울을 지닌 자여… 공중도시는 �
 japanese = "　　　　　　　では、さらばだ。　　　　　　　<line-break>　　　　　無限のソウルを持つ者よ。<end>"
 korean = "그럼, 잘 가라. 무한의 소울을 지닌 자여.<end>"
 
+["1120035"]
+japanese = "　　　　　　　　…よかった…。　　　　　　　<line-break>　　　　最後の最後でキミの役に立てる。<line-break>　　　　　　　キミを救える…。<line-break>　<line-break>　　　　　　　　サヨナラだね、　　　　　　　<line-break>　　　　　　　　<value:$28>…。<line-break>　　　　　ボクのこと…忘れないでね……。<end>"
+korean = "…다행이야…. 마지막 순간에 네게 도움이 될 수 있어. 널 구할 수 있어…. 이제 작별이네, <value:$28>…. 나를… 잊지 말아 줘…….<end>"
+
 ["1120036"]
 japanese = "　　　　　　…<value:$28>、<line-break>　　　　　　<value:$28>よ…。<line-break>　　　　　　　　聞こえるか…。　　　　　　　<line-break>　<line-break>　　　　　わらわじゃ、エアじゃ。<line-break>　　　　　　　すべては定め…<line-break>　　　こうなることはわかっておった…<line-break>　<end>"
 korean = "…<value:$28>, <value:$28>여…. 들리는가…. 나다, 에어다. 모든 것은 정해진 운명… 이렇게 될 줄 알고 있었다….<end>"
@@ -523,6 +527,10 @@ korean = "크, 분하다… 내 힘으로도 네놈들의 어리석은 짓을 �
 ["1120148"]
 japanese = "　　　　　　　　さすがだな…。　　　　　　　<line-break>　　　　　　　　よくやった、<line-break>　　　　　無限のソウルを持つ者よ…。<end>"
 korean = "역시 대단하군…. 잘했다, 무한의 소울을 지닌 자여….<end>"
+
+["1120149"]
+japanese = "　　　よくぞ、巨人パンタ・レイを倒した。　　<line-break>　　　これで、我の力を妨げる者はない。<line-break>　　礼を言うぞ。無限のソウルを持つ者よ。<line-break>　<line-break>　　　　　　我は感謝の証として、<line-break>　　　　汝に我の力の一部を与えよう。<line-break>　　　人の子にはあまるほどの巨大な力を。<end>"
+korean = "잘도 거인 판타 레이를 쓰러뜨렸구나. 이제 짐의 힘을 방해할 자는 없다. 감사하마, 무한의 소울을 지닌 자여. 감사의 증표로 그대에게 짐의 힘 일부를 주겠다. 인간의 아이에게는 넘칠 만큼 거대한 힘을.<end>"
 
 ["1120150"]
 japanese = "地の最高位の魔法が解放された。<end>"

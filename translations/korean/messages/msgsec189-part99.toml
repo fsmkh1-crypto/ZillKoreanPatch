@@ -676,6 +676,10 @@ korean = "뭐, 그렇겠지. 이제 와서 우정 놀이나 할 나이도 아니
 japanese = "それに、エルファス。<line-break>偽りの救世主…。<line-break>あなたは卑怯者よ。<line-break>なぜ、あなたが<line-break><value:$28>の隣にいるの？<line-break>　<line-break>世界を滅ぼすため<line-break>神にまでなろうとしたあなたこそ、<line-break>私の隣にいるべきだったのに。<end>"
 korean = "그리고 엘파스. 거짓된 구세주…. 당신은 비겁해. 왜 당신이 <value:$28> 곁에 있는 거지? 세계를 멸망시키기 위해 신이 되려고까지 했던 당신이야말로 내 곁에 있어야 했는데.<end>"
 
+["1890178"]
+japanese = "確かに、本当なら僕は<line-break>君の隣に立っていたのかもしれない。<line-break>　<line-break>だけど<value:$28>のおかげで<line-break>闇に落ちずにすんだ。<line-break>そして僕は気づいたんだ。<line-break>神となることを望んだ本当の理由は、<line-break>僕自身が自分の弱さから<line-break>逃げたかったからだったんだと。<end>"
+korean = "확실히, 원래라면 내가 네 옆에 서 있었을지도 몰라. 하지만 <value:$28> 덕분에 어둠에 빠지지 않을 수 있었어. 그리고 깨달았지. 내가 신이 되길 바랐던 진짜 이유는 내 약함에서 도망치고 싶었기 때문이었다는 걸.<end>"
+
 ["1890179"]
 japanese = "僕は<value:$28>と進む道を選んだ。<line-break>もう、過去からも運命からも<line-break>逃げるつもりはない。<end>"
 korean = "나는 <value:$28>과 함께 가는 길을 선택했어. 이제 과거에서도 운명에서도 도망치지 않을 거야.<end>"
@@ -731,6 +735,14 @@ korean = "나는 내가 본 미래를 따라 그저 나아갈 뿐….<end>"
 ["1890192"]
 japanese = "それに、エルファス。<line-break>偽りの救世主…。<line-break>　<line-break>なぜ、あなたが<line-break><value:$28>の隣にいるの？<line-break>　<line-break>世界を滅ぼすため<line-break>神にまでなろうとしたあなたこそ、<line-break>私の隣にいるべきだったのに。<end>"
 korean = "그리고 엘파스. 거짓된 구세주…. 왜 당신이 <value:$28> 곁에 있는 거지? 세계를 멸망시키려고 신까지 되려 했던 당신이야말로 내 곁에 있어야 했는데.<end>"
+
+["1890193"]
+japanese = "確かに、本当なら僕は<line-break>君の隣に立っていたのかもしれない。<line-break>　<line-break>だけど<value:$28>のおかげで<line-break>闇に落ちずにすんだ。<line-break>そして僕は気づいたんだ。<line-break>神となることを望んだ本当の理由は、<line-break>僕自身が自分の弱さから<line-break>逃げたかったからだったんだと。<end>"
+korean = "확실히, 원래라면 내가 네 옆에 서 있었을지도 몰라. 하지만 <value:$28> 덕분에 어둠에 빠지지 않을 수 있었어. 그리고 깨달았지. 내가 신이 되길 바랐던 진짜 이유는 내 약함에서 도망치고 싶었기 때문이었다는 걸.<end>"
+
+["1890194"]
+japanese = "どうしようもないおバカさんたち…。<line-break>英雄も、救世主も、そして…。<line-break>　<line-break>無限のソウルの持ち主ですらも<line-break>暗闇に生きてきた私の苦しみを<line-break>理解してはくれなかった。<line-break>でも、もういいの。<line-break>もうすぐあなたたちも、すべて<line-break>私のものになるんだから。<end>"
+korean = "어쩔 수 없는 바보들…. 영웅도, 구세주도, 그리고…. 무한의 소울을 가진 자조차 어둠 속에서 살아온 내 고통을 이해해 주지 않았어. 하지만 이제 됐어. 곧 너희도 전부 내 것이 될 테니까.<end>"
 
 ["1890195"]
 japanese = "シャリ…。本音を言うと、<line-break>僕はやはり君とは戦いたくない。<line-break>できれば去ってくれないか？<end>"

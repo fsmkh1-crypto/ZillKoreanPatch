@@ -632,6 +632,10 @@ korean = "마을이 좀 소란스러워.밖에 나가도 별로기분 좋진 않
 japanese = "寝ろ。<line-break>明日になれば、騒ぎも収まる。<line-break>今日は寝ちまえ。<end>"
 korean = "자. 내일이면 소동도 가라앉을 거야. 오늘은 그냥 자.<end>"
 
+["280159"]
+japanese = "<select><value:$20>%3きゃぴっ！　<value:$28>！<line-break>また、おもしろいことしてあそぼーね！<line-break>えひひひひっ！<end>こないだ、ヴァンとやったイタズラ、<line-break>おっもしろかったよねー！<line-break>えっへへへー！<end>お兄ちゃんたちとイタズラするの、<line-break>弟を泣かせる次くらいに<line-break>おもしろいよ！<end>"
+korean = "<select><value:$20>%3캬핫! <value:$28>! 또 재밌는 거 하면서 놀자! 에히히히힛!<end>지난번에 반이랑 했던 장난, 진짜 재밌었지! 에헤헤헤!<end>오빠들이랑 장난치는 건 남동생 울리는 것 다음으로 재밌어!<end>"
+
 ["280160"]
 japanese = "<select><value:$20>%3おねえちゃんに、<line-break>へんなちえつけないでよ！<line-break>ぼくがひどいめにあうんだから！<end>おねえちゃんが<line-break>どんどんキョーボーになるの、<line-break><value:$28>たちのせいだからね！<end>えーん、えーん！<line-break>おねえちゃんがヴァンのマネして<line-break>ぼくをいじめるよお！<end>"
 korean = "<select><value:$20>%3누나한테 이상한 지혜를 가르치지 마! 내가 고생한단 말이야!<end>누나가 점점 난폭해지는 건 <value:$28>들 탓이야!<end>으앙, 으앙! 누나가 반 흉내를 내면서 나를 괴롭혀!<end>"
