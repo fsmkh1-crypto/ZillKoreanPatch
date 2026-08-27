@@ -1,0 +1,61 @@
+name: Korean QA context-safe batch 2
+
+on:
+  push:
+    branches:
+      - translation/section001-batch2
+    paths:
+      - tools/korean/qa-fix-context-safe-batch2.py
+      - .github/workflows/korean-qa-context-safe-batch2.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: translation/section001-batch2
+          fetch-depth: 1
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+      - name: Baseline QA
+        run: python3 tools/korean/qa-consistency.py --json /tmp/before.json --max-examples 0
+      - name: Apply context-safe batch
+        run: python3 tools/korean/qa-fix-context-safe-batch2.py
+      - name: Validate corpus
+        run: |
+          ./zill korean-check
+          ./zill korean-font-check
+          python3 tools/korean/qa-integrity.py --json /tmp/integrity.json --max-examples 10
+          python3 tools/korean/qa-terminology.py --json /tmp/terms.json --max-examples 10
+          python3 tools/korean/qa-consistency.py --json /tmp/after.json --max-examples 20
+          python3 tools/korean/qa-text-sanity.py --json /tmp/sanity.json --max-examples 10
+          python3 - <<'PY'
+          import json
+          b=json.load(open('/tmp/before.json',encoding='utf-8'))
+          a=json.load(open('/tmp/after.json',encoding='utf-8'))
+          i=json.load(open('/tmp/integrity.json',encoding='utf-8'))
+          t=json.load(open('/tmp/terms.json',encoding='utf-8'))
+          s=json.load(open('/tmp/sanity.json',encoding='utf-8'))
+          critical=i.get('critical',[]); cc=len(critical) if isinstance(critical,list) else int(critical or 0)
+          print(f"QA-3: groups {b['inconsistent_groups']}->{a['inconsistent_groups']}; records {b['inconsistent_records']}->{a['inconsistent_records']}")
+          print(f"QA-1 critical={cc} QA-2 mismatch={t['mismatch_count']} sanity={s['finding_count']}")
+          if a['inconsistent_groups'] > b['inconsistent_groups'] or a['inconsistent_records'] > b['inconsistent_records']:
+              raise SystemExit('QA-3 regressed')
+          if cc != 0 or t['mismatch_count'] != 0 or s['finding_count'] != 0:
+              raise SystemExit('validation failed')
+          PY
+      - name: Commit context-safe fixes
+        run: |
+          if git diff --quiet -- translations/korean/messages; then echo 'No changes'; exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          git commit -m 'Apply Korean context-safe QA batch 2'
+          git push origin HEAD:translation/section001-batch2
