@@ -37,10 +37,12 @@ jobs:
           import json
           b=json.load(open('/tmp/before.json',encoding='utf-8')); a=json.load(open('/tmp/after.json',encoding='utf-8'))
           i=json.load(open('/tmp/integrity.json',encoding='utf-8')); t=json.load(open('/tmp/terms.json',encoding='utf-8')); s=json.load(open('/tmp/sanity.json',encoding='utf-8'))
+          critical=i.get('critical',[])
+          crit_count=len(critical) if isinstance(critical,list) else int(critical or 0)
           print(f"QA-3: groups {b['inconsistent_groups']}->{a['inconsistent_groups']}; records {b['inconsistent_records']}->{a['inconsistent_records']}")
-          print(f"QA-1 critical={i['critical']} QA-2 mismatch={t['mismatch_count']} sanity={s['finding_count']}")
+          print(f"QA-1 critical={crit_count} QA-2 mismatch={t['mismatch_count']} sanity={s['finding_count']}")
           if a['inconsistent_groups']>b['inconsistent_groups'] or a['inconsistent_records']>b['inconsistent_records']: raise SystemExit('QA-3 regressed')
-          if i['critical']!=0 or t['mismatch_count']!=0 or s['finding_count']!=0: raise SystemExit('validation failed')
+          if crit_count!=0 or t['mismatch_count']!=0 or s['finding_count']!=0: raise SystemExit('validation failed')
           PY
       - name: Commit contextual normalization
         run: |
