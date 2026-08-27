@@ -148,6 +148,10 @@ korean = "있잖아, <value:$28>. 마물은 어땠어?<end>"
 japanese = "ハハハ。<line-break><value:$28>、<line-break>大した人気だな。<end>"
 korean = "하하하. <value:$28>, 대단한 인기구나.<end>"
 
+["320038"]
+japanese = "神器の守護者として、<line-break>修行の旅に出てらっしゃる間に<line-break>ロイ様は人気が下がったのよ。<end>"
+korean = "신기의 수호자로서 수행 여행을 떠나 계시는 동안 로이 님의 인기가 떨어졌어요.<end>"
+
 ["320039"]
 japanese = "その間、<value:$28>が<line-break>この村を守ってたからな。<end>"
 korean = "그동안 <value:$28>이 이 마을을 지켜 줬으니까.<end>"
