@@ -36,11 +36,16 @@ jobs:
           import json
           b=json.load(open('/tmp/before.json', encoding='utf-8'))
           a=json.load(open('/tmp/after.json', encoding='utf-8'))
+          t=json.load(open('/tmp/terms.json', encoding='utf-8'))
           bg=int(b['inconsistent_groups']); ag=int(a['inconsistent_groups'])
           br=int(b['inconsistent_records']); ar=int(a['inconsistent_records'])
+          tm=int(t['mismatch_count'])
           print(f'QA-3 inconsistency change: groups {bg}->{ag}; records {br}->{ar}')
+          print(f'QA-2 canonical mismatches after safe pass: {tm}')
           if ag > bg or ar > br:
               raise SystemExit('safe QA-3 pass increased inconsistency')
+          if tm != 0:
+              raise SystemExit('safe QA-3 pass introduced canonical terminology mismatches')
           PY
       - name: Commit safe QA-3 normalization
         run: |
