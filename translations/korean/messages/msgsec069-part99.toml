@@ -8,6 +8,10 @@ korean = "아길샤이어 메시지 시작<end>"
 japanese = "冒険者として<line-break>旅をした経験は？<end>"
 korean = "모험자로 여행해 본 경험은?<end>"
 
+["690007"]
+japanese = "幻術計振れておらず<line-break>犯罪登録当てはまらず。<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"
+korean = "환술계 수치도 없고 범죄 등록에도 해당하지 않는군. 축하해. 너도 모험자로 등록됐어.<end>"
+
 ["690010"]
 japanese = "…<value:$28>、<line-break>気をつけろ。<end>"
 korean = "…<value:$28>, 조심해.<end>"
