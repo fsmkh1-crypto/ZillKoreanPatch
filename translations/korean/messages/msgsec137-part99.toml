@@ -932,6 +932,10 @@ korean = "마물이 입구를 막고 있어서 도망칠 수 없습니다! 도�
 japanese = "<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"
 korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님께 줄게.<end>"
 
+["1370247"]
+japanese = "<if><value:$29><equal>%0さすがに<line-break>俺が認めた男の<line-break>弟だけのことはある。<line-break>いい手並みだった。<line-break>兄を救いに行くつもりか？<end>さすがに<line-break>俺が認めた男の<line-break>妹だけのことはある。<line-break>いい手並みだった。<line-break>兄を救いに行くつもりか？<end>"
+korean = "<if><value:$29><equal>%0역시 내가 인정한 남자의 남동생답군. 좋은 솜씨였다. 형을 구하러 갈 생각인가?<end>역시 내가 인정한 남자의 여동생답군. 좋은 솜씨였다. 오빠를 구하러 갈 생각인가?<end>"
+
 ["1370248"]
 japanese = "…ロイはお前を逃がすために、<line-break>村人を逃がすよう言ったのだぞ。<end>"
 korean = "…로이는 널 도망치게 하려고 마을 사람들을 피신시키라고 한 거다.<end>"
@@ -1047,6 +1051,10 @@ korean = "살아남은 건 너뿐이다. 묻겠다. 여기가 미이스 마을�
 ["1370276"]
 japanese = "お前の名は？<end>"
 korean = "네 이름은?<end>"
+
+["1370277"]
+japanese = "<if><value:$29><equal>%0…フ、なるほどな。<line-break>お前がロイの弟か。<line-break>ロイから名前は聞いている。<line-break>俺はセラ。<line-break>ロイの友だ。<end>…フ、なるほどな。<line-break>お前がロイの妹か。<line-break>ロイから名前は聞いている。<line-break>俺はセラ。<line-break>ロイの友だ。<end>"
+korean = "<if><value:$29><equal>%0…후, 그렇군. 네가 로이의 남동생인가. 로이에게 이름은 들었다. 나는 세라. 로이의 친구다.<end>…후, 그렇군. 네가 로이의 여동생인가. 로이에게 이름은 들었다. 나는 세라. 로이의 친구다.<end>"
 
 ["1370278"]
 japanese = "大丈夫だ。<line-break>私がウソをついたことがあったか？<end>"
@@ -1767,6 +1775,10 @@ korean = "…그런데 그 괴물, 대체 어디서 들어온 거야. 평민 지
 ["1370468"]
 japanese = "ところでお前、この街で保管されていた　　<line-break>聖杯が盗まれたって話は知ってっか？<line-break>　<end>"
 korean = "그런데 너, 이 도시에서 보관하던 성배가 도둑맞았다는 얘기 알아?<end>"
+
+["1370469"]
+japanese = "おっと、お前には話してなかったか。<line-break>実はな、昨日のモンスター騒ぎの間に、　　<line-break>何者かに聖杯が盗まれちまったんだ。<line-break>で、調べたところ、ちょうどそのころ<line-break>人の言葉をしゃべるゴブリンの３匹組が<line-break>うろついていたことがわかってな。<end>"
+korean = "아, 너한텐 아직 말 안 했던가. 사실 어제 몬스터 소동이 벌어진 사이 누군가 성배를 훔쳐 갔어. 조사해 보니 딱 그 무렵 사람 말을 하는 고블린 세 마리가 돌아다녔다는 걸 알아냈지.<end>"
 
 ["1370470"]
 japanese = "言葉をしゃべるゴブリンなんて　　　　　　<line-break>今まで聞いたことがない。<line-break>な、怪しいと思うだろ？<end>"

@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["70015"]
+japanese = "<if><value:$2C><less-equal>%9剣聖レーグこそ、我らボルダンの誇り。<line-break>彼に勝てるものは、この世にはいないだろう。<line-break>お前ごときでは、一撃ともたないだろうな。<end><if><value:$2C><less-equal>%29剣聖レーグは勇者ネメアとともに<line-break>魔王バロルを倒したという。<line-break>ゼネテスとやらも、二撃ともたないだろうな。<end><if><value:$2C><less-equal>%49ロストールのレムオンという貴族は<line-break>二刀流の使い手らしいな。<line-break>だが、レーグの二刀流は無敵だ！<line-break>その男も、三撃ともたないだろうな。<line-break>レーグは最強の男だからな。<end>…たぶん無理だと思うが、<line-break>お前なら竜王にも勝てるかもしれんな。<line-break>たぶん無理だと思うが…<end>"
+korean = "<if><value:$2C><less-equal>%9검성 레그야말로 우리 볼단의 자랑이다. 그를 이길 자는 이 세상에 없겠지. 너 정도는 한 방도 못 버틸 거다.<end><if><value:$2C><less-equal>%29검성 레그는 용사 네메아와 함께 마왕 바로르를 쓰러뜨렸다지. 제네테스라는 자도 두 방은 못 버틸 거다.<end><if><value:$2C><less-equal>%49로스토르의 레무온이라는 귀족은 이도류의 달인이라더군. 하지만 레그의 이도류는 무적이다! 그 남자도 세 방은 못 버틸 거야. 레그는 최강의 남자니까.<end>…아마 무리라고 생각하지만, 너라면 용왕에게도 이길지 모르겠군. 아마 무리겠지만….<end>"
+
 ["70016"]
 japanese = "<if><value:$2C><less-equal>%15いいねえいいねえ、レーグ最高！　<line-break>彼のような強い男が<line-break>生きている時代に生まれてよかったあ。<end><if><value:$2C><less-equal>%25ネメアとレーグの対決が見てみたいな。<line-break>歴史に残る好カード間違いなしだろ。<line-break>なあ、あんたはどっちを応援する？<end><if><value:$2C><less-equal>%35レーグを倒せるのはボルダンかドワーフの<line-break>戦士じゃないと無理か？　人間にもがんばって<line-break>ほしいけどな。例えば<value:$28>とかよ。<end>レーグのようにいかにも強そうって<line-break>感じじゃないけど、<value:$28>も<line-break>けっこういいよな。<end>"
 korean = "<if><value:$2C><less-equal>%15좋아, 좋아! 레그 최고! 그처럼 강한 남자가 살아 있는 시대에 태어나서 다행이야.<end><if><value:$2C><less-equal>%25네메아와 레그의 대결을 보고 싶군. 역사에 남을 명승부가 틀림없겠지. 당신은 어느 쪽을 응원할 거야?<end><if><value:$2C><less-equal>%35레그를 쓰러뜨리려면 볼단이나 드워프 전사쯤은 되어야 하나? 인간도 힘내 줬으면 좋겠는데. 예를 들면 <value:$28> 같은 사람 말이야.<end>레그처럼 딱 봐도 강해 보이는 느낌은 아니지만, <value:$28>도 꽤 괜찮지.<end>"
@@ -7,6 +11,10 @@ korean = "<if><value:$2C><less-equal>%15좋아, 좋아! 레그 최고! 그처럼
 ["70017"]
 japanese = "レーグは確かに強い。<line-break>じゃが、まだ守りに隙があるわい。<end>"
 korean = "레그는 확실히 강하다. 하지만 아직 수비에 빈틈이 있지.<end>"
+
+["70018"]
+japanese = "<if><value:$2C><less-equal>%15さすがに剣聖の名を持つだけのことはある。<line-break>レーグの強さは本物だよ。<line-break><line-break>だが、わしとしては<line-break>彼と互角に戦えるヤツがいないと<line-break>試合がおもしろくないんだな。<end><if><value:$2C><less-equal>%25ゼネテスという冒険者が、<line-break>なかなかの腕前らしいじゃないか。<line-break>闘技大会でレーグと戦ってくれないかな。<end><if><value:$2C><less-equal>%35最近、気になっている冒険者がいるのだよ。<line-break>顔は知らないのだが見かけによらず強いらしい。<line-break>たしか、<value:$28>とかいったかな…。<end>おお、<value:$28>ではないか！<line-break>君なら永遠の王者になれるはずだ。<line-break>わたしは期待しているからな。<end>"
+korean = "<if><value:$2C><less-equal>%15과연 검성이라는 이름값은 하는군. 레그의 강함은 진짜야.  하지만 내 입장에선 그와 호각으로 싸울 녀석이 없으면 경기가 재미없단 말이지.<end><if><value:$2C><less-equal>%25제네테스라는 모험자가 상당한 실력자라면서? 투기대회에서 레그와 싸워 주지 않으려나.<end><if><value:$2C><less-equal>%35요즘 신경 쓰이는 모험자가 하나 있어. 얼굴은 모르지만 보기와 달리 강하다더군. 확실히 <value:$28>라고 했던가….<end>오오, <value:$28> 아닌가! 자네라면 영원한 왕자가 될 수 있을 거야. 기대하고 있네.<end>"
 
 ["70019"]
 japanese = "制作中です。<end>"
