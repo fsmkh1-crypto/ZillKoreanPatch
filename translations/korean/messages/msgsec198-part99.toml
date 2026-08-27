@@ -908,6 +908,10 @@ korean = "그, 그러니까 전설의 프라이팬은 드워프의 기술과 엘
 japanese = "で、でもよく考えてみると<line-break>変な話ですよね？<line-break>　<line-break>昔から仲の悪いエルフとドワーフが<line-break>協力して作った魔道器なんて…。<end>"
 korean = "그, 그런데 잘 생각해 보면 이상한 이야기죠? 예전부터 사이가 나쁜 엘프와 드워프가 협력해서 만든 마도기라니….<end>"
 
+["1980231"]
+japanese = "そ、そうですよね…。<line-break>おかしな話だって<line-break><value:$28>さんも思いますよね。<line-break>（よかった…。<line-break>　これでもうウソをつかなくてすむ…。）<line-break>　<line-break>（このまま<value:$28>さんが<line-break>　この話を忘れてくれたら、<line-break>　ずっと一緒に旅をしていられる…。）<end>"
+korean = "그, 그렇죠…. 이상한 이야기라고 <value:$28>님도 생각하시죠. (다행이다…. 이제 더는 거짓말하지 않아도 돼….) (이대로 <value:$28>님이 이 이야기를 잊어 주신다면 계속 함께 여행할 수 있어….)<end>"
+
 ["1980232"]
 japanese = "そ、そうですか…。<end>"
 korean = "그, 그런가요….<end>"

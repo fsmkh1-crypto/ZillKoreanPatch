@@ -1452,6 +1452,10 @@ korean = "<select><value:$20>%2무서워어!무서워어!<end><value:$28> 님!�
 japanese = "<if><value:$29><equal>%0<value:$28>。<line-break>無事でよかった…。　　　　　　　　　　<line-break>　<line-break>魔物騒ぎがあって、<line-break>キミが退治に行ったっていうから、<line-break>心配で朝も早いのにここに来たんだよ。<end>魔物がこんな村近くの森にまで…。<line-break>心配でゆっくり寝てられないわ。<end>"
 korean = "<if><value:$29><equal>%0<value:$28>. 무사해서 다행이야…. 마물 소동이 있었고 네가 퇴치하러 갔다고 해서 걱정돼서 아침 일찍 여기까지 왔어.<end>마물이 이런 마을 가까운 숲에까지…. 걱정돼서 편히 잘 수가 없네.<end>"
 
+["1370369"]
+japanese = "<if><value:$29><equal>%0<value:$28>。<line-break>怪物のうろついてるミイスの森に行くの？<line-break>お姉さん、心配だな。<line-break>ロイ様もついているし、<line-break>キミも神器の守護者のご一族だもんね。<line-break>大丈夫なのはわかってるけどね。<end>魔物に続いて地震…。<line-break>いったいどうなってるのかしら。<end>"
+korean = "<if><value:$29><equal>%0<value:$28>. 괴물이 돌아다니는 미이스의 숲에 가는 거야? 누나는 걱정되네. 로이님도 함께고 너도 신기의 수호자 일족이니까 괜찮을 거란 건 알지만.<end>마물에 이어 지진까지…. 대체 어떻게 된 걸까.<end>"
+
 ["1370370"]
 japanese = "<if><value:$29><equal>%0…<value:$28>…な…の？<line-break>に…逃げ…て…、は…早…く…　　<line-break>　<line-break>…わ…私…もう…ダメ…だから…<line-break>キ…キミ…だけでも…<end>イ…イヤ…死にたく…ない…<line-break>か、かめ…ん…なんて…<line-break>ホント…知らな…い…<end>"
 korean = "<if><value:$29><equal>%0…<value:$28>…인…가? 도…도망…쳐… 어…어서… …나…난… 이제… 틀렸…으니까… 너…너라도…<end>아…안 돼… 죽기 싫…어… 가, 가면… 같은 건… 정말… 몰라…<end>"

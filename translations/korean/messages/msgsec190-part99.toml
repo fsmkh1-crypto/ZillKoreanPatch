@@ -520,6 +520,10 @@ korean = "또 꼭 티아나를 만나러 와주세요. <value:$28>님이 곁에 
 japanese = "また会いにいらしてください。　<line-break>　<line-break>　<line-break><value:$28>様とお話しする<line-break>ことができれば、ティアナは<line-break>それだけで安心できるのです。<end>"
 korean = "또 만나러 와 주세요. <value:$28>님과 이야기할 수 있으면 티아나는 그것만으로 안심할 수 있어요.<end>"
 
+["1900133"]
+japanese = "<select><value:$20>%2ティアナ様はまだお戻りになられて　　　<line-break>おりません。いったい、どこへ<line-break>行かれてしまわれたのでしょう…。<end>ティアナ様はまだ見つかっておりません。<line-break>捜索の手は出ているようなのですが、<line-break>手がかりがまったくありませんから…。<end>"
+korean = "<select><value:$20>%2티아나님은 아직 돌아오지 않으셨습니다. 대체 어디로 가신 걸까요….<end>티아나님은 아직 발견되지 않으셨습니다. 수색은 계속되고 있는 것 같지만 단서가 전혀 없어서요….<end>"
+
 ["1900134"]
 japanese = "あ、<value:$28>様！<line-break>ティアナ様が、いつになっても　<line-break>お戻りになられません。<line-break>どこにも見あたらないのです！<line-break>あああ…、いったいどこに<line-break>行かれてしまわれたのでしょう。<end>"
 korean = "아, <value:$28> 님! 티아나 님이 아무리 기다려도 돌아오지 않으십니다. 어디에도 보이지 않아요! 아아아… 대체 어디로 가신 걸까요.<end>"
