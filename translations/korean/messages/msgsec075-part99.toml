@@ -88,6 +88,10 @@ korean = "너에게 빛을 가져다줄 용자야, 아트레이아 공주.<end>"
 japanese = "それでは、王女様。<line-break>僕は<value:$28>を<line-break>王宮の外まで送ります。<end>"
 korean = "그럼, 공주님. 제가 <value:$28>을 왕궁 밖까지 모셔다드리겠습니다.<end>"
 
+["750028"]
+japanese = "ま、アトレイア王女もああ言ってるし、<line-break>君もたまには顔を出してよ。<end>"
+korean = "뭐, 아트레이아 왕녀도 저렇게 말하니 너도 가끔 얼굴 좀 비춰줘.<end>"
+
 ["750029"]
 japanese = "それでは、王女様、<line-break>失礼いたします。<end>"
 korean = "그럼 공주님, 실례하겠습니다.<end>"
@@ -339,6 +343,10 @@ korean = "후후, 상냥하구나. 너는.<end>"
 ["750105"]
 japanese = "…うれしい…です。<end>"
 korean = "…기뻐요….<end>"
+
+["750106"]
+japanese = "ま、アトレイア王女もああ言ってるし、<line-break>君もたまには顔を出してよ。<end>"
+korean = "뭐, 아트레이아 왕녀도 저렇게 말하니 너도 가끔 얼굴 좀 비춰줘.<end>"
 
 ["750107"]
 japanese = "それでは、王女様<line-break>失礼いたします。<end>"

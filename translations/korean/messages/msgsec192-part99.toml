@@ -104,6 +104,10 @@ korean = "(나를 그렇게 생각해 주는 사람이 그분 말고도 있다�
 japanese = "どうされたのですか、王女様？　　　<line-break>　<line-break>　<end>"
 korean = "무슨 일이십니까, 왕녀님?<end>"
 
+["1920039"]
+japanese = "い、いえ。なんでもありません。<line-break>少しぼうっとしてしまいました。<end>"
+korean = "아, 아니요. 아무것도 아닙니다. 잠깐 멍하니 있었어요.<end>"
+
 ["1920041"]
 japanese = "ええ。<line-break>どうもありがとう。<end>"
 korean = "응. 정말 고마워.<end>"
@@ -208,6 +212,10 @@ korean = "어, 어라!? <value:$28>!<end>"
 japanese = "あ、あはははは…。<line-break>今の、もしかして聞いてた？<end>"
 korean = "아, 아하하하…. 방금 거 혹시 들었어?<end>"
 
+["1920076"]
+japanese = "あ、あの、さっきのは、<line-break>その、間違いだから。<line-break>…ゴメン。<end>"
+korean = "저, 저기, 아까 건 그, 실수였어. …미안.<end>"
+
 ["1920077"]
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
@@ -239,6 +247,10 @@ korean = "진심으로 웃을 수 있는 나를 찾을 수 있지 않을까 해�
 ["1920090"]
 japanese = "空<end>"
 korean = "빈칸<end>"
+
+["1920091"]
+japanese = "さぁ、元気出していこう～！<line-break>次の大陸があたしたちをよんでる～！<end>"
+korean = "자, 기운 내서 가자~! 다음 대륙이 우리를 부르고 있어~!<end>"
 
 ["1920092"]
 japanese = "今日もいいお天気ね。<line-break>よかったわ、晴れてくれて。　<line-break>　<line-break>雲がほとんど見えない<line-break>きれいな青空。<line-break>いい船旅になりそうね。<end>"

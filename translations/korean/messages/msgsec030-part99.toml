@@ -76,6 +76,10 @@ korean = "감사합니다! <value:$28> 씨, 다친 데는 없으세요?<end>"
 japanese = "だ、大丈夫ですかっ？<line-break><value:$28>さん。<end>"
 korean = "괘, 괜찮으세요? <value:$28>님.<end>"
 
+["300042"]
+japanese = "ごめんなさい…私なんかのために。<line-break>…ケガまでさせてしまって…。<end>"
+korean = "미안해요… 저 같은 사람 때문에. …다치기까지 하게 해서…<end>"
+
 ["300044"]
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"

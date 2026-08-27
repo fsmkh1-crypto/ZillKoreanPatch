@@ -176,6 +176,10 @@ korean = "순간 떠오른 생각이었지만 네메아는 영리한 아이여�
 japanese = "そうでもないさ。<line-break>ウルグの力の一部は、<line-break>すでにネメアの精神に入り込んでる。<line-break>どうするつもり？<end>"
 korean = "그렇지만도 않아. 우르그의 힘 일부는 이미 네메아의 정신에 들어가 있어. 어떻게 할 생각이지?<end>"
 
+["1890080"]
+japanese = "決まっています。<line-break>ネメアの精神世界に入り込んで<line-break>追い払います。<end>"
+korean = "정해져 있습니다. 네메아의 정신세계에 들어가 쫓아내겠습니다.<end>"
+
 ["1890082"]
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"

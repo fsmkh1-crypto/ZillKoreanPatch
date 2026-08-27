@@ -800,6 +800,10 @@ korean = "…보이지 않았다면 좋았을 텐데.<end>"
 japanese = "生まれなければよかった。<line-break>苦しまずにすんだのに！<end>"
 korean = "태어나지 않았으면 좋았을 텐데. 그랬으면 괴롭지도 않았을 텐데!<end>"
 
+["1330363"]
+japanese = "この世界の悲しみが<line-break>かなえられない願いが<line-break>どうしようもない思いが<line-break>闇の王女の暗き心に共鳴して<line-break>闇の巨人として<line-break>世界中で立ち上がる…。<end>"
+korean = "이 세계의 슬픔이, 이루어지지 않는 소원이, 어찌할 수 없는 마음이 어둠의 왕녀의 어두운 마음에 공명해 어둠의 거인으로서 세계 곳곳에 일어선다…<end>"
+
 ["1330365"]
 japanese = "まぁ、いっか。<line-break>まだまだたくさん<line-break>産まれたからね。<end>"
 korean = "뭐, 됐나. 아직 많이 태어났으니까.<end>"
@@ -1347,6 +1351,10 @@ korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>
 ["1330621"]
 japanese = "<value:$28>、<line-break>お前を慕っていたノエルが<line-break>ここに来た理由がわかるか？<line-break>お前が死なない限り、<line-break>カフィンとレイヴンが死人に<line-break>戻ってしまうからだ！<end>"
 korean = "<value:$28>, 너를 따르던 노엘이 왜 여기 왔는지 아나? 네가 죽지 않는 한 카핀과 레이븐이 다시 죽은 자로 돌아가 버리기 때문이다!<end>"
+
+["1330623"]
+japanese = "さぁ、どうする？<line-break>お前が死ななければ、<line-break>このふたりは死ぬぞ！<end>"
+korean = "자, 어떻게 할래? 네가 죽지 않으면 이 둘이 죽는다!<end>"
 
 ["1330624"]
 japanese = "ば、バカな！<line-break>貴様、正気か…！？　　<line-break>　<line-break>私に刃向かうのは<line-break>竜王様に剣を向けるのと<line-break>同じことだぞ！<end>"

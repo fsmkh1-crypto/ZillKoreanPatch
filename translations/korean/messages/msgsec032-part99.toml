@@ -156,6 +156,10 @@ korean = "…아버님, 방금 것이 용왕의 각성… 그 첫 울음일까�
 japanese = "うむ…。<line-break>この世が乱れるとき<line-break>竜王が覚醒すると言われておる。<line-break>つまり、<line-break>乱世の原因を除くべく<line-break>目覚めるというのだが…。<end>"
 korean = "음…. 세상이 어지러워질 때 용왕이 깨어난다고 전해진다. 즉 난세의 원인을 없애기 위해 깨어난다는 뜻인데….<end>"
 
+["320053"]
+japanese = "もしそうならば、ゆゆしき事態だ。<line-break>ロイ、あの森を調査するのだ。<end>"
+korean = "만약 그렇다면 큰일이다. 로이, 저 숲을 조사해라.<end>"
+
 ["320054"]
 japanese = "わかりました、父上。<line-break><value:$28>も、<line-break>連れていってよろしいでしょうか。<end>"
 korean = "알겠습니다, 아버님. <value:$28>도 데려가도 될까요?<end>"
@@ -367,6 +371,10 @@ korean = "<value:$28> 님, 돌아오셨군요. 다치신 곳은요?<end>"
 ["320124"]
 japanese = "<value:$28>様も<line-break>神器の守護者のご一族。<line-break>大丈夫ですと申し上げておりますのに。　　<end>"
 korean = "<value:$28>님도 신기의 수호자 일족입니다. 괜찮다고 말씀드렸는데도….<end>"
+
+["320130"]
+japanese = "お…おっきなじしんだったね！<line-break>わ…わたし、びっくりしちゃった。<end>"
+korean = "커… 커다란 지진이었어! 나… 나 깜짝 놀랐어.<end>"
 
 ["320139"]
 japanese = "<value:$28>さまー。<line-break>おかえりなさい。<line-break>お疲れさまでしたー。<end>"
