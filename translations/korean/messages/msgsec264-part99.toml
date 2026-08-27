@@ -52,6 +52,14 @@ korean = "응? 내가 찾는 사람이 어떤 사람이냐고?<end>"
 japanese = "そうね。<value:$28>がだいたい<line-break>どんな人かもわかってきたし。<line-break>　<line-break>あたしが捜している人の名前は<line-break>ジリオン…。<end>"
 korean = "그래. <value:$28>이 대충 어떤 사람인지도 알게 됐고. 내가 찾는 사람 이름은 지리온….<end>"
 
+["2640017"]
+japanese = "ううん。<line-break>あちこちで人に訊いているけど<line-break>まだ、これといった手がかりは…。<line-break>でも、どこにいようと<line-break>あいつがあたしのために<line-break>何かをしてるってことは感じるの。<line-break>たぶん、あいつががんばってるから<line-break>あたしがこうしていられるって…。<line-break>　<line-break>こんな感覚、うまく説明できないから、<line-break>話しても笑われるだけだと<line-break>思うけど…。<end>"
+korean = "아니. 여기저기 사람들에게 물어보고 있지만 아직 이렇다 할 단서는 없어…. 그래도 어디에 있든 그 녀석이 나를 위해 뭔가 하고 있다는 건 느껴져. 아마 그 녀석이 애쓰고 있으니까 내가 이렇게 있을 수 있는 것 같아…. 이런 감각은 잘 설명할 수 없어서 말해 봐야 웃음만 살 것 같지만….<end>"
+
+["2640018"]
+japanese = "ありがとう。信じてくれるのね。<line-break>　<line-break>　<line-break>あいつってとても強情だから<line-break>あたしに黙って何かに<line-break>耐えているんじゃないかなって。<line-break>そんな気がするの…。<line-break>　<line-break>　<line-break>だから絶対に見つけてやるのよ。<line-break>いつまでも恩着せられっぱなしなんて、<line-break>あたしの性に合わないし。<line-break>もし、あたしのために<line-break>何か無茶しているんだったら<line-break>必ず見つけて一発ひっぱたいてやるわ。<end>"
+korean = "고마워. 믿어 주는구나. 그 녀석은 워낙 고집이 세서 나한테 말도 안 하고 뭔가를 참고 있는 게 아닐까 싶어. 그런 느낌이 들어…. 그러니까 반드시 찾아낼 거야. 언제까지나 신세만 지고 있는 건 내 성미에 안 맞거든. 만약 나 때문에 무모한 짓을 하고 있다면 반드시 찾아내서 한 대 갈겨 줄 거야.<end>"
+
 ["2640019"]
 japanese = "話したら気持ちが少し落ち着いたわ。<line-break>ありがとう。<end>"
 korean = "이야기하고 나니 마음이 조금 진정됐어. 고마워.<end>"
@@ -67,6 +75,10 @@ korean = "응? 내가 찾고 있는 질리온 말이야? 그래. 어디부터 �
 ["2640023"]
 japanese = "まだ駆け出しの冒険者だったころ<line-break>ジリオンはお父さんの形見だっていう<line-break>ショートソードを差しててね。<line-break>依頼をこなすのに躍起になってたわ。<line-break>初々しかったな。あのころはまだ<line-break>十代の後半ぐらいだったし。<line-break>たぶん今はもういい歳に<line-break>なってると思うけど…。<end>"
 korean = "아직 풋내기 모험가였을 때 지리온은 아버지의 유품이라는 쇼트소드 하나를 차고 의뢰를 해내는 데 혈안이었지. 참 풋풋했어. 그때는 아직 십 대 후반쯤이었고. 아마 지금은 제법 나이가 들었겠지만….<end>"
+
+["2640025"]
+japanese = "昔を思い出していたの。<line-break>ロストールで起こった<line-break>テジャワの変っていう政変のこと。<line-break>ファーロス家の失権を狙う貴族たちが<line-break>起こした醜い争いよ。<line-break>多くの血が流されたわ。<line-break>そして、あたしとジリオンの運命も<line-break>あれをきっかけにして<line-break>一変してしまった…。<line-break>もう今さら、<line-break>どうしようもないことだけどね…。<end>"
+korean = "옛날 일을 떠올리고 있었어. 로스토올에서 일어난 테자와의 변이라는 정변 말이야. 파로스 가문의 실각을 노린 귀족들이 일으킨 추악한 싸움이었지. 많은 피가 흘렀어. 그리고 나와 지리온의 운명도 그 일을 계기로 완전히 바뀌어 버렸고…. 이제 와서는 어쩔 수 없는 일이지만….<end>"
 
 ["2640027"]
 japanese = "これまでずっと独りで生きてきたのに<line-break>今は<value:$28>と一緒に<line-break>旅をしている…。<line-break>わからないものね、人の運命なんて。<line-break>でも、わくわくして楽しいわ。<line-break>こんな気持ち久しぶりよ。<end>"
@@ -91,6 +103,10 @@ korean = "적이었다가 아군이었다가…. 협력했나 싶으면 서로 �
 ["2640033"]
 japanese = "ジリオンはぶっきらぼうだけど<line-break>子供には好かれていてね。<line-break>　<line-break>信じないと思うけど、<line-break>小さかったティアナ王女に<line-break>なつかれたこともあったのよ。<end>"
 korean = "지리온은 무뚝뚝하지만 아이들에게는 인기가 있었어. 믿기 어렵겠지만 어릴 적 티아나 공주가 따르던 적도 있었지.<end>"
+
+["2640034"]
+japanese = "でも、<value:$28>はどこか<line-break>あいつに似ているわ。<line-break>　<line-break>優しくて強くて、<line-break>他人のために一生懸命で…。<line-break>　<line-break>昔のあたしはずっと独りで生きてきて<line-break>失うものがないからこそ<line-break>自分は強いのだと無邪気に信じていた。<line-break>でも、ジリオンやあなたと出会って、<line-break>あたしは初めて、人のために<line-break>強くなれることを知った…。<end>"
+korean = "하지만 <value:$28>는 어딘가 그 녀석을 닮았어. 다정하고 강하고, 남을 위해서라면 정말 열심이고…. 예전의 나는 늘 혼자 살아왔고 잃을 게 없기 때문에 내가 강한 거라고 순진하게 믿었어. 하지만 지리온과 너를 만나고 처음으로, 사람은 누군가를 위해 강해질 수 있다는 걸 알게 됐어….<end>"
 
 ["2640035"]
 japanese = "<value:$28>に<line-break>出会えて良かった。<line-break>　<line-break>いつの日か、あたしが<line-break>おばあちゃんになったら、<line-break>　<line-break>あなたとの冒険を孫たちに自慢して<line-break>聞かせるわ。<end>"
@@ -195,6 +211,10 @@ korean = "응? 내가 찾는 사람이 어떤 사람이냐고?<end>"
 ["2640066"]
 japanese = "そうね。<value:$28>がだいたい<line-break>どんな人かもわかってきたし。<line-break>　<line-break>あたしが捜している人の名前は<line-break>ジリオン…。<end>"
 korean = "그래. <value:$28>이 대충 어떤 사람인지도 알게 됐고. 내가 찾는 사람 이름은 지리온….<end>"
+
+["2640067"]
+japanese = "ううん。<line-break>あちこちで人に訊いているけど<line-break>まだ、これといった手がかりは…。<line-break>でも、どこにいようと<line-break>あいつがあたしのために<line-break>何かをしてるってことは感じるの。<line-break>たぶん、あいつががんばってるから<line-break>あたしがこうしていられるって…。<line-break>　<line-break>こんな感覚、うまく説明できないから、<line-break>話しても笑われるだけだと<line-break>思うけど…。<end>"
+korean = "아니. 여기저기 사람들에게 물어보고 있지만 아직 이렇다 할 단서는 없어…. 그래도 어디에 있든 그 녀석이 나를 위해 뭔가 하고 있다는 건 느껴져. 아마 그 녀석이 애쓰고 있으니까 내가 이렇게 있을 수 있는 것 같아…. 이런 감각은 잘 설명할 수 없어서 말해 봐야 웃음만 살 것 같지만….<end>"
 
 ["2640068"]
 japanese = "ありがとう。信じてくれるのね。<line-break>　<line-break>　<line-break>あいつってとても強情だから<line-break>あたしに黙って何かに<line-break>耐えているんじゃないかなって。<line-break>そんな気がするの…。<line-break>　<line-break>　<line-break>だから絶対に見つけてやるのよ。<line-break>いつまでも恩着せられっぱなしなんて、<line-break>あたしの性に合わないし。<end>"
