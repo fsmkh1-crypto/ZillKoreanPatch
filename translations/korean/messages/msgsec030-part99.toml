@@ -440,9 +440,17 @@ korean = "크, 큰일이야! 바닥 구멍이 더 커지고 있어…!<end>"
 japanese = "あら、<value:$28>。<line-break>オッシさんの道場に行くのでは　<line-break>なかったの？<end>"
 korean = "어머, <value:$28>. 오시 씨 도장에 가는 거 아니었어?<end>"
 
+["300122"]
+japanese = "オッシさんもあなたのことを<line-break>とても心配していたのよ。一度<line-break>顔を出しておいたほうがいいわ。<end>"
+korean = "오시 씨도 당신을 아주 걱정하고 있었어요. 한 번 얼굴을 비추는 게 좋겠어요.<end>"
+
 ["300123"]
 japanese = "あなたなら、きっと<line-break>アイリーンよりも強くなれるわ。<line-break>がんばってらっしゃい。<end>"
 korean = "당신이라면 분명아이린보다 강해질 수 있어.힘내고 와.<end>"
+
+["300124"]
+japanese = "あら、また出かけるの？<line-break>気をつけて行ってらっしゃい。<line-break>アイリーンのこと、頼むわね。<end>"
+korean = "어머, 또 나가니? 조심해서 다녀와. 아이린을 부탁할게.<end>"
 
 ["300125"]
 japanese = "ああ、<value:$28>か。<line-break>広場では大変だったそうだな。　　　　　<line-break>　<line-break>そういえば、アイリーンが捜していたぞ。<line-break>ぐずぐずしてないで、早く行ってやんな。<line-break>門の外で待ってるそうだ。<end>"

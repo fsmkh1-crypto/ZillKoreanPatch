@@ -652,9 +652,17 @@ korean = "<select><value:$20>%2정말…. 제대로골칫거리를 일으켰군�
 japanese = "な、何かあったのですか？<end>"
 korean = "무, 무슨 일 있었나요?<end>"
 
+["280186"]
+japanese = "外は大騒ぎみたいだけど、<line-break>こんな時でもあのおじいさんの視線が<line-break>腰のあたりにからみつくのよねえ。<end>"
+korean = "밖은 난리인 것 같은데 이런 때에도 저 할아버지 시선이 허리 주변에 달라붙네.<end>"
+
 ["280188"]
 japanese = "ふん、大騒ぎしおって。<line-break>大事なのは平常心じゃ。<line-break>むふふふ…。<end>"
 korean = "흥, 호들갑 떨기는. 중요한 건 평정심이야. 무후후후….<end>"
+
+["280189"]
+japanese = "ふん！<line-break>テラネの町の厄介者の片割れか。<line-break>もうひとりの角つきの方はどうした？<line-break>とにかく、<line-break>うちのヴァンにつきまとうな！<line-break>ヴァンはお前らノラ犬とは違うんだ。<end>"
+korean = "흥! 테라네 마을의 골칫거리 중 하나인가. 다른 뿔 달린 쪽은 어쨌지? 아무튼 우리 반에게 들러붙지 마! 반은 너희 들개들과 달라.<end>"
 
 ["280190"]
 japanese = "あなたたちみたいなのと<line-break>つきあってるから<line-break>最近、ヴァンちゃんがおかしいのよ！<line-break>ひどくつまらないダジャレなんか<line-break>言ったりして…。<line-break>あんな子じゃなかったのに…。<end>"

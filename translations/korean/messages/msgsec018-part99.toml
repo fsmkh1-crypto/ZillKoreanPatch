@@ -144,6 +144,10 @@ korean = "해냈네요! 이제 길드에 보고만 하면 돼요. 가죠.<end>"
 japanese = "終わりだな。<line-break>ギルドに戻って報告しよう。<line-break>　<end>"
 korean = "끝났군. 길드로 돌아가 보고하자.<end>"
 
+["180043"]
+japanese = "<if><value:$29><equal>0（よし、これで探索の依頼は完了だ。<line-break>　報酬を受け取りに、<line-break>　ギルドに戻るとするか）<end>（これで探索の依頼は完了したわ。<line-break>　報酬を受け取りに、<line-break>　ギルドに戻りましょう）<end>"
+korean = "<if><value:$29><equal>0(좋아, 이걸로 탐색 의뢰는 완료다. 보수를 받으러 길드로 돌아갈까.)<end>(이걸로 탐색 의뢰는 완료했어. 보수를 받으러 길드로 돌아가자.)<end>"
+
 ["180044"]
 japanese = "これね。依頼のものって。<line-break>さあ、<value:$28>、あとは<line-break>ギルドに持って帰れば仕事は完了ね。<end>"
 korean = "이거네, 의뢰한 물건. 자, <value:$28>, 이제 길드에 가져가면 일이 끝나.<end>"

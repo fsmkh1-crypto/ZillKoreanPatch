@@ -508,6 +508,10 @@ korean = "후훗, 농담이야. 뭐, 묘지니까 혹시라는 일도 있잖아?
 japanese = "ゴメーン。　　　　　　　　　　　　　<line-break>　<line-break>　<line-break>でもさ、こんなとこで会えたんだから、<line-break>また、どっかで会えるよ。<line-break>そんときにはゆっくりね。<end>"
 korean = "미안~. 그래도 이런 데서 만났으니 또 어디선가 만나겠지. 그때는 천천히 이야기하자.<end>"
 
+["840135"]
+japanese = "あぁ、あんた。<line-break>悪いけど、どっか行ってくれる？<line-break>こーゆーの、人に見られたくないんだ。<end>"
+korean = "아, 너구나. 미안한데 어디 좀 가 줄래? 이런 모습은 남에게 보이고 싶지 않아.<end>"
+
 ["840136"]
 japanese = "あ、名前教えてよ。<line-break>ちょっと、気になるからさ。<line-break>　<line-break>あたしはカルラ。<line-break>これでもディンガルの軍人。<line-break>で、あんたは？<end>"
 korean = "아, 이름 알려 줘. 좀 궁금하거든. 난 칼라. 이래 봬도 딘갈의 군인이야. 그래서 넌?<end>"
@@ -535,6 +539,10 @@ korean = "방해야. 미안하지만 가 줄래? 지금 바빠.<end>"
 ["840142"]
 japanese = "アハハ、<value:$28>。<line-break>また来てくれたんだ。<end>"
 korean = "아하하, <value:$28>.또 와 줬구나.<end>"
+
+["840143"]
+japanese = "墓場ってやーね。<line-break>なんで、こんなに静かなんだろ。<line-break>つい、ものを考えちゃうじゃない…。<end>"
+korean = "묘지는 싫어. 왜 이렇게 조용한 걸까. 괜히 생각에 잠기게 되잖아….<end>"
 
 ["840144"]
 japanese = "つい会いに来ちゃうのよね。<line-break>哀しくなるだけなのにさ。<line-break>ばっかみたいだよねー。<end>"
@@ -807,6 +815,10 @@ korean = "아, 아니야 아니야. 페우다의 방은 그쪽이 아니야.<end
 ["840218"]
 japanese = "ちょっとちょっと、<line-break>また戻ってどうすんの。<line-break>　<line-break>しっかりしてよね、<line-break>非常時なんだから。<end>"
 korean = "잠깐, 또 돌아가서 어쩌려고. 정신 차려, 비상사태잖아.<end>"
+
+["840219"]
+japanese = "ふぅ～ん。<line-break>どうもこのカルラ様は信用できない<line-break>ってな感じの動きよねぇ。<line-break>でも、今はそんなこと<line-break>言ってる場合じゃないんじゃない？<line-break>ほら、さっさとペウダのとこ行くよ！<end>"
+korean = "흐음~. 아무래도 이 카를라 님은 믿을 수 없다는 느낌의 움직임이네. 그래도 지금 그런 말 할 때는 아니지 않아? 자, 얼른 페우다에게 가자!<end>"
 
 ["840220"]
 japanese = "予備メッセージ６<line-break>カルラ、ボリューム１<end>"

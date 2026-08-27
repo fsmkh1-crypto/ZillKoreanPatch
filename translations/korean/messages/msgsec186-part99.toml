@@ -72,6 +72,10 @@ korean = "…기쁘네, 플린트 씨.<end>"
 japanese = "あ…。えっと、えっと！<line-break>じゃ、じゃあ、ルルアンタ、<line-break><value:$28>を探してくるね！<end>"
 korean = "아…. 저기, 저기! 그럼 루루안타가 <value:$28>을 찾아올게!<end>"
 
+["1860020"]
+japanese = "ルルアンタが、私たちと<line-break>一緒に行動するようになって１０年か。<line-break>…あっという間だったな。<line-break>あの子のほほえみは、<line-break>母親を亡くした幼い<value:$28>を<line-break>ずいぶんと元気づけてくれた。<end>"
+korean = "릴비가 우리와 함께 다니게 된 지도 10년인가. …순식간이었군. 그 아이의 미소는 어머니를 잃은 어린 <value:$28>에게 큰 힘이 되어 줬어.<end>"
+
 ["1860021"]
 japanese = "…そして、私もな。　　　　　　　　　<line-break>　<line-break>　<end>"
 korean = "…그리고 나도 말이지.<end>"
@@ -239,6 +243,10 @@ korean = "아ー, 그 사람!<end>"
 ["1860066"]
 japanese = "よぉ、お邪魔してるぜ。<end>"
 korean = "여어, 실례 좀 하고 있어.<end>"
+
+["1860067"]
+japanese = "ねぇ、フリントさん、　　　　　　　<line-break>聞いて、聞いて！<line-break>　<line-break>ルルアンタたち、変なおじさんたちに<line-break>襲われたんだけど、このお兄さんが<line-break>助けてくれたんだよぉ。<end>"
+korean = "있잖아, 플린트 씨, 들어 봐, 들어 봐! 릴비들이 이상한 아저씨들한테 습격당했는데 이 오빠가 구해 줬어.<end>"
 
 ["1860068"]
 japanese = "あれぇ。そう言えば、<line-break>お名前聞いてないよぉ。<end>"
@@ -479,6 +487,14 @@ korean = "플린트, 이제 됐어. 말하지 마.<end>"
 ["1860138"]
 japanese = "<value:$28>…、<line-break>はやく、密書を…、　　　　　　　<line-break>エリス…王妃に…。<end>"
 korean = "<value:$28>…, 서둘러 밀서를… 에리스… 왕비에게….<end>"
+
+["1860139"]
+japanese = "行ってやれ。親父さんは、<line-break>お前が行かないと納得しないだろう。<line-break>ここは俺が見ている。<line-break>ロストールの王宮は、<line-break>正面の通りを抜けたところにある<line-break>広場の先だ。<end>"
+korean = "가 봐. 아버지는 네가 가지 않으면 납득하지 않을 거다. 여긴 내가 보고 있을게. 로스토올 왕궁은 정면 거리를 지나면 나오는 광장 너머에 있어.<end>"
+
+["1860140"]
+japanese = "…はっきり言って<line-break>おやじさんは危険な状態だ…。<line-break>　<line-break>この衰弱ぶり…俺が見たところ、<line-break>刃に毒が塗ってあったようだ。<line-break>どうやら、シロウラギリという猛毒だ。<end>"
+korean = "…솔직히 말해서 아버지는 위험한 상태야…. 이 쇠약한 정도를 보니, 내가 보기엔 칼날에 독이 발려 있었던 것 같아. 아무래도 시로우라기리라는 맹독이야.<end>"
 
 ["1860141"]
 japanese = "エリス王妃は、<line-break>雌狐と呼ばれるほどの謀略家。<line-break>毒にも詳しい。<line-break>シロウラギリの毒に<line-break>フリントがやられたと言って、<line-break>生命のかけらをもらってこい。<end>"

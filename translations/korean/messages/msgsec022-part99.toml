@@ -8,6 +8,10 @@ korean = "아무래도 이 <value:$15>은 <value:$16>에 숨어 있는 모양이
 japanese = "近頃暴れてる<value:$15>のおかげで、<line-break>材料の仕入れに苦労しています。<line-break><value:$15>退治を依頼します。<line-break><value:$1A>ギア出します。<line-break><value:$1B>日以内にお願いします。<end>"
 korean = "요즘 날뛰는 <value:$15> 때문에,재료를 들여오는 데 애를 먹고 있습니다.<value:$15> 퇴치를 의뢰합니다.<value:$1A> 기아를 드리겠습니다.<value:$1B>일 이내로 부탁합니다.<end>"
 
+["220021"]
+japanese = "頼みたいのは<value:$15>の退治。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内。<line-break>モンスターのせいで仕事に支障が出てるんでな。<line-break>腕の立つ冒険者に任せる。<line-break>よろしく頼むぞ。<end>"
+korean = "부탁할 건 <value:$15> 퇴치다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내. 몬스터 때문에 일에 지장이 생겨서 말이야. 실력 있는 모험가에게 맡기지. 부탁한다.<end>"
+
 ["220031"]
 japanese = "街の近くに住みついている<value:$15>を<line-break>退治してほしい。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内に排除してほしい。<end>"
 korean = "마을 근처에 눌러앉은 <value:$15>을 퇴치해 주길 바란다. 보수는 <value:$1A>기아. <value:$1B>일 안에 제거해 줘.<end>"
@@ -23,6 +27,14 @@ korean = "<value:$15>이 출몰하고 있습니다. 목적을 몰라 더 무섭�
 ["220045"]
 japanese = "武器の材料集めを邪魔する奴がおる。<line-break><value:$15>じゃ。<line-break>こいつを倒してほしい。<line-break><value:$1A>ギア出せるでの。<line-break><value:$1B>日以内に頼むぞ。<end>"
 korean = "무기 재료를 모으는 걸 방해하는 놈이 있다. <value:$15>다. 이놈을 쓰러뜨려 줘. <value:$1A>기어를 내지. <value:$1B>일 안에 부탁한다.<end>"
+
+["220053"]
+japanese = "<value:$15>の退治してくれる方募集！！<line-break>お礼は<value:$1A>ギア！<line-break>期限は<value:$1B>日以内！<line-break>奴が邪魔をするせいで仕事がはかどらん。<line-break>退治をしてくれる奴を募集しとる。<line-break>確実に仕留めてくれよ。<end>"
+korean = "<value:$15>를 퇴치해 줄 사람 모집!! 사례는 <value:$1A>기어! 기한은 <value:$1B>일 이내! 녀석이 방해해서 일이 진척되지 않아. 퇴치해 줄 사람을 찾는다. 확실히 처리해 줘.<end>"
+
+["220065"]
+japanese = "邪悪なる者の気配が感じられます。<line-break><value:$15>を倒し、<line-break>かの地に清浄を取り戻してください。<line-break>お礼として<value:$1A>ギアをお持ちください。<line-break><value:$1B>日以内に果たされることを望みます。<end>"
+korean = "사악한 자의 기운이 느껴집니다. <value:$15>를 쓰러뜨리고 그 땅에 정화를 되찾아 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 이루어 주시길 바랍니다.<end>"
 
 ["220073"]
 japanese = "ラドラス１<end>"

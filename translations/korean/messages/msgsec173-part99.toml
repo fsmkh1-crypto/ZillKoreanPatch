@@ -8,6 +8,10 @@ korean = "오이페 메시지 V5 시작<end>"
 japanese = "やあ、こんにちは。<line-break>あなたも、これから　　　　　　　<line-break>旅に出るのですか？<end>"
 korean = "안녕하세요. 당신도 이제 여행을 떠나는 건가요?<end>"
 
+["1730002"]
+japanese = "そうですか。　　　　　　　　　　<line-break>あ、そうそう、旅の途中で<line-break>物騒な噂を耳にしました。<line-break>最近、リベルダムへ向かう<line-break>街道には、山賊が出るそうですよ。<line-break>あなたも気をつけてください。<end>"
+korean = "그렇군요. 아, 맞다. 여행 중에 흉흉한 소문을 들었습니다. 요즘 리벨덤으로 가는 가도에는 산적이 나온대요. 당신도 조심하세요.<end>"
+
 ["1730003"]
 japanese = "た、たたた、わたた、<line-break>たすけてくれぇぇぇ！！<line-break>　<line-break>ばけ、ばけもの…<line-break>化け物が、化け物が<line-break>俺たちのねぐらにぃぃーっ！<end>"
 korean = "도, 도도도, 도와, 도와줘어어!! 괴, 괴물… 괴물이, 괴물이 우리 소굴에에에!<end>"
@@ -236,6 +240,10 @@ korean = "오이페 공의 서신이라고? 잠시 기다려라.<end>"
 japanese = "カルラ様がお会いになるそうだ。<line-break>失礼のないようにな。<end>"
 korean = "칼라 님께서 만나시겠답니다. 실례 없도록 하십시오.<end>"
 
+["1730077"]
+japanese = "元気ぃ？　ロセンの鐘楼以来よね？<line-break>あの時、言ったよね。<line-break>部下になるか、死ぬかだって。<line-break>そして、あんたは、<line-break>あたしの部下にはならなかった。<line-break>つまり死を選択したのよね？<end>"
+korean = "잘 지냈어? 로센 종루 이후네? 그때 말했지. 부하가 되거나 죽으라고. 그리고 넌 내 부하가 되지 않았어. 즉 죽음을 택한 거지?<end>"
+
 ["1730078"]
 japanese = "いくわ！！　　　　　　　　　　　<end>"
 korean = "간다!!<end>"
@@ -263,6 +271,10 @@ korean = "끌어내!<end>"
 ["1730084"]
 japanese = "はっ！<end>"
 korean = "핫!<end>"
+
+["1730085"]
+japanese = "ふぅん、やさしいんだ。<line-break>…っていうか、<line-break>あたしのこと好きなんでしょ？　<line-break>だったら、あたしの配下に入るのが<line-break>一番じゃない？　<line-break>どぉ？　悪いようにはしないわよ。<end>"
+korean = "흐음, 상냥하네. …아니, 나 좋아하는 거지? 그렇다면 내 휘하에 들어오는 게 제일 낫지 않아? 어때? 나쁘게는 안 할게.<end>"
 
 ["1730086"]
 japanese = "冗談だってば。　　　　<line-break>本気にしないで。<line-break>　<line-break>じゃ、用が終わったなら<line-break>出てってくんないかな？<end>"

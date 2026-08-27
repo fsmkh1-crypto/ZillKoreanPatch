@@ -224,6 +224,10 @@ korean = "당신은 영웅이야. 당신만 있으면 언젠가 우리가 이길
 japanese = "頼りにしています。　　　　　　　<line-break>　<line-break>　<line-break>わたくしには…<line-break>いえ、わたくしたち解放軍には<line-break>あなたのような人が必要なのです。<end>"
 korean = "믿고 있습니다. 저에겐… 아니, 저희 해방군에겐 당신 같은 사람이 필요합니다.<end>"
 
+["1050072"]
+japanese = "リベルダムの陥落により、解放軍も<line-break>大変ですが、がんばりましょう。<line-break>では、いったん解散です。<end>"
+korean = "리벨덤 함락으로 해방군도 힘들지만 힘냅시다. 그럼 일단 해산입니다.<end>"
+
 ["1050073"]
 japanese = "あ、<value:$28>。<end>"
 korean = "아, <value:$28>.<end>"

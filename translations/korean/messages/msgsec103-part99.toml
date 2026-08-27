@@ -40,6 +40,10 @@ korean = "사실 비시민 같은 건 변변찮은 빈털터리뿐이야. 그런
 japanese = "どうして、そんなに<line-break>非市民をバカにするんだ！<line-break>　<line-break>リベルダムの繁栄は<line-break>非市民の労働が<line-break>支えているんだぞ！<end>"
 korean = "왜 그렇게 비시민을 무시하는 거야! 리벨덤의 번영은 비시민들의 노동이 떠받치고 있다고!<end>"
 
+["1030011"]
+japanese = "気に入らないのなら<line-break>出ていっていただいても結構よ。　　　<line-break>代わりならいくらでもいるから<end>"
+korean = "마음에 안 들면 나가도 좋아. 대신할 사람은 얼마든지 있으니까.<end>"
+
 ["1030012"]
 japanese = "なんだよ、なんだよ！<line-break>そんなに市民は偉いの？　　　　　<line-break>　<line-break>この人は無実だって言っているのに<line-break>非市民だから逮捕が許される…<line-break>そんなのないよ！<end>"
 korean = "뭐야, 뭐야! 시민이 그렇게 잘났어? 이 사람은 무죄라고 하는데 비시민이라고 체포해도 된다니… 그런 게 어디 있어!<end>"
@@ -343,6 +347,10 @@ korean = "역시 조금은 하는군요. 그 손으로 아버님을 죽였으니
 ["1030098"]
 japanese = "やるわね。今日の相手はそれなりに　<line-break>名のある闘士なのに。<line-break>　<line-break>あなたも武器で生きている人だから、<line-break>そう簡単に負けたりは<line-break>しないのでしょうけど。<end>"
 korean = "제법이네. 오늘 상대는 나름 이름 있는 투사인데. 당신도 무기로 먹고사는 사람이니 쉽게 지진 않겠지만.<end>"
+
+["1030099"]
+japanese = "でも、この程度ではまだ、<line-break>あなたの補償金の額には足りないわ。　<line-break>　<line-break>またここで戦ってもらうわ。<line-break>それまでは、自由になさい。<line-break>次に目覚めるまでの、わずかな時間を。<end>"
+korean = "하지만 이 정도로는 아직 네 배상금 액수에 못 미쳐. 또 여기서 싸워 줘야 해. 그때까지는 자유롭게 지내. 다음에 깨어날 때까지의 짧은 시간을.<end>"
 
 ["1030100"]
 japanese = "よく無事に済んだわね。<line-break>今日の相手はかなり危険だったのに。　<line-break>　<line-break>あなたの腕にかかれば、<line-break>大したことないのかもしれないけど、<line-break>少し、ひやっとしたわ。<end>"

@@ -60,6 +60,10 @@ korean = "그때는 <value:$28>을 지키느라 필사적이었지. 부모란 �
 japanese = "ふぅーん。<end>"
 korean = "흐~응.<end>"
 
+["330015"]
+japanese = "…そうなんだ。<line-break>…ルルアンタ、お父さんもお母さんも<line-break>いないから、よくわかんないや。<end>"
+korean = "…그렇구나. …릴비는 아빠도 엄마도 없어서 잘 모르겠어.<end>"
+
 ["330016"]
 japanese = "ああ、そういうものなんだよ。　　　<line-break><line-break><line-break>例えば、ルルアンタが大変なときは<line-break>私は、命がけでルルアンタを<line-break>助けにいくよ。<end>"
 korean = "그래, 그런 거야. 예를 들어 루루안타가 위험할 때는 난 목숨을 걸고 루루안타를 구하러 갈 거야.<end>"
@@ -259,6 +263,10 @@ korean = "그러니까 말이지, 이상한 아저씨가 덤볐는데 멋진 오
 ["330067"]
 japanese = "礼にはおよばんさ。<end>"
 korean = "감사할 것까진 없어.<end>"
+
+["330068"]
+japanese = "礼にはおよばんさ。<line-break>もっとも、２人を襲ったあの男、<line-break>本当はあんたに用があったみたいだが？<end>"
+korean = "감사할 것 없어. 그런데 두 사람을 습격한 그 남자, 사실은 너한테 볼일이 있었던 것 같던데?<end>"
 
 ["330069"]
 japanese = "…さぁ。<line-break>金目当ての強盗ですかな？<end>"
@@ -544,6 +552,10 @@ korean = "그래서, 플린트는 어떻게 됐지.<end>"
 japanese = "しかし、ガルドランか…。<line-break>フフ、また、ガルドランとはな。<line-break>　<line-break>奴は三流で無能だが、<line-break>並外れて執念深く、<line-break>妙に運がいい。<end>"
 korean = "하지만 갈드란인가…. 후후, 또 갈드란이라니. 녀석은 삼류에 무능하지만 유난히 집요하고 묘하게 운이 좋아.<end>"
 
+["330144"]
+japanese = "レムオン坊やも<line-break>思いきった人選をするものだ。<line-break>もっとも、今回は失敗だったようだな。<end>"
+korean = "레몬 도련님도 과감한 인선을 하는군. 하지만 이번에는 실패였던 모양이야.<end>"
+
 ["330146"]
 japanese = "ほう、<line-break>ゼネテスという冒険者がな…。<line-break>なるほど？<line-break>よかろう。<line-break>生命のかけらを与える。<line-break>これでフリントも回復しよう。<end>"
 korean = "호오, 제네테스라는 모험자가…. 그렇군? 좋아. 생명의 조각을 주지. 이걸로 플린트도 회복할 거다.<end>"
@@ -684,6 +696,10 @@ korean = "급해 보이는군? 볼일이 끝났다면 어서 돌아가도록.<en
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["330187"]
+japanese = "ん？　ああ、これからの予定かい？<line-break>ロストールで大事な用がある…って<line-break>フリントさんが言ってたよ。<end>"
+korean = "응? 아, 앞으로 일정? 로스토올에서 중요한 일이 있다고 플린트 씨가 말했어.<end>"
+
 ["330188"]
 japanese = "焚き火っていいよなあ…。なんかこう…<line-break>実感ってのかな？　旅してるってのとか<line-break><line-break><end>生きてるってのとか…、いいよなあ…。<end>"
 korean = "모닥불은 좋지…. 뭐랄까, 여행하고 있다는 실감도 들고<end>살아 있다는 느낌도 들고… 좋잖아….<end>"
@@ -715,6 +731,10 @@ korean = "예비 메시지 19<end>"
 ["330196"]
 japanese = "予備メッセー２０<end>"
 korean = "예비 메시지 20<end>"
+
+["330197"]
+japanese = "これこれ、道具屋は逆方向だよ。<line-break>ルルアンタも待っているんだ。<line-break>あまり意地悪しないでやってくれ。<end>"
+korean = "이봐, 도구점은 반대 방향이야. 릴비도 기다리고 있어. 너무 심술부리지 마.<end>"
 
 ["330199"]
 japanese = "<value:$28>～<line-break>道具屋はこっちだよぉ～！<line-break>早く、早くぅ～！<end>"

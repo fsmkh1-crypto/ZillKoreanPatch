@@ -292,6 +292,10 @@ korean = "…그래도 상대는 용이네요. 어쩔 수 없으려나.<end>"
 japanese = "やあ、どこに行くんだい？　<line-break>　<line-break>　<line-break>あれー？　確かこの先には<line-break>邪竜を封印した祭壇しか<line-break>ないはずなんだけどなあ…。<end>"
 korean = "야, 어디 가는 거야? 어라? 분명 이 앞에는 사룡을 봉인한 제단밖에 없을 텐데….<end>"
 
+["1740081"]
+japanese = "あはは、やっぱり君　　　　　　<line-break>邪竜に会いたいんでしょ？<line-break>会って、戦いたいんでしょ？<line-break>だったら、その願い、<line-break>僕がかなえてあげるよ！！<line-break>さあ、邪竜をどうしたいんだい？<end>"
+korean = "아하하, 역시 너 사룡을 만나고 싶은 거지? 만나서 싸우고 싶은 거지? 그렇다면 그 소원, 내가 이루어 줄게!! 자, 사룡을 어떻게 하고 싶어?<end>"
+
 ["1740082"]
 japanese = "復活させたい<end>"
 korean = "부활시키고 싶다<end>"
@@ -303,6 +307,10 @@ korean = "부활 따윈 사양이야<end>"
 ["1740084"]
 japanese = "うーん、いい返事だね。<line-break>やっぱり人間、素直が一番だよね。<line-break>　<line-break>それじゃ、ちょっと失礼して…。<end>"
 korean = "음, 좋은 대답이네. 역시 사람은 솔직한 게 최고지. 그럼 잠깐 실례할게….<end>"
+
+["1740085"]
+japanese = "さ、何が起こったかわかるよね？　　<line-break>あとは君が自分の目で確かめてよ。<line-break>　<line-break>邪竜、つよいよー。<line-break>君が負けたら世界は破滅しちゃうね。<line-break>そんじゃ、ガンバってねー。<end>"
+korean = "자, 무슨 일이 일어났는지 알겠지? 나머지는 네 눈으로 직접 확인해. 사룡, 강하다고~. 네가 지면 세계는 멸망하겠지. 그럼 힘내~.<end>"
 
 ["1740086"]
 japanese = "えー、なんでー！？　　　　　　<line-break>そんなのつまんないよー。<line-break>　<line-break>ねえ、もっかい考えてみてよ。<line-break>邪竜、復活させたいよね？　ね？<end>"
@@ -612,6 +620,10 @@ korean = "네, 맞는데요. 제가 파르셴이 맞습니다. 무슨 문제라�
 japanese = "な、何かいけませんかって…！？<line-break>どうして、今まで隠してたの？<end>"
 korean = "뭐, 뭐가 문제냐니…!? 왜 지금까지 숨기고 있었어?<end>"
 
+["1740185"]
+japanese = "とりこんでるところを<line-break>悪いんだけど、私の質問に<line-break>答えてもらえないかしら。　　　<line-break>ゼリグはどうして私を襲ったの？<line-break>ドルドラムはどうしたの？<line-break>どうして私はここにいるの？<end>"
+korean = "바쁜 중에 미안하지만 내 질문에 답해 주지 않을래? 제리그는 왜 나를 공격했어? 돌드람은 어떻게 됐어? 왜 나는 여기 있는 거야?<end>"
+
 ["1740186"]
 japanese = "ああ、すいませんでした。　　　<line-break>　<line-break>　<line-break>話すと、少し長くなるし、<line-break>とても悲しくなると思いますが、<line-break>それでも構いませんか？<end>"
 korean = "아, 죄송합니다. 이야기하면 조금 길고 아주 슬퍼질 것 같은데, 그래도 괜찮으세요?<end>"
@@ -631,6 +643,10 @@ korean = "그렇습니까…. 강하시군요, 당신은. 하지만 당신의 �
 ["1740190"]
 japanese = "<value:$28>、<line-break>私をあなたの仲間に<line-break>入れてくれないかしら？<end>"
 korean = "<value:$28>, 나를 네 동료로 받아주지 않을래?<end>"
+
+["1740191"]
+japanese = "闇の神器を持つあなたたちといれば<line-break>いつかネメア様に会える日が来るはず。<line-break>　<line-break>それに、ゼリグを操ってた奴らも<line-break>きっとまた、あなたの前に現れるはず。<line-break>仇は、とりたいわ。<end>"
+korean = "어둠의 신기를 가진 너희와 함께 있으면 언젠가 네메아 님을 만날 날이 올 거야. 그리고 제리그를 조종한 녀석들도 분명 다시 네 앞에 나타날 테지. 복수하고 싶어.<end>"
 
 ["1740192"]
 japanese = "足手まといには、ならないはずよ。<line-break>どうかしら、<value:$28>？<end>"
