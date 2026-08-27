@@ -132,6 +132,10 @@ korean = "도와준다<end>"
 japanese = "放っておく<end>"
 korean = "내버려 둔다<end>"
 
+["790033"]
+japanese = "<if><value:$29><equal>%0ほぉ、兄ちゃん、太っ腹だね。<line-break>それじゃ、修理代の３０００ギアは<line-break>あんたが払ってくれるんだな？<end>ほぉ、姉ちゃん、太っ腹だね。<line-break>それじゃ、修理代の３０００ギアは<line-break>あんたが払ってくれるんだな？<end>"
+korean = "<if><value:$29><equal>%0오, 형씨 통이 크네. 그럼 수리비 3000기어는 네가 내주는 거지?<end>오, 아가씨 통이 크네. 그럼 수리비 3000기어는 네가 내주는 거지?<end>"
+
 ["790034"]
 japanese = "３０００ギア払う<end>"
 korean = "3000기어를 낸다<end>"
@@ -199,6 +203,10 @@ korean = "도와준다<end>"
 ["790050"]
 japanese = "放っておく<end>"
 korean = "내버려 둔다<end>"
+
+["790051"]
+japanese = "<if><value:$29><equal>%0ほぉ、兄ちゃん、太っ腹だね。<line-break>それじゃ、修理代の３０００ギアは<line-break>あんたが払ってくれるんだな？<end>ほぉ、姉ちゃん、太っ腹だね。<line-break>それじゃ、修理代の３０００ギアは<line-break>あんたが払ってくれるんだな？<end>"
+korean = "<if><value:$29><equal>%0오, 형씨 통이 크네. 그럼 수리비 3000기어는 네가 내주는 거지?<end>오, 아가씨 통이 크네. 그럼 수리비 3000기어는 네가 내주는 거지?<end>"
 
 ["790052"]
 japanese = "３０００ギア払う<end>"

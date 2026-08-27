@@ -148,6 +148,10 @@ korean = "사랑하는 누군가를 위해 열심히 사는 사람은 천국에 
 japanese = "これは<value:$28>様、<line-break>お帰りなさいませ。　　　　　　　　　<line-break>　<end>"
 korean = "<value:$28>님, 돌아오셨군요.<end>"
 
+["1800038"]
+japanese = "カルラが攻めてこようというのに、<line-break>レムオン様は貴族のみなさまをまとめ、<line-break>迎え撃つ軍を出さぬと言っています。<line-break><value:$28>様、<line-break>私は政治のことはよくわかりませんが、<line-break>レムオン様は間違っていると思います。<end>"
+korean = "카를라가 쳐들어오려 하는데 레몬님은 귀족 여러분을 모으고도 맞서 싸울 군대를 내지 않겠다고 하십니다. <value:$28>님, 저는 정치는 잘 모르지만 레몬님이 틀렸다고 생각합니다.<end>"
+
 ["1800039"]
 japanese = "どうか、<value:$28>様、<line-break>王宮へ行き、ファーロス総司令を　　　<line-break>お助けになってください。<end>"
 korean = "부디 <value:$28>님, 왕궁으로 가서 파로스 총사령관을 도와주세요.<end>"
