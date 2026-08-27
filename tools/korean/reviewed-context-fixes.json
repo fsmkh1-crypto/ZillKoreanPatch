@@ -33,5 +33,25 @@
     "old": "오늘 일어나 보니이런 편지가 놓여 있어서…. 읽어 봐 주세요.<end>",
     "new": "오늘 일어나 보니 이런 편지가 놓여 있어서…. 읽어 봐 주세요.<end>",
     "reason": "Obvious missing space in Noel's preceding line."
+  },
+  "1890134": {
+    "old": "네놈인가… 나의 파괴를 바라지 않고 앞을 가로막으려는 자가.<end>",
+    "new": "네놈인가… 나의 파괴를 바라지 않고 가로막으려는 자는.<end>",
+    "reason": "Exact reused Ishbaal encounter line as 1360149, with the same surrounding introduction and follow-up."
+  },
+  "1840013": {
+    "old": "그때는 다시 그 힘을 불태워 없애면 된다. 전군 전진! 아큐류스에 상륙하라!<end>",
+    "new": "그때는 다시 그 힘을 불태워 없앨 뿐이다. 전군 전진! 아큐류스에 상륙하라!<end>",
+    "reason": "Exact reused Zilark military command as 1720029 in the same Aquirus assault event."
+  },
+  "1410165": {
+    "old": "킥킥. 나랑 똑같이 보지 말라는 표정 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 가장 위험한 사람이란 뜻이지.<end>",
+    "new": "킥킥. 나랑 같은 취급 하지 말라는 표정을 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 제일 위험한 사람이란 뜻이지.<end>",
+    "reason": "Same Kafin ending-event line as 1920086; normalize both copies to a single natural character-voice rendering."
+  },
+  "1920086": {
+    "old": "후후. 나랑 똑같이 취급하지 말라는 표정 지어도 소용없어. 뭐니 뭐니 해도 <value:$28>는 세계를 구한 최강의 용사님이잖아. 요컨대 제일 위험한 사람이라는 거지.<end>",
+    "new": "킥킥. 나랑 같은 취급 하지 말라는 표정을 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 제일 위험한 사람이란 뜻이지.<end>",
+    "reason": "Same Kafin ending-event line as 1410165; normalize both copies to a single natural character-voice rendering."
   }
 }
