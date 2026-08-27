@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["110001"]
+japanese = "<if><value:$2C><less-equal>%9風の巫女エア様は、<line-break>天地千年を見通すことが<line-break>できる偉大なお方なのだ。<end><if><value:$2C><less-equal>%29エア様にわからぬことはない。<line-break>エア様の前で、くれぐれも隠し事など<line-break>してはいかんぞ。<end><if><value:$2C><less-equal>%49こうして他国の脅威におびえることなく<line-break>平和に暮らせるのもエア様のおかげだよ。<line-break>わしはいつも感謝しておるのだぞ。<end>君が強いのはよくわかる。<line-break>だからこそ勇み足でエア様を怒らせるような<line-break>ことだけはしないでくれよ。<end>"
+korean = "<if><value:$2C><less-equal>%9바람의 무녀 에아 님은 천지의 천년을 내다볼 수 있는 위대한 분이시다.<end><if><value:$2C><less-equal>%29에아 님께 모르는 것은 없다. 에아 님 앞에서 절대로 숨기는 일이 있어선 안 된다.<end><if><value:$2C><less-equal>%49이렇게 다른 나라의 위협에 떨지 않고 평화롭게 살 수 있는 것도 에아 님 덕분이야. 나는 늘 감사하고 있단다.<end>네가 강하다는 건 잘 안다. 그렇기 때문에 너무 앞서 나가 에아 님을 화나게 하는 일만은 하지 말아 다오.<end>"
+
 ["110005"]
 japanese = "<select><value:$20>%4おっきくなったら船長になるんだ！<line-break>海の男だぞ。<end>海の男になるために、<line-break>足腰を鍛えるんだ！<line-break>がんばるぞ！<end>遅いぞ！<line-break>それじゃあ海の男になんて<line-break>なれないぞ。<end>今、特訓中なんだ。<line-break>邪魔しないでよ！<end>"
 korean = "<select><value:$20>%4크면 선장이 될 거야! 바다의 사나이가 될 거라고.<end>바다의 사나이가 되려면 하체를 단련해야 해! 힘낼 거야!<end>느려! 그러고선 바다의 사나이가 될 수 없어.<end>지금 특훈 중이야. 방해하지 마!<end>"
@@ -31,6 +35,10 @@ korean = "<select><value:$20>%4갖고 싶은 건 많은데 돈은 없고. 뭘 �
 ["110015"]
 japanese = "<if><value:$2C><less-equal>%9魔法とは精霊の力を操ること。<line-break>精霊力レベルが低いと強力な魔法は使えぬぞ。<end><if><value:$2C><less-equal>%29この地は風の属性に包まれておる。<line-break>土属性の攻撃が有効じゃぞ。<end><if><value:$2C><less-equal>%49疾風の魔弓という武器が、この地に眠っておる。<line-break>疾風が突き抜けるように敵を刺し貫く<line-break>伝説の弓なのじゃ。<end>究極の風属性魔法が、この地に眠っておる。<line-break>そのカギは風の精霊神にあると思うのじゃが<line-break>エアが恐ろしうて調べられんのじゃ。<end>"
 korean = "<if><value:$2C><less-equal>%9마법이란 정령의 힘을 다루는 것. 정령력 레벨이 낮으면 강력한 마법은 쓸 수 없느니라.<end><if><value:$2C><less-equal>%29이 땅은 바람 속성에 둘러싸여 있다. 땅 속성 공격이 효과적이니라.<end><if><value:$2C><less-equal>%49질풍의 마궁이라는 무기가 이 땅에 잠들어 있다. 질풍이 꿰뚫고 지나가듯 적을 찌르는 전설의 활이니라.<end>궁극의 바람 속성 마법이 이 땅에 잠들어 있다. 그 열쇠는 바람의 정령신에게 있다고 생각하지만 에아가 무서워 조사할 수 없구나.<end>"
+
+["110016"]
+japanese = "<if><value:$2A><less-equal>%49魔法を極めたいなら<line-break>ディンガルの魔道アカデミーがいいわよ。<line-break>あそこの卒業生は優秀なんだから。<end><if><value:$2A><less-equal>%100武器や防具の属性を無属性にするには<line-break>神官様にお願いするのが一番よ。<line-break>よく忘れるから覚えときなさい。<end><if><value:$2A><less-equal>%150装備品を持てる数は決まってるのよ。<line-break>そろそろいらないものは捨てちゃいなさい。<end>あなた、<value:$28>でしょ。<line-break>世界一の冒険者に、あたしが教えられること<line-break>なんてないわよ。からかわないでよね。<end>"
+korean = "<if><value:$2A><less-equal>%49마법을 극한까지 익히고 싶다면 딩갈의 마도 아카데미가 좋아. 거기 졸업생들은 우수하거든.<end><if><value:$2A><less-equal>%100무기나 방어구의 속성을 무속성으로 바꾸려면 신관님께 부탁하는 게 제일이야. 자주 잊으니까 기억해 둬.<end><if><value:$2A><less-equal>%150장비품을 들 수 있는 수는 정해져 있어. 이제 필요 없는 건 버리도록 해.<end>너 <value:$28>지? 세계 최고의 모험자에게 내가 가르칠 게 뭐가 있겠어. 놀리지 마.<end>"
 
 ["110017"]
 japanese = "<if><value:$2C><less-equal>%9ラミリー山には行かない方がいい。<line-break>あんたじゃ弱すぎて、<line-break>死にに行くようなもんだ。<end><if><value:$2C><less-equal>%29よし！　合格だ。<line-break>今の強さならラミリー山へ行っても大丈夫だな。<line-break>回復アイテムは多めに持っていけよ。<end><if><value:$2C><less-equal>%49ラミリー山は風の精霊神の座所に通じる山さ。<line-break>だけど座所へ行くには風の神殿を通る必要が<line-break>あるってのが問題なんだ。<end>風の神殿を通るにはエアの許可がいるだろ。<line-break>とうてい俺には無理だが、あんたなら<line-break>なんとかなるんじゃないかい？<end>"

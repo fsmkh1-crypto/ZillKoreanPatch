@@ -2280,6 +2280,10 @@ korean = "<select><value:$20>%3<value:$28>님, 저보다 비아에게 말을 걸
 japanese = "<select><value:$20>%3あんな兄ですが<line-break>私たち姉妹にとっては<line-break>かけがえのない存在なのです。<end>心配です。<line-break>兄は私たちを助けるため、<line-break>重い呪いを受け、廃人同様なのです。<end><value:$28>様、<line-break>兄のためにご迷惑をおかけして<line-break>申しわけございません。<end>"
 korean = "<select><value:$20>%3그런 오빠지만 우리 자매에게는 둘도 없는 소중한 존재입니다.<end>걱정됩니다. 오빠는 우리를 구하기 위해 무거운 저주를 받아 폐인이나 다름없는 상태입니다.<end><value:$28>님, 오빠 일로 폐를 끼쳐 드려 죄송합니다.<end>"
 
+["1350577"]
+japanese = "<select><value:$20>%3…私さ、<line-break><value:$28>に会えるのが<line-break>すごくうれしいんだよね。<line-break>大好きなお兄ちゃんがいなくなって<line-break>それどころじゃないはずなのに…。<line-break>自分で自分にへこむよ。<end>…今まで、お兄ちゃんより<line-break>大事な人が現れるなんて<line-break>考えたこともなかったんだ。<line-break>今は<line-break>考えちゃいけない<line-break>…って思ってる。<end>お兄ちゃんにしろ<line-break><value:$28>にしろ<line-break>気楽だよね、男って。<line-break>女がどんな気分でいるのかなんて<line-break>おかまいなしなんだよ。<end>"
+korean = "<select><value:$20>%3…나 있잖아, <value:$28>를 만나는 게 정말 기뻐. 좋아하는 오빠가 없어져서 이럴 때가 아닌데…. 나 자신한테 실망하게 돼.<end>…지금까지 오빠보다 소중한 사람이 나타날 거라고는 생각해 본 적도 없어. 지금은 그런 생각을 하면 안 돼…라고 생각하고 있어.<end>오빠도 그렇고 <value:$28>도 그렇고 남자들은 참 속 편하지. 여자가 어떤 기분인지 전혀 신경 쓰지 않잖아.<end>"
+
 ["1350578"]
 japanese = "<value:$28>、<line-break>ありがとう。<line-break>ホント救われてるわ、私たち。<line-break>なんか、家族みたい。<line-break>同い年くらいのはずなのに<line-break>なんだろう、姉さんみたいな存在だよ。<end>"
 korean = "<value:$28>,고마워.정말 큰 도움을 받고 있어, 우리.뭔가 가족 같아.비슷한 나이일 텐데도뭐랄까, 언니 같은 존재야.<end>"

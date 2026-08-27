@@ -1448,6 +1448,10 @@ korean = "그럼 미이스의 숲을 조사하러 간다.<end>"
 japanese = "<if><value:$29><equal>%0よう、<value:$28>。<line-break>朝も早いってのに、<line-break>魔物騒ぎで大変だったな。<end><value:$28>。<line-break>無事でよかった…。　　　　　　<line-break>　<line-break>魔物騒ぎで森に行ったってっから<line-break>俺…、寝てらんなくって…。<line-break>でも、無事でホントよかったよ。<end>"
 korean = "<if><value:$29><equal>%0여, <value:$28>. 아침부터 마물 소동 때문에 고생했군.<end><value:$28>. 무사해서 다행이야…. 마물 소동 때문에 숲에 갔다고 해서 나… 잠도 못 자고…. 그래도 정말 무사해서 다행이야.<end>"
 
+["1370364"]
+japanese = "<select><value:$20>%3魔物の出現に続いて地震かよ。<line-break>いよいよ、お前たち神器を守る一族の<line-break>出番ってわけだ。<line-break>ホント大変な家に生まれちまったな。<line-break>ま、がんばれよ。<line-break>お前なら神器を守り通せるさ。<end>お前たち神官家ってさ、<line-break>このミイスにある神器を<line-break>守ってるんだよな。<line-break>…ところで神器って<line-break>なんなんだ？<line-break>どんなもんなんだ？<end>ロイ様の持ってらっしゃる剣、<line-break>カッコいいよなあ。<line-break>聖剣・日光って言うんだってな。<end>"
+korean = "<select><value:$20>%3마물이 나타난 데 이어 지진까지라니. 이제 너희 신기를 지키는 일족이 나설 차례라는 거지. 정말 힘든 집안에 태어났구나. 뭐, 힘내라. 너라면 신기를 지켜 낼 수 있을 거야.<end>너희 신관 가문은 이 미이스에 있는 신기를 지키는 거지? …그런데 신기라는 게 대체 뭐야? 어떤 물건인데?<end>로이 님이 가지고 계신 검, 멋지더라. 성검 일광이라고 한다며.<end>"
+
 ["1370365"]
 japanese = "<if><value:$29><equal>%0知らない！！<line-break>知らないんだ、俺たちゃ！<line-break>面ってなんなんだよ！？　おい！！<end>みんな…みんな…<line-break>あの女に燃やされて…！！<line-break>ああ…、ど、どうなってるんだよ！？<end>"
 korean = "<if><value:$29><equal>%0몰라!! 모른다고, 우리는! 가면이 뭐냐고!? 야!!<end>모두… 모두… 그 여자한테 불타서…!! 아아… 대, 대체 어떻게 된 거야!?<end>"

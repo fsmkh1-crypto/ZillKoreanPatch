@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1580000"]
+japanese = "<if><value:$33><equal>%0アイリーンお姉ちゃんはね、<line-break>とってもつよいけど、とってもやさしいんだ。<line-break>あたし、お姉ちゃんだーい好き。<end><if><value:$23><equal>%2あっ！　<value:$28>お兄ちゃんだぁ。<line-break>おかえりなさぁい。<end><select><value:$20>%1ここにはねえ、アイリーンっていう　　　　<line-break>つよーいお姉ちゃんがいたんだよぉ。<line-break>とってもつよくて、やさしかったんだぁ。<line-break>でもね、今はね、ここには、いないよぉ。<line-break>ロストールで、女はきしになれないって<line-break>たびにでちゃったんだよぉ。<end>"
+korean = "<if><value:$33><equal>%0아이린 언니는 정말 강하지만 정말 상냥해. 나 언니가 정말 좋아.<end><if><value:$23><equal>%2앗! <value:$28> 오빠다아. 어서 와아.<end><select><value:$20>%1여기에는 아이린이라는 아주 강한 언니가 있었어. 정말 강하고 상냥했어. 하지만 지금은 여기 없어. 로스토올에서는 여자가 기사가 될 수 없다면서 여행을 떠났거든.<end>"
+
 ["1580006"]
 japanese = "<select><value:$20>%2エンシャントのギルドにいる謎の冒険者に<line-break>のせられて、ついつい何度も挑戦してたら<line-break>所持金がなくなっちまった…トホホ。<end>楽して稼ごうなんて考えちゃだめだね。<line-break>エンシャントのギルドにある魔法の箱…<line-break>あれは悪魔の箱だよ。<end>"
 korean = "<select><value:$20>%2엔샨트 길드의 수수께끼 모험가 말에 넘어가 몇 번이나 도전하다가 가진 돈이 다 떨어졌어… 흑흑.<end>편하게 돈 벌 생각은 하면 안 되겠어. 엔샨트 길드에 있는 마법의 상자… 그건 악마의 상자야.<end>"
