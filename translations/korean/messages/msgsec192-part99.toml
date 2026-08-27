@@ -156,6 +156,10 @@ korean = "…라고 해도 지금은 도망치는 게 먼저일지도 모르겠�
 japanese = "おそいなぁ、<value:$28>。<line-break>まさか、忘れちゃったんじゃ<line-break>ないよなぁ。<end>"
 korean = "늦네, <value:$28>. 설마 잊은 건 아니겠지.<end>"
 
+["1920068"]
+japanese = "もう！　ようやく、みんなを説得して<line-break>自由に冒険できるようになったって<line-break>言うのにぃ！<line-break>何やってるんだよぉ、<line-break><value:$28>…。<line-break>　<end>"
+korean = "정말! 겨우 모두를 설득해서 자유롭게 모험할 수 있게 됐는데! 뭐 하는 거야, <value:$28>….<end>"
+
 ["1920072"]
 japanese = "はやく来てよぉ<line-break><value:$28>…。<end>"
 korean = "빨리 와 줘, <value:$28>….<end>"

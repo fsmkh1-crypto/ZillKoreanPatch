@@ -40,6 +40,10 @@ korean = "아! <value:$28>! 이 사람들은… 우물우물.<end>"
 japanese = "余計なことは言うんじゃねえ！<end>"
 korean = "쓸데없는 소리는 하지 마!<end>"
 
+["1590023"]
+japanese = "見られちまった以上、<line-break>こいつも始末するしかねぇってか！<end>"
+korean = "들켜 버린 이상 이 녀석도 처리할 수밖에 없다는 건가!<end>"
+
 ["1590024"]
 japanese = "あとは頼んだ、俺はこいつを<line-break>賢者の森で処分する！<end>"
 korean = "나머지는 부탁한다. 난 이 녀석을 현자의 숲에서 처리하겠다!<end>"
@@ -348,6 +352,10 @@ korean = "정말 손이 많이 가게 하는군!<end>"
 japanese = "何者だ、貴様！<end>"
 korean = "누구냐, 네놈!<end>"
 
+["1590163"]
+japanese = "見られちまった以上、<line-break>こいつも始末するしかねぇってか！<end>"
+korean = "들켜 버린 이상 이 녀석도 처리할 수밖에 없다는 건가!<end>"
+
 ["1590164"]
 japanese = "うんん…。<end>"
 korean = "으음….<end>"
@@ -403,6 +411,10 @@ korean = "서두르지 않으면 안 돼, <value:$28>.<end>"
 ["1590196"]
 japanese = "待ってよぉ！<end>"
 korean = "기다려어!<end>"
+
+["1590197"]
+japanese = "もう、ちゃんとオルファウスさんに<line-break>ごあいさつしてよぉ。<line-break>　<line-break>そういうことって、いっつも<line-break>ルルアンタしか<line-break>気づかないんだからぁ！<end>"
+korean = "정말, 오르파우스 씨께 제대로 인사해 줘. 그런 건 늘 루루안타만 알아챈다니까!<end>"
 
 ["1590198"]
 japanese = "予備用メッセージ１<line-break>ルルアンタ・ボリューム１その３<end>"

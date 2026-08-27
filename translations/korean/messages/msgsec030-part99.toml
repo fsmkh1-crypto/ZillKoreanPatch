@@ -44,6 +44,10 @@ korean = "그, 그만해 주세요!<end>"
 japanese = "困ります、お客さん。<line-break>い、いや…！　触らないで。<end>"
 korean = "곤란합니다, 손님. 아, 아니…! 만지지 마세요.<end>"
 
+["300032"]
+japanese = "俺様とふたりで愛の冒険に旅立つ。<line-break>それが君の運命なんだ！<end>"
+korean = "이 몸과 둘이 사랑의 모험을 떠난다. 그게 네 운명이야!<end>"
+
 ["300033"]
 japanese = "あっ、<value:$28>さん！<line-break>助けてください！<end>"
 korean = "아, <value:$28>님! 도와주세요!<end>"
