@@ -34,3 +34,12 @@ jobs:
       - run: python3 -m unittest discover -s tools/korean -p 'test_*.py'
       - run: ./zill korean-check
       - run: ./zill korean-font-check
+      - name: Run whole-corpus QA-1 integrity scan
+        run: python3 tools/korean/qa-integrity.py --json /tmp/korean-qa-integrity.json --max-examples 40
+      - name: Upload QA-1 integrity report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: korean-qa-integrity
+          path: /tmp/korean-qa-integrity.json
+          if-no-files-found: warn
