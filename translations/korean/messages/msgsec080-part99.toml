@@ -36,6 +36,10 @@ korean = "(금환식이 시작된다…. 앞으로 X분이면 끝날 것 같다.
 japanese = "いやあっ！<line-break>…扉が、開くぅ！<end>"
 korean = "싫어! …문이, 열려어!<end>"
 
+["800023"]
+japanese = "いやあっ！<line-break>ソウルが共鳴して…<line-break>入って…きちゃう！<end>"
+korean = "싫어엇! 소울이 공명해서… 안으로… 들어와 버려!<end>"
+
 ["800031"]
 japanese = "<value:$28>は<line-break>英雄ソウル、マノンを修得した。<end>"
 korean = "<value:$28>은 영웅 소울 마논을 습득했다.<end>"

@@ -16,6 +16,10 @@ korean = "가!<end>"
 japanese = "ほら、来たよ。<line-break><value:$28>が。<end>"
 korean = "봐, 왔어. <value:$28>가.<end>"
 
+["1900012"]
+japanese = "さあ、ザギヴ。<line-break>自らの手で試すがよい。<line-break>　<line-break>たとえ<value:$28>であっても、<line-break>恐怖の存在には剣を向けるしかない<line-break>ということをな。<end>"
+korean = "자, 자기브. 네 손으로 직접 시험해 봐라. 설령 <value:$28>이라도 공포의 존재 앞에서는 검을 겨눌 수밖에 없다는 걸.<end>"
+
 ["1900014"]
 japanese = "ザギウよ、自らの血で<line-break>闇に目覚めるがよい！<end>"
 korean = "자기브여, 자신의 피로 어둠에 눈을 떠라!<end>"
@@ -43,6 +47,10 @@ korean = "후후후…. 크흑. 소용없다…. 운명은… 변하지 않아�
 ["1900036"]
 japanese = "バカな…。<line-break>勝てる戦いだったはず。<end>"
 korean = "말도 안 돼…. 이길 수 있는 싸움이었을 텐데.<end>"
+
+["1900037"]
+japanese = "フフフ、さすが<value:$28>。<line-break>君を見ていると飽きないよ。<line-break>本当に負けたのか、わざとなのか…。<line-break>どちらにしろ、<line-break>彼女は救われたわけだ。<end>"
+korean = "후후후, 역시 <value:$28>. 널 보고 있으면 질리지 않아. 정말 진 건지 일부러 그런 건지…. 어느 쪽이든 그녀는 구원받았군.<end>"
 
 ["1900038"]
 japanese = "あ…、ああ…。　　　<line-break><value:$28>…。<end>"
@@ -287,6 +295,10 @@ korean = "반드시 돌아오겠다고 약속한다<end>"
 ["1900145"]
 japanese = "できるだけそうすると言う<end>"
 korean = "가능한 한 그렇게 하겠다고 말한다<end>"
+
+["1900148"]
+japanese = "あなたの帰りを待っている私が<line-break>ここにいるということを…。<end>"
+korean = "당신이 돌아오기를 기다리는 내가 여기 있다는 걸….<end>"
 
 ["1900154"]
 japanese = "ティアナはひとりでも大丈夫<end>"

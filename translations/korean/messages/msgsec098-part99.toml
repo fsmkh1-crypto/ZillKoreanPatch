@@ -180,6 +180,10 @@ korean = "그럼 도시로 들어가자.<end>"
 japanese = "でも、それって、私たちが<line-break>運命に選ばれた者ってことよね。<line-break>　<line-break>なんだか、これからの旅が<line-break>おもしろくなりそうね。<end>"
 korean = "하지만 그건 우리가 운명에 선택받은 자들이란 뜻이잖아. 왠지 앞으로 여행이 재미있어질 것 같네.<end>"
 
+["980117"]
+japanese = "あ、<value:$28>。<line-break>やっと来たわね。<line-break>　<line-break>あいつらは賢者の森に向かったわ。<line-break>早く追うわよ。もちろん、<line-break>用意はできてるわよね？<end>"
+korean = "아, <value:$28>. 이제야 왔네. 그 녀석들은 현자의 숲으로 갔어. 빨리 쫓아가자. 준비는 됐지?<end>"
+
 ["980118"]
 japanese = "こ、この扱いには<line-break>断固、抗議するゴブ…。<end>"
 korean = "이, 이런 대우에는 단호히 항의한다 고브….<end>"

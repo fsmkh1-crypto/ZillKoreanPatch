@@ -148,9 +148,41 @@ korean = "그럼 돌아갈까요!<end>"
 japanese = "　　　　　　　　ノエルよ…。　　　　　　　　<line-break>　　　　　　　　我との約束、<line-break>　　　　　　　忘れるでないぞ。<line-break>　<end>"
 korean = "노엘이여…. 나와의 약속을 잊지 말거라.<end>"
 
+["1870058"]
+japanese = "あなたとノエルを会わせてくれた<line-break>ことには、感謝したいわ。<end>"
+korean = "당신과 노엘을 만나게 해 준 것에는 감사하고 싶어.<end>"
+
 ["1870059"]
 japanese = "では、<value:$28>さん、<line-break>失礼します！<end>"
 korean = "그럼, <value:$28>님, 실례하겠습니다!<end>"
+
+["1870062"]
+japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ５のその３です。<end>"
+korean = "저, 예비 메시지입니다. 노엘2/V5 그 3입니다.<end>"
+
+["1870063"]
+japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ５のその４です。<end>"
+korean = "저, 예비 메시지입니다. 노엘2/V5 그 4입니다.<end>"
+
+["1870064"]
+japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ５のその５です。<end>"
+korean = "저, 예비 메시지입니다. 노엘2/V5 그 5입니다.<end>"
+
+["1870065"]
+japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ５のその６です。<end>"
+korean = "저, 예비 메시지입니다. 노엘2/V5 그 6입니다.<end>"
+
+["1870066"]
+japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ５のその７です。<end>"
+korean = "저, 예비 메시지입니다. 노엘2/V5 그 7입니다.<end>"
+
+["1870067"]
+japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ５のその８です。<end>"
+korean = "저, 예비 메시지입니다. 노엘2/V5 그 8입니다.<end>"
+
+["1870068"]
+japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ５のその９です。<end>"
+korean = "저, 예비 메시지입니다. 노엘2/V5 그 9입니다.<end>"
 
 ["1870070"]
 japanese = "ノエル用メッセージＶ５終端<end>"

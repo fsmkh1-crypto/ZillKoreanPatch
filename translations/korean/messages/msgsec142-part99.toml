@@ -324,6 +324,10 @@ korean = "별난 사람이네.<end>"
 japanese = "で？　今度は何しにいくんだ？<end>"
 korean = "그래서? 이번엔 뭘 하러 가는 거야?<end>"
 
+["1420128"]
+japanese = "新しい世界を見に行く、だ？<line-break>はっ、お笑いだな。<line-break>　<line-break>世界なんてどこ行ったって<line-break>変わりゃしねえよ。<line-break>つまんねぇもんだぜ。<end>"
+korean = "새로운 세계를 보러 간다고? 하, 웃기는군. 세상은 어딜 가도 변하지 않아. 재미없는 곳이지.<end>"
+
 ["1420129"]
 japanese = "ネモ。<value:$28>は、<line-break>すべての種族が手を取り合って<line-break>生きている世界を探しにいくんですよ。<end>"
 korean = "네모. <value:$28>은 모든 종족이 손을 맞잡고 살아가는 세계를 찾으러 가는 겁니다.<end>"
@@ -1459,6 +1463,10 @@ korean = "단장! 다녀올게고….<end>"
 ["1420510"]
 japanese = "まだゴブ。<end>"
 korean = "아직 고브.<end>"
+
+["1420516"]
+japanese = "…オルナットの言うことが正しいゴブ。<line-break>我ら誇り高いゴブゴブ団は、<line-break>飢えと貧困と戦ってきたゴブが、<line-break>まだ、完全に勝利していないゴブ！<end>"
+korean = "…오르낫 말이 맞다 고브. 우리 자랑스러운 고브고브단은 굶주림과 가난에 맞서 싸워 왔지만 아직 완전히 이기진 못했다 고브!<end>"
 
 ["1420518"]
 japanese = "だ、団長…<line-break>自分は今ほどゴブゴブ団に入って<line-break>誇らしいと思ったことはないゴブ！<line-break>行ってくるゴブ。<end>"

@@ -40,6 +40,10 @@ korean = "좋아<end>"
 japanese = "やだな<end>"
 korean = "싫은데<end>"
 
+["1610016"]
+japanese = "まだ何も言ってないのに<line-break>ずいぶんと安請け合いなのね。<end>"
+korean = "아직 아무 말도 안 했는데 꽤 쉽게 받아들이네.<end>"
+
 ["1610019"]
 japanese = "任せて<end>"
 korean = "맡겨<end>"
@@ -79,6 +83,10 @@ korean = "일은 잘 부탁한다. 너한테도 나한테도 좋은 이야기잖
 ["1610038"]
 japanese = "失礼。<end>"
 korean = "실례.<end>"
+
+["1610039"]
+japanese = "え、ああ、今の神官様かい？　　　　　<line-break>仕事を依頼しに来たんだよ。<line-break>　<line-break>ちょうどいい。<line-break><value:$28>、この仕事<line-break>やってみるかい？<end>"
+korean = "아, 지금 신관님 말이야? 일을 의뢰하러 왔어. 마침 잘됐네. <value:$28>, 이 일 해 볼래?<end>"
 
 ["1610040"]
 japanese = "どんな仕事？<end>"
@@ -267,6 +275,10 @@ korean = "아, 아앗, 보답 이야기지? 이, 잊지 않았어. 괜찮아. �
 ["1610144"]
 japanese = "じゃ、じゃあ！<end>"
 korean = "그, 그럼!<end>"
+
+["1610147"]
+japanese = "さて、その勇者様に報酬をお渡しせねば<line-break>なりませんな。<end>"
+korean = "자, 그 용사님께 보수를 드려야겠군요.<end>"
 
 ["1610149"]
 japanese = "<value:$28>…。そうか、<line-break>城塞都市跡の魔獣を倒したか…。　<line-break>　<line-break>これで、あいつも安心してあの世で<line-break>仲間たちと眠れるってもんだな…。<end>"

@@ -172,6 +172,10 @@ korean = "오랜만이네, <value:$28>.<end>"
 japanese = "やっと、夢がかなったの。<line-break>それじゃ。<end>"
 korean = "드디어 꿈이 이루어졌어. 그럼.<end>"
 
+["990077"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>こんなところに来るなんて<line-break>どういうつもり？<line-break>今の私たちは敵同士なのよ！？<end>"
+korean = "<value:$28>…. 이런 곳에 오다니 무슨 생각이야? 지금 우리는 적이나 다름없다고!?<end>"
+
 ["990080"]
 japanese = "こんなことになるなんて…<line-break>思ってもみなかった…。<end>"
 korean = "이런 일이 될 줄은… 생각도 못 했어….<end>"

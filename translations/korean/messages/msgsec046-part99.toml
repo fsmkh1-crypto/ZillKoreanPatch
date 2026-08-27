@@ -224,6 +224,10 @@ korean = "저기, 갈드란이라는 모험자를 아세요?<end>"
 japanese = "知ってるんですか？<end>"
 korean = "알고 계신가요?<end>"
 
+["460118"]
+japanese = "ガルドランはその猫屋敷に向かうって<line-break>言ってたんですね。<end>"
+korean = "갈드란이 그 고양이 저택으로 간다고 했던 거군요.<end>"
+
 ["460121"]
 japanese = "じゃ、町を出るときに合流しよう。<line-break>それじゃ、<value:$28>。<end>"
 korean = "그럼 마을을 나갈 때 합류하자. 그럼, <value:$28>.<end>"
@@ -267,6 +271,10 @@ korean = "그러니까 힘에도 여러 종류가 있다는 거죠. 뭐, 사람�
 ["460152"]
 japanese = "くすっ。<end>"
 korean = "후훗.<end>"
+
+["460153"]
+japanese = "実は彼らに聖杯を盗ませたのは　<line-break>このバカネコなんです。<end>"
+korean = "사실 그들에게 성배를 훔치게 한 건 이 바보 고양이입니다.<end>"
 
 ["460159"]
 japanese = "くすっ。そうですか。<line-break>では、見せたいモノがあります。<line-break>来てください。<value:$28>。<end>"
@@ -339,6 +347,10 @@ korean = "미안. 또 너무 깊이 생각하는 버릇이 나왔네. 가자, <v
 ["460198"]
 japanese = "た～すけて～。　　　　　　　　<end>"
 korean = "도~와줘~.<end>"
+
+["460199"]
+japanese = "いやもう、ほ～んとうに<line-break>助けて欲しいんじゃね～、わし。<end>"
+korean = "아니, 정말로 좀 도와줬으면 하는 게야, 나 말이지.<end>"
 
 ["460200"]
 japanese = "いやもう、ほ～んとうに<line-break>助かったんじゃね～、わし。　　　　　<line-break><line-break>もう、な～んにち、逃げてたか<line-break>わからんもんね、わし。<end>"

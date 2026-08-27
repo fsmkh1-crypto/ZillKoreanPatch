@@ -208,6 +208,10 @@ korean = "가자. <value:$28>.<end>"
 japanese = "気味が悪い！　　　　　　　<end>"
 korean = "기분 나빠!<end>"
 
+["450095"]
+japanese = "コーンスなんて、さっさと、<line-break>絶滅してしまえばいいんだ。<end>"
+korean = "코른스 따위는 빨리 멸종해 버리면 돼.<end>"
+
 ["450096"]
 japanese = "ごめんね、<value:$28>。<line-break>僕が一緒にいたばかりに…。<end>"
 korean = "미안해, <value:$28>. 내가 같이 있었던 탓에….<end>"
@@ -480,6 +484,10 @@ korean = "…어차피, 어차피 나 같은 건….<end>"
 japanese = "世界で一番さ…。<line-break>フヒャヒャヒャヒャ…。　　　<end>"
 korean = "세상에서 제일이지…. 후햐햐햐햐….<end>"
 
+["450213"]
+japanese = "ダメだこりゃ。何がなんだか<line-break>わかってないよ。お客さん。<end>"
+korean = "이거 안 되겠네. 뭐가 뭔지 전혀 모르고 있잖아, 손님.<end>"
+
 ["450215"]
 japanese = "お客さん。<end>"
 korean = "손님.<end>"
@@ -675,6 +683,42 @@ korean = "그럼 잘 부탁해, <value:$28>.<end>"
 ["450296"]
 japanese = "そう…。残念だよ。<line-break>じゃあね、<value:$28>…。<end>"
 korean = "그래…. 아쉽네. 그럼 잘 가, <value:$28>….<end>"
+
+["450298"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その１だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 1이다!<end>"
+
+["450299"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その２だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 2다!<end>"
+
+["450300"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その３だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 3이다!<end>"
+
+["450301"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その４だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 4다!<end>"
+
+["450302"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その５だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 5다!<end>"
+
+["450303"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その６だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 6이다!<end>"
+
+["450304"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その７だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 7이다!<end>"
+
+["450305"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その８だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 8이다!<end>"
+
+["450306"]
+japanese = "俺様は未来の勇者ガルドラン！<line-break>Ｖ１／１の予備その９だ！<end>"
+korean = "나는 미래의 용사 갈드란! V1/1 예비 9다!<end>"
 
 ["450308"]
 japanese = "ガルドラン・ボリューム１その１終端<end>"

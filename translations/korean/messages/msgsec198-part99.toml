@@ -76,6 +76,10 @@ korean = "저기, 그…. <value:$28>님은 어떤 모험을 해 오셨나요?<e
 japanese = "闇の神器…？<line-break>それってスゴいものなんですか？<end>"
 korean = "어둠의 신기…? 그게 그렇게 대단한 건가요?<end>"
 
+["1980029"]
+japanese = "あ、いえ。もちろん知ってますよ。<line-break>闇の神器ですよね。<end>"
+korean = "아, 아니요. 물론 알고 있어요. 어둠의 신기죠.<end>"
+
 ["1980030"]
 japanese = "えーと…。<line-break>……<line-break>……。<end>"
 korean = "음…. …… …….<end>"
@@ -103,6 +107,10 @@ korean = "<value:$28>에게 들었는데, 무슨 시시한 이야기를 안다�
 ["1980047"]
 japanese = "は、はい…。<end>"
 korean = "네, 네….<end>"
+
+["1980048"]
+japanese = "えっ？　伝説のフライパンが、<line-break>どこにあるか…ですか？<end>"
+korean = "네? 전설의 프라이팬이 어디 있는지… 말인가요?<end>"
 
 ["1980049"]
 japanese = "すみません…。<line-break>それが私にもよくわからないんです。<end>"

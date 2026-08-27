@@ -376,6 +376,10 @@ korean = "아, 아하하하…. 방금 거 혹시 들었어?<end>"
 japanese = "ありがと。<end>"
 korean = "고마워.<end>"
 
+["1410156"]
+japanese = "あ、でも、元はと言えば<line-break><value:$28>が約束の時間に<line-break>来ないのが原因だったんだよ。<line-break>ボク、すっごく長い間、<line-break>ここで、待ってたんだから。<end>"
+korean = "아, 하지만 애초에 <value:$28>이 약속 시간에 안 온 게 원인이야. 나 정말 오랫동안 여기서 기다렸다고.<end>"
+
 ["1410157"]
 japanese = "え？<line-break>まだ約束の時間になってない？<line-break>あれ？<line-break>あの、約束の時間って<line-break>いつだったっけ？<end>"
 korean = "어? 아직 약속 시간이 안 됐다고? 어라? 그 약속 시간이 언제였더라?<end>"
@@ -411,6 +415,10 @@ korean = "아, <value:$28>님. 좋은 아침이에요!<end>"
 ["1410189"]
 japanese = "わたし、がんばりますから！<end>"
 korean = "저, 열심히 할 테니까요!<end>"
+
+["1410190"]
+japanese = "…ええ。実はお父様とお母様の　　<line-break>ことは心残りなんです。<line-break>　<line-break>でも、旅に出るって言っちゃったら<line-break>絶対ダメって言われるから…！<end>"
+korean = "…네. 사실 아버지와 어머니가 마음에 걸려요. 하지만 여행을 떠난다고 말하면 절대 안 된다고 하실 테니까…!<end>"
 
 ["1410191"]
 japanese = "お、お父様…お母様。<end>"
@@ -635,6 +643,10 @@ korean = "재무장관님!<end>"
 ["1410280"]
 japanese = "良いのです、<line-break>財務長官の心配はもっともなこと。<end>"
 korean = "괜찮습니다. 재무장관의 걱정은 지당합니다.<end>"
+
+["1410283"]
+japanese = "そうなった折、<line-break>出来上がる協調的な国際世界において、<line-break>このロストールが<line-break>強い発言権を持つための、<line-break>いわばこれは布石なのです。<end>"
+korean = "그때 형성될 협력적인 국제사회에서 이 로스토올이 강한 발언권을 갖기 위한, 말하자면 포석입니다.<end>"
 
 ["1410285"]
 japanese = "ティアナ様のお心に沿うよう<line-break>努力いたします。<end>"
@@ -895,6 +907,10 @@ korean = "…그런 일이었구나, 비아.<end>"
 ["1410365"]
 japanese = "ヴァイ！　き、聞いてたの？<end>"
 korean = "바이! 드, 들었어?<end>"
+
+["1410366"]
+japanese = "ええ。…よく言ってくれたわ、ヴィア。<line-break>そして、引き受けてくださったこと…。<line-break>　<line-break>私からも、お礼を言わせてください、<line-break><value:$28>様。<end>"
+korean = "네. …잘 말해 줬어, 비아. 그리고 맡아 주신 것에 대해 저도 감사드리겠습니다, <value:$28>님.<end>"
 
 ["1410367"]
 japanese = "も、もう！<line-break>だめだめ！<line-break>そんな顔しちゃ！<end>"
@@ -1203,6 +1219,10 @@ korean = "단장! 다녀올게고….<end>"
 ["1410482"]
 japanese = "まだゴブ。<end>"
 korean = "아직 고브.<end>"
+
+["1410488"]
+japanese = "…オルナットの言うことが正しいゴブ。<line-break>我ら誇り高いゴブゴブ団は、<line-break>飢えと貧困と戦ってきたゴブが、<line-break>まだ、完全に勝利していないゴブ！<end>"
+korean = "…오르낫 말이 맞다 고브. 우리 자랑스러운 고브고브단은 굶주림과 가난에 맞서 싸워 왔지만 아직 완전히 이기진 못했다 고브!<end>"
 
 ["1410490"]
 japanese = "だ、団長…<line-break>自分は今ほどゴブゴブ団に入って<line-break>誇らしいと思ったことはないゴブ！<line-break>行ってくるゴブ。<end>"

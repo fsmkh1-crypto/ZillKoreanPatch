@@ -1884,6 +1884,10 @@ korean = "수고했어. 해방군은 지낼 만해?<end>"
 japanese = "例の件ですが…。<end>"
 korean = "그 건 말입니다….<end>"
 
+["560820"]
+japanese = "…おじさま。<line-break>先日、わたくしは何者かに<line-break>命を狙われました。<line-break>幸いにも<value:$28>が<line-break>かけつけてくれたので、<line-break>無事でしたが…。<end>"
+korean = "…아저씨. 며칠 전 저는 누군가에게 목숨을 위협받았습니다. 다행히 <value:$28>이 달려와 줘서 무사했지만….<end>"
+
 ["560821"]
 japanese = "そうか、<value:$28>が<line-break>助けたのか…。<end>"
 korean = "그렇군, <value:$28>이 구한 건가….<end>"

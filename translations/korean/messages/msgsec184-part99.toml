@@ -188,6 +188,10 @@ korean = "이 작전에 공헌한 샤리라는 용병은 보수로 물의 무녀
 japanese = "ジラークは引き続き大陸統一構想に<line-break>従い大陸北西部への進軍を計画。<line-break>神聖都市アルノートゥン攻略に<line-break>向けて軍を進めようとしていた。<end>"
 korean = "지라크는 계속 대륙 통일 구상에 따라 대륙 북서부 진군을 계획했다. 신성도시 알노툰 공략을 향해 군을 움직이려 했다.<end>"
 
+["1840078"]
+japanese = "<value:$28>、<line-break>大丈夫か？　　　　　　　　<line-break>　<line-break>まったく、無茶をしおる。<line-break>相手はあのミズチらを一撃で<line-break>倒すほどの魔道士なのに。<end>"
+korean = "<value:$28>, 괜찮나? 정말 무모하군. 상대는 그 미즈치들을 일격에 쓰러뜨릴 정도의 마도사인데.<end>"
+
 ["1840080"]
 japanese = "ん？<line-break>あれは…。<end>"
 korean = "응? 저건….<end>"
@@ -247,6 +251,10 @@ korean = "사람을 잘못 봤다<end>"
 ["1840109"]
 japanese = "…そうですか。<line-break>…やはり…。<end>"
 korean = "…그렇습니까. …역시….<end>"
+
+["1840112"]
+japanese = "そうでしたか。<line-break>これは大変失礼いたしました。<line-break>　<line-break>私の言ったことは<line-break>忘れてくださって結構です。<line-break>それでは、失礼します。<end>"
+korean = "그랬군요. 대단히 실례했습니다. 제가 한 말은 잊어 주셔도 됩니다. 그럼 실례하겠습니다.<end>"
 
 ["1840117"]
 japanese = "　　　　　　　　お願いします。　　　　　　　<line-break>　　　　　　　<value:$28>…。<line-break>　　　　　　<value:$28>…………。<end>"

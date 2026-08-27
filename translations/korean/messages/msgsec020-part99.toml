@@ -484,6 +484,10 @@ korean = "에러 메시지 낫<end>"
 japanese = "槍ではだめか？<line-break>私にはふさわしい武器だと思うのだが。<end>"
 korean = "창은 안 되나? 내게 어울리는 무기라고 생각하는데.<end>"
 
+["200263"]
+japanese = "オーノー！　斧にしてんかー。<line-break>兄弟子…ダメでござるか？<end>"
+korean = "오 노! 도끼로 해 주시오. 사형… 안 되는 것이오?<end>"
+
 ["200265"]
 japanese = "…片手剣に…しろ。<end>"
 korean = "…한손검으로… 해라.<end>"
@@ -663,6 +667,10 @@ korean = "에러 메시지 천 방어구<end>"
 ["200345"]
 japanese = "ごめんね。<line-break>これって私のお気に入りなの。<end>"
 korean = "미안해. 이건 내가 아끼는 거야.<end>"
+
+["200349"]
+japanese = "そ、そんな、ダメだよ。<line-break>た、たいせつなもの…なん…だ。<end>"
+korean = "그, 그건 안 돼. 소, 소중한 물건…이야.<end>"
 
 ["200350"]
 japanese = "私にも好き嫌いがある…。<line-break>それを気に入っているのだ。<end>"

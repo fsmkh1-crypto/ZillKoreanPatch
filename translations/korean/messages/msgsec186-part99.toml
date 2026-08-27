@@ -128,6 +128,10 @@ korean = "응, 고마워어!<end>"
 japanese = "それじゃ、<value:$28>。<line-break>はやく戻ろうよ。<line-break>フリントさんが心配するよぉ。<end>"
 korean = "그럼 <value:$28>. 빨리 돌아가자. 플린트 씨가 걱정할 거야.<end>"
 
+["1860056"]
+japanese = "もう！<line-break><value:$28>ったら<line-break>ダメじゃない！　　　　　　　<line-break>早く宿屋に行かないと、<line-break>フリントさんが心配するよぉ。<line-break>ほら、早くぅ。<end>"
+korean = "정말! <value:$28>, 이러면 안 되잖아! 빨리 여관에 가야 해. 플린트 씨가 걱정할 거야. 자, 빨리.<end>"
+
 ["1860059"]
 japanese = "ま、いいさ。察しはついてる。<line-break>だが、感心しねぇな。<end>"
 korean = "뭐, 됐어. 짐작은 가. 하지만 감탄할 일은 아니군.<end>"
@@ -187,6 +191,10 @@ korean = "<value:$28>, 기다리세요.<end>"
 ["1860082"]
 japanese = "フリントの短剣を手に入れた。<end>"
 korean = "플린트의 단검을 손에 넣었다.<end>"
+
+["1860083"]
+japanese = "フリントさーん！<line-break>準備ができたよぉ。<line-break>早く早くぅ！<end>"
+korean = "플린트 씨! 준비됐어. 빨리 빨리!<end>"
 
 ["1860084"]
 japanese = "さぁ、それでは行こうか、　　　　<line-break><value:$28>。<line-break>　<line-break>短剣のこと、頼んだよ。<end>"
@@ -251,6 +259,10 @@ korean = "<value:$28>…, 루루안타…, 무사한가…?<end>"
 ["1860120"]
 japanese = "…<value:$28>。<line-break>ノーブルを発つ前にお前に渡した　<line-break>短剣は…持っているな…？<end>"
 korean = "…<value:$28>. 노블을 떠나기 전에 네게 준 단검은… 가지고 있지…?<end>"
+
+["1860121"]
+japanese = "…よかった。<line-break>それが無事であれば…グハッ！　　<line-break>　<end>"
+korean = "…다행이다. 그것만 무사하다면… 크헉!<end>"
 
 ["1860122"]
 japanese = "フリントさん！　しっかりして！<line-break>　<line-break>　<line-break><value:$28>。急いで<line-break>お医者様に看てもらわないと……。<end>"

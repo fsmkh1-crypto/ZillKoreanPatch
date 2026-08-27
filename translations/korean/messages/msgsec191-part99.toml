@@ -24,6 +24,10 @@ korean = "물론 먹으러 온다<end>"
 japanese = "時間があったら来られると思う<end>"
 korean = "시간이 있으면 올 수 있다고 말한다<end>"
 
+["1910008"]
+japanese = "本当ですか？<line-break>ありがとうございます。<line-break>…よかった。<end>"
+korean = "정말인가요? 감사합니다. …다행이다.<end>"
+
 ["1910010"]
 japanese = "…そうですか。<line-break>よかったです。　　　　　　<line-break>　<line-break>私、<value:$28>様に<line-break>食べていただくために、<line-break>がんばってお料理覚えます。<end>"
 korean = "…그렇군요. 다행이에요. 저, <value:$28>님께 드시게 하려고 열심히 요리를 배울게요.<end>"

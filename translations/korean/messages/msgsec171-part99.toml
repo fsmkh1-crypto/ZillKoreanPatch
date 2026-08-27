@@ -72,6 +72,10 @@ korean = "그렇다면 이곳에 들어올 권한은 없다.<end>"
 japanese = "なんと？<end>"
 korean = "뭐라고?<end>"
 
+["1710038"]
+japanese = "そもそも卿からして、<line-break>ここに入る権限はないはずだが？<end>"
+korean = "애초에 경도 이곳에 들어올 권한은 없을 텐데?<end>"
+
 ["1710039"]
 japanese = "ジラーク、<line-break>わしは話があってきたのだ。<line-break>　<line-break>このままではいたずらに<line-break>兵を損じるばかりだぞ。<end>"
 korean = "지라크, 나는 할 말이 있어서 왔다. 이대로는 공연히 병사만 잃게 된다.<end>"
@@ -179,6 +183,10 @@ korean = "어머, 그런가요.<end>"
 ["1710101"]
 japanese = "こちらです。来てください。<end>"
 korean = "이쪽입니다. 따라오세요.<end>"
+
+["1710107"]
+japanese = "よう、<value:$28>。<line-break>…おっと、恨みっこなしだぜ。<line-break>　<line-break>お互い仕事次第で敵味方だ。<line-break>今回は味方同士なんだから<line-break>仲よくやろうや。<end>"
+korean = "여, <value:$28>. …아, 서로 원망은 없기다. 일에 따라 적도 되고 아군도 되는 거니까. 이번엔 같은 편이니 잘 지내자고.<end>"
 
 ["1710109"]
 japanese = "よぉ。<value:$28>だっけ？<line-break>俺はツェラシェル。よろしく。<line-break>　<line-break>ま、傭兵は傭兵同士<line-break>仲よくやっていこうぜ。<line-break>　<end>"

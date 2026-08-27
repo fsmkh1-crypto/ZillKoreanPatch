@@ -204,6 +204,10 @@ korean = "신경 쓰고 있었다<end>"
 japanese = "気にしてなかった<end>"
 korean = "신경 쓰지 않았어<end>"
 
+["1380091"]
+japanese = "…そうだよね。<line-break>　<line-break>　<line-break>ボクから仲間にして欲しいって<line-break>言っておきながら、急にゴメン！　<line-break>っていなくなるわけなんだもん。<end>"
+korean = "…그렇지. 내가 먼저 동료가 되고 싶다고 해 놓고 갑자기 미안! 하고 사라져 버렸으니까.<end>"
+
 ["1380092"]
 japanese = "ホントにゴメンって思ってる。<line-break>ホントにホントだよ！<line-break>　<line-break>ボクだってホントは<line-break><value:$28>やみんなと<line-break>冒険したいんだ…。<end>"
 korean = "정말 미안하다고 생각해. 진짜야! 나도 사실은 <value:$28>이랑 모두와 함께 모험하고 싶어….<end>"
@@ -415,6 +419,10 @@ korean = "좋은 일이야!<end>"
 ["1380203"]
 japanese = "………………。<line-break> <line-break> <line-break><value:$28>様。<line-break>どうして止めるのです。<end>"
 korean = "………………. <value:$28>님. 왜 말리시는 겁니까.<end>"
+
+["1380204"]
+japanese = "私の道具としての使命は<line-break>終わりました。<line-break>いえ…あなたが終わらせました。<line-break>道具として私を欲していた人達も<line-break>あなたが退けました。<end>"
+korean = "도구로서의 제 사명은 끝났습니다. 아니… 당신이 끝내 주셨습니다. 저를 도구로 원하던 사람들도 당신이 물리쳤습니다.<end>"
 
 ["1380206"]
 japanese = "<value:$28>様。<line-break>束縛の腕輪を私にお譲りください。<end>"
@@ -815,6 +823,10 @@ korean = "아, 자기소개를 깜빡했네. 나는 렐라=론톤. 아름다움�
 ["1380349"]
 japanese = "それで…なに？<end>"
 korean = "그래서… 뭐?<end>"
+
+["1380351"]
+japanese = "もちろん！<line-break><value:$28>となら<line-break>猫屋敷にだっていけそうな気がする。<line-break>ぼくのこういう予感は当たるんだ。<line-break>じゃあ、さっそく出発進行！<end>"
+korean = "물론이지! <value:$28>과 함께라면 고양이 저택에도 갈 수 있을 것 같아. 내 이런 예감은 잘 맞거든. 그럼 바로 출발!<end>"
 
 ["1380352"]
 japanese = "こ、ここが猫屋敷？<end>"

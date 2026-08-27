@@ -240,6 +240,10 @@ korean = "이봐, 그만해. <value:$28>, 얼른 물러나자고. 눈물까지 �
 japanese = "もう！<end>"
 korean = "정말!<end>"
 
+["1350122"]
+japanese = "<value:$28>様にも<line-break>助けていただきたいことが<line-break>多々出てくると思います。<line-break>お忙しいこととは存じますが<line-break>お時間があればお寄り下さい。<end>"
+korean = "<value:$28>님께도 도움을 부탁드릴 일이 많이 생길 것 같습니다. 바쁘시겠지만 시간 나실 때 들러 주세요.<end>"
+
 ["1350128"]
 japanese = "おのれ、何者だ！？<line-break>ここに何しにきた！<end>"
 korean = "네놈, 누구냐!? 여긴 왜 왔지!<end>"
@@ -791,6 +795,10 @@ korean = "도와줘서 고맙다. 덕분에 이길 수 있었어.<end>"
 ["1350335"]
 japanese = "おいでなすった。<line-break>これも運命ってことだな。<end>"
 korean = "오셨군. 이것도 운명이라는 거겠지.<end>"
+
+["1350339"]
+japanese = "…お前さんこそ、黙るんだな。<line-break> <line-break> <line-break>ヘタに俺の機嫌を損ねたら<line-break>俺がどうして剣狼って呼ばれてるか<line-break>思い知ることになるぜ？<end>"
+korean = "…네가 입 다물어. 괜히 내 기분을 거슬렀다간 내가 왜 검랑이라 불리는지 똑똑히 알게 될 거다.<end>"
 
 ["1350340"]
 japanese = "くっ…<end>"
