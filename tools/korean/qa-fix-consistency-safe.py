@@ -49,9 +49,7 @@ SPACE_CANONICAL: dict[str, str] = {
 }
 
 EXACT_VARIANTS: dict[str, dict[str, str]] = {
-    norm_source("冒険者<end>"): {
-        "모험자<end>": "모험가<end>",
-    },
+    norm_source("冒険者<end>"): {"모험자<end>": "모험가<end>"},
 }
 
 SOURCE_TERM_VARIANTS: dict[str, dict[str, str]] = {
@@ -68,45 +66,24 @@ SOURCE_TERM_VARIANTS: dict[str, dict[str, str]] = {
     "ヴァイライラ": {"바이라이라": "바일라이라", "바이아이라": "바일라이라"},
     "エリス": {"엘리스": "에리스"},
     "シェムハザ": {"셰므하자": "셈하자", "셰무하자": "셈하자"},
-    "イズキヤル": {"이즈키알": "이즈키얄", "이즈키야르": "이즈키얄"},
+    "イズキヤル": {"이즈키알": "이즈키얄", "이즈키야르": "이즈키얄", "이스키알": "이즈키얄", "이즈키야루": "이즈키얄"},
 }
 
 SOURCE_SUBSTITUTIONS: dict[str, tuple[tuple[str, str], ...]] = {
-    norm_source("君、僕を知らないのか…？それならひとつ忠告しよう。力にすがるのは愚かなことだ。力はただ、より強い力によって叩き伏せられるのみだ。<end>"): (
-        ("의해눌릴", "의해 눌릴"),
-    ),
-    norm_source("究極生物を作ろうとして、その製法を神器、禁断の聖杯から得ようと、聖杯をねらっています。円卓騎士には他にうちのネモなどがいますね。<end>"): (
-        ("만들려고,그", "만들려고, 그"),
-        ("그 밖에도저희", "그 밖에도 저희"),
-    ),
-    norm_source("こっそり後ろからねらうのはあまり感心しませんな。代官の配下の方。<end>"): (
-        ("건별로", "건 별로"),
-    ),
-    norm_source("痛い目見たくなきゃ、先にあなたを倒せとおっしゃりたかったのですかな？<end>"): (
-        ("쓰러뜨리라고말하고", "쓰러뜨리라고 말하고"),
-    ),
-    norm_source("少なくとも、あなたの目的の味方のつもりです。ご安心なさってください。<end>"): (
-        ("적어도,당신", "적어도, 당신"),
-        ("입니다.　안심", "입니다. 안심"),
-    ),
-    norm_source("ゲヘヘ、今日だって言ったのが聞こえなかったのかア？オラ、来やがれ！<end>"): (
-        ("한 게안", "한 게 안"),
-    ),
-    norm_source("で、できれば、お客様を騒ぎに巻き込まないでいただきたいのですが…。<end>"): (
-        ("가능하면,손님", "가능하면, 손님"),
-        ("하지는　　말아", "하지는 말아"),
-    ),
+    norm_source("君、僕を知らないのか…？それならひとつ忠告しよう。力にすがるのは愚かなことだ。力はただ、より強い力によって叩き伏せられるのみだ。<end>"): (("의해눌릴", "의해 눌릴"),),
+    norm_source("究極生物を作ろうとして、その製法を神器、禁断の聖杯から得ようと、聖杯をねらっています。円卓騎士には他にうちのネモなどがいますね。<end>"): (("만들려고,그", "만들려고, 그"), ("그 밖에도저희", "그 밖에도 저희")),
+    norm_source("こっそり後ろからねらうのはあまり感心しませんな。代官の配下の方。<end>"): (("건별로", "건 별로"),),
+    norm_source("痛い目見たくなきゃ、先にあなたを倒せとおっしゃりたかったのですかな？<end>"): (("쓰러뜨리라고말하고", "쓰러뜨리라고 말하고"),),
+    norm_source("少なくとも、あなたの目的の味方のつもりです。ご安心なさってください。<end>"): (("적어도,당신", "적어도, 당신"), ("입니다.　안심", "입니다. 안심")),
+    norm_source("ゲヘヘ、今日だって言ったのが聞こえなかったのかア？オラ、来やがれ！<end>"): (("한 게안", "한 게 안"),),
+    norm_source("で、できれば、お客様を騒ぎに巻き込まないでいただきたいのですが…。<end>"): (("가능하면,손님", "가능하면, 손님"), ("하지는　　말아", "하지는 말아")),
+    norm_source("そなたら反逆者リアの氏族にとって、先のエア様の不興をお晴らしするよき機会じゃ。さて、反逆者の小娘に情けをかけてやったところで、行くぞ。<end>"): (("에게는,　지난번", "에게는, 지난번"), ("노여움을풀어", "노여움을 풀어"), ("계집애에게자비", "계집애에게 자비"), ("줬으니,가자", "줬으니, 가자")),
+    norm_source("非市民のテレジアはそんなのは筋が通らない！ってさ…。そう、お得意のアレだ。それで、家を飛び出してリベルダムの船を襲う海賊になったのさ。<end>"): (("테레지아는그건", "테레지아는 그건"), ("했지….　그래", "했지…. 그래"), ("뛰쳐나와리벨덤", "뛰쳐나와 리벨덤"), ("습격하는해적", "습격하는 해적")),
 }
 
 EXACT_RECORD_REWRITES: dict[int, tuple[str, str]] = {
-    270054: (
-        "이걸로 <value:$28> 님은,결승 대회에 출전할 권리를 얻었습니다.　결승 대회에 참가할 생각이 있다면 8월에여기로 와 주세요. 기다리고 있겠습니다.<end>",
-        "이걸로 <value:$28> 님은, 결승 대회에 출전할 권리를 얻었습니다. 결승 대회에 참가할 생각이 있다면 8월에 여기로 와 주세요. 기다리고 있겠습니다.<end>",
-    ),
-    560189: (
-        "…죽음의 날갯소리 레이븐이이 근처에서 갈 만한 곳이라….　　　…나는 역시 운이 없어. 저주가 걸려 있어서그걸 말하면 나는 더….<end>",
-        "…죽음의 날갯소리 레이븐이 이 근처에서 갈 만한 곳이라…. …나는 역시 운이 없어. 저주가 걸려 있어서 그걸 말하면 나는 더….<end>",
-    ),
+    270054: ("이걸로 <value:$28> 님은,결승 대회에 출전할 권리를 얻었습니다.　결승 대회에 참가할 생각이 있다면 8월에여기로 와 주세요. 기다리고 있겠습니다.<end>", "이걸로 <value:$28> 님은, 결승 대회에 출전할 권리를 얻었습니다. 결승 대회에 참가할 생각이 있다면 8월에 여기로 와 주세요. 기다리고 있겠습니다.<end>"),
+    560189: ("…죽음의 날갯소리 레이븐이이 근처에서 갈 만한 곳이라….　　　…나는 역시 운이 없어. 저주가 걸려 있어서그걸 말하면 나는 더….<end>", "…죽음의 날갯소리 레이븐이 이 근처에서 갈 만한 곳이라…. …나는 역시 운이 없어. 저주가 걸려 있어서 그걸 말하면 나는 더….<end>"),
 }
 
 
@@ -121,7 +98,6 @@ def main() -> None:
     changed_files = 0
     counts: dict[str, int] = {}
     seen_ids: set[int] = set()
-
     for path in sorted(KOREAN_DIR.glob("msgsec*.toml")):
         if not SECTION_FILE_RE.match(path.name):
             continue
@@ -152,21 +128,17 @@ def main() -> None:
             if not isinstance(ja, str) or not isinstance(ko, str):
                 current = None
                 continue
-
             src = norm_source(ja)
             new = ko
-
             exact = EXACT_RECORD_REWRITES.get(numeric)
             if exact is not None and new == exact[0]:
                 new = exact[1]
                 counts["exact-current-record-rewrite"] = counts.get("exact-current-record-rewrite", 0) + 1
-
             canonical = SPACE_CANONICAL.get(src)
             if canonical is not None and new != canonical and no_space(new) == no_space(canonical):
                 new = canonical
             elif src in EXACT_VARIANTS and new in EXACT_VARIANTS[src]:
                 new = EXACT_VARIANTS[src][new]
-
             for ja_term, variants in SOURCE_TERM_VARIANTS.items():
                 if ja_term not in ja:
                     continue
@@ -176,30 +148,25 @@ def main() -> None:
                         new = new.replace(old, replacement)
                         key = f"proper-name:{ja_term}:{old}->{replacement}"
                         counts[key] = counts.get(key, 0) + n
-
             for old, replacement in SOURCE_SUBSTITUTIONS.get(src, ()):
                 n = new.count(old)
                 if n:
                     new = new.replace(old, replacement)
                     key = f"source-gated:{old}->{replacement}"
                     counts[key] = counts.get(key, 0) + n
-
             new, glued, trailing = apply_typography(new)
             if glued:
                 counts["insert-space-after-ascii-sentence-punctuation"] = counts.get("insert-space-after-ascii-sentence-punctuation", 0) + glued
             if trailing:
                 counts["remove-space-before-end"] = counts.get("remove-space-before-end", 0) + trailing
-
             if new != ko:
                 lines[i] = "korean = " + json.dumps(new, ensure_ascii=False)
                 dirty = True
                 changed_records += 1
             current = None
-
         if dirty:
             path.write_text("\n".join(lines) + "\n", encoding="utf-8")
             changed_files += 1
-
     print(f"QA-3 safe consistency fixer: {changed_records} records across {changed_files} files")
     for key, count in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0])):
         print(f"  {count:4d}  {key}")
