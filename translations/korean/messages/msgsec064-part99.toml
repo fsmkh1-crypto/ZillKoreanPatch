@@ -88,6 +88,10 @@ korean = "<value:$28> 님, 어째서요?<end>"
 japanese = "何か事情がおありなのですね。<end>"
 korean = "무슨 사정이 있으신가 보군요.<end>"
 
+["640037"]
+japanese = "…お願いです。<line-break>あんな真似は二度となさらないで。<end>"
+korean = "…부탁이에요. 그런 짓은 두 번 다시 하지 말아 주세요.<end>"
+
 ["640038"]
 japanese = "…な、ティアナ？<end>"
 korean = "…그렇지, 티아나?<end>"
@@ -123,6 +127,10 @@ korean = "…아.<end>"
 ["640056"]
 japanese = "ケガはないかい？<line-break>かわいい姫さん。<end>"
 korean = "다친 데 없나? 귀여운 공주님.<end>"
+
+["640057"]
+japanese = "あ…あの…<line-break>は、はい…。<line-break>そ、それでは…。<end>"
+korean = "아… 저기… 네, 네…. 그, 그럼….<end>"
 
 ["640062"]
 japanese = "わかってない…。<line-break>ぜんぜん…わかってない…。<end>"
@@ -272,6 +280,10 @@ korean = "티아나의 안목은 확실해요.<end>"
 japanese = "ティアナの目は確かですわ。<end>"
 korean = "티아나의 안목은 확실해요.<end>"
 
+["640147"]
+japanese = "…どこか、鬼気迫るものも<line-break>感じるのですけれど…。<end>"
+korean = "…어딘가 섬뜩할 정도로 절박한 기운도 느껴지는데요….<end>"
+
 ["640148"]
 japanese = "ティアナの目は確かですわ。<end>"
 korean = "티아나의 안목은 확실해요.<end>"
@@ -307,6 +319,10 @@ korean = "아, 벌써 돌아가시나요?<end>"
 ["640164"]
 japanese = "残念です。<line-break>また、いらしてくださいね。<end>"
 korean = "아쉽네요. 다음에 또 와 주세요.<end>"
+
+["640166"]
+japanese = "自由って素敵ですね。<line-break>私も世界を旅してみたい…。<end>"
+korean = "자유란 멋지네요. 저도 세계를 여행해 보고 싶어요….<end>"
 
 ["640167"]
 japanese = "あ、もうお帰りなのですか？<end>"

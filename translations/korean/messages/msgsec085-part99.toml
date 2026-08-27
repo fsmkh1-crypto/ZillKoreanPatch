@@ -84,6 +84,10 @@ korean = "이분이 의뢰인, 로센 총독 부조리 님입니다.<end>"
 japanese = "いらっしゃーい。<line-break>最近、売り出し中の冒険者、<line-break><value:$28>ちゃんね？<line-break>アタシはブゾリ、<line-break>ロセンの総督をやってるわ。<end>"
 korean = "어서 와~. 요즘 이름을 날리는 모험자, <value:$28> 맞지? 나는 부조리, 로센 총독이야.<end>"
 
+["850037"]
+japanese = "ふふ、けっこう、<line-break>かわいい顔してるじゃなーい？<end>"
+korean = "후후, 꽤 귀여운 얼굴이잖아?<end>"
+
 ["850039"]
 japanese = "どうかしら？<end>"
 korean = "어때?<end>"
@@ -231,6 +235,10 @@ korean = "특히 큰일이 생기면 다른 건 제쳐 두고 정청에 있는 �
 ["850153"]
 japanese = "ンフフ、<line-break>うまくやったみたいじゃなーい？<end>"
 korean = "후후, 잘 해낸 모양이네?<end>"
+
+["850156"]
+japanese = "まずは彼女を皇帝に据えること。　　<line-break>いいわね。<end>"
+korean = "우선 그녀를 황제로 세우는 것. 알겠지.<end>"
 
 ["850166"]
 japanese = "頼りにしてるわよ<end>"

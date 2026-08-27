@@ -148,6 +148,10 @@ korean = "<value:$28>, 제법 전공을 세웠구나. 이것은 포상이다. �
 japanese = "<value:$28>、<line-break>特に功はなし、か。<end>"
 korean = "<value:$28>, 특별한 공은 없음, 인가.<end>"
 
+["590103"]
+japanese = "…お主はわしとともに本軍に残れ。<line-break>以上、解散！<end>"
+korean = "…너는 나와 함께 본대에 남아라. 이상, 해산!<end>"
+
 ["590104"]
 japanese = "わしのやり方に<line-break>不満があるようじゃな。<end>"
 korean = "내 방식이마음에 들지 않는 모양이군.<end>"
@@ -159,6 +163,10 @@ korean = "저, 저, 적습이다ー!<end>"
 ["590110"]
 japanese = "ゆくぞ！<end>"
 korean = "간다!<end>"
+
+["590112"]
+japanese = "ほう、ここまでたどり着いてくるとは<line-break>やるな…。<end>"
+korean = "호오, 여기까지 도달하다니 제법이군….<end>"
 
 ["590113"]
 japanese = "<value:$28>よ。<line-break>すまぬが、敗軍の将に<line-break>つきあってくれる気はあるか？<end>"
@@ -199,6 +207,10 @@ korean = "예비 메시지 8 앙길단, 볼륨 2<end>"
 ["590127"]
 japanese = "予備メッセージ９<line-break>アンギルダン、ボリューム２<end>"
 korean = "예비 메시지 9 앙길단, 볼륨 2<end>"
+
+["590128"]
+japanese = "予備メッセージ１０<line-break>アンギルダン、ボリューム２<end>"
+korean = "예비 메시지 10 앙길단, 볼륨 2<end>"
 
 ["590129"]
 japanese = "アンギルダン・ボリューム２終端<end>"

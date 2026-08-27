@@ -184,6 +184,10 @@ korean = "…지금까지 노래하던 게 너였군.<end>"
 japanese = "え、ええ。<end>"
 korean = "아, 네.<end>"
 
+["670072"]
+japanese = "この子は恐がっている。<line-break>優しい歌を歌ってくれ。<end>"
+korean = "이 아이가 무서워하고 있어. 다정한 노래를 불러 줘.<end>"
+
 ["670074"]
 japanese = "この子のために歌ってくれ。<line-break>頼む。<end>"
 korean = "이 아이를 위해 노래해 줘. 부탁한다.<end>"
@@ -199,6 +203,10 @@ korean = "…자기만족이에요.<end>"
 ["670077"]
 japanese = "て、言うと？<end>"
 korean = "그 말은?<end>"
+
+["670079"]
+japanese = "ほぉ、お前さん、人の名前<line-break>覚えるのが得意だね。<end>"
+korean = "호오, 자네 사람 이름 외우는 데 소질이 있군.<end>"
 
 ["670080"]
 japanese = "ちゃかさないでください！<end>"

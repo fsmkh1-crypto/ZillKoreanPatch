@@ -256,6 +256,10 @@ korean = "미사용: 글쎄, 누구였더라, 할멈아.<end>"
 japanese = "未使用：意地悪っ！<end>"
 korean = "미사용: 심술쟁이!<end>"
 
+["880123"]
+japanese = "未使用：べーだ！　<line-break>じゃあね！　待ってるから！<end>"
+korean = "미사용: 메롱! 그럼 안녕! 기다리고 있을게!<end>"
+
 ["880124"]
 japanese = "未使用：レムオン、いくぜ？<end>"
 korean = "미사용: 레므온, 가자?<end>"
@@ -367,6 +371,10 @@ korean = "꽤 바람둥이 아니야?<end>"
 ["880190"]
 japanese = "その上、強引だよ。<end>"
 korean = "게다가 막무가내야.<end>"
+
+["880191"]
+japanese = "さぁ、ついてきてもらおうか、<line-break>かわいこちゃん？<end>"
+korean = "자, 따라와 주실까, 귀여운 아가씨?<end>"
 
 ["880193"]
 japanese = "殺れ。<end>"

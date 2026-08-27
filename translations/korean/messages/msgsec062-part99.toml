@@ -64,6 +64,10 @@ korean = "<value:$28>… 씨….<end>"
 japanese = "あっ、<value:$28>さん！<end>"
 korean = "앗, <value:$28> 씨!<end>"
 
+["620025"]
+japanese = "あ、あの…。<line-break>先ほどはありがとうございました。<end>"
+korean = "저, 저기…. 아까는 감사합니다.<end>"
+
 ["620026"]
 japanese = "あ、あの…。<line-break>先ほどはありがとうございました。<line-break>　<line-break>……あのー、<line-break>このあと、お暇ですか？<end>"
 korean = "저, 저기…. 아까는 감사합니다. ……저기, 이 뒤에 시간 괜찮으세요?<end>"
@@ -95,6 +99,10 @@ korean = "누가 거친 여자라는 거야! 그 성배, 돌려받겠어!<end>"
 ["620040"]
 japanese = "何が天から与えられたよ！<line-break>盗んだくせに！<end>"
 korean = "뭐가 하늘이 내린 거야! 훔친 주제에!<end>"
+
+["620042"]
+japanese = "あ、おねーさん、<line-break>お代はここに置いておくゴブ！<end>"
+korean = "아, 누나, 계산은 여기 두고 갈게 고브!<end>"
 
 ["620043"]
 japanese = "オルナット、<line-break>メシ食ってる場合じゃないゴブ！<end>"
@@ -199,6 +207,10 @@ korean = "핫!<end>"
 ["620083"]
 japanese = "うーん、不覚ゴブ～！<end>"
 korean = "으음, 방심한 고브~!<end>"
+
+["620085"]
+japanese = "親分だって、<line-break>そのあといろいろ寄り道したゴブ。<end>"
+korean = "두목도 그 뒤로 여기저기 들렀다 고브.<end>"
 
 ["620086"]
 japanese = "団長～！<end>"
@@ -384,6 +396,10 @@ korean = "어쨌든 빨리 녀석들을 쫓아가야 해.<end>"
 japanese = "行きましょ、<value:$28>。<end>"
 korean = "가죠, <value:$28>.<end>"
 
+["620171"]
+japanese = "もう、うつむいてないで！<line-break>ほぉーら、行くわよ！<end>"
+korean = "이제 고개 숙이고 있지 마! 자, 가자!<end>"
+
 ["620172"]
 japanese = "親分、ここゴブか。<end>"
 korean = "두목, 여기 고브인가.<end>"
@@ -460,6 +476,10 @@ korean = "이런 이런, 또 손님이군.<end>"
 japanese = "どいてよ！<line-break>あいつら逃げちゃうじゃない！<end>"
 korean = "비켜! 저 녀석들 도망가잖아!<end>"
 
+["620210"]
+japanese = "私の家に争いを持ち込まないで<line-break>ほしいですねえ。<end>"
+korean = "제 집에 다툼을 끌고 오지는 말아 주세요.<end>"
+
 ["620213"]
 japanese = "お願い、<value:$28>。<line-break>私、あなたを守りたいの…。<end>"
 korean = "부탁해, <value:$28>. 나, 당신을 지키고 싶어….<end>"
@@ -519,6 +539,10 @@ korean = "분명 그렇게 대답했겠죠….<end>"
 ["620254"]
 japanese = "あなたみたいなのでも<line-break>いてくれて、<line-break>正直、すごく安心したわ。　　<line-break>うん…あなたの背中見てると、<line-break>すごく安心した…。<end>"
 korean = "당신 같은 사람이라도 있어 줘서 솔직히 정말 안심했어. 응… 당신 등을 보고 있으면 정말 마음이 놓여….<end>"
+
+["620256"]
+japanese = "あ、別に答えにくかったら<line-break>答えなくていいのよ。<end>"
+korean = "아, 대답하기 곤란하면 굳이 안 해도 돼.<end>"
 
 ["620260"]
 japanese = "…寝てるわ。<line-break>…相変わらず子供ねえ。<end>"
@@ -707,6 +731,10 @@ korean = "윽!<end>"
 ["620355"]
 japanese = "やさしいキス…。<end>"
 korean = "부드러운 키스….<end>"
+
+["620356"]
+japanese = "私、今日の初めての<line-break>デートのこと…忘れません！<end>"
+korean = "저, 오늘 처음 했던 데이트… 잊지 않을게요!<end>"
 
 ["620357"]
 japanese = "未使用<end>"

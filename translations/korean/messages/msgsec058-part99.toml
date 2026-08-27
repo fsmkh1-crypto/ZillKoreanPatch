@@ -68,6 +68,10 @@ korean = "기다려.<end>"
 japanese = "竜の死骸か…。<end>"
 korean = "용의 시체인가….<end>"
 
+["580085"]
+japanese = "おーこわ、こいつ…。<line-break>…まだ、怨念が残ってら。<end>"
+korean = "으, 무서워라 이 녀석…. …아직 원한이 남아 있군.<end>"
+
 ["580088"]
 japanese = "しっかしまた、<line-break>暇つぶしに冒険してたら、<line-break>えらいもんを見つけちまったな。<line-break>ま、ここに長居は無用ってことだ。<line-break>じゃあな。<end>"
 korean = "참, 심심풀이로 모험하다가 엄청난 걸 찾아버렸군. 뭐, 여기 오래 있을 필요는 없겠지. 그럼 잘 가.<end>"
@@ -119,6 +123,10 @@ korean = "예비 메시지 8 앙길단, 볼륨 1<end>"
 ["580111"]
 japanese = "予備メッセージ９<line-break>アンギルダン、ボリューム１<end>"
 korean = "예비 메시지 9 앙길단, 볼륨 1<end>"
+
+["580112"]
+japanese = "予備メッセージ１０<line-break>アンギルダン、ボリューム１<end>"
+korean = "예비 메시지 10 앙길단, 볼륨 1<end>"
 
 ["580113"]
 japanese = "アンギルダン・ボリューム１終端<end>"

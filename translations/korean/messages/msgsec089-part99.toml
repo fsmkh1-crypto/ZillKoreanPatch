@@ -372,6 +372,10 @@ korean = "누나, 어떡하지. 자기브는 충격에 빠진 것 같아. …여
 japanese = "ありがとう。<line-break>多分、もう、大丈…夫…だから…<end>"
 korean = "고마워. 아마 이제 괜…찮을… 거야….<end>"
 
+["890211"]
+japanese = "ごめんなさい。<line-break>あんなことになって…しまって…<end>"
+korean = "미안해요. 그런 일이… 벌어져 버려서….<end>"
+
 ["890212"]
 japanese = "あのときの…記憶が…<line-break>甦って…<end>"
 korean = "그때의… 기억이… 되살아나서…<end>"
@@ -500,6 +504,10 @@ korean = "…그럴 수는 없다. 인류의 혁신을… 너희 따위에게 �
 japanese = "…やはり、こうなる、か。<end>"
 korean = "…역시 이렇게 되는 건가.<end>"
 
+["890293"]
+japanese = "いくらあらがっても無駄。<line-break>すべては、さだめ…。<end>"
+korean = "아무리 발버둥 쳐도 소용없어. 모든 것은 운명….<end>"
+
 ["890298"]
 japanese = "くっ、玄武将軍…。<end>"
 korean = "큭, 현무 장군….<end>"
@@ -515,6 +523,10 @@ korean = "크악!<end>"
 ["890305"]
 japanese = "逃がさない…。<line-break>誰も、運命からは逃れられない…！<end>"
 korean = "놓치지 않아…. 누구도 운명에서 도망칠 수 없어…!<end>"
+
+["890306"]
+japanese = "いくらあらがっても無駄。<line-break>すべては、さだめ…。<end>"
+korean = "아무리 발버둥 쳐도 소용없어. 모든 것은 운명….<end>"
 
 ["890310"]
 japanese = "君たちの力を回復した。<end>"
@@ -940,6 +952,10 @@ korean = "나, 나왔다! 괴, 괴물이!<end>"
 japanese = "う、嘘じゃない。<line-break>な、仲間が中で！<end>"
 korean = "거, 거짓말 아니야. 도, 동료가 안에 있어!<end>"
 
+["890524"]
+japanese = "今、王宮は大騒ぎなのだ。<line-break>さあ、行った行った！<end>"
+korean = "지금 왕궁은 큰 소동이다. 자, 어서 가!<end>"
+
 ["890525"]
 japanese = "これは、<value:$28>様。<line-break>今日はどうなされたのです？<end>"
 korean = "<value:$28>님이시군요. 오늘은 무슨 일로 오셨습니까?<end>"
@@ -1051,6 +1067,10 @@ korean = "거, 거짓말 아니야. 도, 동료가 안에 있어!<end>"
 ["890582"]
 japanese = "申し訳ありませんが、<line-break>規則は規則ですので。<end>"
 korean = "죄송하지만 규칙은 규칙이라서요.<end>"
+
+["890583"]
+japanese = "今、王宮は大騒ぎなのだ。<line-break>さあ、行った行った！<end>"
+korean = "지금 왕궁은 큰 소동이다. 자, 어서 가!<end>"
 
 ["890584"]
 japanese = "これは、<value:$28>様。<line-break>今日はどうなされたのです？<end>"
@@ -1431,6 +1451,10 @@ korean = "쳇! 어쩔 수 없군.<end>"
 ["890721"]
 japanese = "ヴァン！<end>"
 korean = "반!<end>"
+
+["890722"]
+japanese = "こ、これは…友情の光！<line-break>友情の光が俺様を癒す。<end>"
+korean = "이, 이건… 우정의 빛! 우정의 빛이 이 몸을 치유한다!<end>"
 
 ["890723"]
 japanese = "俺様、復活！<end>"

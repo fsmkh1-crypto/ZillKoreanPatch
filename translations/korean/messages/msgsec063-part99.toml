@@ -220,6 +220,10 @@ korean = "아, 아닙니다. 무례라니….<end>"
 japanese = "ほう、では何をやらかしたのだ？<end>"
 korean = "호오, 그래서 무슨 사고를 친 거냐?<end>"
 
+["630121"]
+japanese = "悪いがあまり時間がない。<line-break>今日はこれで失礼する。<end>"
+korean = "미안하지만 시간이 별로 없어. 오늘은 이만 실례하지.<end>"
+
 ["630123"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -227,6 +231,10 @@ korean = "<value:$28>님도.<end>"
 ["630124"]
 japanese = "俺には礼はしないのか？<end>"
 korean = "나한테는 감사 안 하나?<end>"
+
+["630125"]
+japanese = "礼儀知らずのお方には<line-break>そんな必要はありませんわ。<end>"
+korean = "예의 없는 분께는 그럴 필요 없습니다.<end>"
 
 ["630126"]
 japanese = "くすっ。<line-break>それでよいのです。<end>"
@@ -352,6 +360,10 @@ korean = "아, 아닙니다. 무례라니….<end>"
 japanese = "ほう、では何をやらかしたのだ？<end>"
 korean = "호오, 그래서 무슨 사고를 친 거냐?<end>"
 
+["630183"]
+japanese = "悪いがあまり時間がない。<line-break>今日はこれで失礼する。<end>"
+korean = "미안하지만 시간이 별로 없어. 오늘은 이만 실례하지.<end>"
+
 ["630185"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -359,6 +371,10 @@ korean = "<value:$28>님도.<end>"
 ["630186"]
 japanese = "俺には礼はしないのか？<end>"
 korean = "나한테는 감사 안 하나?<end>"
+
+["630187"]
+japanese = "礼儀知らずのお方には<line-break>そんな必要はありませんわ。<end>"
+korean = "예의 없는 분께는 그럴 필요 없습니다.<end>"
 
 ["630188"]
 japanese = "くすっ。<line-break>それでよいのです。<end>"
@@ -428,6 +444,10 @@ korean = "누가 결혼 같은 걸 한답니까!<end>"
 japanese = "きれいな妹君…か。<end>"
 korean = "예쁜 여동생이라…<end>"
 
+["630215"]
+japanese = "また、いらっしゃってください。<line-break>お待ちしてます。<end>"
+korean = "또 와 주세요. 기다리고 있을게요.<end>"
+
 ["630216"]
 japanese = "お変わりございませんか、<line-break>ティアナ様。<end>"
 korean = "별고 없으신지요,티아나 님.<end>"
@@ -480,6 +500,10 @@ korean = "아, 아닙니다. 무례라니….<end>"
 japanese = "ほう、では何をやらかしたのだ？<end>"
 korean = "호오, 그래서 무슨 사고를 친 거냐?<end>"
 
+["630242"]
+japanese = "悪いがあまり時間がない。<line-break>今日はこれで失礼する。<end>"
+korean = "미안하지만 시간이 별로 없어. 오늘은 이만 실례하지.<end>"
+
 ["630244"]
 japanese = "<value:$28>様も。<end>"
 korean = "<value:$28>님도.<end>"
@@ -487,6 +511,10 @@ korean = "<value:$28>님도.<end>"
 ["630245"]
 japanese = "俺には礼はしないのか？<end>"
 korean = "나한테는 감사 안 하나?<end>"
+
+["630246"]
+japanese = "礼儀知らずのお方には<line-break>そんな必要はありませんわ。<end>"
+korean = "예의 없는 분께는 그럴 필요 없습니다.<end>"
 
 ["630247"]
 japanese = "くすっ。<line-break>それでよいのです。<end>"
@@ -551,6 +579,10 @@ korean = "누가 결혼 같은 걸 한답니까!<end>"
 ["630271"]
 japanese = "ムキになるな。<line-break>からかっただけだ。<line-break>　<line-break>さて、そろそろ失礼するか。<line-break>宮中の噂になってはかなわぬからな。<end>"
 korean = "발끈하지 마. 놀린 것뿐이야. 자, 슬슬 실례하지. 궁중의 소문거리가 되면 곤란하니까.<end>"
+
+["630273"]
+japanese = "また、いらっしゃってください。<line-break>お待ちしてます。<end>"
+korean = "또 와 주세요. 기다리고 있을게요.<end>"
 
 ["630274"]
 japanese = "お変わりございませんか、<line-break>ティアナ様。<end>"
@@ -652,6 +684,10 @@ korean = "웃기는 농담이군.<end>"
 japanese = "やれやれ、エリスも哀れだな。　<end>"
 korean = "이런, 에리스도 불쌍하군.<end>"
 
+["630329"]
+japanese = "娘のわがままのせいで<line-break>その綿密な計画も水の泡か。<end>"
+korean = "딸의 제멋대로인 행동 때문에 그 치밀한 계획도 물거품인가.<end>"
+
 ["630330"]
 japanese = "ひどいわ、レムオン様！<line-break>わがまま、だなんて。　　　　　　<line-break>　<line-break>これでも、国のことは、<line-break>いろいろと考えているつもりです。<end>"
 korean = "너무하세요, 레몬 님! 제멋대로라니요. 이래 봬도 나라 일은 여러 가지로 생각하고 있다고요.<end>"
@@ -751,6 +787,10 @@ korean = "………. 오늘은 돌아가 주시겠습니까?<end>"
 ["630367"]
 japanese = "予備メッセージ９<line-break>ティアナ、ボリューム１その１<end>"
 korean = "예비 메시지 9 티아나 볼륨 1 그 1<end>"
+
+["630368"]
+japanese = "予備メッセージ１０<line-break>ティアナ、ボリューム１その１<end>"
+korean = "예비 메시지 10 티아나, 볼륨 1 그 1<end>"
 
 ["630369"]
 japanese = "ティアナメッセージVOL1-1終端<end>"
