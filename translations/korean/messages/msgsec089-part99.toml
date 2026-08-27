@@ -844,6 +844,10 @@ korean = "자자… <value:$28>을 믿어 봅시다, 케류네이아. <value:$28
 japanese = "ザギヴさんですが、<line-break>とりあえず眠ってもらいました。<end>"
 korean = "자기브 씨는 일단 잠들게 했습니다.<end>"
 
+["890259"]
+japanese = "ゾフォルもやりますね。<line-break>彼女が心を閉ざしてしまうように、<line-break>うまいこと持っていっている…<end>"
+korean = "조포르도 제법이군요. 그녀가 마음을 닫아 버리도록 아주 교묘하게 몰고 가고 있어요….<end>"
+
 ["890261"]
 japanese = "<value:$28>、<line-break>彼女を旅に連れていってくれませんか？<end>"
 korean = "<value:$28>, 그녀를 여행에 데려가 주시겠습니까?<end>"
@@ -1399,6 +1403,10 @@ korean = "후후후.<end>"
 ["890418"]
 japanese = "ところで、ゼネさん、<line-break>あんたこんなところにいていいのかい？<end>"
 korean = "그런데 제네 씨, 이런 데 있어도 괜찮아?<end>"
+
+["890419"]
+japanese = "ん？　ああ、まあ、なんだ、<line-break>宮廷は退屈なんでね。<line-break>ちっと相棒と遊びにでも行こうかと。<end>"
+korean = "응? 아, 뭐랄까, 궁정은 지루해서 말이야. 잠깐 파트너랑 놀러라도 갈까 해서.<end>"
 
 ["890420"]
 japanese = "おう、<value:$28>。<line-break>ギルドでいい仕事を　　　　　　　<line-break>見つけたんだわ。<line-break>どうだ、ちょっくら<line-break>やってみないか？<line-break>古代王国の秘宝探しなんだけどよ。<end>"
