@@ -62,7 +62,7 @@ korean = "들었겠지만 나는 힐다리아야. 너희 실력, 시험해 봤�
 
 ["1430015"]
 japanese = "<if><value:$01><equal>3試したじゃと！？ <end><if><value:$01><equal>5試したぁ？ <end><if><value:$01><equal>13…試した、だと？ <end><if><value:$01><equal>10試したぁ？ <end><if><value:$01><equal>14試したじゃと！？ <end><if><value:$01><equal>17た、た、試したですって？ <end><if><value:$01><equal>20…試した、だと？ <end><if><value:$01><equal>21…試した、だと？ <end><if><value:$01><equal>23…試した、だと？ <end><if><value:$01><equal>26試したじゃと！？ <end><if><value:$01><equal>24試したのですか？！<end><if><value:$01><equal>192試した？<end><if><value:$01><equal>193試したって…？<end><if><value:$01><equal>194試しただって！？<end><if><value:$01><equal>191試した？<end><if><value:$01><equal>190試しただと？<end>試した！？ <end>"
-korean = "<if><value:$01><equal>3시험해 봤다고!? <end><if><value:$01><equal>5시험했다고? <end><if><value:$01><equal>13…시험해 봤다고? <end><if><value:$01><equal>10시험했다고? <end><if><value:$01><equal>14시험해 봤다고!? <end><if><value:$01><equal>17시, 시, 시험해 봤다고요? <end><if><value:$01><equal>20…시험해 봤다고? <end><if><value:$01><equal>21…시험해 봤다고? <end><if><value:$01><equal>23…시험해 봤다고? <end><if><value:$01><equal>26시험해 봤다고!? <end><if><value:$01><equal>24시험해 보신 겁니까?!<end><if><value:$01><equal>192시험해 봤어?<end><if><value:$01><equal>193시험해 봤다고…?<end><if><value:$01><equal>194시험해 봤다고!?<end><if><value:$01><equal>191시험해 봤어?<end><if><value:$01><equal>190시험해 봤다고?<end>시험해 봤다고!? <end>"
+korean = "<if><value:$01><equal>3시험해 봤다고!?<end><if><value:$01><equal>5시험했다고?<end><if><value:$01><equal>13…시험해 봤다고?<end><if><value:$01><equal>10시험했다고?<end><if><value:$01><equal>14시험해 봤다고!?<end><if><value:$01><equal>17시, 시, 시험해 봤다고요?<end><if><value:$01><equal>20…시험해 봤다고?<end><if><value:$01><equal>21…시험해 봤다고?<end><if><value:$01><equal>23…시험해 봤다고?<end><if><value:$01><equal>26시험해 봤다고!?<end><if><value:$01><equal>24시험해 보신 겁니까?!<end><if><value:$01><equal>192시험해 봤어?<end><if><value:$01><equal>193시험해 봤다고…?<end><if><value:$01><equal>194시험해 봤다고!?<end><if><value:$01><equal>191시험해 봤어?<end><if><value:$01><equal>190시험해 봤다고?<end>시험해 봤다고!?<end>"
 
 ["1430016"]
 japanese = "…怒るのも当然ね。<line-break>確かに汚いやり方だった。<line-break>その点は謝るわ。<line-break>でも、これで、<line-break>あんたたちが筋金入りの冒険者だって<line-break>ことがわかった。<end>"
@@ -102,7 +102,7 @@ korean = "들었겠지만 나는 힐다리아야. 너희 실력, 시험해 봤�
 
 ["1430025"]
 japanese = "<if><value:$01><equal>4試した？　うっ…嫌な言葉。<line-break>魔道アカデミーの試験を<line-break>思い出しちゃうかも…。 <end><if><value:$01><equal>19試したぁ？ <end>試した？ <end>"
-korean = "<if><value:$01><equal>4시험해 봤냐고? 윽… 싫은 말이네.마도 아카데미 시험이떠오를 것 같아…. <end><if><value:$01><equal>19시험해 봤어어? <end>시험해 봤어? <end>"
+korean = "<if><value:$01><equal>4시험해 봤냐고? 윽… 싫은 말이네. 마도 아카데미 시험이떠오를 것 같아….<end><if><value:$01><equal>19시험해 봤어어?<end>시험해 봤어?<end>"
 
 ["1430026"]
 japanese = "見た目よりも、ずっと腕が立つようね。<line-break>その腕を見込んで頼みがあるの。<end>"
@@ -154,7 +154,7 @@ korean = "<if><value:$01><equal>2해적이 계속 육지에만 있어? 왜 바�
 
 ["1430038"]
 japanese = "<if><value:$01><equal>4うわっ、かなりお酒クサイかも。 <end><if><value:$01><equal>12海賊が陸に上がりっきりとはね。<line-break>何かわけありみたいだな。<line-break>いったい、何があったんだ？ <end><if><value:$01><equal>15海賊が陸に上がりっきり？<line-break>何があったんですか？ <end><if><value:$01><equal>19ほんと、お酒くさ～い。<line-break>でも、どうして海へ出ないのぉ？ <end>わっ！　本当に、お酒くさい。<line-break>でも、どうして海へ出ないの？ <end>"
-korean = "<if><value:$01><equal>4우왓, 술 냄새가 꽤 심한데. <end><if><value:$01><equal>12해적이 계속 육지에만 있다니. 무슨 사정이 있는 것 같군. 대체 무슨 일이 있었던 거야? <end><if><value:$01><equal>15해적이 계속 육지에만 있다고요? 무슨 일이 있었나요? <end><if><value:$01><equal>19정말 술 냄새 심해~. 그런데 왜 바다로 안 나가아? <end>왓! 정말 술 냄새가 심해. 그런데 왜 바다로 안 나가? <end>"
+korean = "<if><value:$01><equal>4우왓, 술 냄새가 꽤 심한데.<end><if><value:$01><equal>12해적이 계속 육지에만 있다니. 무슨 사정이 있는 것 같군. 대체 무슨 일이 있었던 거야?<end><if><value:$01><equal>15해적이 계속 육지에만 있다고요? 무슨 일이 있었나요?<end><if><value:$01><equal>19정말 술 냄새 심해~. 그런데 왜 바다로 안 나가아?<end>왓! 정말 술 냄새가 심해. 그런데 왜 바다로 안 나가?<end>"
 
 ["1430039"]
 japanese = "大イカよ。<line-break>港近くにまで姿を現して、<line-break>船をかたっぱしから沈めてしまうの。<end>"
@@ -182,7 +182,7 @@ korean = "…그래. 나도 제멋대로인 말을 하고 있다고 생각해.<e
 
 ["1430045"]
 japanese = "<if><value:$01><equal>4突然、おそいかかってきておいて、<line-break>今度は大イカを倒せだなんて、<line-break>この女、かなり強引かも！ <end><if><value:$01><equal>12そりゃまたムシのいい話だな。<line-break>いきなり斬りかかった挙げ句に<line-break>イカを退治しろだって？ <end><if><value:$01><equal>15突然、おそいかかってきておいて、<line-break>今度は大イカを倒せって言うの？<line-break>それって、ムシがよすぎだよ！ <end><if><value:$01><equal>19そんなこと<line-break>急に言われたって困るよぉ。<line-break>ねぇ、<value:$28>？ <end>そんなこと<line-break>急に言われたって困るよ。<line-break>ねぇ、<value:$28>？ <end>"
-korean = "<if><value:$01><equal>4갑자기 덤벼들어 놓고 이번에는 대왕오징어를 쓰러뜨리라니, 이 여자 꽤 막무가내일지도! <end><if><value:$01><equal>12그거 참 자기 편한 소리군. 갑자기 칼을 휘두른 끝에 오징어까지 퇴치해 달라고? <end><if><value:$01><equal>15갑자기 덤벼들어 놓고 이번에는 대왕오징어를 쓰러뜨리라고? 그건 너무 자기 편한 얘기잖아! <end><if><value:$01><equal>19갑자기 그런 말 들으면 곤란해애. 그렇지, <value:$28>? <end>갑자기 그런 말 들으면 곤란해. 그렇지, <value:$28>? <end>"
+korean = "<if><value:$01><equal>4갑자기 덤벼들어 놓고 이번에는 대왕오징어를 쓰러뜨리라니, 이 여자 꽤 막무가내일지도!<end><if><value:$01><equal>12그거 참 자기 편한 소리군. 갑자기 칼을 휘두른 끝에 오징어까지 퇴치해 달라고?<end><if><value:$01><equal>15갑자기 덤벼들어 놓고 이번에는 대왕오징어를 쓰러뜨리라고? 그건 너무 자기 편한 얘기잖아!<end><if><value:$01><equal>19갑자기 그런 말 들으면 곤란해애. 그렇지, <value:$28>?<end>갑자기 그런 말 들으면 곤란해. 그렇지, <value:$28>?<end>"
 
 ["1430046"]
 japanese = "…そうね。<line-break>勝手なことを言ってるって<line-break>私も思うわ。<end>"
@@ -242,7 +242,7 @@ korean = "<if><value:$01><equal>2대왕오징어 퇴치라…. 맡을지는 <val
 
 ["1430060"]
 japanese = "<if><value:$01><equal>4<value:$28>ったら<line-break>意外と真剣な目つき…。<line-break>まさか大イカと戦うつもりかしら。 <end><if><value:$01><equal>15大イカ退治の依頼、どうしよう？<line-break>引き受けるかどうかは<line-break><value:$28>が決めて。 <end><if><value:$01><equal>12大イカ退治の依頼、どうする？<line-break>引き受けるかどうかは<line-break><value:$28>が決めてくれ。 <end><if><value:$01><equal>19ねぇ、<value:$28>。<line-break>大イカ退治の依頼、<line-break>どーするのぉ？ <end>大イカって、どのくらい大きいのかな。<line-break>あまり、キレイじゃないだろうけど、<line-break>僕、見てみたいな。 <end>"
-korean = "<if><value:$01><equal>4<value:$28>도 의외로 진지한 눈빛이네…. 설마 대왕오징어와 싸울 생각인가. <end><if><value:$01><equal>15대왕오징어 퇴치 의뢰, 어떻게 할까? 맡을지는 <value:$28>가 정해. <end><if><value:$01><equal>12대왕오징어 퇴치 의뢰, 어떻게 할래? 맡을지는 <value:$28>가 정해 줘. <end><if><value:$01><equal>19저기, <value:$28>. 대왕오징어 퇴치 의뢰, 어떡할 거야아? <end>대왕오징어는 얼마나 클까. 별로 예쁘진 않겠지만 나도 한번 보고 싶어. <end>"
+korean = "<if><value:$01><equal>4<value:$28>도 의외로 진지한 눈빛이네…. 설마 대왕오징어와 싸울 생각인가.<end><if><value:$01><equal>15대왕오징어 퇴치 의뢰, 어떻게 할까? 맡을지는 <value:$28>가 정해.<end><if><value:$01><equal>12대왕오징어 퇴치 의뢰, 어떻게 할래? 맡을지는 <value:$28>가 정해 줘.<end><if><value:$01><equal>19저기, <value:$28>. 대왕오징어 퇴치 의뢰, 어떡할 거야아?<end>대왕오징어는 얼마나 클까. 별로 예쁘진 않겠지만 나도 한번 보고 싶어.<end>"
 
 ["1430061"]
 japanese = "おかしら、<line-break>こいつ、どうします？<end>"
@@ -450,7 +450,7 @@ korean = "이름 그대로 오래된 성이야. 으스스한 성이라 나도 �
 
 ["1430112"]
 japanese = "美しい島よ。<line-break>古代の生物がそのままの姿で<line-break>生息しているの。<line-break>でも危険な所だわ。<line-break>外部の者を寄せ付けないからこそ、<line-break>あの美しさを保っているのね。<end>"
-korean = "아름다운 섬이야.고대 생물이 옛 모습 그대로살고 있어.하지만 위험한 곳이지.외부인을 가까이하지 않기에,그 아름다움을 유지하는 거겠지.<end>"
+korean = "아름다운 섬이야. 고대 생물이 옛 모습 그대로살고 있어. 하지만 위험한 곳이지. 외부인을 가까이하지 않기에,그 아름다움을 유지하는 거겠지.<end>"
 
 ["1430113"]
 japanese = "目の前にイイ女がいるのに…。<line-break>たまには、他のことを聞いたらどう？<end>"

@@ -6,7 +6,7 @@ korean = "이크렘 V2 시작<end>"
 
 ["1830001"]
 japanese = "傭兵志願の方ですね。<line-break>どうぞ、神官長様のお話を<line-break>お聞きください。<end>"
-korean = "용병 지원자시군요.부디 신관장님의 말씀을들어 주십시오.<end>"
+korean = "용병 지원자시군요. 부디 신관장님의 말씀을들어 주십시오.<end>"
 
 ["1830002"]
 japanese = "聖なるこの地を守ろうという意志、<line-break>ありがたく思います。<line-break>そなたに清き水の加護があらんことを。<end>"
@@ -98,7 +98,7 @@ korean = "다행이다~. 어떻게든 살아서 보수도 받았어~. 이런 건
 
 ["1830024"]
 japanese = "<if><value:$2A><greater-equal>50よお、<value:$2B>の<line-break><value:$28>じゃないか。<line-break>どうだい、調子の方は？<end>よお、<value:$28>か。<line-break>どうだい、調子は？<end>"
-korean = "<if><value:$2A><greater-equal>50여어, <value:$2B>의<value:$28> 아니야.어때, 상태는?<end>여어, <value:$28>인가.어때, 상태는?<end>"
+korean = "<if><value:$2A><greater-equal>50여어, <value:$2B>의<value:$28> 아니야. 어때, 상태는?<end>여어, <value:$28>인가. 어때, 상태는?<end>"
 
 ["1830025"]
 japanese = "こないだ、アキュリュースの　　　<line-break>傭兵の話したろ？<line-break>あれな、集まりが悪いんだよ。<line-break>やっぱり、帝国相手に戦うってのは<line-break>どう考えても分が悪いしな。<line-break>みんな、腰が引けてるんだよ。<end>"
@@ -150,7 +150,7 @@ korean = "<if><value:$2A><greater-equal>50오, <value:$2B>의 <value:$28>잖아.
 
 ["1830037"]
 japanese = "今、アキュリュースがディンガルに<line-break>攻められそうになっててな、<line-break>傭兵を募集しているんだよ。<line-break>報酬は１戦ごとに払うらしい。<line-break>どうだい？　やってみるかい？<end>"
-korean = "지금 아큐류스가 딩갈에게공격받을 것 같아서,용병을 모집하고 있어.보수는 전투마다 지급한다더군.어때? 해 볼래?<end>"
+korean = "지금 아큐류스가 딩갈에게공격받을 것 같아서,용병을 모집하고 있어. 보수는 전투마다 지급한다더군. 어때? 해 볼래?<end>"
 
 ["1830038"]
 japanese = "引き受ける<end>"

@@ -98,7 +98,7 @@ korean = "아, 노엘. …후후, 어쩔 수 없는 아이네.<end>"
 
 ["1170024"]
 japanese = "<if><value:$29><equal>%0それじゃあ、ボウヤ。<line-break>またどこかで会いましょ。<end>それじゃあ、子猫ちゃん。<line-break>またどこかで会いましょ。<end>"
-korean = "<if><value:$29><equal>%0그럼, 꼬마야.또 어디선가 만나자.<end>그럼, 아기 고양이야.또 어디선가 만나자.<end>"
+korean = "<if><value:$29><equal>%0그럼, 꼬마야. 또 어디선가 만나자.<end>그럼, 아기 고양이야. 또 어디선가 만나자.<end>"
 
 ["1170025"]
 japanese = "失礼するよ、<line-break><value:$28>。<end>"

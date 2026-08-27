@@ -30,7 +30,7 @@ korean = "<value:$28>…. 여긴 네가 올 곳이 아니야. 알겠지? 다시�
 
 ["360007"]
 japanese = "…竜王の覚醒？　…そんな！？ <line-break>運命は…<line-break>変えられない？　　　　　　　<end>"
-korean = "…용왕의 각성? …그럴 수가!? 운명은…바꿀 수 없는 건가?　　　　　　　<end>"
+korean = "…용왕의 각성? …그럴 수가!? 운명은…바꿀 수 없는 건가?<end>"
 
 ["360009"]
 japanese = "お前に出会って<line-break>もう１７年になるのね。　　　　　　<line-break>　<line-break>ずっと、こうしていたかったけれど、<line-break>運命はそれを許しては<line-break>くれないようね。<end>"
@@ -210,7 +210,7 @@ korean = "무슨 소리야! 이 마을을 만든 이유가 뭐였는데? 인간�
 
 ["360055"]
 japanese = "さぁ、さくさく住民の魂を　　　　　<line-break>吸い取っちゃってよ。<line-break>ヴァシュタール。<end>"
-korean = "자, 어서 주민들의 영혼을　　　　　빨아들여 버려.바슈타르.<end>"
+korean = "자, 어서 주민들의 영혼을　　　　　빨아들여 버려. 바슈타르.<end>"
 
 ["360056"]
 japanese = "ダメだよ、<value:$28>。　　<line-break>せっかく卵を割って、<line-break>中身を見せてあげてるのに…。<line-break>それにね、フフフ、<line-break>割れた卵はもとには戻らないんだ。<end>"

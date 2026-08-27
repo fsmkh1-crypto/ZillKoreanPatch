@@ -122,7 +122,7 @@ korean = "그래, 노엘. 드디어 평소의 너다워졌네. 널 그냥 둘 �
 
 ["970030"]
 japanese = "ありがと。<line-break>あなたのおかげで、<line-break>ノエルも元気になってくれたわ。<line-break>あ、そういえば、<line-break>まだ名乗ってなかったわね。<line-break>私はカフィン。こっちはノエルよ。<end>"
-korean = "고마워.당신 덕분에,노엘도 기운을 되찾았어.아, 그러고 보니,아직 이름을 말하지 않았네.난 카핀. 이쪽은 노엘이야.<end>"
+korean = "고마워. 당신 덕분에,노엘도 기운을 되찾았어. 아, 그러고 보니,아직 이름을 말하지 않았네. 난 카핀. 이쪽은 노엘이야.<end>"
 
 ["970031"]
 japanese = "<if><value:$29><equal>%0またどこかで会うかもしれないわね。<line-break>あなたのこと、覚えておくわ。<line-break>それじゃあね、ボウヤ。<end>またどこかで会うかもしれないわね。<line-break>あなたのこと、覚えておくわ。<line-break>それじゃあね、子猫ちゃん。<end>"
@@ -162,7 +162,7 @@ korean = "그 아이의 눈을 뜨게 하기 위해서다. 어느 정도 충격�
 
 ["970040"]
 japanese = "あの娘には強くなってもらわねば<line-break>ならない。そのためにも、<line-break>まずは舞台にあげてやらねばな。<line-break>すべてはこの世界の秩序を<line-break>守らんがためだ。<line-break>フフフ。<end>"
-korean = "그 아이는 강해져야 한다.그러기 위해서라도,우선 무대에 올려 줘야지.모든 것은 이 세계의 질서를지키기 위해서다.후후후.<end>"
+korean = "그 아이는 강해져야 한다. 그러기 위해서라도,우선 무대에 올려 줘야지. 모든 것은 이 세계의 질서를지키기 위해서다. 후후후.<end>"
 
 ["970041"]
 japanese = "ん？　この気配は…。<line-break>この町にも客がいたか。<end>"
@@ -178,7 +178,7 @@ korean = "…실례할게.<end>"
 
 ["970044"]
 japanese = "<if><value:$01><equal>2ちょっと、<value:$28>。<line-break>どこに行くのよ。　　　　<line-break>　<line-break>もう、調査は終わったの？<line-break>ちゃんと、町の全部を<line-break>見て回ったんでしょうね？ <end><if><value:$01><equal>4あれれ、<value:$28>、<line-break>もう、全部調べちゃったの？<line-break>さすが、<value:$28>だわ！ <end><if><value:$01><equal>5おい、<value:$28>。<line-break>どこ行くんだよ。<line-break>もう、全部見て回ったのか？ <end><if><value:$01><equal>6ちょっと、<value:$28>。<line-break>どこに行くの？<line-break>もう、全部見て回ったの？ <end><if><value:$01><equal>13<value:$28>。<line-break>もう、全部<line-break>回ったのか？ <end><if><value:$01><equal>10あれ、姉ちゃん、<line-break>もう終わったのか？ <end><if><value:$01><equal>14おい、<value:$28>。<line-break>もう調査は終わったのか？ <end><if><value:$01><equal>15あれ、<value:$28>、<line-break>もう町を全部見て回ったの？ <end><if><value:$01><equal>17ちょーーーーっと、<value:$28>！<line-break>このアタクシにこんなさびれた町を<line-break>調べさせておいてどこにいくつもり！？<line-break>もちろん、ぜんぶ、すべて、くまなく、<line-break>とことん、調べつくしたんでしょうね？<line-break>ま・さ・か、まだとは言わなくてよね？ <end><if><value:$01><equal>19あれれ、<value:$28>、<line-break>もう、町の中を全部回ったのぉ？ <end>あれれ、<value:$28>、<line-break>もう、町の中を全部回ったの？ <end>"
-korean = "<if><value:$01><equal>2잠깐, <value:$28>. 어디 가는 거야. 벌써 조사는 끝났어? 마을 전체를 제대로 둘러본 거겠지? <end><if><value:$01><equal>4어라, <value:$28>, 벌써 전부 조사한 거야? 역시 <value:$28>야! <end><if><value:$01><equal>5어이, <value:$28>. 어디 가는 거야. 벌써 전부 둘러봤어? <end><if><value:$01><equal>6잠깐, <value:$28>. 어디 가? 벌써 전부 둘러봤어? <end><if><value:$01><equal>13<value:$28>. 벌써 전부 돌아본 건가? <end><if><value:$01><equal>10어, 누나, 벌써 끝난 거야? <end><if><value:$01><equal>14어이, <value:$28>. 조사는 벌써 끝났나? <end><if><value:$01><equal>15어, <value:$28>, 벌써 마을을 전부 둘러본 거야? <end><if><value:$01><equal>17자아아아암깐, <value:$28>! 이 몸에게 이런 쇠락한 마을을 조사하게 해 놓고 어디 갈 생각이야!? 물론 전부, 모조리, 샅샅이, 철저하게 조사한 거겠지? 설·마 아직이라고 하진 않겠지? <end><if><value:$01><equal>19어라, <value:$28>, 벌써 마을 안을 전부 돌아본 거야아? <end>어라, <value:$28>, 벌써 마을 안을 전부 돌아본 거야? <end>"
+korean = "<if><value:$01><equal>2잠깐, <value:$28>. 어디 가는 거야. 벌써 조사는 끝났어? 마을 전체를 제대로 둘러본 거겠지?<end><if><value:$01><equal>4어라, <value:$28>, 벌써 전부 조사한 거야? 역시 <value:$28>야!<end><if><value:$01><equal>5어이, <value:$28>. 어디 가는 거야. 벌써 전부 둘러봤어?<end><if><value:$01><equal>6잠깐, <value:$28>. 어디 가? 벌써 전부 둘러봤어?<end><if><value:$01><equal>13<value:$28>. 벌써 전부 돌아본 건가?<end><if><value:$01><equal>10어, 누나, 벌써 끝난 거야?<end><if><value:$01><equal>14어이, <value:$28>. 조사는 벌써 끝났나?<end><if><value:$01><equal>15어, <value:$28>, 벌써 마을을 전부 둘러본 거야?<end><if><value:$01><equal>17자아아아암깐, <value:$28>! 이 몸에게 이런 쇠락한 마을을 조사하게 해 놓고 어디 갈 생각이야!? 물론 전부, 모조리, 샅샅이, 철저하게 조사한 거겠지? 설·마 아직이라고 하진 않겠지?<end><if><value:$01><equal>19어라, <value:$28>, 벌써 마을 안을 전부 돌아본 거야아?<end>어라, <value:$28>, 벌써 마을 안을 전부 돌아본 거야?<end>"
 
 ["970045"]
 japanese = "あらら、それじゃあ私と同じで<line-break>全然調べてないんだわ。ふたりとも<line-break>おさぼりさんなのね。きゃっ！<line-break>でも、それじゃあ<line-break>いつまでたっても帰れないかも！<line-break>どうしよっかな…<end>"
@@ -266,7 +266,7 @@ korean = "뭐? 유적에 봉인돼 있던 소울 이터라는 마물이 부활�
 
 ["970066"]
 japanese = "…そりゃ、えらいことだな。<line-break>で、その話は、確かなんだろうな？　　<line-break>　<end>"
-korean = "…그거 큰일이군.그래서 그 얘기는 확실한 거지?　　　<end>"
+korean = "…그거 큰일이군. 그래서 그 얘기는 확실한 거지?<end>"
 
 ["970067"]
 japanese = "…なるほど。冒険者に助けられた　　　<line-break>村の住民の生き残りから<line-break>話を聞いたってわけか。<line-break>…わかった。<line-break>ご苦労だったな、<value:$28>。<line-break>これが報酬の２０００ギアだ。<end>"

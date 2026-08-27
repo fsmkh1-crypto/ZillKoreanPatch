@@ -434,7 +434,7 @@ korean = "<if><value:$29><equal>%0못난 제 남동생 일이 신경 쓰여 찾�
 
 ["1620108"]
 japanese = "<if><value:$29><equal>%0ふふふ。<line-break>弟思いだな、レムオン卿は。<end>ふふふ。<line-break>妹思いだな、レムオン卿は。<end>"
-korean = "<if><value:$29><equal>%0후후후.남동생을 끔찍이 아끼는군, 레몬 경은.<end>후후후.여동생을 끔찍이 아끼는군, 레몬 경은.<end>"
+korean = "<if><value:$29><equal>%0후후후. 남동생을 끔찍이 아끼는군, 레몬 경은.<end>후후후. 여동생을 끔찍이 아끼는군, 레몬 경은.<end>"
 
 ["1620109"]
 japanese = "ノーブル伯には、<line-break>ゼネテス卿の副官をやってもらう。<end>"

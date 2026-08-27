@@ -90,7 +90,7 @@ korean = "<if><value:$01><equal>15그래도 아까운 일이네. 이만큼 돈�
 
 ["1880022"]
 japanese = "<if><value:$01><equal>15変な話をしてごめん。<line-break>さぁ、戻って報告しないとね。 <end><if><value:$01><equal>19さぁ、<value:$28>。<line-break>埋蔵金見つけたって報告しないと。<line-break>手を出したらダメだからね。 <end>さぁ、<value:$28>。<line-break>戻って報告しなくっちゃ。 <end>"
-korean = "<if><value:$01><equal>15이상한 얘기해서 미안해. 자, 돌아가서 보고해야지. <end><if><value:$01><equal>19자, <value:$28>. 매장금을 찾았다고 보고해야 해. 손대면 안 돼. <end>자, <value:$28>. 돌아가서 보고해야지. <end>"
+korean = "<if><value:$01><equal>15이상한 얘기해서 미안해. 자, 돌아가서 보고해야지.<end><if><value:$01><equal>19자, <value:$28>. 매장금을 찾았다고 보고해야 해. 손대면 안 돼.<end>자, <value:$28>. 돌아가서 보고해야지.<end>"
 
 ["1880023"]
 japanese = "<if><value:$01><equal>2モンスターに守らせているってことは<line-break>埋蔵金はこの奥のようね。<line-break>見てみましょう。 <end><if><value:$01><equal>3モンスターに守らせておるということは<line-break>埋蔵金はこの奥じゃな。<line-break>見てみよう。 <end><if><value:$01><equal>4うふふ。この奥にあるみたい。<line-break>埋蔵金なんて本当にあるもの<line-break>だったのね！　きゃっ！ <end><if><value:$01><equal>5モンスターに守らせてるってことは　<line-break>埋蔵金はこの奥だな。<line-break>見てみようぜ。<line-break>のぞいてみたら、リベルダムの<line-break>商人愛用の雑巾が出てきたりしてな。<line-break>マイ雑巾、なんて…ププッ。 <end><if><value:$01><equal>7モンスターに守らせてるってことは<line-break>埋蔵金はこの奥ね。<line-break>見てみましょう。 <end><if><value:$01><equal>11モンスターに守らせている<line-break>ということは、埋蔵金は<line-break>この奥に眠っているようね。　　　<line-break>リベルダムの商人の埋蔵金となると<line-break>それなりのものなのでしょうね。<line-break>確認してみましょう。 <end><if><value:$01><equal>12モンスターに守らせてるってことは<line-break>リベルダム商人の埋蔵金はこの奥だな。<line-break>そんじゃ、ご対面といこうや。 <end><if><value:$01><equal>13埋蔵金はこの奥だな。<line-break>…見てみろ。 <end><if><value:$01><equal>10モンスターが守ってるってことは<line-break>埋蔵金はこの奥みたいだぜ。<line-break>行ってみよう、姉ちゃん。 <end><if><value:$01><equal>14どうやらこの奥に、リベルダム商人の<line-break>埋蔵金が眠っているようじゃの。<line-break>見てみるとしようぞ。 <end><if><value:$01><equal>17埋蔵金はこの奥に蓄えられていると<line-break>アタクシのカンが言っていてよ。<line-break>早く行くのよ、<value:$28>！<line-break>アタクシは下等動物の欲望とはムエン。<line-break>ぜんぜん、まったく、興味がなくてよ。<line-break>さっさと確認して洞窟から出るのよー！ <end><if><value:$01><equal>20…埋蔵金は<line-break>この奥、だな。 <end><if><value:$01><equal>23埋蔵金はこの奥か<end><if><value:$01><equal>27モンスターが守ってるということは<line-break>埋蔵金はこの奥だな。<end><if><value:$01><equal>26モンスターに守らせておるということは<line-break>埋蔵金はこの奥じゃな。<end><if><value:$01><equal>24モンスターに守らせているということは<line-break>埋蔵金はこの奥ということですね。<end><if><value:$01><equal>25モンスターに守らせるなんて、<line-break>埋蔵金はこの奥ですって<line-break>言ってるみたいだよね。<end><if><value:$01><equal>21リベルダムの商人の埋蔵金とやらは<line-break>この奥だな。いくら貯め込んでいたのか<line-break>さっそく、見せてもらうとしよう。 <end><if><value:$01><equal>192埋蔵金はこの奥のようですね。<end><if><value:$01><equal>193モンスターが守っていたってことは<line-break>きっと埋蔵金はこの奥ですよ。<line-break>行きましょう、<value:$28>さん。<end><if><value:$01><equal>194埋蔵金はこの奥のようだね。<end><if><value:$01><equal>191モンスターに守らせてたってことは<line-break>埋蔵金はこの奥ね。<end><if><value:$01><equal>190モンスターが守っていたということは、<line-break>この先に埋蔵金がある証拠だ。<end>"
@@ -190,7 +190,7 @@ korean = "엘리스 왕비께 지원을 요청한 건 잘된 모양입니다. �
 
 ["1880047"]
 japanese = "どういうことかと尋ねたのですが、<line-break>作戦上の秘密だからと、<line-break>教えてくれませんでした。<line-break>ただ、活動資金は送ると。<line-break>…いったい、何があったのです？<end>"
-korean = "무슨 일인지 물어봤지만,작전상의 비밀이라며알려 주지 않았습니다.다만 활동 자금은 보내겠다고.…대체 무슨 일이 있었던 겁니까?<end>"
+korean = "무슨 일인지 물어봤지만,작전상의 비밀이라며알려 주지 않았습니다. 다만 활동 자금은 보내겠다고.…대체 무슨 일이 있었던 겁니까?<end>"
 
 ["1880048"]
 japanese = "ロストール軍に参戦したと言う<end>"

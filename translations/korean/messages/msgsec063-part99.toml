@@ -42,7 +42,7 @@ korean = "멍하니 있으면 안 됩니다. 곧 타르튜바가 옵니다. 자,
 
 ["630010"]
 japanese = "おお、よかった。<line-break>タルテュバに見つかる前に<line-break>隠れられたようじゃの。<end>"
-korean = "오오, 다행이구나.타르튜바에게 들키기 전에숨은 모양이로군.<end>"
+korean = "오오, 다행이구나. 타르튜바에게 들키기 전에숨은 모양이로군.<end>"
 
 ["630011"]
 japanese = "タルテュバというのは悪い貴族です。<line-break>貴族にあまりいい人はいませんが、<line-break>タルテュバはその中でも…最低です。<end>"
@@ -274,7 +274,7 @@ korean = "타르튜바라는 귀족 남자가 가끔 슬럼에 나타나 난동�
 
 ["630068"]
 japanese = "<if><value:$29><equal>%0お兄ちゃん、お兄ちゃん！<line-break>あたしの宝物のお人形ね、　　　　　　　　　<line-break>　<end>お姉ちゃん、お姉ちゃん！<line-break>あたしの宝物のお人形ね、　　　　　　　　　<line-break>　<end>"
-korean = "<if><value:$29><equal>%0오빠, 오빠! 내 보물인 인형 말이야, <end>언니, 언니! 내 보물인 인형 말이야, <end>"
+korean = "<if><value:$29><equal>%0오빠, 오빠! 내 보물인 인형 말이야,<end>언니, 언니! 내 보물인 인형 말이야,<end>"
 
 ["630069"]
 japanese = "この前、いじわるな貴族に取られちゃったけど<line-break>ノエルっていうお姉ちゃんが<line-break>取り返してくれたんだよ。<line-break>ノエルお姉ちゃんはね、<line-break>ちっちゃいけど強いんだよ。<end>"
@@ -294,7 +294,7 @@ korean = "타르튜바를 쫓아내 주셔서 감사합니다.<end>"
 
 ["630073"]
 japanese = "<if><value:$29><equal>%0うわぁ、あたしのお人形！<line-break>ありがとう、お兄ちゃん！<end>うわぁ、あたしのお人形！<line-break>ありがとう、お姉ちゃん！<end>"
-korean = "<if><value:$29><equal>%0우와, 내 인형!고마워, 오빠!<end>우와, 내 인형!고마워, 언니!<end>"
+korean = "<if><value:$29><equal>%0우와, 내 인형! 고마워, 오빠!<end>우와, 내 인형! 고마워, 언니!<end>"
 
 ["630074"]
 japanese = "これ、やくそくのお金。<line-break>ほうしゅう…ね。<end>"
@@ -1070,7 +1070,7 @@ korean = "에리에나이 공작님이야말로 늠름해지셨어요. 넋을 �
 
 ["630267"]
 japanese = "ティアナ様、<line-break>お相手を間違えておいででは？<line-break>あなたのフィアンセは…<end>"
-korean = "티아나 님,상대를 잘못 보신 것 아닙니까?당신의 약혼자는…<end>"
+korean = "티아나 님,상대를 잘못 보신 것 아닙니까? 당신의 약혼자는…<end>"
 
 ["630268"]
 japanese = "あの人の話なら、やめてください。<line-break>せっかくの楽しい時間が台なしです。<end>"
@@ -1362,7 +1362,7 @@ korean = "후후, 소중한 소꿉친구니까요.<end>"
 
 ["630340"]
 japanese = "そうだな。<line-break>大事な幼なじみ…だからな。<end>"
-korean = "그래.소중한 소꿉친구…니까.<end>"
+korean = "그래. 소중한 소꿉친구…니까.<end>"
 
 ["630341"]
 japanese = "おっと、そういえば侍従長殿から<line-break>伝言があったのを忘れていた。<line-break>　<line-break>いつまでたっても王女が<line-break>来られないから呼んでくるようにと<line-break>言われていたのだ。<end>"
@@ -1390,7 +1390,7 @@ korean = "죄송합니다. 들으신 대로 저는 이제 시종장님을 만나
 
 ["630347"]
 japanese = "ありがとうございます。<line-break>必ず、いらしてくださいね。<line-break>お待ちしてますから。<end>"
-korean = "감사합니다.꼭 와 주세요.기다리고 있을게요.<end>"
+korean = "감사합니다. 꼭 와 주세요. 기다리고 있을게요.<end>"
 
 ["630348"]
 japanese = "…そうですよね。<line-break>もう、わがままは言いません。<line-break>気をつけてお帰りください。<end>"

@@ -230,7 +230,7 @@ korean = "동생 에스트가 처리하고 있습니다. 조만간 자세한 내
 
 ["430057"]
 japanese = "では、それを待とう。　　　　　　　　<line-break>　<line-break>　<line-break>しかし、残念なことよ。<line-break>ボルボラに聞きたいことがあったのだが<line-break>むくろを問いただすわけにもいくまい。<end>"
-korean = "그럼 그걸 기다리지.　　　　　　　　　　하지만 참 아쉽군.볼보라에게 묻고 싶은 게 있었지만시체를 붙잡고 캐물을 수도 없으니.<end>"
+korean = "그럼 그걸 기다리지.　　　　　　　　　　하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만시체를 붙잡고 캐물을 수도 없으니.<end>"
 
 ["430058"]
 japanese = "領主の私に<line-break>答えられることでしたら…。<end>"
@@ -366,7 +366,7 @@ korean = "<if><value:$29><equal>%0게다가 이복동생을 숨기고 있었다�
 
 ["430091"]
 japanese = "…！　さすがは我が妹よ！<line-break>レムオンめ、そうとは知らずに…。<line-break>　<line-break>ハハハハ！<line-break>小僧めに、一杯食わせて<line-break>せいせいしたわ！<end>"
-korean = "…! 역시 내 여동생이군!레몬 녀석, 그것도 모르고….　하하하하!그 애송이를 한 방 먹여서속이 다 시원하군!<end>"
+korean = "…! 역시 내 여동생이군! 레몬 녀석, 그것도 모르고….　하하하하! 그 애송이를 한 방 먹여서속이 다 시원하군!<end>"
 
 ["430092"]
 japanese = "<if><value:$29><equal>%0それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という少年…。<end>それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という娘…。<end>"
@@ -478,11 +478,11 @@ korean = "<if><value:$01><equal>19괜찮아? <value:$28>.<end><if><value:$01><eq
 
 ["430119"]
 japanese = "<if><value:$01><equal>19昨日の…アレ…<line-break>なんだったんだろうね。 <end><if><value:$01><equal>15ねえ、昨日の…アレ…<line-break>なんだったんだろうね。 <end><if><value:$01><equal>6昨日の…アレ…<line-break>なんだったのかな。 <end><if><value:$01><equal>4昨日の…アレ…<line-break>なんだったのかな。 <end><if><value:$01><equal>5昨日の…アレ…<line-break>なんだったんだろうな。 <end><if><value:$01><equal>14昨日の…アレ…<line-break>なんじゃったのか…。 <end><if><value:$01><equal>3昨日の…アレ…<line-break>なんじゃったのか…。 <end><if><value:$01><equal>193昨日の…アレ…<line-break>なんだったんでしょう。<end><if><value:$01><equal>191昨日の…アレ…<line-break>なんだったのかしら。<end>昨日の…アレ…<line-break>なんだったんだろうね。 <end>"
-korean = "<if><value:$01><equal>19어제 그… 일… 대체 뭐였을까. <end><if><value:$01><equal>15있지, 어제 그… 일… 대체 뭐였을까. <end><if><value:$01><equal>6어제 그… 일… 뭐였을까. <end><if><value:$01><equal>4어제 그… 일… 뭐였을까. <end><if><value:$01><equal>5어제 그… 일… 뭐였던 걸까. <end><if><value:$01><equal>14어제 그… 일… 대체 뭐였던 게야…. <end><if><value:$01><equal>3어제 그… 일… 대체 뭐였던 게야…. <end><if><value:$01><equal>193어제 그… 일… 대체 뭐였을까요.<end><if><value:$01><equal>191어제 그… 일… 대체 뭐였을까.<end>어제 그… 일… 대체 뭐였을까. <end>"
+korean = "<if><value:$01><equal>19어제 그… 일… 대체 뭐였을까.<end><if><value:$01><equal>15있지, 어제 그… 일… 대체 뭐였을까.<end><if><value:$01><equal>6어제 그… 일… 뭐였을까.<end><if><value:$01><equal>4어제 그… 일… 뭐였을까.<end><if><value:$01><equal>5어제 그… 일… 뭐였던 걸까.<end><if><value:$01><equal>14어제 그… 일… 대체 뭐였던 게야….<end><if><value:$01><equal>3어제 그… 일… 대체 뭐였던 게야….<end><if><value:$01><equal>193어제 그… 일… 대체 뭐였을까요.<end><if><value:$01><equal>191어제 그… 일… 대체 뭐였을까.<end>어제 그… 일… 대체 뭐였을까.<end>"
 
 ["430120"]
 japanese = "<if><value:$01><equal>19…<value:$28>、<line-break>ホントに大丈夫？ <end><if><value:$01><equal>4…<value:$28>、<line-break>ホントに大丈夫なの？ <end><if><value:$01><equal>5…<value:$28>、<line-break>ホントに大丈夫かよ？ <end><if><value:$01><equal>14…<value:$28>、<line-break>ホントに大丈夫かの？ <end>…<value:$28>、<line-break><if><value:$01><equal>3ホントに大丈夫かの？ <end><if><value:$01><equal>193…<value:$28>さん、<line-break>ホントに大丈夫ですか？ <end><if><value:$01><equal>191…<value:$28>、<line-break>ホントに大丈夫？ <end>…<value:$28>、<line-break>ホントに大丈夫？ <end>"
-korean = "<if><value:$01><equal>19…<value:$28>, 정말 괜찮아? <end><if><value:$01><equal>4…<value:$28>, 정말 괜찮은 거야? <end><if><value:$01><equal>5…<value:$28>, 진짜 괜찮냐? <end><if><value:$01><equal>14…<value:$28>, 정말 괜찮은가? <end>…<value:$28>, <if><value:$01><equal>3정말 괜찮은가? <end><if><value:$01><equal>193…<value:$28> 씨, 정말 괜찮으세요? <end><if><value:$01><equal>191…<value:$28>, 정말 괜찮아? <end>…<value:$28>, 정말 괜찮아? <end>"
+korean = "<if><value:$01><equal>19…<value:$28>, 정말 괜찮아?<end><if><value:$01><equal>4…<value:$28>, 정말 괜찮은 거야?<end><if><value:$01><equal>5…<value:$28>, 진짜 괜찮냐?<end><if><value:$01><equal>14…<value:$28>, 정말 괜찮은가?<end>…<value:$28>, <if><value:$01><equal>3정말 괜찮은가?<end><if><value:$01><equal>193…<value:$28> 씨, 정말 괜찮으세요?<end><if><value:$01><equal>191…<value:$28>, 정말 괜찮아?<end>…<value:$28>, 정말 괜찮아?<end>"
 
 ["430121"]
 japanese = "＜未使用＞ねえ、昨日の…アレ…<line-break>なんだったんだろうね。<end>"
@@ -578,7 +578,7 @@ korean = "귀족들이란 말이지. 무능한 데다 시야도 좁아. 자기 �
 
 ["430145"]
 japanese = "あいつらをまとめて、<line-break>雌狐に対抗せねばならぬと思うと<line-break>気がめいる。<line-break>フッ、ま、雌狐の方も<line-break>ノヴィンという厄介者を<line-break>かかえているのだから対等か。<end>"
-korean = "저 녀석들을 한데 묶어,암여우에게 맞서야 한다고 생각하니기운이 빠지는군.훗, 뭐 암여우 쪽도노빈이라는 골칫덩이를안고 있으니 피차일반인가.<end>"
+korean = "저 녀석들을 한데 묶어,암여우에게 맞서야 한다고 생각하니기운이 빠지는군. 훗, 뭐 암여우 쪽도노빈이라는 골칫덩이를안고 있으니 피차일반인가.<end>"
 
 ["430146"]
 japanese = "しかし、宮廷で才覚のある人間が、<line-break>雌狐ひとりというのもお寒い話だ。<line-break>　<line-break>このままではロストールも<line-break>長くないぞ。<end>"

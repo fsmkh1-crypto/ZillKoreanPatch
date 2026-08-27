@@ -22,7 +22,7 @@ korean = "우왓!<end>"
 
 ["840005"]
 japanese = "正直に言ったほうが<line-break>いいんじゃなーい？<line-break>あたし、こう見えても短気だから。<end>"
-korean = "솔직하게 말하는 게낫지 않아?나, 이래 보여도 성질이 급하거든.<end>"
+korean = "솔직하게 말하는 게낫지 않아? 나, 이래 보여도 성질이 급하거든.<end>"
 
 ["840006"]
 japanese = "うん。<line-break>いっそ、その方が気持ちイイし。<line-break>勝負しようじゃない。<end>"
@@ -58,7 +58,7 @@ korean = "으으….<end>"
 
 ["840014"]
 japanese = "この近くの村でさ、<line-break>年頃の女の子が<line-break>次々に誘拐されててね。<line-break>ペウダ国王の悪癖は<line-break>ウワサに聞いてたけど、<line-break>まさかホントに国王が犯人とはね。<end>"
-korean = "이 근처 마을에서 말이야,혼기가 찬 여자아이들이차례차례 납치되고 있어.페우다 국왕의 나쁜 버릇은소문으로 들었지만,설마 정말 국왕이 범인일 줄이야.<end>"
+korean = "이 근처 마을에서 말이야,혼기가 찬 여자아이들이차례차례 납치되고 있어. 페우다 국왕의 나쁜 버릇은소문으로 들었지만,설마 정말 국왕이 범인일 줄이야.<end>"
 
 ["840015"]
 japanese = "…それにしてもくやしいな。　　<line-break>一足遅かったか。<line-break>　<line-break>こいつの話じゃ、連れてこられた<line-break>女の子は、もうペウダのところに<line-break>運び込まれたってさ。<end>"
@@ -78,7 +78,7 @@ korean = "그래 그래, 난 카를라야. 일단 딘갈 병사인데 이렇게 
 
 ["840019"]
 japanese = "偶然、やつらを見かけたもんで<line-break>任務を放り出して<line-break>ここまで来ちゃったわけ。<line-break>どう？　ついでだからさ、<line-break>さらわれた女の子を助けに、<line-break>一緒に行かない？<end>"
-korean = "우연히 녀석들을 봐 버려서임무를 내팽개치고여기까지 와 버린 거야.어때? 온 김에,납치된 여자애를 구하러같이 가지 않을래?<end>"
+korean = "우연히 녀석들을 봐 버려서임무를 내팽개치고여기까지 와 버린 거야. 어때? 온 김에,납치된 여자애를 구하러같이 가지 않을래?<end>"
 
 ["840020"]
 japanese = "一緒に行く<end>"
@@ -90,7 +90,7 @@ korean = "사양한다<end>"
 
 ["840022"]
 japanese = "うるうる、勇者様！<line-break>きっと助けてくださると<line-break>信じてござりましたですわ！<end>"
-korean = "흑흑, 용사님!분명 도와주실 거라고믿고 있었사옵니다!<end>"
+korean = "흑흑, 용사님! 분명 도와주실 거라고믿고 있었사옵니다!<end>"
 
 ["840023"]
 japanese = "そんじゃ、行きますか。<end>"
@@ -270,7 +270,7 @@ korean = "히익!<end>"
 
 ["840068"]
 japanese = "ここまで来てビビってんの？<line-break>こーんな王様、<line-break>いない方が国民のためだって。<end>"
-korean = "여기까지 와서 겁먹은 거야?이런 왕은,없는 편이 국민을 위해서도 낫다니까.<end>"
+korean = "여기까지 와서 겁먹은 거야? 이런 왕은,없는 편이 국민을 위해서도 낫다니까.<end>"
 
 ["840069"]
 japanese = "命まで取る必要はない？<line-break>何を甘ちゃんなことを<line-break>言ってんの。<line-break>こういう連中はヤれるときに<line-break>ヤっとかないと、泣きをみる<line-break>人が増えるだけだって！<end>"
@@ -354,7 +354,7 @@ korean = "페우다 녀석, 추격자를 보낼 거야. 자, 서둘러 도망치
 
 ["840090"]
 japanese = "<if><value:$01><equal>5<value:$28>、大丈夫か！？ <end><if><value:$01><equal>12大丈夫か、<value:$28>！？ <end><if><value:$01><equal>13…どうやら<line-break>無事のようだな。 <end><if><value:$01><equal>10姉ちゃん、大丈夫か！？ <end><if><value:$01><equal>14<value:$28>、無事か！？ <end><if><value:$01><equal>20無事のようだな。 <end><if><value:$01><equal>11無事のようね。 <end><if><value:$01><equal>23無事のようだな。 <end><if><value:$01><equal>27大丈夫か、<value:$28>！？ <end><if><value:$01><equal>26<value:$28>、無事か！？ <end><if><value:$01><equal>24<value:$28>様、ご無事ですか？！<end><if><value:$01><equal>25大丈夫！？ <end><if><value:$01><equal>193大丈夫ですか、<line-break><value:$28>さん！？<end><if><value:$01><equal>191よかった、無事みたいね。<end><value:$28>、大丈夫！？ <end>"
-korean = "<if><value:$01><equal>5<value:$28>, 괜찮아!? <end><if><value:$01><equal>12괜찮아, <value:$28>!? <end><if><value:$01><equal>13…아무래도 무사한 모양이군. <end><if><value:$01><equal>10누나, 괜찮아!? <end><if><value:$01><equal>14<value:$28>, 무사한가!? <end><if><value:$01><equal>20무사한 모양이군. <end><if><value:$01><equal>11무사한 것 같네. <end><if><value:$01><equal>23무사한 모양이군. <end><if><value:$01><equal>27괜찮아, <value:$28>!? <end><if><value:$01><equal>26<value:$28>, 무사한가!? <end><if><value:$01><equal>24<value:$28> 님, 무사하십니까?!<end><if><value:$01><equal>25괜찮아!? <end><if><value:$01><equal>193괜찮으세요, <value:$28> 씨!?<end><if><value:$01><equal>191다행이야, 무사한 것 같네.<end><value:$28>, 괜찮아!? <end>"
+korean = "<if><value:$01><equal>5<value:$28>, 괜찮아!?<end><if><value:$01><equal>12괜찮아, <value:$28>!?<end><if><value:$01><equal>13…아무래도 무사한 모양이군.<end><if><value:$01><equal>10누나, 괜찮아!?<end><if><value:$01><equal>14<value:$28>, 무사한가!?<end><if><value:$01><equal>20무사한 모양이군.<end><if><value:$01><equal>11무사한 것 같네.<end><if><value:$01><equal>23무사한 모양이군.<end><if><value:$01><equal>27괜찮아, <value:$28>!?<end><if><value:$01><equal>26<value:$28>, 무사한가!?<end><if><value:$01><equal>24<value:$28> 님, 무사하십니까?!<end><if><value:$01><equal>25괜찮아!?<end><if><value:$01><equal>193괜찮으세요, <value:$28> 씨!?<end><if><value:$01><equal>191다행이야, 무사한 것 같네.<end><value:$28>, 괜찮아!?<end>"
 
 ["840091"]
 japanese = "こんなところまで<line-break>駆けつけてくれるなんて、<line-break>心の通じ合った仲間は違うねー。<line-break>でも、なんか、あたしたちが<line-break>怪物を倒すのを待ってたような<line-break>タイミングだよね～。<end>"
@@ -362,7 +362,7 @@ korean = "이런 곳까지 달려와 주다니, 마음이 통하는 동료는 �
 
 ["840092"]
 japanese = "<if><value:$01><equal>4そんなつもりは…<line-break>なくもないですけど。 <end><if><value:$01><equal>5なにおおおおお！ <end><if><value:$01><equal>6そんな言い方ないよ！<line-break>助けにきてやったんだぞ！ <end><if><value:$01><equal>12わりぃ、わりぃ。 <end><if><value:$01><equal>13…なんだと？ <end><if><value:$01><equal>10そんな言い方ないだろ！<line-break>助けにきてやったんだぞ！ <end><if><value:$01><equal>14どういう意味じゃ？ <end><if><value:$01><equal>15そんな言い方ひどいよ。 <end><if><value:$01><equal>17ちょっと、何よそれ！<line-break>それが助けにきてあげたアタクシに<line-break>言う言葉なの！ <end><if><value:$01><equal>19そんな言い方ってないよぉ。 <end><if><value:$01><equal>20…すまぬ。 <end><if><value:$01><equal>11………………。 $<line-break><end><if><value:$01><equal>21…なんだと？ <end><if><value:$01><equal>23………………。 $<line-break><end><if><value:$01><equal>27…どういう意味かな？<end><if><value:$01><equal>26どういう意味じゃ？ <end><if><value:$01><equal>24…ごめんなさい。<end><if><value:$01><equal>25せっかく助けにきたのに<line-break>その言い方はないんじゃない？<end><if><value:$01><equal>193そんなことないですよ！<line-break>私、<value:$28>さんのことが<line-break>心配で走ってきたのに！<end><if><value:$01><equal>191せっかく助けに来たのに、<line-break>その言い方はないと思うんだけど…。<end>せっかく助けにきたのに<line-break>そんな言い方ってないよ。 <end>"
-korean = "<if><value:$01><equal>4그럴 생각은… 아주 없진 않지만요. <end><if><value:$01><equal>5뭐라고오오오오! <end><if><value:$01><equal>6그런 말이 어디 있어! 구하러 와 줬잖아! <end><if><value:$01><equal>12미안, 미안. <end><if><value:$01><equal>13…뭐라고? <end><if><value:$01><equal>10그런 말이 어디 있어! 구하러 와 줬잖아! <end><if><value:$01><equal>14무슨 뜻이냐? <end><if><value:$01><equal>15그런 말은 너무해. <end><if><value:$01><equal>17잠깐, 뭐야 그게! 그게 구하러 와 준 이 몸에게 할 말이야! <end><if><value:$01><equal>19그런 말이 어디 있어어. <end><if><value:$01><equal>20…미안하네. <end><if><value:$01><equal>11………………. $<end><if><value:$01><equal>21…뭐라고? <end><if><value:$01><equal>23………………. $<end><if><value:$01><equal>27…무슨 뜻일까?<end><if><value:$01><equal>26무슨 뜻이냐? <end><if><value:$01><equal>24…미안해요.<end><if><value:$01><equal>25모처럼 구하러 왔는데 그런 말은 너무한 거 아냐?<end><if><value:$01><equal>193그렇지 않아요! 저, <value:$28> 씨가 걱정돼서 달려왔는데요!<end><if><value:$01><equal>191모처럼 구하러 왔는데 그런 말은 너무한 것 같은데….<end>모처럼 구하러 왔는데 그런 말은 너무해. <end>"
+korean = "<if><value:$01><equal>4그럴 생각은… 아주 없진 않지만요.<end><if><value:$01><equal>5뭐라고오오오오!<end><if><value:$01><equal>6그런 말이 어디 있어! 구하러 와 줬잖아!<end><if><value:$01><equal>12미안, 미안.<end><if><value:$01><equal>13…뭐라고?<end><if><value:$01><equal>10그런 말이 어디 있어! 구하러 와 줬잖아!<end><if><value:$01><equal>14무슨 뜻이냐?<end><if><value:$01><equal>15그런 말은 너무해.<end><if><value:$01><equal>17잠깐, 뭐야 그게! 그게 구하러 와 준 이 몸에게 할 말이야!<end><if><value:$01><equal>19그런 말이 어디 있어어.<end><if><value:$01><equal>20…미안하네.<end><if><value:$01><equal>11………………. $<end><if><value:$01><equal>21…뭐라고?<end><if><value:$01><equal>23………………. $<end><if><value:$01><equal>27…무슨 뜻일까?<end><if><value:$01><equal>26무슨 뜻이냐?<end><if><value:$01><equal>24…미안해요.<end><if><value:$01><equal>25모처럼 구하러 왔는데 그런 말은 너무한 거 아냐?<end><if><value:$01><equal>193그렇지 않아요! 저, <value:$28> 씨가 걱정돼서 달려왔는데요!<end><if><value:$01><equal>191모처럼 구하러 왔는데 그런 말은 너무한 것 같은데….<end>모처럼 구하러 왔는데 그런 말은 너무해.<end>"
 
 ["840093"]
 japanese = "うそうそ。　　　　　　　　　　　　<line-break>すっごく助かっちゃった。<line-break>　<line-break>でも、安心するのはまだ早いわ。<line-break>ペウダの奴、追っ手をかけるはずよ。<end>"
@@ -562,7 +562,7 @@ korean = "방해야. 미안하지만 가 줄래? 지금 바빠.<end>"
 
 ["840142"]
 japanese = "アハハ、<value:$28>。<line-break>また来てくれたんだ。<end>"
-korean = "아하하, <value:$28>.또 와 줬구나.<end>"
+korean = "아하하, <value:$28>. 또 와 줬구나.<end>"
 
 ["840143"]
 japanese = "墓場ってやーね。<line-break>なんで、こんなに静かなんだろ。<line-break>つい、ものを考えちゃうじゃない…。<end>"
@@ -618,7 +618,7 @@ korean = "후후, 너 말이야 꽤 바보지. 좋아, 알려 줄게. 대신 동
 
 ["840156"]
 japanese = "あたしね、笑ってたいの。<line-break>だからね、強くないと<line-break>いけないんだ…。<line-break>あたしが１２になったころ、<line-break>ロセン王ペウダが<line-break>ディンガルの東方に攻め込んだの。<end>"
-korean = "나, 웃고 싶어.그래서 강하지 않으면안 되는 거야….내가 열두 살쯤 됐을 때,로센 왕 페우다가딩갈 동부로 쳐들어왔어.<end>"
+korean = "나, 웃고 싶어. 그래서 강하지 않으면안 되는 거야…. 내가 열두 살쯤 됐을 때,로센 왕 페우다가딩갈 동부로 쳐들어왔어.<end>"
 
 ["840157"]
 japanese = "ロストール王妃エリスや　　　　　　　<line-break>リベルダムの武器商人に<line-break>そそのかされてね。<line-break>あたしの村もロセン軍に略奪されたわ。<line-break>何もかも奪い尽くされ、<line-break>みんな殺されたわ…。<end>"
@@ -754,7 +754,7 @@ korean = "그럼 가족과 함께 지금 당장 딘갈로 도망쳐. 녀석들�
 
 ["840190"]
 japanese = "ディンガルに入ったら<line-break>この宝石を売るの。<line-break>ちょっとしたお金になるはずよ。<end>"
-korean = "딩갈에 들어가면이 보석을 팔 거야.제법 돈이 될 거야.<end>"
+korean = "딩갈에 들어가면이 보석을 팔 거야. 제법 돈이 될 거야.<end>"
 
 ["840191"]
 japanese = "あの、でも…。<end>"
@@ -838,7 +838,7 @@ korean = "뭐야, 내가 보석 갖고 있으면 이상해? 이런 차림이어�
 
 ["840211"]
 japanese = "<if><value:$01><equal>4そんな大切なもの<line-break>アカの他人にあげちゃうなんて<line-break>気前よすぎかも！ <end><if><value:$01><equal>5おい、いいのかー？<line-break>そんな大切なもの<line-break>やっちまって。 <end><if><value:$01><equal>6いいの？<line-break>そんな大切なものを…。 <end><if><value:$01><equal>12…すまん、<line-break>そういうことだったのか。 <end><if><value:$01><equal>13…形見をくれて<line-break>やったわけか。<line-break>たかが町娘のために。 <end><if><value:$01><equal>10おい、いいのか？<line-break>そんな大切なもの…。 <end><if><value:$01><equal>14そんな大切なものを…！ <end><if><value:$01><equal>15えっ、そんな大切なものを…。 <end><if><value:$01><equal>17この女何を考えてるのかしら？<line-break>そんな大切なものを、<line-break>簡単に人に渡すなんて！ <end><if><value:$01><equal>20…形見、か。 <end><if><value:$01><equal>11そう、形見だったの…<end><if><value:$01><equal>21いいのか？<line-break>そんな大切なもの…。 <end><if><value:$01><equal>23…形見、か。 <end><if><value:$01><equal>27形見…。 <end><if><value:$01><equal>26そんな大切な物を…<end><if><value:$01><equal>24よろしいのですか？<line-break>そんな大切な物を…<end><if><value:$01><equal>25えっ、そんな大切なものを…。 <end><if><value:$01><equal>193そんな大切なものを！？<line-break>いいんですか！？<end><if><value:$01><equal>191そんな、簡単にあげていいの？<end>うそっ！<line-break>そんな大切なもの<line-break>あげちゃっていいの？ <end>"
-korean = "<if><value:$01><equal>4그렇게 소중한 걸 생판 남한테 주다니 너무 통 큰 거 아냐! <end><if><value:$01><equal>5어이, 괜찮은 거야? 그렇게 소중한 걸 줘 버리고. <end><if><value:$01><equal>6괜찮아? 그렇게 소중한 걸…. <end><if><value:$01><equal>12…미안, 그런 거였나. <end><if><value:$01><equal>13…유품을 줘 버린 건가. 고작 마을 처녀를 위해서. <end><if><value:$01><equal>10어이, 괜찮아? 그렇게 소중한 걸…. <end><if><value:$01><equal>14그렇게 소중한 걸…! <end><if><value:$01><equal>15어, 그렇게 소중한 걸…. <end><if><value:$01><equal>17이 여자 무슨 생각인 거야? 그렇게 소중한 걸 쉽게 남에게 넘기다니! <end><if><value:$01><equal>20…유품인가. <end><if><value:$01><equal>11그래, 유품이었구나…<end><if><value:$01><equal>21괜찮은가? 그렇게 소중한 걸…. <end><if><value:$01><equal>23…유품인가. <end><if><value:$01><equal>27유품…. <end><if><value:$01><equal>26그렇게 소중한 것을…<end><if><value:$01><equal>24괜찮으신가요? 그렇게 소중한 것을…<end><if><value:$01><equal>25어, 그렇게 소중한 걸…. <end><if><value:$01><equal>193그렇게 소중한 걸요!? 괜찮으세요!?<end><if><value:$01><equal>191그렇게 쉽게 줘도 괜찮아?<end>거짓말! 그렇게 소중한 걸 줘 버려도 돼? <end>"
+korean = "<if><value:$01><equal>4그렇게 소중한 걸 생판 남한테 주다니 너무 통 큰 거 아냐!<end><if><value:$01><equal>5어이, 괜찮은 거야? 그렇게 소중한 걸 줘 버리고.<end><if><value:$01><equal>6괜찮아? 그렇게 소중한 걸….<end><if><value:$01><equal>12…미안, 그런 거였나.<end><if><value:$01><equal>13…유품을 줘 버린 건가. 고작 마을 처녀를 위해서.<end><if><value:$01><equal>10어이, 괜찮아? 그렇게 소중한 걸….<end><if><value:$01><equal>14그렇게 소중한 걸…!<end><if><value:$01><equal>15어, 그렇게 소중한 걸….<end><if><value:$01><equal>17이 여자 무슨 생각인 거야? 그렇게 소중한 걸 쉽게 남에게 넘기다니!<end><if><value:$01><equal>20…유품인가.<end><if><value:$01><equal>11그래, 유품이었구나…<end><if><value:$01><equal>21괜찮은가? 그렇게 소중한 걸….<end><if><value:$01><equal>23…유품인가.<end><if><value:$01><equal>27유품….<end><if><value:$01><equal>26그렇게 소중한 것을…<end><if><value:$01><equal>24괜찮으신가요? 그렇게 소중한 것을…<end><if><value:$01><equal>25어, 그렇게 소중한 걸….<end><if><value:$01><equal>193그렇게 소중한 걸요!? 괜찮으세요!?<end><if><value:$01><equal>191그렇게 쉽게 줘도 괜찮아?<end>거짓말! 그렇게 소중한 걸 줘 버려도 돼?<end>"
 
 ["840212"]
 japanese = "ああ、いーのいーの。<line-break>宝石なんかなくても<line-break>思い出は残るから。<line-break>でも、あの娘には<line-break>あれが必要だもん。<line-break>…でしょ？<end>"

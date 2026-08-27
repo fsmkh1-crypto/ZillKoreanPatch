@@ -722,7 +722,7 @@ korean = "레몬 님은 함께 계시지 않군요? 레몬 님은 늘 그런 식
 
 ["640187"]
 japanese = "本当はやさしいお方なのです。<line-break>ただ、それを表現するのが<line-break>ヘタなのですわ。<end>"
-korean = "사실은 다정한 분이에요.다만 그걸 표현하는 게서투르실 뿐이죠.<end>"
+korean = "사실은 다정한 분이에요. 다만 그걸 표현하는 게서투르실 뿐이죠.<end>"
 
 ["640188"]
 japanese = "<if><value:$29><equal>%0ごめんなさい。実の弟でいらっしゃる<line-break><value:$28>様に向かって。<line-break>　<line-break><value:$28>様は、<line-break>私などより、ずっと<line-break>レムオン様をご存じなはずですね。<end>ごめんなさい。実の妹でいらっしゃる<line-break><value:$28>様に向かって。<line-break>　<line-break><value:$28>様は<line-break>私などよりずっと、<line-break>レムオン様をご存じなはずですね。<end>"
@@ -1022,7 +1022,7 @@ korean = "있잖아, <value:$28> 언니는 정말 대단해. 내 인형을 타�
 
 ["640265"]
 japanese = "いいか、チダフ。<line-break>ちょっと痛むが、少しの辛抱だ。<line-break>男だったらガマンしろ。<end>"
-korean = "잘 들어, 치다프.조금 아프겠지만 잠깐만 참아.남자라면 견뎌.<end>"
+korean = "잘 들어, 치다프. 조금 아프겠지만 잠깐만 참아. 남자라면 견뎌.<end>"
 
 ["640266"]
 japanese = "それにしても大したもんだぜ。<line-break>よくあの痛みに耐えたもんだ。<end>"
@@ -1190,7 +1190,7 @@ korean = "이제 너한테 데이트 신청하려던 참이었는데 티아나�
 
 ["640307"]
 japanese = "ゼネテスさん！　そんなとこで、<line-break>女の子口説いてる場合じゃないよ！<line-break>早く！<end>"
-korean = "제네테스 씨! 이런 데서,여자애한테 작업 걸 때가 아니에요!빨리요!<end>"
+korean = "제네테스 씨! 이런 데서,여자애한테 작업 걸 때가 아니에요! 빨리요!<end>"
 
 ["640308"]
 japanese = "うーい。<end>"
