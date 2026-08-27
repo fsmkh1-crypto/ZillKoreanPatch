@@ -400,6 +400,10 @@ korean = "우리 나라 재정에 여유가 없는 것도 사실입니다. 하�
 japanese = "ふふふ、お疲れのようね、<line-break><value:$28>様。<end>"
 korean = "후후후, 피곤해 보이시네요, <value:$28>님.<end>"
 
+["1420181"]
+japanese = "…<value:$28>様、<line-break>私は、かわいそうな女でしょうか？<end>"
+korean = "…<value:$28>님, 저는 불쌍한 여자일까요?<end>"
+
 ["1420183"]
 japanese = "私は、私。<line-break>そうよ、私のやりかたで<line-break>行こうと思います。<line-break>ありがとう、<value:$28>様。<end>"
 korean = "나는 나. 그래요, 내 방식대로 가려고 합니다. 고마워요, <value:$28>님.<end>"
@@ -1559,6 +1563,10 @@ korean = "야, <value:$28>, 이제 어떻게 할 거야? 정말 우리 집에 �
 ["1420644"]
 japanese = "ヴァンはよほど自分の家に<line-break>自信があるんだな。<end>"
 korean = "반은 자기 집에 꽤 자신이 있나 보군.<end>"
+
+["1420645"]
+japanese = "いーや、その真逆だぜ！<line-break> <line-break> <line-break>最強の冒険者を、<line-break>親父に会わせてやりてえんだ。<line-break>な？　サ、イキョー！<end>"
+korean = "아니, 정반대야! 최강의 모험자를 아버지께 보여 드리고 싶은 거라고. 그렇지? 최, 강!<end>"
 
 ["1420646"]
 japanese = "最強と、さあ行こう…を<line-break>かけてるんだ。<end>"

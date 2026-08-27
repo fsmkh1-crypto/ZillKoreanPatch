@@ -264,6 +264,10 @@ korean = "<value:$28> 님….<end>"
 japanese = "よろしければ、<line-break>少しお話していかれませんか？<end>"
 korean = "괜찮으시면 잠시 이야기하고 가시겠습니까?<end>"
 
+["1380164"]
+japanese = "いえ、無理もありません。<line-break> <line-break> <line-break>彼らに打撃を与えたのは、 <line-break>他でもない、<line-break>私たち貴族なのですから…。<end>"
+korean = "아뇨, 무리도 아닙니다. 그들에게 타격을 준 건 다름 아닌 우리 귀족들이니까요….<end>"
+
 ["1380166"]
 japanese = "ティアナの考えは間違っていますか？<line-break><value:$28>様？<end>"
 korean = "티아나의 생각은 틀린 건가요? <value:$28>님?<end>"
@@ -496,6 +500,10 @@ korean = "그렇게 고집부리지 마.<end>"
 japanese = "実は、セラと、シェスターのことに<line-break>ついて話していたんだ。<line-break><line-break>いや、正確には、彼女の言った<line-break>ことについて、かな…。<end>"
 korean = "사실 세라와 셰스터에 대해 이야기하고 있었어. 아니, 정확히는 그녀가 했던 말에 대해서랄까….<end>"
 
+["1380284"]
+japanese = "たやすいことではないだろうな。　<line-break><line-break><line-break>俺自身、これまで幾多の<line-break>精霊を苦しめて来たか、<line-break>わからない。<end>"
+korean = "쉬운 일은 아니겠지. 나 자신도 지금까지 얼마나 많은 정령을 괴롭혀 왔는지 모르니까.<end>"
+
 ["1380286"]
 japanese = "ロイ、やはり俺はもう部屋へ戻る。<end>"
 korean = "로이, 역시 난 이제 방으로 돌아가겠다.<end>"
@@ -667,6 +675,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1380339"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1380343"]
+japanese = "す、すごいや！？<line-break>ねぇ、ぼくと一緒に旅をしようよ。<line-break>こう見えても冒険歴は長いんだ。<line-break>きっと、君の力になれるよ。<end>"
+korean = "와, 대단하다!? 있지, 나랑 같이 여행하자. 이래 봬도 모험 경력은 길어. 분명 네 힘이 될 수 있어.<end>"
 
 ["1380346"]
 japanese = "そうだ！　クリスピー…。<end>"

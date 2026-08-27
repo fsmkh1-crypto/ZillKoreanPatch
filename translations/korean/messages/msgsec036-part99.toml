@@ -108,6 +108,10 @@ korean = "왜 나를 깨운 것이냐.<end>"
 japanese = "おもしろいことさ。<end>"
 korean = "재미있는 일이야.<end>"
 
+["360053"]
+japanese = "フッ。よかろう。時は満ちている。<line-break>闇の門を開けるのは、<line-break>開け放つものである私の役目だ。<line-break>だが、まだ、力が足りぬ。<end>"
+korean = "후후. 좋다. 때가 무르익었다. 어둠의 문을 여는 건, 문을 열어젖히는 자인 내 역할이다. 하지만 아직 힘이 부족하다.<end>"
+
 ["360057"]
 japanese = "<value:$28>、無事？<end>"
 korean = "<value:$28>, 무사해?<end>"

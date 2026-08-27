@@ -8,6 +8,10 @@ korean = "아이린 메시지 VOL1용 시작<end>"
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
 
+["620003"]
+japanese = "困ります、お客さん。<line-break>い、いや…！　触らないで！<end>"
+korean = "곤란합니다, 손님. 아, 아니…! 만지지 마세요!<end>"
+
 ["620005"]
 japanese = "あっ。た、助けてください！<end>"
 korean = "앗. 사, 살려 주세요!<end>"
@@ -47,6 +51,10 @@ korean = "보고 있었나?<end>"
 ["620018"]
 japanese = "恐れずに飛び込んでくるといい。<end>"
 korean = "두려워 말고 뛰어들면 된다.<end>"
+
+["620019"]
+japanese = "俺様の愛の翼は、<line-break>いつでも君を包み込むぜ！　　　<end>"
+korean = "이 몸의 사랑의 날개는 언제든 널 감싸 줄 거야!<end>"
 
 ["620020"]
 japanese = "だ、大丈夫ですかっ！<end>"
@@ -279,6 +287,10 @@ korean = "두목! 저놈들 고브!<end>"
 ["620111"]
 japanese = "なんで、あいつらには<line-break>こっちの居場所がわかるゴブ？　<line-break>　<line-break>オルナット、<line-break>早く船に乗るゴブ！<end>"
 korean = "왜 녀석들은 우리가 있는 곳을 아는 고브? 오르나트, 빨리 배에 타는 고브!<end>"
+
+["620113"]
+japanese = "何すんのよ。<line-break>あいつらを見失っちゃったじゃない！<end>"
+korean = "뭐 하는 거야. 녀석들을 놓쳤잖아!<end>"
 
 ["620115"]
 japanese = "私たちはお客よ。<line-break>ほら。<end>"
@@ -619,6 +631,10 @@ korean = "윽.<end>"
 ["620300"]
 japanese = "キス…してくれた…。<end>"
 korean = "키스… 해줬어….<end>"
+
+["620301"]
+japanese = "…アイリーンさんとは<line-break>…何も、なかったんですね。<end>"
+korean = "…아이린 씨와는… 아무 일도 없었던 거죠.<end>"
 
 ["620302"]
 japanese = "…今の…キスで…わかりました。<end>"

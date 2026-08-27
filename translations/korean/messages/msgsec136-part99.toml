@@ -16,6 +16,10 @@ korean = "그건 네가 잊어버린 소원이다.<end>"
 japanese = "死ぬのが恐いからさ。<line-break>あいつは関係ない。<end>"
 korean = "죽는 게 무서워서야. 그 녀석은 상관없어.<end>"
 
+["1360024"]
+japanese = "ゼネテス、貴様、そして<line-break>忘れられた大いなるソウルの持ち主は、<line-break> <line-break>姉さんが施した封印を<line-break>破ろうとしていた。<end>"
+korean = "제네테스, 네놈, 그리고 잊힌 위대한 소울의 주인은 누님이 건 봉인을 깨뜨리려 하고 있었다.<end>"
+
 ["1360030"]
 japanese = "君の痛みはものすごかったんだね。<end>"
 korean = "네 고통은 정말 엄청났구나.<end>"
@@ -239,6 +243,10 @@ korean = "케류네이아. 너는 여기 남아라.<end>"
 ["1360164"]
 japanese = "難しい仕事だ。<line-break>できるか、ケリュネイア？<end>"
 korean = "어려운 일이다. 할 수 있겠나, 케류네이아?<end>"
+
+["1360166"]
+japanese = "<value:$28>、私はここにいるわ。<line-break>仲間を呼び出したかったら<line-break>私に話しかけて。<line-break>あとは、たのんだわ。<line-break><value:$28>。<end>"
+korean = "<value:$28>, 난 여기 있어. 동료를 부르고 싶으면 나한테 말 걸어. 나머지는 부탁할게, <value:$28>.<end>"
 
 ["1360167"]
 japanese = "<value:$28>、時に猶予はない。<end>"

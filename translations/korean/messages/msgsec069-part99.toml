@@ -448,6 +448,10 @@ korean = "…다가오지 마!<end>"
 japanese = "…なんでもない。<line-break>ゆくぞ。<end>"
 korean = "…아무것도 아니다. 가자.<end>"
 
+["690266"]
+japanese = "では、まいりましょう。<line-break><value:$28>さん。<line-break>　<line-break>あなたのような<line-break>資質の優れた方と<line-break>ご一緒できて光栄です。<end>"
+korean = "그럼 가시죠, <value:$28>님. 당신처럼 자질이 뛰어난 분과 함께할 수 있어 영광입니다.<end>"
+
 ["690270"]
 japanese = "聖杯って何のことだろう？<end>"
 korean = "성배가 대체 뭘까?<end>"

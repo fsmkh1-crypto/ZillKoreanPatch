@@ -612,6 +612,10 @@ korean = "어쩔 수 없군요. 그럼, 안녕히 계세요.<end>"
 japanese = "ただの友達なら、<line-break>どんなに気が楽なことか。<end>"
 korean = "그냥 친구라면 얼마나 마음이 편할까.<end>"
 
+["630290"]
+japanese = "まぁ。　　　　　　　　　　　　<line-break>　<line-break>　<line-break><value:$28>様、<line-break>意地悪なお兄様に似ていなくて<line-break>よかったですね。<end>"
+korean = "어머. <value:$28>님은 짓궂은 오라버니를 닮지 않아서 다행이네요.<end>"
+
 ["630293"]
 japanese = "どうぞ、ご自由に。　　　　　<line-break>　<line-break>　<line-break>その代わり、この部屋には<line-break>二度とお通ししませんわ。<end>"
 korean = "마음대로 하세요. 대신 이 방에는 두 번 다시 들이지 않겠습니다.<end>"

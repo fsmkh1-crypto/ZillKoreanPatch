@@ -20,6 +20,10 @@ korean = "손에 넣지 않는다<end>"
 japanese = "手に入れる<end>"
 korean = "손에 넣는다<end>"
 
+["1770009"]
+japanese = "祭壇がある。<line-break>レオニックの証を祭壇に戻しますか？<end>"
+korean = "제단이 있다. 레오닉의 증표를 제단에 돌려놓겠습니까?<end>"
+
 ["1770010"]
 japanese = "戻さない<end>"
 korean = "되돌리지 않는다<end>"

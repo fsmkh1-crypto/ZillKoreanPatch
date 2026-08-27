@@ -284,6 +284,10 @@ korean = "기다려, <value:$28>.<end>"
 japanese = "私ね…、退却しながら　　　　<line-break>ずっと思ってた。<line-break>　<line-break>生きて帰らせなきゃ。<line-break>みんな死なせちゃダメだって。<end>"
 korean = "나 말이야… 후퇴하면서 계속 생각했어. 살아서 돌아가게 해야 해. 모두 죽게 두면 안 된다고.<end>"
 
+["1800154"]
+japanese = "それだけ…、<line-break>あなたに聞いておいてほしかったの。<end>"
+korean = "그것만은… 당신이 들어 줬으면 했어.<end>"
+
 ["1800155"]
 japanese = "<value:$28>、あんたも来て。<end>"
 korean = "<value:$28>, 너도 와.<end>"
@@ -347,6 +351,10 @@ korean = "세상 같은 건… 보이지 않았으면 좋았을 텐데….<end>"
 ["1800197"]
 japanese = "おう、<value:$28>。<line-break>手紙が来てるぜ。<end>"
 korean = "오, <value:$28>. 편지가 왔어.<end>"
+
+["1800200"]
+japanese = "目に見えなくとも、<line-break>それは確かに存在しています。<end>"
+korean = "눈에 보이지 않아도, 그것은 분명 존재하고 있습니다.<end>"
 
 ["1800201"]
 japanese = "別に用はない<end>"

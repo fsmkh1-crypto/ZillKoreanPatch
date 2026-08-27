@@ -44,6 +44,10 @@ korean = "말도 안 돼…. 이길 수 있는 싸움이었을 텐데.<end>"
 japanese = "あ…、ああ…。　　　<line-break><value:$28>…。<end>"
 korean = "아… 아아…. <value:$28>….<end>"
 
+["1900039"]
+japanese = "大丈夫…。<line-break>私は…、闇には…、<line-break>負けない。<end>"
+korean = "괜찮아…. 나는… 어둠에는… 지지 않아.<end>"
+
 ["1900040"]
 japanese = "ザギヴめ…。<line-break>闇を退けおったか！<end>"
 korean = "자기브 녀석…. 어둠을 물리친 건가!<end>"
@@ -135,6 +139,10 @@ korean = "그럼 안녕, <value:$28>.<end>"
 ["1900096"]
 japanese = "ヒマだよ～。<line-break>役に立つから、早く誘ってね。<end>"
 korean = "심심해~. 도움 될 테니까 빨리 불러 줘.<end>"
+
+["1900098"]
+japanese = "退屈なんだけどさ。<line-break>あたしも連れてってくんない？<end>"
+korean = "심심한데 말이야. 나도 데려가 주면 안 돼?<end>"
 
 ["1900099"]
 japanese = "カルラ様！　将軍の仕事は！？<end>"

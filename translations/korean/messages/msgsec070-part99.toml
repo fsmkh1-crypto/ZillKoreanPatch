@@ -28,6 +28,10 @@ korean = "남의 도움은 받지 않겠다는 거군. 용감하네.<end>"
 japanese = "その勇敢なる勇者様の<line-break>お名前が聞きたいんだが？<end>"
 korean = "그 용감한 용자님의 이름을 듣고 싶은데?<end>"
 
+["700011"]
+japanese = "<value:$28>、ね。<line-break>カッコいいじゃない。　　　　<line-break>　<line-break>俺はゼネテスっていうんだ。<line-break>それじゃ、ま、がんばってな。<end>"
+korean = "<value:$28>이라고? 멋진 이름이네. 난 제네테스라고 해. 그럼 뭐, 힘내라고.<end>"
+
 ["700015"]
 japanese = "俺でよければ、<line-break>お手伝いさせてもらうが、<line-break>どうだい、<value:$28>？<end>"
 korean = "나라도 괜찮다면 도와주지. 어때, <value:$28>?<end>"

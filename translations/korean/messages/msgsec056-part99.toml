@@ -1912,6 +1912,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "こ、こいつは俺の出番じゃねえ。<line-break>親父、じゃあな！<end>"
 korean = "이, 이건 내 차례가 아니네. 아버지, 그럼 안녕!<end>"
 
+["560922"]
+japanese = "ま、聞いてのとおりだ。<line-break> <line-break> <line-break>生半可な冒険者には頼めない仕事が<line-break>あるんだが…<line-break>聞いてはくれないかね？<end>"
+korean = "뭐, 들은 그대로다. 어설픈 모험자에겐 맡길 수 없는 일이 있는데… 들어 주겠나?<end>"
+
 ["560923"]
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
@@ -1923,6 +1927,10 @@ korean = "좋아! 당신이라면 분명 그렇게 말해 줄 줄 알았어. 잘
 ["560929"]
 japanese = "紹介するぜ。<line-break> <line-break> <line-break>こちら、アルノートゥンの神殿に<line-break>仕えてらっしゃる神官さんだ。<end>"
 korean = "소개하지. 이쪽은 알노툰 신전에서 일하는 신관님이야.<end>"
+
+["560931"]
+japanese = "依頼ですが…<line-break> <line-break> <line-break>アルノートゥンの北東に眠る、<line-break>聖光石の坑道を<line-break>調べていただきたいというものです。<end>"
+korean = "의뢰 내용은… 알노툰 북동쪽에 잠든 성광석 갱도를 조사해 달라는 거다.<end>"
 
 ["560934"]
 japanese = "私も視察に行ったのですが、<line-break>鉱夫ではない身ながら、<line-break> <line-break>あれはどうも<line-break>ただの山鳴りではないように<line-break>思われました。<end>"
