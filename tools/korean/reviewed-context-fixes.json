@@ -1,57 +1,17 @@
 {
-  "1610093": {
-    "old": "그래! 맡아 주겠나! 고맙다. 역시 <value:$2B>답군. 잘 부탁한다.<end>",
-    "new": "그래! 맡아 주는 거냐! 고맙다. 역시 <value:$2B>군. 잘 부탁한다.<end>",
-    "reason": "Same Argilshire guild NPC and exact reused acceptance line as 1610008."
-  },
-  "890004": {
-    "old": "그리고 에스텔님은 우리 사막 일족의 족장입니다.<end>",
-    "new": "그리고 에스텔 님은 우리 사막 일족의 족장이십니다.<end>",
-    "reason": "Exact reused desert-clan explanation as 880131; preserve honorific and canonical name spacing."
-  },
-  "880144": {
-    "old": "<value:$28>,이 녀석이 날 납치했어!<end>",
-    "new": "<value:$28>, 이 녀석이 날 납치했어!<end>",
-    "reason": "Obvious missing space after the player-name placeholder."
-  },
-  "890670": {
-    "old": "그게 네 소원이라면, 무한의 소울을 지닌 네 소원이라면 용왕님께서 들어주실지도 모른다. 자, 빌어라.<end>",
-    "new": "그 소원이 무한의 소울을 지닌 네 소원이라면 용왕님께서 들어주실지도 모른다. 자, 소원을 빌어라.<end>",
-    "reason": "Same Nashes resurrection-event line as 1870027; use the clearer established rendering."
-  },
-  "1410211": {
-    "old": "그래, 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>",
-    "new": "아, 참. 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>",
-    "reason": "Same Kafin letter text as 1920239; normalize the reused letter wording."
-  },
-  "1920239": {
-    "old": " 아, 참. 우연이지만, 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>",
-    "new": "아, 참. 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>",
-    "reason": "Same Kafin letter text as 1410211; remove stray leading space and normalize punctuation."
-  },
-  "1920235": {
-    "old": "오늘 일어나 보니이런 편지가 놓여 있어서…. 읽어 봐 주세요.<end>",
-    "new": "오늘 일어나 보니 이런 편지가 놓여 있어서…. 읽어 봐 주세요.<end>",
-    "reason": "Obvious missing space in Noel's preceding line."
-  },
-  "1890134": {
-    "old": "네놈인가… 나의 파괴를 바라지 않고 앞을 가로막으려는 자가.<end>",
-    "new": "네놈인가… 나의 파괴를 바라지 않고 가로막으려는 자는.<end>",
-    "reason": "Exact reused Ishbaal encounter line as 1360149, with the same surrounding introduction and follow-up."
-  },
-  "1840013": {
-    "old": "그때는 다시 그 힘을 불태워 없애면 된다. 전군 전진! 아큐류스에 상륙하라!<end>",
-    "new": "그때는 다시 그 힘을 불태워 없앨 뿐이다. 전군 전진! 아큐류스에 상륙하라!<end>",
-    "reason": "Exact reused Zilark military command as 1720029 in the same Aquirus assault event."
-  },
-  "1410165": {
-    "old": "킥킥. 나랑 똑같이 보지 말라는 표정 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 가장 위험한 사람이란 뜻이지.<end>",
-    "new": "킥킥. 나랑 같은 취급 하지 말라는 표정을 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 제일 위험한 사람이란 뜻이지.<end>",
-    "reason": "Same Kafin ending-event line as 1920086; normalize both copies to a single natural character-voice rendering."
-  },
-  "1920086": {
-    "old": "후후. 나랑 똑같이 취급하지 말라는 표정 지어도 소용없어. 뭐니 뭐니 해도 <value:$28>는 세계를 구한 최강의 용사님이잖아. 요컨대 제일 위험한 사람이라는 거지.<end>",
-    "new": "킥킥. 나랑 같은 취급 하지 말라는 표정을 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 제일 위험한 사람이란 뜻이지.<end>",
-    "reason": "Same Kafin ending-event line as 1410165; normalize both copies to a single natural character-voice rendering."
-  }
+  "1610093": {"old":"그래! 맡아 주겠나! 고맙다. 역시 <value:$2B>답군. 잘 부탁한다.<end>","new":"그래! 맡아 주는 거냐! 고맙다. 역시 <value:$2B>군. 잘 부탁한다.<end>","reason":"Same Argilshire guild NPC and exact reused acceptance line as 1610008."},
+  "890004": {"old":"그리고 에스텔님은 우리 사막 일족의 족장입니다.<end>","new":"그리고 에스텔 님은 우리 사막 일족의 족장이십니다.<end>","reason":"Exact reused desert-clan explanation as 880131; preserve honorific and canonical name spacing."},
+  "880144": {"old":"<value:$28>,이 녀석이 날 납치했어!<end>","new":"<value:$28>, 이 녀석이 날 납치했어!<end>","reason":"Obvious missing space after the player-name placeholder."},
+  "890670": {"old":"그게 네 소원이라면, 무한의 소울을 지닌 네 소원이라면 용왕님께서 들어주실지도 모른다. 자, 빌어라.<end>","new":"그 소원이 무한의 소울을 지닌 네 소원이라면 용왕님께서 들어주실지도 모른다. 자, 소원을 빌어라.<end>","reason":"Same Nashes resurrection-event line as 1870027; use the clearer established rendering."},
+  "1410211": {"old":"그래, 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>","new":"아, 참. 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>","reason":"Same Kafin letter text as 1920239; normalize the reused letter wording."},
+  "1920239": {"old":" 아, 참. 우연이지만, 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>","new":"아, 참. 우연이지만 같은 여관에 <value:$28>가 묵고 있는 것 같아. 한번 이야기해 보는 게 어때?<end>","reason":"Same Kafin letter text as 1410211; remove stray leading space and normalize punctuation."},
+  "1920235": {"old":"오늘 일어나 보니이런 편지가 놓여 있어서…. 읽어 봐 주세요.<end>","new":"오늘 일어나 보니 이런 편지가 놓여 있어서…. 읽어 봐 주세요.<end>","reason":"Obvious missing space in Noel's preceding line."},
+  "1890134": {"old":"네놈인가… 나의 파괴를 바라지 않고 앞을 가로막으려는 자가.<end>","new":"네놈인가… 나의 파괴를 바라지 않고 가로막으려는 자는.<end>","reason":"Exact reused Ishbaal encounter line as 1360149, with the same surrounding introduction and follow-up."},
+  "1840013": {"old":"그때는 다시 그 힘을 불태워 없애면 된다. 전군 전진! 아큐류스에 상륙하라!<end>","new":"그때는 다시 그 힘을 불태워 없앨 뿐이다. 전군 전진! 아큐류스에 상륙하라!<end>","reason":"Exact reused Zilark military command as 1720029 in the same Aquirus assault event."},
+  "1410165": {"old":"킥킥. 나랑 똑같이 보지 말라는 표정 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 가장 위험한 사람이란 뜻이지.<end>","new":"킥킥. 나랑 같은 취급 하지 말라는 표정을 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 제일 위험한 사람이란 뜻이지.<end>","reason":"Same Kafin ending-event line as 1920086; normalize both copies to a single natural character-voice rendering."},
+  "1920086": {"old":"후후. 나랑 똑같이 취급하지 말라는 표정 지어도 소용없어. 뭐니 뭐니 해도 <value:$28>는 세계를 구한 최강의 용사님이잖아. 요컨대 제일 위험한 사람이라는 거지.<end>","new":"킥킥. 나랑 같은 취급 하지 말라는 표정을 지어도 소용없어. 어쨌든 <value:$28>는 세계를 구한 최강의 용사님이잖아. 한마디로 제일 위험한 사람이란 뜻이지.<end>","reason":"Same Kafin ending-event line as 1410165; normalize both copies to a single natural character-voice rendering."},
+  "420224": {"old":"그나저나 무한의 소울을 지닌 자라…. 용왕이 눈뜨고 어둠의 문이 열리며, 그리고 무한의 소울을 지닌 자가 나타난다….<end>","new":"그나저나 무한의 소울을 지닌 자라…. 용왕이 깨어나고 어둠의 문이 열리며, 무한의 소울을 지닌 자가 나타난다….<end>","reason":"Same Orpheus reflection as 690047; normalize both copies to a single natural rendering."},
+  "690047": {"old":"그런데 무한의 소울을 가진 자라…. 용왕이 깨어나고, 어둠의 문이 열리고, 그리고 무한의 소울의 주인이 나타난다….<end>","new":"그나저나 무한의 소울을 지닌 자라…. 용왕이 깨어나고 어둠의 문이 열리며, 무한의 소울을 지닌 자가 나타난다….<end>","reason":"Same Orpheus reflection as 420224; normalize both copies to a single natural rendering."},
+  "420019": {"old":"그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만시체를 붙잡고 캐물을 수도 없으니.<end>","new":"그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만 시체를 붙잡고 캐물을 수도 없으니.<end>","reason":"Obvious missing space in a continuous sentence."},
+  "420032": {"old":"훗…, 농담도 지나치십니다. 그는 유능한 남자였습니다. 실제로 지금까지,볼보라의 뒤를 맡길 사람이없어서 골머리를 앓고 있었습니다.<end>","new":"훗…, 농담도 지나치십니다. 그는 유능한 남자였습니다. 실제로 지금까지 볼보라의 뒤를 맡길 사람이 없어서 골머리를 앓고 있었습니다.<end>","reason":"Obvious missing spaces and stray comma in the same sentence."}
 }
