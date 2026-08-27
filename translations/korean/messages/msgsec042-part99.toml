@@ -116,6 +116,10 @@ korean = "그 정도도 알아채지 못할 남자는 아니겠지. …어리석
 japanese = "無限の可能性を感じさせる…。　　<line-break>あの目の輝きはどうだ。<line-break>　<line-break>フフフ…、<line-break>レムオン坊やも楽しませてくれる。<end>"
 korean = "무한한 가능성이 느껴지는군…. 저 눈빛을 봐라. 후후후…, 레몬 도련님도 즐겁게 해 주는군.<end>"
 
+["420057"]
+japanese = "紹介する。この館の執事だ。<line-break>セバスチャンという。<end>"
+korean = "소개하지. 이 저택의 집사다. 세바스찬이라고 한다.<end>"
+
 ["420059"]
 japanese = "それでは失礼いたします。<end>"
 korean = "그럼 실례하겠습니다.<end>"
@@ -276,6 +280,10 @@ korean = "환술계 수치도 없고 범죄 등록에도 해당하지 않음. �
 japanese = "おめでとう。<line-break>これでお前さんも冒険者だ。<end>"
 korean = "축하해. 이제 너도 모험자다.<end>"
 
+["420146"]
+japanese = "よう、おやじ、何か<line-break>最近おもしろいネタはないか？<end>"
+korean = "여어, 아저씨. 요즘 재미있는 소식 없나?<end>"
+
 ["420149"]
 japanese = "どう思う、<line-break><value:$28>？<end>"
 korean = "어떻게 생각해, <value:$28>?<end>"
@@ -352,13 +360,25 @@ korean = "아, 누나! 이거 어떻게 된 거야?<end>"
 japanese = "たぶん、この子は役に立ちますよ。<end>"
 korean = "아마 이 아이는 도움이 될 겁니다.<end>"
 
+["420200"]
+japanese = "ど、どうなってるんだよ、これ！？<line-break>ね、姉ちゃん！<end>"
+korean = "이, 이게 어떻게 된 거야!? 누, 누나!<end>"
+
 ["420202"]
 japanese = "…というわけでですねえ。<line-break>　<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
 korean = "…그런 이유로 말이죠. 함께 여행하는 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>"
 
+["420204"]
+japanese = "ありがとうございます。<line-break>では、お話ししましょう。<end>"
+korean = "감사합니다. 그럼 이야기하죠.<end>"
+
 ["420207"]
 japanese = "闇の神器は全部で<line-break>１２種類あるんです。<line-break>　<line-break>そのうちのひとつ、禁断の聖杯は<line-break>持ち主に英知を与えることが<line-break>できます。<end>"
 korean = "어둠의 신기는 모두 12종류입니다. 그중 하나인 금단의 성배는 소유자에게 지혜를 줄 수 있습니다.<end>"
+
+["420208"]
+japanese = "その禁断の聖杯をねらっている<line-break>魔人がいるんです。<end>"
+korean = "그 금단의 성배를 노리는 마인이 있습니다.<end>"
 
 ["420210"]
 japanese = "猫がしゃべった！<end>"
@@ -375,6 +395,10 @@ korean = "후훗.<end>"
 ["420222"]
 japanese = "うふふ。ありがとうございます。　　<line-break>　<line-break>　<line-break>聖杯はここに持ってきてくれれば<line-break>私が預かります。<end>"
 korean = "후후. 감사합니다. 성배는 여기로 가져오시면 제가 보관하겠습니다.<end>"
+
+["420226"]
+japanese = "…いや、これは失礼しました。<line-break>ただの独り言です。<end>"
+korean = "…아니, 실례했습니다. 그냥 혼잣말입니다.<end>"
 
 ["420228"]
 japanese = "無限のソウルとは<end>"
@@ -491,6 +515,10 @@ korean = "기다려, <value:$28>.<end>"
 ["420297"]
 japanese = "王城だ。<line-break>　<end>"
 korean = "왕성이다.<end>"
+
+["420298"]
+japanese = "うぇ～っ！？<line-break>俺、そういうとこ行くのやだなあ…。<end>"
+korean = "으엑~!? 난 그런 데 가기 싫은데….<end>"
 
 ["420299"]
 japanese = "貴様は来なくていい。<line-break><value:$28>がいれば充分だ。<end>"

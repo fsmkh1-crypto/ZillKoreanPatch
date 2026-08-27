@@ -136,6 +136,10 @@ korean = "어때? 잘 지내고 있냐?<end>"
 japanese = "おう、おめえのエモノ<line-break>見せてみな。<end>"
 korean = "어이, 네 무기 좀 보여 봐.<end>"
 
+["1370151"]
+japanese = "じゃあな、<value:$28>。<line-break>お前も冒険、がんばれよ。<end>"
+korean = "그럼 잘 가, <value:$28>. 너도 모험 열심히 해.<end>"
+
 ["1370153"]
 japanese = "…よし、<value:$28>。<line-break>今日の稽古は、<line-break>この辺にしておこうか。<end>"
 korean = "…좋아, <value:$28>. 오늘 수련은 이쯤 해 둘까.<end>"
@@ -867,6 +871,10 @@ korean = "자신이 없으니 처음부터 다시 듣고 싶다<end>"
 ["1370541"]
 japanese = "大丈夫<end>"
 korean = "괜찮아<end>"
+
+["1370543"]
+japanese = "じゃあ、行ってきな。<line-break>応援してるぜ、<value:$28>。<end>"
+korean = "그럼 다녀와. 응원할게, <value:$28>.<end>"
 
 ["1370544"]
 japanese = "大丈夫<end>"

@@ -44,6 +44,10 @@ korean = "좋아, 그럼 나도 짚이는 데를 알아볼게. <value:$28>도 �
 japanese = "！　これは…。<end>"
 korean = "! 이건….<end>"
 
+["1470039"]
+japanese = "<value:$28>。<line-break>どうやら、まずいことになりそうだ。<end>"
+korean = "<value:$28>. 아무래도 일이 안 좋게 돌아갈 것 같아.<end>"
+
 ["1470042"]
 japanese = "おい、そこの兄さん。<line-break>ちょっと、待ってくれ。<end>"
 korean = "이봐, 거기 형씨. 잠깐 기다려 줘.<end>"

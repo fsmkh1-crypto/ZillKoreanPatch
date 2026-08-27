@@ -816,6 +816,10 @@ korean = "우뉴우….<end>"
 japanese = "ほーっほっほっ、<line-break>むにゅー、ですわねー。<end>"
 korean = "호호호호, 말랑말랑하군요~.<end>"
 
+["1340399"]
+japanese = "これは、<value:$28>様。<line-break>どうぞ、お通りください。<end>"
+korean = "아, <value:$28>님이시군요. 지나가십시오.<end>"
+
 ["1340404"]
 japanese = "<value:$28>様、<line-break>私もここで、ロストール復興のために<line-break>働かせていただいております。<end>"
 korean = "<value:$28>님, 저도 여기서 로스토올 부흥을 위해 일하고 있습니다.<end>"
@@ -959,6 +963,10 @@ korean = "<value:$28> 님이 써 주시는 편이 아버님도 기뻐하실 것 
 ["1340477"]
 japanese = "女王として…<line-break>この国に生きる民の<line-break>一人として…<line-break>これからも、頑張っていこうと<line-break>思います。<end>"
 korean = "여왕으로서… 이 나라에서 살아가는 한 사람으로서… 앞으로도 최선을 다하겠습니다.<end>"
+
+["1340478"]
+japanese = "これは、<value:$28>様。<line-break>どうぞ、お通りください。<end>"
+korean = "아, <value:$28>님이시군요. 지나가십시오.<end>"
 
 ["1340482"]
 japanese = "<value:$28>様、<line-break>私もここで、ロストール復興のために<line-break>働かせていただいております。<end>"

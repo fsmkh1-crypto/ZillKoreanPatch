@@ -40,6 +40,10 @@ korean = "브렌다… 와줬구나.<end>"
 japanese = "コアン…無事でよかった。<end>"
 korean = "코안… 무사해서 다행이야.<end>"
 
+["460015"]
+japanese = "ありがとうございました。<line-break>おかげで助かりました！<end>"
+korean = "감사합니다. 덕분에 살았습니다!<end>"
+
 ["460021"]
 japanese = "ぐふっ！<end>"
 korean = "크헉!<end>"
@@ -95,6 +99,10 @@ korean = "참, 그렇게 마음에 와닿는 곡이었나? 뭐, 이것도 효도
 ["460064"]
 japanese = "親孝行…。　　　　　　　　<end>"
 korean = "효도….<end>"
+
+["460065"]
+japanese = "親父が生きてるうちに<line-break>やっときたかったぜ…。　　<end>"
+korean = "아버지가 살아 계실 때 해 두고 싶었는데….<end>"
 
 ["460066"]
 japanese = "たくさん、たくさんなぁ…。<line-break>　<end>"

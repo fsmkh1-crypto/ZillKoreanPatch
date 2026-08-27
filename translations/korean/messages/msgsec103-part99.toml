@@ -28,6 +28,10 @@ korean = "…기억해 둬. 반드시 죗값을 치르게 할 테니까!<end>"
 japanese = "危なかったね。<line-break>大丈夫？<end>"
 korean = "위험했네. 괜찮아?<end>"
 
+["1030019"]
+japanese = "ボクはエステル。<line-break>キミは？　　　　　　　　　　<end>"
+korean = "난 에스텔이야. 넌?<end>"
+
 ["1030020"]
 japanese = "へぇー、<value:$28>か。<line-break>　<line-break>　<line-break>ところで<value:$28>、<line-break>ボクの名前、覚えた？<end>"
 korean = "헤에, <value:$28>인가. 그런데 <value:$28>, 내 이름 기억했어?<end>"
@@ -48,6 +52,10 @@ korean = "기다려.<end>"
 japanese = "だが、<value:$28>を<line-break>しょっぴくには無理があるだろ？<end>"
 korean = "하지만 <value:$28>을 잡아가는 건 무리잖아?<end>"
 
+["1030037"]
+japanese = "…<value:$28>って言ったわね。<line-break>覚えてらっしゃい。<end>"
+korean = "…<value:$28>이라고 했지. 기억해 둬.<end>"
+
 ["1030039"]
 japanese = "…レーグ。<end>"
 korean = "…레그.<end>"
@@ -55,6 +63,10 @@ korean = "…레그.<end>"
 ["1030040"]
 japanese = "…うぬは行くといい。<line-break>あとは我が引き受けた。<end>"
 korean = "…너는 가도 좋다. 나머지는 내가 맡겠다.<end>"
+
+["1030041"]
+japanese = "レーグ、どいて！<line-break>あなたには関わりのないこ…。<end>"
+korean = "레그, 비켜! 너와는 상관없는 이….<end>"
 
 ["1030043"]
 japanese = "覚えてなさい！<line-break>父の仇は必ず…！<end>"
@@ -71,6 +83,10 @@ korean = "여어, 또 만났군.<end>"
 ["1030055"]
 japanese = "ヴァイ！　ヴィア！<end>"
 korean = "바이! 비아!<end>"
+
+["1030056"]
+japanese = "ヴァイ！　ヴィア！！<line-break>…っくっ…、ぅうおおあ！<end>"
+korean = "바이! 비아!! …크윽… 으오오아!<end>"
 
 ["1030057"]
 japanese = "兄さん！<end>"
@@ -91,6 +107,10 @@ korean = "그만둬. 죽이지 마.<end>"
 ["1030061"]
 japanese = "しかし、彼らは兄さんを<line-break>殺そうとしました。<end>"
 korean = "하지만 그들은 오빠를 죽이려 했습니다.<end>"
+
+["1030063"]
+japanese = "目的のものはいただいた。<line-break>それでいい。行くぞ。<end>"
+korean = "목표한 건 손에 넣었다. 그걸로 됐어. 가자.<end>"
 
 ["1030064"]
 japanese = "では、ブツはもらっていく。<line-break>じゃあな。<end>"
@@ -115,6 +135,10 @@ korean = "맡는다<end>"
 ["1030069"]
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
+
+["1030075"]
+japanese = "きっと、お父様も<line-break>お喜びになられるはずです…。<end>"
+korean = "분명 아버님도 기뻐하실 거예요….<end>"
 
 ["1030082"]
 japanese = "ですが、人手が足りているわけ　　<line-break>ではないのです。<line-break>　<line-break>特に危険な任務を実行できる<line-break>人材は不足しています。<end>"

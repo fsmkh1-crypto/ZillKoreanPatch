@@ -52,6 +52,10 @@ korean = "빠르군, <value:$28>. 나보다 먼저 여기까지 오다니. 역�
 japanese = "おお、来たか<value:$28>。<line-break>さすがじゃ。<line-break>これでこの戦いの勝ちは決まったわ。<end>"
 korean = "오, 왔구나 <value:$28>. 역시 대단하군. 이걸로 이 싸움은 이긴 것이나 다름없다.<end>"
 
+["1630033"]
+japanese = "<value:$28>、よくやった。<line-break>お主が最高殊勲者じゃ！<end>"
+korean = "<value:$28>, 잘했다. 네가 최고 공로자다!<end>"
+
 ["1630035"]
 japanese = "ひざまずくがよい。<end>"
 korean = "무릎을 꿇어라.<end>"

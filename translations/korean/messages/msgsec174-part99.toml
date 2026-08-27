@@ -192,6 +192,10 @@ korean = "어머, <value:$28>. …다크 엘프 여자와 함께 무슨 일로 �
 japanese = "なんだと！<end>"
 korean = "뭐라고!<end>"
 
+["1740112"]
+japanese = "<value:$28>。<line-break>あとはあなたがなんとかするのよー！<end>"
+korean = "<value:$28>. 나머지는 네가 어떻게든 해 줘~!<end>"
+
 ["1740117"]
 japanese = "…<value:$28>が<line-break>私にくれるというのなら、<line-break>私に拒む理由はない。<end>"
 korean = "…<value:$28>가 나에게 주겠다면, 내가 거절할 이유는 없어.<end>"

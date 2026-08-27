@@ -1080,6 +1080,10 @@ korean = "힘내세요….<end>"
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
 
+["1330718"]
+japanese = "<value:$28>様！<line-break>将軍閣下からご伝言がございます。<end>"
+korean = "<value:$28>님! 장군 각하께서 전언을 보내셨습니다.<end>"
+
 ["1330720"]
 japanese = "以上であります。<end>"
 korean = "이상입니다.<end>"
@@ -1099,6 +1103,10 @@ korean = "<value:$28>님. 단서는 잡으셨습니까?<end>"
 ["1330731"]
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
+
+["1330732"]
+japanese = "<value:$28>様！<line-break>将軍閣下からご伝言がございます。<end>"
+korean = "<value:$28>님! 장군 각하께서 전언을 보내셨습니다.<end>"
 
 ["1330734"]
 japanese = "以上であります。<end>"

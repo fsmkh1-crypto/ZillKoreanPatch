@@ -136,6 +136,10 @@ korean = "그것만 들으면 됐어.<end>"
 japanese = "この恨みは忘れない<end>"
 korean = "이 원한은 잊지 않겠어<end>"
 
+["1050078"]
+japanese = "え…、<value:$28>…。<line-break>本当に…、許してくれるの？<end>"
+korean = "어… <value:$28>…. 정말… 용서해 주는 거야?<end>"
+
 ["1050079"]
 japanese = "ありがとう……。<end>"
 korean = "고마워요…….<end>"

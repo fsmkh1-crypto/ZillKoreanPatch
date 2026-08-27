@@ -32,6 +32,10 @@ korean = "？<end>"
 japanese = "そうか！　　　　　　　　　　　<end>"
 korean = "그런가!<end>"
 
+["450011"]
+japanese = "貴様、未来の勇者の俺様を恐れた<line-break>魔王の刺客だな！<end>"
+korean = "네놈, 미래의 용자인 이 몸을 두려워한 마왕의 자객이구나!<end>"
+
 ["450012"]
 japanese = "ちっ、違うよ！　　　　　　　<end>"
 korean = "아, 아니야!<end>"
@@ -175,6 +179,10 @@ korean = "나지… 어떻게, 어떻게 우리 앞에 얼굴을 내밀 수 있�
 ["450090"]
 japanese = "ヴァンに…<line-break>一目だけ会わせてください。<end>"
 korean = "반을…한 번만 만나게 해 주세요.<end>"
+
+["450091"]
+japanese = "出て行け！<line-break>二度とこの町に姿を見せるんじゃない！<end>"
+korean = "나가! 두 번 다시 이 마을에 모습을 보이지 마!<end>"
 
 ["450092"]
 japanese = "ナッジ、お前の仲間か？　　　<line-break>　<line-break>　<line-break>ふん！　いきなり現れて、<line-break>人に襲いかかろうとするなんて<line-break>まるで、野盗だな。<end>"
@@ -323,6 +331,10 @@ korean = "복수를 이루었을 때 무엇을 할지, 복수한 뒤 무엇을 �
 ["450153"]
 japanese = "僕…。<end>"
 korean = "나….<end>"
+
+["450156"]
+japanese = "…あっ！　お客様！<line-break>勝手にあがられては困ります！<end>"
+korean = "아! 손님! 멋대로 들어오시면 곤란합니다!<end>"
 
 ["450160"]
 japanese = "ガ、ガルドラン！？<end>"

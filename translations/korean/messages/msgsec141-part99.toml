@@ -1248,6 +1248,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1410561"]
+japanese = "ん？　何か見つかったのかい？<line-break><value:$28>助教授？<end>"
+korean = "응? 뭔가 찾았나, <value:$28> 조교수?<end>"
+
 ["1410562"]
 japanese = "これは…また妙な質感の石だね。<line-break>小さいけど、ずいぶん重いし…。<line-break> <line-break>…ん？<line-break>あれっ…？<end>"
 korean = "이건… 또 묘한 질감의 돌이네. 작은데도 꽤 무겁고…. …응? 어라…?<end>"
@@ -1307,6 +1311,10 @@ korean = "현기증이 납니다…. 아아….<end>"
 ["1410585"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410587"]
+japanese = "これもお前の協力があったからだ。<line-break><value:$28>よ。<end>"
+korean = "이것도 네 협력이 있었기 때문이다, <value:$28>.<end>"
 
 ["1410588"]
 japanese = "凡庸な人間やできそこないの<line-break>魔道兵など不要だったのだ。<line-break><value:$28>。<line-break>お前さえいれば事は足りたのだ。<end>"

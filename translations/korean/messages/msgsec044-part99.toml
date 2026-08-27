@@ -48,6 +48,10 @@ korean = "…미안해요. 저, 왜 이렇게 흥분한 걸까요.<end>"
 japanese = "何も謝ることなどないさ。　　　　<end>"
 korean = "사과할 건 아무것도 없어.<end>"
 
+["440019"]
+japanese = "では失礼する。<line-break>愛しのフィアンセ殿によろしくな。<end>"
+korean = "그럼 실례하지. 사랑하는 약혼자에게 안부 전해 줘.<end>"
+
 ["440020"]
 japanese = "レムオン様…。<end>"
 korean = "레몬 님….<end>"
@@ -219,6 +223,10 @@ korean = "들었어<end>"
 ["440092"]
 japanese = "…だろうね。<line-break>町中、その話でもちきりさ。<end>"
 korean = "…그렇겠지. 온 마을이 그 이야기로 떠들썩해.<end>"
+
+["440098"]
+japanese = "レムオン様の身にいったい何が…。　<line-break>　<line-break>　<end>"
+korean = "레몬 님께 대체 무슨 일이….<end>"
 
 ["440104"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"

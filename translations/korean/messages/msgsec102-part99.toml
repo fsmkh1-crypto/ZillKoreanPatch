@@ -88,6 +88,10 @@ korean = "장군이… 아이린 장군이 당했다!<end>"
 japanese = "…どうするんだ、アイリーン。<line-break>まだやるってのか？<end>"
 korean = "…어쩔 거야, 아이린. 아직도 계속할 셈이야?<end>"
 
+["1020046"]
+japanese = "…今の私では、先生にも<line-break><value:$28>にも勝てない。<end>"
+korean = "…지금의 나는 선생님에게도 <value:$28>에게도 이길 수 없어.<end>"
+
 ["1020047"]
 japanese = "…今の私では、先生には勝てない。<end>"
 korean = "…지금의 나로는 선생님을 이길 수 없어.<end>"
