@@ -68,6 +68,10 @@ korean = "예비 메시지 10 파로스 볼륨 3<end>"
 japanese = "よくやった。<line-break>戦争などは本来いむべきものだが、<line-break>そなたの活躍、うれしく思うぞ。<line-break>天国のフリントとそなたの母も<line-break>やはり喜んでいよう。<end>"
 korean = "잘했다. 전쟁은 본래 피해야 할 일이지만 네 활약은 기쁘구나. 천국의 플린트와 네 어머니도 분명 기뻐하실 거다.<end>"
 
+["530036"]
+japanese = "王妃様。<line-break>七竜家の当主重鎮の方々が<line-break>会談を申し込んでおられます。<line-break>このたびの戦で受けた<line-break>損害の大きさについて、<line-break>お話があるとのことでした。<end>"
+korean = "왕비님. 칠룡가의 당주와 중진들이 회담을 신청했습니다. 이번 전투에서 입은 피해가 큰 것에 대해 말씀드릴 게 있다고 합니다.<end>"
+
 ["530037"]
 japanese = "そうか、わかった。<line-break>　<line-break>　<line-break>フリントの子、<value:$28>よ。<line-break>また来るとよい。<end>"
 korean = "그래, 알겠다. 플린트의 아이 <value:$28>여. 또 오도록 해라.<end>"

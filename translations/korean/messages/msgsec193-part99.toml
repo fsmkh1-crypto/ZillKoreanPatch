@@ -44,6 +44,10 @@ korean = "…나를 찾으러 온 건가, <value:$28>?<end>"
 japanese = "いつまでも姉離れできない<line-break>お前の弟と一緒にするな。<end>"
 korean = "언제까지나 누나에게서 독립 못 하는 네 동생과 나를 같게 보지 마.<end>"
 
+["1930020"]
+japanese = "俺は姉よりも<line-break>もっともっと大きなものを　<line-break>探し求める。<line-break>それが何かはわからない。<line-break>だが、お前が一緒なら<line-break>必ず、そこにたどりつける。<end>"
+korean = "나는 누나보다도 훨씬 더 큰 무언가를 찾을 거야. 그게 뭔지는 몰라. 하지만 네가 함께라면 반드시 거기에 도달할 수 있어.<end>"
+
 ["1930021"]
 japanese = "…そう、お前さえ、<line-break>一緒にいれば…。<end>"
 korean = "…그래, 너만 함께 있어 준다면….<end>"
@@ -84,6 +88,10 @@ korean = "무슨 일이세요, 아버님?<end>"
 japanese = "いや、話しておきたいことがあってな。<end>"
 korean = "아니, 미리 해두고 싶은 말이 있어서.<end>"
 
+["1930034"]
+japanese = "冒険に行かせろという<line-break>お話でしたらダメですよ。　　　　　<line-break>　<line-break>アキュリュース自衛隊長なんですし、<line-break>それに、もうお年なんですから。<end>"
+korean = "모험을 보내 달라는 이야기라면 안 됩니다. 아큐류스 자위대장이시고, 게다가 이제 연세도 있으시잖아요.<end>"
+
 ["1930035"]
 japanese = "わかっておる。<line-break>まあ、わしの話を聞いてくれ。<end>"
 korean = "알고 있다. 뭐, 내 이야기를 들어 보게.<end>"
@@ -107,6 +115,10 @@ korean = "아, 아버님… 그럴 수가….<end>"
 ["1930047"]
 japanese = "あ…、え？　え？<end>"
 korean = "아…, 어? 어?<end>"
+
+["1930048"]
+japanese = "あー！　あんなこと言って、　<line-break>冒険にでるつもりです！<line-break>　<line-break>きっとあいさつする相手には、<line-break>モンスターとか宝物とかも<line-break>入ってるんだわ！<end>"
+korean = "아! 저런 말을 하고 모험을 떠날 생각이에요! 분명 인사할 상대에는 몬스터나 보물도 들어 있는 거야!<end>"
 
 ["1930049"]
 japanese = "もう！　なんて父親なのかしら！<end>"
@@ -148,6 +160,10 @@ korean = "그렇네…….<end>"
 japanese = "でも！<end>"
 korean = "하지만!<end>"
 
+["1930062"]
+japanese = "俺やっぱ、もっともっと　　　<line-break>お前らと旅がしたいぜ。<line-break>　<line-break>もっといろんなもの見て<line-break>いろんなもの食って<line-break>いろんな奴と会ってみたいぜ！<end>"
+korean = "나 역시 너희와 더, 더 오래 여행하고 싶어. 더 많은 걸 보고, 더 많은 걸 먹고, 더 많은 녀석을 만나 보고 싶다고!<end>"
+
 ["1930063"]
 japanese = "僕も、そう思うよ。<end>"
 korean = "나도 그렇게 생각해.<end>"
@@ -183,6 +199,10 @@ korean = "반, 뜨거운 영혼을 불태운다고?<end>"
 ["1930074"]
 japanese = "なんでもねぇよ！<line-break>ほら、ふたりとも置いてくぞ。<end>"
 korean = "아무것도 아니야! 자, 둘 다 두고 간다.<end>"
+
+["1930075"]
+japanese = "師匠、よく復帰してくれました。<line-break>でも、売り物も作ってくださいよ。<end>"
+korean = "스승님, 복귀해 주셔서 다행입니다. 하지만 팔 물건도 만들어 주세요.<end>"
 
 ["1930077"]
 japanese = "師匠、お客なんですが、　　　　　　　　<line-break>どうしますか？<line-break>断ってきましょうか？<line-break><value:$28>という人なんですが…。<end>"

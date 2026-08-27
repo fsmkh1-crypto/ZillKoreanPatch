@@ -208,6 +208,10 @@ korean = "응? 이, 이건…!!<end>"
 japanese = "きゃーーー！　じ、地震だよぉ！<line-break>フリントさん、<value:$28>！<end>"
 korean = "꺄아아! 지, 지진이야! 플린트 씨, <value:$28>!<end>"
 
+["1860091"]
+japanese = "こ、これは大きいぞ！<line-break>ふたりとも、気をつけるんだ！　　<line-break>　<end>"
+korean = "이, 이건 크다! 둘 다 조심해!<end>"
+
 ["1860092"]
 japanese = "あぁ、ビックリしたぁ。<end>"
 korean = "아아, 깜짝 놀랐네.<end>"
@@ -215,6 +219,10 @@ korean = "아아, 깜짝 놀랐네.<end>"
 ["1860093"]
 japanese = "い、今のは…まさか…！　　　　　<line-break>　<line-break>　<end>"
 korean = "지, 지금 그건… 설마…!<end>"
+
+["1860094"]
+japanese = "ん？　この気配は…。<line-break>…どうやら、来てしまったようだ。<line-break>　<end>"
+korean = "응? 이 기척은…. …아무래도 와 버린 모양이군.<end>"
 
 ["1860095"]
 japanese = "えっ…？　何かあったんですかぁ、<line-break>フリントさん？<end>"
@@ -300,6 +308,10 @@ korean = "마을 밖까지 와 있구나? 알았다. 넌 바로 여관을 준비
 japanese = "<value:$28>、<line-break>…頼みが…ある。　　　　　　　　<line-break>　<line-break>例の短剣の中に…<line-break>エリス様への…密書が入っている。<line-break><end>"
 korean = "<value:$28>, …부탁이… 있다. 그 단검 안에… 엘리스 님께 드릴… 밀서가 들어 있다.<end>"
 
+["1860133"]
+japanese = "…その密書を、<line-break>王妃…エリス様に…　　　　　　　<line-break>…届けてくれ。<line-break>フ、フリントの子と言えば…<line-break>エリス様に…お目通り<line-break>…かなう…はず。<end>"
+korean = "…그 밀서를 왕비… 엘리스 님께… 전달해 줘. 플, 플린트의 아이라고 하면… 엘리스 님을… 뵐 수… 있을 거야.<end>"
+
 ["1860137"]
 japanese = "フリント、もういい。<line-break>しゃべるな。<end>"
 korean = "플린트, 이제 됐어. 말하지 마.<end>"
@@ -316,6 +328,10 @@ korean = "서둘러 돌아가. …한시가 급한 상황이다.<end>"
 japanese = "急いでね、<line-break><value:$28>…。<end>"
 korean = "서둘러, <value:$28>….<end>"
 
+["1860146"]
+japanese = "王宮か？<line-break>この道をずっとまっすぐ行けば<line-break>王宮の門に出るよ。<end>"
+korean = "왕궁? 이 길을 계속 곧장 가면 왕궁 문이 나와.<end>"
+
 ["1860148"]
 japanese = "（父さんが心配だから、<line-break>　早く帰らなきゃ。）<end>"
 korean = "(아버지가 걱정되니까 빨리 돌아가야 해.)<end>"
@@ -323,6 +339,10 @@ korean = "(아버지가 걱정되니까 빨리 돌아가야 해.)<end>"
 ["1860149"]
 japanese = "なんだ、お前は！<end>"
 korean = "뭐냐, 넌!<end>"
+
+["1860153"]
+japanese = "…密書は確かに受け取った。<line-break>ご苦労だった。<line-break>これは報酬だ。<end>"
+korean = "…밀서는 확실히 받았다. 수고했다. 이건 보수다.<end>"
 
 ["1860155"]
 japanese = "ほう、<line-break>ゼネテスという冒険者がな…。　　<line-break>なるほど。<line-break>よかろう。<line-break>生命のかけらを与える。<line-break>これでフリントも回復しよう。<end>"
@@ -359,6 +379,10 @@ korean = "그럼, 그럼 루루안타 다녀올게!<end>"
 ["1860167"]
 japanese = "あー！<line-break>あの人、この前のぉ…！<end>"
 korean = "아! 그 사람, 지난번의…!<end>"
+
+["1860170"]
+japanese = "ん？<line-break>今のはルルアンタだったような…。<line-break>どこかにお使いか？<end>"
+korean = "응? 방금 루루안타였던 것 같은데…. 어디 심부름이라도 가나?<end>"
 
 ["1860171"]
 japanese = "なんだぁ。まだふさぎ込んでるのか？<end>"

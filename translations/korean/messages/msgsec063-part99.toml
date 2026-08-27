@@ -88,6 +88,10 @@ korean = "<value:$28>, 괜찮아?<end>"
 japanese = "カッコよかったぜ。<end>"
 korean = "멋졌어.<end>"
 
+["630044"]
+japanese = "あれにいくらかかったと思ってるんだ。<line-break>クッ、クッ、クズめエエ！<end>"
+korean = "저게 얼마짜리인 줄 알아? 이, 이, 쓰레기 자식아아아!<end>"
+
 ["630046"]
 japanese = "あ、タルテュバ様！<end>"
 korean = "아, 탈튜바 님!<end>"
@@ -799,6 +803,10 @@ korean = "오래 머물렀군. 이만 실례하지.<end>"
 ["630298"]
 japanese = "まぁ、もうお帰りですの？<line-break>お忙しいのですね。<end>"
 korean = "어머, 벌써 돌아가시는 건가요? 바쁘시군요.<end>"
+
+["630299"]
+japanese = "ティアナを見習って、少しは<line-break>女らしい言葉遣いを覚えてはどうだ？<end>"
+korean = "티아나를 본받아서 조금은 여자다운 말투를 익히는 게 어떠냐?<end>"
 
 ["630300"]
 japanese = "フフ、<line-break>まぁ、似合わぬだろうがな。<end>"

@@ -76,6 +76,10 @@ korean = "후후, 그대에게 죽는다면 여한이 없네.<end>"
 japanese = "そなた、ティアナと仲がよいのか？<end>"
 korean = "그대, 티아나와 사이가 좋은가?<end>"
 
+["670022"]
+japanese = "これからもティアナのこと、　<line-break>守ってやってほしい。<line-break>　<line-break>そなたの兄が目の敵にしておる<line-break>ファーロスの雌狐の頼みだが、<line-break>聞いてくれぬか？<end>"
+korean = "앞으로도 티아나를 지켜 주었으면 한다. 그대의 형이 원수처럼 여기는 파로스의 암여우 부탁이지만, 들어 주겠나?<end>"
+
 ["670023"]
 japanese = "少しのどが渇いた。<end>"
 korean = "조금 목이 마르네.<end>"
@@ -136,6 +140,10 @@ korean = "…좋은 눈을 하고 있군. 눈빛은 영혼의 빛을 나타낸�
 japanese = "ティアナのことを<line-break>守ってやってほしい。<end>"
 korean = "티아나를 지켜 줬으면 한다.<end>"
 
+["670038"]
+japanese = "母親である私は国のため、家のため、<line-break>このようなザマだ。<line-break>　<line-break>あれにもつらい思いをさせていよう。<line-break>ティアナの心を<line-break>少しでも助けてやってくれ。<end>"
+korean = "어머니인 나는 나라와 가문을 위해 이런 꼴이다. 그 아이도 힘들겠지. 티아나의 마음을 조금이라도 도와 줘.<end>"
+
 ["670039"]
 japanese = "フフ、私も親バカなことよ。<line-break>よろしく頼むぞ、<value:$28>。<end>"
 korean = "후후, 나도 팔불출이군. 잘 부탁한다, <value:$28>.<end>"
@@ -195,6 +203,10 @@ korean = "나는 제네테스. 잘 부탁한다.<end>"
 ["670059"]
 japanese = "…あんた、いい目してるね。　　　<end>"
 korean = "…당신, 눈빛이 좋군.<end>"
+
+["670060"]
+japanese = "俺の叔母貴がよく言ってるよ。<line-break>目の輝きは魂の輝きを示すってね。<end>"
+korean = "우리 숙모가 자주 하는 말이 있어. 눈빛은 영혼의 빛을 보여 준다고.<end>"
 
 ["670062"]
 japanese = "<value:$28>ね。<line-break>俺はゼネテス。よろしく。<end>"

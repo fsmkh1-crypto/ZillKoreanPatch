@@ -196,6 +196,10 @@ korean = "제, 제네테스 님….<end>"
 japanese = "誰にどう接してよいかわからず、<line-break>他人の顔色ばかりうかがい、<line-break>誰にも媚びを売る自分自身だったんだ。<line-break>でも、それが悪いことなのか？<end>"
 korean = "누구를 어떻게 대해야 할지 몰라 남의 눈치만 보고 누구에게나 비위를 맞추는 나였어. 하지만 그게 나쁜 건가?<end>"
 
+["1350103"]
+japanese = "他人の顔色をうかがうってのは<line-break>気遣いのできる人間ってことだ。<end>"
+korean = "남의 안색을 살핀다는 건 그만큼 배려할 줄 아는 사람이라는 뜻이지.<end>"
+
 ["1350104"]
 japanese = "誰にでも媚びを売るってのは、<line-break>誰にでも分けへだてなく優しいって<line-break>ことだ。<line-break>そして、それはいろんな人の支えに<line-break>なっていた。<end>"
 korean = "누구에게나 비위를 맞춘다는 건 누구에게나 차별 없이 다정하다는 뜻이야. 그리고 그건 많은 사람에게 힘이 되어 줬지.<end>"
@@ -559,6 +563,10 @@ korean = "이제… 당신은 내 거야….<end>"
 ["1350242"]
 japanese = "ティアナ様？<line-break>こ、これは？<end>"
 korean = "티아나 님? 이, 이건?<end>"
+
+["1350243"]
+japanese = "…ジャマだわ。<line-break>あなたはもう必要がない。<line-break>クズは灰に…<end>"
+korean = "…방해야. 넌 이제 필요 없어. 쓰레기는 재로….<end>"
 
 ["1350244"]
 japanese = "ぎゃあああああああ！<end>"
@@ -956,6 +964,10 @@ korean = "뭐, 어쩔 수 없네. 그런 거니까 <value:$28>, 도와줘.<end>"
 japanese = "よし。<line-break>んじゃ、出発よ。<end>"
 korean = "좋아. 그럼 출발하자.<end>"
 
+["1350386"]
+japanese = "本国からの連絡ではないのね？<line-break>じゃあ、情報の出所はどこなの？<end>"
+korean = "본국에서 온 연락은 아니지? 그럼 정보 출처는 어디야?<end>"
+
 ["1350389"]
 japanese = "か、カ、カルラ様！<line-break>大変です！<end>"
 korean = "카, 카, 카를라 님! 큰일입니다!<end>"
@@ -1087,6 +1099,10 @@ korean = "좋아… 윽…<end>"
 ["1350447"]
 japanese = "だいじょうぶ！？<line-break>お兄ち…兄さん！<end>"
 korean = "괜찮아!? 오빠… 아니, 형!<end>"
+
+["1350451"]
+japanese = "（なんだか意識が遠くなってきた<line-break>　気を失ってしまいそうだ…）<end>"
+korean = "(왠지 의식이 멀어져 간다. 정신을 잃을 것 같다….)<end>"
 
 ["1350452"]
 japanese = "意識を失う<end>"
@@ -1323,6 +1339,10 @@ korean = "대신관님과 형 사이에 그런 일이!<end>"
 ["1350565"]
 japanese = "虚無の剣や、兄さんの行きそうな場所<line-break>心当たりない？<end>"
 korean = "허무의 검이나 형이 갈 만한 곳, 짐작 가는 데 없어?<end>"
+
+["1350566"]
+japanese = "今…、闇の門の島…と<line-break>おっしゃいましたね。<line-break>いったい？<end>"
+korean = "방금… 어둠의 문 섬…이라고 하셨죠. 대체 무슨 뜻입니까?<end>"
 
 ["1350568"]
 japanese = "でも、信じられるよ。<line-break>今、<value:$28>のソウルから<line-break>すごく懐かしい感じがしたから。<end>"

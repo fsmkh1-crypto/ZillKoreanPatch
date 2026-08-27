@@ -40,6 +40,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["580062"]
+japanese = "けどな、この手のおいしい話には、　<line-break>たいてい裏があるからな。<line-break>なるべくなら関わらない方がいい。<line-break>とは言っても、放っておくのも<line-break>もったいない話だ。<end>"
+korean = "하지만 이런 맛있는 이야기엔 대개 뒷사정이 있어. 가능하면 얽히지 않는 게 좋아. 그렇다고 그냥 놔두기도 아까운 이야기지만.<end>"
+
 ["580065"]
 japanese = "誰も持ってきてくれないんで、<line-break>こりゃあ、ダメかなと思ってた。<line-break>助かったよ。<line-break>なんかあったら、<line-break>またよろしく頼む。<end>"
 korean = "아무도 가져다주지 않아서 이건 안 되나 했어. 살았군. 무슨 일 있으면 또 부탁할게.<end>"
@@ -107,6 +111,10 @@ korean = "어쨌든 사룡이야. 섣불리 다가가 깨웠다간 큰일 나지
 ["580088"]
 japanese = "しっかしまた、<line-break>暇つぶしに冒険してたら、<line-break>えらいもんを見つけちまったな。<line-break>ま、ここに長居は無用ってことだ。<line-break>じゃあな。<end>"
 korean = "참, 심심풀이로 모험하다가 엄청난 걸 찾아버렸군. 뭐, 여기 오래 있을 필요는 없겠지. 그럼 잘 가.<end>"
+
+["580089"]
+japanese = "とにかく、ここを出るんだ。<line-break>急いで、しかし動作はゆっくりとな。<end>"
+korean = "어쨌든 여길 나가자. 서둘러, 하지만 움직임은 천천히.<end>"
 
 ["580092"]
 japanese = "よ。<line-break>ここで会ったも何かの縁だ。<line-break>ひとつ自己紹介と行こうぜ。<line-break>俺はゼネテス。冒険者だ。<line-break>世界中を旅してる。<line-break>お前さんは？<end>"

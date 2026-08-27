@@ -88,9 +88,17 @@ korean = "하지만 자네에게는 사람을 끌어당기는 힘이 있어. 그
 japanese = "フリントの子、<line-break><value:$28>…。<line-break>　<line-break>…いい目をしている。<line-break>無限の可能性を感じさせる目だ。<end>"
 korean = "플린트의 아이, <value:$28>….　…좋은 눈을 하고 있군. 무한한 가능성을 느끼게 하는 눈이다.<end>"
 
+["1680040"]
+japanese = "もし、そなたが平穏を望むならば<line-break>その望みは捨てた方がよい。<line-break>　<line-break>そなたに秘められた可能性が<line-break>そなたをそっとしては<line-break>おかぬだろう。<end>"
+korean = "그대가 평온을 원한다면 그 바람은 버리는 편이 좋다. 그대에게 숨겨진 가능성이 그대를 가만두지 않을 테니.<end>"
+
 ["1680041"]
 japanese = "フリントの子、<line-break><value:$28>…。<line-break>　<line-break>…いい目をしている。<line-break>無限の可能性を感じさせる目だ。<end>"
 korean = "플린트의 아이, <value:$28>….　…좋은 눈을 하고 있군. 무한한 가능성을 느끼게 하는 눈이다.<end>"
+
+["1680042"]
+japanese = "もし、そなたが平穏を望むならば<line-break>その望みは捨てた方がよい。<line-break>　<line-break>そなたに秘められた可能性が<line-break>そなたをそっとしては<line-break>おかぬだろう。<end>"
+korean = "그대가 평온을 원한다면 그 바람은 버리는 편이 좋다. 그대에게 숨겨진 가능성이 그대를 가만두지 않을 테니.<end>"
 
 ["1680043"]
 japanese = "<value:$28>か。<line-break>旅はどうだ？<line-break>　<line-break>今は存分に世界を見て回ることだ。<line-break>そなたには、それが許されている。<end>"
@@ -211,6 +219,10 @@ korean = "사양할 것 없다. 들어오너라.<end>"
 ["1680093"]
 japanese = "気にすることはない。<line-break>…慣れた。<line-break>　<line-break>…さすがに嫁いですぐの時は<line-break>つらかったがな。<end>"
 korean = "신경 쓸 것 없다. …익숙해졌다. …그래도 시집온 직후엔 힘들었지만.<end>"
+
+["1680095"]
+japanese = "私は料理には自信があるのだ。<line-break>娘時分に、将来の夫のためと<line-break>みっちりと仕込まれたのでな。<line-break>裁縫も機織りも一生懸命覚えた。<line-break>意外であろう？<end>"
+korean = "나는 요리에 자신이 있다. 처녀 시절 미래의 남편을 위해 철저히 배웠거든. 바느질도 베 짜기도 열심히 익혔다. 의외지?<end>"
 
 ["1680097"]
 japanese = "礼を言う。<line-break>さっそく料理を運ばせよう。<end>"

@@ -12,6 +12,10 @@ korean = "이럴 수가. 유서 깊은 마도 아카데미의 건물이….<end>
 japanese = "ひどいでしょ？<line-break>アカデミー始まって以来の劣等生、<line-break>ユーリスの仕業よ。<line-break>ユーリスが実験に失敗して<line-break>校舎を爆破したのよ。<end>"
 korean = "심하지? 아카데미 개교 이래 최악의 열등생 유리스 짓이야. 실험에 실패해서 교사를 폭파했어.<end>"
 
+["790003"]
+japanese = "だから、あんな奴、<line-break>早いとこ退学にしておけば<line-break>よかったんだ。<end>"
+korean = "그러니까 저런 녀석은 진작 퇴학시켰어야 했어.<end>"
+
 ["790004"]
 japanese = "なんともはや…。<end>"
 korean = "이거 참….<end>"
@@ -27,6 +31,10 @@ korean = "심하지? 여긴 우리 여관의 별관이었어. 그런데 질 나�
 ["790011"]
 japanese = "ああ、私って…なんて不幸なの？<line-break>　<line-break>　<line-break>探求心が旺盛で、研究熱心で<line-break>…ただ、ちょっぴり<line-break>不器用なだけなのに。<end>"
 korean = "아아, 나는 왜 이렇게 불행한 걸까? 탐구심도 강하고 연구도 열심히 하는데… 그냥 조금 서툴 뿐인데.<end>"
+
+["790012"]
+japanese = "いつになったら、<line-break>このオンボロ宿屋から<line-break>抜け出せるのかな…？<end>"
+korean = "언제쯤 이 낡은 여관을 벗어날 수 있을까…?<end>"
 
 ["790013"]
 japanese = "…きゃっ！<line-break>　<line-break>　<line-break>いらっしゃいませ！<line-break>さえない宿屋ですけど、<line-break>がまんしてくださーい。<end>"
@@ -123,6 +131,10 @@ korean = "남 듣기 안 좋은 소리 하네….<end>"
 ["790046"]
 japanese = "もう限界。お願いです。<line-break>ここから助け出してください～。<line-break>　<line-break>このままでは、<line-break>死んでも死に切れません～。<end>"
 korean = "이제 한계예요. 부탁이에요. 여기서 구해 주세요~. 이대로라면 죽어도 눈을 못 감겠어요~.<end>"
+
+["790047"]
+japanese = "ああ、そのとおり。<line-break>借金返すまでは<line-break>死んでもらっちゃ困るぞ。<end>"
+korean = "그래, 맞아. 빚을 다 갚기 전에는 죽으면 곤란하다고.<end>"
 
 ["790048"]
 japanese = "お願いです～。<line-break>助けてください～。<end>"
@@ -279,6 +291,10 @@ korean = "믿을 수 없어. 그 유리스가.<end>"
 ["790110"]
 japanese = "本当にユニオンスペルを<line-break>使えるようになるとは…。<end>"
 korean = "정말 유니온 스펠을 쓸 수 있게 되다니….<end>"
+
+["790112"]
+japanese = "じゃが、ユニオンスペルを使えるとなれば、<line-break>魔道アカデミーにとっても<line-break>大きな財産。<line-break>ううむ。この事実はアカデミーの名を<line-break>さらに高めることになろう。<end>"
+korean = "하지만 유니온 스펠을 쓸 수 있다면 마도 아카데미에도 큰 자산이지. 으음. 이 사실은 아카데미의 명성을 더욱 높일 것이다.<end>"
 
 ["790113"]
 japanese = "確かに…。<end>"

@@ -32,6 +32,10 @@ korean = "사양한다<end>"
 japanese = "ごちそうになろうかな<end>"
 korean = "얻어먹을까.<end>"
 
+["1980010"]
+japanese = "そうですか…。残念です。<line-break>少し自信あったんですけど…。<line-break>　<line-break>でも、よかったら<line-break>また今度、食べに来てください。<line-break>私、待ってますから。<end>"
+korean = "그렇군요…. 아쉽네요. 조금 자신 있었는데…. 그래도 괜찮다면 다음에 또 먹으러 와 주세요. 기다리고 있을게요.<end>"
+
 ["1980011"]
 japanese = "ありがとうございます。<line-break>今すぐお持ちしますね！<end>"
 korean = "감사합니다. 지금 바로 가져올게요!<end>"
@@ -127,6 +131,10 @@ korean = "죄송해요…. 그건 저도 잘 모르겠어요.<end>"
 ["1980051"]
 japanese = "その伝説のフライパンってやつ？<end>"
 korean = "그 전설의 프라이팬이라는 거야?<end>"
+
+["1980052"]
+japanese = "そ、そのとおりです…。<line-break>　<line-break>　<line-break>だから、伝説のフライパンは<line-break>ドワーフの技術とエルフの魔力によって<line-break>強力無比な破壊力を秘めているとか。<end>"
+korean = "마, 맞아요…. 그래서 전설의 프라이팬은 드워프의 기술과 엘프의 마력으로 엄청난 파괴력을 품고 있다고 해요.<end>"
 
 ["1980056"]
 japanese = "確かにおかしな話だ<end>"

@@ -8,6 +8,10 @@ korean = "질리온&이샤 이벤트08용 시작<end>"
 japanese = "同化の髪飾りはあげるわ。<line-break>だからジリオンをもとに戻して！<end>"
 korean = "동화의 머리장식은 줄게. 그러니까 지리온을 원래대로 돌려놔!<end>"
 
+["2670002"]
+japanese = "んー、そうは言われてもね。<line-break>どうしようっかな？<line-break>　<line-break>君の願いをかなえてあげたいけど、<line-break>僕にはジリオンちゃんの願いも<line-break>大事なんだよね。<end>"
+korean = "음, 그렇게 말해도 말이지. 어떻게 할까? 네 소원을 들어주고 싶지만 나한텐 지리온의 소원도 중요하거든.<end>"
+
 ["2670003"]
 japanese = "<value:$28>…。なぜ、ここに？<end>"
 korean = "<value:$28>…. 왜 여기에?<end>"

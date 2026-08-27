@@ -24,6 +24,10 @@ korean = "그, 그런! 이런 때에?<end>"
 japanese = "何？　それは本当か？<end>"
 korean = "뭐? 그게 사실인가?<end>"
 
+["850010"]
+japanese = "物騒じゃな～い？　　　　　　　　　<line-break>　<line-break>　<line-break>その体に巻いた魔法爆雷を広場で<line-break>爆発させたらアタシや<line-break>そこの女の子まで死んじゃうでしょ？<end>"
+korean = "위험하지 않아~? 몸에 두른 마법 폭뢰를 광장에서 터뜨리면 나랑 저 여자아이까지 죽잖아?<end>"
+
 ["850011"]
 japanese = "死にたいなら<line-break>ひとりで死んでちょうだい？<line-break>　<line-break>アタシには、あんたのとは<line-break>比べものにならない、<line-break>すばらしーい人生があるの。<end>"
 korean = "죽고 싶으면 혼자 죽어 줘? 나한텐 네 것과는 비교도 안 되는 멋진 인생이 있으니까.<end>"
@@ -188,6 +192,10 @@ korean = "<value:$28> 씨…. 정말 감사합니다. 다친 곳은 없으세요
 japanese = "そうか、やはり、<line-break>ロセン総督ブゾリのさしがねか…。<end>"
 korean = "그런가, 역시 로센 총독 부조리의 사주였나….<end>"
 
+["850068"]
+japanese = "<value:$28>君、<line-break>どうか、私の願いを聞いてくれ。<line-break>　<line-break>今、私はロセンの解放軍の<line-break>支援をしている。ロセンの人々を<line-break>ディンガルから解放するためだ。<end>"
+korean = "<value:$28> 군, 부디 내 부탁을 들어 주게. 지금 나는 로센 해방군을 지원하고 있어. 로센 사람들을 딘갈에서 해방하기 위해서다.<end>"
+
 ["850073"]
 japanese = "頼む、<line-break>私たちに力を貸してくれたまえ。　　　<line-break><value:$28>君。<end>"
 korean = "부탁하네. 우리에게 힘을 빌려주게. <value:$28> 군.<end>"
@@ -223,6 +231,10 @@ korean = "아버님?<end>"
 ["850086"]
 japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
 korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
+
+["850087"]
+japanese = "いらっしゃーい。<line-break>待ってたわ！　　　　　　　　　　　<line-break>　<line-break>嬉しいじゃない？<line-break>あのテロの親玉を殺してくれたなんて！<line-break>あ、これ、謝礼ね。<end>"
+korean = "어서 와~. 기다렸어! 기쁘지 않아? 그 테러 우두머리를 죽여 줬다니! 아, 이건 사례금이야.<end>"
 
 ["850094"]
 japanese = "だけど、そんなことでは<line-break>予言は終わらないって思うわけ。<end>"

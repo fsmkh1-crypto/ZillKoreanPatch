@@ -24,6 +24,10 @@ korean = "정신을 차려 보니 여기였다고? 그 밖에는 아무것도 �
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["2390008"]
+japanese = "仕方がない。出口まではつれていく。<line-break>あとは自分で何とかしたまえ。<end>"
+korean = "어쩔 수 없군. 출구까지는 데려다주겠다. 나머지는 스스로 어떻게든 하게.<end>"
+
 ["2390010"]
 japanese = "待て、<value:$28>。<end>"
 korean = "기다려, <value:$28>.<end>"

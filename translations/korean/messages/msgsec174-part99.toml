@@ -468,6 +468,10 @@ korean = "고마워. 잘 부탁할게.<end>"
 japanese = "…そう、<line-break>ここで呼び出すのね。<line-break>わかったわ。<end>"
 korean = "…그래, 여기서 불러내는 거구나. 알았어.<end>"
 
+["1740197"]
+japanese = "そう…。　　　　　　　　　　　　　<line-break>なら、仕方ないわね。<line-break>　<line-break>じゃあ、私は私で動くことにするわ。<line-break>ありがとう、<value:$28>。<line-break>さようなら。<end>"
+korean = "그래…. 그렇다면 어쩔 수 없네. 그럼 난 내 방식대로 움직일게. 고마워, <value:$28>. 안녕.<end>"
+
 ["1740200"]
 japanese = "私も、立ち止まるわけにはいかないわ。<line-break>　<line-break>　<line-break>ネメア様のため、<line-break>ドルドラムとゼリグのため、<line-break>そして、自分自身のために…。<end>"
 korean = "나도 멈춰 있을 순 없어. 네메아 님을 위해, 돌드람과 제리그를 위해, 그리고 나 자신을 위해….<end>"

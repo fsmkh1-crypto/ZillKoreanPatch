@@ -452,6 +452,10 @@ korean = "괜찮아요. 그 사람 편을 들어 줄 필요는 없어요. 애초
 japanese = "…ごめんなさい。<line-break>みっともない話を聞かせてしまって。<line-break>　<line-break>でも…王宮なんて、そんな所です。<line-break>外見は立派でも、中身は…。<end>"
 korean = "…미안해요. 보기 흉한 이야기를 들려드렸네요. 하지만… 왕궁이란 그런 곳이에요. 겉은 훌륭해도 속은….<end>"
 
+["640175"]
+japanese = "外の様子はどうです？<line-break>変わりはありませんか？　　　　　<line-break>　<line-break>貴族は、この国のことをもっと<line-break>知るべきです。ですが、<line-break>あまり知ろうとしません。<end>"
+korean = "밖은 어떻습니까? 달라진 건 없나요? 귀족은 이 나라를 더 알아야 합니다. 하지만 알려고 하지 않죠.<end>"
+
 ["640177"]
 japanese = "あ、もうお帰りなのですか？<end>"
 korean = "아, 벌써 돌아가시나요?<end>"
@@ -488,6 +492,10 @@ korean = "여전히 바쁘시군요. 그래도 안심했어요. 아주 건강해
 japanese = "あの方は、今日もどこかで、<line-break>飲んでおいでですの？<end>"
 korean = "그분은 오늘도 어딘가에서 술을 드시고 계신가요?<end>"
 
+["640190"]
+japanese = "決まっています。<line-break>ファーロス総司令のことですわ。<line-break>　<line-break>仮にも私の婚約者でありながら<line-break>めったに王宮に顔を<line-break>出さないんですもの。<end>"
+korean = "정해져 있죠. 파로스 총사령관 이야기입니다. 명색이 제 약혼자이면서 왕궁에는 좀처럼 얼굴도 비치지 않으니까요.<end>"
+
 ["640191"]
 japanese = "もちろん、<line-break>あの方の妻になる気など<line-break>少しもありませんけど。　<line-break>ああ…、考えただけで<line-break>気分が悪くなってきたわ。<line-break>　<end>"
 korean = "물론 그분의 아내가 될 생각은 조금도 없지만요. 아아… 생각만 해도 속이 안 좋아지네요.<end>"
@@ -495,6 +503,10 @@ korean = "물론 그분의 아내가 될 생각은 조금도 없지만요. 아�
 ["640192"]
 japanese = "ごめんなさい。<line-break>せっかく<value:$28>様が<line-break>来てくださったというのに…。<end>"
 korean = "죄송해요. 모처럼 <value:$28> 님이 와 주셨는데….<end>"
+
+["640193"]
+japanese = "外の様子はどうです？<line-break>変わりはありませんか？　　　　　<line-break>　<line-break>貴族は、この国のことをもっと<line-break>知るべきです。ですが、<line-break>あまり知ろうとしません。<end>"
+korean = "밖은 어떻습니까? 달라진 건 없나요? 귀족은 이 나라를 더 알아야 합니다. 하지만 알려고 하지 않죠.<end>"
 
 ["640195"]
 japanese = "あ…、もうお帰りなのですか？<line-break>また、いらしてくださいね。<end>"
@@ -628,6 +640,10 @@ korean = "그럼 안녕. …다음엔 남자친구를 데려와 줘.<end>"
 japanese = "くすっ、<line-break>元気でいい子だわ。<line-break>　<line-break>でもどうしてなのです？<line-break>私、あの子に謝りたかったのに。<line-break>本当のことを話すべきだと…<end>"
 korean = "후훗, 활기차고 착한 아이네요. 그런데 왜 그런 건가요? 전 그 아이에게 사과하고 싶었는데. 사실을 말해야 한다고….<end>"
 
+["640243"]
+japanese = "先日のお人形のことです。<line-break>タルテュバ様がお人形を<line-break>取り上げてしまった女の子に…。<line-break>それに民の暮らしを<line-break>見ておくことも大切でしょう？<end>"
+korean = "얼마 전 인형 이야기예요. 타르튜바 님이 인형을 빼앗아 버린 그 여자아이에게…. 그리고 백성들의 생활을 보는 것도 중요하잖아요?<end>"
+
 ["640244"]
 japanese = "ふーん、それにしては<line-break>おしとやかだね。<end>"
 korean = "흐응, 그래도 꽤 얌전하네.<end>"
@@ -695,6 +711,14 @@ korean = "…자기만족입니다.<end>"
 ["640269"]
 japanese = "あなたは英雄を<line-break>気取っているだけです。<end>"
 korean = "당신은 영웅인 척하고 있을 뿐입니다.<end>"
+
+["640270"]
+japanese = "あそこにはあそこの<line-break>やり方ってもんがある。<line-break>　<line-break>貴族の医者を呼んで<line-break>一流の治療をしてやったところで<line-break>彼らのプライドを傷つけるだけだ。<end>"
+korean = "거기엔 거기 나름의 방식이 있어. 귀족 의사를 불러 일류 치료를 해 줘 봐야 그들의 자존심만 상하게 할 뿐이야.<end>"
+
+["640271"]
+japanese = "いいえ、そんなことを<line-break>言っているのではありません。　<line-break>　<line-break>スラムのあの方たちの暮らし。<line-break>子供の命をなんとも思わない貴族。<line-break>　<end>"
+korean = "아니요, 그런 말을 하는 게 아닙니다. 슬럼에 사는 사람들의 생활, 아이의 목숨을 아무렇지도 않게 여기는 귀족들….<end>"
 
 ["640272"]
 japanese = "その構造を変えない限り、<line-break>同じことが繰り返されるのです。<end>"

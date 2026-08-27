@@ -32,6 +32,10 @@ korean = "자기브여, 자신의 피로 어둠에 눈을 떠라!<end>"
 japanese = "じゃが、シャリよ。<line-break>お主らの切り札は残っておろう？<line-break>あとは任せよう。<line-break>わしはここらで、<line-break>わしの運命に決着をつける。<end>"
 korean = "하지만 샤리여, 너희의 비장의 수는 남아 있겠지? 뒤는 맡기겠다. 나는 여기서 내 운명에 결판을 내겠다.<end>"
 
+["1900025"]
+japanese = "そう。じゃあね、ゾフォル爺さん。<line-break>あとは僕とエルファスでやるよ。<end>"
+korean = "그래. 그럼 잘 있어, 조포르 할아버지. 나머지는 나와 엘파스가 할게.<end>"
+
 ["1900026"]
 japanese = "さて、わしの運命の幕を<line-break>降ろしてもらおうか。<line-break>　<line-break>…ネメアよ。<end>"
 korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
@@ -116,6 +120,10 @@ korean = "자, 깨어나라. 자기브 안에 숨은 어둠이여!<end>"
 japanese = "じゃが、シャリよ。<line-break>お主らの切り札は残っておろう。<line-break>あとは任せよう。<line-break>わしは、ここらで、<line-break>わしの運命に決着をつける。<end>"
 korean = "하지만 샤리여, 너희 비장의 수는 남아 있겠지. 뒤는 맡기겠다. 나는 여기서 내 운명과 결판을 내겠다.<end>"
 
+["1900069"]
+japanese = "そう。じゃあね、ゾフォル爺さん。<line-break>あとは僕とエルファスでやるよ。<end>"
+korean = "그래. 그럼 잘 있어, 조포르 할아버지. 나머지는 나와 엘파스가 할게.<end>"
+
 ["1900070"]
 japanese = "さて、わしの運命の幕を<line-break>降ろしてもらおうか。<line-break>　<line-break>…ネメアよ。<end>"
 korean = "자, 내 운명의 막을 내려다오. …네메아여.<end>"
@@ -131,6 +139,10 @@ korean = "후후후, 그런가. 그럼 마지막 예언을 남기지. 그것은�
 ["1900078"]
 japanese = "ふっふっふ…。　　　　<line-break>　<line-break>　<line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
 korean = "후후후…. 크흑. 소용없다…. 운명은… 변하지 않아….<end>"
+
+["1900081"]
+japanese = "シャリよ、お前の狙いがなんであれ、<line-break>生かしておくわけにはいかぬ。<end>"
+korean = "샤리, 네 목적이 무엇이든 살려 둘 수는 없다.<end>"
 
 ["1900082"]
 japanese = "フフフ、そうだろうね。<line-break>さあ、はじめようか。<end>"
@@ -207,6 +219,10 @@ korean = "좋아. 그럼 힘내서 가자!<end>"
 ["1900111"]
 japanese = "え…！　カ、カルラ様？<end>"
 korean = "어…! 카, 카를라 님?<end>"
+
+["1900112"]
+japanese = "ともかくさ、<line-break>ネメア様帰ってこないんじゃ、　　　<line-break>あたしたちは動けないのよ。<line-break>だから、探してきてよ。<line-break>ってことで、パーティーに空きある？<end>"
+korean = "아무튼 네메아 님이 돌아오지 않으면 우리는 움직일 수 없어. 그러니까 찾아와 줘. 그래서 말인데, 파티에 자리 있어?<end>"
 
 ["1900114"]
 japanese = "よし。じゃ、<line-break>がんばっていってらっしゃい！<end>"

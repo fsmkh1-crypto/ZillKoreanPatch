@@ -8,6 +8,10 @@ korean = "네메아 볼륨 1 시작<end>"
 japanese = "なんにせよ、ありがとよ。　　　　　　<line-break><value:$28>。<line-break>　<end>"
 korean = "어쨌든 고맙다. <value:$28>.<end>"
 
+["400007"]
+japanese = "ここにもいないか…。<line-break>バルザーめ…、<line-break>どういうつもりだ。<end>"
+korean = "여기에도 없나…. 발자르 녀석… 무슨 생각이지.<end>"
+
 ["400008"]
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
@@ -172,6 +176,10 @@ korean = "빈칸<end>"
 japanese = "空<end>"
 korean = "빈칸<end>"
 
+["400067"]
+japanese = "おそらく、円卓騎士バルザー。<line-break>破壊神に仕える屈強の魔人のものだ。<end>"
+korean = "아마 원탁기사 발자르. 파괴신을 섬기는 강인한 마인의 것일 거다.<end>"
+
 ["400072"]
 japanese = "空<end>"
 korean = "빈칸<end>"
@@ -283,6 +291,14 @@ korean = "으…! 모, 몸이 말을 안 들어….<end>"
 ["400105"]
 japanese = "ぬ！　こ、これは！？<line-break>力が…、抜けていく…。<end>"
 korean = "으! 이, 이건!? 힘이… 빠져나간다….<end>"
+
+["400106"]
+japanese = "バカめ！　うかつに近づいてきたな！<line-break>お前たちに渡す気などないわ！<end>"
+korean = "바보 같으니! 경솔하게 다가왔구나! 너희에게 넘길 생각은 없다!<end>"
+
+["400108"]
+japanese = "お主、あの怪物の相手を頼む。<line-break>放っておけば、町にまで被害が及ぶ！<end>"
+korean = "자네, 저 괴물 상대를 부탁한다. 내버려 두면 마을까지 피해가 번진다!<end>"
 
 ["400111"]
 japanese = "強くなっている…。<line-break>ネメアが言ったとおり、<line-break>我はすでにこの若者に…。<line-break>いや…、<line-break>そんなバカなことが…！<end>"
@@ -399,6 +415,14 @@ korean = "…발끈하지 마.<end>"
 ["400149"]
 japanese = "ムキになんかなっていないわ！<end>"
 korean = "발끈한 거 아니거든!<end>"
+
+["400150"]
+japanese = "感情的になってはいかんぞ。<line-break>それでは、普段の力が発揮できまい。<end>"
+korean = "감정적으로 굴면 안 된다. 그러면 평소 실력을 발휘하지 못해.<end>"
+
+["400151"]
+japanese = "黙ってて、ドルドラム。<line-break>私は大丈夫。<line-break>いつも通り戦えるわ！<end>"
+korean = "조용히 해, 돌드람. 난 괜찮아. 평소대로 싸울 수 있어!<end>"
 
 ["400152"]
 japanese = "勇ましいな。<line-break>どれ、加勢しよう。<end>"
@@ -656,6 +680,10 @@ korean = "하지만 이런 때 찾아오다니… 후후, 이것도 천명일지
 japanese = "この方のことならば少し聞いている。<line-break>信頼に足る方だ。<end>"
 korean = "이분 이야기는 조금 들었습니다. 신뢰할 만한 분입니다.<end>"
 
+["400254"]
+japanese = "だから、ネメアとディンガル軍を<line-break>迎え撃つ準備をしているのだよ。<end>"
+korean = "그래서 네메아와 딘갈군을 맞아 싸울 준비를 하고 있는 것이다.<end>"
+
 ["400257"]
 japanese = "な、何事だ！？<end>"
 korean = "무, 무슨 일이야!?<end>"
@@ -671,6 +699,10 @@ korean = "적은 대군이 아닙니다! 저, 적은 총 네 기입니다!<end>"
 ["400261"]
 japanese = "４騎！？　バカな！<end>"
 korean = "4기!? 말도 안 돼!<end>"
+
+["400262"]
+japanese = "ええい、かまわん！　今出ている<line-break>マグマゴーレムでひねりつぶせ！<end>"
+korean = "에잇, 상관없다! 지금 나와 있는 마그마 골렘으로 짓눌러 버려!<end>"
 
 ["400263"]
 japanese = "そ、それが…！<end>"

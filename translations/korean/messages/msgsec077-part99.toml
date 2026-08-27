@@ -140,6 +140,10 @@ korean = "부탁입니다. 한 번만 더 방금 그 빛을 보여 주세요.<en
 japanese = "気に入ってもらえたかな？<end>"
 korean = "마음에 들었으려나?<end>"
 
+["770053"]
+japanese = "そいつはどうかな。<line-break>ここには、<line-break>もっときれいなものがあるぜ。<end>"
+korean = "그건 어떨까. 여기엔 더 아름다운 게 있는데.<end>"
+
 ["770054"]
 japanese = "え？　どこに？<end>"
 korean = "어? 어디로?<end>"
@@ -235,6 +239,10 @@ korean = "아니, 잠깐만요. 이건 뭐라고 쓰여 있는 걸까요?<end>"
 ["770084"]
 japanese = "姉ちゃん、姉ちゃん！　　　<line-break>あんまり店のもんを<line-break>いじめるなって。<line-break>そいつは、もう３０分も<line-break>オーダーを待ってるんだぜ。<end>"
 korean = "누나, 누나! 가게 물건 좀 그만 괴롭혀. 저 사람은 벌써 30분이나 주문을 기다리고 있다고.<end>"
+
+["770085"]
+japanese = "ごめんなさい。<line-break>でも、知らない模様…<line-break>いえ、文字ばかりで…。<end>"
+korean = "죄송합니다. 하지만 모르는 무늬… 아니, 글자뿐이라서….<end>"
 
 ["770086"]
 japanese = "へへへ…。<line-break>おもしれえ姉ちゃんだ。<line-break>どれ、俺が教えてやるぜ。　　　　<line-break>この店で食うんなら、これだ。<line-break>スライムのあんかけ。<end>"
@@ -332,6 +340,10 @@ korean = "꺄아아아아!! 어머니! 어머니!!<end>"
 japanese = "イヤ…嫌ァアアアアア！！　　<line-break>　<line-break>　<line-break>お母様！　お母様！<line-break>置いていかないで！　お母様！<end>"
 korean = "싫어… 싫어어어어어!! 어머니! 어머니! 두고 가지 마세요! 어머니!<end>"
 
+["770128"]
+japanese = "困るなあ、<line-break>調教のジャマされちゃ…。　　　　<line-break>　<line-break>まあ、人形はまた作ればいいし、<line-break>せっかくだから、君もお人形さんで<line-break>遊んでいきなよ。<end>"
+korean = "곤란하네, 조교를 방해하면…. 뭐, 인형은 다시 만들면 되고, 모처럼이니 너도 인형이랑 놀다 가.<end>"
+
 ["770130"]
 japanese = "何度もこんなことするの、<line-break>本当はイヤなんだけどなあ…。<end>"
 korean = "몇 번이나 이런 짓을 하는 건 사실 싫은데….<end>"
@@ -359,6 +371,10 @@ korean = "아 정말, 싫다. <value:$28>, 너 때문에 조교가 완전히 실
 ["770141"]
 japanese = "うふ…ふふ…ふ…。<line-break>だ、大丈夫…ですか？<end>"
 korean = "후후… 후후… 후…. 괘, 괜찮…으세요?<end>"
+
+["770142"]
+japanese = "よ、よかった…。<line-break>ふ…ふふふ…ふ…、<line-break>わ、私…は…、少し…震えています。<line-break>よろしければ、<line-break>も、もう少しだけ…<line-break>落ち着くまで…そ、そばに…。<end>"
+korean = "다, 다행이다…. 후… 후후후… 저, 저는… 조금 떨고 있습니다. 괜찮다면 조, 조금만 더… 진정될 때까지… 곁에….<end>"
 
 ["770143"]
 japanese = "フ…フフ…<line-break>私…は…。<line-break>私…は…。<end>"

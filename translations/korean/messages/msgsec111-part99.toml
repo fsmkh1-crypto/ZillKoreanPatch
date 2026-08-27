@@ -32,6 +32,10 @@ korean = "빈 메시지<end>"
 japanese = "空きメッセージ<end>"
 korean = "빈 메시지<end>"
 
+["1110008"]
+japanese = "おう！　<value:$28>。<line-break>なんかすごいことになってるぜ。　<line-break>　<line-break>ディンガルの四天王のひとり、<line-break>玄武将軍ザギヴが、<line-break>お前に礼を言いたいそうだ。<end>"
+korean = "오! <value:$28>. 뭔가 굉장한 일이 벌어졌어. 딘갈 사천왕 중 하나인 현무 장군 자기브가 네게 감사하고 싶대.<end>"
+
 ["1110010"]
 japanese = "無限のソウルの資質を持つ者よ。<line-break>私の執務室まで来てくれ。<end>"
 korean = "무한의 소울 자질을 가진 자여. 내 집무실로 와 주게.<end>"

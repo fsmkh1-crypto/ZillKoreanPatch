@@ -508,6 +508,14 @@ korean = "예비 메시지 128 아기르샤이아 볼륨 1, 그 2<end>"
 japanese = "よぉ、<value:$28><line-break>邪魔していいか？<end>"
 korean = "여어, <value:$28>. 방해 좀 해도 될까?<end>"
 
+["700209"]
+japanese = "セラって奴さ。見てると<line-break>リディオンのこと、思い出すんだ。　<line-break>　<line-break>あいつも、不器用で片意地で<line-break>心の中の言葉を、<line-break>うまく、口にできない。<end>"
+korean = "세라라는 녀석 말이야. 보고 있으면 리디온이 생각나. 그 녀석도 서툴고 고집 세고, 마음속 말을 제대로 입 밖에 못 냈지.<end>"
+
+["700210"]
+japanese = "奴もリディオンみたいな重いものを　<line-break>心に持ってるんだ…って思う。<line-break>　<line-break>例えば、<line-break>奴とアーギルシャイアとが<line-break>不自然なほど似てることとか、さ。<end>"
+korean = "녀석도 리디온처럼 무거운 걸 마음에 품고 있는 것 같아…. 예를 들면 녀석과 아기르샤이아가 부자연스러울 정도로 닮은 것 같은 거.<end>"
+
 ["700212"]
 japanese = "さすがに夜は冷え込むよな…<line-break><value:$28>、中に入ろうぜ。<end>"
 korean = "역시 밤은 춥네…. <value:$28>, 안으로 들어가자.<end>"
@@ -543,6 +551,14 @@ korean = "역시 밤은 춥네. <value:$28>, 안으로 들어갈래?<end>"
 ["700231"]
 japanese = "やあ、<value:$28>…<line-break>ボク、そっち行っても、いい？<end>"
 korean = "안녕, <value:$28>…. 나, 그쪽으로 가도 돼?<end>"
+
+["700233"]
+japanese = "でも、事実だよ。<line-break>ボク、セラほど強くない。　　<line-break>　<line-break>セラは強いし、美しいよ。<line-break>ボクもセラみたいに強くて<line-break>きれいだったらなって思う…。<end>"
+korean = "하지만 사실이야. 난 세라만큼 강하지 않아. 세라는 강하고 아름다워. 나도 세라처럼 강하고 예뻤으면 좋겠다고 생각해….<end>"
+
+["700235"]
+japanese = "…アーギルシャイアも<line-break>強くてきれいだよね。<line-break>　<line-break>ボク、弱くて、役に立てないくらいなら<line-break>闇に堕ちても、強くなって、<line-break>キミを…守りたい。<end>"
+korean = "…아기르샤이아도 강하고 아름답지. 내가 약해서 도움이 안 되느니 차라리 어둠에 떨어져서라도 강해져 널… 지키고 싶어.<end>"
 
 ["700237"]
 japanese = "<value:$28>…<line-break>そっち行って…いい？<end>"
@@ -623,6 +639,10 @@ korean = "별하늘도 예쁘지만 세라도 예쁘지.<end>"
 ["700274"]
 japanese = "ねえ、セラとアーギルシャイアの<line-break>関係って、なんだと思う？<end>"
 korean = "있지, 세라와 아기르샤이아는 무슨 관계라고 생각해?<end>"
+
+["700275"]
+japanese = "あなた、なんとも思わないの？<line-break>あんなに似てるじゃない。<line-break>　<line-break>ほんっとに<line-break>人間が大きいっていうか…<line-break>のんびりしてるっていうか。<end>"
+korean = "당신, 아무렇지도 않아? 저렇게 닮았잖아. 정말 통이 크다고 해야 하나… 느긋하다고 해야 하나.<end>"
 
 ["700276"]
 japanese = "ま、そこがいいところかも<line-break>しれないんだけどね。<end>"

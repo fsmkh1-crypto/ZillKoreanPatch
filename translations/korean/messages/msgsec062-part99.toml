@@ -72,6 +72,10 @@ korean = "이 몸의 사랑의 날개는 언제든 널 감싸 줄 거야!<end>"
 japanese = "だ、大丈夫ですかっ！<end>"
 korean = "괘, 괜찮으세요!?<end>"
 
+["620021"]
+japanese = "ごめんなさい…私なんかのために…。<line-break>…ケガをさせてしまって…。<end>"
+korean = "미안해요… 저 같은 사람 때문에…. 다치게 해서….<end>"
+
 ["620022"]
 japanese = "あ、あの失礼ですが、お名前は…。<end>"
 korean = "저, 실례지만 성함은….<end>"
@@ -167,6 +171,10 @@ korean = "간트 두목, 힘내 고브.<end>"
 ["620053"]
 japanese = "よろしくお願いするでゴブ。<end>"
 korean = "잘 부탁한다 고브.<end>"
+
+["620054"]
+japanese = "幻術計振れておらず、<line-break>犯罪登録にも当てはまらず…。　<line-break>　<line-break>これで登録は終了だ。<line-break>あんたらも今日から冒険者だよ。<line-break>がんばりな。<end>"
+korean = "환술 계통에도 해당되지 않고, 범죄 등록에도 걸리지 않고…. 이걸로 등록은 끝이다. 너희도 오늘부터 모험자야. 힘내.<end>"
 
 ["620055"]
 japanese = "団長！<end>"
@@ -384,6 +392,10 @@ korean = "두목, 내가 틀렸어 고브!<end>"
 japanese = "あんたたち！<line-break>今度は逃がさないわ！<end>"
 korean = "너희들! 이번엔 놓치지 않을 거야!<end>"
 
+["620130"]
+japanese = "わかってるわよ。<line-break>所持金が船賃には足りないんでしょ。<line-break>　<line-break>任せときなさいって。<line-break>こういう時にこそ、<line-break>私の美貌が役に立つのよ。<end>"
+korean = "알고 있어. 가진 돈이 뱃삯에 모자라지? 맡겨 두라니까. 이럴 때야말로 내 미모가 도움이 되는 거야.<end>"
+
 ["620132"]
 japanese = "うるうるうる…。<end>"
 korean = "울먹울먹울먹….<end>"
@@ -415,6 +427,10 @@ korean = "시끄럽네. 불평 말고 얼른 배에 타.<end>"
 ["620141"]
 japanese = "いや、<value:$28>の<line-break>言ってるのは文句じゃなくてゴブね。<line-break>　<line-break>その、危ないゴブよ。<line-break>もっと、自分を大切にした方が<line-break>いいゴブよ。<end>"
 korean = "아니, <value:$28>이 하는 말은 불평이 아니다 고브. 그게, 위험하다 고브. 좀 더 자신을 소중히 하는 게 좋다 고브.<end>"
+
+["620142"]
+japanese = "あのガサツ女、<line-break>顔はかわいいのに…。　　　　　<line-break>お前も女運悪いゴブね。<line-break>でも、マジメにがんばってれば、<line-break>きっと幸せになれるゴブよ。<end>"
+korean = "그 거친 여자, 얼굴은 귀여운데…. 너도 여자 운이 없구나 고브. 그래도 성실하게 노력하면 분명 행복해질 거다 고브.<end>"
 
 ["620143"]
 japanese = "ううー、何であんなに<line-break>こき使われなきゃならないのよー！<end>"
@@ -523,6 +539,10 @@ korean = "냐아앙, 냐아앙.<end>"
 ["620186"]
 japanese = "この人ゴブ！<line-break>ピンときたゴブ！　　　　<line-break>　<line-break>やさしそうだし、美形だし、<line-break>結構実力ありそうだし、<line-break>実は性格悪そうだし。<end>"
 korean = "이 사람이다 고브! 느낌이 왔다 고브! 상냥해 보이고, 잘생겼고, 꽤 실력도 있어 보이고, 사실 성격은 나빠 보이고.<end>"
+
+["620187"]
+japanese = "この人こそ<line-break>我らを幸せの大地に　　　<line-break>導いてくれるゴブ！<end>"
+korean = "이분이야말로 우리를 행복의 땅으로 이끌어 줄 분이다 고브!<end>"
 
 ["620188"]
 japanese = "ゴブゴブ団の<line-break>ガント団長さんですね？<end>"
@@ -692,6 +712,10 @@ korean = "아, 대답하기 곤란하면 굳이 안 해도 돼.<end>"
 japanese = "…寝てるわ。<line-break>…相変わらず子供ねえ。<end>"
 korean = "…자고 있네. …여전히 애라니까.<end>"
 
+["620261"]
+japanese = "でも、聞かれなくてよかった…。　<line-break>　<line-break>　<line-break>言わずにはいられなかったけど、<line-break>聞かれたら今までと同じじゃ<line-break>いられなかったもの…。<end>"
+korean = "하지만 묻지 않아서 다행이야…. 말하지 않고는 견딜 수 없었지만, 물었다면 지금까지와 똑같을 수는 없었을 테니까….<end>"
+
 ["620262"]
 japanese = "<value:$28>、<line-break>あなたは、私が、守ってあげる…。<end>"
 korean = "<value:$28>, 당신은 내가 지켜 줄게….<end>"
@@ -699,6 +723,10 @@ korean = "<value:$28>, 당신은 내가 지켜 줄게….<end>"
 ["620263"]
 japanese = "おはよう、<value:$28>。<line-break>今日はもう旅に出るんですか？<end>"
 korean = "좋은 아침, <value:$28>. 오늘도 벌써 여행을 떠나는 건가요?<end>"
+
+["620264"]
+japanese = "そうですか。　　　　　　　　　　<line-break>　<line-break>　<line-break>でも、覚えていてください。<line-break>これはあなたを巡る長い物語の<line-break>ほんの序章にすぎません。<end>"
+korean = "그렇군요. 하지만 기억해 주세요. 이건 당신을 둘러싼 긴 이야기의 겨우 서장일 뿐입니다.<end>"
 
 ["620266"]
 japanese = "やれやれ、鎧を着たまま<line-break>眠っていたんですか…。　　　　　<line-break>　<line-break>逆に、別れたい仲間を、望む所に<line-break>送り出してやることもできます。<end>"
@@ -755,6 +783,10 @@ korean = "파괴신 우르그의 부활에 쓰인 강력한 마도기입니다. 
 ["620287"]
 japanese = "禁断の聖杯については<line-break>今、ゴブゴブ団という<line-break>３匹のゴブリンが持っています。<line-break>とりあえず、現在<line-break>彼らはエンシャントにいますよ。<end>"
 korean = "금단의 성배는 지금 고브고브단이라는 세 고블린이 가지고 있습니다. 현재는 엔샨트에 있어요.<end>"
+
+["620290"]
+japanese = "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break><end>"
+korean = "원탁기사에는 그 밖에도 아기르샤이아 등이 있습니다.<end>"
 
 ["620293"]
 japanese = "そうですか。<end>"
@@ -851,6 +883,10 @@ korean = "아, 괘, 괜찮아여!<end>"
 ["620320"]
 japanese = "ありがとうございます…<line-break>これでしばらく笑顔でいられます。<end>"
 korean = "감사합니다… 이걸로 한동안은 웃으며 지낼 수 있겠어요.<end>"
+
+["620323"]
+japanese = "あー、<value:$28>さん<line-break>いらっしゃいませー！　　　　　　　<line-break>　<line-break>今、ちょうど、ヒマなんで、<line-break>私が考えた新メニューを<line-break>作っていたところなんです。<end>"
+korean = "아, <value:$28> 씨 어서 오세요! 지금 마침 한가해서 제가 생각한 새 메뉴를 만들고 있었어요.<end>"
 
 ["620325"]
 japanese = "<value:$28>は<line-break>致命的なダメージを受けた。<end>"

@@ -44,6 +44,10 @@ korean = "윽! 아, 아니, 그건….<end>"
 japanese = "ほら、行くわよ<value:$28>！<end>"
 korean = "자, 가자 <value:$28>!<end>"
 
+["2060016"]
+japanese = "べ、別にあんたたちを<line-break>助けたわけじゃないわよ。<line-break>　<line-break>アタクシは早くおフロで<line-break>ゆっくりしたかっただけなの。<line-break>誤解しないでちょうだい。<end>"
+korean = "벼, 별로 너희를 도운 게 아니야. 난 빨리 목욕하면서 쉬고 싶었을 뿐이라고. 오해하지 마.<end>"
+
 ["2060017"]
 japanese = "迫害のダークエルフ用終端<end>"
 korean = "박해받는 다크엘프용 끝<end>"

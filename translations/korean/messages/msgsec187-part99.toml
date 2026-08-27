@@ -20,6 +20,10 @@ korean = "지금은 바빠<end>"
 japanese = "ここが竜王様のおられる島だ。<line-break>ノエルはすでにソウルイーターと<line-break>戦っているかもしれぬな。<line-break>お前も急いでくれ。<end>"
 korean = "여기가 용왕님이 계신 섬이다. 노엘은 이미 소울이터와 싸우고 있을지도 모른다. 너도 서둘러라.<end>"
 
+["1870009"]
+japanese = "あぁ…レイヴン…<line-break>カフィン…<line-break>こんなことに…なるなんて…。<end>"
+korean = "아아… 레이븐… 카핀… 이런 일이… 되다니….<end>"
+
 ["1870010"]
 japanese = "あ…<line-break><value:$28>…さん。<line-break>来てくれたんですね…。<end>"
 korean = "아… <value:$28>… 씨. 와 주셨군요….<end>"
@@ -59,6 +63,10 @@ korean = "방금 뭐라고…?<end>"
 ["1870022"]
 japanese = "え？　え！？<line-break>…それは、どうすれば…？<end>"
 korean = "어? 어!? …그건 어떻게 하면 돼…?<end>"
+
+["1870023"]
+japanese = "ここは、竜王様のおられる地。<line-break>竜王様に願うのだ。ふたりの復活を。<end>"
+korean = "여기는 용왕님이 계신 땅. 용왕님께 빌어라. 두 사람의 부활을.<end>"
 
 ["1870024"]
 japanese = "竜王様に…願う…？<end>"
@@ -119,6 +127,10 @@ korean = "걱정 끼쳤군. …미안하다.<end>"
 ["1870045"]
 japanese = "…うん。<end>"
 korean = "…응.<end>"
+
+["1870046"]
+japanese = "ノエル、<line-break>ありがとう。　　　　　　　　　　　<line-break>　<line-break>よかったね。あんたが<line-break>がんばってるってこと、<line-break>ちゃんと見てくれてる方がいたんだ。<end>"
+korean = "노엘, 고마워. 다행이네. 네가 열심히 하고 있다는 걸 제대로 지켜봐 준 분이 있었어.<end>"
 
 ["1870047"]
 japanese = "…うん。<end>"

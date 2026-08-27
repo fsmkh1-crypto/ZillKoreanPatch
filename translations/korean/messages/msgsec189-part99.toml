@@ -56,6 +56,10 @@ korean = "<value:$28>여, 세계를 보고 무엇을 느꼈나? 세계는 슬픔
 japanese = "新たな力を得たくはないか？<end>"
 korean = "새로운 힘을 얻고 싶지 않나?<end>"
 
+["1890026"]
+japanese = "マノンは、かつて<line-break>この塔にいた女魔道士だ。　　<line-break>　<line-break>そのマノンの力を封じた腕輪に<line-break>打ち勝つことができれば、<line-break>汝は新たな力を得よう。<end>"
+korean = "마논은 예전에 이 탑에 있던 여마도사다. 그 마논의 힘을 봉인한 팔찌를 이겨낼 수 있다면 그대는 새로운 힘을 얻을 것이다.<end>"
+
 ["1890027"]
 japanese = "今はまだ、マノンの腕輪は<line-break>深い眠りについているようだが、<line-break>私が起こしておこう。<line-break>訪れてみるがいい。<end>"
 korean = "지금은 아직 마논의 팔찌가 깊이 잠들어 있는 것 같지만, 내가 깨워 두지. 한번 찾아가 보도록 해.<end>"
@@ -176,6 +180,10 @@ korean = "기다리고 있을게, <value:$28>.<end>"
 japanese = "では、行きますよ。<end>"
 korean = "그럼, 갑니다.<end>"
 
+["1890091"]
+japanese = "どうでしょうね？<line-break>あとはネメア次第です。　　　　<line-break>　<line-break>この子の精神が<line-break>ウルグに破壊されていなければ、<line-break>戻ってくるでしょう。<end>"
+korean = "글쎄요? 이제 네메아에게 달렸습니다. 이 아이의 정신이 울그에게 파괴되지 않았다면 돌아오겠지요.<end>"
+
 ["1890092"]
 japanese = "ともかく、<line-break>今は猫屋敷に戻りましょう。<end>"
 korean = "아무튼 지금은 고양이 저택으로 돌아가죠.<end>"
@@ -183,6 +191,10 @@ korean = "아무튼 지금은 고양이 저택으로 돌아가죠.<end>"
 ["1890093"]
 japanese = "<value:$28>、ありがとう。<line-break>なんてお礼を言ったらいいのか…。<end>"
 korean = "<value:$28>, 고마워. 뭐라고 감사해야 할지….<end>"
+
+["1890094"]
+japanese = "安心するのは、まだ早いですよ。<line-break>ネメアはまだ目覚めていませんから。<line-break>　<line-break>この子が破壊神の精神に<line-break>負けていたら、このままですから。<end>"
+korean = "안심하긴 아직 이릅니다. 네메아는 아직 깨어나지 않았으니까요. 이 아이가 파괴신의 정신에 졌다면 이대로입니다.<end>"
 
 ["1890095"]
 japanese = "そ、そんな…！<line-break>私に…、私にできることは？<end>"
@@ -279,6 +291,10 @@ korean = "어라? 누가 왔나?<end>"
 ["1890132"]
 japanese = "その戦い、手を貸そう。<end>"
 korean = "그 싸움, 힘을 보태지.<end>"
+
+["1890135"]
+japanese = "君はこの恐怖の存在を<line-break>目の前にしても、<line-break>まだ立ち向かうの？<end>"
+korean = "이 공포의 존재를 눈앞에 두고도 아직 맞설 생각이야?<end>"
 
 ["1890136"]
 japanese = "フフフ、さすがだよ。<line-break>それでこそ、だよ。<end>"

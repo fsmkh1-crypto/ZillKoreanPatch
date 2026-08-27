@@ -20,9 +20,17 @@ korean = "이 감각… 틀림없어. 무한의 소울….<end>"
 japanese = "<value:$28>…。冒険者なのね。<end>"
 korean = "<value:$28>…. 모험자구나.<end>"
 
+["2600006"]
+japanese = "ちょうどいいわ。今、私ひとりなの。<line-break>一緒に組まない？<line-break>　<line-break>自分で言うのも何だけど、<line-break>そこいらの冒険者より<line-break>よっぽど役に立つと思うわ。<end>"
+korean = "마침 잘됐네. 지금 나 혼자야. 같이 할래? 내 입으로 말하긴 그렇지만 웬만한 모험자보다 훨씬 도움이 될 거야.<end>"
+
 ["2600007"]
 japanese = "ありがとう。助かる。<line-break>よろしくね。<end>"
 korean = "고마워. 도움이 됐어. 잘 부탁해.<end>"
+
+["2600008"]
+japanese = "えっ？　賢者の森にある猫屋敷？<line-break>…わかったわ。どこに居ても<line-break>そこで呼び出してくれるのね。<line-break>じゃ、待ってるから、<line-break>いつでも呼んでちょうだい。<end>"
+korean = "응? 현자의 숲에 있는 고양이 저택? …알았어. 어디 있든 거기서 불러 주는 거지. 그럼 기다릴 테니 언제든 불러 줘.<end>"
 
 ["2600009"]
 japanese = "ジリオン＆イーシャイベント01用開終端<end>"

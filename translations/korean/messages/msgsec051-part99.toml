@@ -16,6 +16,10 @@ korean = "흐응, 데이트 신청?<end>"
 japanese = "そうね。私たちじゃないけど<line-break>叔母様がお会いしたいって。<end>"
 korean = "그래. 우리가 아니라 숙모님께서 만나고 싶으시대.<end>"
 
+["510005"]
+japanese = "…んなこと突然、言われてもなあ。　　<line-break>　<line-break>　<line-break>俺は今、とーってもでっかいものを<line-break>追っかけてるんでな。<line-break>悪いが戻れんと、叔母貴に伝えてくれ。<end>"
+korean = "…그런 말을 갑자기 해도 말이지. 나는 지금 엄청나게 큰 걸 쫓고 있어서. 미안하지만 못 돌아간다고 숙모에게 전해 줘.<end>"
+
 ["510010"]
 japanese = "来ていただけるかしら、<line-break>ゼネテス様？<end>"
 korean = "와 주시겠어요, 제네테스 님?<end>"
@@ -79,6 +83,10 @@ korean = "여동생을 지키기 위해서라면 뭐든 할 거야.<end>"
 ["510034"]
 japanese = "…お前さんの勝ちだ。<line-break>わかった。行くよ。<end>"
 korean = "…네가 이겼다. 알았어. 갈게.<end>"
+
+["510035"]
+japanese = "<value:$28>、<line-break>悪いが、急用ができた。<line-break>俺はここで降ろさせてもらう。<line-break>厄介なことに、<line-break>俺にしかできない用事でな。<line-break>だから、しばらくはお別れだ。<end>"
+korean = "<value:$28>, 미안하지만 급한 일이 생겼다. 난 여기서 내릴게. 성가시게도 나밖에 할 수 없는 일이거든. 그러니 한동안 작별이다.<end>"
 
 ["510037"]
 japanese = "うん…<end>"

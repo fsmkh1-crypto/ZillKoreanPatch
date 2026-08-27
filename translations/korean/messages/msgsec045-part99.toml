@@ -16,6 +16,10 @@ korean = "훗, 내 팬인가!<end>"
 japanese = "未来の勇者は忙しいが、<line-break>特別に握手に応じてやろう。<end>"
 korean = "미래의 용자는 바쁘지만 특별히 악수해 주지.<end>"
 
+["450004"]
+japanese = "さあ！　俺様の熱い魂の鼓動を<line-break>手のひらから思う存分感じてくれ！<end>"
+korean = "자! 내 뜨거운 영혼의 고동을 손바닥으로 마음껏 느껴라!<end>"
+
 ["450005"]
 japanese = "あ、危ないじゃないかっ！　　　　　<end>"
 korean = "아, 위험하잖아!<end>"
@@ -51,6 +55,10 @@ korean = "나는 네가 테라네에서 다치게 한 반의 복수를 하러 �
 ["450014"]
 japanese = "確かに、テラネで不良少年に<line-break>教育的指導をした覚えはあるが、　　<line-break><line-break>まさか、あの少年まで<line-break>魔王の刺客だったとは…！<end>"
 korean = "확실히 테라네에서 불량소년을 교육적으로 지도한 기억은 있지만, 설마 그 소년까지 마왕의 자객이었다니…!<end>"
+
+["450015"]
+japanese = "許せん！　よくも俺様をだましたな！<line-break>この魔王第二の刺客めぇえ！<end>"
+korean = "용서 못 해! 감히 날 속이다니! 이 마왕의 두 번째 자객 녀석아아!<end>"
 
 ["450016"]
 japanese = "違うよ。<line-break>どうしてそんな風になっちゃうんだよ。<line-break><line-break>僕は、ヴァンの仇を…。<end>"
@@ -132,6 +140,10 @@ korean = "용사는… 고독해!<end>"
 japanese = "大丈夫か？<end>"
 korean = "괜찮아?<end>"
 
+["450043"]
+japanese = "若くて威勢がいいのもいいが、<line-break>あんまり、無茶するんじゃないぞ。<end>"
+korean = "젊고 기운 좋은 것도 좋지만 너무 무리하진 마라.<end>"
+
 ["450045"]
 japanese = "君は？<end>"
 korean = "너는?<end>"
@@ -176,6 +188,10 @@ korean = "그럼 난 <value:$28>이 불러 줄 때까지 기다리고 있을게.
 japanese = "ナッジを今すぐに<line-break>仲間に加えますか？<end>"
 korean = "나지를 지금 바로 동료로 맞이하시겠습니까?<end>"
 
+["450057"]
+japanese = "わかった。それじゃ、この町の<line-break>出入り口で合流すればいいんだね。<end>"
+korean = "알았어. 그럼 이 마을 출입구에서 합류하면 되는 거지.<end>"
+
 ["450058"]
 japanese = "わかった。　　　　　　　　　　　<end>"
 korean = "알겠어.<end>"
@@ -204,6 +220,10 @@ korean = "요즘 인간들의 뿔 사냥 때문에 우리 수는 점점 줄어�
 japanese = "でも、角は僕らの急所だから<line-break>取られたら死んじゃうんだ！！<end>"
 korean = "하지만 뿔은 우리 급소라서 빼앗기면 죽고 말아!!<end>"
 
+["450077"]
+japanese = "う、うちのヴァンをどこにやった！<line-break>こっ、この、ひとさらいめ！！<end>"
+korean = "우, 우리 반을 어디로 데려갔어! 이, 이 유괴범 놈아!!<end>"
+
 ["450078"]
 japanese = "貴様…！<line-break>貴様のせいででヴァンは！！<line-break><line-break>…出て行け！<line-break>私が紳士的なうちに<line-break>出て行くんだ！！<end>"
 korean = "네놈…! 네놈 때문에 반은!! …나가라! 내가 신사적으로 말할 때 나가!!<end>"
@@ -211,6 +231,10 @@ korean = "네놈…! 네놈 때문에 반은!! …나가라! 내가 신사적으
 ["450080"]
 japanese = "貴様…！<line-break>冒険者…！　　　　<line-break><line-break>…出て行け！<line-break>私が紳士的なうちに<line-break>出て行くんだ！！<end>"
 korean = "네놈…! 모험자…! …나가라! 내가 신사적으로 말할 때 나가!!<end>"
+
+["450081"]
+japanese = "うちは巡礼客だけでやってるんでな。<line-break>冒険者を泊める気はないよ。<end>"
+korean = "우린 순례객만 받는다. 모험자를 재울 생각은 없어.<end>"
 
 ["450089"]
 japanese = "ナッジ…よくも、よくも、<line-break>私たちの前に顔が出せたもんだな！<line-break>　<line-break>お前のせいでヴァンは！<end>"
@@ -340,6 +364,10 @@ korean = "그럼 나, 열심히 해볼게.<end>"
 japanese = "じゃあ今回は見送ることにするよ。<end>"
 korean = "그럼 이번엔 보류할게.<end>"
 
+["450127"]
+japanese = "へっへっへ！<line-break>コーンスのひとり旅は危ないよ？<line-break>坊ちゃん。<end>"
+korean = "헤헤헤! 코른스가 혼자 여행하면 위험하지? 도련님.<end>"
+
 ["450134"]
 japanese = "というわけだ。<line-break>さ、角をよこしてくれ。<end>"
 korean = "그런 거다.자, 뿔을 내놔.<end>"
@@ -403,6 +431,10 @@ korean = "나….<end>"
 ["450156"]
 japanese = "…あっ！　お客様！<line-break>勝手にあがられては困ります！<end>"
 korean = "아! 손님! 멋대로 들어오시면 곤란합니다!<end>"
+
+["450157"]
+japanese = "すべて承知したぞ、宿屋の主人！<line-break>あとは俺様に任せろ！<line-break>　<end>"
+korean = "모두 알겠다, 여관 주인! 나머지는 내게 맡겨라!<end>"
 
 ["450160"]
 japanese = "ガ、ガルドラン！？<end>"
@@ -475,6 +507,10 @@ korean = "죽여 버리겠어!<end>"
 ["450188"]
 japanese = "なんか。ヤバそうな奴ですぜ。<line-break>アニキ。<end>"
 korean = "뭔가 위험해 보이는 놈입니다.형님.<end>"
+
+["450189"]
+japanese = "ああ、わかってる。<line-break>なんたってあのポーズだからな…。<line-break>　<end>"
+korean = "그래, 알고 있어. 아무래도 그 포즈니까….<end>"
 
 ["450191"]
 japanese = "うるせえ！<line-break>これでも食らいやがれ！！<end>"
@@ -663,6 +699,10 @@ korean = "반… 원수는 갚았어.<end>"
 ["450254"]
 japanese = "よう、<value:$28>。<line-break>よく来たな。　　　　　　　　　　　　<line-break>　<line-break>今日は親父が留守なんだ。<line-break>運がいいな。<end>"
 korean = "여, <value:$28>. 잘 왔다. 오늘은 아버지가 안 계셔. 운이 좋군.<end>"
+
+["450257"]
+japanese = "なんだって？　<line-break>ひでえな、俺だけ置いてけぼりかよ。<line-break>　<line-break>で、奴は死ぬ前になんて言ってた？<line-break>俺に対するわびを泣きながら<line-break>言ってやがったのか？<end>"
+korean = "뭐라고? 너무하네, 나만 두고 간 거야? 그래서 녀석은 죽기 전에 뭐라고 했어? 나한테 미안하다고 울면서 말하던가?<end>"
 
 ["450258"]
 japanese = "いや、ガルドランは<line-break>殺さなかったんだ。<end>"

@@ -1,5 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["230039"]
+japanese = "依頼したいのは<value:$15>の探索と入手。<line-break>期限は、<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアだ。<line-break>鍛冶屋ギルドにとって重要な材料だ。<line-break>よろしく頼む。<end>"
+korean = "의뢰하고 싶은 건 <value:$15>의 탐색과 입수다. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다. 대장장이 길드에 중요한 재료다. 부탁한다.<end>"
+
+["230041"]
+japanese = "<value:$15>が、必要になりました。<line-break>そこで、冒険者の方にお願いしようと思います。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアとさせていただきます。<end>"
+korean = "<value:$15>이 필요하게 되었습니다. 그래서 모험자분께 부탁드리려 합니다. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어입니다.<end>"
+
 ["230049"]
 japanese = "<value:$15>を探し出し、入手してほしい。<line-break>期限は、<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアとする。<end>"
 korean = "<value:$15>을 찾아 입수해 줬으면 한다. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다.<end>"

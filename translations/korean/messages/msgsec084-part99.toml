@@ -12,6 +12,10 @@ korean = "응? 딸? 무슨 소리야?<end>"
 japanese = "おわっ！<end>"
 korean = "우왓!<end>"
 
+["840006"]
+japanese = "うん。<line-break>いっそ、その方が気持ちイイし。<line-break>勝負しようじゃない。<end>"
+korean = "응. 차라리 그쪽이 속 시원하고. 승부하자.<end>"
+
 ["840007"]
 japanese = "ちょっと、あんた！<line-break>何ボーっと見てんのよ！<end>"
 korean = "잠깐, 너! 뭘 멍하니 보고 있어!<end>"
@@ -31,6 +35,10 @@ korean = "그거 충분히 나쁜 거잖아.<end>"
 ["840013"]
 japanese = "うう…。<end>"
 korean = "으으….<end>"
+
+["840015"]
+japanese = "…それにしてもくやしいな。　　<line-break>一足遅かったか。<line-break>　<line-break>こいつの話じゃ、連れてこられた<line-break>女の子は、もうペウダのところに<line-break>運び込まれたってさ。<end>"
+korean = "…그나저나 분하네. 한발 늦었나. 이 녀석 말로는 끌려온 여자아이는 이미 페우다에게 보내졌대.<end>"
 
 ["840020"]
 japanese = "一緒に行く<end>"
@@ -75,6 +83,10 @@ korean = "그래. 그럼 나 혼자 갈 테니까.<end>"
 ["840033"]
 japanese = "空　０３３<line-break>カルラ、ボリューム１<end>"
 korean = "빈칸 033 카를라, 볼륨 1<end>"
+
+["840036"]
+japanese = "ここはね、エサの搬入口。<line-break>ペウダが飼ってるモンスターのエサよ。<line-break>　<line-break>きっと、とんでもない大食らいなのね。<line-break>…エサの中身は知りたくないけど。<end>"
+korean = "여기는 먹이 반입구야. 페우다가 기르는 몬스터 먹이지. 엄청난 대식가인가 봐. …먹이 내용물은 알고 싶지 않지만.<end>"
 
 ["840039"]
 japanese = "ほーらね、<line-break>カルラ様の言ったとおり。<end>"

@@ -40,6 +40,10 @@ korean = "싫어! …문이, 열려어!<end>"
 japanese = "いやあっ！<line-break>ソウルが共鳴して…<line-break>入って…きちゃう！<end>"
 korean = "싫어엇! 소울이 공명해서… 안으로… 들어와 버려!<end>"
 
+["800030"]
+japanese = "よくやった、<line-break>これで英雄ソウル、マノンを<line-break>手に入れられよう。<end>"
+korean = "잘했다. 이제 영웅 소울 마논을 손에 넣을 수 있겠군.<end>"
+
 ["800031"]
 japanese = "<value:$28>は<line-break>英雄ソウル、マノンを修得した。<end>"
 korean = "<value:$28>은 영웅 소울 마논을 습득했다.<end>"
@@ -51,6 +55,10 @@ korean = "아~! 손님이다!<end>"
 ["800037"]
 japanese = "きみを守って姿を消した大事な人？<end>"
 korean = "널 지키고 사라진 소중한 사람?<end>"
+
+["800038"]
+japanese = "親の仇？　凶々しい魔道器？<line-break>聖杯？　妖艶な美女？<line-break>それとも…<end>"
+korean = "부모의 원수? 흉흉한 마도기? 성배? 요염한 미녀? 아니면….<end>"
 
 ["800039"]
 japanese = "世界に潜む、謎という謎？<end>"
@@ -79,6 +87,10 @@ korean = "복수?<end>"
 ["800048"]
 japanese = "友情？　力？<line-break>それとも…<line-break>世界に潜む謎という謎？<end>"
 korean = "우정? 힘? 아니면… 세상에 숨은 온갖 수수께끼?<end>"
+
+["800050"]
+japanese = "誰かの果たせぬ夢？　技？<line-break>それとも…<line-break>世界に潜む謎という謎？<end>"
+korean = "누군가 이루지 못한 꿈? 기술? 아니면… 세계에 숨은 수수께끼라는 수수께끼?<end>"
 
 ["800051"]
 japanese = "過去の事？<line-break>自分の可能性？<line-break>それとも…<line-break>世界に潜む謎という謎？<end>"
@@ -120,6 +132,10 @@ korean = "그렇구나….<end>"
 japanese = "気をつけるんだぜ。<end>"
 korean = "조심하라고.<end>"
 
+["800069"]
+japanese = "あれで、結構いい奴なんだぜ。<line-break>一緒に連れてってやればよかったのに。<end>"
+korean = "저래 보여도 꽤 괜찮은 녀석이야. 같이 데려갔어도 좋았을 텐데.<end>"
+
 ["800070"]
 japanese = "いつ見ても、<line-break>いい絵じゃのぉ。<end>"
 korean = "언제 봐도 좋은 그림이구나.<end>"
@@ -151,6 +167,10 @@ korean = "실례했습니다. 천천히 감상해 주세요.<end>"
 ["800079"]
 japanese = "大地神バイアスが、<line-break>破壊神ウルグに敗れた様子を描いた作品。<line-break>この後、闇の時代が始まったと伝えられる。<line-break>荘厳な城塞内がその舞台となっている。<end>"
 korean = "대지신 바이아스가 파괴신 울그에게 패배하는 모습을 그린 작품. 이후 어둠의 시대가 시작되었다고 전해진다. 장엄한 성채 내부가 무대다.<end>"
+
+["800080"]
+japanese = "戦神ソリアスと２匹の従者により、<line-break>破壊神ウルグが退けられた戦いを描いた作品。<line-break>両者の激突は、岩山をひとつ吹き飛ばすほどの<line-break>激しさであったと伝えられる。<end>"
+korean = "전신 소리아스와 두 종자가 파괴신 울그를 물리친 싸움을 그린 작품. 양자의 격돌은 바위산 하나를 날려 버릴 만큼 격렬했다고 전해진다.<end>"
 
 ["800084"]
 japanese = "戦神ソリアスと破壊神ウルグの<line-break>２度目の戦いを描いた作品。<line-break>大地は震え、火を噴き、流れ出した溶岩は、<line-break>地を覆ったと伝えられる。<end>"

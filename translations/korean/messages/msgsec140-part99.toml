@@ -476,6 +476,10 @@ korean = "네놈… 제네테스…! 대체 왜 이런 곳에?<end>"
 japanese = "フフ…<line-break>それは僕が教えてあげるよ。<end>"
 korean = "후후… 그건 내가 알려 줄게.<end>"
 
+["1400193"]
+japanese = "姫さん…？<line-break>フフ、こりゃおもしろい。<line-break>また、姫さんとはな。<end>"
+korean = "공주님…? 후후, 이거 재미있군. 또 공주님이라니.<end>"
+
 ["1400194"]
 japanese = "な、何がおかしいのです！？<end>"
 korean = "뭐, 뭐가 우스운 겁니까!?<end>"
@@ -804,6 +808,10 @@ korean = "그대에게 걱정받을 만큼 약하지는 않다, 땅의 무녀여
 japanese = "まだ少し、体に力が入りませんが…<line-break>大丈夫です。<value:$28>さん、<line-break>ありがとうございます。<end>"
 korean = "아직 몸에 힘이 잘 들어가진 않지만… 괜찮습니다. <value:$28>님, 감사합니다.<end>"
 
+["1400343"]
+japanese = "フッ、気軽に言うてくれるわ。<line-break>よかろう。制御の間へ転送しようぞ。<end>"
+korean = "흥, 쉽게 말하는군. 좋다. 제어의 방으로 전송해 주지.<end>"
+
 ["1400346"]
 japanese = "よいのです、<line-break><value:$28>様。<end>"
 korean = "괜찮습니다, <value:$28>님.<end>"
@@ -831,6 +839,10 @@ korean = "에스텔… 씨…. 어째서…<end>"
 ["1400359"]
 japanese = "はい。<end>"
 korean = "네.<end>"
+
+["1400360"]
+japanese = "誰かの顔が浮かんでこないかい？<line-break>誰かの名前が浮かんでこないかい？<end>"
+korean = "누군가의 얼굴이 떠오르지 않나? 누군가의 이름이 떠오르지 않나?<end>"
 
 ["1400361"]
 japanese = "…はい。<end>"
@@ -975,6 +987,14 @@ korean = "(그리고 아마 언젠가는, 안녕)<end>"
 ["1400421"]
 japanese = "ううん…。<line-break>聞こえなくていいんだ。<line-break>今はね…。<end>"
 korean = "아니…. 안 들려도 괜찮아. 지금은….<end>"
+
+["1400422"]
+japanese = "ね、また一緒に旅をしよう。<line-break>ボクを冒険に<line-break>連れていってよ。<end>"
+korean = "있지, 다시 함께 여행하자. 나를 모험에 데려가 줘.<end>"
+
+["1400424"]
+japanese = "じゃあ、また猫屋敷で<line-break>呼び出してくれるのを<line-break>待ってるから。<end>"
+korean = "그럼 다시 고양이 저택에서 불러 주길 기다릴게.<end>"
 
 ["1400426"]
 japanese = "　　　  　　　…来たか<line-break>　　   　無限のソウルを持つ者よ<line-break>　　　    我は汝を待っておった<line-break>　我こそは地の精霊神、グラジェオンなり<end>"

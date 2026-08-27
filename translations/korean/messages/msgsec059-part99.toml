@@ -72,6 +72,10 @@ korean = "수락한다<end>"
 japanese = "断る<end>"
 korean = "거절한다<end>"
 
+["590047"]
+japanese = "<value:$28>、よくやった。<line-break>お主が最高殊勲者じゃ！<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"
+korean = "<value:$28>, 잘했다. 자네가 최고 공훈자다! 이 공적으로 자네를 딘갈 기사로 추천하고 여기서 임시 서임을 하려 한다.<end>"
+
 ["590048"]
 japanese = "ひざまづくがよい。<end>"
 korean = "무릎을 꿇어라.<end>"
@@ -83,6 +87,10 @@ korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
 ["590051"]
 japanese = "そして、これは恩賞じゃ。<line-break>さらに励んでくれ。<end>"
 korean = "그리고 이것은 포상이다. 더욱 힘써 주게.<end>"
+
+["590052"]
+japanese = "<value:$28>、よくやった。<line-break>すばらしい戦績じゃ！<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"
+korean = "<value:$28>, 잘했다. 훌륭한 전과다! 이 공적으로 나는 자네를 딘갈의 기사로 추천하고 여기서 임시 서임을 하려 한다.<end>"
 
 ["590053"]
 japanese = "<value:$28>、<line-break>まずまずの戦功じゃな。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに、励んでくれ。<line-break>期待しておるぞ。<end>"
@@ -103,6 +111,10 @@ korean = "<value:$28>님, 심정은 이해합니다. 하지만 명령은 수행�
 ["590061"]
 japanese = "て、敵襲！<end>"
 korean = "저, 적의 습격이다!<end>"
+
+["590063"]
+japanese = "バカな…！<line-break>あそこまで崩れ去った兵を<line-break>まとめあげただと？<end>"
+korean = "말도 안 돼…! 저렇게 무너진 병사들을 다시 규합했다고?<end>"
 
 ["590064"]
 japanese = "ありえない…！<line-break>敵将は誰だ！？<end>"
@@ -140,6 +152,10 @@ korean = "호오…. 여기까지 도착하다니 제법이군….<end>"
 japanese = "心配するな！　ノーブル伯！<line-break>叔母貴には黙っておくからな！<end>"
 korean = "걱정 마라! 노블 백작! 숙모에게는 비밀로 해 둘 테니까!<end>"
 
+["590079"]
+japanese = "撤退じゃ！　散れ！<line-break>地下王国を抜け、<line-break>生きて帰るのじゃ！<end>"
+korean = "퇴각이다! 흩어져라! 지하왕국을 빠져나가 살아서 돌아가라!<end>"
+
 ["590087"]
 japanese = "そうか…。残念じゃ。<end>"
 korean = "그런가…. 유감이군.<end>"
@@ -159,6 +175,10 @@ korean = "참가하지 않는다<end>"
 ["590095"]
 japanese = "期待している。<end>"
 korean = "기대하고 있다.<end>"
+
+["590097"]
+japanese = "おお、<value:$28>ではないか。<line-break>お主もこの戦役に参加しとったか。<end>"
+korean = "오오, <value:$28> 아닌가. 자네도 이 전쟁에 참가하고 있었군.<end>"
 
 ["590098"]
 japanese = "…では、論功行賞を行う。<line-break>最後は<value:$28>。<end>"

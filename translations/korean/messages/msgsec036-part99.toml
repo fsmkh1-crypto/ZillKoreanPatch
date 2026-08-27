@@ -40,6 +40,10 @@ korean = "또 전쟁의 시대가 시작되는군. …이제 지긋지긋해.<en
 japanese = "…バルザー。<end>"
 korean = "…발저.<end>"
 
+["360016"]
+japanese = "時は来た。<line-break>…それなのに、なぜ時を告げぬ？<line-break>告げるものよ。<end>"
+korean = "때가 왔다. …그런데 왜 때를 알리지 않지? 고하는 자여.<end>"
+
 ["360017"]
 japanese = "どうしてかしらね。<end>"
 korean = "왜 그런 걸까.<end>"
@@ -111,6 +115,10 @@ korean = "엄마 일, 빛나는 돌 일, …알 속이 신경 쓰이지?<end>"
 ["360041"]
 japanese = "ねぇ、僕が卵を割ってあげるよ。<line-break>卵の中身を見せたげる。<end>"
 korean = "있지, 내가 알을 깨 줄게. 알 속을 보여 줄게.<end>"
+
+["360042"]
+japanese = "ね、手伝って？<line-break>君の力が必要なんだ。<line-break>石に、手をかざして。<end>"
+korean = "있지, 도와줘. 네 힘이 필요해. 돌에 손을 대.<end>"
 
 ["360043"]
 japanese = "<value:$28>、<line-break>無限のソウルを持つ者よ。<end>"

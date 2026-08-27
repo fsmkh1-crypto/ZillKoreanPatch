@@ -36,6 +36,10 @@ korean = "아무것도 아닙니다, 공주님.<end>"
 japanese = "彼女は光を知らないんだ。<line-break>ここでそういうの、よさない？<end>"
 korean = "그녀는 빛을 몰라. 여기서 그런 말은 그만하지?<end>"
 
+["750011"]
+japanese = "そして、僕はシャリ。<line-break>この王宮に出入りする学者。　　<line-break>　<line-break>この大陸のはるか東から来たから<line-break>東方の博士って呼ばれてる。<line-break>よろしくね、フフフ。<end>"
+korean = "그리고 나는 샤리. 이 왕궁을 드나드는 학자야. 대륙의 먼 동쪽에서 와서 동방의 박사라고 불려. 잘 부탁해, 후후후.<end>"
+
 ["750013"]
 japanese = "…<value:$28>様、<line-break>本当にありがとうございました。<end>"
 korean = "…<value:$28>님, 정말 감사합니다.<end>"
@@ -352,9 +356,21 @@ korean = "그럴 생각이야.<end>"
 japanese = "そんなつもりはない。<end>"
 korean = "그럴 생각은 없어.<end>"
 
+["750118"]
+japanese = "もう！　いい？　その色惑の瞳は<line-break>ちゃんとお姫様に渡すの。わかった？<end>"
+korean = "정말! 알겠어? 그 색혹의 눈동자는 제대로 공주님께 드리는 거야. 알았지?<end>"
+
 ["750121"]
 japanese = "よかった…。<line-break>じゃ、別の所に行こうよ。ね？<end>"
 korean = "다행이다…. 그럼 다른 곳으로 가자. 응?<end>"
+
+["750129"]
+japanese = "そうだよね。うん。キミなら当然だよ。<line-break>じゃ、別の所に行こうよ。ね？<end>"
+korean = "그렇지. 응. 너라면 당연하지. 그럼 다른 곳으로 가자. 응?<end>"
+
+["750130"]
+japanese = "その色惑の瞳はちゃんとお姫様に渡す。<line-break>そうだよね、<value:$28>？<end>"
+korean = "그 색혹의 눈동자는 제대로 공주님께 드릴 거야. 그렇지, <value:$28>?<end>"
 
 ["750131"]
 japanese = "…待て。<line-break>フゴーに何を売る気だ？　　　　<line-break>　<line-break>…お姫様を助けるためと言って<line-break>取ってきた色惑の瞳という宝石を<line-break>売り飛ばすつもりか？<end>"
@@ -528,6 +544,10 @@ korean = "…죄, 죄송합니다. 제가 이상한 말을 해 버려서…. 하
 japanese = "…そう…ですよね。<line-break>…その通りですよね。<end>"
 korean = "…그렇…군요. …말씀하신 대로예요.<end>"
 
+["750207"]
+japanese = "え？　ええ…。<line-break>確かに、闇は、<line-break>心に安らぎを与えてくれます。<end>"
+korean = "예? 네…. 확실히 어둠은 마음에 안식을 줍니다.<end>"
+
 ["750208"]
 japanese = "私といると、<line-break>ホッとする…のですか？<end>"
 korean = "저와 있으면 마음이 놓이시나요…?<end>"
@@ -575,6 +595,10 @@ korean = "아…<end>"
 ["750224"]
 japanese = "…私、うれしいです。<end>"
 korean = "…저, 기뻐요.<end>"
+
+["750225"]
+japanese = "あ、<value:$28>様、<line-break>もう、行かれるのですか…？　　　<line-break>　<line-break>…いえ、お引き留めして<line-break>申しわけありませんでした。<line-break>どうかまた、いらしてください。<end>"
+korean = "아, <value:$28>님, 벌써 가시는 건가요…? …아니요, 붙잡아서 죄송했습니다. 부디 또 와 주세요.<end>"
 
 ["750226"]
 japanese = "あーもう、また来たの？<line-break>意外と<value:$28>って<line-break>せっかちなんだね。<end>"

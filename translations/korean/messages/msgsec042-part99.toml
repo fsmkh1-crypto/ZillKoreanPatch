@@ -124,6 +124,10 @@ korean = "…흥, 뻔뻔하게.<end>"
 japanese = "ノヴィン閣下。何か？<end>"
 korean = "노빈 각하. 무슨 일이십니까?<end>"
 
+["420048"]
+japanese = "い、いや。ロストールのために、<line-break>せいぜい骨を折ってくれたまえ。<end>"
+korean = "아, 아니. 로스토올을 위해 실컷 고생해 주게.<end>"
+
 ["420049"]
 japanese = "予は疲れた。先に休ませてもらう。<end>"
 korean = "나는 지쳤다. 먼저 쉬도록 하겠다.<end>"
@@ -340,6 +344,10 @@ korean = "축하해. 이제 너도 모험자다.<end>"
 japanese = "よう、おやじ、何か<line-break>最近おもしろいネタはないか？<end>"
 korean = "여어, 아저씨. 요즘 재미있는 소식 없나?<end>"
 
+["420147"]
+japanese = "そうだなあ。<line-break>賢者の森の猫屋敷なんてのはどうだい？<line-break>　<line-break>エンシャントの南東にある<line-break>賢者の森の奥深くには<line-break>猫屋敷って館があるらしいんだ。<end>"
+korean = "그렇군. 현자의 숲에 있는 고양이 저택은 어때? 엔샨트 남동쪽 현자의 숲 깊숙한 곳에 고양이 저택이라는 관이 있대.<end>"
+
 ["420149"]
 japanese = "どう思う、<line-break><value:$28>？<end>"
 korean = "어떻게 생각해, <value:$28>?<end>"
@@ -428,6 +436,10 @@ korean = "그, 그럴 수가…. 그런 건…!<end>"
 japanese = "…<value:$28>さん。<line-break>　<line-break>　<end>"
 korean = "…<value:$28> 씨.<end>"
 
+["420189"]
+japanese = "なるほど、大活躍だったんですねえ。<line-break>さすがは無限のソウルの持ち主です。<line-break>　<line-break>ま、ここに来るのが<line-break>巡り合わせというのも<line-break>わかりますねえ。<end>"
+korean = "그렇군요, 대활약이셨네요. 역시 무한의 소울의 소유자입니다. 뭐, 여기 오는 게 인연이라는 것도 이해가 되네요.<end>"
+
 ["420190"]
 japanese = "くすっ、すいません。<line-break>年を取ると独り言が多くなって…。<end>"
 korean = "후훗, 미안합니다. 나이를 먹으니 혼잣말이 많아져서….<end>"
@@ -456,6 +468,10 @@ korean = "아마 이 아이는 도움이 될 겁니다.<end>"
 japanese = "ど、どうなってるんだよ、これ！？<line-break>ね、姉ちゃん！<end>"
 korean = "이, 이게 어떻게 된 거야!? 누, 누나!<end>"
 
+["420201"]
+japanese = "うふふ、<line-break>驚かせてしまってすみません。　　　<line-break>　<line-break>今後は呼び出す前に<line-break>メンバーに都合を確認します。<line-break>もう、こんなことはありませんから。<end>"
+korean = "후후, 놀라게 해서 죄송합니다. 앞으로는 부르기 전에 멤버 사정을 확인하겠습니다. 이제 이런 일은 없을 거예요.<end>"
+
 ["420202"]
 japanese = "…というわけでですねえ。<line-break>　<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
 korean = "…그런 이유로 말이죠. 함께 여행하는 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>"
@@ -483,6 +499,10 @@ korean = "그 금단의 성배를 노리는 마인이 있습니다.<end>"
 ["420210"]
 japanese = "猫がしゃべった！<end>"
 korean = "고양이가 말했다!<end>"
+
+["420211"]
+japanese = "俺は猫じゃない。<line-break>破壊神の円卓騎士のひとりネモだ！　　<line-break>　<line-break>今は、力を封じられて<line-break>こんな姿だがな。<line-break>ま、それはいいとして、とにかくだ。<end>"
+korean = "난 고양이가 아니다. 파괴신의 원탁기사 중 하나인 네모다! 지금은 힘을 봉인당해 이런 모습이지만. 뭐, 그건 됐고 아무튼.<end>"
 
 ["420215"]
 japanese = "姉ちゃんの言うとおりだ。<line-break>何か手がかりはないのか？<end>"
@@ -563,6 +583,10 @@ korean = "세계를 돌아다니며 사람을 만나고 동료를 만드세요. 
 ["420249"]
 japanese = "そうですか…。<line-break>弟さんが…。<end>"
 korean = "그렇습니까…. 동생분이….<end>"
+
+["420256"]
+japanese = "逆に、別れた仲間を<line-break>望むところに<line-break>送り返してやれます。<line-break>今後はちゃんと、呼び出す前に<line-break>相手の都合を確認して、<line-break>そっちを優先しますがね。<end>"
+korean = "반대로 헤어진 동료를 원하는 곳으로 돌려보내 줄 수도 있습니다. 앞으로는 부르기 전에 상대 사정을 확인하고 그쪽을 우선하겠습니다.<end>"
 
 ["420257"]
 japanese = "たぶん、この子は　　　　　　　<line-break>役に立ちますよ。<line-break>　<line-break>あなたが将来、<line-break>旅の途中で人と出会い、<line-break>仲間を増やしたときにね。<end>"

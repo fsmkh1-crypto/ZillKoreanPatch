@@ -80,6 +80,10 @@ korean = "이봐, 거기 형씨. 잠깐 기다려 줘.<end>"
 japanese = "えー？　ボクに用があるのかーい？<line-break>　<line-break>　<end>"
 korean = "어? 나한테 볼일이 있는 거야?<end>"
 
+["1470047"]
+japanese = "それで、ボクはもー、<line-break>行ってもいいのかーい？　　　　　<line-break>　<end>"
+korean = "그럼 난 이제 가도 되는 거지~?<end>"
+
 ["1470048"]
 japanese = "ああ、ひきとめちまって<line-break>悪かったな。助かったぜ。<end>"
 korean = "아, 붙잡아 둬서 미안했다. 덕분에 살았어.<end>"
@@ -119,6 +123,10 @@ korean = "뭐야, 이 녀석. 해치워 버려.<end>"
 ["1470068"]
 japanese = "しまった。侵入者か。<line-break>こっから先には行かせないぜ！<end>"
 korean = "젠장, 침입자인가. 여기서부터는 못 지나간다!<end>"
+
+["1470069"]
+japanese = "なんだ、貴様！？<line-break>どうやって入ってきた？　　　　　　　<line-break>　<end>"
+korean = "뭐냐, 네놈!? 어떻게 들어왔지?<end>"
 
 ["1470073"]
 japanese = "世の中、そう都合よくは<line-break>いかないと思うがな。<end>"
@@ -239,6 +247,10 @@ korean = "후우, 조마조마했지만 잘했어, <value:$28>.<end>"
 ["1470150"]
 japanese = "エリエナイ公？　話にならんな。<end>"
 korean = "엘리에나이 공? 말이 안 되는군.<end>"
+
+["1470152"]
+japanese = "…し、信じるかどうかは…　　　　<line-break>貴様らの勝手だぜ…。<line-break>　<end>"
+korean = "…미, 믿을지 말지는… 너희 마음대로 해….<end>"
 
 ["1470153"]
 japanese = "ま、いい。<line-break>で、ルルアンタはどこにやった？<end>"

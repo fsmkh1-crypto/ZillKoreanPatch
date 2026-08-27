@@ -368,6 +368,10 @@ korean = "후후, 다행이네. <value:$28>에게 감사해야겠어. 그럼 또
 japanese = "<value:$28>、ありがとう！<line-break>助けに来てくれるって信じてた！<end>"
 korean = "<value:$28>, 고마워! 구하러 와 줄 거라고 믿었어!<end>"
 
+["880151"]
+japanese = "えっ…！<line-break>どうして…ボクが<line-break>ラドラスの人間だって知ってるの？<end>"
+korean = "엣…! 어떻게… 내가 라드라스 사람인 걸 알고 있어?<end>"
+
 ["880153"]
 japanese = "ありがと、<value:$28>。<line-break>じゃあ行こう。ラドラスへ。<line-break>　<line-break>ラドラスは<line-break>竜骨の砂漠の中にあるんだ。<line-break>ボクが案内するよ。<end>"
 korean = "고마워, <value:$28>. 그럼 가자. 라드라스로. 라드라스는 용골 사막 안에 있어. 내가 안내할게.<end>"
@@ -472,6 +476,10 @@ korean = "내가… 땅의 무녀… 마도문명을 부활시키는 열쇠 중 
 japanese = "あ、…ゴメン。<end>"
 korean = "아, …미안.<end>"
 
+["880206"]
+japanese = "あ…<value:$28>…。<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>なんだか変な感じなんだ。<line-break>いつもの見なれたラドラスなのに<line-break>誰かに見られてるような…。<end>"
+korean = "아… <value:$28>…. 왠지 이상한 느낌이야. 늘 보던 라드라스인데 누군가에게 감시받는 것 같아….<end>"
+
 ["880210"]
 japanese = "え！？<line-break>今の、<value:$28>にも<line-break>聞こえたの！？<end>"
 korean = "어!? 방금 거, <value:$28>에게도 들렸어!?<end>"
@@ -491,6 +499,10 @@ korean = "다, 다행이다~! 갑자기 나 혼자 날아가 버렸잖아. <valu
 ["880214"]
 japanese = "ゴメン、ゴメンって。<line-break>…でも、どうしても気になるんだよ。<line-break>　<line-break>きっとこの先に<line-break>地の精霊神がいるんだよ。<line-break>ねえ、行ってみようよ！<end>"
 korean = "미안, 미안하다니까. …그래도 정말 신경 쓰여. 분명 이 앞에 대지의 정령신이 있어. 있지, 가 보자!<end>"
+
+["880216"]
+japanese = "ボクを、呼んでたよね？<line-break>ずっと…。<line-break>キミが、地の精霊神なの？<end>"
+korean = "나를 부르고 있었지? 계속…. 네가 땅의 정령신이야?<end>"
 
 ["880218"]
 japanese = "ねぇ！<line-break>ボクが地の巫女って、<line-break>どういうこと！？<end>"
@@ -567,6 +579,10 @@ korean = "내 스타일이 아냐<end>"
 ["880254"]
 japanese = "…ん～。<line-break>あは、そうだよね。<line-break>うん、自分でもさ、そう思うんだ。<line-break>でも、これを着ていると<line-break>なんだか落ち着くんだ。<line-break>なんでだろうね。<end>"
 korean = "…음. 아하, 그렇지. 응, 나도 그렇게 생각해. 그래도 이걸 입고 있으면 왠지 마음이 놓여. 왜일까.<end>"
+
+["880255"]
+japanese = "だからボク、九柱にいるときは<line-break>このカッコでいたいんだ。<line-break>冒険には今までの服で行くけどね。<line-break>…キミが気に入ってくれなくて<line-break>少し、残念だな…。<end>"
+korean = "그래서 난 구주에 있을 때는 이 차림으로 있고 싶어. 모험할 땐 지금까지 옷으로 갈 거지만. …네가 마음에 들어 하지 않아서 조금 아쉽네….<end>"
 
 ["880256"]
 japanese = "じゃ、ボク、自分の部屋に帰るから。<line-break>またあとでね！<end>"

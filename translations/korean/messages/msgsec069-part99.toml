@@ -60,6 +60,10 @@ korean = "…뭐야, 이 못생긴 고양이는.<end>"
 japanese = "猫じゃない！<line-break>破壊神の円卓騎士のひとり、<line-break>ネモ様だ！<line-break>今でこそ、<line-break>こんな姿に変えられているが<line-break>本来は立派な魔人なんだ！<end>"
 korean = "고양이가 아니야! 파괴신의 원탁기사 중 하나인 네모 님이다! 지금은 이런 모습으로 변했지만 원래는 훌륭한 마인이야!<end>"
 
+["690027"]
+japanese = "俺は奴の同僚だが、保護者じゃない。<line-break>苦情なんか聞いてられるか。<end>"
+korean = "난 녀석 동료지만 보호자는 아니야. 불평 같은 걸 들어줄까 보냐.<end>"
+
 ["690029"]
 japanese = "…女、<line-break>俺に命令するな。<end>"
 korean = "…여자, 나한테 명령하지 마.<end>"
@@ -79,6 +83,10 @@ korean = "…성배?<end>"
 ["690037"]
 japanese = "…で、聖杯はどこにある。<end>"
 korean = "…그래서, 성배는 어디 있지.<end>"
+
+["690047"]
+japanese = "それにしても、<line-break>無限のソウルを持つ者ですかぁ…。<line-break>　<line-break>竜王が目覚め、闇の門が開き、<line-break>そして無限のソウルの<line-break>持ち主が現れる…。<end>"
+korean = "그런데 무한의 소울을 가진 자라…. 용왕이 깨어나고, 어둠의 문이 열리고, 그리고 무한의 소울의 주인이 나타난다….<end>"
 
 ["690048"]
 japanese = "運命の女神も悪戯好きですねえ。<line-break>くすくす…。<line-break>　<line-break><value:$28>さん、でしたね。<line-break>来てください。<line-break>説明したいことがあります。<end>"
@@ -148,6 +156,10 @@ korean = "뭐, 이런 느낌입니다. 이해하셨나요?<end>"
 japanese = "聞きたいことがあれば<line-break>答えますよ。<end>"
 korean = "묻고 싶은 게 있으면 답해 드릴게요.<end>"
 
+["690079"]
+japanese = "世界を巡って、人に出会い、　　　<line-break>仲間を作ってください。<line-break>　<line-break>その中で世界は<line-break>様々な顔を見せてくれるでしょう。<line-break>自由な旅を！<end>"
+korean = "세계를 돌며 사람을 만나고 동료를 만드세요. 그 속에서 세계는 다양한 모습을 보여 줄 겁니다. 자유로운 여행을!<end>"
+
 ["690081"]
 japanese = "団長、幸せの地もいいゴブが<line-break>自分は腹が減ったゴブ。<end>"
 korean = "단장, 행복의 땅도 좋지만 나는 배고프다 고브.<end>"
@@ -179,6 +191,14 @@ korean = "음? 저건 난폭녀의 부하 고브. 그렇다면…?<end>"
 ["690091"]
 japanese = "あ、<value:$28>、<line-break>ここにいたの。<end>"
 korean = "아, <value:$28>, 여기 있었구나.<end>"
+
+["690092"]
+japanese = "む、やはり例によって、凶暴女が<line-break>いいかげん飽き飽きの展開で登場ゴブ！<line-break>　<line-break>ゴブゴブ団、戦略的転進ゴブ！<line-break>マルーン、オルナット、行くでゴブ！<end>"
+korean = "으, 역시나 흉포한 여자가 지긋지긋한 전개로 등장했다 고브! 고브고브단, 전략적 후퇴다 고브! 마룬, 올나트, 가자 고브!<end>"
+
+["690093"]
+japanese = "店主さん、申しわけないが<line-break>さっきの注文は取り消しゴブ。　　<line-break>　<line-break>では、さらばゴブ。<line-break>できれば我々のことは<line-break>もう捜さないでほしいゴブ。<end>"
+korean = "주인장, 미안하지만 아까 주문은 취소다 고브. 그럼 이만 고브. 가능하면 우리를 더는 찾지 말아 줬으면 한다 고브.<end>"
 
 ["690096"]
 japanese = "あーっ！　あんたたち！<line-break>いいかげん、聖杯を返しなさいよ！<end>"
@@ -216,6 +236,10 @@ korean = "단장! 저 녀석 고브!<end>"
 japanese = "む、勝敗は兵家の常。<line-break>ゴブゴブ団、退却ゴブ！<end>"
 korean = "흥, 승패는 병가의 상사. 고브고브단, 후퇴 고브!<end>"
 
+["690117"]
+japanese = "これに懲りて<line-break>もう、我らの幸せの邪魔はするなゴブ！<line-break>　<line-break>さあ、聖杯とともに<line-break>ゴブゴブ団、幸せに向けて<line-break>進軍を続行するゴブ～！<end>"
+korean = "이번 일로 정신 차리고 이제 우리 행복을 방해하지 마라 고브! 자, 성배와 함께 고브고브단은 행복을 향해 진군을 계속하는 고브~!<end>"
+
 ["690119"]
 japanese = "マルーンがやられたゴブ～。<line-break>ゴブゴブ団、撤退ゴブ～。<end>"
 korean = "마룬이 당했다 고브~. 고브고브단, 후퇴다 고브~.<end>"
@@ -247,6 +271,10 @@ korean = "네놈, 가면 쓴 남자를 못 봤나?<end>"
 ["690132"]
 japanese = "そうか。<line-break>奴はどっちへ行った？<end>"
 korean = "그런가. 녀석은 어느 쪽으로 갔지?<end>"
+
+["690133"]
+japanese = "こっちには来なかった。<line-break>…背後に瞬間移動を<line-break>使える者がいるということだな…。<line-break>これで確かになった。<line-break>瞬間移動が使える者など<line-break>そうはいない。<end>"
+korean = "이쪽으로 오지 않았다. …배후에 순간이동을 쓸 수 있는 자가 있다는 뜻이군…. 이제 확실해졌다. 순간이동을 쓸 수 있는 자는 흔치 않아.<end>"
 
 ["690134"]
 japanese = "貴様、名を名乗れ。<end>"
@@ -539,6 +567,10 @@ korean = "그럼 가시죠, <value:$28>님. 당신처럼 자질이 뛰어난 분
 ["690270"]
 japanese = "聖杯って何のことだろう？<end>"
 korean = "성배가 대체 뭘까?<end>"
+
+["690273"]
+japanese = "うそ…。ゴブリンが…しゃべってた…？<line-break>こんな不思議なことって…。<line-break>　<line-break>ああ、テラネのお母さん、<line-break>都会は不思議なことばっかりです…。<end>"
+korean = "거짓말…. 고블린이… 말을 했어…? 이런 신기한 일이…. 아아, 테라네의 엄마, 도시는 신기한 일투성이예요….<end>"
 
 ["690275"]
 japanese = "そこまでは付き合ってやろう。<line-break>行くぞ。ぐずぐずするな。<end>"

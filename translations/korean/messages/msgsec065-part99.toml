@@ -132,6 +132,10 @@ korean = "야, <value:$28>.<end>"
 japanese = "今から王宮のティアナ王女を<line-break>訪ねる。お前も来い。<end>"
 korean = "지금부터 왕궁의 티아나 공주를 찾아간다. 너도 와.<end>"
 
+["650043"]
+japanese = "言葉づかいや身だしなみには　　<line-break>細心の注意を払え。<line-break>　<line-break>相手はお前と同い年の小娘だが、<line-break>宮廷暮らしが長い上に<line-break>あのファーロスの雌狐の娘だ。<end>"
+korean = "말투와 몸가짐에는 각별히 주의해라. 상대는 너와 동갑인 어린 여자지만 궁정 생활이 긴 데다 그 파로스 암여우의 딸이다.<end>"
+
 ["650044"]
 japanese = "見破られるなよ、　　　　　　　<line-break><value:$28>。<line-break>　<end>"
 korean = "들키지 마라, <value:$28>.<end>"
@@ -152,6 +156,10 @@ korean = "뵙게 되어 영광입니다, 노블 백작님.<end>"
 japanese = "俺は他にも用事がある。<line-break>お前はあとは好きにしろ。<end>"
 korean = "나는 다른 볼일도 있다. 너는 이제 마음대로 해.<end>"
 
+["650053"]
+japanese = "ティアナ、<line-break>少ししか話せなくて残念だが<line-break>これで失礼する。<end>"
+korean = "티아나, 조금밖에 이야기하지 못해 아쉽지만 이만 실례하지.<end>"
+
 ["650054"]
 japanese = "レムオン様、<line-break>またいらっしゃってください。<end>"
 korean = "레무온 님, 또 와 주세요.<end>"
@@ -163,6 +171,10 @@ korean = "약혼자에게 혼나지만 않는다면.<end>"
 ["650057"]
 japanese = "フィアンセだなんて！<line-break>存じません、そんな方！<end>"
 korean = "약혼자라니! 그런 분은 모릅니다!<end>"
+
+["650059"]
+japanese = "フィアンセ…ですか？　　　　　　　<line-break>　<line-break>　<line-break>お母様が決めたことです。<line-break>お母様の実家ファーロス家の跡取りで<line-break>従兄に当たる方ですけど…。<end>"
+korean = "약혼자… 말씀이신가요? 어머니께서 정하신 일입니다. 어머니 친정인 파로스 가문의 후계자이고 제 사촌이 되는 분이지만….<end>"
 
 ["650060"]
 japanese = "酒とバクチにおぼれ、<line-break>宮廷にも近づこうとしません。　　　<line-break>　<line-break>そんな方と結婚するだなんて<line-break>とても考えられません。<end>"
@@ -299,6 +311,10 @@ korean = "<value:$28>님도.<end>"
 ["650105"]
 japanese = "またお会いできる日を<line-break>楽しみにしています。<end>"
 korean = "다시 뵐 날을 기대하고 있겠습니다.<end>"
+
+["650106"]
+japanese = "俺とティアナは幼なじみ。　　　　<line-break>ただ、それだけだ。<line-break>　<line-break>何を言い出すかと思えば…。<line-break>ふん、お前も宮廷のくだらぬ噂話に<line-break>毒されたな。<end>"
+korean = "나와 티아나는 소꿉친구다. 그뿐이야. 무슨 말을 하나 했더니…. 흥, 너도 궁정의 쓸데없는 소문에 물들었군.<end>"
 
 ["650107"]
 japanese = "…今日は<line-break>無理に付き合わせて悪かった。　<line-break>これでも感謝しているつもりだ。<line-break>お前なら、<line-break>わかってくれるだろうが…。<end>"

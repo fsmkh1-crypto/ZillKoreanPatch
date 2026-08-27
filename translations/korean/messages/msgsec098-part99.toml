@@ -228,9 +228,17 @@ korean = "미사용입니다: 예<end>"
 japanese = "未使用になります：いいえ<end>"
 korean = "미사용입니다: 아니오<end>"
 
+["980131"]
+japanese = "アイリーンは素直じゃないから、<line-break>いつまでも、あなたを<line-break>子供扱いするでしょうけど、<line-break>あの子、<line-break>本当はあなたのことを<line-break>信頼しているのよ。<end>"
+korean = "아이린은 솔직하지 못해서 언제까지고 당신을 아이 취급하겠지만, 그 아이 사실은 당신을 믿고 있어.<end>"
+
 ["980133"]
 japanese = "<value:$28>…。<line-break>おかえりなさい。<end>"
 korean = "<value:$28>…. 어서 와요.<end>"
+
+["980147"]
+japanese = "…あなたがいてくれることが　　　<line-break>何よりも、なぐさめだわ。<line-break>　<line-break>さ、今日はあなたの好きなものを<line-break>作ってあげる。<line-break>楽しみにしていてね。<end>"
+korean = "…당신이 있어 주는 게 무엇보다 위로가 돼. 자, 오늘은 당신이 좋아하는 걸 만들어 줄게. 기대해.<end>"
 
 ["980153"]
 japanese = "アイリーンは<line-break>少し気が強いところがありますが　<line-break>あれで、やさしい娘なんです。<line-break>娘のこと、<line-break>よろしくお願いしますね。<end>"
@@ -243,6 +251,10 @@ korean = "그 아이는 언젠가 반드시 자기 꿈을 이룰 겁니다. 부�
 ["980165"]
 japanese = "娘は元気そうでしたか？　　　　　　　<line-break>　<line-break>　<end>"
 korean = "딸은 건강해 보였나요?<end>"
+
+["980170"]
+japanese = "<value:$28>さん…ですか。<line-break>また、いらしてくださいね。　　　　　<end>"
+korean = "<value:$28> 씨…군요. 또 와 주세요.<end>"
 
 ["980174"]
 japanese = "あ、<value:$28>さん……。<line-break>　　　　　　　　　　　　　<line-break>　<line-break>おかえりなさい…。<line-break>うれしい……、<line-break>会いに来てくれるなんて…。<end>"

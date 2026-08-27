@@ -32,6 +32,10 @@ korean = "바쁘니까 안 돼<end>"
 japanese = "恩に着るぜ。<line-break>今日のところはここでお別れだ。<line-break>またな、<value:$28>！<end>"
 korean = "신세 졌다. 오늘은 여기서 헤어지자. 또 보자, <value:$28>!<end>"
 
+["2080011"]
+japanese = "…そうか。まあ仕方ないよな。<line-break>あんたにはあんたの仕事が<line-break>あるんだろうし。<line-break>無理な頼み事をして悪かった。<line-break>他を当たるよ。すまんな。<end>"
+korean = "…그런가. 뭐, 어쩔 수 없지. 당신에겐 당신 일이 있을 테니까. 무리한 부탁을 해서 미안했다. 다른 사람을 알아볼게. 미안하군.<end>"
+
 ["2080012"]
 japanese = "異種族間の２用終端<end>"
 korean = "이종족 간 2용 끝<end>"

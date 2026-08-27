@@ -8,6 +8,10 @@ korean = "질리온&이샤 이벤트14용 시작<end>"
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
 
+["2720003"]
+japanese = "不思議に思うかもしれんが、<line-break>俺とイーシャは同時に存在できない。<line-break>　<line-break>イーシャがある事件に巻き込まれ、<line-break>自分のソウルを失ってしまったからだ。<end>"
+korean = "이상하게 생각할지 모르지만 나와 이샤는 동시에 존재할 수 없다. 이샤가 어떤 사건에 휘말려 자기 소울을 잃어 버렸기 때문이다.<end>"
+
 ["2720008"]
 japanese = "すまん。今日はもう疲れた。<line-break>先に休ませてもらう。<end>"
 korean = "미안하다. 오늘은 이제 지쳤어. 먼저 쉬게 해 줘.<end>"
@@ -47,6 +51,14 @@ korean = "그래. 우선 주사프브로스에게서 동화의 머리장식을 �
 ["2720017"]
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
+
+["2720022"]
+japanese = "教えてくれ、<value:$28>…。<line-break>俺は間違っていたのか？<line-break>　<line-break>彼女にとって俺の行為は<line-break>重荷でしかなかったのか？<line-break>それとも俺の自己満足だったのか？<end>"
+korean = "말해 줘, <value:$28>…. 내가 틀렸던 건가? 그녀에게 내 행동은 짐일 뿐이었나? 아니면 내 자기만족이었던 건가?<end>"
+
+["2720024"]
+japanese = "そうだな。<value:$28>。<line-break>俺の行動が正しかったかどうかは<line-break>俺自身にもわからない。<line-break>だけど、イーシャへの想いは真実だ。<line-break>それだけは胸を張って言える。<end>"
+korean = "그래, <value:$28>. 내 행동이 옳았는지는 나도 몰라. 하지만 이샤를 향한 마음은 진심이다. 그것만은 당당히 말할 수 있어.<end>"
 
 ["2720026"]
 japanese = "<value:$28>か…。<end>"
@@ -107,6 +119,14 @@ korean = "고맙다, <value:$28>. 내가 스스로 내야 할 답인데 네게 �
 ["2720058"]
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
+
+["2720063"]
+japanese = "教えてくれ、<value:$28>…。<line-break>俺は間違っていたのか？<line-break>　<line-break>彼女にとって俺の行為は<line-break>重荷でしかなかったのか？<line-break>それとも俺の自己満足だったのか？<end>"
+korean = "말해 줘, <value:$28>…. 내가 틀렸던 건가? 그녀에게 내 행동은 짐일 뿐이었나? 아니면 내 자기만족이었던 건가?<end>"
+
+["2720065"]
+japanese = "そうだな。<value:$28>。<line-break>俺の行動が正しかったかどうかは<line-break>俺自身にもわからない。<line-break>だけど、イーシャへの想いは真実だ。<line-break>それだけは胸を張って言える。<end>"
+korean = "그래, <value:$28>. 내 행동이 옳았는지는 나도 몰라. 하지만 이샤를 향한 마음은 진심이다. 그것만은 당당히 말할 수 있어.<end>"
 
 ["2720066"]
 japanese = "ありがとう。<value:$28>。<line-break>おかげで少し楽になった。<end>"

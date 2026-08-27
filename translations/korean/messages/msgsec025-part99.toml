@@ -24,6 +24,14 @@ korean = "호위해 주실 분을 모집합니다. 목적지는 <value:$15>입�
 japanese = "この町の<value:$17><value:$16>が、<line-break>商談で<value:$15>に出かけます。<line-break>護衛を務めてください。<line-break><value:$1A>ギア、<line-break><value:$1B>日以内の到着が条件です。<end>"
 korean = "이 마을의 <value:$17><value:$16>이 상담을 위해 <value:$15>로 갑니다. 호위를 맡아 주세요. <value:$1A>기어, <value:$1B>일 이내 도착이 조건입니다.<end>"
 
+["250066"]
+japanese = "市民ギルドの<value:$16>が<line-break>用事で<value:$15>に出かけるんだが、<line-break>冒険者さん、ひとつ護衛を頼むよ。<line-break><value:$1A>ギア出す。<line-break><value:$1B>日以内に、送り届けてくれ。<end>"
+korean = "시민 길드의 <value:$16>이 볼일이 있어 <value:$15>에 가는데, 모험자 양반, 호위 하나 부탁해. <value:$1A>기어 줄게. <value:$1B>일 안에 데려다 줘.<end>"
+
+["250067"]
+japanese = "うちんとこの<value:$16>が、<line-break><value:$15>の街まで行くことになってな。<line-break>護衛を頼みたいんだ。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内ってとこだな。<end>"
+korean = "우리 쪽 <value:$16>이 <value:$15> 마을까지 가게 됐어. 호위를 부탁하고 싶다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
+
 ["250072"]
 japanese = "<value:$15>に行きたいのですが、<line-break>護衛してくださる方を募集します。<line-break>お礼は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内とします。<end>"
 korean = "<value:$15>에 가고 싶은데 호위해 주실 분을 모집합니다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다.<end>"

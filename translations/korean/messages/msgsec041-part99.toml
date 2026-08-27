@@ -420,6 +420,10 @@ korean = "<value:$28>님이 나쁜 사람을 도울 리 없어.<end>"
 japanese = "もう遅いわ…。　　　　　　　　　　<end>"
 korean = "이미 늦었어….<end>"
 
+["410134"]
+japanese = "それにあのハーフエルフが言うように<line-break>本当に神器を持ってたのよ？<end>"
+korean = "게다가 그 하프엘프가 말한 대로 정말 신기를 가지고 있었어?<end>"
+
 ["410135"]
 japanese = "でも…、あ、<value:$28>、<line-break>気がついたのね！<end>"
 korean = "하지만… 아, <value:$28>, 정신이 들었구나!<end>"

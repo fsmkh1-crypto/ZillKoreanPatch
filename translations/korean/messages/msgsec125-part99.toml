@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1250001"]
+japanese = "（ディンガル帝国の玄武将軍になった<line-break>　ザギヴから、手紙をもらった）<line-break><line-break>（エンシャントの政庁へ出向けという<line-break>　内容だ。…行った方がいいのかな？）<end>"
+korean = "(딘갈 제국의 현무 장군이 된 자기브에게 편지를 받았다.) (엔샨트 정청으로 나오라는 내용이다. …가는 편이 좋을까?)<end>"
+
 ["1250002"]
 japanese = "玄武将軍からの名指しの依頼！？<line-break>それってチャンスよ！<line-break>もちろん受けるんでしょっ？<line-break>うらやましいわ、<value:$28>。<end>"
 korean = "현무장군이 직접 지명한 의뢰!? 그건 기회야! 당연히 받을 거지? 부럽다, <value:$28>.<end>"
@@ -155,6 +159,10 @@ korean = "조폴은 알현실에 있습니다.<end>"
 ["1250098"]
 japanese = "言いたいことはわかるわ、<line-break><value:$28>。<line-break><line-break>でも、これが戦争。<line-break>戦争だったのよ！<line-break>少なくとも、途中までは…！<end>"
 korean = "무슨 말인지 알아, <value:$28>. 하지만 이게 전쟁이야. 전쟁이었던 거라고! 적어도 중간까지는…!<end>"
+
+["1250101"]
+japanese = "革新なんざどうでもいいけど、<line-break>こんなトコで死ぬのはゴメンだ！<line-break><line-break>あのバチアタリ坊主！<line-break>いつか耳元で俺様のとっておきを<line-break>聞かせてやるぜっ！<end>"
+korean = "혁신 따윈 아무래도 좋지만 이런 데서 죽는 건 사양이다! 그 벌 받을 꼬맹이! 언젠가 귓가에 내 비장의 한마디를 들려주겠어!<end>"
 
 ["1250105"]
 japanese = "どうすんの、<value:$28>？<line-break>逃げなきゃやられちゃうよ～？<line-break>宰相サンの革新も台無しよん？<end>"
@@ -432,6 +440,10 @@ korean = "불사의 왕 샬롬이군요…. 그의 다음 표적은… 아마 �
 japanese = "ベルゼーヴァ様…。<line-break><line-break><line-break>………………。<end>"
 korean = "벨제바 님…. ……………….<end>"
 
+["1250268"]
+japanese = "ディンガルの宰相の行きそうな場所？<line-break>奴の執務室以外でか？<line-break><line-break>…そうだな。少し前に、<line-break>奴を新月の塔で見かけたって<line-break>話を聞いたことがあるぜ。<end>"
+korean = "딘갈 재상이 갈 법한 곳? 집무실 말고? …그러고 보니 얼마 전 그 녀석을 신월의 탑에서 봤다는 이야기를 들은 적 있어.<end>"
+
 ["1250274"]
 japanese = "ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<line-break>ベルゼ失敗のボゲー<end>"
 korean = "벨제 실패 보게 벨제 실패 보게 벨제 실패 보게 벨제 실패 보게 벨제 실패 보게 벨제 실패 보게<end>"
@@ -511,6 +523,10 @@ korean = "누나, 다른 특징은 없어? 그것만으론 모르겠어.<end>"
 ["1250365"]
 japanese = "…アルノートゥンに<line-break>ほほの傷が目立つ、<line-break>イオンズという神官がいる。<line-break>捜すなら、さっさと済ませるんだな。<end>"
 korean = "…알노툰에 뺨의 흉터가 눈에 띄는 이온즈라는 신관이 있다. 찾을 거면 빨리 끝내.<end>"
+
+["1250367"]
+japanese = "その人かどうかわからないけど、<line-break>ほほの傷のある男って<line-break>アルノートゥンのイオンズさんかな。<line-break>イオンズさんなら、<line-break>上門の広場によくいらっしゃるよ。<end>"
+korean = "그 사람인지는 모르겠지만 뺨에 상처가 있는 남자라면 알노툰의 이온즈 씨 아닐까. 이온즈 씨라면 상문 광장에 자주 계셔.<end>"
 
 ["1250373"]
 japanese = "ほほに傷のある男か。<line-break>心当たりがないな。<line-break>　<line-break>旅なれた者なら<line-break>何か知っているかもしれんが。<end>"

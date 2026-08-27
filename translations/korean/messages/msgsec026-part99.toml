@@ -4,6 +4,10 @@
 japanese = "城塞都市跡で起こる怪現象を調べる？<line-break><line-break><line-break>…いかにも、命知らずな冒険者の<line-break>やりそうなことね。<end>"
 korean = "성새도시 유적에서 일어나는 괴현상을 조사한다고? …과연 목숨 아까운 줄 모르는 모험자다운 일이네.<end>"
 
+["260012"]
+japanese = "城塞都市跡に、黒い闇のような生き物が<line-break>現れるという噂のことだな。<line-break>俺も気になっていた。<line-break>調べてみる価値はあるかもしれん。<line-break>行ってみるか…。<end>"
+korean = "성새도시 터에 검은 어둠 같은 생물이 나타난다는 소문 말이지. 나도 신경 쓰였어. 조사해 볼 가치는 있을지 몰라. 가 볼까….<end>"
+
 ["260019"]
 japanese = "……………。<line-break><line-break><line-break>黒い闇に似た生物が現れるという。<end>"
 korean = "……………. 검은 어둠을 닮은 생물이 나타난다고 한다.<end>"
@@ -11,6 +15,10 @@ korean = "……………. 검은 어둠을 닮은 생물이 나타난다고 한
 ["260028"]
 japanese = "城塞都市跡の噂？<line-break>黒い闇みたいな生き物がいるとか、<line-break>怪現象が起きるっていう話ね。<line-break>ギルドから報酬も出るし、<line-break>行ってみる？<end>"
 korean = "성채도시 유적 소문? 검은 어둠 같은 생물이 있다거나 괴현상이 일어난다는 이야기 말이지. 길드에서 보수도 나오니 가 볼래?<end>"
+
+["260030"]
+japanese = "私もお客さんから<line-break>聞いたことがあります。<line-break>　<line-break>なんでも城塞都市跡に<line-break>黒い闇のようなお化けが出るとか…。<line-break>し、調べにいっちゃうんですか？<end>"
+korean = "저도 손님에게 들은 적 있어요. 성새도시 터에 검은 어둠 같은 귀신이 나온다던데…. 조, 조사하러 가실 건가요?<end>"
 
 ["260033"]
 japanese = "大陸の南西にある島に行けば、<line-break>ネメア様を助けることができるのね？<line-break>行きましょう、<value:$28>！<end>"
@@ -24,9 +32,17 @@ korean = "대륙 남서쪽 섬이라면 어둠의 문의 섬이라 불리는 곳
 japanese = "勇者様を俺たちが助けるなんて、<line-break>くぅううううう、燃えるぜぇ！<line-break>行くぜぇ、<value:$28>！<end>"
 korean = "용사님을 우리가 돕는다니, 크으으, 불타오른다! 간다, <value:$28>!<end>"
 
+["260038"]
+japanese = "私はなんとしても、<line-break>ネメア様を救いたいの！<line-break>力を貸して、<value:$28>！<line-break>オルファウスの言っていた<line-break>大陸の南西にある島、<line-break>闇の門の島へ行くのよ！<end>"
+korean = "난 어떻게든 네메아 님을 구하고 싶어! 힘을 빌려 줘, <value:$28>! 올파우스가 말한 대륙 남서쪽 섬, 어둠의 문 섬으로 가자!<end>"
+
 ["260042"]
 japanese = "ネメア様が…まだ、助かる…？<line-break><line-break><line-break>私からもお願いします、<line-break><value:$28>。<end>"
 korean = "네메아 님이… 아직 살 수 있어…? 저도 부탁드릴게요, <value:$28>.<end>"
+
+["260046"]
+japanese = "ネメアさんを破壊神なんかに<line-break>させちゃいけないよ！<line-break>僕は絶対に助けてみせる。<line-break><value:$28>も<line-break>力を貸してくれるよね。<line-break>行こうよ、闇の門の島へ！<end>"
+korean = "네메아 씨를 파괴신 따위로 만들면 안 돼! 난 반드시 구해낼 거야. <value:$28>도 힘을 빌려줄 거지? 가자, 어둠의 문 섬으로!<end>"
 
 ["260049"]
 japanese = "ネメア救出ボゲー<line-break>a<end>"
@@ -91,6 +107,10 @@ korean = "말하는 고블린이 금단의 성배를 들고 도망쳤다고? 빨
 ["260102"]
 japanese = "もう忘れたの？<line-break>奴らは賢者の森を目指しているわ。<line-break><line-break>ゴブリンのすることだから、<line-break>理由までは知らないわ。<end>"
 korean = "벌써 잊었어? 녀석들은 현자의 숲으로 향하고 있어. 고블린이 하는 일이니 이유까지는 몰라.<end>"
+
+["260112"]
+japanese = "低能なゴブリンがしゃべるなんて<line-break>生意気よ！　許せないわ！<line-break>高貴なエルフのアタクシが聖杯を<line-break>取り返して、元の低能なゴブリンに<line-break>戻してあげる。<end>"
+korean = "저능한 고블린이 말을 하다니 건방져! 용서 못 해! 고귀한 엘프인 내가 성배를 되찾아서 원래 저능한 고블린으로 돌려놓겠어.<end>"
 
 ["260113"]
 japanese = "ゴブリン３匹はどこへ？ボゲー<end>"

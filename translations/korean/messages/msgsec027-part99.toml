@@ -316,6 +316,10 @@ korean = "곤란하네, <value:$28>와 맞붙게 되다니. 그래도 지지 않
 japanese = "ほう、<value:$28>か。<line-break>お手合わせ願おうかの。<end>"
 korean = "호오, <value:$28>인가. 한판 겨뤄 보자꾸나.<end>"
 
+["270109"]
+japanese = "師匠、よろしくお願いいたしまする。<line-break>拙者の修行の成果をご覧あれ！<end>"
+korean = "스승님, 잘 부탁드리옵니다. 소인의 수련 성과를 봐 주십시오!<end>"
+
 ["270110"]
 japanese = "<value:$28>さんといえども<line-break>ここでは手加減なしですよ。<end>"
 korean = "<value:$28>님이라 해도 여기서는 봐주지 않을 겁니다.<end>"

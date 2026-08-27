@@ -76,6 +76,10 @@ korean = "자, 낮잠이나 자 볼까.<end>"
 japanese = "<value:$28>様。<line-break>ご無事でなによりです。<line-break>ゆっくりしていってくださいね。<end>"
 korean = "<value:$28> 님. 무사하셔서 다행입니다. 편히 쉬다 가세요.<end>"
 
+["1200045"]
+japanese = "ここにいると　　　　　　　　　　　<line-break>心が安まるんです。<line-break> 　<line-break>つらかったことや<line-break>悲しかったことを<line-break>みんな忘れられるような気がして…。<end>"
+korean = "여기 있으면 마음이 편안해져요. 힘들었던 일도 슬펐던 일도 전부 잊을 수 있을 것 같아서….<end>"
+
 ["1200046"]
 japanese = "ネモさんってとても<line-break>やさしい方なんですよ。<end>"
 korean = "네모 씨는 정말 상냥한 분이에요.<end>"

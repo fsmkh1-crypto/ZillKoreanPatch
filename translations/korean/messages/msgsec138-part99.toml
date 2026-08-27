@@ -28,6 +28,10 @@ korean = "그대에게 꼭 감사 인사를 하고 싶어서 말이지.<end>"
 japanese = "<value:$28>。<line-break>我が娘、イークレムンの命を<line-break>救ってくれたこと、心より感謝いたす。<end>"
 korean = "<value:$28>. 내 딸 이크렘의 목숨을 구해 준 것, 진심으로 감사한다.<end>"
 
+["1380014"]
+japanese = "いやいや<line-break>わしひとりでは<line-break>娘を救えんかったじゃろうて。<end>"
+korean = "아니 아니, 나 혼자서는 딸을 구하지 못했을 게야.<end>"
+
 ["1380015"]
 japanese = "本当に感謝しとる。<end>"
 korean = "정말 감사하고 있네.<end>"
@@ -47,6 +51,10 @@ korean = "네가 없었더라면… 나는 또….<end>"
 ["1380019"]
 japanese = "お主には感謝してもしきれぬな。<end>"
 korean = "자네에겐 아무리 감사해도 모자라겠군.<end>"
+
+["1380020"]
+japanese = "そうはいかん。<line-break>このままではわしの気持ちが<line-break>収まらぬ。<end>"
+korean = "그럴 순 없지. 이대로는 내 마음이 풀리지 않아.<end>"
 
 ["1380021"]
 japanese = "そこで、感謝の意味を込めて…<line-break>酒席を設けた。<end>"
@@ -116,6 +124,10 @@ korean = "이런, 슬슬 돌아가야겠군. 케류네이아에게 일러바치�
 japanese = "おお、誰かと思えば、<line-break><value:$28>ではないか。<line-break>どうした、眠れんのか？<end>"
 korean = "오, 누군가 했더니 <value:$28> 아닌가. 왜 그래, 잠이 안 오나?<end>"
 
+["1380047"]
+japanese = "そうか…。<line-break>わしは今宵、<line-break>星を眺めに出てきたのじゃよ。<end>"
+korean = "그런가…. 나는 오늘 밤 별을 보러 나왔네.<end>"
+
 ["1380053"]
 japanese = "力で立ち向かう<end>"
 korean = "힘으로 맞선다<end>"
@@ -123,6 +135,10 @@ korean = "힘으로 맞선다<end>"
 ["1380054"]
 japanese = "あくまで説き伏せる<end>"
 korean = "끝까지 설득한다<end>"
+
+["1380055"]
+japanese = "うむ。無念じゃが、<line-break>それしかないじゃろうな。　　<line-break><line-break>わしらはともかく、無防備な<line-break>旅人なぞを襲わせてはならぬ。<line-break>その前に…そうなる前に…。<end>"
+korean = "음. 유감이지만 그것밖엔 없겠지. 우리야 그렇다 쳐도 무방비한 여행자까지 습격당하게 해서는 안 된다. 그 전에… 그렇게 되기 전에….<end>"
 
 ["1380060"]
 japanese = "頼むぞ、<value:$28>。<end>"
@@ -279,6 +295,10 @@ korean = "또 봐.<end>"
 ["1380114"]
 japanese = "しっ。<line-break>静かに。<line-break>黙って、こちらへ来て…。<end>"
 korean = "쉿. 조용히. 말하지 말고 이쪽으로 와….<end>"
+
+["1380118"]
+japanese = "しかし、そうやってもがいても、<line-break>結局、解放軍が望むものは…。<end>"
+korean = "하지만 그렇게 발버둥쳐도 결국 해방군이 바라는 것은….<end>"
 
 ["1380120"]
 japanese = "何の解放も成し遂げていなかったと<line-break>思っていた私の解放軍…。<line-break> <line-break>けれどそれは、真っ先に、<line-break>私の心を解き放ってくれたのね…。<end>"

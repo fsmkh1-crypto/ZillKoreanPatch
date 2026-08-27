@@ -12,6 +12,10 @@ korean = "어라, 손님인가요. 드문 일이네요.<end>"
 japanese = "なるほど。人間の言葉を<line-break>しゃべるゴブリンですか…。<line-break>　<line-break>彼らを追って、この屋敷に<line-break>たどり着いたのですね？<end>"
 korean = "그렇군요. 인간 말을 하는 고블린입니까…. 그들을 쫓다가 이 저택까지 오신 거군요?<end>"
 
+["2420003"]
+japanese = "私よりもそのゴブリンたちに<line-break>詳しい者がいますよ。<line-break>　<line-break>まあ、ここで立ち話もなんですから。<line-break>お入りください。<line-break>お茶でもいれましょう。<end>"
+korean = "저보다 그 고블린들을 더 잘 아는 사람이 있습니다. 뭐, 여기서 서서 이야기하기도 그러니 들어오세요. 차라도 내오죠.<end>"
+
 ["2420004"]
 japanese = "なるほど。<value:$28>の話は<line-break>よくわかりました。<end>"
 korean = "그렇군요. <value:$28>의 이야기는 잘 알겠습니다.<end>"
@@ -27,6 +31,10 @@ korean = "흥. 지금은 이런 꼴이지만, 이 몸은 파괴신의 원탁기�
 ["2420012"]
 japanese = "なぜかネモはこんな姿が<line-break>気に入らないらしく、<line-break>　<line-break>もとの姿に戻るために、<line-break>あのゴブリンたちを操って<line-break>聖杯を盗ませたのです。<end>"
 korean = "이상하게도 네모는 이 모습이 마음에 들지 않는 모양이라 원래 모습으로 돌아가기 위해 그 고블린들을 조종해 성배를 훔치게 했습니다.<end>"
+
+["2420013"]
+japanese = "それで途中までは順調だったんだが<line-break>あのゴブリンども、<line-break>いらねえ知恵つけやがって。<line-break>こんな身体でなかったら<line-break>八つ裂きにしているところだぜ。<end>"
+korean = "그래서 중간까진 순조로웠는데 그 고블린 놈들이 쓸데없는 꾀를 익혀 버렸어. 이런 몸만 아니었으면 갈기갈기 찢어 놨을 텐데.<end>"
 
 ["2420014"]
 japanese = "くすっ。<line-break>彼らが聖杯を持って逃げたんですよ。<line-break>首謀者よりも賢い子たちですね。<end><value:$28>は聖杯が<line-break>どういうものかご存じですか？<end>"
