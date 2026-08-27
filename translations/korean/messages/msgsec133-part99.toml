@@ -2008,6 +2008,10 @@ korean = "<value:$28> 씨, 제가 이런 말을 할 자격은 없지만…<end>"
 japanese = "がんばってください…。<end>"
 korean = "힘내세요….<end>"
 
+["1330716"]
+japanese = "カルラ様は、しばらく<line-break>お忙しいとのことです。<line-break>今は、お引き取りください。<end>"
+korean = "칼라 님은 당분간 바쁘시다고 합니다. 지금은 돌아가 주십시오.<end>"
+
 ["1330717"]
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"

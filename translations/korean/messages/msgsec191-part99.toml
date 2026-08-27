@@ -252,6 +252,10 @@ korean = "으으…, 역시 강해….<end>"
 japanese = "やめて、ナーシェス。<line-break><value:$28>さんに<line-break>そのことは言わないで！<end>"
 korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>"
 
+["1910101"]
+japanese = "フフ、よいではないか。<line-break><value:$28>にも<line-break>聞かせてやるとしよう。　　　　　<line-break>そうすれば、人間の持つ<line-break>哀れみの感情とやらで、<line-break>竜王様に従う気になるかもしれん。<end>"
+korean = "후후, 좋지 않은가. <value:$28>에게도 들려주지. 그러면 인간이 가진 연민이라는 감정으로 용왕님을 따를 마음이 생길지도 모르니.<end>"
+
 ["1910102"]
 japanese = "<value:$28>、<line-break>お前を慕っていたノエルが<line-break>ここに来た理由がわかるか？<line-break>お前が死なない限り、<line-break>カフィンとレイヴンが死人に<line-break>戻ってしまうからだ！<end>"
 korean = "<value:$28>, 너를 따르던 노엘이 왜 여기 왔는지 아나? 네가 죽지 않는 한 카핀과 레이븐이 다시 죽은 자로 돌아가 버리기 때문이다!<end>"
@@ -431,6 +435,10 @@ korean = "일단 어둠의 침공은 막았습니다. 잘해 주셨어요. 하�
 ["1910162"]
 japanese = "ふふふ。これからあなたは、<line-break>どんな道を進むのでしょうね？<line-break>楽しみです。<end>"
 korean = "후후후. 앞으로 당신은 어떤 길을 걷게 될까요? 기대되네요.<end>"
+
+["1910163"]
+japanese = "では、戻りましょうか。<line-break>無事な姿をみんなに見せないと。<line-break>さあ、行きましょう。<end>"
+korean = "그럼 돌아갈까요. 무사한 모습을 모두에게 보여 줘야죠. 자, 갑시다.<end>"
 
 ["1910165"]
 japanese = "Ｖ７の３か、終幕は近い。<line-break>予備メッセージの８だ。<end>"
