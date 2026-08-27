@@ -124,6 +124,10 @@ korean = "끝까지 설득한다<end>"
 japanese = "頼むぞ、<value:$28>。<end>"
 korean = "부탁한다, <value:$28>.<end>"
 
+["1380061"]
+japanese = "…こう言うと、<line-break>いかにも決まり文句の<line-break>ようになってしまうがな、<line-break>じき来る頃だと思っておったぞ、<line-break><value:$28>。<end>"
+korean = "…이렇게 말하면 뻔한 대사 같지만, 슬슬 올 때가 됐다고 생각하고 있었다, <value:$28>.<end>"
+
 ["1380064"]
 japanese = "<value:$28>。<line-break>そなたは、わらわの持つ<line-break>予知の力をどう感ずる？<line-break>そなたも、未来を見ることが<line-break>できたらよいと思うか？<end>"
 korean = "<value:$28>. 그대는 내가 가진 예지의 힘을 어떻게 생각하느냐? 그대도 미래를 볼 수 있으면 좋겠다고 생각하느냐?<end>"
@@ -271,6 +275,10 @@ korean = "원망받아도 당연해. 나쁘게 말해도 무리는 아니지.<en
 ["1380143"]
 japanese = "そうか…<line-break>お前さんも付き合ってくれるのかい？<end>"
 korean = "그런가… 자네도 함께해 주겠나?<end>"
+
+["1380153"]
+japanese = "けど…、けどさ！<line-break> <line-break> <line-break>姉ちゃん、頼むよ。<line-break>俺の姉ちゃんだってことを、<line-break>いつまでも忘れないでくれよ！<end>"
+korean = "하지만… 하지만 말이야! 누나, 부탁해. 내 누나라는 걸 언제까지나 잊지 말아 줘!<end>"
 
 ["1380159"]
 japanese = "…どなたです？　　<end>"

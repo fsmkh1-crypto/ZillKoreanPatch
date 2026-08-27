@@ -56,6 +56,10 @@ korean = "…고마워. 거짓말이라도 기뻐.<end>"
 japanese = "今日はこのくらいで<line-break>勘弁してあげる。<line-break>　<line-break>さぁ、行って。<line-break>行ってちょうだい。<end>"
 korean = "오늘은 이 정도로 봐줄게. 자, 가. 가 줘.<end>"
 
+["1450025"]
+japanese = "父さん…、<line-break><value:$28>は冒険を終えて、<line-break>ここへ戻ってくると思う？<line-break>…そうよね。<line-break>きっと帰ってきてくれるわね。<end>"
+korean = "아버지… <value:$28>은 모험을 끝내고 여기로 돌아올까? …그렇지. 분명 돌아와 줄 거야.<end>"
+
 ["1450026"]
 japanese = "それじゃ、帰すわけにはいかない。<line-break>いい答えをくれるまではね。<line-break>　<line-break>もう一度聞くわ。<line-break>私と一緒に海を旅してくれる？<end>"
 korean = "그럼 돌려보낼 수 없지. 좋은 대답을 들을 때까지 말이야. 다시 물을게. 나와 함께 바다를 여행해 줄래?<end>"

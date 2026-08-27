@@ -824,6 +824,10 @@ korean = "기뻐요!<end>"
 japanese = "そうなんですか…。<end>"
 korean = "그런가요….<end>"
 
+["620340"]
+japanese = "あ、<value:$28>さん、<line-break>そういえば、このあいだですね…。<end>"
+korean = "아, <value:$28>님. 그러고 보니 지난번에 말이죠….<end>"
+
 ["620341"]
 japanese = "あ、はいー！<line-break>わかりましたー！<end>"
 korean = "아, 네에! 알겠습니다아!<end>"

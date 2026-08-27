@@ -344,6 +344,10 @@ korean = "기다려.<end>"
 japanese = "お前はまだひよっ子だからな。<line-break>忠告してやる。<end>"
 korean = "넌 아직 풋내기니까. 충고 하나 해 주지.<end>"
 
+["1420137"]
+japanese = "生水は飲むな。たくさん食って、<line-break>たくさん寝ろ。<line-break>　<line-break>ヤバイと思ったらすぐ逃げろ。<line-break>たやすく他人を信じるな。<end>"
+korean = "생수는 마시지 마. 많이 먹고 많이 자. 위험하다 싶으면 바로 도망쳐. 쉽게 남을 믿지 마.<end>"
+
 ["1420138"]
 japanese = "それから、それから…。<end>"
 korean = "그리고, 그리고….<end>"
@@ -367,6 +371,10 @@ korean = "당연하지!<end>"
 ["1420143"]
 japanese = "気をつけて、<value:$28>。<line-break>また会える日を<line-break>楽しみにしていますよ。<end>"
 korean = "조심하세요, <value:$28>. 다시 만날 날을 기대하고 있을게요.<end>"
+
+["1420144"]
+japanese = "…行ってしまいましたか。<line-break>どこまで行っても世界は変わらない。<line-break>　<line-break>平等な世界なんて<line-break>ないのかもしれません。<end>"
+korean = "…가 버렸군요. 어디까지 가도 세상은 변하지 않아. 평등한 세상 같은 건 없을지도 모르겠습니다.<end>"
 
 ["1420145"]
 japanese = "でも、そこに生きる人の…<line-break>そこに生きる者たちの<line-break>気持ちは変わります。<line-break>残虐な者もやさしく、<line-break>怒れる者も穏やかに。<end>"
@@ -404,6 +412,10 @@ korean = "너, 너는…!<end>"
 japanese = "…立ち去れ。<end>"
 korean = "…물러가라.<end>"
 
+["1420158"]
+japanese = "聞こえないのか？<line-break> <line-break> <line-break>我が閃光の弓は、<line-break>七つの山を越えた先から、<line-break>貴様の眉間を貫くことができるぞ。<end>"
+korean = "안 들리나? 내 섬광의 활은 일곱 산 너머에서도 네 미간을 꿰뚫을 수 있다.<end>"
+
 ["1420159"]
 japanese = "まま、まさかあいつ…<line-break>鉄火姫オイフェか！？<end>"
 korean = "서, 설마 저 녀석… 철화공주 오이페인가!?<end>"
@@ -415,6 +427,10 @@ korean = "젠장, 도망가자!<end>"
 ["1420162"]
 japanese = "アキュリュースに、何をしに行く？<end>"
 korean = "아큐류스에 뭘 하러 가는 거지?<end>"
+
+["1420164"]
+japanese = "答えられないようなことか。<line-break>ならば、やめておいた方がいい。<line-break>本当に、エルフ族の恥になる。<line-break>…行くわよ、<value:$28>。<end>"
+korean = "대답할 수 없는 일이야? 그럼 그만두는 게 좋아. 정말 엘프족의 수치가 될 거야. …가자, <value:$28>.<end>"
 
 ["1420166"]
 japanese = "その答え、自分で考えるといいわ。<line-break>考えている間は、生きることができる。<line-break> <line-break>真剣に考えている間は、<line-break>憎しみを忘れることができる。<end>"
@@ -659,6 +675,10 @@ korean = "그런데 <value:$28>은 어디로 갔느냐?<end>"
 ["1420270"]
 japanese = "<value:$28>は、<line-break>ここにいるみんなの代表として、<line-break><line-break>自分の町へ帰らなくちゃならない<line-break>みんなを見送りに行ったんじゃない。<end>"
 korean = "<value:$28>은 여기 있는 모두를 대표해서 자기 마을로 돌아가야 하는 사람들을 배웅하러 간 거잖아.<end>"
+
+["1420271"]
+japanese = "そうそう！<line-break><line-break><line-break>ボクたちはパーティーを続けながら、<line-break><value:$28>が帰ってくるのを<line-break>待ってるんじゃないか。<end>"
+korean = "그래, 그래! 우리는 파티를 계속하면서 <value:$28>이 돌아오기를 기다리고 있잖아.<end>"
 
 ["1420272"]
 japanese = "そうか…。<line-break>のう、<value:$28>は、<line-break>本当に戻ってくるのか？<end>"
@@ -1019,6 +1039,10 @@ korean = "당신이 마음만 먹는다면… 이 대륙에 다시 전쟁을 일
 ["1420386"]
 japanese = "だが、お前には仲間がいる。<line-break> <line-break> <line-break>それはお前が正しいことに力を<line-break>振るってきた証であり、<line-break>お前の力を抑える枷でもある。<end>"
 korean = "하지만 너에겐 동료가 있다. 그건 네가 옳은 일을 위해 힘을 써 왔다는 증거이자 네 힘을 억누르는 족쇄이기도 하지.<end>"
+
+["1420388"]
+japanese = "その人たちに何も告げずに行くなんて、<line-break>許されないわ。<line-break> <line-break>残される方にも、それぞれの思いが<line-break>あるんだから。<end>"
+korean = "그 사람들에게 아무 말도 하지 않고 가는 건 용납할 수 없어. 남겨지는 쪽에도 저마다의 마음이 있으니까.<end>"
 
 ["1420389"]
 japanese = "その辺にしておきなさい。<line-break> <line-break> <line-break>ここから先は<line-break><value:$28>自身が<line-break>決めることです。<end>"
@@ -1572,6 +1596,10 @@ korean = "그래. 네 힘은 커.<end>"
 japanese = "あなたがその気になれば…<line-break> <line-break> <line-break>この大陸に再び戦渦を引き起こすことも<line-break>できるのでしょうね…。<end>"
 korean = "당신이 마음만 먹는다면… 이 대륙에 다시 전쟁을 일으킬 수도 있겠죠….<end>"
 
+["1420597"]
+japanese = "その人たちに何も告げずに行くなんて、<line-break>許されないわ。<line-break> <line-break>残される方にも、それぞれの思いが<line-break>あるんだから。<end>"
+korean = "그 사람들에게 아무 말도 하지 않고 가는 건 용납할 수 없어. 남겨지는 쪽에도 저마다의 마음이 있으니까.<end>"
+
 ["1420598"]
 japanese = "その辺にしておきなさい。<line-break> <line-break> <line-break>ここから先は<line-break><value:$28>自身が<line-break>決めることです。<end>"
 korean = "그쯤 해 두세요. 여기서부터는 <value:$28> 본인이 결정할 일입니다.<end>"
@@ -1591,6 +1619,10 @@ korean = "<value:$28> 님이 지나가시는군요.<end>"
 ["1420606"]
 japanese = "おそらく…。<line-break>いいえ、可能性はかなり高いわ。<end>"
 korean = "아마도…. 아니, 가능성은 상당히 높아.<end>"
+
+["1420607"]
+japanese = "ん、なるほどね。<line-break>で、何にも知らない<line-break><value:$28>が通ったら、<line-break>みんなで一気に身柄を確保しようって<line-break>寸法、ねえ<end>"
+korean = "흠, 그렇군. 그래서 아무것도 모르는 <value:$28>이 지나가면 다 같이 단숨에 붙잡겠다는 셈이군.<end>"
 
 ["1420609"]
 japanese = "まっ、待ち伏せだなんて、<line-break>人聞きの悪い。<line-break> <line-break>アタクシを、そんな悪事の巻きぞえに<line-break>しないでくれるかしら？<end>"

@@ -128,9 +128,17 @@ korean = "추모주?<end>"
 japanese = "ディンガル兵にしろ、　　　　　<line-break>親兄弟がいる。<line-break>　<line-break>子供がいる奴もいただろう。<line-break>それを…、<line-break>ずいぶん殺しちまった。<end>"
 korean = "딘갈 병사에게도 부모형제가 있어. 아이가 있는 자도 있었겠지. 그런 사람들을… 꽤 많이 죽였어.<end>"
 
+["660045"]
+japanese = "ウソばっかり。あなたが<line-break>そんなことで悩むものですか。<end>"
+korean = "거짓말뿐이네요. 당신이 그런 일로 고민할 리가 있나요.<end>"
+
 ["660047"]
 japanese = "誰が、そんなことを！　　　<end>"
 korean = "누가 그런 말을!<end>"
+
+["660048"]
+japanese = "と、とにかく、あなたがいると<line-break>気分が悪くなるんです！<end>"
+korean = "아, 아무튼 당신이 있으면 기분이 나빠져요!<end>"
 
 ["660049"]
 japanese = "そりゃどーも。<line-break>んじゃ、行くか、<value:$28>。<end>"
@@ -183,6 +191,10 @@ korean = "저… 아, 지, 지금 차를 준비시키겠습니다.<end>"
 ["660071"]
 japanese = "そ、それは…<line-break>あなたのことを誤解していたから…。<end>"
 korean = "그, 그건… 당신을 오해하고 있었으니까….<end>"
+
+["660078"]
+japanese = "さぁてと、姫さんの機嫌を<line-break>損ねないうちに退散するか。<end>"
+korean = "자, 공주님 심기를 거스르기 전에 물러날까.<end>"
 
 ["660079"]
 japanese = "あ…、<line-break>もう帰ってしまうのですか？<end>"
@@ -303,6 +315,10 @@ korean = "어머…, 벌써 돌아가시나요?<end>"
 ["660142"]
 japanese = "生きてたら、<line-break>必ずまた来るさ。<end>"
 korean = "살아 있다면 반드시 다시 올 거야.<end>"
+
+["660151"]
+japanese = "おう、姫さんのために<line-break>来てやるよ。<line-break>じゃあな。<end>"
+korean = "그래, 공주님을 위해 와 주지. 그럼 간다.<end>"
 
 ["660152"]
 japanese = "<value:$28>様なら、<line-break>大歓迎いたしますわ。<line-break>また、いらしてくださいね。<end>"

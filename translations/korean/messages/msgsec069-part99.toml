@@ -136,6 +136,10 @@ korean = "묻고 싶은 게 있으면 답해 드릴게요.<end>"
 japanese = "団長、幸せの地もいいゴブが<line-break>自分は腹が減ったゴブ。<end>"
 korean = "단장, 행복의 땅도 좋지만 나는 배고프다 고브.<end>"
 
+["690084"]
+japanese = "む、腹が減ったゴブな。<line-break>よし、ゴブゴブ団、食事ゴブ！<end>"
+korean = "음, 배고프다 고브. 좋아, 고브고브단, 식사다 고브!<end>"
+
 ["690085"]
 japanese = "団長までそれゴブか！<line-break>ひどいゴブ！<end>"
 korean = "단장까지 그러는 거냐고브! 너무하다고브!<end>"
@@ -196,6 +200,10 @@ korean = "단장! 저 녀석 고브!<end>"
 japanese = "む、勝敗は兵家の常。<line-break>ゴブゴブ団、退却ゴブ！<end>"
 korean = "흥, 승패는 병가의 상사. 고브고브단, 후퇴 고브!<end>"
 
+["690119"]
+japanese = "マルーンがやられたゴブ～。<line-break>ゴブゴブ団、撤退ゴブ～。<end>"
+korean = "마룬이 당했다 고브~. 고브고브단, 후퇴다 고브~.<end>"
+
 ["690120"]
 japanese = "団長！　別に、自分だけが<line-break>やられたわけではないゴブよ～。<end>"
 korean = "단장! 단장만 당한 건 아니잖아 고브~.<end>"
@@ -227,6 +235,10 @@ korean = "그런가. 녀석은 어느 쪽으로 갔지?<end>"
 ["690134"]
 japanese = "貴様、名を名乗れ。<end>"
 korean = "네놈, 이름을 밝혀라.<end>"
+
+["690135"]
+japanese = "この洞窟の外まで<line-break>一緒に行ってやる。<line-break>名乗れ。<end>"
+korean = "이 동굴 밖까지 같이 가 주겠다. 이름을 대라.<end>"
 
 ["690136"]
 japanese = "…<value:$28>、か。<line-break>足手まといにはなるな。<end>"
@@ -447,6 +459,10 @@ korean = "상대는 강력한 괴물입니다. 방심하지 마십시오….<end
 ["690247"]
 japanese = "…では。<end>"
 korean = "…그럼.<end>"
+
+["690249"]
+japanese = "…あなただけは、なぜか<line-break>不審をぬぐえないようですね。<end>"
+korean = "…당신만은 어째서인지 의심을 거둘 수 없는 모양이군요.<end>"
 
 ["690250"]
 japanese = "…なぜだか、<line-break>思い出せないのか。<end>"

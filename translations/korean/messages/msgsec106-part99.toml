@@ -44,6 +44,10 @@ korean = "있지, 이렇게 편지 내용을 보는 건 나쁜 짓일까?<end>"
 japanese = "…お前さんには、教えといた方が　<line-break>よさそうだと思ってな。<line-break>　<line-break>…お前さんのディンガルのお友達、<line-break>結構、敵が多いらしいな。<end>"
 korean = "…자네한테는 알려 두는 게 좋을 것 같아서 말이지. …자네 딘갈 친구들, 적이 꽤 많은 모양이더군.<end>"
 
+["1060054"]
+japanese = "いや、でもダメだよ。<line-break>人の手紙を勝手にのぞいちゃ。<end>"
+korean = "아니, 그래도 안 돼. 남의 편지를 멋대로 보면 안 되지.<end>"
+
 ["1060055"]
 japanese = "ダメダメ、やっぱり<line-break>そんなことしちゃダメだよ。<end>"
 korean = "안 돼, 안 돼. 역시 그런 짓을 하면 안 돼.<end>"
@@ -87,6 +91,10 @@ korean = "부조리의 부하가 되지 않는다<end>"
 ["1060079"]
 japanese = "そ、わかったわ。<line-break>とにかく芯ってものがないのね。<end>"
 korean = "그래, 알겠어. 아무튼 중심이란 게 없네.<end>"
+
+["1060096"]
+japanese = "なんか、リベルダムの武器商人に<line-break>恨みでもあるわけ？<end>"
+korean = "뭐, 리벨덤의 무기상인에게 원한이라도 있어?<end>"
 
 ["1060103"]
 japanese = "…解放軍の本部が破壊されたわ。　<line-break>ブゾリの仕業よ。<line-break>　<line-break>ところで、わたくしに<line-break>何か言うことがあるんじゃなくて？<line-break><end>"

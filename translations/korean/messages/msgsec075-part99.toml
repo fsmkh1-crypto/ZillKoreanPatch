@@ -104,6 +104,10 @@ korean = "이건 답례야. 정말 고마워.<end>"
 japanese = "３０００ギア手に入れた。<end>"
 korean = "3000기아를 손에 넣었다.<end>"
 
+["750040"]
+japanese = "それでは、僕が<value:$28>を<line-break>王宮の外までご案内します。<end>"
+korean = "그럼 제가 <value:$28>을 왕궁 밖까지 안내하겠습니다.<end>"
+
 ["750042"]
 japanese = "はい。お気をつけて…。<end>"
 korean = "네. 조심히 가세요….<end>"

@@ -32,6 +32,10 @@ korean = "빈 메시지<end>"
 japanese = "空きメッセージ<end>"
 korean = "빈 메시지<end>"
 
+["1110012"]
+japanese = "冗談だ。君ごときなら、<line-break>今、私ひとりで始末できる。<end>"
+korean = "농담이다. 너 정도라면 지금 나 혼자서도 처리할 수 있어.<end>"
+
 ["1110017"]
 japanese = "それでは意味がないのだ。<end>"
 korean = "그러면 의미가 없다.<end>"
