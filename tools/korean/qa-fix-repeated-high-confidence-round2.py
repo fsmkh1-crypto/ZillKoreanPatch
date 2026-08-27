@@ -2,7 +2,7 @@
 """Normalize reviewed high-confidence repeated Japanese sources to one Korean surface.
 
 Exact-source rewrites are used for repeated UI labels and repeated explanatory
-lines.  A tiny source-term rewrite table is also allowed for independently
+lines. A tiny source-term rewrite table is also allowed for independently
 anchored global names so compounds such as `盗人村：ロッシマ邸内` inherit the
 same Korean place name without touching unrelated Korean substrings.
 """
@@ -32,6 +32,14 @@ CANONICAL: dict[str, str] = {
     norm_source("質問はない<end>"): "질문은 없다<end>",
     norm_source("盗人村<end>"): "도둑 마을<end>",
     norm_source("ディンガル士官<end>"): "딘갈 장교<end>",
+    # Menu/choice labels: 町 is consistently localized as 마을 here, and the
+    # 출입 pair is kept grammatically symmetrical.
+    norm_source("町から出る<end>"): "마을에서 나간다<end>",
+    norm_source("町から出ない<end>"): "마을에서 나가지 않는다<end>",
+    # Speaker/UI labels whose semantics do not depend on scene context.
+    norm_source("スラムの青年<end>"): "빈민가의 청년<end>",
+    norm_source("て、敵襲！<end>"): "저, 적습이다!<end>",
+    norm_source("へ、へい！<end>"): "예, 예!<end>",
     norm_source("　　　　　　指導者を失った両国は<line-break>　　　一時的な停戦状態に陥るのだった。<end>"): "지도자를 잃은 두 나라는 일시적인 휴전 상태에 들어갔다.<end>",
     norm_source("円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"): "원탁기사에는 그 밖에도 아르길샤이어 등이 있습니다.<end>",
     norm_source("将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"): "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>",
