@@ -52,6 +52,10 @@ korean = "마을 근처에 눌러앉은 <value:$15>을 퇴치해 주길 바란�
 japanese = "　　　　　　　告<line-break>狂暴なモンスターが人民を傷つけている。<line-break>市井の勇者よ、モンスターに正義の鉄槌を<line-break>下してくれたまえ。<line-break>対象：<value:$15><line-break>期間：<value:$1B>日以内<line-break>報酬：<value:$1A>ギア<end>"
 korean = "고시. 흉포한 몬스터가 백성을 해치고 있다. 시정의 용사여, 몬스터에게 정의의 철퇴를 내려 주게. 대상: <value:$15> 기간: <value:$1B>일 이내 보수: <value:$1A>기어<end>"
 
+["220035"]
+japanese = "夜中のうちに畑が荒らされていることが<line-break>ありまして、夜に見張っていたら、<line-break>これが<value:$15>の仕業でして…。<line-break>この悪者を退治してほしいんです。<line-break><value:$1A>ギアをお礼にさしあげます。<line-break><value:$1B>日以内に頼みますよ。<end>"
+korean = "밤사이 밭이 망가지는 일이 있어서 밤에 지켜봤더니 <value:$15>의 짓이더군요…. 이 악당을 퇴치해 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드려요.<end>"
+
 ["220037"]
 japanese = "求む！　強者！<line-break>恐ろしい<value:$15>の出現で、<line-break>鉱石を取りに行けなくて困ってる。<line-break>誰か腕に覚えのある冒険者がいたらよ、<line-break><value:$15>をやっつけてくれ。<line-break>報酬は、<value:$1A>ギアだ。悪くねぇだろ？<line-break><value:$1B>日以内で頼むぜ。<end>"
 korean = "강자 모집! 무서운 <value:$15>이 나타나 광석을 캐러 갈 수 없어 곤란하다. 실력 있는 모험자가 있다면 <value:$15>을 쓰러뜨려 줘. 보수는 <value:$1A>기어다. 나쁘지 않지? <value:$1B>일 이내로 부탁한다.<end>"
@@ -91,6 +95,10 @@ korean = "<value:$15> 퇴치 용사 모집. 보수 <value:$1A>기어라는 좋�
 ["220060"]
 japanese = "街の外に<value:$15>が出没するんで、<line-break>外出もできない。<line-break>これじゃあ材料を集められない。<line-break>あんた方に頼むよ。あいつを退治してくれ。<line-break><value:$1A>ギア出すよ。<line-break><value:$1B>日以内にやりとげてくれ。<end>"
 korean = "마을 밖에 <value:$15>이 나타나서 밖에도 못 나가고 있어. 이래서는 재료를 모을 수가 없어. 당신들에게 부탁할게. 녀석을 퇴치해 줘. <value:$1A>기어를 줄게. <value:$1B>일 이내에 끝내 줘.<end>"
+
+["220061"]
+japanese = "近頃<value:$15>が現れて材料収集の<line-break>邪魔をしやがるんだ。<line-break>仕事にならんぜ、まったく。<line-break>こいつを倒しちゃくれねえか。<line-break>お礼はするぜ。<value:$1A>ギアだ。<line-break>頼まれてくれるんなら<value:$1B>日以内に<line-break>仕留めてくれ。<end>"
+korean = "요즘 <value:$15>이 나타나서 재료 채집을 방해하고 있어. 도무지 일을 못 하겠다고. 이놈을 쓰러뜨려 주지 않겠어? 사례는 하지. <value:$1A>기어다. 맡아 준다면 <value:$1B>일 이내에 해치워 줘.<end>"
 
 ["220065"]
 japanese = "邪悪なる者の気配が感じられます。<line-break><value:$15>を倒し、<line-break>かの地に清浄を取り戻してください。<line-break>お礼として<value:$1A>ギアをお持ちください。<line-break><value:$1B>日以内に果たされることを望みます。<end>"

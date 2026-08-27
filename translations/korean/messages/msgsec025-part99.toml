@@ -20,6 +20,10 @@ korean = "모험자 여러분께 늘 신세지고 있습니다. 이번 부탁은
 japanese = "我が宿に泊まられた<line-break><value:$17><value:$16>様を<line-break><value:$15>までお送りください。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に<line-break>お送りくださるようお願いします。<end>"
 korean = "저희 여관에 묵으신<value:$17><value:$16> 님을<value:$15>까지 모셔다 주세요.사례는 <value:$1A> 기아.<value:$1B>일 이내에모셔다 주시길 바랍니다.<end>"
 
+["250008"]
+japanese = "私を<value:$15>まで<line-break>送ってもらえませんか？<line-break>最近は、街道も危険になりましたので、<line-break>護衛をお願いしたいのです。<line-break><value:$1A>ギアのお礼をいたします。<line-break><value:$1B>日以内に送り届けてくださる方、<line-break>待っています。<end>"
+korean = "저를 <value:$15>까지 데려다주시겠습니까? 요즘은 가도도 위험해져서 호위를 부탁드리고 싶습니다. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 데려다주실 분을 기다립니다.<end>"
+
 ["250009"]
 japanese = "ロストールから<value:$15>までの行程には<line-break>多くの危難が待ち構えておる。<line-break>このたび当家の<value:$17><line-break><value:$16>が出向くにあたり、<line-break>腕の立つ者に護衛を頼みたい。<line-break>褒美は、<value:$1A>ギアだ。<line-break><value:$1B>日以内に向こうに着くように頼む。<end>"
 korean = "로스토올에서 <value:$15>까지 가는 길에는 많은 위험이 기다리고 있다. 이번에 우리 집안의 <value:$17><value:$16>가 떠나게 되어 솜씨 좋은 자에게 호위를 부탁하고 싶다. 보상은 <value:$1A>기어다. <value:$1B>일 이내에 그쪽에 도착하도록 부탁한다.<end>"
@@ -251,6 +255,10 @@ korean = "우리 신전의 <value:$16>가 <value:$15>에 가게 되어 이 사�
 ["250095"]
 japanese = "仕事の都合で、<value:$15>に人をやる。<line-break>この町の<value:$16>だ。<line-break>だが聞く所によると、町の外は危険らしい。<line-break>そこで、冒険者に護衛してもらいたい。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアだ。<end>"
 korean = "일 때문에 <value:$15>에 사람을 보낸다. 이 마을의 <value:$16>다. 그런데 듣자 하니 마을 밖은 위험하다더군. 그래서 모험가에게 호위를 부탁하려 한다. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어다.<end>"
+
+["250096"]
+japanese = "旅は危険ととなりあわせです。<line-break>我が宿屋に宿泊された<line-break><value:$17><value:$16>様、<line-break>この方の行き先である<value:$15>まで<line-break>護衛をお願いします。<line-break><value:$1B>日以内に到着してください。<line-break><value:$1A>ギアのお礼をいたします。<end>"
+korean = "여행은 위험과 맞닿아 있습니다. 저희 숙소에 묵으신 <value:$17><value:$16>님을 목적지인 <value:$15>까지 호위해 주십시오. <value:$1B>일 이내에 도착해 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
 
 ["250097"]
 japanese = "近頃はどこも物騒だ。<line-break>俺たちも腕っぷしには自信があるが、<line-break>それでも１人旅は危ねえな。<line-break>うちの<value:$16>を守って、<line-break><value:$1B>日以内に<value:$15>に行ってくれ。<line-break>報酬は、<value:$1A>ギア出すぜ。<end>"

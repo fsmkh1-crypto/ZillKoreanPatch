@@ -92,6 +92,10 @@ korean = "후후… 그 아이의 인생에는 조금 인연이 있어서 말이
 japanese = "<value:$28>か。<line-break>今朝、空中庭園で<line-break>アトレイアに会って驚いた。<line-break>目を見張るほど美しくなった。<line-break>…そう思わぬか？<end>"
 korean = "<value:$28>인가. 오늘 아침 공중정원에서 아트레이아를 만나 놀랐지. 눈이 휘둥그레질 만큼 아름다워졌더군. …그렇지 않나?<end>"
 
+["1680023"]
+japanese = "<if><value:$29><equal>%0恋をすれば<line-break>女は変わる。<line-break>美しくなる。<line-break><value:$28>、<line-break>心当たりはないか？<end>誰かがアトレイアを<line-break>孤独の闇から<line-break>解放してくれたのだろう。<line-break>その者に<line-break>感謝しておくとしよう。<end>"
+korean = "<if><value:$29><equal>%0사랑을 하면 여자는 변한다. 아름다워지지. <value:$28>, 짐작 가는 사람이 없나?<end>누군가가 아트레이아를 고독의 어둠에서 해방해 준 모양이군. 그 사람에게 감사해 두도록 하지.<end>"
+
 ["1680024"]
 japanese = "<value:$28>か。<line-break>長い間、私をわずらわせていた問題が<line-break>ひとつ片付きそうだ。<line-break>レムオン…、あの男も終わりだ。<line-break>坊やの皮肉が聞けなくなるのは、<line-break>さびしい気もするが…。<end>"
 korean = "<value:$28>인가. 오랫동안 날 괴롭히던 문제가 하나 해결될 것 같군. 레몬… 그 남자도 이제 끝이다. 꼬맹이의 빈정거림을 못 듣게 되는 건 좀 쓸쓸하지만….<end>"
