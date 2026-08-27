@@ -48,6 +48,10 @@ korean = "희귀한 사냥감을 쫓았지. 알고 싶어?<end>"
 japanese = "まぁ、何かしら？<end>"
 korean = "어머, 무슨 일이죠?<end>"
 
+["640015"]
+japanese = "クククク…。<line-break>さすがのティアナも<line-break>これだけはわからないだろうな。<end>"
+korean = "크크크크… 아무리 티아나라도 이것만큼은 모르겠지.<end>"
+
 ["640016"]
 japanese = "人間だ。<line-break>卑しい平民どもだよ。ククク…<end>"
 korean = "인간이다. 천한 평민들이지. 크크크…<end>"
@@ -124,6 +128,10 @@ korean = "<value:$28> 님!<end>"
 japanese = "アトレイア？<end>"
 korean = "아트레이아?<end>"
 
+["640048"]
+japanese = "先王の娘だと！？<line-break>だからどうした？<line-break>ノコノコとでてきやがって…。<end>"
+korean = "선왕의 딸이라고!? 그래서 어쨌다는 거냐? 제 발로 나타나다니…<end>"
+
 ["640051"]
 japanese = "…ゼネテス。<line-break>こ、この…。<line-break>く、くそっ！　覚えていろ！<end>"
 korean = "…제네테스. 이, 이 자식… 제, 젠장! 두고 봐!<end>"
@@ -159,6 +167,10 @@ korean = "또 오셨군요.<end>"
 ["640065"]
 japanese = "あ…、<value:$28>様。<end>"
 korean = "아…, <value:$28> 님.<end>"
+
+["640066"]
+japanese = "…私の周りには<line-break>いつも、たくさんの人がいると<line-break>みんな言います。<line-break>ですが、それは<line-break>王女の周りに人がいるだけです。<line-break>私の周りには、誰もいない…。<end>"
+korean = "…제 주변에는 언제나 많은 사람이 있다고 다들 말합니다. 하지만 그건 공주 주변에 사람이 있을 뿐이에요. 제 주변에는 아무도 없어…<end>"
 
 ["640067"]
 japanese = "私が王女でなくても<line-break>私のそばにいてくれる…。<line-break>そんなお方がいるのでしょうか？<line-break>………………。<end>"
@@ -243,6 +255,10 @@ korean = "<value:$28>님께 미움받는다고 생각만 해도 가슴이 아파
 ["640099"]
 japanese = "この間は…<line-break>申しわけありませんでした。<end>"
 korean = "지난번에는… 죄송했습니다.<end>"
+
+["640100"]
+japanese = "よかった…。<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break><value:$28>様に嫌われたらと<line-break>…ティアナは、心が<line-break>しめつけられるようだったのです。<end>"
+korean = "다행이다… <value:$28> 님이 저를 싫어하게 되면 어쩌나 해서… 티아나는 가슴이 조여 오는 것 같았어요.<end>"
 
 ["640101"]
 japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
@@ -536,6 +552,10 @@ korean = "밖은 어떻습니까? 달라진 건 없나요? 귀족은 이 나라�
 japanese = "あ…、もうお帰りなのですか？<line-break>また、いらしてくださいね。<end>"
 korean = "아… 벌써 돌아가시나요? 또 와 주세요.<end>"
 
+["640197"]
+japanese = "何度言わせるの？<line-break>頭が痛くて<line-break>とてもお食事をする気分じゃないわ。<end>"
+korean = "몇 번을 말해야 해? 머리가 아파서 도저히 식사할 기분이 아니야.<end>"
+
 ["640199"]
 japanese = "気分がすぐれないのよ。<line-break>お母様にそう伝えてちょうだい。<end>"
 korean = "기분이 좋지 않아. 어머니께 그렇게 전해 줘.<end>"
@@ -571,6 +591,10 @@ korean = "만약 그 마을의 작은 집에서 태어났다면….<end>"
 ["640212"]
 japanese = "…なぜなのです？<end>"
 korean = "…어째서인가요?<end>"
+
+["640213"]
+japanese = "なぜ、この間、<line-break>私ではなく、アトレイア様を<line-break>かばわれたのですか？<end>"
+korean = "왜 지난번에는 저 대신 아트레이아 님을 감싸신 건가요?<end>"
 
 ["640216"]
 japanese = "未使用<end>"
@@ -631,6 +655,10 @@ korean = "후훗. 그래.<end>"
 ["640232"]
 japanese = "ふーん。<line-break>おにあいのカノジョじゃない。<end>"
 korean = "흐응. 잘 어울리는 여자친구잖아.<end>"
+
+["640233"]
+japanese = "ええ、知ってるわ。<line-break>古いけど、とってもかわいらしい<line-break>お人形よね？<end>"
+korean = "네, 알아요. 낡았지만 아주 귀여운 인형이죠?<end>"
 
 ["640234"]
 japanese = "なんで知ってるの？<end>"

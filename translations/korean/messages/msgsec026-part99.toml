@@ -36,6 +36,10 @@ korean = "대륙 남서쪽 섬이라면 어둠의 문의 섬이라 불리는 곳
 japanese = "勇者様を俺たちが助けるなんて、<line-break>くぅううううう、燃えるぜぇ！<line-break>行くぜぇ、<value:$28>！<end>"
 korean = "용사님을 우리가 돕는다니, 크으으, 불타오른다! 간다, <value:$28>!<end>"
 
+["260037"]
+japanese = "ネメアを助けることができるのは、<line-break>ボクたちだけなんだ。<line-break>行こうよ、<value:$28>。<line-break>次元のはざまにつながっている<line-break>大陸の南西にある島、<line-break>闇の門の島に！<end>"
+korean = "네메아를 구할 수 있는 건 우리뿐이야. 가자, <value:$28>. 차원의 틈으로 이어진 대륙 남서쪽 섬, 어둠의 문의 섬으로!<end>"
+
 ["260038"]
 japanese = "私はなんとしても、<line-break>ネメア様を救いたいの！<line-break>力を貸して、<value:$28>！<line-break>オルファウスの言っていた<line-break>大陸の南西にある島、<line-break>闇の門の島へ行くのよ！<end>"
 korean = "난 어떻게든 네메아 님을 구하고 싶어! 힘을 빌려 줘, <value:$28>! 올파우스가 말한 대륙 남서쪽 섬, 어둠의 문 섬으로 가자!<end>"
@@ -76,6 +80,14 @@ korean = "차원의 틈에 떨어지고도 살아 있다니… 역시 네메아,
 japanese = "早くネメアを助けて<line-break>破壊神の復活を阻止するんだ。<line-break>　<line-break>大陸南西の島に急ぐぞ。<line-break><value:$28>。<end>"
 korean = "빨리 네메아를 구해서 파괴신의 부활을 막아야 해.　대륙 남서쪽 섬으로 서두르자. <value:$28>.<end>"
 
+["260060"]
+japanese = "ネメアを助けるために<line-break>闇の門の島に行かなくちゃ…。<line-break>バイアシオン南西のあの島よ…。<line-break>破壊神にさせない為にも<line-break>急がないと。<line-break>行きましょ、<value:$28>！<end>"
+korean = "네메아를 구하려면 어둠의 문의 섬으로 가야 해… 바이아시온 남서쪽 그 섬이야… 파괴신이 되는 걸 막으려면 서둘러야 해. 가자, <value:$28>!<end>"
+
+["260062"]
+japanese = "大変です！<line-break>ネメアさんが破壊神になっちゃう<line-break>なんて…！<line-break><value:$28>さん！<line-break>急いでオルファウスさんが言っていた、<line-break>大陸の南西にある島へ行きましょう！<end>"
+korean = "큰일이에요! 네메아 씨가 파괴신이 된다니…! <value:$28> 씨! 서둘러 올파우스 씨가 말한 대륙 남서쪽 섬으로 가요!<end>"
+
 ["260069"]
 japanese = "アキュリュースの港にいる<line-break>女性に言う合い言葉だね。<line-break>もちろんボクだって知ってるよ。<line-break>帝国はあの陽より輝く、<line-break>…ま、間違ってないよね？<end>"
 korean = "아큐류스 항구에 있는 여성에게 말할 암호지. 물론 나도 알고 있어. 제국은 저 태양보다 빛난다, …마, 맞지?<end>"
@@ -87,6 +99,10 @@ korean = "이런, 암호를 잊으셨습니까? 아무리 저라도 그건…. �
 ["260072"]
 japanese = "合い言葉を忘れちゃったの？<line-break>これから志願しようってんなら、<line-break>か～なり致命的だよ、ソレ。<line-break>帝国は…あの陽より輝く。<line-break>思い出した？<end>"
 korean = "암호를 잊어버렸어? 이제 지원하려는 거라면 꽤 치명적인데. 제국은… 저 태양보다 빛난다. 기억났어?<end>"
+
+["260075"]
+japanese = "アンギルダンのとっつぁんへの<line-break>合い言葉を忘れた、だぁ？<line-break>はははははっ！<line-break>おい、お前も人が悪いぜ、<line-break>どうして俺が、<line-break>それを知ってるってんだよ。<end>"
+korean = "앙길단 아저씨에게 할 암호를 잊었다고? 하하하하! 너도 참 짓궂군. 내가 그걸 어떻게 안다는 거야.<end>"
 
 ["260081"]
 japanese = "アンギルダンの合い言葉ボゲー<end>"
@@ -111,6 +127,10 @@ korean = "딘갈 제국의 암호라…. 탐내는 나라는 많겠네. 아… �
 ["260092"]
 japanese = "アキュリュースの港にいる女性に<line-break>合い言葉を言えばいいのよ。<line-break><line-break>合い言葉は確か…、<line-break>帝国はあの陽より輝く、だったかしら。<end>"
 korean = "아큐류스 항구에 있는 여자에게 암호를 말하면 돼. 암호는 분명… 제국은 저 태양보다 빛난다, 였던가.<end>"
+
+["260094"]
+japanese = "え、合言葉ですか？<line-break>覚えてますよ。<line-break>　<line-break>帝国はあの陽より輝く、です。<line-break>これをアキュリュースの港にいる<line-break>女性に言えばいいんですよ。<end>"
+korean = "암호요? 기억하고 있어요. '제국은 저 태양보다 빛난다'입니다. 이걸 아큐류스 항구에 있는 여성에게 말하면 돼요.<end>"
 
 ["260099"]
 japanese = "あっ、そのしゃべるゴブリンなら～、<line-break>あっちへ行きましたよ？<end>"

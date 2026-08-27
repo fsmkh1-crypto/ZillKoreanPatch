@@ -32,6 +32,10 @@ korean = "자기브여, 자신의 피로 어둠에 눈을 떠라!<end>"
 japanese = "うう…。<line-break>ウウ…ア…アア…アアグ…。<line-break>ガアアアアアッ！<end>"
 korean = "으으…. 우우… 아… 아아… 아악…. 가아아아악!<end>"
 
+["1900017"]
+japanese = "やはり、これが答えか…。<line-break>さあ、目覚めよ。<line-break>ザギヴに潜みし闇よ！<end>"
+korean = "역시 이것이 답인가… 자, 깨어나라. 자기브 안에 숨어 있는 어둠이여!<end>"
+
 ["1900018"]
 japanese = "やぁーっと、くたばったか。<line-break>これでこのカラダは俺のモンだ！<end>"
 korean = "드디어 뒈졌나. 이제 이 몸은 내 거다!<end>"
@@ -59,6 +63,10 @@ korean = "받아들일 수 없는 운명이라면 나는 앞으로도 계속 싸
 ["1900031"]
 japanese = "ふっふ、そうか。<line-break>ならば最後の予言を残そうか。<line-break>それは…、<line-break>お主らの死じゃ！<end>"
 korean = "후후, 그런가. 그럼 마지막 예언을 남기지. 그것은… 너희들의 죽음이다!<end>"
+
+["1900033"]
+japanese = "ゾフォル…。<line-break>お前は最後に何を見たのだ？<line-break>我々の死ではあるまい。<end>"
+korean = "조포르… 너는 마지막에 무엇을 보았지? 우리의 죽음은 아닐 것이다.<end>"
 
 ["1900034"]
 japanese = "フッフッフ…。　　　　<line-break>　<line-break>　<line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
@@ -116,6 +124,10 @@ korean = "받아들일 수 없는 운명이라면 나는 앞으로도 계속 싸
 japanese = "フフフ、そうか。<line-break>ならば最後の予言を残そうか。<line-break>それは…<line-break>お主らの死じゃ！<end>"
 korean = "후후후, 그런가. 그럼 마지막 예언을 남기지. 그것은… 너희의 죽음이다!<end>"
 
+["1900054"]
+japanese = "ゾフォル…。<line-break>お前は最後に何を見たのだ？<line-break>我々の死ではあるまい。<end>"
+korean = "조포르… 너는 마지막에 무엇을 보았지? 우리의 죽음은 아닐 것이다.<end>"
+
 ["1900055"]
 japanese = "ふっふっふ…。　　　　<line-break>　<line-break>　<line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
 korean = "후후후…. 크흑. 소용없다…. 운명은… 변하지 않아….<end>"
@@ -163,6 +175,10 @@ korean = "받아들일 수 없는 운명이라면 나는 앞으로도 계속 싸
 ["1900075"]
 japanese = "フフフ、そうか。<line-break>ならば最後の予言を残そうか。<line-break>それは…、<line-break>お主らの死じゃ！<end>"
 korean = "후후후, 그런가. 그럼 마지막 예언을 남기지. 그것은… 너희들의 죽음이다!<end>"
+
+["1900077"]
+japanese = "ゾフォル…。<line-break>お前は最後に何を見たのだ？<line-break>我々の死ではあるまい。<end>"
+korean = "조포르… 너는 마지막에 무엇을 보았지? 우리의 죽음은 아닐 것이다.<end>"
 
 ["1900078"]
 japanese = "ふっふっふ…。　　　　<line-break>　<line-break>　<line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
@@ -363,6 +379,10 @@ korean = "가능한 한 그렇게 하겠다고 말한다<end>"
 ["1900148"]
 japanese = "あなたの帰りを待っている私が<line-break>ここにいるということを…。<end>"
 korean = "당신이 돌아오기를 기다리는 내가 여기 있다는 걸….<end>"
+
+["1900149"]
+japanese = "…<value:$28>様は<line-break>意地悪な方ですね。　　　　　　　　<line-break>　<line-break>こういうときは、ウソでも必ず戻ると<line-break>言ってくだされば、<line-break>ティアナも安心できますのに…。<end>"
+korean = "…<value:$28> 님은 심술궂은 분이시네요. 이런 때는 거짓말이라도 반드시 돌아온다고 해 주시면 티아나도 안심할 텐데…<end>"
 
 ["1900154"]
 japanese = "ティアナはひとりでも大丈夫<end>"

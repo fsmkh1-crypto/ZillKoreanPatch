@@ -20,6 +20,10 @@ korean = "<value:$28>의 느낌이 아무래도 이상하구나. 무슨 일이�
 japanese = "…ハハ…ハハ！　おかしいねえ！<line-break>そんなバカなこと！　ハハ！<end>"
 korean = "…하하… 하하! 웃기네! 그런 바보 같은 일이! 하하!<end>"
 
+["580012"]
+japanese = "別に詮索はせんさ。<line-break>それも、冒険者のおきてじゃからな。<line-break>　<line-break>さてと、今日もよう飲んだ。<line-break>ちと、外へ出て、よい空気でも　　　<line-break>吸うとしようか。<end>"
+korean = "딱히 캐묻지는 않지. 그것도 모험자의 규칙이니까. 자, 오늘도 실컷 마셨군. 밖에 나가 좋은 공기라도 좀 마셔 볼까.<end>"
+
 ["580017"]
 japanese = "じゃね。<line-break><value:$28>。<end>"
 korean = "그럼 안녕, <value:$28>.<end>"
@@ -35,6 +39,10 @@ korean = "사실 나도 네메아처럼 수배자다. 나는 말을 거침없이
 ["580057"]
 japanese = "例えば、今、こうやって酒が飲める。<line-break>これには、何ものもかえられぬ。<line-break>そうじゃろう、<value:$28>？<end>"
 korean = "예를 들면 지금 이렇게 술을 마실 수 있지. 이건 무엇과도 바꿀 수 없다. 그렇지, <value:$28>?<end>"
+
+["580058"]
+japanese = "人生は酒。<line-break>そして、酒よりも冒険じゃ。　　<line-break>ちと、行ってくるわ。<end>"
+korean = "인생은 술. 그리고 술보다 모험이지. 잠깐 다녀오마.<end>"
 
 ["580060"]
 japanese = "引き受ける<end>"
@@ -119,6 +127,10 @@ korean = "참, 심심풀이로 모험하다가 엄청난 걸 찾아버렸군. �
 ["580089"]
 japanese = "とにかく、ここを出るんだ。<line-break>急いで、しかし動作はゆっくりとな。<end>"
 korean = "어쨌든 여길 나가자. 서둘러, 하지만 움직임은 천천히.<end>"
+
+["580091"]
+japanese = "いいか、<value:$28>。<line-break>いちおう、冒険者として　　　　<line-break>忠告だけさせてもらう。<line-break>ここで、ウロチョロしすぎると<line-break>邪竜の餌食になる。<line-break>気をつけるんだな。<end>"
+korean = "잘 들어, <value:$28>. 일단 모험자로서 충고 하나만 하지. 여기서 너무 돌아다니면 사룡의 먹이가 된다. 조심해.<end>"
 
 ["580092"]
 japanese = "よ。<line-break>ここで会ったも何かの縁だ。<line-break>ひとつ自己紹介と行こうぜ。<line-break>俺はゼネテス。冒険者だ。<line-break>世界中を旅してる。<line-break>お前さんは？<end>"

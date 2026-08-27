@@ -32,6 +32,10 @@ korean = "비상왕님!<end>"
 japanese = "　　　　　　　　　エアか…？　　　　　　　　<line-break>　　　　　　　我が小さき娘か…？<line-break>　<line-break>　<end>"
 korean = "에아인가…? 내 작은 딸인가…?<end>"
 
+["1300009"]
+japanese = "　　　　　　　　希望は…ある…。　　　　　　<line-break>　　　　　　　どんなところにも<line-break>　　　　　　絶望さえしなければ<line-break>　　　　　　　希望はあるのだ…。<end>"
+korean = "희망은… 있다…. 어디에든 절망하지만 않는다면 희망은 있는 것이다…<end>"
+
 ["1300010"]
 japanese = "　　　　　　風の巫女よ…風になれ。　　　　　<line-break>　　　お前の母たちが逃れたいと願っていた<line-break>　　　　　地獄のくびきを逃れよ…。<line-break>　<end>"
 korean = "바람의 무녀여… 바람이 되어라. 네 어머니들이 벗어나길 바라던 지옥의 굴레에서 벗어나라….<end>"
@@ -39,6 +43,10 @@ korean = "바람의 무녀여… 바람이 되어라. 네 어머니들이 벗어
 ["1300011"]
 japanese = "　　　　　　　　この者ならば、　　　　　　　<line-break>　　　　　　　お前を縛る鎖をも<line-break>　　　　　軽々と引きちぎるだろう…。<line-break>　<end>"
 korean = "이자라면 너를 묶는 사슬조차 가볍게 끊어 버리겠지….<end>"
+
+["1300012"]
+japanese = "　　　　　我は翔王と名乗りながら、　　　　　<line-break>　　　　すべてが自由にならなかった。<line-break>　　　　この巨大な翼も竜王の束縛を<line-break>　　　　振り切ることはできなかった。<end>"
+korean = "나는 상왕이라 자칭하면서도 모든 것이 자유롭지는 못했다. 이 거대한 날개도 용왕의 속박을 떨쳐내지 못했다.<end>"
 
 ["1300014"]
 japanese = "翔王…様…。<end>"
@@ -75,6 +83,10 @@ korean = "힘이 필요해<end>"
 ["1300028"]
 japanese = "今はやめておく<end>"
 korean = "지금은 그만둔다<end>"
+
+["1300031"]
+japanese = "悪しき風に送られて<line-break>深淵をのぞきに来たか？<line-break>風よりも軽き生命の人の子よ…。<line-break>ここにあるは、<line-break>真なる闇と破壊…。<line-break>触れることは許されぬ。<end>"
+korean = "악한 바람에 떠밀려 심연을 들여다보러 왔느냐? 바람보다 가벼운 생명을 지닌 인간의 아이여… 여기에 있는 것은 진정한 어둠과 파괴다. 손대는 것은 허락되지 않는다.<end>"
 
 ["1300036"]
 japanese = "風の最高位の魔法が解放された。<end>"

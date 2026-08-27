@@ -184,6 +184,10 @@ korean = "잘 알겠어. 네가 살아갈 가치도 없는 최악의 인간이�
 japanese = "ひいっ！<end>"
 korean = "히익!<end>"
 
+["840069"]
+japanese = "命まで取る必要はない？<line-break>何を甘ちゃんなことを<line-break>言ってんの。<line-break>こういう連中はヤれるときに<line-break>ヤっとかないと、泣きをみる<line-break>人が増えるだけだって！<end>"
+korean = "목숨까지 빼앗을 필요는 없다고? 무슨 물러터진 소리야. 이런 놈들은 처리할 수 있을 때 처리하지 않으면 우는 사람이 늘 뿐이야!<end>"
+
 ["840070"]
 japanese = "どいて！！<line-break>邪魔をするなら…！<end>"
 korean = "비켜!! 방해한다면…!<end>"
@@ -224,6 +228,10 @@ korean = "…우리 둘 다 물러터졌네~. 나를 말린 너…. 너를 쓰�
 japanese = "ペウダの奴、今ごろ泡ふいて<line-break>ぶっ倒れてるわよ。<end>"
 korean = "페우다 녀석, 지금쯤 거품 물고 쓰러져 있을걸.<end>"
 
+["840084"]
+japanese = "…と言っても、<line-break>追っ手がかかるのは時間の問題。<line-break>急がないとね。<end>"
+korean = "…그렇다 해도 추격자가 붙는 건 시간문제야. 서둘러야 해.<end>"
+
 ["840085"]
 japanese = "<value:$28>、大丈夫！？<end>"
 korean = "<value:$28>, 괜찮아!?<end>"
@@ -239,6 +247,10 @@ korean = "아니, 괜찮아. 아직 끝난 게 아니니까.<end>"
 ["840088"]
 japanese = "え？<end>"
 korean = "어?<end>"
+
+["840089"]
+japanese = "ペウダの奴、<line-break>追っ手をかけるはずよ。<line-break>さあ、急いで逃げるわよ。<end>"
+korean = "페우다 녀석, 추격자를 보낼 거야. 자, 서둘러 도망치자.<end>"
 
 ["840093"]
 japanese = "うそうそ。　　　　　　　　　　　　<line-break>すっごく助かっちゃった。<line-break>　<line-break>でも、安心するのはまだ早いわ。<line-break>ペウダの奴、追っ手をかけるはずよ。<end>"
@@ -424,6 +436,10 @@ korean = "방해야. 미안하지만 가 줄래? 지금 바빠.<end>"
 japanese = "アハハ、<value:$28>。<line-break>また来てくれたんだ。<end>"
 korean = "아하하, <value:$28>.또 와 줬구나.<end>"
 
+["840145"]
+japanese = "くすっ、悪いわね。<line-break>しんみりしちゃって。<line-break>じゃ、あたし行くわ。<end>"
+korean = "후후, 미안해. 분위기가 처졌네. 그럼 난 갈게.<end>"
+
 ["840146"]
 japanese = "<value:$28>じゃない。<line-break>どうしたのよ。<end>"
 korean = "<value:$28>잖아. 무슨 일이야?<end>"
@@ -459,6 +475,10 @@ korean = "…동정하면 죽일 거야?<end>"
 ["840155"]
 japanese = "くすっ、あんたってさー、<line-break>割とバカだよね。<line-break>いいわ。教えてあげる。<line-break>そのかわり、同情したら<line-break>ホントに殺すかんね？<end>"
 korean = "후후, 너 말이야 꽤 바보지. 좋아, 알려 줄게. 대신 동정하면 정말 죽여 버릴 거야, 알았어?<end>"
+
+["840160"]
+japanese = "あたし、その時、強烈に思ったんだ…。<line-break>いつでも、笑っていたいって。<line-break>　<line-break>だからね、<line-break>強くなくちゃいけないの。<line-break>誰よりもね…。<end>"
+korean = "나, 그때 강하게 생각했어… 언제나 웃고 싶다고. 그래서 강해야 해. 누구보다도…<end>"
 
 ["840162"]
 japanese = "そのことを確認しにくるのよ。<line-break>この冷たい死の静寂の中にね。<end>"
@@ -623,6 +643,10 @@ korean = "아, 괜찮아 괜찮아. 보석이 없어도 추억은 남으니까. 
 ["840213"]
 japanese = "ヤバっ！<line-break>そろそろ任務に戻らなきゃ。<end>"
 korean = "큰일! 이제 임무로 돌아가야 해.<end>"
+
+["840214"]
+japanese = "今日はありがと！<line-break>あんたたちのおかげで<line-break>助かっちゃった。<end>"
+korean = "오늘 고마웠어! 너희 덕분에 살았어.<end>"
 
 ["840215"]
 japanese = "また会おうね！<line-break>今度は歴史の大舞台でさ。<end>"

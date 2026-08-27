@@ -260,6 +260,10 @@ korean = "무슨… 그런 심한 말을 하는 겁니까!!<end>"
 japanese = "おお恐い。ハハハ…。<end>"
 korean = "오, 무서워라. 하하하….<end>"
 
+["1710122"]
+japanese = "でも……あの傭兵さんの<line-break>言う通りなのかもしれません。　　　<line-break>　<line-break>今日助けた命が<line-break>明日、誰かの命を奪う…。<line-break>戦争とは、なんて悲しいのでしょう。<end>"
+korean = "하지만… 그 용병이 한 말이 맞을지도 모르겠어요. 오늘 구한 목숨이 내일 누군가의 목숨을 빼앗는다… 전쟁이란 정말 슬프군요.<end>"
+
 ["1710125"]
 japanese = "この下へ行かれるのですか…？<line-break>どうか、気をつけてください……。<end>"
 korean = "이 아래로 가시려는 건가요…? 부디 조심하세요……<end>"
@@ -268,6 +272,10 @@ korean = "이 아래로 가시려는 건가요…? 부디 조심하세요……<
 japanese = "<value:$28>じゃない。<line-break>私に何か？<end>"
 korean = "<value:$28> 아니야. 나한테 무슨 용건이야?<end>"
 
+["1710129"]
+japanese = "水の精霊神？<line-break>いえ、知らないわね…。<line-break>　<line-break>私たち海賊はどちらかというと<line-break>水の精霊神っていうより海の神様、<line-break>つまり、海王さまを信仰してるから。<end>"
+korean = "물의 정령신? 아니, 모르겠네… 우리 해적은 물의 정령신보다 바다의 신, 즉 해왕님을 믿으니까.<end>"
+
 ["1710136"]
 japanese = "ならば戦うまで！<end>"
 korean = "그렇다면 싸울 뿐!<end>"
@@ -275,6 +283,10 @@ korean = "그렇다면 싸울 뿐!<end>"
 ["1710137"]
 japanese = "秩序は大切ですね<end>"
 korean = "질서는 중요하죠<end>"
+
+["1710145"]
+japanese = "どうして、人は争うのでしょう？<line-break>争いは悲しみを広げていくというのに。<end>"
+korean = "왜 사람들은 싸우는 걸까요? 싸움은 슬픔만 퍼뜨리는데.<end>"
 
 ["1710146"]
 japanese = "イークレムンＶ４<line-break>予備メッセージ５です<end>"

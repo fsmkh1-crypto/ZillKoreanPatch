@@ -56,9 +56,17 @@ korean = "뭐, 지리온 말이야? 글쎄. 무슨 관계냐고 물어도….<en
 japanese = "敵だったり、味方だったり…。<line-break>　<line-break>　<line-break>協力したかと思ったら、<line-break>お互い意固地になって反発して…。<line-break>よくケンカしたわ。<end>"
 korean = "적이었다가 아군이었다가…. 협력했나 싶으면 서로 고집부리며 맞서고…. 자주 싸웠지.<end>"
 
+["2640033"]
+japanese = "ジリオンはぶっきらぼうだけど<line-break>子供には好かれていてね。<line-break>　<line-break>信じないと思うけど、<line-break>小さかったティアナ王女に<line-break>なつかれたこともあったのよ。<end>"
+korean = "지리온은 무뚝뚝하지만 아이들에게는 인기가 있었어. 믿기 어렵겠지만 어릴 적 티아나 공주가 따르던 적도 있었지.<end>"
+
 ["2640036"]
 japanese = "もっとも、そんな未来があればの<line-break>話だけど…。<end>"
 korean = "물론 그런 미래가 있다면 말이지만….<end>"
+
+["2640037"]
+japanese = "そうね。あたしが落ちこんでいたら<line-break>それこそ救いようがないわね。<line-break>　<line-break>ありがとう。<value:$28>。<line-break>少し元気が出てきたわ。<line-break>もう大丈夫よ。<end>"
+korean = "그래. 내가 풀이 죽어 있으면 정말 답이 없겠지. 고마워, <value:$28>. 조금 기운이 났어. 이제 괜찮아.<end>"
 
 ["2640039"]
 japanese = "こっちに来ない？　いい星空よ。<end>"

@@ -112,6 +112,10 @@ korean = "그대에게 걱정받을 만큼 약하지는 않다, 땅의 무녀여
 japanese = "まだ少し、体に力が入りませんが…<line-break>大丈夫です。<value:$28>さん、<line-break>ありがとうございます。<end>"
 korean = "아직 몸에 힘이 잘 들어가진 않지만… 괜찮습니다. <value:$28>님, 감사합니다.<end>"
 
+["1120086"]
+japanese = "そんなことない！！　　　　　　　　<line-break>きっと、何か方法はあるよ。<line-break>希望も、可能性もあるよ！<line-break>ボクたちは生き残るんだ！<line-break>もちろん、ラドラスのみんなも守る！<end>"
+korean = "그렇지 않아!! 분명 방법이 있을 거야. 희망도 가능성도 있어! 우리는 살아남을 거야! 물론 라드라스 사람들도 지킬 거고!<end>"
+
 ["1120087"]
 japanese = "エア！！<end>"
 korean = "에아!!<end>"
@@ -167,6 +171,10 @@ korean = "흥… 그런가. 그대다운 말이군, 땅의 무녀여.<end>"
 ["1120110"]
 japanese = "では、私も<line-break>アキュリュースへ帰ります。<line-break>　<line-break><value:$28>さん、<line-break>アキュリュースに来た時には<line-break>私の所にも来てくださいね。<end>"
 korean = "그럼 저도 아큐류스로 돌아가겠습니다. <value:$28>님, 아큐류스에 오시면 제게도 들러 주세요.<end>"
+
+["1120111"]
+japanese = "私は…<line-break>道具としての役目を<line-break>完全に失ってしまいました…。　　<line-break>これから、どう生きればいいのか、<line-break>それすらもわかりません。<line-break>わかりません…けど…。<end>"
+korean = "저는… 도구로서의 역할을 완전히 잃어버렸습니다… 앞으로 어떻게 살아야 하는지도 모르겠습니다. 모르겠지만…<end>"
 
 ["1120115"]
 japanese = "私も、ウルカーンへ戻ります。<line-break>そこにはもう、私の役目は<line-break>何もないかもしれませんが…。<line-break><value:$28>様、<line-break>それでは…。<end>"
@@ -227,6 +235,10 @@ korean = "그만둘까<end>"
 ["1120144"]
 japanese = "　　　　　　　ならば行くがよい。　　　　　　<end>"
 korean = "그렇다면 가라.<end>"
+
+["1120147"]
+japanese = "く、無念…。<line-break>我が力もってしても<line-break>貴様らの愚行をとめられぬか…。<line-break>大きく、しかし愚かなる魂よ。<line-break>やがて来る闇に絶望し<line-break>己が行いをくいるがいい…。<end>"
+korean = "크, 분하다… 내 힘으로도 네놈들의 어리석은 짓을 막지 못하는가… 크고도 어리석은 영혼이여. 다가올 어둠에 절망하며 자신의 행동을 후회하거라…<end>"
 
 ["1120150"]
 japanese = "地の最高位の魔法が解放された。<end>"

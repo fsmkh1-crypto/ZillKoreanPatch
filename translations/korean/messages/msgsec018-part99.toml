@@ -92,6 +92,10 @@ korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가
 japanese = "これで退治依頼は完了だ。<line-break><value:$28>、ギルドに戻って<line-break>報酬をいただくとしようぜ。<end>"
 korean = "이걸로 토벌 의뢰는 끝이다. <value:$28>, 길드로 돌아가 보상을 받자고.<end>"
 
+["180038"]
+japanese = "肩慣らしにもならなかったな。<line-break>ギルドに戻って報告するぞ。<line-break>　<end>"
+korean = "몸풀기도 안 됐군. 길드로 돌아가 보고한다.<end>"
+
 ["180039"]
 japanese = "依頼完了ね。<line-break>さあ、<value:$28>、<line-break>ギルドに戻って報告よ。<end>"
 korean = "의뢰 완료네. 자, <value:$28>, 길드로 돌아가 보고하자.<end>"

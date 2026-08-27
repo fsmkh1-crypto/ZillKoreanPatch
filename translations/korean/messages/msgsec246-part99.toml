@@ -16,6 +16,10 @@ korean = "후, 자신이 누구인지 알고 싶나?<end>"
 japanese = "フフフ。そうだ…。<line-break>おとなしく余の話を聞くがよい。<end>"
 korean = "후후후. 그래…. 얌전히 짐의 이야기를 듣거라.<end>"
 
+["2460009"]
+japanese = "わかるか、<value:$28>よ。<line-break>汝は生みの親である余に<line-break>協力するのだ。<line-break>そうすれば、余は汝に、<line-break>人類の革新という生きる目的と<line-break>価値ある意義を授けよう。<end>"
+korean = "알겠느냐, <value:$28>여. 그대는 창조자인 나에게 협력해야 한다. 그러면 나는 인류의 혁신이라는 삶의 목적과 가치 있는 의의를 주겠다.<end>"
+
 ["2460015"]
 japanese = "PSP用新スタートイベント11用終端<end>"
 korean = "PSP용 신규 시작 이벤트 11용 끝<end>"

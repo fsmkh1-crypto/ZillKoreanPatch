@@ -280,6 +280,10 @@ korean = "저기… 이상한 아저씨가 슬럼으로 오라고 했어요. <va
 japanese = "ゲヘ、久しぶりだな…。<end>"
 korean = "게헤, 오랜만이군….<end>"
 
+["420107"]
+japanese = "…っと、待てって。　　　　　　　<line-break>ゲヘヘヘ…。<line-break>　<line-break>俺はもうノーブルの代官じゃねぇ。<line-break>もうお前と敵対する理由もねぇ。ゲヘ、むしろ俺たちは仲間さ…。<end>"
+korean = "…잠깐 기다려. 게헤헤… 난 이제 노블의 대관이 아니야. 너와 적대할 이유도 없어. 오히려 우린 동료지…<end>"
+
 ["420108"]
 japanese = "レムオンっていう<line-break>共通の敵を持つ、な…。　　　　　<line-break>　<line-break>お前のクソ憎たらしい弟チャカは<line-break>処刑されたぜ。<line-break>あのレムオンになァ…。<end>"
 korean = "레몬이라는 공통의 적이 있다는 거지…. 네 재수 없는 동생 챠카는 처형됐어. 그 레몬에게 말이야….<end>"
@@ -319,6 +323,10 @@ korean = "나는 제네테스, 모험자다. 네 이름은 묻지 않아도 되�
 ["420129"]
 japanese = "あんたがどんな<line-break>気持ちかは知らない。　　　　　<line-break>　<line-break>だが、人間、つらかろうと<line-break>なんだろうと<line-break>生きて行かなきゃならない。<end>"
 korean = "네가 어떤 기분인지는 모르겠다. 하지만 인간은 아무리 괴로워도 살아가야 한다.<end>"
+
+["420131"]
+japanese = "冒険者になれよ。　　　　　　　<line-break>自由な冒険者に。<line-break>　<line-break>弟さんも、あんたがいつまでも<line-break>復讐だとか暗いことを考えてるの<line-break>望んじゃいないと思うぜ？<end>"
+korean = "모험자가 돼. 자유로운 모험자가. 동생도 네가 언제까지나 복수 같은 어두운 생각에 사로잡혀 있길 바라진 않을 거야.<end>"
 
 ["420132"]
 japanese = "しがらみなんて忘れちまえ。<line-break>その方が、ずっとあんたらしい。<line-break>　<line-break>ギルドで冒険者登録をしよう。<line-break>俺はギルドで待ってる。<line-break>ギルドに来てくれ。<end>"
@@ -384,6 +392,10 @@ korean = "차카는 조금 머리가 나빠졌다. 차카의 INT가 1 내려갔�
 japanese = "チャカは少し打たれ強くなった。<line-break>チャカのＶＩＴが１上がった。<end>"
 korean = "차카는 조금 더 맷집이 좋아졌다. 차카의 VIT가 1 올랐다.<end>"
 
+["420155"]
+japanese = "せっかくここまで来たんだ。<line-break>冒険者登録していった方がいい。<line-break>　<line-break>冒険者登録をするためには<line-break>カウンターにいる<line-break>ギルドのおやじに話しかけるんだ。<end>"
+korean = "여기까지 왔으니 모험자 등록을 하고 가는 게 좋아. 등록하려면 카운터에 있는 길드 아저씨에게 말을 걸면 돼.<end>"
+
 ["420156"]
 japanese = "やあ、<value:$28>。<line-break>君に伝えたいことがあってさ。　　<line-break>　<line-break>エンシャントの南東にある<line-break>賢者の森の奥深くに<line-break>猫屋敷という館があるらしいんだ。<end>"
 korean = "안녕, <value:$28>. 네게 전하고 싶은 게 있어서. 엔샨트 남동쪽 현자의 숲 깊은 곳에 고양이 저택이라는 저택이 있대.<end>"
@@ -427,6 +439,10 @@ korean = "레무온 님, 손님이 오셨습니다.<end>"
 ["420169"]
 japanese = "ああ、今行く。<line-break>では、頼んだぞ。<end>"
 korean = "그래, 지금 간다. 그럼 부탁한다.<end>"
+
+["420170"]
+japanese = "おや、お客様のようですね。<line-break>いらっしゃい、ようこそ猫屋敷へ。<line-break>　<line-break>私はここの主オルファウス。<line-break>どうぞ、中へ。<line-break>お茶でも飲みながらお話でも…。<end>"
+korean = "어라, 손님이군요. 어서 오세요, 고양이 저택에 오신 걸 환영합니다. 저는 이곳의 주인 올파우스. 들어오세요. 차라도 마시며 이야기하죠.<end>"
 
 ["420172"]
 japanese = "姉ちゃん、どうするんだ。<line-break>…逃げよっか。<end>"
@@ -543,6 +559,10 @@ korean = "난 고양이가 아니다. 파괴신의 원탁기사 중 하나인 �
 ["420215"]
 japanese = "姉ちゃんの言うとおりだ。<line-break>何か手がかりはないのか？<end>"
 korean = "누나 말이 맞아. 뭔가 단서는 없어?<end>"
+
+["420216"]
+japanese = "今、聖杯を持っているのは、<line-break>ゴブゴブ団と名乗るゴブリンどもだ。<line-break>　<line-break>聖杯の力で人間の言葉を<line-break>しゃべれるようになってる。<line-break>すぐわかるはずだ。<end>"
+korean = "지금 성배를 가진 건 고브고브단이라 자칭하는 고블린들이다. 성배의 힘으로 인간의 말을 할 수 있게 됐으니 금방 알아볼 거야.<end>"
 
 ["420217"]
 japanese = "くすっ。<end>"
@@ -683,6 +703,10 @@ korean = "아니요, 저는 압니다. 당장이라도 쉬어주세요.<end>"
 ["420274"]
 japanese = "なに！？　<value:$28>が<line-break>寝込んでいるだと？　　　　　　　<line-break><line-break>あの女にもそんなことがあるのか？<end>"
 korean = "뭐라고!? <value:$28>이 앓아누웠다고? 그 여자도 그런 일이 있나?<end>"
+
+["420275"]
+japanese = "あの方は気丈に振る舞っておいでですが、<line-break>実は、繊細なお方でございます。<line-break>俺様天下のレムオン様には<line-break>おわかりにならないのです。<line-break>私めにはわかります。<end>"
+korean = "그분은 강인하게 행동하고 계시지만 사실 섬세한 분입니다. 천하의 레몬 님께서는 모르시겠지만 저는 압니다.<end>"
 
 ["420276"]
 japanese = "繊細が聞いてあきれる。<line-break>どれ、寝顔でも見にいってやるか。<end>"

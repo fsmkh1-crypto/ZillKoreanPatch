@@ -4,6 +4,10 @@
 japanese = "旅立ち０３メッセージ<end>"
 korean = "여행 출발 03 메시지<end>"
 
+["300002"]
+japanese = "アンティノ、このモンスター買うぞ。<line-break>もっと、もっと持ってこい！<end>"
+korean = "안티노, 이 몬스터 산다. 더, 더 가져와!<end>"
+
 ["300003"]
 japanese = "毎度ありがとうございます、伯爵様。<line-break>　<line-break>　<line-break>（フヒヒ、商品の試験データと　　　<line-break>　金が一度に手に入るわい。）<end>"
 korean = "매번 감사합니다, 백작님. (후히히, 상품 시험 데이터와 돈을 한꺼번에 손에 넣는군.)<end>"
@@ -28,6 +32,14 @@ korean = "일어나, <value:$28>! 벌써 낮이야.<end>"
 japanese = "ったく、<line-break>世話のやける子なんだからぁ。<end>"
 korean = "정말, 손이 많이 가는 애라니까.<end>"
 
+["300013"]
+japanese = "それよりも、アイリーン、　　　　　　<line-break>あなたは女の子なんですからね。<line-break>　<line-break>危ないことはしちゃダメって、<line-break>母さん、いつも言ってるでしょ？<end>"
+korean = "그보다 아이린, 넌 여자아이잖니. 위험한 짓은 하면 안 된다고 엄마가 늘 말했지?<end>"
+
+["300014"]
+japanese = "ハ、ハハ。<line-break>あ、それじゃ、お母さん。<line-break>あとは任せたわね。<end>"
+korean = "하, 하하. 그럼 엄마. 나머지는 맡길게.<end>"
+
 ["300016"]
 japanese = "あら、目が覚めたみたいね、          <line-break><value:$28>。<line-break>　<end>"
 korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
@@ -39,6 +51,10 @@ korean = "<value:$28>이라면 분명 그 아이보다 강해질 수 있어. 힘
 ["300020"]
 japanese = "おう、昨日のケガは大丈夫か？　　　　　　<line-break>　<line-break>　<end>"
 korean = "어이, 어제 다친 곳은 괜찮아?<end>"
+
+["300024"]
+japanese = "よし。んじゃ、頼んだ。<line-break>ま、お前ひとりで十分だろうが…、　　　　<line-break>　<line-break>念のため、お前の幼ななじみも<line-break>あとから行かせる。<line-break>仲よくやるんだぞ。<end>"
+korean = "좋아. 그럼 부탁한다. 뭐, 너 혼자면 충분하겠지만… 혹시 모르니 네 소꿉친구도 뒤따라 보내지. 사이좋게 해.<end>"
 
 ["300028"]
 japanese = "<value:$28>、頼んだぜ。<line-break>　　　　　　　　　　　　　　　　　　　　<line-break>　<end>"

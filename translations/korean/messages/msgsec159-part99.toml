@@ -208,6 +208,10 @@ korean = "큭… 꼬맹이 주제에. 재밌군, 상대해 주마…<end>"
 japanese = "何を言ってるんです、<line-break>猫の分際で。<end>"
 korean = "무슨 말을 하는 거죠, 고양이 주제에.<end>"
 
+["1590071"]
+japanese = "すいませんね、<value:$28>。<line-break>何せ、気の利かないバカネコでね。<end>"
+korean = "미안하군요, <value:$28>. 워낙 눈치 없는 바보 고양이라서요.<end>"
+
 ["1590072"]
 japanese = "アスティアのことは<line-break>私の口からはなんとも…。　　<line-break>　<line-break>もう遅いですから、<line-break>今日はこれくらいにして、<line-break>続きは明日にしましょう。<end>"
 korean = "아스티아에 대해서는 제 입으로는 뭐라…. 시간이 늦었으니 오늘은 이쯤 하고, 나머지는 내일 이야기하죠.<end>"
@@ -267,6 +271,10 @@ korean = "바로 본론으로 들어가죠. 며칠 전 미이스 마을이 소�
 ["1590086"]
 japanese = "それって、まさか…。<end>"
 korean = "그건 설마….<end>"
+
+["1590087"]
+japanese = "そう。ことはミイスを焼き払った魔人<line-break>アーギルシャイアに関わります。<end>"
+korean = "그렇습니다. 미이스를 불태운 마인 아기르샤이아와 관련된 일입니다.<end>"
 
 ["1590088"]
 japanese = "アーギルシャイア…？<end>"
@@ -348,6 +356,10 @@ korean = "이런 식으로 여기 있는 사람을 먼 곳으로 보내기도 �
 japanese = "すごいすごーい！<end>"
 korean = "대단해, 대단해~!<end>"
 
+["1590121"]
+japanese = "あなたが将来、旅で人と出会い、<line-break>仲間を増やしたとき、　　　　　　<line-break>　<line-break>一緒に旅する仲間を<line-break>変更をしたいと思ったとき<line-break>ここに来てください。<end>"
+korean = "앞으로 여행 중 사람을 만나 동료가 늘고, 함께 여행하는 동료를 바꾸고 싶어지면 여기로 오세요.<end>"
+
 ["1590123"]
 japanese = "何か質問ですか？<end>"
 korean = "뭔가 질문 있으신가요?<end>"
@@ -387,6 +399,10 @@ korean = "질문은 없어<end>"
 ["1590132"]
 japanese = "フフ、それは秘密です。　　<line-break>　<line-break>　<line-break>ま、おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
 korean = "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일단 길드에서 일을 해 주세요.<end>"
+
+["1590134"]
+japanese = "将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。　　　　　　<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
+korean = "앞으로 여행 도중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶다면 이 고양이 저택으로 오세요.<end>"
 
 ["1590136"]
 japanese = "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。　<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
@@ -495,6 +511,10 @@ korean = "나는 고양이가 아니다, 네모다. 파괴신의 원탁기사 �
 ["1590185"]
 japanese = "わ、すごいすごーい！！<end>"
 korean = "와, 대단해 대단해ー!!<end>"
+
+["1590188"]
+japanese = "くすっ、ありがとうございます。<line-break>何よりのほめ言葉です。<line-break>　<line-break>それでは、さっそくですが…<line-break>先日、ミイスの村が<line-break>消失したことをご存じですか？<end>"
+korean = "후후, 감사합니다. 최고의 칭찬이네요. 그럼 바로… 얼마 전 미이스 마을이 사라진 것을 알고 계십니까?<end>"
 
 ["1590193"]
 japanese = "急がないと、　　　　　　　　　　　　<line-break><value:$28>。<line-break>　<end>"

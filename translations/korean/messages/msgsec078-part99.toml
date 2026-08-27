@@ -8,6 +8,10 @@ korean = "아트레이아 볼륨6 시작<end>"
 japanese = "私にはその事件の記憶はありません。<line-break>まだ、赤ちゃんでしたから…。<end>"
 korean = "저는 그 사건을 기억하지 못해요. 아직 아기였으니까…<end>"
 
+["780006"]
+japanese = "…レルラ＝ロントン様が<line-break>そうおっしゃっていました。　　　　<line-break>　<end>"
+korean = "…레를라 론톤 님이 그렇게 말씀하셨어요.<end>"
+
 ["780012"]
 japanese = "あ、あの…、<line-break>あなたはいったい…？<end>"
 korean = "저, 저기… 당신은 대체…?<end>"
@@ -63,6 +67,10 @@ korean = "그렇군요. 안녕히 계세요, <value:$28>님. 또 만날 수 있�
 ["780029"]
 japanese = "それでは、王女様<line-break>失礼いたします。<end>"
 korean = "그럼 공주님, 실례하겠습니다.<end>"
+
+["780031"]
+japanese = "悲しみと憎悪で彩られた世界をね。<line-break>ウフ、あははは、あはははは！<end>"
+korean = "슬픔과 증오로 물든 세계를 말이지. 우후, 아하하하, 아하하하하!<end>"
 
 ["780033"]
 japanese = "どうだい、アトレイアの料理を<line-break>味見していってやるか、<line-break><value:$28>？<end>"

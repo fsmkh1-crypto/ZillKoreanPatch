@@ -308,6 +308,10 @@ korean = "…안 돼! 그것보다… <value:$28>… 왕도로…. 로스토올�
 japanese = "そ、そんなぁ！<line-break>早く看てもらわないとぉ！<end>"
 korean = "그, 그런! 빨리 진찰받아야 해요!<end>"
 
+["1860125"]
+japanese = "…い、今は一刻を争うのだ…。　　<line-break>私のことは…心配いらない…。<line-break>　<line-break><value:$28>、頼む…。<line-break>王都…ロス…ト…ルへ急いでくれ。<line-break>早く…。<end>"
+korean = "…지, 지금은 한시가 급해… 나는 걱정하지 마… <value:$28>, 부탁한다… 왕도 로스…토…올로 서둘러 줘. 빨리…<end>"
+
 ["1860126"]
 japanese = "ぐすっ…<line-break>どうするのぉ、<line-break><value:$28>？<end>"
 korean = "흑… 어떡할 거야, <value:$28>?<end>"
@@ -336,6 +340,10 @@ korean = "<value:$28>, …부탁이… 있다. 그 단검 안에… 엘리스 �
 japanese = "…その密書を、<line-break>王妃…エリス様に…　　　　　　　<line-break>…届けてくれ。<line-break>フ、フリントの子と言えば…<line-break>エリス様に…お目通り<line-break>…かなう…はず。<end>"
 korean = "…그 밀서를 왕비… 엘리스 님께… 전달해 줘. 플, 플린트의 아이라고 하면… 엘리스 님을… 뵐 수… 있을 거야.<end>"
 
+["1860134"]
+japanese = "…なんでぇ…なんでフリントさんが<line-break>そんな手紙を持ってるのぉ…？<end>"
+korean = "…왜… 왜 플린트 씨가 그런 편지를 가지고 있는 거야…?<end>"
+
 ["1860137"]
 japanese = "フリント、もういい。<line-break>しゃべるな。<end>"
 korean = "플린트, 이제 됐어. 말하지 마.<end>"
@@ -343,6 +351,10 @@ korean = "플린트, 이제 됐어. 말하지 마.<end>"
 ["1860138"]
 japanese = "<value:$28>…、<line-break>はやく、密書を…、　　　　　　　<line-break>エリス…王妃に…。<end>"
 korean = "<value:$28>…, 서둘러 밀서를… 에리스… 왕비에게….<end>"
+
+["1860141"]
+japanese = "エリス王妃は、<line-break>雌狐と呼ばれるほどの謀略家。<line-break>毒にも詳しい。<line-break>シロウラギリの毒に<line-break>フリントがやられたと言って、<line-break>生命のかけらをもらってこい。<end>"
+korean = "엘리스 왕비는 암여우라 불릴 정도의 모략가다. 독에도 밝지. 시로우라기리 독에 플린트가 당했다고 말하고 생명의 조각을 받아 와.<end>"
 
 ["1860142"]
 japanese = "急いで戻れ。<line-break>…一刻を争う状況だ。<end>"

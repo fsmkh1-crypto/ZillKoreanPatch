@@ -16,6 +16,10 @@ korean = "뭐, 여러 곳이지.<end>"
 japanese = "いんや。　　　　　　　　　　　　　　<end>"
 korean = "아니.<end>"
 
+["490007"]
+japanese = "今から俺はこいつの相棒になるんでな。<line-break>悪いが引き受けられない。<end>"
+korean = "이제부터 난 이 녀석의 동료가 될 거라서. 미안하지만 맡을 수 없어.<end>"
+
 ["490008"]
 japanese = "こいつのギルド登録を<line-break>してやってくれ、おやじ。<end>"
 korean = "이 녀석 길드 등록 좀 해 줘, 아저씨.<end>"
@@ -148,6 +152,10 @@ korean = "여자였지….<end>"
 japanese = "ああ、<line-break>かなり歳をくってはいるが<line-break>女だった…。<line-break>………………。<end>"
 korean = "그래, 나이는 꽤 들었지만 여자였어…. ……………….<end>"
 
+["490064"]
+japanese = "……ちっ。<line-break>まず、最初のほうだが、あんた、<line-break><value:$28>、だっけ？<line-break>エリスは結構、あんたのことを<line-break>気に入っているようだ。<line-break>殺されることはまずないな。<end>"
+korean = "……쳇. 우선 첫 번째인데, 당신 <value:$28> 맞지? 엘리스는 꽤 당신을 마음에 들어 하는 모양이야. 죽을 일은 거의 없겠군.<end>"
+
 ["490067"]
 japanese = "そうか、なら<line-break>生きて再会したければ<line-break>早く追いかけることだな。　　<line-break>その一座はこれから<line-break>リベルダムをまわって<line-break>エンシャントへ向かうそうだ。<end>"
 korean = "그래, 그렇다면 살아서 다시 만나고 싶으면 빨리 뒤쫓아라. 그 일행은 이제 리벨덤을 거쳐 엔샨트로 향한다더군.<end>"
@@ -175,6 +183,10 @@ korean = "응? 아까 졌으면 어쩔 생각이었냐고? 뭐, 애초에 아까
 ["490090"]
 japanese = "<value:$28>、どうしたのじゃ。<line-break>港へ行くのではなかったのか？<end>"
 korean = "<value:$28>, 무슨 일이냐. 항구로 가는 게 아니었느냐?<end>"
+
+["490091"]
+japanese = "お主もじゃ。<line-break>いつまでもこんな所で<line-break>油を売ってていいのか？<end>"
+korean = "그대도 마찬가지다. 언제까지 이런 곳에서 빈둥거리고 있어도 되는가?<end>"
 
 ["490092"]
 japanese = "んー、あ、ああ。<line-break>ま、すぐ行くさ。<end>"
@@ -267,6 +279,10 @@ korean = "왔군. 기다렸어, <value:$28>.<end>"
 ["490122"]
 japanese = "ちょうどいいタイミングだ。<end>"
 korean = "딱 좋은 타이밍이군.<end>"
+
+["490125"]
+japanese = "もう船番に話はつけてある。<line-break>声をかければ乗船させてくれるはずだ。<end>"
+korean = "이미 뱃사공과 이야기는 해 뒀다. 말을 걸면 배에 태워 줄 거야.<end>"
 
 ["490127"]
 japanese = "あの男の連れか？<line-break>…チッ、乗んな。<end>"
@@ -392,6 +408,10 @@ korean = "후후, 여긴 결계를 쳐 두었습니다.<end>"
 japanese = "運命が選んだ人だけが、<line-break>結界を抜けてここに入ってくるのです。<end>"
 korean = "운명이 선택한 사람만 결계를 뚫고 이곳에 들어옵니다.<end>"
 
+["490178"]
+japanese = "ですから、あなたほどの冒険者でも<line-break>ここに来たことがないんですよ。<end>"
+korean = "그러니 당신 정도의 모험자라도 여기에 온 적은 없는 겁니다.<end>"
+
 ["490179"]
 japanese = "いらっしゃい。<line-break>お待ちしていましたよ。<end>"
 korean = "어서 오세요. 기다리고 있었습니다.<end>"
@@ -499,6 +519,10 @@ korean = "우와아앙!!! <value:$28>~!<end>"
 ["490208"]
 japanese = "こっちもいろいろ事情があってな。<end>"
 korean = "이쪽도 여러 사정이 있어서 말이지.<end>"
+
+["490209"]
+japanese = "そっちもいろいろあるんだろうが、<line-break>悪いが、明日にしてくれないか。<end>"
+korean = "그쪽도 여러 사정이 있겠지만 미안하다. 내일로 해 주지 않겠나.<end>"
 
 ["490212"]
 japanese = "オルファウスさん、<line-break>おはようございます！！<end>"

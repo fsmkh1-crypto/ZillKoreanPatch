@@ -1000,6 +1000,10 @@ korean = "아마도…. 아니, 가능성은 상당히 높아.<end>"
 japanese = "ん、なるほどね。<line-break>で、何にも知らない<line-break><value:$28>が通ったら、<line-break>みんなで一気に身柄を確保しようって<line-break>寸法、ねえ。<end>"
 korean = "음, 그렇군. 아무것도 모르는 <value:$28>이 지나가면 다 같이 단숨에 붙잡겠다는 계획이네.<end>"
 
+["1420334"]
+japanese = "知ってるぅ！<line-break>そういうのって、<line-break>まちぶせ、って言うんだよぉ。<end>"
+korean = "알아아! 그런 걸 매복이라고 하는 거지.<end>"
+
 ["1420335"]
 japanese = "まっ、待ち伏せだなんて、<line-break>人聞きの悪い。<line-break> <line-break>アタクシを、そんな悪事の巻きぞえに<line-break>しないでくれるかしら？<end>"
 korean = "매, 매복이라니 듣기 거북하네요. 저를 그런 나쁜 일에 끌어들이지 말아 주실래요?<end>"
@@ -1604,6 +1608,10 @@ korean = "마룬! 잔치를 변경해서 배식 준비를 하는 고브!<end>"
 japanese = "だ、団長…<line-break>自分は今ほどゴブゴブ団に入って<line-break>誇らしいと思ったことはないゴブ！<line-break>行ってくるゴブ。<end>"
 korean = "다, 단장… 지금만큼 고브고브단에 들어온 걸 자랑스럽게 생각한 적이 없다고브! 다녀오겠다고브.<end>"
 
+["1420519"]
+japanese = "フゴー殿、ダイダロ殿。<line-break>というワケで、<line-break>ゴブゴブ団は前進するゴブ。<line-break>ゴブゴブ団を認めてくれたことは<line-break>嬉しかったゴブ。<line-break>では、さらばゴブ！<end>"
+korean = "후고 님, 다이다로 님. 그런 이유로 고브고브단은 전진한다 고브. 고브고브단을 인정해 줘서 기뻤다 고브. 그럼 안녕이다 고브!<end>"
+
 ["1420524"]
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
@@ -1615,6 +1623,10 @@ korean = "용왕이 쓰러졌습니까…. 현세의 마지막 신이 사라지�
 ["1420527"]
 japanese = "この日が訪れたことを<line-break>喜ぶべきか悲しむべきか…。<end>"
 korean = "이날이 찾아온 것을 기뻐해야 할지 슬퍼해야 할지….<end>"
+
+["1420528"]
+japanese = "そうですね。<line-break>今は、人の可能性を信じて、<line-break>時の流れに身を任せましょうか。<line-break>あなたが開いた新たな未来の扉は、<line-break>無限の可能性に満ちていますものね。<end>"
+korean = "그렇군요. 지금은 인간의 가능성을 믿고 시간의 흐름에 몸을 맡겨 보죠. 당신이 연 새로운 미래의 문은 무한한 가능성으로 가득하니까요.<end>"
 
 ["1420530"]
 japanese = "どうかしましたか？<end>"
@@ -1823,6 +1835,10 @@ korean = "아마도…. 아니, 가능성은 상당히 높아.<end>"
 ["1420607"]
 japanese = "ん、なるほどね。<line-break>で、何にも知らない<line-break><value:$28>が通ったら、<line-break>みんなで一気に身柄を確保しようって<line-break>寸法、ねえ<end>"
 korean = "흠, 그렇군. 그래서 아무것도 모르는 <value:$28>이 지나가면 다 같이 단숨에 붙잡겠다는 셈이군.<end>"
+
+["1420608"]
+japanese = "知ってるぅ！<line-break>そういうのって、<line-break>まちぶせ、って言うんだよぉ。<end>"
+korean = "알아아! 그런 걸 매복이라고 하는 거지.<end>"
 
 ["1420609"]
 japanese = "まっ、待ち伏せだなんて、<line-break>人聞きの悪い。<line-break> <line-break>アタクシを、そんな悪事の巻きぞえに<line-break>しないでくれるかしら？<end>"

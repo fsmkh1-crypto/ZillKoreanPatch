@@ -4,6 +4,10 @@
 japanese = "旅立ち０４メッセージ<end>"
 korean = "여행 출발 04 메시지<end>"
 
+["310002"]
+japanese = "お前がいつもここから畑に行くんで<line-break>ここで待ち伏せてたのさ。<line-break>ドンピシャだったな、へへ…。<line-break>代官ボルボラ様にたてつく<line-break><value:$28>！<line-break>死んでもらうぜ！<end>"
+korean = "네가 늘 여기서 밭으로 가니까 여기서 매복하고 있었지. 딱 맞았군, 헤헤… 대관 볼보라 님께 대드는 <value:$28>! 죽어 줘야겠다!<end>"
+
 ["310005"]
 japanese = "へへ…、俺も心を入れ替えるよ。<line-break>だ、だから許してくれよ！<line-break>な、な、<value:$28>！？<end>"
 korean = "헤헤… 나도 마음을 고쳐먹을게. 그, 그러니 용서해 줘! 그, 그렇지 <value:$28>!?<end>"
@@ -208,6 +212,10 @@ korean = "<value:$28>, 저 녀석들만 가면 되레 당한다. 서둘러 막�
 japanese = "さあ！　行こう！<line-break>悪代官ボルボラを倒すんだ！<end>"
 korean = "자! 가자! 악덕 대관 볼보라를 쓰러뜨리는 거야!<end>"
 
+["310106"]
+japanese = "くっ。<line-break>俺としたことが…<line-break>ケガしちまって先へ進めねえ…。　　<line-break>頼む、<value:$28>！<line-break>絶対にボルボラを倒してくれ。<line-break>奴は町の奥の領主邸の方に行ったぞ！<end>"
+korean = "큭. 내가 이 꼴이라니… 다쳐서 더는 못 가겠어… 부탁한다, <value:$28>! 반드시 볼보라를 쓰러뜨려 줘. 녀석은 마을 안쪽 영주 저택으로 갔어!<end>"
+
 ["310108"]
 japanese = "<value:$28>。<line-break>ムダさ。<line-break>長老様は反乱に参加しない。<line-break>反乱など起こしたら<line-break>えらいことになるって<line-break>閉じこもったっきりさ！<end>"
 korean = "<value:$28>. 소용없어. 장로님은 반란에 참가하지 않아. 반란을 일으키면 큰일 난다며 틀어박혀 버렸어!<end>"
@@ -288,6 +296,10 @@ korean = "…누나랑 나를 죽일 셈이야!?<end>"
 japanese = "姉ちゃん！！<end>"
 korean = "누나!!<end>"
 
+["310146"]
+japanese = "…フリントがエリスに密書を渡し、<line-break>反乱の報告をするとなれば、<line-break>こちらも手を打たねばならぬ。<line-break>俺についてこい、<line-break><value:$28>。<line-break>お前の力が必要なのだ。<end>"
+korean = "…플린트가 엘리스에게 밀서를 넘기고 반란을 보고한다면 우리도 손을 써야 한다. 따라와라, <value:$28>. 네 힘이 필요하다.<end>"
+
 ["310147"]
 japanese = "レムオンについていく<end>"
 korean = "레몬을 따라간다<end>"
@@ -295,6 +307,10 @@ korean = "레몬을 따라간다<end>"
 ["310148"]
 japanese = "レムオンについていかない<end>"
 korean = "레므온을 따라가지 않는다<end>"
+
+["310149"]
+japanese = "今回の事件の責任をとって、<line-break>お前たち姉弟には<line-break>処刑されたことになってもらう。<line-break>そうすることで<line-break>今回の騒ぎを鎮め、<line-break>この町の連中の口を封じる。<end>"
+korean = "이번 사건의 책임을 지고 너희 남매는 처형된 것으로 하겠다. 그렇게 해서 소동을 가라앉히고 이 마을 사람들의 입을 막는다.<end>"
 
 ["310150"]
 japanese = "そんな…勝手すぎだぜ！！<end>"
@@ -307,6 +323,10 @@ korean = "누나. 벌써 일어났어? 들어갈게.<end>"
 ["310155"]
 japanese = "やっぱ、寝てないんだ…。<end>"
 korean = "역시, 안 잤구나….<end>"
+
+["310156"]
+japanese = "結局、守れなかったね。<line-break>父さんの遺してくれた<line-break>あの畑…。<end>"
+korean = "결국 지키지 못했네. 아버지가 남겨 주신 그 밭…<end>"
 
 ["310157"]
 japanese = "な、な、なんだ！？<end>"
@@ -376,6 +396,10 @@ korean = "부탁해, 오빠를 지켜 줘!<end>"
 japanese = "<value:$28>、チャカ。<line-break>まさか、お代官様を…！<end>"
 korean = "<value:$28>, 차카. 설마 대관님을…!<end>"
 
+["310177"]
+japanese = "なんということじゃ！！<line-break>代官まで追放されてしもうては、<line-break>反乱は明らかじゃ！<line-break>やっと町の騒ぎをしずめたに、<line-break>英雄気どりで愚か者どもが…！<end>"
+korean = "이럴 수가!! 대관까지 추방됐으니 반란은 명백하다! 겨우 마을 소동을 가라앉혔더니 영웅 흉내 내는 바보들이…!<end>"
+
 ["310178"]
 japanese = "皆の衆！！<end>"
 korean = "모두들!!<end>"
@@ -383,6 +407,10 @@ korean = "모두들!!<end>"
 ["310179"]
 japanese = "な、何するんだよ！<line-break>長老様！！<end>"
 korean = "뭐, 뭘 하는 거야! 장로님!!<end>"
+
+["310181"]
+japanese = "くそっ！<line-break>町のみんなのために戦ったのに…！<line-break>あいつら…！<end>"
+korean = "젠장! 마을 사람들을 위해 싸웠는데…! 저 녀석들…!<end>"
 
 ["310185"]
 japanese = "うっ！！<end>"
@@ -480,6 +508,10 @@ korean = "(차카….)<end>"
 japanese = "に、逃げろ！！<end>"
 korean = "도, 도망쳐!!<end>"
 
+["310220"]
+japanese = "くそっ！！<line-break>俺たちはなんのために<line-break>ボルボラを倒したんだ！<end>"
+korean = "젠장!! 우리는 대체 뭘 위해 볼보라를 쓰러뜨린 거야!<end>"
+
 ["310222"]
 japanese = "そ、それって、<line-break>どういうことだよ！<end>"
 korean = "그, 그게 무슨 뜻이야!<end>"
@@ -540,6 +572,10 @@ korean = "이… 이 악동 녀석!<end>"
 japanese = "早く逃げて！！<line-break>早く！！<end>"
 korean = "빨리 도망쳐!! 빨리!!<end>"
 
+["310241"]
+japanese = "いよいよ町に入る。<line-break>お前の名前で<line-break>中止を呼びかけるんだ。<end>"
+korean = "이제 마을에 들어간다. 네 이름으로 중지를 호소해.<end>"
+
 ["310250"]
 japanese = "レムオン様。<line-break>あなたの秘密についての密書、<line-break>ボルボラより受け取っております。<line-break>あなたは密書を取り戻さねば破滅。<line-break>反乱にかまっているヒマはない。<end>"
 korean = "레몬 님. 당신의 비밀에 관한 밀서, 볼보라에게서 받았습니다. 밀서를 되찾지 못하면 당신은 파멸합니다. 반란에 신경 쓸 여유는 없습니다.<end>"
@@ -547,6 +583,10 @@ korean = "레몬 님. 당신의 비밀에 관한 밀서, 볼보라에게서 받�
 ["310255"]
 japanese = "どうした？<line-break>チャカとかいう弟を助けに行くぞ。<end>"
 korean = "뭐 해? 차카라는 동생을 구하러 간다.<end>"
+
+["310256"]
+japanese = "密書はあと回しだ。<line-break>確かに密書は俺にとって<line-break>致命的なものだが…<line-break>お前ごときを利用する気などないと<line-break>証明することが先決だ。<line-break>俺の誇りに関わる。<end>"
+korean = "밀서는 나중이다. 내게 치명적인 물건인 건 맞지만… 너 따위를 이용할 생각이 없다는 걸 증명하는 게 먼저다. 내 자존심이 걸렸어.<end>"
 
 ["310257"]
 japanese = "…それだけだ。<line-break>行くぞ。<end>"
@@ -631,6 +671,10 @@ korean = "여관<end>"
 ["310298"]
 japanese = "は、は、はは、反乱ですか？<end>"
 korean = "바, 바, 반란입니까?<end>"
+
+["310300"]
+japanese = "は、反乱？<line-break>ああ、フリントさんの<line-break>言ったとおりになった。<end>"
+korean = "바, 반란? 아아, 플린트 씨가 말한 대로 됐어.<end>"
 
 ["310303"]
 japanese = "広場<end>"

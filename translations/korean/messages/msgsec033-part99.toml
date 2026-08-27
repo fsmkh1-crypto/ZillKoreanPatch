@@ -100,9 +100,17 @@ korean = "잠깐 기다려, 악의 그림자!!<end>"
 japanese = "やはりそうか！ <end>"
 korean = "역시 그랬군! <end>"
 
+["330036"]
+japanese = "へっへっ、<line-break>こいつをさらって<line-break>フリントを脅迫するんだな。<end>"
+korean = "헤헤, 이 녀석을 납치해서 플린트를 협박하는 거군.<end>"
+
 ["330039"]
 japanese = "なんなのよぉ！　あんた。<end>"
 korean = "뭐야아! 당신.<end>"
+
+["330040"]
+japanese = "ふっ。<line-break>なんなのよぉ、だと？<line-break>察しの悪い悪人め。<line-break>悪の影ある所、必ず俺様あり！<line-break>…と言えば俺様が何者か<line-break>すぐにわかるだろうが！！<end>"
+korean = "훗. 뭐냐고? 눈치 없는 악당 같으니. 악의 그림자가 있는 곳에 반드시 이 몸이 있다! …이러면 내가 누군지 알겠지!!<end>"
 
 ["330041"]
 japanese = "あー、わかったぁ！<end>"
@@ -131,6 +139,10 @@ korean = "…뭐야, 이 자식!? 죽여버린다!!<end>"
 ["330050"]
 japanese = "やーべやべ、<line-break>結構、加減が難しいもんだな。<end>"
 korean = "위험해, 위험해. 꽤 힘 조절이 어렵네.<end>"
+
+["330051"]
+japanese = "もう一度かかってくるかい？<line-break>今度はもうちょっと加減してやるぜ？<end>"
+korean = "한 번 더 덤빌래? 이번엔 조금 더 봐주지.<end>"
 
 ["330052"]
 japanese = "う…。<line-break><line-break><line-break>い…いずれ貴様もやっつけてやる！<line-break>それまで命は預けておいてやろう！<line-break>さらばだ！<end>"
@@ -232,6 +244,10 @@ korean = "플린트 씨! 빨리, 빨리요!<end>"
 japanese = "…いきなりで驚いたろうが、<line-break>子細はいずれ、ゆっくりと話す。<line-break><line-break>とにかく、密書のこと、<line-break>頼んだぞ、<value:$28>。<end>"
 korean = "…갑작스러워 놀랐겠지만 자세한 건 나중에 천천히 이야기하지. 아무튼 밀서 건, 부탁한다, <value:$28>.<end>"
 
+["330081"]
+japanese = "うまい、うまい。<line-break>さすが旅慣れたもんだ。　　　　<line-break>何気なく手を動かしてたようだが<line-break>一番少ない薪で、一番いい火が<line-break>得られるようにしてる。<end>"
+korean = "잘하네, 잘해. 역시 여행에 익숙하군. 아무렇지 않게 손을 움직인 것 같지만 가장 적은 장작으로 가장 좋은 불을 만들고 있어.<end>"
+
 ["330082"]
 japanese = "ただの商人にしちゃ、<line-break>ちょっと器用すぎるくらいだ。　<line-break><end>"
 korean = "그냥 상인치고는 조금 지나치게 손재주가 좋군.<end>"
@@ -291,6 +307,10 @@ korean = "없앨 필요는 없습니다. 상대는 아마추어입니다. 오히
 ["330101"]
 japanese = "なるほど、ね。<line-break>冷静な判断だ。<end>"
 korean = "그렇군. 냉정한 판단이야.<end>"
+
+["330102"]
+japanese = "くそっ。<line-break>この俺様の気配を察したか…。　　<line-break>　<line-break>やはりこの大人物としての存在感は<line-break>どうしても消せんか…。<line-break>フッ、偉大すぎるのも考え物だな。<end>"
+korean = "젠장. 이 나의 기척을 눈치챘나… 역시 이 대인물의 존재감은 아무리 해도 감출 수 없군… 훗, 너무 위대한 것도 문제야.<end>"
 
 ["330103"]
 japanese = "あぁーっ！<line-break>昼間の変なおじさぁん！<end>"
@@ -500,6 +520,10 @@ korean = "…지금 너한테는 무슨 말을 해도 소용없나.<end>"
 japanese = "自分さえ、もう少し強ければ…、<line-break>そう思ってるんだろ？<line-break>　<line-break>だが、ただ、お前さんが強けりゃ、<line-break>おやじさんは<line-break>本当に死なずにすんだのかい？<end>"
 korean = "내가 조금만 더 강했더라면… 그렇게 생각하지? 하지만 네가 강하기만 했다면 아버지가 정말 죽지 않았을까?<end>"
 
+["330175"]
+japanese = "これは…竜王の覚醒…？<line-break>…激動の時代を告げる吼え声か…。<line-break>　<line-break>フフ、まさか、こんなものが、<line-break>生きているうちに聞けるとは<line-break>思わなかったぜ…。<end>"
+korean = "이건… 용왕의 각성…? 격동의 시대를 알리는 포효인가… 후후, 살아 있는 동안 이런 걸 들을 줄은 몰랐군…<end>"
+
 ["330176"]
 japanese = "<value:$28>、<line-break>俺についてくるか？<line-break>お前に新しい地平を見せてやるぜ。<end>"
 korean = "<value:$28>, 나를 따라올래? 네게 새로운 지평을 보여 주지.<end>"
@@ -587,6 +611,10 @@ korean = "그럼 이 근처에서 조금 쉬도록 하자.<end>"
 ["330210"]
 japanese = "王宮か？<line-break>この道をずっとまっすぐ行けば<line-break>王宮の門に出るよ。<end>"
 korean = "왕궁? 이 길을 계속 곧장 가면 왕궁 문이 나와.<end>"
+
+["330211"]
+japanese = "まあ、待て。<line-break>何か急ぎの用がありそうだ。<line-break>どうしたのだ？<end>"
+korean = "잠깐. 뭔가 급한 일이 있는 모양이군. 무슨 일이야?<end>"
 
 ["330212"]
 japanese = "とう！<end>"

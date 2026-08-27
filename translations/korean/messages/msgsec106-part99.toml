@@ -44,6 +44,10 @@ korean = "…자기 개그가 썰렁하다는 건 알고 있었구나, 반.<end>
 japanese = "な、こうやって手紙の中身を見るのって<line-break>悪いことかな？<end>"
 korean = "있지, 이렇게 편지 내용을 보는 건 나쁜 짓일까?<end>"
 
+["1060051"]
+japanese = "ディンガルの内政統括、玄武将軍<line-break>ザギヴのロセン巡察日程及び行程だ。<line-break>　<line-break>ここまでの情報、ディンガルでも<line-break>四天王クラスじゃないと<line-break>手に入らないぜ？<end>"
+korean = "딘갈 내정 총괄 현무장군 자기브의 로센 시찰 일정과 행로다. 이 정도 정보는 딘갈에서도 사천왕급이 아니면 못 구해.<end>"
+
 ["1060052"]
 japanese = "…お前さんには、教えといた方が　<line-break>よさそうだと思ってな。<line-break>　<line-break>…お前さんのディンガルのお友達、<line-break>結構、敵が多いらしいな。<end>"
 korean = "…자네한테는 알려 두는 게 좋을 것 같아서 말이지. …자네 딘갈 친구들, 적이 꽤 많은 모양이더군.<end>"
@@ -60,6 +64,10 @@ korean = "안 돼, 안 돼. 역시 그런 짓을 하면 안 돼.<end>"
 japanese = "ああん、もぅ！<line-break>本当にダメなんだったら！<end>"
 korean = "아앙, 정말! 진짜 안 된다니까!<end>"
 
+["1060062"]
+japanese = "ねえねえ、<value:$28>。<line-break>この手紙ちょっとだけ見てみようよぉ。<end>"
+korean = "있잖아, <value:$28>. 이 편지 조금만 보자.<end>"
+
 ["1060063"]
 japanese = "そんなに固いこと言わなくてもいいと　<line-break>思うけどなぁ。ぼくは<value:$28><line-break>のことを心配してるんだよ？<end>"
 korean = "그렇게 딱딱하게 굴 필요는 없잖아. 난 <value:$28>이 걱정돼서 그러는 거야.<end>"
@@ -67,6 +75,10 @@ korean = "그렇게 딱딱하게 굴 필요는 없잖아. 난 <value:$28>이 걱
 ["1060064"]
 japanese = "はぁ…。<line-break>ぼくって<line-break>どうして理解されないんだろ…。　<line-break>さびしいなぁ。<value:$28>も<line-break>わかってくれないなんて…。<end>"
 korean = "하아…. 난 왜 이렇게 이해받지 못할까…. 외롭다. <value:$28>마저 이해해 주지 않다니….<end>"
+
+["1060066"]
+japanese = "なぁ～んだ。<line-break>別にきれいなことなんて書いてないや。<line-break>　<line-break>ディンガルのザギヴってえらい人が<line-break>ロセンを視察するときに使う行程が<line-break>書いてあるだけだよ。<end>"
+korean = "뭐야~. 딱히 예쁜 내용은 없네. 딘갈의 자기브라는 높은 사람이 로센을 시찰할 때 쓰는 행로가 적혀 있을 뿐이야.<end>"
 
 ["1060067"]
 japanese = "なんだ。貴様。<line-break>ブゾリ様に何か密告することがあるのか？<end>"
@@ -107,6 +119,10 @@ korean = "그래, 알겠어. 아무튼 중심이란 게 없네.<end>"
 ["1060086"]
 japanese = "カルラ様からあなたのこと聞いてるわ。<line-break>バカ王ペウダを懲らしめたんですって。<line-break>　<line-break>でも、マヌケよね。<line-break>同じ罠に２度引っかかるなんて。<end>"
 korean = "칼라 님께 네 얘기는 들었어. 바보 왕 페우다를 혼내 줬다며. 하지만 멍청하네. 같은 함정에 두 번이나 걸리다니.<end>"
+
+["1060089"]
+japanese = "あーら、おかえりなさい。<line-break>どう？　テロリストどものこと、　　　<line-break>何かわかったのかしら？<line-break>うふふ、そう。<line-break>アジト、そんなところにあったのねー。<line-break>　<end>"
+korean = "어머, 돌아왔네. 어때? 테러리스트들에 대해 뭔가 알아냈어? 후후, 그래. 아지트가 그런 곳에 있었구나.<end>"
 
 ["1060096"]
 japanese = "なんか、リベルダムの武器商人に<line-break>恨みでもあるわけ？<end>"

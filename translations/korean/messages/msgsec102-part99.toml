@@ -172,6 +172,10 @@ korean = "선생님….으윽… 이, 이런 일이….<end>"
 japanese = "いや…こんなのいやー！<line-break>先生、目を開けて！　先生ー！<end>"
 korean = "싫어… 이런 건 싫어! 선생님, 눈 떠요! 선생님!<end>"
 
+["1020085"]
+japanese = "人には、それぞれの<line-break>思い、事情があるものよ。　　　　　<line-break>　<line-break>大人になるって、<line-break>そういうものをわかってあげられる、<line-break>そういうことじゃないかしら？<end>"
+korean = "사람마다 저마다의 생각과 사정이 있는 법이야. 어른이 된다는 건 그런 걸 이해해 줄 수 있다는 뜻 아닐까?<end>"
+
 ["1020086"]
 japanese = "エルメスさんは、もうここには<line-break>いないわ。ひとりっきりのお嬢さんが　<line-break>亡くなったんですって。<line-break>もしかして、<line-break>あなた、<value:$28>さん？<end>"
 korean = "에르메스 씨는 이제 여기 없어요. 하나뿐인 따님이 돌아가셨대요. 혹시 당신, <value:$28> 씨인가요?<end>"

@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V4용 시작<end>"
 japanese = "おう、<value:$28>。<line-break>ちっと耳に入れときたいことがあってな。<end>"
 korean = "오, <value:$28>. 네 귀에 넣어 둘 이야기가 좀 있어서 말이지.<end>"
 
+["1850002"]
+japanese = "いや、仕事の話じゃないんだ。<line-break>リベルダムが落ちたって噂、聞いてるか？<end>"
+korean = "아니, 일 얘기는 아니야. 리벨덤이 함락됐다는 소문, 들었어?<end>"
+
 ["1850004"]
 japanese = "ま、自分の目で確かめてみるのが、　　　<line-break>一番いいだろうな。<line-break>　<line-break>リベルダムに知り合いがいるなら、<line-break>なおさらな。<end>"
 korean = "뭐, 직접 눈으로 확인해 보는 게 제일 좋겠지. 리벨덤에 아는 사람이 있다면 더더욱.<end>"
@@ -100,6 +104,10 @@ korean = "좋아, 협상 성립! 그럼 다음 작전까지 시간 낭비인가�
 japanese = "ダメだったのー！？<line-break>あーあ、がっくり。<end>"
 korean = "안 된 거야!? 아아, 실망이네.<end>"
 
+["1850043"]
+japanese = "ちょっとちょっと、<line-break>報告してくれなきゃ。<line-break>冒険者の基本でしょ？<end>"
+korean = "잠깐, 잠깐. 보고는 해 줘야지. 모험자의 기본 아니야?<end>"
+
 ["1850044"]
 japanese = "今日はもうお引き取りください。<end>"
 korean = "오늘은 이제 돌아가 주세요.<end>"
@@ -152,6 +160,10 @@ korean = "흐음. 말할 수가 없구나.<end>"
 japanese = "依頼人がカルラだからでは　　<line-break>ありません。<line-break>　<line-break>我々は、信用できる人物にしか<line-break>情報を流さないのです。<end>"
 korean = "의뢰인이 카를라이기 때문이 아닙니다. 우리는 믿을 수 있는 인물에게만 정보를 흘립니다.<end>"
 
+["1850059"]
+japanese = "依頼人の名を<line-break>簡単に明かすような方には、<line-break>お話いたしかねます。<end>"
+korean = "의뢰인의 이름을 쉽게 밝히는 분께는 말씀드리기 어렵습니다.<end>"
+
 ["1850060"]
 japanese = "お引き取りください。<end>"
 korean = "돌아가 주십시오.<end>"
@@ -163,6 +175,10 @@ korean = "흠~. 가능성이 있구나.<end>"
 ["1850063"]
 japanese = "あとは、<line-break>情報を守るだけの力が<line-break>あるかどうかじゃのぉ。<end>"
 korean = "이제 남은 건 정보를 지킬 힘이 있는지 여부구먼.<end>"
+
+["1850064"]
+japanese = "さて、そのことも、<line-break>証明していただけますかな？<line-break>我々を相手に。<end>"
+korean = "자, 그것도 증명해 주시겠습니까? 우리를 상대로.<end>"
 
 ["1850065"]
 japanese = "むにゅー…。<end>"

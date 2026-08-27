@@ -52,6 +52,10 @@ korean = "제 탓…이에요…! 제가… 덤벙대서….<end>"
 japanese = "ねえ、落ち着いて。<line-break>あれはネメアが望んでしたことだわ。<end>"
 korean = "진정해. 그건 네메아가 원해서 한 일이야.<end>"
 
+["1740015"]
+japanese = "じ、次元のはざまを開いて…　<line-break>わたし…そこに…<line-break>落とされそうに…なって…。<line-break>そ、そしたら…ネメアさんが…<line-break>助けてくれて…<line-break>で、でも…でも…！<end>"
+korean = "차, 차원의 틈을 열어서… 저를… 거기로… 떨어뜨리려 해서… 그, 그랬더니 네메아 씨가… 구해 줘서… 그, 그런데…!<end>"
+
 ["1740017"]
 japanese = "ネメアさんを死なせてしま…た…。<line-break><value:$28>さん…<line-break>い、いったい…どうすれば…？<end>"
 korean = "네메아 씨를 죽게 만들고 말았어…. <value:$28>님… 대, 대체… 어떡하면…?<end>"
@@ -68,6 +72,10 @@ korean = "감사…합니다. <value:$28>님 덕분에 저… 조금 진정됐�
 japanese = "あ…、あまり遅くなると<line-break>カフィンが心配しますから。<end>"
 korean = "아… 너무 늦으면 카핀이 걱정할 테니까요.<end>"
 
+["1740023"]
+japanese = "もう大丈夫です。<line-break>ホントに、ホントに<line-break>ありがとうございました。<end>"
+korean = "이제 괜찮아요. 정말, 정말 감사합니다.<end>"
+
 ["1740024"]
 japanese = "さぁ、行きましょう、ノエル。<line-break>レイヴンもあなたを捜しているわ。<end>"
 korean = "자, 가요 노엘. 레이븐도 당신을 찾고 있어요.<end>"
@@ -83,6 +91,10 @@ korean = "울어도 죽은 사람은 돌아오지 않아.<end>"
 ["1740028"]
 japanese = "で、でも…　　　　　　　　　　　<line-break>　<line-break>　<line-break>そうですね…。<line-break>生きているかも…しれませんよね。<line-break>ありがとうございます。<end>"
 korean = "그, 그래도… 그렇네요…. 살아 있을지도… 모르잖아요. 고마워요.<end>"
+
+["1740029"]
+japanese = "助かったわ。<line-break>…今のノエルには、<line-break>そう言ってあげるのが一番ね。<end>"
+korean = "살았네. …지금 노엘에게는 그렇게 말해 주는 게 제일 좋겠어.<end>"
 
 ["1740030"]
 japanese = "…わかってます…。<line-break>わかってる…けど…。<end>"
@@ -152,6 +164,10 @@ korean = "맡지 않는다<end>"
 japanese = "そう。仕方ないわ。<line-break>私は、ひとりでも行く。<end>"
 korean = "그래. 어쩔 수 없지. 나는 혼자라도 갈 거야.<end>"
 
+["1740056"]
+japanese = "やれやれ。<line-break>あれくらいに一直線だと、<line-break>気持ちいいぐらいだわい。<end>"
+korean = "이런. 저 정도로 일직선이면 오히려 시원할 정도군.<end>"
+
 ["1740057"]
 japanese = "フフフ、来たか。<line-break><value:$28>よ。<line-break>そして、オイフェよ。<end>"
 korean = "후후후, 왔구나. <value:$28>이여. 그리고 오이페여.<end>"
@@ -179,6 +195,10 @@ korean = "그건 스스로 확인하거라. 너희는 너희답게 싸우고 구
 ["1740069"]
 japanese = "できれば、あなたたちも<line-break>ついてきてくれませんか？<end>"
 korean = "가능하면 당신들도 함께 와 주시겠어요?<end>"
+
+["1740071"]
+japanese = "くすくす。すいません。<line-break>まぁ、そういうわけです。<line-break>いいですか？<end>"
+korean = "후후. 미안합니다. 뭐, 그런 사정입니다. 괜찮겠습니까?<end>"
 
 ["1740074"]
 japanese = "…遅かった、です。<end>"
@@ -347,6 +367,10 @@ korean = "주사프브로스! 왜 네메아 님을 차원의 틈새로 떨어뜨
 ["1740133"]
 japanese = "…まさか！<end>"
 korean = "…설마!<end>"
+
+["1740135"]
+japanese = "パルシェン…？<line-break>全エルフを束ねる長…。<line-break>この猫が、そうなのか？<end>"
+korean = "파르셴…? 모든 엘프를 통솔하는 장… 이 고양이가 그런 존재인가?<end>"
 
 ["1740136"]
 japanese = "すいません。<value:$28>。<line-break>隠していたわけでもないのですが、<line-break>名乗るほどのこともないと思ったので。<line-break>ま、その話はあとです。<end>"

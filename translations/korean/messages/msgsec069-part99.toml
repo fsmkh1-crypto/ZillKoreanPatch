@@ -268,6 +268,10 @@ korean = "마룬이 당했다 고브~. 고브고브단, 후퇴다 고브~.<end>"
 japanese = "団長！　別に、自分だけが<line-break>やられたわけではないゴブよ～。<end>"
 korean = "단장! 단장만 당한 건 아니잖아 고브~.<end>"
 
+["690123"]
+japanese = "…あなたがただけでは、<line-break>すこし、危険では、ありませんか？　　<line-break>　<end>"
+korean = "…당신들만으로는 조금 위험하지 않겠습니까?<end>"
+
 ["690125"]
 japanese = "ともに怪物を倒しましょう。<line-break>いかがですか？<end>"
 korean = "함께 괴물을 쓰러뜨립시다. 어떠신가요?<end>"
@@ -364,6 +368,10 @@ korean = "놔! 놓으라고! <value:$28>!<end>"
 japanese = "…<value:$28>が<line-break>そう言うなら…。<end>"
 korean = "…<value:$28>가 그렇게 말한다면….<end>"
 
+["690156"]
+japanese = "フッ、他人の迷惑もかえりみず<line-break>お節介と勇み足、<line-break>…結構なことだ。<end>"
+korean = "훗, 남에게 민폐를 끼치든 말든 참견하고 앞서 나가기라… 훌륭하군.<end>"
+
 ["690157"]
 japanese = "あんだって？<line-break>この…！<end>"
 korean = "뭐라고? 이…!<end>"
@@ -419,6 +427,10 @@ korean = "말해 두지만, 네게 거절할 권리는 없다.<end>"
 ["690180"]
 japanese = "…俺が、ただひとり認めた<line-break>あの男をのぞいてはな。<end>"
 korean = "…내가 유일하게 인정한 그 남자를 제외하면 말이지.<end>"
+
+["690181"]
+japanese = "ま、腹を立てなさんなって。<line-break>世の中にはああいう奴もいる。　　　　<line-break>　<line-break>腕も結構、立つみたいだしな。<line-break>ま、不器用でかわいらしいじゃないか？<line-break>　<end>"
+korean = "뭐, 화내지 마. 세상에는 저런 녀석도 있어. 실력도 꽤 있는 것 같고. 서툴러서 귀엽잖아?<end>"
 
 ["690184"]
 japanese = "絶対、絶対、絶対、絶対、絶対、絶対、<line-break>気に入らないわぁー！<end>"
@@ -555,6 +567,10 @@ korean = "…왜인지 기억이 안 나는 건가.<end>"
 ["690252"]
 japanese = "確かに世界は広い。じゃが、<line-break>この広い世界にお前の居場所はない。<line-break>　<line-break>人間どもにとって<line-break>お前は恐怖以外の何ものでもない。<line-break>　<end>"
 korean = "확실히 세계는 넓다. 하지만 이 넓은 세계에 네가 있을 곳은 없다. 인간들에게 너는 공포 그 자체일 뿐이다.<end>"
+
+["690253"]
+japanese = "お前が、住むべきわずかな場所と、　<line-break>生きていくのに必要なだけの<line-break>肉を求めたとしても、<line-break>奴らの頭の中では、<line-break>お前は凶悪な侵略者でしかない。<line-break>　<end>"
+korean = "네가 살 작은 장소와 살아가는 데 필요한 만큼의 고기를 원할 뿐이어도, 녀석들 머릿속에서 넌 흉악한 침략자일 뿐이다.<end>"
 
 ["690255"]
 japanese = "お前が身を守れば、お前は奴らの<line-break>敵だったことが証明される。<line-break>　<line-break>かくて、正義の名の下に<line-break>奴らの刃がお前を襲う。<line-break>…つぎつぎとな。<end>"

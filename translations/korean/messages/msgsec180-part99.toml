@@ -240,6 +240,10 @@ korean = "호출<end>"
 japanese = "本国からの連絡ではないのね？<line-break>じゃあ、情報の出所はどこなの？<end>"
 korean = "본국에서 온 연락은 아니지? 그럼 정보 출처는 어디야?<end>"
 
+["1800117"]
+japanese = "そ、それが…、はっきりしないのです。<line-break>突然広まったものですから。<end>"
+korean = "그, 그것이… 확실하지 않습니다. 갑자기 퍼진 소문이라서요.<end>"
+
 ["1800119"]
 japanese = "か、カ、カルラ様！<line-break>大変です！<end>"
 korean = "카, 카, 카를라 님! 큰일입니다!<end>"
@@ -272,6 +276,10 @@ korean = "지금은 병사들의 목숨이 중요해.<end>"
 japanese = "アイリーンの敗北はあたしの敗北よ。<line-break>それに、次は勝つわ。<end>"
 korean = "아이린의 패배는 내 패배야. 그리고 다음엔 이길 거야.<end>"
 
+["1800130"]
+japanese = "アイリーン、<line-break>あなたが退却の指揮を執って。<line-break>兵の命、頼んだわ。<end>"
+korean = "아이린, 당신이 퇴각을 지휘해. 병사들의 목숨을 부탁할게.<end>"
+
 ["1800132"]
 japanese = "いたぞ！<line-break>カルラだ！！<end>"
 korean = "찾았다! 카를라다!!<end>"
@@ -287,6 +295,10 @@ korean = "제네테스!<end>"
 ["1800135"]
 japanese = "まいったね…。<line-break>カルラだけじゃないわけか。<end>"
 korean = "곤란하군…. 카를라만이 아니었나.<end>"
+
+["1800136"]
+japanese = "お前さんとこういう形で　　<line-break>戦うことになるとはな。<line-break>　<line-break>人生ってのは、おもしれぇ。<line-break>なあ、<value:$28>。<line-break>手加減はしない。行くぜ！<end>"
+korean = "너와 이런 식으로 싸우게 될 줄이야. 인생이란 참 재미있군. <value:$28>, 봐주지 않겠다. 간다!<end>"
 
 ["1800137"]
 japanese = "ここでお前を討ちとれば、<line-break>戦力差がどうあれ、<line-break>こっちの勝ちだ。<line-break>その首、もらうぜ！<end>"
@@ -412,6 +424,10 @@ korean = "…정말입니까? 감사합니다. 제네테스 님은 알현실에�
 japanese = "あ、それから…。<end>"
 korean = "아, 그리고….<end>"
 
+["1800185"]
+japanese = "…私、感じるのです。今、<line-break>世界に大きな闇が迫っています。<line-break>とても大きな闇が。<line-break>私はずっと闇の中で<line-break>暮らしてきました。<line-break>だから、感じるのです。<end>"
+korean = "…저는 느껴요. 지금 세계에 거대한 어둠이 다가오고 있습니다. 아주 거대한 어둠이. 저는 줄곧 어둠 속에서 살아왔기에 느낄 수 있어요.<end>"
+
 ["1800186"]
 japanese = "目に見えなくとも、<line-break>それは確かに存在しています。<line-break>　<line-break><value:$28>様は、<line-break>いつかその闇と戦うことに<line-break>なるのですね…。<end>"
 korean = "눈에 보이지 않아도 그것은 분명 존재합니다. <value:$28>님은 언젠가 그 어둠과 싸우게 되겠군요….<end>"
@@ -427,6 +443,10 @@ korean = "그렇습니까…. 어쩔 수 없군요.<end>"
 ["1800190"]
 japanese = "…あの、私…。<end>"
 korean = "…저, 저는….<end>"
+
+["1800192"]
+japanese = "目に見えなくとも、<line-break>それは確かに存在しています。<line-break>　<line-break><value:$28>様の<line-break>しなければならないこととは、<line-break>その闇と関係があるのですか？<end>"
+korean = "눈에 보이지 않아도 그것은 분명 존재합니다. <value:$28> 님이 해야 할 일은 그 어둠과 관계가 있습니까?<end>"
 
 ["1800194"]
 japanese = "もう、遅いです。　　　　<line-break>何もかも…。<line-break>でも、仕方ありませんね。<line-break>こんな世界なのですもの。<line-break>こんなに醜い…。<line-break>ふふふ…。<end>"

@@ -36,6 +36,10 @@ korean = "그건 로스토올에 다시없는 좋은 소식이군. 이 싸움에
 japanese = "だが…。<line-break>やな予感がしやがる。　　　　　　<line-break>　<line-break>そいつは世界にとっては、<line-break>悪いシナリオの<line-break>始まりなのかもしれん…。<end>"
 korean = "하지만…. 안 좋은 예감이 들어. 그건 세상에 나쁜 시나리오가 시작된다는 뜻일지도 몰라….<end>"
 
+["1780027"]
+japanese = "ま、今はこの戦いに<line-break>勝つことを考えよう。<line-break>さあ、行こうか。<end>"
+korean = "뭐, 지금은 이 싸움에서 이기는 것만 생각하자. 자, 가자.<end>"
+
 ["1780028"]
 japanese = "ゼグナ鉱山で、<line-break>ネメアを見たのか？<end>"
 korean = "제그나 광산에서 네메아를 봤나?<end>"
@@ -203,6 +207,10 @@ korean = "너희 형 이야기다. 신경 쓰여서 조사해 봤지. 그 녀석
 ["1780084"]
 japanese = "お前さんから聞いた<line-break>ネメアのことも気になるしな。<line-break>　<line-break>どうやら、ことは、<line-break>国と国のケンカなんていう次元を<line-break>越えたレベルまでいってそうだな。<end>"
 korean = "네게 들은 네메아 이야기도 신경 쓰이고. 아무래도 이 일은 나라와 나라의 싸움 따위의 차원을 넘어선 수준까지 간 것 같군.<end>"
+
+["1780085"]
+japanese = "もっとでかいもんが、<line-break>ずっと歴史の裏で<line-break>動いていたってわけだ。<end>"
+korean = "더 큰 무언가가 줄곧 역사의 뒤에서 움직이고 있었다는 거야.<end>"
 
 ["1780086"]
 japanese = "<value:$28>、<line-break>お前の今までの冒険のことを、<line-break>あとで話してくれないか？<end>"

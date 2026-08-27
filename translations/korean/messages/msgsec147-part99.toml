@@ -92,6 +92,10 @@ korean = "그럼 난 이제 가도 되는 거지~?<end>"
 japanese = "ああ、ひきとめちまって<line-break>悪かったな。助かったぜ。<end>"
 korean = "아, 붙잡아 둬서 미안했다. 덕분에 살았어.<end>"
 
+["1470049"]
+japanese = "そうかーい。それなら、<line-break>ボクは行かせてもらうよー。　　　<line-break>　<end>"
+korean = "그래애. 그렇다면 난 가 볼게.<end>"
+
 ["1470051"]
 japanese = "すぐに出発しよう。<line-break>うまくいけば、途中で<line-break>捕まえられるかもしれん。<line-break>俺は門で待っている。<line-break>準備をすませてきてくれ。<end>"
 korean = "바로 출발하자. 잘하면 가는 길에 붙잡을 수 있을지도 몰라. 나는 문에서 기다릴 테니 준비하고 와.<end>"
@@ -151,6 +155,14 @@ korean = "뭐, 뭐라고…!<end>"
 ["1470076"]
 japanese = "さて、こいつらを叩けば終わりだ。<line-break>さっさとやっちまおうぜ、<line-break><value:$28>。<end>"
 korean = "자, 이 녀석들만 쓰러뜨리면 끝이야. 빨리 해치우자, <value:$28>.<end>"
+
+["1470078"]
+japanese = "ちっ、ちくしょう…。　　　　　　　　<line-break>こんなはずじゃ…。<line-break>　<end>"
+korean = "제, 젠장… 이럴 리가…<end>"
+
+["1470087"]
+japanese = "な、なんだ貴様！？　　　　　　　　　<line-break>邪魔すんじゃねぇ！<line-break>　<end>"
+korean = "뭐, 뭐냐 네놈!? 방해하지 마!<end>"
 
 ["1470094"]
 japanese = "やれやれ。今度は賢者の森かい？<end>"

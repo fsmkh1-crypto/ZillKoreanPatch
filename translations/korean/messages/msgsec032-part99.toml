@@ -240,6 +240,10 @@ korean = "어머. 당신들은 지난번의…. 후후후후….<end>"
 japanese = "神殿の方だ。<line-break>父上と母上が危ない！<end>"
 korean = "신전 쪽이야. 아버지와 어머니가 위험해!<end>"
 
+["320078"]
+japanese = "私は、<line-break>私が管理するはずの<line-break>大切なものをもらいに来たの。<line-break>神殿でたずねてみたけど、<line-break>誰も何も教えてくれないの。<line-break>くすくす…。ひどい話よね。<end>"
+korean = "나는 내가 관리해야 할 소중한 것을 받으러 왔어. 신전에서 물어봤지만 아무도 아무것도 안 알려 주더라. 후후… 너무하잖아.<end>"
+
 ["320079"]
 japanese = "だから、みんな殺しちゃった。<end>"
 korean = "그래서 모두 죽여 버렸어.<end>"
@@ -300,6 +304,10 @@ korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님�
 japanese = "なかなかの手並みだったが、<line-break>兄を置いて逃げるのか？<end>"
 korean = "제법 솜씨가 좋았지만 형을 두고 도망칠 셈인가?<end>"
 
+["320099"]
+japanese = "…確かにロイは<line-break>お前を逃がすため、<line-break>村人を避難を任せた。<end>"
+korean = "…확실히 로이는 널 도망치게 하려고 마을 사람들의 피난을 맡겼다.<end>"
+
 ["320100"]
 japanese = "…それで、<line-break>お前は逃げるのか？<end>"
 korean = "…그래서 넌 도망칠 거냐?<end>"
@@ -347,6 +355,10 @@ korean = "이것은 요도 월광. 로이는 이것과 짝을 이루는 검을 �
 ["320113"]
 japanese = "…ロイは生きている。<end>"
 korean = "…로이는 살아 있어.<end>"
+
+["320114"]
+japanese = "だが、デス・ギガースを倒したあと、<line-break>あの男はなぜ姿を消した…？<end>"
+korean = "하지만 데스 기가스를 쓰러뜨린 뒤 그 남자는 왜 모습을 감췄지…?<end>"
 
 ["320115"]
 japanese = "ついてくるなら、<line-break>それもいいだろう。<line-break>面倒は見んがな。<end>"

@@ -144,6 +144,10 @@ korean = "방법이 아주 없는 건 아니야. 로스토올 성문 근처에 �
 japanese = "その通路は、<line-break>普通に探していたら<line-break>扉さえ見つけられないんだが、<line-break>この銀竜の首飾りを使えば<line-break>見つけられるらしい。<end>"
 korean = "그 통로는 보통 찾아서는 문조차 발견할 수 없지만, 이 은룡의 목걸이를 쓰면 찾을 수 있다더군.<end>"
 
+["630059"]
+japanese = "昔は、緊急時の逃げ道に<line-break>使われていたらしいから、<line-break>王族の部屋に続いているかもしれん。<line-break>だまされたと思って、<line-break>この鍵、使ってみるかい？<end>"
+korean = "옛날엔 비상시 탈출로로 쓰였다는군. 왕족의 방으로 이어져 있을지도 몰라. 속는 셈 치고 이 열쇠를 써 볼래?<end>"
+
 ["630060"]
 japanese = "大丈夫ですか？<line-break>無理はしないでくださいね。<end>"
 korean = "괜찮으세요? 무리하지 마세요.<end>"
@@ -267,6 +271,10 @@ korean = "티아나 볼륨 1 파트 1 23<end>"
 ["630107"]
 japanese = "ちょうどいいところへ来たな。<line-break>俺についてこい。<end>"
 korean = "마침 잘 왔다. 나를 따라와.<end>"
+
+["630109"]
+japanese = "そ、そうか…。<line-break>と、とにかく、もう決めたのだ。<line-break>俺についてこい。<end>"
+korean = "그, 그런가… 어, 어쨌든 이미 정했다. 나를 따라와.<end>"
 
 ["630111"]
 japanese = "正解だ。<end>"
@@ -447,6 +455,10 @@ korean = "후후후…, 레므온 님도 참.<end>"
 ["630167"]
 japanese = "<value:$28>、お前も少しは<line-break>お世辞の言い方を覚えることだ。<end>"
 korean = "<value:$28>, 너도 조금은 빈말하는 법을 배워 둬라.<end>"
+
+["630170"]
+japanese = "それではティアナも、<line-break>レムオン様の策略に<line-break>はまっているのですね。<end>"
+korean = "그럼 티아나도 레몬 님의 계략에 빠져 있는 거군요.<end>"
 
 ["630171"]
 japanese = "バカな。<line-break>ティアナを利用できるものなら、<line-break>とっくに利用している。<line-break>お望みならば、人質として<line-break>ここから連れ去ろうか？<end>"

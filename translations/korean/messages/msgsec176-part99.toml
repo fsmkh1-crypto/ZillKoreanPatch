@@ -56,6 +56,10 @@ korean = "바닥에서 가시 함정을 발견했다. 하지만 이미 해제되
 japanese = "誰かが解除したあとみたいじゃのう。<line-break>宝箱もなくなっとるわい。<end>"
 korean = "누가 해제하고 간 모양이구먼. 보물상자도 없어졌어.<end>"
 
+["1760027"]
+japanese = "竜の像の口の中に<line-break>レバーを見つけた。<line-break>レバーを引いてみますか？<end>"
+korean = "용의 상 입 안에서 레버를 발견했다. 레버를 당겨 보겠습니까?<end>"
+
 ["1760028"]
 japanese = "引かない<end>"
 korean = "당기지 않는다<end>"
@@ -68,6 +72,10 @@ korean = "당겨 본다<end>"
 japanese = "さあ、最後の一踏ん張りじゃけえ<line-break>気合い入れんさいよ。<end>"
 korean = "자, 마지막 한고비니까 힘내게.<end>"
 
+["1760031"]
+japanese = "竜の像の口の中に<line-break>レバーを見つけた。<line-break>レバーを引いてみますか？<end>"
+korean = "용의 상 입 안에서 레버를 발견했다. 레버를 당겨 보겠습니까?<end>"
+
 ["1760032"]
 japanese = "引かない<end>"
 korean = "당기지 않는다<end>"
@@ -79,6 +87,10 @@ korean = "당겨 본다<end>"
 ["1760034"]
 japanese = "レバーはビクともしない。<end>"
 korean = "레버는 꿈쩍도 하지 않는다.<end>"
+
+["1760035"]
+japanese = "なんか別のスイッチと連動する　<line-break>ようじゃのう。<line-break>そうじゃなあ…。<line-break>こーゆーのは、もう１つ竜の像が<line-break>あるはずじゃけぇ、それを探して<line-break>みんさい。<end>"
+korean = "다른 스위치와 연동되는 모양이군. 이런 건 보통 용의 상이 하나 더 있을 테니 그걸 찾아보게.<end>"
 
 ["1760041"]
 japanese = "ほんじゃあ、<line-break>ロストールに帰ろうかのう。<end>"
@@ -124,6 +136,10 @@ korean = "준비되지 않았습니다<end>"
 japanese = "ほんなら、行こうか。<line-break>仲間をつれて<line-break>わしについてきんさい。<end>"
 korean = "그럼 가볼까. 동료들을 데리고 나를 따라오게.<end>"
 
+["1760063"]
+japanese = "さあ、最後の試練じゃのう。<line-break>今までに学んだ知識と、<line-break>われの実力をぜーんぶだすんでぇ。<line-break>そうすりゃ必ず乗り越えられる。<line-break>自分の実力と勘を信じんさい。<end>"
+korean = "자, 마지막 시련이구먼. 지금까지 배운 지식과 자네 실력을 전부 써 봐. 그러면 반드시 넘을 수 있어. 자신의 실력과 감을 믿어.<end>"
+
 ["1760075"]
 japanese = "押さない<end>"
 korean = "누르지 않는다<end>"
@@ -159,6 +175,10 @@ korean = "그렇군, 저 녀석이 보물의 파수꾼인가. 흔한 전개지�
 ["1760086"]
 japanese = "ようやった、ようやった、　　<line-break>さすがはわしの弟子じゃ。<line-break>さっ、宝を手にいれんさい。<line-break>最後の最後で罠にかかるような<line-break>へまはしんさんなよ。<end>"
 korean = "잘했다, 잘했어. 역시 내 제자야. 자, 보물을 손에 넣어라. 마지막 순간에 함정에 걸리는 실수는 하지 말고.<end>"
+
+["1760087"]
+japanese = "ここまでは、<line-break>ようある仕掛けじゃが…。<line-break>イヤな予感がするのう。<end>"
+korean = "여기까지는 흔한 장치인데… 불길한 예감이 드는군.<end>"
 
 ["1760089"]
 japanese = "なんやー、<line-break>せっかくほめたのに<line-break>もう、これかいなー。<end>"

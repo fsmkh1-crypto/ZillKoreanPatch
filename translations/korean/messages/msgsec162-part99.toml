@@ -20,6 +20,10 @@ korean = "이 안에 <value:$28>이라는 모험자는 없나! 부사령관 각�
 japanese = "お前が、　　　　　　　　　　　　　　<line-break><value:$28>か？<end>"
 korean = "네가 <value:$28>인가?<end>"
 
+["1620007"]
+japanese = "聞いての通り、副司令閣下がお呼びだ。<line-break>一緒についてきてくれ。<end>"
+korean = "들었겠지만 부사령관 각하께서 부르신다. 같이 가 줘.<end>"
+
 ["1620008"]
 japanese = "ゼネテス様。<line-break><value:$28>様を<line-break>お連れしました。<end>"
 korean = "제네테스 님. <value:$28> 님을 모셔 왔습니다.<end>"
@@ -199,6 +203,10 @@ korean = "로스토올을 떠받치는 장군으로서 제네테스와 함께 �
 ["1620087"]
 japanese = "よくやった、<value:$28>。<line-break>　<line-break>　<line-break>最高の殊勲こそ<line-break>ファーロスのドラ息子に奪われたが、<line-break>第二の殊勲は、お前だ。<end>"
 korean = "잘했다, <value:$28>. 최고의 공은 파로스의 망나니 아들에게 빼앗겼지만 두 번째 공은 네 것이다.<end>"
+
+["1620088"]
+japanese = "この戦いにおける<line-break>リューガ家の面目は、保たれた。<line-break>　<line-break>俺はそれを喜んでいるのだ。<line-break>お前の成功を喜んでいるわけではない。<line-break>…かん違いはするな。<end>"
+korean = "이번 싸움에서 류가 가문의 체면은 지켰다. 난 그걸 기뻐하는 거다. 네 성공을 기뻐하는 게 아니야. …착각하지 마.<end>"
 
 ["1620089"]
 japanese = "ノーブル伯、<line-break><value:$28>・リューガ。<end>"

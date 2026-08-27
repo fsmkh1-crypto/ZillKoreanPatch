@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V2용 시작<end>"
 japanese = "クリュセイス！　　　　　　　<line-break>奴だ！<line-break>　<line-break>お前の父、<line-break>ロティを殺したのは奴だ！<line-break>あの非市民だ！<end>"
 korean = "크류세이스! 저놈이다! 네 아버지 로티를 죽인 건 저놈이야! 저 비시민이다!<end>"
 
+["1030003"]
+japanese = "しらを切るつもりなの？<line-break>市民アンティノ・マモンから<line-break>証言を得ているのよ。<line-break>あなたがクロイス宛てに<line-break>毒の入った酒を届けたのを<line-break>彼は目撃したのよ！<end>"
+korean = "시치미 뗄 생각이야? 시민 안티노 마몬에게 증언을 받았어. 네가 크로이스에게 독이 든 술을 배달하는 걸 그가 목격했다고!<end>"
+
 ["1030005"]
 japanese = "待ってよ。その人、<line-break>やってないって<line-break>言ってるじゃない！<end>"
 korean = "잠깐. 그 사람, 자기는 안 했다고 하잖아!<end>"
@@ -60,6 +64,10 @@ korean = "그래 그래, 정답. 사람 이름과 얼굴을 기억하는 건 인
 japanese = "…ま、いいか。<line-break>それじゃあね、<value:$28>。<end>"
 korean = "…뭐, 됐나. 그럼 안녕, <value:$28>.<end>"
 
+["1030024"]
+japanese = "どこをどう聞き間違えたら<line-break>そんな風になるんだよ！　　　　　　<line-break>　<line-break>エ・ス・テ・ル！<line-break>ボクはこの名前結構好きなんだから、<line-break>間違えないでよ、もう！<end>"
+korean = "어디를 어떻게 잘못 들어야 그렇게 되는 거야! 에·스·텔! 난 이 이름 꽤 좋아하니까 틀리지 마, 정말!<end>"
+
 ["1030025"]
 japanese = "…ま、いいか。<line-break>それじゃあね、<value:$28>。<end>"
 korean = "…뭐, 됐나. 그럼 안녕, <value:$28>.<end>"
@@ -71,6 +79,10 @@ korean = "기다려.<end>"
 ["1030030"]
 japanese = "し、しかし！　奴の態度は<line-break>あからさまに不審だったのだ！<end>"
 korean = "하, 하지만! 녀석의 태도는 누가 봐도 수상했다!<end>"
+
+["1030033"]
+japanese = "なるほどね。<line-break>じゃあ整理するとこういうことかな。<line-break>　<line-break>あんたは遠くから、怪しい奴が<line-break>クロイス邸に毒入りの酒を<line-break>持ってきたところを目撃したわけだ。<end>"
+korean = "그렇군. 그럼 정리하면 이런 거지. 당신은 멀리서 수상한 녀석이 크로이스 저택에 독 든 술을 가져오는 걸 목격한 거야.<end>"
 
 ["1030036"]
 japanese = "だが、<value:$28>を<line-break>しょっぴくには無理があるだろ？<end>"
@@ -215,6 +227,10 @@ korean = "하지만 아직 기회는 많아. 그렇게 낙담하지 마.<end>"
 ["1030094"]
 japanese = "<value:$28>…。<line-break>バカな人。　　　　　　　　　　　<line-break>　<line-break>…お父様、<line-break>これでお父様も満足して<line-break>いらっしゃいますよね？　　　　　<end>"
 korean = "<value:$28>…. 바보 같은 사람. …아버지, 이걸로 아버지도 만족하시겠죠?<end>"
+
+["1030098"]
+japanese = "やるわね。今日の相手はそれなりに　<line-break>名のある闘士なのに。<line-break>　<line-break>あなたも武器で生きている人だから、<line-break>そう簡単に負けたりは<line-break>しないのでしょうけど。<end>"
+korean = "제법이네. 오늘 상대는 나름 이름 있는 투사인데. 당신도 무기로 먹고사는 사람이니 쉽게 지진 않겠지만.<end>"
 
 ["1030103"]
 japanese = "<value:$28>は<line-break>借金剣闘士の称号を得た。<end>"

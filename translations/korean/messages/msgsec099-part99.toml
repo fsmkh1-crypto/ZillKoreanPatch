@@ -40,6 +40,10 @@ korean = "아아, <value:$28>과 같이 밥 먹고 싶었는데. 뭐, 됐어. �
 japanese = "何か…、すごい格好を<line-break>なさってる方ですね。<line-break>　<line-break>スタイルはいいし、<line-break>肌もきれいだし、<line-break>かわいい感じの方ですけど…。<end>"
 korean = "뭔가… 굉장한 차림을 하신 분이네요. 몸매도 좋고 피부도 깨끗하고 귀여운 느낌이긴 한데….<end>"
 
+["990013"]
+japanese = "ここの料理<line-break>ホント、おいしかったよ。　　<line-break>　<line-break>ボクのオススメはねえ、<line-break>ソルバ魚のカルパッチョと<line-break>ジオールスターの唐揚げかな。<end>"
+korean = "여기 요리 정말 맛있었어. 내가 추천하는 건 솔바어 카르파초와 지오올스타 튀김이야.<end>"
+
 ["990019"]
 japanese = "あ、<value:$28>だ。<line-break>声をかけようかな…。<line-break>そうしよっと！<line-break>あ、<value:$28>、<line-break>とっても、会いたかったの。<line-break>　<end>"
 korean = "아, <value:$28>이다. 말 걸어 볼까…. 그래야지! 아, <value:$28>, 정말 보고 싶었어.<end>"
@@ -128,6 +132,10 @@ korean = "미사용 메시지<end>"
 japanese = "不使用メッセージ<end>"
 korean = "미사용 메시지<end>"
 
+["990046"]
+japanese = "…そうね。<line-break>確かに堕落ね。　　　　　　　　<line-break>　<line-break>人間ごときに気を使うなんて、　<line-break>高貴で優雅なエルフである<line-break>アタクシらしくないわ…。<end>"
+korean = "…그래. 확실히 타락했네. 인간 따위에게 신경을 쓰다니, 고귀하고 우아한 엘프인 나답지 않아…<end>"
+
 ["990049"]
 japanese = "そ、そ、そうですよね！<line-break>そんなわけないですよね！<end>"
 korean = "그, 그렇죠! 그럴 리 없죠!<end>"
@@ -156,6 +164,10 @@ korean = "아, 어서 오세요!<end>"
 japanese = "い、いやっ！<end>"
 korean = "시, 싫어!<end>"
 
+["990067"]
+japanese = "今日は、これでさよならだ。<line-break>また来るぜ！　フェルムちゃん！<end>"
+korean = "오늘은 이걸로 작별이다. 또 올게! 페름아!<end>"
+
 ["990068"]
 japanese = "…あ、<value:$28>さん。<line-break>あ、あの…なんでもないです！<line-break>それじゃっ！<end>"
 korean = "…아, <value:$28>님. 저, 저기… 아무것도 아니에요! 그럼 이만!<end>"
@@ -175,6 +187,10 @@ korean = "결국 인간은 혼자야. 언제까지나 함께 있을 수는 없�
 ["990073"]
 japanese = "久しぶりね、<value:$28>。<end>"
 korean = "오랜만이네, <value:$28>.<end>"
+
+["990074"]
+japanese = "私、カルラ様の配下になったの。　　<line-break>　<line-break>　<line-break>今の私はディンガル帝国黒鎧騎士、<line-break>東方攻略軍所属、青竜軍副将<line-break>アイリーン・エルメスよ。<end>"
+korean = "나, 칼라 님의 부하가 됐어. 지금의 나는 딘갈 제국 흑갑기사, 동방공략군 소속 청룡군 부장 아이린 에르메스야.<end>"
 
 ["990075"]
 japanese = "やっと、夢がかなったの。<line-break>どうしても、あなたに伝えたくて…。<end>"

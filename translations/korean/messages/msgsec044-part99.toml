@@ -56,6 +56,10 @@ korean = "늘 약혼자의 무례함을 싫어하지 않았나?<end>"
 japanese = "あれは…<line-break>あの方は度をこえています！<end>"
 korean = "저건… 저분은 너무 지나치십니다!<end>"
 
+["440015"]
+japanese = "確かにな。どうせ、昼間から　　<line-break>酒と賭博にあけくれ、<line-break>　<line-break>薄暗い酒場で、女をはべらし、<line-break>鼻の下を伸ばしているのだろう。<line-break>貴族の名を盾にな。<end>"
+korean = "확실히 그렇군. 어차피 낮부터 술과 도박에 빠지고 어두운 술집에서 여자를 끼고 헤벌쭉하고 있겠지. 귀족이라는 이름을 방패 삼아서.<end>"
+
 ["440016"]
 japanese = "それは違います！<line-break>あの方は、そんな方ではありません！<line-break>　<line-break>ましてや、<line-break>貴族の名をひけらかすなんて…！<end>"
 korean = "그건 아닙니다! 그분은 그런 분이 아니에요! 하물며 귀족의 이름을 내세우다니…!<end>"
@@ -295,6 +299,14 @@ korean = "레몬 님께 대체 무슨 일이….<end>"
 ["440099"]
 japanese = "　　　　　…<value:$28>。<line-break>　　　　　…無限のソウルを持つ者。　　　　　<line-break>　　　　　そして、その力ゆえに<line-break>　　　　　世界を混沌に導く者よ…。<end>"
 korean = "…<value:$28>. …무한의 소울을 지닌 자. 그리고 그 힘 때문에 세계를 혼돈으로 이끄는 자여….<end>"
+
+["440100"]
+japanese = "　　　　汝の存在はあまりにも危険だ…。　　　<line-break>　　　　　　　均衡と秩序のため、<line-break>　　　　神の代理たる竜王の名において、<line-break>　　　　　　　我は汝を滅せん…。<end>"
+korean = "그대의 존재는 너무 위험하다… 균형과 질서를 위해 신의 대리자인 용왕의 이름으로 내가 그대를 멸하겠다…<end>"
+
+["440101"]
+japanese = "　　　　　　　　　…なぜだ？　　　　　　　　<line-break>　　　　　　　　…運命の女神よ<line-break>　　　　　　　なぜ、…我を滅ぼし<line-break>　　　　世界を混沌の闇に包まんとする…？<end>"
+korean = "…왜냐? …운명의 여신이여, 왜 나를 멸하고 세계를 혼돈의 어둠으로 감싸려 하는가…?<end>"
 
 ["440103"]
 japanese = "　　　　　　神去った世に、汝は、　　　　　　<line-break>　　　　　何を試そうというのだ。<line-break>　　　　光と闇の均衡が崩れぬこと、<line-break>　　　　　もはや、かなうまい…。<end>"

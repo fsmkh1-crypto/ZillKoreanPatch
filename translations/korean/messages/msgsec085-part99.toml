@@ -48,6 +48,10 @@ korean = "남에게 부탁할 때는 조금 더 예의 바르게 해야지?<end>
 japanese = "ペウダ王の仇にそんな真似ができるか。<end>"
 korean = "페우다 왕의 원수에게 그런 짓을 할 수 있겠나.<end>"
 
+["850016"]
+japanese = "ペウダ王、ねぇ？　　　　　　　　　　<line-break>　<line-break>　<line-break>聞いて。そのペウダ王は酒色に溺れ、<line-break>国民を苦しめてたの。<line-break>町はさびれ、悲惨な状況だったわ…。<end>"
+korean = "페우다 왕이라…? 들어 봐. 그 페우다 왕은 주색에 빠져 백성을 괴롭혔어. 도시는 쇠락하고 비참한 상태였지…<end>"
+
 ["850020"]
 japanese = "そうだ！<end>"
 korean = "맞아!<end>"
@@ -55,6 +59,10 @@ korean = "맞아!<end>"
 ["850022"]
 japanese = "殺せ！<end>"
 korean = "죽여!<end>"
+
+["850023"]
+japanese = "言われなくてもそうするわ。<line-break>こないだの爆破もあんたたちでしょ？<end>"
+korean = "말 안 해도 그렇게 할 거야. 지난번 폭파도 너희 짓이지?<end>"
 
 ["850024"]
 japanese = "そうだ。これで終わったと思うな！<line-break>ブゾリ！<end>"
@@ -176,6 +184,10 @@ korean = "…고, 고마워. 덕분에 살았어.<end>"
 japanese = "お父様？　今の騒ぎは？<end>"
 korean = "아버님? 방금 소란은 뭐죠?<end>"
 
+["850061"]
+japanese = "ああ、クリュセイスか…。刺客だ。<line-break>だが、この方に助けられたよ。<end>"
+korean = "아아, 크류세이스인가… 자객이었어. 하지만 이분이 구해 줬지.<end>"
+
 ["850062"]
 japanese = "それは…。ありがとうございます。<end>"
 korean = "그건…. 감사합니다.<end>"
@@ -203,6 +215,10 @@ korean = "부탁하네. 우리에게 힘을 빌려주게. <value:$28> 군.<end>"
 ["850074"]
 japanese = "そうか。ありがとう。君のような<line-break>同志を得られて心強い限りだ。<line-break>　<line-break>では、また、来てくれたまえ。<line-break>そのとき、詳しい話をしよう。<end>"
 korean = "그런가. 고맙다. 자네 같은 동지를 얻어 든든하군. 그럼 또 와 주게. 그때 자세히 이야기하지.<end>"
+
+["850076"]
+japanese = "君らはどこか別の所へ<line-break>行けばいいだけだからな。　　　　　　<line-break>　<end>"
+korean = "너희는 그냥 다른 곳으로 가면 될 뿐이니까.<end>"
 
 ["850077"]
 japanese = "私は君のことを<line-break>過大評価していたようだ。<line-break>　<line-break>これは礼金だ。<line-break>ありがとう。<line-break>さぁ、行きたまえ。<end>"
@@ -239,6 +255,10 @@ korean = "어서 와~. 기다렸어! 기쁘지 않아? 그 테러 우두머리�
 ["850094"]
 japanese = "だけど、そんなことでは<line-break>予言は終わらないって思うわけ。<end>"
 korean = "하지만 그런 걸로 예언이 끝날 거라곤 생각하지 않아.<end>"
+
+["850095"]
+japanese = "フフ、オカマのカンよ。<line-break>ザギヴはディンガルの皇帝になるわ。<line-break>　<line-break>ただ、ザギヴがずっと<line-break>皇帝でいられるかについては<line-break>ゾフォルは予言してないの。<end>"
+korean = "후후, 오카마의 감이야. 자기브는 딘갈 황제가 될 거야. 다만 자기브가 계속 황제로 있을지는 조포르도 예언하지 않았어.<end>"
 
 ["850096"]
 japanese = "そこで、ね。　　　　　　　　　　　<end>"
@@ -279,6 +299,10 @@ korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시
 ["850125"]
 japanese = "だけど、そんなことでは<line-break>予言は終わらないって思うわけ。<end>"
 korean = "하지만 그런 걸로 예언이 끝날 거라곤 생각하지 않아.<end>"
+
+["850126"]
+japanese = "フフ、オカマのカンよ。<line-break>ザギヴはディンガルの皇帝になるわ。<line-break>　<line-break>ただ、ザギヴがずっと<line-break>皇帝でいられるかについては<line-break>ゾフォルは予言してないの。<end>"
+korean = "후후, 오카마의 감이야. 자기브는 딘갈 황제가 될 거야. 다만 자기브가 계속 황제로 있을지는 조포르도 예언하지 않았어.<end>"
 
 ["850127"]
 japanese = "そこで、ね。　　　　　　　　　　　<end>"
@@ -347,6 +371,10 @@ korean = "네, 이쪽 분을 총독부 앞까지 데려다줘.<end>"
 ["850168"]
 japanese = "はっ！　<value:$28>様<line-break>どうぞ、お通りください！<end>"
 korean = "예! <value:$28>님, 들어가십시오!<end>"
+
+["850169"]
+japanese = "美少年ベドブ、愛の狩人…。<line-break>フフフ、かわいいでしょう？<line-break>でも、中身は今のアタシ以下よ。<line-break>だって、守りたかった人を　　　<line-break>守れなかったんですもの…。<end>"
+korean = "미소년 베도브, 사랑의 사냥꾼… 후후후, 귀엽지? 하지만 속은 지금의 나보다 못해. 지키고 싶었던 사람을 지키지 못했으니까…<end>"
 
 ["850171"]
 japanese = "予備メッセージ１<line-break>カルラ、ボリューム２<end>"

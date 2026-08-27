@@ -124,6 +124,10 @@ korean = "…후후, 미안해요. 저, 말을 잘 못하고 있네요.<end>"
 japanese = "私の方は、残念だけど、<line-break>まだ聖杯を取り戻せていないわ。<line-break>　<line-break>これじゃあ、騎士になる以前に、<line-break>先生に顔向けもできない…。　　<end>"
 korean = "내 쪽은 아쉽지만 아직 성배를 되찾지 못했어. 이래선 기사가 되기는커녕 선생님 얼굴도 못 보겠어….<end>"
 
+["980070"]
+japanese = "…その、闇討ちをした奴って、<line-break>今どこで何をしてるのかなあ？<end>"
+korean = "…그 습격한 녀석은 지금 어디서 뭘 하고 있을까?<end>"
+
 ["980079"]
 japanese = "それじゃあね。<line-break>縁があったら、また会いましょ。　　<end>"
 korean = "그럼 안녕. 인연이 있으면 또 만나자.<end>"
@@ -139,6 +143,10 @@ korean = "…볼일도 없는데 그냥 말을 건 거였구나. 뭐, 좋아. �
 ["980082"]
 japanese = "す・わ・り・な・さ・い！<end>"
 korean = "앉·으·세·요!<end>"
+
+["980083"]
+japanese = "私には幼なじみがいてね。<line-break>泣き虫でさ、頼りない奴だったわ。　　<line-break>　<line-break>そいつが小さいころ、両親を亡くして<line-break>うちに引き取られることになったのね。<end>"
+korean = "나에겐 소꿉친구가 있었어. 울보에 못 미더운 녀석이었지. 그 녀석이 어릴 때 부모를 잃고 우리 집에 맡겨졌어.<end>"
 
 ["980087"]
 japanese = "そのとき？<line-break>謝ってないわ。<line-break>謝る機会を逸しちゃったのよ。　　<line-break>ま、そいつとあなたが<line-break>外見がよく似てたの。<line-break>ホント、瓜ふたつよ。<end>"
@@ -175,6 +183,10 @@ korean = "그럼 세 분이 하룻밤 묵으시는 걸로 괜찮으시죠?<end>"
 ["980102"]
 japanese = "そういうことで、頼むゴブ。<end>"
 korean = "그런 거니까, 부탁한다 고브.<end>"
+
+["980103"]
+japanese = "かしこまりました。<line-break>それではお部屋のご用意を…。　　　　　<end>"
+korean = "알겠습니다. 그럼 방을 준비해 드리겠습니다…<end>"
 
 ["980104"]
 japanese = "あ、ご主人。すまないゴブが、<line-break>今日の宿泊はキャンセルするゴブ。<line-break>　<line-break>我々も忙しい身ゴブ。<line-break>その辺りの事情をくんでほしいゴブ。<line-break>　<end>"
@@ -268,6 +280,14 @@ korean = "아이린을 잘 부탁드립니다.<end>"
 japanese = "アイリーンは<line-break>少し気が強いところがありますが　<line-break>あれで、やさしい娘なんです。<line-break>娘のこと、<line-break>よろしくお願いしますね。<end>"
 korean = "아이린은 조금 기가 센 구석이 있지만 그래도 상냥한 아이예요. 제 딸을 잘 부탁드립니다.<end>"
 
+["980154"]
+japanese = "こんなことになるなんて…。<line-break>何かが、どこかで、<line-break>食い違ってしまったんでしょうね。<line-break>あの子は<line-break>オッシ先生を…<line-break>とても尊敬していたのに…。<end>"
+korean = "이렇게 될 줄이야… 어딘가에서 뭔가 엇갈려 버린 거겠죠. 그 아이는 오시 선생님을 정말 존경했는데…<end>"
+
+["980157"]
+japanese = "あの子は、まっすぐで純粋だから…<line-break>あんな人たちの中で暮らすのは、<line-break>難しいでしょうね。<line-break><value:$28>さん、<line-break>あの子の支えに…<line-break>力になってあげてください。<end>"
+korean = "그 아이는 곧고 순수하니까… 그런 사람들 속에서 사는 건 어렵겠죠. <value:$28> 씨, 그 아이의 버팀목이 되어… 힘이 되어 주세요.<end>"
+
 ["980160"]
 japanese = "<value:$28>さん、<line-break>あの子が、目指しているものを　　<line-break>見失ったとき…<line-break>あの子のそばにいてあげて。<line-break>力になってあげてください。<line-break>お願いします。<end>"
 korean = "<value:$28> 씨, 그 아이가 목표로 하는 것을 잃어버릴 때… 그 아이 곁에 있어주세요. 힘이 되어주세요. 부탁합니다.<end>"
@@ -284,6 +304,10 @@ korean = "아이린을… 제 딸을 만나신 겁니까?<end>"
 japanese = "娘は元気そうでしたか？　　　　　　　<line-break>　<line-break>　<end>"
 korean = "딸은 건강해 보였나요?<end>"
 
+["980169"]
+japanese = "しかし、そうですか。　　　　　　　　<line-break>元気そうでしたか。<line-break>…よかった。<line-break>また、アイリーンのことを<line-break>話に来てください。<line-break>ええと、失礼ですが…。<end>"
+korean = "그렇습니까. 건강해 보였나요. …다행입니다. 또 아이린 이야기를 하러 와 주세요. 저, 실례지만…<end>"
+
 ["980170"]
 japanese = "<value:$28>さん…ですか。<line-break>また、いらしてくださいね。　　　　　<end>"
 korean = "<value:$28> 씨…군요. 또 와 주세요.<end>"
@@ -291,6 +315,10 @@ korean = "<value:$28> 씨…군요. 또 와 주세요.<end>"
 ["980174"]
 japanese = "あ、<value:$28>さん……。<line-break>　　　　　　　　　　　　　<line-break>　<line-break>おかえりなさい…。<line-break>うれしい……、<line-break>会いに来てくれるなんて…。<end>"
 korean = "아, <value:$28>님……. 어서 오세요…. 기뻐요…… 만나러 와 주시다니….<end>"
+
+["980175"]
+japanese = "………………？<line-break>あの、<value:$28>さん、<line-break>……背、伸びましたか？　　　<line-break>いえ、なんとなく、<line-break>とても大きく見えたから……。<line-break>やだ、なんだか私、変ですね。<end>"
+korean = "………………? 저, <value:$28> 씨… 키가 컸나요? 아니, 왠지 아주 커 보였거든요… 어머, 저 이상하네요.<end>"
 
 ["980176"]
 japanese = "<value:$28>さん、なんだか<line-break>たくましくなりましたね。<line-break>まるで騎士さまみたいです。<line-break>できれば、これからは<line-break>私だけの騎士さまに……。<end>"

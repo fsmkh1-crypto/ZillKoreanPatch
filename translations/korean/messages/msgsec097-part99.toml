@@ -4,6 +4,10 @@
 japanese = "ノエル２用メッセージＶ１開始<end>"
 korean = "노엘2용 메시지 V1 시작<end>"
 
+["970001"]
+japanese = "おい、親父。オズワルドの町と<line-break>連絡が取れないって本当かよ？<end>"
+korean = "이봐, 아저씨. 오즈월드 마을과 연락이 안 된다는 게 사실이야?<end>"
+
 ["970002"]
 japanese = "ああ、本当だ。<line-break>ずいぶん前から音信不通なんだ。　　　<line-break>　<line-break>たしか、あんたオズワルドの<line-break>出身だったな。ちょうどいいから<line-break>あんたに…<end>"
 korean = "그래, 사실이야. 꽤 오래전부터 소식이 끊겼어. 그러고 보니 넌 오즈월드 출신이었지. 마침 잘됐으니 네게…<end>"
@@ -28,9 +32,17 @@ korean = "지금은 바빠.<end>"
 japanese = "そうかい、それはありがたい。　　　　<line-break>　<line-break>　<line-break>オズワルドの町は、ノーブルから<line-break>西に４日ほど行った所にある、<line-break>偽りの森の先にあるんだ。<end>"
 korean = "그래, 그건 고맙군. 오즈월드 마을은 노블에서 서쪽으로 나흘 정도 간 곳, 거짓의 숲 너머에 있어.<end>"
 
+["970011"]
+japanese = "そう言わずに頼むよ。<line-break>この仕事で、この額だったら<line-break>他の冒険者は黙ってないぞ？　　　　　<line-break>初心者のあんたには<line-break>ちょうどいい仕事なんじゃないか？<end>"
+korean = "그러지 말고 부탁해. 이 일에 이 금액이면 다른 모험자들도 가만있지 않을걸? 초보인 당신에게 딱 맞는 일 아닌가?<end>"
+
 ["970014"]
 japanese = "…でも、わたしにはそんな力が…。<end>"
 korean = "…하지만 저한테는 그런 힘이….<end>"
+
+["970015"]
+japanese = "あなた、誰？<line-break>…見かけない顔だわ。<line-break>この町の住民じゃないわね。<end>"
+korean = "당신, 누구야? …처음 보는 얼굴인데. 이 마을 사람은 아니네.<end>"
 
 ["970016"]
 japanese = "<value:$28>？<line-break>連絡が途絶えた町の調査に来た？<line-break>　<line-break>…そう。<line-break>外にもこの町の異変が<line-break>伝わっていたのね。<end>"
@@ -40,6 +52,10 @@ korean = "<value:$28>? 연락이 끊긴 마을을 조사하러 왔다고? …그
 japanese = "ノエル！<end>"
 korean = "노엘!<end>"
 
+["970022"]
+japanese = "みんな、わたしのこと、<line-break>頼りにしてくれてたんです。　　　<line-break>だからわたし…、<line-break>だからわたし、<line-break>みんなのために<line-break>戦わなければならなかったのに…！<end>"
+korean = "모두가 저를 의지해 줬어요. 그래서 저는… 그래서 저는 모두를 위해 싸워야 했는데…!<end>"
+
 ["970026"]
 japanese = "でも…。<end>"
 korean = "하지만….<end>"
@@ -48,6 +64,10 @@ korean = "하지만….<end>"
 japanese = "…そ、そうですよね。<line-break>くよくよしてちゃ<line-break>ダメなんですよね。<end>"
 korean = "…그, 그렇죠. 계속 끙끙 앓으면 안 되는 거죠.<end>"
 
+["970032"]
+japanese = "さぁ、ノエル。<line-break>ナーシェスとレイヴンが<line-break>待ってるわ。行くわよ。<end>"
+korean = "자, 노엘. 나셰스와 레이븐이 기다려. 가자.<end>"
+
 ["970033"]
 japanese = "あ、あの…<value:$28>さん<line-break>…でしたっけ？<line-break>その…ありがとうございました。<line-break>あの、<value:$28>さんは<line-break>冒険者をされてるんですか？<end>"
 korean = "저, 저기… <value:$28>님… 맞죠? 그… 감사합니다. 저기, <value:$28>님은 모험자이신가요?<end>"
@@ -55,6 +75,10 @@ korean = "저, 저기… <value:$28>님… 맞죠? 그… 감사합니다. 저�
 ["970034"]
 japanese = "そうなんですか。<line-break><value:$28>さんも<line-break>がんばっているんですよね…。<end>"
 korean = "그렇군요. <value:$28> 씨도 열심히 하고 있죠….<end>"
+
+["970035"]
+japanese = "ノエル、何をしているの？<line-break>ナーシェスたちを捜しに行くわよ。<end>"
+korean = "노엘, 뭐 하고 있어? 나셰스 일행을 찾으러 가자.<end>"
 
 ["970036"]
 japanese = "あ、カフィンが呼んでます。　　　<line-break>わたし、行かなくちゃ。<line-break>　<line-break>あの、わたしもがんばりますから、<line-break>それじゃあ。<end>"
@@ -127,6 +151,10 @@ korean = "저, 예비 메시지입니다. 노엘2/V1 그 8입니다.<end>"
 ["970077"]
 japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその９です。<end>"
 korean = "저, 예비 메시지입니다. 노엘2/V1 그 9입니다.<end>"
+
+["970078"]
+japanese = "あの、予備メッセージです。<line-break>ノエル２／Ｖ１のその１０です。<end>"
+korean = "저기, 예비 메시지입니다. 노엘 2/V1의 10번입니다.<end>"
 
 ["970079"]
 japanese = "ノエル用メッセージＶ１終端<end>"

@@ -12,6 +12,10 @@ korean = "우리 모험자들을 바보 취급하는 거냐? 이 꼬맹이가!<e
 japanese = "こ、この…！　冒険のすばらしさを<line-break>バカにしやがって…！<end>"
 korean = "이, 이 자식…! 모험의 훌륭함을 비웃다니…!<end>"
 
+["950004"]
+japanese = "冒険をバカになんてしてないわ。<line-break>あなたがたの程度の低さを指摘したの。<end>"
+korean = "모험을 바보 취급한 게 아니야. 너희 수준이 낮다고 지적한 거지.<end>"
+
 ["950005"]
 japanese = "こっ、こっ、このエルフが！<line-break>ギタギタにしてやる！！<end>"
 korean = "이, 이, 이 엘프가! 박살을 내 주마!!<end>"
@@ -23,6 +27,10 @@ korean = "저 엘프를 돕는다<end>"
 ["950008"]
 japanese = "放っておく<end>"
 korean = "내버려 둔다<end>"
+
+["950009"]
+japanese = "こっ、こいつは、俺たちのことを<line-break>バカにしてるんだぞ！<line-break>　<line-break>こんな奴を助ける気か！<line-break>貴様も痛い目にあわねば<line-break>わからんようだな！<end>"
+korean = "이, 이 녀석은 우리를 바보 취급하고 있다고! 이런 녀석을 도울 셈이냐! 너도 호되게 당해 봐야 알겠군!<end>"
 
 ["950010"]
 japanese = "くっ！　この…！<line-break>覚えていろよ！<end>"
@@ -55,6 +63,10 @@ korean = "금단의 성배…?<end>"
 ["950026"]
 japanese = "し、し、知らないわけないでしょ。<end>"
 korean = "모, 모, 모를 리가 없잖아.<end>"
+
+["950029"]
+japanese = "何よ！　違うって、じゃ、じゃあ、<line-break>答えはなんなのよ！　答えなさいよ！<end>"
+korean = "뭐야! 아니라면 대, 대답이 뭔데! 말해 봐!<end>"
 
 ["950034"]
 japanese = "猫屋敷で呼び出すぅ？<end>"
@@ -92,6 +104,10 @@ korean = "크아…! 마, 말도 안 돼….<end>"
 japanese = "…待つがよい<end>"
 korean = "…기다리거라<end>"
 
+["950053"]
+japanese = "　　　　　　余は邪竜シャンマ…　　　　　<line-break>　　　　いにしえ、ボルキスに敗れ、<line-break>　　そのおり、ダナンに力を盗み取られ<line-break>　　　　　　悠久の年を経しが…<end>"
+korean = "나는 사룡 샨마… 오래전 볼키스에게 패하고, 그때 다난에게 힘을 빼앗긴 채 유구한 세월을 보냈으나…<end>"
+
 ["950054"]
 japanese = "　　　　　うぬの働きにより　　<line-break>　　　　今ここに解放された…<line-break>　　　まずは、うぬを喰い裂き…<line-break>　　世界を破壊してくれようぞ…！<end>"
 korean = "네 활약으로 지금 이곳에 해방되었다…. 우선 네놈부터 찢어 먹고… 세계를 파괴해 주마…!<end>"
@@ -103,6 +119,10 @@ korean = "사룡 샨마…!<end>"
 ["950057"]
 japanese = "<if><value:$01><equal>4きゃん！<line-break>もしかして…！<end>しっ…！<end>"
 korean = "<if><value:$01><equal>4꺅! 혹시…!<end>쉿…!<end>"
+
+["950061"]
+japanese = "そして力を求め、<line-break>ボルキスに倒された邪竜シャンマと<line-break>融合した…。<line-break>ダナンが倒れた今、<line-break>シャンマが立ち上がるよ。<line-break>気をつけて。<end>"
+korean = "그리고 힘을 원해 볼키스에게 쓰러진 사룡 샨마와 융합했어… 다난이 쓰러진 지금, 샨마가 일어설 거야. 조심해.<end>"
 
 ["950064"]
 japanese = "やぁーりぃー！<line-break>ま、ボクたちにかかれば<line-break>こんなもんさ！<line-break>さ、行こう、<line-break><value:$28>。<end>"

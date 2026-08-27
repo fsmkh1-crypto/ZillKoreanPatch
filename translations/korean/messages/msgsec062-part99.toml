@@ -28,6 +28,10 @@ korean = "이 손님, 취해 있어서….<end>"
 japanese = "誰だ貴様ぁ！　　　　　　　　<line-break>　<line-break>　<line-break>どこかで会ったような、<line-break>そうでないような…！<line-break>ううう！　混乱するぅ！<end>"
 korean = "누구냐 네놈! 어디선가 본 것 같기도 하고 아닌 것 같기도 하고…! 으으! 헷갈린다!<end>"
 
+["620008"]
+japanese = "グルグル回るぅ！　ヒック！　<line-break>…ぬおっ、そうか！<line-break>それがねらいか！<line-break>俺様を混乱させて<line-break>そのスキに俺様を倒そうとする<line-break>魔王の刺客だな！　貴様！<end>"
+korean = "빙글빙글 돈다아! 딸꾹! …오오, 그렇군! 그게 목적이냐! 나를 혼란시킨 틈에 쓰러뜨리려는 마왕의 자객이구나! 네놈!<end>"
+
 ["620010"]
 japanese = "なんだ貴様ぁ！　　　<line-break>　<line-break>　<line-break>フッ、ちょうどいい。<line-break>俺様の愛の伝説の<line-break>わき役にしてやる！<end>"
 korean = "뭐냐 네놈! 흥, 마침 잘됐군. 내 사랑의 전설에 조연으로 끼워 주마!<end>"
@@ -343,6 +347,10 @@ korean = "그럼 왜 인간은 고블린을 공격하는 고브?<end>"
 ["620103"]
 japanese = "ゴブリンが人間を襲うからよ！<end>"
 korean = "고블린이 인간을 습격하니까!<end>"
+
+["620104"]
+japanese = "ゴブリンも、人間がゴブリンを襲うから<line-break>自衛のために戦っているだけゴブ！<end>"
+korean = "고블린도 인간이 고블린을 공격하니까 자위하려고 싸우는 것뿐이다 고브!<end>"
 
 ["620107"]
 japanese = "ゴブリン質になってしまったゴブ～。<end>"
@@ -696,6 +704,10 @@ korean = "잘 부탁드립니다.<end>"
 japanese = "あんたの予想通りだ。<end>"
 korean = "네 예상대로야.<end>"
 
+["620239"]
+japanese = "それで、あなたはあのゴブリンを使って<line-break>聖杯を確保しようとしたんですね。<end>"
+korean = "그래서 당신은 그 고블린을 이용해 성배를 확보하려 했군요.<end>"
+
 ["620240"]
 japanese = "一応、俺の管理物だからな。<line-break>仲間とは言え、取られたくはない。<end>"
 korean = "일단 내 관리 물건이니까. 동료라 해도 빼앗기고 싶진 않아.<end>"
@@ -811,6 +823,10 @@ korean = "아길샤이어에 대해서<end>"
 ["620281"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
+
+["620284"]
+japanese = "将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。　　　　　　<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
+korean = "앞으로 여행 도중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶어지면 이 고양이 저택으로 오세요.<end>"
 
 ["620286"]
 japanese = "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<line-break>　<end>"
@@ -991,6 +1007,10 @@ korean = "정말요? 그럼 근처 언덕까지 데이트하러 갈래요?<end>"
 ["620346"]
 japanese = "いいんです、仕事なんて！<line-break>さ、行きましょ！<end>"
 korean = "일 같은 건 됐어요! 자, 갑시다!<end>"
+
+["620347"]
+japanese = "フフフ、とっても楽しかったです。<line-break>今日はホントにありがとうございます。<end>"
+korean = "후후후, 정말 즐거웠어요. 오늘 정말 감사합니다.<end>"
 
 ["620353"]
 japanese = "うっ！<end>"

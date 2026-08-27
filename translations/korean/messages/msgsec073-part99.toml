@@ -20,6 +20,10 @@ korean = "…음, 세상일은 참 뜻대로 안 되는구나.<end>"
 japanese = "なんだよ、ナッジ。<line-break>やぶからぼうに。<end>"
 korean = "뭐야, 나지. 갑자기.<end>"
 
+["730007"]
+japanese = "…ナッジって、やさしいようで<line-break>時々、ズバッていう発言するよな。<end>"
+korean = "…나지는 착한 것 같으면서도 가끔 핵심을 찌르는 말을 하네.<end>"
+
 ["730008"]
 japanese = "…まあな。<end>"
 korean = "…뭐, 그렇지.<end>"
@@ -35,6 +39,10 @@ korean = "성배를 빼앗겼을 때 아기르샤이아의 언행… 말인가?<
 ["730011"]
 japanese = "そうだ。<line-break>お前の思っているとおりだ。<line-break>　<line-break>アーギルシャイア、<line-break>あれは俺の姉<line-break>シェスターだ。<end>"
 korean = "그래. 네가 생각한 그대로다. 아기르샤이아, 그자는 내 누나 셰스터다.<end>"
+
+["730012"]
+japanese = "シェスターは<line-break>アーギルシャイアに<line-break>体を乗っ取られている。<end>"
+korean = "셰스터는 아기르샤이아에게 몸을 빼앗겼다.<end>"
 
 ["730013"]
 japanese = "…黙っていたのは<line-break>お前が甘ちゃんの<line-break>冒険者だからだ。<end>"
@@ -103,6 +111,10 @@ korean = "…전이조차 이제 쓸 수 없을 만큼 약해진 건가.<end>"
 ["730036"]
 japanese = "地獄までも追うと言ったはずだ。<line-break>…情けなど、かけん。<line-break>　<line-break>行くぞ。<line-break>月光の導くままに！<end>"
 korean = "지옥까지 쫓겠다고 했지. …자비는 없다. 가자. 월광이 이끄는 대로!<end>"
+
+["730038"]
+japanese = "奴らはここで究極生物とやらを<line-break>作っているんだ。<line-break>ゆくぞ。<end>"
+korean = "녀석들은 여기서 궁극생물이란 걸 만들고 있다. 간다.<end>"
 
 ["730039"]
 japanese = "アーギルシャイア様！<line-break><value:$28>が、ここまで<line-break>攻めてまいりました！<end>"

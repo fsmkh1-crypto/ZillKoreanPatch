@@ -8,6 +8,10 @@ korean = "Zill O'll 엔딩 2 메시지 시작<end>"
 japanese = "そうですか。あの子と共に、<line-break>この海の向こうを目指しますか。<end>"
 korean = "그렇습니까. 그 아이와 함께 이 바다 너머를 향하시겠습니까.<end>"
 
+["1930002"]
+japanese = "ふふふ、あの子が、<line-break>自分の旅に他人を誘うなんて、<line-break>本当に珍しい。<end>"
+korean = "후후후, 그 아이가 자기 여행에 남을 초대하다니 정말 드문 일이네.<end>"
+
 ["1930003"]
 japanese = "いや、ひょっとしたら、　　　<line-break>あの子が<value:$28>の旅に<line-break>　<line-break>ついていくということなのかも<line-break>しれませんね。<end>"
 korean = "아니, 어쩌면 그 아이가 <value:$28>의 여행에 따라간다는 뜻일지도 모르겠군요.<end>"
@@ -227,6 +231,10 @@ korean = "스승님, 손님이 왔는데 어떻게 할까요? 거절할까요? <
 ["1930079"]
 japanese = "師匠？<end>"
 korean = "스승님?<end>"
+
+["1930080"]
+japanese = "わかった。<line-break>最高の武器を打ってみせよう。<line-break>ふふふ、腕が鳴るわい。<end>"
+korean = "알겠다. 최고의 무기를 만들어 보이지. 후후후, 솜씨를 발휘할 때군.<end>"
 
 ["1930081"]
 japanese = "おお！　師匠がやる気に！<end>"

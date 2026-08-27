@@ -224,6 +224,14 @@ korean = "됐으니까 빨리 대왕오징어를 항구로 유인해! 혼자 못
 japanese = "へ、へい！　　　　　　　<line-break>　<end>"
 korean = "예, 예!<end>"
 
+["1430082"]
+japanese = "ワッシャー海賊の命運が<line-break>かかってるんだ。<line-break>失敗は許さないよ！<end>"
+korean = "왓샤 해적의 운명이 걸려 있어. 실패는 용납하지 않아!<end>"
+
+["1430084"]
+japanese = "…そういや、<line-break>まだ名前を聞いてなかったね。<line-break>教えてもらえる？<end>"
+korean = "…그러고 보니 아직 이름을 못 들었네. 알려 줄래?<end>"
+
 ["1430085"]
 japanese = "うまくいったら、<line-break>約束どおり船に乗せてあげるわ、<line-break><value:$28>。<end>"
 korean = "잘되면 약속대로 배에 태워 줄게, <value:$28>.<end>"

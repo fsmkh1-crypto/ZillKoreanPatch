@@ -248,6 +248,10 @@ korean = "우린 순례객만 받는다. 모험자를 재울 생각은 없어.<e
 japanese = "ヴァンちゃんに苦労させないで。<line-break>ヴァンちゃんがかわいそうでしょ。<end>"
 korean = "반을 고생시키지 마. 반이 불쌍하잖아.<end>"
 
+["450088"]
+japanese = "うちのヴァンちゃんは本当にいい子。<line-break>ママの誇りだわ。<line-break>　<line-break>あんたたちみたいな冒険者を見てると<line-break>ホント、それを実感できるわ。<line-break>オホホホホホホ！<end>"
+korean = "우리 반은 정말 착한 아이야. 엄마의 자랑이지. 너희 같은 모험자를 보면 그걸 정말 실감해. 오호호호호!<end>"
+
 ["450089"]
 japanese = "ナッジ…よくも、よくも、<line-break>私たちの前に顔が出せたもんだな！<line-break>　<line-break>お前のせいでヴァンは！<end>"
 korean = "나지… 어떻게, 어떻게 우리 앞에 얼굴을 내밀 수 있지! 너 때문에 반은!<end>"
@@ -380,6 +384,14 @@ korean = "그럼 이번엔 보류할게.<end>"
 japanese = "へっへっへ！<line-break>コーンスのひとり旅は危ないよ？<line-break>坊ちゃん。<end>"
 korean = "헤헤헤! 코른스가 혼자 여행하면 위험하지? 도련님.<end>"
 
+["450128"]
+japanese = "もっとも、数が少ないから<line-break>群れをなすこともできないか？<line-break>　<end>"
+korean = "하지만 수가 적으니 무리를 이루는 것도 못 하나?<end>"
+
+["450132"]
+japanese = "最近はコーンスの数が減って、<line-break>角もえらく貴重品になってるからな。<end>"
+korean = "요즘은 코른스 수가 줄어서 뿔도 아주 귀해졌거든.<end>"
+
 ["450134"]
 japanese = "というわけだ。<line-break>さ、角をよこしてくれ。<end>"
 korean = "그런 거다.자, 뿔을 내놔.<end>"
@@ -403,6 +415,10 @@ korean = "이, 이 녀석은.<end>"
 ["450140"]
 japanese = "ネ、ネメア！？<end>"
 korean = "네, 네메아!?<end>"
+
+["450142"]
+japanese = "あなたたちの間では<line-break>私みたいなダークエルフの命にも<line-break>結構な賞金がかかってるんでしょう？<line-break>金のためならなんでもするのが<line-break>冒険者なら、挑戦してみない？<end>"
+korean = "너희 사이에서는 나 같은 다크엘프 목숨에도 꽤 큰 현상금이 걸려 있겠지? 돈을 위해 뭐든 하는 게 모험자라면 도전해 볼래?<end>"
 
 ["450143"]
 japanese = "ひ、ひいいい！<end>"
@@ -560,9 +576,21 @@ korean = "으누아아아! 눈이, 따갑고… 아파아아아!!<end>"
 japanese = "…僕、ガルドランは許せない。　　　　<end>"
 korean = "…난 가르드란을 용서할 수 없어.<end>"
 
+["450201"]
+japanese = "だけど、ガルドランでさえ、<line-break>コーンスを救うために体を張ったんだ！<end>"
+korean = "하지만 갈드란조차 코른스를 구하려고 몸을 던졌어!<end>"
+
 ["450202"]
 japanese = "僕は、ガルドランに負けられない。<end>"
 korean = "나는 갈드란에게 질 수 없어.<end>"
+
+["450203"]
+japanese = "もう二度と、ヴァンの時みたいな<line-break>つらい思いをしたくないから…。<end>"
+korean = "두 번 다시 반 때처럼 괴로운 일을 겪고 싶지 않으니까…<end>"
+
+["450204"]
+japanese = "だから、ここでコーンスを助けた<line-break>ガルドランを助けなきゃならない！<end>"
+korean = "그러니까 여기서 코른스를 도운 갈드란을 도와야 해!<end>"
 
 ["450205"]
 japanese = "む、誰かは知らないが、勇者のピンチに<line-break>正義を愛する魂が駆けつけてくれたか！<line-break>　<line-break>正しき魂の諸君！<line-break>ザコは任せたぞ！！<line-break>さらば！<end>"
@@ -648,6 +676,10 @@ korean = "정말이네. 독을 발랐던 흔적이 없어.<end>"
 japanese = "ううん。毒をふき取るも何も、これ、<line-break>たぶん、一度も手入れしてないよぉ。<line-break>　<line-break>これじゃさびてて<line-break>使いものにならないよぉ！<end>"
 korean = "아니. 독을 닦아내기는커녕 이거 아마 한 번도 손질 안 했어. 이래선 녹슬어서 못 써!<end>"
 
+["450231"]
+japanese = "それに、ガルドランの弓の腕は<line-break>１００発０中だって噂も聞いたよぉ。<end>"
+korean = "게다가 갈드란의 활 솜씨는 백발백중이 아니라 백발영중이라는 소문도 들었어.<end>"
+
 ["450232"]
 japanese = "そんなに、<value:$28>が<line-break>復讐のことばかり考えてると…<line-break><line-break>天国のフリントさんは<line-break>きっとうれしくないと思うよ。<line-break>ね。行こう？<end>"
 korean = "그렇게 <value:$28>이 복수 생각만 하면… 천국의 플린트 씨도 분명 기뻐하지 않을 거야. 응. 가자?<end>"
@@ -716,6 +748,10 @@ korean = "반… 원수는 갚았어.<end>"
 japanese = "よう、<value:$28>。<line-break>よく来たな。　　　　　　　　　　　　<line-break>　<line-break>今日は親父が留守なんだ。<line-break>運がいいな。<end>"
 korean = "여, <value:$28>. 잘 왔다. 오늘은 아버지가 안 계셔. 운이 좋군.<end>"
 
+["450256"]
+japanese = "そのことなんだけど、ヴァン…。<line-break>ガルドランなら、もう倒したよ。<end>"
+korean = "그 일 말인데, 반… 갈드란이라면 이미 쓰러뜨렸어.<end>"
+
 ["450257"]
 japanese = "なんだって？　<line-break>ひでえな、俺だけ置いてけぼりかよ。<line-break>　<line-break>で、奴は死ぬ前になんて言ってた？<line-break>俺に対するわびを泣きながら<line-break>言ってやがったのか？<end>"
 korean = "뭐라고? 너무하네, 나만 두고 간 거야? 그래서 녀석은 죽기 전에 뭐라고 했어? 나한테 미안하다고 울면서 말하던가?<end>"
@@ -752,6 +788,10 @@ korean = "너희들… 사실은 나 같은 건 아무래도 상관없는 거지
 japanese = "違うよ、ヴァン。<line-break>ねえ、わかってるはずだろ？<end>"
 korean = "아니야, 반. 있잖아, 너도 알고 있잖아?<end>"
 
+["450269"]
+japanese = "もういい！　頼まねえ！！<line-break>俺ひとりでもガルドランを地獄に送る！<end>"
+korean = "됐어! 부탁 안 해!! 나 혼자라도 갈드란을 지옥으로 보내겠어!<end>"
+
 ["450270"]
 japanese = "待ってよ！　ヴァン！<end>"
 korean = "기다려! 반!<end>"
@@ -779,6 +819,10 @@ korean = "배가… 고파서….<end>"
 ["450281"]
 japanese = "くっ、飢えか！　よし、任せろ！！　<end>"
 korean = "큭, 굶주림인가! 좋아, 맡겨!!<end>"
+
+["450282"]
+japanese = "よかろう！　勇者が胸元で暖めていた<line-break>ちょっと古めのパンを食え！<end>"
+korean = "좋다! 용자가 품속에 데우고 있던 조금 오래된 빵을 먹어라!<end>"
 
 ["450283"]
 japanese = "あ、ありがとうございました。<line-break>これで元気が出ました。<end>"

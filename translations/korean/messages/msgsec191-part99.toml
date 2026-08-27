@@ -16,6 +16,10 @@ korean = "또 만나러 와 주세요. <value:$28>님과 이야기하면 제 불
 japanese = "あ、<value:$28>様。<end>"
 korean = "아, <value:$28> 님.<end>"
 
+["1910004"]
+japanese = "また、私に会いに来て<line-break>くださったのですね。<line-break>…私、うれしいです。<end>"
+korean = "또 저를 만나러 와 주셨군요. …저, 기뻐요.<end>"
+
 ["1910006"]
 japanese = "もちろん食べに来る<end>"
 korean = "물론 먹으러 온다<end>"
@@ -351,6 +355,10 @@ korean = "용왕이 쓰러졌습니까…. 현세의 마지막 신이 사라지�
 ["1910159"]
 japanese = "この日が訪れたことを<line-break>喜ぶべきか悲しむべきか…。<end>"
 korean = "이날이 찾아온 것을 기뻐해야 할지 슬퍼해야 할지….<end>"
+
+["1910160"]
+japanese = "そうですね。<line-break>今は、人の可能性を信じて、<line-break>時の流れに身を任せましょうか。<line-break>あなたが開いた新たな未来の扉は、<line-break>無限の可能性に満ちていますものね。<end>"
+korean = "그렇군요. 지금은 인간의 가능성을 믿고 시간의 흐름에 몸을 맡겨 보죠. 당신이 연 새로운 미래의 문은 무한한 가능성으로 가득하니까요.<end>"
 
 ["1910161"]
 japanese = "とりあえず、闇の侵攻は、<line-break>くい止められましたね。<line-break>よくやってくれました。<line-break>でも、これであなたの旅が、<line-break>終わったわけではありません。<end>"

@@ -288,6 +288,10 @@ korean = "뭐, 덕분에 이것저것 손에 넣었으니까.<end>"
 japanese = "さあ、寝る準備、寝る準備！<line-break>着替えるから、男は部屋を出る！<end>"
 korean = "자, 잘 준비, 잘 준비! 갈아입을 테니까 남자는 방에서 나가!<end>"
 
+["1380110"]
+japanese = "あの宝石が無かったら、この手紙も<line-break>もらえなかったかもしれないしー、<line-break> <line-break><value:$28>と<line-break>旅をするなんてことにも<line-break>ならなかったかもしれない。 <end>"
+korean = "그 보석이 없었다면 이 편지도 못 받았을지 모르고, <value:$28>와 여행하게 되는 일도 없었을지 몰라.<end>"
+
 ["1380112"]
 japanese = "んじゃ、明日も早いし、<line-break>そろそろ寝ましょうかねー。<line-break> <line-break><value:$28>も<line-break>あんまし、夜更かししちゃ<line-break>ダメよん。<end>"
 korean = "그럼 내일도 일찍 일어나야 하니 슬슬 자자. <value:$28>도 너무 늦게까지 깨어 있지 마.<end>"
@@ -936,6 +940,10 @@ korean = "다, 당신이 숲의 현자님?<end>"
 japanese = "ウフフ、そんな風に私のことを　　<line-break>呼ぶ人もいるようですね。<end>"
 korean = "후후, 저를 그렇게 부르는 사람도 있는 모양이네요.<end>"
 
+["1380356"]
+japanese = "おや？<line-break>あなたは…闇の…<end>いえ？　無限のソウル？<end>"
+korean = "어라? 당신은… 어둠의…<end>아니? 무한의 소울?<end>"
+
 ["1380358"]
 japanese = "えっ！　いいんですか？<end>"
 korean = "어! 정말 괜찮은 건가요?<end>"
@@ -971,6 +979,10 @@ korean = "와! 대단해! 나 말하는 고양이는 처음 봐!<end>"
 ["1380366"]
 japanese = "俺は猫じゃない、ネモだ。<end>"
 korean = "나는 고양이가 아니다, 네모다.<end>"
+
+["1380368"]
+japanese = "フフ、心配はいりません。<line-break>　<line-break>　<line-break>昔、勇者ネメアに倒されてからは<line-break>猫の姿に封印されて、<line-break>今はなんの力も残っていませんから。<end>"
+korean = "후후, 걱정하지 마세요. 옛날 용자 네메아에게 쓰러진 뒤로는 고양이 모습에 봉인되어 지금은 아무 힘도 남지 않았으니까요.<end>"
 
 ["1380371"]
 japanese = "どう考えたって、死んだぜ。<line-break>アスティアはよ。<end>"
@@ -1491,6 +1503,10 @@ korean = "정령 LV 말인가. 그것도 분명 장비 쪽 일이긴 하지만�
 ["1380561"]
 japanese = "私の出番ですね。<end>"
 korean = "제 차례군요.<end>"
+
+["1380571"]
+japanese = "あなたは水属性の相手に対して<line-break>有利に戦うことができ、<line-break>　<line-break>火属性のダメージを<line-break>大幅に軽減することができます。<line-break>これは大変有益なことです。<end>"
+korean = "당신은 수속성 상대에게 유리하게 싸울 수 있고 화속성 피해를 크게 줄일 수 있습니다. 매우 유익한 효과입니다.<end>"
 
 ["1380577"]
 japanese = "じゃ、説明はこの辺で<line-break>終わりにしちまって大丈夫かい？<end>"
