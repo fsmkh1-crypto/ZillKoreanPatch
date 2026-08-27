@@ -16,9 +16,16 @@ SPACE_RE = re.compile(r"[\s\u3000]+")
 PUNCT_RE = re.compile(r"[\s\u3000\.,!?…。！？、・:：;；'\"“”‘’()（）\[\]{}<>〈〉《》「」『』…—―~～·]+")
 
 
+def without_controls(text: str) -> str:
+    return FIXED_TOKEN_RE.sub("", text)
+
+
+def without_whitespace(text: str) -> str:
+    return SPACE_RE.sub("", text)
+
+
 def semantic_letters(text: str) -> str:
-    text = FIXED_TOKEN_RE.sub("", text)
-    return PUNCT_RE.sub("", text)
+    return PUNCT_RE.sub("", without_controls(text))
 
 
 def source_visible_chars(text: str) -> int:
@@ -37,12 +44,20 @@ def main() -> None:
         subprocess.run(["python3", str(QA3), "--json", str(raw), "--max-examples", "0"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
         report = json.loads(raw.read_text(encoding="utf-8"))
 
-    buckets: dict[str, list[dict[str, object]]] = {"formatting_only": [], "short_label": [], "lexical": []}
+    buckets: dict[str, list[dict[str, object]]] = {
+        "whitespace_only": [],
+        "punctuation_only": [],
+        "short_label": [],
+        "lexical": [],
+    }
     for group in report["groups"]:
         variants = [str(v["korean"]) for v in group["variants"]]
+        no_space = {without_whitespace(v) for v in variants}
         lexical_forms = {semantic_letters(v) for v in variants}
-        if len(lexical_forms) == 1:
-            bucket = "formatting_only"
+        if len(no_space) == 1:
+            bucket = "whitespace_only"
+        elif len(lexical_forms) == 1:
+            bucket = "punctuation_only"
         elif source_visible_chars(str(group["japanese_example"])) <= 12:
             bucket = "short_label"
         else:
@@ -53,7 +68,7 @@ def main() -> None:
 
     summary = {k: len(v) for k, v in buckets.items()}
     record_counts = {k: sum(int(g["occurrences"]) for g in v) for k, v in buckets.items()}
-    out = {"schema": 1, "input_inconsistent_groups": report["inconsistent_groups"], "input_inconsistent_records": report["inconsistent_records"], "groups_by_triage": summary, "records_by_triage": record_counts, "buckets": buckets}
+    out = {"schema": 2, "input_inconsistent_groups": report["inconsistent_groups"], "input_inconsistent_records": report["inconsistent_records"], "groups_by_triage": summary, "records_by_triage": record_counts, "buckets": buckets}
     if args.json:
         args.json.parent.mkdir(parents=True, exist_ok=True)
         args.json.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -62,7 +77,7 @@ def main() -> None:
     print("  groups_by_triage: " + json.dumps(summary, ensure_ascii=False, sort_keys=True))
     print("  records_by_triage: " + json.dumps(record_counts, ensure_ascii=False, sort_keys=True))
     shown = 0
-    for bucket in ("formatting_only", "short_label", "lexical"):
+    for bucket in ("whitespace_only", "punctuation_only", "short_label", "lexical"):
         for group in buckets[bucket]:
             if shown >= max(args.max_examples, 0):
                 return
