@@ -780,6 +780,10 @@ korean = "미사용<end>"
 japanese = "え、ええ…。帰りましょう。<end>"
 korean = "네, 네…. 돌아가죠.<end>"
 
+["640333"]
+japanese = "隠し通路から出てきたのですもの。<line-break>正面からは帰れません。<end>"
+korean = "비밀 통로로 나왔으니 정면으로 돌아갈 순 없습니다.<end>"
+
 ["640334"]
 japanese = "今日は…<line-break>よい勉強になりました。<end>"
 korean = "오늘은… 좋은 공부가 됐습니다.<end>"

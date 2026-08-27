@@ -200,6 +200,10 @@ korean = "그래서 모두 죽여 버렸어.<end>"
 japanese = "！<end>"
 korean = "！<end>"
 
+["320081"]
+japanese = "そうそう、あなた、<line-break>ウソをついていたでしょう？<line-break>知りませんだなんて。<line-break>くすくす、あれ、<line-break>あなたのおうちにあるんじゃない。<line-break>　<end>"
+korean = "맞다, 당신 거짓말했죠? 모른다니. 후후, 그거 당신 집에 있잖아요.<end>"
+
 ["320084"]
 japanese = "<value:$28>、<line-break>ここを離れるんだ。<line-break>村人を避難させてくれ。<end>"
 korean = "<value:$28>, 여길 떠나. 마을 사람들을 대피시켜 줘.<end>"
