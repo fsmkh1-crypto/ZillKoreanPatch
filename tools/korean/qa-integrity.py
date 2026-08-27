@@ -22,9 +22,12 @@ CANONICAL_DIR = ROOT / "translations" / "messages"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from control_tags import fixed_tokens  # noqa: E402
 
-JP_RE = re.compile(r"[\u3040-\u30ff]")
+# Actual hiragana/katakana letters only. Exclude common punctuation such as
+# prolonged-sound mark U+30FC and middle dot U+30FB to avoid noisy false hits.
+JP_RE = re.compile(r"[\u3041-\u3096\u30A1-\u30FA\u30FD-\u30FF]")
 ANGLE_RE = re.compile(r"<[^<>]*>")
-SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:-part\d+)?\.toml$")
+# Historical overlays include msgsec001b.toml; generated splits use -partNN.
+SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:[A-Za-z]+|-part\d+)?\.toml$")
 LINE_BREAK = "<line-break>"
 
 
