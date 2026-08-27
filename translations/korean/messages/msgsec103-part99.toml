@@ -214,7 +214,7 @@ korean = "오늘은 자네들의 적이다. 미안하지만 나이트메어의 �
 
 ["1030053"]
 japanese = "<if><value:$2A><less>50よう、あんた<line-break><value:$28>だな？<end><value:$2B>の<value:$28>…<line-break>お前さんのことだな？<end>"
-korean = "<if><value:$2A><less>50여어, 당신이<value:$28>지?<end><value:$2B>의 <value:$28>…당신 말이지?<end>"
+korean = "<if><value:$2A><less>50여어, 자네가 <value:$28>지?<end><value:$2B>의 <value:$28>… 자네 말이지?<end>"
 
 ["1030054"]
 japanese = "強盗が名乗るのもおこがましいが<line-break>俺はツェラシェルと言う。<line-break>　<line-break>お前さんの持っている<line-break>ナイトメアの雫をもらいに来た。<line-break>悪いな。<end>"

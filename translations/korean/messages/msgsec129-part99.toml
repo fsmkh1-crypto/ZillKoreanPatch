@@ -62,7 +62,7 @@ korean = "여어, <value:$28>. 마침 잘 왔어. 사실 자네를 믿고 부탁
 
 ["1290015"]
 japanese = "<if><value:$3C><equal>1やあ、あんた。<line-break>仕事を探してるんだろ。　<line-break><line-break>実はな、お前さんを<line-break>腕のいい冒険者と見込んで<line-break>ひとつ頼みがあるんだ。<end>やあ、あんたたち。<line-break>仕事を探してるんだろ。　<line-break><line-break>実はな、お前さんたちを<line-break>腕のいい冒険者と見込んで<line-break>ひとつ頼みがあるんだ。<end>"
-korean = "<if><value:$3C><equal>1안녕, 당신. 일거리를 찾고 있지? 사실 말이야, 당신을 솜씨 좋은 모험자라고 보고 부탁 하나가 있어.<end>안녕, 자네들. 일거리를 찾고 있지? 사실 말이야, 자네들을 솜씨 좋은 모험자라고 보고 부탁 하나가 있어.<end>"
+korean = "<if><value:$3C><equal>1안녕, 자네. 일거리를 찾고 있지? 사실 말이야, 자네를 솜씨 좋은 모험자라고 보고 부탁 하나가 있어.<end>안녕, 자네들. 일거리를 찾고 있지? 사실 말이야, 자네들을 솜씨 좋은 모험자라고 보고 부탁 하나가 있어.<end>"
 
 ["1290016"]
 japanese = "数日前から<value:$15>が<line-break><value:$17>の辺りで行方知れずになっていて<line-break>捜索願いが出ているんだ。<line-break>依頼主は<value:$16>。<line-break>成功報酬は<value:$1A>ギア。<line-break>タイムリミットは今日から<value:$1B>日間だ。<end>"
