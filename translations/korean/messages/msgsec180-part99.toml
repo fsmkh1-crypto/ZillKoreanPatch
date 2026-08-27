@@ -140,6 +140,10 @@ korean = "왕비님을 만나러 가는가. 좋다, 이야기는 들었다. 지�
 japanese = "よく来た、フリントの息子<line-break><value:$28>よ。<line-break>今日は何用か？<end>"
 korean = "잘 왔다, 플린트의 아들 <value:$28>이여. 오늘은 무슨 일이지?<end>"
 
+["1800045"]
+japanese = "リベルダム解放軍への援助要請か。<line-break>あいにくと事態はさほど悠長ではない。<line-break>あまり興味はないな。<end>"
+korean = "리벨덤 해방군에 대한 지원 요청인가. 유감이지만 상황은 그렇게 한가하지 않아. 별로 관심 없군.<end>"
+
 ["1800047"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"

@@ -1824,6 +1824,10 @@ korean = "아트레아 님께 가시는군요. 들어가십시오.<end>"
 japanese = "私がエリスだ。<line-break>なんの用か？<end>"
 korean = "내가 에리스다. 무슨 일이지?<end>"
 
+["890546"]
+japanese = "リベルダム解放軍への援助要請か。<line-break>あいにくと事態はさほど悠長ではない。<line-break>あまり興味はないな。<end>"
+korean = "리벨덤 해방군에 대한 지원 요청인가. 유감이지만 상황은 그렇게 한가하지 않아. 별로 관심 없군.<end>"
+
 ["890548"]
 japanese = "引き受ける<end>"
 korean = "수락한다<end>"
@@ -2008,6 +2012,10 @@ korean = "실례지만 왕비님께서는 바쁘셔서 누구도 만나실 수 �
 japanese = "私がエリスだ。<line-break>なんの用か？<end>"
 korean = "내가 에리스다. 무슨 일이지?<end>"
 
+["890605"]
+japanese = "リベルダム解放軍への援助要請か。<line-break>あいにくと事態はさほど悠長ではない。<line-break>あまり興味はないな。<end>"
+korean = "리벨덤 해방군에 대한 지원 요청인가. 유감이지만 상황은 그렇게 한가하지 않아. 별로 관심 없군.<end>"
+
 ["890606"]
 japanese = "はっ。<value:$28>様で<line-break>ございますね。<line-break>どうぞお通りください！<end>"
 korean = "예. <value:$28> 님이시군요. 부디 지나가십시오!<end>"
@@ -2084,6 +2092,10 @@ korean = "<value:$28> 님이시군요. 카를라 님께서 부르십니다. 알�
 japanese = "これは<value:$28>様。<line-break>どうぞ、お通りください。<end>"
 korean = "<value:$28>님이시군요. 들어가십시오.<end>"
 
+["890625"]
+japanese = "ぬっ、どこかで見たと思えば…貴様は！<line-break>解放軍なぞに寝返りおって。<line-break>警備隊を呼べっ！<end>"
+korean = "뭐야, 어디서 봤나 했더니… 네놈이군! 해방군 따위로 돌아서다니. 경비대를 불러라!<end>"
+
 ["890626"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"
 korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<end>"
@@ -2103,6 +2115,10 @@ korean = "네, 네놈은 해방군의 <value:$28>! 경비대를 불러! 빨리!<
 ["890630"]
 japanese = "これは<value:$28>様。<line-break>どうぞお通りください。<end>"
 korean = "<value:$28>님이시군요. 들어가십시오.<end>"
+
+["890631"]
+japanese = "ぬっ、どこかで見たと思えば…貴様は！<line-break>解放軍なぞに寝返りおって。<line-break>警備隊を呼べっ！<end>"
+korean = "뭐야, 어디서 봤나 했더니… 네놈이군! 해방군 따위로 돌아서다니. 경비대를 불러라!<end>"
 
 ["890632"]
 japanese = "きっ、貴様は解放軍の<line-break><value:$28><line-break>警備隊を呼べっ！　早く！<end>"
@@ -2503,6 +2519,10 @@ korean = "들리느냐, <value:$28>여.<end>"
 ["890739"]
 japanese = "<value:$28>よ…。<line-break>多少、時間はかかったが、<line-break>すべては余の計画通りになった。<line-break>いよいよだぞ。<line-break>我らが人類の革新に<line-break>本格的に乗り出すのは…。<end>"
 korean = "<value:$28>…. 조금 시간은 걸렸지만 모든 것이 내 계획대로 되었다. 이제 시작이다. 우리 인류의 혁신에 본격적으로 나서는 것이….<end>"
+
+["890740"]
+japanese = "さて、とりあえず余はディンガル軍に<line-break>戻り、宰相ベルゼーヴァとして<line-break>采配を振るとするか。<line-break>まずは全軍を魔道兵に仕立て、<line-break>戦力増強を図らねばならんからな。<line-break>フフフ…。<end>"
+korean = "자, 우선 짐은 딘갈군으로 돌아가 재상 벨제바로서 지휘를 맡도록 하지. 먼저 전군을 마도병으로 만들어 전력을 강화해야 하니까. 후후후….<end>"
 
 ["890741"]
 japanese = "エステルメッセージVOL4終端<end>"
