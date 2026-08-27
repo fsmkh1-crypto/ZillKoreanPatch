@@ -144,6 +144,10 @@ korean = "그렇죠. 저도 그렇게 생각해요. 왠지 정말 후련해졌�
 japanese = "やっぱり、一日でも長く<line-break><value:$28>さんのそばにいたい。<line-break>　<line-break>せめて、私のウソに気づかれてしまう<line-break>その日までは…。<end>"
 korean = "역시 하루라도 더 <value:$28>님 곁에 있고 싶어. 적어도 내 거짓말을 들키는 그날까지는….<end>"
 
+["1980084"]
+japanese = "ん？　伝説のフライパンじゃと？<line-break>何じゃ、そりゃ？<end>"
+korean = "응? 전설의 프라이팬이라고? 그게 뭐냐?<end>"
+
 ["1980086"]
 japanese = "はいっ？<line-break>あ、あれって…なんですか？<end>"
 korean = "네? 아, 저건… 뭔가요?<end>"
@@ -187,6 +191,10 @@ korean = "뭐라고 하셨나요?<end>"
 ["1980114"]
 japanese = "え…ええーっ！？<line-break>そ、そんな、まさか…。<end>"
 korean = "에… 에엣!? 그, 그럴 리가….<end>"
+
+["1980115"]
+japanese = "どうしました？<line-break>お顔の色がすぐれないようですが。<end>"
+korean = "무슨 일이죠? 안색이 좋지 않은 것 같은데요.<end>"
 
 ["1980120"]
 japanese = "変なことを言うんだな<end>"
@@ -367,6 +375,10 @@ korean = "네? 그게 무슨 뜻인가요?<end>"
 ["1980220"]
 japanese = "え…ええーっ！？<line-break>そ、そんな、まさか…。<end>"
 korean = "에… 에엣!? 그, 그럴 리가….<end>"
+
+["1980221"]
+japanese = "どうしました？<line-break>お顔の色がすぐれないようですが。<end>"
+korean = "무슨 일이죠? 안색이 좋지 않은 것 같은데요.<end>"
 
 ["1980223"]
 japanese = "その魔道器…<line-break>見つかるといいですね、<line-break><value:$28>。<end>"

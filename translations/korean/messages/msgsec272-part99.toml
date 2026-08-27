@@ -8,6 +8,10 @@ korean = "질리온&이샤 이벤트14용 시작<end>"
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
 
+["2720008"]
+japanese = "すまん。今日はもう疲れた。<line-break>先に休ませてもらう。<end>"
+korean = "미안하다. 오늘은 이제 지쳤어. 먼저 쉬게 해 줘.<end>"
+
 ["2720009"]
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
@@ -99,6 +103,10 @@ korean = "<value:$28>인가….<end>"
 ["2720069"]
 japanese = "<value:$28>か…。<end>"
 korean = "<value:$28>인가….<end>"
+
+["2720071"]
+japanese = "もう、大事な人を<line-break>悲しませることのない選択を…。<end>"
+korean = "이제 소중한 사람을 슬프게 하지 않는 선택을….<end>"
 
 ["2720075"]
 japanese = "ジリオン＆イーシャイベント14用開終端<end>"

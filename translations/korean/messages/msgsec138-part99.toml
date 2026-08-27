@@ -256,6 +256,10 @@ korean = "<value:$28> 님….<end>"
 japanese = "よろしければ、<line-break>少しお話していかれませんか？<end>"
 korean = "괜찮으시면 잠시 이야기하고 가시겠습니까?<end>"
 
+["1380166"]
+japanese = "ティアナの考えは間違っていますか？<line-break><value:$28>様？<end>"
+korean = "티아나의 생각은 틀린 건가요? <value:$28>님?<end>"
+
 ["1380167"]
 japanese = "よかった…。<end>"
 korean = "다행이다….<end>"

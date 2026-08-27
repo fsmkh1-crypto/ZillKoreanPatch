@@ -1064,6 +1064,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "ハッ！<end>"
 korean = "핫!<end>"
 
+["1340525"]
+japanese = "<value:$28>様、<line-break>タルテュバ様にお会いになりますか？<end>"
+korean = "<value:$28>님, 타르튜바 님을 만나시겠습니까?<end>"
+
 ["1340526"]
 japanese = "はい<end>"
 korean = "네<end>"
@@ -1371,6 +1375,10 @@ korean = "<value:$28>님!<end>"
 ["1340679"]
 japanese = "…そうですか。<line-break>　<line-break>　<line-break>あ、おかげで復興の方も<line-break>軌道に乗ってまいりました。<line-break>人の笑顔はいいものですね。<end>"
 korean = "…그렇습니까. 아, 덕분에 부흥도 궤도에 오르고 있습니다. 사람들의 웃는 얼굴은 좋군요.<end>"
+
+["1340684"]
+japanese = "<value:$28>様…<line-break>少しだけ、一人にさせてください…。<end>"
+korean = "<value:$28>님… 잠시만 혼자 있게 해 주세요….<end>"
 
 ["1340685"]
 japanese = "タルテュバ様…。<end>"

@@ -664,6 +664,10 @@ korean = "오빠!<end>"
 japanese = "あの…これはその、なんと申しますか…。<end>"
 korean = "저… 이건 그, 뭐라고 해야 할지….<end>"
 
+["1410330"]
+japanese = "違うの、お兄ちゃん…じゃなくって<line-break><value:$28>様…。<end>"
+korean = "아니야, 오빠… 아니, <value:$28>님….<end>"
+
 ["1410331"]
 japanese = "ご安心ください、<value:$28>様、<line-break>陛下のお許しは<line-break>いただいております。<end>"
 korean = "안심하세요, <value:$28> 님. 폐하의 허락은 받았습니다.<end>"
@@ -1059,6 +1063,10 @@ korean = "호호호호, 그렇군요~.<end>"
 ["1410506"]
 japanese = "ほーっほっほっ、<line-break>そーですわねー。<end>"
 korean = "호호호호, 그렇군요~.<end>"
+
+["1410507"]
+japanese = "失礼いたしました。<line-break><value:$28>様、では、お礼を…。<end>"
+korean = "실례했습니다. <value:$28>님, 그럼 사례를….<end>"
 
 ["1410508"]
 japanese = "例のもの、でございますか？<line-break>いえ、それは…。<end>"

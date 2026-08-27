@@ -224,6 +224,10 @@ korean = "자, 여기요.<end>"
 japanese = "気をつけて、<value:$28>。<line-break>また、会える日まで。<end>"
 korean = "조심해, <value:$28>. 다시 만날 날까지.<end>"
 
+["1930111"]
+japanese = "おや、もうひとりの連れの方が<line-break>来たみたいですね。<end>"
+korean = "어라, 다른 일행도 온 모양이군요.<end>"
+
 ["1930112"]
 japanese = "久しぶりね、<value:$28>。<line-break>どう？　しばらく会ってなかったけど<line-break>腕は上がった？<end>"
 korean = "오랜만이네, <value:$28>. 어때? 한동안 못 봤는데 실력은 늘었어?<end>"

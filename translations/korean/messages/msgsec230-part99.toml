@@ -28,6 +28,10 @@ korean = "…뭐, 뭐라고!?<end>"
 japanese = "ヴァンのシャレは最高なのに！<end>"
 korean = "반의 농담은 최고인데!<end>"
 
+["2300012"]
+japanese = "そんなありえないことを言ってるのは<line-break>チャカだけ。<end>"
+korean = "그런 말도 안 되는 소리를 하는 건 차카뿐이야.<end>"
+
 ["2300014"]
 japanese = "そう思わない、<value:$28>？<end>"
 korean = "그렇지 않아, <value:$28>?<end>"
