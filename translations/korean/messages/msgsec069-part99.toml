@@ -64,9 +64,17 @@ korean = "…성배?<end>"
 japanese = "…で、聖杯はどこにある。<end>"
 korean = "…그래서, 성배는 어디 있지.<end>"
 
+["690048"]
+japanese = "運命の女神も悪戯好きですねえ。<line-break>くすくす…。<line-break>　<line-break><value:$28>さん、でしたね。<line-break>来てください。<line-break>説明したいことがあります。<end>"
+korean = "운명의 여신도 장난을 좋아하네요. 후후…. <value:$28>님이셨죠. 따라오세요. 설명드릴 게 있어요.<end>"
+
 ["690049"]
 japanese = "…行け。<line-break>殺す気はないらしい。<line-break>　<line-break>殺す気なら<line-break>とうにやっている。<line-break>あいつは…強い。<end>"
 korean = "…가. 죽일 생각은 없는 모양이다. 죽일 생각이었다면 진작 그랬겠지. 녀석은… 강해.<end>"
+
+["690051"]
+japanese = "この子でも役立ててもらおうかな<line-break>と思うんです。<line-break>　<line-break>この転送機は世界中の<line-break>たいていの所から<line-break>仲間を呼び出せます。<end>"
+korean = "이 아이도 도움이 되게 해 볼까 합니다. 이 전송기는 세계 대부분의 곳에서 동료를 불러낼 수 있어요.<end>"
 
 ["690054"]
 japanese = "あなたが将来、旅の途中で<line-break>さまざまな人と出会い、<line-break>仲間を増やしたとき、<line-break>たぶん、この子が<line-break>役に立ちますよ。<end>"

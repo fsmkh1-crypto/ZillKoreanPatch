@@ -476,6 +476,10 @@ korean = "정말이네. 독을 발랐던 흔적이 없어.<end>"
 japanese = "ううん。毒をふき取るも何も、これ、<line-break>たぶん、一度も手入れしてないよぉ。<line-break>　<line-break>これじゃさびてて<line-break>使いものにならないよぉ！<end>"
 korean = "아니. 독을 닦아내기는커녕 이거 아마 한 번도 손질 안 했어. 이래선 녹슬어서 못 써!<end>"
 
+["450232"]
+japanese = "そんなに、<value:$28>が<line-break>復讐のことばかり考えてると…<line-break><line-break>天国のフリントさんは<line-break>きっとうれしくないと思うよ。<line-break>ね。行こう？<end>"
+korean = "그렇게 <value:$28>이 복수 생각만 하면… 천국의 플린트 씨도 분명 기뻐하지 않을 거야. 응. 가자?<end>"
+
 ["450233"]
 japanese = "待ちかねたぞ！<line-break>我が永遠のライバルよ！<end>"
 korean = "기다렸다! 나의 영원한 라이벌이여!<end>"

@@ -484,6 +484,10 @@ korean = "어떻습니까?<end>"
 japanese = "あ、あの…。<line-break>す、すみませんでした。<end>"
 korean = "저, 저기…. 죄, 죄송했습니다.<end>"
 
+["620225"]
+japanese = "そんなんじゃないです！<line-break>あいつらは私たちの町から<line-break>聖杯を盗んで逃げたんです。　<line-break>私たちは<line-break>それを取り戻しにきたんです。<end>"
+korean = "그런 게 아니에요! 저 녀석들은 우리 마을에서 성배를 훔쳐 달아났어요. 우리는 그걸 되찾으러 온 거예요.<end>"
+
 ["620227"]
 japanese = "なんで！<line-break>…どうしてですか？<end>"
 korean = "왜! …어째서입니까?<end>"
@@ -619,6 +623,10 @@ korean = "…저, <value:$28>님을 기다려도 되는 건가요?<end>"
 ["620309"]
 japanese = "…ちゃんと答えてください。<line-break>私、<value:$28>さんを<line-break>信じていていいんですね？<end>"
 korean = "…제대로 대답해 주세요. 저, <value:$28>님을 믿어도 되는 거죠?<end>"
+
+["620310"]
+japanese = "また、早く…、<line-break>帰ってきてくださいね…。　<line-break>　<line-break>なんか…恥ずかしくて…、<line-break><value:$28>さんの顔が<line-break>まともに、見られません。<end>"
+korean = "또 빨리… 돌아와 주세요…. 왠지… 부끄러워서… <value:$28>님 얼굴을 제대로 못 보겠어요.<end>"
 
 ["620311"]
 japanese = "あ、<value:$28>さん！ <line-break>帰ってきてくださったんですね。<line-break>嬉しいです！<line-break>今日もアイリーンさんは<line-break>ご一緒じゃないんですね。<end>"

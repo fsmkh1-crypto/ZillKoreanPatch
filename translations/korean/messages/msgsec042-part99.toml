@@ -76,6 +76,10 @@ korean = "에스트 말고도 형제가 있었다니 처음 듣는군.<end>"
 japanese = "この少女こそ、<line-break>…この手紙にある子供だと？<end>"
 korean = "이 소녀가… 이 편지에 적힌 아이라고?<end>"
 
+["420039"]
+japanese = "ボルボラ亡きあとのノーブルを<line-break>統制するために、<line-break>　<line-break>なにとぞ、<line-break>我が妹<value:$28>に<line-break>ノーブルの伯爵の称号を。<end>"
+korean = "볼보라가 죽은 뒤 노블을 통제하기 위해 부디 제 동생 <value:$28>에게 노블 백작의 작위를 내려 주십시오.<end>"
+
 ["420040"]
 japanese = "ならん！　ならん！！<line-break>ふざけたことを！<end>"
 korean = "안 된다! 안 돼!! 터무니없는 소리를!<end>"

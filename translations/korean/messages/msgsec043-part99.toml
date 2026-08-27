@@ -244,9 +244,21 @@ korean = "나도 서두르겠다. 사람 목숨이 달린 일이야.<end>"
 japanese = "剣で決着をつけよう…。<end>"
 korean = "검으로 결판내자….<end>"
 
+["430122"]
+japanese = "＜未使用＞昨日の…アレ…<line-break>なんだったのかな。<end>"
+korean = "<未使用> 어제 그… 그건… 대체 뭐였을까.<end>"
+
+["430123"]
+japanese = "＜未使用＞…<value:$28>、<line-break>ホントに大丈夫なの？<end>"
+korean = "<未使用> …<value:$28>, 정말 괜찮은 거야?<end>"
+
 ["430124"]
 japanese = "＜未使用＞大丈夫かよ？　<value:$28>。<end>"
 korean = "<미사용> 괜찮아? <value:$28>.<end>"
+
+["430126"]
+japanese = "＜未使用＞…<value:$28>、<line-break>ホントに大丈夫かよ？<end>"
+korean = "<未使用> …<value:$28>, 정말 괜찮은 거냐?<end>"
 
 ["430127"]
 japanese = "＜未使用＞大丈夫かの？<line-break><value:$28>。<end>"
@@ -255,6 +267,10 @@ korean = "<미사용> 괜찮은가? <value:$28>.<end>"
 ["430128"]
 japanese = "＜未使用＞昨日の…アレ…<line-break>なんじゃったのか…。<end>"
 korean = "<未使用> 어제 그… 그건… 대체 뭐였던 걸까….<end>"
+
+["430129"]
+japanese = "＜未使用＞…<value:$28>、<line-break>ホントに大丈夫かの？<end>"
+korean = "<未使用> …<value:$28>, 정말 괜찮은 게냐?<end>"
 
 ["430131"]
 japanese = "まったく、昨日の…アレ…<line-break>いったい、なんなのよぉ！<end>"

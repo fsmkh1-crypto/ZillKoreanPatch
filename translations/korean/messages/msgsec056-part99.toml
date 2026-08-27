@@ -40,6 +40,10 @@ korean = "누구야?<end>"
 japanese = "あんただと思ったよ…。<end>"
 korean = "당신일 줄 알았어….<end>"
 
+["560022"]
+japanese = "ただ我を信じよ。　　　　　　<line-break>　<line-break>　<line-break>滅びの日は近い。<line-break>天なる神と神の遣わしたる我に<line-break>祈る者のみが救われるのだ。<end>"
+korean = "그저 나를 믿어라. 멸망의 날은 가깝다. 하늘의 신과 그 신이 보낸 나에게 기도하는 자만이 구원받을 것이다.<end>"
+
 ["560023"]
 japanese = "やめろ！　やめんか！<end>"
 korean = "그만둬! 그만두지 못해!<end>"
@@ -195,6 +199,10 @@ korean = "착실하다고 해! 착실하다고!<end>"
 ["560085"]
 japanese = "金のことになるとコワイね、<line-break>お姉さまは。<end>"
 korean = "돈 이야기가 나오면 무섭네, 누님은.<end>"
+
+["560086"]
+japanese = "こんにちは！<line-break><value:$28>さんもお仕事を？　　<line-break>　<line-break>いつもカフィンとレイヴンが<line-break>仕事を選ぶのを手伝ってくれるんです。<end>"
+korean = "안녕하세요! <value:$28>님도 일을 하시나요? 늘 카핀과 레이븐이 제가 일을 고르는 걸 도와줘요.<end>"
 
 ["560087"]
 japanese = "私に何か？<end>"
@@ -420,6 +428,10 @@ korean = "나셰스!<end>"
 japanese = "わたし…レイヴンを捜す…。<line-break>見つけて連れ戻す！<end>"
 korean = "나… 레이븐을 찾을 거야…. 찾아서 데려올 거야!<end>"
 
+["560176"]
+japanese = "…いいわ。そうしましょう。　　<line-break>　<line-break>　<line-break>あなたをこんなに苦しめるなんて<line-break>一言、言ってやらないと<line-break>気が収まらない！<end>"
+korean = "…좋아. 그렇게 하자. 너를 이렇게 괴롭게 만들다니 한마디 해 주지 않으면 속이 풀리지 않아!<end>"
+
 ["560181"]
 japanese = "天空神よ、感謝します。<line-break>カモが来ました。<end>"
 korean = "천공신이여, 감사합니다. 봉이 왔군요.<end>"
@@ -471,6 +483,10 @@ korean = "…석화수를 쫓고 있다.<end>"
 ["560198"]
 japanese = "ここに住み着いているのは<line-break>間違いないんだ。<end>"
 korean = "녀석이 이곳에 눌러앉아 있는 건 틀림없어.<end>"
+
+["560200"]
+japanese = "めずらしい客人だ。<line-break>死の羽音…いや、レイヴン。　　<line-break>　<line-break>残念ながら、私に会いに来たわけでは<line-break>ないようだが…。<line-break>　<end>"
+korean = "드문 손님이군. 죽음의 날갯소리… 아니, 레이븐. 유감스럽게도 나를 만나러 온 건 아닌 모양이지만….<end>"
 
 ["560201"]
 japanese = "用があるのは、<line-break>こいつか…。<end>"

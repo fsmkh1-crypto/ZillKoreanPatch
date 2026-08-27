@@ -248,6 +248,10 @@ korean = "나인가, 그대인가… 거기서 알게 되겠지. 포호호호…
 japanese = "ムダよ、<value:$28>。<line-break>これは幻像にすぎない…。<line-break>実体はおそらく、城の中よ。<end>"
 korean = "소용없어, <value:$28>. 이건 환상에 불과해…. 본체는 아마 성 안에 있을 거야.<end>"
 
+["1330173"]
+japanese = "運命と対決し、その闇の中から<line-break>未来をつかみとるために、<line-break>私はここへ来た。<line-break>行きましょう、<value:$28>。<line-break>エンシャント城内へ…！<end>"
+korean = "운명과 맞서 그 어둠 속에서 미래를 붙잡기 위해 저는 여기에 왔습니다. 갑시다, <value:$28>. 엔샨트 성 안으로…!<end>"
+
 ["1330174"]
 japanese = "（エンシャント城内へ行かなければ…）<end>"
 korean = "(엔샨트 성 안으로 가야 해…)<end>"
@@ -879,6 +883,10 @@ korean = "당신의 활약으로 세계는 구원받았습니다. 하지만 그 
 ["1330599"]
 japanese = "それが、竜王様の意志…。<end>"
 korean = "그것이 용왕님의 뜻….<end>"
+
+["1330601"]
+japanese = "<value:$28>は今や<line-break>地上最強の存在となりつつある。<line-break> <line-break>もし、その<value:$28>が<line-break>心変わりをしたら<line-break>誰がとめられるというのだ？<end>"
+korean = "<value:$28>은 이제 지상 최강의 존재가 되어 가고 있다. 만약 그 <value:$28>이 마음을 바꾼다면 누가 막을 수 있겠는가?<end>"
 
 ["1330605"]
 japanese = "カフィンは下がってて。<end>"

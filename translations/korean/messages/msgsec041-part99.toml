@@ -84,6 +84,10 @@ korean = "아, <value:$28>님. 에스트 님에게서 뭔가 전갈이 온 모�
 japanese = "エストから、手紙を預かった。<line-break>確かに渡したぞ。<end>"
 korean = "에스트에게 편지를 맡았다. 확실히 전해 줬다.<end>"
 
+["410026"]
+japanese = "　　　　それじゃあ、<value:$28>。<line-break>　　　君に神のご加護がありますように。<line-break>　<line-break>　　　　　　　　　　　　　　　　　　エスト<end>"
+korean = "그럼, <value:$28>. 신의 가호가 함께하길. 에스트<end>"
+
 ["410027"]
 japanese = "俺もまだまだ甘いな…。<end>"
 korean = "나도 아직 멀었군….<end>"
@@ -139,6 +143,10 @@ korean = "어둠의 신기를 써서 세계를 멸망시키려는 남자라고!<
 ["410044"]
 japanese = "私を疑うのか？<end>"
 korean = "날 의심하는 건가?<end>"
+
+["410045"]
+japanese = "だって、ナーシェス、あなた自身、<line-break>自分の言葉を信じてないんだもの。<line-break>　<line-break>レイヴン、神器を<line-break><value:$28>さんに返して。<end>"
+korean = "하지만 나셰스, 당신 자신도 자기 말을 믿지 않잖아. 레이븐, 신기를 <value:$28>님께 돌려줘.<end>"
 
 ["410046"]
 japanese = "レイヴン、貴様…。<end>"

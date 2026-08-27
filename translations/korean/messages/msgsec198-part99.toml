@@ -136,6 +136,10 @@ korean = "앞으로도 즐거운 일이 많이 있을 거야.<end>"
 japanese = "辛くなったらいつでも言ってくれていい<end>"
 korean = "힘들어지면 언제든 말해도 돼.<end>"
 
+["1980077"]
+japanese = "そうですよね。私もそう思います。<line-break>なんか、とてもすっきりしました。<line-break>これでゆっくり眠れそうです。<line-break>おやすみなさい。<value:$28>さん。<end>"
+korean = "그렇죠. 저도 그렇게 생각해요. 왠지 정말 후련해졌어요. 이제 푹 잘 수 있겠네요. 안녕히 주무세요, <value:$28>님.<end>"
+
 ["1980078"]
 japanese = "やっぱり、一日でも長く<line-break><value:$28>さんのそばにいたい。<line-break>　<line-break>せめて、私のウソに気づかれてしまう<line-break>その日までは…。<end>"
 korean = "역시 하루라도 더 <value:$28>님 곁에 있고 싶어. 적어도 내 거짓말을 들키는 그날까지는….<end>"
@@ -259,6 +263,10 @@ korean = "앞으로도 함께 있어 줬으면 해<end>"
 ["1980170"]
 japanese = "そんなこと…<end>"
 korean = "그런 일은…<end>"
+
+["1980172"]
+japanese = "あ、いいんです。<line-break>気を遣わないでください。<line-break>　<line-break><value:$28>さんと一緒に<line-break>ここまで来られただけでも<line-break>私は幸せ者ですから。<end>"
+korean = "아, 괜찮아요. 신경 쓰지 마세요. <value:$28>님과 함께 여기까지 올 수 있었던 것만으로도 저는 행복한 사람이니까요.<end>"
 
 ["1980175"]
 japanese = "怒るって、誰にです？<end>"

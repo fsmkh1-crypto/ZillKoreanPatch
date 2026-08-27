@@ -116,6 +116,10 @@ korean = "아하하, 농담이야. 속은 풀렸어? 미안하지만 이제 가 
 japanese = "<value:$28>さん！！<end>"
 korean = "<value:$28> 씨!!<end>"
 
+["1840059"]
+japanese = "こんなもんでいいかな？　　　　<line-break>安心して。死にはしないよ。<line-break>すぐ、動けるようになるから。<line-break>またね、<value:$28>。<line-break>バイバ～イ。<end>"
+korean = "이 정도면 되려나? 안심해. 죽지는 않아. 곧 움직일 수 있게 될 거야. 또 보자, <value:$28>. 바이바이~.<end>"
+
 ["1840060"]
 japanese = "さて、邪魔が入ったが<line-break>先程までの話の続きだ。<line-break>　<line-break>我々の支配下に<line-break>入ってはくれないかね？<end>"
 korean = "방해가 들어왔지만 아까 이야기의 계속이다. 우리 지배 아래 들어오지 않겠나?<end>"

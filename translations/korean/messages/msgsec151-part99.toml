@@ -8,6 +8,10 @@ korean = "엘파스 볼륨2 시작<end>"
 japanese = "だまれ！　お前に決まっているわ！<line-break>私の部屋に出入りできるのは<line-break>お前しかいないんだぞ。<line-break>さぁ、どこに隠した！<line-break>正直にいわんか！<end>"
 korean = "닥쳐! 네놈이 분명하다! 내 방에 드나들 수 있는 건 너뿐이잖아. 자, 어디 숨겼어! 솔직히 말해!<end>"
 
+["1510005"]
+japanese = "エ、エルファス様だ！<line-break>救世主様がおいでになったぞ！<end>"
+korean = "에, 엘파스 님이다! 구세주님이 오셨다!<end>"
+
 ["1510006"]
 japanese = "ああ、エルファス様！<line-break>どうか、お救いください！　　　<line-break>　<line-break>私、だんな様の宝石に<line-break>手を触れたことなどありません！<end>"
 korean = "아, 엘파스 님! 부디 구해 주세요! 저는 주인님의 보석에 손댄 적이 없습니다!<end>"
@@ -43,6 +47,10 @@ korean = "아, 알았어. 그러니까 화내지 마.<end>"
 ["1510022"]
 japanese = "ふーんだ！<line-break>やなおやじ！<end>"
 korean = "흥! 싫은 아저씨!<end>"
+
+["1510025"]
+japanese = "さあ、おとなしくしろ！<line-break>抵抗すると痛い目をみるぞ。<end>"
+korean = "자, 얌전히 있어라! 저항하면 아픈 꼴을 볼 거다.<end>"
 
 ["1510026"]
 japanese = "助けよう<end>"

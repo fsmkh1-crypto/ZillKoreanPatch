@@ -212,6 +212,10 @@ korean = "아아, 유랑 예인단 말이지. 왔었어.<end>"
 japanese = "…<value:$28>、つけられたな。<end>"
 korean = "…<value:$28>, 미행당했군.<end>"
 
+["490144"]
+japanese = "…連中はまだエンシャントにいるんだ。<line-break>　<line-break>　<line-break>ま、これからは、あんまり大きい声で<line-break>聞きまわらないようにしなくちゃ、な。<end>"
+korean = "…놈들은 아직 엔샨트에 있어. 뭐, 이제부터는 너무 큰 소리로 캐묻지 않도록 해야겠지.<end>"
+
 ["490145"]
 japanese = "貴様ら、何をかぎまわっている？<end>"
 korean = "네놈들, 뭘 캐고 다니는 거냐?<end>"
@@ -444,6 +448,10 @@ korean = "아길샤이어…?<end>"
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
 
+["490250"]
+japanese = "強大で凶々しい力を持つ　　<line-break>１２の魔道器だ。<line-break>かつて、破壊神ウルグの<line-break>復活に使われたことがある。<line-break>…ってな感じだっけ？<end>"
+korean = "강대하고 흉악한 힘을 지닌 12개의 마도기다. 예전에 파괴신 울그를 부활시키는 데 쓰였다고 했던가?<end>"
+
 ["490256"]
 japanese = "それじゃあ、誰なのぉ？<end>"
 korean = "그럼, 누구야아?<end>"
@@ -495,6 +503,10 @@ korean = "아길샤이어에 대해서<end>"
 ["490275"]
 japanese = "質問はない<end>"
 korean = "질문은 없다<end>"
+
+["490276"]
+japanese = "フフ、それは秘密です。　　<line-break>　<line-break>　<line-break>ま、おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
+korean = "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일단 길드에서 일을 해 주세요.<end>"
 
 ["490287"]
 japanese = "そうですか。<end>"

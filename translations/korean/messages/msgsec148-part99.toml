@@ -8,6 +8,10 @@ korean = "루루안타(수정) 그 2 시작<end>"
 japanese = "ここは…。　　　　　　　　　　<line-break>いや、ここがそうなのか…。<line-break>　<line-break>前に来たときは、<line-break>こんな屋敷はなかったはずだが…<end>"
 korean = "여기는…. 아니, 여기가 그곳인가…. 전에 왔을 때는 이런 저택이 없었던 것 같은데….<end>"
 
+["1480002"]
+japanese = "フフ、ここは結界を張っています。　　<line-break>　<line-break>　<end>"
+korean = "후후, 여기는 결계를 쳐 두었습니다.<end>"
+
 ["1480003"]
 japanese = "未使用<end>"
 korean = "미사용<end>"
@@ -67,6 +71,10 @@ korean = "후후. 감사합니다!<end>"
 ["1480031"]
 japanese = "それで、<line-break>ゼネテスはどうしました？<end>"
 korean = "그래서, 제네테스는 어떻게 됐나요?<end>"
+
+["1480032"]
+japanese = "まだ寝てるよぉ。<line-break>ほんと、お寝坊さんなんだからぁ！<end>"
+korean = "아직 자고 있어. 정말 늦잠꾸러기라니까!<end>"
 
 ["1480033"]
 japanese = "朝からうるせーぞ！<line-break>このガキ！<end>"

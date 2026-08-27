@@ -724,6 +724,10 @@ korean = "아니면 그 노엘이라는여자아이인가?<end>"
 japanese = "俺は、女の名前なら<line-break>一度聞いたら忘れない。<line-break>　<line-break>ま、それが<line-break>半分の確率でってのが<line-break>つらいところだが、な。<end>"
 korean = "난 여자 이름이라면 한 번 들으면 잊지 않아. 뭐, 절반 확률이라는 게 문제지만.<end>"
 
+["550247"]
+japanese = "ヴァン…、こういうときに、<line-break>そういう冗談やめようよ。<line-break>　<line-break>それよりも、<line-break>ねえ、<value:$28><line-break>あの黒づくめも…。<end>"
+korean = "반…, 이런 때 그런 농담은 그만하자. 그것보다, <value:$28>, 저 검은 옷의 사람도….<end>"
+
 ["550248"]
 japanese = "ホントだ。<end>"
 korean = "정말이야.<end>"

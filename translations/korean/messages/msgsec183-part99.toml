@@ -12,6 +12,10 @@ korean = "젠장! 아무리 봐도 수적으로 불리해! 게다가 이 녀석�
 japanese = "ちくしょ～。<line-break>く、来るなら来てみろぉぉ～！<line-break>　<line-break>あ、あんた、味方か？<line-break>頼む、助けてくれ～！<end>"
 korean = "젠장~. 오, 올 테면 와 봐아아~! 아, 당신은 아군이야? 부탁이야, 도와줘~!<end>"
 
+["1830015"]
+japanese = "お、お主は………！？　　　　　　<line-break>　<line-break>　<line-break>いや、このような運命もあろうて。<line-break>全力でまいるぞ。<line-break>覚悟せい、<value:$28>！！<end>"
+korean = "너, 너는………!? 아니, 이런 운명도 있겠지. 전력을 다하마. 각오해라, <value:$28>!!<end>"
+
 ["1830027"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"

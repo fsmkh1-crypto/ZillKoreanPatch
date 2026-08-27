@@ -4,6 +4,10 @@
 japanese = "Ｖ７その２開始<end>"
 korean = "V7 파트 2 시작<end>"
 
+["1900002"]
+japanese = "罠か…。<line-break>ゾフォルの仕業だな。　　　　　　<line-break>先に行け、<value:$28>。<line-break>ゾフォルを倒さぬ限り、<line-break>こいつらは何度倒しても復活する。<end>"
+korean = "함정인가…. 조포르의 짓이군. 먼저 가라, <value:$28>. 조포르를 쓰러뜨리지 않는 한 이 녀석들은 몇 번을 쓰러뜨려도 부활한다.<end>"
+
 ["1900004"]
 japanese = "行け！<end>"
 korean = "가!<end>"

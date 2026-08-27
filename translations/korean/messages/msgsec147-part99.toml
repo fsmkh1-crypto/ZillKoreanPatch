@@ -76,9 +76,17 @@ korean = "응? 뭐야, 넌!?<end>"
 japanese = "なんだぁ、こいつ。<line-break>やっちまえ。<end>"
 korean = "뭐야, 이 녀석. 해치워 버려.<end>"
 
+["1470068"]
+japanese = "しまった。侵入者か。<line-break>こっから先には行かせないぜ！<end>"
+korean = "젠장, 침입자인가. 여기서부터는 못 지나간다!<end>"
+
 ["1470073"]
 japanese = "世の中、そう都合よくは<line-break>いかないと思うがな。<end>"
 korean = "세상일이 그렇게 뜻대로 되진 않을 텐데.<end>"
+
+["1470075"]
+japanese = "な、なんだと…！　　　　　　　　　　<line-break>　<line-break>　<end>"
+korean = "뭐, 뭐라고…!<end>"
 
 ["1470076"]
 japanese = "さて、こいつらを叩けば終わりだ。<line-break>さっさとやっちまおうぜ、<line-break><value:$28>。<end>"

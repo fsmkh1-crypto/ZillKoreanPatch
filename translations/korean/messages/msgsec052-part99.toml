@@ -172,6 +172,10 @@ korean = "노블 백작, <value:$28>·류가.<end>"
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
 
+["520131"]
+japanese = "やれやれ、肩が凝った。<line-break>大げさな式典だったな。<line-break>　<line-break>お互い、これから<line-break>めんどくさいことになるな。<line-break>それじゃあな。<end>"
+korean = "이런, 어깨가 결리는군. 거창한 의식이었어. 서로 앞으로 귀찮은 일이 많아지겠군. 그럼 잘 가.<end>"
+
 ["520132"]
 japanese = "<value:$28>の<line-break>名声値が上がった。<end>"
 korean = "<value:$28>의 명성치가 올랐다.<end>"

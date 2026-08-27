@@ -196,6 +196,10 @@ korean = "저기, 내 행실이 나쁘다고 고모한테 고자질한 건 아�
 japanese = "私、お母様に告げ口したり<line-break>いたしません。<end>"
 korean = "저, 어머님께 일러바치거나 하지 않아요.<end>"
 
+["660087"]
+japanese = "…いいさ。俺の方こそ<line-break>家族関係に立ち入るようなことを<line-break>言っちまった。悪かったな。<line-break><value:$28>、<line-break>なに突っ立ってるんだ。帰るぞ。<end>"
+korean = "…됐어. 나도 가족 일에 끼어드는 말을 해 버렸네. 미안하다. <value:$28>, 뭐 하고 서 있어. 돌아가자.<end>"
+
 ["660088"]
 japanese = "そんな。<line-break>まだ、いらっしゃったばかりですわ。<end>"
 korean = "그럴 수가. 아직 오신 지 얼마 되지도 않았는데요.<end>"
@@ -303,6 +307,10 @@ korean = "…아, <value:$28>님. 꼭 다시 와 주세요.<end>"
 ["660163"]
 japanese = "フフ、<line-break>酒のニオイはお嫌いかな？<end>"
 korean = "후후, 술 냄새는 싫은가?<end>"
+
+["660165"]
+japanese = "血のニオイね。<line-break>よかったよ。少なくとも<line-break>血もナミダもない奴じゃあないわけだ。<line-break>俺にしても、<line-break>エリスの叔母貴にしてもな。<end>"
+korean = "피 냄새군. 다행이야. 적어도 피도 눈물도 없는 녀석은 아니라는 거지. 나도, 엘리스 숙모도 말이야.<end>"
 
 ["660166"]
 japanese = "くだらない<line-break>へりくつですわ。<end>"

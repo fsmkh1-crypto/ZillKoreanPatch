@@ -188,6 +188,10 @@ korean = "평소의 레몬이 아니야. 방심하지 마, <value:$28>!<end>"
 japanese = "んー…、<line-break>やりすぎたかな？<end>"
 korean = "음…, 너무 심했나?<end>"
 
+["440084"]
+japanese = "いや、俺は帰っとくわ。<line-break>俺に助けられたなんて知ったら、<line-break>かえって面倒になりそうだからな。<line-break>そんじゃ、おやすみな。<line-break><value:$28>。<end>"
+korean = "아니, 난 돌아갈게. 내가 도와줬다는 걸 알면 오히려 더 귀찮아질 것 같아서. 그럼 잘 자, <value:$28>.<end>"
+
 ["440085"]
 japanese = "…<value:$28>。<line-break>ここで…何を…？<line-break>　<line-break>！！<end>"
 korean = "…<value:$28>. 여기서… 뭘…? !!<end>"

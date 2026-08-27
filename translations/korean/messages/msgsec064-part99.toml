@@ -316,6 +316,10 @@ korean = "아, 벌써 돌아가시나요?<end>"
 japanese = "残念です。<line-break>また、いらしてくださいね。<end>"
 korean = "아쉽네요. 다음에 또 와 주세요.<end>"
 
+["640174"]
+japanese = "…ごめんなさい。<line-break>みっともない話を聞かせてしまって。<line-break>　<line-break>でも…王宮なんて、そんな所です。<line-break>外見は立派でも、中身は…。<end>"
+korean = "…미안해요. 보기 흉한 이야기를 들려드렸네요. 하지만… 왕궁이란 그런 곳이에요. 겉은 훌륭해도 속은….<end>"
+
 ["640177"]
 japanese = "あ、もうお帰りなのですか？<end>"
 korean = "아, 벌써 돌아가시나요?<end>"
@@ -347,6 +351,10 @@ korean = "여전히 바쁘시군요. 그래도 안심했어요. 아주 건강해
 ["640189"]
 japanese = "あの方は、今日もどこかで、<line-break>飲んでおいでですの？<end>"
 korean = "그분은 오늘도 어딘가에서 술을 드시고 계신가요?<end>"
+
+["640191"]
+japanese = "もちろん、<line-break>あの方の妻になる気など<line-break>少しもありませんけど。　<line-break>ああ…、考えただけで<line-break>気分が悪くなってきたわ。<line-break>　<end>"
+korean = "물론 그분의 아내가 될 생각은 조금도 없지만요. 아아… 생각만 해도 속이 안 좋아지네요.<end>"
 
 ["640192"]
 japanese = "ごめんなさい。<line-break>せっかく<value:$28>様が<line-break>来てくださったというのに…。<end>"
