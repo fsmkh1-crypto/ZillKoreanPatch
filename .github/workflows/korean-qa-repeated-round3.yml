@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'tools/korean/qa-fix-repeated-high-confidence-round3.py'
+      - 'tools/korean/qa-fix-balor-exact-residue.py'
       - '.github/workflows/korean-qa-repeated-round3.yml'
 
 permissions:
@@ -23,7 +24,9 @@ jobs:
       - name: Baseline QA-3
         run: python3 tools/korean/qa-consistency.py --json /tmp/before.json --max-examples 0
       - name: Apply contextual repeated-source normalization
-        run: python3 tools/korean/qa-fix-repeated-high-confidence-round3.py
+        run: |
+          python3 tools/korean/qa-fix-repeated-high-confidence-round3.py
+          python3 tools/korean/qa-fix-balor-exact-residue.py
       - name: Validate normalized corpus
         run: |
           ./zill korean-check
