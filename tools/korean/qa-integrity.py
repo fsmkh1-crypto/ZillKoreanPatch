@@ -24,6 +24,7 @@ from control_tags import fixed_tokens  # noqa: E402
 
 JP_RE = re.compile(r"[\u3040-\u30ff]")
 ANGLE_RE = re.compile(r"<[^<>]*>")
+SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:-part\d+)?\.toml$")
 LINE_BREAK = "<line-break>"
 
 
@@ -47,13 +48,20 @@ def scan() -> dict[str, object]:
     critical: list[dict[str, object]] = []
     advisory: list[dict[str, object]] = []
     counts: Counter[str] = Counter()
+    canonical_cache: dict[int, dict[str, dict[str, object]]] = {}
 
     paths = sorted(KOREAN_DIR.glob("msgsec*.toml"))
     for path in paths:
-        section = int(path.stem.removeprefix("msgsec"))
-        canonical_path = CANONICAL_DIR / path.name
+        match = SECTION_FILE_RE.match(path.name)
+        if not match:
+            critical.append(issue("unrecognized_section_filename", -1, path.name))
+            continue
+        section = int(match.group(1))
+        if section not in canonical_cache:
+            canonical_path = CANONICAL_DIR / f"msgsec{section:03d}.toml"
+            canonical_cache[section] = load_toml(canonical_path) if canonical_path.exists() else {}
+        canonical_data = canonical_cache[section]
         korean_data = load_toml(path)
-        canonical_data = load_toml(canonical_path) if canonical_path.exists() else {}
 
         counts["files"] += 1
         counts["records"] += len(korean_data)
