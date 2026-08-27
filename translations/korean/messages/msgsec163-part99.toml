@@ -4,6 +4,10 @@
 japanese = "アンギルダン・ボリューム３２用開始<end>"
 korean = "앙길단 볼륨 32용 시작<end>"
 
+["1630001"]
+japanese = "朱雀将軍から承っております。<line-break>どうぞお通りください！<end>"
+korean = "주작장군께 말씀 들었습니다. 들어가십시오!<end>"
+
 ["1630002"]
 japanese = "よく来てくれた、　　　　　　　　<line-break><value:$28>。<end>"
 korean = "잘 와 주었구나, <value:$28>.<end>"
