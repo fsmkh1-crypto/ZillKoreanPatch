@@ -2288,6 +2288,10 @@ korean = "<select><value:$20>%3…나 있잖아, <value:$28>를 만나는 게 �
 japanese = "<value:$28>、<line-break>ありがとう。<line-break>ホント救われてるわ、私たち。<line-break>なんか、家族みたい。<line-break>同い年くらいのはずなのに<line-break>なんだろう、姉さんみたいな存在だよ。<end>"
 korean = "<value:$28>,고마워.정말 큰 도움을 받고 있어, 우리.뭔가 가족 같아.비슷한 나이일 텐데도뭐랄까, 언니 같은 존재야.<end>"
 
+["1350579"]
+japanese = "<select><value:$20>%3私より、ヴァイに話しかけてあげてよ。<line-break>あの子、本心を隠して<line-break>いつも自分だけガマンしちゃうんだ。<line-break>だけど、ホントにつらいのは<line-break>私みたいにすぐ泣いちゃう子じゃなくて<line-break>きっとヴァイみたいな子だから…。<end>兄さんは、お兄ちゃんって<line-break>呼ばれるのが嫌いでさ、<line-break>そう呼ぶといつも怒ってた。<line-break>ゴメン。つまんない思い出話して<line-break>だけど不思議。<value:$28>には<line-break>こんな話が自然にできちゃうんだ。<end>お兄ちゃんは私たちを助けるため<line-break>重い呪いを受けて身体がボロボロなんだ。<line-break>ものすごく心配だよ。<line-break>ゴメンね、こんな話して<line-break>でも、こんな話できるの<line-break><value:$28>だけなんだ。<end>"
+korean = "<select><value:$20>%3나보다 바이한테 말 좀 걸어 줘. 그 애는 속마음을 숨기고 늘 혼자 참아 버리거든. 하지만 정말 괴로운 건 나처럼 금방 울어 버리는 애가 아니라 바이 같은 애일 테니까….<end>오빠는 '오빠'라고 불리는 걸 싫어해서 그렇게 부르면 늘 화냈어. 미안, 재미없는 추억 얘기나 해서. 그런데 신기해. <value:$28>에게는 이런 얘기도 자연스럽게 하게 되네.<end>오빠는 우리를 구하려고 무거운 저주를 받아 몸이 엉망이야. 정말 걱정돼. 미안해, 이런 얘기 해서. 하지만 이런 얘기를 할 수 있는 건 <value:$28>뿐이야.<end>"
+
 ["1350580"]
 japanese = "<select><value:$20>%3…お兄ちゃんは<line-break>私たちにだけはやさしかったんだ。<line-break>すごく、ね。<end>すごく心配だよ。<line-break>ねえ、<value:$28>、<line-break>本当に何も情報ない？<end>心配、だな…<end>"
 korean = "<select><value:$20>%3…오빠는우리에게만은 다정했어.정말로.<end>정말 걱정돼.있지, <value:$28>,정말 아무 정보도 없어?<end>걱정되네…<end>"

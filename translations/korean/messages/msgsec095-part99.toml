@@ -216,6 +216,10 @@ korean = "네 활약으로 지금 이곳에 해방되었다…. 우선 네놈부
 japanese = "邪竜シャンマ…！<end>"
 korean = "사룡 샨마…!<end>"
 
+["950056"]
+japanese = "<if><value:$01><equal>4う～ん、アカデミーで習ったかも…。<line-break>ボルキスに敗れて王になり損なった<line-break>ドワーフの戦士ダナンは…<line-break>えと、確か…、<line-break>ボルキスに退治された邪竜シャンマと<line-break>融合し、力を得て…<end><if><value:$01><equal>8さて、いよいよ…。<end><if><value:$01><equal>9おっさん、おっさん。<line-break>あんた、ほんとにダナン？<end><if><value:$01><equal>11…ダナン？<line-break>彼、さっき、<line-break>ドワーフのダナンって言ったわよね。<line-break>ということは、彼が、<line-break>邪竜シャンマと融合した<line-break>ドワーフの戦士ダナン…！？<end><if><value:$01><equal>16さて…、これからだな。<end><if><value:$01><equal>20…感じる。<end>終わった…のか？<end>"
+korean = "<if><value:$01><equal>4음~ 아카데미에서 배운 것 같기도…. 볼키스에게 패해 왕이 되지 못한 드워프 전사 다난은… 어, 분명… 볼키스에게 퇴치된 사룡 샨마와 융합해 힘을 얻고…<end><if><value:$01><equal>8자, 드디어….<end><if><value:$01><equal>9아저씨, 아저씨. 당신 정말 다난이야?<end><if><value:$01><equal>11…다난? 저 사람, 아까 드워프 다난이라고 했지. 그렇다면 저 사람이 사룡 샨마와 융합한 드워프 전사 다난…!?<end><if><value:$01><equal>16자… 이제부터군.<end><if><value:$01><equal>20…느껴져.<end>끝난… 건가?<end>"
+
 ["950057"]
 japanese = "<if><value:$01><equal>4きゃん！<line-break>もしかして…！<end>しっ…！<end>"
 korean = "<if><value:$01><equal>4꺅! 혹시…!<end>쉿…!<end>"

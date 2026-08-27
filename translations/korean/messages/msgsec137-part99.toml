@@ -1336,6 +1336,10 @@ korean = "<select><value:$20>%3로이 님 말씀이십니까? 벌써 광장이�
 japanese = "父なる天空神ノトゥーンと<line-break>愛の神ライラネートのご加護あらんことを。<line-break><value:$28>様、よくぞご無事で。<line-break>さ、早く神殿へ。<line-break>お父上のダディアス様が<line-break>心配なさっておられますよ。<end>"
 korean = "아버지이신 천공신 노툰과 사랑의 신 라이라네트의 가호가 있기를. <value:$28> 님, 무사하셔서 다행입니다. 자, 어서 신전으로. 아버님 다디아스 님께서 걱정하고 계십니다.<end>"
 
+["1370335"]
+japanese = "<select><value:$20>%3<value:$28>様に<line-break>愛の神ライラネートのご加護を…。<line-break>　<line-break>そして、<value:$28>様の敵に<line-break>天空神ノトゥーンの<line-break>裁きのいかづちを…。<end>このミイスの村は<line-break>闇の神器を闇のしもべから<line-break>守るための隠れ里…。<line-break>闇の神器は破壊神の復活に使われるもの。<line-break>だから、破壊神のしもべがねらうのです。<end>私もこの神殿の神器が<line-break>どのようなものかは存じません。<line-break>　<line-break>隠れて伝わる伝承では<line-break>記憶を失うかわりに<line-break>すさまじい力を手に入れられるとか…。<end>"
+korean = "<select><value:$20>%3<value:$28> 님께 사랑의 신 라이라네트의 가호를…. 그리고 <value:$28> 님의 적에게 천공신 노툰의 심판의 벼락을….<end>이 미이스 마을은 어둠의 신기를 어둠의 종복에게서 지키기 위한 숨겨진 마을…. 어둠의 신기는 파괴신의 부활에 쓰이는 물건. 그래서 파괴신의 종복이 노리는 것입니다.<end>저도 이 신전의 신기가 어떤 것인지는 모릅니다. 은밀히 전해지는 전승에 따르면 기억을 잃는 대신 엄청난 힘을 얻을 수 있다더군요….<end>"
+
 ["1370336"]
 japanese = "…アンティノ商会が極秘開発中の<line-break>戦闘用モンスター…デスギガース。<line-break>…やはり、そういうことか。<end>"
 korean = "…안티노 상회가 극비 개발 중인 전투용 몬스터… 데스기가스. …역시 그런 거였나.<end>"
@@ -1475,6 +1479,10 @@ korean = "<if><value:$29><equal>%0<value:$28>. 괴물이 돌아다니는 미이�
 ["1370370"]
 japanese = "<if><value:$29><equal>%0…<value:$28>…な…の？<line-break>に…逃げ…て…、は…早…く…　　<line-break>　<line-break>…わ…私…もう…ダメ…だから…<line-break>キ…キミ…だけでも…<end>イ…イヤ…死にたく…ない…<line-break>か、かめ…ん…なんて…<line-break>ホント…知らな…い…<end>"
 korean = "<if><value:$29><equal>%0…<value:$28>…인…가? 도…도망…쳐… 어…어서… …나…난… 이제… 틀렸…으니까… 너…너라도…<end>아…안 돼… 죽기 싫…어… 가, 가면… 같은 건… 정말… 몰라…<end>"
+
+["1370371"]
+japanese = "<select><value:$20>%3今の地震といい魔物騒ぎといい…、<line-break>天空神ノトゥーンさまが<line-break>お怒りなのかのう…。<line-break>ロセンでは悪い王が<line-break>民をいじめておるからのう。<end>今の地震といい魔物騒ぎといい…、<line-break>天空神ノトゥーンさまが<line-break>お怒りなのかのう…。　<line-break>ディンガルでは皇帝が<line-break>世界を救った勇者ネメア様を<line-break>いじめておるというからのう…。<end>今の地震といい魔物騒ぎといい…、<line-break><value:$28>様、<line-break>世界は滅ぶのではないですかのう。　　　　<line-break>リベルダムでは魔物を改造して<line-break>戦争のための道具にしておるそうですじゃ。<line-break>これでは神様もお怒りでしょうのう。<end>"
+korean = "<select><value:$20>%3이번 지진도 그렇고 마물 소동도 그렇고… 천공신 노툰 님이 노하신 걸까…. 로센에서는 나쁜 왕이 백성을 괴롭히고 있으니 말이야.<end>이번 지진도 그렇고 마물 소동도 그렇고… 천공신 노툰 님이 노하신 걸까…. 딩갈에서는 황제가 세계를 구한 용사 네메아 님을 괴롭힌다니 말이야….<end>이번 지진도 그렇고 마물 소동도 그렇고… <value:$28> 님, 세계가 멸망하는 건 아닐까요. 리벨덤에서는 마물을 개조해 전쟁 도구로 쓴다더군요. 이래서는 신께서도 노하실 겁니다.<end>"
 
 ["1370372"]
 japanese = "<select><value:$20>%3ロイ様は修行の旅から戻られて<line-break>いっそうたくましくなられましたな。<line-break>　<line-break>少々魔物がうろついたところで、<line-break>ロイ様と<value:$28>様が<line-break>おられれば安心ですな。<end><value:$28>様もロイ様のように、<line-break>神器の守護者としての実力をつけるため<line-break>いずれは旅に出られるのでしょうなあ。<end>ロイ様の持っておられる短剣は<line-break>日光という聖剣らしいですな。<line-break>修行の旅の途中見つけられたとか。<end>"

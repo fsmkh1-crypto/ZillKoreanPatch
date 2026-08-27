@@ -168,6 +168,10 @@ korean = "오히려 시작일지도 모르지.<end>"
 japanese = "あわてるな。<line-break>今からテレポートで脱出する。<line-break>私の周りに集まれ。<end>"
 korean = "서두르지 마라. 지금부터 텔레포트로 탈출한다. 내 주변으로 모여라.<end>"
 
+["400044"]
+japanese = "<if><value:$01><equal>2すごい…。<line-break>一瞬で、<line-break>リベルダムに着いたわ。 <end><if><value:$01><equal>6すごい…。<line-break>一瞬で、<line-break>リベルダムに着いちゃった。 <end><if><value:$01><equal>19すっごーい！　すごいすごい！<line-break>一瞬で、<line-break>リベルダムに着いちゃったぁ。 <end><if><value:$01><equal>22すごいなぁ！<line-break>一瞬で、<line-break>リベルダムに着いちゃった。 <end><if><value:$01><equal>193すごいです！<line-break>一瞬で、<line-break>リベルダムに着いちゃいました。<end><if><value:$01><equal>191すごいわね。<line-break>一瞬でリベルダムに着いたわ。<end>すごい…。<line-break>一瞬で、<line-break>リベルダムに…。 <end>"
+korean = "<if><value:$01><equal>2대단해…. 한순간에 리벨덤에 도착했어. <end><if><value:$01><equal>6대단해…. 한순간에 리벨덤에 도착해 버렸어. <end><if><value:$01><equal>19대단해애! 대단해 대단해! 한순간에 리벨덤에 도착해 버렸어어. <end><if><value:$01><equal>22대단하다! 한순간에 리벨덤에 도착해 버렸어. <end><if><value:$01><equal>193대단합니다! 한순간에 리벨덤에 도착해 버렸어요.<end><if><value:$01><equal>191대단하네. 한순간에 리벨덤에 도착했어.<end>대단해…. 한순간에 리벨덤에…. <end>"
+
 ["400045"]
 japanese = "ネメアさん、<line-break>ありがとうございました！<end>"
 korean = "네메아 씨, 감사합니다!<end>"

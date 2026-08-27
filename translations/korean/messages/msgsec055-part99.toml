@@ -88,6 +88,10 @@ korean = "봐! 이 사람들 모두 같은 문신을 하고 있어… 천공신 
 japanese = "うん、行ってみようよ。<line-break>すっごく、気になるしさ。<end>"
 korean = "응, 가 보자. 엄청 신경 쓰이기도 하고.<end>"
 
+["550022"]
+japanese = "<if><value:$01><equal>13…みな同じ刺青がある。　<line-break>…天空神の紋章に似た模様。<line-break>そうか、これが…。<end><if><value:$01><equal>15ねえ、<value:$28>、<line-break>みんな同じ刺青があるよ。<line-break><line-break>ほら、テラネにもある天空神の<line-break>紋章に似てるけど…<line-break>なんか、気味が悪いね…。<end><if><value:$01><equal>14なんと！　　　　　<line-break>どいつもこいつも<line-break>同じ刺青をしておる。<end><if><value:$01><equal>19ねぇ、見て、見て、見てぇ！<line-break>みんな同じ目玉の　　　　　<line-break>刺青してるよぉ！<end>姉ちゃん、大発見だ！<line-break>こいつら、みんな同じ刺青してる。<line-break><line-break>なんだろう、この模様…。<line-break>目玉みたいだ！<end>"
+korean = "<if><value:$01><equal>13…모두 같은 문신이 있어. …천공신의 문장과 비슷한 무늬. 그런가, 이게….<end><if><value:$01><equal>15있지, <value:$28>, 다들 같은 문신이 있어. 봐, 테라네에도 있는 천공신의 문장과 비슷한데… 뭔가 기분 나쁘네….<end><if><value:$01><equal>14이럴 수가! 하나같이 같은 문신을 하고 있구나.<end><if><value:$01><equal>19있지, 봐 봐 봐아! 다들 똑같은 눈알 문신을 하고 있어어!<end>누나, 대발견이야! 얘들 전부 같은 문신을 하고 있어. 뭐지, 이 무늬…. 눈알 같아!<end>"
+
 ["550023"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"
@@ -339,6 +343,10 @@ korean = "<if><value:$01><equal>22아이린, 그건 아니야. 좀 심하다고 
 ["550085"]
 japanese = "<if><value:$01><equal>22<value:$28>のこと<line-break>考えてるのはわかるけどさ。<line-break>きみ、彼の悪い保護者になってるよ。<end><if><value:$01><equal>15<value:$28>のこと考えてるの<line-break>わかるけど。君、<value:$28>の<line-break>悪い保護者になってるよ。　　　　　<end><value:$28>のこと考えてるの<line-break>わかるけど、もっと、<line-break>アイリーンも理解してあげなきゃ。<end>"
 korean = "<if><value:$01><equal>22<value:$28>를 생각하는 건 알겠지만 말이야. 너, 그 애한테 나쁜 보호자가 되고 있어.<end><if><value:$01><equal>15<value:$28>를 생각하는 건 알겠지만. 너, <value:$28>한테 나쁜 보호자가 되고 있어.<end><value:$28>를 생각하는 건 알겠지만, 아이린도 좀 더 이해해 줘야 해.<end>"
+
+["550086"]
+japanese = "<if><value:$01><equal>22ぼくたちは、大丈夫だよ。<line-break>ちょっと、意識が遠くなったけど。<line-break>　<line-break>さ、アイリーンの言うとおり<line-break>あいつを追わなきゃ、だよ！<line-break><value:$28>。<end><if><value:$01><equal>15僕らは、大丈夫だよ。<line-break>ちょっと、意識が遠くなったけど。<line-break>　<line-break>ねえ、アイリーンの言うとおり<line-break>あいつを追わなくちゃ。<line-break><value:$28>。<end>ルルアンタたちは、大丈夫だよぉ。<line-break>ちょっと、クラッとなったけど。<line-break>　<line-break>さ、アイリーンの言うとおり<line-break>あいつを追わなきゃ！<line-break><value:$28>。<end>"
+korean = "<if><value:$01><equal>22우린 괜찮아. 잠깐 의식이 멀어지긴 했지만. 자, 아이린 말대로 녀석을 쫓아가야 해! <value:$28>.<end><if><value:$01><equal>15우린 괜찮아. 잠깐 의식이 멀어지긴 했지만. 있지, 아이린 말대로 녀석을 쫓아가야 해. <value:$28>.<end>루루안타 일행은 괜찮아아. 잠깐 어질했을 뿐이야. 자, 아이린 말대로 녀석을 쫓아가야 해! <value:$28>.<end>"
 
 ["550087"]
 japanese = "アイリーン、過保護な母親みたいね！<line-break><value:$28>はマザコンの子供！<line-break>　<line-break>人間って個の自立が足りなくてよ。<line-break>甘えて、依存して、馴れ合って<line-break>それで友情とか絆とか言っちゃって！<end>"

@@ -344,6 +344,10 @@ korean = "어?<end>"
 japanese = "ペウダの奴、<line-break>追っ手をかけるはずよ。<line-break>さあ、急いで逃げるわよ。<end>"
 korean = "페우다 녀석, 추격자를 보낼 거야. 자, 서둘러 도망치자.<end>"
 
+["840090"]
+japanese = "<if><value:$01><equal>5<value:$28>、大丈夫か！？ <end><if><value:$01><equal>12大丈夫か、<value:$28>！？ <end><if><value:$01><equal>13…どうやら<line-break>無事のようだな。 <end><if><value:$01><equal>10姉ちゃん、大丈夫か！？ <end><if><value:$01><equal>14<value:$28>、無事か！？ <end><if><value:$01><equal>20無事のようだな。 <end><if><value:$01><equal>11無事のようね。 <end><if><value:$01><equal>23無事のようだな。 <end><if><value:$01><equal>27大丈夫か、<value:$28>！？ <end><if><value:$01><equal>26<value:$28>、無事か！？ <end><if><value:$01><equal>24<value:$28>様、ご無事ですか？！<end><if><value:$01><equal>25大丈夫！？ <end><if><value:$01><equal>193大丈夫ですか、<line-break><value:$28>さん！？<end><if><value:$01><equal>191よかった、無事みたいね。<end><value:$28>、大丈夫！？ <end>"
+korean = "<if><value:$01><equal>5<value:$28>, 괜찮아!? <end><if><value:$01><equal>12괜찮아, <value:$28>!? <end><if><value:$01><equal>13…아무래도 무사한 모양이군. <end><if><value:$01><equal>10누나, 괜찮아!? <end><if><value:$01><equal>14<value:$28>, 무사한가!? <end><if><value:$01><equal>20무사한 모양이군. <end><if><value:$01><equal>11무사한 것 같네. <end><if><value:$01><equal>23무사한 모양이군. <end><if><value:$01><equal>27괜찮아, <value:$28>!? <end><if><value:$01><equal>26<value:$28>, 무사한가!? <end><if><value:$01><equal>24<value:$28> 님, 무사하십니까?!<end><if><value:$01><equal>25괜찮아!? <end><if><value:$01><equal>193괜찮으세요, <value:$28> 씨!?<end><if><value:$01><equal>191다행이야, 무사한 것 같네.<end><value:$28>, 괜찮아!? <end>"
+
 ["840091"]
 japanese = "こんなところまで<line-break>駆けつけてくれるなんて、<line-break>心の通じ合った仲間は違うねー。<line-break>でも、なんか、あたしたちが<line-break>怪物を倒すのを待ってたような<line-break>タイミングだよね～。<end>"
 korean = "이런 곳까지 달려와 주다니, 마음이 통하는 동료는 역시 다르네. 그런데 우리가 괴물을 쓰러뜨리길 기다렸던 것 같은 타이밍이네.<end>"

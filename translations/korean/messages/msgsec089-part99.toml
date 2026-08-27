@@ -752,6 +752,10 @@ korean = "그래… 어쩔 수… 없네.<end>"
 japanese = "ありがとう、<line-break>さがってくれていいわ。<end>"
 korean = "고마워, 이제 물러가도 돼.<end>"
 
+["890203"]
+japanese = "<if><value:$01><equal>4ザギヴはショック状態みたいだわ。<line-break>どうしよっかな…<end><if><value:$01><equal>5ちっ、使えない奴だな。<line-break>いきなりショック状態だなんて…<end><if><value:$01><equal>13…ショック状態だな。<line-break>…危険な状態だ。<end><if><value:$01><equal>14どうしたことじゃ。<line-break>あのスライムがでてきよったら、<line-break>いきなりこの有様じゃ。<end><if><value:$01><equal>17なぁーに？　<line-break><end>あきれちゃうわ！　<line-break>信じられないわ！！<line-break>あのスライムが出てきたら<line-break>いきなり錯乱状態？<line-break>これだから下等生物はっ！<end>………………<end>"
+korean = "<if><value:$01><equal>4자기브가 쇼크 상태인 것 같아. 어떡하지…<end><if><value:$01><equal>5쳇, 쓸모없는 녀석이군. 갑자기 쇼크 상태라니…<end><if><value:$01><equal>13…쇼크 상태군. …위험한 상태다.<end><if><value:$01><equal>14무슨 일인 게야. 저 슬라임이 나오자마자 갑자기 이 꼴이 되다니.<end><if><value:$01><equal>17뭐어야? <end>기가 막혀! 믿을 수가 없네!! 저 슬라임이 나오자마자 갑자기 착란 상태라고? 이래서 하등생물이란!<end>………………<end>"
+
 ["890205"]
 japanese = "姉ちゃん、どうしよう。<line-break>ザギヴはショック状態みたいだ。<line-break>　<line-break>…ここに、置いてっちゃおうか？<end>"
 korean = "누나, 어떡하지. 자기브는 충격에 빠진 것 같아. …여기 두고 갈까?<end>"

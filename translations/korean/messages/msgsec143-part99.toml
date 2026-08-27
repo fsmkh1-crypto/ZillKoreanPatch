@@ -56,6 +56,10 @@ korean = "예, 옙.<end>"
 japanese = "聞いてのとおり、<line-break>私はヒルダリア。<line-break>　<line-break>あんたたちの力、<line-break>試させてもらったよ。<end>"
 korean = "들었겠지만 나는 힐다리아야. 너희 실력, 시험해 봤어.<end>"
 
+["1430015"]
+japanese = "<if><value:$01><equal>3試したじゃと！？ <end><if><value:$01><equal>5試したぁ？ <end><if><value:$01><equal>13…試した、だと？ <end><if><value:$01><equal>10試したぁ？ <end><if><value:$01><equal>14試したじゃと！？ <end><if><value:$01><equal>17た、た、試したですって？ <end><if><value:$01><equal>20…試した、だと？ <end><if><value:$01><equal>21…試した、だと？ <end><if><value:$01><equal>23…試した、だと？ <end><if><value:$01><equal>26試したじゃと！？ <end><if><value:$01><equal>24試したのですか？！<end><if><value:$01><equal>192試した？<end><if><value:$01><equal>193試したって…？<end><if><value:$01><equal>194試しただって！？<end><if><value:$01><equal>191試した？<end><if><value:$01><equal>190試しただと？<end>試した！？ <end>"
+korean = "<if><value:$01><equal>3시험해 봤다고!? <end><if><value:$01><equal>5시험했다고? <end><if><value:$01><equal>13…시험해 봤다고? <end><if><value:$01><equal>10시험했다고? <end><if><value:$01><equal>14시험해 봤다고!? <end><if><value:$01><equal>17시, 시, 시험해 봤다고요? <end><if><value:$01><equal>20…시험해 봤다고? <end><if><value:$01><equal>21…시험해 봤다고? <end><if><value:$01><equal>23…시험해 봤다고? <end><if><value:$01><equal>26시험해 봤다고!? <end><if><value:$01><equal>24시험해 보신 겁니까?!<end><if><value:$01><equal>192시험해 봤어?<end><if><value:$01><equal>193시험해 봤다고…?<end><if><value:$01><equal>194시험해 봤다고!?<end><if><value:$01><equal>191시험해 봤어?<end><if><value:$01><equal>190시험해 봤다고?<end>시험해 봤다고!? <end>"
+
 ["1430016"]
 japanese = "…怒るのも当然ね。<line-break>確かに汚いやり方だった。<line-break>その点は謝るわ。<line-break>でも、これで、<line-break>あんたたちが筋金入りの冒険者だって<line-break>ことがわかった。<end>"
 korean = "…화낼 만도 하지. 확실히 더러운 방법이었어. 그 점은 사과할게. 하지만 이걸로 너희가 뼛속까지 모험자라는 건 알았어.<end>"
@@ -219,6 +223,10 @@ korean = "예, 두목!<end>"
 ["1430058"]
 japanese = "もし、大イカを退治する気になったら、<line-break>この先の砦に来てちょうだい。<line-break>　<line-break>待ってるわ。<end>"
 korean = "대왕오징어를 퇴치할 마음이 생기면 이 앞의 요새로 와. 기다릴게.<end>"
+
+["1430060"]
+japanese = "<if><value:$01><equal>4<value:$28>ったら<line-break>意外と真剣な目つき…。<line-break>まさか大イカと戦うつもりかしら。 <end><if><value:$01><equal>15大イカ退治の依頼、どうしよう？<line-break>引き受けるかどうかは<line-break><value:$28>が決めて。 <end><if><value:$01><equal>12大イカ退治の依頼、どうする？<line-break>引き受けるかどうかは<line-break><value:$28>が決めてくれ。 <end><if><value:$01><equal>19ねぇ、<value:$28>。<line-break>大イカ退治の依頼、<line-break>どーするのぉ？ <end>大イカって、どのくらい大きいのかな。<line-break>あまり、キレイじゃないだろうけど、<line-break>僕、見てみたいな。 <end>"
+korean = "<if><value:$01><equal>4<value:$28>도 의외로 진지한 눈빛이네…. 설마 대왕오징어와 싸울 생각인가. <end><if><value:$01><equal>15대왕오징어 퇴치 의뢰, 어떻게 할까? 맡을지는 <value:$28>가 정해. <end><if><value:$01><equal>12대왕오징어 퇴치 의뢰, 어떻게 할래? 맡을지는 <value:$28>가 정해 줘. <end><if><value:$01><equal>19저기, <value:$28>. 대왕오징어 퇴치 의뢰, 어떡할 거야아? <end>대왕오징어는 얼마나 클까. 별로 예쁘진 않겠지만 나도 한번 보고 싶어. <end>"
 
 ["1430061"]
 japanese = "おかしら、<line-break>こいつ、どうします？<end>"

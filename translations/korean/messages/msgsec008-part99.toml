@@ -8,13 +8,25 @@ korean = "<select><value:$20>%2자세히는 듣지 못했지만 이 땅에는 �
 japanese = "<if><value:$2C><less-equal>%49この近くに、はざまの塔があるんだ。<line-break>そこには研究室のような部屋があるんだが、<line-break>誰もいないんだよ。不思議だよな。<end><if><value:$2C><less-equal>%100この近くにアハブって町の廃墟があるんだ。　<line-break>レムゲドンの時代に太守のアハブが聖光石を<line-break>手に入れようとして滅ばされたんだとよ。<line-break>疫病の魔法を使って皆殺しにしたっていうから<line-break>住人の恨みや苦しみもすごかったんだろうな。<line-break>今じゃ悪霊、死霊のたまり場だよ。<end><if><value:$2C><less-equal>%120死霊や悪霊はたいてい闇属性だから、<line-break>聖属性の魔法や武器が有効なんだぜ。<end>この地には<line-break>世界を滅ぼすほど強大な力を持つ<line-break>邪竜がいたと言う。<end>"
 korean = "<if><value:$2C><less-equal>%49이 근처에 틈새의 탑이 있어. 거기에는 연구실 같은 방이 있는데 아무도 없더라고. 이상하지.<end><if><value:$2C><less-equal>%100이 근처에 아하브라는 마을의 폐허가 있어. 렘게돈 시대에 태수 아하브가 성광석을 손에 넣으려다 멸망했다더군. 역병 마법으로 몰살시켰다니 주민들의 원한과 고통도 엄청났겠지. 지금은 악령과 사령의 소굴이야.<end><if><value:$2C><less-equal>%120사령이나 악령은 대개 어둠 속성이니까 성 속성 마법이나 무기가 효과적이야.<end>이 땅에는 세계를 멸망시킬 만큼 강대한 힘을 지닌 사룡이 있었다고 한다.<end>"
 
+["80006"]
+japanese = "<if><value:$2A><less-equal>%49俺たち傭兵は生き残ることにすべてをかけてる。<line-break>それはあんたら冒険者でも同じだろ？<line-break>死んじまったら何にもならないからなあ。<end><if><value:$2A><less-equal>%100最近、<value:$28>なんて<line-break>名前の冒険者がいるらしいな。<line-break>あんたも知っているかい？<end><if><value:$2A><less-equal>%130傭兵仲間のあいだで、<value:$2B>と<line-break>剣聖レーグはどっちが強いかって<line-break>いうのが話題になってるんだ。<line-break>俺は<value:$2B>のほうが<line-break>強いと思ってるんだがな。<line-break>あんたはどっちだと思う？<end>おぉ！　<value:$28>に会えるなんてっ！<line-break>俺はなんて運のよい男なんだ。<line-break>ノトゥーンに感謝しないとな。<end>"
+korean = "<if><value:$2A><less-equal>%49우리 용병은 살아남는 데 모든 걸 걸지. 그건 너희 모험자도 마찬가지겠지? 죽으면 아무 의미도 없으니까.<end><if><value:$2A><less-equal>%100요즘 <value:$28>라는 이름의 모험자가 있다더군. 너도 알아?<end><if><value:$2A><less-equal>%130용병들 사이에서 <value:$2B>와 검성 레그 중 누가 더 강한지가 화제야. 난 <value:$2B> 쪽이 더 강하다고 보는데. 넌 어떻게 생각해?<end>오오! <value:$28>를 만나다니! 난 정말 운 좋은 남자야. 노툰께 감사해야겠군.<end>"
+
 ["80007"]
 japanese = "<select><value:$20>%2あんたレーグを知っているか？　　　　　　<line-break>剣聖の名で知られている最強の男。<line-break>俺たちボルダンの誇り、そして英雄だ。<line-break>かつて勇者ネメアたちと魔王バロルを<line-break>倒して世界を救ったこともある。<line-break>俺もあんな強い男になりたいと思っている。<end>レーグが持つ２本の剣、剛刃、閃刃は剣聖の証。<line-break>昔、神聖王サラミスの粛清から逃げる人々を<line-break>リベルダムまで守り、導いた英雄が愛用した剣だ。<line-break>最強の男が最強の武器を振るい戦う姿…、<line-break>なんと美しいことではないか。<end>"
 korean = "<select><value:$20>%2너 레그를 알고 있나? 검성이라 불리는 최강의 남자. 우리 볼단의 자랑이자 영웅이지. 예전에 용사 네메아 일행과 마왕 바롤을 쓰러뜨려 세계를 구한 적도 있어. 나도 저렇게 강한 남자가 되고 싶어.<end>레그가 지닌 두 자루의 검, 강인과 섬인은 검성의 증표다. 옛날 신성왕 살라미스의 숙청에서 도망치는 사람들을 리벨덤까지 지키고 이끌었던 영웅이 애용하던 검이지. 최강의 남자가 최강의 무기를 휘두르며 싸우는 모습… 얼마나 아름다운가.<end>"
 
+["80009"]
+japanese = "<if><value:$2C><less-equal>%9あんた冒険者としては駆け出しだろ？<line-break>長生きしたかったらアハブにだけは<line-break>近づくんじゃないぞ。<line-break>あそこは死霊でいっぱいだから、<line-break>心の弱い人間が行ったら、<line-break>奴らの餌食になっちまうぞ。<end><if><value:$2C><less-equal>%29古の樹海にはエルフの聖地があるという話だ。<line-break>もっとも人間がどんなに探しても、<line-break>聖地には入れないらしいがな。<end><if><value:$2C><less-equal>%49自分の実力を過信すると死ぬぞ。<line-break>リーダーのミスは仲間も巻き込む。<line-break>よく覚えとけよ。<end>あんたの強さは世界に影響を与える。<line-break>それをよく自覚しておけよ。<end>"
+korean = "<if><value:$2C><less-equal>%9너 모험자로는 풋내기지? 오래 살고 싶다면 아하브에는 절대 가까이 가지 마. 거긴 사령으로 가득해서 마음 약한 인간이 가면 녀석들 먹잇감이 돼.<end><if><value:$2C><less-equal>%29고대의 수해에는 엘프의 성지가 있다는 이야기가 있어. 인간이 아무리 찾아도 성지에는 들어갈 수 없다더군.<end><if><value:$2C><less-equal>%49자기 실력을 과신하면 죽는다. 리더의 실수는 동료까지 휘말리게 해. 잘 기억해 둬.<end>네 강함은 세계에 영향을 준다. 그걸 잘 자각해 둬.<end>"
+
 ["80010"]
 japanese = "<select><value:$20>%4おう、好きな席に座りな。<line-break>金のある限り好きなもんを<line-break>飲ましてやるぜ。<end>俺がこの酒場の看板息子だ。<line-break>たくましくて頼りがいのある<line-break>ナイスガイだろ。<end>自分で言うのもなんだが、　　　　　<line-break>この仕事は俺の天職だと<line-break>思うんだよな。<line-break>こんな山奥の酒場は辞めて<line-break>ロストールででも働いてみるかなあ。<end>どうした。<line-break>俺が看板息子じゃ不満か？<end>"
 korean = "<select><value:$20>%4어, 아무 데나 앉아. 돈 있는 만큼 원하는 걸 마시게 해 줄게.<end>내가 이 술집의 간판 아들이야. 듬직하고 믿음직한 멋진 남자지?<end>내 입으로 말하긴 뭐하지만, 이 일은 내 천직인 것 같아. 이런 산골 술집은 그만두고 로스토올에서라도 일해 볼까.<end>왜 그래. 내가 간판 아들이라 불만이냐?<end>"
+
+["80011"]
+japanese = "<if><value:$2A><less-equal>%49冒険者として名を売るには、<line-break>ギルドで引き受けた仕事を<line-break>期限内に確実に完了させることだ。　　　　　<line-break>小さな信用をこつこつと貯めていけば、<line-break>そのうち大きな仕事も来るようになるからな。<end><if><value:$2A><less-equal>%100あんた、最近がんばっているみたいだな。<line-break><value:$28>だったっけ、<line-break>名前も聞くようになったよ。<end><if><value:$2A><less-equal>%130よう、<value:$28>。<line-break>がんばって仕事をしてるか？<line-break>冒険者もいいが傭兵も捨てたものじゃないよ。<end>よう、<value:$28>。<line-break>あんたが立派になって他人事ながら<line-break>うれしく思うよ。<end>"
+korean = "<if><value:$2A><less-equal>%49모험자로 이름을 알리려면 길드에서 맡은 일을 기한 안에 확실히 끝내는 거다. 작은 신용을 차곡차곡 쌓다 보면 언젠가 큰 일도 들어오게 되니까.<end><if><value:$2A><less-equal>%100너 요즘 열심히 하는 것 같더군. <value:$28>였나, 이름도 들리기 시작했어.<end><if><value:$2A><less-equal>%130여어, <value:$28>. 열심히 일하고 있나? 모험자도 좋지만 용병도 나쁘지 않아.<end>여어, <value:$28>. 네가 훌륭해진 게 남 일 같지 않게 기쁘군.<end>"
 
 ["80015"]
 japanese = "<select><value:$20>%2わーい、イズキヤル！<line-break>こっち、こっちー！<end>遅いぞ、はやくはやく！<end>"

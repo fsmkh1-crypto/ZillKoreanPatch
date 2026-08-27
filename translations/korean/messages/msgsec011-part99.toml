@@ -4,6 +4,14 @@
 japanese = "<if><value:$2C><less-equal>%9風の巫女エア様は、<line-break>天地千年を見通すことが<line-break>できる偉大なお方なのだ。<end><if><value:$2C><less-equal>%29エア様にわからぬことはない。<line-break>エア様の前で、くれぐれも隠し事など<line-break>してはいかんぞ。<end><if><value:$2C><less-equal>%49こうして他国の脅威におびえることなく<line-break>平和に暮らせるのもエア様のおかげだよ。<line-break>わしはいつも感謝しておるのだぞ。<end>君が強いのはよくわかる。<line-break>だからこそ勇み足でエア様を怒らせるような<line-break>ことだけはしないでくれよ。<end>"
 korean = "<if><value:$2C><less-equal>%9바람의 무녀 에아 님은 천지의 천년을 내다볼 수 있는 위대한 분이시다.<end><if><value:$2C><less-equal>%29에아 님께 모르는 것은 없다. 에아 님 앞에서 절대로 숨기는 일이 있어선 안 된다.<end><if><value:$2C><less-equal>%49이렇게 다른 나라의 위협에 떨지 않고 평화롭게 살 수 있는 것도 에아 님 덕분이야. 나는 늘 감사하고 있단다.<end>네가 강하다는 건 잘 안다. 그렇기 때문에 너무 앞서 나가 에아 님을 화나게 하는 일만은 하지 말아 다오.<end>"
 
+["110003"]
+japanese = "<if><value:$2A><less-equal>%49自警団って危険な仕事が多そうだなあ…。<line-break>ボクは腕力に自信がないから<line-break>会計担当でいいよ。<end><if><value:$2A><less-equal>%100自警団っていっても、今までの仕事は<line-break>花壇を荒らしたピクシーをこらしめただけだよ。<line-break>平和すぎて仕事にならないよ～。<end><if><value:$2A><less-equal>%140自警団なんて言っているけど、団員は２人だよ。<line-break>強いモンスターが暴れたりしたらどうしよう…。<line-break><value:$28>のような人が団員ならな～。<end>大陸では戦争で家を焼かれたり家族を失ったり<line-break>した人が大勢いるのに、ここは本当に平和だね。<line-break>これもエア様のおかげなのかな。<end>"
+korean = "<if><value:$2A><less-equal>%49자경단은 위험한 일이 많을 것 같아…. 난 힘에 자신이 없으니 회계 담당이면 됐어.<end><if><value:$2A><less-equal>%100자경단이라 해도 지금까지 한 일은 화단을 망친 픽시를 혼내 준 것뿐이야. 너무 평화로워서 일이 안 된다니까~.<end><if><value:$2A><less-equal>%140자경단이라고 해도 단원은 둘뿐이야. 강한 몬스터가 날뛰면 어쩌지…. <value:$28> 같은 사람이 단원이면 좋을 텐데~.<end>대륙에는 전쟁으로 집이 불타고 가족을 잃은 사람이 많은데 여긴 정말 평화롭네. 이것도 에어 님 덕분일까.<end>"
+
+["110004"]
+japanese = "<if><value:$2A><less-equal>%49アミラルじゃ自警団を組織して<line-break>町を守ってるんだってよ。<line-break>俺たちも海賊から町を守るために<line-break>組織したほうがいいかもな。<line-break>あんたは、どう思う？<end><if><value:$2A><less-equal>%100俺たちの町は、俺たちが守るっ！<line-break>う～ん、燃えるっ！　燃えるぜぇ！<line-break>今日もやあぁぁぁあってやるぜっ！<end><if><value:$2A><less-equal>%140俺たち自警団のおかげで今日も平和だぜぇ！<line-break>エルズ自警団では団員を募集している。<line-break>君も我々と町の平和を守ろうじゃないかっ！<end>今日も空は晴れ渡り、心地よい風が吹く…。<line-break>この平和なひとときを自分たちが守っている<line-break>なんて…俺は今、最高に充実しているっ！<end>"
+korean = "<if><value:$2A><less-equal>%49아미랄은 자경단을 조직해서 마을을 지킨다더군. 우리도 해적으로부터 마을을 지키려면 조직하는 게 좋을지도 몰라. 넌 어떻게 생각해?<end><if><value:$2A><less-equal>%100우리 마을은 우리가 지킨다! 으음, 불타오른다! 오늘도 해내 주겠어어어!<end><if><value:$2A><less-equal>%140우리 자경단 덕분에 오늘도 평화롭다! 엘즈 자경단은 단원을 모집 중이다. 자네도 우리와 함께 마을의 평화를 지키자고!<end>오늘도 하늘은 맑고 기분 좋은 바람이 분다…. 이 평화로운 순간을 우리가 지키고 있다니… 지금 난 최고로 충실해!<end>"
+
 ["110005"]
 japanese = "<select><value:$20>%4おっきくなったら船長になるんだ！<line-break>海の男だぞ。<end>海の男になるために、<line-break>足腰を鍛えるんだ！<line-break>がんばるぞ！<end>遅いぞ！<line-break>それじゃあ海の男になんて<line-break>なれないぞ。<end>今、特訓中なんだ。<line-break>邪魔しないでよ！<end>"
 korean = "<select><value:$20>%4크면 선장이 될 거야! 바다의 사나이가 될 거라고.<end>바다의 사나이가 되려면 하체를 단련해야 해! 힘낼 거야!<end>느려! 그러고선 바다의 사나이가 될 수 없어.<end>지금 특훈 중이야. 방해하지 마!<end>"
@@ -59,6 +67,10 @@ korean = "<select><value:$20>%4일한다! 나는 일한다! 이 몸이 부서질
 ["110025"]
 japanese = "<select><value:$20>%4力仕事には自信があるが、<line-break>頭脳労働は苦手だな。<end>航海のことはわからん。<line-break>難しいことは人間に任せて<line-break>荷物運びに励むのがいいのだ。<end>俺もがんばっているが、<line-break>あいつはもっとがんばっている。<line-break>負けるわけにはいかんのだ！<end>なんだ？　難しい話が聞きたいなら<line-break>他の奴に聞いてくれ。<end>"
 korean = "<select><value:$20>%4힘쓰는 일엔 자신 있지만 머리 쓰는 일은 영 약하군.<end>항해는 잘 모르겠어. 어려운 건 인간들에게 맡기고 짐 나르는 데 힘쓰는 게 낫지.<end>나도 열심히 하고 있지만 그 녀석은 더 열심히 하고 있어. 질 수는 없지!<end>뭐지? 어려운 이야기가 듣고 싶으면 다른 녀석에게 물어봐.<end>"
+
+["110027"]
+japanese = "<if><value:$2C><less-equal>%9海王って知ってるか？　　　　　　　<line-break>俺は見たんだよ。<line-break><line-break>巨大な影が船の下を<line-break>通り過ぎていったのを…。<line-break>ありゃあ、絶対に海王にちがいない。<end><if><value:$2C><less-equal>%29海王は海の守り神みたいなものでな、<line-break>アミラルの広場には像もある。<line-break>見たことあるだろ？<end><if><value:$2C><less-equal>%49竜王、海王、翔王ってのが<line-break>いわゆる世界三大ドラゴンだな。<line-break>で、俺は幸運にも海王に会ったってわけだ。<end><value:$28>って言ったら<line-break>大陸最強の冒険者じゃないか。<line-break>あんたならドラゴンも倒せるかもな。<end>"
+korean = "<if><value:$2C><less-equal>%9해왕을 알아? 난 봤다고. 거대한 그림자가 배 밑을 지나가는 걸…. 그건 틀림없이 해왕이었어.<end><if><value:$2C><less-equal>%29해왕은 바다의 수호신 같은 존재라 아미랄 광장에는 동상도 있어. 본 적 있지?<end><if><value:$2C><less-equal>%49용왕, 해왕, 상왕이 이른바 세계 3대 드래곤이지. 그리고 난 운 좋게 해왕을 만났다는 거야.<end><value:$28>라면 대륙 최강의 모험자잖아. 너라면 드래곤도 쓰러뜨릴지 모르겠군.<end>"
 
 ["110028"]
 japanese = "<select><value:$20>%3主人の仕事がうまくいったら<line-break>お手伝いさんを雇って楽をしたいわ。<line-break>毎日忙しくて忙しくて…。<end>家事が一段落ついたら、<line-break>主人の仕事を手伝わないといけないわ。<line-break>ほんとに忙しいわね。 <end>私の夢は、我が社を世界一の貿易会社に<line-break>することなのよ。そのためには<line-break>このくらいの苦労なんてへっちゃらよ。<end>"
