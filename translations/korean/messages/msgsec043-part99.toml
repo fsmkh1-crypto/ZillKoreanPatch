@@ -304,6 +304,10 @@ korean = "사정이 있어 공개하지 않았습니다. 그 이유는… 말씀
 japanese = "<if><value:$29><equal>%0この少年こそ、<line-break>…この手紙にある子供だと？<end>この少女こそ、<line-break>…この手紙にある子供だと？<end>"
 korean = "<if><value:$29><equal>%0이 소년이야말로,…이 편지에 적힌 아이라고?<end>이 소녀야말로,…이 편지에 적힌 아이라고?<end>"
 
+["430077"]
+japanese = "<if><value:$29><equal>%0ボルボラ亡きあとのノーブルを<line-break>統制するために、<line-break>　<line-break>なにとぞ、<line-break>我が弟<value:$28>に<line-break>ノーブルの伯爵の称号を。<end>ボルボラ亡きあとのノーブルを<line-break>統制するために、<line-break>　<line-break>なにとぞ、<line-break>我が妹<value:$28>に<line-break>ノーブルの伯爵の称号を。<end>"
+korean = "<if><value:$29><equal>%0볼보라가 죽은 뒤의 노블을 통솔하기 위해 부디 제 남동생 <value:$28>에게 노블 백작의 작위를 내려 주십시오.<end>볼보라가 죽은 뒤의 노블을 통솔하기 위해 부디 제 여동생 <value:$28>에게 노블 백작의 작위를 내려 주십시오.<end>"
+
 ["430078"]
 japanese = "ならん！　ならん！！<line-break>ふざけたことを！<end>"
 korean = "안 된다! 안 돼!! 터무니없는 소리를!<end>"
@@ -359,6 +363,10 @@ korean = "<if><value:$29><equal>%0게다가 이복동생을 숨기고 있었다�
 ["430091"]
 japanese = "…！　さすがは我が妹よ！<line-break>レムオンめ、そうとは知らずに…。<line-break>　<line-break>ハハハハ！<line-break>小僧めに、一杯食わせて<line-break>せいせいしたわ！<end>"
 korean = "…! 역시 내 여동생이군!레몬 녀석, 그것도 모르고….　하하하하!그 애송이를 한 방 먹여서속이 다 시원하군!<end>"
+
+["430092"]
+japanese = "<if><value:$29><equal>%0それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という少年…。<end>それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という娘…。<end>"
+korean = "<if><value:$29><equal>%0그 정도를 꿰뚫어 보지 못할 남자는 아닐 텐데. …어리석은 형을 두었군. 그건 그렇고, <value:$28>이라는 소년….<end>그 정도를 꿰뚫어 보지 못할 남자는 아닐 텐데. …어리석은 형을 두었군. 그건 그렇고, <value:$28>이라는 소녀….<end>"
 
 ["430093"]
 japanese = "無限の可能性を感じさせる…。　　<line-break>あの目の輝きはどうだ。<line-break>　<line-break>フフフ…、<line-break>レムオン坊やも楽しませてくれる。<end>"

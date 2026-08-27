@@ -572,6 +572,10 @@ korean = "있지, 우리도 광장에 가자.저 상태라면,반이 무슨 일�
 japanese = "<select><value:$20>%3夕飯はまだだよ。<line-break>広場でも行って遊んできな。<end>いくら、私の料理が<line-break>楽しみだからって、<line-break>そう、せっつくもんじゃないよ。<end>ナッジやヴァンはどうしたい？<line-break>お前たちは、３人いつも一緒だろ？<line-break>ほらほら、遊んでおいで。<end>"
 korean = "<select><value:$20>%3저녁은 아직이야. 광장에라도 가서 놀다 와.<end>내 요리가 그렇게 기대된다고 너무 재촉하는 거 아니야.<end>나지랑 반은 어떻게 하고 싶대? 너희 셋은 늘 함께잖아. 자자, 가서 놀고 와.<end>"
 
+["280143"]
+japanese = "<select><value:$20>%3おう、<line-break>弁当箱を届けてくれたかい。<line-break>ありがとよ。<end>オラオラ、<line-break>ヒマなんだったら、<line-break>広場でも行って遊んできな。　　<line-break>いつも、ヴァンやナッジと３人、<line-break>そうしてるじゃないか。<end>うちのかみさんの料理は<line-break>うまいぞ～。<line-break>期待してろよ、小僧。<end>"
+korean = "<select><value:$20>%3오, 도시락통을 전해 줬구나. 고맙다.<end>어이, 한가하면 광장에라도 가서 놀고 와. 늘 반이나 나지와 셋이서 그렇게 하잖아.<end>우리 마누라 요리는 맛있다고~. 기대해라, 꼬맹이.<end>"
+
 ["280144"]
 japanese = "ヴァン！<end>"
 korean = "반!<end>"
@@ -672,6 +676,10 @@ korean = "이런, 큰일이 벌어졌군….<end>"
 japanese = "こら！　お前たちだな！<line-break>聖水の盆にゼノプスのオタマジャクシを<line-break>３匹も入れたのは！<end>"
 korean = "이봐! 너희들이지! 성수 대야에 제노프스 올챙이를 세 마리나 넣은 게!<end>"
 
+["280175"]
+japanese = "<select><value:$20>%3いいや、入れたのは５匹だと！？<line-break>数が問題じゃないんだ！<line-break>数が！！<end>お前じゃなくてヴァンの仕業だと？<line-break>ヴァンのお父さんは<line-break>そんなことは絶対ないと言っていたぞ！<end>神も恐れぬばちあたりどもが！<line-break>いつか、ロクでもないことになるに<line-break>決まっている！<end>"
+korean = "<select><value:$20>%3아니, 넣은 게 다섯 마리라고!? 숫자가 문제가 아니야! 숫자가!!<end>네가 아니라 반의 짓이라고? 반의 아버지는 절대 그럴 리 없다고 했다!<end>신도 두려워하지 않는 벌 받을 녀석들! 언젠가 반드시 큰일이 날 거다!<end>"
+
 ["280176"]
 japanese = "やはりロクでもないことを　　<line-break>してくれたな！！<line-break>このばちあたりどもが！<line-break>おお、天空神ノトゥーンよ、<line-break>戒めと裁きの神ノトゥーンよ、<line-break>罪深き少年たちに罰を…。<end>"
 korean = "역시 못된 짓을 해 줬구나!! 이 천벌 받을 것들아! 오, 천공신 노툰이여, 계율과 심판의 신 노툰이여, 죄 많은 소년들에게 벌을….<end>"
@@ -715,6 +723,10 @@ korean = "너희 같은 애들과 어울리니까 요즘 반이 이상해졌어!
 ["280191"]
 japanese = "おう、今、手が離せねえんだ。<line-break>また、あとにしてくれ。<line-break>悪いな。<end>"
 korean = "어, 지금 손을 뗄 수가 없어. 나중에 다시 와줘. 미안하군.<end>"
+
+["280192"]
+japanese = "<select><value:$20>%3おう、<value:$28>。<line-break>たまには、うちのカミサンのとこにも<line-break>ちゃんと顔を出してるか？<end>ヴァンの親御さんは相変わらずだが、<line-break>テラネはお前のふるさとだ。<line-break>ま、ゆっくりしていきな。<end>おう、<value:$28>。<line-break>うちのカミサンの料理が<line-break>恋しくなって戻ってきたのかい？<end>"
+korean = "<select><value:$20>%3오, <value:$28>. 가끔은 우리 마누라한테도 제대로 얼굴 비추고 있냐?<end>반의 부모는 여전하지만 테라네는 네 고향이다. 뭐, 푹 쉬다 가라.<end>오, <value:$28>. 우리 마누라 요리가 그리워서 돌아온 거냐?<end>"
 
 ["280195"]
 japanese = "ね、ねえ、<value:$28>。<line-break>じ、地震だよ！！<end>"

@@ -132,6 +132,10 @@ korean = "<value:$15>을 <value:$16>까지 보내고 싶습니다만 강도에�
 japanese = "毎度ご利用ありがとうございます。<line-break>お願いしたいのは、物品の運搬です。<line-break><value:$15>を<value:$16>まで<line-break>運んでいただきたいのです。<line-break>道中、慎重な行動をお願いします。<line-break>期限は<value:$1B>日以内。<line-break>報酬は<value:$1A>ギアです。<end>"
 korean = "늘 이용해 주셔서 감사합니다. 부탁드릴 일은 물품 운반입니다. <value:$15>을 <value:$16>까지 운반해 주세요. 길에서는 신중히 행동해 주십시오. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어입니다.<end>"
 
+["240034"]
+japanese = "運んでいただきたいものがあります。<line-break><value:$15>です。これは重要な品物で、<line-break>決して失うわけには参りません。<line-break>そこで、強盗に襲われても撃退できる、<line-break>腕の立つ方に運んでいただきます。<line-break><value:$1B>日以内に<value:$16>に届けてください。<line-break>お礼として<value:$1A>ギア用意します。<end>"
+korean = "운반해 주셨으면 하는 물건이 있습니다. <value:$15>입니다. 중요한 물건이라 절대로 잃어버릴 수 없습니다. 그래서 강도에게 습격당해도 물리칠 수 있는 실력자에게 맡기려 합니다. <value:$1B>일 이내에 <value:$16>까지 배달해 주세요. 사례로 <value:$1A>기어를 준비하겠습니다.<end>"
+
 ["240035"]
 japanese = "<value:$16>の町の者に<value:$15>を<line-break>届けたい。街道では何が起こるかわからんから<line-break>腕の立つ者に持っていってもらいたい。<line-break><value:$1B>日以内を期限とし、間に合えば、<line-break>褒美として、<value:$1A>ギアとらせる。<end>"
 korean = "<value:$16> 마을 사람에게 <value:$15>를 전하고 싶다. 가도에서 무슨 일이 생길지 모르니 실력 있는 자가 가져다주면 좋겠다. 기한은 <value:$1B>일 이내. 제때 도착하면 상으로 <value:$1A>기어를 주겠다.<end>"
@@ -199,6 +203,10 @@ korean = "공고. 중요한 물품을 운반할 모험가를 모집한다. 신�
 ["240052"]
 japanese = "物騒な世の中です。<value:$15>ひとつ<line-break><value:$16>まで運ぶだけでも、<line-break>無事にすむ保証はありません。<line-break>お強い方にお願いします。<line-break>私たちに代わって運搬を行ってください。<line-break><value:$1B>日以内に運んでください。<line-break>お礼は、<value:$1A>ギア用立てました。<end>"
 korean = "흉흉한 세상입니다. <value:$15> 하나를 <value:$16>까지 옮기는 일조차 무사히 끝난다는 보장이 없습니다. 강한 분께 부탁드립니다. 저희 대신 운반해 주세요. <value:$1B>일 이내에 옮겨 주십시오. 사례로 <value:$1A>기어를 준비했습니다.<end>"
+
+["240053"]
+japanese = "<value:$16>まで<value:$15>を<line-break>届けるにしても、簡単には行かんのぉ。<line-break>道中何があるからんし、こんなご時世じゃし。<line-break>そんなわけで、冒険者の方々、わしらに代わって<line-break>届けに行ってもらえんか？<line-break><value:$1B>日以内に着くようお願いしますじゃ。<line-break>お礼は、<value:$1A>ギアでどうかのぉ。<end>"
+korean = "<value:$16>까지 <value:$15>을 배달하는 것도 쉽지 않구먼. 길에 무슨 일이 생길지 모르고 이런 세상이니 말이야. 그러니 모험가 여러분, 우리 대신 배달해 주지 않겠나? <value:$1B>일 이내에 도착해 주게. 사례는 <value:$1A>기어면 어떻겠나.<end>"
 
 ["240054"]
 japanese = "<value:$1A>ギアで、<value:$15>の<line-break><value:$16>までの運搬を<line-break>請け負っていただけませんか。<line-break>日限は<value:$1B>日以内です。<line-break>この運搬は商売上どうしても必要なことで、<line-break>なんにせよ道中が危険なので、<line-break>戦いのできる方でないと頼めないのです。<end>"
@@ -271,6 +279,10 @@ korean = "<value:$15>을 <value:$16>까지 전달하고 싶지만 요즘 여행�
 ["240071"]
 japanese = "<value:$15>を運んでくれる方募集！！<line-break>お礼は、<value:$1A>ギア！<line-break>目的地は<value:$16>！<line-break>期限は<value:$1B>日以内！<line-break>物品の運搬をしてくれる者を探しておる。<line-break>条件は上記の通りだ。<end>"
 korean = "<value:$15>을 운반해 줄 사람 모집!! 사례금은 <value:$1A>기어! 목적지는 <value:$16>! 기한은 <value:$1B>일 이내! 물품을 운반해 줄 사람을 찾고 있다. 조건은 위와 같다.<end>"
+
+["240072"]
+japanese = "<value:$16>に住んでる人に<line-break><value:$15>を届けることになったんだよ。<line-break>けどね、あたしらじゃあ、途中盗賊に襲われたら<line-break>追い払うことなんてできやしないよ。<line-break>だからさ、強い冒険者さんにお願いするよ。<line-break><value:$15>を運んでおくれよ。<line-break><value:$1B>日以内、<value:$1A>ギアのお礼でどう？<end>"
+korean = "<value:$16>에 사는 사람에게 <value:$15>을 전해 주게 됐어. 하지만 우리 같은 사람이 도중에 도적을 만나면 쫓아낼 수가 없지. 그러니 강한 모험가에게 부탁할게. <value:$15>을 운반해 줘. <value:$1B>일 이내, 사례는 <value:$1A>기어면 어때?<end>"
 
 ["240073"]
 japanese = "<value:$15>を<value:$16>に運びます。<line-break>運搬を請け負ってくださる方を募ります。<line-break>到着の期限は<value:$1B>日以内でお願いします。<line-break>お礼は、<value:$1A>ギアご用意しました。<end>"

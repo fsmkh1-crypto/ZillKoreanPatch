@@ -496,6 +496,10 @@ korean = "최악의 인간이라고?<end>"
 japanese = "決まってるじゃないか。　　　<end>"
 korean = "당연하잖아.<end>"
 
+["370126"]
+japanese = "<if><value:$29><equal>%0ごじゃごじゃ言うだけで、　　<line-break>何もやらない手合いだよ。<line-break>あぁ、悪いけど、ユリアシュ、<line-break>あの娘の様子を見てきとくれ。<end>ごじゃごじゃ言うだけで、　　<line-break>何もやらない手合いだよ。<line-break>あぁ、悪いけど、ユシュアル、<line-break>あの娘の様子を見てきてくれないか。<end>"
+korean = "<if><value:$29><equal>%0말만 떠들어 대고 아무것도 하지 않는 부류지. 아, 미안하지만 유리아슈, 그 아가씨 상태를 좀 보고 와 줘.<end>말만 떠들어 대고 아무것도 하지 않는 부류지. 아, 미안하지만 유슈알, 그 아가씨 상태를 좀 보고 와 주지 않겠니.<end>"
+
 ["370127"]
 japanese = "はい。<end>"
 korean = "네.<end>"
