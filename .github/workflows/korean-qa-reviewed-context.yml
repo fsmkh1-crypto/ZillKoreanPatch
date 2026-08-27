@@ -7,7 +7,7 @@ on:
     paths:
       - tools/korean/qa-fix-reviewed-context.py
       - tools/korean/qa-apply-reviewed-context-json.py
-      - tools/korean/reviewed-context-fixes.json
+      - tools/korean/reviewed-context-fixes*.json
       - .github/workflows/korean-qa-reviewed-context.yml
   workflow_dispatch:
 
