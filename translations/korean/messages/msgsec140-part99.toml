@@ -218,7 +218,7 @@ korean = "간다<end>"
 
 ["1400055"]
 japanese = "行かない<end>"
-korean = "안 가<end>"
+korean = "안 간다<end>"
 
 ["1400056"]
 japanese = "…ひとつだけ、警告しておく。<line-break>スリルは中毒になりやすい。<line-break>お互い、気をつけないとな。<line-break>ふふ、だが、そうこなくっちゃ、<line-break>人生おもしろく生きられない。<line-break>んじゃ、ま、いくぜ。<end>"
@@ -702,7 +702,7 @@ korean = "간다<end>"
 
 ["1400181"]
 japanese = "行かない<end>"
-korean = "안 가<end>"
+korean = "안 간다<end>"
 
 ["1400182"]
 japanese = "ありがとうございます。<line-break>…こんな変なこと、お願いして<line-break>すみません。<line-break>では、<value:$28>様、<line-break>空中庭園に参りましょう。<end>"
@@ -838,7 +838,7 @@ korean = "간다<end>"
 
 ["1400216"]
 japanese = "行かない<end>"
-korean = "안 가<end>"
+korean = "안 간다<end>"
 
 ["1400217"]
 japanese = "では、王宮の空中庭園に行くぞ。<end>"
