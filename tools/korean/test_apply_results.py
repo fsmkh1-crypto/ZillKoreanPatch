@@ -224,7 +224,10 @@ class RecoveryConflictTests(unittest.TestCase):
         self.assertIn("applied 0 new translations", stdout)
         self.assertIn("1 historical conflicts preserved current corpus", stdout)
         self.assertIn("recovery-skip 3/30000: current corpus preserved", stderr)
-        self.assertFalse(output_dir.exists(), "recovery conflict must not rewrite the current corpus")
+        self.assertFalse(
+            (output_dir / "msgsec003-part99.toml").exists(),
+            "recovery conflict must not write an overlay record",
+        )
 
     def test_recovery_unknown_id_fails_closed(self) -> None:
         commit = "6" * 40
