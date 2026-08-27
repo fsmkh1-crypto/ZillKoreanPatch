@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """QA-4 high-confidence speaker/voice hazard candidate scan.
 
-This is deliberately a candidate generator, not a correctness gate. It only
-flags lexical combinations where the Japanese address/register and Korean
-rendering are strongly at odds. Human scene/context review decides fixes.
+This is deliberately a candidate generator, not a correctness gate. It flags
+lexical combinations where Japanese address/register and Korean rendering are
+strongly at odds. Multi-branch records are compared branch-by-branch so a polite
+third-party title in one branch cannot contaminate a hostile address in another.
+Human scene/context review decides fixes.
 """
 from __future__ import annotations
 
@@ -16,6 +18,7 @@ import tomllib
 ROOT = Path(__file__).resolve().parents[2]
 KOREAN_DIR = ROOT / "translations" / "korean" / "messages"
 SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:(?:-part\d+)|b)?\.toml$")
+END = "<end>"
 
 
 def has_any(text: str, needles: tuple[str, ...]) -> bool:
@@ -37,17 +40,23 @@ def classify(japanese: str, korean: str) -> list[str]:
     if "お前" in japanese and "당신" in korean:
         findings.append("blunt_jp_polite_ko")
 
-    # あなた/貴方 is not compatible with an explicitly contemptuous 네놈 unless
-    # the local dramatic context supplies that force.
+    # あなた/貴方 is not normally compatible with explicitly contemptuous
+    # Korean address. Local dramatic context can still justify it, so review only.
     if ("あなた" in japanese or "貴方" in japanese) and has_any(korean, ("네놈", "이 자식", "이놈")):
         findings.append("neutral_jp_hostile_ko")
 
-    # Explicit Japanese honorifics rendered with a hostile Korean addressee are
-    # worth reviewing even when a title translation may legitimately replace 様.
-    if "様" in japanese and has_any(korean, ("네놈", "이 자식", "이놈")):
-        findings.append("honorific_jp_hostile_ko")
-
     return findings
+
+
+def paired_segments(japanese: str, korean: str) -> list[tuple[int, str, str]]:
+    """Return aligned <end>-terminated semantic branches when structurally safe."""
+    ja = japanese.split(END)
+    ko = korean.split(END)
+    # Both well-formed message strings normally end in <end>, yielding a final
+    # empty item. Only branch-align when both have the same segment count.
+    if len(ja) == len(ko) and len(ja) > 1:
+        return [(i, ja[i], ko[i]) for i in range(len(ja) - 1)]
+    return [(0, japanese, korean)]
 
 
 def main() -> None:
@@ -80,24 +89,27 @@ def main() -> None:
             if not isinstance(ja, str) or not isinstance(ko, str) or not ko:
                 continue
             scanned += 1
-            kinds = classify(ja, ko)
-            if kinds:
-                findings.append({
-                    "id": str(rid),
-                    "section": section,
-                    "path": path.name,
-                    "kinds": kinds,
-                    "japanese": ja,
-                    "korean": ko,
-                })
+            for segment, ja_seg, ko_seg in paired_segments(ja, ko):
+                kinds = classify(ja_seg, ko_seg)
+                if kinds:
+                    findings.append({
+                        "id": str(rid),
+                        "section": section,
+                        "path": path.name,
+                        "segment": segment,
+                        "kinds": kinds,
+                        "japanese": ja_seg + END,
+                        "korean": ko_seg + END,
+                    })
 
+    all_kinds = sorted({k for row in findings for k in row["kinds"]})
     report = {
         "schema": 1,
         "scanned_records": scanned,
         "finding_count": len(findings),
         "finding_by_kind": {
             kind: sum(kind in row["kinds"] for row in findings)
-            for kind in sorted({k for row in findings for k in row["kinds"]})
+            for kind in all_kinds
         },
         "findings": findings,
     }
