@@ -4,7 +4,7 @@
 Reviewed lexical/spacing fixes remain source-gated. Corpus-wide typography
 repairs are limited to punctuation/terminal whitespace and cannot alter words,
 register, control tokens, or punctuation. Internal spacing repairs are allowed
-only for explicitly reviewed Japanese sources and exact suspicious fragments.
+only for explicitly reviewed Japanese sources or exact current-record rewrites.
 """
 from __future__ import annotations
 
@@ -52,8 +52,6 @@ EXACT_VARIANTS: dict[str, dict[str, str]] = {
     },
 }
 
-# Japanese source -> exact Korean substring substitutions. These are reviewed
-# mechanical spacing defects only; the surrounding translation is preserved.
 SOURCE_SUBSTITUTIONS: dict[str, tuple[tuple[str, str], ...]] = {
     norm_source("君、僕を知らないのか…？それならひとつ忠告しよう。力にすがるのは愚かなことだ。力はただ、より強い力によって叩き伏せられるのみだ。<end>"): (
         ("의해눌릴", "의해 눌릴"),
@@ -61,6 +59,19 @@ SOURCE_SUBSTITUTIONS: dict[str, tuple[tuple[str, str], ...]] = {
     norm_source("究極生物を作ろうとして、その製法を神器、禁断の聖杯から得ようと、聖杯をねらっています。円卓騎士には他にうちのネモなどがいますね。<end>"): (
         ("만들려고,그", "만들려고, 그"),
         ("그 밖에도저희", "그 밖에도 저희"),
+    ),
+}
+
+# Current-record rewrites are intentionally whole-string exact. If the corpus
+# changes first, these simply do not match rather than applying to stale text.
+EXACT_RECORD_REWRITES: dict[int, tuple[str, str]] = {
+    270054: (
+        "이걸로 <value:$28> 님은,결승 대회에 출전할 권리를 얻었습니다.　결승 대회에 참가할 생각이 있다면 8월에여기로 와 주세요. 기다리고 있겠습니다.<end>",
+        "이걸로 <value:$28> 님은, 결승 대회에 출전할 권리를 얻었습니다. 결승 대회에 참가할 생각이 있다면 8월에 여기로 와 주세요. 기다리고 있겠습니다.<end>",
+    ),
+    560189: (
+        "…죽음의 날갯소리 레이븐이이 근처에서 갈 만한 곳이라….　　　…나는 역시 운이 없어. 저주가 걸려 있어서그걸 말하면 나는 더….<end>",
+        "…죽음의 날갯소리 레이븐이 이 근처에서 갈 만한 곳이라…. …나는 역시 운이 없어. 저주가 걸려 있어서 그걸 말하면 나는 더….<end>",
     ),
 }
 
@@ -110,11 +121,17 @@ def main() -> None:
 
             src = norm_source(ja)
             new = ko
+
+            exact = EXACT_RECORD_REWRITES.get(numeric)
+            if exact is not None and new == exact[0]:
+                new = exact[1]
+                counts["exact-current-record-rewrite"] = counts.get("exact-current-record-rewrite", 0) + 1
+
             canonical = SPACE_CANONICAL.get(src)
-            if canonical is not None and ko != canonical and no_space(ko) == no_space(canonical):
+            if canonical is not None and new != canonical and no_space(new) == no_space(canonical):
                 new = canonical
-            elif src in EXACT_VARIANTS and ko in EXACT_VARIANTS[src]:
-                new = EXACT_VARIANTS[src][ko]
+            elif src in EXACT_VARIANTS and new in EXACT_VARIANTS[src]:
+                new = EXACT_VARIANTS[src][new]
 
             for old, replacement in SOURCE_SUBSTITUTIONS.get(src, ()):
                 n = new.count(old)
