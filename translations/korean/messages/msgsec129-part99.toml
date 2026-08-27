@@ -60,6 +60,10 @@ korean = "도중에 위험한 몬스터나 도적을 만날 수도 있으니 충
 japanese = "よお、<value:$28>。<line-break>ちょうどいいところに来てくれた。<line-break><line-break>実はな、お前さんを見込んで<line-break>ひとつ頼みがあるんだ。<end>"
 korean = "여어, <value:$28>. 마침 잘 왔어. 사실 자네를 믿고 부탁 하나 하려던 참이야.<end>"
 
+["1290016"]
+japanese = "数日前から<value:$15>が<line-break><value:$17>の辺りで行方知れずになっていて<line-break>捜索願いが出ているんだ。<line-break>依頼主は<value:$16>。<line-break>成功報酬は<value:$1A>ギア。<line-break>タイムリミットは今日から<value:$1B>日間だ。<end>"
+korean = "며칠 전부터 <value:$15>이(가) <value:$17> 부근에서 행방불명되어 수색 의뢰가 들어왔다. 의뢰인은 <value:$16>. 성공 보수는 <value:$1A>기어. 제한 시간은 오늘부터 <value:$1B>일이다.<end>"
+
 ["1290017"]
 japanese = "どうだ、やってくれるかい？<end>"
 korean = "어때, 해주겠어?<end>"

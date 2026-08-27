@@ -88,6 +88,10 @@ korean = "<value:$28> 님이십니까? 에스트 님께서 전언을 남기셨�
 japanese = "エストから、手紙を預かった。<line-break>確かに渡したぞ。<end>"
 korean = "에스트에게 편지를 맡았다. 확실히 전해 줬다.<end>"
 
+["410022"]
+japanese = "　　　　<value:$28>、元気かい？<line-break>　　　　研究は今のところ順調だよ。<line-break><line-break><line-break>　　　闇の神器は、素晴らしい物だよ。<line-break>　　　　所有するだけで、僕の魔力が<line-break>　　　　　　高まっていくんだ。<end>"
+korean = "<value:$28>, 잘 지내? 연구는 지금까지 순조로워. 어둠의 신기는 정말 대단해. 가지고 있는 것만으로도 내 마력이 점점 높아져.<end>"
+
 ["410026"]
 japanese = "　　　　それじゃあ、<value:$28>。<line-break>　　　君に神のご加護がありますように。<line-break>　<line-break>　　　　　　　　　　　　　　　　　　エスト<end>"
 korean = "그럼, <value:$28>. 신의 가호가 함께하길. 에스트<end>"

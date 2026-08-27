@@ -520,6 +520,10 @@ korean = "(…아무튼 우선 반에게 가야 해….)<end>"
 japanese = "あ、ねえ。<line-break>大きな街の方が<line-break>情報が手に入ると思うんだ。<line-break>エンシャントに行こうよ。<line-break>帝国の首都だもの。<line-break>きっとガルドランの行方がわかるよ。<end>"
 korean = "아, 있지. 큰 도시 쪽이 정보를 얻기 좋을 것 같아. 엔샨트로 가자. 제국의 수도잖아. 분명 갈드란의 행방을 알 수 있을 거야.<end>"
 
+["280130"]
+japanese = "<if><value:$01><equal>5ヴァンのメッセージです。<end><if><value:$01><equal>15ナッジのメッセージでーす。<end><if><value:$01><equal>16ネメアのメッセージです。<end><if><value:$01><equal>12ゼネテスのメッセージです。<end>それ以外のメッセージです。<end>"
+korean = "<if><value:$01><equal>5반의 메시지입니다.<end><if><value:$01><equal>15나지의 메시지예요.<end><if><value:$01><equal>16네메아의 메시지입니다.<end><if><value:$01><equal>12제네테스의 메시지입니다.<end>그 외의 메시지입니다.<end>"
+
 ["280131"]
 japanese = "あぁっ、待ってよ、ヴァン。<line-break>もう！<end>"
 korean = "아앗, 기다려, 반. 정말!<end>"

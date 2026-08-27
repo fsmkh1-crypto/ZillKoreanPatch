@@ -1468,6 +1468,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "行くのか…<line-break><value:$28>。<end>"
 korean = "가는 건가… <value:$28>.<end>"
 
+["1420381"]
+japanese = "…私は多くの血を流し過ぎた。<line-break>運命と戦うために全てを犠牲にした…。<line-break>だが…お前は私とは違う。<line-break>お前は救うために戦ってきたはずだ。<line-break>そんな、お前の力を<line-break>必要としている人がいる。<end>"
+korean = "…나는 너무 많은 피를 흘렸다. 운명과 싸우기 위해 모든 것을 희생했지…. 하지만… 넌 나와 달라. 넌 구하기 위해 싸워 왔을 것이다. 그런 네 힘을 필요로 하는 사람이 있다.<end>"
+
 ["1420382"]
 japanese = "お前はそれでも行くのか。<line-break><value:$28>。<end>"
 korean = "그래도 갈 셈인가, <value:$28>.<end>"
@@ -2255,6 +2259,10 @@ korean = "회의 중에 실례하겠습니다. 레무온 님… 잠시 귀를…
 ["1420589"]
 japanese = "行くのか…<line-break><value:$28><end>"
 korean = "가는 건가… <value:$28><end>"
+
+["1420590"]
+japanese = "…私は多くの血を流し過ぎた。<line-break>運命と戦うために全てを犠牲にした…。<line-break>だが…お前は私とは違う。<line-break>お前は救うために戦ってきたはずだ。<line-break>そんな、お前の力を必要としている人が<line-break>いる。<end>"
+korean = "…나는 너무 많은 피를 흘렸다. 운명과 싸우기 위해 모든 것을 희생했지…. 하지만… 넌 나와 달라. 넌 구하기 위해 싸워 왔을 것이다. 그런 네 힘을 필요로 하는 사람이 있다.<end>"
 
 ["1420591"]
 japanese = "お前はそれでも行くのか。<line-break><value:$28>。<end>"

@@ -352,6 +352,10 @@ korean = "이건 자네에게 맡겨두지. 무언가 단서가 될지도 모르
 japanese = "では、ひとまずさらばじゃ。<end>"
 korean = "그럼, 일단 작별이다.<end>"
 
+["1840088"]
+japanese = "あの…さっきの大きな赤い鎧の方は<line-break>もしや、ルフェイ様の…。<line-break>ああ、なんと数奇な運命でしょう！？<end>"
+korean = "저… 아까 그 커다란 붉은 갑옷의 분은 혹시 루페이 님의…. 아아, 이 무슨 기구한 운명이란 말입니까!?<end>"
+
 ["1840089"]
 japanese = "この町は、守られたのですね。<line-break>でも、イークレムン様は…。<end>"
 korean = "이 마을은 지켜졌군요. 하지만 이크레문 님은….<end>"
@@ -447,6 +451,10 @@ korean = "그랬군요. 대단히 실례했습니다. 제가 한 말은 잊어 �
 ["1840113"]
 japanese = "ここより先は水の神殿。　　　　<line-break>水の精霊神の<line-break>聖なる座所です。<line-break>神殿の許しなき者は<line-break>入ることが許されておりません。<line-break>どうぞ、おひきとりください。<end>"
 korean = "이 앞은 물의 신전, 물의 정령신의 성스러운 처소입니다. 신전의 허락을 받지 않은 자는 들어갈 수 없습니다. 돌아가 주십시오.<end>"
+
+["1840114"]
+japanese = "　　　　　　　<value:$28>…。<line-break>　　　　　　　<value:$28>…。<line-break>　　　　　私の声が聞こえますか…？　　　　　<line-break>　<line-break>　　　　　私は、イークレムンの母<line-break>　　　　　　ルフェイと申します。<end>"
+korean = "<value:$28>…. <value:$28>…. 제 목소리가 들리나요…? 저는 이크렘의 어머니 루페이라고 합니다.<end>"
 
 ["1840117"]
 japanese = "　　　　　　　　お願いします。　　　　　　　<line-break>　　　　　　　<value:$28>…。<line-break>　　　　　　<value:$28>…………。<end>"

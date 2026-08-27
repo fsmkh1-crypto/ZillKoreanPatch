@@ -84,6 +84,14 @@ korean = "<value:$15>를 찾아 가져올 모험가를 모집한다. 보수는 <
 japanese = "<value:$15>を持ち帰ってくださる方を<line-break>募集しています。取りに行きたいのですが、<line-break>モンスターがたくさんいて近づけません。<line-break><value:$1B>日以内にやっていただけたならば、<line-break><value:$1A>ギア進呈いたします。<end>"
 korean = "<value:$15>를 가져와 주실 분을 모집합니다. 직접 가고 싶지만 몬스터가 많아 접근할 수 없습니다. <value:$1B>일 이내에 해 주시면 <value:$1A>기어를 드리겠습니다.<end>"
 
+["230021"]
+japanese = "我々の魔道研究において、<line-break><value:$15>が必要になった。<line-break>至急入手する必要がある。<line-break><value:$15>を探索、入手して帰還せよ。<line-break><value:$1B>日以内を期限とする。<line-break>成功すれば、<value:$1A>ギアの報酬を与える。<end>"
+korean = "우리의 마도 연구에 <value:$15>이 필요해졌다. 시급히 입수해야 한다. <value:$15>을 탐색해 입수한 뒤 귀환하라. 기한은 <value:$1B>일 이내. 성공하면 <value:$1A>기어의 보수를 지급한다.<end>"
+
+["230022"]
+japanese = "日頃はご愛顧をいただきありがとうございます。<line-break>私ども道具屋ギルドは、<value:$15>を<line-break>入手する必要に迫られています。<line-break><value:$15>を探して持ち帰ってください。<line-break><value:$1B>日以内、<value:$1A>ギアの報酬です。<end>"
+korean = "평소 이용해 주셔서 감사합니다. 저희 도구점 길드는 <value:$15>을 입수해야 하는 상황입니다. <value:$15>을 찾아 가져와 주세요. 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어입니다.<end>"
+
 ["230023"]
 japanese = "毎度どうも。いつも世話になってるね。<line-break>今回の依頼は、<value:$15>の探索なんだ。<line-break>仕事上でこいつが必要になってね。<line-break><value:$1B>日以内に持ち帰ってほしいんだ。<line-break>お礼は、<value:$1A>ギアだ。<end>"
 korean = "늘 고마워. 항상 신세 지고 있네. 이번 의뢰는 <value:$15>를 찾는 일이야. 일 때문에 이게 필요해서 말이지. <value:$1B>일 이내에 가져와 줘. 사례는 <value:$1A>기어야.<end>"
@@ -163,6 +171,10 @@ korean = "만일의 도시 방위를 위해 길드가 자체 제작하는 무구
 ["230063"]
 japanese = "<value:$15>を手に入れたいんじゃ。<line-break>これがないと仕事にならん。<line-break>材料がなくちゃあ、物は作れんからな。<line-break><value:$1A>ギアなら出せるでの。<line-break><value:$1B>日以内に頼むぞ。<end>"
 korean = "<value:$15>을 구하고 싶네.이게 없으면 일을 못 해.재료가 없으면 물건을 만들 수 없으니까.<value:$1A> 기아라면 줄 수 있네.<value:$1B>일 이내로 부탁하네.<end>"
+
+["230065"]
+japanese = "<value:$15>を入手したいと思います。<line-break>ただし、現地には様々な危険が予想されます。<line-break>戦いに秀でた冒険者の方にお任せしたいのです。<line-break>期間は、<value:$1B>日以内で。<line-break>報酬は、<value:$1A>ギアとします。<end>"
+korean = "<value:$15>을(를) 입수하고 싶습니다. 다만 현지에는 여러 위험이 예상됩니다. 전투에 능한 모험자에게 맡기고 싶습니다. 기간은 <value:$1B>일 이내. 보수는 <value:$1A>기어로 하겠습니다.<end>"
 
 ["230066"]
 japanese = "冒険者の方にお願いしたいことがあります。<line-break>モンスターから逃げる途中になくしてしまった<line-break><value:$15>を探してください。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアです。<end>"

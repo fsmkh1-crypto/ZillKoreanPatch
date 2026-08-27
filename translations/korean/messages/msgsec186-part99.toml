@@ -444,6 +444,10 @@ korean = "이, 이 녀석들, 애들 주제에 강하잖아. 이런 얘긴 못 �
 japanese = "<value:$28>、<line-break>フリントさんを助けなきゃ！<end>"
 korean = "<value:$28>, 플린트 씨를 구해야 해!<end>"
 
+["1860113"]
+japanese = "やはり、この毒、相当に効きがいい。<line-break>…にしても、この程度とは<line-break>石火のフリントも大したことねぇ。<end>"
+korean = "역시 이 독, 효과가 상당하군. …그래도 이 정도라니, 석화의 플린트도 별것 아니군.<end>"
+
 ["1860114"]
 japanese = "！！！！！！　　<line-break>　<line-break>　<line-break>そ、そんな…<line-break>フリントさぁん！<end>"
 korean = "!!!!!! 그, 그럴 수가… 플린트 씨이!<end>"
@@ -627,6 +631,10 @@ korean = "흑, 흑… 플린트 씨, 플린트 씨! 눈을 떠 줘! 이건 싫�
 ["1860164"]
 japanese = "…<value:$28>、<line-break>もう…ずっとそうしてるよ？<end>"
 korean = "…<value:$28>, 벌써… 계속 그러고 있잖아?<end>"
+
+["1860165"]
+japanese = "ルルアンタ、お使いに行ってくるね？<line-break>おいしいものたくさん作るから、<line-break>今夜はちゃんと食べようね？<end>"
+korean = "루루안타, 심부름 다녀올게. 맛있는 거 많이 만들 테니까 오늘 밤은 꼭 제대로 먹자, 응?<end>"
 
 ["1860166"]
 japanese = "じゃあ、じゃあ<line-break>ルルアンタ、行ってくるからね。<end>"
