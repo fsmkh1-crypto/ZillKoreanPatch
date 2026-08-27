@@ -96,6 +96,10 @@ korean = "내가 감사라도 할 줄 알았나?<end>"
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
 
+["1510041"]
+japanese = "<value:$28>…。<line-break>君とは、また会いそうな気がするよ。<end>"
+korean = "<value:$28>…. 너와는 또 만날 것 같은 기분이 들어.<end>"
+
 ["1510042"]
 japanese = "気が付いたようだね。<end>"
 korean = "정신이 든 모양이군.<end>"
@@ -119,6 +123,10 @@ korean = "너, 나를 모르는 거야? 나는 신께서 보내신 구세주 엘
 ["1510051"]
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
+
+["1510052"]
+japanese = "<value:$28>…。<line-break>君とは、また会いそうな気がするよ。<end>"
+korean = "<value:$28>…. 너와는 또 만날 것 같은 기분이 들어.<end>"
 
 ["1510054"]
 japanese = "はわわわわ～～～！<end>"

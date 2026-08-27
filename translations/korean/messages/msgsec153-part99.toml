@@ -60,6 +60,10 @@ korean = "내가 감사라도 할 줄 알았나?<end>"
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
 
+["1530036"]
+japanese = "<value:$28>…。<line-break>君とは、また会いそうな気がするよ。<end>"
+korean = "<value:$28>…. 너와는 또 만날 것 같은 기분이 들어.<end>"
+
 ["1530039"]
 japanese = "神よ、感謝します。<end>"
 korean = "신이시여, 감사합니다.<end>"
