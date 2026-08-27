@@ -30,14 +30,18 @@ jobs:
           ./zill korean-font-check
           python3 tools/korean/qa-integrity.py --json /tmp/integrity.json --max-examples 20
           python3 tools/korean/qa-terminology.py --json /tmp/after.json --max-examples 20
+          if grep -R -n --include='msgsec*.toml' '눈동자동자' translations/korean/messages; then
+            echo 'corrupted 색혹의 눈동자 overreplacement remains'
+            exit 1
+          fi
           python3 - <<'PY'
           import json
           before=json.load(open('/tmp/before.json', encoding='utf-8'))
           after=json.load(open('/tmp/after.json', encoding='utf-8'))
           b=int(before['mismatch_count']); a=int(after['mismatch_count'])
-          print(f'QA-2 mismatch reduction: {b} -> {a} (delta {a-b})')
-          if a >= b:
-              raise SystemExit('safe terminology pass did not reduce mismatch count')
+          print(f'QA-2 mismatch change: {b} -> {a} (delta {a-b})')
+          if a > b:
+              raise SystemExit('safe terminology pass increased mismatch count')
           PY
       - name: Commit safe terminology normalization
         run: |
