@@ -40,6 +40,10 @@ korean = "<value:$28>! 이런 곳에서 뭐 하는 거야! …빨리 나가! 이
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりでここに来ているの？<line-break>次の私たちの目標は<line-break>わかっているはずよ。<end>"
 korean = "<value:$28>…. 무슨 생각으로 여기에 온 거야? 다음 우리 목표는 알고 있을 텐데.<end>"
 
+["1010012"]
+japanese = "ロストールはもう目と鼻の先。<line-break>無駄な抵抗などせずに、<line-break>さっさと降伏することね。<line-break>その方が、犠牲者も少なくなるわ。<line-break>あなたも、命を失わなくて<line-break>すむでしょうし。<end>"
+korean = "로스토올은 이제 코앞이야. 쓸데없는 저항 따윈 하지 말고 빨리 항복해. 그 편이 희생자도 줄어들 거야. 너도 목숨을 잃지 않아도 될 테고.<end>"
+
 ["1010013"]
 japanese = "…<value:$28>。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>時の流れはあなたが考えているより<line-break>もっと早いものよ。<line-break>よく考えてみることね。<end>"
 korean = "…<value:$28>. 시간의 흐름은 네가 생각하는 것보다 훨씬 빨라. 잘 생각해 봐.<end>"
@@ -56,6 +60,10 @@ korean = "<value:$28>…. 당신도 참 끈질기네, 노블 백작? 언제까�
 japanese = "私たちが同じ道を歩くことは<line-break>もうあり得ない。<line-break>あなたが、今の道を捨てない限り…。<line-break>降伏する気なら、<line-break>私がカルラ将軍との間を<line-break>取り持ってあげてもいいけど…？<end>"
 korean = "우리가 같은 길을 걷는 일은 이제 없어. 당신이 지금의 길을 버리지 않는 한…. 항복할 생각이라면 내가 칼라 장군과 사이를 주선해 줘도 되는데…?<end>"
 
+["1010017"]
+japanese = "…早く行きなさい。<line-break>戦場で運命の女神が教えてくれるわ。<line-break>どちらの道が正しかったのか。<end>"
+korean = "…빨리 가. 전장에서 운명의 여신이 가르쳐 줄 거야. 어느 길이 옳았는지.<end>"
+
 ["1010018"]
 japanese = "ノーブル伯<value:$28>！<line-break>こんな所で何をしている！　<line-break>　<line-break>早く出ていきなさい！<line-break>こんな所に来ていい身分だと<line-break>思っているの？<end>"
 korean = "노블 백작 <value:$28>! 이런 곳에서 뭘 하는 겁니까! 빨리 나가세요! 이런 곳에 와도 되는 신분이라고 생각합니까?<end>"
@@ -67,6 +75,10 @@ korean = "정말이지 언제까지나 어린애라니까!<end>"
 ["1010020"]
 japanese = "<value:$28>…。<line-break><line-break><line-break>…どういうつもり？<line-break>あなた、ゼネテスの配下なのよ。<line-break>次の私たちの目標がわからないの？<end>"
 korean = "<value:$28>…. …무슨 생각이야? 넌 제네테스의 부하잖아. 다음 목표가 뭔지 모르겠어?<end>"
+
+["1010022"]
+japanese = "…早く行きなさい。<line-break>戦場で運命の女神が教えてくれるわ。<line-break>どちらの道が正しかったのか。<end>"
+korean = "…빨리 가. 전장에서 운명의 여신이 가르쳐 줄 거야. 어느 길이 옳았는지.<end>"
 
 ["1010023"]
 japanese = "ほんっとに<line-break>しょうがない奴…。<end>"

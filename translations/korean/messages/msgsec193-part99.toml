@@ -312,6 +312,10 @@ korean = "이제 이 노래, 외워 줬지?<end>"
 japanese = "明日からはきみが<line-break>この歌をみんなに聴かせるんだ。<line-break>ぼくは、また旅に出るよ。<end>"
 korean = "내일부터는 네가 이 노래를 모두에게 들려줘. 나는 다시 여행을 떠날게.<end>"
 
+["1930090"]
+japanese = "えーっ！　きみはぼくに<line-break>この歌だけで満足しろって言うのー？<line-break>それはムリだよぉー。<line-break>ぼくは、ずーっと<line-break>キレイのかけらを探してさまよう<line-break>さすらいの吟遊詩人なんだ。<end>"
+korean = "에~! 너는 나한테 이 노래 하나로 만족하라는 거야~? 그건 무리야~. 나는 계속 아름다움의 조각을 찾아 헤매는 방랑 음유시인이거든.<end>"
+
 ["1930091"]
 japanese = "ぼくは<line-break><value:$28>との旅で<line-break>たっくさんのキレイに出会った。<end>"
 korean = "나는 <value:$28>와 여행하면서 정말 많은 아름다움을 만났어.<end>"

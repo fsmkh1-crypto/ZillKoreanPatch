@@ -20,6 +20,10 @@ korean = "<value:$28>… 씨….<end>"
 japanese = "たまに悪酔いされるお客さんがいて、<line-break>困っちゃうんです…。<line-break>　<line-break>でも今日は<value:$28>さんが<line-break>いてくれたお陰で助かりました。<end>"
 korean = "가끔 술버릇이 나쁜 손님이 있어서 곤란해요…. 그래도 오늘은 <value:$28>님이 계셔서 살았어요.<end>"
 
+["1980005"]
+japanese = "私、フェルムって言います。<line-break>いつもこの酒場で働いていますので、<line-break>気が向いたらぜひ立ち寄ってください。<line-break><value:$28>さんのように<line-break>強くて親切な冒険者なら、<line-break>いつでも大歓迎です。<end>"
+korean = "저는 페름이라고 해요. 늘 이 술집에서 일하니까 마음 내키면 꼭 들러 주세요. <value:$28> 씨처럼 강하고 친절한 모험가라면 언제든 대환영이에요.<end>"
+
 ["1980006"]
 japanese = "いらっしゃいませ！<line-break><value:$28>さん！<line-break>　<line-break>うれしい。来てくれたんですね。<end>"
 korean = "어서 오세요, <value:$28>님! 기뻐요. 와 주셨군요.<end>"
@@ -532,6 +536,10 @@ korean = "할머니에게 들었다는 건사실이지만….　하지만 할머
 japanese = "でも、不思議と今は自分のついたウソに<line-break>後悔がないんです。<end>"
 korean = "하지만 이상하게도 지금은 제가 한 거짓말을 후회하지 않아요.<end>"
 
+["1980166"]
+japanese = "だって、そのお陰で<line-break><value:$28>さんと、<line-break>一緒に旅ができたんですから。<line-break>苦しんだけど、嬉しかったんです。<line-break>この思い出は、私の一生の宝物です。<line-break>ありがとうございましたっ！<end>"
+korean = "그 덕분에 <value:$28> 씨와 함께 여행할 수 있었으니까요. 힘들었지만 행복했어요. 이 추억은 제 평생의 보물이에요. 정말 고마웠어요!<end>"
+
 ["1980168"]
 japanese = "もう少しだけご一緒したら、<line-break>私はロストールに帰ります。<line-break>それで…いいですよね？<end>"
 korean = "조금만 더 함께한 뒤 저는 로스토올로 돌아갈게요. 그래도… 괜찮죠?<end>"
@@ -587,6 +595,10 @@ korean = "어서 오세요, <value:$28>님. 편히 쉬다 가세요.<end>"
 ["1980186"]
 japanese = "いらっしゃいませ！<line-break><value:$28>さん！<line-break>　<line-break>あ、もしかして私の料理を<line-break>食べに来てくれたんですか？<end>"
 korean = "어서 오세요! <value:$28>님! 아, 혹시 제 요리를 먹으러 와 주신 건가요?<end>"
+
+["1980187"]
+japanese = "へえ。いいですね。<line-break>世界のあちこちを旅しているなんて。<line-break>　<line-break>できることなら私も一緒に…。<line-break>　<line-break>　<line-break>あ、いえ。なんでもないです。<line-break>気になさらないでください。<end>"
+korean = "헤에. 좋네요. 세계 곳곳을 여행하고 있다니. 가능하다면 저도 함께…. 아, 아니에요. 아무것도 아니에요. 신경 쓰지 마세요.<end>"
 
 ["1980188"]
 japanese = "えっ？　今は闇の神器を<line-break>探している…？<line-break>それってスゴいものなんですか？<end>"

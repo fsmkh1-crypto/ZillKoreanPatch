@@ -160,6 +160,10 @@ korean = "이번 임무 정말 수고 많으셨습니다. 푹 쉬세요. 이제 
 japanese = "解放軍を率いる者として…だなんて…<line-break>わたくし、どうして、<line-break>素直に言えないの？<line-break>本当にわたくし、<line-break>かわいげのない女だわ…。<line-break>でも…。<end>"
 korean = "해방군을 이끄는 자로서…라니…. 나는 왜 솔직하게 말하지 못하는 거지? 정말 나는 귀염성 없는 여자야…. 하지만….<end>"
 
+["1880054"]
+japanese = "実は、ロストール軍の中に、<line-break>あなたに似た将軍がいたと報告を<line-break>受けています。<line-break>資金を援助するかわりに<line-break>ロストール軍に参加するように<line-break>言われたのではないのですか？<end>"
+korean = "사실 로스토올군 안에 당신과 닮은 장군이 있었다는 보고를 받았습니다. 자금을 지원하는 대신 로스토올군에 참가하라는 말을 들은 것 아닙니까?<end>"
+
 ["1880055"]
 japanese = "どうして、言ってくれないのです。<line-break>本当のことを言ってください。<line-break>これは命令ですよ。<end>"
 korean = "왜 말씀해 주지 않는 겁니까. 사실대로 말해 주세요. 명령입니다.<end>"
@@ -223,6 +227,10 @@ korean = "아, 그랬죠. 죄송합니다. 크류세이스 님, 그리고 <value
 ["1880075"]
 japanese = "<value:$28>、<line-break>ご苦労様でした。王家にはあらためて<line-break>別の打診をしてみます。<line-break>今日は下がっていいですよ。<end>"
 korean = "<value:$28>, 수고하셨습니다. 왕가에는 다시 다른 제안을 해 보겠습니다. 오늘은 돌아가셔도 됩니다.<end>"
+
+["1880077"]
+japanese = "あ、<value:$28>。<line-break>その、怪我はありませんか？　　　　<line-break><value:$28>は無理をするから。<line-break>…変なことを言ってごめんなさい。<line-break>今のわたくしには、<value:$28><line-break>しかいないから…。<end>"
+korean = "아, <value:$28>. 그, 다친 곳은 없나요? <value:$28>는 무리를 하니까요. …이상한 말 해서 미안해요. 지금의 저에겐 <value:$28>밖에 없어서….<end>"
 
 ["1880078"]
 japanese = "もう、わたくしには<line-break>これ以上大切な人を失うことに<line-break>耐えられそうもありませんもの。<line-break>あなたのことを頼ってしまった<line-break>今のわたくしには…。<end>"
@@ -320,6 +328,10 @@ korean = "10000기어를 자금으로 제공했다.<end>"
 japanese = "これで、難民の暮らしをいくらか<line-break>楽にしてあげられます。わたくし<line-break>さっそく手はずを整えなくては。<line-break><value:$28>、<line-break>今日のこと、わたくし<line-break>決して忘れませんから。<end>"
 korean = "이걸로 난민의 생활을 조금은 편하게 해 줄 수 있겠습니다. 저도 바로 준비를 해야겠군요. <value:$28>, 오늘 일은 절대 잊지 않겠습니다.<end>"
 
+["1880117"]
+japanese = "もし、あなたがディンガルとの戦いを<line-break>望むなら、解放軍を離れた方が<line-break>いいかもしれません。<line-break>わたくしには、そう望む人を<line-break>止める権利はありません。<line-break>…もう、行ってください。<end>"
+korean = "만약 당신이 딘갈과의 싸움을 원한다면 해방군을 떠나는 편이 좋을지도 모릅니다. 저는 그렇게 바라는 사람을 막을 권리가 없습니다. …이제 가 주세요.<end>"
+
 ["1880119"]
 japanese = "…<value:$28>。<line-break>今日はどうしたのですか？<end>"
 korean = "…<value:$28>. 오늘은 무슨 일이죠?<end>"
@@ -359,6 +371,10 @@ korean = "(나는 뭘 기대하는 거지? <value:$28>이 나를 용서할 리 �
 ["1880129"]
 japanese = "え？　…そんな、まさか…。<end>"
 korean = "어? …그럴 리가….<end>"
+
+["1880131"]
+japanese = "ですから、わたくし、あなたを<line-break>解放軍の一員としてしか見ないように<line-break>決めていたのです。<line-break>わたくしを助けてくれるあなたを<line-break>ついつい頼ってしまいそうに<line-break>なるから…。<end>"
+korean = "그래서 저는 당신을 해방군의 일원으로만 보기로 마음먹었어요. 저를 도와주는 당신에게 자꾸 기대고 싶어질 것 같아서….<end>"
 
 ["1880134"]
 japanese = "ありがとう、<value:$28>…。<line-break>これからも、わたくしのそばに<line-break>いてください。<line-break>わたくしを、支えて…。<end>"

@@ -76,6 +76,10 @@ korean = "네가 저지른 실수를 생각하면 지나치게 관대한 처분�
 japanese = "はい。<end>"
 korean = "네.<end>"
 
+["1710026"]
+japanese = "今後はおとなしくして、　　　　　<line-break>規則に忠実にね。<line-break>アンギルダン将軍。<line-break>ジラーク将軍は、<line-break>規律に厳しいこと、この上ないわ。<line-break>せいぜい、励んでください。<end>"
+korean = "앞으로는 얌전히, 규칙에 충실하게 지내세요. 앙길단 장군. 지라크 장군은 규율에 엄격하기로는 둘째가라면 서러운 분이니까요. 부디 힘내세요.<end>"
+
 ["1710027"]
 japanese = "…よし。下がっていい。<end>"
 korean = "…좋아. 물러가도 된다.<end>"
@@ -252,6 +256,10 @@ korean = "그런 건 경이 말하지 않아도 알고 있다!! …됐다, 물�
 japanese = "アンギルダン将軍…。<line-break>我々のために…<line-break>申しわけありません。<end>"
 korean = "앙길단 장군… 저희를 위해… 죄송합니다.<end>"
 
+["1710081"]
+japanese = "<value:$28>、おぬしもじゃ。<line-break>また次の戦いがある。<line-break>ゆっくり体を休めるがよかろう。　<line-break>…しかし、船から湖に飛びこむ時の<line-break>おぬしのこわばった顔…。<line-break>あれは、傑作じゃったのう。<end>"
+korean = "<value:$28>, 너도 마찬가지다. 또 다음 싸움이 있어. 느긋하게 몸을 쉬게나. …그런데 배에서 호수로 뛰어들 때 네 굳은 얼굴…. 그건 정말 걸작이었어.<end>"
+
 ["1710082"]
 japanese = "フハハハハ。<line-break>では、またな。<end>"
 korean = "후하하하하. 그럼 또 보자.<end>"
@@ -312,6 +320,10 @@ korean = "이쪽입니다. 따라오세요.<end>"
 japanese = "くっ、気に入らねえな。<line-break>せっかく動けなくなってる敵を　　　<line-break>介抱するなんて…。<line-break>じゃ、俺たちが戦場で命がけで<line-break>やってることはいったい何なんだよ！<line-break>くそっ！<end>"
 korean = "큭, 마음에 안 드네. 모처럼 움직이지 못하게 된 적을 간호하다니…. 그럼 우리가 전장에서 목숨 걸고 하는 일은 대체 뭐야! 젠장!<end>"
 
+["1710103"]
+japanese = "敵味方関係なく介抱してやがる。　<line-break>こいつ、バカじゃないのか？<line-break>　<line-break>奴らが回復したら、またこの町に<line-break>攻めてくるだろうさ。<line-break>これじゃあ堂々巡りじゃないか。<end>"
+korean = "적군 아군 가리지 않고 간호하고 있잖아. 이 자식, 바보 아냐? 놈들이 회복하면 또 이 마을을 공격해 올 텐데. 이래선 끝없는 반복이잖아.<end>"
+
 ["1710107"]
 japanese = "よう、<value:$28>。<line-break>…おっと、恨みっこなしだぜ。<line-break>　<line-break>お互い仕事次第で敵味方だ。<line-break>今回は味方同士なんだから<line-break>仲よくやろうや。<end>"
 korean = "여, <value:$28>. …아, 서로 원망은 없기다. 일에 따라 적도 되고 아군도 되는 거니까. 이번엔 같은 편이니 잘 지내자고.<end>"
@@ -331,6 +343,10 @@ korean = "사람 목숨의 소중함에 딩갈도 아큐류스도 관계없습�
 ["1710111"]
 japanese = "あの大蛇がねぇ？<line-break>あれ、人を喰わねぇのかな。<end>"
 korean = "그 큰 뱀 말이야? 사람을 잡아먹진 않나.<end>"
+
+["1710112"]
+japanese = "ミズチは精霊に近い水の妖精です。<line-break>何も食べずに生きているんです。<line-break>　<line-break>人を食べて生きているのは、<line-break>人を殺して、お金をもらっている<line-break>あなたたちの方です！<end>"
+korean = "미즈치는 정령에 가까운 물의 요정입니다. 아무것도 먹지 않고 살아갑니다. 사람을 먹고 사는 건 사람을 죽이고 돈을 받는 당신들 쪽이에요!<end>"
 
 ["1710113"]
 japanese = "おお、こわ。<line-break>しかし、こりゃ一本取られたね。<line-break>　<line-break>じゃ、これ以上怒られないように<line-break>健康な俺は退散しましょうかね。<end>"

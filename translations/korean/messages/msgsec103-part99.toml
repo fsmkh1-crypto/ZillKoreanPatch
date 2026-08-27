@@ -120,6 +120,10 @@ korean = "아, 아니야… 아니! 멀리 있었어! 쫓아갔지만 따라잡�
 japanese = "なるほどね。<line-break>じゃあ整理するとこういうことかな。<line-break>　<line-break>あんたは遠くから、怪しい奴が<line-break>クロイス邸に毒入りの酒を<line-break>持ってきたところを目撃したわけだ。<end>"
 korean = "그렇군. 그럼 정리하면 이런 거지. 당신은 멀리서 수상한 녀석이 크로이스 저택에 독 든 술을 가져오는 걸 목격한 거야.<end>"
 
+["1030034"]
+japanese = "で、遠くから見たそいつの姿形が<line-break><value:$28>に似ていると。<line-break>それだけで判断しているんだな？<line-break>ああ、もっとも、遠くから<line-break>毒入りの酒を見破るくらいなら<line-break>人の見分けくらい簡単かな？<end>"
+korean = "그래서 멀리서 본 그 사람 모습이 <value:$28>와 닮았다고. 그것만으로 판단한 거군? 뭐, 멀리서 독 든 술을 알아볼 정도라면 사람 구별쯤은 쉽겠지만?<end>"
+
 ["1030035"]
 japanese = "小うるさい非市民ね。<line-break>市民に向かって無礼だわ！　　　<line-break>　<line-break>それに、あなたの言っていることは、<line-break>この非市民が父殺しの犯人でない<line-break>という証拠にもならなくてよ！<end>"
 korean = "시끄러운 비시민이네. 시민에게 무례해! 게다가 네 말은 이 비시민이 아버지를 죽인 범인이 아니라는 증거도 안 돼!<end>"
@@ -252,6 +256,10 @@ korean = "정신이 든 모양이네. 어때? 투기장에서 맞는 아침은?<
 japanese = "先日話した通り、今日から闘技場で<line-break>戦ってもらいます。あなた自身の<line-break>借金のために。<line-break>さあ、もう試合の準備は<line-break>整っています。行きなさい。<end>"
 korean = "지난번에 말했듯 오늘부터 투기장에서 싸워야 합니다. 당신 자신의 빚을 위해서요. 자, 시합 준비는 이미 끝났습니다. 가세요.<end>"
 
+["1030072"]
+japanese = "いいですね？　　　　　　　　　　　<line-break>必ず、<value:$28>を<line-break>殺しなさい。<line-break>あくまで試合中の事故としてです。<line-break>手法は問いません。<line-break>成功したら、さらに報酬を払います。<end>"
+korean = "알겠죠? 반드시 <value:$28>를 죽이세요. 어디까지나 시합 중의 사고로 보이게요. 방법은 묻지 않겠습니다. 성공하면 보수를 더 드리죠.<end>"
+
 ["1030073"]
 japanese = "くっくっく。試合中の事故は<line-break>闘技場ではよくあることだからな。　<line-break>　<line-break>闘技場好きのクリュセイスならではの<line-break>趣向というわけだ。<end>"
 korean = "크크크. 경기 중 사고는 투기장에선 흔한 일이니까. 투기장을 좋아하는 크류세이스다운 취향인 셈이지.<end>"
@@ -323,6 +331,10 @@ korean = "하지만 아직 기회는 많아. 그렇게 낙담하지 마.<end>"
 ["1030094"]
 japanese = "<value:$28>…。<line-break>バカな人。　　　　　　　　　　　<line-break>　<line-break>…お父様、<line-break>これでお父様も満足して<line-break>いらっしゃいますよね？　　　　　<end>"
 korean = "<value:$28>…. 바보 같은 사람. …아버지, 이걸로 아버지도 만족하시겠죠?<end>"
+
+["1030095"]
+japanese = "負けてばかりだと、いつまでたっても　<line-break>借金は減らないわよ。<line-break>　<line-break>また戦ってもらいますから、<line-break>それまでは、自由になさい。<line-break>次に目覚めるまでの、わずかな時間を。<end>"
+korean = "계속 지기만 하면 빚은 언제까지고 줄지 않아. 또 싸워 줘야 하니까, 그때까지는 자유롭게 지내렴. 다음에 깨어날 때까지의 짧은 시간을.<end>"
 
 ["1030096"]
 japanese = "さすがに多少はやるようね。<line-break>その手でお父様を殺したのですもの。<line-break>　<line-break>殺人で手を汚しているあなたに<line-break>とっては、これ以上ない<line-break>お金の稼ぎ方なのでしょうね。<end>"

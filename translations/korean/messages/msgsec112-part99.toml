@@ -4,6 +4,10 @@
 japanese = "エステルメッセージVOL5開始<end>"
 korean = "에스텔 메시지 VOL5 시작<end>"
 
+["1120001"]
+japanese = "<if><value:$29><equal>%0　　　　招かれざる客が来たみたいだね。　　　<line-break>　　　　　彼女を追ってきたのかな？<end>　　　　招かれざる客が来たみたいだね。<line-break>　　　　　彼女を追ってきたのかな？<end>"
+korean = "<if><value:$29><equal>%0초대받지 않은 손님이 온 모양이네. 그녀를 쫓아온 걸까?<end>초대받지 않은 손님이 온 모양이네. 그녀를 쫓아온 걸까?<end>"
+
 ["1120011"]
 japanese = "今、彼女たちには、<line-break>この都市の底の動力の間で<line-break>動力になってもらってるよ。<end>"
 korean = "지금 그 아이들은 이 도시 밑의 동력실에서 동력이 되어 주고 있어.<end>"
@@ -307,6 +311,10 @@ korean = "저도 울칸으로 돌아가겠습니다. 그곳에는 이제 제 역
 ["1120116"]
 japanese = "<value:$28>さん…、<line-break>本当にありがとうございました。<line-break>　<line-break>私…私もできることなら<line-break><value:$28>さんの旅に…。<end>"
 korean = "<value:$28>님… 정말 감사합니다. 저… 저도 가능하다면 <value:$28>님의 여행에….<end>"
+
+["1120117"]
+japanese = "…いえ、なんでもありません。<line-break>私は、アキュリュースで<line-break>私のなすべきことをなしましょう。<line-break>では、<value:$28>さん、<line-break>また、アキュリュースへ…<line-break>私の所へいらしてください。<end>"
+korean = "…아니요, 아무것도 아닙니다. 저는 아큐류스에서 제가 해야 할 일을 하겠습니다. 그럼 <value:$28> 씨, 또 아큐류스로… 제게 와 주세요.<end>"
 
 ["1120118"]
 japanese = "昔、これを空に飛ばそうと、<line-break>たくさんの人が犠牲となり<line-break>たくさんの命が空費されたのに…。<end>"

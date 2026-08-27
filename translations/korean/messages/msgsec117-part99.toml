@@ -12,6 +12,10 @@ korean = "아, <value:$28> 씨!<end>"
 japanese = "わたしです。ノエルです！<line-break>シルヴァの村でお世話になりました。<end>"
 korean = "저예요. 노엘입니다! 실바 마을에서 신세졌어요.<end>"
 
+["1170003"]
+japanese = "わたし、冒険者になったんです。<line-break>ソウルを抜かれた村のみんなを<line-break>もとに戻すために…。<line-break>それから、<value:$28>さん<line-break>みたいに強くなって…、<line-break>たくさんの人を助けるために。<end>"
+korean = "저, 모험가가 됐어요. 소울을 빼앗긴 마을 사람들을 원래대로 되돌리기 위해서…. 그리고 <value:$28> 씨처럼 강해져서… 많은 사람을 돕기 위해서요.<end>"
+
 ["1170004"]
 japanese = "ノエルもがんばっているんだね<end>"
 korean = "노엘도 열심히 하고 있구나<end>"
@@ -19,6 +23,10 @@ korean = "노엘도 열심히 하고 있구나<end>"
 ["1170005"]
 japanese = "人を助けるためじゃないよ<end>"
 korean = "사람을 돕기 위해서가 아니야<end>"
+
+["1170006"]
+japanese = "はい！　わたし、もっともっと<line-break>がんばって、いつか必ず<line-break>村のみんなをもとに戻してみせます！<end>"
+korean = "네! 저 더더욱 열심히 해서 언젠가 반드시 마을 사람들을 원래대로 되돌려 놓겠어요!<end>"
 
 ["1170007"]
 japanese = "え？　あの、その、でも…<line-break>わたし、<value:$28>さんは<line-break>いろんな人を助けてると思います…。<line-break>私も、<value:$28>さんに<line-break>助けられましたから…。<end>"
@@ -180,6 +188,10 @@ korean = "…아무튼 이곳을 벗어나자. 놈들의 동료가 아직 근처
 japanese = "フフ、その通りだな。<line-break>では、退散するとしようか。<end>"
 korean = "후후, 맞는 말이군. 그럼 물러나도록 하지.<end>"
 
+["1170050"]
+japanese = "今日は助けてくれて、ありがと。<line-break>戦っているときの真剣な顔…<line-break>フフフ…、かわいかったわよ。<end>"
+korean = "오늘 도와줘서 고마워. 싸울 때의 진지한 얼굴… 후후후… 귀여웠어.<end>"
+
 ["1170051"]
 japanese = "あ、あの、それじゃ、<line-break>わたしはこれで失礼します！<end>"
 korean = "저, 저기, 그럼 저는 이만 실례하겠습니다!<end>"
@@ -211,6 +223,10 @@ korean = "흠… 또 시문원 놈들인가?<end>"
 ["1170059"]
 japanese = "ええ、間違いないわ。　　　　　<line-break>　<line-break>　<line-break>…で、ナーシェス。あんた<line-break>どうして、こういうときに限って、<line-break>いつもいないのよ？<end>"
 korean = "그래, 틀림없어. …그런데 나셰스. 넌 왜 꼭 이럴 때마다 항상 없는 거야?<end>"
+
+["1170060"]
+japanese = "言いがかりはよしてもらおう。<line-break>お前たちが、いつまでたっても<line-break>来ないから、見に来たまでだ。<end>"
+korean = "억지는 그만둬. 너희가 언제까지고 오지 않으니까 보러 왔을 뿐이야.<end>"
 
 ["1170061"]
 japanese = "あ、あの、でも、どうして、<line-break>わたしたちを、ねらうのかな…。<end>"

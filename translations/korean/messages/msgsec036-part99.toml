@@ -4,6 +4,10 @@
 japanese = "旅立ち０９メッセージ<end>"
 korean = "여행 출발 09 메시지<end>"
 
+["360001"]
+japanese = "（…ドアの音。また、母さんか？<line-break>　…まだ夜明け前なのに…<line-break>　いったいどこへ？　　　）　　　<end>"
+korean = "(…문 소리. 또 엄마인가? …아직 동트기 전인데… 대체 어디로?)<end>"
+
 ["360002"]
 japanese = "（まさか、　モンスターに<line-break>　操られているんじゃ…。　）　　<end>"
 korean = "(설마 몬스터에게 조종당하고 있는 건…. )<end>"
@@ -35,6 +39,10 @@ korean = "너를 만난 지도 벌써 17년이구나. 계속 이렇게 있고 �
 ["360010"]
 japanese = "おいで、<value:$28>。<end>"
 korean = "이리 와, <value:$28>.<end>"
+
+["360011"]
+japanese = "ごらん、<value:$28>。<line-break>きれいでしょう？　　　　　　　　　<line-break>　<line-break>ここがヴァシュタールの柩と呼ばれ、<line-break>この町が、捧げられる町と呼ばれる、<line-break>そのゆえんが、この光る石なの。<end>"
+korean = "봐, <value:$28>. 아름답지? 여기가 바슈타르의 관이라 불리고 이 마을이 바쳐지는 마을이라 불리는 이유가 바로 이 빛나는 돌이야.<end>"
 
 ["360012"]
 japanese = "<value:$28>、<line-break>夜が明けるわ…。<end>"
@@ -271,6 +279,10 @@ korean = "영차, 영차. 나도 참 남 잘 챙긴다니까.<end>"
 ["360080"]
 japanese = "いい人に拾われるんだよ。<line-break>じゃね。<end>"
 korean = "좋은 사람한테 주워져야 해. 그럼 안녕.<end>"
+
+["360081"]
+japanese = "<if><value:$29><equal>%0お兄ちゃん、お兄ちゃん、起きて。<line-break>こんなとこで寝てると<line-break>風邪ひいちゃうよぉ。<end>お姉ちゃん、お姉ちゃん、起きて。<line-break>こんなとこで寝てると<line-break>風邪ひいちゃうよぉ。<end>"
+korean = "<if><value:$29><equal>%0오빠, 오빠, 일어나. 이런 데서 자면 감기 걸려.<end>언니, 언니, 일어나. 이런 데서 자면 감기 걸려.<end>"
 
 ["360082"]
 japanese = "<if><value:$29><equal>%0ここ？　ロストール。王国の都だよ。<line-break>お兄ちゃん、どうしたの？<end>ここ？　ロストール。王国の都だよ。<line-break>お姉ちゃん、どうしたの？<end>"

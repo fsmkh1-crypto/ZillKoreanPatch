@@ -192,6 +192,10 @@ korean = "조포르… 너는 마지막에 무엇을 보았지? 우리의 죽음
 japanese = "ふっふっふ…。　　　　<line-break>　<line-break>　<line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
 korean = "후후후…. 크흑. 소용없다…. 운명은… 변하지 않아….<end>"
 
+["1900056"]
+japanese = "ゆくぞ、<value:$28>。<line-break>どのような運命が待とうと、<line-break>私たちには進むことしかできぬ。<line-break>シャリはこの城から出たようだ。<line-break>エンシャントの町のどこかに<line-break>潜んでいるはず。捜そう。<end>"
+korean = "가자, <value:$28>. 어떤 운명이 기다리든 우리는 앞으로 나아갈 수밖에 없다. 샤리는 이 성에서 나간 모양이다. 엔샨트 마을 어딘가에 숨어 있을 거야. 찾아보자.<end>"
+
 ["1900057"]
 japanese = "ザギヴ、ベルゼーヴァに伝えよ。<line-break>エンシャント奪還の準備を調えておけ<line-break>…とな。<end>"
 korean = "자기브, 벨제바에게 전해라. 엔샨트 탈환 준비를 갖춰 두라고….<end>"
@@ -276,6 +280,10 @@ korean = "조포르… 너는 마지막에 무엇을 보았지? 우리의 죽음
 japanese = "ふっふっふ…。　　　　<line-break>　<line-break>　<line-break>ぐふっ。ムダだ…。<line-break>運命は…、変わらぬ…。<end>"
 korean = "후후후…. 크흑. 소용없다…. 운명은… 변하지 않아….<end>"
 
+["1900079"]
+japanese = "ゆくぞ、<value:$28>。<line-break>どのような運命が待とうと、<line-break>私たちには進むことしかできぬ。<line-break>シャリはこの城から出たようだ。<line-break>エンシャントの町のどこかに<line-break>潜んでいるはず。捜そう。<end>"
+korean = "가자, <value:$28>. 어떤 운명이 기다리든 우리는 앞으로 나아갈 수밖에 없다. 샤리는 이 성에서 나간 모양이다. 엔샨트 마을 어딘가에 숨어 있을 거야. 찾아보자.<end>"
+
 ["1900080"]
 japanese = "<value:$28>、<line-break>そろそろ幕が近いよ。<line-break>君はついにここまで来たんだから。<line-break>僕を倒せばこの後ろの扉が開く。<line-break>そしてその先に、旅の終着があるよ。<end>"
 korean = "<value:$28>, 슬슬 막이 내릴 때가 가까워. 넌 마침내 여기까지 왔으니까. 나를 쓰러뜨리면 뒤의 문이 열린다. 그리고 그 너머에 여행의 종착점이 있어.<end>"
@@ -327,6 +335,10 @@ korean = "그럼 안녕, <value:$28>.<end>"
 ["1900093"]
 japanese = "闇の門の島に向かえば、<line-break>もうあとに引き返すことは<line-break>ままならないでしょう。<line-break>充分に力をつけてから<line-break>向かってくださいね。<end>"
 korean = "어둠의 문 섬으로 향하면 이제 되돌아오기가 쉽지 않을 겁니다. 충분히 힘을 기른 뒤에 가 주세요.<end>"
+
+["1900095"]
+japanese = "青竜将軍代理であります。<line-break>敵が攻めてきたらどうしようって<line-break>非常に心配であります。<end>"
+korean = "청룡장군 대리입니다. 적이 쳐들어오면 어쩌나 몹시 걱정됩니다.<end>"
 
 ["1900096"]
 japanese = "ヒマだよ～。<line-break>役に立つから、早く誘ってね。<end>"
@@ -456,6 +468,10 @@ korean = "또 꼭 티아나를 만나러 와주세요. <value:$28>님이 곁에 
 japanese = "また会いにいらしてください。　<line-break>　<line-break>　<line-break><value:$28>様とお話しする<line-break>ことができれば、ティアナは<line-break>それだけで安心できるのです。<end>"
 korean = "또 만나러 와 주세요. <value:$28>님과 이야기할 수 있으면 티아나는 그것만으로 안심할 수 있어요.<end>"
 
+["1900134"]
+japanese = "あ、<value:$28>様！<line-break>ティアナ様が、いつになっても　<line-break>お戻りになられません。<line-break>どこにも見あたらないのです！<line-break>あああ…、いったいどこに<line-break>行かれてしまわれたのでしょう。<end>"
+korean = "아, <value:$28> 님! 티아나 님이 아무리 기다려도 돌아오지 않으십니다. 어디에도 보이지 않아요! 아아아… 대체 어디로 가신 걸까요.<end>"
+
 ["1900135"]
 japanese = "ティアナ様は少し前から<line-break>すっかりお変わりになられて…　<line-break>　<line-break>地に足がついてらっしゃらない<line-break>というか…。<end>"
 korean = "티아나 님은 조금 전부터 완전히 달라지셔서… 땅에 발이 붙어 있지 않은 듯하다고 할까….<end>"
@@ -555,6 +571,10 @@ korean = "사실은 <value:$28> 님이 늘 곁에 계셔 주시면 티아나는 
 ["1900168"]
 japanese = "ですから、<value:$28>様。<line-break>…また、こうしてティアナに<line-break>会いに来てくださいね。<end>"
 korean = "그러니 <value:$28>님. …또 이렇게 티아나를 만나러 와 주세요.<end>"
+
+["1900169"]
+japanese = "そうですよね。…ティアナは<line-break>ロストールの王女ですもの。<line-break>王女として、がんばらねばなりません。<line-break>でも、<value:$28>様。<line-break>王女である前に、私はひとりの<line-break>女の子なのです。<end>"
+korean = "그렇죠. …티아나는 로스토올의 왕녀니까요. 왕녀로서 열심히 해야 해요. 하지만 <value:$28> 님. 왕녀이기 전에 저는 한 명의 여자아이예요.<end>"
 
 ["1900170"]
 japanese = "ですから、<value:$28>様。<line-break>これからも、ティアナのことを<line-break>見守っていてください。<end>"

@@ -44,6 +44,10 @@ korean = "…그렇군요. 다행이에요. 저, <value:$28>님께 드시게 하
 japanese = "ですから、そのときは<line-break>なるべく食べにいらしてください。<end>"
 korean = "그러니 그때는 되도록 먹으러 와 주세요.<end>"
 
+["1910012"]
+japanese = "…<value:$28>様、<line-break>この王宮の人たちも、外見では<line-break>以前と変わりありませんが、<line-break>心の中では不安なのですね。<line-break>…ティアナ様とレムオン様が<line-break>いなくなってしまいましたから。<end>"
+korean = "…<value:$28> 님, 이 왕궁 사람들도 겉모습은 예전과 다르지 않지만 마음속으로는 불안한 거군요. …티아나 님과 레몬 님이 사라져 버렸으니까요.<end>"
+
 ["1910013"]
 japanese = "私の不安も…<line-break>消えることはありません。　　<line-break>　<line-break>あの深い闇の中に<line-break>また吸い込まれてしまうのでは<line-break>ないかという不安が…。<end>"
 korean = "제 불안도… 사라지지 않습니다. 저 깊은 어둠 속으로 다시 빨려 들어가는 건 아닐까 하는 불안이….<end>"
@@ -100,6 +104,14 @@ korean = "<value:$28>님이 저를 걱정해 주신다면 그것만으로 충분
 japanese = "あ、<value:$28>様。<line-break>私に会いに来てくださったのですね。<line-break>…うれしいです。<end>"
 korean = "아, <value:$28>님. 저를 만나러 와 주셨군요. …기뻐요.<end>"
 
+["1910029"]
+japanese = "<value:$28>様、<line-break>ロストールは戦争を免れて<line-break>平和になったはずです。でも…　　<line-break>人々の心は不安にかられています。<line-break>…最近、私の心に人々の不安が<line-break>流れ込んでくるのです。<end>"
+korean = "<value:$28> 님, 로스토올은 전쟁을 피해서 평화로워졌어야 해요. 하지만… 사람들의 마음은 불안에 사로잡혀 있어요. …요즘 사람들의 불안이 제 마음속으로 흘러들어와요.<end>"
+
+["1910030"]
+japanese = "私、ずっと闇の中にいましたから。<line-break>だから、負の感情に敏感に<line-break>なっているのですね。<end>"
+korean = "저는 계속 어둠 속에 있었으니까요. 그래서 부정적인 감정에 민감해진 거겠죠.<end>"
+
 ["1910031"]
 japanese = "でも、私には何もできません。　　<line-break>私にできることは…<line-break>お祈りをするくらいです。<line-break><value:$28>様、<line-break>この世界は、人々の不安に包まれて<line-break>どうなってしまうのでしょう？<end>"
 korean = "하지만 저는 아무것도 할 수 없습니다. 제가 할 수 있는 건… 기도하는 정도예요. <value:$28> 님, 이 세계는 사람들의 불안에 둘러싸여 어떻게 되는 걸까요?<end>"
@@ -152,6 +164,10 @@ korean = "두 분 모두 이 나라의 평화를 위해 필요한 분들이니�
 japanese = "あ、はい。<line-break>私も<value:$28>様が<line-break>捜しだしてくださると信じています。<line-break><value:$28>様は私を闇から<line-break>救い出してくださいましたから。<line-break>ですから、今度もきっと…。<end>"
 korean = "아, 네. 저도 <value:$28> 님이 찾아 주실 거라 믿고 있어요. <value:$28> 님은 저를 어둠에서 구해 주셨으니까요. 그러니 이번에도 분명….<end>"
 
+["1910046"]
+japanese = "私、ときどき不安になります。<line-break>…<value:$28>様が、遠くに<line-break>行ってしまわれるのではないかと。　<line-break>今、世界は不安に包まれています。<line-break>その世界の中を<value:$28>様は<line-break>駆け回っている…。<end>"
+korean = "저는 가끔 불안해져요. …<value:$28> 님이 멀리 가 버리시는 건 아닐까 하고. 지금 세계는 불안에 휩싸여 있습니다. 그 세계 속을 <value:$28> 님은 뛰어다니고 계시고….<end>"
+
 ["1910047"]
 japanese = "<value:$28>様が、世界を覆う<line-break>不安に飲み込まれてしまうのでは<line-break>ないかと心配なのです。<end>"
 korean = "<value:$28>님이 세상을 뒤덮은 불안에 삼켜질까 걱정됩니다.<end>"
@@ -171,6 +187,10 @@ korean = "감사합니다. 그렇게 말씀해 주시니 안심돼요. 그러니
 ["1910053"]
 japanese = "でも、私、<value:$28>様が<line-break>来てくださるのを待っていますから。<line-break>ですから、また会いに来てください。<end>"
 korean = "그래도 저는 <value:$28>님이 와 주시길 기다리고 있을게요. 그러니 또 만나러 와 주세요.<end>"
+
+["1910055"]
+japanese = "あ、<value:$28>様！<line-break>アトレイア様が、いつになっても<line-break>お戻りになられません。<line-break>どこにも見あたらないのです！<line-break>あああ…、いったいどこに<line-break>行かれてしまわれたのでしょう。<end>"
+korean = "아, <value:$28> 님! 아트레이아 님이 아무리 기다려도 돌아오지 않으십니다. 어디에도 보이지 않아요! 아아아… 대체 어디로 가신 걸까요.<end>"
 
 ["1910057"]
 japanese = "え？　心当たりですか？<line-break>…そう言えば、このところ、東方から<line-break>来られた博士にお会いになっていました。<line-break>たしか、シャリ様とおっしゃったと<line-break>思いますけど…。<line-break>　<end>"
@@ -260,6 +280,10 @@ korean = "기다려. 상태가 이상해….<end>"
 japanese = "これは…。<end>"
 korean = "이건….<end>"
 
+["1910082"]
+japanese = "闇の聖母神…、ティラ…。　　　　　　<line-break>この大地を産んだ精霊の母。<line-break>　<line-break>大地を汚す人を滅ぼさんとし、<line-break>闇に落とされた女神。<line-break>なぜここに？　封印されていたはず…。<end>"
+korean = "어둠의 성모신… 티라…. 이 대지를 낳은 정령의 어머니. 대지를 더럽히는 인간을 멸하려다 어둠으로 떨어진 여신. 왜 여기에? 봉인되어 있었을 텐데….<end>"
+
 ["1910083"]
 japanese = "もしかして、<value:$28>。<line-break>あなたは封印の巨人をすべて<line-break>倒してしまったのですか？<end>"
 korean = "혹시 <value:$28>. 봉인의 거인을 전부 쓰러뜨린 겁니까?<end>"
@@ -287,6 +311,10 @@ korean = "그건 당신입니다. 어둠을 모두 지워 버릴 만큼 강렬�
 ["1910093"]
 japanese = "それはどうかな？<line-break><value:$28>は今や<line-break>地上最強の存在となりつつある。<line-break>もし、その<value:$28>が<line-break>心変わりをしたら<line-break>誰がとめられるというのだ？<end>"
 korean = "그건 어떨까? <value:$28>는 지금 지상 최강의 존재가 되어 가고 있다. 만약 그 <value:$28>가 마음을 바꾸면 누가 막을 수 있겠나?<end>"
+
+["1910095"]
+japanese = "…俺はノエルに従うと決めている。<line-break>ノエルの前に立つ敵は<line-break>排除する。…それだけだ。<end>"
+korean = "…나는 노엘을 따르기로 정했다. 노엘 앞을 막는 적은 제거한다. …그뿐이다.<end>"
 
 ["1910096"]
 japanese = "こんなことになってしまって<line-break>残念だけど、<line-break>全力でいかせてもらうわ！<end>"
@@ -367,6 +395,10 @@ korean = "어리석구나, 나셰스…. 이 용왕이 내려 준 무한의 소�
 ["1910121"]
 japanese = "竜王…様、<line-break>わたしは…<line-break>もう戦えません。<end>"
 korean = "용왕…님, 저는… 이제 싸울 수 없습니다.<end>"
+
+["1910122"]
+japanese = "　　　　　　我が力を受けし少女、　　　　　　<line-break>　　　　　　　　ノエルよ…　　　　　　　　　<line-break>　　　　　　　竜王との契約を　　　　　　　　<line-break>　　　　　果たせぬ者に用はない…<end>"
+korean = "나의 힘을 받은 소녀, 노엘이여…. 용왕과의 계약을 완수하지 못하는 자에게 볼일은 없다….<end>"
 
 ["1910123"]
 japanese = "　　　　　　　ならばノエルよ…　　　　　　　<line-break>　　　　　　　　汝のもつ<line-break>　　　　　　　無限のソウルは、<line-break>　　　　　この竜王が役立てよう…<end>"

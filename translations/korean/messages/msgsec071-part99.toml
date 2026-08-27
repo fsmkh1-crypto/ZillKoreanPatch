@@ -484,6 +484,10 @@ korean = "무지개빛 산맥…. 그곳에 가면 모든 걸 알 수 있다는 
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["710142"]
+japanese = "あんたも見たかい？<line-break>さっき、しゃべるゴブリンが３匹も<line-break>酒場から出てきたんだよ。<line-break>もう町を出ただろうとはいっても、<line-break>酒場にゴブリンがいただなんて<line-break>衛生的に大丈夫なのかねえ？<end>"
+korean = "너도 봤니? 아까 말하는 고블린이 세 마리나 술집에서 나오더라. 벌써 마을을 나갔다고 해도 술집에 고블린이 있었다니 위생은 괜찮은 건가 몰라.<end>"
+
 ["710145"]
 japanese = "待て、<value:$28>。<line-break>あの魔人はこの森の奥に<line-break>いるはずだ。<line-break>外に出るのなら<line-break>この森を探してからにしろ。<end>"
 korean = "기다려, <value:$28>. 그 마인은 이 숲 안쪽에 있을 거다. 밖으로 나갈 거라면 이 숲부터 찾아봐.<end>"

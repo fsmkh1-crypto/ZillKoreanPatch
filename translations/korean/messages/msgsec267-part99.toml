@@ -20,6 +20,10 @@ korean = "<value:$28>…. 왜 여기에?<end>"
 japanese = "そ、そんな…！<line-break>ダメよ。そんなことできないわ。<end>"
 korean = "그, 그럴 수가…! 안 돼. 그런 건 못 해.<end>"
 
+["2670006"]
+japanese = "聞こえたよね、<value:$28>。<line-break>この悲恋を成就させるために、<line-break>ひと肌脱いであげたら？<line-break>もっとも、ソウルを失ったら<line-break>君は消えちゃうんだけどね。アハハハ。<line-break>さあ、どうする<value:$28>？<end>"
+korean = "들었지, <value:$28>. 이 비극적인 사랑을 이루게 해 주려고 한몫할 생각 없어? 물론 소울을 잃으면 너는 사라지겠지만. 아하하하. 자, 어떻게 할래 <value:$28>?<end>"
+
 ["2670007"]
 japanese = "自分を犠牲に<end>"
 korean = "자신을 희생한다<end>"

@@ -88,6 +88,10 @@ korean = "어이, <value:$28>. 어디 가는 거야?<end>"
 japanese = "ルルアンタが心配するだろう。<line-break>宿屋で待っていてやろうぜ？<end>"
 korean = "루루안타가 걱정할 거야. 여관에서 기다려 주자고?<end>"
 
+["1470024"]
+japanese = "二階も見てきたが、ルルアンタは<line-break>まだ帰ってきてないぜ。<line-break>俺はここで待たせてもらうとするよ。<end>"
+korean = "2층도 보고 왔지만 릴비는 아직 안 돌아왔어. 난 여기서 기다리고 있을게.<end>"
+
 ["1470026"]
 japanese = "…ひょっとしたら…<line-break>…まさかな。<end>"
 korean = "…혹시… …설마.<end>"
@@ -111,6 +115,10 @@ korean = "…사실 나도 그 아이를 노린 유괴 사건이 걸렸어. 어�
 ["1470031"]
 japanese = "よし、そんじゃ、俺も心当たりを<line-break>当たってみることにする。<line-break><value:$28>も頼んだぜ。<end>"
 korean = "좋아, 그럼 나도 짚이는 데를 알아볼게. <value:$28>도 부탁한다.<end>"
+
+["1470032"]
+japanese = "リルビーの娘を見なかったかって？<line-break>そう言えば、さっき広場の方に<line-break>走っていくの見たような…。<end>"
+korean = "릴비 여자애 못 봤냐고? 그러고 보니 아까 광장 쪽으로 뛰어가는 걸 본 것 같기도….<end>"
 
 ["1470035"]
 japanese = "いらっしゃいませ。<line-break>今日は何になさいますか？　　　<line-break>　<line-break>え？　リルビーの女の子ですか？<line-break>カウンターにいるお客さんでは<line-break>ないんですよね？<end>"
@@ -212,6 +220,10 @@ korean = "그럼, 가볼까.<end>"
 japanese = "ん、なんだあ、てめえは！？<end>"
 korean = "응? 뭐야, 넌!?<end>"
 
+["1470064"]
+japanese = "いや、なぁに。ちょっくら<line-break>ここにやっかいになってる子供たちを<line-break>返してもらおうかと思ってね。<end>"
+korean = "아니, 뭐. 잠깐 여기 신세지고 있는 아이들을 돌려받으러 왔을 뿐이야.<end>"
+
 ["1470065"]
 japanese = "あん？　お前、ノーブルで<line-break>邪魔してきた男だな。<line-break>ふざけやがってえ！<end>"
 korean = "앙? 너, 노블에서 방해했던 놈이군. 장난하냐!<end>"
@@ -259,6 +271,10 @@ korean = "제, 젠장! 어이, 너희들 실수하지 마라!<end>"
 ["1470078"]
 japanese = "ちっ、ちくしょう…。　　　　　　　　<line-break>こんなはずじゃ…。<line-break>　<end>"
 korean = "제, 젠장… 이럴 리가…<end>"
+
+["1470079"]
+japanese = "よくやったな、<value:$28>。<line-break>ひとりで行かせて大丈夫かとも<line-break>思っていたが、いらぬ心配だった。<line-break>で、<value:$28>。<line-break>お前さんの方はどうだった？<line-break>ルルアンタは見つかったか？<end>"
+korean = "잘했어, <value:$28>. 혼자 보내도 괜찮을까 생각했지만 쓸데없는 걱정이었군. 그래서 <value:$28>, 네 쪽은 어땠어? 릴비는 찾았나?<end>"
 
 ["1470084"]
 japanese = "<if><value:$29><equal>%0（はやくルルアンタを捜さないと！<line-break>　ルルアンタはエンシャントにいる。）<end>（はやくルルアンタを捜さないと！<line-break>　ルルアンタは<line-break>　エンシャントにいるわ。）<end>"
@@ -331,6 +347,10 @@ korean = "제네테스여, 내가 구해 둔 아이들을 자네에게 맡기고
 ["1470103"]
 japanese = "そいつは構わないが…。<end>"
 korean = "그건 상관없지만….<end>"
+
+["1470104"]
+japanese = "お主らの手柄にしておいてくれ。<line-break>わしは道すがら、泣き叫んでいた<line-break>子供たちを助けたにすぎん。<end>"
+korean = "너희 공적으로 해 두게. 나는 길에서 울고 있던 아이들을 구했을 뿐이야.<end>"
 
 ["1470105"]
 japanese = "そんじゃ、<line-break>そういうことにしておくか。<line-break>あとで一杯おごらせてもらう。<end>"
@@ -420,6 +440,10 @@ korean = "쳇. 그 릴비 꼬맹이.대체 어디로 도망친 거야.　　<end
 japanese = "何者だ、お前ら！<line-break>こんな所をうろついているとは　　　　<line-break>怪しい奴め！<end>"
 korean = "너희는 누구냐! 이런 곳을 어슬렁거리다니 수상한 놈들!<end>"
 
+["1470138"]
+japanese = "…どうやら俺たちが何者なのか、<line-break>知っているようだな。<line-break>さっきのセリフ。どういう意味だ？　　<end>"
+korean = "…아무래도 우리가 누군지 알고 있는 것 같군. 아까 그 말, 무슨 뜻이지?<end>"
+
 ["1470139"]
 japanese = "言葉通りの意味さ。もう、<line-break>あんたらに戻るところはないぜ。<line-break>　<line-break>さぁ、ルルアンタの居場所を<line-break>教えてもらおうか？<end>"
 korean = "말 그대로야. 이제 너희에게 돌아갈 곳은 없어. 자, 루루안타가 어디 있는지 말해 주실까?<end>"
@@ -499,6 +523,10 @@ korean = "…거짓말 아니야. 그 꼬맹이는 놓쳐 버렸어…. 꼬마 �
 ["1470162"]
 japanese = "まずいことになったな。　　　<line-break>早くルルアンタを捜そう。<line-break>　<line-break>こいつの言うとおり、<line-break>女の子ひとりで抜け出せるような<line-break>森じゃない。急いで捜すんだ。<end>"
 korean = "큰일이군. 빨리 루루안타를 찾자. 이 녀석 말대로 여자아이 혼자 빠져나올 수 있는 숲이 아니야. 서둘러 찾아야 해.<end>"
+
+["1470163"]
+japanese = "悪いが今は海がしけていてな。<line-break>出航を見合わせているんだ。<line-break>しばらくは船を出せそうにないぜ。<end>"
+korean = "미안하지만 지금은 바다가 거칠어서 출항을 보류 중이야. 한동안은 배를 띄우기 어려울 것 같아.<end>"
 
 ["1470165"]
 japanese = "どうしたんだ、<value:$28>？<line-break>まだ引き受けた仕事は<line-break>終わってないんだろう？　　　　　<line-break>子供たちの命がかかっているんだ。<line-break>今は、飢えた者の迷宮へ<line-break>急いでくれないか？<end>"

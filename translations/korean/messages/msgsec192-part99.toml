@@ -24,6 +24,10 @@ korean = "뭐 하는 거야, <value:$28>. 침대에서 떨어지다니. 정말 �
 japanese = "おはよう、<value:$28>。<line-break>どう？　目は覚めた？<end>"
 korean = "좋은 아침, <value:$28>. 어때? 잠은 깼어?<end>"
 
+["1920007"]
+japanese = "それじゃ、さっさと行くわよ。　　　　<line-break>はやく準備しなさい。<line-break>　<line-break>あ、ちゃんと服を着替えないとダメよ。<line-break>外で待ってるから、すぐに準備を<line-break>すませること。いいわね？<end>"
+korean = "그럼 얼른 가자. 빨리 준비해. 아, 옷도 제대로 갈아입어야 해. 밖에서 기다릴 테니 바로 준비 끝내. 알겠지?<end>"
+
 ["1920008"]
 japanese = "あら、<value:$28>。<line-break>目が覚めたみたいね。<line-break>朝ご飯はできてるわよ。　　　　<end>"
 korean = "어머, <value:$28>. 깨어난 모양이네. 아침밥은 다 됐어.<end>"
@@ -43,6 +47,10 @@ korean = "하지만 그 아이들은 돌아와 줬어. 이 집으로…. 그때�
 ["1920012"]
 japanese = "ね、あなた…。　　　　　　　　<line-break>　<line-break>　<end>"
 korean = "저기, 당신….<end>"
+
+["1920013"]
+japanese = "来たわね、<value:$28>。<line-break>言っておくけど、今日こそは　　<line-break>絶対に一本取ってみせるわ！<line-break>あなたから一本取るまで<line-break>王宮の近衛騎士の任務は<line-break>受けないって決めてるんだから。<end>"
+korean = "왔구나, <value:$28>. 말해 두는데 오늘이야말로 반드시 한 판 따낼 거야! 네게 한 판 따낼 때까지 왕궁 근위기사 임무는 안 받기로 했거든.<end>"
 
 ["1920014"]
 japanese = "ほら、さっさと道場に行くわよ。<end>"
@@ -75,6 +83,10 @@ korean = "아이린, 이제 그만하는 게 좋다 고브. 한 번도 못 이�
 ["1920021"]
 japanese = "っるさいわね！<line-break>なれなれしく、アイリーンなんて<line-break>呼ばないでよ！<end>"
 korean = "시끄러워! 친한 척 아이린이라고 부르지 마!<end>"
+
+["1920022"]
+japanese = "だいたい、なんであんたたちが<line-break>ここにいるのよ！<line-break>他はあのころとみんな一緒なのに！<end>"
+korean = "대체 왜 너희가 여기 있는 거야! 다른 건 그때랑 전부 똑같은데!<end>"
 
 ["1920023"]
 japanese = "我々はオッシ先生に<line-break>弟子入りした身ゴブ。<line-break>アイリーンとは兄弟弟子ゴブ。<end>"
@@ -243,6 +255,10 @@ korean = "정말! 겨우 모두를 설득해서 자유롭게 모험할 수 있�
 ["1920069"]
 japanese = "<value:$28>が来てくれないと<line-break>冒険なんて、できないんだぞ…。<end>"
 korean = "<value:$28>이 와 주지 않으면 모험 같은 건 할 수 없다고….<end>"
+
+["1920070"]
+japanese = "あれ？　ボク、はじめて冒険の旅に<line-break>出たときは、ひとりでも<line-break>やっていけるって思ってたのに…。<line-break>今では、<value:$28>が<line-break>いないと、旅に出るのが<line-break>なんだか、恐くなってる…。<end>"
+korean = "어라? 난 처음 모험 여행을 떠났을 땐 혼자서도 잘할 수 있다고 생각했는데…. 지금은 <value:$28>가 없으면 여행을 떠나는 게 왠지 무서워졌어….<end>"
 
 ["1920071"]
 japanese = "いつのまにか、<line-break>ボクにとっての<line-break>冒険の旅っていうのは、<line-break><value:$28>と<line-break>一緒にいることに<line-break>なっちゃたんだな…。<end>"
@@ -440,6 +456,10 @@ korean = "그리고 그 사람이… 나를 어둠에서 구해 준 그 사람�
 japanese = "眠りにつこうとするとき、<line-break>今でも、ときどき恐くなる。<line-break>　<line-break>朝、目を覚ましたとき、<line-break>また、あの闇が私を覆ってしまう<line-break>のではないか、って。<end>"
 korean = "잠들려고 할 때면 지금도 가끔 무서워져. 아침에 눈을 떴을 때 또 그 어둠이 나를 덮어 버리는 게 아닐까, 하고.<end>"
 
+["1920129"]
+japanese = "でも、もう大丈夫よね。<line-break>たとえ、闇にとらわれたとしても<line-break>私の騎士が救い出してくれるから。<line-break>私を絶望から救ってくれた<line-break><value:$28>が、いつも<line-break>そばにいてくれるのだから。<end>"
+korean = "하지만 이제 괜찮아. 설령 어둠에 사로잡혀도 내 기사가 구해 줄 테니까. 나를 절망에서 구해 준 <value:$28>가 언제나 곁에 있어 줄 테니까.<end>"
+
 ["1920130"]
 japanese = "開いているわ。<line-break>入って。<end>"
 korean = "열려 있어. 들어와.<end>"
@@ -495,6 +515,10 @@ korean = "국내의 이익만 바라봐서는 앞으로의 로스토올은, 아�
 ["1920146"]
 japanese = "お母様…。<end>"
 korean = "어머님….<end>"
+
+["1920147"]
+japanese = "そなたという後継者がいるおかげで、<line-break>このままでは私も、当分の間<line-break>この座から降りられぬわ。<line-break>そなたが、いずこかの<line-break>優秀な貴公子でも連れてくるなら<line-break>話は別だがな。<end>"
+korean = "그대라는 후계자가 있는 탓에 이대로라면 나도 당분간 이 자리에서 내려올 수 없겠구나. 그대가 어디선가 훌륭한 귀공자라도 데려온다면 이야기가 다르겠지만.<end>"
 
 ["1920148"]
 japanese = "お、お母様！<end>"
@@ -571,6 +595,10 @@ korean = "저, 저기, <value:$28> 씨. 정말 저도 여행에 데려가 주셔
 ["1920170"]
 japanese = "いえ、あの、<line-break><value:$28>さんが誘ってくれて<line-break>とってもうれしいんです。　　　　　　<line-break>カフィンもレイヴンも、<line-break><value:$28>さんと一緒だったら<line-break>安心して見守ってくれると思いますし。<end>"
 korean = "아뇨, 저, <value:$28> 씨가 권해 줘서 정말 기뻐요. 카핀도 레이븐도 <value:$28> 씨와 함께라면 안심하고 지켜봐 줄 것 같고요.<end>"
+
+["1920171"]
+japanese = "だから、お父様とお母様にも内緒で<line-break>こうして出てきちゃったんです。<line-break>　<line-break>その、本当にわたしなんかで<line-break>いいんでしたら、お願いします。<line-break>一緒に連れていってください！<end>"
+korean = "그래서 아버님과 어머님께도 비밀로 하고 이렇게 나와 버렸어요. 그, 정말 저 같은 사람도 괜찮다면 부탁드릴게요. 함께 데려가 주세요!<end>"
 
 ["1920172"]
 japanese = "わたし、がんばりますから！<end>"

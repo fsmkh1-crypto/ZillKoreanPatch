@@ -80,6 +80,10 @@ korean = "그런 성배가 없어도 행복해질 수 있다 고브!!<end>"
 japanese = "我らが聖杯の力を借りたのは　　<line-break>最初だけゴブ！<line-break>　<line-break>あとは、ずーっと<line-break>自分たちの力でやってきたゴブ！<line-break>これからもやれるゴブ！<end>"
 korean = "우리가 성배의 힘을 빌린 건 처음뿐이다 고브! 그 뒤로는 계속 우리 힘으로 해 왔다 고브! 앞으로도 할 수 있다 고브!<end>"
 
+["720020"]
+japanese = "逆に今、聖杯を取り戻すために　<line-break>親分やマルーンが死んだら<line-break>自分は不幸になるでゴブ。<end>"
+korean = "반대로 지금 성배를 되찾겠다고 두목이나 마룬이 죽으면 나는 불행해지는 고브.<end>"
+
 ["720021"]
 japanese = "オルナット…。<end>"
 korean = "올나트….<end>"
@@ -364,6 +368,10 @@ korean = "헤어질까?<end>"
 japanese = "あ！　<value:$28>さん！<line-break>こ、こんにちは。　　　　　　<line-break><line-break>あの、知ってますか？<line-break>グフトクって魔獣の話？<end>"
 korean = "아! <value:$28>님! 아, 안녕하세요. 저기, 알고 계세요? 구프트크라는 마수 이야기요?<end>"
 
+["720101"]
+japanese = "わたしも詳しくは知らないんですが、<line-break>西の方でグフトクっていう魔獣が<line-break>暴れているらしいんです。<line-break>わたしたち、退治しにいくつもり<line-break>だったんですけど…<line-break>その、困ったことがあって。<end>"
+korean = "저도 자세히는 모르지만 서쪽에서 구프트크라는 마수가 날뛰고 있대요. 저희가 퇴치하러 갈 생각이었는데… 그, 곤란한 일이 생겨서요.<end>"
+
 ["720102"]
 japanese = "レイヴンの話だと、<line-break>グフトクにはどんな攻撃も　<line-break>きかないみたいなんです。<line-break>どんなに力いっぱい戦っても<line-break>どんなに威力のある武器でも<line-break>ダメらしいんです。<end>"
 korean = "레이븐 말로는 구프트크에게는 어떤 공격도 통하지 않는대요. 아무리 힘껏 싸워도, 아무리 위력 있는 무기라도 안 된다고 해요.<end>"
@@ -383,6 +391,10 @@ korean = "우후후. 그래, 좋아. 너희 둘 사이좋게 같이 날려 버�
 ["720106"]
 japanese = "あら？　これくらいで<line-break>気を失っちゃったの？<line-break>だらしないのね。<line-break>あなたたちには失望したわ。<line-break>せっかくこれから恐怖と絶望の声を<line-break>聞かせてもらおうと思ったのに。<end>"
 korean = "어머? 이 정도로 기절해 버린 거야? 한심하네. 너희에게 실망했어. 이제부터 공포와 절망의 비명을 들으려 했는데.<end>"
+
+["720107"]
+japanese = "それじゃ、また会いましょう。<line-break>今度は素敵な悲鳴を聞かせてね。<line-break>楽しみにしてるわよ。<end>"
+korean = "그럼 또 만나자. 다음엔 멋진 비명을 들려줘. 기대하고 있을게.<end>"
 
 ["720108"]
 japanese = "………………。<line-break>うーん…。<line-break>　<line-break>…あ！<end>"

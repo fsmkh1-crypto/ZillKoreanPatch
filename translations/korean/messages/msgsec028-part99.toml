@@ -608,6 +608,10 @@ korean = "마을이 좀 소란스러워.밖에 나가도 별로기분 좋진 않
 japanese = "寝ろ。<line-break>明日になれば、騒ぎも収まる。<line-break>今日は寝ちまえ。<end>"
 korean = "자. 내일이면 소동도 가라앉을 거야. 오늘은 그냥 자.<end>"
 
+["280164"]
+japanese = "ちっ、ヒヨッコ冒険者とのケンカか！<line-break>また、やっかいをしてのけたな。<line-break><value:$28>よ。<line-break>…ったく、また、宿屋のオヤジに、<line-break>冒険者に武器を売るからだとか<line-break>怒鳴られちまうぜ。<end>"
+korean = "쳇, 풋내기 모험가와 싸움이라니! 또 사고를 쳤구나, <value:$28>. …정말이지, 또 여관 주인한테 모험가에게 무기를 파니까 그렇다며 욕먹겠어.<end>"
+
 ["280166"]
 japanese = "ケンカか…。<end>"
 korean = "싸움인가….<end>"

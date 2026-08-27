@@ -764,6 +764,10 @@ korean = "잠깐. 뭔가 급한 일이 있는 모양이군. 무슨 일이야?<en
 japanese = "とう！<end>"
 korean = "타앗!<end>"
 
+["330213"]
+japanese = "♪俺が正義だ！　ガルドラ～ン！<line-break>♪正義が俺だ！　ガルドラ～ン！<line-break>♪愛のパンチを　貴様に～！<end>"
+korean = "♪내가 정의다! 갈드라~안! ♪정의가 나다! 갈드라~안! ♪사랑의 펀치를 네놈에게~!<end>"
+
 ["330214"]
 japanese = "…<value:$28>、<line-break>おやじさんは…亡くなられた。<end>"
 korean = "…<value:$28>, 아버님은… 돌아가셨어.<end>"
@@ -772,6 +776,10 @@ korean = "…<value:$28>, 아버님은… 돌아가셨어.<end>"
 japanese = "あ…。えっと、えっと！<line-break>じゃ、じゃあ、ルルアンタ、<line-break><value:$28>を探してくるね！<end>"
 korean = "아…. 저기, 저기! 그럼 루루안타가 <value:$28>을 찾아올게!<end>"
 
+["330216"]
+japanese = "ルルアンタが、私たちと<line-break>一緒に行動するようになって１０年か。<line-break>…あっという間だったな。<line-break>あの子のほほえみは<line-break>母親を亡くした幼い<value:$28>を<line-break>ずいぶん元気づけてくれたよ。<end>"
+korean = "릴비가 우리와 함께 다니게 된 지도 10년인가. …순식간이었군. 그 아이의 미소는 어머니를 잃은 어린 <value:$28>에게 큰 힘이 되어 줬어.<end>"
+
 ["330217"]
 japanese = "…そして、私もな。　　　　　　　　　<line-break><line-break><end>"
 korean = "…그리고 나도 말이지.<end>"
@@ -779,6 +787,10 @@ korean = "…그리고 나도 말이지.<end>"
 ["330218"]
 japanese = "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？<end>"
 korean = "오, <value:$28>. 돌아왔군. 루루안타는 같이 안 왔나?<end>"
+
+["330219"]
+japanese = "そうか。<line-break>いや、今、お前を捜しに行ったのだ。<line-break>すれ違ってしまったようだな。<line-break>そろそろ、ロストールへ出発だ。<line-break>悪いが、<value:$28>、<line-break>ルルアンタを捜してきてくれないか？<end>"
+korean = "그렇군. 아니, 방금 너를 찾으러 갔었어. 엇갈린 모양이군. 슬슬 로스토올로 출발할 때야. 미안하지만 <value:$28>, 릴비를 찾아와 주지 않겠어?<end>"
 
 ["330220"]
 japanese = "お前なら大丈夫だろうが、<line-break>十分、注意するんだよ。<line-break>これを持っていきなさい。<end>"

@@ -12,6 +12,10 @@ korean = "누구야?<end>"
 japanese = "冒険者…か。<line-break>何をお探しかな、人の家で？<end>"
 korean = "모험자…인가. 남의 집에서 뭘 찾고 있지?<end>"
 
+["1160004"]
+japanese = "君の冒険の理由は問わないが<line-break>人の領域を土足で侵すようなことは<line-break>やめてほしいものだな。<end>"
+korean = "네가 모험하는 이유까지 묻지는 않겠지만, 남의 영역을 함부로 침범하는 짓은 그만뒀으면 좋겠군.<end>"
+
 ["1160005"]
 japanese = "まあ、君ひとりに言っても<line-break>仕方のないことだがね。<end>"
 korean = "뭐, 너 혼자한테 말해 봐야 어쩔 수 없는 일이지만.<end>"
@@ -212,6 +216,10 @@ korean = "그 앞은 지나가게 할 수 없습니다. 그게 제 역할입니�
 japanese = "僕は君を必要としている。<line-break>フフ、なんて甘美な響きなんだろう。<line-break>　<line-break>空中都市を浮上させるためには、<line-break>魔道王国ラドラスの４人の巫女の<line-break>血を引く者が必要だ。<end>"
 korean = "난 네가 필요해. 후후, 얼마나 달콤한 울림인지. 공중도시를 띄우려면 마도왕국 라드라스의 네 무녀의 피를 이은 자가 필요해.<end>"
 
+["1160080"]
+japanese = "私はこの神殿…聖なる座所を<line-break>守らなくてはなりません。<line-break>私はそのために存在するのです。<end>"
+korean = "저는 이 신전… 성스러운 자리를 지켜야 합니다. 저는 그러기 위해 존재하는 겁니다.<end>"
+
 ["1160081"]
 japanese = "まだそんなこと言ってんの？<line-break>闇の神器が奪われた以上、<line-break>君は死ぬしかないんだよ？<end>"
 korean = "아직도 그런 소리 하는 거야? 어둠의 신기를 빼앗긴 이상 넌 죽을 수밖에 없다고?<end>"
@@ -308,9 +316,17 @@ korean = "곧 제 몸은 흙덩이처럼 무너져 내릴 겁니다. 그 때문�
 japanese = "<value:$28>様、ですか？<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>体を維持するための魔力が<line-break>弱まっているのでしょう。<line-break>最近は、目もよく見えません。<end>"
 korean = "<value:$28> 님인가요?　　　　　　　　　　　　　　　몸을 유지하는 마력이약해지고 있는 거겠죠.요즘은 눈도 잘 보이지 않습니다.<end>"
 
+["1160109"]
+japanese = "心配などいりません。<line-break>また、心配する意味もありません。<line-break>私がこうなるのは、必然なのです。<end>"
+korean = "걱정하실 필요 없습니다. 또 걱정할 의미도 없습니다. 제가 이렇게 되는 건 필연입니다.<end>"
+
 ["1160110"]
 japanese = "<value:$28>様…。<line-break>　　　　　　　　　　　　<line-break>　<line-break>あなたが<line-break>ここにいらっしゃることは<line-break>相変わらず、意味がありません。<end>"
 korean = "<value:$28>님…. 당신이 여기 계시는 건 여전히 아무 의미가 없습니다.<end>"
+
+["1160111"]
+japanese = "ですが、なぜでしょう。<line-break>あなたが来ると、不思議と<line-break>何かが満たされるような感じです…。<end>"
+korean = "그런데 왜일까요. 당신이 오면 이상하게 무언가가 채워지는 기분이 들어요….<end>"
 
 ["1160112"]
 japanese = "そこから先へは<line-break>通すことはできません。　　　　<line-break>　<line-break>たとえ、残る命が短くても、<line-break>それが私の果たすべき役目です。<line-break>どうか、お引き取りください。<end>"

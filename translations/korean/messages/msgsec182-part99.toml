@@ -36,9 +36,17 @@ korean = "그럼, 안녕히. 또 만날 수 있으면 좋겠네요.<end>"
 japanese = "あ…、<value:$28>さん。<line-break>こんにちは。<end>"
 korean = "아… <value:$28>님. 안녕하세요.<end>"
 
+["1820010"]
+japanese = "<value:$28>さんは<line-break>冒険者なんですよね？<line-break>ご家族は、いらっしゃるんですか？　　<line-break>私の両親は、私が赤ん坊のころに<line-break>亡くなったんだそうです。<line-break>だから、私、家族の記憶がないんです。<end>"
+korean = "<value:$28> 씨는 모험가죠? 가족은 있으신가요? 제 부모님은 제가 아기였을 때 돌아가셨대요. 그래서 저는 가족에 대한 기억이 없어요.<end>"
+
 ["1820014"]
 japanese = "あ…、おしゃべりしていて<line-break>おつとめを忘れるところでした…。　<line-break>　<line-break>それでは、…<value:$28>さん。<line-break>失礼します。<line-break>　<end>"
 korean = "아… 이야기하다가 임무를 잊을 뻔했네요…. 그럼… <value:$28>님. 실례하겠습니다.<end>"
+
+["1820015"]
+japanese = "ディンガルのジラーク将軍が　　　<line-break>この町を攻めてきています。<line-break>　<line-break>ミズチたちが守ってくれるおかげで<line-break>この町は無事ですが…、それでも<line-break>町の人たちに動揺が広がっています。<end>"
+korean = "딘갈의 지라크 장군이 이 마을을 공격하고 있습니다. 미즈치들이 지켜 주는 덕분에 마을은 무사하지만… 그래도 사람들 사이에 동요가 퍼지고 있어요.<end>"
 
 ["1820017"]
 japanese = "あ、すいません。<line-break>そろそろ、おつとめの時間です。<line-break>　<line-break>それでは、<value:$28>さん<line-break>失礼します。<line-break>　<end>"

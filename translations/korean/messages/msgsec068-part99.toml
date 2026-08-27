@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["680001"]
+japanese = "こっから先は進入禁止なんだよ。<line-break>部外者は、あんまりうろちょろしないで<line-break>欲しいんだけどね。<end>"
+korean = "여기서부터는 출입 금지야. 관계없는 사람은 너무 돌아다니지 않았으면 하는데.<end>"
+
 ["680005"]
 japanese = "<select><value:$20>%2サラドの料理はうまい。<line-break>腹一杯食べて力いっぱい働く所存。<end>ここはみんなが使う場所。<line-break>壊れたところはすぐに直す。<line-break>これが俺の仕事。<end>"
 korean = "<select><value:$20>%2사라드의 요리는 맛있다. 배불리 먹고 힘껏 일할 생각이다.<end>여긴 모두가 쓰는 곳. 망가진 곳은 바로 고친다. 그게 내 일이다.<end>"

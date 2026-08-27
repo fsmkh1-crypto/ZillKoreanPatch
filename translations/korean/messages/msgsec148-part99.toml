@@ -208,6 +208,10 @@ korean = "후후, 믿고 있어.<end>"
 japanese = "うーん。<line-break>最終的な判断は　　　　　　　　<line-break><value:$28>に任せるが、<line-break>そろそろ<value:$28>に、<line-break>ロストールのお偉いさん方から<line-break>なんらかの接触があると思うぜ。<end>"
 korean = "음. 최종 판단은 <value:$28>에게 맡기겠지만 슬슬 로스토올의 높은 분들이 <value:$28>에게 어떤 식으로든 접촉해 올 것 같아.<end>"
 
+["1480061"]
+japanese = "お前さんは何も知らんようだが、<line-break>残念ながら、お前さんが知ってるか<line-break>どうかは問題じゃない。<line-break>お前さんが知っていると、<line-break>向こうが思いこんでいることが<line-break>問題なんだ。<end>"
+korean = "자네는 아무것도 모르는 모양이지만, 안타깝게도 자네가 알고 있느냐가 문제는 아니네. 상대가 자네가 알고 있다고 믿고 있는 게 문제지.<end>"
+
 ["1480062"]
 japanese = "さーてと。<line-break>俺はそろそろロストールに戻るか。<line-break>こう見えてもけっこう忙しいんでね。<end>"
 korean = "자, 그럼. 난 슬슬 로스토올로 돌아갈까. 이래 보여도 꽤 바쁘거든.<end>"
@@ -432,6 +436,10 @@ korean = "우린 쌍둥이야. 그러니까.<end>"
 japanese = "<value:$28>、<line-break>エリス様がお呼びよ。<line-break>すぐにロストールまで来て。<end>"
 korean = "<value:$28>, 엘리스 님이 부르셔. 바로 로스톨로 와.<end>"
 
+["1480133"]
+japanese = "エリス様はそのことだけ<line-break>伝えればよいと仰せでしたが、<line-break>どうです？　すぐに来てもらえますか？<end>"
+korean = "엘리스 님께서는 그것만 전하면 된다고 하셨습니다만, 어떻습니까? 바로 와 주시겠습니까?<end>"
+
 ["1480134"]
 japanese = "すぐに行く<end>"
 korean = "바로 간다<end>"
@@ -467,6 +475,14 @@ korean = "플린트의 자식이라고?…그러고 보니,네 얼굴은 본 기
 ["1480151"]
 japanese = "わざわざ、すまなかったな。<line-break>そなたの元気な姿を見ることができて<line-break>安心した。<line-break>さがってよい。<line-break>フリントの子<value:$28>よ。<end>"
 korean = "일부러 와 줘서 고맙다. 네 건강한 모습을 보니 안심이 되는구나. 물러가도 좋다. 플린트의 아이 <value:$28>여.<end>"
+
+["1480152"]
+japanese = "フリントの子<value:$28>よ。<line-break>父のように私に仕えろとは言わぬ。<line-break>だが、時には私の所に来るとよい。<line-break>門衛には、そなたのことは<line-break>申し伝えておく。<line-break>門衛に話をすれば通れるはずだ。<end>"
+korean = "플린트의 아이 <value:$28>여. 아버지처럼 나를 섬기라고 하진 않겠다. 하지만 가끔은 내게 오도록 해라. 문지기에게 네 이야기는 해 두겠다. 문지기에게 말하면 통과할 수 있을 것이다.<end>"
+
+["1480153"]
+japanese = "おう、あんた、ゼネテスさんの連れの<line-break>…たしか、<value:$28>だったな。<line-break>　<line-break>子供たちが戻ってきたって、依頼主が<line-break>言っていたよ。初仕事で見事に<line-break>事件を解決してくれたみたいだな。<end>"
+korean = "오, 자네 제네테스 씨 일행의… 분명 <value:$28>였지. 아이들이 돌아왔다고 의뢰인이 말하더군. 첫 일에서 멋지게 사건을 해결한 모양이야.<end>"
 
 ["1480154"]
 japanese = "これは報酬の５００ギアだ。<line-break>ゼネテスさんから、全部あんたに　　<line-break>渡すように言われている。<line-break>受け取ってくれ。<end>"

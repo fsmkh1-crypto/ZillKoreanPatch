@@ -60,6 +60,10 @@ korean = "정말, 어쩔 수 없는 애라니까. 다녀오렴.<end>"
 japanese = "あら、目が覚めたみたいね、          <line-break><value:$28>。<line-break>　<end>"
 korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
 
+["300017"]
+japanese = "ちょっと、ベッドから落ちたりして<line-break>何をねぼけてるのよ？<line-break>まったく、しょうがないんだからぁ。<end>"
+korean = "잠깐, 침대에서 떨어지기까지 하고 왜 그렇게 잠이 덜 깬 거야? 정말 못 말린다니까.<end>"
+
 ["300018"]
 japanese = "はい、大事な剣。　　　　　　　　　　<line-break>あなたのお父様の形見。<line-break>　<end>"
 korean = "자, 소중한 검이야. 네 아버지의 유품.<end>"
@@ -392,6 +396,10 @@ korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end
 japanese = "あっ、<value:$28>さん、<line-break>先ほどはどうも<line-break>ありがとうございました。<line-break>今度、お時間があるときに<line-break>ゆっくりお話しさせてください。<end>"
 korean = "아, <value:$28>님. 아까는 정말 감사합니다. 다음에 시간 되실 때 천천히 이야기 나누게 해 주세요.<end>"
 
+["300109"]
+japanese = "言葉をしゃべるゴブリンなんて　　　　　　<line-break>今まで聞いたことがない。<line-break>な、怪しいと思うだろ？<end>"
+korean = "말하는 고블린이라니 지금까지 들어 본 적도 없어. 수상하다고 생각하지?<end>"
+
 ["300111"]
 japanese = "あ、やっと来たわね。<line-break>…あら？　そのお金どうしたの？<line-break>ずいぶんたくさんあるみたいだけど。<end>"
 korean = "아, 이제야 왔네. …어라? 그 돈은 뭐야? 꽤 많이 가진 것 같은데.<end>"
@@ -451,6 +459,14 @@ korean = "큭… 어둠 속이었다고 해도 방심했어….<end>"
 ["300128"]
 japanese = "あんたたち…<line-break>絶対に、私と<value:$28>で<line-break>捕まえてみせるんだから…。<line-break>覚えてなさいよ…。<end>"
 korean = "너희들… 반드시 나와 <value:$28>이 잡아 보일 테니까…. 두고 봐….<end>"
+
+["300129"]
+japanese = "ちょっと、ベッドから落ちたりして<line-break>何をねぼけてるのよ？<line-break>まったく、しょうがないんだからぁ。<end>"
+korean = "잠깐, 침대에서 떨어지기까지 하고 왜 그렇게 잠이 덜 깬 거야? 정말 못 말린다니까.<end>"
+
+["300130"]
+japanese = "…ああ。ついでだ。<line-break>悪いが、途中で酒場に寄って、<line-break>こいつをフェルムに渡してきてくれ。　　　<end>"
+korean = "…아, 그러고 보니 부탁 하나. 미안하지만 가는 길에 술집에 들러서 이걸 페름에게 전해 줘.<end>"
 
 ["300131"]
 japanese = "予備メッセージ３<line-break>トリゴブ<end>"

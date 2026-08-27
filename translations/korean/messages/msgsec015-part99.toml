@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["150000"]
+japanese = "<select><value:$20>%2アミラルはエルズやリベルダムとの交易で<line-break>栄えている交易都市なんだ。<end>海賊の親分といえばカンダカンが<line-break>有名なんだけど、最近は名前を聞かなく<line-break>なったよ。死んじまったのかな？<end>"
+korean = "<select><value:$20>%2아미랄은 엘즈와 리벨덤과의 교역으로 번영하는 교역도시야.<end>해적 두목이라면 칸다칸이 유명한데 요즘은 이름을 못 들었어. 죽은 걸까?<end>"
+
 ["150003"]
 japanese = "<select><value:$20>%2これはね、海王様の像なの。<line-break>海王様は海の守り神なのよ。<end>王都から遠く離れたアミラルが<line-break>こんなに平和なのは、自警団の人たちが<line-break>守ってくれているからなのよ。<end>"
 korean = "<select><value:$20>%2이건 해왕님의 상이야. 해왕님은 바다의 수호신이야.<end>왕도에서 멀리 떨어진 아미랄이 이렇게 평화로운 건 자경단 사람들이 지켜 주고 있기 때문이야.<end>"

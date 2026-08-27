@@ -8,6 +8,10 @@ korean = "여, <value:$28>. 장사는 어때? 오늘도 너를 위해 준비한 
 japanese = "よう、天下の<value:$28>。<line-break>有名人になっても、見た目はかわらないねぇ。<line-break>今日も、スペシャルティーを用意しているぜ。<end>"
 korean = "여어, 천하의 <value:$28>. 유명해져도 생김새는 그대로네. 오늘도 스페셜티를 준비해 뒀어.<end>"
 
+["1280004"]
+japanese = "どうだい、おいしかっただろう？<line-break>まだ時間があるなら、他のお茶も<line-break>飲んでいかないかい？<end>"
+korean = "어때, 맛있었지? 아직 시간이 있으면 다른 차도 마시고 가지 않을래?<end>"
+
 ["1280025"]
 japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_02 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_02 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_02 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_02 50以上）<end>"
 korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_02 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_02 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_02 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_02 50 이상)<end>"

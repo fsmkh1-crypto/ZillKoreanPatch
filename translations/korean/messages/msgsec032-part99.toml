@@ -156,6 +156,10 @@ korean = "그동안 <value:$28>이 이 마을을 지켜 줬으니까.<end>"
 japanese = "やれやれ。<line-break><value:$28>、<line-break>人気者はつらいな。<line-break>私は一足先に神殿に戻っている。<line-break>なるべく早く戻ってこい。<line-break>それにまだ朝早い。静かにな。<end>"
 korean = "이런. <value:$28>, 인기인은 힘들군. 난 먼저 신전으로 돌아가 있겠다. 되도록 빨리 돌아와. 아직 이른 아침이니 조용히 하고.<end>"
 
+["320041"]
+japanese = "<if><value:$29><equal>%0なあなあ、魔物と戦ったのか？<line-break>でもここは神器を守るための隠れ里。<line-break>魔物なんて結界にはばまれて近寄れないはず…。<end>なあなあ、魔物と戦ったのか？<line-break>ケガはなかったか？<end>"
+korean = "<if><value:$29><equal>%0이봐, 몬스터랑 싸운 거야? 하지만 여긴 신기를 지키는 숨겨진 마을이야. 몬스터는 결계에 막혀 가까이 못 올 텐데….<end>이봐, 몬스터랑 싸운 거야? 다친 데는 없어?<end>"
+
 ["320043"]
 japanese = "あー！！　もう！！　　<line-break>　<line-break>　<end>"
 korean = "아아!! 정말!!<end>"
@@ -456,6 +460,10 @@ korean = "<value:$28> 님, 돌아오셨군요. 다치신 곳은요?<end>"
 japanese = "ご無事で何よりです。<line-break>お父上のダディアス大神官が<line-break>神殿内でお待ちです。<end>"
 korean = "무사하셔서 다행입니다. 아버님이신 다디아스 대신관께서 신전 안에서 기다리고 계십니다.<end>"
 
+["320123"]
+japanese = "父なる天空神ノトゥーンと<line-break>愛の神ライラネートのご加護あらんことを。<line-break><value:$28>様、よくぞご無事で。<line-break>さ、早く神殿へ。<line-break>お父上のダディアス様が<line-break>心配なさっておられますよ。<end>"
+korean = "아버지이신 천공신 노툰과 사랑의 신 라이라네트의 가호가 있기를. <value:$28> 님, 무사하셔서 다행입니다. 자, 어서 신전으로. 아버님 다디아스 님께서 걱정하고 계십니다.<end>"
+
 ["320124"]
 japanese = "<value:$28>様も<line-break>神器の守護者のご一族。<line-break>大丈夫ですと申し上げておりますのに。　　<end>"
 korean = "<value:$28>님도 신기의 수호자 일족입니다. 괜찮다고 말씀드렸는데도….<end>"
@@ -471,6 +479,10 @@ korean = "<select><value:$20>%2무서워어!무서워어!<end><value:$28> 님!�
 ["320136"]
 japanese = "<select><value:$20>%2ヘンな女が空から降りてきて…<line-break>村が…村が…炎に包まれて…。<end>火だ…火だ…火だアア！<line-break>だ、誰か、助けてくれえ！<end>"
 korean = "<select><value:$20>%2이상한 여자가 하늘에서 내려오고…마을이… 마을이… 불길에 휩싸여서….<end>불이다… 불이다… 불이야아아!누, 누가 좀 살려줘어!<end>"
+
+["320137"]
+japanese = "<if><value:$29><equal>%0知らない！！<line-break>知らないんだ、俺たちゃ！<line-break>面ってなんなんだよ！？　おい！！<end>みんな…みんな…<line-break>あの女に燃やされて…！！<line-break>ああ…、ど、どうなってるんだよ！？<end>"
+korean = "<if><value:$29><equal>%0몰라!! 모른다고, 우리는! 가면이 뭐냐고!? 야!!<end>모두… 모두… 그 여자한테 불타서…!! 아아… 대, 대체 어떻게 된 거야!?<end>"
 
 ["320139"]
 japanese = "<value:$28>さまー。<line-break>おかえりなさい。<line-break>お疲れさまでしたー。<end>"

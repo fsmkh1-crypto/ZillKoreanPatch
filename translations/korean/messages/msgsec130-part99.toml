@@ -120,6 +120,10 @@ korean = "바람의 최고위 마법이 해방되었다.<end>"
 japanese = "　　　　　　さぁ、お行きなさい。　　　　　　<line-break>　　　　　無限のソウルを持つ者よ。<end>"
 korean = "자, 가십시오. 무한의 소울을 지닌 자여.<end>"
 
+["1300038"]
+japanese = "　　　　待っていました、<value:$28>。<line-break>　　　　　無限のソウルを持つ者よ。　　　　　<line-break>　　　アビスに打ち勝つだけの力をつけ、　　　<line-break>　　　　　再びここを訪れたのですね。　　　　<end>"
+korean = "기다리고 있었습니다, <value:$28>. 무한의 소울을 지닌 자여. 어비스를 이길 만큼 힘을 길러 다시 이곳을 찾아왔군요.<end>"
+
 ["1300039"]
 japanese = "その通りです<end>"
 korean = "그 말씀대로입니다<end>"
