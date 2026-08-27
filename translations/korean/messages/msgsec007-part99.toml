@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["70016"]
+japanese = "<if><value:$2C><less-equal>%15いいねえいいねえ、レーグ最高！　<line-break>彼のような強い男が<line-break>生きている時代に生まれてよかったあ。<end><if><value:$2C><less-equal>%25ネメアとレーグの対決が見てみたいな。<line-break>歴史に残る好カード間違いなしだろ。<line-break>なあ、あんたはどっちを応援する？<end><if><value:$2C><less-equal>%35レーグを倒せるのはボルダンかドワーフの<line-break>戦士じゃないと無理か？　人間にもがんばって<line-break>ほしいけどな。例えば<value:$28>とかよ。<end>レーグのようにいかにも強そうって<line-break>感じじゃないけど、<value:$28>も<line-break>けっこういいよな。<end>"
+korean = "<if><value:$2C><less-equal>%15좋아, 좋아! 레그 최고! 그처럼 강한 남자가 살아 있는 시대에 태어나서 다행이야.<end><if><value:$2C><less-equal>%25네메아와 레그의 대결을 보고 싶군. 역사에 남을 명승부가 틀림없겠지. 당신은 어느 쪽을 응원할 거야?<end><if><value:$2C><less-equal>%35레그를 쓰러뜨리려면 볼단이나 드워프 전사쯤은 되어야 하나? 인간도 힘내 줬으면 좋겠는데. 예를 들면 <value:$28> 같은 사람 말이야.<end>레그처럼 딱 봐도 강해 보이는 느낌은 아니지만, <value:$28>도 꽤 괜찮지.<end>"
+
 ["70017"]
 japanese = "レーグは確かに強い。<line-break>じゃが、まだ守りに隙があるわい。<end>"
 korean = "레그는 확실히 강하다. 하지만 아직 수비에 빈틈이 있지.<end>"
