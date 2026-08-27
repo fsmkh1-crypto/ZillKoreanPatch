@@ -330,7 +330,7 @@ korean = "모험가 여러분, 이용해 주셔서 감사합니다. 이번 의�
 
 ["240082"]
 japanese = "大切な<value:$15>を<value:$16>まで<line-break>届けてくださる冒険者を募集しています。<line-break>お礼は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内です。<end>"
-korean = "소중한 <value:$15>을 <value:$16>까지 전달해 주실 모험자를 모집합니다. 사례는 <value:$1A>기아. 기한은 <value:$1B>일 이내입니다.<end>"
+korean = "소중한 <value:$15>을 <value:$16>까지 전달해 주실 모험자를 모집합니다. 사례는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다.<end>"
 
 ["240083"]
 japanese = "我が風の神殿が<value:$16>に送る<line-break><value:$15>を守り、<line-break>送り届けてくださる勇者はいませんか。<line-break>お礼として<value:$1A>ギア用意しました。<line-break><value:$1B>日以内に依頼を果たされることを<line-break>望みます。<end>"
@@ -426,7 +426,7 @@ korean = "<value:$16>까지 가는 길에 몬스터가 출몰한다는 정보가
 
 ["240106"]
 japanese = "<value:$15>の運搬を依頼します。<line-break><value:$1B>日以内に届けてくだされば、<line-break><value:$1A>ギアのお礼をいたします。<line-break>場所は、<value:$16>です。<line-break>確実に届けてくださいね。<end>"
-korean = "<value:$15>의 운반을 의뢰합니다.<value:$1B>일 이내에 배달해 주시면,<value:$1A> 기아를 사례로 드리겠습니다.장소는 <value:$16>입니다.확실히 전달해 주세요.<end>"
+korean = "<value:$15>의 운반을 의뢰합니다.<value:$1B>일 이내에 배달해 주시면,<value:$1A> 기어를 사례로 드리겠습니다.장소는 <value:$16>입니다.확실히 전달해 주세요.<end>"
 
 ["240107"]
 japanese = "<value:$15>を運ぶことなった。<line-break>たいへん重要な物品ゆえ確実に運んでほしい。<line-break>場所は、<value:$16>。<line-break>期限は、<value:$1B>日以内。<line-break>任務を完遂したならば、<line-break>賞金<value:$1A>ギアを与える。<end>"

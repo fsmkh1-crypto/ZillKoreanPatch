@@ -2,7 +2,7 @@
 
 ["1800000"]
 japanese = "ロストールメッセージＶ６開始<end>"
-korean = "로스톨 메시지 V6 시작<end>"
+korean = "로스토올 메시지 V6 시작<end>"
 
 ["1800001"]
 japanese = "あら、<value:$28>様。<end>"
@@ -826,4 +826,4 @@ korean = "예비 메시지 10 로스토올 V6<end>"
 
 ["1800209"]
 japanese = "ロストールメッセージＶ６終端<end>"
-korean = "로스톨 메시지 V6 끝<end>"
+korean = "로스토올 메시지 V6 끝<end>"

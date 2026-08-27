@@ -86,11 +86,11 @@ korean = "잠깐. 성배는 아직 되찾지 못했잖아? 그런데 이대로 �
 
 ["980021"]
 japanese = "それでもロストールに入る<end>"
-korean = "그래도 로스톨로 들어간다<end>"
+korean = "그래도 로스토올로 들어간다<end>"
 
 ["980022"]
 japanese = "アイリーンに従ってロストールを出る<end>"
-korean = "아이린을 따라 로스톨을 떠난다<end>"
+korean = "아이린을 따라 로스토올을 떠난다<end>"
 
 ["980023"]
 japanese = "<select><value:$20>%3じゃ、行けば。<line-break>みっともない。<line-break>私は街には入らないで待ってる。<line-break>よーっぽど、<line-break>フェルムちゃんのことが<line-break>気になるみたいね。<end>あ、そ。<line-break>じゃ、行けば？<line-break>私は外で待ってる。<line-break>あなたがフェルムちゃんと仲よく<line-break>酒場で働きたいって言うんなら、<line-break>私にはとめられないもんね。<end>私は街には入らない。<line-break>ひとりで行きなさいよ。<line-break>　<line-break>でも、フェルムちゃんだって、<line-break>いつまでもあなたのこと、<line-break>好きでいるとは思えないけど？<end>"
@@ -438,7 +438,7 @@ korean = "오시 선생님 말로는 리벨덤 쪽으로 향하는 이상한 고
 
 ["980109"]
 japanese = "それじゃ、リベルダムに行くわよ。<line-break>くすっ。<value:$28>、<line-break>頼りにしてるからね。<end>"
-korean = "그럼 리벨담으로 가자. 후훗, <value:$28>, 믿고 있을게.<end>"
+korean = "그럼 리벨덤으로 가자. 후훗, <value:$28>, 믿고 있을게.<end>"
 
 ["980110"]
 japanese = "さぁ、自由都市リベルダムに着いたわ。<line-break>もうすぐ夕方だけど、まだあいつらを<line-break>捜す時間はあるわよね。<end>"
