@@ -22,17 +22,19 @@ CANONICAL_DIR = ROOT / "translations" / "messages"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from control_tags import fixed_tokens  # noqa: E402
 
-# Actual hiragana/katakana letters only. Exclude common punctuation such as
-# prolonged-sound mark U+30FC and middle dot U+30FB to avoid noisy false hits.
 JP_RE = re.compile(r"[\u3041-\u3096\u30A1-\u30FA\u30FD-\u30FF]")
 ANGLE_RE = re.compile(r"<[^<>]*>")
-# Historical overlays include msgsec001b.toml; generated splits use -partNN.
 SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:[A-Za-z]+|-part\d+)?\.toml$")
 LINE_BREAK = "<line-break>"
 
 
 def visible_text(text: str) -> str:
     return ANGLE_RE.sub("", text).strip()
+
+
+def snippet(text: str, limit: int = 160) -> str:
+    text = text.replace("\n", " ")
+    return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
 def issue(kind: str, section: int, rid: str, **extra: object) -> dict[str, object]:
@@ -52,6 +54,7 @@ def scan() -> dict[str, object]:
     advisory: list[dict[str, object]] = []
     counts: Counter[str] = Counter()
     canonical_cache: dict[int, dict[str, dict[str, object]]] = {}
+    seen: dict[tuple[int, str], tuple[str, str | None]] = {}
 
     paths = sorted(KOREAN_DIR.glob("msgsec*.toml"))
     for path in paths:
@@ -73,6 +76,22 @@ def scan() -> dict[str, object]:
             ja = rec.get("japanese")
             ko = rec.get("korean")
             layout = rec.get("layout")
+
+            key = (section, rid)
+            if key in seen:
+                first_path, first_ko = seen[key]
+                advisory.append(
+                    issue(
+                        "duplicate_overlay_record",
+                        section,
+                        rid,
+                        first_path=first_path,
+                        duplicate_path=path.name,
+                        korean_conflict=isinstance(ko, str) and first_ko is not None and ko != first_ko,
+                    )
+                )
+            else:
+                seen[key] = (path.name, ko if isinstance(ko, str) else None)
 
             if not isinstance(ja, str):
                 critical.append(issue("missing_japanese", section, rid))
@@ -127,6 +146,9 @@ def scan() -> dict[str, object]:
                         rid,
                         count=len(jp_chars),
                         sample="".join(jp_chars[:12]),
+                        japanese=snippet(ja),
+                        korean=snippet(ko),
+                        path=path.name,
                     )
                 )
 
@@ -143,9 +165,13 @@ def scan() -> dict[str, object]:
                             ratio=round(ratio, 3),
                             japanese_chars=len(ja_visible),
                             korean_chars=len(ko_visible),
+                            japanese=snippet(ja),
+                            korean=snippet(ko),
+                            path=path.name,
                         )
                     )
 
+    counts["unique_records"] = len(seen)
     by_kind_critical = Counter(x["kind"] for x in critical)
     by_kind_advisory = Counter(x["kind"] for x in advisory)
     return {
