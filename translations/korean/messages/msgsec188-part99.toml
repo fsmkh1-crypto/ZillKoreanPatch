@@ -36,6 +36,10 @@ korean = "매장금은 로스토올 동쪽에 있는 동굴에 숨겨져 있는 
 japanese = "解放軍の活動には、どうしても<line-break>資金が必要だ。リベルダムの商人の<line-break>埋蔵金なら期待できる。<line-break>頼んだぞ、<value:$28>。<end>"
 korean = "해방군 활동에는 아무래도 자금이 필요하다. 리벨덤 상인의 매장금이라면 기대할 만해. 부탁한다, <value:$28>.<end>"
 
+["1880012"]
+japanese = "今はあなたに用はありませんよ。<line-break>どこにでも行ってください。<end>"
+korean = "지금은 당신에게 볼일이 없습니다. 어디든 가 주세요.<end>"
+
 ["1880015"]
 japanese = "埋蔵金を発見した。<end>"
 korean = "매장금을 발견했다.<end>"
@@ -71,6 +75,10 @@ korean = "알겠습니다. 그럼 바로!<end>"
 ["1880033"]
 japanese = "<value:$28>…。<line-break>その…ご苦労でしたね。<line-break>これで解放軍も、もち直します。<line-break>ありがとう…。<line-break>私を助けてくれて…。<line-break>　<end>"
 korean = "<value:$28>…. 그… 수고했어요. 이걸로 해방군도 다시 일어설 겁니다. 고마워요…. 저를 구해 줘서….<end>"
+
+["1880035"]
+japanese = "あなたが見つけてきてくれた埋蔵金は<line-break>わたくしが責任を持って解放軍の<line-break>活動に役立てます。<line-break>任務、ご苦労でした。<line-break>下がっていいですよ。<end>"
+korean = "당신이 찾아온 매장금은 제가 책임지고 해방군 활동에 쓰겠습니다. 임무 수고하셨습니다. 물러가셔도 좋습니다.<end>"
 
 ["1880036"]
 japanese = "<value:$28>。<line-break>あなたが来るのを待っていました。<line-break>話があります。<end>"

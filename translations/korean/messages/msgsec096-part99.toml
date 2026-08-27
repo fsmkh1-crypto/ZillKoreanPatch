@@ -112,6 +112,10 @@ korean = "원하지 않는다<end>"
 japanese = "ならば、我が二刀の剣法、<line-break>伝授しよう。<end>"
 korean = "그렇다면 나의 이도류 검법을 전수해 주마.<end>"
 
+["960034"]
+japanese = "…そうか。<line-break>うぬは、うぬの道を行くがいい。<line-break>さらばだ。<end>"
+korean = "…그런가. 그대는 그대의 길을 가면 된다. 잘 가라.<end>"
+
 ["960035"]
 japanese = "<value:$28>は<line-break>剣聖の称号を得た。<end>"
 korean = "<value:$28>는 검성의 칭호를 얻었다.<end>"

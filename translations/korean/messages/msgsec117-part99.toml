@@ -20,6 +20,10 @@ korean = "노엘도 열심히 하고 있구나<end>"
 japanese = "人を助けるためじゃないよ<end>"
 korean = "사람을 돕기 위해서가 아니야<end>"
 
+["1170007"]
+japanese = "え？　あの、その、でも…<line-break>わたし、<value:$28>さんは<line-break>いろんな人を助けてると思います…。<line-break>私も、<value:$28>さんに<line-break>助けられましたから…。<end>"
+korean = "네? 저, 그게, 하지만… 저는 <value:$28> 씨가 여러 사람을 돕고 있다고 생각해요… 저도 <value:$28> 씨에게 도움을 받았으니까요…<end>"
+
 ["1170008"]
 japanese = "あっ、そうだ、<line-break>わたしの仲間を紹介します！<end>"
 korean = "아, 맞다. 제 동료들을 소개할게요!<end>"

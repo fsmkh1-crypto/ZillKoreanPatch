@@ -24,6 +24,10 @@ korean = "실례합니다~. 모험자 등록을 하고 싶은데요.<end>"
 japanese = "おチビちゃんじゃないよぉ。<line-break>あたしはルルアンタ。<line-break>　<line-break>外見だけで判断するなんて、<line-break>おじさんもまだまだね。<end>"
 korean = "꼬맹이 아니거든~. 나는 루루안타야. 겉모습만 보고 판단하다니, 아저씨도 아직 멀었네.<end>"
 
+["1590011"]
+japanese = "冒険者になれて、おめでとう。<line-break>お仕事がんばらなきゃ！　ね！<end>"
+korean = "모험자가 된 걸 축하해. 일 열심히 해야지! 응!<end>"
+
 ["1590013"]
 japanese = "さ～て、ルルアンタたちも<line-break>冒険者に仲間入りできたけどぉ、<line-break>　<line-break><value:$28>は、なんか<line-break>急いでやらなきゃいけない<line-break>仕事とかあるの？<end>"
 korean = "자, 루루안타들도 모험자의 동료가 됐는데, <value:$28>은 서둘러 해야 할 일 같은 게 있어?<end>"
@@ -67,6 +71,10 @@ korean = "<value:$28>아!<end>"
 ["1590027"]
 japanese = "くっ、覚えてろ！<end>"
 korean = "큭, 두고 보자!<end>"
+
+["1590028"]
+japanese = "とんだヘマだぜ。<line-break>ここまで連れてきて逃げられちまうとはな。<end>"
+korean = "큰 실수를 했군. 여기까지 데려와 놓고 도망치게 하다니.<end>"
 
 ["1590030"]
 japanese = "念には念をいれとかねえとな。<line-break>俺たちの一団が誘拐事件の黒幕だなんて<line-break>ばらされたら、いっかんの終わりだぜ。<line-break>…誰だ！<end>"
@@ -119,6 +127,10 @@ korean = "그 사람은 루루안타의 생명의 은인이야. 이제 검을 �
 ["1590046"]
 japanese = "え？<line-break>じゃあ、あなたが森の賢者様なの？<end>"
 korean = "어? 그럼 당신이 숲의 현자님이야?<end>"
+
+["1590047"]
+japanese = "ウフフ、そんな風に私のことを　　<line-break>呼ぶ人もいるようですね。<line-break>　<line-break>それに、世間ではこんな風にも<line-break>言われているようですよ。<line-break><end>"
+korean = "후후, 저를 그렇게 부르는 사람도 있는 모양이네요. 게다가 세상에서는 이렇게도 부르는 모양이에요.<end>"
 
 ["1590049"]
 japanese = "うんめいに、選ばれた、もの？<end>"

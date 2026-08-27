@@ -480,6 +480,10 @@ korean = "누나, 어떡하지. 자기브는 충격에 빠진 것 같아. …여
 japanese = "チャカは少し頭が悪くなった。<line-break>チャカのＩＮＴが１下がった。<end>"
 korean = "차카는 조금 머리가 나빠졌다. 차카의 INT가 1 내려갔다.<end>"
 
+["890208"]
+japanese = "チャカは少し打たれ強くなった。<line-break>チャカのＶＩＴが１上がった。<end>"
+korean = "차카는 조금 더 맷집이 좋아졌다. 차카의 VIT가 1 올랐다.<end>"
+
 ["890210"]
 japanese = "ありがとう。<line-break>多分、もう、大丈…夫…だから…<end>"
 korean = "고마워. 아마 이제 괜…찮을… 거야….<end>"
@@ -955,6 +959,10 @@ korean = "………………. 훗, 당신다운 작별 인사군.<end>"
 ["890409"]
 japanese = "では行こうか、<value:$28>。<line-break>行ける限り、地の果てまでも。<end>"
 korean = "그럼 가자, <value:$28>. 갈 수 있는 데까지, 세상 끝까지.<end>"
+
+["890415"]
+japanese = "それにねー、ゼネテスには、<line-break>さいこーの相棒がいるんだもんね。<end>"
+korean = "그리고 말이지—, 제네테스에겐 최고의 동료가 있잖아.<end>"
 
 ["890416"]
 japanese = "そう。<line-break>ハンナはよくわかってるな。<end>"
@@ -1663,6 +1671,10 @@ korean = "내 힘이라면 그대의 소원을 들어주는 것은 쉬운 일이
 ["890678"]
 japanese = "竜王様の…使命…？　　<line-break>　<line-break>　<line-break>はい、かまいません！<line-break>わたしにできることなら<line-break>何でもします！<end>"
 korean = "용왕님의… 사명…? 네, 괜찮아요! 제가 할 수 있는 일이라면 뭐든 하겠습니다!<end>"
+
+["890679"]
+japanese = "わたしの大切な人たちを<line-break>助けるためなら、<line-break>何だって…！<end>"
+korean = "내 소중한 사람들을 구할 수 있다면 뭐든지…!<end>"
 
 ["890680"]
 japanese = "　　　　　　　　その言葉、　　　　　　　　　<line-break>　　　　　　　偽りはないか？<line-break>　<line-break>　<end>"

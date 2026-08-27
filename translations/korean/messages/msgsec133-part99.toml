@@ -4,6 +4,10 @@
 japanese = "エア　ボリューム５開始<end>"
 korean = "에아 볼륨 5 시작<end>"
 
+["1330002"]
+japanese = "　　　　　無限のソウルを持つ者よ。　　　　　<line-break>　　　　　　エアは竜骨の砂漠だ。<line-break>　　　　　　　　　エアを<line-break>　　　　　　　　救うのだ。<end>"
+korean = "무한의 소울을 지닌 자여. 에아는 용골의 사막에 있다. 에아를 구하라.<end>"
+
 ["1330005"]
 japanese = "期待に応えてみせます<end>"
 korean = "기대에 부응하겠습니다.<end>"
@@ -67,6 +71,14 @@ korean = "알았어. 난 네가 와 주기만 하면 돼. 그럼 가자. 너를 
 ["1330037"]
 japanese = "シャリ！<end>"
 korean = "샤리!<end>"
+
+["1330040"]
+japanese = "イークレムン殿…ねえ？　<line-break>彼女なら無事だよ。<line-break>　<line-break>ねぇ、お爺ちゃん、<line-break>元気が余ってるんなら、<line-break>こいつの相手でもしててよ。<end>"
+korean = "이크레문 님… 말이야? 그녀라면 무사해. 있잖아, 할아버지. 힘이 남아돌면 이 녀석 상대나 해 줘.<end>"
+
+["1330042"]
+japanese = "フフ、ダメだよん、君。<line-break>順番はちゃんと守ってよ。<line-break>まずは僕がエアと話すの。<line-break>その間、退屈だろうから、<line-break>こいつとでも遊んでてよ。<end>"
+korean = "후후, 안 돼, 자네. 순서는 제대로 지켜야지. 먼저 내가 에아와 이야기할 거야. 그동안 심심할 테니 이 녀석하고라도 놀고 있어.<end>"
 
 ["1330044"]
 japanese = "フフ、約束だ。<line-break>今日は引き上げるよ。<end>"
@@ -331,6 +343,10 @@ korean = "나인가, 그대인가… 거기서 알게 되겠지. 포호호호…
 ["1330164"]
 japanese = "そのために、<line-break>人からソウルを吸い集め、<line-break>魔道力を抽出する技が編み出された。<line-break>邪法と呼べるその技こそが、<line-break>ソウルリープ。<line-break>つまり…<end>"
 korean = "그 때문에 사람에게서 소울을 빨아 모아 마도력을 추출하는 기술이 만들어졌다. 사법이라 부를 만한 그 기술이 바로 소울 리프. 즉….<end>"
+
+["1330165"]
+japanese = "つまり、この帝都に暮らしておった<line-break>人間のソウルは、すべてがすべて、<line-break> <line-break>破壊神ウルグ様復活の祭壇に<line-break>ささげられたというわけじゃよ。<end>"
+korean = "즉, 이 제도에 살고 있던 인간의 소울은 모조리 파괴신 울그 님 부활의 제단에 바쳐졌다는 게야.<end>"
 
 ["1330166"]
 japanese = "ムダよ、<value:$28>。<line-break>これは幻像にすぎない…。<line-break>実体はおそらく、城の中よ。<end>"
@@ -964,6 +980,10 @@ korean = "가자, <value:$28>! 지금이야말로 나지의 원한을 풀 때다
 japanese = "待てよ、<value:$28>！<end>"
 korean = "기다려, <value:$28>!<end>"
 
+["1330455"]
+japanese = "うう…。なぜだ…。<line-break>どうしてなんだよ…。<line-break> <line-break>悪いのは…俺たちなのか…？<line-break>う、薄汚れてんのは、<line-break>お前たちのほうじゃねえのか？<end>"
+korean = "으으… 왜지… 어째서야… 나쁜 건… 우리인 건가…? 더, 더러운 건 너희 쪽 아니냐고?<end>"
+
 ["1330457"]
 japanese = "照りつける太陽の下、俺は死ぬ…、<line-break>ふふ…、それでいい…。<end>"
 korean = "내리쬐는 태양 아래에서 난 죽는다… 후후… 그걸로 됐어….<end>"
@@ -1344,6 +1364,10 @@ korean = "아아, 이 녀석인가. 이 녀석은 말이지….<end>"
 japanese = "ギー、オレ、イズキヤル。<line-break>イオンズノ、トモ。<end>"
 korean = "기, 나 이즈키야르. 이온즈 친구.<end>"
 
+["1330665"]
+japanese = "殺せば、生まれたことの悲しみと<line-break>虚無だけが勝利する。<line-break>わしは答えが出せなんだ。<line-break>じゃから、わしは、<line-break>話しおうてみることにした。<end>"
+korean = "죽이면 태어난 슬픔과 허무만이 승리한다. 나는 답을 내지 못했지. 그래서 이야기해 보기로 했다.<end>"
+
 ["1330668"]
 japanese = "ソノマエニ、　　　　　　<line-break>ダイブヤリアッタガ、ナ。<end>"
 korean = "그전에 꽤 한바탕 했지만 말이지.<end>"
@@ -1387,6 +1411,10 @@ korean = "나지는 참가했지.<end>"
 ["1330682"]
 japanese = "続々とコーンスがアルノートゥンに<line-break>集まってるって。<end>"
 korean = "코른스가 잇따라 알노툰으로 모이고 있대.<end>"
+
+["1330684"]
+japanese = "ぼくの額に<line-break>つけぼくろがついてるでしょ？<line-break>　<line-break>ルルアンタにも<line-break>他のすべてのリルビーにもついてる…。<line-break>これ…とれないんだ。<end>"
+korean = "내 이마에 붙인 점이 있지? 루루안타도, 다른 모든 릴비도 붙어 있어… 이거… 안 떨어져.<end>"
 
 ["1330685"]
 japanese = "つけぼくろがついてるでしょ？<line-break>他のすべてのリルビーにもついてる…。<line-break>　<line-break>これ…とれないんだ。<end>"

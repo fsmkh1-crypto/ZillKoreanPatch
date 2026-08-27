@@ -20,6 +20,10 @@ korean = "이크레문 님! 또 미즈치와 이야기하고 계신가요? 슬�
 japanese = "あ、はい。<line-break>わかりました、神官長様。<end>"
 korean = "아, 네. 알겠습니다, 신관장님.<end>"
 
+["1820008"]
+japanese = "それでは、ごきげんよう。<line-break>また、お会いできるといいですね。<end>"
+korean = "그럼, 안녕히. 또 만날 수 있으면 좋겠네요.<end>"
+
 ["1820009"]
 japanese = "あ…、<value:$28>さん。<line-break>こんにちは。<end>"
 korean = "아… <value:$28>님. 안녕하세요.<end>"

@@ -4,6 +4,10 @@
 japanese = "旅立ち０６（改）メッセージ開始<end>"
 korean = "여행 출발 06(개) 메시지 시작<end>"
 
+["1860001"]
+japanese = "フリントさん。<line-break>今日、ノーブルをご出発ですか。　<line-break>　<end>"
+korean = "플린트 씨. 오늘 노블을 떠나시는 겁니까.<end>"
+
 ["1860004"]
 japanese = "そうですね。気をつけておきます。　<line-break>　<line-break>　<end>"
 korean = "그렇군요. 조심해 두겠습니다.<end>"
@@ -128,6 +132,10 @@ korean = "응, 고마워어!<end>"
 japanese = "それじゃ、<value:$28>。<line-break>はやく戻ろうよ。<line-break>フリントさんが心配するよぉ。<end>"
 korean = "그럼 <value:$28>. 빨리 돌아가자. 플린트 씨가 걱정할 거야.<end>"
 
+["1860055"]
+japanese = "さぁ、早く宿屋に戻らないと。<line-break>ルルアンタ、先に行ってるね。<end>"
+korean = "자, 빨리 여관으로 돌아가야지. 루루안타, 먼저 가 있을게.<end>"
+
 ["1860056"]
 japanese = "もう！<line-break><value:$28>ったら<line-break>ダメじゃない！　　　　　　　<line-break>早く宿屋に行かないと、<line-break>フリントさんが心配するよぉ。<line-break>ほら、早くぅ。<end>"
 korean = "정말! <value:$28>, 이러면 안 되잖아! 빨리 여관에 가야 해. 플린트 씨가 걱정할 거야. 자, 빨리.<end>"
@@ -183,6 +191,10 @@ korean = "제네테스 씨도 조심하세요.<end>"
 ["1860077"]
 japanese = "あんたもな。<line-break>本当に、無茶をするんじゃないぜ。<end>"
 korean = "너도 말이야. 정말 무리하지 마.<end>"
+
+["1860079"]
+japanese = "はぁーい！<line-break>じゃあ、ルルアンタ、<line-break>荷物を見てくるね。<end>"
+korean = "네에—! 그럼 루루안타, 짐 좀 보고 올게.<end>"
 
 ["1860080"]
 japanese = "<value:$28>、待ちなさい。<line-break>　　　　　　　　　　　　　　　　<line-break>　<end>"
@@ -340,6 +352,10 @@ korean = "(아버지가 걱정되니까 빨리 돌아가야 해.)<end>"
 japanese = "なんだ、お前は！<end>"
 korean = "뭐냐, 넌!<end>"
 
+["1860152"]
+japanese = "王妃様がお会いになるそうだ。　　　<line-break>ついてこい。<line-break>　<end>"
+korean = "왕비님께서 만나시겠답니다. 따라오시오.<end>"
+
 ["1860153"]
 japanese = "…密書は確かに受け取った。<line-break>ご苦労だった。<line-break>これは報酬だ。<end>"
 korean = "…밀서는 확실히 받았다. 수고했다. 이건 보수다.<end>"
@@ -380,6 +396,10 @@ korean = "그럼, 그럼 루루안타 다녀올게!<end>"
 japanese = "あー！<line-break>あの人、この前のぉ…！<end>"
 korean = "아! 그 사람, 지난번의…!<end>"
 
+["1860169"]
+japanese = "今のはフリントさんのぉ…<line-break>…ルルアンタ、許さないんだから！<end>"
+korean = "방금 건 플린트 씨의… …루루안타, 용서 안 할 거야!<end>"
+
 ["1860170"]
 japanese = "ん？<line-break>今のはルルアンタだったような…。<line-break>どこかにお使いか？<end>"
 korean = "응? 방금 루루안타였던 것 같은데…. 어디 심부름이라도 가나?<end>"
@@ -391,6 +411,10 @@ korean = "뭐야. 아직도 풀이 죽어 있는 거야?<end>"
 ["1860174"]
 japanese = "ルルアンタと言えば、<line-break>さっき通りで見かけたな。<line-break>広場の方に走っていったが…。<line-break>お前さん、<line-break>何か用事を頼んだりしたか？<end>"
 korean = "루루안타라면 아까 거리에서 봤어. 광장 쪽으로 달려가던데…. 자네, 무슨 심부름이라도 시켰나?<end>"
+
+["1860180"]
+japanese = "元気になったようですね。<line-break>気をつけて行ってらしてください。<end>"
+korean = "기운을 되찾으신 것 같네요. 조심해서 다녀오세요.<end>"
 
 ["1860183"]
 japanese = "ケガをされたお客様の　　<line-break>具合はいかがですか？<end>"

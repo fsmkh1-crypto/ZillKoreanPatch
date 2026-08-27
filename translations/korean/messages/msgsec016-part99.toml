@@ -84,6 +84,14 @@ korean = "당신에겐 너무 쉬운 일이다. 다른 모험자에게 남겨 �
 japanese = "あんたなら、問題なくこなせる仕事だ。<line-break>どうだい？　頼むよ。<end>"
 korean = "당신이라면 문제없이 해낼 일이야. 어때? 부탁할게.<end>"
 
+["160032"]
+japanese = "<value:$15>を無事に送り届けて欲しい。<line-break>なるべく早く届けてくれよ。<end>"
+korean = "<value:$15>을 무사히 데려다줬으면 한다. 되도록 빨리 데려다줘.<end>"
+
+["160033"]
+japanese = "<value:$15>を護衛して欲しい。<line-break>すぐに紹介するから、待っててくれ。<end>"
+korean = "<value:$15>을 호위해 줬으면 한다. 바로 소개해 줄 테니 기다려 줘.<end>"
+
 ["160034"]
 japanese = "<value:$15>を救ってきてくれ。<line-break>一刻を争う仕事だぜ。<end>"
 korean = "<value:$15>을 구해 와 줘. 한시가 급한 일이야.<end>"

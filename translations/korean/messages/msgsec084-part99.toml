@@ -88,6 +88,10 @@ korean = "빈칸 033 카를라, 볼륨 1<end>"
 japanese = "ここはね、エサの搬入口。<line-break>ペウダが飼ってるモンスターのエサよ。<line-break>　<line-break>きっと、とんでもない大食らいなのね。<line-break>…エサの中身は知りたくないけど。<end>"
 korean = "여기는 먹이 반입구야. 페우다가 기르는 몬스터 먹이지. 엄청난 대식가인가 봐. …먹이 내용물은 알고 싶지 않지만.<end>"
 
+["840038"]
+japanese = "だーいじょーぶ、だいじょーぶ。<line-break>カルラ様を信用しなさいって。<end>"
+korean = "괜찮아, 괜찮아. 카를라 님을 믿으라니까.<end>"
+
 ["840039"]
 japanese = "ほーらね、<line-break>カルラ様の言ったとおり。<end>"
 korean = "거봐, 카를라 님 말대로잖아.<end>"
@@ -411,6 +415,10 @@ korean = "몇 번이나 묘지에 오다니, 정말 기분 나쁘네.<end>"
 ["840140"]
 japanese = "行ってくれない？<line-break>今日は日が悪くてイライラするの。<end>"
 korean = "가 줄래? 오늘은 운이 나빠서 짜증 나거든.<end>"
+
+["840141"]
+japanese = "邪魔だわ。<line-break>悪いけど、行ってくれない。<line-break>今、忙しいの。<end>"
+korean = "방해야. 미안하지만 가 줄래? 지금 바빠.<end>"
 
 ["840142"]
 japanese = "アハハ、<value:$28>。<line-break>また来てくれたんだ。<end>"

@@ -36,6 +36,10 @@ korean = "감청색 동굴도 딘갈의 광물 채굴장 중 하나라고 들었
 japanese = "報告によると紺碧の洞窟の魔物は<line-break>かなり手ごわい相手らしい。<line-break>君がしくじるとは思えんが…。<line-break>用心はしておいた方がよかろう。<end>"
 korean = "보고에 따르면 감청색 동굴의 마물은 꽤 강한 상대라고 한다. 네가 실수할 거라 생각하진 않지만…. 조심하는 게 좋겠지.<end>"
 
+["1230081"]
+japanese = "ほーおー<line-break>鳳凰でござるか。<line-break>ほおーっておけばいいでござるよ。<line-break>ふふふふ…、<line-break>拙者もダジャレのコツがつかめて<line-break>きましたぞ。<end>"
+korean = "호오오— 봉황이란 말씀이오? 그냥 내버려 두면 되겠소이다. 후후후후… 나도 이제 말장난의 요령을 잡은 듯하오.<end>"
+
 ["1230083"]
 japanese = "………………。<line-break><line-break><line-break>興味がない。<end>"
 korean = "………………. 관심 없어.<end>"
@@ -96,6 +100,10 @@ korean = "누나, 이 짐 안에 뭐가 들었다고 생각해? 발신인 이름
 japanese = "………………。<line-break><line-break><line-break>居住区は時計台広場の先だ。<end>"
 korean = "………………. 거주구는 시계탑 광장 너머다.<end>"
 
+["1230156"]
+japanese = "この仕事、危険な匂いがするわ。<line-break><line-break><line-break>それにあのロティっていう商人からは<line-break>いい噂を聞かないし…。<line-break>用心したほうがいいわよ。<end>"
+korean = "이 일, 위험한 냄새가 나. 게다가 로티라는 그 상인은 평판도 좋지 않고… 조심하는 게 좋아.<end>"
+
 ["1230166"]
 japanese = "余裕があるのね、<value:$28>。<line-break>子供のために貴族と敵対するなんて。<line-break>フフフッ、なかなか面白いわ。<end>"
 korean = "여유 있네, <value:$28>. 아이를 위해 귀족과 맞서다니. 후후후, 꽤 재미있어.<end>"
@@ -123,6 +131,10 @@ korean = "용서 못 해요! 여자아이의 소중한 인형을 빼앗아 티�
 ["1230194"]
 japanese = "闇の神器をすべて集めると<line-break>破壊神ウルグを復活させることが<line-break>できるというではないか。<line-break>そのような危険な物を集めても<line-break>よいのかのう…。<end>"
 korean = "어둠의 신기를 모두 모으면 파괴신 울그를 부활시킬 수 있다고 하지 않나. 그런 위험한 물건을 모아도 괜찮은 건지….<end>"
+
+["1230202"]
+japanese = "闇の神器の１個は、<line-break>ウルカーンに隠されているらしい。<line-break><line-break>その、ケリュネイアという<line-break>ハーフエルフの言うことを<line-break>信じるなら。<end>"
+korean = "어둠의 신기 하나는 울칸에 숨겨져 있는 모양이야. 그 케류네이아라는 하프엘프의 말을 믿는다면 말이지.<end>"
 
 ["1230211"]
 japanese = "………………。<line-break><line-break><line-break>ウルカーンだ…。<end>"

@@ -8,6 +8,10 @@ korean = "한 번도 전투하지 않으면 보너스가 나온다. 잘해 봐.<
 japanese = "我が帝国の<value:$17><value:$16>を<line-break><value:$15>まで<line-break>無事送り届ける護衛者を募集する。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内である。<end>"
 korean = "우리 제국의 <value:$17><value:$16>을 <value:$15>까지 무사히 호위할 자를 모집한다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
 
+["250016"]
+japanese = "<value:$15>まで行くんだけど、<line-break>危ないから誰か守ってくれませんか？<line-break>お礼に<value:$1A>ギア差し上げます。<line-break><value:$1B>日以内に向こうまで送ってください。<end>"
+korean = "<value:$15>까지 가는데 위험하니 누가 지켜주지 않겠습니까? 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 안에 그곳까지 데려다 주세요.<end>"
+
 ["250031"]
 japanese = "私の<value:$17><value:$16>を<line-break><value:$15>まで無事に送り届けてほしい。<line-break>報酬は、<value:$1A>ギア。<line-break>到着期限は、<value:$1B>日以内とする。<end>"
 korean = "내 <value:$17><value:$16>을 <value:$15>까지 무사히 호송해 주기 바란다. 보수는 <value:$1A>기아. 도착 기한은 <value:$1B>일 이내다.<end>"

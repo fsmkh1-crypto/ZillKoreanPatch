@@ -4,9 +4,17 @@
 japanese = "姉ちゃん、ケリュネイアの話だと<line-break>闇の神器は罪深き者の迷宮にも<line-break>あるみたいだよ。<line-break>いつでも見つかるってわけじゃない<line-break>みたいだけど、どうするんだ？<end>"
 korean = "누나, 케류네이아 말로는 어둠의 신기가 죄인의 미궁에도 있는 모양이야. 언제나 찾을 수 있는 건 아닌 것 같은데, 어떻게 할 거야?<end>"
 
+["1240010"]
+japanese = "ケリュネイアによれば、<line-break>２個目の闇の神器は、<line-break>罪深き者の迷宮にあるらしいわ。<line-break>いつでも必ず手に入るというわけでは<line-break>ないそうよ。<end>"
+korean = "케류네이아 말로는 두 번째 어둠의 신기가 죄 많은 자의 미궁에 있는 모양이야. 언제든 반드시 얻을 수 있는 건 아니라더라.<end>"
+
 ["1240019"]
 japanese = "………………。<line-break><line-break><line-break>罪深き者の迷宮だ…。<end>"
 korean = "………………. 죄 많은 자의 미궁이다….<end>"
+
+["1240020"]
+japanese = "ケリュネイアによれば、<line-break>闇の神器の２個は罪深き者の迷宮に<line-break>眠っているらしい。<line-break>回収した後は、各地のギルドで<line-break>照合するらしいぞ。<end>"
+korean = "케류네이아 말로는 어둠의 신기 두 개가 죄 많은 자의 미궁에 잠들어 있는 모양이다. 회수한 뒤에는 각지의 길드에서 대조한다더군.<end>"
 
 ["1240023"]
 japanese = "２個目の闇の神器は、罪深き者の迷宮に<line-break>あるそうです。ただし、いつでも必ず<line-break>手に入るとは、限らないそうです。<line-break>１個目より、だいぶ手強そうです。<end>"
@@ -155,6 +163,10 @@ korean = "사룡의 단층에서, 강한 요기를 느낍니다. 봉인된 아�
 ["1240209"]
 japanese = "古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<line-break>古の樹海へボゲー<end>"
 korean = "고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게 고대의 수해로 보게<end>"
+
+["1240220"]
+japanese = "古の樹海でオルファウスが<line-break>世界の成り立ちについて<line-break>語ってくれるらしいわ。<line-break>急いでオルファウスを連れて<line-break>向かったほうがいいわね。<end>"
+korean = "고대의 수해에서 올파우스가 세계의 성립에 대해 이야기해 준대. 서둘러 올파우스를 데리고 가는 게 좋겠어.<end>"
 
 ["1240223"]
 japanese = "オルファウスが世界の成り立ちを<line-break>古の樹海で語るつもりらしい。<line-break><line-break><value:$28>はこの話を、<line-break>聞いておいたほうがいいね。<end>"

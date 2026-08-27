@@ -300,6 +300,10 @@ korean = "그, 그런가요…. 역시 여기까지 왔으면 찾고 싶죠. 하
 japanese = "呪文に詳しい方を<line-break>ご存じなんですか？<line-break>　<line-break>古代遺跡を調べている<line-break>考古学者のエストさん…。<end>"
 korean = "주문에 밝은 분을 아세요? 고대 유적을 조사하는 고고학자 에스트 씨….<end>"
 
+["1980136"]
+japanese = "これはこれは<value:$28>様。<line-break>今日はどういったご用件でしょうか？<end>"
+korean = "이런, <value:$28> 님. 오늘은 무슨 용건이신가요?<end>"
+
 ["1980139"]
 japanese = "えっ？　僕に聞きたいことがあるの？<line-break>　<line-break>　<line-break>…伝説のフライパンだって？<line-break>驚いたな…。<line-break>ちょっと、この古文書を見てよ。<end>"
 korean = "응? 나한테 물어볼 게 있어? …전설의 프라이팬이라고? 놀랍네…. 잠깐, 이 고문서를 봐.<end>"

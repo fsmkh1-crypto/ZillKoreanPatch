@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["260001"]
+japanese = "城塞都市跡で目撃されてる<line-break>怪現象のことよね。<line-break><line-break>怪現象の正体を調べたら<line-break>冒険者ギルドに報告するのも<line-break>忘れないようにしないとね。<end>"
+korean = "성채도시 터에서 목격되는 괴현상 말이지. 괴현상의 정체를 조사하면 모험자 길드에 보고하는 것도 잊지 말아야겠네.<end>"
+
 ["260010"]
 japanese = "城塞都市跡で起こる怪現象を調べる？<line-break><line-break><line-break>…いかにも、命知らずな冒険者の<line-break>やりそうなことね。<end>"
 korean = "성새도시 유적에서 일어나는 괴현상을 조사한다고? …과연 목숨 아까운 줄 모르는 모험자다운 일이네.<end>"
@@ -67,6 +71,10 @@ korean = "차원의 틈에 떨어지고도 살아 있다니… 역시 네메아,
 ["260059"]
 japanese = "早くネメアを助けて<line-break>破壊神の復活を阻止するんだ。<line-break>　<line-break>大陸南西の島に急ぐぞ。<line-break><value:$28>。<end>"
 korean = "빨리 네메아를 구해서 파괴신의 부활을 막아야 해.　대륙 남서쪽 섬으로 서두르자. <value:$28>.<end>"
+
+["260069"]
+japanese = "アキュリュースの港にいる<line-break>女性に言う合い言葉だね。<line-break>もちろんボクだって知ってるよ。<line-break>帝国はあの陽より輝く、<line-break>…ま、間違ってないよね？<end>"
+korean = "아큐류스 항구에 있는 여성에게 말할 암호지. 물론 나도 알고 있어. 제국은 저 태양보다 빛난다, …마, 맞지?<end>"
 
 ["260071"]
 japanese = "おやおや、合い言葉をお忘れですか？<line-break>いかに私と言えども、それは…。<line-break><line-break>…帝国はあの陽より輝く。<line-break>ですよ。<line-break>思い出しましたか？<end>"
