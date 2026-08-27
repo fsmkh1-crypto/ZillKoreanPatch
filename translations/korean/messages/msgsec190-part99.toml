@@ -164,6 +164,10 @@ korean = "심심한데 말이야. 나도 데려가 주면 안 돼?<end>"
 japanese = "カルラ様！　将軍の仕事は！？<end>"
 korean = "카를라 님! 장군 업무는요!?<end>"
 
+["1900100"]
+japanese = "誰かに任せちゃうからいいの。<line-break>で、どうなの、<value:$28>？<end>"
+korean = "누군가에게 맡기면 되니까 괜찮아. 그래서 어때, <value:$28>?<end>"
+
 ["1900102"]
 japanese = "よし。じゃ、がんばっていこー！<end>"
 korean = "좋아. 그럼 힘내서 가자!<end>"
@@ -263,6 +267,10 @@ korean = "티아나 님은 조금 전부터 완전히 달라지셔서… 땅에 
 ["1900138"]
 japanese = "あ、<value:$28>様。<end>"
 korean = "아, <value:$28> 님.<end>"
+
+["1900141"]
+japanese = "<value:$28>様、<line-break>ティアナは不安なのです。　<line-break>　<line-break>今度は<value:$28>様が<line-break>急にいなくなって<line-break>しまうのではないかと…。<end>"
+korean = "<value:$28>님, 티아나는 불안해요. 이번엔 <value:$28>님이 갑자기 사라져 버리는 건 아닐까 하고….<end>"
 
 ["1900143"]
 japanese = "何があっても必ず、<line-break>ティアナの元へ戻ってくると…。<end>"

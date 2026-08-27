@@ -44,6 +44,10 @@ korean = "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<en
 japanese = "そうね。<end>"
 korean = "그러네.<end>"
 
+["360021"]
+japanese = "フフ、裏切り者の私を殺しに来たの？<line-break>円卓騎士バルザー。<end>"
+korean = "후후, 배신자인 나를 죽이러 왔어? 원탁기사 발자르.<end>"
+
 ["360025"]
 japanese = "ええ。<line-break>だって、あなたは<line-break>愛を知ってしまったもの。<line-break>失う、ということも…。<end>"
 korean = "그래. 넌 사랑을 알아 버렸으니까. 잃는다는 것도….<end>"
@@ -51,6 +55,10 @@ korean = "그래. 넌 사랑을 알아 버렸으니까. 잃는다는 것도….<
 ["360027"]
 japanese = "今日、ここへ来たのも、<line-break>竜王が吼えたからでしょう。<end>"
 korean = "오늘 이곳에 온 것도 용왕이 포효했기 때문이겠지요.<end>"
+
+["360028"]
+japanese = "…運命は変えられぬ。<line-break>お前のしていることは無駄になる。<end>"
+korean = "…운명은 바꿀 수 없다. 네가 하는 일은 헛수고가 될 거다.<end>"
 
 ["360030"]
 japanese = "…アスティア、<line-break>私は警告に来ただけだ。<end>"
@@ -83,6 +91,10 @@ korean = "…알고 싶어 하지?<end>"
 ["360039"]
 japanese = "そーれ。<end>"
 korean = "자아.<end>"
+
+["360041"]
+japanese = "ねぇ、僕が卵を割ってあげるよ。<line-break>卵の中身を見せたげる。<end>"
+korean = "있지, 내가 알을 깨 줄게. 알 속을 보여 줄게.<end>"
 
 ["360043"]
 japanese = "<value:$28>、<line-break>無限のソウルを持つ者よ。<end>"
@@ -159,6 +171,10 @@ korean = "<value:$28>!<end>"
 ["360077"]
 japanese = "<value:$28>、<line-break>強く…生きて…。<end>"
 korean = "<value:$28>, 강하게… 살아가….<end>"
+
+["360079"]
+japanese = "んしょ、んしょ。<line-break>僕も、いいかげん、面倒見がいいよね。<end>"
+korean = "영차, 영차. 나도 참 남 잘 챙긴다니까.<end>"
 
 ["360080"]
 japanese = "いい人に拾われるんだよ。<line-break>じゃね。<end>"

@@ -64,6 +64,10 @@ korean = "충고하겠는데, 이 녀석에게는 손대지 않는 게 좋아.<e
 japanese = "こいつはまだ、<line-break>完全には死んでおらぬ。　　<line-break>　<line-break>うかつに近づけば、<line-break>目覚めさせることになろう。<end>"
 korean = "이 녀석은 아직 완전히 죽지 않았다. 섣불리 다가가면 깨워 버릴지도 모른다.<end>"
 
+["580076"]
+japanese = "冒険者をやっているとな、<line-break>時々とんでもない代物に<line-break>ぶち当たることがある。<line-break>まったく、退屈せんわな。<line-break>これだからやめられん。<end>"
+korean = "모험자를 하다 보면 가끔 터무니없는 물건과 마주칠 때가 있지. 정말 지루할 틈이 없어. 이래서 그만둘 수가 없다니까.<end>"
+
 ["580077"]
 japanese = "急いで、しかし動作はゆっくりと<line-break>ここを出るのじゃ。<line-break><value:$28>。<end>"
 korean = "서두르되 움직임은 천천히, 여길 빠져나가자. <value:$28>.<end>"

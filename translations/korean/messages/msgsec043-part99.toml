@@ -64,6 +64,10 @@ korean = "<value:$28>, 간다!<end>"
 japanese = "レ、レムオン…様。<end>"
 korean = "레, 레몬… 님.<end>"
 
+["430022"]
+japanese = "ボルボラ…、俺の領地で<line-break>好き放題やってくれたようだな。<end>"
+korean = "볼보라… 내 영지에서 마음대로 해 줬더군.<end>"
+
 ["430023"]
 japanese = "め、め、めっそうもございません！　　<line-break>　<line-break>　<line-break>住民どもが暴れるので仕方なく、<line-break>代官としての責務を果たしたまでです。<line-break>ゲヘヘ…。<end>"
 korean = "마, 말도 안 됩니다! 주민들이 날뛰어서 어쩔 수 없이 대관으로서 책임을 다했을 뿐입니다. 게헤헤….<end>"
@@ -148,6 +152,10 @@ korean = "호오?<end>"
 japanese = "事故死です。<end>"
 korean = "사고사입니다.<end>"
 
+["430054"]
+japanese = "フフ、エリエナイ公、<line-break>私は死因までは尋ねてはおらぬが？<end>"
+korean = "후후, 에리에나이 공. 나는 사인까지 묻지는 않았는데?<end>"
+
 ["430055"]
 japanese = "一応、ご報告申し上げたまで。　　<end>"
 korean = "일단 보고드렸을 뿐입니다.<end>"
@@ -216,6 +224,10 @@ korean = "나는 지쳤다. 먼저 쉬도록 하겠다.<end>"
 japanese = "無限の可能性を感じさせる…。　　<line-break>あの目の輝きはどうだ。<line-break>　<line-break>フフフ…、<line-break>レムオン坊やも楽しませてくれる。<end>"
 korean = "무한한 가능성이 느껴지는군…. 저 눈빛을 봐라. 후후후…, 레몬 도련님도 즐겁게 해 주는군.<end>"
 
+["430094"]
+japanese = "とりあえず、礼を言う。<line-break>おかげで難局を切り抜けられた。<end>"
+korean = "우선 감사를 표하지. 덕분에 난국을 헤쳐 나올 수 있었다.<end>"
+
 ["430096"]
 japanese = "紹介する。この館の執事だ。<line-break>セバスチャンという。<end>"
 korean = "소개하지. 이 저택의 집사다. 세바스찬이라고 한다.<end>"
@@ -271,6 +283,10 @@ korean = "검으로 결판내자….<end>"
 ["430117"]
 japanese = "こ、こんな時に…？<line-break>くっ、ダメだ…。理性が…！！<line-break>　<line-break>アア…グ…血…グ…<line-break>ウウウ…血…ググ…ガ…<line-break>…ガアアアアアアアアッ！！！<end>"
 korean = "이, 이런 때에…? 큭, 안 돼…. 이성이…!! 아아… 그… 피… 으으… 피… 그그… 가… 가아아아아아!!<end>"
+
+["430121"]
+japanese = "＜未使用＞ねえ、昨日の…アレ…<line-break>なんだったんだろうね。<end>"
+korean = "<미사용> 있지, 어제 그… 그거… 뭐였을까.<end>"
 
 ["430122"]
 japanese = "＜未使用＞昨日の…アレ…<line-break>なんだったのかな。<end>"
@@ -443,6 +459,10 @@ korean = "거대한 운석은 부서져 모래와 자갈이 되어 도시 위로
 ["430185"]
 japanese = "少し賢くなった気がする。<line-break>ＩＮＴが１上がった。<end>"
 korean = "조금 똑똑해진 것 같다. INT가 1 올랐다.<end>"
+
+["430186"]
+japanese = "<value:$28>…、すまぬ。<line-break>急に王宮に行かねばならなくなった。<end>"
+korean = "<value:$28>… 미안하다. 갑자기 왕궁에 가야 하게 됐다.<end>"
 
 ["430188"]
 japanese = "ああ<end>"

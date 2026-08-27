@@ -404,6 +404,10 @@ korean = "미안, 좀…. 가 줬으면 좋겠는데.<end>"
 japanese = "ホント、ゴメンね、<line-break><value:$28>。<end>"
 korean = "정말 미안해, <value:$28>.<end>"
 
+["840151"]
+japanese = "<value:$28>じゃない。<line-break>ホント墓場好きだよね、あんたってさ。<end>"
+korean = "<value:$28>이잖아. 정말 묘지를 좋아한다니까, 너.<end>"
+
 ["840153"]
 japanese = "は？<line-break>どうして、あたしが軍人に<line-break>なったのかって？<line-break>…どーしても、聞きたいわけ？<end>"
 korean = "뭐? 왜 내가 군인이 됐냐고? …정말 그렇게 듣고 싶어?<end>"

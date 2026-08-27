@@ -40,6 +40,10 @@ korean = "자신이 함께하겠다고 말한다<end>"
 japanese = "本人が解決するしかないと言う<end>"
 korean = "본인이 해결할 수밖에 없다고 말한다<end>"
 
+["1910016"]
+japanese = "…うれしいです。　　　　　　　　<line-break>　<line-break>　<line-break><value:$28>様が一緒であれば<line-break>私、あの闇にうち勝つことが<line-break>できると思います。<end>"
+korean = "…기뻐요. <value:$28>님이 함께라면 저, 그 어둠을 이겨낼 수 있을 것 같아요.<end>"
+
 ["1910018"]
 japanese = "…私にできるでしょうか。　　<line-break>　<line-break>　<line-break><value:$28>様がそばに<line-break>いてくださるなら、<line-break>できるのかもしれませんが…。<end>"
 korean = "…제가 할 수 있을까요. <value:$28>님이 곁에 있어 주신다면 할 수 있을지도 모르지만….<end>"

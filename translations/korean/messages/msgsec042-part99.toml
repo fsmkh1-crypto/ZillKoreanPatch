@@ -36,6 +36,10 @@ korean = "호오?<end>"
 japanese = "事故死です。<end>"
 korean = "사고사입니다.<end>"
 
+["420016"]
+japanese = "フフ、エリエナイ公、<line-break>私は死因までは尋ねてはおらぬが？<end>"
+korean = "후후, 에리에나이 공. 나는 사인까지 묻지는 않았는데?<end>"
+
 ["420017"]
 japanese = "一応、ご報告申し上げたまで。　　<end>"
 korean = "일단 보고드렸을 뿐입니다.<end>"
@@ -123,6 +127,10 @@ korean = "그 정도도 알아채지 못할 남자는 아니겠지. …어리석
 ["420055"]
 japanese = "無限の可能性を感じさせる…。　　<line-break>あの目の輝きはどうだ。<line-break>　<line-break>フフフ…、<line-break>レムオン坊やも楽しませてくれる。<end>"
 korean = "무한한 가능성이 느껴지는군…. 저 눈빛을 봐라. 후후후…, 레몬 도련님도 즐겁게 해 주는군.<end>"
+
+["420056"]
+japanese = "とりあえず、礼を言う。<line-break>おかげで難局を切り抜けられた。<end>"
+korean = "우선 감사를 표하지. 덕분에 난국을 헤쳐 나올 수 있었다.<end>"
 
 ["420057"]
 japanese = "紹介する。この館の執事だ。<line-break>セバスチャンという。<end>"
@@ -384,9 +392,17 @@ korean = "그, 그럴 수가…. 그런 건…!<end>"
 japanese = "…<value:$28>さん。<line-break>　<line-break>　<end>"
 korean = "…<value:$28> 씨.<end>"
 
+["420190"]
+japanese = "くすっ、すいません。<line-break>年を取ると独り言が多くなって…。<end>"
+korean = "후훗, 미안합니다. 나이를 먹으니 혼잣말이 많아져서….<end>"
+
 ["420192"]
 japanese = "くすっ。<line-break>あなたのその気性、好きですよ。<line-break>　<line-break>見せたいモノがあります。<line-break>来てください。<line-break><value:$28>。<end>"
 korean = "후훗. 당신의 그 성격, 마음에 들어요. 보여 주고 싶은 게 있습니다. 와 주세요, <value:$28>.<end>"
+
+["420194"]
+japanese = "ま、それで、微力ながら<line-break>お手伝いしようということで…、<end>"
+korean = "뭐, 그래서 미력하나마 도와드리려고….<end>"
 
 ["420195"]
 japanese = "この子でも役立ててもらおうかな、<line-break>と思うんです。<line-break>　<line-break>この転送機は<line-break>世界中のたいていの所から<line-break>仲間を呼び出せるんです。<end>"
@@ -591,6 +607,10 @@ korean = "간다.<end>"
 ["420304"]
 japanese = "では行くぞ。<line-break>決して余計な動きはするなよ。<end>"
 korean = "그럼 간다. 절대로 쓸데없는 행동은 하지 마라.<end>"
+
+["420305"]
+japanese = "どこへ行く気だ？<line-break>貴様にはもう少し付き合ってもらうぞ。<end>"
+korean = "어디 갈 생각이지? 네놈은 좀 더 함께해 줘야겠다.<end>"
 
 ["420306"]
 japanese = "<value:$28>は<line-break>ノーブル伯の称号を得た。<end>"

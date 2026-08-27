@@ -8,6 +8,10 @@ korean = "크류세이스 메시지 V3-1용 시작<end>"
 japanese = "<value:$28>様ですね。<line-break>どうぞ、お通りください。<end>"
 korean = "<value:$28>님이시군요. 들어가십시오.<end>"
 
+["1040002"]
+japanese = "（…な、何だ…？<line-break>　なんだか、体が浮いてるような…。）<end>"
+korean = "(…뭐, 뭐지…? 왠지 몸이 떠 있는 것 같은….)<end>"
+
 ["1040003"]
 japanese = "剣闘士<value:$28>、<line-break>もう試合の時間ですよ。　　　　　　　<line-break>　<line-break>さっきから観客は興奮しっぱなしです。<line-break>さあ、早く天武陣の方へ！<end>"
 korean = "검투사 <value:$28>, 이제 시합 시간이야. 아까부터 관중들이 계속 흥분해 있어. 자, 빨리 천무진으로!<end>"
@@ -47,6 +51,10 @@ korean = "로센의 카를라군 동향을 기록한 문서입니다.<end>"
 ["1040026"]
 japanese = "…わかっています。<line-break>ですが…。<end>"
 korean = "…알고 있습니다. 하지만….<end>"
+
+["1040027"]
+japanese = "まさか、他に犯人がいるなどとは<line-break>考えていないだろうな？<end>"
+korean = "설마 다른 범인이 있다고 생각하는 건 아니겠지?<end>"
 
 ["1040028"]
 japanese = "空メッセージ<end>"

@@ -172,6 +172,10 @@ korean = "어때? 잘 지내고 있냐?<end>"
 japanese = "おう、おめえのエモノ<line-break>見せてみな。<end>"
 korean = "어이, 네 무기 좀 보여 봐.<end>"
 
+["1370150"]
+japanese = "さ～て、仕事だ、仕事。<line-break>じゃあな、<value:$28>。<line-break>　<line-break>暇があんなら、<line-break>カミさんのとこにも<line-break>顔を出していってくれ。<end>"
+korean = "자~ 일이다, 일. 그럼 가 볼게, <value:$28>. 시간 있으면 아내한테도 얼굴 좀 비춰 줘.<end>"
+
 ["1370151"]
 japanese = "じゃあな、<value:$28>。<line-break>お前も冒険、がんばれよ。<end>"
 korean = "그럼 잘 가, <value:$28>. 너도 모험 열심히 해.<end>"
@@ -663,6 +667,10 @@ korean = "(마을 사람들을 구하러 가야 해….) (…그래. 오빠와 �
 ["1370353"]
 japanese = "ん？<line-break>父上が、私に…？<line-break>護符か。ありがたい。<end>"
 korean = "응? 아버님이 내게…? 부적이군. 고맙다.<end>"
+
+["1370354"]
+japanese = "<value:$28>も、<line-break>ご苦労だったな。　　　　　　<line-break> <line-break><value:$28>のおかげで、<line-break>父上の気遣いの心が<line-break>よく伝わってきたよ。<end>"
+korean = "<value:$28>도 수고 많았다. <value:$28> 덕분에 아버님의 배려하는 마음이 잘 전해졌어.<end>"
 
 ["1370355"]
 japanese = "…どうした？<end>"
@@ -1315,6 +1323,10 @@ korean = "죄, 죄송합니다! 조금 잘못 짚은 것 같아서….<end>"
 ["1370683"]
 japanese = "はは。2人で散歩でもしてたのかい？<end>"
 korean = "하하. 둘이 산책이라도 했나?<end>"
+
+["1370684"]
+japanese = "疲れたときはいつでも来るといい。<line-break>王宮気分…とはいかないが、<line-break> <line-break>うまい家庭料理と<line-break>ふかふかのベッドで歓迎するよ。<end>"
+korean = "지쳤을 때는 언제든 오면 돼. 왕궁 같은 기분까진 못 내겠지만 맛있는 가정식과 푹신한 침대로 맞아 줄게.<end>"
 
 ["1370685"]
 japanese = "あ、ありがとう。<end>"

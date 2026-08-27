@@ -96,6 +96,10 @@ korean = "꺅.<end>"
 japanese = "見える…、見えます…！<line-break>私…私…今、見えています！<end>"
 korean = "보여… 보여요…! 저… 저… 지금 보여요!<end>"
 
+["750036"]
+japanese = "さ、お礼をおっしゃってください。<line-break>光をくれた<value:$28>に。<end>"
+korean = "자, 감사 인사를 해 주세요. 빛을 준 <value:$28>에게.<end>"
+
 ["750037"]
 japanese = "あ、ありがとうございます。　<line-break><value:$28>様。<line-break>　<line-break>ご恩は一生忘れません！<line-break>光を、ああ、光を<line-break>本当にありがとうございます！<end>"
 korean = "가, 감사합니다, <value:$28>님. 이 은혜는 평생 잊지 않겠습니다! 빛을, 아아, 빛을 정말 감사합니다!<end>"
@@ -259,6 +263,10 @@ korean = "…당신이 빛을 바랐던 소원, 이루어졌나요?<end>"
 ["750089"]
 japanese = "見える…、見えます…！<line-break>私…私…今、見えています！<end>"
 korean = "보여… 보여요…! 저… 저… 지금 보여요!<end>"
+
+["750090"]
+japanese = "さ、お礼をおっしゃってください。<line-break>光をくれた<value:$28>に。<end>"
+korean = "자, 감사 인사를 해 주세요. 빛을 준 <value:$28>에게.<end>"
 
 ["750091"]
 japanese = "あ、ありがとうございます。　<line-break><value:$28>様。<line-break>　<line-break>ご恩は一生忘れません！<line-break>光を、ああ、光を<line-break>本当にありがとうございます！<end>"

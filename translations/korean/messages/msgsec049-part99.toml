@@ -52,6 +52,10 @@ korean = "여어, 기다렸어. 우선 돈부터 받자고.<end>"
 japanese = "これを差し引きして…、残りはちょうど５０００だ。はいよ。<end>"
 korean = "이걸 빼고 나면… 남은 건 정확히 5000이다. 자.<end>"
 
+["490028"]
+japanese = "５０００か…。ツェラシェルを雇うには<line-break>少し足りないな。<end>"
+korean = "5000인가…. 첼라셸을 고용하기엔 조금 부족하군.<end>"
+
 ["490029"]
 japanese = "少し？　ぜんぜん足りないぞ。<line-break>どうするんだ？<end>"
 korean = "조금? 전혀 부족해. 어쩔 거야?<end>"
@@ -136,6 +140,10 @@ korean = "그럴 수도 없지. 자, 그럼.<end>"
 japanese = "ん？<line-break>さっき負けたらどうするつもり<line-break>だったかって？<line-break>なに、さっきの勝負に<line-break>負けは無かったのさ。<end>"
 korean = "응? 아까 졌으면 어쩔 생각이었냐고? 뭐, 애초에 아까 승부엔 패배란 없었지.<end>"
 
+["490090"]
+japanese = "<value:$28>、どうしたのじゃ。<line-break>港へ行くのではなかったのか？<end>"
+korean = "<value:$28>, 무슨 일이냐. 항구로 가는 게 아니었느냐?<end>"
+
 ["490092"]
 japanese = "んー、あ、ああ。<line-break>ま、すぐ行くさ。<end>"
 korean = "음, 아, 그래. 뭐, 금방 갈게.<end>"
@@ -187,6 +195,10 @@ korean = "그거 참 아쉽군.<end>"
 ["490115"]
 japanese = "急げばエンシャントで<line-break>まだ、追いつける。違うか？<end>"
 korean = "서두르면 엔샨트에서 아직 따라잡을 수 있어. 그렇지?<end>"
+
+["490116"]
+japanese = "フフ。<value:$28>、<line-break>お前ならそういうと思ってた。　　　　<line-break>　<line-break>お前の判断が間違っていなかったって、<line-break>運命の女神に見せてやろうぜ。<end>"
+korean = "후후. <value:$28>, 너라면 그렇게 말할 줄 알았어. 네 판단이 틀리지 않았다는 걸 운명의 여신에게 보여 주자고.<end>"
 
 ["490118"]
 japanese = "俺もすぐに行く。<end>"
@@ -352,6 +364,10 @@ korean = "갑자기 질문 공세입니까?<end>"
 japanese = "うんにゃ。信用していい。<end>"
 korean = "아니. 믿어도 돼.<end>"
 
+["490194"]
+japanese = "冒険者にとって、カンってのは<line-break>結構、大事なんだぜ。<line-break>　<line-break>それに、冒険者は自分を一番に<line-break>信用できないと、な。<line-break>いくぞ。<end>"
+korean = "모험자에게 감이라는 건 꽤 중요해. 그리고 모험자는 자기 자신을 가장 먼저 믿을 수 있어야 하지. 가자.<end>"
+
 ["490195"]
 japanese = "あ…、<value:$28>…。<end>"
 korean = "아…, <value:$28>….<end>"
@@ -359,6 +375,10 @@ korean = "아…, <value:$28>….<end>"
 ["490196"]
 japanese = "<value:$28>がお前に<line-break>謝りたいことがあるんだってよ。<line-break>　<line-break>ほら。<end>"
 korean = "<value:$28>가 네게 사과하고 싶은 게 있대. 자.<end>"
+
+["490197"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　　<line-break>　<line-break><value:$28>、ルルアンタを追って<line-break>こんな所まで来てくれたんだ…。<end>"
+korean = "<value:$28>…. <value:$28>, 루루안타를 쫓아 이런 곳까지 와 줬구나….<end>"
 
 ["490198"]
 japanese = "何も言わなくて…いい…。<line-break>何も言わなくても…。<line-break>ねえ、顔を上げて、<value:$28>。<end>"
@@ -507,6 +527,10 @@ korean = "어둠의 신기?<end>"
 ["490250"]
 japanese = "強大で凶々しい力を持つ　　<line-break>１２の魔道器だ。<line-break>かつて、破壊神ウルグの<line-break>復活に使われたことがある。<line-break>…ってな感じだっけ？<end>"
 korean = "강대하고 흉악한 힘을 지닌 12개의 마도기다. 예전에 파괴신 울그를 부활시키는 데 쓰였다고 했던가?<end>"
+
+["490251"]
+japanese = "正解です。<line-break>よく、ご存じですね。　　　　　　　<line-break>　<line-break>ただ、彼女は<line-break>その本来の使い方以外のことを<line-break>しようとしています。<end>"
+korean = "정답입니다. 잘 알고 계시네요. 다만 그녀는 그 본래의 쓰임새 이외의 일을 하려 하고 있습니다.<end>"
 
 ["490256"]
 japanese = "それじゃあ、誰なのぉ？<end>"

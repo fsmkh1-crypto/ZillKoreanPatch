@@ -24,6 +24,10 @@ korean = "아, 위험하잖아!<end>"
 japanese = "ガルドラン！　僕の名はナッジ。<end>"
 korean = "갈드란! 내 이름은 나지다.<end>"
 
+["450008"]
+japanese = "テラネのヴァンを傷つけたこと、<line-break>忘れたとは言わせない！<end>"
+korean = "테라네의 반을 다치게 한 것, 잊었다고는 못 하게 해 주지!<end>"
+
 ["450009"]
 japanese = "？<end>"
 korean = "？<end>"
@@ -224,6 +228,10 @@ korean = "아니, 딱히 괜찮아.<end>"
 japanese = "人間はね、自分たちと違うものを<line-break>嫌い、恐がるんだよ。<end>"
 korean = "인간은 자신들과 다른 것을 싫어하고 두려워해.<end>"
 
+["450104"]
+japanese = "ううん、それは仕方ないと思うんだ。<line-break>僕だって、モンスターとか恐いからさ。<line-break>　<line-break>だけど、ヴァンだけは違ったんだよ…。<end>"
+korean = "아니, 그건 어쩔 수 없다고 생각해. 나도 몬스터 같은 건 무섭거든. 하지만 반만은 달랐어….<end>"
+
 ["450105"]
 japanese = "…ごめん。　　　　　　　　　　　　<end>"
 korean = "…미안.<end>"
@@ -363,6 +371,10 @@ korean = "기다려, 갈드란! 반의 원수…!<end>"
 ["450169"]
 japanese = "楽・勝！<line-break>わかってはいたが、俺様は強い！<line-break>　<line-break>さあ、敗者は退場だ。<line-break>出ていくがいい！<end>"
 korean = "낙승! 알고는 있었지만 역시 나는 강하다! 자, 패자는 퇴장이다. 나가라!<end>"
+
+["450170"]
+japanese = "お客様、<line-break>本当に申しわけございません。　　<line-break>　<line-break>私どもの部屋でよろしければ<line-break>そちらでお休みになってください。<end>"
+korean = "손님, 정말 죄송합니다. 저희 방이라도 괜찮으시다면 그쪽에서 쉬어 주세요.<end>"
 
 ["450171"]
 japanese = "コーンスの角は<line-break>本当に高く売れるんだろうな。<end>"
@@ -627,6 +639,10 @@ korean = "아, 감사합니다. 이제 기운이 났어요.<end>"
 ["450284"]
 japanese = "勇者の熱き魂に触れる者<line-break>また、１人、か。<end>"
 korean = "용자의 뜨거운 혼에 닿은 자가 또 한 명인가.<end>"
+
+["450286"]
+japanese = "へへっ！　無様だな。<line-break>未来の勇者様よお！？　<line-break>　<line-break>人助けしたのはいいが<line-break>自分も救えないのか？<line-break>ハッ、ザマぁねえなあ！<end>"
+korean = "헤헷! 꼴사납군. 미래의 용사님이 말이야!? 남을 도운 건 좋은데 자기 자신도 못 구해? 하, 꼴 좋다!<end>"
 
 ["450287"]
 japanese = "ふっ、熱き魂を持つ者は<line-break>…ち、違う…のだ。<end>"

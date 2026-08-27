@@ -20,6 +20,10 @@ korean = "요즘은 여러모로 위험하니까. <value:$28>도 조심하지 �
 japanese = "この手紙は私が出したものよ。<line-break>当然、来るでしょう？<end>"
 korean = "이 편지는 내가 보낸 거야. 당연히 오겠지?<end>"
 
+["1250019"]
+japanese = "ザギヴさんからお手紙がきたのぉ？<line-break><line-break><line-break>もちろん<value:$28>は、<line-break>エンシャントの政庁に、<line-break>行ってあげるんだよねぇ。<end>"
+korean = "자기브 씨에게서 편지가 왔어? 물론 <value:$28>은 엔샨트 정청에 가 줄 거지?<end>"
+
 ["1250020"]
 japanese = "………………。<line-break><line-break><line-break>エンシャントの政庁へ行け。<end>"
 korean = "………………. 엔샨트 정청으로 가라.<end>"
@@ -184,6 +188,10 @@ korean = "네가 이해해 주길 바라진 않아, <value:$28>. 넌 인간이�
 japanese = "待てなかったか、ジラーク…。<end>"
 korean = "기다리지 못했나, 질라크….<end>"
 
+["1250152"]
+japanese = "<value:$28>様、<line-break>コーンスという、<line-break>哀しき一族を助けなくては。<line-break>私も妹も、そのために助力を<line-break>惜しんだりはいたしません。<end>"
+korean = "<value:$28>님, 코른스라는 슬픈 일족을 도와야 합니다. 저도 제 여동생도 그 일을 위해 힘을 아끼지 않겠습니다.<end>"
+
 ["1250153"]
 japanese = "<value:$28>、<line-break>もちろん、アルノートゥンに<line-break>行くんだよね？<line-break>ヴァイにも聞いてみて、<line-break>私たちも力を貸すつもりだよ！<end>"
 korean = "<value:$28>, 물론 알노트운에 갈 거지? 바위에게도 물어보고 우리도 힘을 보탤 생각이야!<end>"
@@ -215,6 +223,10 @@ korean = "기다리지 못했나, 질라크….<end>"
 ["1250179"]
 japanese = "戦争で解決するなんて、<line-break>力で勝てばいいだなんて…！<line-break>そんなの、間違ってるよぉ！<line-break><value:$28>、<line-break>お願い、やめさせて！<end>"
 korean = "전쟁으로 해결한다니, 힘으로 이기면 된다니…! 그런 건 잘못됐어! <value:$28>, 부탁이야, 막아 줘!<end>"
+
+["1250184"]
+japanese = "<value:$28>様、<line-break>コーンスという、<line-break>哀しき一族を助けなくては。<line-break>私も妹も、そのために助力は<line-break>惜しんだりはいたしません。<end>"
+korean = "<value:$28>님, 코른스라는 슬픈 일족을 도와야 합니다. 저도 제 여동생도 그 일을 위해 힘을 아끼지 않겠습니다.<end>"
 
 ["1250185"]
 japanese = "<value:$28>、<line-break>もちろん、アルノートゥンに<line-break>行くんだよね？<line-break>ヴァイにも聞いてみて、<line-break>私たちも力を貸すつもりだよ！<end>"

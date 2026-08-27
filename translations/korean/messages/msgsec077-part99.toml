@@ -76,6 +76,10 @@ korean = "티아나 곁에 있는다<end>"
 japanese = "あ…<value:$28>様！<end>"
 korean = "아… <value:$28> 님!<end>"
 
+["770030"]
+japanese = "…アトレイア様は<line-break>本当の先王の娘、本当の王女。　<line-break>でも、私は…<line-break>だから…みんな…<line-break>私のそばを…<line-break>すりぬけて…いく…。<end>"
+korean = "…아트레이아 님은 진짜 선왕의 딸, 진짜 왕녀. 하지만 나는… 그래서… 모두가… 내 곁을… 빠져나가… 가 버려….<end>"
+
 ["770033"]
 japanese = "アトレイア様…、<line-break>大丈夫でしょうか？<end>"
 korean = "아트레이아 님… 괜찮으실까요?<end>"
@@ -164,6 +168,10 @@ korean = "네, 괜찮습니다. 어서요.<end>"
 japanese = "ついでに、そっちの指輪も<line-break>はずした方がいい。<end>"
 korean = "그리고 그쪽 반지도 빼는 게 좋아.<end>"
 
+["770066"]
+japanese = "あ…。<line-break>それでは、これも<line-break>持っていってください。<end>"
+korean = "아…. 그럼 이것도 가져가 주세요.<end>"
+
 ["770067"]
 japanese = "そうした方がいい。<line-break>その方がずっと輝いてみえる。<end>"
 korean = "그러는 게 좋아요. 그쪽이 훨씬 빛나 보여요.<end>"
@@ -228,6 +236,10 @@ korean = "헤헤헤…. 재미있는 누님이군. 내가 알려 주지. 이 가
 japanese = "すらいむの…あんかけ？<end>"
 korean = "슬라임… 앙카케?<end>"
 
+["770088"]
+japanese = "ああ。苦みがきいてて<line-break>酒のつまみにはもってこいだ。　　<end>"
+korean = "그래. 쓴맛이 있어서 술안주로 딱이야.<end>"
+
 ["770090"]
 japanese = "かわざかなのしおやき…？<end>"
 korean = "민물고기 소금구이…?<end>"
@@ -251,6 +263,10 @@ korean = "아무도 기다리고 있지 않아!<end>"
 ["770099"]
 japanese = "歌なら歌えます！<end>"
 korean = "노래라면 부를 수 있어요!<end>"
+
+["770100"]
+japanese = "おいおい、この娘、<line-break>一滴も飲んでないよなぁ。<line-break>　<end>"
+korean = "이봐, 이 애 한 방울도 안 마셨지?<end>"
 
 ["770104"]
 japanese = "ハハハハハハ！<line-break>あんたの歌のおかげで<line-break>客も盛り上がって、大繁盛さ。　<line-break>少ないけど、とっときな。<end>"

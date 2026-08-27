@@ -12,6 +12,10 @@ korean = "<value:$28>… 씨 맞지?<end>"
 japanese = "ありがとうございます。<line-break>どうか、よろしくお願いします。<end>"
 korean = "감사합니다. 부디 잘 부탁드립니다.<end>"
 
+["890017"]
+japanese = "大変だ、<value:$28>！<line-break>エステルがシャリにさらわれちゃった！<end>"
+korean = "큰일이야, <value:$28>! 에스텔이 샤리에게 납치됐어!<end>"
+
 ["890018"]
 japanese = "<value:$28>、<line-break>それは…？　　　　　　　　<line-break>　<line-break>お姉ちゃんの首飾り…。<line-break>これでお姉ちゃんの居所が<line-break>わかるんだね？<end>"
 korean = "<value:$28>, 그건…? 언니의 목걸이…. 이걸로 언니가 어디 있는지 알 수 있는 거지?<end>"
@@ -464,6 +468,10 @@ korean = "나…만…. 내 탓인데… 나만… 뻔뻔하게… 살아남아 
 japanese = "近づかないで！<end>"
 korean = "가까이 오지 마!<end>"
 
+["890221"]
+japanese = "私なんて…ザギヴなんて、<line-break>いてはいけないの！<line-break>いてはいけなかったのよ！<line-break>生きとし生けるものすべてが<line-break>呪わしい！　恨めしい！<end>"
+korean = "나 같은 건… 자기브 같은 건 존재하면 안 돼! 존재하지 말았어야 했어! 살아 있는 모든 것이 저주스러워! 원망스러워!<end>"
+
 ["890222"]
 japanese = "だって私は、生きていては<line-break>いけない存在なのだもの！<end>"
 korean = "왜냐하면 나는 살아 있어서는 안 되는 존재니까!<end>"
@@ -471,6 +479,10 @@ korean = "왜냐하면 나는 살아 있어서는 안 되는 존재니까!<end>"
 ["890226"]
 japanese = "…い、痛い。<end>"
 korean = "…아, 아파.<end>"
+
+["890227"]
+japanese = "かわいそうにな。<line-break>お前は何も悪いことはしておらぬ。<line-break>　<line-break>お前が存在すること自体が悪じゃと、<line-break>この世界に否定されただけじゃ。<end>"
+korean = "가엾구나. 너는 아무 잘못도 하지 않았다. 네가 존재하는 것 자체가 악이라고 이 세계가 부정했을 뿐이다.<end>"
 
 ["890228"]
 japanese = "痛い、痛いよ…<end>"
@@ -828,6 +840,10 @@ korean = "아니, 어쩌면 그 아이가 <value:$28>의 여행에 따라간다�
 japanese = "今だから言いますが、あの子は、<line-break>内心いつも悩んでいました。<line-break> <line-break>その、どこか近寄りがたいような<line-break>雰囲気のせいもありますが…<end>"
 korean = "지금이라서 말씀드리지만, 그 아이는 속으로 늘 고민하고 있었습니다. 어딘가 가까이하기 어려운 분위기 탓도 있었지만….<end>"
 
+["890401"]
+japanese = "強くあるということは、<line-break>同時に辛いことでもあり、      <line-break> <line-break>強いまま生き続けるというのは、<line-break>とても難しいことなのです。<end>"
+korean = "강하다는 건 동시에 괴로운 일이기도 하고, 강한 채로 계속 살아가는 건 아주 어려운 일이에요.<end>"
+
 ["890402"]
 japanese = "…いや、それは、あなたが一番良く<line-break>知っていることですね、<line-break><value:$28>？<end>"
 korean = "…아니, 그건 당신이 가장 잘 알고 있는 일이겠죠, <value:$28>?<end>"
@@ -1048,6 +1064,10 @@ korean = "흥, 소용없다. 무한의 소울을 지닌 자라도 나를 이길 
 japanese = "今まで黙っていてごめんなさい、<line-break><value:$28>…。<end>"
 korean = "지금까지 말하지 않아서 미안해, <value:$28>….<end>"
 
+["890493"]
+japanese = "…私は、破壊神に仕える魔人。<line-break>円卓騎士、告げる者アスティア。<line-break> <line-break>何千年という時を、私は、<line-break>戦いながら生きてきた…。<end>"
+korean = "…나는 파괴신을 섬기는 마인. 원탁기사, 고하는 자 아스티아. 수천 년이라는 세월을 나는 싸우며 살아왔다….<end>"
+
 ["890494"]
 japanese = "だけど、お前と過ごした１６年…<line-break>私は初めて安らぎを知った…。<line-break>　<line-break><value:$28>、<line-break>強く…生きて…。<end>"
 korean = "하지만 너와 보낸 16년… 나는 처음으로 평온을 알았다…. <value:$28>, 강하게… 살아….<end>"
@@ -1083,6 +1103,10 @@ korean = "안으로? 안 돼, 안 돼. 폐하께서는 귀족들과도 만나지
 ["890513"]
 japanese = "これは、<value:$28>様。<line-break>恐れながら、お通しできません。<line-break>陛下のご気分が優れないとかで…。<end>"
 korean = "아, <value:$28>님. 송구하지만 들여보내 드릴 수 없습니다. 폐하의 상태가 좋지 않으시다 해서….<end>"
+
+["890514"]
+japanese = "これは、<value:$28>様。<line-break> <line-break> <line-break>雨が降ろうが槍が降ろうが、<line-break>ここに城がある限り、<line-break>我々はここを守り続ける所存です。<end>"
+korean = "이런, <value:$28>님. 비가 오든 창이 쏟아지든 이 성이 있는 한 저희는 계속 이곳을 지킬 생각입니다.<end>"
 
 ["890516"]
 japanese = "説得を続ける<end>"

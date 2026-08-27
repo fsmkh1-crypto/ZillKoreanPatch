@@ -20,6 +20,10 @@ korean = "지면 가만 안 둔다. 한 방 제대로 보여 주고 와!!<end>"
 japanese = "すごいね、<value:$28>。<line-break>ボクも今度はがんばらなきゃ。<end>"
 korean = "대단하네, <value:$28>. 나도 이번엔 열심히 해야겠어.<end>"
 
+["270005"]
+japanese = "戦う準備は、調っているの？<line-break>体力は回復しておきなさい。<end>"
+korean = "싸울 준비는 됐어? 체력은 회복해 둬.<end>"
+
 ["270007"]
 japanese = "私のために優勝してね。<line-break>私…、待ってる。<line-break>　<line-break>なーんてね。<line-break>ちっとはどきどきした？<end>"
 korean = "나를 위해 우승해 줘. 나… 기다릴게. …농담이야. 조금은 두근거렸어?<end>"
@@ -307,6 +311,10 @@ korean = "내 검을 받아낼 수 있을까? 승부다!<end>"
 ["270114"]
 japanese = "あんたの攻撃はかわしきってみせるよ。<end>"
 korean = "네 공격은 전부 피해 주겠어.<end>"
+
+["270117"]
+japanese = "的確に…急所を…。<line-break>さてさて、あんたの弱点はどこかな？<end>"
+korean = "정확하게… 급소를…. 자, 네 약점은 어디일까?<end>"
 
 ["270118"]
 japanese = "神よ、私に力をお貸しください。<end>"

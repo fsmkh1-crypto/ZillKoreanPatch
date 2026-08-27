@@ -28,6 +28,10 @@ korean = "잠깐 밤바람 쐬면서 산책하고 올게. 잘 자.<end>"
 japanese = "ありがとう。褒めてくれて。<line-break>よく働くでしょ、あたし。<line-break>　<line-break>結構、見かけよりも年季が<line-break>入っているんだから。<end>"
 korean = "고마워, 칭찬해 줘서. 나 꽤 열심히 일하지? 보기보다 경력도 제법 오래됐거든.<end>"
 
+["2640011"]
+japanese = "リベルダムの宿屋で<line-break>働いていたこともあったのよ。<line-break>　<line-break>もしかすると、その時に<line-break><value:$28>とも<line-break>会っていたかもね。ふふっ。<end>"
+korean = "리벨덤의 여관에서 일했던 적도 있어. 어쩌면 그때 <value:$28>과 만났을지도 모르겠네. 후훗.<end>"
+
 ["2640015"]
 japanese = "えっ？　あたしの捜している人が<line-break>どんな人かって？<end>"
 korean = "응? 내가 찾는 사람이 어떤 사람이냐고?<end>"
@@ -119,6 +123,10 @@ korean = "하지만 아마 나를 위해 그 힘을….<end>"
 ["2640076"]
 japanese = "もう、あたしにもどうしたらいいか<line-break>わからないのよ…。<end>"
 korean = "이젠 나도 어떻게 해야 할지 모르겠어….<end>"
+
+["2640079"]
+japanese = "そうね。焦ってもしょうがないわよね。<line-break>とにかく今はジリオンを<line-break>捜しださないと。<line-break>でないと、あたしは自分の心に…。<end>"
+korean = "그래. 조급해해 봐야 소용없지. 아무튼 지금은 지리온을 찾아야 해. 그러지 않으면 난 내 마음에….<end>"
 
 ["2640080"]
 japanese = "ううん。なんでもないわ。<line-break>おやすみなさい、<value:$28>。<end>"

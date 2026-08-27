@@ -64,6 +64,10 @@ korean = "호오…. 이건…. 후후, 그런 거였군.<end>"
 japanese = "…失礼するよ。<end>"
 korean = "…실례할게.<end>"
 
+["970046"]
+japanese = "やっぱり、<value:$28>が<line-break>調べ終わるまで、お散歩してよっと！<end>"
+korean = "역시 <value:$28>이 조사를 끝낼 때까지 산책이나 해야지!<end>"
+
 ["970062"]
 japanese = "俺は信じない…信じないぞ…。<end>"
 korean = "난 믿지 않아… 믿지 않는다고….<end>"

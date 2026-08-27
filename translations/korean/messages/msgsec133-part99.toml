@@ -284,6 +284,10 @@ korean = "나인가, 그대인가… 거기서 알게 되겠지. 포호호호…
 japanese = "ムダよ、<value:$28>。<line-break>これは幻像にすぎない…。<line-break>実体はおそらく、城の中よ。<end>"
 korean = "소용없어, <value:$28>. 이건 환상에 불과해…. 본체는 아마 성 안에 있을 거야.<end>"
 
+["1330167"]
+japanese = "よくぞ戻ってきたな、ザギヴよ。<line-break> <line-break> <line-break>おぬしが皇帝となり、<line-break>破壊神が復活するは、<line-break>やはり運命だったのじゃよ。<end>"
+korean = "잘 돌아왔구나, 자기브여. 네가 황제가 되고 파괴신이 부활하는 건 역시 운명이었던 게야.<end>"
+
 ["1330173"]
 japanese = "運命と対決し、その闇の中から<line-break>未来をつかみとるために、<line-break>私はここへ来た。<line-break>行きましょう、<value:$28>。<line-break>エンシャント城内へ…！<end>"
 korean = "운명과 맞서 그 어둠 속에서 미래를 붙잡기 위해 저는 여기에 왔습니다. 갑시다, <value:$28>. 엔샨트 성 안으로…!<end>"
@@ -303,6 +307,10 @@ korean = "할 수 있어! 난 그러려고 여기 왔어!<end>"
 ["1330184"]
 japanese = "終わったわ…。<end>"
 korean = "끝났어….<end>"
+
+["1330191"]
+japanese = "私の帝都から…<line-break>私の支配する、<line-break>この静かな世界から…。<line-break>さようなら、<value:$28>。<line-break>私はもうこの静寂しか愛せないの…。<end>"
+korean = "나의 제도에서… 내가 지배하는 이 고요한 세계에서…. 안녕, <value:$28>. 나는 이제 이 정적밖에 사랑할 수 없어….<end>"
 
 ["1330197"]
 japanese = "ごめん…なさい。<line-break>私、あなたを…待てなかった！<line-break>　<line-break>運命に立ち向かえなかった、<line-break>弱い私を…許し…て…。<end>"
@@ -475,6 +483,10 @@ korean = "큭! 물러나라, 물러나!<end>"
 ["1330284"]
 japanese = "市内の状況はどうなっている。<end>"
 korean = "시내 상황은 어떻게 되어 있지.<end>"
+
+["1330291"]
+japanese = "お初にお目にかかります！<line-break>本職は玄武軍第１１守備軍副官、<line-break>ガラーナ・イガヴィル！　<line-break>お聞きください、<line-break><value:$28>殿！<end>"
+korean = "처음 뵙겠습니다! 본직은 현무군 제11수비군 부관, 가라나 이가빌! 들어 주십시오, <value:$28>님!<end>"
 
 ["1330294"]
 japanese = "た、確かに我々では…<line-break>しかし…<end>"
@@ -1179,6 +1191,10 @@ korean = "평등한 세상을 만들자<end>"
 ["1330695"]
 japanese = "どうやって？<line-break>何か、方法があるの？<end>"
 korean = "어떻게? 무슨 방법이 있는 거야?<end>"
+
+["1330697"]
+japanese = "そうやって、１人１人が<line-break>考えてくれなきゃ、<line-break>種族の平等なんて実現しないから、さ。<line-break>じゃね。ありがとう、<line-break><value:$28>。<end>"
+korean = "그렇게 한 사람 한 사람이 생각해 주지 않으면 종족의 평등 같은 건 실현되지 않으니까. 그럼, 고마워, <value:$28>.<end>"
 
 ["1330698"]
 japanese = "どうしても入る<end>"

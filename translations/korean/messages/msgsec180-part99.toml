@@ -344,6 +344,10 @@ korean = "계속 네메아를 쫓는다<end>"
 japanese = "ネメアはいい、ゼグナを出る<end>"
 korean = "네메아는 됐어, 제그나를 나간다<end>"
 
+["1800180"]
+japanese = "<value:$28>様…、ゼネテス様に<line-break>力を貸していただけませんか？<line-break>　<line-break>無茶苦茶なお願いだということは、<line-break>わかっています。でも…。<end>"
+korean = "<value:$28>님… 제네테스 님께 힘을 빌려주실 수 없나요? 무리한 부탁이라는 건 알아요. 하지만….<end>"
+
 ["1800181"]
 japanese = "力を貸そう<end>"
 korean = "힘을 빌려주지<end>"

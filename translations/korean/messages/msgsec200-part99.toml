@@ -16,6 +16,14 @@ korean = "지금은 대현자님이라고 불리는 어느 분 얘기야.<end>"
 japanese = "ああ、そうでしたか。<line-break>私はてっきり別の人の話かと。<line-break>　<line-break>ふふっ。言われてみると、<line-break>そんな時代もありましたね。<end>"
 korean = "아, 그랬군요. 저는 완전히 다른 사람 이야기인 줄 알았습니다. 후후, 듣고 보니 그런 시절도 있었네요.<end>"
 
+["2000007"]
+japanese = "ったく、しれっとした顔で<line-break>すっトボケようとしやがって。<line-break>　<line-break>いずれ、お前の悪行を<line-break>全部<value:$28>に<line-break>バラしてやるからな。<end>"
+korean = "정말, 아무렇지도 않은 얼굴로 시치미 떼려고 하네. 언젠가 네 악행을 전부 <value:$28>에게 폭로해 줄 거야.<end>"
+
+["2000008"]
+japanese = "はいはい。どうぞご自由に。<line-break>　<line-break>　<line-break>さて、ネモがもっと悪い記憶を<line-break>掘り起こさないうちに<line-break>退散するとしましょうか。<end>"
+korean = "네네. 마음대로 하세요. 자, 네모가 더 나쁜 기억을 끄집어내기 전에 저는 물러나 볼까요.<end>"
+
 ["2000009"]
 japanese = "PSP用不良少年オルファウスイベント02用<end>"
 korean = "PSP용 불량소년 오르파우스 이벤트02용<end>"

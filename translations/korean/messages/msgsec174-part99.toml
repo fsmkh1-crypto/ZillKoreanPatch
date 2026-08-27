@@ -104,6 +104,10 @@ korean = "갈게.<end>"
 japanese = "行く？<line-break>どこへ行くのだ？<end>"
 korean = "간다고? 어디로 가는 거지?<end>"
 
+["1740046"]
+japanese = "…ネメア様が何を聞いたか<line-break>わかっても、<line-break>何を考えたのかわかるのか？<line-break>…我は行かぬ。<line-break>行くというのなら、<line-break>抜ける。<end>"
+korean = "…네메아 님이 무엇을 들었는지 알아도 무엇을 생각했는지는 알 수 있나? …나는 가지 않겠다. 간다면 빠지겠다.<end>"
+
 ["1740047"]
 japanese = "やれやれ。<line-break>不器用な奴よ。<end>"
 korean = "이런. 서투른 녀석이군.<end>"
@@ -175,6 +179,10 @@ korean = "사룡이 정말 나타난다면….<end>"
 ["1740079"]
 japanese = "…といっても、相手は竜。<line-break>どうしようもないですかね。<end>"
 korean = "…그래도 상대는 용이네요. 어쩔 수 없으려나.<end>"
+
+["1740080"]
+japanese = "やあ、どこに行くんだい？　<line-break>　<line-break>　<line-break>あれー？　確かこの先には<line-break>邪竜を封印した祭壇しか<line-break>ないはずなんだけどなあ…。<end>"
+korean = "야, 어디 가는 거야? 어라? 분명 이 앞에는 사룡을 봉인한 제단밖에 없을 텐데….<end>"
 
 ["1740082"]
 japanese = "復活させたい<end>"

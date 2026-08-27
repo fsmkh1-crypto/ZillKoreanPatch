@@ -300,6 +300,10 @@ korean = "언젠가 예전의 청정한 시대 같은 때가 올 것이다.<end>
 japanese = "フッ、愚かな…。　　　　　　　　　<end>"
 korean = "훗, 어리석군….<end>"
 
+["410100"]
+japanese = "では、どうあっても<line-break>研究をやめていただけないのですね。<end>"
+korean = "그럼 어떻게 해도 연구를 그만둘 생각은 없으신 거군요.<end>"
+
 ["410101"]
 japanese = "や、やめるわけには…いかない。<end>"
 korean = "그, 그만둘 수는… 없어.<end>"
@@ -319,6 +323,10 @@ korean = "그 사악한 마도사는 어둠의 신기로 이 세계를 멸망시
 ["410106"]
 japanese = "ま、待って！<line-break>そんなのウソだ！<end>"
 korean = "자, 잠깐! 그런 건 거짓말이야!<end>"
+
+["410108"]
+japanese = "本当にあのハーフエルフが言ってた<line-break>神器があったのね…。<end>"
+korean = "정말 그 하프엘프가 말한 신기가 있었군….<end>"
 
 ["410110"]
 japanese = "<value:$28>！<line-break>そんなのウソだよ！<line-break>僕を信じて！<end>"

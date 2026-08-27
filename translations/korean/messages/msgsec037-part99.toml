@@ -32,6 +32,10 @@ korean = "유리아슈, 네가 기다려.<end>"
 japanese = "ガキじゃねぇんだから、<line-break>チョロチョロ走んじゃねぇ！<end>"
 korean = "애도 아니면서 이리저리 뛰어다니지 마!<end>"
 
+["370008"]
+japanese = "ご両親に供える花を買ったら、<line-break>とっとと戻って来んだぞ。<end>"
+korean = "부모님께 바칠 꽃을 샀으면 얼른 돌아와.<end>"
+
 ["370009"]
 japanese = "わかってる。船長。<end>"
 korean = "알고 있어. 선장.<end>"
@@ -108,6 +112,10 @@ korean = "엣!<end>"
 japanese = "はぁ？<end>"
 korean = "하아?<end>"
 
+["370039"]
+japanese = "俺は、そのまま、<line-break>ごまかしてきちまったんだああああ！！<end>"
+korean = "난 그대로 얼버무리고 말았다고오오오!!<end>"
+
 ["370043"]
 japanese = "へ？　なんでだ？<end>"
 korean = "엥? 왜?<end>"
@@ -148,9 +156,17 @@ korean = "선장, 고마워.<end>"
 japanese = "船長、ありがとよ。<end>"
 korean = "선장, 고마워.<end>"
 
+["370053"]
+japanese = "んな～に、礼なぞいらんいらん。<line-break>じゃ、またな小僧ども。<end>"
+korean = "뭐어~ 답례 따윈 됐다, 됐어. 그럼 또 보자, 꼬마들.<end>"
+
 ["370054"]
 japanese = "<value:$28>、一緒にお参りに…<line-break>行きましょう。いいでしょ？<end>"
 korean = "<value:$28>, 같이 참배하러… 가요. 괜찮죠?<end>"
+
+["370055"]
+japanese = "<value:$28>、あのさ…、一緒に<line-break>お参りに行かないか？　頼む。<end>"
+korean = "<value:$28>, 있잖아… 같이 참배하러 가지 않을래? 부탁할게.<end>"
 
 ["370056"]
 japanese = "…あのときは、<line-break>ほんと、立ち直れないと思った。<end>"
@@ -187,6 +203,10 @@ korean = "여왕 에아 님은 천년의 세월을 내다보는 분이야. 틀�
 ["370064"]
 japanese = "あのとき、<value:$28>も<line-break>大変だったのよね。　　　　　　　　<line-break><value:$28>のお父さん<line-break>…イシュベノブおじさんの船が<line-break>行方不明になって…。<end>"
 korean = "그때 <value:$28>도 힘들었지. <value:$28>의 아버지… 이슈베노브 아저씨의 배가 실종돼서….<end>"
+
+["370066"]
+japanese = "…それでも、<value:$28>は<line-break>ずっと、あたしについててくれて…。<line-break>わざわざアミラルまで<line-break>お花を買いにいくのにも<line-break>ついてきてくれて…。<end>"
+korean = "…그래도 <value:$28>은 계속 나와 함께 있어 줬고…. 일부러 아미랄까지 꽃을 사러 가는 데도 따라와 줬고….<end>"
 
 ["370069"]
 japanese = "…ごめん、<line-break>あたし眠っちゃったんだ。<end>"
@@ -376,6 +396,10 @@ korean = "자자, 비켜라!! 돈파돈 님이 나가신다.<end>"
 japanese = "なんだ！　お前ら！　　　　<end>"
 korean = "뭐야! 너희들!<end>"
 
+["370156"]
+japanese = "何かと言えばエア様エア様、<line-break>とにかく穏便に穏便にって…<end>"
+korean = "무슨 일만 있으면 에아 님, 에아 님. 무조건 온건하게, 온건하게라니….<end>"
+
 ["370157"]
 japanese = "こんな奴らの言うことを　　<line-break>聞いてどうするんだ！<end>"
 korean = "이런 녀석들 말을 들어서 어쩌자는 거야!<end>"
@@ -395,6 +419,10 @@ korean = "천한 놈이!! 병사들!!<end>"
 ["370164"]
 japanese = "はーん、おもしれぇ！　　　<end>"
 korean = "하, 재밌는데!<end>"
+
+["370165"]
+japanese = "自由な海の男の気概って奴を<line-break>見せてやろうぜ！　みんな！<end>"
+korean = "자유로운 바다 사나이의 기개라는 걸 보여 주자고! 모두!<end>"
 
 ["370166"]
 japanese = "くっ、何をやっておる。<line-break>どけ。私が入る！<end>"
@@ -604,6 +632,10 @@ korean = "그 몸…. 너, 대체…?<end>"
 japanese = "人間じゃ、ない…？<end>"
 korean = "인간이, 아니야…?<end>"
 
+["370252"]
+japanese = "…傷は深いな…。<line-break>その身体で竜の座から逃げてきたのか？<end>"
+korean = "…상처가 깊군…. 그 몸으로 용의 자리에서 도망쳐 온 건가?<end>"
+
 ["370253"]
 japanese = "助けるのか？<end>"
 korean = "구할 거야?<end>"
@@ -623,6 +655,10 @@ korean = "싫은데.<end>"
 ["370257"]
 japanese = "いやだって言ったんだ。<end>"
 korean = "싫다고 했어.<end>"
+
+["370259"]
+japanese = "もう一度きくぞ。<line-break>引き渡すのじゃな？　　　　　<line-break><end>"
+korean = "다시 한 번 묻겠다. 넘겨주겠다는 거지?<end>"
 
 ["370260"]
 japanese = "うざいんだよ。オバサン。<end>"

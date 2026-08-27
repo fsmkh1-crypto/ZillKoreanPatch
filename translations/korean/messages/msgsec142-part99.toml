@@ -224,6 +224,10 @@ korean = "에아…? 에아라면… 서, 설마 당신, 그 엘즈의 에아인
 japanese = "へええ、こいつはこいつは。<line-break>…で、どこまで行かれる旅で？<end>"
 korean = "호오, 이거 이거. …그래서 어디까지 가는 여행이신가?<end>"
 
+["1420094"]
+japanese = "定めや運命などという魔物じみた存在に<line-break>とことん逆らい、<line-break>魔法などに頼らず子を宿し、<line-break>子孫を残すことじゃ…。<line-break>のう、<value:$28>？<end>"
+korean = "정해진 운명 같은 마물 같은 존재에 끝까지 거역하고, 마법에 기대지 않고 아이를 품어 후손을 남기는 것이지…. 그렇지, <value:$28>?<end>"
+
 ["1420095"]
 japanese = "…無理が、ないですかね？<end>"
 korean = "…무리하는 건, 아닌가요?<end>"
@@ -287,6 +291,10 @@ korean = "들어라, <value:$28>. 이제 나는 스스로를 신의 대변자라
 ["1420117"]
 japanese = "　　　　　　我は悟ったのだ。<line-break>　　　　　本当に愚かだったのは、<line-break>　　　実は我自身ではなかったかとな。<line-break><end>"
 korean = "나는 깨달았다. 정말 어리석었던 건 사실 나 자신이 아니었을까 하고.<end>"
+
+["1420118"]
+japanese = "　　　　貴様に我が倒されたも、それゆえよ。<line-break>　　人の世が、我を必要としなくなったからに<line-break>　　　　　　　　　他ならん…。<line-break><end>"
+korean = "네놈에게 내가 쓰러진 것도 그 때문이다. 인간의 세상이 더는 나를 필요로 하지 않게 되었기 때문이지….<end>"
 
 ["1420120"]
 japanese = "　　　　これも…無限のソウルの力か…。<line-break><line-break><line-break><end>"
@@ -1084,6 +1092,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
 
+["1420401"]
+japanese = "し、しらん。<line-break>わしはしらんぞ！<line-break> <line-break>きょ、強制労働なぞ<line-break>どこでもやっているではないか。<line-break>わ、わしは悪くない！<end>"
+korean = "모, 몰라. 난 모른다고! 가, 강제 노동 따위 어디서나 하잖아. 나, 난 잘못 없어!<end>"
+
 ["1420402"]
 japanese = "領主様！<end>"
 korean = "영주님!<end>"
@@ -1607,6 +1619,10 @@ korean = "그래. 네 힘은 커.<end>"
 ["1420594"]
 japanese = "あなたがその気になれば…<line-break> <line-break> <line-break>この大陸に再び戦渦を引き起こすことも<line-break>できるのでしょうね…。<end>"
 korean = "당신이 마음만 먹는다면… 이 대륙에 다시 전쟁을 일으킬 수도 있겠죠….<end>"
+
+["1420595"]
+japanese = "だが、お前には仲間がいる。<line-break> <line-break> <line-break>それはお前が正しいことに力を<line-break>振るってきた証であり、<line-break>お前の力を押さえる枷でもある。<end>"
+korean = "하지만 네게는 동료가 있다. 그것은 네가 옳은 일에 힘을 써 왔다는 증거이자, 네 힘을 억누르는 족쇄이기도 하지.<end>"
 
 ["1420597"]
 japanese = "その人たちに何も告げずに行くなんて、<line-break>許されないわ。<line-break> <line-break>残される方にも、それぞれの思いが<line-break>あるんだから。<end>"

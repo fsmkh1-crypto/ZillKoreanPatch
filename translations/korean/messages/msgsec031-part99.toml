@@ -80,6 +80,10 @@ korean = "젠장! 볼보라 놈! 이런 녀석에게 먹힐 순 없어!<end>"
 japanese = "おい、女、<line-break>助太刀してやる。<end>"
 korean = "어이, 여자. 도와주지.<end>"
 
+["310041"]
+japanese = "リベルダム製の戦闘モンスターか。<line-break>なぜ、こんな所に…？<end>"
+korean = "리벨덤제 전투 몬스터인가. 왜 이런 곳에…?<end>"
+
 ["310046"]
 japanese = "あ！<end>"
 korean = "아!<end>"
@@ -144,6 +148,10 @@ korean = "누나, 아직 뭐가 더 있어?<end>"
 japanese = "やっと用意ができたか？<end>"
 korean = "드디어 준비가 됐나?<end>"
 
+["310077"]
+japanese = "じゃ、姉ちゃん、行こうぜ。<line-break>みんな森の奥で待ってるよ。<end>"
+korean = "자, 누나, 가자. 모두 숲 안쪽에서 기다리고 있어.<end>"
+
 ["310083"]
 japanese = "今こそ立ち上がろう！<line-break><value:$28>！<end>"
 korean = "지금이야말로 일어서자! <value:$28>!<end>"
@@ -183,6 +191,14 @@ korean = "<value:$28>. 소용없어. 장로님은 반란에 참가하지 않아.
 ["310109"]
 japanese = "ゲヒッ！<line-break><value:$28>！！<line-break>ここまで来やがったか！<end>"
 korean = "게힛! <value:$28>!! 여기까지 왔냐!<end>"
+
+["310111"]
+japanese = "ゲヘヘ…、バカ姉弟が！<line-break>ノコノコおびき出されやがって。<end>"
+korean = "게헤헤… 바보 남매 같으니! 순순히 유인당해 나왔군.<end>"
+
+["310112"]
+japanese = "ボルボラ！！<line-break>お前もこれで終わりだ！<line-break>降参しろ！<end>"
+korean = "볼보라!! 너도 이걸로 끝이다! 항복해!<end>"
 
 ["310114"]
 japanese = "なんだと、ボルボラ！？<end>"
@@ -440,6 +456,10 @@ korean = "그럴 리가!! 우리는 귀족들의 권력 다툼 때문에 이렇�
 japanese = "えっ！？<end>"
 korean = "어!?<end>"
 
+["310231"]
+japanese = "ならば、すぐに行くぞ。<line-break>奴らが新手を連れてくる前にな。<end>"
+korean = "그렇다면 당장 간다. 놈들이 새 병력을 데려오기 전에.<end>"
+
 ["310232"]
 japanese = "ん？<line-break>どうした、<value:$28>？<end>"
 korean = "응? 왜 그래, <value:$28>?<end>"
@@ -511,6 +531,10 @@ korean = "…나는 왕도로 간다. 이곳의 반란과 밀서 건으로 에�
 ["310272"]
 japanese = "酔狂な女だ。<line-break>ついてくるというのか？<end>"
 korean = "별난 여자군. 따라오겠다는 건가?<end>"
+
+["310275"]
+japanese = "ったく、こいつの場合、<line-break>本気か冗談かわからねえからな。<end>"
+korean = "정말, 이 녀석은 진심인지 농담인지 알 수가 없다니까.<end>"
 
 ["310276"]
 japanese = "な、なんだ！？<end>"

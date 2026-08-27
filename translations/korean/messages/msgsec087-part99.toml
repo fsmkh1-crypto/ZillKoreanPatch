@@ -12,6 +12,10 @@ korean = "예! <value:$28>님, 들어가십시오!<end>"
 japanese = "うそーん。<line-break>あなたのこと愛してたのにー。<line-break>　<line-break><value:$28>…！<line-break>ブゾリとできてたのねー！<line-break>ひどいわひどいわ。<end>"
 korean = "말도 안 돼~. 당신을 사랑했는데~. <value:$28>…! 부조리와 그런 사이였던 거야~! 너무해, 너무해.<end>"
 
+["870004"]
+japanese = "うーっす。<value:$28>じゃん。<line-break>ブゾリの下でも働いてたんだ。<end>"
+korean = "어이, <value:$28>이잖아. 부조리 밑에서도 일했었구나.<end>"
+
 ["870006"]
 japanese = "…実は、もう、かかってたとか。<end>"
 korean = "…사실은 이미 걸려 있었다든가.<end>"
@@ -35,6 +39,10 @@ korean = "후후, 농담이야 농담. 나 있잖아, 그런 쪽은 꽤 이해�
 ["870016"]
 japanese = "ブゾリの配下？<end>"
 korean = "부조리의 부하?<end>"
+
+["870017"]
+japanese = "あたし、カルラ。<line-break>ブゾリの上司。ボス。偉い人。　<line-break>　<line-break>ディンガルの東方攻略軍司令。<line-break>でもって青竜将軍。<line-break>ヨロシクぅ。<end>"
+korean = "난 칼라. 부조리의 상사. 보스. 높은 사람. 딘갈 동방공략군 사령관. 그리고 청룡장군. 잘 부탁해~.<end>"
 
 ["870018"]
 japanese = "ブゾリって、たぶん、<line-break>あんたみたいなの好みだよ。<end>"

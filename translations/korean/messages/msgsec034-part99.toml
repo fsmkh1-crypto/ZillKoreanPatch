@@ -20,6 +20,10 @@ korean = "…그래.<end>"
 japanese = "あっ！！　あれですねっ！！<end>"
 korean = "아!! 저거군요!!<end>"
 
+["340008"]
+japanese = "そう言えばっ！　夜明け前の地震は<line-break>すごかったですねっ！<end>"
+korean = "그러고 보니! 새벽 전 지진은 정말 대단했죠!<end>"
+
 ["340009"]
 japanese = "…ん…<end>"
 korean = "…응…<end>"
@@ -64,6 +68,10 @@ korean = "좋아, <value:$28>, 우선 검끝부터인데….<end>"
 japanese = "これだけで見違えるようになる。<line-break>他には…<end>"
 korean = "이것만으로도 몰라보게 달라질 거야. 또 다른 건…<end>"
 
+["340022"]
+japanese = "…こんなところか。<line-break>このくらいは、できんと話にならん。<end>"
+korean = "…이 정도인가. 이 정도도 못 하면 이야기가 안 되지.<end>"
+
 ["340023"]
 japanese = "まさか…。いや、今度こそ！<end>"
 korean = "설마…. 아니, 이번에는 반드시!<end>"
@@ -91,6 +99,10 @@ korean = "큭… 뭐지?<end>"
 ["340037"]
 japanese = "この丘にこんな猛獣が…、<line-break>何があったんだ？<end>"
 korean = "이 언덕에 이런 맹수가… 무슨 일이 있었던 거지?<end>"
+
+["340038"]
+japanese = "ロッチナ、俺たちは行くぞ。<line-break>あとで、宝剣を持ってくる。<end>"
+korean = "롯치나, 우리는 간다. 나중에 보검을 가져올게.<end>"
 
 ["340039"]
 japanese = "よし、炎の泉が<line-break>炎竜の炎で満ちている。<end>"
@@ -159,6 +171,10 @@ korean = "…분단의 산맥 지하에 있는 지하 왕국의 대장장이 델
 ["340055"]
 japanese = "…行け。ここはもうダメだ。<line-break>…俺も…。<end>"
 korean = "…가라. 여긴 이제 안 된다. …나도….<end>"
+
+["340056"]
+japanese = "頼んだぞ…。俺とロッチナの夢を、<line-break>お前が果たしてくれ。<end>"
+korean = "부탁한다…. 나와 롯치나의 꿈을 네가 이뤄 줘.<end>"
 
 ["340057"]
 japanese = "…よし…、<value:$28>…、<line-break>任せたぞ。<end>"

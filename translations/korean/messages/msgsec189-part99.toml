@@ -32,6 +32,10 @@ korean = "과거 짐은 그것을 증명해 보였다.<end>"
 japanese = "フッフッフ…、<line-break>信用できぬようだな。<line-break>仕方あるまい、この姿では。　<line-break>だが、この姿こそ<line-break>覚醒を経験した証とも言えよう。<end>"
 korean = "후후후… 믿기 어려운 모양이군. 이 모습이니 어쩔 수 없지. 하지만 이 모습이야말로 각성을 경험한 증거라 할 수 있다.<end>"
 
+["1890012"]
+japanese = "憎き支配者…竜王。<line-break>奴は、革新を果たした余を恐れた。<line-break>人類の力を恐れたのだ。<line-break>それゆえ、余を<line-break>こそくな術で縛りおった。<end>"
+korean = "증오스러운 지배자… 용왕. 놈은 혁신을 이룬 나를 두려워했다. 인류의 힘을 두려워한 것이다. 그래서 나를 비겁한 술법으로 묶어 두었다.<end>"
+
 ["1890016"]
 japanese = "ただ神聖王国アルレシアのみが<line-break>神より魔法を授かっていたのだ。　<line-break>　<line-break>アルレシアは魔法を武器に<line-break>小国を平定し、戦乱を終結させた。<end>"
 korean = "오직 신성왕국 알레시아만이 신에게서 마법을 받았다. 알레시아는 마법을 무기로 소국들을 평정하고 전란을 끝냈다.<end>"
@@ -91,6 +95,10 @@ korean = "어떻게 할 생각이야?<end>"
 ["1890051"]
 japanese = "待ってるよ、<line-break><value:$28>。<end>"
 korean = "기다리고 있을게, <value:$28>.<end>"
+
+["1890058"]
+japanese = "よくがんばりましたね。　　　　　　　<line-break>　<line-break>　<line-break>ウルグが<value:$28>に<line-break>降臨するとは計算外でしたが、<line-break>復活は阻止されました。<end>"
+korean = "정말 수고 많으셨습니다. 울그가 <value:$28>에게 강림한 것은 계산 밖이었지만 부활은 저지되었습니다.<end>"
 
 ["1890060"]
 japanese = "さあ、猫屋敷に戻りますよ。<end>"

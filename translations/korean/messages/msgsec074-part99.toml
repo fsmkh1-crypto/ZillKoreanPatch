@@ -112,6 +112,10 @@ korean = "뭐, 누나 이야기도 물어봐? 그만하자, 반.<end>"
 japanese = "なに言ってんだよ。<line-break>アレだって女だぞ。<end>"
 korean = "무슨 소리야. 저것도 여자라고.<end>"
 
+["740038"]
+japanese = "えー、では<value:$28>さんは<line-break>いかがでしょうか？　セラさん。<end>"
+korean = "그럼 <value:$28>님은 어떠세요? 세라 씨.<end>"
+
 ["740039"]
 japanese = "…<value:$28>、か。<line-break>凶暴な女だな。　　　　<line-break>　<line-break>ま、最近はだいぶ<line-break>かわいらしくなってきた<line-break>感じがするがな。<end>"
 korean = "…<value:$28>인가. 사나운 여자군. 뭐, 요즘은 꽤 귀여워진 느낌이 들지만 말이야.<end>"

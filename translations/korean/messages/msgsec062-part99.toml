@@ -108,6 +108,10 @@ korean = "그럼 편히 쉬세요.<end>"
 japanese = "む、わかったでゴブ！<end>"
 korean = "으, 알겠는 고브!<end>"
 
+["620035"]
+japanese = "すべては、この禁断の聖杯の<line-break>おかげゴブ！<line-break>　<line-break>この聖杯を手に入れて以来、<line-break>体中にみなぎる英知が<line-break>そう告げているゴブ！<end>"
+korean = "모든 건 이 금단의 성배 덕분이다 고브! 이 성배를 손에 넣은 뒤로 온몸에 넘치는 지혜가 그렇게 알려 준다 고브!<end>"
+
 ["620036"]
 japanese = "あーっ！　あんたたち！<end>"
 korean = "아앗! 너희들!<end>"
@@ -388,6 +392,10 @@ korean = "보라고! 이게 미모가 만들어 내는 기술이야!<end>"
 japanese = "っるさいわねー。文句言ってないで、<line-break>早く船に乗るわよ。<end>"
 korean = "시끄럽네. 불평 말고 얼른 배에 타.<end>"
 
+["620143"]
+japanese = "ううー、何であんなに<line-break>こき使われなきゃならないのよー！<end>"
+korean = "으으, 왜 그렇게 혹사당해야 하는 거야아!<end>"
+
 ["620145"]
 japanese = "至極妥当な気がするゴブ。<end>"
 korean = "지극히 타당한 것 같다 고브.<end>"
@@ -484,6 +492,10 @@ korean = "수상쩍다 고브.<end>"
 japanese = "んにゃーん、にゃーん。<end>"
 korean = "냐아앙, 냐아앙.<end>"
 
+["620186"]
+japanese = "この人ゴブ！<line-break>ピンときたゴブ！　　　　<line-break>　<line-break>やさしそうだし、美形だし、<line-break>結構実力ありそうだし、<line-break>実は性格悪そうだし。<end>"
+korean = "이 사람이다 고브! 느낌이 왔다 고브! 상냥해 보이고, 잘생겼고, 꽤 실력도 있어 보이고, 사실 성격은 나빠 보이고.<end>"
+
 ["620188"]
 japanese = "ゴブゴブ団の<line-break>ガント団長さんですね？<end>"
 korean = "고브고브단의 간트 단장님이시죠?<end>"
@@ -516,6 +528,10 @@ korean = "그건 무리네요.<end>"
 japanese = "どうしてゴブ？<end>"
 korean = "왜 고브?<end>"
 
+["620199"]
+japanese = "幸せは、最終的には自分の手で<line-break>つかむものだからですよ。<end>"
+korean = "행복은 결국 자신의 손으로 붙잡는 것이니까요.<end>"
+
 ["620200"]
 japanese = "そんな…。<end>"
 korean = "그럴 수가….<end>"
@@ -539,6 +555,10 @@ korean = "비켜! 저 녀석들 도망가잖아!<end>"
 ["620210"]
 japanese = "私の家に争いを持ち込まないで<line-break>ほしいですねえ。<end>"
 korean = "제 집에 다툼을 끌고 오지는 말아 주세요.<end>"
+
+["620211"]
+japanese = "…無限のソウルを持つ者？<line-break><line-break><line-break>フフフ。<line-break>運命の女神はどうしてこう<line-break>あざといことが好きなんでしょうねえ。<end>"
+korean = "…무한의 소울을 가진 자? 후후후. 운명의 여신은 어째서 이렇게 얄미운 장난을 좋아하는 걸까요.<end>"
 
 ["620213"]
 japanese = "お願い、<value:$28>。<line-break>私、あなたを守りたいの…。<end>"
@@ -611,6 +631,10 @@ korean = "(미사용)<end>"
 ["620251"]
 japanese = "きっと、そう、答えたんでしょうね…。<end>"
 korean = "분명 그렇게 대답했겠죠….<end>"
+
+["620253"]
+japanese = "ねえ。今日はありがと。　　　<line-break>　<line-break>　<line-break>オルファウスさんに<line-break>手もなくひねられたとき…、<line-break>正直、恐かった。<end>"
+korean = "있지. 오늘은 고마워. 오르파우스 씨에게 손도 못 쓰고 당했을 때… 솔직히 무서웠어.<end>"
 
 ["620254"]
 japanese = "あなたみたいなのでも<line-break>いてくれて、<line-break>正直、すごく安心したわ。　　<line-break>うん…あなたの背中見てると、<line-break>すごく安心した…。<end>"
@@ -703,6 +727,10 @@ korean = "아, <value:$28> 씨!<end>"
 ["620296"]
 japanese = "……心配…してた…んです…よ。<end>"
 korean = "……걱정… 했…어요….<end>"
+
+["620298"]
+japanese = "確かに、私、<line-break>力ではアイリーンさんにかないません！<line-break>冒険では足手まといです！<line-break>でも！　でも！<line-break>せめて一言…！<end>"
+korean = "확실히 저는 힘으로는 아이린 씨를 이길 수 없어요! 모험에서는 짐만 돼요! 그래도! 그래도! 적어도 한마디만…!<end>"
 
 ["620299"]
 japanese = "うっ。<end>"

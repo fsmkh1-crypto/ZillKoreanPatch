@@ -28,6 +28,10 @@ korean = "네<end>"
 japanese = "いいえ<end>"
 korean = "아니요<end>"
 
+["320011"]
+japanese = "そうだな。<line-break>このぐらいで足りるだろう。<line-break>　<line-break>父上も神殿で<line-break>お前のことを心配しておられよう。<line-break>戻ろうか。<end>"
+korean = "그래. 이 정도면 충분하겠지. 아버님도 신전에서 널 걱정하고 계실 거야. 돌아갈까.<end>"
+
 ["320012"]
 japanese = "待て、<value:$28>。<line-break>魔物の気配がする。<end>"
 korean = "기다려, <value:$28>. 마물의 기척이 느껴진다.<end>"

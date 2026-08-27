@@ -4,6 +4,10 @@
 japanese = "ジリオン＆イーシャイベント18用開始<end>"
 korean = "질리온&이샤 이벤트18용 시작<end>"
 
+["2740005"]
+japanese = "　　ありがとう。<value:$28>。<line-break>　　イーシャのことを頼む。<end>"
+korean = "고마워, <value:$28>. 이샤를 부탁한다.<end>"
+
 ["2740006"]
 japanese = "ジリオン＆イーシャイベント18用開終端<end>"
 korean = "지리온 & 이샤 이벤트18용 시작/끝<end>"

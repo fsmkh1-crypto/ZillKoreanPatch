@@ -4,6 +4,10 @@
 japanese = "旅立ち０３メッセージ<end>"
 korean = "여행 출발 03 메시지<end>"
 
+["300003"]
+japanese = "毎度ありがとうございます、伯爵様。<line-break>　<line-break>　<line-break>（フヒヒ、商品の試験データと　　　<line-break>　金が一度に手に入るわい。）<end>"
+korean = "매번 감사합니다, 백작님. (후히히, 상품 시험 데이터와 돈을 한꺼번에 손에 넣는군.)<end>"
+
 ["300007"]
 japanese = "<value:$28>！<line-break>退がれ！　無理すんじゃねえ！<end>"
 korean = "<value:$28>! 물러서! 무리하지 마!<end>"
@@ -31,6 +35,10 @@ korean = "어머, 정신이 든 모양이네, <value:$28>.<end>"
 ["300019"]
 japanese = "<value:$28>なら、<line-break>きっとあの娘より強くなれるわ。　　　<line-break>がんばってらっしゃい。<end>"
 korean = "<value:$28>이라면 분명 그 아이보다 강해질 수 있어. 힘내고 와.<end>"
+
+["300020"]
+japanese = "おう、昨日のケガは大丈夫か？　　　　　　<line-break>　<line-break>　<end>"
+korean = "어이, 어제 다친 곳은 괜찮아?<end>"
 
 ["300028"]
 japanese = "<value:$28>、頼んだぜ。<line-break>　　　　　　　　　　　　　　　　　　　　<line-break>　<end>"
@@ -75,6 +83,10 @@ korean = "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집
 ["300049"]
 japanese = "冗談よ。<line-break>相変わらず子供ねぇ。<end>"
 korean = "농담이야. 여전히 어린애네.<end>"
+
+["300050"]
+japanese = "遅かったじゃない。<line-break>ん？<line-break>どうしたの、そのケガ？<end>"
+korean = "늦었잖아. 응? 그 상처는 뭐야?<end>"
 
 ["300053"]
 japanese = "くすっ。<line-break>足手まといにだけはならないでね。<end>"

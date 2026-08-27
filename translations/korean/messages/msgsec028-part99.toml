@@ -160,6 +160,10 @@ korean = "그래, 우리 마누라 음식은 최고지. 너희도 아내는 요�
 japanese = "あー<line-break>食った、食った。　<line-break><end>"
 korean = "아~ 잘 먹었다, 잘 먹었어.<end>"
 
+["280051"]
+japanese = "すまんが、これを<line-break>かみさんに<line-break>持っていってくれ。<end>"
+korean = "미안하지만 이걸 아내에게 가져다줘.<end>"
+
 ["280053"]
 japanese = "ああ、<value:$28>。<line-break>宿屋のヴァンが<line-break>大変なことになったんだって？<end>"
 korean = "아, <value:$28>. 여관의 반에게 큰일이 생겼다며?<end>"
@@ -187,6 +191,10 @@ korean = "정말이지, 실컷 부려 먹었군.<end>"
 ["280060"]
 japanese = "ははは、ありがとう、ヴァン。<end>"
 korean = "하하하, 고마워, 반.<end>"
+
+["280061"]
+japanese = "ま、あの小屋は俺もよく行くし、<line-break>直らないと困るからな。<end>"
+korean = "뭐, 그 오두막은 나도 자주 가니까 안 고쳐지면 곤란하거든.<end>"
 
 ["280064"]
 japanese = "お、俺もいいの？<end>"
