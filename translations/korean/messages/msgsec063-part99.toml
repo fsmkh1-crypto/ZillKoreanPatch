@@ -64,6 +64,10 @@ korean = "여, 정의의 사도님. 좋은 건 혼자 다 가져가려고? 나�
 japanese = "<value:$28>、大丈夫か？<end>"
 korean = "<value:$28>, 괜찮아?<end>"
 
+["630038"]
+japanese = "あんたがパーティーのリーダーで<line-break>この俺も鼻が高いぜ。<end>"
+korean = "네가 파티 리더라니, 나도 자랑스럽다.<end>"
+
 ["630042"]
 japanese = "<value:$28>、大丈夫か？<end>"
 korean = "<value:$28>, 괜찮아?<end>"
@@ -476,6 +480,10 @@ korean = "그런 농담은 여동생 앞에서는 삼가 주길 바란다. 이 �
 japanese = "ふふふ。存じませんでしたわ。<line-break><value:$28>様の前では、<line-break>いいお兄様でいらっしゃるのですね？<end>"
 korean = "후후후. 몰랐어요. <value:$28>님 앞에서는 좋은 오라버니이신가 보네요?<end>"
 
+["630220"]
+japanese = "俺のことより、フィアンセ殿とは<line-break>うまくいっているか？<end>"
+korean = "내 얘기보다 약혼자와는 잘 지내고 있나?<end>"
+
 ["630222"]
 japanese = "やさしい？　俺が？<line-break>ふっ、バカな。　　　　<line-break>　<line-break>そろそろ失礼する。<line-break>政務に追われる身ゆえ。<end>"
 korean = "상냥하다고? 내가? 흥, 말도 안 돼. 이제 실례하지. 정무에 쫓기는 몸이라.<end>"
@@ -496,9 +504,17 @@ korean = "시시하군. 누가 친여동생과….<end>"
 japanese = "そう。夫婦そろって仲よくな。<end>"
 korean = "그래. 부부가 함께 사이좋게 지내라.<end>"
 
+["630231"]
+japanese = "誰があんな男と！<line-break>そんなことをしたら本気で呪います！<end>"
+korean = "누가 그런 남자랑! 그런 짓을 하면 진심으로 저주할 거예요!<end>"
+
 ["630232"]
 japanese = "冗談だ。<line-break>俺もそこまで冷酷ではない。<line-break>　<line-break>長居したな。<line-break>そろそろ失礼する。<end>"
 korean = "농담이다. 나도 그렇게까지 냉혹하진 않아. 오래 있었군. 이만 실례하지.<end>"
+
+["630233"]
+japanese = "また、いらっしゃってください。<line-break>お待ちしております。<end>"
+korean = "또 와 주세요. 기다리고 있겠습니다.<end>"
 
 ["630234"]
 japanese = "つきあわせて悪かったな。<line-break><value:$28><end>"
@@ -535,6 +551,10 @@ korean = "예의 없는 분께는 그럴 필요 없습니다.<end>"
 ["630247"]
 japanese = "くすっ。<line-break>それでよいのです。<end>"
 korean = "후훗. 그러면 됩니다.<end>"
+
+["630248"]
+japanese = "…あの方もこのくらい<line-break>素直だったらいいのだけれど…。<end>"
+korean = "…그분도 이 정도로 솔직하면 좋을 텐데….<end>"
 
 ["630249"]
 japanese = "…何か？<end>"
@@ -715,6 +735,10 @@ korean = "딸의 제멋대로인 행동 때문에 그 치밀한 계획도 물거
 ["630330"]
 japanese = "ひどいわ、レムオン様！<line-break>わがまま、だなんて。　　　　　　<line-break>　<line-break>これでも、国のことは、<line-break>いろいろと考えているつもりです。<end>"
 korean = "너무하세요, 레몬 님! 제멋대로라니요. 이래 봬도 나라 일은 여러 가지로 생각하고 있다고요.<end>"
+
+["630331"]
+japanese = "これは失礼、ティアナ王女。<line-break>さすがは、ファーロスの…<end>"
+korean = "이거 실례했습니다, 티아나 왕녀님. 역시 파로스의….<end>"
 
 ["630332"]
 japanese = "ええ、ファーロスの雌狐の娘です！<end>"

@@ -248,6 +248,10 @@ korean = "자애의 신 라이라네트여.<end>"
 japanese = "<value:$28>様の旅が<line-break>つらいものになりませんように。<end>"
 korean = "<value:$28>님의 여행이 힘든 길이 되지 않기를.<end>"
 
+["640125"]
+japanese = "再び、無事に私の所へ<line-break>戻って来られますように。　　　<end>"
+korean = "다시 무사히 제 곁으로 돌아오시기를….<end>"
+
 ["640128"]
 japanese = "これで、胸のつかえが取れました。　<line-break>さ、どうぞ、<value:$28>様。<line-break>お通りください。<end>"
 korean = "이제 마음의 응어리가 풀렸습니다. 자, <value:$28>님. 지나가십시오.<end>"
@@ -264,13 +268,25 @@ korean = "아, <value:$28>님, 이쪽으로 오세요.<end>"
 japanese = "<value:$28>様！<line-break>ようこそ、いらっしゃいました。<end>"
 korean = "<value:$28>님! 어서 오십시오.<end>"
 
+["640132"]
+japanese = "…以前にくらべて、ずっと<line-break>たくましくなられましたね。<end>"
+korean = "…예전보다 훨씬 듬직해지셨네요.<end>"
+
 ["640133"]
 japanese = "ティアナの目は確かですわ。<end>"
 korean = "티아나의 안목은 확실해요.<end>"
 
+["640134"]
+japanese = "以前は、冒険者と言うより<line-break>神官の子という感じでした。<end>"
+korean = "예전에는 모험자라기보다 신관의 자식 같은 느낌이었어요.<end>"
+
 ["640135"]
 japanese = "ティアナの目は確かですわ。<end>"
 korean = "티아나의 안목은 확실해요.<end>"
+
+["640136"]
+japanese = "以前は、冒険者と言うより<line-break>旅の商人という感じでした。<end>"
+korean = "예전에는 모험자라기보다 떠돌이 상인 같은 느낌이었어요.<end>"
 
 ["640137"]
 japanese = "ティアナの目は確かですわ。<end>"
@@ -531,6 +547,10 @@ korean = "싫어! 아파! 엄마… 도와줘….<end>"
 ["640253"]
 japanese = "どこ行ったんだ、<line-break>こいつの母ちゃんは？<end>"
 korean = "이 녀석 엄마는 어디 간 거야?<end>"
+
+["640254"]
+japanese = "それが、リベルダムへ買い出しに<line-break>出かけたって話で…。<end>"
+korean = "그게, 리벨덤에 장을 보러 나갔다고 해서….<end>"
 
 ["640255"]
 japanese = "答えなさい、ゼネテス！<line-break>ここで何をしているの！？<end>"

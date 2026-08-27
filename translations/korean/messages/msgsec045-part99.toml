@@ -440,6 +440,10 @@ korean = "…난 가르드란을 용서할 수 없어.<end>"
 japanese = "僕は、ガルドランに負けられない。<end>"
 korean = "나는 갈드란에게 질 수 없어.<end>"
 
+["450206"]
+japanese = "な、なんだお前らは！？<line-break>あのバカの仲間か！？<line-break>　<line-break>わけがわかんねぇが<line-break>やろうってんなら<line-break>相手になってやるぜ！！<end>"
+korean = "뭐, 뭐야 너희!? 저 바보 녀석 패거리냐!? 영문은 모르겠지만 싸우자는 거면 상대해 주마!!<end>"
+
 ["450207"]
 japanese = "くそっ、おぼえてやがれ！<end>"
 korean = "젠장, 두고 보자!<end>"
@@ -591,6 +595,10 @@ korean = "저기, <value:$28>, 같이 반을 찾자. 안 그러면 반은 정말
 ["450273"]
 japanese = "じゃ、一緒に冒険しながら<line-break>ヴァンの行方を捜そうね。<end>"
 korean = "그럼 같이 모험하면서 반의 행방을 찾아보자.<end>"
+
+["450276"]
+japanese = "ヴァン、僕、ヴァンのためにも<line-break>思いとどまったんだ。<line-break>　<line-break>ヴァンが僕に誰かを殺してほしい、<line-break>なんて思わないはずだろう？<end>"
+korean = "반, 나도 반을 생각해서 그만둔 거야. 반이 내가 누군가를 죽이길 바라진 않을 거잖아?<end>"
 
 ["450280"]
 japanese = "おなかが…すいて…。<end>"

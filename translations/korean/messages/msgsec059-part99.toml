@@ -104,6 +104,10 @@ korean = "저, 적의 습격이다!<end>"
 japanese = "ありえない…！<line-break>敵将は誰だ！？<end>"
 korean = "말도 안 돼…! 적장은 누구냐!?<end>"
 
+["590065"]
+japanese = "総司令ノヴィン・ファーロスの息子<line-break>ゼネテスです！<line-break>　<line-break>奇襲を受けた中枢部隊は壊滅！<line-break>アンギルダン様の生死は不明です！<end>"
+korean = "총사령 노빈 파로스의 아들 제네테스입니다! 기습을 받은 중추부대는 괴멸! 앙길단 님의 생사는 불명입니다!<end>"
+
 ["590066"]
 japanese = "出撃！　<value:$28>様に続け！<line-break>アンギルダン様をお救いするのだ！！<line-break>出撃！！<end>"
 korean = "출격! <value:$28>님을 따르라! 앙길단 님을 구하는 거다!! 출격!!<end>"

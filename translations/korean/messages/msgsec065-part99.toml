@@ -44,6 +44,10 @@ korean = "알겠습니다. 제가 이야기를 전해 두겠습니다.<end>"
 japanese = "<value:$28>…様。<line-break>素敵なお名前ですね。<end>"
 korean = "<value:$28>…님. 멋진 이름이네요.<end>"
 
+["650019"]
+japanese = "ティアナ様、よろしいでしょうか？<line-break>陛下がおみえです。<end>"
+korean = "티아나 님, 괜찮으시겠습니까? 폐하께서 오셨습니다.<end>"
+
 ["650020"]
 japanese = "お父様が？　大変！<end>"
 korean = "아버님이? 큰일이야!<end>"
@@ -223,6 +227,10 @@ korean = "너, 혹시 나 말고 다른 사람한테는 관대한 거냐?<end>"
 ["650088"]
 japanese = "やれやれ、エリスも哀れだな。　<end>"
 korean = "이런, 에리스도 불쌍하군.<end>"
+
+["650090"]
+japanese = "娘のわがままのせいで<line-break>その綿密な計画も水の泡か。　　<end>"
+korean = "딸의 제멋대로인 행동 때문에 그 치밀한 계획도 물거품인가.<end>"
 
 ["650091"]
 japanese = "ひどいわ、レムオン様！<line-break>わがままだなんて。　　　　　　　<line-break>　<line-break>これでも、国のことを<line-break>いろいろと考えているつもりです。<end>"

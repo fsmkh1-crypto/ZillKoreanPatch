@@ -48,6 +48,10 @@ korean = "너도 여전하군. 상황은 알고 있을 텐데.<end>"
 japanese = "わかってるさ。<end>"
 korean = "알고 있어.<end>"
 
+["510025"]
+japanese = "お前が出ていかなければ、<line-break>ロストールの民や兵が<line-break>大勢死ぬだろうな。<line-break>彼らを放っておくなんてマネ、<line-break>お前にできるのか？<end>"
+korean = "네가 나가지 않으면 로스토올의 백성과 병사들이 많이 죽을 거다. 그들을 내버려 둘 수 있겠나?<end>"
+
 ["510027"]
 japanese = "総合的な死人ってことは、<line-break>お前、敵軍の死人増加まで勘定に<line-break>入れてるのか？<line-break>いつも以上に自信家だな。<end>"
 korean = "전체 사망자라니, 너 적군 사망자 증가까지 계산에 넣은 거야? 평소보다 더 자신만만하네.<end>"
@@ -195,6 +199,10 @@ korean = "게다가 두 번째 공로자도 파로스와 연이 있는 자인가
 ["510118"]
 japanese = "ほら、行け。<end>"
 korean = "자, 가.<end>"
+
+["510121"]
+japanese = "やれやれ、肩が凝った。<line-break>大げさな式典だったな。<line-break>　<line-break>お互い、これから<line-break>めんどくさいことになるな。<line-break>それじゃあ。<end>"
+korean = "어휴, 어깨 뻐근하네. 거창한 의식이었군. 우리 둘 다 앞으로 귀찮아지겠어. 그럼 이만.<end>"
 
 ["510122"]
 japanese = "<value:$28>は<line-break>報酬としてＸギア手に入れた。<end>"
