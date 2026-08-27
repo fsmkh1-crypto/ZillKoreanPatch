@@ -128,6 +128,10 @@ korean = "그런가, 그럼 가자.<end>"
 japanese = "この空洞に星のようにまたたく光、<line-break>これがすべて、聖光石なのか…？<line-break>　<line-break>すばらしい。<line-break>なんとすばらしいのだ…。<end>"
 korean = "이 공동에 별처럼 반짝이는 빛, 이게 전부 성광석인가…? 훌륭하다. 정말 훌륭하군….<end>"
 
+["1340061"]
+japanese = "オレヲバカニシタノカ？<line-break>ギー、オマエラコロシテヤル！！<end>"
+korean = "날 바보 취급한 거냐? 기이, 너희들 죽여 버리겠다!!<end>"
+
 ["1340068"]
 japanese = "…<value:$28>君…。<line-break>私を…殺してくれたまえ。<end>"
 korean = "…<value:$28>군…. 나를… 죽여 주게.<end>"
@@ -236,6 +240,10 @@ korean = "이 바보야! 아직도 그런 소릴 하고 있어!<end>"
 japanese = "ヴァン…。<end>"
 korean = "반….<end>"
 
+["1340133"]
+japanese = "それでも、お前はこの世に<line-break>居場所がないって言うのかよ！<end>"
+korean = "그래도 넌 이 세상에 있을 곳이 없다고 말하는 거냐!<end>"
+
 ["1340134"]
 japanese = "ヴァン…。<end>"
 korean = "반….<end>"
@@ -284,6 +292,10 @@ korean = "게다가… 동포와 싸우는 건… 괴로워.<end>"
 japanese = "頼んだよ、ヴァン。<end>"
 korean = "부탁해, 반.<end>"
 
+["1340150"]
+japanese = "ごめんね<line-break>同胞と戦うのは<line-break>やっぱり、つらいから…<end>"
+korean = "미안해. 동족과 싸우는 건 역시 괴로우니까….<end>"
+
 ["1340151"]
 japanese = "ギャッ！<end>"
 korean = "꺅!<end>"
@@ -291,6 +303,10 @@ korean = "꺅!<end>"
 ["1340152"]
 japanese = "ナッジーーっ！<end>"
 korean = "나지ーー!<end>"
+
+["1340153"]
+japanese = "どういうことなんだ！？<line-break>ナッジは、俺たちの仲間だぞ！？<end>"
+korean = "무슨 소리야!? 나지는 우리 동료잖아!?<end>"
 
 ["1340154"]
 japanese = "うぉおおおお！<end>"
@@ -396,6 +412,10 @@ korean = "큭….<end>"
 japanese = "…不覚。<end>"
 korean = "…불찰이다.<end>"
 
+["1340215"]
+japanese = "闇の力では何も守れん。<line-break>ただ、破滅へと導かれるのみ…。<end>"
+korean = "어둠의 힘으로는 아무것도 지킬 수 없다. 그저 파멸로 이끌릴 뿐….<end>"
+
 ["1340216"]
 japanese = "<value:$28>、<line-break>神器を渡してもらおう。<end>"
 korean = "<value:$28>, 신기를 넘겨받겠다.<end>"
@@ -419,6 +439,10 @@ korean = "나머지는 재상에게 맡기겠다. 가자.<end>"
 ["1340221"]
 japanese = "…また、助けられたわね。<end>"
 korean = "…또 도움받았네.<end>"
+
+["1340222"]
+japanese = "でも、カン違いしないで！<line-break>私は恩に感じたりしないから！<end>"
+korean = "하지만 착각하지 마! 난 고맙다고 생각하지 않을 테니까!<end>"
 
 ["1340223"]
 japanese = "私はネメア様の戦士。<line-break>今度会ったとき、<line-break>あなたが敵として現れたなら…。<line-break>私は、あなたを倒すわ。<line-break>…それだけ。<end>"

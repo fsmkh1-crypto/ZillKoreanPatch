@@ -208,6 +208,14 @@ korean = "제법인데. 이건 장군께 보고해 두지. 그럼 서두르자. 
 japanese = "こ、これは！<line-break>本隊はいったい！？<end>"
 korean = "이, 이건! 본대는 대체!?<end>"
 
+["1630113"]
+japanese = "おお、<value:$28>！！<line-break>お主もこの戦いに参加しておったか。<end>"
+korean = "오, <value:$28>!! 너도 이 싸움에 참가하고 있었나.<end>"
+
+["1630115"]
+japanese = "おお、<value:$28>！！<line-break>お主もこの戦いに参加しておったか。<end>"
+korean = "오, <value:$28>!! 너도 이 싸움에 참가하고 있었나.<end>"
+
 ["1630116"]
 japanese = "ふむ、これで<line-break>この戦いの勝ちは決まったわ。<end>"
 korean = "흠, 이걸로 이 싸움의 승패는 결정됐군.<end>"

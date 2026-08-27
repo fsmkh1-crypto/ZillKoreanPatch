@@ -204,6 +204,10 @@ korean = "시내 상황은 어떻게 되어 있지.<end>"
 japanese = "<value:$28>か！<end>"
 korean = "<value:$28>인가!<end>"
 
+["1890116"]
+japanese = "驚いただろう？<line-break>あのエンシャントが、<line-break>瞬時にしてこの様だ。　<line-break>中はもっとひどい有様だ。<line-break>すでに死の都だよ。<end>"
+korean = "놀랐지? 그 엔샨트가 순식간에 이 꼴이 됐어. 안은 더 심해. 이미 죽음의 도시야.<end>"
+
 ["1890119"]
 japanese = "無謀だな、君は。<line-break>ネメア様から話を聞いてはいたが…。<line-break>　<line-break>そうか…。<line-break>なるほど、お前が…。<end>"
 korean = "무모하군, 너는. 네메아 님께 이야기는 들었지만…. 그런가…. 과연, 네가….<end>"
@@ -291,6 +295,10 @@ korean = "간다, <value:$28>!<end>"
 ["1890154"]
 japanese = "…ケリュネイア。<line-break>どこまでついてくるつもりだ？<end>"
 korean = "…케류네이아. 어디까지 따라올 생각이지?<end>"
+
+["1890155"]
+japanese = "気づいていたの…。<line-break>　<line-break>　<line-break>行き着くところまでよ。<line-break>たとえ、そこが地獄でも<line-break>どこまでもついていくわ。<end>"
+korean = "알고 있었어…. 갈 데까지 가는 거야. 그곳이 지옥이라도 끝까지 따라갈게.<end>"
 
 ["1890156"]
 japanese = "ケリュネイア。<line-break>お前はここに残れ。<end>"

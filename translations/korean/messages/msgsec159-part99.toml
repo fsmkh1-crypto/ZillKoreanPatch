@@ -96,6 +96,10 @@ korean = "어라? 당신은… 무한의 소울을 지닌 자….<end>"
 japanese = "違うよ、<value:$28>！　<end>"
 korean = "아니야, <value:$28>!<end>"
 
+["1590043"]
+japanese = "この人が、ルルアンタのこと、<line-break>助けてくれたんだよぉ。<end>"
+korean = "이 사람이 루루안타를 도와줬어.<end>"
+
 ["1590046"]
 japanese = "え？<line-break>じゃあ、あなたが森の賢者様なの？<end>"
 korean = "어? 그럼 당신이 숲의 현자님이야?<end>"
@@ -107,6 +111,10 @@ korean = "운명에 선택받은 자?<end>"
 ["1590051"]
 japanese = "ホントにいいんですか？<end>"
 korean = "정말 괜찮겠어요?<end>"
+
+["1590052"]
+japanese = "構いませんとも。<line-break>大したおもてなしもできませんがね。<end>"
+korean = "물론입니다. 대단한 대접은 못 해 드리지만요.<end>"
 
 ["1590053"]
 japanese = "わーい！　それじゃあ、<line-break>よろしくお願いします。<end>"
@@ -123,6 +131,10 @@ korean = "그렇군요. 그런 일이 있었습니까….<end>"
 ["1590056"]
 japanese = "<value:$28>、<line-break>かわいそう…。<end>"
 korean = "<value:$28>, 불쌍해….<end>"
+
+["1590058"]
+japanese = "大丈夫だよ、<value:$28>。<line-break>お母さんはきっと生きてるよぉ。<end>"
+korean = "괜찮아, <value:$28>. 엄마는 분명 살아 있을 거야.<end>"
 
 ["1590059"]
 japanese = "へっ、どうだかな！<end>"
@@ -475,6 +487,10 @@ korean = "예비 메시지 8 루루안타, 볼륨 1 그 3<end>"
 ["1590206"]
 japanese = "予備用メッセージ９<line-break>ルルアンタ・ボリューム１その３<end>"
 korean = "예비 메시지 9 루루안타, 볼륨 1 그 3<end>"
+
+["1590207"]
+japanese = "予備用メッセージ１０<line-break>ルルアンタ・ボリューム１その３<end>"
+korean = "예비 메시지 10 루루안타 볼륨 1 그 3<end>"
 
 ["1590208"]
 japanese = "ルルアンタ・ボリューム１その３終端<end>"

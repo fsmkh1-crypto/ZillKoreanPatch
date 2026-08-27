@@ -260,9 +260,17 @@ korean = "뭐, 뭐냐 네놈!<end>"
 japanese = "刃向かう気か？　容赦せんぞ！<end>"
 korean = "덤빌 셈이냐? 용서하지 않겠다!<end>"
 
+["1490131"]
+japanese = "たかが兵士ふたりを相手に大乱闘か。<line-break>なんのつもりか知らないが、<line-break>やめてほしい。<line-break>騒ぎを大きくされては迷惑なんだ。<end>"
+korean = "고작 병사 둘을 상대로 대난투라니. 무슨 생각인진 몰라도 그만둬 줘. 소란이 커지면 곤란하다.<end>"
+
 ["1490133"]
 japanese = "君はわかっているのかい？<line-break>僕が、君の敵だということを。<end>"
 korean = "너는 알고 있나? 내가 네 적이라는 걸.<end>"
+
+["1490134"]
+japanese = "たかが兵士ふたりを相手に大乱闘か。<line-break>なんのつもりか知らないが、<line-break>やめてほしい。<line-break>騒ぎを大きくされては迷惑なんだ。<end>"
+korean = "고작 병사 둘을 상대로 대난투라니. 무슨 생각인진 몰라도 그만둬 줘. 소란이 커지면 곤란하다.<end>"
 
 ["1490139"]
 japanese = "君の名…、聞いておきたい。<end>"
@@ -384,6 +392,10 @@ korean = "그 녀석들이라면 내가 처리했어. 그 정도 남자는 몇 �
 japanese = "そのくらい君にもわかっているはずだ。<line-break>それなのに…。<end>"
 korean = "그 정도는 너도 알고 있을 텐데. 그런데도….<end>"
 
+["1490189"]
+japanese = "やっと気が付いたか…。　　　　　<line-break>　<line-break>　<line-break>あの手の弾圧には慣れている。<line-break>放っておいてくれればよかったのに。<end>"
+korean = "이제야 정신이 들었나…. 그런 탄압에는 익숙해. 그냥 내버려 뒀으면 됐는데.<end>"
+
 ["1490190"]
 japanese = "あいつらなら僕が片付けた。　　<line-break>　<line-break>　<line-break>君もあいつらと変わらない。<line-break>…すべてを力で解決しようとする。<end>"
 korean = "그 녀석들이라면 내가 처리했어. 너도 그들과 다르지 않아. …모든 걸 힘으로 해결하려 하지.<end>"
@@ -391,6 +403,10 @@ korean = "그 녀석들이라면 내가 처리했어. 너도 그들과 다르지
 ["1490191"]
 japanese = "その力が身を滅ぼす時が<line-break>くるとも知らずに…。<end>"
 korean = "그 힘이 언젠가 자신을 멸망시킬 줄도 모르고….<end>"
+
+["1490192"]
+japanese = "やっと気が付いたか…。　　　　　<line-break>　<line-break>　<line-break>あの手の弾圧には慣れている。<line-break>放っておいてくれればよかったのに。<end>"
+korean = "이제야 정신이 들었나…. 그런 탄압에는 익숙해. 그냥 내버려 뒀으면 됐는데.<end>"
 
 ["1490193"]
 japanese = "あいつらなら僕が片付けた。<end>"
@@ -455,6 +471,10 @@ korean = "기적이다! 엘파스 님께서 기적을 일으키셨다!<end>"
 ["1490214"]
 japanese = "なんだ、なんだ！<line-break>いったいなんの騒ぎだ？<end>"
 korean = "뭐야, 뭐야! 대체 무슨 소란이지?<end>"
+
+["1490216"]
+japanese = "ん？　お前は…！　　　　　　<line-break>　<line-break>　<line-break>お前だな？<line-break>世界の破滅を説いて回っている<line-break>というニセ予言者は！<end>"
+korean = "응? 너는…! 네놈이군? 세계의 멸망을 떠들고 다닌다는 가짜 예언자는!<end>"
 
 ["1490217"]
 japanese = "お前のバカげた作り話のせいで、　　<line-break>仕事や財産を投げ出す者まで<line-break>出ているっていうじゃないか。<line-break>だが、この街で勝手な真似は許さんぞ。<end>"
@@ -535,6 +555,10 @@ korean = "<value:$28>…. 너와는 또 만날 것 같은 기분이 들어.<end>
 ["1490245"]
 japanese = "なんだ貴様！<end>"
 korean = "뭐냐, 네놈!<end>"
+
+["1490247"]
+japanese = "また君か…。<line-break>君も僕を領主に突き出そうというのか？<line-break>　<line-break>告死天使の長を捕らえたとなれば<line-break>大した手柄だろう。<end>"
+korean = "또 너인가…. 너도 나를 영주에게 넘기려는 건가? 고사천사의 우두머리를 잡았다면 큰 공이겠지.<end>"
 
 ["1490248"]
 japanese = "………………。<line-break>たとえ君がいくたび僕を救おうとも、<line-break>　<line-break>君と僕とは、<line-break>相いれない存在だということ…。<end>"

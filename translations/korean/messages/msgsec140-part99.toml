@@ -352,6 +352,10 @@ korean = "제네테스! 제네테스!<end>"
 japanese = "…ティアナ。<end>"
 korean = "…티아나.<end>"
 
+["1400150"]
+japanese = "ゼネテス！　しっかりして！<line-break>ゼネテス！　ゼネテス！！<end>"
+korean = "제네테스! 정신 차려! 제네테스! 제네테스!!<end>"
+
 ["1400151"]
 japanese = "…るせぇ…な…。<line-break>聞こえてるぜ…。<end>"
 korean = "…시끄러…워…. 들리고 있어….<end>"
@@ -476,6 +480,10 @@ korean = "뭐, 뭐가 우스운 겁니까!?<end>"
 japanese = "これ、俺に来た手紙。<line-break>読む？<end>"
 korean = "이거, 나한테 온 편지야. 읽어 볼래?<end>"
 
+["1400197"]
+japanese = "わ、私ではありません！<line-break>こ、こんなはしたないマネ…。<end>"
+korean = "저, 제가 아닙니다! 이, 이런 상스러운 짓은….<end>"
+
 ["1400199"]
 japanese = "…どういうことです？<end>"
 korean = "…무슨 뜻이죠?<end>"
@@ -495,6 +503,10 @@ korean = "내가 설명하지. 말도 안 되는 공작 레몬, 후후.<end>"
 ["1400209"]
 japanese = "そうですか…。<end>"
 korean = "그렇습니까….<end>"
+
+["1400211"]
+japanese = "今日は、すみませんでした。<line-break>変なことをお願いして…。<end>"
+korean = "오늘은 죄송했습니다. 이상한 부탁을 드려서….<end>"
 
 ["1400212"]
 japanese = "あ、ああ、<value:$28>か。<line-break>ティアナから手紙が来てな。<line-break>今から王宮に行くところなのだ。<end>"
@@ -636,6 +648,10 @@ korean = "그 목소리… 샤리냐!? 모습을 드러내라!!<end>"
 japanese = "シャリ！！<line-break>どこだ！　姿を現せ！<end>"
 korean = "샤리!! 어디냐! 모습을 드러내라!<end>"
 
+["1400264"]
+japanese = "何よぉぉ！　偉そうに！<line-break>出てきなさいよ！　シャリ！！<end>"
+korean = "뭐야아아! 잘난 척하긴! 나와, 샤리!!<end>"
+
 ["1400265"]
 japanese = "シャリ！！<line-break>どこ！？　出てきなさいよぉ！！<end>"
 korean = "샤리!! 어디야!? 나와!!<end>"
@@ -667,6 +683,10 @@ korean = "그래. 샤리는 냉혹한 인형이다<end>"
 ["1400293"]
 japanese = "違う。シャリは人形じゃない！<end>"
 korean = "아니야. 샤리는 인형이 아니야!<end>"
+
+["1400295"]
+japanese = "プッ…フフフフ！<line-break>なんの冗談？<line-break>アハハハハハ！<end>"
+korean = "풋… 후후후후! 무슨 농담이야? 아하하하하!<end>"
 
 ["1400298"]
 japanese = "………………。<line-break><line-break><line-break>誰かの、痛みを、感じること…<line-break>それが、僕の、願い…？<end>"
@@ -947,6 +967,10 @@ korean = "바보야…. 정말 바보야, 너는…!<end>"
 ["1400420"]
 japanese = "（そして、たぶん、いつか、さよなら）<end>"
 korean = "(그리고 아마 언젠가는, 안녕)<end>"
+
+["1400421"]
+japanese = "ううん…。<line-break>聞こえなくていいんだ。<line-break>今はね…。<end>"
+korean = "아니…. 안 들려도 괜찮아. 지금은….<end>"
 
 ["1400429"]
 japanese = "わかった<end>"

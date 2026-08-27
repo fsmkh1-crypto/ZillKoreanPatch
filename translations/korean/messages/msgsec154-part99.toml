@@ -36,6 +36,10 @@ korean = "싫어하잖아?<end>"
 japanese = "いい子だ。<line-break>さて、実践の方に行こうか？<end>"
 korean = "착하네. 자, 이제 실전으로 가 볼까?<end>"
 
+["1540017"]
+japanese = "<value:$28>を殺すんだ。<line-break>君の姉さんへの真心を示すために。<end>"
+korean = "<value:$28>을 죽여. 네 누나를 향한 진심을 증명하기 위해서.<end>"
+
 ["1540018"]
 japanese = "意気地なしだなあ。<line-break>だから坊ちゃん育ちはダメなのさ。<end>"
 korean = "겁쟁이네. 그래서 도련님처럼 자란 애들은 안 된다니까.<end>"

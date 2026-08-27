@@ -52,6 +52,10 @@ korean = "그래. 이걸로 끝났다고 생각하지 마라! 부조리!<end>"
 japanese = "ゲスねぇ。美しくないわ。<line-break>命はもっと尊いものよん。<end>"
 korean = "천박하네. 아름답지 않아. 목숨은 훨씬 소중한 거야.<end>"
 
+["850026"]
+japanese = "パレードを続けるわよ。<line-break>死体は片付けて。美しくないわ。<end>"
+korean = "퍼레이드를 계속해. 시체는 치워. 아름답지 않잖아.<end>"
+
 ["850027"]
 japanese = "<value:$28>さん<line-break>…ですね。<end>"
 korean = "<value:$28> 씨… 맞죠.<end>"

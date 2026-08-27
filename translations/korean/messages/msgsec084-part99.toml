@@ -116,6 +116,10 @@ korean = "자, 봐!<end>"
 japanese = "きゃーーーーっ！<end>"
 korean = "꺄아아아아앗!<end>"
 
+["840054"]
+japanese = "よいぞ、よいぞ、その叫び声。<line-break>久しぶりに燃えてきたわ。<end>"
+korean = "좋아, 좋아, 그 비명. 오랜만에 불타오르는군.<end>"
+
 ["840055"]
 japanese = "さぁて、そろそろ…<end>"
 korean = "자, 슬슬….<end>"
@@ -219,6 +223,10 @@ korean = "아니, 괜찮아. 아직 끝난 게 아니니까.<end>"
 ["840088"]
 japanese = "え？<end>"
 korean = "어?<end>"
+
+["840094"]
+japanese = "ここで追っ手をくい止めるわ。<line-break>先行っててくんないかな？<end>"
+korean = "여기서 추격자들을 막을게. 먼저 가 줄래?<end>"
 
 ["840096"]
 japanese = "空　０９６<line-break>カルラ、ボリューム１<end>"
@@ -507,6 +515,10 @@ korean = "저기, 하지만….<end>"
 ["840193"]
 japanese = "ありがとうございます。<end>"
 korean = "감사합니다.<end>"
+
+["840194"]
+japanese = "なーによ、<line-break>私が宝石持ってたら<line-break>おかしいっての？<end>"
+korean = "뭐야, 내가 보석을 갖고 있으면 이상하다는 거야?<end>"
 
 ["840195"]
 japanese = "こんな格好でもね、<line-break>母親の形見くらい持ってんのよ。<end>"

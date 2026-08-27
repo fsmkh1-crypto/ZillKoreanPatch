@@ -192,6 +192,10 @@ korean = "…조용한 밤이네. <value:$28>, 넌 분명 이상하게 생각하
 japanese = "さあこれからでっかい依頼に<line-break>チャレンジするぞ！　って時でも、<line-break>その時がくれば、<line-break>ボクはいなくなっちゃう。<line-break><line-break><end>"
 korean = "자, 이제 큰 의뢰에 도전한다! 하는 순간에도 그때가 오면 나는 사라져 버려.<end>"
 
+["1380088"]
+japanese = "あ…それとも、案外そんなに<line-break>気にしてなかったりして？<end>"
+korean = "아… 아니면 의외로 그렇게까지 신경 쓰지 않는 건가?<end>"
+
 ["1380089"]
 japanese = "気にしていた<end>"
 korean = "신경 쓰고 있었다<end>"
@@ -352,6 +356,10 @@ korean = "반이 좀 갑작스럽긴 하지만, 그런 이야기를 하고 있�
 japanese = "ナッジ…。<end>"
 korean = "나지….<end>"
 
+["1380178"]
+japanese = "ふふ、その例え、<line-break>なんだかよくわかんないな、ヴァン。<end>"
+korean = "후후, 그 비유는 잘 모르겠는데, 반.<end>"
+
 ["1380179"]
 japanese = "お、俺だって、よくわかんねえよ！<end>"
 korean = "나, 나도 잘 모르겠어!<end>"
@@ -391,6 +399,10 @@ korean = "수상하네. 처음에도 말했지만 엘프인 내가 모르는 경
 ["1380198"]
 japanese = "そうそう転がってやしないんだから！<end>"
 korean = "그렇게 흔하게 굴러다니는 게 아니니까!<end>"
+
+["1380200"]
+japanese = "ふん、滅多なことを<line-break>言うもんじゃなくてよ、下等生物。<end>"
+korean = "흥, 함부로 말하지 마라, 하등생물.<end>"
 
 ["1380201"]
 japanese = "いいこと、これは命令よ！<line-break><line-break><line-break>近いうち、必ず、<line-break>驚きに満ちた世界とやらを<line-break>アタクシに見せないと、<end>"
@@ -467,6 +479,14 @@ korean = "너한테도 들렸나….<end>"
 ["1380229"]
 japanese = "…そんな顔をするな。<end>"
 korean = "…그런 얼굴 하지 마.<end>"
+
+["1380230"]
+japanese = "君の傍に私がいる限り、<line-break>奴には指一本触れさせはせん。<end>"
+korean = "내가 네 곁에 있는 한, 그놈이 손가락 하나 대게 두진 않겠다.<end>"
+
+["1380240"]
+japanese = "脆き人の子のお前が<line-break>我が剣を防ぐことは適わぬはずだ。<end>"
+korean = "나약한 인간인 네가 내 검을 막을 수 있을 리 없다.<end>"
 
 ["1380241"]
 japanese = "が…<line-break>うぬは我が剣を受けても<line-break>立ち上がってきた。<end>"
@@ -832,6 +852,10 @@ korean = "<value:$28>의 어머니도 원탁기사니까… 그렇게 쉽게 당
 japanese = "へっ、どうだかな！<end>"
 korean = "흥, 글쎄다!<end>"
 
+["1380365"]
+japanese = "わ！　スゴイや！<line-break>ぼく、しゃべる猫なんて初めてだよ！<end>"
+korean = "와! 대단해! 나 말하는 고양이는 처음 봐!<end>"
+
 ["1380366"]
 japanese = "俺は猫じゃない、ネモだ。<end>"
 korean = "나는 고양이가 아니다, 네모다.<end>"
@@ -907,6 +931,10 @@ korean = "사람 말을 하는 고블린… 빨리 만나보고 싶어. 그렇�
 ["1380405"]
 japanese = "オルファウスさん、これは？<end>"
 korean = "오르파우스 씨, 이건?<end>"
+
+["1380406"]
+japanese = "フフ、これは転送機といいます。<line-break>使ってみましょうか。<end>"
+korean = "후후, 이건 전송기라고 합니다. 한번 써 볼까요?<end>"
 
 ["1380407"]
 japanese = "何しやがる！<line-break>俺を実験台にするな！<end>"
@@ -1303,6 +1331,10 @@ korean = "하하하!<end>"
 ["1380561"]
 japanese = "私の出番ですね。<end>"
 korean = "제 차례군요.<end>"
+
+["1380577"]
+japanese = "じゃ、説明はこの辺で<line-break>終わりにしちまって大丈夫かい？<end>"
+korean = "그럼 설명은 이쯤에서 끝내도 괜찮겠지?<end>"
 
 ["1380578"]
 japanese = "いいえ<end>"

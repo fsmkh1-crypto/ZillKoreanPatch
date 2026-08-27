@@ -4,6 +4,10 @@
 japanese = "オッシ開始<end>"
 korean = "오시 시작<end>"
 
+["1370001"]
+japanese = "あぁ、俺がこの道場の師範<line-break>オッシだが、なんか用かい？<end>"
+korean = "그래, 내가 이 도장의 사범 오시다. 무슨 볼일이지?<end>"
+
 ["1370009"]
 japanese = "おう、<value:$28>じゃないか。<line-break>今日はアイリーンは一緒じゃないんだな。<line-break>また、ケンカでもやらかしたか？<end>"
 korean = "오, <value:$28> 아니야. 오늘은 아이린이 같이 없네. 또 싸우기라도 했어?<end>"
@@ -128,6 +132,10 @@ korean = "잘 모르겠어.<end>"
 japanese = "今度はアイリーンにも<line-break>顔出せって言っといてくれ。<line-break>よろしくな、<value:$28>。<end>"
 korean = "다음엔 아이린도 얼굴 비추라고 전해 줘. 부탁한다, <value:$28>.<end>"
 
+["1370116"]
+japanese = "おう、Ｅｖオッシ全編だ。<line-break>予備メッセージの４だぁな。<end>"
+korean = "그래, Ev 오시 전편이다. 예비 메시지 4지.<end>"
+
 ["1370117"]
 japanese = "<value:$28>、<line-break>…がんばれよ。<end>"
 korean = "<value:$28>, …힘내라.<end>"
@@ -135,6 +143,14 @@ korean = "<value:$28>, …힘내라.<end>"
 ["1370118"]
 japanese = "<value:$28>、今はこんな<line-break>つらい世の中だが、お前さんは<line-break>自分の行くべき道を見失うなよ。<end>"
 korean = "<value:$28>, 지금은 힘든 세상이지만 네가 가야 할 길을 잃지 마라.<end>"
+
+["1370120"]
+japanese = "おう、Ｅｖオッシ全編だ。<line-break>予備メッセージの８だぁな。<end>"
+korean = "그래, Ev 오시 전편이다. 예비 메시지 8지.<end>"
+
+["1370121"]
+japanese = "おう、Ｅｖオッシ全編だ。<line-break>予備メッセージの９だぁな。<end>"
+korean = "그래, Ev 오시 전편이다. 예비 메시지 9지.<end>"
 
 ["1370122"]
 japanese = "おう、Ｅｖオッシ全編だ。<line-break>予備メッセージの１０だぁな。<end>"
@@ -424,6 +440,10 @@ korean = "후후…. 잘 타네.<end>"
 japanese = "これは…！<end>"
 korean = "이건…!<end>"
 
+["1370242"]
+japanese = "あら。<line-break>あなたたちはさっきの…。<line-break>フフフフ…。<end>"
+korean = "어머. 당신들은 아까 그…. 후후후후….<end>"
+
 ["1370243"]
 japanese = "神殿のほうだ。<line-break>父上と母上が危ない！<end>"
 korean = "신전 쪽이다. 아버님과 어머님이 위험해!<end>"
@@ -696,6 +716,10 @@ korean = "이제 괜찮아?<end>"
 japanese = "ではミイスの森を<line-break>調査しに行くぞ。<end>"
 korean = "그럼 미이스의 숲을 조사하러 간다.<end>"
 
+["1370374"]
+japanese = "自身で自身を育てる…。<line-break>そのことを忘れないようにな。<end>"
+korean = "스스로 자신을 키운다…. 그걸 잊지 마라.<end>"
+
 ["1370375"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
@@ -799,6 +823,10 @@ korean = "예를 들어 <value:$28>, 네가 물 속성 슬라임을 쓰러뜨렸
 ["1370425"]
 japanese = "水属性ならば、最初は１レベルの<line-break>アクアしか使えないが、<line-break>３レベルではポイズン、<line-break>４レベルではインビジブルを<line-break>覚えられるのだ。<end>"
 korean = "물 속성이라면 처음엔 레벨 1 아쿠아만 쓸 수 있지만 레벨 3엔 포이즌, 레벨 4엔 인비저블을 익힐 수 있다.<end>"
+
+["1370426"]
+japanese = "伸ばしたい属性の敵と<line-break>集中的に戦うのも、有効だろう。<end>"
+korean = "키우고 싶은 속성의 적과 집중적으로 싸우는 것도 효과적이겠지.<end>"
 
 ["1370427"]
 japanese = "本当にすべて理解しているのだな？<end>"
