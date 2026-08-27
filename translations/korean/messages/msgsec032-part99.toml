@@ -474,7 +474,7 @@ korean = "<if><value:$29><equal>%0와라. 로이의 남동생이여.<end>와라.
 
 ["320119"]
 japanese = "アーギルシャイアは<line-break>俺の大事なものを奪った…。　　<line-break>　<line-break>俺は強くなる、<line-break>…どんな手段を使ってもな。<line-break>そして、俺のすべてを取り戻す。<end>"
-korean = "아기르샤이아는 내 소중한 것을 빼앗았다…. 난 강해질 거다, …무슨 수를 써서라도. 그리고 내 모든 것을 되찾는다.<end>"
+korean = "아르길샤이어는 내 소중한 것을 빼앗았다…. 난 강해질 거다, …무슨 수를 써서라도. 그리고 내 모든 것을 되찾는다.<end>"
 
 ["320120"]
 japanese = "<select><value:$20>%3どうしたのだ。<line-break>ロイとともに村の外の森を<line-break>調べてくるがよい。<end>心配はいらぬ。<line-break>ロイがついているのだからな。<line-break>フフ…、私も親バカなことだ。<end>私はよい子供たちに恵まれたものだ。<line-break>万一、今ここで私が死んでも<line-break>神器のことは安心して任せられる。<line-break>万一の話だ。<line-break>そのような顔をするでない。<line-break>我が子よ。<end>"
