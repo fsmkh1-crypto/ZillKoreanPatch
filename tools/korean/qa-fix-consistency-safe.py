@@ -40,6 +40,10 @@ SPACE_CANONICAL: dict[str, str] = {
     norm_source("魔法<end>"): "마법<end>",
     norm_source("<value:$28>様がお通りになるのですね。<end>"): "<value:$28>님이 지나가시는군요.<end>",
     norm_source("<value:$28>さん！<end>"): "<value:$28>씨!<end>",
+    norm_source("イクスキュア<end>"): "익스 큐어<end>",
+    norm_source("サプキュア<end>"): "서브 큐어<end>",
+    norm_source("ゴブゴブ団員<end>"): "고브고브 단원<end>",
+    norm_source("気がついたか？放っておいてくれて大丈夫だったのに、…大きなお世話だ。<end>"): "정신이 들었나? 그냥 내버려 둬도 괜찮았는데, …쓸데없는 참견이군.<end>",
 }
 
 
