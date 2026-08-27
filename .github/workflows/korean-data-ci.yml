@@ -42,6 +42,16 @@ jobs:
         run: python3 tools/korean/qa-terminology.py --json /tmp/korean-qa-terminology.json --max-examples 60
       - name: Run QA-3 repeated-source consistency scan
         run: python3 tools/korean/qa-consistency.py --json /tmp/korean-qa-consistency.json --max-examples 40
+      - name: Require zero actionable QA-3 inconsistencies
+        run: |
+          python3 - <<'PY'
+          import json
+          q=json.load(open('/tmp/korean-qa-consistency.json',encoding='utf-8'))
+          print(f"QA-3 raw groups={q['inconsistent_groups']} records={q['inconsistent_records']}")
+          print(f"QA-3 contextual exceptions={q['contextual_exception_groups']} actionable={q['actionable_inconsistent_groups']}")
+          if q['actionable_inconsistent_groups'] != 0 or q['actionable_inconsistent_records'] != 0:
+              raise SystemExit('actionable QA-3 inconsistencies remain')
+          PY
       - name: Triage QA-3 inconsistencies by risk
         run: python3 tools/korean/qa-consistency-triage.py --json /tmp/korean-qa-consistency-triage.json --max-examples 40
       - name: Run Korean text sanity scan
