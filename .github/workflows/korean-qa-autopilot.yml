@@ -1,0 +1,89 @@
+name: Korean QA autopilot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/korean/qa-autopilot.py'
+      - '.github/workflows/korean-qa-autopilot.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: korean-qa-autopilot-translation-section001-batch2
+  cancel-in-progress: false
+
+jobs:
+  autopilot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: translation/section001-batch2
+          fetch-depth: 1
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+
+      - name: Baseline repeated-source QA
+        run: python3 tools/korean/qa-consistency.py --json /tmp/before.json --max-examples 0
+
+      - name: Run conservative QA autopilot to exhaustion
+        run: python3 tools/korean/qa-autopilot.py --apply --json /tmp/autopilot.json --max-passes 12
+
+      - name: Validate corpus and QA gates
+        run: |
+          ./zill korean-check
+          ./zill korean-font-check
+          python3 tools/korean/qa-integrity.py --json /tmp/integrity.json --max-examples 10
+          python3 tools/korean/qa-terminology.py --json /tmp/terms.json --max-examples 10
+          python3 tools/korean/qa-consistency.py --json /tmp/after.json --max-examples 20
+          python3 tools/korean/qa-text-sanity.py --json /tmp/sanity.json --max-examples 10
+          python3 - <<'PY'
+          import json
+          b=json.load(open('/tmp/before.json',encoding='utf-8'))
+          a=json.load(open('/tmp/after.json',encoding='utf-8'))
+          ap=json.load(open('/tmp/autopilot.json',encoding='utf-8'))
+          i=json.load(open('/tmp/integrity.json',encoding='utf-8'))
+          t=json.load(open('/tmp/terms.json',encoding='utf-8'))
+          s=json.load(open('/tmp/sanity.json',encoding='utf-8'))
+          critical=i.get('critical',[])
+          cc=len(critical) if isinstance(critical,list) else int(critical or 0)
+          print(f"QA-3: groups {b['inconsistent_groups']}->{a['inconsistent_groups']}; records {b['inconsistent_records']}->{a['inconsistent_records']}")
+          print(f"Autopilot changed={ap['total_changed_records']} final_safe={ap['final']['safe_groups']} blocked={ap['final']['blocked_groups']}")
+          print(f"QA-1 critical={cc} QA-2 mismatch={t['mismatch_count']} sanity={s['finding_count']}")
+          if a['inconsistent_groups'] > b['inconsistent_groups'] or a['inconsistent_records'] > b['inconsistent_records']:
+              raise SystemExit('QA-3 regressed')
+          if ap['final']['safe_groups'] != 0:
+              raise SystemExit('autopilot stopped with safe candidates remaining')
+          if cc != 0 or t['mismatch_count'] != 0 or s['finding_count'] != 0:
+              raise SystemExit('validation failed')
+          PY
+
+      - name: Publish QA report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: korean-qa-autopilot-report
+          path: |
+            /tmp/autopilot.json
+            /tmp/before.json
+            /tmp/after.json
+            /tmp/integrity.json
+            /tmp/terms.json
+            /tmp/sanity.json
+          retention-days: 30
+
+      - name: Commit safe autopilot fixes
+        run: |
+          if git diff --quiet -- translations/korean/messages; then
+            echo 'No safe corpus changes remain.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          git commit -m 'Apply conservative Korean QA autopilot fixes'
+          git push origin HEAD:translation/section001-batch2
