@@ -352,6 +352,10 @@ korean = "아, 주변이 조금 신경 쓰여서 말이야. 노블을 떠나기 
 japanese = "お前は、ルルアンタを守りなさい。<line-break>それと短剣をなくさないでおくれ。　　　　<line-break>　<end>"
 korean = "넌 루루안타를 지켜 줘. 그리고 단검을 잃어버리지 말아 줘.<end>"
 
+["1860088"]
+japanese = "<select><value:$20>%2フリントさんって、<line-break>ほんとうに、<line-break>いいお父さんだよね。<end>フリントさんって、<line-break>ほんとうは強いんだよぉ。<line-break>いつもは、かくしてるけどね。<line-break>でも、なんで<line-break>かくしてるのかな？<end>"
+korean = "<select><value:$20>%2플린트 씨는 정말 좋은 아버지지.<end>플린트 씨는 사실 강해. 평소에는 숨기고 있지만. 그런데 왜 숨기는 걸까?<end>"
+
 ["1860089"]
 japanese = "ん？　こ、これは…！！　　　　　<line-break>　<line-break>　<end>"
 korean = "응? 이, 이건…!!<end>"

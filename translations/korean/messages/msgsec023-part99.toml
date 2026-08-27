@@ -120,6 +120,10 @@ korean = "너희가 아니면 할 수 없는 일이야. <value:$15>를 찾아 �
 japanese = "我が邸の高級料理の隠し味<value:$15>を<line-break>持ち帰ってほしい。危険なところにあるのだが、<line-break>貴重な材料ゆえ、ぜひ欲しい。<line-break>褒美として、<value:$1A>ギアとらそう。<line-break><value:$1B>日以内に頼むぞ。<end>"
 korean = "우리 저택의 고급 요리에 넣는 비법 재료 <value:$15>를 가져와 주게. 위험한 곳에 있지만 귀한 재료라 꼭 필요하네. 보상으로 <value:$1A>기어를 주지. <value:$1B>일 이내로 부탁하네.<end>"
 
+["230037"]
+japanese = "村の特産品の材料を採ってきてくだされ。<line-break>戦いの素人が採りに行くには<line-break>ちとやっかいな品物での。<line-break><value:$15>というんじゃ。<line-break><value:$1B>日以内に頼むよ。<line-break>あんまり多くはないが、お礼もするつもりじゃ。<end>"
+korean = "마을 특산품의 재료를 채취해 주게. 싸움에 익숙하지 않은 사람이 가지러 가기엔 좀 까다로운 물건이라서 말이야. <value:$15>라는 건데, <value:$1B>일 안에 부탁하네. 많지는 않지만 사례도 할 생각이야.<end>"
+
 ["230038"]
 japanese = "<value:$15>を手に入れる必要があります。<line-break>これがあれば商売がうまくいくのです。<line-break><value:$15>を捜し、持ち帰ってください。<line-break>期限は<value:$1B>日以内といたします。<line-break><value:$1A>ギアの報酬をお支払いします。<end>"
 korean = "<value:$15>를 구해야 합니다. 이것이 있으면 장사가 잘됩니다. <value:$15>를 찾아 가져와 주세요. 기한은 <value:$1B>일 이내입니다. 보수로 <value:$1A>기어를 지급하겠습니다.<end>"

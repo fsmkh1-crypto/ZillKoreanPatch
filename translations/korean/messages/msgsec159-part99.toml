@@ -680,6 +680,10 @@ korean = "그랬구나. 고마워. 그리고 미안해.<end>"
 japanese = "お世話になってたフリントさんも、　<line-break>旅の途中で盗賊に襲われて、<line-break>……………死んじゃった。<line-break>そのあとで、旅芸人の一座に<line-break>拾われたんだけど、その一座が、最近<line-break>起きている誘拐事件の犯人だったの。<end>"
 korean = "신세졌던 플린트 씨도 여행 중 도적에게 습격당해서… 죽었어. 그 뒤 유랑극단에 거둬졌는데, 그 극단이 최근 일어나는 유괴 사건의 범인이었던 거야.<end>"
 
+["1590172"]
+japanese = "<if><value:$29><equal>%0それを知っちゃって<line-break>ルルアンタも捕まっちゃったところを<line-break>お兄ちゃんに助けてもらったの。<end>それを知っちゃって<line-break>ルルアンタも捕まっちゃったところを<line-break>お姉ちゃんに助けてもらったの。<end>"
+korean = "<if><value:$29><equal>%0그걸 알아버려서 룰루안타도 붙잡혔는데 오빠가 구해 줬어.<end>그걸 알아버려서 룰루안타도 붙잡혔는데 언니가 구해 줬어.<end>"
+
 ["1590173"]
 japanese = "うん、ルルアンタ、元気だよ。　　　<line-break>　<line-break>　<line-break>あのね、<line-break>フリントさんが言ってくれたんだ。<line-break>　<end>"
 korean = "응, 루루안타는 잘 지내. 있잖아, 플린트 씨가 말해 줬어.<end>"

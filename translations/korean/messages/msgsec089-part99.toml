@@ -400,6 +400,10 @@ korean = "어리석구나, 무한의 소울을 지닌 자여. 정령신에게 �
 japanese = "　　　　　　　　よくやった…　　　　　　　　<line-break>　　　　　無限のソウルを持つ者よ…。<end>"
 korean = "잘했다… 무한의 소울을 지닌 자여….<end>"
 
+["890121"]
+japanese = "　　　　よくぞ、巨人フルーヴを倒した。　　　<line-break>　　　　　　　　礼を言うぞ。<line-break>　　　　　無限のソウルを持つ者よ…。<end>"
+korean = "잘했다, 거인 프루브를 쓰러뜨렸구나. 감사한다. 무한의 소울을 지닌 자여….<end>"
+
 ["890122"]
 japanese = "　　　　　　さあ、再び行くがよい。　　　　　<line-break>　　　　　　汝のなすべき旅の道へ。<line-break>　　　　　　　　さらばだ。<end>"
 korean = "자, 다시 가거라. 네가 걸어야 할 여행의 길로. 잘 가라.<end>"
@@ -2747,6 +2751,10 @@ korean = "오랜만이구나, 벨제바. 이미 결계를 쳐 두었다니. 그�
 ["890735"]
 japanese = "　　聞こえるか、<value:$28>よ。<end>"
 korean = "들리느냐, <value:$28>여.<end>"
+
+["890737"]
+japanese = "　                           <line-break>　　　 　　フフフ。<line-break>　　　　なぜか、だと？<line-break>　                           <line-break>　                           <line-break>　　 ベルゼーヴァと取り引きをし、<line-break>　 余がその肉体を手に入れるためだ。<end>"
+korean = "후후후. 왜냐고? 벨제바와 거래를 하고, 짐이 그 육체를 손에 넣기 위해서다.<end>"
 
 ["890739"]
 japanese = "<value:$28>よ…。<line-break>多少、時間はかかったが、<line-break>すべては余の計画通りになった。<line-break>いよいよだぞ。<line-break>我らが人類の革新に<line-break>本格的に乗り出すのは…。<end>"
