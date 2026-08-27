@@ -54,6 +54,8 @@ jobs:
           PY
       - name: Triage QA-3 inconsistencies by risk
         run: python3 tools/korean/qa-consistency-triage.py --json /tmp/korean-qa-consistency-triage.json --max-examples 40
+      - name: Run QA-4 speaker voice hazard scan
+        run: python3 tools/korean/qa-voice.py --json /tmp/korean-qa-voice.json --max-examples 80
       - name: Run Korean text sanity scan
         run: python3 tools/korean/qa-text-sanity.py --json /tmp/korean-qa-text-sanity.json --max-examples 80
       - name: Upload Korean QA reports
@@ -66,5 +68,6 @@ jobs:
             /tmp/korean-qa-terminology.json
             /tmp/korean-qa-consistency.json
             /tmp/korean-qa-consistency-triage.json
+            /tmp/korean-qa-voice.json
             /tmp/korean-qa-text-sanity.json
           if-no-files-found: warn
