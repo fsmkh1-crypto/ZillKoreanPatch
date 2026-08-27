@@ -32,6 +32,10 @@ korean = "와, <value:$28>이다. 뭐든 폭력으로 해결하려는 태도는 
 japanese = "奴なら、行ったよ。<end>"
 korean = "그 녀석이라면 갔어.<end>"
 
+["1360046"]
+japanese = "そうはさせん。<line-break>これはあいつがいたという証だ。<end>"
+korean = "그렇게는 못 해. 이건 그 녀석이 있었다는 증거다.<end>"
+
 ["1360050"]
 japanese = "兄さん！<end>"
 korean = "형!<end>"
@@ -236,6 +240,10 @@ korean = "후후후, 네메아. 이미 내 뜻대로 되고 있어. 나는 이�
 japanese = "じゃあね。<line-break>またあとで会おうね、<line-break><value:$28>。<end>"
 korean = "그럼 안녕. 나중에 또 만나자, <value:$28>.<end>"
 
+["1360159"]
+japanese = "…ケリュネイア。<line-break>どこまでついて来るつもりだ？<end>"
+korean = "…케류네이아. 대체 어디까지 따라올 생각이지?<end>"
+
 ["1360160"]
 japanese = "気付いていたの…。<line-break>　<line-break>　<line-break>行き着くところまでよ。<line-break>たとえ、そこが地獄でも、<line-break>どこまでもついていくわ。<end>"
 korean = "알고 있었어…. 갈 데까지 가는 거야. 설령 그곳이 지옥이라도 어디까지든 따라갈게.<end>"
@@ -259,6 +267,10 @@ korean = "<value:$28>, 시간이 없다.<end>"
 ["1360168"]
 japanese = "では、行こう。<line-break>すべてを終わらせに。<end>"
 korean = "그럼 가자. 모든 걸 끝내러.<end>"
+
+["1360176"]
+japanese = "イズキヤルは絶望を知り、<line-break>闇に墜ちましたとさ。<end>"
+korean = "이즈키야르는 절망을 알고 어둠에 빠졌답니다.<end>"
 
 ["1360178"]
 japanese = "…あっ。<line-break><value:$28>。<end>"
@@ -608,6 +620,10 @@ korean = "………………. 모르겠습니다. 저로서는….<end>"
 japanese = "ここには、私に残された<line-break>ただひとつの役目があります。<line-break>　<line-break>その時が来るまで…<line-break>私はここにいます。<end>"
 korean = "여기에는 제게 남겨진 단 하나의 역할이 있습니다. 그때가 올 때까지… 저는 여기 있겠습니다.<end>"
 
+["1360386"]
+japanese = "そして、それは<line-break>そう遠い未来ではないでしょう。<end>"
+korean = "그리고 그것은 그리 먼 미래가 아닐 겁니다.<end>"
+
 ["1360388"]
 japanese = "私のことは心配に及びません。<line-break>どうかお気をつけて、<line-break><value:$28>様…。<end>"
 korean = "제 걱정은 하지 않으셔도 됩니다. 부디 조심하세요, <value:$28> 님….<end>"
@@ -883,6 +899,10 @@ korean = "이온즈를 쫓는다<end>"
 ["1360566"]
 japanese = "坑道から脱出する<end>"
 korean = "갱도에서 탈출한다<end>"
+
+["1360567"]
+japanese = "（イオンズには、<line-break>　まだ追いつけていない…。）<end>"
+korean = "(이온즈는 아직 따라잡지 못했어….)<end>"
 
 ["1360568"]
 japanese = "申し出を受ける<end>"

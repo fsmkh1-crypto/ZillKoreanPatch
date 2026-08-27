@@ -40,6 +40,10 @@ korean = "일반인 앞에서 기밀 사항을 말하다니 무슨 생각이야?
 japanese = "は、はい。<end>"
 korean = "네, 네.<end>"
 
+["1100053"]
+japanese = "すぐ行くわ。<line-break>ベルゼーヴァ閣下にはそう伝えて。<end>"
+korean = "곧 갈게. 벨제바 각하께 그렇게 전해 줘.<end>"
+
 ["1100054"]
 japanese = "はっ。<end>"
 korean = "핫.<end>"
@@ -159,6 +163,10 @@ korean = "기다려, 거기 모험자.<end>"
 ["1100098"]
 japanese = "無限のソウルの可能性を秘めている…。<line-break>だが、いまだインフィニティアは<line-break>手に入れていないようだな…。<line-break>…行っていいぞ。<end>"
 korean = "무한의 소울의 가능성을 품고 있다…. 하지만 아직 인피니티아는 손에 넣지 못한 모양이군…. …가도 좋다.<end>"
+
+["1100111"]
+japanese = "笑止。あれこそ、<line-break>魔人のでき損ないではないか。<end>"
+korean = "가소롭군. 저것이야말로 마인의 실패작 아닌가.<end>"
 
 ["1100115"]
 japanese = "<value:$28>か。<end>"

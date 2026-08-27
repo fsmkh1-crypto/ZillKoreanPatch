@@ -164,6 +164,10 @@ korean = "<if><value:$29><equal>%0남동생?<end>여동생?<end>"
 japanese = "ここに連れてまいりました。<end>"
 korean = "이곳으로 데려왔습니다.<end>"
 
+["430075"]
+japanese = "わけあって、<line-break>公にはしておりませんでした。<line-break>　<line-break>そのわけは…<line-break>申し上げなくとも<line-break>おわかりでしょう。<end>"
+korean = "사정이 있어 공개하지 않았습니다. 그 이유는… 말씀드리지 않아도 아시겠죠.<end>"
+
 ["430078"]
 japanese = "ならん！　ならん！！<line-break>ふざけたことを！<end>"
 korean = "안 된다! 안 돼!! 터무니없는 소리를!<end>"

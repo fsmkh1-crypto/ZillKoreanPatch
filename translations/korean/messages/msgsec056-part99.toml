@@ -328,6 +328,10 @@ korean = "상태는 어떠냐? 죽음의 날갯소리여.<end>"
 japanese = "シルヴァという村に<line-break>魔物が封印されている。<line-break>　<line-break>その封印を解き、<line-break>村を壊滅させてくるのだ。<line-break>　<end>"
 korean = "실바라는 마을에 마물이 봉인되어 있다. 그 봉인을 풀어 마을을 괴멸시키고 와라.<end>"
 
+["560137"]
+japanese = "そして、あんたに出くわした。　　　<line-break>　<line-break>　<line-break>石化獣の封印を解いた黒ずくめの男。<line-break>…あれが俺だ。<line-break>　<end>"
+korean = "그리고 너와 마주쳤지. 석화수의 봉인을 푼 검은 옷의 남자. …그게 나다.<end>"
+
 ["560142"]
 japanese = "間違いない。<line-break>この奥へ逃げ込んだようだ。<end>"
 korean = "틀림없어. 이 안쪽으로 도망친 모양이야.<end>"
@@ -1408,6 +1412,10 @@ korean = "나, 웃고 있어….<end>"
 japanese = "ね、生きてる？<end>"
 korean = "저기, 살아 있어?<end>"
 
+["560616"]
+japanese = "うれしい…。<line-break>ふふふふっ。<line-break><line-break>…最後の最後でやっと笑えた。<line-break>心から…。<line-break>力じゃ…、なかったんだ…。<end>"
+korean = "기뻐…. 후후후. …마지막에야 겨우 웃을 수 있었어. 진심으로…. 힘이… 아니었던 거야….<end>"
+
 ["560618"]
 japanese = "でも…、悔いはないかな…。<end>"
 korean = "그래도… 후회는 없을까….<end>"
@@ -1923,6 +1931,10 @@ korean = "오! 마침 잘 왔군. 당신, <value:$28> 아니야!<end>"
 ["560918"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["560919"]
+japanese = "神官さん、こいつはめぐり<line-break>合わせかもしれねえ。<line-break> <line-break><value:$28>…あんたに、<line-break>ぜひお願いしたい仕事があるんだ。<end>"
+korean = "신관님, 이건 인연일지도 모르겠군. <value:$28>… 자네에게 꼭 부탁하고 싶은 일이 있어.<end>"
 
 ["560921"]
 japanese = "こ、こいつは俺の出番じゃねえ。<line-break>親父、じゃあな！<end>"

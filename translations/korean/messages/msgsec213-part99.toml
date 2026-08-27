@@ -32,6 +32,10 @@ korean = "어쩔 수 없군<end>"
 japanese = "ちょっと今は…<end>"
 korean = "지금은 좀….<end>"
 
+["2130015"]
+japanese = "では行くかの、<value:$28>。<line-break>シェーヌの森とやらへ。<end>"
+korean = "그럼 가 볼까, <value:$28>. 셰느의 숲이라는 곳으로.<end>"
+
 ["2130016"]
 japanese = "そうか…。<end>"
 korean = "그런가….<end>"

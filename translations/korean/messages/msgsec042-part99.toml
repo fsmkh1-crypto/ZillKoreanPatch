@@ -72,6 +72,10 @@ korean = "이곳으로 데려왔습니다.<end>"
 japanese = "エストの他に兄弟があったとは、<line-break>初耳だが。<end>"
 korean = "에스트 말고도 형제가 있었다니 처음 듣는군.<end>"
 
+["420037"]
+japanese = "わけあって、<line-break>公にはしておりませんでした。<line-break>　<line-break>そのわけは…<line-break>申し上げなくとも<line-break>おわかりでしょう。<end>"
+korean = "사정이 있어 공개하지 않았습니다. 그 이유는… 말씀드리지 않아도 아시겠죠.<end>"
+
 ["420038"]
 japanese = "この少女こそ、<line-break>…この手紙にある子供だと？<end>"
 korean = "이 소녀가… 이 편지에 적힌 아이라고?<end>"
@@ -371,6 +375,10 @@ korean = "…그런 이유로 말이죠. 함께 여행하는 동료를 바꾸고
 ["420204"]
 japanese = "ありがとうございます。<line-break>では、お話ししましょう。<end>"
 korean = "감사합니다. 그럼 이야기하죠.<end>"
+
+["420205"]
+japanese = "先ほどお話しした闇の神器、<line-break>禁断の聖杯に関することですが…。<line-break>じつはその聖杯をねらっている<line-break>魔人がいるんです。<end>"
+korean = "아까 말씀드린 어둠의 신기, 금단의 성배에 관한 일인데요…. 사실 그 성배를 노리는 마인이 있습니다.<end>"
 
 ["420207"]
 japanese = "闇の神器は全部で<line-break>１２種類あるんです。<line-break>　<line-break>そのうちのひとつ、禁断の聖杯は<line-break>持ち主に英知を与えることが<line-break>できます。<end>"

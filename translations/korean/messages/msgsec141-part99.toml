@@ -504,6 +504,10 @@ korean = "자, 가자, <value:$28>!<end>"
 japanese = "封士の心得と一緒に、<line-break>何度も語り聞かせたろうが、<line-break><value:$28>。<line-break>あきれた奴じゃ、もう忘れたか？<end>"
 korean = "봉사의 마음가짐과 함께, 몇 번이나 말해 줬잖느냐, <value:$28>. 한심한 녀석, 벌써 잊었나?<end>"
 
+["1410252"]
+japanese = "…質問がなければ、<line-break>これにて閣議は終了とする。<end>"
+korean = "…질문이 없다면 이것으로 각의를 마치겠습니다.<end>"
+
 ["1410253"]
 japanese = "ご苦労であった。さがってよい。<end>"
 korean = "수고했다. 물러가도 좋다.<end>"
@@ -563,6 +567,10 @@ korean = "티아나 님, 기다려 주십시오! 로스토올 재정은 매우 �
 ["1410279"]
 japanese = "財務長官殿！<end>"
 korean = "재무장관님!<end>"
+
+["1410280"]
+japanese = "良いのです、<line-break>財務長官の心配はもっともなこと。<end>"
+korean = "괜찮습니다. 재무장관의 걱정은 지당합니다.<end>"
 
 ["1410285"]
 japanese = "ティアナ様のお心に沿うよう<line-break>努力いたします。<end>"
@@ -704,6 +712,10 @@ korean = "네. 힘든 여행이 될 거라는 건 알고 있습니다. 그래도
 japanese = "<value:$28>様とならば、<line-break>見つかる気がするのです。<line-break>忘れてきた心の破片が…。<end>"
 korean = "<value:$28>님과 함께라면 찾을 수 있을 것 같아요. 잃어버린 마음의 조각을….<end>"
 
+["1410336"]
+japanese = "あっ、またヴァイだけ<line-break>お兄ちゃんに媚売ってる！<end>"
+korean = "앗, 또 바이만 오빠한테 아부해!<end>"
+
 ["1410339"]
 japanese = "退屈しない旅になりそうですねえ、<line-break><value:$28>？<end>"
 korean = "심심하지 않은 여행이 되겠네요, <value:$28>?<end>"
@@ -775,6 +787,10 @@ korean = "…그런 일이었구나, 비아.<end>"
 ["1410365"]
 japanese = "ヴァイ！　き、聞いてたの？<end>"
 korean = "바이! 드, 들었어?<end>"
+
+["1410367"]
+japanese = "も、もう！<line-break>だめだめ！<line-break>そんな顔しちゃ！<end>"
+korean = "정말! 안 돼, 안 돼! 그런 표정 짓지 마!<end>"
 
 ["1410368"]
 japanese = "ヴィア…？<end>"
@@ -864,9 +880,25 @@ korean = "있잖아? 다시 한 번 나를 죽여 볼래?<end>"
 japanese = "フフフ…<line-break>僕は全ての悲しみを終わらせる。<end>"
 korean = "후후후… 나는 모든 슬픔을 끝내겠어.<end>"
 
+["1410405"]
+japanese = "それがどんなに大きな<line-break>悲しみをもたらそうとも…<end>"
+korean = "그것이 아무리 큰 슬픔을 가져온다 해도….<end>"
+
+["1410406"]
+japanese = "それがどんなに大きな<line-break>苦しみをもたらそうとも…<end>"
+korean = "그것이 아무리 큰 고통을 가져온다 해도….<end>"
+
 ["1410408"]
 japanese = "そして君は全ての悲しみを紡ぎ続ける。<end>"
 korean = "그리고 너는 모든 슬픔을 계속 엮어 간다.<end>"
+
+["1410409"]
+japanese = "それがどんなに大きな<line-break>悲しみをもたらそうとも…<end>"
+korean = "그것이 아무리 큰 슬픔을 가져온다 해도….<end>"
+
+["1410410"]
+japanese = "それがどんなに大きな<line-break>苦しみをもたらそうとも…<end>"
+korean = "그것이 아무리 큰 고통을 가져온다 해도….<end>"
 
 ["1410412"]
 japanese = "君が愛しいよ。<line-break><value:$28>。<line-break>僕らが交わすのは口付けではなく刃。<line-break>愛の言葉ではなく呪いの言葉。<end>"
@@ -1023,6 +1055,10 @@ korean = "희귀한 물건을 많이 가져왔구나.<end>"
 ["1410471"]
 japanese = "あなたは、私たちに<line-break>英知を示してくれました。<end>"
 korean = "당신은 우리에게 지혜를 보여 주었습니다.<end>"
+
+["1410473"]
+japanese = "そして、博愛心とその強さを<line-break>示してくれました。<end>"
+korean = "그리고 박애심과 그 강함을 보여 주었습니다.<end>"
 
 ["1410475"]
 japanese = "ゴブゴブ団はストラスエッジを手に入れた。<end>"

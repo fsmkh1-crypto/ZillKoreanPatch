@@ -160,6 +160,10 @@ korean = "미안해, <value:$28>. 루루안타로는 해제하기 힘든가 봐.
 japanese = "………………。<line-break>無理だ…。<end>"
 korean = "………………. 무리야….<end>"
 
+["1070069"]
+japanese = "くっ！　<line-break>この私に解除できない罠があるとは…。<end>"
+korean = "큭! 이 내가 해제하지 못하는 함정이 있다니….<end>"
+
 ["1070076"]
 japanese = "私ではこの罠を<line-break>解除できそうにありません。<end>"
 korean = "저로서는 이 함정을 해제할 수 없을 것 같습니다.<end>"

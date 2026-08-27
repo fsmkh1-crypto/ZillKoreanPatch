@@ -1116,6 +1116,10 @@ korean = "아, <value:$28>님. 슬럼가는 그쪽이 아니에요. 곧장 간 �
 japanese = "あんまり寄り道しないほうが<line-break>いいと思うんです。<line-break>行きましょう、<value:$28>さん。<end>"
 korean = "너무 돌아다니지 않는 게 좋을 것 같아요. 가죠, <value:$28>님.<end>"
 
+["1380538"]
+japanese = "一緒に付いてきてくれて<line-break>ありがとうございます。<end>"
+korean = "함께 따라와 주셔서 감사합니다.<end>"
+
 ["1380539"]
 japanese = "<value:$28>さんと一緒だったから<line-break>すごく安心できました。<end>"
 korean = "<value:$28>님과 함께였으니까 정말 안심됐어요.<end>"

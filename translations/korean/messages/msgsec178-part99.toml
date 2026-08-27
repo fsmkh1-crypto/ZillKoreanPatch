@@ -72,6 +72,10 @@ korean = "…그래… 알았다. 자네도 잘해 줬어. 가슴 펴고 로스�
 japanese = "はぁ…はぁ…。<line-break>もう…いいよ、<value:$28>。<line-break>…手が、汚れちゃう。<end>"
 korean = "하아… 하아…. 이제… 됐어, <value:$28>. …손이 더러워지잖아.<end>"
 
+["1780050"]
+japanese = "…ゴメンね。<line-break>…指、私の血で…汚しちゃって…。<end>"
+korean = "…미안해. …손가락을 내 피로… 더럽혔네….<end>"
+
 ["1780051"]
 japanese = "あぁ…<value:$28>…。<line-break>かぁ、さん…、せんせぇ…、<line-break>カ…ル…さ…。<end>"
 korean = "아아… <value:$28>…. 엄, 마…, 선생님…, 카…르…라….<end>"
@@ -95,6 +99,10 @@ korean = "…엄마… …선생님….<end>"
 ["1780059"]
 japanese = "<value:$28>。<line-break>カルラは…？<end>"
 korean = "<value:$28>. 카를라는…?<end>"
+
+["1780061"]
+japanese = "落ちついたら来てくれ。<line-break>俺は軍をまとめておく。<end>"
+korean = "진정되면 와 줘. 나는 군을 정리해 두겠다.<end>"
 
 ["1780062"]
 japanese = "ごふ…か、カルラ様…<line-break>もうしわけ…ありません…。<end>"
@@ -139,6 +147,10 @@ korean = "너희 형 이야기다. 신경 쓰여서 조사해 봤지. 그 녀석
 ["1780086"]
 japanese = "<value:$28>、<line-break>お前の今までの冒険のことを、<line-break>あとで話してくれないか？<end>"
 korean = "<value:$28>, 네가 지금까지 겪은 모험 이야기를 나중에 들려주지 않겠나?<end>"
+
+["1780087"]
+japanese = "しかし、まったく…。<line-break>飽きのこない人生だねぇ。<end>"
+korean = "하지만 참…. 질리지 않는 인생이군.<end>"
 
 ["1780094"]
 japanese = "予備メッセージ　その１<line-break>ロストールＶ５－１<end>"
