@@ -216,6 +216,10 @@ korean = "아, 지나가십시오. <value:$28> 님.<end>"
 japanese = "あ、<value:$28>様。今日は<line-break>何度もいらしてくださるのですね。<line-break>　<line-break>ティアナは、<line-break>…うれしいです。<line-break>どうぞ、奥に。<end>"
 korean = "아, <value:$28>님. 오늘은 여러 번 와 주시는군요. 티아나는… 기뻐요. 안으로 들어오세요.<end>"
 
+["640080"]
+japanese = "…<value:$28>様！<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break>いらしてくださるなら、<line-break>どうして先に、来ると<line-break>おっしゃってくださらないのです？<end>"
+korean = "…<value:$28>님! 와 주실 거라면 왜 미리 오신다고 말씀해 주지 않으셨어요?<end>"
+
 ["640082"]
 japanese = "さぁ、今日はどんなお話を<line-break>聞かせてくださるのです？<end>"
 korean = "자, 오늘은 어떤 이야기를 들려주실 건가요?<end>"
@@ -235,6 +239,10 @@ korean = "벌써 돌아가시는 건가요?<end>"
 ["640086"]
 japanese = "また来てくださいね。<line-break>ティアナは、ずっと待っています。<end>"
 korean = "또 와 주세요. 티아나는 계속 기다리고 있을게요.<end>"
+
+["640089"]
+japanese = "おかしいですね。<line-break>私…いつもはおしゃべりなのに。　　<line-break>　<line-break>今日は、なんだか胸がいっぱいに…。<line-break><value:$28>様のお顔を見たら<line-break>なんだか…。<end>"
+korean = "이상하네요. 저는… 평소엔 수다스러운데. 오늘은 왠지 가슴이 벅차서…. <value:$28>님의 얼굴을 보니 왠지….<end>"
 
 ["640090"]
 japanese = "今日は…お帰りくださいませんか？<end>"
