@@ -112,6 +112,10 @@ korean = "성배를 가진 고블린들을 마인 아기르샤이아보다 먼�
 japanese = "闇の神器が魔人アーギルシャイア<line-break>の手に渡ると危険です。 <line-break>　<line-break>探索を急いだ方がいいでしょう。<end>"
 korean = "어둠의 신기가 마인 아기르샤이아의 손에 들어가면 위험합니다. 탐색을 서두르는 편이 좋겠죠.<end>"
 
+["260166"]
+japanese = "オルファウスの言うことには、<line-break>三匹のしゃべるゴブリンは、<line-break>エンシャントにいるらしいわ。<line-break>寄り道していると追い抜くわよ、<line-break><value:$28>。<end>"
+korean = "오르파우스 말로는 말하는 고블린 셋이 엔샨트에 있는 모양이야. 한눈팔면 추월해 버릴 거야, <value:$28>.<end>"
+
 ["260177"]
 japanese = "兄弟子！<line-break>話すゴブリンなぞ<line-break>見・放しましょうぞ！<line-break>………………。<line-break>修行しなおす所存。<line-break>ごめん！<end>"
 korean = "사형! 말하는 고블린 따위는 내버려 둡시다! ………………. 다시 수행하겠습니다. 미안!<end>"

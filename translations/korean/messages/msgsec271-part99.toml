@@ -52,6 +52,10 @@ korean = "<value:$28>의 동료로? 괜찮겠어? 녀석은 강해. 내가 같�
 japanese = "それでも構わないと言うのか…？<end>"
 korean = "그래도 상관없다는 건가…?<end>"
 
+["2710024"]
+japanese = "くっ。どうやら<value:$28>が<line-break>正しいようだな。<line-break><line-break>長い間眠りつづけていた俺の身体では<line-break>奴を追うことすら、<line-break>ままならないようだ。<end>"
+korean = "큭. 아무래도 <value:$28> 말이 맞는 것 같군. 오랫동안 잠들어 있던 내 몸으로는 놈을 쫓는 것조차 쉽지 않은 모양이다.<end>"
+
 ["2710025"]
 japanese = "ありがとう。恩に着る。<line-break>よろしく頼む。<end>"
 korean = "고맙다. 신세 지겠군. 잘 부탁한다.<end>"

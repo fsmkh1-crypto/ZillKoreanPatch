@@ -28,9 +28,17 @@ korean = "오르파우스는… 나를 키워 준 아버지야.<end>"
 japanese = "私は、エルフと人間の間に生まれ、<line-break>すぐに森に捨てられたらしいわ。<line-break>　<line-break>そして、オルファウスに拾われ、<line-break>育てられた。<end>"
 korean = "나는 엘프와 인간 사이에서 태어나 곧 숲에 버려졌다고 해. 그리고 오르파우스에게 발견되어 자랐어.<end>"
 
+["1180011"]
+japanese = "ネメアも<line-break>オルファウスに育てられたの。<line-break>私と一緒に。<end>"
+korean = "네메아도 오르파우스에게 길러졌어. 나와 함께.<end>"
+
 ["1180015"]
 japanese = "お願い！<line-break>兄さんをとめて！<end>"
 korean = "부탁해! 오빠를 막아 줘!<end>"
+
+["1180016"]
+japanese = "私は、ケリュネイア。<line-break>あなたに闇の神器探索を依頼した者よ。<end>"
+korean = "나는 케류네이아. 네게 어둠의 신기 수색을 의뢰한 사람이야.<end>"
 
 ["1180021"]
 japanese = "オルファウスは…、<line-break>あたしの育ての父なのよ。<end>"
@@ -39,6 +47,10 @@ korean = "오르파우스는… 나를 키워 준 아버지야.<end>"
 ["1180022"]
 japanese = "私は、エルフと人間の間に生まれ、<line-break>すぐに森に捨てられたらしいわ。<line-break>　<line-break>そして、オルファウスに拾われ、<line-break>育てられた。<end>"
 korean = "나는 엘프와 인간 사이에서 태어나 곧 숲에 버려졌다고 해. 그리고 오르파우스에게 발견되어 자랐어.<end>"
+
+["1180023"]
+japanese = "ネメアも<line-break>オルファウスに育てられたの。<line-break>私と一緒に。<end>"
+korean = "네메아도 오르파우스에게 길러졌어. 나와 함께.<end>"
 
 ["1180027"]
 japanese = "お願い！<line-break>兄さんをとめて！<end>"
@@ -63,6 +75,10 @@ korean = "이 기운은…! 네메아!!<end>"
 ["1180034"]
 japanese = "に、兄さんだわ…！<line-break>早く行って、<line-break>父さんを助けて！<line-break>あたしも…<line-break>すぐに行くから…！<end>"
 korean = "오, 오빠야…! 빨리 가서 아버지를 도와줘! 나도… 곧 갈 테니까…!<end>"
+
+["1180035"]
+japanese = "あ、あたしもすぐに行くから…<line-break>早く…！<line-break>先に行って！<end>"
+korean = "나, 나도 곧 갈 테니까… 빨리…! 먼저 가!<end>"
 
 ["1180036"]
 japanese = "父よ、久しいな。<line-break>闇の神器をもらいうけに来た。<end>"
@@ -99,6 +115,10 @@ korean = "오빠! 이제 바보 같은 짓은 그만해!<end>"
 ["1180047"]
 japanese = "ケリュネイア！<line-break>あなたまで来たのですか！？<end>"
 korean = "케류네이아! 당신까지 온 겁니까!?<end>"
+
+["1180050"]
+japanese = "兄さん…。<line-break>…ならば、<line-break>私が目を覚まさせてあげるわ！<end>"
+korean = "오빠…. …그렇다면 내가 정신을 차리게 해 줄게!<end>"
 
 ["1180051"]
 japanese = "やめなさい！<line-break>ケリュネイア！！<end>"
@@ -175,6 +195,10 @@ korean = "다행이야, 무사해서….<end>"
 ["1180075"]
 japanese = "ネメアが何を考えているかは、<line-break>今ははっきりとはわかりません。<line-break>　<line-break>ただ、あの子が、自分の運命と<line-break>戦っていることは確かです。<end>"
 korean = "네메아가 무슨 생각을 하는지는 지금은 분명히 모르겠습니다. 다만 그 아이가 자신의 운명과 싸우고 있다는 건 확실합니다.<end>"
+
+["1180076"]
+japanese = "時が来れば、<line-break>その運命がどのような物なのかも、<line-break>わかるでしょう。<line-break>その時まで、<line-break>あなたはあなたの運命と<line-break>戦っていてください。<end>"
+korean = "때가 오면 그 운명이 어떤 것인지도 알게 되겠지요. 그때까지 당신은 당신의 운명과 싸워 주세요.<end>"
 
 ["1180079"]
 japanese = "ケリュネイアＶ５<line-break>予備メッセージ１です<end>"

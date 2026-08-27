@@ -24,6 +24,10 @@ korean = "사안의 미궁에 있는 색혹의 눈동자…. 저도 부탁드립
 japanese = "僕は反対だ。 <line-break>邪眼の迷宮に色惑の瞳を<line-break>取りにいくなんて…。 <line-break>必ず後悔することになる。 <line-break>…やめておくべきだ。<end>"
 korean = "나는 반대야. 사안의 미궁에 색혹의 눈동자를 가지러 간다니…. 반드시 후회하게 될 거야. …그만두는 게 좋아.<end>"
 
+["1210069"]
+japanese = "ボクの集めた情報によると<line-break>死竜の洞窟の一番奥に<line-break>黄泉の乙女像があるらしいよ。<line-break>それをエンシャントのギルドに<line-break>届ければ依頼達成だね。<end>"
+korean = "내가 모은 정보로는 사룡의 동굴 가장 안쪽에 황천의 소녀상이 있는 모양이야. 그걸 엔샨트 길드에 전달하면 의뢰 완료지.<end>"
+
 ["1210070"]
 japanese = "黄泉の乙女像は死竜の洞窟の<line-break>一番奥にあるらしいわ。<line-break>それは知っているはずよね？<line-break>早く取りに行った方が<line-break>いいとは思わない？<end>"
 korean = "황천의 소녀상은 사룡의 동굴 가장 깊은 곳에 있다더군. 그건 알고 있겠지? 빨리 가지러 가는 게 좋지 않겠어?<end>"
@@ -67,6 +71,10 @@ korean = "지명 의뢰 보게ー<end>"
 ["1210147"]
 japanese = "………………。<line-break><line-break><line-break>エンシャントのギルドへ行け。<end>"
 korean = "………………. 엔샨트 길드로 가라.<end>"
+
+["1210152"]
+japanese = "名指しでの依頼が来たのね。<line-break>さっそくエンシャントに行こう！<end>"
+korean = "지명 의뢰가 들어왔네. 바로 엔샨트로 가자!<end>"
 
 ["1210155"]
 japanese = "それだけお前が依頼主に<line-break>信頼されているってことだな。<line-break>　<line-break>エンシャントのギルドに<line-break>詳しい話を聞きにいこう。<end>"

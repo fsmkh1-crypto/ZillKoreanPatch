@@ -100,6 +100,10 @@ korean = "저, 저기 누나! 이 사람 실력도 좋으니까 우리 편이 �
 japanese = "女、女って呼ぶな！<line-break>姉ちゃんにはちゃんと<line-break><value:$28>って名がある！<end>"
 korean = "여자, 여자라고 부르지 마! 누나한테도 <value:$28>라는 이름이 있어!<end>"
 
+["310051"]
+japanese = "それは失礼した、<line-break><value:$28>。<line-break>俺の名はレムオンだ。<line-break>ノーブルの森とは<line-break>町の門を出てすぐの、あの森だな。<line-break>では、門で落ち合おう。<end>"
+korean = "그건 실례했군, <value:$28>. 내 이름은 레몬이다. 노블의 숲이라면 마을 문을 나가자마자 있는 그 숲이군. 그럼 문에서 만나자.<end>"
+
 ["310054"]
 japanese = "あの…、ちょっといいかな？<end>"
 korean = "저기…, 잠깐 괜찮아?<end>"

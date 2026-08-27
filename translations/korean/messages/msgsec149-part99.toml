@@ -200,6 +200,10 @@ korean = "뭐, 뭐지? 어디로 간 거야?<end>"
 japanese = "…！<line-break>…貴様…何者だ？<end>"
 korean = "…! …네놈… 누구냐?<end>"
 
+["1490104"]
+japanese = "静まれ！<line-break>こいつは世迷い言を言っているだけだ。<line-break>　<line-break>諸君らロストール人は<line-break>敬虔な竜教徒のはず。<line-break>うろたえるな。竜王様を信じろ。<end>"
+korean = "진정해라! 이자는 헛소리를 하고 있을 뿐이다. 너희 로스토올인은 독실한 용교도일 터. 동요하지 마라. 용왕님을 믿어라.<end>"
+
 ["1490107"]
 japanese = "この…！　偽予言者が！<end>"
 korean = "이…! 가짜 예언자 놈!<end>"
@@ -283,6 +287,10 @@ korean = "<value:$28>…. 너와는 또 만날 것 같은 기분이 들어.<end>
 ["1490141"]
 japanese = "ようやく気が付いたようだね。<end>"
 korean = "이제야 눈치챈 모양이네.<end>"
+
+["1490142"]
+japanese = "あいつらなら僕が追い払った。　　<line-break>　<line-break>　<line-break>君は僕が誰だか知っているはずだ。<line-break>あの程度の奴ら相手に<line-break>不覚をとるとでも思ったのか？<end>"
+korean = "그놈들이라면 내가 쫓아냈다. 넌 내가 누군지 알고 있을 텐데. 그 정도 녀석들에게 당할 거라 생각했나?<end>"
 
 ["1490147"]
 japanese = "あいつらなら僕が片付けた。<end>"

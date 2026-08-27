@@ -148,6 +148,10 @@ korean = "전쟁은 수단을 가리지 않습니다.<end>"
 japanese = "ゼネテス、お前は…、<line-break>なんと恐ろしく、不愉快なことを　　<line-break>言うのだ！<line-break>わしには、お前が言うような<line-break>悪魔のごとき作戦など思いもつかん。<end>"
 korean = "제네테스, 넌… 어찌 그리 무섭고 불쾌한 말을 하는 것이냐! 내겐 네가 말하는 악마 같은 작전은 생각조차 나지 않는다.<end>"
 
+["520084"]
+japanese = "ま、お前さんが<line-break>味方にいてくれたってのが　　<line-break>せめてもの救いだな。<line-break><value:$28>、<line-break>戦の時には、俺の陣に来てくれ。<line-break>考えがある。<end>"
+korean = "뭐, 네가 우리 편이라는 게 그나마 다행이군. <value:$28>, 전쟁 때는 내 진영으로 와 줘. 생각이 있어.<end>"
+
 ["520089"]
 japanese = "よ。<line-break>お待たせ。<end>"
 korean = "왔어. 기다렸지.<end>"

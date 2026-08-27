@@ -32,6 +32,10 @@ korean = "귀여운 여자아이야<end>"
 japanese = "見える<end>"
 korean = "보여<end>"
 
+["2250019"]
+japanese = "エヘヘ…。そうだよね。<line-break>ボク、正真正銘女の子だし。<line-break>ありがとう、<value:$28>。<line-break>あいつのせいで、ちょっと<line-break>自信をなくすところだったよ。<end>"
+korean = "헤헤…. 그렇지. 나 틀림없는 여자아이니까. 고마워, <value:$28>. 그 녀석 때문에 자신감을 잃을 뻔했어.<end>"
+
 ["2250021"]
 japanese = "えっ、違う！？　この服が？<line-break>女の子っぽく見えないって？<end>"
 korean = "뭐, 아니라고!? 이 옷이? 여자아이처럼 안 보인다고?<end>"

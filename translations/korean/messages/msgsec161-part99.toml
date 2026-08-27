@@ -184,6 +184,10 @@ korean = "뭐, 뭐야아….<end>"
 japanese = "絶対、鳳凰はいるんだ！！<line-break>いるにきまってる！　<end>"
 korean = "봉황은 분명히 있어!! 반드시 있다고!<end>"
 
+["1610090"]
+japanese = "おお、<value:$28>。<line-break>この前話した風泣きの洞窟の件だが…、<line-break>　<line-break>いまだに怪物は退治されてないんだ。<line-break>頼む。お前さんがやってくれないか？<end>"
+korean = "오, <value:$28>. 전에 말한 바람우는 동굴 건인데 아직 괴물은 퇴치되지 않았어. 부탁한다. 네가 해 주지 않겠나?<end>"
+
 ["1610091"]
 japanese = "任せて<end>"
 korean = "맡겨<end>"
@@ -488,6 +492,10 @@ korean = "말해 두지만, 네게 거절할 권리는 없다.<end>"
 japanese = "…俺が、ただひとり認めた<line-break>あの男をのぞいてはな。<end>"
 korean = "…내가 유일하게 인정한 그 남자를 제외하면 말이지.<end>"
 
+["1610234"]
+japanese = "ま、腹を立てなさんなって。<line-break>世の中にはああいう奴もいる。　　　　<line-break>　<line-break>腕も結構、立つみたいだしな。<line-break>不器用でかわいらしいじゃないか？<end>"
+korean = "뭐, 화내지 마. 세상엔 저런 녀석도 있어. 실력도 꽤 되는 모양이고. 서툴러서 귀엽잖아?<end>"
+
 ["1610236"]
 japanese = "そうか。<line-break>そんじゃ、俺たちも行こうか。<end>"
 korean = "그래. 그럼 우리도 갈까.<end>"
@@ -523,6 +531,10 @@ korean = "…나, 역시 쓸모없는 걸까.<end>"
 ["1610259"]
 japanese = "では、行きましょう。<end>"
 korean = "그럼 가죠.<end>"
+
+["1610260"]
+japanese = "ん？　どした？<line-break>体勢立て直すために出直すのかい？<line-break>　<line-break>んじゃ、俺は俺で、またしばらく<line-break>ブラブラ冒険してるとするかな。<line-break>じゃな。<end>"
+korean = "응? 왜 그래? 태세를 정비하려고 다시 나가는 거야? 그럼 난 또 한동안 여기저기 모험이나 하러 다닐까. 그럼.<end>"
 
 ["1610281"]
 japanese = "アーギルシャイアメッセージVOL2-2終端<end>"

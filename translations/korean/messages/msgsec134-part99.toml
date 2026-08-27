@@ -128,6 +128,10 @@ korean = "그런가, 그럼 가자.<end>"
 japanese = "この空洞に星のようにまたたく光、<line-break>これがすべて、聖光石なのか…？<line-break>　<line-break>すばらしい。<line-break>なんとすばらしいのだ…。<end>"
 korean = "이 공동에 별처럼 반짝이는 빛, 이게 전부 성광석인가…? 훌륭하다. 정말 훌륭하군….<end>"
 
+["1340059"]
+japanese = "ギー、<line-break>オレノネムリヲサマタゲタノハ<line-break>オマエタチカ？<end>"
+korean = "기이, 내 잠을 방해한 건 너희냐?<end>"
+
 ["1340061"]
 japanese = "オレヲバカニシタノカ？<line-break>ギー、オマエラコロシテヤル！！<end>"
 korean = "날 바보 취급한 거냐? 기이, 너희들 죽여 버리겠다!!<end>"
@@ -211,6 +215,10 @@ korean = "이런 곳에서 널 만나다니….<end>"
 ["1340115"]
 japanese = "ど、どうしてなんだ、ナッジ！<line-break>俺たちは友達だろ！<end>"
 korean = "왜, 왜 그러는 거야 나지! 우린 친구잖아!<end>"
+
+["1340116"]
+japanese = "そういう問題じゃないんだよ。<line-break>ヴァン…。わかんないかな…。<end>"
+korean = "그런 문제가 아니야, 반…. 모르겠어…?<end>"
 
 ["1340118"]
 japanese = "フフ、ううん…。<end>"
@@ -324,6 +332,14 @@ korean = "(…아무래도 저쪽에서 들어갈 수 있겠군)<end>"
 japanese = "何者だ？<line-break>ここへ何をしに来た？<end>"
 korean = "누구냐? 여긴 무슨 일로 왔지?<end>"
 
+["1340164"]
+japanese = "邪竜だと？<line-break>そのような世迷い言、<line-break>誰が信じると思う？<end>"
+korean = "사룡이라고? 그런 헛소리를 누가 믿을 것 같나?<end>"
+
+["1340168"]
+japanese = "ぐ…。<line-break>ここで、コーンス族の将来は<line-break>ついえるのか…。<end>"
+korean = "윽…. 여기서 코른스족의 미래가 끊기는 건가….<end>"
+
 ["1340169"]
 japanese = "ジラーク将軍！！<end>"
 korean = "지라크 장군!!<end>"
@@ -403,6 +419,10 @@ korean = "나는 황제 직속 기사 오이페.<end>"
 ["1340207"]
 japanese = "…同じくゼリグ。<end>"
 korean = "…나도 제리그다.<end>"
+
+["1340210"]
+japanese = "…仕方ない、降伏しよう。<line-break>束縛の腕輪はここだ。取りに来い。<end>"
+korean = "…어쩔 수 없군, 항복하겠다. 속박의 팔찌는 여기 있다. 가져가라.<end>"
 
 ["1340212"]
 japanese = "くっ…。<end>"
@@ -1232,6 +1252,10 @@ korean = "감사합니다.<end>"
 japanese = "<value:$28>様…。<end>"
 korean = "<value:$28> 님….<end>"
 
+["1340565"]
+japanese = "…はい。<line-break>タルテュバ様のためにも<line-break>がんばってみます。<end>"
+korean = "…네. 타르튜바 님을 위해서라도 힘내 보겠습니다.<end>"
+
 ["1340566"]
 japanese = "<value:$28>様、<line-break>ありがとうございました。<end>"
 korean = "<value:$28>님, 감사합니다.<end>"
@@ -1287,6 +1311,10 @@ korean = "하지만 지금 이 나라에 필요한 건 왕좌에 앉아 지시�
 ["1340587"]
 japanese = "あ、それから…<line-break> <line-break> <line-break>ガントさんに<line-break>冒険者さんにお仕事をお願いしたときは<line-break>報酬を払うと教わりました。<end>"
 korean = "아, 그리고… 간트 씨에게 모험자에게 일을 부탁했을 때는 보수를 줘야 한다고 배웠습니다.<end>"
+
+["1340589"]
+japanese = "これからも、みなさんと一緒に<line-break>がんばっていこうと思います。<end>"
+korean = "앞으로도 여러분과 함께 힘내겠습니다.<end>"
 
 ["1340590"]
 japanese = "待ちくたびれたぞ！<line-break>我が宿敵、永遠のライバルよ！<end>"

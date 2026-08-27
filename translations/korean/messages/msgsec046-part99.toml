@@ -200,6 +200,10 @@ korean = "아버지!<end>"
 japanese = "すまないな。<end>"
 korean = "미안하군.<end>"
 
+["460103"]
+japanese = "ねえ、<value:$28>、<line-break>僕ら、ガルドランを捜してるんだよ。<line-break>　<line-break>ガルドランはテラネから<line-break>出ていったばかりだよ。<line-break>別の町に行こうよ。<end>"
+korean = "있지, <value:$28>. 우리는 갈드란을 찾고 있어. 갈드란은 테라네를 막 떠났어. 다른 마을로 가자.<end>"
+
 ["460105"]
 japanese = "それじゃ、ギルドは…<line-break>　<line-break>　<line-break>あ、あの建物がそうだね。<line-break>行こう、<value:$28>。<end>"
 korean = "그럼 길드는… 아, 저 건물이구나. 가자, <value:$28>.<end>"

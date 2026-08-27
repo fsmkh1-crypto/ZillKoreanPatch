@@ -48,6 +48,10 @@ korean = "빨리 전해 줘. 중요한 편지다.<end>"
 japanese = "ロセンのカルラ軍の動向を<line-break>記した文章です。<end>"
 korean = "로센의 카를라군 동향을 기록한 문서입니다.<end>"
 
+["1040025"]
+japanese = "重要な文書ではないか！　　　　　<line-break>それを<value:$28>に任せるなど。<line-break>　<line-break>クリュセイス、何を考えている？<line-break>あいつはお前の父の仇なのだぞ！<end>"
+korean = "중요한 문서잖아! 그걸 <value:$28>에게 맡기다니. 크류세이스, 무슨 생각이냐? 저자는 네 아버지의 원수다!<end>"
+
 ["1040026"]
 japanese = "…わかっています。<line-break>ですが…。<end>"
 korean = "…알고 있습니다. 하지만….<end>"

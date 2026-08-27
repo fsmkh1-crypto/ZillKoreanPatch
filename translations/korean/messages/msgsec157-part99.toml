@@ -4,6 +4,10 @@
 japanese = "危ないところを助けていただき、<line-break>どうもありがとうございました。　　<line-break>　<line-break>お約束の報酬です。少し多めですが、<line-break>お納めください。<end>"
 korean = "위험한 곳에서 구해 주셔서 정말 감사합니다. 약속한 보수입니다. 조금 더 넣었으니 받아 주세요.<end>"
 
+["1570021"]
+japanese = "危ないところを助けていただき、<line-break>どうもありがとうございました。　　<line-break>　<line-break>約束の報酬金と心ばかりのお礼です。<line-break>どうか、お納めください。<end>"
+korean = "위험한 순간에 구해 주셔서 정말 감사합니다. 약속한 보수금과 작은 성의입니다. 부디 받아 주세요.<end>"
+
 ["1570029"]
 japanese = "おかげで、任務を遂行できる。　　　　　<line-break>礼を言うぞ。冒険者よ。<line-break>　<line-break>約束の報酬と、これは私からの心付けだ。<line-break>遠慮なく受け取り給え。<end>"
 korean = "덕분에 임무를 수행할 수 있다. 고맙다, 모험자여. 약속한 보수와 이건 내 성의다. 사양 말고 받아라.<end>"
@@ -15,6 +19,10 @@ korean = "네 활약은 정말 훌륭했다. 고맙다, 모험자여. 약속한 
 ["1570046"]
 japanese = "あなたのおかげで、なんとか戻ってくることが<line-break>できました。<line-break>　<line-break>これは約束の報酬金です。<line-break>ありがとうございました。<end>"
 korean = "당신 덕분에 어떻게든 돌아올 수 있었습니다. 이건 약속한 보수입니다. 감사합니다.<end>"
+
+["1570053"]
+japanese = "危ないところを助けていただき、どうも　<line-break>ありがとうございました。<line-break>　<line-break>お礼金とおチップはこちらでございます。<line-break>では、失礼いたします。<end>"
+korean = "위험한 순간에 구해 주셔서 정말 감사합니다. 사례금과 팁입니다. 그럼 실례하겠습니다.<end>"
 
 ["1570054"]
 japanese = "なんとか助けていただき、<line-break>ありがとうございました。　<line-break>　<line-break>お礼はこちらでございます。<line-break>では、失礼いたします。<end>"

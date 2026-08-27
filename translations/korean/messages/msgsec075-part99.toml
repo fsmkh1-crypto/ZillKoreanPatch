@@ -164,6 +164,10 @@ korean = "…정말 차가운 사람이네, 너. 솔직히 실망했어. 후후�
 japanese = "まあ、また来てよ。<line-break>気が変わるってこともあるだろうしさ。<end>"
 korean = "뭐, 또 와. 마음이 바뀔 수도 있잖아.<end>"
 
+["750062"]
+japanese = "アトレイア王女、<line-break>この人に頼んだんだ。　　　　<line-break>　<line-break>この<value:$28>こそが、<line-break>きっと君に色惑の瞳を…光を<line-break>持ってきてくれるはずさ。<end>"
+korean = "아트레이아 왕녀, 이 사람에게 부탁했어. 이 <value:$28>이 분명 네게 색혹의 눈동자를… 빛을 가져다줄 거야.<end>"
+
 ["750063"]
 japanese = "そうなのですか…。<line-break>…<value:$28>さん、<line-break>どうか、よろしくお願いします。<end>"
 korean = "그렇군요…. …<value:$28> 씨, 부디 잘 부탁드립니다.<end>"

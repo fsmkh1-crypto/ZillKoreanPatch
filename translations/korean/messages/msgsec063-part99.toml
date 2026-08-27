@@ -104,6 +104,10 @@ korean = "모, 모, 몰라요! 타르튜바 님이 여자아이한테서 빼앗�
 japanese = "へぇ…、ティアナ王女にね。<end>"
 korean = "헤에…, 티아나 왕녀에게 말이지.<end>"
 
+["630054"]
+japanese = "盗んだ人形を王女様にプレゼントとは、<line-break>タルテュバも粋なことをするもんだ。<line-break>　<line-break>だが、やっかいだなぁ、こいつは。<line-break>どうする、<value:$28>？<end>"
+korean = "훔친 인형을 왕녀님께 선물하다니 타르튜바도 제법 멋진 짓을 하는군. 하지만 골치 아프네. 어쩔래, <value:$28>?<end>"
+
 ["630055"]
 japanese = "お兄ちゃん。<line-break>ハンナのお人形、<line-break>取り戻せる？<end>"
 korean = "오빠. 한나의 인형, 되찾아 줄 수 있어?<end>"
@@ -363,6 +367,10 @@ korean = "결혼을 앞둔 여성의 말이라고는 생각되지 않는군.<end
 ["630149"]
 japanese = "フフ…<line-break>わかった、わかった。　　　<line-break>　<line-break>さて、そろそろ失礼するか。<line-break>宮中の噂になってはかなわぬからな。<end>"
 korean = "후후… 알았다, 알았어. 자, 슬슬 실례하지. 궁중의 소문거리가 되면 곤란하니까.<end>"
+
+["630150"]
+japanese = "ふふふ。<line-break>もう、噂になっているかも<line-break>しれませんよ。<line-break>レムオン様、<value:$28>様。<line-break>また、いらっしゃってください。<line-break>お待ちしてます。<end>"
+korean = "후후후. 벌써 소문이 났을지도 모르겠네요. 레몬 님, <value:$28>님. 또 와 주세요. 기다리고 있을게요.<end>"
 
 ["630151"]
 japanese = "お変わりございませんか、<line-break>ティアナ様。<end>"
@@ -807,6 +815,10 @@ korean = "후후, 농담이에요. 그래서 인형은 주인인 여자아이에
 ["630310"]
 japanese = "あ！　どなたか来られたみたいだわ。<end>"
 korean = "아! 누가 오신 것 같아.<end>"
+
+["630311"]
+japanese = "<value:$28>様、<line-break>申しわけありませんが、また　<line-break>クローゼットの中へ。<line-break>親が決めたこととは言え、<line-break>私には婚約者がおりますから。<line-break>　<end>"
+korean = "<value:$28>님, 죄송하지만 다시 옷장 안으로 들어가 주세요. 부모님이 정한 일이라 해도 제겐 약혼자가 있으니까요.<end>"
 
 ["630313"]
 japanese = "どうしますか、<value:$28>様？<line-break>よろしければ、またクローゼットを<line-break>お貸ししますわ。うふふ。<end>"

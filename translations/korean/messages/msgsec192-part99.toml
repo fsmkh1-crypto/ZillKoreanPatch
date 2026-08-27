@@ -60,6 +60,10 @@ korean = "역시 고브. 이걸로 <value:$28>의 78연승 고브!<end>"
 japanese = "うぅ…。<line-break>こいつらと兄弟弟子だなんて…。<end>"
 korean = "으으…. 이 녀석들과 동문이라니….<end>"
 
+["1920025"]
+japanese = "そんなことはどうでもいいから<line-break>はやくメシが食いたいゴブ。<end>"
+korean = "그런 건 아무래도 좋으니 빨리 밥 먹고 싶다 고브.<end>"
+
 ["1920026"]
 japanese = "っるさい！<end>"
 korean = "시끄러워!<end>"
@@ -127,6 +131,10 @@ korean = "<value:$28>! 이쪽, 이쪽. 오늘은 내가 고안한 새로운 마�
 ["1920055"]
 japanese = "それで、ぜひ見てもらおうと思って<line-break><value:$28>のこと<line-break>わざわざ呼び出しちゃった。<end>"
 korean = "그래서 꼭 보여 주고 싶어서 <value:$28>을 일부러 불렀어.<end>"
+
+["1920059"]
+japanese = "ユーリス、大変だ！<line-break>お前の装置、暴走してるぞ。<line-break>　<end>"
+korean = "유리스, 큰일이야! 네 장치가 폭주하고 있어.<end>"
 
 ["1920060"]
 japanese = "えっ…ええっ！<end>"
@@ -455,6 +463,10 @@ korean = "<value:$28>이 찾아내지 않았으면 안에 숨겨진 암호문째
 ["1920200"]
 japanese = "私にここまで言わせたんだから、<line-break><value:$28>、これからもずっと<line-break>私と一緒に海に出てくれるわよね？<end>"
 korean = "내가 여기까지 말했으니, <value:$28>, 앞으로도 계속 나와 함께 바다로 나가 줄 거지?<end>"
+
+["1920201"]
+japanese = "ふふ、ありがとう。<line-break>頼りにしてるから<line-break>覚悟してね。<end>"
+korean = "후후, 고마워. 의지할 테니 각오해.<end>"
 
 ["1920202"]
 japanese = "おかしら！　見えましたぜ！　　<line-break>暗号にあったとおりです。<line-break>　<line-break>太陽の光が海面に妙に強く<line-break>反射しているところがあります。<end>"

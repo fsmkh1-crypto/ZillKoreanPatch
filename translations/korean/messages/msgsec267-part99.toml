@@ -24,6 +24,10 @@ korean = "이샤를 희생시킨다<end>"
 japanese = "ジリオン！<end>"
 korean = "지리온!<end>"
 
+["2670018"]
+japanese = "わかってるわ、<value:$28>…。<line-break>あなたにはもっと大事な役割が<line-break>残っているんだから。<line-break>あなたと一緒に旅ができてよかった。<line-break>さようなら…。<end>"
+korean = "알고 있어, <value:$28>…. 너에겐 더 중요한 역할이 남아 있으니까. 너와 함께 여행할 수 있어서 좋았어. 안녕….<end>"
+
 ["2670020"]
 japanese = "ジリオンが仲間になった。<end>"
 korean = "질리온이 동료가 되었다.<end>"

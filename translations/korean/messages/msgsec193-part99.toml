@@ -228,6 +228,10 @@ korean = "<value:$28>의 이름을 이용해 반대 세력을 만든다… 충�
 japanese = "ケリュネイア、人はいろいろです。<line-break>それが、<value:$28>や<line-break>あの子なりの気の使い方なのですよ。<end>"
 korean = "케류네이아, 사람은 저마다 다릅니다. 그게 <value:$28>이나 그 아이 나름의 배려 방식인 거예요.<end>"
 
+["1930105"]
+japanese = "わかってるわ、そんなこと。　　　<line-break>でも、残される方にも、<line-break>それぞれの思いがある。<line-break><value:$28>なら、<line-break>わかってくれると思ったんだけど。<end>"
+korean = "그런 건 알아. 하지만 남겨지는 쪽에도 저마다의 마음이 있어. <value:$28>이라면 알아줄 거라 생각했는데.<end>"
+
 ["1930106"]
 japanese = "その辺にしておきなさい。<line-break><value:$28>だって<line-break>考えた上での選択でしょう。<end>"
 korean = "그쯤 해 두세요. <value:$28>도 생각한 끝에 내린 선택이겠죠.<end>"

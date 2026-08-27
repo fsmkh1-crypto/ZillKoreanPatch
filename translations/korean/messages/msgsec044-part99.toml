@@ -256,6 +256,10 @@ korean = "요즘 도시에서 좋지 않은 소문이 돌지만 그 정도로 �
 japanese = "レムオン様の身にいったい何が…。　<line-break>　<line-break>　<end>"
 korean = "레몬 님께 대체 무슨 일이….<end>"
 
+["440099"]
+japanese = "　　　　　…<value:$28>。<line-break>　　　　　…無限のソウルを持つ者。　　　　　<line-break>　　　　　そして、その力ゆえに<line-break>　　　　　世界を混沌に導く者よ…。<end>"
+korean = "…<value:$28>. …무한의 소울을 지닌 자. 그리고 그 힘 때문에 세계를 혼돈으로 이끄는 자여….<end>"
+
 ["440104"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
 korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"

@@ -176,6 +176,10 @@ korean = "미사용<end>"
 japanese = "この間は…<line-break>申しわけありませんでした。<end>"
 korean = "지난번에는… 죄송했습니다.<end>"
 
+["640076"]
+japanese = "よかった…。　　　　　　　　　　<line-break>　<line-break>　<line-break><value:$28>様に嫌われたらと<line-break>思うと…ティアナは、心が<line-break>しめつけられるようだったのです。<end>"
+korean = "다행이다…. <value:$28>님께 미움받을까 생각하니 티아나는 가슴이 조여 오는 것 같았어요.<end>"
+
 ["640078"]
 japanese = "あ、どうぞお通りください。　　　　<line-break><value:$28>様。<line-break>　<end>"
 korean = "아, 지나가십시오. <value:$28> 님.<end>"
@@ -263,6 +267,10 @@ korean = "방금 레몬 님께서 다녀가셨습니다. <value:$28>님 이야�
 ["640117"]
 japanese = "レムオン様は<line-break>とても妹思いなのですね。　<line-break>　<end>"
 korean = "레몬 님은 정말 여동생을 아끼시는군요.<end>"
+
+["640119"]
+japanese = "え、もう帰ってしまうの？<line-break>お忙しいから仕方ないですね。<line-break>　<line-break><value:$28>様、<line-break>また、お顔を見せてくださいね。<line-break>楽しみにしています。<end>"
+korean = "네, 벌써 돌아가시나요? 바쁘시니 어쩔 수 없네요. <value:$28>님, 또 얼굴 보여 주세요. 기대하고 있을게요.<end>"
 
 ["640123"]
 japanese = "慈愛の神ライラネートよ。　　　<end>"
@@ -391,6 +399,10 @@ korean = "티아나의 안목은 확실해요.<end>"
 ["640160"]
 japanese = "以前は、冒険者と言うより<line-break>流浪の旅人という感じでした。<end>"
 korean = "예전엔 모험자라기보다 떠도는 여행자 같은 느낌이었어요.<end>"
+
+["640161"]
+japanese = "ふふふ…、ごめんなさい。<line-break>本気になさらないで。　　　　<line-break>　<line-break><value:$28>様といると、<line-break>とても自由な気持ちに<line-break>なってしまうのです。<end>"
+korean = "후후후… 미안해요. 진지하게 받아들이지 마세요. <value:$28>님과 있으면 정말 자유로운 기분이 들어 버려서요.<end>"
 
 ["640162"]
 japanese = "それで、つい冗談を。　　　　<line-break><value:$28>様って<line-break>不思議な方ですね。<end>"

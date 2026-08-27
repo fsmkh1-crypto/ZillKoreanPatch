@@ -156,6 +156,10 @@ korean = "기대하고 있다.<end>"
 japanese = "…では、論功行賞を行う。<line-break>最後は<value:$28>。<end>"
 korean = "…그럼 논공행상을 시작한다. 마지막은 <value:$28>.<end>"
 
+["590099"]
+japanese = "<value:$28>、<line-break>お主が最高殊勲者だ。<line-break>　<line-break>この功をもって、わしは<line-break>お主をディンガルの騎士に推薦し、<line-break>ここで仮叙任を行おうと思う。<end>"
+korean = "<value:$28>, 네가 최고 공훈자다. 이 공으로 널 딘갈의 기사로 추천하고 여기서 임시 서임을 하겠다.<end>"
+
 ["590101"]
 japanese = "<value:$28>、<line-break>まずまずの戦功だ。<line-break>　<line-break>これは恩賞じゃ。<line-break>さらに、励むがよい。<line-break>期待しておるぞ。<end>"
 korean = "<value:$28>, 제법 전공을 세웠구나. 이것은 포상이다. 더 힘쓰도록 해라. 기대하고 있겠다.<end>"

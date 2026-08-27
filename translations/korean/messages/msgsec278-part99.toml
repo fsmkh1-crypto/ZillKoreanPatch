@@ -4,6 +4,10 @@
 japanese = "ジリオン＆イーシャイベントED3用開始<end>"
 korean = "질리온&이샤 이벤트 ED3용 시작<end>"
 
+["2780004"]
+japanese = "だけど、それは自分を犠牲にして<line-break>救うためじゃない。<line-break>　<line-break>イーシャを解放し、そして俺も<line-break>笑って<value:$28>と<line-break>未来を歩むためだ。<end>"
+korean = "하지만 그건 나를 희생해서 구하기 위해서가 아니야. 이샤를 해방하고, 나도 웃으면서 <value:$28>과 미래를 걷기 위해서야.<end>"
+
 ["2780006"]
 japanese = "ジリオン＆イーシャイベントED3用開終端<end>"
 korean = "지리온&이샤 이벤트 ED3용 시작·종료<end>"

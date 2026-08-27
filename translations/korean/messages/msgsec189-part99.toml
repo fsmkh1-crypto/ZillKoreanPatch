@@ -48,6 +48,10 @@ korean = "<value:$28>, 그대도 조심하라. 눈에 띄는 짓을 하면 용�
 japanese = "人類が覚醒を果たすまで、<line-break>竜王に屈する日々が続くのだ。<end>"
 korean = "인류가 각성할 때까지 용왕에게 굴복하는 나날이 계속될 것이다.<end>"
 
+["1890023"]
+japanese = "<value:$28>よ、<line-break>世界を見て、いかに感じた？　<line-break>　<line-break>世界は悲しみに満ちている…。<line-break>もう少し力があればと思うことが<line-break>多くはないか？<end>"
+korean = "<value:$28>여, 세계를 보고 무엇을 느꼈나? 세계는 슬픔으로 가득하다…. 조금만 더 힘이 있었다면 하고 생각한 적이 많지 않나?<end>"
+
 ["1890024"]
 japanese = "新たな力を得たくはないか？<end>"
 korean = "새로운 힘을 얻고 싶지 않나?<end>"
@@ -71,6 +75,10 @@ korean = "<value:$28>, 네가 있으니까.<end>"
 ["1890038"]
 japanese = "さあ、儀式を始めようか。<end>"
 korean = "자, 의식을 시작할까.<end>"
+
+["1890039"]
+japanese = "ウルグはネメアに降臨する。<line-break>僕もそう思っていたよ。<line-break>　<line-break>でもね、ウルグは<line-break>いつだって捜してるんだ。<line-break>もっとも適した入れ物をね。<end>"
+korean = "울그는 네메아에게 강림한다. 나도 그렇게 생각했어. 하지만 울그는 언제나 찾고 있어. 가장 알맞은 그릇을.<end>"
 
 ["1890042"]
 japanese = "あれ？　なんだ…？<end>"

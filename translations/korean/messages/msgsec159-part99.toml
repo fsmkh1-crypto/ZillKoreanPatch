@@ -24,6 +24,10 @@ korean = "실례합니다~. 모험자 등록을 하고 싶은데요.<end>"
 japanese = "おチビちゃんじゃないよぉ。<line-break>あたしはルルアンタ。<line-break>　<line-break>外見だけで判断するなんて、<line-break>おじさんもまだまだね。<end>"
 korean = "꼬맹이 아니거든~. 나는 루루안타야. 겉모습만 보고 판단하다니, 아저씨도 아직 멀었네.<end>"
 
+["1590013"]
+japanese = "さ～て、ルルアンタたちも<line-break>冒険者に仲間入りできたけどぉ、<line-break>　<line-break><value:$28>は、なんか<line-break>急いでやらなきゃいけない<line-break>仕事とかあるの？<end>"
+korean = "자, 루루안타들도 모험자의 동료가 됐는데, <value:$28>은 서둘러 해야 할 일 같은 게 있어?<end>"
+
 ["1590017"]
 japanese = "わぁ、うれしいな　　　　<line-break><value:$28>！<line-break>　<line-break>それじゃあ、明日は、<line-break>賢者の森に出発だね！<end>"
 korean = "와, 기쁘다, <value:$28>! 그럼 내일은 현자의 숲으로 출발이네!<end>"

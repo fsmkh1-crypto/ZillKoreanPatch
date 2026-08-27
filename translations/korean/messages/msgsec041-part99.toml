@@ -328,6 +328,10 @@ korean = "자, 잠깐! 그런 건 거짓말이야!<end>"
 japanese = "本当にあのハーフエルフが言ってた<line-break>神器があったのね…。<end>"
 korean = "정말 그 하프엘프가 말한 신기가 있었군….<end>"
 
+["410109"]
+japanese = "<value:$28>、<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>そこの魔道士は闇の神器を使って<line-break>世界を滅ぼそうとしていたのだ。<line-break>倒したまえ！<end>"
+korean = "<value:$28>, 저 마도사는 어둠의 신기를 써서 세계를 멸망시키려 했다. 쓰러뜨려라!<end>"
+
 ["410110"]
 japanese = "<value:$28>！<line-break>そんなのウソだよ！<line-break>僕を信じて！<end>"
 korean = "<value:$28>! 그런 건 거짓말이야! 날 믿어!<end>"
@@ -411,6 +415,10 @@ korean = "하지만… 아, <value:$28>, 정신이 들었구나!<end>"
 ["410136"]
 japanese = "待って！<line-break><value:$28>さん！<end>"
 korean = "기다려! <value:$28> 씨!<end>"
+
+["410138"]
+japanese = "<value:$28>、<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>そこの魔道士は闇の神器を使って<line-break>世界を滅ぼそうとしていたのだ。<line-break>倒したまえ！<end>"
+korean = "<value:$28>, 저 마도사는 어둠의 신기를 써서 세계를 멸망시키려 했다. 쓰러뜨려라!<end>"
 
 ["410140"]
 japanese = "に、兄さん…。<end>"

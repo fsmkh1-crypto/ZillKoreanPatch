@@ -8,9 +8,17 @@ korean = "케류네이아 V3 시작<end>"
 japanese = "父さん！<end>"
 korean = "아버지!<end>"
 
+["1200006"]
+japanese = "すでに今でも、<line-break>誰もネメアをとめられませんよ。　　　<line-break>　<line-break>剣聖レーグですら、引き分けたんです。<line-break>ま、好きにさせるしかないでしょう。<end>"
+korean = "이미 지금도 아무도 네메아를 막을 수 없습니다. 검성 레그조차 무승부였으니까요. 뭐, 마음대로 하게 둘 수밖에 없겠죠.<end>"
+
 ["1200008"]
 japanese = "あ、あれは…！<end>"
 korean = "저, 저건…!<end>"
+
+["1200009"]
+japanese = "言いわけは別の機会に聞きます。<line-break>行きなさい、ケリュネイア。<end>"
+korean = "변명은 다음에 듣겠습니다. 가세요, 케류네이아.<end>"
 
 ["1200010"]
 japanese = "さすがは閃光の異名をとるだけある。<line-break>素早いですねえ。<line-break>　<line-break><value:$28>、<line-break>もう、入ってきてもいいですよ。<end>"
@@ -67,6 +75,10 @@ korean = "<value:$28> 님. 무사하셔서 다행입니다. 편히 쉬다 가세
 ["1200046"]
 japanese = "ネモさんってとても<line-break>やさしい方なんですよ。<end>"
 korean = "네모 씨는 정말 상냥한 분이에요.<end>"
+
+["1200047"]
+japanese = "本当です。<line-break>親切にいろいろと<line-break>教えてくださるんです。<end>"
+korean = "정말이에요. 친절하게 여러 가지를 가르쳐 주세요.<end>"
 
 ["1200048"]
 japanese = "あまりムリを<line-break>なさらないでくださいね。<end>"

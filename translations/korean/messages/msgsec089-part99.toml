@@ -84,6 +84,10 @@ korean = "안녕하세요, 에스텔. 기분은 어떠세요?<end>"
 japanese = "シャリ！<end>"
 korean = "샤리!<end>"
 
+["890047"]
+japanese = "うわ、嫌われたもんだなあ。<line-break>僕は君に会うために<line-break>飛んできたってのにさ。<line-break>ねえ、エステル。<line-break>君って、<value:$28>の<line-break>役に立ってるの？<end>"
+korean = "와, 완전히 미움받았네. 난 널 만나려고 날아왔는데. 있지, 에스텔. 너 <value:$28>에게 도움이 되고 있긴 해?<end>"
+
 ["890048"]
 japanese = "な…！<line-break>いきなり何を言い出すんだよ！？<end>"
 korean = "뭐…! 갑자기 무슨 소리야!?<end>"
