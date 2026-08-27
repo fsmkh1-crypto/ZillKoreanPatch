@@ -188,6 +188,10 @@ korean = "일대일로 승부한다<end>"
 japanese = "挑発には乗らない<end>"
 korean = "도발에 넘어가지 않는다<end>"
 
+["1470147"]
+japanese = "ふぅ、冷や冷やしたが、<line-break>よくやったな、<value:$28>。<end>"
+korean = "후우, 조마조마했지만 잘했어, <value:$28>.<end>"
+
 ["1470150"]
 japanese = "エリエナイ公？　話にならんな。<end>"
 korean = "엘리에나이 공? 말이 안 되는군.<end>"

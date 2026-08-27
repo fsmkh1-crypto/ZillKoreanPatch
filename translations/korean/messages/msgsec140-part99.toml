@@ -176,6 +176,10 @@ korean = "안 가<end>"
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
 
+["1400060"]
+japanese = "だっ誰が、貴様などに<line-break>ラブレターを出すものか！！<end>"
+korean = "누, 누가 네놈 따위에게 러브레터를 보낸다는 거냐!!<end>"
+
 ["1400064"]
 japanese = "誰が、貴様のお義兄さまだ！<end>"
 korean = "누가 네 형님이냐!<end>"
@@ -211,6 +215,10 @@ korean = "…제네테스가 불렀다고?<end>"
 ["1400077"]
 japanese = "何が言いたい！<end>"
 korean = "무슨 말을 하고 싶은 거야!<end>"
+
+["1400080"]
+japanese = "お前は、シャリ！？<line-break>道化め！　どういうつもりだ？<end>"
+korean = "너는 샤리!? 광대 녀석! 무슨 속셈이지?<end>"
 
 ["1400082"]
 japanese = "気に入らねえゴタクだな。<line-break>何様のつもりだ？<end>"
@@ -283,6 +291,10 @@ korean = "다치신 곳은 없습니까, <value:$28>님!<end>"
 ["1400118"]
 japanese = "ゼネテス様？<end>"
 korean = "제네테스님?<end>"
+
+["1400120"]
+japanese = "あ、あ、すみません！！<line-break>すぐに人を呼んできます。<end>"
+korean = "아, 아, 죄송합니다!! 바로 사람을 불러오겠습니다.<end>"
 
 ["1400123"]
 japanese = "人間には生きる義務ってモノもある。<line-break>行け！<end>"
@@ -384,6 +396,10 @@ korean = "네, 그게… 행사가 열린다고 해서….<end>"
 japanese = "催し？<line-break>私、聞いておりませんけれど…。<end>"
 korean = "행사요? 저는 듣지 못했는데요….<end>"
 
+["1400172"]
+japanese = "催し、ねえ。<line-break>そいつぁ、俺も聞いちゃいねえなぁ。<end>"
+korean = "행사라…. 그건 나도 들은 적 없는데.<end>"
+
 ["1400173"]
 japanese = "やっこさんもそうじゃねえの？<end>"
 korean = "그 녀석도 그런 거 아냐?<end>"
@@ -427,6 +443,10 @@ korean = "아, 티아나 님…. 티아나 님도 이 행사에?<end>"
 ["1400187"]
 japanese = "…催し？<end>"
 korean = "…행사?<end>"
+
+["1400188"]
+japanese = "催し、ねえ。<line-break>そいつぁ、俺も聞いちゃいねえなぁ。<end>"
+korean = "행사라…. 그건 나도 들은 적 없는데.<end>"
 
 ["1400189"]
 japanese = "やっこさんもそうじゃねえの？<end>"
@@ -491,6 +511,10 @@ korean = "티아나는… 아직인 모양이군.<end>"
 ["1400220"]
 japanese = "…ゼネテス？<end>"
 korean = "…제네테스?<end>"
+
+["1400223"]
+japanese = "だっ、誰が貴様などに<line-break>ラブレターを出すものか！！<end>"
+korean = "누, 누가 네놈 따위에게 러브레터를 보낸다는 거냐!!<end>"
 
 ["1400225"]
 japanese = "それよりも、エリエナイ公。<line-break><value:$28>は俺の大事な友だ<line-break>手を出すのはやめてもらおうか。<end>"
@@ -827,6 +851,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1400384"]
 japanese = "……水の巫女様は<line-break>必要とされているのですね。<end>"
 korean = "……물의 무녀님은 필요로 하고 계시는군요.<end>"
+
+["1400385"]
+japanese = "空中都市が…竜骨の砂漠に…<line-break>完全に…、沈んだ…。<end>"
+korean = "공중도시가… 용골의 사막에… 완전히… 가라앉았어….<end>"
 
 ["1400386"]
 japanese = "<value:$28>さん、<line-break>エステルさんは…<end>"

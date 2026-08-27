@@ -204,6 +204,10 @@ korean = "자, 부탁할게, <value:$28>!<end>"
 japanese = "やった！<line-break>これでまた海に出られるぜ！<end>"
 korean = "해냈다! 이걸로 다시 바다로 나갈 수 있어!<end>"
 
+["1430096"]
+japanese = "私の目に狂いはなかった。<line-break>さすがだね、<value:$28>。<end>"
+korean = "내 눈은 틀리지 않았어. 역시 대단하네, <value:$28>.<end>"
+
 ["1430097"]
 japanese = "さあ、早いとこ船を港に戻しな。<end>"
 korean = "자, 얼른 배를 항구로 돌려놔.<end>"

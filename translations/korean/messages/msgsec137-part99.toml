@@ -120,6 +120,10 @@ korean = "그래, 너 이름이 뭐냐?<end>"
 japanese = "おう、<value:$28>か。<end>"
 korean = "오, <value:$28>인가.<end>"
 
+["1370132"]
+japanese = "で、どうなんだ？<line-break>旅の中で何か決着はついたのか？<end>"
+korean = "그래서, 어때? 여행하면서 뭔가 결론은 냈나?<end>"
+
 ["1370133"]
 japanese = "そうか…。<line-break>そういう道を選んじまったか…。　 　     <line-break>　<line-break>で、結局、ヴァンはそれで喜んでくれたか？<end>"
 korean = "그런가…. 그런 길을 택했나…. 그래서 결국 반은 그걸로 기뻐했어?<end>"
@@ -344,6 +348,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "これからは、今日のように、<line-break>戦いに出る機会が増えるだろう。<line-break> <line-break>自身の鍛練もそうだが、<line-break>装備も強くしておかねばならない。<end>"
 korean = "앞으로는 오늘처럼 전투에 나갈 기회가 늘겠지. 자기 수련도 중요하지만 장비도 강화해 둬야 한다.<end>"
 
+["1370234"]
+japanese = "なあなあ、魔物と戦ったのか？<line-break>ケガはなかったか？<end>"
+korean = "있잖아, 마물과 싸운 거야? 다친 데는 없어?<end>"
+
 ["1370235"]
 japanese = "あー！！　もう！！　　<line-break>　<line-break>　<end>"
 korean = "아아!! 정말!!<end>"
@@ -479,6 +487,10 @@ korean = "괜찮다. 내가 거짓말한 적이 있었나?<end>"
 ["1370279"]
 japanese = "（酔っ払いだ。<line-break>　目を開けて寝ている…）<line-break> <line-break>（もしかして…？）<end>"
 korean = "(술 취한 사람이다. 눈을 뜬 채 자고 있다…) (혹시…?)<end>"
+
+["1370280"]
+japanese = "う…なぁんだよ、<line-break>人が気持ちよく寝てるってのに。<end>"
+korean = "으… 뭐야, 사람이 기분 좋게 자고 있는데.<end>"
 
 ["1370281"]
 japanese = "うん…俺があ？<line-break>鍛冶屋だったんじゃないかって？<line-break>冗談言っちゃいけねえ。<line-break>何を見てそんな…<end>"
@@ -1072,6 +1084,10 @@ korean = "<value:$28>인가… 좋은 이름이군. 오시에게 배우고 있�
 japanese = "お、おいっ。<end>"
 korean = "어, 어이.<end>"
 
+["1370616"]
+japanese = "いいじゃないか。<line-break>この酒、味見させてやるからさ！<end>"
+korean = "괜찮잖아. 이 술, 맛 좀 보게 해 줄 테니까!<end>"
+
 ["1370618"]
 japanese = "力を伸ばす方法を教えてほしい<end>"
 korean = "힘을 키우는 방법을 알려 줬으면 해<end>"
@@ -1163,6 +1179,10 @@ korean = "저기, 사실 저는 지금부터 술집 심부름을 가야 합니�
 ["1370656"]
 japanese = "よかった！<line-break>じゃ、よろしくお願いします！<end>"
 korean = "다행이다! 그럼 잘 부탁드립니다!<end>"
+
+["1370660"]
+japanese = "あんた、新米冒険者だね？　　　　　<line-break>　<line-break>　<end>"
+korean = "당신, 신참 모험자지?<end>"
 
 ["1370661"]
 japanese = "え？<line-break>なんで新米だってわかったんだ？　　<line-break>　<end>"

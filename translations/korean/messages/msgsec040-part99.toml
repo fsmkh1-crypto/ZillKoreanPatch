@@ -468,6 +468,10 @@ korean = "(벽난로 불은 꺼져 있다….)<end>"
 japanese = "火をつけてみますか？<end>"
 korean = "불을 붙여볼까요?<end>"
 
+["400198"]
+japanese = "あんた、新米冒険者だね？　　　　　<line-break>　<line-break>　<end>"
+korean = "당신, 신참 모험자지?<end>"
+
 ["400199"]
 japanese = "え？<line-break>なんで新米だってわかったんだ？　　<line-break>　<end>"
 korean = "어? 내가 신참인 걸 어떻게 알았지?<end>"
@@ -663,6 +667,10 @@ korean = "네메아 님은 황제의 명을 따라 이즈 님을 납치한 거�
 ["400295"]
 japanese = "すまんな。<line-break>この闇の神器は、<line-break>わしらがもらっていく。<line-break>さあ、行くぞ、<line-break>オイフェ、ゼリグ。<end>"
 korean = "미안하군. 이 어둠의 신기는 우리가 가져가겠다. 자, 가자, 오이페, 제리그.<end>"
+
+["400296"]
+japanese = "　　　ディンガル帝国<line-break>帝都エンシャント、謁見の間<end>"
+korean = "딩갈 제국 제도 엔샨트, 알현실<end>"
 
 ["400297"]
 japanese = "空<end>"

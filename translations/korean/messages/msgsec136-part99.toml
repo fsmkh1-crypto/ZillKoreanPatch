@@ -136,6 +136,10 @@ korean = "…바이, 왜… 울고 있어?<end>"
 japanese = "わからないの。<end>"
 korean = "모르겠어.<end>"
 
+["1360098"]
+japanese = "ホントだ…。<line-break>なぜ…、涙が止まらないんだろう…。<end>"
+korean = "정말이야…. 왜… 눈물이 멈추지 않는 거지….<end>"
+
 ["1360103"]
 japanese = "力を貸しましょうか<end>"
 korean = "힘을 빌려드릴까요<end>"
@@ -143,6 +147,10 @@ korean = "힘을 빌려드릴까요<end>"
 ["1360104"]
 japanese = "かかわるのは避けよう<end>"
 korean = "관여하는 건 피하자<end>"
+
+["1360105"]
+japanese = "む？<line-break>よそ者には関係ないこと。<line-break>行かれよ。<end>"
+korean = "음? 외지인과는 상관없는 일이다. 가시오.<end>"
 
 ["1360106"]
 japanese = "いや、こちらは<line-break><value:$28>様にて<line-break>封士様の知己です。信頼に足る方かと。<end>"
@@ -628,6 +636,10 @@ korean = "여기에는 제게 남겨진 단 하나의 역할이 있습니다. �
 japanese = "そして、それは<line-break>そう遠い未来ではないでしょう。<end>"
 korean = "그리고 그것은 그리 먼 미래가 아닐 겁니다.<end>"
 
+["1360387"]
+japanese = "これで私の役目は…。<line-break>あとは…終わらせるだけ…。<end>"
+korean = "이걸로 내 역할은…. 이제… 끝내기만 하면 돼….<end>"
+
 ["1360388"]
 japanese = "私のことは心配に及びません。<line-break>どうかお気をつけて、<line-break><value:$28>様…。<end>"
 korean = "제 걱정은 하지 않으셔도 됩니다. 부디 조심하세요, <value:$28> 님….<end>"
@@ -711,6 +723,10 @@ korean = "앙길단 공!<end>"
 ["1360441"]
 japanese = "おっしゃる通りで。<end>"
 korean = "말씀하신 대로입니다.<end>"
+
+["1360446"]
+japanese = "でも、そのとき、私は<line-break>母と、光とを失ったんです…<end>"
+korean = "하지만 그때, 저는 어머니와 빛을 잃었습니다….<end>"
 
 ["1360456"]
 japanese = "ようこそ来られた。<line-break>じゃが、もうここには<line-break>闇の王女はおられぬ。<line-break>闇の王女は傷を癒すため<line-break>地上で最も闇の深い場所…。<end>"
@@ -823,6 +839,10 @@ korean = "그대로 지켜본다<end>"
 ["1360529"]
 japanese = "レイヴンを<line-break>あなたに渡すわけにはいきません！<end>"
 korean = "레이븐을 당신에게 넘길 수는 없습니다!<end>"
+
+["1360530"]
+japanese = "…ノ、ノエル…。<line-break>やめろ、君のかなう相手では…。<end>"
+korean = "…노, 노엘…. 그만둬, 네가 당해낼 상대가 아니야….<end>"
 
 ["1360531"]
 japanese = "レイヴンは、<line-break>わたしの大切な仲間です！<line-break>あなたの好きにはさせません！<line-break>あなたが<line-break>どうしてもと言うのなら…！<end>"

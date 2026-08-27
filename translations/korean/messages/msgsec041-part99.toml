@@ -140,6 +140,10 @@ korean = "노엘, 그 마도사를 죽여!<end>"
 japanese = "闇の神器を使って<line-break>世界を滅ぼそうとしている男だぞ！<end>"
 korean = "어둠의 신기를 써서 세계를 멸망시키려는 남자라고!<end>"
 
+["410043"]
+japanese = "いいえ。彼はあなたの言うような<line-break>人でありません。<end>"
+korean = "아니요. 그는 당신이 말하는 그런 사람이 아닙니다.<end>"
+
 ["410044"]
 japanese = "私を疑うのか？<end>"
 korean = "날 의심하는 건가?<end>"
@@ -423,6 +427,10 @@ korean = "<value:$28>이라고 하는구나…. 정말 고마워.<end>"
 ["410148"]
 japanese = "ナーシェス！<end>"
 korean = "나셰스!<end>"
+
+["410149"]
+japanese = "ノエル、カフィン！<line-break>ネメアだ。奴に神器を渡すな！<end>"
+korean = "노엘, 카핀! 네메아다. 녀석에게 신기를 넘기지 마!<end>"
 
 ["410150"]
 japanese = "…<value:$28>か。<end>"
