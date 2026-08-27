@@ -8,6 +8,10 @@ korean = "이크렘 V2 시작<end>"
 japanese = "傭兵志願の方ですね。<line-break>どうぞ、神官長様のお話を<line-break>お聞きください。<end>"
 korean = "용병 지원자시군요.부디 신관장님의 말씀을들어 주십시오.<end>"
 
+["1830002"]
+japanese = "聖なるこの地を守ろうという意志、<line-break>ありがたく思います。<line-break>そなたに清き水の加護があらんことを。<end>"
+korean = "이 성스러운 땅을 지키려는 뜻, 감사히 여기겠습니다. 그대에게 맑은 물의 가호가 있기를.<end>"
+
 ["1830003"]
 japanese = "では、これよりあなたには<line-break>この聖地の盾として働いてもらいます。<line-break>まずは…<end>"
 korean = "그럼 이제부터 당신에게 이 성지의 방패로 일해 주셔야겠습니다. 우선은…<end>"
@@ -84,6 +88,10 @@ korean = "다행이다~. 어떻게든 살아서 보수도 받았어~. 이런 건
 japanese = "<if><value:$2A><greater-equal>50よお、<value:$2B>の<line-break><value:$28>じゃないか。<line-break>どうだい、調子の方は？<end>よお、<value:$28>か。<line-break>どうだい、調子は？<end>"
 korean = "<if><value:$2A><greater-equal>50여어, <value:$2B>의<value:$28> 아니야.어때, 상태는?<end>여어, <value:$28>인가.어때, 상태는?<end>"
 
+["1830025"]
+japanese = "こないだ、アキュリュースの　　　<line-break>傭兵の話したろ？<line-break>あれな、集まりが悪いんだよ。<line-break>やっぱり、帝国相手に戦うってのは<line-break>どう考えても分が悪いしな。<line-break>みんな、腰が引けてるんだよ。<end>"
+korean = "전에 아큐류스 용병 이야기했지? 그게 모집이 잘 안 돼. 역시 제국을 상대로 싸운다는 건 아무리 생각해도 불리하니까. 다들 겁먹은 거야.<end>"
+
 ["1830027"]
 japanese = "引き受ける<end>"
 korean = "맡는다<end>"
@@ -135,6 +143,10 @@ korean = "맡는다<end>"
 ["1830039"]
 japanese = "やめておく<end>"
 korean = "그만둔다<end>"
+
+["1830040"]
+japanese = "…って、ちょっと待った。<line-break>あんた、ディンガルにも　　<line-break>やとわれているじゃないか！　　      <line-break>両方かけもちするのはよくないよ。<line-break>どちらか片方にしてくれ。<line-break>どっちにするんだい？<end>"
+korean = "…잠깐만. 너 딘갈에도 고용돼 있잖아! 양쪽을 동시에 맡는 건 좋지 않아. 어느 한쪽만 골라 줘. 어느 쪽이야?<end>"
 
 ["1830041"]
 japanese = "やっぱりディンガル側<end>"
@@ -211,6 +223,10 @@ korean = "전쟁 때문에 당분간 일도 없을 것 같으니 모처럼 푹 �
 ["1830064"]
 japanese = "戦いのすぐあとだから、<line-break>傭兵たちが殺気だってて、<line-break>恐いんだよ。<end>"
 korean = "싸움 직후라 용병들이 살기를 띠고 있어서 무서워.<end>"
+
+["1830065"]
+japanese = "ここでも激しい戦いがあったらしいね。<line-break>君たち傭兵も大変な仕事だね。<line-break>これからも守ってくれよ。<end>"
+korean = "여기서도 격렬한 싸움이 있었던 모양이네. 너희 용병도 힘든 일이군. 앞으로도 잘 지켜 줘.<end>"
 
 ["1830066"]
 japanese = "ディンガルのヤツらは、<line-break>再び攻めてくるにちがいない。<line-break>君も警戒を怠るなよ。<end>"

@@ -8,6 +8,10 @@ korean = "아트레이아 볼륨3 시작<end>"
 japanese = "<value:$28>…。<line-break>無限のソウルの持ち主…。<line-break>　<line-break>君が生きていてくれて<line-break>僕は嬉しいよ。<line-break>フフッ、ホントさ。<end>"
 korean = "<value:$28>…. 무한의 소울을 지닌 자…. 네가 살아 있어 줘서 기뻐. 후후, 진심이야.<end>"
 
+["760002"]
+japanese = "そう肩肘はらないでよ。<line-break>ただ、かわいそうな女の子のために<line-break>一肌脱ごうってだけなんだからさ。<end>"
+korean = "그렇게 딱딱하게 굴지 마. 그냥 불쌍한 여자아이를 위해 한몫하자는 것뿐이니까.<end>"
+
 ["760003"]
 japanese = "こんにちは。　　　　　　　　　　　<line-break><value:$28>…だっけ？<line-break>　<line-break>僕はこの大陸から東にある<line-break>遠い遠い所から来た魔道学士、<line-break>東方の博士シャリ。<end>"
 korean = "안녕하세요. <value:$28>…였죠? 저는 이 대륙에서 동쪽으로 아주 멀리 떨어진 곳에서 온 마도학사, 동방의 박사 샤리입니다.<end>"
@@ -112,6 +116,10 @@ korean = "그렇다면 됐어.<end>"
 japanese = "あたしもノエルと同じよ。<line-break>結果的には、そのシャリって奴の<line-break>思惑に乗ってしまったけど、<line-break>後悔はしていないわ。<line-break>かわいそうな王女を放っておくなんて<line-break>できないもの。<end>"
 korean = "나도 노엘과 같은 생각이야. 결과적으로는 샤리라는 녀석의 의도대로 움직인 셈이지만 후회는 없어. 불쌍한 왕녀를 내버려 둘 수는 없잖아.<end>"
 
+["760035"]
+japanese = "<if><value:$29><equal>%0呼び止めてしまって悪かったわね。<line-break>あたしたち、そろそろ行くわ。<line-break>またね、ボウヤ。<end>呼び止めてしまって悪かったわね。<line-break>あたしたち、そろそろ行くわ。<line-break>またね、子猫ちゃん。<end>"
+korean = "<if><value:$29><equal>%0불러 세워서 미안했네. 우리는 이제 가 볼게. 또 보자, 꼬마야.<end>불러 세워서 미안했네. 우리는 이제 가 볼게. 또 보자, 아기 고양이.<end>"
+
 ["760036"]
 japanese = "あ、あの、<value:$28>さん。<line-break>今回は違った行動を<line-break>とってしまいましたね。<line-break>でも、わたし、<line-break><value:$28>さんなら、<line-break>わかってくださると信じてますから。<end>"
 korean = "저, 저기, <value:$28> 씨. 이번에는 다른 행동을 해 버렸네요. 하지만 전 <value:$28> 씨라면 이해해 주실 거라 믿어요.<end>"
@@ -123,6 +131,10 @@ korean = "그럼, 이만 실례하겠습니다.<end>"
 ["760038"]
 japanese = "…何も言うことはないの？<line-break>まぁ、ぐだぐだと言いわけするよりは<line-break>カッコいいかもしれないけど…<line-break>ちょっと、残念ね。<line-break>あなたなら、王女を放っておくなんて<line-break>しないと思っていたのに。<end>"
 korean = "…아무 말도 할 게 없어? 뭐, 장황하게 변명하는 것보다는 멋질지도 모르지만… 조금 아쉽네. 당신이라면 왕녀를 내버려 두진 않을 줄 알았는데.<end>"
+
+["760039"]
+japanese = "<if><value:$29><equal>%0呼び止めてしまって悪かったわね。<line-break>あたしたち、そろそろ行くわ。<line-break>またね、ボウヤ。<end>呼び止めてしまって悪かったわね。<line-break>あたしたち、そろそろ行くわ。<line-break>またね、子猫ちゃん。<end>"
+korean = "<if><value:$29><equal>%0불러 세워서 미안했네. 우리는 이제 가 볼게. 또 보자, 꼬마야.<end>불러 세워서 미안했네. 우리는 이제 가 볼게. 또 보자, 아기 고양이.<end>"
 
 ["760040"]
 japanese = "あ、あの、<value:$28>さんには<line-break><value:$28>さんの事情が<line-break>あったんですよね。<line-break><value:$28>さんが、<line-break>何の理由もなしに、かわいそうな王女を<line-break>放っておくはずありませんから。<end>"

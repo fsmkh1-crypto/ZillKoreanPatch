@@ -500,6 +500,10 @@ korean = "인간<end>"
 japanese = "１２月　３１日<end>"
 korean = "12월 31일<end>"
 
+["190169"]
+japanese = "リベルダムを中心に冒険している活発な少女。<line-break>少年のような格好と話し方のために、男だと<line-break>勘違いされることも多い。<line-break>好奇心旺盛で故郷を抜け出しては冒険をして<line-break>いる。<line-break>　<line-break>　<line-break>　<end>"
+korean = "리벨덤을 중심으로 모험하는 활발한 소녀. 소년 같은 옷차림과 말투 때문에 남자로 오해받는 일도 많다. 호기심이 왕성해 고향을 빠져나와 모험하고 있다.<end>"
+
 ["190172"]
 japanese = "人間<end>"
 korean = "인간<end>"
@@ -739,6 +743,10 @@ korean = "인간<end>"
 ["190253"]
 japanese = "１１月　　９日<end>"
 korean = "11월 9일<end>"
+
+["190254"]
+japanese = "巧みな剣さばきと多彩な魔法で敵を倒す<line-break>ノエルパーティの魔法剣士。<line-break>毒舌で<value:$28>やレイヴンをからかって<line-break>楽しんでいる。<line-break>ノエルにとっては頼れるお姉さんといった存在。<line-break>　<line-break>　<line-break> <end>"
+korean = "능숙한 검술과 다양한 마법으로 적을 쓰러뜨리는 노엘 파티의 마법검사. 독설로 <value:$28>와 레이븐을 놀리며 즐긴다. 노엘에게는 믿음직한 언니 같은 존재.<end>"
 
 ["190255"]
 japanese = "ガルドラン<end>"

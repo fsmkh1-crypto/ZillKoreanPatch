@@ -128,6 +128,10 @@ korean = "………………. …나이뿐만이 아니다. 그대는 나와 승
 japanese = "特別なことはしてやれないが、<line-break>おめでとうぐらいは言わせてくれ。<end>"
 korean = "특별한 건 해줄 수 없지만 축하한다는 말 정도는 하게 해줘.<end>"
 
+["2580034"]
+japanese = "おめでとう、<value:$28>。<line-break>今日ぐらいはゆっくりするといい。<line-break>　<line-break>最近がんばりすぎているようだが、<line-break>あまり無茶をするな。<line-break>　<line-break>来年も、お前の誕生日を祝いたいからな。<end>"
+korean = "축하한다, <value:$28>. 오늘 정도는 느긋하게 쉬어. 요즘 너무 무리하는 것 같으니 너무 지나치진 마라. 내년에도 네 생일을 축하하고 싶으니까.<end>"
+
 ["2580035"]
 japanese = "私からも祝わせてもらうぞ。<line-break><value:$28>。<end>"
 korean = "나도 축하해 주지. <value:$28>.<end>"
@@ -187,6 +191,10 @@ korean = "나도 옛날에 누나에게 축하받은 적이 있어. 정말 기�
 ["2580053"]
 japanese = "誕生日なのね。<line-break>おめでとう。<line-break><value:$28>は何歳になったの？<end>"
 korean = "생일이구나. 축하해. <value:$28>는 몇 살이 됐어?<end>"
+
+["2580054"]
+japanese = "誕生日なのね。<line-break>　<line-break>　<line-break>こんなに素直に誕生日を<line-break>お祝いできるなんて、<line-break>ちょっと前までは考えられなかったわ。<line-break>おめでとう、<value:$28>。<line-break>これからもよろしくね。<end>"
+korean = "생일이구나. 이렇게 솔직하게 생일을 축하할 수 있게 되다니 얼마 전까지만 해도 상상도 못 했어. 축하해, <value:$28>. 앞으로도 잘 부탁해.<end>"
 
 ["2580055"]
 japanese = "おめでとう、<value:$28>。<line-break>これからも、よろしく頼む。<end>"

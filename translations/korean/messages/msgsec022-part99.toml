@@ -40,6 +40,10 @@ korean = "<value:$15>를 퇴치해 줄 사람 모집!! 사례는 <value:$1A>기�
 japanese = "邪悪なる者の気配が感じられます。<line-break><value:$15>を倒し、<line-break>かの地に清浄を取り戻してください。<line-break>お礼として<value:$1A>ギアをお持ちください。<line-break><value:$1B>日以内に果たされることを望みます。<end>"
 korean = "사악한 자의 기운이 느껴집니다. <value:$15>를 쓰러뜨리고 그 땅에 정화를 되찾아 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 이루어 주시길 바랍니다.<end>"
 
+["220066"]
+japanese = "<value:$15>が悪さをしおる。<line-break>そのおかげでわしらはたいへん迷惑しておる。<line-break>ひとつ懲らしめてやらにゃならん。<line-break>冒険者さん、頼まれてくれんか。<line-break><value:$1A>ギア出す。<line-break><value:$1B>日以内にお願いするぞ。<end>"
+korean = "<value:$15>가 말썽을 부려 우리 모두 크게 곤란해하고 있네. 혼 좀 내줘야겠어. 모험가 양반, 맡아 주겠나. <value:$1A>기어를 주지. <value:$1B>일 이내로 부탁하네.<end>"
+
 ["220073"]
 japanese = "ラドラス１<end>"
 korean = "라드라스1<end>"
