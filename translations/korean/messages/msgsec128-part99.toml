@@ -40,6 +40,10 @@ korean = "<select><value:$33>술집은 없습니다<end>술집은 없습니다<e
 japanese = "<select><value:$33>（未：AGETEA_07 旅立ち）<end>酒場はありません<end>酒場はありません<end>（未：AGETEA_07 ロセン王国陥落）<end>（未：AGETEA_07 アンギルダンの山越え）<end>（未：AGETEA_07 リベルダム陥落）<end>（未：AGETEA_07 カルラ進軍）<end>（未：AGETEA_07 ネメア死亡）<end>"
 korean = "<select><value:$33>(미사용: AGETEA_07 여행 시작)<end>술집은 없습니다<end>술집은 없습니다<end>(미사용: AGETEA_07 로센 왕국 함락)<end>(미사용: AGETEA_07 앙길단의 산 넘기)<end>(미사용: AGETEA_07 리벨덤 함락)<end>(미사용: AGETEA_07 카를라 진군)<end>(미사용: AGETEA_07 네메아 사망)<end>"
 
+["1280015"]
+japanese = "<select><value:$33>（未：AGETEA_08 旅立ち）<end>大陸では竜王の覚醒が乱世を呼ぶなんて騒いでる<line-break>ようだけど、すべてをお見通しのエア様が<line-break>いる限り、ここは平和だよ。<end>ディンガル皇帝になったネメアだけどな、<line-break>彼は皇帝になる少し前にエア様を訪ねて<line-break>いるそうだよ。<end>（未：AGETEA_08 ロセン王国陥落）<end>（未：AGETEA_08 アンギルダンの山越え）<end>（未：AGETEA_08 リベルダム陥落）<end>（未：AGETEA_08 カルラ進軍）<end>（未：AGETEA_08 ネメア死亡）<end>"
+korean = "<select><value:$33>(미사용: AGETEA_08 여행 출발)<end>대륙에서는 용왕의 각성이 난세를 부른다며 떠들썩한 모양이지만, 모든 걸 내다보는 에아 님이 계시는 한 이곳은 평화로워.<end>딩갈 황제가 된 네메아 말인데, 황제가 되기 조금 전에 에아 님을 찾아왔다고 해.<end>(미사용: AGETEA_08 로센 왕국 함락)<end>(미사용: AGETEA_08 안길단 산맥 횡단)<end>(미사용: AGETEA_08 리벨덤 함락)<end>(미사용: AGETEA_08 카를라 진군)<end>(미사용: AGETEA_08 네메아 사망)<end>"
+
 ["1280016"]
 japanese = "<select><value:$33>（未：AGETEA_09 旅立ち）<end>（未：AGETEA_09 旅立ち後）<end>（未：AGETEA_09 ネメア即位）<end>（未：AGETEA_09 ロセン王国陥落）<end>（未：AGETEA_09 アンギルダンの山越え）<end>（未：AGETEA_09 リベルダム陥落）<end>（未：AGETEA_09 カルラ進軍）<end>（未：AGETEA_09 ネメア死亡）<end>"
 korean = "<select><value:$33>(미사용: AGETEA_09 여행 출발)<end>(미사용: AGETEA_09 여행 출발 후)<end>(미사용: AGETEA_09 네메아 즉위)<end>(미사용: AGETEA_09 로센 왕국 함락)<end>(미사용: AGETEA_09 앙길단의 산 넘기)<end>(미사용: AGETEA_09 리벨덤 함락)<end>(미사용: AGETEA_09 카를라 진군)<end>(미사용: AGETEA_09 네메아 사망)<end>"
@@ -51,6 +55,10 @@ korean = "레베리스 잎으로 만든 차야. 이 차를 맛있게 우려내�
 ["1280025"]
 japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_02 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_02 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_02 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_02 50以上）<end>"
 korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_02 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_02 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_02 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_02 50 이상)<end>"
+
+["1280028"]
+japanese = "<if><value:$2C><less-equal>%9アハブには悪霊やら死霊がうようよいるぜ。<line-break>もう少し強くなるまで近づかないことだ。<end><if><value:$2C><less-equal>%29敵から逃げてばかりだと、<line-break>精霊力レベルが上がらないぞ。<end><if><value:$2C><less-equal>%49火、水、土、風の禁呪を習得するためには、<line-break>それぞれの属性を司る精霊神に会って、<line-break>封印を解いてもらわないといけないんだぜ。<end><if><value:$2C><greater-equal>%50いやあ、あんたは強い！<line-break>もう何も教えることはないよ。<end>"
+korean = "<if><value:$2C><less-equal>%9아하브에는 악령과 사령이 득실거려. 좀 더 강해질 때까지 가까이 가지 마.<end><if><value:$2C><less-equal>%29적에게 도망만 다니면 정령력 레벨이 오르지 않아.<end><if><value:$2C><less-equal>%49불, 물, 땅, 바람의 금주를 익히려면 각 속성을 관장하는 정령신을 만나 봉인을 풀어 달라고 해야 해.<end><if><value:$2C><greater-equal>%50이야, 넌 정말 강하군! 이제 내가 가르칠 건 없어.<end>"
 
 ["1280029"]
 japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_06 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_06 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_06 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_06 50以上）<end>"

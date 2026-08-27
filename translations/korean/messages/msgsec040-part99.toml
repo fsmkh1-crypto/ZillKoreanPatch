@@ -692,6 +692,10 @@ korean = "Wild에 대해 알려 줬으면 해<end>"
 japanese = "Ｃｏｏｌについて教えてほしい<end>"
 korean = "Cool에 대해 알려 줬으면 해<end>"
 
+["400181"]
+japanese = "<select><value:$20>%2Ｓｅａｒｃｈは探求心だ。<line-break>知識を求める心は<line-break>魔法を使うには必要だよな。　　<line-break>ただ、魔法を使うには<line-break>さらに精霊力が身についてないと<line-break>ダメなんだ。<end>Ｓｅａｒｃｈは探求心だ。<line-break>知識を求める心は<line-break>魔法を使うには必要だよな。　　　　　　<line-break>賢くなりたきゃ、この資質を上げるんだ。<line-break>さらに冷静さが加われば<line-break>大魔法使いにだってなれるさ。<end>"
+korean = "<select><value:$20>%2Search는 탐구심이야. 지식을 추구하는 마음은 마법을 쓰는 데 필요하지. 다만 마법을 쓰려면 정령력도 갖춰야 해.<end>Search는 탐구심이야. 지식을 추구하는 마음은 마법을 쓰는 데 필요하지. 똑똑해지고 싶다면 이 자질을 올려. 거기에 냉정함까지 더하면 대마법사가 될 수도 있어.<end>"
+
 ["400182"]
 japanese = "Ｂｅｌｉｅｆは信仰心だ。<line-break>神に仕える神官や僧侶には<line-break>なくちゃならない資質だよな。<line-break>いやす力が欲しければ、<line-break>信仰心を持つこった。<end>"
 korean = "Belief는 신앙심이다. 신을 섬기는 신관이나 승려에겐 꼭 필요한 자질이지. 치유의 힘을 원한다면 신앙심을 가져라.<end>"

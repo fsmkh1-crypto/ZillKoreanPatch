@@ -2272,6 +2272,10 @@ korean = "<select><value:$20>%3네? 제 얼굴이… 기뻐 보이나요…. …
 japanese = "本当に<value:$28>様には<line-break>何とお礼を言ってよいやら。<line-break> <line-break>あなた様が来てくださることが<line-break>どれだけ私たち姉妹の<line-break>救いになっていることか…。<end>"
 korean = "정말 <value:$28> 님께 뭐라 감사드려야 할지 모르겠습니다. 당신이 와 주시는 게 저희 자매에게 얼마나 큰 구원이 되는지…<end>"
 
+["1350575"]
+japanese = "<select><value:$20>%3<value:$28>様、<line-break>私より，ヴィアに話しかけて<line-break>あげてくださいませんでしょうか。<line-break>ヴィアはお兄ちゃんっ子で<line-break>いつも夜中になると泣いているのです。<line-break>私は姉ですからだいじょうぶですが…<end>元気づけてくださって<line-break>ありがとうございます。<line-break>お心遣い、うれしい…です。<end>兄のことを心配してくださるなんて、<line-break><value:$28>様は<line-break>おやさしい方なのですね。<end>"
+korean = "<select><value:$20>%3<value:$28>님, 저보다 비아에게 말을 걸어 주시지 않겠습니까. 비아는 오빠를 무척 따르는 아이라 밤마다 울고 있습니다. 저는 언니니까 괜찮지만…<end>기운을 북돋아 주셔서 감사합니다. 배려해 주셔서… 기쁩니다.<end>오빠를 걱정해 주시다니, <value:$28>님은 참 다정한 분이시군요.<end>"
+
 ["1350576"]
 japanese = "<select><value:$20>%3あんな兄ですが<line-break>私たち姉妹にとっては<line-break>かけがえのない存在なのです。<end>心配です。<line-break>兄は私たちを助けるため、<line-break>重い呪いを受け、廃人同様なのです。<end><value:$28>様、<line-break>兄のためにご迷惑をおかけして<line-break>申しわけございません。<end>"
 korean = "<select><value:$20>%3그런 오빠지만 우리 자매에게는 둘도 없는 소중한 존재입니다.<end>걱정됩니다. 오빠는 우리를 구하기 위해 무거운 저주를 받아 폐인이나 다름없는 상태입니다.<end><value:$28>님, 오빠 일로 폐를 끼쳐 드려 죄송합니다.<end>"

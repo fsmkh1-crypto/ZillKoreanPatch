@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["90006"]
+japanese = "<if><value:$2A><less-equal>%49勇者ネメアって知ってるか？　　<line-break>魔王バロルを倒して世界を救った<line-break>英雄なんだぜ。<line-break>俺もあの人みたいになりたくて<line-break>冒険者をやってるんだ。<line-break>なかなか有名になれないけどな。<end><if><value:$2A><less-equal>%120最近、<value:$28>って名の<line-break>冒険者が活躍しているらしいな。<line-break>俺も負けてられねえぜ。<end><value:$28>は化け物かっ！<line-break>どうやったらこんな短期間で<line-break>大陸中に名前が知れ渡るんだ！？<end>"
+korean = "<if><value:$2A><less-equal>%49용자 네메아를 알아? 마왕 바롤을 쓰러뜨리고 세계를 구한 영웅이야. 나도 그 사람처럼 되고 싶어서 모험자를 하고 있어. 좀처럼 유명해지진 않지만.<end><if><value:$2A><less-equal>%120요즘 <value:$28>라는 모험자가 활약한다더라. 나도 질 수 없지.<end><value:$28>는 괴물이냐! 어떻게 이렇게 짧은 시간에 대륙 전체에 이름이 알려진 거야!?<end>"
+
 ["90008"]
 japanese = "<select><value:$20>%3火の巫女ウルの血をひくフレア様が<line-break>火の神殿で祈ってくださるから、<line-break>わしらは安心して暮らせるんじゃよ。<end>長老のシェムハザ殿はコーンス族でな、<line-break>額に角が生えておる。<line-break>あれが魔力の源なのじゃ。<end>ウルカーンのことは長老のシェムハザ殿が<line-break>すべてしきっておる。おかげで研究に没頭できる<line-break>からありがたいことじゃ。<end>"
 korean = "<select><value:$20>%3불의 무녀 우르의 피를 이은 플레어 님이 불의 신전에서 기도해 주시니 우리는 안심하고 살 수 있는 게지.<end>장로 셰므하자 님은 코른스족이라 이마에 뿔이 나 있지. 저게 마력의 원천이야.<end>울칸의 일은 장로 셰므하자 님이 전부 맡고 있어. 덕분에 연구에 몰두할 수 있으니 고마운 일이지.<end>"

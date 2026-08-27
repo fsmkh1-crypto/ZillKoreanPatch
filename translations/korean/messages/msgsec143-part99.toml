@@ -64,6 +64,10 @@ korean = "…화낼 만도 하지. 확실히 더러운 방법이었어. 그 점�
 japanese = "その腕を見込んで、<line-break>ひとつ頼みがあるのよ。<end>"
 korean = "그 실력을 믿고 부탁 하나 할 게 있어.<end>"
 
+["1430018"]
+japanese = "<if><value:$01><equal>4きゃっ、ガラの悪い女。<line-break>この人たち何者かしら？ <end><if><value:$01><equal>12そりゃ、光栄だね。<line-break>で、おたく…どちらさん？ <end><if><value:$01><equal>15あなたたちは誰！？<line-break>どういうつもりなの？ <end><if><value:$01><equal>19あんたたち、誰なのよぉ！ <end><if><value:$01><equal>25突然、襲ってくるなんて、<line-break>ひどい！<line-break>何者なの？ <end>突然、襲ってくるなんて、<line-break>ひどいんじゃない？<line-break>君たち、何者なの？ <end>"
+korean = "<if><value:$01><equal>4꺅, 험상궂은 여자네. 이 사람들 누구지?<end><if><value:$01><equal>12그거 영광이군. 그런데 당신들… 누구지?<end><if><value:$01><equal>15당신들 누구야!? 무슨 생각이야?<end><if><value:$01><equal>19너희 누구냐고오!<end><if><value:$01><equal>25갑자기 덤벼들다니 너무해! 누구야?<end>갑자기 덤벼들다니 너무하잖아? 너희 누구야?<end>"
+
 ["1430019"]
 japanese = "聞いておどろくな！<line-break>俺たちはな…<line-break>洋上の王者、ワッシャー海賊！！<end>"
 korean = "듣고 놀라지 마라! 우리는… 바다의 왕자, 워셔 해적단이다!!<end>"
@@ -223,6 +227,10 @@ korean = "두목, 이 녀석 어떻게 할까요?<end>"
 ["1430062"]
 japanese = "残念ね。<line-break>少しは期待してたんだけど…。<line-break>　<line-break>あんたらに勝てないようじゃ、<line-break>話にならないね。<line-break>森の入り口に捨ててきな。<end>"
 korean = "아쉽네. 조금은 기대했는데…. 너희한테도 못 이길 정도면 말이 안 되지. 숲 입구에 버리고 와.<end>"
+
+["1430063"]
+japanese = "<if><value:$01><equal>2<value:$28>！<line-break><value:$28>、大丈夫？ <end><if><value:$01><equal>10姉ちゃん！　大丈夫か？ <end><if><value:$01><equal>24<value:$28>様！<end><if><value:$01><equal>25大丈夫？！<end><if><value:$01><equal>192大丈夫ですか？<end><if><value:$01><equal>193<value:$28>さん！<line-break>大丈夫ですか！？<end><if><value:$01><equal>194<value:$28>！<line-break>大丈夫か！？<end><if><value:$01><equal>191<value:$28>。<line-break>大丈夫？<end><if><value:$01><equal>190大丈夫か！？<line-break><value:$28>！<end><value:$28>！ <end>"
+korean = "<if><value:$01><equal>2<value:$28>! <value:$28>, 괜찮아?<end><if><value:$01><equal>10누나! 괜찮아?<end><if><value:$01><equal>24<value:$28>님!<end><if><value:$01><equal>25괜찮아?!<end><if><value:$01><equal>192괜찮습니까?<end><if><value:$01><equal>193<value:$28>님! 괜찮습니까!?<end><if><value:$01><equal>194<value:$28>! 괜찮아!?<end><if><value:$01><equal>191<value:$28>. 괜찮아?<end><if><value:$01><equal>190괜찮아!? <value:$28>!<end><value:$28>!<end>"
 
 ["1430065"]
 japanese = "（さっきの連中は、いったい…）<end>"

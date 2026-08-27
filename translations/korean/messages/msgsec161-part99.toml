@@ -512,6 +512,10 @@ korean = "역시 안 맡는 건가…. 뭐, 너도 사정이 있겠지. 그럼 �
 japanese = "<if><value:$29><equal>%0あ！　この前のおにいちゃん！！<end>あ！　この前のおねえちゃん！！<end>"
 korean = "<if><value:$29><equal>%0앗! 저번에 만난 오빠!!<end>앗! 저번에 만난 언니!!<end>"
 
+["1610128"]
+japanese = "<if><value:$29><equal>%0ねえ、お願いだよ。鳳凰山で　　<line-break>鳳凰を見つけてきてよ！！<line-break>　<line-break>ぼくこのまんまじゃ、みんなに<line-break>うそつきって言われちゃうよ…。<line-break>頼むよ、ねえ！　おにいちゃん！<end>ねえ、お願いだよ。鳳凰山で　　<line-break>鳳凰を見つけてきてよ！！<line-break>　<line-break>ぼくこのまんまじゃ、みんなに<line-break>うそつきって言われちゃうよ…。<line-break>頼むよ、ねえ！　おねえちゃん！<end>"
+korean = "<if><value:$29><equal>%0저기, 부탁이야. 봉황산에서 봉황을 찾아 와 줘!! 이대로면 모두가 날 거짓말쟁이라고 할 거야…. 부탁이야, 형아!<end>저기, 부탁이야. 봉황산에서 봉황을 찾아 와 줘!! 이대로면 모두가 날 거짓말쟁이라고 할 거야…. 부탁이야, 누나!<end>"
+
 ["1610129"]
 japanese = "任せとけ<end>"
 korean = "맡겨 둬<end>"

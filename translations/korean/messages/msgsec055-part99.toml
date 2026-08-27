@@ -676,6 +676,10 @@ korean = "꺄악!<end>"
 japanese = "うっ…！<end>"
 korean = "윽…!<end>"
 
+["550172"]
+japanese = "<if><value:$01><equal>10姉ちゃん、いくぜ！<end><if><value:$01><equal>15ねえ、<value:$28>！<line-break>今だよ！<end><if><value:$01><equal>2<value:$28>！<line-break>今よ！<end><if><value:$01><equal>19<value:$28>！<line-break>今よ！<end><if><value:$01><equal>4今、スキをついて攻撃すると<line-break>卑怯だけど効果的かも。きゃっ！<end><if><value:$01><equal>13…いくぞ。<end><if><value:$01><equal>14<value:$28>！<line-break>今じゃ！<end><if><value:$01><equal>17<value:$28>！<end><if><value:$01><equal>18今でござる！<end><value:$28>！<line-break>今だ！<end>"
+korean = "<if><value:$01><equal>10누나, 간다!<end><if><value:$01><equal>15저기, <value:$28>! 지금이야!<end><if><value:$01><equal>2<value:$28>! 지금이야!<end><if><value:$01><equal>19<value:$28>! 지금이야!<end><if><value:$01><equal>4지금 빈틈을 노려 공격하면 비겁하지만 효과적일지도. 꺅!<end><if><value:$01><equal>13…간다.<end><if><value:$01><equal>14<value:$28>! 지금이네!<end><if><value:$01><equal>17<value:$28>!<end><if><value:$01><equal>18지금이오!<end><value:$28>! 지금이야!<end>"
+
 ["550173"]
 japanese = "＜無＞<end>"
 korean = "＜없음＞<end>"

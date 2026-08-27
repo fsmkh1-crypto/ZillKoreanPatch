@@ -700,9 +700,17 @@ korean = "<select><value:$20>%3야, 장난도 적당히 해. 안 그래도 여�
 japanese = "困ったことになったな…。<line-break>よりによって宿屋のヴァンが<line-break>ケガさせられるだなんて…。<end>"
 korean = "곤란하게 됐군…. 하필 여관의 반이 다치다니….<end>"
 
+["280179"]
+japanese = "<select><value:$20>%2君と一緒に住んでる彼、<line-break>額に角がついていたね。<line-break>コーンスなんだね？　　　　　　　　<line-break>コーンスは魔法が得意な種族なんだが<line-break>最近、数が減ってきていてね。<line-break>世界を巡礼してても見なくなったよ。<end>この大陸、バイアシオンは<line-break>神話の大陸と呼ばれるほど<line-break>神々の足跡が残されているんだ。<line-break>私はその神々の足跡を訪ねて<line-break>世界中をまわる巡礼船長だ。<line-break>ハハハハ！<end>"
+korean = "<select><value:$20>%2너와 함께 사는 그 남자아이, 이마에 뿔이 있었지. 코른스인가? 코른스는 마법에 능한 종족인데 요즘 수가 줄어서 세계를 순례하면서도 보기 힘들어졌어.<end>이 대륙 바이아시온은 신화의 대륙이라 불릴 만큼 신들의 흔적이 남아 있어. 나는 그 신들의 발자취를 찾아 세계를 도는 순례선장이지. 하하하하!<end>"
+
 ["280180"]
 japanese = "なんだ、なんだ？<line-break>いったい何があったんだね？<end>"
 korean = "뭐야, 뭐야? 대체 무슨 일이 있었던 거지?<end>"
+
+["280181"]
+japanese = "<select><value:$20>%3………………。　　　　<line-break>　<line-break>　<line-break>…背中に何も<line-break>入れてないでしょうね？<end>昨日の地震…。<line-break>胸騒ぎがするわ…。<line-break>いったい、なんだったのかしら…。　<line-break>人の力なんて、自然の力に比べれば<line-break>ちっぽけなもの…。<line-break>ただ、祈るしかないのよ。<end>いっつも祈ってばっかりだって<line-break>バカにするけど、<line-break>あなたも神にざんげなさい。<line-break>そうしないと<line-break>いつかバチがあたるわよ！<end>"
+korean = "<select><value:$20>%3………………. …등에 아무것도 넣어 둔 건 아니겠지?<end>어제 지진…. 불길한 예감이 들어…. 대체 뭐였을까…. 인간의 힘은 자연의 힘에 비하면 보잘것없어…. 그저 기도할 수밖에.<end>맨날 기도만 한다고 놀리지만 너도 신께 참회해. 안 그러면 언젠가 벌받을 거야!<end>"
 
 ["280182"]
 japanese = "おお、天空神ノトゥーンよ、<line-break>戒めと裁きの神ノトゥーンよ、<line-break>罪深き少年たちに罰を…。<end>"
