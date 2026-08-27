@@ -21,7 +21,10 @@ KO_RE = re.compile(r'^korean = (?P<value>".*")$')
 
 # Japanese source term -> (canonical Korean, known-safe spelling variants)
 RULES: dict[str, tuple[str, tuple[str, ...]]] = {
-    "アーギルシャイア": ("아르길샤이어", ("아길샤이어",)),
+    "アーギルシャイア": (
+        "아르길샤이어",
+        ("아길샤이어", "아르길샤이아", "아기르샤이아", "아길샤이아"),
+    ),
     "ロストール": ("로스토올", ("로스톨", "로스토르", "로스트올")),
     "リベルダム": ("리벨덤", ("리베르담", "리벨담")),
     "ギア": ("기어", ("기아",)),
@@ -29,15 +32,18 @@ RULES: dict[str, tuple[str, tuple[str, ...]]] = {
     "エンシャント": ("엔샨트", ("엔션트",)),
     "オッシ": ("오시", ("옷시",)),
     "フルーヴ": ("프루브", ("플루브",)),
-    "クリュセイス": ("크류세이스", ("크리세이스",)),
+    "クリュセイス": ("크류세이스", ("크리세이스", "크뤼세이스")),
     "ソリアス": ("솔리아스", ("소리아스",)),
     "ロッシマ": ("롯시마", ("로시마",)),
-    "ラミリー山": ("라밀리 산", ("라미리 산",)),
+    "ガルドラン": ("갈드란", ("가르드란",)),
+    "ケリュネイア": ("케류네이아", ("케리네이아",)),
+    "ラミリー山": ("라밀리 산", ("라미리 산", "라미리산")),
     "アルノートゥン": ("알노툰", ("아르노툰",)),
     "リルビー": ("릴비", ("릴루비",)),
     "ソウルリープ": ("소울 리프", ("소울리프",)),
     "タルテュバ": ("타르튜바", ("탈테튜바", "타르테튜바")),
-    "ルブルグ": ("루브르그", ("루브루그",)),
+    "ルブルグ": ("루브르그", ("루브루그", "루부르그")),
+    "ドルドラム": ("돌드람", ("도르드람",)),
 }
 
 
@@ -81,7 +87,6 @@ def main() -> None:
                 continue
 
             new = ko
-            touched: list[str] = []
             for ja_term, (canonical, variants) in RULES.items():
                 if ja_term not in ja:
                     continue
@@ -89,10 +94,8 @@ def main() -> None:
                     n = new.count(variant)
                     if n:
                         new = new.replace(variant, canonical)
-                        replacement_counts[f"{ja_term}:{variant}->{canonical}"] = replacement_counts.get(
-                            f"{ja_term}:{variant}->{canonical}", 0
-                        ) + n
-                        touched.append(ja_term)
+                        key = f"{ja_term}:{variant}->{canonical}"
+                        replacement_counts[key] = replacement_counts.get(key, 0) + n
             if new != ko:
                 lines[i] = "korean = " + json.dumps(new, ensure_ascii=False)
                 dirty = True
