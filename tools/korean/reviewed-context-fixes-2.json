@@ -16,6 +16,5 @@
   "590091": {"old":"참가하지 않는다<end>","new":"합류하지 않는다<end>","reason":"Standalone party-choice 加わらない; normalize with 1630095."},
   "1420506": {"old":"단장! 축하한다고블! 잔치라고블.<end>","new":"단장! 축하한다 고브! 잔치다 고브.<end>","reason":"Exact goblin line as 1410478; preserve established 고브 speech suffix and spacing."},
   "1410533": {"old":"기다려! 악당!<end>","new":"거기 서! 악당!<end>","reason":"Exact Galladran catchphrase as 460004; natural imperative rendering."},
-  "1910152": {"old":"나는 용왕… 세계의 목자, 신의 대리자…. <value:$28>여… 내 숨결에 사라져라…!<end>","new":"나는 용왕…. 세계의 목자, 신의 대리자다…. <value:$28>여… 나의 숨결에 휩쓸려 사라져라…!<end>","reason":"Exact Dragon King self-declaration as 1420521; use one elevated canonical rendering."},
-  "830007": {"old":"저희는 당신을 이 유언을 받을 만한 인물이라고 판단한 것입니다.<end>","new":"저희는 당신을 이 유언에 걸맞은 인물이라고 판단한 것입니다.<end>","reason":"Exact repeated testament line as 1340381; source is 'worthy of this testament'."}
+  "1910152": {"old":"나는 용왕… 세계의 목자, 신의 대리자…. <value:$28>여… 내 숨결에 사라져라…!<end>","new":"나는 용왕…. 세계의 목자, 신의 대리자다…. <value:$28>여… 나의 숨결에 휩쓸려 사라져라…!<end>","reason":"Exact Dragon King self-declaration as 1420521; use one elevated canonical rendering."}
 }
