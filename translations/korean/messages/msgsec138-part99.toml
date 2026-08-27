@@ -1316,6 +1316,14 @@ korean = "당신, 신참 모험자지?<end>"
 japanese = "え？<line-break>なんで新米だってわかったんだ？　　<line-break>　<end>"
 korean = "어? 내가 신참인 걸 어떻게 알았지?<end>"
 
+["1380512"]
+japanese = "な、なるほど。<line-break>それなら、強化してくれないか。　　<line-break>　<end>"
+korean = "그, 그렇군. 그렇다면 강화해 주지 않겠나.<end>"
+
+["1380513"]
+japanese = "武器の強化には、錬剛石が必要だが、<line-break>持ってるかい？<line-break>　<end>"
+korean = "무기 강화에는 연강석이 필요한데, 가지고 있나?<end>"
+
 ["1380517"]
 japanese = "なるほど。<line-break>冒険者は何ごとも冒険から　　　　　<line-break>ってことだな。<line-break>それじゃあ、おやじ。<line-break>錬剛石を手に入れたら、また来るよ。<end>"
 korean = "그렇군. 모험자는 뭐든 모험에서 시작한다는 거네. 그럼 아저씨, 연강석을 손에 넣으면 다시 올게.<end>"
@@ -1427,6 +1435,10 @@ korean = "정령 속성 변경이란?<end>"
 ["1380547"]
 japanese = "すべて理解できている<end>"
 korean = "전부 이해하고 있다.<end>"
+
+["1380555"]
+japanese = "こいつは難しい仕事だから、<line-break>それなりのギアをいただくが、<line-break>重宝するぜ。<line-break>強度や形状を変えてもまだ…<line-break>って時には、<line-break>ぜひ試してみてくれよ。<end>"
+korean = "이건 어려운 일이니 그만큼 기어를 받지만 아주 쓸모 있어. 강도나 형상을 바꿔도 아직 부족하다 싶을 때 꼭 시험해 봐.<end>"
 
 ["1380556"]
 japanese = "俺たちにとっても、<line-break>いい稼ぎになるしな。<end>"

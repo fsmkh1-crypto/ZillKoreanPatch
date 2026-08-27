@@ -1628,6 +1628,10 @@ korean = "방금, 뭐라고…?<end>"
 japanese = "え？　え！？<line-break>…それは、どうすれば…？<end>"
 korean = "어? 어!? …그건 어떻게 하면 돼…?<end>"
 
+["890666"]
+japanese = "ここは、竜王様のおられる地。<line-break>竜王様に願うのだ。ふたりの復活を。<end>"
+korean = "여기는 용왕님이 계신 땅. 용왕님께 빌어라. 두 사람의 부활을.<end>"
+
 ["890667"]
 japanese = "竜王様に…願う…？<end>"
 korean = "용왕님께… 소원을…?<end>"
@@ -1843,6 +1847,10 @@ korean = "오랜만이구나, 벨제바. 이미 결계를 쳐 두었다니. 그�
 ["890735"]
 japanese = "　　聞こえるか、<value:$28>よ。<end>"
 korean = "들리느냐, <value:$28>여.<end>"
+
+["890739"]
+japanese = "<value:$28>よ…。<line-break>多少、時間はかかったが、<line-break>すべては余の計画通りになった。<line-break>いよいよだぞ。<line-break>我らが人類の革新に<line-break>本格的に乗り出すのは…。<end>"
+korean = "<value:$28>…. 조금 시간은 걸렸지만 모든 것이 내 계획대로 되었다. 이제 시작이다. 우리 인류의 혁신에 본격적으로 나서는 것이….<end>"
 
 ["890741"]
 japanese = "エステルメッセージVOL4終端<end>"

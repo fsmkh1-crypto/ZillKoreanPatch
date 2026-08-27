@@ -536,6 +536,14 @@ korean = "당신, 신참 모험자지?<end>"
 japanese = "え？<line-break>なんで新米だってわかったんだ？　　<line-break>　<end>"
 korean = "어? 내가 신참인 걸 어떻게 알았지?<end>"
 
+["400201"]
+japanese = "な、なるほど。<line-break>それなら、強化してくれないか。　　<line-break>　<end>"
+korean = "그, 그렇군. 그렇다면 강화해 주지 않겠나.<end>"
+
+["400202"]
+japanese = "武器の強化には、錬剛石が必要だが、<line-break>持ってるかい？<line-break>　<end>"
+korean = "무기 강화에는 연강석이 필요한데, 가지고 있나?<end>"
+
 ["400205"]
 japanese = "なるほど。<line-break>冒険者は何ごとも冒険から　　　　　<line-break>ってことだな。<line-break>それじゃあ、おやじ。<line-break>錬剛石を手に入れたら、また来るよ。<end>"
 korean = "그렇군. 모험자는 뭐든 모험에서 시작한다는 거네. 그럼 아저씨, 연강석을 손에 넣으면 다시 올게.<end>"

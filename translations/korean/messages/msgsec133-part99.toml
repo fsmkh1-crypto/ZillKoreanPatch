@@ -700,6 +700,10 @@ korean = "그럼 나머지는 맡길게. 자, 회복.<end>"
 japanese = "これでも本職は魔道アカデミーの<line-break>卒業者です。傷ついたら、<line-break>いつでも戻ってきてください。<line-break>御武運を！<end>"
 korean = "이래 봬도 본업은 마도 아카데미 졸업자입니다. 다치면 언제든 돌아오세요. 무운을 빕니다!<end>"
 
+["1330342"]
+japanese = "　　　　　愚かなり、ナーシェス…　　　　　　<line-break>　　　　　　この竜王が与えし、<line-break>　　　　　無限のソウルを持つ者を<line-break>　　　　　　使いこなせぬとは…<end>"
+korean = "어리석구나, 나셰스…. 이 용왕이 내려 준 무한의 소울을 가진 자를 제대로 다루지 못하다니….<end>"
+
 ["1330343"]
 japanese = "<value:$28>殿、<line-break>ここはお任せください！<end>"
 korean = "<value:$28>님, 여기는 맡겨 주십시오!<end>"
@@ -1271,6 +1275,10 @@ korean = "으으…, 역시 강해….<end>"
 ["1330618"]
 japanese = "やめて、ナーシェス。<line-break><value:$28>さんに<line-break>そのことは言わないで！<end>"
 korean = "그만해, 나셰스. <value:$28>에게 그 얘기는 하지 마!<end>"
+
+["1330621"]
+japanese = "<value:$28>、<line-break>お前を慕っていたノエルが<line-break>ここに来た理由がわかるか？<line-break>お前が死なない限り、<line-break>カフィンとレイヴンが死人に<line-break>戻ってしまうからだ！<end>"
+korean = "<value:$28>, 너를 따르던 노엘이 왜 여기 왔는지 아나? 네가 죽지 않는 한 카핀과 레이븐이 다시 죽은 자로 돌아가 버리기 때문이다!<end>"
 
 ["1330624"]
 japanese = "ば、バカな！<line-break>貴様、正気か…！？　　<line-break>　<line-break>私に刃向かうのは<line-break>竜王様に剣を向けるのと<line-break>同じことだぞ！<end>"
