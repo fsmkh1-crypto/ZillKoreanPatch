@@ -52,6 +52,10 @@ korean = "아쉽군, <value:$28>군. 이렇게 일이 늦을 줄이야…. 편�
 japanese = "早く届けてくれ。<line-break>重要な手紙なんだ。　　　　<end>"
 korean = "빨리 전해 줘. 중요한 편지다.<end>"
 
+["1040023"]
+japanese = "まったくどういうつもりなんだ！<line-break>だいたい、あの手紙の内容を<line-break>私は知らんぞ。<end>"
+korean = "대체 무슨 생각인 거냐! 애초에 그 편지 내용은 나도 모른다고.<end>"
+
 ["1040024"]
 japanese = "ロセンのカルラ軍の動向を<line-break>記した文章です。<end>"
 korean = "로센의 카를라군 동향을 기록한 문서입니다.<end>"
@@ -147,6 +151,10 @@ korean = "사, 살았네….<end>"
 ["1040052"]
 japanese = "クリュセイス様！<line-break>どうしました？<end>"
 korean = "크류세이스 님! 무슨 일이십니까?<end>"
+
+["1040053"]
+japanese = "し、侵入者です。<line-break>おそらく私の命をねらったのでしょう。<line-break>今、出ていった男です。<end>"
+korean = "치, 침입자입니다. 아마 제 목숨을 노렸겠죠. 방금 나간 남자입니다.<end>"
 
 ["1040054"]
 japanese = "え、本当ですか！？<line-break>も、申しわけありません！<line-break>しかし…、あの男は…。<end>"

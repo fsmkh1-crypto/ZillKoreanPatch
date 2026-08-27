@@ -92,6 +92,10 @@ korean = "…뭐, 됐나. 그럼 안녕, <value:$28>.<end>"
 japanese = "待ちなよ。<end>"
 korean = "기다려.<end>"
 
+["1030027"]
+japanese = "あんた、親友に毒入りの酒が<line-break>届けられたって時に、ぼーっと<line-break>それを見てたのかい？<end>"
+korean = "친구에게 독이 든 술이 배달됐는데 멍하니 보고만 있었던 거야?<end>"
+
 ["1030030"]
 japanese = "し、しかし！　奴の態度は<line-break>あからさまに不審だったのだ！<end>"
 korean = "하, 하지만! 녀석의 태도는 누가 봐도 수상했다!<end>"
@@ -239,6 +243,10 @@ korean = "크크크. 경기 중 사고는 투기장에선 흔한 일이니까. �
 ["1030075"]
 japanese = "きっと、お父様も<line-break>お喜びになられるはずです…。<end>"
 korean = "분명 아버님도 기뻐하실 거예요….<end>"
+
+["1030076"]
+japanese = "目が覚めたようね。　　　　　　　<line-break>剣闘士<value:$28>。<line-break>　<line-break>今日も闘技場で戦ってもらいます。<line-break>もう試合の準備は整っています。<line-break>さぁ、行きなさい。<end>"
+korean = "정신이 든 모양이군요. 검투사 <value:$28>. 오늘도 투기장에서 싸워 주셔야 합니다. 이미 시합 준비는 끝났습니다. 자, 가세요.<end>"
 
 ["1030077"]
 japanese = "試合の準備はできているようね。<line-break>でも、もうその必要はなくなったわ。<end>"

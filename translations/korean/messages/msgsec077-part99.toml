@@ -112,6 +112,10 @@ korean = "미안해요. 저처럼 못생긴 사람이 따라다녀서 당신을 
 japanese = "アトレイア様…、<line-break>大丈夫でしょうか？<end>"
 korean = "아트레이아 님… 괜찮으실까요?<end>"
 
+["770034"]
+japanese = "今日は…ありがとうございます。<line-break>タルテュバ様に迫られていて<line-break>どうしようかと思っていました。<line-break>…つかれました。<line-break>申しわけありませんが<line-break>これで部屋に戻ります。<end>"
+korean = "오늘은… 감사합니다. 타르튜바 님께서 다가오셔서 어쩌나 했어요. …지쳤습니다. 죄송하지만 이만 방으로 돌아가겠습니다.<end>"
+
 ["770035"]
 japanese = "あ…、<value:$28>様…。<end>"
 korean = "아…, <value:$28> 님….<end>"
@@ -344,6 +348,10 @@ korean = "그럼 민물고기 소금구이로 괜찮으시겠습니까?<end>"
 japanese = "いえ。<line-break>ええと、こっちは？<end>"
 korean = "아뇨. 음, 이쪽은요?<end>"
 
+["770094"]
+japanese = "だから、それが<line-break>スライムのあんかけだって。<line-break>だまされたと思って食ってみろよ。<end>"
+korean = "그러니까 그게 슬라임 앙카케라니까. 속는 셈 치고 먹어 봐.<end>"
+
 ["770095"]
 japanese = "それじゃ、これは？<end>"
 korean = "그럼, 이건 어때?<end>"
@@ -391,6 +399,10 @@ korean = "…응? 뭐지.<end>"
 ["770107"]
 japanese = "この…メニューを<line-break>いただけませんでしょうか…。<end>"
 korean = "이… 메뉴를 받을 수 있을까요….<end>"
+
+["770108"]
+japanese = "へぇ、妙なものが<line-break>気に入っちまったんだなぁ。　　<line-break>よし、特別に差し上げよう。<end>"
+korean = "헤에, 별난 게 마음에 들었구나. 좋아, 특별히 줄게.<end>"
 
 ["770110"]
 japanese = "…すみません、<line-break>騒ぎ過ぎてしまって。<line-break>朝になって…しまいましたね…。<end>"
@@ -443,6 +455,10 @@ korean = "꺄아아아아!! 어머니! 어머니!!<end>"
 ["770124"]
 japanese = "イヤ…嫌ァアアアアア！！　　<line-break>　<line-break>　<line-break>お母様！　お母様！<line-break>置いていかないで！　お母様！<end>"
 korean = "싫어… 싫어어어어어!! 어머니! 어머니! 두고 가지 마세요! 어머니!<end>"
+
+["770125"]
+japanese = "ああ…、私のアトレイア…。　　　<line-break>寒くて……暗くて…、<line-break>痛いわ…、苦しいわ…。<line-break>この世界は<line-break>つらくて悲しいことばかり…。<line-break>みんな虚無に帰した方がいいの…。<end>"
+korean = "아아… 나의 아트레이아…. 춥고…… 어둡고…, 아파… 괴로워…. 이 세계는 힘들고 슬픈 일뿐이야…. 모두 허무로 돌아가는 편이 좋아…<end>"
 
 ["770126"]
 japanese = "つらくて…悲しい…世界……。　　<line-break>だから…みんな…虚無に……。<line-break>　<end>"

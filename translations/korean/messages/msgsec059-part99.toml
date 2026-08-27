@@ -44,6 +44,10 @@ korean = "수락한다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["590015"]
+japanese = "そうこなくちゃ。<line-break>よしよし、今、登録して　　　　　　　<line-break>紹介状を送るからな…。<end>"
+korean = "그래야지. 좋아, 지금 등록하고 소개장을 보낼 테니까…<end>"
+
 ["590017"]
 japanese = "やっぱりアキュリュース側<end>"
 korean = "역시 아큐류스 쪽<end>"
@@ -139,6 +143,10 @@ korean = "물자 보급도 끊기면 우리는 위기에 빠질 것이네. 즉, 
 ["590058"]
 japanese = "<value:$28>殿の言うとおりです。<line-break>それは略奪行為です。<line-break>将軍、思いとどまってください。<end>"
 korean = "<value:$28>님의 말씀이 맞습니다. 그건 약탈입니다. 장군, 재고해 주십시오.<end>"
+
+["590059"]
+japanese = "戦争は血塗られた道よ。　　　<line-break>いかに取り繕おうともな。<line-break>　<line-break>せめて、流される血が少ないように<line-break>努力するまでじゃ。<line-break>責任はわしが持つ。任務の遂行を命ず。<end>"
+korean = "전쟁은 피로 물든 길이다. 아무리 꾸며도 말이지. 그저 흘릴 피가 조금이라도 적도록 노력할 뿐이다. 책임은 내가 진다. 임무 수행을 명한다.<end>"
 
 ["590060"]
 japanese = "<value:$28>様、<line-break>お気持ちはお察しいたします。<line-break>ですが、命令は遂行なさらないと…。<end>"

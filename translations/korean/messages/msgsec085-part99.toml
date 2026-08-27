@@ -220,9 +220,17 @@ korean = "그런가, 역시 로센 총독 부조리의 사주였나….<end>"
 japanese = "お前の母さんの一族を皆殺しにした<line-break>カルラの懐刀とも言われる男だ。<line-break>　<line-break>重い税で、ロセンを趣味の悪い<line-break>リベルダムのまがい物に変え、<line-break>リベルダムに対抗している。<end>"
 korean = "네 어머니 일족을 몰살한, 칼라의 오른팔이라고도 불리는 남자다. 무거운 세금으로 로센을 취향 나쁜 리벨덤의 모조품으로 바꾸고 리벨덤에 맞서고 있지.<end>"
 
+["850067"]
+japanese = "クリュセイス…。<line-break>今、ロセンの人々にとっては　　　<line-break>お前だけが希望の光なのだ。<end>"
+korean = "크류세이스…. 지금 로센 사람들에게는 너만이 희망의 빛이다.<end>"
+
 ["850068"]
 japanese = "<value:$28>君、<line-break>どうか、私の願いを聞いてくれ。<line-break>　<line-break>今、私はロセンの解放軍の<line-break>支援をしている。ロセンの人々を<line-break>ディンガルから解放するためだ。<end>"
 korean = "<value:$28> 군, 부디 내 부탁을 들어 주게. 지금 나는 로센 해방군을 지원하고 있어. 로센 사람들을 딘갈에서 해방하기 위해서다.<end>"
+
+["850069"]
+japanese = "正直、総督ブゾリの悪逆さのために<line-break>状況は芳しくない。<line-break>　<line-break>どうだろう。君ほどの者が<line-break>協力してくれれば、士気も高まり、<line-break>ブゾリにも対抗できると思うのだが…。<end>"
+korean = "솔직히 총독 부조리의 악행 때문에 상황은 좋지 않다. 자네 같은 사람이 협력해 준다면 사기도 오르고 부조리에게도 맞설 수 있을 것 같은데…<end>"
 
 ["850072"]
 japanese = "私はリベルダムの市民として、<line-break>そんな奴らにリベルダムが、<line-break>蹂躙されるのを黙視できない…。　　　<line-break>そんな奴らに<line-break>ロセンが抑圧されているのも<line-break>看過できないのだ。<end>"
@@ -335,6 +343,10 @@ korean = "네, 이쪽 분을 총독부 앞까지 데려다줘.<end>"
 ["850118"]
 japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
 korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
+
+["850119"]
+japanese = "いらっしゃーい。<line-break>きっと来ると思ってたわ。<line-break>アタシの下で、働く気になったのね？<end>"
+korean = "어서 와. 분명 올 줄 알았어. 내 밑에서 일할 생각이 든 거지?<end>"
 
 ["850121"]
 japanese = "今までにいくつもの予言をして　　　　<line-break>そのすべてが当たってるのよ。<line-break>　<line-break>一番有名なのは、魔王バロルが<line-break>バロルの娘の子に殺されるって<line-break>予言したことね。<end>"

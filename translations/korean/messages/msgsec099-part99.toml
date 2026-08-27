@@ -248,6 +248,10 @@ korean = "드디어 꿈이 이루어졌어. 그럼.<end>"
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>こんなところに来るなんて<line-break>どういうつもり？<line-break>今の私たちは敵同士なのよ！？<end>"
 korean = "<value:$28>…. 이런 곳에 오다니 무슨 생각이야? 지금 우리는 적이나 다름없다고!?<end>"
 
+["990078"]
+japanese = "…早く、行きなさい。<line-break>今回だけは見逃してあげる。<line-break>もう私の前に姿を見せないで。<end>"
+korean = "…빨리 가. 이번만은 봐줄게. 다시는 내 앞에 모습을 보이지 마.<end>"
+
 ["990079"]
 japanese = "…あなたも懲りない人ね。<line-break>同じことを何回も言わせないで。<line-break>　<line-break>私たちは逆の道を歩いているの。<line-break>もう、ここには来ないで。<line-break>次は見逃してあげないから。<end>"
 korean = "…당신도 참 질리지 않는 사람이네. 같은 말 몇 번이나 하게 하지 마. 우리는 반대의 길을 걷고 있어. 이제 여기 오지 마. 다음엔 봐주지 않을 테니까.<end>"
@@ -343,6 +347,10 @@ korean = "<value:$28>잖아. 그럼 난 바쁘니까.<end>"
 ["990112"]
 japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>どういうつもりで<line-break>ここに来ているの？<line-break>今の私たちは敵同士なのよ！？<end>"
 korean = "<value:$28>…. 무슨 생각으로 여기에 온 거야? 지금 우리는 적이라고!?<end>"
+
+["990113"]
+japanese = "…早く、いきなさい。<line-break>今回だけは見逃してあげる。<line-break>もう私の前に姿を見せないで。<end>"
+korean = "…빨리 가. 이번만은 봐줄게. 다시는 내 앞에 모습을 보이지 마.<end>"
 
 ["990114"]
 japanese = "…あなたも懲りない人ね。<line-break>同じことを何回も言わせないで。<line-break>　<line-break>私たちは逆の道を歩いているの。<line-break>もう、ここに来ないで。<line-break>次は見逃してあげないから…。<end>"

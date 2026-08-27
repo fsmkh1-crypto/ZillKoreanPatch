@@ -32,6 +32,10 @@ korean = "<value:$28>도 조심해.<end>"
 japanese = "あぁ…わかった。<line-break>ご苦労。<end>"
 korean = "아아… 알았다. 수고했다.<end>"
 
+["1020013"]
+japanese = "アイリーン将軍。本当にこの作戦を<line-break>実行してもよろしいのですか。<line-break>このままでは…<end>"
+korean = "아이린 장군. 정말 이 작전을 실행해도 되는 겁니까. 이대로라면…<end>"
+
 ["1020014"]
 japanese = "バカなことを聞くな！<line-break>カルラ様の判断は正しい。<line-break>我らはそれに従うまでだ。<end>"
 korean = "바보 같은 걸 묻지 마! 칼라 님의 판단은 옳다. 우리는 따르기만 하면 돼.<end>"
@@ -83,6 +87,10 @@ korean = "으… 흐윽….<end>"
 ["1020034"]
 japanese = "うぅ…あ…。<end>"
 korean = "으으… 아….<end>"
+
+["1020035"]
+japanese = "お前にはこいつがいるだろうが。<line-break>泣きたいときには<line-break>思いっきり泣けばいいんだよ。<end>"
+korean = "너한텐 이 녀석이 있잖아. 울고 싶을 때는 실컷 울면 돼.<end>"
 
 ["1020036"]
 japanese = "あーーーーー！<line-break><value:$28>っ！<line-break><value:$28>ー！<end>"

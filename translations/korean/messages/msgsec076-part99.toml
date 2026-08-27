@@ -28,6 +28,10 @@ korean = "맡지 않는다<end>"
 japanese = "じゃ、よろしくね、<line-break><value:$28>。<end>"
 korean = "그럼 잘 부탁해, <value:$28>.<end>"
 
+["760016"]
+japanese = "冷たいんだねぇ、君って。<line-break>いいよ。別口を当たるから。<line-break>じゃあねえ。フフフッ。<end>"
+korean = "차갑네, 너. 됐어. 다른 쪽을 알아볼 테니까. 잘 있어. 후후훗.<end>"
+
 ["760017"]
 japanese = "あ、<value:$28>さん！<line-break>同じ宿に泊まっていたんですね。<end>"
 korean = "아, <value:$28>님! 같은 여관에 묵고 있었군요.<end>"
@@ -79,6 +83,10 @@ korean = "저, 저기, <value:$28> 씨. 이번에는 다른 행동을 해 버렸
 ["760037"]
 japanese = "それでは、失礼します。<end>"
 korean = "그럼, 이만 실례하겠습니다.<end>"
+
+["760040"]
+japanese = "あ、あの、<value:$28>さんには<line-break><value:$28>さんの事情が<line-break>あったんですよね。<line-break><value:$28>さんが、<line-break>何の理由もなしに、かわいそうな王女を<line-break>放っておくはずありませんから。<end>"
+korean = "저, 저기, <value:$28> 씨에게는 <value:$28> 씨만의 사정이 있었던 거죠. <value:$28> 씨가 아무 이유 없이 불쌍한 공주를 내버려 둘 리 없으니까요.<end>"
 
 ["760041"]
 japanese = "それでは、失礼します。<end>"

@@ -12,6 +12,10 @@ korean = "저는 그 사건을 기억하지 못해요. 아직 아기였으니까
 japanese = "…レルラ＝ロントン様が<line-break>そうおっしゃっていました。　　　　<line-break>　<end>"
 korean = "…레를라 론톤 님이 그렇게 말씀하셨어요.<end>"
 
+["780007"]
+japanese = "ゼネテス様に、あとで確認しようと　　<line-break>お話を伺いましたら、<line-break>はぐらかされました。<line-break>フフ、あのはぐらかし方だと<line-break>レルラ＝ロントン様のお話は<line-break>事実ですね。<end>"
+korean = "제네테스 님께 나중에 확인하려고 말씀을 여쭤봤더니 얼버무리시더군요. 후후, 그 얼버무리는 모습이라면 렐라=론톤 님의 이야기는 사실이네요.<end>"
+
 ["780012"]
 japanese = "あ、あの…、<line-break>あなたはいったい…？<end>"
 korean = "저, 저기… 당신은 대체…?<end>"
@@ -83,6 +87,10 @@ korean = "맛을 본다<end>"
 ["780035"]
 japanese = "いやだ<end>"
 korean = "싫어<end>"
+
+["780036"]
+japanese = "<if><value:$29><equal>%0やさしい男だな。<line-break>ま、男はやさしいだけじゃ<line-break>ダメなんだがな。<end>やさしい奴だな。女は愛嬌か？<line-break>ま、お前の場合は女は度胸の方が、<line-break>ぴったり来るがな。<end>"
+korean = "<if><value:$29><equal>%0다정한 남자군. 뭐, 남자는 다정하기만 해서는 안 되지만.<end>다정한 녀석이군. 여자는 애교라고? 뭐, 너한테는 여자도 배짱이라는 쪽이 더 잘 맞지만.<end>"
 
 ["780037"]
 japanese = "それじゃ、<line-break>食っていってやりな。<end>"

@@ -92,6 +92,10 @@ korean = "로스토올의 <value:$28>! 이런 곳에서 뭘 하고 있지! 당�
 japanese = "ほんっとに<line-break>いつまでたっても子供なんだから！<end>"
 korean = "정말이지 언제까지나 어린애라니까!<end>"
 
+["1010030"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　　<line-break>　<line-break>お互いに目指しているものが違うの。<line-break>だから、あなたは早く私から卒業して<line-break>あなたの目指しているものを…<end>"
+korean = "<value:$28>…. 서로 목표로 하는 게 달라. 그러니 넌 빨리 나에게서 졸업하고 네가 목표로 하는 것을…<end>"
+
 ["1010031"]
 japanese = "…早く行きなさい。<end>"
 korean = "…빨리 가세요.<end>"
@@ -111,6 +115,10 @@ korean = "…이제 됐어. 어서 가.<end>"
 ["1010035"]
 japanese = "…気をつけるのよ、<line-break><value:$28>。<end>"
 korean = "…조심해, <value:$28>.<end>"
+
+["1010036"]
+japanese = "<value:$28>…。<line-break>　　　　　　　　　　　　　　　　<line-break>　<line-break>…せっかくだけど、今は忙しいの。<line-break>時間があれば、手合わせぐらいなら<line-break>かまわないけれど…。<end>"
+korean = "<value:$28>…. …모처럼이지만 지금은 바빠. 시간이 있다면 대련 정도는 괜찮지만…<end>"
 
 ["1010037"]
 japanese = "…もう、あなたは私抜きで<line-break>行かなければならないの。<end>"
@@ -208,6 +216,14 @@ korean = "로스토올의 <value:$28>! 이런 곳에서 뭘 하고 있지! 어�
 japanese = "戦場で会いましょ。<line-break><value:$28>。<end>"
 korean = "전장에서 만나자, <value:$28>.<end>"
 
+["1010069"]
+japanese = "<value:$28>、何の用かしら？<line-break>あなたも、青竜軍に加わりたいの？　<line-break>　<line-break>それなら、私がカルラ様との間を<line-break>取り持ってあげるわ。<line-break>味方はひとりでも欲しいところなの。<end>"
+korean = "<value:$28>, 무슨 일이야? 너도 청룡군에 들어오고 싶어? 그렇다면 내가 카를라 님과 연결해 줄게. 아군은 한 명이라도 더 필요하거든.<end>"
+
+["1010070"]
+japanese = "そう、残念ね。あなたと私がいれば、<line-break>青竜軍もますます強くなれるのに。<line-break>　<line-break>あなたも、早く、落ち着ける場所が<line-break>見つかるといいわね。<line-break>それじゃあね、<value:$28>。<end>"
+korean = "그래, 아쉽네. 너와 내가 함께라면 청룡군도 더욱 강해질 텐데. 너도 빨리 마음 놓고 머물 곳을 찾으면 좋겠어. 그럼 잘 있어, <value:$28>.<end>"
+
 ["1010071"]
 japanese = "<value:$28>、どうしたの？<line-break>私に用？　それともカルラ様？<end>"
 korean = "<value:$28>, 왜 그래? 나한테 볼일이야? 아니면 칼라 님?<end>"
@@ -223,6 +239,10 @@ korean = "하지만 볼일도 없는데 오면 안 돼. 여긴 군대니까. 공
 ["1010074"]
 japanese = "<value:$28>、冒険の方はどう？<line-break>何かおもしろいことでもあった？<end>"
 korean = "<value:$28>, 모험은 어때? 뭔가 재미있는 일이라도 있었어?<end>"
+
+["1010075"]
+japanese = "へぇ、そんなことがあったの。　　　<line-break>やるわね、<value:$28>。<line-break>　<line-break>私の方もようやく軍隊が<line-break>どういうものか、わかってきたわ。<line-break>でも、まだダメなところもあるわね。<end>"
+korean = "헤에, 그런 일이 있었구나. 제법인데, <value:$28>. 나도 이제야 군대가 어떤 곳인지 조금 알 것 같아. 그래도 아직 부족한 점은 있네.<end>"
 
 ["1010076"]
 japanese = "問題にぶつかるたびに、カルラ様の<line-break>すごさに感心しちゃうわね。私より<line-break>年下なのに立派にこなしているもの。<line-break>私も負けてられないわ。<line-break>それじゃあね、<value:$28>。<end>"

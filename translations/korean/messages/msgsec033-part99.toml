@@ -20,6 +20,10 @@ korean = "고마워, 루루안타. 그래, 사는 걸 깜빡했구나.<end>"
 japanese = "あれぇー？　フリントさん、<line-break><value:$28>はぁ？<end>"
 korean = "어라? 플린트 씨, <value:$28>은?<end>"
 
+["330005"]
+japanese = "ああ、ルルアンタ。<line-break>あの子なら剣の稽古だと言って<line-break>町の外にある森に行ってるよ。<end>"
+korean = "아, 루루안타. 그 아이라면 검술 연습한다고 도시 밖 숲에 갔어.<end>"
+
 ["330006"]
 japanese = "またぁ？<line-break>しょうがないんだからぁ！<end>"
 korean = "또야? 정말 어쩔 수 없다니까!<end>"
@@ -111,6 +115,10 @@ korean = "다음은 로스톨이라면서요?<end>"
 ["330029"]
 japanese = "そうだよ。<end>"
 korean = "그래.<end>"
+
+["330030"]
+japanese = "そうですね、フリントさんには<line-break>いつもひいきにしてますし、<line-break>これはサービスです。<end>"
+korean = "그렇네요, 플린트 씨는 늘 단골이시니 이건 서비스입니다.<end>"
 
 ["330031"]
 japanese = "得したね、<value:$28>。<line-break><line-break><line-break>さ、フリントさんの所に<line-break>帰ろ。<end>"

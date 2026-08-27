@@ -20,6 +20,10 @@ korean = "제 걱정은 하지 마세요. 그보다 본인 걱정을 하시는 �
 japanese = "…<value:$28>様。<end>"
 korean = "…<value:$28> 님.<end>"
 
+["1800005"]
+japanese = "私にできることは<line-break>竜王様や愛の神ライラネート様に<line-break>祈ること、ただそれだけです。<end>"
+korean = "제가 할 수 있는 건 용왕님과 사랑의 신 라이라네트님께 기도하는 것, 그뿐입니다.<end>"
+
 ["1800007"]
 japanese = "もともと、<line-break>ディンガルの大軍の攻撃には<line-break>耐えられなかったでしょうね…。<end>"
 korean = "원래부터 딩갈의 대군 공격을 버티긴 어려웠겠지요….<end>"
@@ -447,6 +451,14 @@ korean = "기다려, <value:$28>.<end>"
 ["1800151"]
 japanese = "私ね…、退却しながら　　　　<line-break>ずっと思ってた。<line-break>　<line-break>生きて帰らせなきゃ。<line-break>みんな死なせちゃダメだって。<end>"
 korean = "나 말이야… 후퇴하면서 계속 생각했어. 살아서 돌아가게 해야 해. 모두 죽게 두면 안 된다고.<end>"
+
+["1800152"]
+japanese = "私、少しわかったの。<line-break>私は、やっぱり何かを守るために<line-break>戦っているんだってこと。<end>"
+korean = "나, 조금 알게 됐어. 역시 나는 무언가를 지키기 위해 싸우고 있다는 걸.<end>"
+
+["1800153"]
+japanese = "カルラ様のように、<line-break>勝つために戦っているんじゃ<line-break>ないんだってこと。その違い…。<end>"
+korean = "카를라 님처럼 이기기 위해 싸우는 게 아니라는 것. 그 차이…<end>"
 
 ["1800154"]
 japanese = "それだけ…、<line-break>あなたに聞いておいてほしかったの。<end>"

@@ -8,6 +8,14 @@ korean = "아길샤이어 메시지 VOL1-3 시작<end>"
 japanese = "…<value:$28>か。<line-break>話がしたい。　　　　　<end>"
 korean = "…<value:$28>인가. 할 말이 있다.<end>"
 
+["710002"]
+japanese = "…俺にはひとり、姉がいる。　　　　<line-break>名をシェスターという。<line-break>　<line-break>ロストールの先王フェロヒアが<line-break>ディンガルに侵攻した時、<line-break>幼かった俺たちは両親を失った。<end>"
+korean = "…나에겐 누나가 하나 있다. 이름은 셰스터. 로스토올의 선왕 페로히아가 딩갈을 침공했을 때 어렸던 우리는 부모를 잃었다.<end>"
+
+["710003"]
+japanese = "それから、俺たちは<line-break>姉弟ふたりきりで生きてきた。<line-break>姉がいなければ今の俺はいなかった。<line-break>俺にとって、姉は<line-break>かけがえのない存在だった。<line-break>…その姉が姿を消した。<end>"
+korean = "그 뒤 우리는 남매 둘이서 살아왔다. 누나가 없었다면 지금의 나는 없었어. 나에게 누나는 무엇과도 바꿀 수 없는 존재였다. …그 누나가 사라졌다.<end>"
+
 ["710005"]
 japanese = "そして、その旅の途中　　<line-break>俺はお前に出会った。<line-break>　<line-break>姉は今、非常に危険な奴の<line-break>手の内にある…。<line-break>俺は奴から姉を救い出す。<end>"
 korean = "그리고 그 여행 도중 나는 너를 만났다. 누나는 지금 매우 위험한 녀석의 손아귀에 있어…. 난 놈에게서 누나를 구할 거다.<end>"
@@ -24,6 +32,10 @@ korean = "…훗, …푸념이군. 나답지 않게.<end>"
 japanese = "初めて会ったとき、俺は<line-break>ロイは生きていると言ったな。<end>"
 korean = "처음 만났을 때 나는 로이가 살아 있다고 했지.<end>"
 
+["710012"]
+japanese = "ロイは生きている。　　　　　　　　　<line-break>そして、俺の考えに<line-break>間違いなければ…。<end>"
+korean = "로이는 살아 있다. 그리고 내 생각이 틀리지 않았다면…<end>"
+
 ["710013"]
 japanese = "…いや、間違いならば<line-break>いいのだがな…。<end>"
 korean = "…아니, 내가 틀렸다면 좋겠지만….<end>"
@@ -35,6 +47,10 @@ korean = "내겐 한때 함께 모험하고 생사를 같이한 동료가 있었
 ["710022"]
 japanese = "そうだ。サイフォスこそ<line-break>俺の親友だった男、ロイだ。<end>"
 korean = "그래. 사이포스야말로 내 절친했던 남자, 로이다.<end>"
+
+["710023"]
+japanese = "ロイは生きている。　　　　　　　　　<line-break>そして、俺の考えに<line-break>間違いなければ…。<end>"
+korean = "로이는 살아 있다. 그리고 내 생각이 틀리지 않았다면…<end>"
 
 ["710024"]
 japanese = "貴様、神聖語…<line-break>失われた古代の言葉に詳しいか？<end>"
@@ -431,6 +447,10 @@ korean = "뭐야!? 이 여자애! 떨어져!<end>"
 ["710132"]
 japanese = "<value:$28>！<line-break>何やってんの！　早く逃げて！<end>"
 korean = "<value:$28>!뭐 하는 거야! 빨리 도망쳐!<end>"
+
+["710133"]
+japanese = "また、逃げられたのかしら？<line-break>今度こそ楽しめると思ったのに…。<line-break>　<line-break>残念だけど、いいわ。<line-break>じゃ、聖杯はいただいておくわね。<line-break>あなたたちには不要でしょう？<end>"
+korean = "또 도망친 걸까? 이번에는 즐길 수 있을 줄 알았는데…. 아쉽지만 됐어. 그럼 성배는 받아 갈게. 너희한테는 필요 없잖아?<end>"
 
 ["710134"]
 japanese = "…アイリーンは<line-break>どうした？<end>"

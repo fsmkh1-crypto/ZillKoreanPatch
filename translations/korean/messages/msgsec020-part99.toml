@@ -1404,6 +1404,10 @@ korean = "정신력(MIND)을 나타냅니다. 정신 마법의 위력과 MP 증�
 japanese = "敏捷性(AGILITY)を表します。<line-break>行動順位や物理攻撃の命中度に影響します。<end>"
 korean = "민첩성(AGILITY)을 나타냅니다. 행동 순서와 물리 공격의 명중도에 영향을 줍니다.<end>"
 
+["200499"]
+japanese = "器用さ(DEXTERITY)を表します。<line-break>物理攻撃に対する回避度や、<line-break>罠解除能力に影響します。<end>"
+korean = "기교(DEXTERITY)를 나타냅니다. 물리 공격 회피도와 함정 해제 능력에 영향을 줍니다.<end>"
+
 ["200500"]
 japanese = "キャラクターの勇敢さを表します。<line-break>戦士系のソウルを宿すために重要となります。<end>"
 korean = "캐릭터의 용감함을 나타냅니다.전사계 소울을 깃들이는 데 중요합니다.<end>"

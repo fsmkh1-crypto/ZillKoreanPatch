@@ -84,6 +84,10 @@ korean = "보수는 일이 끝나면 줄게. 힘내서 마물들을 쫓아내 �
 japanese = "あら、それができるようなら　　　　　<line-break>とっくにそうしてるわ。<line-break>　<line-break>だからあなたのような<line-break>有名人に頼んだのに…。<line-break>仕方ないわね。しばらく他を当たるわ。<end>"
 korean = "어머, 그게 가능했으면 진작 했지. 그래서 당신 같은 유명인에게 부탁한 건데…. 어쩔 수 없네. 당분간 다른 사람을 알아볼게.<end>"
 
+["1610024"]
+japanese = "あら、まだ何も言ってないのに　　<line-break>もうお断りなの？<line-break>　<line-break>案外、噂ほどでもないのかしら？<line-break>まあ、いいわ。それじゃあ失礼。<line-break>また今度頼みに来ることにするわ。<end>"
+korean = "어머, 아직 아무 말도 안 했는데 벌써 거절하는 거야? 의외로 소문만큼은 아닌가 보네. 뭐, 됐어. 그럼 실례할게. 다음에 다시 부탁하러 오지.<end>"
+
 ["1610025"]
 japanese = "あ、あああ、あんた、<line-break>あの<value:$28>か？<end>"
 korean = "아, 아아, 당신… 그 <value:$28>인가?<end>"
@@ -587,6 +591,10 @@ korean = "큭!!<end>"
 ["1610183"]
 japanese = "…今は、特に、<line-break>お前に言うことはない。　　<line-break>　<line-break>…だが、おそらく状況は<line-break>お前の考えているとおりだ。<end>"
 korean = "…지금은 딱히 네게 할 말이 없다. …하지만 아마 상황은 네가 생각하는 대로일 거다.<end>"
+
+["1610184"]
+japanese = "フフ、この祈りが無意味に見えますか？<line-break>念には念…というところです。<line-break>　<line-break>おかしいですか？<line-break>そちらの方はまた不審そうに<line-break>私のことを見ておられるようですが。<end>"
+korean = "후후, 이 기도가 의미 없어 보이십니까? 만전을 기한다는 거죠. 이상합니까? 그쪽 분은 또 수상하다는 듯 저를 보고 계신 것 같군요.<end>"
 
 ["1610185"]
 japanese = "…違う！　サイフォスとやら、<line-break>思い出さないのか！<end>"

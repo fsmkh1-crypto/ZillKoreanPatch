@@ -7,3 +7,43 @@ korean = "여, <value:$28>. 장사는 어때? 오늘도 너를 위해 준비한 
 ["1280002"]
 japanese = "よう、天下の<value:$28>。<line-break>有名人になっても、見た目はかわらないねぇ。<line-break>今日も、スペシャルティーを用意しているぜ。<end>"
 korean = "여어, 천하의 <value:$28>. 유명해져도 생김새는 그대로네. 오늘도 스페셜티를 준비해 뒀어.<end>"
+
+["1280025"]
+japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_02 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_02 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_02 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_02 50以上）<end>"
+korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_02 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_02 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_02 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_02 50 이상)<end>"
+
+["1280029"]
+japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_06 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_06 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_06 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_06 50以上）<end>"
+korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_06 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_06 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_06 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_06 50 이상)<end>"
+
+["1280030"]
+japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_07 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_07 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_07 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_07 50以上）<end>"
+korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_07 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_07 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_07 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_07 50 이상)<end>"
+
+["1280031"]
+japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_08 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_08 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_08 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_08 50以上）<end>"
+korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_08 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_08 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_08 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_08 50 이상)<end>"
+
+["1280032"]
+japanese = "<if><value:$2C><less-equal>%9（未：LEVELTEA_09 9以下）<end><if><value:$2C><less-equal>%29（未：LEVELTEA_09 29以下）<end><if><value:$2C><less-equal>%49（未：LEVELTEA_09 49以下）<end><if><value:$2C><greater-equal>%50（未：LEVELTEA_09 50以上）<end>"
+korean = "<if><value:$2C><less-equal>%9(미완: LEVELTEA_09 9 이하)<end><if><value:$2C><less-equal>%29(미완: LEVELTEA_09 29 이하)<end><if><value:$2C><less-equal>%49(미완: LEVELTEA_09 49 이하)<end><if><value:$2C><greater-equal>%50(미완: LEVELTEA_09 50 이상)<end>"
+
+["1280041"]
+japanese = "<if><value:$2A><less-equal>%25（未：RUMORTEA_02 25以下）<end><if><value:$2A><less-equal>%50（未：RUMORTEA_02 50以下）<end><if><value:$2A><less-equal>%75（未：RUMORTEA_02 75以下）<end><if><value:$2A><greater-equal>%76（未：RUMORTEA_02 76以上）<end>"
+korean = "<if><value:$2A><less-equal>%25(미완: RUMORTEA_02 25 이하)<end><if><value:$2A><less-equal>%50(미완: RUMORTEA_02 50 이하)<end><if><value:$2A><less-equal>%75(미완: RUMORTEA_02 75 이하)<end><if><value:$2A><greater-equal>%76(미완: RUMORTEA_02 76 이상)<end>"
+
+["1280045"]
+japanese = "<if><value:$2A><less-equal>%25（未：RUMORTEA_06 25以下）<end><if><value:$2A><less-equal>%50（未：RUMORTEA_06 50以下）<end><if><value:$2A><less-equal>%75（未：RUMORTEA_06 75以下）<end><if><value:$2A><greater-equal>%76（未：RUMORTEA_06 76以上）<end>"
+korean = "<if><value:$2A><less-equal>%25(미완: RUMORTEA_06 25 이하)<end><if><value:$2A><less-equal>%50(미완: RUMORTEA_06 50 이하)<end><if><value:$2A><less-equal>%75(미완: RUMORTEA_06 75 이하)<end><if><value:$2A><greater-equal>%76(미완: RUMORTEA_06 76 이상)<end>"
+
+["1280046"]
+japanese = "<if><value:$2A><less-equal>%25（未：RUMORTEA_07 25以下）<end><if><value:$2A><less-equal>%50（未：RUMORTEA_07 50以下）<end><if><value:$2A><less-equal>%75（未：RUMORTEA_07 75以下）<end><if><value:$2A><greater-equal>%76（未：RUMORTEA_07 76以上）<end>"
+korean = "<if><value:$2A><less-equal>%25(미완: RUMORTEA_07 25 이하)<end><if><value:$2A><less-equal>%50(미완: RUMORTEA_07 50 이하)<end><if><value:$2A><less-equal>%75(미완: RUMORTEA_07 75 이하)<end><if><value:$2A><greater-equal>%76(미완: RUMORTEA_07 76 이상)<end>"
+
+["1280047"]
+japanese = "<if><value:$2A><less-equal>%25（未：RUMORTEA_08 25以下）<end><if><value:$2A><less-equal>%50（未：RUMORTEA_08 50以下）<end><if><value:$2A><less-equal>%75（未：RUMORTEA_08 75以下）<end><if><value:$2A><greater-equal>%76（未：RUMORTEA_08 76以上）<end>"
+korean = "<if><value:$2A><less-equal>%25(미완: RUMORTEA_08 25 이하)<end><if><value:$2A><less-equal>%50(미완: RUMORTEA_08 50 이하)<end><if><value:$2A><less-equal>%75(미완: RUMORTEA_08 75 이하)<end><if><value:$2A><greater-equal>%76(미완: RUMORTEA_08 76 이상)<end>"
+
+["1280048"]
+japanese = "<if><value:$2A><less-equal>%25（未：RUMORTEA_09 25以下）<end><if><value:$2A><less-equal>%50（未：RUMORTEA_09 50以下）<end><if><value:$2A><less-equal>%75（未：RUMORTEA_09 75以下）<end><if><value:$2A><greater-equal>%76（未：RUMORTEA_09 76以上）<end>"
+korean = "<if><value:$2A><less-equal>%25(미완: RUMORTEA_09 25 이하)<end><if><value:$2A><less-equal>%50(미완: RUMORTEA_09 50 이하)<end><if><value:$2A><less-equal>%75(미완: RUMORTEA_09 75 이하)<end><if><value:$2A><greater-equal>%76(미완: RUMORTEA_09 76 이상)<end>"

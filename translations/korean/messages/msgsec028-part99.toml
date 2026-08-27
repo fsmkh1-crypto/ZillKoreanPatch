@@ -128,6 +128,10 @@ korean = "그래.반은 여기에 남아.오두막에 쓸 목재 고르는 걸 �
 japanese = "よう、<line-break>冒険者登録に来たのかい？　　　　<line-break>　<end>"
 korean = "이봐, 모험자 등록하러 왔나?<end>"
 
+["280033"]
+japanese = "そうかい。<line-break>そのうち冒険者になりたくなったら<line-break>ギルドで冒険者登録するといいぜ。<end>"
+korean = "그래. 나중에 모험자가 되고 싶어지면 길드에서 모험자 등록을 하면 돼.<end>"
+
 ["280034"]
 japanese = "えーっ！？<end>"
 korean = "에엣!?<end>"
@@ -327,6 +331,10 @@ korean = "반은 내가 돌볼게. <value:$28>는 도구점에서 약초를 사 
 ["280083"]
 japanese = "ああ、<value:$28>。<line-break>宿屋のヴァンが<line-break>大変なことになったんだって？<line-break>代金はいいから、<line-break>早くこの薬草を<line-break>持っていってやれ。<end>"
 korean = "아, <value:$28>. 여관의 반이 큰일이라며? 돈은 됐으니 빨리 이 약초를 가져다줘.<end>"
+
+["280084"]
+japanese = "ヴァンちゃん、しっかりして。<line-break>あなたがいなくなったら…私…。<line-break>オイオイオイオイ。<end>"
+korean = "반, 정신 차려. 네가 없어지면… 나…. 으아아아앙.<end>"
 
 ["280085"]
 japanese = "<value:$28><line-break>…薬草は？　　　<end>"
@@ -611,6 +619,10 @@ korean = "이봐, 여긴 길드야! 이런 데서 뭐 하는 거야! 큰일이�
 ["280173"]
 japanese = "やれやれ、<line-break>大変なことになったものだ…。<end>"
 korean = "이런, 큰일이 벌어졌군….<end>"
+
+["280174"]
+japanese = "こら！　お前たちだな！<line-break>聖水の盆にゼノプスのオタマジャクシを<line-break>３匹も入れたのは！<end>"
+korean = "이봐! 너희들이지! 성수 대야에 제노프스 올챙이를 세 마리나 넣은 게!<end>"
 
 ["280176"]
 japanese = "やはりロクでもないことを　　<line-break>してくれたな！！<line-break>このばちあたりどもが！<line-break>おお、天空神ノトゥーンよ、<line-break>戒めと裁きの神ノトゥーンよ、<line-break>罪深き少年たちに罰を…。<end>"

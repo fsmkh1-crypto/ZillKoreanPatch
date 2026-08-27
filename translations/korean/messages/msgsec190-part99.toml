@@ -428,6 +428,10 @@ korean = "또 만나러 와 주세요. <value:$28>님과 이야기할 수 있으
 japanese = "ティアナ様は少し前から<line-break>すっかりお変わりになられて…　<line-break>　<line-break>地に足がついてらっしゃらない<line-break>というか…。<end>"
 korean = "티아나 님은 조금 전부터 완전히 달라지셔서… 땅에 발이 붙어 있지 않은 듯하다고 할까….<end>"
 
+["1900136"]
+japanese = "え？　心当たりですか？<line-break>…そう言えば、最近はよく、東方から<line-break>来られた博士とお会いになっていました。<line-break>たしか、シャリ様とおっしゃったと<line-break>思いますけど…。<line-break>　<end>"
+korean = "네? 짐작 가는 사람이 있냐고요? …그러고 보니 최근 동방에서 오신 박사님을 자주 만나셨어요. 아마 샤리 님이라고 했던 것 같은데…<end>"
+
 ["1900138"]
 japanese = "あ、<value:$28>様。<end>"
 korean = "아, <value:$28> 님.<end>"
@@ -467,6 +471,10 @@ korean = "당신이 돌아오기를 기다리는 내가 여기 있다는 걸….
 ["1900149"]
 japanese = "…<value:$28>様は<line-break>意地悪な方ですね。　　　　　　　　<line-break>　<line-break>こういうときは、ウソでも必ず戻ると<line-break>言ってくだされば、<line-break>ティアナも安心できますのに…。<end>"
 korean = "…<value:$28> 님은 심술궂은 분이시네요. 이런 때는 거짓말이라도 반드시 돌아온다고 해 주시면 티아나도 안심할 텐데…<end>"
+
+["1900153"]
+japanese = "<value:$28>様、ティアナも<line-break>お母様のように、国のために　　<line-break>がんばってみようと思います。<line-break>ですから、<value:$28>様。<line-break>ティアナのことを、<line-break>応援してくださいますか？<end>"
+korean = "<value:$28> 님, 티아나도 어머님처럼 나라를 위해 힘내 보려고 해요. 그러니 <value:$28> 님. 티아나를 응원해 주시겠어요?<end>"
 
 ["1900154"]
 japanese = "ティアナはひとりでも大丈夫<end>"
@@ -535,6 +543,10 @@ korean = "…그럴까요. 저는 불안해요. 지금까지 두 분 모두 제 
 ["1900176"]
 japanese = "<value:$28>様、約束して<line-break>ください。<value:$28>様は<line-break>急にいなくなったりはしないと。　<line-break>私に何も言わずに、どこかへ行って<line-break>しまわれたりはしないと。<end>"
 korean = "<value:$28> 님, 약속해 주세요. <value:$28> 님은 갑자기 사라지지 않는다고. 제게 아무 말도 없이 어디론가 가 버리지 않겠다고.<end>"
+
+["1900178"]
+japanese = "<value:$28>様、<line-break>お願いです。<value:$28>様は<line-break>必ず帰ってきてください。<line-break>ティアナに何も言わずに<line-break>いなくなったりは、決して<line-break>なさらないでくださいね。<end>"
+korean = "<value:$28> 님, 부탁이에요. <value:$28> 님은 반드시 돌아와 주세요. 티아나에게 아무 말도 없이 사라지거나 하시면 절대 안 돼요.<end>"
 
 ["1900181"]
 japanese = "その方たちと協力するば、きっと<line-break>うまくいくと思うのです。<line-break>どうでしょうか？<end>"

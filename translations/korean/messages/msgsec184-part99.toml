@@ -88,6 +88,10 @@ korean = "기다리세요! 당신들도 도망치려는 겁니까!?<end>"
 japanese = "だ、だってさ～、<line-break>ここにいたら死んじゃうんだよ？<end>"
 korean = "그, 그렇지만~ 여기 있으면 죽는다고?<end>"
 
+["1840026"]
+japanese = "さっきのあいつも言ってたろ？<line-break>俺は自分の葬式の花代なんか<line-break>欲しくないんだよ！！<end>"
+korean = "아까 그 녀석도 말했잖아? 난 내 장례식 꽃값 따위 필요 없다고!!<end>"
+
 ["1840027"]
 japanese = "そんな無責任なことを！<end>"
 korean = "그렇게 무책임한 말을!<end>"
@@ -151,6 +155,10 @@ korean = "여어, 너희는 아까 그 물뱀들이지? 내가 미워? 그럼 �
 ["1840045"]
 japanese = "やめて！　ミズチたち！！　　　　<line-break>あなたたちが戦うことはないわ！<line-break>　<line-break>大丈夫…、私は大丈夫。<line-break>だから、お願い、もう怒らないで。<line-break>もう傷つかないで…。<end>"
 korean = "그만해! 미즈치들!! 너희가 싸울 필요는 없어! 괜찮아… 난 괜찮아. 그러니 부탁이야, 이제 화내지 마. 더는 다치지 마….<end>"
+
+["1840046"]
+japanese = "すごいね、イークレムン。<line-break>君はもう水の巫女としての力に<line-break>目覚めつつあるんだね。<end>"
+korean = "대단하네, 이크렘. 넌 벌써 물의 무녀로서의 힘에 눈뜨기 시작했구나.<end>"
 
 ["1840047"]
 japanese = "ひとつ、約束してください。　　<line-break>　<line-break>　<line-break>私は、あなたについていきます。<line-break>そのかわり、この町と、町の人は<line-break>絶対に傷つけないでください。<end>"
@@ -343,6 +351,10 @@ korean = "<value:$28> 씨.<end>"
 ["1840105"]
 japanese = "こんにちは、<value:$28>さん。<line-break>ひとつお聞きしたいことがあります。<line-break>かまいませんか？<end>"
 korean = "안녕하세요, <value:$28>님. 하나 묻고 싶은 게 있습니다. 괜찮을까요?<end>"
+
+["1840106"]
+japanese = "最近、水の精霊神に近づこうとする<line-break>存在を感じます。<line-break>…あなたではありませんか？<end>"
+korean = "최근 물의 정령신에게 가까이 다가가려는 존재가 느껴집니다. …당신 아닙니까?<end>"
 
 ["1840107"]
 japanese = "いかにもその通り<end>"

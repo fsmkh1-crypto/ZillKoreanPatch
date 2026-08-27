@@ -208,6 +208,10 @@ korean = "다음에는 방해받지 않는 곳에서 천천히 죽여 줄게. �
 japanese = "じゃあね、<value:$28>。<line-break>その名前、覚えておくわ…。<line-break>　<end>"
 korean = "그럼 안녕, <value:$28>. 그 이름, 기억해 둘게….<end>"
 
+["700058"]
+japanese = "おやおやおやおや、<line-break>どうしたんだい？　あんた。<line-break>こんな所で突っ伏しちゃって。<end>"
+korean = "어이구, 어이구. 무슨 일이야? 이런 데 엎어져 있고.<end>"
+
 ["700059"]
 japanese = "予備選択肢１<end>"
 korean = "예비 선택지 1<end>"
@@ -772,6 +776,10 @@ korean = "예비 메시지 128 아기르샤이아 볼륨 1, 그 2<end>"
 japanese = "よぉ、<value:$28><line-break>邪魔していいか？<end>"
 korean = "여어, <value:$28>. 방해 좀 해도 될까?<end>"
 
+["700200"]
+japanese = "セラ見てるとホント<line-break>リディオンを思い出すよ。　　　　　　<line-break>　<line-break>アミラルで最強の剣士。<line-break>アミラルの銀狼騒ぎのとき、銀狼を<line-break>退治して、旅に出たことになってる。<end>"
+korean = "세라를 보고 있으면 정말 리디온이 떠올라. 아미랄 최강의 검사. 아미랄 은랑 사건 때 은랑을 퇴치하고 여행을 떠난 걸로 되어 있지.<end>"
+
 ["700206"]
 japanese = "…だけど俺の槍は未熟で、<line-break>結局、奴の剣に応えられなかった。<end>"
 korean = "…하지만 내 창은 미숙해서 결국 녀석의 검에 응하지 못했다.<end>"
@@ -832,6 +840,10 @@ korean = "역시 밤은 춥네. <value:$28>, 안으로 들어갈래?<end>"
 japanese = "やあ、<value:$28>…<line-break>ボク、そっち行っても、いい？<end>"
 korean = "안녕, <value:$28>…. 나, 그쪽으로 가도 돼?<end>"
 
+["700232"]
+japanese = "セラやシャリの言葉…<line-break>ボクは役立たずだって言うアレ…<line-break>結構、くるものあるね。<end>"
+korean = "세라나 샤리의 말… 내가 쓸모없다는 그거…. 꽤 가슴에 꽂히네.<end>"
+
 ["700233"]
 japanese = "でも、事実だよ。<line-break>ボク、セラほど強くない。　　<line-break>　<line-break>セラは強いし、美しいよ。<line-break>ボクもセラみたいに強くて<line-break>きれいだったらなって思う…。<end>"
 korean = "하지만 사실이야. 난 세라만큼 강하지 않아. 세라는 강하고 아름다워. 나도 세라처럼 강하고 예뻤으면 좋겠다고 생각해….<end>"
@@ -843,6 +855,10 @@ korean = "…아기르샤이아도 강하고 아름답지. 내가 약해서 도�
 ["700237"]
 japanese = "<value:$28>…<line-break>そっち行って…いい？<end>"
 korean = "<value:$28>… 그쪽으로 가도… 돼?<end>"
+
+["700238"]
+japanese = "お星様がきれいだね。<line-break>いつかはお別れする風景。<line-break>だからこそ、いっそういとおしい。<line-break>…しっかりと<line-break>目に焼きつけておかなくちゃ。<line-break>お星様も…、キミの姿もね…。<end>"
+korean = "별이 예쁘네. 언젠가는 헤어질 풍경. 그래서 더 사랑스러워. …확실히 눈에 새겨 둬야겠어. 별도… 네 모습도…<end>"
 
 ["700239"]
 japanese = "あのさ、セラと<line-break>アーギルシャイアって似てるよね。<end>"
@@ -955,6 +971,10 @@ korean = "뭐, 그런 점이 좋은 걸지도 모르겠지만.<end>"
 ["700277"]
 japanese = "ガハハハ！　そうじゃ！<line-break>セラとアーギルシャイアはよく似とる！<end>"
 korean = "가하하하! 그렇지! 세라와 아기르샤이아는 아주 닮았어!<end>"
+
+["700279"]
+japanese = "よ、酔うてなぞ、おらんわい！<line-break>あれしきの酒で誰が酔うか！　　　<line-break>　<line-break>ガハハハ！　セラと…、セラと…<line-break>セラと…誰が似とると言うたかの？<line-break>ガハハハ！　ヒック！<end>"
+korean = "취, 취한 거 아니다! 이 정도 술에 누가 취하냐! 가하하하! 세라랑… 세라랑… 세라랑… 누가 닮았다고 했더라? 가하하하! 딸꾹!<end>"
 
 ["700281"]
 japanese = "予備メッセージ１<line-break>アーギルシャイア、ボリューム１、その２<end>"

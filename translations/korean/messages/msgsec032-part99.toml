@@ -116,9 +116,17 @@ korean = "그쪽도 조심하세요. 이 근처는 위험하니까요…. 후후
 japanese = "（似ている……。）<end>"
 korean = "(닮았어…….)<end>"
 
+["320032"]
+japanese = "…なんでもない。<line-break>父上も心配しておられよう。<line-break>夜明けまでに神器の神殿に戻るぞ。<end>"
+korean = "…아무것도 아니다. 아버님도 걱정하고 계실 거야. 새벽이 오기 전에 신기의 신전으로 돌아간다.<end>"
+
 ["320033"]
 japanese = "あ、ロイさまと<line-break><value:$28>さまだ！<line-break><value:$28>さまー！<end>"
 korean = "아, 로이 님과 <value:$28> 님이다! <value:$28> 님~!<end>"
+
+["320034"]
+japanese = "<if><value:$29><equal>%0魔物に襲われた人のケガは<line-break>ダディアス様がなおしてくれたよ。<line-break>さすがはノトゥーン神に仕える神官様だ。<end><value:$28>、<line-break>無事だったんだ…。<line-break>よかった…。<end>"
+korean = "<if><value:$29><equal>%0마물에게 습격당한 사람의 부상은 다디아스 님이 치료해 주셨어. 역시 노툰 신을 섬기는 신관님이야.<end><value:$28>, 무사했구나…. 다행이야…<end>"
 
 ["320036"]
 japanese = "なあなあ、<value:$28>。<line-break>魔物、どうだったんだ？<end>"

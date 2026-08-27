@@ -8,6 +8,10 @@ korean = "델가드 V1 시작<end>"
 japanese = "もう、あのザマじゃあな。<end>"
 korean = "이제 저 꼴이니 말이지.<end>"
 
+["920005"]
+japanese = "いらっしゃい。<line-break>今日は珍しくデルガド爺さんが<line-break>来てないから、ゆっくりできるぜ。<end>"
+korean = "어서 와. 오늘은 드물게 델가도 영감이 안 와서 느긋하게 있을 수 있어.<end>"
+
 ["920009"]
 japanese = "ふむ、わしがデルガドじゃ。<line-break>若いの、デルガドを知っとるか？<end>"
 korean = "흠, 내가 델가도다. 젊은이, 델가도를 아나?<end>"
@@ -120,6 +124,10 @@ korean = "뭔지는 잘 모르겠지만 기다리면 되는 거군. 어쨌든 �
 japanese = "なんか、先が思いやられるね。<line-break><value:$28>…。<end>"
 korean = "앞날이 걱정되네. <value:$28>….<end>"
 
+["920046"]
+japanese = "よし、出口で合流じゃな？<line-break>では、わしも準備してくるわい。<line-break>またあとで会おうぞ。<end>"
+korean = "좋아, 출구에서 합류하는 거지? 그럼 나도 준비하고 오마. 나중에 다시 보자.<end>"
+
 ["920047"]
 japanese = "じゃ、冒険に出るときは<line-break>猫屋敷から呼び出すから。<end>"
 korean = "그럼 모험을 떠날 때 고양이 저택에서 부를게.<end>"
@@ -224,6 +232,10 @@ korean = "미안하구나. 나는 아무래도　　　이 앞으론 나아갈 �
 japanese = "では、炎竜山へ出発じゃ。<line-break>町を出る時に落ちあおうぞ。<end>"
 korean = "그럼 염룡산으로 출발하자. 마을을 나갈 때 합류하자꾸나.<end>"
 
+["920087"]
+japanese = "これは…　　　　　　　　　　　　　<line-break>カッツと、ロッチナの家か…？<line-break>　<line-break>だいぶほこりをかぶっとるが…。<line-break>おおかた山頂にでもいるのじゃろう。<line-break>よし、行くかの。<end>"
+korean = "이건… 카츠와 로치나의 집인가…? 먼지가 꽤 쌓였군…. 아마 산꼭대기에라도 있겠지. 좋아, 가 보자.<end>"
+
 ["920088"]
 japanese = "カッツ…。<line-break>ロッチナ…。<line-break>　<end>"
 korean = "캇츠…. 롯치나….<end>"
@@ -283,6 +295,10 @@ korean = "최근 작품이지만 고대 방식이군. …설마… 비염의 보
 ["920111"]
 japanese = "あら、珍しい剣ね。<line-break>折れてるみたいだけど。<line-break>見ていい？<end>"
 korean = "어머, 희한한 검이네. 부러진 것 같지만. 봐도 돼?<end>"
+
+["920112"]
+japanese = "最近の作だけど、　　　　　　<line-break>古い製法を使ってるわね。<line-break>…もしかして、緋炎の宝剣？<line-break>炎竜山の炎で鍛えた剣は<line-break>緋色に燃え、<line-break>神をも斬り裂く宝剣となる…。<end>"
+korean = "최근에 만든 거지만 옛 제작법을 썼네. …혹시 비염의 보검? 염룡산의 불꽃으로 벼린 검은 붉게 타오르며 신마저 베어 가르는 보검이 된다…<end>"
 
 ["920113"]
 japanese = "これが緋炎の宝剣の伝承。　　　<line-break>神代、破壊神ウルグと<line-break>戦神ソリアスの戦いのときに、<line-break>ソリアスを助けようと、人間が<line-break>作って渡そうとした宝剣なのよ。<line-break>　<end>"

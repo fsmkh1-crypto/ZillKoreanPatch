@@ -412,9 +412,17 @@ korean = "빈 메시지<end>"
 japanese = "宰相閣下はただいま<line-break>会議で出ていらっしゃいます。<line-break>また後日、お越しください。<end>"
 korean = "재상 각하께서는 지금 회의로 자리를 비우셨습니다. 다음에 다시 와 주십시오.<end>"
 
+["1110106"]
+japanese = "ベルゼーヴァ様は、<line-break>仕事に厳しすぎます。　　　　　　　　<line-break>　<line-break>ご自分が有能だから<line-break>つい、その尺度で他人をはかられる。<line-break>私じゃあの仕事量についていけません。<end>"
+korean = "벨제바 님은 일에 너무 엄격하십니다. 본인이 유능하시니 자꾸 그 기준으로 남을 재시거든요. 저는 그 업무량을 따라갈 수 없습니다.<end>"
+
 ["1110107"]
 japanese = "ああ、君か。<line-break>そうだな…。<line-break>君は知っておいた方がいいだろう。<end>"
 korean = "아, 너구나. 그래…. 넌 알아 두는 게 좋겠어.<end>"
+
+["1110109"]
+japanese = "力をつけ、　　　　　　　　　　　　<line-break>挑戦してみてはどうだ？<line-break>損はするまい。<end>"
+korean = "힘을 길러 도전해 보는 게 어떻겠나? 손해 볼 건 없을 테지.<end>"
 
 ["1110110"]
 japanese = "ああ、君か。<line-break>この私になんの用だ？<end>"
@@ -423,6 +431,10 @@ korean = "아, 너인가. 이 나에게 무슨 용무지?<end>"
 ["1110111"]
 japanese = "無限のソウルについて、<line-break>知りたいのか？<end>"
 korean = "무한의 소울에 대해 알고 싶은 건가?<end>"
+
+["1110112"]
+japanese = "時折、現れるのだ。<line-break>成長に限界のない人間がな。<line-break>それが無限のソウルを持つ者だ。<line-break>人間には、普通は限界がある。<line-break>人により差があるが、<line-break>どこかで成長は止まる。<end>"
+korean = "가끔 나타난다. 성장에 한계가 없는 인간이 말이지. 그게 무한의 소울을 지닌 자다. 인간에게는 보통 한계가 있다. 사람마다 차이는 있지만 어느 지점에서 성장이 멈추지.<end>"
 
 ["1110113"]
 japanese = "もっとも限界まで、<line-break>成長を続けられるものは<line-break>まれだがな。<line-break>いかに大器であろうと<line-break>器を満たせねば、<line-break>凡人と変わらん。<end>"

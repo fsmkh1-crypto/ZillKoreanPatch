@@ -372,6 +372,10 @@ korean = "어라, 다른 일행도 온 모양이군요.<end>"
 japanese = "久しぶりね、<value:$28>。<line-break>どう？　しばらく会ってなかったけど<line-break>腕は上がった？<end>"
 korean = "오랜만이네, <value:$28>. 어때? 한동안 못 봤는데 실력은 늘었어?<end>"
 
+["1930113"]
+japanese = "フフ、期待してるわ。<line-break>これからはまた同じパーティーの<line-break>一員だもの。よろしくね。<end>"
+korean = "후후, 기대할게. 이제 다시 같은 파티의 일원이니까. 잘 부탁해.<end>"
+
 ["1930115"]
 japanese = "<value:$28>が守ってくれるの？<line-break>…それは仲間として？<line-break><line-break>それとも…<end>"
 korean = "<value:$28>이 지켜 줄 거야? …그건 동료로서? 아니면…<end>"

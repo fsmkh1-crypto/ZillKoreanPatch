@@ -60,6 +60,10 @@ korean = "용서해 달라고는 하지 않겠다. 용서받을 일이 아니니
 japanese = "いいだろ。<line-break>なんも、問題はねえ。<line-break>そうだろ、<value:$28>？<end>"
 korean = "괜찮잖아. 아무 문제도 없어. 그렇지, <value:$28>?<end>"
 
+["1350022"]
+japanese = "よし、すべてよし。<line-break>んじゃ、ま、晴れて出直しってことで…<line-break>俺はゼネテス、冒険者だ。<line-break>これからよろしく頼むぜ。<line-break>冒険者<value:$28>、<line-break>そして、冒険者レムオンよ。<end>"
+korean = "좋아, 전부 좋아. 그럼 새로 시작하는 셈 치고… 나는 제네테스, 모험자다. 앞으로 잘 부탁한다. 모험자 <value:$28>, 그리고 모험자 레몬.<end>"
+
 ["1350023"]
 japanese = "あ、ああ。<line-break>よろしく頼む、<line-break>冒険者、ゼネテス。<end>"
 korean = "아, 그래. 잘 부탁한다, 모험자 제네테스.<end>"
@@ -856,6 +860,10 @@ korean = "…왜 감싸지?<end>"
 japanese = "ゼネテス！<end>"
 korean = "제네테스!<end>"
 
+["1350272"]
+japanese = "…醜いわ。ダルケニスのくせに<line-break>人間と手を結ぶ気なのね？<line-break>汚らわしい。<line-break>闇に生きることもできず、<line-break>光に生きることもできない<line-break>なんて、不完全な劣等種なの…。<end>"
+korean = "…추하네. 다르케니스 주제에 인간과 손잡을 생각이야? 더러워. 어둠에서도 살지 못하고 빛에서도 살지 못하다니, 불완전한 열등종이네…<end>"
+
 ["1350273"]
 japanese = "目障りよ、消えなさい。<line-break>愚かな吸血鬼さん！<end>"
 korean = "눈에 거슬려. 사라져, 어리석은 흡혈귀 씨!<end>"
@@ -1255,6 +1263,10 @@ korean = "본국에서 온 연락은 아니지? 그럼 정보 출처는 어디�
 ["1350387"]
 japanese = "そ、それが…、はっきりしないのです。<line-break>突然広まったものですから。<end>"
 korean = "그, 그것이… 확실하지 않습니다. 갑자기 퍼진 소문이라서요.<end>"
+
+["1350388"]
+japanese = "あたし思うんだけどさ…。　　<line-break>それってたぶん、ニセ情報よ。<line-break>目の前の敵はおとり。<line-break>こうやってあたしたちが<line-break>混乱してるところに<line-break>奇襲がくるってな感じかしら？<end>"
+korean = "내 생각에는 말이야…. 그거 아마 가짜 정보야. 눈앞의 적은 미끼고, 이렇게 우리가 혼란스러워하는 틈에 기습이 오는 식 아닐까?<end>"
 
 ["1350389"]
 japanese = "か、カ、カルラ様！<line-break>大変です！<end>"

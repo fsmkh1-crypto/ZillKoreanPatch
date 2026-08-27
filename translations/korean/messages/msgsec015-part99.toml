@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["150003"]
+japanese = "<select><value:$20>%2これはね、海王様の像なの。<line-break>海王様は海の守り神なのよ。<end>王都から遠く離れたアミラルが<line-break>こんなに平和なのは、自警団の人たちが<line-break>守ってくれているからなのよ。<end>"
+korean = "<select><value:$20>%2이건 해왕님의 상이야. 해왕님은 바다의 수호신이야.<end>왕도에서 멀리 떨어진 아미랄이 이렇게 평화로운 건 자경단 사람들이 지켜 주고 있기 때문이야.<end>"
+
 ["150019"]
 japanese = "町から出る<end>"
 korean = "마을에서 나간다<end>"

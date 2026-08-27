@@ -212,6 +212,10 @@ korean = "싸워 힘을 얻어 갈수록 사람은 생명과 타인의 고통에
 japanese = "…親父がそう言ってたよ。　　　　<line-break>　<line-break>　<end>"
 korean = "…아버지가 그렇게 말했어.<end>"
 
+["460080"]
+japanese = "すまない。俺、お前と旅がしたかった。<line-break>でも、今、お前と行く気にはなれない。<line-break>　<line-break>俺は親父と一緒に<line-break>ここで巡礼客相手の宿屋をやる。<line-break>巡礼客をここで守る。<end>"
+korean = "미안하다. 난 너와 여행하고 싶었어. 하지만 지금은 너와 함께 갈 마음이 들지 않아. 난 아버지와 함께 여기서 순례객을 상대하는 여관을 할 거야. 순례객을 여기서 지키겠다.<end>"
+
 ["460081"]
 japanese = "…ナッジのこと、頼むぜ。<end>"
 korean = "…나지 부탁한다.<end>"
@@ -391,6 +395,10 @@ korean = "…저기, <value:$28>, 가 볼까….<end>"
 ["460131"]
 japanese = "…なるほど、<line-break>だいたいのお話はわかりました。<line-break>　<line-break>友達の仇討ち…ですか。<end>"
 korean = "…그렇군요. 대강 사정은 알겠습니다. 친구의 복수…입니까.<end>"
+
+["460132"]
+japanese = "おっしゃりたいことはわかります。<line-break>でも、…僕、くやしいんです。<line-break>　<line-break>大切な友達を助けられなかったこと。<line-break>僕に力が足りなかったこと…。<line-break>どうしようもなく…。<end>"
+korean = "무슨 말씀인지 압니다. 하지만… 저는 분해요. 소중한 친구를 구하지 못한 것. 제게 힘이 부족했던 것…. 정말 견딜 수 없을 만큼…<end>"
 
 ["460133"]
 japanese = "なるほど。<line-break>力が欲しいんですか…。<end>"

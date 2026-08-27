@@ -60,6 +60,10 @@ korean = "비시민 아니야<end>"
 japanese = "非市民で悪い？<end>"
 korean = "비시민이라 나빠?<end>"
 
+["880019"]
+japanese = "あ、言っておくけど、<line-break>悪い意味で言ってんじゃないよ。<line-break>　<line-break>自分では何もしてないのに<line-break>いばり散らしてるだけのリベルダム市民<line-break>なんて、ボク大っ嫌いだから。<end>"
+korean = "아, 말해 두는데 나쁜 뜻으로 한 말은 아니야. 자기는 아무것도 안 하면서 으스대기만 하는 리벨덤 시민 같은 건 난 정말 싫어하거든.<end>"
+
 ["880020"]
 japanese = "そんなことないよ。<line-break>むしろ、市民って聞くと<line-break>構えちゃうかな。<line-break>まぁ、ボクだって<line-break>市民はみんな悪者だなんて<line-break>考えてるわけじゃないけどさ。<end>"
 korean = "그렇지 않아. 오히려 시민이라고 하면 경계하게 되려나. 뭐, 나도 시민이 전부 나쁜 사람이라고 생각하진 않지만.<end>"
@@ -255,6 +259,10 @@ korean = "에엣! 저기! 그게! …저 같은 사람으로… 괜찮아요?<en
 ["880075"]
 japanese = "…たっぷりこき使ってやる、<line-break>冒険の旅はつらいぞって…。<line-break>　<line-break>いやーん！<line-break>やっぱりボクって<line-break>肉体労働専門なのね？<end>"
 korean = "…실컷 부려 먹어 줄 거야, 모험 여행은 힘들다고…. 싫어~! 역시 나는 육체노동 전문인 거야?<end>"
+
+["880076"]
+japanese = "もー！　冒険の仲間になろうって<line-break>言ってるだけじゃん！<line-break>ボク、待ってるからねー！<end>"
+korean = "정말! 모험 동료가 되자고 말하는 것뿐이잖아! 나 기다릴 테니까!<end>"
 
 ["880078"]
 japanese = "ホントごめんなさい！<end>"
@@ -504,6 +512,10 @@ korean = "엣…! 어떻게… 내가 라드라스 사람인 걸 알고 있어?<
 japanese = "ありがと、<value:$28>。<line-break>じゃあ行こう。ラドラスへ。<line-break>　<line-break>ラドラスは<line-break>竜骨の砂漠の中にあるんだ。<line-break>ボクが案内するよ。<end>"
 korean = "고마워, <value:$28>. 그럼 가자. 라드라스로. 라드라스는 용골 사막 안에 있어. 내가 안내할게.<end>"
 
+["880155"]
+japanese = "すごいでしょ。<line-break>ラドラスは古代に滅びた　　　　<line-break>魔道王国の遺産なんだ。<line-break>だから、いろんな力が眠っている。<line-break>ボクたち砂漠の一族は<line-break>それを守っているんだ。<end>"
+korean = "굉장하지. 라드라스는 고대에 멸망한 마도왕국의 유산이야. 그래서 여러 힘이 잠들어 있어. 우리 사막의 일족은 그걸 지키고 있지.<end>"
+
 ["880156"]
 japanese = "ボクたち以外にも<line-break>いろんな仕掛けがラドラスの遺産を<line-break>守っているんだ。<line-break>不定期に行われる<line-break>族長がいるかいないかのチェックも<line-break>そのひとつなんだよ。<end>"
 korean = "우리 말고도여러 장치가 라드라스의 유산을지키고 있어.불규칙하게 시행되는족장이 있는지 없는지 확인하는 것도그중 하나야.<end>"
@@ -559,6 +571,10 @@ korean = "아니요<end>"
 ["880169"]
 japanese = "じゃ、ボク待ってるから。<end>"
 korean = "그럼 난 기다리고 있을게.<end>"
+
+["880172"]
+japanese = "仲間のこと、<line-break>あんなにほっとくなんて最低ね。　<line-break>　<line-break>ナーシェスが突然、神懸かり的に<line-break>あのダンジョンに行こうなんて<line-break>言い出さなかったら、どうなってたか。<end>"
+korean = "동료를 그렇게 내버려 두다니 최악이네. 나셰스가 갑자기 신들린 듯 그 던전에 가자고 하지 않았다면 어떻게 됐을지.<end>"
 
 ["880174"]
 japanese = "ちょっと幻滅だわ。<line-break>あたしの言いたいのはそれだけ。<end>"
