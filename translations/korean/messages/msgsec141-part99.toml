@@ -224,6 +224,10 @@ korean = "응. 정말 고마워.<end>"
 japanese = "それでは、失礼いたします。<line-break>　<line-break>　<end>"
 korean = "그럼, 실례하겠습니다.　　<end>"
 
+["1410113"]
+japanese = "今日は本当に、疲れたわ…。<line-break>文書の最後に署名を書くだけだった<line-break>けれど、少し曲がってしまったし…。<line-break>もっと、がんばらなくては。<end>"
+korean = "오늘은 정말 피곤하네…. 문서 끝에 서명만 하면 됐는데 조금 삐뚤어졌고…. 더 열심히 해야겠어.<end>"
+
 ["1410114"]
 japanese = "あ、<value:$28>様ですか？<line-break>どうぞ、お入りになって。<end>"
 korean = "아, <value:$28>님이십니까? 들어오세요.<end>"
