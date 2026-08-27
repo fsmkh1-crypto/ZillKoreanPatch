@@ -212,6 +212,10 @@ korean = "아버님?<end>"
 japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
 korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
 
+["850094"]
+japanese = "だけど、そんなことでは<line-break>予言は終わらないって思うわけ。<end>"
+korean = "하지만 그런 걸로 예언이 끝날 거라곤 생각하지 않아.<end>"
+
 ["850096"]
 japanese = "そこで、ね。　　　　　　　　　　　<end>"
 korean = "그래서 말인데.<end>"

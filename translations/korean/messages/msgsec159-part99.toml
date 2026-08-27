@@ -256,6 +256,10 @@ korean = "그럼 엔샨트로 돌아가자, <value:$28>.<end>"
 japanese = "わっ、これ何？<line-break>これ何？<end>"
 korean = "왓, 이게 뭐야? 이게 뭐야?<end>"
 
+["1590114"]
+japanese = "フフ、これは転送機っていうんです。<line-break>使ってみましょうか。<end>"
+korean = "후후, 이건 전송기라고 합니다. 한번 써 볼까요?<end>"
+
 ["1590115"]
 japanese = "何しやがる！<line-break>俺を実験台にするな！<end>"
 korean = "뭐 하는 거야! 날 실험대로 쓰지 마!<end>"
@@ -315,6 +319,10 @@ korean = "질문은 없어<end>"
 ["1590132"]
 japanese = "フフ、それは秘密です。　　<line-break>　<line-break>　<line-break>ま、おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
 korean = "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일단 길드에서 일을 해 주세요.<end>"
+
+["1590136"]
+japanese = "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。　<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
+korean = "파괴신 울그의 부활에 쓰인 강력한 마도기입니다. 12종류가 있다고 하지요. 금단의 성배도 그중 하나입니다.<end>"
 
 ["1590148"]
 japanese = "そうですか。<end>"

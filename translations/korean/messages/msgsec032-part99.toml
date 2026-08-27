@@ -136,6 +136,10 @@ korean = "오, <value:$28>. 돌아왔군. 수고했다.<end>"
 japanese = "な、何事だ？<end>"
 korean = "무, 무슨 일이지?<end>"
 
+["320051"]
+japanese = "うむ…。<line-break>この世が乱れるとき<line-break>竜王が覚醒すると言われておる。<line-break>つまり、<line-break>乱世の原因を除くべく<line-break>目覚めるというのだが…。<end>"
+korean = "음…. 세상이 어지러워질 때 용왕이 깨어난다고 전해진다. 즉 난세의 원인을 없애기 위해 깨어난다는 뜻인데….<end>"
+
 ["320054"]
 japanese = "わかりました、父上。<line-break><value:$28>も、<line-break>連れていってよろしいでしょうか。<end>"
 korean = "알겠습니다, 아버님. <value:$28>도 데려가도 될까요?<end>"
