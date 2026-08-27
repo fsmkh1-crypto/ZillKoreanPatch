@@ -264,9 +264,17 @@ korean = "미안해. 잠깐 괜찮을까?<end>"
 japanese = "（…いや、違う。女だ。）<end>"
 korean = "(…아니, 달라. 여자다.)<end>"
 
+["1370205"]
+japanese = "あら…。くすっ、<line-break>素敵なお兄さんとかわいいコね。<end>"
+korean = "어머…. 후후, 멋진 오빠와 귀여운 아이네.<end>"
+
 ["1370207"]
 japanese = "セラ？<end>"
 korean = "세라?<end>"
+
+["1370208"]
+japanese = "くす、危ないところでしたのね。<line-break>少しいいかしら？<end>"
+korean = "후후, 위험한 상황이었군요. 잠시 괜찮을까요?<end>"
 
 ["1370209"]
 japanese = "（…いや、違う。女だ。）<end>"
@@ -379,6 +387,10 @@ korean = "<value:$28>님, 고마워! 이건 내 보물이지만 <value:$28>님�
 ["1370249"]
 japanese = "ロイは死を覚悟している。<line-break>…奴のことなら、わかる。<end>"
 korean = "로이는 죽음을 각오하고 있다. …녀석이라면 알아.<end>"
+
+["1370250"]
+japanese = "俺はセラ。<line-break>ロイは俺が認めた<line-break>唯一の男だ。<end>"
+korean = "나는 세라다. 로이는 내가 인정한 유일한 남자다.<end>"
 
 ["1370251"]
 japanese = "…来い。<end>"
@@ -591,6 +603,10 @@ korean = "…무슨 일이야?<end>"
 ["1370358"]
 japanese = "よし、では行こうか。<end>"
 korean = "좋아, 그럼 가볼까.<end>"
+
+["1370360"]
+japanese = "ならば行ってくるといい。<line-break>私はここで待っている。<end>"
+korean = "그렇다면 다녀오도록 해. 나는 여기서 기다리겠다.<end>"
 
 ["1370361"]
 japanese = "もう大丈夫か？<end>"
@@ -908,6 +924,10 @@ korean = "오시 씨에게 들었어. 고블린 퇴치에 협력한다며. 너�
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
 
+["1370554"]
+japanese = "困ります、お客さん。<line-break>い、いや…！　触らないで。<end>"
+korean = "곤란합니다, 손님. 아, 아니…! 만지지 마세요.<end>"
+
 ["1370556"]
 japanese = "あっ、<value:$28>さん！<line-break>助けてください！<end>"
 korean = "아, <value:$28>님! 도와주세요!<end>"
@@ -983,6 +1003,10 @@ korean = "크왓!<end>"
 ["1370588"]
 japanese = "や、やめてください！<end>"
 korean = "그, 그만해 주세요!<end>"
+
+["1370590"]
+japanese = "困ります、お客さん。<line-break>い、いや…！　触らないで。<end>"
+korean = "곤란합니다, 손님. 아, 아니…! 만지지 마세요.<end>"
 
 ["1370592"]
 japanese = "あっ、<value:$28>さん！<line-break>助けてください！<end>"
