@@ -16,6 +16,10 @@ korean = "요즘 날뛰는 <value:$15> 때문에,재료를 들여오는 데 애�
 japanese = "頼みたいのは<value:$15>の退治。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内。<line-break>モンスターのせいで仕事に支障が出てるんでな。<line-break>腕の立つ冒険者に任せる。<line-break>よろしく頼むぞ。<end>"
 korean = "부탁할 건 <value:$15> 퇴치다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내. 몬스터 때문에 일에 지장이 생겨서 말이야. 실력 있는 모험가에게 맡기지. 부탁한다.<end>"
 
+["220026"]
+japanese = "近頃、村の近くに<value:$15>が出るのよ。<line-break>私たちは恐くて夜も眠れないわ。<line-break><value:$15>を倒して、<line-break>村の近くから追い払って。<line-break>多くないけど<value:$1A>ギアなら用意できるわ。<line-break><value:$1B>日以内にお願いね。<end>"
+korean = "요즘 마을 근처에 <value:$15>가 나타나. 무서워서 밤에도 잠을 못 자겠어. <value:$15>를 쓰러뜨려 마을 근처에서 쫓아내 줘. 많진 않지만 <value:$1A>기어라면 준비할 수 있어. <value:$1B>일 이내에 부탁해.<end>"
+
 ["220031"]
 japanese = "街の近くに住みついている<value:$15>を<line-break>退治してほしい。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内に排除してほしい。<end>"
 korean = "마을 근처에 눌러앉은 <value:$15>을 퇴치해 주길 바란다. 보수는 <value:$1A>기아. <value:$1B>일 안에 제거해 줘.<end>"

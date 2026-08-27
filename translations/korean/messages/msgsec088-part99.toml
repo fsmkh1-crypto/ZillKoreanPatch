@@ -780,6 +780,10 @@ korean = "아, …미안.<end>"
 japanese = "あ…<value:$28>…。<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>なんだか変な感じなんだ。<line-break>いつもの見なれたラドラスなのに<line-break>誰かに見られてるような…。<end>"
 korean = "아… <value:$28>…. 왠지 이상한 느낌이야. 늘 보던 라드라스인데 누군가에게 감시받는 것 같아….<end>"
 
+["880207"]
+japanese = "　　　　　　　…エステルよ…　　　　　　　　<line-break>　　　　　　　目覚めるのだ…<line-break>　　　　　　　我が地の巫女よ…<end>"
+korean = "…에스텔이여… 눈을 떠라… 나의 땅의 무녀여….<end>"
+
 ["880208"]
 japanese = "　　　　　　　…我は地の精霊神　　　　　　　<line-break>　　　　　　　グラジェオンなり…<line-break>　<line-break>　<line-break>　　　　　　　我が座所を求めよ…<line-break>　　　　　　　我が試練を受けよ…<line-break>　　　　　　　我が望みをかなえよ…<end>"
 korean = "…나는 땅의 정령신 그라제온…. 나의 자리를 찾아라…. 나의 시련을 받아라…. 나의 소망을 이루어라….<end>"
@@ -1039,6 +1043,10 @@ korean = "그런데 말이야… 역시 나도 밖에 나가고 싶어… 있잖
 ["880279"]
 japanese = "ぶ～。　　　　　　　　<line-break>またそう言うんだ～。<line-break>つまんないの～。<line-break>でも、いつかまたボクも<line-break>一緒に冒険させてよね。<line-break>約束だよ！<end>"
 korean = "뿌우~. 또 그런 말 하는구나~. 재미없어~. 그래도 언젠가 나도 같이 모험하게 해 줘. 약속이야!<end>"
+
+["880281"]
+japanese = "ラドラスが浮上したときは<line-break>どうなることかと思ったけど、<line-break>無事に着地できてほんとうに良かったわ。<line-break>死んでしまったら外の世界を冒険する<line-break>ことができなくなるものね。<line-break><value:$28>さんありがとう。<end>"
+korean = "라드라스가 떠올랐을 땐 어떻게 되는 줄 알았는데 무사히 착륙해서 정말 다행이야. 죽어버리면 바깥세상을 모험할 수 없게 되잖아. <value:$28> 씨, 고마워.<end>"
 
 ["880282"]
 japanese = "エステルだよ。<line-break>空きだよ。<end>"
