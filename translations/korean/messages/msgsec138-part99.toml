@@ -164,6 +164,10 @@ korean = "…후후, 후후후후.<end>"
 japanese = "例えば、今宵の出会いが、<line-break>思いがけぬものだったとしたなら…<line-break>あるいは、わらわはそこに…<line-break>………………。<end>"
 korean = "예를 들어 오늘 밤의 만남이 뜻밖의 것이었다면… 어쩌면 나는 그곳에서… ……………….<end>"
 
+["1380081"]
+japanese = "（夜風の気持ちいい晩だ…。<line-break>　少し、散歩でもしようか）<end>"
+korean = "(밤바람이 기분 좋은 밤이다…. 조금 산책이라도 할까.)<end>"
+
 ["1380082"]
 japanese = "さらばじゃ。また会おう。<end>"
 korean = "잘 가게. 또 만나세.<end>"
@@ -252,6 +256,10 @@ korean = "몇 번이고 당신에게 말하고 싶어요. 고마워요, <value:$
 japanese = "<value:$28>…？<line-break>こんな夜遅くに、どうしたの？<end>"
 korean = "<value:$28>…? 이렇게 늦은 밤에 무슨 일이야?<end>"
 
+["1380126"]
+japanese = "今晩みたいに、それが気になって<line-break>眠れないこともある…。<end>"
+korean = "오늘 밤처럼 그게 신경 쓰여 잠들지 못할 때도 있어….<end>"
+
 ["1380135"]
 japanese = "ありがとう。<line-break>おやすみなさい、<line-break><value:$28>…。<end>"
 korean = "고마워. 잘 자, <value:$28>….<end>"
@@ -275,6 +283,14 @@ korean = "원망받아도 당연해. 나쁘게 말해도 무리는 아니지.<en
 ["1380143"]
 japanese = "そうか…<line-break>お前さんも付き合ってくれるのかい？<end>"
 korean = "그런가… 자네도 함께해 주겠나?<end>"
+
+["1380144"]
+japanese = "じゃあ、すまねぇが、<line-break>もうちっと、酒とつまみを頼むわ。<end>"
+korean = "그럼 미안하지만 술이랑 안주 좀 더 부탁할게.<end>"
+
+["1380151"]
+japanese = "そうだよな。<line-break>ちょっと、安心したよ。<line-break>へへへ…。<end>"
+korean = "그렇지. 조금 안심했어. 헤헤….<end>"
 
 ["1380153"]
 japanese = "けど…、けどさ！<line-break> <line-break> <line-break>姉ちゃん、頼むよ。<line-break>俺の姉ちゃんだってことを、<line-break>いつまでも忘れないでくれよ！<end>"
@@ -415,6 +431,14 @@ korean = "왔는가… 오만한 왕이여….<end>"
 ["1380221"]
 japanese = "たしかに…今の<value:$28>に<line-break>人類は導けまい。<line-break>しかし…<end>"
 korean = "확실히… 지금의 <value:$28>에게 인류를 이끌게 할 수는 없겠지. 하지만….<end>"
+
+["1380222"]
+japanese = "竜王ごときに遅れを取る貴様に<line-break>人類が導けるとも思えぬ。<end>"
+korean = "용왕 따위에게 뒤처지는 네놈이 인류를 이끌 수 있다고는 생각되지 않는다.<end>"
+
+["1380224"]
+japanese = "フフ…<line-break>朽ちゆくだけの貴様に<line-break>それができるかな？<end>"
+korean = "후후… 썩어 갈 뿐인 네놈에게 그게 가능할까?<end>"
 
 ["1380225"]
 japanese = "　　　　　　　　　貴様……　　　　　　　　<end>"

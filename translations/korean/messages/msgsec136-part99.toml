@@ -68,6 +68,10 @@ korean = "그만해, 오빠! 허무의 검을 뽑지 마!<end>"
 japanese = "俺は、俺はもっと生きたかったぜ！<line-break>今は言える！　もっと、もっと<line-break><value:$28>と…いっしょに…！<end>"
 korean = "난, 난 더 살고 싶었어! 지금은 말할 수 있어! 더, 더 <value:$28>과… 함께…!<end>"
 
+["1360065"]
+japanese = "私…たち…<line-break>どうしてこんなところに…<line-break>いるの…？<end>"
+korean = "우리… 왜 이런 곳에… 있는 거지…?<end>"
+
 ["1360066"]
 japanese = "<value:$28>は<line-break>虚無の剣を手に入れた。<end>"
 korean = "<value:$28>은 허무의 검을 손에 넣었다.<end>"
@@ -387,6 +391,10 @@ korean = "그건 좀…<end>"
 ["1360266"]
 japanese = "ホント！？<line-break>世界だよ？<end>"
 korean = "정말!? 세계라고?<end>"
+
+["1360270"]
+japanese = "なーんだ、それじゃダメだわ。<line-break>ちょっと期待したのにな。<end>"
+korean = "뭐야, 그럼 안 되겠네. 조금 기대했는데.<end>"
 
 ["1360272"]
 japanese = "はっ！<end>"
@@ -731,6 +739,10 @@ korean = "호오, 호오.<end>"
 ["1360430"]
 japanese = "アハブで大発生した<line-break>アンデッドどもの大群じゃ。<line-break>わしは、一も二もなく突撃した！<line-break>うおおおおおっ！<end>"
 korean = "아합에서 대량 발생한 언데드 무리다. 나는 앞뒤 가리지 않고 돌격했지! 우오오오오!<end>"
+
+["1360431"]
+japanese = "ええい、空気の読めぬ奴じゃ！<line-break>おぬしは今、アンデッド！<end>"
+korean = "에잇, 눈치 없는 녀석! 너는 지금 언데드다!<end>"
 
 ["1360435"]
 japanese = "その時じゃ。アンギルダン殿は、<line-break>刃を抜いてわしの前に立ちはだかった！<line-break>そして…こう言われたのじゃ。<line-break>信じているぞ…とな。<end>"
@@ -1179,6 +1191,10 @@ korean = "뭐가 보이는 걸까?<end>"
 ["1360730"]
 japanese = "人の心の中…？<end>"
 korean = "사람의 마음속…?<end>"
+
+["1360732"]
+japanese = "生まれなければよかった。<line-break>苦しまずにすんだのに…とね。<end>"
+korean = "태어나지 않았으면 좋았을 텐데. 그러면 괴롭지 않았을 거라고….<end>"
 
 ["1360735"]
 japanese = "まぁ、いっか。<line-break>まだまだたくさん<line-break>産まれたからね。<end>"

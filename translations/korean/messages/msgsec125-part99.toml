@@ -36,6 +36,10 @@ korean = "<value:$28>님. 제국 중추부와 카를라 사이에 의견 충돌�
 japanese = "こっそり教えるけどね、ザギヴは<line-break>東の方を見に出かけるらしいの。<line-break> <line-break><value:$28>には、護衛を<line-break>お願いするつもりなんじゃないかな？<end>"
 korean = "몰래 알려 주는 건데, 자기브는 동쪽을 보러 나갈 모양이야. <value:$28>에게 호위를 부탁하려는 거 아닐까?<end>"
 
+["1250029"]
+japanese = "すごいわね、<line-break>玄武将軍じきじきの依頼だなんて！<line-break>あなたも有名になったのね。<line-break>でもザギヴは結構なやり手らしいし<line-break>油断は禁物よ。<end>"
+korean = "대단하네. 현무장군이 직접 의뢰하다니! 너도 유명해졌구나. 그래도 자기브는 꽤 유능하다니 방심하면 안 돼.<end>"
+
 ["1250031"]
 japanese = "<value:$28>さんって<line-break>偉い人にも名前が知られてるんですね。<line-break>自分のことじゃないけど誇らしいです！<line-break>でもいったい何の用でしょうか？<end>"
 korean = "<value:$28>님은 높은 분들에게도 이름이 알려져 있군요. 제 일도 아닌데 자랑스러워요! 그런데 대체 무슨 용무일까요?<end>"
@@ -323,6 +327,10 @@ korean = "(벨제바…)<end>"
 ["1250262"]
 japanese = "消えたベルゼーヴァの行き先？<line-break>うーん、ちょっとわかんないや。<line-break><line-break>前に彼に会った場所とか、<line-break>どこか、なかったっけ？<end>"
 korean = "사라진 벨제바의 행방? 음, 잘 모르겠네. 전에 그를 만났던 장소 같은 데 없었어?<end>"
+
+["1250264"]
+japanese = "不死の王シャロームですね…。<line-break>彼の次の標的は…<line-break>おそらくあなたでしょう。<line-break>気をつけてください。<line-break>深遠の闇に囚われないよう…。<end>"
+korean = "불사의 왕 샬롬이군요…. 그의 다음 표적은… 아마 당신일 겁니다. 조심하세요. 심연의 어둠에 사로잡히지 않도록….<end>"
 
 ["1250267"]
 japanese = "ベルゼーヴァ様…。<line-break><line-break><line-break>………………。<end>"
