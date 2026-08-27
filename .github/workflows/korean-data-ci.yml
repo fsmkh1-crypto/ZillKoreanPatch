@@ -40,6 +40,8 @@ jobs:
         run: python3 tools/korean/qa-integrity.py --json /tmp/korean-qa-integrity.json --max-examples 40
       - name: Run QA-2 canonical terminology scan
         run: python3 tools/korean/qa-terminology.py --json /tmp/korean-qa-terminology.json --max-examples 60
+      - name: Run QA-3 repeated-source consistency scan
+        run: python3 tools/korean/qa-consistency.py --json /tmp/korean-qa-consistency.json --max-examples 40
       - name: Upload Korean QA reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -48,4 +50,5 @@ jobs:
           path: |
             /tmp/korean-qa-integrity.json
             /tmp/korean-qa-terminology.json
+            /tmp/korean-qa-consistency.json
           if-no-files-found: warn
