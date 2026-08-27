@@ -200,6 +200,10 @@ korean = "기다리고 있을게, <value:$28>.<end>"
 japanese = "　　　　　　ワレを…うけいれよ…。　　　　　<line-break>　　　　　お前の…ニクタイには…、<line-break>　　　　邪神の魂こそ…、ふさわしい…。<end>"
 korean = "나를… 받아들여라…. 네… 육체에는… 사신의 영혼이야말로… 어울린다….<end>"
 
+["1890053"]
+japanese = "　　　　　　相容れぬの…ならば…、　　　　　<line-break>　　　　　　　ヨワき存在が…、<line-break>　　　　　　消え去る…、のみ…。<end>"
+korean = "서로 양립할 수… 없다면…. 약한 존재가… 사라질… 뿐….<end>"
+
 ["1890058"]
 japanese = "よくがんばりましたね。　　　　　　　<line-break>　<line-break>　<line-break>ウルグが<value:$28>に<line-break>降臨するとは計算外でしたが、<line-break>復活は阻止されました。<end>"
 korean = "정말 수고 많으셨습니다. 울그가 <value:$28>에게 강림한 것은 계산 밖이었지만 부활은 저지되었습니다.<end>"
@@ -623,6 +627,10 @@ korean = "샤리…. 나 이제야 깨달았어. <value:$28>과 여행하면서 
 ["1890166"]
 japanese = "へぇ。何に気づいたの？<line-break>聞かせてよ。<end>"
 korean = "그래? 뭘 깨달았는데? 들려줘.<end>"
+
+["1890167"]
+japanese = "この世界に存在する、<line-break>生きとし生けるものすべてが、<line-break>　<line-break>それぞれの悩みや痛みを抱いて、<line-break>生命をまっとうしているのだと…。<line-break>　<line-break>僕は<value:$28>のお蔭で<line-break>他人の痛みを知ることができた。<end>"
+korean = "이 세상에 존재하는 모든 생명은 저마다 고민과 아픔을 안고 삶을 다하고 있다는 걸…. 나는 <value:$28> 덕분에 다른 사람의 아픔을 알 수 있었어.<end>"
 
 ["1890169"]
 japanese = "僕は<value:$28>のお蔭で<line-break>他人の痛みを知ることができた。<line-break>　<line-break>シャリ…。君も本当は他人のではなく、<line-break>自分自身の痛みを感じたいと<line-break>望んでいるのではないか？<end>"

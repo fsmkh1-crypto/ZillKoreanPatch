@@ -248,6 +248,10 @@ korean = "(해냈다…!)<end>"
 japanese = "フフ…<line-break>フフフ…<end>"
 korean = "후후… 후후후…<end>"
 
+["950069"]
+japanese = "　　　　　　人の子ごときに敗れるとは…。　　　　<line-break>　　我ら、神々とともに生まれし生き物の時代は…<line-break>　　　　　　　　終わったの…か…？<end>"
+korean = "인간 따위에게 패하다니…. 우리, 신들과 함께 태어난 생물들의 시대는… 끝난 것인가…?<end>"
+
 ["950071"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
 korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
