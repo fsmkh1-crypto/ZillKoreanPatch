@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Conservative QA-3 exact-source consistency fixer.
+"""Conservative QA-3 exact-source and typography consistency fixer.
 
-Only explicitly reviewed Japanese sources are eligible. Safe spacing fixes use
-ASCII/full-width whitespace equivalence; lexical fixes require an exact reviewed
-source and exact known-bad Korean variant. Dialogue/register and unresolved
-names are untouched.
+Reviewed lexical/spacing fixes remain source-gated. Two corpus-wide typography
+repairs are also allowed because they do not change words, register, control
+tokens, or punctuation:
+  * insert one space after ASCII sentence-final .!? when Hangul follows directly
+  * remove trailing ASCII/full-width whitespace immediately before <end>
+Full-width punctuation and internal full-width layout spacing are untouched.
 """
 from __future__ import annotations
 
@@ -20,6 +22,8 @@ HEADER_RE = re.compile(r'^\["(?P<id>\d+)"\]$')
 KO_RE = re.compile(r'^korean = (?P<value>".*")$')
 WS_RE = re.compile(r"[\s\u3000]+")
 LINE_BREAK = "<line-break>"
+GLUED_ASCII_SENTENCE_RE = re.compile(r"(?<=[.!?])(?=[가-힣])")
+SPACE_BEFORE_END_RE = re.compile(r"[ \u3000]+(?=<end>)")
 
 
 def norm_source(text: str) -> str:
@@ -44,12 +48,17 @@ SPACE_CANONICAL: dict[str, str] = {
     norm_source("気がついたか？放っておいてくれて大丈夫だったのに、…大きなお世話だ。<end>"): "정신이 들었나? 그냥 내버려 둬도 괜찮았는데, …쓸데없는 참견이군.<end>",
 }
 
-# Exact-source lexical fixes require an exact known-bad Korean surface.
 EXACT_VARIANTS: dict[str, dict[str, str]] = {
     norm_source("冒険者<end>"): {
         "모험자<end>": "모험가<end>",
     },
 }
+
+
+def apply_typography(text: str) -> tuple[str, int, int]:
+    text, glued = GLUED_ASCII_SENTENCE_RE.subn(" ", text)
+    text, trailing = SPACE_BEFORE_END_RE.subn("", text)
+    return text, glued, trailing
 
 
 def main() -> None:
@@ -97,12 +106,16 @@ def main() -> None:
             elif src in EXACT_VARIANTS and ko in EXACT_VARIANTS[src]:
                 new = EXACT_VARIANTS[src][ko]
 
+            new, glued, trailing = apply_typography(new)
+            if glued:
+                counts["insert-space-after-ascii-sentence-punctuation"] = counts.get("insert-space-after-ascii-sentence-punctuation", 0) + glued
+            if trailing:
+                counts["remove-space-before-end"] = counts.get("remove-space-before-end", 0) + trailing
+
             if new != ko:
                 lines[i] = "korean = " + json.dumps(new, ensure_ascii=False)
                 dirty = True
                 changed_records += 1
-                key = f"{ko}->{new}"
-                counts[key] = counts.get(key, 0) + 1
             current = None
 
         if dirty:
