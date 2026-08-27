@@ -284,6 +284,10 @@ korean = "마지막으로 다시 한번 감사하지. 잘도 나의 봉인을 �
 japanese = "いや、まだだよ。貴様を<line-break>世に放つわけにはいかんのでね。<line-break>　<line-break>この命を燃やし尽くしてでも<line-break>私が貴様を封じてみせる。<end>"
 korean = "아니, 아직이다. 네놈을 세상에 풀어놓을 순 없어서 말이지. 이 목숨을 다 태워서라도 내가 네놈을 봉인하겠다.<end>"
 
+["1340075"]
+japanese = "　　　　　　　　ク………ッ。<line-break>　　　　　　　　こしゃくな。<line-break>　　　　　余の動きを封じるつもりか。　　　　<line-break>　<line-break>　　　　　しかし、いつまで続く？<line-break>　　その術でうぬの命が削られていくのが　　<line-break>　　　余には手に取るようにわかるぞ。<end>"
+korean = "큭…… 건방진. 짐의 움직임을 봉하려는 것이냐. 하지만 얼마나 버틸 수 있겠느냐? 그 술법이 네 목숨을 깎아먹고 있다는 게 짐에게는 손에 잡힐 듯 보인다.<end>"
+
 ["1340076"]
 japanese = "<value:$28>君、<line-break>逃げたまえ。<line-break>今の我々では勝ち目はない。　<line-break>そして、ネメア様に出会えたら<line-break>このことを告げるのだ。<line-break>ネメア様なら、きっと…。<end>"
 korean = "<value:$28> 군, 도망가게. 지금 우리로선 승산이 없다. 그리고 네메아 님을 만나면 이 사실을 전해라. 네메아 님이라면 분명….<end>"
@@ -2008,6 +2012,10 @@ korean = "핫!<end>"
 japanese = "聞いちゃダメゴブ！<line-break> <line-break> <line-break>別にフゴーの宝物がほしくて<line-break>復興に手を貸しているんじゃ<line-break>ないゴブ！<end>"
 korean = "물으면 안 된다 고브! 딱히 후고의 보물이 탐나서 부흥을 돕는 게 아니다 고브!<end>"
 
+["1340523"]
+japanese = "<select><value:$20>%3団長はエライでゴブ。<line-break>ロストールの人たちのために<line-break>ガンバル姿には感動するゴブ！<end>こうやって、みんなでみんなで<line-break>しやあせになるゴブ！<end>自分たちゴブゴブ団も<line-break>一生懸命働いているから<line-break>復興団も、１００人力ゴブ！<end>"
+korean = "<select><value:$20>%3단장님은 훌륭하다 고브. 로스토올 사람들을 위해 힘내는 모습에 감동한다 고브!<end>이렇게 모두 함께 모두 함께 행복해지는 거다 고브!<end>우리 고브고브단도 열심히 일하고 있으니 복구단도 백 명 몫이다 고브!<end>"
+
 ["1340524"]
 japanese = "<select><value:$20>%3腹減ったゴブ。<end>なんか食いたいゴブ。<end>ガント親分、腹黒いゴブ。<end>"
 korean = "<select><value:$20>%3배고프다 고브.<end>뭔가 먹고 싶다 고브.<end>간트 두목, 속이 시커멓다 고브.<end>"
@@ -2227,6 +2235,10 @@ korean = "핫!<end>"
 ["1340579"]
 japanese = "別にフゴーの宝物がほしくて<line-break>復興に手を貸しているんじゃないゴブ！<line-break>　<line-break>だから、先を越された…とか、<line-break>全然思ってないゴブ！<end>"
 korean = "후고의 보물이 탐나서 복구를 돕는 게 아니다 고브! 그러니까 선수를 빼앗겼다거나 전혀 생각 안 한다 고브!<end>"
+
+["1340580"]
+japanese = "<select><value:$20>%3団長はエライでゴブ。<line-break>ロストールの人たちのために<line-break>ガンバル姿には感動するゴブ！<end>こうやって、みんなでみんなで<line-break>しやあせになるゴブ！<end>自分たちゴブゴブ団も<line-break>一生懸命働いているから<line-break>復興団も、１００人力ゴブ！<end>"
+korean = "<select><value:$20>%3단장님은 훌륭하다 고브. 로스토올 사람들을 위해 힘내는 모습에 감동한다 고브!<end>이렇게 모두 함께 모두 함께 행복해지는 거다 고브!<end>우리 고브고브단도 열심히 일하고 있으니 복구단도 백 명 몫이다 고브!<end>"
 
 ["1340581"]
 japanese = "<select><value:$20>%3腹減ったゴブ。<end>なんか食いたいゴブ。<end>ガント親分、腹黒いゴブ。<end>"

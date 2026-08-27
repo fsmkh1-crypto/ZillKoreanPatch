@@ -248,6 +248,10 @@ korean = "<value:$28>님…. 저, 정말 찾으실 건가요?<end>"
 japanese = "バッカじゃないの！<line-break>　<line-break>　<line-break>世界中どこを探したって<line-break>そんなくだらない魔道器<line-break>見つかるわけないでしょぉ！<end>"
 korean = "바보 아니야! 세상 어디를 뒤져도 그런 시시한 마도기는 나올 리 없잖아!<end>"
 
+["1980065"]
+japanese = "どうしよう…。伝説のフライパンが、<line-break>ただの出任せだって<line-break>わかってしまったら…。<line-break>もう<value:$28>さんと一緒に<line-break>旅をすることなんてできないわ…。<line-break>　<line-break>流れ星に願い事をすれば<line-break>本当になるって<line-break>おばあちゃん言ってたけど…。<end>"
+korean = "어쩌지…. 전설의 프라이팬이 그냥 지어낸 말이었다는 걸 알게 되면…. 이제 <value:$28>씨와 함께 여행할 수도 없게 될 거야…. 별똥별에 소원을 빌면 진짜가 된다고 할머니가 말씀하셨지만….<end>"
+
 ["1980066"]
 japanese = "早く流れ星を見つけて<line-break>お願いしなくっちゃ。<line-break>　<line-break>私のウソが<value:$28>さんに<line-break>バレないように…。<end>"
 korean = "빨리 별똥별을 찾아서 소원을 빌어야 해. 내 거짓말을 <value:$28>님이 눈치채지 않게….<end>"
@@ -336,6 +340,10 @@ korean = "어? 저건…. 뭔가요?<end>"
 japanese = "それと似たような話なら、<line-break>わしも耳にしたことがある。<line-break>じいさんが語ってくれた昔話だ。<end>"
 korean = "그와 비슷한 이야기라면 나도 들은 적이 있다. 할아버지가 들려준 옛날이야기지.<end>"
 
+["1980089"]
+japanese = "遥か、いにしえの時代…。<line-break>ドワーフとエルフが同じ災厄に<line-break>見舞われたことがあってな。<line-break>それを打開するために、<line-break>両種族が初めて協力して作った<line-break>魔道器があったらしい。<line-break>もしかすると、それが…。<line-break>伝説のフライパンとやらかも…。<end>"
+korean = "아득한 옛날…. 드워프와 엘프가 같은 재앙을 겪은 적이 있었다네. 그것을 극복하기 위해 두 종족이 처음으로 협력해 만든 마도기가 있었다고 하지. 어쩌면 그것이… 전설의 프라이팬이라는 것일지도….<end>"
+
 ["1980090"]
 japanese = "ええっ！<end>"
 korean = "에엣!<end>"
@@ -347,6 +355,10 @@ korean = "영감의 허풍인 줄 알았는데 다른 사람도 알고 있다면
 ["1980092"]
 japanese = "あの…。もしかして、<line-break>どこにあるのか、ご存じでは？<end>"
 korean = "저기…. 혹시 어디 있는지 알고 계신가요?<end>"
+
+["1980093"]
+japanese = "さあな。<line-break>わしは、てっきり<line-break>じいさんのホラ話と思うとったでな。<line-break>だが、ロストールにも同じ話が<line-break>伝わっとったとなると<line-break>あながち作り話だとも言い切れん。<line-break>まあ、百年以上も前に聞いた話じゃ。<line-break>わしも詳しいことは覚えとらんが。<end>"
+korean = "글쎄. 나는 완전히 할아버지의 허풍인 줄 알았거든. 하지만 로스토올에도 같은 이야기가 전해진다면 꼭 지어낸 이야기라고만 할 수도 없겠지. 뭐, 백 년도 더 전에 들은 이야기라 나도 자세히는 기억나지 않지만.<end>"
 
 ["1980094"]
 japanese = "あっ、<value:$28>さん…。<line-break>どうしたんですか、こんな夜に。<end>"

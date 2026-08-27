@@ -696,6 +696,10 @@ korean = "루루안타는 건강하구나. 루루안타가 건강하면 나도 �
 japanese = "<if><value:$29><equal>%0お兄ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>お姉ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>"
 korean = "<if><value:$29><equal>%0오빠도,루루안타가 건강하면 기뻐?<end>언니도,루루안타가 건강하면 기뻐?<end>"
 
+["1590176"]
+japanese = "<if><value:$29><equal>%0うふふ、じゃあ、ルルアンタ、<line-break>お兄ちゃんと一緒にいてあげるね。<line-break>　<line-break>お兄ちゃん、お名前は？<end>うふふ、じゃあ、ルルアンタ、<line-break>お姉ちゃんと一緒にいてあげるね。<line-break>　<line-break>お姉ちゃん、お名前は？<end>"
+korean = "<if><value:$29><equal>%0후후, 그럼 루루안타가 오빠랑 함께 있어 줄게. 오빠, 이름이 뭐야?<end>후후, 그럼 루루안타가 언니랑 함께 있어 줄게. 언니, 이름이 뭐야?<end>"
+
 ["1590177"]
 japanese = "じゃ、あらためてぇ…。　　　　<end>"
 korean = "그럼 다시 한번….<end>"

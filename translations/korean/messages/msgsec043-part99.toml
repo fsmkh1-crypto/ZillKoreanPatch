@@ -528,6 +528,10 @@ korean = "큭, 늦었나. 플린트가 죽었다고 방심했어. 암여우 부�
 japanese = "ノーブルに反乱が起こるように　　　　<line-break>仕掛けておくことなどたやすい<line-break>ということか！<end>"
 korean = "노블에 반란이 일어나도록 꾸며 두는 것쯤은 쉽다는 거냐!<end>"
 
+["430138"]
+japanese = "<if><value:$29><equal>%0ほう…。　　　　　　　　　　　　<line-break><line-break><line-break>そなたの弟、<value:$28>に<line-break>ノーブルの伯爵の称号を、のぅ…。<end>ほう…。　　　　　　　　　　　　<line-break><line-break><line-break>そなたの妹、<value:$28>に<line-break>ノーブルの伯爵の称号を、のぅ…？<end>"
+korean = "<if><value:$29><equal>%0호오…. 그대의 남동생 <value:$28>에게 노블 백작의 작위를 달라, 이거군….<end>호오…. 그대의 여동생 <value:$28>에게 노블 백작의 작위를 달라, 이거군…?<end>"
+
 ["430139"]
 japanese = "それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break><line-break>いや、運命を前にすれば<line-break>すべての人間が愚かなのかもな…。<end>"
 korean = "그 정도도 꿰뚫어보지 못할 사내는 아니겠지. …어리석은 형을 두었군. 아니, 운명 앞에서는 모든 인간이 어리석은 걸지도 모르겠군…<end>"

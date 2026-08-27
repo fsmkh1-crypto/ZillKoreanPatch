@@ -428,6 +428,10 @@ korean = "음? 외지인과는 상관없는 일이다. 가시오.<end>"
 japanese = "いや、こちらは<line-break><value:$28>様にて<line-break>封士様の知己です。信頼に足る方かと。<end>"
 korean = "아뇨, 이분은 <value:$28> 님으로 봉사님과 아는 사이입니다. 믿을 만한 분일 겁니다.<end>"
 
+["1360107"]
+japanese = "<if><value:$2A><greater-equal>50おおっ！<line-break>貴殿が<line-break><value:$2B>の<value:$28>！<line-break>これはお見それいたしました。<line-break>イオンズ様よりうかがっております。<end><value:$28>殿ですか。<line-break>これはお見それいたしました。<line-break>イオンズ様よりうかがっております。<end>"
+korean = "<if><value:$2A><greater-equal>50오오! 귀공이 <value:$2B>의 <value:$28>! 제가 몰라뵈었습니다. 이온즈님께 말씀 들었습니다.<end><value:$28>님이십니까. 제가 몰라뵈었습니다. 이온즈님께 말씀 들었습니다.<end>"
+
 ["1360108"]
 japanese = "実は生意気な魔道士が参り<line-break>聖光石の鉱脈があるはずだ<line-break>教えろ、と申したのです。<end>"
 korean = "사실 건방진 마도사가 찾아와 성광석 광맥이 있을 테니 가르쳐 달라고 했습니다.<end>"

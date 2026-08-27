@@ -28,6 +28,10 @@ korean = "…그래!! 그거 하자! 이 도시가 떠오르길 바라면서도 
 japanese = "　　　　　　今生きるすべての命も、　　　　　<line-break>　　　　彼らの所へ連れて行ってやろう。<line-break>　　　さびしくないようにね。アハハハハ！<end>"
 korean = "지금 살아 있는 모든 생명도 그들이 있는 곳으로 데려가 주마. 외롭지 않도록 말이지. 아하하하하!<end>"
 
+["1120008"]
+japanese = "　　　　　　　あ、もし、君に　　　　　　<line-break>　　　　　ご意見ご要望があったら<line-break>　　　　この都市の制御の間まで来てよ。<line-break>　<line-break>　…って、言わなくても君はここまで来るか。<line-break>じゃ、今、そこと、この制御の間を直結するよ。<line-break>　　さ、こっちに来なよ、<value:$28>。<end>"
+korean = "아, 혹시 네게 의견이나 요구가 있으면 이 도시의 제어실로 와. …라고 안 해도 넌 여기까지 오겠지. 그럼 지금 그곳과 이 제어실을 바로 연결할게. 자, 이쪽으로 와, <value:$28>.<end>"
+
 ["1120009"]
 japanese = "やあ、<value:$28>。<line-break>こんな時にまで君と一緒なんて<line-break>もうこれは、運命的な何かを感じるね。<line-break>ところで、これ、すごいんだよ。<line-break>一度巫女たちが起動させれば、<line-break>僕でも動かせるようになってるんだ。<end>"
 korean = "안녕, <value:$28>. 이런 때까지 너와 함께라니 정말 운명 같은 무언가를 느끼게 되네. 그런데 이거 대단해. 한 번 무녀들이 기동시키고 나면 나도 움직일 수 있게 되어 있어.<end>"
@@ -83,6 +87,10 @@ korean = "정말 싫다니까. 어린애 놀이에 끼어들고 싶지 않네. �
 ["1120024"]
 japanese = "それにしても、<line-break>あいかわらずひどいことするなあ、　<line-break>竜王様は。<line-break>この空中都市の脅威を消すために、<line-break>ここの住人も巫女も、無限のソウルを<line-break>持つ者まで巻き添えにする？<end>"
 korean = "그나저나 여전히 너무하네, 용왕님도. 이 공중도시의 위협을 없애려고 여기 주민도 무녀도, 무한의 소울을 지닌 자까지 휘말리게 한다고?<end>"
+
+["1120025"]
+japanese = "　　　　　　　　　笑止な。　　　　　　　　　<line-break>　　　　　他人の心配をしてみせるか？<line-break>　<line-break>　<line-break>　　　　　　　汝は虚無の子、<line-break>　　　汝は痛みを知ることはできても<line-break>　　　　　　感じることはできぬ。<line-break>　　　ただのうつろな人形に過ぎぬのだ。<end>"
+korean = "우습구나. 남 걱정을 해 보이느냐? 그대는 허무의 아이. 고통을 알 수는 있어도 느낄 수는 없다. 그저 텅 빈 인형에 지나지 않느니라.<end>"
 
 ["1120026"]
 japanese = "うわ、言ってくれるね。<line-break>確かにその通りだけどさ。<end>"
@@ -464,6 +472,10 @@ korean = "기다리고 있었다. 대지의 무녀여. 그리고 무한의 소�
 japanese = "　　　　　　　　　来たか。　　　　　　　　　<line-break>　　　　　　無限のソウルを持つ者よ。<line-break>　　　　　　我は汝を待っておった…。　<line-break>　　　　　　　　かつて汝に<line-break>　　　巨人フルーヴを倒してもらったが<line-break>　　　　　我の力はいまだ戻らぬ。<end>"
 korean = "왔는가. 무한의 소울을 지닌 자여. 나는 너를 기다리고 있었다…. 예전에 네가 거인 플루브를 쓰러뜨려 줬지만, 나의 힘은 아직 돌아오지 않았다.<end>"
 
+["1120136"]
+japanese = "　　　　　　　巨人フルーヴの兄　　　　　　　<line-break>　　　　　　巨人パンタ・レイが<line-break>　　　　　我が力を封じておるのだ。<line-break>　<line-break>　　　　ゆえに今再び、我は汝に求める。<line-break>　　　　　　　彼の巨人を退け<line-break>　　　　　我の力を解き放ってほしい。<end>"
+korean = "거인 플루브의 형인 거인 판타 레이가 내 힘을 봉인하고 있다. 그러니 다시 한 번 그대에게 부탁하겠다. 그 거인을 물리치고 내 힘을 해방해 다오.<end>"
+
 ["1120137"]
 japanese = "わかった<end>"
 korean = "알았어<end>"
@@ -551,6 +563,10 @@ korean = "어쩔 수 없지<end>"
 ["1120160"]
 japanese = "関係ないってば<end>"
 korean = "상관없다니까<end>"
+
+["1120161"]
+japanese = "　　　　　 　　来たか、地の巫女よ。　　　　　　<line-break>　　　　　　　　　ん、汝は…。<line-break>　　　なるほど、無限のソウルを持つ者か…。<line-break>　<line-break>　　　 　 　　大いなる可能性を持つ<line-break>　　　  　　 　　人の子らよ。<line-break>　　　  　　 　汝に頼みがある。<end>"
+korean = "왔는가, 땅의 무녀여. 음, 그대는…. 그렇군, 무한의 소울을 지닌 자인가…. 커다란 가능성을 지닌 인간의 아이들이여. 그대에게 부탁이 있다.<end>"
 
 ["1120162"]
 japanese = "　　 　　ここより先に、<line-break>　　 フルーヴという巨人がおる。<line-break>　<line-break>　<line-break>　　　汝の力で葬ってくれ。<line-break>　 　彼奴は我の力を妨げる力。<line-break>　　 　不要な存在なのだ…。<end>"

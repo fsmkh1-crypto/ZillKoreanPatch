@@ -392,6 +392,10 @@ korean = "좋아<end>"
 japanese = "それはできない<end>"
 korean = "그건 할 수 없어<end>"
 
+["570098"]
+japanese = "<if><value:$29><equal>%0わーい、じゃあ、ルルアンタ、<line-break>これからはお兄ちゃんと一緒だぁ！<line-break>　<line-break>お兄ちゃん、お名前は？<end>わーい、じゃあ、ルルアンタ、<line-break>これからはお姉ちゃんと一緒だぁ！<line-break>　<line-break>お姉ちゃん、お名前は？<end>"
+korean = "<if><value:$29><equal>%0와아, 그럼 루루안타는 이제부터 오빠랑 함께다! 오빠, 이름이 뭐야?<end>와아, 그럼 루루안타는 이제부터 언니랑 함께다! 언니, 이름이 뭐야?<end>"
+
 ["570099"]
 japanese = "じゃ、あらためてぇ…。　　　　<end>"
 korean = "그럼 다시 한번….<end>"

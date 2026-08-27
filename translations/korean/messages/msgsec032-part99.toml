@@ -516,6 +516,10 @@ korean = "<select><value:$20>%2이상한 여자가 하늘에서 내려오고…�
 japanese = "<if><value:$29><equal>%0知らない！！<line-break>知らないんだ、俺たちゃ！<line-break>面ってなんなんだよ！？　おい！！<end>みんな…みんな…<line-break>あの女に燃やされて…！！<line-break>ああ…、ど、どうなってるんだよ！？<end>"
 korean = "<if><value:$29><equal>%0몰라!! 모른다고, 우리는! 가면이 뭐냐고!? 야!!<end>모두… 모두… 그 여자한테 불타서…!! 아아… 대, 대체 어떻게 된 거야!?<end>"
 
+["320138"]
+japanese = "<if><value:$29><equal>%0…<value:$28>クン…な…の？<line-break>に…逃げ…て…、は…早…く…　　<line-break>　<line-break>…わ…私…もう…ダメ…だから…<line-break>キ…キミ…だけでも…<end>イ…イヤ…死にたく…ない…<line-break>か、かめ…ん…なんて…<line-break>ホント…知らな…い…<end>"
+korean = "<if><value:$29><equal>%0…<value:$28>군…인 거야? 도…도망쳐… 빨리… 나…나는 이제… 안 돼… 너…너만이라도…<end>시…싫어… 죽고 싶지… 않아… 가, 가면… 같은 건… 정말… 몰라…<end>"
+
 ["320139"]
 japanese = "<value:$28>さまー。<line-break>おかえりなさい。<line-break>お疲れさまでしたー。<end>"
 korean = "<value:$28> 님~. 어서 오세요. 수고하셨어요~.<end>"

@@ -432,6 +432,10 @@ korean = "어서 와, <value:$28>.<end>"
 japanese = "ヴァンのお父さんも<line-break>ヴァンの言うことは聞くみたいでさ。<line-break>　<line-break>最近、この町で、僕に対する<line-break>風当たりが少なくなったよ。…ヴァンに<line-break>会えなくなったのは、さびしいけど。<end>"
 korean = "반의 아버지도 반의 말은 듣는 모양이야. 요즘 이 마을에서 나를 보는 시선도 좀 누그러졌어. …반을 못 만나게 된 건 쓸쓸하지만.<end>"
 
+["450111"]
+japanese = "<select><value:$20>%2ヴァンと<value:$28>と僕…<line-break>３人、いつも一緒だよね。ふふふ。<end>最近、ヴァンのお父さんの風当たりが<line-break>強くって、この町にもいづらいけど…<line-break>　<line-break>ボンガさんが、僕らのこと<line-break>理解してもらえるように、<line-break>町のみんなを説得してくれてるから…。<end>"
+korean = "<select><value:$20>%2반과 <value:$28>와 나… 우리 셋은 늘 함께지. 후후.<end>요즘 반의 아버지가 우리를 못마땅해해서 이 마을에 있기도 힘들지만… 봉가씨가 우리를 이해해 주도록 마을 사람들을 설득해 주고 있으니까….<end>"
+
 ["450112"]
 japanese = "ねえ、<value:$28>…。<line-break>ヴァン、…大丈夫だよね。<end>"
 korean = "있잖아, <value:$28>…. 반, …괜찮겠지?<end>"

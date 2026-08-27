@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["1580006"]
+japanese = "<select><value:$20>%2エンシャントのギルドにいる謎の冒険者に<line-break>のせられて、ついつい何度も挑戦してたら<line-break>所持金がなくなっちまった…トホホ。<end>楽して稼ごうなんて考えちゃだめだね。<line-break>エンシャントのギルドにある魔法の箱…<line-break>あれは悪魔の箱だよ。<end>"
+korean = "<select><value:$20>%2엔샨트 길드의 수수께끼 모험가 말에 넘어가 몇 번이나 도전하다가 가진 돈이 다 떨어졌어… 흑흑.<end>편하게 돈 벌 생각은 하면 안 되겠어. 엔샨트 길드에 있는 마법의 상자… 그건 악마의 상자야.<end>"
+
 ["1580011"]
 japanese = "これは、<value:$28>様。<line-break>本日はどなたにご用でございますか？<end>"
 korean = "아, <value:$28>님. 오늘은 누구를 찾아오셨습니까?<end>"

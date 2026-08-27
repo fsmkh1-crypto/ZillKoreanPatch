@@ -36,6 +36,10 @@ korean = "<select><value:$33>술집은 없습니다<end>술집은 없습니다<e
 japanese = "<select><value:$33>酒場はありません<end>酒場はありません<end>酒場はありません<end>（未：AGETEA_06 ロセン王国陥落）<end>（未：AGETEA_06 アンギルダンの山越え）<end>（未：AGETEA_06 リベルダム陥落）<end>（未：AGETEA_06 カルラ進軍）<end>（未：AGETEA_06 ネメア死亡）<end>"
 korean = "<select><value:$33>술집은 없습니다<end>술집은 없습니다<end>술집은 없습니다<end>(미사용: AGETEA_06 로센 왕국 함락)<end>(미사용: AGETEA_06 안길단의 산맥 횡단)<end>(미사용: AGETEA_06 리벨덤 함락)<end>(미사용: AGETEA_06 카를라 진군)<end>(미사용: AGETEA_06 네메아 사망)<end>"
 
+["1280014"]
+japanese = "<select><value:$33>（未：AGETEA_07 旅立ち）<end>酒場はありません<end>酒場はありません<end>（未：AGETEA_07 ロセン王国陥落）<end>（未：AGETEA_07 アンギルダンの山越え）<end>（未：AGETEA_07 リベルダム陥落）<end>（未：AGETEA_07 カルラ進軍）<end>（未：AGETEA_07 ネメア死亡）<end>"
+korean = "<select><value:$33>(미사용: AGETEA_07 여행 시작)<end>술집은 없습니다<end>술집은 없습니다<end>(미사용: AGETEA_07 로센 왕국 함락)<end>(미사용: AGETEA_07 앙길단의 산 넘기)<end>(미사용: AGETEA_07 리벨덤 함락)<end>(미사용: AGETEA_07 카를라 진군)<end>(미사용: AGETEA_07 네메아 사망)<end>"
+
 ["1280022"]
 japanese = "レベリスの葉を使ったお茶さ。このお茶を<line-break>おいしくいれるには、少し技術が必要なんだよ。<line-break>そういえば…<end>"
 korean = "레베리스 잎으로 만든 차야. 이 차를 맛있게 우려내려면 약간의 기술이 필요하지. 그러고 보니….<end>"

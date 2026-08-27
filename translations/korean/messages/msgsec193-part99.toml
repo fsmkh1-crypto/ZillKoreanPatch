@@ -144,6 +144,10 @@ korean = "모험을 보내 달라는 이야기라면 안 됩니다. 아큐류스
 japanese = "わかっておる。<line-break>まあ、わしの話を聞いてくれ。<end>"
 korean = "알고 있다. 뭐, 내 이야기를 들어 보게.<end>"
 
+["1930036"]
+japanese = "<if><value:$29><equal>%0お前も年頃じゃ。<line-break>信頼できる若者を<line-break>そばに置いておきたくてな。<end>お前も水の巫女となり、<line-break>これからいろいろと<line-break>気苦労もあるじゃろう。<line-break>じゃから、お前が、<line-break>一生つきあえる友人が、<line-break>そばにいればと思ってな。<end>"
+korean = "<if><value:$29><equal>%0너도 이제 혼기가 찼으니 말이다. 믿을 만한 젊은이를 곁에 두고 싶어서 말이지.<end>너도 물의 무녀가 되었으니 앞으로 여러 가지 마음고생이 있겠지. 그래서 네가 평생 함께할 수 있는 친구가 곁에 있으면 해서 말이다.<end>"
+
 ["1930037"]
 japanese = "<value:$28>、<line-break>娘を頼んだぞ。<end>"
 korean = "<value:$28>, 딸을 부탁한다.<end>"

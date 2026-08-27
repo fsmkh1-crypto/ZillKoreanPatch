@@ -1,5 +1,9 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+["80000"]
+japanese = "<select><value:$20>%2詳しくは教えられてないが、この地には<line-break>何か恐ろしい力が封印されているらしい。<line-break>我々はそれを守るために雇われているのだ。<end>たとえ今は平和でも、<line-break>いつどこの国が攻め込んでくるかわからない。<line-break>それゆえ、鍛錬を怠らぬようにしているのだ。<end>"
+korean = "<select><value:$20>%2자세히는 듣지 못했지만 이 땅에는 무시무시한 힘이 봉인되어 있다고 한다. 우리는 그것을 지키기 위해 고용된 것이다.<end>지금은 평화롭더라도 언제 어느 나라가 침공해 올지 모른다. 그래서 단련을 게을리하지 않는 것이다.<end>"
+
 ["80015"]
 japanese = "<select><value:$20>%2わーい、イズキヤル！<line-break>こっち、こっちー！<end>遅いぞ、はやくはやく！<end>"
 korean = "<select><value:$20>%2와아, 이즈키얄! 여기, 여기야!<end>늦었어, 빨리 빨리!<end>"

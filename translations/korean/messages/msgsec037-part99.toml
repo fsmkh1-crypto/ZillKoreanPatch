@@ -724,6 +724,10 @@ korean = "…잘 지내.<end>"
 japanese = "<value:$28>、<line-break>来ちゃダメ！<end>"
 korean = "<value:$28>, 오면 안 돼!<end>"
 
+["370188"]
+japanese = "<if><value:$29><equal>%0んんー？　そういえば、<line-break>そちもユリアシュと一緒におったの。<line-break>ひっ捕らえよ！<line-break>こやつも共犯、同罪じゃ！<end>んんー？　そういえば、<line-break>そちもユシュアルと一緒におったの。<line-break>ひっ捕らえよ！<line-break>こやつも共犯、同罪じゃ！<end>"
+korean = "<if><value:$29><equal>%0으음? 그러고 보니 그대도 유리아슈와 함께 있었지. 붙잡아라! 이 녀석도 공범, 같은 죄다!<end>으음? 그러고 보니 그대도 유슈알과 함께 있었지. 붙잡아라! 이 녀석도 공범, 같은 죄다!<end>"
+
 ["370189"]
 japanese = "ヌォッホホホ…！　行くぞ。<end>"
 korean = "누오호호호…! 간다.<end>"
@@ -763,6 +767,10 @@ korean = "모르겠냐?<end>"
 ["370200"]
 japanese = "お前さんが男になって<line-break>帰ってくるんだよ！<end>"
 korean = "네가 남자가 되어 돌아오는 거야!<end>"
+
+["370201"]
+japanese = "<if><value:$29><equal>%0ほう、あのイシュベノブの息子か…。<line-break>ファナティックも悪戯よの…。<line-break>わらわがエアじゃ。<line-break>無限のソウルを持つ者よ。<end>ほう、あのイシュベノブの娘か…。<line-break>ファナティックも悪戯よの…。<line-break>わらわがエアじゃ。<line-break>無限のソウルを持つ者よ。<end>"
+korean = "<if><value:$29><equal>%0호오, 그 이슈베노브의 아들이로구나…. 파나틱도 장난이 심하군…. 짐이 에아다. 무한의 소울을 지닌 자여.<end>호오, 그 이슈베노브의 딸이로구나…. 파나틱도 장난이 심하군…. 짐이 에아다. 무한의 소울을 지닌 자여.<end>"
 
 ["370202"]
 japanese = "フフ、危害は加えぬ。　　　　　　　　<end>"

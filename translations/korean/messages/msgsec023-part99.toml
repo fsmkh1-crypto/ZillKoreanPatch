@@ -196,6 +196,10 @@ korean = "가져와 줬으면 하는 물건이 있어. 일 때문에 좀 필요�
 japanese = "探し物ができました。<value:$15>です。<line-break>いろいろと重宝する材料なんですよ。<line-break>冒険者の方に探し出していただきたいのですが、<line-break><value:$1B>日以内の期限で、<value:$1A>ギアの報酬。<line-break>どうでしょう、やってもらえませんか？<end>"
 korean = "찾을 물건이 생겼습니다. <value:$15>입니다. 여러모로 쓸모 있는 재료거든요. 모험가분께 찾아 달라고 부탁하고 싶은데, 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어입니다. 해 주시겠습니까?<end>"
 
+["230059"]
+japanese = "この都市の防衛は、傭兵たちの力に頼っている。<line-break>そのため、彼らには、<line-break>常に充実した装備を提供せねばならない。<line-break>冒険者諸君には、武器、防具生産に必要な<line-break><value:$15>を持ち帰ってほしい。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内とする。<end>"
+korean = "이 도시의 방위는 용병들의 힘에 의존하고 있다. 따라서 그들에게는 늘 충실한 장비를 제공해야 한다. 모험가 제군은 무기와 방어구 생산에 필요한 <value:$15>을 가져와 주길 바란다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
+
 ["230060"]
 japanese = "いざというときの都市防衛のため、<line-break>ギルドで独自に作っている武具の材料、<line-break><value:$15>を採ってきてもらえませんか？<line-break><value:$1A>ギアの報酬で、<value:$1B>日以内の期限。<line-break>上記の条件でやってもらえませんか？<end>"
 korean = "만일의 도시 방위를 위해 길드가 자체 제작하는 무구의 재료인 <value:$15>를 채취해 주시겠습니까? 보수 <value:$1A>기어, 기한 <value:$1B>일 이내. 위 조건으로 부탁드릴 수 있을까요?<end>"
@@ -267,6 +271,10 @@ korean = "<value:$15>를 가져와 줬으면 해. 회복용 도구의 재료야.
 ["230086"]
 japanese = "<value:$15>が切れてしまいました。<line-break>これがなくなってしまうと<line-break>品物を作れなくなってしまいます。<line-break><value:$15>を持ち帰ってださい。<line-break>日限は、<value:$1B>日以内とさせていただきます。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
 korean = "<value:$15>이 떨어졌습니다. 이게 없으면 물건을 만들 수 없습니다. <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내로 하겠습니다. 사례는 <value:$1A>기어면 어떨까요.<end>"
+
+["230087"]
+japanese = "冒険者の力をぜひ借りたいんだ。<line-break><value:$15>を入手したいと思ってるんだ。<line-break>だが、俺たちが取りに行ったところで、<line-break>モンスターに追い返されるのがオチだ。<line-break>そこで、あんたたちに頼みたい。<line-break><value:$1B>日以内で頼む。<line-break><value:$1A>ギアの報酬だ。期待してるぜ。<end>"
+korean = "모험가들의 힘을 꼭 빌리고 싶어. <value:$15>을 구하고 싶은데 우리가 가지러 가 봤자 몬스터에게 쫓겨날 게 뻔해. 그래서 너희에게 부탁하는 거야. <value:$1B>일 이내로 부탁해. 보수는 <value:$1A>기어다. 기대할게.<end>"
 
 ["230088"]
 japanese = "手に入れたいものがあるんだ。<line-break><value:$15>なんだけどね。<line-break>なにしろモンスターがたくさんいるもんでね、<line-break>あたしたちじゃ取りにいけないのさ。<line-break><value:$15>を探して持ってきてもらえる？<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギア払うよ。<end>"
@@ -347,6 +355,10 @@ korean = "술을 조합하는 데 <value:$15>가 필요해. 직접 가지러 가
 ["230112"]
 japanese = "<value:$15>が切れてしまいました。<line-break>これがなくなってしまうと、<line-break>品物を作れなくなってしまいます。<line-break><value:$15>を持ち帰ってださい。<line-break>日限は、<value:$1B>日以内とさせていただきます。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
 korean = "<value:$15>이 다 떨어졌습니다. 이게 없으면 물건을 만들 수가 없습니다. <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내로 하겠습니다. 사례는 <value:$1A>기어면 어떻습니까.<end>"
+
+["230113"]
+japanese = "冒険者の力をぜひ借りたいんだ。<line-break><value:$15>を入手したいと思ってるんだ。<line-break>だが、俺たちが取りに行ったところで、<line-break>モンスターに追い返されるのがオチだ。<line-break>そこで、あんたたちに頼みたい。<line-break><value:$1B>日以内で頼む。<line-break><value:$1A>ギアの報酬だ。期待してるぜ。<end>"
+korean = "모험가들의 힘을 꼭 빌리고 싶어. <value:$15>을 구하고 싶은데 우리가 가지러 가 봤자 몬스터에게 쫓겨날 게 뻔해. 그래서 너희에게 부탁하는 거야. <value:$1B>일 이내로 부탁해. 보수는 <value:$1A>기어다. 기대할게.<end>"
 
 ["230115"]
 japanese = "<value:$15>を持ち帰ってほしい。<line-break>回復用の道具の材料さ。<line-break>報酬は、<value:$1A>ギア。<value:$1B>日以内だ。<line-break>海の上じゃあ、物が足りなくなったら、<line-break>自分らで作らなきゃならねぇ。<line-break>材料の確保は、大切なのさ。頼んだぜ。<end>"
