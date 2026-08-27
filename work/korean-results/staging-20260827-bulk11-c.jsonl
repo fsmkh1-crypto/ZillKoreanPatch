@@ -1,0 +1,20 @@
+{"section":33,"id":"330010","korean":"루루안타, 나는 그 아이는 그 아이대로<line-break>좋아하는 길을 가면 된다고 생각해.<end>"}
+{"section":137,"id":"1370373","korean":"<select><value:$20>%2이상한 여자가 하늘에서 내려오고…<line-break>마을이… 마을이… 불길에 휩싸여서….<end>불이다… 불이다… 불이야아아!<line-break>누, 누가 좀 살려줘어!<end>"}
+{"section":34,"id":"340007","korean":"대, 대단해요! 역시 카츠 씨!<line-break>훌륭한 완성도예요! 감동이에요!<end>"}
+{"section":147,"id":"1470066","korean":"<if><value:$29><equal>%0(정면은 제네테스 씨에게 맡기자.<line-break>　서둘러야 해.)<end>(정면은 제네테스 씨에게 맡기죠.<line-break>　서둘러야 해요.)<end>"}
+{"section":34,"id":"340016","korean":"카츠 씨!<line-break>그 검은 뭔가요!<line-break>카츠 씨의 신작인가요!?<end>"}
+{"section":77,"id":"770049","korean":"<if><value:$29><equal>%0아는 사이죠.<line-break>제 신분은 그가 보증해 줄 겁니다.<end>아는 사이죠.<line-break>제 신분은 그녀가 보증해 줄 겁니다.<end>"}
+{"section":56,"id":"560617","korean":"이거 완전히 갇혀 버렸네.<line-break>이걸로 끝인가….<line-break>후후후후.<end>"}
+{"section":37,"id":"370170","korean":"<if><value:$29><equal>%0<value:$28>, 유리아슈,<line-break>빨리 도망쳐.　　　　　　　<end><value:$28>, 유슈알,<line-break>빨리 도망쳐.　　　　　　　<end>"}
+{"section":56,"id":"560700","korean":"도망쳐도 소용없어.<line-break>문은 단단히 닫혀 있고<line-break>도시 전체를 포위했거든.<end>"}
+{"section":37,"id":"370139","korean":"<if><value:$29><equal>%0테레지아 씨한테 가서,　　<line-break>유리아슈를 지키라고 해.<end>테레지아 씨한테 가서,　　<line-break>유슈알을 지키라고 해.<end>"}
+{"section":56,"id":"560704","korean":"도망쳐도 소용없어.<line-break>문은 단단히 닫혀 있고<line-break>도시 전체를 포위했거든.<end>"}
+{"section":37,"id":"370180","korean":"<if><value:$29><equal>%0바보야, 도망쳐.<line-break>도망가. 야! 유리아슈!!<end>바보야, 도망쳐.<line-break>도망가. 야! 유슈알!!<end>"}
+{"section":56,"id":"560707","korean":"도망쳐도 소용없어.<line-break>문은 단단히 닫혀 있고<line-break>도시 전체를 포위했거든.<end>"}
+{"section":37,"id":"370116","korean":"<if><value:$29><equal>%0<value:$28>, 그래야<line-break>나와 이슈베노브의 아들이지.<end><value:$28>, 그래야<line-break>나와 이슈베노브의 딸이지.<end>"}
+{"section":89,"id":"890265","korean":"오, 자네인가.<line-break>이런 때에 나를 찾아오다니<line-break>자네도 참 운이 없군.<end>"}
+{"section":51,"id":"510031","korean":"그렇군.<line-break>마법으로 근력을 거의 빼앗긴<line-break>너라도…<line-break>그 약을 마시면,<line-break>시문원의 살인기계로 돌아갈 수 있다는 거군.<line-break>"}
+{"section":89,"id":"890275","korean":"일부러 나와 주느라<line-break>수고했지만,<line-break>당장 사라져 줘야겠어.<end>"}
+{"section":183,"id":"1830024","korean":"<if><value:$2A><greater-equal>50여어, <value:$2B>의<line-break><value:$28> 아니야.<line-break>어때, 상태는?<end>여어, <value:$28>인가.<line-break>어때, 상태는?<end>"}
+{"section":89,"id":"890635","korean":"그렇군.<line-break>고양이 저택이라는 곳에서 불러내겠다는 거군.<line-break>그럼 기다리고 있지.<end>"}
+{"section":98,"id":"980054","korean":"<select><value:$20>%3아, <value:$28> 아니야.<line-break>오랜만이네?<end>어머, <value:$28> 아니야.<line-break>우연이네.<end>아, <value:$28> 아니야.<line-break>건강해 보이네.<end>"}
