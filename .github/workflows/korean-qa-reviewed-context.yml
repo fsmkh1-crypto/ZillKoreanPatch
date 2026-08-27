@@ -5,7 +5,6 @@ on:
     branches:
       - translation/section001-batch2
     paths:
-      - tools/korean/qa-fix-reviewed-context.py
       - tools/korean/qa-apply-reviewed-context-json.py
       - tools/korean/reviewed-context-fixes*.json
       - .github/workflows/korean-qa-reviewed-context.yml
@@ -29,9 +28,7 @@ jobs:
       - name: Baseline QA
         run: python3 tools/korean/qa-consistency.py --json /tmp/before.json --max-examples 0
       - name: Apply reviewed context fixes
-        run: |
-          python3 tools/korean/qa-fix-reviewed-context.py
-          python3 tools/korean/qa-apply-reviewed-context-json.py
+        run: python3 tools/korean/qa-apply-reviewed-context-json.py
       - name: Validate corpus
         run: |
           ./zill korean-check
