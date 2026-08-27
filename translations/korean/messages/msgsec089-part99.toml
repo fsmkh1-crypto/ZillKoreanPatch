@@ -1264,6 +1264,14 @@ korean = "…나는 파괴신을 섬기는 마인. 원탁기사, 고하는 자 �
 japanese = "だけど、お前と過ごした１６年…<line-break>私は初めて安らぎを知った…。<line-break>　<line-break><value:$28>、<line-break>強く…生きて…。<end>"
 korean = "하지만 너와 보낸 16년… 나는 처음으로 평온을 알았다…. <value:$28>, 강하게… 살아….<end>"
 
+["890495"]
+japanese = "自分の身を捨ててまで逃がすか…<line-break>アスティアよ、母とは強いものだな。<end>"
+korean = "자신을 희생해서까지 도망치게 하나… 아스티아여, 어머니란 강한 존재구나.<end>"
+
+["890499"]
+japanese = "王妃様に会うのか。<line-break>よかろう、話は承っている。<line-break>通るとよい。<end>"
+korean = "왕비님을 만나러 가는가. 좋다, 이야기는 들었다. 지나가라.<end>"
+
 ["890504"]
 japanese = "よく来た、フリントの息子<line-break><value:$28>よ。<line-break>今日は何用か？<end>"
 korean = "잘 왔다, 플린트의 아들 <value:$28>이여. 오늘은 무슨 일이지?<end>"
@@ -1419,6 +1427,10 @@ korean = "맡지 않는다<end>"
 ["890555"]
 japanese = "あたし、お腹ぺこぺこ。<line-break>　<line-break>　<line-break>この家からいい匂いがするよぅ。<line-break>おじゃましてみようかなぁ。<end>"
 korean = "나 배고파 죽겠어. 이 집에서 좋은 냄새가 나. 한번 들어가 볼까.<end>"
+
+["890558"]
+japanese = "王妃様に会うのか。<line-break>よかろう、話は承っている。<line-break>通るとよい。<end>"
+korean = "왕비님을 만나러 가는가. 좋다, 이야기는 들었다. 지나가라.<end>"
 
 ["890562"]
 japanese = "テストようなのじゃよ。<line-break>今は時代０なんじゃ。<line-break>ひょっほっほっ。<end>"

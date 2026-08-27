@@ -176,6 +176,10 @@ korean = "무시한다<end>"
 japanese = "お前が、<value:$28>か？<line-break>　　　　　　　　　　　　　　　　　　<line-break>　<end>"
 korean = "네가 <value:$28>인가?<end>"
 
+["510064"]
+japanese = "そうか。<line-break>聞いての通り、副司令閣下がお呼びだ。<line-break>ついてきてくれ。<end>"
+korean = "그런가. 들은 대로 부사령 각하가 부르신다. 따라와.<end>"
+
 ["510065"]
 japanese = "ゼネテス様。<line-break><value:$28>様を<line-break>お連れしました。<end>"
 korean = "제네테스 님. <value:$28> 님을 모셔 왔습니다.<end>"
@@ -299,6 +303,10 @@ korean = "…가아아아악!<end>"
 ["510137"]
 japanese = "敵襲！<end>"
 korean = "적습!<end>"
+
+["510138"]
+japanese = "なんだと！？　<line-break>味方が徴発に出払っているすきを<line-break>ついてくるとは！<end>"
+korean = "뭐라고!? 아군이 징발하러 나간 틈을 노리다니!<end>"
 
 ["510140"]
 japanese = "頭だけで考えると<line-break>現実が見えなくなるぜ！<end>"

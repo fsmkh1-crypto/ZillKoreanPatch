@@ -8,6 +8,10 @@ korean = "오이페 메시지 V5 시작<end>"
 japanese = "た、たたた、わたた、<line-break>たすけてくれぇぇぇ！！<line-break>　<line-break>ばけ、ばけもの…<line-break>化け物が、化け物が<line-break>俺たちのねぐらにぃぃーっ！<end>"
 korean = "도, 도도도, 도와, 도와줘어어!! 괴, 괴물… 괴물이, 괴물이 우리 소굴에에에!<end>"
 
+["1730004"]
+japanese = "ひぃああ！<line-break>見つかったら殺されるぅぅ。<line-break>たぁぁすけぇてぇぇぇ！！<end>"
+korean = "히이악! 들키면 죽어어어. 사, 살려 줘어어어!!<end>"
+
 ["1730006"]
 japanese = "助けに行こう<end>"
 korean = "도우러 가자<end>"
@@ -43,6 +47,10 @@ korean = "그때까지는 보호받을 권리가 있어. 꼬마야. 네 목숨�
 ["1730018"]
 japanese = "死ねえっ！<end>"
 korean = "죽어라!<end>"
+
+["1730019"]
+japanese = "おっと、危ない。<line-break>その程度の腕で<line-break>刃物を振り回してほしくないな。<end>"
+korean = "어이쿠, 위험해. 그 정도 실력으로 칼을 휘두르지는 않았으면 좋겠군.<end>"
 
 ["1730021"]
 japanese = "ぜっ、ゼグナだ。<line-break>ゼグナの坑道に隠した！<end>"
@@ -168,6 +176,10 @@ korean = "맡는다<end>"
 japanese = "引き受けない<end>"
 korean = "맡지 않는다<end>"
 
+["1730060"]
+japanese = "とりあえず、<line-break>助けてくれて、ありがとう。<line-break>　<line-break>これを見せれば、カルラは<line-break>理解するはずよ。じゃ、よろしく。<line-break>私はドルドラムたちを追うから。<end>"
+korean = "일단 구해 줘서 고마워. 이걸 보여 주면 칼라는 이해할 거야. 그럼 부탁해. 나는 돌드람 일행을 쫓을 테니까.<end>"
+
 ["1730065"]
 japanese = "そう。仕方ないわね。<line-break>あなたに頼んだ、<line-break>私がバカだったわ。<end>"
 korean = "그래. 어쩔 수 없네. 당신에게 부탁한 내가 바보였어.<end>"
@@ -235,6 +247,10 @@ korean = "오이페 공의 서신이라고? 잠시 기다려라.<end>"
 ["1730092"]
 japanese = "カルラ様がお会いになるそうだ。<line-break>失礼のないようにな。<end>"
 korean = "칼라 님께서 만나시겠답니다. 실례 없도록 하십시오.<end>"
+
+["1730093"]
+japanese = "あんたが、オイフェのおつかいね。<line-break>あたしがカルラ。<line-break>ディンガルの東方攻略軍司令。<line-break>でもって青竜将軍。<line-break>ヨロシクぅ。<line-break>じゃ、手紙、見せて。<end>"
+korean = "네가 오이페의 심부름꾼이구나. 내가 칼라. 딩갈 동방공략군 사령관, 그리고 청룡장군. 잘 부탁해. 자, 편지 보여 줘.<end>"
 
 ["1730094"]
 japanese = "あら、<value:$28>じゃん。<line-break>オイフェから手紙預かってるんだって？<line-break>どれどれ…<end>"

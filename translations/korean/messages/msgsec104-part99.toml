@@ -76,6 +76,10 @@ korean = "…<value:$28>에 대해 조금 조사하게 했습니다.<end>"
 japanese = "なんだと？<end>"
 korean = "뭐라고?<end>"
 
+["1040032"]
+japanese = "落ち着け、クリュセイス！<line-break>そんな理由で、<line-break>奴の容疑が晴れるものか！<end>"
+korean = "진정해, 크류세이스! 그런 이유로 녀석의 혐의가 풀릴 리 없어!<end>"
+
 ["1040033"]
 japanese = "<value:$28>様が、お見えです。<end>"
 korean = "<value:$28> 님이 오셨습니다.<end>"
@@ -135,6 +139,10 @@ korean = "크류세이스 님! 무슨 일이십니까?<end>"
 ["1040055"]
 japanese = "なんですか？<end>"
 korean = "뭡니까?<end>"
+
+["1040060"]
+japanese = "わ、わたくしはあなたのことを<line-break>責めているつもりではなくて、<line-break>ただ…<end>"
+korean = "저, 저는 당신을 탓하려는 게 아니라, 그저….<end>"
 
 ["1040061"]
 japanese = "では、我々も<line-break>屋敷周辺の警戒を強化いたします。<end>"

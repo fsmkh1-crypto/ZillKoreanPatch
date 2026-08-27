@@ -68,6 +68,10 @@ korean = "엘파스를 막는다.<end>"
 japanese = "黙って見ている<end>"
 korean = "말없이 지켜본다<end>"
 
+["1410022"]
+japanese = "ん？　もしかして、<line-break>君は僕の邪魔をするのかい？<line-break>彼は暗殺者なんだよ？<end>"
+korean = "응? 혹시 네가 나를 방해하려는 거야? 그는 암살자라고?<end>"
+
 ["1410023"]
 japanese = "レイヴンを<line-break>あなたに渡すわけにはいきません！<end>"
 korean = "레이븐을 당신에게 넘길 수는 없습니다!<end>"
@@ -211,6 +215,10 @@ korean = "………………. 훗, 당신다운 작별 인사군.<end>"
 ["1410065"]
 japanese = "では行こうか、<value:$28>。<line-break>行ける限り、地の果てまでも。<end>"
 korean = "그럼 가자, <value:$28>. 갈 수 있는 데까지, 세상 끝까지.<end>"
+
+["1410067"]
+japanese = "へへ、悪かった。<line-break>だますつもりはなかったんだが、<line-break>ま、許してくれや。<end>"
+korean = "헤헤, 미안. 속일 생각은 없었는데, 뭐 용서해 줘.<end>"
 
 ["1410069"]
 japanese = "俺の力じゃないさ。<line-break>必死に国を守ろうとした<line-break>みんなのおかげだ。<end>"
@@ -407,6 +415,10 @@ korean = "부, 부디 솔직한 의견을.<end>"
 ["1410132"]
 japanese = "本当？　嬉しいです！<end>"
 korean = "정말요? 기뻐요!<end>"
+
+["1410134"]
+japanese = "そこに用意しているクッキーは、<line-break>あの…私が今朝初めてひとりで<line-break>焼いたものなのです…。<line-break>うまくできたと思うので…<line-break>どうか、一緒に召し上がってください。<end>"
+korean = "거기 준비해 둔 쿠키는… 제가 오늘 아침 처음 혼자 구운 거예요…. 잘된 것 같으니… 부디 함께 드셔 주세요.<end>"
 
 ["1410136"]
 japanese = "あの、<value:$28>様。<end>"
@@ -888,6 +900,10 @@ korean = "정말이라면 그분 강함의 절반, 아니 백분의 일만큼의
 japanese = "だから今、<line-break>私はその責任から<line-break>逃げることはできない。<line-break>もしも、<line-break>もう一度あの方と出会えた時に、私は…。<end>"
 korean = "그래서 지금 나는 그 책임에서 도망칠 수 없어. 만약 다시 그분을 만날 수 있다면 나는….<end>"
 
+["1410298"]
+japanese = "…もしもう一度お会いできたら、<line-break>今度は…今度こそはパートナーとして<line-break>胸を張って…<line-break>一緒に歩きたいと…<line-break>思っていました…。<line-break>勇気を持って…。<end>"
+korean = "…다시 한번 만날 수 있다면, 그때는… 그때야말로 파트너로서 당당하게… 함께 걷고 싶다고… 생각했어요…. 용기를 내서….<end>"
+
 ["1410299"]
 japanese = "…<value:$28>様！<end>"
 korean = "…<value:$28> 님!<end>"
@@ -1088,6 +1104,10 @@ korean = "…나, 너무 많이 싸운 것 같아. 너무 싸워서 소중한 �
 japanese = "わからない…<line-break>おかしくなりそうなの！<line-break>　<line-break>私、どうしても、それを探しに<line-break>行かなくちゃならない…！<end>"
 korean = "모르겠어… 미쳐 버릴 것 같아! 나, 무슨 일이 있어도 그걸 찾으러 가야 해…!<end>"
 
+["1410359"]
+japanese = "もう一度戦いの中へ<line-break>戻ることになっても、<line-break>それを取り戻すためなら…！<end>"
+korean = "다시 싸움 속으로 돌아가게 되더라도, 그것을 되찾을 수 있다면…!<end>"
+
 ["1410360"]
 japanese = "心のカケラ…あの時なくした、<line-break>大切な、私の、何か…。<end>"
 korean = "마음의 조각… 그때 잃어버린, 소중한 내 무언가….<end>"
@@ -1203,6 +1223,10 @@ korean = "<value:$28>…. 끝났군….<end>"
 ["1410397"]
 japanese = "…そうだな。<line-break>これはまだ始まりにすぎない…。<line-break> <line-break>それは苦難に満ちた<line-break>道のりとなるだろう。<end>"
 korean = "…그렇군. 이건 아직 시작에 불과해…. 고난으로 가득한 길이 되겠지.<end>"
+
+["1410399"]
+japanese = "さあ、戻ろう。<line-break>我々には為さねばならぬことが<line-break>数多くあるのだから…。<end>"
+korean = "자, 돌아가자. 우리에게는 해야 할 일이 많으니까….<end>"
 
 ["1410400"]
 japanese = "追加メッセージここから<end>"
@@ -1440,6 +1464,10 @@ korean = "희귀한 물건을 많이 가져왔구나.<end>"
 japanese = "あなたは、私たちに<line-break>英知を示してくれました。<end>"
 korean = "당신은 우리에게 지혜를 보여 주었습니다.<end>"
 
+["1410472"]
+japanese = "ロストールの復興、<line-break>リベルダムの復興に<line-break>大きな貢献をしてくれたのぉ。<end>"
+korean = "로스토올과 리벨덤의 복흥에 큰 공헌을 해 주었구나.<end>"
+
 ["1410473"]
 japanese = "そして、博愛心とその強さを<line-break>示してくれました。<end>"
 korean = "그리고 박애심과 그 강함을 보여 주었습니다.<end>"
@@ -1527,6 +1555,10 @@ korean = "추가 메시지 여기부터<end>"
 ["1410500"]
 japanese = "追加メッセージここから<end>"
 korean = "추가 메시지 여기부터<end>"
+
+["1410501"]
+japanese = "これは、実に素晴らしい！<line-break>この尋常でない色あい、デザイン…<line-break>まさにガルドの頭飾り、<line-break>本物に間違いありません。<line-break>良い値で買い取らせていただきます。<end>"
+korean = "이건 정말 훌륭하군요! 이 평범하지 않은 색감과 디자인… 틀림없는 진짜 갈드의 머리장식입니다. 좋은 값에 사겠습니다.<end>"
 
 ["1410502"]
 japanese = "いつもながら<line-break><value:$28>の手際は見事じゃのぉ。<end>"

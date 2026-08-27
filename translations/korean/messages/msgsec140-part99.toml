@@ -224,6 +224,10 @@ korean = "…제네테스가 불렀다고?<end>"
 japanese = "何が言いたい！<end>"
 korean = "무슨 말을 하고 싶은 거야!<end>"
 
+["1400079"]
+japanese = "フフフッ。<line-break>ようこそ、みなさん！<line-break>闇の王女のための血の晩餐会へ！<end>"
+korean = "후후훗. 어서 오세요, 여러분! 어둠의 왕녀를 위한 피의 만찬회에!<end>"
+
 ["1400080"]
 japanese = "お前は、シャリ！？<line-break>道化め！　どういうつもりだ？<end>"
 korean = "너는 샤리!? 광대 녀석! 무슨 속셈이지?<end>"
@@ -307,6 +311,10 @@ korean = "다치신 곳은 없습니까, <value:$28>님!<end>"
 ["1400118"]
 japanese = "ゼネテス様？<end>"
 korean = "제네테스님?<end>"
+
+["1400119"]
+japanese = "…俺も倒れるほどがんばったのにさ。<line-break>俺には感謝のコトバとか、なしなの？<end>"
+korean = "…나도 쓰러질 정도로 열심히 했는데. 나한테는 감사하다는 말 같은 건 없어?<end>"
 
 ["1400120"]
 japanese = "あ、あ、すみません！！<line-break>すぐに人を呼んできます。<end>"
@@ -516,6 +524,10 @@ korean = "이거, 나한테 온 편지야. 읽어 볼래?<end>"
 japanese = "わ、私ではありません！<line-break>こ、こんなはしたないマネ…。<end>"
 korean = "저, 제가 아닙니다! 이, 이런 상스러운 짓은….<end>"
 
+["1400198"]
+japanese = "…はしたない、ねえ？　<line-break>誰かが自分の純粋できれいな気持ちを<line-break>うち明けるのは、はしたなくないぜ。<line-break>ま、そんな誰かさんが、<line-break>存在すれば、の話だがな。<end>"
+korean = "…천박하다고? 누군가가 자신의 순수하고 아름다운 마음을 털어놓는 건 천박하지 않아. 뭐, 그런 누군가가 존재한다면 말이지.<end>"
+
 ["1400199"]
 japanese = "…どういうことです？<end>"
 korean = "…무슨 뜻이죠?<end>"
@@ -700,6 +712,10 @@ korean = "샤리!! 어디야!? 나와!!<end>"
 japanese = "その声…シャリだね！！<line-break>出てきなよ！<end>"
 korean = "그 목소리… 샤리구나!! 나와!<end>"
 
+["1400268"]
+japanese = "　　今、いにしえの魔道文明の大いなる遺産、<line-break>　　　　　　空中都市ラドラスが、<line-break>　　　　４人の巫女の力でよみがえり、<line-break>　　　　　大空へと飛び立つのさ！！<end>"
+korean = "지금 고대 마도문명의 위대한 유산, 공중도시 라드라스가 네 무녀의 힘으로 되살아나 하늘로 날아오른다!!<end>"
+
 ["1400276"]
 japanese = "行かせないよ。<line-break>言ったでしょ？<line-break>君は招かれざる客だって。<line-break>僕はこれを使ってやるんだ。<line-break>それをジャマするのは<line-break>ほっとけないな。<end>"
 korean = "보내 줄 수 없어. 말했지? 넌 초대받지 않은 손님이라고. 나는 이걸 쓸 거야. 그걸 방해한다면 그냥 둘 수 없지.<end>"
@@ -712,9 +728,17 @@ korean = "후후… 의외로 제법이네. 이만큼 힘을 냈는데 질 줄�
 japanese = "これが運命。<line-break>かきまわしたところで<line-break>悪く転ぶだけ。<end>"
 korean = "이게 운명이야. 휘저어 봐야 나쁘게 흘러갈 뿐이지.<end>"
 
+["1400282"]
+japanese = "………………。<line-break>………………。<line-break>…わかったわ。<line-break>…あなたの言葉に賭けてみるわ。<line-break>巫女は動力の間よ。行きましょう。<line-break>もう時間がない。急いで。<end>"
+korean = "………………. …알겠어. …네 말을 믿어 볼게. 무녀들은 동력실에 있어. 가자. 시간이 없어. 서둘러.<end>"
+
 ["1400285"]
 japanese = "ん？<line-break>この振動、外から！？<line-break>来たね…。<end>"
 korean = "응? 이 진동, 밖에서!? 왔군….<end>"
+
+["1400286"]
+japanese = "　　　　　　　いく星霜をへて　　　　　　　　<line-break>　　　なお消えぬ無念の思いより生まれし<line-break>　　　　　　　　虚無の子よ、<line-break>　　　　　ここはお前の世界ではない…。<end>"
+korean = "오랜 세월이 지나도 사라지지 않은 원념에서 태어난 허무의 아이여, 여기는 네 세계가 아니다….<end>"
 
 ["1400287"]
 japanese = "お出ましだね…。<line-break>竜王…。<end>"
@@ -856,6 +880,10 @@ korean = "아직 몸에 힘이 잘 들어가진 않지만… 괜찮습니다. <v
 japanese = "フッ、気軽に言うてくれるわ。<line-break>よかろう。制御の間へ転送しようぞ。<end>"
 korean = "흥, 쉽게 말하는군. 좋다. 제어의 방으로 전송해 주지.<end>"
 
+["1400345"]
+japanese = "地の巫女のボクは<line-break>空中都市を魔力で操って<line-break>竜骨の砂漠に突っ込む。<end>"
+korean = "땅의 무녀인 나는 공중도시를 마력으로 움직여 용골 사막에 들이받을 거야.<end>"
+
 ["1400346"]
 japanese = "よいのです、<line-break><value:$28>様。<end>"
 korean = "괜찮습니다, <value:$28>님.<end>"
@@ -904,9 +932,17 @@ korean = "네.<end>"
 japanese = "…そう、ですか。<end>"
 korean = "…그렇, 군요.<end>"
 
+["1400367"]
+japanese = "さ、行って。<line-break>きっとエアもイークレムンも大変だ。<line-break>助けてあげて。<end>"
+korean = "자, 가. 에아도 이크레문도 분명 힘들 거야. 도와줘.<end>"
+
 ["1400368"]
 japanese = "…さよなら…フレア。<end>"
 korean = "…안녕… 플레어.<end>"
+
+["1400369"]
+japanese = "ボク、昔は、誰かのために<line-break>こんな砂漠に埋もれるのなんて<line-break>まっぴらだって思ってた。<line-break>それで、ラドラスを飛び出して…。<line-break>自分の族長って役割を嫌ってて…。<end>"
+korean = "나, 옛날에는 누군가를 위해 이런 사막에 묻히는 건 질색이라고 생각했어. 그래서 라드라스를 뛰쳐나와… 족장이라는 역할도 싫어했지….<end>"
 
 ["1400371"]
 japanese = "…さよなら…<value:$28>。<end>"

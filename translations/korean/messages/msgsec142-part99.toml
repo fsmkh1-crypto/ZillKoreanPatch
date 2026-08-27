@@ -276,6 +276,10 @@ korean = "………………. <value:$28>, 너도 참 고생이 많구나….<en
 japanese = "親父、酒はまだか。<end>"
 korean = "아저씨, 술은 아직이야?<end>"
 
+["1420100"]
+japanese = "何を言っておるか。<line-break>わからぬからこそ旅は楽しい。<line-break>…そうではないか？<end>"
+korean = "무슨 소리냐. 모르기 때문에 여행은 즐거운 것이다. …그렇지 않느냐?<end>"
+
 ["1420101"]
 japanese = "あらかじめ知ってしまっては、<line-break>不運もないが運もない。<line-break>不幸もないが幸もない…。<line-break>じゃろう、<value:$28>？<end>"
 korean = "미리 알아 버리면 불운도 없지만 행운도 없고, 불행도 없지만 행복도 없지…. 그렇지, <value:$28>?<end>"
@@ -716,6 +720,10 @@ korean = "추가 메시지 여기부터<end>"
 japanese = "なんじぇいエステル、<line-break>いつから司会者になったんじゃあ。<end>"
 korean = "아니 에스텔, 언제부터 사회자가 된 게냐.<end>"
 
+["1420247"]
+japanese = "とっつぁん、<line-break>ちょいと最初からトバしすぎだ。<line-break>ロレツが回ってねえぜ。<end>"
+korean = "아저씨, 시작부터 너무 달리는군. 혀가 꼬였잖아.<end>"
+
 ["1420248"]
 japanese = "えーと、思い出話もたっくさん<line-break>出てると思うんだけど、<line-break> <line-break>何か肝心なものが足りない…<line-break>なんて思ってるのは、ボクだけかな？<end>"
 korean = "음, 추억 이야기도 많이 나왔을 텐데, 뭔가 중요한 게 빠졌다고 생각하는 건 나뿐일까?<end>"
@@ -1127,6 +1135,10 @@ korean = "………………! 서, 설마, 그럴 수가…!<end>"
 ["1420368"]
 japanese = "は、犯人が、この中にいる…！？<end>"
 korean = "버, 범인이 이 안에 있다고…!?<end>"
+
+["1420369"]
+japanese = "まー、ンなこと、<line-break>このかれんな乙女たちが<line-break>たくらむわきゃないわねー。<end>"
+korean = "뭐, 그런 걸 이 가련한 소녀들이 꾸밀 리 없지.<end>"
 
 ["1420371"]
 japanese = "では、もう少し待ってみましょう。<line-break>実は正面から現れるかも。<end>"
@@ -1636,6 +1648,10 @@ korean = "후고 님, 다이다로 님. 그런 이유로 고브고브단은 전�
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
 
+["1420525"]
+japanese = "さあ、戻ろう。<line-break>戦いが終わっても、<line-break>やらねばならぬことは残っている。<end>"
+korean = "자, 돌아가자. 싸움이 끝나도 해야 할 일은 남아 있다.<end>"
+
 ["1420526"]
 japanese = "竜王が倒れましたか…。<line-break>　<line-break>　<line-break>うつしよの最後の神が消え、<line-break>人は自分たちの力だけで<line-break>歩まねばならなくなりましたね。<end>"
 korean = "용왕이 쓰러졌습니까…. 현세의 마지막 신이 사라지고 인간은 자기 힘만으로 걸어가야 하게 됐군요.<end>"
@@ -1772,6 +1788,10 @@ korean = "무슨 뜻인가요? 설명해 주시겠어요?<end>"
 japanese = "我々ディンガル帝国は<line-break>新たなる皇帝を擁立するのです。<line-break> <line-break>人類の革新を進めるに相応しい人物を<line-break>…ね<end>"
 korean = "우리 딘갈 제국은 새로운 황제를 세울 겁니다. 인류의 혁신을 추진하기에 걸맞은 인물을… 말이죠.<end>"
 
+["1420576"]
+japanese = "…まさか！？<line-break>そのような無法が<line-break>許されるとでも思っているのか？<end>"
+korean = "…설마!? 그런 무법이 허용될 거라 생각하는 건가?<end>"
+
 ["1420577"]
 japanese = "そちらでは無法と<line-break>見えるのかもしれません。<line-break> <line-break>しかし、我が国は<line-break>血筋よりも能力を尊びます。<end>"
 korean = "그쪽에서는 무법으로 보일지 모르겠습니다. 하지만 우리나라는 혈통보다 능력을 중시합니다.<end>"
@@ -1839,6 +1859,10 @@ korean = "그쯤 해 두세요. 여기서부터는 <value:$28> 본인이 결정�
 ["1420599"]
 japanese = "我々に口を挟む権利はありません。<end>"
 korean = "우리에게 참견할 권리는 없습니다.<end>"
+
+["1420603"]
+japanese = "世界は再び、あなたに様々な顔を<line-break>見せてくれるでしょう。<line-break>自由な旅を！<end>"
+korean = "세계는 다시 당신에게 여러 모습을 보여 줄 겁니다. 자유로운 여행을!<end>"
 
 ["1420604"]
 japanese = "こ、ここで待っていれば…<end>"
@@ -1987,6 +2011,10 @@ korean = "시끄럽다!<end>"
 ["1420649"]
 japanese = "ぐお！！<end>"
 korean = "크오!!<end>"
+
+["1420650"]
+japanese = "フフフ…。<line-break>こうしていると、すぐに<line-break>日が暮れてしまいそうだな。<end>"
+korean = "후후후…. 이러고 있으면 금세 날이 저물 것 같군.<end>"
 
 ["1420652"]
 japanese = "不可能だろうな。<end>"

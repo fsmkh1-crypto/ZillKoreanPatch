@@ -12,6 +12,10 @@ korean = "잘 왔다, <value:$28>여. 이야기는 이미 들었다. 편지를 �
 japanese = "よく来た、<value:$28>よ。<line-break>話は、すでに聞いている。<line-break>手紙を。<end>"
 korean = "잘 왔다, <value:$28>. 이야기는 이미 들었다. 편지를.<end>"
 
+["1060023"]
+japanese = "君のような勇者が解放軍にいることは<line-break>心強い限りだ。<line-break>　<line-break>君の勇気ある行動が、<line-break>我ら解放軍の士気と結束を<line-break>ますます高めてくれるに違いない。<end>"
+korean = "자네 같은 용자가 해방군에 있다는 건 든든하기 그지없네. 자네의 용기 있는 행동이 우리 해방군의 사기와 결속을 더욱 높여 줄 게 틀림없어.<end>"
+
 ["1060026"]
 japanese = "君のような勇者が<line-break>解放軍にいることは心強い限りだ。　<line-break>　<line-break>我らの理想が大きければ大きいほど<line-break>ふりかかる困難は厳しくなるだろう。<line-break>　<end>"
 korean = "너 같은 용자가 해방군에 있다는 건 든든한 일이야. 우리의 이상이 크면 클수록 닥쳐올 어려움도 더 혹독하겠지.<end>"
@@ -147,6 +151,10 @@ korean = "어머, 어서 와요. 정보를 가져왔다면서요?<end>"
 ["1060103"]
 japanese = "…解放軍の本部が破壊されたわ。　<line-break>ブゾリの仕業よ。<line-break>　<line-break>ところで、わたくしに<line-break>何か言うことがあるんじゃなくて？<line-break><end>"
 korean = "…해방군 본부가 파괴됐어. 부조리 짓이야. 그런데 나한테 할 말이 있는 거 아니야?<end>"
+
+["1060106"]
+japanese = "くやしいけど、逃がすしかないわ…。<line-break>あいつにかなう者がいないのだから…。<end>"
+korean = "분하지만 놓아줄 수밖에 없어…. 그 녀석을 당해낼 사람이 없으니까….<end>"
 
 ["1060107"]
 japanese = "解放軍本部が破壊されたよ。<end>"

@@ -16,6 +16,10 @@ korean = "각하의 약혼자 티아나 왕녀께 자주 찾아가시라는 말�
 japanese = "俺は婚約なんてしていない。<end>"
 korean = "나는 약혼 같은 건 하지 않았다.<end>"
 
+["660004"]
+japanese = "私たちは王妃様の伝言を閣下に伝え、<line-break>その内容を実現させるだけです。<end>"
+korean = "저희는 왕비님의 전언을 각하께 전하고 그 내용을 실현할 뿐입니다.<end>"
+
 ["660005"]
 japanese = "ほお、恐いねえ。<end>"
 korean = "호오, 무섭군.<end>"
@@ -224,6 +228,10 @@ korean = "여어. 실례 좀 할게.<end>"
 japanese = "あ…、<line-break>ゼネテス…様…。<end>"
 korean = "아… 제네테스… 님….<end>"
 
+["660068"]
+japanese = "ご機嫌うるわしゅう。<line-break>しっかし、世辞抜きで<line-break>最近、ホントきれいだな。<end>"
+korean = "안녕하십니까. 그런데 빈말이 아니라 요즘 정말 예뻐졌군.<end>"
+
 ["660069"]
 japanese = "あの…、あ、い、今<line-break>お茶の用意をさせますわ。<end>"
 korean = "저… 아, 지, 지금 차를 준비시키겠습니다.<end>"
@@ -300,6 +308,10 @@ korean = "뭐라고 대답할 것 같아?<end>"
 japanese = "まず、歩いてと<line-break>お答えになるでしょうね。<line-break>とても陳腐ですけれど。<end>"
 korean = "우선 걸어서라고 대답하시겠죠. 너무 진부하지만요.<end>"
 
+["660096"]
+japanese = "ティアナは賢いからな。<line-break>心底、アテにしているんだ。<line-break>で、何か良策は？<end>"
+korean = "티아나는 똑똑하니까. 진심으로 의지하고 있어. 그래서, 좋은 방법은?<end>"
+
 ["660097"]
 japanese = "ありませんわ。<end>"
 korean = "없어요.<end>"
@@ -307,6 +319,10 @@ korean = "없어요.<end>"
 ["660098"]
 japanese = "そりゃ、残念。<line-break>そうしたら次に<line-break>俺はなんて言う？<end>"
 korean = "그거 아쉽네. 그럼 다음엔 내가 뭐라고 하지?<end>"
+
+["660099"]
+japanese = "駆け落ちしてくれ、ティアナ。<line-break>俺と一緒に逃げようと<line-break>おっしゃいます。<end>"
+korean = "도망치자, 티아나. 나와 함께 달아나자고 말씀하십니다.<end>"
 
 ["660102"]
 japanese = "よいものは繰り返される。<line-break>それゆえに陳腐にもなる。<end>"
@@ -347,6 +363,10 @@ korean = "놀리지 마세요.<end>"
 ["660119"]
 japanese = "わからないのかい？<line-break>みんな、あんたの笑顔を見たくて<line-break>あんたの周りに集まって来るんだよ。<line-break>あんたの笑顔に救われたくてね。<end>"
 korean = "모르겠어? 모두 네 웃는 얼굴을 보고 싶어서 네 주위로 모여드는 거야. 네 미소에 구원받고 싶어서 말이지.<end>"
+
+["660121"]
+japanese = "さあてと。<line-break>俺もあんたの笑顔を見たこったし、<line-break>そろそろ退散するかな。<end>"
+korean = "자, 나도 네 웃는 얼굴을 봤으니 슬슬 물러날까.<end>"
 
 ["660122"]
 japanese = "もう、いいかげんにしてください。<line-break>ノックぐらいされたらどう？<end>"

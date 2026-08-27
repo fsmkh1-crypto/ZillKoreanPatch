@@ -32,6 +32,10 @@ korean = "비상왕님!<end>"
 japanese = "　　　　　　　　　エアか…？　　　　　　　　<line-break>　　　　　　　我が小さき娘か…？<line-break>　<line-break>　<end>"
 korean = "에아인가…? 내 작은 딸인가…?<end>"
 
+["1300008"]
+japanese = "　　　　　　　見よ、我は死ぬ…。　　　　　　<line-break>　　　見よ、無限のソウルを持つ者を…。<line-break>　　　　　汝すら、すべてを見ること<line-break>　　　　　　　あたわざる者を…。<end>"
+korean = "보아라, 나는 죽는다…. 보아라, 무한의 소울을 지닌 자를…. 그대조차 모든 것을 볼 수 없는 자를….<end>"
+
 ["1300009"]
 japanese = "　　　　　　　　希望は…ある…。　　　　　　<line-break>　　　　　　　どんなところにも<line-break>　　　　　　絶望さえしなければ<line-break>　　　　　　　希望はあるのだ…。<end>"
 korean = "희망은… 있다…. 어디에든 절망하지만 않는다면 희망은 있는 것이다…<end>"
@@ -67,6 +71,10 @@ korean = "마, 말도 안 돼…. 미래를… 읽지 못했…다고…?<end>"
 ["1300019"]
 japanese = "母よ…。<end>"
 korean = "어머니여….<end>"
+
+["1300021"]
+japanese = "　　　　　　　　この奥に潜み　　　　　　　　<line-break>　　　　　あのお方の力を封じている<line-break>　　　　　　憎きアビスの息の根を<line-break>　　　　　　見事止めてくるのです。<end>"
+korean = "이 안쪽에 숨어 그분의 힘을 봉인하고 있는 증오스러운 어비스의 숨통을 훌륭히 끊고 오너라.<end>"
 
 ["1300022"]
 japanese = "やってみます<end>"

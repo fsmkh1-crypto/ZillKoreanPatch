@@ -80,6 +80,14 @@ korean = "예, 옙.<end>"
 japanese = "聞いてのとおり、<line-break>私はヒルダリア。<line-break>　<line-break>あんたたちの力、<line-break>試させてもらったよ。<end>"
 korean = "들었겠지만 나는 힐다리아야. 너희 실력, 시험해 봤어.<end>"
 
+["1430026"]
+japanese = "見た目よりも、ずっと腕が立つようね。<line-break>その腕を見込んで頼みがあるの。<end>"
+korean = "보기보다 훨씬 실력이 좋네. 그 실력을 믿고 부탁이 있어.<end>"
+
+["1430027"]
+japanese = "おいっ！<line-break>てめぇ態度でかいぞ！<line-break>おかしらに、それ以上近づくな！<end>"
+korean = "이봐! 네놈 태도가 너무 크잖아! 두목에게 더 이상 가까이 오지 마!<end>"
+
 ["1430028"]
 japanese = "そうだ！<line-break>このお方を誰だと思ってんだ！<line-break>　<line-break>ワッシャー海賊、第２代頭領<line-break>ヒルダリア様だぞ！<end>"
 korean = "그래! 이분이 누군 줄 알아! 와셔 해적 제2대 두목, 힐다리아 님이시다!<end>"
@@ -344,6 +352,10 @@ korean = "정말…. 이제 와선 늦었어. 어차피 도적을 이끄는 나 
 japanese = "いいのよ。<line-break>これが私の使命なんだから。<end>"
 korean = "괜찮아. 이게 내 사명이니까.<end>"
 
+["1430116"]
+japanese = "ごめんなさい。<line-break>突っかかったりして。<line-break>また、来てちょうだいね。<end>"
+korean = "미안해. 괜히 시비 걸어서. 또 와 줘.<end>"
+
 ["1430117"]
 japanese = "ええ。待ってるわ。<line-break><value:$28>とは<line-break>いい友だちになれそうね。<end>"
 korean = "응. 기다릴게. <value:$28>와는 좋은 친구가 될 수 있을 것 같아.<end>"
@@ -351,6 +363,10 @@ korean = "응. 기다릴게. <value:$28>와는 좋은 친구가 될 수 있을 �
 ["1430118"]
 japanese = "せっかく来たのに、もう帰るって？<line-break>待ってる女でもいるの？<end>"
 korean = "모처럼 왔는데 벌써 돌아가겠다고? 기다리는 여자라도 있어?<end>"
+
+["1430119"]
+japanese = "ああ、そう。<line-break>それじゃ、好きにしな。<line-break>ほら、さっさと帰りなよ。<end>"
+korean = "아, 그래. 그럼 마음대로 해. 자, 얼른 돌아가.<end>"
 
 ["1430120"]
 japanese = "憎らしい男だね！<end>"
@@ -363,6 +379,10 @@ korean = "그래. 또 얼굴 보여 줘. 칙칙한 남자들만 상대하면 기
 ["1430122"]
 japanese = "元気そうで安心したわ。<line-break>また顔を見せてちょうだい。<end>"
 korean = "건강해 보여서 안심했어. 또 얼굴 보여 줘.<end>"
+
+["1430123"]
+japanese = "約束通り、いつでも船は出すよ。<line-break>必要なら船番に話しかけてちょうだい。<end>"
+korean = "약속대로 언제든 배를 띄워 줄게. 필요하면 선원에게 말해.<end>"
 
 ["1430124"]
 japanese = "気をつけてね。<end>"

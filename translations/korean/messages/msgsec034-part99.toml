@@ -112,6 +112,10 @@ korean = "좋아, 엄마한테 인사하고 가자.<end>"
 japanese = "それと、今日<line-break><value:$28>が剣を打った。<line-break>見てやってくれ。　　　　　　　<end>"
 korean = "그리고 오늘 <value:$28>가 검을 만들었어. 봐 줘.<end>"
 
+["340033"]
+japanese = "初めてにしてはスジがいい。　　<line-break><value:$28>には才能がある。<line-break>　<line-break>いつか俺たちをも越える、<line-break>大陸一の鍛冶職人になるだろう。<line-break>お前も見守ってやってくれ…。<end>"
+korean = "처음치고는 솜씨가 좋아. <value:$28>에게는 재능이 있어. 언젠가 우리를 뛰어넘어 대륙 최고의 대장장이가 되겠지. 너도 지켜봐 줘….<end>"
+
 ["340036"]
 japanese = "く…っ、何だ？<end>"
 korean = "큭… 뭐지?<end>"

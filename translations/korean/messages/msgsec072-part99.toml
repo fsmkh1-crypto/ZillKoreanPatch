@@ -128,6 +128,10 @@ korean = "…간다. …나는 무슨 일이 있어도 누나를 되찾겠다.<e
 japanese = "…そして、<value:$28>、<line-break>お前もな。<end>"
 korean = "…그리고 <value:$28>, 너도 말이야.<end>"
 
+["720045"]
+japanese = "まあ、こわい。　<line-break>くすっ、じゃあ、私も私の欲しいものを<line-break>同じ方法でいただくことにするわ。<line-break>セラ、あなたからは親友による死を…<line-break><value:$28>からは兄による死を。<end>"
+korean = "어머, 무서워라. 후훗, 그럼 나도 내가 원하는 걸 같은 방법으로 받아가야겠네. 세라, 너에게서는 절친에 의한 죽음을… <value:$28>에게서는 형제에 의한 죽음을.<end>"
+
 ["720046"]
 japanese = "セラ…、セラ…なのか…？<end>"
 korean = "세라…, 세라…인가…?<end>"
@@ -203,6 +207,10 @@ korean = "그래, 그분께 도움이 되도록… 이 검을 걸고….<end>"
 ["720072"]
 japanese = "…この男を仲間にするのは<line-break>やめておいた方がいい。<line-break>　<line-break>…いかにお人好しのお前でも<line-break>わかっているとは<line-break>思うがな。<end>"
 korean = "…이 남자를 동료로 삼는 건 그만두는 게 좋아. 아무리 착한 너라도 알고 있겠지만.<end>"
+
+["720073"]
+japanese = "それに貴様が追っていたのは　　　<line-break>あのゴブリンどもと聖杯だ。<line-break>　<line-break>聖杯が<value:$28>の手に渡ると<line-break>こいつに近づくため、ひと芝居うった<line-break>…そんなところか？<end>"
+korean = "게다가 네놈이 쫓고 있던 건 저 고블린들과 성배다. 성배가 <value:$28>의 손에 넘어가면 이 녀석에게 접근하려고 한바탕 연극을 했다… 그런 건가?<end>"
 
 ["720074"]
 japanese = "…セラ？<end>"

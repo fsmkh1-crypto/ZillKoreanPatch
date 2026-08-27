@@ -560,6 +560,10 @@ korean = "있지! 내가 땅의 무녀라니, 무슨 말이야!?<end>"
 japanese = "ねぇ、<line-break>その巫女の力って<line-break>どうすれば身につくの？<end>"
 korean = "있지, 그 무녀의 힘은 어떻게 해야 얻을 수 있어?<end>"
 
+["880221"]
+japanese = "だ、だって…。　　　　　　　　<line-break>ボク、<value:$28>の<line-break>力になりたいんだ。<line-break>これからも一緒に冒険するんだ！<line-break>足手まといになんて<line-break>絶対になりたくないんだ！！<end>"
+korean = "하, 하지만…. 난 <value:$28>에게 도움이 되고 싶어. 앞으로도 함께 모험할 거야! 발목을 잡는 존재는 절대 되고 싶지 않아!!<end>"
+
 ["880224"]
 japanese = "よし、じゃあ行こう<end>"
 korean = "좋아, 그럼 가자<end>"

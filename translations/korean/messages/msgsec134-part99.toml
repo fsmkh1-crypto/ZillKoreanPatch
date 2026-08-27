@@ -48,6 +48,10 @@ korean = "그럼 잘 부탁하네, <value:$28> 군.<end>"
 japanese = "ああ、帰り道かね？<line-break>心配無用だ。我が軍の者に<line-break>アキュリュースまで送らせよう。<line-break>外にいる騎士に声をかけたまえ。<end>"
 korean = "아, 돌아가는 길 말인가? 걱정 마라. 우리 군이 아큐류스까지 데려다주지. 밖에 있는 기사에게 말하게.<end>"
 
+["1340020"]
+japanese = "ああ、ちょっと待ちたまえ。　<line-break>ひとつ言い忘れていた。<line-break>　<line-break>単独行動をしている間、<line-break>アルノートゥンに対する<line-break>一切の破壊、略奪行動は禁止する。<end>"
+korean = "아, 잠깐. 하나 말하는 걸 잊었군. 단독 행동 중 알노툰에 대한 모든 파괴와 약탈 행위는 금지한다.<end>"
+
 ["1340022"]
 japanese = "<value:$28>様ですね。<line-break>お話はお伺いしています。<line-break>では、まいりましょう。<end>"
 korean = "<value:$28> 님이시군요. 말씀은 들었습니다. 그럼 가시죠.<end>"
@@ -144,6 +148,10 @@ korean = "조금 몸이 안 좋아서….<end>"
 japanese = "いえ、なんでもないです<end>"
 korean = "아뇨, 아무것도 아닙니다.<end>"
 
+["1340053"]
+japanese = "意外とだらしがないのだね。<line-break>仕方ない、日をあらためよう。　　<line-break>　<line-break>君の方の準備が整ったら<line-break>また私の陣まで来てくれたまえ。<line-break>では、さらばだ。<end>"
+korean = "의외로 칠칠치 못하군. 어쩔 수 없지, 다음 기회로 하자. 준비가 되면 다시 내 진지로 와라. 그럼 잘 가게.<end>"
+
 ["1340054"]
 japanese = "そうか、ならば行こう。<end>"
 korean = "그런가, 그럼 가자.<end>"
@@ -159,6 +167,10 @@ korean = "이 공동에 별처럼 반짝이는 빛, 이게 전부 성광석인�
 ["1340057"]
 japanese = "<value:$28>君、君には<line-break>このすばらしさがわからないのかね？<line-break>　<line-break>これだけの聖光石があると、<line-break>例えば私がこのように<line-break>魔力を解放するとだね…。<end>"
 korean = "<value:$28> 군, 자네는 이 훌륭함을 모르겠나? 이만큼 성광석이 있으면 예를 들어 내가 이렇게 마력을 해방하면 말이지….<end>"
+
+["1340058"]
+japanese = "このように大きな共振を<line-break>生み出すことができるわけだよ。<line-break>　<line-break>なるほど、古代神聖王国が<line-break>アルノートゥンを重要視したのも<line-break>これでうなずけるな。<end>"
+korean = "이렇게 큰 공진을 만들어 낼 수 있는 거다. 과연 고대 신성왕국이 알노툰을 중요하게 여긴 것도 이해가 가는군.<end>"
 
 ["1340059"]
 japanese = "ギー、<line-break>オレノネムリヲサマタゲタノハ<line-break>オマエタチカ？<end>"
@@ -208,6 +220,10 @@ korean = "오늘은 이쯤에서….<end>"
 japanese = "ああ、そうですね<end>"
 korean = "아, 그렇네요<end>"
 
+["1340082"]
+japanese = "意外とだらしがないのだね。　　<line-break>仕方ない、日をあらためよう。<line-break>　<line-break>君の方の準備が整ったら<line-break>また私の陣まで来てくれたまえ。<line-break>では、さらばだ。<end>"
+korean = "의외로 칠칠치 못하군. 어쩔 수 없지, 다음 기회로 하자. 준비가 되면 다시 내 진지로 와라. 그럼 잘 가게.<end>"
+
 ["1340083"]
 japanese = "よし、行こう。<end>"
 korean = "좋아, 가자.<end>"
@@ -231,6 +247,22 @@ korean = "퓨이~!<end>"
 ["1340092"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
 korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
+
+["1340094"]
+japanese = "ああ、ジラーク予備メッセージだ。<line-break>Ｖ１～８、その６なのだよ。<end>"
+korean = "그래, 지라크 예비 메시지다. V1~8, 그 6이야.<end>"
+
+["1340095"]
+japanese = "ああ、ジラーク予備メッセージだ。<line-break>Ｖ１～８、その７なのだよ。<end>"
+korean = "그래, 지라크 예비 메시지다. V1~8, 그 7이야.<end>"
+
+["1340096"]
+japanese = "ああ、ジラーク予備メッセージだ。<line-break>Ｖ１～８、その８なのだよ。<end>"
+korean = "그래, 지라크 예비 메시지다. V1~8, 그 8이야.<end>"
+
+["1340097"]
+japanese = "ああ、ジラーク予備メッセージだ。<line-break>Ｖ１～８、その９なのだよ。<end>"
+korean = "그래, 지라크 예비 메시지다. V1~8, 그 9야.<end>"
 
 ["1340098"]
 japanese = "ああ、ジラーク予備メッセージだ。<line-break>Ｖ１～８、その１０なのだよ。<end>"
@@ -275,6 +307,10 @@ korean = "왜, 왜 그러는 거야 나지! 우린 친구잖아!<end>"
 ["1340116"]
 japanese = "そういう問題じゃないんだよ。<line-break>ヴァン…。わかんないかな…。<end>"
 korean = "그런 문제가 아니야, 반…. 모르겠어…?<end>"
+
+["1340117"]
+japanese = "そういう問題じゃないだと！<line-break>どういうことなんだよ！<line-break><line-break>俺たちがお前をコーンスだからって<line-break>差別したか？　俺たちがお前を<line-break>人間と違う扱いをしたか？<end>"
+korean = "그런 문제가 아니라니! 무슨 뜻이야! 우리가 네가 코른스라고 차별했어? 우리가 너를 인간과 다르게 대했어?<end>"
 
 ["1340118"]
 japanese = "フフ、ううん…。<end>"
@@ -1660,6 +1696,10 @@ korean = "티아나 님, 실례지만 당신이 계시면 <value:$28>님이 마�
 japanese = "わかっています。<line-break>あなた方と行きましょう。<line-break>　<line-break><value:$28>様、<line-break>どうか、謁見の間のゼネテス様を…。<end>"
 korean = "알겠습니다. 여러분과 함께 가죠. <value:$28>님, 부디 알현실의 제네테스 님을….<end>"
 
+["1340638"]
+japanese = "ゼネテスから、<line-break>手紙を預かってるわ。<line-break>おそらく、遺書…ね。<end>"
+korean = "제네테스가 맡긴 편지가 있어. 아마 유서…겠지.<end>"
+
 ["1340639"]
 japanese = "<value:$28>は<line-break>ゼネテスの遺書を手に入れた。<end>"
 korean = "<value:$28>은 제네테스의 유서를 손에 넣었다.<end>"
@@ -1735,6 +1775,10 @@ korean = "지원하지 않는다<end>"
 ["1340658"]
 japanese = "ありがとうございます、<line-break><value:$28>様。<line-break> <line-break>ロストールの建て直しのために、<line-break>有意義に使わせていただきますわ。<end>"
 korean = "감사합니다, <value:$28>님. 로스토올 재건을 위해 뜻깊게 사용하겠습니다.<end>"
+
+["1340660"]
+japanese = "無用な侵入者はしかるべく処理するぞ！<line-break>命が惜しくば、立ち去れい！<end>"
+korean = "쓸데없는 침입자는 적절히 처리하겠다! 목숨이 아깝다면 물러가라!<end>"
 
 ["1340661"]
 japanese = "立ち去らない<end>"

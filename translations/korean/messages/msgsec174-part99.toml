@@ -184,9 +184,17 @@ korean = "그대에게 파괴신이 깃든다…. 그것은 거스를 수 없는
 japanese = "ネメア様に破壊神が宿る…？<line-break>でたらめを言うな！<end>"
 korean = "네메아 님에게 파괴신이 깃든다고…? 헛소리하지 마!<end>"
 
+["1740064"]
+japanese = "…でたらめではない。<line-break>ただの定めじゃ。<line-break>変えることのできぬ、な。<end>"
+korean = "…엉터리는 아니다. 그저 정해진 운명이지. 바꿀 수 없는, 말이야.<end>"
+
 ["1740065"]
 japanese = "変えることができない？<end>"
 korean = "바꿀 수 없다고?<end>"
+
+["1740066"]
+japanese = "…ということは、<line-break>ネメア様が死んではいない…<line-break>そういうことか！？<end>"
+korean = "…그렇다면 네메아 님은 죽지 않았다… 그런 뜻인가!?<end>"
 
 ["1740067"]
 japanese = "それは自身で確かめるのじゃ。<line-break>そなたらはそなたらとして戦い、<line-break>求めるがよい。<line-break>さらばじゃ、強き魂たちよ。<end>"
@@ -251,6 +259,10 @@ korean = "사실은 부활시키고 싶다<end>"
 ["1740088"]
 japanese = "絶対にお断り<end>"
 korean = "절대로 사양한다<end>"
+
+["1740089"]
+japanese = "ちぇ、意外とガンコなんだね。<line-break>つまんないの。<line-break>じゃあ、何しにここまできたのさ？<line-break>もういいよ。<line-break>邪竜より面白いこと探すから。<line-break>じゃあねー。<end>"
+korean = "쳇, 의외로 고집이 세네. 재미없어. 그럼 뭐 하러 여기까지 온 거야? 됐어. 사룡보다 재미있는 걸 찾을 테니까. 안녕.<end>"
 
 ["1740090"]
 japanese = "やあ、また来たんだね。<line-break>　<line-break>　<line-break>ま～ったく、<line-break>君ってホントに<line-break>素直じゃないよね。<end>"
@@ -420,6 +432,10 @@ korean = "그 다크 엘프가 사룡에게 바칠 제물인가….<end>"
 japanese = "さあ、仕上げといこう。<end>"
 korean = "자, 마무리하자.<end>"
 
+["1740151"]
+japanese = "やれやれ、こんな所まで来ちゃうのか。<line-break>やっぱり、ちゃんと始末しとかないと<line-break>あとで困るね。<line-break>よし、ゼリグ、もうひと仕事だ。<line-break>彼らを、殺してしまってくれ。<end>"
+korean = "이런, 이런 데까지 오는군. 역시 제대로 처리해 두지 않으면 나중에 곤란하겠어. 좋아, 제리그, 한 번 더 일해 줘. 저들을 죽여.<end>"
+
 ["1740152"]
 japanese = "ぐ…っ！<end>"
 korean = "크…윽!<end>"
@@ -467,6 +483,10 @@ korean = "자.<end>"
 ["1740165"]
 japanese = "なぁ、<line-break>死に場所の希望とかない？<line-break>　<line-break>俺は断然、太陽の下だね。<line-break>照りつける太陽の下。<end>"
 korean = "있잖아, 죽을 장소로 원하는 곳 없어? 난 단연 태양 아래야. 내리쬐는 태양 아래.<end>"
+
+["1740169"]
+japanese = "なぁ？<line-break>死に場所の希望とかない？<line-break>希望がなけりゃ、ここで殺すよ？<end>"
+korean = "있잖아? 죽을 장소에 희망 같은 건 없어? 없으면 여기서 죽일게?<end>"
 
 ["1740170"]
 japanese = "ちぇ…、やだなあ。<line-break>結局こんな暗い所で死ぬのか…。<line-break>　<line-break>もし生まれ変わりとかがあるなら<line-break>今度は、太陽の下で……。<end>"

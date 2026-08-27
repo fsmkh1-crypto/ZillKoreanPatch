@@ -88,6 +88,10 @@ korean = "…역할을 위해서만 사는 건 괴롭지 않냐고요…?<end>"
 japanese = "あなたには私は必要でない。<line-break>私の存在はあなたの存在に<line-break>意味をなさない。<line-break>…それなのに、ここに来る。<end>"
 korean = "당신에게 나는 필요하지 않아. 내 존재는 당신의 존재에 의미가 없어. …그런데도 여기 오는군.<end>"
 
+["1160045"]
+japanese = "あなたの行動は<line-break>長老の行動と同じです。<line-break>そして、同様に不可解です。<end>"
+korean = "당신의 행동은 장로의 행동과 같습니다. 그리고 마찬가지로 이해할 수 없습니다.<end>"
+
 ["1160046"]
 japanese = "あなたは、<line-break>私を必要としているようには　　<line-break>感じられません。<line-break>それなのに、なぜ、何度もここに<line-break>来られるのですか？<line-break>私にはわかりません。<end>"
 korean = "당신은 저를 필요로 하는 것처럼 느껴지지 않습니다. 그런데 왜 몇 번이나 이곳에 오시는 겁니까? 저는 모르겠습니다.<end>"
@@ -228,6 +232,10 @@ korean = "…<value:$28>….이런 때에 오다니….　…나는 이제 죽�
 japanese = "あなたには、<line-break>私がみにくく死ぬさまを　　　<line-break>見られたくありません。<line-break>さようなら。<line-break>私の死を苦いものにした人よ。<end>"
 korean = "당신에게 제가 추하게 죽는 모습을 보이고 싶지 않습니다. 안녕히. 제 죽음을 쓰디쓰게 만든 사람이여.<end>"
 
+["1160105"]
+japanese = "ですが私は、<line-break>崩れ落ちるその瞬間まで<line-break>自分の役割を果たしましょう。<line-break>この神殿の先へと<line-break>進ませるわけにはいきません。<line-break>立ち去ってください。<end>"
+korean = "하지만 저는 무너지는 그 순간까지 제 역할을 다하겠습니다. 이 신전 너머로는 보내 드릴 수 없습니다. 돌아가 주세요.<end>"
+
 ["1160110"]
 japanese = "<value:$28>様…。<line-break>　　　　　　　　　　　　<line-break>　<line-break>あなたが<line-break>ここにいらっしゃることは<line-break>相変わらず、意味がありません。<end>"
 korean = "<value:$28>님…. 당신이 여기 계시는 건 여전히 아무 의미가 없습니다.<end>"
@@ -247,6 +255,10 @@ korean = "그렇지 않아<end>"
 ["1160125"]
 japanese = "やめておこうかな<end>"
 korean = "그만둘까<end>"
+
+["1160127"]
+japanese = "　　　　　　　　腰抜けめが。　　　　　　　　<line-break>　　　　　　　…まぁ、よいわ。<line-break>　　　　プネウマに挑まんとするなら<line-break>　　　　　またいつでも来るがよい。<end>"
+korean = "겁쟁이 같으니. …뭐, 좋다. 프네우마에 도전하고 싶다면 언제든 다시 오너라.<end>"
 
 ["1160131"]
 japanese = "愚かなり…愚かなり……。<end>"

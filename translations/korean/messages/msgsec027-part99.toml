@@ -92,6 +92,10 @@ korean = "두려워할 것 없다. 네 실력을 보여 줘라.<end>"
 japanese = "勝利の笑顔で戻ってくるのを<line-break>信じて待ってるわ。<end>"
 korean = "승리의 미소를 지으며 돌아올 거라고 믿고 기다릴게.<end>"
 
+["270032"]
+japanese = "<value:$28>さん、応援してます。<line-break>でも、無茶はしないでくださいね。<end>"
+korean = "<value:$28> 씨, 응원하고 있어요. 하지만 무리는 하지 마세요.<end>"
+
 ["270033"]
 japanese = "君なら大丈夫。<line-break>自分の力を信じるんだ。<end>"
 korean = "너라면 괜찮아. 자신의 힘을 믿어.<end>"

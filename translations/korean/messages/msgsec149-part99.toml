@@ -64,6 +64,14 @@ korean = "괜찮아?<end>"
 japanese = "愚かであることは傲慢であるよりは<line-break>救われる。ほめているんだ。<end>"
 korean = "어리석은 건 오만한 것보다는 구원받을 여지가 있지. 칭찬하는 거다.<end>"
 
+["1490026"]
+japanese = "あいつらのことなら、片は付いた。<line-break>神の力が、君たちも救ってくれた。<line-break>　<line-break>力を信じても無駄だ。<line-break>力は、より大きな力に<line-break>叩き伏せられるだけだ。<end>"
+korean = "그 녀석들은 처리했다. 신의 힘이 너희도 구해 줬지. 힘을 믿어 봐야 소용없어. 힘은 더 큰 힘에 짓눌릴 뿐이야.<end>"
+
+["1490027"]
+japanese = "僕が言うんだから間違いはない。　<line-break>ただ至上なるものは<line-break>神の力のみだ。<end>"
+korean = "내가 말하는 거니 틀림없다. 오직 지고한 것은 신의 힘뿐이다.<end>"
+
 ["1490030"]
 japanese = "僕の名前？<line-break>それが君になんの関係がある？<end>"
 korean = "내 이름? 그게 너랑 무슨 상관이지?<end>"
@@ -120,6 +128,10 @@ korean = "왜 네메아를 나쁘게 말하지?<end>"
 japanese = "晴れるわけがない！<end>"
 korean = "맑아질 리가 없어!<end>"
 
+["1490050"]
+japanese = "奴のことを思い出すたび、<line-break>全身がくやしさに貫かれる！　<line-break>　<line-break>奴の力に恐怖したのは、<line-break>死の羽音だけじゃない。<line-break>僕だってそうだったんだ！<end>"
+korean = "그 녀석을 떠올릴 때마다 온몸이 분함에 휩싸여! 그 힘을 두려워한 건 죽음의 날갯소리만이 아니야. 나도 그랬어!<end>"
+
 ["1490053"]
 japanese = "当たり前だ！<end>"
 korean = "당연하지!<end>"
@@ -131,6 +143,10 @@ korean = "…내 방해는 못 하게 하겠어. 나는 누나를 잃었어. 잃
 ["1490059"]
 japanese = "<value:$28>！<line-break>頼む、目を開けてくれ！<end>"
 korean = "<value:$28>! 부탁이야, 눈을 떠 줘!<end>"
+
+["1490060"]
+japanese = "…気がついたか？　　　　　　　　<line-break><value:$28>。<line-break>　<line-break>僕が告死天使の長だと知っても、<line-break>システィーナの伝道師の一員だと<line-break>知っても、君は僕を助けるのか…？<end>"
+korean = "…정신이 들었나? <value:$28>. 내가 고사천사의 우두머리인 걸 알아도, 시스티나 전도사의 일원인 걸 알아도 너는 나를 돕는 건가…?<end>"
 
 ["1490063"]
 japanese = "…別に、何も変なことは<line-break>聞かなかったな？<end>"
@@ -203,6 +219,18 @@ korean = "괜찮아?<end>"
 ["1490085"]
 japanese = "愚かであることは傲慢であるよりは<line-break>救われる。ほめているんだ。<end>"
 korean = "어리석은 건 오만한 것보다는 구원받을 여지가 있지. 칭찬하는 거다.<end>"
+
+["1490086"]
+japanese = "あいつらのことなら、片は付いた。<line-break>神の力が、君たちも救ってくれた。<line-break>　<line-break>力を信じても無駄だ。<line-break>力は、より大きな力に<line-break>叩き伏せられるだけだ。<end>"
+korean = "그 녀석들은 처리했다. 신의 힘이 너희도 구해 줬지. 힘을 믿어 봐야 소용없어. 힘은 더 큰 힘에 짓눌릴 뿐이야.<end>"
+
+["1490087"]
+japanese = "僕が言うんだから間違いはない。　<line-break>至上なるものは神の力のみだ。<line-break>　<end>"
+korean = "내가 말하는 거니 틀림없어. 지고한 것은 신의 힘뿐이다.<end>"
+
+["1490089"]
+japanese = "傲慢だな、君は。<line-break>自分の力を信じている。<line-break>ネメアのゲスと一緒だ<end>"
+korean = "오만하군, 자네는. 자기 힘을 믿고 있어. 네메아 그 쓰레기와 똑같아.<end>"
 
 ["1490090"]
 japanese = "僕の名前？<line-break>それが君になんの関係がある？<end>"
@@ -644,6 +672,10 @@ korean = "나를 어떻게 할 셈이지?<end>"
 japanese = "それなら、僕は行くよ。<end>"
 korean = "그렇다면 난 갈게.<end>"
 
+["1490242"]
+japanese = "僕は神が遣わしたる救世主、<line-break>エルファス。<line-break>僕の言葉は、神の言葉だ。<end>"
+korean = "나는 신이 보낸 구세주, 엘파스. 내 말은 곧 신의 말이다.<end>"
+
 ["1490243"]
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
@@ -687,6 +719,10 @@ korean = "너도 나를 영주 앞에 끌고 가려는 거냐?<end>"
 ["1490254"]
 japanese = "そう…。<line-break>それなら僕をあいつらから　　<line-break>救ったつもりか？<line-break>…言っておくが、<line-break>あの程度の人間にやられるほど<line-break>僕は非力ではない。<end>"
 korean = "그래…. 그럼 나를 저 녀석들에게서 구했다고 생각한 건가? 말해 두지만 저 정도 인간에게 당할 만큼 나는 약하지 않아.<end>"
+
+["1490256"]
+japanese = "僕は神が遣わしたる救世主、<line-break>エルファス。<line-break>僕の言葉は、神の言葉だ。<end>"
+korean = "나는 신이 보낸 구세주, 엘파스. 내 말은 곧 신의 말이다.<end>"
 
 ["1490257"]
 japanese = "君の名…、聞いておきたい。<end>"
@@ -735,6 +771,10 @@ korean = "그래… 그럼 나를 저 녀석들에게서 구하려고?<end>"
 ["1490270"]
 japanese = "君、僕を知らないのか…？<line-break>それならひとつ忠告しよう。<line-break>　<line-break>力にすがるのは愚かなことだ。<line-break>力はただ、より強い力によって<line-break>叩き伏せられるのみだ。<end>"
 korean = "자네, 나를 모르는 건가…? 그렇다면 충고 하나 하지. 힘에 매달리는 건 어리석은 짓이다. 힘은 더 강한 힘에 짓눌릴 뿐이다.<end>"
+
+["1490271"]
+japanese = "僕は神が遣わしたる救世主、<line-break>エルファス。<line-break>僕の言葉は、神の言葉だ。<end>"
+korean = "나는 신이 보낸 구세주, 엘파스. 내 말은 곧 신의 말이다.<end>"
 
 ["1490272"]
 japanese = "君の名…、聞いておきたい。<end>"
@@ -848,6 +888,10 @@ korean = "잘난 척하는 얼굴은 그만둬. 감사 인사라도 하라는 �
 japanese = "僕が手を降せば一瞬だったのに…。<end>"
 korean = "내가 손을 썼다면 순식간이었을 텐데….<end>"
 
+["1490309"]
+japanese = "僕は神が遣わしたる救世主、<line-break>エルファス。<line-break>僕の言葉は、神の言葉だ。<end>"
+korean = "나는 신이 보낸 구세주, 엘파스. 내 말은 곧 신의 말이다.<end>"
+
 ["1490310"]
 japanese = "君の名…、聞いておきたい。<end>"
 korean = "네 이름… 들어두고 싶어.<end>"
@@ -879,6 +923,10 @@ korean = "정신이 든 모양이군.<end>"
 ["1490323"]
 japanese = "君、僕を知らないのか…？<line-break>それならひとつ忠告しよう。<line-break>　<line-break>力にすがるのは愚かなことだ。<line-break>力はただ、より強い力によって<line-break>叩き伏せられるのみだ。<end>"
 korean = "자네, 나를 모르는 건가…? 그렇다면 충고 하나 하지. 힘에 매달리는 건 어리석은 짓이다. 힘은 더 강한 힘에 짓눌릴 뿐이다.<end>"
+
+["1490324"]
+japanese = "僕は神が遣わしたる救世主、<line-break>エルファス。<line-break>僕の言葉は、神の言葉だ。<end>"
+korean = "나는 신이 보낸 구세주, 엘파스. 내 말은 곧 신의 말이다.<end>"
 
 ["1490325"]
 japanese = "君の名…、聞いておきたい。<end>"

@@ -108,6 +108,14 @@ korean = "아버지여, 오랜만이군. 어둠의 신기를 받으러 왔다.<e
 japanese = "ところで、<line-break>お仲間はどうしたのですか？<end>"
 korean = "그런데 동료분들은 어떻게 됐나요?<end>"
 
+["1180039"]
+japanese = "あなたとの戦いに　　　　　　<line-break>他の者の力を借りる気などない。<line-break>　<line-break>己の力のみで、決着をつける。<line-break>それがあなたへの礼儀だ。<line-break>我が父よ。<end>"
+korean = "당신과의 싸움에 다른 이의 힘을 빌릴 생각은 없다. 오직 내 힘으로 결착을 짓겠다. 그것이 당신에 대한 예의다. 아버지여.<end>"
+
+["1180040"]
+japanese = "やれやれ、<line-break>やはり戦うつもりなのですか？<line-break>まったく困った息子だ…。<end>"
+korean = "이런, 역시 싸울 생각입니까? 정말 곤란한 아들이군….<end>"
+
 ["1180041"]
 japanese = "おや？　<value:$28>。<line-break>ダメじゃないですか、<line-break>こんな危ない場面に出てきたら。<end>"
 korean = "어라? <value:$28>. 안 되잖아요, 이렇게 위험한 곳에 나오면.<end>"

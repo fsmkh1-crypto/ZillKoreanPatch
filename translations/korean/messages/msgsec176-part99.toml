@@ -216,6 +216,14 @@ korean = "용케 정답을 알아냈구먼. 찍은 건가?<end>"
 japanese = "さあ、<value:$28>！<line-break>脱出するでぇ！<line-break>宝を忘れんさんな。<end>"
 korean = "자, <value:$28>! 탈출하자! 보물 잊지 마라.<end>"
 
+["1760108"]
+japanese = "われは自分の力で迷宮を突破した。　　<line-break>わしが教えることはもうありゃあせん。<line-break>あとは自分で学んでいくだけじゃ。<line-break>ほんじゃあ、<line-break>ロストールに帰ろうかのう。<end>"
+korean = "너는 네 힘으로 미궁을 돌파했다. 내가 가르칠 건 이제 없다. 나머지는 스스로 배워 가면 된다. 그럼 로스토올로 돌아갈까.<end>"
+
+["1760109"]
+japanese = "わしの試練を見事乗り越えた証に、<line-break>ロッシマ愛用の道具を受け取りんさい。<line-break>遠慮はいらんでぇ。<line-break>弟子への数少ない贈り物じゃけぇ。<line-break>黙って持っていきんさい。<end>"
+korean = "내 시련을 훌륭히 넘은 증표로 롯시마가 애용하던 도구를 받아라. 사양할 필요 없다. 제자에게 주는 얼마 안 되는 선물이니 말없이 가져가.<end>"
+
 ["1760112"]
 japanese = "<value:$28>…。<line-break>わしより先に<line-break>死にんさんなよ。<end>"
 korean = "<value:$28>…. 나보다 먼저 죽지 마라.<end>"
@@ -231,6 +239,10 @@ korean = "유감스럽지만…<end>"
 ["1760119"]
 japanese = "よっしゃ！<line-break>そんなら試練の迷宮に挑戦しんさい。<line-break>ドワーフ王国の近くにある迷宮よ。<line-break>そこでレオニックの証を<line-break>手に入れるんじゃ。<end>"
 korean = "좋아! 그럼 시련의 미궁에 도전해 봐라. 드워프 왕국 근처에 있는 미궁이다. 거기서 레오닉의 증표를 손에 넣어라.<end>"
+
+["1760122"]
+japanese = "そうか…<line-break>そうじゃな。<line-break>生きてこそ人生よ。　　　　　　<line-break>わしのように左手だけですむとも<line-break>限らんからのう。<line-break>よっしゃ、この話は忘れんさい。<end>"
+korean = "그렇군… 그래. 살아 있어야 인생이지. 나처럼 왼손만 잃는 걸로 끝난다는 보장도 없으니까. 좋아, 이 이야기는 잊어버려.<end>"
 
 ["1760123"]
 japanese = "さて、そろそろ帰るわい。<line-break>じゃあな、<value:$28>。<line-break>さよならじゃ。<end>"

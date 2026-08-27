@@ -12,6 +12,10 @@ korean = "??? 무슨 소리지?<end>"
 japanese = "きゃっ！<end>"
 korean = "꺅!<end>"
 
+["650003"]
+japanese = "あなた、いったいどなたですか？<line-break>こんなところから入ってくるなんて。<end>"
+korean = "당신, 대체 누구죠? 이런 곳으로 들어오다니.<end>"
+
 ["650004"]
 japanese = "ティアナ王女に<line-break>会わせてほしいのですか？<end>"
 korean = "티아나 공주님을 만나고 싶으신가요?<end>"
@@ -167,6 +171,10 @@ korean = "티아나, 조금밖에 이야기하지 못해 아쉽지만 이만 실
 ["650054"]
 japanese = "レムオン様、<line-break>またいらっしゃってください。<end>"
 korean = "레무온 님, 또 와 주세요.<end>"
+
+["650055"]
+japanese = "<value:$28>、<line-break>変な気は起こすなよ。　　　　　　　<line-break>　<line-break>王女にはもう、フィアンセがいる。<line-break>しかも、そいつは王妃エリスの実家<line-break>名家ファーロス家の跡取りだ。<end>"
+korean = "<value:$28>, 이상한 마음 품지 마. 왕녀에게는 이미 약혼자가 있어. 게다가 왕비 에리스의 친정인 명문 파로스가의 후계자야.<end>"
 
 ["650056"]
 japanese = "フィアンセ殿に怒られなければな。<end>"

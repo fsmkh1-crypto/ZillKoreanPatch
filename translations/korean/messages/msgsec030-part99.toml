@@ -84,6 +84,10 @@ korean = "아, <value:$28>님! 도와주세요!<end>"
 japanese = "このお客さん、酔っぱらってて…。<end>"
 korean = "이 손님, 취해 있어서….<end>"
 
+["300035"]
+japanese = "なんだ貴様ぁ！<line-break>ちょうどいい。<line-break>俺様の愛の伝説のわき役にしてやる！<end>"
+korean = "뭐냐 네놈! 마침 잘됐다. 나의 사랑의 전설에 조연으로 만들어 주마!<end>"
+
 ["300037"]
 japanese = "ありがとうございますっ！<line-break><value:$28>さん、<line-break>ケガはありませんか？<end>"
 korean = "감사합니다! <value:$28> 씨, 다친 데는 없으세요?<end>"
@@ -107,6 +111,10 @@ korean = "앗, <value:$28> 씨!<end>"
 ["300047"]
 japanese = "それじゃあ、<value:$28>さん。<line-break>私は仕事に戻ります。<line-break>たまには酒場に遊びにきてくださいね。<end>"
 korean = "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집에도 놀러 오세요.<end>"
+
+["300048"]
+japanese = "遅かったじゃない。<line-break>どこかで女の子でも<line-break>口説いてたんじゃないの？<end>"
+korean = "늦었잖아. 어디서 여자라도 꼬시고 있었던 거 아니야?<end>"
 
 ["300049"]
 japanese = "冗談よ。<line-break>相変わらず子供ねぇ。<end>"
@@ -155,6 +163,10 @@ korean = "분하지만 방법이 없네.<end>"
 ["300064"]
 japanese = "なんでも、聖杯の力で<line-break>知恵を得たっていうじゃない。　　　<end>"
 korean = "성배의 힘으로 지혜를 얻었다고 하잖아.<end>"
+
+["300065"]
+japanese = "…空が青くてきれい。<line-break>そう言えば、最近<line-break>空なんか見てなかったな…。<end>"
+korean = "…하늘이 파랗고 예쁘다. 그러고 보니 요즘 하늘을 본 적도 없네….<end>"
 
 ["300066"]
 japanese = "ねぇ…。<end>"

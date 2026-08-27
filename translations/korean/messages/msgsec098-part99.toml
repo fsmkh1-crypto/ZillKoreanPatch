@@ -64,6 +64,10 @@ korean = "당연하잖아. 자, 가자.<end>"
 japanese = "どうかしたの<value:$28>。<line-break>眠れないの？<end>"
 korean = "무슨 일이야, <value:$28>. 잠이 안 와?<end>"
 
+["980026"]
+japanese = "くすっ、どうしたのよ、突然。<line-break>なんで騎士になりたいのか、だなんて。<end>"
+korean = "후훗, 갑자기 왜 그래. 왜 기사가 되고 싶냐니.<end>"
+
 ["980029"]
 japanese = "…んー、<line-break>すっごくわかりやすく言うとね…。<end>"
 korean = "…음, 아주 쉽게 말하자면 말이지….<end>"
@@ -115,6 +119,10 @@ korean = "네? 오시 선생님? 당신, 선생님을 알고 있어요?<end>"
 ["980061"]
 japanese = "え？　どうしてそんなに<line-break>騎士になりたいのか、ですって？<end>"
 korean = "네? 왜 그렇게 기사가 되고 싶냐고요?<end>"
+
+["980065"]
+japanese = "ずっと、そいつのそばにいたのに。<line-break>私がいつも守ってあげてたのに…。<end>"
+korean = "계속 그 녀석 곁에 있었는데. 내가 늘 지켜 줬는데….<end>"
 
 ["980067"]
 japanese = "…ふふ、ごめんなさい。<line-break>うまく話せてないね、私。<end>"
@@ -276,9 +284,17 @@ korean = "<value:$28>, 그 아이가 자신이 목표로 하던 걸 잃어버릴
 japanese = "…あなたがいてくれることが　　　<line-break>何よりも、なぐさめだわ。<line-break>　<line-break>さ、今日はあなたの好きなものを<line-break>作ってあげる。<line-break>楽しみにしていてね。<end>"
 korean = "…당신이 있어 주는 게 무엇보다 위로가 돼. 자, 오늘은 당신이 좋아하는 걸 만들어 줄게. 기대해.<end>"
 
+["980148"]
+japanese = "そう。<line-break>でも、遠慮なんてしないのよ。　　<line-break>あなたもうちの子だもの。<end>"
+korean = "그래. 하지만 사양하지 마. 너도 우리 아이니까.<end>"
+
 ["980150"]
 japanese = "アイリーンのこと<line-break>よろしくお願いします。　　　　　<line-break>　<end>"
 korean = "아이린을 잘 부탁드립니다.<end>"
+
+["980151"]
+japanese = "アイリーンという娘にあったら　　<line-break>よろしく、と伝えてください。<line-break>　<end>"
+korean = "아이린이라는 아이를 만나면 안부 전해 주세요.<end>"
 
 ["980153"]
 japanese = "アイリーンは<line-break>少し気が強いところがありますが　<line-break>あれで、やさしい娘なんです。<line-break>娘のこと、<line-break>よろしくお願いしますね。<end>"
@@ -315,6 +331,10 @@ korean = "그렇습니까. 건강해 보였나요. …다행입니다. 또 아�
 ["980170"]
 japanese = "<value:$28>さん…ですか。<line-break>また、いらしてくださいね。　　　　　<end>"
 korean = "<value:$28> 씨…군요. 또 와 주세요.<end>"
+
+["980173"]
+japanese = "あ、いらっしゃいませー。<line-break>ここは、ロストールで一番大きな酒場<line-break>なんですよ。<line-break>あの…ご用がありましたら<line-break>なんでも私に言いつけてくださいね！<end>"
+korean = "아, 어서 오세요. 여기는 로스토올에서 가장 큰 술집이에요. 저기… 볼일이 있으시면 뭐든 제게 말씀해 주세요!<end>"
 
 ["980174"]
 japanese = "あ、<value:$28>さん……。<line-break>　　　　　　　　　　　　　<line-break>　<line-break>おかえりなさい…。<line-break>うれしい……、<line-break>会いに来てくれるなんて…。<end>"

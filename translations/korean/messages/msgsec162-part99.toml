@@ -80,6 +80,10 @@ korean = "안 들어<end>"
 japanese = "俺の予測が外れてくれると<line-break>いいんだが…。<end>"
 korean = "내 예상이 빗나가 주면 좋겠는데….<end>"
 
+["1620031"]
+japanese = "ま、いざってときには<line-break>頼りになる奴が欲しかったんでな。<line-break>　<line-break>お前さんが傭兵の中にいるのを<line-break>見つけたんで、来てもらった。<line-break>よろしく頼むぜ。<end>"
+korean = "뭐, 만일의 때 믿을 만한 녀석이 필요해서. 용병들 사이에 네가 있는 걸 보고 와 달라고 한 거야. 잘 부탁한다.<end>"
+
 ["1620032"]
 japanese = "ま、いざってときには<line-break>頼りになる奴が欲しかったんでな。<line-break>　<line-break>ともかく今回は力を貸してほしい。<line-break>よろしく頼むぜ。<end>"
 korean = "뭐, 위급할 때 믿을 만한 녀석이 필요했거든. 어쨌든 이번엔 힘을 빌려 줘. 잘 부탁한다.<end>"
@@ -240,6 +244,10 @@ korean = "당장 마차를 준비해.<end>"
 japanese = "私がお送りいたします。<line-break>急ぎましょう。<end>"
 korean = "제가 모시겠습니다. 서두르시죠.<end>"
 
+["1620099"]
+japanese = "我が軍は、ノヴィン・ファーロスを<line-break>総司令とし、迎撃軍を出す。<line-break>そなたも参戦してほしい。<line-break>配属は、<line-break>ゼネテス・ファーロス副司令の<line-break>副官だ。<end>"
+korean = "우리 군은 노빈 파로스를 총사령으로 삼아 요격군을 출진시킨다. 그대도 참전해 주었으면 한다. 배속은 제네테스 파로스 부사령의 부관이다.<end>"
+
 ["1620101"]
 japanese = "ほう、知らなかったのか？　　　　　<line-break>　<line-break>　<line-break>あの者は、我が軍の総司令<line-break>我が兄ノヴィン・ファーロスの息子。<line-break>私の甥なのだ。<end>"
 korean = "호오, 몰랐나? 저자는 우리 군 총사령관이자 내 형인 노빈 파로스의 아들. 내 조카다.<end>"
@@ -319,6 +327,10 @@ korean = "안 들어<end>"
 ["1620124"]
 japanese = "人質だ。<end>"
 korean = "인질이다.<end>"
+
+["1620125"]
+japanese = "守備軍として<line-break>王都に残るレムオンが、<line-break>謀反を起こさないためのな。<end>"
+korean = "수비군으로 왕도에 남는 레몬이 모반을 일으키지 못하게 하려는 거지.<end>"
 
 ["1620126"]
 japanese = "仮に、お前さんを見捨てて<line-break>謀反を起こしても、<line-break>　<line-break>血族を見捨てた奴になんざ、<line-break>誰もつかねぇからな。<line-break>レムオンもあとが続かない。<end>"

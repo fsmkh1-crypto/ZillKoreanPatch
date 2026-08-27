@@ -32,6 +32,10 @@ korean = "지금은 바빠.<end>"
 japanese = "そうかい、それはありがたい。　　　　<line-break>　<line-break>　<line-break>オズワルドの町は、ノーブルから<line-break>西に４日ほど行った所にある、<line-break>偽りの森の先にあるんだ。<end>"
 korean = "그래, 그건 고맙군. 오즈월드 마을은 노블에서 서쪽으로 나흘 정도 간 곳, 거짓의 숲 너머에 있어.<end>"
 
+["970010"]
+japanese = "森を抜けないと町には入れない。　　　<line-break>気をつけて行ってくれよ。<line-break>　<end>"
+korean = "숲을 빠져나가지 않으면 마을에 들어갈 수 없어. 조심해서 가.<end>"
+
 ["970011"]
 japanese = "そう言わずに頼むよ。<line-break>この仕事で、この額だったら<line-break>他の冒険者は黙ってないぞ？　　　　　<line-break>初心者のあんたには<line-break>ちょうどいい仕事なんじゃないか？<end>"
 korean = "그러지 말고 부탁해. 이 일에 이 금액이면 다른 모험자들도 가만있지 않을걸? 초보인 당신에게 딱 맞는 일 아닌가?<end>"
@@ -47,6 +51,10 @@ korean = "당신, 누구야? …처음 보는 얼굴인데. 이 마을 사람은
 ["970016"]
 japanese = "<value:$28>？<line-break>連絡が途絶えた町の調査に来た？<line-break>　<line-break>…そう。<line-break>外にもこの町の異変が<line-break>伝わっていたのね。<end>"
 korean = "<value:$28>? 연락이 끊긴 마을을 조사하러 왔다고? …그래. 밖에도 이 마을의 이상이 알려졌구나.<end>"
+
+["970019"]
+japanese = "…わたしがいけないんです。<line-break>わたしがもっと<line-break>しっかりしていれば…。<end>"
+korean = "…제가 잘못한 거예요. 제가 좀 더 제대로 했더라면….<end>"
 
 ["970020"]
 japanese = "ノエル！<end>"
@@ -111,6 +119,10 @@ korean = "난 믿지 않아… 믿지 않는다고….<end>"
 ["970063"]
 japanese = "やぁ、<value:$28>。<line-break>どうだい、オズワルドの調査の方は　　<line-break>終わったのかい？<end>"
 korean = "안녕, <value:$28>. 오즈월드 조사 쪽은 끝났나?<end>"
+
+["970064"]
+japanese = "そうか。それじゃあ、<line-break>さっそく報告してくれ。　　　　　　　<line-break><end>"
+korean = "그런가. 그럼 바로 보고해 줘.<end>"
 
 ["970068"]
 japanese = "それじゃ、仕事が必要なら<line-break>また、来てくれよ。<end>"

@@ -8,6 +8,10 @@ korean = "여행 출발 05 메시지<end>"
 japanese = "<value:$28>か。<end>"
 korean = "<value:$28>인가.<end>"
 
+["320002"]
+japanese = "魔物に襲われたケガ人なら心配ない。<line-break>今、父上が神殿まで運んでゆかれた。<end>"
+korean = "마물에게 습격당한 부상자라면 걱정 마. 지금 아버지가 신전으로 데려가셨어.<end>"
+
 ["320003"]
 japanese = "しかし、村のすぐ近くまで<line-break>魔物がうろつくようになるとは…。<end>"
 korean = "하지만 마을 바로 근처까지 마물이 돌아다니게 되다니….<end>"
@@ -99,6 +103,10 @@ korean = "…모르겠네요.<end>"
 ["320029"]
 japanese = "記憶を手繰る…？<end>"
 korean = "기억을 더듬는다…?<end>"
+
+["320030"]
+japanese = "そちらもお気をつけて。<line-break>この辺りは危険ですから…。<line-break>くすくす…。<end>"
+korean = "그쪽도 조심하세요. 이 근처는 위험하니까요…. 후후….<end>"
 
 ["320031"]
 japanese = "（似ている……。）<end>"
@@ -268,6 +276,10 @@ korean = "！<end>"
 japanese = "そうそう、あなた、<line-break>ウソをついていたでしょう？<line-break>知りませんだなんて。<line-break>くすくす、あれ、<line-break>あなたのおうちにあるんじゃない。<line-break>　<end>"
 korean = "맞다, 당신 거짓말했죠? 모른다니. 후후, 그거 당신 집에 있잖아요.<end>"
 
+["320082"]
+japanese = "あなたのお父様の死体から、<line-break>記憶をじかに探らせてもらったわ。<line-break>　<end>"
+korean = "네 아버지의 시체에서 기억을 직접 읽어 냈어.<end>"
+
 ["320084"]
 japanese = "<value:$28>、<line-break>ここを離れるんだ。<line-break>村人を避難させてくれ。<end>"
 korean = "<value:$28>, 여길 떠나. 마을 사람들을 대피시켜 줘.<end>"
@@ -307,6 +319,10 @@ korean = "괜찮다. 내가 거짓말한 적이 있었나?<end>"
 ["320094"]
 japanese = "あっ、<value:$28>様じゃ。<end>"
 korean = "앗, <value:$28> 님이구나.<end>"
+
+["320095"]
+japanese = "魔物が入り口をふさいでいて<line-break>逃げられないのです！<line-break>お助けください！<end>"
+korean = "마물이 입구를 막고 있어서 도망칠 수 없습니다! 도와주세요!<end>"
 
 ["320096"]
 japanese = "<value:$28>さま、ありがと！<line-break>これ、あたしのたからものだけど、<line-break><value:$28>さまにあげる。<end>"
@@ -411,6 +427,10 @@ korean = "데스기가스에 맞선다<end>"
 ["320141"]
 japanese = "兄の言うとおり村人を避難させる<end>"
 korean = "형 말대로 마을 사람들을 대피시킨다<end>"
+
+["320142"]
+japanese = "…心配はいらん。<line-break>こいつはすでに機能停止…<line-break>つまり、死んでいる。<end>"
+korean = "…걱정 마라. 이 녀석은 이미 기능 정지… 즉 죽어 있다.<end>"
 
 ["320143"]
 japanese = "セラという男についていく<end>"

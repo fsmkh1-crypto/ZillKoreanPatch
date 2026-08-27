@@ -108,9 +108,17 @@ korean = "엘파스 Vol5 예비 메시지 9<end>"
 japanese = "エルファスＶｏｌ５予備メッセージ１０<end>"
 korean = "엘파스 Vol5 예비 메시지 10<end>"
 
+["1540032"]
+japanese = "あーあ、世話が焼ける。<line-break>お手本見せないとダメなのかなあ。<line-break>くすくす。<end>"
+korean = "아휴, 손이 많이 가네. 본보기를 보여 줘야 하나. 후후.<end>"
+
 ["1540033"]
 japanese = "逃げるんだ、<value:$28>！<end>"
 korean = "도망쳐, <value:$28>!<end>"
+
+["1540034"]
+japanese = "アハハ！　無理無理。<line-break>さあ、出ておいで！<line-break>格好の遊び相手だよ。<end>"
+korean = "아하하! 무리야, 무리. 자, 나와! 딱 좋은 놀이 상대야.<end>"
 
 ["1540035"]
 japanese = "エルファスが仲間になった。<end>"
@@ -119,6 +127,10 @@ korean = "엘파스가 동료가 되었다.<end>"
 ["1540036"]
 japanese = "逃げるんだ、<value:$28>！<end>"
 korean = "도망쳐, <value:$28>!<end>"
+
+["1540037"]
+japanese = "アハハ！　無理無理。<line-break>さあ、出ておいで！<line-break>格好の遊び相手だよ。<end>"
+korean = "아하하! 무리야, 무리. 자, 나와! 딱 좋은 놀이 상대야.<end>"
 
 ["1540039"]
 japanese = "…えっ？<line-break>　<line-break>　<line-break>僕を…仲間に…？<end>"
@@ -131,6 +143,10 @@ korean = "엘파스가 동료가 되었다.<end>"
 ["1540044"]
 japanese = "やめてくれ、シャリ！<end>"
 korean = "그만둬, 샤리!<end>"
+
+["1540045"]
+japanese = "アハハ。<line-break>聞こえないよ。エルファス。<line-break>君のそんな虚ろな願いなんて。<end>"
+korean = "아하하. 안 들려, 엘파스. 그런 공허한 소원 따위.<end>"
 
 ["1540046"]
 japanese = "逃げろ、<value:$28>！"
@@ -184,9 +200,17 @@ korean = "이해해 달라고는 하지 않겠다. 하지만 <value:$28>를 절�
 japanese = "もう君には、僕がかなえてあげるだけの<line-break>願いはないみたいだからね。<end>"
 korean = "이제 너에겐 내가 이루어줄 만한 소원이 없는 것 같으니까.<end>"
 
+["1540062"]
+japanese = "あーあ、世話が焼ける。<line-break>お手本見せないとダメなのかなあ。<line-break>くすくす。<end>"
+korean = "아휴, 손이 많이 가네. 본보기를 보여 줘야 하나. 후후.<end>"
+
 ["1540063"]
 japanese = "やめてくれ、シャリ！<end>"
 korean = "그만둬, 샤리!<end>"
+
+["1540064"]
+japanese = "アハハ。<line-break>聞こえないよ。エルファス。<line-break>君のそんな虚ろな願いなんて。<end>"
+korean = "아하하. 안 들려, 엘파스. 그런 공허한 소원 따위.<end>"
 
 ["1540065"]
 japanese = "逃げろ、<value:$28>！"

@@ -732,6 +732,10 @@ korean = "에취!! 젠장! 으으, 밤은 춥네~. 안에 들어갈래, <value:$
 japanese = "あー、<value:$28>だぁ！<line-break>ねぇ、ねぇ、すごい大発見！<line-break>聞いて！　聞いて！<end>"
 korean = "아, <value:$28>다! 저기, 저기, 엄청난 걸 발견했어! 들어 봐!<end>"
 
+["700220"]
+japanese = "あのね、あのね、<line-break>セラとアーギルシャイアって<line-break>似てるでしょ？<end>"
+korean = "있잖아, 있잖아, 세라와 아기르샤이아는 닮았지?<end>"
+
 ["700222"]
 japanese = "もうイヤ、もうイヤ！　もぉうイヤ！！<end>"
 korean = "이제 싫어, 싫어! 정말 싫어!!<end>"
@@ -807,6 +811,10 @@ korean = "있잖아, 나 세라에 대해 좀 신경 쓰이는 게 있어. 세�
 ["700253"]
 japanese = "あいつ、絶対、あの魔人と<line-break>何か関わりがある…。　　　　　　<line-break>　<line-break>最悪、奴があの魔人のしもべで<line-break>俺たちをねらってるってことも…。<end>"
 korean = "그 녀석, 분명 그 마인과 뭔가 관계가 있어…. 최악의 경우 놈이 그 마인의 부하라 우리를 노리는 걸 수도….<end>"
+
+["700255"]
+japanese = "<value:$28>…<line-break>お前は月からの使者としての　　　　　<line-break>使命があるだろ？<line-break>魔人なんかと関わって、<line-break>使命を達成しないうちに<line-break>命を落とすわけにはいかないだろ？<end>"
+korean = "<value:$28>… 너는 달의 사자로서 사명이 있잖아? 마인 같은 것과 얽혀 사명을 이루기 전에 목숨을 잃을 수는 없지?<end>"
 
 ["700259"]
 japanese = "姉ちゃーん。<end>"

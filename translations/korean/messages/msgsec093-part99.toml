@@ -80,6 +80,10 @@ korean = "…좋아! 완성이다.<end>"
 japanese = "わしの長年の夢はかなった。<line-break>カッツとロッチナの夢も…。<line-break>すべて、お主のおかげじゃ。<line-break>ありがとう、<line-break><value:$28>。<end>"
 korean = "내 오랜 꿈은 이루어졌다. 캇츠와 롯치나의 꿈도…. 모두 자네 덕분이야. 고맙네, <value:$28>.<end>"
 
+["930031"]
+japanese = "では、戻ろうかの。<line-break>なぜだか無性に、<line-break>酒が飲みとうなったわ。<end>"
+korean = "그럼 돌아갈까. 왠지 몹시 술이 마시고 싶어졌구나.<end>"
+
 ["930034"]
 japanese = "さて、わしの旅は終わった。<line-break>これからのわしは<line-break>お主と旅を共にする戦士じゃ。<line-break>では、行こうかの、<line-break><value:$28>。<end>"
 korean = "자, 내 여행은 끝났다. 이제부터 나는 자네와 여행을 함께하는 전사다. 그럼 가 볼까, <value:$28>.<end>"

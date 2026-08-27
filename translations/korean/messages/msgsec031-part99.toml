@@ -44,6 +44,10 @@ korean = "<value:$28> 씨…, 악대관 볼보라에 맞서는 사람들을 이�
 japanese = "やれやれ。<line-break>わかっていただけたようですな。<end>"
 korean = "이런. 알아들으신 모양이군요.<end>"
 
+["310021"]
+japanese = "あなたたちの<line-break>打倒ボルボラの活動が<line-break>実を結ぶことを祈っていますよ。<end>"
+korean = "여러분의 타도 볼보라 활동이 결실을 맺기를 바랍니다.<end>"
+
 ["310022"]
 japanese = "<value:$28>…。<line-break>いい目をした少女だ…。<line-break>反乱は予定より早く起こりそうですな。<end>"
 korean = "<value:$28>…. 좋은 눈을 한 소녀군…. 반란은 예정대로보다 빨리 일어날 것 같군.<end>"
@@ -132,6 +136,10 @@ korean = "사실은 아주 상냥하고 의지가 되는 사람이야. 몰라?<e
 japanese = "そう…、ありがとう。<end>"
 korean = "그래…, 고마워.<end>"
 
+["310058"]
+japanese = "あ、僕の名はエスト。<line-break>…よかったら、<line-break>君の名前を聞かせてほしいな。<end>"
+korean = "아, 내 이름은 에스트야. …괜찮다면 네 이름도 알려 줬으면 좋겠어.<end>"
+
 ["310059"]
 japanese = "<value:$28>…。<line-break>ステキな名前だね。<line-break>それじゃあ。<end>"
 korean = "<value:$28>…. 멋진 이름이네. 그럼 이만.<end>"
@@ -164,6 +172,10 @@ korean = "미안해요! 괜찮으세요?<end>"
 japanese = "姉ちゃん、<line-break>まだ、何かあるのか？<end>"
 korean = "누나, 아직 뭐가 더 있어?<end>"
 
+["310075"]
+japanese = "しょうのない奴だな。<line-break>ここで待っていてやる。<line-break>急いで行ってこい。<end>"
+korean = "어쩔 수 없는 녀석이군. 여기서 기다려 줄 테니 빨리 다녀와.<end>"
+
 ["310076"]
 japanese = "やっと用意ができたか？<end>"
 korean = "드디어 준비가 됐나?<end>"
@@ -175,6 +187,10 @@ korean = "자, 누나, 가자. 모두 숲 안쪽에서 기다리고 있어.<end>
 ["310083"]
 japanese = "今こそ立ち上がろう！<line-break><value:$28>！<end>"
 korean = "지금이야말로 일어서자! <value:$28>!<end>"
+
+["310086"]
+japanese = "カタがつくだと！？<line-break>ウソだ！<line-break>貴族が俺らのことなど考えるもんか！<end>"
+korean = "끝난다고!? 거짓말이야! 귀족들이 우리 같은 사람을 생각할 리가 있나!<end>"
 
 ["310090"]
 japanese = "立ち上がろう！<end>"
@@ -203,6 +219,10 @@ korean = "흥!! 뭐야, 저 녀석!<end>"
 ["310097"]
 japanese = "行こう！<line-break>そして領主邸の悪代官ボルボラを<line-break>倒すんだ！！<end>"
 korean = "가자! 그리고 영주 저택의 악덕 관리 볼보라를 쓰러뜨리는 거야!!<end>"
+
+["310100"]
+japanese = "バカどもが！<line-break>大人しくしていれば、<line-break>じきに俺が片をつけたものを！<end>"
+korean = "바보 같은 놈들! 얌전히 있었으면 곧 내가 끝냈을 것을!<end>"
 
 ["310101"]
 japanese = "<value:$28>、<line-break>あいつらだけでは返り討ちだ。<line-break>急いでとめにいくぞ！！<end>"
@@ -395,6 +415,10 @@ korean = "부탁해, 오빠를 지켜 줘!<end>"
 ["310175"]
 japanese = "<value:$28>、チャカ。<line-break>まさか、お代官様を…！<end>"
 korean = "<value:$28>, 차카. 설마 대관님을…!<end>"
+
+["310176"]
+japanese = "ああ！<line-break>ボルボラは俺たちが倒した！<line-break>ノーブルはこれで平和になるよ！<end>"
+korean = "그래! 볼보라는 우리가 쓰러뜨렸어! 노블은 이제 평화로워질 거야!<end>"
 
 ["310177"]
 japanese = "なんということじゃ！！<line-break>代官まで追放されてしもうては、<line-break>反乱は明らかじゃ！<line-break>やっと町の騒ぎをしずめたに、<line-break>英雄気どりで愚か者どもが…！<end>"

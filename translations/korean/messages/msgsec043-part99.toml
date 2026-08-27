@@ -340,6 +340,10 @@ korean = "…화살에 독이? 시로우라기리의 독이라고? …그럼 틀
 japanese = "俺も急ぐ。人の命がかかっているのだ。<end>"
 korean = "나도 서두르겠다. 사람 목숨이 달린 일이야.<end>"
 
+["430115"]
+japanese = "ここでお前を説得する時間もなければ<line-break>ここでお前に命をくれてやる気もない。<end>"
+korean = "여기서 너를 설득할 시간도 없고, 여기서 네게 목숨을 내줄 생각도 없다.<end>"
+
 ["430116"]
 japanese = "剣で決着をつけよう…。<end>"
 korean = "검으로 결판내자….<end>"
@@ -459,6 +463,10 @@ korean = "…하하하하! 정말 너답군.<end>"
 ["430154"]
 japanese = "レムオン様、<line-break>ゼグナ伯とトゥーゾフ伯がおいでです。<end>"
 korean = "레몬 님, 제그나 백작과 투조프 백작이 오셨습니다.<end>"
+
+["430155"]
+japanese = "くっ、無能な奴らががん首そろえて<line-break>他人の都合も考えずに、のこのこと…。<end>"
+korean = "큭, 무능한 놈들이 머리를 맞대고 남의 사정도 생각하지 않은 채 어슬렁거리다니….<end>"
 
 ["430156"]
 japanese = "お引き取りいただきますか？<end>"
@@ -596,6 +604,10 @@ korean = "아아<end>"
 japanese = "いや<end>"
 korean = "아니<end>"
 
+["430192"]
+japanese = "さようでございますか。<line-break>それでは、いってらっしゃいませ。　　<line-break>　<line-break>あまり、ご無理はなさいませぬよう。<line-break>竜王様のご加護が<value:$28>様を<line-break>守りますように。<end>"
+korean = "그렇습니까. 그럼 다녀오십시오. 너무 무리는 하지 마십시오. 용왕님의 가호가 <value:$28> 님을 지켜 주기를.<end>"
+
 ["430194"]
 japanese = "僕は、エスト＝リューガ。<line-break>こう見えても考古学者さ。　　　<line-break>　<line-break>古代の遺物、<line-break>闇の神器を探して旅してるんだ。<line-break>ね、闇の神器って知ってる？<end>"
 korean = "나는 에스트 류가. 이래 봬도 고고학자야. 고대 유물, 어둠의 신기를 찾으며 여행하고 있지. 어둠의 신기라는 거 알아?<end>"
@@ -667,6 +679,10 @@ korean = "저기, 네 이름 물어봐도 될까?<end>"
 ["430217"]
 japanese = "<value:$28>だね？<line-break>じゃ、また会えるといいね、<line-break><value:$28>。<end>"
 korean = "<value:$28> 맞지? 그럼 또 만날 수 있으면 좋겠다, <value:$28>.<end>"
+
+["430218"]
+japanese = "僕の話が現実になるのは、<line-break>そう遠い話じゃないかもしれないよ。<line-break>　<end>"
+korean = "내 이야기가 현실이 되는 것도 그리 먼 일이 아닐지도 몰라.<end>"
 
 ["430219"]
 japanese = "…賊か。<line-break>　<end>"

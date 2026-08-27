@@ -8,6 +8,10 @@ korean = "아길샤이어 메시지 시작<end>"
 japanese = "冒険者として<line-break>旅をした経験は？<end>"
 korean = "모험자로 여행해 본 경험은?<end>"
 
+["690004"]
+japanese = "…来たか。<line-break>カウンターにいるおやじに<line-break>話しかけろ。…登録してくれる。<end>"
+korean = "…왔군. 카운터에 있는 아저씨에게 말을 걸어. …등록해 줄 거다.<end>"
+
 ["690005"]
 japanese = "カウンターにいるおやじに<line-break>話しかけろ。登録してくれる。<end>"
 korean = "카운터에 있는 아저씨에게 말 걸어. 등록해 줄 거야.<end>"
@@ -20,6 +24,10 @@ korean = "모험자 등록인가? 너처럼 젊은 사람은 대환영이지. �
 japanese = "幻術計振れておらず<line-break>犯罪登録当てはまらず。<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"
 korean = "환술계 수치도 없고 범죄 등록에도 해당하지 않는군. 축하해. 너도 모험자로 등록됐어.<end>"
 
+["690008"]
+japanese = "これからは、バリバリ仕事して<line-break>名をあげていってくれよ。<line-break>がんばりな！<end>"
+korean = "이제부터 팍팍 일해서 이름을 날려 줘. 힘내!<end>"
+
 ["690009"]
 japanese = "仕事をこなしながら、<line-break>強くなることだ。<line-break>弱いやつは邪魔なだけだからな。<line-break>仕事の選択は、お前に任せる。<line-break>では、町を出るときに合流しよう。<end>"
 korean = "일을 해내면서 강해져라. 약한 녀석은 방해만 되니까. 어떤 일을 고를지는 네게 맡긴다. 그럼 마을을 나갈 때 합류하지.<end>"
@@ -31,6 +39,10 @@ korean = "…<value:$28>, 조심해.<end>"
 ["690011"]
 japanese = "あの女…強い…。<end>"
 korean = "그 여자… 강해….<end>"
+
+["690013"]
+japanese = "アーギルシャイアだと？<line-break>貴様！<line-break>アーギルシャイアの仲間か…！<end>"
+korean = "아기르샤이아라고? 네놈! 아기르샤이아의 동료인가…!<end>"
 
 ["690014"]
 japanese = "あ、転送中に来ては危険です。<line-break>下がって…。<end>"
@@ -196,6 +208,10 @@ korean = "세계를 돌며 사람을 만나고 동료를 만드세요. 그 속�
 japanese = "団長、幸せの地もいいゴブが<line-break>自分は腹が減ったゴブ。<end>"
 korean = "단장, 행복의 땅도 좋지만 나는 배고프다 고브.<end>"
 
+["690082"]
+japanese = "オルナット、お前はいつも食い気ゴブ！<line-break>ちゃんと団長の話を聞くゴブ！<end>"
+korean = "오르나트, 너는 늘 먹을 생각뿐 고브! 단장 말 좀 제대로 들어 고브!<end>"
+
 ["690084"]
 japanese = "む、腹が減ったゴブな。<line-break>よし、ゴブゴブ団、食事ゴブ！<end>"
 korean = "음, 배고프다 고브. 좋아, 고브고브단, 식사다 고브!<end>"
@@ -311,6 +327,10 @@ korean = "좋습니다. 가죠.<end>"
 ["690127"]
 japanese = "相手は強力な怪物です。<line-break>油断なきよう…。<end>"
 korean = "상대는 강력한 괴물입니다. 방심하지 마십시오….<end>"
+
+["690128"]
+japanese = "念には念…ということです。<line-break>それでは。<line-break>また会うこともあるでしょう。<end>"
+korean = "돌다리도 두드려 보라는 거죠. 그럼. 또 만날 일도 있겠죠.<end>"
 
 ["690130"]
 japanese = "…では。<end>"
@@ -452,6 +472,10 @@ korean = "…아기르샤이아에 대해서도 알고 있었나.<end>"
 japanese = "…俺も<line-break>お前と一緒に行かせてもらおう。<end>"
 korean = "…나도 너와 함께 가도록 하지.<end>"
 
+["690177"]
+japanese = "お前に断る権利はない。<line-break>せいぜい、俺の<line-break>足手まといにならないことだ。<end>"
+korean = "너에게 거절할 권리는 없다. 기껏해야 내 발목이나 잡지 마라.<end>"
+
 ["690178"]
 japanese = "言っておくが<line-break>お前に断る権利はない。<end>"
 korean = "말해 두지만, 네게 거절할 권리는 없다.<end>"
@@ -488,6 +512,10 @@ korean = "잘못을 인정하고 철회한다<end>"
 japanese = "撤回しない<end>"
 korean = "철회하지 않는다<end>"
 
+["690195"]
+japanese = "それならいいわ。許してさしあげてよ。<line-break>今後、言動には気をつけていただくわ。<end>"
+korean = "그렇다면 됐어요. 용서해 주세요. 앞으로 언행에는 주의하도록 하겠습니다.<end>"
+
 ["690197"]
 japanese = "フェティが<line-break>パーティーから離脱しました。<end>"
 korean = "페티가 파티에서 이탈했습니다.<end>"
@@ -499,6 +527,10 @@ korean = "…저 녀석, 한 대 갈겨 주겠어!<end>"
 ["690207"]
 japanese = "あのセラって奴も<line-break>そんな感じがする。<line-break>奴も、つらいんじゃないかな。　　　　<line-break>んじゃな、<value:$28>。<line-break>　<line-break>　<end>"
 korean = "그 세라라는 녀석도 그런 느낌이야. 녀석도 힘든 게 아닐까. 그럼 또 보자, <value:$28>.<end>"
+
+["690208"]
+japanese = "姉ちゃん、姉ちゃん。<line-break>あのセラって奴さ、<line-break>姉ちゃん、どお？　シュミ？<end>"
+korean = "누나, 누나. 저 세라라는 녀석 말이야. 누나 취향이야?<end>"
 
 ["690209"]
 japanese = "シュミかも<end>"

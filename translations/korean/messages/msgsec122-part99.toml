@@ -28,6 +28,10 @@ korean = "…현자의 숲이다. 마음대로 가면 되겠지.<end>"
 japanese = "ガルドラン…？<line-break>ヴィア、そんな人、<line-break>知らないよ。<end>"
 korean = "갈드란…? 비아, 그런 사람 난 몰라.<end>"
 
+["1220057"]
+japanese = "自称未来の勇者が、<line-break>おのれの素質を試しに行ったか。<line-break><line-break>やめておけばいいものを。<line-break>賢者の森はそんなに甘くはない。<line-break>立ち直れなくなるぞ。<end>"
+korean = "자칭 미래의 용자가 자기 재능을 시험하러 갔나. 그만두면 좋을 것을. 현자의 숲은 만만한 곳이 아니다. 다시 일어서지 못하게 될 수도 있어.<end>"
+
 ["1220064"]
 japanese = "（ジラークのアルノートゥン攻めを<line-break>　手伝う約束をした）<line-break><line-break>（準備ができたらアキュリュースへ<line-break>　行かなければ…）<end>"
 korean = "(지라크의 알노툰 공격을 돕기로 약속했다) (준비가 되면 아큐류스로 가야 해…)<end>"
@@ -55,6 +59,10 @@ korean = "지라크가 부탁한 건 알노툰 공략이었을 거야. 준비가
 ["1220093"]
 japanese = "ジラークと共にアルノートゥンを<line-break>攻めるとのことでしたが。<end>"
 korean = "지라크와 함께 아르노툰을 공격한다고 했습니다만.<end>"
+
+["1220095"]
+japanese = "ジラークと<line-break>アルノートゥンを攻めると<line-break>約束してたんじゃないのかい？<end>"
+korean = "지라크와 함께 알노툰을 공격하기로 약속한 거 아니었어?<end>"
 
 ["1220096"]
 japanese = "（エルズの冒険者ギルドで、<line-break>　風泣きの洞窟に現れる怪物を<line-break>　倒してくれと頼まれたな）<line-break>（怪物を倒したら、<line-break>　忘れずに報告しないと…）<end>"
@@ -92,6 +100,10 @@ korean = "<value:$28> 님에게 마물 퇴치를 의뢰한 여마도사는 마�
 japanese = "高貴なエルフのアタクシが、<line-break>ど～して、女魔道士のお願いを<line-break>聞かなくちゃいけないわけぇ？<line-break>魔道士なら、魔物退治なんて<line-break>自分でやればいいんだわ！<end>"
 korean = "고귀한 엘프인 내가 왜 여자 마도사의 부탁을 들어줘야 하는 건데? 마도사라면 마물 퇴치쯤은 자기가 하면 되잖아!<end>"
 
+["1220145"]
+japanese = "兄弟子！<line-break>女魔道士の色香に<line-break>まどうわされもうしたな！<line-break>魔道と惑うのシャレ…<line-break>いや、もう何も語りますまい。<line-break>兄弟子の顔が物語っておるゆえ。<end>"
+korean = "사형! 여자 마도사의 미색에 홀리셨군요! 마도와 홀리다의 말장난… 아니, 이제 아무 말도 하지 않겠습니다. 사형의 얼굴이 다 말해 주는군요.<end>"
+
 ["1220147"]
 japanese = "………………。<line-break><line-break><line-break>乙女の鏡の魔物か…。<line-break>俺を倒したお前の実力なら<line-break>簡単な仕事だな。<end>"
 korean = "………………. 처녀의 거울의 마물인가…. 나를 쓰러뜨린 네 실력이라면 쉬운 일이겠군.<end>"
@@ -123,6 +135,10 @@ korean = "엄청난 짐승은 괴물! 괴물은 외톨이! 소인은 광대! 사
 ["1220179"]
 japanese = "………………。<line-break><line-break><line-break>追いつめられた獣は手強い。<line-break>油断するな。<end>"
 korean = "………………. 궁지에 몰린 짐승은 강하다. 방심하지 마라.<end>"
+
+["1220181"]
+japanese = "その獣は幻惑の洞窟のコロル石が<line-break>取れる所にいるんだよね？<line-break>それなら洞窟の一番奥だよ。<line-break>コロル石がいろんな色で輝いて<line-break>きれいな場所なんだぁ。<end>"
+korean = "그 짐승은 환혹의 동굴에서 코롤석을 캐는 곳에 있는 거지? 그렇다면 동굴 가장 안쪽이야. 코롤석이 여러 색으로 빛나서 아름다운 곳이야.<end>"
 
 ["1220192"]
 japanese = "（ロセンの冒険者ギルドで、<line-break>　火山岩地帯にいる魔物を倒すよう<line-break>　依頼されたな）<line-break>（魔物を倒したら、<line-break>　忘れずに報告しないと…）<end>"

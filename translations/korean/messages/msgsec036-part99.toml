@@ -208,9 +208,21 @@ korean = "아스티아, 네 소원은 절반만 들어줄게. 옥상까지 이 �
 japanese = "じゃあねぇ！<line-break>がんばってねぇ！<end>"
 korean = "그럼 안녕! 힘내!<end>"
 
+["360069"]
+japanese = "無なる黒は光無き闇、<line-break>無の壁は無の黒にして世界を絶つ<line-break>…虚無の壁！<end>"
+korean = "무의 검정은 빛 없는 어둠, 무의 벽은 무의 검정으로 세계를 끊는다… 허무의 벽!<end>"
+
 ["360071"]
 japanese = "<value:$28>ー！<end>"
 korean = "<value:$28>!<end>"
+
+["360072"]
+japanese = "無なる黒は光無き闇、<line-break>無の壁は無の黒にして世界を絶つ<line-break>…虚無の壁！<end>"
+korean = "무의 검정은 빛 없는 어둠, 무의 벽은 무의 검정으로 세계를 끊는다… 허무의 벽!<end>"
+
+["360075"]
+japanese = "お前の無垢な笑顔、安らかな寝顔、<line-break>お前といた一瞬一瞬が私の宝物だった。<end>"
+korean = "네 순수한 미소, 편안한 잠든 얼굴, 너와 함께한 모든 순간이 내 보물이었어.<end>"
 
 ["360077"]
 japanese = "<value:$28>、<line-break>強く…生きて…。<end>"

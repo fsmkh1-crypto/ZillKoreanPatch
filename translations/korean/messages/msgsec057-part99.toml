@@ -260,6 +260,10 @@ korean = "그럼 또 봐! 도와줘서 고마워!<end>"
 japanese = "<value:$28>か？<end>"
 korean = "<value:$28>인가?<end>"
 
+["570112"]
+japanese = "…ま、よく考えてな。<line-break>人間ってのは、弱くてもろい<line-break>生き物だって事を。<end>"
+korean = "…뭐, 잘 생각해 봐. 인간은 약하고 쉽게 부서지는 생물이라는 걸.<end>"
+
 ["570113"]
 japanese = "お客さん。飲み過ぎだよ。<line-break>店の酒、みーんな、飲んじまって…。<end>"
 korean = "손님, 너무 마셨어. 가게 술을 전부 마셔버리고…<end>"

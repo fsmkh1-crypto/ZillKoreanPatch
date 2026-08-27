@@ -24,6 +24,10 @@ korean = "뭐, 뭘 하는 거야!<end>"
 japanese = "ひ、ひいい！<end>"
 korean = "히, 히익!<end>"
 
+["990007"]
+japanese = "俺様の愛するフェルムちゃんに<line-break>酔ってからむとは不埒な奴！<line-break>許せん！<end>"
+korean = "내가 사랑하는 페름에게 취해서 시비를 걸다니 불경한 녀석! 용서 못 해!<end>"
+
 ["990008"]
 japanese = "あ、<value:$28>さん…。<line-break>い、いらっしゃいませ…。　　　　<line-break>　<line-break>あ、べ、別になんでもないんです。<line-break>し、仕事に戻らなくっちゃ…！<end>"
 korean = "아, <value:$28>님…. 어, 어서 오세요…. 아, 아뇨, 아무것도 아니에요. 이, 일하러 돌아가야 해…!<end>"
@@ -43,6 +47,10 @@ korean = "뭔가… 굉장한 차림을 하신 분이네요. 몸매도 좋고 �
 ["990013"]
 japanese = "ここの料理<line-break>ホント、おいしかったよ。　　<line-break>　<line-break>ボクのオススメはねえ、<line-break>ソルバ魚のカルパッチョと<line-break>ジオールスターの唐揚げかな。<end>"
 korean = "여기 요리 정말 맛있었어. 내가 추천하는 건 솔바어 카르파초와 지오올스타 튀김이야.<end>"
+
+["990014"]
+japanese = "ちゃんと食べてみてよ！<line-break>すっごくおいしかったんだから。<line-break>じゃあね！<end>"
+korean = "제대로 먹어 봐! 정말 맛있었으니까. 그럼 안녕!<end>"
 
 ["990019"]
 japanese = "あ、<value:$28>だ。<line-break>声をかけようかな…。<line-break>そうしよっと！<line-break>あ、<value:$28>、<line-break>とっても、会いたかったの。<line-break>　<end>"
@@ -131,6 +139,10 @@ korean = "미사용 메시지<end>"
 ["990041"]
 japanese = "不使用メッセージ<end>"
 korean = "미사용 메시지<end>"
+
+["990042"]
+japanese = "ここ、あなたの行きつけの店だったの？<line-break>だーから、おいしくなかったのねー。<end>"
+korean = "여기, 네 단골 가게였어? 그러니까 맛이 없었던 거구나.<end>"
 
 ["990046"]
 japanese = "…そうね。<line-break>確かに堕落ね。　　　　　　　　<line-break>　<line-break>人間ごときに気を使うなんて、　<line-break>高貴で優雅なエルフである<line-break>アタクシらしくないわ…。<end>"

@@ -220,6 +220,10 @@ korean = "오르파우스 씨, 정말 신세 많이 졌어요.<end>"
 japanese = "オルファウスさん、<line-break>それじゃあ、行ってきまーす！<end>"
 korean = "오르파우스 씨, 그럼 다녀올게요!<end>"
 
+["1480090"]
+japanese = "その中で世界は<line-break>様々な顔を見せてくれるでしょう。<line-break>自由な旅を！<end>"
+korean = "그 안에서 세계는 여러 모습을 보여 줄 겁니다. 자유로운 여행을!<end>"
+
 ["1480092"]
 japanese = "だからね、<value:$28>は<line-break>運命に選ばれたんだって、<line-break>ゼネテスは言ってた…。<end>"
 korean = "그러니까, <value:$28>은 운명에 선택받은 거라고 제네테스가 말했어….<end>"
@@ -239,6 +243,10 @@ korean = "아길샤이어?<end>"
 ["1480098"]
 japanese = "闇の神器？<end>"
 korean = "어둠의 신기?<end>"
+
+["1480102"]
+japanese = "わかったら、早くエンシャントへ<line-break>行くんだ！　…って、うぅ<line-break>頭が…。<end>"
+korean = "알았으면 빨리 엔샨트로 가! …으윽, 머리가….<end>"
 
 ["1480110"]
 japanese = "他に何か、聞きたいことがあれば、<line-break>私にできる範囲でお答えしますよ。<end>"
@@ -287,6 +295,14 @@ korean = "도착했어, <value:$28>. 이제 어디로 갈 거야?<end>"
 ["1480126"]
 japanese = "フリントの子、<line-break><value:$28>ですね？<end>"
 korean = "플린트의 아이, <value:$28> 맞죠?<end>"
+
+["1480127"]
+japanese = "お姉ちゃんたちは誰？<line-break>どうして、フリントさんのこと<line-break>知ってるのぉ？<end>"
+korean = "언니들은 누구야? 왜 플린트를 알고 있어?<end>"
+
+["1480128"]
+japanese = "私たちはロストールのエリス様に<line-break>お仕えする者。<line-break>私がヴァイライラ。<end>"
+korean = "우리는 로스토올의 에리스 님을 섬기는 자들이다. 내가 바이라이라다.<end>"
 
 ["1480129"]
 japanese = "私はヴィアリアリ。<end>"

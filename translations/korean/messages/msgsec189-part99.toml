@@ -24,6 +24,10 @@ korean = "잘 기억해 두어라, <value:$28>여.<end>"
 japanese = "また訪れるがよい。<end>"
 korean = "다시 찾아오도록 해.<end>"
 
+["1890008"]
+japanese = "フフ、無限のソウルの持ち主か…。<line-break>汝は余にとって<line-break>どのような者になるのか…。<line-break>なんにせよ、汝の力…、<line-break>人類の革新のため、<line-break>利用させてもらおう…。<end>"
+korean = "후후, 무한의 소울의 소유자인가…. 그대는 짐에게 어떤 존재가 될 것인가…. 어쨌든 그 힘은 인류 혁신을 위해 이용하겠다….<end>"
+
 ["1890010"]
 japanese = "かつて余は<line-break>それを証明してみせた。<end>"
 korean = "과거 짐은 그것을 증명해 보였다.<end>"
@@ -71,6 +75,10 @@ korean = "<value:$28>여. 가장 깊고 어두운 마법을 원하지 않느냐?
 ["1890030"]
 japanese = "竜王が動いたようだな。<line-break>ラドラスの浮上は、<line-break>さすがに捨て置けなかったようだ…。<line-break>ラドラスの力は<line-break>世界の均衡を容易に崩すからな。<end>"
 korean = "용왕이 움직인 모양이군. 라드라스의 부상은 역시 그냥 둘 수 없었던 거겠지…. 라드라스의 힘은 세계의 균형을 쉽게 무너뜨리니까.<end>"
+
+["1890032"]
+japanese = "竜王はお前を見逃さんだろうよ。<line-break>すべての竜を殺したとなれば、<line-break>間違いなく世界を脅かす力の持ち主だ。<line-break>必ず始末しようとする。<line-break>危険すぎるからな。フフフ。<end>"
+korean = "용왕은 너를 놓아주지 않을 거다. 모든 용을 죽였다면 틀림없이 세계를 위협할 힘의 소유자다. 반드시 처리하려 하겠지. 너무 위험하니까. 후후후.<end>"
 
 ["1890033"]
 japanese = "やあ、いらっしゃい。<line-break>待っていたよ、<line-break><value:$28>。<end>"
@@ -151,6 +159,10 @@ korean = "…그 아이도 강해졌군요.<end>"
 ["1890066"]
 japanese = "さて、私たちは、私たちの戦いを<line-break>続けねばなりません。<line-break>　<line-break><value:$28>、あなたにも、<line-break>真の敵が見えてきたはずです。<end>"
 korean = "자, 우리는 우리의 싸움을 계속해야 합니다. <value:$28>, 당신도 진정한 적이 보이기 시작했을 겁니다.<end>"
+
+["1890067"]
+japanese = "ウルグの復活は阻止したものの、<line-break>戦いが終わったわけではないようです。<line-break>　<line-break>どうやら決戦の場は<line-break>エンシャントのようです。<line-break>心して向かってください。<end>"
+korean = "울그의 부활은 막았지만 싸움이 끝난 것은 아닌 듯합니다. 아무래도 결전의 장소는 엔샨트인 듯합니다. 각오하고 가십시오.<end>"
 
 ["1890068"]
 japanese = "何が起こるかわかりませんが、<line-break>強きソウルと共にあれば<line-break>必ず道は開けますからね。<line-break>あなたには、<line-break>無限の可能性があるんですから。<end>"
@@ -235,6 +247,10 @@ korean = "…그 아이도 강해졌군요.<end>"
 ["1890100"]
 japanese = "さて、私たちは、私たちの戦いを<line-break>続けねばなりません。<line-break>　<line-break><value:$28>、あなたにも、<line-break>真の敵が見えてきたはずです。<end>"
 korean = "자, 우리는 우리의 싸움을 계속해야 합니다. <value:$28>, 당신도 진정한 적이 보이기 시작했을 겁니다.<end>"
+
+["1890101"]
+japanese = "ウルグの復活は阻止したものの、<line-break>戦いは終わったわけではないようです。<line-break>　<line-break>どうやら決戦の場は<line-break>エンシャントのようです。<line-break>心して向かってください。<end>"
+korean = "울그의 부활은 막았지만 싸움이 끝난 것은 아닌 듯합니다. 아무래도 결전의 장소는 엔샨트인 듯합니다. 각오하고 가십시오.<end>"
 
 ["1890102"]
 japanese = "何が起こるかわかりませんが、<line-break>強きソウルと共にあれば<line-break>必ず道は開けますからね。<line-break>あなたには<line-break>無限の可能性があるのだから。<end>"
@@ -443,6 +459,10 @@ korean = "확실히 그렇군. 너는 자신의 의지로 구세주가 되기를
 ["1890189"]
 japanese = "私をさげすむか、ゾフォル？<end>"
 korean = "나를 업신여기는 건가, 조폴?<end>"
+
+["1890190"]
+japanese = "さげすむだと？　笑わせおる。<line-break>今のお前にはそんな価値すらもない。<line-break>わしは失望すらせぬよ。<line-break>お前が変わっていくことは<line-break>うすうす予見できていたからな。<end>"
+korean = "경멸한다고? 웃기는군. 지금의 너는 그럴 가치조차 없다. 나는 실망조차 하지 않아. 네가 변해 갈 건 어렴풋이 예상하고 있었으니까.<end>"
 
 ["1890191"]
 japanese = "わしは<line-break>自分の見た未来に従って<line-break>ただ進むのみ…。<end>"

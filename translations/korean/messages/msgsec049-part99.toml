@@ -28,6 +28,10 @@ korean = "이 녀석 길드 등록 좀 해 줘, 아저씨.<end>"
 japanese = "それから、こいつの馬車が<line-break>町の出口にとめてある。　　<line-break>　<line-break>その荷物を処分したいんだ。<end>"
 korean = "그리고 이 녀석 마차가 마을 출구에 세워져 있어. 그 짐도 처분하고 싶어.<end>"
 
+["490013"]
+japanese = "おいおい、仕事の依頼を断った上に、<line-break>そっちから仕事をもってくるのかよ？<end>"
+korean = "이봐, 의뢰를 거절해 놓고 오히려 네 쪽에서 일을 가져오는 거야?<end>"
+
 ["490014"]
 japanese = "大事なお客様ってわけだ。<line-break>　<line-break>　<line-break>それともうひとつ。<line-break>ツェラシェルに会いたい。<line-break>奴を呼んでくれ。<end>"
 korean = "중요한 손님이라는 거군. 그리고 하나 더. 체라셸을 만나고 싶다. 녀석을 불러 줘.<end>"
@@ -268,6 +272,10 @@ korean = "서두르면 엔샨트에서 아직 따라잡을 수 있어. 그렇지
 japanese = "フフ。<value:$28>、<line-break>お前ならそういうと思ってた。　　　　<line-break>　<line-break>お前の判断が間違っていなかったって、<line-break>運命の女神に見せてやろうぜ。<end>"
 korean = "후후. <value:$28>, 너라면 그렇게 말할 줄 알았어. 네 판단이 틀리지 않았다는 걸 운명의 여신에게 보여 주자고.<end>"
 
+["490117"]
+japanese = "エンシャントへ行って<line-break>ルルアンタを助け出して、な。　　　　<line-break>　<end>"
+korean = "엔샨트로 가서 루루안타를 구해 줘.<end>"
+
 ["490118"]
 japanese = "俺もすぐに行く。<end>"
 korean = "나도 곧 갈게.<end>"
@@ -303,6 +311,10 @@ korean = "아, 미안하네. 그럼 잘 부탁해.<end>"
 ["490129"]
 japanese = "うるせえ。<line-break>賭けの負けは負けだ。<line-break>とっとと乗れ。<end>"
 korean = "시끄러워. 내기에서 진 건 진 거야. 얼른 타.<end>"
+
+["490131"]
+japanese = "まあまあ、細かいこといいなさんな。<line-break>ほら、早くしないと船が出ちまうぜ。<end>"
+korean = "뭐, 사소한 건 됐어. 자, 빨리 안 가면 배가 떠나 버린다고.<end>"
 
 ["490139"]
 japanese = "さて、と。着いたな。　<line-break>　<line-break>　<line-break>帝都エンシャント。<line-break>ディンガル帝国の首都。<line-break>大陸北部最大の都市だ。<end>"
@@ -392,9 +404,17 @@ korean = "이대로 루루안타를 내버려둘 거야?<end>"
 japanese = "そうだな…葬ってやるべきだ。<end>"
 korean = "그래… 묻어 줘야겠어.<end>"
 
+["490163"]
+japanese = "ちっ、ドジっちまったぜ。<line-break>ここまで連れてきて<line-break>逃げられるとはな。<end>"
+korean = "쳇, 실수했군. 여기까지 데려와 놓고 도망치게 하다니.<end>"
+
 ["490165"]
 japanese = "ああ、だが<line-break>念には念をいれとかねえとな。<line-break>　<line-break>…誰だ！<end>"
 korean = "그래, 하지만 만전을 기해야지. …누구냐!<end>"
+
+["490171"]
+japanese = "…っつっても、<line-break>それじゃあそちらさんは<line-break>納得できないみたいだな。<end>"
+korean = "…라고 해도 그쪽은 납득 못 하는 모양이군.<end>"
 
 ["490173"]
 japanese = "ちっ、おぼえてやがれ！<end>"
@@ -463,6 +483,14 @@ korean = "후후, 여기서 서서 이야기하기도 뭐하니 안에서 차라
 ["490189"]
 japanese = "うんにゃ。信用していい。<end>"
 korean = "아니. 믿어도 돼.<end>"
+
+["490190"]
+japanese = "あいつには俺たち２人まとめても、<line-break>息も切らさずに始末できる実力がある。<end>"
+korean = "그 녀석은 우리 둘을 한꺼번에 상대해도 숨 하나 차지 않고 처리할 실력이 있어.<end>"
+
+["490191"]
+japanese = "殺す気なら、おびき寄せる必要もない。<line-break>俺たちの敵じゃないと思っていい。<end>"
+korean = "죽일 생각이었다면 유인할 필요도 없어. 우리 적은 아니라고 봐도 돼.<end>"
 
 ["490193"]
 japanese = "冗談だ。あいつの噂なら知っている。<line-break>あいつはそんな奴じゃない。<line-break>　<line-break>それにな。俺のカンが<line-break>大丈夫だって言っている。<line-break>だから、絶対大丈夫だ。<end>"
@@ -688,6 +716,10 @@ korean = "그런데 네모는 고양이 그대로였어?<end>"
 japanese = "禁断の聖杯は持ち主に英知を与えます。<end>"
 korean = "금단의 성배는 소유자에게 지혜를 줍니다.<end>"
 
+["490261"]
+japanese = "知恵を身につけたゴブリンたちは　　　<line-break>ネモを見限ってしまったのです。<end>"
+korean = "지혜를 얻은 고블린들은 네모를 버리고 말았습니다.<end>"
+
 ["490262"]
 japanese = "かわいそぉ！<end>"
 korean = "불쌍해애!<end>"
@@ -699,6 +731,10 @@ korean = "뭐, 덕분에 로스토르는 마인에게 불타 없어지는 일을
 ["490265"]
 japanese = "急がないとな。<line-break><value:$28>。<end>"
 korean = "서둘러야겠군. <value:$28>.<end>"
+
+["490266"]
+japanese = "えっと、そのゴブリンの特徴とか<line-break>行き先の心当たりとかないんですかぁ？<end>"
+korean = "저기, 그 고블린의 특징이나 행선지로 짐작되는 곳은 없나요?<end>"
 
 ["490268"]
 japanese = "んじゃ、行くか、<line-break><value:$28>、ルルアンタ。<end>"

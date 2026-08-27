@@ -4,6 +4,10 @@
 japanese = "ダミーメッセージここから<end>"
 korean = "더미 메시지 여기부터<end>"
 
+["940003"]
+japanese = "おっと、それから<line-break>手に入れたソウルはちゃんと宿すこと。<line-break>これを忘れちゃ、意味がねえからな。<line-break>最後に、こいつも<line-break>言っておかなきゃならんな。<end>"
+korean = "그리고 손에 넣은 소울은 제대로 깃들게 해 둬. 이걸 잊으면 의미가 없으니까. 마지막으로 이것도 말해 둬야겠군.<end>"
+
 ["940004"]
 japanese = "－<end>"
 korean = "－<end>"
