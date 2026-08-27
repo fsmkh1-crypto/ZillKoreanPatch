@@ -356,6 +356,10 @@ korean = "루루안타도 괴로웠을 거잖아?<end>"
 japanese = "でも、でも…、ルルアンタは、ぐすっ、<line-break><value:$28>に…<line-break>　<line-break>ひっく、元気をあげなくちゃ…。<end>"
 korean = "하지만, 하지만… 루루안타는, 훌쩍, <value:$28>에게… 힘을 줘야 하는데….<end>"
 
+["490203"]
+japanese = "…ルルアンタ。　　　　　　　　　　<line-break>　<line-break>　<line-break>たまには、ルルアンタの役を<line-break><value:$28>が代わってやっても<line-break>いいと思うぜ。<end>"
+korean = "…루루안타. 가끔은 루루안타 역할을 <value:$28>이 대신해 줘도 괜찮을 것 같아.<end>"
+
 ["490204"]
 japanese = "なぁ、<value:$28>。<end>"
 korean = "있잖아, <value:$28>.<end>"

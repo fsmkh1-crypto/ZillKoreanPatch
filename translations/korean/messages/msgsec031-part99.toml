@@ -160,6 +160,10 @@ korean = "<value:$28>, 저 녀석들만 가면 되레 당한다. 서둘러 막�
 japanese = "さあ！　行こう！<line-break>悪代官ボルボラを倒すんだ！<end>"
 korean = "자! 가자! 악덕 대관 볼보라를 쓰러뜨리는 거야!<end>"
 
+["310108"]
+japanese = "<value:$28>。<line-break>ムダさ。<line-break>長老様は反乱に参加しない。<line-break>反乱など起こしたら<line-break>えらいことになるって<line-break>閉じこもったっきりさ！<end>"
+korean = "<value:$28>. 소용없어. 장로님은 반란에 참가하지 않아. 반란을 일으키면 큰일 난다며 틀어박혀 버렸어!<end>"
+
 ["310109"]
 japanese = "ゲヒッ！<line-break><value:$28>！！<line-break>ここまで来やがったか！<end>"
 korean = "게힛! <value:$28>!! 여기까지 왔냐!<end>"

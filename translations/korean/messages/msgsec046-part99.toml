@@ -84,9 +84,21 @@ korean = "…<value:$28>! 반에게는 여관이….<end>"
 japanese = "いいって、いいって。<line-break>じゃ、よろしくな、<value:$28>。<end>"
 korean = "괜찮아, 괜찮아. 그럼 잘 부탁해, <value:$28>.<end>"
 
+["460051"]
+japanese = "ねえ、本当にガルドランを<line-break>放って置いていいのかなあ。<end>"
+korean = "있지, 정말 갈드란을 그냥 내버려 둬도 될까?<end>"
+
+["460053"]
+japanese = "じゃ、俺はこいつの面倒見るから。<line-break>あとで、一緒にな。<end>"
+korean = "그럼 난 이 녀석을 돌볼 테니까. 나중에 같이 가자.<end>"
+
 ["460056"]
 japanese = "そんな俺を記念して<line-break>歌を作ったんだ、親父…。<end>"
 korean = "그런 나를 기념해서 노래를 만든 거야, 아버지….<end>"
+
+["460057"]
+japanese = "えっ、聞きたいって？<line-break>よせよ、照れるじゃねえか。　　<end>"
+korean = "응? 듣고 싶다고? 그만둬, 부끄럽잖아.<end>"
 
 ["460062"]
 japanese = "どうだった、親父？<end>"
@@ -367,6 +379,10 @@ korean = "왼손을 내밀어 보게. 뭐시기 군….<end>"
 ["460222"]
 japanese = "だーひゃっひゃっひゃっ！<end>"
 korean = "다햐햐햐햐!<end>"
+
+["460223"]
+japanese = "だーひゃっひゃっひゃっ！<line-break>わしは天才な～んじゃね～！<end>"
+korean = "다하하하하! 나는 천재라니까~!<end>"
 
 ["460226"]
 japanese = "おや、あ～んた、な～んとか君じゃね。<end>"

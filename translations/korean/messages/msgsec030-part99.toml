@@ -196,6 +196,10 @@ korean = "…자, 그럼. 나도 슬슬 가 볼까.<end>"
 japanese = "あら、<value:$28>さん、<line-break>いらっしゃいませ。<line-break>何かご用ですか？<end>"
 korean = "어머, <value:$28> 씨, 어서 오세요. 무슨 일이신가요?<end>"
 
+["300107"]
+japanese = "あっ、<value:$28>さん、<line-break>先ほどはどうも<line-break>ありがとうございました。<line-break>今度、お時間があるときに<line-break>ゆっくりお話しさせてください。<end>"
+korean = "아, <value:$28>님. 아까는 정말 감사합니다. 다음에 시간 되실 때 천천히 이야기 나누게 해 주세요.<end>"
+
 ["300120"]
 japanese = "た、たいへん！<line-break>床の穴が広がって…！<end>"
 korean = "크, 큰일이야! 바닥 구멍이 더 커지고 있어…!<end>"
