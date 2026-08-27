@@ -1136,6 +1136,10 @@ korean = "<value:$28>님, 감사합니다.<end>"
 japanese = "あの…<value:$28>様？<end>"
 korean = "저기… <value:$28> 님?<end>"
 
+["1340569"]
+japanese = "あ、<value:$28>様、<line-break>ようこそ、いらっしゃいました。<end>"
+korean = "아, <value:$28>님. 어서 오십시오.<end>"
+
 ["1340572"]
 japanese = "これは、<value:$28>様、<line-break>お帰りなさいませ。<end>"
 korean = "이런, <value:$28>님. 돌아오셨군요.<end>"
@@ -1155,6 +1159,10 @@ korean = "핫!<end>"
 ["1340579"]
 japanese = "別にフゴーの宝物がほしくて<line-break>復興に手を貸しているんじゃないゴブ！<line-break>　<line-break>だから、先を越された…とか、<line-break>全然思ってないゴブ！<end>"
 korean = "후고의 보물이 탐나서 복구를 돕는 게 아니다 고브! 그러니까 선수를 빼앗겼다거나 전혀 생각 안 한다 고브!<end>"
+
+["1340582"]
+japanese = "あ、<value:$28>様、<line-break>ようこそ、いらっしゃいました。<end>"
+korean = "아, <value:$28>님. 어서 오십시오.<end>"
 
 ["1340583"]
 japanese = "えっ？<line-break>私がここにいるのが不思議ですか？<end>"
