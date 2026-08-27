@@ -28,6 +28,14 @@ korean = "하아, 하아, 하아…. ………… 못 들었나!? 혼자 있게 
 japanese = "ちぇっ、バレてたか。<end>"
 korean = "쳇, 들켰나.<end>"
 
+["2570008"]
+japanese = "何の…用だ！？<line-break>見ての通り…取り込み中だ…！<end>"
+korean = "무슨… 용건이지!? 보다시피… 지금 바쁘다…!<end>"
+
+["2570011"]
+japanese = "…去れ。手助けなど無用…！<line-break>要らぬ世話だ…！<end>"
+korean = "…가라. 도움 따윈 필요 없다…! 쓸데없는 참견이다…!<end>"
+
 ["2570012"]
 japanese = "…だとさ。<line-break>どうするよ、<value:$28>？<end>"
 korean = "…그렇다는데. 어떻게 할래, <value:$28>?<end>"

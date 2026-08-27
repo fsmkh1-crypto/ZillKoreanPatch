@@ -36,6 +36,10 @@ korean = "…시, 시끄러워!<end>"
 japanese = "バーカ！<line-break>お前の説教なんか誰が聞くもんか！<end>"
 korean = "바보야! 네 설교 따위 누가 듣냐!<end>"
 
+["2260013"]
+japanese = "あ、コラ、待て。<line-break>話はまだ終わっていないぞ！<end>"
+korean = "아, 이봐, 기다려. 이야기는 아직 안 끝났어!<end>"
+
 ["2260017"]
 japanese = "どうする、<value:$28>？<end>"
 korean = "어떻게 할래, <value:$28>?<end>"

@@ -64,6 +64,10 @@ korean = "<value:$28>. 생일 축하해.<end>"
 japanese = "よーし、記念に、<line-break><value:$28>の歌を作るよ。<end>"
 korean = "좋아, 기념으로 <value:$28>의 노래를 만들게.<end>"
 
+["2580047"]
+japanese = "誕生した日付とは<line-break>祝うべきもの…なのですか？<end>"
+korean = "태어난 날짜라는 건 축하해야 하는 것…입니까?<end>"
+
 ["2580051"]
 japanese = "<value:$28>。<line-break>誕生日おめでとう。<end>"
 korean = "<value:$28>. 생일 축하해.<end>"

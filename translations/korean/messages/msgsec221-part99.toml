@@ -12,6 +12,10 @@ korean = "으아앙, 으아앙!<end>"
 japanese = "どうしたの？<end>"
 korean = "무슨 일이야?<end>"
 
+["2210003"]
+japanese = "迷子のようです。<line-break>泣きやむ様子がありません。<end>"
+korean = "길을 잃은 모양입니다. 울음을 그칠 기미가 없습니다.<end>"
+
 ["2210004"]
 japanese = "この子はどうして泣いているのですか？<end>"
 korean = "이 아이는 왜 울고 있는 건가요?<end>"
@@ -23,6 +27,10 @@ korean = "자, 남자아이가 함부로 우는 거 아니야. 괜찮아. 내가
 ["2210009"]
 japanese = "うん、約束するよ。<end>"
 korean = "응, 약속할게.<end>"
+
+["2210010"]
+japanese = "ってなわけだから、<line-break>この子のこと、頼んだよ。<end>"
+korean = "그런 사정이니까 이 아이를 부탁해.<end>"
 
 ["2210011"]
 japanese = "さ、行こ、<value:$28>。<end>"
