@@ -1092,6 +1092,10 @@ korean = "무사하냐, <value:$28>?<end>"
 japanese = "…見えなければ、よかった。<end>"
 korean = "…보이지 않았다면 좋았을 텐데.<end>"
 
+["1360716"]
+japanese = "生まれなければよかった。<line-break>苦しまずにすんだのに！<end>"
+korean = "태어나지 않았으면 좋았을 텐데. 그랬으면 괴롭지도 않았을 텐데!<end>"
+
 ["1360721"]
 japanese = "こんな醜い世界…<line-break>見なければ良かった…。<line-break>知らなければ良かった…。<line-break>全てを無に還すの。<end>"
 korean = "이런 추악한 세상… 보지 말았어야 했어…. 몰랐어야 했어…. 모든 것을 무로 돌릴 거야.<end>"
@@ -1171,6 +1175,10 @@ korean = "바롤 님의 성, 폐성의 왕좌로 향하셨다.<end>"
 ["1360763"]
 japanese = "お前たちの作った神…<line-break>出してもらおうか。<end>"
 korean = "너희가 만든 신… 내놓아 봐.<end>"
+
+["1360765"]
+japanese = "…それが運命だと言うのであれば、<line-break>あらがうまで！<end>"
+korean = "…그게 운명이라면 끝까지 거슬러 주겠어!<end>"
 
 ["1360766"]
 japanese = "うふふ…。<line-break>神を斬ろうだなんて？<line-break>本当に破壊の化身なのね？<line-break>だけど、<line-break>そうは…いかない！<end>"
