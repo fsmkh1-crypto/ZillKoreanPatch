@@ -832,6 +832,10 @@ korean = "…그, 그래도 괜찮아요? 제가 <value:$28>님께 폐를 끼칠
 japanese = "え、いえ、その、嫌じゃないですよ！<line-break>すっごく、嬉しいんです。<line-break>嬉しいんですけど…<line-break>本当に、わたしが一緒で<line-break>いいんですか？<end>"
 korean = "아, 아니, 싫은 건 아니에요! 정말 기뻐요. 기쁘긴 한데… 정말 제가 함께해도 괜찮나요?<end>"
 
+["1920248"]
+japanese = "そ、それでは、<line-break>お言葉に甘えさせて<line-break>もらっちゃおうかな…。　　　　　<line-break>わたしがもっとしっかりするように<line-break>なれば、カフィンもレイヴンも<line-break>また会ってくれるかもしれないし。<end>"
+korean = "그, 그럼 말씀에 기대 볼까…. 내가 좀 더 제대로 하게 되면 카핀도 레이븐도 다시 만나 줄지도 모르니까.<end>"
+
 ["1920249"]
 japanese = "<value:$28>さん、<line-break>わたし、一生懸命がんばりますから<line-break>これから、よろしくお願いします！<end>"
 korean = "<value:$28>님, 저 열심히 할 테니 앞으로 잘 부탁드려요!<end>"

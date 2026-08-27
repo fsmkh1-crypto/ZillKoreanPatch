@@ -124,6 +124,10 @@ korean = "주작장군 앙길단은 로스토올군을 괴멸시키자 추격을
 japanese = "　<line-break>　　帝国軍は、この事実をまだ知らなかった。　<end>"
 korean = "제국군은 아직 이 사실을 알지 못했다.<end>"
 
+["1620042"]
+japanese = "…と、総司令閣下は自刃なされ、<line-break>ロストール貴族にふさわしい<line-break>見事な最期を遂げられました。<end>"
+korean = "…그렇게 총사령관 각하께서는 자결하시어 로스토올 귀족다운 훌륭한 최후를 맞으셨습니다.<end>"
+
 ["1620043"]
 japanese = "見事ねぇ…。<end>"
 korean = "훌륭하네….<end>"
@@ -283,6 +287,10 @@ korean = "앞으로도 로스토올을 잘 지탱해 주길 바란다. 기대하
 ["1620093"]
 japanese = "やれやれ、肩がこった。<line-break>大げさな式典だったな。<line-break>　<line-break>お互い、これから<line-break>めんどくさいことになりそうだ。<line-break>それじゃあな。<end>"
 korean = "아이고, 어깨야. 거창한 식전이었군. 우리 둘 다 앞으로 귀찮아질 것 같네. 그럼 이만.<end>"
+
+["1620094"]
+japanese = "ならば、用意をすませてから、<line-break>もう一度ここに来るがよい。<line-break>傭兵の集合場所に案内してやる。<end>"
+korean = "그렇다면 준비를 마친 뒤 다시 여기로 와라. 용병 집결지로 안내해 주지.<end>"
 
 ["1620095"]
 japanese = "<value:$28>さま、<line-break>お捜しいたしておりました。<line-break>至急、王宮へ。<line-break>緊急のご用件で、<line-break>エリス王妃がお呼びです。<end>"

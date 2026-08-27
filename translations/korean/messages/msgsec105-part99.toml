@@ -12,6 +12,10 @@ korean = "그 건 말입니다….<end>"
 japanese = "アンティノおじさま、<line-break>突然、お訪ねして、すみません。<line-break>ひとつお尋ねしたいことがあって…。<end>"
 korean = "안티노 아저씨, 갑자기 찾아와서 죄송해요. 하나 여쭤볼 게 있어서요….<end>"
 
+["1050006"]
+japanese = "なんでも答えよう。<line-break>お前は我が親友ロティの娘だからな。<line-break>どうしたのだ、クリュセイス？<end>"
+korean = "무엇이든 답해 주지. 넌 내 절친 로티의 딸이니까. 무슨 일이냐, 크류세이스?<end>"
+
 ["1050007"]
 japanese = "…おじさま。<line-break>先日、わたくしは何者かに　<line-break>命を狙われました。<line-break>幸いにも<value:$28>が<line-break>かけつけてくれたので、<line-break>無事でしたが…。<end>"
 korean = "…아저씨. 얼마 전 저는 누군가에게 목숨을 노림받았습니다. 다행히 <value:$28>이 달려와 줘서 무사했지만….<end>"

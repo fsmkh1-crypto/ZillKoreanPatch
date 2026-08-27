@@ -124,6 +124,10 @@ korean = "<value:$28>, 잘했다. 자네가 최고 공훈자다! 이 공적으�
 japanese = "ひざまづくがよい。<end>"
 korean = "무릎을 꿇어라.<end>"
 
+["590049"]
+japanese = "我、朱雀将軍アンギルダンは<line-break>皇帝ネメア・ランガスターの　　　　<line-break>代理として<line-break>戦場のことゆえ略式ではあるが、<line-break>汝、<value:$28>を<line-break>ディンガル帝国黒鎧騎士に叙任する。<end>"
+korean = "나 주작 장군 앙길단은 황제 네메아 랑가스터를 대신하여, 전장인 까닭에 약식이지만 그대 <value:$28>를 딩갈 제국 흑개 기사에 임명한다.<end>"
+
 ["590050"]
 japanese = "スキル<line-break>グロリアシルドを手に入れた。<end>"
 korean = "스킬 글로리아 실드를 손에 넣었다.<end>"
