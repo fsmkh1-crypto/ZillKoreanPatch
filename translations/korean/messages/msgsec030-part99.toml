@@ -396,6 +396,10 @@ korean = "아, <value:$28>님. 아까는 정말 감사합니다. 다음에 시�
 japanese = "ちょっと、<value:$28>。<line-break>どこに行くつもり？<line-break>まだ聖杯を取り戻してないわよ。<line-break>ここまで来て怖じ気づいたなんて<line-break>言わないわよね？<line-break>しっかりしてよ、<value:$28>。<end>"
 korean = "잠깐, <value:$28>. 어디 가려는 거야? 아직 성배를 되찾지 못했잖아. 여기까지 와서 겁먹었다고 하진 않겠지? 정신 차려, <value:$28>.<end>"
 
+["300116"]
+japanese = "ん？　どうしたんだ？<line-break>さっき、お前の幼なじみが来たから、<line-break>聖杯とゴブリンの話はしておいたぞ。<line-break>今ごろ、門の辺りで待ってるだろう。<line-break>早く行ってやんな。<line-break>　<end>"
+korean = "응? 왜 그래? 아까 네 소꿉친구가 왔길래 성배와 고블린 이야기는 해 뒀어. 지금쯤 문 근처에서 기다리고 있겠지. 빨리 가 봐.<end>"
+
 ["300117"]
 japanese = "うわぁ。すごい大きな穴。<line-break>それに天井まで崩れてるわ。<line-break>この辺りは地盤がもろいみたいね。<line-break><value:$28>、<line-break>近づきすぎて落ちたりしないでよ？<line-break>　<end>"
 korean = "우와. 정말 큰 구멍이네. 천장까지 무너졌어. 이 근처 지반이 약한가 봐. <value:$28>, 너무 가까이 갔다가 떨어지지 마?<end>"

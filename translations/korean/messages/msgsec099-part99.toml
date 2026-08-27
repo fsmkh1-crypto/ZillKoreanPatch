@@ -408,6 +408,10 @@ korean = "로스토올의 장군, <value:$28>! 이런 곳에서 뭘 하고 있�
 japanese = "<value:$28>、何の用かしら？<line-break>あなたも、青竜軍に加わりたいの？<line-break>　<line-break>それなら、私がカルラ様との間を<line-break>取り持ってあげるわ。<line-break>あなたなら立派な騎士になるもの。<end>"
 korean = "<value:$28>, 무슨 일이야? 너도 청룡군에 들어오고 싶어? 그렇다면 내가 카를라 님과 연결해 줄게. 너라면 훌륭한 기사가 될 테니까.<end>"
 
+["990134"]
+japanese = "そう、残念ね。あなたと私がいれば、<line-break>青竜軍もますます強くなれるのに。<line-break>　<line-break>あなたも、早く、落ち着ける場所が<line-break>見つかるといいわね。<line-break>それじゃあね、<value:$28>。<end>"
+korean = "그래, 아쉽네. 너와 내가 함께라면 청룡군도 더욱 강해질 텐데. 너도 빨리 마음 놓고 머물 곳을 찾으면 좋겠어. 그럼 잘 있어, <value:$28>.<end>"
+
 ["990135"]
 japanese = "<value:$28>、どうしたの？<line-break>私に用？　それともカルラ様？<end>"
 korean = "<value:$28>, 왜 그래? 나한테 볼일이야? 아니면 칼라 님?<end>"
