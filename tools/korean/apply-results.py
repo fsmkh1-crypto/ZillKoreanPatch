@@ -10,7 +10,8 @@ The compact sequential form expands IDs from start and keeps large GPT result
 packets small. Canonical Japanese is always loaded locally. Fixed runtime
 controls are validated after expansion. ``<line-break>`` is forbidden in the
 translator-owned ``korean`` field because wrapping belongs only in generated
-``layout`` metadata.
+``layout`` metadata. Historical recovery sources are normalized by removing
+legacy ``<line-break>`` layout markers before semantic validation.
 
 Historical recovery rows are deliberately fail-safe: the historical packet is
 read from Git history, but an already-existing canonical Korean translation is
@@ -189,6 +190,10 @@ def historical_rows(obj: dict, input_path: Path, lineno: int):
             )
         origin = f"{commit}:{path}:{source_lineno}"
         for section, rid, ko in expanded_rows(historical, source_label, source_lineno):
+            # Recovery packets may predate the semantic/layout split. Layout
+            # markers are deterministic presentation metadata, not translation
+            # meaning, so normalize them only on the historical recovery path.
+            ko = ko.replace(LINE_BREAK, "")
             yield section, rid, ko, True, origin
 
 
