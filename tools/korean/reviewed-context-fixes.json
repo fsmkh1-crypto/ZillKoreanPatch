@@ -14,5 +14,7 @@
   "690047": {"old":"그런데 무한의 소울을 가진 자라…. 용왕이 깨어나고, 어둠의 문이 열리고, 그리고 무한의 소울의 주인이 나타난다….<end>","new":"그나저나 무한의 소울을 지닌 자라…. 용왕이 깨어나고 어둠의 문이 열리며, 무한의 소울을 지닌 자가 나타난다….<end>","reason":"Same Orpheus reflection as 420224; normalize both copies to a single natural rendering."},
   "420019": {"old":"그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만시체를 붙잡고 캐물을 수도 없으니.<end>","new":"그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만 시체를 붙잡고 캐물을 수도 없으니.<end>","reason":"Obvious missing space in a continuous sentence."},
   "420032": {"old":"훗…, 농담도 지나치십니다. 그는 유능한 남자였습니다. 실제로 지금까지,볼보라의 뒤를 맡길 사람이없어서 골머리를 앓고 있었습니다.<end>","new":"훗…, 농담도 지나치십니다. 그는 유능한 남자였습니다. 실제로 지금까지 볼보라의 뒤를 맡길 사람이 없어서 골머리를 앓고 있었습니다.<end>","reason":"Obvious missing spaces and stray comma in the same sentence."},
-  "460165": {"old":"아마 이 아이는 도움이 될 거예요.<end>","new":"아마 이 아이는 도움이 될 겁니다.<end>","reason":"Exact tutorial reuse as 420198, with identical preceding and following lines and the same formal speaker voice."}
+  "460165": {"old":"아마 이 아이는 도움이 될 거예요.<end>","new":"아마 이 아이는 도움이 될 겁니다.<end>","reason":"Exact tutorial reuse as 420198, with identical preceding and following lines and the same formal speaker voice."},
+  "430057": {"old":"그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만시체를 붙잡고 캐물을 수도 없으니.<end>","new":"그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만 시체를 붙잡고 캐물을 수도 없으니.<end>","reason":"Exact replay of 420019 in the same Remon and queen scene; mirror the corrected spacing."},
+  "430070": {"old":"훗… 농담도. 그는 유능한 남자였습니다. 실제로 지금까지 볼보라의 뒤를 맡길 사람이 없어 골머리를 앓고 있었습니다.<end>","new":"훗…, 농담도 지나치십니다. 그는 유능한 남자였습니다. 실제로 지금까지 볼보라의 뒤를 맡길 사람이 없어서 골머리를 앓고 있었습니다.<end>","reason":"Exact replay of 420032 in the same Remon and queen scene; preserve Remon's formal register and corrected spacing."}
 }
