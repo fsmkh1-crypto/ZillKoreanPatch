@@ -7,6 +7,8 @@ on:
     paths:
       - tools/korean/qa-apply-reviewed-context-json.py
       - tools/korean/reviewed-context-fixes*.json
+      - tools/korean/qa-consistency.py
+      - tools/korean/qa-consistency-exceptions.json
       - .github/workflows/korean-qa-reviewed-context.yml
   workflow_dispatch:
 
@@ -45,10 +47,13 @@ jobs:
           t=json.load(open('/tmp/terms.json',encoding='utf-8'))
           s=json.load(open('/tmp/sanity.json',encoding='utf-8'))
           critical=i.get('critical',[]); cc=len(critical) if isinstance(critical,list) else int(critical or 0)
-          print(f"QA-3: groups {b['inconsistent_groups']}->{a['inconsistent_groups']}; records {b['inconsistent_records']}->{a['inconsistent_records']}")
+          print(f"QA-3 raw: groups {b['inconsistent_groups']}->{a['inconsistent_groups']}; records {b['inconsistent_records']}->{a['inconsistent_records']}")
+          print(f"QA-3 actionable: groups={a['actionable_inconsistent_groups']} records={a['actionable_inconsistent_records']}; contextual exceptions={a['contextual_exception_groups']}")
           print(f"QA-1 critical={cc} QA-2 mismatch={t['mismatch_count']} sanity={s['finding_count']}")
           if a['inconsistent_groups'] > b['inconsistent_groups'] or a['inconsistent_records'] > b['inconsistent_records']:
-              raise SystemExit('QA-3 regressed')
+              raise SystemExit('QA-3 raw consistency regressed')
+          if a['actionable_inconsistent_groups'] != 0 or a['actionable_inconsistent_records'] != 0:
+              raise SystemExit('QA-3 still has actionable inconsistencies')
           if cc != 0 or t['mismatch_count'] != 0 or s['finding_count'] != 0:
               raise SystemExit('validation failed')
           PY
