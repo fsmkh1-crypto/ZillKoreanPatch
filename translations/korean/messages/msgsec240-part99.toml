@@ -8,6 +8,10 @@ korean = "PSP용 신규 시작 이벤트03용 시작<end>"
 japanese = "この感覚……無限のソウル…。<end>"
 korean = "이 감각……무한의 소울….<end>"
 
+["2400005"]
+japanese = "あっ、ごめんなさい。<line-break>あなたがわたしの知り合いに<line-break>似てたから…。<line-break>その人のことを<line-break>ちょっと思い出しちゃって…。<end>"
+korean = "아, 미안해요. 당신이 아는 사람을 닮아서…. 그 사람 생각이 좀 나 버렸어요….<end>"
+
 ["2400006"]
 japanese = "ふーん、あなた<line-break><value:$28>っていうんだ。<end>"
 korean = "흐응, 네 이름이 <value:$28>구나.<end>"

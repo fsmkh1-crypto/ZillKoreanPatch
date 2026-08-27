@@ -40,6 +40,10 @@ korean = "그렇군, 모험자인가. 그럼 잘 가거라, <value:$28>. 여행�
 japanese = "兵に代わって礼をいう。<line-break>この通りじゃ。<end>"
 korean = "병사들을 대신해 감사를 표하네. 이렇게 부탁하네.<end>"
 
+["1710019"]
+japanese = "朱雀将軍アンギルダン。<line-break>…君には失望させられた。<end>"
+korean = "주작장군 앙길단. …그대에게는 실망했다.<end>"
+
 ["1710025"]
 japanese = "はい。<end>"
 korean = "네.<end>"
@@ -128,9 +132,21 @@ korean = "아, 앙길단 장군…!<end>"
 japanese = "赤い…鎧…。<line-break>アンギルダン様…。<end>"
 korean = "붉은… 갑옷…. 앙길단 님….<end>"
 
+["1710073"]
+japanese = "いや、何か懐かしい感じのする<line-break>娘じゃったのでな。<end>"
+korean = "아니, 어쩐지 그리운 느낌이 드는 아가씨여서 말이지.<end>"
+
+["1710074"]
+japanese = "ば、バカなことを申すな！<line-break>そら、本陣に戻るぞっ。<end>"
+korean = "바, 바보 같은 소리 마라! 자, 본진으로 돌아가자.<end>"
+
 ["1710082"]
 japanese = "フハハハハ。<line-break>では、またな。<end>"
 korean = "후하하하하. 그럼 또 보자.<end>"
+
+["1710084"]
+japanese = "先日の娘か…。<line-break>老いぼれの昔話、聞く気があるか？<end>"
+korean = "며칠 전 그 아가씨인가…. 늙은이의 옛날이야기를 들어 볼 텐가?<end>"
 
 ["1710095"]
 japanese = "ああ、本当に<line-break>いい天気ですこと。<end>"

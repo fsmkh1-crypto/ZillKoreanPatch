@@ -144,6 +144,10 @@ korean = "<value:$28>님!!<end>"
 japanese = "<value:$28>様！<line-break>エステル様が、エステル様が！<line-break>　<line-break>シャリという魔術師に<line-break>さらわれてしまいました！<end>"
 korean = "<value:$28>님! 에스텔 님이, 에스텔 님이! 샤리라는 마술사에게 납치됐습니다!<end>"
 
+["890098"]
+japanese = "我々がいつものように<line-break>エステル様を迎えに行った<line-break>その目の前で……！　　　　　　<line-break>我ながら、なんという…失態…！<end>"
+korean = "우리가 평소처럼 에스텔 님을 모시러 갔는데 바로 눈앞에서……! 나도 참, 무슨… 실태를…!<end>"
+
 ["890099"]
 japanese = "もはや、頼みの綱は<line-break><value:$28>様だけなのです！！<end>"
 korean = "이제 의지할 분은 <value:$28>님뿐입니다!!<end>"
@@ -731,6 +735,10 @@ korean = "…아니, 그건 당신이 가장 잘 알고 있는 일이겠죠, <va
 ["890404"]
 japanese = "<value:$28>、そろそろだ。<end>"
 korean = "<value:$28>, 슬슬 때가 됐다.<end>"
+
+["890405"]
+japanese = "…父よ、何と言おうが、<line-break>あの時死なんとしていた私を救い、<line-break>育ててくれたのは、あなただ。<line-break>そのことには感謝している。<end>"
+korean = "…아버지여, 무슨 말을 하든 그때 죽으려던 나를 구하고 키워 준 건 당신이다. 그 점은 감사하고 있다.<end>"
 
 ["890406"]
 japanese = "しかし、この旅に出れば、<line-break>もうあなたには…<end>"

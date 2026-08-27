@@ -408,6 +408,10 @@ korean = "어!?<end>"
 japanese = "ん？<line-break>どうした、<value:$28>？<end>"
 korean = "응? 왜 그래, <value:$28>?<end>"
 
+["310233"]
+japanese = "地震か…？<line-break>反乱に反逆に地震と立て続けとは<line-break>忙しいことだな。<line-break>次はロストールが滅びるか？<line-break>破壊神でも目覚めるか？<end>"
+korean = "지진인가…? 반란에 반역에 지진까지 연달아 바쁘기도 하군. 다음엔 로스토올이 멸망하나? 파괴신이라도 깨어나나?<end>"
+
 ["310234"]
 japanese = "…フフ、まさかな。<line-break>さ、行くぞ。<end>"
 korean = "…후후, 설마. 자, 가자.<end>"

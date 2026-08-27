@@ -204,6 +204,10 @@ korean = "다치면 돌아오거라.<end>"
 japanese = "ここはお任せください。<end>"
 korean = "여기는 맡겨주십시오.<end>"
 
+["1900124"]
+japanese = "なんとしてもエンシャントを<line-break>取り戻してください！<end>"
+korean = "어떻게 해서든 엔샨트를 되찾아 주세요!<end>"
+
 ["1900125"]
 japanese = "大丈夫だった、<line-break><value:$28>？<end>"
 korean = "괜찮았어, <value:$28>?<end>"
@@ -223,6 +227,10 @@ korean = "다치면 돌아오거라.<end>"
 ["1900129"]
 japanese = "ここはお任せください。<end>"
 korean = "여기는 맡겨주십시오.<end>"
+
+["1900130"]
+japanese = "なんとしてもエンシャントを<line-break>取り戻してください！<end>"
+korean = "어떻게 해서든 엔샨트를 되찾아 주세요!<end>"
 
 ["1900132"]
 japanese = "また会いにいらしてください。　<line-break>　<line-break>　<line-break><value:$28>様とお話しする<line-break>ことができれば、ティアナは<line-break>それだけで安心できるのです。<end>"

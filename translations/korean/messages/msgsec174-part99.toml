@@ -136,6 +136,10 @@ korean = "바꿀 수 없다고?<end>"
 japanese = "それは自身で確かめるのじゃ。<line-break>そなたらはそなたらとして戦い、<line-break>求めるがよい。<line-break>さらばじゃ、強き魂たちよ。<end>"
 korean = "그건 스스로 확인하거라. 너희는 너희답게 싸우고 구하도록 해라. 잘 있어라, 강한 영혼들이여.<end>"
 
+["1740069"]
+japanese = "できれば、あなたたちも<line-break>ついてきてくれませんか？<end>"
+korean = "가능하면 당신들도 함께 와 주시겠어요?<end>"
+
 ["1740074"]
 japanese = "…遅かった、です。<end>"
 korean = "…늦었어요.<end>"
@@ -199,6 +203,10 @@ korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
 ["1740100"]
 japanese = "あら、<value:$28>。<line-break>…ダークエルフの女と一緒に<line-break>何しに来たの。<end>"
 korean = "어머, <value:$28>. …다크 엘프 여자와 함께 무슨 일로 온 거야.<end>"
+
+["1740101"]
+japanese = "…ケリュネイア、<line-break>あなたの弓を譲ってもらいたい。<end>"
+korean = "…케류네이아, 네 활을 넘겨받고 싶어.<end>"
 
 ["1740105"]
 japanese = "なんですって！<line-break>私の腕があなたに劣るというの！？<end>"

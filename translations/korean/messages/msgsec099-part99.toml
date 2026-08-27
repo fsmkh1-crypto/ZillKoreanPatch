@@ -40,6 +40,10 @@ korean = "아아, <value:$28>과 같이 밥 먹고 싶었는데. 뭐, 됐어. �
 japanese = "何か…、すごい格好を<line-break>なさってる方ですね。<line-break>　<line-break>スタイルはいいし、<line-break>肌もきれいだし、<line-break>かわいい感じの方ですけど…。<end>"
 korean = "뭔가… 굉장한 차림을 하신 분이네요. 몸매도 좋고 피부도 깨끗하고 귀여운 느낌이긴 한데….<end>"
 
+["990019"]
+japanese = "あ、<value:$28>だ。<line-break>声をかけようかな…。<line-break>そうしよっと！<line-break>あ、<value:$28>、<line-break>とっても、会いたかったの。<line-break>　<end>"
+korean = "아, <value:$28>이다. 말 걸어 볼까…. 그래야지! 아, <value:$28>, 정말 보고 싶었어.<end>"
+
 ["990021"]
 japanese = "じゃ、私、行くわね。<end>"
 korean = "그럼 나, 갈게.<end>"

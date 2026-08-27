@@ -108,6 +108,10 @@ korean = "엥? 왜?<end>"
 japanese = "この方が乗っているからです。<end>"
 korean = "이분이 타고 있기 때문입니다.<end>"
 
+["370045"]
+japanese = "<value:$28>が乗ってたら、<line-break>な、なんで、大丈夫なのよ。<end>"
+korean = "<value:$28>이 타고 있으면 왜, 왜 괜찮은 건데.<end>"
+
 ["370046"]
 japanese = "フフ、そうよね。<line-break>海王、様…。<end>"
 korean = "후후, 그렇지. 해왕 님….<end>"
@@ -316,6 +320,10 @@ korean = "네.<end>"
 japanese = "で、どうすんだい。<line-break><value:$28>？<end>"
 korean = "그래서, 어떻게 할 거야, <value:$28>?<end>"
 
+["370130"]
+japanese = "行っといで、<value:$28>。<line-break>あとのことなら、大丈夫さ。<end>"
+korean = "다녀와, <value:$28>. 뒤는 걱정하지 마.<end>"
+
 ["370132"]
 japanese = "それが筋ってもんだろ？　　　　　<line-break>　　<line-break><end>"
 korean = "그게 도리라는 거잖아?<end>"
@@ -371,6 +379,10 @@ korean = "그런 말 해도, 선장~!<end>"
 ["370169"]
 japanese = "バカやろ。　　　　　　　　　　<end>"
 korean = "바보 자식.<end>"
+
+["370172"]
+japanese = "バカやろ、逃げるんだ。逃げろ。おい！<line-break><value:$28>！！<end>"
+korean = "바보야, 도망쳐! 도망가! 야! <value:$28>!!<end>"
 
 ["370173"]
 japanese = "なんじゃ。すべてはそちが元凶か。<end>"

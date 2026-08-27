@@ -56,9 +56,17 @@ korean = "이 몸은….<end>"
 japanese = "それが答え？<line-break>愚かすぎるよ。<end>"
 korean = "그게 답이야? 너무 어리석군.<end>"
 
+["1330054"]
+japanese = "エア、シャリのねらいはなんなの？<line-break>空中都市って？<end>"
+korean = "에아, 샤리의 목적은 뭐야? 공중도시라니?<end>"
+
 ["1330064"]
 japanese = "愚かな…。<line-break>そなたらは運命に抗えると思うのか？<end>"
 korean = "어리석군…. 너희는 운명에 맞설 수 있다고 생각하나?<end>"
+
+["1330066"]
+japanese = "わらわは天地千年を見通す…。<line-break>すべては運命じゃ。<end>"
+korean = "나는 천년의 세월을 내다본다…. 모든 것은 운명이다.<end>"
 
 ["1330068"]
 japanese = "フフ……そなたとでは話にならんな。<line-break><value:$28>よ、どうする？<line-break>そなたも行くなどと申すのか？<end>"
@@ -348,6 +356,10 @@ korean = "글쎄요? 이제 네메아에게 달렸습니다. 이 아이의 정�
 japanese = "ともかく、<line-break>今は猫屋敷に戻りましょう。<end>"
 korean = "아무튼 지금은 고양이 저택으로 돌아가죠.<end>"
 
+["1330258"]
+japanese = "あーあ、らしくないよねー。<line-break> <line-break> <line-break>このカルラさんが、ここまで<line-break>コテンパンにやられちゃう<line-break>なんてさー。<end>"
+korean = "아아, 나답지 않네. 이 칼라 님이 이렇게 철저하게 당해 버리다니.<end>"
+
 ["1330259"]
 japanese = "全軍、ハンカチ噛みつつ、退却ー！<end>"
 korean = "전군, 손수건을 깨물며 후퇴~!<end>"
@@ -560,6 +572,10 @@ korean = "사람은 운명에 거스를 수 없어. 벨제바….<end>"
 japanese = "…見えなければ、よかった。<end>"
 korean = "…보이지 않았다면 좋았을 텐데.<end>"
 
+["1330362"]
+japanese = "生まれなければよかった。<line-break>苦しまずにすんだのに！<end>"
+korean = "태어나지 않았으면 좋았을 텐데. 그랬으면 괴롭지도 않았을 텐데!<end>"
+
 ["1330376"]
 japanese = "驚いたかい？<line-break>強大な闇の巨人が世界中を襲ってるのさ。<line-break>でも、これはほんの序の口<line-break>ここからが本番だ。<end>"
 korean = "놀랐어? 강대한 어둠의 거인들이 온 세상을 습격하고 있지. 하지만 이건 시작일 뿐이야. 이제부터가 진짜다.<end>"
@@ -671,6 +687,14 @@ korean = "아… <value:$28>님…. 와 주셨군요….<end>"
 ["1330460"]
 japanese = "…魔王バロルはどこだ？<end>"
 korean = "…마왕 바로르는 어디 있지?<end>"
+
+["1330465"]
+japanese = "そして、あなたは永遠に<line-break>私を拒絶できなくなる…！<end>"
+korean = "그리고 당신은 영원히 나를 거부할 수 없게 돼…!<end>"
+
+["1330469"]
+japanese = "…それが運命だと言うのであれば、<line-break>あらがうまで！<end>"
+korean = "…그게 운명이라면 끝까지 거슬러 주겠어!<end>"
 
 ["1330470"]
 japanese = "うふふ…。<line-break>あらがっても苦しむだけなのに…<end>"
@@ -915,6 +939,10 @@ korean = "카핀은 물러나 있어.<end>"
 ["1330608"]
 japanese = "…ノエル。<end>"
 korean = "…노엘.<end>"
+
+["1330609"]
+japanese = "俺の実の母の…母親…が…<line-break>カフィンだっただと…？<end>"
+korean = "내 친어머니의… 어머니가… 카핀이었다고…?<end>"
 
 ["1330611"]
 japanese = "あえて祖母とは呼ばぬ。<end>"

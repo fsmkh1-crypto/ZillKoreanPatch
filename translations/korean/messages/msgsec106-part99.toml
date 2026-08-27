@@ -52,6 +52,10 @@ korean = "아앙, 정말! 진짜 안 된다니까!<end>"
 japanese = "そんなに固いこと言わなくてもいいと　<line-break>思うけどなぁ。ぼくは<value:$28><line-break>のことを心配してるんだよ？<end>"
 korean = "그렇게 딱딱하게 굴 필요는 없잖아. 난 <value:$28>이 걱정돼서 그러는 거야.<end>"
 
+["1060064"]
+japanese = "はぁ…。<line-break>ぼくって<line-break>どうして理解されないんだろ…。　<line-break>さびしいなぁ。<value:$28>も<line-break>わかってくれないなんて…。<end>"
+korean = "하아…. 난 왜 이렇게 이해받지 못할까…. 외롭다. <value:$28>마저 이해해 주지 않다니….<end>"
+
 ["1060068"]
 japanese = "解放軍本部の場所を密告する<end>"
 korean = "해방군 본부 위치를 밀고한다<end>"

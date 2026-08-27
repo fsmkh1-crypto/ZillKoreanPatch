@@ -204,6 +204,10 @@ korean = "어때? 딘갈의 황제가 되어 보지 않을래?<end>"
 japanese = "頼りにしてるわよ<end>"
 korean = "믿고 있을게<end>"
 
+["850116"]
+japanese = "あーら、残念ねーえ？<line-break>ま、いいわ。<line-break>アタシ、待ってるから。　<line-break>その気になったら<line-break>いつでも来てちょうだい。<end>"
+korean = "어머, 아쉽네? 뭐, 좋아. 난 기다릴 테니까 마음이 내키면 언제든 와.<end>"
+
 ["850118"]
 japanese = "<value:$28>様でありますね。<line-break>総督から伺っております。<line-break>どうぞ、お通りください！<end>"
 korean = "<value:$28>님이시군요. 총독께 들었습니다. 지나가십시오!<end>"
@@ -219,6 +223,10 @@ korean = "어때? 딘갈의 황제가 되어 보지 않을래?<end>"
 ["850146"]
 japanese = "頼りにしてるわよ<end>"
 korean = "믿고 있을게<end>"
+
+["850147"]
+japanese = "あらん、また振られちゃったわけね。<line-break>ま、いいわ。アタシ、待ってるから。<line-break>その気になったら<line-break>いつでも来てちょうだい。<end>"
+korean = "어머, 또 차였나 보네. 뭐, 좋아. 난 기다릴 테니까 마음이 내키면 언제든 와.<end>"
 
 ["850149"]
 japanese = "はっ！　<value:$28>様<line-break>どうぞ、お通りください！<end>"
