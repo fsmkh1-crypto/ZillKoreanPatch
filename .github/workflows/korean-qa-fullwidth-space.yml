@@ -1,0 +1,60 @@
+name: Korean QA full-width space cleanup
+
+on:
+  push:
+    paths:
+      - 'tools/korean/qa-fix-fullwidth-space.py'
+      - '.github/workflows/korean-qa-fullwidth-space.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: translation/section001-batch2
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+      - name: Baseline sanity report
+        run: python3 tools/korean/qa-text-sanity.py --json /tmp/before-sanity.json --max-examples 0
+      - name: Normalize Korean full-width prose spaces
+        run: python3 tools/korean/qa-fix-fullwidth-space.py
+      - name: Validate normalized corpus
+        run: |
+          ./zill korean-check
+          ./zill korean-font-check
+          python3 tools/korean/qa-integrity.py --json /tmp/integrity.json --max-examples 20
+          python3 tools/korean/qa-terminology.py --json /tmp/terms.json --max-examples 20
+          python3 tools/korean/qa-consistency.py --json /tmp/consistency.json --max-examples 20
+          python3 tools/korean/qa-text-sanity.py --json /tmp/after-sanity.json --max-examples 40
+          python3 - <<'PY'
+          import json
+          b=json.load(open('/tmp/before-sanity.json', encoding='utf-8'))
+          a=json.load(open('/tmp/after-sanity.json', encoding='utf-8'))
+          t=json.load(open('/tmp/terms.json', encoding='utf-8'))
+          bf=int(b['finding_by_kind'].get('fullwidth_space_in_korean', 0))
+          af=int(a['finding_by_kind'].get('fullwidth_space_in_korean', 0))
+          tm=int(t['mismatch_count'])
+          print(f'fullwidth-space findings: {bf}->{af}')
+          print(f'canonical terminology mismatches: {tm}')
+          if af > bf:
+              raise SystemExit('full-width cleanup increased residue')
+          if tm != 0:
+              raise SystemExit('full-width cleanup introduced terminology mismatch')
+          PY
+      - name: Commit full-width space cleanup
+        run: |
+          if git diff --quiet -- translations/korean/messages; then
+            echo 'No full-width prose-space fixes needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          git commit -m 'Normalize Korean full-width prose spacing'
+          git push origin HEAD:translation/section001-batch2
