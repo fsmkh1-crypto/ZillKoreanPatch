@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """Conservative QA-3 exact-source and typography consistency fixer.
 
-Reviewed lexical/spacing fixes remain source-gated. Two corpus-wide typography
-repairs are also allowed because they do not change words, register, control
-tokens, or punctuation:
-  * insert one space after ASCII sentence-final .!? when Hangul follows directly
-  * remove trailing ASCII/full-width whitespace immediately before <end>
-Full-width punctuation and internal full-width layout spacing are untouched.
+Reviewed lexical/spacing fixes remain source-gated. Corpus-wide typography
+repairs are limited to punctuation/terminal whitespace and cannot alter words,
+register, control tokens, or punctuation. Internal spacing repairs are allowed
+only for explicitly reviewed Japanese sources and exact suspicious fragments.
 """
 from __future__ import annotations
 
@@ -52,6 +50,18 @@ EXACT_VARIANTS: dict[str, dict[str, str]] = {
     norm_source("冒険者<end>"): {
         "모험자<end>": "모험가<end>",
     },
+}
+
+# Japanese source -> exact Korean substring substitutions. These are reviewed
+# mechanical spacing defects only; the surrounding translation is preserved.
+SOURCE_SUBSTITUTIONS: dict[str, tuple[tuple[str, str], ...]] = {
+    norm_source("君、僕を知らないのか…？それならひとつ忠告しよう。力にすがるのは愚かなことだ。力はただ、より強い力によって叩き伏せられるのみだ。<end>"): (
+        ("의해눌릴", "의해 눌릴"),
+    ),
+    norm_source("究極生物を作ろうとして、その製法を神器、禁断の聖杯から得ようと、聖杯をねらっています。円卓騎士には他にうちのネモなどがいますね。<end>"): (
+        ("만들려고,그", "만들려고, 그"),
+        ("그 밖에도저희", "그 밖에도 저희"),
+    ),
 }
 
 
@@ -105,6 +115,13 @@ def main() -> None:
                 new = canonical
             elif src in EXACT_VARIANTS and ko in EXACT_VARIANTS[src]:
                 new = EXACT_VARIANTS[src][ko]
+
+            for old, replacement in SOURCE_SUBSTITUTIONS.get(src, ()):
+                n = new.count(old)
+                if n:
+                    new = new.replace(old, replacement)
+                    key = f"source-gated:{old}->{replacement}"
+                    counts[key] = counts.get(key, 0) + n
 
             new, glued, trailing = apply_typography(new)
             if glued:
