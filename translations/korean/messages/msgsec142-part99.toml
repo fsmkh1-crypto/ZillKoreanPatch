@@ -20,6 +20,10 @@ korean = "저, 두 분 다 진정하세요….<end>"
 japanese = "いいこと？<line-break>確実な仕事をこなすのよ！<end>"
 korean = "알겠지? 확실하게 일을 끝내는 거야!<end>"
 
+["1420006"]
+japanese = "…やれやれ。<line-break>格好の大胆さに比べて<line-break>考えることは地味なんだな。<end>"
+korean = "…이런 이런. 옷차림의 대담함에 비해 생각은 수수하군.<end>"
+
 ["1420007"]
 japanese = "堅実と言いなさい！　堅実と！<end>"
 korean = "착실하다고 해! 착실하다고!<end>"
@@ -135,6 +139,10 @@ korean = "<value:$28>…. 난 노엘이 슬퍼하는 모습을 보고 싶지 않
 ["1420045"]
 japanese = "君が、いつまでも<line-break>ノエルの憧れの対象であることを<line-break>願っているよ。<end>"
 korean = "네가 언제까지나 노엘이 동경하는 대상이길 바라고 있어.<end>"
+
+["1420046"]
+japanese = "破滅の日は近い。<line-break>その日、神の力は<line-break>すべてを打ち砕くであろう。<end>"
+korean = "파멸의 날은 가깝다. 그날 신의 힘은 모든 것을 부술 것이다.<end>"
 
 ["1420047"]
 japanese = "すべてを投げ捨てよ。<line-break>真の神にのみすがれ。<line-break>神の他に力はない。<line-break>神を信じ、<line-break>神が遣わしたる我を信ずる者こそ<line-break>救われるのだ。<end>"

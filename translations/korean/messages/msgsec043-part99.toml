@@ -400,6 +400,10 @@ korean = "뭐 하는 거야! 약하네. 언제까지 누워 있을 거야.<end>"
 japanese = "まったく、昨日の…アレ…<line-break>いったい、なんなのよぉ！<end>"
 korean = "정말, 어제 그… 그거… 대체 뭐였던 거야!<end>"
 
+["430132"]
+japanese = "待ちなさい。アタクシをおいてくなんて<line-break>下等生物のくせに１００年早くてよぉ！<end>"
+korean = "기다리세요. 이 몸을 두고 가다니 하등생물 주제에 백 년은 일러요!<end>"
+
 ["430133"]
 japanese = "…生きているか。<line-break>ならば、いい。<end>"
 korean = "…살아 있나. 그렇다면 됐다.<end>"
@@ -608,6 +612,10 @@ korean = "아아<end>"
 japanese = "いや<end>"
 korean = "아니<end>"
 
+["430190"]
+japanese = "さようでございますか。<line-break>それは、大変な旅でございましたね。<line-break>　<line-break><value:$28>様、<line-break>あまり、ご無理はなさいませぬよう<line-break>お願い申しあげます。<end>"
+korean = "그러셨군요. 참 힘든 여행이셨겠습니다. <value:$28> 님, 너무 무리하지 않으시길 부탁드립니다.<end>"
+
 ["430192"]
 japanese = "さようでございますか。<line-break>それでは、いってらっしゃいませ。　　<line-break>　<line-break>あまり、ご無理はなさいませぬよう。<line-break>竜王様のご加護が<value:$28>様を<line-break>守りますように。<end>"
 korean = "그렇습니까. 그럼 다녀오십시오. 너무 무리는 하지 마십시오. 용왕님의 가호가 <value:$28> 님을 지켜 주기를.<end>"
@@ -659,6 +667,10 @@ korean = "정말? 그럼 너한테만 비밀을 알려 줄게.<end>"
 ["430207"]
 japanese = "僕ね…、ついに闇の神器のひとつを　<line-break>手に入れたんだ。　　　　　　　　<line-break>　<line-break>その力を使いこなす方法も、<line-break>その仕組みも、<line-break>少しずつわかってきた。<end>"
 korean = "나 말이야… 드디어 어둠의 신기 하나를 손에 넣었어. 그 힘을 쓰는 법도 구조도 조금씩 알게 됐어.<end>"
+
+["430208"]
+japanese = "フフフ。<line-break>僕の話が現実になるのも、<line-break>そう遠い話じゃないかもしれない。<end>"
+korean = "후후후. 내 이야기가 현실이 되는 것도 그리 먼 이야기는 아닐지 몰라.<end>"
 
 ["430209"]
 japanese = "そうだ、君の名前を聞いてもいい？<end>"

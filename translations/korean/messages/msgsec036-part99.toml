@@ -16,6 +16,10 @@ korean = "(역시 엄마는 없어….)<end>"
 japanese = "（遺跡の方へ行く…。<line-break>　…追いかけよう）<end>"
 korean = "(유적 쪽으로 간다….　…뒤쫓자)<end>"
 
+["360005"]
+japanese = "まだ、大丈夫ね…。<line-break>光は日に日に強くなるけど、<line-break>復活の兆しはない…。<end>"
+korean = "아직은 괜찮아…. 빛은 날이 갈수록 강해지지만 부활의 징조는 없어….<end>"
+
 ["360006"]
 japanese = "<value:$28>…。<line-break>ここはお前の来るところではないわ。<line-break>いい？　二度と来ないの。<end>"
 korean = "<value:$28>…. 여긴 네가 올 곳이 아니야. 알겠지? 다시는 오지 마.<end>"
@@ -107,6 +111,10 @@ korean = "…예쁘네.<end>"
 ["360036"]
 japanese = "…知りたがってるね？<end>"
 korean = "…알고 싶어 하지?<end>"
+
+["360038"]
+japanese = "ああ、自己紹介するね。　　　<line-break>僕は東方の博士シャリ。<line-break>　<line-break>そして君は<value:$28>。<line-break>アスティアが１６年前に<line-break>拾った赤ん坊。ウフフアハハ！<end>"
+korean = "아, 자기소개할게. 나는 동방의 박사 샤리. 그리고 넌 <value:$28>. 아스티아가 16년 전에 주운 아기지. 우후후아하하!<end>"
 
 ["360039"]
 japanese = "そーれ。<end>"

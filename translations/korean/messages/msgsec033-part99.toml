@@ -404,6 +404,10 @@ korean = "…로. 왕도로…. …로스토올로….<end>"
 japanese = "バカ野郎！<end>"
 korean = "바보 자식!<end>"
 
+["330127"]
+japanese = "お願い…です。ゼネテスさ…ま…。<line-break>これは…お家…の大事なの…です。<line-break><line-break><value:$28>、頼む…。<line-break>王都…ロス…ト…ルへ行ってくれ。<line-break>早く…。<end>"
+korean = "부탁…이에요. 제네테스 님…. 이건… 집안의… 소중한 거예요…. <value:$28>, 부탁한다…. 왕도… 로스…토…르로 가줘. 빨리….<end>"
+
 ["330128"]
 japanese = "…わかった。<end>"
 korean = "…알았어.<end>"

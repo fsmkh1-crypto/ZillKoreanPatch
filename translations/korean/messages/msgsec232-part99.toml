@@ -80,6 +80,10 @@ korean = "나, 꽤 늘었지?<end>"
 japanese = "ああ、抱腹絶倒、間違いなし！<line-break>これでセラも大笑いさ。<end>"
 korean = "그래, 배꼽 빠지게 웃을 게 틀림없어! 이걸로 세라도 크게 웃겠지.<end>"
 
+["2320023"]
+japanese = "駆け出しの冒険者が、<line-break>ソードを持って、ひと騒動ってな。<line-break>ウププ…。<end>"
+korean = "풋내기 모험자가 소드를 들고 한바탕 소동이라 이거지. 우푸푸….<end>"
+
 ["2320024"]
 japanese = "どう、<value:$28>？<end>"
 korean = "어때, <value:$28>?<end>"

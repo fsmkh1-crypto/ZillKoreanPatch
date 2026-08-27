@@ -472,6 +472,10 @@ korean = "뭐, 뭘 하는 거야! 장로님!!<end>"
 japanese = "くそっ！<line-break>町のみんなのために戦ったのに…！<line-break>あいつら…！<end>"
 korean = "젠장! 마을 사람들을 위해 싸웠는데…! 저 녀석들…!<end>"
 
+["310184"]
+japanese = "<value:$28>！<line-break>逃げて！！<line-break>みんな、君を裏切ったんだ！！<line-break>反乱が知れたら、<line-break>ここに鎮圧軍が攻めてくる。<line-break>それを恐れて責任を君にかぶせて…<end>"
+korean = "<value:$28>! 도망쳐!! 모두가 널 배신했어!! 반란이 알려지면 여기로 진압군이 쳐들어와. 그걸 두려워해 책임을 너에게 떠넘기고…<end>"
+
 ["310185"]
 japanese = "うっ！！<end>"
 korean = "윽!!<end>"
@@ -487,6 +491,10 @@ korean = "레몬?<end>"
 ["310189"]
 japanese = "レムオンって、<line-break>あの斜にかまえた奴？<line-break>あいつが、ここの領主…？<line-break>そして、あのエストって奴が<line-break>レムオンの弟なのか…？<end>"
 korean = "레몬이라면 그 삐딱한 녀석? 그가 여기 영주라고…? 그리고 에스트라는 녀석이 레몬의 동생인가…?<end>"
+
+["310190"]
+japanese = "爺さん、エスト様もやるしかねえよ！<line-break><value:$28>がやったことにするんだ！<end>"
+korean = "할아버지, 에스트 님도 할 수밖에 없어! <value:$28>가 한 일로 만드는 거야!<end>"
 
 ["310191"]
 japanese = "長老…、お前ら…！！<end>"
@@ -639,6 +647,10 @@ korean = "이제 마을에 들어간다. 네 이름으로 중지를 호소해.<e
 ["310250"]
 japanese = "レムオン様。<line-break>あなたの秘密についての密書、<line-break>ボルボラより受け取っております。<line-break>あなたは密書を取り戻さねば破滅。<line-break>反乱にかまっているヒマはない。<end>"
 korean = "레몬 님. 당신의 비밀에 관한 밀서, 볼보라에게서 받았습니다. 밀서를 되찾지 못하면 당신은 파멸합니다. 반란에 신경 쓸 여유는 없습니다.<end>"
+
+["310251"]
+japanese = "それと、<value:$28>さん。<line-break>反乱が表ざたになるのを恐れた<line-break>長老に弟さんが捕まりましたよ。<line-break>急いで助けに行かなければ、<line-break>大変なことになりますよ。<end>"
+korean = "그리고 <value:$28> 씨. 반란이 드러나는 걸 두려워한 장로에게 동생분이 붙잡혔습니다. 서둘러 구하러 가지 않으면 큰일 납니다.<end>"
 
 ["310252"]
 japanese = "奴の言うとおり、<line-break>俺はこの地の領主、<line-break>レムオン・リューガだ。<end>"

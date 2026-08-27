@@ -504,6 +504,10 @@ korean = "그리고 그 아이는 사정이 있으니 눈을 떼지 말라고 �
 japanese = "広場で兵士と<line-break>俺ら町のもんが向き合ってます。<line-break>乱闘寸前でさぁ！<end>"
 korean = "광장에서 병사들과 우리 마을 사람들이 맞서고 있어요. 난투 직전이에요!<end>"
 
+["370144"]
+japanese = "竜の座の奴らには<line-break>普段から頭にきてますからねぇ。<line-break>殺気立ってますぜ！<end>"
+korean = "용의 자리 녀석들은 평소부터 마음에 안 들었거든요. 살기가 넘칩니다!<end>"
+
 ["370145"]
 japanese = "ダメ！　　　　　　　　　　　<line-break>　<line-break>エルズの人たちは、<line-break>エア様の恐ろしさを知らない。<line-break>刃向かっちゃダメ！<end>"
 korean = "안 돼! 엘즈 사람들은 에아 님이 얼마나 무서운지 몰라. 맞서면 안 돼!<end>"
@@ -664,6 +668,10 @@ korean = "네가 남자가 되어 돌아오는 거야!<end>"
 japanese = "フフ、危害は加えぬ。　　　　　　　　<end>"
 korean = "후후, 해치지는 않겠다.<end>"
 
+["370203"]
+japanese = "海王ですらそなたを傷つけることを恐れ<line-break>船を沈めることをとどまったほどじゃ。<end>"
+korean = "해왕조차 그대를 해치는 것을 두려워해 배를 가라앉히는 것을 그만둘 정도였다.<end>"
+
 ["370204"]
 japanese = "破壊神ウルグの円卓騎士メイアが<line-break>その船に乗っておるのを知りながらな。<end>"
 korean = "파괴신 울그의 원탁기사 메이아가 그 배에 타고 있다는 걸 알면서도 말이야.<end>"
@@ -787,6 +795,10 @@ korean = "엘즈의 꽃은 전부 에아 님이 강대한 마력으로 만든 �
 ["370236"]
 japanese = "ありがとう、<line-break>…ほんと、感謝してる。<end>"
 korean = "고마워…. 정말 감사해.<end>"
+
+["370237"]
+japanese = "お目覚めかい？　　　　　　　　　　<line-break><value:$28>。<line-break>風邪ひくといけないから、<line-break>起こそうかとも思ったんだが…<line-break>寝顔見てたら、起こしそびれて…な。<end>"
+korean = "깨어났어? <value:$28>. 감기 들까 봐 깨울까도 했는데… 자는 얼굴을 보고 있으니 깨우지 못했네….<end>"
 
 ["370238"]
 japanese = "他の風の氏族より女子をいれ、<line-break>リア氏族の復興を果たすことこそ、　　<line-break>肝要ぞ。<line-break>例えば、私なぞどうじゃ？<line-break>ヌォホッホッホッホ…！<end>"

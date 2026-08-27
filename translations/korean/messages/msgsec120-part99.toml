@@ -4,6 +4,10 @@
 japanese = "ケリュネイア　Ｖ３　開始<end>"
 korean = "케류네이아 V3 시작<end>"
 
+["1200001"]
+japanese = "父さん、魔王バロルを倒したのは<line-break>なんのためだったの？<line-break>　<line-break>バロルの代わりにネメア兄さんを<line-break>魔王にするためだったの？<line-break>違うでしょう？<end>"
+korean = "아버지, 마왕 바롤을 쓰러뜨린 건 무엇을 위해서였어? 바롤 대신 네메아 형을 마왕으로 만들기 위해서였어? 아니잖아?<end>"
+
 ["1200002"]
 japanese = "そうですねえ。でも、あんまり<line-break>目的意識もなかったですかねえ。<end>"
 korean = "그렇네요. 하지만 딱히 목적의식도 없었던 것 같네요.<end>"

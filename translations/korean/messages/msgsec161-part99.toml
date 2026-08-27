@@ -280,6 +280,10 @@ korean = "그래! 맡아 주겠나! 고맙다. 역시 <value:$2B>답군. 잘 부
 japanese = "そうか！　引き受けてくれるか！<line-break>　<line-break>　<line-break>ありがとよ。<line-break>さすがは<value:$28>だ。<line-break>よろしく頼むぜ。<end>"
 korean = "그래! 맡아 주는 건가! 고맙다. 역시 <value:$28>이군. 잘 부탁해.<end>"
 
+["1610096"]
+japanese = "じゃ、気をつけて冒険を続けてくれ。<line-break>まあ、お前さんなら心配いらんか。<end>"
+korean = "그럼 조심해서 모험을 계속하게. 뭐, 자네라면 걱정할 필요도 없겠군.<end>"
+
 ["1610097"]
 japanese = "あら、また会ったわね。　　　　　　　<line-break>　<line-break>　<line-break>先日話した、乙女の鏡にいる魔物の話、<line-break>引き受けてくれる気になったのかしら？<end>"
 korean = "어머, 또 만났네. 전에 말한 소녀의 거울에 있는 마물 이야기, 맡아 줄 마음이 생겼어?<end>"
@@ -703,6 +707,10 @@ korean = "페티를 달랜다<end>"
 ["1610240"]
 japanese = "フェティをしかる<end>"
 korean = "페티를 꾸짖는다<end>"
+
+["1610241"]
+japanese = "甘いわ！　あなた、同じ人間族だから<line-break>あの無礼者をかばってるんじゃなくて？<end>"
+korean = "무르네! 당신, 같은 인간족이라고 그 무례한 자를 감싸는 거 아냐?<end>"
 
 ["1610244"]
 japanese = "<value:$28><line-break>どうして、アタクシをしかるわけ？<line-break>この場合、おかしいのはあの男よー！<end>"

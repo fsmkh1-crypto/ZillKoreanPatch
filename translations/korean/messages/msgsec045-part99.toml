@@ -236,6 +236,10 @@ korean = "우리 뿔은 마력을 증폭시키니까, 그걸 이용해서 뭔가
 japanese = "でも、角は僕らの急所だから<line-break>取られたら死んじゃうんだ！！<end>"
 korean = "하지만 뿔은 우리 급소라서 빼앗기면 죽고 말아!!<end>"
 
+["450075"]
+japanese = "ここは私の家なんだ。　　　　　<line-break>お前らの出入りは許さん！<line-break>出て行け！<end>"
+korean = "여긴 내 집이다. 너희가 드나드는 건 허락 못 해! 나가!<end>"
+
 ["450076"]
 japanese = "うちの息子は冒険者にひどい目に<line-break>遭わされて、まだ寝込んでいるんだ！<line-break>　<line-break>出て行け！<line-break>冒険者なんか、顔も見たくない！<line-break>出ていってくれ！<end>"
 korean = "우리 아들은 모험자에게 심한 꼴을 당해 아직도 누워 있어! 나가! 모험자 따윈 얼굴도 보기 싫어! 나가줘!<end>"
@@ -883,6 +887,10 @@ korean = "저기, <value:$28>, 같이 반을 찾자. 안 그러면 반은 정말
 ["450273"]
 japanese = "じゃ、一緒に冒険しながら<line-break>ヴァンの行方を捜そうね。<end>"
 korean = "그럼 같이 모험하면서 반의 행방을 찾아보자.<end>"
+
+["450274"]
+japanese = "ああ、あんたが<value:$28>か。<line-break>ナッジが世話になってるみたいだな。<line-break>　<line-break>今日は親父もおふくろも<line-break>留守にしてるんだ。<line-break>あんた、運がいいぜ。<end>"
+korean = "아, 네가 <value:$28>구나. 나지가 신세를 지고 있는 모양이네. 오늘은 아버지도 어머니도 집에 안 계셔. 너 운이 좋군.<end>"
 
 ["450276"]
 japanese = "ヴァン、僕、ヴァンのためにも<line-break>思いとどまったんだ。<line-break>　<line-break>ヴァンが僕に誰かを殺してほしい、<line-break>なんて思わないはずだろう？<end>"
