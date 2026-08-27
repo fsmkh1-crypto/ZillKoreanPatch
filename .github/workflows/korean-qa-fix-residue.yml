@@ -1,0 +1,42 @@
+name: Korean QA-1 residue cleanup
+
+on:
+  push:
+    branches:
+      - translation/section001-batch2
+    paths:
+      - 'tools/korean/qa-fix-residue.py'
+      - '.github/workflows/korean-qa-fix-residue.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: translation/section001-batch2
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+      - name: Apply exact QA-1 residue fixes
+        run: python3 tools/korean/qa-fix-residue.py
+      - name: Validate corpus after fixes
+        run: |
+          ./zill korean-check
+          ./zill korean-font-check
+          python3 tools/korean/qa-integrity.py --json /tmp/korean-qa-integrity.json --max-examples 40
+      - name: Commit QA-1 residue fixes
+        run: |
+          if git diff --quiet -- translations/korean/messages; then
+            echo 'No residue fixes needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          git commit -m 'Fix 17 QA-1 Japanese residue translations'
+          git push origin HEAD:translation/section001-batch2
