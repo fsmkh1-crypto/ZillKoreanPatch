@@ -216,6 +216,10 @@ korean = "그것이 용왕님의 뜻….<end>"
 japanese = "あなたの活躍で、<line-break>世界は救われました。<line-break>　<line-break>ですが、そのかわりに、<line-break>世界は新たなる脅威に<line-break>さらされています。<end>"
 korean = "당신의 활약으로 세계는 구원받았습니다. 하지만 그 대신 세계는 새로운 위협에 노출되었습니다.<end>"
 
+["1910091"]
+japanese = "それはあなたです。<line-break>闇をすべて消し去ってしまうほどの<line-break>強烈な光の存在。<line-break>世界の均衡を保つため、<line-break>わたしは、あなたを<line-break>…とめなければなりません。<end>"
+korean = "그건 당신입니다. 어둠을 모두 지워 버릴 만큼 강렬한 빛의 존재. 세계의 균형을 지키기 위해 저는 당신을… 막아야 합니다.<end>"
+
 ["1910097"]
 japanese = "<value:$28>さん！<line-break>ノエルの最後の剣、<line-break>受けとめてください！<end>"
 korean = "<value:$28> 씨! 노엘의 마지막 검을 받아 주세요!<end>"
@@ -359,6 +363,10 @@ korean = "그러니까 <value:$28>. 반드시 돌아오자.<end>"
 ["1910156"]
 japanese = "終わったな。<end>"
 korean = "끝났군.<end>"
+
+["1910157"]
+japanese = "さあ、戻ろう。<line-break>戦いが終わっても、<line-break>やらねばならぬことは残っている。<end>"
+korean = "자, 돌아가자. 싸움이 끝나도 해야 할 일은 남아 있다.<end>"
 
 ["1910158"]
 japanese = "竜王が倒れましたか…。<line-break>　<line-break>　<line-break>うつしよの最後の神が消え、<line-break>人は自分たちの力だけで<line-break>歩まねばならなくなりましたね。<end>"

@@ -1028,6 +1028,10 @@ korean = "………………. 훗, 당신다운 작별 인사군.<end>"
 japanese = "では行こうか、<value:$28>。<line-break>行ける限り、地の果てまでも。<end>"
 korean = "그럼 가자, <value:$28>. 갈 수 있는 데까지, 세상 끝까지.<end>"
 
+["890411"]
+japanese = "へへ、悪かった。<line-break>だますつもりはなかったんだが、<line-break>ま、許してくれや。<end>"
+korean = "헤헤, 미안. 속일 생각은 없었는데, 뭐 용서해 줘.<end>"
+
 ["890413"]
 japanese = "俺の力じゃないさ。<line-break>必死に国を守ろうとした<line-break>みんなのおかげだ。<end>"
 korean = "내 힘이 아니야. 필사적으로 나라를 지키려 한 모두의 덕분이지.<end>"
@@ -1276,6 +1280,10 @@ korean = "왕비님을 만나러 가는가. 좋다, 이야기는 들었다. 지�
 japanese = "よく来た、フリントの息子<line-break><value:$28>よ。<line-break>今日は何用か？<end>"
 korean = "잘 왔다, 플린트의 아들 <value:$28>이여. 오늘은 무슨 일이지?<end>"
 
+["890505"]
+japanese = "なにごとだ。<line-break>今は、王宮は大変なのだ。<line-break>用なら、あとにしてくれ。<end>"
+korean = "무슨 일이냐. 지금 왕궁은 매우 바쁘다. 볼일이라면 나중에 와라.<end>"
+
 ["890506"]
 japanese = "あ、<value:$28>様、<line-break>ファーロス総司令が貴族を召集しています。<line-break>どうぞ、謁見の間へ。<end>"
 korean = "아, <value:$28>님. 파로스 총사령관께서 귀족들을 소집하고 계십니다. 알현실로 가 주세요.<end>"
@@ -1412,6 +1420,14 @@ korean = "에리스의 집무실<end>"
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
 
+["890542"]
+japanese = "ティアナ様の所に<line-break>いらっしゃるのですね。<line-break>どうぞお通りください。<end>"
+korean = "티아나 님께 가시는군요. 들어가십시오.<end>"
+
+["890543"]
+japanese = "アトレイア様の所に<line-break>いらっしゃるのですね。<line-break>どうぞお通りください。<end>"
+korean = "아트레아 님께 가시는군요. 들어가십시오.<end>"
+
 ["890545"]
 japanese = "私がエリスだ。<line-break>なんの用か？<end>"
 korean = "내가 에리스다. 무슨 일이지?<end>"
@@ -1439,6 +1455,10 @@ korean = "테스트용이란다. 지금은 시대 0이야. 흐흐흐.<end>"
 ["890563"]
 japanese = "１から５までの間で、<line-break>行きたい時代を選ぶんじゃ。<end>"
 korean = "1부터 5 사이에서 가고 싶은 시대를 고르거라.<end>"
+
+["890564"]
+japanese = "なにごとだ。<line-break>今は、王宮は大変なのだ。<line-break>用なら、あとにしてくれ。<end>"
+korean = "무슨 일이냐. 지금 왕궁은 매우 바쁘다. 볼일이라면 나중에 와라.<end>"
 
 ["890567"]
 japanese = "謁見の間へ行かない<end>"
@@ -1543,6 +1563,14 @@ korean = "에리스의 집무실<end>"
 ["890600"]
 japanese = "そうですか。<end>"
 korean = "그렇습니까.<end>"
+
+["890601"]
+japanese = "ティアナ様の所に<line-break>いらっしゃるのですね。<line-break>どうぞお通りください。<end>"
+korean = "티아나 님께 가시는군요. 들어가십시오.<end>"
+
+["890602"]
+japanese = "アトレイア様の所に<line-break>いらっしゃるのですね。<line-break>どうぞお通りください。<end>"
+korean = "아트레아 님께 가시는군요. 들어가십시오.<end>"
 
 ["890604"]
 japanese = "私がエリスだ。<line-break>なんの用か？<end>"
