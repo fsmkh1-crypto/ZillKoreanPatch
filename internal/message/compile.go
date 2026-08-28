@@ -195,3 +195,11 @@ func preservesSemantics(semantic, layout string) bool {
 	}
 	return wantIndex == len(want)
 }
+
+// PreservesLayoutSemantics reports whether generated Korean layout differs
+// from semantic text only by the layout boundaries and whitespace normalization
+// accepted by the runtime compiler. Keep preflight validation and compilation
+// on this single authoritative contract.
+func PreservesLayoutSemantics(semantic, layout string) bool {
+	return preservesSemantics(semantic, layout)
+}
