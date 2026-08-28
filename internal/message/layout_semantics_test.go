@@ -16,6 +16,20 @@ func TestPreservesSemanticsAllowsWhitespaceSpanBoundary(t *testing.T) {
 	}
 }
 
+func TestPreservesSemanticsAllowsWhitespaceBackedBlankLines(t *testing.T) {
+	for _, tc := range []struct {
+		semantic string
+		layout   string
+	}{
+		{"앞  뒤<end>", "앞<line-break><line-break>뒤<end>"},
+		{"앞   뒤<end>", "앞<line-break><line-break><line-break>뒤<end>"},
+	} {
+		if !preservesSemantics(tc.semantic, tc.layout) {
+			t.Fatalf("whitespace-backed blank lines rejected: semantic=%q layout=%q", tc.semantic, tc.layout)
+		}
+	}
+}
+
 func TestPreservesSemanticsRejectsCharacterChange(t *testing.T) {
 	if preservesSemantics("긴복합단어<end>", "긴복합<line-break>다어<end>") {
 		t.Fatal("layout changed a semantic Hangul character")
@@ -30,7 +44,7 @@ func TestPreservesSemanticsRejectsControlReordering(t *testing.T) {
 	}
 }
 
-func TestPreservesSemanticsRejectsLeadingTrailingOrRepeatedBoundary(t *testing.T) {
+func TestPreservesSemanticsRejectsUnbackedBoundaries(t *testing.T) {
 	for _, layout := range []string{
 		"<line-break>긴복합단어<end>",
 		"긴복합단어<line-break><end>",
@@ -39,5 +53,8 @@ func TestPreservesSemanticsRejectsLeadingTrailingOrRepeatedBoundary(t *testing.T
 		if preservesSemantics("긴복합단어<end>", layout) {
 			t.Fatalf("invalid boundary placement accepted: %q", layout)
 		}
+	}
+	if preservesSemantics("앞  뒤<end>", "앞<line-break><line-break><line-break>뒤<end>") {
+		t.Fatal("layout invented more blank-line boundaries than semantic whitespace owns")
 	}
 }
