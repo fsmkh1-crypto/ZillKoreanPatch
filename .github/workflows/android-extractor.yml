@@ -88,11 +88,17 @@ jobs:
               if count != 1:
                   raise SystemExit(f'expected exactly one 10010 experiment target, found {count}: {old}')
               text = text.replace(old, new, 1)
+              if old in text or text.count(new) != 1:
+                  raise SystemExit(f'10010 replacement verification failed: {new}')
           block = text[text.index('["10010"]'):text.index('["10011"]')]
-          if '<value:$15>' in block:
-              raise SystemExit('10010 still contains <value:$15>')
+          runtime_lines = [line for line in block.splitlines() if line.startswith('korean = ') or line.startswith('layout = ')]
+          if len(runtime_lines) != 2:
+              raise SystemExit(f'expected Korean/layout lines for 10010, got {runtime_lines!r}')
+          if any('<value:$15>' in line for line in runtime_lines):
+              raise SystemExit('10010 Korean/layout still contain <value:$15>')
+          runtime_text = '\n'.join(runtime_lines)
           for required in ('묻', '노', '명', '운'):
-              if required not in block:
+              if required not in runtime_text:
                   raise SystemExit(f'10010 unexpectedly lost glyph {required!r}')
           path.write_text(text, encoding='utf-8')
           print('10010 A/B experiment B: first-use glyphs preserved; value token removed')
