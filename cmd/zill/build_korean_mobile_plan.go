@@ -20,12 +20,30 @@ import (
 //
 // This experiment deliberately restricts custom Korean allocation to installed
 // renderer keys whose CP932 bytes decode to exactly one CJK Han rune and encode
-// back to the identical byte pair. It keeps the historical H1 message/layout
-// state unchanged so device testing isolates renderer-slot selection alone.
+// back to the identical byte pair. It also changes only ID 210065 from the
+// historical H1 seven explicit line breaks to the first three H1 break positions,
+// leaving all semantic text and renderer-slot policy unchanged. This isolates
+// explicit line-break count while preserving H1's early break positions.
 func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
 	if source == nil || korean == nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta planner: nil bound source or Korean project")
 	}
+
+	const n3Layout210065 = "광대한 대지 바이아시온 대륙.<line-break>너무나 넓어 지도에도 기록되지<line-break>않고 여행자에게조차 알려지지 않은<line-break>작은 마을이 있다…. 마을의 이름은 미이스. 그곳에는 작은 신전과 숲, 그리고 평온한 일상 정도뿐이었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
+	found210065 := false
+	for i := range korean.Entries {
+		if korean.Entries[i].ID != 210065 {
+			continue
+		}
+		korean.Entries[i].Layout = n3Layout210065
+		found210065 = true
+		break
+	}
+	if !found210065 {
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("N3 experiment: Korean ID 210065 not found")
+	}
+	fmt.Printf("FORENSIC LINEBREAK_AB id=210065 explicit_breaks=3 policy=first_three_h1_positions\n")
+
 	font, err := loadRetailPAF(gameDir)
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
