@@ -37,8 +37,9 @@ func KoreanPlacement(glyph Glyph) (pasteX, pasteY int, err error) {
 	return pasteX, pasteY, nil
 }
 
-// KoreanCompatibleKeys returns installed two-byte renderer keys whose existing
-// PAF metrics can host the proven Korean raster without changing PAF metadata.
+// KoreanCompatibleKeys returns installed round-trip CP932 text renderer keys
+// whose existing PAF metrics can host the proven Korean raster without changing
+// PAF metadata. Renderer-private/UI keys are excluded before metric filtering.
 // The result is sorted and therefore safe to feed directly to deterministic
 // slot allocation.
 func (p *PAF) KoreanCompatibleKeys() []cp932.GlyphKey {
@@ -47,7 +48,7 @@ func (p *PAF) KoreanCompatibleKeys() []cp932.GlyphKey {
 	}
 	keys := make([]cp932.GlyphKey, 0, len(p.Glyphs))
 	for _, glyph := range p.Glyphs {
-		if !glyph.Key.IsDoubleByte() {
+		if !glyph.Key.IsRoundTripText() {
 			continue
 		}
 		if _, _, err := KoreanPlacement(glyph); err != nil {
