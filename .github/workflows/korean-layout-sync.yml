@@ -6,6 +6,7 @@ on:
       - translation/section001-batch2
     paths:
       - 'tools/korean/qa-layout-drift.py'
+      - 'tools/korean/release-layout-hotfix.py'
       - '.github/workflows/korean-layout-sync.yml'
   workflow_dispatch:
 
@@ -24,6 +25,8 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
+      - name: Restore canonical release text
+        run: python3 tools/korean/release-layout-hotfix.py
       - name: Sync stale lexical layout content
         run: python3 tools/korean/qa-layout-drift.py --fix
       - name: Verify lexical drift is closed
@@ -37,5 +40,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add translations/korean/messages
-          git commit -m 'Sync Korean layouts to canonical semantic text'
+          git commit -m 'Restore canonical Korean and close layout drift'
           git push origin HEAD:${{ github.ref_name }}
