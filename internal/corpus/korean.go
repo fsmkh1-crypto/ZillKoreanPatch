@@ -145,7 +145,7 @@ func (project *KoreanProject) WithKorean(source *Project, id int, korean string)
 	if err := validateKoreanSemanticText("Korean translation update", id, korean); err != nil {
 		return nil, err
 	}
-	if err := validateKoreanControls("Korean translation update", id, item.Translation.Japanese, korean, "korean"); err != nil {
+	if err := ValidateKoreanControlContract("Korean translation update", id, item.Translation.Japanese, korean, "korean"); err != nil {
 		return nil, err
 	}
 	updated := &KoreanProject{Entries: append([]KoreanEntry(nil), project.Entries...), byID: make(map[int]int, len(project.byID)+1)}
@@ -248,7 +248,7 @@ func readKoreanFile(path string, section int, source *Project) ([]KoreanEntry, e
 		if err := validateKoreanSemanticText(path, id, *value.Korean); err != nil {
 			return nil, err
 		}
-		if err := validateKoreanControls(path, id, *value.Japanese, *value.Korean, "korean"); err != nil {
+		if err := ValidateKoreanControlContract(path, id, *value.Japanese, *value.Korean, "korean"); err != nil {
 			return nil, err
 		}
 		layout := ""
@@ -258,7 +258,7 @@ func readKoreanFile(path string, section int, source *Project) ([]KoreanEntry, e
 				if err := validateKoreanText(path, id, "layout", layout); err != nil {
 					return nil, err
 				}
-				if err := validateKoreanControls(path, id, *value.Japanese, layout, "layout"); err != nil {
+				if err := ValidateKoreanControlContract(path, id, *value.Japanese, layout, "layout"); err != nil {
 					return nil, err
 				}
 			}
@@ -311,7 +311,17 @@ func validateKoreanText(path string, id int, field, text string) error {
 	return nil
 }
 
-func validateKoreanControls(path string, id int, japanese, translated, field string) error {
+// ValidateKoreanControlContract is the authoritative control-structure guard
+// for accepted Korean text. It is intentionally exported so legacy/strict
+// loaders can delegate to the same implementation used by the production
+// release/font/mobile paths through LoadKoreanProject.
+//
+// Fixed runtime controls must remain byte-for-byte identical and in order.
+// Line breaks are layout-authorable and therefore excluded from the fixed
+// sequence. In addition, visible source-owned text between fixed controls may
+// not disappear completely. Leading and trailing literal slots are deliberately
+// exempt because natural translation can omit Japanese fillers at those edges.
+func ValidateKoreanControlContract(path string, id int, japanese, translated, field string) error {
 	want := FixedRuntimeControlTags(japanese)
 	got := FixedRuntimeControlTags(translated)
 	if len(want) != len(got) {
@@ -320,6 +330,17 @@ func validateKoreanControls(path string, id int, japanese, translated, field str
 	for i := range want {
 		if want[i] != got[i] {
 			return fmt.Errorf("%s: ID %d: %s fixed control token sequence differs from Japanese source at token %d: got %q, want %q", path, id, field, i, got[i], want[i])
+		}
+	}
+
+	wantLiteral := FixedRuntimeLiteralOccupancy(japanese)
+	gotLiteral := FixedRuntimeLiteralOccupancy(translated)
+	if len(gotLiteral) != len(wantLiteral) {
+		return fmt.Errorf("%s: ID %d: %s fixed literal slot count differs from Japanese source: got %d, want %d", path, id, field, len(gotLiteral), len(wantLiteral))
+	}
+	for i := 1; i+1 < len(wantLiteral); i++ {
+		if wantLiteral[i] && !gotLiteral[i] {
+			return fmt.Errorf("%s: ID %d: %s drops fixed literal slot %d around runtime controls", path, id, field, i)
 		}
 	}
 	return nil
