@@ -52,6 +52,24 @@ class VoiceHazardTest(unittest.TestCase):
             mod.classify("冒険者登録かい？", "모험자 등록입니까?"),
         )
 
+    def test_quotative_dani_is_not_casual_ni(self):
+        self.assertNotIn(
+            "polite_jp_casual_ko",
+            mod.classify("崩御されたなんて…。教えてください。", "붕어하셨다니…. 가르쳐 주세요."),
+        )
+
+    def test_polite_gunyo_is_not_casual_gun(self):
+        self.assertNotIn(
+            "polite_jp_casual_ko",
+            mod.classify("そうですか。", "그렇군요."),
+        )
+
+    def test_distinct_casual_ending_still_matches(self):
+        self.assertIn(
+            "polite_jp_casual_ko",
+            mod.classify("もう終わりました。", "벌써 끝났어."),
+        )
+
     def test_exception_registry_validation(self):
         with tempfile.TemporaryDirectory() as td:
             path = Path(td) / "exceptions.json"
