@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
+// Runtime A/B build trigger only; no executable behavior change.
 
 package message
 
