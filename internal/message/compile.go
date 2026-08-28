@@ -169,24 +169,35 @@ func preservesSemantics(semantic, layout string) bool {
 		if got[gotIndex].kind != "boundary" {
 			return false
 		}
-		// Never accept two generated boundaries at the same semantic position.
-		if gotIndex > 0 && got[gotIndex-1].kind == "boundary" {
-			return false
-		}
 
-		// A generated line break may replace one complete semantic whitespace span.
+		// A generated line break may replace a semantic whitespace span. A single
+		// boundary may collapse any non-empty span; multiple consecutive boundaries
+		// are accepted only when the semantic text owns at least that many whitespace
+		// runes. This preserves intentional blank lines without permitting layout to
+		// invent extra vertical structure at a zero-width semantic position.
+		boundaryEnd := gotIndex
+		for boundaryEnd < len(got) && got[boundaryEnd].kind == "boundary" {
+			boundaryEnd++
+		}
+		boundaryCount := boundaryEnd - gotIndex
 		if wantIndex < len(want) && want[wantIndex].kind == "whitespace" {
-			for wantIndex < len(want) && want[wantIndex].kind == "whitespace" {
-				wantIndex++
+			whitespaceEnd := wantIndex
+			for whitespaceEnd < len(want) && want[whitespaceEnd].kind == "whitespace" {
+				whitespaceEnd++
 			}
-			gotIndex++
+			whitespaceCount := whitespaceEnd - wantIndex
+			if boundaryCount > 1 && boundaryCount > whitespaceCount {
+				return false
+			}
+			wantIndex = whitespaceEnd
+			gotIndex = boundaryEnd
 			continue
 		}
 
-		// Korean-specific reflow: allow a zero-width layout boundary between two
-		// adjacent precomposed Hangul syllables. The boundary consumes no semantic
-		// rune, so insertion/deletion/reordering of text or controls still fails.
-		if wantIndex > 0 && wantIndex < len(want) &&
+		// Korean-specific reflow: allow exactly one zero-width layout boundary
+		// between two adjacent precomposed Hangul syllables. Repeated zero-width
+		// boundaries remain invalid unless backed by semantic whitespace above.
+		if boundaryCount == 1 && wantIndex > 0 && wantIndex < len(want) &&
 			isHangulSyllableUnit(want[wantIndex-1]) && isHangulSyllableUnit(want[wantIndex]) {
 			gotIndex++
 			continue
