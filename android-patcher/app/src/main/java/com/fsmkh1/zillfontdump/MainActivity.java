@@ -51,7 +51,7 @@ public final class MainActivity extends Activity {
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본 42,016건과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n처음 실행할 때는 내장 한국어 데이터 파일을 앱 내부 작업공간에 준비합니다.");
+        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본 42,016건과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n첫 실행할 때는 내장 한국어 데이터 파일을 앱 내부 작업공간에 준비합니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -65,7 +65,7 @@ public final class MainActivity extends Activity {
         root.addView(chooseButton, buttonParams);
 
         patchButton = new Button(this);
-        patchButton.setText("한국어 Beta ISO 만들기");
+        patchButton.setText("한국어 BETA ISO 만들기");
         patchButton.setEnabled(false);
         patchButton.setOnClickListener(v -> choosePatchedIsoDestination());
         LinearLayout.LayoutParams patchParams = new LinearLayout.LayoutParams(-1, -2);
@@ -174,7 +174,7 @@ public final class MainActivity extends Activity {
                         "--iso", source.getAbsolutePath(),
                         "--out", output.getAbsolutePath(),
                         "--work-dir", work.getAbsolutePath(),
-                        "--version", "mobile-beta");
+                        "--version", "mobile-beta-0.9.1");
                 builder.directory(rootDir);
                 builder.redirectErrorStream(true);
                 Process process = builder.start();
@@ -211,7 +211,7 @@ public final class MainActivity extends Activity {
     }
 
     private File ensureProjectAssets() throws Exception {
-        File root = new File(getFilesDir(), "zillroot-beta-v1");
+        File root = new File(getFilesDir(), "zillroot-beta-v2");
         File marker = new File(root, ".ready");
         if (marker.isFile()) return root;
         deleteRecursively(root);
