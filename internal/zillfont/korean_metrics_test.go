@@ -39,11 +39,12 @@ func TestKoreanPlacementRejectsBadAdvanceAndTooSmallCell(t *testing.T) {
 	}
 }
 
-func TestKoreanCompatibleKeysFiltersMetricsAndSorts(t *testing.T) {
+func TestKoreanCompatibleKeysFiltersMetricsPrivateKeysAndSorts(t *testing.T) {
 	paf := &PAF{Glyphs: []Glyph{
+		{Index: 4, Key: cp932.GlyphKey(0xAD81), Width: 12, Height: 12, BearingX: 0, BearingY: -10, Advance: 12, Page: 1}, // CP932-shaped but not text
 		{Index: 3, Key: cp932.GlyphKey(0xAD82), Width: 11, Height: 11, BearingX: 0, BearingY: -10, Advance: 12, Page: 1},
 		{Index: 2, Key: cp932.GlyphKey(0xAC82), Width: 10, Height: 10, BearingX: 1, BearingY: -9, Advance: 12, Page: 1},
-		{Index: 4, Key: cp932.GlyphKey(0xAE82), Width: 12, Height: 12, BearingX: 0, BearingY: -10, Advance: 10, Page: 1},
+		{Index: 5, Key: cp932.GlyphKey(0xAE82), Width: 12, Height: 12, BearingX: 0, BearingY: -10, Advance: 10, Page: 1},
 	}}
 	got := paf.KoreanCompatibleKeys()
 	if len(got) != 2 || got[0] != cp932.GlyphKey(0xAC82) || got[1] != cp932.GlyphKey(0xAD82) {
