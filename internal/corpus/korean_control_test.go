@@ -32,6 +32,51 @@ korean = "그대여 응답하라<end>"
 	}
 }
 
+func TestLoadKoreanProjectRejectsDroppedInternalFixedLiteral(t *testing.T) {
+	root := t.TempDir()
+	dir := filepath.Join(root, "translations", "korean", "messages")
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	sourceText := "<if><value:$01><equal>14前<end>…<value:$28>、<line-break><if>後<end>"
+	source := &Project{
+		Items: []Item{{Record: Record{ID: 10007, Index: 7, Display: sourceText}, Translation: Translation{ID: 10007, Japanese: sourceText}}},
+		byID:  map[int]int{10007: 0},
+	}
+	writeKoreanTestFile(t, dir, "msgsec001.toml", `# SPDX-License-Identifier: CC-BY-SA-4.0
+
+["10007"]
+japanese = "<if><value:$01><equal>14前<end>…<value:$28>、<line-break><if>後<end>"
+korean = "<if><value:$01><equal>14앞<end><value:$28>, <if>뒤<end>"
+`)
+	_, _, err := LoadKoreanProject(root, source)
+	if err == nil || !strings.Contains(err.Error(), "drops fixed literal slot") {
+		t.Fatalf("error = %v", err)
+	}
+}
+
+func TestLoadKoreanProjectAllowsLeadingSourceFillerOmission(t *testing.T) {
+	root := t.TempDir()
+	dir := filepath.Join(root, "translations", "korean", "messages")
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	sourceText := "さ、<value:$28>さま、<line-break>神殿へ<end>"
+	source := &Project{
+		Items: []Item{{Record: Record{ID: 10007, Index: 7, Display: sourceText}, Translation: Translation{ID: 10007, Japanese: sourceText}}},
+		byID:  map[int]int{10007: 0},
+	}
+	writeKoreanTestFile(t, dir, "msgsec001.toml", `# SPDX-License-Identifier: CC-BY-SA-4.0
+
+["10007"]
+japanese = "さ、<value:$28>さま、<line-break>神殿へ<end>"
+korean = "<value:$28> 님, 신전으로<end>"
+`)
+	if _, _, err := LoadKoreanProject(root, source); err != nil {
+		t.Fatalf("valid leading-filler omission rejected: %v", err)
+	}
+}
+
 func TestLoadKoreanProjectAllowsLineBreakReflowAndSeparateLayout(t *testing.T) {
 	root := t.TempDir()
 	dir := filepath.Join(root, "translations", "korean", "messages")
