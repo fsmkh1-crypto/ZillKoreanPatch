@@ -21,6 +21,21 @@ type KoreanRecord struct {
 	Layout string
 }
 
+// stripValueToken10010Experiment is intentionally diagnostic-only. The normal
+// Korean source and control-token contract are fully validated/materialized
+// first; only the final compiled record for ID 10010 has its leading <value:$15>
+// opcode (02 15) removed. This gives a clean runtime A/B test without weakening
+// corpus QA or changing canonical translation data.
+func stripValueToken10010Experiment(id int, record []byte) ([]byte, error) {
+	if id != 10010 {
+		return record, nil
+	}
+	if len(record) < 2 || record[0] != 0x02 || record[1] != 0x15 {
+		return nil, fmt.Errorf("ID 10010 experiment expected leading value token 02 15, got % X", record)
+	}
+	return append([]byte(nil), record[2:]...), nil
+}
+
 // CompileBankKorean compiles only explicitly supplied Korean replacements and
 // copies every other retail record unchanged. Semantic Korean must be layout-free;
 // optional generated Layout may insert line breaks only while preserving all
@@ -62,18 +77,28 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			failures = append(failures, fmt.Sprintf("%s: ID %d Korean semantic text: %v", bank.Name, source.ID, err))
 			continue
 		}
+
+		var materialized []byte
 		if replacement.Layout == "" {
-			records[index] = semantic
-			continue
+			materialized = semantic
+		} else {
+			if !preservesSemantics(replacement.Text, replacement.Layout) {
+				failures = append(failures, fmt.Sprintf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID))
+				continue
+			}
+			materialized, err = projection.MaterializeKorean(replacement.Layout, true, mapping)
+			if err != nil {
+				failures = append(failures, fmt.Sprintf("%s: ID %d Korean layout: %v", bank.Name, source.ID, err))
+				continue
+			}
 		}
-		if !preservesSemantics(replacement.Text, replacement.Layout) {
-			failures = append(failures, fmt.Sprintf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID))
-			continue
-		}
-		records[index], err = projection.MaterializeKorean(replacement.Layout, true, mapping)
+
+		materialized, err = stripValueToken10010Experiment(source.ID, materialized)
 		if err != nil {
-			failures = append(failures, fmt.Sprintf("%s: ID %d Korean layout: %v", bank.Name, source.ID, err))
+			failures = append(failures, fmt.Sprintf("%s: %v", bank.Name, err))
+			continue
 		}
+		records[index] = materialized
 	}
 	if len(matched) != len(replacements) {
 		unmatched := make([]int, 0, len(replacements)-len(matched))
