@@ -1,0 +1,12 @@
+{
+  "1230049": {
+    "old": "감청의 괴물을 조개로 후려친다! 줄여서 이번에도 친다! 덤벼라! 변변찮았습니다.<end>",
+    "new": "감청의 괴물을 조개로 후려친다! 줄여서 이번에도 친다! 덤벼라! 변변찮았소이다.<end>",
+    "reason": "Samurai companion voice: Japanese ends in ござる and this character consistently uses Korean archaic ~소이다/~오 register elsewhere."
+  },
+  "1230081": {
+    "old": "호오오— 봉황이란 말씀이오? 그냥 내버려 두면 되겠소이다. 후후후후… 나도 이제 말장난의 요령을 잡은 듯하오.<end>",
+    "new": "호오오— 봉황이란 말씀이오? 그냥 내버려 두면 되겠소이다. 후후후후… 소인도 이제 말장난의 요령을 잡은 듯하오.<end>",
+    "reason": "Same samurai companion explicitly says 拙者; nearby 1230017 already establishes 拙者 → 소인 with the same archaic voice."
+  }
+}
