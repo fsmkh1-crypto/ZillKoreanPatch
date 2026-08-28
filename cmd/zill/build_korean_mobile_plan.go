@@ -14,8 +14,10 @@ import (
 
 // buildKoreanAlphaPlanMobile builds the production-safe mobile beta slot plan
 // from the exact retail-bound source and runtime-materializable Korean project
-// that the ISO compiler will use. BOOT.BIN and bindata.dat literals are reserved
-// just like the desktop beta builder; there is no alpha placeholder projection.
+// that the ISO compiler will use. Authenticated fixed renderer keys are reserved
+// explicitly. BOOT/EBOOT/bindata are passed to koreanslots.BuildPlan for exact
+// raw-byte exclusion; the broader CP932 literal scans remain diagnostics only so
+// the same binary risk is not conservatively blocked twice.
 func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
 	if source == nil || korean == nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta planner: nil bound source or Korean project")
@@ -53,10 +55,10 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("scan bindata.dat: %w", err)
 	}
 
+	// Only authenticated fixed-string ownership is a semantic reservation.
+	// Binary occurrence safety is handled below by BuildPlan's exact-byte audit.
 	reserved := make(map[cp932.GlyphKey]struct{})
 	mergeRendererKeys(reserved, usedFixed)
-	mergeRendererKeys(reserved, bootScan.Keys)
-	mergeRendererKeys(reserved, bindataScan.Keys)
 
 	texts, err := korean.RuntimeTexts(source)
 	if err != nil {
@@ -71,7 +73,7 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta full-font plan allocation: %w", err)
 	}
-	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d\n",
+	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d (CP932 literal scans diagnostic-only; BOOT/EBOOT/bindata exact-byte audited)\n",
 		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
 	return plan, len(korean.Entries), len(source.Items), nil
 }
