@@ -40,11 +40,11 @@ func runBuildKorean(root string, args []string, stdout, stderr io.Writer) int {
 	if err != nil { fmt.Fprintf(stderr, "zill: build-korean: %v\n", err); return 1 }
 	result, err := release.BuildKoreanAlpha(root, gameDir, isoPath, resolvedVersion, plan)
 	if err != nil { fmt.Fprintf(stderr, "zill: build-korean: %v\n", err); return 1 }
-	fmt.Fprintf(stdout, "Built Korean alpha game tree at %s\n", result.GameDirectory)
-	fmt.Fprintf(stdout, "Built Korean alpha ISO at %s\n", result.ISO)
-	fmt.Fprintf(stdout, "Built Korean alpha xdelta patch at %s\n", result.Patch)
-	fmt.Fprintf(stdout, "Korean coverage: %d/%d records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
-	fmt.Fprintf(stdout, "Embedded alpha version: %s\n", resolvedVersion)
+	fmt.Fprintf(stdout, "Built Korean beta game tree at %s\n", result.GameDirectory)
+	fmt.Fprintf(stdout, "Built Korean beta ISO at %s\n", result.ISO)
+	fmt.Fprintf(stdout, "Built Korean beta xdelta patch at %s\n", result.Patch)
+	fmt.Fprintf(stdout, "Korean coverage: %d/%d canonical overlay records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
+	fmt.Fprintf(stdout, "Embedded beta version: %s\n", resolvedVersion)
 	for _, warning := range result.Warnings { fmt.Fprintf(stderr, "zill: build-korean: warning: %s\n", warning) }
 	return 0
 }
