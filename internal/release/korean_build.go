@@ -19,11 +19,6 @@ const (
 	koreanAlphaPatchName = "zill-korean-beta.xdelta"
 )
 
-// BuildKoreanAlpha builds the current Korean beta integration release. The
-// legacy function name is kept for compatibility with the mobile/debug builder.
-// Canonical Korean rows are projected onto runtime-materializable source records;
-// structural/no-text rows and source records outside that projection retain their
-// authenticated retail bytes. Korean uses its own renderer-slot/font path.
 func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.Plan) (result Result, err error) {
 	root, err = resolveExistingPath(root, "project root")
 	if err != nil { return result, err }
@@ -84,7 +79,7 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 		pa.replacements = append(pa.replacements, fontReplacement)
 	}
 
-	executable, err := buildKoreanAlphaExecutable(root, gameDir)
+	executable, err := buildKoreanAlphaExecutable(root, gameDir, plan.Mapping)
 	if err != nil { return result, err }
 	parameter, err := buildKoreanAlphaSFO(root, gameDir, version)
 	if err != nil { return result, err }
@@ -117,7 +112,7 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	return result, nil
 }
 
-func buildKoreanAlphaExecutable(root, gameDir string) ([]byte, error) {
+func buildKoreanAlphaExecutable(root, gameDir string, mapping koreanslots.Mapping) ([]byte, error) {
 	eboot, err := os.ReadFile(filepath.Join(gameDir, "SYSDIR", "EBOOT.BIN"))
 	if err != nil { return nil, fmt.Errorf("read retail EBOOT.BIN: %w", err) }
 	if actual := fmt.Sprintf("%x", sha256.Sum256(eboot)); actual != sourceEBOOTSHA256 { return nil, fmt.Errorf("retail EBOOT.BIN does not match supported ULJM05410 1.03 fingerprint") }
@@ -127,7 +122,9 @@ func buildKoreanAlphaExecutable(root, gameDir string) ([]byte, error) {
 	if err != nil { return nil, err }
 	manifest, err := elfpatch.ParseManifest(manifestData)
 	if err != nil { return nil, err }
-	return elfpatch.Apply(source, manifest)
+	patched, err := elfpatch.Apply(source, manifest)
+	if err != nil { return nil, err }
+	return applyKoreanFixedEBOOT(root, patched, mapping)
 }
 
 func buildKoreanAlphaSFO(root, gameDir, version string) ([]byte, error) {
