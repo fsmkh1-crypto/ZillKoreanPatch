@@ -12,6 +12,41 @@ import (
 
 const koreanAlphaPlaceholder = "[JP]"
 
+// BuildKoreanBetaProject projects the reviewed canonical Korean overlay onto
+// records that can actually be materialized by the message compiler. Some
+// canonical rows intentionally correspond to structural/no-text source records;
+// those must remain byte-identical to retail rather than being forced through
+// CompileBankKorean. Reviewed Layout is preserved for every retained row.
+func BuildKoreanBetaProject(source *corpus.Project, korean *corpus.KoreanProject) (*corpus.KoreanProject, int, error) {
+	if source == nil || korean == nil {
+		return nil, 0, fmt.Errorf("Korean beta projection: nil project")
+	}
+	accepted := make(map[int]corpus.KoreanEntry, len(korean.Entries))
+	for _, row := range korean.Entries {
+		accepted[row.ID] = row
+	}
+
+	entries := make([]corpus.KoreanEntry, 0, len(korean.Entries))
+	skippedStructural := 0
+	for _, item := range source.Items {
+		row, ok := accepted[item.Record.ID]
+		if !ok {
+			continue
+		}
+		_, editable, err := message.PlaceholderForRecord(item.Record, koreanAlphaPlaceholder)
+		if err != nil {
+			return nil, 0, fmt.Errorf("Korean beta classify ID %d: %w", item.Record.ID, err)
+		}
+		if !editable {
+			skippedStructural++
+			continue
+		}
+		entries = append(entries, row)
+	}
+	sort.Slice(entries, func(i, j int) bool { return entries[i].ID < entries[j].ID })
+	return &corpus.KoreanProject{Entries: entries}, skippedStructural, nil
+}
+
 // BuildKoreanAlphaPlaceholderProject creates an in-memory, development-only
 // overlay for device-alpha validation. Structural/no-text records are omitted so
 // their authenticated retail bytes are preserved byte-for-byte. Editable records
