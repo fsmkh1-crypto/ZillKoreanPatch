@@ -23,11 +23,11 @@ type KoreanRecord struct {
 }
 
 var characterChoiceBufferDiagnostic = map[int]string{
-	10016: "약점을 찾아 여러 수를 쓴다<end>",
+	10016: "약점을 찾아 시도한다<end>",
 	10017: "힘을 믿고 정면으로 싸운다<end>",
-	10020: "초원의 아름다움을 그린다<end>",
+	10020: "초원의 아름다움을 담는다<end>",
 	10025: "강인한 의지의 늠름한 표정<end>",
-	10026: "모두를 감싸는 온화한 표정<end>",
+	10026: "감싸 안는 온화한 표정<end>",
 	10034: "폭발적 파괴력을 내는 체력<end>",
 	10071: "물살을 거슬러 오르는 물고기<end>",
 }
@@ -46,7 +46,7 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		return nil, fmt.Errorf("%s: Korean compilation has %d items for %d source records", bank.Name, len(items), len(bank.Records))
 	}
 	if len(items) > math.MaxUint16 {
-		return nil, fmt.Errorf("%s: message count exceeds uint16", bank.Name)
+		return nil, fmt.Errorf("%s: message count exceeds uint16", bank.Name, len(items))
 	}
 	records := make([][]byte, len(items))
 	matched := make(map[int]struct{}, len(replacements))
@@ -66,7 +66,9 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		// Runtime diagnostic: these verified character-creation choices are copied
 		// through a 31-byte consumer buffer (30 bytes plus terminator). The canonical
 		// Korean strings exceeded that limit by 1-4 bytes. Keep the N1 experiment
-		// otherwise unchanged while shortening only the unsafe choices.
+		// otherwise unchanged while shortening only the unsafe choices. Every
+		// diagnostic string is formed only by deleting syllables already present in
+		// its canonical Korean source, so slot planning requires no new glyphs.
 		if text, ok := characterChoiceBufferDiagnostic[source.ID]; ok {
 			replacement.Text = text
 			replacement.Layout = ""
