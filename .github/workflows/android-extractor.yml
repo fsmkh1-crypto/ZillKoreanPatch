@@ -70,6 +70,36 @@ jobs:
           cp patches/system/param-sfo.toml "$ROOT/patches/system/"
           du -sh "$ROOT"
 
+      - name: Isolate message 10010 pair mud-no
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path('android-patcher/app/src/main/assets/zillroot/translations/korean/messages/msgsec001.toml')
+          text = path.read_text(encoding='utf-8')
+          replacements = [
+              ('korean = "<value:$15>여 나는 그대가 나아갈 길을 묻노라 그 길을 보이고 운명의 문을 열어라<end>"',
+               'korean = "<value:$15>여 나는 그대가 나아갈 길을 묻노라 그 길을 보이고 그대의 문을 열어라<end>"'),
+              ('layout = "<value:$15>여<line-break>나는 그대가 나아갈 길을 묻노라<line-break>그 길을 보이고 운명의 문을 열어라<end>"',
+               'layout = "<value:$15>여<line-break>나는 그대가 나아갈 길을 묻노라<line-break>그 길을 보이고 그대의 문을 열어라<end>"'),
+          ]
+          for old, new in replacements:
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f'expected exactly one 10010 experiment target, found {count}: {old}')
+              text = text.replace(old, new, 1)
+          block = text[text.index('["10010"]'):text.index('["10011"]')]
+          runtime = '\n'.join(line for line in block.splitlines() if line.startswith(('korean = ', 'layout = ')))
+          for required in ('<value:$15>', '묻', '노'):
+              if required not in runtime:
+                  raise SystemExit(f'10010 unexpectedly lost {required!r}')
+          for removed in ('명', '운'):
+              if removed in runtime:
+                  raise SystemExit(f'10010 still contains removed glyph {removed!r}')
+          path.write_text(text, encoding='utf-8')
+          print('10010 pair experiment C: mud/no retained; myeong/un removed; value token retained')
+          PY
+
       - name: Build arm64 Korean beta builder
         shell: bash
         run: |
