@@ -21,6 +21,13 @@ func (p *Projection) splitSemanticWith(text string, validate naturalTextValidato
 	cursor := 0
 	for index, node := range p.nodes {
 		if node.fixed {
+			// A line break classified as fixed belongs to the retail control stream,
+			// not to translator-owned semantic text. Semantic Korean deliberately
+			// carries no <line-break> tags, so consume/emit these nodes from source
+			// bytes without requiring the canonical string to repeat the tag.
+			if node.kind == "line_break" {
+				continue
+			}
 			if node.display != "" && !strings.HasPrefix(text[cursor:], node.display) {
 				return nil, fmt.Errorf("message %d: canonical text changes fixed %s control", p.RecordID, node.kind)
 			}
@@ -31,6 +38,12 @@ func (p *Projection) splitSemanticWith(text string, validate naturalTextValidato
 		for _, following := range p.nodes[index+1:] {
 			if !following.fixed {
 				break
+			}
+			// Fixed source line breaks are implicit in semantic Korean. Keeping them
+			// in this delimiter would create an impossible contract: the loader bans
+			// semantic layout tags while materialization would require one.
+			if following.kind == "line_break" {
+				continue
 			}
 			next += following.display
 		}
