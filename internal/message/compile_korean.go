@@ -143,12 +143,13 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		offset += uint64(len(record))
 	}
 
-	// Size-only control: L71 produced msgsec001.dat at 10917 bytes and passed on
-	// device. Append exactly one 'Z' byte after the final block terminator. The
-	// retail parser recognizes this as the first byte of its canonical
-	// "ZillO'll " archive-padding pattern, so no record offset or display content
-	// changes. This restores only the bank payload size to the failing 10918.
-	if bank.Section == 1 {
+	// Size-only control: L71 produced the real 176-record msgsec001.dat at
+	// 10917 bytes and passed on device. Append exactly one 'Z' byte after the
+	// final block terminator. The retail parser recognizes this as the first byte
+	// of its canonical "ZillO'll " archive-padding pattern, so no record offset
+	// or display content changes. Synthetic unit-test banks are excluded by the
+	// real-bank record-count guard.
+	if bank.Section == 1 && len(records) == 176 {
 		if len(output) != 10917 {
 			return nil, fmt.Errorf("%s: tail-pad probe expected L71 bank size 10917, got %d", bank.Name, len(output))
 		}
