@@ -46,12 +46,12 @@ public final class MainActivity extends Activity {
         root.setPadding(pad, pad, pad, pad);
 
         TextView title = new TextView(this);
-        title.setText("질올 인피니트 플러스 한국어 패치 Alpha");
+        title.setText("질올 인피니트 플러스 한국어 패치 Beta");
         title.setTextSize(22);
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: 일본판 ULJM-05410 v1.03\n현재 번역 완료 부분은 한국어, 미번역 부분은 일본어로 유지됩니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n첫 실행은 최신 한글 데이터 파일을 앱 내부로 준비하느라 조금 더 오래 걸릴 수 있습니다.");
+        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본 42,016건과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n처음 실행할 때는 내장 한국어 데이터 파일을 앱 내부 작업공간에 준비합니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -65,7 +65,7 @@ public final class MainActivity extends Activity {
         root.addView(chooseButton, buttonParams);
 
         patchButton = new Button(this);
-        patchButton.setText("부분 한글화 Alpha ISO 만들기");
+        patchButton.setText("한국어 Beta ISO 만들기");
         patchButton.setEnabled(false);
         patchButton.setOnClickListener(v -> choosePatchedIsoDestination());
         LinearLayout.LayoutParams patchParams = new LinearLayout.LayoutParams(-1, -2);
@@ -113,7 +113,7 @@ public final class MainActivity extends Activity {
                 FontExtractor.Inspection checked = FontExtractor.inspect(channel);
                 inspection = checked;
                 runOnUiThread(() -> setBusy(false,
-                        "검증 완료: " + checked.discId + " v" + checked.version + ". 아래 버튼으로 Alpha ISO를 만드세요."));
+                        "검증 완료: " + checked.discId + " v" + checked.version + ". 아래 버튼으로 Beta ISO를 만드세요."));
             } catch (Exception e) {
                 inspection = null;
                 runOnUiThread(() -> setBusy(false, "검증 실패: " + message(e)));
@@ -129,7 +129,7 @@ public final class MainActivity extends Activity {
         Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
         out.addCategory(Intent.CATEGORY_OPENABLE);
         out.setType("application/octet-stream");
-        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_Alpha.iso");
+        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_Beta.iso");
         startActivityForResult(out, CREATE_PATCHED_ISO);
     }
 
@@ -143,17 +143,17 @@ public final class MainActivity extends Activity {
             return;
         }
 
-        setBusy(true, "한국어 Alpha 빌드 준비 중…");
+        setBusy(true, "한국어 Beta 빌드 준비 중…");
         Uri inputUri = sourceUri;
         FontExtractor.Inspection checked = inspection;
         worker.execute(() -> {
             boolean success = false;
-            File session = new File(getCacheDir(), "korean-alpha-" + System.nanoTime());
+            File session = new File(getCacheDir(), "korean-beta-" + System.nanoTime());
             try {
                 if (!session.mkdirs()) throw new IllegalStateException("임시 작업 폴더를 만들 수 없습니다.");
                 File rootDir = ensureProjectAssets();
                 File source = new File(session, "source.iso");
-                File output = new File(session, "korean-alpha.iso");
+                File output = new File(session, "korean-beta.iso");
                 File work = new File(session, "work");
 
                 updateStatus("원본 ISO를 앱 작업공간으로 복사 중…");
@@ -174,7 +174,7 @@ public final class MainActivity extends Activity {
                         "--iso", source.getAbsolutePath(),
                         "--out", output.getAbsolutePath(),
                         "--work-dir", work.getAbsolutePath(),
-                        "--version", "mobile-alpha");
+                        "--version", "mobile-beta");
                 builder.directory(rootDir);
                 builder.redirectErrorStream(true);
                 Process process = builder.start();
@@ -199,7 +199,7 @@ public final class MainActivity extends Activity {
                 copyFileToUri(output, outputUri);
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "완료. 생성된 Korean Alpha ISO를 PPSSPP에서 실행해 주세요. 번역된 부분은 한국어, 나머지는 일본어로 표시됩니다."));
+                        "완료. 생성된 Korean Beta ISO를 PPSSPP에서 실행해 주세요. 실제 화면의 줄바꿈·잘림·폰트는 이번 베타에서 확인합니다."));
             } catch (Exception e) {
                 final String error = message(e);
                 runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
@@ -211,7 +211,7 @@ public final class MainActivity extends Activity {
     }
 
     private File ensureProjectAssets() throws Exception {
-        File root = new File(getFilesDir(), "zillroot-v7");
+        File root = new File(getFilesDir(), "zillroot-beta-v1");
         File marker = new File(root, ".ready");
         if (marker.isFile()) return root;
         deleteRecursively(root);
