@@ -3,5 +3,15 @@
     "old": "후후… 다행이네. 고작 인형에게 당하면 어쩌나 했어. 역시 <value:$28>. 내가 직접 손을 써야겠군요….<end>",
     "new": "후후… 다행이에요. 고작 인형에게 당하면 어쩌나 했답니다. 역시 <value:$28>. 제가 직접 손을 써야 할 모양이군요….<end>",
     "reason": "Atreia speaks the near-duplicate 1330570 in consistently polite/feminine Korean (다행이에요/했답니다/제가/군요); 1330580 alone mixed 다행이네/했어/내가 with 군요, so this is a reviewed voice-consistency correction."
+  },
+  "1360534": {
+    "old": "레이븐을 물건처럼 말하지 마! 그에게 손대게 두지 않겠어!<end>",
+    "new": "레이븐을 물건처럼 말하지 마! 그에게 손대게 두지 않겠습니다!<end>",
+    "reason": "Noel's source intentionally shifts from emotional casual 言わないで to polite-resolute 手を出させません; surrounding Noel dialogue also establishes Korean 존댓말. Preserve the first outburst but restore the second formal ending."
+  },
+  "1410028": {
+    "old": "레이븐을 물건처럼 말하지 마! 그에게 손대게 두지 않겠어!<end>",
+    "new": "레이븐을 물건처럼 말하지 마! 그에게 손대게 두지 않겠습니다!<end>",
+    "reason": "Duplicate Noel event of 1360534. The preceding 1410025 already uses 제/예요/않겠습니다; preserve source register shift by restoring the second formal ending here too."
   }
 }
