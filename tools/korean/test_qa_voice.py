@@ -67,7 +67,7 @@ class VoiceHazardTest(unittest.TestCase):
     def test_distinct_casual_ending_still_matches(self):
         self.assertIn(
             "polite_jp_casual_ko",
-            mod.classify("もう終わりました。", "벌써 끝났어."),
+            mod.classify("そうしました。", "그렇게 했어."),
         )
 
     def test_exception_registry_validation(self):
