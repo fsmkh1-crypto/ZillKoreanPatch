@@ -76,6 +76,7 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	}
 	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
 	if err != nil { return err }
+	if err := logCompiledKoreanForensics(compiled); err != nil { return err }
 	if err := addBanks(owners, compiled); err != nil { return err }
 
 	fontReplacements, err := prepareKoreanMobileFontReplacements(root, archives, plan)
@@ -113,6 +114,8 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 			return fmt.Errorf("rebuild %s archive: %w", archive.name, err)
 		}
 	}
+	if err := logStagedKoreanFontForensics(root, staging, plan.Mapping); err != nil { return err }
 	if err := authorTranslatedISO(outputPath, retailISO, isoManifest, staging); err != nil { return err }
+	if err := logFinalISOArchiveForensics(outputPath, staging); err != nil { return err }
 	return nil
 }
