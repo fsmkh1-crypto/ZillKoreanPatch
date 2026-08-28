@@ -34,6 +34,17 @@ JP_BLUNT_RE = re.compile(r"(?:だぞ|だぜ|だな|だろ|だろう|じゃない
 KO_FORMAL_RE = re.compile(r"(?:습니다|습니까|입니다|입니까|십시오|세요|셨어요|했어요|해요|예요|이에요|군요|네요|죠)(?:[.!?…]|$)")
 KO_CASUAL_RE = re.compile(r"(?:해라|하지 마|하지마|해 줘|해줘|해|했어|할게|할까|하냐|하니|냐|니|구나|군|네|잖아|거야|거냐|마라|해 둬|해둬)(?:[.!?…]|$)")
 
+# Korean first-person forms need token-aware matching. In particular, treating
+# ``나가`` as ``나+가`` creates false positives in ordinary verbs such as
+# ``전장에 나가 있다``. Standard subject forms are ``내가`` / ``제가``;
+# explicit pronoun forms below deliberately exclude the ambiguous ``나가/저가``.
+KO_ROUGH_FIRST_RE = re.compile(
+    r"(?:^|[\s,，。!?！？])(?:나는|나도|나를|나에게|나한테|나의|내가)(?=$|[\s,，。!?！？])"
+)
+KO_POLITE_FIRST_RE = re.compile(
+    r"(?:^|[\s,，。!?！？])(?:저는|저도|저를|저에게|저한테|저의|제가)(?=$|[\s,，。!?！？])"
+)
+
 SEVERITY = {
     "hostile_jp_polite_ko": 100,
     "neutral_jp_hostile_ko": 95,
@@ -76,9 +87,9 @@ def classify(japanese: str, korean: str) -> list[str]:
     if JP_BLUNT_RE.search(ja_vis) and KO_FORMAL_RE.search(ko_vis):
         findings.append("blunt_jp_formal_ko")
 
-    if has_any(japanese, ("俺", "オレ", "俺様")) and re.search(r"(?:^|[\s,，。!?！？])저(?:는|가|도|를|에게|한테|의|$)", ko_vis):
+    if has_any(japanese, ("俺", "オレ", "俺様")) and KO_POLITE_FIRST_RE.search(ko_vis):
         findings.append("rough_first_person_polite_ko")
-    if has_any(japanese, ("わたくし", "私め", "拙者")) and re.search(r"(?:^|[\s,，。!?！？])나(?:는|가|도|를|에게|한테|의|$)", ko_vis):
+    if has_any(japanese, ("わたくし", "私め", "拙者")) and KO_ROUGH_FIRST_RE.search(ko_vis):
         findings.append("humble_first_person_blunt_ko")
 
     return list(dict.fromkeys(findings))
