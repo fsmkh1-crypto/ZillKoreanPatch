@@ -17,10 +17,13 @@ import (
 // planner/compiler drift.
 type KoreanAlphaPlanBuilder func(source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error)
 
-// BuildKoreanAlphaISOOnly builds only the development Korean ISO. Retail message
-// banks are authenticated and bound before either planning or placeholder
-// projection. The same bound source instance is then used by the planner and
-// compiler, matching the validated ordering of the normal release builder.
+// BuildKoreanAlphaISOOnly builds the mobile Korean beta ISO from the canonical
+// reviewed Korean overlay. Retail message banks are authenticated and bound
+// before either planning or compilation. Unlike the earlier device-alpha path,
+// this function no longer manufactures [JP] placeholders or discards reviewed
+// layout data: accepted Korean rows are compiled exactly as maintained in the
+// canonical corpus, while records without a Korean row retain their retail
+// Japanese bytes.
 func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string, planBuilder KoreanAlphaPlanBuilder) (err error) {
 	root, err = resolveExistingPath(root, "project root")
 	if err != nil { return err }
@@ -28,16 +31,16 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 	isoPath, err = resolveExistingPath(isoPath, "source ISO")
 	if err != nil { return err }
-	if planBuilder == nil { return fmt.Errorf("Korean alpha build: nil plan builder") }
+	if planBuilder == nil { return fmt.Errorf("Korean beta build: nil plan builder") }
 
 	outputPath, err = filepath.Abs(outputPath)
-	if err != nil { return fmt.Errorf("resolve Korean alpha output: %w", err) }
+	if err != nil { return fmt.Errorf("resolve Korean beta output: %w", err) }
 	if overlaps(isoPath, outputPath) || overlaps(gameDir, outputPath) {
-		return fmt.Errorf("Korean alpha output must not overlap retail inputs")
+		return fmt.Errorf("Korean beta output must not overlap retail inputs")
 	}
 	if err := validateReleaseDestination(outputPath, false); err != nil { return err }
 	if err := os.MkdirAll(filepath.Dir(outputPath), 0o755); err != nil {
-		return fmt.Errorf("create Korean alpha output parent: %w", err)
+		return fmt.Errorf("create Korean beta output parent: %w", err)
 	}
 
 	retailISO, isoManifest, err := openRetailISO(isoPath)
@@ -62,15 +65,13 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 	fmt.Printf("Korean coverage: %d/%d records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
 
-	// Placeholder projection uses the same authenticated retail token streams
-	// already consumed by the planner above. The alpha overlay deliberately has
-	// Layout cleared for accepted Korean rows, so planner and compiler both test
-	// semantic Korean only. Production layout data remains untouched on disk.
-	alphaProject, placeholderCount, err := BuildKoreanAlphaPlaceholderProject(source, korean)
-	if err != nil { return err }
-	fmt.Printf("Korean alpha compiler placeholders: %d\n", placeholderCount)
-
-	compiled, err := compileKoreanBanksWithPlan(source, alphaProject, banks, plan, nil)
+	layouts := make(map[int]string)
+	for _, row := range korean.Entries {
+		if row.Layout != "" {
+			layouts[row.ID] = row.Layout
+		}
+	}
+	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
 	if err != nil { return err }
 	if err := addBanks(owners, compiled); err != nil { return err }
 
@@ -81,7 +82,7 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 		for _, candidate := range archives {
 			if candidate.name == "pa" { pa = candidate; break }
 		}
-		if pa == nil { return fmt.Errorf("Korean alpha build: pa archive unavailable") }
+		if pa == nil { return fmt.Errorf("Korean beta build: pa archive unavailable") }
 		pa.replacements = append(pa.replacements, fontReplacements...)
 	}
 
@@ -91,7 +92,7 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 
 	bundle, err := os.MkdirTemp(filepath.Dir(outputPath), ".zill-korean-mobile.")
-	if err != nil { return fmt.Errorf("create Korean alpha staging directory: %w", err) }
+	if err != nil { return fmt.Errorf("create Korean beta staging directory: %w", err) }
 	defer os.RemoveAll(bundle)
 	staging := filepath.Join(bundle, "PSP_GAME")
 	if err := copyTree(gameDir, staging); err != nil { return err }
