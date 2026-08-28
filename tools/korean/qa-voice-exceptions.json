@@ -22,5 +22,11 @@
   {"id":"1410244","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis's わたくし is embedded in an intimate reflective line; Korean 나 is consistent with the surrounding scene voice."},
   {"id":"1880053","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"This is Chryseis's private self-reflection; Japanese わたくし coexists with casual feminine self-talk, so Korean 나는 is intentional."},
   {"id":"1880128","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"This parenthetical inner monologue uses わたくし but is casual self-talk; Korean 나는/나를 is the natural equivalent."},
-  {"id":"1920099","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis uses わたくし in a relaxed personal scene with casual feminine endings; Korean 나도 is intentional."}
+  {"id":"1920099","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis uses わたくし in a relaxed personal scene with casual feminine endings; Korean 나도 is intentional."},
+
+  {"id":"40016","segment":7,"kind":"polite_jp_casual_ko","category":"source_register_shift","reason":"This tutorial NPC is casual through the preceding branches and playfully switches to ですよ/ません/ですか only in the final bragging beat; keeping the established Korean casual voice is intentional."},
+  {"id":"560043","segment":0,"kind":"polite_jp_casual_ko","category":"self_reflective_register_shift","reason":"The source itself moves from polite speech to the self-reflective 同じなんだ; Korean likewise keeps polite address while rendering the inner realization naturally."},
+  {"id":"620342","segment":0,"kind":"polite_jp_casual_ko","category":"source_register_shift","reason":"The waitress apologizes politely, blurts a casual complaint about the badly timed job, then returns to polite speech; Korean mirrors that exact emotional register shift."},
+  {"id":"770032","segment":0,"kind":"polite_jp_casual_ko","category":"emotional_register_breakdown","reason":"The distressed speaker starts with polite apologies and ends with the blunt intimate plea ひとりにして; Korean 가 주세요→혼자 있게 해 줘 intentionally mirrors the breakdown."},
+  {"id":"790131","segment":0,"kind":"polite_jp_casual_ko","category":"formula_inside_casual_voice","reason":"Yuris is casual throughout the introduction; ユーリスって言います is a conventional self-introduction formula embedded between casual ありがとう/よろしくね, so Korean casual voice is correct."}
 ]
