@@ -5,10 +5,13 @@ package main
 import (
 	"fmt"
 	"io"
+	"path/filepath"
+	"strings"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/koreancorpus"
 	"github.com/HK47196/zill/internal/koreanslots"
+	"github.com/HK47196/zill/internal/message"
 )
 
 func runKoreanCheck(root string, args []string, stdout, stderr io.Writer) int {
@@ -41,12 +44,24 @@ func runKoreanCheck(root string, args []string, stdout, stderr io.Writer) int {
 			fmt.Fprintf(stderr, "zill: korean-check: loader disagreement: production loader has %d records, strict loader has %d\n", len(korean.Entries), len(strict.Records))
 			return 1
 		}
+		layoutFailures := make([]string, 0)
 		for index, entry := range korean.Entries {
 			record := strict.Records[index]
 			if record.ID != entry.ID || record.Japanese != entry.Japanese || record.Text != entry.Korean || record.Layout != entry.Layout {
 				fmt.Fprintf(stderr, "zill: korean-check: loader disagreement at index %d: production ID %d, strict ID %d\n", index, entry.ID, record.ID)
 				return 1
 			}
+			if record.Layout != "" && !message.PreservesLayoutSemantics(record.Text, record.Layout) {
+				file := record.File
+				if relative, err := filepath.Rel(root, record.File); err == nil {
+					file = relative
+				}
+				layoutFailures = append(layoutFailures, fmt.Sprintf("%d@%s", record.ID, file))
+			}
+		}
+		if len(layoutFailures) != 0 {
+			fmt.Fprintf(stderr, "zill: korean-check: %d Korean layout(s) change semantic/control text: %s\n", len(layoutFailures), strings.Join(layoutFailures, ", "))
+			return 1
 		}
 	}
 
