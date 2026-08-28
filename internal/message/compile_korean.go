@@ -22,6 +22,16 @@ type KoreanRecord struct {
 	Layout string
 }
 
+var characterChoiceBufferDiagnostic = map[int]string{
+	10016: "약점을 찾아 여러 수를 쓴다<end>",
+	10017: "힘을 믿고 정면으로 싸운다<end>",
+	10020: "초원의 아름다움을 그린다<end>",
+	10025: "강인한 의지의 늠름한 표정<end>",
+	10026: "모두를 감싸는 온화한 표정<end>",
+	10034: "폭발적 파괴력을 내는 체력<end>",
+	10071: "물살을 거슬러 오르는 물고기<end>",
+}
+
 // CompileBankKorean compiles only explicitly supplied Korean replacements and
 // copies every other retail record unchanged. Semantic Korean must be layout-free;
 // optional generated Layout may insert line breaks only while preserving all
@@ -52,6 +62,15 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			continue
 		}
 		matched[source.ID] = struct{}{}
+
+		// Runtime diagnostic: these verified character-creation choices are copied
+		// through a 31-byte consumer buffer (30 bytes plus terminator). The canonical
+		// Korean strings exceeded that limit by 1-4 bytes. Keep the N1 experiment
+		// otherwise unchanged while shortening only the unsafe choices.
+		if text, ok := characterChoiceBufferDiagnostic[source.ID]; ok {
+			replacement.Text = text
+			replacement.Layout = ""
+		}
 
 		// Runtime diagnostic: ID 10010 begins with the movable <value:$15>
 		// substitution immediately followed by a custom Korean renderer glyph.
