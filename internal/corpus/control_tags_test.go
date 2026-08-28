@@ -26,3 +26,31 @@ func TestRuntimeControlTagsCoverDisplayTextControlForms(t *testing.T) {
 		t.Fatalf("got %d control tags: %#v", len(got), got)
 	}
 }
+
+func TestFixedRuntimeLiteralOccupancyIgnoresLineBreaksAndWhitespace(t *testing.T) {
+	text := "  <if><value:$01><equal>19本文<line-break>続き<end>  <line-break>…<value:$28>、<line-break><if>次<end>"
+	want := []bool{false, false, false, true, true, true, true}
+	if got := FixedRuntimeLiteralOccupancy(text); !slices.Equal(got, want) {
+		t.Fatalf("FixedRuntimeLiteralOccupancy = %#v, want %#v", got, want)
+	}
+}
+
+func TestFixedRuntimeLiteralOccupancyExposesDroppedBranchLiteral(t *testing.T) {
+	source := "<if><value:$01><equal>14前<end>…<value:$28>、<line-break><if>後<end>"
+	translated := "<if><value:$01><equal>14앞<end><value:$28>, <if>뒤<end>"
+	want := FixedRuntimeLiteralOccupancy(source)
+	got := FixedRuntimeLiteralOccupancy(translated)
+	if len(got) != len(want) {
+		t.Fatalf("occupancy lengths differ: got %d want %d", len(got), len(want))
+	}
+	missing := false
+	for i := range want {
+		if want[i] && !got[i] {
+			missing = true
+			break
+		}
+	}
+	if !missing {
+		t.Fatalf("expected dropped fixed literal to be detectable: source=%#v translated=%#v", want, got)
+	}
+}
