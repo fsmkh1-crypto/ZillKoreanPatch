@@ -1,0 +1,25 @@
+[
+  {"id":"330127","segment":0,"kind":"blunt_jp_formal_ko","category":"source_register_shift","reason":"The dying plea itself shifts from polite です to blunt 頼む/行ってくれ; Korean intentionally mirrors that breakdown in register."},
+  {"id":"560220","segment":0,"kind":"blunt_jp_formal_ko","category":"source_register_shift","reason":"The speaker alternates polite sentences with the self-directed casual 私、どうしたんだろ; Korean preserves the same emotional register shift."},
+  {"id":"890103","segment":0,"kind":"blunt_jp_formal_ko","category":"source_register_shift","reason":"The source moves from a blunt group conclusion to a formal request addressed to the protagonist; Korean preserves both registers."},
+  {"id":"890500","segment":0,"kind":"blunt_jp_formal_ko","category":"situational_register_shift","reason":"The guard starts dismissively, then switches to formal service language after recognizing the commander's letter; intentional scene-driven register change."},
+  {"id":"1740182","segment":0,"kind":"blunt_jp_formal_ko","category":"source_register_shift","reason":"The Japanese monologue deliberately mixes ですね/ましたよ with the rhetorical 偽善じゃないか; Korean preserves that mixed reflective voice."},
+
+  {"id":"310307","segment":0,"kind":"rough_first_person_polite_ko","category":"fear_induced_politeness","reason":"The speaker uses 俺 but is panicking and begging not to be hit; Korean polite pleading is contextually natural."},
+  {"id":"1370530","segment":0,"kind":"rough_first_person_polite_ko","category":"character_idiolect","reason":"The character explicitly combines 俺 with military-comic であります; Korean 저 + formal ending is an intentional equivalent."},
+  {"id":"1580003","segment":1,"kind":"rough_first_person_polite_ko","category":"character_idiolect","reason":"The character consistently combines 俺 with っす toward Ossi; Korean 저 and clipped polite speech preserve that idiolect."},
+  {"id":"1580003","segment":2,"kind":"rough_first_person_polite_ko","category":"character_idiolect","reason":"The character consistently combines 俺 with っす toward the protagonist; Korean 저 and clipped polite speech preserve that idiolect."},
+  {"id":"1580003","segment":3,"kind":"rough_first_person_polite_ko","category":"character_idiolect","reason":"The character consistently combines 俺 with っす toward the protagonist; Korean 저 and clipped polite speech preserve that idiolect."},
+  {"id":"1580003","segment":4,"kind":"rough_first_person_polite_ko","category":"character_idiolect","reason":"The character consistently combines 俺 with っす; Korean 저 and clipped polite speech preserve that idiolect."},
+
+  {"id":"560502","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis uses わたくし as a feminine/noble first person while speaking emotionally in casual endings; Korean 나 is intentional here."},
+  {"id":"560512","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis uses わたくし with emotional casual speech and brief polite thanks in the same source; Korean preserves that mixed voice."},
+  {"id":"1050091","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis's わたくし is character voice rather than a mechanical politeness marker; the source sentence is imperious casual feminine speech."},
+  {"id":"1050095","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis's わたくし occurs in casual feminine speech; Korean 내가 is consistent with the scene relationship."},
+  {"id":"1060103","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis addresses the protagonist in casual feminine speech despite わたくし; Korean 나 is contextually intentional."},
+  {"id":"1410238","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis uses わたくし in an intimate/casual exchange; Korean 나 preserves the local relationship rather than literal formality."},
+  {"id":"1410244","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis's わたくし is embedded in an intimate reflective line; Korean 나 is consistent with the surrounding scene voice."},
+  {"id":"1880053","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"This is Chryseis's private self-reflection; Japanese わたくし coexists with casual feminine self-talk, so Korean 나는 is intentional."},
+  {"id":"1880128","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"This parenthetical inner monologue uses わたくし but is casual self-talk; Korean 나는/나를 is the natural equivalent."},
+  {"id":"1920099","segment":0,"kind":"humble_first_person_blunt_ko","category":"noble_feminine_voice","reason":"Chryseis uses わたくし in a relaxed personal scene with casual feminine endings; Korean 나도 is intentional."}
+]
