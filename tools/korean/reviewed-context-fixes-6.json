@@ -8,5 +8,10 @@
     "old": "호오오— 봉황이란 말씀이오? 그냥 내버려 두면 되겠소이다. 후후후후… 나도 이제 말장난의 요령을 잡은 듯하오.<end>",
     "new": "호오오— 봉황이란 말씀이오? 그냥 내버려 두면 되겠소이다. 후후후후… 소인도 이제 말장난의 요령을 잡은 듯하오.<end>",
     "reason": "Same samurai companion explicitly says 拙者; nearby 1230017 already establishes 拙者 → 소인 with the same archaic voice."
+  },
+  "630050": {
+    "old": "사, 살려주세요! 내가 말했다는 게 들키면 죽어요. 타르튜바 님이 인형을 여자에게 선물했다는 걸 제가 어떻게 말합니까!<end>",
+    "new": "사, 살려주세요! 제가 말했다는 게 들키면 죽어요. 타르튜바 님이 인형을 여자에게 선물했다는 걸 제가 어떻게 말합니까!<end>",
+    "reason": "The same terrified henchman speaks politely in surrounding 630049-630051 and already uses 제가 later in this utterance; normalize the accidental 내가→제가 switch while pleading."
   }
 }
