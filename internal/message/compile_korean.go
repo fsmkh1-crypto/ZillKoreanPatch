@@ -53,6 +53,15 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		}
 		matched[source.ID] = struct{}{}
 
+		// Runtime diagnostic: keep the exact retail payload for ID 210065 while
+		// retaining the current wide-bank container, mapping, font, and all other
+		// Korean records. This isolates whether the Korean 210065 payload itself is
+		// required for the intermittent freeze observed immediately before display.
+		if source.ID == 210065 {
+			records[index] = append([]byte(nil), source.Raw...)
+			continue
+		}
+
 		// Runtime diagnostic: ID 10010 begins with the movable <value:$15>
 		// substitution immediately followed by a custom Korean renderer glyph.
 		// Insert one stock ASCII space after the substitution in both semantic and
