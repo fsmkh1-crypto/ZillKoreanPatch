@@ -8,6 +8,9 @@ signals and ranks the resulting rows for human/LLM context review.
 Multi-branch records are compared branch-by-branch only when the authoritative
 fixed control-token skeleton matches. Genuine structural fallbacks are reported
 rather than hidden; ordinary records without <end> are simply scanned whole.
+
+Reviewed contextual exceptions are kept in qa-voice-exceptions.json so already
+checked character/register choices do not keep consuming the actionable queue.
 """
 from __future__ import annotations
 
@@ -21,6 +24,7 @@ from control_tags import fixed_tokens
 
 ROOT = Path(__file__).resolve().parents[2]
 KOREAN_DIR = ROOT / "translations" / "korean" / "messages"
+VOICE_EXCEPTIONS_PATH = ROOT / "tools" / "korean" / "qa-voice-exceptions.json"
 SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:(?:-part\d+)|b)?\.toml$")
 END = "<end>"
 CONTROL_RE = re.compile(r"<[^<>]+>")
@@ -124,12 +128,40 @@ def row_priority(kinds: list[str]) -> int:
     return max((SEVERITY.get(kind, 1) for kind in kinds), default=0)
 
 
+def load_reviewed_exceptions(path: Path = VOICE_EXCEPTIONS_PATH) -> dict[tuple[str, int, str], dict[str, str]]:
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, list):
+        raise ValueError(f"QA-4 exception registry must be a list: {path}")
+    out: dict[tuple[str, int, str], dict[str, str]] = {}
+    for i, item in enumerate(raw):
+        if not isinstance(item, dict):
+            raise ValueError(f"QA-4 exception #{i} is not an object")
+        rid = str(item.get("id", ""))
+        segment = item.get("segment", 0)
+        kind = item.get("kind")
+        category = item.get("category")
+        reason = item.get("reason")
+        if not rid.isdigit() or not isinstance(segment, int) or segment < 0:
+            raise ValueError(f"QA-4 exception #{i} has invalid id/segment")
+        if kind not in SEVERITY or not isinstance(category, str) or not category or not isinstance(reason, str) or not reason:
+            raise ValueError(f"QA-4 exception #{i} has invalid kind/category/reason")
+        key = (rid, segment, kind)
+        if key in out:
+            raise ValueError(f"duplicate QA-4 exception key: {key}")
+        out[key] = {"category": category, "reason": reason}
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", type=Path)
     ap.add_argument("--max-examples", type=int, default=80)
     args = ap.parse_args()
 
+    reviewed = load_reviewed_exceptions()
+    matched_reviewed: set[tuple[str, int, str]] = set()
     findings: list[dict[str, object]] = []
     seen_ids: set[int] = set()
     scanned = 0
@@ -171,34 +203,68 @@ def main() -> None:
             for segment, ja_seg, ko_seg in paired_segments(ja, ko):
                 kinds = classify(ja_seg, ko_seg)
                 if kinds:
+                    reviewed_kinds: list[str] = []
+                    reviewed_details: list[dict[str, str]] = []
+                    for kind in kinds:
+                        key = (str(rid), segment, kind)
+                        if key in reviewed:
+                            matched_reviewed.add(key)
+                            reviewed_kinds.append(kind)
+                            reviewed_details.append({"kind": kind, **reviewed[key]})
+                    actionable_kinds = [kind for kind in kinds if kind not in reviewed_kinds]
                     findings.append({
                         "id": str(rid),
                         "section": section,
                         "path": path.name,
                         "segment": segment,
                         "priority": row_priority(kinds),
+                        "actionable_priority": row_priority(actionable_kinds),
                         "kinds": kinds,
+                        "actionable_kinds": actionable_kinds,
+                        "reviewed_exception_kinds": reviewed_kinds,
+                        "reviewed_exceptions": reviewed_details,
                         "japanese": ja_seg + (END if END in ja else ""),
                         "korean": ko_seg + (END if END in ko else ""),
                     })
 
-    findings.sort(key=lambda row: (-int(row["priority"]), int(row["id"]), int(row["segment"])))
+    stale_reviewed = sorted(set(reviewed) - matched_reviewed)
+    if stale_reviewed:
+        raise ValueError("stale QA-4 exception entries: " + ", ".join(map(str, stale_reviewed)))
+
+    findings.sort(
+        key=lambda row: (
+            -int(row["actionable_priority"]),
+            -int(row["priority"]),
+            int(row["id"]),
+            int(row["segment"]),
+        )
+    )
     all_kinds = sorted({k for row in findings for k in row["kinds"]})
+    actionable_rows = [row for row in findings if row["actionable_kinds"]]
     priority_bands = {
         "tier1_80_plus": sum(int(row["priority"]) >= 80 for row in findings),
         "tier2_60_79": sum(60 <= int(row["priority"]) < 80 for row in findings),
         "tier3_under_60": sum(int(row["priority"]) < 60 for row in findings),
     }
+    actionable_priority_bands = {
+        "tier1_80_plus": sum(int(row["actionable_priority"]) >= 80 for row in actionable_rows),
+        "tier2_60_79": sum(60 <= int(row["actionable_priority"]) < 80 for row in actionable_rows),
+        "tier3_under_60": sum(int(row["actionable_priority"]) < 60 for row in actionable_rows),
+    }
     report = {
-        "schema": 4,
+        "schema": 5,
         "scanned_records": scanned,
         "finding_count": len(findings),
         "finding_record_count": len({str(row["id"]) for row in findings}),
+        "actionable_finding_count": len(actionable_rows),
+        "actionable_record_count": len({str(row["id"]) for row in actionable_rows}),
+        "reviewed_exception_kind_count": sum(len(row["reviewed_exception_kinds"]) for row in findings),
         "finding_by_kind": {
             kind: sum(kind in row["kinds"] for row in findings)
             for kind in all_kinds
         },
         "priority_bands": priority_bands,
+        "actionable_priority_bands": actionable_priority_bands,
         "fallback_count": fallback_count,
         "fallback_examples": fallback_examples,
         "findings": findings,
@@ -211,8 +277,12 @@ def main() -> None:
     print(f"  scanned_records: {scanned}")
     print(f"  finding_count: {len(findings)}")
     print(f"  finding_record_count: {report['finding_record_count']}")
+    print(f"  actionable_finding_count: {report['actionable_finding_count']}")
+    print(f"  actionable_record_count: {report['actionable_record_count']}")
+    print(f"  reviewed_exception_kind_count: {report['reviewed_exception_kind_count']}")
     print(f"  fallback_count: {fallback_count}")
     print("  priority_bands: " + json.dumps(priority_bands, ensure_ascii=False, sort_keys=True))
+    print("  actionable_priority_bands: " + json.dumps(actionable_priority_bands, ensure_ascii=False, sort_keys=True))
     print("  finding_by_kind: " + json.dumps(report["finding_by_kind"], ensure_ascii=False, sort_keys=True))
     for row in fallback_examples[: max(args.max_examples, 0)]:
         print("  fallback: " + json.dumps(row, ensure_ascii=False, sort_keys=True))
