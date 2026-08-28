@@ -1,30 +1,38 @@
-name: Android Korean alpha patcher
+name: Android Korean beta patcher
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'android-patcher/**'
+      - 'translations/korean/**'
+      - 'release/korean/font/glyphs.toml'
       - 'cmd/zill/build_korean_iso.go'
       - 'cmd/zill/build_korean_mobile_plan.go'
       - 'cmd/zill/main.go'
-      - 'internal/message/placeholder.go'
+      - 'internal/release/korean.go'
+      - 'internal/release/korean_plan.go'
       - 'internal/release/korean_mobile.go'
       - 'internal/release/korean_font_mobile.go'
-      - 'internal/release/korean_placeholder.go'
       - 'internal/zillfont/korean_rewrite.go'
+      - 'patches/executable/**'
+      - 'patches/system/**'
       - '.github/workflows/android-extractor.yml'
   pull_request:
     paths:
       - 'android-patcher/**'
+      - 'translations/korean/**'
+      - 'release/korean/font/glyphs.toml'
       - 'cmd/zill/build_korean_iso.go'
       - 'cmd/zill/build_korean_mobile_plan.go'
       - 'cmd/zill/main.go'
-      - 'internal/message/placeholder.go'
+      - 'internal/release/korean.go'
+      - 'internal/release/korean_plan.go'
       - 'internal/release/korean_mobile.go'
       - 'internal/release/korean_font_mobile.go'
-      - 'internal/release/korean_placeholder.go'
       - 'internal/zillfont/korean_rewrite.go'
+      - 'patches/executable/**'
+      - 'patches/system/**'
       - '.github/workflows/android-extractor.yml'
 
 permissions:
@@ -34,9 +42,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-go@v6
+      - uses: actions/setup-go@v7
         with:
           go-version-file: go.mod
 
@@ -53,7 +61,7 @@ jobs:
           yes | sdkmanager --licenses >/dev/null || true
           sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
 
-      - name: Prepare embedded Korean project data
+      - name: Prepare embedded Korean beta project data
         shell: bash
         run: |
           set -euxo pipefail
@@ -67,7 +75,7 @@ jobs:
           cp patches/system/param-sfo.toml "$ROOT/patches/system/"
           du -sh "$ROOT"
 
-      - name: Build arm64 Korean builder
+      - name: Build arm64 Korean beta builder
         shell: bash
         run: |
           set -euxo pipefail
@@ -91,14 +99,15 @@ jobs:
       - name: Build debug APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
 
-      - name: Inspect APK native payload
+      - name: Inspect APK beta payload
         shell: bash
         run: |
           set -euo pipefail
           unzip -l android-patcher/app/build/outputs/apk/debug/app-debug.apk > /tmp/apk-list.txt
           grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
           grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
-          grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt | sed -n '1,20p'
+          grep -q 'assets/zillroot/release/korean/font/glyphs.toml' /tmp/apk-list.txt
+          grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations/korean/messages/|assets/zillroot/release/korean/font/glyphs.toml' /tmp/apk-list.txt | sed -n '1,24p'
 
       - name: SHA-256
         shell: bash
@@ -106,7 +115,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-korean-alpha-patcher-debug
+          name: zill-korean-beta-patcher-debug
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
