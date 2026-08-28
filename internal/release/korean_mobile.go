@@ -74,6 +74,11 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 			layouts[row.ID] = row.Layout
 		}
 	}
+	if err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping); err != nil {
+		return err
+	}
+	fmt.Println("Korean C5 static storage check: no violation detected; runtime substitutions still require QA.")
+
 	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
 	if err != nil { return err }
 	if err := addBanks(owners, compiled); err != nil { return err }
