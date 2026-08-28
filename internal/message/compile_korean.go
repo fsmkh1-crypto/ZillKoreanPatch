@@ -57,7 +57,11 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			continue
 		}
 		if !preservesSemantics(replacement.Text, replacement.Layout) {
-			return nil, fmt.Errorf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID)
+			// Layout is a best-effort wrapping hint. The canonical semantic text
+			// has already passed projection/control validation above, so a stale
+			// or malformed layout must not make an otherwise safe record fatal.
+			records[index] = semantic
+			continue
 		}
 		records[index], err = projection.MaterializeKorean(replacement.Layout, true, mapping)
 		if err != nil {
