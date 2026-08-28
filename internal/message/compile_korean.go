@@ -22,6 +22,18 @@ type KoreanRecord struct {
 	Layout string
 }
 
+var characterChoiceBufferDiagnostic = map[int]string{
+	10016: "약점을 찾아 여러 방법 시도<end>",
+	10017: "힘을 믿고 정면 싸운다<end>",
+	10020: "초원의 아름다움 그림에 담는다<end>",
+	10025: "강인한 의지의 늠름한 표정<end>",
+	10026: "모든 것을 감싸는 온화한 표정<end>",
+	10034: "폭발적 파괴력을 내는 체력<end>",
+	10071: "물살을 거슬러 오르는 물고기<end>",
+}
+
+const opening210065SafeLayout = "광대한 대지 바이아시온 대륙.<line-break>너무나 넓어 지도에도 기록되지<line-break>않고 여행자에게조차 알려지지 않은<line-break>작은 마을이 있다…. 마을의 이름은<line-break>미이스. 그곳에는 작은 신전과 숲,<line-break>그리고 평온한 일상 정도뿐이었다.<line-break>위대한 혼의 이야기는<line-break>여기서 시작된다…….<end>"
+
 // CompileBankKorean compiles only explicitly supplied Korean replacements and
 // copies every other retail record unchanged. Semantic Korean must be layout-free;
 // optional generated Layout may insert line breaks only while preserving all
@@ -53,16 +65,34 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		}
 		matched[source.ID] = struct{}{}
 
-		// Runtime diagnostic: ID 10010 begins with the movable <value:$15>
-		// substitution immediately followed by a custom Korean renderer glyph.
-		// Insert one stock ASCII space after the substitution in both semantic and
-		// layout forms so device testing can isolate substitution/glyph adjacency
-		// without changing the source-owned control stream.
+		// Runtime diagnostic: these verified character-creation choices are copied
+		// through a 31-byte consumer buffer (30 bytes plus terminator). The canonical
+		// Korean strings exceeded that limit by 1-4 bytes. Shorten only those seven
+		// records, without introducing any new Korean runes.
+		if text, ok := characterChoiceBufferDiagnostic[source.ID]; ok {
+			replacement.Text = text
+			replacement.Layout = ""
+		}
+
+		// Runtime diagnostic inherited from H0: keep one stock ASCII separator after
+		// the movable player-name substitution so this combined experiment does not
+		// change the historical 10010 condition.
 		if source.ID == 10010 {
 			replacement.Text = strings.Replace(replacement.Text, "<value:$15>", "<value:$15> ", 1)
 			if replacement.Layout != "" {
 				replacement.Layout = strings.Replace(replacement.Layout, "<value:$15>", "<value:$15> ", 1)
 			}
+		}
+
+		// Runtime diagnostic: ID 210065 is a verified C22 consumer. Use the authored
+		// eight-line layout whose individual lines are 20-33 encoded bytes, well
+		// below the 56-byte C22 line limit, while preserving semantic text exactly.
+		if source.ID == 210065 {
+			if replacement.Text != "광대한 대지 바이아시온 대륙. 너무나 넓어 지도에도 기록되지 않고 여행자에게조차 알려지지 않은 작은 마을이 있다…. 마을의 이름은 미이스. 그곳에는 작은 신전과 숲, 그리고 평온한 일상 정도뿐이었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>" {
+				failures = append(failures, fmt.Sprintf("%s: ID 210065 combined diagnostic semantic precondition failed", bank.Name))
+				continue
+			}
+			replacement.Layout = opening210065SafeLayout
 		}
 
 		projection, err := Project(source)
