@@ -67,10 +67,11 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	for _, row := range korean.Entries {
 		if row.Layout != "" { layouts[row.ID] = row.Layout }
 	}
-	if err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping); err != nil {
+	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
+	if err != nil {
 		return result, err
 	}
-	fmt.Println("Korean C5 static storage check: no violation detected; runtime substitutions still require QA.")
+	fmt.Printf("Korean C5 static storage check: no violation detected; %d dynamic-substitution record(s) remain runtime-QA risks.\n", len(dynamicC5))
 
 	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
 	if err != nil { return result, err }
