@@ -21,6 +21,18 @@ class VoiceHazardTest(unittest.TestCase):
     def test_neutral_hostile(self):
         self.assertIn("neutral_jp_hostile_ko", mod.classify("あなたは誰？", "네놈은 누구냐?"))
 
+    def test_humble_first_person_matches_real_na_pronoun(self):
+        self.assertIn("humble_first_person_blunt_ko", mod.classify("わたくしは行くわ", "나는 갈게."))
+
+    def test_humble_first_person_does_not_match_naga_verb(self):
+        self.assertNotIn(
+            "humble_first_person_blunt_ko",
+            mod.classify("わたくしの仲間です", "제 동료가 전장에 나가 있습니다."),
+        )
+
+    def test_rough_first_person_matches_real_je_pronoun(self):
+        self.assertIn("rough_first_person_polite_ko", mod.classify("俺がやるっす", "제가 하겠습니다."))
+
     def test_branches_are_aligned_when_control_skeleton_matches(self):
         ja = "<if><value:$01><equal>1お前だ<end>あなたです<end>"
         ko = "<if><value:$01><equal>1너야<end>당신입니다<end>"
