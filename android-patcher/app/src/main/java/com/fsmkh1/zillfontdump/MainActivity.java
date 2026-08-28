@@ -1,6 +1,8 @@
 package com.fsmkh1.zillfontdump;
 
 import android.app.Activity;
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -29,9 +31,11 @@ public final class MainActivity extends Activity {
     private static final int CREATE_PATCHED_ISO = 1002;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
+    private final StringBuilder buildLog = new StringBuilder();
     private TextView status;
     private Button chooseButton;
     private Button patchButton;
+    private Button logButton;
     private Uri sourceUri;
     private FontExtractor.Inspection inspection;
 
@@ -71,6 +75,14 @@ public final class MainActivity extends Activity {
         LinearLayout.LayoutParams patchParams = new LinearLayout.LayoutParams(-1, -2);
         patchParams.topMargin = pad / 2;
         root.addView(patchButton, patchParams);
+
+        logButton = new Button(this);
+        logButton.setText("빌드/포렌식 로그 복사");
+        logButton.setEnabled(false);
+        logButton.setOnClickListener(v -> copyBuildLog());
+        LinearLayout.LayoutParams logParams = new LinearLayout.LayoutParams(-1, -2);
+        logParams.topMargin = pad / 2;
+        root.addView(logButton, logParams);
 
         status = new TextView(this);
         status.setText("대기 중");
@@ -143,6 +155,8 @@ public final class MainActivity extends Activity {
             return;
         }
 
+        clearBuildLog();
+        logButton.setEnabled(false);
         setBusy(true, "한국어 Beta 빌드 준비 중…");
         Uri inputUri = sourceUri;
         FontExtractor.Inspection checked = inspection;
@@ -182,6 +196,7 @@ public final class MainActivity extends Activity {
                 try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
                     String line;
                     while ((line = reader.readLine()) != null) {
+                        appendBuildLog(line);
                         if (tail.size() == 12) tail.removeFirst();
                         tail.addLast(line);
                         updateStatus(line);
@@ -198,16 +213,58 @@ public final class MainActivity extends Activity {
                 updateStatus("완성 ISO를 선택한 위치로 저장 중…");
                 copyFileToUri(output, outputUri);
                 success = true;
-                runOnUiThread(() -> setBusy(false,
-                        "완료. 생성된 Korean Beta ISO를 PPSSPP에서 실행해 주세요. 실제 화면의 줄바꿈·잘림·폰트는 이번 베타에서 확인합니다."));
+                runOnUiThread(() -> {
+                    setBusy(false, "완료. 생성된 Korean Beta ISO를 PPSSPP에서 실행해 주세요. 아래 버튼으로 빌드/포렌식 로그를 복사할 수 있습니다.");
+                    logButton.setEnabled(hasBuildLog());
+                });
             } catch (Exception e) {
                 final String error = message(e);
-                runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
+                appendBuildLog("APP ERROR: " + error);
+                runOnUiThread(() -> {
+                    setBusy(false, "패치 실패: " + error);
+                    logButton.setEnabled(hasBuildLog());
+                });
             } finally {
                 deleteRecursively(session);
                 if (!success) deleteQuietly(outputUri);
             }
         });
+    }
+
+    private void copyBuildLog() {
+        String text;
+        synchronized (buildLog) {
+            text = buildLog.toString();
+        }
+        if (text.isEmpty()) {
+            status.setText("복사할 빌드/포렌식 로그가 없습니다. 먼저 ISO를 생성해 주세요.");
+            return;
+        }
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+        if (clipboard == null) {
+            status.setText("클립보드 서비스를 사용할 수 없습니다.");
+            return;
+        }
+        clipboard.setPrimaryClip(ClipData.newPlainText("Zill build/forensic log", text));
+        status.setText("빌드/포렌식 로그를 클립보드에 복사했습니다.");
+    }
+
+    private void clearBuildLog() {
+        synchronized (buildLog) {
+            buildLog.setLength(0);
+        }
+    }
+
+    private void appendBuildLog(String line) {
+        synchronized (buildLog) {
+            buildLog.append(line).append('\n');
+        }
+    }
+
+    private boolean hasBuildLog() {
+        synchronized (buildLog) {
+            return buildLog.length() > 0;
+        }
     }
 
     private File ensureProjectAssets() throws Exception {
