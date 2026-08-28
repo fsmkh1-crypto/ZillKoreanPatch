@@ -3,8 +3,9 @@
 
 This is deliberately a candidate generator, not a correctness gate. It flags
 lexical combinations where Japanese address/register and Korean rendering are
-strongly at odds. Multi-branch records are compared branch-by-branch so a polite
-third-party title in one branch cannot contaminate a hostile address in another.
+strongly at odds. Multi-branch records are compared branch-by-branch only when
+the authoritative fixed control-token skeleton matches; otherwise the record is
+reported through the fallback counter and conservatively scanned as a whole.
 Human scene/context review decides fixes.
 """
 from __future__ import annotations
@@ -14,6 +15,8 @@ import json
 from pathlib import Path
 import re
 import tomllib
+
+from control_tags import fixed_tokens
 
 ROOT = Path(__file__).resolve().parents[2]
 KOREAN_DIR = ROOT / "translations" / "korean" / "messages"
@@ -35,8 +38,8 @@ def classify(japanese: str, korean: str) -> list[str]:
     ):
         findings.append("hostile_jp_polite_ko")
 
-    # お前 is ordinarily familiar/blunt. 당신 is possible only in narrow
-    # relationship contexts, so surface it for scene review rather than auto-fix.
+    # お前 is ordinarily familiar/blunt. 당신 is possible in narrow contexts
+    # such as established intimate/spousal address, so review rather than auto-fix.
     if "お前" in japanese and "당신" in korean:
         findings.append("blunt_jp_polite_ko")
 
@@ -48,13 +51,22 @@ def classify(japanese: str, korean: str) -> list[str]:
     return findings
 
 
-def paired_segments(japanese: str, korean: str) -> list[tuple[int, str, str]]:
-    """Return aligned <end>-terminated semantic branches when structurally safe."""
+def branch_alignment_safe(japanese: str, korean: str) -> bool:
+    """Whether positional <end>-segment pairing is structurally trustworthy."""
     ja = japanese.split(END)
     ko = korean.split(END)
-    # Both well-formed message strings normally end in <end>, yielding a final
-    # empty item. Only branch-align when both have the same segment count.
-    if len(ja) == len(ko) and len(ja) > 1:
+    return (
+        len(ja) == len(ko)
+        and len(ja) > 1
+        and fixed_tokens(japanese) == fixed_tokens(korean)
+    )
+
+
+def paired_segments(japanese: str, korean: str) -> list[tuple[int, str, str]]:
+    """Return aligned <end>-terminated semantic branches when structurally safe."""
+    if branch_alignment_safe(japanese, korean):
+        ja = japanese.split(END)
+        ko = korean.split(END)
         return [(i, ja[i], ko[i]) for i in range(len(ja) - 1)]
     return [(0, japanese, korean)]
 
@@ -68,6 +80,8 @@ def main() -> None:
     findings: list[dict[str, object]] = []
     seen_ids: set[int] = set()
     scanned = 0
+    fallback_count = 0
+    fallback_examples: list[dict[str, object]] = []
 
     for path in sorted(KOREAN_DIR.glob("msgsec*.toml")):
         m = SECTION_FILE_RE.match(path.name)
@@ -89,6 +103,19 @@ def main() -> None:
             if not isinstance(ja, str) or not isinstance(ko, str) or not ko:
                 continue
             scanned += 1
+            safe = branch_alignment_safe(ja, ko)
+            if not safe:
+                fallback_count += 1
+                if len(fallback_examples) < 20:
+                    fallback_examples.append({
+                        "id": str(rid),
+                        "section": section,
+                        "path": path.name,
+                        "japanese_fixed_tokens": fixed_tokens(ja),
+                        "korean_fixed_tokens": fixed_tokens(ko),
+                        "japanese_end_count": ja.count(END),
+                        "korean_end_count": ko.count(END),
+                    })
             for segment, ja_seg, ko_seg in paired_segments(ja, ko):
                 kinds = classify(ja_seg, ko_seg)
                 if kinds:
@@ -104,13 +131,15 @@ def main() -> None:
 
     all_kinds = sorted({k for row in findings for k in row["kinds"]})
     report = {
-        "schema": 1,
+        "schema": 2,
         "scanned_records": scanned,
         "finding_count": len(findings),
         "finding_by_kind": {
             kind: sum(kind in row["kinds"] for row in findings)
             for kind in all_kinds
         },
+        "fallback_count": fallback_count,
+        "fallback_examples": fallback_examples,
         "findings": findings,
     }
     if args.json:
@@ -120,7 +149,10 @@ def main() -> None:
     print("Korean QA-4 speaker/voice hazard scan")
     print(f"  scanned_records: {scanned}")
     print(f"  finding_count: {len(findings)}")
+    print(f"  fallback_count: {fallback_count}")
     print("  finding_by_kind: " + json.dumps(report["finding_by_kind"], ensure_ascii=False, sort_keys=True))
+    for row in fallback_examples[: max(args.max_examples, 0)]:
+        print("  fallback: " + json.dumps(row, ensure_ascii=False, sort_keys=True))
     for row in findings[: max(args.max_examples, 0)]:
         print("  example: " + json.dumps(row, ensure_ascii=False, sort_keys=True))
 
