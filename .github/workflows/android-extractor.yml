@@ -70,6 +70,32 @@ jobs:
           cp patches/system/param-sfo.toml "$ROOT/patches/system/"
           du -sh "$ROOT"
 
+      - name: Isolate message 10010 without first-use glyphs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path('android-patcher/app/src/main/assets/zillroot/translations/korean/messages/msgsec001.toml')
+          text = path.read_text(encoding='utf-8')
+          replacements = [
+              ('korean = "<value:$15>여 나는 그대가 나아갈 길을 묻노라 그 길을 보이고 운명의 문을 열어라<end>"',
+               'korean = "<value:$15>여 나는 그대가 나아갈 길을 보라 그 길을 보이고 그대의 문을 열어라<end>"'),
+              ('layout = "<value:$15>여<line-break>나는 그대가 나아갈 길을 묻노라<line-break>그 길을 보이고 운명의 문을 열어라<end>"',
+               'layout = "<value:$15>여<line-break>나는 그대가 나아갈 길을 보라<line-break>그 길을 보이고 그대의 문을 열어라<end>"'),
+          ]
+          for old, new in replacements:
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f'expected exactly one 10010 experiment target, found {count}: {old}')
+              text = text.replace(old, new, 1)
+          for forbidden in ('묻', '노', '명', '운'):
+              block = text[text.index('["10010"]'):text.index('["10011"]')]
+              if forbidden in block:
+                  raise SystemExit(f'10010 still contains first-use glyph {forbidden!r}')
+          path.write_text(text, encoding='utf-8')
+          print('10010 A/B experiment A: value token preserved; first-use glyphs removed')
+          PY
+
       - name: Build arm64 Korean beta builder
         shell: bash
         run: |
