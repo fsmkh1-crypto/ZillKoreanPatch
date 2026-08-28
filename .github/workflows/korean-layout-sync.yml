@@ -1,0 +1,41 @@
+name: Korean layout semantic sync
+
+on:
+  push:
+    branches:
+      - translation/section001-batch2
+    paths:
+      - 'tools/korean/qa-layout-drift.py'
+      - '.github/workflows/korean-layout-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: korean-layout-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Sync stale lexical layout content
+        run: python3 tools/korean/qa-layout-drift.py --fix
+      - name: Verify lexical drift is closed
+        run: python3 tools/korean/qa-layout-drift.py
+      - name: Commit synchronized layouts
+        run: |
+          if git diff --quiet -- translations/korean/messages; then
+            echo 'No layout changes required.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          git commit -m 'Sync Korean layouts to canonical semantic text'
+          git push origin HEAD:${{ github.ref_name }}
