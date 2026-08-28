@@ -3,7 +3,10 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
+	"sort"
+	"unicode"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/cp932"
@@ -64,25 +67,127 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	mergeRendererKeys(reserved, bootScan.Keys)
 	mergeRendererKeys(reserved, bindataScan.Keys)
 
-	texts, err := korean.RuntimeTexts(source)
+	// Preserve the exact H0 message-corpus allocation first. Adding EBOOT text to
+	// BuildPlan before allocation can reshuffle every rune->key assignment, because
+	// Allocate pairs sorted runes with sorted candidates by index. Runtime A/B
+	// showed that a global remap changes automatic wrapping and, combined with the
+	// EBOOT overlay, can reproduce the opening freeze. Keep the proven H0 mapping
+	// stable and only relocate renderer-private keys below.
+	messageTexts, err := korean.RuntimeTexts(source)
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
+	installed := font.DoubleByteKeys()
+	basePlan, err := koreanslots.BuildPlan(messageTexts, installed, rendererKeySetSlice(reserved))
+	if err != nil {
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta H0 slot allocation: %w", err)
+	}
+
 	fixedKorean, err := loadKoreanFixedEBOOT(root)
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	texts = append(texts, fixeddata.KoreanEBOOTTexts(fixedKorean)...)
-	installed := font.DoubleByteKeys()
-	stock := koreanslots.RequiredStockKeys(texts)
-	custom := koreanslots.RequiredCustomRunes(texts)
-	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d total_reserved=%d custom=%d materializable_korean=%d fixed_korean=%d total_records=%d\n",
-		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(reserved), len(custom), len(korean.Entries), len(fixedKorean), len(source.Items))
-	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
-	if err != nil {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta conservative slot allocation: %w", err)
+	combinedTexts := append([]string(nil), messageTexts...)
+	combinedTexts = append(combinedTexts, fixeddata.KoreanEBOOTTexts(fixedKorean)...)
+	combinedCustom := koreanslots.RequiredCustomRunes(combinedTexts)
+	if !sameRunes(basePlan.CustomRunes, combinedCustom) {
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta stable mapping: EBOOT overlay changes custom rune set (%d message-only, %d combined); explicit extension required", len(basePlan.CustomRunes), len(combinedCustom))
 	}
-	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d (full PAF repack; fixed + BOOT/bindata CP932 literal ownership reserved)\n",
-		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
+	combinedStock := koreanslots.RequiredStockKeys(combinedTexts)
+
+	mapping := make(koreanslots.Mapping, len(basePlan.Mapping))
+	used := make(map[cp932.GlyphKey]rune, len(basePlan.Mapping))
+	for r, key := range basePlan.Mapping {
+		mapping[r] = key
+		used[key] = r
+	}
+	// A newly required stock key may not be repurposed by the preserved H0 map.
+	for _, key := range combinedStock {
+		if r, collision := used[key]; collision {
+			return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta stable mapping: EBOOT stock key 0x%04X is owned by custom rune %U", uint16(key), r)
+		}
+	}
+
+	// Renderer evidence: H0 mapped '게' to SJIS 87 45 (nominal ⑥) and '깃' to
+	// 87 4D (nominal ⑭); the game intercepted those keys as UI icons even though
+	// the PAF rasters were correct. Preserve every other H0 assignment and move
+	// only mappings in the CP932 0x87 special-character row to unused, reversible
+	// CJK Han slots. This is intentionally much narrower than the rejected global
+	// Han-only remap.
+	spares := make([]cp932.GlyphKey, 0, len(basePlan.Candidates)-len(mapping))
+	for _, key := range basePlan.Candidates {
+		if _, inUse := used[key]; inUse {
+			continue
+		}
+		if isRoundTripHanKey(key) {
+			spares = append(spares, key)
+		}
+	}
+	spareIndex := 0
+	runes := append([]rune(nil), basePlan.CustomRunes...)
+	sort.Slice(runes, func(i, j int) bool { return runes[i] < runes[j] })
+	relocated := 0
+	for _, r := range runes {
+		oldKey := mapping[r]
+		if !isRendererPrivate87Key(oldKey) {
+			continue
+		}
+		if spareIndex >= len(spares) {
+			return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta stable mapping: need more safe spare keys after %d relocations", relocated)
+		}
+		newKey := spares[spareIndex]
+		spareIndex++
+		delete(used, oldKey)
+		mapping[r] = newKey
+		used[newKey] = r
+		relocated++
+		oldBytes, _ := oldKey.Bytes()
+		newBytes, _ := newKey.Bytes()
+		oldNominal, _ := cp932.Decode(oldBytes)
+		newNominal, _ := cp932.Decode(newBytes)
+		fmt.Printf("FORENSIC STABLE_RELOCATE rune=%q unicode=%U old=%02X %02X nominal_old=%q new=%02X %02X nominal_new=%q\n",
+			string(r), r, oldBytes[0], oldBytes[1], oldNominal, newBytes[0], newBytes[1], newNominal)
+	}
+
+	plan := basePlan
+	plan.CustomRunes = combinedCustom
+	plan.RequiredStock = combinedStock
+	plan.Mapping = mapping
+	fmt.Printf("Korean beta stable slot plan: h0_candidates=%d custom=%d headroom=%d relocated_private87=%d fixed_korean=%d materializable_korean=%d total_records=%d\n",
+		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes), relocated, len(fixedKorean), len(korean.Entries), len(source.Items))
 	return plan, len(korean.Entries), len(source.Items), nil
+}
+
+func sameRunes(a, b []rune) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	for i := range a {
+		if a[i] != b[i] {
+			return false
+		}
+	}
+	return true
+}
+
+func isRendererPrivate87Key(key cp932.GlyphKey) bool {
+	encoded, err := key.Bytes()
+	return err == nil && len(encoded) == 2 && encoded[0] == 0x87
+}
+
+func isRoundTripHanKey(key cp932.GlyphKey) bool {
+	encoded, err := key.Bytes()
+	if err != nil || len(encoded) != 2 {
+		return false
+	}
+	decoded, err := cp932.Decode(encoded)
+	if err != nil {
+		return false
+	}
+	runes := []rune(decoded)
+	if len(runes) != 1 || !unicode.Is(unicode.Han, runes[0]) {
+		return false
+	}
+	roundTrip, err := cp932.Encode(decoded)
+	return err == nil && bytes.Equal(roundTrip, encoded)
 }
