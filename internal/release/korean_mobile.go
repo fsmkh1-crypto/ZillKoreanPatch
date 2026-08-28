@@ -91,6 +91,9 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 		if pa == nil { return fmt.Errorf("Korean beta build: pa archive unavailable") }
 		pa.replacements = append(pa.replacements, fontReplacements...)
 	}
+	if probeErr := logArchiveLayoutCounterfactual(archives, owners, compiled); probeErr != nil {
+		fmt.Printf("FORENSIC ERROR stage=archive_counterfactual error=%q\n", probeErr)
+	}
 
 	executable, err := buildKoreanAlphaExecutable(root, gameDir, plan.Mapping)
 	if err != nil { return err }
@@ -115,6 +118,9 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 		); err != nil {
 			return fmt.Errorf("rebuild %s archive: %w", archive.name, err)
 		}
+	}
+	if probeErr := logStagedMessageArchiveForensics(staging); probeErr != nil {
+		fmt.Printf("FORENSIC ERROR stage=staged_message_archive error=%q\n", probeErr)
 	}
 	if probeErr := logStagedKoreanFontForensics(root, staging, plan.Mapping); probeErr != nil {
 		fmt.Printf("FORENSIC ERROR stage=staged_font_probe error=%q\n", probeErr)
