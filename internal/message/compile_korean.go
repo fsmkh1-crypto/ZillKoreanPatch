@@ -65,6 +65,19 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			}
 		}
 
+		// Runtime diagnostic: keep the H0 210065 semantic payload and encoded
+		// length unchanged, but replace exactly one ASCII space with one explicit
+		// line-break control. This isolates whether entering the authored-layout
+		// path at all is enough to reproduce the pre-display freeze.
+		if source.ID == 210065 {
+			const needle = "대륙. "
+			if replacement.Layout != "" || !strings.Contains(replacement.Text, needle) {
+				failures = append(failures, fmt.Sprintf("%s: ID 210065 N1 diagnostic precondition failed", bank.Name))
+				continue
+			}
+			replacement.Layout = strings.Replace(replacement.Text, needle, "대륙.<line-break>", 1)
+		}
+
 		projection, err := Project(source)
 		if err != nil {
 			failures = append(failures, fmt.Sprintf("%s: ID %d projection: %v", bank.Name, source.ID, err))
