@@ -107,6 +107,33 @@ korean = "<value:$15>여 답하라"
 	}
 }
 
+func TestParseSectionRejectsDroppedInternalFixedLiteral(t *testing.T) {
+	source := "<if><value:$01><equal>14前<end>…<value:$28>、<line-break><if><value:$01><equal>3後<end>"
+	dropped := []byte(licenseLine + `
+
+["10010"]
+japanese = "<if><value:$01><equal>14前<end>…<value:$28>、<line-break><if><value:$01><equal>3後<end>"
+korean = "<if><value:$01><equal>14앞<end><value:$28>, <if><value:$01><equal>3뒤<end>"
+`)
+	_, err := parseSection(dropped, "msgsec001.toml", 1, map[int]string{10010: source})
+	if err == nil || !strings.Contains(err.Error(), "drops fixed literal slot") {
+		t.Fatalf("got %v, want dropped-internal-literal rejection", err)
+	}
+}
+
+func TestParseSectionAllowsOmittedLeadingDiscourseLiteral(t *testing.T) {
+	source := "さ、<value:$28>さま、<line-break>しんでんへ。<end>"
+	accepted := []byte(licenseLine + `
+
+["10010"]
+japanese = "さ、<value:$28>さま、<line-break>しんでんへ。<end>"
+korean = "<value:$28> 님, 신전으로 가세요.<end>"
+`)
+	if _, err := parseSection(accepted, "msgsec001.toml", 1, map[int]string{10010: source}); err != nil {
+		t.Fatalf("natural leading-literal omission rejected: %v", err)
+	}
+}
+
 func TestSectionFromNameAcceptsCanonicalShardsAndRejectsDrift(t *testing.T) {
 	for _, name := range []string{"msgsec001.toml", "msgsec278.toml", "msgsec001-part01.toml", "msgsec001-part99.toml", "msgsec001b.toml"} {
 		section, ok := sectionFromName(name)
