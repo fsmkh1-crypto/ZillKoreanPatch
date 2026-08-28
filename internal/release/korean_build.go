@@ -15,14 +15,16 @@ import (
 )
 
 const (
-	koreanAlphaISOName   = "zill-korean-alpha.iso"
-	koreanAlphaPatchName = "zill-korean-alpha.xdelta"
+	koreanAlphaISOName   = "zill-korean-beta.iso"
+	koreanAlphaPatchName = "zill-korean-beta.xdelta"
 )
 
-// BuildKoreanAlpha builds a partial Korean integration release. Accepted Korean
-// records are compiled with the authenticated slot plan while untranslated
-// records retain their retail Japanese bytes. The English static font/string
-// transforms are deliberately excluded from this mode.
+// BuildKoreanAlpha builds the current Korean beta integration release. The
+// legacy function name is kept for compatibility with the mobile/debug builder.
+// Accepted Korean records are compiled with the authenticated slot plan while
+// source records outside the canonical Korean overlay retain their retail
+// Japanese bytes. The English static font/string transforms are deliberately
+// excluded: Korean uses its own renderer-slot/font path instead.
 func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.Plan) (result Result, err error) {
 	root, err = resolveExistingPath(root, "project root")
 	if err != nil { return result, err }
@@ -32,7 +34,7 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	if err != nil { return result, err }
 
 	buildDirectory := filepath.Join(root, "build")
-	gameDestination := filepath.Join(buildDirectory, "PSP_GAME-korean-alpha")
+	gameDestination := filepath.Join(buildDirectory, "PSP_GAME-korean-beta")
 	isoDestination := filepath.Join(buildDirectory, koreanAlphaISOName)
 	patchDestination := filepath.Join(buildDirectory, koreanAlphaPatchName)
 	if overlaps(gameDir, gameDestination) { return result, fmt.Errorf("source and output PSP_GAME trees must not overlap") }
@@ -74,7 +76,7 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	if ok {
 		var pa *archive
 		for _, candidate := range archives { if candidate.name == "pa" { pa = candidate; break } }
-		if pa == nil { return result, fmt.Errorf("Korean alpha build: pa archive unavailable") }
+		if pa == nil { return result, fmt.Errorf("Korean beta build: pa archive unavailable") }
 		pa.replacements = append(pa.replacements, fontReplacement)
 	}
 
@@ -84,8 +86,8 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	if err != nil { return result, err }
 
 	if err := os.MkdirAll(buildDirectory, 0o755); err != nil { return result, fmt.Errorf("create build directory: %w", err) }
-	bundle, err := os.MkdirTemp(buildDirectory, ".korean-alpha.stage.")
-	if err != nil { return result, fmt.Errorf("create Korean alpha staging directory: %w", err) }
+	bundle, err := os.MkdirTemp(buildDirectory, ".korean-beta.stage.")
+	if err != nil { return result, fmt.Errorf("create Korean beta staging directory: %w", err) }
 	defer os.RemoveAll(bundle)
 	staging := filepath.Join(bundle, "PSP_GAME")
 	if err := copyTree(gameDir, staging); err != nil { return result, err }
@@ -105,7 +107,7 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	stagedPatch := filepath.Join(bundle, koreanAlphaPatchName)
 	if err := createAndVerifyPatch(xdelta, isoPath, stagedISO, stagedPatch); err != nil { return result, err }
 	cleanup, err := publishAll([]publishItem{{staging: staging, destination: gameDestination}, {staging: stagedISO, destination: isoDestination}, {staging: stagedPatch, destination: patchDestination}})
-	if err != nil { return result, fmt.Errorf("publish Korean alpha release: %w", err) }
+	if err != nil { return result, fmt.Errorf("publish Korean beta release: %w", err) }
 	result.GameDirectory, result.ISO, result.Patch = gameDestination, isoDestination, patchDestination
 	for _, warning := range cleanup { result.Warnings = append(result.Warnings, warning.Error()) }
 	return result, nil
@@ -131,5 +133,5 @@ func buildKoreanAlphaSFO(root, gameDir, version string) ([]byte, error) {
 	if err != nil { return nil, err }
 	manifest, err := sfo.ParseManifest(manifestData)
 	if err != nil { return nil, err }
-	return sfo.Apply(source, manifest, fmt.Sprintf("Zill O'll Infinite Plus [Korean Alpha %s]", version))
+	return sfo.Apply(source, manifest, fmt.Sprintf("Zill O'll Infinite Plus [Korean Beta %s]", version))
 }
