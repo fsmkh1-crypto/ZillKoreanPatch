@@ -12,12 +12,16 @@ import (
 	"github.com/HK47196/zill/internal/slotaudit"
 )
 
-// buildKoreanAlphaPlanMobile builds the production-safe mobile beta slot plan
-// from the exact retail-bound source and runtime-materializable Korean project
-// that the ISO compiler will use. Authenticated fixed renderer keys are reserved
-// explicitly. BOOT/EBOOT/bindata are passed to koreanslots.BuildPlan for exact
-// raw-byte exclusion; the broader CP932 literal scans remain diagnostics only so
-// the same binary risk is not conservatively blocked twice.
+// buildKoreanAlphaPlanMobile builds the mobile beta slot plan from the exact
+// retail-bound source and runtime-materializable Korean project used by the ISO
+// compiler. The mobile font path performs a full authenticated atlas+PAF repack,
+// so every installed double-byte renderer key is eligible; it is not constrained
+// by the retail cell geometry required by the older atlas-only desktop path.
+//
+// Authenticated fixed-string ownership is reserved semantically. BOOT/bindata
+// CP932 scans remain diagnostics only. Raw occurrence scans across large binary
+// blobs are deliberately not used as slot ownership: arbitrary binary data
+// contains most two-byte combinations by chance and would eliminate every slot.
 func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
 	if source == nil || korean == nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta planner: nil bound source or Korean project")
@@ -31,8 +35,7 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	eboot, err := loadAuthenticatedRetailEBOOT(gameDir)
-	if err != nil {
+	if _, err := loadAuthenticatedRetailEBOOT(gameDir); err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
 	boot, err := loadAuthenticatedRetailBOOT(gameDir)
@@ -55,8 +58,6 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("scan bindata.dat: %w", err)
 	}
 
-	// Only authenticated fixed-string ownership is a semantic reservation.
-	// Binary occurrence safety is handled below by BuildPlan's exact-byte audit.
 	reserved := make(map[cp932.GlyphKey]struct{})
 	mergeRendererKeys(reserved, usedFixed)
 
@@ -64,16 +65,16 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	installed := font.KoreanCompatibleKeys()
+	installed := font.DoubleByteKeys()
 	stock := koreanslots.RequiredStockKeys(texts)
 	custom := koreanslots.RequiredCustomRunes(texts)
-	fmt.Printf("Korean beta slot preflight: installed_compatible=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d custom=%d materializable_korean=%d total_records=%d\n",
+	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d custom=%d materializable_korean=%d total_records=%d\n",
 		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(custom), len(korean.Entries), len(source.Items))
-	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)
+	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
 	if err != nil {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta full-font plan allocation: %w", err)
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta full-repack slot allocation: %w", err)
 	}
-	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d (CP932 literal scans diagnostic-only; BOOT/EBOOT/bindata exact-byte audited)\n",
+	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d (full PAF repack; fixed ownership reserved; binary scans diagnostic-only)\n",
 		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
 	return plan, len(korean.Entries), len(source.Items), nil
 }
