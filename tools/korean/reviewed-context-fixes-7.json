@@ -1,0 +1,7 @@
+{
+  "1330580": {
+    "old": "후후… 다행이네. 고작 인형에게 당하면 어쩌나 했어. 역시 <value:$28>. 내가 직접 손을 써야겠군요….<end>",
+    "new": "후후… 다행이에요. 고작 인형에게 당하면 어쩌나 했답니다. 역시 <value:$28>. 제가 직접 손을 써야 할 모양이군요….<end>",
+    "reason": "Atreia speaks this near-duplicate line in 1330570 with consistently polite/feminine register; 1330580 alone mixed casual 다행이네/했어/내가 with 군요 and is a clear voice inconsistency."
+  }
+}
