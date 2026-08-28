@@ -38,7 +38,10 @@ JP_POLITE_RE = re.compile(r"(?:です(?:か|ね|よ)?|ます(?:か|ね|よ)?|ま
 # endings such as 温かい, producing noisy false positives.
 JP_BLUNT_RE = re.compile(r"(?:だぞ|だぜ|だな|だろ|だろう|じゃないか|ではないか|しろ|するな|くれ|だね)(?:[。！？!?…]|$)")
 KO_FORMAL_RE = re.compile(r"(?:습니다|습니까|입니다|입니까|십시오|세요|셨어요|했어요|해요|예요|이에요|군요|네요|죠)(?:[.!?…]|$)")
-KO_CASUAL_RE = re.compile(r"(?:해라|하지 마|하지마|해 줘|해줘|해|했어|할게|할까|하냐|하니|냐|니|구나|군|네|잖아|거야|거냐|마라|해 둬|해둬)(?:[.!?…]|$)")
+# Avoid one-syllable suffix cues such as 니/네/군/해. They frequently occur at
+# the tail of non-casual forms or quotative/lexical endings (e.g. 붕어하셨다니)
+# and create far more noise than useful signal. Keep only distinctive endings.
+KO_CASUAL_RE = re.compile(r"(?:해라|하지 마|하지마|해 줘|해줘|했어|할게|할까|하냐|구나|잖아|거야|거냐|마라|해 둬|해둬)(?:[.!?…]|$)")
 JP_ROUGH_FIRST_RE = re.compile(r"(?:俺様|俺|オレ)(?:は|が|も|を|に|の|で|、|，|,|\s)")
 
 # Korean first-person forms need token-aware matching. In particular, treating
