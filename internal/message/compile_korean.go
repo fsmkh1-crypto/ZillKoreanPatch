@@ -51,6 +51,17 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			continue
 		}
 		matched[source.ID] = struct{}{}
+
+		// Runtime diagnostic: ID 10010 is the first message expected immediately
+		// after the character-creation start-location choice and contains the
+		// movable <value:$15> substitution. Preserve its authenticated retail bytes
+		// exactly so device testing can isolate whether Korean materialization of
+		// this single record is responsible for the post-character-creation freeze.
+		if source.ID == 10010 {
+			records[index] = append([]byte(nil), source.Raw...)
+			continue
+		}
+
 		projection, err := Project(source)
 		if err != nil {
 			failures = append(failures, fmt.Sprintf("%s: ID %d projection: %v", bank.Name, source.ID, err))
