@@ -89,6 +89,39 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		return nil, fmt.Errorf("Korean materialization failed:\n- %s", strings.Join(failures, "\n- "))
 	}
 
+	// Diagnostic-only runtime experiment: preserve ID 10010's control token and
+	// every renderer key, but remove exactly one ASCII space after validated
+	// materialization. The known failing record is 72 bytes; this produces a
+	// 71-byte record so device testing can isolate a length/buffer threshold from
+	// content or glyph-key effects. Canonical Korean data is not modified.
+	for index, item := range items {
+		if item.Record.ID != 10010 {
+			continue
+		}
+		record := records[index]
+		if len(record) != 72 {
+			return nil, fmt.Errorf("%s: ID 10010 length probe expected 72-byte materialized record, got %d", bank.Name, len(record))
+		}
+		if len(record) < 2 || record[0] != 0x02 || record[1] != 0x15 {
+			return nil, fmt.Errorf("%s: ID 10010 length probe expected leading <value:$15> bytes 02 15, got % X", bank.Name, record[:minInt(len(record), 2)])
+		}
+		space := -1
+		for i := 2; i < len(record); i++ {
+			if record[i] == 0x20 {
+				space = i
+				break
+			}
+		}
+		if space < 0 {
+			return nil, fmt.Errorf("%s: ID 10010 length probe found no ASCII space to remove", bank.Name)
+		}
+		records[index] = append(append([]byte(nil), record[:space]...), record[space+1:]...)
+		if len(records[index]) != 71 {
+			return nil, fmt.Errorf("%s: ID 10010 length probe produced %d bytes, want 71", bank.Name, len(records[index]))
+		}
+		break
+	}
+
 	tableEnd := uint64(4 + len(records)*4)
 	position := tableEnd
 	for _, record := range records {
@@ -109,4 +142,11 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		offset += uint64(len(record))
 	}
 	return output, nil
+}
+
+func minInt(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }
