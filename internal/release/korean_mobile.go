@@ -76,7 +76,7 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	}
 	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
 	if err != nil { return err }
-	if probeErr := logCompiledKoreanForensics(compiled); probeErr != nil {
+	if probeErr := logCompiledKoreanForensicsWide(compiled); probeErr != nil {
 		fmt.Printf("FORENSIC ERROR stage=compiled_probe error=%q\n", probeErr)
 	}
 	if err := addBanks(owners, compiled); err != nil { return err }
