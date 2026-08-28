@@ -93,9 +93,17 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 		glyphIndex[glyph.Key] = glyph.Index
 	}
 	for _, id := range []int{10007, 10010} {
-		row, ok := korean.Find(id)
-		if !ok {
-			fmt.Printf("FORENSIC ERROR id=%d reason=missing_korean_row\n", id)
+		var row corpus.KoreanEntry
+		found := false
+		for _, candidate := range korean.Entries {
+			if candidate.ID == id {
+				row = candidate
+				found = true
+				break
+			}
+		}
+		if !found {
+			fmt.Printf("FORENSIC ERROR stage=plan id=%d reason=missing_materializable_korean_row\n", id)
 			continue
 		}
 		field, text := "korean", row.Korean
