@@ -1,29 +1,22 @@
-# Zill Font Extractor (Android)
+# Zill Korean Beta Patcher (Android)
 
-Read-only first-stage extractor for **Zill O'll Infinite Plus ULJM-05410 v1.03**.
+Android on-device patcher for **Zill O'll Infinite Plus ULJM-05410 v1.03**.
 
-The app uses Android's Storage Access Framework. It requests no broad storage permission and no network permission. The selected ISO is opened with mode `r` and is never modified.
+The app uses Android's Storage Access Framework and requests no broad storage or network permission. The selected retail ISO is opened read-only, copied into the app's temporary workspace, authenticated, and used to build a separate Korean Beta ISO. The original ISO is never modified.
 
-Validation before extraction:
+Current beta payload embeds the repository's reviewed canonical Korean corpus, the deterministic Korean glyph catalog, and the authenticated BOOT/EBOOT/SFO patch manifests. The same Go build core used by the maintainer tooling is cross-compiled for Android arm64 and packaged as `libzill.so`; the Java UI only handles document selection, validation, progress, and result export.
+
+Validation before build includes:
 
 - ISO9660 primary volume descriptor
 - `PSP_GAME/PARAM.SFO`
 - `DISC_ID = ULJM-05410`
 - `DISC_VERSION = 1.03`
-- `PSP_GAME/USRDIR/pa.bin` / `pa.arc`
-- PAA member count = 14,231
-- member #13611 = `font/zillfont.par`, offset `0x3D8F510`, size `0x80470`
-- member #13612 = `2d/font/jillbtn.par`, offset `0x3E0F980`, size `0x18E60`
+- authenticated retail archive/message-bank structure
+- supported EBOOT fingerprint
+- current Korean slot/font requirements
 
-Output ZIP:
-
-```text
-font/zillfont.par
-2d/font/jillbtn.par
-manifest.json
-```
-
-The 16-byte PAA member wrapper is stripped from each exported PAR. `manifest.json` records the target/version, source ISO filename and size, PAA metadata, and SHA-256 for each exported PAR.
+The beta build currently targets the reviewed Korean overlay (42,016 accepted records) and the current deterministic 1,308-glyph catalog. Records outside the accepted Korean overlay retain their authenticated retail Japanese bytes.
 
 ## Build
 
@@ -33,4 +26,6 @@ gradle -p android-patcher :app:testDebugUnitTest
 gradle -p android-patcher :app:assembleDebug
 ```
 
-GitHub Actions workflow `.github/workflows/android-extractor.yml` performs the tests, builds the debug APK, computes its SHA-256, and uploads both as the `zill-font-extractor-debug` artifact.
+GitHub Actions workflow `.github/workflows/android-extractor.yml` prepares the embedded Korean project data, cross-compiles the arm64 Go builder, runs Go and Android unit tests, builds the debug APK, verifies the embedded native/data payload, computes SHA-256, and uploads both files as the `zill-korean-beta-patcher-debug` artifact.
+
+Runtime PPSSPP testing remains the authority for line wrapping, clipping, glyph appearance, and branch-specific presentation.
