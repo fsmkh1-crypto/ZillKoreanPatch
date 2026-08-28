@@ -33,7 +33,7 @@ CONTROL_RE = re.compile(r"<[^<>]+>")
 # do not map mechanically to Korean 존댓말; character voice and relationship
 # context can legitimately differ. Broad register cues therefore rank below
 # explicit hostile/address contradictions.
-JP_POLITE_RE = re.compile(r"(?:です(?:か|ね|よ)?|ます(?:か|ね|よ)?|ません|ください|下さい|ございます|でしょう)(?:[。！？!?…]|$)")
+JP_POLITE_RE = re.compile(r"(?:です(?:か|ね|よ)?|でした(?:か|ね|よ)?|ます(?:か|ね|よ)?|ました(?:か|ね|よ)?|ません|ください|下さい|ございます|でしょう)(?:[。！？!?…]|$)")
 # Bare かい is deliberately excluded: it is too easy to confuse with adjective
 # endings such as 温かい, producing noisy false positives.
 JP_BLUNT_RE = re.compile(r"(?:だぞ|だぜ|だな|だろ|だろう|じゃないか|ではないか|しろ|するな|くれ|だね)(?:[。！？!?…]|$)")
