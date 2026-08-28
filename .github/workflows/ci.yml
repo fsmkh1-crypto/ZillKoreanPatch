@@ -34,7 +34,13 @@ jobs:
       - run: python3 -m unittest discover -s tools/korean -p 'test_*.py'
       - run: python3 tools/korean/qa-layout-drift.py
       - run: python3 tools/korean/audit-runtime-text.py
-      - run: python3 tools/korean/audit-consumer-storage.py
+      - name: Audit Korean consumer storage
+        run: python3 tools/korean/audit-consumer-storage.py | tee consumer-storage-audit.txt
+      - name: Upload Korean consumer storage audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: korean-consumer-storage-audit
+          path: consumer-storage-audit.txt
       - run: ./zill check
       - run: ./zill korean-check
       - run: ./zill korean-font-check
