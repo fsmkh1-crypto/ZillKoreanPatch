@@ -1,6 +1,9 @@
 package com.fsmkh1.zillfontdump;
 
 import android.app.Activity;
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -32,8 +35,10 @@ public final class MainActivity extends Activity {
     private TextView status;
     private Button chooseButton;
     private Button patchButton;
+    private Button copyForensicButton;
     private Uri sourceUri;
     private FontExtractor.Inspection inspection;
+    private String lastForensicReport = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,12 +51,12 @@ public final class MainActivity extends Activity {
         root.setPadding(pad, pad, pad, pad);
 
         TextView title = new TextView(this);
-        title.setText("질올 인피니트 플러스 한국어 패치 Beta");
+        title.setText("질올 인피니트 플러스 한국어 패치 Beta - Forensic");
         title.setTextSize(22);
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본 42,016건과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n첫 실행할 때는 내장 한국어 데이터 파일을 앱 내부 작업공간에 준비합니다.");
+        info.setText("대상: 일본판 ULJM-05410 v1.03\n현재 실패가 재현되는 빌드 동작은 변경하지 않고, ID 10007/10010 메시지 바이트와 폰트 PAF/Atlas 결과를 추가로 검증합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -65,12 +70,20 @@ public final class MainActivity extends Activity {
         root.addView(chooseButton, buttonParams);
 
         patchButton = new Button(this);
-        patchButton.setText("한국어 BETA ISO 만들기");
+        patchButton.setText("포렌식 BETA ISO 만들기");
         patchButton.setEnabled(false);
         patchButton.setOnClickListener(v -> choosePatchedIsoDestination());
         LinearLayout.LayoutParams patchParams = new LinearLayout.LayoutParams(-1, -2);
         patchParams.topMargin = pad / 2;
         root.addView(patchButton, patchParams);
+
+        copyForensicButton = new Button(this);
+        copyForensicButton.setText("포렌식 보고서 복사");
+        copyForensicButton.setEnabled(false);
+        copyForensicButton.setOnClickListener(v -> copyForensicReport());
+        LinearLayout.LayoutParams forensicParams = new LinearLayout.LayoutParams(-1, -2);
+        forensicParams.topMargin = pad / 2;
+        root.addView(copyForensicButton, forensicParams);
 
         status = new TextView(this);
         status.setText("대기 중");
@@ -113,7 +126,7 @@ public final class MainActivity extends Activity {
                 FontExtractor.Inspection checked = FontExtractor.inspect(channel);
                 inspection = checked;
                 runOnUiThread(() -> setBusy(false,
-                        "검증 완료: " + checked.discId + " v" + checked.version + ". 아래 버튼으로 Beta ISO를 만드세요."));
+                        "검증 완료: " + checked.discId + " v" + checked.version + ". 아래 버튼으로 포렌식 ISO를 만드세요."));
             } catch (Exception e) {
                 inspection = null;
                 runOnUiThread(() -> setBusy(false, "검증 실패: " + message(e)));
@@ -129,7 +142,7 @@ public final class MainActivity extends Activity {
         Intent out = new Intent(Intent.ACTION_CREATE_DOCUMENT);
         out.addCategory(Intent.CATEGORY_OPENABLE);
         out.setType("application/octet-stream");
-        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_Beta.iso");
+        out.putExtra(Intent.EXTRA_TITLE, "Zill_Oll_Infinite_Plus_Korean_Forensic.iso");
         startActivityForResult(out, CREATE_PATCHED_ISO);
     }
 
@@ -143,12 +156,14 @@ public final class MainActivity extends Activity {
             return;
         }
 
-        setBusy(true, "한국어 Beta 빌드 준비 중…");
+        lastForensicReport = "";
+        setBusy(true, "포렌식 Beta 빌드 준비 중…");
         Uri inputUri = sourceUri;
         FontExtractor.Inspection checked = inspection;
         worker.execute(() -> {
             boolean success = false;
             File session = new File(getCacheDir(), "korean-beta-" + System.nanoTime());
+            StringBuilder forensic = new StringBuilder();
             try {
                 if (!session.mkdirs()) throw new IllegalStateException("임시 작업 폴더를 만들 수 없습니다.");
                 File rootDir = ensureProjectAssets();
@@ -167,14 +182,14 @@ public final class MainActivity extends Activity {
                     throw new IllegalStateException("내장 Korean builder를 찾을 수 없습니다: " + executable);
                 }
 
-                updateStatus("게임 데이터 추출 및 한글 메시지/폰트 빌드 시작…");
+                updateStatus("게임 데이터 추출 및 포렌식 빌드 시작…");
                 ProcessBuilder builder = new ProcessBuilder(
                         executable.getAbsolutePath(),
                         "build-korean-iso",
                         "--iso", source.getAbsolutePath(),
                         "--out", output.getAbsolutePath(),
                         "--work-dir", work.getAbsolutePath(),
-                        "--version", "mobile-beta-0.9.8");
+                        "--version", "mobile-forensic-0.9.8");
                 builder.directory(rootDir);
                 builder.redirectErrorStream(true);
                 Process process = builder.start();
@@ -182,6 +197,9 @@ public final class MainActivity extends Activity {
                 try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
                     String line;
                     while ((line = reader.readLine()) != null) {
+                        if (line.startsWith("FORENSIC ")) {
+                            forensic.append(line).append('\n');
+                        }
                         if (tail.size() == 12) tail.removeFirst();
                         tail.addLast(line);
                         updateStatus(line);
@@ -194,15 +212,21 @@ public final class MainActivity extends Activity {
                 if (!output.isFile() || output.length() == 0) {
                     throw new IllegalStateException("Korean builder가 결과 ISO를 만들지 못했습니다.");
                 }
+                if (forensic.length() == 0) {
+                    throw new IllegalStateException("포렌식 보고서가 생성되지 않았습니다.");
+                }
 
                 updateStatus("완성 ISO를 선택한 위치로 저장 중…");
                 copyFileToUri(output, outputUri);
+                lastForensicReport = forensic.toString();
                 success = true;
                 runOnUiThread(() -> setBusy(false,
-                        "완료. 생성된 Korean Beta ISO를 PPSSPP에서 실행해 주세요. 실제 화면의 줄바꿈·잘림·폰트는 이번 베타에서 확인합니다."));
+                        "완료. 먼저 '포렌식 보고서 복사'를 눌러 채팅에 붙여넣어 주세요. 그 다음 필요하면 이 ISO의 10007/10010 화면도 확인합니다."));
             } catch (Exception e) {
                 final String error = message(e);
-                runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
+                final String partial = forensic.toString();
+                if (!partial.isEmpty()) lastForensicReport = partial;
+                runOnUiThread(() -> setBusy(false, "패치 실패: " + error + (partial.isEmpty() ? "" : " (부분 포렌식 보고서는 복사 가능)")));
             } finally {
                 deleteRecursively(session);
                 if (!success) deleteQuietly(outputUri);
@@ -210,8 +234,22 @@ public final class MainActivity extends Activity {
         });
     }
 
+    private void copyForensicReport() {
+        if (lastForensicReport == null || lastForensicReport.isEmpty()) {
+            status.setText("복사할 포렌식 보고서가 없습니다. 먼저 포렌식 ISO를 만들어 주세요.");
+            return;
+        }
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        if (clipboard == null) {
+            status.setText("클립보드를 사용할 수 없습니다.");
+            return;
+        }
+        clipboard.setPrimaryClip(ClipData.newPlainText("Zill Korean forensic report", lastForensicReport));
+        status.setText("포렌식 보고서를 클립보드에 복사했습니다. 이 채팅에 그대로 붙여넣어 주세요.");
+    }
+
     private File ensureProjectAssets() throws Exception {
-        File root = new File(getFilesDir(), "zillroot-beta-v6");
+        File root = new File(getFilesDir(), "zillroot-forensic-v1");
         File marker = new File(root, ".ready");
         if (marker.isFile()) return root;
         deleteRecursively(root);
@@ -297,6 +335,7 @@ public final class MainActivity extends Activity {
     private void setBusy(boolean busy, String text) {
         chooseButton.setEnabled(!busy);
         patchButton.setEnabled(!busy && inspection != null);
+        copyForensicButton.setEnabled(!busy && lastForensicReport != null && !lastForensicReport.isEmpty());
         status.setText(text);
     }
 
