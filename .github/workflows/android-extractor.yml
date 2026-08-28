@@ -70,6 +70,27 @@ jobs:
           cp patches/system/param-sfo.toml "$ROOT/patches/system/"
           du -sh "$ROOT"
 
+      - name: Apply isolated message 10010 value-delimiter experiment
+        shell: bash
+        run: |
+          set -euxo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('android-patcher/app/src/main/assets/zillroot/translations/korean/messages/msgsec001.toml')
+          text = path.read_text(encoding='utf-8')
+          old = '<value:$15>여'
+          new = '<value:$15> 여'
+          count = text.count(old)
+          if count != 2:
+              raise SystemExit(f'expected exactly 2 message-10010 delimiter targets, found {count}')
+          text = text.replace(old, new)
+          if old in text or text.count(new) != 2:
+              raise SystemExit('message-10010 delimiter experiment replacement verification failed')
+          path.write_text(text, encoding='utf-8')
+          print('embedded message 10010 delimiter experiment applied to korean + layout')
+          PY
+
       - name: Build arm64 Korean beta builder
         shell: bash
         run: |
