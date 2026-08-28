@@ -60,6 +60,33 @@ func TestCompileBankKoreanFailsWhenSelectedTextLacksMapping(t *testing.T) {
 	}
 }
 
+func TestCompileBankKoreanAggregatesRecordFailures(t *testing.T) {
+	first := corpus.Record{ID: 10000, Raw: []byte("old\x00"), Tokens: []corpus.Token{
+		{Kind: "text", Raw: []byte("old")}, {Kind: "suffix", Raw: []byte{0}},
+	}}
+	second := corpus.Record{ID: 10001, Raw: []byte("old\x00"), Tokens: []corpus.Token{
+		{Kind: "text", Raw: []byte("old")}, {Kind: "suffix", Raw: []byte{0}},
+	}}
+	bank := corpus.Bank{Name: "msgsec001.dat", Section: 1, Records: []corpus.Record{first, second}}
+	items := []corpus.Item{
+		{Record: first, Translation: corpus.Translation{ID: first.ID, State: corpus.Todo}},
+		{Record: second, Translation: corpus.Translation{ID: second.ID, State: corpus.Todo}},
+	}
+	_, err := message.CompileBankKorean(bank, items, map[int]message.KoreanRecord{
+		first.ID:  {Text: "가"},
+		second.ID: {Text: "나"},
+	}, nil)
+	if err == nil {
+		t.Fatal("expected aggregated materialization failure")
+	}
+	text := err.Error()
+	for _, want := range []string{"Korean materialization failed", "ID 10000", "ID 10001"} {
+		if !strings.Contains(text, want) {
+			t.Fatalf("error %q does not contain %q", text, want)
+		}
+	}
+}
+
 func TestCompileBankKoreanRejectsUnmatchedReplacementID(t *testing.T) {
 	source := corpus.Record{ID: 10000, Raw: []byte("old\x00"), Tokens: []corpus.Token{
 		{Kind: "text", Raw: []byte("old")}, {Kind: "suffix", Raw: []byte{0}},
