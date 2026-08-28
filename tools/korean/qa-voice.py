@@ -34,9 +34,12 @@ CONTROL_RE = re.compile(r"<[^<>]+>")
 # context can legitimately differ. Broad register cues therefore rank below
 # explicit hostile/address contradictions.
 JP_POLITE_RE = re.compile(r"(?:です(?:か|ね|よ)?|ます(?:か|ね|よ)?|ません|ください|下さい|ございます|でしょう)(?:[。！？!?…]|$)")
-JP_BLUNT_RE = re.compile(r"(?:だぞ|だぜ|だな|だろ|だろう|じゃないか|ではないか|しろ|するな|くれ|かい|だね)(?:[。！？!?…]|$)")
+# Standalone/question-particle かい is blunt, but adjective endings such as
+# 温かい are not. Requiring a non-hiragana predecessor avoids that false hit.
+JP_BLUNT_RE = re.compile(r"(?:だぞ|だぜ|だな|だろ|だろう|じゃないか|ではないか|しろ|するな|くれ|(?<![ぁ-ん])かい|だね)(?:[。！？!?…]|$)")
 KO_FORMAL_RE = re.compile(r"(?:습니다|습니까|입니다|입니까|십시오|세요|셨어요|했어요|해요|예요|이에요|군요|네요|죠)(?:[.!?…]|$)")
 KO_CASUAL_RE = re.compile(r"(?:해라|하지 마|하지마|해 줘|해줘|해|했어|할게|할까|하냐|하니|냐|니|구나|군|네|잖아|거야|거냐|마라|해 둬|해둬)(?:[.!?…]|$)")
+JP_ROUGH_FIRST_RE = re.compile(r"(?:俺様|俺|オレ)(?:は|が|も|を|に|の|で|、|，|,|\s)")
 
 # Korean first-person forms need token-aware matching. In particular, treating
 # ``나가`` as ``나+가`` creates false positives in ordinary verbs such as
@@ -91,7 +94,7 @@ def classify(japanese: str, korean: str) -> list[str]:
     if JP_BLUNT_RE.search(ja_vis) and KO_FORMAL_RE.search(ko_vis):
         findings.append("blunt_jp_formal_ko")
 
-    if has_any(japanese, ("俺", "オレ", "俺様")) and KO_POLITE_FIRST_RE.search(ko_vis):
+    if JP_ROUGH_FIRST_RE.search(japanese) and KO_POLITE_FIRST_RE.search(ko_vis):
         findings.append("rough_first_person_polite_ko")
     if has_any(japanese, ("わたくし", "私め", "拙者")) and KO_ROUGH_FIRST_RE.search(ko_vis):
         findings.append("humble_first_person_blunt_ko")
