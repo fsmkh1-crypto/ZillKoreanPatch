@@ -5,13 +5,13 @@ package release
 import (
 	"bytes"
 	"crypto/sha256"
+	"encoding/binary"
 	"fmt"
 	"io"
 	"os"
 	"path/filepath"
 	"sort"
 
-	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/gamefmt/paa"
 	"github.com/HK47196/zill/internal/gamefmt/pspiso"
 	"github.com/HK47196/zill/internal/koreanfont"
@@ -41,27 +41,58 @@ func forensicTargetRunes(mapping koreanslots.Mapping) []rune {
 	return out
 }
 
+// logCompiledKoreanForensics intentionally does not use corpus.ParseBank.
+// Compiled Korean records contain renderer-key byte pairs that are not ordinary
+// retail CP932 text, so running the retail text decoder over them would make the
+// diagnostic itself reject a perfectly valid Korean build. We only need the
+// authenticated bank's native uint16 offset table to capture exact record bytes.
 func logCompiledKoreanForensics(compiled map[string][]byte) error {
 	data, ok := compiled["msgsec001.dat"]
 	if !ok {
-		return fmt.Errorf("forensic: compiled msgsec001.dat is missing")
+		return fmt.Errorf("compiled msgsec001.dat is missing")
 	}
-	bank, err := corpus.ParseBank("msgsec001.dat", data)
-	if err != nil {
-		return fmt.Errorf("forensic: parse compiled msgsec001.dat: %w", err)
+	if len(data) < 2 {
+		return fmt.Errorf("compiled msgsec001.dat is too small")
+	}
+	count := int(binary.LittleEndian.Uint16(data[:2]))
+	tableEnd := 2 + count*2
+	if count <= 0 || tableEnd > len(data) {
+		return fmt.Errorf("compiled msgsec001.dat has invalid offset table: count=%d size=%d", count, len(data))
+	}
+	offset := func(index int) (int, error) {
+		if index < 0 || index >= count {
+			return 0, fmt.Errorf("record index %d out of range 0..%d", index, count-1)
+		}
+		pos := 2 + index*2
+		value := int(binary.LittleEndian.Uint16(data[pos : pos+2]))
+		if value < tableEnd || value > len(data) {
+			return 0, fmt.Errorf("record index %d has invalid offset %#x", index, value)
+		}
+		return value, nil
 	}
 	for _, id := range []int{10007, 10010} {
 		index := id % 10_000
-		if index < 0 || index >= len(bank.Records) {
-			return fmt.Errorf("forensic: compiled ID %d is out of range", id)
+		start, err := offset(index)
+		if err != nil {
+			return fmt.Errorf("ID %d: %w", id, err)
 		}
-		record := bank.Records[index]
-		display := record.Raw
-		if record.DisplaySize >= 0 && record.DisplaySize <= len(record.Raw) {
-			display = record.Raw[:record.DisplaySize]
+		end := len(data)
+		if index+1 < count {
+			end, err = offset(index + 1)
+			if err != nil {
+				return fmt.Errorf("ID %d next offset: %w", id, err)
+			}
 		}
-		fmt.Printf("FORENSIC COMPILED id=%d record_span=%d display_size=%d display_hex=%X\n",
-			id, len(record.Raw), record.DisplaySize, display)
+		if end < start {
+			return fmt.Errorf("ID %d has descending record span %#x:%#x", id, start, end)
+		}
+		raw := data[start:end]
+		display := raw
+		if terminator := bytes.Index(raw, []byte{5, 5, 5}); terminator >= 0 {
+			display = raw[:terminator+3]
+		}
+		fmt.Printf("FORENSIC COMPILED id=%d index=%d start=%#x end=%#x record_span=%d display_size=%d display_hex=%X raw_hex=%X\n",
+			id, index, start, end, len(raw), len(display), display, raw)
 	}
 	return nil
 }
@@ -81,7 +112,7 @@ func parseBuiltPAF(member []byte) (*zillfont.PAF, error) {
 	start := zillfont.RetailPAFOffset
 	end := start + zillfont.PAFSize
 	if start < 0 || end > len(member) {
-		return nil, fmt.Errorf("forensic: PAF range %#x:%#x outside member %#x", start, end, len(member))
+		return nil, fmt.Errorf("PAF range %#x:%#x outside member %#x", start, end, len(member))
 	}
 	return zillfont.ParsePAF(member[start:end])
 }
@@ -89,17 +120,17 @@ func parseBuiltPAF(member []byte) (*zillfont.PAF, error) {
 func loadForensicExpectedRasters(root string, mapping koreanslots.Mapping) (map[rune]zillfont.Raster, error) {
 	data, err := os.ReadFile(filepath.Join(root, "release", "korean", "font", "glyphs.toml"))
 	if err != nil {
-		return nil, fmt.Errorf("forensic: read Korean raster catalog: %w", err)
+		return nil, fmt.Errorf("read Korean raster catalog: %w", err)
 	}
 	catalog, err := koreanfont.Parse(data)
 	if err != nil {
-		return nil, fmt.Errorf("forensic: parse Korean raster catalog: %w", err)
+		return nil, fmt.Errorf("parse Korean raster catalog: %w", err)
 	}
 	out := make(map[rune]zillfont.Raster)
 	for _, r := range forensicTargetRunes(mapping) {
 		raster, ok := catalog.SourceRaster(r)
 		if !ok {
-			return nil, fmt.Errorf("forensic: Korean raster catalog is missing %U", r)
+			return nil, fmt.Errorf("Korean raster catalog is missing %U", r)
 		}
 		out[r] = raster
 	}
@@ -123,11 +154,11 @@ func logFontPayloadForensics(label, root string, atlasMember, pafMember []byte, 
 		key := mapping[r]
 		glyph, ok := byKey[uint16(key)]
 		if !ok {
-			return fmt.Errorf("forensic: %s PAF has no glyph for %U key=%04X", label, r, uint16(key))
+			return fmt.Errorf("%s PAF has no glyph for %U key=%04X", label, r, uint16(key))
 		}
 		actual, err := zillfont.ExtractAtlasCell(atlasMember, glyph)
 		if err != nil {
-			return fmt.Errorf("forensic: extract %s %U: %w", label, r, err)
+			return fmt.Errorf("extract %s %U: %w", label, r, err)
 		}
 		want := expected[r]
 		fmt.Printf("FORENSIC GLYPH stage=%s rune=%q unicode=U+%04X key=%04X paf_index=%d page=%d x=%d y=%d w=%d h=%d expected_sha=%s actual_sha=%s match=%t\n",
@@ -143,15 +174,15 @@ func logStagedKoreanFontForensics(root, staging string, mapping koreanslots.Mapp
 		filepath.Join(staging, "USRDIR", "pa.arc"),
 	)
 	if err != nil {
-		return fmt.Errorf("forensic: open rebuilt pa archive: %w", err)
+		return fmt.Errorf("open rebuilt pa archive: %w", err)
 	}
 	defer pair.Close()
 	members := pair.Members()
 	if retailPAFMemberIndex >= len(members) {
-		return fmt.Errorf("forensic: rebuilt pa archive has only %d members", len(members))
+		return fmt.Errorf("rebuilt pa archive has only %d members", len(members))
 	}
 	if members[retailAtlasMemberIndex].Name != retailAtlasMemberName || members[retailPAFMemberIndex].Name != retailPAFMemberName {
-		return fmt.Errorf("forensic: rebuilt pa font member identity drift")
+		return fmt.Errorf("rebuilt pa font member identity drift")
 	}
 	atlas, err := pair.Payload(retailAtlasMemberIndex)
 	if err != nil {
@@ -184,7 +215,7 @@ func sha256File(path string) (string, error) {
 func logFinalISOArchiveForensics(outputISO, staging string) error {
 	image, err := pspiso.Open(outputISO)
 	if err != nil {
-		return fmt.Errorf("forensic: reopen completed ISO: %w", err)
+		return fmt.Errorf("reopen completed ISO: %w", err)
 	}
 	defer image.Close()
 	payloads := image.PayloadFS()
@@ -192,19 +223,19 @@ func logFinalISOArchiveForensics(outputISO, staging string) error {
 		stagePath := filepath.Join(staging, "USRDIR", name)
 		stageSHA, err := sha256File(stagePath)
 		if err != nil {
-			return fmt.Errorf("forensic: hash staged %s: %w", name, err)
+			return fmt.Errorf("hash staged %s: %w", name, err)
 		}
 		isoFile, err := payloads.Open("PSP_GAME/USRDIR/" + name)
 		if err != nil {
-			return fmt.Errorf("forensic: open completed ISO %s: %w", name, err)
+			return fmt.Errorf("open completed ISO %s: %w", name, err)
 		}
 		isoSHA, hashErr := sha256Reader(isoFile)
 		closeErr := isoFile.Close()
 		if hashErr != nil {
-			return fmt.Errorf("forensic: hash completed ISO %s: %w", name, hashErr)
+			return fmt.Errorf("hash completed ISO %s: %w", name, hashErr)
 		}
 		if closeErr != nil {
-			return fmt.Errorf("forensic: close completed ISO %s: %w", name, closeErr)
+			return fmt.Errorf("close completed ISO %s: %w", name, closeErr)
 		}
 		fmt.Printf("FORENSIC ISO_FILE path=PSP_GAME/USRDIR/%s staged_sha=%s iso_sha=%s match=%t\n",
 			name, stageSHA, isoSHA, stageSHA == isoSHA)
