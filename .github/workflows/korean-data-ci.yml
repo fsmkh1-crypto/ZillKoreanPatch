@@ -36,6 +36,8 @@ jobs:
       - run: python3 -m unittest discover -s tools/korean -p 'test_*.py'
       - name: Require zero Korean layout lexical drift
         run: python3 tools/korean/qa-layout-drift.py
+      - name: Run Korean runtime text audit
+        run: python3 tools/korean/audit-runtime-text.py | tee /tmp/korean-runtime-audit.txt
       - run: ./zill korean-check
       - run: ./zill korean-font-check
       - name: Run whole-corpus QA-1 integrity scan
@@ -66,6 +68,7 @@ jobs:
         with:
           name: korean-qa-reports
           path: |
+            /tmp/korean-runtime-audit.txt
             /tmp/korean-qa-integrity.json
             /tmp/korean-qa-terminology.json
             /tmp/korean-qa-consistency.json
