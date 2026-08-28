@@ -46,7 +46,7 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		return nil, fmt.Errorf("%s: Korean compilation has %d items for %d source records", bank.Name, len(items), len(bank.Records))
 	}
 	if len(items) > math.MaxUint16 {
-		return nil, fmt.Errorf("%s: message count exceeds uint16", bank.Name, len(items))
+		return nil, fmt.Errorf("%s: message count exceeds uint16", bank.Name)
 	}
 	records := make([][]byte, len(items))
 	matched := make(map[int]struct{}, len(replacements))
