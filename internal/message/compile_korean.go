@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"math"
 	"sort"
+	"strings"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/koreanslots"
@@ -24,6 +25,11 @@ type KoreanRecord struct {
 // copies every other retail record unchanged. Semantic Korean must be layout-free;
 // optional generated Layout may insert line breaks only while preserving all
 // semantic/control text.
+//
+// Record-local materialization failures are accumulated across the whole bank
+// before returning. This keeps device beta testing from degenerating into a
+// one-record-per-build error chase while preserving fail-closed output: no bank
+// bytes are emitted unless every selected replacement materializes cleanly.
 func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[int]KoreanRecord, mapping koreanslots.Mapping) ([]byte, error) {
 	if len(items) != len(bank.Records) {
 		return nil, fmt.Errorf("%s: Korean compilation has %d items for %d source records", bank.Name, len(items), len(bank.Records))
@@ -33,6 +39,7 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 	}
 	records := make([][]byte, len(items))
 	matched := make(map[int]struct{}, len(replacements))
+	var failures []string
 	for index, item := range items {
 		source := bank.Records[index]
 		if item.Record.ID != source.ID || item.Translation.ID != source.ID {
@@ -46,22 +53,25 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		matched[source.ID] = struct{}{}
 		projection, err := Project(source)
 		if err != nil {
-			return nil, err
+			failures = append(failures, fmt.Sprintf("%s: ID %d projection: %v", bank.Name, source.ID, err))
+			continue
 		}
 		semantic, err := projection.MaterializeKorean(replacement.Text, false, mapping)
 		if err != nil {
-			return nil, fmt.Errorf("%s: ID %d Korean semantic text: %w", bank.Name, source.ID, err)
+			failures = append(failures, fmt.Sprintf("%s: ID %d Korean semantic text: %v", bank.Name, source.ID, err))
+			continue
 		}
 		if replacement.Layout == "" {
 			records[index] = semantic
 			continue
 		}
 		if !preservesSemantics(replacement.Text, replacement.Layout) {
-			return nil, fmt.Errorf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID)
+			failures = append(failures, fmt.Sprintf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID))
+			continue
 		}
 		records[index], err = projection.MaterializeKorean(replacement.Layout, true, mapping)
 		if err != nil {
-			return nil, fmt.Errorf("%s: ID %d Korean layout: %w", bank.Name, source.ID, err)
+			failures = append(failures, fmt.Sprintf("%s: ID %d Korean layout: %v", bank.Name, source.ID, err))
 		}
 	}
 	if len(matched) != len(replacements) {
@@ -72,7 +82,10 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			}
 		}
 		sort.Ints(unmatched)
-		return nil, fmt.Errorf("%s: Korean replacements reference IDs not present in this bank: %v", bank.Name, unmatched)
+		failures = append(failures, fmt.Sprintf("%s: Korean replacements reference IDs not present in this bank: %v", bank.Name, unmatched))
+	}
+	if len(failures) > 0 {
+		return nil, fmt.Errorf("Korean materialization failed:\n- %s", strings.Join(failures, "\n- "))
 	}
 
 	tableEnd := uint64(4 + len(records)*4)
