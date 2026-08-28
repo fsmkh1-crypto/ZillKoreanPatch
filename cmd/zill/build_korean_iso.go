@@ -60,7 +60,7 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		fmt.Fprintf(stderr, "zill: build-korean-iso: %v\n", err)
 		return 1
 	}
-	fmt.Fprintln(stdout, "Extracting retail ISO for Korean alpha build...")
+	fmt.Fprintln(stdout, "Extracting authenticated retail ISO for Korean beta build...")
 	if err := image.Extract(extracted); err != nil {
 		_ = image.Close()
 		fmt.Fprintf(stderr, "zill: build-korean-iso: extract ISO: %v\n", err)
@@ -71,8 +71,8 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		return 1
 	}
 	gameDir := filepath.Join(extracted, "PSP_GAME")
-	fmt.Fprintln(stdout, "Mobile alpha safety mode: authenticated retail banks bound before placeholder planning; BOOT/bindata CP932 scans are diagnostic only.")
-	fmt.Fprintln(stdout, "Building Korean alpha ISO...")
+	fmt.Fprintln(stdout, "Mobile beta safety mode: retail banks are authenticated and bound before slot planning and canonical Korean compilation.")
+	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	planner := func(source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
 		return buildKoreanAlphaPlanMobile(root, gameDir, source, korean)
 	}
@@ -80,6 +80,6 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		fmt.Fprintf(stderr, "zill: build-korean-iso: %v\n", err)
 		return 1
 	}
-	fmt.Fprintf(stdout, "Built Korean alpha ISO at %s\n", outputPath)
+	fmt.Fprintf(stdout, "Built Korean beta ISO at %s\n", outputPath)
 	return 0
 }
