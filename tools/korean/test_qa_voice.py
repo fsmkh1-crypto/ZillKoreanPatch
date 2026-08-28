@@ -64,6 +64,12 @@ class VoiceHazardTest(unittest.TestCase):
             mod.classify("そうですか。", "그렇군요."),
         )
 
+    def test_bare_deshou_is_not_reliable_polite_cue(self):
+        self.assertNotIn(
+            "polite_jp_casual_ko",
+            mod.classify("そうでしょう？", "그렇잖아?"),
+        )
+
     def test_distinct_casual_ending_still_matches(self):
         self.assertIn(
             "polite_jp_casual_ko",
