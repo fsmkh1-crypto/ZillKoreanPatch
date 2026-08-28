@@ -7,7 +7,6 @@ import (
 	"crypto/sha256"
 	"fmt"
 	"io"
-	"io/fs"
 	"os"
 	"path/filepath"
 	"sort"
@@ -195,7 +194,7 @@ func logFinalISOArchiveForensics(outputISO, staging string) error {
 		if err != nil {
 			return fmt.Errorf("forensic: hash staged %s: %w", name, err)
 		}
-		isoFile, err := fs.Open(payloads, "PSP_GAME/USRDIR/"+name)
+		isoFile, err := payloads.Open("PSP_GAME/USRDIR/" + name)
 		if err != nil {
 			return fmt.Errorf("forensic: open completed ISO %s: %w", name, err)
 		}
