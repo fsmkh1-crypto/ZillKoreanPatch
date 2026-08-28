@@ -74,16 +74,16 @@ func buildKoreanAlphaPlan(root, gameDir string) (koreanslots.Plan, int, int, err
 	bindataScan, err := slotaudit.ScanCP932Literals(bindata)
 	if err != nil { return koreanslots.Plan{}, 0, 0, fmt.Errorf("scan bindata.dat: %w", err) }
 
-	// Fixed-string ownership is reserved semantically. The heuristic CP932 scans
-	// remain diagnostic; BuildPlan performs the authoritative exact-byte audit
-	// against authenticated BOOT/EBOOT/bindata below.
 	reserved := make(map[cp932.GlyphKey]struct{})
 	mergeRendererKeys(reserved, usedFixed)
 	texts, err := korean.RuntimeTexts(source)
 	if err != nil { return koreanslots.Plan{}, 0, 0, err }
+	fixedKorean, err := loadKoreanFixedEBOOT(root)
+	if err != nil { return koreanslots.Plan{}, 0, 0, err }
+	texts = append(texts, fixeddata.KoreanEBOOTTexts(fixedKorean)...)
 	plan, err := koreanslots.BuildPlan(texts, font.KoreanCompatibleKeys(), rendererKeySetSlice(reserved), boot, eboot, bindata)
 	if err != nil { return koreanslots.Plan{}, 0, 0, fmt.Errorf("plan allocation: %w", err) }
-	fmt.Printf("Korean beta slot diagnostics: boot_scan_keys=%d bindata_scan_keys=%d candidates=%d custom=%d headroom=%d (literal scans diagnostic-only; exact-byte audited)\n",
-		len(bootScan.Keys), len(bindataScan.Keys), len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
+	fmt.Printf("Korean beta slot diagnostics: boot_scan_keys=%d bindata_scan_keys=%d fixed_korean=%d candidates=%d custom=%d headroom=%d (literal scans diagnostic-only; exact-byte audited)\n",
+		len(bootScan.Keys), len(bindataScan.Keys), len(fixedKorean), len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
 	return plan, len(korean.Entries), sourceSummary.Records, nil
 }
