@@ -18,10 +18,11 @@ import (
 // so every installed double-byte renderer key is eligible; it is not constrained
 // by the retail cell geometry required by the older atlas-only desktop path.
 //
-// Authenticated fixed-string ownership is reserved semantically. BOOT/bindata
-// CP932 scans remain diagnostics only. Raw occurrence scans across large binary
-// blobs are deliberately not used as slot ownership: arbitrary binary data
-// contains most two-byte combinations by chance and would eliminate every slot.
+// Authenticated fixed-string ownership and CP932 literals recovered from retail
+// BOOT.BIN/bindata.dat are reserved before custom Korean glyph allocation. The
+// scanner intentionally accepts only plausible NUL-terminated CP932 strings;
+// arbitrary raw byte-pair occurrence across binary blobs is not treated as slot
+// ownership because that would eliminate nearly every candidate by chance.
 func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
 	if source == nil || korean == nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta planner: nil bound source or Korean project")
@@ -60,6 +61,8 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 
 	reserved := make(map[cp932.GlyphKey]struct{})
 	mergeRendererKeys(reserved, usedFixed)
+	mergeRendererKeys(reserved, rendererKeySetSlice(bootScan.Keys))
+	mergeRendererKeys(reserved, rendererKeySetSlice(bindataScan.Keys))
 
 	texts, err := korean.RuntimeTexts(source)
 	if err != nil {
@@ -73,13 +76,13 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	installed := font.DoubleByteKeys()
 	stock := koreanslots.RequiredStockKeys(texts)
 	custom := koreanslots.RequiredCustomRunes(texts)
-	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d custom=%d materializable_korean=%d fixed_korean=%d total_records=%d\n",
-		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(custom), len(korean.Entries), len(fixedKorean), len(source.Items))
+	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d total_reserved=%d custom=%d materializable_korean=%d fixed_korean=%d total_records=%d\n",
+		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(reserved), len(custom), len(korean.Entries), len(fixedKorean), len(source.Items))
 	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
 	if err != nil {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta full-repack slot allocation: %w", err)
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta conservative slot allocation: %w", err)
 	}
-	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d (full PAF repack; fixed ownership reserved; binary scans diagnostic-only)\n",
+	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d (full PAF repack; fixed + BOOT/bindata CP932 literal ownership reserved)\n",
 		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
 	return plan, len(korean.Entries), len(source.Items), nil
 }
