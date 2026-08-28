@@ -52,14 +52,16 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		}
 		matched[source.ID] = struct{}{}
 
-		// Runtime diagnostic: ID 10010 is the first message expected immediately
-		// after the character-creation start-location choice and contains the
-		// movable <value:$15> substitution. Preserve its authenticated retail bytes
-		// exactly so device testing can isolate whether Korean materialization of
-		// this single record is responsible for the post-character-creation freeze.
+		// Runtime diagnostic: ID 10010 begins with the movable <value:$15>
+		// substitution immediately followed by a custom Korean renderer glyph.
+		// Insert one stock ASCII space after the substitution in both semantic and
+		// layout forms so device testing can isolate substitution/glyph adjacency
+		// without changing the source-owned control stream.
 		if source.ID == 10010 {
-			records[index] = append([]byte(nil), source.Raw...)
-			continue
+			replacement.Text = strings.Replace(replacement.Text, "<value:$15>", "<value:$15> ", 1)
+			if replacement.Layout != "" {
+				replacement.Layout = strings.Replace(replacement.Layout, "<value:$15>", "<value:$15> ", 1)
+			}
 		}
 
 		projection, err := Project(source)
