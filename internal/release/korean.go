@@ -4,6 +4,7 @@ package release
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/koreanslots"
@@ -14,6 +15,10 @@ import (
 // mapping-aware message compiler. It deliberately accepts layouts separately:
 // canonical Korean text remains semantic translator-owned data while wrapping
 // is machine-owned build output.
+//
+// Independent bank failures are accumulated before returning so one authenticated
+// retail build exposes the full QA5 materialization/capacity failure set rather
+// than stopping at the first section. No compiled output is returned on failure.
 func compileKoreanBanks(source *corpus.Project, korean *corpus.KoreanProject, banks []corpus.Bank,
 	mapping koreanslots.Mapping, layouts map[int]string) (map[string][]byte, error) {
 	if source == nil {
@@ -43,21 +48,26 @@ func compileKoreanBanks(source *corpus.Project, korean *corpus.KoreanProject, ba
 
 	compiled := make(map[string][]byte, len(banks))
 	seenSections := make(map[int]struct{}, len(banks))
+	var failures []string
 	for _, bank := range banks {
 		if _, exists := seenSections[bank.Section]; exists {
-			return nil, fmt.Errorf("compile Korean banks: duplicate retail section %03d", bank.Section)
+			failures = append(failures, fmt.Sprintf("duplicate retail section %03d", bank.Section))
+			continue
 		}
 		seenSections[bank.Section] = struct{}{}
 		items := itemsBySection[bank.Section]
 		if len(items) != len(bank.Records) {
-			return nil, fmt.Errorf("%s: source project has %d items for %d retail records", bank.Name, len(items), len(bank.Records))
+			failures = append(failures, fmt.Sprintf("%s: source project has %d items for %d retail records", bank.Name, len(items), len(bank.Records)))
+			continue
 		}
 		data, err := message.CompileBankKorean(bank, items, replacementsBySection[bank.Section], mapping)
 		if err != nil {
-			return nil, err
+			failures = append(failures, err.Error())
+			continue
 		}
 		if _, exists := compiled[bank.Name]; exists {
-			return nil, fmt.Errorf("compile Korean banks: duplicate retail bank name %s", bank.Name)
+			failures = append(failures, fmt.Sprintf("duplicate retail bank name %s", bank.Name))
+			continue
 		}
 		compiled[bank.Name] = data
 	}
@@ -66,8 +76,11 @@ func compileKoreanBanks(source *corpus.Project, korean *corpus.KoreanProject, ba
 			continue
 		}
 		if _, ok := seenSections[section]; !ok {
-			return nil, fmt.Errorf("compile Korean banks: Korean section %03d has no retail bank", section)
+			failures = append(failures, fmt.Sprintf("Korean section %03d has no retail bank", section))
 		}
+	}
+	if len(failures) > 0 {
+		return nil, fmt.Errorf("compile Korean banks failed:\n- %s", strings.Join(failures, "\n- "))
 	}
 	return compiled, nil
 }
