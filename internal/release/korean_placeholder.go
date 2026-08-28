@@ -5,18 +5,21 @@ package release
 import (
 	"fmt"
 	"sort"
+	"strings"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/message"
 )
 
 const koreanAlphaPlaceholder = "[JP]"
+const japaneseUnusedMarker = "＜未使用＞"
 
 // BuildKoreanBetaProject projects the reviewed canonical Korean overlay onto
 // records that can actually be materialized by the message compiler. Some
-// canonical rows intentionally correspond to structural/no-text source records;
-// those must remain byte-identical to retail rather than being forced through
-// CompileBankKorean. Reviewed Layout is preserved for every retained row.
+// canonical rows intentionally correspond to structural/no-text or explicitly
+// unused source records; those must remain byte-identical to retail rather than
+// being forced through CompileBankKorean. Reviewed Layout is preserved for every
+// retained row.
 func BuildKoreanBetaProject(source *corpus.Project, korean *corpus.KoreanProject) (*corpus.KoreanProject, int, error) {
 	if source == nil || korean == nil {
 		return nil, 0, fmt.Errorf("Korean beta projection: nil project")
@@ -31,6 +34,15 @@ func BuildKoreanBetaProject(source *corpus.Project, korean *corpus.KoreanProject
 	for _, item := range source.Items {
 		row, ok := accepted[item.Record.ID]
 		if !ok {
+			continue
+		}
+		// Retail labels these records explicitly as unused. They have no runtime
+		// value, and several legacy translations accidentally changed the source's
+		// full-width literal brackets (＜未使用＞) into ASCII pseudo-tags such as
+		// <未使用>/<미사용>, which the materializer correctly treats as reserved
+		// markup. Keep every explicitly unused record byte-identical to retail.
+		if strings.Contains(row.Japanese, japaneseUnusedMarker) {
+			skippedStructural++
 			continue
 		}
 		_, editable, err := message.PlaceholderForRecord(item.Record, koreanAlphaPlaceholder)
