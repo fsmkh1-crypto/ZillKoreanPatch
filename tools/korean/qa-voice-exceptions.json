@@ -6,6 +6,7 @@
   {"id":"1740182","segment":0,"kind":"blunt_jp_formal_ko","category":"source_register_shift","reason":"The Japanese monologue deliberately mixes ですね/ましたよ with the rhetorical 偽善じゃないか; Korean preserves that mixed reflective voice."},
 
   {"id":"310307","segment":0,"kind":"rough_first_person_polite_ko","category":"fear_induced_politeness","reason":"The speaker uses 俺 but is panicking and begging not to be hit; Korean polite pleading is contextually natural."},
+  {"id":"630050","segment":0,"kind":"rough_first_person_polite_ko","category":"fear_induced_politeness","reason":"The frightened henchman uses 俺 in Japanese while explicitly pleading for mercy; surrounding 630049-630051 is polite, and Korean 제가/존댓말 is intentional after review."},
   {"id":"1370530","segment":0,"kind":"rough_first_person_polite_ko","category":"character_idiolect","reason":"The character explicitly combines 俺 with military-comic であります; Korean 저 + formal ending is an intentional equivalent."},
   {"id":"1580003","segment":1,"kind":"rough_first_person_polite_ko","category":"character_idiolect","reason":"The character consistently combines 俺 with っす toward Ossi; Korean 저 and clipped polite speech preserve that idiolect."},
   {"id":"1580003","segment":2,"kind":"rough_first_person_polite_ko","category":"character_idiolect","reason":"The character consistently combines 俺 with っす toward the protagonist; Korean 저 and clipped polite speech preserve that idiolect."},
