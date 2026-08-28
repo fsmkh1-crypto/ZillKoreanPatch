@@ -92,8 +92,9 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 	// Diagnostic-only runtime experiment: preserve ID 10010's control token and
 	// every renderer key, but remove exactly one ASCII space after validated
 	// materialization. The known failing record is 72 bytes; this produces a
-	// 71-byte record so device testing can isolate a length/buffer threshold from
-	// content or glyph-key effects. Canonical Korean data is not modified.
+	// 71-byte record. A second probe below then restores only msgsec001's total
+	// payload size with one byte of recognized archive padding, leaving every
+	// record offset unchanged from the successful 71-byte build.
 	for index, item := range items {
 		if item.Record.ID != 10010 {
 			continue
@@ -140,6 +141,24 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		binary.LittleEndian.PutUint32(output[4+index*4:], uint32(offset))
 		copy(output[int(offset):], record)
 		offset += uint64(len(record))
+	}
+
+	// Size-only control: L71 produced msgsec001.dat at 10917 bytes and passed on
+	// device. Append exactly one 'Z' byte after the final block terminator. The
+	// retail parser recognizes this as the first byte of its canonical
+	// "ZillO'll " archive-padding pattern, so no record offset or display content
+	// changes. This restores only the bank payload size to the failing 10918.
+	if bank.Section == 1 {
+		if len(output) != 10917 {
+			return nil, fmt.Errorf("%s: tail-pad probe expected L71 bank size 10917, got %d", bank.Name, len(output))
+		}
+		output = append(output, 'Z')
+		if len(output) != 10918 {
+			return nil, fmt.Errorf("%s: tail-pad probe produced bank size %d, want 10918", bank.Name, len(output))
+		}
+		if len(output) > RuntimeBankCapacity(bank.Section) {
+			return nil, fmt.Errorf("%s: tail-pad probe exceeds runtime capacity", bank.Name)
+		}
 	}
 	return output, nil
 }
