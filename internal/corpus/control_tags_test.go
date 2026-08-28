@@ -29,7 +29,7 @@ func TestRuntimeControlTagsCoverDisplayTextControlForms(t *testing.T) {
 
 func TestFixedRuntimeLiteralOccupancyIgnoresLineBreaksAndWhitespace(t *testing.T) {
 	text := "  <if><value:$01><equal>19本文<line-break>続き<end>  <line-break>…<value:$28>、<line-break><if>次<end>"
-	want := []bool{false, false, false, true, true, true, true}
+	want := []bool{false, false, false, true, true, true, true, false}
 	if got := FixedRuntimeLiteralOccupancy(text); !slices.Equal(got, want) {
 		t.Fatalf("FixedRuntimeLiteralOccupancy = %#v, want %#v", got, want)
 	}
