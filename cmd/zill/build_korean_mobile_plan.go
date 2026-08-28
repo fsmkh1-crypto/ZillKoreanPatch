@@ -61,8 +61,8 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 
 	reserved := make(map[cp932.GlyphKey]struct{})
 	mergeRendererKeys(reserved, usedFixed)
-	mergeRendererKeys(reserved, rendererKeySetSlice(bootScan.Keys))
-	mergeRendererKeys(reserved, rendererKeySetSlice(bindataScan.Keys))
+	mergeRendererKeys(reserved, bootScan.Keys)
+	mergeRendererKeys(reserved, bindataScan.Keys)
 
 	texts, err := korean.RuntimeTexts(source)
 	if err != nil {
