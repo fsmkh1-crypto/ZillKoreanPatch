@@ -76,7 +76,9 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	}
 	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
 	if err != nil { return err }
-	if err := logCompiledKoreanForensics(compiled); err != nil { return err }
+	if probeErr := logCompiledKoreanForensics(compiled); probeErr != nil {
+		fmt.Printf("FORENSIC ERROR stage=compiled_probe error=%q\n", probeErr)
+	}
 	if err := addBanks(owners, compiled); err != nil { return err }
 
 	fontReplacements, err := prepareKoreanMobileFontReplacements(root, archives, plan)
@@ -114,8 +116,12 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 			return fmt.Errorf("rebuild %s archive: %w", archive.name, err)
 		}
 	}
-	if err := logStagedKoreanFontForensics(root, staging, plan.Mapping); err != nil { return err }
+	if probeErr := logStagedKoreanFontForensics(root, staging, plan.Mapping); probeErr != nil {
+		fmt.Printf("FORENSIC ERROR stage=staged_font_probe error=%q\n", probeErr)
+	}
 	if err := authorTranslatedISO(outputPath, retailISO, isoManifest, staging); err != nil { return err }
-	if err := logFinalISOArchiveForensics(outputPath, staging); err != nil { return err }
+	if probeErr := logFinalISOArchiveForensics(outputPath, staging); probeErr != nil {
+		fmt.Printf("FORENSIC ERROR stage=final_iso_probe error=%q\n", probeErr)
+	}
 	return nil
 }
