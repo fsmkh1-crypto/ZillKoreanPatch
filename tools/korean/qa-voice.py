@@ -2,12 +2,12 @@
 """QA-4 speaker/voice hazard candidate scan.
 
 Candidate generation only: nothing in this tool is auto-fixed. It combines
-high-confidence lexical address mismatches with strong Japanese/Korean register
+high-confidence lexical address mismatches with broader Japanese/Korean register
 signals and ranks the resulting rows for human/LLM context review.
 
 Multi-branch records are compared branch-by-branch only when the authoritative
-fixed control-token skeleton matches. Structural fallbacks are reported rather
-than hidden.
+fixed control-token skeleton matches. Genuine structural fallbacks are reported
+rather than hidden; ordinary records without <end> are simply scanned whole.
 """
 from __future__ import annotations
 
@@ -25,21 +25,23 @@ SECTION_FILE_RE = re.compile(r"^msgsec(\d{3})(?:(?:-part\d+)|b)?\.toml$")
 END = "<end>"
 CONTROL_RE = re.compile(r"<[^<>]+>")
 
-# Strong cues only. These intentionally under-scan rather than turn every
-# sentence-final particle into a candidate.
-JP_POLITE_RE = re.compile(r"(?:です(?:か|ね|よ)?|ます(?:か|ね|よ)?|ません|ください|下さい|ございます|でしょう|なさい)(?:[。！？!?…]|$)")
+# These are candidate cues, not correctness rules. Japanese politeness markers
+# do not map mechanically to Korean 존댓말; character voice and relationship
+# context can legitimately differ. Broad register cues therefore rank below
+# explicit hostile/address contradictions.
+JP_POLITE_RE = re.compile(r"(?:です(?:か|ね|よ)?|ます(?:か|ね|よ)?|ません|ください|下さい|ございます|でしょう)(?:[。！？!?…]|$)")
 JP_BLUNT_RE = re.compile(r"(?:だぞ|だぜ|だな|だろ|だろう|じゃないか|ではないか|しろ|するな|くれ|かい|だね)(?:[。！？!?…]|$)")
 KO_FORMAL_RE = re.compile(r"(?:습니다|습니까|입니다|입니까|십시오|세요|셨어요|했어요|해요|예요|이에요|군요|네요|죠)(?:[.!?…]|$)")
-KO_CASUAL_RE = re.compile(r"(?:해라|하지 마|하지마|해 줘|해줘|해|했어|할게|할까|하냐|하니|냐|니|구나|군|네|지|잖아|거야|거냐|마라|해라|해 둬|해둬)(?:[.!?…]|$)")
+KO_CASUAL_RE = re.compile(r"(?:해라|하지 마|하지마|해 줘|해줘|해|했어|할게|할까|하냐|하니|냐|니|구나|군|네|잖아|거야|거냐|마라|해 둬|해둬)(?:[.!?…]|$)")
 
 SEVERITY = {
     "hostile_jp_polite_ko": 100,
     "neutral_jp_hostile_ko": 95,
-    "polite_jp_casual_ko": 85,
-    "blunt_jp_formal_ko": 75,
-    "blunt_jp_polite_ko": 70,
+    "blunt_jp_polite_ko": 80,
+    "blunt_jp_formal_ko": 70,
     "rough_first_person_polite_ko": 60,
     "humble_first_person_blunt_ko": 60,
+    "polite_jp_casual_ko": 50,
 }
 
 
@@ -56,33 +58,24 @@ def classify(japanese: str, korean: str) -> list[str]:
     ja_vis = visible(japanese)
     ko_vis = visible(korean)
 
-    # 貴様/てめえ are hostile or contemptuous second-person forms. A polite
-    # Korean second person is almost always a voice/register regression.
     if ("貴様" in japanese or "てめえ" in japanese or "てめぇ" in japanese) and has_any(
         korean, ("당신", "귀하", "선생", "자네")
     ):
         findings.append("hostile_jp_polite_ko")
 
-    # お前 is ordinarily familiar/blunt. 당신 is possible in narrow contexts
-    # such as established intimate/spousal address, so review rather than auto-fix.
+    # お前 -> 당신 is ambiguous because 당신 can be intimate/spousal Korean.
     if "お前" in japanese and "당신" in korean:
         findings.append("blunt_jp_polite_ko")
 
-    # あなた/貴方 is not normally compatible with explicitly contemptuous
-    # Korean address. Local dramatic context can still justify it, so review only.
     if ("あなた" in japanese or "貴方" in japanese) and has_any(korean, ("네놈", "이 자식", "이놈")):
         findings.append("neutral_jp_hostile_ko")
 
-    # Strong sentence-register contradictions. These cues are deliberately
-    # conservative: the scanner is trying to build a useful review queue, not
-    # linguistically classify every possible Japanese/Korean ending.
+    # Broad sentence-register cues. Review-only and deliberately lower ranked.
     if JP_POLITE_RE.search(ja_vis) and KO_CASUAL_RE.search(ko_vis):
         findings.append("polite_jp_casual_ko")
     if JP_BLUNT_RE.search(ja_vis) and KO_FORMAL_RE.search(ko_vis):
         findings.append("blunt_jp_formal_ko")
 
-    # Strong first-person/register combinations. These are candidates only;
-    # characterization can intentionally override the surface mapping.
     if has_any(japanese, ("俺", "オレ", "俺様")) and re.search(r"(?:^|[\s,，。!?！？])저(?:는|가|도|를|에게|한테|의|$)", ko_vis):
         findings.append("rough_first_person_polite_ko")
     if has_any(japanese, ("わたくし", "私め", "拙者")) and re.search(r"(?:^|[\s,，。!?！？])나(?:는|가|도|를|에게|한테|의|$)", ko_vis):
@@ -102,8 +95,13 @@ def branch_alignment_safe(japanese: str, korean: str) -> bool:
     )
 
 
+def needs_structural_fallback(japanese: str, korean: str) -> bool:
+    """True only when an <end>/control-bearing record cannot be safely aligned."""
+    has_branch_structure = END in japanese or END in korean
+    return has_branch_structure and not branch_alignment_safe(japanese, korean)
+
+
 def paired_segments(japanese: str, korean: str) -> list[tuple[int, str, str]]:
-    """Return aligned <end>-terminated semantic branches when structurally safe."""
     if branch_alignment_safe(japanese, korean):
         ja = japanese.split(END)
         ko = korean.split(END)
@@ -147,8 +145,7 @@ def main() -> None:
             if not isinstance(ja, str) or not isinstance(ko, str) or not ko:
                 continue
             scanned += 1
-            safe = branch_alignment_safe(ja, ko)
-            if not safe:
+            if needs_structural_fallback(ja, ko):
                 fallback_count += 1
                 if len(fallback_examples) < 20:
                     fallback_examples.append({
@@ -170,19 +167,19 @@ def main() -> None:
                         "segment": segment,
                         "priority": row_priority(kinds),
                         "kinds": kinds,
-                        "japanese": ja_seg + END,
-                        "korean": ko_seg + END,
+                        "japanese": ja_seg + (END if END in ja else ""),
+                        "korean": ko_seg + (END if END in ko else ""),
                     })
 
     findings.sort(key=lambda row: (-int(row["priority"]), int(row["id"]), int(row["segment"])))
     all_kinds = sorted({k for row in findings for k in row["kinds"]})
     priority_bands = {
-        "high_85_plus": sum(int(row["priority"]) >= 85 for row in findings),
-        "medium_70_84": sum(70 <= int(row["priority"]) < 85 for row in findings),
-        "low_under_70": sum(int(row["priority"]) < 70 for row in findings),
+        "tier1_80_plus": sum(int(row["priority"]) >= 80 for row in findings),
+        "tier2_60_79": sum(60 <= int(row["priority"]) < 80 for row in findings),
+        "tier3_under_60": sum(int(row["priority"]) < 60 for row in findings),
     }
     report = {
-        "schema": 3,
+        "schema": 4,
         "scanned_records": scanned,
         "finding_count": len(findings),
         "finding_record_count": len({str(row["id"]) for row in findings}),
