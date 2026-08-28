@@ -174,7 +174,7 @@ public final class MainActivity extends Activity {
                         "--iso", source.getAbsolutePath(),
                         "--out", output.getAbsolutePath(),
                         "--work-dir", work.getAbsolutePath(),
-                        "--version", "mobile-beta-0.9.5");
+                        "--version", "mobile-beta-0.9.7");
                 builder.directory(rootDir);
                 builder.redirectErrorStream(true);
                 Process process = builder.start();
@@ -211,7 +211,7 @@ public final class MainActivity extends Activity {
     }
 
     private File ensureProjectAssets() throws Exception {
-        File root = new File(getFilesDir(), "zillroot-beta-v4");
+        File root = new File(getFilesDir(), "zillroot-beta-v5");
         File marker = new File(root, ".ready");
         if (marker.isFile()) return root;
         deleteRecursively(root);
