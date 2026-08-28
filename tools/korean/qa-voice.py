@@ -34,9 +34,9 @@ CONTROL_RE = re.compile(r"<[^<>]+>")
 # context can legitimately differ. Broad register cues therefore rank below
 # explicit hostile/address contradictions.
 JP_POLITE_RE = re.compile(r"(?:です(?:か|ね|よ)?|ます(?:か|ね|よ)?|ません|ください|下さい|ございます|でしょう)(?:[。！？!?…]|$)")
-# Standalone/question-particle かい is blunt, but adjective endings such as
-# 温かい are not. Requiring a non-hiragana predecessor avoids that false hit.
-JP_BLUNT_RE = re.compile(r"(?:だぞ|だぜ|だな|だろ|だろう|じゃないか|ではないか|しろ|するな|くれ|(?<![ぁ-ん])かい|だね)(?:[。！？!?…]|$)")
+# Bare かい is deliberately excluded: it is too easy to confuse with adjective
+# endings such as 温かい, producing noisy false positives.
+JP_BLUNT_RE = re.compile(r"(?:だぞ|だぜ|だな|だろ|だろう|じゃないか|ではないか|しろ|するな|くれ|だね)(?:[。！？!?…]|$)")
 KO_FORMAL_RE = re.compile(r"(?:습니다|습니까|입니다|입니까|십시오|세요|셨어요|했어요|해요|예요|이에요|군요|네요|죠)(?:[.!?…]|$)")
 KO_CASUAL_RE = re.compile(r"(?:해라|하지 마|하지마|해 줘|해줘|해|했어|할게|할까|하냐|하니|냐|니|구나|군|네|잖아|거야|거냐|마라|해 둬|해둬)(?:[.!?…]|$)")
 JP_ROUGH_FIRST_RE = re.compile(r"(?:俺様|俺|オレ)(?:は|が|も|を|に|の|で|、|，|,|\s)")
