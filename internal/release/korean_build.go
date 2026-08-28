@@ -21,10 +21,9 @@ const (
 
 // BuildKoreanAlpha builds the current Korean beta integration release. The
 // legacy function name is kept for compatibility with the mobile/debug builder.
-// Accepted Korean records are compiled with the authenticated slot plan while
-// source records outside the canonical Korean overlay retain their retail
-// Japanese bytes. The English static font/string transforms are deliberately
-// excluded: Korean uses its own renderer-slot/font path instead.
+// Canonical Korean rows are projected onto runtime-materializable source records;
+// structural/no-text rows and source records outside that projection retain their
+// authenticated retail bytes. Korean uses its own renderer-slot/font path.
 func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.Plan) (result Result, err error) {
 	root, err = resolveExistingPath(root, "project root")
 	if err != nil { return result, err }
@@ -54,7 +53,7 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 
 	source, _, err := corpus.LoadProject(root)
 	if err != nil { return result, err }
-	korean, _, err := corpus.LoadKoreanProject(root, source)
+	canonicalKorean, _, err := corpus.LoadKoreanProject(root, source)
 	if err != nil { return result, err }
 
 	archives, err := openArchives(gameDir)
@@ -63,6 +62,11 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	banks, owners, err := loadRetailBanks(archives)
 	if err != nil { return result, err }
 	if err := corpus.BindBanks(source, banks); err != nil { return result, err }
+
+	korean, skippedStructural, err := BuildKoreanBetaProject(source, canonicalKorean)
+	if err != nil { return result, err }
+	fmt.Printf("Korean beta projection: canonical=%d materializable=%d structural_retail=%d\n",
+		len(canonicalKorean.Entries), len(korean.Entries), skippedStructural)
 
 	layouts := make(map[int]string)
 	for _, row := range korean.Entries {
