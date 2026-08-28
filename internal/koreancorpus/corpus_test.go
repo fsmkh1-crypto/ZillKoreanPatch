@@ -92,7 +92,7 @@ layout = "<value:$15>여<line-break>답하라<end>"
 japanese = "<value:$15>よ<line-break>答えよ<end>"
 korean = "<value:$16>여 답하라<end>"
 `)
-	if _, err := parseSection(changedValue, "msgsec001.toml", 1, map[int]string{10010: source}); err == nil || !strings.Contains(err.Error(), "changes fixed control sequence") {
+	if _, err := parseSection(changedValue, "msgsec001.toml", 1, map[int]string{10010: source}); err == nil || !strings.Contains(err.Error(), "fixed control token sequence differs") {
 		t.Fatalf("got %v, want changed-value rejection", err)
 	}
 
@@ -102,7 +102,7 @@ korean = "<value:$16>여 답하라<end>"
 japanese = "<value:$15>よ<line-break>答えよ<end>"
 korean = "<value:$15>여 답하라"
 `)
-	if _, err := parseSection(missingEnd, "msgsec001.toml", 1, map[int]string{10010: source}); err == nil || !strings.Contains(err.Error(), "changes fixed control sequence") {
+	if _, err := parseSection(missingEnd, "msgsec001.toml", 1, map[int]string{10010: source}); err == nil || !strings.Contains(err.Error(), "fixed control token sequence differs") {
 		t.Fatalf("got %v, want missing-end rejection", err)
 	}
 }
