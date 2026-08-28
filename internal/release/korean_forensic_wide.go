@@ -13,21 +13,37 @@ import (
 // absolute offsets. It is diagnostic-only and never decodes renderer-key bytes
 // as retail CP932 text.
 func logCompiledKoreanForensicsWide(compiled map[string][]byte) error {
-	data, ok := compiled["msgsec001.dat"]
+	for _, target := range []struct {
+		bank string
+		id   int
+	}{
+		{"msgsec001.dat", 10007},
+		{"msgsec001.dat", 10010},
+		{"msgsec021.dat", 210065},
+	} {
+		if err := logWideRecord(compiled, target.bank, target.id); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func logWideRecord(compiled map[string][]byte, bankName string, id int) error {
+	data, ok := compiled[bankName]
 	if !ok {
-		return fmt.Errorf("compiled msgsec001.dat is missing")
+		return fmt.Errorf("compiled %s is missing", bankName)
 	}
 	if len(data) < 4 {
-		return fmt.Errorf("compiled msgsec001.dat is too small")
+		return fmt.Errorf("compiled %s is too small", bankName)
 	}
 	count := int(binary.LittleEndian.Uint16(data[:2]))
 	reserved := binary.LittleEndian.Uint16(data[2:4])
 	if reserved != 0 {
-		return fmt.Errorf("compiled msgsec001.dat reserved halfword is %#x, want 0", reserved)
+		return fmt.Errorf("compiled %s reserved halfword is %#x, want 0", bankName, reserved)
 	}
 	tableEnd := 4 + count*4
 	if count <= 0 || tableEnd > len(data) {
-		return fmt.Errorf("compiled msgsec001.dat has invalid wide offset table: count=%d table_end=%#x size=%#x", count, tableEnd, len(data))
+		return fmt.Errorf("compiled %s has invalid wide offset table: count=%d table_end=%#x size=%#x", bankName, count, tableEnd, len(data))
 	}
 	offset := func(index int) (int, error) {
 		if index < 0 || index >= count {
@@ -40,29 +56,27 @@ func logCompiledKoreanForensicsWide(compiled map[string][]byte) error {
 		}
 		return value, nil
 	}
-	for _, id := range []int{10007, 10010} {
-		index := id % 10_000
-		start, err := offset(index)
-		if err != nil {
-			return fmt.Errorf("ID %d: %w", id, err)
-		}
-		end := len(data)
-		if index+1 < count {
-			end, err = offset(index + 1)
-			if err != nil {
-				return fmt.Errorf("ID %d next offset: %w", id, err)
-			}
-		}
-		if end < start {
-			return fmt.Errorf("ID %d has descending record span %#x:%#x", id, start, end)
-		}
-		raw := data[start:end]
-		display := raw
-		if terminator := bytes.Index(raw, []byte{5, 5, 5}); terminator >= 0 {
-			display = raw[:terminator+3]
-		}
-		fmt.Printf("FORENSIC COMPILED id=%d format=wide32 index=%d start=%#x end=%#x record_span=%d display_size=%d display_hex=%X raw_hex=%X\n",
-			id, index, start, end, len(raw), len(display), display, raw)
+	index := id % 10_000
+	start, err := offset(index)
+	if err != nil {
+		return fmt.Errorf("%s ID %d: %w", bankName, id, err)
 	}
+	end := len(data)
+	if index+1 < count {
+		end, err = offset(index + 1)
+		if err != nil {
+			return fmt.Errorf("%s ID %d next offset: %w", bankName, id, err)
+		}
+	}
+	if end < start {
+		return fmt.Errorf("%s ID %d has descending record span %#x:%#x", bankName, id, start, end)
+	}
+	raw := data[start:end]
+	display := raw
+	if terminator := bytes.Index(raw, []byte{5, 5, 5}); terminator >= 0 {
+		display = raw[:terminator+3]
+	}
+	fmt.Printf("FORENSIC COMPILED bank=%s id=%d format=wide32 bank_size=%d bank_mod16=%d index=%d start=%#x end=%#x record_span=%d display_size=%d display_hex=%X raw_hex=%X\n",
+		bankName, id, len(data), len(data)%16, index, start, end, len(raw), len(display), display, raw)
 	return nil
 }
