@@ -3,7 +3,9 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
+	"unicode"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/cp932"
@@ -84,5 +86,49 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	}
 	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d (full PAF repack; fixed + BOOT/bindata CP932 literal ownership reserved)\n",
 		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
+
+	// Diagnostic only: expose the two renderer-key collisions observed on device.
+	// This does not alter the allocation.
+	for _, r := range []rune{'게', '깃'} {
+		key, ok := plan.Mapping[r]
+		if !ok {
+			fmt.Printf("FORENSIC SLOT rune=%q unicode=U+%04X mapped=false\n", r, r)
+			continue
+		}
+		encoded, keyErr := key.Bytes()
+		nominal := ""
+		if keyErr == nil {
+			nominal, _ = cp932.Decode(encoded)
+		}
+		fmt.Printf("FORENSIC SLOT rune=%q unicode=U+%04X key=%04X bytes=% X nominal_cp932=%q\n", r, r, uint16(key), encoded, nominal)
+	}
+
+	// Diagnostic only: estimate a deliberately conservative text-like slot pool.
+	// A candidate counts only when its renderer bytes decode to exactly one CJK Han
+	// rune and encode back to the identical bytes. The production plan above is NOT
+	// changed by this audit; it only tells us whether a safer remap has enough room.
+	hanCandidates := 0
+	for _, key := range plan.Candidates {
+		encoded, err := key.Bytes()
+		if err != nil {
+			continue
+		}
+		decoded, err := cp932.Decode(encoded)
+		if err != nil {
+			continue
+		}
+		runes := []rune(decoded)
+		if len(runes) != 1 || !unicode.Is(unicode.Han, runes[0]) {
+			continue
+		}
+		roundTrip, err := cp932.Encode(decoded)
+		if err != nil || !bytes.Equal(roundTrip, encoded) {
+			continue
+		}
+		hanCandidates++
+	}
+	fmt.Printf("FORENSIC SAFE_SLOT_AUDIT policy=single_han_roundtrip candidates=%d custom=%d headroom=%d enough=%t\n",
+		hanCandidates, len(plan.CustomRunes), hanCandidates-len(plan.CustomRunes), hanCandidates >= len(plan.CustomRunes))
+
 	return plan, len(korean.Entries), len(source.Items), nil
 }
