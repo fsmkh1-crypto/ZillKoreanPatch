@@ -65,6 +65,14 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			}
 		}
 
+		// Runtime A/B: keep ID 210065 at exactly seven explicit line breaks / eight
+		// lines, but move every break to a different semantic whitespace boundary
+		// than the historical H1 freeze layout. This isolates break position from
+		// break count and encoded record length.
+		if source.ID == 210065 && replacement.Layout != "" {
+			replacement.Layout = "광대한 대지 바이아시온<line-break>대륙. 너무나 넓어 지도에도<line-break>기록되지 않고 여행자에게조차<line-break>알려지지 않은 작은 마을이<line-break>있다…. 마을의 이름은 미이스.<line-break>그곳에는 작은 신전과 숲, 그리고<line-break>평온한 일상 정도뿐이었다. 위대한<line-break>혼의 이야기는 여기서 시작된다…….<end>"
+		}
+
 		projection, err := Project(source)
 		if err != nil {
 			failures = append(failures, fmt.Sprintf("%s: ID %d projection: %v", bank.Name, source.ID, err))
