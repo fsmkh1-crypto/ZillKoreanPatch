@@ -89,7 +89,7 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 		pa.replacements = append(pa.replacements, fontReplacements...)
 	}
 
-	executable, err := buildKoreanAlphaExecutable(root, gameDir)
+	executable, err := buildKoreanAlphaExecutable(root, gameDir, plan.Mapping)
 	if err != nil { return err }
 	parameter, err := buildKoreanAlphaSFO(root, gameDir, version)
 	if err != nil { return err }
