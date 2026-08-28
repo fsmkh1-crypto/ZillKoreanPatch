@@ -65,11 +65,16 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
+	fixedKorean, err := loadKoreanFixedEBOOT(root)
+	if err != nil {
+		return koreanslots.Plan{}, 0, 0, err
+	}
+	texts = append(texts, fixeddata.KoreanEBOOTTexts(fixedKorean)...)
 	installed := font.DoubleByteKeys()
 	stock := koreanslots.RequiredStockKeys(texts)
 	custom := koreanslots.RequiredCustomRunes(texts)
-	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d custom=%d materializable_korean=%d total_records=%d\n",
-		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(custom), len(korean.Entries), len(source.Items))
+	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d custom=%d materializable_korean=%d fixed_korean=%d total_records=%d\n",
+		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(custom), len(korean.Entries), len(fixedKorean), len(source.Items))
 	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta full-repack slot allocation: %w", err)
