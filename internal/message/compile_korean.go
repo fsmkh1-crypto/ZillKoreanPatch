@@ -52,6 +52,15 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		}
 		matched[source.ID] = struct{}{}
 
+		// Diagnostic-only A/B control: preserve every other Korean record but keep
+		// the actual freeze-site record 210065 byte-identical to retail Japanese.
+		// This determines whether the freeze is caused by this record's Korean
+		// materialization rather than by earlier message or archive state.
+		if source.ID == 210065 {
+			records[index] = append([]byte(nil), source.Raw...)
+			continue
+		}
+
 		projection, err := Project(source)
 		if err != nil {
 			failures = append(failures, fmt.Sprintf("%s: ID %d projection: %v", bank.Name, source.ID, err))
