@@ -1,6 +1,7 @@
 import importlib.util
 from pathlib import Path
 import sys
+import tempfile
 import unittest
 
 MODULE_PATH = Path(__file__).with_name("qa-voice.py")
@@ -32,6 +33,35 @@ class VoiceHazardTest(unittest.TestCase):
 
     def test_rough_first_person_matches_real_je_pronoun(self):
         self.assertIn("rough_first_person_polite_ko", mod.classify("俺がやるっす", "제가 하겠습니다."))
+
+    def test_ore_sama_inside_third_person_title_is_not_first_person(self):
+        self.assertNotIn(
+            "rough_first_person_polite_ko",
+            mod.classify("俺様天下のレムオン様にはわからない", "천하의 레몬 님께서는 모르시겠지만 저는 압니다."),
+        )
+
+    def test_adjective_kai_is_not_blunt_question_particle(self):
+        self.assertNotIn(
+            "blunt_jp_formal_ko",
+            mod.classify("あなたの手は温かい。安らぎを与えてくれます。", "당신의 손은 따뜻하군요. 안식을 줍니다."),
+        )
+
+    def test_question_particle_kai_still_counts(self):
+        self.assertIn(
+            "blunt_jp_formal_ko",
+            mod.classify("冒険者登録かい？", "모험자 등록입니까?"),
+        )
+
+    def test_exception_registry_validation(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "exceptions.json"
+            path.write_text(
+                '[{"id":"123","segment":0,"kind":"rough_first_person_polite_ko",'
+                '"category":"context","reason":"reviewed"}]',
+                encoding="utf-8",
+            )
+            got = mod.load_reviewed_exceptions(path)
+            self.assertEqual(got[("123", 0, "rough_first_person_polite_ko")]["category"], "context")
 
     def test_branches_are_aligned_when_control_skeleton_matches(self):
         ja = "<if><value:$01><equal>1お前だ<end>あなたです<end>"
