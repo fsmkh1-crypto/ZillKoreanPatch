@@ -19,11 +19,9 @@ type KoreanAlphaPlanBuilder func(source *corpus.Project, korean *corpus.KoreanPr
 
 // BuildKoreanAlphaISOOnly builds the mobile Korean beta ISO from the canonical
 // reviewed Korean overlay. Retail message banks are authenticated and bound
-// before either planning or compilation. Unlike the earlier device-alpha path,
-// this function no longer manufactures [JP] placeholders or discards reviewed
-// layout data: accepted Korean rows are compiled exactly as maintained in the
-// canonical corpus, while records without a Korean row retain their retail
-// Japanese bytes.
+// before either planning or compilation. Canonical rows that correspond to
+// structural/no-text source records are projected out and retain their retail
+// bytes; every materializable accepted Korean row keeps its reviewed Layout.
 func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string, planBuilder KoreanAlphaPlanBuilder) (err error) {
 	root, err = resolveExistingPath(root, "project root")
 	if err != nil { return err }
@@ -49,7 +47,7 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 
 	source, _, err := corpus.LoadProject(root)
 	if err != nil { return err }
-	korean, _, err := corpus.LoadKoreanProject(root, source)
+	canonicalKorean, _, err := corpus.LoadKoreanProject(root, source)
 	if err != nil { return err }
 
 	archives, err := openArchives(gameDir)
@@ -60,6 +58,11 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	banks, owners, err := loadRetailBanks(archives)
 	if err != nil { return err }
 	if err := corpus.BindBanks(source, banks); err != nil { return err }
+
+	korean, skippedStructural, err := BuildKoreanBetaProject(source, canonicalKorean)
+	if err != nil { return err }
+	fmt.Printf("Korean beta projection: canonical=%d materializable=%d structural_retail=%d\n",
+		len(canonicalKorean.Entries), len(korean.Entries), skippedStructural)
 
 	plan, coverage, total, err := planBuilder(source, korean)
 	if err != nil { return err }
