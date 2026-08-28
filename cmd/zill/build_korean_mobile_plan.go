@@ -87,12 +87,43 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	}
 	fmt.Printf("Korean beta slot allocation: candidates=%d custom=%d headroom=%d (full PAF repack; round-trip text keys only; fixed + BOOT/bindata CP932 literal ownership reserved)\n",
 		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
-	for _, r := range []rune{'게', '여'} {
-		if key, ok := plan.Mapping[r]; ok {
-			encoded, keyErr := key.Bytes()
-			if keyErr == nil {
-				fmt.Printf("Korean beta startup mapping: %q U+%04X -> key=%04X bytes=% X\n", r, r, uint16(key), encoded)
+
+	glyphIndex := make(map[cp932.GlyphKey]int, len(font.Glyphs))
+	for _, glyph := range font.Glyphs {
+		glyphIndex[glyph.Key] = glyph.Index
+	}
+	for _, id := range []int{10007, 10010} {
+		row, ok := korean.Find(id)
+		if !ok {
+			fmt.Printf("FORENSIC ERROR id=%d reason=missing_korean_row\n", id)
+			continue
+		}
+		field, text := "korean", row.Korean
+		if row.Layout != "" {
+			field, text = "layout", row.Layout
+		}
+		fmt.Printf("FORENSIC RECORD_TEXT id=%d field=%s text=%q\n", id, field, text)
+		seen := make(map[rune]struct{})
+		for _, r := range text {
+			key, mapped := plan.Mapping[r]
+			if !mapped {
+				continue
 			}
+			if _, duplicate := seen[r]; duplicate {
+				continue
+			}
+			seen[r] = struct{}{}
+			encoded, keyErr := key.Bytes()
+			if keyErr != nil {
+				fmt.Printf("FORENSIC MAP id=%d rune=%q unicode=U+%04X key=%04X error=%q\n", id, r, r, uint16(key), keyErr)
+				continue
+			}
+			nominal, decodeErr := cp932.Decode(encoded)
+			if decodeErr != nil {
+				nominal = "<decode-error>"
+			}
+			fmt.Printf("FORENSIC MAP id=%d rune=%q unicode=U+%04X key=%04X bytes=% X paf_index=%d nominal_cp932=%q roundtrip=%t\n",
+				id, r, r, uint16(key), encoded, glyphIndex[key], nominal, key.IsRoundTripText())
 		}
 	}
 	return plan, len(korean.Entries), len(source.Items), nil
