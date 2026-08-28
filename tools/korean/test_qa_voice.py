@@ -46,8 +46,8 @@ class VoiceHazardTest(unittest.TestCase):
             mod.classify("あなたの手は温かい。安らぎを与えてくれます。", "당신의 손은 따뜻하군요. 안식을 줍니다."),
         )
 
-    def test_question_particle_kai_still_counts(self):
-        self.assertIn(
+    def test_ambiguous_kai_is_not_used_as_blunt_cue(self):
+        self.assertNotIn(
             "blunt_jp_formal_ko",
             mod.classify("冒険者登録かい？", "모험자 등록입니까?"),
         )
