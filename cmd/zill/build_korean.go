@@ -43,7 +43,7 @@ func runBuildKorean(root string, args []string, stdout, stderr io.Writer) int {
 	fmt.Fprintf(stdout, "Built Korean beta game tree at %s\n", result.GameDirectory)
 	fmt.Fprintf(stdout, "Built Korean beta ISO at %s\n", result.ISO)
 	fmt.Fprintf(stdout, "Built Korean beta xdelta patch at %s\n", result.Patch)
-	fmt.Fprintf(stdout, "Korean coverage: %d/%d canonical overlay records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
+	fmt.Fprintf(stdout, "Korean runtime coverage: %d/%d source records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
 	fmt.Fprintf(stdout, "Embedded beta version: %s\n", resolvedVersion)
 	for _, warning := range result.Warnings { fmt.Fprintf(stderr, "zill: build-korean: warning: %s\n", warning) }
 	return 0
@@ -54,8 +54,12 @@ func buildKoreanAlphaPlan(root, gameDir string) (koreanslots.Plan, int, int, err
 	if err != nil { return koreanslots.Plan{}, 0, 0, err }
 	source, sourceSummary, err := corpus.LoadProject(root)
 	if err != nil { return koreanslots.Plan{}, 0, 0, err }
-	korean, koreanSummary, err := corpus.LoadKoreanProject(root, source)
+	canonicalKorean, _, err := corpus.LoadKoreanProject(root, source)
 	if err != nil { return koreanslots.Plan{}, 0, 0, err }
+	korean, skippedStructural, err := release.BuildKoreanBetaProject(source, canonicalKorean)
+	if err != nil { return koreanslots.Plan{}, 0, 0, err }
+	fmt.Printf("Korean beta projection: canonical=%d materializable=%d structural_retail=%d\n",
+		len(canonicalKorean.Entries), len(korean.Entries), skippedStructural)
 	usedFixed, equipment, err := loadFixedRendererKeys(root)
 	if err != nil { return koreanslots.Plan{}, 0, 0, err }
 	eboot, err := loadAuthenticatedRetailEBOOT(gameDir)
@@ -77,5 +81,5 @@ func buildKoreanAlphaPlan(root, gameDir string) (koreanslots.Plan, int, int, err
 	if err != nil { return koreanslots.Plan{}, 0, 0, err }
 	plan, err := koreanslots.BuildPlan(texts, font.KoreanCompatibleKeys(), rendererKeySetSlice(reserved), boot, eboot, bindata)
 	if err != nil { return koreanslots.Plan{}, 0, 0, fmt.Errorf("plan allocation: %w", err) }
-	return plan, koreanSummary.Records, sourceSummary.Records, nil
+	return plan, len(korean.Entries), sourceSummary.Records, nil
 }
