@@ -109,3 +109,25 @@ func TestCompileBankKoreanAllowsGeneratedLayoutBreak(t *testing.T) {
 		t.Fatalf("layout record = % X, want % X", got, want)
 	}
 }
+
+func TestCompileBankKoreanFallsBackWhenGeneratedLayoutChangesSemantics(t *testing.T) {
+	source := corpus.Record{ID: 10191, Raw: []byte("old\x00"), Tokens: []corpus.Token{
+		{Kind: "text", Raw: []byte("old")}, {Kind: "suffix", Raw: []byte{0}},
+	}}
+	bank := corpus.Bank{Name: "msgsec001.dat", Section: 1, Records: []corpus.Record{source}}
+	items := []corpus.Item{{Record: source, Translation: corpus.Translation{ID: source.ID, State: corpus.Todo}}}
+	mapping := koreanslots.Mapping{
+		'가': cp932.GlyphKey(0xAC82),
+		'나': cp932.GlyphKey(0xAD82),
+	}
+	compiled, err := message.CompileBankKorean(bank, items, map[int]message.KoreanRecord{
+		source.ID: {Text: "가 나", Layout: "가 다"},
+	}, mapping)
+	if err != nil {
+		t.Fatal(err)
+	}
+	offset := binary.LittleEndian.Uint32(compiled[4:])
+	if got, want := compiled[offset:], []byte{0x82, 0xAC, 0x20, 0x82, 0xAD, 0}; !bytes.Equal(got, want) {
+		t.Fatalf("fallback semantic record = % X, want % X", got, want)
+	}
+}
