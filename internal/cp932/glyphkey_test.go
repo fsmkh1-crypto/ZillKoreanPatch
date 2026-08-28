@@ -26,3 +26,15 @@ func TestGlyphKeyRejectsInvalidTrail(t *testing.T) {
 		t.Fatal("expected invalid Shift-JIS trail byte to fail")
 	}
 }
+
+func TestGlyphKeyRoundTripTextRejectsPrivateShapedKey(t *testing.T) {
+	if !GlyphKey(0xAC82).IsRoundTripText() { // bytes 82 AC: ordinary Shift-JIS text
+		t.Fatal("expected 82 AC to be accepted as round-trip text")
+	}
+	if GlyphKey(0xAD81).IsRoundTripText() { // bytes 81 AD: valid byte shape, undefined as text
+		t.Fatal("expected renderer-private/undefined 81 AD key to be rejected")
+	}
+	if GlyphKey(0x0041).IsRoundTripText() {
+		t.Fatal("single-byte key must not be accepted as a reusable two-byte text slot")
+	}
+}

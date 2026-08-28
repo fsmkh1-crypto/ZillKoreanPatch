@@ -2,7 +2,10 @@
 
 package cp932
 
-import "fmt"
+import (
+	"bytes"
+	"fmt"
+)
 
 // GlyphKey is the renderer lookup key stored in zillfont.paf.
 //
@@ -44,10 +47,33 @@ func (k GlyphKey) Bytes() ([]byte, error) {
 	return []byte{lo, hi}, nil
 }
 
-// IsDoubleByte reports whether k is a valid two-byte CP932 renderer key.
+// IsDoubleByte reports whether k has the byte shape of a two-byte CP932 key.
+// This is intentionally only a structural check: the retail PAF also contains
+// renderer-private/UI keys that use syntactically valid lead/trail bytes.
 func (k GlyphKey) IsDoubleByte() bool {
 	lo, hi := byte(k), byte(uint16(k)>>8)
 	return hi != 0 && validLead(lo) && validTrail(hi)
+}
+
+// IsRoundTripText reports whether k is an actual two-byte text character rather
+// than merely a renderer key with CP932-shaped bytes. A production Korean text
+// slot must decode to exactly one Unicode rune and encode back to the identical
+// byte pair. This excludes PAF-private/UI keys (for example button/icon entries)
+// from being repurposed as Hangul message bytes.
+func (k GlyphKey) IsRoundTripText() bool {
+	if !k.IsDoubleByte() {
+		return false
+	}
+	encoded, err := k.Bytes()
+	if err != nil {
+		return false
+	}
+	decoded, err := Decode(encoded)
+	if err != nil || len([]rune(decoded)) != 1 {
+		return false
+	}
+	roundTrip, err := Encode(decoded)
+	return err == nil && bytes.Equal(roundTrip, encoded)
 }
 
 func validSingle(b byte) bool {

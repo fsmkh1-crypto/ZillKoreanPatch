@@ -52,18 +52,6 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		}
 		matched[source.ID] = struct{}{}
 
-		// Runtime diagnostic: ID 10010 begins with the movable <value:$15>
-		// substitution immediately followed by a custom Korean renderer glyph.
-		// Insert one stock ASCII space after the substitution in both semantic and
-		// layout forms so device testing can isolate substitution/glyph adjacency
-		// without changing the source-owned control stream.
-		if source.ID == 10010 {
-			replacement.Text = strings.Replace(replacement.Text, "<value:$15>", "<value:$15> ", 1)
-			if replacement.Layout != "" {
-				replacement.Layout = strings.Replace(replacement.Layout, "<value:$15>", "<value:$15> ", 1)
-			}
-		}
-
 		projection, err := Project(source)
 		if err != nil {
 			failures = append(failures, fmt.Sprintf("%s: ID %d projection: %v", bank.Name, source.ID, err))

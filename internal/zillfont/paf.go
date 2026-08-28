@@ -103,12 +103,28 @@ func ParsePAF(data []byte) (*PAF, error) {
 	return &PAF{Version: version, Glyphs: glyphs}, nil
 }
 
-// DoubleByteKeys returns the installed valid two-byte CP932 renderer keys in
-// PAF order. These are renderer slots, not Unicode code points.
+// DoubleByteKeys returns every installed renderer key whose bytes have the
+// structural shape of a two-byte CP932 sequence. This intentionally includes
+// renderer-private/UI keys and therefore must not by itself define safe Korean
+// message slots.
 func (p *PAF) DoubleByteKeys() []cp932.GlyphKey {
 	out := make([]cp932.GlyphKey, 0, len(p.Glyphs))
 	for _, glyph := range p.Glyphs {
 		if glyph.Key.IsDoubleByte() {
+			out = append(out, glyph.Key)
+		}
+	}
+	return out
+}
+
+// TextDoubleByteKeys returns installed two-byte keys that are real CP932 text:
+// the byte pair decodes to exactly one rune and re-encodes byte-identically.
+// Retail PAF-private entries used for button/icon rendering are excluded even
+// when their raw bytes happen to look like a legal Shift-JIS lead/trail pair.
+func (p *PAF) TextDoubleByteKeys() []cp932.GlyphKey {
+	out := make([]cp932.GlyphKey, 0, len(p.Glyphs))
+	for _, glyph := range p.Glyphs {
+		if glyph.Key.IsRoundTripText() {
 			out = append(out, glyph.Key)
 		}
 	}
