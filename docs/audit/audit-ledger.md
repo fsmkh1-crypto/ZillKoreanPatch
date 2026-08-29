@@ -18,6 +18,7 @@ This document is the primary evidence ledger for the end-to-end technical audit 
 5. Upstream English-patch behavior is a strong reference, not automatic proof that every runtime consumer is complete or bug-free.
 6. A diagnostic workaround must not be described as a root-cause fix until causality is established.
 7. When evidence is unavailable in the repository, historical recollection alone is not upgraded to CONFIRMED.
+8. Independent review findings are not accepted automatically: each is checked against current code/evidence, then accepted, narrowed, or rejected with the disposition retained in this ledger or its linked audit note.
 
 ---
 
@@ -168,14 +169,15 @@ One isolation run suggested the freeze disappeared when ID 10010 was bypassed. I
 **Checks performed**
 - Confirmed materialized byte pattern is `02 15 [custom renderer-key bytes] ...`.
 - Added/retained a separator experiment.
+- Later quantified all inline-value adjacency across the current corpus in A-018.
 
 **Result**  
-The adjacency pattern is real. Causality is not established because later behavior is intermittent and other builds still fail.
+The adjacency pattern is real, but it is not distinctive: the current corpus contains 5,742 inline-value/non-space adjacencies. Causality is not established and later builds still fail.
 
-**Evidence** — **OPEN**
+**Evidence** — **OPEN** for `$15` consumer/storage semantics; generic adjacency explanation **REDUCED**.
 
 **Meaning**  
-10010 remains a diagnostic clue, not a proven root cause. The separator is an experiment, not a production fix.
+10010 remains a diagnostic clue for the `$15` runtime contract, not a proven root cause. The separator is an experiment, not a production fix.
 
 ---
 
@@ -248,7 +250,7 @@ Observed icon substitution on selected 0x87 mappings.
 - Relocated H0 mappings with 0x87 lead to spare round-trip Han keys while preserving unaffected mappings.
 
 **Result**  
-Minimal87 is a diagnostic avoidance strategy.
+Minimal87 is a diagnostic avoidance strategy. Later PR #14 matrix evidence shows that correcting the known 0x87 visual corruption is not sufficient to eliminate the freeze when combined with Korean EBOOT strings.
 
 **Evidence** — **CONFIRMED** as an experiment; root-cause interpretation **OPEN**.
 
@@ -381,6 +383,86 @@ Future device builds require an asset-backed or maximally equivalent preflight f
 
 ---
 
+## A-018 — Runtime `<value>` roles and C5 dynamic-expansion boundary
+
+**Trigger**  
+The message-memory branch needed to distinguish rendered substitutions from control-flow reads and determine what static C5 validation actually proves.
+
+**Checks performed**
+- Inventoried all `<value:$XX>` uses in the current 42,028-record Korean corpus.
+- Split inline/predicate/selector roles and added context/counterexample reporting.
+- Read and directly regression-tested original `walkC5` substitution behavior.
+- Added exact branch/page substitution-position accounting.
+- Corrected the Korean C5 third-line-break page-byte off-by-one.
+- Rechecked upstream provenance of the `$28` player-name bound.
+
+**Result**
+- 10,123 total `<value>` occurrences; 6,566 inline rendered values, 3,272 predicate reads, 285 selector reads.
+- 2,548 C5 records contain inline runtime values.
+- 5,742 inline values are immediately followed by non-space text; generic adjacency is therefore not distinctive to ID 10010.
+- Original `walkC5` adds **zero bytes** for substitution tokens to page payload accounting; it only marks the leaf dynamic.
+- Independent-review counterexample scan for comparison-RHS `<value>` forms found **0 current-corpus cases**.
+- Upstream documents `$28` player-name expansion as max 16 encoded bytes under an eight-character input and 17-byte C-string storage contract.
+
+**Evidence** — **CONFIRMED** for the static proof boundary, corpus counts, page-boundary bug/fix and documented player-name bound; actual runtime overflow causality **OPEN**.
+
+**Meaning**  
+Generic `<value>`/Hangul adjacency moves down. A more precise, testable question moves up: can actual runtime-expanded pages or intermediate staging buffers exceed their capacity even though static C5 validation passes?
+
+**Detailed note**  
+See `docs/audit/A-018-dynamic-value-runtime-boundary.md`.
+
+---
+
+## A-019 — EBOOT + renderer-mapping interaction matrix
+
+**Trigger**  
+Independent review identified that the two-branch synthesis failed to preserve PR #14's user-verified H0/A/B/combined/minimal runtime matrix.
+
+**Checks performed**
+- Recovered PR #14 issue comment `5453956902` and experiment commit IDs.
+- Separated the explicit-layout H1 experiments from the H0 mapping/EBOOT matrix.
+
+**Result**
+- H0 baseline: PASS in the recorded run; known 0x87 icon corruption remains.
+- H0 + Korean EBOOT UI only: PASS; icon corruption remains.
+- H0 + full Han-safe remap only: PASS, but auto-wrap behavior regresses.
+- Full Han-safe + Korean EBOOT UI: FAIL before 210065 subtitle.
+- H0 mapping + Korean EBOOT UI + minimal 0x87 relocation: FAIL; visible 0x87 corruption is corrected.
+
+**Evidence** — **CONFIRMED** as the recorded runtime outcome matrix; underlying interaction mechanism **OPEN**.
+
+**Meaning**  
+Neither “Korean EBOOT strings alone” nor “global remapping alone” explains the recorded matrix. Fixing the known 0x87 visual corruption is also insufficient. The matrix therefore remains a separate cross-cutting interaction branch until exact generated mapping/font/executable deltas explain it.
+
+**Detailed note**  
+See `docs/audit/A-019-eboot-mapping-interaction-matrix.md`.
+
+---
+
+## Independent review disposition — 2026-08-29
+
+Claude's independent PR #17 review was treated as adversarial input rather than accepted wholesale.
+
+**Accepted and fixed**
+- C5 third-line-break boundary byte was omitted from both the Korean validator and first forensic helper. Korean accounting now counts the boundary byte before page transition and regression-tests the behavior.
+- The new forensic `$33` select walker duplicated an unexplained `arms = 8` literal. The audit now centralizes that inherited assumption and explicitly leaves its retail-runtime derivation OPEN.
+- PR #14's EBOOT/mapping interaction matrix was missing from the synthesis. Added as A-019.
+
+**Accepted concern, then strengthened with repository evidence**
+- Reviewer challenged `$28 = 16B` as potentially chronicle-local. Upstream documentation explicitly ties the bound to the player-name eight-character input and 17-byte C-string storage contract, so the current evidence supports a player-name-wide bound rather than a chronicle-only bound.
+
+**High-value tests closed**
+- Original `walkC5` substitution magnitude: direct regression test confirms the substitution contributes zero bytes to `leaf.data`, not the two-byte `02 XX` marker.
+- Python classifier right-hand predicate-value blind spot: explicit current-corpus scan finds zero such counterexamples. The classifier remains a triage heuristic, not a parser proof.
+
+**Still open after review**
+- Independent retail-runtime proof of `$33` fixed eight-arm select semantics.
+- `$15` character-creation-prompt source/max-length/staging-buffer contract.
+- Whether C5 expands directly into the modeled 256-byte page buffer or through another scratch/staging buffer.
+
+---
+
 ## Current root-cause map
 
 ### Higher-priority active branches
@@ -389,18 +471,25 @@ Future device builds require an asset-backed or maximally equivalent preflight f
    - A foundational slot-safety assumption is already disproven by 0x87 icon behavior.
    - Mobile ownership filtering is weaker than desktop.
    - Exact collision classification and runtime lookup proof are still pending.
+   - PR #14 stable-minimal failure shows fixing the visible 0x87 cases is not sufficient to eliminate the freeze.
 
 2. **Runtime message consumer / dynamic expansion memory contract — STRONG**
-   - Bad Execution Address suggests state/pointer corruption beyond simple visual glyph mismatch.
-   - Static C5/C20/C22 checks cannot fully model dynamic substitutions.
-   - Upstream 12-site wide consumer completeness is inherited but not independently reproven.
+   - Bad Execution Address is consistent with state/pointer corruption but does not identify its source.
+   - 2,548 C5 records contain inline runtime substitutions whose eventual bytes are excluded entirely from ordinary static page accounting.
+   - `$28` now has a documented 16-byte player-name maximum; the other eight inline opcode contracts remain incomplete.
+   - The direct expansion destination/scratch-buffer topology remains unproven.
+
+3. **EBOOT + mapping/font/executable interaction — STRONG interaction evidence / OPEN mechanism**
+   - PR #14 matrix shows EBOOT-only and remap-only arms passed in their recorded runs while combined and stable-minimal+EBOOT arms failed.
+   - This is not evidence that EBOOT runtime strings themselves are the cause; exact generated asset deltas must be compared first.
+   - This branch may later collapse into slot ownership, message memory, or another mechanism, but current evidence does not justify doing so yet.
 
 ### Medium-priority
 
-3. **Dynamic full-font repack compatibility — OPEN/STRONG**
+4. **Dynamic full-font repack compatibility — OPEN/STRONG**
    - Internal consistency can be verified, but hidden direct atlas-coordinate consumers have not been ruled out.
 
-4. **Korean fixed-line-break semantic fragment assignment — OPEN**
+5. **Korean fixed-line-break semantic fragment assignment — OPEN**
    - Control bytes are preserved by design; full real-corpus replay still pending.
 
 ### Reduced / not sufficient alone
@@ -409,8 +498,10 @@ Future device builds require an asset-backed or maximally equivalent preflight f
 - Partial 279-bank replacement.
 - Korean fixed EBOOT overlay overwriting manifest instructions.
 - Known C22/character-choice storage defects as the sole explanation for the intermittent freeze.
+- Generic `<value>` immediately followed by Hangul as a unique failure condition.
 - ID 10010 separator as a proven fix.
 - Minimal87 as a proven root-cause fix.
+- Global Han-safe remapping alone as a sufficient explanation of the PR #14 matrix.
 
 ---
 
@@ -420,9 +511,12 @@ Future device builds require an asset-backed or maximally equivalent preflight f
 2. Run mobile exact-byte slot audit and classify mapped collisions in BOOT/EBOOT/BINDATA.
 3. Run full-font semantic postcondition check across all 2,637 PAF glyphs.
 4. Run the retail EBOOT font-renderer candidate scanner and establish or reject the PAF/BST lookup hypothesis.
-5. Add/run ISO-free real-corpus Korean bank compile preflight with bank sizes/offsets/capacities recorded.
-6. Establish record termination semantics before redesigning the `>0xFFFF` offset experiment.
-7. Only after the above, build the authenticated retail ISO and then perform runtime repetitions.
+5. Run corrected C5 known-expansion accounting on the authenticated Korean mapping and record known-overflow/unknown-substitution pages.
+6. Compare exact mapping/font/PAF/EBOOT outputs across the PR #14 H0, B, A, combined and stable-minimal arms before choosing another runtime A/B.
+7. Establish `$15` character-creation-prompt consumer/staging-buffer contract and the remaining inline-opcode maxima where possible.
+8. Add/run ISO-free real-corpus Korean bank compile preflight with bank sizes/offsets/capacities recorded.
+9. Establish record termination semantics before redesigning the `>0xFFFF` offset experiment.
+10. Only after the above, build the authenticated retail ISO and then perform runtime repetitions.
 
 ---
 
@@ -434,7 +528,7 @@ Review this ledger against the current audit branch and upstream `HK47196/zill`.
 2. Identify missing alternative explanations.
 3. Check whether a supposedly upstream-identical component actually diverges in a runtime-relevant way.
 4. Check whether Korean-only code introduces a hidden contract not captured here.
-5. Examine whether the two current leading branches — renderer-slot ownership and runtime message/dynamic-expansion memory behavior — are ranked appropriately.
+5. Examine whether the current leading branches — renderer-slot ownership, runtime message/dynamic-expansion memory behavior, and the PR #14 EBOOT/mapping interaction — are framed appropriately and whether any can now be collapsed or rejected.
 6. Specifically challenge the assumption that PAF key/BST preservation plus raster/metric verification is enough for runtime safety.
 7. Specifically challenge whether the upstream 12 wide-message-offset patch sites prove complete consumer coverage.
 8. Review the proposed asset-backed gates for false confidence, missing gates, or order-of-operations mistakes.
