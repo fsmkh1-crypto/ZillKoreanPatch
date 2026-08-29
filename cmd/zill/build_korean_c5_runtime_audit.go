@@ -49,8 +49,22 @@ func auditC5RuntimeCandidates(gameDir string) error {
 	}
 	for i := 0; i < valueLimit; i++ {
 		candidate := valueCandidates[i]
-		fmt.Printf("FORENSIC VALUE_RUNTIME_CANDIDATE rank=%d file_offset=0x%X score=%d reasons=%q heuristic_only=true\n",
-			i+1, candidate.FileOffset, candidate.Score, strings.Join(candidate.Reasons, "; "))
+		fmt.Printf("FORENSIC VALUE_RUNTIME_CANDIDATE rank=%d file_offset=0x%X vaddr=0x%X score=%d reasons=%q heuristic_only=true\n",
+			i+1, candidate.FileOffset, candidate.VirtualAddress, candidate.Score, strings.Join(candidate.Reasons, "; "))
+		// Preserve a compact decoded neighborhood for only the strongest three
+		// candidates. This makes the next static step reproducible from the real
+		// build log without turning every heuristic hit into an implied proof.
+		if i >= 3 {
+			continue
+		}
+		for _, instruction := range candidate.Window {
+			delta := int64(instruction.FileOffset) - int64(candidate.FileOffset)
+			if delta < -0x20 || delta > 0x20 {
+				continue
+			}
+			fmt.Printf("FORENSIC VALUE_RUNTIME_WINDOW rank=%d delta=%+d file_offset=0x%X vaddr=0x%X word=0x%08X text=%q heuristic_only=true\n",
+				i+1, delta, instruction.FileOffset, instruction.VirtualAddress, instruction.Word, instruction.Text)
+		}
 	}
 	if len(valueCandidates) == 0 {
 		fmt.Println("FORENSIC VALUE_RUNTIME_SCAN_NOTE no heuristic candidate found; this does not disprove a shared 0x02 substitution dispatcher")
