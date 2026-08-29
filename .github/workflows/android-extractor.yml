@@ -1,4 +1,4 @@
-name: Android PPSSPP persistent manual freeze capture
+name: Android PPSSPP rolling freeze tracer
 
 on:
   workflow_dispatch:
@@ -21,55 +21,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-
-      - name: Verify persistent manual capture source
+      - name: Verify rolling freeze tracer source
         shell: bash
         run: |
           set -euo pipefail
           TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
           UI=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeCaptureActivity.java
-          grep -q 'ACTION_CONNECT' "$TRACE"
-          grep -q 'ACTION_CAPTURE_NOW' "$TRACE"
-          grep -q 'ACTION_DISCONNECT' "$TRACE"
-          grep -q 'PREF_WANT_CONNECTED' "$TRACE"
-          grep -q 'service_restart' "$TRACE"
-          grep -q 'supervisor_reconnect' "$TRACE"
-          grep -q 'capture_recovery' "$TRACE"
-          grep -q 'scheduleWithFixedDelay' "$TRACE"
-          grep -q 'heartbeat_failed' "$TRACE"
-          grep -q 'connection_reused' "$TRACE"
-          grep -q 'wanted_connection' "$TRACE"
-          grep -q 'process_alive' "$TRACE"
-          grep -q 'manual_freeze_capture' "$TRACE"
-          grep -q 'INLINE_PAGE_OFFSET = 0x2C0L' "$TRACE"
-          grep -q 'INLINE_DUMP_SIZE = 0x120' "$TRACE"
+          grep -q 'ACTION_START' "$TRACE"
+          grep -q 'SAMPLE_INTERVAL_MS = 500' "$TRACE"
+          grep -q 'MAX_SAMPLES = 60' "$TRACE"
+          grep -q 'HOT_PC_MIN = 0x08966200L' "$TRACE"
+          grep -q 'hot_loop_detected' "$TRACE"
+          grep -q 'a1_memory' "$TRACE"
+          grep -q 'inline_page_memory' "$TRACE"
           grep -q 'rawCommand("cpu.status"' "$TRACE"
           grep -q 'rawCommand("cpu.getAllRegs"' "$TRACE"
-          grep -q 'rawCommand("memory.read"' "$TRACE"
-          grep -q 'lf_count_before_nul' "$TRACE"
-          grep -q 'slot_plus_3c0_word' "$TRACE"
-          ! grep -q 'cpu.breakpoint.add' "$TRACE"
-          ! grep -q 'waitForStoppedPc' "$TRACE"
-          grep -q '연결 유지 시작' "$UI"
-          grep -q '지금 상태 수동 캡처' "$UI"
+          grep -q '기록 시작' "$UI"
+          ! grep -q 'ACTION_CAPTURE_NOW' "$TRACE"
+          ! grep -q 'capture_recovery' "$TRACE"
 
       - uses: actions/setup-go@v7
         with:
           go-version-file: go.mod
-
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-
       - uses: android-actions/setup-android@v3
-
       - name: Install Android SDK platform
         shell: bash
         run: |
           yes | sdkmanager --licenses >/dev/null || true
           sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
-
       - name: Build arm64 PPSSPP debugger bridge
         shell: bash
         run: |
@@ -77,15 +60,12 @@ jobs:
           mkdir -p android-patcher/app/src/main/jniLibs/arm64-v8a
           CGO_ENABLED=0 GOOS=android GOARCH=arm64 go build -trimpath -buildmode=pie -o android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so ./cmd/zill
           chmod 0755 android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
-
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
-
-      - name: Build persistent manual capture APK
+      - name: Build rolling tracer APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
-
-      - name: Verify capture APK
+      - name: Verify tracer APK
         shell: bash
         run: |
           set -euo pipefail
@@ -94,10 +74,9 @@ jobs:
           grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
           grep -q 'classes.dex' /tmp/apk-list.txt
           sha256sum "$APK" | tee "$APK.sha256"
-
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-persistent-manual-freeze-capture-debug
+          name: zill-rolling-freeze-tracer-debug
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
