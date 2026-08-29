@@ -73,6 +73,31 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	}
 	fmt.Printf("Korean C5 static storage check: no violation detected; %d dynamic-substitution record(s) remain runtime-QA risks.\n", len(dynamicC5))
 
+	// Forensic only: add no guessed substitution sizes. The only dynamic bound
+	// applied here is <value:$28> = 16 encoded bytes, already established by the
+	// supported game's player-name/chronicle contract. This report deliberately
+	// does not fail the production build until the C5 runtime staging path is
+	// independently proven to use this same 256-byte destination directly.
+	engine, err := loadLayout(root)
+	if err != nil { return result, err }
+	knownPages, err := engine.KoreanC5KnownExpansionPages(source, korean, layouts, plan.Mapping)
+	if err != nil { return result, err }
+	knownOverflows := 0
+	unknownPages := 0
+	for _, page := range knownPages {
+		if page.UnknownSubstitutions != 0 {
+			unknownPages++
+		}
+		if !page.ExceedsPageBuffer() {
+			continue
+		}
+		knownOverflows++
+		fmt.Printf("FORENSIC C5_KNOWN_EXPANSION_OVERFLOW id=%d branch=%d page=%d static=%d known_max=%d player_names=%d unknown_substitutions=%d\n",
+			page.MessageID, page.Branch, page.Page, page.StaticBytes, page.KnownMaxBytes, page.PlayerNameCount, page.UnknownSubstitutions)
+	}
+	fmt.Printf("FORENSIC C5_KNOWN_EXPANSION_SUMMARY pages=%d known_overflow_pages=%d pages_with_unknown_substitutions=%d\n",
+		len(knownPages), knownOverflows, unknownPages)
+
 	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
 	if err != nil { return result, err }
 	if err := addBanks(owners, compiled); err != nil { return result, err }
