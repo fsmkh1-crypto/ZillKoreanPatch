@@ -6,9 +6,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.IBinder;
-import android.util.Base64;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -21,432 +19,167 @@ import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-/** Persistent PPSSPP debugger connection with explicit user-triggered capture. */
+/**
+ * Keeps a PPSSPP debugger connection alive while the game is foregrounded and
+ * samples a short rolling CPU trace. Connection loss/timeout is itself written
+ * as an event, preserving the last successful samples before a freeze.
+ */
 public final class FreezeTraceService extends Service {
-    public static final String ACTION_CONNECT = "com.fsmkh1.zillfontdump.CONNECT";
-    public static final String ACTION_CAPTURE_NOW = "com.fsmkh1.zillfontdump.CAPTURE_NOW";
-    public static final String ACTION_DISCONNECT = "com.fsmkh1.zillfontdump.DISCONNECT";
+    public static final String ACTION_START = "com.fsmkh1.zillfontdump.START_FREEZE_TRACE";
+    public static final String ACTION_STOP = "com.fsmkh1.zillfontdump.STOP_FREEZE_TRACE";
     public static final String EXTRA_PORT = "port";
     public static final String TRACE_FILE = "ppsspp-freeze-trace.jsonl";
 
     private static final String CHANNEL_ID = "freeze_trace";
     private static final int NOTIFICATION_ID = 21010;
-    private static final int RESPONSE_TIMEOUT_MS = 6000;
-    private static final long INLINE_PAGE_OFFSET = 0x2C0L;
-    private static final int INLINE_PAGE_CAPACITY = 0x100;
-    private static final int INLINE_DUMP_SIZE = 0x120;
-    private static final int POINTER_SLOT_RELATIVE = 0x100;
-
-    private static final String PREFS = "freeze_trace_state";
-    private static final String PREF_WANT_CONNECTED = "want_connected";
-    private static final String PREF_PORT = "port";
-    private static final int DEFAULT_PORT = 34500;
-    private static final int SUPERVISOR_PERIOD_SECONDS = 5;
+    private static final int SAMPLE_INTERVAL_MS = 500;
+    private static final int RESPONSE_TIMEOUT_MS = 1500;
+    private static final int MAX_SAMPLES = 60;
+    private static final int STALL_SAMPLES = 3;
+    private static final long HOT_PC_MIN = 0x08966200L;
+    private static final long HOT_PC_MAX = 0x08966260L;
+    private static final int HOT_LOOP_SAMPLES = 3;
+    private static final long HOT_A1_MIN_ADVANCE = 0x1000L;
+    private static final long HOT_DISASM_START = 0x089661E0L;
+    private static final int HOT_DISASM_COUNT = 40;
+    private static final long HOT_EVIDENCE_INTERVAL_MS = 15000L;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
-    private final ScheduledExecutorService supervisor = Executors.newSingleThreadScheduledExecutor();
+    private volatile boolean stopRequested;
     private volatile Process process;
-    private BufferedReader reader;
-    private BufferedWriter writer;
-    private int nextRequestId = 1;
-    private volatile boolean connected;
-    private volatile int connectedPort = -1;
+    private final Deque<String> ring = new ArrayDeque<>();
 
-    @Override
-    public void onCreate() {
+    @Override public void onCreate() {
         super.onCreate();
         NotificationManager manager = getSystemService(NotificationManager.class);
-        if (manager != null) {
-            manager.createNotificationChannel(new NotificationChannel(
-                    CHANNEL_ID, "PPSSPP 수동 캡처", NotificationManager.IMPORTANCE_LOW));
-        }
-        supervisor.scheduleWithFixedDelay(this::superviseConnection,
-                SUPERVISOR_PERIOD_SECONDS, SUPERVISOR_PERIOD_SECONDS, TimeUnit.SECONDS);
+        if (manager != null) manager.createNotificationChannel(new NotificationChannel(CHANNEL_ID, "PPSSPP 프리징 기록", NotificationManager.IMPORTANCE_LOW));
     }
 
-    @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-        SharedPreferences prefs = prefs();
-        if (intent == null) {
-            if (prefs.getBoolean(PREF_WANT_CONNECTED, false)) {
-                int port = prefs.getInt(PREF_PORT, DEFAULT_PORT);
-                startForeground(NOTIFICATION_ID, notification("PPSSPP 연결 복구 중 · " + port));
-                worker.execute(() -> connectPersistent(port, "service_restart"));
-                return START_STICKY;
-            }
-            stopSelf(startId);
+    @Override public int onStartCommand(Intent intent, int flags, int startId) {
+        if (intent != null && ACTION_STOP.equals(intent.getAction())) {
+            writeEvent("stop_requested", "source", "ui");
+            stopRequested = true;
+            Process p = process;
+            if (p != null) p.destroy();
+            stopForeground(STOP_FOREGROUND_REMOVE);
+            stopSelf();
             return START_NOT_STICKY;
         }
-
-        String action = intent.getAction();
-        int port = intent.getIntExtra(EXTRA_PORT, prefs.getInt(PREF_PORT, DEFAULT_PORT));
-
-        if (ACTION_CONNECT.equals(action)) {
-            prefs.edit().putBoolean(PREF_WANT_CONNECTED, true).putInt(PREF_PORT, port).apply();
-            startForeground(NOTIFICATION_ID, notification("PPSSPP 연결 중 · " + port));
-            worker.execute(() -> connectPersistent(port, "user_connect"));
-            return START_STICKY;
-        }
-        if (ACTION_CAPTURE_NOW.equals(action)) {
-            startForeground(NOTIFICATION_ID, notification("현재 상태 수동 캡처 중"));
-            worker.execute(this::captureWithRecovery);
-            return START_STICKY;
-        }
-        if (ACTION_DISCONNECT.equals(action)) {
-            prefs.edit().putBoolean(PREF_WANT_CONNECTED, false).apply();
-            worker.execute(() -> {
-                closeConnection();
-                updateNotification("연결 종료됨");
-                stopForeground(STOP_FOREGROUND_REMOVE);
-                stopSelf();
-            });
-            return START_NOT_STICKY;
-        }
-        return START_STICKY;
+        final int port = intent == null ? 34500 : intent.getIntExtra(EXTRA_PORT, 34500);
+        stopRequested = false;
+        startForeground(NOTIFICATION_ID, notification("PPSSPP 연결 대기 중 · " + port));
+        worker.execute(() -> runTrace(port));
+        return START_NOT_STICKY;
     }
 
-    private SharedPreferences prefs() {
-        return getSharedPreferences(PREFS, MODE_PRIVATE);
-    }
-
-    private synchronized boolean sessionUsable() {
-        return connected && process != null && process.isAlive() && reader != null && writer != null;
-    }
-
-    private void superviseConnection() {
-        SharedPreferences prefs = prefs();
-        if (!prefs.getBoolean(PREF_WANT_CONNECTED, false)) return;
-        int port = prefs.getInt(PREF_PORT, DEFAULT_PORT);
-        synchronized (this) {
-            if (!sessionUsable()) {
-                connectPersistent(port, "supervisor_reconnect");
-                return;
-            }
-            try {
-                request(writer, reader, nextRequestId++, rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
-            } catch (Exception e) {
-                writeFailure("heartbeat_failed", e);
-                closeConnection();
-                updateNotification("연결 끊김 · 자동 재연결 대기");
+    private void runTrace(int port) {
+        writeEvent("trace_start", "port", port);
+        while (!stopRequested) {
+            try { traceConnectedSession(port); }
+            catch (Exception e) {
+                if (!stopRequested) {
+                    writeEvent("connection_lost", "error", message(e));
+                    updateNotification("연결 끊김 · 마지막 기록 보존 · 재연결 대기");
+                    sleep(1000);
+                }
             }
         }
+        writeEvent("trace_stop", "reason", "stop_requested_or_service_destroyed");
     }
 
-    private synchronized void connectPersistent(int port, String reason) {
-        if (sessionUsable() && connectedPort == port) {
-            updateNotification("연결 유지 중 · 프리징 후 수동 캡처");
-            writeEvent("already_connected", "reason", reason);
-            return;
-        }
-        closeConnection();
-        writeEvent("connect_start", "reason", reason);
-        try {
-            File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
-            if (!executable.isFile()) {
-                throw new IllegalStateException("내장 debugger 실행파일을 찾을 수 없습니다");
-            }
-            ProcessBuilder builder = new ProcessBuilder(
-                    executable.getAbsolutePath(), "ppsspp-debugger",
-                    "--host", "127.0.0.1",
-                    "--port", Integer.toString(port),
-                    "--timeout", "6",
-                    "--connect-timeout", "3");
-            builder.directory(getFilesDir());
-            builder.redirectErrorStream(true);
-            process = builder.start();
-            reader = new BufferedReader(new InputStreamReader(process.getInputStream(), StandardCharsets.UTF_8));
-            writer = new BufferedWriter(new OutputStreamWriter(process.getOutputStream(), StandardCharsets.UTF_8));
+    private void traceConnectedSession(int port) throws Exception {
+        File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
+        if (!executable.isFile()) throw new IllegalStateException("내장 zill 실행파일을 찾을 수 없습니다");
+        ProcessBuilder builder = new ProcessBuilder(executable.getAbsolutePath(), "ppsspp-debugger", "--host", "127.0.0.1", "--port", Integer.toString(port), "--timeout", "6", "--connect-timeout", "3");
+        builder.directory(getFilesDir());
+        builder.redirectErrorStream(true);
+        process = builder.start();
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream(), StandardCharsets.UTF_8)); BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(process.getOutputStream(), StandardCharsets.UTF_8))) {
             JSONObject ready = readObject(reader, "debugger handshake", 4000);
-            if (!"ready".equals(ready.optString("event"))) {
-                throw new IllegalStateException("unexpected handshake: " + ready);
+            if (!"ready".equals(ready.optString("event"))) throw new IllegalStateException("unexpected handshake: " + ready);
+            writeEvent("connected", "target", "127.0.0.1:" + port);
+            updateNotification("PPSSPP 제어흐름 기록 중 · 최근 30초 보존");
+            int requestId = 1;
+            long lastPc = -1, lastSp = -1, lastTicks = -1;
+            int sameTickCount = 0, hotPcCount = 0;
+            boolean stallReported = false;
+            long hotA1Start = -1, lastHotEvidenceMs = 0;
+            while (!stopRequested) {
+                long now = System.currentTimeMillis();
+                try {
+                    JSONObject cpu = request(writer, reader, requestId++, rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
+                    JSONObject regs = request(writer, reader, requestId++, rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
+                    JSONObject rawCpu = rawResponse(cpu);
+                    long pc = findRegister(regs, "pc");
+                    long sp = findRegister(regs, "sp");
+                    long a1 = findRegister(regs, "a1");
+                    if (pc < 0) pc = rawCpu.optLong("pc", -1);
+                    if (pc >= 0) lastPc = pc & 0xffffffffL;
+                    if (sp >= 0) lastSp = sp & 0xffffffffL;
+                    long ticks = rawCpu.optLong("ticks", -1);
+                    if (ticks >= 0 && ticks == lastTicks) sameTickCount++; else { sameTickCount = 0; stallReported = false; }
+                    lastTicks = ticks;
+                    if (isHotPc(lastPc)) { if (hotPcCount == 0) hotA1Start = a1; hotPcCount++; }
+                    else { hotPcCount = 0; hotA1Start = -1; lastHotEvidenceMs = 0; }
+
+                    JSONObject sample = new JSONObject();
+                    sample.put("event", "sample"); sample.put("time_ms", now);
+                    if (lastPc >= 0) sample.put("pc", hex32(lastPc));
+                    if (lastSp >= 0) sample.put("sp", hex32(lastSp));
+                    sample.put("cpu", rawCpu); sample.put("gpr", selectedRegisters(regs));
+                    appendSample(sample.toString());
+
+                    if (hotPcCount >= HOT_LOOP_SAMPLES && a1 >= 0 && hotA1Start >= 0 && unsignedAdvance(hotA1Start, a1) >= HOT_A1_MIN_ADVANCE && (lastHotEvidenceMs == 0 || now - lastHotEvidenceMs >= HOT_EVIDENCE_INTERVAL_MS)) {
+                        JSONObject evidence = new JSONObject();
+                        evidence.put("event", "hot_loop_detected"); evidence.put("time_ms", System.currentTimeMillis());
+                        evidence.put("pc_window_start", hex32(HOT_PC_MIN)); evidence.put("pc_window_end", hex32(HOT_PC_MAX));
+                        evidence.put("samples_in_window", hotPcCount); evidence.put("a1_start", hex32(hotA1Start)); evidence.put("a1_now", hex32(a1)); evidence.put("a1_advance", hex32(unsignedAdvance(hotA1Start, a1))); evidence.put("gpr", selectedRegisters(regs));
+                        JSONObject disasmParams = new JSONObject(); disasmParams.put("address", HOT_DISASM_START); disasmParams.put("count", HOT_DISASM_COUNT); disasmParams.put("displaySymbols", true); disasmParams.put("compact", false);
+                        try { evidence.put("disasm", rawResponse(request(writer, reader, requestId++, rawCommand("memory.disasm", disasmParams), RESPONSE_TIMEOUT_MS))); } catch (Exception ex) { evidence.put("disasm_error", message(ex)); }
+                        JSONObject a1ReadParams = new JSONObject(); long a1ReadStart = a1 & 0xfffffff0L; a1ReadParams.put("address", a1ReadStart); a1ReadParams.put("size", 64);
+                        try { evidence.put("a1_memory_start", hex32(a1ReadStart)); evidence.put("a1_memory", rawResponse(request(writer, reader, requestId++, rawCommand("memory.read", a1ReadParams), RESPONSE_TIMEOUT_MS))); } catch (Exception ex) { evidence.put("a1_memory_error", message(ex)); }
+                        long s0 = findRegister(regs, "s0");
+                        if (s0 >= 0) {
+                            JSONObject objRead = new JSONObject(); objRead.put("address", (s0 + 0x2C0L) & 0xffffffffL); objRead.put("size", 0x120);
+                            try { evidence.put("inline_page_start", hex32((s0 + 0x2C0L) & 0xffffffffL)); evidence.put("inline_page_memory", rawResponse(request(writer, reader, requestId++, rawCommand("memory.read", objRead), RESPONSE_TIMEOUT_MS))); } catch (Exception ex) { evidence.put("inline_page_memory_error", message(ex)); }
+                        }
+                        appendSample(evidence.toString()); lastHotEvidenceMs = now;
+                        updateNotification("PPSSPP 무한 탐색 루프 감지 · 명령어/메모리 보존");
+                    }
+                    if (!stallReported && sameTickCount >= STALL_SAMPLES) {
+                        JSONObject stall = new JSONObject(); stall.put("event", "stall_detected"); stall.put("time_ms", System.currentTimeMillis()); stall.put("same_tick_samples", sameTickCount + 1); if (ticks >= 0) stall.put("ticks", ticks); if (lastPc >= 0) stall.put("pc", hex32(lastPc)); if (lastSp >= 0) stall.put("sp", hex32(lastSp)); stall.put("gpr", selectedRegisters(regs)); appendSample(stall.toString()); stallReported = true;
+                    }
+                } catch (TimeoutException e) {
+                    JSONObject timeout = new JSONObject(); timeout.put("event", "sample_timeout"); timeout.put("time_ms", System.currentTimeMillis()); timeout.put("timeout_ms", RESPONSE_TIMEOUT_MS); if (lastPc >= 0) timeout.put("last_pc", hex32(lastPc)); if (lastSp >= 0) timeout.put("last_sp", hex32(lastSp)); timeout.put("error", message(e)); appendSample(timeout.toString()); throw e;
+                }
+                sleep(SAMPLE_INTERVAL_MS);
             }
-            connected = true;
-            connectedPort = port;
-            nextRequestId = 1;
-            prefs().edit().putBoolean(PREF_WANT_CONNECTED, true).putInt(PREF_PORT, port).apply();
-            writeEvent("connected", "reason", reason);
-            updateNotification("연결 유지 중 · 프리징 후 수동 캡처");
-        } catch (Exception e) {
-            writeFailure("connect_failed", e);
-            closeConnection();
-            updateNotification("연결 실패 · 자동 재연결 대기");
-        }
+        } finally { Process p = process; process = null; if (p != null) p.destroy(); }
     }
 
-    private synchronized void captureWithRecovery() {
-        SharedPreferences prefs = prefs();
-        int port = prefs.getInt(PREF_PORT, DEFAULT_PORT);
-        boolean reused = sessionUsable();
-        if (!reused) {
-            if (!prefs.getBoolean(PREF_WANT_CONNECTED, false)) {
-                writeFailure("manual_capture_failed",
-                        new IllegalStateException("연결 유지가 시작되지 않았습니다"));
-                updateNotification("캡처 실패 · 먼저 연결 유지 시작");
-                return;
-            }
-            writeEvent("capture_reconnect_attempt", "port", port);
-            connectPersistent(port, "capture_recovery");
-        }
-        if (!sessionUsable()) {
-            writeFailure("manual_capture_failed",
-                    new IllegalStateException("debugger 연결 복구 후에도 세션을 사용할 수 없습니다"));
-            updateNotification("캡처 실패 · 연결 복구 실패");
-            return;
-        }
-
-        try {
-            JSONObject statusResponse = request(writer, reader, nextRequestId++,
-                    rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
-            JSONObject status = rawResponse(statusResponse);
-            JSONObject regs = request(writer, reader, nextRequestId++,
-                    rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
-
-            long s0 = requireRegister(regs, "s0");
-            long s3 = requireRegister(regs, "s3");
-            long s4 = requireRegister(regs, "s4");
-            long a1 = requireRegister(regs, "a1");
-            long pc = requireRegister(regs, "pc");
-            long pageStart = (s0 + INLINE_PAGE_OFFSET) & 0xffffffffL;
-            byte[] dump = readMemory(pageStart, INLINE_DUMP_SIZE);
-
-            JSONObject capture = new JSONObject();
-            capture.put("event", "manual_freeze_capture");
-            capture.put("time_ms", System.currentTimeMillis());
-            capture.put("target", "127.0.0.1:" + connectedPort);
-            capture.put("connection_reused", reused);
-            capture.put("cpu_status", status);
-            capture.put("pc", hex32(pc));
-            capture.put("s0", hex32(s0));
-            capture.put("s3", hex32(s3));
-            capture.put("s4", hex32(s4));
-            capture.put("a1", hex32(a1));
-            capture.put("inline_page_start", hex32(pageStart));
-            capture.put("inline_page_capacity", INLINE_PAGE_CAPACITY);
-            capture.put("inline_dump_size", dump.length);
-            capture.put("inline_dump_base64", Base64.encodeToString(dump, Base64.NO_WRAP));
-            appendInlineAnalysis(capture, dump);
-            writeCapture(capture.toString());
-            updateNotification("수동 캡처 완료 · 최근 로그 복사");
-        } catch (Exception e) {
-            writeFailure("manual_capture_failed", e);
-            closeConnection();
-            updateNotification("캡처 실패 · 자동 재연결 대기");
-        }
-    }
-
-    private byte[] readMemory(long address, int size) throws Exception {
-        JSONObject params = new JSONObject();
-        params.put("address", address & 0xffffffffL);
-        params.put("size", size);
-        JSONObject response = request(writer, reader, nextRequestId++,
-                rawCommand("memory.read", params), RESPONSE_TIMEOUT_MS);
-        String encoded = rawResponse(response).optString("base64", "");
-        if (encoded.isEmpty()) throw new IllegalStateException("memory.read 응답에 base64 데이터가 없습니다");
-        byte[] decoded = Base64.decode(encoded, Base64.DEFAULT);
-        if (decoded.length != size) {
-            throw new IllegalStateException("memory.read 크기 불일치: got=" + decoded.length + " want=" + size);
-        }
-        return decoded;
-    }
-
-    private static void appendInlineAnalysis(JSONObject out, byte[] dump) throws Exception {
-        int firstNul = -1;
-        List<Integer> lfPositions = new ArrayList<>();
-        int maxSpan = 0;
-        int span = 0;
-        int analysisEnd = Math.min(dump.length, INLINE_PAGE_CAPACITY);
-        for (int i = 0; i < dump.length; i++) {
-            int value = dump[i] & 0xff;
-            if (firstNul < 0 && value == 0) firstNul = i;
-            if (i >= analysisEnd || (firstNul >= 0 && i >= firstNul)) continue;
-            if (value == 0x0A) {
-                lfPositions.add(i);
-                if (span > maxSpan) maxSpan = span;
-                span = 0;
-            } else {
-                span++;
-            }
-        }
-        if (span > maxSpan) maxSpan = span;
-        JSONArray lf = new JSONArray();
-        for (int position : lfPositions) lf.put(position);
-        out.put("first_nul_offset", firstNul);
-        out.put("has_nul_within_inline_page", firstNul >= 0 && firstNul < INLINE_PAGE_CAPACITY);
-        out.put("lf_count_before_nul", lfPositions.size());
-        out.put("lf_positions", lf);
-        out.put("max_non_lf_span_before_nul", maxSpan);
-        if (dump.length >= POINTER_SLOT_RELATIVE + 4) {
-            long slot = ((long) dump[POINTER_SLOT_RELATIVE] & 0xff)
-                    | (((long) dump[POINTER_SLOT_RELATIVE + 1] & 0xff) << 8)
-                    | (((long) dump[POINTER_SLOT_RELATIVE + 2] & 0xff) << 16)
-                    | (((long) dump[POINTER_SLOT_RELATIVE + 3] & 0xff) << 24);
-            out.put("slot_plus_3c0_word", hex32(slot));
-        }
-    }
-
-    private static JSONObject rawCommand(String event, JSONObject params) throws Exception {
-        JSONObject out = new JSONObject();
-        out.put("command", "raw");
-        out.put("event", event);
-        out.put("params", params);
-        return out;
-    }
-
-    private static JSONObject request(BufferedWriter writer, BufferedReader reader, int id,
-                                      JSONObject command, int timeoutMs) throws Exception {
-        command.put("id", id);
-        writer.write(command.toString());
-        writer.newLine();
-        writer.flush();
-        JSONObject response = readObject(reader, "command " + id, timeoutMs);
-        while (!response.has("id")) response = readObject(reader, "command " + id, timeoutMs);
-        if (!response.optBoolean("ok", false)) {
-            JSONObject error = response.optJSONObject("error");
-            throw new IllegalStateException(error == null
-                    ? response.toString() : error.optString("message", response.toString()));
-        }
-        return response;
-    }
-
-    private static JSONObject readObject(BufferedReader reader, String what, int timeoutMs) throws Exception {
-        long deadline = System.currentTimeMillis() + timeoutMs;
-        while (System.currentTimeMillis() < deadline) {
-            if (reader.ready()) {
-                String line = reader.readLine();
-                if (line == null) throw new IllegalStateException(what + " 응답 전에 연결이 종료됐습니다");
-                return new JSONObject(line);
-            }
-            Thread.sleep(20);
-        }
-        throw new TimeoutException(what + " 응답이 " + timeoutMs + "ms 동안 없습니다");
-    }
-
-    private static JSONObject rawResponse(JSONObject response) {
-        JSONObject result = response.optJSONObject("result");
-        if (result == null) return new JSONObject();
-        JSONObject raw = result.optJSONObject("response");
-        return raw == null ? new JSONObject() : raw;
-    }
-
-    private static long requireRegister(JSONObject response, String wanted) {
-        JSONObject raw = rawResponse(response);
-        JSONArray categories = raw.optJSONArray("categories");
-        if (categories == null) throw new IllegalStateException(wanted + " 레지스터를 읽지 못했습니다");
-        for (int i = 0; i < categories.length(); i++) {
-            JSONObject category = categories.optJSONObject(i);
-            if (category == null) continue;
-            JSONArray names = category.optJSONArray("registerNames");
-            JSONArray values = category.optJSONArray("uintValues");
-            if (names == null || values == null) continue;
-            int count = Math.min(names.length(), values.length());
-            for (int j = 0; j < count; j++) {
-                if (wanted.equals(names.optString(j))) return values.optLong(j, -1) & 0xffffffffL;
-            }
-        }
-        throw new IllegalStateException(wanted + " 레지스터를 읽지 못했습니다");
-    }
-
-    private synchronized void writeCapture(String line) {
-        File out = new File(getFilesDir(), TRACE_FILE);
-        try (BufferedWriter fileWriter = new BufferedWriter(new FileWriter(out, false))) {
-            fileWriter.write(line);
-            fileWriter.newLine();
-        } catch (Exception ignored) {}
-    }
-
-    private void writeEvent(String event, String key, Object value) {
-        try {
-            JSONObject obj = new JSONObject();
-            obj.put("event", event);
-            obj.put("time_ms", System.currentTimeMillis());
-            obj.put("target", connectedPort > 0 ? "127.0.0.1:" + connectedPort : "not_connected");
-            obj.put(key, value);
-            writeCapture(obj.toString());
-        } catch (Exception ignored) {}
-    }
-
-    private void writeFailure(String event, Exception error) {
-        try {
-            JSONObject obj = new JSONObject();
-            obj.put("event", event);
-            obj.put("time_ms", System.currentTimeMillis());
-            obj.put("target", connectedPort > 0 ? "127.0.0.1:" + connectedPort : "not_connected");
-            obj.put("wanted_connection", prefs().getBoolean(PREF_WANT_CONNECTED, false));
-            obj.put("saved_port", prefs().getInt(PREF_PORT, DEFAULT_PORT));
-            obj.put("process_alive", process != null && process.isAlive());
-            obj.put("connected_flag", connected);
-            obj.put("error", message(error));
-            writeCapture(obj.toString());
-        } catch (Exception ignored) {}
-    }
-
-    public static String readLatestTrace(File filesDir) throws Exception {
-        File trace = new File(filesDir, TRACE_FILE);
-        if (!trace.isFile()) return "";
-        StringBuilder out = new StringBuilder();
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(
-                new FileInputStream(trace), StandardCharsets.UTF_8))) {
-            String line;
-            while ((line = reader.readLine()) != null) out.append(line).append('\n');
-        }
-        return out.toString();
-    }
-
-    private synchronized void closeConnection() {
-        connected = false;
-        connectedPort = -1;
-        try { if (writer != null) writer.close(); } catch (Exception ignored) {}
-        try { if (reader != null) reader.close(); } catch (Exception ignored) {}
-        writer = null;
-        reader = null;
-        Process p = process;
-        process = null;
-        if (p != null) p.destroy();
-    }
-
-    private void updateNotification(String text) {
-        NotificationManager manager = getSystemService(NotificationManager.class);
-        if (manager != null) manager.notify(NOTIFICATION_ID, notification(text));
-    }
-
-    private Notification notification(String text) {
-        Intent open = new Intent(this, FreezeCaptureActivity.class);
-        PendingIntent pending = PendingIntent.getActivity(this, 0, open,
-                PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
-        return new Notification.Builder(this, CHANNEL_ID)
-                .setSmallIcon(android.R.drawable.stat_notify_sync)
-                .setContentTitle("질올 PPSSPP 수동 캡처")
-                .setContentText(text)
-                .setContentIntent(pending)
-                .setOngoing(prefs().getBoolean(PREF_WANT_CONNECTED, false))
-                .build();
-    }
-
-    private static String hex32(long value) {
-        return String.format("0x%08X", value & 0xffffffffL);
-    }
-
-    private static String message(Exception e) {
-        String m = e.getMessage();
-        return (m == null || m.trim().isEmpty()) ? e.getClass().getSimpleName() : m;
-    }
-
-    @Override
-    public void onDestroy() {
-        closeConnection();
-        supervisor.shutdownNow();
-        worker.shutdown();
-        super.onDestroy();
-    }
-
-    @Override
-    public IBinder onBind(Intent intent) { return null; }
+    private synchronized void appendSample(String line) { ring.addLast(line); while (ring.size() > MAX_SAMPLES) ring.removeFirst(); persistRing(); }
+    private synchronized void writeEvent(String event, String key, Object value) { try { JSONObject obj = new JSONObject(); obj.put("event", event); obj.put("time_ms", System.currentTimeMillis()); obj.put(key, value); ring.addLast(obj.toString()); while (ring.size() > MAX_SAMPLES + 8) ring.removeFirst(); persistRing(); } catch (Exception ignored) {} }
+    private void persistRing() { File out = new File(getFilesDir(), TRACE_FILE); try (BufferedWriter writer = new BufferedWriter(new FileWriter(out, false))) { for (String line : ring) { writer.write(line); writer.newLine(); } } catch (Exception ignored) {} }
+    public static String readLatestTrace(File filesDir) throws Exception { File trace = new File(filesDir, TRACE_FILE); if (!trace.isFile()) return ""; StringBuilder out = new StringBuilder(); try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(trace), StandardCharsets.UTF_8))) { String line; while ((line = reader.readLine()) != null) out.append(line).append('\n'); } return out.toString(); }
+    private void updateNotification(String text) { NotificationManager manager = getSystemService(NotificationManager.class); if (manager != null) manager.notify(NOTIFICATION_ID, notification(text)); }
+    private Notification notification(String text) { Intent open = new Intent(this, FreezeCaptureActivity.class); PendingIntent pending = PendingIntent.getActivity(this, 0, open, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE); return new Notification.Builder(this, CHANNEL_ID).setSmallIcon(android.R.drawable.stat_notify_sync).setContentTitle("질올 PPSSPP 프리징 기록").setContentText(text).setContentIntent(pending).setOngoing(true).build(); }
+    private static JSONObject rawCommand(String event, JSONObject params) throws Exception { JSONObject out = new JSONObject(); out.put("command", "raw"); out.put("event", event); out.put("params", params); return out; }
+    private static JSONObject request(BufferedWriter writer, BufferedReader reader, int id, JSONObject command, int timeoutMs) throws Exception { command.put("id", id); writer.write(command.toString()); writer.newLine(); writer.flush(); JSONObject response = readObject(reader, "command " + id, timeoutMs); while (!response.has("id")) response = readObject(reader, "command " + id, timeoutMs); if (!response.optBoolean("ok", false)) { JSONObject error = response.optJSONObject("error"); throw new IllegalStateException(error == null ? response.toString() : error.optString("message", response.toString())); } return response; }
+    private static JSONObject readObject(BufferedReader reader, String what, int timeoutMs) throws Exception { long deadline = System.currentTimeMillis() + timeoutMs; while (System.currentTimeMillis() < deadline) { if (reader.ready()) { String line = reader.readLine(); if (line == null) throw new IllegalStateException(what + " 응답 전에 연결이 종료됐습니다"); return new JSONObject(line); } Thread.sleep(20); } throw new TimeoutException(what + " 응답이 " + timeoutMs + "ms 동안 없습니다"); }
+    private static JSONObject rawResponse(JSONObject response) { JSONObject result = response.optJSONObject("result"); if (result == null) return new JSONObject(); JSONObject raw = result.optJSONObject("response"); return raw == null ? new JSONObject() : raw; }
+    private static JSONObject selectedRegisters(JSONObject response) throws Exception { JSONObject selected = new JSONObject(); String[] names = new String[]{"v0","v1","a0","a1","a2","a3","t0","t1","t2","t3","t4","t5","t6","t7","t8","t9","s0","s1","s2","s3","s4","s5","s6","s7","gp","sp","fp","ra","pc"}; for (String name : names) { long value = findRegister(response, name); if (value >= 0) selected.put(name, hex32(value)); } return selected; }
+    private static boolean isHotPc(long pc) { return pc >= HOT_PC_MIN && pc <= HOT_PC_MAX; }
+    private static long unsignedAdvance(long start, long now) { return (now - start) & 0xffffffffL; }
+    private static long findRegister(JSONObject response, String wanted) { JSONObject raw = rawResponse(response); JSONArray categories = raw.optJSONArray("categories"); if (categories == null) return -1; for (int i = 0; i < categories.length(); i++) { JSONObject category = categories.optJSONObject(i); if (category == null) continue; JSONArray names = category.optJSONArray("registerNames"); JSONArray values = category.optJSONArray("uintValues"); if (names == null || values == null) continue; int count = Math.min(names.length(), values.length()); for (int j = 0; j < count; j++) if (wanted.equals(names.optString(j))) return values.optLong(j, -1) & 0xffffffffL; } return -1; }
+    private static String hex32(long value) { return String.format("0x%08X", value & 0xffffffffL); }
+    private static String message(Exception e) { String m = e.getMessage(); return (m == null || m.trim().isEmpty()) ? e.getClass().getSimpleName() : m; }
+    private static void sleep(long millis) { try { Thread.sleep(millis); } catch (InterruptedException ignored) { Thread.currentThread().interrupt(); } }
+    @Override public void onDestroy() { if (!stopRequested) writeEvent("service_destroyed", "source", "android"); stopRequested = true; Process p = process; if (p != null) p.destroy(); worker.shutdownNow(); super.onDestroy(); }
+    @Override public IBinder onBind(Intent intent) { return null; }
 }
