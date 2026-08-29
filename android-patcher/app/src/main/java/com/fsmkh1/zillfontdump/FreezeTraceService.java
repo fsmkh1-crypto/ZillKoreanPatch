@@ -68,6 +68,7 @@ public final class FreezeTraceService extends Service {
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private final Deque<String> events = new ArrayDeque<>();
+    private volatile String latestCandidate;
     private volatile boolean stopRequested;
     private volatile Process process;
 
@@ -166,6 +167,9 @@ public final class FreezeTraceService extends Service {
                             new long[]{PRODUCER_CALL});
 
                     long s4 = findRegister(producerRegs, "s4");
+                    if (s4 < 0) {
+                        throw new IllegalStateException("producer call에서 s4를 읽지 못했습니다");
+                    }
                     if (s4 != 0) {
                         // Only s4==0 writes the base object's +0x3C0 slot.
                         continue;
@@ -248,6 +252,10 @@ public final class FreezeTraceService extends Service {
                     long storeS4 = findRegister(storeRegs, "s4");
                     long storeBase = findRegister(storeRegs, "a0");
                     long storeValue = findRegister(storeRegs, "v0");
+                    if (storeS4 < 0 || storeBase < 0 || storeValue < 0) {
+                        throw new IllegalStateException(
+                                "producer store에서 s4/a0/v0 중 일부를 읽지 못했습니다");
+                    }
 
                     // C948 is before the store and before C94C increments s4. If this
                     // invariant fails, do not silently correlate the candidate.
@@ -283,6 +291,10 @@ public final class FreezeTraceService extends Service {
                             new long[]{SECOND_SCANNER_CALL, SECOND_SCANNER_SKIP});
                     long scannerPc = findRegister(scannerRegs, "pc");
                     long scannerA1 = findRegister(scannerRegs, "a1");
+                    if (scannerPc < 0 || scannerA1 < 0) {
+                        throw new IllegalStateException(
+                                "second scanner boundary에서 pc/a1을 읽지 못했습니다");
+                    }
                     candidate.put("second_scanner_boundary", hex32(scannerPc));
                     candidate.put("second_scanner_gpr", selectedRegisters(scannerRegs));
                     if (scannerA1 >= 0) {
@@ -294,6 +306,14 @@ public final class FreezeTraceService extends Service {
                     removeBreakpoint(writer, reader, requestId,
                             activeBreakpoints, SECOND_SCANNER_SKIP);
 
+                    // Keep exactly one rolling candidate snapshot. If allocator output
+                    // varies between runs and the exact historical value does not recur,
+                    // a subsequent runaway leaves the last pre-scanner candidate as the
+                    // only snapshot rather than growing the log without bound.
+                    candidate.put("event", "pointer_boundary_candidate");
+                    candidate.put("time_ms", System.currentTimeMillis());
+                    saveLatestCandidate(candidate);
+
                     if (scannerPc == SECOND_SCANNER_CALL
                             && scannerA1 == OBSERVED_FAILING_FIELD_VALUE) {
                         candidate.put("event", "pointer_boundary_capture");
@@ -303,6 +323,7 @@ public final class FreezeTraceService extends Service {
                                 hex32(OBSERVED_FAILING_FIELD_VALUE));
                         candidate.put("store_equals_scanner_input",
                                 storeValue == scannerA1);
+                        clearLatestCandidate();
                         appendEvent(candidate.toString());
                         updateNotification("문제 경계 캡처 완료 · 로그 복사 가능");
                         stopRequested = true;
@@ -468,6 +489,16 @@ public final class FreezeTraceService extends Service {
         }
     }
 
+    private synchronized void saveLatestCandidate(JSONObject candidate) {
+        latestCandidate = candidate.toString();
+        persistEvents();
+    }
+
+    private synchronized void clearLatestCandidate() {
+        latestCandidate = null;
+        persistEvents();
+    }
+
     private synchronized void appendEvent(String line) {
         events.addLast(line);
         while (events.size() > MAX_EVENTS) {
@@ -492,6 +523,10 @@ public final class FreezeTraceService extends Service {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(out, false))) {
             for (String line : events) {
                 writer.write(line);
+                writer.newLine();
+            }
+            if (latestCandidate != null) {
+                writer.write(latestCandidate);
                 writer.newLine();
             }
         } catch (Exception ignored) {
