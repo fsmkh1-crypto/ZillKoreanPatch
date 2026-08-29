@@ -37,31 +37,64 @@ var lineRE = regexp.MustCompile(`^\s*0x([0-9A-Fa-f]{8})\s+(?:encoding=0x[0-9A-Fa
 
 func main() {
     input := flag.String("input", "", "disassembly text file")
-    start := flag.String("start", "", "start address, e.g. 0x08A23064")
+    binaryPath := flag.String("binary", "", "raw decrypted EBOOT/ELF image")
+    start := flag.String("start", "", "runtime start address, e.g. 0x08A23064")
+    runtimeBase := flag.String("runtime-base", "0x08804000", "runtime address corresponding to ELF VA 0")
+    fileBias := flag.String("file-bias", "0x80", "file offset minus ELF VA for raw EBOOT image")
+    maxInsns := flag.Int("max-insns", 512, "maximum instructions decoded per binary function")
     maxDepth := flag.Int("max-depth", 32, "maximum wrapper descent depth")
     flag.Parse()
-    if *input == "" || *start == "" {
-        fmt.Fprintln(os.Stderr, "usage: return-provenance --input FILE --start 0xADDRESS")
+
+    if *start == "" || ((*input == "") == (*binaryPath == "")) {
+        fmt.Fprintln(os.Stderr, "usage: return-provenance (--input DISASM | --binary EBOOT.BIN) --start 0xADDRESS")
         os.Exit(2)
     }
-    addr64, err := strconv.ParseUint(strings.TrimPrefix(strings.TrimPrefix(*start, "0x"), "0X"), 16, 32)
+    startAddr, err := parseHex32(*start)
     if err != nil {
         fmt.Fprintln(os.Stderr, "invalid start address:", err)
         os.Exit(2)
     }
-    f, err := os.Open(*input)
-    if err != nil {
-        fmt.Fprintln(os.Stderr, err)
-        os.Exit(1)
-    }
-    defer f.Close()
 
-    funcs, err := parseFunctions(bufio.NewScanner(f))
-    if err != nil {
-        fmt.Fprintln(os.Stderr, err)
-        os.Exit(1)
+    var lookup func(uint32) (function, bool)
+    var missingLabel string
+    if *binaryPath != "" {
+        rb, err := parseHex32(*runtimeBase)
+        if err != nil {
+            fmt.Fprintln(os.Stderr, "invalid runtime-base:", err)
+            os.Exit(2)
+        }
+        fb, err := parseHex32(*fileBias)
+        if err != nil {
+            fmt.Fprintln(os.Stderr, "invalid file-bias:", err)
+            os.Exit(2)
+        }
+        img, err := loadBinaryImage(*binaryPath, rb, fb, *maxInsns)
+        if err != nil {
+            fmt.Fprintln(os.Stderr, err)
+            os.Exit(1)
+        }
+        lookup = img.decodeFunction
+        missingLabel = "binary range unavailable"
+        if off, ok := img.fileOffset(startAddr); ok {
+            fmt.Printf("MAP runtime=0x%08X file=0x%08X runtime_base=0x%08X file_bias=0x%X\n", startAddr, off, rb, fb)
+        }
+    } else {
+        f, err := os.Open(*input)
+        if err != nil {
+            fmt.Fprintln(os.Stderr, err)
+            os.Exit(1)
+        }
+        defer f.Close()
+        funcs, err := parseFunctions(bufio.NewScanner(f))
+        if err != nil {
+            fmt.Fprintln(os.Stderr, err)
+            os.Exit(1)
+        }
+        lookup = func(addr uint32) (function, bool) { fn, ok := funcs[addr]; return fn, ok }
+        missingLabel = "missing function body in input"
     }
-    cur := uint32(addr64)
+
+    cur := startAddr
     seen := map[uint32]bool{}
     for depth := 0; depth < *maxDepth; depth++ {
         if seen[cur] {
@@ -69,9 +102,9 @@ func main() {
             return
         }
         seen[cur] = true
-        fn, ok := funcs[cur]
+        fn, ok := lookup(cur)
         if !ok {
-            fmt.Printf("%02d 0x%08X STOP missing function body in input\n", depth, cur)
+            fmt.Printf("%02d 0x%08X STOP %s\n", depth, cur, missingLabel)
             return
         }
         v := classify(fn)
@@ -82,6 +115,11 @@ func main() {
         cur = v.DescendTo
     }
     fmt.Printf("STOP max depth %d reached\n", *maxDepth)
+}
+
+func parseHex32(s string) (uint32, error) {
+    x, err := strconv.ParseUint(strings.TrimPrefix(strings.TrimPrefix(strings.TrimSpace(s), "0x"), "0X"), 16, 32)
+    return uint32(x), err
 }
 
 func parseFunctions(s *bufio.Scanner) (map[uint32]function, error) {
@@ -111,8 +149,6 @@ func parseFunctions(s *bufio.Scanner) (map[uint32]function, error) {
             }
             body = append(body, all[j])
             if sawReturn {
-                // Include the return delay slot, then stop. Partial evidence may omit
-                // unrelated instructions, but never merge through a completed return.
                 break
             }
             if all[j].Op == "jr" && strings.TrimSpace(all[j].Args) == "ra" {
@@ -146,7 +182,7 @@ func classify(fn function) verdict {
     }
     if lastJal >= 0 {
         writes := []string{}
-        for i := lastJal + 2; i < ret; i++ { // skip jal delay slot
+        for i := lastJal + 2; i < ret; i++ {
             if writesReg(fn.Insns[i], "v0") {
                 writes = append(writes, fmt.Sprintf("0x%08X %s %s", fn.Insns[i].Addr, fn.Insns[i].Op, fn.Insns[i].Args))
             }
