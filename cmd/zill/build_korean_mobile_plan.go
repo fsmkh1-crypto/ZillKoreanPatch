@@ -39,7 +39,8 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	if _, err := loadAuthenticatedRetailEBOOT(gameDir); err != nil {
+	eboot, err := loadAuthenticatedRetailEBOOT(gameDir)
+	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
 	boot, err := loadAuthenticatedRetailBOOT(gameDir)
@@ -88,6 +89,21 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta H0 slot allocation: %w", err)
+	}
+	audit, err := auditMobileExactByteReuse(plan,
+		slotAuditBlob{Name: "BOOT.BIN", Data: boot},
+		slotAuditBlob{Name: "EBOOT.BIN", Data: eboot},
+		slotAuditBlob{Name: "bindata.dat", Data: bindata},
+	)
+	if err != nil {
+		return koreanslots.Plan{}, 0, 0, err
+	}
+	fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_AUDIT candidates=%d exact_hit_candidates=%d mapped_hit_records=%d\n",
+		len(plan.Candidates), audit.CandidateHits, len(audit.MappedHits))
+	for _, hit := range audit.MappedHits {
+		encoded, _ := hit.Key.Bytes()
+		fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_MAPPING rune=%q unicode=%U key=%02X %02X blob=%s offsets=%v\n",
+			string(hit.Rune), hit.Rune, encoded[0], encoded[1], hit.Blob, hit.Offsets)
 	}
 	h0Digest := mappingDigest(plan.Mapping)
 
