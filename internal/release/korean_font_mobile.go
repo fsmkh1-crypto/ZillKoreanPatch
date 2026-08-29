@@ -100,6 +100,10 @@ func prepareKoreanMobileFontReplacements(root string, archives []*archive, plan 
 	if err != nil {
 		return nil, err
 	}
+	if err := zillfont.VerifyFullRepackSemantics(atlas, jillbtn, patchedAtlas, patchedPAF, plan.Mapping, koreanRasters); err != nil {
+		return nil, fmt.Errorf("prepare mobile Korean font postcondition audit: %w", err)
+	}
+	fmt.Printf("Korean mobile font semantic audit: %d PAF glyphs preserved/replaced under verified key/BST/metric/raster contracts.\n", zillfont.GlyphCount)
 	return []paa.Replacement{
 		paa.IndexReplacement(retailAtlasMemberIndex, patchedAtlas),
 		paa.IndexReplacement(retailPAFMemberIndex, patchedPAF),
