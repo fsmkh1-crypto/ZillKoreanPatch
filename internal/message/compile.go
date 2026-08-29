@@ -61,7 +61,7 @@ func CompileBank(bank corpus.Bank, items []corpus.Item) ([]byte, error) {
 						return nil, fmt.Errorf("%s: ID %d semantic text: %w", bank.Name, source.ID, err)
 					}
 					if !preservesSemantics(item.Translation.Text, item.Layout) {
-						return nil, fmt.Errorf("%s: ID %d: layout changes semantic/control text; line breaks may replace complete whitespace spans or split adjacent Hangul syllables", bank.Name, source.ID)
+						return nil, fmt.Errorf("%s: ID %d: layout changes semantic/control text; line breaks may replace complete whitespace spans or split adjacent text runes", bank.Name, source.ID)
 					}
 				}
 				text, layout = item.Layout, true
@@ -101,15 +101,15 @@ type semanticUnit struct{ kind, value string }
 var annotatedControl = regexp.MustCompile(`<[^<>]+>`)
 
 // semanticUnits tokenizes ordinary text at Unicode-rune granularity while
-// keeping annotated controls atomic. Rune granularity is deliberate: Korean
-// layout may need to wrap inside an unspaced Hangul word without changing the
-// translator-owned semantic string.
+// keeping annotated controls atomic. Rune granularity is deliberate: generated
+// layout may need to wrap inside unspaced Korean text or next to punctuation
+// without changing the translator-owned semantic string.
 func semanticUnits(text string) []semanticUnit {
 	var units []semanticUnit
 	for len(text) > 0 {
 		if location := annotatedControl.FindStringIndex(text); location != nil && location[0] == 0 {
 			value := text[:location[1]]
-			kind := "literal"
+			kind := "control"
 			if value == lineBreak {
 				kind = "boundary"
 			}
@@ -136,12 +136,12 @@ func semanticUnits(text string) []semanticUnit {
 	return units
 }
 
-func isHangulSyllableUnit(unit semanticUnit) bool {
+func isPlainLiteralUnit(unit semanticUnit) bool {
 	if unit.kind != "literal" {
 		return false
 	}
-	r, width := utf8.DecodeRuneInString(unit.value)
-	return width == len(unit.value) && r >= 0xAC00 && r <= 0xD7A3
+	_, width := utf8.DecodeRuneInString(unit.value)
+	return width == len(unit.value)
 }
 
 func preservesSemantics(semantic, layout string) bool {
@@ -194,11 +194,12 @@ func preservesSemantics(semantic, layout string) bool {
 			continue
 		}
 
-		// Korean-specific reflow: allow exactly one zero-width layout boundary
-		// between two adjacent precomposed Hangul syllables. Repeated zero-width
-		// boundaries remain invalid unless backed by semantic whitespace above.
+		// Generated reflow may insert exactly one zero-width boundary between two
+		// adjacent ordinary text runes. This includes Hangul/punctuation boundaries
+		// produced by the byte-cap wrapper, but deliberately excludes annotated
+		// runtime controls so layout cannot alter control adjacency such as $15.
 		if boundaryCount == 1 && wantIndex > 0 && wantIndex < len(want) &&
-			isHangulSyllableUnit(want[wantIndex-1]) && isHangulSyllableUnit(want[wantIndex]) {
+			isPlainLiteralUnit(want[wantIndex-1]) && isPlainLiteralUnit(want[wantIndex]) {
 			gotIndex++
 			continue
 		}
