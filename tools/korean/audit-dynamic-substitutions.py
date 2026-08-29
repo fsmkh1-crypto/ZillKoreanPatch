@@ -18,6 +18,12 @@ import tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 VALUE_RE = re.compile(r"<value:\$([0-9A-Fa-f]{2})>")
+# Concrete blind spot raised during independent review: a value used as the
+# right-hand side of a comparison would not be immediately preceded by <if> and
+# the lightweight classifier below would otherwise call it inline.
+COMPARISON_VALUE_RE = re.compile(
+    r"<(?:equal|less-equal|greater-equal)><value:\$([0-9A-Fa-f]{2})>"
+)
 
 
 def load_toml(path: pathlib.Path):
@@ -38,10 +44,11 @@ def compact(text: str, limit: int = 180) -> str:
 def classify_value_uses(text: str):
     """Return (all, inline, predicate, selector, inline-adjacencies).
 
-    Projection syntax places predicate values immediately after <if> and selector
-    values immediately after <select>. Everything else is kept as inline until a
-    stronger parser/runtime proof says otherwise; this deliberately avoids
-    inferring semantic labels from opcode number alone.
+    This is deliberately a lightweight corpus classifier, not the message
+    grammar parser. Predicate values immediately after <if> and selector values
+    immediately after <select> are classified structurally enough for the
+    current corpus; explicit counterexample scans below prevent the known
+    right-hand-comparison blind spot from silently contaminating headline counts.
     """
     all_tags = []
     inline = []
@@ -96,6 +103,7 @@ def main() -> None:
     consumer_counts = collections.Counter()
     inline_consumer_counts = collections.Counter()
     adjacency_counts = collections.Counter()
+    classifier_counterexamples = []
     total_records = 0
 
     for filename in sorted(glob.glob(str(ROOT / "translations/korean/messages/msgsec*.toml"))):
@@ -108,10 +116,13 @@ def main() -> None:
             if not isinstance(korean, str) or not korean:
                 continue
             total_records += 1
+            mid = int(key)
+            rhs_values = [m.group(1).upper() for m in COMPARISON_VALUE_RE.finditer(korean)]
+            if rhs_values:
+                classifier_counterexamples.append((mid, rhs_values, korean))
             tags, inline, predicate, selector, adjacency = classify_value_uses(korean)
             if not tags:
                 continue
-            mid = int(key)
             opcode_counts.update(tags)
             inline_counts.update(inline)
             predicate_counts.update(predicate)
@@ -171,6 +182,12 @@ def main() -> None:
         f"inline:{inline_records},predicate:{predicate_records},selector:{selector_records}"
     )
     print(f"inline_nonspace_adjacencies={sum(adjacency_counts.values())}")
+    print(f"classifier_rhs_value_counterexamples={len(classifier_counterexamples)}")
+    for mid, opcodes, text in classifier_counterexamples[:20]:
+        print(
+            f"CLASSIFIER_RHS_VALUE_COUNTEREXAMPLE id={mid} "
+            f"opcodes={','.join('$'+op for op in opcodes)} KO={compact(text)!r}"
+        )
     print("consumer_overlap=" + ", ".join(f"{k}:{v}" for k, v in sorted(consumer_counts.items())))
     print("inline_consumer_overlap=" + ", ".join(f"{k}:{v}" for k, v in sorted(inline_consumer_counts.items())))
     print("opcodes=" + ", ".join(f"${k}:{v}" for k, v in opcode_counts.most_common()))
