@@ -12,6 +12,46 @@ See A-020.
 - Repeated non-reproduction may increase confidence but never proves absence of an intermittent bug.
 - CI success, Android/APK packaging, authenticated ISO build, and runtime behavior are separate evidence levels.
 
+## Captured 210065 freeze — strongest current machine-state explanation
+
+A-054 materially narrows the preserved freeze capture and supersedes the earlier assumption that the bad `s0+0x3C0` word probably came from the `0x100` allocator return.
+
+Established for the captured run:
+
+- `z_un_0886c84c` has an inline text region at `s0+0x2C0 .. s0+0x3BF`; the first secondary-page pointer slot begins immediately at `s0+0x3C0`.
+- The captured second scanner call has `s4=0`, while the known split/allocation producer increments `s4` immediately after storing an allocated page pointer. No reset before the second scanner has yet been identified.
+- The captured first scanner result is `s3=0x113` (275 bytes), exceeding the 0x100-byte inline region by 19 bytes.
+- The later load from `s0+0x3C0` yields `0x8C4C89A4`, which is then passed directly to the NUL scanner and produces the observed runaway scan.
+- A separately armed breakpoint at the additional-page allocation boundary was not observed before the same freeze. This is supporting evidence only, but it is consistent with `s4=0`.
+
+Current interpretation:
+
+```text
+long first-page/materialized span
+  -> copy crosses the inline 0x100-byte region
+  -> overwrites the first secondary-page pointer slot
+  -> later code interprets overwritten text bytes as a pointer
+  -> NUL scanner walks arbitrary memory
+  -> freeze
+```
+
+This is a **strong root-cause candidate for the captured run only**. It is not yet a unified explanation for the separately reported H1 eight-line freeze.
+
+Critical contradiction still open:
+
+- the current branch forcibly materializes ID 210065 as an eight-line diagnostic layout;
+- the compiled diagnostic is expected to contain seven `0x0A` line breaks, keep every encoded line within the 56-byte C22 line contract, and remain below 0x100 bytes in the synthetic materialization gate;
+- therefore a capture with an unbroken 0x113-byte span must either come from a build/runtime payload that did not contain the intended layout, from a different runtime materialization path, or from a still-missing split/state condition.
+
+Next decisive evidence:
+
+1. identify/reproduce the exact H1 build payload for 210065;
+2. prove whether the executed/materialized record contains the seven intended `0x0A` line breaks;
+3. compare the bytes crossing offset `0x100` with the observed overwritten word `A4 89 4C 8C` when a matching failing artifact is available;
+4. only if those bytes/path states align, promote internal-page overflow from captured-run candidate to a broader root cause.
+
+Do not descend further into `08A23064` allocator internals before this contradiction is resolved.
+
 ## Current principal root-cause branches
 
 ### 1. Renderer/font runtime contract and renderer-key ownership — active / strong evidence of real defects, causality open
@@ -86,14 +126,15 @@ The authenticated ISO preflight now replays H0/B/A/Combined/Stable-minimal plann
 
 ## Required asset-backed evidence before another device experiment
 
-1. PR #14 current-corpus policy replay: mapping SHA/deltas, EBOOT encoding digests, exact-byte mapped-key hits.
-2. Mobile exact-byte ownership audit on authenticated BOOT/EBOOT/BINDATA.
-3. Full-font 2,637-glyph semantic postcondition verification and retail/patched PAF+atlas fingerprints.
-4. Heuristic C5 retail-executable candidate scan, followed by manual/dataflow validation; zero candidates is not a contract disproof.
-5. Font-renderer 0x20-stride candidate scan, followed by actual key/BST/Page/X/Y dataflow validation.
-6. Corrected C5 known-expansion report on authenticated Korean output.
-7. Full projection compatibility replay on authenticated retail banks.
-8. Only after the above, choose a one-variable runtime experiment and record repeated outcomes as failure-count / run-count rather than `PASS` shorthand.
+1. Reproduce/identify the exact H1 210065 payload and prove whether its seven intended line breaks reached the runtime consumer.
+2. PR #14 current-corpus policy replay: mapping SHA/deltas, EBOOT encoding digests, exact-byte mapped-key hits.
+3. Mobile exact-byte ownership audit on authenticated BOOT/EBOOT/BINDATA.
+4. Full-font 2,637-glyph semantic postcondition verification and retail/patched PAF+atlas fingerprints.
+5. Heuristic C5 retail-executable candidate scan, followed by manual/dataflow validation; zero candidates is not a contract disproof.
+6. Font-renderer 0x20-stride candidate scan, followed by actual key/BST/Page/X/Y dataflow validation.
+7. Corrected C5 known-expansion report on authenticated Korean output.
+8. Full projection compatibility replay on authenticated retail banks.
+9. Only after the above, choose a one-variable runtime experiment and record repeated outcomes as failure-count / run-count rather than `PASS` shorthand.
 
 ## Evidence hygiene
 
