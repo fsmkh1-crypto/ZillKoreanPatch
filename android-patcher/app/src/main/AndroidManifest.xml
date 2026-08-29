@@ -8,23 +8,14 @@
         android:name=".PayloadRepairApplication"
         android:allowBackup="false"
         android:extractNativeLibs="true"
-        android:label="질올 한국어 패치 Alpha"
+        android:label="질올 프리징 Tracer"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".FreezeCaptureActivity"
             android:exported="true"
             android:label="질올 프리징 캡처"
-            android:launchMode="singleTask"
-            android:taskAffinity="com.fsmkh1.zillfontdump.freeze">
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
