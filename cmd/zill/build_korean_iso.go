@@ -99,6 +99,7 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 	if preflightOnly {
 		fmt.Fprintln(stdout, "FORENSIC MOBILE_PREFLIGHT_BEGIN output_iso_written=false")
 		if err := release.PreflightKoreanAlphaISOOnly(root, gameDir, isoPath, resolvedVersion, planner); err != nil {
+			fmt.Fprintf(stdout, "FORENSIC MOBILE_PREFLIGHT_ERROR error=%q\n", err.Error())
 			fmt.Fprintf(stderr, "zill: build-korean-iso preflight: %v\n", err)
 			return 1
 		}
@@ -108,6 +109,7 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 
 	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	if err := release.BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, resolvedVersion, planner); err != nil {
+		fmt.Fprintf(stdout, "FORENSIC MOBILE_BUILD_ERROR error=%q\n", err.Error())
 		fmt.Fprintf(stderr, "zill: build-korean-iso: %v\n", err)
 		return 1
 	}
