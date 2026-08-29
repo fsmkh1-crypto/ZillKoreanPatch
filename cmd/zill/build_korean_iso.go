@@ -17,6 +17,7 @@ import (
 
 func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int {
 	isoPath, outputPath, workDir, version := "", "", "", ""
+	preflightOnly := false
 	for i := 0; i < len(args); i++ {
 		switch {
 		case args[i] == "--iso" && i+1 < len(args):
@@ -39,13 +40,19 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 			version = args[i]
 		case strings.HasPrefix(args[i], "--version="):
 			version = strings.TrimPrefix(args[i], "--version=")
+		case args[i] == "--preflight-only":
+			preflightOnly = true
 		default:
 			fmt.Fprintf(stderr, "zill: build-korean-iso: unknown or incomplete argument %q\n", args[i])
 			return 2
 		}
 	}
-	if isoPath == "" || outputPath == "" || workDir == "" {
-		fmt.Fprintln(stderr, "zill: usage: zill build-korean-iso --iso RETAIL_ISO --out OUTPUT_ISO --work-dir DIR [--version VERSION]")
+	if isoPath == "" || workDir == "" || (!preflightOnly && outputPath == "") {
+		fmt.Fprintln(stderr, "zill: usage: zill build-korean-iso --iso RETAIL_ISO [--out OUTPUT_ISO] --work-dir DIR [--version VERSION] [--preflight-only]")
+		return 2
+	}
+	if preflightOnly && outputPath != "" {
+		fmt.Fprintln(stderr, "zill: build-korean-iso: --out is not used with --preflight-only")
 		return 2
 	}
 	resolvedVersion, err := resolveBuildVersion(root, version)
@@ -80,7 +87,6 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		fmt.Fprintf(stdout, "FORENSIC C5_FOCUS unavailable: %v\n", err)
 	}
 	fmt.Fprintln(stdout, "Mobile beta safety mode: retail banks are authenticated and bound before slot planning and canonical Korean compilation.")
-	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	planner := func(source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
 		if err := auditC5RuntimeCandidates(gameDir); err != nil {
 			return koreanslots.Plan{}, 0, 0, fmt.Errorf("C5 runtime candidate audit: %w", err)
@@ -90,6 +96,17 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		}
 		return buildKoreanAlphaPlanMobile(root, gameDir, source, korean)
 	}
+	if preflightOnly {
+		fmt.Fprintln(stdout, "FORENSIC MOBILE_PREFLIGHT_BEGIN output_iso_written=false")
+		if err := release.PreflightKoreanAlphaISOOnly(root, gameDir, isoPath, resolvedVersion, planner); err != nil {
+			fmt.Fprintf(stderr, "zill: build-korean-iso preflight: %v\n", err)
+			return 1
+		}
+		fmt.Fprintln(stdout, "FORENSIC MOBILE_PREFLIGHT_COMPLETE output_iso_written=false")
+		return 0
+	}
+
+	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	if err := release.BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, resolvedVersion, planner); err != nil {
 		fmt.Fprintf(stderr, "zill: build-korean-iso: %v\n", err)
 		return 1
