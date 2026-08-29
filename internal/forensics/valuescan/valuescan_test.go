@@ -63,7 +63,7 @@ func TestDecodeRetainsCallsAndPointerMemoryOps(t *testing.T) {
 			t.Fatalf("decode(%#08x)=%q, want %q", tt.word, got, tt.want)
 		}
 	}
-	if got, want := decodeAt(jType(0x03, 0x00123450), 0x08801234), "jal 0x8123450"; got != want {
+	if got, want := decodeAt(jType(0x03, 0x00123450), 0x81201234), "jal 0x8123450"; got != want {
 		t.Fatalf("decodeAt jump target=%q, want %q", got, want)
 	}
 }
