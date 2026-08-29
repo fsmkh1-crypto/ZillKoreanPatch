@@ -29,6 +29,7 @@ func TestScanFindsSyntheticSubstitutionDispatcherShape(t *testing.T) {
 	if err != nil { t.Fatal(err) }
 	if len(got) != 1 { t.Fatalf("candidates=%d, want 1", len(got)) }
 	candidate := got[0]
+	if !candidate.Focus15Linked { t.Fatalf("Focus15Linked=false, reasons=%v", candidate.Reasons) }
 	if candidate.Score < 10 { t.Fatalf("score=%d reasons=%v", candidate.Score, candidate.Reasons) }
 	if candidate.FileOffset != 0x104 { t.Fatalf("file offset=%#x, want %#x", candidate.FileOffset, 0x104) }
 	if candidate.VirtualAddress != 0x08804004 { t.Fatalf("vaddr=%#x, want %#x", candidate.VirtualAddress, uint64(0x08804004)) }
@@ -40,6 +41,22 @@ func TestScanFindsSyntheticSubstitutionDispatcherShape(t *testing.T) {
 	for _, instruction := range candidate.Window { joined += instruction.Text + "\n" }
 	if !strings.Contains(joined, "addiu r6,r0,21") || !strings.Contains(joined, "sll r7,r5,2") {
 		t.Fatalf("decoded window missing focus evidence:\n%s", joined)
+	}
+}
+
+func TestScanRejectsPrefixPlusIncrementWithoutLinked15(t *testing.T) {
+	words := []uint32{
+		iType(0x24, 4, 2, 0),
+		iType(0x09, 0, 3, 2),
+		iType(0x05, 2, 3, 4),
+		iType(0x09, 4, 4, 1),
+		iType(0x09, 0, 6, 0x15), // colocated literal only; never compared with a byte-loaded register
+	}
+	data := syntheticELF32MIPS(encodeWords(words), uint32(elf.PF_R|elf.PF_X))
+	got, err := Scan(data)
+	if err != nil { t.Fatal(err) }
+	if len(got) != 0 {
+		t.Fatalf("candidates=%d, want 0 when scoreable prefix+increment lacks linked $15 evidence: %#v", len(got), got)
 	}
 }
 
