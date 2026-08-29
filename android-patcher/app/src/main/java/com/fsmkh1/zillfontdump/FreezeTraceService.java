@@ -50,8 +50,16 @@ public final class FreezeTraceService extends Service {
     private static final long HOT_PC_MAX = 0x08966260L;
     private static final int HOT_LOOP_SAMPLES = 3;
     private static final long HOT_A1_MIN_ADVANCE = 0x1000L;
-    private static final long HOT_DISASM_START = 0x089661E0L;
-    private static final int HOT_DISASM_COUNT = 40;
+
+    // Capture enough code before the hot window to include loop setup, a1/t2
+    // initialization and nearby branches, rather than only the tight body.
+    private static final long HOT_DISASM_START = 0x08966120L;
+    private static final int HOT_DISASM_COUNT = 96;
+
+    // ra was repeatedly observed as 0x0886C9C0. Capture the caller neighborhood
+    // as supporting evidence, without assuming it is the root cause.
+    private static final long CALLER_DISASM_START = 0x0886C940L;
+    private static final int CALLER_DISASM_COUNT = 64;
     private static final long HOT_EVIDENCE_INTERVAL_MS = 15000L;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
@@ -133,19 +141,33 @@ public final class FreezeTraceService extends Service {
             long lastTicks = -1;
             int sameTickCount = 0;
             boolean stallReported = false;
+
             int hotPcCount = 0;
             long hotA1Start = -1;
+            long hotT2Start = -1;
+            long hotT2Prev = -1;
+            long hotT2Max = -1;
+            int hotT2Resets = 0;
+            long hotEnteredAtMs = -1;
             long lastHotEvidenceMs = 0;
+            long hotEntryPrevPc = -1;
+            JSONObject hotEntryPrevGpr = null;
+
+            long previousPc = -1;
+            JSONObject previousGpr = null;
+
             while (!stopRequested) {
                 long now = System.currentTimeMillis();
                 try {
                     JSONObject cpu = request(writer, reader, requestId++, rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
                     JSONObject regs = request(writer, reader, requestId++, rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
                     JSONObject rawCpu = rawResponse(cpu);
+                    JSONObject currentGpr = selectedRegisters(regs);
 
                     long pc = findRegister(regs, "pc");
                     long sp = findRegister(regs, "sp");
                     long a1 = findRegister(regs, "a1");
+                    long t2 = findRegister(regs, "t2");
                     if (pc < 0) pc = rawCpu.optLong("pc", -1);
                     if (pc >= 0) lastPc = pc & 0xffffffffL;
                     if (sp >= 0) lastSp = sp & 0xffffffffL;
@@ -160,12 +182,32 @@ public final class FreezeTraceService extends Service {
                     lastTicks = ticks;
 
                     if (isHotPc(lastPc)) {
-                        if (hotPcCount == 0) hotA1Start = a1;
+                        if (hotPcCount == 0) {
+                            hotA1Start = a1;
+                            hotT2Start = t2;
+                            hotT2Prev = t2;
+                            hotT2Max = t2;
+                            hotT2Resets = 0;
+                            hotEnteredAtMs = now;
+                            hotEntryPrevPc = previousPc;
+                            hotEntryPrevGpr = previousGpr == null ? null : new JSONObject(previousGpr.toString());
+                        } else if (t2 >= 0) {
+                            if (hotT2Prev >= 0 && Long.compareUnsigned(t2, hotT2Prev) < 0) hotT2Resets++;
+                            if (hotT2Max < 0 || Long.compareUnsigned(t2, hotT2Max) > 0) hotT2Max = t2;
+                            hotT2Prev = t2;
+                        }
                         hotPcCount++;
                     } else {
                         hotPcCount = 0;
                         hotA1Start = -1;
+                        hotT2Start = -1;
+                        hotT2Prev = -1;
+                        hotT2Max = -1;
+                        hotT2Resets = 0;
+                        hotEnteredAtMs = -1;
                         lastHotEvidenceMs = 0;
+                        hotEntryPrevPc = -1;
+                        hotEntryPrevGpr = null;
                     }
 
                     JSONObject sample = new JSONObject();
@@ -174,7 +216,7 @@ public final class FreezeTraceService extends Service {
                     if (lastPc >= 0) sample.put("pc", hex32(lastPc));
                     if (lastSp >= 0) sample.put("sp", hex32(lastSp));
                     sample.put("cpu", rawCpu);
-                    sample.put("gpr", selectedRegisters(regs));
+                    sample.put("gpr", currentGpr);
                     appendSample(sample.toString());
 
                     if (hotPcCount >= HOT_LOOP_SAMPLES && a1 >= 0 && hotA1Start >= 0
@@ -186,40 +228,59 @@ public final class FreezeTraceService extends Service {
                         evidence.put("pc_window_start", hex32(HOT_PC_MIN));
                         evidence.put("pc_window_end", hex32(HOT_PC_MAX));
                         evidence.put("samples_in_window", hotPcCount);
+                        if (hotEnteredAtMs >= 0) evidence.put("hot_elapsed_ms", now - hotEnteredAtMs);
+
                         evidence.put("a1_start", hex32(hotA1Start));
                         evidence.put("a1_now", hex32(a1));
                         evidence.put("a1_advance", hex32(unsignedAdvance(hotA1Start, a1)));
-                        evidence.put("gpr", selectedRegisters(regs));
 
-                        JSONObject disasmParams = new JSONObject();
-                        disasmParams.put("address", HOT_DISASM_START);
-                        disasmParams.put("count", HOT_DISASM_COUNT);
-                        disasmParams.put("displaySymbols", true);
-                        disasmParams.put("compact", false);
-                        try {
-                            JSONObject disasm = request(writer, reader, requestId++,
-                                    rawCommand("memory.disasm", disasmParams), RESPONSE_TIMEOUT_MS);
-                            evidence.put("disasm", rawResponse(disasm));
-                        } catch (Exception disasmError) {
-                            evidence.put("disasm_error", message(disasmError));
+                        if (hotT2Start >= 0) evidence.put("t2_start", hex32(hotT2Start));
+                        if (t2 >= 0) evidence.put("t2_now", hex32(t2));
+                        if (hotT2Start >= 0 && t2 >= 0) evidence.put("t2_unsigned_delta", hex32(unsignedAdvance(hotT2Start, t2)));
+                        if (hotT2Max >= 0) evidence.put("t2_max", hex32(hotT2Max));
+                        evidence.put("t2_decrease_count", hotT2Resets);
+
+                        if (hotEntryPrevPc >= 0) evidence.put("entry_prev_pc", hex32(hotEntryPrevPc));
+                        if (hotEntryPrevGpr != null) evidence.put("entry_prev_gpr", hotEntryPrevGpr);
+                        evidence.put("gpr", currentGpr);
+
+                        tryDisasm(writer, reader, requestId++, evidence, "loop_and_setup_disasm",
+                                HOT_DISASM_START, HOT_DISASM_COUNT);
+                        tryDisasm(writer, reader, requestId++, evidence, "caller_disasm",
+                                CALLER_DISASM_START, CALLER_DISASM_COUNT);
+
+                        if (a1 >= 0) {
+                            JSONObject a1ReadParams = new JSONObject();
+                            long a1ReadStart = a1 & 0xfffffff0L;
+                            a1ReadParams.put("address", a1ReadStart);
+                            a1ReadParams.put("size", 64);
+                            try {
+                                JSONObject a1Memory = request(writer, reader, requestId++,
+                                        rawCommand("memory.read", a1ReadParams), RESPONSE_TIMEOUT_MS);
+                                evidence.put("a1_memory_start", hex32(a1ReadStart));
+                                evidence.put("a1_memory", rawResponse(a1Memory));
+                            } catch (Exception readError) {
+                                evidence.put("a1_memory_error", message(readError));
+                            }
                         }
 
-                        JSONObject a1ReadParams = new JSONObject();
-                        long a1ReadStart = a1 & 0xfffffff0L;
-                        a1ReadParams.put("address", a1ReadStart);
-                        a1ReadParams.put("size", 64);
-                        try {
-                            JSONObject a1Memory = request(writer, reader, requestId++,
-                                    rawCommand("memory.read", a1ReadParams), RESPONSE_TIMEOUT_MS);
-                            evidence.put("a1_memory_start", hex32(a1ReadStart));
-                            evidence.put("a1_memory", rawResponse(a1Memory));
-                        } catch (Exception readError) {
-                            evidence.put("a1_memory_error", message(readError));
+                        if (lastSp >= 0) {
+                            JSONObject stackParams = new JSONObject();
+                            stackParams.put("address", lastSp);
+                            stackParams.put("size", 128);
+                            try {
+                                JSONObject stackMemory = request(writer, reader, requestId++,
+                                        rawCommand("memory.read", stackParams), RESPONSE_TIMEOUT_MS);
+                                evidence.put("stack_memory_start", hex32(lastSp));
+                                evidence.put("stack_memory", rawResponse(stackMemory));
+                            } catch (Exception readError) {
+                                evidence.put("stack_memory_error", message(readError));
+                            }
                         }
 
                         appendSample(evidence.toString());
                         lastHotEvidenceMs = now;
-                        updateNotification("PPSSPP 무한 탐색 루프 감지 · 명령어/메모리 보존");
+                        updateNotification("PPSSPP 장기 탐색 루프 감지 · a1/t2/진입상태 보존");
                     }
 
                     if (!stallReported && sameTickCount >= STALL_SAMPLES) {
@@ -230,11 +291,14 @@ public final class FreezeTraceService extends Service {
                         if (ticks >= 0) stall.put("ticks", ticks);
                         if (lastPc >= 0) stall.put("pc", hex32(lastPc));
                         if (lastSp >= 0) stall.put("sp", hex32(lastSp));
-                        stall.put("gpr", selectedRegisters(regs));
+                        stall.put("gpr", currentGpr);
                         appendSample(stall.toString());
                         stallReported = true;
                         updateNotification("PPSSPP CPU 정지 감지 · 제어흐름 레지스터 보존");
                     }
+
+                    previousPc = lastPc;
+                    previousGpr = new JSONObject(currentGpr.toString());
                 } catch (TimeoutException e) {
                     JSONObject timeout = new JSONObject();
                     timeout.put("event", "sample_timeout");
@@ -253,6 +317,22 @@ public final class FreezeTraceService extends Service {
             Process p = process;
             process = null;
             if (p != null) p.destroy();
+        }
+    }
+
+    private static void tryDisasm(BufferedWriter writer, BufferedReader reader, int requestId,
+                                  JSONObject evidence, String key, long address, int count) {
+        try {
+            JSONObject params = new JSONObject();
+            params.put("address", address);
+            params.put("count", count);
+            params.put("displaySymbols", true);
+            params.put("compact", false);
+            JSONObject disasm = request(writer, reader, requestId,
+                    rawCommand("memory.disasm", params), RESPONSE_TIMEOUT_MS);
+            evidence.put(key, rawResponse(disasm));
+        } catch (Exception error) {
+            try { evidence.put(key + "_error", message(error)); } catch (Exception ignored) {}
         }
     }
 
