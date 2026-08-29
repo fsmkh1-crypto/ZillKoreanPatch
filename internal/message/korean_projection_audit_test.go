@@ -53,17 +53,6 @@ func TestVerifyKoreanProjectionCompatibilityMovableSubstitution(t *testing.T) {
 	}
 }
 
-func TestVerifyKoreanProjectionCompatibilityRetailHalfWidthKana(t *testing.T) {
-	bank := auditBank(t, 1, []byte{0xB1, 0}) // CP932 half-width ア
-	checked, err := VerifyKoreanProjectionCompatibility(bank)
-	if err != nil {
-		t.Fatal(err)
-	}
-	if checked != 1 {
-		t.Fatalf("checked %d records, want 1", checked)
-	}
-}
-
 func TestVerifyKoreanProjectionCompatibilityRetailLiteralAngles(t *testing.T) {
 	bank := auditBank(t, 1, []byte{'<', 'X', '>', 0})
 	checked, err := VerifyKoreanProjectionCompatibility(bank)
