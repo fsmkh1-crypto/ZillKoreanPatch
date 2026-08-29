@@ -34,7 +34,7 @@ jobs:
           grep -q 'cpu.breakpoint.add' "$TRACE"
           grep -q 'pointer_boundary_capture' "$TRACE"
           ! grep -q 'BACKEND_DISASM_START' "$TRACE"
-          ! grep -q 'sed -i' .github/workflows/android-extractor.yml
+          ! grep -q 'ALLOCATOR_CANDIDATE_DISASM_START' "$TRACE"
 
       - uses: actions/setup-go@v7
         with:
