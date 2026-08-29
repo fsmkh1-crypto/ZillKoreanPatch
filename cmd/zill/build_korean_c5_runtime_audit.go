@@ -22,7 +22,7 @@ func auditC5RuntimeCandidates(gameDir string) error {
 		return err
 	}
 	retailDigest := sha256.Sum256(retailEBOOT)
-	fmt.Printf("FORENSIC RETAIL_EBOOT_BINDING sha256=%x bytes=%d retail_preflight_input=true authentication_contract_unverified_here=true\n", retailDigest, len(retailEBOOT))
+	fmt.Printf("FORENSIC RETAIL_EBOOT_BINDING sha256=%x bytes=%d retail_preflight_input=true authenticated_by_sha256_pin=true expected_sha256=%s\n", retailDigest, len(retailEBOOT), retailEBOOTSHA256)
 
 	candidates, err := c5scan.Scan(retailEBOOT)
 	if err != nil {
