@@ -90,19 +90,20 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta H0 slot allocation: %w", err)
 	}
-	audit, err := auditMobileExactByteReuse(plan,
-		slotAuditBlob{Name: "BOOT.BIN", Data: boot},
-		slotAuditBlob{Name: "EBOOT.BIN", Data: eboot},
-		slotAuditBlob{Name: "bindata.dat", Data: bindata},
-	)
+	blobs := []slotAuditBlob{
+		{Name: "BOOT.BIN", Data: boot},
+		{Name: "EBOOT.BIN", Data: eboot},
+		{Name: "bindata.dat", Data: bindata},
+	}
+	audit, err := auditMobileExactByteReuse(plan, blobs...)
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_AUDIT candidates=%d exact_hit_candidates=%d mapped_hit_records=%d\n",
+	fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_AUDIT phase=h0 candidates=%d exact_hit_candidates=%d mapped_hit_records=%d\n",
 		len(plan.Candidates), audit.CandidateHits, len(audit.MappedHits))
 	for _, hit := range audit.MappedHits {
 		encoded, _ := hit.Key.Bytes()
-		fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_MAPPING rune=%q unicode=%U key=%02X %02X blob=%s offsets=%v\n",
+		fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_MAPPING phase=h0 rune=%q unicode=%U key=%02X %02X blob=%s offsets=%v\n",
 			string(hit.Rune), hit.Rune, encoded[0], encoded[1], hit.Blob, hit.Offsets)
 	}
 	h0Digest := mappingDigest(plan.Mapping)
@@ -151,6 +152,23 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 			string(r), r, oldBytes[0], oldBytes[1], oldNominal, newBytes[0], newBytes[1], newNominal)
 	}
 	plan.Mapping = mapping
+
+	// The H0 audit above is useful for historical comparison, but the ISO is
+	// built with the relocated mapping. Re-run exact-byte ownership against the
+	// final plan so a newly selected Minimal87 spare cannot escape the retail
+	// BOOT/EBOOT/BINDATA collision report merely because it was absent from H0.
+	finalAudit, err := auditMobileExactByteReuse(plan, blobs...)
+	if err != nil {
+		return koreanslots.Plan{}, 0, 0, err
+	}
+	fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_AUDIT phase=final candidates=%d exact_hit_candidates=%d mapped_hit_records=%d\n",
+		len(plan.Candidates), finalAudit.CandidateHits, len(finalAudit.MappedHits))
+	for _, hit := range finalAudit.MappedHits {
+		encoded, _ := hit.Key.Bytes()
+		fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_MAPPING phase=final rune=%q unicode=%U key=%02X %02X blob=%s offsets=%v\n",
+			string(hit.Rune), hit.Rune, encoded[0], encoded[1], hit.Blob, hit.Offsets)
+	}
+
 	finalDigest := mappingDigest(plan.Mapping)
 	fmt.Printf("FORENSIC MAPPING_FINGERPRINT h0_sha256=%s final_sha256=%s changed=%d fixed_korean=%d new_eboot_bundle=false\n",
 		h0Digest, finalDigest, relocated, len(fixedKorean))
