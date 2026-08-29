@@ -52,6 +52,7 @@ func TestDecodeRetainsCallsAndPointerMemoryOps(t *testing.T) {
 		{jType(0x02, 0x000abc00), "j 0xabc00"},
 		{rType(31, 0, 0, 0, 0x08), "jr r31"},
 		{rType(25, 0, 31, 0, 0x09), "jalr r31,r25"},
+		{iType(0x0f, 0, 14, 0x1234), "lui r14,0x1234"},
 		{iType(0x23, 4, 5, 16), "lw r5,16(r4)"},
 		{iType(0x2b, 6, 7, 32), "sw r7,32(r6)"},
 		{iType(0x21, 8, 9, 2), "lh r9,2(r8)"},
@@ -65,6 +66,12 @@ func TestDecodeRetainsCallsAndPointerMemoryOps(t *testing.T) {
 	}
 	if got, want := decodeAt(jType(0x03, 0x00123450), 0x81201234), "jal 0x80123450"; got != want {
 		t.Fatalf("decodeAt jump target=%q, want %q", got, want)
+	}
+	if got, want := decodeAt(iType(0x04, 2, 3, 2), 0x08804000), "beq r2,r3,0x880400c"; got != want {
+		t.Fatalf("decodeAt branch target=%q, want %q", got, want)
+	}
+	if got, want := decodeAt(iType(0x05, 2, 3, 0xffff), 0x08804000), "bne r2,r3,0x8804000"; got != want {
+		t.Fatalf("decodeAt negative branch target=%q, want %q", got, want)
 	}
 }
 
