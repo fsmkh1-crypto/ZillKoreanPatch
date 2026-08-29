@@ -135,13 +135,15 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 	}
 
 	tableEnd := uint64(4 + len(records)*4)
+	probeIndex := -1
+	probePadding := uint64(0)
 
 	// Runtime A/B probe: force one bank 001 record just beyond the uint16
 	// boundary, but choose the latest pre-boundary record that fits inside the
-	// real runtime slot. This keeps the experiment to one variable (absolute
-	// record position) without inflating an early record so much that ISO build
-	// fails before the game can be tested.
-	if bank.Section == 1 && len(records) > 1 {
+	// real runtime slot. Padding is an explicit unreferenced gap before the chosen
+	// payload rather than bytes appended to another record, so every record's
+	// semantic/control payload remains byte-identical to the non-probe build.
+	if bank.Section == 1 && len(records) > 0 {
 		baseSize := tableEnd
 		for _, record := range records {
 			baseSize += uint64(len(record))
@@ -153,30 +155,27 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		}
 
 		prefix := tableEnd
-		probeIndex := -1
 		probeOffset := uint64(0)
 		for index := 0; index < len(records); index++ {
-			if prefix < wide32BoundaryProbeTargetOffset {
-				padding := wide32BoundaryProbeTargetOffset - prefix
-				if index > 0 && padding <= headroom {
-					probeIndex = index
-					probeOffset = prefix
-				}
-			} else {
+			if prefix >= wide32BoundaryProbeTargetOffset {
 				break
+			}
+			padding := wide32BoundaryProbeTargetOffset - prefix
+			if padding <= headroom {
+				probeIndex = index
+				probeOffset = prefix
+				probePadding = padding
 			}
 			prefix += uint64(len(records[index]))
 		}
 		if probeIndex < 0 {
 			return nil, fmt.Errorf("%s: no bank001 record can be moved across 0xffff within runtime slot capacity (base=%d capacity=%d)", bank.Name, baseSize, capacity)
 		}
-		padding := wide32BoundaryProbeTargetOffset - probeOffset
-		records[probeIndex-1] = append(records[probeIndex-1], make([]byte, int(padding))...)
 		fmt.Printf("FORENSIC WIDE32_BOUNDARY bank=%s id=%d index=%d old_offset=0x%X new_offset=0x%X padding=%d base_size=%d final_size=%d capacity=%d\n",
-			bank.Name, bank.Records[probeIndex].ID, probeIndex, probeOffset, wide32BoundaryProbeTargetOffset, padding, baseSize, baseSize+padding, capacity)
+			bank.Name, bank.Records[probeIndex].ID, probeIndex, probeOffset, wide32BoundaryProbeTargetOffset, probePadding, baseSize, baseSize+probePadding, capacity)
 	}
 
-	position := tableEnd
+	position := tableEnd + probePadding
 	for _, record := range records {
 		position += uint64(len(record))
 	}
@@ -190,6 +189,9 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 	binary.LittleEndian.PutUint16(output, uint16(len(records)))
 	offset := tableEnd
 	for index, record := range records {
+		if index == probeIndex {
+			offset += probePadding
+		}
 		binary.LittleEndian.PutUint32(output[4+index*4:], uint32(offset))
 		copy(output[int(offset):], record)
 		offset += uint64(len(record))
