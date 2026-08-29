@@ -137,17 +137,14 @@ func (e *Engine) c5ViolationKorean(item corpus.Item, text string, mapping korean
 	for branch, leaf := range leaves {
 		dynamic = dynamic || leaf.dynamic
 		pages := []int{0}
-		breaks := 0
+		cursor := c5PageCursor{}
 		for _, b := range leaf.data {
-			if b == 10 {
-				breaks++
-				if breaks == c5LinesPerPage {
-					pages = append(pages, 0)
-					breaks = 0
-					continue
-				}
-			}
+			// The boundary line-break byte belongs to the page it terminates.
+			// Count it first, then move subsequent bytes to the next page.
 			pages[len(pages)-1]++
+			if cursor.addByte(b) {
+				pages = append(pages, 0)
+			}
 		}
 		if len(pages) > maxPages {
 			violations = append(violations, fmt.Sprintf("message %d branch %d has %d pages (maximum %d)", item.Record.ID, branch+1, len(pages), maxPages))
