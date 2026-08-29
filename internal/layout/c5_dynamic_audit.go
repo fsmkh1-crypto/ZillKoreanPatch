@@ -11,23 +11,34 @@ import (
 	"github.com/HK47196/zill/internal/message"
 )
 
-// C5KnownExpansionPage records the part of one C5 branch/page whose runtime
-// expansion is statically bounded by a contract already proven elsewhere.
-// UnknownSubstitutions are deliberately not assigned guessed byte lengths.
+// C5KnownExpansionPage records three deliberately separate byte domains for one
+// C5 branch/page. StoredBytes is the exact compiled payload, including inline
+// substitution opcodes such as 02 15. StaticBytes is the literal payload that
+// survives without assigning semantics to substitutions. KnownMaxBytes adds
+// only runtime maxima already proven elsewhere. Unknown substitutions are never
+// assigned guessed expansion lengths.
 type C5KnownExpansionPage struct {
 	MessageID           int
 	Branch              int
 	Page                int
+	StoredBytes          int
 	StaticBytes          int
 	KnownMaxBytes        int
 	PlayerNameCount      int
 	UnknownSubstitutions int
 }
 
-// ExceedsPageBuffer reports whether the statically materialized bytes plus only
-// the proven runtime maxima already reach/exceed the retail 256-byte C5 buffer.
+// ExceedsPageBuffer reports whether literal runtime bytes plus only proven
+// substitution maxima already reach/exceed the retained 256-byte C5 contract.
 func (p C5KnownExpansionPage) ExceedsPageBuffer() bool {
 	return p.KnownMaxBytes >= c5PageBufferCapacityBytes
+}
+
+// StoredHeadroomBytes reports distance from the exact compiled page payload to
+// 256 bytes. It is a bank-storage diagnostic only: it is not a runtime expansion
+// threshold because the runtime may replace, append, or stage substitution data.
+func (p C5KnownExpansionPage) StoredHeadroomBytes() int {
+	return c5PageBufferCapacityBytes - p.StoredBytes
 }
 
 type c5AuditEvent struct {
@@ -160,7 +171,7 @@ func walkC5Audit(tokens []corpus.Token, index int, prefix []c5AuditEvent) ([]c5A
 			if len(t.Raw) >= 2 && t.Raw[0] == 2 {
 				opcode = t.Raw[1]
 			}
-			out = append(out, c5AuditEvent{substitution: true, opcode: opcode})
+			out = append(out, c5AuditEvent{raw: append([]byte(nil), t.Raw...), substitution: true, opcode: opcode})
 		case "unknown_control":
 			if len(t.Raw) == 1 && t.Raw[0] == 0x7f {
 				out = append(out, c5AuditEvent{raw: append([]byte(nil), t.Raw...)})
@@ -179,6 +190,7 @@ func auditC5LeafPages(leaf c5AuditLeaf) []C5KnownExpansionPage {
 	for _, event := range leaf.events {
 		if event.substitution {
 			current := &pages[len(pages)-1]
+			current.StoredBytes += len(event.raw)
 			if event.opcode == 0x28 {
 				current.PlayerNameCount++
 				current.KnownMaxBytes += playerNameMaxEncodedBytes
@@ -189,6 +201,7 @@ func auditC5LeafPages(leaf c5AuditLeaf) []C5KnownExpansionPage {
 		}
 		for _, b := range event.raw {
 			current := &pages[len(pages)-1]
+			current.StoredBytes++
 			current.StaticBytes++
 			current.KnownMaxBytes++
 			if cursor.addByte(b) {
