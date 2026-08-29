@@ -26,7 +26,7 @@ import java.util.concurrent.Executors;
  * One-shot on-device PPSSPP CPU capture for the reproducible Korean-patch freeze.
  *
  * PPSSPP's WebSocket debugger is exposed on the same port as Remote ISO sharing.
- * Set a fixed Local Server Port in PPSSPP (34567 by default here), enable
+ * Set a fixed Local Server Port in PPSSPP (34500 by default here), enable
  * Settings > Tools > Developer Tools > Allow remote debugger, reproduce the
  * freeze, switch to this activity, and capture. Android may UI-pause PPSSPP
  * during the app switch; that stopped state is valid evidence and is read as-is.
@@ -56,7 +56,7 @@ public final class FreezeCaptureActivity extends Activity {
 
         TextView info = new TextView(this);
         info.setText("1) PPSSPP에서 설정 > 도구 > 개발자 도구 > '원격 디버거 허용'을 켭니다.\n"
-                + "2) PPSSPP의 로컬 서버 포트를 아래 값과 같게 고정합니다.\n"
+                + "2) PPSSPP의 로컬 서버 포트를 아래 값과 같게 고정합니다. (기본 34500)\n"
                 + "3) 한국어 패치 ISO에서 프리징을 재현합니다.\n"
                 + "4) 프리징 상태 그대로 이 앱으로 전환해 캡처합니다.\n\n"
                 + "캡처는 PSP PC/레지스터/PC 주변 명령/스택을 읽습니다. 앱 전환 때문에 PPSSPP가 이미 UI-pause된 경우 그 상태를 그대로 보존하고 읽습니다.");
@@ -68,7 +68,7 @@ public final class FreezeCaptureActivity extends Activity {
         portInput = new EditText(this);
         portInput.setHint("PPSSPP 로컬 서버 포트");
         portInput.setInputType(android.text.InputType.TYPE_CLASS_NUMBER);
-        portInput.setText("34567");
+        portInput.setText("34500");
         LinearLayout.LayoutParams portParams = new LinearLayout.LayoutParams(-1, -2);
         portParams.topMargin = pad;
         root.addView(portInput, portParams);
