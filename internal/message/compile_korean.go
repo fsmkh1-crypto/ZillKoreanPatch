@@ -34,7 +34,10 @@ var characterChoiceBufferDiagnostic = map[int]string{
 
 const opening210065SafeLayout = "광대한 대지 바이아시온 대륙.<line-break>너무나 넓어 지도에도 기록되지<line-break>않고 여행자에게조차 알려지지 않은<line-break>작은 마을이 있다…. 마을의 이름은<line-break>미이스. 그곳에는 작은 신전과 숲,<line-break>그리고 평온한 일상 정도뿐이었다.<line-break>위대한 혼의 이야기는<line-break>여기서 시작된다…….<end>"
 
-const wide32BoundaryProbeTargetOffset = uint64(0x10020)
+const (
+	wide32BoundaryProbeTargetID     = 10007
+	wide32BoundaryProbeTargetOffset = uint64(0x10020)
+)
 
 // CompileBankKorean compiles only explicitly supplied Korean replacements and
 // copies every other retail record unchanged. Semantic Korean must be layout-free;
@@ -138,41 +141,41 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 	probeIndex := -1
 	probePadding := uint64(0)
 
-	// Runtime A/B probe: force one bank 001 record just beyond the uint16
-	// boundary, but choose the latest pre-boundary record that fits inside the
-	// real runtime slot. Padding is an explicit unreferenced gap before the chosen
-	// payload rather than bytes appended to another record, so every record's
-	// semantic/control payload remains byte-identical to the non-probe build.
-	if bank.Section == 1 && len(records) > 0 {
-		baseSize := tableEnd
-		for _, record := range records {
-			baseSize += uint64(len(record))
-		}
-		capacity := uint64(RuntimeBankCapacity(bank.Section))
-		headroom := uint64(0)
-		if baseSize < capacity {
-			headroom = capacity - baseSize
-		}
-
-		prefix := tableEnd
-		probeOffset := uint64(0)
-		for index := 0; index < len(records); index++ {
-			if prefix >= wide32BoundaryProbeTargetOffset {
+	// Runtime A/B probe: on the real bank 001 only, move the explicit early-path
+	// record 10007 to 0x10020. The padding is an unreferenced gap immediately
+	// before 10007, so no record payload bytes are changed by this probe. Do not
+	// silently choose a later record: if 10007 cannot fit, fail closed because a
+	// different target would answer a different runtime question.
+	if bank.Section == 1 && bank.Name == "msgsec001.dat" {
+		for index, source := range bank.Records {
+			if source.ID == wide32BoundaryProbeTargetID {
+				probeIndex = index
 				break
 			}
-			padding := wide32BoundaryProbeTargetOffset - prefix
-			if padding <= headroom {
-				probeIndex = index
-				probeOffset = prefix
-				probePadding = padding
+		}
+		// Small synthetic unit-test banks also use the retail filename. They do not
+		// contain 10007 and therefore remain ordinary compiler fixtures.
+		if probeIndex >= 0 {
+			baseSize := tableEnd
+			for _, record := range records {
+				baseSize += uint64(len(record))
 			}
-			prefix += uint64(len(records[index]))
+			probeOffset := tableEnd
+			for index := 0; index < probeIndex; index++ {
+				probeOffset += uint64(len(records[index]))
+			}
+			if probeOffset >= wide32BoundaryProbeTargetOffset {
+				return nil, fmt.Errorf("%s: ID %d baseline offset is already 0x%X; boundary probe expected it below 0x%X", bank.Name, wide32BoundaryProbeTargetID, probeOffset, wide32BoundaryProbeTargetOffset)
+			}
+			probePadding = wide32BoundaryProbeTargetOffset - probeOffset
+			capacity := uint64(RuntimeBankCapacity(bank.Section))
+			finalSize := baseSize + probePadding
+			if finalSize > capacity {
+				return nil, fmt.Errorf("%s: forcing ID %d from 0x%X to 0x%X requires %d padding bytes and final size %d, exceeding runtime slot capacity %d by %d", bank.Name, wide32BoundaryProbeTargetID, probeOffset, wide32BoundaryProbeTargetOffset, probePadding, finalSize, capacity, finalSize-capacity)
+			}
+			fmt.Printf("FORENSIC WIDE32_BOUNDARY bank=%s id=%d index=%d old_offset=0x%X new_offset=0x%X padding=%d base_size=%d final_size=%d capacity=%d\n",
+				bank.Name, wide32BoundaryProbeTargetID, probeIndex, probeOffset, wide32BoundaryProbeTargetOffset, probePadding, baseSize, finalSize, capacity)
 		}
-		if probeIndex < 0 {
-			return nil, fmt.Errorf("%s: no bank001 record can be moved across 0xffff within runtime slot capacity (base=%d capacity=%d)", bank.Name, baseSize, capacity)
-		}
-		fmt.Printf("FORENSIC WIDE32_BOUNDARY bank=%s id=%d index=%d old_offset=0x%X new_offset=0x%X padding=%d base_size=%d final_size=%d capacity=%d\n",
-			bank.Name, bank.Records[probeIndex].ID, probeIndex, probeOffset, wide32BoundaryProbeTargetOffset, probePadding, baseSize, baseSize+probePadding, capacity)
 	}
 
 	position := tableEnd + probePadding
