@@ -52,6 +52,7 @@ public final class FreezeTraceService extends Service {
     private static final long HOT_A1_MIN_ADVANCE = 0x1000L;
     private static final long HOT_DISASM_START = 0x089661E0L;
     private static final int HOT_DISASM_COUNT = 40;
+    private static final long HOT_EVIDENCE_INTERVAL_MS = 15000L;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private volatile boolean stopRequested;
@@ -134,7 +135,7 @@ public final class FreezeTraceService extends Service {
             boolean stallReported = false;
             int hotPcCount = 0;
             long hotA1Start = -1;
-            boolean hotLoopReported = false;
+            long lastHotEvidenceMs = 0;
             while (!stopRequested) {
                 long now = System.currentTimeMillis();
                 try {
@@ -164,7 +165,7 @@ public final class FreezeTraceService extends Service {
                     } else {
                         hotPcCount = 0;
                         hotA1Start = -1;
-                        hotLoopReported = false;
+                        lastHotEvidenceMs = 0;
                     }
 
                     JSONObject sample = new JSONObject();
@@ -176,8 +177,9 @@ public final class FreezeTraceService extends Service {
                     sample.put("gpr", selectedRegisters(regs));
                     appendSample(sample.toString());
 
-                    if (!hotLoopReported && hotPcCount >= HOT_LOOP_SAMPLES && a1 >= 0 && hotA1Start >= 0
-                            && unsignedAdvance(hotA1Start, a1) >= HOT_A1_MIN_ADVANCE) {
+                    if (hotPcCount >= HOT_LOOP_SAMPLES && a1 >= 0 && hotA1Start >= 0
+                            && unsignedAdvance(hotA1Start, a1) >= HOT_A1_MIN_ADVANCE
+                            && (lastHotEvidenceMs == 0 || now - lastHotEvidenceMs >= HOT_EVIDENCE_INTERVAL_MS)) {
                         JSONObject evidence = new JSONObject();
                         evidence.put("event", "hot_loop_detected");
                         evidence.put("time_ms", System.currentTimeMillis());
@@ -194,9 +196,13 @@ public final class FreezeTraceService extends Service {
                         disasmParams.put("count", HOT_DISASM_COUNT);
                         disasmParams.put("displaySymbols", true);
                         disasmParams.put("compact", false);
-                        JSONObject disasm = request(writer, reader, requestId++,
-                                rawCommand("memory.disasm", disasmParams), RESPONSE_TIMEOUT_MS);
-                        evidence.put("disasm", rawResponse(disasm));
+                        try {
+                            JSONObject disasm = request(writer, reader, requestId++,
+                                    rawCommand("memory.disasm", disasmParams), RESPONSE_TIMEOUT_MS);
+                            evidence.put("disasm", rawResponse(disasm));
+                        } catch (Exception disasmError) {
+                            evidence.put("disasm_error", message(disasmError));
+                        }
 
                         JSONObject a1ReadParams = new JSONObject();
                         long a1ReadStart = a1 & 0xfffffff0L;
@@ -212,7 +218,7 @@ public final class FreezeTraceService extends Service {
                         }
 
                         appendSample(evidence.toString());
-                        hotLoopReported = true;
+                        lastHotEvidenceMs = now;
                         updateNotification("PPSSPP 무한 탐색 루프 감지 · 명령어/메모리 보존");
                     }
 
