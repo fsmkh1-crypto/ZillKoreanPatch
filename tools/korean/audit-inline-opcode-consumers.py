@@ -41,6 +41,12 @@ def inline_opcodes(text: str):
     return out
 
 
+def compact(text: str, limit: int = 160) -> str:
+    text = text.replace("\r", " ").replace("\n", " ").replace("\t", " ")
+    text = " ".join(text.split())
+    return text if len(text) <= limit else text[: limit - 1] + "…"
+
+
 def main() -> None:
     consumers = load_toml(ROOT / "release/layout/consumer-map.toml")
     c5 = id_set(consumers.get("c5_ids", []))
@@ -71,7 +77,8 @@ def main() -> None:
     c5_occurrences: collections.Counter[str] = collections.Counter()
     c5_record_ids: dict[str, set[int]] = collections.defaultdict(set)
     c5_categories: dict[str, collections.Counter[str]] = collections.defaultdict(collections.Counter)
-    focus_rows: dict[int, tuple[list[str], list[str], str]] = {}
+    focus_rows: dict[int, dict[str, object]] = {}
+    category_opcode_rows: dict[tuple[str, str], list[dict[str, object]]] = collections.defaultdict(list)
 
     for filename in sorted(glob.glob(str(ROOT / "translations/korean/messages/msgsec*.toml"))):
         data = load_toml(pathlib.Path(filename))
@@ -103,14 +110,23 @@ def main() -> None:
             if not labels:
                 labels.append("unmapped-by-audited-fixed-consumers")
             category = category_for(mid)
+            row = {
+                "id": mid,
+                "opcodes": opcodes,
+                "labels": labels,
+                "category": category,
+                "japanese": record.get("japanese") if isinstance(record.get("japanese"), str) else "",
+                "korean": text,
+            }
 
             if mid in FOCUS_IDS:
-                focus_rows[mid] = (opcodes, labels, category)
+                focus_rows[mid] = row
 
             for opcode in opcodes:
                 direct_occurrences[opcode] += 1
                 record_ids[opcode].add(mid)
                 occurrence_consumers[opcode].update(labels)
+                category_opcode_rows[(category, opcode)].append(row)
                 if mid in c5:
                     c5_occurrences[opcode] += 1
                     c5_record_ids[opcode].add(mid)
@@ -143,15 +159,40 @@ def main() -> None:
         if row is None:
             print(f"FOCUS_ID id={mid} inline_values=none-or-record-missing")
             continue
-        opcodes, labels, category = row
+        opcodes = row["opcodes"]
+        labels = row["labels"]
+        category = str(row["category"])
+        assert isinstance(opcodes, list)
+        assert isinstance(labels, list)
         print(
             f"FOCUS_ID id={mid} inline_opcodes=" + ",".join(f"${opcode}" for opcode in opcodes)
-            + " consumers=" + ",".join(labels)
+            + " consumers=" + ",".join(str(label) for label in labels)
             + f" category={category}"
         )
+        print(
+            f"FOCUS_TEXT id={mid} JP={compact(str(row['japanese']))!r} "
+            f"KO={compact(str(row['korean']))!r}"
+        )
+        for opcode in sorted(set(str(opcode) for opcode in opcodes)):
+            peers = category_opcode_rows[(category, opcode)]
+            unique_peers = {int(peer["id"]): peer for peer in peers}
+            ordered = [unique_peers[peer_id] for peer_id in sorted(unique_peers)]
+            ids = ",".join(str(peer["id"]) for peer in ordered[:40])
+            if len(ordered) > 40:
+                ids += ",..."
+            print(
+                f"FOCUS_CATEGORY_OPCODE id={mid} opcode=${opcode} category={category} "
+                f"occurrences={len(peers)} records={len(ordered)} ids={ids or '-'}"
+            )
+            for peer in ordered[:12]:
+                print(
+                    f"  FOCUS_PEER id={peer['id']} consumers={'+'.join(str(v) for v in peer['labels'])} "
+                    f"JP={compact(str(peer['japanese']), 120)!r} KO={compact(str(peer['korean']), 120)!r}"
+                )
 
     print("NOTE consumer labels may overlap; this report classifies corpus use, not runtime substitution source or maximum length")
     print("NOTE C5 membership comes from retained release/layout/consumer-map.toml evidence; it is not independent retail-runtime proof")
+    print("NOTE focus-category peers are semantic triage only; category co-membership does not prove a shared runtime source or buffer")
 
 
 if __name__ == "__main__":
