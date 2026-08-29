@@ -15,13 +15,13 @@ import (
 // expansion is statically bounded by a contract already proven elsewhere.
 // UnknownSubstitutions are deliberately not assigned guessed byte lengths.
 type C5KnownExpansionPage struct {
-	MessageID            int
-	Branch               int
-	Page                 int
-	StaticBytes           int
-	KnownMaxBytes         int
-	PlayerNameCount       int
-	UnknownSubstitutions  int
+	MessageID           int
+	Branch              int
+	Page                int
+	StaticBytes          int
+	KnownMaxBytes        int
+	PlayerNameCount      int
+	UnknownSubstitutions int
 }
 
 // ExceedsPageBuffer reports whether the statically materialized bytes plus only
@@ -117,21 +117,17 @@ func walkC5Audit(tokens []corpus.Token, index int, prefix []c5AuditEvent) ([]c5A
 				return nil, err
 			}
 			no, err := walkC5Audit(tokens, term+1, out)
-			return append(yes, no...), err
+			if err != nil {
+				return nil, err
+			}
+			return append(yes, no...), nil
 		case "select":
 			if index+1 >= len(tokens) || tokens[index+1].Kind != "expression" {
 				return nil, fmt.Errorf("select lacks expression")
 			}
-			arms := 0
-			sink := false
-			expr := tokens[index+1].Raw
-			if len(expr) >= 4 && expr[0] == 2 && expr[1] == 0x20 && expr[2] == '%' {
-				fmt.Sscanf(string(expr[3:]), "%d", &arms)
-			} else if len(expr) == 2 && expr[0] == 2 && expr[1] == 0x33 {
-				arms = 8
-				sink = true
-			} else {
-				return nil, fmt.Errorf("unsupported select expression")
+			arms, sink, err := c5SelectShape(tokens[index+1].Raw)
+			if err != nil {
+				return nil, err
 			}
 			cursor := index + 2
 			var leaves []c5AuditLeaf
@@ -179,7 +175,7 @@ func walkC5Audit(tokens []corpus.Token, index int, prefix []c5AuditEvent) ([]c5A
 
 func auditC5LeafPages(leaf c5AuditLeaf) []C5KnownExpansionPage {
 	pages := []C5KnownExpansionPage{{}}
-	breaks := 0
+	cursor := c5PageCursor{}
 	for _, event := range leaf.events {
 		if event.substitution {
 			current := &pages[len(pages)-1]
@@ -192,17 +188,12 @@ func auditC5LeafPages(leaf c5AuditLeaf) []C5KnownExpansionPage {
 			continue
 		}
 		for _, b := range event.raw {
-			if b == 10 {
-				breaks++
-				if breaks == c5LinesPerPage {
-					pages = append(pages, C5KnownExpansionPage{})
-					breaks = 0
-					continue
-				}
-			}
 			current := &pages[len(pages)-1]
 			current.StaticBytes++
 			current.KnownMaxBytes++
+			if cursor.addByte(b) {
+				pages = append(pages, C5KnownExpansionPage{})
+			}
 		}
 	}
 	return pages
