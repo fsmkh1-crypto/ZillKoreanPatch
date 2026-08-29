@@ -11,6 +11,7 @@ import (
 
 func iType(op, rs, rt uint32, imm uint16) uint32 { return op<<26 | rs<<21 | rt<<16 | uint32(imm) }
 func rType(rs, rt, rd, sh, fn uint32) uint32 { return rs<<21 | rt<<16 | rd<<11 | sh<<6 | fn }
+func jType(op, target uint32) uint32 { return op<<26 | ((target >> 2) & 0x03ffffff) }
 
 func TestScanFindsSyntheticSubstitutionDispatcherShape(t *testing.T) {
 	words := []uint32{
@@ -42,6 +43,28 @@ func TestScanFindsSyntheticSubstitutionDispatcherShape(t *testing.T) {
 	}
 }
 
+func TestDecodeRetainsCallsAndPointerMemoryOps(t *testing.T) {
+	tests := []struct {
+		word uint32
+		want string
+	}{
+		{jType(0x03, 0x00123450), "jal 0x123450"},
+		{jType(0x02, 0x000abc00), "j 0xabc00"},
+		{rType(31, 0, 0, 0, 0x08), "jr r31"},
+		{rType(25, 0, 31, 0, 0x09), "jalr r31,r25"},
+		{iType(0x23, 4, 5, 16), "lw r5,16(r4)"},
+		{iType(0x2b, 6, 7, 32), "sw r7,32(r6)"},
+		{iType(0x21, 8, 9, 2), "lh r9,2(r8)"},
+		{iType(0x25, 10, 11, 4), "lhu r11,4(r10)"},
+		{iType(0x29, 12, 13, 6), "sh r13,6(r12)"},
+	}
+	for _, tt := range tests {
+		if got := decode(tt.word); got != tt.want {
+			t.Fatalf("decode(%#08x)=%q, want %q", tt.word, got, tt.want)
+		}
+	}
+}
+
 func TestScanRejectsColocatedButRegisterUnlinkedLiterals(t *testing.T) {
 	words := []uint32{
 		iType(0x09, 0, 3, 2),      // literal 2 in r3
@@ -69,7 +92,7 @@ func TestScanRequiresLiteralConstructionFromZeroRegister(t *testing.T) {
 	data := syntheticELF32MIPS(encodeWords(words), uint32(elf.PF_R|elf.PF_X))
 	got, err := Scan(data)
 	if err != nil { t.Fatal(err) }
-	if len(got) != 0 { t.Fatalf("candidates=%d, want 0 when immediate 2 is not constructed from r0", len(got)) }
+	if len(got) != 0 { t.Fatalf("candidates=%d, want 0 when immediate 2 is not constructed from r0", len(got), got) }
 }
 
 func TestScanIgnoresNonExecutableSegment(t *testing.T) {
