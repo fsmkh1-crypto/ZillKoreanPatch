@@ -67,6 +67,11 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	for _, row := range korean.Entries {
 		if row.Layout != "" { layouts[row.ID] = row.Layout }
 	}
+	engine, err := loadLayout(root)
+	if err != nil { return result, err }
+	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return result, err }
+	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedC5)
 	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
 	if err != nil {
 		return result, err
@@ -78,8 +83,6 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	// supported game's player-name/chronicle contract. This report deliberately
 	// does not fail the production build until the C5 runtime staging path is
 	// independently proven to use this same 256-byte destination directly.
-	engine, err := loadLayout(root)
-	if err != nil { return result, err }
 	knownPages, err := engine.KoreanC5KnownExpansionPages(source, korean, layouts, plan.Mapping)
 	if err != nil { return result, err }
 	knownOverflows := 0
