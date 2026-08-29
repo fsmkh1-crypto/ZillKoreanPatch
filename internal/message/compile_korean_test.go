@@ -147,7 +147,7 @@ func TestCompileBankKoreanMaterializes210065EightLineDiagnostic(t *testing.T) {
 	items := []corpus.Item{{Record: source, Translation: corpus.Translation{ID: source.ID, State: corpus.Todo}}}
 
 	mapping := make(koreanslots.Mapping)
-	next := uint16(0xAC82)
+	trail := uint16(0x40)
 	for _, r := range semantic {
 		if r < '가' || r > '힣' {
 			continue
@@ -155,8 +155,11 @@ func TestCompileBankKoreanMaterializes210065EightLineDiagnostic(t *testing.T) {
 		if _, ok := mapping[r]; ok {
 			continue
 		}
-		mapping[r] = cp932.GlyphKey(next)
-		next++
+		if trail == 0x7F {
+			trail++
+		}
+		mapping[r] = cp932.GlyphKey(trail<<8 | 0x82)
+		trail++
 	}
 
 	compiled, err := message.CompileBankKorean(bank, items, map[int]message.KoreanRecord{
