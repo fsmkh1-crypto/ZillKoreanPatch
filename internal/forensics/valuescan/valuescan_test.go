@@ -92,7 +92,7 @@ func TestScanRequiresLiteralConstructionFromZeroRegister(t *testing.T) {
 	data := syntheticELF32MIPS(encodeWords(words), uint32(elf.PF_R|elf.PF_X))
 	got, err := Scan(data)
 	if err != nil { t.Fatal(err) }
-	if len(got) != 0 { t.Fatalf("candidates=%d, want 0 when immediate 2 is not constructed from r0", len(got), got) }
+	if len(got) != 0 { t.Fatalf("candidates=%d, want 0 when immediate 2 is not constructed from r0", len(got)) }
 }
 
 func TestScanIgnoresNonExecutableSegment(t *testing.T) {
