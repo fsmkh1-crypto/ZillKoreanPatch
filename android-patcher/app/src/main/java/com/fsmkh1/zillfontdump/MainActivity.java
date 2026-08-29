@@ -34,6 +34,7 @@ public final class MainActivity extends Activity {
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private TextView status;
     private Button chooseButton;
+    private Button preflightButton;
     private Button patchButton;
     private Button copyLogButton;
     private Uri sourceUri;
@@ -56,7 +57,7 @@ public final class MainActivity extends Activity {
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n앱 업데이트 시 내장 한국어 데이터 버전을 확인하여 변경된 데이터는 자동으로 다시 준비합니다.");
+        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본과 현재 한글 폰트/실행파일 패치를 사용합니다.\n'RETAIL 진단만 실행'은 결과 ISO를 만들지 않고 인증·은행 바인딩·슬롯/충돌·C5/PR14·폰트·실행파일 정적 검증까지만 수행합니다.\n실제 패치는 원본 ISO를 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n앱 업데이트 시 내장 한국어 데이터 버전을 확인하여 변경된 데이터는 자동으로 다시 준비합니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -68,6 +69,14 @@ public final class MainActivity extends Activity {
         LinearLayout.LayoutParams buttonParams = new LinearLayout.LayoutParams(-1, -2);
         buttonParams.topMargin = pad;
         root.addView(chooseButton, buttonParams);
+
+        preflightButton = new Button(this);
+        preflightButton.setText("RETAIL 진단만 실행");
+        preflightButton.setEnabled(false);
+        preflightButton.setOnClickListener(v -> runForensicPreflight());
+        LinearLayout.LayoutParams preflightParams = new LinearLayout.LayoutParams(-1, -2);
+        preflightParams.topMargin = pad / 2;
+        root.addView(preflightButton, preflightParams);
 
         patchButton = new Button(this);
         patchButton.setText("한국어 BETA ISO 만들기");
@@ -127,10 +136,93 @@ public final class MainActivity extends Activity {
                 FontExtractor.Inspection checked = FontExtractor.inspect(channel);
                 inspection = checked;
                 runOnUiThread(() -> setBusy(false,
-                        "검증 완료: " + checked.discId + " v" + checked.version + ". 아래 버튼으로 Beta ISO를 만드세요."));
+                        "검증 완료: " + checked.discId + " v" + checked.version + ". 먼저 RETAIL 진단만 실행할 수 있습니다."));
             } catch (Exception e) {
                 inspection = null;
                 runOnUiThread(() -> setBusy(false, "검증 실패: " + message(e)));
+            }
+        });
+    }
+
+    private void runForensicPreflight() {
+        if (sourceUri == null || inspection == null) {
+            status.setText("먼저 지원되는 원본 ISO를 선택하고 검증해야 합니다.");
+            return;
+        }
+
+        lastForensicLog = "";
+        copyLogButton.setEnabled(false);
+        setBusy(true, "RETAIL asset-backed 진단 준비 중…");
+        Uri inputUri = sourceUri;
+        FontExtractor.Inspection checked = inspection;
+        worker.execute(() -> {
+            StringBuilder forensic = new StringBuilder();
+            File session = new File(getCacheDir(), "korean-preflight-" + System.nanoTime());
+            try {
+                if (!session.mkdirs()) throw new IllegalStateException("임시 작업 폴더를 만들 수 없습니다.");
+                File rootDir = ensureProjectAssets();
+                File source = new File(session, "source.iso");
+                File work = new File(session, "work");
+
+                updateStatus("원본 ISO를 진단 작업공간으로 복사 중…");
+                copyUriToFile(inputUri, source);
+                if (source.length() != checked.isoSize) {
+                    throw new IllegalStateException("복사된 ISO 크기가 검증 값과 다릅니다.");
+                }
+
+                File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
+                if (!executable.isFile()) {
+                    throw new IllegalStateException("내장 Korean builder를 찾을 수 없습니다: " + executable);
+                }
+
+                updateStatus("인증된 retail 정적 preflight 실행 중…");
+                ProcessBuilder builder = new ProcessBuilder(
+                        executable.getAbsolutePath(),
+                        "build-korean-iso",
+                        "--iso", source.getAbsolutePath(),
+                        "--work-dir", work.getAbsolutePath(),
+                        "--version", "mobile-beta-0.9.8",
+                        "--preflight-only");
+                builder.directory(rootDir);
+                builder.redirectErrorStream(true);
+                Process process = builder.start();
+                Deque<String> tail = new ArrayDeque<>();
+                try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
+                    String line;
+                    while ((line = reader.readLine()) != null) {
+                        if (tail.size() == 12) tail.removeFirst();
+                        tail.addLast(line);
+                        if (line.startsWith("FORENSIC")) {
+                            forensic.append(line).append('\n');
+                        }
+                        updateStatus(line);
+                    }
+                }
+                int exit = process.waitFor();
+                if (exit != 0) {
+                    throw new IllegalStateException("Retail preflight 실패(" + exit + "): " + String.join(" | ", tail));
+                }
+
+                final String captured = forensic.toString().trim();
+                runOnUiThread(() -> {
+                    lastForensicLog = captured;
+                    copyLogButton.setEnabled(!captured.isEmpty());
+                    String logStatus = captured.isEmpty()
+                            ? " 진단 로그는 생성되지 않았습니다."
+                            : " '진단 로그 복사' 버튼으로 결과를 복사할 수 있습니다.";
+                    setBusy(false, "RETAIL asset-backed preflight 완료. 결과 ISO는 생성하지 않았습니다." + logStatus);
+                });
+            } catch (Exception e) {
+                final String error = message(e);
+                final String captured = forensic.toString().trim();
+                runOnUiThread(() -> {
+                    lastForensicLog = captured;
+                    copyLogButton.setEnabled(!captured.isEmpty());
+                    String logStatus = captured.isEmpty() ? "" : " 생성된 진단 로그는 복사할 수 있습니다.";
+                    setBusy(false, "RETAIL 진단 실패: " + error + logStatus);
+                });
+            } finally {
+                deleteRecursively(session);
             }
         });
     }
@@ -385,6 +477,7 @@ public final class MainActivity extends Activity {
 
     private void setBusy(boolean busy, String text) {
         chooseButton.setEnabled(!busy);
+        preflightButton.setEnabled(!busy && inspection != null);
         patchButton.setEnabled(!busy && inspection != null);
         status.setText(text);
     }
