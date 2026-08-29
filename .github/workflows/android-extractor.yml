@@ -1,4 +1,4 @@
-name: Android PPSSPP manual freeze capture
+name: Android PPSSPP persistent manual freeze capture
 
 on:
   workflow_dispatch:
@@ -22,13 +22,16 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Verify manual capture source
+      - name: Verify persistent manual capture source
         shell: bash
         run: |
           set -euo pipefail
           TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
           UI=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeCaptureActivity.java
+          grep -q 'ACTION_CONNECT' "$TRACE"
           grep -q 'ACTION_CAPTURE_NOW' "$TRACE"
+          grep -q 'ACTION_DISCONNECT' "$TRACE"
+          grep -q 'connection_reused' "$TRACE"
           grep -q 'manual_freeze_capture' "$TRACE"
           grep -q 'INLINE_PAGE_OFFSET = 0x2C0L' "$TRACE"
           grep -q 'INLINE_DUMP_SIZE = 0x120' "$TRACE"
@@ -39,6 +42,7 @@ jobs:
           grep -q 'slot_plus_3c0_word' "$TRACE"
           ! grep -q 'cpu.breakpoint.add' "$TRACE"
           ! grep -q 'waitForStoppedPc' "$TRACE"
+          grep -q '연결 유지 시작' "$UI"
           grep -q '지금 상태 수동 캡처' "$UI"
 
       - uses: actions/setup-go@v7
@@ -70,7 +74,7 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - name: Build manual capture APK
+      - name: Build persistent manual capture APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
 
       - name: Verify capture APK
@@ -85,7 +89,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-manual-freeze-capture-debug
+          name: zill-persistent-manual-freeze-capture-debug
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
