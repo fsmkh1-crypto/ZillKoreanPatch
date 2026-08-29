@@ -226,6 +226,7 @@ func shamt(w uint32) uint32  { return (w >> 6) & 0x1f }
 func funct(w uint32) uint32  { return w & 0x3f }
 func simm(w uint32) int16    { return int16(w) }
 func uimm(w uint32) uint16   { return uint16(w) }
+func jtarget(w uint32) uint32 { return (w & 0x03ffffff) << 2 }
 
 func loadsLiteral(w uint32, value uint16) bool {
 	// The zero-register source makes these actual literal constructions rather
@@ -246,6 +247,10 @@ func isEqualityBranch(w uint32) bool { return opcode(w) == 0x04 || opcode(w) == 
 
 func decode(w uint32) string {
 	switch opcode(w) {
+	case 0x02:
+		return fmt.Sprintf("j 0x%x", jtarget(w))
+	case 0x03:
+		return fmt.Sprintf("jal 0x%x", jtarget(w))
 	case 0x08:
 		return fmt.Sprintf("addi r%d,r%d,%d", rt(w), rs(w), simm(w))
 	case 0x09:
@@ -262,10 +267,20 @@ func decode(w uint32) string {
 		return fmt.Sprintf("xori r%d,r%d,0x%x", rt(w), rs(w), uimm(w))
 	case 0x20:
 		return fmt.Sprintf("lb r%d,%d(r%d)", rt(w), simm(w), rs(w))
+	case 0x21:
+		return fmt.Sprintf("lh r%d,%d(r%d)", rt(w), simm(w), rs(w))
+	case 0x23:
+		return fmt.Sprintf("lw r%d,%d(r%d)", rt(w), simm(w), rs(w))
 	case 0x24:
 		return fmt.Sprintf("lbu r%d,%d(r%d)", rt(w), simm(w), rs(w))
+	case 0x25:
+		return fmt.Sprintf("lhu r%d,%d(r%d)", rt(w), simm(w), rs(w))
 	case 0x28:
 		return fmt.Sprintf("sb r%d,%d(r%d)", rt(w), simm(w), rs(w))
+	case 0x29:
+		return fmt.Sprintf("sh r%d,%d(r%d)", rt(w), simm(w), rs(w))
+	case 0x2b:
+		return fmt.Sprintf("sw r%d,%d(r%d)", rt(w), simm(w), rs(w))
 	case 0x04:
 		return fmt.Sprintf("beq r%d,r%d,%d", rs(w), rt(w), simm(w))
 	case 0x05:
@@ -275,8 +290,13 @@ func decode(w uint32) string {
 	case 0x07:
 		return fmt.Sprintf("bgtz r%d,%d", rs(w), simm(w))
 	case 0:
-		if funct(w) == 0 {
+		switch funct(w) {
+		case 0:
 			return fmt.Sprintf("sll r%d,r%d,%d", rd(w), rt(w), shamt(w))
+		case 0x08:
+			return fmt.Sprintf("jr r%d", rs(w))
+		case 0x09:
+			return fmt.Sprintf("jalr r%d,r%d", rd(w), rs(w))
 		}
 	}
 	return fmt.Sprintf("word 0x%08x", w)
