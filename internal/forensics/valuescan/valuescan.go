@@ -64,6 +64,7 @@ func Scan(data []byte) ([]Candidate, error) {
 			if c.Score >= 6 {
 				out = append(out, c)
 			}
+		}
 	}
 	sort.Slice(out, func(i, j int) bool {
 		if out[i].Score != out[j].Score {
