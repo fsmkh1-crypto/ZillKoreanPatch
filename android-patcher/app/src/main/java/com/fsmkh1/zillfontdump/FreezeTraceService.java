@@ -41,6 +41,7 @@ public final class FreezeTraceService extends Service {
     private static final int SAMPLE_INTERVAL_MS = 500;
     private static final int RESPONSE_TIMEOUT_MS = 1500;
     private static final int MAX_SAMPLES = 60; // about 30 seconds
+    private static final int STALL_SAMPLES = 3;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private volatile boolean stopRequested;
@@ -113,38 +114,58 @@ public final class FreezeTraceService extends Service {
                 throw new IllegalStateException("unexpected handshake: " + ready);
             }
             writeEvent("connected", "target", "127.0.0.1:" + port);
-            updateNotification("PPSSPP 기록 중 · 최근 30초 보존");
+            updateNotification("PPSSPP 제어흐름 기록 중 · 최근 30초 보존");
 
             int requestId = 1;
-            int sampleCount = 0;
             long lastPc = -1;
             long lastSp = -1;
+            long lastTicks = -1;
+            int sameTickCount = 0;
+            boolean stallReported = false;
             while (!stopRequested) {
                 long now = System.currentTimeMillis();
                 try {
                     JSONObject cpu = request(writer, reader, requestId++, rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
-                    JSONObject regs = null;
-                    // Full register reads are heavier. Sample them every fourth cycle (~2 s),
-                    // while cpu.status stays at 500 ms cadence to minimize observer effect.
-                    if ((sampleCount++ & 3) == 0) {
-                        regs = request(writer, reader, requestId++, rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
-                        long pc = findRegister(regs, "pc");
-                        long sp = findRegister(regs, "sp");
-                        if (pc >= 0) lastPc = pc;
-                        if (sp >= 0) lastSp = sp;
+                    JSONObject regs = request(writer, reader, requestId++, rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
+                    JSONObject rawCpu = rawResponse(cpu);
+
+                    long pc = findRegister(regs, "pc");
+                    long sp = findRegister(regs, "sp");
+                    if (pc < 0) pc = rawCpu.optLong("pc", -1);
+                    if (pc >= 0) lastPc = pc & 0xffffffffL;
+                    if (sp >= 0) lastSp = sp & 0xffffffffL;
+
+                    long ticks = rawCpu.optLong("ticks", -1);
+                    if (ticks >= 0 && ticks == lastTicks) {
+                        sameTickCount++;
                     } else {
-                        JSONObject rawCpu = rawResponse(cpu);
-                        long pc = rawCpu.optLong("pc", -1);
-                        if (pc >= 0) lastPc = pc & 0xffffffffL;
+                        sameTickCount = 0;
+                        stallReported = false;
                     }
+                    lastTicks = ticks;
 
                     JSONObject sample = new JSONObject();
                     sample.put("event", "sample");
                     sample.put("time_ms", now);
                     if (lastPc >= 0) sample.put("pc", hex32(lastPc));
                     if (lastSp >= 0) sample.put("sp", hex32(lastSp));
-                    sample.put("cpu", rawResponse(cpu));
+                    sample.put("cpu", rawCpu);
+                    sample.put("gpr", selectedRegisters(regs));
                     appendSample(sample.toString());
+
+                    if (!stallReported && sameTickCount >= STALL_SAMPLES) {
+                        JSONObject stall = new JSONObject();
+                        stall.put("event", "stall_detected");
+                        stall.put("time_ms", System.currentTimeMillis());
+                        stall.put("same_tick_samples", sameTickCount + 1);
+                        if (ticks >= 0) stall.put("ticks", ticks);
+                        if (lastPc >= 0) stall.put("pc", hex32(lastPc));
+                        if (lastSp >= 0) stall.put("sp", hex32(lastSp));
+                        stall.put("gpr", selectedRegisters(regs));
+                        appendSample(stall.toString());
+                        stallReported = true;
+                        updateNotification("PPSSPP CPU 정지 감지 · 제어흐름 레지스터 보존");
+                    }
                 } catch (TimeoutException e) {
                     JSONObject timeout = new JSONObject();
                     timeout.put("event", "sample_timeout");
@@ -268,6 +289,21 @@ public final class FreezeTraceService extends Service {
         if (result == null) return new JSONObject();
         JSONObject raw = result.optJSONObject("response");
         return raw == null ? new JSONObject() : raw;
+    }
+
+    private static JSONObject selectedRegisters(JSONObject response) throws Exception {
+        JSONObject selected = new JSONObject();
+        String[] names = new String[]{
+                "v0", "v1", "a0", "a1", "a2", "a3",
+                "t0", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9",
+                "s0", "s1", "s2", "s3", "s4", "s5", "s6", "s7",
+                "gp", "sp", "fp", "ra", "pc"
+        };
+        for (String name : names) {
+            long value = findRegister(response, name);
+            if (value >= 0) selected.put(name, hex32(value));
+        }
+        return selected;
     }
 
     private static long findRegister(JSONObject response, String wanted) {
