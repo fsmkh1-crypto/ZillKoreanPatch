@@ -96,6 +96,28 @@ func TestC5SelectShapeCentralizesFixed33Arms(t *testing.T) {
 	}
 }
 
+func TestOriginalWalkC5OmitsSubstitutionPlaceholderBytes(t *testing.T) {
+	tokens := []corpus.Token{
+		{Kind: "text", Raw: []byte("A")},
+		{Kind: "substitution", Raw: []byte{2, 0x28}},
+		{Kind: "text", Raw: []byte("B")},
+		{Kind: "block_terminator", Raw: []byte{5, 5, 5}},
+	}
+	leaves, err := walkC5(tokens, 0, nil, false)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(leaves) != 1 {
+		t.Fatalf("leaves = %d, want 1", len(leaves))
+	}
+	if got := leaves[0].data; !bytes.Equal(got, []byte("AB")) {
+		t.Fatalf("walkC5 leaf data = % x, want only static bytes 41 42", got)
+	}
+	if !leaves[0].dynamic {
+		t.Fatal("walkC5 did not mark substitution-containing leaf dynamic")
+	}
+}
+
 func TestWalkC5AuditKeepsInlineSubstitutionEvent(t *testing.T) {
 	tokens := []corpus.Token{
 		{Kind: "text", Raw: []byte("hello ")},
