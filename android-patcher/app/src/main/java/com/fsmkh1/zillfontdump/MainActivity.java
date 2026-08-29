@@ -1,6 +1,9 @@
 package com.fsmkh1.zillfontdump;
 
 import android.app.Activity;
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -32,8 +35,10 @@ public final class MainActivity extends Activity {
     private TextView status;
     private Button chooseButton;
     private Button patchButton;
+    private Button copyLogButton;
     private Uri sourceUri;
     private FontExtractor.Inspection inspection;
+    private String lastForensicLog = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +56,7 @@ public final class MainActivity extends Activity {
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본 42,016건과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n첫 실행할 때는 내장 한국어 데이터 파일을 앱 내부 작업공간에 준비합니다.");
+        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n앱 업데이트 시 내장 한국어 데이터 버전을 확인하여 변경된 데이터는 자동으로 다시 준비합니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -72,9 +77,18 @@ public final class MainActivity extends Activity {
         patchParams.topMargin = pad / 2;
         root.addView(patchButton, patchParams);
 
+        copyLogButton = new Button(this);
+        copyLogButton.setText("진단 로그 복사");
+        copyLogButton.setEnabled(false);
+        copyLogButton.setOnClickListener(v -> copyForensicLog());
+        LinearLayout.LayoutParams copyLogParams = new LinearLayout.LayoutParams(-1, -2);
+        copyLogParams.topMargin = pad / 2;
+        root.addView(copyLogButton, copyLogParams);
+
         status = new TextView(this);
         status.setText("대기 중");
         status.setTextSize(15);
+        status.setTextIsSelectable(true);
         LinearLayout.LayoutParams statusParams = new LinearLayout.LayoutParams(-1, -2);
         statusParams.topMargin = pad;
         root.addView(status, statusParams);
@@ -143,11 +157,14 @@ public final class MainActivity extends Activity {
             return;
         }
 
+        lastForensicLog = "";
+        copyLogButton.setEnabled(false);
         setBusy(true, "한국어 Beta 빌드 준비 중…");
         Uri inputUri = sourceUri;
         FontExtractor.Inspection checked = inspection;
         worker.execute(() -> {
             boolean success = false;
+            StringBuilder forensic = new StringBuilder();
             File session = new File(getCacheDir(), "korean-beta-" + System.nanoTime());
             try {
                 if (!session.mkdirs()) throw new IllegalStateException("임시 작업 폴더를 만들 수 없습니다.");
@@ -184,6 +201,9 @@ public final class MainActivity extends Activity {
                     while ((line = reader.readLine()) != null) {
                         if (tail.size() == 12) tail.removeFirst();
                         tail.addLast(line);
+                        if (line.startsWith("FORENSIC")) {
+                            forensic.append(line).append('\n');
+                        }
                         updateStatus(line);
                     }
                 }
@@ -198,11 +218,24 @@ public final class MainActivity extends Activity {
                 updateStatus("완성 ISO를 선택한 위치로 저장 중…");
                 copyFileToUri(output, outputUri);
                 success = true;
-                runOnUiThread(() -> setBusy(false,
-                        "완료. 생성된 Korean Beta ISO를 PPSSPP에서 실행해 주세요. 실제 화면의 줄바꿈·잘림·폰트는 이번 베타에서 확인합니다."));
+                final String captured = forensic.toString().trim();
+                runOnUiThread(() -> {
+                    lastForensicLog = captured;
+                    copyLogButton.setEnabled(!captured.isEmpty());
+                    String logStatus = captured.isEmpty()
+                            ? " 진단 로그는 생성되지 않았습니다."
+                            : " '진단 로그 복사' 버튼으로 retail preflight 결과를 복사할 수 있습니다.";
+                    setBusy(false, "완료. 생성된 Korean Beta ISO를 저장했습니다." + logStatus);
+                });
             } catch (Exception e) {
                 final String error = message(e);
-                runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
+                final String captured = forensic.toString().trim();
+                runOnUiThread(() -> {
+                    lastForensicLog = captured;
+                    copyLogButton.setEnabled(!captured.isEmpty());
+                    String logStatus = captured.isEmpty() ? "" : " 생성된 진단 로그는 복사할 수 있습니다.";
+                    setBusy(false, "패치 실패: " + error + logStatus);
+                });
             } finally {
                 deleteRecursively(session);
                 if (!success) deleteQuietly(outputUri);
@@ -211,14 +244,56 @@ public final class MainActivity extends Activity {
     }
 
     private File ensureProjectAssets() throws Exception {
-        File root = new File(getFilesDir(), "zillroot-beta-v6");
-        File marker = new File(root, ".ready");
-        if (marker.isFile()) return root;
+        final String assetMarkerPath = "zillroot/payload-version.txt";
+        String packagedVersion = readAssetText(assetMarkerPath).trim();
+        if (packagedVersion.isEmpty()) {
+            throw new IllegalStateException("내장 데이터 버전 표식이 비어 있습니다.");
+        }
+
+        File root = new File(getFilesDir(), "zillroot-beta-current");
+        File marker = new File(root, "payload-version.txt");
+        if (marker.isFile()) {
+            String installedVersion = readFileText(marker).trim();
+            if (packagedVersion.equals(installedVersion)) {
+                return root;
+            }
+        }
+
         deleteRecursively(root);
         if (!root.mkdirs()) throw new IllegalStateException("내장 한글 데이터 폴더를 만들 수 없습니다.");
         copyAssetTree("zillroot", root);
-        if (!marker.createNewFile()) throw new IllegalStateException("내장 한글 데이터 준비를 완료할 수 없습니다.");
+        if (!marker.isFile()) {
+            throw new IllegalStateException("내장 데이터 버전 표식이 복사되지 않았습니다.");
+        }
+        String copiedVersion = readFileText(marker).trim();
+        if (!packagedVersion.equals(copiedVersion)) {
+            throw new IllegalStateException("내장 데이터 버전이 APK payload와 일치하지 않습니다.");
+        }
         return root;
+    }
+
+    private String readAssetText(String assetPath) throws Exception {
+        try (InputStream in = getAssets().open(assetPath);
+             BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
+            StringBuilder out = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                out.append(line).append('\n');
+            }
+            return out.toString();
+        }
+    }
+
+    private static String readFileText(File file) throws Exception {
+        try (InputStream in = new FileInputStream(file);
+             BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
+            StringBuilder out = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                out.append(line).append('\n');
+            }
+            return out.toString();
+        }
     }
 
     private void copyAssetTree(String assetPath, File destination) throws Exception {
@@ -269,6 +344,20 @@ public final class MainActivity extends Activity {
             if (read == 0) continue;
             out.write(buffer, 0, read);
         }
+    }
+
+    private void copyForensicLog() {
+        if (lastForensicLog == null || lastForensicLog.trim().isEmpty()) {
+            status.setText("복사할 진단 로그가 없습니다.");
+            return;
+        }
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        if (clipboard == null) {
+            status.setText("클립보드 서비스를 사용할 수 없습니다.");
+            return;
+        }
+        clipboard.setPrimaryClip(ClipData.newPlainText("Zill Korean forensic log", lastForensicLog));
+        status.setText("진단 로그를 클립보드에 복사했습니다.");
     }
 
     private void updateStatus(String text) {
