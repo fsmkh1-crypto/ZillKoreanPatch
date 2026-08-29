@@ -34,6 +34,8 @@ var characterChoiceBufferDiagnostic = map[int]string{
 
 const opening210065SafeLayout = "광대한 대지 바이아시온 대륙.<line-break>너무나 넓어 지도에도 기록되지<line-break>않고 여행자에게조차 알려지지 않은<line-break>작은 마을이 있다…. 마을의 이름은<line-break>미이스. 그곳에는 작은 신전과 숲,<line-break>그리고 평온한 일상 정도뿐이었다.<line-break>위대한 혼의 이야기는<line-break>여기서 시작된다…….<end>"
 
+const wide32BoundaryProbeTargetOffset = uint64(0x10020)
+
 // CompileBankKorean compiles only explicitly supplied Korean replacements and
 // copies every other retail record unchanged. Semantic Korean must be layout-free;
 // optional generated Layout may insert line breaks only while preserving all
@@ -133,6 +135,30 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 	}
 
 	tableEnd := uint64(4 + len(records)*4)
+
+	// Runtime A/B probe: change only the physical position of bank 001 records
+	// 10007 and later. Zero padding is appended after record 10006's terminator so
+	// semantic/control bytes are unchanged, while ID 10007's absolute table entry
+	// is forced above 0xffff. A legacy uint16 reader cannot address the target;
+	// a correct wide32 reader sees the exact same record payload at 0x10020.
+	if bank.Section == 1 && len(records) > 7 {
+		targetOffset := tableEnd
+		for index := 0; index < 7; index++ {
+			targetOffset += uint64(len(records[index]))
+		}
+		if targetOffset < wide32BoundaryProbeTargetOffset {
+			padding := wide32BoundaryProbeTargetOffset - targetOffset
+			projected := tableEnd + padding
+			for _, record := range records {
+				projected += uint64(len(record))
+			}
+			if projected > uint64(RuntimeBankCapacity(bank.Section)) {
+				return nil, fmt.Errorf("%s: wide32 boundary probe needs %d bytes but runtime slot capacity is %d", bank.Name, projected, RuntimeBankCapacity(bank.Section))
+			}
+			records[6] = append(records[6], make([]byte, int(padding))...)
+		}
+	}
+
 	position := tableEnd
 	for _, record := range records {
 		position += uint64(len(record))
