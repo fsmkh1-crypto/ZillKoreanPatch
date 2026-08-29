@@ -3,13 +3,18 @@
 
 This is intentionally narrow: it pauses the currently running/looping CPU through
 Zill's existing PPSSPP debugger bridge, captures all registers, disassembles the
-current PC, and dumps a small stack window.  The emulator is intentionally left
+current PC, and dumps a small stack window. The emulator is intentionally left
 stopped so the captured state cannot move before follow-up inspection.
+
+The debugger may run on the same machine or on an Android device reachable over
+the local network. Non-loopback targets explicitly opt into the bridge's remote
+connection safety gate.
 """
 
 from __future__ import annotations
 
 import argparse
+import ipaddress
 import json
 import pathlib
 import subprocess
@@ -20,7 +25,7 @@ from typing import Any
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--port", required=True, type=int, help="PPSSPP debugger port")
-    parser.add_argument("--host", default="127.0.0.1")
+    parser.add_argument("--host", default="127.0.0.1", help="PPSSPP host/IP, including an Android phone on the LAN")
     parser.add_argument("--zill", default="./zill", help="path to zill executable")
     parser.add_argument("--out", default="freeze-snapshot.json")
     parser.add_argument("--disasm-before", type=int, default=16)
@@ -32,6 +37,15 @@ def parse_args() -> argparse.Namespace:
     if args.disasm_before < 0 or args.disasm_count < 1 or args.stack_bytes < 1:
         parser.error("snapshot sizes must be positive")
     return args
+
+
+def is_loopback(host: str) -> bool:
+    if host.lower() == "localhost":
+        return True
+    try:
+        return ipaddress.ip_address(host).is_loopback
+    except ValueError:
+        return False
 
 
 def read_json_line(proc: subprocess.Popen[str]) -> dict[str, Any]:
@@ -76,6 +90,8 @@ def register_value(registers: dict[str, Any], name: str) -> int | None:
 def main() -> int:
     args = parse_args()
     cmd = [args.zill, "ppsspp-debugger", "--host", args.host, "--port", str(args.port), "--timeout", "10"]
+    if not is_loopback(args.host):
+        cmd.append("--allow-remote")
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=1)
     try:
         ready = read_json_line(proc)
