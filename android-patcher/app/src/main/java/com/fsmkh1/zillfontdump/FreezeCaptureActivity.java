@@ -28,8 +28,8 @@ import java.util.concurrent.Executors;
  * PPSSPP's WebSocket debugger is exposed on the same port as Remote ISO sharing.
  * Set a fixed Local Server Port in PPSSPP (34567 by default here), enable
  * Settings > Tools > Developer Tools > Allow remote debugger, reproduce the
- * freeze, switch to this activity, and capture.  The emulator is intentionally
- * left debugger-paused so the evidence cannot move before the log is copied.
+ * freeze, switch to this activity, and capture. Android may UI-pause PPSSPP
+ * during the app switch; that stopped state is valid evidence and is read as-is.
  */
 public final class FreezeCaptureActivity extends Activity {
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
@@ -59,7 +59,7 @@ public final class FreezeCaptureActivity extends Activity {
                 + "2) PPSSPP의 로컬 서버 포트를 아래 값과 같게 고정합니다.\n"
                 + "3) 한국어 패치 ISO에서 프리징을 재현합니다.\n"
                 + "4) 프리징 상태 그대로 이 앱으로 전환해 캡처합니다.\n\n"
-                + "캡처는 실제 PSP CPU를 debugger-stop한 뒤 PC/레지스터/PC 주변 명령/스택을 읽습니다. 게임은 의도적으로 정지 상태로 남깁니다.");
+                + "캡처는 PSP PC/레지스터/PC 주변 명령/스택을 읽습니다. 앱 전환 때문에 PPSSPP가 이미 UI-pause된 경우 그 상태를 그대로 보존하고 읽습니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -146,9 +146,19 @@ public final class FreezeCaptureActivity extends Activity {
 
                     JSONObject before = request(writer, reader, 1, command("status"));
                     snapshot.put("status_before", before);
+                    JSONObject beforeCpu = before.optJSONObject("result") == null
+                            ? null : before.optJSONObject("result").optJSONObject("cpu");
+                    boolean alreadyPaused = beforeCpu != null && beforeCpu.optBoolean("paused", false);
+                    boolean alreadyStepping = beforeCpu != null && beforeCpu.optBoolean("stepping", false);
 
-                    JSONObject pause = request(writer, reader, 2, command("pause"));
-                    snapshot.put("pause", pause);
+                    if (alreadyPaused || alreadyStepping) {
+                        JSONObject preserved = new JSONObject();
+                        preserved.put("changed", false);
+                        preserved.put("reason", alreadyPaused ? "already_ui_paused" : "already_debugger_stopped");
+                        snapshot.put("pause", preserved);
+                    } else {
+                        snapshot.put("pause", request(writer, reader, 2, command("pause")));
+                    }
 
                     JSONObject cpu = request(writer, reader, 3,
                             rawCommand("cpu.status", new JSONObject()));
@@ -158,10 +168,12 @@ public final class FreezeCaptureActivity extends Activity {
                             rawCommand("cpu.getAllRegs", new JSONObject()));
                     snapshot.put("registers", regs);
 
-                    long pc = findRegister(regs, "pc");
-                    if (pc < 0) pc = rawResponse(cpu).optLong("pc", -1);
-                    long sp = findRegister(regs, "sp");
-                    if (pc < 0) throw new IllegalStateException("캡처 응답에서 PC를 찾지 못했습니다.");
+                    long pcValue = findRegister(regs, "pc");
+                    if (pcValue < 0) pcValue = rawResponse(cpu).optLong("pc", -1);
+                    long spValue = findRegister(regs, "sp");
+                    if (pcValue < 0) throw new IllegalStateException("캡처 응답에서 PC를 찾지 못했습니다.");
+                    final long pc = pcValue;
+                    final long sp = spValue;
                     snapshot.put("pc", pc);
                     snapshot.put("pc_hex", hex32(pc));
                     if (sp >= 0) {
@@ -190,7 +202,8 @@ public final class FreezeCaptureActivity extends Activity {
                         }
                     }
 
-                    snapshot.put("left_debugger_paused", true);
+                    snapshot.put("left_stopped", true);
+                    snapshot.put("stop_origin", alreadyPaused ? "android_ui_pause" : (alreadyStepping ? "preexisting_debugger_stop" : "zill_debugger_stop"));
                     try {
                         request(writer, reader, 7, command("quit"));
                     } catch (Exception ignored) {
@@ -202,7 +215,7 @@ public final class FreezeCaptureActivity extends Activity {
                         copyButton.setEnabled(true);
                         captureButton.setEnabled(true);
                         status.setText("캡처 완료: PC=" + hex32(pc) + (sp >= 0 ? "  SP=" + hex32(sp) : "")
-                                + "\n'프리징 로그 복사'를 눌러 그대로 전달해 주세요. PPSSPP는 debugger-stop 상태로 남아 있습니다.");
+                                + "\n'프리징 로그 복사'를 눌러 그대로 전달해 주세요.");
                     });
                 }
             } catch (Exception e) {
