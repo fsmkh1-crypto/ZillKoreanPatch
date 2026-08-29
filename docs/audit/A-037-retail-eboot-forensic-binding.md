@@ -2,48 +2,54 @@
 
 ## Trigger
 
-The C5, `$15` substitution, and font-renderer candidate scanners are now invoked automatically from the `build-korean-iso` preflight. Their output records file offsets and virtual addresses, but the log did not identify the exact EBOOT byte sequence that produced those candidates.
+The C5, `$15` substitution, and font-renderer candidate scanners are invoked automatically from the `build-korean-iso` preflight. Their output records file offsets and virtual addresses, so the exact executable byte sequence producing those candidates must be preserved and authenticated.
 
 ## Hypothesis
 
-Recording a cryptographic digest of the EBOOT byte slice used by the preflight before any heuristic scanner output will make candidate reports reproducible and prevent results from different executable inputs from being conflated.
+Recording a cryptographic digest of the EBOOT byte slice used by the preflight, and tying it to the loader's independently reproduced fingerprint contract, makes candidate reports reproducible and prevents results from different executable inputs from being conflated.
 
 ## Verification
 
 - `auditC5RuntimeCandidates()` receives the exact byte slice returned by `loadAuthenticatedRetailEBOOT(gameDir)`.
-- Added a SHA-256 digest over that byte slice before running C5, `$15`, or font scans.
-- The ISO preflight now emits:
+- `cmd/zill/korean_font.go` defines the supported retail EBOOT fingerprint as:
+  - SHA-256 `2a52012be00c07512dcde932ff6e9eb9b96912c59dd5a25c7c26ef821c124d68`.
+- `loadAuthenticatedRetailEBOOT()` reads `SYSDIR/EBOOT.BIN`, computes SHA-256 over the complete file, compares it to that exact constant, and fails with `unsupported retail EBOOT.BIN fingerprint` on any mismatch.
+- Only after that check returns successfully does the forensic preflight hash the same in-memory byte slice and run C5, `$15`, and font scanners against it.
+- The preflight now emits:
   - `FORENSIC RETAIL_EBOOT_BINDING`
-  - SHA-256 digest
+  - observed SHA-256
   - exact byte length
   - `retail_preflight_input=true`
-  - `authentication_contract_unverified_here=true`
-- All three scanner families then run against that same in-memory byte slice.
+  - `authenticated_by_sha256_pin=true`
+  - the expected SHA-256 pin.
 
-## Evidence-discipline correction
+## Evidence-discipline history
 
-The first version of this note and log emitted `authenticated=true` solely because the loader function is named `loadAuthenticatedRetailEBOOT`. During follow-up review, the exact loader authentication contract could not be independently reproduced from the current PR diff/code-search path. Under this audit's evidence policy, a function name is not sufficient proof of an authentication guarantee.
+The first version of this note briefly emitted `authenticated=true` solely because the loader function was named `loadAuthenticatedRetailEBOOT`. That wording was correctly withdrawn because a function name is not evidence.
 
-The log therefore no longer asserts `authenticated=true`. It records only what is directly established here: the exact byte sequence supplied by the retail preflight loader is cryptographically bound to the scanner output. If the loader's revision/hash/size authentication contract is later independently recovered, that can be documented separately and the evidence grade upgraded.
+A later source-tree audit recovered the actual implementation in `cmd/zill/korean_font.go`. The authentication claim is now restored on a different basis: direct source inspection proves whole-file SHA-256 pinning to one supported EBOOT byte sequence. This correction is retained explicitly rather than erasing the earlier evidence downgrade.
 
 ## Result
 
-A future retail-preflight build log can bind every C5, `$15`, and font-renderer candidate to one exact EBOOT input without relying on filenames, remembered provenance, or guessed executable revisions.
+Every future C5, `$15`, and font-renderer candidate produced by the integrated ISO preflight is bound to the exact EBOOT byte sequence accepted by the revision-specific SHA-256 loader contract.
 
-This improves evidence provenance only. It does not increase the semantic strength of any heuristic candidate and, by itself, does not prove that the byte sequence is an independently authenticated retail revision.
+This establishes executable input identity. It does **not** increase the semantic strength of any scanner candidate and does not identify the C5 handler, substitution dispatcher, glyph renderer, `$15` source, or freeze mechanism.
 
 ## Evidence grade
 
-- **CONFIRMED** for deterministic SHA-256/length binding to the exact scanner input once CI passes.
-- **OPEN** for the independently reproduced authentication contract of `loadAuthenticatedRetailEBOOT` in this audit note.
-- **OPEN** for retail scanner results because the CI environment still does not contain the game asset.
+- **CONFIRMED** — whole-file retail EBOOT SHA-256 authentication contract.
+- **CONFIRMED** — deterministic SHA-256/length binding of the scanner input.
+- **OPEN** — actual scanner results because CI does not contain the retail game asset.
+- **OPEN** — runtime semantics and freeze causality of any future candidate.
 
 ## What this excludes
 
-- It excludes accidentally comparing candidate offsets from different EBOOT byte sequences as though they came from the same executable.
-- It does not prove that a candidate is the real C5 handler, substitution dispatcher, or renderer.
-- It does not use the loader's function name as proof of executable authenticity.
+- Scanner output from an unsupported/different EBOOT silently being treated as the supported revision.
+- Comparing candidate offsets from different EBOOT byte sequences as though they came from one executable.
+- Using the loader's function name alone as proof of authenticity.
+
+It does not exclude false-positive/false-negative heuristic scanner behavior or a runtime mechanism outside the scanners' modeled instruction patterns.
 
 ## New question
 
-Recover and document the loader's actual retail-authentication contract separately. Then, when the retail preflight is run, inspect the candidate set under the bound EBOOT SHA-256 and follow either the `$15` path or PAF-record path to a concrete copy/lookup contract before another gameplay test.
+Run the now SHA-256-authenticated retail EBOOT through the integrated or standalone forensic scanners, then follow surviving `$15` or PAF-record candidates to concrete source/destination or lookup contracts before selecting another gameplay experiment.
