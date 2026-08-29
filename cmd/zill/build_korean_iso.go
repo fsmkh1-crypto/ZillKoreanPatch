@@ -75,6 +75,10 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		return 1
 	}
 	gameDir := filepath.Join(extracted, "PSP_GAME")
+	fmt.Fprintln(stdout, "FORENSIC: recovering authenticated retail CDC context for message 10010...")
+	if err := auditFocusRecordContext(root, gameDir, stdout); err != nil {
+		fmt.Fprintf(stdout, "FORENSIC C5_FOCUS unavailable: %v\n", err)
+	}
 	fmt.Fprintln(stdout, "Mobile beta safety mode: retail banks are authenticated and bound before slot planning and canonical Korean compilation.")
 	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	planner := func(source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
