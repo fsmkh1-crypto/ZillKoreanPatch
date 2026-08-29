@@ -8,22 +8,22 @@ import (
 	"strings"
 
 	"github.com/HK47196/zill/internal/corpus"
-	"github.com/HK47196/zill/internal/koreanslots"
+	"github.com/HK47196/zill/internal/cp932"
 )
 
-// VerifyKoreanProjectionCompatibility proves that the Korean semantic path is
-// byte-compatible with the upstream materializer for every translatable source
-// record in one authenticated retail bank. It deliberately uses stock Japanese
-// source text and an empty Korean mapping, so the only variable under test is
-// the Korean-specific semantic splitting rule (not translation wording, glyph
-// allocation, layout heuristics, or runtime storage limits).
+// VerifyKoreanProjectionCompatibility proves that the Korean semantic path can
+// reconstruct every translatable authenticated retail source record byte-for-
+// byte. It deliberately audits retail source material rather than contributor
+// input, so source literals that the translator-facing validators forbid (for
+// example half-width kana or literal angle brackets) must remain admissible in
+// this audit-only path.
 //
 // Fixed source line breaks are explicit in the upstream canonical form but are
-// implicit in Korean semantic text. Both forms are materialized with source
-// layout enabled and must produce identical record bytes. This directly checks
-// the fixed-line-break omission rule, fragment assignment, movable
-// substitutions, kana controls, and all fixed source controls against the
-// upstream implementation.
+// implicit in Korean semantic text. The Korean split rule is therefore applied
+// to reconstructed source semantic text and its output is compared directly to
+// the authenticated retail record bytes. This checks fixed-line-break omission,
+// fragment assignment, movable substitutions, kana controls, and fixed source
+// controls without incorrectly re-validating retail source as new translation.
 func VerifyKoreanProjectionCompatibility(bank corpus.Bank) (int, error) {
 	checked := 0
 	for _, record := range bank.Records {
@@ -34,22 +34,25 @@ func VerifyKoreanProjectionCompatibility(bank corpus.Bank) (int, error) {
 		if err != nil {
 			return checked, fmt.Errorf("%s: ID %d projection audit: %w", bank.Name, record.ID, err)
 		}
-		upstreamText, koreanText, err := projection.sourceAuditTexts()
+		_, koreanText, err := projection.sourceAuditTexts()
 		if err != nil {
 			return checked, fmt.Errorf("%s: ID %d projection audit source reconstruction: %w", bank.Name, record.ID, err)
 		}
 
-		upstreamBytes, err := projection.Materialize(upstreamText, true)
+		// nil is intentionally audit-only: splitSemanticWith still verifies source
+		// substitution/format topology but does not apply contributor natural-text
+		// bans to authenticated retail literals.
+		values, err := projection.splitSemanticWith(koreanText, nil)
 		if err != nil {
-			return checked, fmt.Errorf("%s: ID %d upstream source materialization: %w", bank.Name, record.ID, err)
+			return checked, fmt.Errorf("%s: ID %d Korean source split: %w", bank.Name, record.ID, err)
 		}
-		koreanBytes, err := projection.MaterializeKorean(koreanText, true, koreanslots.Mapping{})
+		koreanBytes, err := projection.materializeValues(values, true, cp932.Encode)
 		if err != nil {
 			return checked, fmt.Errorf("%s: ID %d Korean source materialization: %w", bank.Name, record.ID, err)
 		}
-		if !bytes.Equal(koreanBytes, upstreamBytes) {
-			return checked, fmt.Errorf("%s: ID %d Korean projection diverges from upstream materialization (upstream=%d bytes Korean=%d bytes)",
-				bank.Name, record.ID, len(upstreamBytes), len(koreanBytes))
+		if !bytes.Equal(koreanBytes, record.Raw) {
+			return checked, fmt.Errorf("%s: ID %d Korean projection diverges from authenticated retail bytes (retail=%d bytes Korean=%d bytes)",
+				bank.Name, record.ID, len(record.Raw), len(koreanBytes))
 		}
 		checked++
 	}
