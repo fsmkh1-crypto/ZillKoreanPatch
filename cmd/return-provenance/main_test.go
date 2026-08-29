@@ -2,6 +2,7 @@ package main
 
 import (
     "bufio"
+    "encoding/binary"
     "strings"
     "testing"
 )
@@ -71,6 +72,38 @@ func TestLeafValueOrigin(t *testing.T) {
     funcs := parseText(t, text)
     v := classify(funcs[0x08A02000])
     if v.Kind != "value-origin" {
+        t.Fatalf("unexpected verdict: %+v", v)
+    }
+}
+
+func TestBinaryRuntimeToFileMapping(t *testing.T) {
+    img := &binaryImage{Data: make([]byte, 0x21F200), RuntimeBase: 0x08804000, FileBias: 0x80, MaxInsns: 16}
+    off, ok := img.fileOffset(0x08A23064)
+    if !ok || off != 0x21F0E4 {
+        t.Fatalf("mapping ok=%v off=0x%08X", ok, off)
+    }
+}
+
+func TestBinaryWrapperPassthroughDecode(t *testing.T) {
+    const start = uint32(0x08A00000)
+    const target = uint32(0x08A01000)
+    data := make([]byte, 0x200)
+    words := []uint32{
+        0x0C000000 | ((target >> 2) & 0x03FFFFFF), // jal target
+        0x00000000,                               // delay slot
+        0x03E00008,                               // jr ra
+        0x00000000,                               // return delay slot
+    }
+    for i, w := range words {
+        binary.LittleEndian.PutUint32(data[i*4:], w)
+    }
+    img := &binaryImage{Data: data, RuntimeBase: start, FileBias: 0, MaxInsns: 16}
+    fn, ok := img.decodeFunction(start)
+    if !ok {
+        t.Fatal("decodeFunction failed")
+    }
+    v := classify(fn)
+    if v.Kind != "wrapper-passthrough" || !v.HasDescend || v.DescendTo != target {
         t.Fatalf("unexpected verdict: %+v", v)
     }
 }
