@@ -230,6 +230,9 @@ func uimm(w uint32) uint16   { return uint16(w) }
 func jtarget(w uint32, pc uint64) uint64 {
 	return ((pc + 4) & 0xf0000000) | uint64((w&0x03ffffff)<<2)
 }
+func btarget(w uint32, pc uint64) uint64 {
+	return uint64(int64(pc+4) + int64(simm(w))*4)
+}
 
 func loadsLiteral(w uint32, value uint16) bool {
 	// The zero-register source makes these actual literal constructions rather
@@ -254,6 +257,14 @@ func decodeAt(w uint32, pc uint64) string {
 		return fmt.Sprintf("j 0x%x", jtarget(w, pc))
 	case 0x03:
 		return fmt.Sprintf("jal 0x%x", jtarget(w, pc))
+	case 0x04:
+		return fmt.Sprintf("beq r%d,r%d,0x%x", rs(w), rt(w), btarget(w, pc))
+	case 0x05:
+		return fmt.Sprintf("bne r%d,r%d,0x%x", rs(w), rt(w), btarget(w, pc))
+	case 0x06:
+		return fmt.Sprintf("blez r%d,0x%x", rs(w), btarget(w, pc))
+	case 0x07:
+		return fmt.Sprintf("bgtz r%d,0x%x", rs(w), btarget(w, pc))
 	case 0x08:
 		return fmt.Sprintf("addi r%d,r%d,%d", rt(w), rs(w), simm(w))
 	case 0x09:
@@ -268,6 +279,8 @@ func decodeAt(w uint32, pc uint64) string {
 		return fmt.Sprintf("ori r%d,r%d,0x%x", rt(w), rs(w), uimm(w))
 	case 0x0e:
 		return fmt.Sprintf("xori r%d,r%d,0x%x", rt(w), rs(w), uimm(w))
+	case 0x0f:
+		return fmt.Sprintf("lui r%d,0x%x", rt(w), uimm(w))
 	case 0x20:
 		return fmt.Sprintf("lb r%d,%d(r%d)", rt(w), simm(w), rs(w))
 	case 0x21:
@@ -284,14 +297,6 @@ func decodeAt(w uint32, pc uint64) string {
 		return fmt.Sprintf("sh r%d,%d(r%d)", rt(w), simm(w), rs(w))
 	case 0x2b:
 		return fmt.Sprintf("sw r%d,%d(r%d)", rt(w), simm(w), rs(w))
-	case 0x04:
-		return fmt.Sprintf("beq r%d,r%d,%d", rs(w), rt(w), simm(w))
-	case 0x05:
-		return fmt.Sprintf("bne r%d,r%d,%d", rs(w), rt(w), simm(w))
-	case 0x06:
-		return fmt.Sprintf("blez r%d,%d", rs(w), simm(w))
-	case 0x07:
-		return fmt.Sprintf("bgtz r%d,%d", rs(w), simm(w))
 	case 0:
 		switch funct(w) {
 		case 0:
