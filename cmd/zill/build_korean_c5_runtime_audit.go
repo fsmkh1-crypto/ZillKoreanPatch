@@ -12,17 +12,17 @@ import (
 	"github.com/HK47196/zill/internal/forensics/valuescan"
 )
 
-// auditC5RuntimeCandidates runs heuristic executable scanners against the
-// authenticated retail EBOOT used by the real ISO build. Candidate count zero
-// is not an error: all heuristics are intentionally incomplete. A parse/input
-// error is fatal because it means the audit did not inspect the expected ELF.
+// auditC5RuntimeCandidates runs heuristic executable scanners against the retail
+// EBOOT byte slice supplied by the ISO preflight loader. Candidate count zero is
+// not an error: all heuristics are intentionally incomplete. A parse/input error
+// is fatal because it means the audit did not inspect the expected ELF shape.
 func auditC5RuntimeCandidates(gameDir string) error {
 	retailEBOOT, err := loadAuthenticatedRetailEBOOT(gameDir)
 	if err != nil {
 		return err
 	}
 	retailDigest := sha256.Sum256(retailEBOOT)
-	fmt.Printf("FORENSIC RETAIL_EBOOT_BINDING sha256=%x bytes=%d authenticated=true\n", retailDigest, len(retailEBOOT))
+	fmt.Printf("FORENSIC RETAIL_EBOOT_BINDING sha256=%x bytes=%d retail_preflight_input=true authentication_contract_unverified_here=true\n", retailDigest, len(retailEBOOT))
 
 	candidates, err := c5scan.Scan(retailEBOOT)
 	if err != nil {
