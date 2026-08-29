@@ -50,13 +50,51 @@ func TestScanRejectsPrefixPlusIncrementWithoutLinked15(t *testing.T) {
 		iType(0x09, 0, 3, 2),
 		iType(0x05, 2, 3, 4),
 		iType(0x09, 4, 4, 1),
-		iType(0x09, 0, 6, 0x15), // colocated literal only; never compared with a byte-loaded register
+		iType(0x09, 0, 6, 0x15),
 	}
 	data := syntheticELF32MIPS(encodeWords(words), uint32(elf.PF_R|elf.PF_X))
 	got, err := Scan(data)
 	if err != nil { t.Fatal(err) }
 	if len(got) != 0 {
 		t.Fatalf("candidates=%d, want 0 when scoreable prefix+increment lacks linked $15 evidence: %#v", len(got), got)
+	}
+}
+
+func TestScanBlindSpotMultiInstruction15Literal(t *testing.T) {
+	words := []uint32{
+		iType(0x24, 4, 2, 0),
+		iType(0x09, 0, 3, 2),
+		iType(0x05, 2, 3, 4),
+		iType(0x09, 4, 4, 1),
+		iType(0x24, 4, 5, 0),
+		iType(0x0f, 0, 6, 0),
+		iType(0x0d, 6, 6, 0x15),
+		iType(0x04, 5, 6, 2),
+	}
+	data := syntheticELF32MIPS(encodeWords(words), uint32(elf.PF_R|elf.PF_X))
+	got, err := Scan(data)
+	if err != nil { t.Fatal(err) }
+	if len(got) != 0 {
+		t.Fatalf("candidates=%d, want 0 because multi-instruction $15 literal construction is intentionally unsupported: %#v", len(got), got)
+	}
+}
+
+func TestScanBlindSpotSubuThenBeqzEquality(t *testing.T) {
+	words := []uint32{
+		iType(0x24, 4, 2, 0),
+		iType(0x09, 0, 3, 2),
+		iType(0x05, 2, 3, 4),
+		iType(0x09, 4, 4, 1),
+		iType(0x24, 4, 5, 0),
+		iType(0x09, 0, 6, 0x15),
+		rType(5, 6, 7, 0, 0x23),
+		iType(0x04, 7, 0, 2),
+	}
+	data := syntheticELF32MIPS(encodeWords(words), uint32(elf.PF_R|elf.PF_X))
+	got, err := Scan(data)
+	if err != nil { t.Fatal(err) }
+	if len(got) != 0 {
+		t.Fatalf("candidates=%d, want 0 because subu+beqz equality provenance is intentionally unsupported: %#v", len(got), got)
 	}
 }
 
