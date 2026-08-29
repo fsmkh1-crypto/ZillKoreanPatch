@@ -4,11 +4,17 @@
 
 After downgrading historical single-run PASS results to non-reproduction only (A-020), the most reliable runtime evidence in the PR #14 matrix is the actual freeze observed in the Combined full-Han+EBOOT build and the Stable-minimal+EBOOT build. This note asks what those two failing builds genuinely share without treating H0/A/B non-reproduction as proof of safety.
 
+## Current-branch distinction
+
+The current audit branch production file `release/korean/strings/eboot.toml` contains only the two H0-era fixed fields. It is **not** the expanded PR #14 EBOOT set used by the two observed freeze builds. The historical expanded set contains 46 fixed fields and is now preserved separately at `docs/audit/fixtures/pr14-eboot-full.toml`, copied from commit `4c04e52329290995d3ed4f6a2d742547a9d2ff7a` for forensic replay only.
+
+Therefore a fingerprint emitted by the current production EBOOT path must not be described as the fingerprint of the historical Combined/Stable-minimal EBOOT. PR #14 policy replay must explicitly load the historical fixture. Earlier shorthand such as “51-line EBOOT set” referred to diff-added source lines, not the number of translation fields, and is superseded by the exact count of 46 fields.
+
 ## Confirmed common conditions
 
 ### 1. The expanded Korean EBOOT fixed-string table is the same
 
-The Combined commit `4c04e52329290995d3ed4f6a2d742547a9d2ff7a` and Stable-minimal commit `52b9a8aab3ecf3a9910ed0010d5a234fd0ecc9cb` contain the same expanded `release/korean/strings/eboot.toml` content.
+The Combined commit `4c04e52329290995d3ed4f6a2d742547a9d2ff7a` and Stable-minimal commit `52b9a8aab3ecf3a9910ed0010d5a234fd0ecc9cb` contain the same expanded `release/korean/strings/eboot.toml` content: 46 fixed fields.
 
 ### 2. EBOOT overlay cannot exceed the original fixed-field byte capacities
 
@@ -58,20 +64,22 @@ The EBOOT overlay is byte-capacity bounded strongly enough that a simple fixed-f
 
 ## Highest-value next asset-backed gate
 
-From one authenticated retail asset set and one canonical Korean corpus, synthesize the historical planner policies without device execution:
+From one authenticated retail asset set and the current canonical Korean corpus, replay the historical planner policies without device execution:
 
-- H0/original candidate policy;
-- full Han-only round-trip policy;
-- H0 + minimal 0x87 relocation policy.
+- H0 = original candidate policy + two-field H0 EBOOT table;
+- B = original candidate policy + historical 46-field expanded EBOOT table;
+- A = Han-only round-trip policy + two-field H0 EBOOT table;
+- Combined = Han-only round-trip policy + historical 46-field expanded EBOOT table;
+- Stable-minimal = H0 mapping preserved, only 0x87-lead custom assignments relocated, then historical 46-field EBOOT table.
 
-For each policy, with the same expanded EBOOT table, record:
+The replay is explicitly labeled `current_corpus_replay=true`; it is not an exact historical ISO reconstruction because the canonical corpus has changed since PR #14.
+
+For each policy, record:
 
 - custom-rune set and mapping SHA-256;
-- number and exact list of rune→key differences versus H0;
+- number of rune→key differences versus H0;
 - mapped-key exact-byte ownership hits in BOOT/EBOOT/BINDATA;
-- final PAF SHA-256 and atlas SHA-256;
-- PAF records whose metrics/geometry differ between policies;
-- stock-glyph geometry changes between policies;
-- final patched EBOOT SHA-256 and per-field encoded bytes.
+- encoded EBOOT-field digest;
+- then, where practical, final PAF SHA-256 and atlas SHA-256 plus PAF geometry deltas.
 
 This comparison is static and deterministic, so it does not depend on interpreting a single runtime PASS. Only after these output deltas are known should another device A/B be selected.
