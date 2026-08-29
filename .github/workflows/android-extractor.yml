@@ -1,42 +1,16 @@
-name: Android Korean beta patcher
+name: Android PPSSPP freeze tracer
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'android-patcher/**'
-      - 'translations/korean/**'
-      - 'release/korean/**'
-      - 'release/font/**'
-      - 'release/layout/**'
-      - 'docs/audit/fixtures/pr14-eboot-full.toml'
-      - 'cmd/zill/build_korean_iso.go'
-      - 'cmd/zill/build_korean_mobile_plan.go'
-      - 'cmd/zill/build_korean_mobile_pr14_audit.go'
-      - 'cmd/zill/build_korean_c5_runtime_audit.go'
-      - 'cmd/zill/korean_fixed.go'
-      - 'cmd/zill/main.go'
-      - 'internal/**'
-      - 'patches/executable/**'
-      - 'patches/system/**'
+      - 'cmd/zill/**'
       - '.github/workflows/android-extractor.yml'
   pull_request:
     paths:
       - 'android-patcher/**'
-      - 'translations/korean/**'
-      - 'release/korean/**'
-      - 'release/font/**'
-      - 'release/layout/**'
-      - 'docs/audit/fixtures/pr14-eboot-full.toml'
-      - 'cmd/zill/build_korean_iso.go'
-      - 'cmd/zill/build_korean_mobile_plan.go'
-      - 'cmd/zill/build_korean_mobile_pr14_audit.go'
-      - 'cmd/zill/build_korean_c5_runtime_audit.go'
-      - 'cmd/zill/korean_fixed.go'
-      - 'cmd/zill/main.go'
-      - 'internal/**'
-      - 'patches/executable/**'
-      - 'patches/system/**'
+      - 'cmd/zill/**'
       - '.github/workflows/android-extractor.yml'
 
 permissions:
@@ -65,48 +39,7 @@ jobs:
           yes | sdkmanager --licenses >/dev/null || true
           sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
 
-      - name: Prepare embedded Korean beta project data
-        shell: bash
-        run: |
-          set -euxo pipefail
-          ROOT=android-patcher/app/src/main/assets/zillroot
-          rm -rf "$ROOT"
-          mkdir -p \
-            "$ROOT/release/strings" \
-            "$ROOT/release/font" \
-            "$ROOT/release/korean/font" \
-            "$ROOT/release/korean/strings" \
-            "$ROOT/release/layout" \
-            "$ROOT/docs/audit/fixtures" \
-            "$ROOT/patches/executable" \
-            "$ROOT/patches/system"
-          cp -R translations "$ROOT/translations"
-          cp release/strings/eboot.toml release/strings/equipment.toml "$ROOT/release/strings/"
-          cp release/font/metrics.toml release/font/manifest.toml "$ROOT/release/font/"
-          cp release/korean/font/glyphs.toml "$ROOT/release/korean/font/"
-          cp release/korean/strings/eboot.toml "$ROOT/release/korean/strings/"
-          cp -R release/layout/. "$ROOT/release/layout/"
-          cp docs/audit/fixtures/pr14-eboot-full.toml "$ROOT/docs/audit/fixtures/"
-          cp patches/executable/manifest.toml "$ROOT/patches/executable/"
-          cp patches/system/param-sfo.toml "$ROOT/patches/system/"
-          printf '%s\n' "$GITHUB_SHA" > "$ROOT/payload-version.txt"
-          test -f "$ROOT/release/font/metrics.toml"
-          test -f "$ROOT/release/font/manifest.toml"
-          test -f "$ROOT/release/layout/consumer-map.toml"
-          test -f "$ROOT/release/layout/categories.toml"
-          test -f "$ROOT/docs/audit/fixtures/pr14-eboot-full.toml"
-          du -sh "$ROOT"
-
-      - name: Trace allocator backend window
-        shell: bash
-        run: |
-          set -euxo pipefail
-          TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
-          sed -i 's/ALLOCATOR_CANDIDATE_DISASM_START = 0x089E2B54L/ALLOCATOR_CANDIDATE_DISASM_START = 0x08A23064L/' "$TRACE"
-          sed -i 's/ALLOCATOR_CANDIDATE_DISASM_COUNT = 128/ALLOCATOR_CANDIDATE_DISASM_COUNT = 256/' "$TRACE"
-          grep -n 'ALLOCATOR_CANDIDATE_DISASM_' "$TRACE"
-
-      - name: Build arm64 Korean beta builder
+      - name: Build arm64 PPSSPP debugger bridge
         shell: bash
         run: |
           set -euxo pipefail
@@ -115,45 +48,28 @@ jobs:
             -o android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so ./cmd/zill
           chmod 0755 android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
           file android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
-          readelf -h android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so | sed -n '1,40p'
 
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
 
-      - name: Go tests
-        run: go test ./...
-
-      - name: Android unit tests
-        run: gradle -p android-patcher :app:testDebugUnitTest --no-daemon --stacktrace
-
-      - name: Build debug APK
+      - name: Build tracer APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
 
-      - name: Inspect APK beta payload
+      - name: Verify tracer-only APK essentials
         shell: bash
         run: |
           set -euo pipefail
-          unzip -l android-patcher/app/build/outputs/apk/debug/app-debug.apk > /tmp/apk-list.txt
+          APK=android-patcher/app/build/outputs/apk/debug/app-debug.apk
+          unzip -l "$APK" > /tmp/apk-list.txt
           grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/release/font/metrics.toml' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/release/font/manifest.toml' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/release/korean/font/glyphs.toml' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/release/korean/strings/eboot.toml' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/release/layout/consumer-map.toml' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/release/layout/categories.toml' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/docs/audit/fixtures/pr14-eboot-full.toml' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
-          grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations/korean/messages/|assets/zillroot/release/font/(metrics|manifest).toml|assets/zillroot/release/korean/font/glyphs.toml|assets/zillroot/release/korean/strings/eboot.toml|assets/zillroot/release/layout/consumer-map.toml|assets/zillroot/release/layout/categories.toml|assets/zillroot/docs/audit/fixtures/pr14-eboot-full.toml|assets/zillroot/payload-version.txt' /tmp/apk-list.txt | sed -n '1,36p'
-
-      - name: SHA-256
-        shell: bash
-        run: sha256sum android-patcher/app/build/outputs/apk/debug/app-debug.apk | tee android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
+          grep -q 'classes.dex' /tmp/apk-list.txt
+          ! grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
+          sha256sum "$APK" | tee "$APK.sha256"
 
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-korean-beta-patcher-debug
+          name: zill-freeze-tracer-debug
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
