@@ -15,14 +15,14 @@ func jType(op, target uint32) uint32 { return op<<26 | ((target >> 2) & 0x03ffff
 
 func TestScanFindsSyntheticSubstitutionDispatcherShape(t *testing.T) {
 	words := []uint32{
-		iType(0x24, 4, 2, 0),      // lbu r2,0(r4)
-		iType(0x09, 0, 3, 2),      // addiu r3,r0,2
-		iType(0x05, 2, 3, 4),      // bne r2,r3,...
-		iType(0x09, 4, 4, 1),      // addiu r4,r4,1
-		iType(0x24, 4, 5, 0),      // lbu r5,0(r4)
-		iType(0x09, 0, 6, 0x15),   // addiu r6,r0,0x15
-		iType(0x04, 5, 6, 2),      // beq r5,r6,...
-		rType(0, 5, 7, 2, 0),      // sll r7,r5,2
+		iType(0x24, 4, 2, 0),
+		iType(0x09, 0, 3, 2),
+		iType(0x05, 2, 3, 4),
+		iType(0x09, 4, 4, 1),
+		iType(0x24, 4, 5, 0),
+		iType(0x09, 0, 6, 0x15),
+		iType(0x04, 5, 6, 2),
+		rType(0, 5, 7, 2, 0),
 	}
 	data := syntheticELF32MIPS(encodeWords(words), uint32(elf.PF_R|elf.PF_X))
 	got, err := Scan(data)
@@ -63,17 +63,20 @@ func TestDecodeRetainsCallsAndPointerMemoryOps(t *testing.T) {
 			t.Fatalf("decode(%#08x)=%q, want %q", tt.word, got, tt.want)
 		}
 	}
+	if got, want := decodeAt(jType(0x03, 0x00123450), 0x08801234), "jal 0x8123450"; got != want {
+		t.Fatalf("decodeAt jump target=%q, want %q", got, want)
+	}
 }
 
 func TestScanRejectsColocatedButRegisterUnlinkedLiterals(t *testing.T) {
 	words := []uint32{
-		iType(0x09, 0, 3, 2),      // literal 2 in r3
-		iType(0x24, 4, 5, 0),      // byte load into r5
-		iType(0x05, 7, 8, 4),      // unrelated branch
-		iType(0x09, 0, 6, 0x15),   // literal 0x15 in r6
-		iType(0x24, 9, 10, 0),     // unrelated byte load
-		iType(0x04, 11, 12, 2),    // unrelated branch
-		rType(0, 10, 13, 2, 0),    // unrelated scaled index
+		iType(0x09, 0, 3, 2),
+		iType(0x24, 4, 5, 0),
+		iType(0x05, 7, 8, 4),
+		iType(0x09, 0, 6, 0x15),
+		iType(0x24, 9, 10, 0),
+		iType(0x04, 11, 12, 2),
+		rType(0, 10, 13, 2, 0),
 	}
 	data := syntheticELF32MIPS(encodeWords(words), uint32(elf.PF_R|elf.PF_X))
 	got, err := Scan(data)
@@ -83,8 +86,8 @@ func TestScanRejectsColocatedButRegisterUnlinkedLiterals(t *testing.T) {
 
 func TestScanRequiresLiteralConstructionFromZeroRegister(t *testing.T) {
 	words := []uint32{
-		iType(0x24, 4, 2, 0),      // lbu r2,0(r4)
-		iType(0x09, 9, 3, 2),      // addiu r3,r9,2: arithmetic, not literal construction
+		iType(0x24, 4, 2, 0),
+		iType(0x09, 9, 3, 2),
 		iType(0x05, 2, 3, 4),
 		iType(0x09, 0, 6, 0x15),
 		iType(0x04, 2, 6, 2),
