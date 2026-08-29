@@ -65,6 +65,13 @@ func compileKoreanBanks(source *corpus.Project, korean *corpus.KoreanProject, ba
 			failures = append(failures, err.Error())
 			continue
 		}
+		// Never infer runtime safety from a previous successful playthrough. Every
+		// generated bank must independently prove the widened table contract on
+		// every build before it can enter the archive.
+		if err := message.VerifyWideBank(bank.Name, data, len(bank.Records)); err != nil {
+			failures = append(failures, err.Error())
+			continue
+		}
 		if _, exists := compiled[bank.Name]; exists {
 			failures = append(failures, fmt.Sprintf("duplicate retail bank name %s", bank.Name))
 			continue
