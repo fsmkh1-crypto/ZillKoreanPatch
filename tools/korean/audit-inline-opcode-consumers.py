@@ -17,6 +17,9 @@ import tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 VALUE_RE = re.compile(r"<value:\$([0-9A-Fa-f]{2})>")
+# Freeze-adjacent records are reporting anchors only. Inclusion here does not
+# elevate any record or opcode to a root cause.
+FOCUS_IDS = (10010,)
 
 
 def load_toml(path: pathlib.Path):
@@ -64,6 +67,11 @@ def main() -> None:
     record_consumers: dict[str, collections.Counter[str]] = collections.defaultdict(collections.Counter)
     categories_by_opcode: dict[str, collections.Counter[str]] = collections.defaultdict(collections.Counter)
     record_ids: dict[str, set[int]] = collections.defaultdict(set)
+    direct_occurrences: collections.Counter[str] = collections.Counter()
+    c5_occurrences: collections.Counter[str] = collections.Counter()
+    c5_record_ids: dict[str, set[int]] = collections.defaultdict(set)
+    c5_categories: dict[str, collections.Counter[str]] = collections.defaultdict(collections.Counter)
+    focus_rows: dict[int, tuple[list[str], list[str], str]] = {}
 
     for filename in sorted(glob.glob(str(ROOT / "translations/korean/messages/msgsec*.toml"))):
         data = load_toml(pathlib.Path(filename))
@@ -96,33 +104,54 @@ def main() -> None:
                 labels.append("unmapped-by-audited-fixed-consumers")
             category = category_for(mid)
 
+            if mid in FOCUS_IDS:
+                focus_rows[mid] = (opcodes, labels, category)
+
             for opcode in opcodes:
+                direct_occurrences[opcode] += 1
                 record_ids[opcode].add(mid)
                 occurrence_consumers[opcode].update(labels)
+                if mid in c5:
+                    c5_occurrences[opcode] += 1
+                    c5_record_ids[opcode].add(mid)
             for opcode in set(opcodes):
                 record_consumers[opcode].update(labels)
                 categories_by_opcode[opcode][category] += 1
+                if mid in c5:
+                    c5_categories[opcode][category] += 1
 
     print("INLINE_OPCODE_CONSUMER_AUDIT")
     for opcode in sorted(record_ids):
-        occurrences = sum(occurrence_consumers[opcode].values())
-        # Consumer labels can overlap for one record, so report the direct token
-        # occurrence total separately from the labelled occurrence sum.
-        direct_occurrences = 0
-        for filename in sorted(glob.glob(str(ROOT / "translations/korean/messages/msgsec*.toml"))):
-            data = load_toml(pathlib.Path(filename))
-            for key, record in data.items():
-                if int(key) not in record_ids[opcode] or not isinstance(record, dict):
-                    continue
-                text = record.get("korean")
-                if isinstance(text, str):
-                    direct_occurrences += inline_opcodes(text).count(opcode)
         print(
-            f"OPCODE ${opcode} inline_occurrences={direct_occurrences} records={len(record_ids[opcode])} "
+            f"OPCODE ${opcode} inline_occurrences={direct_occurrences[opcode]} records={len(record_ids[opcode])} "
             f"consumer_records=" + ",".join(f"{k}:{v}" for k, v in sorted(record_consumers[opcode].items())) + " "
             f"categories=" + ",".join(f"{k}:{v}" for k, v in categories_by_opcode[opcode].most_common())
         )
+
+    print("C5_INLINE_OPCODE_AUDIT")
+    for opcode in sorted(c5_record_ids):
+        bound = "16" if opcode == "28" else "unknown"
+        print(
+            f"C5_OPCODE ${opcode} inline_occurrences={c5_occurrences[opcode]} records={len(c5_record_ids[opcode])} "
+            f"known_max_encoded_bytes={bound} categories="
+            + ",".join(f"{k}:{v}" for k, v in c5_categories[opcode].most_common())
+        )
+
+    print("FOCUS_INLINE_OPCODE_AUDIT")
+    for mid in FOCUS_IDS:
+        row = focus_rows.get(mid)
+        if row is None:
+            print(f"FOCUS_ID id={mid} inline_values=none-or-record-missing")
+            continue
+        opcodes, labels, category = row
+        print(
+            f"FOCUS_ID id={mid} inline_opcodes=" + ",".join(f"${opcode}" for opcode in opcodes)
+            + " consumers=" + ",".join(labels)
+            + f" category={category}"
+        )
+
     print("NOTE consumer labels may overlap; this report classifies corpus use, not runtime substitution source or maximum length")
+    print("NOTE C5 membership comes from retained release/layout/consumer-map.toml evidence; it is not independent retail-runtime proof")
 
 
 if __name__ == "__main__":
