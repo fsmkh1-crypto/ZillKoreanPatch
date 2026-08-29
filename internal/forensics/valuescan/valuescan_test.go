@@ -5,6 +5,7 @@ package valuescan
 import (
 	"debug/elf"
 	"encoding/binary"
+	"strings"
 	"testing"
 )
 
@@ -26,7 +27,19 @@ func TestScanFindsSyntheticSubstitutionDispatcherShape(t *testing.T) {
 	got, err := Scan(data)
 	if err != nil { t.Fatal(err) }
 	if len(got) != 1 { t.Fatalf("candidates=%d, want 1", len(got)) }
-	if got[0].Score < 8 { t.Fatalf("score=%d reasons=%v", got[0].Score, got[0].Reasons) }
+	candidate := got[0]
+	if candidate.Score < 8 { t.Fatalf("score=%d reasons=%v", candidate.Score, candidate.Reasons) }
+	if candidate.FileOffset != 0x104 { t.Fatalf("file offset=%#x, want %#x", candidate.FileOffset, 0x104) }
+	if candidate.VirtualAddress != 0x08804004 { t.Fatalf("vaddr=%#x, want %#x", candidate.VirtualAddress, uint64(0x08804004)) }
+	if len(candidate.Window) != len(words) { t.Fatalf("window=%d instructions, want %d", len(candidate.Window), len(words)) }
+	if candidate.Window[0].FileOffset != 0x100 || candidate.Window[0].VirtualAddress != 0x08804000 {
+		t.Fatalf("first instruction mapping=%#v", candidate.Window[0])
+	}
+	joined := ""
+	for _, instruction := range candidate.Window { joined += instruction.Text + "\n" }
+	if !strings.Contains(joined, "addiu r6,r0,21") || !strings.Contains(joined, "sll r7,r5,2") {
+		t.Fatalf("decoded window missing focus evidence:\n%s", joined)
+	}
 }
 
 func TestScanIgnoresNonExecutableSegment(t *testing.T) {
