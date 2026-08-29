@@ -6,6 +6,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.IBinder;
 import android.util.Base64;
 
@@ -24,6 +25,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 /** Persistent PPSSPP debugger connection with explicit user-triggered capture. */
@@ -42,7 +45,14 @@ public final class FreezeTraceService extends Service {
     private static final int INLINE_DUMP_SIZE = 0x120;
     private static final int POINTER_SLOT_RELATIVE = 0x100;
 
+    private static final String PREFS = "freeze_trace_state";
+    private static final String PREF_WANT_CONNECTED = "want_connected";
+    private static final String PREF_PORT = "port";
+    private static final int DEFAULT_PORT = 34500;
+    private static final int SUPERVISOR_PERIOD_SECONDS = 5;
+
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
+    private final ScheduledExecutorService supervisor = Executors.newSingleThreadScheduledExecutor();
     private volatile Process process;
     private BufferedReader reader;
     private BufferedWriter writer;
@@ -58,25 +68,40 @@ public final class FreezeTraceService extends Service {
             manager.createNotificationChannel(new NotificationChannel(
                     CHANNEL_ID, "PPSSPP 수동 캡처", NotificationManager.IMPORTANCE_LOW));
         }
+        supervisor.scheduleWithFixedDelay(this::superviseConnection,
+                SUPERVISOR_PERIOD_SECONDS, SUPERVISOR_PERIOD_SECONDS, TimeUnit.SECONDS);
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        if (intent == null) return START_NOT_STICKY;
+        SharedPreferences prefs = prefs();
+        if (intent == null) {
+            if (prefs.getBoolean(PREF_WANT_CONNECTED, false)) {
+                int port = prefs.getInt(PREF_PORT, DEFAULT_PORT);
+                startForeground(NOTIFICATION_ID, notification("PPSSPP 연결 복구 중 · " + port));
+                worker.execute(() -> connectPersistent(port, "service_restart"));
+                return START_STICKY;
+            }
+            stopSelf(startId);
+            return START_NOT_STICKY;
+        }
+
         String action = intent.getAction();
-        int port = intent.getIntExtra(EXTRA_PORT, 34500);
+        int port = intent.getIntExtra(EXTRA_PORT, prefs.getInt(PREF_PORT, DEFAULT_PORT));
 
         if (ACTION_CONNECT.equals(action)) {
+            prefs.edit().putBoolean(PREF_WANT_CONNECTED, true).putInt(PREF_PORT, port).apply();
             startForeground(NOTIFICATION_ID, notification("PPSSPP 연결 중 · " + port));
-            worker.execute(() -> connectPersistent(port));
+            worker.execute(() -> connectPersistent(port, "user_connect"));
             return START_STICKY;
         }
         if (ACTION_CAPTURE_NOW.equals(action)) {
             startForeground(NOTIFICATION_ID, notification("현재 상태 수동 캡처 중"));
-            worker.execute(this::captureOnExistingConnection);
+            worker.execute(this::captureWithRecovery);
             return START_STICKY;
         }
         if (ACTION_DISCONNECT.equals(action)) {
+            prefs.edit().putBoolean(PREF_WANT_CONNECTED, false).apply();
             worker.execute(() -> {
                 closeConnection();
                 updateNotification("연결 종료됨");
@@ -85,17 +110,44 @@ public final class FreezeTraceService extends Service {
             });
             return START_NOT_STICKY;
         }
-        return START_NOT_STICKY;
+        return START_STICKY;
     }
 
-    private synchronized void connectPersistent(int port) {
-        if (connected && connectedPort == port && process != null && process.isAlive()) {
+    private SharedPreferences prefs() {
+        return getSharedPreferences(PREFS, MODE_PRIVATE);
+    }
+
+    private synchronized boolean sessionUsable() {
+        return connected && process != null && process.isAlive() && reader != null && writer != null;
+    }
+
+    private void superviseConnection() {
+        SharedPreferences prefs = prefs();
+        if (!prefs.getBoolean(PREF_WANT_CONNECTED, false)) return;
+        int port = prefs.getInt(PREF_PORT, DEFAULT_PORT);
+        synchronized (this) {
+            if (!sessionUsable()) {
+                connectPersistent(port, "supervisor_reconnect");
+                return;
+            }
+            try {
+                request(writer, reader, nextRequestId++, rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
+            } catch (Exception e) {
+                writeFailure("heartbeat_failed", e);
+                closeConnection();
+                updateNotification("연결 끊김 · 자동 재연결 대기");
+            }
+        }
+    }
+
+    private synchronized void connectPersistent(int port, String reason) {
+        if (sessionUsable() && connectedPort == port) {
             updateNotification("연결 유지 중 · 프리징 후 수동 캡처");
-            writeEvent("already_connected", "target", "127.0.0.1:" + port);
+            writeEvent("already_connected", "reason", reason);
             return;
         }
         closeConnection();
-        writeEvent("connect_start", "port", port);
+        writeEvent("connect_start", "reason", reason);
         try {
             File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
             if (!executable.isFile()) {
@@ -119,21 +171,37 @@ public final class FreezeTraceService extends Service {
             connected = true;
             connectedPort = port;
             nextRequestId = 1;
-            writeEvent("connected", "target", "127.0.0.1:" + port);
+            prefs().edit().putBoolean(PREF_WANT_CONNECTED, true).putInt(PREF_PORT, port).apply();
+            writeEvent("connected", "reason", reason);
             updateNotification("연결 유지 중 · 프리징 후 수동 캡처");
         } catch (Exception e) {
             writeFailure("connect_failed", e);
             closeConnection();
-            updateNotification("연결 실패 · PPSSPP 디버거 확인");
+            updateNotification("연결 실패 · 자동 재연결 대기");
         }
     }
 
-    private synchronized void captureOnExistingConnection() {
-        if (!connected || process == null || !process.isAlive() || reader == null || writer == null) {
-            writeFailure("manual_capture_failed", new IllegalStateException("유지 중인 debugger 연결이 없습니다"));
-            updateNotification("캡처 실패 · 먼저 연결 유지 시작");
+    private synchronized void captureWithRecovery() {
+        SharedPreferences prefs = prefs();
+        int port = prefs.getInt(PREF_PORT, DEFAULT_PORT);
+        boolean reused = sessionUsable();
+        if (!reused) {
+            if (!prefs.getBoolean(PREF_WANT_CONNECTED, false)) {
+                writeFailure("manual_capture_failed",
+                        new IllegalStateException("연결 유지가 시작되지 않았습니다"));
+                updateNotification("캡처 실패 · 먼저 연결 유지 시작");
+                return;
+            }
+            writeEvent("capture_reconnect_attempt", "port", port);
+            connectPersistent(port, "capture_recovery");
+        }
+        if (!sessionUsable()) {
+            writeFailure("manual_capture_failed",
+                    new IllegalStateException("debugger 연결 복구 후에도 세션을 사용할 수 없습니다"));
+            updateNotification("캡처 실패 · 연결 복구 실패");
             return;
         }
+
         try {
             JSONObject statusResponse = request(writer, reader, nextRequestId++,
                     rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
@@ -147,13 +215,13 @@ public final class FreezeTraceService extends Service {
             long a1 = requireRegister(regs, "a1");
             long pc = requireRegister(regs, "pc");
             long pageStart = (s0 + INLINE_PAGE_OFFSET) & 0xffffffffL;
-            byte[] dump = readMemory(writer, reader, pageStart, INLINE_DUMP_SIZE);
+            byte[] dump = readMemory(pageStart, INLINE_DUMP_SIZE);
 
             JSONObject capture = new JSONObject();
             capture.put("event", "manual_freeze_capture");
             capture.put("time_ms", System.currentTimeMillis());
             capture.put("target", "127.0.0.1:" + connectedPort);
-            capture.put("connection_reused", true);
+            capture.put("connection_reused", reused);
             capture.put("cpu_status", status);
             capture.put("pc", hex32(pc));
             capture.put("s0", hex32(s0));
@@ -169,15 +237,17 @@ public final class FreezeTraceService extends Service {
             updateNotification("수동 캡처 완료 · 최근 로그 복사");
         } catch (Exception e) {
             writeFailure("manual_capture_failed", e);
-            updateNotification("수동 캡처 실패 · 로그 확인");
+            closeConnection();
+            updateNotification("캡처 실패 · 자동 재연결 대기");
         }
     }
 
-    private byte[] readMemory(BufferedWriter out, BufferedReader in, long address, int size) throws Exception {
+    private byte[] readMemory(long address, int size) throws Exception {
         JSONObject params = new JSONObject();
         params.put("address", address & 0xffffffffL);
         params.put("size", size);
-        JSONObject response = request(out, in, nextRequestId++, rawCommand("memory.read", params), RESPONSE_TIMEOUT_MS);
+        JSONObject response = request(writer, reader, nextRequestId++,
+                rawCommand("memory.read", params), RESPONSE_TIMEOUT_MS);
         String encoded = rawResponse(response).optString("base64", "");
         if (encoded.isEmpty()) throw new IllegalStateException("memory.read 응답에 base64 데이터가 없습니다");
         byte[] decoded = Base64.decode(encoded, Base64.DEFAULT);
@@ -297,6 +367,7 @@ public final class FreezeTraceService extends Service {
             JSONObject obj = new JSONObject();
             obj.put("event", event);
             obj.put("time_ms", System.currentTimeMillis());
+            obj.put("target", connectedPort > 0 ? "127.0.0.1:" + connectedPort : "not_connected");
             obj.put(key, value);
             writeCapture(obj.toString());
         } catch (Exception ignored) {}
@@ -308,6 +379,10 @@ public final class FreezeTraceService extends Service {
             obj.put("event", event);
             obj.put("time_ms", System.currentTimeMillis());
             obj.put("target", connectedPort > 0 ? "127.0.0.1:" + connectedPort : "not_connected");
+            obj.put("wanted_connection", prefs().getBoolean(PREF_WANT_CONNECTED, false));
+            obj.put("saved_port", prefs().getInt(PREF_PORT, DEFAULT_PORT));
+            obj.put("process_alive", process != null && process.isAlive());
+            obj.put("connected_flag", connected);
             obj.put("error", message(error));
             writeCapture(obj.toString());
         } catch (Exception ignored) {}
@@ -351,7 +426,7 @@ public final class FreezeTraceService extends Service {
                 .setContentTitle("질올 PPSSPP 수동 캡처")
                 .setContentText(text)
                 .setContentIntent(pending)
-                .setOngoing(connected)
+                .setOngoing(prefs().getBoolean(PREF_WANT_CONNECTED, false))
                 .build();
     }
 
@@ -367,6 +442,7 @@ public final class FreezeTraceService extends Service {
     @Override
     public void onDestroy() {
         closeConnection();
+        supervisor.shutdownNow();
         worker.shutdown();
         super.onDestroy();
     }
