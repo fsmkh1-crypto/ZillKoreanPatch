@@ -30,13 +30,14 @@ type Candidate struct {
 	Score          int
 	Reasons        []string
 	Window         []Instruction
+	Focus15Linked  bool
 }
 
 // Scan searches executable PT_LOAD segments for register-linked evidence of a
-// 0x02 control-prefix comparison. A nearby 0x15 comparison is scored only when
-// the branch actually compares a byte-loaded register with a register holding
-// literal 0x15. This deliberately rejects windows whose literals and byte loads
-// are merely colocated.
+// 0x02 control-prefix comparison and, because this scanner is specifically the
+// $15 forensic gate, a register-linked 0x15 comparison in the same retained
+// window. Supporting evidence can rank a qualifying candidate but can never
+// substitute for the focus-opcode linkage itself.
 func Scan(data []byte) ([]Candidate, error) {
 	f, err := elf.NewFile(bytes.NewReader(data))
 	if err != nil {
@@ -61,7 +62,7 @@ func Scan(data []byte) ([]Candidate, error) {
 				continue
 			}
 			c := scoreWindow(data, start, end, prog.Vaddr, off)
-			if c.Score >= 6 {
+			if c.Focus15Linked && c.Score >= 6 {
 				out = append(out, c)
 			}
 		}
@@ -176,10 +177,12 @@ func scoreWindow(data []byte, segmentStart, segmentEnd, segmentVaddr, anchor uin
 	if linked15 {
 		c.Score += 4
 		c.Reasons = append(c.Reasons, "byte-loaded register compared with literal 0x15 register")
+		c.Focus15Linked = true
 	}
 
 	// Supporting evidence is useful only when tied to the same loaded stream or
-	// opcode register. It cannot independently make a candidate reportable.
+	// opcode register. It can rank an already focus-qualified candidate, but it
+	// cannot independently make a $15 forensic candidate reportable.
 	for _, w := range words {
 		if opcode(w) == 0x09 && (simm(w) == 1 || simm(w) == 2) && rs(w) == rt(w) {
 			for loadReg := range prefixLoadRegs {
