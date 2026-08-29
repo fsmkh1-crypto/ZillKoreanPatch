@@ -20,19 +20,23 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 	for i := 0; i < len(args); i++ {
 		switch {
 		case args[i] == "--iso" && i+1 < len(args):
-			i++; isoPath = args[i]
+			i++
+			isoPath = args[i]
 		case strings.HasPrefix(args[i], "--iso="):
 			isoPath = strings.TrimPrefix(args[i], "--iso=")
 		case args[i] == "--out" && i+1 < len(args):
-			i++; outputPath = args[i]
+			i++
+			outputPath = args[i]
 		case strings.HasPrefix(args[i], "--out="):
 			outputPath = strings.TrimPrefix(args[i], "--out=")
 		case args[i] == "--work-dir" && i+1 < len(args):
-			i++; workDir = args[i]
+			i++
+			workDir = args[i]
 		case strings.HasPrefix(args[i], "--work-dir="):
 			workDir = strings.TrimPrefix(args[i], "--work-dir=")
 		case args[i] == "--version" && i+1 < len(args):
-			i++; version = args[i]
+			i++
+			version = args[i]
 		case strings.HasPrefix(args[i], "--version="):
 			version = strings.TrimPrefix(args[i], "--version=")
 		default:
@@ -74,6 +78,9 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 	fmt.Fprintln(stdout, "Mobile beta safety mode: retail banks are authenticated and bound before slot planning and canonical Korean compilation.")
 	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	planner := func(source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
+		if err := auditPR14HistoricalPolicies(root, gameDir, source, korean); err != nil {
+			return koreanslots.Plan{}, 0, 0, fmt.Errorf("PR14 historical policy audit: %w", err)
+		}
 		return buildKoreanAlphaPlanMobile(root, gameDir, source, korean)
 	}
 	if err := release.BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, resolvedVersion, planner); err != nil {
