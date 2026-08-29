@@ -48,6 +48,7 @@ func compileKoreanBanks(source *corpus.Project, korean *corpus.KoreanProject, ba
 
 	compiled := make(map[string][]byte, len(banks))
 	seenSections := make(map[int]struct{}, len(banks))
+	projectionChecked := 0
 	var failures []string
 	for _, bank := range banks {
 		if _, exists := seenSections[bank.Section]; exists {
@@ -60,6 +61,19 @@ func compileKoreanBanks(source *corpus.Project, korean *corpus.KoreanProject, ba
 			failures = append(failures, fmt.Sprintf("%s: source project has %d items for %d retail records", bank.Name, len(items), len(bank.Records)))
 			continue
 		}
+
+		// Audit the Korean-specific semantic splitter against the untouched
+		// upstream materializer on every translatable record in the authenticated
+		// retail bank. This runs before Korean wording or glyph mapping enters the
+		// comparison, so a fixed-line-break/fragment-topology divergence cannot be
+		// misdiagnosed later as a translation or renderer problem.
+		checked, err := message.VerifyKoreanProjectionCompatibility(bank)
+		if err != nil {
+			failures = append(failures, err.Error())
+			continue
+		}
+		projectionChecked += checked
+
 		data, err := message.CompileBankKorean(bank, items, replacementsBySection[bank.Section], mapping)
 		if err != nil {
 			failures = append(failures, err.Error())
@@ -89,5 +103,6 @@ func compileKoreanBanks(source *corpus.Project, korean *corpus.KoreanProject, ba
 	if len(failures) > 0 {
 		return nil, fmt.Errorf("compile Korean banks failed:\n- %s", strings.Join(failures, "\n- "))
 	}
+	fmt.Printf("Korean projection compatibility audit: %d translatable retail record(s) byte-identical to upstream materialization.\n", projectionChecked)
 	return compiled, nil
 }
