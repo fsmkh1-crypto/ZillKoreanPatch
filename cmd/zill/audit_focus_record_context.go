@@ -45,9 +45,9 @@ func auditFocusRecordContext(root, gameDir string, stdout io.Writer) error {
 			evidence, _ := json.Marshal(entry.ConsumerEvidence)
 			controls, _ := json.Marshal(entry.SourceControls)
 			addressees, _ := json.Marshal(entry.PossibleAddressees)
-			fmt.Fprintf(stdout, "FORENSIC C5_FOCUS record=%d scene=%q member=%q source_archive=%q offset=%d reachability=%q display_mode=%v portrait=%v name_label=%v\n",
+			fmt.Fprintf(stdout, "FORENSIC C5_FOCUS record=%d scene=%q member=%q source_archive=%q offset=%d reachability=%q raw=%q display_mode=%v association_handle=%v portrait=%v name_label=%v\n",
 				focusRecordID, scene.ID, scene.Member, scene.SourceArchive, entry.Offset, entry.Reachability,
-				entry.DisplayMode, entry.PortraitRequested, entry.NameLabelRequested)
+				entry.Raw, entry.DisplayMode, entry.EntityAssociationHandleRaw, entry.PortraitRequested, entry.NameLabelRequested)
 			fmt.Fprintf(stdout, "FORENSIC C5_FOCUS consumer_evidence=%s\n", evidence)
 			fmt.Fprintf(stdout, "FORENSIC C5_FOCUS source_controls=%s\n", controls)
 			fmt.Fprintf(stdout, "FORENSIC C5_FOCUS possible_addressees=%s\n", addressees)
