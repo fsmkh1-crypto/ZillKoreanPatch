@@ -7,7 +7,6 @@ import (
 	"path/filepath"
 
 	"github.com/HK47196/zill/internal/corpus"
-	"github.com/HK47196/zill/internal/koreanslots"
 )
 
 // PreflightKoreanAlphaISOOnly executes the authenticated, asset-backed mobile
