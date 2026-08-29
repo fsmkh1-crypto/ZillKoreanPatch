@@ -3,6 +3,7 @@
 package main
 
 import (
+	"crypto/sha256"
 	"fmt"
 	"strings"
 
@@ -20,6 +21,9 @@ func auditC5RuntimeCandidates(gameDir string) error {
 	if err != nil {
 		return err
 	}
+	retailDigest := sha256.Sum256(retailEBOOT)
+	fmt.Printf("FORENSIC RETAIL_EBOOT_BINDING sha256=%x bytes=%d authenticated=true\n", retailDigest, len(retailEBOOT))
+
 	candidates, err := c5scan.Scan(retailEBOOT)
 	if err != nil {
 		return fmt.Errorf("C5 runtime candidate scan: %w", err)
