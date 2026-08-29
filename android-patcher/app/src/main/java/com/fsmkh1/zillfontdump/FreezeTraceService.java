@@ -43,23 +43,27 @@ public final class FreezeTraceService extends Service {
     private static final int MAX_SAMPLES = 60; // about 30 seconds
     private static final int STALL_SAMPLES = 3;
 
-    // Runtime evidence from the 2026-08-29 freeze repeatedly landed in this
-    // 0x64-byte window while a1 advanced for megabytes. Detect that pattern
-    // independently from a true CPU stall (ticks continue increasing here).
     private static final long HOT_PC_MIN = 0x08966200L;
     private static final long HOT_PC_MAX = 0x08966260L;
     private static final int HOT_LOOP_SAMPLES = 3;
     private static final long HOT_A1_MIN_ADVANCE = 0x1000L;
 
-    // Capture enough code before the hot window to include loop setup, a1/t2
-    // initialization and nearby branches, rather than only the tight body.
+    // Scanner/parser body plus setup.
     private static final long HOT_DISASM_START = 0x08966120L;
     private static final int HOT_DISASM_COUNT = 96;
 
-    // ra was repeatedly observed as 0x0886C9C0. Capture the caller neighborhood
-    // as supporting evidence, without assuming it is the root cause.
-    private static final long CALLER_DISASM_START = 0x0886C940L;
-    private static final int CALLER_DISASM_COUNT = 64;
+    // Runtime evidence places the relevant caller in z_un_0886c84c. Capture
+    // from the real function start far enough to include the +0x3C0 field flow
+    // and both calls to z_un_089661dc.
+    private static final long PRODUCER_DISASM_START = 0x0886C84CL;
+    private static final int PRODUCER_DISASM_COUNT = 112;
+
+    // Object state around the suspicious +0x3C0 field. This deliberately
+    // includes neighboring fields so pointer/offset/type-confusion hypotheses
+    // can be checked rather than assuming +0x3C0 is independently corrupted.
+    private static final long OBJECT_WINDOW_OFFSET = 0x380L;
+    private static final int OBJECT_WINDOW_SIZE = 0x180; // through +0x4FF
+    private static final long POINTER_FIELD_OFFSET = 0x3C0L;
     private static final long HOT_EVIDENCE_INTERVAL_MS = 15000L;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
@@ -168,6 +172,7 @@ public final class FreezeTraceService extends Service {
                     long sp = findRegister(regs, "sp");
                     long a1 = findRegister(regs, "a1");
                     long t2 = findRegister(regs, "t2");
+                    long s0 = findRegister(regs, "s0");
                     if (pc < 0) pc = rawCpu.optLong("pc", -1);
                     if (pc >= 0) lastPc = pc & 0xffffffffL;
                     if (sp >= 0) lastSp = sp & 0xffffffffL;
@@ -233,54 +238,47 @@ public final class FreezeTraceService extends Service {
                         evidence.put("a1_start", hex32(hotA1Start));
                         evidence.put("a1_now", hex32(a1));
                         evidence.put("a1_advance", hex32(unsignedAdvance(hotA1Start, a1)));
-
                         if (hotT2Start >= 0) evidence.put("t2_start", hex32(hotT2Start));
                         if (t2 >= 0) evidence.put("t2_now", hex32(t2));
                         if (hotT2Start >= 0 && t2 >= 0) evidence.put("t2_unsigned_delta", hex32(unsignedAdvance(hotT2Start, t2)));
                         if (hotT2Max >= 0) evidence.put("t2_max", hex32(hotT2Max));
                         evidence.put("t2_decrease_count", hotT2Resets);
-
                         if (hotEntryPrevPc >= 0) evidence.put("entry_prev_pc", hex32(hotEntryPrevPc));
                         if (hotEntryPrevGpr != null) evidence.put("entry_prev_gpr", hotEntryPrevGpr);
                         evidence.put("gpr", currentGpr);
 
                         tryDisasm(writer, reader, requestId++, evidence, "loop_and_setup_disasm",
                                 HOT_DISASM_START, HOT_DISASM_COUNT);
-                        tryDisasm(writer, reader, requestId++, evidence, "caller_disasm",
-                                CALLER_DISASM_START, CALLER_DISASM_COUNT);
+                        tryDisasm(writer, reader, requestId++, evidence, "producer_disasm",
+                                PRODUCER_DISASM_START, PRODUCER_DISASM_COUNT);
 
+                        // Keep the old moving-a1 read as evidence, but do not equate
+                        // debugger Invalid address with a CPU-visible fault by itself.
                         if (a1 >= 0) {
-                            JSONObject a1ReadParams = new JSONObject();
-                            long a1ReadStart = a1 & 0xfffffff0L;
-                            a1ReadParams.put("address", a1ReadStart);
-                            a1ReadParams.put("size", 64);
-                            try {
-                                JSONObject a1Memory = request(writer, reader, requestId++,
-                                        rawCommand("memory.read", a1ReadParams), RESPONSE_TIMEOUT_MS);
-                                evidence.put("a1_memory_start", hex32(a1ReadStart));
-                                evidence.put("a1_memory", rawResponse(a1Memory));
-                            } catch (Exception readError) {
-                                evidence.put("a1_memory_error", message(readError));
-                            }
+                            tryMemoryRead(writer, reader, requestId++, evidence,
+                                    "a1_memory", a1 & 0xfffffff0L, 64);
+                        }
+
+                        if (s0 >= 0) {
+                            long objectStart = (s0 + OBJECT_WINDOW_OFFSET) & 0xffffffffL;
+                            long pointerField = (s0 + POINTER_FIELD_OFFSET) & 0xffffffffL;
+                            evidence.put("s0_object_base", hex32(s0));
+                            evidence.put("s0_object_window_start", hex32(objectStart));
+                            evidence.put("s0_pointer_field_address", hex32(pointerField));
+                            tryMemoryRead(writer, reader, requestId++, evidence,
+                                    "s0_object_window", objectStart, OBJECT_WINDOW_SIZE);
+                            tryMemoryRead(writer, reader, requestId++, evidence,
+                                    "s0_pointer_field", pointerField, 4);
                         }
 
                         if (lastSp >= 0) {
-                            JSONObject stackParams = new JSONObject();
-                            stackParams.put("address", lastSp);
-                            stackParams.put("size", 128);
-                            try {
-                                JSONObject stackMemory = request(writer, reader, requestId++,
-                                        rawCommand("memory.read", stackParams), RESPONSE_TIMEOUT_MS);
-                                evidence.put("stack_memory_start", hex32(lastSp));
-                                evidence.put("stack_memory", rawResponse(stackMemory));
-                            } catch (Exception readError) {
-                                evidence.put("stack_memory_error", message(readError));
-                            }
+                            tryMemoryRead(writer, reader, requestId++, evidence,
+                                    "stack_memory", lastSp, 128);
                         }
 
                         appendSample(evidence.toString());
                         lastHotEvidenceMs = now;
-                        updateNotification("PPSSPP 장기 탐색 루프 감지 · a1/t2/진입상태 보존");
+                        updateNotification("PPSSPP 장기 탐색 감지 · producer/객체 상태 보존");
                     }
 
                     if (!stallReported && sameTickCount >= STALL_SAMPLES) {
@@ -336,6 +334,24 @@ public final class FreezeTraceService extends Service {
         }
     }
 
+    private static void tryMemoryRead(BufferedWriter writer, BufferedReader reader, int requestId,
+                                      JSONObject evidence, String key, long address, int size) {
+        try {
+            JSONObject params = new JSONObject();
+            params.put("address", address & 0xffffffffL);
+            params.put("size", size);
+            JSONObject memory = request(writer, reader, requestId,
+                    rawCommand("memory.read", params), RESPONSE_TIMEOUT_MS);
+            evidence.put(key + "_start", hex32(address));
+            evidence.put(key, rawResponse(memory));
+        } catch (Exception error) {
+            try {
+                evidence.put(key + "_start", hex32(address));
+                evidence.put(key + "_error", message(error));
+            } catch (Exception ignored) {}
+        }
+    }
+
     private synchronized void appendSample(String line) {
         ring.addLast(line);
         while (ring.size() > MAX_SAMPLES) ring.removeFirst();
@@ -373,9 +389,7 @@ public final class FreezeTraceService extends Service {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(
                 new FileInputStream(trace), StandardCharsets.UTF_8))) {
             String line;
-            while ((line = reader.readLine()) != null) {
-                out.append(line).append('\n');
-            }
+            while ((line = reader.readLine()) != null) out.append(line).append('\n');
         }
         return out.toString();
     }
@@ -406,7 +420,8 @@ public final class FreezeTraceService extends Service {
         return out;
     }
 
-    private static JSONObject request(BufferedWriter writer, BufferedReader reader, int id, JSONObject command, int timeoutMs) throws Exception {
+    private static JSONObject request(BufferedWriter writer, BufferedReader reader, int id,
+                                      JSONObject command, int timeoutMs) throws Exception {
         command.put("id", id);
         writer.write(command.toString());
         writer.newLine();
@@ -415,7 +430,8 @@ public final class FreezeTraceService extends Service {
         while (!response.has("id")) response = readObject(reader, "command " + id, timeoutMs);
         if (!response.optBoolean("ok", false)) {
             JSONObject error = response.optJSONObject("error");
-            throw new IllegalStateException(error == null ? response.toString() : error.optString("message", response.toString()));
+            throw new IllegalStateException(error == null ? response.toString()
+                    : error.optString("message", response.toString()));
         }
         return response;
     }
@@ -491,7 +507,11 @@ public final class FreezeTraceService extends Service {
     }
 
     private static void sleep(long millis) {
-        try { Thread.sleep(millis); } catch (InterruptedException ignored) { Thread.currentThread().interrupt(); }
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException ignored) {
+            Thread.currentThread().interrupt();
+        }
     }
 
     @Override
