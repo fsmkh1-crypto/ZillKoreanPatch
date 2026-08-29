@@ -97,6 +97,15 @@ jobs:
           test -f "$ROOT/docs/audit/fixtures/pr14-eboot-full.toml"
           du -sh "$ROOT"
 
+      - name: Broaden allocator core trace window
+        shell: bash
+        run: |
+          set -euxo pipefail
+          TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
+          sed -i 's/ALLOCATOR_CANDIDATE_DISASM_START = 0x089E2B54L/ALLOCATOR_CANDIDATE_DISASM_START = 0x089E2984L/' "$TRACE"
+          sed -i 's/ALLOCATOR_CANDIDATE_DISASM_COUNT = 128/ALLOCATOR_CANDIDATE_DISASM_COUNT = 256/' "$TRACE"
+          grep -n 'ALLOCATOR_CANDIDATE_DISASM_' "$TRACE"
+
       - name: Build arm64 Korean beta builder
         shell: bash
         run: |
