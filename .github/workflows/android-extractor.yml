@@ -31,10 +31,17 @@ jobs:
           grep -q 'PRODUCER_POST_CALL = 0x0886C940L' "$TRACE"
           grep -q 'PRODUCER_STORE = 0x0886C948L' "$TRACE"
           grep -q 'BACKEND_ENTRY = 0x08A23064L' "$TRACE"
+          grep -q 'SECOND_SCANNER_CALL = 0x0886C9B4L' "$TRACE"
+          grep -q 'OBSERVED_FAILING_FIELD_VALUE = 0x8C4C89A4L' "$TRACE"
+          grep -q 'store_equals_scanner_input' "$TRACE"
+          grep -q 'drainBridgeEvents' "$TRACE"
+          grep -q 'cleanupBreakpoints' "$TRACE"
+          grep -q 's4 != 0' "$TRACE"
           grep -q 'cpu.breakpoint.add' "$TRACE"
           grep -q 'pointer_boundary_capture' "$TRACE"
           ! grep -q 'BACKEND_DISASM_START' "$TRACE"
           ! grep -q 'ALLOCATOR_CANDIDATE_DISASM_START' "$TRACE"
+          ! grep -q 'exact producer invocation' "$TRACE"
 
       - uses: actions/setup-go@v7
         with:
