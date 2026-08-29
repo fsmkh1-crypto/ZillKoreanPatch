@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Inventory runtime <value:$XX> substitutions in the accepted Korean corpus.
 
-This is an evidence/audit tool, not a safety validator.  It deliberately reports
+This is an evidence/audit tool, not a safety validator. It deliberately reports
 where static storage validation stops being a complete proof because the game
 supplies bytes at runtime.
 """
@@ -27,6 +27,12 @@ def load_toml(path: pathlib.Path):
 
 def id_set(values):
     return {int(v) for v in values}
+
+
+def compact(text: str, limit: int = 180) -> str:
+    text = text.replace("\r", " ").replace("\n", " ").replace("\t", " ")
+    text = " ".join(text.split())
+    return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
 def main() -> None:
@@ -63,6 +69,7 @@ def main() -> None:
             if not isinstance(record, dict):
                 continue
             korean = record.get("korean")
+            japanese = record.get("japanese")
             if not isinstance(korean, str) or not korean:
                 continue
             total_records += 1
@@ -99,7 +106,8 @@ def main() -> None:
                     "labels": labels,
                     "category": category_for(mid),
                     "adjacency": adjacency,
-                    "text": korean,
+                    "japanese": japanese if isinstance(japanese, str) else "",
+                    "korean": korean,
                 }
             )
 
@@ -114,9 +122,33 @@ def main() -> None:
     if adjacency_counts:
         print("adjacency_opcodes=" + ", ".join(f"${k}:{v}" for k, v in adjacency_counts.most_common()))
 
+    # Representative real-corpus contexts per opcode. These are evidence for
+    # semantic reverse engineering, not labels for the opcode contract.
+    print("OPCODE_CONTEXT_SAMPLES_BEGIN")
+    for opcode in sorted(opcode_counts):
+        candidates = [row for row in rows if opcode in row["tags"]]
+        # Keep samples deterministic while preferring category/consumer diversity.
+        chosen = []
+        seen_shapes = set()
+        for row in candidates:
+            shape = (tuple(row["labels"]), row["category"])
+            if shape in seen_shapes and len(chosen) >= 3:
+                continue
+            seen_shapes.add(shape)
+            chosen.append(row)
+            if len(chosen) == 6:
+                break
+        print(f"OPCODE ${opcode} occurrences={opcode_counts[opcode]} records={len(candidates)}")
+        for row in chosen:
+            print(
+                f"  id={row['id']} consumers={'+'.join(row['labels'])} category={row['category']} "
+                f"JP={compact(row['japanese'])!r} KO={compact(row['korean'])!r}"
+            )
+    print("OPCODE_CONTEXT_SAMPLES_END")
+
     # Highest-value review set: dynamic substitutions at known bounded/display
     # consumers, then records with multiple substitutions, then immediate
-    # substitution/text adjacency.  This is a triage list, not a verdict.
+    # substitution/text adjacency. This is a triage list, not a verdict.
     def score(row):
         bounded_weight = sum(
             1 for label in row["labels"] if label != "unmapped-by-audited-fixed-consumers"
@@ -142,7 +174,8 @@ def main() -> None:
             print(
                 "ID10010_DYNAMIC_CONTEXT "
                 f"consumers={'+'.join(row['labels'])} category={row['category']} "
-                f"tags={','.join('$'+t for t in row['tags'])} adjacency={adj}"
+                f"tags={','.join('$'+t for t in row['tags'])} adjacency={adj} "
+                f"JP={compact(row['japanese'])!r} KO={compact(row['korean'])!r}"
             )
             break
 
