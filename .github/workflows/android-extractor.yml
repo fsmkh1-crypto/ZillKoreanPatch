@@ -68,6 +68,7 @@ jobs:
           cp release/korean/strings/eboot.toml "$ROOT/release/korean/strings/"
           cp patches/executable/manifest.toml "$ROOT/patches/executable/"
           cp patches/system/param-sfo.toml "$ROOT/patches/system/"
+          printf '%s\n' "$GITHUB_SHA" > "$ROOT/payload-version.txt"
           du -sh "$ROOT"
 
       - name: Build arm64 Korean beta builder
@@ -103,7 +104,8 @@ jobs:
           grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/korean/font/glyphs.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/korean/strings/eboot.toml' /tmp/apk-list.txt
-          grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations/korean/messages/|assets/zillroot/release/korean/font/glyphs.toml|assets/zillroot/release/korean/strings/eboot.toml' /tmp/apk-list.txt | sed -n '1,24p'
+          grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
+          grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations/korean/messages/|assets/zillroot/release/korean/font/glyphs.toml|assets/zillroot/release/korean/strings/eboot.toml|assets/zillroot/payload-version.txt' /tmp/apk-list.txt | sed -n '1,24p'
 
       - name: SHA-256
         shell: bash
