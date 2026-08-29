@@ -7,6 +7,7 @@ on:
       - 'android-patcher/**'
       - 'translations/korean/**'
       - 'release/korean/**'
+      - 'release/font/**'
       - 'release/layout/**'
       - 'docs/audit/fixtures/pr14-eboot-full.toml'
       - 'cmd/zill/build_korean_iso.go'
@@ -24,6 +25,7 @@ on:
       - 'android-patcher/**'
       - 'translations/korean/**'
       - 'release/korean/**'
+      - 'release/font/**'
       - 'release/layout/**'
       - 'docs/audit/fixtures/pr14-eboot-full.toml'
       - 'cmd/zill/build_korean_iso.go'
@@ -71,6 +73,7 @@ jobs:
           rm -rf "$ROOT"
           mkdir -p \
             "$ROOT/release/strings" \
+            "$ROOT/release/font" \
             "$ROOT/release/korean/font" \
             "$ROOT/release/korean/strings" \
             "$ROOT/release/layout" \
@@ -79,6 +82,7 @@ jobs:
             "$ROOT/patches/system"
           cp -R translations "$ROOT/translations"
           cp release/strings/eboot.toml release/strings/equipment.toml "$ROOT/release/strings/"
+          cp release/font/metrics.toml release/font/manifest.toml "$ROOT/release/font/"
           cp release/korean/font/glyphs.toml "$ROOT/release/korean/font/"
           cp release/korean/strings/eboot.toml "$ROOT/release/korean/strings/"
           cp -R release/layout/. "$ROOT/release/layout/"
@@ -86,6 +90,8 @@ jobs:
           cp patches/executable/manifest.toml "$ROOT/patches/executable/"
           cp patches/system/param-sfo.toml "$ROOT/patches/system/"
           printf '%s\n' "$GITHUB_SHA" > "$ROOT/payload-version.txt"
+          test -f "$ROOT/release/font/metrics.toml"
+          test -f "$ROOT/release/font/manifest.toml"
           test -f "$ROOT/release/layout/consumer-map.toml"
           test -f "$ROOT/release/layout/categories.toml"
           test -f "$ROOT/docs/audit/fixtures/pr14-eboot-full.toml"
@@ -122,13 +128,15 @@ jobs:
           unzip -l android-patcher/app/build/outputs/apk/debug/app-debug.apk > /tmp/apk-list.txt
           grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
           grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
+          grep -q 'assets/zillroot/release/font/metrics.toml' /tmp/apk-list.txt
+          grep -q 'assets/zillroot/release/font/manifest.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/korean/font/glyphs.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/korean/strings/eboot.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/layout/consumer-map.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/layout/categories.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/docs/audit/fixtures/pr14-eboot-full.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
-          grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations/korean/messages/|assets/zillroot/release/korean/font/glyphs.toml|assets/zillroot/release/korean/strings/eboot.toml|assets/zillroot/release/layout/consumer-map.toml|assets/zillroot/release/layout/categories.toml|assets/zillroot/docs/audit/fixtures/pr14-eboot-full.toml|assets/zillroot/payload-version.txt' /tmp/apk-list.txt | sed -n '1,32p'
+          grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations/korean/messages/|assets/zillroot/release/font/(metrics|manifest).toml|assets/zillroot/release/korean/font/glyphs.toml|assets/zillroot/release/korean/strings/eboot.toml|assets/zillroot/release/layout/consumer-map.toml|assets/zillroot/release/layout/categories.toml|assets/zillroot/docs/audit/fixtures/pr14-eboot-full.toml|assets/zillroot/payload-version.txt' /tmp/apk-list.txt | sed -n '1,36p'
 
       - name: SHA-256
         shell: bash
