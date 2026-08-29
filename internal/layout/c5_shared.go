@@ -6,11 +6,11 @@ import "fmt"
 
 const c5Select33Arms = 8
 
-// c5SelectShape centralizes the C5 select grammar used by both the production
-// validator and forensic audit. The $33 eight-arm shape is inherited from the
-// upstream C5 walker. It is intentionally named here rather than duplicated as
-// a magic literal; its independent retail-runtime derivation remains an audit
-// item and must not be treated as newly proven by this refactor.
+// c5SelectShape centralizes select decoding for new C5 forensic code. The $33
+// eight-arm shape is inherited from the upstream production C5 walker rather
+// than independently re-derived here. Naming it once prevents the audit from
+// introducing a second unexplained magic literal, while its retail-runtime
+// derivation remains an explicit open audit item.
 func c5SelectShape(expr []byte) (arms int, sink bool, err error) {
 	if len(expr) >= 4 && expr[0] == 2 && expr[1] == 0x20 && expr[2] == '%' {
 		if _, err := fmt.Sscanf(string(expr[3:]), "%d", &arms); err != nil || arms <= 0 {
@@ -27,8 +27,9 @@ func c5SelectShape(expr []byte) (arms int, sink bool, err error) {
 // c5PageCursor owns the three-lines-per-page transition rule. addByte returns
 // true only after the byte has been counted into the current page and that byte
 // is the third line break, meaning subsequent bytes belong to a new page.
-// Keeping the count-before-transition rule in one helper prevents the validator
-// and forensic accounting from independently dropping the boundary newline.
+// Keeping the count-before-transition rule in one helper prevents the Korean
+// validator and forensic accounting from independently dropping the boundary
+// newline.
 type c5PageCursor struct {
 	breaks int
 }
