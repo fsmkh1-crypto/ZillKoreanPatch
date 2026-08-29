@@ -21,18 +21,22 @@ import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeoutException;
 
 /**
- * One-shot PPSSPP boundary tracer.
+ * One-shot PPSSPP pointer-boundary tracer.
  *
- * Rather than re-collecting the already established runaway scanner, this
- * tracer follows the single producer invocation that creates s0+0x3C0 and
- * records the value at three boundaries: backend entry/return, wrapper return,
- * and immediately before the slot store.  This avoids wrapper-by-wrapper APK
- * replays and does not require waiting for the later runaway scan.
+ * It does not assume the first producer hit is the failing message. It considers
+ * only s4==0 (+0x3C0) producer candidates, follows each candidate through the
+ * allocator-backend boundary, and commits a trace only when the actual pre-store
+ * v0 equals the repeatedly observed failing field value 0x8C4C89A4.
+ *
+ * Established scanner/producer disassembly stays in docs/audit fixtures and is
+ * intentionally not re-collected here.
  */
 public final class FreezeTraceService extends Service {
     public static final String ACTION_START = "com.fsmkh1.zillfontdump.START_FREEZE_TRACE";
@@ -43,16 +47,21 @@ public final class FreezeTraceService extends Service {
     private static final String CHANNEL_ID = "freeze_trace";
     private static final int NOTIFICATION_ID = 21010;
     private static final int RESPONSE_TIMEOUT_MS = 6000;
-    private static final int BREAK_WAIT_SECONDS = 300;
-    private static final int BREAK_WAIT_TIMEOUT_MS = 305000;
+    private static final int BREAK_POLL_SECONDS = 2;
+    private static final int BREAK_POLL_TIMEOUT_MS = 3500;
     private static final int MAX_EVENTS = 16;
 
-    // Raw runtime disassembly authority: docs/audit/fixtures/runtime-20260829-freeze-disassembly.txt.
+    // Raw runtime disassembly authority:
+    // docs/audit/fixtures/runtime-20260829-freeze-disassembly.txt
     private static final long PRODUCER_CALL = 0x0886C938L;
     private static final long PRODUCER_POST_CALL = 0x0886C940L;
     private static final long PRODUCER_STORE = 0x0886C948L;
     private static final long BACKEND_ENTRY = 0x08A23064L;
     private static final long SLOT_OFFSET = 0x3C0L;
+
+    // Repeatedly observed value at *(s0+0x3C0) during the reproduced runaway scan.
+    // This is a correlation key, not a claim that the value is inherently invalid.
+    private static final long OBSERVED_FAILING_FIELD_VALUE = 0x8C4C89A4L;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private final Deque<String> events = new ArrayDeque<>();
@@ -74,10 +83,9 @@ public final class FreezeTraceService extends Service {
         if (intent != null && ACTION_STOP.equals(intent.getAction())) {
             writeEvent("stop_requested", "source", "ui");
             stopRequested = true;
-            Process p = process;
-            if (p != null) p.destroy();
-            stopForeground(STOP_FOREGROUND_REMOVE);
-            stopSelf();
+            updateNotification("안전 종료 중 · breakpoint 정리 대기");
+            // Do not destroy the bridge here. The worker owns breakpoint cleanup and
+            // CPU resume. Break waits are short-polled so stop is noticed promptly.
             return START_NOT_STICKY;
         }
 
@@ -90,23 +98,30 @@ public final class FreezeTraceService extends Service {
 
     private void runTrace(int port) {
         writeEvent("trace_start", "port", port);
-        while (!stopRequested) {
-            try {
-                traceConnectedSession(port);
-            } catch (Exception e) {
-                if (!stopRequested) {
-                    writeEvent("connection_lost", "error", message(e));
-                    updateNotification("연결/캡처 실패 · 재연결 대기");
-                    sleep(1000);
+        try {
+            while (!stopRequested) {
+                try {
+                    traceConnectedSession(port);
+                } catch (Exception e) {
+                    if (!stopRequested) {
+                        writeEvent("connection_lost", "error", message(e));
+                        updateNotification("연결/캡처 실패 · 재연결 대기");
+                        sleep(1000);
+                    }
                 }
             }
+        } finally {
+            writeEvent("trace_stop", "reason", "stop_requested_or_capture_complete");
+            stopForeground(STOP_FOREGROUND_REMOVE);
+            stopSelf();
         }
-        writeEvent("trace_stop", "reason", "stop_requested_or_capture_complete");
     }
 
     private void traceConnectedSession(int port) throws Exception {
         File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
-        if (!executable.isFile()) throw new IllegalStateException("내장 debugger 실행파일을 찾을 수 없습니다");
+        if (!executable.isFile()) {
+            throw new IllegalStateException("내장 debugger 실행파일을 찾을 수 없습니다");
+        }
 
         ProcessBuilder builder = new ProcessBuilder(
                 executable.getAbsolutePath(), "ppsspp-debugger",
@@ -118,128 +133,203 @@ public final class FreezeTraceService extends Service {
         builder.redirectErrorStream(true);
         process = builder.start();
 
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream(), StandardCharsets.UTF_8));
-             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(process.getOutputStream(), StandardCharsets.UTF_8))) {
+        Set<Long> activeBreakpoints = new HashSet<>();
+        int[] requestId = new int[]{1};
+
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(
+                     process.getInputStream(), StandardCharsets.UTF_8));
+             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
+                     process.getOutputStream(), StandardCharsets.UTF_8))) {
+
             JSONObject ready = readObject(reader, "debugger handshake", 4000);
             if (!"ready".equals(ready.optString("event"))) {
                 throw new IllegalStateException("unexpected handshake: " + ready);
             }
             writeEvent("connected", "target", "127.0.0.1:" + port);
-            updateNotification("경계 캡처 대기 · 게임을 진행하세요");
+            updateNotification("후보 경계 추적 중 · 문제 장면까지 진행하세요");
 
-            int[] requestId = new int[]{1};
-            JSONObject capture = new JSONObject();
-            capture.put("event", "pointer_boundary_capture");
-            capture.put("time_ms", System.currentTimeMillis());
-            capture.put("producer_call", hex32(PRODUCER_CALL));
-            capture.put("backend_entry", hex32(BACKEND_ENTRY));
-            capture.put("producer_post_call", hex32(PRODUCER_POST_CALL));
-            capture.put("producer_store", hex32(PRODUCER_STORE));
+            try {
+                // Own the stepping state from a known point before installing breakpoints.
+                pause(writer, reader, requestId);
+                drainBridgeEvents(writer, reader, requestId);
 
-            // Scope the entire trace to the exact producer invocation first.
-            addBreakpoint(writer, reader, requestId, PRODUCER_CALL);
-            JSONObject producerRegs = waitForExpectedPc(writer, reader, requestId,
-                    new long[]{PRODUCER_CALL}, capture, "producer_call_hit");
-            capture.put("producer_call_gpr", selectedRegisters(producerRegs));
-            removeBreakpointQuiet(writer, reader, requestId, PRODUCER_CALL);
+                addBreakpoint(writer, reader, requestId, activeBreakpoints, PRODUCER_CALL);
 
-            // Arm both boundaries before resuming.  If the backend is bypassed,
-            // the post-call breakpoint wins and we still learn that fact in one run.
-            addBreakpoint(writer, reader, requestId, BACKEND_ENTRY);
-            addBreakpoint(writer, reader, requestId, PRODUCER_POST_CALL);
-            resume(writer, reader, requestId);
-
-            JSONObject firstBoundaryRegs = waitForExpectedPc(writer, reader, requestId,
-                    new long[]{BACKEND_ENTRY, PRODUCER_POST_CALL}, capture, "first_boundary_hit");
-            long firstPc = findRegister(firstBoundaryRegs, "pc");
-            boolean backendSeen = firstPc == BACKEND_ENTRY;
-            capture.put("backend_seen", backendSeen);
-
-            if (backendSeen) {
-                capture.put("backend_entry_gpr", selectedRegisters(firstBoundaryRegs));
-                long backendReturn = findRegister(firstBoundaryRegs, "ra");
-                if (backendReturn < 0) throw new IllegalStateException("backend entry에서 ra를 읽지 못했습니다");
-                backendReturn &= 0xffffffffL;
-                capture.put("backend_return_pc", hex32(backendReturn));
-
-                removeBreakpointQuiet(writer, reader, requestId, BACKEND_ENTRY);
-                addBreakpoint(writer, reader, requestId, backendReturn);
-                resume(writer, reader, requestId);
-
-                JSONObject backendReturnRegs = waitForExpectedPc(writer, reader, requestId,
-                        new long[]{backendReturn, PRODUCER_POST_CALL}, capture, "backend_return_hit");
-                long returnHitPc = findRegister(backendReturnRegs, "pc");
-                if (returnHitPc == backendReturn) {
-                    capture.put("backend_return_gpr", selectedRegisters(backendReturnRegs));
-                    removeBreakpointQuiet(writer, reader, requestId, backendReturn);
+                int candidateIndex = 0;
+                while (!stopRequested) {
+                    drainBridgeEvents(writer, reader, requestId);
                     resume(writer, reader, requestId);
-                    JSONObject postCallRegs = waitForExpectedPc(writer, reader, requestId,
-                            new long[]{PRODUCER_POST_CALL}, capture, "producer_post_call_hit");
-                    capture.put("producer_post_call_gpr", selectedRegisters(postCallRegs));
-                } else {
-                    // Defensive fallback if the backend's ra aliases/skips directly
-                    // to the already-armed producer boundary.
-                    capture.put("backend_return_boundary_skipped", true);
-                    capture.put("producer_post_call_gpr", selectedRegisters(backendReturnRegs));
+                    JSONObject producerRegs = waitForPc(writer, reader, requestId,
+                            new long[]{PRODUCER_CALL});
+
+                    long s4 = findRegister(producerRegs, "s4");
+                    if (s4 != 0) {
+                        // Only s4==0 writes the base object's +0x3C0 slot.
+                        continue;
+                    }
+
+                    candidateIndex++;
+                    JSONObject candidate = new JSONObject();
+                    candidate.put("candidate_index", candidateIndex);
+                    candidate.put("producer_call", hex32(PRODUCER_CALL));
+                    candidate.put("producer_call_gpr", selectedRegisters(producerRegs));
+                    candidate.put("backend_entry", hex32(BACKEND_ENTRY));
+                    candidate.put("producer_post_call", hex32(PRODUCER_POST_CALL));
+                    candidate.put("producer_store", hex32(PRODUCER_STORE));
+
+                    removeBreakpoint(writer, reader, requestId, activeBreakpoints, PRODUCER_CALL);
+                    addBreakpoint(writer, reader, requestId, activeBreakpoints, BACKEND_ENTRY);
+                    addBreakpoint(writer, reader, requestId, activeBreakpoints, PRODUCER_POST_CALL);
+
+                    drainBridgeEvents(writer, reader, requestId);
+                    resume(writer, reader, requestId);
+                    JSONObject firstBoundaryRegs = waitForPc(writer, reader, requestId,
+                            new long[]{BACKEND_ENTRY, PRODUCER_POST_CALL});
+                    long firstPc = findRegister(firstBoundaryRegs, "pc");
+                    boolean backendSeen = firstPc == BACKEND_ENTRY;
+                    candidate.put("backend_seen", backendSeen);
+
+                    if (backendSeen) {
+                        candidate.put("backend_entry_gpr", selectedRegisters(firstBoundaryRegs));
+                        long backendReturn = findRegister(firstBoundaryRegs, "ra");
+                        if (backendReturn < 0) {
+                            throw new IllegalStateException("backend entry에서 ra를 읽지 못했습니다");
+                        }
+                        backendReturn &= 0xffffffffL;
+                        candidate.put("backend_return_pc", hex32(backendReturn));
+
+                        removeBreakpoint(writer, reader, requestId, activeBreakpoints, BACKEND_ENTRY);
+                        addBreakpoint(writer, reader, requestId, activeBreakpoints, backendReturn);
+
+                        drainBridgeEvents(writer, reader, requestId);
+                        resume(writer, reader, requestId);
+                        JSONObject returnRegs = waitForPc(writer, reader, requestId,
+                                new long[]{backendReturn, PRODUCER_POST_CALL});
+                        long returnPc = findRegister(returnRegs, "pc");
+
+                        if (returnPc == backendReturn) {
+                            candidate.put("backend_return_gpr", selectedRegisters(returnRegs));
+                            removeBreakpoint(writer, reader, requestId,
+                                    activeBreakpoints, backendReturn);
+
+                            drainBridgeEvents(writer, reader, requestId);
+                            resume(writer, reader, requestId);
+                            JSONObject postCallRegs = waitForPc(writer, reader, requestId,
+                                    new long[]{PRODUCER_POST_CALL});
+                            candidate.put("producer_post_call_gpr",
+                                    selectedRegisters(postCallRegs));
+                        } else {
+                            candidate.put("backend_return_boundary_skipped", true);
+                            candidate.put("producer_post_call_gpr",
+                                    selectedRegisters(returnRegs));
+                        }
+                    } else {
+                        candidate.put("backend_not_seen_before_wrapper_return", true);
+                        candidate.put("producer_post_call_gpr",
+                                selectedRegisters(firstBoundaryRegs));
+                        removeBreakpoint(writer, reader, requestId,
+                                activeBreakpoints, BACKEND_ENTRY);
+                    }
+
+                    removeBreakpoint(writer, reader, requestId,
+                            activeBreakpoints, PRODUCER_POST_CALL);
+
+                    addBreakpoint(writer, reader, requestId, activeBreakpoints, PRODUCER_STORE);
+                    drainBridgeEvents(writer, reader, requestId);
+                    resume(writer, reader, requestId);
+                    JSONObject storeRegs = waitForPc(writer, reader, requestId,
+                            new long[]{PRODUCER_STORE});
+
+                    long storeS4 = findRegister(storeRegs, "s4");
+                    long storeBase = findRegister(storeRegs, "a0");
+                    long storeValue = findRegister(storeRegs, "v0");
+
+                    // C948 is before the store and before C94C increments s4. If this
+                    // invariant fails, do not silently correlate the candidate.
+                    if (storeS4 != 0) {
+                        throw new IllegalStateException(
+                                "producer store에서 s4==0 invariant가 깨졌습니다: " + hex32(storeS4));
+                    }
+
+                    candidate.put("producer_store_gpr", selectedRegisters(storeRegs));
+                    if (storeBase >= 0) {
+                        long destination = (storeBase + SLOT_OFFSET) & 0xffffffffL;
+                        candidate.put("producer_store_destination", hex32(destination));
+                        tryMemoryRead(writer, reader, requestId, candidate,
+                                "producer_store_old_value", destination, 4);
+                    }
+                    if (storeValue >= 0) {
+                        candidate.put("producer_store_v0", hex32(storeValue));
+                    }
+
+                    removeBreakpoint(writer, reader, requestId,
+                            activeBreakpoints, PRODUCER_STORE);
+
+                    if (storeValue == OBSERVED_FAILING_FIELD_VALUE) {
+                        candidate.put("event", "pointer_boundary_capture");
+                        candidate.put("time_ms", System.currentTimeMillis());
+                        candidate.put("matched_observed_failing_field_value", true);
+                        candidate.put("observed_failing_field_value",
+                                hex32(OBSERVED_FAILING_FIELD_VALUE));
+                        appendEvent(candidate.toString());
+                        updateNotification("문제 경계 캡처 완료 · 로그 복사 가능");
+                        stopRequested = true;
+                        break;
+                    }
+
+                    // Normal/nonmatching +0x3C0 candidate: discard it rather than
+                    // growing the log, then continue to the next producer invocation.
+                    addBreakpoint(writer, reader, requestId,
+                            activeBreakpoints, PRODUCER_CALL);
                 }
-            } else {
-                capture.put("backend_not_seen_before_wrapper_return", true);
-                capture.put("producer_post_call_gpr", selectedRegisters(firstBoundaryRegs));
-                removeBreakpointQuiet(writer, reader, requestId, BACKEND_ENTRY);
+            } finally {
+                // Best-effort cleanup on normal completion, timeout, user stop,
+                // or analysis exception, while the same bridge streams are alive.
+                cleanupBreakpoints(writer, reader, requestId, activeBreakpoints);
+                resumeQuiet(writer, reader, requestId);
             }
-
-            removeBreakpointQuiet(writer, reader, requestId, PRODUCER_POST_CALL);
-
-            // The raw log proves 0x0886C948 is the actual sw v0,0x3C0(a0).
-            // At this breakpoint the preceding sll/addu have already computed a0.
-            addBreakpoint(writer, reader, requestId, PRODUCER_STORE);
-            resume(writer, reader, requestId);
-            JSONObject storeRegs = waitForExpectedPc(writer, reader, requestId,
-                    new long[]{PRODUCER_STORE}, capture, "producer_store_hit");
-            capture.put("producer_store_gpr", selectedRegisters(storeRegs));
-
-            long storeBase = findRegister(storeRegs, "a0");
-            long storeValue = findRegister(storeRegs, "v0");
-            if (storeBase >= 0) {
-                long destination = (storeBase + SLOT_OFFSET) & 0xffffffffL;
-                capture.put("producer_store_destination", hex32(destination));
-                tryMemoryRead(writer, reader, requestId, capture,
-                        "producer_store_old_value", destination, 4);
-            }
-            if (storeValue >= 0) capture.put("producer_store_v0", hex32(storeValue));
-
-            removeBreakpointQuiet(writer, reader, requestId, PRODUCER_STORE);
-            resumeQuiet(writer, reader, requestId);
-
-            appendEvent(capture.toString());
-            updateNotification("경계 캡처 완료 · 로그 복사 가능");
-            stopRequested = true;
         } finally {
             Process p = process;
             process = null;
-            if (p != null) p.destroy();
+            if (p != null) {
+                p.destroy();
+            }
         }
     }
 
-    private static JSONObject waitForExpectedPc(BufferedWriter writer, BufferedReader reader,
-                                                int[] requestId, long[] expected,
-                                                JSONObject capture, String label) throws Exception {
-        for (int attempt = 0; attempt < 8; attempt++) {
-            JSONObject wait = bridgeWait(writer, reader, requestId);
+    private JSONObject waitForPc(BufferedWriter writer, BufferedReader reader,
+                                 int[] requestId, long[] expected) throws Exception {
+        while (!stopRequested) {
+            try {
+                bridgeWait(writer, reader, requestId);
+            } catch (Exception e) {
+                if (isWaitTimeout(e)) {
+                    continue;
+                }
+                throw e;
+            }
             JSONObject regs = getAllRegs(writer, reader, requestId);
             long pc = findRegister(regs, "pc");
-            if (pc >= 0) pc &= 0xffffffffL;
+            if (pc >= 0) {
+                pc &= 0xffffffffL;
+            }
             for (long target : expected) {
                 if (pc == target) {
-                    capture.put(label, hex32(pc));
-                    capture.put(label + "_stepping", wait.optJSONObject("result"));
                     return regs;
                 }
             }
-            capture.put(label + "_unexpected_pc_" + attempt, pc < 0 ? "unknown" : hex32(pc));
+
+            // A non-target stepping event may be a UI/debugger transition. Drain
+            // it, resume, and keep waiting without logging noisy samples.
+            drainBridgeEvents(writer, reader, requestId);
             resume(writer, reader, requestId);
         }
-        throw new IllegalStateException(label + " expected breakpoint를 찾지 못했습니다");
+        throw new InterruptedException("stop requested");
+    }
+
+    private static boolean isWaitTimeout(Exception e) {
+        String m = message(e);
+        return m.contains("timed out waiting for") || m.contains("응답이");
     }
 
     private static JSONObject getAllRegs(BufferedWriter writer, BufferedReader reader,
@@ -248,34 +338,12 @@ public final class FreezeTraceService extends Service {
                 rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
     }
 
-    private static void addBreakpoint(BufferedWriter writer, BufferedReader reader,
-                                      int[] requestId, long address) throws Exception {
-        JSONObject params = new JSONObject();
-        params.put("address", address & 0xffffffffL);
-        params.put("enabled", true);
-        request(writer, reader, requestId[0]++,
-                rawCommand("cpu.breakpoint.add", params), RESPONSE_TIMEOUT_MS);
-    }
-
-    private static void removeBreakpointQuiet(BufferedWriter writer, BufferedReader reader,
-                                              int[] requestId, long address) {
-        try {
-            JSONObject params = new JSONObject();
-            params.put("address", address & 0xffffffffL);
-            request(writer, reader, requestId[0]++,
-                    rawCommand("cpu.breakpoint.remove", params), RESPONSE_TIMEOUT_MS);
-        } catch (Exception ignored) {
-        }
-    }
-
-    private static JSONObject bridgeWait(BufferedWriter writer, BufferedReader reader,
-                                         int[] requestId) throws Exception {
+    private static void pause(BufferedWriter writer, BufferedReader reader,
+                              int[] requestId) throws Exception {
         JSONObject command = new JSONObject();
-        command.put("command", "wait");
-        command.put("event", "cpu.stepping");
-        command.put("buffered", true);
-        command.put("timeout", BREAK_WAIT_SECONDS);
-        return request(writer, reader, requestId[0]++, command, BREAK_WAIT_TIMEOUT_MS);
+        command.put("command", "pause");
+        command.put("timeout", 6);
+        request(writer, reader, requestId[0]++, command, RESPONSE_TIMEOUT_MS);
     }
 
     private static void resume(BufferedWriter writer, BufferedReader reader,
@@ -292,6 +360,60 @@ public final class FreezeTraceService extends Service {
             resume(writer, reader, requestId);
         } catch (Exception ignored) {
         }
+    }
+
+    private static void addBreakpoint(BufferedWriter writer, BufferedReader reader,
+                                      int[] requestId, Set<Long> active,
+                                      long address) throws Exception {
+        JSONObject params = new JSONObject();
+        params.put("address", address & 0xffffffffL);
+        params.put("enabled", true);
+        request(writer, reader, requestId[0]++,
+                rawCommand("cpu.breakpoint.add", params), RESPONSE_TIMEOUT_MS);
+        active.add(address & 0xffffffffL);
+    }
+
+    private static void removeBreakpoint(BufferedWriter writer, BufferedReader reader,
+                                         int[] requestId, Set<Long> active,
+                                         long address) throws Exception {
+        JSONObject params = new JSONObject();
+        params.put("address", address & 0xffffffffL);
+        request(writer, reader, requestId[0]++,
+                rawCommand("cpu.breakpoint.remove", params), RESPONSE_TIMEOUT_MS);
+        active.remove(address & 0xffffffffL);
+    }
+
+    private static void cleanupBreakpoints(BufferedWriter writer, BufferedReader reader,
+                                           int[] requestId, Set<Long> active) {
+        Long[] snapshot = active.toArray(new Long[0]);
+        for (long address : snapshot) {
+            try {
+                JSONObject params = new JSONObject();
+                params.put("address", address & 0xffffffffL);
+                request(writer, reader, requestId[0]++,
+                        rawCommand("cpu.breakpoint.remove", params), RESPONSE_TIMEOUT_MS);
+                active.remove(address & 0xffffffffL);
+            } catch (Exception ignored) {
+            }
+        }
+    }
+
+    private static void drainBridgeEvents(BufferedWriter writer, BufferedReader reader,
+                                          int[] requestId) throws Exception {
+        JSONObject command = new JSONObject();
+        command.put("command", "drain");
+        command.put("limit", 1024);
+        request(writer, reader, requestId[0]++, command, RESPONSE_TIMEOUT_MS);
+    }
+
+    private static void bridgeWait(BufferedWriter writer, BufferedReader reader,
+                                   int[] requestId) throws Exception {
+        JSONObject command = new JSONObject();
+        command.put("command", "wait");
+        command.put("event", "cpu.stepping");
+        command.put("buffered", true);
+        command.put("timeout", BREAK_POLL_SECONDS);
+        request(writer, reader, requestId[0]++, command, BREAK_POLL_TIMEOUT_MS);
     }
 
     private static void tryMemoryRead(BufferedWriter writer, BufferedReader reader,
@@ -316,7 +438,9 @@ public final class FreezeTraceService extends Service {
 
     private synchronized void appendEvent(String line) {
         events.addLast(line);
-        while (events.size() > MAX_EVENTS) events.removeFirst();
+        while (events.size() > MAX_EVENTS) {
+            events.removeFirst();
+        }
         persistEvents();
     }
 
@@ -344,19 +468,25 @@ public final class FreezeTraceService extends Service {
 
     public static String readLatestTrace(File filesDir) throws Exception {
         File trace = new File(filesDir, TRACE_FILE);
-        if (!trace.isFile()) return "";
+        if (!trace.isFile()) {
+            return "";
+        }
         StringBuilder out = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(
                 new FileInputStream(trace), StandardCharsets.UTF_8))) {
             String line;
-            while ((line = reader.readLine()) != null) out.append(line).append('\n');
+            while ((line = reader.readLine()) != null) {
+                out.append(line).append('\n');
+            }
         }
         return out.toString();
     }
 
     private void updateNotification(String text) {
         NotificationManager manager = getSystemService(NotificationManager.class);
-        if (manager != null) manager.notify(NOTIFICATION_ID, notification(text));
+        if (manager != null) {
+            manager.notify(NOTIFICATION_ID, notification(text));
+        }
     }
 
     private Notification notification(String text) {
@@ -386,22 +516,29 @@ public final class FreezeTraceService extends Service {
         writer.write(command.toString());
         writer.newLine();
         writer.flush();
+
         JSONObject response = readObject(reader, "command " + id, timeoutMs);
-        while (!response.has("id")) response = readObject(reader, "command " + id, timeoutMs);
+        while (!response.has("id")) {
+            response = readObject(reader, "command " + id, timeoutMs);
+        }
         if (!response.optBoolean("ok", false)) {
             JSONObject error = response.optJSONObject("error");
-            throw new IllegalStateException(error == null ? response.toString()
+            throw new IllegalStateException(error == null
+                    ? response.toString()
                     : error.optString("message", response.toString()));
         }
         return response;
     }
 
-    private static JSONObject readObject(BufferedReader reader, String what, int timeoutMs) throws Exception {
+    private static JSONObject readObject(BufferedReader reader, String what,
+                                         int timeoutMs) throws Exception {
         long deadline = System.currentTimeMillis() + timeoutMs;
         while (System.currentTimeMillis() < deadline) {
             if (reader.ready()) {
                 String line = reader.readLine();
-                if (line == null) throw new IllegalStateException(what + " 응답 전에 연결이 종료됐습니다");
+                if (line == null) {
+                    throw new IllegalStateException(what + " 응답 전에 연결이 종료됐습니다");
+                }
                 return new JSONObject(line);
             }
             Thread.sleep(20);
@@ -411,7 +548,9 @@ public final class FreezeTraceService extends Service {
 
     private static JSONObject rawResponse(JSONObject response) {
         JSONObject result = response.optJSONObject("result");
-        if (result == null) return new JSONObject();
+        if (result == null) {
+            return new JSONObject();
+        }
         JSONObject raw = result.optJSONObject("response");
         return raw == null ? new JSONObject() : raw;
     }
@@ -426,7 +565,9 @@ public final class FreezeTraceService extends Service {
         };
         for (String name : names) {
             long value = findRegister(response, name);
-            if (value >= 0) selected.put(name, hex32(value));
+            if (value >= 0) {
+                selected.put(name, hex32(value));
+            }
         }
         return selected;
     }
@@ -434,16 +575,24 @@ public final class FreezeTraceService extends Service {
     private static long findRegister(JSONObject response, String wanted) {
         JSONObject raw = rawResponse(response);
         JSONArray categories = raw.optJSONArray("categories");
-        if (categories == null) return -1;
+        if (categories == null) {
+            return -1;
+        }
         for (int i = 0; i < categories.length(); i++) {
             JSONObject category = categories.optJSONObject(i);
-            if (category == null) continue;
+            if (category == null) {
+                continue;
+            }
             JSONArray names = category.optJSONArray("registerNames");
             JSONArray values = category.optJSONArray("uintValues");
-            if (names == null || values == null) continue;
+            if (names == null || values == null) {
+                continue;
+            }
             int count = Math.min(names.length(), values.length());
             for (int j = 0; j < count; j++) {
-                if (wanted.equals(names.optString(j))) return values.optLong(j, -1) & 0xffffffffL;
+                if (wanted.equals(names.optString(j))) {
+                    return values.optLong(j, -1) & 0xffffffffL;
+                }
             }
         }
         return -1;
@@ -455,7 +604,9 @@ public final class FreezeTraceService extends Service {
 
     private static String message(Exception e) {
         String m = e.getMessage();
-        return (m == null || m.trim().isEmpty()) ? e.getClass().getSimpleName() : m;
+        return (m == null || m.trim().isEmpty())
+                ? e.getClass().getSimpleName()
+                : m;
     }
 
     private static void sleep(long millis) {
@@ -468,11 +619,10 @@ public final class FreezeTraceService extends Service {
 
     @Override
     public void onDestroy() {
-        if (!stopRequested) writeEvent("service_destroyed", "source", "android");
         stopRequested = true;
-        Process p = process;
-        if (p != null) p.destroy();
-        worker.shutdownNow();
+        // Do not destroy the bridge here before the worker has had a chance to
+        // remove its breakpoints. runTrace/traceConnectedSession own shutdown.
+        worker.shutdown();
         super.onDestroy();
     }
 
