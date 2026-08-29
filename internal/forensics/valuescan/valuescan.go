@@ -32,10 +32,11 @@ type Candidate struct {
 	Window         []Instruction
 }
 
-// Scan searches executable PT_LOAD segments for windows containing an immediate
-// 0x02 plus nearby byte reads and control-flow. Immediate 0x15 is scored strongly
-// when present, but is not required because a real implementation may use a jump
-// table or indexed dispatch with no literal 0x15 in the handler.
+// Scan searches executable PT_LOAD segments for register-linked evidence of a
+// 0x02 control-prefix comparison. A nearby 0x15 comparison is scored only when
+// the branch actually compares a byte-loaded register with a register holding
+// literal 0x15. This deliberately rejects windows whose literals and byte loads
+// are merely colocated.
 func Scan(data []byte) ([]Candidate, error) {
 	f, err := elf.NewFile(bytes.NewReader(data))
 	if err != nil {
@@ -56,14 +57,13 @@ func Scan(data []byte) ([]Candidate, error) {
 		}
 		for off := align4(start); off+4 <= end; off += 4 {
 			word := binary.LittleEndian.Uint32(data[off : off+4])
-			if !hasImmediate(word, 2) {
+			if !loadsLiteral(word, 2) {
 				continue
 			}
 			c := scoreWindow(data, start, end, prog.Vaddr, off)
-			if c.Score >= 5 {
+			if c.Score >= 6 {
 				out = append(out, c)
 			}
-		}
 	}
 	sort.Slice(out, func(i, j int) bool {
 		if out[i].Score != out[j].Score {
@@ -108,47 +108,112 @@ func scoreWindow(data []byte, segmentStart, segmentEnd, segmentVaddr, anchor uin
 		FileOffset:     anchor,
 		VirtualAddress: segmentVaddr + (anchor - segmentStart),
 	}
-	seenPrefix, seen15, seenByteLoad, seenBranch, seenInc, seenIndex := false, false, false, false, false, false
+
+	literal2Regs := make(map[uint32]struct{})
+	literal15Regs := make(map[uint32]struct{})
+	byteLoadRegs := make(map[uint32]uint32) // destination -> base register
+	prefixLoadRegs := make(map[uint32]struct{})
+	focusLoadRegs := make(map[uint32]struct{})
+	linkedPrefix := false
+	linked15 := false
+	linkedIncrement := false
+	linkedIndex := false
+
+	words := make([]uint32, 0, (hi-lo)/4)
 	for off := align4(lo); off+4 <= hi; off += 4 {
 		w := binary.LittleEndian.Uint32(data[off : off+4])
+		words = append(words, w)
 		c.Window = append(c.Window, Instruction{
 			FileOffset:     off,
 			VirtualAddress: segmentVaddr + (off - segmentStart),
 			Word:           w,
 			Text:           decode(w),
 		})
-		seenPrefix = seenPrefix || hasImmediate(w, 2)
-		seen15 = seen15 || hasImmediate(w, 0x15)
-		seenByteLoad = seenByteLoad || opcode(w) == 0x20 || opcode(w) == 0x24
-		seenBranch = seenBranch || isBranch(w)
-		seenInc = seenInc || opcode(w) == 0x09 && (int16(w) == 1 || int16(w) == 2)
-		seenIndex = seenIndex || opcode(w) == 0 && funct(w) == 0 && (shamt(w) == 2 || shamt(w) == 3)
+		if loadsLiteral(w, 2) {
+			literal2Regs[rt(w)] = struct{}{}
+		}
+		if loadsLiteral(w, 0x15) {
+			literal15Regs[rt(w)] = struct{}{}
+		}
+		if isByteLoad(w) {
+			byteLoadRegs[rt(w)] = rs(w)
+		}
 	}
-	if seenPrefix {
+
+	// Require actual branch register linkage instead of treating unrelated
+	// immediates and byte loads in the same routine as dispatcher evidence.
+	for _, w := range words {
+		if !isEqualityBranch(w) {
+			continue
+		}
+		a, b := rs(w), rt(w)
+		if registerPair(a, b, byteLoadRegs, literal2Regs) {
+			linkedPrefix = true
+			if _, ok := byteLoadRegs[a]; ok {
+				prefixLoadRegs[a] = struct{}{}
+			}
+			if _, ok := byteLoadRegs[b]; ok {
+				prefixLoadRegs[b] = struct{}{}
+			}
+		}
+		if registerPair(a, b, byteLoadRegs, literal15Regs) {
+			linked15 = true
+			if _, ok := byteLoadRegs[a]; ok {
+				focusLoadRegs[a] = struct{}{}
+			}
+			if _, ok := byteLoadRegs[b]; ok {
+				focusLoadRegs[b] = struct{}{}
+			}
+		}
+	}
+
+	if linkedPrefix {
+		c.Score += 5
+		c.Reasons = append(c.Reasons, "byte-loaded register compared with literal 0x02 register")
+	}
+	if linked15 {
+		c.Score += 4
+		c.Reasons = append(c.Reasons, "byte-loaded register compared with literal 0x15 register")
+	}
+
+	// Supporting evidence is useful only when tied to the same loaded stream or
+	// opcode register. It cannot independently make a candidate reportable.
+	for _, w := range words {
+		if opcode(w) == 0x09 && (simm(w) == 1 || simm(w) == 2) && rs(w) == rt(w) {
+			for loadReg := range prefixLoadRegs {
+				if byteLoadRegs[loadReg] == rt(w) {
+					linkedIncrement = true
+				}
+			}
+			for loadReg := range focusLoadRegs {
+				if byteLoadRegs[loadReg] == rt(w) {
+					linkedIncrement = true
+				}
+			}
+		}
+		if opcode(w) == 0 && funct(w) == 0 && (shamt(w) == 2 || shamt(w) == 3) {
+			if _, ok := focusLoadRegs[rt(w)]; ok {
+				linkedIndex = true
+			}
+		}
+	}
+	if linkedIncrement {
+		c.Score++
+		c.Reasons = append(c.Reasons, "linked source pointer increment")
+	}
+	if linkedIndex {
 		c.Score += 2
-		c.Reasons = append(c.Reasons, "immediate 0x02 control-prefix candidate")
-	}
-	if seen15 {
-		c.Score += 3
-		c.Reasons = append(c.Reasons, "nearby immediate 0x15 focus opcode")
-	}
-	if seenByteLoad {
-		c.Score += 2
-		c.Reasons = append(c.Reasons, "nearby byte load")
-	}
-	if seenBranch {
-		c.Score++
-		c.Reasons = append(c.Reasons, "nearby conditional branch")
-	}
-	if seenInc {
-		c.Score++
-		c.Reasons = append(c.Reasons, "nearby pointer increment")
-	}
-	if seenIndex {
-		c.Score++
-		c.Reasons = append(c.Reasons, "nearby scaled-index shape")
+		c.Reasons = append(c.Reasons, "0x15-loaded opcode register used as scaled index")
 	}
 	return c
+}
+
+func registerPair(a, b uint32, byteLoads map[uint32]uint32, literalRegs map[uint32]struct{}) bool {
+	_, aLoad := byteLoads[a]
+	_, bLoad := byteLoads[b]
+	_, aLiteral := literalRegs[a]
+	_, bLiteral := literalRegs[b]
+	return (aLoad && bLiteral) || (bLoad && aLiteral)
 }
 
 func align4(v uint64) uint64 { return (v + 3) &^ 3 }
@@ -161,21 +226,22 @@ func funct(w uint32) uint32  { return w & 0x3f }
 func simm(w uint32) int16    { return int16(w) }
 func uimm(w uint32) uint16   { return uint16(w) }
 
-func hasImmediate(w uint32, value uint16) bool {
+func loadsLiteral(w uint32, value uint16) bool {
+	// The zero-register source makes these actual literal constructions rather
+	// than arbitrary arithmetic that happens to contain the same immediate.
+	if rs(w) != 0 {
+		return false
+	}
 	switch opcode(w) {
-	case 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e:
-		return uint16(w) == value
+	case 0x08, 0x09, 0x0d: // addi/addiu/ori rt,r0,imm
+		return uimm(w) == value
 	default:
 		return false
 	}
 }
-func isBranch(w uint32) bool {
-	switch opcode(w) {
-	case 0x01, 0x04, 0x05, 0x06, 0x07:
-		return true
-	}
-	return false
-}
+
+func isByteLoad(w uint32) bool { return opcode(w) == 0x20 || opcode(w) == 0x24 }
+func isEqualityBranch(w uint32) bool { return opcode(w) == 0x04 || opcode(w) == 0x05 }
 
 func decode(w uint32) string {
 	switch opcode(w) {
