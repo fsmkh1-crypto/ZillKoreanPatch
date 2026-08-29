@@ -22,6 +22,20 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: Verify committed breakpoint tracer source
+        shell: bash
+        run: |
+          set -euxo pipefail
+          TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
+          grep -q 'PRODUCER_CALL = 0x0886C938L' "$TRACE"
+          grep -q 'PRODUCER_POST_CALL = 0x0886C940L' "$TRACE"
+          grep -q 'PRODUCER_STORE = 0x0886C948L' "$TRACE"
+          grep -q 'BACKEND_ENTRY = 0x08A23064L' "$TRACE"
+          grep -q 'cpu.breakpoint.add' "$TRACE"
+          grep -q 'pointer_boundary_capture' "$TRACE"
+          ! grep -q 'BACKEND_DISASM_START' "$TRACE"
+          ! grep -q 'sed -i' .github/workflows/android-extractor.yml
+
       - uses: actions/setup-go@v7
         with:
           go-version-file: go.mod
