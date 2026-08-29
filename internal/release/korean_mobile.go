@@ -74,6 +74,11 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 			layouts[row.ID] = row.Layout
 		}
 	}
+	engine, err := loadLayout(root)
+	if err != nil { return err }
+	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return err }
+	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedC5)
 	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
 	if err != nil {
 		return err
