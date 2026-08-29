@@ -63,6 +63,11 @@ func PreflightKoreanAlphaISOOnly(root, gameDir, isoPath, version string, planBui
 			layouts[row.ID] = row.Layout
 		}
 	}
+	engine, err := loadLayout(root)
+	if err != nil { return err }
+	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return err }
+	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedC5)
 	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
 	if err != nil { return err }
 	fmt.Printf("Korean C5 preflight storage check: no violation detected; %d dynamic-substitution record(s) remain runtime-QA risks.\n", len(dynamicC5))
