@@ -1,4 +1,4 @@
-name: Android PPSSPP freeze tracer
+name: Android PPSSPP manual freeze capture
 
 on:
   workflow_dispatch:
@@ -22,18 +22,24 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Verify inline-page tracer source
+      - name: Verify manual capture source
         shell: bash
         run: |
           set -euo pipefail
           TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
-          grep -q 'SECOND_SCANNER_CALL = 0x0886C9B4L' "$TRACE"
+          UI=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeCaptureActivity.java
+          grep -q 'ACTION_CAPTURE_NOW' "$TRACE"
+          grep -q 'manual_freeze_capture' "$TRACE"
           grep -q 'INLINE_PAGE_OFFSET = 0x2C0L' "$TRACE"
           grep -q 'INLINE_DUMP_SIZE = 0x120' "$TRACE"
+          grep -q 'rawCommand("cpu.status"' "$TRACE"
+          grep -q 'rawCommand("cpu.getAllRegs"' "$TRACE"
           grep -q 'rawCommand("memory.read"' "$TRACE"
           grep -q 'lf_count_before_nul' "$TRACE"
           grep -q 'slot_plus_3c0_word' "$TRACE"
-          grep -q 'inline_page_capture' "$TRACE"
+          ! grep -q 'cpu.breakpoint.add' "$TRACE"
+          ! grep -q 'waitForStoppedPc' "$TRACE"
+          grep -q '지금 상태 수동 캡처' "$UI"
 
       - uses: actions/setup-go@v7
         with:
@@ -64,10 +70,10 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - name: Build tracer APK
+      - name: Build manual capture APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
 
-      - name: Verify tracer APK
+      - name: Verify capture APK
         shell: bash
         run: |
           set -euo pipefail
@@ -79,7 +85,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-freeze-tracer-debug
+          name: zill-manual-freeze-capture-debug
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
