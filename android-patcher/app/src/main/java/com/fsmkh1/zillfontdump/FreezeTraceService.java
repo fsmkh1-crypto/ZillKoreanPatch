@@ -7,7 +7,6 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
-import android.util.Base64;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -27,9 +26,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeoutException;
 
 /**
- * Keeps a PPSSPP debugger connection alive while the game is foregrounded and
- * samples a short rolling CPU trace. Connection loss/timeout is itself written
- * as an event, preserving the last successful samples before a freeze.
+ * Minimal PPSSPP freeze tracer for the current unresolved allocator-backend
+ * question. Earlier scanner/producer/wrapper disassembly is intentionally not
+ * re-collected; that evidence is retained in docs/audit/A-046..A-049.
  */
 public final class FreezeTraceService extends Service {
     public static final String ACTION_START = "com.fsmkh1.zillfontdump.START_FREEZE_TRACE";
@@ -41,36 +40,24 @@ public final class FreezeTraceService extends Service {
     private static final int NOTIFICATION_ID = 21010;
     private static final int SAMPLE_INTERVAL_MS = 500;
     private static final int RESPONSE_TIMEOUT_MS = 1500;
-    private static final int MAX_SAMPLES = 60; // about 30 seconds
-    private static final int STALL_SAMPLES = 3;
+    private static final int MAX_EVENTS = 24;
 
     private static final long HOT_PC_MIN = 0x08966200L;
     private static final long HOT_PC_MAX = 0x08966260L;
     private static final int HOT_LOOP_SAMPLES = 3;
     private static final long HOT_A1_MIN_ADVANCE = 0x1000L;
 
-    private static final long HOT_DISASM_START = 0x08966120L;
-    private static final int HOT_DISASM_COUNT = 96;
+    // Current unresolved target only. Do not accumulate earlier disassembly.
+    private static final long BACKEND_DISASM_START = 0x08A23064L;
+    private static final int BACKEND_DISASM_COUNT = 256;
 
-    // Capture the full producer/caller region requested by A-047: 128
-    // instructions from 0x0886C84C reaches through 0x0886CA4C.
-    private static final long PRODUCER_DISASM_START = 0x0886C84CL;
-    private static final int PRODUCER_DISASM_COUNT = 128;
-
-    // A-048 identified this return value as the direct source stored into
-    // s0+0x3C0 before the runaway scanner consumes it.
-    private static final long ALLOCATOR_CANDIDATE_DISASM_START = 0x089E2B54L;
-    private static final int ALLOCATOR_CANDIDATE_DISASM_COUNT = 128;
-
-    private static final long OBJECT_WINDOW_OFFSET = 0x380L;
-    private static final int OBJECT_WINDOW_SIZE = 0x180; // through +0x4FF
+    // Small correlation read only; the full producer/object window is already archived.
     private static final long POINTER_FIELD_OFFSET = 0x3C0L;
-    private static final long HOT_EVIDENCE_INTERVAL_MS = 15000L;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
+    private final Deque<String> events = new ArrayDeque<>();
     private volatile boolean stopRequested;
     private volatile Process process;
-    private final Deque<String> ring = new ArrayDeque<>();
 
     @Override
     public void onCreate() {
@@ -109,7 +96,7 @@ public final class FreezeTraceService extends Service {
             } catch (Exception e) {
                 if (!stopRequested) {
                     writeEvent("connection_lost", "error", message(e));
-                    updateNotification("연결 끊김 · 마지막 기록 보존 · 재연결 대기");
+                    updateNotification("연결 끊김 · 재연결 대기");
                     sleep(1000);
                 }
             }
@@ -119,7 +106,7 @@ public final class FreezeTraceService extends Service {
 
     private void traceConnectedSession(int port) throws Exception {
         File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
-        if (!executable.isFile()) throw new IllegalStateException("내장 zill 실행파일을 찾을 수 없습니다");
+        if (!executable.isFile()) throw new IllegalStateException("내장 debugger 실행파일을 찾을 수 없습니다");
 
         ProcessBuilder builder = new ProcessBuilder(
                 executable.getAbsolutePath(), "ppsspp-debugger",
@@ -138,179 +125,63 @@ public final class FreezeTraceService extends Service {
                 throw new IllegalStateException("unexpected handshake: " + ready);
             }
             writeEvent("connected", "target", "127.0.0.1:" + port);
-            updateNotification("PPSSPP 제어흐름 기록 중 · 최근 30초 보존");
+            updateNotification("PPSSPP 기록 중 · allocator backend만 수집");
 
             int requestId = 1;
-            long lastPc = -1;
-            long lastSp = -1;
-            long lastTicks = -1;
-            int sameTickCount = 0;
-            boolean stallReported = false;
-
             int hotPcCount = 0;
             long hotA1Start = -1;
-            long hotT2Start = -1;
-            long hotT2Prev = -1;
-            long hotT2Max = -1;
-            int hotT2Resets = 0;
-            long hotEnteredAtMs = -1;
-            long lastHotEvidenceMs = 0;
-            long hotEntryPrevPc = -1;
-            JSONObject hotEntryPrevGpr = null;
-
-            long previousPc = -1;
-            JSONObject previousGpr = null;
+            boolean evidenceCaptured = false;
 
             while (!stopRequested) {
-                long now = System.currentTimeMillis();
-                try {
-                    JSONObject cpu = request(writer, reader, requestId++, rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
-                    JSONObject regs = request(writer, reader, requestId++, rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
-                    JSONObject rawCpu = rawResponse(cpu);
-                    JSONObject currentGpr = selectedRegisters(regs);
+                JSONObject cpu = request(writer, reader, requestId++,
+                        rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
+                JSONObject regs = request(writer, reader, requestId++,
+                        rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
 
-                    long pc = findRegister(regs, "pc");
-                    long sp = findRegister(regs, "sp");
-                    long a1 = findRegister(regs, "a1");
-                    long t2 = findRegister(regs, "t2");
-                    long s0 = findRegister(regs, "s0");
-                    if (pc < 0) pc = rawCpu.optLong("pc", -1);
-                    if (pc >= 0) lastPc = pc & 0xffffffffL;
-                    if (sp >= 0) lastSp = sp & 0xffffffffL;
+                JSONObject rawCpu = rawResponse(cpu);
+                long pc = findRegister(regs, "pc");
+                long a1 = findRegister(regs, "a1");
+                long s0 = findRegister(regs, "s0");
+                if (pc < 0) pc = rawCpu.optLong("pc", -1);
+                if (pc >= 0) pc &= 0xffffffffL;
 
-                    long ticks = rawCpu.optLong("ticks", -1);
-                    if (ticks >= 0 && ticks == lastTicks) {
-                        sameTickCount++;
-                    } else {
-                        sameTickCount = 0;
-                        stallReported = false;
-                    }
-                    lastTicks = ticks;
-
-                    if (isHotPc(lastPc)) {
-                        if (hotPcCount == 0) {
-                            hotA1Start = a1;
-                            hotT2Start = t2;
-                            hotT2Prev = t2;
-                            hotT2Max = t2;
-                            hotT2Resets = 0;
-                            hotEnteredAtMs = now;
-                            hotEntryPrevPc = previousPc;
-                            hotEntryPrevGpr = previousGpr == null ? null : new JSONObject(previousGpr.toString());
-                        } else if (t2 >= 0) {
-                            if (hotT2Prev >= 0 && Long.compareUnsigned(t2, hotT2Prev) < 0) hotT2Resets++;
-                            if (hotT2Max < 0 || Long.compareUnsigned(t2, hotT2Max) > 0) hotT2Max = t2;
-                            hotT2Prev = t2;
-                        }
-                        hotPcCount++;
-                    } else {
-                        hotPcCount = 0;
-                        hotA1Start = -1;
-                        hotT2Start = -1;
-                        hotT2Prev = -1;
-                        hotT2Max = -1;
-                        hotT2Resets = 0;
-                        hotEnteredAtMs = -1;
-                        lastHotEvidenceMs = 0;
-                        hotEntryPrevPc = -1;
-                        hotEntryPrevGpr = null;
-                    }
-
-                    JSONObject sample = new JSONObject();
-                    sample.put("event", "sample");
-                    sample.put("time_ms", now);
-                    if (lastPc >= 0) sample.put("pc", hex32(lastPc));
-                    if (lastSp >= 0) sample.put("sp", hex32(lastSp));
-                    sample.put("cpu", rawCpu);
-                    sample.put("gpr", currentGpr);
-                    appendSample(sample.toString());
-
-                    if (hotPcCount >= HOT_LOOP_SAMPLES && a1 >= 0 && hotA1Start >= 0
-                            && unsignedAdvance(hotA1Start, a1) >= HOT_A1_MIN_ADVANCE
-                            && (lastHotEvidenceMs == 0 || now - lastHotEvidenceMs >= HOT_EVIDENCE_INTERVAL_MS)) {
-                        JSONObject evidence = new JSONObject();
-                        evidence.put("event", "hot_loop_detected");
-                        evidence.put("time_ms", System.currentTimeMillis());
-                        evidence.put("pc_window_start", hex32(HOT_PC_MIN));
-                        evidence.put("pc_window_end", hex32(HOT_PC_MAX));
-                        evidence.put("samples_in_window", hotPcCount);
-                        if (hotEnteredAtMs >= 0) evidence.put("hot_elapsed_ms", now - hotEnteredAtMs);
-
-                        evidence.put("a1_start", hex32(hotA1Start));
-                        evidence.put("a1_now", hex32(a1));
-                        evidence.put("a1_advance", hex32(unsignedAdvance(hotA1Start, a1)));
-                        if (hotT2Start >= 0) evidence.put("t2_start", hex32(hotT2Start));
-                        if (t2 >= 0) evidence.put("t2_now", hex32(t2));
-                        if (hotT2Start >= 0 && t2 >= 0) evidence.put("t2_unsigned_delta", hex32(unsignedAdvance(hotT2Start, t2)));
-                        if (hotT2Max >= 0) evidence.put("t2_max", hex32(hotT2Max));
-                        evidence.put("t2_decrease_count", hotT2Resets);
-                        if (hotEntryPrevPc >= 0) evidence.put("entry_prev_pc", hex32(hotEntryPrevPc));
-                        if (hotEntryPrevGpr != null) evidence.put("entry_prev_gpr", hotEntryPrevGpr);
-                        evidence.put("gpr", currentGpr);
-
-                        tryDisasm(writer, reader, requestId++, evidence, "loop_and_setup_disasm",
-                                HOT_DISASM_START, HOT_DISASM_COUNT);
-                        tryDisasm(writer, reader, requestId++, evidence, "producer_disasm",
-                                PRODUCER_DISASM_START, PRODUCER_DISASM_COUNT);
-                        tryDisasm(writer, reader, requestId++, evidence, "allocator_candidate_disasm",
-                                ALLOCATOR_CANDIDATE_DISASM_START, ALLOCATOR_CANDIDATE_DISASM_COUNT);
-
-                        // Preserve the debugger result without treating Invalid address
-                        // as proof of a CPU-visible memory fault by itself.
-                        if (a1 >= 0) {
-                            tryMemoryRead(writer, reader, requestId++, evidence,
-                                    "a1_memory", a1 & 0xfffffff0L, 64);
-                        }
-
-                        if (s0 >= 0) {
-                            long objectStart = (s0 + OBJECT_WINDOW_OFFSET) & 0xffffffffL;
-                            long pointerField = (s0 + POINTER_FIELD_OFFSET) & 0xffffffffL;
-                            evidence.put("s0_object_base", hex32(s0));
-                            evidence.put("s0_object_window_start", hex32(objectStart));
-                            evidence.put("s0_pointer_field_address", hex32(pointerField));
-                            tryMemoryRead(writer, reader, requestId++, evidence,
-                                    "s0_object_window", objectStart, OBJECT_WINDOW_SIZE);
-                            tryPointerFieldRead(writer, reader, requestId++, evidence, pointerField);
-                        }
-
-                        if (lastSp >= 0) {
-                            tryMemoryRead(writer, reader, requestId++, evidence,
-                                    "stack_memory", lastSp, 128);
-                        }
-
-                        appendSample(evidence.toString());
-                        lastHotEvidenceMs = now;
-                        updateNotification("PPSSPP 장기 탐색 감지 · allocator 후보까지 보존");
-                    }
-
-                    if (!stallReported && sameTickCount >= STALL_SAMPLES) {
-                        JSONObject stall = new JSONObject();
-                        stall.put("event", "stall_detected");
-                        stall.put("time_ms", System.currentTimeMillis());
-                        stall.put("same_tick_samples", sameTickCount + 1);
-                        if (ticks >= 0) stall.put("ticks", ticks);
-                        if (lastPc >= 0) stall.put("pc", hex32(lastPc));
-                        if (lastSp >= 0) stall.put("sp", hex32(lastSp));
-                        stall.put("gpr", currentGpr);
-                        appendSample(stall.toString());
-                        stallReported = true;
-                        updateNotification("PPSSPP CPU 정지 감지 · 제어흐름 레지스터 보존");
-                    }
-
-                    previousPc = lastPc;
-                    previousGpr = new JSONObject(currentGpr.toString());
-                } catch (TimeoutException e) {
-                    JSONObject timeout = new JSONObject();
-                    timeout.put("event", "sample_timeout");
-                    timeout.put("time_ms", System.currentTimeMillis());
-                    timeout.put("timeout_ms", RESPONSE_TIMEOUT_MS);
-                    if (lastPc >= 0) timeout.put("last_pc", hex32(lastPc));
-                    if (lastSp >= 0) timeout.put("last_sp", hex32(lastSp));
-                    timeout.put("error", message(e));
-                    appendSample(timeout.toString());
-                    updateNotification("PPSSPP 응답 정지 감지 · 마지막 CPU 상태 보존");
-                    throw e;
+                if (isHotPc(pc)) {
+                    if (hotPcCount == 0) hotA1Start = a1;
+                    hotPcCount++;
+                } else {
+                    hotPcCount = 0;
+                    hotA1Start = -1;
                 }
+
+                if (!evidenceCaptured
+                        && hotPcCount >= HOT_LOOP_SAMPLES
+                        && a1 >= 0 && hotA1Start >= 0
+                        && unsignedAdvance(hotA1Start, a1) >= HOT_A1_MIN_ADVANCE) {
+                    JSONObject evidence = new JSONObject();
+                    evidence.put("event", "allocator_backend_capture");
+                    evidence.put("time_ms", System.currentTimeMillis());
+                    evidence.put("pc", hex32(pc));
+                    evidence.put("a1_start", hex32(hotA1Start));
+                    evidence.put("a1_now", hex32(a1));
+                    evidence.put("a1_advance", hex32(unsignedAdvance(hotA1Start, a1)));
+                    evidence.put("gpr", selectedRegisters(regs));
+
+                    tryDisasm(writer, reader, requestId++, evidence,
+                            "allocator_backend_disasm", BACKEND_DISASM_START, BACKEND_DISASM_COUNT);
+
+                    if (s0 >= 0) {
+                        long pointerField = (s0 + POINTER_FIELD_OFFSET) & 0xffffffffL;
+                        evidence.put("s0", hex32(s0));
+                        evidence.put("s0_pointer_field_address", hex32(pointerField));
+                        tryMemoryRead(writer, reader, requestId++, evidence,
+                                "s0_pointer_field", pointerField, 4);
+                    }
+
+                    appendEvent(evidence.toString());
+                    evidenceCaptured = true;
+                    updateNotification("allocator backend 캡처 완료 · 로그 복사 가능");
+                }
+
                 sleep(SAMPLE_INTERVAL_MS);
             }
         } finally {
@@ -354,40 +225,10 @@ public final class FreezeTraceService extends Service {
         }
     }
 
-    private static void tryPointerFieldRead(BufferedWriter writer, BufferedReader reader, int requestId,
-                                            JSONObject evidence, long address) {
-        try {
-            JSONObject params = new JSONObject();
-            params.put("address", address & 0xffffffffL);
-            params.put("size", 4);
-            JSONObject memory = request(writer, reader, requestId,
-                    rawCommand("memory.read", params), RESPONSE_TIMEOUT_MS);
-            JSONObject raw = rawResponse(memory);
-            evidence.put("s0_pointer_field_start", hex32(address));
-            evidence.put("s0_pointer_field", raw);
-            String encoded = raw.optString("base64", "");
-            if (!encoded.isEmpty()) {
-                byte[] bytes = Base64.decode(encoded, Base64.DEFAULT);
-                if (bytes.length >= 4) {
-                    long value = ((long) bytes[0] & 0xffL)
-                            | (((long) bytes[1] & 0xffL) << 8)
-                            | (((long) bytes[2] & 0xffL) << 16)
-                            | (((long) bytes[3] & 0xffL) << 24);
-                    evidence.put("s0_pointer_field_le32", hex32(value));
-                }
-            }
-        } catch (Exception error) {
-            try {
-                evidence.put("s0_pointer_field_start", hex32(address));
-                evidence.put("s0_pointer_field_error", message(error));
-            } catch (Exception ignored) {}
-        }
-    }
-
-    private synchronized void appendSample(String line) {
-        ring.addLast(line);
-        while (ring.size() > MAX_SAMPLES) ring.removeFirst();
-        persistRing();
+    private synchronized void appendEvent(String line) {
+        events.addLast(line);
+        while (events.size() > MAX_EVENTS) events.removeFirst();
+        persistEvents();
     }
 
     private synchronized void writeEvent(String event, String key, Object value) {
@@ -396,17 +237,15 @@ public final class FreezeTraceService extends Service {
             obj.put("event", event);
             obj.put("time_ms", System.currentTimeMillis());
             obj.put(key, value);
-            ring.addLast(obj.toString());
-            while (ring.size() > MAX_SAMPLES + 8) ring.removeFirst();
-            persistRing();
+            appendEvent(obj.toString());
         } catch (Exception ignored) {
         }
     }
 
-    private void persistRing() {
+    private void persistEvents() {
         File out = new File(getFilesDir(), TRACE_FILE);
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(out, false))) {
-            for (String line : ring) {
+            for (String line : events) {
                 writer.write(line);
                 writer.newLine();
             }
@@ -437,7 +276,7 @@ public final class FreezeTraceService extends Service {
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
         return new Notification.Builder(this, CHANNEL_ID)
                 .setSmallIcon(android.R.drawable.stat_notify_sync)
-                .setContentTitle("질올 PPSSPP 프리징 기록")
+                .setContentTitle("질올 PPSSPP 프리징 tracer")
                 .setContentText(text)
                 .setContentIntent(pending)
                 .setOngoing(true)
@@ -492,9 +331,9 @@ public final class FreezeTraceService extends Service {
         JSONObject selected = new JSONObject();
         String[] names = new String[]{
                 "v0", "v1", "a0", "a1", "a2", "a3",
-                "t0", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9",
+                "t0", "t1", "t2", "t3",
                 "s0", "s1", "s2", "s3", "s4", "s5", "s6", "s7",
-                "gp", "sp", "fp", "ra", "pc"
+                "sp", "fp", "ra", "pc"
         };
         for (String name : names) {
             long value = findRegister(response, name);
