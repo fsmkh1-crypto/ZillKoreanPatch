@@ -22,33 +22,18 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Verify committed polling tracer source
+      - name: Verify inline-page tracer source
         shell: bash
         run: |
-          set -euxo pipefail
+          set -euo pipefail
           TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
-          grep -q 'PRODUCER_CALL = 0x0886C938L' "$TRACE"
-          grep -q 'PRODUCER_POST_CALL = 0x0886C940L' "$TRACE"
-          grep -q 'PRODUCER_STORE = 0x0886C948L' "$TRACE"
-          grep -q 'BACKEND_ENTRY = 0x08A23064L' "$TRACE"
           grep -q 'SECOND_SCANNER_CALL = 0x0886C9B4L' "$TRACE"
-          grep -q 'SECOND_SCANNER_SKIP = 0x0886C9C4L' "$TRACE"
-          grep -q 'OBSERVED_FAILING_FIELD_VALUE = 0x8C4C89A4L' "$TRACE"
-          grep -q 'STATUS_POLL_MS = 20' "$TRACE"
-          grep -q 'rawCommand("cpu.status"' "$TRACE"
-          grep -q 'waitForStoppedPc' "$TRACE"
-          grep -q 'store_equals_scanner_input' "$TRACE"
-          grep -q 'saveLatestCandidate' "$TRACE"
-          grep -q 'cleanupBreakpoints' "$TRACE"
-          grep -q 'cpu.breakpoint.add' "$TRACE"
-          grep -q 'pointer_boundary_capture' "$TRACE"
-          grep -q 'writeEvent("armed"' "$TRACE"
-          ! grep -q 'bridgeWait' "$TRACE"
-          ! grep -q 'drainBridgeEvents' "$TRACE"
-          ! grep -q 'command.put("event", "cpu.stepping")' "$TRACE"
-          ! grep -q 'BACKEND_DISASM_START' "$TRACE"
-          ! grep -q 'ALLOCATOR_CANDIDATE_DISASM_START' "$TRACE"
-          ! grep -q 'exact producer invocation' "$TRACE"
+          grep -q 'INLINE_PAGE_OFFSET = 0x2C0L' "$TRACE"
+          grep -q 'INLINE_DUMP_SIZE = 0x120' "$TRACE"
+          grep -q 'rawCommand("memory.read"' "$TRACE"
+          grep -q 'lf_count_before_nul' "$TRACE"
+          grep -q 'slot_plus_3c0_word' "$TRACE"
+          grep -q 'inline_page_capture' "$TRACE"
 
       - uses: actions/setup-go@v7
         with:
@@ -70,12 +55,10 @@ jobs:
       - name: Build arm64 PPSSPP debugger bridge
         shell: bash
         run: |
-          set -euxo pipefail
+          set -euo pipefail
           mkdir -p android-patcher/app/src/main/jniLibs/arm64-v8a
-          CGO_ENABLED=0 GOOS=android GOARCH=arm64 go build -trimpath -buildmode=pie \
-            -o android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so ./cmd/zill
+          CGO_ENABLED=0 GOOS=android GOARCH=arm64 go build -trimpath -buildmode=pie -o android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so ./cmd/zill
           chmod 0755 android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
-          file android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
 
       - uses: gradle/actions/setup-gradle@v4
         with:
@@ -84,7 +67,7 @@ jobs:
       - name: Build tracer APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
 
-      - name: Verify tracer-only APK essentials
+      - name: Verify tracer APK
         shell: bash
         run: |
           set -euo pipefail
@@ -92,7 +75,6 @@ jobs:
           unzip -l "$APK" > /tmp/apk-list.txt
           grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
           grep -q 'classes.dex' /tmp/apk-list.txt
-          ! grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
           sha256sum "$APK" | tee "$APK.sha256"
 
       - uses: actions/upload-artifact@v4
