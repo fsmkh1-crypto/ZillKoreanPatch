@@ -43,6 +43,16 @@ public final class FreezeTraceService extends Service {
     private static final int MAX_SAMPLES = 60; // about 30 seconds
     private static final int STALL_SAMPLES = 3;
 
+    // Runtime evidence from the 2026-08-29 freeze repeatedly landed in this
+    // 0x64-byte window while a1 advanced for megabytes. Detect that pattern
+    // independently from a true CPU stall (ticks continue increasing here).
+    private static final long HOT_PC_MIN = 0x08966200L;
+    private static final long HOT_PC_MAX = 0x08966260L;
+    private static final int HOT_LOOP_SAMPLES = 3;
+    private static final long HOT_A1_MIN_ADVANCE = 0x1000L;
+    private static final long HOT_DISASM_START = 0x089661E0L;
+    private static final int HOT_DISASM_COUNT = 40;
+
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private volatile boolean stopRequested;
     private volatile Process process;
@@ -122,6 +132,9 @@ public final class FreezeTraceService extends Service {
             long lastTicks = -1;
             int sameTickCount = 0;
             boolean stallReported = false;
+            int hotPcCount = 0;
+            long hotA1Start = -1;
+            boolean hotLoopReported = false;
             while (!stopRequested) {
                 long now = System.currentTimeMillis();
                 try {
@@ -131,6 +144,7 @@ public final class FreezeTraceService extends Service {
 
                     long pc = findRegister(regs, "pc");
                     long sp = findRegister(regs, "sp");
+                    long a1 = findRegister(regs, "a1");
                     if (pc < 0) pc = rawCpu.optLong("pc", -1);
                     if (pc >= 0) lastPc = pc & 0xffffffffL;
                     if (sp >= 0) lastSp = sp & 0xffffffffL;
@@ -144,6 +158,15 @@ public final class FreezeTraceService extends Service {
                     }
                     lastTicks = ticks;
 
+                    if (isHotPc(lastPc)) {
+                        if (hotPcCount == 0) hotA1Start = a1;
+                        hotPcCount++;
+                    } else {
+                        hotPcCount = 0;
+                        hotA1Start = -1;
+                        hotLoopReported = false;
+                    }
+
                     JSONObject sample = new JSONObject();
                     sample.put("event", "sample");
                     sample.put("time_ms", now);
@@ -152,6 +175,46 @@ public final class FreezeTraceService extends Service {
                     sample.put("cpu", rawCpu);
                     sample.put("gpr", selectedRegisters(regs));
                     appendSample(sample.toString());
+
+                    if (!hotLoopReported && hotPcCount >= HOT_LOOP_SAMPLES && a1 >= 0 && hotA1Start >= 0
+                            && unsignedAdvance(hotA1Start, a1) >= HOT_A1_MIN_ADVANCE) {
+                        JSONObject evidence = new JSONObject();
+                        evidence.put("event", "hot_loop_detected");
+                        evidence.put("time_ms", System.currentTimeMillis());
+                        evidence.put("pc_window_start", hex32(HOT_PC_MIN));
+                        evidence.put("pc_window_end", hex32(HOT_PC_MAX));
+                        evidence.put("samples_in_window", hotPcCount);
+                        evidence.put("a1_start", hex32(hotA1Start));
+                        evidence.put("a1_now", hex32(a1));
+                        evidence.put("a1_advance", hex32(unsignedAdvance(hotA1Start, a1)));
+                        evidence.put("gpr", selectedRegisters(regs));
+
+                        JSONObject disasmParams = new JSONObject();
+                        disasmParams.put("address", HOT_DISASM_START);
+                        disasmParams.put("count", HOT_DISASM_COUNT);
+                        disasmParams.put("displaySymbols", true);
+                        disasmParams.put("compact", false);
+                        JSONObject disasm = request(writer, reader, requestId++,
+                                rawCommand("memory.disasm", disasmParams), RESPONSE_TIMEOUT_MS);
+                        evidence.put("disasm", rawResponse(disasm));
+
+                        JSONObject a1ReadParams = new JSONObject();
+                        long a1ReadStart = a1 & 0xfffffff0L;
+                        a1ReadParams.put("address", a1ReadStart);
+                        a1ReadParams.put("size", 64);
+                        try {
+                            JSONObject a1Memory = request(writer, reader, requestId++,
+                                    rawCommand("memory.read", a1ReadParams), RESPONSE_TIMEOUT_MS);
+                            evidence.put("a1_memory_start", hex32(a1ReadStart));
+                            evidence.put("a1_memory", rawResponse(a1Memory));
+                        } catch (Exception readError) {
+                            evidence.put("a1_memory_error", message(readError));
+                        }
+
+                        appendSample(evidence.toString());
+                        hotLoopReported = true;
+                        updateNotification("PPSSPP 무한 탐색 루프 감지 · 명령어/메모리 보존");
+                    }
 
                     if (!stallReported && sameTickCount >= STALL_SAMPLES) {
                         JSONObject stall = new JSONObject();
@@ -304,6 +367,14 @@ public final class FreezeTraceService extends Service {
             if (value >= 0) selected.put(name, hex32(value));
         }
         return selected;
+    }
+
+    private static boolean isHotPc(long pc) {
+        return pc >= HOT_PC_MIN && pc <= HOT_PC_MAX;
+    }
+
+    private static long unsignedAdvance(long start, long now) {
+        return (now - start) & 0xffffffffL;
     }
 
     private static long findRegister(JSONObject response, String wanted) {
