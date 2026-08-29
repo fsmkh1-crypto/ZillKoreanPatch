@@ -7,6 +7,7 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.util.Base64;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -48,19 +49,14 @@ public final class FreezeTraceService extends Service {
     private static final int HOT_LOOP_SAMPLES = 3;
     private static final long HOT_A1_MIN_ADVANCE = 0x1000L;
 
-    // Scanner/parser body plus setup.
     private static final long HOT_DISASM_START = 0x08966120L;
     private static final int HOT_DISASM_COUNT = 96;
 
-    // Runtime evidence places the relevant caller in z_un_0886c84c. Capture
-    // from the real function start far enough to include the +0x3C0 field flow
-    // and both calls to z_un_089661dc.
+    // Capture the full producer/caller region requested by A-047: 128
+    // instructions from 0x0886C84C reaches through 0x0886CA4C.
     private static final long PRODUCER_DISASM_START = 0x0886C84CL;
-    private static final int PRODUCER_DISASM_COUNT = 112;
+    private static final int PRODUCER_DISASM_COUNT = 128;
 
-    // Object state around the suspicious +0x3C0 field. This deliberately
-    // includes neighboring fields so pointer/offset/type-confusion hypotheses
-    // can be checked rather than assuming +0x3C0 is independently corrupted.
     private static final long OBJECT_WINDOW_OFFSET = 0x380L;
     private static final int OBJECT_WINDOW_SIZE = 0x180; // through +0x4FF
     private static final long POINTER_FIELD_OFFSET = 0x3C0L;
@@ -252,8 +248,8 @@ public final class FreezeTraceService extends Service {
                         tryDisasm(writer, reader, requestId++, evidence, "producer_disasm",
                                 PRODUCER_DISASM_START, PRODUCER_DISASM_COUNT);
 
-                        // Keep the old moving-a1 read as evidence, but do not equate
-                        // debugger Invalid address with a CPU-visible fault by itself.
+                        // Preserve the debugger result without treating Invalid address
+                        // as proof of a CPU-visible memory fault by itself.
                         if (a1 >= 0) {
                             tryMemoryRead(writer, reader, requestId++, evidence,
                                     "a1_memory", a1 & 0xfffffff0L, 64);
@@ -267,8 +263,7 @@ public final class FreezeTraceService extends Service {
                             evidence.put("s0_pointer_field_address", hex32(pointerField));
                             tryMemoryRead(writer, reader, requestId++, evidence,
                                     "s0_object_window", objectStart, OBJECT_WINDOW_SIZE);
-                            tryMemoryRead(writer, reader, requestId++, evidence,
-                                    "s0_pointer_field", pointerField, 4);
+                            tryPointerFieldRead(writer, reader, requestId++, evidence, pointerField);
                         }
 
                         if (lastSp >= 0) {
@@ -348,6 +343,36 @@ public final class FreezeTraceService extends Service {
             try {
                 evidence.put(key + "_start", hex32(address));
                 evidence.put(key + "_error", message(error));
+            } catch (Exception ignored) {}
+        }
+    }
+
+    private static void tryPointerFieldRead(BufferedWriter writer, BufferedReader reader, int requestId,
+                                            JSONObject evidence, long address) {
+        try {
+            JSONObject params = new JSONObject();
+            params.put("address", address & 0xffffffffL);
+            params.put("size", 4);
+            JSONObject memory = request(writer, reader, requestId,
+                    rawCommand("memory.read", params), RESPONSE_TIMEOUT_MS);
+            JSONObject raw = rawResponse(memory);
+            evidence.put("s0_pointer_field_start", hex32(address));
+            evidence.put("s0_pointer_field", raw);
+            String encoded = raw.optString("base64", "");
+            if (!encoded.isEmpty()) {
+                byte[] bytes = Base64.decode(encoded, Base64.DEFAULT);
+                if (bytes.length >= 4) {
+                    long value = ((long) bytes[0] & 0xffL)
+                            | (((long) bytes[1] & 0xffL) << 8)
+                            | (((long) bytes[2] & 0xffL) << 16)
+                            | (((long) bytes[3] & 0xffL) << 24);
+                    evidence.put("s0_pointer_field_le32", hex32(value));
+                }
+            }
+        } catch (Exception error) {
+            try {
+                evidence.put("s0_pointer_field_start", hex32(address));
+                evidence.put("s0_pointer_field_error", message(error));
             } catch (Exception ignored) {}
         }
     }
