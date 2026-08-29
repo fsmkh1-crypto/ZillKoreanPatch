@@ -7,7 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/HK47196/zill/internal/cp932"
 	"github.com/HK47196/zill/internal/fixeddata"
+	"github.com/HK47196/zill/internal/koreanslots"
 )
 
 func TestPR14EBOOTFixtureIsSeparatedFromCurrentProductionInput(t *testing.T) {
@@ -46,13 +48,19 @@ func TestPR14EBOOTFixtureIsSeparatedFromCurrentProductionInput(t *testing.T) {
 }
 
 func TestMappingDifferenceCount(t *testing.T) {
-	a := map[rune]uint16{'가': 1, '나': 2}
-	b := map[rune]uint16{'가': 1, '나': 3, '다': 4}
-	// Convert through the concrete mapping type without relying on map iteration order.
-	ma := make(map[rune]uint16, len(a))
-	mb := make(map[rune]uint16, len(b))
-	for r, key := range a { ma[r] = key }
-	for r, key := range b { mb[r] = key }
-	_ = ma
-	_ = mb
+	a := koreanslots.Mapping{
+		'가': cp932.GlyphKey(0x8140),
+		'나': cp932.GlyphKey(0x8141),
+	}
+	b := koreanslots.Mapping{
+		'가': cp932.GlyphKey(0x8140),
+		'나': cp932.GlyphKey(0x8142),
+		'다': cp932.GlyphKey(0x8143),
+	}
+	if got, want := mappingDifferenceCount(a, b), 2; got != want {
+		t.Fatalf("mappingDifferenceCount=%d, want %d", got, want)
+	}
+	if got := mappingDifferenceCount(a, cloneKoreanMapping(a)); got != 0 {
+		t.Fatalf("mappingDifferenceCount identical mapping=%d, want 0", got)
+	}
 }
