@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-/** UI for the one-shot PPSSPP bad-pointer boundary capture. */
+/** UI for explicit user-triggered PPSSPP freeze-state capture. */
 public final class FreezeCaptureActivity extends Activity {
     private EditText portInput;
     private TextView status;
@@ -28,17 +28,18 @@ public final class FreezeCaptureActivity extends Activity {
         root.setPadding(pad, pad, pad, pad);
 
         TextView title = new TextView(this);
-        title.setText("질올 PPSSPP 경계 캡처");
+        title.setText("질올 PPSSPP 수동 프리징 캡처");
         title.setTextSize(22);
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("1) PPSSPP에서 '원격 디버거 허용'을 켜고 로컬 서버 포트를 34500으로 맞춥니다.\n"
-                + "2) 여기서 '캡처 시작'을 누릅니다. PPSSPP가 늦게 켜져도 자동 재연결합니다.\n"
-                + "3) PPSSPP로 돌아가 문제가 발생하던 장면까지 평소처럼 진행합니다.\n"
-                + "4) 문제 메시지 생성 경로가 실행되면 producer → backend → store 경계를 한 번만 자동 캡처합니다.\n"
-                + "5) 프리징까지 기다릴 필요가 없습니다. '경계 캡처 완료' 알림이 뜨면 이 앱으로 돌아와 로그를 복사합니다.\n\n"
-                + "이미 확인된 스캐너/producer 디스어셈블은 다시 기록하지 않습니다.");
+        info.setText("자동 감지나 breakpoint를 사용하지 않습니다.\n\n"
+                + "1) PPSSPP 원격 디버거를 켜고 포트를 34500으로 맞춥니다.\n"
+                + "2) 이 앱은 건드리지 말고 PPSSPP에서 평소처럼 프리징을 재현합니다.\n"
+                + "3) 화면이 실제로 멈춘 뒤 이 앱으로 돌아옵니다.\n"
+                + "4) 아래 '지금 상태 수동 캡처'를 딱 한 번 누릅니다.\n"
+                + "5) 완료 알림이 뜨면 '최근 로그 복사'를 눌러 채팅에 붙입니다.\n\n"
+                + "캡처 버튼을 누른 순간의 PC/GPR과 s0+0x2C0 메모리 0x120바이트를 그대로 기록합니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -52,17 +53,12 @@ public final class FreezeCaptureActivity extends Activity {
         portParams.topMargin = pad;
         root.addView(portInput, portParams);
 
-        Button startButton = new Button(this);
-        startButton.setText("캡처 시작");
-        startButton.setOnClickListener(v -> startTrace());
-        LinearLayout.LayoutParams startParams = new LinearLayout.LayoutParams(-1, -2);
-        startParams.topMargin = pad / 2;
-        root.addView(startButton, startParams);
-
-        Button stopButton = new Button(this);
-        stopButton.setText("캡처 중지");
-        stopButton.setOnClickListener(v -> stopTrace());
-        root.addView(stopButton, new LinearLayout.LayoutParams(-1, -2));
+        Button captureButton = new Button(this);
+        captureButton.setText("지금 상태 수동 캡처");
+        captureButton.setOnClickListener(v -> captureNow());
+        LinearLayout.LayoutParams captureParams = new LinearLayout.LayoutParams(-1, -2);
+        captureParams.topMargin = pad / 2;
+        root.addView(captureButton, captureParams);
 
         Button copyButton = new Button(this);
         copyButton.setText("최근 로그 복사");
@@ -70,7 +66,7 @@ public final class FreezeCaptureActivity extends Activity {
         root.addView(copyButton, new LinearLayout.LayoutParams(-1, -2));
 
         status = new TextView(this);
-        status.setText("대기 중");
+        status.setText("PPSSPP에서 프리징을 먼저 재현한 뒤 캡처 버튼을 누르세요.");
         status.setTextSize(14);
         status.setTextIsSelectable(true);
         LinearLayout.LayoutParams statusParams = new LinearLayout.LayoutParams(-1, -2);
@@ -91,28 +87,21 @@ public final class FreezeCaptureActivity extends Activity {
         }
     }
 
-    private void startTrace() {
+    private void captureNow() {
         int port = readPort();
         if (port < 0) return;
         Intent intent = new Intent(this, FreezeTraceService.class);
-        intent.setAction(FreezeTraceService.ACTION_START);
+        intent.setAction(FreezeTraceService.ACTION_CAPTURE_NOW);
         intent.putExtra(FreezeTraceService.EXTRA_PORT, port);
         startForegroundService(intent);
-        status.setText("경계 캡처를 시작했습니다. 이제 PPSSPP로 돌아가 문제 장면까지 진행하세요.");
-    }
-
-    private void stopTrace() {
-        Intent intent = new Intent(this, FreezeTraceService.class);
-        intent.setAction(FreezeTraceService.ACTION_STOP);
-        startService(intent);
-        status.setText("캡처 중지를 요청했습니다. 저장된 로그는 유지됩니다.");
+        status.setText("현재 프리징 상태 캡처를 요청했습니다. 완료 알림 후 로그를 복사하세요.");
     }
 
     private void copyTrace() {
         try {
             String trace = FreezeTraceService.readLatestTrace(getFilesDir());
             if (trace.trim().isEmpty()) {
-                status.setText("아직 저장된 로그가 없습니다. '캡처 시작' 후 PPSSPP에서 문제 장면까지 진행하세요.");
+                status.setText("저장된 로그가 없습니다. 프리징 재현 후 '지금 상태 수동 캡처'를 누르세요.");
                 return;
             }
             ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
@@ -120,8 +109,8 @@ public final class FreezeCaptureActivity extends Activity {
                 status.setText("클립보드 서비스를 사용할 수 없습니다.");
                 return;
             }
-            clipboard.setPrimaryClip(ClipData.newPlainText("Zill PPSSPP pointer boundary capture", trace));
-            status.setText("경계 캡처 로그를 복사했습니다. 그대로 채팅에 붙여 주세요.");
+            clipboard.setPrimaryClip(ClipData.newPlainText("Zill PPSSPP manual freeze capture", trace));
+            status.setText("수동 캡처 로그를 복사했습니다. 그대로 채팅에 붙여 주세요.");
         } catch (Exception e) {
             status.setText("로그 읽기 실패: " + e.getMessage());
         }
