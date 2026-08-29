@@ -1,0 +1,87 @@
+# PPSSPP runtime freeze disassembly evidence — 2026-08-29
+# Source: debugger memory.disasm payload captured during the reproduced freeze.
+# This file preserves address / raw encoding / mnemonic / params needed to
+# independently verify the parser-loop and caller interpretations in A-046/A-047.
+# It is evidence, not a root-cause conclusion.
+
+## z_un_089661dc hot scanner/parser
+
+0x089661DC  encoding=0xAC800000  sw    zero,0x0(a0)
+0x089661E0  encoding=0x80A60000  lb    a2,0x0(a1)
+0x089661E4  encoding=0x34090000  li    t1,0x0
+0x089661E8  encoding=0x10C0001F  beq   a2,zero,0x08966268
+0x089661EC  encoding=0x34020000  li    v0,0x0
+0x089661F0  encoding=0x3408001B  li    t0,0x1B
+0x089661F4  encoding=0x3407000D  li    a3,0xD
+0x089661F8  encoding=0x3406000A  li    a2,0xA
+0x089661FC  encoding=0x80AA0000  lb    t2,0x0(a1)
+0x08966200  encoding=0x11480007  beq   t2,t0,0x08966220
+0x08966204  encoding=0x24A50001  addiu a1,a1,0x1
+0x08966208  encoding=0x51470008  beql  t2,a3,0x0896622C
+0x0896620C  encoding=0x80AA0000  lb    t2,0x0(a1)
+0x08966210  encoding=0x1146000A  beq   t2,a2,0x0896623C
+0x08966214  encoding=0x0049482B  sltu  t1,v0,t1
+0x08966218  encoding=0x10000010  b     0x0896625C
+0x0896621C  encoding=0x25290001  addiu t1,t1,0x1
+0x08966220  encoding=0x24A50002  addiu a1,a1,0x2
+0x08966224  encoding=0x1000000E  b     0x08966260
+0x08966228  encoding=0x80AA0000  lb    t2,0x0(a1)
+0x0896622C  encoding=0x15460003  bne   t2,a2,0x0896623C
+0x08966230  encoding=0x0049482B  sltu  t1,v0,t1
+0x08966234  encoding=0x24A50001  addiu a1,a1,0x1
+0x08966238  encoding=0x0049482B  sltu  t1,v0,t1
+0x0896623C  encoding=0x55400001  bnel  t2,zero,0x08966244
+0x08966240  encoding=0x01201025  move  v0,t1
+0x08966244  encoding=0x8C8A0000  lw    t2,0x0(a0)
+0x08966248  encoding=0x34090000  li    t1,0x0
+0x0896624C  encoding=0x254A0001  addiu t2,t2,0x1
+0x08966250  encoding=0xAC8A0000  sw    t2,0x0(a0)
+0x08966254  encoding=0x10000002  b     0x08966260
+0x08966258  encoding=0x80AA0000  lb    t2,0x0(a1)
+0x0896625C  encoding=0x80AA0000  lb    t2,0x0(a1)
+0x08966260  encoding=0x5540FFE7  bnel  t2,zero,0x08966200
+0x08966264  encoding=0x80AA0000  lb    t2,0x0(a1)
+0x08966268  encoding=0x0049082B  sltu  a1,v0,t1
+0x0896626C  encoding=0x54A00001  bnel  a1,zero,0x08966274
+0x08966270  encoding=0x01201025  move  v0,t1
+0x08966274  encoding=0x11200004  beq   t1,zero,0x08966288
+0x08966278  encoding=0x00000000  nop
+0x0896627C  encoding=0x8C850000  lw    a1,0x0(a0)
+0x08966280  encoding=0x24A50001  addiu a1,a1,0x1
+0x08966284  encoding=0xAC850000  sw    a1,0x0(a0)
+0x08966288  encoding=0x03E00008  jr    ra
+0x0896628C  encoding=0x00000000  nop
+
+## caller z_un_0886c84c — relevant calls / +0x3C0 field flow
+
+0x0886C96C  encoding=0xA20004E4  sb    zero,0x4E4(s0)
+0x0886C970  encoding=0x0C8ACEDD  jal   strlen
+0x0886C974  encoding=0x02602025  move  a0,s3
+0x0886C978  encoding=0x00402825  move  a1,v0
+0x0886C97C  encoding=0x34060100  li    a2,0x100
+0x0886C980  encoding=0x34040100  li    a0,0x100
+0x0886C984  encoding=0x00C5302A  slt   a2,a2,a1
+0x0886C988  encoding=0x50C00001  beql  a2,zero,0x0886C994
+0x0886C98C  encoding=0x00A02025  move  a0,a1
+0x0886C990  encoding=0xA20404E3  sb    a0,0x4E3(s0)
+0x0886C994  encoding=0x27A40020  addiu a0,sp,0x20
+0x0886C998  encoding=0x0C259877  jal   z_un_089661dc
+0x0886C99C  encoding=0x02602825  move  a1,s3
+0x0886C9A0  encoding=0xAFA00024  sw    zero,0x24(sp)
+0x0886C9A4  encoding=0x8E0503C0  lw    a1,0x3C0(s0)
+0x0886C9A8  encoding=0x00409825  move  s3,v0
+0x0886C9AC  encoding=0x10A00004  beq   a1,zero,0x0886C9C4
+0x0886C9B0  encoding=0x34040000  li    a0,0x0
+0x0886C9B4  encoding=0x0C259877  jal   z_un_089661dc
+0x0886C9B8  encoding=0x27A40024  addiu a0,sp,0x24
+
+## Runtime observations from same freeze capture
+
+s0 = 0x08ADF9C8
+field address s0+0x3C0 = 0x08ADFD88
+observed field value = 0x8C4C89A4
+later sampled scan start = 0x8D1E5BC2
+~199 s later a1 = 0x90E28B89
+screen remained frozen without recovery for approximately 4 minutes while CPU ticks continued.
+
+Important: 0x8C4C89A4 is the field value observed at the caller-side load; 0x8D1E5BC2 is a later periodic sampler observation after the scan had already advanced. They are not claimed to be the same timestamp.
