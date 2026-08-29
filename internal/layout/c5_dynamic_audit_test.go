@@ -57,7 +57,7 @@ func TestAuditC5UnknownSubstitutionDoesNotInventBound(t *testing.T) {
 	}
 }
 
-func TestAuditC5ThirdLineBreakStartsNextPageBeforeSubstitution(t *testing.T) {
+func TestAuditC5ThirdLineBreakIsCountedBeforeNextPage(t *testing.T) {
 	leaf := c5AuditLeaf{events: []c5AuditEvent{
 		{raw: []byte{'a', 10, 'b', 10, 'c', 10}},
 		{substitution: true, opcode: 0x28},
@@ -66,11 +66,33 @@ func TestAuditC5ThirdLineBreakStartsNextPageBeforeSubstitution(t *testing.T) {
 	if len(pages) != 2 {
 		t.Fatalf("pages = %d, want 2", len(pages))
 	}
-	if pages[0].StaticBytes != 5 || pages[0].KnownMaxBytes != 5 {
-		t.Fatalf("first page = %#v, want five counted static bytes", pages[0])
+	if pages[0].StaticBytes != 6 || pages[0].KnownMaxBytes != 6 {
+		t.Fatalf("first page = %#v, want all six static bytes including boundary newline", pages[0])
 	}
 	if pages[1].StaticBytes != 0 || pages[1].KnownMaxBytes != playerNameMaxEncodedBytes || pages[1].PlayerNameCount != 1 {
 		t.Fatalf("second page = %#v, want player-name expansion on new page", pages[1])
+	}
+}
+
+func TestC5PageCursorCountsThirdBreakThenTransitions(t *testing.T) {
+	cursor := c5PageCursor{}
+	for i, b := range []byte{'a', 10, 'b', 10, 'c'} {
+		if cursor.addByte(b) {
+			t.Fatalf("byte %d unexpectedly started next page", i)
+		}
+	}
+	if !cursor.addByte(10) {
+		t.Fatal("third line break did not start next page after being counted")
+	}
+}
+
+func TestC5SelectShapeCentralizesFixed33Arms(t *testing.T) {
+	arms, sink, err := c5SelectShape([]byte{2, 0x33})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if arms != c5Select33Arms || arms != 8 || !sink {
+		t.Fatalf("$33 select shape = arms=%d sink=%v, want 8,true", arms, sink)
 	}
 }
 
