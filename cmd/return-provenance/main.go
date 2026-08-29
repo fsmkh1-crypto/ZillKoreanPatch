@@ -31,8 +31,9 @@ type verdict struct {
     HasDescend bool
 }
 
+const maxSnippetGap uint32 = 0x20
+
 var lineRE = regexp.MustCompile(`^\s*0x([0-9A-Fa-f]{8})\s+(?:encoding=0x[0-9A-Fa-f]{8}\s+)?([A-Za-z0-9_.]+)\s*(.*)$`)
-var labelAddrRE = regexp.MustCompile(`(?i)(?:z_un_)?0x?([0-9a-f]{8})$`)
 
 func main() {
     input := flag.String("input", "", "disassembly text file")
@@ -101,10 +102,21 @@ func parseFunctions(s *bufio.Scanner) (map[uint32]function, error) {
     for i := 0; i < len(all); i++ {
         start := all[i].Addr
         body := []insn{all[i]}
-        for j := i + 1; j < len(all) && all[j].Addr == body[len(body)-1].Addr+4; j++ {
-            body = append(body, all[j])
-            if len(body) >= 2 && body[len(body)-2].Op == "jr" && strings.TrimSpace(body[len(body)-2].Args) == "ra" {
+        sawReturn := all[i].Op == "jr" && strings.TrimSpace(all[i].Args) == "ra"
+        for j := i + 1; j < len(all); j++ {
+            prev := body[len(body)-1].Addr
+            next := all[j].Addr
+            if next <= prev || next-prev > maxSnippetGap {
                 break
+            }
+            body = append(body, all[j])
+            if sawReturn {
+                // Include the return delay slot, then stop. Partial evidence may omit
+                // unrelated instructions, but never merge through a completed return.
+                break
+            }
+            if all[j].Op == "jr" && strings.TrimSpace(all[j].Args) == "ra" {
+                sawReturn = true
             }
         }
         funcs[start] = function{Start: start, Insns: body}
@@ -121,7 +133,7 @@ func classify(fn function) verdict {
         }
     }
     if ret < 0 {
-        return verdict{Start: fn.Start, Kind: "uncertain", Detail: "no jr ra found in contiguous body"}
+        return verdict{Start: fn.Start, Kind: "uncertain", Detail: "no jr ra found in available body"}
     }
     lastJal := -1
     var jalTarget uint32
@@ -163,7 +175,11 @@ func writesReg(i insn, reg string) bool {
 }
 
 func parseTarget(arg string) (uint32, bool) {
-    arg = strings.TrimSpace(strings.Fields(arg)[0])
+    fields := strings.Fields(strings.TrimSpace(arg))
+    if len(fields) == 0 {
+        return 0, false
+    }
+    arg = fields[0]
     if strings.HasPrefix(strings.ToLower(arg), "z_un_") {
         arg = arg[len("z_un_"):]
     }
