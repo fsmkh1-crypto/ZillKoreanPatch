@@ -122,12 +122,24 @@ def main() -> None:
     if adjacency_counts:
         print("adjacency_opcodes=" + ", ".join(f"${k}:{v}" for k, v in adjacency_counts.most_common()))
 
+    # Compact one-row-per-opcode view for machine/PR review. Semantic labels are
+    # intentionally not inferred here; the real corpus context is the evidence.
+    print("OPCODE_BRIEF_BEGIN")
+    for opcode in sorted(opcode_counts):
+        candidates = [row for row in rows if opcode in row["tags"]]
+        row = candidates[0]
+        print(
+            f"${opcode} occurrences={opcode_counts[opcode]} records={len(candidates)} "
+            f"sample_id={row['id']} consumers={'+'.join(row['labels'])} category={row['category']} "
+            f"JP={compact(row['japanese'], 110)!r} KO={compact(row['korean'], 110)!r}"
+        )
+    print("OPCODE_BRIEF_END")
+
     # Representative real-corpus contexts per opcode. These are evidence for
     # semantic reverse engineering, not labels for the opcode contract.
     print("OPCODE_CONTEXT_SAMPLES_BEGIN")
     for opcode in sorted(opcode_counts):
         candidates = [row for row in rows if opcode in row["tags"]]
-        # Keep samples deterministic while preferring category/consumer diversity.
         chosen = []
         seen_shapes = set()
         for row in candidates:
@@ -146,9 +158,6 @@ def main() -> None:
             )
     print("OPCODE_CONTEXT_SAMPLES_END")
 
-    # Highest-value review set: dynamic substitutions at known bounded/display
-    # consumers, then records with multiple substitutions, then immediate
-    # substitution/text adjacency. This is a triage list, not a verdict.
     def score(row):
         bounded_weight = sum(
             1 for label in row["labels"] if label != "unmapped-by-audited-fixed-consumers"
@@ -166,8 +175,6 @@ def main() -> None:
         )
     print("HIGH_VALUE_DYNAMIC_RECORDS_END")
 
-    # Make the historically interesting record explicit without assigning
-    # causality, so CI logs can be compared across future corpus revisions.
     for row in rows:
         if row["id"] == 10010:
             adj = ",".join(f"${op}->{ch}" for op, ch in row["adjacency"]) or "-"
