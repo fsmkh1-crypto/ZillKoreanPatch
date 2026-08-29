@@ -14,11 +14,11 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.concurrent.ExecutorService;
@@ -167,7 +167,15 @@ public final class FreezeTraceService extends Service {
     public static String readLatestTrace(File filesDir) throws Exception {
         File trace = new File(filesDir, TRACE_FILE);
         if (!trace.isFile()) return "";
-        return Files.readString(trace.toPath(), StandardCharsets.UTF_8);
+        StringBuilder out = new StringBuilder();
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(
+                new FileInputStream(trace), StandardCharsets.UTF_8))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                out.append(line).append('\n');
+            }
+        }
+        return out.toString();
     }
 
     private void updateNotification(String text) {
