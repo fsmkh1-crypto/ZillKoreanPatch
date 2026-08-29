@@ -136,27 +136,44 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 
 	tableEnd := uint64(4 + len(records)*4)
 
-	// Runtime A/B probe: change only the physical position of bank 001 records
-	// 10007 and later. Zero padding is appended after record 10006's terminator so
-	// semantic/control bytes are unchanged, while ID 10007's absolute table entry
-	// is forced above 0xffff. A legacy uint16 reader cannot address the target;
-	// a correct wide32 reader sees the exact same record payload at 0x10020.
-	if bank.Section == 1 && len(records) > 7 {
-		targetOffset := tableEnd
-		for index := 0; index < 7; index++ {
-			targetOffset += uint64(len(records[index]))
+	// Runtime A/B probe: force one bank 001 record just beyond the uint16
+	// boundary, but choose the latest pre-boundary record that fits inside the
+	// real runtime slot. This keeps the experiment to one variable (absolute
+	// record position) without inflating an early record so much that ISO build
+	// fails before the game can be tested.
+	if bank.Section == 1 && len(records) > 1 {
+		baseSize := tableEnd
+		for _, record := range records {
+			baseSize += uint64(len(record))
 		}
-		if targetOffset < wide32BoundaryProbeTargetOffset {
-			padding := wide32BoundaryProbeTargetOffset - targetOffset
-			projected := tableEnd + padding
-			for _, record := range records {
-				projected += uint64(len(record))
-			}
-			if projected > uint64(RuntimeBankCapacity(bank.Section)) {
-				return nil, fmt.Errorf("%s: wide32 boundary probe needs %d bytes but runtime slot capacity is %d", bank.Name, projected, RuntimeBankCapacity(bank.Section))
-			}
-			records[6] = append(records[6], make([]byte, int(padding))...)
+		capacity := uint64(RuntimeBankCapacity(bank.Section))
+		headroom := uint64(0)
+		if baseSize < capacity {
+			headroom = capacity - baseSize
 		}
+
+		prefix := tableEnd
+		probeIndex := -1
+		probeOffset := uint64(0)
+		for index := 0; index < len(records); index++ {
+			if prefix < wide32BoundaryProbeTargetOffset {
+				padding := wide32BoundaryProbeTargetOffset - prefix
+				if index > 0 && padding <= headroom {
+					probeIndex = index
+					probeOffset = prefix
+				}
+			} else {
+				break
+			}
+			prefix += uint64(len(records[index]))
+		}
+		if probeIndex < 0 {
+			return nil, fmt.Errorf("%s: no bank001 record can be moved across 0xffff within runtime slot capacity (base=%d capacity=%d)", bank.Name, baseSize, capacity)
+		}
+		padding := wide32BoundaryProbeTargetOffset - probeOffset
+		records[probeIndex-1] = append(records[probeIndex-1], make([]byte, int(padding))...)
+		fmt.Printf("FORENSIC WIDE32_BOUNDARY bank=%s id=%d index=%d old_offset=0x%X new_offset=0x%X padding=%d base_size=%d final_size=%d capacity=%d\n",
+			bank.Name, bank.Records[probeIndex].ID, probeIndex, probeOffset, wide32BoundaryProbeTargetOffset, padding, baseSize, baseSize+padding, capacity)
 	}
 
 	position := tableEnd
