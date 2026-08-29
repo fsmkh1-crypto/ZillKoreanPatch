@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Verify committed breakpoint tracer source
+      - name: Verify committed polling tracer source
         shell: bash
         run: |
           set -euxo pipefail
@@ -34,14 +34,18 @@ jobs:
           grep -q 'SECOND_SCANNER_CALL = 0x0886C9B4L' "$TRACE"
           grep -q 'SECOND_SCANNER_SKIP = 0x0886C9C4L' "$TRACE"
           grep -q 'OBSERVED_FAILING_FIELD_VALUE = 0x8C4C89A4L' "$TRACE"
+          grep -q 'STATUS_POLL_MS = 20' "$TRACE"
+          grep -q 'rawCommand("cpu.status"' "$TRACE"
+          grep -q 'waitForStoppedPc' "$TRACE"
           grep -q 'store_equals_scanner_input' "$TRACE"
           grep -q 'saveLatestCandidate' "$TRACE"
-          grep -q 'latestCandidate' "$TRACE"
-          grep -q 'drainBridgeEvents' "$TRACE"
           grep -q 'cleanupBreakpoints' "$TRACE"
-          grep -q 's4 != 0' "$TRACE"
           grep -q 'cpu.breakpoint.add' "$TRACE"
           grep -q 'pointer_boundary_capture' "$TRACE"
+          grep -q 'writeEvent("armed"' "$TRACE"
+          ! grep -q 'bridgeWait' "$TRACE"
+          ! grep -q 'drainBridgeEvents' "$TRACE"
+          ! grep -q 'command.put("event", "cpu.stepping")' "$TRACE"
           ! grep -q 'BACKEND_DISASM_START' "$TRACE"
           ! grep -q 'ALLOCATOR_CANDIDATE_DISASM_START' "$TRACE"
           ! grep -q 'exact producer invocation' "$TRACE"
