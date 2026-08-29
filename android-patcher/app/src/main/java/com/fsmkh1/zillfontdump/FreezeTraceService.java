@@ -57,6 +57,11 @@ public final class FreezeTraceService extends Service {
     private static final long PRODUCER_DISASM_START = 0x0886C84CL;
     private static final int PRODUCER_DISASM_COUNT = 128;
 
+    // A-048 identified this return value as the direct source stored into
+    // s0+0x3C0 before the runaway scanner consumes it.
+    private static final long ALLOCATOR_CANDIDATE_DISASM_START = 0x089E2B54L;
+    private static final int ALLOCATOR_CANDIDATE_DISASM_COUNT = 128;
+
     private static final long OBJECT_WINDOW_OFFSET = 0x380L;
     private static final int OBJECT_WINDOW_SIZE = 0x180; // through +0x4FF
     private static final long POINTER_FIELD_OFFSET = 0x3C0L;
@@ -247,6 +252,8 @@ public final class FreezeTraceService extends Service {
                                 HOT_DISASM_START, HOT_DISASM_COUNT);
                         tryDisasm(writer, reader, requestId++, evidence, "producer_disasm",
                                 PRODUCER_DISASM_START, PRODUCER_DISASM_COUNT);
+                        tryDisasm(writer, reader, requestId++, evidence, "allocator_candidate_disasm",
+                                ALLOCATOR_CANDIDATE_DISASM_START, ALLOCATOR_CANDIDATE_DISASM_COUNT);
 
                         // Preserve the debugger result without treating Invalid address
                         // as proof of a CPU-visible memory fault by itself.
@@ -273,7 +280,7 @@ public final class FreezeTraceService extends Service {
 
                         appendSample(evidence.toString());
                         lastHotEvidenceMs = now;
-                        updateNotification("PPSSPP 장기 탐색 감지 · producer/객체 상태 보존");
+                        updateNotification("PPSSPP 장기 탐색 감지 · allocator 후보까지 보존");
                     }
 
                     if (!stallReported && sameTickCount >= STALL_SAMPLES) {
