@@ -52,7 +52,21 @@
 0x08966288  encoding=0x03E00008  jr    ra
 0x0896628C  encoding=0x00000000  nop
 
-## caller z_un_0886c84c — relevant calls / +0x3C0 field flow
+## caller z_un_0886c84c — producer writer block
+# Raw source: uploaded 2026-08-29 runtime memory.disasm payload (노그.docx).
+# This block supersedes earlier prose-only address transcriptions.
+
+0x0886C938  encoding=0x0E278AD5  jal   z_un_089e2b54
+0x0886C93C  encoding=0x34040100  li    a0,0x100
+0x0886C940  encoding=0x00142080  sll   a0,s4,0x2
+0x0886C944  encoding=0x02042021  addu  a0,s0,a0
+0x0886C948  encoding=0xAC8203C0  sw    v0,0x3C0(a0)
+0x0886C94C  encoding=0x26940001  addiu s4,s4,0x1
+0x0886C950  encoding=0x00402825  move  a1,v0
+0x0886C954  encoding=0x329400FF  andi  s4,s4,0xFF
+0x0886C958  encoding=0x34040000  li    a0,0x0
+
+## caller z_un_0886c84c — scanner calls / +0x3C0 reader flow
 
 0x0886C96C  encoding=0xA20004E4  sb    zero,0x4E4(s0)
 0x0886C970  encoding=0x0C8ACEDD  jal   strlen
