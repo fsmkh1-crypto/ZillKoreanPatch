@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Inventory runtime <value:$XX> substitutions in the accepted Korean corpus.
+"""Inventory runtime <value:$XX> uses in the accepted Korean corpus.
 
-This is an evidence/audit tool, not a safety validator. It deliberately reports
-where static storage validation stops being a complete proof because the game
-supplies bytes at runtime.
+This is an evidence/audit tool, not a safety validator. A <value> token can be
+used as an inline rendered value, an <if> predicate operand, or a <select>
+selector. Those roles are counted separately so control-flow reads are not
+mistaken for text expansion.
 """
 
 from __future__ import annotations
@@ -17,7 +18,6 @@ import tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 VALUE_RE = re.compile(r"<value:\$([0-9A-Fa-f]{2})>")
-ADJ_RE = re.compile(r"<value:\$([0-9A-Fa-f]{2})>([^<\s])")
 
 
 def load_toml(path: pathlib.Path):
@@ -33,6 +33,37 @@ def compact(text: str, limit: int = 180) -> str:
     text = text.replace("\r", " ").replace("\n", " ").replace("\t", " ")
     text = " ".join(text.split())
     return text if len(text) <= limit else text[: limit - 1] + "…"
+
+
+def classify_value_uses(text: str):
+    """Return (all, inline, predicate, selector, inline-adjacencies).
+
+    Projection syntax places predicate values immediately after <if> and selector
+    values immediately after <select>. Everything else is kept as inline until a
+    stronger parser/runtime proof says otherwise; this deliberately avoids
+    inferring semantic labels from opcode number alone.
+    """
+    all_tags = []
+    inline = []
+    predicate = []
+    selector = []
+    adjacency = []
+    for match in VALUE_RE.finditer(text):
+        opcode = match.group(1).upper()
+        all_tags.append(opcode)
+        prefix = text[: match.start()]
+        if prefix.endswith("<if>"):
+            predicate.append(opcode)
+            continue
+        if prefix.endswith("<select>"):
+            selector.append(opcode)
+            continue
+        inline.append(opcode)
+        if match.end() < len(text):
+            ch = text[match.end()]
+            if ch != "<" and not ch.isspace():
+                adjacency.append((opcode, ch))
+    return all_tags, inline, predicate, selector, adjacency
 
 
 def main() -> None:
@@ -59,7 +90,11 @@ def main() -> None:
 
     rows = []
     opcode_counts = collections.Counter()
+    inline_counts = collections.Counter()
+    predicate_counts = collections.Counter()
+    selector_counts = collections.Counter()
     consumer_counts = collections.Counter()
+    inline_consumer_counts = collections.Counter()
     adjacency_counts = collections.Counter()
     total_records = 0
 
@@ -73,12 +108,14 @@ def main() -> None:
             if not isinstance(korean, str) or not korean:
                 continue
             total_records += 1
-            tags = VALUE_RE.findall(korean)
+            tags, inline, predicate, selector, adjacency = classify_value_uses(korean)
             if not tags:
                 continue
             mid = int(key)
-            tags = [t.upper() for t in tags]
             opcode_counts.update(tags)
+            inline_counts.update(inline)
+            predicate_counts.update(predicate)
+            selector_counts.update(selector)
             labels = []
             if mid in c5:
                 labels.append("C5")
@@ -97,12 +134,16 @@ def main() -> None:
             if not labels:
                 labels.append("unmapped-by-audited-fixed-consumers")
             consumer_counts.update(labels)
-            adjacency = [(m.group(1).upper(), m.group(2)) for m in ADJ_RE.finditer(korean)]
+            if inline:
+                inline_consumer_counts.update(labels)
             adjacency_counts.update(op for op, _ in adjacency)
             rows.append(
                 {
                     "id": mid,
                     "tags": tags,
+                    "inline": inline,
+                    "predicate": predicate,
+                    "selector": selector,
                     "labels": labels,
                     "category": category_for(mid),
                     "adjacency": adjacency,
@@ -111,32 +152,47 @@ def main() -> None:
                 }
             )
 
+    inline_records = sum(1 for row in rows if row["inline"])
+    predicate_records = sum(1 for row in rows if row["predicate"])
+    selector_records = sum(1 for row in rows if row["selector"])
+
     print("DYNAMIC_SUBSTITUTION_AUDIT")
     print(f"accepted_korean_records={total_records}")
     print(f"records_with_value_tags={len(rows)}")
     print(f"value_tag_occurrences={sum(opcode_counts.values())}")
     print(f"distinct_value_opcodes={len(opcode_counts)}")
-    print(f"immediate_nonspace_adjacencies={sum(adjacency_counts.values())}")
+    print(
+        "value_roles="
+        f"inline:{sum(inline_counts.values())},predicate:{sum(predicate_counts.values())},"
+        f"selector:{sum(selector_counts.values())}"
+    )
+    print(
+        "role_records="
+        f"inline:{inline_records},predicate:{predicate_records},selector:{selector_records}"
+    )
+    print(f"inline_nonspace_adjacencies={sum(adjacency_counts.values())}")
     print("consumer_overlap=" + ", ".join(f"{k}:{v}" for k, v in sorted(consumer_counts.items())))
+    print("inline_consumer_overlap=" + ", ".join(f"{k}:{v}" for k, v in sorted(inline_consumer_counts.items())))
     print("opcodes=" + ", ".join(f"${k}:{v}" for k, v in opcode_counts.most_common()))
+    print("inline_opcodes=" + ", ".join(f"${k}:{v}" for k, v in inline_counts.most_common()))
+    print("predicate_opcodes=" + ", ".join(f"${k}:{v}" for k, v in predicate_counts.most_common()))
+    print("selector_opcodes=" + ", ".join(f"${k}:{v}" for k, v in selector_counts.most_common()))
     if adjacency_counts:
-        print("adjacency_opcodes=" + ", ".join(f"${k}:{v}" for k, v in adjacency_counts.most_common()))
+        print("inline_adjacency_opcodes=" + ", ".join(f"${k}:{v}" for k, v in adjacency_counts.most_common()))
 
-    # Compact one-row-per-opcode view for machine/PR review. Semantic labels are
-    # intentionally not inferred here; the real corpus context is the evidence.
     print("OPCODE_BRIEF_BEGIN")
     for opcode in sorted(opcode_counts):
         candidates = [row for row in rows if opcode in row["tags"]]
         row = candidates[0]
         print(
-            f"${opcode} occurrences={opcode_counts[opcode]} records={len(candidates)} "
-            f"sample_id={row['id']} consumers={'+'.join(row['labels'])} category={row['category']} "
-            f"JP={compact(row['japanese'], 110)!r} KO={compact(row['korean'], 110)!r}"
+            f"${opcode} all={opcode_counts[opcode]} inline={inline_counts[opcode]} "
+            f"predicate={predicate_counts[opcode]} selector={selector_counts[opcode]} "
+            f"records={len(candidates)} sample_id={row['id']} "
+            f"consumers={'+'.join(row['labels'])} category={row['category']} "
+            f"JP={compact(row['japanese'], 100)!r} KO={compact(row['korean'], 100)!r}"
         )
     print("OPCODE_BRIEF_END")
 
-    # Representative real-corpus contexts per opcode. These are evidence for
-    # semantic reverse engineering, not labels for the opcode contract.
     print("OPCODE_CONTEXT_SAMPLES_BEGIN")
     for opcode in sorted(opcode_counts):
         candidates = [row for row in rows if opcode in row["tags"]]
@@ -150,7 +206,10 @@ def main() -> None:
             chosen.append(row)
             if len(chosen) == 6:
                 break
-        print(f"OPCODE ${opcode} occurrences={opcode_counts[opcode]} records={len(candidates)}")
+        print(
+            f"OPCODE ${opcode} all={opcode_counts[opcode]} inline={inline_counts[opcode]} "
+            f"predicate={predicate_counts[opcode]} selector={selector_counts[opcode]} records={len(candidates)}"
+        )
         for row in chosen:
             print(
                 f"  id={row['id']} consumers={'+'.join(row['labels'])} category={row['category']} "
@@ -162,16 +221,23 @@ def main() -> None:
         bounded_weight = sum(
             1 for label in row["labels"] if label != "unmapped-by-audited-fixed-consumers"
         )
-        return (bounded_weight > 0, len(row["tags"]), len(row["adjacency"]), -row["id"])
+        return (
+            bool(row["inline"]),
+            bounded_weight > 0,
+            len(row["inline"]),
+            len(row["adjacency"]),
+            -row["id"],
+        )
 
     review = sorted(rows, key=score, reverse=True)
     print("HIGH_VALUE_DYNAMIC_RECORDS_BEGIN")
     for row in review[:120]:
         adj = ",".join(f"${op}->{ch}" for op, ch in row["adjacency"]) or "-"
         print(
-            f"id={row['id']} consumers={'+'.join(row['labels'])} "
-            f"category={row['category']} tags={','.join('$'+t for t in row['tags'])} "
-            f"adjacency={adj}"
+            f"id={row['id']} consumers={'+'.join(row['labels'])} category={row['category']} "
+            f"inline={','.join('$'+t for t in row['inline']) or '-'} "
+            f"predicate={','.join('$'+t for t in row['predicate']) or '-'} "
+            f"selector={','.join('$'+t for t in row['selector']) or '-'} adjacency={adj}"
         )
     print("HIGH_VALUE_DYNAMIC_RECORDS_END")
 
@@ -181,7 +247,9 @@ def main() -> None:
             print(
                 "ID10010_DYNAMIC_CONTEXT "
                 f"consumers={'+'.join(row['labels'])} category={row['category']} "
-                f"tags={','.join('$'+t for t in row['tags'])} adjacency={adj} "
+                f"inline={','.join('$'+t for t in row['inline']) or '-'} "
+                f"predicate={','.join('$'+t for t in row['predicate']) or '-'} "
+                f"selector={','.join('$'+t for t in row['selector']) or '-'} adjacency={adj} "
                 f"JP={compact(row['japanese'])!r} KO={compact(row['korean'])!r}"
             )
             break
