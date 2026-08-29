@@ -32,8 +32,9 @@ import java.util.concurrent.TimeoutException;
  *
  * It does not assume the first producer hit is the failing message. It considers
  * only s4==0 (+0x3C0) producer candidates, follows each candidate through the
- * allocator-backend boundary, and commits a trace only when the actual pre-store
- * v0 equals the repeatedly observed failing field value 0x8C4C89A4.
+ * allocator-backend boundary and the second scanner call, and commits a trace
+ * only when that scanner receives the repeatedly observed failing field value
+ * 0x8C4C89A4. This also reveals whether corruption occurred after the store.
  *
  * Established scanner/producer disassembly stays in docs/audit fixtures and is
  * intentionally not re-collected here.
@@ -57,6 +58,8 @@ public final class FreezeTraceService extends Service {
     private static final long PRODUCER_POST_CALL = 0x0886C940L;
     private static final long PRODUCER_STORE = 0x0886C948L;
     private static final long BACKEND_ENTRY = 0x08A23064L;
+    private static final long SECOND_SCANNER_CALL = 0x0886C9B4L;
+    private static final long SECOND_SCANNER_SKIP = 0x0886C9C4L;
     private static final long SLOT_OFFSET = 0x3C0L;
 
     // Repeatedly observed value at *(s0+0x3C0) during the reproduced runaway scan.
@@ -222,6 +225,8 @@ public final class FreezeTraceService extends Service {
                             candidate.put("backend_return_boundary_skipped", true);
                             candidate.put("producer_post_call_gpr",
                                     selectedRegisters(returnRegs));
+                            removeBreakpoint(writer, reader, requestId,
+                                    activeBreakpoints, backendReturn);
                         }
                     } else {
                         candidate.put("backend_not_seen_before_wrapper_return", true);
@@ -265,12 +270,39 @@ public final class FreezeTraceService extends Service {
                     removeBreakpoint(writer, reader, requestId,
                             activeBreakpoints, PRODUCER_STORE);
 
-                    if (storeValue == OBSERVED_FAILING_FIELD_VALUE) {
+                    // Follow the same object to the proven second scanner call.
+                    // C9A4 loads a1 from s0+0x3C0 and no instruction changes a1
+                    // before C9B4, so this is the direct consumer boundary.
+                    addBreakpoint(writer, reader, requestId,
+                            activeBreakpoints, SECOND_SCANNER_CALL);
+                    addBreakpoint(writer, reader, requestId,
+                            activeBreakpoints, SECOND_SCANNER_SKIP);
+                    drainBridgeEvents(writer, reader, requestId);
+                    resume(writer, reader, requestId);
+                    JSONObject scannerRegs = waitForPc(writer, reader, requestId,
+                            new long[]{SECOND_SCANNER_CALL, SECOND_SCANNER_SKIP});
+                    long scannerPc = findRegister(scannerRegs, "pc");
+                    long scannerA1 = findRegister(scannerRegs, "a1");
+                    candidate.put("second_scanner_boundary", hex32(scannerPc));
+                    candidate.put("second_scanner_gpr", selectedRegisters(scannerRegs));
+                    if (scannerA1 >= 0) {
+                        candidate.put("second_scanner_a1", hex32(scannerA1));
+                    }
+
+                    removeBreakpoint(writer, reader, requestId,
+                            activeBreakpoints, SECOND_SCANNER_CALL);
+                    removeBreakpoint(writer, reader, requestId,
+                            activeBreakpoints, SECOND_SCANNER_SKIP);
+
+                    if (scannerPc == SECOND_SCANNER_CALL
+                            && scannerA1 == OBSERVED_FAILING_FIELD_VALUE) {
                         candidate.put("event", "pointer_boundary_capture");
                         candidate.put("time_ms", System.currentTimeMillis());
                         candidate.put("matched_observed_failing_field_value", true);
                         candidate.put("observed_failing_field_value",
                                 hex32(OBSERVED_FAILING_FIELD_VALUE));
+                        candidate.put("store_equals_scanner_input",
+                                storeValue == scannerA1);
                         appendEvent(candidate.toString());
                         updateNotification("문제 경계 캡처 완료 · 로그 복사 가능");
                         stopRequested = true;
