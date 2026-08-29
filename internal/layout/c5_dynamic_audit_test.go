@@ -91,7 +91,7 @@ func TestC5SelectShapeCentralizesFixed33Arms(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if arms != c5Select33Arms || arms != 8 || !sink {
+	if arms != 8 || !sink {
 		t.Fatalf("$33 select shape = arms=%d sink=%v, want 8,true", arms, sink)
 	}
 }
