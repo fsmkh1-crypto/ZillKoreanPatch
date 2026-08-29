@@ -23,6 +23,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeoutException;
 
 /**
  * Keeps a PPSSPP debugger connection alive while the game is foregrounded and
@@ -38,6 +39,7 @@ public final class FreezeTraceService extends Service {
     private static final String CHANNEL_ID = "freeze_trace";
     private static final int NOTIFICATION_ID = 21010;
     private static final int SAMPLE_INTERVAL_MS = 500;
+    private static final int RESPONSE_TIMEOUT_MS = 1500;
     private static final int MAX_SAMPLES = 60; // about 30 seconds
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
@@ -58,6 +60,7 @@ public final class FreezeTraceService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         if (intent != null && ACTION_STOP.equals(intent.getAction())) {
+            writeEvent("stop_requested", "source", "ui");
             stopRequested = true;
             Process p = process;
             if (p != null) p.destroy();
@@ -79,12 +82,14 @@ public final class FreezeTraceService extends Service {
             try {
                 traceConnectedSession(port);
             } catch (Exception e) {
-                writeEvent("connection_lost", "error", message(e));
-                updateNotification("연결 끊김 · 마지막 기록 보존 · 재연결 대기");
-                sleep(1000);
+                if (!stopRequested) {
+                    writeEvent("connection_lost", "error", message(e));
+                    updateNotification("연결 끊김 · 마지막 기록 보존 · 재연결 대기");
+                    sleep(1000);
+                }
             }
         }
-        writeEvent("trace_stop", "reason", "user_or_service_stop");
+        writeEvent("trace_stop", "reason", "stop_requested_or_service_destroyed");
     }
 
     private void traceConnectedSession(int port) throws Exception {
@@ -103,7 +108,7 @@ public final class FreezeTraceService extends Service {
 
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream(), StandardCharsets.UTF_8));
              BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(process.getOutputStream(), StandardCharsets.UTF_8))) {
-            JSONObject ready = readObject(reader, "debugger handshake");
+            JSONObject ready = readObject(reader, "debugger handshake", 4000);
             if (!"ready".equals(ready.optString("event"))) {
                 throw new IllegalStateException("unexpected handshake: " + ready);
             }
@@ -111,20 +116,47 @@ public final class FreezeTraceService extends Service {
             updateNotification("PPSSPP 기록 중 · 최근 30초 보존");
 
             int requestId = 1;
+            int sampleCount = 0;
+            long lastPc = -1;
+            long lastSp = -1;
             while (!stopRequested) {
                 long now = System.currentTimeMillis();
-                JSONObject cpu = request(writer, reader, requestId++, rawCommand("cpu.status", new JSONObject()));
-                JSONObject regs = request(writer, reader, requestId++, rawCommand("cpu.getAllRegs", new JSONObject()));
-                long pc = findRegister(regs, "pc");
-                long sp = findRegister(regs, "sp");
+                try {
+                    JSONObject cpu = request(writer, reader, requestId++, rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
+                    JSONObject regs = null;
+                    // Full register reads are heavier. Sample them every fourth cycle (~2 s),
+                    // while cpu.status stays at 500 ms cadence to minimize observer effect.
+                    if ((sampleCount++ & 3) == 0) {
+                        regs = request(writer, reader, requestId++, rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
+                        long pc = findRegister(regs, "pc");
+                        long sp = findRegister(regs, "sp");
+                        if (pc >= 0) lastPc = pc;
+                        if (sp >= 0) lastSp = sp;
+                    } else {
+                        JSONObject rawCpu = rawResponse(cpu);
+                        long pc = rawCpu.optLong("pc", -1);
+                        if (pc >= 0) lastPc = pc & 0xffffffffL;
+                    }
 
-                JSONObject sample = new JSONObject();
-                sample.put("event", "sample");
-                sample.put("time_ms", now);
-                if (pc >= 0) sample.put("pc", hex32(pc));
-                if (sp >= 0) sample.put("sp", hex32(sp));
-                sample.put("cpu", rawResponse(cpu));
-                appendSample(sample.toString());
+                    JSONObject sample = new JSONObject();
+                    sample.put("event", "sample");
+                    sample.put("time_ms", now);
+                    if (lastPc >= 0) sample.put("pc", hex32(lastPc));
+                    if (lastSp >= 0) sample.put("sp", hex32(lastSp));
+                    sample.put("cpu", rawResponse(cpu));
+                    appendSample(sample.toString());
+                } catch (TimeoutException e) {
+                    JSONObject timeout = new JSONObject();
+                    timeout.put("event", "sample_timeout");
+                    timeout.put("time_ms", System.currentTimeMillis());
+                    timeout.put("timeout_ms", RESPONSE_TIMEOUT_MS);
+                    if (lastPc >= 0) timeout.put("last_pc", hex32(lastPc));
+                    if (lastSp >= 0) timeout.put("last_sp", hex32(lastSp));
+                    timeout.put("error", message(e));
+                    appendSample(timeout.toString());
+                    updateNotification("PPSSPP 응답 정지 감지 · 마지막 CPU 상태 보존");
+                    throw e;
+                }
                 sleep(SAMPLE_INTERVAL_MS);
             }
         } finally {
@@ -204,13 +236,13 @@ public final class FreezeTraceService extends Service {
         return out;
     }
 
-    private static JSONObject request(BufferedWriter writer, BufferedReader reader, int id, JSONObject command) throws Exception {
+    private static JSONObject request(BufferedWriter writer, BufferedReader reader, int id, JSONObject command, int timeoutMs) throws Exception {
         command.put("id", id);
         writer.write(command.toString());
         writer.newLine();
         writer.flush();
-        JSONObject response = readObject(reader, "command " + id);
-        while (!response.has("id")) response = readObject(reader, "command " + id);
+        JSONObject response = readObject(reader, "command " + id, timeoutMs);
+        while (!response.has("id")) response = readObject(reader, "command " + id, timeoutMs);
         if (!response.optBoolean("ok", false)) {
             JSONObject error = response.optJSONObject("error");
             throw new IllegalStateException(error == null ? response.toString() : error.optString("message", response.toString()));
@@ -218,10 +250,17 @@ public final class FreezeTraceService extends Service {
         return response;
     }
 
-    private static JSONObject readObject(BufferedReader reader, String what) throws Exception {
-        String line = reader.readLine();
-        if (line == null) throw new IllegalStateException(what + " 응답 전에 연결이 종료됐습니다");
-        return new JSONObject(line);
+    private static JSONObject readObject(BufferedReader reader, String what, int timeoutMs) throws Exception {
+        long deadline = System.currentTimeMillis() + timeoutMs;
+        while (System.currentTimeMillis() < deadline) {
+            if (reader.ready()) {
+                String line = reader.readLine();
+                if (line == null) throw new IllegalStateException(what + " 응답 전에 연결이 종료됐습니다");
+                return new JSONObject(line);
+            }
+            Thread.sleep(20);
+        }
+        throw new TimeoutException(what + " 응답이 " + timeoutMs + "ms 동안 없습니다");
     }
 
     private static JSONObject rawResponse(JSONObject response) {
@@ -264,6 +303,7 @@ public final class FreezeTraceService extends Service {
 
     @Override
     public void onDestroy() {
+        if (!stopRequested) writeEvent("service_destroyed", "source", "android");
         stopRequested = true;
         Process p = process;
         if (p != null) p.destroy();
