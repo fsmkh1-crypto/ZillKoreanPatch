@@ -124,11 +124,12 @@ func scoreWindow(data []byte, segmentStart, segmentEnd, segmentVaddr, anchor uin
 	for off := align4(lo); off+4 <= hi; off += 4 {
 		w := binary.LittleEndian.Uint32(data[off : off+4])
 		words = append(words, w)
+		vaddr := segmentVaddr + (off - segmentStart)
 		c.Window = append(c.Window, Instruction{
 			FileOffset:     off,
-			VirtualAddress: segmentVaddr + (off - segmentStart),
+			VirtualAddress: vaddr,
 			Word:           w,
-			Text:           decode(w),
+			Text:           decodeAt(w, vaddr),
 		})
 		if loadsLiteral(w, 2) {
 			literal2Regs[rt(w)] = struct{}{}
@@ -226,7 +227,9 @@ func shamt(w uint32) uint32  { return (w >> 6) & 0x1f }
 func funct(w uint32) uint32  { return w & 0x3f }
 func simm(w uint32) int16    { return int16(w) }
 func uimm(w uint32) uint16   { return uint16(w) }
-func jtarget(w uint32) uint32 { return (w & 0x03ffffff) << 2 }
+func jtarget(w uint32, pc uint64) uint64 {
+	return ((pc + 4) & 0xf0000000) | uint64((w&0x03ffffff)<<2)
+}
 
 func loadsLiteral(w uint32, value uint16) bool {
 	// The zero-register source makes these actual literal constructions rather
@@ -245,12 +248,12 @@ func loadsLiteral(w uint32, value uint16) bool {
 func isByteLoad(w uint32) bool { return opcode(w) == 0x20 || opcode(w) == 0x24 }
 func isEqualityBranch(w uint32) bool { return opcode(w) == 0x04 || opcode(w) == 0x05 }
 
-func decode(w uint32) string {
+func decodeAt(w uint32, pc uint64) string {
 	switch opcode(w) {
 	case 0x02:
-		return fmt.Sprintf("j 0x%x", jtarget(w))
+		return fmt.Sprintf("j 0x%x", jtarget(w, pc))
 	case 0x03:
-		return fmt.Sprintf("jal 0x%x", jtarget(w))
+		return fmt.Sprintf("jal 0x%x", jtarget(w, pc))
 	case 0x08:
 		return fmt.Sprintf("addi r%d,r%d,%d", rt(w), rs(w), simm(w))
 	case 0x09:
@@ -301,3 +304,5 @@ func decode(w uint32) string {
 	}
 	return fmt.Sprintf("word 0x%08x", w)
 }
+
+func decode(w uint32) string { return decodeAt(w, 0) }
