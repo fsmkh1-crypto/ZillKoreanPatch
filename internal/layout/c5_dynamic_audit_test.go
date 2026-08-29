@@ -22,15 +22,15 @@ func TestAuditC5KnownPlayerNameCanCrossPageCapacity(t *testing.T) {
 		t.Run(tc.name, func(t *testing.T) {
 			leaf := c5AuditLeaf{events: []c5AuditEvent{
 				{raw: bytes.Repeat([]byte{'A'}, tc.static)},
-				{substitution: true, opcode: 0x28},
+				{raw: []byte{2, 0x28}, substitution: true, opcode: 0x28},
 			}}
 			pages := auditC5LeafPages(leaf)
 			if len(pages) != 1 {
 				t.Fatalf("pages = %d, want 1", len(pages))
 			}
 			got := pages[0]
-			if got.StaticBytes != tc.static || got.KnownMaxBytes != tc.wantKnown || got.PlayerNameCount != 1 {
-				t.Fatalf("page = %#v, want static=%d known=%d playerNames=1", got, tc.static, tc.wantKnown)
+			if got.StoredBytes != tc.static+2 || got.StaticBytes != tc.static || got.KnownMaxBytes != tc.wantKnown || got.PlayerNameCount != 1 {
+				t.Fatalf("page = %#v, want stored=%d static=%d known=%d playerNames=1", got, tc.static+2, tc.static, tc.wantKnown)
 			}
 			if got.ExceedsPageBuffer() != tc.wantExceed {
 				t.Fatalf("ExceedsPageBuffer = %v, want %v", got.ExceedsPageBuffer(), tc.wantExceed)
@@ -39,18 +39,21 @@ func TestAuditC5KnownPlayerNameCanCrossPageCapacity(t *testing.T) {
 	}
 }
 
-func TestAuditC5UnknownSubstitutionDoesNotInventBound(t *testing.T) {
+func TestAuditC5UnknownSubstitutionTracksStoredTokenWithoutInventingRuntimeBound(t *testing.T) {
 	leaf := c5AuditLeaf{events: []c5AuditEvent{
 		{raw: bytes.Repeat([]byte{'A'}, 250)},
-		{substitution: true, opcode: 0x15},
+		{raw: []byte{2, 0x15}, substitution: true, opcode: 0x15},
 	}}
 	pages := auditC5LeafPages(leaf)
 	if len(pages) != 1 {
 		t.Fatalf("pages = %d, want 1", len(pages))
 	}
 	got := pages[0]
-	if got.StaticBytes != 250 || got.KnownMaxBytes != 250 || got.UnknownSubstitutions != 1 {
-		t.Fatalf("page = %#v, want unknown substitution without guessed bytes", got)
+	if got.StoredBytes != 252 || got.StaticBytes != 250 || got.KnownMaxBytes != 250 || got.UnknownSubstitutions != 1 {
+		t.Fatalf("page = %#v, want stored token bytes separated from unknown runtime expansion", got)
+	}
+	if got.StoredHeadroomBytes() != 4 {
+		t.Fatalf("StoredHeadroomBytes = %d, want 4", got.StoredHeadroomBytes())
 	}
 	if got.ExceedsPageBuffer() {
 		t.Fatalf("unknown substitution was incorrectly promoted into a proven overflow")
@@ -60,17 +63,17 @@ func TestAuditC5UnknownSubstitutionDoesNotInventBound(t *testing.T) {
 func TestAuditC5ThirdLineBreakIsCountedBeforeNextPage(t *testing.T) {
 	leaf := c5AuditLeaf{events: []c5AuditEvent{
 		{raw: []byte{'a', 10, 'b', 10, 'c', 10}},
-		{substitution: true, opcode: 0x28},
+		{raw: []byte{2, 0x28}, substitution: true, opcode: 0x28},
 	}}
 	pages := auditC5LeafPages(leaf)
 	if len(pages) != 2 {
 		t.Fatalf("pages = %d, want 2", len(pages))
 	}
-	if pages[0].StaticBytes != 6 || pages[0].KnownMaxBytes != 6 {
+	if pages[0].StoredBytes != 6 || pages[0].StaticBytes != 6 || pages[0].KnownMaxBytes != 6 {
 		t.Fatalf("first page = %#v, want all six static bytes including boundary newline", pages[0])
 	}
-	if pages[1].StaticBytes != 0 || pages[1].KnownMaxBytes != playerNameMaxEncodedBytes || pages[1].PlayerNameCount != 1 {
-		t.Fatalf("second page = %#v, want player-name expansion on new page", pages[1])
+	if pages[1].StoredBytes != 2 || pages[1].StaticBytes != 0 || pages[1].KnownMaxBytes != playerNameMaxEncodedBytes || pages[1].PlayerNameCount != 1 {
+		t.Fatalf("second page = %#v, want stored token plus player-name runtime maximum", pages[1])
 	}
 }
 
@@ -131,7 +134,7 @@ func TestWalkC5AuditKeepsInlineSubstitutionEvent(t *testing.T) {
 	if len(leaves) != 1 || len(leaves[0].events) != 2 {
 		t.Fatalf("leaves = %#v, want one leaf with text and substitution", leaves)
 	}
-	if event := leaves[0].events[1]; !event.substitution || event.opcode != 0x28 {
-		t.Fatalf("substitution event = %#v, want opcode 0x28", event)
+	if event := leaves[0].events[1]; !event.substitution || event.opcode != 0x28 || !bytes.Equal(event.raw, []byte{2, 0x28}) {
+		t.Fatalf("substitution event = %#v, want raw 02 28 and opcode 0x28", event)
 	}
 }
