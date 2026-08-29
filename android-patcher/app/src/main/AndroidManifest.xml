@@ -20,7 +20,9 @@
         <activity
             android:name=".FreezeCaptureActivity"
             android:exported="true"
-            android:label="질올 프리징 캡처">
+            android:label="질올 프리징 캡처"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.fsmkh1.zillfontdump.freeze">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
