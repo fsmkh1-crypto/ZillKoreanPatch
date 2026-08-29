@@ -26,16 +26,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeoutException;
 
-/**
- * Manual PPSSPP freeze-state capture.
- *
- * No breakpoint is installed and no automatic problem-scene detection is
- * attempted. The user reproduces the freeze first, returns to this app, and
- * explicitly presses the capture button. At that moment we snapshot cpu.status,
- * GPRs, and the inline message-object region derived from the live s0 register.
- */
+/** Persistent PPSSPP debugger connection with explicit user-triggered capture. */
 public final class FreezeTraceService extends Service {
+    public static final String ACTION_CONNECT = "com.fsmkh1.zillfontdump.CONNECT";
     public static final String ACTION_CAPTURE_NOW = "com.fsmkh1.zillfontdump.CAPTURE_NOW";
+    public static final String ACTION_DISCONNECT = "com.fsmkh1.zillfontdump.DISCONNECT";
     public static final String EXTRA_PORT = "port";
     public static final String TRACE_FILE = "ppsspp-freeze-trace.jsonl";
 
@@ -48,6 +43,12 @@ public final class FreezeTraceService extends Service {
     private static final int POINTER_SLOT_RELATIVE = 0x100;
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
+    private volatile Process process;
+    private BufferedReader reader;
+    private BufferedWriter writer;
+    private int nextRequestId = 1;
+    private volatile boolean connected;
+    private volatile int connectedPort = -1;
 
     @Override
     public void onCreate() {
@@ -61,57 +62,83 @@ public final class FreezeTraceService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        if (intent == null || !ACTION_CAPTURE_NOW.equals(intent.getAction())) {
-            stopSelf(startId);
+        if (intent == null) return START_NOT_STICKY;
+        String action = intent.getAction();
+        int port = intent.getIntExtra(EXTRA_PORT, 34500);
+
+        if (ACTION_CONNECT.equals(action)) {
+            startForeground(NOTIFICATION_ID, notification("PPSSPP 연결 중 · " + port));
+            worker.execute(() -> connectPersistent(port));
+            return START_STICKY;
+        }
+        if (ACTION_CAPTURE_NOW.equals(action)) {
+            startForeground(NOTIFICATION_ID, notification("현재 상태 수동 캡처 중"));
+            worker.execute(this::captureOnExistingConnection);
+            return START_STICKY;
+        }
+        if (ACTION_DISCONNECT.equals(action)) {
+            worker.execute(() -> {
+                closeConnection();
+                updateNotification("연결 종료됨");
+                stopForeground(STOP_FOREGROUND_REMOVE);
+                stopSelf();
+            });
             return START_NOT_STICKY;
         }
-        final int port = intent.getIntExtra(EXTRA_PORT, 34500);
-        startForeground(NOTIFICATION_ID, notification("현재 프리징 상태 캡처 중 · " + port));
-        worker.execute(() -> {
-            try {
-                captureNow(port);
-                updateNotification("수동 캡처 완료 · 최근 로그 복사");
-            } catch (Exception e) {
-                writeFailure(port, e);
-                updateNotification("수동 캡처 실패 · 로그 확인");
-            } finally {
-                stopForeground(STOP_FOREGROUND_DETACH);
-                stopSelf(startId);
-            }
-        });
         return START_NOT_STICKY;
     }
 
-    private void captureNow(int port) throws Exception {
-        File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
-        if (!executable.isFile()) {
-            throw new IllegalStateException("내장 debugger 실행파일을 찾을 수 없습니다");
+    private synchronized void connectPersistent(int port) {
+        if (connected && connectedPort == port && process != null && process.isAlive()) {
+            updateNotification("연결 유지 중 · 프리징 후 수동 캡처");
+            writeEvent("already_connected", "target", "127.0.0.1:" + port);
+            return;
         }
-
-        ProcessBuilder builder = new ProcessBuilder(
-                executable.getAbsolutePath(), "ppsspp-debugger",
-                "--host", "127.0.0.1",
-                "--port", Integer.toString(port),
-                "--timeout", "6",
-                "--connect-timeout", "3");
-        builder.directory(getFilesDir());
-        builder.redirectErrorStream(true);
-        Process process = builder.start();
-        int[] requestId = new int[]{1};
-
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(
-                     process.getInputStream(), StandardCharsets.UTF_8));
-             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
-                     process.getOutputStream(), StandardCharsets.UTF_8))) {
+        closeConnection();
+        writeEvent("connect_start", "port", port);
+        try {
+            File executable = new File(getApplicationInfo().nativeLibraryDir, "libzill.so");
+            if (!executable.isFile()) {
+                throw new IllegalStateException("내장 debugger 실행파일을 찾을 수 없습니다");
+            }
+            ProcessBuilder builder = new ProcessBuilder(
+                    executable.getAbsolutePath(), "ppsspp-debugger",
+                    "--host", "127.0.0.1",
+                    "--port", Integer.toString(port),
+                    "--timeout", "6",
+                    "--connect-timeout", "3");
+            builder.directory(getFilesDir());
+            builder.redirectErrorStream(true);
+            process = builder.start();
+            reader = new BufferedReader(new InputStreamReader(process.getInputStream(), StandardCharsets.UTF_8));
+            writer = new BufferedWriter(new OutputStreamWriter(process.getOutputStream(), StandardCharsets.UTF_8));
             JSONObject ready = readObject(reader, "debugger handshake", 4000);
             if (!"ready".equals(ready.optString("event"))) {
                 throw new IllegalStateException("unexpected handshake: " + ready);
             }
+            connected = true;
+            connectedPort = port;
+            nextRequestId = 1;
+            writeEvent("connected", "target", "127.0.0.1:" + port);
+            updateNotification("연결 유지 중 · 프리징 후 수동 캡처");
+        } catch (Exception e) {
+            writeFailure("connect_failed", e);
+            closeConnection();
+            updateNotification("연결 실패 · PPSSPP 디버거 확인");
+        }
+    }
 
-            JSONObject statusResponse = request(writer, reader, requestId[0]++,
+    private synchronized void captureOnExistingConnection() {
+        if (!connected || process == null || !process.isAlive() || reader == null || writer == null) {
+            writeFailure("manual_capture_failed", new IllegalStateException("유지 중인 debugger 연결이 없습니다"));
+            updateNotification("캡처 실패 · 먼저 연결 유지 시작");
+            return;
+        }
+        try {
+            JSONObject statusResponse = request(writer, reader, nextRequestId++,
                     rawCommand("cpu.status", new JSONObject()), RESPONSE_TIMEOUT_MS);
             JSONObject status = rawResponse(statusResponse);
-            JSONObject regs = request(writer, reader, requestId[0]++,
+            JSONObject regs = request(writer, reader, nextRequestId++,
                     rawCommand("cpu.getAllRegs", new JSONObject()), RESPONSE_TIMEOUT_MS);
 
             long s0 = requireRegister(regs, "s0");
@@ -120,12 +147,13 @@ public final class FreezeTraceService extends Service {
             long a1 = requireRegister(regs, "a1");
             long pc = requireRegister(regs, "pc");
             long pageStart = (s0 + INLINE_PAGE_OFFSET) & 0xffffffffL;
-            byte[] dump = readMemory(writer, reader, requestId, pageStart, INLINE_DUMP_SIZE);
+            byte[] dump = readMemory(writer, reader, pageStart, INLINE_DUMP_SIZE);
 
             JSONObject capture = new JSONObject();
             capture.put("event", "manual_freeze_capture");
             capture.put("time_ms", System.currentTimeMillis());
-            capture.put("target", "127.0.0.1:" + port);
+            capture.put("target", "127.0.0.1:" + connectedPort);
+            capture.put("connection_reused", true);
             capture.put("cpu_status", status);
             capture.put("pc", hex32(pc));
             capture.put("s0", hex32(s0));
@@ -138,9 +166,25 @@ public final class FreezeTraceService extends Service {
             capture.put("inline_dump_base64", Base64.encodeToString(dump, Base64.NO_WRAP));
             appendInlineAnalysis(capture, dump);
             writeCapture(capture.toString());
-        } finally {
-            process.destroy();
+            updateNotification("수동 캡처 완료 · 최근 로그 복사");
+        } catch (Exception e) {
+            writeFailure("manual_capture_failed", e);
+            updateNotification("수동 캡처 실패 · 로그 확인");
         }
+    }
+
+    private byte[] readMemory(BufferedWriter out, BufferedReader in, long address, int size) throws Exception {
+        JSONObject params = new JSONObject();
+        params.put("address", address & 0xffffffffL);
+        params.put("size", size);
+        JSONObject response = request(out, in, nextRequestId++, rawCommand("memory.read", params), RESPONSE_TIMEOUT_MS);
+        String encoded = rawResponse(response).optString("base64", "");
+        if (encoded.isEmpty()) throw new IllegalStateException("memory.read 응답에 base64 데이터가 없습니다");
+        byte[] decoded = Base64.decode(encoded, Base64.DEFAULT);
+        if (decoded.length != size) {
+            throw new IllegalStateException("memory.read 크기 불일치: got=" + decoded.length + " want=" + size);
+        }
+        return decoded;
     }
 
     private static void appendInlineAnalysis(JSONObject out, byte[] dump) throws Exception {
@@ -149,7 +193,6 @@ public final class FreezeTraceService extends Service {
         int maxSpan = 0;
         int span = 0;
         int analysisEnd = Math.min(dump.length, INLINE_PAGE_CAPACITY);
-
         for (int i = 0; i < dump.length; i++) {
             int value = dump[i] & 0xff;
             if (firstNul < 0 && value == 0) firstNul = i;
@@ -163,7 +206,6 @@ public final class FreezeTraceService extends Service {
             }
         }
         if (span > maxSpan) maxSpan = span;
-
         JSONArray lf = new JSONArray();
         for (int position : lfPositions) lf.put(position);
         out.put("first_nul_offset", firstNul);
@@ -171,7 +213,6 @@ public final class FreezeTraceService extends Service {
         out.put("lf_count_before_nul", lfPositions.size());
         out.put("lf_positions", lf);
         out.put("max_non_lf_span_before_nul", maxSpan);
-
         if (dump.length >= POINTER_SLOT_RELATIVE + 4) {
             long slot = ((long) dump[POINTER_SLOT_RELATIVE] & 0xff)
                     | (((long) dump[POINTER_SLOT_RELATIVE + 1] & 0xff) << 8)
@@ -179,24 +220,6 @@ public final class FreezeTraceService extends Service {
                     | (((long) dump[POINTER_SLOT_RELATIVE + 3] & 0xff) << 24);
             out.put("slot_plus_3c0_word", hex32(slot));
         }
-    }
-
-    private static byte[] readMemory(BufferedWriter writer, BufferedReader reader,
-                                     int[] requestId, long address, int size) throws Exception {
-        JSONObject params = new JSONObject();
-        params.put("address", address & 0xffffffffL);
-        params.put("size", size);
-        JSONObject response = request(writer, reader, requestId[0]++,
-                rawCommand("memory.read", params), RESPONSE_TIMEOUT_MS);
-        String encoded = rawResponse(response).optString("base64", "");
-        if (encoded.isEmpty()) {
-            throw new IllegalStateException("memory.read 응답에 base64 데이터가 없습니다");
-        }
-        byte[] decoded = Base64.decode(encoded, Base64.DEFAULT);
-        if (decoded.length != size) {
-            throw new IllegalStateException("memory.read 크기 불일치: got=" + decoded.length + " want=" + size);
-        }
-        return decoded;
     }
 
     private static JSONObject rawCommand(String event, JSONObject params) throws Exception {
@@ -263,23 +286,31 @@ public final class FreezeTraceService extends Service {
 
     private synchronized void writeCapture(String line) {
         File out = new File(getFilesDir(), TRACE_FILE);
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(out, false))) {
-            writer.write(line);
-            writer.newLine();
-        } catch (Exception ignored) {
-        }
+        try (BufferedWriter fileWriter = new BufferedWriter(new FileWriter(out, false))) {
+            fileWriter.write(line);
+            fileWriter.newLine();
+        } catch (Exception ignored) {}
     }
 
-    private void writeFailure(int port, Exception error) {
+    private void writeEvent(String event, String key, Object value) {
         try {
             JSONObject obj = new JSONObject();
-            obj.put("event", "manual_capture_failed");
+            obj.put("event", event);
             obj.put("time_ms", System.currentTimeMillis());
-            obj.put("target", "127.0.0.1:" + port);
+            obj.put(key, value);
+            writeCapture(obj.toString());
+        } catch (Exception ignored) {}
+    }
+
+    private void writeFailure(String event, Exception error) {
+        try {
+            JSONObject obj = new JSONObject();
+            obj.put("event", event);
+            obj.put("time_ms", System.currentTimeMillis());
+            obj.put("target", connectedPort > 0 ? "127.0.0.1:" + connectedPort : "not_connected");
             obj.put("error", message(error));
             writeCapture(obj.toString());
-        } catch (Exception ignored) {
-        }
+        } catch (Exception ignored) {}
     }
 
     public static String readLatestTrace(File filesDir) throws Exception {
@@ -292,6 +323,18 @@ public final class FreezeTraceService extends Service {
             while ((line = reader.readLine()) != null) out.append(line).append('\n');
         }
         return out.toString();
+    }
+
+    private synchronized void closeConnection() {
+        connected = false;
+        connectedPort = -1;
+        try { if (writer != null) writer.close(); } catch (Exception ignored) {}
+        try { if (reader != null) reader.close(); } catch (Exception ignored) {}
+        writer = null;
+        reader = null;
+        Process p = process;
+        process = null;
+        if (p != null) p.destroy();
     }
 
     private void updateNotification(String text) {
@@ -308,6 +351,7 @@ public final class FreezeTraceService extends Service {
                 .setContentTitle("질올 PPSSPP 수동 캡처")
                 .setContentText(text)
                 .setContentIntent(pending)
+                .setOngoing(connected)
                 .build();
     }
 
@@ -322,6 +366,7 @@ public final class FreezeTraceService extends Service {
 
     @Override
     public void onDestroy() {
+        closeConnection();
         worker.shutdown();
         super.onDestroy();
     }
