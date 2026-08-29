@@ -106,6 +106,19 @@ Therefore one of the following must be true for that captured build:
 
 The capture itself proves the runtime state; current source intent does not retroactively change it.
 
+## New compile-time discriminant
+
+Commit `31dba5a2941e75f94d6386e0b647467db1e0d172` added a focused compiler gate for ID 210065. The test forces the same semantic precondition used by the diagnostic compiler path and verifies the materialized record itself rather than the annotated layout string:
+
+- seven actual `0x0A` bytes are present;
+- the payload splits into exactly eight encoded lines;
+- every encoded line is at most 56 bytes;
+- the synthetic materialized record remains below `0x100` bytes including the NUL terminator.
+
+The first version of the test used an invalid synthetic renderer-key sequence and failed CI before exercising the intended assertion. Commit `a4b84a99630ce78e5333a71cb71ad56b4394d11d` corrects the fixture by keeping a valid CP932 lead byte and varying only trail bytes.
+
+If this gate passes, it proves only that the **current compiler path** really emits the intended compact eight-line record. It does not prove that the previously captured H1 runtime consumed those bytes. That distinction is the remaining provenance question.
+
 ## Important limit: separate H1 eight-line reproduction
 
 The user separately observed a freeze after an eight-line H1 experiment. That is strong failure evidence for that run, but no equivalent register/disassembly capture currently proves that H1 reached the same `s4=0`, `s3=0x113`, overwritten-`+0x3C0` state.
