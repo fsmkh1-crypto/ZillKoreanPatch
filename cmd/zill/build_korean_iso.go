@@ -78,6 +78,9 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 	fmt.Fprintln(stdout, "Mobile beta safety mode: retail banks are authenticated and bound before slot planning and canonical Korean compilation.")
 	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	planner := func(source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
+		if err := auditC5RuntimeCandidates(gameDir); err != nil {
+			return koreanslots.Plan{}, 0, 0, fmt.Errorf("C5 runtime candidate audit: %w", err)
+		}
 		if err := auditPR14HistoricalPolicies(root, gameDir, source, korean); err != nil {
 			return koreanslots.Plan{}, 0, 0, fmt.Errorf("PR14 historical policy audit: %w", err)
 		}
