@@ -20,6 +20,16 @@ import (
 // deliberately re-parses and re-extracts the produced artifacts instead of
 // trusting the transform's in-memory placement decisions.
 func VerifyFullRepackSemantics(retailAtlas, retailPAF, patchedAtlas, patchedPAF []byte, mapping koreanslots.Mapping, koreanRasters map[rune]Raster) error {
+	// The upstream English font transform authenticates the complete output with
+	// result_sha256. Korean cannot use one frozen result hash because its renderer
+	// mapping is corpus-derived, so enforce the equivalent engine-facing boundary:
+	// only atlas image payloads and explicitly modeled PAF geometry/metric fields
+	// may differ. Container headers, inter-page bytes, keys, BST links, reserved
+	// tails and every other byte remain retail-exact.
+	if err := verifyFullRepackContainerMutationSurface(retailAtlas, retailPAF, patchedAtlas, patchedPAF); err != nil {
+		return err
+	}
+
 	original, err := ParseAuthenticatedRetailPAF(retailPAF)
 	if err != nil {
 		return fmt.Errorf("verify full repack retail PAF: %w", err)
@@ -100,6 +110,55 @@ func VerifyFullRepackSemantics(retailAtlas, retailPAF, patchedAtlas, patchedPAF 
 
 	if len(matched) != len(mapping) {
 		return fmt.Errorf("verify full repack matched %d/%d custom mappings", len(matched), len(mapping))
+	}
+	return nil
+}
+
+func verifyFullRepackContainerMutationSurface(retailAtlas, retailPAF, patchedAtlas, patchedPAF []byte) error {
+	if len(patchedAtlas) != len(retailAtlas) {
+		return fmt.Errorf("verify full repack atlas member size changed: %#x -> %#x", len(retailAtlas), len(patchedAtlas))
+	}
+	if len(patchedPAF) != len(retailPAF) {
+		return fmt.Errorf("verify full repack PAF member size changed: %#x -> %#x", len(retailPAF), len(patchedPAF))
+	}
+
+	atlasMutable := make([]bool, len(retailAtlas))
+	pageBytes := AtlasSize * AtlasSize / 2
+	for page, startBase := range gimStarts {
+		start := startBase + imageDataOffset
+		end := start + pageBytes
+		if start < 0 || end > len(atlasMutable) {
+			return fmt.Errorf("verify full repack atlas page %d mutable payload [%#x,%#x) is outside member size %#x", page, start, end, len(atlasMutable))
+		}
+		for offset := start; offset < end; offset++ {
+			atlasMutable[offset] = true
+		}
+	}
+	for offset := range retailAtlas {
+		if !atlasMutable[offset] && retailAtlas[offset] != patchedAtlas[offset] {
+			return fmt.Errorf("verify full repack changed immutable atlas/container byte %#x", offset)
+		}
+	}
+
+	pafMutable := make([]bool, len(retailPAF))
+	for index := 0; index < GlyphCount; index++ {
+		record := RetailPAFOffset + RecordOffset + index*RecordStride
+		if record < 0 || record+RecordStride > len(pafMutable) {
+			return fmt.Errorf("verify full repack PAF record %d is outside member size %#x", index, len(pafMutable))
+		}
+		// width, height, x, y, bearing x/y and advance
+		for offset := record + 2; offset < record+0x10; offset++ {
+			pafMutable[offset] = true
+		}
+		// page index. Key, BST links and reserved tail are deliberately immutable.
+		for offset := record + 0x18; offset < record+0x1c; offset++ {
+			pafMutable[offset] = true
+		}
+	}
+	for offset := range retailPAF {
+		if !pafMutable[offset] && retailPAF[offset] != patchedPAF[offset] {
+			return fmt.Errorf("verify full repack changed immutable PAF/container byte %#x", offset)
+		}
 	}
 	return nil
 }
