@@ -3,8 +3,8 @@
 """Summarize inline <value:$XX> uses by audited consumer and category.
 
 This is a corpus triage report, not a runtime contract proof. It intentionally
-uses the same lightweight role rule as audit-dynamic-substitutions.py so its
-counts can be compared directly with that audit's headline numbers.
+uses the same role rule as audit-dynamic-substitutions.py so its counts can be
+compared directly with that audit's headline numbers.
 """
 
 from __future__ import annotations
@@ -17,6 +17,8 @@ import tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 VALUE_RE = re.compile(r"<value:\$([0-9A-Fa-f]{2})>")
+COMPARISON_TAGS = ("<equal>", "<less-equal>", "<greater-equal>")
+TRAP_ID = 1070079
 # Freeze-adjacent records are reporting anchors only. Inclusion here does not
 # elevate any record or opcode to a root cause.
 FOCUS_IDS = (10010,)
@@ -31,11 +33,19 @@ def id_set(values):
     return {int(v) for v in values}
 
 
+def value_role(text: str, start: int) -> str:
+    prefix = text[:start]
+    if prefix.endswith("<select>"):
+        return "selector"
+    if prefix.endswith("<if>") or prefix.endswith(COMPARISON_TAGS):
+        return "predicate"
+    return "inline"
+
+
 def inline_opcodes(text: str):
     out = []
     for match in VALUE_RE.finditer(text):
-        prefix = text[: match.start()]
-        if prefix.endswith("<if>") or prefix.endswith("<select>"):
+        if value_role(text, match.start()) != "inline":
             continue
         out.append(match.group(1).upper())
     return out
@@ -92,6 +102,7 @@ def main() -> None:
             if not opcodes:
                 continue
             mid = int(key)
+            category = category_for(mid)
             labels = []
             if mid in c5:
                 labels.append("C5")
@@ -107,9 +118,18 @@ def main() -> None:
                 labels.append("guild-client")
             if mid in guild_region:
                 labels.append("guild-region")
+            if mid == TRAP_ID:
+                labels.append("trap")
+            if "character-creation-choice" in category:
+                labels.append("character-creation-choice")
+            if "chronicle-entry" in category:
+                labels.append("chronicle-entry")
+            if "equipment-feedback" in category:
+                labels.append("equipment-feedback")
+            if "guild-posting" in category:
+                labels.append("guild-posting")
             if not labels:
                 labels.append("unmapped-by-audited-fixed-consumers")
-            category = category_for(mid)
             row = {
                 "id": mid,
                 "opcodes": opcodes,
