@@ -68,45 +68,9 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 	fmt.Printf("Korean coverage: %d/%d records; custom glyphs: %d; reusable slots: %d\n", coverage, total, len(plan.CustomRunes), len(plan.Candidates))
 
-	layouts := make(map[int]string)
-	for _, row := range korean.Entries {
-		if row.Layout != "" {
-			layouts[row.ID] = row.Layout
-		}
-	}
-	engine, err := loadLayout(root)
+	contract, err := runKoreanEnglishContractChain(root, "mobile", source, korean, plan.Mapping)
 	if err != nil { return err }
-
-	// Keep the Android/mobile ISO path contract-identical to the normal Korean
-	// release path. Historically these paths drifted, which allowed a contract to
-	// be enforced in desktop/release code while the APK still authored an ISO
-	// without that protection.
-	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
-	if err != nil { return err }
-	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedC5)
-
-	layouts, derivedEnglish, err := engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, plan.Mapping)
-	if err != nil { return err }
-	fmt.Printf("FORENSIC KOREAN_ENGLISH_CONTRACT_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true mobile=true\n", derivedEnglish)
-
-	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, plan.Mapping)
-	if err != nil { return err }
-	fmt.Printf("FORENSIC KOREAN_ENGLISH_VISUAL_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true mobile=true\n", derivedVisual)
-
-	layouts, derivedScanner, err := engine.DeriveKoreanC22RetailScannerLayouts(source, korean, layouts, plan.Mapping)
-	if err != nil { return err }
-	fmt.Printf("FORENSIC KOREAN_C22_SCANNER_DERIVED_LAYOUTS count=%d threshold=0x100 semantic_source_unchanged=true mobile=true\n", derivedScanner)
-
-	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, plan.Mapping); err != nil {
-		return err
-	}
-	fmt.Printf("Korean upstream-English consumer storage contracts: no violation detected (mobile path).\n")
-
-	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
-	if err != nil {
-		return err
-	}
-	fmt.Printf("Korean C5 static storage check: no violation detected; %d dynamic-substitution record(s) remain runtime-QA risks.\n", len(dynamicC5))
+	layouts := contract.Layouts
 
 	compiled, err := compileKoreanBanksWithPlan(source, korean, banks, plan, layouts)
 	if err != nil { return err }
