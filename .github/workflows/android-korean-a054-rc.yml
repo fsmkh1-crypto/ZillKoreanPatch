@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - release/a054-inline-span-rc
+      - audit/english-first-full-parity-restart
     paths:
       - 'android-patcher/**'
       - 'translations/korean/**'
@@ -16,6 +17,8 @@ on:
       - 'internal/**'
       - 'patches/executable/**'
       - 'patches/system/**'
+      - 'tools/korean/audit-english-first-full-parity.py'
+      - 'AGENTS.md'
       - '.github/workflows/android-korean-a054-rc.yml'
 
 permissions:
@@ -44,6 +47,9 @@ jobs:
           yes | sdkmanager --licenses >/dev/null || true
           sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
 
+      - name: Enforce English-first project parity
+        run: python3 tools/korean/audit-english-first-full-parity.py
+
       - name: Prepare embedded Korean patch project data
         shell: bash
         run: |
@@ -69,6 +75,13 @@ jobs:
           cp patches/executable/manifest.toml "$ROOT/patches/executable/"
           cp patches/system/param-sfo.toml "$ROOT/patches/system/"
           printf '%s\n' "$GITHUB_SHA" > "$ROOT/payload-version.txt"
+          (
+            cd "$ROOT"
+            find . -type f ! -name 'payload-manifest.sha256' -print0 \
+              | sort -z \
+              | xargs -0 sha256sum > payload-manifest.sha256
+            sha256sum -c payload-manifest.sha256
+          )
 
       - name: Build arm64 Korean patch builder
         shell: bash
@@ -119,7 +132,15 @@ jobs:
           grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/layout/consumer-map.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
+          grep -q 'assets/zillroot/payload-manifest.sha256' /tmp/apk-list.txt
           unzip -p "$APK" assets/zillroot/payload-version.txt | grep -Fx "$GITHUB_SHA"
+          rm -rf /tmp/apk-payload
+          mkdir -p /tmp/apk-payload
+          unzip -q "$APK" 'assets/zillroot/*' -d /tmp/apk-payload
+          (
+            cd /tmp/apk-payload/assets/zillroot
+            sha256sum -c payload-manifest.sha256
+          )
           grep -q 'canonical=42016 checked=42016' a054-full-corpus-audit.txt
           sha256sum "$APK" | tee "$APK.sha256"
 
