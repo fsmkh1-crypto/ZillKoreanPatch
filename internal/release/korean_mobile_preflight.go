@@ -65,9 +65,27 @@ func PreflightKoreanAlphaISOOnly(root, gameDir, isoPath, version string, planBui
 	}
 	engine, err := loadLayout(root)
 	if err != nil { return err }
+
+	// Preflight must execute the same English-first contract chain as the real
+	// mobile ISO build. A preflight that omits these gates can report green while
+	// the APK build would later fail (or, worse, regress to an unvalidated path).
 	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return err }
-	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedC5)
+	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true preflight=true\n", derivedC5)
+
+	layouts, derivedEnglish, err := engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return err }
+	fmt.Printf("FORENSIC KOREAN_ENGLISH_CONTRACT_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true preflight=true\n", derivedEnglish)
+
+	layouts, derivedScanner, err := engine.DeriveKoreanC22RetailScannerLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return err }
+	fmt.Printf("FORENSIC KOREAN_C22_SCANNER_DERIVED_LAYOUTS count=%d threshold=0x100 semantic_source_unchanged=true preflight=true\n", derivedScanner)
+
+	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, plan.Mapping); err != nil {
+		return err
+	}
+	fmt.Printf("Korean upstream-English consumer storage contracts: no violation detected (preflight path).\n")
+
 	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
 	if err != nil { return err }
 	fmt.Printf("Korean C5 preflight storage check: no violation detected; %d dynamic-substitution record(s) remain runtime-QA risks.\n", len(dynamicC5))
