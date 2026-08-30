@@ -26,7 +26,6 @@ func PreflightKoreanAlphaISOOnly(root, gameDir, isoPath, version string, planBui
 	if err != nil { return err }
 	if planBuilder == nil { return fmt.Errorf("Korean beta preflight: nil plan builder") }
 
-	// Keep the source-ISO validation contract aligned with the real mobile build.
 	retailISO, _, err := openRetailISO(isoPath)
 	if err != nil { return err }
 	if err := retailISO.Close(); err != nil {
@@ -59,9 +58,7 @@ func PreflightKoreanAlphaISOOnly(root, gameDir, isoPath, version string, planBui
 
 	layouts := make(map[int]string)
 	for _, row := range korean.Entries {
-		if row.Layout != "" {
-			layouts[row.ID] = row.Layout
-		}
+		if row.Layout != "" { layouts[row.ID] = row.Layout }
 	}
 	engine, err := loadLayout(root)
 	if err != nil { return err }
@@ -76,6 +73,10 @@ func PreflightKoreanAlphaISOOnly(root, gameDir, isoPath, version string, planBui
 	layouts, derivedEnglish, err := engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return err }
 	fmt.Printf("FORENSIC KOREAN_ENGLISH_CONTRACT_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true preflight=true\n", derivedEnglish)
+
+	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return err }
+	fmt.Printf("FORENSIC KOREAN_ENGLISH_VISUAL_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true preflight=true\n", derivedVisual)
 
 	layouts, derivedScanner, err := engine.DeriveKoreanC22RetailScannerLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return err }
