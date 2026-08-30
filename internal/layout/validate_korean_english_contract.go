@@ -34,7 +34,7 @@ func (e *Engine) DeriveKoreanEnglishConsumerLayouts(source *corpus.Project, kore
 		if _, ok := c22[row.ID]; !ok {
 			continue
 		}
-		effective := effectiveKoreanText(row, derived)
+		effective := message.KoreanConsumerStorageText(row.ID, effectiveKoreanText(row, derived))
 		why, err := e.c22ViolationKoreanBytes(row.ID, effective, mapping)
 		if err != nil {
 			return nil, 0, err
@@ -43,7 +43,7 @@ func (e *Engine) DeriveKoreanEnglishConsumerLayouts(source *corpus.Project, kore
 			continue
 		}
 		candidate := wrapKoreanStoragePreservingControlAdjacency(effective)
-		if !message.PreservesLayoutSemantics(row.Korean, candidate) {
+		if !message.PreservesLayoutSemantics(effective, candidate) {
 			return nil, 0, fmt.Errorf("message %d C22 derived layout changes semantic/control text", row.ID)
 		}
 		post, err := e.c22ViolationKoreanBytes(row.ID, candidate, mapping)
@@ -59,20 +59,30 @@ func (e *Engine) DeriveKoreanEnglishConsumerLayouts(source *corpus.Project, kore
 	return derived, count, nil
 }
 
-// ValidateKoreanEnglishConsumerContracts mirrors the upstream English patcher's
-// fixed-storage validation categories and limits. The only deliberate language
-// difference is byte measurement: natural Korean text is encoded with the exact
-// authenticated renderer mapping instead of stock CP932. Once storage passes,
-// the same release gate also invokes the upstream English hard visual contracts
-// with Korean-aware renderer advances.
+// ValidateKoreanEnglishConsumerContracts runs the complete upstream-English
+// storage gate and then the hard visual contracts. Storage is factored into a
+// separate method so repository-only CI can exhaust every asset-independent
+// fixed-buffer contract before an APK is published.
 func (e *Engine) ValidateKoreanEnglishConsumerContracts(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) error {
+	if err := e.ValidateKoreanEnglishConsumerStorageContracts(source, korean, layouts, mapping); err != nil {
+		return err
+	}
+	return e.ValidateKoreanEnglishVisualContracts(source, korean, layouts, mapping)
+}
+
+// ValidateKoreanEnglishConsumerStorageContracts mirrors the upstream English
+// fixed-storage validation categories and limits. Korean text is measured with
+// the exact two-byte renderer mapping. Build-owned compact consumer wording is
+// applied here through the same seam used by materialization, so CI and the
+// device builder cannot silently validate different texts.
+func (e *Engine) ValidateKoreanEnglishConsumerStorageContracts(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) error {
 	if source == nil || korean == nil {
 		return fmt.Errorf("Korean English-contract validation: nil project")
 	}
 	effective := make(map[int]string, len(korean.Entries))
 	translated := make(map[int]bool, len(korean.Entries))
 	for _, row := range korean.Entries {
-		effective[row.ID] = effectiveKoreanText(row, layouts)
+		effective[row.ID] = message.KoreanConsumerStorageText(row.ID, effectiveKoreanText(row, layouts))
 		translated[row.ID] = true
 	}
 	var failures []string
@@ -141,21 +151,40 @@ func (e *Engine) ValidateKoreanEnglishConsumerContracts(source *corpus.Project, 
 		changed, total, missing := false, 0, false
 		for _, id := range group.IDs {
 			changed = changed || translated[id]
-			text, ok := effective[id]
+			if text, ok := effective[id]; ok {
+				size, err := koreanMinimumBytes(text, id, mapping)
+				if err != nil {
+					failures = append(failures, err.Error())
+					missing = true
+					break
+				}
+				total += size + 1
+				continue
+			}
+
+			// CompileBankKorean copies untranslated members byte-identically from
+			// retail. Use exact authenticated raw length when banks are bound; in
+			// repository-only CI, use the canonical Japanese annotated text as the
+			// asset-independent equivalent instead of falsely calling it missing.
+			item, ok := source.Find(id)
 			if !ok {
 				missing = true
 				break
 			}
-			size, err := koreanMinimumBytes(text, id, mapping)
+			if len(item.Record.Raw) != 0 {
+				total += len(item.Record.Raw)
+				continue
+			}
+			size, err := koreanMinimumBytes(item.Translation.Japanese, id, mapping)
 			if err != nil {
-				failures = append(failures, err.Error())
+				failures = append(failures, fmt.Sprintf("C20 source message %d: %v", id, err))
 				missing = true
 				break
 			}
 			total += size + 1
 		}
 		if changed && missing {
-			failures = append(failures, fmt.Sprintf("C20 group starting at %d lacks a message", group.IDs[0]))
+			failures = append(failures, fmt.Sprintf("C20 group starting at %d lacks a source message", group.IDs[0]))
 		} else if changed && total >= c20GroupBufferCapacityBytes {
 			failures = append(failures, fmt.Sprintf("C20 group starting at %d uses %d bytes (maximum %d)", group.IDs[0], total, c20GroupBufferCapacityBytes-1))
 		}
@@ -177,9 +206,6 @@ func (e *Engine) ValidateKoreanEnglishConsumerContracts(source *corpus.Project, 
 	if len(failures) != 0 {
 		sort.Strings(failures)
 		return fmt.Errorf("Korean upstream-English consumer storage validation failed:\n- %s", strings.Join(failures, "\n- "))
-	}
-	if err := e.ValidateKoreanEnglishVisualContracts(source, korean, layouts, mapping); err != nil {
-		return err
 	}
 	return nil
 }
