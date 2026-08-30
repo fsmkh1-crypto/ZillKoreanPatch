@@ -31,7 +31,10 @@ mobile_preflight = read("internal/release/korean_mobile_preflight.go")
 korean_font = read("internal/release/korean_font.go")
 korean_full_repack_verify = read("internal/zillfont/korean_full_repack_verify.go")
 korean_fixed = read("internal/release/korean_fixed.go")
+english_fixeddata = read("internal/fixeddata/eboot.go")
 korean_fixeddata = read("internal/fixeddata/korean_eboot.go")
+equipment_fixeddata = read("internal/fixeddata/equipment.go")
+desktop_plan = read("cmd/zill/build_korean.go")
 mobile_plan = read("cmd/zill/build_korean_mobile_plan.go")
 slot_plan = read("internal/koreanslots/plan.go")
 paa = read("internal/gamefmt/paa/paa.go")
@@ -123,6 +126,49 @@ require("patchedELFSHA256" in korean_fixeddata,
 require("elfpatch.VerifyApplied(result, manifest)" in korean_fixed,
         "Korean fixed EBOOT overlay lost executable manifest postcondition verification")
 
+# Fixed EBOOT strings are an engine-invariant fixed-width surface even though
+# English uses a complete 557-field table and Korean intentionally uses a sparse
+# reviewed overlay. Korean may differ in coverage, but not in source guarding,
+# NUL termination, byte capacity, range, overlap, or clear-then-copy semantics.
+for anchor in (
+    "sha256.Sum256(source) != patchedELFSHA256",
+    "len(encoded) > len(expected)",
+    "source[start+len(expected)] != 0",
+    "translation fields overlap",
+    "clear(result[replacement.offset",
+):
+    require(anchor in english_fixeddata, "upstream English fixed-EBOOT invariant disappeared: " + anchor)
+    require(anchor in korean_fixeddata, "Korean sparse EBOOT weakened fixed-width invariant: " + anchor)
+require("KoreanEBOOTTranslations is a sparse Korean overlay" in korean_fixeddata,
+        "sparse Korean EBOOT coverage is no longer explicitly documented")
+require((ROOT / "release/korean/strings/eboot.toml").is_file(),
+        "Korean sparse fixed-EBOOT translation source disappeared")
+
+# BINDATA equipment translation itself is English content policy today: Korean
+# has no equipment translation table and therefore must leave the retail member
+# unchanged. The authenticated blob still owns renderer keys, so both Korean
+# planners must validate the known 132-record layout and feed exact BINDATA bytes
+# into BuildPlan before any custom slot can be allocated.
+for anchor in (
+    "sha256.Sum256(source) != bindataSHA256",
+    "equipmentRecordCount = 132",
+    "equipmentNameSize    = 17",
+    "source guard does not match",
+    "invalid source field padding",
+):
+    require(anchor in equipment_fixeddata, "shared BINDATA fixed-data guard disappeared: " + anchor)
+require("addEquipment(root, archives)" in english_release,
+        "upstream English release no longer exposes the equipment fixed-data policy being classified")
+require(not (ROOT / "release/korean/strings/equipment.toml").exists(),
+        "Korean equipment translation source now exists; reclassify BINDATA from untranslated DIFFERENT-BY-DESIGN")
+for label, text in (("desktop Korean planner", desktop_plan), ("mobile Korean planner", mobile_plan)):
+    require("loadRetailBindata(gameDir)" in text,
+            f"{label} stopped authenticating retail bindata.dat")
+    require("fixeddata.ApplyEquipment(bindata, equipment)" in text,
+            f"{label} stopped validating the upstream equipment table layout/source guards")
+    require("boot, eboot, bindata" in text,
+            f"{label} stopped feeding authenticated bindata.dat into exact-byte slot allocation")
+
 # Slot reuse is Korean-only, so it must be at least as conservative as the
 # project-owned production BuildPlan contract: exact two-byte references in
 # authenticated BOOT/EBOOT/bindata blobs are excluded before allocation, not
@@ -170,6 +216,8 @@ print("release_entrypoints=desktop,mobile,preflight")
 print("font_source_fingerprints=english_manifest_exact")
 print("font_result_boundary=dynamic_exact_mutation_surface")
 print("executable_manifest_chain=shared_and_postverified")
+print("fixed_eboot=shared_fixed_width_guards_sparse_korean_by_design")
+print("bindata_equipment=english_translated_korean_retail_by_design_authenticated_for_slot_ownership")
 print("slot_ownership=authenticated_exact_byte_fail_closed")
 print("archive_rebuild=shared_duplicate_reject_and_exact_payload_verify")
 print("iso_provenance=shared_staged_psp_game_exact_verify")
