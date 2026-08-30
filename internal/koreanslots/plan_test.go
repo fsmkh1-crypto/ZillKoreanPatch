@@ -45,25 +45,17 @@ func TestBuildPlanPreservesRuntimeStockAndReservations(t *testing.T) {
 	}
 }
 
-func TestBuildPlanAppliesExactByteAuditBeforeAllocation(t *testing.T) {
+func TestBuildPlanHasNoWholeBlobOwnershipInput(t *testing.T) {
 	first := mustPlanKey(t, "本")
 	second := mustPlanKey(t, "語")
-	encoded, err := first.Bytes()
+	plan, err := BuildPlan([]string{"한"}, []cp932.GlyphKey{second, first}, nil)
 	if err != nil {
 		t.Fatal(err)
 	}
-	blob := append([]byte{0x00}, encoded...)
-	blob = append(blob, 0x00)
-
-	plan, err := BuildPlan([]string{"한"}, []cp932.GlyphKey{second, first}, nil, blob)
-	if err != nil {
-		t.Fatal(err)
-	}
-	if !reflect.DeepEqual(plan.Candidates, []cp932.GlyphKey{second}) {
+	// Both installed keys remain eligible. Whole-blob byte aliases are audited
+	// separately and cannot silently remove renderer slots from production.
+	if !reflect.DeepEqual(plan.Candidates, []cp932.GlyphKey{first, second}) {
 		t.Fatalf("candidates = %#v", plan.Candidates)
-	}
-	if got := plan.Mapping['한']; got != second {
-		t.Fatalf("mapping = 0x%04X, want 0x%04X", uint16(got), uint16(second))
 	}
 }
 
