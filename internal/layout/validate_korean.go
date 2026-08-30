@@ -12,6 +12,76 @@ import (
 	"github.com/HK47196/zill/internal/message"
 )
 
+// DeriveKoreanRetailScannerLayouts removes the A-054 first-page-overflow class
+// proactively at build time. It examines the exact materialized Korean bytes for
+// every selected record against the authenticated retail source record, and only
+// rewrites records whose z_un_089661DC scanner span reaches the 0x100 inline-page
+// boundary. Canonical Korean remains unchanged; returned layouts are build-local.
+//
+// The generated layout uses the same conservative 18-visible-rune wrapping used
+// for C5 storage repair. This keeps ordinary encoded spans far below 0x100 while
+// preserving controls and existing boundaries. The production compiler still
+// rechecks the exact bytes and fails closed if any unsafe span survives.
+func (e *Engine) DeriveKoreanRetailScannerLayouts(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) (map[int]string, int, error) {
+	if source == nil {
+		return nil, 0, fmt.Errorf("Korean scanner layout derivation: nil source project")
+	}
+	if korean == nil {
+		return nil, 0, fmt.Errorf("Korean scanner layout derivation: nil Korean project")
+	}
+	if len(mapping) == 0 && len(korean.Entries) != 0 {
+		return nil, 0, fmt.Errorf("Korean scanner layout derivation: empty renderer mapping")
+	}
+
+	derived := make(map[int]string, len(layouts))
+	for id, text := range layouts {
+		derived[id] = text
+	}
+	count := 0
+	for _, row := range korean.Entries {
+		item, ok := source.Find(row.ID)
+		if !ok {
+			return nil, 0, fmt.Errorf("Korean scanner layout derivation: message %d lacks source", row.ID)
+		}
+		effective := effectiveKoreanText(row, derived)
+		replacement := message.KoreanRecord{Text: row.Korean}
+		if effective != row.Korean {
+			replacement.Layout = effective
+		}
+		raw, err := message.MaterializeKoreanRecordForScannerAudit(item.Record, replacement, mapping)
+		if err != nil {
+			return nil, 0, fmt.Errorf("message %d scanner preflight materialization: %w", row.ID, err)
+		}
+		metrics, err := message.AnalyzeRetailStringScanner(raw)
+		if err != nil {
+			return nil, 0, fmt.Errorf("message %d scanner preflight analysis: %w", row.ID, err)
+		}
+		if metrics.MaxSpan < 0x100 {
+			continue
+		}
+
+		candidate := wrapKoreanC5Storage(effective)
+		if !message.PreservesLayoutSemantics(row.Korean, candidate) {
+			return nil, 0, fmt.Errorf("message %d scanner-derived layout changes semantic/control text", row.ID)
+		}
+		replacement.Layout = candidate
+		raw, err = message.MaterializeKoreanRecordForScannerAudit(item.Record, replacement, mapping)
+		if err != nil {
+			return nil, 0, fmt.Errorf("message %d scanner-derived materialization: %w", row.ID, err)
+		}
+		metrics, err = message.AnalyzeRetailStringScanner(raw)
+		if err != nil {
+			return nil, 0, fmt.Errorf("message %d scanner-derived analysis: %w", row.ID, err)
+		}
+		if metrics.MaxSpan >= 0x100 {
+			return nil, 0, fmt.Errorf("message %d scanner-derived layout still reaches inline boundary: max span %d (0x%X)", row.ID, metrics.MaxSpan, metrics.MaxSpan)
+		}
+		derived[row.ID] = candidate
+		count++
+	}
+	return derived, count, nil
+}
+
 // DeriveKoreanC5StorageLayouts adds machine-owned line wrapping only for C5
 // records that have no authored layout and currently violate the 255-byte page
 // payload contract. Contributor Korean remains semantic-only source data; the
