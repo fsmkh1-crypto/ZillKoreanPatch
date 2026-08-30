@@ -92,17 +92,24 @@ jobs:
       - name: Build debug APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
 
-      - name: Verify embedded A-054 candidate payload
+      - name: Verify patcher launcher and embedded A-054 candidate payload
         shell: bash
         run: |
           set -euxo pipefail
           APK=android-patcher/app/build/outputs/apk/debug/app-debug.apk
+          AAPT="$ANDROID_HOME/build-tools/35.0.0/aapt"
+          "$AAPT" dump badging "$APK" | tee /tmp/apk-badging.txt
+          grep -q "launchable-activity: name='com.fsmkh1.zillfontdump.MainActivity'" /tmp/apk-badging.txt
+          if grep -q "launchable-activity: name='com.fsmkh1.zillfontdump.FreezeCaptureActivity'" /tmp/apk-badging.txt; then
+            echo 'FreezeCaptureActivity must not be launcher' >&2
+            exit 1
+          fi
           unzip -l "$APK" > /tmp/apk-list.txt
           grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
           grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/layout/consumer-map.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
-          strings "$APK" >/dev/null
+          unzip -p "$APK" assets/zillroot/payload-version.txt | grep -Fx "$GITHUB_SHA"
           sha256sum "$APK" | tee "$APK.sha256"
 
       - uses: actions/upload-artifact@v4
