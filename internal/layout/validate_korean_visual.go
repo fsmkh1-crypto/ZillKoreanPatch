@@ -54,7 +54,12 @@ func (e *Engine) ValidateKoreanEnglishVisualContracts(source *corpus.Project, ko
 		if width > profileAdvance {
 			failures = append(failures, fmt.Sprintf("message %d: profile line is %d units (maximum %d)", row.ID, width, profileAdvance))
 		}
-		if maxFragmentLines(projection, text) > profileMaxLines {
+		lines, err := maxProjectedKoreanFragmentLines(projection, text, row.ID, mapping)
+		if err != nil {
+			failures = append(failures, err.Error())
+			continue
+		}
+		if lines > profileMaxLines {
 			failures = append(failures, fmt.Sprintf("message %d: profile exceeds %d lines", row.ID, profileMaxLines))
 		}
 	}
@@ -106,9 +111,9 @@ func (e *Engine) measureKoreanRenderer(s string, id int, mapping koreanslots.Map
 }
 
 func (e *Engine) maxProjectedKoreanWidth(p *message.Projection, text string, id int, mapping koreanslots.Mapping) (int, error) {
-	parts, err := p.SplitSemantic(text)
+	parts, err := p.SplitSemanticKorean(text, mapping)
 	if err != nil {
-		return 0, err
+		return 0, fmt.Errorf("message %d Korean visual projection: %w", id, err)
 	}
 	maximum := 0
 	for _, part := range parts {
@@ -120,6 +125,25 @@ func (e *Engine) maxProjectedKoreanWidth(p *message.Projection, text string, id 
 				}
 				maximum = max(maximum, width)
 			}
+		}
+	}
+	return maximum, nil
+}
+
+// maxProjectedKoreanFragmentLines is the Korean counterpart of maxFragmentLines.
+// It must traverse the same Korean renderer-aware semantic projection used by
+// materialization. Falling back to the stock CP932 split either rejects valid
+// Hangul or, in the legacy helper, silently turns a projection error into zero
+// lines and can hide a real profile overflow.
+func maxProjectedKoreanFragmentLines(p *message.Projection, text string, id int, mapping koreanslots.Mapping) (int, error) {
+	parts, err := p.SplitSemanticKorean(text, mapping)
+	if err != nil {
+		return 0, fmt.Errorf("message %d Korean visual line projection: %w", id, err)
+	}
+	maximum := 0
+	for _, part := range parts {
+		for _, page := range strings.Split(part, "<end>") {
+			maximum = max(maximum, strings.Count(page, lineBreak)+1)
 		}
 	}
 	return maximum, nil
