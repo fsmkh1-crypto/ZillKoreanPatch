@@ -72,6 +72,16 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return result, err }
 	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedC5)
+
+	// A-054 hardening is now proactive rather than candidate-only: after the
+	// consumer-specific C5 repair, inspect every exact materialized Korean record
+	// against the authenticated retail source and derive a build-local layout for
+	// any span that reaches the 0x100 inline scanner boundary. Canonical Korean is
+	// never rewritten. The exact compiler gate remains in place as a second layer.
+	layouts, derivedScanner, err := engine.DeriveKoreanRetailScannerLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return result, err }
+	fmt.Printf("FORENSIC KOREAN_SCANNER_DERIVED_LAYOUTS count=%d threshold=0x100 semantic_source_unchanged=true exact_gate=CompileBankKorean\n", derivedScanner)
+
 	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
 	if err != nil {
 		return result, err
