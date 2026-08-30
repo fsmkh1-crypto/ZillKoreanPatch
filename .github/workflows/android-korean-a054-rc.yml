@@ -86,6 +86,15 @@ jobs:
       - name: Go tests
         run: go test ./...
 
+      - name: Full Korean A-054 scanner-span census
+        shell: bash
+        run: |
+          set -euxo pipefail
+          go test ./internal/release \
+            -run '^TestCurrentKoreanCorpusRetailScannerMaxSpanBelowInlineBoundary$' \
+            -count=1 -v | tee a054-full-corpus-audit.txt
+          grep -q 'offenders_ge_0x100=0' a054-full-corpus-audit.txt
+
       - name: Android unit tests
         run: gradle -p android-patcher :app:testDebugUnitTest --no-daemon --stacktrace
 
@@ -110,12 +119,14 @@ jobs:
           grep -q 'assets/zillroot/release/layout/consumer-map.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
           unzip -p "$APK" assets/zillroot/payload-version.txt | grep -Fx "$GITHUB_SHA"
+          grep -q 'offenders_ge_0x100=0' a054-full-corpus-audit.txt
           sha256sum "$APK" | tee "$APK.sha256"
 
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-korean-a054-rc-patcher
+          name: zill-korean-a054-full-corpus-patcher
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
+            a054-full-corpus-audit.txt
           if-no-files-found: error
