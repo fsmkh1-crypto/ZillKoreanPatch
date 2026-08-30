@@ -18,12 +18,11 @@ import tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 VALUE_RE = re.compile(r"<value:\$([0-9A-Fa-f]{2})>")
-# Concrete blind spot raised during independent review: a value used as the
-# right-hand side of a comparison would not be immediately preceded by <if> and
-# the lightweight classifier below would otherwise call it inline.
+COMPARISON_TAGS = ("<equal>", "<less-equal>", "<greater-equal>")
 COMPARISON_VALUE_RE = re.compile(
     r"<(?:equal|less-equal|greater-equal)><value:\$([0-9A-Fa-f]{2})>"
 )
+TRAP_ID = 1070079
 
 
 def load_toml(path: pathlib.Path):
@@ -41,15 +40,18 @@ def compact(text: str, limit: int = 180) -> str:
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
-def classify_value_uses(text: str):
-    """Return (all, inline, predicate, selector, inline-adjacencies).
+def value_role(text: str, start: int) -> str:
+    """Classify one <value> occurrence by the grammar token immediately before it."""
+    prefix = text[:start]
+    if prefix.endswith("<select>"):
+        return "selector"
+    if prefix.endswith("<if>") or prefix.endswith(COMPARISON_TAGS):
+        return "predicate"
+    return "inline"
 
-    This is deliberately a lightweight corpus classifier, not the message
-    grammar parser. Predicate values immediately after <if> and selector values
-    immediately after <select> are classified structurally enough for the
-    current corpus; explicit counterexample scans below prevent the known
-    right-hand-comparison blind spot from silently contaminating headline counts.
-    """
+
+def classify_value_uses(text: str):
+    """Return (all, inline, predicate, selector, inline-adjacencies)."""
     all_tags = []
     inline = []
     predicate = []
@@ -58,11 +60,11 @@ def classify_value_uses(text: str):
     for match in VALUE_RE.finditer(text):
         opcode = match.group(1).upper()
         all_tags.append(opcode)
-        prefix = text[: match.start()]
-        if prefix.endswith("<if>"):
+        role = value_role(text, match.start())
+        if role == "predicate":
             predicate.append(opcode)
             continue
-        if prefix.endswith("<select>"):
+        if role == "selector":
             selector.append(opcode)
             continue
         inline.append(opcode)
@@ -117,12 +119,16 @@ def main() -> None:
                 continue
             total_records += 1
             mid = int(key)
-            rhs_values = [m.group(1).upper() for m in COMPARISON_VALUE_RE.finditer(korean)]
-            if rhs_values:
-                classifier_counterexamples.append((mid, rhs_values, korean))
+            category = category_for(mid)
             tags, inline, predicate, selector, adjacency = classify_value_uses(korean)
             if not tags:
                 continue
+
+            # Fail closed if any comparison RHS <value> is still classified as inline.
+            for rhs in COMPARISON_VALUE_RE.finditer(korean):
+                if value_role(korean, rhs.start() + rhs.group(0).rfind("<value:")) != "predicate":
+                    classifier_counterexamples.append((mid, rhs.group(1).upper(), korean))
+
             opcode_counts.update(tags)
             inline_counts.update(inline)
             predicate_counts.update(predicate)
@@ -142,6 +148,16 @@ def main() -> None:
                 labels.append("guild-client")
             if mid in guild_region:
                 labels.append("guild-region")
+            if mid == TRAP_ID:
+                labels.append("trap")
+            if "character-creation-choice" in category:
+                labels.append("character-creation-choice")
+            if "chronicle-entry" in category:
+                labels.append("chronicle-entry")
+            if "equipment-feedback" in category:
+                labels.append("equipment-feedback")
+            if "guild-posting" in category:
+                labels.append("guild-posting")
             if not labels:
                 labels.append("unmapped-by-audited-fixed-consumers")
             consumer_counts.update(labels)
@@ -156,7 +172,7 @@ def main() -> None:
                     "predicate": predicate,
                     "selector": selector,
                     "labels": labels,
-                    "category": category_for(mid),
+                    "category": category,
                     "adjacency": adjacency,
                     "japanese": japanese if isinstance(japanese, str) else "",
                     "korean": korean,
@@ -183,10 +199,10 @@ def main() -> None:
     )
     print(f"inline_nonspace_adjacencies={sum(adjacency_counts.values())}")
     print(f"classifier_rhs_value_counterexamples={len(classifier_counterexamples)}")
-    for mid, opcodes, text in classifier_counterexamples[:20]:
+    for mid, opcode, text in classifier_counterexamples[:20]:
         print(
             f"CLASSIFIER_RHS_VALUE_COUNTEREXAMPLE id={mid} "
-            f"opcodes={','.join('$'+op for op in opcodes)} KO={compact(text)!r}"
+            f"opcode=${opcode} KO={compact(text)!r}"
         )
     print("consumer_overlap=" + ", ".join(f"{k}:{v}" for k, v in sorted(consumer_counts.items())))
     print("inline_consumer_overlap=" + ", ".join(f"{k}:{v}" for k, v in sorted(inline_consumer_counts.items())))
