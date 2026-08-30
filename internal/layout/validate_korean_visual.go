@@ -95,23 +95,25 @@ func (e *Engine) koreanProfileMetrics(record corpus.Record, text string, id int,
 }
 
 // measureKoreanRenderer follows the produced Korean PAF rather than nominal
-// CP932 metrics of repurposed renderer keys.
+// CP932 metrics of repurposed renderer keys. RendererRune is shared with the
+// encoder so typography aliases have identical storage and visual widths.
 func (e *Engine) measureKoreanRenderer(s string, id int, mapping koreanslots.Mapping) (int, error) {
 	reserved := strings.Count(s, "<value:$28>") * e.playerNameAdvance
 	for tag, advance := range e.postingAdvances[id] { reserved += strings.Count(s, tag) * advance }
 	plain := visible(s)
 	total := 0
-	for i, r := range plain {
+	for i, raw := range plain {
+		r := koreanslots.RendererRune(raw)
 		if _, mapped := mapping[r]; mapped { total += zillfont.KoreanTargetAdvance; continue }
 		key := uint16(r)
 		if r > unicode.MaxASCII {
 			encoded, err := cp932.Encode(string(r))
-			if err != nil { return 0, fmt.Errorf("message %d character %q at %d: %w", id, r, i, err) }
-			if len(encoded) < 1 || len(encoded) > 2 { return 0, fmt.Errorf("message %d character %q has invalid CP932 width", id, r) }
+			if err != nil { return 0, fmt.Errorf("message %d character %q at %d (renderer %q): %w", id, raw, i, r, err) }
+			if len(encoded) < 1 || len(encoded) > 2 { return 0, fmt.Errorf("message %d character %q has invalid CP932 width", id, raw) }
 			key = uint16(encoded[0]); if len(encoded) == 2 { key |= uint16(encoded[1]) << 8 }
 		}
 		g, ok := e.glyphs[key]
-		if !ok { return 0, fmt.Errorf("message %d character %q has no installed-font glyph (%#04x)", id, r, key) }
+		if !ok { return 0, fmt.Errorf("message %d character %q (renderer %q) has no installed-font glyph (%#04x)", id, raw, r, key) }
 		total += g.Advance
 	}
 	return total + reserved, nil
