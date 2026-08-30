@@ -43,6 +43,10 @@ english_font_manifest = read("release/font/manifest.toml")
 executable_manifest = read("patches/executable/manifest.toml")
 rules = read("internal/layout/rules.go")
 premise = read("AGENTS.md")
+android_activity = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/MainActivity.java")
+android_payload_integrity = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/ProjectAssetIntegrity.java")
+android_application = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/PayloadRepairApplication.java")
+android_workflow = read(".github/workflows/android-korean-a054-rc.yml")
 
 require("NON-NEGOTIABLE PROJECT PREMISE" in premise and "ENGLISH PATCH FIRST" in premise,
         "AGENTS.md no longer contains the English-first project premise")
@@ -207,6 +211,38 @@ for anchor in (
 ):
     require(anchor in disc, "shared ISO authoring lost staged-PSP_GAME provenance contract: " + anchor)
 
+# Android is an additional transport boundary after the shared verified ISO
+# authoring path. The APK must package one content-addressed zillroot payload,
+# verify that manifest after APK packaging and again after extraction to app
+# private storage, and compare the final user-selected output URI against the
+# verified temporary ISO before reporting success.
+for anchor in (
+    "python3 tools/korean/audit-english-first-full-parity.py",
+    "payload-manifest.sha256",
+    "sha256sum -c payload-manifest.sha256",
+    "unzip -q \"$APK\" 'assets/zillroot/*'",
+):
+    require(anchor in android_workflow,
+            "Android release workflow lost payload/parity provenance anchor: " + anchor)
+for anchor in (
+    "static void verifyPayload(File root)",
+    "payload manifest digest mismatch",
+    "payload file set mismatch",
+):
+    require(anchor in android_payload_integrity,
+            "Android project payload integrity weakened: " + anchor)
+require("ProjectAssetIntegrity.verifyPayload(root)" in android_application,
+        "Android startup no longer rejects cached payload integrity drift")
+for anchor in (
+    '"build-korean-iso"',
+    '"--preflight-only"',
+    "ProjectAssetIntegrity.verifyPayload(root)",
+    "verifyFileMatchesUri(output, outputUri)",
+    'MessageDigest.getInstance("SHA-256")',
+):
+    require(anchor in android_activity,
+            "Android app entry/output path lost end-to-end provenance anchor: " + anchor)
+
 print("ENGLISH_FIRST_PARITY_PASS")
 print("english_consumers=" + ",".join(sorted(english_consumers)))
 print("korean_direct_consumers=" + ",".join(sorted(korean_consumers)))
@@ -221,3 +257,4 @@ print("bindata_equipment=english_translated_korean_retail_by_design_authenticate
 print("slot_ownership=authenticated_exact_byte_fail_closed")
 print("archive_rebuild=shared_duplicate_reject_and_exact_payload_verify")
 print("iso_provenance=shared_staged_psp_game_exact_verify")
+print("android_provenance=manifest_verified_cache_and_exported_iso_sha256_length_verified")
