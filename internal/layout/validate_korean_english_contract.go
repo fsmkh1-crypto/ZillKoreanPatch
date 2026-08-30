@@ -43,10 +43,6 @@ func (e *Engine) DeriveKoreanEnglishConsumerLayouts(source *corpus.Project, kore
 			continue
 		}
 		candidate := wrapKoreanC5Storage(effective)
-		// Keep generated Korean layouts on the exact same authoritative semantic
-		// preservation contract used by CompileBankKorean. A local whitespace-
-		// stripping approximation is too permissive around runtime controls and can
-		// silently accept a build-local layout that the real compiler should reject.
 		if !message.PreservesLayoutSemantics(row.Korean, candidate) {
 			return nil, 0, fmt.Errorf("message %d C22 derived layout changes semantic/control text", row.ID)
 		}
@@ -175,8 +171,6 @@ func (e *Engine) ValidateKoreanEnglishConsumerContracts(source *corpus.Project, 
 		}
 	}
 
-	// C5 is validated separately by ValidateKoreanC5 because it needs exact
-	// branch-local lowering. Keep the same upstream membership and limits there.
 	e.validateKoreanPostings(effective, translated, mapping, &failures)
 	if len(failures) != 0 {
 		sort.Strings(failures)
@@ -256,6 +250,7 @@ func (e *Engine) validateKoreanPostings(effective map[int]string, translated map
 			if text, ok := effective[id]; ok {
 				if size, err := koreanExpandedBytes(text, id, mapping); err == nil && size > maxima[role] {
 					maxima[role] = size
+				}
 			}
 		}
 	}
