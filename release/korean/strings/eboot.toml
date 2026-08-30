@@ -1,4 +1,36 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+# Character-creation choice already covered by the established Korean fixed-data path.
 0x243d28 = { source = "神の手に魂を委ねる", replacement = "신께 영혼을 맡긴다" }
 0x243d3c = { source = "自らの手で魂を示す", replacement = "영혼을 증명한다" }
+
+# U1 — environment/settings calibration and labels. Every replacement is kept
+# within the exact upstream-English fixed-width source field; the shared fixed
+# EBOOT postcondition validates source bytes, terminating NUL and overlap.
+0x247900 = { source = "方向キー上下左右で画面位置の調整を", replacement = "방향키로 화면 위치를 조정할 수" }
+0x247924 = { source = "行うことができます。", replacement = "있습니다." }
+0x247940 = { source = "ラインより下のバーがみえなくなるように", replacement = "선 아래의 막대가 보이지 않도록" }
+0x247968 = { source = "テレビの明るさを調整してください。", replacement = "화면 밝기를 조정해 주세요." }
+0x247990 = { source = "②やりなおす　　　　　①決定", replacement = "② 다시  ① 결정" }
+0x2479c8 = { source = "メッセージ速度", replacement = "메시지 속도" }
+0x2479d8 = { source = "BGM音量", replacement = "BGM음" }
+0x2479e0 = { source = "SE音量", replacement = "SE음" }
+0x2479e8 = { source = "インストール", replacement = "인스톨" }
+0x2479f8 = { source = "初期画面に戻す", replacement = "타이틀로" }
+0x247a08 = { source = "設定完了", replacement = "완료" }
+0x247a18 = { source = "遅", replacement = "느" }
+0x247a1c = { source = "速", replacement = "빠" }
+
+# U1 — save/load/history/settings menu labels.
+0x2510a0 = { source = "セーブ", replacement = "저장" }
+0x2510a8 = { source = "ロード", replacement = "로드" }
+0x2510b0 = { source = "人物列伝", replacement = "인물열전" }
+0x2510bc = { source = "歴史事件", replacement = "역사사건" }
+0x2510c8 = { source = "環境設定", replacement = "환경설정" }
+
+# U1 — title/options menu labels.
+0x251a50 = { source = "オプション", replacement = "옵션" }
+0x251a5c = { source = "つづきから", replacement = "이어하기" }
+0x251a68 = { source = "はじめから", replacement = "처음부터" }
+0x251a74 = { source = "環境設定", replacement = "환경설정" }
+0x251a80 = { source = "ロード選択", replacement = "로드 선택" }
