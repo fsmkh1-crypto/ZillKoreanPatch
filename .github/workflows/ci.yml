@@ -28,6 +28,7 @@ jobs:
         with:
           go-version-file: go.mod
           cache-dependency-path: go.sum
+      - run: python3 tools/korean/check-project-premise.py
       - run: go test ./...
       - run: go vet ./...
       - run: python3 -m py_compile tools/korean/*.py
