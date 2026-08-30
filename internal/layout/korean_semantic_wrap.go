@@ -17,14 +17,22 @@ func wrapKoreanStoragePreservingControlAdjacency(text string) string {
 	out.Grow(len(text) + len(text)/8)
 	lineRunes := 0
 	cursor := 0
-	protectNextPlainRune := false
+	// Whitespace already present at the beginning of the input is authored
+	// semantic text, not a wrapping delimiter. Preserve its first rune so the
+	// rest of the run is retained normally as well.
+	protectNextPlainRune := true
 	for _, loc := range controlTag.FindAllStringIndex(text, -1) {
-		appendKoreanStoragePlain(&out, text[cursor:loc[0]], &lineRunes, false)
+		appendKoreanStoragePlain(&out, text[cursor:loc[0]], &lineRunes, protectNextPlainRune)
+		protectNextPlainRune = false
 		tag := text[loc[0]:loc[1]]
 		out.WriteString(tag)
 		if tag == lineBreak {
 			lineRunes = 0
-			protectNextPlainRune = false
+			// A line break already present in the input owns the whitespace that
+			// follows it. Generated wrapping breaks never leave their delimiter
+			// whitespace behind, so preserving an existing post-break run cannot
+			// turn a machine-created separator into semantic text.
+			protectNextPlainRune = true
 		} else {
 			// A semantic string such as <value:$15>여... owns direct control→text
 			// adjacency. If the line is already at the wrap threshold, emit one
@@ -74,7 +82,7 @@ func appendKoreanStoragePlain(out *strings.Builder, text string, lineRunes *int,
 		if space {
 			if *lineRunes == 0 {
 				if protectLeading && firstEmitted {
-					out.WriteRune(' ')
+					out.WriteRune(r)
 					*lineRunes++
 					firstEmitted = false
 				}

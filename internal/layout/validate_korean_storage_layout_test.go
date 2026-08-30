@@ -74,6 +74,31 @@ func TestWrapKoreanStoragePreservesValueLeadingWhitespace(t *testing.T) {
 	}
 }
 
+func TestWrapKoreanStoragePreservesCanonicalLeadingWhitespace(t *testing.T) {
+	input := " 변덕스러운 인간의 아이여. 마음이 바뀌었다면 다시 나를 찾아오거라.<end> 잘 가거라.<end>"
+	got := wrapKoreanStoragePreservingControlAdjacency(input)
+	if !strings.HasPrefix(got, " 변덕스러운") {
+		t.Fatalf("C22 wrapper dropped canonical record-leading whitespace: %q", got)
+	}
+	if !strings.Contains(got, "<end> 잘 가거라.<end>") {
+		t.Fatalf("C22 wrapper changed the second semantic segment: %q", got)
+	}
+	if !message.PreservesLayoutSemantics(input, got) {
+		t.Fatalf("C22 wrapper changed multi-segment semantic/control topology: %q", got)
+	}
+}
+
+func TestWrapKoreanStoragePreservesWhitespaceAfterExistingBreak(t *testing.T) {
+	input := "첫째 줄<line-break> 둘째 줄<end>"
+	got := wrapKoreanStoragePreservingControlAdjacency(input)
+	if !strings.Contains(got, "<line-break> 둘째") {
+		t.Fatalf("C22 wrapper dropped authored whitespace after an existing break: %q", got)
+	}
+	if !message.PreservesLayoutSemantics(input, got) {
+		t.Fatalf("C22 wrapper changed semantics around an existing break: %q", got)
+	}
+}
+
 func TestWrapKoreanStorageRepairsInheritedC5ValueBoundary(t *testing.T) {
 	semantic := strings.Repeat("가", 18) + "<value:$15>여기는이어지는문장입니다<end>"
 	inherited := strings.Repeat("가", 18) + "<value:$15><line-break>여기는이어지는문장입니다<end>"
