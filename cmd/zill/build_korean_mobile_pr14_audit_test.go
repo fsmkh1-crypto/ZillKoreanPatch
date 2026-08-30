@@ -15,34 +15,43 @@ import (
 func TestPR14EBOOTFixtureIsSeparatedFromCurrentProductionInput(t *testing.T) {
 	root := filepath.Join("..", "..")
 	currentData, err := os.ReadFile(filepath.Join(root, "release", "korean", "strings", "eboot.toml"))
-	if err != nil {
-		t.Fatal(err)
-	}
+	if err != nil { t.Fatal(err) }
 	current, err := fixeddata.ParseKoreanEBOOT(currentData)
-	if err != nil {
-		t.Fatal(err)
-	}
+	if err != nil { t.Fatal(err) }
+
+	h0Data, err := os.ReadFile(filepath.Join(root, "docs", "audit", "fixtures", "pr14-eboot-h0.toml"))
+	if err != nil { t.Fatal(err) }
+	h0, err := fixeddata.ParseKoreanEBOOT(h0Data)
+	if err != nil { t.Fatal(err) }
+
 	fixtureData, err := os.ReadFile(filepath.Join(root, "docs", "audit", "fixtures", "pr14-eboot-full.toml"))
-	if err != nil {
-		t.Fatal(err)
-	}
+	if err != nil { t.Fatal(err) }
 	fixture, err := fixeddata.ParseKoreanEBOOT(fixtureData)
-	if err != nil {
-		t.Fatal(err)
-	}
-	if got, want := len(current), 2; got != want {
-		t.Fatalf("current production EBOOT fields=%d, want H0-era %d; update the audit model before changing this input", got, want)
+	if err != nil { t.Fatal(err) }
+
+	if got, want := len(h0), 2; got != want {
+		t.Fatalf("historical H0 EBOOT fixture fields=%d, want %d", got, want)
 	}
 	if got, want := len(fixture), 46; got != want {
 		t.Fatalf("PR14 expanded EBOOT fixture fields=%d, want historical %d", got, want)
 	}
-	for offset, currentField := range current {
-		fixtureField, ok := fixture[offset]
+	if len(current) <= len(h0) {
+		t.Fatalf("current production EBOOT fields=%d must be allowed to grow beyond historical H0=%d", len(current), len(h0))
+	}
+	for offset, h0Field := range h0 {
+		fullField, ok := fixture[offset]
 		if !ok {
-			t.Fatalf("historical fixture is missing H0 field %#x", offset)
+			t.Fatalf("historical expanded fixture is missing H0 field %#x", offset)
 		}
-		if fixtureField.Source != currentField.Source || fixtureField.Replacement != currentField.Replacement {
-			t.Fatalf("historical fixture field %#x diverges from H0 field: current=%+v fixture=%+v", offset, currentField, fixtureField)
+		if fullField.Source != h0Field.Source || fullField.Replacement != h0Field.Replacement {
+			t.Fatalf("historical expanded fixture field %#x diverges from H0: h0=%+v expanded=%+v", offset, h0Field, fullField)
+		}
+		currentField, ok := current[offset]
+		if !ok {
+			t.Fatalf("current production EBOOT lost established H0 field %#x", offset)
+		}
+		if currentField.Source != h0Field.Source || currentField.Replacement != h0Field.Replacement {
+			t.Fatalf("current production EBOOT field %#x diverges from established H0 field", offset)
 		}
 	}
 }
