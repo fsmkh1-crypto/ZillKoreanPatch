@@ -41,3 +41,30 @@ func TestMissingKoreanMappingFailsClosed(t *testing.T) {
 		t.Fatal("expected unmapped Hangul to fail")
 	}
 }
+
+func TestRendererRuneNormalizesUnsupportedPunctuation(t *testing.T) {
+	if got := RendererRune('~'); got != '～' {
+		t.Fatalf("tilde renderer alias = %q, want full-width wave", got)
+	}
+	if got := RendererRune('‘'); got != '\'' {
+		t.Fatalf("left quote renderer alias = %q, want apostrophe", got)
+	}
+	if got := RendererRune('A'); got != 'A' {
+		t.Fatalf("ordinary renderer rune changed: %q", got)
+	}
+}
+
+func TestEncodeUsesRendererPunctuationAliases(t *testing.T) {
+	got, err := Encode("~‘", nil)
+	if err != nil {
+		t.Fatal(err)
+	}
+	wave, err := cp932.Encode("～")
+	if err != nil {
+		t.Fatal(err)
+	}
+	want := append(append([]byte(nil), wave...), byte('\''))
+	if !reflect.DeepEqual(got, want) {
+		t.Fatalf("alias bytes = % X, want % X", got, want)
+	}
+}
