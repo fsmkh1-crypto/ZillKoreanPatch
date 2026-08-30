@@ -31,6 +31,7 @@ jobs:
       - run: python3 tools/korean/check-project-premise.py
       - run: python3 tools/korean/audit-english-first-full-parity.py
       - run: python3 tools/korean/audit-english-first-entrypoint-closure.py
+      - run: python3 tools/korean/audit-english-first-param-sfo.py
       - run: go test ./...
       - run: go vet ./...
       - run: python3 -m py_compile tools/korean/*.py
