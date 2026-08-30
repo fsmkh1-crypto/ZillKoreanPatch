@@ -89,6 +89,10 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 	if err != nil { return err }
 	fmt.Printf("FORENSIC KOREAN_ENGLISH_CONTRACT_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true mobile=true\n", derivedEnglish)
 
+	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return err }
+	fmt.Printf("FORENSIC KOREAN_ENGLISH_VISUAL_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true mobile=true\n", derivedVisual)
+
 	layouts, derivedScanner, err := engine.DeriveKoreanC22RetailScannerLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return err }
 	fmt.Printf("FORENSIC KOREAN_C22_SCANNER_DERIVED_LAYOUTS count=%d threshold=0x100 semantic_source_unchanged=true mobile=true\n", derivedScanner)
