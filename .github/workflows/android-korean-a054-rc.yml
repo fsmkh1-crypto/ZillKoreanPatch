@@ -114,7 +114,7 @@ jobs:
           grep -q 'canonical=42016 checked=42016' a054-full-corpus-audit.txt
           grep -q 'exact_gate=CompileBankKorean' a054-full-corpus-audit.txt
 
-      - name: Full Korean English-consumer storage census
+      - name: Full Korean English-consumer storage and visual census
         shell: bash
         run: |
           set -euxo pipefail
@@ -123,6 +123,7 @@ jobs:
             -count=1 -v | tee consumer-storage-full-corpus-audit.txt
           grep -q 'canonical=42016 checked=42016' consumer-storage-full-corpus-audit.txt
           grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
+          grep -q 'visual=PASS' consumer-storage-full-corpus-audit.txt
           grep -q 'exact_asset_gate=CompileBankKorean' consumer-storage-full-corpus-audit.txt
 
       - name: Android unit tests
@@ -160,6 +161,7 @@ jobs:
           grep -q 'canonical=42016 checked=42016' a054-full-corpus-audit.txt
           grep -q 'canonical=42016 checked=42016' consumer-storage-full-corpus-audit.txt
           grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
+          grep -q 'visual=PASS' consumer-storage-full-corpus-audit.txt
           sha256sum "$APK" | tee "$APK.sha256"
 
       - uses: actions/upload-artifact@v4
