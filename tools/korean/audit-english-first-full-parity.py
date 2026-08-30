@@ -36,6 +36,7 @@ korean_fixeddata = read("internal/fixeddata/korean_eboot.go")
 equipment_fixeddata = read("internal/fixeddata/equipment.go")
 desktop_plan = read("cmd/zill/build_korean.go")
 mobile_plan = read("cmd/zill/build_korean_mobile_plan.go")
+zill_main = read("cmd/zill/main.go")
 slot_plan = read("internal/koreanslots/plan.go")
 paa = read("internal/gamefmt/paa/paa.go")
 disc = read("internal/release/disc.go")
@@ -46,6 +47,7 @@ premise = read("AGENTS.md")
 android_activity = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/MainActivity.java")
 android_payload_integrity = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/ProjectAssetIntegrity.java")
 android_application = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/PayloadRepairApplication.java")
+android_manifest = read("android-patcher/app/src/main/AndroidManifest.xml")
 android_workflow = read(".github/workflows/android-korean-a054-rc.yml")
 
 require("NON-NEGOTIABLE PROJECT PREMISE" in premise and "ENGLISH PATCH FIRST" in premise,
@@ -104,10 +106,6 @@ for digest in english_font_hashes:
             "Korean font path no longer pins upstream English retail source fingerprint " + digest)
 require("prepareKoreanMobileFontReplacements" in mobile_build,
         "mobile Korean build no longer reaches the authenticated font path")
-# English has a frozen result_sha256 for each complete font member. Korean's
-# corpus-derived mapping cannot have one static result hash, so its verifier must
-# enforce an exact mutation surface: only atlas image payloads and modeled PAF
-# geometry/metric fields may differ from authenticated retail bytes.
 for anchor in (
     "verifyFullRepackContainerMutationSurface(retailAtlas, retailPAF, patchedAtlas, patchedPAF)",
     "changed immutable atlas/container byte",
@@ -130,10 +128,6 @@ require("patchedELFSHA256" in korean_fixeddata,
 require("elfpatch.VerifyApplied(result, manifest)" in korean_fixed,
         "Korean fixed EBOOT overlay lost executable manifest postcondition verification")
 
-# Fixed EBOOT strings are an engine-invariant fixed-width surface even though
-# English uses a complete 557-field table and Korean intentionally uses a sparse
-# reviewed overlay. Korean may differ in coverage, but not in source guarding,
-# NUL termination, byte capacity, range, overlap, or clear-then-copy semantics.
 for anchor in (
     "sha256.Sum256(source) != patchedELFSHA256",
     "len(encoded) > len(expected)",
@@ -148,11 +142,6 @@ require("KoreanEBOOTTranslations is a sparse Korean overlay" in korean_fixeddata
 require((ROOT / "release/korean/strings/eboot.toml").is_file(),
         "Korean sparse fixed-EBOOT translation source disappeared")
 
-# BINDATA equipment translation itself is English content policy today: Korean
-# has no equipment translation table and therefore must leave the retail member
-# unchanged. The authenticated blob still owns renderer keys, so both Korean
-# planners must validate the known 132-record layout and feed exact BINDATA bytes
-# into BuildPlan before any custom slot can be allocated.
 for anchor in (
     "sha256.Sum256(source) != bindataSHA256",
     "equipmentRecordCount = 132",
@@ -173,10 +162,6 @@ for label, text in (("desktop Korean planner", desktop_plan), ("mobile Korean pl
     require("boot, eboot, bindata" in text,
             f"{label} stopped feeding authenticated bindata.dat into exact-byte slot allocation")
 
-# Slot reuse is Korean-only, so it must be at least as conservative as the
-# project-owned production BuildPlan contract: exact two-byte references in
-# authenticated BOOT/EBOOT/bindata blobs are excluded before allocation, not
-# merely reported afterwards.
 require("ExcludeExactByteReferences" in slot_plan,
         "production slot planner lost exact-byte ownership exclusion")
 require("koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)" in mobile_plan,
@@ -184,11 +169,6 @@ require("koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), 
 require("finalAudit.CandidateHits != 0" in mobile_plan and "finalAudit.MappedHits" in mobile_plan,
         "mobile slot planner no longer fails closed on post-allocation exact-byte collisions")
 
-# Archive rebuilding and final ISO authoring are shared English/Korean engine
-# boundaries. The shared PAA implementation must reject duplicate member
-# replacements, reopen the rebuilt pair, and compare every member payload. Both
-# Korean release paths must then use the same ISO authoring helper as English,
-# which reopens the ISO and compares every staged PSP_GAME file byte-for-byte.
 for anchor in (
     "member %d is selected by more than one replacement",
     "verifyRebuilt(p, indexTempPath, archiveTempPath, rebuiltIndex, resolved)",
@@ -212,10 +192,15 @@ for anchor in (
     require(anchor in disc, "shared ISO authoring lost staged-PSP_GAME provenance contract: " + anchor)
 
 # Android is an additional transport boundary after the shared verified ISO
-# authoring path. The APK must package one content-addressed zillroot payload,
-# verify that manifest after APK packaging and again after extraction to app
-# private storage, and compare the final user-selected output URI against the
-# verified temporary ISO before reporting success.
+# authoring path. Production routing is fixed to MainActivity -> build-korean-iso
+# -> runBuildKoreanISO -> Build/PreflightKoreanAlphaISOOnly. Freeze tracing is a
+# forensic utility and must not become an alternate patch launcher.
+require('android:name=".MainActivity"' in android_manifest and
+        '<category android:name="android.intent.category.LAUNCHER" />' in android_manifest,
+        "Android production launcher no longer routes through MainActivity")
+require('case "build-korean-iso":' in zill_main and
+        'return runBuildKoreanISO(root, args[1:], stdout, stderr)' in zill_main,
+        "zill command dispatch no longer routes build-korean-iso through the audited mobile command")
 for anchor in (
     "python3 tools/korean/audit-english-first-full-parity.py",
     "payload-manifest.sha256",
@@ -257,4 +242,5 @@ print("bindata_equipment=english_translated_korean_retail_by_design_authenticate
 print("slot_ownership=authenticated_exact_byte_fail_closed")
 print("archive_rebuild=shared_duplicate_reject_and_exact_payload_verify")
 print("iso_provenance=shared_staged_psp_game_exact_verify")
+print("android_route=mainactivity_to_build_korean_iso_only")
 print("android_provenance=manifest_verified_cache_and_exported_iso_sha256_length_verified")
