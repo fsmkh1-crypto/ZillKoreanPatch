@@ -51,3 +51,18 @@ func TestWrapKoreanStoragePreservesRuntimeControlAdjacency(t *testing.T) {
 		t.Fatalf("control-aware wrapper changed semantic/control topology: %q", got)
 	}
 }
+
+func TestWrapKoreanStorageRepairsInheritedC5ValueBoundary(t *testing.T) {
+	semantic := strings.Repeat("가", 18) + "<value:$15>여기는이어지는문장입니다<end>"
+	inherited := strings.Repeat("가", 18) + "<value:$15><line-break>여기는이어지는문장입니다<end>"
+	got := wrapKoreanStoragePreservingControlAdjacency(inherited)
+	if strings.Contains(got, "<value:$15><line-break>") {
+		t.Fatalf("inherited C5 boundary survived beside runtime value control: %q", got)
+	}
+	if !strings.Contains(got, "<value:$15>여") {
+		t.Fatalf("runtime control adjacency was not restored: %q", got)
+	}
+	if !message.PreservesLayoutSemantics(semantic, got) {
+		t.Fatalf("repaired inherited projection does not preserve canonical semantics: %q", got)
+	}
+}
