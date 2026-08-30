@@ -24,6 +24,7 @@ korean_c5 = read("internal/layout/validate_korean.go")
 english_compile = read("internal/message/compile.go")
 korean_compile = read("internal/message/compile_korean.go")
 korean_materialize = read("internal/message/korean_materialize.go")
+english_release = read("internal/release/build.go")
 release_build = read("internal/release/korean_build.go")
 mobile_build = read("internal/release/korean_mobile.go")
 mobile_preflight = read("internal/release/korean_mobile_preflight.go")
@@ -32,6 +33,8 @@ korean_fixed = read("internal/release/korean_fixed.go")
 korean_fixeddata = read("internal/fixeddata/korean_eboot.go")
 mobile_plan = read("cmd/zill/build_korean_mobile_plan.go")
 slot_plan = read("internal/koreanslots/plan.go")
+paa = read("internal/gamefmt/paa/paa.go")
+disc = read("internal/release/disc.go")
 english_font_manifest = read("release/font/manifest.toml")
 executable_manifest = read("patches/executable/manifest.toml")
 rules = read("internal/layout/rules.go")
@@ -104,9 +107,9 @@ require(manifest_source is not None and manifest_result is not None,
 for anchor in ("elfpatch.Apply(source, manifest)", "applyKoreanFixedEBOOT(root, patched, mapping)"):
     require(anchor in release_build, "Korean executable build drifted from shared manifest chain: " + anchor)
 require("patchedELFSHA256" in korean_fixeddata,
-        "Korean fixed-string compiler no longer authenticates the manifest-patched ELF")
+        "Korean fixed EBOOT overlay lost patched-ELF fingerprint authentication")
 require("elfpatch.VerifyApplied(result, manifest)" in korean_fixed,
-        "Korean fixed EBOOT overlay no longer re-verifies executable patch spans")
+        "Korean fixed EBOOT overlay lost executable manifest postcondition verification")
 
 # Slot reuse is Korean-only, so it must be at least as conservative as the
 # project-owned production BuildPlan contract: exact two-byte references in
@@ -119,6 +122,33 @@ require("koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), 
 require("finalAudit.CandidateHits != 0" in mobile_plan and "finalAudit.MappedHits" in mobile_plan,
         "mobile slot planner no longer fails closed on post-allocation exact-byte collisions")
 
+# Archive rebuilding and final ISO authoring are shared English/Korean engine
+# boundaries. The shared PAA implementation must reject duplicate member
+# replacements, reopen the rebuilt pair, and compare every member payload. Both
+# Korean release paths must then use the same ISO authoring helper as English,
+# which reopens the ISO and compares every staged PSP_GAME file byte-for-byte.
+for anchor in (
+    "member %d is selected by more than one replacement",
+    "verifyRebuilt(p, indexTempPath, archiveTempPath, rebuiltIndex, resolved)",
+    "rebuilt member %d %q payload differs",
+):
+    require(anchor in paa, "shared PAA rebuild lost fail-closed archive contract: " + anchor)
+for label, text in (
+    ("English release", english_release),
+    ("desktop Korean release", release_build),
+    ("mobile Korean ISO", mobile_build),
+):
+    require("archive.pair.Rebuild(" in text,
+            f"{label} no longer rebuilds archives through the shared verified PAA path")
+    require("authorTranslatedISO(" in text,
+            f"{label} no longer authors ISO through the shared provenance path")
+for anchor in (
+    "verifyAuthoredPSPGame(outputPath, gameDir)",
+    "compareExactReaders(got, want)",
+    "FORENSIC ISO_PSP_GAME_PROVENANCE",
+):
+    require(anchor in disc, "shared ISO authoring lost staged-PSP_GAME provenance contract: " + anchor)
+
 print("ENGLISH_FIRST_PARITY_PASS")
 print("english_consumers=" + ",".join(sorted(english_consumers)))
 print("korean_direct_consumers=" + ",".join(sorted(korean_consumers)))
@@ -128,3 +158,5 @@ print("release_entrypoints=desktop,mobile,preflight")
 print("font_source_fingerprints=english_manifest_exact")
 print("executable_manifest_chain=shared_and_postverified")
 print("slot_ownership=authenticated_exact_byte_fail_closed")
+print("archive_rebuild=shared_duplicate_reject_and_exact_payload_verify")
+print("iso_provenance=shared_staged_psp_game_exact_verify")
