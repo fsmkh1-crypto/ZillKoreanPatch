@@ -42,7 +42,7 @@ func (e *Engine) DeriveKoreanEnglishConsumerLayouts(source *corpus.Project, kore
 		if why == "" {
 			continue
 		}
-		candidate := wrapKoreanC5Storage(effective)
+		candidate := wrapKoreanStoragePreservingControlAdjacency(effective)
 		if !message.PreservesLayoutSemantics(row.Korean, candidate) {
 			return nil, 0, fmt.Errorf("message %d C22 derived layout changes semantic/control text", row.ID)
 		}
