@@ -9,7 +9,10 @@ public final class PayloadRepairApplication extends Application {
     public void onCreate() {
         super.onCreate();
         File root = new File(getFilesDir(), "zillroot-beta-current");
-        if (root.exists() && !ProjectAssetIntegrity.isComplete(root)) {
+        if (!root.exists()) return;
+        try {
+            ProjectAssetIntegrity.verifyPayload(root);
+        } catch (Exception invalidPayload) {
             deleteRecursively(root);
         }
     }
