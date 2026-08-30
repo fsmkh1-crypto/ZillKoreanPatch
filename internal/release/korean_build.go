@@ -63,43 +63,10 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	fmt.Printf("Korean beta projection: canonical=%d materializable=%d structural_retail=%d\n",
 		len(canonicalKorean.Entries), len(korean.Entries), skippedStructural)
 
-	layouts := make(map[int]string)
-	for _, row := range korean.Entries {
-		if row.Layout != "" { layouts[row.ID] = row.Layout }
-	}
-	engine, err := loadLayout(root)
+	contract, err := runKoreanEnglishContractChain(root, "desktop", source, korean, plan.Mapping)
 	if err != nil { return result, err }
-
-	// Upstream English is the storage/visual contract authority. Korean keeps
-	// canonical semantic text and derives only build-local layout needed to fit
-	// the same fixed consumers and character-profile boxes.
-	layouts, derivedEnglish, err := engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, plan.Mapping)
-	if err != nil { return result, err }
-	fmt.Printf("KOREAN_UPSTREAM_ENGLISH_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedEnglish)
-
-	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, plan.Mapping)
-	if err != nil { return result, err }
-	fmt.Printf("FORENSIC KOREAN_ENGLISH_VISUAL_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true desktop=true\n", derivedVisual)
-
-	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
-	if err != nil { return result, err }
-	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedC5)
-
-	// A-054 remains an additional C22-specific hardening layer, not a universal
-	// message rule. The English consumer contract is primary; this scanner check
-	// only guards the separately observed 0x100 captured-run failure mechanism.
-	layouts, derivedScanner, err := engine.DeriveKoreanC22RetailScannerLayouts(source, korean, layouts, plan.Mapping)
-	if err != nil { return result, err }
-	fmt.Printf("FORENSIC KOREAN_C22_SCANNER_DERIVED_LAYOUTS count=%d threshold=0x100 semantic_source_unchanged=true\n", derivedScanner)
-
-	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, plan.Mapping); err != nil {
-		return result, err
-	}
-	fmt.Printf("Korean upstream English consumer storage contracts: PASS\n")
-
-	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
-	if err != nil { return result, err }
-	fmt.Printf("Korean C5 static storage check: no violation detected; %d dynamic-substitution record(s) remain runtime-QA risks.\n", len(dynamicC5))
+	layouts := contract.Layouts
+	engine := contract.Engine
 
 	knownPages, err := engine.KoreanC5KnownExpansionPages(source, korean, layouts, plan.Mapping)
 	if err != nil { return result, err }
