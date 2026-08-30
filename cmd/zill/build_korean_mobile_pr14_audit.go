@@ -22,10 +22,9 @@ import (
 // runtime projection and one authenticated retail asset set. It is diagnostic
 // only: resulting plans are never returned to the production builder.
 //
-// The canonical corpus and runtime-materializable projection are intentionally
-// reported separately. Structural/no-text accepted rows remain in canonical
-// Korean but are not compiled into message banks, so calling the projection
-// count a canonical/current-corpus count would be misleading.
+// Historical EBOOT policy inputs are immutable fixtures. In particular H0 must
+// not silently grow when the production Korean fixed-string overlay gains new
+// reviewed U1/U2/U3 translations.
 func auditPR14HistoricalPolicies(root, gameDir string, source *corpus.Project, korean *corpus.KoreanProject) error {
 	if source == nil || korean == nil {
 		return fmt.Errorf("PR14 policy audit: nil bound source or Korean project")
@@ -65,14 +64,20 @@ func auditPR14HistoricalPolicies(root, gameDir string, source *corpus.Project, k
 
 	messageTexts, err := korean.RuntimeTexts(source)
 	if err != nil { return err }
-	h0Data, err := os.ReadFile(filepath.Join(root, "release", "korean", "strings", "eboot.toml"))
-	if err != nil { return fmt.Errorf("PR14 policy audit read H0 EBOOT table: %w", err) }
+
+	// Historical H0 and expanded PR14 fixed-string inputs are frozen fixtures.
+	h0Data, err := os.ReadFile(filepath.Join(root, "docs", "audit", "fixtures", "pr14-eboot-h0.toml"))
+	if err != nil { return fmt.Errorf("PR14 policy audit read historical H0 EBOOT fixture: %w", err) }
 	h0Fixed, err := fixeddata.ParseKoreanEBOOT(h0Data)
-	if err != nil { return fmt.Errorf("PR14 policy audit parse H0 EBOOT table: %w", err) }
+	if err != nil { return fmt.Errorf("PR14 policy audit parse historical H0 EBOOT fixture: %w", err) }
 	fullData, err := os.ReadFile(filepath.Join(root, "docs", "audit", "fixtures", "pr14-eboot-full.toml"))
 	if err != nil { return fmt.Errorf("PR14 policy audit read expanded EBOOT fixture: %w", err) }
 	fullFixed, err := fixeddata.ParseKoreanEBOOT(fullData)
 	if err != nil { return fmt.Errorf("PR14 policy audit parse expanded EBOOT fixture: %w", err) }
+	currentData, err := os.ReadFile(filepath.Join(root, "release", "korean", "strings", "eboot.toml"))
+	if err != nil { return fmt.Errorf("PR14 policy audit read current production EBOOT table: %w", err) }
+	currentFixed, err := fixeddata.ParseKoreanEBOOT(currentData)
+	if err != nil { return fmt.Errorf("PR14 policy audit parse current production EBOOT table: %w", err) }
 
 	h0Texts := append([]string(nil), messageTexts...)
 	h0Texts = append(h0Texts, fixeddata.KoreanEBOOTTexts(h0Fixed)...)
@@ -94,8 +99,6 @@ func auditPR14HistoricalPolicies(root, gameDir string, source *corpus.Project, k
 	if err != nil { return fmt.Errorf("PR14 policy audit Combined plan: %w", err) }
 	stablePlan, stableRelocated, stableErr := replayStableMinimalPlan(h0Plan, fullTexts)
 	if stableErr != nil {
-		// Historical Stable-minimal did build. If today's runtime projection makes
-		// the old policy impossible, report drift rather than failing production.
 		fmt.Printf("FORENSIC PR14_POLICY name=Stable-minimal replay_available=false reason=%q current_runtime_projection_replay=true\n", stableErr.Error())
 	}
 
@@ -104,8 +107,8 @@ func auditPR14HistoricalPolicies(root, gameDir string, source *corpus.Project, k
 		{Name: "EBOOT.BIN", Data: retailEBOOT},
 		{Name: "bindata.dat", Data: bindata},
 	}
-	fmt.Printf("FORENSIC PR14_POLICY_MATRIX current_runtime_projection_replay=true canonical_entries=%d materializable_entries=%d structural_retail=%d source_records=%d h0_eboot_fields=%d expanded_eboot_fields=%d installed=%d han_installed=%d\n",
-		len(canonical.Entries), len(korean.Entries), len(canonical.Entries)-len(korean.Entries), len(source.Items), len(h0Fixed), len(fullFixed), len(installed), len(hanInstalled))
+	fmt.Printf("FORENSIC PR14_POLICY_MATRIX current_runtime_projection_replay=true canonical_entries=%d materializable_entries=%d structural_retail=%d source_records=%d h0_eboot_fields=%d expanded_eboot_fields=%d current_production_eboot_fields=%d installed=%d han_installed=%d\n",
+		len(canonical.Entries), len(korean.Entries), len(canonical.Entries)-len(korean.Entries), len(source.Items), len(h0Fixed), len(fullFixed), len(currentFixed), len(installed), len(hanInstalled))
 
 	rows := []struct {
 		name string
