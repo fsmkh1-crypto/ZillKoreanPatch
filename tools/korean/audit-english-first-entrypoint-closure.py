@@ -26,46 +26,54 @@ zill_main = read("cmd/zill/main.go")
 manifest_path = ROOT / "android-patcher/app/src/main/AndroidManifest.xml"
 manifest_text = manifest_path.read_text(encoding="utf-8")
 
-# Both planners must authenticate the same engine-owned blobs and hand those
-# exact bytes to BuildPlan. Literal CP932 scans are only supplementary evidence;
-# exact-byte exclusion is the production ownership boundary.
+# Both planners must authenticate the same engine-owned sources. Renderer-slot
+# reservations, however, must be derived only from structured evidence that the
+# engine interprets as text: fixed strings and CP932 literal scans. Arbitrary
+# two-byte aliases in machine code/binary data are not renderer ownership.
 for label, text in (("desktop", desktop), ("mobile", mobile)):
     for anchor in (
         "loadAuthenticatedRetailBOOT(gameDir)",
         "loadAuthenticatedRetailEBOOT(gameDir)",
         "loadRetailBindata(gameDir)",
         "fixeddata.ApplyEquipment(bindata, equipment)",
-        "boot, eboot, bindata",
+        "slotaudit.ScanCP932Literals(boot)",
+        "slotaudit.ScanCP932Literals(bindata)",
+        "mergeRendererKeys(reserved, bootScan.Keys)",
+        "mergeRendererKeys(reserved, bindataScan.Keys)",
     ):
-        require(anchor in text, f"{label} planner lost authenticated ownership input: {anchor}")
+        require(anchor in text, f"{label} planner lost structured renderer ownership input: {anchor}")
 
 require(
-    "koreanslots.BuildPlan(texts, font.KoreanCompatibleKeys(), rendererKeySetSlice(reserved), boot, eboot, bindata)"
+    "koreanslots.BuildPlan(texts, font.KoreanCompatibleKeys(), rendererKeySetSlice(reserved))"
     in desktop,
-    "desktop planner no longer gives authenticated BOOT/EBOOT/BINDATA bytes to BuildPlan",
+    "desktop planner no longer allocates from structured renderer reservations",
 )
 require(
-    "koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)"
+    "koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))"
     in mobile,
-    "mobile planner no longer gives authenticated BOOT/EBOOT/BINDATA bytes to BuildPlan",
+    "mobile planner no longer allocates from structured renderer reservations",
+)
+require(
+    "BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)" not in mobile,
+    "mobile planner regressed to whole-blob exact-byte exclusion",
 )
 
 # Desktop is the older atlas-only path: it must stay on geometry-compatible
 # slots and must not mutate the chosen mapping after BuildPlan. Mobile performs
-# a full atlas+PAF repack and may relocate private 0x87 keys, but therefore must
-# re-audit exact-byte ownership after that mutation.
+# a full atlas+PAF repack and may relocate private 0x87 keys. Whole-blob exact
+# byte scans after allocation are retained as telemetry only, never a hard gate.
 require("font.KoreanCompatibleKeys()" in desktop,
         "desktop atlas-only planner lost geometry-compatible slot restriction")
 require("plan.Mapping =" not in desktop,
-        "desktop planner now mutates mapping after exact-byte ownership audit; add an explicit post-mutation audit")
+        "desktop planner unexpectedly mutates mapping after allocation")
 require("installed := font.DoubleByteKeys()" in mobile,
         "mobile full-repack planner lost explicit double-byte slot universe")
 require("plan.Mapping = mapping" in mobile,
-        "mobile private-key relocation disappeared; reclassify the post-mutation audit requirement")
-require("finalAudit, err := auditMobileExactByteReuse(plan, blobs...)" in mobile,
-        "mobile planner mutates mapping without final authenticated exact-byte audit")
-require("finalAudit.CandidateHits != 0 || len(finalAudit.MappedHits) != 0" in mobile,
-        "mobile final exact-byte audit no longer fails closed")
+        "mobile private-key relocation disappeared; reclassify mapping policy")
+require('printMobileSlotAudit("final-diagnostic-only"' in mobile,
+        "mobile whole-blob collision telemetry disappeared; reclassify evidence boundary")
+require("finalAudit.CandidateHits != 0 || len(finalAudit.MappedHits) != 0" not in mobile,
+        "mobile whole-blob byte aliases became a release-blocking ownership rule again")
 
 # Command routing must have exactly one production mobile build route and one
 # preflight route, both using the bound mobile planner and the release package
@@ -114,7 +122,7 @@ require(".FreezeCaptureActivity" in manifest_text,
         "manifest text unexpectedly lost forensic activity declaration")
 
 print("ENTRYPOINT_PARITY_PASS")
-print("desktop_slot_ownership=authenticated_exact_bytes_no_post_buildplan_mutation")
-print("mobile_slot_ownership=authenticated_exact_bytes_post_relocation_reaudited")
+print("desktop_slot_ownership=structured_cp932_and_fixed_renderer_evidence")
+print("mobile_slot_ownership=structured_cp932_and_fixed_renderer_evidence_post_relocation_whole_blob_diagnostic_only")
 print("mobile_command=bound_planner_to_preflight_or_iso_only_release")
 print("android_launcher=mainactivity_only_freeze_capture_nonexported")
