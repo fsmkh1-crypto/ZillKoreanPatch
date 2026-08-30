@@ -23,13 +23,17 @@ desktop = read("cmd/zill/build_korean.go")
 mobile = read("cmd/zill/build_korean_mobile_plan.go")
 mobile_command = read("cmd/zill/build_korean_iso.go")
 zill_main = read("cmd/zill/main.go")
+release_desktop = read("internal/release/korean_build.go")
+release_mobile = read("internal/release/korean_mobile.go")
+release_preflight = read("internal/release/korean_mobile_preflight.go")
+contract_chain = read("internal/release/korean_contract_chain.go")
+slot_plan = read("internal/koreanslots/plan.go")
 manifest_path = ROOT / "android-patcher/app/src/main/AndroidManifest.xml"
 manifest_text = manifest_path.read_text(encoding="utf-8")
 
 # Both planners must authenticate the same engine-owned sources. Renderer-slot
-# reservations, however, must be derived only from structured evidence that the
-# engine interprets as text: fixed strings and CP932 literal scans. Arbitrary
-# two-byte aliases in machine code/binary data are not renderer ownership.
+# reservations may come only from structured evidence the engine interprets as
+# text: fixed strings and CP932 literal scans, never arbitrary whole-blob pairs.
 for label, text in (("desktop", desktop), ("mobile", mobile)):
     for anchor in (
         "loadAuthenticatedRetailBOOT(gameDir)",
@@ -44,24 +48,22 @@ for label, text in (("desktop", desktop), ("mobile", mobile)):
         require(anchor in text, f"{label} planner lost structured renderer ownership input: {anchor}")
 
 require(
-    "koreanslots.BuildPlan(texts, font.KoreanCompatibleKeys(), rendererKeySetSlice(reserved))"
-    in desktop,
+    "koreanslots.BuildPlan(texts, font.KoreanCompatibleKeys(), rendererKeySetSlice(reserved))" in desktop,
     "desktop planner no longer allocates from structured renderer reservations",
 )
 require(
-    "koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))"
-    in mobile,
+    "koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))" in mobile,
     "mobile planner no longer allocates from structured renderer reservations",
 )
-require(
-    "BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)" not in mobile,
-    "mobile planner regressed to whole-blob exact-byte exclusion",
-)
+require("authenticatedBlobs ...[]byte" not in slot_plan,
+        "shared slot planner API again accepts arbitrary whole-blob ownership evidence")
+require("ExcludeExactByteReferences" not in slot_plan,
+        "shared slot planner again performs whole-blob exact-byte exclusion")
 
 # Desktop is the older atlas-only path: it must stay on geometry-compatible
 # slots and must not mutate the chosen mapping after BuildPlan. Mobile performs
 # a full atlas+PAF repack and may relocate private 0x87 keys. Whole-blob exact
-# byte scans after allocation are retained as telemetry only, never a hard gate.
+# byte scans after allocation are telemetry only, never a hard gate.
 require("font.KoreanCompatibleKeys()" in desktop,
         "desktop atlas-only planner lost geometry-compatible slot restriction")
 require("plan.Mapping =" not in desktop,
@@ -75,9 +77,37 @@ require('printMobileSlotAudit("final-diagnostic-only"' in mobile,
 require("finalAudit.CandidateHits != 0 || len(finalAudit.MappedHits) != 0" not in mobile,
         "mobile whole-blob byte aliases became a release-blocking ownership rule again")
 
+# All production release entry points must call one shared English-first chain.
+# The helper owns ordering, hard storage/visual validation, warning parity and C5
+# validation so adding a gate to one path cannot leave another path stale.
+for label, text, call in (
+    ("desktop", release_desktop, 'runKoreanEnglishContractChain(root, "desktop", source, korean, plan.Mapping)'),
+    ("mobile", release_mobile, 'runKoreanEnglishContractChain(root, "mobile", source, korean, plan.Mapping)'),
+    ("preflight", release_preflight, 'runKoreanEnglishContractChain(root, "preflight", source, korean, plan.Mapping)'),
+):
+    require(call in text, f"{label} release bypasses shared English-first contract chain")
+    require("DeriveKoreanC5StorageLayouts(" not in text,
+            f"{label} release duplicated C5 derivation outside shared chain")
+    require("DeriveKoreanEnglishConsumerLayouts(" not in text,
+            f"{label} release duplicated consumer derivation outside shared chain")
+    require("DeriveKoreanEnglishVisualLayouts(" not in text,
+            f"{label} release duplicated visual derivation outside shared chain")
+    require("ValidateKoreanEnglishConsumerContracts(" not in text,
+            f"{label} release duplicated hard contract validation outside shared chain")
+
+for anchor in (
+    "DeriveKoreanC5StorageLayouts(",
+    "DeriveKoreanEnglishConsumerLayouts(",
+    "DeriveKoreanEnglishVisualLayouts(",
+    "DeriveKoreanC22RetailScannerLayouts(",
+    "ValidateKoreanEnglishConsumerContracts(",
+    "AuditKoreanEnglishVisualWarnings(",
+    "validateKoreanRuntimeStorage(",
+):
+    require(anchor in contract_chain, f"shared Korean contract chain lost required stage: {anchor}")
+
 # Command routing must have exactly one production mobile build route and one
-# preflight route, both using the bound mobile planner and the release package
-# whose English-first gates are audited separately.
+# preflight route, both using the bound mobile planner and release package.
 require('case "build-korean":' in zill_main and
         'return runBuildKorean(root, args[1:], stdout, stderr)' in zill_main,
         "desktop build command no longer routes through audited runBuildKorean")
@@ -124,5 +154,6 @@ require(".FreezeCaptureActivity" in manifest_text,
 print("ENTRYPOINT_PARITY_PASS")
 print("desktop_slot_ownership=structured_cp932_and_fixed_renderer_evidence")
 print("mobile_slot_ownership=structured_cp932_and_fixed_renderer_evidence_post_relocation_whole_blob_diagnostic_only")
+print("release_contract_chain=shared_desktop_mobile_preflight_storage_visual_warnings_c5")
 print("mobile_command=bound_planner_to_preflight_or_iso_only_release")
 print("android_launcher=mainactivity_only_freeze_capture_nonexported")
