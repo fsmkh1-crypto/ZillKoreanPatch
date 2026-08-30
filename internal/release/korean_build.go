@@ -70,13 +70,16 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	engine, err := loadLayout(root)
 	if err != nil { return result, err }
 
-	// Upstream English is the storage-contract authority. English already needs
-	// explicit consumer limits despite simpler single-byte text, so Korean must
-	// not relax them. Apply the same C22 line/page/total rules first using actual
-	// Korean renderer bytes; only build-owned layout may be changed automatically.
+	// Upstream English is the storage/visual contract authority. Korean keeps
+	// canonical semantic text and derives only build-local layout needed to fit
+	// the same fixed consumers and character-profile boxes.
 	layouts, derivedEnglish, err := engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return result, err }
 	fmt.Printf("KOREAN_UPSTREAM_ENGLISH_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedEnglish)
+
+	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return result, err }
+	fmt.Printf("FORENSIC KOREAN_ENGLISH_VISUAL_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true desktop=true\n", derivedVisual)
 
 	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return result, err }
@@ -89,36 +92,22 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	if err != nil { return result, err }
 	fmt.Printf("FORENSIC KOREAN_C22_SCANNER_DERIVED_LAYOUTS count=%d threshold=0x100 semantic_source_unchanged=true\n", derivedScanner)
 
-	// Enforce the upstream English fixed-buffer/consumer rules with Korean byte
-	// measurement before compiling any bank. C5 uses its exact branch-local
-	// validator immediately afterwards.
 	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, plan.Mapping); err != nil {
 		return result, err
 	}
 	fmt.Printf("Korean upstream English consumer storage contracts: PASS\n")
 
 	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
-	if err != nil {
-		return result, err
-	}
+	if err != nil { return result, err }
 	fmt.Printf("Korean C5 static storage check: no violation detected; %d dynamic-substitution record(s) remain runtime-QA risks.\n", len(dynamicC5))
 
-	// Forensic only: add no guessed substitution sizes. The only dynamic bound
-	// applied here is <value:$28> = 16 encoded bytes, already established by the
-	// supported game's player-name/chronicle contract. This report deliberately
-	// does not fail the production build until the C5 runtime staging path is
-	// independently proven to use this same 256-byte destination directly.
 	knownPages, err := engine.KoreanC5KnownExpansionPages(source, korean, layouts, plan.Mapping)
 	if err != nil { return result, err }
 	knownOverflows := 0
 	unknownPages := 0
 	for _, page := range knownPages {
-		if page.UnknownSubstitutions != 0 {
-			unknownPages++
-		}
-		if !page.ExceedsPageBuffer() {
-			continue
-		}
+		if page.UnknownSubstitutions != 0 { unknownPages++ }
+		if !page.ExceedsPageBuffer() { continue }
 		knownOverflows++
 		fmt.Printf("FORENSIC C5_KNOWN_EXPANSION_OVERFLOW id=%d branch=%d page=%d static=%d known_max=%d player_names=%d unknown_substitutions=%d\n",
 			page.MessageID, page.Branch, page.Page, page.StaticBytes, page.KnownMaxBytes, page.PlayerNameCount, page.UnknownSubstitutions)
