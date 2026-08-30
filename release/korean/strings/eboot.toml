@@ -4,6 +4,24 @@
 0x243d28 = { source = "神の手に魂を委ねる", replacement = "신께 영혼을 맡긴다" }
 0x243d3c = { source = "自らの手で魂を示す", replacement = "영혼을 증명한다" }
 
+# U1 — save/load system strings. These stay within the upstream-English fixed
+# EBOOT authority and its exact source field; source bytes, capacity, NUL and
+# overlap are revalidated by the shared Korean fixed-data gate.
+0x2468b0 = { source = "今はセーブを行えません。", replacement = "현재 저장 불가." }
+0x2468cc = { source = "今はロードを行えません。", replacement = "현재 불러오기 불가." }
+0x246c38 = { source = "セーブするファイルを選択", replacement = "저장 파일 선택" }
+0x246df8 = { source = "このままはじめますか？", replacement = "이대로 시작합니까?" }
+0x247424 = { source = "上書きして\r\nよろしいでしょうか？", replacement = "덮어쓸까요?" }
+0x247444 = { source = "セーブしています。\r\n\"PlayStation 2\"専用\r\nメモリーカード(8MB)の抜き差しをしないでください。", replacement = "저장 중입니다.\r\n메모리 카드를 빼지 마세요." }
+0x2474a0 = { source = "上書きしています。\r\n\"PlayStation 2\"専用\r\nメモリーカード(8MB)の抜き差しをしないでください。", replacement = "덮어쓰기 중입니다.\r\n메모리 카드를 빼지 마세요." }
+0x2474fc = { source = "セーブが終了しました。", replacement = "저장이 완료되었습니다." }
+0x247514 = { source = "上書きが終了しました。", replacement = "덮어쓰기 완료." }
+0x24752c = { source = "セーブに失敗しました。\r\n\r\nセーブを中断しますか？", replacement = "저장 실패.\r\n\r\n취소할까요?" }
+0x24755c = { source = "ゲームのデータを\r\n読み込みますか？\r\n\r\n②いいえ　①はい", replacement = "게임 데이터를\r\n불러올까요?\r\n\r\n②아니오 ①예" }
+0x2475ec = { source = "ロードしています。\r\nMEMORY CARD差込口１に差し込まれた\"PlayStation 2\"専用メモリーカード(8MB)の抜き差しをしないでください。", replacement = "불러오는 중입니다.\r\n메모리 카드를 빼지 마세요." }
+0x247668 = { source = "読み込みが終了しました。", replacement = "불러오기 완료." }
+0x247684 = { source = "読み込みに失敗しました。\r\nロードを中断しますか？", replacement = "불러오기 실패.\r\n취소할까요?" }
+
 # U1 — environment/settings calibration and labels. Every replacement is kept
 # within the exact upstream-English fixed-width source field; the shared fixed
 # EBOOT postcondition validates source bytes, terminating NUL and overlap.
