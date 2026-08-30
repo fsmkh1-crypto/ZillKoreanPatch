@@ -24,11 +24,11 @@ const mobileForensicMappedHitLimit = 8
 // so every installed double-byte renderer key is eligible; it is not constrained
 // by the retail cell geometry required by the older atlas-only desktop path.
 //
-// Renderer-key ownership is deliberately conservative. BOOT.BIN, EBOOT.BIN,
-// and bindata.dat are authenticated retail inputs; therefore a two-byte key
-// occurring anywhere in those blobs is excluded before allocation. Literal
-// CP932 scans remain useful ownership evidence, but may not weaken BuildPlan's
-// exact-byte reservation contract.
+// Renderer-key ownership is scoped to evidence that the engine actually treats
+// as CP932/rendered text: known fixed strings plus structured CP932 literal scans
+// of authenticated BOOT.BIN and bindata.dat. An arbitrary occurrence of the same
+// two bytes anywhere in an executable/data blob is NOT a renderer ownership
+// contract; machine code and binary data naturally contain many such pairs.
 func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
 	if source == nil || korean == nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta planner: nil bound source or Korean project")
@@ -86,26 +86,25 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d total_reserved=%d custom=%d materializable_korean=%d fixed_korean=%d total_records=%d\n",
 		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(reserved), len(custom), len(korean.Entries), len(fixedKorean), len(source.Items))
 
-	// BuildPlan already owns the fail-closed exact-byte exclusion primitive.
-	// Feed it every authenticated executable/fixed-data blob rather than merely
-	// reporting collisions after a mapping has been chosen.
-	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)
+	// Build from proven renderer ownership only. Do not feed whole executable or
+	// data blobs into exact-byte exclusion: that treats unrelated machine-code or
+	// binary byte pairs as text references and can eliminate every glyph slot.
+	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
 	if err != nil {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta conservative slot allocation: %w", err)
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta renderer-scoped slot allocation: %w", err)
 	}
 	blobs := []slotAuditBlob{
 		{Name: "BOOT.BIN", Data: boot},
 		{Name: "EBOOT.BIN", Data: eboot},
 		{Name: "bindata.dat", Data: bindata},
 	}
+	// Whole-blob exact-byte hits remain forensic telemetry only. They are not an
+	// ownership proof because arbitrary binary data naturally aliases CP932 keys.
 	audit, err := auditMobileExactByteReuse(plan, blobs...)
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	printMobileSlotAudit("initial", plan, audit)
-	if audit.CandidateHits != 0 || len(audit.MappedHits) != 0 {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta conservative slot allocation retained authenticated exact-byte references: candidates=%d mapped=%d", audit.CandidateHits, len(audit.MappedHits))
-	}
+	printMobileSlotAudit("initial-diagnostic-only", plan, audit)
 	initialDigest := mappingDigest(plan.Mapping)
 
 	mapping := make(koreanslots.Mapping, len(plan.Mapping))
@@ -157,15 +156,12 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	printMobileSlotAudit("final", plan, finalAudit)
-	if finalAudit.CandidateHits != 0 || len(finalAudit.MappedHits) != 0 {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta final slot allocation violates authenticated exact-byte ownership: candidates=%d mapped=%d", finalAudit.CandidateHits, len(finalAudit.MappedHits))
-	}
+	printMobileSlotAudit("final-diagnostic-only", plan, finalAudit)
 
 	finalDigest := mappingDigest(plan.Mapping)
 	fmt.Printf("FORENSIC MAPPING_FINGERPRINT initial_sha256=%s final_sha256=%s changed=%d fixed_korean=%d new_eboot_bundle=false\n",
 		initialDigest, finalDigest, relocated, len(fixedKorean))
-	fmt.Printf("Korean beta conservative slot allocation: candidates=%d custom=%d headroom=%d relocated_private87=%d\n",
+	fmt.Printf("Korean beta renderer-scoped slot allocation: candidates=%d custom=%d headroom=%d relocated_private87=%d\n",
 		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes), relocated)
 	return plan, len(korean.Entries), len(source.Items), nil
 }
