@@ -51,6 +51,93 @@ func authorTranslatedISO(outputPath string, image *pspiso.Image, manifest pspiso
 		_ = os.Remove(outputPath)
 		return fmt.Errorf("close translated ISO: %w", err)
 	}
+
+	// Treat the ISO authoring boundary as a release contract, not an assumption.
+	// PAA.Rebuild already proves each rebuilt archive member equals the exact
+	// replacement payload. Re-open the authored ISO and prove that every staged
+	// PSP_GAME file survived ISO authoring byte-for-byte as well. This closes the
+	// compiler -> rebuilt archive -> staged PSP_GAME -> final ISO provenance chain
+	// for both the English release and every Korean build path using this helper.
+	if err := verifyAuthoredPSPGame(outputPath, gameDir); err != nil {
+		_ = os.Remove(outputPath)
+		return fmt.Errorf("verify authored translated ISO: %w", err)
+	}
+	return nil
+}
+
+func verifyAuthoredPSPGame(isoPath, gameDir string) error {
+	image, err := pspiso.Open(isoPath)
+	if err != nil {
+		return fmt.Errorf("reopen authored ISO: %w", err)
+	}
+	defer image.Close()
+
+	staged := os.DirFS(gameDir)
+	authored := image.PayloadFS()
+	files := 0
+	var bytesChecked int64
+	err = fs.WalkDir(staged, ".", func(name string, entry fs.DirEntry, walkErr error) error {
+		if walkErr != nil {
+			return walkErr
+		}
+		if entry.IsDir() {
+			return nil
+		}
+		info, err := entry.Info()
+		if err != nil {
+			return fmt.Errorf("stat staged PSP_GAME/%s: %w", name, err)
+		}
+		if !info.Mode().IsRegular() {
+			return fmt.Errorf("staged PSP_GAME/%s is not a regular file", name)
+		}
+		want, err := staged.Open(name)
+		if err != nil {
+			return fmt.Errorf("open staged PSP_GAME/%s: %w", name, err)
+		}
+		defer want.Close()
+		got, err := authored.Open("PSP_GAME/" + name)
+		if err != nil {
+			return fmt.Errorf("open authored PSP_GAME/%s: %w", name, err)
+		}
+		defer got.Close()
+		if err := compareExactReaders(got, want); err != nil {
+			return fmt.Errorf("PSP_GAME/%s: %w", name, err)
+		}
+		files++
+		bytesChecked += info.Size()
+		return nil
+	})
+	if err != nil {
+		return err
+	}
+	fmt.Printf("FORENSIC ISO_PSP_GAME_PROVENANCE files=%d bytes=%d exact=true\n", files, bytesChecked)
+	return nil
+}
+
+func compareExactReaders(got, want io.Reader) error {
+	gotBuffer := make([]byte, 64*1024)
+	wantBuffer := make([]byte, len(gotBuffer))
+	for {
+		count, readErr := got.Read(gotBuffer)
+		if count > 0 {
+			if _, err := io.ReadFull(want, wantBuffer[:count]); err != nil {
+				return errors.New("authored payload is longer than staged payload")
+			}
+			if !bytes.Equal(gotBuffer[:count], wantBuffer[:count]) {
+				return errors.New("authored payload differs from staged payload")
+			}
+		}
+		if readErr != nil {
+			if !errors.Is(readErr, io.EOF) {
+				return readErr
+			}
+			break
+		}
+	}
+	var extra [1]byte
+	if count, err := want.Read(extra[:]); count != 0 || (err != nil && !errors.Is(err, io.EOF)) {
+		return errors.New("authored payload is shorter than staged payload")
+	}
 	return nil
 }
 
