@@ -6,13 +6,13 @@ import (
 	"sort"
 
 	"github.com/HK47196/zill/internal/cp932"
-	"github.com/HK47196/zill/internal/slotaudit"
 )
 
 // Plan describes a deterministic custom-glyph allocation for final runtime text.
 // Reserved contains renderer keys that must not be repurposed for reasons outside
-// the runtime message corpus (fixed strings, structured binary scans, and other
-// caller-authenticated resource audits).
+// the runtime message corpus. Callers may reserve only structured evidence that
+// the engine actually consumes as rendered text (for example fixed strings or
+// authenticated CP932 literal scans), never arbitrary whole-blob byte aliases.
 type Plan struct {
 	CustomRunes   []rune
 	RequiredStock []cp932.GlyphKey
@@ -21,11 +21,11 @@ type Plan struct {
 }
 
 // BuildPlan derives the production slot allocation from final runtime text.
-// It preserves CP932 glyphs still needed by that text, applies caller-supplied
-// reservations, then conservatively removes any key whose exact two-byte
-// sequence occurs in an authenticated binary blob before allocating custom
-// glyphs. All sets are normalized so equivalent inputs produce the same plan.
-func BuildPlan(texts []string, installed, reserved []cp932.GlyphKey, authenticatedBlobs ...[]byte) (Plan, error) {
+// It preserves CP932 glyphs still needed by that text and applies caller-supplied
+// structured renderer reservations before allocating custom glyphs. Whole-blob
+// exact-byte exclusion is deliberately not part of this API: arbitrary machine
+// code/data byte pairs are not renderer ownership evidence.
+func BuildPlan(texts []string, installed, reserved []cp932.GlyphKey) (Plan, error) {
 	custom := RequiredCustomRunes(texts)
 	stock := RequiredStockKeys(texts)
 
@@ -51,11 +51,6 @@ func BuildPlan(texts []string, installed, reserved []cp932.GlyphKey, authenticat
 	}
 	sort.Slice(candidates, func(i, j int) bool { return candidates[i] < candidates[j] })
 
-	var err error
-	candidates, err = slotaudit.ExcludeExactByteReferences(candidates, authenticatedBlobs...)
-	if err != nil {
-		return Plan{}, err
-	}
 	mapping, err := Allocate(custom, candidates)
 	if err != nil {
 		return Plan{}, err
