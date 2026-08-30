@@ -22,7 +22,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.nio.channels.FileChannel;
+import java.security.MessageDigest;
 import java.util.ArrayDeque;
+import java.util.Arrays;
 import java.util.Deque;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -309,6 +311,7 @@ public final class MainActivity extends Activity {
 
                 updateStatus("완성 ISO를 선택한 위치로 저장 중…");
                 copyFileToUri(output, outputUri);
+                verifyFileMatchesUri(output, outputUri);
                 success = true;
                 final String captured = forensic.toString().trim();
                 runOnUiThread(() -> {
@@ -317,7 +320,7 @@ public final class MainActivity extends Activity {
                     String logStatus = captured.isEmpty()
                             ? " 진단 로그는 생성되지 않았습니다."
                             : " '진단 로그 복사' 버튼으로 retail preflight 결과를 복사할 수 있습니다.";
-                    setBusy(false, "완료. 생성된 Korean Beta ISO를 저장했습니다." + logStatus);
+                    setBusy(false, "완료. 생성된 Korean Beta ISO를 저장하고 SHA-256/길이 재검증했습니다." + logStatus);
                 });
             } catch (Exception e) {
                 final String error = message(e);
@@ -347,7 +350,12 @@ public final class MainActivity extends Activity {
         if (marker.isFile()) {
             String installedVersion = readFileText(marker).trim();
             if (packagedVersion.equals(installedVersion)) {
-                return root;
+                try {
+                    ProjectAssetIntegrity.verifyPayload(root);
+                    return root;
+                } catch (Exception invalidCachedPayload) {
+                    deleteRecursively(root);
+                }
             }
         }
 
@@ -361,6 +369,7 @@ public final class MainActivity extends Activity {
         if (!packagedVersion.equals(copiedVersion)) {
             throw new IllegalStateException("내장 데이터 버전이 APK payload와 일치하지 않습니다.");
         }
+        ProjectAssetIntegrity.verifyPayload(root);
         return root;
     }
 
@@ -426,6 +435,45 @@ public final class MainActivity extends Activity {
             if (out == null) throw new IllegalStateException("결과 ISO 저장 위치를 열 수 없습니다.");
             copy(in, out);
             out.flush();
+        }
+    }
+
+    private void verifyFileMatchesUri(File source, Uri uri) throws Exception {
+        DigestResult expected;
+        try (InputStream in = new FileInputStream(source)) {
+            expected = digest(in);
+        }
+        DigestResult actual;
+        try (ParcelFileDescriptor pfd = getContentResolver().openFileDescriptor(uri, "r");
+             InputStream in = pfd == null ? null : new FileInputStream(pfd.getFileDescriptor())) {
+            if (in == null) throw new IllegalStateException("저장된 결과 ISO를 재검증용으로 열 수 없습니다.");
+            actual = digest(in);
+        }
+        if (expected.length != actual.length || !Arrays.equals(expected.sha256, actual.sha256)) {
+            throw new IllegalStateException("저장된 결과 ISO가 생성된 ISO와 일치하지 않습니다.");
+        }
+    }
+
+    private static DigestResult digest(InputStream in) throws Exception {
+        MessageDigest digest = MessageDigest.getInstance("SHA-256");
+        byte[] buffer = new byte[1024 * 1024];
+        long length = 0;
+        int read;
+        while ((read = in.read(buffer)) >= 0) {
+            if (read == 0) continue;
+            digest.update(buffer, 0, read);
+            length += read;
+        }
+        return new DigestResult(length, digest.digest());
+    }
+
+    private static final class DigestResult {
+        final long length;
+        final byte[] sha256;
+
+        DigestResult(long length, byte[] sha256) {
+            this.length = length;
+            this.sha256 = sha256;
         }
     }
 
