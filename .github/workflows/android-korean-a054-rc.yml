@@ -114,6 +114,17 @@ jobs:
           grep -q 'canonical=42016 checked=42016' a054-full-corpus-audit.txt
           grep -q 'exact_gate=CompileBankKorean' a054-full-corpus-audit.txt
 
+      - name: Full Korean English-consumer storage census
+        shell: bash
+        run: |
+          set -euxo pipefail
+          go test ./internal/release \
+            -run '^TestCurrentKoreanCorpusEnglishConsumerStorageContracts$' \
+            -count=1 -v | tee consumer-storage-full-corpus-audit.txt
+          grep -q 'canonical=42016' consumer-storage-full-corpus-audit.txt
+          grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
+          grep -q 'exact_asset_gate=CompileBankKorean' consumer-storage-full-corpus-audit.txt
+
       - name: Android unit tests
         run: gradle -p android-patcher :app:testDebugUnitTest --no-daemon --stacktrace
 
@@ -147,6 +158,8 @@ jobs:
             sha256sum -c payload-manifest.sha256
           )
           grep -q 'canonical=42016 checked=42016' a054-full-corpus-audit.txt
+          grep -q 'canonical=42016' consumer-storage-full-corpus-audit.txt
+          grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
           sha256sum "$APK" | tee "$APK.sha256"
 
       - uses: actions/upload-artifact@v4
@@ -156,4 +169,5 @@ jobs:
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
             a054-full-corpus-audit.txt
+            consumer-storage-full-corpus-audit.txt
           if-no-files-found: error
