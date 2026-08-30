@@ -24,10 +24,11 @@ const mobileForensicMappedHitLimit = 8
 // so every installed double-byte renderer key is eligible; it is not constrained
 // by the retail cell geometry required by the older atlas-only desktop path.
 //
-// This experiment intentionally starts from the exact H0 plan, including H0's
-// two pre-existing Korean EBOOT strings, and changes only mappings that use the
-// CP932 0x87 special-character lead byte. No new title/character-creation EBOOT
-// translation bundle is present on this branch.
+// Renderer-key ownership is deliberately conservative. BOOT.BIN, EBOOT.BIN,
+// and bindata.dat are authenticated retail inputs; therefore a two-byte key
+// occurring anywhere in those blobs is excluded before allocation. Literal
+// CP932 scans remain useful ownership evidence, but may not weaken BuildPlan's
+// exact-byte reservation contract.
 func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
 	if source == nil || korean == nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta planner: nil bound source or Korean project")
@@ -85,9 +86,12 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d total_reserved=%d custom=%d materializable_korean=%d fixed_korean=%d total_records=%d\n",
 		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(reserved), len(custom), len(korean.Entries), len(fixedKorean), len(source.Items))
 
-	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
+	// BuildPlan already owns the fail-closed exact-byte exclusion primitive.
+	// Feed it every authenticated executable/fixed-data blob rather than merely
+	// reporting collisions after a mapping has been chosen.
+	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)
 	if err != nil {
-		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta H0 slot allocation: %w", err)
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta conservative slot allocation: %w", err)
 	}
 	blobs := []slotAuditBlob{
 		{Name: "BOOT.BIN", Data: boot},
@@ -98,8 +102,11 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	printMobileSlotAudit("h0", plan, audit)
-	h0Digest := mappingDigest(plan.Mapping)
+	printMobileSlotAudit("initial", plan, audit)
+	if audit.CandidateHits != 0 || len(audit.MappedHits) != 0 {
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta conservative slot allocation retained authenticated exact-byte references: candidates=%d mapped=%d", audit.CandidateHits, len(audit.MappedHits))
+	}
+	initialDigest := mappingDigest(plan.Mapping)
 
 	mapping := make(koreanslots.Mapping, len(plan.Mapping))
 	used := make(map[cp932.GlyphKey]rune, len(plan.Mapping))
@@ -151,11 +158,14 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 		return koreanslots.Plan{}, 0, 0, err
 	}
 	printMobileSlotAudit("final", plan, finalAudit)
+	if finalAudit.CandidateHits != 0 || len(finalAudit.MappedHits) != 0 {
+		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta final slot allocation violates authenticated exact-byte ownership: candidates=%d mapped=%d", finalAudit.CandidateHits, len(finalAudit.MappedHits))
+	}
 
 	finalDigest := mappingDigest(plan.Mapping)
-	fmt.Printf("FORENSIC MAPPING_FINGERPRINT h0_sha256=%s final_sha256=%s changed=%d fixed_korean=%d new_eboot_bundle=false\n",
-		h0Digest, finalDigest, relocated, len(fixedKorean))
-	fmt.Printf("Korean beta minimal87 slot allocation: candidates=%d custom=%d headroom=%d relocated_private87=%d\n",
+	fmt.Printf("FORENSIC MAPPING_FINGERPRINT initial_sha256=%s final_sha256=%s changed=%d fixed_korean=%d new_eboot_bundle=false\n",
+		initialDigest, finalDigest, relocated, len(fixedKorean))
+	fmt.Printf("Korean beta conservative slot allocation: candidates=%d custom=%d headroom=%d relocated_private87=%d\n",
 		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes), relocated)
 	return plan, len(korean.Entries), len(source.Items), nil
 }
