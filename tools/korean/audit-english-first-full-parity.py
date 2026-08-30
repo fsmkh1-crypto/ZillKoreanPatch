@@ -27,6 +27,8 @@ korean_materialize = read("internal/message/korean_materialize.go")
 release_build = read("internal/release/korean_build.go")
 mobile_build = read("internal/release/korean_mobile.go")
 mobile_preflight = read("internal/release/korean_mobile_preflight.go")
+korean_font = read("internal/release/korean_font.go")
+english_font_manifest = read("release/font/manifest.toml")
 rules = read("internal/layout/rules.go")
 premise = read("AGENTS.md")
 
@@ -77,9 +79,20 @@ require_release_chain("desktop Korean release", release_build)
 require_release_chain("mobile Korean ISO", mobile_build)
 require_release_chain("mobile Korean preflight", mobile_preflight)
 
+# Font inputs are an engine asset contract too. Reuse the exact retail source
+# hashes already authenticated by the upstream English static-font manifest.
+english_font_hashes = re.findall(r'^source_sha256\s*=\s*"([0-9a-f]{64})"', english_font_manifest, re.M)
+require(len(english_font_hashes) == 2, "upstream English font manifest no longer exposes exactly two source fingerprints")
+for digest in english_font_hashes:
+    require(digest in korean_font,
+            "Korean font path no longer pins upstream English retail source fingerprint " + digest)
+require("verifyKoreanFontRetailSources(atlas, jillbtn)" in mobile_build or "prepareKoreanMobileFontReplacements" in mobile_build,
+        "mobile Korean build no longer reaches the authenticated font path")
+
 print("ENGLISH_FIRST_PARITY_PASS")
 print("english_consumers=" + ",".join(sorted(english_consumers)))
 print("korean_direct_consumers=" + ",".join(sorted(korean_consumers)))
 print("korean_c5_split=" + ",".join(sorted(deliberate_split)))
 print("shared_capacity_constants=" + ",".join(sorted(english_constants)))
 print("release_entrypoints=desktop,mobile,preflight")
+print("font_source_fingerprints=english_manifest_exact")
