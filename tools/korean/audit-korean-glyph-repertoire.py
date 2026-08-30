@@ -2,14 +2,11 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Collect every Korean corpus character absent from the installed renderer font.
 
-This mirrors layout.Engine.measureKoreanRenderer's repertoire decision:
-- mapped Korean custom runes use the Korean atlas and are accepted here when the
-  reviewed Korean glyph catalog contains them;
+This mirrors layout.Engine.measureKoreanRenderer and koreanslots.RendererRune:
+- Korean custom-atlas runes are accepted from the reviewed glyph catalog;
+- the two explicit typography aliases are normalized before lookup;
 - every other rune is encoded as stock CP932 and its exact renderer key must
   exist in release/font/metrics.toml.
-
-The audit is aggregate/fail-closed so one unsupported character cannot turn
-release validation into a one-record-per-build chase.
 """
 from __future__ import annotations
 
@@ -24,6 +21,11 @@ GLYPHS = ROOT / "release" / "korean" / "font" / "glyphs.toml"
 METRICS = ROOT / "release" / "font" / "metrics.toml"
 KOREAN_FILE = re.compile(r"^msgsec\d{3}(?:(?:-part\d{2})|b)?\.toml$")
 CONTROL = re.compile(r"<[^>]+>")
+ALIASES = {"~": "～", "‘": "'"}
+
+
+def renderer_char(ch: str) -> str:
+    return ALIASES.get(ch, ch)
 
 
 def cp932_renderer_key(ch: str) -> int | None:
@@ -73,16 +75,18 @@ def main() -> None:
 
     failures: dict[tuple[int, str, str, str], int] = collections.Counter()
     bad_chars: collections.Counter[tuple[str, str]] = collections.Counter()
+    aliases_used: collections.Counter[tuple[str, str]] = collections.Counter()
     for ident, pair in sorted(rows.items()):
         for field, text in zip(("korean", "layout"), pair):
             if not text:
                 continue
             visible = CONTROL.sub("", text)
-            for ch in visible:
-                if ch in "\r\n\t":
+            for raw in visible:
+                if raw in "\r\n\t":
                     continue
-                # Korean custom-atlas runes are authoritative even when the same
-                # Unicode rune happens to have a stock CP932 representation.
+                ch = renderer_char(raw)
+                if ch != raw:
+                    aliases_used[(raw, ch)] += 1
                 if ch in catalog:
                     continue
                 renderer_key = cp932_renderer_key(ch)
@@ -92,20 +96,22 @@ def main() -> None:
                     reason = f"missing_installed_metric_0x{renderer_key:04x}"
                 else:
                     continue
-                failures[(ident, field, ch, reason)] += 1
-                bad_chars[(ch, reason)] += 1
+                failures[(ident, field, raw, reason)] += 1
+                bad_chars[(raw, reason)] += 1
 
     bad_record_ids = {ident for ident, _, _, _ in failures}
     print(
         "KOREAN_GLYPH_REPERTOIRE_SUMMARY "
         f"accepted_rows={len(rows)} installed_metric_keys={len(installed)} installed_custom={len(catalog)} "
-        f"bad_characters={len(bad_chars)} bad_records={len(bad_record_ids)}"
+        f"aliases={sum(aliases_used.values())} bad_characters={len(bad_chars)} bad_records={len(bad_record_ids)}"
     )
-    for (ch, reason), count in sorted(bad_chars.items(), key=lambda item: (ord(item[0][0]), item[0][1])):
+    for (raw, normalized), count in sorted(aliases_used.items()):
         print(
-            f"KOREAN_GLYPH_BAD_CHAR char={ch!r} unicode=U+{ord(ch):04X} "
-            f"reason={reason} occurrences={count}"
+            f"KOREAN_GLYPH_ALIAS source={raw!r} unicode=U+{ord(raw):04X} "
+            f"renderer={normalized!r} renderer_unicode=U+{ord(normalized):04X} occurrences={count}"
         )
+    for (ch, reason), count in sorted(bad_chars.items(), key=lambda item: (ord(item[0][0]), item[0][1])):
+        print(f"KOREAN_GLYPH_BAD_CHAR char={ch!r} unicode=U+{ord(ch):04X} reason={reason} occurrences={count}")
     for (ident, field, ch, reason), count in sorted(failures.items()):
         print(
             f"KOREAN_GLYPH_BAD_RECORD id={ident} field={field} char={ch!r} "
@@ -116,8 +122,7 @@ def main() -> None:
         raise SystemExit(f"KOREAN_GLYPH_REPERTOIRE_FAIL accepted rows={len(rows)} want 42016")
     if failures:
         raise SystemExit(
-            f"KOREAN_GLYPH_REPERTOIRE_FAIL unsupported installed-font characters={len(bad_chars)} "
-            f"records={len(bad_record_ids)}"
+            f"KOREAN_GLYPH_REPERTOIRE_FAIL unsupported installed-font characters={len(bad_chars)} records={len(bad_record_ids)}"
         )
     print("KOREAN_GLYPH_REPERTOIRE_PASS")
 
