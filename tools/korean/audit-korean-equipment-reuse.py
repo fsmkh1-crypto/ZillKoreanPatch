@@ -59,7 +59,7 @@ def main() -> int:
     unencodable = 0
 
     for selector in range(1, 133):
-        row = equipment[selector]
+        row = equipment[str(selector)]
         source = row["source"]
         candidates = sorted(by_source.get(source, set()))
         if not candidates:
