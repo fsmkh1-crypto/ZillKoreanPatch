@@ -17,6 +17,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "translations" / "messages"
 KOREAN = ROOT / "translations" / "korean" / "messages"
 CATEGORIES = ROOT / "release" / "layout" / "categories.toml"
+SECTION_FILE = re.compile(r"^msgsec\d{3}\.toml$")
 
 SURFACES = {
     "settings-system": re.compile(r"(?:設定|環境|コンフィグ|オプション|音量|ＢＧＭ|BGM|ＳＥ|SE|振動|画面|明るさ|キー設定|操作設定|ロード|セーブ)", re.I),
@@ -27,7 +28,8 @@ SURFACES = {
 
 def load_rows(directory: pathlib.Path) -> dict[int, dict]:
     rows: dict[int, dict] = {}
-    for path in sorted(directory.glob("msgsec*.toml")):
+    paths = [path for path in directory.iterdir() if path.is_file() and SECTION_FILE.fullmatch(path.name)]
+    for path in sorted(paths):
         with path.open("rb") as fh:
             data = tomllib.load(fh)
         for key, value in data.items():
@@ -36,7 +38,7 @@ def load_rows(directory: pathlib.Path) -> dict[int, dict]:
             except ValueError:
                 continue
             if ident in rows:
-                raise SystemExit(f"UNTRANSLATED_SURFACE_FAIL duplicate message {ident}")
+                raise SystemExit(f"UNTRANSLATED_SURFACE_FAIL duplicate canonical message {ident} in {path.name}")
             rows[ident] = value
     return rows
 
@@ -110,9 +112,10 @@ def main() -> None:
         if len(rows) > 80:
             print(f"UNTRANSLATED_CANDIDATE_OMITTED surface={surface!r} omitted={len(rows)-80}")
 
-    # This census is intentionally non-blocking for missing rows. It does fail
-    # closed on impossible accounting, so CI cannot silently stop examining part
-    # of the source/Korean corpus.
+    # Canonical source is 279 exact msgsecNNN.toml files and must retain the
+    # upstream 43,116-record accounting. The Korean overlay remains sparse.
+    if len(source) != 43116:
+        raise SystemExit(f"UNTRANSLATED_SURFACE_FAIL canonical source rows={len(source)} want 43116")
     if len(korean) > len(source) or any(ident not in source for ident in korean):
         raise SystemExit("UNTRANSLATED_SURFACE_FAIL Korean overlay contains IDs outside source corpus")
 
