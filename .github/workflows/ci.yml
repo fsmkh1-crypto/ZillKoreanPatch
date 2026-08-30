@@ -35,6 +35,7 @@ jobs:
       - run: python3 tools/korean/audit-english-first-fixed-data.py
       - run: python3 tools/korean/audit-korean-equipment-reuse.py
       - run: python3 tools/korean/audit-untranslated-surfaces.py
+      - run: python3 tools/korean/audit-korean-glyph-repertoire.py
       - run: go test ./...
       - run: go vet ./...
       - run: python3 -m py_compile tools/korean/*.py
