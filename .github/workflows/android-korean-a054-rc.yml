@@ -18,6 +18,7 @@ on:
       - 'patches/executable/**'
       - 'patches/system/**'
       - 'tools/korean/audit-english-first-full-parity.py'
+      - 'tools/korean/audit-english-first-entrypoint-closure.py'
       - 'AGENTS.md'
       - '.github/workflows/android-korean-a054-rc.yml'
 
@@ -48,7 +49,11 @@ jobs:
           sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
 
       - name: Enforce English-first project parity
-        run: python3 tools/korean/audit-english-first-full-parity.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/korean/audit-english-first-full-parity.py
+          python3 tools/korean/audit-english-first-entrypoint-closure.py
 
       - name: Prepare embedded Korean patch project data
         shell: bash
