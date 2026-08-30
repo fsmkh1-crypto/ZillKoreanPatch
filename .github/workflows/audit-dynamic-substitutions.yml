@@ -1,0 +1,56 @@
+name: Dynamic substitution audit report
+
+on:
+  push:
+    branches:
+      - audit/projection-control-roundtrip
+    paths:
+      - '.github/workflows/audit-dynamic-substitutions.yml'
+      - 'tools/korean/audit-dynamic-substitutions.py'
+      - 'translations/korean/messages/**'
+      - 'release/layout/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Generate dynamic substitution report
+        run: python3 tools/korean/audit-dynamic-substitutions.py > dynamic-substitution-audit.txt
+      - name: Publish compact audit report to PR 17
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          lines = Path('dynamic-substitution-audit.txt').read_text().splitlines()
+          out = []
+          # Header metrics through adjacency_opcodes.
+          for line in lines:
+              out.append(line)
+              if line.startswith('adjacency_opcodes='):
+                  break
+          # Compact one-row-per-opcode evidence.
+          start = lines.index('OPCODE_BRIEF_BEGIN')
+          end = lines.index('OPCODE_BRIEF_END')
+          out.extend(lines[start:end+1])
+          # Explicit historical record context.
+          out.extend(line for line in lines if line.startswith('ID10010_DYNAMIC_CONTEXT '))
+          Path('compact-comment.txt').write_text('\n'.join(out) + '\n')
+          PY
+          {
+            echo '## Automated dynamic substitution audit — compact'
+            echo
+            echo 'Generated from commit `${{ github.sha }}`.'
+            echo
+            echo '```text'
+            cat compact-comment.txt
+            echo '```'
+          } > comment.md
+          gh pr comment 17 --body-file comment.md

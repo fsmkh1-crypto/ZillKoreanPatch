@@ -3,6 +3,7 @@
 package release
 
 import (
+	"crypto/sha256"
 	"fmt"
 
 	"github.com/HK47196/zill/internal/fixeddata"
@@ -38,5 +39,9 @@ func applyKoreanFixedEBOOT(root string, source []byte, mapping koreanslots.Mappi
 	if err := elfpatch.VerifyApplied(result, manifest); err != nil {
 		return nil, fmt.Errorf("verify executable runtime patches after Korean overlay: %w", err)
 	}
+	sourceSHA := sha256.Sum256(source)
+	resultSHA := sha256.Sum256(result)
+	fmt.Printf("FORENSIC KOREAN_EBOOT_FINGERPRINT source_sha256=%x patched_sha256=%x fields=%d mappings=%d\n",
+		sourceSHA, resultSHA, len(translations), len(mapping))
 	return result, nil
 }

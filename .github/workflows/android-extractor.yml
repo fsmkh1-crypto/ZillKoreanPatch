@@ -1,32 +1,16 @@
-name: Android Korean beta patcher
+name: Android PPSSPP rolling freeze tracer
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'android-patcher/**'
-      - 'translations/korean/**'
-      - 'release/korean/**'
-      - 'cmd/zill/build_korean_iso.go'
-      - 'cmd/zill/build_korean_mobile_plan.go'
-      - 'cmd/zill/korean_fixed.go'
-      - 'cmd/zill/main.go'
-      - 'internal/**'
-      - 'patches/executable/**'
-      - 'patches/system/**'
+      - 'cmd/zill/**'
       - '.github/workflows/android-extractor.yml'
   pull_request:
     paths:
       - 'android-patcher/**'
-      - 'translations/korean/**'
-      - 'release/korean/**'
-      - 'cmd/zill/build_korean_iso.go'
-      - 'cmd/zill/build_korean_mobile_plan.go'
-      - 'cmd/zill/korean_fixed.go'
-      - 'cmd/zill/main.go'
-      - 'internal/**'
-      - 'patches/executable/**'
-      - 'patches/system/**'
+      - 'cmd/zill/**'
       - '.github/workflows/android-extractor.yml'
 
 permissions:
@@ -37,82 +21,85 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Verify rolling freeze tracer source
+        shell: bash
+        run: |
+          set -euo pipefail
+          TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
+          UI=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeCaptureActivity.java
+          grep -q 'ACTION_START' "$TRACE"
+          grep -q 'SAMPLE_INTERVAL_MS = 500' "$TRACE"
+          grep -q 'MAX_SAMPLES = 60' "$TRACE"
+          grep -q 'HOT_PC_MIN = 0x08966200L' "$TRACE"
+          grep -q 'hot_loop_detected' "$TRACE"
+          grep -q 'a1_memory' "$TRACE"
+          grep -q 'inline_page_memory' "$TRACE"
+          grep -q 'rawCommand("cpu.status"' "$TRACE"
+          grep -q 'rawCommand("cpu.getAllRegs"' "$TRACE"
+          grep -q 'AtomicBoolean TRACE_RUNNING' "$TRACE"
+          grep -q 'start_ignored' "$TRACE"
+          grep -q 'connect_attempt' "$TRACE"
+          grep -q 'session' "$TRACE"
+          grep -q 'getVisibleState' "$TRACE"
+          grep -q '연결됨 · 샘플링 중' "$UI"
+          grep -q 'startButton.setEnabled(!running)' "$UI"
+          ! grep -q 'ACTION_CAPTURE_NOW' "$TRACE"
+          ! grep -q 'capture_recovery' "$TRACE"
+          ! grep -q 'second_scanner_call' "$TRACE"
+          ! grep -q '"armed"' "$TRACE"
 
       - uses: actions/setup-go@v7
         with:
           go-version-file: go.mod
-
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-
       - uses: android-actions/setup-android@v3
-
       - name: Install Android SDK platform
         shell: bash
         run: |
           yes | sdkmanager --licenses >/dev/null || true
           sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
-
-      - name: Prepare embedded Korean beta project data
-        shell: bash
-        run: |
-          set -euxo pipefail
-          ROOT=android-patcher/app/src/main/assets/zillroot
-          rm -rf "$ROOT"
-          mkdir -p "$ROOT/release/strings" "$ROOT/release/korean/font" "$ROOT/release/korean/strings" "$ROOT/patches/executable" "$ROOT/patches/system"
-          cp -R translations "$ROOT/translations"
-          cp release/strings/eboot.toml release/strings/equipment.toml "$ROOT/release/strings/"
-          cp release/korean/font/glyphs.toml "$ROOT/release/korean/font/"
-          cp release/korean/strings/eboot.toml "$ROOT/release/korean/strings/"
-          cp patches/executable/manifest.toml "$ROOT/patches/executable/"
-          cp patches/system/param-sfo.toml "$ROOT/patches/system/"
-          du -sh "$ROOT"
-
-      - name: Build arm64 Korean beta builder
-        shell: bash
-        run: |
-          set -euxo pipefail
-          mkdir -p android-patcher/app/src/main/jniLibs/arm64-v8a
-          CGO_ENABLED=0 GOOS=android GOARCH=arm64 go build -trimpath -buildmode=pie \
-            -o android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so ./cmd/zill
-          chmod 0755 android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
-          file android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
-          readelf -h android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so | sed -n '1,40p'
-
-      - uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '8.9'
-
-      - name: Go tests
-        run: go test ./...
-
-      - name: Android unit tests
-        run: gradle -p android-patcher :app:testDebugUnitTest --no-daemon --stacktrace
-
-      - name: Build debug APK
-        run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
-
-      - name: Inspect APK beta payload
+      - name: Build arm64 PPSSPP debugger bridge
         shell: bash
         run: |
           set -euo pipefail
-          unzip -l android-patcher/app/build/outputs/apk/debug/app-debug.apk > /tmp/apk-list.txt
-          grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/release/korean/font/glyphs.toml' /tmp/apk-list.txt
-          grep -q 'assets/zillroot/release/korean/strings/eboot.toml' /tmp/apk-list.txt
-          grep -E 'lib/arm64-v8a/libzill.so|assets/zillroot/translations/korean/messages/|assets/zillroot/release/korean/font/glyphs.toml|assets/zillroot/release/korean/strings/eboot.toml' /tmp/apk-list.txt | sed -n '1,24p'
-
-      - name: SHA-256
+          mkdir -p android-patcher/app/src/main/jniLibs/arm64-v8a
+          CGO_ENABLED=0 GOOS=android GOARCH=arm64 go build -trimpath -buildmode=pie -o android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so ./cmd/zill
+          chmod 0755 android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
+          sha256sum android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so | tee /tmp/libzill.sha256
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      - name: Build rolling tracer APK
+        run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
+      - name: Verify tracer APK contents
         shell: bash
-        run: sha256sum android-patcher/app/build/outputs/apk/debug/app-debug.apk | tee android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
-
+        run: |
+          set -euo pipefail
+          APK=android-patcher/app/build/outputs/apk/debug/app-debug.apk
+          rm -rf /tmp/zill-apk && mkdir -p /tmp/zill-apk
+          unzip -q "$APK" -d /tmp/zill-apk
+          test -f /tmp/zill-apk/lib/arm64-v8a/libzill.so
+          ls /tmp/zill-apk/classes*.dex >/tmp/dex-list.txt
+          cmp android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so /tmp/zill-apk/lib/arm64-v8a/libzill.so
+          cat /tmp/zill-apk/classes*.dex > /tmp/all-classes.dex.bin
+          strings /tmp/all-classes.dex.bin > /tmp/apk-strings.txt
+          grep -q 'Zill PPSSPP rolling freeze trace' /tmp/apk-strings.txt
+          grep -q 'hot_loop_detected' /tmp/apk-strings.txt
+          grep -q 'connect_attempt' /tmp/apk-strings.txt
+          grep -q 'start_ignored' /tmp/apk-strings.txt
+          grep -q '연결됨 · 샘플링 중' /tmp/apk-strings.txt
+          ! grep -q 'second_scanner_call' /tmp/apk-strings.txt
+          ! grep -q 'slot_plus_3c0_word' /tmp/apk-strings.txt
+          sha256sum "$APK" | tee "$APK.sha256"
+          sha256sum /tmp/zill-apk/lib/arm64-v8a/libzill.so | tee "$APK.libzill.sha256"
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-korean-beta-patcher-debug
+          name: zill-rolling-freeze-tracer-debug
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
+            android-patcher/app/build/outputs/apk/debug/app-debug.apk.libzill.sha256
           if-no-files-found: error

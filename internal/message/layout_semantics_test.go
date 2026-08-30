@@ -10,6 +10,20 @@ func TestPreservesSemanticsAllowsHangulSyllableBoundary(t *testing.T) {
 	}
 }
 
+func TestPreservesSemanticsAllowsPunctuationBoundary(t *testing.T) {
+	for _, tc := range []struct {
+		semantic string
+		layout   string
+	}{
+		{"문장이야….다음<end>", "문장이야<line-break>….다음<end>"},
+		{"문장이야….다음<end>", "문장이야….<line-break>다음<end>"},
+	} {
+		if !preservesSemantics(tc.semantic, tc.layout) {
+			t.Fatalf("punctuation-adjacent reflow rejected: semantic=%q layout=%q", tc.semantic, tc.layout)
+		}
+	}
+}
+
 func TestPreservesSemanticsAllowsWhitespaceSpanBoundary(t *testing.T) {
 	if !preservesSemantics("긴복합   단어<end>", "긴복합<line-break>단어<end>") {
 		t.Fatal("whitespace-span reflow was rejected")
@@ -41,6 +55,17 @@ func TestPreservesSemanticsRejectsControlReordering(t *testing.T) {
 	layout := "가<value:$28>나<value:$15>다<end>"
 	if preservesSemantics(semantic, layout) {
 		t.Fatal("layout reordered runtime controls")
+	}
+}
+
+func TestPreservesSemanticsRejectsBoundaryAtRuntimeControl(t *testing.T) {
+	for _, layout := range []string{
+		"가<line-break><value:$15>나<end>",
+		"가<value:$15><line-break>나<end>",
+	} {
+		if preservesSemantics("가<value:$15>나<end>", layout) {
+			t.Fatalf("layout changed runtime-control adjacency: %q", layout)
+		}
 	}
 }
 

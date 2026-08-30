@@ -17,31 +17,42 @@ import (
 
 func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int {
 	isoPath, outputPath, workDir, version := "", "", "", ""
+	preflightOnly := false
 	for i := 0; i < len(args); i++ {
 		switch {
 		case args[i] == "--iso" && i+1 < len(args):
-			i++; isoPath = args[i]
+			i++
+			isoPath = args[i]
 		case strings.HasPrefix(args[i], "--iso="):
 			isoPath = strings.TrimPrefix(args[i], "--iso=")
 		case args[i] == "--out" && i+1 < len(args):
-			i++; outputPath = args[i]
+			i++
+			outputPath = args[i]
 		case strings.HasPrefix(args[i], "--out="):
 			outputPath = strings.TrimPrefix(args[i], "--out=")
 		case args[i] == "--work-dir" && i+1 < len(args):
-			i++; workDir = args[i]
+			i++
+			workDir = args[i]
 		case strings.HasPrefix(args[i], "--work-dir="):
 			workDir = strings.TrimPrefix(args[i], "--work-dir=")
 		case args[i] == "--version" && i+1 < len(args):
-			i++; version = args[i]
+			i++
+			version = args[i]
 		case strings.HasPrefix(args[i], "--version="):
 			version = strings.TrimPrefix(args[i], "--version=")
+		case args[i] == "--preflight-only":
+			preflightOnly = true
 		default:
 			fmt.Fprintf(stderr, "zill: build-korean-iso: unknown or incomplete argument %q\n", args[i])
 			return 2
 		}
 	}
-	if isoPath == "" || outputPath == "" || workDir == "" {
-		fmt.Fprintln(stderr, "zill: usage: zill build-korean-iso --iso RETAIL_ISO --out OUTPUT_ISO --work-dir DIR [--version VERSION]")
+	if isoPath == "" || workDir == "" || (!preflightOnly && outputPath == "") {
+		fmt.Fprintln(stderr, "zill: usage: zill build-korean-iso --iso RETAIL_ISO [--out OUTPUT_ISO] --work-dir DIR [--version VERSION] [--preflight-only]")
+		return 2
+	}
+	if preflightOnly && outputPath != "" {
+		fmt.Fprintln(stderr, "zill: build-korean-iso: --out is not used with --preflight-only")
 		return 2
 	}
 	resolvedVersion, err := resolveBuildVersion(root, version)
@@ -71,12 +82,34 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		return 1
 	}
 	gameDir := filepath.Join(extracted, "PSP_GAME")
+	fmt.Fprintln(stdout, "FORENSIC: recovering authenticated retail CDC context for message 10010...")
+	if err := auditFocusRecordContext(root, gameDir, stdout); err != nil {
+		fmt.Fprintf(stdout, "FORENSIC C5_FOCUS unavailable: %v\n", err)
+	}
 	fmt.Fprintln(stdout, "Mobile beta safety mode: retail banks are authenticated and bound before slot planning and canonical Korean compilation.")
-	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	planner := func(source *corpus.Project, korean *corpus.KoreanProject) (koreanslots.Plan, int, int, error) {
+		if err := auditC5RuntimeCandidates(gameDir); err != nil {
+			return koreanslots.Plan{}, 0, 0, fmt.Errorf("C5 runtime candidate audit: %w", err)
+		}
+		if err := auditPR14HistoricalPolicies(root, gameDir, source, korean); err != nil {
+			return koreanslots.Plan{}, 0, 0, fmt.Errorf("PR14 historical policy audit: %w", err)
+		}
 		return buildKoreanAlphaPlanMobile(root, gameDir, source, korean)
 	}
+	if preflightOnly {
+		fmt.Fprintln(stdout, "FORENSIC MOBILE_PREFLIGHT_BEGIN output_iso_written=false")
+		if err := release.PreflightKoreanAlphaISOOnly(root, gameDir, isoPath, resolvedVersion, planner); err != nil {
+			fmt.Fprintf(stdout, "FORENSIC MOBILE_PREFLIGHT_ERROR error=%q\n", err.Error())
+			fmt.Fprintf(stderr, "zill: build-korean-iso preflight: %v\n", err)
+			return 1
+		}
+		fmt.Fprintln(stdout, "FORENSIC MOBILE_PREFLIGHT_COMPLETE output_iso_written=false")
+		return 0
+	}
+
+	fmt.Fprintln(stdout, "Building Korean beta ISO from reviewed canonical corpus...")
 	if err := release.BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, resolvedVersion, planner); err != nil {
+		fmt.Fprintf(stdout, "FORENSIC MOBILE_BUILD_ERROR error=%q\n", err.Error())
 		fmt.Fprintf(stderr, "zill: build-korean-iso: %v\n", err)
 		return 1
 	}

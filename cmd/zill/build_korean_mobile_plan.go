@@ -16,6 +16,8 @@ import (
 	"github.com/HK47196/zill/internal/slotaudit"
 )
 
+const mobileForensicMappedHitLimit = 8
+
 // buildKoreanAlphaPlanMobile builds the mobile beta slot plan from the exact
 // retail-bound source and runtime-materializable Korean project used by the ISO
 // compiler. The mobile font path performs a full authenticated atlas+PAF repack,
@@ -39,7 +41,8 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
-	if _, err := loadAuthenticatedRetailEBOOT(gameDir); err != nil {
+	eboot, err := loadAuthenticatedRetailEBOOT(gameDir)
+	if err != nil {
 		return koreanslots.Plan{}, 0, 0, err
 	}
 	boot, err := loadAuthenticatedRetailBOOT(gameDir)
@@ -82,13 +85,20 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	fmt.Printf("Korean beta slot preflight: installed_double_byte=%d stock_required=%d fixed_reserved=%d boot_scan_keys=%d bindata_scan_keys=%d total_reserved=%d custom=%d materializable_korean=%d fixed_korean=%d total_records=%d\n",
 		len(installed), len(stock), len(usedFixed), len(bootScan.Keys), len(bindataScan.Keys), len(reserved), len(custom), len(korean.Entries), len(fixedKorean), len(source.Items))
 
-	// This is byte-for-byte the H0 planning input. Only after the plan exists do
-	// we relocate renderer-private 0x87 mappings, so every unaffected rune keeps
-	// its H0 renderer key.
 	plan, err := koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))
 	if err != nil {
 		return koreanslots.Plan{}, 0, 0, fmt.Errorf("mobile beta H0 slot allocation: %w", err)
 	}
+	blobs := []slotAuditBlob{
+		{Name: "BOOT.BIN", Data: boot},
+		{Name: "EBOOT.BIN", Data: eboot},
+		{Name: "bindata.dat", Data: bindata},
+	}
+	audit, err := auditMobileExactByteReuse(plan, blobs...)
+	if err != nil {
+		return koreanslots.Plan{}, 0, 0, err
+	}
+	printMobileSlotAudit("h0", plan, audit)
 	h0Digest := mappingDigest(plan.Mapping)
 
 	mapping := make(koreanslots.Mapping, len(plan.Mapping))
@@ -135,12 +145,37 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 			string(r), r, oldBytes[0], oldBytes[1], oldNominal, newBytes[0], newBytes[1], newNominal)
 	}
 	plan.Mapping = mapping
+
+	finalAudit, err := auditMobileExactByteReuse(plan, blobs...)
+	if err != nil {
+		return koreanslots.Plan{}, 0, 0, err
+	}
+	printMobileSlotAudit("final", plan, finalAudit)
+
 	finalDigest := mappingDigest(plan.Mapping)
 	fmt.Printf("FORENSIC MAPPING_FINGERPRINT h0_sha256=%s final_sha256=%s changed=%d fixed_korean=%d new_eboot_bundle=false\n",
 		h0Digest, finalDigest, relocated, len(fixedKorean))
 	fmt.Printf("Korean beta minimal87 slot allocation: candidates=%d custom=%d headroom=%d relocated_private87=%d\n",
 		len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes), relocated)
 	return plan, len(korean.Entries), len(source.Items), nil
+}
+
+func printMobileSlotAudit(phase string, plan koreanslots.Plan, audit mobileSlotAudit) {
+	fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_AUDIT phase=%s candidates=%d exact_hit_candidates=%d mapped_hit_records=%d detail_limit=%d\n",
+		phase, len(plan.Candidates), audit.CandidateHits, len(audit.MappedHits), mobileForensicMappedHitLimit)
+	limit := len(audit.MappedHits)
+	if limit > mobileForensicMappedHitLimit {
+		limit = mobileForensicMappedHitLimit
+	}
+	for _, hit := range audit.MappedHits[:limit] {
+		encoded, _ := hit.Key.Bytes()
+		fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_MAPPING phase=%s rune=%q unicode=%U key=%02X %02X blob=%s offsets=%v\n",
+			phase, string(hit.Rune), hit.Rune, encoded[0], encoded[1], hit.Blob, hit.Offsets)
+	}
+	if omitted := len(audit.MappedHits) - limit; omitted > 0 {
+		fmt.Printf("FORENSIC MOBILE_EXACT_BYTE_MAPPING_OMITTED phase=%s omitted=%d retained=%d total=%d\n",
+			phase, omitted, limit, len(audit.MappedHits))
+	}
 }
 
 func isRendererPrivate87Key(key cp932.GlyphKey) bool {

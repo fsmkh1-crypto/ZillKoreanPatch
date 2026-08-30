@@ -3,6 +3,7 @@
 package release
 
 import (
+	"crypto/sha256"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -100,6 +101,16 @@ func prepareKoreanMobileFontReplacements(root string, archives []*archive, plan 
 	if err != nil {
 		return nil, err
 	}
+	if err := zillfont.VerifyFullRepackSemantics(atlas, jillbtn, patchedAtlas, patchedPAF, plan.Mapping, koreanRasters); err != nil {
+		return nil, fmt.Errorf("prepare mobile Korean font postcondition audit: %w", err)
+	}
+	retailAtlasSHA := sha256.Sum256(atlas)
+	retailPAFSHA := sha256.Sum256(jillbtn)
+	patchedAtlasSHA := sha256.Sum256(patchedAtlas)
+	patchedPAFSHA := sha256.Sum256(patchedPAF)
+	fmt.Printf("FORENSIC MOBILE_FONT_FINGERPRINT retail_atlas_sha256=%x retail_paf_sha256=%x patched_atlas_sha256=%x patched_paf_sha256=%x mappings=%d\n",
+		retailAtlasSHA, retailPAFSHA, patchedAtlasSHA, patchedPAFSHA, len(plan.Mapping))
+	fmt.Printf("Korean mobile font semantic audit: %d PAF glyphs preserved/replaced under verified key/BST/metric/raster contracts.\n", zillfont.GlyphCount)
 	return []paa.Replacement{
 		paa.IndexReplacement(retailAtlasMemberIndex, patchedAtlas),
 		paa.IndexReplacement(retailPAFMemberIndex, patchedPAF),

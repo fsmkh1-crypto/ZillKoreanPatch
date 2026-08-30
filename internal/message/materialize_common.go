@@ -90,6 +90,14 @@ func (p *Projection) validateFragmentWith(index int, value string, validate natu
 			return fmt.Errorf("message %d fragment %s changes runtime format signature", p.RecordID, f.Key)
 		}
 	}
+	// Retail source projection auditing must exercise the Korean fragment/fixed-
+	// control split against byte-authenticated source material, including source
+	// literals that contributor input deliberately forbids (half-width kana and
+	// literal angle-bracket markup). A nil validator is reserved for that audit
+	// path only; normal stock/Korean materialization remains fail-closed below.
+	if validate == nil {
+		return nil
+	}
 	plain := valueTag.ReplaceAllString(value, "")
 	plain = strings.ReplaceAll(plain, lineBreak, "")
 	if reservedMarkup.MatchString(plain) || reservedAnchor.MatchString(plain) {

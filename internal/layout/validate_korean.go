@@ -12,6 +12,121 @@ import (
 	"github.com/HK47196/zill/internal/message"
 )
 
+// DeriveKoreanC5StorageLayouts adds machine-owned line wrapping only for C5
+// records that have no authored layout and currently violate the 255-byte page
+// payload contract. Contributor Korean remains semantic-only source data; the
+// returned map is build-local projection output. Authored layouts and caller
+// overrides are authoritative and are never rewritten here.
+//
+// This is deliberately fail-closed. If conservative wrapping cannot make a
+// statically materialized C5 record satisfy the retail page contract, the build
+// stops rather than truncating text or weakening the validator.
+func (e *Engine) DeriveKoreanC5StorageLayouts(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) (map[int]string, int, error) {
+	if source == nil {
+		return nil, 0, fmt.Errorf("Korean C5 layout derivation: nil source project")
+	}
+	if korean == nil {
+		return nil, 0, fmt.Errorf("Korean C5 layout derivation: nil Korean project")
+	}
+	if len(mapping) == 0 && len(korean.Entries) != 0 {
+		return nil, 0, fmt.Errorf("Korean C5 layout derivation: empty renderer mapping")
+	}
+
+	derived := make(map[int]string, len(layouts))
+	for id, text := range layouts {
+		derived[id] = text
+	}
+	c5 := e.koreanC5Set()
+	count := 0
+	for _, row := range korean.Entries {
+		if _, ok := c5[row.ID]; !ok {
+			continue
+		}
+		// Single-page consumers cannot be made safer by introducing page
+		// transitions, and explicit contributor/caller layout always wins.
+		if e.has(e.consumers.SinglePageC5IDs, row.ID) || row.Layout != "" || derived[row.ID] != "" {
+			continue
+		}
+		item, ok := source.Find(row.ID)
+		if !ok {
+			return nil, 0, fmt.Errorf("Korean C5 layout derivation: message %d lacks source", row.ID)
+		}
+		why, _, err := e.c5ViolationKorean(item, row.Korean, mapping)
+		if err != nil {
+			return nil, 0, err
+		}
+		if why == "" {
+			continue
+		}
+		// Do not attempt to paper over unrelated topology/page-count failures.
+		// The auto projection exists only for the observed branch-local byte
+		// overflow class.
+		if !strings.Contains(why, " uses ") || !strings.Contains(why, " bytes (maximum ") || strings.Contains(why, " has ") {
+			continue
+		}
+
+		candidate := wrapKoreanC5Storage(row.Korean)
+		post, _, err := e.c5ViolationKorean(item, candidate, mapping)
+		if err != nil {
+			return nil, 0, fmt.Errorf("message %d C5 derived layout: %w", row.ID, err)
+		}
+		if post != "" {
+			return nil, 0, fmt.Errorf("message %d C5 derived layout still violates storage contract: %s", row.ID, post)
+		}
+		derived[row.ID] = candidate
+		count++
+	}
+	return derived, count, nil
+}
+
+// wrapKoreanC5Storage uses conservative display-sized lines. It prefers a
+// whitespace boundary once a line reaches 14 visible runes and hard-wraps at
+// 18 so a three-line C5 page remains comfortably below the 255-byte payload
+// ceiling for the two-byte Korean renderer mapping. Control tags are copied as
+// indivisible tokens; existing line breaks remain authoritative boundaries.
+func wrapKoreanC5Storage(text string) string {
+	var out strings.Builder
+	out.Grow(len(text) + len(text)/8)
+	lineRunes := 0
+	cursor := 0
+	for _, loc := range controlTag.FindAllStringIndex(text, -1) {
+		appendKoreanC5Plain(&out, text[cursor:loc[0]], &lineRunes)
+		tag := text[loc[0]:loc[1]]
+		out.WriteString(tag)
+		if tag == lineBreak {
+			lineRunes = 0
+		}
+		cursor = loc[1]
+	}
+	appendKoreanC5Plain(&out, text[cursor:], &lineRunes)
+	return out.String()
+}
+
+func appendKoreanC5Plain(out *strings.Builder, text string, lineRunes *int) {
+	for _, r := range text {
+		space := r == ' ' || r == '\t' || r == '\r' || r == '\n'
+		if space {
+			if *lineRunes == 0 {
+				continue
+			}
+			if *lineRunes >= 14 {
+				out.WriteString(lineBreak)
+				*lineRunes = 0
+				continue
+			}
+			out.WriteRune(' ')
+			*lineRunes++
+			continue
+		}
+		if *lineRunes >= 18 {
+			out.WriteString(lineBreak)
+			*lineRunes = 0
+		}
+		out.WriteRune(r)
+		*lineRunes++
+	}
+}
+
 // ValidateKoreanC5 applies the retail C5 branch-local storage contract to the
 // actual Korean renderer bytes. The stock validator materializes through CP932;
 // Korean must instead use the exact authenticated slot mapping used by the
@@ -137,17 +252,14 @@ func (e *Engine) c5ViolationKorean(item corpus.Item, text string, mapping korean
 	for branch, leaf := range leaves {
 		dynamic = dynamic || leaf.dynamic
 		pages := []int{0}
-		breaks := 0
+		cursor := c5PageCursor{}
 		for _, b := range leaf.data {
-			if b == 10 {
-				breaks++
-				if breaks == c5LinesPerPage {
-					pages = append(pages, 0)
-					breaks = 0
-					continue
-				}
-			}
+			// The boundary line-break byte belongs to the page it terminates.
+			// Count it first, then move subsequent bytes to the next page.
 			pages[len(pages)-1]++
+			if cursor.addByte(b) {
+				pages = append(pages, 0)
+			}
 		}
 		if len(pages) > maxPages {
 			violations = append(violations, fmt.Sprintf("message %d branch %d has %d pages (maximum %d)", item.Record.ID, branch+1, len(pages), maxPages))

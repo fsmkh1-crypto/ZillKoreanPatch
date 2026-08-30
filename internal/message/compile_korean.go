@@ -65,58 +65,12 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		}
 		matched[source.ID] = struct{}{}
 
-		// Runtime diagnostic: these verified character-creation choices are copied
-		// through a 31-byte consumer buffer (30 bytes plus terminator). The canonical
-		// Korean strings exceeded that limit by 1-4 bytes. Shorten only those seven
-		// records, without introducing any new Korean runes.
-		if text, ok := characterChoiceBufferDiagnostic[source.ID]; ok {
-			replacement.Text = text
-			replacement.Layout = ""
-		}
-
-		// Runtime diagnostic inherited from H0: keep one stock ASCII separator after
-		// the movable player-name substitution so this combined experiment does not
-		// change the historical 10010 condition.
-		if source.ID == 10010 {
-			replacement.Text = strings.Replace(replacement.Text, "<value:$15>", "<value:$15> ", 1)
-			if replacement.Layout != "" {
-				replacement.Layout = strings.Replace(replacement.Layout, "<value:$15>", "<value:$15> ", 1)
-			}
-		}
-
-		// Runtime diagnostic: ID 210065 is a verified C22 consumer. Use the authored
-		// eight-line layout whose individual lines are 20-33 encoded bytes, well
-		// below the 56-byte C22 line limit, while preserving semantic text exactly.
-		if source.ID == 210065 {
-			if replacement.Text != "광대한 대지 바이아시온 대륙. 너무나 넓어 지도에도 기록되지 않고 여행자에게조차 알려지지 않은 작은 마을이 있다…. 마을의 이름은 미이스. 그곳에는 작은 신전과 숲, 그리고 평온한 일상 정도뿐이었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>" {
-				failures = append(failures, fmt.Sprintf("%s: ID 210065 combined diagnostic semantic precondition failed", bank.Name))
-				continue
-			}
-			replacement.Layout = opening210065SafeLayout
-		}
-
-		projection, err := Project(source)
+		materialized, err := materializeKoreanRecord(source, replacement, mapping)
 		if err != nil {
-			failures = append(failures, fmt.Sprintf("%s: ID %d projection: %v", bank.Name, source.ID, err))
+			failures = append(failures, fmt.Sprintf("%s: ID %d %v", bank.Name, source.ID, err))
 			continue
 		}
-		semantic, err := projection.MaterializeKorean(replacement.Text, false, mapping)
-		if err != nil {
-			failures = append(failures, fmt.Sprintf("%s: ID %d Korean semantic text: %v", bank.Name, source.ID, err))
-			continue
-		}
-		if replacement.Layout == "" {
-			records[index] = semantic
-			continue
-		}
-		if !preservesSemantics(replacement.Text, replacement.Layout) {
-			failures = append(failures, fmt.Sprintf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID))
-			continue
-		}
-		records[index], err = projection.MaterializeKorean(replacement.Layout, true, mapping)
-		if err != nil {
-			failures = append(failures, fmt.Sprintf("%s: ID %d Korean layout: %v", bank.Name, source.ID, err))
-		}
+		records[index] = materialized
 	}
 	if len(matched) != len(replacements) {
 		unmatched := make([]int, 0, len(replacements)-len(matched))
