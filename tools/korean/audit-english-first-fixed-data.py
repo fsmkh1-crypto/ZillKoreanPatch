@@ -25,9 +25,8 @@ def require(condition: bool, message: str) -> None:
 
 
 def executable_newlines(text: str) -> str:
-    # Mirrors fixeddata.executableNewlines: manifests spell embedded executable
-    # CR/LF literally as escaped TOML newlines, and Python's TOML decoder has
-    # already produced the actual characters here.
+    # Mirrors fixeddata.executableNewlines: TOML decoding has already produced
+    # literal CR/LF characters from escaped manifest sequences.
     return text
 
 
@@ -50,6 +49,18 @@ def korean_renderer_size(text: str, custom_glyphs: set[str], label: str) -> int:
                 f"{label} uses {ch!r} U+{ord(ch):04X} but Korean glyph catalog does not contain it")
         total += 2
     return total
+
+
+def offset_fields(raw: dict, label: str) -> dict[int, dict]:
+    out: dict[int, dict] = {}
+    for key, value in raw.items():
+        try:
+            offset = int(key, 0) if isinstance(key, str) else int(key)
+        except (TypeError, ValueError) as exc:
+            raise SystemExit(f"FIXED_DATA_PARITY_FAIL {label} has invalid offset {key!r}") from exc
+        require(offset not in out, f"{label} duplicates offset {offset:#x}")
+        out[offset] = value
+    return out
 
 
 english_release = read("internal/release/build.go")
@@ -89,8 +100,8 @@ require("elfpatch.VerifyApplied(result, manifest)" in read("internal/release/kor
 # This catches bad offsets, source drift, absent Korean glyphs, and byte growth
 # before an authenticated retail EBOOT is available. The device/desktop build
 # repeats the exact check against real bytes in ApplyKoreanEBOOT.
-english_fields = load_toml("release/strings/eboot.toml")
-korean_fields = load_toml("release/korean/strings/eboot.toml")
+english_fields = offset_fields(load_toml("release/strings/eboot.toml"), "English EBOOT manifest")
+korean_fields = offset_fields(load_toml("release/korean/strings/eboot.toml"), "Korean EBOOT manifest")
 glyph_catalog = load_toml("release/korean/font/glyphs.toml")
 custom_glyphs = set(glyph_catalog.get("glyphs", {}))
 require(len(english_fields) == 557,
