@@ -43,6 +43,12 @@ const opening210065SafeLayout = "광대한 대지 바이아시온 대륙.<line-b
 // before returning. This keeps device beta testing from degenerating into a
 // one-record-per-build error chase while preserving fail-closed output: no bank
 // bytes are emitted unless every selected replacement materializes cleanly.
+//
+// A-054 production guard: every materialized Korean record is analyzed with the
+// captured retail z_un_089661DC scanner semantics. Any ordinary-byte span that
+// reaches the 0x100 inline-region boundary is rejected before bank bytes are
+// emitted. This promotes the full-corpus forensic discriminant into the actual
+// compiler path used by the Android ISO patcher.
 func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[int]KoreanRecord, mapping koreanslots.Mapping) ([]byte, error) {
 	if len(items) != len(bank.Records) {
 		return nil, fmt.Errorf("%s: Korean compilation has %d items for %d source records", bank.Name, len(items), len(bank.Records))
@@ -68,6 +74,15 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 		materialized, err := materializeKoreanRecord(source, replacement, mapping)
 		if err != nil {
 			failures = append(failures, fmt.Sprintf("%s: ID %d %v", bank.Name, source.ID, err))
+			continue
+		}
+		metrics, err := AnalyzeRetailStringScanner(materialized)
+		if err != nil {
+			failures = append(failures, fmt.Sprintf("%s: ID %d retail scanner analysis: %v", bank.Name, source.ID, err))
+			continue
+		}
+		if metrics.MaxSpan >= 0x100 {
+			failures = append(failures, fmt.Sprintf("%s: ID %d retail scanner max span is %d (0x%X), must be < 0x100", bank.Name, source.ID, metrics.MaxSpan, metrics.MaxSpan))
 			continue
 		}
 		records[index] = materialized
