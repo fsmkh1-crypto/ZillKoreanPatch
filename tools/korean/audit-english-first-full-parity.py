@@ -10,7 +10,6 @@ from __future__ import annotations
 
 import pathlib
 import re
-import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 
@@ -50,17 +49,20 @@ require(not missing, "Korean validator lost English consumer references: " + ","
 require(deliberate_split <= korean_c5_consumers,
         "documented C5 split is not backed by Korean C5 consumer membership")
 
-# Both paths must use the same engine-capacity constants, with C5 again allowed
-# to live in the dedicated Korean validator.
-constant_re = re.compile(r"\b([a-z][A-Za-z0-9]*(?:CapacityBytes|MaxPayloadBytes|MaxLineBytes|MaxPages))\b")
-english_constants = set(constant_re.findall(english_validate))
-korean_constants = set(constant_re.findall(korean_validate)) | set(constant_re.findall(korean_c5))
+# Both paths must use the same *engine constants defined in rules.go*. Do not
+# mistake local helper parameter names such as bufferCapacityBytes for engine
+# contracts merely because their spelling ends in CapacityBytes.
+rule_constant_re = re.compile(r"^\s*([a-z][A-Za-z0-9]*(?:CapacityBytes|MaxPayloadBytes|MaxLineBytes|MaxPages))\s*=", re.M)
+rule_constants = set(rule_constant_re.findall(rules))
+english_constants = {name for name in rule_constants if re.search(r"\b" + re.escape(name) + r"\b", english_validate)}
+korean_constants = {
+    name for name in rule_constants
+    if re.search(r"\b" + re.escape(name) + r"\b", korean_validate)
+    or re.search(r"\b" + re.escape(name) + r"\b", korean_c5)
+}
 missing_constants = english_constants - korean_constants
 require(not missing_constants,
         "Korean validation lost English capacity constants: " + ",".join(sorted(missing_constants)))
-for name in english_constants:
-    require(re.search(r"\b" + re.escape(name) + r"\b", rules) is not None,
-            f"shared contract constant {name} is no longer defined in rules.go")
 
 # Control traversal and lowering must remain shared with English. Korean is
 # allowed to replace only the natural-text encoder/validation layer.
