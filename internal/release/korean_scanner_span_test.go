@@ -16,10 +16,16 @@ import (
 )
 
 // TestCurrentKoreanCorpusRetailScannerMaxSpanBelowInlineBoundary is the static
-// discriminant requested after A-054/A-055. It does not emulate the whole
-// z_un_0886C84C object builder; it proves the narrower property that the exact
-// current compiler materialization cannot hand z_un_089661DC an ordinary-byte
-// line span >= the 0x100 inline-region boundary for any accepted Korean record.
+// full-corpus discriminant requested after A-054/A-055. It intentionally audits
+// every accepted canonical Korean entry directly, rather than calling
+// BuildKoreanBetaProject before retail banks are bound. The latter requires
+// authenticated retail bank metadata and would classify every entry as
+// structural in this source-only CI test, yielding a vacuous zero-record pass.
+//
+// This test proves the narrower property that the exact current record-local
+// compiler materialization cannot hand z_un_089661DC an ordinary-byte line span
+// >= the 0x100 inline-region boundary for any accepted Korean record. The actual
+// production compiler independently enforces the same boundary fail-closed.
 //
 // The custom-rune mapping below deliberately maps every custom rune to one valid
 // two-byte key. For this metric the identity of a renderer key is irrelevant:
@@ -35,12 +41,11 @@ func TestCurrentKoreanCorpusRetailScannerMaxSpanBelowInlineBoundary(t *testing.T
 	if err != nil {
 		t.Fatal(err)
 	}
-	korean, skippedStructural, err := BuildKoreanBetaProject(source, canonical)
-	if err != nil {
-		t.Fatal(err)
+	if len(canonical.Entries) == 0 {
+		t.Fatal("canonical Korean corpus is empty")
 	}
 
-	texts, err := korean.RuntimeTexts(source)
+	texts, err := canonical.RuntimeTexts(source)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -50,7 +55,7 @@ func TestCurrentKoreanCorpusRetailScannerMaxSpanBelowInlineBoundary(t *testing.T
 	}
 
 	layouts := make(map[int]string)
-	for _, row := range korean.Entries {
+	for _, row := range canonical.Entries {
 		if row.Layout != "" {
 			layouts[row.ID] = row.Layout
 		}
@@ -59,7 +64,7 @@ func TestCurrentKoreanCorpusRetailScannerMaxSpanBelowInlineBoundary(t *testing.T
 	if err != nil {
 		t.Fatal(err)
 	}
-	layouts, derived, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, mapping)
+	layouts, derived, err := engine.DeriveKoreanC5StorageLayouts(source, canonical, layouts, mapping)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -71,7 +76,7 @@ func TestCurrentKoreanCorpusRetailScannerMaxSpanBelowInlineBoundary(t *testing.T
 	var offenders []finding
 	maxID, maxSpan := 0, 0
 	checked := 0
-	for _, row := range korean.Entries {
+	for _, row := range canonical.Entries {
 		item, ok := source.Find(row.ID)
 		if !ok {
 			t.Fatalf("Korean message %d lacks canonical source", row.ID)
@@ -97,14 +102,20 @@ func TestCurrentKoreanCorpusRetailScannerMaxSpanBelowInlineBoundary(t *testing.T
 		}
 	}
 
+	// Non-vacuity is part of the contract. A full-corpus audit must examine every
+	// accepted Korean entry or fail; checked=0 can never again be reported as PASS.
+	if checked != len(canonical.Entries) {
+		t.Fatalf("scanner-span census incomplete: checked=%d canonical=%d", checked, len(canonical.Entries))
+	}
+
 	sort.Slice(offenders, func(i, j int) bool {
 		if offenders[i].span != offenders[j].span {
 			return offenders[i].span > offenders[j].span
 		}
 		return offenders[i].id < offenders[j].id
 	})
-	t.Logf("FORENSIC KOREAN_SCANNER_SPAN_SUMMARY canonical=%d materializable=%d structural_skipped=%d checked=%d derived_c5_layouts=%d max_id=%d max_span=%d offenders_ge_0x100=%d",
-		len(canonical.Entries), len(korean.Entries), skippedStructural, checked, derived, maxID, maxSpan, len(offenders))
+	t.Logf("FORENSIC KOREAN_SCANNER_SPAN_SUMMARY canonical=%d checked=%d derived_c5_layouts=%d max_id=%d max_span=%d offenders_ge_0x100=%d",
+		len(canonical.Entries), checked, derived, maxID, maxSpan, len(offenders))
 	if len(offenders) == 0 {
 		return
 	}
