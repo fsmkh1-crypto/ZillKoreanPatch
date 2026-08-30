@@ -9,6 +9,7 @@ import (
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/koreanslots"
+	"github.com/HK47196/zill/internal/message"
 )
 
 // DeriveKoreanEnglishConsumerLayouts applies the same C22 storage contract used
@@ -42,7 +43,11 @@ func (e *Engine) DeriveKoreanEnglishConsumerLayouts(source *corpus.Project, kore
 			continue
 		}
 		candidate := wrapKoreanC5Storage(effective)
-		if !preservesKoreanLayoutSemantics(row.Korean, candidate) {
+		// Keep generated Korean layouts on the exact same authoritative semantic
+		// preservation contract used by CompileBankKorean. A local whitespace-
+		// stripping approximation is too permissive around runtime controls and can
+		// silently accept a build-local layout that the real compiler should reject.
+		if !message.PreservesLayoutSemantics(row.Korean, candidate) {
 			return nil, 0, fmt.Errorf("message %d C22 derived layout changes semantic/control text", row.ID)
 		}
 		post, err := e.c22ViolationKoreanBytes(row.ID, candidate, mapping)
@@ -56,22 +61,6 @@ func (e *Engine) DeriveKoreanEnglishConsumerLayouts(source *corpus.Project, kore
 		count++
 	}
 	return derived, count, nil
-}
-
-func preservesKoreanLayoutSemantics(semantic, layout string) bool {
-	// The message package owns the authoritative semantic/layout contract, but
-	// importing it here would create no cycle (layout already imports message in
-	// other files). Keep this helper local to make the intent explicit.
-	return semanticWithoutLayout(semantic) == semanticWithoutLayout(layout)
-}
-
-func semanticWithoutLayout(s string) string {
-	s = strings.ReplaceAll(s, lineBreak, "")
-	s = strings.ReplaceAll(s, "\r", "")
-	s = strings.ReplaceAll(s, "\n", "")
-	s = strings.ReplaceAll(s, "\t", "")
-	s = strings.ReplaceAll(s, " ", "")
-	return s
 }
 
 // ValidateKoreanEnglishConsumerContracts mirrors the upstream English patcher's
@@ -267,7 +256,7 @@ func (e *Engine) validateKoreanPostings(effective map[int]string, translated map
 			if text, ok := effective[id]; ok {
 				if size, err := koreanExpandedBytes(text, id, mapping); err == nil && size > maxima[role] {
 					maxima[role] = size
-				}
+			}
 		}
 	}
 	integer := map[string]bool{}
