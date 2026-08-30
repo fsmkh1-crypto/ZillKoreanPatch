@@ -27,6 +27,7 @@ jobs:
           set -euo pipefail
           TRACE=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeTraceService.java
           UI=android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/FreezeCaptureActivity.java
+          MANIFEST=android-patcher/app/src/main/AndroidManifest.xml
           grep -q 'ACTION_START' "$TRACE"
           grep -q 'SAMPLE_INTERVAL_MS = 500' "$TRACE"
           grep -q 'MAX_SAMPLES = 60' "$TRACE"
@@ -41,8 +42,11 @@ jobs:
           grep -q 'connect_attempt' "$TRACE"
           grep -q 'session' "$TRACE"
           grep -q 'getVisibleState' "$TRACE"
+          grep -q '질올 PPSSPP 프리징 기록' "$UI"
           grep -q '연결됨 · 샘플링 중' "$UI"
           grep -q 'startButton.setEnabled(!running)' "$UI"
+          grep -q 'android:name=".FreezeCaptureActivity"' "$MANIFEST"
+          grep -q 'android:exported="false"' "$MANIFEST"
           ! grep -q 'ACTION_CAPTURE_NOW' "$TRACE"
           ! grep -q 'capture_recovery' "$TRACE"
           ! grep -q 'second_scanner_call' "$TRACE"
@@ -86,7 +90,7 @@ jobs:
           cmp android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so /tmp/zill-apk/lib/arm64-v8a/libzill.so
           cat /tmp/zill-apk/classes*.dex > /tmp/all-classes.dex.bin
           strings /tmp/all-classes.dex.bin > /tmp/apk-strings.txt
-          grep -q 'Zill PPSSPP rolling freeze trace' /tmp/apk-strings.txt
+          grep -q '질올 PPSSPP 프리징 기록' /tmp/apk-strings.txt
           grep -q 'hot_loop_detected' /tmp/apk-strings.txt
           grep -q 'connect_attempt' /tmp/apk-strings.txt
           grep -q 'start_ignored' /tmp/apk-strings.txt
