@@ -14,13 +14,32 @@ import (
 // Mapping binds one Unicode rune to one existing two-byte renderer key.
 type Mapping map[rune]cp932.GlyphKey
 
+// RendererRune normalizes typography that is semantically ordinary text but is
+// absent from the authenticated installed font repertoire. The replacements are
+// chosen from glyphs already used by the upstream Japanese/English renderer:
+// ASCII tilde becomes the full-width wave glyph, and the unsupported left smart
+// quote becomes the ordinary apostrophe. Storage measurement, visual measurement
+// and final materialization must all call this same seam.
+func RendererRune(r rune) rune {
+	switch r {
+	case '~':
+		return '～'
+	case '‘':
+		return '\''
+	default:
+		return r
+	}
+}
+
 // RequiredCustomRunes returns the sorted unique characters from texts that
-// stock CP932 cannot encode. This deliberately measures the actual Korean
-// corpus instead of assuming that all Hangul syllables will be needed.
+// stock CP932 cannot encode after renderer typography normalization. This
+// deliberately measures the actual Korean corpus instead of assuming that all
+// Hangul syllables will be needed.
 func RequiredCustomRunes(texts []string) []rune {
 	set := make(map[rune]struct{})
 	for _, text := range texts {
-		for _, r := range text {
+		for _, raw := range text {
+			r := RendererRune(raw)
 			if _, err := cp932.Encode(string(r)); err != nil {
 				set[r] = struct{}{}
 			}
@@ -73,11 +92,12 @@ func Allocate(runes []rune, available []cp932.GlyphKey) (Mapping, error) {
 }
 
 // Encode emits mapped renderer bytes for custom runes and ordinary CP932 for
-// all other runes. Missing mappings therefore fail closed instead of silently
-// substituting or corrupting text.
+// all other runes after RendererRune normalization. Missing mappings therefore
+// fail closed instead of silently substituting or corrupting text.
 func Encode(text string, mapping Mapping) ([]byte, error) {
 	out := make([]byte, 0, len(text))
-	for _, r := range text {
+	for _, raw := range text {
+		r := RendererRune(raw)
 		if key, ok := mapping[r]; ok {
 			encoded, err := key.Bytes()
 			if err != nil {
