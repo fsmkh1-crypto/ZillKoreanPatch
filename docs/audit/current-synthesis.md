@@ -12,19 +12,19 @@ See A-020.
 - Repeated non-reproduction may increase confidence but never proves absence of an intermittent bug.
 - CI success, Android/APK packaging, authenticated ISO build, and runtime behavior are separate evidence levels.
 
-## Captured 210065 freeze — strongest current machine-state explanation
+## A-054 historical captured-run mechanism — retained, but rejected as the current sole cause
 
-A-054 materially narrows the preserved freeze capture and supersedes the earlier assumption that the bad `s0+0x3C0` word probably came from the `0x100` allocator return.
+A-054 remains a strong explanation for the preserved historical freeze capture, but A-058 supersedes the earlier ranking that treated this mechanism as the leading blocker for the current HEAD.
 
-Established for the captured run:
+Established for the historical captured run:
 
 - `z_un_0886c84c` has an inline text region at `s0+0x2C0 .. s0+0x3BF`; the first secondary-page pointer slot begins immediately at `s0+0x3C0`.
-- The captured second scanner call has `s4=0`, while the known split/allocation producer increments `s4` immediately after storing an allocated page pointer. No reset before the second scanner has yet been identified.
+- The captured second scanner call has `s4=0`, while the known split/allocation producer increments `s4` immediately after storing an allocated page pointer. No reset before the second scanner was identified.
 - The captured first scanner result is `s3=0x113` (275 bytes), exceeding the 0x100-byte inline region by 19 bytes.
 - The later load from `s0+0x3C0` yields `0x8C4C89A4`, which is then passed directly to the NUL scanner and produces the observed runaway scan.
-- A separately armed breakpoint at the additional-page allocation boundary was not observed before the same freeze. This is supporting evidence only, but it is consistent with `s4=0`.
+- A separately armed breakpoint at the additional-page allocation boundary was not observed before that freeze. This remains supporting evidence only.
 
-Current interpretation:
+Historical captured-run interpretation:
 
 ```text
 long first-page/materialized span
@@ -35,26 +35,22 @@ long first-page/materialized span
   -> freeze
 ```
 
-This is a **strong root-cause candidate for the captured run only**. It is not yet a unified explanation for the separately reported H1 eight-line freeze.
+A-055 then added a compiler/materialization gate for ID 210065, and the current branch's full-corpus static gate verifies that accepted Korean materializations do not reach the observed `0x100` scanner-span boundary for this mechanism.
 
-Critical contradiction still open:
+A-058 records the decisive runtime result: a patched ISO carrying the current A-055-safe forensic payload still froze at the 210065 scene once. Under A-020, that single freeze is strong failure evidence and is sufficient to reject A-054 as the **sole** explanation for the current HEAD.
 
-- the current branch forcibly materializes ID 210065 as an eight-line diagnostic layout;
-- the compiled diagnostic is expected to contain seven `0x0A` line breaks, keep every encoded line within the 56-byte C22 line contract, and remain below 0x100 bytes in the synthetic materialization gate;
-- therefore a capture with an unbroken 0x113-byte span must either come from a build/runtime payload that did not contain the intended layout, from a different runtime materialization path, or from a still-missing split/state condition.
+Therefore:
 
-Next decisive evidence:
+- do **not** infer that the historical `s3=0x113`, `s4=0`, or overwritten `s0+0x3C0` state recurred merely because the visible freeze location is the same;
+- do **not** spend further tracer work on proving a scanner-window condition unless new independent evidence points back to it;
+- do **not** mass-fix current records for the >=0x100 scanner-span mechanism: the current static corpus gate has no offender to fix;
+- retain A-054 as a valid historical captured-run mechanism, not as the active sole-cause hypothesis for the current freeze.
 
-1. identify/reproduce the exact H1 build payload for 210065;
-2. prove whether the executed/materialized record contains the seven intended `0x0A` line breaks;
-3. compare the bytes crossing offset `0x100` with the observed overwritten word `A4 89 4C 8C` when a matching failing artifact is available;
-4. only if those bytes/path states align, promote internal-page overflow from captured-run candidate to a broader root cause.
-
-Do not descend further into `08A23064` allocator internals before this contradiction is resolved.
+The next candidate must independently explain a freeze that survives the current safe materialization and full-corpus scanner-span gate.
 
 ## Current principal root-cause branches
 
-### 1. Renderer/font runtime contract and renderer-key ownership — active / strong evidence of real defects, causality open
+### 1. Renderer/font runtime contract and renderer-key ownership — active / strongest independent branch after A-058
 
 Established facts:
 
@@ -63,15 +59,17 @@ Established facts:
 - Full mobile repack changes Page/X/Y geometry across the 2,637-glyph atlas while preserving key/BST and intended raster/metric semantics.
 - A postcondition verifier can prove internal PAF/atlas consistency, but there is not yet an independently reconstructed proof that every retail runtime consumer follows the updated PAF coordinates.
 - The public repository does not preserve the remembered retail glyph-lookup disassembly as reproducible evidence.
+- A-058 removes the current >=0x100 scanner-span mechanism as a sufficient explanation, increasing the relative priority of renderer/key/coordinate ownership work without proving it causal.
 
 Open discriminants:
 
 - authenticated exact-byte mapped-key collisions in BOOT/EBOOT/BINDATA;
 - authenticated full-font semantic audit and output fingerprints;
 - retail glyph lookup/BST/coordinate consumer reconstruction;
-- classification of hidden icon/direct-atlas consumers.
+- classification of hidden icon/direct-atlas consumers;
+- proof that all consumers of a relocated glyph resolve Page/X/Y through the patched PAF rather than through fixed/direct atlas geometry.
 
-### 2. Runtime message consumer / dynamic-substitution memory contract — active / strong static proof gap, causality open
+### 2. Runtime message consumer / dynamic-substitution memory contract — active, but `$15` itself reduced
 
 Established facts:
 
@@ -81,7 +79,8 @@ Established facts:
 - Original `walkC5` contributes zero bytes for substitution tokens to page-payload accounting; it only marks the branch dynamic.
 - Generic inline-value/non-space adjacency occurs 5,742 times, so ID 10010's immediate `$15`/Hangul adjacency is not distinctive.
 - `$28` player name has a documented maximum of 16 encoded bytes from the eight-character / 17-byte C-string input-storage contract.
-- Other inline substitution maxima, including `$15`, remain incomplete.
+- A-025 reconstructs caller index 4 and shows that the relevant formatter's `d: %d ` output for the observed value is exactly `d: 15 `; the Korean fixed literal is the same seven-byte text at the shared runtime boundary. That makes “the numeric value 15 itself” a weak suspect.
+- Other inline substitution maxima remain incomplete.
 
 Important provenance boundary (A-023):
 
@@ -92,11 +91,17 @@ Important provenance boundary (A-023):
 Open discriminants:
 
 - authenticated C5 runtime candidate scan and subsequent data/control-flow reconstruction;
-- `$15` source/max-length/staging-buffer contract;
 - known-max expansion headroom in real authenticated C5 pages;
-- formatter/copy order and overflow/check semantics.
+- formatter/copy order and overflow/check semantics for substitutions other than the already reduced caller-4 `$15` case;
+- any separate shared-runtime ownership or termination condition that survives the A-055/A-058 scanner-span result.
 
 ## Demoted / superseded interpretations
+
+### A-054 >=0x100 scanner span as the sole current blocker — rejected
+
+See A-058.
+
+The historical captured invocation remains explained well by A-054, but the current A-055-safe payload and full-corpus <0x100 scanner-span gate still produced a runtime freeze once. The mechanism is therefore not sufficient to explain the current HEAD by itself.
 
 ### Expanded PR #14 EBOOT as a required freeze condition — rejected as necessary condition
 
@@ -108,7 +113,7 @@ EBOOT/UI rendering can still participate as a submechanism, but `expanded EBOOT 
 
 ### Generic `$15` followed immediately by Hangul — reduced
 
-The byte pattern exists, but thousands of other inline substitutions are directly adjacent to following text. The useful remaining question is the `$15` runtime value and its consumer/buffer contract, not generic adjacency.
+The byte pattern exists, but thousands of other inline substitutions are directly adjacent to following text. A-025 additionally reconstructs the relevant caller and shows semantic/effective text equivalence for the observed `15` case. Remaining useful questions concern shared runtime ownership and other substitution contracts, not generic adjacency or the integer 15 by itself.
 
 ### Visible 0x87 icon corruption as the complete freeze cause — insufficient
 
@@ -124,17 +129,18 @@ The current production EBOOT input has 2 H0-era fields. The historical expanded 
 
 The authenticated ISO preflight now replays H0/B/A/Combined/Stable-minimal planner policies against the **current** corpus and explicitly labels the output `current_corpus_replay=true`. This is deterministic static comparison, not a claim to reproduce the historical runtime ISOs byte-for-byte.
 
-## Required asset-backed evidence before another device experiment
+## Required asset-backed/static evidence before another device experiment
 
-1. Reproduce/identify the exact H1 210065 payload and prove whether its seven intended line breaks reached the runtime consumer.
-2. PR #14 current-corpus policy replay: mapping SHA/deltas, EBOOT encoding digests, exact-byte mapped-key hits.
-3. Mobile exact-byte ownership audit on authenticated BOOT/EBOOT/BINDATA.
-4. Full-font 2,637-glyph semantic postcondition verification and retail/patched PAF+atlas fingerprints.
+1. Authenticated exact-byte mapped-key ownership audit across BOOT/EBOOT/BINDATA, using the exact encoded byte pairs actually assigned to Korean glyphs.
+2. Full-font 2,637-glyph semantic postcondition verification plus retail/patched PAF+atlas fingerprints.
+3. Reconstruct the retail glyph lookup/BST/Page/X/Y consumer and prove whether every relocated glyph follows patched PAF coordinates or whether any consumer derives/directly owns atlas geometry.
+4. Classify hidden icon/direct-atlas consumers sufficiently to distinguish an unsafe key collision from a pure glyph-raster/metric issue.
 5. Heuristic C5 retail-executable candidate scan, followed by manual/dataflow validation; zero candidates is not a contract disproof.
-6. Font-renderer 0x20-stride candidate scan, followed by actual key/BST/Page/X/Y dataflow validation.
-7. Corrected C5 known-expansion report on authenticated Korean output.
-8. Full projection compatibility replay on authenticated retail banks.
-9. Only after the above, choose a one-variable runtime experiment and record repeated outcomes as failure-count / run-count rather than `PASS` shorthand.
+6. Corrected C5 known-expansion report on authenticated Korean output for substitution cases not already reduced by A-025.
+7. Full projection compatibility replay on authenticated retail banks.
+8. Only after an independent discriminant survives these gates, choose a one-variable runtime experiment and record repeated outcomes as failure-count / run-count rather than `PASS` shorthand.
+
+Do not rerun the same 210065 device scene merely to accumulate non-freezes after A-058. A new runtime experiment must discriminate a newly supported mechanism.
 
 ## Evidence hygiene
 
