@@ -1,0 +1,29 @@
+name: English-first font metrics parity
+
+on:
+  pull_request:
+    paths:
+      - 'release/font/metrics.toml'
+      - 'internal/zillfont/**'
+      - 'internal/release/korean_font_mobile.go'
+      - 'cmd/zill/build_korean_mobile_plan.go'
+      - 'tools/korean/audit-korean-layout-font-metrics.py'
+      - '.github/workflows/english-first-font-metrics.yml'
+  push:
+    paths:
+      - 'release/font/metrics.toml'
+      - 'internal/zillfont/**'
+      - 'internal/release/korean_font_mobile.go'
+      - 'cmd/zill/build_korean_mobile_plan.go'
+      - 'tools/korean/audit-korean-layout-font-metrics.py'
+      - '.github/workflows/english-first-font-metrics.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: python3 tools/korean/audit-korean-layout-font-metrics.py
