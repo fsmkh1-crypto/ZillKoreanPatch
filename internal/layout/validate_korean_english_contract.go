@@ -62,7 +62,9 @@ func (e *Engine) DeriveKoreanEnglishConsumerLayouts(source *corpus.Project, kore
 // ValidateKoreanEnglishConsumerContracts mirrors the upstream English patcher's
 // fixed-storage validation categories and limits. The only deliberate language
 // difference is byte measurement: natural Korean text is encoded with the exact
-// authenticated renderer mapping instead of stock CP932.
+// authenticated renderer mapping instead of stock CP932. Once storage passes,
+// the same release gate also invokes the upstream English hard visual contracts
+// with Korean-aware renderer advances.
 func (e *Engine) ValidateKoreanEnglishConsumerContracts(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) error {
 	if source == nil || korean == nil {
 		return fmt.Errorf("Korean English-contract validation: nil project")
@@ -176,6 +178,9 @@ func (e *Engine) ValidateKoreanEnglishConsumerContracts(source *corpus.Project, 
 		sort.Strings(failures)
 		return fmt.Errorf("Korean upstream-English consumer storage validation failed:\n- %s", strings.Join(failures, "\n- "))
 	}
+	if err := e.ValidateKoreanEnglishVisualContracts(source, korean, layouts, mapping); err != nil {
+		return err
+	}
 	return nil
 }
 
@@ -251,7 +256,6 @@ func (e *Engine) validateKoreanPostings(effective map[int]string, translated map
 				if size, err := koreanExpandedBytes(text, id, mapping); err == nil && size > maxima[role] {
 					maxima[role] = size
 				}
-			}
 		}
 	}
 	integer := map[string]bool{}
