@@ -23,6 +23,11 @@ import (
 // fragment exceeds profileMaxLines, so Korean must enforce those same hard
 // conditions using the renderer metrics that the Korean font build will
 // actually install.
+//
+// With authenticated retail bytes, this uses the exact source projection. In
+// repository-only CI Record.Raw is intentionally absent, so source tokens cannot
+// be reconstructed; in that case we conservatively validate the effective
+// annotated Korean text directly. The asset-bound build remains the exact gate.
 func (e *Engine) ValidateKoreanEnglishVisualContracts(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) error {
 	if source == nil || korean == nil {
 		return fmt.Errorf("Korean English visual-contract validation: nil project")
@@ -40,24 +45,30 @@ func (e *Engine) ValidateKoreanEnglishVisualContracts(source *corpus.Project, ko
 			failures = append(failures, fmt.Sprintf("character-profile message %d lacks source", row.ID))
 			continue
 		}
-		projection, err := message.Project(item.Record)
-		if err != nil {
-			failures = append(failures, fmt.Sprintf("character-profile message %d projection: %v", row.ID, err))
-			continue
-		}
 		text := effectiveKoreanText(row, layouts)
-		width, err := e.maxProjectedKoreanWidth(projection, text, row.ID, mapping)
+
+		var width, lines int
+		projection, err := message.Project(item.Record)
+		if err == nil {
+			width, err = e.maxProjectedKoreanWidth(projection, text, row.ID, mapping)
+			if err == nil {
+				lines, err = maxProjectedKoreanFragmentLines(projection, text, row.ID, mapping)
+			}
+		} else if len(item.Record.Raw) == 0 {
+			// Asset-free source projects deliberately have no token stream. Treat
+			// the whole annotated profile as one semantic fragment; this cannot
+			// hide a width/line overflow and avoids pretending an unavailable retail
+			// projection was reconstructed.
+			width, lines, err = e.measureKoreanProfileText(text, row.ID, mapping)
+		} else {
+			err = fmt.Errorf("character-profile message %d projection: %w", row.ID, err)
+		}
 		if err != nil {
 			failures = append(failures, err.Error())
 			continue
 		}
 		if width > profileAdvance {
 			failures = append(failures, fmt.Sprintf("message %d: profile line is %d units (maximum %d)", row.ID, width, profileAdvance))
-		}
-		lines, err := maxProjectedKoreanFragmentLines(projection, text, row.ID, mapping)
-		if err != nil {
-			failures = append(failures, err.Error())
-			continue
 		}
 		if lines > profileMaxLines {
 			failures = append(failures, fmt.Sprintf("message %d: profile exceeds %d lines", row.ID, profileMaxLines))
@@ -108,6 +119,25 @@ func (e *Engine) measureKoreanRenderer(s string, id int, mapping koreanslots.Map
 		total += g.Advance
 	}
 	return total + reserved, nil
+}
+
+func (e *Engine) measureKoreanProfileText(text string, id int, mapping koreanslots.Mapping) (int, int, error) {
+	maximumWidth := 0
+	maximumLines := 0
+	for _, page := range strings.Split(text, "<end>") {
+		lines := strings.Split(page, lineBreak)
+		if strings.TrimSpace(page) != "" {
+			maximumLines = max(maximumLines, len(lines))
+		}
+		for _, line := range lines {
+			width, err := e.measureKoreanRenderer(line, id, mapping)
+			if err != nil {
+				return 0, 0, err
+			}
+			maximumWidth = max(maximumWidth, width)
+		}
+	}
+	return maximumWidth, maximumLines, nil
 }
 
 func (e *Engine) maxProjectedKoreanWidth(p *message.Projection, text string, id int, mapping koreanslots.Mapping) (int, error) {
