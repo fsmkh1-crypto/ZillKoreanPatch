@@ -28,7 +28,11 @@ release_build = read("internal/release/korean_build.go")
 mobile_build = read("internal/release/korean_mobile.go")
 mobile_preflight = read("internal/release/korean_mobile_preflight.go")
 korean_font = read("internal/release/korean_font.go")
+korean_fixed = read("internal/release/korean_fixed.go")
+mobile_plan = read("cmd/zill/build_korean_mobile_plan.go")
+slot_plan = read("internal/koreanslots/plan.go")
 english_font_manifest = read("release/font/manifest.toml")
+executable_manifest = read("patches/executable/manifest.toml")
 rules = read("internal/layout/rules.go")
 premise = read("AGENTS.md")
 
@@ -86,8 +90,31 @@ require(len(english_font_hashes) == 2, "upstream English font manifest no longer
 for digest in english_font_hashes:
     require(digest in korean_font,
             "Korean font path no longer pins upstream English retail source fingerprint " + digest)
-require("verifyKoreanFontRetailSources(atlas, jillbtn)" in mobile_build or "prepareKoreanMobileFontReplacements" in mobile_build,
+require("prepareKoreanMobileFontReplacements" in mobile_build,
         "mobile Korean build no longer reaches the authenticated font path")
+
+# BOOT/EBOOT is shared engine machinery. Korean must apply the same executable
+# manifest first, authenticate the manifest-patched ELF just like English, then
+# prove its sparse localization overlay did not clobber any runtime patch span.
+manifest_source = re.search(r'^source_sha256\s*=\s*"([0-9a-f]{64})"', executable_manifest, re.M)
+manifest_result = re.search(r'^result_sha256\s*=\s*"([0-9a-f]{64})"', executable_manifest, re.M)
+require(manifest_source is not None and manifest_result is not None,
+        "executable manifest lost source/result fingerprints")
+for anchor in ("elfpatch.Apply(source, manifest)", "applyKoreanFixedEBOOT(root, patched, mapping)"):
+    require(anchor in release_build, "Korean executable build drifted from shared manifest chain: " + anchor)
+for anchor in ("patchedELFSHA256", "elfpatch.VerifyApplied(result, manifest)"):
+    require(anchor in korean_fixed, "Korean fixed EBOOT overlay lost executable postcondition: " + anchor)
+
+# Slot reuse is Korean-only, so it must be at least as conservative as the
+# project-owned production BuildPlan contract: exact two-byte references in
+# authenticated BOOT/EBOOT/bindata blobs are excluded before allocation, not
+# merely reported afterwards.
+require("ExcludeExactByteReferences" in slot_plan,
+        "production slot planner lost exact-byte ownership exclusion")
+require("koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)" in mobile_plan,
+        "mobile slot planner no longer feeds authenticated BOOT/EBOOT/bindata into BuildPlan")
+require("finalAudit.CandidateHits != 0" in mobile_plan and "finalAudit.MappedHits" in mobile_plan,
+        "mobile slot planner no longer fails closed on post-allocation exact-byte collisions")
 
 print("ENGLISH_FIRST_PARITY_PASS")
 print("english_consumers=" + ",".join(sorted(english_consumers)))
@@ -96,3 +123,5 @@ print("korean_c5_split=" + ",".join(sorted(deliberate_split)))
 print("shared_capacity_constants=" + ",".join(sorted(english_constants)))
 print("release_entrypoints=desktop,mobile,preflight")
 print("font_source_fingerprints=english_manifest_exact")
+print("executable_manifest_chain=shared_and_postverified")
+print("slot_ownership=authenticated_exact_byte_fail_closed")
