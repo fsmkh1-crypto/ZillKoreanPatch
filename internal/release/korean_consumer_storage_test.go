@@ -4,6 +4,7 @@ package release
 
 import (
 	"path/filepath"
+	"sort"
 	"testing"
 
 	"github.com/HK47196/zill/internal/corpus"
@@ -12,11 +13,9 @@ import (
 )
 
 // TestCurrentKoreanCorpusEnglishConsumerStorageContracts is the repository-only
-// counterpart of the device builder's fixed-consumer and hard-visual gates.
-// Unlike the A-054 scanner census, this exhausts every upstream-English
-// asset-independent storage category over all 42,016 accepted Korean rows and
-// then derives/validates the release-blocking character-profile visual layout
-// with the Korean renderer mapping.
+// counterpart of the device builder's fixed-consumer, C5 and visual gates. It
+// exhausts every upstream-English asset-independent contract and warning class
+// over all 42,016 accepted Korean rows using Korean renderer metrics.
 //
 // Do NOT call BuildKoreanBetaProject here. That projection needs authenticated
 // retail records to classify editability; on an asset-free repository load its
@@ -47,15 +46,28 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	}
 	engine, err := loadLayout(root)
 	if err != nil { t.Fatal(err) }
+	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, mapping)
+	if err != nil { t.Fatal(err) }
 	layouts, derivedEnglish, err := engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
 	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
-	if err := engine.ValidateKoreanEnglishConsumerStorageContracts(source, korean, layouts, mapping); err != nil { t.Fatal(err) }
-	if err := engine.ValidateKoreanEnglishVisualContracts(source, korean, layouts, mapping); err != nil { t.Fatal(err) }
+	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, mapping); err != nil { t.Fatal(err) }
+	if err := engine.ValidateKoreanC5(source, korean, layouts, mapping); err != nil { t.Fatal(err) }
+	warnings, err := engine.AuditKoreanEnglishVisualWarnings(source, korean, layouts, mapping)
+	if err != nil { t.Fatal(err) }
+
+	warningCounts := make(map[string]int)
+	for _, warning := range warnings { warningCounts[warning.Code]++ }
+	codes := make([]string, 0, len(warningCounts))
+	for code := range warningCounts { codes = append(codes, code) }
+	sort.Strings(codes)
+	for _, code := range codes {
+		t.Logf("FORENSIC KOREAN_ENGLISH_WARNING_CENSUS code=%s count=%d severity=warning", code, warningCounts[code])
+	}
 
 	checked := len(korean.Entries)
 	if checked != wantCanonical { t.Fatalf("consumer census checked %d rows, want %d", checked, wantCanonical) }
-	t.Logf("FORENSIC KOREAN_CONSUMER_STORAGE_SUMMARY canonical=%d checked=%d english_layouts=%d visual_layouts=%d contracts=PASS visual=PASS exact_asset_gate=CompileBankKorean",
-		len(korean.Entries), checked, derivedEnglish, derivedVisual)
+	t.Logf("FORENSIC KOREAN_CONSUMER_STORAGE_SUMMARY canonical=%d checked=%d c5_layouts=%d english_layouts=%d visual_layouts=%d contracts=PASS visual=PASS c5=PASS warnings=%d exact_asset_gate=CompileBankKorean",
+		len(korean.Entries), checked, derivedC5, derivedEnglish, derivedVisual, len(warnings))
 }
