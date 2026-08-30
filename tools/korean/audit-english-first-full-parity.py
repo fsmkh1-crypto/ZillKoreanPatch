@@ -19,6 +19,7 @@ def require(condition: bool, message: str) -> None:
 
 
 english_validate = read("internal/layout/validate.go")
+english_engine = read("internal/layout/engine.go")
 korean_validate = read("internal/layout/validate_korean_english_contract.go")
 korean_c5 = read("internal/layout/validate_korean.go")
 korean_visual = read("internal/layout/validate_korean_visual.go")
@@ -69,14 +70,14 @@ korean_constants = {n for n in rule_constants if re.search(r"\b" + re.escape(n) 
 require(not (english_constants - korean_constants), "Korean validation lost English capacity constants")
 
 # Upstream English Reflow has two hard character-profile visual conditions and
-# four non-blocking warning families. Korean must mirror both severity classes;
-# only renderer measurement is allowed to differ.
+# non-blocking warning families in engine.go. Korean must mirror both severity
+# classes; only renderer measurement is allowed to differ.
 for anchor in ("profileAdvance", "profileMaxLines"):
     require(anchor in korean_visual, "Korean hard visual parity lost " + anchor)
 for code in ("line_exceeds_authoring_ceiling", "item_description_single_line_overflow",
              "chronicle_vertical_overflow", "runtime_substitution_unbounded",
              "guild_job_client_overflow"):
-    require(code in english_validate and code in korean_warnings,
+    require(code in english_engine and code in korean_warnings,
             "Korean warning parity lost upstream code " + code)
 
 # Semantic/materialization/compiler parity.
