@@ -5,6 +5,8 @@ package layout
 import (
 	"strings"
 	"testing"
+
+	"github.com/HK47196/zill/internal/message"
 )
 
 func TestWrapKoreanC5StoragePreservesControlsAndBoundsLines(t *testing.T) {
@@ -33,5 +35,19 @@ func TestWrapKoreanC5StorageKeepsExistingBreaks(t *testing.T) {
 	got := wrapKoreanC5Storage(input)
 	if !strings.HasPrefix(got, "첫째 줄<line-break>") {
 		t.Fatalf("existing line break was not retained: %q", got)
+	}
+}
+
+func TestWrapKoreanStoragePreservesRuntimeControlAdjacency(t *testing.T) {
+	input := strings.Repeat("가", 18) + "<value:$15>여기는이어지는문장입니다<end>"
+	got := wrapKoreanStoragePreservingControlAdjacency(input)
+	if !strings.Contains(got, "<value:$15>여") {
+		t.Fatalf("wrapper inserted a boundary at runtime-control adjacency: %q", got)
+	}
+	if !strings.Contains(got, lineBreak) {
+		t.Fatalf("expected a derived boundary after the protected leading rune: %q", got)
+	}
+	if !message.PreservesLayoutSemantics(input, got) {
+		t.Fatalf("control-aware wrapper changed semantic/control topology: %q", got)
 	}
 }
