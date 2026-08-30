@@ -69,17 +69,33 @@ func BuildKoreanAlpha(root, gameDir, isoPath, version string, plan koreanslots.P
 	}
 	engine, err := loadLayout(root)
 	if err != nil { return result, err }
+
+	// Upstream English is the storage-contract authority. English already needs
+	// explicit consumer limits despite simpler single-byte text, so Korean must
+	// not relax them. Apply the same C22 line/page/total rules first using actual
+	// Korean renderer bytes; only build-owned layout may be changed automatically.
+	layouts, derivedEnglish, err := engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, plan.Mapping)
+	if err != nil { return result, err }
+	fmt.Printf("KOREAN_UPSTREAM_ENGLISH_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedEnglish)
+
 	layouts, derivedC5, err := engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return result, err }
 	fmt.Printf("FORENSIC KOREAN_C5_DERIVED_LAYOUTS count=%d semantic_source_unchanged=true\n", derivedC5)
 
-	// A-054 scanner hardening is consumer-scoped. The captured z_un_089661DC
-	// NUL-string path is evidenced for C22; applying that contract to every bank
-	// record is invalid because some retail records are not NUL terminated.
-	// Keep canonical Korean untouched and derive only build-local C22 layouts.
+	// A-054 remains an additional C22-specific hardening layer, not a universal
+	// message rule. The English consumer contract is primary; this scanner check
+	// only guards the separately observed 0x100 captured-run failure mechanism.
 	layouts, derivedScanner, err := engine.DeriveKoreanC22RetailScannerLayouts(source, korean, layouts, plan.Mapping)
 	if err != nil { return result, err }
 	fmt.Printf("FORENSIC KOREAN_C22_SCANNER_DERIVED_LAYOUTS count=%d threshold=0x100 semantic_source_unchanged=true\n", derivedScanner)
+
+	// Enforce the upstream English fixed-buffer/consumer rules with Korean byte
+	// measurement before compiling any bank. C5 uses its exact branch-local
+	// validator immediately afterwards.
+	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, plan.Mapping); err != nil {
+		return result, err
+	}
+	fmt.Printf("Korean upstream English consumer storage contracts: PASS\n")
 
 	dynamicC5, err := validateKoreanRuntimeStorage(root, source, korean, layouts, plan.Mapping)
 	if err != nil {
