@@ -12,11 +12,11 @@ import (
 )
 
 // TestCurrentKoreanCorpusEnglishConsumerStorageContracts is the repository-only
-// counterpart of the device builder's fixed-consumer gate. Unlike the A-054
-// scanner census, this exhausts every upstream-English asset-independent storage
-// category over all 42,016 accepted Korean rows: C20/C22, bounded labels,
-// character choices, guild strings/postings, trap, equipment feedback and
-// chronicle payloads.
+// counterpart of the device builder's fixed-consumer and hard-visual gates.
+// Unlike the A-054 scanner census, this exhausts every upstream-English
+// asset-independent storage category over all 42,016 accepted Korean rows and
+// then runs the release-blocking character-profile visual contracts with the
+// Korean renderer mapping.
 //
 // Do NOT call BuildKoreanBetaProject here. That projection needs authenticated
 // retail records to classify editability; on an asset-free repository load its
@@ -25,9 +25,10 @@ import (
 // overlay directly and hard-asserts its checked population.
 //
 // All custom Korean glyphs are two-byte renderer keys, so one valid two-byte key
-// per required rune is sufficient for exact byte-width accounting. Asset-bound
-// record projection, bank/table capacity and archive integration remain the
-// independent CompileBankKorean gate on authenticated retail input.
+// per required rune is sufficient for exact byte-width accounting and Korean
+// semantic splitting. Asset-bound record projection, bank/table capacity and
+// archive integration remain the independent CompileBankKorean gate on
+// authenticated retail input.
 func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	root := filepath.Clean(filepath.Join("..", ".."))
 	source, _, err := corpus.LoadProject(root)
@@ -69,11 +70,14 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	if err := engine.ValidateKoreanEnglishConsumerStorageContracts(source, korean, layouts, mapping); err != nil {
 		t.Fatal(err)
 	}
+	if err := engine.ValidateKoreanEnglishVisualContracts(source, korean, layouts, mapping); err != nil {
+		t.Fatal(err)
+	}
 
 	checked := len(korean.Entries)
 	if checked != wantCanonical {
-		t.Fatalf("consumer storage census checked %d rows, want %d", checked, wantCanonical)
+		t.Fatalf("consumer census checked %d rows, want %d", checked, wantCanonical)
 	}
-	t.Logf("FORENSIC KOREAN_CONSUMER_STORAGE_SUMMARY canonical=%d checked=%d english_layouts=%d contracts=PASS exact_asset_gate=CompileBankKorean",
+	t.Logf("FORENSIC KOREAN_CONSUMER_STORAGE_SUMMARY canonical=%d checked=%d english_layouts=%d contracts=PASS visual=PASS exact_asset_gate=CompileBankKorean",
 		len(korean.Entries), checked, derivedEnglish)
 }
