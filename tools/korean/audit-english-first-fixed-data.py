@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import pathlib
 import re
+import tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 
@@ -13,9 +14,42 @@ def read(path: str) -> str:
     return (ROOT / path).read_text(encoding="utf-8")
 
 
+def load_toml(path: str) -> dict:
+    with (ROOT / path).open("rb") as fh:
+        return tomllib.load(fh)
+
+
 def require(condition: bool, message: str) -> None:
     if not condition:
         raise SystemExit("FIXED_DATA_PARITY_FAIL " + message)
+
+
+def executable_newlines(text: str) -> str:
+    # Mirrors fixeddata.executableNewlines: manifests spell embedded executable
+    # CR/LF literally as escaped TOML newlines, and Python's TOML decoder has
+    # already produced the actual characters here.
+    return text
+
+
+def cp932_size(text: str, label: str) -> int:
+    try:
+        return len(executable_newlines(text).encode("cp932"))
+    except UnicodeEncodeError as exc:
+        raise SystemExit(f"FIXED_DATA_PARITY_FAIL {label} is not stock CP932 encodable: {exc}") from exc
+
+
+def korean_renderer_size(text: str, custom_glyphs: set[str], label: str) -> int:
+    total = 0
+    for ch in executable_newlines(text):
+        try:
+            total += len(ch.encode("cp932"))
+            continue
+        except UnicodeEncodeError:
+            pass
+        require(ch in custom_glyphs,
+                f"{label} uses {ch!r} U+{ord(ch):04X} but Korean glyph catalog does not contain it")
+        total += 2
+    return total
 
 
 english_release = read("internal/release/build.go")
@@ -50,6 +84,40 @@ require(len(re.findall(r"^0x[0-9a-f]+\s*=", korean_fixed_manifest, re.M)) > 0,
         "Korean fixed EBOOT overlay became empty")
 require("elfpatch.VerifyApplied(result, manifest)" in read("internal/release/korean_fixed.go"),
         "Korean EBOOT overlay lost executable-manifest postverification")
+
+# Manifest-level parity against the upstream English fixed-string authority.
+# This catches bad offsets, source drift, absent Korean glyphs, and byte growth
+# before an authenticated retail EBOOT is available. The device/desktop build
+# repeats the exact check against real bytes in ApplyKoreanEBOOT.
+english_fields = load_toml("release/strings/eboot.toml")
+korean_fields = load_toml("release/korean/strings/eboot.toml")
+glyph_catalog = load_toml("release/korean/font/glyphs.toml")
+custom_glyphs = set(glyph_catalog.get("glyphs", {}))
+require(len(english_fields) == 557,
+        f"English fixed EBOOT manifest has {len(english_fields)} fields, expected 557")
+require(bool(korean_fields), "Korean fixed EBOOT manifest is empty")
+
+fixed_headroom: list[tuple[int, int, int]] = []
+for offset, korean_field in sorted(korean_fields.items()):
+    require(offset in english_fields,
+            f"Korean fixed EBOOT offset {offset:#x} is absent from English authority")
+    english_field = english_fields[offset]
+    require(korean_field.get("source") == english_field.get("source"),
+            f"Korean fixed EBOOT offset {offset:#x} source differs from English authority")
+    source_size = cp932_size(str(korean_field["source"]), f"EBOOT {offset:#x} source")
+    replacement_size = korean_renderer_size(
+        str(korean_field["replacement"]), custom_glyphs, f"EBOOT {offset:#x} replacement"
+    )
+    require(replacement_size <= source_size,
+            f"Korean fixed EBOOT offset {offset:#x} replacement uses {replacement_size} bytes; capacity is {source_size}")
+    fixed_headroom.append((offset, source_size, replacement_size))
+
+minimum_headroom = min((capacity - used for _, capacity, used in fixed_headroom), default=0)
+print(
+    "FIXED_EBOOT_KOREAN_CENSUS "
+    f"english_authority={len(english_fields)} korean_fields={len(korean_fields)} "
+    f"source_match=PASS capacity=PASS glyph_catalog=PASS minimum_headroom={minimum_headroom}"
+)
 
 # BINDATA/equipment: the English contract authenticates the exact retail member,
 # all 132 records, 17-byte fields (16-byte payload + NUL), source text, and CD
