@@ -8,19 +8,24 @@
         android:name=".PayloadRepairApplication"
         android:allowBackup="false"
         android:extractNativeLibs="true"
-        android:label="질올 프리징 Tracer"
+        android:label="질올 인피니트 플러스 한국어 패치 Beta"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
         <activity
-            android:name=".FreezeCaptureActivity"
+            android:name=".MainActivity"
             android:exported="true"
-            android:label="질올 프리징 캡처"
+            android:label="질올 인피니트 플러스 한국어 패치 Beta"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".FreezeCaptureActivity"
+            android:exported="false"
+            android:label="질올 프리징 캡처"
+            android:launchMode="singleTask" />
         <service
             android:name=".FreezeTraceService"
             android:exported="false"
