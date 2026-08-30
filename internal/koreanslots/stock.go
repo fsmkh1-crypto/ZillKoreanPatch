@@ -9,18 +9,14 @@ import (
 )
 
 // RequiredStockKeys returns the sorted unique stock renderer keys still needed
-// by a set of final runtime texts. Runes that are not CP932-encodable are
-// intentionally ignored here because they are handled by custom Korean slot
-// allocation instead.
-//
-// This helper is useful for partial Korean rollouts: callers can pass Korean
-// text for replaced records and Japanese source text for records not yet
-// translated, so Japanese glyphs cease being reserved as soon as their final
-// runtime text no longer needs them.
+// by a set of final runtime texts after RendererRune typography normalization.
+// Runes that are not CP932-encodable are intentionally ignored here because
+// they are handled by custom Korean slot allocation instead.
 func RequiredStockKeys(texts []string) []cp932.GlyphKey {
 	set := make(map[cp932.GlyphKey]struct{})
 	for _, text := range texts {
-		for _, r := range text {
+		for _, raw := range text {
+			r := RendererRune(raw)
 			encoded, err := cp932.Encode(string(r))
 			if err != nil {
 				continue
