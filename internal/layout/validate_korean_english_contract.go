@@ -256,6 +256,7 @@ func (e *Engine) validateKoreanPostings(effective map[int]string, translated map
 				if size, err := koreanExpandedBytes(text, id, mapping); err == nil && size > maxima[role] {
 					maxima[role] = size
 				}
+			}
 		}
 	}
 	integer := map[string]bool{}
