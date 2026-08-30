@@ -16,6 +16,7 @@ import (
 )
 
 var scannerAuditControl = regexp.MustCompile(`<(?:if|select|call:[0-9]+|jump:[0-9]+|value:\$[0-9A-F]{2}|add|subtract|multiply|divide|modulo|equal|not-equal|less|greater|less-equal|greater-equal|and|or|operator:\$[0-9A-F]{2}:\$[0-9A-F]{2}|color:[^<>]|discard:[^<>]:\$[0-9A-F]{2}|escape:\$[0-9A-F]{2}|end|separator|backspace|tab|line-break|\$[0-9A-F]{2})>`)
+var scannerAuditRawByte = regexp.MustCompile(`^<\$[0-9A-F]{2}>$`)
 
 const scannerAudit210065Layout = "광대한 대지 바이아시온 대륙.<line-break>너무나 넓어 지도에도 기록되지<line-break>않고 여행자에게조차 알려지지 않은<line-break>작은 마을이 있다…. 마을의 이름은<line-break>미이스. 그곳에는 작은 신전과 숲,<line-break>그리고 평온한 일상 정도뿐이었다.<line-break>위대한 혼의 이야기는<line-break>여기서 시작된다…….<end>"
 
@@ -51,8 +52,12 @@ func TestCurrentKoreanCorpusRetailScannerMaxSpanBelowInlineBoundary(t *testing.T
 		t.Fatal(err)
 	}
 	mapping := make(koreanslots.Mapping)
+	// GlyphKey values are stored in little-endian renderer-key order. 0xAC82
+	// emits bytes 82 AC and is the same known-valid two-byte key used by the
+	// koreanslots encoder unit test. Key identity is irrelevant to this byte-span
+	// metric; only the invariant two-byte width matters.
 	for _, r := range koreanslots.RequiredCustomRunes(texts) {
-		mapping[r] = cp932.GlyphKey(0x8140)
+		mapping[r] = cp932.GlyphKey(0xAC82)
 	}
 
 	type finding struct {
@@ -162,7 +167,7 @@ func conservativeAnnotatedScannerSpan(text string, mapping koreanslots.Mapping) 
 			tag == "<equal>", tag == "<not-equal>", tag == "<less>", tag == "<greater>", tag == "<less-equal>",
 			tag == "<greater-equal>", tag == "<and>", tag == "<or>", strings.HasPrefix(tag, "<operator:$"):
 			span += 2
-		case tag == "<separator>", tag == "<backspace>", tag == "<tab>", regexp.MustCompile(`^<\$[0-9A-F]{2}>$`).MatchString(tag):
+		case tag == "<separator>", tag == "<backspace>", tag == "<tab>", scannerAuditRawByte.MatchString(tag):
 			span++
 		default:
 			// Fail closed if the runtime tag vocabulary grows without updating this audit.
