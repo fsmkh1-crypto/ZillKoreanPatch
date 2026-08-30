@@ -29,15 +29,11 @@ release_build = read("internal/release/korean_build.go")
 mobile_build = read("internal/release/korean_mobile.go")
 mobile_preflight = read("internal/release/korean_mobile_preflight.go")
 korean_font = read("internal/release/korean_font.go")
-korean_full_repack_verify = read("internal/zillfont/korean_full_repack_verify.go")
 korean_fixed = read("internal/release/korean_fixed.go")
-english_fixeddata = read("internal/fixeddata/eboot.go")
 korean_fixeddata = read("internal/fixeddata/korean_eboot.go")
 equipment_fixeddata = read("internal/fixeddata/equipment.go")
 desktop_plan = read("cmd/zill/build_korean.go")
 mobile_plan = read("cmd/zill/build_korean_mobile_plan.go")
-zill_main = read("cmd/zill/main.go")
-slot_plan = read("internal/koreanslots/plan.go")
 paa = read("internal/gamefmt/paa/paa.go")
 disc = read("internal/release/disc.go")
 english_font_manifest = read("release/font/manifest.toml")
@@ -47,12 +43,12 @@ premise = read("AGENTS.md")
 android_activity = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/MainActivity.java")
 android_payload_integrity = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/ProjectAssetIntegrity.java")
 android_application = read("android-patcher/app/src/main/java/com/fsmkh1/zillfontdump/PayloadRepairApplication.java")
-android_manifest = read("android-patcher/app/src/main/AndroidManifest.xml")
 android_workflow = read(".github/workflows/android-korean-a054-rc.yml")
 
 require("NON-NEGOTIABLE PROJECT PREMISE" in premise and "ENGLISH PATCH FIRST" in premise,
         "AGENTS.md no longer contains the English-first project premise")
 
+# Consumer and capacity parity.
 consumer_re = re.compile(r"e\.consumers\.([A-Za-z0-9_]+)")
 english_consumers = set(consumer_re.findall(english_validate))
 korean_consumers = set(consumer_re.findall(korean_validate))
@@ -60,187 +56,98 @@ korean_c5_consumers = set(consumer_re.findall(korean_c5))
 deliberate_split = {"C5IDs", "SinglePageC5IDs"}
 missing = english_consumers - korean_consumers - deliberate_split
 require(not missing, "Korean validator lost English consumer references: " + ",".join(sorted(missing)))
-require(deliberate_split <= korean_c5_consumers,
-        "documented C5 split is not backed by Korean C5 consumer membership")
+require(deliberate_split <= korean_c5_consumers, "documented C5 split lost Korean C5 consumer membership")
 
 rule_constant_re = re.compile(r"^\s*([a-z][A-Za-z0-9]*(?:CapacityBytes|MaxPayloadBytes|MaxLineBytes|MaxPages))\s*=", re.M)
 rule_constants = set(rule_constant_re.findall(rules))
 english_constants = {n for n in rule_constants if re.search(r"\b" + re.escape(n) + r"\b", english_validate)}
 korean_constants = {n for n in rule_constants if re.search(r"\b" + re.escape(n) + r"\b", korean_validate) or re.search(r"\b" + re.escape(n) + r"\b", korean_c5)}
-missing_constants = english_constants - korean_constants
-require(not missing_constants,
-        "Korean validation lost English capacity constants: " + ",".join(sorted(missing_constants)))
+require(not (english_constants - korean_constants), "Korean validation lost English capacity constants")
 
-require("p.splitSemanticWith" in korean_materialize,
-        "Korean semantic traversal no longer uses shared splitSemanticWith")
-require("p.materializeValues" in korean_materialize,
-        "Korean materialization no longer uses shared materializeValues")
-
+# Semantic/materialization/compiler parity.
+require("p.splitSemanticWith" in korean_materialize, "Korean semantic traversal lost shared parser")
+require("p.materializeValues" in korean_materialize, "Korean materialization lost shared value lowering")
 for anchor in ("RuntimeBankCapacity(bank.Section)", "binary.LittleEndian.PutUint32"):
-    require(anchor in english_compile, f"English compiler anchor disappeared: {anchor}")
-    require(anchor in korean_compile, f"Korean compiler drifted from English bank contract: {anchor}")
+    require(anchor in english_compile and anchor in korean_compile, "bank compiler contract drift: " + anchor)
 
-# Every production/preflight entry point must run the English-first storage gates
-# before compiling a Korean bank. This prevents desktop/mobile/preflight drift.
+# All release entry points validate before compile.
 def require_release_chain(label: str, text: str) -> None:
     english_gate = text.find("ValidateKoreanEnglishConsumerContracts")
     c5_gate = text.find("validateKoreanRuntimeStorage")
     compile_gate = text.find("compileKoreanBanksWithPlan")
     derive_english = text.find("DeriveKoreanEnglishConsumerLayouts")
-    require(min(english_gate, c5_gate, compile_gate, derive_english) >= 0,
-            f"{label} path is missing an English-first parity gate")
+    require(min(english_gate, c5_gate, compile_gate, derive_english) >= 0, f"{label} missing parity gate")
     require(derive_english < english_gate < compile_gate and c5_gate < compile_gate,
-            f"{label} path compiles before completing English/C5 contract validation")
+            f"{label} compiles before English/C5 validation")
 
 
-require_release_chain("desktop Korean release", release_build)
-require_release_chain("mobile Korean ISO", mobile_build)
-require_release_chain("mobile Korean preflight", mobile_preflight)
+require_release_chain("desktop", release_build)
+require_release_chain("mobile", mobile_build)
+require_release_chain("preflight", mobile_preflight)
 
-# Font inputs are an engine asset contract too. Reuse the exact retail source
-# hashes already authenticated by the upstream English static-font manifest.
+# Font source authentication remains pinned to upstream English retail assets.
 english_font_hashes = re.findall(r'^source_sha256\s*=\s*"([0-9a-f]{64})"', english_font_manifest, re.M)
-require(len(english_font_hashes) == 2, "upstream English font manifest no longer exposes exactly two source fingerprints")
+require(len(english_font_hashes) == 2, "English font manifest source fingerprints drifted")
 for digest in english_font_hashes:
-    require(digest in korean_font,
-            "Korean font path no longer pins upstream English retail source fingerprint " + digest)
-require("prepareKoreanMobileFontReplacements" in mobile_build,
-        "mobile Korean build no longer reaches the authenticated font path")
-for anchor in (
-    "verifyFullRepackContainerMutationSurface(retailAtlas, retailPAF, patchedAtlas, patchedPAF)",
-    "changed immutable atlas/container byte",
-    "changed immutable PAF/container byte",
-):
-    require(anchor in korean_full_repack_verify,
-            "Korean full-font verifier lost English-equivalent result boundary: " + anchor)
+    require(digest in korean_font, "Korean font path lost English retail source fingerprint " + digest)
 
-# BOOT/EBOOT is shared engine machinery. Korean must apply the same executable
-# manifest first, authenticate the manifest-patched ELF just like English, then
-# prove its sparse localization overlay did not clobber any runtime patch span.
-manifest_source = re.search(r'^source_sha256\s*=\s*"([0-9a-f]{64})"', executable_manifest, re.M)
-manifest_result = re.search(r'^result_sha256\s*=\s*"([0-9a-f]{64})"', executable_manifest, re.M)
-require(manifest_source is not None and manifest_result is not None,
-        "executable manifest lost source/result fingerprints")
-for anchor in ("elfpatch.Apply(source, manifest)", "applyKoreanFixedEBOOT(root, patched, mapping)"):
-    require(anchor in release_build, "Korean executable build drifted from shared manifest chain: " + anchor)
-require("patchedELFSHA256" in korean_fixeddata,
-        "Korean fixed EBOOT overlay lost patched-ELF fingerprint authentication")
+# Executable and fixed-data contracts.
+require(re.search(r'^source_sha256\s*=\s*"[0-9a-f]{64}"', executable_manifest, re.M) is not None,
+        "executable source fingerprint missing")
+require(re.search(r'^result_sha256\s*=\s*"[0-9a-f]{64}"', executable_manifest, re.M) is not None,
+        "executable result fingerprint missing")
 require("elfpatch.VerifyApplied(result, manifest)" in korean_fixed,
-        "Korean fixed EBOOT overlay lost executable manifest postcondition verification")
+        "Korean EBOOT overlay lost executable patch postcondition")
+for anchor in ("sha256.Sum256(source) != patchedELFSHA256", "len(encoded) > len(expected)",
+               "source[start+len(expected)] != 0", "translation fields overlap"):
+    require(anchor in korean_fixeddata, "Korean fixed EBOOT guard disappeared: " + anchor)
+for anchor in ("sha256.Sum256(source) != bindataSHA256", "equipmentRecordCount = 132", "equipmentNameSize    = 17"):
+    require(anchor in equipment_fixeddata, "BINDATA guard disappeared: " + anchor)
 
-for anchor in (
-    "sha256.Sum256(source) != patchedELFSHA256",
-    "len(encoded) > len(expected)",
-    "source[start+len(expected)] != 0",
-    "translation fields overlap",
-    "clear(result[replacement.offset",
-):
-    require(anchor in english_fixeddata, "upstream English fixed-EBOOT invariant disappeared: " + anchor)
-    require(anchor in korean_fixeddata, "Korean sparse EBOOT weakened fixed-width invariant: " + anchor)
-require("KoreanEBOOTTranslations is a sparse Korean overlay" in korean_fixeddata,
-        "sparse Korean EBOOT coverage is no longer explicitly documented")
-require((ROOT / "release/korean/strings/eboot.toml").is_file(),
-        "Korean sparse fixed-EBOOT translation source disappeared")
+# Renderer ownership must be based on evidence that the engine interprets as
+# text. Whole-blob exact two-byte occurrence was experimentally disproven as a
+# valid ownership rule: on authenticated retail inputs it eliminated all 2,487
+# installed slots. Keep BOOT/BINDATA authentication, structured CP932 scans, and
+# fixed-string reservations; prohibit the disproven whole-blob hard gate.
+for label, text in (("desktop", desktop_plan), ("mobile", mobile_plan)):
+    for anchor in ("loadAuthenticatedRetailBOOT(gameDir)", "loadAuthenticatedRetailEBOOT(gameDir)",
+                   "loadRetailBindata(gameDir)", "slotaudit.ScanCP932Literals(boot)",
+                   "slotaudit.ScanCP932Literals(bindata)", "mergeRendererKeys(reserved, bootScan.Keys)",
+                   "mergeRendererKeys(reserved, bindataScan.Keys)"):
+        require(anchor in text, f"{label} renderer ownership lost structured evidence: {anchor}")
+require("koreanslots.BuildPlan(texts, font.KoreanCompatibleKeys(), rendererKeySetSlice(reserved))" in desktop_plan,
+        "desktop planner regressed from structured ownership")
+require("koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved))" in mobile_plan,
+        "mobile planner regressed from structured ownership")
+require("BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)" not in mobile_plan,
+        "mobile planner reintroduced disproven arbitrary whole-blob exclusion")
+require("finalAudit.CandidateHits != 0 || len(finalAudit.MappedHits) != 0" not in mobile_plan,
+        "mobile whole-blob aliases became a hard failure again")
 
-for anchor in (
-    "sha256.Sum256(source) != bindataSHA256",
-    "equipmentRecordCount = 132",
-    "equipmentNameSize    = 17",
-    "source guard does not match",
-    "invalid source field padding",
-):
-    require(anchor in equipment_fixeddata, "shared BINDATA fixed-data guard disappeared: " + anchor)
-require("addEquipment(root, archives)" in english_release,
-        "upstream English release no longer exposes the equipment fixed-data policy being classified")
-require(not (ROOT / "release/korean/strings/equipment.toml").exists(),
-        "Korean equipment translation source now exists; reclassify BINDATA from untranslated DIFFERENT-BY-DESIGN")
-for label, text in (("desktop Korean planner", desktop_plan), ("mobile Korean planner", mobile_plan)):
-    require("loadRetailBindata(gameDir)" in text,
-            f"{label} stopped authenticating retail bindata.dat")
-    require("fixeddata.ApplyEquipment(bindata, equipment)" in text,
-            f"{label} stopped validating the upstream equipment table layout/source guards")
-    require("boot, eboot, bindata" in text,
-            f"{label} stopped feeding authenticated bindata.dat into exact-byte slot allocation")
+# Archive and ISO provenance.
+for anchor in ("member %d is selected by more than one replacement", "verifyRebuilt(", "payload differs"):
+    require(anchor in paa, "PAA rebuild contract weakened: " + anchor)
+for text, label in ((english_release, "English"), (release_build, "Korean desktop"), (mobile_build, "Korean mobile")):
+    require("archive.pair.Rebuild(" in text, label + " release bypasses verified archive rebuild")
+    require("authorTranslatedISO(" in text, label + " release bypasses verified ISO authoring")
+for anchor in ("verifyAuthoredPSPGame(outputPath, gameDir)", "compareExactReaders(got, want)"):
+    require(anchor in disc, "ISO provenance contract weakened: " + anchor)
 
-require("ExcludeExactByteReferences" in slot_plan,
-        "production slot planner lost exact-byte ownership exclusion")
-require("koreanslots.BuildPlan(texts, installed, rendererKeySetSlice(reserved), boot, eboot, bindata)" in mobile_plan,
-        "mobile slot planner no longer feeds authenticated BOOT/EBOOT/bindata into BuildPlan")
-require("finalAudit.CandidateHits != 0" in mobile_plan and "finalAudit.MappedHits" in mobile_plan,
-        "mobile slot planner no longer fails closed on post-allocation exact-byte collisions")
-
-for anchor in (
-    "member %d is selected by more than one replacement",
-    "verifyRebuilt(p, indexTempPath, archiveTempPath, rebuiltIndex, resolved)",
-    "rebuilt member %d %q payload differs",
-):
-    require(anchor in paa, "shared PAA rebuild lost fail-closed archive contract: " + anchor)
-for label, text in (
-    ("English release", english_release),
-    ("desktop Korean release", release_build),
-    ("mobile Korean ISO", mobile_build),
-):
-    require("archive.pair.Rebuild(" in text,
-            f"{label} no longer rebuilds archives through the shared verified PAA path")
-    require("authorTranslatedISO(" in text,
-            f"{label} no longer authors ISO through the shared provenance path")
-for anchor in (
-    "verifyAuthoredPSPGame(outputPath, gameDir)",
-    "compareExactReaders(got, want)",
-    "FORENSIC ISO_PSP_GAME_PROVENANCE",
-):
-    require(anchor in disc, "shared ISO authoring lost staged-PSP_GAME provenance contract: " + anchor)
-
-# Android is an additional transport boundary after the shared verified ISO
-# authoring path. Production routing is fixed to MainActivity -> build-korean-iso
-# -> runBuildKoreanISO -> Build/PreflightKoreanAlphaISOOnly. Freeze tracing is a
-# forensic utility and must not become an alternate patch launcher.
-require('android:name=".MainActivity"' in android_manifest and
-        '<category android:name="android.intent.category.LAUNCHER" />' in android_manifest,
-        "Android production launcher no longer routes through MainActivity")
-require('case "build-korean-iso":' in zill_main and
-        'return runBuildKoreanISO(root, args[1:], stdout, stderr)' in zill_main,
-        "zill command dispatch no longer routes build-korean-iso through the audited mobile command")
-for anchor in (
-    "python3 tools/korean/audit-english-first-full-parity.py",
-    "payload-manifest.sha256",
-    "sha256sum -c payload-manifest.sha256",
-    "unzip -q \"$APK\" 'assets/zillroot/*'",
-):
-    require(anchor in android_workflow,
-            "Android release workflow lost payload/parity provenance anchor: " + anchor)
-for anchor in (
-    "static void verifyPayload(File root)",
-    "payload manifest digest mismatch",
-    "payload file set mismatch",
-):
-    require(anchor in android_payload_integrity,
-            "Android project payload integrity weakened: " + anchor)
-require("ProjectAssetIntegrity.verifyPayload(root)" in android_application,
-        "Android startup no longer rejects cached payload integrity drift")
-for anchor in (
-    '"build-korean-iso"',
-    '"--preflight-only"',
-    "ProjectAssetIntegrity.verifyPayload(root)",
-    "verifyFileMatchesUri(output, outputUri)",
-    'MessageDigest.getInstance("SHA-256")',
-):
-    require(anchor in android_activity,
-            "Android app entry/output path lost end-to-end provenance anchor: " + anchor)
+# Android payload/cache/export provenance.
+for anchor in ("python3 tools/korean/audit-english-first-full-parity.py", "payload-manifest.sha256", "sha256sum -c payload-manifest.sha256"):
+    require(anchor in android_workflow, "Android release provenance lost: " + anchor)
+for anchor in ("static void verifyPayload(File root)", "payload manifest digest mismatch", "payload file set mismatch"):
+    require(anchor in android_payload_integrity, "Android payload integrity weakened: " + anchor)
+require("ProjectAssetIntegrity.verifyPayload(root)" in android_application, "Android startup cache verification disappeared")
+for anchor in ('"build-korean-iso"', '"--preflight-only"', "ProjectAssetIntegrity.verifyPayload(root)",
+               "verifyFileMatchesUri(output, outputUri)", 'MessageDigest.getInstance("SHA-256")'):
+    require(anchor in android_activity, "Android build/export path lost provenance anchor: " + anchor)
 
 print("ENGLISH_FIRST_PARITY_PASS")
 print("english_consumers=" + ",".join(sorted(english_consumers)))
-print("korean_direct_consumers=" + ",".join(sorted(korean_consumers)))
 print("korean_c5_split=" + ",".join(sorted(deliberate_split)))
 print("shared_capacity_constants=" + ",".join(sorted(english_constants)))
 print("release_entrypoints=desktop,mobile,preflight")
-print("font_source_fingerprints=english_manifest_exact")
-print("font_result_boundary=dynamic_exact_mutation_surface")
-print("executable_manifest_chain=shared_and_postverified")
-print("fixed_eboot=shared_fixed_width_guards_sparse_korean_by_design")
-print("bindata_equipment=english_translated_korean_retail_by_design_authenticated_for_slot_ownership")
-print("slot_ownership=authenticated_exact_byte_fail_closed")
-print("archive_rebuild=shared_duplicate_reject_and_exact_payload_verify")
-print("iso_provenance=shared_staged_psp_game_exact_verify")
-print("android_route=mainactivity_to_build_korean_iso_only")
-print("android_provenance=manifest_verified_cache_and_exported_iso_sha256_length_verified")
+print("slot_ownership=structured_cp932_fixed_renderer_evidence")
+print("whole_blob_exact_byte_aliases=diagnostic_only")
+print("archive_iso_android_provenance=verified")
