@@ -121,7 +121,7 @@ jobs:
           go test ./internal/release \
             -run '^TestCurrentKoreanCorpusEnglishConsumerStorageContracts$' \
             -count=1 -v | tee consumer-storage-full-corpus-audit.txt
-          grep -q 'canonical=42016' consumer-storage-full-corpus-audit.txt
+          grep -q 'canonical=42016 checked=42016' consumer-storage-full-corpus-audit.txt
           grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
           grep -q 'exact_asset_gate=CompileBankKorean' consumer-storage-full-corpus-audit.txt
 
@@ -158,7 +158,7 @@ jobs:
             sha256sum -c payload-manifest.sha256
           )
           grep -q 'canonical=42016 checked=42016' a054-full-corpus-audit.txt
-          grep -q 'canonical=42016' consumer-storage-full-corpus-audit.txt
+          grep -q 'canonical=42016 checked=42016' consumer-storage-full-corpus-audit.txt
           grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
           sha256sum "$APK" | tee "$APK.sha256"
 
