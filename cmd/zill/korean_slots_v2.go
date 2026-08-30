@@ -53,8 +53,7 @@ func runKoreanSlotsV2(root string, args []string, stdout, stderr io.Writer) int 
 		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
 		return 1
 	}
-	eboot, err := loadAuthenticatedRetailEBOOT(gameDir)
-	if err != nil {
+	if _, err := loadAuthenticatedRetailEBOOT(gameDir); err != nil {
 		fmt.Fprintf(stderr, "zill: korean-slots: %v\n", err)
 		return 1
 	}
@@ -95,7 +94,7 @@ func runKoreanSlotsV2(root string, args []string, stdout, stderr io.Writer) int 
 	}
 	installedTwoByte := font.DoubleByteKeys()
 	fontCompatible := font.KoreanCompatibleKeys()
-	plan, err := koreanslots.BuildPlan(texts, fontCompatible, rendererKeySetSlice(reserved), boot, eboot, bindata)
+	plan, err := koreanslots.BuildPlan(texts, fontCompatible, rendererKeySetSlice(reserved))
 	if err != nil {
 		fmt.Fprintf(stderr, "zill: korean-slots: plan allocation: %v\n", err)
 		return 1
@@ -111,7 +110,7 @@ func runKoreanSlotsV2(root string, args []string, stdout, stderr io.Writer) int 
 	fmt.Fprintf(stdout, "Font-compatible Korean slots before resource audit: %d\n", len(fontCompatible))
 	fmt.Fprintf(stdout, "Final runtime stock renderer keys required: %d\n", len(plan.RequiredStock))
 	fmt.Fprintf(stdout, "Custom renderer glyphs required: %d\n", len(plan.CustomRunes))
-	fmt.Fprintf(stdout, "Reusable candidates after font/fixed/structured/exact-byte audit: %d\n", len(plan.Candidates))
+	fmt.Fprintf(stdout, "Reusable candidates after font/fixed/structured audit: %d\n", len(plan.Candidates))
 	fmt.Fprintf(stdout, "Allocated custom mappings: %d\n", len(plan.Mapping))
 	fmt.Fprintf(stdout, "Capacity headroom after current allocation: %d glyphs (%.1f%% utilized)\n", headroom, utilization)
 	if len(plan.Candidates) > 0 && utilization >= 80 {
