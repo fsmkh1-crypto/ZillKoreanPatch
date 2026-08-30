@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Collect every Korean corpus character outside stock CP932 + installed glyphs.
+"""Collect every Korean corpus character absent from the installed renderer font.
 
-This is intentionally aggregate/fail-closed: one bad character must not turn
+This mirrors layout.Engine.measureKoreanRenderer's repertoire decision:
+- mapped Korean custom runes use the Korean atlas and are accepted here when the
+  reviewed Korean glyph catalog contains them;
+- every other rune is encoded as stock CP932 and its exact renderer key must
+  exist in release/font/metrics.toml.
+
+The audit is aggregate/fail-closed so one unsupported character cannot turn
 release validation into a one-record-per-build chase.
 """
 from __future__ import annotations
@@ -15,21 +21,39 @@ import tomllib
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 KOREAN = ROOT / "translations" / "korean" / "messages"
 GLYPHS = ROOT / "release" / "korean" / "font" / "glyphs.toml"
+METRICS = ROOT / "release" / "font" / "metrics.toml"
 KOREAN_FILE = re.compile(r"^msgsec\d{3}(?:(?:-part\d{2})|b)?\.toml$")
 CONTROL = re.compile(r"<[^>]+>")
 
 
-def stock_cp932(ch: str) -> bool:
+def cp932_renderer_key(ch: str) -> int | None:
     try:
-        ch.encode("cp932")
-        return True
+        encoded = ch.encode("cp932")
     except UnicodeEncodeError:
-        return False
+        return None
+    if len(encoded) == 1:
+        return encoded[0]
+    if len(encoded) == 2:
+        return encoded[0] | (encoded[1] << 8)
+    return None
+
+
+def parse_metric_keys() -> set[int]:
+    with METRICS.open("rb") as fh:
+        raw = tomllib.load(fh).get("glyph", {})
+    out: set[int] = set()
+    for key in raw:
+        try:
+            out.add(int(str(key), 0))
+        except ValueError as exc:
+            raise SystemExit(f"KOREAN_GLYPH_REPERTOIRE_FAIL invalid metric key {key!r}") from exc
+    return out
 
 
 def main() -> None:
     with GLYPHS.open("rb") as fh:
         catalog = set(tomllib.load(fh).get("glyphs", {}))
+    installed = parse_metric_keys()
 
     rows: dict[int, tuple[str, str]] = {}
     for path in sorted(p for p in KOREAN.iterdir() if p.is_file() and KOREAN_FILE.fullmatch(p.name)):
@@ -47,8 +71,8 @@ def main() -> None:
                 raise SystemExit(f"KOREAN_GLYPH_REPERTOIRE_FAIL conflicting Korean ID {ident}")
             rows[ident] = pair
 
-    failures: dict[tuple[int, str, str], int] = collections.Counter()
-    bad_chars: collections.Counter[str] = collections.Counter()
+    failures: dict[tuple[int, str, str, str], int] = collections.Counter()
+    bad_chars: collections.Counter[tuple[str, str]] = collections.Counter()
     for ident, pair in sorted(rows.items()):
         for field, text in zip(("korean", "layout"), pair):
             if not text:
@@ -57,30 +81,43 @@ def main() -> None:
             for ch in visible:
                 if ch in "\r\n\t":
                     continue
-                if stock_cp932(ch) or ch in catalog:
+                # Korean custom-atlas runes are authoritative even when the same
+                # Unicode rune happens to have a stock CP932 representation.
+                if ch in catalog:
                     continue
-                failures[(ident, field, ch)] += 1
-                bad_chars[ch] += 1
+                renderer_key = cp932_renderer_key(ch)
+                if renderer_key is None:
+                    reason = "not_cp932_and_not_custom"
+                elif renderer_key not in installed:
+                    reason = f"missing_installed_metric_0x{renderer_key:04x}"
+                else:
+                    continue
+                failures[(ident, field, ch, reason)] += 1
+                bad_chars[(ch, reason)] += 1
 
+    bad_record_ids = {ident for ident, _, _, _ in failures}
     print(
         "KOREAN_GLYPH_REPERTOIRE_SUMMARY "
-        f"accepted_rows={len(rows)} installed_custom={len(catalog)} "
-        f"bad_characters={len(bad_chars)} bad_records={len({i for i, _, _ in failures})}"
+        f"accepted_rows={len(rows)} installed_metric_keys={len(installed)} installed_custom={len(catalog)} "
+        f"bad_characters={len(bad_chars)} bad_records={len(bad_record_ids)}"
     )
-    for ch, count in sorted(bad_chars.items(), key=lambda item: (ord(item[0]), item[0])):
-        print(f"KOREAN_GLYPH_BAD_CHAR char={ch!r} unicode=U+{ord(ch):04X} occurrences={count}")
-    for (ident, field, ch), count in sorted(failures.items()):
+    for (ch, reason), count in sorted(bad_chars.items(), key=lambda item: (ord(item[0][0]), item[0][1])):
+        print(
+            f"KOREAN_GLYPH_BAD_CHAR char={ch!r} unicode=U+{ord(ch):04X} "
+            f"reason={reason} occurrences={count}"
+        )
+    for (ident, field, ch, reason), count in sorted(failures.items()):
         print(
             f"KOREAN_GLYPH_BAD_RECORD id={ident} field={field} char={ch!r} "
-            f"unicode=U+{ord(ch):04X} occurrences={count}"
+            f"unicode=U+{ord(ch):04X} reason={reason} occurrences={count}"
         )
 
     if len(rows) != 42016:
         raise SystemExit(f"KOREAN_GLYPH_REPERTOIRE_FAIL accepted rows={len(rows)} want 42016")
     if failures:
         raise SystemExit(
-            f"KOREAN_GLYPH_REPERTOIRE_FAIL unsupported characters={len(bad_chars)} "
-            f"records={len({i for i, _, _ in failures})}"
+            f"KOREAN_GLYPH_REPERTOIRE_FAIL unsupported installed-font characters={len(bad_chars)} "
+            f"records={len(bad_record_ids)}"
         )
     print("KOREAN_GLYPH_REPERTOIRE_PASS")
 
