@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - audit/projection-control-roundtrip
+      - audit/english-first-full-parity-restart
     paths:
       - '.github/workflows/audit-dynamic-substitutions.yml'
       - 'tools/korean/audit-dynamic-substitutions.py'
@@ -23,6 +24,15 @@ jobs:
       - uses: actions/checkout@v6
       - name: Generate dynamic substitution report
         run: python3 tools/korean/audit-dynamic-substitutions.py > dynamic-substitution-audit.txt
+      - name: Fail on known classifier blind spot
+        run: |
+          grep -q '^classifier_rhs_value_counterexamples=0$' dynamic-substitution-audit.txt
+      - name: Upload full dynamic audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: dynamic-substitution-audit-${{ github.sha }}
+          path: dynamic-substitution-audit.txt
+          if-no-files-found: error
       - name: Publish compact audit report to PR 17
         env:
           GH_TOKEN: ${{ github.token }}
@@ -34,8 +44,12 @@ jobs:
           # Header metrics through adjacency_opcodes.
           for line in lines:
               out.append(line)
-              if line.startswith('adjacency_opcodes='):
-                  break
+              if line.startswith('inline_adjacency_opcodes=') or line.startswith('opcodes='):
+                  if any(item.startswith('inline_adjacency_opcodes=') for item in lines):
+                      if line.startswith('inline_adjacency_opcodes='):
+                          break
+                  elif line.startswith('opcodes='):
+                      break
           # Compact one-row-per-opcode evidence.
           start = lines.index('OPCODE_BRIEF_BEGIN')
           end = lines.index('OPCODE_BRIEF_END')
