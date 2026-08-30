@@ -124,7 +124,7 @@ jobs:
           grep -q 'canonical=42016 checked=42016' consumer-storage-full-corpus-audit.txt
           grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
           grep -q 'visual=PASS' consumer-storage-full-corpus-audit.txt
-          grep -q 'exact_asset_gate=CompileBankKorean' consumer-storage-full-corpus-audit.txt
+          grep -q 'exact_asset_gates=C5,CompileBankKorean' consumer-storage-full-corpus-audit.txt
 
       - name: Android unit tests
         run: gradle -p android-patcher :app:testDebugUnitTest --no-daemon --stacktrace
