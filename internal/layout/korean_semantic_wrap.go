@@ -29,6 +29,8 @@ func wrapKoreanStoragePreservingControlAdjacency(text string) string {
 			// A semantic string such as <value:$15>여... owns direct control→text
 			// adjacency. If the line is already at the wrap threshold, emit one
 			// following rune before wrapping rather than inventing a boundary here.
+			// The same protection keeps canonical whitespace immediately after a
+			// value token instead of silently dropping it at a line start.
 			protectNextPlainRune = strings.HasPrefix(tag, "<value:")
 		}
 		cursor = loc[1]
@@ -71,6 +73,11 @@ func appendKoreanStoragePlain(out *strings.Builder, text string, lineRunes *int,
 		space := r == ' ' || r == '\t' || r == '\r' || r == '\n'
 		if space {
 			if *lineRunes == 0 {
+				if protectLeading && firstEmitted {
+					out.WriteRune(' ')
+					*lineRunes++
+					firstEmitted = false
+				}
 				continue
 			}
 			if *lineRunes >= 14 && !(protectLeading && firstEmitted) {

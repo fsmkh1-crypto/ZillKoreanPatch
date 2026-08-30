@@ -38,6 +38,17 @@ func TestWrapKoreanC5StorageKeepsExistingBreaks(t *testing.T) {
 	}
 }
 
+func TestWrapKoreanC5StoragePreservesValueLeadingWhitespace(t *testing.T) {
+	input := "<value:$28> 공께. 의뢰드리고 싶은 일이 있습니다. 지체 없이 엔샨트 정청으로 와 주십시오. 자기브 딘갈<end>"
+	got := wrapKoreanC5Storage(input)
+	if !strings.Contains(got, "<value:$28> 공께") {
+		t.Fatalf("C5 wrapper dropped canonical whitespace after runtime value: %q", got)
+	}
+	if !message.PreservesLayoutSemantics(input, got) {
+		t.Fatalf("C5 wrapper changed semantic/control topology: %q", got)
+	}
+}
+
 func TestWrapKoreanStoragePreservesRuntimeControlAdjacency(t *testing.T) {
 	input := strings.Repeat("가", 18) + "<value:$15>여기는이어지는문장입니다<end>"
 	got := wrapKoreanStoragePreservingControlAdjacency(input)
@@ -49,6 +60,17 @@ func TestWrapKoreanStoragePreservesRuntimeControlAdjacency(t *testing.T) {
 	}
 	if !message.PreservesLayoutSemantics(input, got) {
 		t.Fatalf("control-aware wrapper changed semantic/control topology: %q", got)
+	}
+}
+
+func TestWrapKoreanStoragePreservesValueLeadingWhitespace(t *testing.T) {
+	input := "<value:$28> 공께. 의뢰드리고 싶은 일이 있습니다. 지체 없이 엔샨트 정청으로 와 주십시오. 자기브 딘갈<end>"
+	got := wrapKoreanStoragePreservingControlAdjacency(input)
+	if !strings.Contains(got, "<value:$28> 공께") {
+		t.Fatalf("C22 wrapper dropped canonical whitespace after runtime value: %q", got)
+	}
+	if !message.PreservesLayoutSemantics(input, got) {
+		t.Fatalf("C22 wrapper changed semantic/control topology: %q", got)
 	}
 }
 

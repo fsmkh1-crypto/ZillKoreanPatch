@@ -136,6 +136,9 @@ func (e *Engine) DeriveKoreanC5StorageLayouts(source *corpus.Project, korean *co
 		}
 
 		candidate := wrapKoreanC5Storage(row.Korean)
+		if !message.PreservesLayoutSemantics(row.Korean, candidate) {
+			return nil, 0, fmt.Errorf("message %d C5 derived layout changes semantic/control text", row.ID)
+		}
 		post, _, err := e.c5ViolationKorean(item, candidate, mapping)
 		if err != nil {
 			return nil, 0, fmt.Errorf("message %d C5 derived layout: %w", row.ID, err)
@@ -159,41 +162,53 @@ func wrapKoreanC5Storage(text string) string {
 	out.Grow(len(text) + len(text)/8)
 	lineRunes := 0
 	cursor := 0
+	protectNextPlainRune := false
 	for _, loc := range controlTag.FindAllStringIndex(text, -1) {
-		appendKoreanC5Plain(&out, text[cursor:loc[0]], &lineRunes)
+		appendKoreanC5Plain(&out, text[cursor:loc[0]], &lineRunes, protectNextPlainRune)
+		protectNextPlainRune = false
 		tag := text[loc[0]:loc[1]]
 		out.WriteString(tag)
 		if tag == lineBreak {
 			lineRunes = 0
+		} else if strings.HasPrefix(tag, "<value:") {
+			protectNextPlainRune = true
 		}
 		cursor = loc[1]
 	}
-	appendKoreanC5Plain(&out, text[cursor:], &lineRunes)
+	appendKoreanC5Plain(&out, text[cursor:], &lineRunes, protectNextPlainRune)
 	return out.String()
 }
 
-func appendKoreanC5Plain(out *strings.Builder, text string, lineRunes *int) {
+func appendKoreanC5Plain(out *strings.Builder, text string, lineRunes *int, protectLeading bool) {
+	firstEmitted := true
 	for _, r := range text {
 		space := r == ' ' || r == '\t' || r == '\r' || r == '\n'
 		if space {
 			if *lineRunes == 0 {
+				if protectLeading && firstEmitted {
+					out.WriteRune(' ')
+					*lineRunes++
+					firstEmitted = false
+				}
 				continue
 			}
-			if *lineRunes >= 14 {
+			if *lineRunes >= 14 && !(protectLeading && firstEmitted) {
 				out.WriteString(lineBreak)
 				*lineRunes = 0
 				continue
 			}
 			out.WriteRune(' ')
 			*lineRunes++
+			firstEmitted = false
 			continue
 		}
-		if *lineRunes >= 18 {
+		if *lineRunes >= 18 && !(protectLeading && firstEmitted) {
 			out.WriteString(lineBreak)
 			*lineRunes = 0
 		}
 		out.WriteRune(r)
 		*lineRunes++
+		firstEmitted = false
 	}
 }
 
