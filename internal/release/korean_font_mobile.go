@@ -69,6 +69,9 @@ func prepareKoreanMobileFontReplacements(root string, archives []*archive, plan 
 	if err != nil {
 		return nil, err
 	}
+	if err := verifyKoreanFontRetailSources(atlas, jillbtn); err != nil {
+		return nil, err
+	}
 	if _, err := zillfont.ParseAuthenticatedRetailPAF(jillbtn); err != nil {
 		return nil, err
 	}
