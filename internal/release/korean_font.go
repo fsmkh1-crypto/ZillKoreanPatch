@@ -3,6 +3,7 @@
 package release
 
 import (
+	"crypto/sha256"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -18,7 +19,23 @@ const (
 	retailPAFMemberIndex   = 13612
 	retailAtlasMemberName  = "font/zillfont.par"
 	retailPAFMemberName    = "2d/font/jillbtn.par"
+
+	// These are the same authenticated retail source fingerprints declared by
+	// the upstream English static-font manifest. Korean font transforms must
+	// start from exactly the same engine assets, not merely same-sized members.
+	retailAtlasSourceSHA256 = "0d3d6d2648870e87a01636cdfc7cc7af8100ea40b71e5ed05f82ac197606584a"
+	retailPAFSourceSHA256   = "95b48379092db4db72f890d5a221ba8c4094dd438cb4c4eba98eb5520c7b17aa"
 )
+
+func verifyKoreanFontRetailSources(atlas, paf []byte) error {
+	if actual := fmt.Sprintf("%x", sha256.Sum256(atlas)); actual != retailAtlasSourceSHA256 {
+		return fmt.Errorf("Korean font retail atlas fingerprint is %s, want upstream-English source %s", actual, retailAtlasSourceSHA256)
+	}
+	if actual := fmt.Sprintf("%x", sha256.Sum256(paf)); actual != retailPAFSourceSHA256 {
+		return fmt.Errorf("Korean font retail PAF fingerprint is %s, want upstream-English source %s", actual, retailPAFSourceSHA256)
+	}
+	return nil
+}
 
 // prepareKoreanFontReplacement builds the single PAA replacement needed for
 // custom Korean glyphs. It deliberately starts from authenticated retail font
@@ -62,6 +79,9 @@ func prepareKoreanFontReplacement(root string, archives []*archive, plan koreans
 	}
 	jillbtn, err := paArchive.pair.Payload(retailPAFMemberIndex)
 	if err != nil {
+		return paa.Replacement{}, false, err
+	}
+	if err := verifyKoreanFontRetailSources(atlas, jillbtn); err != nil {
 		return paa.Replacement{}, false, err
 	}
 	paf, err := zillfont.ParseAuthenticatedRetailPAF(jillbtn)
