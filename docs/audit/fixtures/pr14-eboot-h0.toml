@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: CC-BY-SA-4.0
+# Historical PR #14 H0 Korean EBOOT fixed-string set.
+# For forensic replay only. Production release/korean/strings/eboot.toml is
+# intentionally free to grow as reviewed English-authority fields are localized.
+
+0x243d28 = { source = "神の手に魂を委ねる", replacement = "신께 영혼을 맡긴다" }
+0x243d3c = { source = "自らの手で魂を示す", replacement = "영혼을 증명한다" }
