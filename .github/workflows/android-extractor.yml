@@ -89,12 +89,15 @@ jobs:
           ls /tmp/zill-apk/classes*.dex >/tmp/dex-list.txt
           cmp android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so /tmp/zill-apk/lib/arm64-v8a/libzill.so
           cat /tmp/zill-apk/classes*.dex > /tmp/all-classes.dex.bin
+          # GNU strings defaults to 7-bit characters and therefore drops UTF-8 Korean.
+          # DEX MUTF-8 is byte-identical to UTF-8 for these non-NUL literals, so
+          # verify localized UI identity directly against the packaged DEX bytes.
+          grep -a -q '질올 PPSSPP 프리징 기록' /tmp/all-classes.dex.bin
+          grep -a -q '연결됨 · 샘플링 중' /tmp/all-classes.dex.bin
           strings /tmp/all-classes.dex.bin > /tmp/apk-strings.txt
-          grep -q '질올 PPSSPP 프리징 기록' /tmp/apk-strings.txt
           grep -q 'hot_loop_detected' /tmp/apk-strings.txt
           grep -q 'connect_attempt' /tmp/apk-strings.txt
           grep -q 'start_ignored' /tmp/apk-strings.txt
-          grep -q '연결됨 · 샘플링 중' /tmp/apk-strings.txt
           ! grep -q 'second_scanner_call' /tmp/apk-strings.txt
           ! grep -q 'slot_plus_3c0_word' /tmp/apk-strings.txt
           sha256sum "$APK" | tee "$APK.sha256"
