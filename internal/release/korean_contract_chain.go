@@ -1,0 +1,92 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+package release
+
+import (
+	"fmt"
+	"sort"
+
+	"github.com/HK47196/zill/internal/corpus"
+	"github.com/HK47196/zill/internal/koreanslots"
+	"github.com/HK47196/zill/internal/layout"
+)
+
+type koreanEnglishContractChain struct {
+	Engine          *layout.Engine
+	Layouts         map[int]string
+	DerivedC5       int
+	DerivedConsumer int
+	DerivedVisual   int
+	DerivedScanner  int
+	Warnings        []layout.Warning
+	DynamicC5       []int
+}
+
+// runKoreanEnglishContractChain is the single production contract path shared by
+// desktop, mobile and preflight releases. Keeping derivation order and validation
+// here prevents one entry point from silently drifting away from the upstream
+// English consumer/visual contract as happened during the forensic cycle.
+func runKoreanEnglishContractChain(root, entrypoint string, source *corpus.Project, korean *corpus.KoreanProject, mapping koreanslots.Mapping) (koreanEnglishContractChain, error) {
+	var out koreanEnglishContractChain
+	layouts := make(map[int]string)
+	for _, row := range korean.Entries {
+		if row.Layout != "" {
+			layouts[row.ID] = row.Layout
+		}
+	}
+	engine, err := loadLayout(root)
+	if err != nil {
+		return out, err
+	}
+	out.Engine = engine
+
+	// C5 first, then the broader upstream-English consumer and visual contracts,
+	// then the separately observed A-054 scanner hardening. These categories may
+	// be disjoint today, but a single ordered path makes that an implementation
+	// detail rather than an entry-point assumption.
+	layouts, out.DerivedC5, err = engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, mapping)
+	if err != nil {
+		return out, err
+	}
+	layouts, out.DerivedConsumer, err = engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, mapping)
+	if err != nil {
+		return out, err
+	}
+	layouts, out.DerivedVisual, err = engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, mapping)
+	if err != nil {
+		return out, err
+	}
+	layouts, out.DerivedScanner, err = engine.DeriveKoreanC22RetailScannerLayouts(source, korean, layouts, mapping)
+	if err != nil {
+		return out, err
+	}
+
+	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, mapping); err != nil {
+		return out, err
+	}
+	out.Warnings, err = engine.AuditKoreanEnglishVisualWarnings(source, korean, layouts, mapping)
+	if err != nil {
+		return out, err
+	}
+	out.DynamicC5, err = validateKoreanRuntimeStorage(root, source, korean, layouts, mapping)
+	if err != nil {
+		return out, err
+	}
+	out.Layouts = layouts
+
+	warningCounts := make(map[string]int)
+	for _, warning := range out.Warnings {
+		warningCounts[warning.Code]++
+	}
+	codes := make([]string, 0, len(warningCounts))
+	for code := range warningCounts {
+		codes = append(codes, code)
+	}
+	sort.Strings(codes)
+	fmt.Printf("FORENSIC KOREAN_ENGLISH_CONTRACT_CHAIN entrypoint=%s materializable=%d c5_layouts=%d consumer_layouts=%d visual_layouts=%d scanner_layouts=%d storage=PASS visual=PASS warnings=%d dynamic_c5=%d\n",
+		entrypoint, len(korean.Entries), out.DerivedC5, out.DerivedConsumer, out.DerivedVisual, out.DerivedScanner, len(out.Warnings), len(out.DynamicC5))
+	for _, code := range codes {
+		fmt.Printf("FORENSIC KOREAN_ENGLISH_WARNING entrypoint=%s code=%s count=%d severity=warning\n", entrypoint, code, warningCounts[code])
+	}
+	return out, nil
+}
