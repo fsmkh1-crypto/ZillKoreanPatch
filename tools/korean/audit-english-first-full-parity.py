@@ -29,6 +29,7 @@ mobile_build = read("internal/release/korean_mobile.go")
 mobile_preflight = read("internal/release/korean_mobile_preflight.go")
 korean_font = read("internal/release/korean_font.go")
 korean_fixed = read("internal/release/korean_fixed.go")
+korean_fixeddata = read("internal/fixeddata/korean_eboot.go")
 mobile_plan = read("cmd/zill/build_korean_mobile_plan.go")
 slot_plan = read("internal/koreanslots/plan.go")
 english_font_manifest = read("release/font/manifest.toml")
@@ -102,8 +103,10 @@ require(manifest_source is not None and manifest_result is not None,
         "executable manifest lost source/result fingerprints")
 for anchor in ("elfpatch.Apply(source, manifest)", "applyKoreanFixedEBOOT(root, patched, mapping)"):
     require(anchor in release_build, "Korean executable build drifted from shared manifest chain: " + anchor)
-for anchor in ("patchedELFSHA256", "elfpatch.VerifyApplied(result, manifest)"):
-    require(anchor in korean_fixed, "Korean fixed EBOOT overlay lost executable postcondition: " + anchor)
+require("patchedELFSHA256" in korean_fixeddata,
+        "Korean fixed-string compiler no longer authenticates the manifest-patched ELF")
+require("elfpatch.VerifyApplied(result, manifest)" in korean_fixed,
+        "Korean fixed EBOOT overlay no longer re-verifies executable patch spans")
 
 # Slot reuse is Korean-only, so it must be at least as conservative as the
 # project-owned production BuildPlan contract: exact two-byte references in
