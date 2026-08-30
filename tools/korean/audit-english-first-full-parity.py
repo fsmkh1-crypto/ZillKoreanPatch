@@ -29,6 +29,7 @@ release_build = read("internal/release/korean_build.go")
 mobile_build = read("internal/release/korean_mobile.go")
 mobile_preflight = read("internal/release/korean_mobile_preflight.go")
 korean_font = read("internal/release/korean_font.go")
+korean_full_repack_verify = read("internal/zillfont/korean_full_repack_verify.go")
 korean_fixed = read("internal/release/korean_fixed.go")
 korean_fixeddata = read("internal/fixeddata/korean_eboot.go")
 mobile_plan = read("cmd/zill/build_korean_mobile_plan.go")
@@ -96,6 +97,17 @@ for digest in english_font_hashes:
             "Korean font path no longer pins upstream English retail source fingerprint " + digest)
 require("prepareKoreanMobileFontReplacements" in mobile_build,
         "mobile Korean build no longer reaches the authenticated font path")
+# English has a frozen result_sha256 for each complete font member. Korean's
+# corpus-derived mapping cannot have one static result hash, so its verifier must
+# enforce an exact mutation surface: only atlas image payloads and modeled PAF
+# geometry/metric fields may differ from authenticated retail bytes.
+for anchor in (
+    "verifyFullRepackContainerMutationSurface(retailAtlas, retailPAF, patchedAtlas, patchedPAF)",
+    "changed immutable atlas/container byte",
+    "changed immutable PAF/container byte",
+):
+    require(anchor in korean_full_repack_verify,
+            "Korean full-font verifier lost English-equivalent result boundary: " + anchor)
 
 # BOOT/EBOOT is shared engine machinery. Korean must apply the same executable
 # manifest first, authenticate the manifest-patched ELF just like English, then
@@ -156,6 +168,7 @@ print("korean_c5_split=" + ",".join(sorted(deliberate_split)))
 print("shared_capacity_constants=" + ",".join(sorted(english_constants)))
 print("release_entrypoints=desktop,mobile,preflight")
 print("font_source_fingerprints=english_manifest_exact")
+print("font_result_boundary=dynamic_exact_mutation_surface")
 print("executable_manifest_chain=shared_and_postverified")
 print("slot_ownership=authenticated_exact_byte_fail_closed")
 print("archive_rebuild=shared_duplicate_reject_and_exact_payload_verify")
