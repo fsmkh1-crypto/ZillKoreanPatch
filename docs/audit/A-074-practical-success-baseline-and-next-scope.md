@@ -4,17 +4,17 @@ Date: 2026-08-31 (KST)
 
 ## Evidence status
 
-A practical successful run has been reported against the last green Android/CI build at commit `98c74d3715e1575f9d25f466101048067a960452`.
+Two consecutive practical runs were reported as passing the previously freezing area on the Android/CI build line whose tested APK was built from commit `3c3d5a04d5b677f84342a9c7486981e11feb8f60`.
 
-Per project evidence policy, this is recorded strictly as **one non-reproduction of the prior freeze in that run**. It is not proof that the build is globally safe and it does not establish any particular hypothesis as root cause.
+Per project evidence policy, this is recorded strictly as **two consecutive non-reproductions of the prior freeze**. It is stronger practical evidence than a single pass, but it is not proof that the build is globally safe and it does not establish any particular hypothesis as root cause.
 
-The APK associated with that baseline was built from the same commit and previously verified to contain payload version `98c74d3715e1575f9d25f466101048067a960452` with its embedded manifest passing `sha256sum -c`.
+The tested APK had previously passed the English-first storage/visual census, A-054 census, Android build and embedded-payload verification on that commit line. Its previously recorded APK SHA-256 was `e5a55a1ae2749a1f1a7046e8156b4ccc01ccd3a495fb9c94abbfecd4e4342980`.
 
-Subsequent commits on `audit/english-first-full-parity-restart` strengthen static/parity auditing and must not overwrite the interpretation of the practical evidence above. If a later build regresses, `98c74d...` remains the practical comparison baseline.
+Subsequent commits on `audit/english-first-full-parity-restart` strengthen static/parity auditing and add localization work. They must not overwrite the interpretation of this practical evidence. If a later build regresses, `3c3d5a04...` remains the practical runtime comparison baseline unless a newer build earns its own separately recorded runtime evidence.
 
 ## Baseline interpretation
 
-- SUCCESS once = freeze not reproduced in that execution only.
+- SUCCESS twice = freeze not reproduced in those two executions; not a proof of global safety.
 - Any later freeze/crash = strong failure evidence for the tested later build.
 - Same visible screen does not by itself establish the same machine-state cause.
 - Do not fold future localization changes into the historical success claim.
@@ -64,6 +64,6 @@ The input window is the highest-risk of the three because it may combine renderi
 
 ## Rollback/reference point
 
-Practical comparison baseline: `98c74d3715e1575f9d25f466101048067a960452`
+Practical runtime comparison baseline: `3c3d5a04d5b677f84342a9c7486981e11feb8f60`
 
-Current audit work continues on `audit/english-first-full-parity-restart`; any localization expansion should remain separable from this baseline by commit history and, preferably, by one scope per commit/branch checkpoint.
+Current audit/localization work continues on `audit/english-first-full-parity-restart`; any localization expansion must remain separable from this baseline by commit history and by one scope per checkpoint.
