@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Fail closed if Korean renderer metrics drift from the English layout metric model."""
+"""Fail closed if Korean renderer metrics drift from the English visual contract model."""
 from __future__ import annotations
 
 import pathlib
@@ -13,6 +13,8 @@ metrics = tomllib.loads((ROOT / "release/font/metrics.toml").read_text(encoding=
 korean_metrics = (ROOT / "internal/zillfont/korean_metrics.go").read_text(encoding="utf-8")
 mobile_plan = (ROOT / "cmd/zill/build_korean_mobile_plan.go").read_text(encoding="utf-8")
 mobile_font = (ROOT / "internal/release/korean_font_mobile.go").read_text(encoding="utf-8")
+visual = (ROOT / "internal/layout/validate_korean_visual.go").read_text(encoding="utf-8")
+storage = (ROOT / "internal/layout/validate_korean_english_contract.go").read_text(encoding="utf-8")
 
 
 def const(name: str) -> int:
@@ -32,18 +34,19 @@ if raster_width > advance:
         f"KOREAN_LAYOUT_FONT_METRICS_FAIL raster width {raster_width} exceeds target advance {advance}"
     )
 
-# metrics.toml is the English patcher's authoritative layout-width model. The
-# mobile Korean planner deliberately permits every installed double-byte PAF key,
-# and the full repack rewrites every mapped custom glyph to KoreanTargetAdvance.
-# Therefore every double-byte renderer key that layout may see must carry the same
-# advance in the English metrics table, or layout decisions and produced PAF
-# geometry can silently disagree.
+# The English metric table is authoritative for stock text. It legitimately
+# contains a few narrow double-byte punctuation glyphs. The mobile Korean full
+# repack may repurpose any installed double-byte key and rewrites mapped custom
+# glyphs to KoreanTargetAdvance, so those nominal English widths must NOT be
+# imposed on mapped Hangul. Instead, the Korean visual validator must explicitly
+# use KoreanTargetAdvance for mapped runes and the English metric table for
+# unmapped stock text.
 glyphs = metrics.get("glyph", {})
 if not isinstance(glyphs, dict) or not glyphs:
     raise SystemExit("KOREAN_LAYOUT_FONT_METRICS_FAIL empty English glyph metrics")
 
-bad = []
 double_count = 0
+nominal_mismatches = []
 for raw_key, value in glyphs.items():
     key = int(raw_key, 0)
     lo, hi = key & 0xFF, (key >> 8) & 0xFF
@@ -52,15 +55,9 @@ for raw_key, value in glyphs.items():
         continue
     double_count += 1
     if value != advance:
-        bad.append((raw_key, value))
-
+        nominal_mismatches.append((raw_key, value))
 if double_count == 0:
     raise SystemExit("KOREAN_LAYOUT_FONT_METRICS_FAIL no double-byte metrics found")
-if bad:
-    detail = ", ".join(f"{k}={v}" for k, v in bad[:16])
-    raise SystemExit(
-        f"KOREAN_LAYOUT_FONT_METRICS_FAIL {len(bad)} double-byte English metrics differ from Korean target advance {advance}: {detail}"
-    )
 
 for anchor in (
     "installed := font.DoubleByteKeys()",
@@ -74,8 +71,20 @@ for anchor in (
 ):
     if anchor not in mobile_font:
         raise SystemExit("KOREAN_LAYOUT_FONT_METRICS_FAIL mobile font path drifted: " + anchor)
+for anchor in (
+    "ValidateKoreanEnglishVisualContracts",
+    "zillfont.KoreanTargetAdvance",
+    'e.category(row.ID, "character-profile")',
+    "profileAdvance",
+    "profileMaxLines",
+):
+    if anchor not in visual:
+        raise SystemExit("KOREAN_LAYOUT_FONT_METRICS_FAIL Korean visual validator drifted: " + anchor)
+if "e.ValidateKoreanEnglishVisualContracts(source, korean, layouts, mapping)" not in storage:
+    raise SystemExit("KOREAN_LAYOUT_FONT_METRICS_FAIL Korean release storage gate no longer invokes hard English visual contracts")
 
 print(
     "KOREAN_LAYOUT_FONT_METRICS_PASS "
-    f"double_byte_metrics={double_count} target_advance={advance} raster={raster_width}x{raster_height}"
+    f"double_byte_metrics={double_count} target_advance={advance} raster={raster_width}x{raster_height} "
+    f"nominal_double_byte_width_differences={len(nominal_mismatches)} mapped_override=true"
 )
