@@ -5,6 +5,7 @@ package release
 import (
 	"path/filepath"
 	"sort"
+	"strings"
 	"testing"
 
 	"github.com/HK47196/zill/internal/corpus"
@@ -109,6 +110,14 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 		if bucket.Token == "<value:$28>" { bound = "player-name-max-16-bytes" }
 		t.Logf("FORENSIC U6_RUNTIME_SUBSTITUTION token=%s basis=%s consumer=%s messages=%d bound=%s", bucket.Token, bucket.Basis, bucket.Consumer, bucket.Count, bound)
 	}
+	var verified15 []int
+	for _, row := range korean.Entries {
+		if !strings.Contains(row.Korean, "<value:$15>") { continue }
+		basis, _ := engine.WarningOwnership(row.ID)
+		if basis == "verified" { verified15 = append(verified15, row.ID) }
+	}
+	sort.Ints(verified15)
+	t.Logf("FORENSIC U6_VALUE15_VERIFIED_IDS count=%d ids=%v runtime_bound=unproven", len(verified15), verified15)
 
 	checked := len(korean.Entries)
 	if checked != wantCanonical { t.Fatalf("consumer census checked %d rows, want %d", checked, wantCanonical) }
