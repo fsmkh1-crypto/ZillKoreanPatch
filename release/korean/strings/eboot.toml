@@ -4,6 +4,37 @@
 0x243d28 = { source = "神の手に魂を委ねる", replacement = "신께 영혼을 맡긴다" }
 0x243d3c = { source = "自らの手で魂を示す", replacement = "영혼을 증명한다" }
 
+# U2 — opening/character-creation fixed UI recovered from the historical Korean
+# candidate set, but only where the upstream-English EBOOT table already owns an
+# exact fixed field. The character/name input row at 0x243d50 is intentionally
+# excluded: input rendering remains a separate consumer-contract task.
+0x243cd4 = { source = "男性", replacement = "남성" }
+0x243cdc = { source = "女性", replacement = "여성" }
+0x243ce4 = { source = "黒", replacement = "흑" }
+0x243ce8 = { source = "赤", replacement = "적" }
+0x243cec = { source = "青", replacement = "청" }
+0x243cf0 = { source = "茶", replacement = "갈" }
+0x243cf4 = { source = "金", replacement = "금" }
+0x243da0 = { source = "旅先の小さな町", replacement = "여행지 마을" }
+0x243db0 = { source = "穏やかな田舎町", replacement = "한적한 시골" }
+0x243dc0 = { source = "王城のある大都市", replacement = "왕성 대도시" }
+0x243dd4 = { source = "黄金色に輝く畑", replacement = "황금빛 들판" }
+0x243de4 = { source = "地図にもない村", replacement = "지도 없는 마을" }
+0x243df4 = { source = "闇に閉ざされし塔", replacement = "어둠의 탑" }
+0x243e08 = { source = "始まりの地", replacement = "시작의 땅" }
+0x243e14 = { source = "チュートリアル", replacement = "튜토리얼" }
+0x243e24 = { source = "月", replacement = "월" }
+0x243e28 = { source = "日", replacement = "일" }
+0x243e2c = { source = "%2d月", replacement = "%2d월" }
+0x243e4c = { source = "日生まれ", replacement = "일 출생" }
+0x243e58 = { source = "性別", replacement = "성별" }
+0x243e64 = { source = "火", replacement = "화" }
+0x243e68 = { source = "水", replacement = "수" }
+0x243e6c = { source = "土", replacement = "토" }
+0x243e70 = { source = "風", replacement = "풍" }
+0x243e78 = { source = "もはや迷いはない", replacement = "이대로 결정" }
+0x243e8c = { source = "もう一度考えたい", replacement = "다시 생각" }
+
 # U1 — save/load system strings. These stay within the upstream-English fixed
 # EBOOT authority and its exact source field; source bytes, capacity, NUL and
 # overlap are revalidated by the shared Korean fixed-data gate.
