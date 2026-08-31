@@ -4,10 +4,31 @@ package main
 
 import (
 	"bytes"
+	"errors"
 	"path/filepath"
 	"strings"
 	"testing"
 )
+
+func TestPR14HistoricalDiagnosticFailureIsNonBlocking(t *testing.T) {
+	var stdout bytes.Buffer
+	reportPR14HistoricalDiagnostic(&stdout, errors.New("missing historical fixture"))
+	got := stdout.String()
+	if !strings.Contains(got, "PR14_POLICY_AUDIT_UNAVAILABLE") {
+		t.Fatalf("missing diagnostic marker: %q", got)
+	}
+	if !strings.Contains(got, "diagnostic_only=true") || !strings.Contains(got, "build_blocked=false") {
+		t.Fatalf("diagnostic failure did not declare non-blocking semantics: %q", got)
+	}
+}
+
+func TestPR14HistoricalDiagnosticSuccessIsSilent(t *testing.T) {
+	var stdout bytes.Buffer
+	reportPR14HistoricalDiagnostic(&stdout, nil)
+	if stdout.Len() != 0 {
+		t.Fatalf("successful historical diagnostic wrote unexpected output: %q", stdout.String())
+	}
+}
 
 func TestBuildKoreanISOPreflightDoesNotRequireOutput(t *testing.T) {
 	root := t.TempDir()
