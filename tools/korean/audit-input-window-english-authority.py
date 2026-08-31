@@ -11,6 +11,7 @@ owns.
 from __future__ import annotations
 
 import pathlib
+import re
 import tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -40,10 +41,9 @@ def load(path: pathlib.Path) -> dict:
 
 
 def entry(table: dict, offset: int) -> dict:
-    # TOML integer-looking bare keys are represented as strings by tomllib.
     key = hex(offset)
     if key not in table:
-        raise SystemExit(f"INPUT_WINDOW_FAIL missing field {key} in {table!r}")
+        raise SystemExit(f"INPUT_WINDOW_FAIL missing field {key}")
     return table[key]
 
 
@@ -64,9 +64,7 @@ def main() -> None:
             raise SystemExit(f"INPUT_WINDOW_FAIL upstream-English authority drift at {offset:#x}")
         if ko.get("source") != want["source"] or ko.get("replacement") != want["korean"]:
             raise SystemExit(f"INPUT_WINDOW_FAIL Korean command-strip drift at {offset:#x}")
-        # Command count is semantic ordering, not layout geometry. Double/triple
-        # spaces delimit the labels in the authenticated upstream strings.
-        labels = [x for x in ko["replacement"].strip().split("  ") if x.strip()]
+        labels = [x for x in re.split(r" {2,}", ko["replacement"].strip()) if x.strip()]
         if len(labels) != want["commands"]:
             raise SystemExit(
                 f"INPUT_WINDOW_FAIL command count {len(labels)} at {offset:#x}; want {want['commands']}"
