@@ -4,6 +4,7 @@ package release
 
 import (
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"testing"
@@ -75,10 +76,14 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 
 	warningCounts := make(map[string]int)
 	var itemWarningIDs []int
+	runtimeWarningIDs := make(map[int]struct{})
 	for _, warning := range warnings {
 		warningCounts[warning.Code]++
 		if warning.Code == "item_description_single_line_overflow" {
 			itemWarningIDs = append(itemWarningIDs, warning.MessageID)
+		}
+		if warning.Code == "runtime_substitution_unbounded" {
+			runtimeWarningIDs[warning.MessageID] = struct{}{}
 		}
 	}
 	codes := make([]string, 0, len(warningCounts))
@@ -110,14 +115,52 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 		if bucket.Token == "<value:$28>" { bound = "player-name-max-16-bytes" }
 		t.Logf("FORENSIC U6_RUNTIME_SUBSTITUTION token=%s basis=%s consumer=%s messages=%d bound=%s", bucket.Token, bucket.Basis, bucket.Consumer, bucket.Count, bound)
 	}
+
 	var verified15 []int
+	var verifiedDialogue15 []int
+	valueToken := regexp.MustCompile(`<value:\$[0-9A-F]{2}>`)
+	var verifiedDialogueRuntime []int
+	var verifiedDialogueUnknown []int
+	unknownTokens := make(map[string]struct{})
+	knownBoundOnly := 0
 	for _, row := range korean.Entries {
-		if !strings.Contains(row.Korean, "<value:$15>") { continue }
-		basis, _ := engine.WarningOwnership(row.ID)
-		if basis == "verified" { verified15 = append(verified15, row.ID) }
+		basis, consumer := engine.WarningOwnership(row.ID)
+		if strings.Contains(row.Korean, "<value:$15>") && basis == "verified" {
+			verified15 = append(verified15, row.ID)
+		}
+		if _, warned := runtimeWarningIDs[row.ID]; !warned || consumer != "verified-narrow-dialogue" {
+			continue
+		}
+		verifiedDialogueRuntime = append(verifiedDialogueRuntime, row.ID)
+		tokens := valueToken.FindAllString(row.Korean, -1)
+		onlyKnownBound := len(tokens) > 0
+		for _, token := range tokens {
+			if token == "<value:$15>" {
+				verifiedDialogue15 = append(verifiedDialogue15, row.ID)
+			}
+			if token == "<value:$28>" {
+				continue
+			}
+			onlyKnownBound = false
+			unknownTokens[token] = struct{}{}
+		}
+		if onlyKnownBound {
+			knownBoundOnly++
+			continue
+		}
+		verifiedDialogueUnknown = append(verifiedDialogueUnknown, row.ID)
 	}
 	sort.Ints(verified15)
+	sort.Ints(verifiedDialogue15)
+	sort.Ints(verifiedDialogueRuntime)
+	sort.Ints(verifiedDialogueUnknown)
+	unknownTokenList := make([]string, 0, len(unknownTokens))
+	for token := range unknownTokens { unknownTokenList = append(unknownTokenList, token) }
+	sort.Strings(unknownTokenList)
 	t.Logf("FORENSIC U6_VALUE15_VERIFIED_IDS count=%d ids=%v runtime_bound=unproven", len(verified15), verified15)
+	t.Logf("FORENSIC U6_VALUE15_VERIFIED_DIALOGUE_IDS count=%d ids=%v runtime_bound=unproven", len(verifiedDialogue15), verifiedDialogue15)
+	t.Logf("FORENSIC U6_VERIFIED_DIALOGUE_SUBSTITUTION_BOUNDARY total=%d known_bound_only=%d unbounded_unique=%d unbounded_tokens=%v", len(verifiedDialogueRuntime), knownBoundOnly, len(verifiedDialogueUnknown), unknownTokenList)
+	t.Logf("FORENSIC U6_VERIFIED_DIALOGUE_UNBOUNDED_IDS count=%d ids=%v", len(verifiedDialogueUnknown), verifiedDialogueUnknown)
 
 	checked := len(korean.Entries)
 	if checked != wantCanonical { t.Fatalf("consumer census checked %d rows, want %d", checked, wantCanonical) }
