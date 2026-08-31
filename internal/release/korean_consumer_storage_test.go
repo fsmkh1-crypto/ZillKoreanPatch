@@ -5,6 +5,7 @@ package release
 import (
 	"path/filepath"
 	"regexp"
+	"slices"
 	"sort"
 	"strings"
 	"testing"
@@ -157,6 +158,19 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	unknownTokenList := make([]string, 0, len(unknownTokens))
 	for token := range unknownTokens { unknownTokenList = append(unknownTokenList, token) }
 	sort.Strings(unknownTokenList)
+
+	wantVerifiedDialogue15 := []int{170025, 170207, 170208, 170209}
+	wantUnknownTokens := []string{"<value:$01>", "<value:$15>", "<value:$1A>", "<value:$20>", "<value:$23>", "<value:$29>", "<value:$2A>", "<value:$2B>", "<value:$2C>", "<value:$33>", "<value:$3C>"}
+	if len(verifiedDialogueRuntime) != 1214 || knownBoundOnly != 809 || len(verifiedDialogueUnknown) != 405 {
+		t.Fatalf("verified-dialogue substitution boundary drift: total=%d known_bound_only=%d unbounded_unique=%d", len(verifiedDialogueRuntime), knownBoundOnly, len(verifiedDialogueUnknown))
+	}
+	if !slices.Equal(verifiedDialogue15, wantVerifiedDialogue15) {
+		t.Fatalf("verified-dialogue $15 regression set drift: got %v want %v", verifiedDialogue15, wantVerifiedDialogue15)
+	}
+	if !slices.Equal(unknownTokenList, wantUnknownTokens) {
+		t.Fatalf("verified-dialogue unbounded token set drift: got %v want %v", unknownTokenList, wantUnknownTokens)
+	}
+
 	t.Logf("FORENSIC U6_VALUE15_VERIFIED_IDS count=%d ids=%v runtime_bound=unproven", len(verified15), verified15)
 	t.Logf("FORENSIC U6_VALUE15_VERIFIED_DIALOGUE_IDS count=%d ids=%v runtime_bound=unproven", len(verifiedDialogue15), verifiedDialogue15)
 	t.Logf("FORENSIC U6_VERIFIED_DIALOGUE_SUBSTITUTION_BOUNDARY total=%d known_bound_only=%d unbounded_unique=%d unbounded_tokens=%v", len(verifiedDialogueRuntime), knownBoundOnly, len(verifiedDialogueUnknown), unknownTokenList)
