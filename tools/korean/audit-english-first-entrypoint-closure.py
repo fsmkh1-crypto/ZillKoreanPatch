@@ -26,6 +26,7 @@ zill_main = read("cmd/zill/main.go")
 release_desktop = read("internal/release/korean_build.go")
 release_mobile = read("internal/release/korean_mobile.go")
 release_preflight = read("internal/release/korean_mobile_preflight.go")
+release_mobile_prepare = read("internal/release/korean_mobile_prepare.go")
 contract_chain = read("internal/release/korean_contract_chain.go")
 slot_plan = read("internal/koreanslots/plan.go")
 manifest_path = ROOT / "android-patcher/app/src/main/AndroidManifest.xml"
@@ -77,15 +78,45 @@ require('printMobileSlotAudit("final-diagnostic-only"' in mobile,
 require("finalAudit.CandidateHits != 0 || len(finalAudit.MappedHits) != 0" not in mobile,
         "mobile whole-blob byte aliases became a release-blocking ownership rule again")
 
-# All production release entry points must call one shared English-first chain.
-# The helper owns ordering, hard storage/visual validation, warning parity and C5
-# validation so adding a gate to one path cannot leave another path stale.
-for label, text, call in (
-    ("desktop", release_desktop, 'runKoreanEnglishContractChain(root, "desktop", source, korean, plan.Mapping)'),
-    ("mobile", release_mobile, 'runKoreanEnglishContractChain(root, "mobile", source, korean, plan.Mapping)'),
-    ("preflight", release_preflight, 'runKoreanEnglishContractChain(root, "preflight", source, korean, plan.Mapping)'),
+# Production releases must reach one shared English-first chain. Desktop calls
+# it directly. Mobile build and preflight intentionally converge first through
+# one deterministic preparation helper; requiring direct chain calls in both
+# callers would force the exact duplicated orchestration this audit should ban.
+desktop_call = 'runKoreanEnglishContractChain(root, "desktop", source, korean, plan.Mapping)'
+require(desktop_call in release_desktop,
+        "desktop release bypasses shared English-first contract chain")
+
+for label, text, mode in (
+    ("mobile", release_mobile, "mobile"),
+    ("preflight", release_preflight, "preflight"),
 ):
-    require(call in text, f"{label} release bypasses shared English-first contract chain")
+    prepare_call = f'prepareKoreanMobilePayload(root, gameDir, version, "{mode}", planBuilder)'
+    require(prepare_call in text,
+            f"{label} release bypasses shared deterministic mobile preparation")
+    require("runKoreanEnglishContractChain(" not in text,
+            f"{label} release reintroduced a direct contract-chain implementation outside shared preparation")
+    require("compileKoreanBanksWithPlan(" not in text,
+            f"{label} release reintroduced direct bank compilation outside shared preparation")
+
+mobile_contract = release_mobile_prepare.find(
+    "runKoreanEnglishContractChain(root, mode, source, korean, plan.Mapping)"
+)
+mobile_compile = release_mobile_prepare.find("compileKoreanBanksWithPlan(")
+require(mobile_contract >= 0,
+        "shared mobile preparation bypasses shared English-first contract chain")
+require(mobile_compile >= 0,
+        "shared mobile preparation lost Korean bank compilation")
+require(mobile_contract < mobile_compile,
+        "shared mobile preparation compiles before English-first contract validation")
+
+# None of the release wrappers/preparation helpers may independently reproduce
+# the derivation/validation stages owned by korean_contract_chain.go.
+for label, text in (
+    ("desktop", release_desktop),
+    ("mobile", release_mobile),
+    ("preflight", release_preflight),
+    ("mobile_prepare", release_mobile_prepare),
+):
     require("DeriveKoreanC5StorageLayouts(" not in text,
             f"{label} release duplicated C5 derivation outside shared chain")
     require("DeriveKoreanEnglishConsumerLayouts(" not in text,
@@ -154,6 +185,6 @@ require(".FreezeCaptureActivity" in manifest_text,
 print("ENTRYPOINT_PARITY_PASS")
 print("desktop_slot_ownership=structured_cp932_and_fixed_renderer_evidence")
 print("mobile_slot_ownership=structured_cp932_and_fixed_renderer_evidence_post_relocation_whole_blob_diagnostic_only")
-print("release_contract_chain=shared_desktop_mobile_preflight_storage_visual_warnings_c5")
+print("release_contract_chain=desktop_direct_mobile_shared_prepare_preflight_shared_prepare")
 print("mobile_command=bound_planner_to_preflight_or_iso_only_release")
 print("android_launcher=mainactivity_only_freeze_capture_nonexported")
