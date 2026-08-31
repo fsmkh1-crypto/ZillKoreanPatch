@@ -94,5 +94,9 @@ func runKoreanEnglishContractChain(root, entrypoint string, source *corpus.Proje
 	for _, code := range codes {
 		fmt.Printf("FORENSIC KOREAN_ENGLISH_WARNING entrypoint=%s code=%s count=%d severity=warning\n", entrypoint, code, warningCounts[code])
 	}
+	for _, bucket := range engine.AuditWarningPopulation(out.Warnings) {
+		fmt.Printf("FORENSIC KOREAN_ENGLISH_WARNING_BUCKET entrypoint=%s code=%s category=%s basis=%s consumer=%s count=%d severity=warning\n",
+			entrypoint, bucket.Code, bucket.Category, bucket.Basis, bucket.Consumer, bucket.Count)
+	}
 	return out, nil
 }
