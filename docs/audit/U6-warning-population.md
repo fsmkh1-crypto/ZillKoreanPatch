@@ -99,7 +99,11 @@ The 405-row population contains these unbounded tokens:
 
 `$01, $15, $1A, $20, $23, $29, $2A, $2B, $2C, $33, $3C`
 
-The repository census now hard-pins the `1,214 / 809 / 405` boundary and the exact token set. It also emits the exact 405 message IDs as `FORENSIC U6_VERIFIED_DIALOGUE_UNBOUNDED_IDS` on every U6 census run, so population drift fails review instead of being silently absorbed into the zero-overflow claim.
+The repository census hard-pins the `1,214 / 809 / 405` boundary, the exact token set, and the exact sorted 405-message ID set. The ID-set fingerprint is:
+
+`sha256:13bf9c396dff808920032c60c308cf2d1111bae56cebd2c5eccbea954dd3965f`
+
+Every U6 census run recomputes and asserts that fingerprint and emits the exact IDs as `FORENSIC U6_VERIFIED_DIALOGUE_UNBOUNDED_IDS`, so a population change cannot be silently absorbed into the zero-overflow claim.
 
 ## Runtime substitution token census
 
