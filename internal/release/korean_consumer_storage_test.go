@@ -17,6 +17,11 @@ import (
 // exhausts every upstream-English asset-independent contract and warning class
 // over all 42,016 accepted Korean rows using Korean renderer metrics.
 //
+// The derivation order deliberately mirrors the asset-independent portion of
+// runKoreanEnglishContractChain. In particular, U5 verified dialogue reflow must
+// run before the warning census; otherwise the census reports pre-U5 unbroken
+// lines even though the production APK receives derived line breaks.
+//
 // C5 projection/storage validation is deliberately not repeated here because it
 // requires authenticated retail source tokens. The shared desktop/mobile/
 // preflight contract chain runs that exact asset-backed gate before compilation.
@@ -52,6 +57,8 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	if err != nil { t.Fatal(err) }
 	layouts, derivedEnglish, err := engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
+	layouts, derivedDialogue, err := engine.DeriveKoreanEnglishDialogueLayouts(source, korean, layouts, mapping)
+	if err != nil { t.Fatal(err) }
 	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
 	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, mapping); err != nil { t.Fatal(err) }
@@ -69,6 +76,6 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 
 	checked := len(korean.Entries)
 	if checked != wantCanonical { t.Fatalf("consumer census checked %d rows, want %d", checked, wantCanonical) }
-	t.Logf("FORENSIC KOREAN_CONSUMER_STORAGE_SUMMARY canonical=%d checked=%d english_layouts=%d visual_layouts=%d contracts=PASS visual=PASS warnings=%d exact_asset_gates=C5,CompileBankKorean",
-		len(korean.Entries), checked, derivedEnglish, derivedVisual, len(warnings))
+	t.Logf("FORENSIC KOREAN_CONSUMER_STORAGE_SUMMARY canonical=%d checked=%d english_layouts=%d dialogue_layouts=%d visual_layouts=%d contracts=PASS visual=PASS warnings=%d exact_asset_gates=C5,CompileBankKorean",
+		len(korean.Entries), checked, derivedEnglish, derivedDialogue, derivedVisual, len(warnings))
 }
