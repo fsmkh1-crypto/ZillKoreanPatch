@@ -15,6 +15,13 @@ import (
 	"github.com/HK47196/zill/internal/release"
 )
 
+func reportPR14HistoricalDiagnostic(stdout io.Writer, err error) {
+	if err == nil {
+		return
+	}
+	fmt.Fprintf(stdout, "FORENSIC PR14_POLICY_AUDIT_UNAVAILABLE error=%q diagnostic_only=true build_blocked=false\n", err.Error())
+}
+
 func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int {
 	isoPath, outputPath, workDir, version := "", "", "", ""
 	preflightOnly := false
@@ -96,9 +103,7 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		// stale historical fixture must not turn that diagnostic into a release
 		// blocker. The current production planner and downstream contract gates
 		// remain fail-closed immediately below.
-		if err := auditPR14HistoricalPolicies(root, gameDir, source, korean); err != nil {
-			fmt.Fprintf(stdout, "FORENSIC PR14_POLICY_AUDIT_UNAVAILABLE error=%q diagnostic_only=true build_blocked=false\n", err.Error())
-		}
+		reportPR14HistoricalDiagnostic(stdout, auditPR14HistoricalPolicies(root, gameDir, source, korean))
 		return buildKoreanAlphaPlanMobile(root, gameDir, source, korean)
 	}
 	if preflightOnly {
