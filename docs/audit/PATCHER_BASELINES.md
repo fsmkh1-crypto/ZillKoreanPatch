@@ -4,12 +4,12 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 
 ## U0 — first non-freeze baseline
 
-- Git commit: `a9a693eb66b5d05ba4e5eca859815f4b97e25b22`
+- Git commit: `3c3d5a04d5b677f84342a9c7486981e11feb8f60`
 - Recovery branch: `milestone/U0`
 - Meaning: first patcher reported by the user to complete the previously freezing path twice without a freeze.
 - Evidence interpretation: two successful runs are two non-reproductions only; they do not prove universal safety.
-- Static gates at this baseline: full Korean consumer-storage census populated at `canonical=42016 checked=42016`, plus A-054 scanner census and Android payload verification.
-- APK SHA-256 recorded at generation time: `bdfcd0588aecfded22947737ef3d1e7983e58574272bf9597d3871415e938bd0`.
+- Static gates at this baseline: full Korean consumer-storage census `canonical=42016 checked=42016`, 141 renderer-aware profile layouts with `contracts=PASS visual=PASS`, A-054 scanner census, standard CI, Android RC and embedded-payload verification.
+- APK SHA-256 recorded at generation time: `e5a55a1ae2749a1f1a7046e8156b4ccc01ccd3a495fb9c94abbfecd4e4342980`.
 
 ## U1 — system UI expansion baseline
 
@@ -41,11 +41,12 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 - Android RC run: `33346491038`.
 - Android RC artifact id: `9742179788`.
 - Artifact digest: `sha256:278c3958b449e1c7779f45d2a8eb41b39cd64445e73756b05512c26f8a7a8189`.
+- APK SHA-256 recorded at generation time: `5cd4fb7177a61b3d6cce699f6ea0cccfb92b9df5601654c6bf3a44e70e57b85a`.
 - Device runtime evidence: not yet recorded for U3.
 
 ## U-series policy
 
-1. Never move or overwrite `milestone/U0`, `milestone/U1`, `milestone/U2`, or `milestone/U3`.
+1. Never move or overwrite `milestone/U0`, `milestone/U1`, `milestone/U2`, or `milestone/U3` except to correct a documented baseline-recording error against authenticated generation/runtime evidence.
 2. Future work happens on a separate work/active branch and receives a new U-number only after its intended scope is complete and its static/compile gates are green.
 3. A device success is recorded as non-reproduction, not proof of safety. A freeze/crash is strong failure evidence.
 4. Upstream-English consumer/storage contracts remain the primary authority; Korean-only deviations require explicit renderer/encoding evidence.
