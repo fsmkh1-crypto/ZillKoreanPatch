@@ -66,9 +66,9 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 - Scope boundary: canonical Korean text is unchanged; only build-local layouts receive derived `<line-break>` boundaries. Existing authored layouts are not rewritten. Item-description/special consumers remain under their existing dedicated contracts.
 - Safety rules: actual Korean renderer advances are measured; derived layout must preserve semantic/control topology; complete whitespace spans may be replaced by a layout break but are not normalized; a word that cannot fit the inherited English advance limit fails closed; runtime value adjacency is not newly split at a derived boundary.
 - Production/census parity: the 42,016-row repository audit now runs the same relevant derivation order as the production contract chain: fixed English-consumer layouts -> verified English dialogue reflow -> hard visual layouts -> validation/warning census.
-- Verified-dialogue hard gate: `checked=7382`, `derived=3829`, `residual_overflow=0`, scope `verified_narrow_text`. Any future residual renderer-width overflow in this proven U5 population is a hard test failure.
+- Verified-dialogue hard gate: `checked=7382`, `derived=3829`, `residual_overflow=0`, scope `verified_narrow_text`. Any future residual renderer-width overflow in this proven U5 population is a hard test failure under the renderer-width model's static text plus independently established runtime-width reservations; it is not a worst-case proof for substitutions whose expansion bound remains unknown.
 - Full corpus census: `canonical=42016 checked=42016`, `english_layouts=464`, `dialogue_layouts=3829`, `visual_layouts=141`, `contracts=PASS`, `visual=PASS`.
-- Remaining warning census after U5 derivation: `item_description_single_line_overflow=13`, `line_exceeds_authoring_ceiling=11985`, `runtime_substitution_unbounded=4987`, total `warnings=16985`. These are global warning classes, not evidence that all 16,985 are proven live dialogue overflows; U5's proven narrow-dialogue population is separately hard-gated at residual overflow zero.
+- Remaining warning census after U5 derivation: `item_description_single_line_overflow=13`, `line_exceeds_authoring_ceiling=11985`, `runtime_substitution_unbounded=4987`, total `warnings=16985`. These are global warning classes, not evidence that all 16,985 are proven live dialogue overflows.
 - A-054 asset-independent full-corpus scanner census PASS; exact asset-backed gates remain `C5,CompileBankKorean` in the shared build path.
 - Standard CI run: `33357613850` — SUCCESS.
 - Android RC run: `33357613801` — SUCCESS.
@@ -79,10 +79,27 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 - Embedded payload/version was built from functional HEAD `838f1b965e89e916d2c780a0e7c70ec0126d4bc7` and verified by the Android workflow.
 - Device runtime evidence: not yet recorded for this final U5 reseal. A later successful run would be a non-reproduction only; a freeze/crash remains strong failure evidence.
 
+## U6 — residual warning population audit baseline
+
+- Audit milestone commit: `24bb3cb573c5405185ec4da0e5da195c31cf68c2`.
+- Recovery branch: `milestone/U6` (kept at the completed audit snapshot above; later same-scope validation/documentation closure does not move the recovery point or create U7).
+- Meaning: payload-neutral warning-population audit over the final U5 runtime patch. U6 added observational census/logging helpers in shared Go source but no Korean translation, runtime layout, glyph mapping, fixed-string, or embedded patch-project data mutation.
+- Full corpus: `canonical=42016 checked=42016`, `english_layouts=464`, `dialogue_layouts=3829`, `visual_layouts=141`, `contracts=PASS`, `visual=PASS`, `warnings=16985`.
+- Warning classes: `item_description_single_line_overflow=13`, `line_exceeds_authoring_ceiling=11985`, `runtime_substitution_unbounded=4987`.
+- Verified dialogue: `checked=7382`, `derived=3829`, `residual_overflow=0` under the proven-width model described in `docs/audit/U6-warning-population.md`.
+- Verified-dialogue runtime-substitution boundary: 1,214 warning rows split disjointly into 809 rows whose substitution is only independently bounded `$28`, and 405 rows carrying at least one currently unbounded token.
+- Exact 405-row unbounded population is hard-pinned by sorted-ID fingerprint `sha256:13bf9c396dff808920032c60c308cf2d1111bae56cebd2c5eccbea954dd3965f`; exact token set is `$01,$15,$1A,$20,$23,$29,$2A,$2B,$2C,$33,$3C`.
+- `$15` verified-category regression priorities remain eight IDs; the verified-narrow-dialogue intersection is exactly `170025,170207,170208,170209`. This is a regression shortlist, not root-cause proof.
+- U5/U6 Android embedded patch-project equivalence: 617 comparable `assets/zillroot/` files, excluding only commit-identification metadata (`payload-version.txt` and its manifest), differed in 0 files; both trees have deterministic composite SHA-256 `6126493b93bd47d67ae8ea1fc3460758c127acf2a916cbbbe4f89eb3d9fd20f3`.
+- Boundary of equivalence evidence: whole APK digests are expected to differ because Go code and commit metadata differ. Byte identity of final patched retail `PSP_GAME/`, ISO, or xdelta is not claimed without applying both builders to the same authenticated retail input.
+- Detailed audit: `docs/audit/U6-warning-population.md`.
+- Payload-equivalence record: `docs/audit/U6-payload-equivalence.md`.
+- Device runtime evidence: not yet added for the U4/U5 behaviors covered by this audit. Remaining confidence gains are practical/runtime unless a new authenticated consumer/storage contract or substitution bound is discovered.
+
 ## U-series policy
 
-1. Never move or overwrite `milestone/U0` through `milestone/U4`. `milestone/U5` was resealed once to complete its already-defined dialogue-reflow scope after the audit/production-path mismatch was discovered; from the final functional commit recorded above it is immutable as well.
-2. Future work outside the already-defined U5 scope happens on a separate work/active branch and receives a new U-number only after its intended scope is complete and its static/compile gates are green. Same-scope validation/documentation corrections do not by themselves create a new U-number.
+1. `milestone/U0` through `milestone/U6` are recovery points and must not be moved or overwritten except to correct a documented baseline-recording error against authenticated evidence. U5's one reseal is historical and complete.
+2. Future work outside an already-defined U-stage scope happens on a separate work/active branch and receives a new U-number only after its intended scope is complete and its static/compile gates are green. Same-scope validation/documentation corrections do not by themselves create a new U-number.
 3. A device success is recorded as non-reproduction, not proof of safety. A freeze/crash is strong failure evidence.
 4. Upstream-English consumer/storage/visual contracts remain the primary authority; Korean-only deviations require explicit renderer/encoding evidence.
 5. Structured live-consumer ownership (such as the confirmed keyboard page) may reserve renderer slots; arbitrary whole-blob two-byte occurrences remain diagnostic-only and must not establish slot ownership.
