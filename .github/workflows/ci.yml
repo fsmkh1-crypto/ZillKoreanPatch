@@ -33,6 +33,7 @@ jobs:
       - run: python3 tools/korean/audit-english-first-entrypoint-closure.py
       - run: python3 tools/korean/audit-english-first-param-sfo.py
       - run: python3 tools/korean/audit-english-first-fixed-data.py
+      - run: python3 tools/korean/audit-input-window-english-authority.py
       - run: python3 tools/korean/audit-korean-equipment-reuse.py
       - run: python3 tools/korean/audit-untranslated-surfaces.py
       - run: python3 tools/korean/audit-korean-glyph-repertoire.py
