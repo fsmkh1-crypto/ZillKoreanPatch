@@ -23,6 +23,7 @@ final class ProjectAssetIntegrity {
             "release/korean/strings/eboot.toml",
             "release/layout/consumer-map.toml",
             "release/layout/categories.toml",
+            "docs/audit/fixtures/pr14-eboot-h0.toml",
             "docs/audit/fixtures/pr14-eboot-full.toml",
             "patches/executable/manifest.toml",
             "patches/system/param-sfo.toml",
