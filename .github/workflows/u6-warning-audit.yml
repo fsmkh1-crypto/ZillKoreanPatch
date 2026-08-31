@@ -18,11 +18,13 @@ jobs:
         with:
           go-version-file: go.mod
           cache-dependency-path: go.sum
+      - name: Build current-source CLI
+        run: go build -o /tmp/zill-u6 ./cmd/zill
       - name: Residual warning ownership census
         shell: bash
         run: |
           set -o pipefail
-          ./zill korean-check 2>&1 \
+          /tmp/zill-u6 korean-check 2>&1 \
             | grep -E 'FORENSIC KOREAN_ENGLISH_(CONTRACT_CHAIN|WARNING |WARNING_SUMMARY)' \
             | grep -E 'entrypoint=(desktop|korean-check)' \
             || true
