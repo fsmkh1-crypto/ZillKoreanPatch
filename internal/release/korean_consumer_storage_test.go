@@ -60,6 +60,12 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	if err != nil { t.Fatal(err) }
 	layouts, derivedDialogue, err := engine.DeriveKoreanEnglishDialogueLayouts(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
+	dialogueChecked, dialogueOverflowIDs, err := engine.AuditKoreanEnglishDialogueResiduals(source, korean, layouts, mapping)
+	if err != nil { t.Fatal(err) }
+	if len(dialogueOverflowIDs) != 0 {
+		t.Fatalf("verified dialogue residual overflow after English-authority reflow: count=%d ids=%v", len(dialogueOverflowIDs), dialogueOverflowIDs)
+	}
+	t.Logf("FORENSIC KOREAN_DIALOGUE_REFLOW_SUMMARY checked=%d derived=%d residual_overflow=%d scope=verified_narrow_text", dialogueChecked, derivedDialogue, len(dialogueOverflowIDs))
 	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
 	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, mapping); err != nil { t.Fatal(err) }
