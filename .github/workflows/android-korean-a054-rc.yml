@@ -19,6 +19,7 @@ on:
       - 'patches/system/**'
       - 'tools/korean/audit-english-first-full-parity.py'
       - 'tools/korean/audit-english-first-entrypoint-closure.py'
+      - 'tools/korean/audit-input-window-english-authority.py'
       - 'AGENTS.md'
       - '.github/workflows/android-korean-a054-rc.yml'
 
@@ -54,6 +55,7 @@ jobs:
           set -euo pipefail
           python3 tools/korean/audit-english-first-full-parity.py
           python3 tools/korean/audit-english-first-entrypoint-closure.py
+          python3 tools/korean/audit-input-window-english-authority.py
 
       - name: Prepare embedded Korean patch project data
         shell: bash
