@@ -73,13 +73,21 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	if err != nil { t.Fatal(err) }
 
 	warningCounts := make(map[string]int)
-	for _, warning := range warnings { warningCounts[warning.Code]++ }
+	var itemWarningIDs []int
+	for _, warning := range warnings {
+		warningCounts[warning.Code]++
+		if warning.Code == "item_description_single_line_overflow" {
+			itemWarningIDs = append(itemWarningIDs, warning.MessageID)
+		}
+	}
 	codes := make([]string, 0, len(warningCounts))
 	for code := range warningCounts { codes = append(codes, code) }
 	sort.Strings(codes)
 	for _, code := range codes {
 		t.Logf("FORENSIC KOREAN_ENGLISH_WARNING_CENSUS code=%s count=%d severity=warning", code, warningCounts[code])
 	}
+	sort.Ints(itemWarningIDs)
+	t.Logf("FORENSIC U6_ITEM_DESCRIPTION_WARNING_IDS count=%d ids=%v upstream_behavior=leave_unreflowed_and_warn", len(itemWarningIDs), itemWarningIDs)
 
 	type summaryKey struct { code, basis, consumer string }
 	summary := make(map[summaryKey]int)
