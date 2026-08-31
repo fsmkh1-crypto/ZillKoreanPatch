@@ -81,6 +81,22 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 		t.Logf("FORENSIC KOREAN_ENGLISH_WARNING_CENSUS code=%s count=%d severity=warning", code, warningCounts[code])
 	}
 
+	type summaryKey struct { code, basis, consumer string }
+	summary := make(map[summaryKey]int)
+	for _, bucket := range engine.AuditWarningPopulation(warnings) {
+		summary[summaryKey{bucket.Code, bucket.Basis, bucket.Consumer}] += bucket.Count
+	}
+	keys := make([]summaryKey, 0, len(summary))
+	for key := range summary { keys = append(keys, key) }
+	sort.Slice(keys, func(i, j int) bool {
+		if keys[i].code != keys[j].code { return keys[i].code < keys[j].code }
+		if keys[i].consumer != keys[j].consumer { return keys[i].consumer < keys[j].consumer }
+		return keys[i].basis < keys[j].basis
+	})
+	for _, key := range keys {
+		t.Logf("FORENSIC U6_WARNING_SUMMARY code=%s basis=%s consumer=%s count=%d", key.code, key.basis, key.consumer, summary[key])
+	}
+
 	checked := len(korean.Entries)
 	if checked != wantCanonical { t.Fatalf("consumer census checked %d rows, want %d", checked, wantCanonical) }
 	t.Logf("FORENSIC KOREAN_CONSUMER_STORAGE_SUMMARY canonical=%d checked=%d english_layouts=%d dialogue_layouts=%d visual_layouts=%d contracts=PASS visual=PASS warnings=%d exact_asset_gates=C5,CompileBankKorean",
