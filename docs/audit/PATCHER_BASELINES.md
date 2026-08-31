@@ -6,7 +6,6 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 
 - Git commit: `a9a693eb66b5d05ba4e5eca859815f4b97e25b22`
 - Recovery branch: `milestone/U0`
-- Descriptive recovery branch: `milestone/U0-first-nonfreeze`
 - Meaning: first patcher reported by the user to complete the previously freezing path twice without a freeze.
 - Evidence interpretation: two successful runs are two non-reproductions only; they do not prove universal safety.
 - Static gates at this baseline: full Korean consumer-storage census populated at `canonical=42016 checked=42016`, plus A-054 scanner census and Android payload verification.
@@ -16,7 +15,6 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 
 - Git commit: `f55817ba7981ca983fdc38bdb547023676ade684`
 - Recovery branch: `milestone/U1`
-- Descriptive recovery branch: `milestone/U1-system-ui`
 - Meaning: U0-derived line with environment/settings/title/save-load fixed EBOOT strings expanded under the upstream-English fixed-width authority.
 - Static gates: standard CI PASS; A-054 scanner census PASS; English-consumer storage/visual census `canonical=42016 checked=42016`, `contracts=PASS`, `visual=PASS`; Android unit tests/build/embedded payload verification PASS.
 - Android RC artifact id: `9740652487`.
@@ -33,10 +31,22 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 - Artifact digest: `sha256:1e226d23663c8b77f17d0299bd1f3adcb25dbada1c256368591a2cf1e7099bfd`.
 - Device runtime evidence: not yet recorded for U2.
 
+## U3 — input-window command-strip baseline
+
+- Git commit: `d7c25b281b4b3241b6797db021739e82e2522919`
+- Recovery branch: `milestone/U3`
+- Meaning: U2 plus the two input/name-entry command strips at `0x243d50` and `0x2465f8`, translated strictly as upstream-English-owned guarded EBOOT fixed strings.
+- Explicit boundary: U3 does not modify retail keyboard character tables, mode dispatch, cursor/navigation mechanics, or input buffers; actual Hangul character entry remains unimplemented/unproven.
+- Static gates: standard CI PASS on the same functional payload plus documentation-only successor; `audit-input-window-english-authority.py` PASS; English-first fixed-data PASS; A-054 scanner census PASS; full Korean English-consumer storage/visual census PASS; Android unit tests/build/embedded payload verification PASS.
+- Android RC run: `33346491038`.
+- Android RC artifact id: `9742179788`.
+- Artifact digest: `sha256:278c3958b449e1c7779f45d2a8eb41b39cd64445e73756b05512c26f8a7a8189`.
+- Device runtime evidence: not yet recorded for U3.
+
 ## U-series policy
 
-1. Never move or overwrite `milestone/U0`, `milestone/U1`, or `milestone/U2`.
+1. Never move or overwrite `milestone/U0`, `milestone/U1`, `milestone/U2`, or `milestone/U3`.
 2. Future work happens on a separate work/active branch and receives a new U-number only after its intended scope is complete and its static/compile gates are green.
 3. A device success is recorded as non-reproduction, not proof of safety. A freeze/crash is strong failure evidence.
 4. Upstream-English consumer/storage contracts remain the primary authority; Korean-only deviations require explicit renderer/encoding evidence.
-5. Input-window work is isolated from ordinary fixed-string/UI localization until its renderer/input consumer contract is established.
+5. Input-method mechanics are isolated from ordinary fixed-string/UI localization until their character-table/index/buffer/renderer contract is established.
