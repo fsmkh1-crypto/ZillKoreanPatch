@@ -3,6 +3,8 @@
 package release
 
 import (
+	"crypto/sha256"
+	"fmt"
 	"path/filepath"
 	"regexp"
 	"slices"
@@ -171,10 +173,17 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 		t.Fatalf("verified-dialogue unbounded token set drift: got %v want %v", unknownTokenList, wantUnknownTokens)
 	}
 
+	var idFingerprintInput strings.Builder
+	for i, id := range verifiedDialogueUnknown {
+		if i > 0 { idFingerprintInput.WriteByte(',') }
+		fmt.Fprintf(&idFingerprintInput, "%d", id)
+	}
+	idFingerprint := fmt.Sprintf("%x", sha256.Sum256([]byte(idFingerprintInput.String())))
+
 	t.Logf("FORENSIC U6_VALUE15_VERIFIED_IDS count=%d ids=%v runtime_bound=unproven", len(verified15), verified15)
 	t.Logf("FORENSIC U6_VALUE15_VERIFIED_DIALOGUE_IDS count=%d ids=%v runtime_bound=unproven", len(verifiedDialogue15), verifiedDialogue15)
 	t.Logf("FORENSIC U6_VERIFIED_DIALOGUE_SUBSTITUTION_BOUNDARY total=%d known_bound_only=%d unbounded_unique=%d unbounded_tokens=%v", len(verifiedDialogueRuntime), knownBoundOnly, len(verifiedDialogueUnknown), unknownTokenList)
-	t.Logf("FORENSIC U6_VERIFIED_DIALOGUE_UNBOUNDED_IDS count=%d ids=%v", len(verifiedDialogueUnknown), verifiedDialogueUnknown)
+	t.Logf("FORENSIC U6_VERIFIED_DIALOGUE_UNBOUNDED_IDS count=%d ids_sha256=%s ids=%v", len(verifiedDialogueUnknown), idFingerprint, verifiedDialogueUnknown)
 
 	checked := len(korean.Entries)
 	if checked != wantCanonical { t.Fatalf("consumer census checked %d rows, want %d", checked, wantCanonical) }
