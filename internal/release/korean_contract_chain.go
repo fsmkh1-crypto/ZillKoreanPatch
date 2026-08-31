@@ -16,6 +16,7 @@ type koreanEnglishContractChain struct {
 	Layouts         map[int]string
 	DerivedC5       int
 	DerivedConsumer int
+	DerivedDialogue int
 	DerivedVisual   int
 	DerivedScanner  int
 	Warnings        []layout.Warning
@@ -40,15 +41,20 @@ func runKoreanEnglishContractChain(root, entrypoint string, source *corpus.Proje
 	}
 	out.Engine = engine
 
-	// C5 first, then the broader upstream-English consumer and visual contracts,
-	// then the separately observed A-054 scanner hardening. These categories may
-	// be disjoint today, but a single ordered path makes that an implementation
-	// detail rather than an entry-point assumption.
+	// C5 first, then upstream-English fixed consumers, verified dialogue reflow,
+	// hard visual contracts, and finally the separately observed A-054 scanner
+	// hardening. English Reflow inserts dialogue line breaks before emitting its
+	// overflow warnings; Korean must mirror that order rather than warning on an
+	// otherwise-unbroken device layout.
 	layouts, out.DerivedC5, err = engine.DeriveKoreanC5StorageLayouts(source, korean, layouts, mapping)
 	if err != nil {
 		return out, err
 	}
 	layouts, out.DerivedConsumer, err = engine.DeriveKoreanEnglishConsumerLayouts(source, korean, layouts, mapping)
+	if err != nil {
+		return out, err
+	}
+	layouts, out.DerivedDialogue, err = engine.DeriveKoreanEnglishDialogueLayouts(source, korean, layouts, mapping)
 	if err != nil {
 		return out, err
 	}
@@ -83,8 +89,8 @@ func runKoreanEnglishContractChain(root, entrypoint string, source *corpus.Proje
 		codes = append(codes, code)
 	}
 	sort.Strings(codes)
-	fmt.Printf("FORENSIC KOREAN_ENGLISH_CONTRACT_CHAIN entrypoint=%s materializable=%d c5_layouts=%d consumer_layouts=%d visual_layouts=%d scanner_layouts=%d storage=PASS visual=PASS warnings=%d dynamic_c5=%d\n",
-		entrypoint, len(korean.Entries), out.DerivedC5, out.DerivedConsumer, out.DerivedVisual, out.DerivedScanner, len(out.Warnings), len(out.DynamicC5))
+	fmt.Printf("FORENSIC KOREAN_ENGLISH_CONTRACT_CHAIN entrypoint=%s materializable=%d c5_layouts=%d consumer_layouts=%d dialogue_layouts=%d visual_layouts=%d scanner_layouts=%d storage=PASS visual=PASS warnings=%d dynamic_c5=%d\n",
+		entrypoint, len(korean.Entries), out.DerivedC5, out.DerivedConsumer, out.DerivedDialogue, out.DerivedVisual, out.DerivedScanner, len(out.Warnings), len(out.DynamicC5))
 	for _, code := range codes {
 		fmt.Printf("FORENSIC KOREAN_ENGLISH_WARNING entrypoint=%s code=%s count=%d severity=warning\n", entrypoint, code, warningCounts[code])
 	}
