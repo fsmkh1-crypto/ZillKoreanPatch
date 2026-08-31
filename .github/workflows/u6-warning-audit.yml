@@ -23,7 +23,7 @@ jobs:
         run: |
           set -euo pipefail
           go test ./internal/release -run '^TestCurrentKoreanCorpusEnglishConsumerStorageContracts$' -count=1 -v > /tmp/u6.log 2>&1
-          grep -E 'FORENSIC (U6_WARNING_SUMMARY|KOREAN_DIALOGUE_REFLOW_SUMMARY|KOREAN_ENGLISH_WARNING_CENSUS|KOREAN_CONSUMER_STORAGE_SUMMARY)' /tmp/u6.log > /tmp/u6-summary.log || true
+          grep -E 'FORENSIC (U6_WARNING_SUMMARY|U6_ITEM_DESCRIPTION_WARNING_IDS|KOREAN_DIALOGUE_REFLOW_SUMMARY|KOREAN_ENGLISH_WARNING_CENSUS|KOREAN_CONSUMER_STORAGE_SUMMARY)' /tmp/u6.log > /tmp/u6-summary.log || true
           if [ ! -s /tmp/u6-summary.log ]; then
             echo 'U6_CENSUS_MISSING_OUTPUT'
             tail -n 120 /tmp/u6.log
