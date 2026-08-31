@@ -104,6 +104,11 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	for _, key := range keys {
 		t.Logf("FORENSIC U6_WARNING_SUMMARY code=%s basis=%s consumer=%s count=%d", key.code, key.basis, key.consumer, summary[key])
 	}
+	for _, bucket := range engine.AuditRuntimeSubstitutionPopulation(korean) {
+		bound := "unproven"
+		if bucket.Token == "<value:$28>" { bound = "player-name-max-16-bytes" }
+		t.Logf("FORENSIC U6_RUNTIME_SUBSTITUTION token=%s basis=%s consumer=%s messages=%d bound=%s", bucket.Token, bucket.Basis, bucket.Consumer, bucket.Count, bound)
+	}
 
 	checked := len(korean.Entries)
 	if checked != wantCanonical { t.Fatalf("consumer census checked %d rows, want %d", checked, wantCanonical) }
