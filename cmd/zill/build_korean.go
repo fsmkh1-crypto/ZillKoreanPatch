@@ -78,6 +78,8 @@ func buildKoreanAlphaPlan(root, gameDir string) (koreanslots.Plan, int, int, err
 	mergeRendererKeys(reserved, usedFixed)
 	mergeRendererKeys(reserved, bootScan.Keys)
 	mergeRendererKeys(reserved, bindataScan.Keys)
+	keyboardReserved := koreanslots.KeyboardInputReservedKeys()
+	mergeRendererKeys(reserved, keyboardReserved)
 	texts, err := korean.RuntimeTexts(source)
 	if err != nil { return koreanslots.Plan{}, 0, 0, err }
 	fixedKorean, err := loadKoreanFixedEBOOT(root)
@@ -85,7 +87,7 @@ func buildKoreanAlphaPlan(root, gameDir string) (koreanslots.Plan, int, int, err
 	texts = append(texts, fixeddata.KoreanEBOOTTexts(fixedKorean)...)
 	plan, err := koreanslots.BuildPlan(texts, font.KoreanCompatibleKeys(), rendererKeySetSlice(reserved))
 	if err != nil { return koreanslots.Plan{}, 0, 0, fmt.Errorf("plan allocation: %w", err) }
-	fmt.Printf("Korean beta slot diagnostics: boot_scan_keys=%d bindata_scan_keys=%d fixed_korean=%d candidates=%d custom=%d headroom=%d (structured renderer ownership enforced)\n",
-		len(bootScan.Keys), len(bindataScan.Keys), len(fixedKorean), len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
+	fmt.Printf("Korean beta slot diagnostics: boot_scan_keys=%d bindata_scan_keys=%d keyboard_keys=%d fixed_korean=%d candidates=%d custom=%d headroom=%d (structured renderer ownership enforced)\n",
+		len(bootScan.Keys), len(bindataScan.Keys), len(keyboardReserved), len(fixedKorean), len(plan.Candidates), len(plan.CustomRunes), len(plan.Candidates)-len(plan.CustomRunes))
 	return plan, len(korean.Entries), sourceSummary.Records, nil
 }
