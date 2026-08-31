@@ -33,6 +33,7 @@ mobile_build = read("internal/release/korean_mobile.go")
 mobile_preflight = read("internal/release/korean_mobile_preflight.go")
 contract_chain = read("internal/release/korean_contract_chain.go")
 korean_font = read("internal/release/korean_font.go")
+zillfont_retail = read("internal/zillfont/retail.go")
 korean_fixed = read("internal/release/korean_fixed.go")
 korean_fixeddata = read("internal/fixeddata/korean_eboot.go")
 equipment_fixeddata = read("internal/fixeddata/equipment.go")
@@ -116,11 +117,19 @@ positions = [contract_chain.find(stage) for stage in ordered_contract_stages]
 require(all(p >= 0 for p in positions), "shared Korean contract chain lost a required stage")
 require(positions == sorted(positions), "shared Korean contract-chain order drifted")
 
-# Font source authentication remains pinned to upstream English retail assets.
+# Font source authentication remains pinned to the same upstream-English retail
+# assets, but the fingerprint authority must live in zillfont exactly once.
+# Korean release code consumes that authority rather than copying the hashes and
+# maintaining an independent acceptance rule.
 english_font_hashes = re.findall(r'^source_sha256\s*=\s*"([0-9a-f]{64})"', english_font_manifest, re.M)
 require(len(english_font_hashes) == 2, "English font manifest source fingerprints drifted")
 for digest in english_font_hashes:
-    require(digest in korean_font, "Korean font path lost English retail source fingerprint " + digest)
+    require(digest in zillfont_retail, "shared zillfont authentication lost English retail source fingerprint " + digest)
+    require(digest not in korean_font, "Korean release duplicated shared retail source fingerprint " + digest)
+require("zillfont.AuthenticateRetailFont(atlas, jillbtn)" in korean_font,
+        "Korean font path bypasses shared retail font authentication authority")
+require("func AuthenticateRetailFont(" in zillfont_retail,
+        "shared zillfont retail authentication authority disappeared")
 
 # Executable and fixed-data contracts.
 require(re.search(r'^source_sha256\s*=\s*"[0-9a-f]{64}"', executable_manifest, re.M) is not None,
@@ -178,6 +187,7 @@ print("korean_c5_split=" + ",".join(sorted(deliberate_split)))
 print("shared_capacity_constants=" + ",".join(sorted(english_constants)))
 print("visual_warning_parity=hard_profile_plus_upstream_warning_codes")
 print("release_entrypoints=shared_chain_desktop,mobile,preflight")
+print("font_authentication=shared_zillfont_authority")
 print("slot_ownership=structured_cp932_fixed_renderer_evidence_api_enforced")
 print("whole_blob_exact_byte_aliases=diagnostic_only")
 print("archive_iso_android_provenance=verified")
