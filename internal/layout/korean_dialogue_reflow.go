@@ -69,6 +69,38 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 	return derived, count, nil
 }
 
+// AuditKoreanEnglishDialogueResiduals hard-checks the exact record population
+// owned by DeriveKoreanEnglishDialogueLayouts after derivation. It deliberately
+// mirrors the derivation eligibility predicate instead of widening U5's scope to
+// unrelated authoring warnings whose actual consumer contract is not proven.
+func (e *Engine) AuditKoreanEnglishDialogueResiduals(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) (checked int, overflowIDs []int, err error) {
+	if source == nil || korean == nil {
+		return 0, nil, fmt.Errorf("Korean English dialogue residual audit: nil project")
+	}
+	if len(mapping) == 0 && len(korean.Entries) != 0 {
+		return 0, nil, fmt.Errorf("Korean English dialogue residual audit: empty renderer mapping")
+	}
+	for _, row := range korean.Entries {
+		if !e.narrowText(row.ID) || row.Layout != "" {
+			continue
+		}
+		item, ok := source.Find(row.ID)
+		if !ok {
+			return checked, overflowIDs, fmt.Errorf("dialogue message %d lacks source", row.ID)
+		}
+		checked++
+		effective := effectiveKoreanText(row, layouts)
+		width, _, metricErr := e.koreanWarningMetrics(item.Record, effective, row.ID, mapping)
+		if metricErr != nil {
+			return checked, overflowIDs, metricErr
+		}
+		if width > e.advanceLimit(row.ID) {
+			overflowIDs = append(overflowIDs, row.ID)
+		}
+	}
+	return checked, overflowIDs, nil
+}
+
 func (e *Engine) wrapKoreanVisualToLimit(text string, id int, mapping koreanslots.Mapping, limit int) (string, error) {
 	pages := strings.Split(text, "<end>")
 	for pi, page := range pages {
