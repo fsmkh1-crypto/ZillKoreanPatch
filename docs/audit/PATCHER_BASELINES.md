@@ -57,10 +57,24 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 - Artifact digest: `sha256:e9e5bfe1933af6405b16344456c26a89d985b03b060370acb63aa9b1c9b99dd8`.
 - Device runtime evidence: not yet recorded for U4. The keyboard fix remains a release-candidate hypothesis until the ABC page and prior freeze path are re-tested on device.
 
+## U5 — verified dialogue reflow baseline
+
+- Git commit: `49528fd869e06817e17e636445929721ca6b92c7`
+- Recovery branch: `milestone/U5`
+- Meaning: U4 plus build-local Korean reflow for upstream-English `narrowText` records (verified dialogue and in-world-guidance ranges). This closes the parity gap where upstream English inserted line breaks before warning on width, while Korean previously emitted only the warning and could leave an unbroken device line.
+- Scope boundary: canonical Korean text is unchanged; only build-local layouts receive derived `<line-break>` boundaries. Existing authored layouts are not rewritten. Item-description/special consumers remain under their existing dedicated contracts.
+- Safety rules: actual Korean renderer advances are measured; derived layout must preserve semantic/control topology; a word that cannot fit the inherited English advance limit fails closed; runtime value adjacency is not newly split at a derived boundary.
+- Static gates: work-branch standard CI PASS; active-branch Android RC PASS; `go test ./...` and `go vet ./...` PASS; A-054 scanner census PASS; full Korean English-consumer storage/visual census PASS after dialogue derivation; Android unit tests/build/embedded payload verification PASS.
+- Android RC run: `33350619031`.
+- Android RC artifact id: `9743494846`.
+- Artifact digest: `sha256:ff0b7bbefde7367874f357e949f0631b0aed620363fa4a68296d12eba47d0b35`.
+- Device runtime evidence: not yet recorded for U5. The photographed overflowing dialogue is expected to be covered only if its source ID belongs to the verified upstream-English narrow-dialogue ranges; device confirmation remains pending.
+
 ## U-series policy
 
-1. Never move or overwrite `milestone/U0`, `milestone/U1`, `milestone/U2`, `milestone/U3`, or `milestone/U4` except to correct a documented baseline-recording error against authenticated generation/runtime evidence.
+1. Never move or overwrite `milestone/U0` through `milestone/U5` except to correct a documented baseline-recording error against authenticated generation/runtime evidence.
 2. Future work happens on a separate work/active branch and receives a new U-number only after its intended scope is complete and its static/compile gates are green.
 3. A device success is recorded as non-reproduction, not proof of safety. A freeze/crash is strong failure evidence.
-4. Upstream-English consumer/storage contracts remain the primary authority; Korean-only deviations require explicit renderer/encoding evidence.
+4. Upstream-English consumer/storage/visual contracts remain the primary authority; Korean-only deviations require explicit renderer/encoding evidence.
 5. Structured live-consumer ownership (such as the confirmed keyboard page) may reserve renderer slots; arbitrary whole-blob two-byte occurrences remain diagnostic-only and must not establish slot ownership.
+6. Runtime confirmation may be deferred; each green release-candidate stage remains separately recoverable and is explicitly labeled as device-unverified until tested.
