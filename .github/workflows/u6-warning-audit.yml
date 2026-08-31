@@ -1,0 +1,30 @@
+name: U6 warning census
+
+on:
+  push:
+    branches:
+      - audit/U6-warning-population
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  census:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+      - name: Build CLI
+        run: go build -o zill ./cmd/zill
+      - name: Residual warning ownership census
+        shell: bash
+        run: |
+          set -o pipefail
+          ./zill korean-check 2>&1 \
+            | grep -E 'FORENSIC KOREAN_ENGLISH_(CONTRACT_CHAIN|WARNING |WARNING_SUMMARY)' \
+            | grep -E 'entrypoint=(desktop|korean-check)' \
+            || true
