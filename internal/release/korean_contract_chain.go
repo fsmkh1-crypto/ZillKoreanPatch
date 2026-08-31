@@ -94,9 +94,33 @@ func runKoreanEnglishContractChain(root, entrypoint string, source *corpus.Proje
 	for _, code := range codes {
 		fmt.Printf("FORENSIC KOREAN_ENGLISH_WARNING entrypoint=%s code=%s count=%d severity=warning\n", entrypoint, code, warningCounts[code])
 	}
+
+	// Keep release logs compact: collapse detailed category buckets into the
+	// dimensions that determine follow-up risk work. Category-level detail remains
+	// available through AuditWarningPopulation for offline/targeted inspection.
+	type summaryKey struct {
+		code, basis, consumer string
+	}
+	summary := make(map[summaryKey]int)
 	for _, bucket := range engine.AuditWarningPopulation(out.Warnings) {
-		fmt.Printf("FORENSIC KOREAN_ENGLISH_WARNING_BUCKET entrypoint=%s code=%s category=%s basis=%s consumer=%s count=%d severity=warning\n",
-			entrypoint, bucket.Code, bucket.Category, bucket.Basis, bucket.Consumer, bucket.Count)
+		summary[summaryKey{bucket.Code, bucket.Basis, bucket.Consumer}] += bucket.Count
+	}
+	keys := make([]summaryKey, 0, len(summary))
+	for key := range summary {
+		keys = append(keys, key)
+	}
+	sort.Slice(keys, func(i, j int) bool {
+		if keys[i].code != keys[j].code {
+			return keys[i].code < keys[j].code
+		}
+		if keys[i].consumer != keys[j].consumer {
+			return keys[i].consumer < keys[j].consumer
+		}
+		return keys[i].basis < keys[j].basis
+	})
+	for _, key := range keys {
+		fmt.Printf("FORENSIC KOREAN_ENGLISH_WARNING_SUMMARY entrypoint=%s code=%s basis=%s consumer=%s count=%d severity=warning\n",
+			entrypoint, key.code, key.basis, key.consumer, summary[key])
 	}
 	return out, nil
 }
