@@ -31,6 +31,14 @@ type RuntimeSubstitutionAuditBucket struct {
 	Count    int
 }
 
+// WarningOwnership exposes only audit metadata. It does not grant a new runtime
+// contract: callers must still require Basis == "verified" before treating the
+// category evidence as authenticated.
+func (e *Engine) WarningOwnership(id int) (basis, consumer string) {
+	_, basis = e.warningCategory(id)
+	return basis, e.warningConsumer(id)
+}
+
 // AuditWarningPopulation classifies warnings without changing layouts or
 // validation semantics. This is the release-facing census used to decide which
 // residual populations deserve a separately authenticated hard gate.
