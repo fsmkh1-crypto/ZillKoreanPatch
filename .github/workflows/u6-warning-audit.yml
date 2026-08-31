@@ -18,8 +18,6 @@ jobs:
         with:
           go-version-file: go.mod
           cache-dependency-path: go.sum
-      - name: Build CLI
-        run: go build -o zill ./cmd/zill
       - name: Residual warning ownership census
         shell: bash
         run: |
