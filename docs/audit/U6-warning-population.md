@@ -2,11 +2,13 @@
 
 ## Scope
 
-U6 is an audit-only milestone over the final U5 runtime patch. It does **not** change Korean translations, runtime layouts, glyph mappings, fixed strings, or Android payload contents.
+U6 is a **payload-neutral audit-instrumentation milestone** over the final U5 runtime patch. It does not change Korean translations, runtime layouts, glyph mappings, fixed strings, or embedded patch-project data. It does change shared Go source at the logging/classification level: `internal/layout/warning_audit.go` adds observational census helpers and `internal/release/korean_contract_chain.go` prints additional `FORENSIC` summaries after the payload-affecting derivation/validation steps have completed.
 
 Purpose: classify the residual non-blocking warning population by upstream-English consumer evidence before considering any further mutation. A warning is not promoted into a runtime contract merely because it is numerous.
 
 Baseline runtime milestone: `838f1b965e89e916d2c780a0e7c70ec0126d4bc7` (`milestone/U5`).
+
+Payload-equivalence evidence is recorded separately in `docs/audit/U6-payload-equivalence.md`.
 
 ## Full-corpus result
 
@@ -27,7 +29,13 @@ The verified narrow-dialogue population is separately hard-gated:
 - reflowed: 3,829
 - residual overflow after U5 reflow: **0**
 
-Therefore the four remaining `line_exceeds_authoring_ceiling` warnings that also fall in the verified narrow-dialogue population are authoring warnings, not residual screen-overflow evidence.
+### Exact meaning of `residual_overflow=0`
+
+This gate proves zero residual overflow under the renderer-width model using the static Korean text plus independently established runtime-width reservations. In particular, `<value:$28>` contributes the proven player-name reservation instead of being measured as zero, and authenticated posting bindings use their separately derived reservations.
+
+It does **not** claim that every unknown runtime substitution has a proven worst-case expansion. Rows containing a substitution without an independently established bound remain explicitly tracked below and require either a separately authenticated bound or runtime evidence before a stronger claim can be made.
+
+Therefore the four remaining `line_exceeds_authoring_ceiling` warnings that also fall in the verified narrow-dialogue population are authoring warnings, not residual overflow under the current proven-width model.
 
 ## Residual warning census
 
@@ -75,7 +83,23 @@ Ownership/evidence split:
 | verified category, unproven consumer | unproven | 285 |
 | verified | verified narrow dialogue | 1,214 |
 
-This warning means that static layout analysis cannot know the final runtime expansion. It is not itself an overflow finding.
+This warning means that the row contains a runtime substitution or tracked format whose final expansion is not universally derivable from static text alone. It is not itself an overflow finding.
+
+## Verified narrow-dialogue substitution boundary
+
+The 1,214 `runtime_substitution_unbounded` rows inside the verified narrow-dialogue population were reclassified at the **unique message-row** level rather than by token-bucket totals:
+
+- total warning rows: **1,214**
+- rows whose runtime substitution is only the independently bounded `<value:$28>` player-name token: **809**
+- rows containing at least one substitution with no independently proven expansion maximum: **405**
+
+`<value:$28>` itself occurs in 909 verified-narrow-dialogue rows, but token counts overlap: 100 of those rows also contain at least one unbounded token. Consequently `909` must not be subtracted mechanically from `1,214`; the disjoint row-level split is `809 + 405 = 1,214`.
+
+The 405-row population contains these unbounded tokens:
+
+`$01, $15, $1A, $20, $23, $29, $2A, $2B, $2C, $33, $3C`
+
+The repository census now hard-pins the `1,214 / 809 / 405` boundary and the exact token set. It also emits the exact 405 message IDs as `FORENSIC U6_VERIFIED_DIALOGUE_UNBOUNDED_IDS` on every U6 census run, so population drift fails review instead of being silently absorbed into the zero-overflow claim.
 
 ## Runtime substitution token census
 
@@ -85,7 +109,7 @@ Counts below are message counts per token/consumer bucket. A message may contain
 
 `$28` is the only current value substitution with an independently established expansion bound: player name, maximum **16 encoded bytes** in the C5 known-expansion audit.
 
-It appears in 4,028 messages across the recorded buckets, including C22, C5/C5-portrait, C5-single-page, verified narrow dialogue, and currently unproven consumers. The known bound is used only where the corresponding consumer/storage reasoning is authenticated; it is not generalized into an invented universal runtime contract.
+It appears in 4,028 messages across the recorded buckets, including C22, C5/C5-portrait, C5-single-page, verified narrow dialogue, and currently unproven consumers. The renderer-width model explicitly reserves player-name advance for `$28`; it is therefore incorrect to describe every `$28` row as having substitution width zero.
 
 ### `<value:$15>`
 
@@ -98,11 +122,15 @@ It appears in 4,028 messages across the recorded buckets, including C22, C5/C5-p
 
 No independently established runtime expansion maximum exists for `$15`.
 
-The eight `$15` records with verified category evidence are pinned as practical regression priorities:
+The eight `$15` records with verified category evidence remain practical regression priorities:
 
 `10010, 170025, 170207, 170208, 170209, 270043, 1070030, 1070032`
 
-This list does **not** assert that `$15` is the freeze root cause or that these eight records are unsafe. It only provides the strongest currently grounded regression shortlist.
+Only four of those eight are also verified narrow dialogue:
+
+`170025, 170207, 170208, 170209`
+
+This list does **not** assert that `$15` is the freeze root cause or that these records are unsafe. It only pins the strongest currently grounded regression shortlist and its dialogue intersection.
 
 Other observed value tokens remain unbounded unless separately proven: `$01`, `$16`, `$17`, `$1A`, `$1B`, `$20`, `$23`, `$24`, `$25`, `$29`, `$2A`, `$2B`, `$2C`, `$33`, `$3C`, `$3D`, plus seven verified `printf`-format records.
 
@@ -120,7 +148,7 @@ Unknown substitutions are counted as unknown. They are **not** assigned guessed 
 
 No new runtime/layout/text/glyph mutation is justified by this census alone.
 
-That is intentional: the audit reduced ambiguity without creating a new regression surface. Further hard gates or fixes require one of the following:
+That is intentional: the audit reduced ambiguity without creating a new patch behavior. Further hard gates or fixes require one of the following:
 
 1. an upstream-English consumer/storage contract that applies to the same records,
 2. authenticated asset-backed evidence establishing a runtime bound, or
@@ -129,8 +157,8 @@ That is intentional: the audit reduced ambiguity without creating a new regressi
 Practical QA priorities after U6:
 
 1. U4 English name-entry grid/input behavior,
-2. U5 dialogue wrapping appearance despite residual overflow = 0,
-3. the eight verified `$15` regression IDs above,
+2. U5 dialogue wrapping appearance, with the zero-overflow guarantee interpreted under the proven-width model above,
+3. the eight verified `$15` regression IDs, especially the four verified-dialogue intersections,
 4. the 13 item-description warning IDs if real UI clipping is observed.
 
-U6 is therefore an **audit-only risk-reduction milestone**, not a new patch revision requiring a separate Android runtime payload.
+U6 is therefore a **payload-neutral audit risk-reduction milestone**, not a new Korean runtime-patch revision.
