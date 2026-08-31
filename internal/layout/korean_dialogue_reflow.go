@@ -5,6 +5,7 @@ package layout
 import (
 	"fmt"
 	"strings"
+	"unicode"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/koreanslots"
@@ -84,54 +85,114 @@ func (e *Engine) wrapKoreanVisualToLimit(text string, id int, mapping koreanslot
 	return strings.Join(pages, "<end>"), nil
 }
 
+type koreanVisualRun struct {
+	text       string
+	whitespace bool
+}
+
+func splitKoreanVisualRuns(text string) []koreanVisualRun {
+	runes := []rune(text)
+	if len(runes) == 0 {
+		return nil
+	}
+	start := 0
+	space := unicode.IsSpace(runes[0])
+	runs := make([]koreanVisualRun, 0, 8)
+	for i := 1; i < len(runes); i++ {
+		nextSpace := unicode.IsSpace(runes[i])
+		if nextSpace == space {
+			continue
+		}
+		runs = append(runs, koreanVisualRun{text: string(runes[start:i]), whitespace: space})
+		start = i
+		space = nextSpace
+	}
+	return append(runs, koreanVisualRun{text: string(runes[start:]), whitespace: space})
+}
+
+// lastBreakableWhitespaceRun returns the final complete whitespace span that
+// separates two non-whitespace runs. Replacing that whole span with
+// <line-break> is accepted by PreservesLayoutSemantics; normalizing or partly
+// consuming the span is not.
+func lastBreakableWhitespaceRun(text string) (prefix, tail string, ok bool) {
+	runes := []rune(text)
+	lastStart, lastEnd := -1, -1
+	for i := 0; i < len(runes); {
+		if !unicode.IsSpace(runes[i]) {
+			i++
+			continue
+		}
+		start := i
+		for i < len(runes) && unicode.IsSpace(runes[i]) {
+			i++
+		}
+		if start > 0 && i < len(runes) {
+			lastStart, lastEnd = start, i
+		}
+	}
+	if lastStart < 0 {
+		return "", "", false
+	}
+	return string(runes[:lastStart]), string(runes[lastEnd:]), true
+}
+
 func (e *Engine) wrapKoreanVisualParagraphToLimit(text string, id int, mapping koreanslots.Mapping, limit int) (string, error) {
 	if strings.TrimSpace(text) == "" {
 		return text, nil
 	}
-	words := strings.Fields(text)
-	if len(words) == 0 {
-		return text, nil
-	}
+	runs := splitKoreanVisualRuns(text)
 	lines := make([]string, 0, 4)
 	current := ""
-	flush := func() {
-		if current != "" {
-			lines = append(lines, current)
-			current = ""
+	pendingWhitespace := ""
+	hasWord := false
+
+	for _, run := range runs {
+		if run.whitespace {
+			pendingWhitespace += run.text
+			continue
 		}
-	}
-	for _, word := range words {
-		candidate := word
-		if current != "" {
-			candidate = current + " " + word
-		}
+
+		word := run.text
+		candidate := current + pendingWhitespace + word
 		width, err := e.measureKoreanRenderer(candidate, id, mapping)
 		if err != nil {
 			return "", err
 		}
 		if width <= limit {
 			current = candidate
+			pendingWhitespace = ""
+			hasWord = true
 			continue
 		}
-		if current != "" {
-			// Preserve the forensic rule already used by profile wrapping: do not
-			// create a fresh boundary immediately before a runtime substitution.
-			if strings.HasPrefix(word, "<value:") {
-				if split := strings.LastIndex(current, " "); split >= 0 {
-					prefix, tail := current[:split], current[split+1:]
-					lines = append(lines, prefix)
-					current = tail + " " + word
-					w, err := e.measureKoreanRenderer(current, id, mapping)
-					if err != nil {
-						return "", err
-					}
-					if w <= limit {
-						continue
-					}
-				}
-			}
-			flush()
+
+		if !hasWord {
+			return "", fmt.Errorf("message %d dialogue word exceeds %d units and cannot be whitespace-reflowed: %q (%d units)", id, limit, word, width)
 		}
+
+		// Keep the forensic rule used by the established profile wrapper: never
+		// create a fresh line boundary immediately before a runtime substitution.
+		// Instead move the previous natural-text run together with the value token
+		// by replacing the preceding complete whitespace span.
+		if strings.HasPrefix(word, "<value:") {
+			prefix, tail, ok := lastBreakableWhitespaceRun(current)
+			if !ok {
+				return "", fmt.Errorf("message %d dialogue cannot wrap safely before runtime substitution %q", id, word)
+			}
+			moved := tail + pendingWhitespace + word
+			movedWidth, err := e.measureKoreanRenderer(moved, id, mapping)
+			if err != nil {
+				return "", err
+			}
+			if movedWidth > limit {
+				return "", fmt.Errorf("message %d dialogue runtime-substitution group exceeds %d units: %q (%d units)", id, limit, moved, movedWidth)
+			}
+			lines = append(lines, prefix)
+			current = moved
+			pendingWhitespace = ""
+			hasWord = true
+			continue
+		}
+
 		wordWidth, err := e.measureKoreanRenderer(word, id, mapping)
 		if err != nil {
 			return "", err
@@ -139,8 +200,18 @@ func (e *Engine) wrapKoreanVisualParagraphToLimit(text string, id int, mapping k
 		if wordWidth > limit {
 			return "", fmt.Errorf("message %d dialogue word exceeds %d units and cannot be whitespace-reflowed: %q (%d units)", id, limit, word, wordWidth)
 		}
+
+		// The entire pending whitespace span is replaced by a layout break. All
+		// whitespace that is not selected as a break remains byte-for-byte intact.
+		lines = append(lines, current)
 		current = word
+		pendingWhitespace = ""
+		hasWord = true
 	}
-	flush()
+
+	current += pendingWhitespace
+	if current != "" {
+		lines = append(lines, current)
+	}
 	return strings.Join(lines, lineBreak), nil
 }
