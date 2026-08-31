@@ -12,6 +12,7 @@ on:
       - 'release/korean/**'
       - 'release/font/**'
       - 'release/layout/**'
+      - 'docs/audit/fixtures/pr14-eboot-h0.toml'
       - 'docs/audit/fixtures/pr14-eboot-full.toml'
       - 'cmd/zill/**'
       - 'internal/**'
@@ -78,7 +79,7 @@ jobs:
           cp release/korean/font/glyphs.toml "$ROOT/release/korean/font/"
           cp release/korean/strings/eboot.toml "$ROOT/release/korean/strings/"
           cp -R release/layout/. "$ROOT/release/layout/"
-          cp docs/audit/fixtures/pr14-eboot-full.toml "$ROOT/docs/audit/fixtures/"
+          cp docs/audit/fixtures/pr14-eboot-h0.toml docs/audit/fixtures/pr14-eboot-full.toml "$ROOT/docs/audit/fixtures/"
           cp patches/executable/manifest.toml "$ROOT/patches/executable/"
           cp patches/system/param-sfo.toml "$ROOT/patches/system/"
           printf '%s\n' "$GITHUB_SHA" > "$ROOT/payload-version.txt"
@@ -152,6 +153,8 @@ jobs:
           grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
           grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
           grep -q 'assets/zillroot/release/layout/consumer-map.toml' /tmp/apk-list.txt
+          grep -q 'assets/zillroot/docs/audit/fixtures/pr14-eboot-h0.toml' /tmp/apk-list.txt
+          grep -q 'assets/zillroot/docs/audit/fixtures/pr14-eboot-full.toml' /tmp/apk-list.txt
           grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
           grep -q 'assets/zillroot/payload-manifest.sha256' /tmp/apk-list.txt
           unzip -p "$APK" assets/zillroot/payload-version.txt | grep -Fx "$GITHUB_SHA"
