@@ -4,10 +4,16 @@
 0x243d28 = { source = "神の手に魂を委ねる", replacement = "신께 영혼을 맡긴다" }
 0x243d3c = { source = "自らの手で魂を示す", replacement = "영혼을 증명한다" }
 
+# U3 — input-window command strips only. Upstream English owns these two as
+# ordinary guarded fixed EBOOT strings and declares no keyboard/input executable
+# patch. This translates labels only; retail character tables, mode dispatch,
+# cursor navigation and input buffers remain stock/unproven.
+0x243d50 = { source = "カナ　　かな　　英数　　ゆだねる　　空白　　取消　　入力完了", replacement = "가타  히라  영문  자동  공백  취소  완료" }
+0x2465f8 = { source = "  カナ   かな   記号   ゆだねる   空白   取消   中止   完了", replacement = "  가타   히라   기호   자동   공백   취소   중지   완료" }
+
 # U2 — opening/character-creation fixed UI recovered from the historical Korean
 # candidate set, but only where the upstream-English EBOOT table already owns an
-# exact fixed field. The character/name input row at 0x243d50 is intentionally
-# excluded: input rendering remains a separate consumer-contract task.
+# exact fixed field. Input mechanics are deliberately outside this milestone.
 0x243cd4 = { source = "男性", replacement = "남성" }
 0x243cdc = { source = "女性", replacement = "여성" }
 0x243ce4 = { source = "黒", replacement = "흑" }
