@@ -84,63 +84,112 @@ func (e *Engine) wrapKoreanVisualToLimit(text string, id int, mapping koreanslot
 	return strings.Join(pages, "<end>"), nil
 }
 
+// wrapKoreanVisualParagraphToLimit is insertion-only: it never collapses,
+// normalizes, trims or replaces canonical text. The first U5 implementation
+// used strings.Fields and therefore changed messages containing repeated or
+// edge whitespace (caught by the full-corpus census at message 70018). Here
+// natural runes and complete control tags are immutable tokens; wrapping only
+// inserts <line-break> between safe token boundaries.
 func (e *Engine) wrapKoreanVisualParagraphToLimit(text string, id int, mapping koreanslots.Mapping, limit int) (string, error) {
-	if strings.TrimSpace(text) == "" {
+	if text == "" {
 		return text, nil
 	}
-	words := strings.Fields(text)
-	if len(words) == 0 {
+	tokens := koreanVisualTokens(text)
+	if len(tokens) == 0 {
 		return text, nil
 	}
+
 	lines := make([]string, 0, 4)
-	current := ""
-	flush := func() {
-		if current != "" {
-			lines = append(lines, current)
-			current = ""
-		}
-	}
-	for _, word := range words {
-		candidate := word
-		if current != "" {
-			candidate = current + " " + word
-		}
-		width, err := e.measureKoreanRenderer(candidate, id, mapping)
-		if err != nil {
-			return "", err
-		}
-		if width <= limit {
-			current = candidate
-			continue
-		}
-		if current != "" {
-			// Preserve the forensic rule already used by profile wrapping: do not
-			// create a fresh boundary immediately before a runtime substitution.
-			if strings.HasPrefix(word, "<value:") {
-				if split := strings.LastIndex(current, " "); split >= 0 {
-					prefix, tail := current[:split], current[split+1:]
-					lines = append(lines, prefix)
-					current = tail + " " + word
-					w, err := e.measureKoreanRenderer(current, id, mapping)
+	current := make([]string, 0, len(tokens))
+	for _, token := range tokens {
+		current = append(current, token)
+		for {
+			width, err := e.measureKoreanRenderer(strings.Join(current, ""), id, mapping)
+			if err != nil {
+				return "", err
+			}
+			if width <= limit {
+				break
+			}
+
+			// The line fit before the newest token in the ordinary case. If that
+			// boundary touches a runtime value token, walk left until the entire
+			// value adjacency group moves together to the next line. This preserves
+			// the forensic rule used elsewhere in the Korean pipeline: do not invent
+			// a fresh boundary immediately before or after <value:...>.
+			split := latestSafeKoreanVisualBoundary(current)
+			if split <= 0 || split >= len(current) {
+				return "", fmt.Errorf("message %d dialogue token run exceeds %d units without a safe layout boundary: %q (%d units)", id, limit, strings.Join(current, ""), width)
+			}
+			prefix := strings.Join(current[:split], "")
+			prefixWidth, err := e.measureKoreanRenderer(prefix, id, mapping)
+			if err != nil {
+				return "", err
+			}
+			if prefixWidth > limit {
+				// A safe split can be earlier than the first fitting split when value
+				// adjacency is involved. Search for a fitting safe prefix explicitly.
+				found := false
+				for candidate := split - 1; candidate > 0; candidate-- {
+					if !safeKoreanVisualBoundary(current, candidate) {
+						continue
+					}
+					candidateText := strings.Join(current[:candidate], "")
+					candidateWidth, err := e.measureKoreanRenderer(candidateText, id, mapping)
 					if err != nil {
 						return "", err
 					}
-					if w <= limit {
-						continue
+					if candidateWidth <= limit {
+						split, prefix, found = candidate, candidateText, true
+						break
 					}
 				}
+				if !found {
+					return "", fmt.Errorf("message %d dialogue cannot find a renderer-safe semantic boundary within %d units", id, limit)
+				}
 			}
-			flush()
+			lines = append(lines, prefix)
+			current = append([]string(nil), current[split:]...)
 		}
-		wordWidth, err := e.measureKoreanRenderer(word, id, mapping)
-		if err != nil {
-			return "", err
-		}
-		if wordWidth > limit {
-			return "", fmt.Errorf("message %d dialogue word exceeds %d units and cannot be whitespace-reflowed: %q (%d units)", id, limit, word, wordWidth)
-		}
-		current = word
 	}
-	flush()
+	if len(current) != 0 {
+		lines = append(lines, strings.Join(current, ""))
+	}
 	return strings.Join(lines, lineBreak), nil
+}
+
+func koreanVisualTokens(text string) []string {
+	var tokens []string
+	cursor := 0
+	for _, loc := range controlTag.FindAllStringIndex(text, -1) {
+		for _, r := range text[cursor:loc[0]] {
+			tokens = append(tokens, string(r))
+		}
+		tokens = append(tokens, text[loc[0]:loc[1]])
+		cursor = loc[1]
+	}
+	for _, r := range text[cursor:] {
+		tokens = append(tokens, string(r))
+	}
+	return tokens
+}
+
+func latestSafeKoreanVisualBoundary(tokens []string) int {
+	for split := len(tokens) - 1; split > 0; split-- {
+		if safeKoreanVisualBoundary(tokens, split) {
+			return split
+		}
+	}
+	return -1
+}
+
+func safeKoreanVisualBoundary(tokens []string, split int) bool {
+	if split <= 0 || split >= len(tokens) {
+		return false
+	}
+	return !isKoreanRuntimeValueToken(tokens[split-1]) && !isKoreanRuntimeValueToken(tokens[split])
+}
+
+func isKoreanRuntimeValueToken(token string) bool {
+	return strings.HasPrefix(token, "<value:")
 }
