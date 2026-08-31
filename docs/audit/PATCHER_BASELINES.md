@@ -96,9 +96,30 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 - Payload-equivalence record: `docs/audit/U6-payload-equivalence.md`.
 - Device runtime evidence: not yet added for the U4/U5 behaviors covered by this audit. Remaining confidence gains are practical/runtime unless a new authenticated consumer/storage contract or substitution bound is discovered.
 
+## U7 — mobile PR14 diagnostic-isolation baseline
+
+- Functional Git commit: `cfdfd012c4f7e26f26295dbfdc59b2f07035efe9`.
+- Recovery branch: `milestone/U7` (points exactly to the functional commit above; this documentation commit is not part of the recovery point).
+- Triggering device evidence: U6 Android patcher authenticated the user's retail EBOOT/BOOT inputs and completed the forensic scanners, then failed before ISO build because `docs/audit/fixtures/pr14-eboot-h0.toml` was absent from the extracted embedded project.
+- Confirmed patcher failure cause: Android RC packaging included `pr14-eboot-full.toml` but omitted `pr14-eboot-h0.toml`, while `auditPR14HistoricalPolicies()` attempted to read both. In addition, the production `build-korean-iso` planner propagated failure from this explicitly historical/diagnostic-only PR14 replay as a fatal build error.
+- Fix: Android packaging now embeds both immutable PR14 H0/full fixtures, the Java asset-integrity contract and tests require H0, the APK workflow verifies both fixture paths and the full payload manifest, and failure of the historical PR14 replay is reported as `diagnostic_only=true build_blocked=false` instead of blocking the current production plan.
+- Safety boundary: current production slot planning and downstream Korean release/consumer/storage gates remain fail-closed. Only the historical PR14 comparison replay is non-blocking; its resulting plans were already explicitly diagnostic-only and are never returned to the production builder.
+- Regression guard: Go tests pin the historical-diagnostic failure as non-blocking and silent on success; Android unit tests pin H0 as a required payload member.
+- Standard CI on U7 work branch: `33384894915` — SUCCESS.
+- Standard CI after fast-forward to active forensic line: `33385035620` — SUCCESS.
+- Android RC run: `33385035692` — SUCCESS.
+- Android RC artifact id: `9755290720`.
+- Artifact size: `14932713` bytes.
+- Artifact digest: `sha256:aa2bb54841ad205010ec93a005816aeeca9a34ff7d143e578cb240359b41cfea`.
+- APK size: `15053147` bytes.
+- APK SHA-256 recorded at generation time: `ac314febd4bfbca474c09c1f32f1eb4c61231f8cb94e4d894e87700d0b7ce951`.
+- Android RC gates: English-first parity PASS; Go tests PASS; A-054 full-corpus census PASS; full Korean English-consumer storage/visual census PASS; Android unit tests PASS; APK build PASS; launcher/embedded-payload verification PASS; both PR14 fixtures and `payload-manifest.sha256` verified inside the APK.
+- Scope interpretation: U7 fixes the Android patcher's pre-build failure and its diagnostic/release boundary. It does not establish `$15`, record `10010`, the C5 runtime candidates, or the font-runtime candidate as causes of any historical PSP freeze.
+- Device runtime evidence for the new U7 APK: pending. A successful patch/build/run remains non-reproduction evidence only.
+
 ## U-series policy
 
-1. `milestone/U0` through `milestone/U6` are recovery points and must not be moved or overwritten except to correct a documented baseline-recording error against authenticated evidence. U5's one reseal is historical and complete.
+1. `milestone/U0` through `milestone/U7` are recovery points and must not be moved or overwritten except to correct a documented baseline-recording error against authenticated evidence. U5's one reseal is historical and complete.
 2. Future work outside an already-defined U-stage scope happens on a separate work/active branch and receives a new U-number only after its intended scope is complete and its static/compile gates are green. Same-scope validation/documentation corrections do not by themselves create a new U-number.
 3. A device success is recorded as non-reproduction, not proof of safety. A freeze/crash is strong failure evidence.
 4. Upstream-English consumer/storage/visual contracts remain the primary authority; Korean-only deviations require explicit renderer/encoding evidence.
