@@ -43,15 +43,22 @@ func ParseAuthenticatedRetailPAF(jillbtn []byte) (*PAF, error) {
 	return ParsePAF(jillbtn[RetailPAFOffset:end])
 }
 
+// AuthenticateRetailFont is the single authority for accepting the retail font
+// pair used by Korean planning and transforms. Callers must not duplicate these
+// fingerprints in release/build code.
+func AuthenticateRetailFont(zillfontMember, jillbtnMember []byte) (*PAF, error) {
+	if err := verifyRetailMember("font/zillfont.par", zillfontMember, RetailAtlasMemberSize, retailAtlasSHA256); err != nil {
+		return nil, err
+	}
+	return ParseAuthenticatedRetailPAF(jillbtnMember)
+}
+
 // PatchAuthenticatedRetailAtlas is the production font-patching boundary. It
 // authenticates both retail font members, resolves the same renderer mapping
 // used by Korean message compilation to concrete PAF cells, then returns a
 // patched copy of font/zillfont.par. jillbtn.par and PAF metadata remain unchanged.
 func PatchAuthenticatedRetailAtlas(zillfontMember, jillbtnMember []byte, mapping koreanslots.Mapping, rasters map[rune]Raster) ([]byte, error) {
-	if err := verifyRetailMember("font/zillfont.par", zillfontMember, RetailAtlasMemberSize, retailAtlasSHA256); err != nil {
-		return nil, err
-	}
-	paf, err := ParseAuthenticatedRetailPAF(jillbtnMember)
+	paf, err := AuthenticateRetailFont(zillfontMember, jillbtnMember)
 	if err != nil {
 		return nil, err
 	}
