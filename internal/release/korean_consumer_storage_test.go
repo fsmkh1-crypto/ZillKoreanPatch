@@ -179,6 +179,10 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 		fmt.Fprintf(&idFingerprintInput, "%d", id)
 	}
 	idFingerprint := fmt.Sprintf("%x", sha256.Sum256([]byte(idFingerprintInput.String())))
+	const wantIDFingerprint = "13bf9c396dff808920032c60c308cf2d1111bae56cebd2c5eccbea954dd3965f"
+	if idFingerprint != wantIDFingerprint {
+		t.Fatalf("verified-dialogue unbounded ID set drift: got sha256=%s want %s", idFingerprint, wantIDFingerprint)
+	}
 
 	t.Logf("FORENSIC U6_VALUE15_VERIFIED_IDS count=%d ids=%v runtime_bound=unproven", len(verified15), verified15)
 	t.Logf("FORENSIC U6_VALUE15_VERIFIED_DIALOGUE_IDS count=%d ids=%v runtime_bound=unproven", len(verifiedDialogue15), verifiedDialogue15)
