@@ -124,6 +124,8 @@ jobs:
             -run '^TestCurrentKoreanCorpusEnglishConsumerStorageContracts$' \
             -count=1 -v | tee consumer-storage-full-corpus-audit.txt
           grep -q 'canonical=42016 checked=42016' consumer-storage-full-corpus-audit.txt
+          grep -q 'KOREAN_DIALOGUE_REFLOW_SUMMARY' consumer-storage-full-corpus-audit.txt
+          grep -q 'residual_overflow=0 scope=verified_narrow_text' consumer-storage-full-corpus-audit.txt
           grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
           grep -q 'visual=PASS' consumer-storage-full-corpus-audit.txt
           grep -q 'exact_asset_gates=C5,CompileBankKorean' consumer-storage-full-corpus-audit.txt
@@ -162,6 +164,7 @@ jobs:
           )
           grep -q 'canonical=42016 checked=42016' a054-full-corpus-audit.txt
           grep -q 'canonical=42016 checked=42016' consumer-storage-full-corpus-audit.txt
+          grep -q 'residual_overflow=0 scope=verified_narrow_text' consumer-storage-full-corpus-audit.txt
           grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
           grep -q 'visual=PASS' consumer-storage-full-corpus-audit.txt
           sha256sum "$APK" | tee "$APK.sha256"
