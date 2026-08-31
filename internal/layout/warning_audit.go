@@ -2,7 +2,11 @@
 
 package layout
 
-import "sort"
+import (
+	"sort"
+
+	"github.com/HK47196/zill/internal/corpus"
+)
 
 // WarningAuditBucket groups non-blocking visual warnings by the strongest
 // runtime ownership evidence currently available. It is deliberately
@@ -11,6 +15,17 @@ import "sort"
 type WarningAuditBucket struct {
 	Code     string
 	Category string
+	Basis    string
+	Consumer string
+	Count    int
+}
+
+// RuntimeSubstitutionAuditBucket groups rows that carry a runtime substitution
+// by the exact source token and strongest currently authenticated consumer.
+// Count is a row count, not an occurrence count: repeated uses of one token in a
+// single message remain one risk-bearing message for census purposes.
+type RuntimeSubstitutionAuditBucket struct {
+	Token    string
 	Basis    string
 	Consumer string
 	Count    int
@@ -50,6 +65,45 @@ func (e *Engine) AuditWarningPopulation(warnings []Warning) []WarningAuditBucket
 			return out[i].Basis < out[j].Basis
 		}
 		return out[i].Category < out[j].Category
+	})
+	return out
+}
+
+// AuditRuntimeSubstitutionPopulation gives the broad warning population useful
+// operational shape without assigning an invented expansion bound. $28 remains
+// the only value substitution with an independently proven maximum in the C5
+// byte audit; every other token stays explicitly unbounded here.
+func (e *Engine) AuditRuntimeSubstitutionPopulation(korean *corpus.KoreanProject) []RuntimeSubstitutionAuditBucket {
+	if korean == nil {
+		return nil
+	}
+	type key struct { token, basis, consumer string }
+	counts := make(map[key]int)
+	for _, row := range korean.Entries {
+		seen := make(map[string]struct{})
+		for _, token := range valueTag.FindAllString(row.Korean, -1) {
+			seen[token] = struct{}{}
+		}
+		if formatSignatureID(row.ID) && printfConversion.MatchString(visible(row.Korean)) {
+			seen["printf"] = struct{}{}
+		}
+		if len(seen) == 0 {
+			continue
+		}
+		_, basis := e.warningCategory(row.ID)
+		consumer := e.warningConsumer(row.ID)
+		for token := range seen {
+			counts[key{token, basis, consumer}]++
+		}
+	}
+	out := make([]RuntimeSubstitutionAuditBucket, 0, len(counts))
+	for k, count := range counts {
+		out = append(out, RuntimeSubstitutionAuditBucket{Token: k.token, Basis: k.basis, Consumer: k.consumer, Count: count})
+	}
+	sort.Slice(out, func(i, j int) bool {
+		if out[i].Token != out[j].Token { return out[i].Token < out[j].Token }
+		if out[i].Consumer != out[j].Consumer { return out[i].Consumer < out[j].Consumer }
+		return out[i].Basis < out[j].Basis
 	})
 	return out
 }
