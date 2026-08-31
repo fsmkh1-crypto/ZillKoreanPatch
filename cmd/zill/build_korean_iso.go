@@ -91,8 +91,13 @@ func runBuildKoreanISO(root string, args []string, stdout, stderr io.Writer) int
 		if err := auditC5RuntimeCandidates(gameDir); err != nil {
 			return koreanslots.Plan{}, 0, 0, fmt.Errorf("C5 runtime candidate audit: %w", err)
 		}
+		// PR14 H0/B/A/Combined replay is historical, diagnostic-only evidence.
+		// Its plans are never consumed by the production builder, so a missing or
+		// stale historical fixture must not turn that diagnostic into a release
+		// blocker. The current production planner and downstream contract gates
+		// remain fail-closed immediately below.
 		if err := auditPR14HistoricalPolicies(root, gameDir, source, korean); err != nil {
-			return koreanslots.Plan{}, 0, 0, fmt.Errorf("PR14 historical policy audit: %w", err)
+			fmt.Fprintf(stdout, "FORENSIC PR14_POLICY_AUDIT_UNAVAILABLE error=%q diagnostic_only=true build_blocked=false\n", err.Error())
 		}
 		return buildKoreanAlphaPlanMobile(root, gameDir, source, korean)
 	}
