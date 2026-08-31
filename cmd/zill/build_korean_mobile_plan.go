@@ -43,7 +43,7 @@ func buildKoreanAlphaPlanMobile(root, gameDir string, source *corpus.Project, ko
 	mergeRendererKeys(reserved, bootScan.Keys)
 	mergeRendererKeys(reserved, bindataScan.Keys)
 	keyboardReserved := koreanslots.KeyboardInputReservedKeys()
-	mergeRendererKeys(reserved, keyboardReserved)
+	for _, key := range keyboardReserved { reserved[key] = struct{}{} }
 
 	texts, err := korean.RuntimeTexts(source)
 	if err != nil { return koreanslots.Plan{}, 0, 0, err }
