@@ -36,18 +36,31 @@ This file records immutable recovery points for user-tested/release-candidate Ko
 - Git commit: `d7c25b281b4b3241b6797db021739e82e2522919`
 - Recovery branch: `milestone/U3`
 - Meaning: U2 plus the two input/name-entry command strips at `0x243d50` and `0x2465f8`, translated strictly as upstream-English-owned guarded EBOOT fixed strings.
-- Explicit boundary: U3 does not modify retail keyboard character tables, mode dispatch, cursor/navigation mechanics, or input buffers; actual Hangul character entry remains unimplemented/unproven.
-- Static gates: standard CI PASS on the same functional payload plus documentation-only successor; `audit-input-window-english-authority.py` PASS; English-first fixed-data PASS; A-054 scanner census PASS; full Korean English-consumer storage/visual census PASS; Android unit tests/build/embedded payload verification PASS.
+- Explicit boundary: U3 does not modify retail keyboard character tables, mode dispatch, cursor/navigation mechanics, or input buffers.
+- Static gates: standard CI PASS; `audit-input-window-english-authority.py` PASS; English-first fixed-data PASS; A-054 scanner census PASS; full Korean English-consumer storage/visual census PASS; Android unit tests/build/embedded payload verification PASS.
 - Android RC run: `33346491038`.
 - Android RC artifact id: `9742179788`.
 - Artifact digest: `sha256:278c3958b449e1c7779f45d2a8eb41b39cd64445e73756b05512c26f8a7a8189`.
 - APK SHA-256 recorded at generation time: `5cd4fb7177a61b3d6cce699f6ea0cccfb92b9df5601654c6bf3a44e70e57b85a`.
-- Device runtime evidence: not yet recorded for U3.
+- Device evidence after generation: the ABC input page displayed Korean custom glyphs in some Latin/digit/symbol cells, and selecting those cells inserted the displayed Korean character. This established live keyboard-slot ownership and motivated U4.
+
+## U4 — keyboard slot-protection baseline
+
+- Git commit: `b3ad54403becb8d780723a0da887fdd73884a55e`
+- Recovery branch: `milestone/U4`
+- Meaning: U3 plus structured reservation of the retail input keyboard's CP932 fullwidth-ASCII page (`U+FF01..U+FF5E`) so Korean custom-glyph allocation cannot reuse those live input slots. Keyboard mechanics, cursor logic and input buffers remain stock.
+- Evidence basis: user device screenshots and input behavior confirmed that the affected cells are real input consumers, not merely visual aliases; selecting a Korean-looking corrupted cell inserted that Korean character.
+- Guard: `KeyboardInputReservedKeys()` is used by both desktop and mobile Korean planners; tests cover uppercase/lowercase/digits/punctuation and forbid Hangul allocation to protected keyboard keys.
+- Static gates: standard CI PASS; English-first audits PASS; `go test ./...` and `go vet ./...` PASS; A-054 scanner census PASS; full Korean English-consumer storage/visual census PASS; Android unit tests/build/embedded payload verification PASS.
+- Android RC run: `33349410117`.
+- Android RC artifact id: `9743109503`.
+- Artifact digest: `sha256:e9e5bfe1933af6405b16344456c26a89d985b03b060370acb63aa9b1c9b99dd8`.
+- Device runtime evidence: not yet recorded for U4. The keyboard fix remains a release-candidate hypothesis until the ABC page and prior freeze path are re-tested on device.
 
 ## U-series policy
 
-1. Never move or overwrite `milestone/U0`, `milestone/U1`, `milestone/U2`, or `milestone/U3` except to correct a documented baseline-recording error against authenticated generation/runtime evidence.
+1. Never move or overwrite `milestone/U0`, `milestone/U1`, `milestone/U2`, `milestone/U3`, or `milestone/U4` except to correct a documented baseline-recording error against authenticated generation/runtime evidence.
 2. Future work happens on a separate work/active branch and receives a new U-number only after its intended scope is complete and its static/compile gates are green.
 3. A device success is recorded as non-reproduction, not proof of safety. A freeze/crash is strong failure evidence.
 4. Upstream-English consumer/storage contracts remain the primary authority; Korean-only deviations require explicit renderer/encoding evidence.
-5. Input-method mechanics are isolated from ordinary fixed-string/UI localization until their character-table/index/buffer/renderer contract is established.
+5. Structured live-consumer ownership (such as the confirmed keyboard page) may reserve renderer slots; arbitrary whole-blob two-byte occurrences remain diagnostic-only and must not establish slot ownership.
