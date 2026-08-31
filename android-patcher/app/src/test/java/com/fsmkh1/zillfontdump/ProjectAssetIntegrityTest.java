@@ -22,6 +22,7 @@ public final class ProjectAssetIntegrityTest {
             "release/korean/strings/eboot.toml",
             "release/layout/consumer-map.toml",
             "release/layout/categories.toml",
+            "docs/audit/fixtures/pr14-eboot-h0.toml",
             "docs/audit/fixtures/pr14-eboot-full.toml",
             "patches/executable/manifest.toml",
             "patches/system/param-sfo.toml",
@@ -36,6 +37,20 @@ public final class ProjectAssetIntegrityTest {
             assertFalse(ProjectAssetIntegrity.isComplete(root));
             assertTrue(ProjectAssetIntegrity.missingFiles(root).contains("release/font/metrics.toml"));
             assertTrue(ProjectAssetIntegrity.missingFiles(root).contains(ProjectAssetIntegrity.MANIFEST_RELATIVE_PATH));
+        } finally {
+            deleteRecursively(root);
+        }
+    }
+
+    @Test
+    public void historicalH0FixtureIsRequired() throws Exception {
+        File root = Files.createTempDirectory("zillroot-no-h0").toFile();
+        try {
+            writePayloadAndManifest(root);
+            File h0 = new File(root, "docs/audit/fixtures/pr14-eboot-h0.toml");
+            assertTrue(h0.delete());
+            assertFalse(ProjectAssetIntegrity.isComplete(root));
+            assertTrue(ProjectAssetIntegrity.missingFiles(root).contains("docs/audit/fixtures/pr14-eboot-h0.toml"));
         } finally {
             deleteRecursively(root);
         }
