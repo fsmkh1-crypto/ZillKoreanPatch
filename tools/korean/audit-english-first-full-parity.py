@@ -31,6 +31,7 @@ english_release = read("internal/release/build.go")
 release_build = read("internal/release/korean_build.go")
 mobile_build = read("internal/release/korean_mobile.go")
 mobile_preflight = read("internal/release/korean_mobile_preflight.go")
+mobile_prepare = read("internal/release/korean_mobile_prepare.go")
 contract_chain = read("internal/release/korean_contract_chain.go")
 korean_font = read("internal/release/korean_font.go")
 zillfont_retail = read("internal/zillfont/retail.go")
@@ -87,9 +88,10 @@ require("p.materializeValues" in korean_materialize, "Korean materialization los
 for anchor in ("RuntimeBankCapacity(bank.Section)", "binary.LittleEndian.PutUint32"):
     require(anchor in english_compile and anchor in korean_compile, "bank compiler contract drift: " + anchor)
 
-# All release entry points must reach one shared ordered contract chain before
-# compilation. Do not require duplicated direct gates in each release file: that
-# was precisely the structure that allowed desktop/mobile/preflight drift.
+# Release paths must reach one ordered contract chain before compilation. The
+# mobile build and preflight intentionally share their whole deterministic
+# preparation path; requiring duplicate direct gates in each caller would
+# recreate the drift this audit is supposed to prevent.
 def require_release_chain(label: str, text: str, call: str) -> None:
     shared = text.find(call)
     compile_gate = text.find("compileKoreanBanksWithPlan")
@@ -99,10 +101,23 @@ def require_release_chain(label: str, text: str, call: str) -> None:
 
 require_release_chain("desktop", release_build,
                       'runKoreanEnglishContractChain(root, "desktop", source, korean, plan.Mapping)')
-require_release_chain("mobile", mobile_build,
-                      'runKoreanEnglishContractChain(root, "mobile", source, korean, plan.Mapping)')
-require_release_chain("preflight", mobile_preflight,
-                      'runKoreanEnglishContractChain(root, "preflight", source, korean, plan.Mapping)')
+for label, text, mode in (("mobile", mobile_build, "mobile"), ("preflight", mobile_preflight, "preflight")):
+    call = f'prepareKoreanMobilePayload(root, gameDir, version, "{mode}", planBuilder)'
+    require(call in text, f"{label} bypasses shared deterministic mobile preparation")
+
+shared_mobile_contract = mobile_prepare.find("runKoreanEnglishContractChain(root, mode, source, korean, plan.Mapping)")
+shared_mobile_compile = mobile_prepare.find("compileKoreanBanksWithPlan")
+require(shared_mobile_contract >= 0 and shared_mobile_compile >= 0,
+        "shared mobile preparation lost contract or compile stage")
+require(shared_mobile_contract < shared_mobile_compile,
+        "shared mobile preparation compiles before English-first validation")
+for anchor in ("corpus.BindBanks(source, banks)", "BuildKoreanBetaProject(source, canonicalKorean)",
+               "prepareKoreanMobileFontReplacements(root, archives, plan)",
+               "buildKoreanAlphaExecutable(root, gameDir, plan.Mapping)",
+               "buildKoreanAlphaSFO(root, gameDir, version)"):
+    require(anchor in mobile_prepare, "shared mobile preparation lost stage: " + anchor)
+    require(anchor not in mobile_build and anchor not in mobile_preflight,
+            "mobile caller reintroduced independently maintained preparation stage: " + anchor)
 
 ordered_contract_stages = (
     "DeriveKoreanC5StorageLayouts",
@@ -186,7 +201,7 @@ print("english_consumers=" + ",".join(sorted(english_consumers)))
 print("korean_c5_split=" + ",".join(sorted(deliberate_split)))
 print("shared_capacity_constants=" + ",".join(sorted(english_constants)))
 print("visual_warning_parity=hard_profile_plus_upstream_warning_codes")
-print("release_entrypoints=shared_chain_desktop,mobile,preflight")
+print("release_entrypoints=desktop_shared_chain,mobile_shared_prepare,preflight_shared_prepare")
 print("font_authentication=shared_zillfont_authority")
 print("slot_ownership=structured_cp932_fixed_renderer_evidence_api_enforced")
 print("whole_blob_exact_byte_aliases=diagnostic_only")
