@@ -24,9 +24,9 @@ Current U6 state:
 
 This is a build-path repair, not evidence that a PSP runtime freeze cause was identified.
 
-### 2. Captured retail scanner hardening was applied beyond its authenticated consumer scope
+### 2. Captured retail scanner hardening is restricted to its authenticated consumer scope
 
-Established failure mechanism: the broad scanner-derived storage wrapper could mutate C5 records even though the captured scanner evidence did not establish that every message consumer was NUL-scanner owned. On authenticated single-page C5 records, newly introduced line breaks could advance the three-line C5 page cursor into a second page. The correct C5 validator then rejected that derived state.
+An earlier U6 repair correctly removed a broad scanner-derived storage wrapper from C5 records whose consumers were not authenticated as NUL-scanner owned.
 
 Current U6 state:
 
@@ -35,17 +35,27 @@ Current U6 state:
 - within C22 it additionally requires authenticated retail source bytes containing a NUL terminator compatible with the captured scanner model;
 - non-NUL C22 records are excluded rather than forced through a false universal scanner contract.
 
-This removes the cross-consumer mutation instead of weakening later validators.
+The later retail mobile reproduction established that this scanner path was not the cause of the 9-message / 15-branch C5 build failure. The reproduced scanner population was `checked=697 eligible_retail_nul=0 skipped_non_nul=697 derived=0 threshold=0x100`. The scanner hardening remains valid, but it did not mutate any record in that failing build.
 
-### 3. Historical 9-message / 15-branch single-page C5 failure
+### 3. 9-message / 15-branch single-page C5 Korean overflow
 
 The exact affected IDs were:
 
 `1280007, 1280008, 1280012, 1280017, 1280020, 1280021, 1280043, 1280050, 1280051`.
 
-All nine are authenticated upstream-English `single_page_c5_ids`. They are not C22 scanner IDs. Their previous `2 pages > maximum 1` population is therefore handled by the scanner-scope repair above, not by shortening Korean text or relaxing `maxPages = 1`.
+The retail-backed Android build checked 15,679 Korean C5 records and rejected 15 branches from these nine messages with the same topology failure: `2 pages (maximum 1)`.
 
-U6 now adds a regression gate in `internal/layout/retail_scanner_scope_test.go` that hard-asserts both facts for the exact historical population.
+All nine IDs are authenticated upstream-English `single_page_c5_ids`. They are not C22 scanner IDs. Inspection of the pinned upstream English corpus also showed that the English localization deliberately compresses the corresponding long Japanese passages to fit this one-page consumer contract. The Korean translations retained more of the Japanese wording, and their actual Korean renderer widths caused automatic wrapping beyond three visual lines, which advances the C5 page cursor to a second page.
+
+Current U6 repair:
+
+- preserves the authenticated `single_page_c5_ids` contract;
+- preserves `maxPages = 1` and the fail-closed Korean C5 validator;
+- leaves the C22 scanner contract unchanged;
+- semantically compacts only the 15 affected Korean branches while preserving names, facts, branch topology, and conditional control prefixes;
+- adds `internal/layout/u6_single_page_c5_korean_test.go`, which reflows the exact historical population at the 300-unit C5 width using Korean full-width renderer metrics and rejects any branch that exceeds three lines or any line that exceeds the width ceiling.
+
+`internal/layout/retail_scanner_scope_test.go` remains useful as an independent assertion that these IDs are outside C22 scanner scope, but the direct repair for this failure is the targeted Korean compaction plus the one-page regression gate.
 
 ### 4. Message 210065 build-local C22 layout/materialization gap
 
