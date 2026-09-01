@@ -8,7 +8,6 @@ import (
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/koreanslots"
-	"github.com/HK47196/zill/internal/message"
 )
 
 // AuditKoreanEnglishVisualWarnings mirrors the non-blocking Warning classes
@@ -72,23 +71,5 @@ func (e *Engine) AuditKoreanEnglishVisualWarnings(source *corpus.Project, korean
 }
 
 func (e *Engine) koreanWarningMetrics(record corpus.Record, text string, id int, mapping koreanslots.Mapping) (int, int, error) {
-	projection, err := message.Project(record)
-	if err == nil {
-		width, err := e.maxProjectedKoreanWidth(projection, text, id, mapping)
-		if err != nil {
-			return 0, 0, err
-		}
-		lines, err := maxProjectedKoreanFragmentLines(projection, text, id, mapping)
-		if err != nil {
-			return 0, 0, err
-		}
-		return width, lines, nil
-	}
-	if len(record.Raw) == 0 {
-		// Repository-only CI has no retail token stream. The annotated Korean text
-		// is still sufficient for the warning-level width/vertical census; the
-		// authenticated asset-bound build repeats this audit through projection.
-		return e.measureKoreanProfileText(text, id, mapping)
-	}
-	return 0, 0, fmt.Errorf("message %d Korean visual-warning projection: %w", id, err)
+	return e.koreanVisualMetrics(record, text, id, mapping, fmt.Sprintf("message %d Korean visual-warning projection", id))
 }
