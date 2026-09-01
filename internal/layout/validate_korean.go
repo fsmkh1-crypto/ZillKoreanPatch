@@ -152,64 +152,12 @@ func (e *Engine) DeriveKoreanC5StorageLayouts(source *corpus.Project, korean *co
 	return derived, count, nil
 }
 
-// wrapKoreanC5Storage uses conservative display-sized lines. It prefers a
-// whitespace boundary once a line reaches 14 visible runes and hard-wraps at
-// 18 so a three-line C5 page remains comfortably below the 255-byte payload
-// ceiling for the two-byte Korean renderer mapping. Control tags are copied as
-// indivisible tokens; existing line breaks remain authoritative boundaries.
+// wrapKoreanC5Storage uses the shared conservative 14/18-rune storage state
+// machine. C5 keeps its historical mode: record-leading and post-line-break
+// whitespace are not specially protected, while value-adjacent text remains
+// protected from a newly invented boundary.
 func wrapKoreanC5Storage(text string) string {
-	var out strings.Builder
-	out.Grow(len(text) + len(text)/8)
-	lineRunes := 0
-	cursor := 0
-	protectNextPlainRune := false
-	for _, loc := range controlTag.FindAllStringIndex(text, -1) {
-		appendKoreanC5Plain(&out, text[cursor:loc[0]], &lineRunes, protectNextPlainRune)
-		protectNextPlainRune = false
-		tag := text[loc[0]:loc[1]]
-		out.WriteString(tag)
-		if tag == lineBreak {
-			lineRunes = 0
-		} else if strings.HasPrefix(tag, "<value:") {
-			protectNextPlainRune = true
-		}
-		cursor = loc[1]
-	}
-	appendKoreanC5Plain(&out, text[cursor:], &lineRunes, protectNextPlainRune)
-	return out.String()
-}
-
-func appendKoreanC5Plain(out *strings.Builder, text string, lineRunes *int, protectLeading bool) {
-	firstEmitted := true
-	for _, r := range text {
-		space := r == ' ' || r == '\t' || r == '\r' || r == '\n'
-		if space {
-			if *lineRunes == 0 {
-				if protectLeading && firstEmitted {
-					out.WriteRune(' ')
-					*lineRunes++
-					firstEmitted = false
-				}
-				continue
-			}
-			if *lineRunes >= 14 && !(protectLeading && firstEmitted) {
-				out.WriteString(lineBreak)
-				*lineRunes = 0
-				continue
-			}
-			out.WriteRune(' ')
-			*lineRunes++
-			firstEmitted = false
-			continue
-		}
-		if *lineRunes >= 18 && !(protectLeading && firstEmitted) {
-			out.WriteString(lineBreak)
-			*lineRunes = 0
-		}
-		out.WriteRune(r)
-		*lineRunes++
-		firstEmitted = false
-	}
+	return wrapKoreanRuneStorage(text, koreanStorageWrapMode{})
 }
 
 // ValidateKoreanC5 applies the retail C5 branch-local storage contract to the
