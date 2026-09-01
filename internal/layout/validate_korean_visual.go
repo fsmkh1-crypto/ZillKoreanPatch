@@ -173,19 +173,9 @@ func maxProjectedKoreanFragmentLines(p *message.Projection, text string, id int,
 // hard boundaries. A word containing <value:$28> is measured with the player-name
 // reservation, so dynamic names cannot silently push a derived line over 300.
 func (e *Engine) wrapKoreanProfileVisual(text string, id int, mapping koreanslots.Mapping) (string, error) {
-	pages := strings.Split(text, "<end>")
-	var out strings.Builder
-	for pageIndex, page := range pages {
-		paragraphs := strings.Split(page, lineBreak)
-		for paragraphIndex, paragraph := range paragraphs {
-			wrapped, err := e.wrapKoreanProfileParagraph(paragraph, id, mapping)
-			if err != nil { return "", err }
-			out.WriteString(wrapped)
-			if paragraphIndex+1 < len(paragraphs) { out.WriteString(lineBreak) }
-		}
-		if pageIndex+1 < len(pages) { out.WriteString("<end>") }
-	}
-	return out.String(), nil
+	return wrapKoreanDelimitedParagraphs(text, func(paragraph string) (string, error) {
+		return e.wrapKoreanProfileParagraph(paragraph, id, mapping)
+	})
 }
 
 func (e *Engine) wrapKoreanProfileParagraph(text string, id int, mapping koreanslots.Mapping) (string, error) {
