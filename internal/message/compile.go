@@ -74,16 +74,24 @@ func CompileBank(bank corpus.Bank, items []corpus.Item) ([]byte, error) {
 			return nil, fmt.Errorf("%s: ID %d: unsupported translation state %q", bank.Name, source.ID, item.Translation.State)
 		}
 	}
+	return assembleCompiledBank(bank, records, "bank")
+}
+
+// assembleCompiledBank owns the language-independent runtime bank container
+// contract inherited from the upstream English compiler. English and Korean
+// materializers may produce different record bytes, but the relocated capacity,
+// absolute uint32 offset table and record concatenation must stay identical.
+func assembleCompiledBank(bank corpus.Bank, records [][]byte, kind string) ([]byte, error) {
 	tableEnd := uint64(4 + len(records)*4)
 	position := tableEnd
 	for _, record := range records {
 		position += uint64(len(record))
 	}
 	if position > math.MaxUint32 {
-		return nil, fmt.Errorf("%s: compiled bank is %d bytes; uint32 maximum is %d", bank.Name, position, uint64(math.MaxUint32))
+		return nil, fmt.Errorf("%s: compiled %s is %d bytes; uint32 maximum is %d", bank.Name, kind, position, uint64(math.MaxUint32))
 	}
 	if position > uint64(RuntimeBankCapacity(bank.Section)) {
-		return nil, fmt.Errorf("%s: compiled bank is %d bytes; runtime slot capacity is %d (shorten translations by at least %d encoded bytes)", bank.Name, position, RuntimeBankCapacity(bank.Section), position-uint64(RuntimeBankCapacity(bank.Section)))
+		return nil, fmt.Errorf("%s: compiled %s is %d bytes; runtime slot capacity is %d (shorten translations by at least %d encoded bytes)", bank.Name, kind, position, RuntimeBankCapacity(bank.Section), position-uint64(RuntimeBankCapacity(bank.Section)))
 	}
 	output := make([]byte, int(position))
 	binary.LittleEndian.PutUint16(output, uint16(len(records)))
