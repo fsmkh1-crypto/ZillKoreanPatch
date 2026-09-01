@@ -101,11 +101,23 @@ for code in ("line_exceeds_authoring_ceiling", "item_description_single_line_ove
     require(code in english_engine and code in korean_warnings,
             "Korean warning parity lost upstream code " + code)
 
-# Semantic/materialization/compiler parity.
+# Semantic/materialization/compiler parity. Korean owns only renderer-specific
+# record materialization; the language-independent bank container assembly stays
+# under the upstream-English compiler authority and is reused by both paths.
 require("p.splitSemanticWith" in korean_materialize, "Korean semantic traversal lost shared parser")
 require("p.materializeValues" in korean_materialize, "Korean materialization lost shared value lowering")
+require("func assembleCompiledBank(" in english_compile,
+        "shared upstream-derived bank assembler disappeared")
 for anchor in ("RuntimeBankCapacity(bank.Section)", "binary.LittleEndian.PutUint32"):
-    require(anchor in english_compile and anchor in korean_compile, "bank compiler contract drift: " + anchor)
+    require(anchor in english_compile, "shared bank assembler lost upstream contract: " + anchor)
+require('return assembleCompiledBank(bank, records, "bank")' in english_compile,
+        "English compiler bypasses shared bank assembler")
+require('return assembleCompiledBank(bank, records, "Korean bank")' in korean_compile,
+        "Korean compiler bypasses shared bank assembler")
+require("binary.LittleEndian.PutUint32" not in korean_compile,
+        "Korean compiler reintroduced independent bank offset assembly")
+require("RuntimeBankCapacity(bank.Section)" not in korean_compile,
+        "Korean compiler reintroduced independent runtime-capacity assembly")
 
 # Release paths must reach one ordered contract chain before compilation. The
 # mobile build and preflight intentionally share their whole deterministic
@@ -221,6 +233,7 @@ print("korean_c5_split=" + ",".join(sorted(deliberate_split)))
 print("shared_capacity_constants=" + ",".join(sorted(english_constants)))
 print("visual_warning_parity=hard_profile_plus_upstream_warning_codes")
 print("korean_layout_adapters=shared_storage_wrapper,shared_visual_metrics")
+print("bank_compiler=shared_upstream_assembly,korean_record_materializer_only")
 print("release_entrypoints=desktop_shared_chain,mobile_shared_prepare,preflight_shared_prepare")
 print("font_authentication=shared_zillfont_authority")
 print("slot_ownership=structured_cp932_fixed_renderer_evidence_api_enforced")
