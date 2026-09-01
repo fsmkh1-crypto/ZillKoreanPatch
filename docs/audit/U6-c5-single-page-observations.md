@@ -1,16 +1,12 @@
-# U6 C5 single-page unresolved observations
+# U6 C5 single-page stabilization
 
 ## Scope
 
-This record keeps the current C5 single-page validation findings inside the ongoing U6 audit trail. It is documentation-only: no Korean translation, derived layout, glyph mapping, storage validator, runtime patch payload, or consumer behavior is changed by this record.
+This record closes the historical U6 C5 single-page build failure without changing canonical Korean translation text, weakening the C5 validator, or creating a new U-stage. The repair belongs to U6 stabilization.
 
-The findings are intentionally **not repaired** at this stage. They are preserved as unresolved audit evidence rather than converted into speculative Korean-only edits.
+The original asset-backed failure checked 15,679 C5 records and reported **9 message IDs / 15 branches** where the effective Korean projection occupied `2 pages` while the authenticated consumer contract allows `maximum 1` page.
 
-## Observed validation failures
-
-The asset-backed C5 validation reached 15,679 records and reported **9 message IDs / 15 branches** where the derived result occupied `2 pages` while the authenticated consumer contract allows `maximum 1` page.
-
-| Message ID | Branch(es) | Observation |
+| Message ID | Branch(es) | Historical observation |
 | ---: | --- | --- |
 | 1280007 | b7 | 2 pages > maximum 1 |
 | 1280008 | b5, b7 | 2 pages > maximum 1 |
@@ -24,24 +20,41 @@ The asset-backed C5 validation reached 15,679 records and reported **9 message I
 
 Total: **9 messages / 15 branches**.
 
-## Interpretation boundary
+## Authenticated consumer classification
 
-- The upstream-English C5 consumer/storage contract is real; the `maximum 1` result is not being dismissed as a generic authoring warning.
-- The U5 general verified-dialogue reflow path intentionally excludes C5, so these findings must not be generalized into a U5 dialogue-reflow defect.
-- The current evidence does not justify guessing a Korean-only break pattern, shortening translation text, or relaxing the validator merely to make the count disappear.
-- These findings do not establish a historical freeze root cause and must not be conflated with `$15`, record `10010`, or other prior hypotheses.
+Pinned upstream-English authority: `HK47196/zill@a98d9ce29f361d666ec23da0dcfd351f24537ffd`.
 
-## U6 handling decision
+All nine message IDs are members of upstream `release/layout/consumer-map.toml` `single_page_c5_ids`. The local consumer map preserves that classification. The `maximum 1` validation result is therefore a real upstream-English storage contract, not a Korean-only warning.
 
-Keep all 15 branch findings **unchanged and unresolved** under U6.
+The nine IDs are not C22 scanner consumers.
 
-Do not:
+## Cause and repair
 
-1. edit the affected Korean strings solely to satisfy this gate,
-2. insert speculative branch/page breaks,
-3. weaken or bypass the authenticated C5 `max_pages=1` contract,
-4. promote the population to a proven runtime failure without device evidence.
+The historical failure was not caused by the Korean semantic translation text. The affected Korean records contain semantic branches (`<end>` and selection controls) rather than authored page breaks that deliberately request two C5 pages.
 
-Future mutation requires stronger same-consumer evidence: an upstream-English transformation that applies to these exact branches, authenticated asset/runtime evidence establishing the correct Korean projection, or practical device evidence demonstrating an actual failure mode.
+The failure class came from applying the captured retail string-scanner hardening too broadly. A scanner-derived conservative wrap could introduce enough line breaks to advance the C5 three-line page cursor into a second page. The later, correct C5 validator then rejected that derived state because these consumers are authenticated single-page C5.
 
-Until then, these 9 message IDs / 15 branches remain U6 audit observations and regression targets, not a new U-stage feature/fix.
+Current U6 production code removes that cross-consumer mutation:
+
+1. C5 storage derivation remains owned by the C5 contract.
+2. Runtime scanner hardening now uses `DeriveKoreanC22RetailScannerLayouts` rather than the historical all-record scanner derivation.
+3. That derivation iterates only authenticated `C22IDs` and additionally requires authenticated retail source compatibility with the captured NUL-terminated scanner model.
+4. The C5 validator remains fail-closed and still enforces `maxPages = 1` for `single_page_c5_ids`.
+5. Canonical Korean strings are not shortened or rewritten to make the gate pass.
+
+This is the correct repair direction: remove the invalid consumer cross-over rather than weaken the consumer contract.
+
+## Regression gate
+
+`internal/layout/retail_scanner_scope_test.go` now hard-asserts the exact historical nine-ID population:
+
+- every ID must remain authenticated as `single_page_c5_ids`, and
+- no ID may appear in `C22IDs` / C22 scanner derivation scope.
+
+This prevents a future parity/refactor change from silently reintroducing the same scanner-to-C5 collision.
+
+## Evidence boundary
+
+This closes the identified build-path defect in source and configuration. It does **not** convert a successful build or playthrough into proof that every historical PSP freeze is solved. Runtime substitution risks and unrelated warning populations retain their own evidence boundaries.
+
+A retail ISO rerun remains useful practical QA, but it is no longer a prerequisite for applying the known structural fix: the invalid scanner ownership that produced this failure class has been removed and is now regression-guarded under U6.
