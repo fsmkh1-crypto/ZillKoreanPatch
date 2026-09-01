@@ -24,8 +24,8 @@ func TestWrapKoreanC5StoragePreservesControlsAndBoundsLines(t *testing.T) {
 	}
 	for _, line := range strings.Split(got, lineBreak) {
 		line = controlTag.ReplaceAllString(line, "")
-		if n := len([]rune(line)); n > 18 {
-			t.Fatalf("derived line has %d visible runes (>18): %q", n, line)
+		if n := len([]rune(line)); n > koreanStorageHardWrapRunes {
+			t.Fatalf("derived line has %d visible runes (>%d): %q", n, koreanStorageHardWrapRunes, line)
 		}
 	}
 }
@@ -46,6 +46,18 @@ func TestWrapKoreanC5StoragePreservesValueLeadingWhitespace(t *testing.T) {
 	}
 	if !message.PreservesLayoutSemantics(input, got) {
 		t.Fatalf("C5 wrapper changed semantic/control topology: %q", got)
+	}
+}
+
+func TestSharedKoreanStorageWrapperPreservesLegacyWhitespaceModes(t *testing.T) {
+	input := "<value:$28>\t공께. 의뢰드리고 싶은 일이 있습니다.<end>"
+	c5 := wrapKoreanC5Storage(input)
+	c22 := wrapKoreanStoragePreservingControlAdjacency(input)
+	if !strings.Contains(c5, "<value:$28> 공께") {
+		t.Fatalf("C5 shared mode no longer normalizes protected whitespace as before: %q", c5)
+	}
+	if !strings.Contains(c22, "<value:$28>\t공께") {
+		t.Fatalf("C22 shared mode no longer preserves protected whitespace as before: %q", c22)
 	}
 }
 
