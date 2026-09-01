@@ -4,6 +4,17 @@ package layout
 
 import "strings"
 
+const (
+	koreanStoragePreferredWrapRunes = 14
+	koreanStorageHardWrapRunes      = 18
+)
+
+type koreanStorageWrapMode struct {
+	protectInitialPlainRune       bool
+	protectAfterLineBreak         bool
+	preserveProtectedWhitespace   bool
+}
+
 // wrapKoreanStoragePreservingControlAdjacency inserts conservative display
 // boundaries without ever creating a new boundary immediately before or after a
 // runtime substitution control. It also repairs an unsafe derived boundary that
@@ -12,49 +23,43 @@ import "strings"
 // message.PreservesLayoutSemantics postcondition.
 func wrapKoreanStoragePreservingControlAdjacency(text string) string {
 	text = stripDerivedValueAdjacencyBreaks(text)
+	return wrapKoreanRuneStorage(text, koreanStorageWrapMode{
+		protectInitialPlainRune:     true,
+		protectAfterLineBreak:       true,
+		preserveProtectedWhitespace: true,
+	})
+}
 
+// wrapKoreanRuneStorage is the single conservative 14/18-rune storage wrapper
+// used by the Korean storage projections. Consumer-specific wrappers only select
+// the legacy whitespace/adjacency mode; the wrapping state machine itself must
+// not diverge between C5/scanner and C22 paths.
+func wrapKoreanRuneStorage(text string, mode koreanStorageWrapMode) string {
 	var out strings.Builder
 	out.Grow(len(text) + len(text)/8)
 	lineRunes := 0
 	cursor := 0
-	// Whitespace already present at the beginning of the input is authored
-	// semantic text, not a wrapping delimiter. Preserve its first rune so the
-	// rest of the run is retained normally as well.
-	protectNextPlainRune := true
+	protectNextPlainRune := mode.protectInitialPlainRune
 	for _, loc := range controlTag.FindAllStringIndex(text, -1) {
-		appendKoreanStoragePlain(&out, text[cursor:loc[0]], &lineRunes, protectNextPlainRune)
+		appendKoreanStoragePlain(&out, text[cursor:loc[0]], &lineRunes, protectNextPlainRune, mode.preserveProtectedWhitespace)
 		protectNextPlainRune = false
 		tag := text[loc[0]:loc[1]]
 		out.WriteString(tag)
-		if tag == lineBreak {
+		switch {
+		case tag == lineBreak:
 			lineRunes = 0
-			// A line break already present in the input owns the whitespace that
-			// follows it. Generated wrapping breaks never leave their delimiter
-			// whitespace behind, so preserving an existing post-break run cannot
-			// turn a machine-created separator into semantic text.
-			protectNextPlainRune = true
-		} else {
+			protectNextPlainRune = mode.protectAfterLineBreak
+		case strings.HasPrefix(tag, "<value:"):
 			// A semantic string such as <value:$15>여... owns direct control→text
 			// adjacency. If the line is already at the wrap threshold, emit one
 			// following rune before wrapping rather than inventing a boundary here.
 			// The same protection keeps canonical whitespace immediately after a
 			// value token instead of silently dropping it at a line start.
-			protectNextPlainRune = strings.HasPrefix(tag, "<value:")
+			protectNextPlainRune = true
 		}
 		cursor = loc[1]
-		if cursor < len(text) {
-			nextControl := len(text)
-			if next := controlTag.FindStringIndex(text[cursor:]); next != nil {
-				nextControl = cursor + next[0]
-			}
-			appendKoreanStoragePlain(&out, text[cursor:nextControl], &lineRunes, protectNextPlainRune)
-			cursor = nextControl
-			protectNextPlainRune = false
-		}
 	}
-	if cursor < len(text) {
-		appendKoreanStoragePlain(&out, text[cursor:], &lineRunes, protectNextPlainRune)
-	}
+	appendKoreanStoragePlain(&out, text[cursor:], &lineRunes, protectNextPlainRune, mode.preserveProtectedWhitespace)
 	return out.String()
 }
 
@@ -75,20 +80,24 @@ func stripDerivedValueAdjacencyBreaks(text string) string {
 	return text
 }
 
-func appendKoreanStoragePlain(out *strings.Builder, text string, lineRunes *int, protectLeading bool) {
+func appendKoreanStoragePlain(out *strings.Builder, text string, lineRunes *int, protectLeading, preserveProtectedWhitespace bool) {
 	firstEmitted := true
 	for _, r := range text {
 		space := r == ' ' || r == '\t' || r == '\r' || r == '\n'
 		if space {
 			if *lineRunes == 0 {
 				if protectLeading && firstEmitted {
-					out.WriteRune(r)
+					if preserveProtectedWhitespace {
+						out.WriteRune(r)
+					} else {
+						out.WriteRune(' ')
+					}
 					*lineRunes++
 					firstEmitted = false
 				}
 				continue
 			}
-			if *lineRunes >= 14 && !(protectLeading && firstEmitted) {
+			if *lineRunes >= koreanStoragePreferredWrapRunes && !(protectLeading && firstEmitted) {
 				out.WriteString(lineBreak)
 				*lineRunes = 0
 				continue
@@ -98,7 +107,7 @@ func appendKoreanStoragePlain(out *strings.Builder, text string, lineRunes *int,
 			firstEmitted = false
 			continue
 		}
-		if *lineRunes >= 18 && !(protectLeading && firstEmitted) {
+		if *lineRunes >= koreanStorageHardWrapRunes && !(protectLeading && firstEmitted) {
 			out.WriteString(lineBreak)
 			*lineRunes = 0
 		}
