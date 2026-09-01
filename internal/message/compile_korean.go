@@ -4,7 +4,6 @@
 package message
 
 import (
-	"encoding/binary"
 	"fmt"
 	"math"
 	"sort"
@@ -91,25 +90,5 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 	if len(failures) > 0 {
 		return nil, fmt.Errorf("Korean materialization failed:\n- %s", strings.Join(failures, "\n- "))
 	}
-
-	tableEnd := uint64(4 + len(records)*4)
-	position := tableEnd
-	for _, record := range records {
-		position += uint64(len(record))
-	}
-	if position > math.MaxUint32 {
-		return nil, fmt.Errorf("%s: compiled Korean bank is %d bytes; uint32 maximum is %d", bank.Name, position, uint64(math.MaxUint32))
-	}
-	if position > uint64(RuntimeBankCapacity(bank.Section)) {
-		return nil, fmt.Errorf("%s: compiled Korean bank is %d bytes; runtime slot capacity is %d (shorten translations by at least %d encoded bytes)", bank.Name, position, RuntimeBankCapacity(bank.Section), position-uint64(RuntimeBankCapacity(bank.Section)))
-	}
-	output := make([]byte, int(position))
-	binary.LittleEndian.PutUint16(output, uint16(len(records)))
-	offset := tableEnd
-	for index, record := range records {
-		binary.LittleEndian.PutUint32(output[4+index*4:], uint32(offset))
-		copy(output[int(offset):], record)
-		offset += uint64(len(record))
-	}
-	return output, nil
+	return assembleCompiledBank(bank, records, "Korean bank")
 }
