@@ -3,6 +3,7 @@
 package message
 
 import (
+	"bytes"
 	"encoding/binary"
 	"fmt"
 	"math"
@@ -19,6 +20,27 @@ import (
 type KoreanRecord struct {
 	Text   string
 	Layout string
+}
+
+func koreanForensicWatchID(id int) bool {
+	return id >= 640001 && id <= 640012
+}
+
+func koreanForensicLine(id int, replacement KoreanRecord, materialized []byte) string {
+	selectedLayout := replacement.Text
+	derivedBreaks := 0
+	if replacement.Layout != "" {
+		selectedLayout = replacement.Layout
+		derivedBreaks = strings.Count(replacement.Layout, lineBreak)
+	}
+	return fmt.Sprintf(
+		"FORENSIC_DIALOGUE id=%d canonical=%q selected_layout=%q derived_breaks=%d materialized_0A=%d",
+		id,
+		replacement.Text,
+		selectedLayout,
+		derivedBreaks,
+		bytes.Count(materialized, []byte{0x0A}),
+	)
 }
 
 // CompileBankKorean compiles only explicitly supplied Korean replacements and
@@ -74,17 +96,22 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			failures = append(failures, fmt.Sprintf("%s: ID %d Korean semantic text: %v", bank.Name, source.ID, err))
 			continue
 		}
-		if replacement.Layout == "" {
-			records[index] = semantic
-			continue
+
+		materialized := semantic
+		if replacement.Layout != "" {
+			if !preservesSemantics(replacement.Text, replacement.Layout) {
+				failures = append(failures, fmt.Sprintf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID))
+				continue
+			}
+			materialized, err = projection.MaterializeKorean(replacement.Layout, true, mapping)
+			if err != nil {
+				failures = append(failures, fmt.Sprintf("%s: ID %d Korean layout: %v", bank.Name, source.ID, err))
+				continue
+			}
 		}
-		if !preservesSemantics(replacement.Text, replacement.Layout) {
-			failures = append(failures, fmt.Sprintf("%s: ID %d: Korean layout changes semantic/control text; only layout boundaries may replace semantic whitespace", bank.Name, source.ID))
-			continue
-		}
-		records[index], err = projection.MaterializeKorean(replacement.Layout, true, mapping)
-		if err != nil {
-			failures = append(failures, fmt.Sprintf("%s: ID %d Korean layout: %v", bank.Name, source.ID, err))
+		records[index] = materialized
+		if koreanForensicWatchID(source.ID) {
+			fmt.Println(koreanForensicLine(source.ID, replacement, materialized))
 		}
 	}
 	if len(matched) != len(replacements) {
