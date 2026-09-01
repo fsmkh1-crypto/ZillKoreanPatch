@@ -22,6 +22,7 @@ english_validate = read("internal/layout/validate.go")
 english_engine = read("internal/layout/engine.go")
 korean_validate = read("internal/layout/validate_korean_english_contract.go")
 korean_c5 = read("internal/layout/validate_korean.go")
+korean_storage_wrap = read("internal/layout/korean_semantic_wrap.go")
 korean_visual = read("internal/layout/validate_korean_visual.go")
 korean_warnings = read("internal/layout/validate_korean_warnings.go")
 english_compile = read("internal/message/compile.go")
@@ -70,6 +71,24 @@ rule_constants = set(rule_constant_re.findall(rules))
 english_constants = {n for n in rule_constants if re.search(r"\b" + re.escape(n) + r"\b", english_validate)}
 korean_constants = {n for n in rule_constants if re.search(r"\b" + re.escape(n) + r"\b", korean_validate) or re.search(r"\b" + re.escape(n) + r"\b", korean_c5)}
 require(not (english_constants - korean_constants), "Korean validation lost English capacity constants")
+
+# Korean-only adapters may differ in renderer measurement, but shared policy
+# mechanics must not fork per consumer. C5/scanner and C22 use one 14/18-rune
+# storage state machine with mode-only whitespace differences. Hard profile and
+# warning audits use one projection/fallback visual-metric path.
+require("func wrapKoreanRuneStorage(" in korean_storage_wrap,
+        "shared Korean storage wrap state machine disappeared")
+require("koreanStoragePreferredWrapRunes = 14" in korean_storage_wrap and
+        "koreanStorageHardWrapRunes      = 18" in korean_storage_wrap,
+        "shared Korean storage wrap thresholds drifted")
+require("return wrapKoreanRuneStorage(text, koreanStorageWrapMode{})" in korean_c5,
+        "C5/scanner path stopped using shared Korean storage wrapper")
+require("func appendKoreanC5Plain(" not in korean_c5,
+        "C5/scanner path reintroduced an independent storage wrap state machine")
+require("return e.koreanVisualMetrics(record, text, id, mapping" in korean_visual,
+        "hard Korean visual checks stopped using shared metric projection")
+require("return e.koreanVisualMetrics(record, text, id, mapping" in korean_warnings,
+        "Korean warning audit stopped using shared metric projection")
 
 # Upstream English Reflow has two hard character-profile visual conditions and
 # non-blocking warning families in engine.go. Korean must mirror both severity
@@ -201,6 +220,7 @@ print("english_consumers=" + ",".join(sorted(english_consumers)))
 print("korean_c5_split=" + ",".join(sorted(deliberate_split)))
 print("shared_capacity_constants=" + ",".join(sorted(english_constants)))
 print("visual_warning_parity=hard_profile_plus_upstream_warning_codes")
+print("korean_layout_adapters=shared_storage_wrapper,shared_visual_metrics")
 print("release_entrypoints=desktop_shared_chain,mobile_shared_prepare,preflight_shared_prepare")
 print("font_authentication=shared_zillfont_authority")
 print("slot_ownership=structured_cp932_fixed_renderer_evidence_api_enforced")
