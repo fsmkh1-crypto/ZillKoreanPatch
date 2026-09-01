@@ -21,15 +21,7 @@ type KoreanRecord struct {
 	Layout string
 }
 
-var characterChoiceBufferDiagnostic = map[int]string{
-	10016: "약점을 찾아 여러 방법 시도<end>",
-	10017: "힘을 믿고 정면 싸운다<end>",
-	10020: "초원의 아름다움 그림에 담는다<end>",
-	10025: "강인한 의지의 늠름한 표정<end>",
-	10026: "모든 것을 감싸는 온화한 표정<end>",
-	10034: "폭발적 파괴력을 내는 체력<end>",
-	10071: "물살을 거슬러 오르는 물고기<end>",
-}
+var characterChoiceBufferDiagnostic = map[int]string{}
 
 const opening210065SafeLayout = "광대한 대지 바이아시온 대륙.<line-break>너무나 넓어 지도에도 기록되지<line-break>않고 여행자에게조차 알려지지 않은<line-break>작은 마을이 있다…. 마을의 이름은<line-break>미이스. 그곳에는 작은 신전과 숲,<line-break>그리고 평온한 일상 정도뿐이었다.<line-break>위대한 혼의 이야기는<line-break>여기서 시작된다…….<end>"
 
