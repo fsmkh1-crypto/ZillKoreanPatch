@@ -102,19 +102,9 @@ func (e *Engine) AuditKoreanEnglishDialogueResiduals(source *corpus.Project, kor
 }
 
 func (e *Engine) wrapKoreanVisualToLimit(text string, id int, mapping koreanslots.Mapping, limit int) (string, error) {
-	pages := strings.Split(text, "<end>")
-	for pi, page := range pages {
-		paragraphs := strings.Split(page, lineBreak)
-		for i, paragraph := range paragraphs {
-			wrapped, err := e.wrapKoreanVisualParagraphToLimit(paragraph, id, mapping, limit)
-			if err != nil {
-				return "", err
-			}
-			paragraphs[i] = wrapped
-		}
-		pages[pi] = strings.Join(paragraphs, lineBreak)
-	}
-	return strings.Join(pages, "<end>"), nil
+	return wrapKoreanDelimitedParagraphs(text, func(paragraph string) (string, error) {
+		return e.wrapKoreanVisualParagraphToLimit(paragraph, id, mapping, limit)
+	})
 }
 
 type koreanVisualRun struct {
