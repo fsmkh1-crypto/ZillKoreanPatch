@@ -10,9 +10,9 @@ const (
 )
 
 type koreanStorageWrapMode struct {
-	protectInitialPlainRune       bool
-	protectAfterLineBreak         bool
-	preserveProtectedWhitespace   bool
+	protectInitialPlainRune     bool
+	protectAfterLineBreak       bool
+	preserveProtectedWhitespace bool
 }
 
 // wrapKoreanStoragePreservingControlAdjacency inserts conservative display
@@ -61,6 +61,26 @@ func wrapKoreanRuneStorage(text string, mode koreanStorageWrapMode) string {
 	}
 	appendKoreanStoragePlain(&out, text[cursor:], &lineRunes, protectNextPlainRune, mode.preserveProtectedWhitespace)
 	return out.String()
+}
+
+// wrapKoreanDelimitedParagraphs owns only the invariant semantic-container
+// traversal shared by Korean visual wrappers: <end> separates pages and an
+// existing <line-break> separates authored paragraphs. The supplied callback
+// retains complete ownership of each consumer's actual line-breaking policy.
+func wrapKoreanDelimitedParagraphs(text string, wrap func(string) (string, error)) (string, error) {
+	pages := strings.Split(text, "<end>")
+	for pageIndex, page := range pages {
+		paragraphs := strings.Split(page, lineBreak)
+		for paragraphIndex, paragraph := range paragraphs {
+			wrapped, err := wrap(paragraph)
+			if err != nil {
+				return "", err
+			}
+			paragraphs[paragraphIndex] = wrapped
+		}
+		pages[pageIndex] = strings.Join(paragraphs, lineBreak)
+	}
+	return strings.Join(pages, "<end>"), nil
 }
 
 // stripDerivedValueAdjacencyBreaks is deliberately narrow. C5 runs before C22
