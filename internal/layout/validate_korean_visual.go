@@ -80,6 +80,14 @@ func (e *Engine) ValidateKoreanEnglishVisualContracts(source *corpus.Project, ko
 }
 
 func (e *Engine) koreanProfileMetrics(record corpus.Record, text string, id int, mapping koreanslots.Mapping) (int, int, error) {
+	return e.koreanVisualMetrics(record, text, id, mapping, fmt.Sprintf("character-profile message %d projection", id))
+}
+
+// koreanVisualMetrics is the single Korean projection/fallback path for visual
+// width and vertical metrics. Callers may retain context-specific error labels,
+// but projection, renderer measurement and repository-only fallback semantics
+// must not diverge between hard profile checks and warning-level audits.
+func (e *Engine) koreanVisualMetrics(record corpus.Record, text string, id int, mapping koreanslots.Mapping, projectionError string) (int, int, error) {
 	projection, err := message.Project(record)
 	if err == nil {
 		width, err := e.maxProjectedKoreanWidth(projection, text, id, mapping)
@@ -91,7 +99,7 @@ func (e *Engine) koreanProfileMetrics(record corpus.Record, text string, id int,
 	if len(record.Raw) == 0 {
 		return e.measureKoreanProfileText(text, id, mapping)
 	}
-	return 0, 0, fmt.Errorf("character-profile message %d projection: %w", id, err)
+	return 0, 0, fmt.Errorf("%s: %w", projectionError, err)
 }
 
 // measureKoreanRenderer follows the produced Korean PAF rather than nominal
