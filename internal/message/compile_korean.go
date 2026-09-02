@@ -4,6 +4,7 @@
 package message
 
 import (
+	"bytes"
 	"fmt"
 	"math"
 	"sort"
@@ -24,6 +25,23 @@ type KoreanRecord struct {
 var characterChoiceBufferDiagnostic = map[int]string{}
 
 const opening210065SafeLayout = "광대한 대지 바이아시온 대륙.<line-break>너무나 넓어 지도에도 기록되지<line-break>않고 여행자에게조차 알려지지 않은<line-break>작은 마을이 있다…. 마을의 이름은<line-break>미이스. 그곳에는 작은 신전과 숲,<line-break>그리고 평온한 일상 정도뿐이었다.<line-break>위대한 혼의 이야기는<line-break>여기서 시작된다…….<end>"
+
+func koreanDialogueForensicWatch(id int) bool {
+	return id >= 640001 && id <= 640012
+}
+
+func koreanDialogueForensicMaterializationLine(id int, replacement KoreanRecord, materialized []byte) string {
+	selected := replacement.Text
+	breaks := 0
+	if replacement.Layout != "" {
+		selected = replacement.Layout
+		breaks = strings.Count(replacement.Layout, lineBreak)
+	}
+	return fmt.Sprintf(
+		"FORENSIC_DIALOGUE id=%d canonical=%q selected_layout=%q derived_breaks=%d materialized_0A=%d",
+		id, replacement.Text, selected, breaks, bytes.Count(materialized, []byte{0x0A}),
+	)
+}
 
 // CompileBankKorean compiles only explicitly supplied Korean replacements and
 // copies every other retail record unchanged. Semantic Korean must be layout-free;
@@ -68,6 +86,9 @@ func CompileBankKorean(bank corpus.Bank, items []corpus.Item, replacements map[i
 			continue
 		}
 		records[index] = materialized
+		if koreanDialogueForensicWatch(source.ID) {
+			fmt.Println(koreanDialogueForensicMaterializationLine(source.ID, replacement, materialized))
+		}
 	}
 	if len(matched) != len(replacements) {
 		unmatched := make([]int, 0, len(replacements)-len(matched))
