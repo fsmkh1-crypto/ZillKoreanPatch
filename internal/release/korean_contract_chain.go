@@ -5,6 +5,7 @@ package release
 import (
 	"fmt"
 	"sort"
+	"strings"
 
 	"github.com/HK47196/zill/internal/corpus"
 	"github.com/HK47196/zill/internal/koreanslots"
@@ -21,6 +22,24 @@ type koreanEnglishContractChain struct {
 	DerivedScanner  int
 	Warnings        []layout.Warning
 	DynamicC5       []int
+}
+
+func logKoreanDialogueForensicStage(stage string, korean *corpus.KoreanProject, layouts map[int]string) {
+	if korean == nil {
+		return
+	}
+	for _, row := range korean.Entries {
+		if row.ID < 640001 || row.ID > 640012 {
+			continue
+		}
+		selected := row.Korean
+		layout, present := layouts[row.ID]
+		if present {
+			selected = layout
+		}
+		fmt.Printf("FORENSIC_DIALOGUE_STAGE stage=%s id=%d canonical=%q selected_layout=%q layout_present=%t line_breaks=%d\n",
+			stage, row.ID, row.Korean, selected, present, strings.Count(selected, "<line-break>"))
+	}
 }
 
 // runKoreanEnglishContractChain is the single production contract path shared by
@@ -54,10 +73,12 @@ func runKoreanEnglishContractChain(root, entrypoint string, source *corpus.Proje
 	if err != nil {
 		return out, err
 	}
+	logKoreanDialogueForensicStage("pre_dialogue", korean, layouts)
 	layouts, out.DerivedDialogue, err = engine.DeriveKoreanEnglishDialogueLayouts(source, korean, layouts, mapping)
 	if err != nil {
 		return out, err
 	}
+	logKoreanDialogueForensicStage("post_dialogue", korean, layouts)
 	layouts, out.DerivedVisual, err = engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, mapping)
 	if err != nil {
 		return out, err
@@ -66,6 +87,7 @@ func runKoreanEnglishContractChain(root, entrypoint string, source *corpus.Proje
 	if err != nil {
 		return out, err
 	}
+	logKoreanDialogueForensicStage("final_contract", korean, layouts)
 
 	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, mapping); err != nil {
 		return out, err
