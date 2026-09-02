@@ -1,0 +1,145 @@
+name: Android Korean U6 640003 forensic
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - forensic/u6-640003
+    paths:
+      - 'android-patcher/**'
+      - 'translations/korean/**'
+      - 'release/korean/**'
+      - 'release/font/**'
+      - 'release/layout/**'
+      - 'docs/audit/fixtures/pr14-eboot-h0.toml'
+      - 'docs/audit/fixtures/pr14-eboot-full.toml'
+      - 'cmd/zill/**'
+      - 'internal/**'
+      - 'patches/executable/**'
+      - 'patches/system/**'
+      - '.github/workflows/android-korean-u6-640003-forensic.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK platform
+        shell: bash
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+
+      - name: Prepare embedded Korean patch project data
+        shell: bash
+        run: |
+          set -euxo pipefail
+          ROOT=android-patcher/app/src/main/assets/zillroot
+          rm -rf "$ROOT"
+          mkdir -p \
+            "$ROOT/release/strings" \
+            "$ROOT/release/font" \
+            "$ROOT/release/korean/font" \
+            "$ROOT/release/korean/strings" \
+            "$ROOT/release/layout" \
+            "$ROOT/docs/audit/fixtures" \
+            "$ROOT/patches/executable" \
+            "$ROOT/patches/system"
+          cp -R translations "$ROOT/translations"
+          cp release/strings/eboot.toml release/strings/equipment.toml "$ROOT/release/strings/"
+          cp release/font/metrics.toml release/font/manifest.toml "$ROOT/release/font/"
+          cp release/korean/font/glyphs.toml "$ROOT/release/korean/font/"
+          cp release/korean/strings/eboot.toml "$ROOT/release/korean/strings/"
+          cp -R release/layout/. "$ROOT/release/layout/"
+          cp docs/audit/fixtures/pr14-eboot-h0.toml docs/audit/fixtures/pr14-eboot-full.toml "$ROOT/docs/audit/fixtures/"
+          cp patches/executable/manifest.toml "$ROOT/patches/executable/"
+          cp patches/system/param-sfo.toml "$ROOT/patches/system/"
+          printf '%s\n' "$GITHUB_SHA" > "$ROOT/payload-version.txt"
+          (
+            cd "$ROOT"
+            find . -type f ! -name 'payload-manifest.sha256' -print0 \
+              | sort -z \
+              | xargs -0 sha256sum > payload-manifest.sha256
+            sha256sum -c payload-manifest.sha256
+          )
+
+      - name: Build arm64 Korean patch builder
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p android-patcher/app/src/main/jniLibs/arm64-v8a
+          CGO_ENABLED=0 GOOS=android GOARCH=arm64 go build -trimpath -buildmode=pie \
+            -o android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so ./cmd/zill
+          chmod 0755 android-patcher/app/src/main/jniLibs/arm64-v8a/libzill.so
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Go tests
+        run: go test ./...
+
+      - name: Korean English-consumer census
+        shell: bash
+        run: |
+          set -euxo pipefail
+          go test ./internal/release \
+            -run '^TestCurrentKoreanCorpusEnglishConsumerStorageContracts$' \
+            -count=1 -v | tee consumer-storage-full-corpus-audit.txt
+          grep -q 'canonical=42016 checked=42016' consumer-storage-full-corpus-audit.txt
+          grep -q 'KOREAN_DIALOGUE_REFLOW_SUMMARY' consumer-storage-full-corpus-audit.txt
+          grep -q 'residual_overflow=0 scope=verified_narrow_text' consumer-storage-full-corpus-audit.txt
+          grep -q 'contracts=PASS' consumer-storage-full-corpus-audit.txt
+          grep -q 'visual=PASS' consumer-storage-full-corpus-audit.txt
+
+      - name: Android unit tests
+        run: gradle -p android-patcher :app:testDebugUnitTest --no-daemon --stacktrace
+
+      - name: Build debug APK
+        run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
+
+      - name: Verify diagnostic APK payload
+        shell: bash
+        run: |
+          set -euxo pipefail
+          APK=android-patcher/app/build/outputs/apk/debug/app-debug.apk
+          AAPT="$ANDROID_HOME/build-tools/35.0.0/aapt"
+          "$AAPT" dump badging "$APK" | tee /tmp/apk-badging.txt
+          grep -q "launchable-activity: name='com.fsmkh1.zillfontdump.MainActivity'" /tmp/apk-badging.txt
+          unzip -l "$APK" > /tmp/apk-list.txt
+          grep -q 'lib/arm64-v8a/libzill.so' /tmp/apk-list.txt
+          grep -q 'assets/zillroot/translations/korean/messages/' /tmp/apk-list.txt
+          grep -q 'assets/zillroot/release/layout/consumer-map.toml' /tmp/apk-list.txt
+          grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
+          unzip -p "$APK" assets/zillroot/payload-version.txt | grep -Fx "$GITHUB_SHA"
+          rm -rf /tmp/apk-payload && mkdir -p /tmp/apk-payload
+          unzip -q "$APK" 'assets/zillroot/*' -d /tmp/apk-payload
+          (
+            cd /tmp/apk-payload/assets/zillroot
+            sha256sum -c payload-manifest.sha256
+          )
+          sha256sum "$APK" | tee "$APK.sha256"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zill-korean-u6-640003-forensic
+          path: |
+            android-patcher/app/build/outputs/apk/debug/app-debug.apk
+            android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
+            consumer-storage-full-corpus-audit.txt
+          if-no-files-found: error
