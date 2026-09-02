@@ -12,12 +12,32 @@ import (
 	"github.com/HK47196/zill/internal/message"
 )
 
+func koreanDialogueRuntimeSubstitution(id int, text string) bool {
+	return valueTag.MatchString(text) ||
+		(formatSignatureID(id) && printfConversion.MatchString(visible(text)))
+}
+
+// koreanEnglishDialogueVisualConsumer mirrors the upstream English visual
+// reflow population. Existing narrow_text behavior remains unchanged. C5 and
+// C5-portrait records have explicit dialogue advance limits too, but newly
+// admitted C5-only records are statically reflowed only when their canonical
+// Korean has no runtime substitution whose final width is unknowable here.
+func (e *Engine) koreanEnglishDialogueVisualConsumer(id int, semantic string) bool {
+	if e.narrowText(id) {
+		return true
+	}
+	if !e.has(e.consumers.C5IDs, id) && !e.has(e.consumers.C5PortraitIDs, id) {
+		return false
+	}
+	return !koreanDialogueRuntimeSubstitution(id, semantic)
+}
+
 // DeriveKoreanEnglishDialogueLayouts mirrors the upstream English Reflow path
-// for verified narrow dialogue/in-world-guidance records. Korean previously
-// mirrored only the warning emitted after English reflow, which allowed an
-// unbroken Korean line to reach the device even though English would have
-// inserted layout breaks first. Canonical Korean is never rewritten: derived
-// breaks live only in the build-local layout map.
+// for verified narrow dialogue/in-world-guidance and authenticated static C5
+// dialogue consumers. Korean previously mirrored only narrow_text, which
+// allowed C5 and C5-portrait Korean lines to reach the device unbroken even
+// though English applies their explicit advance limits. Canonical Korean is
+// never rewritten: derived breaks live only in the build-local layout map.
 func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) (map[int]string, int, error) {
 	if source == nil || korean == nil {
 		return nil, 0, fmt.Errorf("Korean English dialogue derivation: nil project")
@@ -31,9 +51,7 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 	}
 	count := 0
 	for _, row := range korean.Entries {
-		// narrowText is inherited from upstream English category data and is
-		// deliberately restricted to verified dialogue/in-world-guidance ranges.
-		if !e.narrowText(row.ID) || row.Layout != "" {
+		if !e.koreanEnglishDialogueVisualConsumer(row.ID, row.Korean) || row.Layout != "" {
 			continue
 		}
 		item, ok := source.Find(row.ID)
@@ -71,7 +89,7 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 
 // AuditKoreanEnglishDialogueResiduals hard-checks the exact record population
 // owned by DeriveKoreanEnglishDialogueLayouts after derivation. It deliberately
-// mirrors the derivation eligibility predicate instead of widening U5's scope to
+// mirrors the derivation eligibility predicate instead of widening scope to
 // unrelated authoring warnings whose actual consumer contract is not proven.
 func (e *Engine) AuditKoreanEnglishDialogueResiduals(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) (checked int, overflowIDs []int, err error) {
 	if source == nil || korean == nil {
@@ -81,7 +99,7 @@ func (e *Engine) AuditKoreanEnglishDialogueResiduals(source *corpus.Project, kor
 		return 0, nil, fmt.Errorf("Korean English dialogue residual audit: empty renderer mapping")
 	}
 	for _, row := range korean.Entries {
-		if !e.narrowText(row.ID) || row.Layout != "" {
+		if !e.koreanEnglishDialogueVisualConsumer(row.ID, row.Korean) || row.Layout != "" {
 			continue
 		}
 		item, ok := source.Find(row.ID)
