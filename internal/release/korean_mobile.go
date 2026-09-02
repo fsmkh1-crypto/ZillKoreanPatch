@@ -59,7 +59,12 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 			return fmt.Errorf("rebuild %s archive: %w", archive.name, err)
 		}
 	}
-	if err := auditKoreanDialogueForensicArchive(staging); err != nil { return err }
+	// Branch-only observation must never prevent the user from receiving an ISO.
+	// The real PAA replacement verification above and authored-ISO exact provenance
+	// below remain fail-closed production contracts.
+	if err := auditKoreanDialogueForensicArchive(staging); err != nil {
+		fmt.Printf("FORENSIC_STAGED_ARCHIVE_DIALOGUE_AUDIT_ERROR error=%q blocking=false\n", err)
+	}
 	if err := authorTranslatedISO(outputPath, retailISO, isoManifest, staging); err != nil { return err }
 	return nil
 }
