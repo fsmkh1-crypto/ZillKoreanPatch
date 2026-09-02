@@ -59,6 +59,7 @@ func BuildKoreanAlphaISOOnly(root, gameDir, isoPath, outputPath, version string,
 			return fmt.Errorf("rebuild %s archive: %w", archive.name, err)
 		}
 	}
+	if err := auditKoreanDialogueForensicArchive(staging); err != nil { return err }
 	if err := authorTranslatedISO(outputPath, retailISO, isoManifest, staging); err != nil { return err }
 	return nil
 }
