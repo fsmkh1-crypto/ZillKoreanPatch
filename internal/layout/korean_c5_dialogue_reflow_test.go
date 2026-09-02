@@ -53,7 +53,7 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 		if !engine.has(engine.consumers.C5IDs, id) && !engine.has(engine.consumers.C5PortraitIDs, id) {
 			t.Fatalf("message %d lacks authenticated C5 consumer classification", id)
 		}
-		if !engine.koreanEnglishDialogueVisualConsumer(id) {
+		if !engine.koreanEnglishDialogueVisualConsumer(id, row.Korean) {
 			t.Fatalf("message %d is not eligible for Korean dialogue visual reflow", id)
 		}
 		mini.Entries = append(mini.Entries, row)
@@ -88,5 +88,42 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 		if width > engine.advanceLimit(id) {
 			t.Fatalf("message %d remains over width after reflow: %d > %d", id, width, engine.advanceLimit(id))
 		}
+	}
+
+	const dynamicID = 560650
+	dynamic, ok := korean.Find(dynamicID)
+	if !ok {
+		t.Fatalf("missing Korean row %d", dynamicID)
+	}
+	if engine.narrowText(dynamicID) {
+		t.Fatalf("message %d unexpectedly belongs to narrow_text; regression must cover newly admitted C5 scope", dynamicID)
+	}
+	if !engine.has(engine.consumers.C5IDs, dynamicID) && !engine.has(engine.consumers.C5PortraitIDs, dynamicID) {
+		t.Fatalf("message %d lacks authenticated C5 consumer classification", dynamicID)
+	}
+	if !valueTag.MatchString(dynamic.Korean) {
+		t.Fatalf("message %d fixture no longer contains runtime value substitution: %q", dynamicID, dynamic.Korean)
+	}
+	if engine.koreanEnglishDialogueVisualConsumer(dynamicID, dynamic.Korean) {
+		t.Fatalf("message %d dynamic C5 dialogue must stay outside static reflow", dynamicID)
+	}
+
+	dynamicMini := &corpus.KoreanProject{Entries: []corpus.KoreanEntry{dynamic}}
+	dynamicLayouts, dynamicDerived, err := engine.DeriveKoreanEnglishDialogueLayouts(source, dynamicMini, nil, mapping)
+	if err != nil {
+		t.Fatalf("derive dynamic C5 message %d: %v", dynamicID, err)
+	}
+	if dynamicDerived != 0 {
+		t.Fatalf("dynamic C5 message %d derived=%d, want 0", dynamicID, dynamicDerived)
+	}
+	if _, exists := dynamicLayouts[dynamicID]; exists {
+		t.Fatalf("dynamic C5 message %d unexpectedly received a static layout", dynamicID)
+	}
+	checked, overflowIDs, err := engine.AuditKoreanEnglishDialogueResiduals(source, dynamicMini, dynamicLayouts, mapping)
+	if err != nil {
+		t.Fatalf("audit dynamic C5 message %d: %v", dynamicID, err)
+	}
+	if checked != 0 || len(overflowIDs) != 0 {
+		t.Fatalf("dynamic C5 message %d residual audit checked=%d overflows=%v, want excluded", dynamicID, checked, overflowIDs)
 	}
 }
