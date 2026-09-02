@@ -9,6 +9,7 @@ import android.provider.DocumentsContract;
 import android.view.Gravity;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
@@ -27,6 +28,7 @@ import java.util.concurrent.Executors;
 public final class MainActivity extends Activity {
     private static final int PICK_ISO = 1001;
     private static final int CREATE_PATCHED_ISO = 1002;
+    private static final String FORENSIC_PREFIX = "FORENSIC_DIALOGUE ";
 
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
     private TextView status;
@@ -51,7 +53,7 @@ public final class MainActivity extends Activity {
         root.addView(title, new LinearLayout.LayoutParams(-1, -2));
 
         TextView info = new TextView(this);
-        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본 42,016건과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n첫 실행할 때는 내장 한국어 데이터 파일을 앱 내부 작업공간에 준비합니다.");
+        info.setText("대상: 일본판 ULJM-05410 v1.03\n검수된 한국어 정본 42,016건과 현재 한글 폰트/실행파일 패치를 사용합니다.\n원본 ISO는 읽기 전용으로만 사용하며 새 ISO를 별도로 생성합니다.\n작업 중 내부 임시 추출과 ISO 재생성이 필요하므로 여유 공간 3GB 이상을 권장합니다.\n첫 실행할 때는 내장 한국어 데이터 파일을 앱 내부 작업공간에 준비합니다.\n이번 진단판은 대사 640001~640012의 최종 materialization 로그를 빌드 완료 화면에 남깁니다.");
         info.setTextSize(15);
         LinearLayout.LayoutParams infoParams = new LinearLayout.LayoutParams(-1, -2);
         infoParams.topMargin = pad / 2;
@@ -75,11 +77,14 @@ public final class MainActivity extends Activity {
         status = new TextView(this);
         status.setText("대기 중");
         status.setTextSize(15);
+        status.setTextIsSelectable(true);
         LinearLayout.LayoutParams statusParams = new LinearLayout.LayoutParams(-1, -2);
         statusParams.topMargin = pad;
         root.addView(status, statusParams);
 
-        setContentView(root);
+        ScrollView scroll = new ScrollView(this);
+        scroll.addView(root);
+        setContentView(scroll);
     }
 
     private void pickIso() {
@@ -174,16 +179,21 @@ public final class MainActivity extends Activity {
                         "--iso", source.getAbsolutePath(),
                         "--out", output.getAbsolutePath(),
                         "--work-dir", work.getAbsolutePath(),
-                        "--version", "mobile-beta-0.9.8");
+                        "--version", "mobile-beta-0.9.8-forensic640");
                 builder.directory(rootDir);
                 builder.redirectErrorStream(true);
                 Process process = builder.start();
                 Deque<String> tail = new ArrayDeque<>();
+                StringBuilder forensic = new StringBuilder();
                 try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
                     String line;
                     while ((line = reader.readLine()) != null) {
                         if (tail.size() == 12) tail.removeFirst();
                         tail.addLast(line);
+                        if (line.startsWith(FORENSIC_PREFIX)) {
+                            if (forensic.length() > 0) forensic.append('\n');
+                            forensic.append(line);
+                        }
                         updateStatus(line);
                     }
                 }
@@ -198,8 +208,13 @@ public final class MainActivity extends Activity {
                 updateStatus("완성 ISO를 선택한 위치로 저장 중…");
                 copyFileToUri(output, outputUri);
                 success = true;
+                final String forensicText = forensic.toString();
                 runOnUiThread(() -> setBusy(false,
-                        "완료. 생성된 Korean Beta ISO를 PPSSPP에서 실행해 주세요. 실제 화면의 줄바꿈·잘림·폰트는 이번 베타에서 확인합니다."));
+                        "완료. 생성된 Korean Beta ISO를 PPSSPP에서 실행해 주세요.\n"
+                                + "이번 진단판은 번역/reflow 동작을 바꾸지 않고 640001~640012만 추적합니다.\n\n"
+                                + (forensicText.isEmpty()
+                                ? "진단 로그: FORENSIC_DIALOGUE 출력이 없습니다."
+                                : "진단 로그 (길게 눌러 복사 가능):\n" + forensicText)));
             } catch (Exception e) {
                 final String error = message(e);
                 runOnUiThread(() -> setBusy(false, "패치 실패: " + error));
