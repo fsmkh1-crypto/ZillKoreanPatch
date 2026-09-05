@@ -6,6 +6,7 @@ on:
     branches:
       - release/a054-inline-span-rc
       - audit/english-first-full-parity-restart
+      - fix/u6-korean-reflow-parity
     paths:
       - 'android-patcher/**'
       - 'translations/korean/**'
