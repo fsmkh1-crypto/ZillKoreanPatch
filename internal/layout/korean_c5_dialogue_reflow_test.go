@@ -90,6 +90,49 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 		}
 	}
 
+	const fixedControlID = 280181
+	fixedControl, ok := korean.Find(fixedControlID)
+	if !ok {
+		t.Fatalf("missing Korean row %d", fixedControlID)
+	}
+	if !strings.Contains(strings.ToUpper(fixedControl.Korean), "<VALUE:$20>") {
+		t.Fatalf("message %d fixture no longer contains fixed select value control: %q", fixedControlID, fixedControl.Korean)
+	}
+	if koreanDialogueRuntimeSubstitution(fixedControlID, fixedControl.Korean) {
+		t.Fatalf("message %d fixed $20 select control was misclassified as a runtime-width substitution", fixedControlID)
+	}
+	if !engine.koreanEnglishDialogueVisualConsumer(fixedControlID, fixedControl.Korean) {
+		t.Fatalf("message %d fixed-control C5 dialogue must be eligible for static reflow", fixedControlID)
+	}
+	for _, r := range fixedControl.Korean {
+		if r > 0x7f {
+			mapping[r] = cp932.GlyphKey(0xAC82)
+		}
+	}
+	fixedMini := &corpus.KoreanProject{Entries: []corpus.KoreanEntry{fixedControl}}
+	fixedLayouts, fixedDerived, err := engine.DeriveKoreanEnglishDialogueLayouts(source, fixedMini, nil, mapping)
+	if err != nil {
+		t.Fatalf("derive fixed-control C5 message %d: %v", fixedControlID, err)
+	}
+	if fixedDerived != 1 {
+		t.Fatalf("fixed-control C5 message %d derived=%d, want 1", fixedControlID, fixedDerived)
+	}
+	fixedLayout := fixedLayouts[fixedControlID]
+	if fixedLayout == "" || !strings.Contains(fixedLayout, lineBreak) {
+		t.Fatalf("fixed-control C5 message %d did not receive a line break: %q", fixedControlID, fixedLayout)
+	}
+	if !message.PreservesLayoutSemantics(fixedControl.Korean, fixedLayout) {
+		t.Fatalf("fixed-control C5 message %d derived layout changes canonical semantics: %q", fixedControlID, fixedLayout)
+	}
+	fixedItem, _ := source.Find(fixedControlID)
+	fixedWidth, _, err := engine.koreanWarningMetrics(fixedItem.Record, fixedLayout, fixedControlID, mapping)
+	if err != nil {
+		t.Fatalf("fixed-control C5 message %d width check: %v", fixedControlID, err)
+	}
+	if fixedWidth > engine.advanceLimit(fixedControlID) {
+		t.Fatalf("fixed-control C5 message %d remains over width after reflow: %d > %d", fixedControlID, fixedWidth, engine.advanceLimit(fixedControlID))
+	}
+
 	const dynamicID = 560650
 	dynamic, ok := korean.Find(dynamicID)
 	if !ok {
