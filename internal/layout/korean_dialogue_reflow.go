@@ -67,7 +67,25 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 		if width <= limit {
 			continue
 		}
-		candidate, err := e.wrapKoreanVisualToLimit(effective, row.ID, mapping, limit)
+
+		var candidate string
+		if koreanDialogueRuntimeSubstitution(row.ID, effective) {
+			// Existing narrow_text records with runtime substitutions keep the
+			// established adjacency-safe wrapper. Newly admitted C5-only dynamic
+			// records are excluded by koreanEnglishDialogueVisualConsumer above.
+			candidate, err = e.wrapKoreanVisualToLimit(effective, row.ID, mapping, limit)
+		} else {
+			projection, projectionErr := message.Project(item.Record)
+			if projectionErr != nil {
+				return nil, 0, fmt.Errorf("message %d Korean dialogue projection: %w", row.ID, projectionErr)
+			}
+			candidate, err = e.koreanSourceAware(projection, effective, limit, row.ID, mapping)
+			if err == nil && candidate == "" {
+				// Match upstream Reflow: an impossible preferred/greedy derivation
+				// falls back to semantic text and is then rejected by the width audit.
+				candidate = effective
+			}
+		}
 		if err != nil {
 			return nil, 0, err
 		}
