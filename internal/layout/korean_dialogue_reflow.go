@@ -76,10 +76,22 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 			candidate, err = e.wrapKoreanVisualToLimit(effective, row.ID, mapping, limit)
 		} else {
 			projection, projectionErr := message.Project(item.Record)
-			if projectionErr != nil {
+			switch {
+			case projectionErr == nil:
+				// Authenticated retail builds take the exact same token-derived
+				// SourceLayout path as upstream English Reflow.
+				candidate, err = e.koreanSourceAware(projection, effective, limit, row.ID, mapping)
+			case len(item.Record.Raw) == 0:
+				// Repository checks intentionally run before BindBanks and therefore
+				// have only the canonical Japanese annotated source. Preserve that
+				// asset-free mode, but still feed its source break hints into the
+				// same preferred -> greedy scorer used by the retail path.
+				candidate, err = e.koreanRepositorySourceAware(effective, row.Japanese, limit, row.ID, mapping)
+			default:
+				// Once retail bytes exist, a projection failure is real evidence of
+				// contract drift and must never be hidden by the repository fallback.
 				return nil, 0, fmt.Errorf("message %d Korean dialogue projection: %w", row.ID, projectionErr)
 			}
-			candidate, err = e.koreanSourceAware(projection, effective, limit, row.ID, mapping)
 			if err == nil && candidate == "" {
 				// Match upstream Reflow: an impossible preferred/greedy derivation
 				// falls back to semantic text and is then rejected by the width audit.
