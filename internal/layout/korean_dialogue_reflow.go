@@ -12,9 +12,30 @@ import (
 	"github.com/HK47196/zill/internal/message"
 )
 
+// Keep this set aligned with message.Project's pureMovable and callerMovable
+// substitutions. Other <value:$XX> tokens are fixed source controls; notably
+// $20 is the select-count control used by records such as 280181 and must not
+// make an otherwise static dialogue record opt out of source-aware reflow.
+var koreanDialogueMovableValueTags = map[string]bool{
+	"<VALUE:$15>": true,
+	"<VALUE:$16>": true,
+	"<VALUE:$17>": true,
+	"<VALUE:$1A>": true,
+	"<VALUE:$1B>": true,
+	"<VALUE:$24>": true,
+	"<VALUE:$25>": true,
+	"<VALUE:$28>": true,
+	"<VALUE:$2B>": true,
+}
+
 func koreanDialogueRuntimeSubstitution(id int, text string) bool {
-	return valueTag.MatchString(text) ||
-		(formatSignatureID(id) && printfConversion.MatchString(visible(text)))
+	upper := strings.ToUpper(text)
+	for tag := range koreanDialogueMovableValueTags {
+		if strings.Contains(upper, tag) {
+			return true
+		}
+	}
+	return formatSignatureID(id) && printfConversion.MatchString(visible(text))
 }
 
 // koreanEnglishDialogueVisualConsumer mirrors the upstream English visual
