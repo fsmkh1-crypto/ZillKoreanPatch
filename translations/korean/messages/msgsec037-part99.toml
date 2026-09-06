@@ -86,7 +86,7 @@ korean = "아, 돌아오는 길엔 손님이 한 명 늘어서 말이야. 메이
 
 ["370021"]
 japanese = "おう。確かに、俺は船に他人を　　　<line-break>乗せるのは好きじゃねえ。<line-break>メイアを乗っけたのは…、ええと…、<line-break>…知らねえよ！<line-break>とにかく、そういう気分だったんだ！<end>"
-korean = "그래. 확실히 나는 배에 다른 사람을 태우는 걸 좋아하지 않아. 메이아를 태운 건…, 음…,…나도 몰라! 아무튼 그런 기분이었어!<end>"
+korean = "그래. 확실히 나는 배에 다른 사람을 태우는 걸 좋아하지 않아. 메이아를 태운 건…, 음…, …나도 몰라! 아무튼 그런 기분이었어!<end>"
 
 ["370022"]
 japanese = "あのメイアって娘を港で見かけたって？<line-break>だから、なんなのよ。<line-break>そんなに気になるんなら、<line-break>話しかけてきたら？<end>"
@@ -538,7 +538,7 @@ korean = "아침부터 손님이 많네. 들어와. 열려 있어.<end>"
 
 ["370135"]
 japanese = "テレジアさん、大変だ。<line-break>竜の座の連中が、<line-break>兵隊を連れて、どやし込んで来た。<end>"
-korean = "테레지아 씨, 큰일이야. 용의 좌 녀석들이,병사들을 끌고 몰려왔어.<end>"
+korean = "테레지아 씨, 큰일이야. 용의 좌 녀석들이, 병사들을 끌고 몰려왔어.<end>"
 
 ["370136"]
 japanese = "<if><value:$29><equal>%0ユリアシュ、何をやらかしたんだ？<line-break>連中はお前を差し出せって、<line-break>えらい剣幕だ。<end>ユシュアル、何をやらかしたんだ？<line-break>連中はお前を差し出せって、<line-break>えらい剣幕だ。<end>"
@@ -586,7 +586,7 @@ korean = "<if><value:$29><equal>%0유리아슈!<end>유슈알!<end>"
 
 ["370147"]
 japanese = "<if><value:$29><equal>%0<value:$28>、<line-break>早くユリアシュをとめるんだ！<end><value:$28>！<line-break>早くユシュアルをとめるんだ！<end>"
-korean = "<if><value:$29><equal>%0<value:$28>,빨리 유리아슈를 막아!<end><value:$28>! 빨리 유슈알을 막아!<end>"
+korean = "<if><value:$29><equal>%0<value:$28>, 빨리 유리아슈를 막아!<end><value:$28>! 빨리 유슈알을 막아!<end>"
 
 ["370148"]
 japanese = "<if><value:$29><equal>%0愚かなるリア氏族のユリアシュが、<line-break>父マシュラウにならって反逆しおった。<line-break>竜の座の追い求めるくせ者を逃がし、<line-break>竜の座の女官たる<line-break>この私を侮辱したのじゃ！<end>愚かなるリア氏族のユシュアルが、<line-break>父マシュラウにならって反逆しおった。<line-break>竜の座の追い求めるくせ者を逃がし、<line-break>竜の座の女官たるこの私を<line-break>侮辱したのじゃ！<end>"
@@ -678,7 +678,7 @@ korean = "바보 자식.<end>"
 
 ["370170"]
 japanese = "<if><value:$29><equal>%0<value:$28>、ユリアシュ、<line-break>早く逃げるんだ。　　　　　　　<end><value:$28>、ユシュアル、<line-break>早く逃げるんだ。　　　　　　　<end>"
-korean = "<if><value:$29><equal>%0<value:$28>, 유리아슈,빨리 도망쳐.<end><value:$28>, 유슈알,빨리 도망쳐.<end>"
+korean = "<if><value:$29><equal>%0<value:$28>, 유리아슈, 빨리 도망쳐.<end><value:$28>, 유슈알, 빨리 도망쳐.<end>"
 
 ["370171"]
 japanese = "<if><value:$29><equal>%0ユリアシュよ、名乗り出よ！<line-break>さもないと、エルズがどうなるか！　<line-break>たわけた親が、エア様の怒りを買い、<line-break>一族皆殺しにされたそなたなら<line-break>身をもって知っておるはずじゃ。<end>ユシュアルよ、名乗り出よ！<line-break>さもないと、エルズがどうなるか！　<line-break>たわけた親が、エア様の怒りを買い、<line-break>一族皆殺しにされたそなたなら<line-break>身をもって知っておるはずじゃ。<end>"
@@ -754,7 +754,7 @@ korean = "누오호호호…! 간다.<end>"
 
 ["370190"]
 japanese = "<if><value:$29><equal>%0<value:$28>、<line-break>ユリアシュはどうしたんだい！？<end><value:$28>、<line-break>ユシュアルはどうしたんだい！？<end>"
-korean = "<if><value:$29><equal>%0<value:$28>,유리아슈는 어떻게 됐어!?<end><value:$28>,유슈알은 어떻게 됐어!?<end>"
+korean = "<if><value:$29><equal>%0<value:$28>, 유리아슈는 어떻게 됐어!?<end><value:$28>, 유슈알은 어떻게 됐어!?<end>"
 
 ["370192"]
 japanese = "お前はメイアって娘を<line-break>捜しに行かなくちゃならないよ。<end>"
@@ -830,7 +830,7 @@ korean = "물론 나의 명령을 그대가 거절할 수도 있다. 다만 나�
 
 ["370210"]
 japanese = "エルズの民を人質とし、<line-break>１人ずつ殺しながら<line-break>そなたの帰りを待つことにする。<end>"
-korean = "엘즈의 백성을 인질로 삼아,한 명씩 처단하면서네가 돌아오기를 기다리겠다.<end>"
+korean = "엘즈의 백성을 인질로 삼아, 한 명씩 처단하면서네가 돌아오기를 기다리겠다.<end>"
 
 ["370211"]
 japanese = "フフ、急げよ。<line-break>わらわも無用に殺しとうない。<end>"

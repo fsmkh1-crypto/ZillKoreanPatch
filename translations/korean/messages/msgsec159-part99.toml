@@ -698,7 +698,7 @@ korean = "루루안타는 건강하구나. 루루안타가 건강하면 나도 �
 
 ["1590175"]
 japanese = "<if><value:$29><equal>%0お兄ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>お姉ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>"
-korean = "<if><value:$29><equal>%0오빠도,루루안타가 건강하면 기뻐?<end>언니도,루루안타가 건강하면 기뻐?<end>"
+korean = "<if><value:$29><equal>%0오빠도, 루루안타가 건강하면 기뻐?<end>언니도, 루루안타가 건강하면 기뻐?<end>"
 
 ["1590176"]
 japanese = "<if><value:$29><equal>%0うふふ、じゃあ、ルルアンタ、<line-break>お兄ちゃんと一緒にいてあげるね。<line-break>　<line-break>お兄ちゃん、お名前は？<end>うふふ、じゃあ、ルルアンタ、<line-break>お姉ちゃんと一緒にいてあげるね。<line-break>　<line-break>お姉ちゃん、お名前は？<end>"
