@@ -11,16 +11,44 @@ SPEC.loader.exec_module(qa_layout_drift)
 
 
 class SemanticSpacingTests(unittest.TestCase):
-    def test_line_break_counts_as_semantic_space(self):
-        self.assertEqual(
-            qa_layout_drift.semantic_spacing_key("앞 문장 다음 문장<end>"),
-            qa_layout_drift.semantic_spacing_key("앞 문장<line-break>다음 문장<end>"),
+    def test_line_break_can_represent_semantic_space(self):
+        self.assertTrue(
+            qa_layout_drift.spacing_equivalent(
+                "앞 문장 다음 문장<end>",
+                "앞 문장<line-break>다음 문장<end>",
+            )
+        )
+
+    def test_line_break_can_split_inside_eojeol(self):
+        self.assertTrue(
+            qa_layout_drift.spacing_equivalent(
+                "반기는 모양이지만 전 황제는<end>",
+                "반기는 모양<line-break>이지만 전 황제는<end>",
+            )
         )
 
     def test_missing_space_after_comma_is_detected(self):
-        self.assertNotEqual(
-            qa_layout_drift.semantic_spacing_key("평온하게 살아갈 때, 다음을 고른다<end>"),
-            qa_layout_drift.semantic_spacing_key("평온하게 살아갈 때,다음을 고른다<end>"),
+        self.assertFalse(
+            qa_layout_drift.spacing_equivalent(
+                "평온하게 살아갈 때, 다음을 고른다<end>",
+                "평온하게 살아갈 때,다음을 고른다<end>",
+            )
+        )
+
+    def test_line_break_after_comma_satisfies_semantic_space(self):
+        self.assertTrue(
+            qa_layout_drift.spacing_equivalent(
+                "평온하게 살아갈 때, 다음을 고른다<end>",
+                "평온하게 살아갈 때,<line-break>다음을 고른다<end>",
+            )
+        )
+
+    def test_extra_regular_layout_space_is_detected(self):
+        self.assertFalse(
+            qa_layout_drift.spacing_equivalent(
+                "모양이지만<end>",
+                "모양 이지만<end>",
+            )
         )
 
 
@@ -85,6 +113,12 @@ class SyncLayoutContentTests(unittest.TestCase):
                 "앞<line-break>뒤<end>",
                 "앞<line-break>,뒤<end>",
             )
+
+    def test_postcondition_allows_preexisting_intentional_ellipsis_line_start(self):
+        qa_layout_drift.assert_layout_postconditions(
+            "앞<line-break>…하지만 뒤<end>",
+            "앞.<line-break>…하지만 뒤<end>",
+        )
 
     def test_postcondition_rejects_new_empty_display_line(self):
         with self.assertRaisesRegex(ValueError, "empty display line"):
