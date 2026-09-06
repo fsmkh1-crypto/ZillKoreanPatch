@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "purpose": "Beta1 contextual copyedit 008: repair fresh post-007 residual word-boundary collapses and source-confirmed Korean naturalness",
+  "source_head": "b5399972037faadcb8cf8cafcca1c47b35b32808",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "420138",
+      "paths": ["translations/korean/messages/msgsec042-part99.toml"],
+      "before_korean": "누나, 모처럼 여기까지 왔잖아. 모험가 등록하고 가자. 모험가 등록을 하려면카운터에 있는길드 아저씨에게 말을 걸면 돼.<end>",
+      "proposed_korean": "누나, 모처럼 여기까지 왔잖아. 모험가 등록하고 가자. 모험가 등록을 하려면 카운터에 있는 길드 아저씨에게 말을 걸면 돼.<end>",
+      "japanese": "姉ちゃん、せっかくここまで来たんだ。<line-break>冒険者登録していこうぜ。<line-break>　<line-break>冒険者登録をするためには<line-break>カウンターにいる<line-break>ギルドのおやじに話しかけるんだ。<end>",
+      "english": "Sis, we've come all this way, so let's register as adventurers while we're here. To sign up, we need to talk to the old guy from the Guild at the counter.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Fresh post-007 corpus shows two source-line-break joins collapsed: 하려면/카운터 and 있는/길드. JP and English confirm both word boundaries."
+    },
+    {
+      "id": "1900010",
+      "paths": ["translations/korean/messages/msgsec190-part99.toml"],
+      "before_korean": "후후후, <value:$28>가자기브의 마지막 희망이라는 거군. 주변에서 계속 미움받아 온 자기브에게,<value:$28>만이마음을 허락할 수 있는 사람이었던 거야.<end>",
+      "proposed_korean": "후후후, <value:$28>가 자기브의 마지막 희망이라는 거군. 주변에서 계속 미움받아 온 자기브에게 <value:$28>만이 마음을 열 수 있는 사람이었던 거야.<end>",
+      "japanese": "フフフ、<value:$28>が<line-break>ザギヴの最後の希望ってわけだね。　　<line-break>　<line-break>周囲から疎まれ続けたザギヴにとって、<line-break><value:$28>だけが<line-break>心を許せる人物だったんだ。<end>",
+      "english": "Heh heh... So <value:$28> is Zagiv's last hope. Shunned by everyone around her, Zagiv found only one person she could trust: <value:$28>.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing", "punctuation", "naturalness"],
+      "reason": "Restore three collapsed boundaries around the runtime name and remove an unnecessary Korean comma. JP 心を許せる and English 'one person she could trust' support natural Korean 마음을 열 수 있는 instead of literal 마음을 허락할 수 있는."
+    },
+    {
+      "id": "280157",
+      "paths": ["translations/korean/messages/msgsec028-part99.toml"],
+      "before_korean": "마을이 좀 소란스러워. 밖에 나가도 별로기분 좋진 않을 거야.<end>",
+      "proposed_korean": "마을이 좀 소란스러워. 밖에 나가도 별로 기분 좋진 않을 거야.<end>",
+      "japanese": "町はちょっとした騒ぎだ。<line-break>外に出ても、あまり<line-break>いい気分はしないだろうな。　<end>",
+      "english": "The town's in a bit of an uproar. You won't much like being out there.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the adverb-to-noun boundary 별로/기분; meaning and register remain unchanged."
+    },
+    {
+      "id": "1410186",
+      "paths": ["translations/korean/messages/msgsec141-part99.toml"],
+      "before_korean": "저, 저기, <value:$28> 님. 정말 저와 함께 가주셔도 괜찮은 건가요? 그게, 저는<value:$28> 님께폐를 끼치게 될 것 같아서….<end>",
+      "proposed_korean": "저, 저기, <value:$28> 님. 정말 저와 함께 가주셔도 괜찮은 건가요? 그게, 저는 <value:$28> 님께 폐를 끼치게 될 것 같아서….<end>",
+      "japanese": "あ、あの、<value:$28>さん。<line-break>本当に、わたしと一緒に行って<line-break>もらっていいんですか？<line-break>その、わたし<line-break><value:$28>さんに<line-break>迷惑かけちゃうだろうし…。<end>",
+      "english": "Oh, um, <value:$28>... Are you sure you don't mind taking me with you? I mean, I'll probably only cause you trouble, <value:$28>...<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore spacing on both sides of the runtime-name phrase at Japanese line-break joins while preserving the value control exactly."
+    },
+    {
+      "id": "1380413",
+      "paths": ["translations/korean/messages/msgsec138-part99.toml"],
+      "before_korean": "함께 여행할 동료를바꾸고 싶어지면, 이 고양이 저택으로 와 주세요.<end>",
+      "proposed_korean": "함께 여행할 동료를 바꾸고 싶어지면, 이 고양이 저택으로 와 주세요.<end>",
+      "japanese": "一緒に旅する仲間を<line-break>変更したくなったら、<line-break>この猫屋敷に来てください。<end>",
+      "english": "If you ever want to change the companions traveling with you, come to Cat Manor.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the object-to-verb boundary collapsed across the source line break."
+    },
+    {
+      "id": "1430112",
+      "paths": ["translations/korean/messages/msgsec143-part99.toml"],
+      "before_korean": "아름다운 섬이야. 고대 생물이 옛 모습 그대로살고 있어. 하지만 위험한 곳이지. 외부인을 가까이하지 않기에, 그 아름다움을 유지하는 거겠지.<end>",
+      "proposed_korean": "아름다운 섬이야. 고대 생물이 옛 모습 그대로 살고 있어. 하지만 위험한 곳이지. 외부인을 가까이하지 않기에 그 아름다움을 유지하는 거겠지.<end>",
+      "japanese": "美しい島よ。<line-break>古代の生物がそのままの姿で<line-break>生息しているの。<line-break>でも危険な所だわ。<line-break>外部の者を寄せ付けないからこそ、<line-break>あの美しさを保っているのね。<end>",
+      "english": "It's a beautiful island, where creatures from ancient times still live unchanged. But it's dangerous. I suppose it has kept its beauty precisely because it won't allow outsiders near.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing", "punctuation"],
+      "reason": "Restore 그대로/살고 and remove the Japanese-carried comma after Korean -기에, which is unnecessary in the natural Korean clause."
+    },
+    {
+      "id": "700257",
+      "paths": ["translations/korean/messages/msgsec070-part99.toml"],
+      "before_korean": "…미안해.…너, 아미랄을 떠난 뒤로점점 변해 가는구나.<end>",
+      "proposed_korean": "…미안해. …너, 아미랄을 떠난 뒤로 점점 변해 가는구나.<end>",
+      "japanese": "…すまない。<line-break>…お前、アミラルを出てから<line-break>どんどん、変わっていくんだな。<end>",
+      "english": "...Sorry. Ever since you left Amiral, you've been changing more and more.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing", "punctuation"],
+      "reason": "Restore the sentence pause and the 뒤로/점점 boundary collapsed at source line breaks; English likewise separates the two sentences."
+    },
+    {
+      "id": "280149",
+      "paths": ["translations/korean/messages/msgsec028-part99.toml"],
+      "before_korean": "여관 주인은소중한 외아들이 다쳤다고지금 잔뜩 화가 났어.<end>",
+      "proposed_korean": "여관 주인은 소중한 외아들이 다쳤다고 지금 잔뜩 화가 났어.<end>",
+      "japanese": "宿屋のご亭主は<line-break>大切なひとり息子がケガをさせられたって<line-break>もう、カンカンよ。<end>",
+      "english": "The innkeeper's furious that someone hurt his precious only son.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore two word boundaries collapsed across the first and second source line breaks."
+    },
+    {
+      "id": "560134",
+      "paths": ["translations/korean/messages/msgsec056-part99.toml"],
+      "before_korean": "………………. 내 살기에도 동요하지 않는가. 하지만 아직 믿을 수는 없다. 내 생각보다너는 감정이 풍부한 모양이니까.<end>",
+      "proposed_korean": "………………. 내 살기에도 동요하지 않는가. 하지만 아직 믿을 수는 없다. 내 생각보다 너는 감정이 풍부한 모양이니까.<end>",
+      "japanese": "………………。<line-break>私の殺気にも動じないか。　　　<line-break>　<line-break>しかし、まだ信用はできない。<line-break>私が思っている以上に<line-break>お前は、感情豊かなようだから。<end>",
+      "english": "...... Even my murderous intent does not unsettle you. Yet I still cannot trust you. It seems you possess more emotion than I realized.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the comparison-to-subject boundary 생각보다/너는 collapsed at the source line break."
+    },
+    {
+      "id": "1360218",
+      "paths": ["translations/korean/messages/msgsec136-part99.toml"],
+      "before_korean": "그렇군. 그래서 넌 아이린을찾으러 가야 하는 거냐?<end>",
+      "proposed_korean": "그렇군. 그래서 넌 아이린을 찾으러 가야 하는 거냐?<end>",
+      "japanese": "なるほどねえ。<line-break>んで、お前はアイリーンを<line-break>探しにいかなきゃならないのか？<end>",
+      "english": "Ah, I get it. So now you have to go looking for Irene?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the object-to-verb boundary 아이린을/찾으러 at the source line break."
+    },
+    {
+      "id": "300063",
+      "paths": ["translations/korean/messages/msgsec030-part99.toml"],
+      "before_korean": "어쩔 수 없네. 내일이면오시 선생님이 구하러 와 주실 거야. 술버릇은 나빠도 잘 챙겨 주시니까. 그래도 말하는 고블린은한번 만나 보고 싶었는데.<end>",
+      "proposed_korean": "어쩔 수 없네. 내일이면 오시 선생님이 구하러 와 주실 거야. 술버릇은 나빠도 잘 챙겨 주시니까. 그래도 말하는 고블린은 한번 만나 보고 싶었는데.<end>",
+      "japanese": "しょうがないわ。明日には<line-break>オッシ先生が助けにきてくれるわよ。<line-break>酒癖は悪いけど面倒見はいいから。<line-break>でも、しゃべるゴブリンって<line-break>一度会ってみたかったのにな。<end>",
+      "english": "We'll just have to wait. Master Ossi will come rescue us tomorrow. An awful drunk, but good about looking after people. Still, I was hoping I'd get to meet a talking Goblin.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore two clear source-line-break joins: 내일이면/오시 and 고블린은/한번."
+    },
+    {
+      "id": "950036",
+      "paths": ["translations/korean/messages/msgsec095-part99.toml"],
+      "before_korean": "비켜. 레이디, 게다가 엘프에게길을 양보하는 건 상식이고 도리고 예의잖아!<end>",
+      "proposed_korean": "비켜. 레이디, 게다가 엘프에게 길을 양보하는 건 상식이고 도리고 예의잖아!<end>",
+      "japanese": "どきなさいよ。レディ、しかもエルフに<line-break>道を譲るのは常識、道理、礼儀でしょ！<end>",
+      "english": "Out of my way. Yielding the path to a lady, especially an Elf, is common sense, common decency, and common courtesy!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the particle-to-object boundary 엘프에게/길을 collapsed at the source line break."
+    }
+  ]
+}
