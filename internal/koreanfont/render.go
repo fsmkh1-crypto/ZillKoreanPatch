@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"image"
 	"image/color"
+	"math"
 
 	"github.com/HK47196/zill/internal/zillfont"
 	"golang.org/x/image/font"
@@ -13,10 +14,17 @@ import (
 	"golang.org/x/image/math/fixed"
 )
 
+// KoreanAlphaGamma is the Beta 1 B-profile alpha lift. Keep the 10x10 source
+// raster and proven placement metrics unchanged; apply gamma only immediately
+// before 4bpp quantization so geometry/reflow contracts do not move with the
+// visual-weight adjustment.
+const KoreanAlphaGamma = 0.60
+
 // ProvenRenderRule names the repository-owned rasterization rule. The baseline
 // is derived from the font ascent so its visual top-left matches the historical
-// PoC's text origin (0,-2), then grayscale alpha is rounded to 4bpp.
-const ProvenRenderRule = "opentype-10px-72dpi-hinting-none-origin-0,-2-alpha-round-4bpp-v1"
+// PoC's text origin (0,-2). Beta 1's B profile applies gamma 0.60 to normalized
+// alpha immediately before rounding to 4bpp.
+const ProvenRenderRule = "opentype-10px-72dpi-hinting-none-origin-0,-2-alpha-gamma-0.60-round-4bpp-v2"
 
 // RenderRequired rasterizes every requested rune with a deterministic OpenType
 // face configuration. Callers own fontData; no system font lookup is performed.
@@ -47,6 +55,12 @@ func RenderRequired(fontData []byte, runes []rune) (map[rune]zillfont.Raster, er
 	return out, nil
 }
 
+func alphaTo4BPP(alpha uint8) uint8 {
+	normalized := float64(alpha) / 255.0
+	corrected := math.Pow(normalized, KoreanAlphaGamma)
+	return uint8(math.Round(corrected * 15.0))
+}
+
 func renderRune(face font.Face, r rune) (zillfont.Raster, error) {
 	if _, ok := face.GlyphAdvance(r); !ok {
 		return zillfont.Raster{}, fmt.Errorf("Korean source font has no glyph for %U", r)
@@ -60,10 +74,11 @@ func renderRune(face font.Face, r rune) (zillfont.Raster, error) {
 	nonzero := false
 	for y := 0; y < zillfont.KoreanRasterHeight; y++ {
 		for x := 0; x < zillfont.KoreanRasterWidth; x++ {
-			a := canvas.AlphaAt(x, y).A
-			value := uint8((uint16(a)*15 + 127) / 255)
+			value := alphaTo4BPP(canvas.AlphaAt(x, y).A)
 			pixels[y*zillfont.KoreanRasterWidth+x] = value
-			if value != 0 { nonzero = true }
+			if value != 0 {
+				nonzero = true
+			}
 		}
 	}
 	if !nonzero {
