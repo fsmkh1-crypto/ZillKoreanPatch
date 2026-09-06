@@ -13,8 +13,8 @@ import (
 func testCatalogText(glyphs string) string {
 	return `format = "zill-korean-raster-catalog"
 version = 1
-width = 10
-height = 10
+width = 11
+height = 11
 source_font = "test-font"
 render_rule = "test-rule"
 
@@ -23,7 +23,7 @@ render_rule = "test-rule"
 }
 
 func TestParseCatalogAndPlaceCellRaster(t *testing.T) {
-	pixels := strings.Repeat("0", 99) + "f"
+	pixels := strings.Repeat("0", 120) + "f"
 	catalog, err := Parse([]byte(testCatalogText(`"가" = "` + pixels + `"`)))
 	if err != nil {
 		t.Fatal(err)
@@ -40,30 +40,30 @@ func TestParseCatalogAndPlaceCellRaster(t *testing.T) {
 	if raster.Width != 11 || raster.Height != 12 {
 		t.Fatalf("placed raster = %dx%d", raster.Width, raster.Height)
 	}
-	// Source pixel (9,9) lands at (10,10) after the proven (1,1) placement.
-	if raster.Pixels[10*11+10] != 15 {
-		t.Fatalf("placed terminal pixel = %d", raster.Pixels[10*11+10])
+	// Source pixel (10,10) lands at (10,11) after the D PoC (0,1) placement.
+	if raster.Pixels[11*11+10] != 15 {
+		t.Fatalf("placed terminal pixel = %d", raster.Pixels[11*11+10])
 	}
 }
 
 func TestCatalogRejectsUnknownFieldsAndBadPixels(t *testing.T) {
-	_, err := Parse([]byte(testCatalogText(`"가" = "` + strings.Repeat("0", 99) + `z"`)))
+	_, err := Parse([]byte(testCatalogText(`"가" = "` + strings.Repeat("0", 120) + `z"`)))
 	if err == nil || !strings.Contains(err.Error(), "not hexadecimal") {
 		t.Fatalf("error = %v", err)
 	}
-	text := testCatalogText(`"가" = "` + strings.Repeat("0", 100) + `"`) + "extra = 1\n"
+	text := testCatalogText(`"가" = "` + strings.Repeat("0", 121) + `"`) + "extra = 1\n"
 	if _, err := Parse([]byte(text)); err == nil {
 		t.Fatal("expected unknown-field error")
 	}
 }
 
 func TestCellRastersFailsClosedOnMissingGlyph(t *testing.T) {
-	catalog, err := Parse([]byte(testCatalogText(`"가" = "` + strings.Repeat("0", 100) + `"`)))
+	catalog, err := Parse([]byte(testCatalogText(`"가" = "` + strings.Repeat("0", 121) + `"`)))
 	if err != nil {
 		t.Fatal(err)
 	}
 	_, err = catalog.CellRasters([]zillfont.Replacement{{
-		Rune: '나', Glyph: zillfont.Glyph{Width: 10, Height: 10, BearingX: 1, BearingY: -9, Advance: 12, Page: 1},
+		Rune: '나', Glyph: zillfont.Glyph{Width: 11, Height: 11, BearingX: 0, BearingY: -9, Advance: 12, Page: 1},
 	}})
 	if err == nil || !strings.Contains(err.Error(), "missing") {
 		t.Fatalf("error = %v", err)
