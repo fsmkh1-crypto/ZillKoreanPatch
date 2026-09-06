@@ -70,7 +70,7 @@ korean = "인간이다. 천한 평민들이지. 크크크…<end>"
 
 ["640017"]
 japanese = "…あの日、俺は<line-break>草むらで野宿している<line-break>旅商人の一行にねらいをつけた<end>"
-korean = "…그날, 나는풀숲에서 노숙하던행상인 일행을 노렸어.<end>"
+korean = "…그날, 나는 풀숲에서 노숙하던 행상인 일행을 노렸어.<end>"
 
 ["640018"]
 japanese = "<if><value:$29><equal>%0中年の男に、リルビーの娘…。<line-break>それに、さえない若造もいたっけな。<line-break>とにかく薄汚い奴らだった。<end><if><value:$29><equal>%1中年の男に、リルビーの娘…。<line-break>それに、あか抜けない小娘もいたっけな。<line-break>とにかく薄汚い奴らだった。<end>"

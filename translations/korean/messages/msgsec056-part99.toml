@@ -570,7 +570,7 @@ korean = "또 너희냐.<end>"
 
 ["560145"]
 japanese = "<if><value:$29><equal>%0悪いけど、今はボウヤに<line-break>構っている暇はないの。<end>悪いけど、今は子猫ちゃんに<line-break>構っている暇はないの。<end>"
-korean = "<if><value:$29><equal>%0미안하지만, 지금은 꼬마를상대할 틈이 없어.<end>미안하지만, 지금은 아기 고양이를상대할 틈이 없어.<end>"
+korean = "<if><value:$29><equal>%0미안하지만, 지금은 꼬마를 상대할 틈이 없어.<end>미안하지만, 지금은 아기 고양이를 상대할 틈이 없어.<end>"
 
 ["560146"]
 japanese = "あの石化獣です！<line-break>今度こそ石化獣を封印するんです！<end>"
