@@ -1,4 +1,4 @@
-name: Android Korean A-054 release candidate
+name: Android Korean U7 readability B PoC
 
 on:
   workflow_dispatch:
@@ -7,6 +7,7 @@ on:
       - release/a054-inline-span-rc
       - audit/english-first-full-parity-restart
       - milestone/U7
+      - poc/u7-korean-readability-b-gamma060
     paths:
       - 'android-patcher/**'
       - 'translations/korean/**'
@@ -58,6 +59,18 @@ jobs:
           python3 tools/korean/audit-english-first-full-parity.py
           python3 tools/korean/audit-english-first-entrypoint-closure.py
           python3 tools/korean/audit-input-window-english-authority.py
+
+      - name: Generate gamma 0.60 Korean raster catalog for B PoC
+        shell: bash
+        run: |
+          set -euxo pipefail
+          curl -fsSL -o /tmp/UnDotum.ttf \
+            https://raw.githubusercontent.com/deepin-community/fonts-unfonts-core/ef6c68f4f0beb2a03fcf460aa643d73389aac59a/UnDotum.ttf
+          echo '5b8373e126bb61f59105cf7f54a47eb1b089c2b0aacb70c6cd688bd8ea76cdc9  /tmp/UnDotum.ttf' | sha256sum -c -
+          go run ./cmd/zill korean-font-generate \
+            --font /tmp/UnDotum.ttf \
+            --output release/korean/font/glyphs.toml
+          grep -F 'render_rule = "opentype-10px-72dpi-hinting-none-origin-0,-2-gamma-0.60-alpha-round-4bpp-v2"' release/korean/font/glyphs.toml
 
       - name: Prepare embedded Korean patch project data
         shell: bash
@@ -138,7 +151,7 @@ jobs:
       - name: Build debug APK
         run: gradle -p android-patcher :app:assembleDebug --no-daemon --stacktrace
 
-      - name: Verify patcher launcher and embedded A-054 candidate payload
+      - name: Verify patcher launcher and embedded U7 B candidate payload
         shell: bash
         run: |
           set -euxo pipefail
@@ -159,6 +172,8 @@ jobs:
           grep -q 'assets/zillroot/payload-version.txt' /tmp/apk-list.txt
           grep -q 'assets/zillroot/payload-manifest.sha256' /tmp/apk-list.txt
           unzip -p "$APK" assets/zillroot/payload-version.txt | grep -Fx "$GITHUB_SHA"
+          unzip -p "$APK" assets/zillroot/release/korean/font/glyphs.toml \
+            | grep -F 'render_rule = "opentype-10px-72dpi-hinting-none-origin-0,-2-gamma-0.60-alpha-round-4bpp-v2"'
           rm -rf /tmp/apk-payload
           mkdir -p /tmp/apk-payload
           unzip -q "$APK" 'assets/zillroot/*' -d /tmp/apk-payload
@@ -175,10 +190,11 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: zill-korean-a054-full-corpus-patcher
+          name: zill-u7-readability-b-gamma060-patcher
           path: |
             android-patcher/app/build/outputs/apk/debug/app-debug.apk
             android-patcher/app/build/outputs/apk/debug/app-debug.apk.sha256
+            release/korean/font/glyphs.toml
             a054-full-corpus-audit.txt
             consumer-storage-full-corpus-audit.txt
           if-no-files-found: error
