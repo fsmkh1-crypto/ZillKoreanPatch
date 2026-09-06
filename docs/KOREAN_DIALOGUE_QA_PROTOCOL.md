@@ -8,6 +8,80 @@ The purpose of this protocol is not merely to list good practices. It must make 
 
 ---
 
+## EXECUTION AUTHORIZATION GATE — MUST BE CHECKED BEFORE SECTION 0
+
+Before any Korean dialogue QA work changes repository state, confirm that the project owner has explicitly authorized execution for the current bounded task.
+
+### Mandatory first checkbox
+
+- [ ] **Explicit task-local start signal received: YES**
+
+If this checkbox is not YES, **STOP before repository mutation**.
+
+Planning, investigation, repository reading, English-patch comparison, candidate discovery, review of Claude/third-party findings, and preparation of proposed fixes are allowed without an execution signal.
+
+The following are not allowed without an explicit execution signal:
+
+- dialogue or terminology edits;
+- layout persistence/regeneration into repository data;
+- reflow or engine code changes;
+- test or fixture changes;
+- workflow/CI/build-script changes;
+- file creation, modification, deletion, rename, or movement;
+- commits or pushes.
+
+A discovered defect, failed test, confirmed root cause, or third-party recommendation does not itself authorize a fix.
+
+### Authorization is scope-bound
+
+The execution signal applies only to the work actually approved by the project owner.
+
+Do not silently expand:
+
+- documentation work into code changes;
+- defect investigation into implementation;
+- one reflow defect into unrelated reflow classes;
+- terminology review into corpus-wide replacement;
+- Claude review analysis into automatic adoption of its recommendations;
+- one approved batch into the next batch.
+
+When a newly discovered issue requires work outside the authorized scope, record it as `PENDING/HOLD` and return to read-only analysis until a new explicit start signal is given.
+
+### Authorization reset points
+
+Re-confirm explicit execution authorization when:
+
+- the approved task or batch has been completed;
+- work continues in a new chat, handoff, or agent;
+- the branch/baseline changes unexpectedly;
+- the requested scope materially changes;
+- a review or test exposes a new defect class requiring additional mutation.
+
+A prior start signal must not be treated as permanent project-wide permission.
+
+### Required execution pre-flight
+
+Once an explicit start signal has been received, complete the following before the first write:
+
+- [ ] Explicit start signal received: YES
+- [ ] Authorized task/scope recorded
+- [ ] Working branch confirmed
+- [ ] Current HEAD and baseline SHA recorded
+- [ ] Protected/unrelated branches excluded
+- [ ] `AGENTS.md` checked
+- [ ] `CONTRIBUTING.md` checked
+- [ ] `docs/KOREAN_TRANSLATION_STYLE.md` checked
+- [ ] This protocol checked
+- [ ] Relevant English-patch consumer/engine contract identified
+- [ ] Intended files/records/defect class identified
+- [ ] Validation and rollback points defined
+
+Only after this gate passes may the technical QA/editing workflow begin.
+
+**Execution authorization permits the work to start; it does not relax any English-patch-first, corpus-integrity, control, layout, terminology, validation, or runtime-QA requirement in this protocol.**
+
+---
+
 ## 0. Non-negotiable premise
 
 **English patch first.**
