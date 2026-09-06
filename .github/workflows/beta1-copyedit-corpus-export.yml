@@ -27,7 +27,7 @@ jobs:
       - name: Export aligned Japanese English Korean corpus
         working-directory: korean
         run: |
-          # Refresh trigger: export current Beta1 after contextual copyedit 002.
+          # Refresh trigger: export current Beta1 after contextual copyedit 007.
           python3 tools/korean/export-beta1-copyedit-corpus.py \
             --english-root ../english \
             --jsonl /tmp/beta1-copyedit-corpus.jsonl \
