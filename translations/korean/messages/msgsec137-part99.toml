@@ -1478,7 +1478,7 @@ korean = "<if><value:$29><equal>%0<value:$28>. 무사해서 다행이야…. 마
 
 ["1370369"]
 japanese = "<if><value:$29><equal>%0<value:$28>。<line-break>怪物のうろついてるミイスの森に行くの？<line-break>お姉さん、心配だな。<line-break>ロイ様もついているし、<line-break>キミも神器の守護者のご一族だもんね。<line-break>大丈夫なのはわかってるけどね。<end>魔物に続いて地震…。<line-break>いったいどうなってるのかしら。<end>"
-korean = "<if><value:$29><equal>%0<value:$28>. 괴물이 돌아다니는 미이스의 숲에 가는 거야? 누나는 걱정되네. 로이님도 함께고 너도 신기의 수호자 일족이니까 괜찮을 거란 건 알지만.<end>마물에 이어 지진까지…. 대체 어떻게 된 걸까.<end>"
+korean = "<if><value:$29><equal>%0<value:$28>. 괴물이 돌아다니는 미이스의 숲에 가는 거야? 누나는 걱정되네. 로이 님도 함께고 너도 신기의 수호자 일족이니까 괜찮을 거란 건 알지만.<end>마물에 이어 지진까지…. 대체 어떻게 된 걸까.<end>"
 
 ["1370370"]
 japanese = "<if><value:$29><equal>%0…<value:$28>…な…の？<line-break>に…逃げ…て…、は…早…く…　　<line-break>　<line-break>…わ…私…もう…ダメ…だから…<line-break>キ…キミ…だけでも…<end>イ…イヤ…死にたく…ない…<line-break>か、かめ…ん…なんて…<line-break>ホント…知らな…い…<end>"
