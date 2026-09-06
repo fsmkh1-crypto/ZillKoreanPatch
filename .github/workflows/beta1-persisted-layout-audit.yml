@@ -1,0 +1,29 @@
+name: Beta1 persisted layout audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [milestone/Beta1]
+    paths:
+      - 'tools/korean/qa-layout-drift.py'
+      - 'tools/korean/test_qa_layout_drift.py'
+      - 'tools/korean/audit-beta1-persisted-layouts.py'
+      - '.github/workflows/beta1-persisted-layout-audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Layout drift regression tests
+        run: python3 -m unittest tools/korean/test_qa_layout_drift.py
+      - name: Audit current persisted layouts
+        run: python3 tools/korean/audit-beta1-persisted-layouts.py --json /tmp/persisted-layout-audit.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: beta1-persisted-layout-audit
+          path: /tmp/persisted-layout-audit.json
+          retention-days: 30
