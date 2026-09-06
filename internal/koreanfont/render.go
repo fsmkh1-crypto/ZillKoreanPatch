@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"image"
 	"image/color"
+	"math"
 
 	"github.com/HK47196/zill/internal/zillfont"
 	"golang.org/x/image/font"
@@ -15,8 +16,9 @@ import (
 
 // ProvenRenderRule names the repository-owned rasterization rule. The baseline
 // is derived from the font ascent so its visual top-left matches the historical
-// PoC's text origin (0,-2), then grayscale alpha is rounded to 4bpp.
-const ProvenRenderRule = "opentype-10px-72dpi-hinting-none-origin-0,-2-alpha-round-4bpp-v1"
+// PoC's text origin (0,-2). The D readability PoC renders Hangul at 11px into an
+// 11x11 cell, then lifts grayscale alpha with gamma 0.60 before 4bpp rounding.
+const ProvenRenderRule = "opentype-11px-72dpi-hinting-none-origin-0,-2-gamma-0.60-alpha-round-4bpp-v2"
 
 // RenderRequired rasterizes every requested rune with a deterministic OpenType
 // face configuration. Callers own fontData; no system font lookup is performed.
@@ -25,7 +27,7 @@ func RenderRequired(fontData []byte, runes []rune) (map[rune]zillfont.Raster, er
 	if err != nil {
 		return nil, fmt.Errorf("parse Korean source font: %w", err)
 	}
-	face, err := opentype.NewFace(parsed, &opentype.FaceOptions{Size: 10, DPI: 72, Hinting: font.HintingNone})
+	face, err := opentype.NewFace(parsed, &opentype.FaceOptions{Size: 11, DPI: 72, Hinting: font.HintingNone})
 	if err != nil {
 		return nil, fmt.Errorf("open Korean source font face: %w", err)
 	}
@@ -60,10 +62,15 @@ func renderRune(face font.Face, r rune) (zillfont.Raster, error) {
 	nonzero := false
 	for y := 0; y < zillfont.KoreanRasterHeight; y++ {
 		for x := 0; x < zillfont.KoreanRasterWidth; x++ {
-			a := canvas.AlphaAt(x, y).A
-			value := uint8((uint16(a)*15 + 127) / 255)
+			a := float64(canvas.AlphaAt(x, y).A) / 255.0
+			if a > 0 {
+				a = math.Pow(a, 0.60)
+			}
+			value := uint8(a*15 + 0.5)
 			pixels[y*zillfont.KoreanRasterWidth+x] = value
-			if value != 0 { nonzero = true }
+			if value != 0 {
+				nonzero = true
+			}
 		}
 	}
 	if !nonzero {
