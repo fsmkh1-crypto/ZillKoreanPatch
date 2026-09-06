@@ -7,16 +7,20 @@ from collections import Counter
 from pathlib import Path
 
 SECTION_RE = re.compile(r'^\["([0-9]+)"\]$')
+AUX_FOLLOW = r"(?=$|[^가-힣]|(?:는|도|만|부터|까지)(?=[^가-힣]|$))"
 
+# These counts come from the refined full-corpus scanner at 515fec109d... .
+# Particle rules intentionally use the same boundary semantics as that scanner so
+# substrings embedded in longer Hangul words are not blindly replaced.
 RULES = [
-    ("wrong_particle_발로르_을", "발로르을", "발로르를", 42),
-    ("wrong_particle_발로르_이", "발로르이", "발로르가", 16),
-    ("wrong_particle_로스톨_가", "로스톨가", "로스톨이", 3),
-    ("wrong_particle_로스톨_를", "로스톨를", "로스톨을", 3),
-    ("wrong_particle_로스톨_와", "로스톨와", "로스톨과", 2),
-    ("wrong_particle_로스톨_는", "로스톨는", "로스톨은", 1),
-    ("wrong_particle_소도_으로", "소도으로", "소도로", 1),
-    ("spacing_moyang_ijiman", "모양 이지만", "모양이지만", 1),
+    ("wrong_particle_발로르_을", re.compile(re.escape("발로르을") + AUX_FOLLOW), "발로르를", 42),
+    ("wrong_particle_발로르_이", re.compile(re.escape("발로르이") + AUX_FOLLOW), "발로르가", 16),
+    ("wrong_particle_로스톨_가", re.compile(re.escape("로스톨가") + AUX_FOLLOW), "로스톨이", 3),
+    ("wrong_particle_로스톨_를", re.compile(re.escape("로스톨를") + AUX_FOLLOW), "로스톨을", 3),
+    ("wrong_particle_로스톨_와", re.compile(re.escape("로스톨와") + AUX_FOLLOW), "로스톨과", 2),
+    ("wrong_particle_로스톨_는", re.compile(re.escape("로스톨는") + AUX_FOLLOW), "로스톨은", 1),
+    ("wrong_particle_소도_으로", re.compile(re.escape("소도으로") + AUX_FOLLOW), "소도로", 1),
+    ("spacing_moyang_ijiman", re.compile(r"모양 이지만"), "모양이지만", 1),
 ]
 
 
@@ -35,11 +39,10 @@ def rewrite_file(path: Path, apply: bool) -> tuple[Counter, set[str]]:
             continue
         before = row["korean"]
         after = before
-        for kind, old, new, _expected in RULES:
-            n = after.count(old)
+        for kind, pattern, replacement, _expected in RULES:
+            after, n = pattern.subn(replacement, after)
             if n:
                 counts[kind] += n
-                after = after.replace(old, new)
         if after != before:
             replacements[str(rid)] = after
             touched_ids.add(str(rid))
@@ -68,48 +71,64 @@ def rewrite_file(path: Path, apply: bool) -> tuple[Counter, set[str]]:
     return counts, touched_ids
 
 
-def scan(root: Path, apply: bool) -> dict:
+def current_population(root: Path) -> tuple[Counter, set[tuple[str, str]], set[str]]:
     total = Counter()
     touched = set()
     touched_files = set()
     for path in sorted((root / "translations/korean/messages").glob("*.toml")):
-        counts, ids = rewrite_file(path, apply)
-        total.update(counts)
-        if ids:
-            rel = path.relative_to(root).as_posix()
-            touched_files.add(rel)
-            touched.update((rel, rid) for rid in ids)
+        data = tomllib.loads(path.read_text(encoding="utf-8"))
+        rel = path.relative_to(root).as_posix()
+        for rid, row in data.items():
+            if not isinstance(row, dict) or not isinstance(row.get("korean"), str):
+                continue
+            text = row["korean"]
+            row_hit = False
+            for kind, pattern, _replacement, _expected in RULES:
+                n = len(list(pattern.finditer(text)))
+                if n:
+                    total[kind] += n
+                    row_hit = True
+            if row_hit:
+                touched.add((rel, str(rid)))
+                touched_files.add(rel)
+    return total, touched, touched_files
 
-    expected = {kind: expected for kind, _old, _new, expected in RULES}
-    if not apply:
-        if dict(total) != expected:
-            raise SystemExit(f"high-confidence population drift: expected={expected} actual={dict(total)}")
-        if sum(total.values()) != 69 or len(touched) != 64 or len(touched_files) != 29:
-            raise SystemExit(
-                f"unexpected population: findings={sum(total.values())}/69 records={len(touched)}/64 files={len(touched_files)}/29"
-            )
-    else:
-        # Re-scan post-write. All approved high-confidence patterns must be gone.
-        residual = Counter()
+
+def scan(root: Path, apply: bool) -> dict:
+    before_total, before_touched, before_files = current_population(root)
+    expected = {kind: expected for kind, _pattern, _replacement, expected in RULES}
+    if dict(before_total) != expected:
+        raise SystemExit(f"high-confidence population drift: expected={expected} actual={dict(before_total)}")
+    if sum(before_total.values()) != 69 or len(before_touched) != 64 or len(before_files) != 29:
+        raise SystemExit(
+            f"unexpected population: findings={sum(before_total.values())}/69 "
+            f"records={len(before_touched)}/64 files={len(before_files)}/29"
+        )
+
+    if apply:
+        applied_total = Counter()
+        applied_touched = set()
+        applied_files = set()
         for path in sorted((root / "translations/korean/messages").glob("*.toml")):
-            data = tomllib.loads(path.read_text(encoding="utf-8"))
-            for row in data.values():
-                if not isinstance(row, dict) or not isinstance(row.get("korean"), str):
-                    continue
-                text = row["korean"]
-                for kind, old, _new, _expected in RULES:
-                    residual[kind] += text.count(old)
-        residual = Counter({k: v for k, v in residual.items() if v})
+            counts, ids = rewrite_file(path, True)
+            applied_total.update(counts)
+            if ids:
+                rel = path.relative_to(root).as_posix()
+                applied_files.add(rel)
+                applied_touched.update((rel, rid) for rid in ids)
+        if applied_total != before_total or applied_touched != before_touched or applied_files != before_files:
+            raise SystemExit("applied population differs from verified pre-apply population")
+        residual, _rows, _files = current_population(root)
         if residual:
             raise SystemExit(f"approved high-confidence residuals remain: {dict(residual)}")
 
     return {
         "mode": "apply" if apply else "verify-population",
-        "finding_count": sum(total.values()),
-        "record_count": len(touched),
-        "file_count": len(touched_files),
-        "by_kind": dict(total),
-        "files": sorted(touched_files),
+        "finding_count": sum(before_total.values()),
+        "record_count": len(before_touched),
+        "file_count": len(before_files),
+        "by_kind": dict(before_total),
+        "files": sorted(before_files),
     }
 
 
