@@ -1,0 +1,51 @@
+# Known upstream/source anomalies that must not be silently rewritten as Korean
+# translation defects. Reachability is evidence, not assumed from source presence.
+
+["1250314"]
+kind = "source-placeholder"
+reachability = "unverified"
+japanese = "イオンズせりふ追加予定！！！<end>"
+english = "Ions dialogue to be added!!!<end>"
+korean = "이온즈 대사 추가 예정!!!<end>"
+decision = "preserve-source-until-reachability-or-user-decision"
+reason = "The Japanese source and English patch both preserve the same development placeholder; this is not a Korean omission."
+
+["1940001"]
+kind = "latin-only-title"
+reachability = "unverified"
+decision = "review-reachability-before-localization"
+
+["1940005"]
+kind = "latin-only-title"
+reachability = "unverified"
+decision = "review-reachability-before-localization"
+
+["1940006"]
+kind = "latin-only-title"
+reachability = "unverified"
+decision = "review-reachability-before-localization"
+
+["1940011"]
+kind = "latin-only-title"
+reachability = "unverified"
+decision = "review-reachability-before-localization"
+
+["1960506"]
+kind = "latin-only-title"
+reachability = "unverified"
+decision = "review-reachability-before-localization"
+
+["1960510"]
+kind = "latin-only-title"
+reachability = "unverified"
+decision = "review-reachability-before-localization"
+
+["1960511"]
+kind = "latin-only-title"
+reachability = "unverified"
+decision = "review-reachability-before-localization"
+
+["1960516"]
+kind = "latin-only-title"
+reachability = "unverified"
+decision = "review-reachability-before-localization"
