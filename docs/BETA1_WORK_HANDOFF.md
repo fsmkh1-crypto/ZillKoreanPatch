@@ -2,6 +2,16 @@
 
 Date: 2026-09-06 UTC. Status: **INCOMPLETE — audit/review-proposal checkpoint only**.
 
+## Verified checkpoint status addendum
+
+- Checkpoint committed and pushed: **`43e5a09c81b498724357b223bb6f7805d2a011b3`**, `docs: checkpoint Beta1 census and section001 review proposals`.
+- Exact active/target HEAD immediately before this status-only documentation commit: **`43e5a09c81b498724357b223bb6f7805d2a011b3`**. Local working tree clean at that commit; remote fast-forward verified. This addendum's containing commit records the status and does not change code/data.
+- **CI `34033702959`: SUCCESS**, job `101487828263`. Step evidence verifies English-first audits, `go test ./...`, `go vet ./...`, Python tests, layout drift, `./zill korean-check`, and `./zill korean-font-check` all succeeded on checkpoint `43e5a09c`. `./zill check` also succeeded as a separate general check.
+- **Korean data CI `34033702971`: SUCCESS** on the same checkpoint, including corpus integrity/glyph/layout/terminology/consistency/voice gates.
+- Local Go dependency availability remains unresolved, but **remote CI gates are no longer PENDING for this checkpoint**. No new Android RC was triggered by these documentation/audit-only changes. Language edits are still unapplied; reviewed 176, proposed 29, applied 0, remaining contextual review 41,840.
+- No new APK, semantic layouts, glyphs, or branch deletion. First next action remains the section-001 layout/consumer pre-flight and validated application of the saved proposals; CI may be used for actual Go validation if the next workspace still lacks dependencies.
+- Both checkpoint and this status-only commit preserve the ongoing user authorization for Beta1. Do not re-request authorization solely because this is a new session.
+
 ## Repository and authority
 
 - Repository: `fsmkh1-crypto/ZillKoreanPatch`
