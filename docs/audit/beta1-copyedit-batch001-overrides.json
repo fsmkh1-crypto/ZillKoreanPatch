@@ -1,0 +1,12 @@
+{
+  "status": "APPROVED_OVERRIDE",
+  "source_manifest": "docs/audit/beta1-copyedit-batch001-proposals.json",
+  "overrides": [
+    {
+      "id": 10022,
+      "reviewed_proposed_korean": "하루를 마무리하며 느끼는 뿌듯함<end>",
+      "replacement_proposed_korean": "하루를 마친 뿌듯함<end>",
+      "reason": "The reviewed naturalization exceeded the authenticated character-creation choice storage contract by one byte (31 bytes used, maximum 30). The shorter wording preserves 終わりゆく一日への充実感 / 'Fulfillment at day's end' while fitting the existing English-patch consumer buffer contract."
+    }
+  ]
+}
