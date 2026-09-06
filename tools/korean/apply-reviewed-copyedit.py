@@ -52,12 +52,13 @@ def load_manifest(path: Path) -> dict:
 
 
 def validate_manifest_base(root: Path, manifest: dict, require_base_sha: bool) -> tuple[str, str]:
-    head = current_head(root)
     base = str(manifest.get("korean_sha") or manifest.get("base_sha") or "")
     if not base:
         if require_base_sha:
             raise ValueError("manifest missing korean_sha/base_sha")
-        return "", head
+        # Legacy/tests without an audited base SHA do not need a Git repository.
+        return "", ""
+    head = current_head(root)
     if not is_ancestor(root, base, head):
         raise ValueError(f"manifest base {base} is not an ancestor of current HEAD {head}")
     return base, head
@@ -233,7 +234,6 @@ def apply_manifest(
     logical_changed = set()
     physical_apply_count = 0
 
-    # Phase 1: validate every target across every file before mutating anything.
     for rel_path in sorted(per_path_records):
         overlay_path = root / rel_path
         text, data = read_overlay(overlay_path)
@@ -264,15 +264,12 @@ def apply_manifest(
             "target_files": sorted(per_path_records),
         }
 
-    # Phase 2: render and parse every output in memory before writing any file.
     rendered_by_path = {}
     for rel_path, replacements in replacements_by_path.items():
-        if not replacements:
-            continue
-        text, _ = loaded[rel_path]
-        rendered_by_path[rel_path] = rewrite_korean_lines(text, replacements)
+        if replacements:
+            text, _ = loaded[rel_path]
+            rendered_by_path[rel_path] = rewrite_korean_lines(text, replacements)
 
-    # Phase 3: only after all validations/renders succeed, write target files.
     for rel_path, rendered in rendered_by_path.items():
         (root / rel_path).write_text(rendered, encoding="utf-8", newline="")
 
