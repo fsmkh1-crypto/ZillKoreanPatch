@@ -1,0 +1,137 @@
+name: Beta1 terminology migration
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: Apply migration and commit if all checkpoint gates pass
+        required: true
+        type: boolean
+        default: false
+  push:
+    branches:
+      - milestone/Beta1
+    paths:
+      - 'tools/korean/beta1-terminology-migrate.py'
+      - 'tools/korean/test_beta1_terminology_migrate.py'
+      - '.github/workflows/beta1-terminology-migrate.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: beta1-terminology-migration
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          fetch-depth: 0
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+
+      - name: Unit test source-anchored migrator
+        run: python3 -m unittest tools.korean.test_beta1_terminology_migrate
+
+      - name: Dry-run migration against current corpus
+        run: python3 tools/korean/beta1-terminology-migrate.py --json /tmp/beta1-term-migrate-dry.json
+
+      - name: Print dry-run summary
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open('/tmp/beta1-term-migrate-dry.json',encoding='utf-8'))
+          print(f"TERM_MIGRATION_DRY source_matched={d['source_matched_records']} changed_records={d['changed_records']} replacements={d['term_replacements']} changed_files={d['changed_files']} canonical_updated={len(d['canonical']['updated'])} canonical_added={len(d['canonical']['added'])}")
+          PY
+
+      - name: Apply migration
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        run: python3 tools/korean/beta1-terminology-migrate.py --apply --json /tmp/beta1-term-migrate-apply.json
+
+      - name: Synchronize persisted layout lexical content
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/beta1-term-layout-sync.txt
+
+      - name: Require zero approved legacy terminology after apply
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        run: |
+          python3 tools/korean/beta1-terminology-audit.py --json /tmp/beta1-term-post-audit.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('/tmp/beta1-term-post-audit.json',encoding='utf-8'))
+          bad=[]
+          for term in d['decisions']:
+              if term['legacy_hits'] or term['unrecognized_hits']:
+                  bad.append((term['japanese'],term['legacy_hits'],term['unrecognized_hits']))
+          if bad:
+              raise SystemExit(f'approved terminology not normalized: {bad}')
+          PY
+          python3 tools/korean/qa-layout-drift.py
+
+      - name: Checkpoint Korean data gates
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        run: |
+          python3 tools/korean/audit-korean-glyph-repertoire.py
+          ./zill korean-check
+          ./zill korean-font-check
+          python3 tools/korean/qa-integrity.py --json /tmp/integrity.json --max-examples 40
+          python3 tools/korean/qa-terminology.py --json /tmp/terms.json --max-examples 60
+          python3 tools/korean/qa-consistency.py --json /tmp/consistency.json --max-examples 40
+          python3 tools/korean/qa-voice.py --json /tmp/voice.json --max-examples 80
+          python3 tools/korean/qa-text-sanity.py --json /tmp/sanity.json --max-examples 80
+          python3 - <<'PY'
+          import json
+          i=json.load(open('/tmp/integrity.json',encoding='utf-8'))
+          t=json.load(open('/tmp/terms.json',encoding='utf-8'))
+          c=json.load(open('/tmp/consistency.json',encoding='utf-8'))
+          s=json.load(open('/tmp/sanity.json',encoding='utf-8'))
+          critical=i.get('critical',[])
+          n=len(critical) if isinstance(critical,list) else int(critical or 0)
+          if n: raise SystemExit(f'integrity critical={n}')
+          if t.get('mismatch_count',0): raise SystemExit(f"terminology mismatch={t['mismatch_count']}")
+          if c.get('actionable_inconsistent_groups',0): raise SystemExit('actionable consistency regression')
+          if s.get('finding_count',0): raise SystemExit(f"text sanity findings={s['finding_count']}")
+          PY
+
+      - name: Full checkpoint Go test
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        run: go test ./...
+
+      - name: Upload migration evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: beta1-terminology-migration-evidence
+          path: |
+            /tmp/beta1-term-migrate-dry.json
+            /tmp/beta1-term-migrate-apply.json
+            /tmp/beta1-term-post-audit.json
+            /tmp/beta1-term-layout-sync.txt
+            /tmp/integrity.json
+            /tmp/terms.json
+            /tmp/consistency.json
+            /tmp/voice.json
+            /tmp/sanity.json
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commit accepted terminology migration
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages translations/terminology/korean-canonical.toml
+          if git diff --cached --quiet; then
+            echo 'No terminology migration changes remain.'
+            exit 0
+          fi
+          git commit -m 'copyedit: normalize approved Beta1 terminology'
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
