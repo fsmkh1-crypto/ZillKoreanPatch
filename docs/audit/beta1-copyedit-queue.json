@@ -1,1 +1,1 @@
-{"version":1,"revision":2,"enabled":true,"manifest":"docs/audit/beta1-contextual-copyedit-002-reviewed.json","allow_comma_space_variance":true,"commit_message":"copyedit: clean contextual spacing and Japanese comma carryover"}
+{"version":1,"revision":3,"enabled":true,"manifest":"docs/audit/beta1-contextual-copyedit-003-reviewed.json","allow_comma_space_variance":false,"commit_message":"copyedit: repair residual collapsed spacing and naturalness"}
