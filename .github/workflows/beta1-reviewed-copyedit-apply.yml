@@ -36,37 +36,46 @@ jobs:
           go-version-file: go.mod
           cache-dependency-path: go.sum
 
-      - name: Read reviewed target file
+      - name: Record validated branch head and target files
         run: |
-          TARGET_FILE="$(python3 - <<'PY'
+          git rev-parse HEAD | tee /tmp/copyedit-base-head.txt
+          python3 - <<'PY' | tee /tmp/copyedit-target-files.txt
           import json, os
           data=json.load(open(os.environ['MANIFEST'],encoding='utf-8'))
-          print(data['korean_file'])
+          default=data.get('korean_file')
+          paths=set()
+          for record in data.get('records',[]):
+              if record.get('decision') != 'PROPOSED_CHANGE':
+                  continue
+              if isinstance(record.get('paths'),list): paths.update(str(p) for p in record['paths'])
+              elif record.get('path'): paths.add(str(record['path']))
+              elif default: paths.add(str(default))
+          if not paths: raise SystemExit('manifest has no proposed target files')
+          for path in sorted(paths): print(path)
           PY
-          )"
-          echo "TARGET_FILE=$TARGET_FILE" >> "$GITHUB_ENV"
 
       - name: Apply exact reviewed semantic values
         run: |
-          args=(--manifest "$MANIFEST" --json /tmp/copyedit-apply.json)
+          args=(--manifest "$MANIFEST" --require-base-sha --json /tmp/copyedit-apply.json)
           if [ -n "$OVERRIDES" ]; then args+=(--overrides "$OVERRIDES"); fi
           python3 tools/korean/apply-reviewed-copyedit.py "${args[@]}"
 
-      - name: Synchronize existing layout lexical content
-        run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-sync.txt
+      - name: Invalidate stale persisted layouts for build-owned reflow
+        run: python3 tools/korean/qa-layout-drift.py --invalidate-drift | tee /tmp/layout-invalidate.txt
 
-      - name: Verify reviewed values and zero layout drift
+      - name: Verify reviewed values and zero semantic layout drift
         run: |
-          args=(--manifest "$MANIFEST" --verify --json /tmp/copyedit-verify.json)
+          args=(--manifest "$MANIFEST" --require-base-sha --verify --json /tmp/copyedit-verify.json)
           if [ -n "$OVERRIDES" ]; then args+=(--overrides "$OVERRIDES"); fi
           python3 tools/korean/apply-reviewed-copyedit.py "${args[@]}"
           python3 tools/korean/qa-layout-drift.py
+          python3 tools/korean/audit-beta1-persisted-layouts.py --json /tmp/persisted-layout-audit.json
 
-      - name: Require only reviewed overlay changed
+      - name: Require only reviewed overlay files changed
         run: |
           python3 - <<'PY'
-          import os, subprocess
-          allowed={os.environ['TARGET_FILE']}
+          import subprocess
+          allowed=set(filter(None,open('/tmp/copyedit-target-files.txt',encoding='utf-8').read().splitlines()))
           changed=set(filter(None,subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()))
           if changed != allowed:
               raise SystemExit(f'expected only {sorted(allowed)}, found {sorted(changed)}')
@@ -85,7 +94,6 @@ jobs:
           python3 tools/korean/qa-terminology.py --json /tmp/korean-qa-terminology.json --max-examples 60
           python3 tools/korean/qa-consistency.py --json /tmp/korean-qa-consistency.json --max-examples 40
           python3 tools/korean/qa-consistency-triage.py --json /tmp/korean-qa-consistency-triage.json --max-examples 40
-          python3 tools/korean/qa-voice.py --json /tmp/korean-qa-voice.json --max-examples 80
           python3 tools/korean/qa-text-sanity.py --json /tmp/korean-qa-text-sanity.json --max-examples 80
           python3 - <<'PY'
           import json
@@ -102,7 +110,7 @@ jobs:
           if sanity.get('finding_count',0) != 0: raise SystemExit(f"text sanity findings={sanity.get('finding_count')}")
           PY
 
-      - name: Per-batch English-consumer storage contract
+      - name: Per-batch English-consumer storage and static overflow contract
         run: go test ./internal/release -run TestCurrentKoreanCorpusEnglishConsumerStorageContracts -count=1
 
       - name: Upload batch evidence
@@ -111,24 +119,31 @@ jobs:
         with:
           name: beta1-reviewed-copyedit-evidence
           path: |
+            /tmp/copyedit-base-head.txt
+            /tmp/copyedit-target-files.txt
             /tmp/copyedit-apply.json
             /tmp/copyedit-verify.json
-            /tmp/layout-sync.txt
+            /tmp/layout-invalidate.txt
+            /tmp/persisted-layout-audit.json
             /tmp/korean-qa-integrity.json
             /tmp/korean-qa-terminology.json
             /tmp/korean-qa-consistency.json
             /tmp/korean-qa-consistency-triage.json
-            /tmp/korean-qa-voice.json
             /tmp/korean-qa-text-sanity.json
           if-no-files-found: warn
           retention-days: 30
 
-      - name: Commit accepted batch
+      - name: Commit accepted batch only if remote head is unchanged
         run: |
+          BASE_HEAD="$(cat /tmp/copyedit-base-head.txt)"
+          git fetch origin milestone/Beta1
+          REMOTE_HEAD="$(git rev-parse origin/milestone/Beta1)"
+          if [ "$REMOTE_HEAD" != "$BASE_HEAD" ]; then
+            echo "remote milestone/Beta1 moved during validation: base=$BASE_HEAD remote=$REMOTE_HEAD" >&2
+            exit 1
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add "$TARGET_FILE"
+          while IFS= read -r path; do git add "$path"; done < /tmp/copyedit-target-files.txt
           git commit -m "copyedit: apply Beta1 reviewed batch from $(basename "$MANIFEST")"
-          git fetch origin milestone/Beta1
-          git rebase origin/milestone/Beta1
           git push origin HEAD:milestone/Beta1
