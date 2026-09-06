@@ -6,18 +6,10 @@ on:
       manifest:
         description: Reviewed copyedit proposal manifest
         required: true
-        default: docs/audit/beta1-copyedit-batch001-proposals.json
       overrides:
         description: Optional audited override manifest
         required: false
-        default: docs/audit/beta1-copyedit-batch001-overrides.json
-  push:
-    branches:
-      - milestone/Beta1
-    paths:
-      # Bootstrap/retry the first calibration run while batch001 is not yet accepted.
-      # After batch001 succeeds, remove this push trigger and keep dispatch-only.
-      - '.github/workflows/beta1-reviewed-copyedit-apply.yml'
+        default: ''
 
 permissions:
   contents: write
@@ -27,8 +19,8 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  MANIFEST: ${{ inputs.manifest || 'docs/audit/beta1-copyedit-batch001-proposals.json' }}
-  OVERRIDES: ${{ inputs.overrides || 'docs/audit/beta1-copyedit-batch001-overrides.json' }}
+  MANIFEST: ${{ inputs.manifest }}
+  OVERRIDES: ${{ inputs.overrides }}
 
 jobs:
   apply:
@@ -44,55 +36,50 @@ jobs:
           go-version-file: go.mod
           cache-dependency-path: go.sum
 
+      - name: Read reviewed target file
+        run: |
+          TARGET_FILE="$(python3 - <<'PY'
+          import json, os
+          data=json.load(open(os.environ['MANIFEST'],encoding='utf-8'))
+          print(data['korean_file'])
+          PY
+          )"
+          echo "TARGET_FILE=$TARGET_FILE" >> "$GITHUB_ENV"
+
       - name: Apply exact reviewed semantic values
-        run: python3 tools/korean/apply-reviewed-copyedit.py --manifest "$MANIFEST" --overrides "$OVERRIDES" --json /tmp/copyedit-apply.json
+        run: |
+          args=(--manifest "$MANIFEST" --json /tmp/copyedit-apply.json)
+          if [ -n "$OVERRIDES" ]; then args+=(--overrides "$OVERRIDES"); fi
+          python3 tools/korean/apply-reviewed-copyedit.py "${args[@]}"
 
       - name: Synchronize existing layout lexical content
         run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-sync.txt
 
       - name: Verify reviewed values and zero layout drift
         run: |
-          python3 tools/korean/apply-reviewed-copyedit.py --manifest "$MANIFEST" --overrides "$OVERRIDES" --verify --json /tmp/copyedit-verify.json
+          args=(--manifest "$MANIFEST" --verify --json /tmp/copyedit-verify.json)
+          if [ -n "$OVERRIDES" ]; then args+=(--overrides "$OVERRIDES"); fi
+          python3 tools/korean/apply-reviewed-copyedit.py "${args[@]}"
           python3 tools/korean/qa-layout-drift.py
 
-      - name: Require batch001 calibration counts
-        if: env.MANIFEST == 'docs/audit/beta1-copyedit-batch001-proposals.json'
+      - name: Require only reviewed overlay changed
         run: |
           python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          result = json.load(open('/tmp/copyedit-apply.json', encoding='utf-8'))
-          if result['proposed_records'] != 29 or result['changed_records'] != 29:
-              raise SystemExit(f"batch001 apply count mismatch: {result}")
-          if result.get('override_records') != 1:
-              raise SystemExit(f"batch001 expected exactly one audited override: {result}")
-          text = Path('/tmp/layout-sync.txt').read_text(encoding='utf-8')
-          if 'layout_lexical_drift_count=27' not in text or 'layout_lexical_fixed=27' not in text:
-              raise SystemExit('batch001 expected exactly 27 persisted-layout lexical synchronizations')
-          PY
-
-      - name: Require only the reviewed section file changed
-        run: |
-          python3 - <<'PY'
-          import subprocess
-          allowed = {'translations/korean/messages/msgsec001.toml'}
-          changed = set(filter(None, subprocess.check_output(['git','diff','--name-only'], text=True).splitlines()))
-          unexpected = changed - allowed
-          if unexpected:
-              raise SystemExit(f'unexpected working-tree changes: {sorted(unexpected)}')
+          import os, subprocess
+          allowed={os.environ['TARGET_FILE']}
+          changed=set(filter(None,subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()))
           if changed != allowed:
-              raise SystemExit(f'expected section001 to change, found: {sorted(changed)}')
+              raise SystemExit(f'expected only {sorted(allowed)}, found {sorted(changed)}')
           PY
           git diff --check
 
-      - name: Tier A glyph and Korean contract gates
+      - name: Per-batch glyph and Korean contract gates
         run: |
           python3 tools/korean/audit-korean-glyph-repertoire.py
           ./zill korean-check
           ./zill korean-font-check
 
-      - name: Tier A corpus QA gates
+      - name: Per-batch corpus QA gates
         run: |
           python3 tools/korean/qa-integrity.py --json /tmp/korean-qa-integrity.json --max-examples 40
           python3 tools/korean/qa-terminology.py --json /tmp/korean-qa-terminology.json --max-examples 60
@@ -108,21 +95,17 @@ jobs:
           sanity=json.load(open('/tmp/korean-qa-text-sanity.json',encoding='utf-8'))
           critical=integrity.get('critical', [])
           critical_count=len(critical) if isinstance(critical,list) else int(critical or 0)
-          if critical_count != 0:
-              raise SystemExit(f'QA-1 critical={critical_count}')
-          if terms.get('mismatch_count',0) != 0:
-              raise SystemExit(f"QA-2 mismatch={terms.get('mismatch_count')}")
+          if critical_count != 0: raise SystemExit(f'QA-1 critical={critical_count}')
+          if terms.get('mismatch_count',0) != 0: raise SystemExit(f"QA-2 mismatch={terms.get('mismatch_count')}")
           if consistency.get('actionable_inconsistent_groups',0) != 0 or consistency.get('actionable_inconsistent_records',0) != 0:
               raise SystemExit('QA-3 actionable inconsistency remains')
-          if sanity.get('finding_count',0) != 0:
-              raise SystemExit(f"text sanity findings={sanity.get('finding_count')}")
+          if sanity.get('finding_count',0) != 0: raise SystemExit(f"text sanity findings={sanity.get('finding_count')}")
           PY
 
-      - name: First-batch calibration full Go test
-        if: env.MANIFEST == 'docs/audit/beta1-copyedit-batch001-proposals.json'
-        run: go test ./...
+      - name: Per-batch English-consumer storage contract
+        run: go test ./internal/release -run TestCurrentKoreanCorpusEnglishConsumerStorageContracts -count=1
 
-      - name: Upload calibration evidence
+      - name: Upload batch evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -140,12 +123,12 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
-      - name: Commit accepted working-tree candidate
+      - name: Commit accepted batch
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add translations/korean/messages/msgsec001.toml
-          git commit -m 'copyedit: apply Beta1 section001 reviewed fixes'
+          git add "$TARGET_FILE"
+          git commit -m "copyedit: apply Beta1 reviewed batch from $(basename "$MANIFEST")"
           git fetch origin milestone/Beta1
           git rebase origin/milestone/Beta1
           git push origin HEAD:milestone/Beta1
