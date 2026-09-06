@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v6
         with:
           repository: HK47196/zill
-          ref: master
+          ref: a98d9ce29f361d666ec23da0dcfd351f24537ffd
           path: english
       - name: Export aligned Japanese English Korean corpus
         working-directory: korean
