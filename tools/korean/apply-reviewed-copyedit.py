@@ -3,7 +3,9 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 import tomllib
+from collections import defaultdict
 from copy import deepcopy
 from pathlib import Path
 
@@ -19,13 +21,46 @@ def controls(text: str) -> list[str]:
     return CONTROL_RE.findall(text)
 
 
+def manifest_digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def current_head(root: Path) -> str:
+    return subprocess.check_output(["git", "-C", str(root), "rev-parse", "HEAD"], text=True).strip()
+
+
+def is_ancestor(root: Path, ancestor: str, descendant: str) -> bool:
+    proc = subprocess.run(
+        ["git", "-C", str(root), "merge-base", "--is-ancestor", ancestor, descendant],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    return proc.returncode == 0
+
+
 def load_manifest(path: Path) -> dict:
     data = json.loads(path.read_text(encoding="utf-8"))
-    required = {"korean_file", "records"}
-    missing = required - data.keys()
-    if missing:
-        raise ValueError(f"manifest missing required fields: {sorted(missing)}")
+    if not isinstance(data.get("records"), list):
+        raise ValueError("manifest must contain a records list")
+    if not data.get("korean_file") and not all(
+        isinstance(record, dict) and (record.get("path") or record.get("paths"))
+        for record in data["records"]
+        if isinstance(record, dict) and record.get("decision") == "PROPOSED_CHANGE"
+    ):
+        raise ValueError("manifest needs korean_file or per-record path/paths")
     return data
+
+
+def validate_manifest_base(root: Path, manifest: dict, require_base_sha: bool) -> tuple[str, str]:
+    head = current_head(root)
+    base = str(manifest.get("korean_sha") or manifest.get("base_sha") or "")
+    if not base:
+        if require_base_sha:
+            raise ValueError("manifest missing korean_sha/base_sha")
+        return "", head
+    if not is_ancestor(root, base, head):
+        raise ValueError(f"manifest base {base} is not an ancestor of current HEAD {head}")
+    return base, head
 
 
 def load_overrides(path: Path | None) -> dict[str, dict]:
@@ -78,6 +113,20 @@ def apply_overrides(manifest: dict, overrides: dict[str, dict]) -> tuple[dict, i
     return effective, len(overrides)
 
 
+def record_paths(manifest: dict, record: dict) -> list[str]:
+    if isinstance(record.get("paths"), list) and record["paths"]:
+        paths = [str(path) for path in record["paths"]]
+    elif record.get("path"):
+        paths = [str(record["path"])]
+    elif manifest.get("korean_file"):
+        paths = [str(manifest["korean_file"])]
+    else:
+        raise ValueError(f"record {record.get('id')} has no target path")
+    if len(paths) != len(set(paths)):
+        raise ValueError(f"record {record.get('id')} repeats target paths")
+    return paths
+
+
 def proposal_records(manifest: dict) -> list[dict]:
     out = []
     seen = set()
@@ -85,9 +134,11 @@ def proposal_records(manifest: dict) -> list[dict]:
         if record.get("decision") != "PROPOSED_CHANGE":
             continue
         rid = str(record["id"])
-        if rid in seen:
-            raise ValueError(f"duplicate proposed record id {rid}")
-        seen.add(rid)
+        paths = tuple(record_paths(manifest, record))
+        key = (rid, paths)
+        if key in seen:
+            raise ValueError(f"duplicate proposed record id/path set {rid} {paths}")
+        seen.add(key)
         before = record["before_korean"]
         after = record["proposed_korean"]
         if before == after:
@@ -109,15 +160,15 @@ def read_overlay(path: Path) -> tuple[str, dict]:
     return text, data
 
 
-def validate_record_state(data: dict, record: dict, verify: bool) -> str:
+def validate_record_state(data: dict, record: dict, verify: bool, path: str) -> str:
     rid = str(record["id"])
     if rid not in data:
-        raise ValueError(f"record {rid} missing from Korean overlay")
+        raise ValueError(f"record {rid} missing from Korean overlay {path}")
     row = data[rid]
     expected_japanese = record.get("japanese")
     if expected_japanese is not None and row.get("japanese") != expected_japanese:
         raise ValueError(
-            f"record {rid} Japanese/source reference changed: "
+            f"record {rid} Japanese/source reference changed in {path}: "
             f"expected {expected_japanese!r}, found {row.get('japanese')!r}"
         )
     current = row.get("korean")
@@ -125,15 +176,14 @@ def validate_record_state(data: dict, record: dict, verify: bool) -> str:
     after = record["proposed_korean"]
     if verify:
         if current != after:
-            raise ValueError(f"record {rid} is not at reviewed after-value")
+            raise ValueError(f"record {rid} in {path} is not at reviewed after-value")
         return "verified"
     if current == before:
         return "apply"
     if current == after:
         return "already-applied"
     raise ValueError(
-        f"record {rid} Korean no longer matches reviewed before/after values; "
-        f"refusing blind overwrite"
+        f"record {rid} in {path} no longer matches reviewed before/after values; refusing blind overwrite"
     )
 
 
@@ -164,51 +214,90 @@ def apply_manifest(
     manifest_path: Path,
     verify: bool = False,
     overrides_path: Path | None = None,
+    require_base_sha: bool = False,
 ) -> dict:
     manifest = load_manifest(manifest_path)
+    base_sha, head_sha = validate_manifest_base(root, manifest, require_base_sha)
     overrides = load_overrides(overrides_path)
     manifest, override_count = apply_overrides(manifest, overrides)
     records = proposal_records(manifest)
-    overlay_path = root / manifest["korean_file"]
-    text, data = read_overlay(overlay_path)
 
-    states = {}
-    replacements = {}
+    per_path_records: dict[str, list[dict]] = defaultdict(list)
     for record in records:
-        rid = str(record["id"])
-        state = validate_record_state(data, record, verify)
-        states[rid] = state
-        if state == "apply":
-            replacements[rid] = record["proposed_korean"]
+        for path in record_paths(manifest, record):
+            per_path_records[path].append(record)
+
+    loaded: dict[str, tuple[str, dict]] = {}
+    states = {}
+    replacements_by_path: dict[str, dict[str, str]] = defaultdict(dict)
+    logical_changed = set()
+    physical_apply_count = 0
+
+    # Phase 1: validate every target across every file before mutating anything.
+    for rel_path in sorted(per_path_records):
+        overlay_path = root / rel_path
+        text, data = read_overlay(overlay_path)
+        loaded[rel_path] = (text, data)
+        seen_ids = set()
+        for record in per_path_records[rel_path]:
+            rid = str(record["id"])
+            if rid in seen_ids:
+                raise ValueError(f"duplicate target record {rid} within {rel_path}")
+            seen_ids.add(rid)
+            state = validate_record_state(data, record, verify, rel_path)
+            states[f"{rel_path}:{rid}"] = state
+            if state == "apply":
+                replacements_by_path[rel_path][rid] = record["proposed_korean"]
+                logical_changed.add(rid)
+                physical_apply_count += 1
 
     if verify:
         return {
             "status": "VERIFIED_APPLIED",
+            "manifest_sha256": manifest_digest(manifest_path),
+            "manifest_base_sha": base_sha,
+            "current_head_sha": head_sha,
             "proposed_records": len(records),
-            "verified_records": len(records),
+            "verified_physical_targets": len(states),
             "changed_records": 0,
             "override_records": override_count,
-            "korean_file": manifest["korean_file"],
+            "target_files": sorted(per_path_records),
         }
 
-    if replacements:
-        rendered = rewrite_korean_lines(text, replacements)
-        overlay_path.write_text(rendered, encoding="utf-8", newline="")
+    # Phase 2: render and parse every output in memory before writing any file.
+    rendered_by_path = {}
+    for rel_path, replacements in replacements_by_path.items():
+        if not replacements:
+            continue
+        text, _ = loaded[rel_path]
+        rendered_by_path[rel_path] = rewrite_korean_lines(text, replacements)
+
+    # Phase 3: only after all validations/renders succeed, write target files.
+    for rel_path, rendered in rendered_by_path.items():
+        (root / rel_path).write_text(rendered, encoding="utf-8", newline="")
+
+    file_hashes = {}
+    for rel_path in sorted(per_path_records):
+        overlay_path = root / rel_path
         _, post = read_overlay(overlay_path)
-        for record in records:
+        for record in per_path_records[rel_path]:
             rid = str(record["id"])
             if post[rid].get("korean") != record["proposed_korean"]:
-                raise ValueError(f"record {rid} failed post-write verification")
+                raise ValueError(f"record {rid} in {rel_path} failed post-write verification")
+        file_hashes[rel_path] = hashlib.sha256(overlay_path.read_bytes()).hexdigest()
 
-    digest = hashlib.sha256(overlay_path.read_bytes()).hexdigest()
     return {
         "status": "APPLIED_OR_ALREADY_APPLIED",
+        "manifest_sha256": manifest_digest(manifest_path),
+        "manifest_base_sha": base_sha,
+        "current_head_sha": head_sha,
         "proposed_records": len(records),
-        "changed_records": len(replacements),
-        "already_applied_records": len(records) - len(replacements),
+        "changed_records": len(logical_changed),
+        "physical_targets_changed": physical_apply_count,
+        "already_applied_physical_targets": len(states) - physical_apply_count,
         "override_records": override_count,
-        "korean_file": manifest["korean_file"],
-        "korean_file_sha256": digest,
+        "target_files": sorted(per_path_records),
+        "target_file_sha256": file_hashes,
     }
 
 
@@ -217,6 +306,7 @@ def main() -> int:
     parser.add_argument("--manifest", required=True, type=Path)
     parser.add_argument("--overrides", type=Path)
     parser.add_argument("--verify", action="store_true")
+    parser.add_argument("--require-base-sha", action="store_true")
     parser.add_argument("--json", type=Path)
     args = parser.parse_args()
 
@@ -232,6 +322,7 @@ def main() -> int:
         manifest_path,
         verify=args.verify,
         overrides_path=overrides_path,
+        require_base_sha=args.require_base_sha,
     )
     rendered = json.dumps(result, ensure_ascii=False, indent=2)
     print(rendered)
