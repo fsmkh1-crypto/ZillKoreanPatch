@@ -5,8 +5,9 @@ SECTION_RE=re.compile(r'^\["([0-9]+)"\]$')
 CONTROL_RE=re.compile(r'<[^>]+>')
 def q(s): return json.dumps(s,ensure_ascii=False)
 def controls(s): return CONTROL_RE.findall(s)
+def comma_space_norm(s): return re.sub(r',\s+', ',', s)
 def main():
- p=argparse.ArgumentParser();p.add_argument('--manifest',required=True,type=Path);p.add_argument('--apply',action='store_true');p.add_argument('--json',type=Path);a=p.parse_args();root=Path(__file__).resolve().parents[2];mp=a.manifest if a.manifest.is_absolute() else root/a.manifest;m=json.loads(mp.read_text(encoding='utf-8'));byfile={}
+ p=argparse.ArgumentParser();p.add_argument('--manifest',required=True,type=Path);p.add_argument('--apply',action='store_true');p.add_argument('--allow-comma-space-variance',action='store_true');p.add_argument('--json',type=Path);a=p.parse_args();root=Path(__file__).resolve().parents[2];mp=a.manifest if a.manifest.is_absolute() else root/a.manifest;m=json.loads(mp.read_text(encoding='utf-8'));byfile={}
  for r in m['records']:
   if controls(r['before_korean'])!=controls(r['proposed_korean']): raise SystemExit(f"control topology differs id={r['id']}")
   for path in r['paths']: byfile.setdefault(path,[]).append(r)
@@ -18,7 +19,8 @@ def main():
    if not row: mismatches.append({'id':rid,'path':rel,'error':'missing'});continue
    cur=row.get('korean');before=r['before_korean'];after=r['proposed_korean']
    if cur==after: continue
-   if cur!=before:
+   equivalent=a.allow_comma_space_variance and comma_space_norm(cur)==comma_space_norm(before)
+   if cur!=before and not equivalent:
     mismatches.append({'id':rid,'path':rel,'expected_before':before,'actual':cur});continue
    repl[rid]=after
   file_work[rel]=(path,text,repl)
