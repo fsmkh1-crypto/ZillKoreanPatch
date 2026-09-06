@@ -12,9 +12,7 @@ on:
     branches:
       - milestone/Beta1
     paths:
-      - 'tools/korean/beta1-terminology-migrate.py'
-      - 'tools/korean/test_beta1_terminology_migrate.py'
-      - '.github/workflows/beta1-terminology-migrate.yml'
+      - 'docs/audit/BETA1_TERMINOLOGY_APPLY_REQUESTED'
 
 permissions:
   contents: write
@@ -22,6 +20,9 @@ permissions:
 concurrency:
   group: beta1-terminology-migration
   cancel-in-progress: false
+
+env:
+  APPLY_REQUESTED: ${{ (github.event_name == 'workflow_dispatch' && inputs.apply) || github.event_name == 'push' }}
 
 jobs:
   migrate:
@@ -51,15 +52,15 @@ jobs:
           PY
 
       - name: Apply migration
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        if: env.APPLY_REQUESTED == 'true'
         run: python3 tools/korean/beta1-terminology-migrate.py --apply --json /tmp/beta1-term-migrate-apply.json
 
       - name: Synchronize persisted layout lexical content
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        if: env.APPLY_REQUESTED == 'true'
         run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/beta1-term-layout-sync.txt
 
       - name: Require zero approved legacy terminology after apply
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        if: env.APPLY_REQUESTED == 'true'
         run: |
           python3 tools/korean/beta1-terminology-audit.py --json /tmp/beta1-term-post-audit.json
           python3 - <<'PY'
@@ -75,7 +76,7 @@ jobs:
           python3 tools/korean/qa-layout-drift.py
 
       - name: Checkpoint Korean data gates
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        if: env.APPLY_REQUESTED == 'true'
         run: |
           python3 tools/korean/audit-korean-glyph-repertoire.py
           ./zill korean-check
@@ -100,7 +101,7 @@ jobs:
           PY
 
       - name: Full checkpoint Go test
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        if: env.APPLY_REQUESTED == 'true'
         run: go test ./...
 
       - name: Upload migration evidence
@@ -122,7 +123,7 @@ jobs:
           retention-days: 30
 
       - name: Commit accepted terminology migration
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply }}
+        if: env.APPLY_REQUESTED == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
