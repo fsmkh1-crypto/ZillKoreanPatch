@@ -28,6 +28,14 @@ var koreanDialogueMovableValueTags = map[string]bool{
 	"<VALUE:$2B>": true,
 }
 
+// Bounded movable substitutions may participate in static C5 reflow because
+// the layout engine can reserve their proven worst-case rendered advance. Do
+// not add an opcode here merely because it is movable: each entry needs an
+// engine/game-contract bound that is also reflected by Korean measurement.
+var koreanDialogueBoundedInlineValueTags = map[string]bool{
+	"<VALUE:$28>": true, // player name: bounded by playerNameMaxCharacters/EncodedBytes
+}
+
 func koreanDialogueRuntimeSubstitution(id int, text string) bool {
 	upper := strings.ToUpper(text)
 	for tag := range koreanDialogueMovableValueTags {
@@ -38,11 +46,21 @@ func koreanDialogueRuntimeSubstitution(id int, text string) bool {
 	return formatSignatureID(id) && printfConversion.MatchString(visible(text))
 }
 
+func koreanDialogueUnboundedRuntimeSubstitution(id int, text string) bool {
+	upper := strings.ToUpper(text)
+	for tag := range koreanDialogueMovableValueTags {
+		if strings.Contains(upper, tag) && !koreanDialogueBoundedInlineValueTags[tag] {
+			return true
+		}
+	}
+	return formatSignatureID(id) && printfConversion.MatchString(visible(text))
+}
+
 // koreanEnglishDialogueVisualConsumer mirrors the upstream English visual
 // reflow population. Existing narrow_text behavior remains unchanged. C5 and
-// C5-portrait records have explicit dialogue advance limits too, but newly
-// admitted C5-only records are statically reflowed only when their canonical
-// Korean has no runtime substitution whose final width is unknowable here.
+// C5-portrait records have explicit dialogue advance limits too; a movable
+// substitution excludes a newly admitted C5-only record only when its inline
+// rendered width is not proven/bounded by the current measurement contract.
 func (e *Engine) koreanEnglishDialogueVisualConsumer(id int, semantic string) bool {
 	if e.narrowText(id) {
 		return true
@@ -50,7 +68,7 @@ func (e *Engine) koreanEnglishDialogueVisualConsumer(id int, semantic string) bo
 	if !e.has(e.consumers.C5IDs, id) && !e.has(e.consumers.C5PortraitIDs, id) {
 		return false
 	}
-	return !koreanDialogueRuntimeSubstitution(id, semantic)
+	return !koreanDialogueUnboundedRuntimeSubstitution(id, semantic)
 }
 
 // DeriveKoreanEnglishDialogueLayouts mirrors the upstream English Reflow path
@@ -90,10 +108,10 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 		}
 
 		var candidate string
-		if koreanDialogueRuntimeSubstitution(row.ID, effective) {
-			// Existing narrow_text records with runtime substitutions keep the
-			// established adjacency-safe wrapper. Newly admitted C5-only dynamic
-			// records are excluded by koreanEnglishDialogueVisualConsumer above.
+		if e.narrowText(row.ID) && koreanDialogueRuntimeSubstitution(row.ID, effective) {
+			// Preserve the established narrow_text dynamic wrapper. The C5-only
+			// bounded-substitution defect is fixed through the source-aware path
+			// below without broadening this legacy behavior speculatively.
 			candidate, err = e.wrapKoreanVisualToLimit(effective, row.ID, mapping, limit)
 		} else {
 			projection, projectionErr := message.Project(item.Record)
