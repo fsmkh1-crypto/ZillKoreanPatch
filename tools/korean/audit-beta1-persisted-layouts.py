@@ -40,7 +40,7 @@ def main() -> int:
             if not isinstance(korean, str) or not isinstance(layout, str) or not layout:
                 continue
             persisted += 1
-            if qa.semantic_spacing_key(korean) != qa.semantic_spacing_key(layout):
+            if not qa.spacing_equivalent(korean, layout):
                 spacing_drift.append({"path": rel, "id": str(rid), "korean": korean, "layout": layout})
             if COMMA_NO_SPACE_RE.search(layout):
                 comma_no_space_layout.append({"path": rel, "id": str(rid), "korean": korean, "layout": layout})
@@ -54,11 +54,11 @@ def main() -> int:
         "persisted_layout_count": persisted,
         "semantic_spacing_drift_count": len(spacing_drift),
         "comma_no_space_layout_count": len(comma_no_space_layout),
-        "kinsoku_line_start_count": len(kinsoku_start),
+        "kinsoku_line_start_baseline_count": len(kinsoku_start),
         "digit_comma_space_digit_count": len(digit_comma_space_digit),
         "semantic_spacing_drift": spacing_drift,
         "comma_no_space_layout": comma_no_space_layout,
-        "kinsoku_line_start": kinsoku_start,
+        "kinsoku_line_start_baseline": kinsoku_start,
         "digit_comma_space_digit": digit_comma_space_digit,
     }
     rendered = json.dumps(result, ensure_ascii=False, indent=2)
