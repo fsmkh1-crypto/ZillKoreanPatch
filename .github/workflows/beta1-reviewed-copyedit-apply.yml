@@ -1,0 +1,144 @@
+name: Beta1 reviewed copyedit apply
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: Reviewed copyedit proposal manifest
+        required: true
+        default: docs/audit/beta1-copyedit-batch001-proposals.json
+  push:
+    branches:
+      - milestone/Beta1
+    paths:
+      # Bootstrap the first calibration run when this workflow is introduced.
+      # After batch001 succeeds, remove this push trigger and keep dispatch-only.
+      - '.github/workflows/beta1-reviewed-copyedit-apply.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: beta1-reviewed-copyedit-apply
+  cancel-in-progress: false
+
+env:
+  MANIFEST: ${{ inputs.manifest || 'docs/audit/beta1-copyedit-batch001-proposals.json' }}
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          fetch-depth: 0
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+
+      - name: Apply exact reviewed semantic values
+        run: python3 tools/korean/apply-reviewed-copyedit.py --manifest "$MANIFEST" --json /tmp/copyedit-apply.json
+
+      - name: Synchronize existing layout lexical content
+        run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-sync.txt
+
+      - name: Verify reviewed values and zero layout drift
+        run: |
+          python3 tools/korean/apply-reviewed-copyedit.py --manifest "$MANIFEST" --verify --json /tmp/copyedit-verify.json
+          python3 tools/korean/qa-layout-drift.py
+
+      - name: Require batch001 calibration counts
+        if: env.MANIFEST == 'docs/audit/beta1-copyedit-batch001-proposals.json'
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          result = json.load(open('/tmp/copyedit-apply.json', encoding='utf-8'))
+          if result['proposed_records'] != 29 or result['changed_records'] != 29:
+              raise SystemExit(f"batch001 apply count mismatch: {result}")
+          text = Path('/tmp/layout-sync.txt').read_text(encoding='utf-8')
+          if 'layout_lexical_drift_count=27' not in text or 'layout_lexical_fixed=27' not in text:
+              raise SystemExit('batch001 expected exactly 27 persisted-layout lexical synchronizations')
+          PY
+
+      - name: Require only the reviewed section file changed
+        run: |
+          python3 - <<'PY'
+          import subprocess
+          allowed = {'translations/korean/messages/msgsec001.toml'}
+          changed = set(filter(None, subprocess.check_output(['git','diff','--name-only'], text=True).splitlines()))
+          unexpected = changed - allowed
+          if unexpected:
+              raise SystemExit(f'unexpected working-tree changes: {sorted(unexpected)}')
+          if changed != allowed:
+              raise SystemExit(f'expected section001 to change, found: {sorted(changed)}')
+          PY
+          git diff --check
+
+      - name: Tier A glyph and Korean contract gates
+        run: |
+          python3 tools/korean/audit-korean-glyph-repertoire.py
+          ./zill korean-check
+          ./zill korean-font-check
+
+      - name: Tier A corpus QA gates
+        run: |
+          python3 tools/korean/qa-integrity.py --json /tmp/korean-qa-integrity.json --max-examples 40
+          python3 tools/korean/qa-terminology.py --json /tmp/korean-qa-terminology.json --max-examples 60
+          python3 tools/korean/qa-consistency.py --json /tmp/korean-qa-consistency.json --max-examples 40
+          python3 tools/korean/qa-consistency-triage.py --json /tmp/korean-qa-consistency-triage.json --max-examples 40
+          python3 tools/korean/qa-voice.py --json /tmp/korean-qa-voice.json --max-examples 80
+          python3 tools/korean/qa-text-sanity.py --json /tmp/korean-qa-text-sanity.json --max-examples 80
+          python3 - <<'PY'
+          import json
+          integrity=json.load(open('/tmp/korean-qa-integrity.json',encoding='utf-8'))
+          terms=json.load(open('/tmp/korean-qa-terminology.json',encoding='utf-8'))
+          consistency=json.load(open('/tmp/korean-qa-consistency.json',encoding='utf-8'))
+          sanity=json.load(open('/tmp/korean-qa-text-sanity.json',encoding='utf-8'))
+          critical=integrity.get('critical', [])
+          critical_count=len(critical) if isinstance(critical,list) else int(critical or 0)
+          if critical_count != 0:
+              raise SystemExit(f'QA-1 critical={critical_count}')
+          if terms.get('mismatch_count',0) != 0:
+              raise SystemExit(f"QA-2 mismatch={terms.get('mismatch_count')}")
+          if consistency.get('actionable_inconsistent_groups',0) != 0 or consistency.get('actionable_inconsistent_records',0) != 0:
+              raise SystemExit('QA-3 actionable inconsistency remains')
+          if sanity.get('finding_count',0) != 0:
+              raise SystemExit(f"text sanity findings={sanity.get('finding_count')}")
+          PY
+
+      - name: First-batch calibration full Go test
+        if: env.MANIFEST == 'docs/audit/beta1-copyedit-batch001-proposals.json'
+        run: go test ./...
+
+      - name: Upload calibration evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: beta1-reviewed-copyedit-evidence
+          path: |
+            /tmp/copyedit-apply.json
+            /tmp/copyedit-verify.json
+            /tmp/layout-sync.txt
+            /tmp/korean-qa-integrity.json
+            /tmp/korean-qa-terminology.json
+            /tmp/korean-qa-consistency.json
+            /tmp/korean-qa-consistency-triage.json
+            /tmp/korean-qa-voice.json
+            /tmp/korean-qa-text-sanity.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit accepted working-tree candidate
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages/msgsec001.toml
+          git commit -m 'copyedit: apply Beta1 section001 reviewed fixes'
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
