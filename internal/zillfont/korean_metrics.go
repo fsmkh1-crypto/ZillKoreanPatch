@@ -10,16 +10,17 @@ import (
 )
 
 const (
-	KoreanRasterWidth   = 10
-	KoreanRasterHeight  = 10
-	KoreanTargetBearingX = 1
+	KoreanRasterWidth    = 11
+	KoreanRasterHeight   = 11
+	KoreanTargetBearingX = 0
 	KoreanTargetBearingY = -9
 	KoreanTargetAdvance  = 12
 )
 
-// KoreanPlacement returns where the proven 10x10 Korean raster must be pasted
-// inside an existing retail glyph cell so its effective bearing is (1,-9) with
-// advance 12. The PAF record itself remains unchanged.
+// KoreanPlacement returns where the 11x11 Korean readability-PoC raster must
+// be pasted inside an existing retail glyph cell so its effective bearing is
+// (0,-9) with advance 12. The PAF record itself remains unchanged on this
+// compatibility path; the authenticated full-repack path writes these metrics.
 func KoreanPlacement(glyph Glyph) (pasteX, pasteY int, err error) {
 	if glyph.Advance != KoreanTargetAdvance {
 		return 0, 0, fmt.Errorf("glyph %d key 0x%04X advance %d, want %d", glyph.Index, uint16(glyph.Key), glyph.Advance, KoreanTargetAdvance)
@@ -38,9 +39,9 @@ func KoreanPlacement(glyph Glyph) (pasteX, pasteY int, err error) {
 }
 
 // KoreanCompatibleKeys returns installed two-byte renderer keys whose existing
-// PAF metrics can host the proven Korean raster without changing PAF metadata.
-// The result is sorted and therefore safe to feed directly to deterministic
-// slot allocation.
+// PAF metrics can host the Korean raster without changing PAF metadata. The
+// result is sorted and therefore safe to feed directly to deterministic slot
+// allocation.
 func (p *PAF) KoreanCompatibleKeys() []cp932.GlyphKey {
 	if p == nil {
 		return nil
@@ -59,8 +60,8 @@ func (p *PAF) KoreanCompatibleKeys() []cp932.GlyphKey {
 	return keys
 }
 
-// PlaceKoreanRaster converts one proven 10x10 raster into the exact dimensions
-// of its selected retail cell using the placement derived from PAF metrics.
+// PlaceKoreanRaster converts one Korean raster into the exact dimensions of its
+// selected retail cell using the placement derived from PAF metrics.
 func PlaceKoreanRaster(glyph Glyph, source Raster) (Raster, error) {
 	if source.Width != KoreanRasterWidth || source.Height != KoreanRasterHeight {
 		return Raster{}, fmt.Errorf("Korean source raster is %dx%d, want %dx%d", source.Width, source.Height, KoreanRasterWidth, KoreanRasterHeight)
