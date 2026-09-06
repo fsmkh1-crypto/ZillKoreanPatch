@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 import tomllib
+from copy import deepcopy
 from pathlib import Path
 
 SECTION_RE = re.compile(r'^\["([0-9]+)"\]$')
@@ -25,6 +26,56 @@ def load_manifest(path: Path) -> dict:
     if missing:
         raise ValueError(f"manifest missing required fields: {sorted(missing)}")
     return data
+
+
+def load_overrides(path: Path | None) -> dict[str, dict]:
+    if path is None:
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    entries = data.get("overrides")
+    if not isinstance(entries, list):
+        raise ValueError("override file must contain an 'overrides' list")
+    out = {}
+    for entry in entries:
+        rid = str(entry["id"])
+        if rid in out:
+            raise ValueError(f"duplicate override record id {rid}")
+        required = {"reviewed_proposed_korean", "replacement_proposed_korean", "reason"}
+        missing = required - entry.keys()
+        if missing:
+            raise ValueError(f"override {rid} missing required fields: {sorted(missing)}")
+        out[rid] = entry
+    return out
+
+
+def apply_overrides(manifest: dict, overrides: dict[str, dict]) -> tuple[dict, int]:
+    if not overrides:
+        return manifest, 0
+    effective = deepcopy(manifest)
+    records = {str(record["id"]): record for record in effective["records"]}
+    for rid, override in overrides.items():
+        if rid not in records:
+            raise ValueError(f"override {rid} does not exist in reviewed manifest")
+        record = records[rid]
+        if record.get("decision") != "PROPOSED_CHANGE":
+            raise ValueError(f"override {rid} does not target a PROPOSED_CHANGE record")
+        reviewed = override["reviewed_proposed_korean"]
+        replacement = override["replacement_proposed_korean"]
+        if record.get("proposed_korean") != reviewed:
+            raise ValueError(
+                f"override {rid} reviewed proposal mismatch: "
+                f"manifest={record.get('proposed_korean')!r} override={reviewed!r}"
+            )
+        if reviewed == replacement:
+            raise ValueError(f"override {rid} replacement equals reviewed proposal")
+        if controls(reviewed) != controls(replacement):
+            raise ValueError(
+                f"override {rid} changes runtime control/substitution topology: "
+                f"{controls(reviewed)!r} -> {controls(replacement)!r}"
+            )
+        record["proposed_korean"] = replacement
+        record["override_reason"] = override["reason"]
+    return effective, len(overrides)
 
 
 def proposal_records(manifest: dict) -> list[dict]:
@@ -108,8 +159,15 @@ def rewrite_korean_lines(text: str, replacements: dict[str, str]) -> str:
     return rendered
 
 
-def apply_manifest(root: Path, manifest_path: Path, verify: bool = False) -> dict:
+def apply_manifest(
+    root: Path,
+    manifest_path: Path,
+    verify: bool = False,
+    overrides_path: Path | None = None,
+) -> dict:
     manifest = load_manifest(manifest_path)
+    overrides = load_overrides(overrides_path)
+    manifest, override_count = apply_overrides(manifest, overrides)
     records = proposal_records(manifest)
     overlay_path = root / manifest["korean_file"]
     text, data = read_overlay(overlay_path)
@@ -129,6 +187,7 @@ def apply_manifest(root: Path, manifest_path: Path, verify: bool = False) -> dic
             "proposed_records": len(records),
             "verified_records": len(records),
             "changed_records": 0,
+            "override_records": override_count,
             "korean_file": manifest["korean_file"],
         }
 
@@ -147,6 +206,7 @@ def apply_manifest(root: Path, manifest_path: Path, verify: bool = False) -> dic
         "proposed_records": len(records),
         "changed_records": len(replacements),
         "already_applied_records": len(records) - len(replacements),
+        "override_records": override_count,
         "korean_file": manifest["korean_file"],
         "korean_file_sha256": digest,
     }
@@ -155,6 +215,7 @@ def apply_manifest(root: Path, manifest_path: Path, verify: bool = False) -> dic
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", required=True, type=Path)
+    parser.add_argument("--overrides", type=Path)
     parser.add_argument("--verify", action="store_true")
     parser.add_argument("--json", type=Path)
     args = parser.parse_args()
@@ -163,7 +224,15 @@ def main() -> int:
     manifest_path = args.manifest
     if not manifest_path.is_absolute():
         manifest_path = root / manifest_path
-    result = apply_manifest(root, manifest_path, verify=args.verify)
+    overrides_path = args.overrides
+    if overrides_path is not None and not overrides_path.is_absolute():
+        overrides_path = root / overrides_path
+    result = apply_manifest(
+        root,
+        manifest_path,
+        verify=args.verify,
+        overrides_path=overrides_path,
+    )
     rendered = json.dumps(result, ensure_ascii=False, indent=2)
     print(rendered)
     if args.json:
