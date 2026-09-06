@@ -90,3 +90,22 @@ func TestSplitRepositoryReflowFragmentsKeepsSelectArithmeticOperandFixed(t *test
 		t.Fatalf("controls=%q, want %q", controls, wantControls)
 	}
 }
+
+func TestRepositorySemanticProjectionUsesSourceNumericBoundary(t *testing.T) {
+	sourceFragments, sourceControls := splitRepositoryReflowFragments("<select><value:$20>%4８世紀末<end>", true)
+	if !reflect.DeepEqual(sourceFragments, []string{"", "８世紀末", ""}) {
+		t.Fatalf("source fragments=%q", sourceFragments)
+	}
+	if !reflect.DeepEqual(sourceControls, []string{"<select><value:$20>%4", "<end>"}) {
+		t.Fatalf("source controls=%q", sourceControls)
+	}
+
+	fragments, err := splitRepositorySemanticAgainstSourceControls("<select><value:$20>%48세기 말<end>", sourceControls)
+	if err != nil {
+		t.Fatal(err)
+	}
+	want := []string{"", "8세기 말", ""}
+	if !reflect.DeepEqual(fragments, want) {
+		t.Fatalf("Korean fragments=%q, want %q", fragments, want)
+	}
+}
