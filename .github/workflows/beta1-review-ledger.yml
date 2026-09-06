@@ -28,7 +28,7 @@ jobs:
           git diff --check
       - name: Commit generated review coverage
         run: |
-          if git diff --quiet -- docs/audit/beta1-review-ledger.json docs/audit/beta1-review-coverage.md; then
+          if [ -z "$(git status --porcelain -- docs/audit/beta1-review-ledger.json docs/audit/beta1-review-coverage.md)" ]; then
             echo 'Review ledger already current.'
             exit 0
           fi
