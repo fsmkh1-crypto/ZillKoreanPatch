@@ -65,12 +65,46 @@ func TestCurrentKoreanCorpusEnglishConsumerStorageContracts(t *testing.T) {
 	if err != nil { t.Fatal(err) }
 	layouts, derivedDialogue, err := engine.DeriveKoreanEnglishDialogueLayouts(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
+
+	// The residual audit deliberately follows derivation eligibility. Keep it as
+	// a derivation-regression gate, but never treat residual_overflow=0 as proof
+	// that the whole verified dialogue population is visually safe.
 	dialogueChecked, dialogueOverflowIDs, err := engine.AuditKoreanEnglishDialogueResiduals(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
 	if len(dialogueOverflowIDs) != 0 {
-		t.Fatalf("verified dialogue residual overflow after English-authority reflow: count=%d ids=%v", len(dialogueOverflowIDs), dialogueOverflowIDs)
+		t.Fatalf("verified dialogue derivation-subset residual overflow after English-authority reflow: count=%d ids=%v", len(dialogueOverflowIDs), dialogueOverflowIDs)
 	}
-	t.Logf("FORENSIC KOREAN_DIALOGUE_REFLOW_SUMMARY checked=%d derived=%d residual_overflow=%d scope=verified_narrow_text", dialogueChecked, derivedDialogue, len(dialogueOverflowIDs))
+	t.Logf("FORENSIC KOREAN_DIALOGUE_REFLOW_SUMMARY checked=%d derived=%d residual_overflow=%d scope=derivation_subset_only", dialogueChecked, derivedDialogue, len(dialogueOverflowIDs))
+
+	// Independently measure every row belonging to the verified narrow/C5/C5-
+	// portrait dialogue consumers, including rows excluded from auto-derivation.
+	// Repository-proven static overflow is a hard failure. An excluded row whose
+	// static width fits remains explicitly PENDING because its runtime maximum is
+	// not proven without authenticated retail/runtime substitution evidence.
+	coverage, err := engine.AuditKoreanEnglishDialogueCoverage(source, korean, layouts, mapping)
+	if err != nil { t.Fatal(err) }
+	classified := coverage.DerivationEligible + coverage.PersistedLayout + len(coverage.Excluded)
+	if classified != coverage.Relevant {
+		t.Fatalf("whole-dialogue coverage classification drift: relevant=%d eligible=%d persisted=%d excluded=%d", coverage.Relevant, coverage.DerivationEligible, coverage.PersistedLayout, len(coverage.Excluded))
+	}
+	excludedByReason := make(map[string][]int)
+	for _, excluded := range coverage.Excluded {
+		excludedByReason[excluded.Reason] = append(excludedByReason[excluded.Reason], excluded.ID)
+	}
+	reasons := make([]string, 0, len(excludedByReason))
+	for reason := range excludedByReason { reasons = append(reasons, reason) }
+	sort.Strings(reasons)
+	for _, reason := range reasons {
+		ids := excludedByReason[reason]
+		sort.Ints(ids)
+		t.Logf("FORENSIC KOREAN_DIALOGUE_COVERAGE_EXCLUDED reason=%s count=%d ids=%v status=PENDING_NOT_PASS", reason, len(ids), ids)
+	}
+	if len(coverage.OverflowIDs) != 0 {
+		t.Fatalf("whole verified dialogue static overflow after effective layout: count=%d ids=%v excluded_overflow=%v", len(coverage.OverflowIDs), coverage.OverflowIDs, coverage.ExcludedOverflowIDs)
+	}
+	t.Logf("FORENSIC KOREAN_DIALOGUE_COVERAGE_SUMMARY relevant=%d eligible=%d persisted=%d excluded=%d static_overflow=%d excluded_static_overflow=%d exact_english_population=PENDING_ASSET_BACKED",
+		coverage.Relevant, coverage.DerivationEligible, coverage.PersistedLayout, len(coverage.Excluded), len(coverage.OverflowIDs), len(coverage.ExcludedOverflowIDs))
+
 	layouts, derivedVisual, err := engine.DeriveKoreanEnglishVisualLayouts(source, korean, layouts, mapping)
 	if err != nil { t.Fatal(err) }
 	if err := engine.ValidateKoreanEnglishConsumerContracts(source, korean, layouts, mapping); err != nil { t.Fatal(err) }
