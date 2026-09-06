@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "purpose": "Beta1 contextual copyedit 009: normalize isolated honorific spacing and repair source-confirmed translationese",
+  "source_head": "ef4e6b6e3dd359c737407411c963909ec13d96cf",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "450111",
+      "paths": ["translations/korean/messages/msgsec045-part99.toml"],
+      "before_korean": "<select><value:$20>%2반과 <value:$28>와 나… 우리 셋은 늘 함께지. 후후.<end>요즘 반의 아버지가 우리를 못마땅해해서 이 마을에 있기도 힘들지만… 봉가씨가 우리를 이해해 주도록 마을 사람들을 설득해 주고 있으니까….<end>",
+      "proposed_korean": "<select><value:$20>%2반과 <value:$28>와 나… 우리 셋은 늘 함께지. 후후.<end>요즘 반의 아버지가 우리를 못마땅해해서 이 마을에 있기도 힘들지만… 봉가 씨가 우리를 이해해 주도록 마을 사람들을 설득해 주고 있으니까….<end>",
+      "japanese": "<select><value:$20>%2ヴァンと<value:$28>と僕…<line-break>３人、いつも一緒だよね。ふふふ。<end>最近、ヴァンのお父さんの風当たりが<line-break>強くって、この町にもいづらいけど…<line-break>　<line-break>ボンガさんが、僕らのこと<line-break>理解してもらえるように、<line-break>町のみんなを説得してくれてるから…。<end>",
+      "english": "<select><value:$20>%2Van, <value:$28>, and me... The three of us are always together, aren't we? Hee hee.<end>Van's father has been making things hard for me lately, so it's getting difficult to stay in this town... But Bonga is trying to convince everyone to accept us.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing", "consistency"],
+      "reason": "Normalize the isolated 봉가씨 form to the established corpus form 봉가 씨; seven other current occurrences use 봉가 씨, including the same character context."
+    },
+    {
+      "id": "320134",
+      "paths": ["translations/korean/messages/msgsec032-part99.toml"],
+      "before_korean": "<if><value:$29><equal>%0<value:$28>군. 괴물이 돌아다니는 미이스의 숲에 가는 거야? 누나는 걱정되네. 로이님도 함께하고 있고, 너도 신기의 수호자 일족이니까 괜찮을 거라는 건 알지만.<end>마물에 이어 지진이라니…. 대체 어떻게 된 걸까.<end>",
+      "proposed_korean": "<if><value:$29><equal>%0<value:$28>군. 괴물이 돌아다니는 미이스의 숲에 가는 거야? 누나는 걱정되네. 로이 님도 함께하고 있고, 너도 신기의 수호자 일족이니까 괜찮을 거라는 건 알지만.<end>마물에 이어 지진이라니…. 대체 어떻게 된 걸까.<end>",
+      "japanese": "<if><value:$29><equal>%0<value:$28>クン。<line-break>怪物のうろついてるミイスの森に行くの？<line-break>お姉さん、心配だな。<line-break>ロイ様もついているし、<line-break>キミも神器の守護者のご一族だもんね。<line-break>大丈夫なのはわかってるけどね。<end>魔物に続いて地震…。<line-break>いったいどうなってるのかしら。<end>",
+      "english": "<if><value:$29><equal>%0<value:$28>, are you going into Miis Forest with all those monsters prowling around? I'm worried about you. I know Lord Roy will be there, and you're from the family of the sacred artifact's Guardians too. I know you'll be all right, but still.<end>First monsters, and now an earthquake... What in the world is happening?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing", "consistency"],
+      "reason": "Normalize 로이님 to established 로이 님. Current corpus has twelve 로이 님 occurrences and only two glued 로이님 occurrences; JP 様 confirms the honorific relationship."
+    },
+    {
+      "id": "1370369",
+      "paths": ["translations/korean/messages/msgsec137-part99.toml"],
+      "before_korean": "<if><value:$29><equal>%0<value:$28>. 괴물이 돌아다니는 미이스의 숲에 가는 거야? 누나는 걱정되네. 로이님도 함께고 너도 신기의 수호자 일족이니까 괜찮을 거란 건 알지만.<end>마물에 이어 지진까지…. 대체 어떻게 된 걸까.<end>",
+      "proposed_korean": "<if><value:$29><equal>%0<value:$28>. 괴물이 돌아다니는 미이스의 숲에 가는 거야? 누나는 걱정되네. 로이 님도 함께고 너도 신기의 수호자 일족이니까 괜찮을 거란 건 알지만.<end>마물에 이어 지진까지…. 대체 어떻게 된 걸까.<end>",
+      "japanese": "<if><value:$29><equal>%0<value:$28>。<line-break>怪物のうろついてるミイスの森に行くの？<line-break>お姉さん、心配だな。<line-break>ロイ様もついているし、<line-break>キミも神器の守護者のご一族だもんね。<line-break>大丈夫なのはわかってるけどね。<end>魔物に続いて地震…。<line-break>いったいどうなってるのかしら。<end>",
+      "english": "<if><value:$29><equal>%0<value:$28>. You're going into Miis Forest with all those monsters roaming around? That worries me. I know Lord Roy will be with you, and you come from a family of sacred-artifact guardians. I know you'll be all right, but still.<end>First monsters, and now an earthquake... What in the world is happening?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing", "consistency"],
+      "reason": "Normalize the duplicate/variant dialogue's 로이님 to the same established 로이 님 form without changing its distinct wording."
+    },
+    {
+      "id": "190329",
+      "paths": ["translations/korean/messages/msgsec019-part99.toml"],
+      "before_korean": "세라의 언니. 마도 아카데미 출신으로 자기브보다 한 기수 아래 수석. 리벨덤의 마수상 안티노의 명령으로 전투용 몬스터 데스기가스를 강제로 만들게 된다. 자신이 만든 몬스터 때문에 많은 사람이 다치고 죽는 현실에 괴로워하던 틈을 마인 아르길샤이어에게 파고들려 육체를 빼앗기고 만다.<end>",
+      "proposed_korean": "세라의 언니. 마도 아카데미 출신으로 자기브보다 한 기수 아래 수석. 리벨덤의 마수상 안티노의 명령으로 전투용 몬스터 데스기가스를 강제로 만들게 된다. 자신이 만든 몬스터 때문에 많은 사람이 다치고 죽는 현실에 괴로워하던 틈을 마인 아르길샤이어가 파고들어, 결국 그녀는 육체를 빼앗기고 만다.<end>",
+      "japanese": "セラの姉。魔道アカデミーの出身で、ザギヴの<line-break>ひとつ下の代の首席。<line-break>リベルダムの魔獣商アンティノの命令で、戦闘用<line-break>モンスターのデスギガースを無理矢理制作させ<line-break>られる。自分の作ったモンスターによって、多く<line-break>の人が傷つき死んでいく現実に、彼女は苦しみ、<line-break>悩む。そこを魔人アーギルシャイアにつかれ、<line-break>肉体を乗っ取られてしまう。<end>",
+      "english": "Sera's older sister and an Arcane Academy graduate who ranked first in the class below Zagiv's. Antino forced her to create the battle monster Death Gigas. Tormented by the harm it caused, she fell prey to Argyleshire, who possessed her body.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness", "translation"],
+      "reason": "Repair the malformed 파고들려 construction. JP そこを…につかれ and English 'fell prey to Argyleshire' show that Argyleshire exploits her vulnerable state and takes her body; make that agency explicit in natural Korean."
+    },
+    {
+      "id": "1490062",
+      "paths": ["translations/korean/messages/msgsec149-part99.toml"],
+      "before_korean": "나는 고사천사의 우두머리다. 저런 녀석들은 아무것도 아니야. 이제부터는 나보다 딘갈 병사 정도에게 당하는 자기 걱정이나 하지.<end>",
+      "proposed_korean": "나는 고사천사의 우두머리다. 저런 녀석들은 아무것도 아니야. 이제부터는 내 걱정보다 딘갈 병사 따위에게 당하는 네 걱정이나 해.<end>",
+      "japanese": "僕は告死天使の長だ。<line-break>奴らごとき、なんでもない。　　<line-break>　<line-break>これからは僕のことより<line-break>ディンガル兵ぐらいにのされる<line-break>自分のことを心配することだな。<end>",
+      "english": "I am the Leader of the Angels of Death. The likes of them are nothing to me. From now on, worry less about me and more about getting yourself beaten by mere Dyneskal soldiers.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness", "translation"],
+      "reason": "Replace the awkward literal 나보다…자기 걱정 construction with natural contrastive Korean. JP 僕のことより / 自分のこと and English 'worry less about me and more about yourself' confirm the intended contrast and contempt for mere Dyneskal soldiers."
+    }
+  ]
+}
