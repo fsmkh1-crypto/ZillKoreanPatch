@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "purpose": "Beta1 contextual copyedit 011: repair one residual collapsed word boundary and normalize isolated proper-name honorific spacing where the current Korean corpus has a strong spaced convention",
+  "source_head": "53e157da5d7770c6f14149b36846d10e7f9d6fc5",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "360029",
+      "paths": [
+        "translations/korean/messages/msgsec036-part99.toml"
+      ],
+      "before_korean": "바슈타르를 깨울 수 있는 건 나뿐. 그리고 어둠의 문을 열 수 있는 건 바슈타르뿐. 어둠의 문을 지나지 않으면 울그님은 부활할 수 없어. …틀렸을까? 그래도 소용없다고?<end>",
+      "proposed_korean": "바슈타르를 깨울 수 있는 건 나뿐. 그리고 어둠의 문을 열 수 있는 건 바슈타르뿐. 어둠의 문을 지나지 않으면 울그 님은 부활할 수 없어. …틀렸을까? 그래도 소용없다고?<end>",
+      "japanese": "ヴァシュタールを目覚めさせることが<line-break>できるのは私だけ。そして、闇の門を<line-break>開けられるのはヴァシュタールだけ。<line-break>闇の門を通らなければ、<line-break>ウルグ様は復活できない。<line-break>…違うかしら？　それでも無駄だと？<end>",
+      "english": "I alone can awaken Vashtar, and only Vashtar can open the Dark Gate. Without passing through it, Lord Ulugh cannot be resurrected. Am I wrong? Do you still say it's all futile?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
+      "reason": "Normalize isolated proper-name honorific spacing for 울그. JP explicitly uses the corresponding honorific form, and the current Korean corpus predominantly uses 울그 님 rather than 울그님. No controls or semantics change."
+    },
+    {
+      "id": "480022",
+      "paths": [
+        "translations/korean/messages/msgsec048-part99.toml"
+      ],
+      "before_korean": "지난번에 묵고 간스님에게 들은 말이지만…꽤 마음에 와닿는 말이지.<end>",
+      "proposed_korean": "지난번에 묵고 간 스님에게 들은 말이지만…꽤 마음에 와닿는 말이지.<end>",
+      "japanese": "こないだ泊まってった<line-break>坊さんの受け売りだけど…<line-break>結構、心にくる言葉だよな。<end>",
+      "english": "I'm only repeating what that monk who stayed here the other day said... but it hits pretty hard, doesn't it?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Repair a collapsed Korean word boundary: 간스님 is not a name; JP 坊さん and pinned English 'that monk who stayed here' show that the intended phrase is 묵고 간 스님."
+    },
+    {
+      "id": "890470",
+      "paths": [
+        "translations/korean/messages/msgsec089-part99.toml"
+      ],
+      "before_korean": "어둠의 문을 통하지 않으면 울그님은 부활할 수 없어. …틀렸나? 그래도 소용없다는 거야?<end>",
+      "proposed_korean": "어둠의 문을 통하지 않으면 울그 님은 부활할 수 없어. …틀렸나? 그래도 소용없다는 거야?<end>",
+      "japanese": "闇の門を通らなければ、<line-break>ウルグ様は復活できない。<line-break>…違うかしら？　それでも無駄だと？<end>",
+      "english": "Lord Ulugh cannot be resurrected without passing through the Dark Gate. Am I wrong? Do you still call it futile?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
+      "reason": "Normalize isolated proper-name honorific spacing for 울그. JP explicitly uses the corresponding honorific form, and the current Korean corpus predominantly uses 울그 님 rather than 울그님. No controls or semantics change."
+    },
+    {
+      "id": "950013",
+      "paths": [
+        "translations/korean/messages/msgsec095-part99.toml"
+      ],
+      "before_korean": "이 시시한 세상을 고맙게 여기며 돌아다니고, 모험이라며 좋아할 수 있는 것도 그 정도 수준의 머리 덕분이겠지. 실례할게. 라뮤님은 바깥세상을 보라고 하시지만, 이런 시시한 세상은 볼 가치도 없어. 숲으로 돌아갈래.<end>",
+      "proposed_korean": "이 시시한 세상을 고맙게 여기며 돌아다니고, 모험이라며 좋아할 수 있는 것도 그 정도 수준의 머리 덕분이겠지. 실례할게. 라뮤 님은 바깥세상을 보라고 하시지만, 이런 시시한 세상은 볼 가치도 없어. 숲으로 돌아갈래.<end>",
+      "japanese": "このつまらない世界をありがたがって<line-break>うろついて、冒険だって喜べるのも<line-break>その程度の低い脳みそあってのことね。<line-break>失礼するわ。外界を見ろってラミュ様は<line-break>おっしゃるけど、こんなつまらない世界<line-break>見る価値はないもの。森に戻るわ。<end>",
+      "english": "Only with brains as inferior as yours could you roam this dull world, cherish it, and delight in calling that adventure. Good day. Lady Ramuz tells me to see the outside world, but a world this tedious isn't worth seeing. I'm going back to the forest.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
+      "reason": "Normalize isolated proper-name honorific spacing for 라뮤. JP explicitly uses the corresponding honorific form, and the current Korean corpus predominantly uses 라뮤 님 rather than 라뮤님. No controls or semantics change."
+    },
+    {
+      "id": "1330194",
+      "paths": [
+        "translations/korean/messages/msgsec133-part99.toml"
+      ],
+      "before_korean": "너도 이상하다고 생각했겠지. 분명 죽였던 이 여자가 왜 다시 일어섰는지 말이야. 답은 간단하다. 이 마고스님이 오랫동안 깃들어 있던 이 여자의 몸을 새 주인으로 삼았기 때문이지!<end>",
+      "proposed_korean": "너도 이상하다고 생각했겠지. 분명 죽였던 이 여자가 왜 다시 일어섰는지 말이야. 답은 간단하다. 이 마고스 님이 오랫동안 깃들어 있던 이 여자의 몸을 새 주인으로 삼았기 때문이지!<end>",
+      "japanese": "てめえは不思議に思ってるよな。<line-break>確かにぶっ殺したはずのこの女が、<line-break>どうして立ち上がってんのか、ってよ。<line-break>答えは簡単だ。このマゴス様が、<line-break>長年棲みついてきたこの女のカラダの、<line-break>新しい主になったからだ！<end>",
+      "english": "You're wondering how this woman can be back on her feet when you know you killed her, aren't you? The answer's simple. After dwelling in this body for all these years, the great Magos has become its new master!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
+      "reason": "Normalize isolated proper-name honorific spacing for 마고스. JP explicitly uses the corresponding honorific form, and the current Korean corpus predominantly uses 마고스 님 rather than 마고스님. No controls or semantics change."
+    },
+    {
+      "id": "1720102",
+      "paths": [
+        "translations/korean/messages/msgsec172-part99.toml"
+      ],
+      "before_korean": "가 주세요. 아마 그분은 쓰러지는 모습을 당신에게 보이고 싶지 않은 겁니다. 뒤는 저희에게 맡겨 주세요. 적어도 그분의 유해만이라도 루페이님 곁에 모시고 싶습니다….<end>",
+      "proposed_korean": "가 주세요. 아마 그분은 쓰러지는 모습을 당신에게 보이고 싶지 않은 겁니다. 뒤는 저희에게 맡겨 주세요. 적어도 그분의 유해만이라도 루페이 님 곁에 모시고 싶습니다….<end>",
+      "japanese": "行ってあげてください。　　　　　　<line-break>たぶん、あの方は、倒れる姿を<line-break>あなたに見られたくないのです。<line-break>あとは私たちにお任せください。<line-break>せめて、あの方の亡骸だけでも<line-break>ルフェイ様のおそばにと思います…。<end>",
+      "english": "Please, go. Perhaps the one in red armor doesn't want to fall before your eyes. Leave the rest to us. If nothing else, we hope to lay the remains beside Lufei...<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
+      "reason": "Normalize isolated proper-name honorific spacing for 루페이. JP explicitly uses the corresponding honorific form, and the current Korean corpus predominantly uses 루페이 님 rather than 루페이님. No controls or semantics change."
+    },
+    {
+      "id": "1900019",
+      "paths": [
+        "translations/korean/messages/msgsec190-part99.toml"
+      ],
+      "before_korean": "자~ 문제다. 네가 죽여 버린 이 여자가 왜 다시 일어나 있는 걸까…? 답은 간단하지. 이 여자 안에 깃들어 있던 이 마고스님이 움직이고 있기 때문이다.<end>",
+      "proposed_korean": "자~ 문제다. 네가 죽여 버린 이 여자가 왜 다시 일어나 있는 걸까…? 답은 간단하지. 이 여자 안에 깃들어 있던 이 마고스 님이 움직이고 있기 때문이다.<end>",
+      "japanese": "さぁーて、問題だ。<line-break>お前がぶっ殺したこの女が<line-break>どうして立ち上がってるのか…？　　<line-break>答えは簡単だ。<line-break>それはこの女に棲み付いていた<line-break>このマゴス様が動かしているからだ。<end>",
+      "english": "Now then, here's a question. Why is the woman you slaughtered standing up again? The answer's simple: because the great Magos, who'd made a home inside her, is moving her body!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
+      "reason": "Normalize isolated proper-name honorific spacing for 마고스. JP explicitly uses the corresponding honorific form, and the current Korean corpus predominantly uses 마고스 님 rather than 마고스님. No controls or semantics change."
+    },
+    {
+      "id": "1980138",
+      "paths": [
+        "translations/korean/messages/msgsec198-part99.toml"
+      ],
+      "before_korean": "흠. 에스트님께 여쭤보고 싶은 것이 있으시군요. 그렇다면 번거로우시겠지만 알노툰에서 직접 에스트님께 묻는 편이 좋을 듯합니다.<end>",
+      "proposed_korean": "흠. 에스트 님께 여쭤보고 싶은 것이 있으시군요. 그렇다면 번거로우시겠지만 알노툰에서 직접 에스트 님께 묻는 편이 좋을 듯합니다.<end>",
+      "japanese": "ふむ。<line-break>エスト様にお尋ねしたいことが<line-break>おありなのですね。<line-break>でしたら、やはりご足労ですが、<line-break>アルノートゥンで直接、エスト様に<line-break>お聞きになられたほうがよろしいかと。<end>",
+      "english": "Hmm. So there is something you wish to ask Est. In that case, though it will mean making the journey, I believe it would be best to ask Est directly in Alnortun.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
+      "reason": "Normalize isolated proper-name honorific spacing for 에스트. JP explicitly uses the corresponding honorific form, and the current Korean corpus predominantly uses 에스트 님 rather than 에스트님. No controls or semantics change."
+    },
+    {
+      "id": "1980145",
+      "paths": [
+        "translations/korean/messages/msgsec198-part99.toml"
+      ],
+      "before_korean": "죄송합니다. 저는 로스톨 사람이라 평소엔 용왕님을 믿지만 지금은 천공신님께 빌겠습니다! 저는 <value:$28>님과 함께 여행하고 싶어서 그만 아무 말이나 지어냈습니다. 언제 거짓말이 들켜 미움받을까 생각하면 너무 무섭습니다. 부탁드립니다, 천공신 노툰님! 제 거짓말 때문에 <value:$28>님이 실망하지 않도록 지켜 주세요.<end>",
+      "proposed_korean": "죄송합니다. 저는 로스톨 사람이라 평소엔 용왕님을 믿지만 지금은 천공신님께 빌겠습니다! 저는 <value:$28>님과 함께 여행하고 싶어서 그만 아무 말이나 지어냈습니다. 언제 거짓말이 들켜 미움받을까 생각하면 너무 무섭습니다. 부탁드립니다, 천공신 노툰 님! 제 거짓말 때문에 <value:$28>님이 실망하지 않도록 지켜 주세요.<end>",
+      "japanese": "すみません。私はロストール人で、<line-break>普段、竜王様を信仰してるんですけど、<line-break>今は、天空神様にお願いしちゃいます！<line-break>私は、<value:$28>さんと<line-break>一緒に旅がしたくて、<line-break>つい、出任せを言ってしまいました。<line-break>いつウソがバレて、嫌われるかと思うと<line-break>とても恐ろしくてたまりません。<line-break>お願いです、天空神ノトゥーン様！<line-break>どうか私のウソに<line-break><value:$28>さんが失望しないよう<line-break>お守りください。<end>",
+      "english": "Forgive me. I'm from Rostorl, and I normally worship the Dragon King, but this time I'm asking the Sky God for help! I wanted so badly to travel with <value:$28> that I made something up without thinking. I'm terrified of being found out and hated. Please, Sky God Notun! Please keep <value:$28> from being disappointed by my lie.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
+      "reason": "Normalize isolated proper-name honorific spacing for 노툰. JP explicitly uses the corresponding honorific form, and the current Korean corpus predominantly uses 노툰 님 rather than 노툰님. No controls or semantics change."
+    }
+  ]
+}
