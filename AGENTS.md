@@ -59,3 +59,22 @@ Every change that touches Korean message/layout/rendering/storage/build paths mu
 - `Evidence for divergence:`
 
 Unexplained divergence from an established English-patch engine contract is a release blocker.
+
+## Mandatory Korean dialogue QA pre-flight
+
+Before any Korean dialogue copy-editing, translation adjustment, layout/reflow change, or dialogue-runtime QA work, read and follow:
+
+- `CONTRIBUTING.md`
+- `docs/KOREAN_TRANSLATION_STYLE.md`
+- `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md`
+
+The pre-flight checklist in `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md` is mandatory. Do not mutate Korean dialogue records until that checklist is complete for the current work session.
+
+In particular:
+
+- do not use blind global punctuation/spacing replacements;
+- keep `japanese`, record IDs, runtime controls, and substitutions invariant;
+- keep semantic Korean separate from generated `layout`;
+- invalidate/regenerate stale layout after semantic edits;
+- investigate ordinary line-break/reflow defects through the English consumer/reflow contract before adding Korean-specific behavior;
+- distinguish static full-corpus audit, contextual full-corpus copy-edit, reflow coverage audit, sampled runtime QA, and true full-path runtime QA precisely.
