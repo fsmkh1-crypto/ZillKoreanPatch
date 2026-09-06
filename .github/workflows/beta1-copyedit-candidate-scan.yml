@@ -1,0 +1,26 @@
+name: Beta1 copyedit candidate scan
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - milestone/Beta1
+    paths:
+      - 'tools/korean/beta1-copyedit-candidate-scan.py'
+      - '.github/workflows/beta1-copyedit-candidate-scan.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Scan high-confidence and contextual copyedit candidates
+        run: python3 tools/korean/beta1-copyedit-candidate-scan.py --json /tmp/beta1-copyedit-candidates.json --max-print 120
+      - uses: actions/upload-artifact@v4
+        with:
+          name: beta1-copyedit-candidates
+          path: /tmp/beta1-copyedit-candidates.json
+          retention-days: 30
