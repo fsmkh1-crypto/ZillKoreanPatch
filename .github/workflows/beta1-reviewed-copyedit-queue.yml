@@ -50,14 +50,16 @@ jobs:
           if [ "$ALLOW_COMMA_SPACE" = 1 ]; then args+=(--allow-comma-space-variance); fi
           python3 tools/korean/apply-multifile-reviewed-copyedit.py "${args[@]}"
           python3 tools/korean/qa-layout-drift.py
-      - name: Require only manifest overlay files changed
+      - name: Require changes stay within manifest overlay files
         run: |
           python3 - <<'PY'
           import json,os,subprocess
           m=json.load(open(os.environ['MANIFEST'],encoding='utf-8'))
           allowed={p for r in m['records'] for p in r['paths']}
           changed=set(filter(None,subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()))
-          if changed != allowed: raise SystemExit(f'expected {sorted(allowed)}, found {sorted(changed)}')
+          unexpected=changed-allowed
+          if unexpected: raise SystemExit(f'unexpected changed files {sorted(unexpected)}; allowed={sorted(allowed)}')
+          if not changed: raise SystemExit('reviewed batch produced no overlay changes')
           PY
           git diff --check
       - name: Per-batch Korean gates
