@@ -6,22 +6,27 @@ import tomllib
 from collections import Counter
 from pathlib import Path
 
-SECTION_RE = re.compile(r'^\["([0-9]+)"\]$')
-AUX_FOLLOW = r"(?=$|[^가-힣]|(?:는|도|만|부터|까지)(?=[^가-힣]|$))"
+from korean_morphology import wrong_particle_pattern
 
-# These counts come from the refined full-corpus scanner at 515fec109d... .
-# Particle rules intentionally use the same boundary semantics as that scanner so
-# substrings embedded in longer Hangul words are not blindly replaced.
-RULES = [
-    ("wrong_particle_발로르_을", re.compile(re.escape("발로르을") + AUX_FOLLOW), "발로르를", 42),
-    ("wrong_particle_발로르_이", re.compile(re.escape("발로르이") + AUX_FOLLOW), "발로르가", 16),
-    ("wrong_particle_로스톨_가", re.compile(re.escape("로스톨가") + AUX_FOLLOW), "로스톨이", 3),
-    ("wrong_particle_로스톨_를", re.compile(re.escape("로스톨를") + AUX_FOLLOW), "로스톨을", 3),
-    ("wrong_particle_로스톨_와", re.compile(re.escape("로스톨와") + AUX_FOLLOW), "로스톨과", 2),
-    ("wrong_particle_로스톨_는", re.compile(re.escape("로스톨는") + AUX_FOLLOW), "로스톨은", 1),
-    ("wrong_particle_소도_으로", re.compile(re.escape("소도으로") + AUX_FOLLOW), "소도로", 1),
-    ("spacing_moyang_ijiman", re.compile(r"모양 이지만"), "모양이지만", 1),
+SECTION_RE = re.compile(r'^\["([0-9]+)"\]$')
+
+# LEGACY ONE-OFF CHECKPOINT TOOL. Do not use this to create future Beta1 edits;
+# new mutations must be exact reviewed manifests through apply-reviewed-copyedit.py.
+# These historical expected counts document the already-applied refined batch.
+RULE_SPECS = [
+    ("발로르", "을", "발로르를", 42),
+    ("발로르", "이", "발로르가", 16),
+    ("로스톨", "가", "로스톨이", 3),
+    ("로스톨", "를", "로스톨을", 3),
+    ("로스톨", "와", "로스톨과", 2),
+    ("로스톨", "는", "로스톨은", 1),
+    ("소도", "으로", "소도로", 1),
 ]
+RULES = [
+    (f"wrong_particle_{word}_{wrong}", wrong_particle_pattern(word, wrong), replacement, expected)
+    for word, wrong, replacement, expected in RULE_SPECS
+]
+RULES.append(("spacing_moyang_ijiman", re.compile(r"모양 이지만"), "모양이지만", 1))
 
 
 def toml_quote(value: str) -> str:
@@ -133,7 +138,7 @@ def scan(root: Path, apply: bool) -> dict:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="LEGACY: historical Beta1 high-confidence batch only")
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--json", type=Path)
     args = parser.parse_args()
