@@ -10,12 +10,12 @@ import (
 )
 
 func TestEncodeRoundTripDeterministic(t *testing.T) {
-	pixelsA := make([]uint8, 100)
-	pixelsB := make([]uint8, 100)
+	pixelsA := make([]uint8, 121)
+	pixelsB := make([]uint8, 121)
 	for i := range pixelsA { pixelsA[i] = uint8(i % 16); pixelsB[i] = uint8((15-i) & 15) }
 	rasters := map[rune]zillfont.Raster{
-		'힣': {Width: 10, Height: 10, Pixels: pixelsB},
-		'가': {Width: 10, Height: 10, Pixels: pixelsA},
+		'힣': {Width: 11, Height: 11, Pixels: pixelsB},
+		'가': {Width: 11, Height: 11, Pixels: pixelsA},
 	}
 	first, err := Encode("fixture", "fixture-rule", rasters)
 	if err != nil { t.Fatal(err) }
@@ -32,9 +32,9 @@ func TestEncodeRoundTripDeterministic(t *testing.T) {
 }
 
 func TestEncodeRejectsInvalidRaster(t *testing.T) {
-	_, err := Encode("fixture", "rule", map[rune]zillfont.Raster{'가': {Width: 9, Height: 10, Pixels: make([]uint8, 90)}})
+	_, err := Encode("fixture", "rule", map[rune]zillfont.Raster{'가': {Width: 10, Height: 11, Pixels: make([]uint8, 110)}})
 	if err == nil { t.Fatal("expected invalid dimensions to fail") }
-	pixels := make([]uint8, 100); pixels[7] = 16
-	_, err = Encode("fixture", "rule", map[rune]zillfont.Raster{'가': {Width: 10, Height: 10, Pixels: pixels}})
+	pixels := make([]uint8, 121); pixels[7] = 16
+	_, err = Encode("fixture", "rule", map[rune]zillfont.Raster{'가': {Width: 11, Height: 11, Pixels: pixels}})
 	if err == nil { t.Fatal("expected >4bpp pixel to fail") }
 }
