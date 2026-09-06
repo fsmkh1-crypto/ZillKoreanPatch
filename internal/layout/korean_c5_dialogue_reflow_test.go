@@ -132,7 +132,7 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 		t.Fatalf("fixed-control C5 message %d remains over width after reflow: %d > %d", fixedControlID, fixedWidth, engine.advanceLimit(fixedControlID))
 	}
 
-	for _, boundedID := range []int{560650, 1980005} {
+	for _, boundedID := range []int{560650, 1980005, 950059} {
 		bounded, ok := korean.Find(boundedID)
 		if !ok {
 			t.Fatalf("missing Korean row %d", boundedID)
