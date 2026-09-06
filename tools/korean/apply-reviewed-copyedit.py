@@ -56,7 +56,6 @@ def validate_manifest_base(root: Path, manifest: dict, require_base_sha: bool) -
     if not base:
         if require_base_sha:
             raise ValueError("manifest missing korean_sha/base_sha")
-        # Legacy/tests without an audited base SHA do not need a Git repository.
         return "", ""
     head = current_head(root)
     if not is_ancestor(root, base, head):
@@ -234,6 +233,7 @@ def apply_manifest(
     logical_changed = set()
     physical_apply_count = 0
 
+    # Validate the full manifest population before any write.
     for rel_path in sorted(per_path_records):
         overlay_path = root / rel_path
         text, data = read_overlay(overlay_path)
@@ -251,6 +251,7 @@ def apply_manifest(
                 logical_changed.add(rid)
                 physical_apply_count += 1
 
+    already_applied_logical = len(records) - len(logical_changed)
     if verify:
         return {
             "status": "VERIFIED_APPLIED",
@@ -260,10 +261,12 @@ def apply_manifest(
             "proposed_records": len(records),
             "verified_physical_targets": len(states),
             "changed_records": 0,
+            "already_applied_records": len(records),
             "override_records": override_count,
             "target_files": sorted(per_path_records),
         }
 
+    # Render and parse every output before writing any target file.
     rendered_by_path = {}
     for rel_path, replacements in replacements_by_path.items():
         if replacements:
@@ -290,6 +293,7 @@ def apply_manifest(
         "current_head_sha": head_sha,
         "proposed_records": len(records),
         "changed_records": len(logical_changed),
+        "already_applied_records": already_applied_logical,
         "physical_targets_changed": physical_apply_count,
         "already_applied_physical_targets": len(states) - physical_apply_count,
         "override_records": override_count,
