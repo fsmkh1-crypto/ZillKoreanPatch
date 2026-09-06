@@ -7,6 +7,8 @@ Earliest preserved U baseline: `milestone/U0-first-nonfreeze`
 
 ## 1. Purpose of Beta 1
 
+Final Beta1 requires all four user goals: full dialogue reflow stabilization; actual comma/spacing/punctuation proofreading; the selected B font; and translation/naturalness/terminology improvement. The technical implementation baseline described below is **not the final Beta1 release**. Full-corpus contextual copyediting, terminology migration, and a new post-copyedit Android RC remain required. Current progress and exact reviewed IDs are in `BETA1_WORK_HANDOFF.md`.
+
 Beta 1 is the first named beta baseline after the U-series development milestones. It consolidates the current Korean dialogue reflow-parity work and freezes the selected B font profile as the release font baseline.
 
 The release is intentionally documented as an implementation baseline, not as a claim that every dialogue path has completed full PSP hardware runtime QA.

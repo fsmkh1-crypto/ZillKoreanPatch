@@ -3,6 +3,8 @@
 Repository: `fsmkh1-crypto/ZillKoreanPatch`
 Branch: `fix/u6-korean-reflow-parity`
 
+**Historical decision document:** The Beta1 finalization instruction of 2026-09-06 supersedes the unresolved Ferme choice with `フェルム / Ferme -> 페름` and explicitly authorizes work on `milestone/Beta1`. The original review findings below remain historical evidence. See `BETA1_WORK_HANDOFF.md` for verified current implementation/CI status, pending language migration, and evidence boundaries; do not infer present blocker status from the old checkboxes alone.
+
 This document records the project decision on the independent Claude review of the planned Korean dialogue full-corpus copyedit, terminology normalization, English-patch parity, reflow coverage, control/layout safety, and runtime QA process.
 
 If this document conflicts with an older statement in `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md` or `docs/KOREAN_TRANSLATION_STYLE.md`, the narrower correction in this document applies until the older document is consolidated.

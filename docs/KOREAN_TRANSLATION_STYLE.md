@@ -147,9 +147,10 @@ Do not use blind text replacement. First enumerate all affected records and conf
 
 `translations/terminology/korean-canonical.toml` is a canonical-only table, not a review queue. Do not insert unresolved `REVIEW` candidates into that file unless its schema/tooling is deliberately extended to represent review state.
 
-Current required review candidate:
+User-confirmed target (Beta1 finalization handoff, 2026-09-06):
 
-- `フェルム / Ferme`: Korean corpus contains both `페름` and `펠름`. Keep this `REVIEW`; do not globally normalize either form until same-entity surface enumeration and stronger pronunciation/provenance evidence establish the canonical Korean spelling. `Pelm` is not an English canonical spelling and must not be used as if it were English-patch evidence.
+- `フェルム / Ferme -> 페름`. The earlier unresolved `REVIEW` decision is superseded by the user's explicit choice. Migration is still pending: enumerate same-entity surfaces, update the canonical table and corpus together, audit residual `펠름`, and regenerate effective layouts. `Pelm` is not an English canonical spelling.
+- The complete user decision list and outstanding migration status are recorded in `docs/BETA1_WORK_HANDOFF.md`. A confirmed target is not proof of completed normalization.
 
 ## 12. Scope of terminology consistency
 

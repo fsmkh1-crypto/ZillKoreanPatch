@@ -1,0 +1,8 @@
+Source: GitHub Actions run 34031107941, job 101480656628, retrieved 2026-09-06.
+Commit: 34fc3e23c9c2350c8d27eb71f002e6fab23e4bdb
+These are baseline CI results, not post-copyedit or runtime evidence.
+2026-09-06T11:45:57.0831895Z     korean_scanner_span_test.go:100: FORENSIC KOREAN_SCANNER_SPAN_SUMMARY canonical=42016 checked=42016 method=conservative_source_independent_upper_bound max_id=2400002 max_span=452 candidates_ge_0x100=196 exact_gate=CompileBankKorean
+2026-09-06T11:46:00.0271499Z     korean_consumer_storage_test.go:77: FORENSIC KOREAN_DIALOGUE_REFLOW_SUMMARY checked=22137 derived=13337 residual_overflow=0 scope=verified_static_dialogue_population
+2026-09-06T11:46:00.5713316Z     korean_consumer_storage_test.go:117: FORENSIC KOREAN_DIALOGUE_RUNTIME_PENDING reason=unbounded_inline_substitution count=47 ids=[30011 40002 40006 60001 60024 70001 80006 100008 140008 150014 170025 170175 170179 170202 170203 170204 170207 170208 170209 510151 520028 560110 560920 580095 590024 630040 670057 800006 820002 1030053 1070033 1070035 1100078 1330290 1330724 1350352 1360107 1410546 1540021 1580003 1610008 1610063 1610093 1610154 1620018 1830024 1830036] status=PENDING_NOT_PASS
+2026-09-06T11:46:00.5717925Z     korean_consumer_storage_test.go:123: FORENSIC KOREAN_DIALOGUE_COVERAGE_SUMMARY relevant=22137 eligible=22137 persisted=113 excluded=0 runtime_pending=47 static_overflow=0 excluded_static_overflow=0 exact_english_population=PENDING_ASSET_BACKED
+2026-09-06T11:46:01.6647556Z     korean_consumer_storage_test.go:246: FORENSIC KOREAN_CONSUMER_STORAGE_SUMMARY canonical=42016 checked=42016 english_layouts=464 dialogue_layouts=13337 visual_layouts=141 contracts=PASS visual=PASS warnings=7572 exact_asset_gates=C5,CompileBankKorean

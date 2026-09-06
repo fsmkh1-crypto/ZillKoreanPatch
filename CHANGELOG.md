@@ -18,6 +18,16 @@ Do not describe a candidate, partial test, or CI-only result as full runtime val
 
 ---
 
+## Beta1 finalization checkpoint — 2026-09-06 (incomplete)
+
+- Independently verified starting SHA `34fc3e23c9c2350c8d27eb71f002e6fab23e4bdb`, U7 ancestry (43 commits ahead, zero behind), B renderer/catalog identity, and successful pre-copyedit Android run `34031107941`.
+- Added exact source/accepted reconciliation: 43,116 source IDs = 42,016 accepted + 1,100 missing overlays, classified individually. Eight Latin-only event titles remain REVIEW. Historical filter totals overlap 57 already accepted rows, explaining why their sum is not the missing-overlay count.
+- Contextually reviewed section 001 IDs 10000–10175 (176 records). Preserved 29 proposed corrections with Japanese/English/before/after evidence. **No semantic Korean edits applied and no layouts regenerated.** This is not an accepted copyedit batch.
+- Updated the obsolete Ferme REVIEW instruction to the user-approved target 페름; corpus/table migration remains pending. Clarified all four required Beta1 goals in release notes.
+- English reference: upstream `internal/message/projection.go` (blob `5a86124c4b5330ee71f9e443cfde921e0b4ef0ae`) separates editable fragments and fixed controls and keeps movable substitutions in their source fragment. No engine behavior changed.
+- Validation: 47 existing Python tests passed; baseline Korean integrity, glyph and layout-drift checks passed. Local Go test setup could not load uncached dependencies with network unavailable; this is an environment blocker, not a PASS. Baseline CI static dialogue scope is 22,137 rows with zero overflow and 47 runtime-width PENDING rows. See handoff for commands and checkpoint CI status.
+- Remaining: apply/validate the proposed batch, review all other accepted records, normalize terms across surfaces, resolve title REVIEW items, run final audits/new APK, then safe U-series cleanup. No Beta2 work.
+
 ## Beta 1 — 2026-09-06
 
 **Preserved predecessor:** `milestone/U7`
