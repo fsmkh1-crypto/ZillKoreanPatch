@@ -1,5 +1,73 @@
 # ZillKoreanPatch Project Rules
 
+## NON-NEGOTIABLE EXECUTION GATE — EXPLICIT USER START REQUIRED
+
+**STOP RULE: Do not mutate this repository unless the project owner has given an explicit, task-local start signal for the exact work being executed.**
+
+This rule is evaluated before all technical, QA, translation, review, or English-patch-parity rules.
+
+An explicit start signal is a direct instruction to execute, such as `시작`, `ㄱㄱ`, `진행해`, `적용해`, `수정해`, `해놔`, or equivalent wording that clearly authorizes actual changes.
+
+Without such a signal, work is strictly read-only.
+
+Before an explicit start signal, the agent MAY:
+
+- inspect repository files, history, code, data, tests, and documentation;
+- compare the Korean path with the English patch;
+- investigate defects and root causes;
+- analyze third-party or Claude review findings;
+- prepare plans, candidate lists, proposed changes, validation plans, and checklists.
+
+Before an explicit start signal, the agent MUST NOT:
+
+- create, modify, rename, move, or delete repository files;
+- edit Korean dialogue or terminology data;
+- modify code, tests, workflows, CI, or build scripts;
+- regenerate or persist layout/build outputs;
+- commit or push repository changes;
+- apply an otherwise obvious fix merely because its direction is clear.
+
+### Task-local authorization
+
+A start signal authorizes only the bounded task that the project owner actually approved.
+
+Examples:
+
+- `문서 보강해` authorizes the requested documentation changes only.
+- `펠름 줄바꿈 수정해` authorizes that defect fix and the directly required regression tests/validation only.
+- `클로드 리뷰 검토해` authorizes analysis of the review; it does not authorize applying the review findings.
+
+Do not infer broader authorization from:
+
+- earlier approvals for another task;
+- the overall project direction;
+- a clear technical next step;
+- a failing test;
+- an obvious defect;
+- a third-party review result;
+- `PASS WITH CHANGES`, `CRITICAL`, `MINIMUM CHANGES`, or similar review language.
+
+If execution would expand materially beyond the authorized scope, STOP and wait for a new explicit task-local start signal.
+
+### Mandatory first pre-flight check
+
+Immediately before the first repository write, confirm:
+
+- [ ] `Explicit start signal received: YES`
+- [ ] `Authorized scope identified`
+- [ ] Correct repository, branch, and HEAD confirmed
+- [ ] Baseline SHA recorded
+- [ ] Applicable project rules checked
+- [ ] English-patch contract identified where applicable
+- [ ] No unrelated work is included
+- [ ] Required validation gates are known
+
+**If `Explicit start signal received` is not YES, no other condition may authorize repository mutation. STOP.**
+
+Authorization must be re-checked after handoff/new chat/new agent, after completion of the approved task, after an unexpected branch/baseline change, or whenever the scope materially expands.
+
+Technical correctness never overrides missing execution authorization.
+
 ## NON-NEGOTIABLE PROJECT PREMISE — ENGLISH PATCH FIRST
 
 Where the existing English patch implements an engine-facing contract, that implementation is the primary reference for the Korean patch.
