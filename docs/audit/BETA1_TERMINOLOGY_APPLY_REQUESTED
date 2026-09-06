@@ -1,0 +1,11 @@
+Approved one-shot application request for the source-anchored Beta1 terminology migration.
+
+Expected dry-run before apply:
+- source matched records: 2480
+- changed records: 1431
+- replacements: 1498
+- changed message files: 201
+- canonical entries updated: 2
+- canonical entries added: 10
+
+The migration workflow must commit no corpus changes unless post-migration terminology, layout, Korean QA, and full Go checkpoint gates all pass.
