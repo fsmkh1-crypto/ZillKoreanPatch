@@ -22,7 +22,7 @@ korean = "자, 잠깐, 카핀…!<end>"
 
 ["1410005"]
 japanese = "あ、あの違うんです。<line-break>いや、えと、違わないけど…<line-break>違わないんです！　あれ？<end>"
-korean = "아, 아니, 그게 아니에요. 아니, 그러니까, 틀린 건 아닌데… 아니에요! 어라?<end>"
+korean = "아, 아니, 그게 아니에요. 아니, 그러니까 틀린 건 아닌데… 아니에요! 어라?<end>"
 
 ["1410006"]
 japanese = "<if><value:$29><equal>%0ウフフ…あたしもボウヤに　　　　<line-break>この前のお礼をしなきゃ<line-break>いけないんだったわね。<line-break>さぁて、どんなお礼がいいかしら？<line-break>ねぇ？<end>そうだ。あたしも子猫ちゃんに　　<line-break>この前のお礼をしなきゃ<line-break>いけないんだったわね。<line-break>さぁて、どんなお礼がいいかしら？<line-break>ねぇ？<end>"
@@ -346,11 +346,11 @@ korean = "밖으로 뛰쳐나가지 않았을 뿐, 이것도 대모험인 건 �
 
 ["1410087"]
 japanese = "だから、な？<end>"
-korean = "그러니까, 응?<end>"
+korean = "그러니까… 응?<end>"
 
 ["1410088"]
 japanese = "だから、な？<end>"
-korean = "그러니까, 응?<end>"
+korean = "그러니까… 응?<end>"
 
 ["1410089"]
 japanese = "追加メッセージここから<end>"
