@@ -158,7 +158,7 @@ korean = "루마스 잎을 쓴 고급 차야. 귀족들이 소문을 나누며 �
 
 ["1280039"]
 japanese = "<if><value:$2A><less-equal>%50猫屋敷に住んでいる賢者様は、<line-break>勇者ネメアと一緒に魔王バロルを倒した<line-break>仲間の１人らしいぜ。<end><if><value:$2A><less-equal>%119ザギヴ将軍はライラネート神殿のとなりにある<line-break>墓地をよく訪れるそうだよ。<end><if><value:$2A><less-equal>%150乙女の鏡に強そうなモンスターが<line-break>住み着いたらしいよ。<line-break>もう、誰か、退治してくれたかな？<end><if><value:$2A><greater-equal>%151ここで飲んでるお客さんが、あんたのことを<line-break>話してるのを見ると、なんだか自分の事<line-break>みたいにうれしくなってしまってね。<end>"
-korean = "<if><value:$2A><less-equal>%50고양이 저택에 사는 현자님은 용사 네메아와 함께 마왕 발로르을 쓰러뜨린 동료 중 한 명이라더군.<end><if><value:$2A><less-equal>%119자기브 장군은 라이라네이트 신전 옆 묘지를 자주 찾는다고 해.<end><if><value:$2A><less-equal>%150소녀의 거울에 강해 보이는 몬스터가 자리 잡았다더군. 벌써 누가 퇴치했으려나?<end><if><value:$2A><greater-equal>%151여기서 술 마시는 손님들이 네 이야기를 하는 걸 보면 왠지 내 일처럼 기뻐져.<end>"
+korean = "<if><value:$2A><less-equal>%50고양이 저택에 사는 현자님은 용사 네메아와 함께 마왕 발로르를 쓰러뜨린 동료 중 한 명이라더군.<end><if><value:$2A><less-equal>%119자기브 장군은 라이라네이트 신전 옆 묘지를 자주 찾는다고 해.<end><if><value:$2A><less-equal>%150소녀의 거울에 강해 보이는 몬스터가 자리 잡았다더군. 벌써 누가 퇴치했으려나?<end><if><value:$2A><greater-equal>%151여기서 술 마시는 손님들이 네 이야기를 하는 걸 보면 왠지 내 일처럼 기뻐져.<end>"
 
 ["1280040"]
 japanese = "<if><value:$2A><less-equal>%50エリエナイ公の弟エストは考古学者として<line-break>闇の神器とかいう魔法のアイテムを<line-break>研究しているそうだな。<end><if><value:$2A><less-equal>%119自称未来の勇者ガルドランの奴、<line-break>どうもフェルムちゃんにほれたみたいでな、<line-break>しょっちゅうやって来るんだ。<end><if><value:$2A><less-equal>%149城塞都市跡に恐ろしい魔物が住み着いて、<line-break>うっかり奥に入り込んだ駆け出し冒険者が<line-break>何人か犠牲になってるそうだよ。<end><if><value:$2A><greater-equal>%150駆け出しの吟遊詩人が何人か訪ねてきてね、<line-break>大陸一の冒険者<value:$28>の冒険談を<line-break>知っていたら教えてくださいってさ。<end>"
