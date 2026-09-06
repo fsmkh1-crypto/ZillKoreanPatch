@@ -1,403 +1,583 @@
 {
   "version": 1,
   "purpose": "Beta1 contextual copyedit 010: normalize source-confirmed proper-name honorific spacing to established Korean corpus convention",
-  "source_head": "b9c090181c0395b954ae3c0cd1f54fa80ef83bbc",
+  "source_head": "36535234c673fce110fd881d2791f8a5241ca5ac",
   "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
   "records": [
     {
       "id": "30007",
-      "paths": ["translations/korean/messages/msgsec003-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec003-part99.toml"
+      ],
       "before_korean": "<select><value:$33>에류마르크 폐하도 너무하신 분이야. 네메아님께 무리한 일만 떠넘기고 못 해내면 벌을 주려 했다니. 하지만 네메아님은 그 무리한 일들을 전부 해내셨으니 폐하도 분했겠지. 이걸로 네메아님의 평판은 더 올라가겠네.<end>네메아님이 마침내 황제를 버리고 엔샨트에서 도망쳤다는 소문은 아무래도 사실인 모양이야. 황제가 네메아님을 괴롭힌 것도 너무 심했으니까. 네메아님도 지금까지 정말 잘 참았다고 생각해.<end>마침내 올 때가 왔구나. 죽은 에류마르크 황제도 자업자득이야. 네메아님도 황제를 죽인 걸 부끄러워할 필요 없어. 그렇게 무리한 일을 떠맡기면서도 묵묵히 참고, 게다가 전부 해냈잖아. 아무리 생각해도 잘못한 건 에류마르크 황제야.<end>동방의 나라들은 전부 멸망했다면서. 로센의 페우다는 나쁜 짓만 했다고 하니 친족이 몰살당한 것도 당연한 대가야.<end>로스톨 장군들은 무능한 놈들뿐인 줄 알았는데 제네테스라는 녀석은 제법 하는 모양이네. 그래도 카를라 장군이나 네메아님에겐 도저히 상대가 안 되겠지. 로스톨이 멸망하는 것도 시간문제야.<end>리벨덤은 카를라 장군에게 파괴됐다더라. 아마 거역하는 자들에게 본보기를 보인 거겠지만, 너무 지나친 것 같아.<end>네메아님은 로스톨 공략에 참가하지 않으시는 건가. 숙적 로스톨과의 싸움 정도는 네메아님이 출진하시길 기대했는데.<end>네메아님이 죽었다는 소문이 돌고 있지만 그건 로스톨의 제네테스가 퍼뜨린 거짓말이라더라. 네메아님이 죽었다고 믿을 사람이 딩갈에 있을 리도 없는데, 제네테스라는 남자도 바보네.<end>",
       "proposed_korean": "<select><value:$33>에류마르크 폐하도 너무하신 분이야. 네메아 님께 무리한 일만 떠넘기고 못 해내면 벌을 주려 했다니. 하지만 네메아 님은 그 무리한 일들을 전부 해내셨으니 폐하도 분했겠지. 이걸로 네메아 님의 평판은 더 올라가겠네.<end>네메아 님이 마침내 황제를 버리고 엔샨트에서 도망쳤다는 소문은 아무래도 사실인 모양이야. 황제가 네메아 님을 괴롭힌 것도 너무 심했으니까. 네메아 님도 지금까지 정말 잘 참았다고 생각해.<end>마침내 올 때가 왔구나. 죽은 에류마르크 황제도 자업자득이야. 네메아 님도 황제를 죽인 걸 부끄러워할 필요 없어. 그렇게 무리한 일을 떠맡기면서도 묵묵히 참고, 게다가 전부 해냈잖아. 아무리 생각해도 잘못한 건 에류마르크 황제야.<end>동방의 나라들은 전부 멸망했다면서. 로센의 페우다는 나쁜 짓만 했다고 하니 친족이 몰살당한 것도 당연한 대가야.<end>로스톨 장군들은 무능한 놈들뿐인 줄 알았는데 제네테스라는 녀석은 제법 하는 모양이네. 그래도 카를라 장군이나 네메아 님에겐 도저히 상대가 안 되겠지. 로스톨이 멸망하는 것도 시간문제야.<end>리벨덤은 카를라 장군에게 파괴됐다더라. 아마 거역하는 자들에게 본보기를 보인 거겠지만, 너무 지나친 것 같아.<end>네메아 님은 로스톨 공략에 참가하지 않으시는 건가. 숙적 로스톨과의 싸움 정도는 네메아 님이 출진하시길 기대했는데.<end>네메아 님이 죽었다는 소문이 돌고 있지만 그건 로스톨의 제네테스가 퍼뜨린 거짓말이라더라. 네메아 님이 죽었다고 믿을 사람이 딩갈에 있을 리도 없는데, 제네테스라는 남자도 바보네.<end>",
       "japanese": "<select><value:$33>エリュマルク陛下もひどいお方だよ。　　　　　<line-break>ネメア様に無理難題ばかりふっかけて<line-break>成し遂げられなかったら罰を与えようなんてさ。<line-break>もっともネメア様はすべての無理難題を成し遂げ<line-break>てしまったから、陛下もくやしかったろうね。<line-break>これでネメア様の株がますます上がっちゃうよ。<end>ネメア様がとうとう皇帝を見限って　　<line-break>エンシャントから逃げ出したって噂は<line-break>どうも本当のことらしいよ。<line-break>皇帝のネメア様に対する嫌がらせも<line-break>ひどいもんだったからねえ。<line-break>ネメア様も今までよく耐えたと思うよ。<end>とうとう来るべき時が来てしまったねえ。　　<line-break>殺されたエリュマルク帝も自業自得だよ。<line-break>ネメア様も皇帝殺しを恥じることはないさ。<line-break>あれだけ無理難題を押しつけられても黙って<line-break>耐えて、しかもすべて成し遂げてきたのだから。<line-break>悪いのはどう考えてもエリュマルク帝だよ。<end>東方の国はぜーんぶ滅ぼされたそうじゃないか。<line-break>ロセンのペウダはひどいことばかりしていた<line-break>そうだから、親族皆殺しも当然の報いだよ。<end>ロストールの将軍は能なしばかりだと　<line-break>思っていたけど、ゼネテスってのは<line-break>それなりにできるみたいじゃないか。<line-break>だけど、カルラ将軍やネメア様には、<line-break>到底かなわないだろうさ。<line-break>ロストールが滅ぶのも時間の問題だよ。<end>リベルダムは、カルラ将軍によって破壊された<line-break>そうだよ。たぶん、逆らう者への見せしめだと<line-break>思うけど、やりすぎのような気がするねぇ。<end>ネメア様はロストール攻略に参加しないのかね。<line-break>宿敵ロストールとの戦いくらい、ネメア様が<line-break>出陣することを期待していたんだけどねぇ。<end>ネメア様が死んだなんて噂が流れているけど、<line-break>あれはロストールのゼネテスが流した<line-break>デマだそうだよ。<line-break>ネメア様が死んだなんて、信じる人間は<line-break>ディンガルにいるわけがないってのに、<line-break>ゼネテスって男もバカだねぇ。<end>",
-      "english": "<select><value:$33>Emperor Elmark is a terrible man. He kept giving Nemea impossible tasks and planned to punish him if he failed. But Nemea completed every one of them, so I bet the Emperor was frustrated. Nemea's reputation will only rise now.<end>The rumor that Nemea finally abandoned the Emperor and fled Ancient seems to be true. The Emperor's harassment of Nemea was awful, after all. Nemea put up with it for a long time.<end>The time has finally come. Emperor Elmark had it coming. Nemea needn't be ashamed of killing him. He endured every impossible demand and completed them all. No matter how you look at it, Elmark was the one at fault.<end>I hear every eastern nation has been destroyed. Peuda of Rosen committed nothing but atrocities, so having his entire clan wiped out was only fitting.<end>I thought Rostorl's generals were all incompetent, but this Xenetes fellow seems capable enough. Even so, he can't possibly stand against General Carla or Nemea. Rostorl's fall is only a matter of time.<end>I hear Carla's forces destroyed Liberdam. It was probably meant as an example to anyone who would resist, but I think they went too far.<end>Isn't Nemea taking part in the campaign against Rostorl? I hoped he'd march out for a battle against our old enemy, at least.<end>There's a rumor that Nemea died, but apparently it's a lie spread by Xenetes of Rostorl. No one in Dyneskal would believe Nemea was dead anyway. That Xenetes fellow is a fool.<end>",
+      "english": "<select><value:$33>Emperor Elmark really is dreadful. He kept setting Nemea impossible tasks, intending to punish him if he failed. But Nemea completed every last one, so the emperor must have been furious. Nemea's reputation will only rise higher now.<end>It seems the rumor is true: Nemea finally gave up on the emperor and fled Ancient. The emperor's harassment had become unbearable. Nemea endured it remarkably long.<end>So the inevitable has finally happened. Emperor Elmark had only himself to blame for his death. Nemea has no reason to be ashamed of killing the emperor. He silently endured every impossible task and completed them all. However you look at it, Elmark was the one at fault.<end>They say every nation in the east has been destroyed. Peuda of Rocen committed one atrocity after another, so the slaughter of his entire family was only fitting retribution.<end>I thought all Rostorl's generals were useless, but this Xenetes seems reasonably capable. Still, he could never measure up to General Karula or Nemea. Rostorl's fall is only a matter of time.<end>They say General Karula destroyed Liberdam. I suppose it was meant as a warning to anyone who might resist, but I think she went too far.<end>Is Nemea not taking part in the Rostorl Campaign? I thought he would at least take the field against his arch-enemy, Rostorl.<end>There are rumors that Nemea is dead, but apparently Xenetes of Rostorl started them. No one in Dyneskal would ever believe Nemea had died. Xenetes is a fool.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 네메아. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "630229",
-      "paths": ["translations/korean/messages/msgsec063-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec063-part99.toml"
+      ],
       "before_korean": "후후후. 그런 게 가능할까요. 하지만 제게는 상관없는 일이겠네요. 레무온님의 정권 아래에서 저는… 감옥 안이거나 묘비 아래일 테니까.<end>",
       "proposed_korean": "후후후. 그런 게 가능할까요. 하지만 제게는 상관없는 일이겠네요. 레무온 님의 정권 아래에서 저는… 감옥 안이거나 묘비 아래일 테니까.<end>",
       "japanese": "ふふふ。<line-break>そんなことができるかしら。　　<line-break>　<line-break>でも私には関係ありませんわね。<line-break>レムオン様の政権下では、<line-break>私は…牢の中か、墓石の下。<end>",
-      "english": "Hee hee. Could that really be done? It hardly matters to me. Under Lemghon's rule, I'll be either in prison... or under a gravestone.<end>",
+      "english": "Hee hee. I wonder if such a thing is even possible. But it hardly concerns me. Under your rule, Lord Lemghon, I would be... in a cell or beneath a gravestone.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "630324",
-      "paths": ["translations/korean/messages/msgsec063-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec063-part99.toml"
+      ],
       "before_korean": "약혼자라고 해도 어머니께서 멋대로 정한 일이에요. 소꿉친구인 레무온님과의 관계를 이래라저래라 들을 이유는 없습니다.<end>",
       "proposed_korean": "약혼자라고 해도 어머니께서 멋대로 정한 일이에요. 소꿉친구인 레무온 님과의 관계를 이래라저래라 들을 이유는 없습니다.<end>",
       "japanese": "婚約者といっても<line-break>お母様が勝手に決めたこと。　　　<line-break>　<line-break>幼なじみのレムオン様との関係を<line-break>とやかく言われる筋合いは<line-break>ありません。<end>",
-      "english": "Even if he is my fiancé, my mother decided that on her own. No one has any right to interfere in my relationship with Lemghon, my childhood friend.<end>",
+      "english": "That betrothal was Mother's decision, not mine. No one has any right to object to my relationship with Lemghon, my childhood friend.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "640118",
-      "paths": ["translations/korean/messages/msgsec064-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec064-part99.toml"
+      ],
       "before_korean": "여동생 앞에서는 솔직해지지 못하시는군요. 레무온님답네요…. 후후후.<end>",
       "proposed_korean": "여동생 앞에서는 솔직해지지 못하시는군요. 레무온 님답네요…. 후후후.<end>",
       "japanese": "妹の前では素直になれないのですね。<line-break>レムオン様らしい…。ふふふ。<end>",
-      "english": "You can't be honest with your sister, can you? Just like you, Lemghon... Hee hee.<end>",
+      "english": "He can't be open with his own sister. How very like Lemghon... Hee hee.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "650047",
-      "paths": ["translations/korean/messages/msgsec065-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec065-part99.toml"
+      ],
       "before_korean": "<if><value:$29><equal>%0후훗, 레무온님도 참 말씀을 잘하시네요. 남동생 앞에서는 신사로 보이고 싶으신가요?<end>후훗, 레무온님도 참 말씀을 잘하시네요. 여동생 앞에서는 신사로 보이고 싶으신가요?<end>",
       "proposed_korean": "<if><value:$29><equal>%0후훗, 레무온 님도 참 말씀을 잘하시네요. 남동생 앞에서는 신사로 보이고 싶으신가요?<end>후훗, 레무온 님도 참 말씀을 잘하시네요. 여동생 앞에서는 신사로 보이고 싶으신가요?<end>",
       "japanese": "<if><value:$29><equal>%0くすっ、レムオン様ったら　<line-break>お上手ですこと。<line-break>　<line-break>弟君の前では<line-break>紳士で通すおつもりかしら？<end>くすっ、レムオン様ったら　<line-break>お上手ですこと。<line-break>　<line-break>妹君の前では<line-break>紳士で通すおつもりかしら？<end>",
-      "english": "<if><value:$29><equal>%0Hee hee, Lemghon, you do have a way with words. Are you trying to look like a gentleman in front of your little brother?<end>Hee hee, Lemghon, you do have a way with words. Are you trying to look like a gentleman in front of your little sister?<end>",
+      "english": "<if><value:$29><equal>%0My, Lord Lemghon, how charming. Do you mean to play the gentleman in front of your younger brother?<end>My, Lord Lemghon, how charming. Do you mean to play the gentleman in front of your younger sister?<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "650077",
-      "paths": ["translations/korean/messages/msgsec065-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec065-part99.toml"
+      ],
       "before_korean": "차라리 레무온님께서 제 남편이 되어 주시면 됩니다.<end>",
       "proposed_korean": "차라리 레무온 님께서 제 남편이 되어 주시면 됩니다.<end>",
       "japanese": "いっそのこと、レムオン様が私の<line-break>夫になってくださればいいのです。<end>",
-      "english": "Then perhaps you should become my husband instead, Lemghon.<end>",
+      "english": "I would much rather have you for my husband, Lemghon.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "890010",
-      "paths": ["translations/korean/messages/msgsec089-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec089-part99.toml"
+      ],
       "before_korean": "그래서 아홉 기둥의 검사를 위해 에스텔님을 데리러 왔다가 당신을 만나 지난번과 같은 일이 벌어진 겁니다. 책임감이 강한 분이라 틈을 봐서 라드라스로 돌아와 검사를 받아 주시긴 합니다만….<end>",
       "proposed_korean": "그래서 아홉 기둥의 검사를 위해 에스텔 님을 데리러 왔다가 당신을 만나 지난번과 같은 일이 벌어진 겁니다. 책임감이 강한 분이라 틈을 봐서 라드라스로 돌아와 검사를 받아 주시긴 합니다만….<end>",
       "japanese": "それで九柱のチェックのために、エステル様を　<line-break>連れ戻しにまいったおりにあなた様に出会い、<line-break>この前のようなことになってしまったのです。<line-break>責任感の強いお方ですので、<line-break>タイミングを見てはラドラスに戻って<line-break>チェックを受けてくださるのですが…<end>",
-      "english": "So I came to bring Estelle back for the Nine Pillars' inspection, met you, and the same thing happened as before. She's very responsible, so she does return to Ladras for inspections when she can...<end>",
+      "english": "When we came to bring Lady Esther back for the Nine Pillars' inspection, we encountered you, and that led to what happened before. She has a strong sense of responsibility, so she usually finds an opportunity to return to Ladras for the inspection, but...<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 에스텔. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "890200",
-      "paths": ["translations/korean/messages/msgsec089-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec089-part99.toml"
+      ],
       "before_korean": "<if><value:$01><equal>4자기브는 쇼크 상태인 것 같아. 어쩌지…<end><if><value:$01><equal>5쳇, 쓸모없는 녀석이군. 갑자기 쇼크 상태라니…<end><if><value:$01><equal>6자기브, 완전히 쇼크 상태야. 어떡하지, <value:$28>….<end><if><value:$01><equal>13…쇼크 상태군. …위험한 상태다.<end><if><value:$01><equal>14어찌 된 일인고. 저 슬라임이 나오자마자 갑자기 이 꼴이 되었구나.<end><if><value:$01><equal>15있잖아, 자기브는 쇼크 상태야. 어떡하지, <value:$28>?<end><if><value:$01><equal>17뭐어? 기가 막히네요! 믿을 수가 없어요!! 저 슬라임이 나오자마자 갑자기 착란 상태라고요? 이래서 하등생물은!<end><if><value:$01><equal>19자기브 언니! 있잖아, 정신 차려!<end><if><value:$01><equal>20……………….<end><if><value:$01><equal>27상당히 심한 쇼크 상태다…. 로센으로 가는 건 불가능하겠군. 엔샨트로 돌아가서 돌보자.<end><if><value:$01><equal>26………………? 이 아가씨에게서 어둠의 냄새가 나는구나.<end><if><value:$01><equal>22자기브는 쇼크 상태야. 로센으로 데려가는 건 상당히 위험할 것 같아…. 일단 엔샨트까지 도망가자. 그러면 되지?<end><if><value:$01><equal>192자기브는 쇼크 상태입니다. 어떻게 하시겠습니까?<end><if><value:$01><equal>193<value:$28>님! 자기브님이…! 자기브님이! 어, 어, 어떡하죠!?<end><if><value:$01><equal>194…정신에 허공으로 통하는 길이 열렸군. 끔찍한 기억까지 되살아나 빠르게 그녀를 갉아먹고 있어….<end><if><value:$01><equal>191이 느낌…? 나도 겪어 본 적이 있어…. 아니, 아무것도 아니야. 미안해. 조금 옛날 일이 생각나서….<end><if><value:$01><equal>190………………? 위험하군…. 이 녀석, 마인에 씐 건가….<end>",
       "proposed_korean": "<if><value:$01><equal>4자기브는 쇼크 상태인 것 같아. 어쩌지…<end><if><value:$01><equal>5쳇, 쓸모없는 녀석이군. 갑자기 쇼크 상태라니…<end><if><value:$01><equal>6자기브, 완전히 쇼크 상태야. 어떡하지, <value:$28>….<end><if><value:$01><equal>13…쇼크 상태군. …위험한 상태다.<end><if><value:$01><equal>14어찌 된 일인고. 저 슬라임이 나오자마자 갑자기 이 꼴이 되었구나.<end><if><value:$01><equal>15있잖아, 자기브는 쇼크 상태야. 어떡하지, <value:$28>?<end><if><value:$01><equal>17뭐어? 기가 막히네요! 믿을 수가 없어요!! 저 슬라임이 나오자마자 갑자기 착란 상태라고요? 이래서 하등생물은!<end><if><value:$01><equal>19자기브 언니! 있잖아, 정신 차려!<end><if><value:$01><equal>20……………….<end><if><value:$01><equal>27상당히 심한 쇼크 상태다…. 로센으로 가는 건 불가능하겠군. 엔샨트로 돌아가서 돌보자.<end><if><value:$01><equal>26………………? 이 아가씨에게서 어둠의 냄새가 나는구나.<end><if><value:$01><equal>22자기브는 쇼크 상태야. 로센으로 데려가는 건 상당히 위험할 것 같아…. 일단 엔샨트까지 도망가자. 그러면 되지?<end><if><value:$01><equal>192자기브는 쇼크 상태입니다. 어떻게 하시겠습니까?<end><if><value:$01><equal>193<value:$28>님! 자기브 님이…! 자기브 님이! 어, 어, 어떡하죠!?<end><if><value:$01><equal>194…정신에 허공으로 통하는 길이 열렸군. 끔찍한 기억까지 되살아나 빠르게 그녀를 갉아먹고 있어….<end><if><value:$01><equal>191이 느낌…? 나도 겪어 본 적이 있어…. 아니, 아무것도 아니야. 미안해. 조금 옛날 일이 생각나서….<end><if><value:$01><equal>190………………? 위험하군…. 이 녀석, 마인에 씐 건가….<end>",
       "japanese": "<if><value:$01><equal>4ザギヴはショック状態みたいだわ。<line-break>どうしよっかな…<end><if><value:$01><equal>5ちっ、使えない奴だな。<line-break>いきなりショック状態だなんて…<end><if><value:$01><equal>6ザギヴ、完全にショック状態だよ。<line-break>どうしよう、<value:$28>…。<end><if><value:$01><equal>13…ショック状態だな。<line-break>…危険な状態だ。<end><if><value:$01><equal>14どうしたことじゃ。<line-break>あのスライムが出てきよったら、<line-break>いきなりこの有様じゃ。<end><if><value:$01><equal>15ねぇ、ザギヴはショック状態だよ。<line-break>どうしよう、<value:$28>？<end><if><value:$01><equal>17なぁーに？<line-break>あきれちゃうわ！　<line-break>信じられないわ！！<line-break>あのスライムが出てきたら<line-break>いきなり錯乱状態？<line-break>これだから下等生物はっ！<end><if><value:$01><equal>19ザギヴお姉ちゃん！<line-break>ねえ、しっかりして！<end><if><value:$01><equal>20………………。<end><if><value:$01><equal>27かなりひどいショック状態だ…。<line-break>ロセンへ行くのは不可能だな。<line-break>エンシャントへ戻って介抱しよう。<end><if><value:$01><equal>26………………？<line-break>この娘御からは、<line-break>闇のニオイがするのう。<end><if><value:$01><equal>22ザギヴはショック状態だ。<line-break>ロセンに連れていくのは、<line-break>かなり危険だと思うなぁ…。<line-break>ここはエンシャントまで逃げようよ。<line-break>それでいいよね？<end><if><value:$01><equal>192ザギヴはショック状態です。<line-break>どうしますか？<end><if><value:$01><equal>193<value:$28>さん！<line-break>ザギヴさんが…！　ザギヴさんが！<line-break>ど、ど、どうしましょう！？<end><if><value:$01><equal>194…精神に虚空の通り道が空いたな。<line-break>忌まわしい記憶もぶり返して<line-break>急速に彼女を蝕んでいる…。<end><if><value:$01><equal>191この感じ…？<line-break>私にも経験がある…。<line-break><line-break>ううん、なんでもないの。<line-break>ごめんなさい。<line-break>少し、昔のこと思い出しちゃって…。<end><if><value:$01><equal>190………………？<line-break><line-break><line-break>まずいな…。<line-break>こいつ、魔人憑きか…。<end>",
-      "english": "<if><value:$01><equal>4Zagiv looks shocked. What should we do...?<end><if><value:$01><equal>5Tch. Useless. Going into shock all of a sudden...<end><if><value:$01><equal>6Zagiv is completely in shock. What do we do, <value:$28>...?<end><if><value:$01><equal>13She's in shock... This is dangerous.<end><if><value:$01><equal>14What happened? She became like this the moment that slime appeared.<end><if><value:$01><equal>15Hey, Zagiv's in shock. What do we do, <value:$28>?<end><if><value:$01><equal>17What? Unbelievable! She goes into a frenzy the moment that slime appears? This is why lower life-forms are hopeless!<end><if><value:$01><equal>19Zagiv! Hey, snap out of it!<end><if><value:$01><equal>20.................<end><if><value:$01><equal>27She's in severe shock... We can't take her to Rosen. Let's return to Ancient and tend to her.<end><if><value:$01><equal>26...? This young lady smells of darkness.<end><if><value:$01><equal>22Zagiv's in shock. Taking her to Rosen would be dangerous... Let's retreat to Ancient for now. All right?<end><if><value:$01><equal>192Zagiv is in shock. What will you do?<end><if><value:$01><equal>193<value:$28>! Zagiv... Zagiv! W-what do we do!?<end><if><value:$01><equal>194A path to the void has opened in her mind. Her horrible memories are resurfacing and devouring her quickly...<end><if><value:$01><equal>191This feeling...? I've felt it too... No, it's nothing. Sorry. It just reminded me of the past...<end><if><value:$01><equal>190...? This is bad... Is she possessed by a demon...?<end>",
+      "english": "<if><value:$01><equal>4Zagiv seems to be in shock. What should I do...?<end><if><value:$01><equal>5Tch. Useless. Going into shock without warning...<end><if><value:$01><equal>6Zagiv's completely in shock. What do we do, <value:$28>...?<end><if><value:$01><equal>13She's in shock. Her condition is dangerous.<end><if><value:$01><equal>14What happened here? That Slime appeared, and suddenly she was like this.<end><if><value:$01><equal>15Zagiv's in shock. What do we do, <value:$28>?<end><if><value:$01><equal>17Oh, honestly! This is absurd! That Slime appears and she immediately loses her mind? Inferior creatures!<end><if><value:$01><equal>19Big Sis Zagiv! Come on, pull yourself together!<end><if><value:$01><equal>20............<end><if><value:$01><equal>27She's in severe shock. We can't continue to Rocen. Let's return to Ancient and tend to her.<end><if><value:$01><equal>26............? I smell darkness on this young lady.<end><if><value:$01><equal>22Zagiv's in shock. Taking her to Rocen would be far too dangerous... Let's retreat to Ancient. That's all right, isn't it?<end><if><value:$01><equal>192Zagiv is in shock. What should we do?<end><if><value:$01><equal>193<value:$28>! Zagiv... Zagiv is...! W-what should we do?!<end><if><value:$01><equal>194A path into the void has opened within her mind. Loathsome memories are returning and rapidly eating away at her...<end><if><value:$01><equal>191This feeling...? I've been through it too... No, it's nothing. I'm sorry. It just brought back something from long ago...<end><if><value:$01><equal>190............? This is bad... Is she possessed by a demon...?<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 자기브. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1100110",
-      "paths": ["translations/korean/messages/msgsec110-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec110-part99.toml"
+      ],
       "before_korean": "그렇다면 우스운 꼴이군. 이미 무너진 꿈을 아직도 꾸는 경사스러운 광대일 뿐이다. 인간의 혁신은 이미 시작되었다. 네메아님이야말로 진정한 영장이다. 네 실패작보다 강하고 아름답지.<end>",
       "proposed_korean": "그렇다면 우스운 꼴이군. 이미 무너진 꿈을 아직도 꾸는 경사스러운 광대일 뿐이다. 인간의 혁신은 이미 시작되었다. 네메아 님이야말로 진정한 영장이다. 네 실패작보다 강하고 아름답지.<end>",
       "japanese": "そうだとしたらお笑いぐさだ。<line-break>ついえた夢をいまだに見ている　　　　<line-break>おめでたい道化でしかないな。<line-break>人の革新はすでに始まっている。<line-break>ネメア様こそ、真の霊長。<line-break>貴様のでき損ないよりも強く、美しい。<end>",
-      "english": "Then you're a joke. A blessed fool still dreaming a dream that has already collapsed. Humanity's evolution has begun. Nemea is the true apex—stronger and more beautiful than your failure.<end>",
+      "english": "If so, you're a laughingstock―nothing but a deluded fool still dreaming of what has already come to nothing. Humanity's Evolution has already begun. Lord Nemea is the true pinnacle of life, stronger and more beautiful than your failures.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 네메아. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1210060",
-      "paths": ["translations/korean/messages/msgsec121-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec121-part99.toml"
+      ],
       "before_korean": "아트레이아님은 어릴 때부터 불행했어. 게다가 빛까지 잃고… 계속 그런 곳에서 혼자 살아왔지. 나, 아트레이아님에게 빛을 주고 싶어…. 자, 사안의 미궁으로 색혹의 눈동자를 찾으러 가자!<end>",
       "proposed_korean": "아트레이아 님은 어릴 때부터 불행했어. 게다가 빛까지 잃고… 계속 그런 곳에서 혼자 살아왔지. 나, 아트레이아 님에게 빛을 주고 싶어…. 자, 사안의 미궁으로 색혹의 눈동자를 찾으러 가자!<end>",
       "japanese": "アトレイア様は、小さなころから不幸<line-break>だったのよ。そのうえ光を失って…、<line-break>ずっとあんなところでひとりで暮らして。<line-break>私、アトレイア様に光をあげたい…。<line-break>さあ、邪眼の迷宮へ<line-break>色惑の瞳を取りにいきましょ！<end>",
-      "english": "Atleia has been unhappy since she was little. She even lost her sight and has lived alone in a place like that all this time. I want to give Atleia light... Come on, let's go to the Evil Eye Labyrinth and find the Bewitching Eye!<end>",
+      "english": "Lady Atleia has been unhappy since childhood. Then she lost her sight and has lived all alone in that place ever since. I want to give her back the light... Come on, let's retrieve the Bewitching Eye from the Evil Eye Labyrinth!<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 아트레이아. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1250292",
-      "paths": ["translations/korean/messages/msgsec125-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec125-part99.toml"
+      ],
       "before_korean": "그라제온의 무녀가 되면 에스텔님은 엄청나게 강한 힘을 손에 넣을 수 있대요! 힘이라면 마력일까요? 그렇다면 부러울지도! 유리스도 무녀가 되어 보고 싶을지도! 아, 그라제온님이 계신 곳에는 전송 장치로 갈 수 있는 것 같아요.<end>",
       "proposed_korean": "그라제온의 무녀가 되면 에스텔 님은 엄청나게 강한 힘을 손에 넣을 수 있대요! 힘이라면 마력일까요? 그렇다면 부러울지도! 유리스도 무녀가 되어 보고 싶을지도! 아, 그라제온님이 계신 곳에는 전송 장치로 갈 수 있는 것 같아요.<end>",
       "japanese": "グラジェオンの巫女になれば、<line-break>エステル様は超強大な力を手にすることが<line-break>できるんですって！<line-break>力って、魔力のことかしら？<line-break>だったら、うらやましいかも！<line-break>ユーリスも巫女になってみたいかも！<line-break>あ、グラジェオン様のところへは、<line-break>転送装置で行けるみたいですよ。<end>",
-      "english": "If Estelle becomes Grazion's priestess, she'll gain incredible power! Does power mean magic? Then I'm jealous! Maybe Yuris wants to be a priestess too! Oh, it looks like the transfer device can take us to Grazion.<end>",
+      "english": "They say Lady Esther will gain incredible power if she becomes Grajeon's priestess! Does power mean magical power? If so, I might be jealous! Julls might like to become a priestess too! Oh, and it seems the teleportation device leads to where Grajeon is.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 에스텔. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1250313",
-      "paths": ["translations/korean/messages/msgsec125-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec125-part99.toml"
+      ],
       "before_korean": "정령신 그라제온의 성좌에서 에스텔님을 무녀로 삼겠다고… 바이가 뭐라고 했는지는 모르지만 나는 반대야. 에스텔님이 어떻게 생각하든 결국 샤리 뜻대로 흘러갈 것 같은 나쁜 예감이 들어….<end>",
       "proposed_korean": "정령신 그라제온의 성좌에서 에스텔 님을 무녀로 삼겠다고… 바이가 뭐라고 했는지는 모르지만 나는 반대야. 에스텔 님이 어떻게 생각하든 결국 샤리 뜻대로 흘러갈 것 같은 나쁜 예감이 들어….<end>",
       "japanese": "精霊神グラジェオンの聖座で、<line-break>エステル様を巫女とするって…<line-break><line-break>ヴァイは何て言ったか知らないけど、<line-break>私は反対よ。<line-break><line-break>エステル様がどう思おうと、<line-break>それは結局シャリの思惑通りに<line-break>なってしまう、悪い予感がするから…。<end>",
-      "english": "They said Estelle would become the priestess at the spirit god Grazion's sacred seat... I don't know what Vai said, but I'm against it. No matter what Estelle thinks, I have a bad feeling it'll all play out exactly as Shari intends...<end>",
+      "english": "Making Lady Esther a priestess at Grajeon the Spirit God's Holy Seat...? I don't know what Vai said, but I'm against it. Whatever Lady Esther may think, I have a terrible feeling that it will ultimately play right into Shalli's hands...<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 에스텔. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1350327",
-      "paths": ["translations/korean/messages/msgsec135-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec135-part99.toml"
+      ],
       "before_korean": "예! 왕도는 완전히 레무온님의 병사들이… 에, 에리스님도….<end>",
       "proposed_korean": "예! 왕도는 완전히 레무온 님의 병사들이… 에, 에리스 님도….<end>",
       "japanese": "はい！<line-break>王都は完全にレムオン様の兵が…<line-break>エ、エリス様も…<end>",
-      "english": "Yes! The capital is completely under Lemghon's soldiers... Q-Queen Eris too...<end>",
+      "english": "Yes! Lord Lemghon's soldiers have completely overrun the capital... And Lady Eris...<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온, 에리스. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1350396",
-      "paths": ["translations/korean/messages/msgsec135-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec135-part99.toml"
+      ],
       "before_korean": "카를라님….<end>",
       "proposed_korean": "카를라 님….<end>",
       "japanese": "カルラ様…。<end>",
-      "english": "Carla...<end>",
+      "english": "Lady Karula...<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 카를라. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1350411",
-      "paths": ["translations/korean/messages/msgsec135-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec135-part99.toml"
+      ],
       "before_korean": "제네테스님!<end>",
       "proposed_korean": "제네테스 님!<end>",
       "japanese": "ゼネテス様！<end>",
-      "english": "Xenetes!<end>",
+      "english": "Lord Xenetes!<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 제네테스. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1360107",
-      "paths": ["translations/korean/messages/msgsec136-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec136-part99.toml"
+      ],
       "before_korean": "<if><value:$2A><greater-equal>50오오! 귀공이 <value:$2B>의 <value:$28>! 제가 몰라뵈었습니다. 이온즈님께 말씀 들었습니다.<end><value:$28>님이십니까. 제가 몰라뵈었습니다. 이온즈님께 말씀 들었습니다.<end>",
       "proposed_korean": "<if><value:$2A><greater-equal>50오오! 귀공이 <value:$2B>의 <value:$28>! 제가 몰라뵈었습니다. 이온즈 님께 말씀 들었습니다.<end><value:$28>님이십니까. 제가 몰라뵈었습니다. 이온즈 님께 말씀 들었습니다.<end>",
       "japanese": "<if><value:$2A><greater-equal>50おおっ！<line-break>貴殿が<line-break><value:$2B>の<value:$28>！<line-break>これはお見それいたしました。<line-break>イオンズ様よりうかがっております。<end><value:$28>殿ですか。<line-break>これはお見それいたしました。<line-break>イオンズ様よりうかがっております。<end>",
-      "english": "<if><value:$2A><greater-equal>50Oh! So you are <value:$28>, the <value:$2B>! Forgive me for not recognizing you. I've heard about you from Ions.<end>Are you <value:$28>? Forgive me for not recognizing you. I've heard about you from Ions.<end>",
+      "english": "<if><value:$2A><greater-equal>50Oh! So you are <value:$28>, the <value:$2B>! Forgive me for failing to recognize you. I have heard of you from Ions.<end>You are <value:$28>? Forgive me for failing to recognize you. I have heard of you from Ions.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 이온즈. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. Runtime value controls are untouched."
     },
     {
       "id": "1400118",
-      "paths": ["translations/korean/messages/msgsec140-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec140-part99.toml"
+      ],
       "before_korean": "제네테스님?<end>",
       "proposed_korean": "제네테스 님?<end>",
       "japanese": "ゼネテス様？<end>",
-      "english": "Xenetes?<end>",
+      "english": "Lord Xenetes?<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 제네테스. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1410290",
-      "paths": ["translations/korean/messages/msgsec141-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec141-part99.toml"
+      ],
       "before_korean": "티아나님.<end>",
       "proposed_korean": "티아나 님.<end>",
       "japanese": "ティアナ様。<end>",
-      "english": "Tiana.<end>",
+      "english": "Lady Tiana.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 티아나. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1420207",
-      "paths": ["translations/korean/messages/msgsec142-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec142-part99.toml"
+      ],
       "before_korean": "레무온님!<end>",
       "proposed_korean": "레무온 님!<end>",
       "japanese": "レムオン様！<end>",
-      "english": "Lemghon!<end>",
+      "english": "Lord Lemghon!<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1420555",
-      "paths": ["translations/korean/messages/msgsec142-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec142-part99.toml"
+      ],
       "before_korean": "레무온님!<end>",
       "proposed_korean": "레무온 님!<end>",
       "japanese": "レムオン様！<end>",
-      "english": "Lemghon!<end>",
+      "english": "Lord Lemghon!<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1580009",
-      "paths": ["translations/korean/messages/msgsec158-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec158-part99.toml"
+      ],
       "before_korean": "<select><value:$33>손자 치다프가 건강하게 자라 줘서 난 기뻐. 하지만 너무 활발해서 크게 다치지만 않았으면 좋겠는데…. 치다프가 다치면 돈 벌러 나간 아들 내외에게 면목이 없으니까.<end>손자 치다프가 건강하게 자라 줘서 난 기뻐. 하지만 너무 활발해서 크게 다치지만 않았으면 좋겠는데…. 치다프가 다치면 돈 벌러 나간 아들 내외에게 면목이 없으니까.<end>우리 영감은 또 술집에서 퍼마시고 있나. 그래도 젊을 때는 혈기왕성한 모험자라 무리하다가 맨날 다치곤 했지. 너무 다쳐서 심할 때는 치료비가 번 돈보다 더 많이 들었어. 덕분에 지금도 가난하게 살고 있지.<end>우리 영감이 젊었을 때 물보라 군도를 탐험하려고 동료들을 데리고 갔다가 몬스터한테 습격당했어. 살아 돌아온 건 그 사람뿐이었지. 그 뒤로 모험으로 번 돈은 동료들의 유족에게 나눠 줬고…. 우리 집은 늘 가난했어.<end>저 술집에서 우리 영감한테 설교 들었지? 젊은 모험자가 말을 걸면 무리하지 말라고 금세 설교를 시작한다니까. 그래도 봐줘. 악의는 없어. 자기처럼 무리하다 동료를 잃는 일을 너희가 겪지 않았으면 하는 것뿐이야.<end>우리 영감은 오늘도 술집인가. 불평만 하지 말고 너희 젊은이들한테 조언이라도 하나 해주면 좋을 텐데.<end>딩갈 군대가 쳐들어오는 거야? 로스톨이 위험하다면 아미랄로라도 피하는 게 좋으려나.<end>정말 엘파스님은 신의 사자야…. 그분 말씀대로 참된 신께 기도하면 분명 세상은 구원받을 거야… 난 믿고 있어.<end>",
       "proposed_korean": "<select><value:$33>손자 치다프가 건강하게 자라 줘서 난 기뻐. 하지만 너무 활발해서 크게 다치지만 않았으면 좋겠는데…. 치다프가 다치면 돈 벌러 나간 아들 내외에게 면목이 없으니까.<end>손자 치다프가 건강하게 자라 줘서 난 기뻐. 하지만 너무 활발해서 크게 다치지만 않았으면 좋겠는데…. 치다프가 다치면 돈 벌러 나간 아들 내외에게 면목이 없으니까.<end>우리 영감은 또 술집에서 퍼마시고 있나. 그래도 젊을 때는 혈기왕성한 모험자라 무리하다가 맨날 다치곤 했지. 너무 다쳐서 심할 때는 치료비가 번 돈보다 더 많이 들었어. 덕분에 지금도 가난하게 살고 있지.<end>우리 영감이 젊었을 때 물보라 군도를 탐험하려고 동료들을 데리고 갔다가 몬스터한테 습격당했어. 살아 돌아온 건 그 사람뿐이었지. 그 뒤로 모험으로 번 돈은 동료들의 유족에게 나눠 줬고…. 우리 집은 늘 가난했어.<end>저 술집에서 우리 영감한테 설교 들었지? 젊은 모험자가 말을 걸면 무리하지 말라고 금세 설교를 시작한다니까. 그래도 봐줘. 악의는 없어. 자기처럼 무리하다 동료를 잃는 일을 너희가 겪지 않았으면 하는 것뿐이야.<end>우리 영감은 오늘도 술집인가. 불평만 하지 말고 너희 젊은이들한테 조언이라도 하나 해주면 좋을 텐데.<end>딩갈 군대가 쳐들어오는 거야? 로스톨이 위험하다면 아미랄로라도 피하는 게 좋으려나.<end>정말 엘파스 님은 신의 사자야…. 그분 말씀대로 참된 신께 기도하면 분명 세상은 구원받을 거야… 난 믿고 있어.<end>",
       "japanese": "<select><value:$33>孫のチダフが元気に育ってくれて、　　　<line-break>わたしゃうれしいよ。でも元気すぎて<line-break>大ケガしなけりゃいいんだけど…。<line-break>チダフがケガをすると出稼ぎにでている<line-break>息子夫婦に申しわけがたたないからねえ。<end>孫のチダフが元気に育ってくれて、　　　<line-break>わたしゃうれしいよ。でも元気すぎて<line-break>大ケガしなけりゃいいんだけど…。<line-break>チダフがケガをすると出稼ぎにでている<line-break>息子夫婦に申しわけがたたないからねえ。<end>うちのお爺さんは、また酒場で飲んだくれてる<line-break>のかね。あれでも昔は血気盛んな冒険者でねえ、<line-break>無茶をしてケガばっかりしてたもんさ。<line-break>あんまりケガをするもんで、ひどい時には<line-break>治療代のほうが稼ぎより多かったんだから。<line-break>おかげで今でも貧乏暮らしだよ。<end>うちのお爺さんは若いころ、しぶきの群島を<line-break>探検するために仲間を連れてでかけたんだけど、<line-break>モンスターに襲われてねえ。<line-break>生きて帰ってきたのは、あの人だけだったのさ。<line-break>それ以来、冒険で稼いだ金は仲間の遺族に配って<line-break>しまって…。いつも我が家は貧乏してたもんさ。<end>そこの酒場でうちのお爺さんに説教されただろ。<line-break>若い冒険者が話しかけてくると、無茶はするなと<line-break>す～ぐ説教しちまうのさ。<line-break>でも許してやっておくれ。悪気はないんだよ。<line-break>自分のように無茶をして仲間を失うような目に<line-break>あって欲しくないだけなんだから。<end>うちのお爺さんは、今日も酒場かねえ。<line-break>文句ばかり言ってないで、あんたら若者に<line-break>助言のひとつでも言えばいいだろうにねえ。<end>ディンガルの軍隊が攻めてくるのかい？<line-break>ロストールが危ないようなら、<line-break>アミラルにでも逃げたほうがいいのかねえ。<end>ほんにエルファス様は神の使いだよ…。<line-break>あの方のおっしゃるように、真の神に祈れば、<line-break>きっと世界は救われる…あたしゃ信じてるよ。<end>",
-      "english": "<select><value:$33>I'm glad my grandson Chidaf is growing up healthy. But he's so energetic, I worry he'll get badly hurt. If Chidaf is injured, I won't be able to face my son and his wife, who are away working.<end>I'm glad my grandson Chidaf is growing up healthy. But he's so energetic, I worry he'll get badly hurt. If Chidaf is injured, I won't be able to face my son and his wife, who are away working.<end>My old man's drinking at the tavern again, is he? He was a hot-blooded adventurer when he was young, always getting hurt doing reckless things. Sometimes the treatment cost more than he earned. That's why we're still poor.<end>When my husband was young, he took companions to explore the Splash Archipelago, but monsters attacked them. He was the only one who came back alive. After that he gave his adventure earnings to his companions' families... We've always been poor.<end>That old man at the tavern lectured you, didn't he? Whenever a young adventurer talks to him, he immediately starts preaching about not being reckless. Forgive him. He means no harm. He just doesn't want you to lose companions the way he did.<end>My old man's at the tavern again today? Instead of just complaining, I wish he'd give you young people some advice.<end>Is the Dyneskal army invading? If Rostorl is in danger, maybe we should flee to Amiral.<end>Elphas truly is a messenger of God... If we pray to the true god as he says, the world will surely be saved... I believe it.<end>",
+      "english": "<select><value:$33>I'm glad my grandchild Chidaf is growing up healthy. But I worry all that energy will lead to a serious injury. My son and his wife are away earning money. How could I face them if Chidaf got hurt?<end>I'm glad my grandchild Chidaf is growing up healthy. But I worry all that energy will lead to a serious injury. My son and his wife are away earning money. How could I face them if Chidaf got hurt?<end>Is my old man drinking himself senseless at the tavern again? Believe it or not, he was once a hot-blooded adventurer. He was always taking foolish risks and getting hurt. Sometimes the treatment cost more than he had earned. That's why we're still poor today.<end>When my old man was young, he took a band of companions to explore the Spray Archipelago, but monsters attacked them. He was the only one who came back alive. After that, he gave all the money he earned adventuring to the families of his dead companions. We were always poor because of it.<end>My old man lectured you at the tavern, didn't he? The moment a young adventurer speaks to him, he starts warning against taking foolish risks. Please forgive him. He means no harm. He just doesn't want anyone else to be reckless and lose companions the way he did.<end>Is my old man at the tavern again today? Instead of doing nothing but complain, he could at least offer you young folk some useful advice.<end>Is the Dyneskal army going to attack? If Rostorl is in danger, perhaps we should flee to Amiral.<end>Lord Elfas truly is a messenger of God. Just as he says, if we pray to the true God, the world will surely be saved. I believe it.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 엘파스. Japanese source explicitly uses the corresponding honorific form; the current Korean corpus overwhelmingly uses spaced proper-name + 님 forms. No controls or semantics change."
     },
     {
       "id": "1580010",
-      "paths": ["translations/korean/messages/msgsec158-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec158-part99.toml"
+      ],
       "before_korean": "<select><value:$33>용왕님, 사랑의 여신 라이라네트님. 오늘도 모두 무사히 지낼 수 있게 해주세요. 남편이 건강하게 돌아오게 해주세요. 한나가 타르튜바에게 빼앗긴 인형도 어떻게든 돌아오게 해주세요. 용왕님, 사랑의 여신 라이라네트님….<end>용왕님, 사랑의 여신 라이라네트님. 오늘도 모두 무사히 지낼 수 있게 해주세요. 한나가 건강하게 자라게 해주세요. 그리고 타르튜바의 괴롭힘도 사라지게 해주세요. 용왕님, 사랑의 여신 라이라네트님….<end>남편 말로는 딩갈 제국에서는 누구나 실력만 있으면 출세할 수 있다더군요. 정말 훌륭한 일이라고 생각해요. 정복제 랑가스터를 쓰러뜨린 칠룡사들은 왜 귀족제 같은 걸 도입했을까요. 자기 후손들을 위해서였을까요….<end>가난하게 살지만 한나를 보고 있으면 힘이 나요. 남편도 한나를 위해 열심히 벌어서 건강한 모습을 보여줘야죠. 남편은 무역선의 선원이라 반년에 한 번밖에 돌아오지 않아서 한나가 외로워해요…. 무사히 돌아오길 늘 기도하고 있어요.<end>딩갈 제국이 점령한 덕분에 로센 항구가 예전처럼 다시 쓰이게 됐다고 해요. 남편도 일이 늘어서 힘들다더군요. 청룡장군 카를라라는 분은 상당히 유능해서 선왕 페우다의 폭정과 전쟁으로 황폐해진 로센을 엄청난 기세로 복구하고 있대요.<end>모처럼 로센이 복구되고 있는데 왜 리벨덤을 파괴하는 걸까요…. 전쟁은 부수기만 하고 아무것도 만들어내지 못하네요.<end>카를라 장군이 로스톨로 다가가고 있대요. 한나를 지키기 위해 아미랄로 피난하고 싶은데 남편과 연락이 닿지 않아서….<end>구세주 엘파스님의 말씀을 믿고 참된 신께 기도드립니다…. 부디 한나를 지켜주세요….<end>",
       "proposed_korean": "<select><value:$33>용왕님, 사랑의 여신 라이라네트님. 오늘도 모두 무사히 지낼 수 있게 해주세요. 남편이 건강하게 돌아오게 해주세요. 한나가 타르튜바에게 빼앗긴 인형도 어떻게든 돌아오게 해주세요. 용왕님, 사랑의 여신 라이라네트님….<end>용왕님, 사랑의 여신 라이라네트님. 오늘도 모두 무사히 지낼 수 있게 해주세요. 한나가 건강하게 자라게 해주세요. 그리고 타르튜바의 괴롭힘도 사라지게 해주세요. 용왕님, 사랑의 여신 라이라네트님….<end>남편 말로는 딩갈 제국에서는 누구나 실력만 있으면 출세할 수 있다더군요. 정말 훌륭한 일이라고 생각해요. 정복제 랑가스터를 쓰러뜨린 칠룡사들은 왜 귀족제 같은 걸 도입했을까요. 자기 후손들을 위해서였을까요….<end>가난하게 살지만 한나를 보고 있으면 힘이 나요. 남편도 한나를 위해 열심히 벌어서 건강한 모습을 보여줘야죠. 남편은 무역선의 선원이라 반년에 한 번밖에 돌아오지 않아서 한나가 외로워해요…. 무사히 돌아오길 늘 기도하고 있어요.<end>딩갈 제국이 점령한 덕분에 로센 항구가 예전처럼 다시 쓰이게 됐다고 해요. 남편도 일이 늘어서 힘들다더군요. 청룡장군 카를라라는 분은 상당히 유능해서 선왕 페우다의 폭정과 전쟁으로 황폐해진 로센을 엄청난 기세로 복구하고 있대요.<end>모처럼 로센이 복구되고 있는데 왜 리벨덤을 파괴하는 걸까요…. 전쟁은 부수기만 하고 아무것도 만들어내지 못하네요.<end>카를라 장군이 로스톨로 다가가고 있대요. 한나를 지키기 위해 아미랄로 피난하고 싶은데 남편과 연락이 닿지 않아서….<end>구세주 엘파스 님의 말씀을 믿고 참된 신께 기도드립니다…. 부디 한나를 지켜주세요….<end>",
       "japanese": "<select><value:$33>竜王様、愛の女神ライラネート様<line-break>今日もみんなが無事で過ごせますように。<line-break>うちの人が元気で帰ってきますように。<line-break>ハンナがタルテュバに取られたお人形が<line-break>なんとかして、戻ってきますように。<line-break>竜王様、愛の女神ライラネート様…。<end>竜王様、愛の女神ライラネート様<line-break>今日もみんなが無事で過ごせますように。<line-break>ハンナが元気に育ってくれますように。<line-break>そして、タルテュバのいやがらせが<line-break>なくなりますように。<line-break>竜王様、愛の女神ライラネート様…。<end>うちの人の話だとディンガル帝国では、<line-break>誰もが実力次第で出世できるそうですね。<line-break>とてもすばらしいことだと思います。<line-break>征服帝ランガスターを倒した七竜士は、<line-break>どうして貴族制などを導入したのでしょう。<line-break>自分の子孫のためでしょうか…。<end>貧しい生活ですけどハンナを見てると元気が　　<line-break>でてくるんです。うちの人もハンナのために<line-break>しっかりと稼いで元気な姿を見せてくれないと。<line-break>うちの人は交易船の船員をしていて、半年に１度<line-break>しか帰ってこないからハンナがさびしがって…。<line-break>無事に帰ってくるよういつも祈ってるんです。<end>ディンガル帝国が占領したために、ロセンの港が<line-break>昔のように使えるようになったそうですよ。<line-break>うちの人も仕事が増えて大変なんですって。<line-break>青竜将軍のカルラというお方はかなりのやり手<line-break>で、先王ペウダの暴挙と戦争で荒れ果てたロセ<line-break>ンをすごい勢いで復興させているそうですよ。<end>せっかくロセンが復興してきたというのに、<line-break>どうしてリベルダムを破壊するのでしょう…。<line-break>戦争は壊すだけで、何も生み出さないのですね。<end>カルラ将軍がロストールへ迫っているそうです。<line-break>ハンナを守るためにも、アミラルへ疎開したい<line-break>のですが夫と連絡がとれなくて…。<end>救世主エルファス様の言葉を信じて、<line-break>真の神に祈りをささげます…。<line-break>どうかハンナをお守りください…。<end>",
-      "english": "<select><value:$33>Dragon King, Goddess of Love Lairanet, please keep everyone safe today. Please bring my husband home safely. Please somehow return the doll Tartuba took from Hanna. Dragon King, Goddess of Love Lairanet...<end>Dragon King, Goddess of Love Lairanet, please keep everyone safe today. Please let Hanna grow up healthy. And please make Tartuba stop tormenting her. Dragon King, Goddess of Love Lairanet...<end>My husband says that in the Dyneskal Empire, anyone can rise in status if they have the ability. I think that's wonderful. Why did the Seven Dragon Knights who defeated the Conqueror Emperor Langaster introduce a noble system? Was it for their descendants...?<end>We're poor, but looking at Hanna gives me strength. My husband has to work hard for Hanna and come home healthy. He's a merchant sailor, so he only returns once every six months. Hanna gets lonely... I always pray he comes back safely.<end>I hear Rosen's harbor is being used again now that the Dyneskal Empire occupies it. My husband says work has increased. General Carla is apparently very capable and is rebuilding Rosen at tremendous speed after the devastation caused by King Peuda's tyranny and the war.<end>Rosen is finally recovering, so why destroy Liberdam...? War only destroys and creates nothing.<end>General Carla is approaching Rostorl. I want to evacuate to Amiral to protect Hanna, but I can't reach my husband...<end>I believe the Savior Elphas's words and pray to the true god... Please protect Hanna...<end>",
+      "english": "<select><value:$33>O Dragon King, O Lailanate, Goddess of Love, may everyone pass this day in safety. May my husband return home safe and well. And somehow, please let Hannah have back the doll Tartuba took from her. O Dragon King, O Lailanate, Goddess of Love...<end>O Dragon King, O Lailanate, Goddess of Love, may everyone pass this day in safety. May Hannah grow up healthy, and may Tartuba's harassment come to an end. O Dragon King, O Lailanate, Goddess of Love...<end>My husband says that in the Dyneskal Empire, anyone can rise according to ability. I think that's wonderful. Why did the Seven Dragon Knights, who defeated the Conqueror Emperor Lancaster, ever establish an aristocracy? Was it for the sake of their own descendants?<end>Our life is poor, but looking at Hannah gives me strength. Her father must work hard for her sake and come home safe and well. He serves aboard a merchant ship and only returns once every six months, so Hannah gets lonely. I always pray for his safe return.<end>I hear that since the Dyneskal Empire occupied Rocen, its port has gone back into use just as it was in the old days. All the extra work is keeping my husband very busy. Azure Dragon General Karula is apparently very capable. She is rebuilding Rocen at remarkable speed after former King Peuda's tyranny and the war left it in ruins.<end>Rocen was finally beginning to recover, so why did Liberdam have to be destroyed? War only destroys. It creates nothing.<end>I hear General Karula is closing in on Rostorl. I want to evacuate to Amiral to protect Hannah, but I can't get word to my husband...<end>I believe the words of Elfas, the Savior, and offer my prayers to the true God. Please protect Hannah...<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 엘파스 only. Titles such as 용왕님 and locally established deity forms are deliberately untouched. Japanese source explicitly uses エルファス様. No controls or semantics change."
     },
     {
       "id": "1630055",
-      "paths": ["translations/korean/messages/msgsec163-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec163-part99.toml"
+      ],
       "before_korean": "출격! <value:$28>님을 따라라! 앙길단님을 구하는 거다!!<end>",
       "proposed_korean": "출격! <value:$28>님을 따라라! 앙길단 님을 구하는 거다!!<end>",
       "japanese": "出撃！　<value:$28>様に続け！<line-break>アンギルダン様をお救いするのだ！！<end>",
-      "english": "Move out! Follow <value:$28>! We're going to rescue Angildan!<end>",
+      "english": "Move out! Follow <value:$28>! We must save Lord Angeerdan!<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 앙길단 while leaving runtime <value:$28> honorific topology untouched. Japanese source uses アンギルダン様."
     },
     {
       "id": "1700009",
-      "paths": ["translations/korean/messages/msgsec170-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec170-part99.toml"
+      ],
       "before_korean": "어머, <value:$28>. 보아하니 잘 지내는 모양이구나. 마을도 예전의 활기를 되찾고 있지? 그러고 보니 새 영주님도 정해졌는데, 레무온님의 여동생이라고 하더라. 여자 영주라니 이 나라에선 처음 아닐까?<end>",
       "proposed_korean": "어머, <value:$28>. 보아하니 잘 지내는 모양이구나. 마을도 예전의 활기를 되찾고 있지? 그러고 보니 새 영주님도 정해졌는데, 레무온 님의 여동생이라고 하더라. 여자 영주라니 이 나라에선 처음 아닐까?<end>",
       "japanese": "おや、<value:$28>。<line-break>どうやら元気でやってるみたいだね。<line-break>町も昔の活気を取り戻してきただろ？　　　　<line-break>そういえば新しい領主様が決まってね、<line-break>なんでもレムオン様の妹君らしいのさ。<line-break>女領主なんてこの国じゃ初めてじゃないかね？<end>",
-      "english": "Oh, <value:$28>. You seem to be doing well. The town's getting its old energy back, isn't it? Come to think of it, a new lord has been appointed. I hear she's Lemghon's younger sister. A female lord may be a first for this country.<end>",
+      "english": "Oh, <value:$28>. You seem to be doing well. The town's starting to feel lively again, isn't it? By the way, they've chosen a new lord. I hear she's Lord Lemghon's younger sister. Surely she's the first woman ever to rule a domain in this country?<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온. Japanese source explicitly uses レムオン様; title 영주님 is deliberately untouched."
     },
     {
       "id": "1740103",
-      "paths": ["translations/korean/messages/msgsec174-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec174-part99.toml"
+      ],
       "before_korean": "전에 네메아님께 들었어. 당신이 섬광의 화살을 쏘는 강력한 활을 썼다고. 나도 하프엘프에게 활을 빌리는 건 싫지만 전열에 설 일도 없는 자가 갖고 있어 봐야 의미 없잖아.<end>",
       "proposed_korean": "전에 네메아 님께 들었어. 당신이 섬광의 화살을 쏘는 강력한 활을 썼다고. 나도 하프엘프에게 활을 빌리는 건 싫지만 전열에 설 일도 없는 자가 갖고 있어 봐야 의미 없잖아.<end>",
       "japanese": "以前、ネメア様から聞いたのよ。　　　<line-break>あなたが閃光の矢を放つ強力な弓を<line-break>使っていた、とね。<line-break>私だってハーフエルフから弓を借りる<line-break>なんてイヤだけど、戦列に加わることの<line-break>ない者が持っていても無意味だわ。<end>",
-      "english": "Nemea told me before that you used a powerful bow that fires flashing arrows. I hate borrowing a bow from a half-elf too, but there's no point in someone who never stands on the front line keeping it.<end>",
+      "english": "Lord Nemea told me about it before. He said you once wielded a powerful bow that loosed arrows of light. I don't like the thought of borrowing from a Half-Elf any more than you do, but the bow is wasted on someone who won't be joining the battle.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 네메아. Japanese source explicitly uses ネメア様. No controls or semantics change."
     },
     {
       "id": "1780067",
-      "paths": ["translations/korean/messages/msgsec178-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec178-part99.toml"
+      ],
       "before_korean": "제네테스님.<end>",
       "proposed_korean": "제네테스 님.<end>",
       "japanese": "ゼネテス様。<end>",
-      "english": "Xenetes.<end>",
+      "english": "Lord Xenetes.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 제네테스. Japanese source explicitly uses ゼネテス様. No controls or semantics change."
     },
     {
       "id": "1800038",
-      "paths": ["translations/korean/messages/msgsec180-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec180-part99.toml"
+      ],
       "before_korean": "카를라가 쳐들어오려 하는데 레무온님은 귀족 여러분을 모으고도 맞서 싸울 군대를 내지 않겠다고 하십니다. <value:$28>님, 저는 정치는 잘 모르지만 레무온님이 틀렸다고 생각합니다.<end>",
       "proposed_korean": "카를라가 쳐들어오려 하는데 레무온 님은 귀족 여러분을 모으고도 맞서 싸울 군대를 내지 않겠다고 하십니다. <value:$28>님, 저는 정치는 잘 모르지만 레무온 님이 틀렸다고 생각합니다.<end>",
       "japanese": "カルラが攻めてこようというのに、<line-break>レムオン様は貴族のみなさまをまとめ、<line-break>迎え撃つ軍を出さぬと言っています。<line-break><value:$28>様、<line-break>私は政治のことはよくわかりませんが、<line-break>レムオン様は間違っていると思います。<end>",
-      "english": "Carla is about to invade, yet Lemghon has gathered the nobles and says he won't send an army to meet her. <value:$28>, I don't know much about politics, but I think Lemghon is wrong.<end>",
+      "english": "Even with Karula poised to attack, Lord Lemghon has brought the nobles together and says he will not send an army to meet her. <value:$28>, I may know little of politics, but I believe Lord Lemghon is wrong.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 레무온 while preserving runtime-name control adjacency exactly. Japanese source uses レムオン様."
     },
     {
       "id": "1800126",
-      "paths": ["translations/korean/messages/msgsec180-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec180-part99.toml"
+      ],
       "before_korean": "카를라님….<end>",
       "proposed_korean": "카를라 님….<end>",
       "japanese": "カルラ様…。<end>",
-      "english": "Carla...<end>",
+      "english": "Lady Karula...<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 카를라. Japanese source explicitly uses カルラ様. No controls or semantics change."
     },
     {
       "id": "1800140",
-      "paths": ["translations/korean/messages/msgsec180-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec180-part99.toml"
+      ],
       "before_korean": "제네테스님!<end>",
       "proposed_korean": "제네테스 님!<end>",
       "japanese": "ゼネテス様！<end>",
-      "english": "Xenetes!<end>",
+      "english": "Lord Xenetes!<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 제네테스. Japanese source explicitly uses ゼネテス様. No controls or semantics change."
     },
     {
       "id": "1850067",
-      "paths": ["translations/korean/messages/msgsec185-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec185-part99.toml"
+      ],
       "before_korean": "훌륭합니다. 약속대로 알려 드리죠. 크류세이스님은 귀중한 보수와 맞바꾸어 우리가 이미 도망치게 해 드렸습니다.<end>",
       "proposed_korean": "훌륭합니다. 약속대로 알려 드리죠. 크류세이스 님은 귀중한 보수와 맞바꾸어 우리가 이미 도망치게 해 드렸습니다.<end>",
       "japanese": "お見事です。<line-break>約束通り、お教えしましょう。　　<line-break>　<line-break>クリュセイス様は、<line-break>貴重な報酬と引き換えに<line-break>我々がすでにお逃がししています。<end>",
-      "english": "Impressive. As promised, I'll tell you. We already let Cryseis escape in exchange for a valuable reward.<end>",
+      "english": "Splendid. As promised, we will tell you. We have already helped Khryuseis escape in exchange for a valuable reward.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 크류세이스. Japanese source explicitly uses クリュセイス様. No controls or semantics change."
     },
     {
       "id": "1890090",
-      "paths": ["translations/korean/messages/msgsec189-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec189-part99.toml"
+      ],
       "before_korean": "<if><value:$01><equal>2네메아님은 정말 괜찮은 거야!?<end><if><value:$01><equal>3네메아님은 정말 괜찮은 게냐!?<end><if><value:$01><equal>4어머, 괜찮으려나? 죽여 버린 거야?<end><if><value:$01><equal>5오, 굉장한데! 네메아를 이겼어! 아니, 지금 그게 문제가 아니지. 네메아, 괜찮으려나?<end><if><value:$01><equal>6이걸로 정말 울그를 쫓아낸 거야?<end><if><value:$01><equal>7네메아님은 정말 무사한 거겠지!<end><if><value:$01><equal>9어머, 괜찮으려나? 혹시 너무 심하게 한 거 아냐?<end><if><value:$01><equal>12원래 네메아였다면 위험했겠지…. 이걸로 울그는 쫓아낸 건가?<end><if><value:$01><equal>13네메아는 어떻게 됐지?<end><if><value:$01><equal>10이걸로 울그는 없어진 걸까?<end><if><value:$01><equal>14이걸로 울그는 쫓아낸 게냐?<end><if><value:$01><equal>15진짜 힘은 아니었다고 해도… 그 네메아님을 이겨 버렸어. 그래도 네메아님은 괜찮은 거야?<end><if><value:$01><equal>17뭐, 이 몸들이 나서면 이 정도죠. 그래서 울그는 사라진 걸까요?<end><if><value:$01><equal>19와와와, 네메아님 쓰러졌어. 괜찮은 거야?<end><if><value:$01><equal>20약하군…. 네메아라고는 생각되지 않아.<end><if><value:$01><equal>21이걸로 울그는 떠난 거겠지.<end><if><value:$01><equal>23네메아님은 정말 무사한 건가…?!<end><if><value:$01><equal>27정말 울그를 쫓아낼 수 있었던 건가?<end><if><value:$01><equal>26정말 사신 울그를 쫓아낼 수 있었던 게냐?<end><if><value:$01><equal>24네메아님… 무사하신 걸까요…<end><if><value:$01><equal>25이걸로 울그를… 쫓아낼 수 있었던 거야…?<end>사신 울그에게서 영웅 네메아를 구하다니…. 정말 대단한 모험이야! 아니, 정말 울그한테 이긴 거야?<end>",
       "proposed_korean": "<if><value:$01><equal>2네메아 님은 정말 괜찮은 거야!?<end><if><value:$01><equal>3네메아 님은 정말 괜찮은 게냐!?<end><if><value:$01><equal>4어머, 괜찮으려나? 죽여 버린 거야?<end><if><value:$01><equal>5오, 굉장한데! 네메아를 이겼어! 아니, 지금 그게 문제가 아니지. 네메아, 괜찮으려나?<end><if><value:$01><equal>6이걸로 정말 울그를 쫓아낸 거야?<end><if><value:$01><equal>7네메아 님은 정말 무사한 거겠지!<end><if><value:$01><equal>9어머, 괜찮으려나? 혹시 너무 심하게 한 거 아냐?<end><if><value:$01><equal>12원래 네메아였다면 위험했겠지…. 이걸로 울그는 쫓아낸 건가?<end><if><value:$01><equal>13네메아는 어떻게 됐지?<end><if><value:$01><equal>10이걸로 울그는 없어진 걸까?<end><if><value:$01><equal>14이걸로 울그는 쫓아낸 게냐?<end><if><value:$01><equal>15진짜 힘은 아니었다고 해도… 그 네메아 님을 이겨 버렸어. 그래도 네메아 님은 괜찮은 거야?<end><if><value:$01><equal>17뭐, 이 몸들이 나서면 이 정도죠. 그래서 울그는 사라진 걸까요?<end><if><value:$01><equal>19와와와, 네메아 님 쓰러졌어. 괜찮은 거야?<end><if><value:$01><equal>20약하군…. 네메아라고는 생각되지 않아.<end><if><value:$01><equal>21이걸로 울그는 떠난 거겠지.<end><if><value:$01><equal>23네메아 님은 정말 무사한 건가…?!<end><if><value:$01><equal>27정말 울그를 쫓아낼 수 있었던 건가?<end><if><value:$01><equal>26정말 사신 울그를 쫓아낼 수 있었던 게냐?<end><if><value:$01><equal>24네메아 님… 무사하신 걸까요…<end><if><value:$01><equal>25이걸로 울그를… 쫓아낼 수 있었던 거야…?<end>사신 울그에게서 영웅 네메아를 구하다니…. 정말 대단한 모험이야! 아니, 정말 울그한테 이긴 거야?<end>",
       "japanese": "<if><value:$01><equal>2ネメア様は<line-break>本当に大丈夫なの！？ <end><if><value:$01><equal>3ネメア様は<line-break>本当に大丈夫なんじゃろうな！？ <end><if><value:$01><equal>4あら、平気かしら？<line-break>殺しちゃった？ <end><if><value:$01><equal>5おお、すげえぜ！　ネメアに勝った！<line-break>って、そう言う問題じゃねぇか。<line-break>ネメア、大丈夫かな？ <end><if><value:$01><equal>6これで本当に<line-break>ウルグを追い払えたの？ <end><if><value:$01><equal>7ネメア様は<line-break>本当に無事なのだろうな！ <end><if><value:$01><equal>9あら、平気かしら？<line-break>ひょっとして、やりすぎちゃった？ <end><if><value:$01><equal>12本来のネメアだったら<line-break>やばかっただろうな…。<line-break>これでウルグは追い払えたのかい？ <end><if><value:$01><equal>13ネメアはどうなった？ <end><if><value:$01><equal>10これでウルグは<line-break>いなくなったのかな？ <end><if><value:$01><equal>14これでウルグは<line-break>追い払えたのかの？ <end><if><value:$01><equal>15本当の力じゃなかったとは言え、<line-break>…あのネメアさんに勝っちゃった。<line-break>でも、ネメアさんは大丈夫なの？ <end><if><value:$01><equal>17ま、アタクシたちにかかれば、<line-break>こんなものね。<line-break>で、ウルグはいなくなったのかしら？ <end><if><value:$01><equal>19わわわ、ネメアさん<line-break>倒れちゃったよぉ。<line-break>大丈夫なの？ <end><if><value:$01><equal>20弱いな…。<line-break>ネメアとは思えん。 <end><if><value:$01><equal>21これで、ウルグは、<line-break>去ったのだろうな。 <end><if><value:$01><equal>23ネメア様は<line-break>本当に無事なのか…？！ <end><if><value:$01><equal>27本当にウルグを<line-break>追い払うことができたのか？<end><if><value:$01><equal>26本当に邪神ウルグを<line-break>追い払うことができたのじゃろうか？<end><if><value:$01><equal>24ネメア様…<line-break>ご無事なのでしょうか…<end><if><value:$01><equal>25これでウルグを…<line-break>追い払うことができたの…？<end>邪神ウルグから英雄ネメアを救う…。<line-break>なんてすごい冒険なんだろう！<line-break>って、ホントにウルグに勝てたの？ <end>",
-      "english": "<if><value:$01><equal>2Is Nemea really all right!?<end><if><value:$01><equal>3Nemea really is safe, isn't he!?<end><if><value:$01><equal>4Oh my, is he all right? Did we kill him?<end><if><value:$01><equal>5Whoa, amazing! We beat Nemea! Wait, that's not the point. Is Nemea okay?<end><if><value:$01><equal>6Did we really drive Urg away?<end><if><value:$01><equal>7Nemea really is safe, right!?<end><if><value:$01><equal>9Oh my, is he all right? Maybe we overdid it?<end><if><value:$01><equal>12If that had been the real Nemea, we'd have been in trouble... Did we drive Urg away?<end><if><value:$01><equal>13What happened to Nemea?<end><if><value:$01><equal>10Is Urg gone now?<end><if><value:$01><equal>14Did we drive Urg away?<end><if><value:$01><equal>15Even if that wasn't his true strength... we beat Nemea. But is he all right?<end><if><value:$01><equal>17Well, that's what happens when we're involved. So, is Urg gone?<end><if><value:$01><equal>19W-whoa, Nemea fell down. Is he okay?<end><if><value:$01><equal>20Weak... I can't believe that's Nemea.<end><if><value:$01><equal>21Urg has left now, hasn't he?<end><if><value:$01><equal>23Nemea really is safe, isn't he...?!<end><if><value:$01><equal>27Did we really manage to drive Urg away?<end><if><value:$01><equal>26Did we really drive the evil god Urg away?<end><if><value:$01><equal>24Nemea... Is he safe...?<end><if><value:$01><equal>25Did we... drive Urg away...?<end>Rescuing the hero Nemea from the evil god Urg... What an incredible adventure! Wait, did we really beat Urg?<end>",
+      "english": "<if><value:$01><equal>2Is Lord Nemea really all right?!<end><if><value:$01><equal>3Lord Nemea really is all right, isn't he?!<end><if><value:$01><equal>4Oh, is he all right? Did that kill him?<end><if><value:$01><equal>5Whoa, incredible! We beat Nemea! Wait, that's not the point. Is Nemea all right?<end><if><value:$01><equal>6Did we really drive Ulugh away?<end><if><value:$01><equal>7Lord Nemea really is unharmed, isn't he?!<end><if><value:$01><equal>9Oh, is he all right? Was that a bit too much?<end><if><value:$01><equal>12If Nemea had been himself, we'd have been in trouble... So, did we drive Ulugh away?<end><if><value:$01><equal>13What happened to Nemea?<end><if><value:$01><equal>10Do you think Ulugh is gone now?<end><if><value:$01><equal>14Have we driven Ulugh away, then?<end><if><value:$01><equal>15He may not have been at full strength, but... we actually beat Nemea. Is he all right, though?<end><if><value:$01><equal>17Well, that was nothing for the likes of us. So, is Ulugh gone?<end><if><value:$01><equal>19Oh no, Nemea's collapsed! Is he all right?<end><if><value:$01><equal>20So weak... It hardly seems like Nemea.<end><if><value:$01><equal>21Urg is gone now, I take it.<end><if><value:$01><equal>23Is Lord Nemea truly unharmed...?!<end><if><value:$01><equal>27Did we truly manage to drive Ulugh away?<end><if><value:$01><equal>26Did we truly manage to drive away the evil god Ulugh?<end><if><value:$01><equal>24Lord Nemea... I wonder if he's safe...<end><if><value:$01><equal>25Did we... manage to drive Ulugh away?<end>Saving the hero Nemea from the evil god Ulugh... What an incredible adventure! Wait, did we really defeat Ulugh?<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize only the Korean proper-name + 님 occurrences corresponding to JP ネメア様/さん. Plain ネメア occurrences remain plain; no speaker-honorific semantics are flattened."
     },
     {
       "id": "1900133",
-      "paths": ["translations/korean/messages/msgsec190-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec190-part99.toml"
+      ],
       "before_korean": "<select><value:$20>%2티아나님은 아직 돌아오지 않으셨습니다. 대체 어디로 가신 걸까요….<end>티아나님은 아직 발견되지 않으셨습니다. 수색은 계속되고 있는 것 같지만 단서가 전혀 없어서요….<end>",
       "proposed_korean": "<select><value:$20>%2티아나 님은 아직 돌아오지 않으셨습니다. 대체 어디로 가신 걸까요….<end>티아나 님은 아직 발견되지 않으셨습니다. 수색은 계속되고 있는 것 같지만 단서가 전혀 없어서요….<end>",
       "japanese": "<select><value:$20>%2ティアナ様はまだお戻りになられて　　　<line-break>おりません。いったい、どこへ<line-break>行かれてしまわれたのでしょう…。<end>ティアナ様はまだ見つかっておりません。<line-break>捜索の手は出ているようなのですが、<line-break>手がかりがまったくありませんから…。<end>",
-      "english": "<select><value:$20>%2Tiana still hasn't returned. Where could she have gone...?<end>Tiana still hasn't been found. The search is continuing, but there are no clues at all...<end>",
+      "english": "<select><value:$20>%2Lady Tiana still hasn't returned. Where could she have gone...?<end>Lady Tiana still hasn't been found. It seems a search is underway, but there isn't a single clue to follow...<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 티아나. Japanese source explicitly uses ティアナ様. No controls or semantics change."
     },
     {
       "id": "1910054",
-      "paths": ["translations/korean/messages/msgsec191-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec191-part99.toml"
+      ],
       "before_korean": "<select><value:$20>%2아트레이아님은 아직 돌아오지 않으셨습니다. 대체 어디로 가신 걸까요….<end>아트레이아님은 아직 발견되지 않으셨습니다. 수색은 계속되고 있는 것 같지만 단서가 전혀 없어서요….<end>",
       "proposed_korean": "<select><value:$20>%2아트레이아 님은 아직 돌아오지 않으셨습니다. 대체 어디로 가신 걸까요….<end>아트레이아 님은 아직 발견되지 않으셨습니다. 수색은 계속되고 있는 것 같지만 단서가 전혀 없어서요….<end>",
       "japanese": "<select><value:$20>%2アトレイア様はまだお戻りになられて　<line-break>おりません。いったい、どこへ<line-break>行かれてしまわれたのでしょう…。<end>アトレイア様はまだ見つかっておりません。<line-break>捜索の手は出ているようなのですが、<line-break>手がかりがまったくありませんから…。<end>",
-      "english": "<select><value:$20>%2Atleia still hasn't returned. Where could she have gone...?<end>Atleia still hasn't been found. The search is continuing, but there are no clues at all...<end>",
+      "english": "<select><value:$20>%2Atleia still hasn't returned. Where in the world could she have gone…?<end>Atleia still hasn't been found. It seems a search is under way, but there isn't a single clue to go on…<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 아트레이아. Japanese source explicitly uses アトレイア様. No controls or semantics change."
     },
     {
       "id": "2250003",
-      "paths": ["translations/korean/messages/msgsec225-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec225-part99.toml"
+      ],
       "before_korean": "후하하! 실컷 고민해라! 이 갈드란님 생각으로 머리도 가슴도 가득 채우도록 해라! 하지만 이 몸은 지금 급하다. 기다릴 수 없으니 답을 알려 주지. 자, 감사하는 마음으로 잘 들어라!<end>",
       "proposed_korean": "후하하! 실컷 고민해라! 이 갈드란 님 생각으로 머리도 가슴도 가득 채우도록 해라! 하지만 이 몸은 지금 급하다. 기다릴 수 없으니 답을 알려 주지. 자, 감사하는 마음으로 잘 들어라!<end>",
       "japanese": "ふはは！　思うさま悩むがいい！<line-break>このガルドラン様のことで<line-break>頭も胸もいっぱいにするがいいさ！<line-break>だが、俺様は、今、急いでいる。<line-break>待っていられないから答えを教えよう。<line-break>さあ、よく聞くがいい、感謝と共に！<end>",
-      "english": "Fwahaha! Agonize over it to your heart's content! Fill your head and heart with thoughts of the great Galdran! But I'm in a hurry right now. I can't wait, so I'll tell you the answer. Listen carefully—and be grateful!<end>",
+      "english": "Fwahaha! Agonize over it to your heart's content! Fill your head and heart with thoughts of the great Girldlan! But I am in a hurry, and I cannot wait for you to work it out. So I shall give you the answer. Listen well―and be grateful!<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 갈드란 while preserving his self-aggrandizing honorific semantics from ガルドラン様."
     },
     {
       "id": "2350003",
-      "paths": ["translations/korean/messages/msgsec235-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec235-part99.toml"
+      ],
       "before_korean": "다행이에요. 엘파스님을 다시 만나서. 엄마한테 들었어요. 엘파스님이 제 목숨을 구해 줬다고요. 그래서 엄마가 다음에 만나면 꼭 제대로 감사드리라고 했어요.<end>",
       "proposed_korean": "다행이에요. 엘파스 님을 다시 만나서. 엄마한테 들었어요. 엘파스 님이 제 목숨을 구해 줬다고요. 그래서 엄마가 다음에 만나면 꼭 제대로 감사드리라고 했어요.<end>",
       "japanese": "よかった。<line-break>もう一度エルファス様に会えて。<line-break>　<line-break>お母さんから聞いたんです。<line-break>エルファス様が<line-break>ボクの命を救ってくれたって。<line-break>だから、お母さんが、<line-break>今度お会いしたら、<line-break>しっかりお礼をしなさいって。<end>",
-      "english": "I'm glad I got to see Elphas again. My mother told me he saved my life. She said that when I saw him again, I had to thank him properly.<end>",
+      "english": "I'm so glad I got to see you again, Master Elfas. My mother told me you saved my life. She said that if I ever saw you again, I had to be sure to thank you properly.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 엘파스. Japanese source explicitly uses エルファス様. No controls or semantics change."
     },
     {
       "id": "2640043",
-      "paths": ["translations/korean/messages/msgsec264-part99.toml"],
+      "paths": [
+        "translations/korean/messages/msgsec264-part99.toml"
+      ],
       "before_korean": "꽤 오래전 이야기지만, 테자와의 변을 수습하기 위해 질리온은 온 힘을 다했어. 그래도 많은 사람이 불행에 휘말렸지. 어린 아트레이아님이 두 눈의 빛을 잃은 것도 그때야.<end>",
       "proposed_korean": "꽤 오래전 이야기지만, 테자와의 변을 수습하기 위해 질리온은 온 힘을 다했어. 그래도 많은 사람이 불행에 휘말렸지. 어린 아트레이아 님이 두 눈의 빛을 잃은 것도 그때야.<end>",
       "japanese": "だいぶ昔の話だけど、<line-break>テジャワの変を終息させるため、<line-break>ジリオンは全力を尽くしたわ。<line-break>それでも多くの人が<line-break>不幸に巻きこまれた。<line-break>　<line-break>幼かったアトレイア様が<line-break>両目の光を失ったのもその時よ。<end>",
-      "english": "It was a long time ago, but Zillion did everything he could to bring the Tejawa Incident to an end. Even so, many people were caught up in tragedy. That was when young Atleia lost her sight.<end>",
+      "english": "It was a long time ago, but Zillion did everything in his power to bring the Tejava Incident to an end. Even so, many people were caught up in the tragedy. That was also when Lady Atleia, still only a child, lost the sight in both her eyes.<end>",
       "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
-      "categories": ["spacing", "consistency"],
+      "categories": [
+        "spacing",
+        "consistency"
+      ],
       "reason": "Normalize proper-name honorific spacing for 아트레이아. Japanese source explicitly uses アトレイア様. No controls or semantics change."
     }
   ]
