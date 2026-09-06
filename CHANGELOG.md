@@ -18,6 +18,20 @@ Do not describe a candidate, partial test, or CI-only result as full runtime val
 
 ---
 
+## Beta1 contextual copyedit 006 — 2026-09-06 (Beta1 incomplete)
+
+- Applied47 reviewed JP/EN/KO corrections across38 overlay files: collapsed spacing47,
+  contextual punctuation12, wrong particles2, source-confirmed Dyneskal typo1
+  (categories overlap). Exact before/after/source evidence is in manifest006.
+- Reused the English-consumer-aligned semantic-only apply queue; JP, controls and B font
+  are preserved. Layout synchronization found zero drift; custom glyphs remain1308.
+- Semantic commit `26473dfd2665a09ffc49d70d99ad034d53c635c7`; queue workflow
+  `34064093896` SUCCESS, including Korean/glyph/data and English storage gates.
+- Prior section001 and term migration are now applied; the older checkpoint below is
+  historical, not current status. Contextual002–006 are applied. Full corpus review,
+  final reflow audits/new APK and runtime evidence remain incomplete.
+- See `docs/BETA1_ASTRA_RESUME_NOW.md` for current authoritative continuation.
+
 ## Beta1 finalization checkpoint — 2026-09-06 (incomplete)
 
 - Independently verified starting SHA `34fc3e23c9c2350c8d27eb71f002e6fab23e4bdb`, U7 ancestry (43 commits ahead, zero behind), B renderer/catalog identity, and successful pre-copyedit Android run `34031107941`.

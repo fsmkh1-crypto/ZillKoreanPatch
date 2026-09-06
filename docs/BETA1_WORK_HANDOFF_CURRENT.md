@@ -1,3 +1,13 @@
+# Current checkpoint supersedes the historical 005 in-progress text
+
+Read `docs/BETA1_ASTRA_RESUME_NOW.md` first. Batch006 applied47 records/38files at
+`26473dfd2665a09ffc49d70d99ad034d53c635c7`; queue34064093896 SUCCESS.
+Batch005 also succeeded. Do not reapply either. Next is contextual007; no007 edits exist.
+The resume-now document records exact IDs, files, tests, pending evidence and next candidates.
+Paused at context compaction per user instruction; Beta1 remains incomplete.
+
+---
+
 # Beta1 finalization — current active handoff for Astra
 
 Date: 2026-09-07 KST
