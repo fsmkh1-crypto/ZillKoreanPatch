@@ -19,21 +19,24 @@ var repositoryRuntimeControlTag = regexp.MustCompile(`<(?:if|select|call:[0-9]+|
 // koreanRepositorySourceAware is the asset-free counterpart of koreanSourceAware.
 // corpus.LoadProject intentionally creates display-only records until BindBanks
 // authenticates retail data, so repository checks have Japanese annotated text
-// but no token projection. Split only on fixed annotated controls, keep movable
-// substitutions inside their text fragments, preserve source line breaks as
-// SourceLayout hints, and run the same preferred -> greedy scorer.
-// Production Korean builds bind retail banks before this derivation and therefore
-// use koreanSourceAware with the authenticated message.Projection instead.
+// but no token projection. The Japanese source establishes fixed-control
+// boundaries; Korean is projected against those exact boundaries instead of
+// reparsing translated text independently. This matters when a fixed numeric
+// expression is immediately followed by visible ASCII digits in Korean, e.g.
+// source "%4８世紀" -> Korean "%48세기": retail bytecode knows the operand is
+// %4, and repository fallback must not misread it as %48.
+//
+// Movable substitutions remain inside semantic fragments, source line breaks are
+// retained only as SourceLayout hints, and the fragments run through the same
+// preferred -> greedy scorer used by the authenticated retail path.
 func (e *Engine) koreanRepositorySourceAware(semantic, source string, limit, id int, mapping koreanslots.Mapping) (string, error) {
-	semanticFragments, semanticControls := splitRepositoryReflowFragments(semantic, false)
 	sourceFragments, sourceControls := splitRepositoryReflowFragments(source, true)
-	if len(semanticFragments) != len(sourceFragments) || len(semanticControls) != len(sourceControls) {
-		return "", fmt.Errorf("message %d repository Korean dialogue control projection differs from Japanese source", id)
+	semanticFragments, err := splitRepositorySemanticAgainstSourceControls(semantic, sourceControls)
+	if err != nil {
+		return "", fmt.Errorf("message %d repository Korean dialogue control projection: %w", id, err)
 	}
-	for i := range semanticControls {
-		if semanticControls[i] != sourceControls[i] {
-			return "", fmt.Errorf("message %d repository Korean dialogue changes fixed control %q to %q", id, sourceControls[i], semanticControls[i])
-		}
+	if len(semanticFragments) != len(sourceFragments) {
+		return "", fmt.Errorf("message %d repository Korean dialogue fragment count differs from Japanese source: Korean=%d source=%d", id, len(semanticFragments), len(sourceFragments))
 	}
 
 	c5 := e.has(e.consumers.C5IDs, id) || e.has(e.consumers.SinglePageC5IDs, id)
@@ -47,18 +50,63 @@ func (e *Engine) koreanRepositorySourceAware(semantic, source string, limit, id 
 			return "", nil
 		}
 		result.WriteString(flow)
-		if i < len(semanticControls) {
-			result.WriteString(semanticControls[i])
+		if i < len(sourceControls) {
+			result.WriteString(sourceControls[i])
 		}
 	}
 	return result.String(), nil
 }
 
-// splitRepositoryReflowFragments treats source <line-break> as a movable layout
-// hint and fixed annotated controls as fragment delimiters. Movable runtime
-// substitutions stay inside the surrounding fragment, matching message.Project's
-// pureMovable/callerMovable projection semantics instead of becoming artificial
-// repository-only boundaries.
+// splitRepositorySemanticAgainstSourceControls mirrors Projection.SplitSemantic
+// at repository scope. Authenticated retail projection owns the exact fixed
+// control bytes; when those tokens are unavailable, the canonical Japanese
+// annotation is the authoritative boundary map. Exact source controls must
+// appear in Korean in the same order. Anything between them is the editable
+// semantic fragment, including movable substitutions and derived line breaks.
+func splitRepositorySemanticAgainstSourceControls(text string, sourceControls []string) ([]string, error) {
+	fragments := make([]string, 0, len(sourceControls)+1)
+	cursor := 0
+	for _, control := range sourceControls {
+		relative := strings.Index(text[cursor:], control)
+		if relative < 0 {
+			return nil, fmt.Errorf("missing fixed source control %q", control)
+		}
+		at := cursor + relative
+		fragment := text[cursor:at]
+		if unexpected := repositoryUnexpectedFixedControl(fragment); unexpected != "" {
+			return nil, fmt.Errorf("unexpected fixed control %q before source control %q", unexpected, control)
+		}
+		fragments = append(fragments, fragment)
+		cursor = at + len(control)
+	}
+	trailing := text[cursor:]
+	if unexpected := repositoryUnexpectedFixedControl(trailing); unexpected != "" {
+		return nil, fmt.Errorf("unexpected trailing fixed control %q", unexpected)
+	}
+	fragments = append(fragments, trailing)
+	return fragments, nil
+}
+
+func repositoryUnexpectedFixedControl(text string) string {
+	for len(text) > 0 {
+		loc := repositoryRuntimeControlTag.FindStringIndex(text)
+		if loc == nil {
+			return ""
+		}
+		part := text[loc[0]:loc[1]]
+		upper := strings.ToUpper(part)
+		if part != lineBreak && !koreanDialogueMovableValueTags[upper] {
+			return part
+		}
+		text = text[loc[1]:]
+	}
+	return ""
+}
+
+// splitRepositoryReflowFragments parses the canonical Japanese annotated source
+// into semantic fragments and fixed controls. Source <line-break> is a movable
+// layout hint. Movable runtime substitutions stay inside the surrounding text
+// fragment, matching message.Project's pureMovable/callerMovable semantics.
 //
 // The important exception is expression grammar. message.Project tokenizes an
 // <if>/<select> expression, including numeric operands such as the 190 in
@@ -93,9 +141,11 @@ func splitRepositoryReflowFragments(text string, source bool) (fragments, contro
 			part := text[:loc[1]]
 			if koreanDialogueMovableValueTags[strings.ToUpper(part)] {
 				current.WriteString(part)
-			} else {
-				flushControl(part)
+				continueText := text[loc[1]:]
+				text = continueText
+				continue
 			}
+			flushControl(part)
 			text = text[loc[1]:]
 			continue
 		}
