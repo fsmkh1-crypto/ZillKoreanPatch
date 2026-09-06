@@ -510,7 +510,7 @@ korean = "네.<end>"
 
 ["370128"]
 japanese = "で、どうすんだい。<line-break><value:$28>？<end>"
-korean = "그래서, 어떻게 할 거야, <value:$28>?<end>"
+korean = "그래서 어떻게 할 거야, <value:$28>?<end>"
 
 ["370129"]
 japanese = "<if><value:$29><equal>%0何ぐじぐじしてんだい。<line-break>男だろ。<end>何をぐじぐじしてんだい。<line-break>あたしの娘だろ。<end>"
@@ -566,7 +566,7 @@ korean = "그리고 그 아이는 사정이 있으니 눈을 떼지 말라고 �
 
 ["370142"]
 japanese = "一歩遅かったね。<line-break>その娘は今ここを出てっちまったよ。<line-break>で、町の様子は？<end>"
-korean = "한발 늦었네. 그 아이는 방금 여기서 나갔어. 그래서, 마을 상황은?<end>"
+korean = "한발 늦었네. 그 아이는 방금 여기서 나갔어. 그래서 마을 상황은?<end>"
 
 ["370143"]
 japanese = "広場で兵士と<line-break>俺ら町のもんが向き合ってます。<line-break>乱闘寸前でさぁ！<end>"
