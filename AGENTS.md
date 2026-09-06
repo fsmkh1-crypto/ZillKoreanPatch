@@ -67,8 +67,9 @@ Before any Korean dialogue copy-editing, translation adjustment, layout/reflow c
 - `CONTRIBUTING.md`
 - `docs/KOREAN_TRANSLATION_STYLE.md`
 - `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md`
+- `docs/CLAUDE_FULL_REVIEW_DECISION_2026-09-06.md` while the accepted review blockers remain open
 
-The pre-flight checklist in `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md` is mandatory. Do not mutate Korean dialogue records until that checklist is complete for the current work session.
+The pre-flight checklist in `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md` is mandatory per batch/baseline. Repeat it whenever the branch/HEAD/baseline changes, work resumes after handoff, scope changes materially, or concurrent changes are detected. Do not mutate Korean dialogue records until the applicable checklist is complete for the current batch.
 
 In particular:
 
@@ -77,4 +78,7 @@ In particular:
 - keep semantic Korean separate from generated `layout`;
 - invalidate/regenerate stale layout after semantic edits;
 - investigate ordinary line-break/reflow defects through the English consumer/reflow contract before adding Korean-specific behavior;
-- distinguish static full-corpus audit, contextual full-corpus copy-edit, reflow coverage audit, sampled runtime QA, and true full-path runtime QA precisely.
+- distinguish static full-corpus audit, contextual full-corpus copy-edit, reflow coverage audit, sampled runtime QA, and true full-path runtime QA precisely;
+- do not call `./zill check` a Korean dialogue/reflow gate; use the Korean-specific gates and QA scanners documented by the accepted review decision;
+- do not claim whole-corpus visual safety from a residual audit that only mirrors derivation eligibility;
+- classify movable substitutions by proven rendered-width/grammar behavior rather than treating all movable `<value:$XX>` tags as one dynamic class.
