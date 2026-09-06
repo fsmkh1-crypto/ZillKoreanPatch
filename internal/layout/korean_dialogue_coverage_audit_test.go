@@ -12,7 +12,7 @@ import (
 	"github.com/HK47196/zill/internal/koreanslots"
 )
 
-func TestKoreanDialogueCoverageAuditSeesExcludedOverflow(t *testing.T) {
+func TestKoreanDialogueCoverageSeparatesStaticReflowFromRuntimePending(t *testing.T) {
 	read := func(path string) []byte {
 		t.Helper()
 		data, err := os.ReadFile(path)
@@ -47,10 +47,11 @@ func TestKoreanDialogueCoverageAuditSeesExcludedOverflow(t *testing.T) {
 		t.Fatalf("fixture %d no longer represents a C5-only consumer", id)
 	}
 
-	// Replace only the synthetic test row: $15 is deliberately unbounded for C5
-	// static derivation, and the visible prefix is deliberately too wide. The
-	// derivation residual audit must skip it, while whole coverage must still
-	// report the unsafe static width.
+	// Replace only the synthetic test row. $15 deliberately lacks a proven
+	// runtime-width bound, while the visible Korean prefix deliberately exceeds
+	// the C5 static limit. English sourceAware still reflows such fragments; the
+	// Korean parity path must therefore fix the static layout and retain a
+	// separate RuntimePending result rather than excluding the row from reflow.
 	base.Korean = strings.Repeat("가나다라마바사 ", 5) + "<value:$15><end>"
 	base.Layout = ""
 	mini := &corpus.KoreanProject{Entries: []corpus.KoreanEntry{base}}
@@ -61,25 +62,39 @@ func TestKoreanDialogueCoverageAuditSeesExcludedOverflow(t *testing.T) {
 		}
 	}
 
-	checked, residual, err := engine.AuditKoreanEnglishDialogueResiduals(source, mini, nil, mapping)
+	layouts, derived, err := engine.DeriveKoreanEnglishDialogueLayouts(source, mini, nil, mapping)
 	if err != nil {
 		t.Fatal(err)
 	}
-	if checked != 0 || len(residual) != 0 {
-		t.Fatalf("derivation residual must skip synthetic unbounded C5 row: checked=%d residual=%v", checked, residual)
+	if derived != 1 {
+		t.Fatalf("synthetic unbounded C5 row derived=%d, want 1", derived)
+	}
+	if got := layouts[id]; got == "" || !strings.Contains(got, lineBreak) {
+		t.Fatalf("synthetic unbounded C5 row did not receive static source-aware reflow: %q", got)
 	}
 
-	audit, err := engine.AuditKoreanEnglishDialogueCoverage(source, mini, nil, mapping)
+	checked, residual, err := engine.AuditKoreanEnglishDialogueResiduals(source, mini, layouts, mapping)
 	if err != nil {
 		t.Fatal(err)
 	}
-	if audit.Relevant != 1 || audit.DerivationEligible != 0 || len(audit.Excluded) != 1 {
-		t.Fatalf("whole coverage did not retain excluded row: %+v", audit)
+	if checked != 1 || len(residual) != 0 {
+		t.Fatalf("static residual must include and pass synthetic unbounded C5 row: checked=%d residual=%v", checked, residual)
 	}
-	if audit.Excluded[0].Reason != "unbounded_inline_substitution" {
-		t.Fatalf("excluded reason=%q, want unbounded_inline_substitution", audit.Excluded[0].Reason)
+
+	audit, err := engine.AuditKoreanEnglishDialogueCoverage(source, mini, layouts, mapping)
+	if err != nil {
+		t.Fatal(err)
 	}
-	if len(audit.ExcludedOverflowIDs) != 1 || audit.ExcludedOverflowIDs[0] != id {
-		t.Fatalf("whole coverage failed to expose excluded overflow: %+v", audit)
+	if audit.Relevant != 1 || audit.DerivationEligible != 1 || len(audit.Excluded) != 0 {
+		t.Fatalf("whole coverage misclassified static reflow population: %+v", audit)
+	}
+	if len(audit.OverflowIDs) != 0 || len(audit.ExcludedOverflowIDs) != 0 {
+		t.Fatalf("static overflow remained after source-aware reflow: %+v", audit)
+	}
+	if len(audit.RuntimePending) != 1 || audit.RuntimePending[0].ID != id {
+		t.Fatalf("runtime-width uncertainty was not preserved separately: %+v", audit)
+	}
+	if audit.RuntimePending[0].Reason != "unbounded_inline_substitution" {
+		t.Fatalf("runtime pending reason=%q, want unbounded_inline_substitution", audit.RuntimePending[0].Reason)
 	}
 }
