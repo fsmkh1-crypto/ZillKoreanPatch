@@ -42,6 +42,13 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 	targets := []int{300001, 300003}
 	mini := &corpus.KoreanProject{}
 	mapping := koreanslots.Mapping{}
+	addMapping := func(text string) {
+		for _, r := range text {
+			if r > 0x7f {
+				mapping[r] = cp932.GlyphKey(0xAC82)
+			}
+		}
+	}
 	for _, id := range targets {
 		row, ok := korean.Find(id)
 		if !ok {
@@ -57,11 +64,7 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 			t.Fatalf("message %d is not eligible for Korean dialogue visual reflow", id)
 		}
 		mini.Entries = append(mini.Entries, row)
-		for _, r := range row.Korean {
-			if r > 0x7f {
-				mapping[r] = cp932.GlyphKey(0xAC82)
-			}
-		}
+		addMapping(row.Korean)
 	}
 
 	layouts, derived, err := engine.DeriveKoreanEnglishDialogueLayouts(source, mini, nil, mapping)
@@ -104,11 +107,7 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 	if !engine.koreanEnglishDialogueVisualConsumer(fixedControlID, fixedControl.Korean) {
 		t.Fatalf("message %d fixed-control C5 dialogue must be eligible for static reflow", fixedControlID)
 	}
-	for _, r := range fixedControl.Korean {
-		if r > 0x7f {
-			mapping[r] = cp932.GlyphKey(0xAC82)
-		}
-	}
+	addMapping(fixedControl.Korean)
 	fixedMini := &corpus.KoreanProject{Entries: []corpus.KoreanEntry{fixedControl}}
 	fixedLayouts, fixedDerived, err := engine.DeriveKoreanEnglishDialogueLayouts(source, fixedMini, nil, mapping)
 	if err != nil {
@@ -133,40 +132,60 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 		t.Fatalf("fixed-control C5 message %d remains over width after reflow: %d > %d", fixedControlID, fixedWidth, engine.advanceLimit(fixedControlID))
 	}
 
-	const dynamicID = 560650
-	dynamic, ok := korean.Find(dynamicID)
-	if !ok {
-		t.Fatalf("missing Korean row %d", dynamicID)
-	}
-	if engine.narrowText(dynamicID) {
-		t.Fatalf("message %d unexpectedly belongs to narrow_text; regression must cover newly admitted C5 scope", dynamicID)
-	}
-	if !engine.has(engine.consumers.C5IDs, dynamicID) && !engine.has(engine.consumers.C5PortraitIDs, dynamicID) {
-		t.Fatalf("message %d lacks authenticated C5 consumer classification", dynamicID)
-	}
-	if !valueTag.MatchString(dynamic.Korean) {
-		t.Fatalf("message %d fixture no longer contains runtime value substitution: %q", dynamicID, dynamic.Korean)
-	}
-	if engine.koreanEnglishDialogueVisualConsumer(dynamicID, dynamic.Korean) {
-		t.Fatalf("message %d dynamic C5 dialogue must stay outside static reflow", dynamicID)
+	for _, boundedID := range []int{560650, 1980005} {
+		bounded, ok := korean.Find(boundedID)
+		if !ok {
+			t.Fatalf("missing Korean row %d", boundedID)
+		}
+		if engine.narrowText(boundedID) {
+			t.Fatalf("message %d unexpectedly belongs to narrow_text; regression must cover C5-only bounded substitution", boundedID)
+		}
+		if !engine.has(engine.consumers.C5IDs, boundedID) && !engine.has(engine.consumers.C5PortraitIDs, boundedID) {
+			t.Fatalf("message %d lacks authenticated C5 consumer classification", boundedID)
+		}
+		if !strings.Contains(strings.ToUpper(bounded.Korean), "<VALUE:$28>") {
+			t.Fatalf("message %d fixture no longer contains bounded player-name substitution: %q", boundedID, bounded.Korean)
+		}
+		if !koreanDialogueRuntimeSubstitution(boundedID, bounded.Korean) {
+			t.Fatalf("message %d should be recognized as containing a runtime substitution", boundedID)
+		}
+		if koreanDialogueUnboundedRuntimeSubstitution(boundedID, bounded.Korean) {
+			t.Fatalf("message %d bounded $28 substitution was misclassified as unbounded", boundedID)
+		}
+		if !engine.koreanEnglishDialogueVisualConsumer(boundedID, bounded.Korean) {
+			t.Fatalf("message %d bounded-substitution C5 dialogue must be eligible for source-aware reflow", boundedID)
+		}
+		addMapping(bounded.Korean)
+		boundedMini := &corpus.KoreanProject{Entries: []corpus.KoreanEntry{bounded}}
+		boundedLayouts, boundedDerived, err := engine.DeriveKoreanEnglishDialogueLayouts(source, boundedMini, nil, mapping)
+		if err != nil {
+			t.Fatalf("derive bounded-substitution C5 message %d: %v", boundedID, err)
+		}
+		if boundedDerived != 1 {
+			t.Fatalf("bounded-substitution C5 message %d derived=%d, want 1", boundedID, boundedDerived)
+		}
+		boundedLayout := boundedLayouts[boundedID]
+		if boundedLayout == "" || !strings.Contains(boundedLayout, lineBreak) {
+			t.Fatalf("bounded-substitution C5 message %d did not receive a line break: %q", boundedID, boundedLayout)
+		}
+		if !message.PreservesLayoutSemantics(bounded.Korean, boundedLayout) {
+			t.Fatalf("bounded-substitution C5 message %d derived layout changes canonical semantics: %q", boundedID, boundedLayout)
+		}
+		boundedItem, _ := source.Find(boundedID)
+		boundedWidth, _, err := engine.koreanWarningMetrics(boundedItem.Record, boundedLayout, boundedID, mapping)
+		if err != nil {
+			t.Fatalf("bounded-substitution C5 message %d width check: %v", boundedID, err)
+		}
+		if boundedWidth > engine.advanceLimit(boundedID) {
+			t.Fatalf("bounded-substitution C5 message %d remains over width after reflow: %d > %d", boundedID, boundedWidth, engine.advanceLimit(boundedID))
+		}
 	}
 
-	dynamicMini := &corpus.KoreanProject{Entries: []corpus.KoreanEntry{dynamic}}
-	dynamicLayouts, dynamicDerived, err := engine.DeriveKoreanEnglishDialogueLayouts(source, dynamicMini, nil, mapping)
-	if err != nil {
-		t.Fatalf("derive dynamic C5 message %d: %v", dynamicID, err)
+	const c5FixtureID = 560650
+	if !koreanDialogueUnboundedRuntimeSubstitution(c5FixtureID, "앞 <value:$15> 뒤<end>") {
+		t.Fatal("unproven $15 inline substitution must remain classified as unbounded")
 	}
-	if dynamicDerived != 0 {
-		t.Fatalf("dynamic C5 message %d derived=%d, want 0", dynamicID, dynamicDerived)
-	}
-	if _, exists := dynamicLayouts[dynamicID]; exists {
-		t.Fatalf("dynamic C5 message %d unexpectedly received a static layout", dynamicID)
-	}
-	checked, overflowIDs, err := engine.AuditKoreanEnglishDialogueResiduals(source, dynamicMini, dynamicLayouts, mapping)
-	if err != nil {
-		t.Fatalf("audit dynamic C5 message %d: %v", dynamicID, err)
-	}
-	if checked != 0 || len(overflowIDs) != 0 {
-		t.Fatalf("dynamic C5 message %d residual audit checked=%d overflows=%v, want excluded", dynamicID, checked, overflowIDs)
+	if engine.koreanEnglishDialogueVisualConsumer(c5FixtureID, "앞 <value:$15> 뒤<end>") {
+		t.Fatal("C5 dialogue with unproven inline $15 substitution must stay outside static reflow")
 	}
 }
