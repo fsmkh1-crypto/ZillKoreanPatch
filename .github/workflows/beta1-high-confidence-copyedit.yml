@@ -1,0 +1,126 @@
+name: Beta1 high-confidence copyedit
+
+on:
+  push:
+    branches:
+      - milestone/Beta1
+    paths:
+      - '.github/workflows/beta1-high-confidence-copyedit.yml'
+      - 'tools/korean/fix-beta1-high-confidence-copyedit.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: beta1-high-confidence-copyedit
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          fetch-depth: 0
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+
+      - name: Verify exact approved population
+        run: python3 tools/korean/fix-beta1-high-confidence-copyedit.py --json /tmp/high-confidence-before.json
+
+      - name: Apply exact high-confidence fixes
+        run: python3 tools/korean/fix-beta1-high-confidence-copyedit.py --apply --json /tmp/high-confidence-apply.json
+
+      - name: Synchronize persisted layout lexical content
+        run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-sync.txt
+
+      - name: Verify zero layout drift and zero approved residuals
+        run: |
+          python3 tools/korean/qa-layout-drift.py
+          python3 tools/korean/beta1-copyedit-candidate-scan.py --json /tmp/candidates-after.json --max-print 0
+          python3 - <<'PY'
+          import json
+          data=json.load(open('/tmp/candidates-after.json',encoding='utf-8'))
+          high=[x for x in data.get('findings',[]) if x.get('severity')=='HIGH_CONFIDENCE_REVIEW']
+          if high:
+              raise SystemExit(f'high-confidence residuals remain: {len(high)}')
+          PY
+
+      - name: Require only expected Korean overlay files changed
+        run: |
+          python3 - <<'PY'
+          import json, subprocess
+          before=json.load(open('/tmp/high-confidence-before.json',encoding='utf-8'))
+          expected=set(before['files'])
+          changed=set(filter(None,subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()))
+          if changed != expected:
+              raise SystemExit(f'changed paths differ from approved population: expected={sorted(expected)} actual={sorted(changed)}')
+          if len(changed) != 29:
+              raise SystemExit(f'expected 29 changed overlay files, found {len(changed)}')
+          PY
+          git diff --check
+
+      - name: Per-batch glyph and Korean contract gates
+        run: |
+          python3 tools/korean/audit-korean-glyph-repertoire.py
+          ./zill korean-check
+          ./zill korean-font-check
+
+      - name: Per-batch corpus QA gates
+        run: |
+          python3 tools/korean/qa-integrity.py --json /tmp/korean-qa-integrity.json --max-examples 40
+          python3 tools/korean/qa-terminology.py --json /tmp/korean-qa-terminology.json --max-examples 60
+          python3 tools/korean/qa-consistency.py --json /tmp/korean-qa-consistency.json --max-examples 40
+          python3 tools/korean/qa-consistency-triage.py --json /tmp/korean-qa-consistency-triage.json --max-examples 40
+          python3 tools/korean/qa-voice.py --json /tmp/korean-qa-voice.json --max-examples 80
+          python3 tools/korean/qa-text-sanity.py --json /tmp/korean-qa-text-sanity.json --max-examples 80
+          python3 - <<'PY'
+          import json
+          integrity=json.load(open('/tmp/korean-qa-integrity.json',encoding='utf-8'))
+          terms=json.load(open('/tmp/korean-qa-terminology.json',encoding='utf-8'))
+          consistency=json.load(open('/tmp/korean-qa-consistency.json',encoding='utf-8'))
+          sanity=json.load(open('/tmp/korean-qa-text-sanity.json',encoding='utf-8'))
+          critical=integrity.get('critical', [])
+          critical_count=len(critical) if isinstance(critical,list) else int(critical or 0)
+          if critical_count != 0: raise SystemExit(f'QA-1 critical={critical_count}')
+          if terms.get('mismatch_count',0) != 0: raise SystemExit(f"QA-2 mismatch={terms.get('mismatch_count')}")
+          if consistency.get('actionable_inconsistent_groups',0) != 0 or consistency.get('actionable_inconsistent_records',0) != 0:
+              raise SystemExit('QA-3 actionable inconsistency remains')
+          if sanity.get('finding_count',0) != 0: raise SystemExit(f"text sanity findings={sanity.get('finding_count')}")
+          PY
+
+      - name: Per-batch English-consumer storage contract
+        run: go test ./internal/release -run TestCurrentKoreanCorpusEnglishConsumerStorageContracts -count=1
+
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: beta1-high-confidence-copyedit-evidence
+          path: |
+            /tmp/high-confidence-before.json
+            /tmp/high-confidence-apply.json
+            /tmp/candidates-after.json
+            /tmp/layout-sync.txt
+            /tmp/korean-qa-integrity.json
+            /tmp/korean-qa-terminology.json
+            /tmp/korean-qa-consistency.json
+            /tmp/korean-qa-consistency-triage.json
+            /tmp/korean-qa-voice.json
+            /tmp/korean-qa-text-sanity.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit accepted high-confidence batch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          git commit -m 'copyedit: fix Beta1 high-confidence particles and spacing'
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
