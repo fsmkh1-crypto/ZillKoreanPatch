@@ -2298,7 +2298,7 @@ korean = "<select><value:$20>%3나보다 바이한테 말 좀 걸어 줘. 그 �
 
 ["1350580"]
 japanese = "<select><value:$20>%3…お兄ちゃんは<line-break>私たちにだけはやさしかったんだ。<line-break>すごく、ね。<end>すごく心配だよ。<line-break>ねえ、<value:$28>、<line-break>本当に何も情報ない？<end>心配、だな…<end>"
-korean = "<select><value:$20>%3…오빠는우리에게만은 다정했어. 정말로.<end>정말 걱정돼. 있지, <value:$28>, 정말 아무 정보도 없어?<end>걱정되네…<end>"
+korean = "<select><value:$20>%3…오빠는 우리에게만은 다정했어. 정말로.<end>정말 걱정돼. 있지, <value:$28>, 정말 아무 정보도 없어?<end>걱정되네…<end>"
 
 ["1350581"]
 japanese = "<if><value:$29><equal>%0あ、お兄ちゃん、<line-break>戻ってきてくれたんだ！<end>あ、<value:$28>、<line-break>戻ってきてくれたんだ！<end>"
