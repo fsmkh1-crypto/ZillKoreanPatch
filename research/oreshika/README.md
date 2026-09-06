@@ -8,24 +8,59 @@ This directory isolates research on the Korean fan patch for **俺の屍を越�
 - Game ID: `UCJS-10117`
 - Game-reported version: `1.01`
 - Patched ISO CRC reported by PPSSPP: `7179FB43`
-- Korean patch currently indexed publicly: `2.0 Final`
-- Public index date: `2026-08-01`
-- Public index distributor/author label: `레갤러`
+- Final patch package date: `2026-08-01`
 
-## Research goal
+## Exact package recovered
 
-Identify how the Korean patch implements Korean surname/given-name entry, especially its custom on-screen keyboard and Hangul composition behavior.
+The user's Google Drive `작업중` folder contains the exact final distribution package:
 
-## Current status
+`Oreshika_R29_Korean_M14_DLC13_FINAL_Xdelta_20260801.zip`
 
-The existence and development history of the Korean name-input patch are verified from public posts and the RetroDB index. The currently indexed patch binary itself has **not yet been recovered from an accessible public download endpoint** during this research pass. An August 1 community post explicitly reports that the previous distribution link had been deleted; RetroDB lists a new `2.0 Final` record on the same date.
+Locally verified ZIP SHA-256:
 
-For that reason, this branch does **not** contain an unverified binary or any game/ISO data. It records only public research evidence and a binary-analysis plan. If the exact patch package used to produce CRC `7179FB43` is obtained later, it should be added only if redistribution is permitted; otherwise store hashes/diffs and analysis, not copyrighted game data.
+`00A50B4B292489476109030B6E7FA1871234A199CCB5A4247BE82877DC5F689C`
+
+The package contains an xdelta patch plus verification documents and patching scripts; it does **not** contain a full game ISO.
+
+The package manifest identifies:
+
+- required clean ISO SHA-256: `03791A833656DDEBADFF7848A6296FC1698B52DFD7052C91572DD8B800FD569A`
+- expected final ISO SHA-256: `5B76F8AC94CF4F6AF1ABB48939C33B1B59551801452F247B00FA43E5A7FAAA75`
+- final EBOOT SHA-256: `4827D94FF05C75D6754096D657D39EC14FDC21F6B77019CC9A98D7EAFA4BAB89`
+- xdelta SHA-256: `08469300D12E37D39A0966C3BBE7CC751F0FB3F0B1989043CE5E2ECDD18C4BDD`
+
+## Korean name-input status
+
+The custom Korean name-entry system is now **verified to exist as an explicit subsystem**, not merely inferred from screenshots.
+
+The package's final regression QA explicitly identifies:
+
+- Korean OSK initialization in EBOOT file range `0x001288E0..0x0012894F`
+- name UI slot at ISO offset `0x25261800`, length `18,432` bytes
+- cold-load runtime validation of the Korean given name `태호`
+- inherited M12B runtime validation of the full `김 가문 피바람외전` name/title path
+
+The final DLC build changes only 61 approved EBOOT bytes from locked M14, and the package QA records zero intersection between those DLC changes and OSK, PGF/font, name UI, and name serialization ranges. Therefore the Korean input implementation belongs to the earlier M12B/M14 lineage and is preserved unchanged in the final distribution.
+
+## What remains unresolved
+
+The package proves the presence and preservation of the custom Korean OSK, but the exact Hangul composition algorithm is still not proven because the distribution contains only a source-dependent xdelta, not the patched EBOOT itself.
+
+To determine whether it uses:
+
+- true choseong/jungseong/jongseong runtime composition,
+- a precomposed-syllable lookup table,
+- a patch-specific glyph/encoding map, or
+- a hybrid state machine,
+
+we need either the exact clean source ISO matching the manifest hash or an extracted final `EBOOT.BIN` from the patched output.
 
 See:
 
-- `ANALYSIS.md` — preliminary technical analysis and hypotheses
-- `SOURCES.md` — public evidence and source URLs
+- `ANALYSIS.md` — current technical assessment
+- `PACKAGE_EVIDENCE.md` — recovered-package hashes and QA evidence
+- `XDELTA_FORENSICS.md` — VCDIFF/xdelta structural findings
+- `SOURCES.md` — public evidence and development posts
 
 ## Branch isolation
 
