@@ -242,7 +242,7 @@ korean = "카를라군 참전 발생<end>"
 
 ["1970060"]
 japanese = "Ｅｖロストール＃１１　進行中<end>"
-korean = "Ev 로스토올 #11 진행 중<end>"
+korean = "Ev 로스톨 #11 진행 중<end>"
 
 ["1970061"]
 japanese = "イズ　情報<end>"
@@ -626,7 +626,7 @@ korean = "갈드란의 활 발생<end>"
 
 ["1970156"]
 japanese = "ガルドランフェルムゲット　発生<end>"
-korean = "갈드란 펠름 획득 발생<end>"
+korean = "갈드란 페름 획득 발생<end>"
 
 ["1970157"]
 japanese = "ガルドラン許す　発生<end>"
@@ -698,7 +698,7 @@ korean = "프네우마 도전 진행 중<end>"
 
 ["1970174"]
 japanese = "ロストール援助要請　発生<end>"
-korean = "로스토올 지원 요청 발생<end>"
+korean = "로스톨 지원 요청 발생<end>"
 
 ["1970175"]
 japanese = "ゼネテス紹介　発生<end>"
@@ -706,7 +706,7 @@ korean = "제네테스 소개 발생<end>"
 
 ["1970176"]
 japanese = "エリスレムオン詰問　発生<end>"
-korean = "에리스 레몬 추궁 발생<end>"
+korean = "에리스 레무온 추궁 발생<end>"
 
 ["1970177"]
 japanese = "ルーム内全トラップ無効　状態<end>"
@@ -858,7 +858,7 @@ korean = "작은 새를 놓아줌 발생<end>"
 
 ["1970214"]
 japanese = "ロストール援助要請　終了<end>"
-korean = "로스토올 지원 요청 종료<end>"
+korean = "로스톨 지원 요청 종료<end>"
 
 ["1970215"]
 japanese = "埋蔵金探索依頼　終了<end>"
@@ -1770,7 +1770,7 @@ korean = "파트너 제네테스 발생<end>"
 
 ["1970442"]
 japanese = "パートナーレムオン　発生<end>"
-korean = "파트너 레몬 발생<end>"
+korean = "파트너 레무온 발생<end>"
 
 ["1970443"]
 japanese = "バルザーの迷宮　終了<end>"
@@ -1786,11 +1786,11 @@ korean = "발자르의 미궁 돌입 발생<end>"
 
 ["1970446"]
 japanese = "パルシェン正体露見　発生<end>"
-korean = "팔셴 정체 발각 발생<end>"
+korean = "파르셴 정체 발각 발생<end>"
 
 ["1970447"]
 japanese = "パルシェンノクサ物語　発生<end>"
-korean = "팔셴 녹사 이야기 발생<end>"
+korean = "파르셴 녹사 이야기 발생<end>"
 
 ["1970448"]
 japanese = "パルチザン　発生<end>"
@@ -1930,11 +1930,11 @@ korean = "페름 등장<end>"
 
 ["1970484"]
 japanese = "フェルムキス　発生<end>"
-korean = "펠름 키스 발생<end>"
+korean = "페름 키스 발생<end>"
 
 ["1970485"]
 japanese = "フェルム料理　情報<end>"
-korean = "펠름 요리 정보<end>"
+korean = "페름 요리 정보<end>"
 
 ["1970486"]
 japanese = "ブゾリ暗殺失敗　発生<end>"
@@ -2330,51 +2330,51 @@ korean = "레이그의 권유 발생<end>"
 
 ["1970586"]
 japanese = "レムオン　登場<end>"
-korean = "레몬 등장<end>"
+korean = "레무온 등장<end>"
 
 ["1970587"]
 japanese = "レムオン　死亡<end>"
-korean = "레몬 사망<end>"
+korean = "레무온 사망<end>"
 
 ["1970588"]
 japanese = "レムオンエリス評　発生<end>"
-korean = "레몬 에리스 평가 발생<end>"
+korean = "레무온 에리스 평가 발생<end>"
 
 ["1970589"]
 japanese = "レムオン覚醒　終了<end>"
-korean = "레몬 각성 종료<end>"
+korean = "레무온 각성 종료<end>"
 
 ["1970590"]
 japanese = "レムオン覚醒　準備<end>"
-korean = "레몬 각성 준비<end>"
+korean = "레무온 각성 준비<end>"
 
 ["1970591"]
 japanese = "レムオン覚醒阻止　発生<end>"
-korean = "레몬 각성 저지 발생<end>"
+korean = "레무온 각성 저지 발생<end>"
 
 ["1970592"]
 japanese = "レムオン世界見ろ　発生<end>"
-korean = "레몬 세계를 봐라 발생<end>"
+korean = "레무온 세계를 봐라 발생<end>"
 
 ["1970593"]
 japanese = "レムオン退治　発生<end>"
-korean = "레몬 퇴치 발생<end>"
+korean = "레무온 퇴치 발생<end>"
 
 ["1970594"]
 japanese = "レムオン追討　終了<end>"
-korean = "레몬 추토 종료<end>"
+korean = "레무온 추토 종료<end>"
 
 ["1970595"]
 japanese = "レムオン追討受託　発生<end>"
-korean = "레몬 추격 토벌 의뢰 수락 발생<end>"
+korean = "레무온 추격 토벌 의뢰 수락 발생<end>"
 
 ["1970596"]
 japanese = "レムオンティアナ訪問　発生<end>"
-korean = "레몬 티아나 방문 발생<end>"
+korean = "레무온 티아나 방문 발생<end>"
 
 ["1970597"]
 japanese = "レムオン討伐命令　発生<end>"
-korean = "레몬 토벌 명령 발생<end>"
+korean = "레무온 토벌 명령 발생<end>"
 
 ["1970598"]
 japanese = "レムゲドン　死亡<end>"
@@ -2410,15 +2410,15 @@ korean = "로지쿠닌 정체 정보<end>"
 
 ["1970606"]
 japanese = "ロストール陥落　発生<end>"
-korean = "로스토올 함락 발생<end>"
+korean = "로스톨 함락 발생<end>"
 
 ["1970607"]
 japanese = "ロストールの奇跡　発生<end>"
-korean = "로스토올의 기적 발생<end>"
+korean = "로스톨의 기적 발생<end>"
 
 ["1970608"]
 japanese = "ロストール傭兵　状態<end>"
-korean = "로스토올 용병 상태<end>"
+korean = "로스톨 용병 상태<end>"
 
 ["1970609"]
 japanese = "ヒルダリア　エンド<end>"
@@ -2802,7 +2802,7 @@ korean = "티아나 어둠에 빠짐 발생<end>"
 
 ["1970705"]
 japanese = "レムオン従者　状態<end>"
-korean = "레몬 종자 상태<end>"
+korean = "레무온 종자 상태<end>"
 
 ["1970706"]
 japanese = "リューガ家つぶれる　発生<end>"
@@ -2810,7 +2810,7 @@ korean = "류가 가문 몰락 발생<end>"
 
 ["1970707"]
 japanese = "レムオン失踪　発生<end>"
-korean = "레몬 실종 발생<end>"
+korean = "레무온 실종 발생<end>"
 
 ["1970708"]
 japanese = "エリス埋蔵金発見　発生<end>"
@@ -2866,7 +2866,7 @@ korean = "엔샨트 함락 정보<end>"
 
 ["1970722"]
 japanese = "レムオン　会話<end>"
-korean = "레몬 대화<end>"
+korean = "레무온 대화<end>"
 
 ["1970723"]
 japanese = "エルファス神化　発生<end>"
@@ -3042,7 +3042,7 @@ korean = "미궁 답파 종료<end>"
 
 ["1970766"]
 japanese = "レムオン後悔　発生<end>"
-korean = "레몬 후회 발생<end>"
+korean = "레무온 후회 발생<end>"
 
 ["1970767"]
 japanese = "強制退場　状態<end>"
@@ -3098,7 +3098,7 @@ korean = "레그 출전 허가<end>"
 
 ["1970780"]
 japanese = "レムオン　出場許可<end>"
-korean = "레몬 출전 허가<end>"
+korean = "레무온 출전 허가<end>"
 
 ["1970781"]
 japanese = "オイフェ　出場許可<end>"
@@ -3210,7 +3210,7 @@ korean = "레그 소환 금지<end>"
 
 ["1970808"]
 japanese = "レムオン　召喚禁止<end>"
-korean = "레몬 소환 금지<end>"
+korean = "레무온 소환 금지<end>"
 
 ["1970809"]
 japanese = "レルラ＝ロントン　召喚禁止<end>"
@@ -3574,7 +3574,7 @@ korean = "술집 주인 대화 1 엔샨트 발생<end>"
 
 ["1970899"]
 japanese = "酒場親父会話２ロストール　発生<end>"
-korean = "술집 주인 대화 2 로스토올 발생<end>"
+korean = "술집 주인 대화 2 로스톨 발생<end>"
 
 ["1970900"]
 japanese = "酒場親父会話３ダミーノーブル　発生<end>"
@@ -3622,7 +3622,7 @@ korean = "술집 주인 대화 13 아미랄 발생<end>"
 
 ["1970911"]
 japanese = "酒場親父会話１４ロストールスラ　発生<end>"
-korean = "술집 아저씨 대화 14 로스토올 슬럼 발생<end>"
+korean = "술집 아저씨 대화 14 로스톨 슬럼 발생<end>"
 
 ["1970912"]
 japanese = "酒場親父会話１５リベルダムスラ　発生<end>"
@@ -3642,7 +3642,7 @@ korean = "무도회 준비<end>"
 
 ["1970916"]
 japanese = "ロストール夜　状態<end>"
-korean = "로스토올 밤 상태<end>"
+korean = "로스톨 밤 상태<end>"
 
 ["1970917"]
 japanese = "Ｅｖアトレイア＃１５＿Ａ　進行中<end>"
@@ -3678,7 +3678,7 @@ korean = "테자와의 변 정보<end>"
 
 ["1970925"]
 japanese = "ロストール奪還　発生<end>"
-korean = "로스토올 탈환 발생<end>"
+korean = "로스톨 탈환 발생<end>"
 
 ["1970926"]
 japanese = "ワープフラグ１　発生<end>"
@@ -3826,7 +3826,7 @@ korean = "레이그 필살기 습득 발생<end>"
 
 ["1970964"]
 japanese = "レムオン必殺技習得　発生<end>"
-korean = "레몬 필살기 습득 발생<end>"
+korean = "레무온 필살기 습득 발생<end>"
 
 ["1970965"]
 japanese = "火の禁呪解放　発生<end>"
@@ -3866,7 +3866,7 @@ korean = "갈페름 구출 발생<end>"
 
 ["1970974"]
 japanese = "フェルムデート　発生<end>"
-korean = "펠름 데이트 발생<end>"
+korean = "페름 데이트 발생<end>"
 
 ["1970975"]
 japanese = "フェルムガル相談　発生<end>"
@@ -4190,7 +4190,7 @@ korean = "제네테스군 야영지 출현<end>"
 
 ["1971056"]
 japanese = "カルラ軍野営地（対レムオン）　出現<end>"
-korean = "카를라군 야영지(대 레몬) 출현<end>"
+korean = "카를라군 야영지(대 레무온) 출현<end>"
 
 ["1971057"]
 japanese = "埋蔵金の洞窟　出現<end>"
@@ -5454,23 +5454,23 @@ korean = "튜토리얼 발생<end>"
 
 ["1971380"]
 japanese = "チュート・ロストール鍛冶屋発生<end>"
-korean = "튜토리얼·로스토올 대장간 발생<end>"
+korean = "튜토리얼·로스톨 대장간 발생<end>"
 
 ["1971381"]
 japanese = "チュート・ロストールスラム酒場発生<end>"
-korean = "튜토리얼·로스토올 슬럼 술집 발생<end>"
+korean = "튜토리얼·로스톨 슬럼 술집 발생<end>"
 
 ["1971382"]
 japanese = "チュート・ロストール宿屋発生<end>"
-korean = "튜토리얼·로스토올 여관 발생<end>"
+korean = "튜토리얼·로스톨 여관 발생<end>"
 
 ["1971383"]
 japanese = "チュート・ロストール酒場にてギルド説明発生<end>"
-korean = "튜토리얼·로스토올 술집에서 길드 설명 발생<end>"
+korean = "튜토리얼·로스톨 술집에서 길드 설명 발생<end>"
 
 ["1971384"]
 japanese = "チュート・ロストールオッシソウル説明発生<end>"
-korean = "튜토리얼·로스토올 오시 소울 설명 발생<end>"
+korean = "튜토리얼·로스톨 오시 소울 설명 발생<end>"
 
 ["1971385"]
 japanese = "チュート・ミイス村鍛冶屋発生<end>"
@@ -5478,11 +5478,11 @@ korean = "튜토리얼·미이스 마을 대장간 발생<end>"
 
 ["1971386"]
 japanese = "チュート・ロストールオッシとの最初の会話<end>"
-korean = "튜토리얼·로스토올 오시와 첫 대화<end>"
+korean = "튜토리얼·로스톨 오시와 첫 대화<end>"
 
 ["1971387"]
 japanese = "チュート・ロストール神官最初の会話<end>"
-korean = "튜토리얼·로스토올 신관 첫 대화<end>"
+korean = "튜토리얼·로스톨 신관 첫 대화<end>"
 
 ["1971388"]
 japanese = "*チュートリアル用予備<end>"
@@ -5682,7 +5682,7 @@ korean = "#46 제네테스 처형 발생<end>"
 
 ["1971449"]
 japanese = "#47クーデター、王女様暴走・レムオン消息不明、ネメア死亡発生<end>"
-korean = "#47 쿠데타·공주 폭주·레몬 행방불명·네메아 사망 발생<end>"
+korean = "#47 쿠데타·공주 폭주·레무온 행방불명·네메아 사망 발생<end>"
 
 ["1971450"]
 japanese = "#48カルラ召還・ジラーク反乱発生<end>"
@@ -5730,7 +5730,7 @@ korean = "#58 이온즈와 앙길단의 대화 발생<end>"
 
 ["1971461"]
 japanese = "#59レムオンが地下墳墓に誘導発生<end>"
-korean = "#59 레몬이 지하분묘로 유도 발생<end>"
+korean = "#59 레무온이 지하분묘로 유도 발생<end>"
 
 ["1971462"]
 japanese = "#60ソウルイーター解放発生<end>"
@@ -6482,7 +6482,7 @@ korean = "#46 제네테스 처형 종료<end>"
 
 ["1971649"]
 japanese = "#47クーデター、王女様暴走・レムオン消息不明、ネメア死亡終了<end>"
-korean = "#47 쿠데타·공주 폭주·레몬 행방불명·네메아 사망 종료<end>"
+korean = "#47 쿠데타·공주 폭주·레무온 행방불명·네메아 사망 종료<end>"
 
 ["1971650"]
 japanese = "#48カルラ召還・ジラーク反乱終了<end>"
@@ -6530,7 +6530,7 @@ korean = "#58 이온즈와 앙길단의 대화 종료<end>"
 
 ["1971661"]
 japanese = "#59レムオンが地下墳墓に誘導終了<end>"
-korean = "#59 레몬이 지하분묘로 유도 종료<end>"
+korean = "#59 레무온이 지하분묘로 유도 종료<end>"
 
 ["1971662"]
 japanese = "#60ソウルイーター解放終了<end>"

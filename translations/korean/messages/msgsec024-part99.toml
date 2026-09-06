@@ -126,7 +126,7 @@ korean = "늘 신세지고 있습니다. 물품 운반을 부탁드리고 싶습
 
 ["240031"]
 japanese = "戦いと旅を知り尽くしたお前さんたちのために<line-break>用意された仕事だ。<line-break>このロストールから<value:$16>まで<line-break><value:$15>を運んでほしい。<line-break>道のりはけっこう危険だ、気を抜くなよ。<line-break><value:$1A>ギア用意した。<line-break><value:$1B>日以内に頼むぜ。<end>"
-korean = "전투와 여행에 익숙한 너희를 위해 준비된 일이야. 이 로스토올에서 <value:$16>까지 <value:$15>을 운반해 줘. 길이 꽤 위험하니 방심하지 마. <value:$1A>기어를 준비했어. <value:$1B>일 안에 부탁한다.<end>"
+korean = "전투와 여행에 익숙한 너희를 위해 준비된 일이야. 이 로스톨에서 <value:$16>까지 <value:$15>을 운반해 줘. 길이 꽤 위험하니 방심하지 마. <value:$1A>기어를 준비했어. <value:$1B>일 안에 부탁한다.<end>"
 
 ["240032"]
 japanese = "<value:$15>を<value:$16>まで<line-break>届けたいのですが、強盗に奪われないように<line-break>戦うことのできる冒険者の方に<line-break>届けていただこうと思います。<line-break><value:$1B>日以内に到着してください。<line-break><value:$1A>ギアをお礼といたします。<end>"

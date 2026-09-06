@@ -218,11 +218,11 @@ korean = "그래서? 이 나에게 무슨 이야기지?<end>"
 
 ["780054"]
 japanese = "ええ。あの…<line-break><end>レムオン様のお屋敷を<line-break><end>貸していただけないでしょうか？<end>"
-korean = "네. 저기…<end>레몬 님의 저택을<end>빌려 주실 수 없을까요?<end>"
+korean = "네. 저기…<end>레무온 님의 저택을<end>빌려 주실 수 없을까요?<end>"
 
 ["780055"]
 japanese = "ロストールのあの屋敷をか？<line-break>なんのために？<end>"
-korean = "로스토올의 그 저택을? 무엇 때문에?<end>"
+korean = "로스톨의 그 저택을? 무엇 때문에?<end>"
 
 ["780056"]
 japanese = "実は、ずっと考えていたのですが…<line-break>私、どうしても<line-break>したいことがあるのです。<end>"
@@ -230,7 +230,7 @@ korean = "사실 계속 생각하고 있었는데요… 저, 꼭 하고 싶은 �
 
 ["780057"]
 japanese = "ロストールをもとの姿に<line-break>戻したいのです。<line-break>美しい都市をよみがえらせたいのです。<end>"
-korean = "로스토올을 원래 모습으로 되돌리고 싶습니다. 아름다운 도시를 되살리고 싶습니다.<end>"
+korean = "로스톨을 원래 모습으로 되돌리고 싶습니다. 아름다운 도시를 되살리고 싶습니다.<end>"
 
 ["780058"]
 japanese = "…それはまた<line-break>大がかりな計画だな。<end>"
@@ -238,7 +238,7 @@ korean = "…그건 또 꽤 대규모 계획이군.<end>"
 
 ["780059"]
 japanese = "もちろん、私１人の力では　　　<line-break>できません。<line-break>　<line-break>まずは、ロストール復興を<line-break>願う人たちを集めるつもりです。<end>"
-korean = "물론 저 혼자 힘으로는 할 수 없습니다. 우선 로스토올의 부흥을 바라는 사람들을 모을 생각입니다.<end>"
+korean = "물론 저 혼자 힘으로는 할 수 없습니다. 우선 로스톨의 부흥을 바라는 사람들을 모을 생각입니다.<end>"
 
 ["780060"]
 japanese = "そして、何ができるか<line-break>話し合うところから<line-break>始めようと思っています。　　　<line-break>でも、そのためには、<line-break>基点となる場所が必要なのです。<end>"
@@ -306,7 +306,7 @@ korean = "<if><value:$01><equal>2뭐야? 해야 할 일이란 게?<end><if><valu
 
 ["780076"]
 japanese = "ロストールをもとの姿に<line-break>戻したいのです。<line-break>美しい都市をよみがえらせたいのです。<end>"
-korean = "로스토올을 원래 모습으로 되돌리고 싶습니다. 아름다운 도시를 되살리고 싶습니다.<end>"
+korean = "로스톨을 원래 모습으로 되돌리고 싶습니다. 아름다운 도시를 되살리고 싶습니다.<end>"
 
 ["780077"]
 japanese = "<if><value:$01><equal>2…でも、そんなことできるの？<end><if><value:$01><equal>3それはまた、大きなことを<line-break>始めるんじゃな。<line-break>お主１人で大丈夫か？<end><if><value:$01><equal>4それって、かなり無謀かも…。<end><if><value:$01><equal>5戻すって言ったって…。<line-break>なぁ、<value:$28>。<end><if><value:$01><equal>6すごいよ、アトレイア！<line-break>でも、ほんとにできるの？<end><if><value:$01><equal>7見かけによらず、大胆ね。<line-break>本気なの？<end><if><value:$01><equal>9…それって、マジ？<end><if><value:$01><equal>11…あなた本気で言ってるの？<end><if><value:$01><equal>12立派なもんだ。<line-break>だが、１人でできることじゃないぜ。<end><if><value:$01><equal>10本気かよ？<line-break>だって、そんなこと…。<end><if><value:$01><equal>14しかし、おぬし１人に<line-break>何ができるというんじゃ？<end><if><value:$01><equal>15…そうか。<line-break>でも、大変なことだと思うよ。<end><if><value:$01><equal>17言わせてもらいますけど、<line-break>アナタ１人で、そんなこと<line-break>やったってムダよ、ム～ダ！<end><if><value:$01><equal>19すご～い。<line-break>お姉ちゃん、すごいよ。<line-break>でも、お姉ちゃん１人で大丈夫？<end>え～っ！？<line-break>本気でそんなこと<line-break>始めるつもり？<end>"
@@ -314,7 +314,7 @@ korean = "<if><value:$01><equal>2…그래도 그런 게 가능해?<end><if><val
 
 ["780078"]
 japanese = "もちろん、私１人の力では無理です。<line-break>まずは、ロストール復興を<line-break>願う人たちを集めるつもりです。<line-break>そして、何ができるか<line-break>話し合うところから<line-break>始めようと思っています。<end>"
-korean = "물론 저 혼자의 힘으로는 무리예요. 우선 로스토올의 부흥을 바라는 사람들을 모을 생각입니다. 그리고 무엇을 할 수 있을지 함께 이야기하는 데서 시작하려고 해요.<end>"
+korean = "물론 저 혼자의 힘으로는 무리예요. 우선 로스톨의 부흥을 바라는 사람들을 모을 생각입니다. 그리고 무엇을 할 수 있을지 함께 이야기하는 데서 시작하려고 해요.<end>"
 
 ["780079"]
 japanese = "<if><value:$01><equal>3なるほど。<line-break>しかし、簡単なことではないぞ。<end><if><value:$01><equal>4すごいかも！<line-break>私なら、あきらめちゃうかな！<line-break>きゃっ！<end><if><value:$01><equal>5へぇ、大変そうだな。<end><if><value:$01><equal>6大変そうだね。<end><if><value:$01><equal>9決心固いみたいだし…<line-break>応援するっきゃないっしょ。<line-break>大変だろうけどさ。<end><if><value:$01><equal>11そう。<line-break>決して平たんな道のりではないわ。<line-break>それも承知の上ね？<end><if><value:$01><equal>12わかってるとは思うが、<line-break>キツいぜ？<end><if><value:$01><equal>10へぇ、なんだか大変そうだな。<end><if><value:$01><equal>14簡単なことではないぞ。<line-break>わかっておるのじゃな？<end><if><value:$01><equal>15そうか…。大変そうだね。<end><if><value:$01><equal>17別に、<line-break>何をやろうとアナタの<line-break>勝手だからとめないけどー。<end><if><value:$01><equal>19ふ～ん、なんだか大変そうだね。<end><if><value:$01><equal>22おもしろそう！<line-break>%2<end>大変そうね。<end>"
@@ -330,7 +330,7 @@ korean = "최선을 다해 볼 생각이에요. 하지만 부탁이에요. 가�
 
 ["780082"]
 japanese = "レムオン様のお屋敷を<line-break>貸していただこうと思っています。<line-break>そこを活動の拠点にするつもりです。<end>"
-korean = "레몬 님의 저택을 빌리려고 합니다. 그곳을 활동 거점으로 삼을 생각이에요.<end>"
+korean = "레무온 님의 저택을 빌리려고 합니다. 그곳을 활동 거점으로 삼을 생각이에요.<end>"
 
 ["780083"]
 japanese = "<if><value:$01><equal>3エリエナイ邸か。<line-break>あれだけ広けりゃ十分じゃろう。<end><if><value:$01><equal>4あそこなら広くていいかも。<end><if><value:$01><equal>5ああ、あのデカい屋敷か。<end><if><value:$01><equal>6あそこなら広くていいね。<end><if><value:$01><equal>9エリエナイ邸ね。<line-break>いい場所を見つけたじゃん。<line-break>意外と抜け目ないんだ。<end><if><value:$01><equal>11エリエナイ邸？<line-break>確かに、あそこなら<line-break>うってつけだわ。<end><if><value:$01><equal>12なるほど、エリエナイ邸か。<line-break>あそこなら言うことないな。<end><if><value:$01><equal>10貴族の屋敷か。<line-break>ま、いいんじゃないか？<end><if><value:$01><equal>14なるほど。<line-break>あの広い屋敷なら、もってこいじゃ。<end><if><value:$01><equal>15あそこなら、広くていいね。<end><if><value:$01><equal>17あのバカでかい悪趣味な屋敷ね。<end><if><value:$01><equal>19あの大きなお屋敷ね。<end><if><value:$01><equal>22あの大きなお屋敷だね。<line-break>あそこなら広くていいよ。<end>あそこなら広くていいわね。<end>"

@@ -6,7 +6,7 @@ korean = "네메아 볼륨 1 시작<end>"
 
 ["400001"]
 japanese = "あんた、ロストールの西にある<line-break>城塞都市跡に行ったことあるかい？<line-break>　<line-break>実はあの場所で、<line-break>怪現象が起こるって話があってさ。<line-break>ギルドで情報を集めてるんだ。<end>"
-korean = "당신, 로스토올 서쪽에 있는 성새도시 터에 가 본 적 있어? 사실 거기서 괴현상이 일어난다는 이야기가 있어서 길드에서 정보를 모으고 있어.<end>"
+korean = "당신, 로스톨 서쪽에 있는 성새도시 터에 가 본 적 있어? 사실 거기서 괴현상이 일어난다는 이야기가 있어서 길드에서 정보를 모으고 있어.<end>"
 
 ["400002"]
 japanese = "なんでも生きてるような黒い闇が　<line-break>現れるってんだが…。<line-break>　<line-break>あんた、もしなんかわかったら<line-break>知らせてくれないか？<line-break>ちゃんと報酬も用意しておくぜ。<end>"
@@ -58,7 +58,7 @@ korean = "그래. 전에 말한 어둠의 기척… 그게 여기 있다.<end>"
 
 ["400014"]
 japanese = "<if><value:$01><equal>2破壊神に仕える魔人…？<line-break>そんなヤツがここにいるなんて…。 <end><if><value:$01><equal>4破壊神って、神話に出てくる<line-break>悪者のことだったかな。<line-break>アカデミーで習ったかも。 <end><if><value:$01><equal>5破壊神の円卓騎士！？<line-break>ほんとかよ！？ <end><if><value:$01><equal>6破壊神て…神話に出てくる<line-break>邪神じゃない！<line-break>そんな奴がここにいるの！？ <end><if><value:$01><equal>12空 <end><if><value:$01><equal>13魔人だと…！？<line-break>アーギルシャイアの仲間か！ <end><if><value:$01><equal>10魔人て、オルファウスが<line-break>言ってたヤツの仲間かな？ <end><if><value:$01><equal>14あの破壊神の円卓騎士を<line-break>追っとるとは、<line-break>豪気な冒険をしとるの。 <end><if><value:$01><equal>15破壊神の円卓騎士…。<line-break>そんなにすごい魔人が<line-break>ここにいるなんて…。 <end><if><value:$01><equal>17やーね、魔人？<line-break>まったく、<value:$28>といると<line-break>ろくな目にあわないわ！ <end><if><value:$01><equal>18空 <end><if><value:$01><equal>19魔人だったら、<line-break>私たちも探してるよぉ。<line-break>ね、<value:$28>。 <end><if><value:$01><equal>20空 <end><if><value:$01><equal>193ま、魔人ですか！？<line-break>ま、魔人のいる迷宮なんて<line-break>伝説の勇者さんが挑むところですよね？<line-break>す、すみません！！<line-break>ろ、ロストールのウエイトレスなんかが<line-break>挑んでいい場所じゃありませんよね！？<end><if><value:$01><equal>191破壊神の円卓の騎士…<line-break>そんな恐ろしい相手が、<line-break>ここにいるというの！？<end>魔人に挑むネメアかー。<line-break>いい歌になりそうだなー。<line-break><value:$28>、ついていこうよ。 <end>"
-korean = "<if><value:$01><equal>2파괴신을 섬기는 마인…? 그런 녀석이 여기에 있다니….<end><if><value:$01><equal>4파괴신이라면 신화에 나오는 악당이었나. 아카데미에서 배웠을지도.<end><if><value:$01><equal>5파괴신의 원탁기사!? 진짜야!?<end><if><value:$01><equal>6파괴신이라니… 신화에 나오는 사신이잖아! 그런 녀석이 여기 있어!?<end><if><value:$01><equal>12공백<end><if><value:$01><equal>13마인이라고…!? 아르길샤이어의 동료인가!<end><if><value:$01><equal>10마인이라면 오르파우스가 말했던 녀석의 동료인가?<end><if><value:$01><equal>14그 파괴신의 원탁기사를 쫓고 있다니, 대단한 모험을 하는구먼.<end><if><value:$01><equal>15파괴신의 원탁기사…. 그런 엄청난 마인이 여기 있다니….<end><if><value:$01><equal>17정말 싫다, 마인이라고? <value:$28>랑 있으면 되는 일이 없어!<end><if><value:$01><equal>18공백<end><if><value:$01><equal>19마인이라면 우리도 찾고 있어어. 그렇지, <value:$28>.<end><if><value:$01><equal>20공백<end><if><value:$01><equal>193마, 마인인가요!? 마, 마인이 있는 미궁은 전설의 용사님이 도전하는 곳이잖아요? 죄, 죄송해요!! 로, 로스토올 웨이트리스 따위가 도전해도 될 곳이 아니죠!?<end><if><value:$01><equal>191파괴신의 원탁기사… 그런 무서운 상대가 여기 있다는 거야!?<end>마인에게 도전하는 네메아라ー. 좋은 노래가 되겠네ー. <value:$28>, 따라가자.<end>"
+korean = "<if><value:$01><equal>2파괴신을 섬기는 마인…? 그런 녀석이 여기에 있다니….<end><if><value:$01><equal>4파괴신이라면 신화에 나오는 악당이었나. 아카데미에서 배웠을지도.<end><if><value:$01><equal>5파괴신의 원탁기사!? 진짜야!?<end><if><value:$01><equal>6파괴신이라니… 신화에 나오는 사신이잖아! 그런 녀석이 여기 있어!?<end><if><value:$01><equal>12공백<end><if><value:$01><equal>13마인이라고…!? 아르길샤이어의 동료인가!<end><if><value:$01><equal>10마인이라면 오르파우스가 말했던 녀석의 동료인가?<end><if><value:$01><equal>14그 파괴신의 원탁기사를 쫓고 있다니, 대단한 모험을 하는구먼.<end><if><value:$01><equal>15파괴신의 원탁기사…. 그런 엄청난 마인이 여기 있다니….<end><if><value:$01><equal>17정말 싫다, 마인이라고? <value:$28>랑 있으면 되는 일이 없어!<end><if><value:$01><equal>18공백<end><if><value:$01><equal>19마인이라면 우리도 찾고 있어어. 그렇지, <value:$28>.<end><if><value:$01><equal>20공백<end><if><value:$01><equal>193마, 마인인가요!? 마, 마인이 있는 미궁은 전설의 용사님이 도전하는 곳이잖아요? 죄, 죄송해요!! 로, 로스톨 웨이트리스 따위가 도전해도 될 곳이 아니죠!?<end><if><value:$01><equal>191파괴신의 원탁기사… 그런 무서운 상대가 여기 있다는 거야!?<end>마인에게 도전하는 네메아라ー. 좋은 노래가 되겠네ー. <value:$28>, 따라가자.<end>"
 
 ["400015"]
 japanese = "…バルザーを知っているのか？<end>"
@@ -286,7 +286,7 @@ korean = "용병 지원자인가. 지금은 필요 없다. 보름쯤 뒤에 다�
 
 ["400071"]
 japanese = "これはノーブル伯。<line-break>なにやらお屋敷の方がお探しでした。<line-break>レムオン様のお屋敷に戻られては？<end>"
-korean = "노블 백작님. 저택 쪽에서 찾고 계시던데요. 레몬 님의 저택으로 돌아가 보시는 게 어떻습니까?<end>"
+korean = "노블 백작님. 저택 쪽에서 찾고 계시던데요. 레무온 님의 저택으로 돌아가 보시는 게 어떻습니까?<end>"
 
 ["400072"]
 japanese = "空<end>"
@@ -546,7 +546,7 @@ korean = "미안해, <value:$28>. 아쉽지만 지금은 줄 수 없어. 뭔가 
 
 ["400138"]
 japanese = "ロストールの貴族街にある<line-break>リューガ邸に時々寄ってみてよ。<line-break>　<line-break>研究に進展があったら<line-break>伝言を残しておくから。<line-break>じゃあ、僕は行くよ。<end>"
-korean = "로스토올 귀족가에 있는 류가 저택에 가끔 들러줘. 연구에 진전이 있으면 전언을 남겨둘게. 그럼 난 갈게.<end>"
+korean = "로스톨 귀족가에 있는 류가 저택에 가끔 들러줘. 연구에 진전이 있으면 전언을 남겨둘게. 그럼 난 갈게.<end>"
 
 ["400139"]
 japanese = "わかった。闇の神器は<line-break>ネメアもねらっているんだね。<line-break>気をつけるよ。<end>"
@@ -950,7 +950,7 @@ korean = "마도 아카데미를 수석 졸업한 자기브 딘갈을 제국 내
 
 ["400240"]
 japanese = "さらに、少数種族である<line-break>コーンス族からジラークを登用、<line-break>西方攻略軍総司令、白虎将軍に任じ、<line-break>アキュリュースへの攻撃を命じ…<end>"
-korean = "또한 소수종족인 코른스족에서 지라크를 등용해 서방공략군 총사령, 백호장군으로 임명하고 아큐류스 공격을 명령….<end>"
+korean = "또한 소수종족인 콘스족에서 지라크를 등용해 서방공략군 총사령, 백호장군으로 임명하고 아큐류스 공격을 명령….<end>"
 
 ["400241"]
 japanese = "無名の兵卒であった　　　　　　<line-break>カルラ・コルキアを青竜将軍に　　　<line-break>抜擢。東方小国家連合、及び　　　　　　<line-break>商業都市リベルダムの攻略を命じ…　　　　　<end>"
@@ -958,7 +958,7 @@ korean = "무명의 병졸이던 칼라 콜키아를 청룡장군으로 발탁. 
 
 ["400242"]
 japanese = "かつてバロル帝のもとで名をはせた　<line-break>老将アンギルダン・ゼイエンを　　<line-break>南方攻略軍総司令、朱雀将軍に任じ、<line-break>大国ロストールの攻略を命じた。　<end>"
-korean = "과거 발로르 황제 아래서 이름을 떨친 노장 앙길단 제이엔을 남방공략군 총사령, 주작장군으로 임명해 대국 로스토올 공략을 명했다.<end>"
+korean = "과거 발로르 황제 아래서 이름을 떨친 노장 앙길단 제이엔을 남방공략군 총사령, 주작장군으로 임명해 대국 로스톨 공략을 명했다.<end>"
 
 ["400243"]
 japanese = "ディンガル帝国皇帝　　　　　　<line-break>ネメア・ランガスター・ディンガルは、<line-break>バイアシオン大陸のすべてに　　　　　　<line-break>戦いを挑んだのである。　　　　　　　　　　<end>"

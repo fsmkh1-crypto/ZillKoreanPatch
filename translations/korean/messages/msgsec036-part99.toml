@@ -314,7 +314,7 @@ korean = "<if><value:$29><equal>%0오빠, 오빠, 일어나. 이런 데서 자�
 
 ["360082"]
 japanese = "<if><value:$29><equal>%0ここ？　ロストール。王国の都だよ。<line-break>お兄ちゃん、どうしたの？<end>ここ？　ロストール。王国の都だよ。<line-break>お姉ちゃん、どうしたの？<end>"
-korean = "<if><value:$29><equal>%0여기? 로스토올. 왕국의 수도야. 오빠, 왜 그래?<end>여기? 로스토올. 왕국의 수도야. 언니, 왜 그래?<end>"
+korean = "<if><value:$29><equal>%0여기? 로스톨. 왕국의 수도야. 오빠, 왜 그래?<end>여기? 로스톨. 왕국의 수도야. 언니, 왜 그래?<end>"
 
 ["360083"]
 japanese = "<if><value:$29><equal>%0ふぅん。じゃ、お兄ちゃんもあたしと<line-break>おんなじだ。ルルアンタもね、<line-break>お父さんとお母さんいないよ。<line-break>お世話になってたフリントさんも、<line-break>ガルドランって人に襲われて、<line-break>昨日、死んじゃった。<end>ふぅん。じゃ、お姉ちゃんもあたしと<line-break>おんなじだ。ルルアンタもね、<line-break>お父さんとお母さんいないよ。<line-break>お世話になってたフリントさんも、<line-break>ガルドランって人に襲われて、<line-break>昨日、死んじゃった。<end>"

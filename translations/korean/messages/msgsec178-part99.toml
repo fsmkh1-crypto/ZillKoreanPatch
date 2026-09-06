@@ -2,19 +2,19 @@
 
 ["1780000"]
 japanese = "ロストールメッセージＶ５／１開始<end>"
-korean = "로스토올 메시지 V5/1 시작<end>"
+korean = "로스톨 메시지 V5/1 시작<end>"
 
 ["1780001"]
 japanese = "東方諸国、リベルダムと、これまで<line-break>神速の奇襲で勝利をおさめてきた<line-break>ディンガル帝国の青竜将軍カルラは、<line-break>大々的にロストール攻略を発表した。<line-break>カルラ率いる青竜軍の兵力は、<line-break>先の戦いで多くの兵を失っている<line-break>ロストール側の５倍はあると言われた。<end>"
-korean = "동방 제국들과 리벨덤을 상대로 지금까지 신속한 기습으로 승리를 거둬 온 딘갈 제국의 청룡 장군 카를라는 로스토올 공략을 대대적으로 발표했다. 카를라가 이끄는 청룡군의 병력은 지난 전투에서 많은 병사를 잃은 로스토올 측의 다섯 배에 달한다고 했다.<end>"
+korean = "동방 제국들과 리벨덤을 상대로 지금까지 신속한 기습으로 승리를 거둬 온 딘갈 제국의 청룡 장군 카를라는 로스톨 공략을 대대적으로 발표했다. 카를라가 이끄는 청룡군의 병력은 지난 전투에서 많은 병사를 잃은 로스톨 측의 다섯 배에 달한다고 했다.<end>"
 
 ["1780002"]
 japanese = "　　このことはロストールにもすぐに報じられ、<line-break>　　貴族、民衆を問わず大きな衝撃を与えたが、<line-break>　　　　もはやそれに対抗する力も持たず、<line-break>　国内はただただ不協和音に包まれるだけだった。<line-break>　その国家としての命を奪いに来るかのように<line-break>　　　　青い死神が率いる大軍の足音が<line-break>　ロストールに向かって迫ってくるのだった…。<end>"
-korean = "이 소식은 곧바로 로스토올에도 전해져 귀족과 민중을 가리지 않고 큰 충격을 주었다. 하지만 이미 맞설 힘마저 잃은 국내에는 불협화음만 가득했다. 나라의 생명을 빼앗으러 오는 듯, 푸른 사신이 이끄는 대군의 발소리가 로스토올을 향해 다가오고 있었다….<end>"
+korean = "이 소식은 곧바로 로스톨에도 전해져 귀족과 민중을 가리지 않고 큰 충격을 주었다. 하지만 이미 맞설 힘마저 잃은 국내에는 불협화음만 가득했다. 나라의 생명을 빼앗으러 오는 듯, 푸른 사신이 이끄는 대군의 발소리가 로스톨을 향해 다가오고 있었다….<end>"
 
 ["1780003"]
 japanese = "　　青竜将軍カルラ率いるディンガル軍と<line-break>　　　ゼネテス率いるロストール軍は<line-break>　　　竜骨の砂漠南の街道で対峙した。<line-break>　<line-break>　　レムオンら有力貴族の出兵拒否により、<line-break>　ロストール側の兵は、ゼネテスの直属である<line-break>　　ファーロス家の私軍のみと噂されたが、<line-break>ゼネテスは、青竜軍を前に延々と陣を展開した。<end>"
-korean = "청룡장군 카를라가 이끄는 딩갈군과 제네테스가 이끄는 로스토올군은 용골 사막 남쪽 가도에서 대치했다. 레몬 등 유력 귀족들이 출병을 거부해 로스토올 측 병력은 제네테스 직속 파로스 가문 사병뿐이라는 소문이 돌았지만, 제네테스는 청룡군 앞에 길게 진을 펼쳤다.<end>"
+korean = "청룡장군 카를라가 이끄는 딩갈군과 제네테스가 이끄는 로스톨군은 용골 사막 남쪽 가도에서 대치했다. 레무온 등 유력 귀족들이 출병을 거부해 로스톨 측 병력은 제네테스 직속 파로스 가문 사병뿐이라는 소문이 돌았지만, 제네테스는 청룡군 앞에 길게 진을 펼쳤다.<end>"
 
 ["1780004"]
 japanese = "　だが、そのあまりの無防備な陣取りを見て、<line-break>　　青竜軍は、機略を警戒して進軍を止めた。　<line-break>　そして、両軍が対峙してしばらくの時が経つと<line-break>　　　　ある噂がディンガル軍に流れた。<end>"
@@ -82,7 +82,7 @@ korean = "이 앞인가….<end>"
 
 ["1780020"]
 japanese = "<if><value:$01><equal>3もしや、今の人影は<line-break>ネメア様ではなかったか？<line-break>どうする、<value:$28>？ <end><if><value:$01><equal>4今の人影、ネメア様に似てたかも。<line-break>でも、関わるとろくなことに<line-break>ならない気がするし…。 <end><if><value:$01><equal>5おい、<value:$28>。<line-break>今の人影、ネメアだったよな。<line-break>追いかけるか？ <end><if><value:$01><equal>6今の人影…<line-break>…ネメアじゃないかな？<line-break>どうしよう、<value:$28>？ <end><if><value:$01><equal>13今のは、ネメア。<line-break>…追うのか？ <end><if><value:$01><equal>10姉ちゃん、今の見たか？<line-break>あれ、絶対ネメアだぜ。<line-break>追うの？ <end><if><value:$01><equal>14今のはネメアではなかったか？<line-break>こんな所で供も連れずにいったい…？<line-break>どうするんじゃ、<value:$28>？ <end><if><value:$01><equal>15ねえ、<value:$28>。<line-break>今の人、ネメアさんじゃないかな？<line-break>どうしようか？ <end><if><value:$01><equal>17なに、あれ、ネメアぁ？　<line-break>まさか、まさか、まさか、<line-break>あなた、ネメアを追うつもりなの？<line-break>…って、こっちの方が<line-break>ド下等生物の殺し合いより<line-break>よっぽどマシかもしれなくてね。 <end><if><value:$01><equal>19ねぇねぇ、<value:$28>。<line-break>今の人、ネメアさんみたいだったよ。<line-break>どうするのぉ？ <end><if><value:$01><equal>20…追うのか？ <end><if><value:$01><equal>11今のは…ネメア様…<line-break><value:$28>、追いかけるの？<end><if><value:$01><equal>21今のはネメアか？<line-break>こんな所で供も連れずにいったい…？<line-break>どうする、<value:$28>？ <end><if><value:$01><equal>23今のは…ネメア様…<line-break>どうする、<value:$28>？<end><if><value:$01><equal>27今のは、ネメア…。<line-break>追うのか？ <end><if><value:$01><equal>26もしや、今の人影は<line-break>ネメアではなかったか？<line-break>どうする、<value:$28>？ <end><if><value:$01><equal>24今のは…ネメア様？<line-break><value:$28><line-break>追いかけますか？<end><if><value:$01><equal>25今の人影…<line-break>ネメア…だよね？<line-break>追いかけるの？ <end><if><value:$01><equal>192あれはネメアですね。<line-break>どうしますか？<end><if><value:$01><equal>193今のはネメアさん？<line-break><value:$28>さん<line-break>追いかけますか？<line-break>でも、そうこうしているうちに<line-break>ロストールがディンガル軍に<line-break>襲われちゃうかもしれない…。<end><if><value:$01><equal>194嫌な奴が視界に入ったな…。<line-break><value:$28>、どうする？<end><if><value:$01><equal>191今の、ネメアじゃないかしら？<line-break>追いかける？<end><if><value:$01><equal>190あれはネメアじゃないか？<line-break>追うか、<value:$28>？<end>見た見た？　今のネメアだよ。<line-break>でも、怒りんぼのオイフェとか<line-break>ぶあいそうなゼリグとか、いないなぁ。<line-break>ヒゲオヤジのドルドラムもいないよ。<line-break>何してるのか、気になるよね。<line-break>追いかけるの？ <end>"
-korean = "<if><value:$01><equal>3혹시 방금 저 그림자는 네메아 님 아니었나? 어쩔 거냐, <value:$28>?<end><if><value:$01><equal>4방금 그림자, 네메아 님과 닮았을지도. 그래도 관여하면 좋을 게 없을 것 같고….<end><if><value:$01><equal>5야, <value:$28>. 방금 그림자 네메아였지. 쫓을까?<end><if><value:$01><equal>6방금 그림자… 네메아 아닐까? 어떡하지, <value:$28>?<end><if><value:$01><equal>13방금 건 네메아다. …쫓을 건가?<end><if><value:$01><equal>10누나, 방금 봤어? 저거 분명 네메아야. 쫓아갈 거야?<end><if><value:$01><equal>14방금 건 네메아가 아니었나? 이런 곳에서 수행원도 없이 대체…? 어쩔 거냐, <value:$28>?<end><if><value:$01><equal>15있잖아, <value:$28>. 방금 사람 네메아 씨 아닐까? 어떻게 할까?<end><if><value:$01><equal>17뭐야, 저거 네메아야? 설마 네메아를 쫓을 생각이야? …그래도 이쪽이 최하등생물끼리 죽고 죽이는 것보단 낫겠네.<end><if><value:$01><equal>19있잖아, <value:$28>. 방금 사람 네메아 씨 같았어. 어떡할 거야아?<end><if><value:$01><equal>20…쫓을 건가?<end><if><value:$01><equal>11방금 건… 네메아 님…. <value:$28>, 쫓아갈 거야?<end><if><value:$01><equal>21방금 건 네메아인가? 이런 곳에서 수행원도 없이 대체…? 어쩔 거지, <value:$28>?<end><if><value:$01><equal>23방금 건… 네메아 님…. 어쩔 거지, <value:$28>?<end><if><value:$01><equal>27방금 건 네메아…. 쫓을 건가?<end><if><value:$01><equal>26혹시 방금 그림자는 네메아 아니었나? 어쩔 거냐, <value:$28>?<end><if><value:$01><equal>24방금 건… 네메아 님? <value:$28>, 쫓아가시겠습니까?<end><if><value:$01><equal>25방금 그림자… 네메아지? 쫓아갈 거야?<end><if><value:$01><equal>192저건 네메아군요. 어떻게 하시겠습니까?<end><if><value:$01><equal>193방금 건 네메아 씨? <value:$28> 씨, 쫓아가실래요? 하지만 그러는 동안 로스토올이 딩갈군에게 공격당할지도….<end><if><value:$01><equal>194싫은 녀석이 시야에 들어왔군…. <value:$28>, 어떻게 할래?<end><if><value:$01><equal>191방금 네메아 아니야? 쫓아갈래?<end><if><value:$01><equal>190저건 네메아 아닌가? 쫓을까, <value:$28>?<end>봤어? 방금 네메아야. 그런데 화 잘 내는 오이페도 무뚝뚝한 젤리그도, 수염 아저씨 돌드람도 없네. 뭘 하는지 신경 쓰이네. 쫓아갈래?<end>"
+korean = "<if><value:$01><equal>3혹시 방금 저 그림자는 네메아 님 아니었나? 어쩔 거냐, <value:$28>?<end><if><value:$01><equal>4방금 그림자, 네메아 님과 닮았을지도. 그래도 관여하면 좋을 게 없을 것 같고….<end><if><value:$01><equal>5야, <value:$28>. 방금 그림자 네메아였지. 쫓을까?<end><if><value:$01><equal>6방금 그림자… 네메아 아닐까? 어떡하지, <value:$28>?<end><if><value:$01><equal>13방금 건 네메아다. …쫓을 건가?<end><if><value:$01><equal>10누나, 방금 봤어? 저거 분명 네메아야. 쫓아갈 거야?<end><if><value:$01><equal>14방금 건 네메아가 아니었나? 이런 곳에서 수행원도 없이 대체…? 어쩔 거냐, <value:$28>?<end><if><value:$01><equal>15있잖아, <value:$28>. 방금 사람 네메아 씨 아닐까? 어떻게 할까?<end><if><value:$01><equal>17뭐야, 저거 네메아야? 설마 네메아를 쫓을 생각이야? …그래도 이쪽이 최하등생물끼리 죽고 죽이는 것보단 낫겠네.<end><if><value:$01><equal>19있잖아, <value:$28>. 방금 사람 네메아 씨 같았어. 어떡할 거야아?<end><if><value:$01><equal>20…쫓을 건가?<end><if><value:$01><equal>11방금 건… 네메아 님…. <value:$28>, 쫓아갈 거야?<end><if><value:$01><equal>21방금 건 네메아인가? 이런 곳에서 수행원도 없이 대체…? 어쩔 거지, <value:$28>?<end><if><value:$01><equal>23방금 건… 네메아 님…. 어쩔 거지, <value:$28>?<end><if><value:$01><equal>27방금 건 네메아…. 쫓을 건가?<end><if><value:$01><equal>26혹시 방금 그림자는 네메아 아니었나? 어쩔 거냐, <value:$28>?<end><if><value:$01><equal>24방금 건… 네메아 님? <value:$28>, 쫓아가시겠습니까?<end><if><value:$01><equal>25방금 그림자… 네메아지? 쫓아갈 거야?<end><if><value:$01><equal>192저건 네메아군요. 어떻게 하시겠습니까?<end><if><value:$01><equal>193방금 건 네메아 씨? <value:$28> 씨, 쫓아가실래요? 하지만 그러는 동안 로스톨이 딩갈군에게 공격당할지도….<end><if><value:$01><equal>194싫은 녀석이 시야에 들어왔군…. <value:$28>, 어떻게 할래?<end><if><value:$01><equal>191방금 네메아 아니야? 쫓아갈래?<end><if><value:$01><equal>190저건 네메아 아닌가? 쫓을까, <value:$28>?<end>봤어? 방금 네메아야. 그런데 화 잘 내는 오이페도 무뚝뚝한 젤리그도, 수염 아저씨 돌드람도 없네. 뭘 하는지 신경 쓰이네. 쫓아갈래?<end>"
 
 ["1780021"]
 japanese = "ネメアを追う<end>"
@@ -94,7 +94,7 @@ korean = "네메아를 쫓지 않는다<end>"
 
 ["1780023"]
 japanese = "<if><value:$01><equal>3…そうじゃな。<line-break>今はカルラのほうが先よ。<line-break>急ぐとしよう。 <end><if><value:$01><equal>4<value:$28>ったら<line-break>結局、無視するみたい。 <end><if><value:$01><equal>5そうだな。<line-break>今はカルラを倒すのが先だよな。<line-break>急ごうぜ。 <end><if><value:$01><equal>6そうだね。<line-break>今はロストールの方が大事だね。<line-break>それじゃ、急ごうよ。 <end><if><value:$01><equal>13…今はカルラが先か。<line-break>ならば、ぐずぐずするな。 <end><if><value:$01><equal>10そうだな。<line-break>今はカルラを倒す方が先だ。<line-break>急ごうぜ、姉ちゃん。 <end><if><value:$01><equal>14なるほど、<line-break>今はカルラが先じゃ。<line-break>急ぐぞ。 <end><if><value:$01><equal>15そうだね。<line-break>ゼネテスさんの信頼に応えないとね。<line-break>じゃ、急ごう、<value:$28>。 <end><if><value:$01><equal>17なぁにぃ？　やっぱり<line-break>ド下等生物の殺し合いの方がいいのぉ？<line-break>野蛮！　暴力的！　信じられないわぁ！<line-break>ド下等生物ってホント殺しが好きよね。<line-break>いけないって知ってながら、戦争だ<line-break>正義だって殺し合いをするんだから！ <end><if><value:$01><equal>19そうだね。今はロストールの人たちを<line-break>助けてあげる方が大事だよぉ。<line-break>急がなきゃ、<value:$28>。 <end><if><value:$01><equal>20…なれば、<line-break>急ぐぞ。 <end><if><value:$01><equal>11…そう。<line-break>じゃあ、急ぎましょう。<end><if><value:$01><equal>21なるほど。<line-break>では、急ごう<end><if><value:$01><equal>23…そうだな。<line-break>では、急ごう<end><if><value:$01><equal>27そうだな。<line-break>では、急ごう<end><if><value:$01><equal>26そうじゃな。<line-break>先を急ぐとしよう。 <end><if><value:$01><equal>24そうですね。<line-break>では、急ぎましょう<line-break><value:$28>様<end><if><value:$01><equal>25そうね。<line-break>じゃあ、急ぎましょう。<end><if><value:$01><equal>192そうですか。<line-break>では、急ぎましょう。<end><if><value:$01><equal>193そうですよ！<line-break>このままじゃ、ロストールが<line-break>ディンガル軍に滅茶苦茶にされます！<line-break>店長や友達も<line-break>殺されちゃうかもしれない…。<line-break>お願いです！　急ぎましょう！<end><if><value:$01><equal>194そうだね。<line-break>奴なんか気にすることはない。<end><if><value:$01><equal>191そうね。<line-break>今はロストールを守るのが先ね。<line-break>そうと決まれば急ぎましょ！<end><if><value:$01><equal>190そうだな。<line-break>先を急ぐぞ。<end>う～ん、そうだね。<line-break>今はロストールのことを考えないと。<line-break>急ごう、<value:$28>。 <end>"
-korean = "<if><value:$01><equal>3…그래. 지금은 카를라가 먼저다. 서두르자.<end><if><value:$01><equal>4<value:$28>, 결국 무시하는 것 같네.<end><if><value:$01><equal>5그래. 지금은 카를라를 쓰러뜨리는 게 먼저지. 서두르자.<end><if><value:$01><equal>6그래. 지금은 로스토올이 더 중요해. 그럼 서두르자.<end><if><value:$01><equal>13…지금은 카를라가 먼저인가. 그럼 꾸물대지 마라.<end><if><value:$01><equal>10그래. 지금은 카를라를 쓰러뜨리는 게 먼저야. 서두르자, 누나.<end><if><value:$01><equal>14그렇군, 지금은 카를라가 먼저다. 서두르자.<end><if><value:$01><equal>15그래. 제네테스 씨의 신뢰에 답해야지. 서두르자, <value:$28>.<end><if><value:$01><equal>17뭐어? 역시 최하등생물끼리 죽고 죽이는 게 좋아? 야만적이야! 폭력적이야! 정말 못 믿겠어! 최하등생물은 살육을 너무 좋아한다니까. 안 된다는 걸 알면서도 전쟁이니 정의니 하면서 서로 죽이잖아!<end><if><value:$01><equal>19그래. 지금은 로스토올 사람들을 도와주는 게 더 중요해. 서둘러야 해, <value:$28>.<end><if><value:$01><equal>20…그렇다면 서두른다.<end><if><value:$01><equal>11…그래. 그럼 서두르자.<end><if><value:$01><equal>21그렇군. 그럼 서두르자.<end><if><value:$01><equal>23…그래. 그럼 서두르지.<end><if><value:$01><equal>27그래. 그럼 서두르자.<end><if><value:$01><equal>26그래. 앞을 서두르자.<end><if><value:$01><equal>24그렇군요. 그럼 서두르죠, <value:$28> 님.<end><if><value:$01><equal>25그래. 그럼 서두르자.<end><if><value:$01><equal>192그렇습니까. 그럼 서두르죠.<end><if><value:$01><equal>193그래요! 이러다 로스토올이 딩갈군에게 엉망이 돼요! 점장님이나 친구들도 죽을지 몰라요…. 부탁이에요! 서둘러요!<end><if><value:$01><equal>194그래. 녀석 따윈 신경 쓸 필요 없어.<end><if><value:$01><equal>191그래. 지금은 로스토올을 지키는 게 먼저야. 정했으면 서두르자!<end><if><value:$01><equal>190그래. 앞을 서두른다.<end>음, 그래. 지금은 로스토올을 생각해야 해. 서두르자, <value:$28>.<end>"
+korean = "<if><value:$01><equal>3…그래. 지금은 카를라가 먼저다. 서두르자.<end><if><value:$01><equal>4<value:$28>, 결국 무시하는 것 같네.<end><if><value:$01><equal>5그래. 지금은 카를라를 쓰러뜨리는 게 먼저지. 서두르자.<end><if><value:$01><equal>6그래. 지금은 로스톨이 더 중요해. 그럼 서두르자.<end><if><value:$01><equal>13…지금은 카를라가 먼저인가. 그럼 꾸물대지 마라.<end><if><value:$01><equal>10그래. 지금은 카를라를 쓰러뜨리는 게 먼저야. 서두르자, 누나.<end><if><value:$01><equal>14그렇군, 지금은 카를라가 먼저다. 서두르자.<end><if><value:$01><equal>15그래. 제네테스 씨의 신뢰에 답해야지. 서두르자, <value:$28>.<end><if><value:$01><equal>17뭐어? 역시 최하등생물끼리 죽고 죽이는 게 좋아? 야만적이야! 폭력적이야! 정말 못 믿겠어! 최하등생물은 살육을 너무 좋아한다니까. 안 된다는 걸 알면서도 전쟁이니 정의니 하면서 서로 죽이잖아!<end><if><value:$01><equal>19그래. 지금은 로스톨 사람들을 도와주는 게 더 중요해. 서둘러야 해, <value:$28>.<end><if><value:$01><equal>20…그렇다면 서두른다.<end><if><value:$01><equal>11…그래. 그럼 서두르자.<end><if><value:$01><equal>21그렇군. 그럼 서두르자.<end><if><value:$01><equal>23…그래. 그럼 서두르지.<end><if><value:$01><equal>27그래. 그럼 서두르자.<end><if><value:$01><equal>26그래. 앞을 서두르자.<end><if><value:$01><equal>24그렇군요. 그럼 서두르죠, <value:$28> 님.<end><if><value:$01><equal>25그래. 그럼 서두르자.<end><if><value:$01><equal>192그렇습니까. 그럼 서두르죠.<end><if><value:$01><equal>193그래요! 이러다 로스톨이 딩갈군에게 엉망이 돼요! 점장님이나 친구들도 죽을지 몰라요…. 부탁이에요! 서둘러요!<end><if><value:$01><equal>194그래. 녀석 따윈 신경 쓸 필요 없어.<end><if><value:$01><equal>191그래. 지금은 로스톨을 지키는 게 먼저야. 정했으면 서두르자!<end><if><value:$01><equal>190그래. 앞을 서두른다.<end>음, 그래. 지금은 로스톨을 생각해야 해. 서두르자, <value:$28>.<end>"
 
 ["1780024"]
 japanese = "なんだって！？<line-break>ネメアが次元のはざまに落ちた？<end>"
@@ -102,7 +102,7 @@ korean = "뭐라고!? 네메아가 차원의 틈으로 떨어졌다고?<end>"
 
 ["1780025"]
 japanese = "そいつは、ロストールにとっては<line-break>またとない、いい知らせだな。<line-break>　<line-break>この戦いに勝てば、<line-break>生き残れるってことだ。<end>"
-korean = "그건 로스토올에 다시없는 좋은 소식이군. 이 싸움에서 이기면 살아남을 수 있다는 뜻이잖아.<end>"
+korean = "그건 로스톨에 다시없는 좋은 소식이군. 이 싸움에서 이기면 살아남을 수 있다는 뜻이잖아.<end>"
 
 ["1780026"]
 japanese = "だが…。<line-break>やな予感がしやがる。　　　　　　<line-break>　<line-break>そいつは世界にとっては、<line-break>悪いシナリオの<line-break>始まりなのかもしれん…。<end>"
@@ -126,7 +126,7 @@ korean = "…생각해도 소용없나. 네메아가 무슨 생각을 하는지 
 
 ["1780031"]
 japanese = "闇が空をおおうころ、ゼネテスは<line-break>虹色の山脈のふもとを駆けた。<line-break>彼とその信頼する精鋭たちの姿は<line-break>木々と闇とで完全に包みこまれていた。<line-break>そして、夜明け。<line-break>ロストールの命運を賭けて、<line-break>ゼネテスが突撃の号令を叫ぶ。<end>"
-korean = "어둠이 하늘을 뒤덮을 무렵, 제네테스는 무지개빛 산맥 기슭을 달렸다. 그와 그가 신뢰하는 정예들의 모습은 나무와 어둠에 완전히 감춰져 있었다. 그리고 새벽. 로스토올의 운명을 걸고 제네테스가 돌격 명령을 외친다.<end>"
+korean = "어둠이 하늘을 뒤덮을 무렵, 제네테스는 무지개빛 산맥 기슭을 달렸다. 그와 그가 신뢰하는 정예들의 모습은 나무와 어둠에 완전히 감춰져 있었다. 그리고 새벽. 로스톨의 운명을 걸고 제네테스가 돌격 명령을 외친다.<end>"
 
 ["1780032"]
 japanese = "うーん…。<line-break>このカルラさんとしたことが、<line-break>これはちょっとピンチかもね。　<line-break>でも、まだ、死ぬ気はないの。<line-break>あたしってば、まだ、心の底から<line-break>笑ったことなんてないんだから！<end>"
@@ -186,7 +186,7 @@ korean = "<value:$28>, 카를라는?<end>"
 
 ["1780047"]
 japanese = "…そうか…わかった。　　　　　　<line-break>　<line-break>　<line-break>お前さんもよくやってくれた。<line-break>胸を張ってロストールに帰ろうぜ。<line-break>ご苦労さん。<end>"
-korean = "…그래… 알았다. 자네도 잘해 줬어. 가슴 펴고 로스토올로 돌아가자. 수고했네.<end>"
+korean = "…그래… 알았다. 자네도 잘해 줬어. 가슴 펴고 로스톨로 돌아가자. 수고했네.<end>"
 
 ["1780048"]
 japanese = "はぁ…はぁ…。<line-break>もう…いいよ、<value:$28>。<line-break>…手が、汚れちゃう。<end>"
@@ -262,7 +262,7 @@ korean = "칼라를 쓰러뜨리지 못한 건 어쩔 수 없어. 신경 쓰지 
 
 ["1780066"]
 japanese = "レムオンが協力してくれれば、<line-break>少しは道が開けるんだがな。<end>"
-korean = "레몬이 협력해 준다면 조금은 길이 열릴 텐데.<end>"
+korean = "레무온이 협력해 준다면 조금은 길이 열릴 텐데.<end>"
 
 ["1780067"]
 japanese = "ゼネテス様。<end>"
@@ -286,7 +286,7 @@ korean = "아니, <value:$28>도 같이 듣는 게 좋아. 그러니까 <value:$
 
 ["1780072"]
 japanese = "まずは、レムオン様なのですが、<line-break>姿が見えないのです。<end>"
-korean = "우선 레몬 님인데요, 모습이 보이지 않습니다.<end>"
+korean = "우선 레무온 님인데요, 모습이 보이지 않습니다.<end>"
 
 ["1780073"]
 japanese = "なんだと？<end>"
@@ -306,7 +306,7 @@ korean = "그뿐만이 아닙니다. 아트레이아 왕녀님까지,자취를 �
 
 ["1780077"]
 japanese = "妙な話だな…。<line-break>レムオンがさらったとも思えん。<line-break>何か心当たりはないのか？<end>"
-korean = "이상한 얘기군…. 레몬이 납치했다고도 생각되지 않아. 뭔가 짐작 가는 건 없나?<end>"
+korean = "이상한 얘기군…. 레무온이 납치했다고도 생각되지 않아. 뭔가 짐작 가는 건 없나?<end>"
 
 ["1780078"]
 japanese = "私たちは、王宮の人間の動きならば、<line-break>ほぼすべて把握していたつもりよ。<line-break>でも、ひとりだけわからない奴がいた。<end>"
@@ -350,7 +350,7 @@ korean = "하지만 참…. 질리지 않는 인생이군.<end>"
 
 ["1780088"]
 japanese = "カルラは、ゼネテスの機略の前に敗れた。<line-break>だが、青竜軍の兵力は、依然として<line-break>ロストール軍を大きく上回っていた。<line-break>　<line-break>ゼネテスの勝利とは関係なく、<line-break>勝機はいまだカルラにあった。<line-break>しかし、青竜軍は進軍しなかった。<end>"
-korean = "카를라는 제네테스의 계략에 패했다. 하지만 청룡군의 병력은 여전히 로스토올군을 크게 웃돌고 있었다. 제네테스의 승리와 관계없이 승기는 아직 카를라에게 있었다. 그러나 청룡군은 진군하지 않았다.<end>"
+korean = "카를라는 제네테스의 계략에 패했다. 하지만 청룡군의 병력은 여전히 로스톨군을 크게 웃돌고 있었다. 제네테스의 승리와 관계없이 승기는 아직 카를라에게 있었다. 그러나 청룡군은 진군하지 않았다.<end>"
 
 ["1780089"]
 japanese = "ネメア死す。<line-break>ゼネテスの放った<line-break>偽情報を裏付けるかのごとく、<line-break>　<line-break>ゼグナ鉱山で<line-break>闇の神器を探索したあと、<line-break>青竜軍に合流するはずだった<line-break>ネメアが、ついに戻らなかったのである。<end>"
@@ -358,15 +358,15 @@ korean = "네메아 사망. 제네테스가 흘린 거짓 정보를 뒷받침하
 
 ["1780090"]
 japanese = "　　　　　一方、ロストールでは、<line-break>　レムオンが突然姿を消したことをきっかけに<line-break>　　　　国内の戦力が、再び統合され、<line-break>　青竜軍と戦えるだけの態勢が取り戻された。<line-break>　　こうして、ネメアを失ったディンガルと<line-break>　　　国内の統合に成功したロストールは、<line-break>　　　　再びにらみ合いの状態に入った。<end>"
-korean = "한편 로스토올에서는 레몬이 갑자기 모습을 감춘 것을 계기로 국내 전력이 다시 통합되어 청룡군과 맞설 수 있는 태세를 되찾았다. 이렇게 네메아를 잃은 딩갈과 국내 통합에 성공한 로스토올은 다시 서로 대치하는 상태에 들어갔다.<end>"
+korean = "한편 로스톨에서는 레무온이 갑자기 모습을 감춘 것을 계기로 국내 전력이 다시 통합되어 청룡군과 맞설 수 있는 태세를 되찾았다. 이렇게 네메아를 잃은 딩갈과 국내 통합에 성공한 로스톨은 다시 서로 대치하는 상태에 들어갔다.<end>"
 
 ["1780091"]
 japanese = "消えたレムオンとお姫さまが　　　　　<line-break>気になるが、ともかくこっちは、<line-break>カルラとやり合える態勢になった。<line-break>だが裏では、ロストールとディンガルの<line-break>争いよりも、もっとやっかいなことに<line-break>なってるのかもしれんな。<end>"
-korean = "사라진 레몬과 공주님이 신경 쓰이지만, 어쨌든 이쪽은 카를라와 맞붙을 태세를 갖췄다. 하지만 뒤에서는 로스토올과 딘갈의 싸움보다 훨씬 더 골치 아픈 일이 벌어지고 있는 것 같군….<end>"
+korean = "사라진 레무온과 공주님이 신경 쓰이지만, 어쨌든 이쪽은 카를라와 맞붙을 태세를 갖췄다. 하지만 뒤에서는 로스톨과 딘갈의 싸움보다 훨씬 더 골치 아픈 일이 벌어지고 있는 것 같군….<end>"
 
 ["1780092"]
 japanese = "ロストール王宮は<line-break>しばらく戒厳令下に入る。<line-break>だから自由には会えなくなるが、<end>"
-korean = "로스토올 왕궁은 당분간 계엄령에 들어간다. 그래서 자유롭게 만날 수는 없겠지만,<end>"
+korean = "로스톨 왕궁은 당분간 계엄령에 들어간다. 그래서 자유롭게 만날 수는 없겠지만,<end>"
 
 ["1780093"]
 japanese = "もし、お前さんが、<line-break>俺の力を必要とするならば、<line-break>いつでも呼び出してくれ。<line-break>俺には、<line-break>お前さんが関わってることの方が、<line-break>重大事だって思えるんでね。<end>"
@@ -374,44 +374,44 @@ korean = "네가 내 힘을 필요로 한다면 언제든 불러 줘. 나한테�
 
 ["1780094"]
 japanese = "予備メッセージ　その１<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 1 로스토올 V5-1<end>"
+korean = "예비 메시지 그 1 로스톨 V5-1<end>"
 
 ["1780095"]
 japanese = "予備メッセージ　その２<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 2 로스토올 V5-1<end>"
+korean = "예비 메시지 그 2 로스톨 V5-1<end>"
 
 ["1780096"]
 japanese = "予備メッセージ　その３<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 3 로스토올 V5-1<end>"
+korean = "예비 메시지 그 3 로스톨 V5-1<end>"
 
 ["1780097"]
 japanese = "予備メッセージ　その４<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 4 로스토올 V5-1<end>"
+korean = "예비 메시지 그 4 로스톨 V5-1<end>"
 
 ["1780098"]
 japanese = "予備メッセージ　その５<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 5 로스토올 V5-1<end>"
+korean = "예비 메시지 그 5 로스톨 V5-1<end>"
 
 ["1780099"]
 japanese = "予備メッセージ　その６<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 6 로스토올 V5-1<end>"
+korean = "예비 메시지 그 6 로스톨 V5-1<end>"
 
 ["1780100"]
 japanese = "予備メッセージ　その７<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 7 로스토올 V5-1<end>"
+korean = "예비 메시지 그 7 로스톨 V5-1<end>"
 
 ["1780101"]
 japanese = "予備メッセージ　その８<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 8 로스토올 V5-1<end>"
+korean = "예비 메시지 그 8 로스톨 V5-1<end>"
 
 ["1780102"]
 japanese = "予備メッセージ　その９<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 9 로스토올 V5-1<end>"
+korean = "예비 메시지 그 9 로스톨 V5-1<end>"
 
 ["1780103"]
 japanese = "予備メッセージ　その１０<line-break>ロストールＶ５－１<end>"
-korean = "예비 메시지 그 10 로스토올 V5-1<end>"
+korean = "예비 메시지 그 10 로스톨 V5-1<end>"
 
 ["1780104"]
 japanese = "ロストールメッセージＶ５／１終端<end>"
-korean = "로스토올 메시지 V5/1 끝<end>"
+korean = "로스톨 메시지 V5/1 끝<end>"

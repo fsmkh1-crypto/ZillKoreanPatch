@@ -326,7 +326,7 @@ korean = "물의 무녀 이크레문과 불의 무녀 플레어는 샤리의 손
 
 ["1330082"]
 japanese = "　　　　　　ロストールとディンガル　　　　　<line-break>　　　ふたつの大国が大陸を揺り動かす中、　　<line-break>　　　　　　　いにしえの力もまた　　　　　　<line-break>　　　　その大いなる眠りから放たれた。　　　<end>"
-korean = "로스토올과 딘갈, 두 대국이 대륙을 뒤흔드는 가운데 고대의 힘도 긴 잠에서 풀려났다.<end>"
+korean = "로스톨과 딘갈, 두 대국이 대륙을 뒤흔드는 가운데 고대의 힘도 긴 잠에서 풀려났다.<end>"
 
 ["1330083"]
 japanese = "　　　　　砂漠にある都市ラドラスが　　　　　<line-break>　　　　その魔道国家時代の機能を発動。　　　<line-break>　　　　攻撃力を持った空中都市として　　　　<line-break>　　　　　空へと飛び立ったのである。　　　　<end>"
@@ -822,7 +822,7 @@ korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 
 ["1330207"]
 japanese = "<if><value:$01><equal>2また、あなたなの！<line-break>シャリ！！ <end><if><value:$01><equal>3また、お主か！<line-break>シャリ！！ <end><if><value:$01><equal>4あら？　こんなところで<line-break>何をしているの？ <end><if><value:$01><equal>5てめえ、こんなところで<line-break>何してやがる！ <end><if><value:$01><equal>6また君か、シャリ！<line-break>今度は何するつもりだよ！ <end><if><value:$01><equal>7神器を探しているときにも<line-break>何度か見たな…。<line-break>貴様がシャリか！ <end><if><value:$01><equal>9なんだか危なそうなお子ちゃまね。<line-break>あんたが噂のシャリって奴ね！ <end><if><value:$01><equal>12ロストールだけじゃなく<line-break>こんなところにも出やがったか。<line-break>いったい何をしている！ <end><if><value:$01><equal>11こんなところで何をしているの！<end><if><value:$01><equal>13貴様！<line-break>ここで何をしている！ <end><if><value:$01><equal>10てめぇ、何してんだよ！ <end><if><value:$01><equal>14お主、なんの用じゃ！ <end><if><value:$01><equal>15シャリ！<line-break>こんな場所にまで<line-break>何しに来たんだ！ <end><if><value:$01><equal>17ちょっとー、あんたいったい何なの！<line-break>アタクシたちの邪魔ばかりしてー！<line-break>アタクシのガマンにも限界があってよ！ <end><if><value:$01><equal>19シャリぃ！<line-break>こんな場所にまで出てきて<line-break>何をしてるのよぉ！ <end><if><value:$01><equal>20貴様…、いったい何者だ。<line-break>ここで何をしている？ <end><if><value:$01><equal>21貴様…。<line-break>ここで何をしている！ <end><if><value:$01><equal>23ここで何をしている！ <end><if><value:$01><equal>27こんなところで何をしている！<end><if><value:$01><equal>26ここで何をしているのじゃ！<end><if><value:$01><equal>24ここで何をしているのですか！<end><if><value:$01><equal>25こんなところで何をしてるの！<end><if><value:$01><equal>192ここで何をしているのですか？<end><if><value:$01><equal>193わ、私たちに何の用ですか！<end><if><value:$01><equal>194シャリ！<line-break>やめるんだ！<end><if><value:$01><equal>191シャリ！<line-break>また悪だくみなの！<end><if><value:$01><equal>190シャリ！<line-break>今度は何をするつもりだ！<end>シャリ！<line-break>こんな場所にまで出てきて<line-break>何をしようとしてるんだ！ <end>"
-korean = "<if><value:$01><equal>2또 당신이야! 샤리!!<end><if><value:$01><equal>3또 네놈이냐! 샤리!!<end><if><value:$01><equal>4어머? 이런 데서 뭐 하고 있는 거야?<end><if><value:$01><equal>5네놈, 이런 데서 뭐 하고 있는 거냐!<end><if><value:$01><equal>6또 너냐, 샤리! 이번엔 뭘 하려는 거야!<end><if><value:$01><equal>7신기를 찾을 때도 몇 번 봤지…. 네놈이 샤리냐!<end><if><value:$01><equal>9왠지 위험해 보이는 꼬마네. 네가 소문난 샤리라는 녀석이지!<end><if><value:$01><equal>12로스토올뿐만 아니라 이런 데까지 나타난 거냐. 대체 뭘 하고 있는 거야!<end><if><value:$01><equal>11이런 데서 뭐 하고 있는 거야!<end><if><value:$01><equal>13네놈! 여기서 뭐 하고 있는 거냐!<end><if><value:$01><equal>10네놈, 뭐 하고 있는 거야!<end><if><value:$01><equal>14네놈, 무슨 용건이냐!<end><if><value:$01><equal>15샤리! 이런 곳까지 뭐 하러 온 거야!<end><if><value:$01><equal>17잠깐, 너 대체 뭐예요! 이 몸들 방해만 하고! 이 몸의 인내심에도 한계가 있다고요!<end><if><value:$01><equal>19샤리이! 이런 데까지 나타나서 뭐 하는 거야!<end><if><value:$01><equal>20네놈… 대체 정체가 뭐냐. 여기서 뭘 하고 있지?<end><if><value:$01><equal>21네놈…. 여기서 뭘 하고 있는 거냐!<end><if><value:$01><equal>23여기서 뭘 하고 있는 거냐!<end><if><value:$01><equal>27이런 데서 뭘 하고 있는 거냐!<end><if><value:$01><equal>26여기서 뭘 하고 있는 게냐!<end><if><value:$01><equal>24여기서 뭘 하고 있는 겁니까!<end><if><value:$01><equal>25이런 데서 뭐 하고 있는 거야!<end><if><value:$01><equal>192여기서 뭘 하고 있는 겁니까?<end><if><value:$01><equal>193우, 우리에게 무슨 용건이죠!<end><if><value:$01><equal>194샤리! 그만둬!<end><if><value:$01><equal>191샤리! 또 나쁜 짓을 꾸미는 거야!<end><if><value:$01><equal>190샤리! 이번엔 뭘 할 셈이냐!<end>샤리! 이런 곳까지 나타나서 뭘 하려는 거야!<end>"
+korean = "<if><value:$01><equal>2또 당신이야! 샤리!!<end><if><value:$01><equal>3또 네놈이냐! 샤리!!<end><if><value:$01><equal>4어머? 이런 데서 뭐 하고 있는 거야?<end><if><value:$01><equal>5네놈, 이런 데서 뭐 하고 있는 거냐!<end><if><value:$01><equal>6또 너냐, 샤리! 이번엔 뭘 하려는 거야!<end><if><value:$01><equal>7신기를 찾을 때도 몇 번 봤지…. 네놈이 샤리냐!<end><if><value:$01><equal>9왠지 위험해 보이는 꼬마네. 네가 소문난 샤리라는 녀석이지!<end><if><value:$01><equal>12로스톨뿐만 아니라 이런 데까지 나타난 거냐. 대체 뭘 하고 있는 거야!<end><if><value:$01><equal>11이런 데서 뭐 하고 있는 거야!<end><if><value:$01><equal>13네놈! 여기서 뭐 하고 있는 거냐!<end><if><value:$01><equal>10네놈, 뭐 하고 있는 거야!<end><if><value:$01><equal>14네놈, 무슨 용건이냐!<end><if><value:$01><equal>15샤리! 이런 곳까지 뭐 하러 온 거야!<end><if><value:$01><equal>17잠깐, 너 대체 뭐예요! 이 몸들 방해만 하고! 이 몸의 인내심에도 한계가 있다고요!<end><if><value:$01><equal>19샤리이! 이런 데까지 나타나서 뭐 하는 거야!<end><if><value:$01><equal>20네놈… 대체 정체가 뭐냐. 여기서 뭘 하고 있지?<end><if><value:$01><equal>21네놈…. 여기서 뭘 하고 있는 거냐!<end><if><value:$01><equal>23여기서 뭘 하고 있는 거냐!<end><if><value:$01><equal>27이런 데서 뭘 하고 있는 거냐!<end><if><value:$01><equal>26여기서 뭘 하고 있는 게냐!<end><if><value:$01><equal>24여기서 뭘 하고 있는 겁니까!<end><if><value:$01><equal>25이런 데서 뭐 하고 있는 거야!<end><if><value:$01><equal>192여기서 뭘 하고 있는 겁니까?<end><if><value:$01><equal>193우, 우리에게 무슨 용건이죠!<end><if><value:$01><equal>194샤리! 그만둬!<end><if><value:$01><equal>191샤리! 또 나쁜 짓을 꾸미는 거야!<end><if><value:$01><equal>190샤리! 이번엔 뭘 할 셈이냐!<end>샤리! 이런 곳까지 나타나서 뭘 하려는 거야!<end>"
 
 ["1330208"]
 japanese = "あはは。そう邪険にしないでよ。<line-break>ネメアを助けに来ただけなんだから。<line-break><value:$28>だって、そうでしょ？<line-break>でも、もういいや。<line-break>ネメア、いらなくなっちゃった。<end>"
@@ -934,7 +934,7 @@ korean = "어서 와. 기다리고 있었어, <value:$28>.<end>"
 
 ["1330235"]
 japanese = "<if><value:$01><equal>2また、あなたなの！<line-break>シャリ！！<line-break>ネメア様に何を！<end><if><value:$01><equal>3また、お主か！<line-break>シャリ！！<line-break>ネメア様に何をしおった！<end><if><value:$01><equal>4また、シャリが何かしたみたい。<line-break>ネメア様の様子が変！<end><if><value:$01><equal>5てめえ、ネメアに何しやがった！<end><if><value:$01><equal>6ネメアに何をしたの！<end><if><value:$01><equal>7貴様！　ネメア様に何をした！<end><if><value:$01><equal>9ちょっと、あんた。<line-break>ネメア様に何してくれたわけ？<end><if><value:$01><equal>12ロストールだけじゃなく、　<line-break>こんなところでも<line-break>悪さしてやがったか。<line-break>ネメアにいったい何をした！<end><if><value:$01><equal>11こんなところで何をしているの！<line-break>ネメア様に何をしたの！<end><if><value:$01><equal>13貴様！<line-break>ネメアに何をした！<end><if><value:$01><equal>10ネメアの様子がおかしいぞ。<line-break>てめぇ、何しやがった！<end><if><value:$01><equal>14お主！<line-break>ネメアに何をしおった！<end><if><value:$01><equal>15<value:$28>、<line-break>ネメアさんの様子が変だよ！<line-break>シャリが何かやったんだ。<end><if><value:$01><equal>17また、やっかいごとなのぉー！<line-break>ちょっと、シャリ！<line-break>今度はネメアに何したのよー！<end><if><value:$01><equal>19ネメアさんの様子が変だよぉ！<line-break>シャリが何かやったんだ。<end><if><value:$01><equal>20貴様…<line-break>ネメアに何をした？<end><if><value:$01><equal>21貴様…！<line-break>ネメアに何をした！<end><if><value:$01><equal>23貴様…！<line-break>ネメア様に何をした！ <end><if><value:$01><equal>27様子がおかしい…<line-break>シャリ！　何をした！！<end><if><value:$01><equal>26ネメア殿に何をしたんじゃ！<end><if><value:$01><equal>24ネメア様に何をしたのですか！<end><if><value:$01><equal>25様子がおかしい…。<line-break>あなた、何をしたの？！<end><if><value:$01><equal>192闇の気配…。<line-break>限りなく黒く、限りなく深い…。<line-break>これは…？<end><if><value:$01><equal>193ネメアさんに何を！？<end><if><value:$01><equal>194ネメア…！？<line-break>くっ！<end><if><value:$01><equal>191あなた…。<line-break>ネメアに何したの！<end><if><value:$01><equal>190シャリ！<line-break>ネメアに何をした！<end><value:$28>、<line-break>ネメアの様子が変だよ？<line-break>シャリが何かやったんだ。<end>"
-korean = "<if><value:$01><equal>2또 당신이야! 샤리!! 네메아 님에게 무슨 짓을!<end><if><value:$01><equal>3또 네놈이냐! 샤리!! 네메아 님에게 무슨 짓을 한 게냐!<end><if><value:$01><equal>4또 샤리가 뭔가 한 것 같아. 네메아 님 상태가 이상해!<end><if><value:$01><equal>5네놈, 네메아에게 무슨 짓을 한 거야!<end><if><value:$01><equal>6네메아에게 무슨 짓을 한 거야!<end><if><value:$01><equal>7네놈! 네메아 님에게 무슨 짓을 했나!<end><if><value:$01><equal>9잠깐, 너. 네메아 님에게 무슨 짓 한 거야?<end><if><value:$01><equal>12로스토올뿐 아니라 이런 곳에서도 못된 짓을 했나. 네메아에게 대체 무슨 짓을 했어!<end><if><value:$01><equal>11이런 곳에서 뭘 하고 있는 거야! 네메아 님에게 무슨 짓을 했어!<end><if><value:$01><equal>13네놈! 네메아에게 무슨 짓을 했나!<end><if><value:$01><equal>10네메아 상태가 이상해. 네놈, 무슨 짓 한 거야!<end><if><value:$01><equal>14네놈! 네메아에게 무슨 짓을 한 게냐!<end><if><value:$01><equal>15<value:$28>, 네메아 씨 상태가 이상해! 샤리가 뭔가 한 거야.<end><if><value:$01><equal>17또 골칫거리야!? 잠깐 샤리! 이번엔 네메아에게 무슨 짓을 한 거야!<end><if><value:$01><equal>19네메아 씨 상태가 이상해애! 샤리가 뭔가 한 거야.<end><if><value:$01><equal>20네놈… 네메아에게 무슨 짓을 했지?<end><if><value:$01><equal>21네놈…! 네메아에게 무슨 짓을 했나!<end><if><value:$01><equal>23네놈…! 네메아 님에게 무슨 짓을 했나!<end><if><value:$01><equal>27상태가 이상해… 샤리! 무슨 짓을 했나!!<end><if><value:$01><equal>26네메아 공에게 무슨 짓을 한 게냐!<end><if><value:$01><equal>24네메아 님에게 무슨 짓을 한 겁니까!<end><if><value:$01><equal>25상태가 이상해…. 당신, 무슨 짓을 한 거야?!<end><if><value:$01><equal>192어둠의 기척…. 한없이 검고, 한없이 깊어…. 이건…?<end><if><value:$01><equal>193네메아 씨에게 무슨 짓을!?<end><if><value:$01><equal>194네메아…!? 큭!<end><if><value:$01><equal>191당신…. 네메아에게 무슨 짓을 했어!<end><if><value:$01><equal>190샤리! 네메아에게 무슨 짓을 했나!<end><value:$28>, 네메아 상태가 이상해. 샤리가 뭔가 한 거야.<end>"
+korean = "<if><value:$01><equal>2또 당신이야! 샤리!! 네메아 님에게 무슨 짓을!<end><if><value:$01><equal>3또 네놈이냐! 샤리!! 네메아 님에게 무슨 짓을 한 게냐!<end><if><value:$01><equal>4또 샤리가 뭔가 한 것 같아. 네메아 님 상태가 이상해!<end><if><value:$01><equal>5네놈, 네메아에게 무슨 짓을 한 거야!<end><if><value:$01><equal>6네메아에게 무슨 짓을 한 거야!<end><if><value:$01><equal>7네놈! 네메아 님에게 무슨 짓을 했나!<end><if><value:$01><equal>9잠깐, 너. 네메아 님에게 무슨 짓 한 거야?<end><if><value:$01><equal>12로스톨뿐 아니라 이런 곳에서도 못된 짓을 했나. 네메아에게 대체 무슨 짓을 했어!<end><if><value:$01><equal>11이런 곳에서 뭘 하고 있는 거야! 네메아 님에게 무슨 짓을 했어!<end><if><value:$01><equal>13네놈! 네메아에게 무슨 짓을 했나!<end><if><value:$01><equal>10네메아 상태가 이상해. 네놈, 무슨 짓 한 거야!<end><if><value:$01><equal>14네놈! 네메아에게 무슨 짓을 한 게냐!<end><if><value:$01><equal>15<value:$28>, 네메아 씨 상태가 이상해! 샤리가 뭔가 한 거야.<end><if><value:$01><equal>17또 골칫거리야!? 잠깐 샤리! 이번엔 네메아에게 무슨 짓을 한 거야!<end><if><value:$01><equal>19네메아 씨 상태가 이상해애! 샤리가 뭔가 한 거야.<end><if><value:$01><equal>20네놈… 네메아에게 무슨 짓을 했지?<end><if><value:$01><equal>21네놈…! 네메아에게 무슨 짓을 했나!<end><if><value:$01><equal>23네놈…! 네메아 님에게 무슨 짓을 했나!<end><if><value:$01><equal>27상태가 이상해… 샤리! 무슨 짓을 했나!!<end><if><value:$01><equal>26네메아 공에게 무슨 짓을 한 게냐!<end><if><value:$01><equal>24네메아 님에게 무슨 짓을 한 겁니까!<end><if><value:$01><equal>25상태가 이상해…. 당신, 무슨 짓을 한 거야?!<end><if><value:$01><equal>192어둠의 기척…. 한없이 검고, 한없이 깊어…. 이건…?<end><if><value:$01><equal>193네메아 씨에게 무슨 짓을!?<end><if><value:$01><equal>194네메아…!? 큭!<end><if><value:$01><equal>191당신…. 네메아에게 무슨 짓을 했어!<end><if><value:$01><equal>190샤리! 네메아에게 무슨 짓을 했나!<end><value:$28>, 네메아 상태가 이상해. 샤리가 뭔가 한 거야.<end>"
 
 ["1330236"]
 japanese = "誤解しないでほしいな。<line-break>僕は、ネメアを救ってあげたんだ。<line-break>次元のはざまからね。<end>"
@@ -1474,7 +1474,7 @@ korean = "세계의 사람들이여. 들릴 것이다. 내 말을 들어라…. 
 
 ["1330371"]
 japanese = "くだらない。<line-break>アトレイア、闇の巨人で<line-break>やっちゃってよ。<end>"
-korean = "시시하네. 아트레아, 어둠의 거인으로 해치워 버려.<end>"
+korean = "시시하네. 아트레이아, 어둠의 거인으로 해치워 버려.<end>"
 
 ["1330372"]
 japanese = "我を信じよ…<line-break>すべてを我になげうて…<line-break>すべてをゆだねよ…<line-break>祈るがいい…<line-break>そして心を開くのだ…<line-break>すべてをゆだねよ…<end>"
@@ -1722,7 +1722,7 @@ korean = "그렇다네. 곤란하지? 용사님, 이 세계를 구해 줘~! …�
 
 ["1330433"]
 japanese = "あなたがアトレイアを<line-break>助けたせいで…こうなったわ…。<line-break>すべて、あなたのせい。<line-break>いかが？<line-break>私は、あなたが作り上げた化け物よ。<line-break>美しいかしら？<end>"
-korean = "네가 아트레아를 도운 탓에… 이렇게 됐어…. 전부 네 탓이야. 어때? 나는 네가 만들어 낸 괴물이야. 아름다워?<end>"
+korean = "네가 아트레이아를 도운 탓에… 이렇게 됐어…. 전부 네 탓이야. 어때? 나는 네가 만들어 낸 괴물이야. 아름다워?<end>"
 
 ["1330434"]
 japanese = "私は、こうなったことを<line-break>喜んでいるのよ…。<line-break>だって…。<line-break>あなたを死の静寂で包んで<line-break>私を永遠に拒絶できないように<line-break>できるんですもの…。<end>"
@@ -1922,11 +1922,11 @@ korean = "세계가 허무로 돌아가기 전의 짧은 시간이지만, 당신
 
 ["1330483"]
 japanese = "いらっしゃい、レムオン…。<end>"
-korean = "어서 와, 레몬….<end>"
+korean = "어서 와, 레무온….<end>"
 
 ["1330484"]
 japanese = "レムオンは私のいいなりの人形<line-break>レムオンは私を否定しない。<line-break>フフ、ウフフ…すてきでしょう？<end>"
-korean = "레몬은 내 말대로 움직이는 인형. 레몬은 나를 부정하지 않아. 후후, 우후후… 멋지지?<end>"
+korean = "레무온은 내 말대로 움직이는 인형. 레무온은 나를 부정하지 않아. 후후, 우후후… 멋지지?<end>"
 
 ["1330485"]
 japanese = "あなたにとっては、さしずめ、<line-break>感動の再会というところかしら？<end>"
@@ -1934,7 +1934,7 @@ korean = "너에게는 말하자면 감동의 재회 정도려나?<end>"
 
 ["1330486"]
 japanese = "何を言ってもムダよ。<line-break>レムオンには意志がない…。<line-break>レムオンは完全に私のものなの。<line-break>レムオンは私のいいなりの人形。<line-break>私を絶対に否定しませんわ。<line-break>フフ、ウフフ…すてきでしょう？<end>"
-korean = "무슨 말을 해도 소용없어. 레몬에게는 의지가 없어…. 레몬은 완전히 내 거야. 내 말대로 움직이는 인형. 절대로 나를 부정하지 않아. 후후, 우후후… 멋지지?<end>"
+korean = "무슨 말을 해도 소용없어. 레무온에게는 의지가 없어…. 레무온은 완전히 내 거야. 내 말대로 움직이는 인형. 절대로 나를 부정하지 않아. 후후, 우후후… 멋지지?<end>"
 
 ["1330487"]
 japanese = "世界が虚無に帰るまでの短い間だけど、<line-break>あなたにも、こうなってもらうわ。<end>"
@@ -1954,7 +1954,7 @@ korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 
 ["1330492"]
 japanese = "レムオン…まさか…？<line-break>ありえない…！<line-break>ゼネテス、レムオンを処分なさい！<end>"
-korean = "레몬… 설마…? 있을 수 없어…! 제네테스, 레몬을 처리하세요!<end>"
+korean = "레무온… 설마…? 있을 수 없어…! 제네테스, 레무온을 처리하세요!<end>"
 
 ["1330493"]
 japanese = "…<value:$28>…か。<line-break>屋敷に…戻ってきたのなら…<line-break>どうして…俺に会いに来ない…？<line-break>とにかく…お前が…無事で…よかった。<line-break>エストは心配していた…ぞ？<line-break>俺は…、俺は…どうして…こんな…？<end>"
@@ -1986,7 +1986,7 @@ korean = "…티아…나, 그거… 너… 불행한 거… 아니냐?<end>"
 
 ["1330501"]
 japanese = "ゼネテス？<line-break>そんな、ありえない…！<line-break>死んでまで、私を否定する気なの？<line-break>レムオン！<line-break>ゼネテスを片づけて！<end>"
-korean = "제네테스? 그럴 리 없어…! 죽어서까지 나를 부정할 셈이야? 레몬! 제네테스를 처리해!<end>"
+korean = "제네테스? 그럴 리 없어…! 죽어서까지 나를 부정할 셈이야? 레무온! 제네테스를 처리해!<end>"
 
 ["1330502"]
 japanese = "俺も…ついて…るな。<line-break>んな…最期の最期…で…<line-break>お前を…助けられる…なんて…よ。<end>"
@@ -2062,7 +2062,7 @@ korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 
 ["1330522"]
 japanese = "レムオン…まさか…？<line-break>ありえない…！<end>"
-korean = "레몬… 설마…? 그럴 리가…!<end>"
+korean = "레무온… 설마…? 그럴 리가…!<end>"
 
 ["1330523"]
 japanese = "…<value:$28>…か。<line-break>屋敷に…戻ってきたのなら…<line-break>どうして…俺に会いに来ない…？<line-break>とにかく…お前が…無事で…よかった。<line-break>エストは心配していた…ぞ？<line-break>俺は…、俺は…どうして…こんな…？<end>"
@@ -2146,19 +2146,19 @@ korean = "후후후… 자, 제네테스. <value:$28>을 쓰러뜨리고 무한�
 
 ["1330543"]
 japanese = "いらっしゃい、レムオン…。<end>"
-korean = "어서 와, 레몬….<end>"
+korean = "어서 와, 레무온….<end>"
 
 ["1330544"]
 japanese = "いらっしゃい、レムオン…。<end>"
-korean = "어서 와, 레몬….<end>"
+korean = "어서 와, 레무온….<end>"
 
 ["1330545"]
 japanese = "いらっしゃい、レムオン…。<end>"
-korean = "어서 와, 레몬….<end>"
+korean = "어서 와, 레무온….<end>"
 
 ["1330546"]
 japanese = "紹介します。<line-break>こちらは、レムオン・リューガ。<line-break>居場所をなくした、<line-break>かわいそうなダルケニス…。<end>"
-korean = "소개하죠. 이쪽은 레몬 류가. 있을 곳을 잃은 불쌍한 다르케니스….<end>"
+korean = "소개하죠. 이쪽은 레무온 류가. 있을 곳을 잃은 불쌍한 다르케니스….<end>"
 
 ["1330547"]
 japanese = "見るに見かねたので、私が拾って、<line-break>私の人形という居場所をさしあげたの。<line-break>ふふ…ふふふふ…。<end>"
@@ -2170,7 +2170,7 @@ korean = "너에게는 말하자면 감동의 재회 정도려나?<end>"
 
 ["1330549"]
 japanese = "何を言っても無駄ですわよ。<line-break> <line-break> <line-break>レムオン・リューガは、<line-break>私の慈悲で、今は人形として<line-break>付き従っているのですもの。<end>"
-korean = "무슨 말을 해도 소용없어요. 레몬 류가는 제 자비로 지금은 인형이 되어 따르고 있으니까요.<end>"
+korean = "무슨 말을 해도 소용없어요. 레무온 류가는 제 자비로 지금은 인형이 되어 따르고 있으니까요.<end>"
 
 ["1330550"]
 japanese = "彼は、かわいそうなダルケニス…。<line-break> <line-break> <line-break>この世界に、彼の生きる場所はない。<line-break>以前の私にそっくりじゃなくって？<end>"
@@ -2178,7 +2178,7 @@ korean = "그는 불쌍한 다르케니스…. 이 세계에는 그가 살아갈
 
 ["1330551"]
 japanese = "ふふふ…、さあ、レムオン、<line-break><value:$28>を倒し<line-break>その無限のソウルをささげるのです。<end>"
-korean = "후후후… 자, 레몬. <value:$28>을 쓰러뜨리고 그 무한의 소울을 바쳐라.<end>"
+korean = "후후후… 자, 레무온. <value:$28>을 쓰러뜨리고 그 무한의 소울을 바쳐라.<end>"
 
 ["1330552"]
 japanese = "ふふ…よかった。<line-break>人形たちにあなたがやられてしまったら<line-break>どうしようかと思っていました。<line-break>さすがは<value:$28>。<line-break>私が直接手を下す必要が<line-break>あるようですわね…。<end>"
@@ -2194,7 +2194,7 @@ korean = "…너…<value:$28>? <value:$28>…인…거야…?<end>"
 
 ["1330556"]
 japanese = "レムオン…まさか…？<line-break>ありえない…！<line-break>ゼネテス、レムオンを処分なさい！<end>"
-korean = "레몬… 설마…? 있을 수 없어…! 제네테스, 레몬을 처리하세요!<end>"
+korean = "레무온… 설마…? 있을 수 없어…! 제네테스, 레무온을 처리하세요!<end>"
 
 ["1330557"]
 japanese = "…<value:$28>…か。<line-break>屋敷に…戻ってきたのなら…<line-break>どうして…俺に会いに来ない…？<line-break>とにかく…お前が…無事で…よかった。<line-break>エストは心配していた…ぞ？<line-break>俺は…、俺は…どうして…こんな…？<end>"
@@ -2230,7 +2230,7 @@ korean = "…<value:$28>? 나는…?<end>"
 
 ["1330565"]
 japanese = "い、意志を取り戻すだなんて！<line-break>レムオン！<line-break>ゼネテスを片づけて！<end>"
-korean = "의, 의지를 되찾다니! 레몬! 제네테스를 처리해!<end>"
+korean = "의, 의지를 되찾다니! 레무온! 제네테스를 처리해!<end>"
 
 ["1330566"]
 japanese = "俺も…ついて…るな。<line-break>んな…最期の最期…で…<line-break>お前を…助けられる…なんて…よ。<end>"
@@ -2302,7 +2302,7 @@ korean = "…너…<value:$28> <value:$28>…인…거야…?<end>"
 
 ["1330584"]
 japanese = "レムオン…まさか…？<line-break>ありえない…！<end>"
-korean = "레몬… 설마…? 그럴 리가…!<end>"
+korean = "레무온… 설마…? 그럴 리가…!<end>"
 
 ["1330585"]
 japanese = "…<value:$28>…か。<line-break>屋敷に…戻ってきたのなら…<line-break>どうして…俺に会いに来ない…？<line-break>とにかく…お前が…無事で…よかった。<line-break>エストは心配していた…ぞ？<line-break>俺は…、俺は…どうして…こんな…？<end>"
@@ -2394,7 +2394,7 @@ korean = "기다려! 나도 노엘의 동료야! 함께 싸울 거야!<end>"
 
 ["1330607"]
 japanese = "…レムオンさんは<line-break>あなたの娘、カミラの子…。<line-break>あなたのお孫さんなんでしょう？<line-break>…忍びないの、お願い。<line-break>これくらいのことなら、<line-break>竜王様も許してくださるわ。<end>"
-korean = "…레몬 씨는 당신의 딸 카밀라의 아이…. 당신 손자잖아요? …차마 못 보겠어요, 부탁이에요. 이 정도라면 용왕님도 용서해 주실 거예요.<end>"
+korean = "…레무온 씨는 당신의 딸 카밀라의 아이…. 당신 손자잖아요? …차마 못 보겠어요, 부탁이에요. 이 정도라면 용왕님도 용서해 주실 거예요.<end>"
 
 ["1330608"]
 japanese = "…ノエル。<end>"
@@ -2510,7 +2510,7 @@ korean = "그럼 돌아갈까요. 무사한 모습을 모두에게 보여 줘야
 
 ["1330636"]
 japanese = "　　　　　神聖暦<value:$24>年<value:$25>月　　　　<line-break>後に多くの吟遊詩人に歌われるこの騒乱の後<line-break>　　ディンガル帝国とロストール王国は　　<line-break>　　　　　和平条約を締結した。　　　　　<end>"
-korean = "신성력 <value:$24>년 <value:$25>월 후에 수많은 음유시인이 노래하게 될 이 소란 뒤 딩갈 제국과 로스토올 왕국은 평화조약을 체결했다.<end>"
+korean = "신성력 <value:$24>년 <value:$25>월 후에 수많은 음유시인이 노래하게 될 이 소란 뒤 딩갈 제국과 로스톨 왕국은 평화조약을 체결했다.<end>"
 
 ["1330637"]
 japanese = "わしか…？<line-break>わしはイオンズ。<line-break>ここの神官じゃ。<end>"
@@ -2686,7 +2686,7 @@ korean = "알노툰에서 지라크 장군이 반기를 들었다면서.<end>"
 
 ["1330680"]
 japanese = "人間優先の社会に反抗、決起。<line-break>コーンスが支配するコーンスのための<line-break>世界を作るんだってさ…<end>"
-korean = "인간 우선 사회에 반발해서 봉기. 코른스가 지배하는 코른스를 위한 세계를 만들겠다는군….<end>"
+korean = "인간 우선 사회에 반발해서 봉기. 콘스가 지배하는 콘스를 위한 세계를 만들겠다는군….<end>"
 
 ["1330681"]
 japanese = "ナッジは参加したんだよね。<end>"
@@ -2694,11 +2694,11 @@ korean = "나지는 참가했지.<end>"
 
 ["1330682"]
 japanese = "続々とコーンスがアルノートゥンに<line-break>集まってるって。<end>"
-korean = "코른스가 잇따라 알노툰으로 모이고 있대.<end>"
+korean = "콘스가 잇따라 알노툰으로 모이고 있대.<end>"
 
 ["1330683"]
 japanese = "もしも自分がコーンスだったら、<line-break>ぼくも参加したかもしれないよ。<end>"
-korean = "내가 코른스였다면 나도 참가했을지도 몰라.<end>"
+korean = "내가 콘스였다면 나도 참가했을지도 몰라.<end>"
 
 ["1330684"]
 japanese = "ぼくの額に<line-break>つけぼくろがついてるでしょ？<line-break>　<line-break>ルルアンタにも<line-break>他のすべてのリルビーにもついてる…。<line-break>これ…とれないんだ。<end>"
@@ -2818,7 +2818,7 @@ korean = "잘 있어라… 아스티아의 아이여. 감사한다.<end>"
 
 ["1330713"]
 japanese = "　　　　　神聖暦<value:$24>年<value:$25>月　　　　<line-break>後に多くの吟遊詩人に歌われるこの騒乱の後<line-break>　　ディンガル帝国とロストール王国は　　<line-break>　　　　　和平条約を締結した。　　　　　<end>"
-korean = "신성력 <value:$24>년 <value:$25>월 후에 수많은 음유시인이 노래하게 될 이 소란 뒤 딩갈 제국과 로스토올 왕국은 평화조약을 체결했다.<end>"
+korean = "신성력 <value:$24>년 <value:$25>월 후에 수많은 음유시인이 노래하게 될 이 소란 뒤 딩갈 제국과 로스톨 왕국은 평화조약을 체결했다.<end>"
 
 ["1330714"]
 japanese = "<value:$28>さん、<line-break>わたしにはこんなことを言う<line-break>資格はないですけど…<end>"
