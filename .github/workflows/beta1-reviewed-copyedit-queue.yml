@@ -1,0 +1,82 @@
+name: Beta1 reviewed copyedit queue
+
+on:
+  push:
+    branches: [milestone/Beta1]
+    paths:
+      - 'docs/audit/beta1-copyedit-queue.json'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          fetch-depth: 0
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+      - name: Read queue
+        run: |
+          python3 - <<'PY'
+          import json,os
+          q=json.load(open('docs/audit/beta1-copyedit-queue.json',encoding='utf-8'))
+          if not q.get('enabled',True): raise SystemExit('queue disabled')
+          with open(os.environ['GITHUB_ENV'],'a',encoding='utf-8') as f:
+              f.write('MANIFEST='+q['manifest']+'\n')
+              f.write('COMMIT_MESSAGE='+q['commit_message']+'\n')
+              f.write('ALLOW_COMMA_SPACE='+('1' if q.get('allow_comma_space_variance') else '0')+'\n')
+          PY
+      - name: Verify reviewed before-values
+        run: |
+          args=(--manifest "$MANIFEST" --json /tmp/review-before.json)
+          if [ "$ALLOW_COMMA_SPACE" = 1 ]; then args+=(--allow-comma-space-variance); fi
+          python3 tools/korean/apply-multifile-reviewed-copyedit.py "${args[@]}"
+      - name: Apply reviewed values
+        run: |
+          args=(--manifest "$MANIFEST" --apply --json /tmp/review-apply.json)
+          if [ "$ALLOW_COMMA_SPACE" = 1 ]; then args+=(--allow-comma-space-variance); fi
+          python3 tools/korean/apply-multifile-reviewed-copyedit.py "${args[@]}"
+      - name: Synchronize persisted layout lexical content
+        run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-sync.txt
+      - name: Verify expected values and zero layout drift
+        run: |
+          args=(--manifest "$MANIFEST" --json /tmp/review-after.json)
+          if [ "$ALLOW_COMMA_SPACE" = 1 ]; then args+=(--allow-comma-space-variance); fi
+          python3 tools/korean/apply-multifile-reviewed-copyedit.py "${args[@]}"
+          python3 tools/korean/qa-layout-drift.py
+      - name: Require only manifest overlay files changed
+        run: |
+          python3 - <<'PY'
+          import json,os,subprocess
+          m=json.load(open(os.environ['MANIFEST'],encoding='utf-8'))
+          allowed={p for r in m['records'] for p in r['paths']}
+          changed=set(filter(None,subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()))
+          if changed != allowed: raise SystemExit(f'expected {sorted(allowed)}, found {sorted(changed)}')
+          PY
+          git diff --check
+      - name: Per-batch Korean gates
+        run: |
+          python3 tools/korean/audit-korean-glyph-repertoire.py
+          ./zill korean-check
+          ./zill korean-font-check
+          python3 tools/korean/qa-integrity.py --json /tmp/integrity.json --max-examples 20
+          python3 tools/korean/qa-terminology.py --json /tmp/terminology.json --max-examples 20
+          python3 tools/korean/qa-consistency.py --json /tmp/consistency.json --max-examples 20
+          python3 tools/korean/qa-text-sanity.py --json /tmp/sanity.json --max-examples 20
+      - name: English-consumer storage contract
+        run: go test ./internal/release -run TestCurrentKoreanCorpusEnglishConsumerStorageContracts -count=1
+      - name: Commit accepted reviewed batch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/korean/messages
+          git commit -m "$COMMIT_MESSAGE"
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
