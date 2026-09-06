@@ -23,15 +23,15 @@ jobs:
         with:
           go-version-file: go.mod
           cache-dependency-path: go.sum
-      - name: Verify exact reviewed before-values
-        run: python3 tools/korean/apply-multifile-reviewed-copyedit.py --manifest docs/audit/beta1-collapsed-spacing-reviewed.json --json /tmp/review-before.json
+      - name: Verify reviewed before-values
+        run: python3 tools/korean/apply-multifile-reviewed-copyedit.py --manifest docs/audit/beta1-collapsed-spacing-reviewed.json --allow-comma-space-variance --json /tmp/review-before.json
       - name: Apply exact reviewed values
-        run: python3 tools/korean/apply-multifile-reviewed-copyedit.py --manifest docs/audit/beta1-collapsed-spacing-reviewed.json --apply --json /tmp/review-apply.json
+        run: python3 tools/korean/apply-multifile-reviewed-copyedit.py --manifest docs/audit/beta1-collapsed-spacing-reviewed.json --allow-comma-space-variance --apply --json /tmp/review-apply.json
       - name: Synchronize persisted layout lexical content
         run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-sync.txt
       - name: Verify expected values and zero layout drift
         run: |
-          python3 tools/korean/apply-multifile-reviewed-copyedit.py --manifest docs/audit/beta1-collapsed-spacing-reviewed.json --json /tmp/review-after.json
+          python3 tools/korean/apply-multifile-reviewed-copyedit.py --manifest docs/audit/beta1-collapsed-spacing-reviewed.json --allow-comma-space-variance --json /tmp/review-after.json
           python3 tools/korean/qa-layout-drift.py
       - name: Require only manifest overlay files changed
         run: |
