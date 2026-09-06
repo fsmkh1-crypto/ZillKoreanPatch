@@ -47,6 +47,26 @@ class ReviewedCopyeditApplicatorTests(unittest.TestCase):
         self.addCleanup(temp.cleanup)
         return root, manifest, overlay
 
+    def make_override(self, root, reviewed, replacement):
+        override = root / "override.json"
+        override.write_text(
+            json.dumps(
+                {
+                    "overrides": [
+                        {
+                            "id": 10002,
+                            "reviewed_proposed_korean": reviewed,
+                            "replacement_proposed_korean": replacement,
+                            "reason": "consumer storage contract",
+                        }
+                    ]
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        return override
+
     def test_applies_exact_reviewed_value_and_is_idempotent(self):
         root, manifest, overlay = self.make_repo()
         result = apply_reviewed_copyedit.apply_manifest(root, manifest)
@@ -57,6 +77,28 @@ class ReviewedCopyeditApplicatorTests(unittest.TestCase):
         self.assertEqual(second["already_applied_records"], 1)
         verified = apply_reviewed_copyedit.apply_manifest(root, manifest, verify=True)
         self.assertEqual(verified["status"], "VERIFIED_APPLIED")
+
+    def test_applies_audited_override_and_verifies_effective_value(self):
+        before = "긴 문장이다<end>"
+        reviewed = "더 자연스럽지만 긴 문장이다<end>"
+        replacement = "짧고 자연스럽다<end>"
+        root, manifest, overlay = self.make_repo(before=before, after=reviewed)
+        override = self.make_override(root, reviewed, replacement)
+        result = apply_reviewed_copyedit.apply_manifest(root, manifest, overrides_path=override)
+        self.assertEqual(result["changed_records"], 1)
+        self.assertEqual(result["override_records"], 1)
+        self.assertIn(replacement, overlay.read_text(encoding="utf-8"))
+        verified = apply_reviewed_copyedit.apply_manifest(
+            root, manifest, verify=True, overrides_path=override
+        )
+        self.assertEqual(verified["status"], "VERIFIED_APPLIED")
+        self.assertEqual(verified["override_records"], 1)
+
+    def test_refuses_override_if_reviewed_proposal_does_not_match_manifest(self):
+        root, manifest, _ = self.make_repo()
+        override = self.make_override(root, "다른 검토안<end>", "짧은 문장<end>")
+        with self.assertRaisesRegex(ValueError, "reviewed proposal mismatch"):
+            apply_reviewed_copyedit.apply_manifest(root, manifest, overrides_path=override)
 
     def test_refuses_unreviewed_current_value(self):
         root, manifest, overlay = self.make_repo()
