@@ -185,7 +185,7 @@ func TestKoreanC5DialogueMirrorsEnglishVisualReflow(t *testing.T) {
 	if !koreanDialogueUnboundedRuntimeSubstitution(c5FixtureID, "앞 <value:$15> 뒤<end>") {
 		t.Fatal("unproven $15 inline substitution must remain classified as unbounded")
 	}
-	if engine.koreanEnglishDialogueVisualConsumer(c5FixtureID, "앞 <value:$15> 뒤<end>") {
-		t.Fatal("C5 dialogue with unproven inline $15 substitution must stay outside static reflow")
+	if !engine.koreanEnglishDialogueVisualConsumer(c5FixtureID, "앞 <value:$15> 뒤<end>") {
+		t.Fatal("C5 dialogue with unproven inline $15 substitution must remain eligible for static source-aware reflow")
 	}
 }
