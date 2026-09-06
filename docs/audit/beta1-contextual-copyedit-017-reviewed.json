@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "purpose": "Beta1 contextual copyedit 017: replace source-literal -에 의해 passive translationese with source-confirmed natural Korean agency where the pinned English patch likewise restructures actively",
+  "source_head": "fb8d13c4274d482cd533c458246beae54fcd132b",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "560406",
+      "paths": ["translations/korean/messages/msgsec056-part99.toml"],
+      "before_korean": "이 유적은 강대한 힘에 의해 지켜지고 있다. 평범한 자들은 이곳을 발견하는 것조차 못할 것이다.<end>",
+      "proposed_korean": "강대한 힘이 이 유적을 지키고 있다. 평범한 자들은 이곳을 발견하는 것조차 못할 것이다.<end>",
+      "japanese": "この遺跡は強大な力に守られている。<line-break>凡庸な輩は<line-break>ここを見つけることすらできまい。<end>",
+      "english": "A mighty power guards these ruins. Mediocrities could never so much as find this place.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "JP passive structure is naturalized by pinned English into active 'A mighty power guards these ruins.' Korean currently preserves the Japanese -에 의해 passive; switch to the same active subject structure."
+    },
+    {
+      "id": "780001",
+      "paths": ["translations/korean/messages/msgsec078-part99.toml"],
+      "before_korean": "저… 어렸을 때 귀족들 손에 의해 여왕이 될 뻔한 적이 있어요. 셀모노 숙부님 일행에게 귀족들이 반란을 일으킨 사건, 데자와의 변 때 일이에요.<end>",
+      "proposed_korean": "저… 어렸을 때 귀족들이 저를 여왕으로 세우려 한 적이 있어요. 셀모노 숙부님 일행에게 귀족들이 반란을 일으킨 사건, 데자와의 변 때 일이에요.<end>",
+      "japanese": "私…小さいころ、貴族たちの手で<line-break>女王にされそうになったことが<line-break>あるのです。<line-break>セルモノー叔父様たちに対して<line-break>貴族たちが反乱を起こした事件、<line-break>テジャワの変のときのことです。<end>",
+      "english": "When I was little, the nobles once tried to make me queen. It was during the Tejava Incident, when they rebelled against Uncle Selmono and the others.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "JP 貴族たちの手で means the nobles tried to make her queen. Pinned English makes the nobles the active subject. Korean 귀족들 손에 의해 is translationese; use 귀족들이 저를 여왕으로 세우려 한."
+    },
+    {
+      "id": "890247",
+      "paths": ["translations/korean/messages/msgsec089-part99.toml"],
+      "before_korean": "하지만 그것은 임시방편일 뿐이다. 결국 몸 안에서 힘을 키운 마고스에 의해 너는 지옥의 고통을 겪게 되고…<end>",
+      "proposed_korean": "하지만 그것은 임시방편일 뿐이다. 결국 몸 안에서 힘을 키운 마고스가 너에게 지옥의 고통을 안겨 주고…<end>",
+      "japanese": "だが、それは一時しのぎに過ぎぬ。<line-break>やがて、体内で力をつけたマゴスにより<line-break>お前は地獄の苦しみを受け…<end>",
+      "english": "But that is only a temporary reprieve. In time, Magos will grow stronger within your body, and you will suffer the torments of hell...<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "JP マゴスにより and current Korean retain a heavy -에 의해 passive. Pinned English makes Magos the active cause. Use 마고스가 너에게 지옥의 고통을 안겨 주고 to preserve agency and natural Korean flow."
+    },
+    {
+      "id": "1390141",
+      "paths": ["translations/korean/messages/msgsec139-part99.toml"],
+      "before_korean": "알노툰으로 밀려든 토벌군에 의해 지라크는 허무하게 목숨을 잃었다.<end>",
+      "proposed_korean": "알노툰으로 밀려든 토벌군이 지라크의 목숨을 허무하게 앗아 갔다.<end>",
+      "japanese": "アルノートゥンになだれ込んだ<line-break>討伐軍により、ジラークは、<line-break>あっけなくその命を断たれた。<line-break> <end>",
+      "english": "The punitive force poured into Alnortun, and Zsilak was killed with startling ease.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "JP passive narration is rendered actively in pinned English: the punitive force entered and Zsilak was killed. Korean -에 의해 is stiff; make 토벌군 the active subject without changing the event."
+    },
+    {
+      "id": "1390145",
+      "paths": ["translations/korean/messages/msgsec139-part99.toml"],
+      "before_korean": "알노툰으로 밀려든 토벌군에 의해 지라크는 허무하게 목숨을 잃었다.<end>",
+      "proposed_korean": "알노툰으로 밀려든 토벌군이 지라크의 목숨을 허무하게 앗아 갔다.<end>",
+      "japanese": "アルノートゥンになだれ込んだ<line-break>討伐軍により、ジラークは、<line-break>あっけなくその命を断たれた。<line-break><end>",
+      "english": "The punitive force poured into Alnortun, and Zsilak was killed with startling ease.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "Authored duplicate of 1390141; apply the same active Korean narration."
+    },
+    {
+      "id": "1390148",
+      "paths": ["translations/korean/messages/msgsec139-part99.toml"],
+      "before_korean": "<value:$28>에 의해 엔샨트에 숨어 있던 어둠의 세력은 물러났다.<end>",
+      "proposed_korean": "<value:$28>가 엔샨트에 숨어 있던 어둠의 세력을 물리쳤다.<end>",
+      "japanese": "　　<value:$28>によって<line-break>　　エンシャントに潜んでいた闇の勢力は<line-break>　　退けられた。<line-break><end>",
+      "english": "<value:$28> drove back the forces of darkness lurking in Ancient.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "Pinned English explicitly uses active '<value:$28> drove back the forces of darkness'. Korean currently mirrors JP によって passive; use the runtime name as active subject while preserving control topology."
+    },
+    {
+      "id": "1890006",
+      "paths": ["translations/korean/messages/msgsec189-part99.toml"],
+      "before_korean": "후후, 그대의 이름을 알아내는 것쯤은 쉬운 일이지. 다시 나를 찾아오도록 해라. 내가 그대에게 보여 주겠다. 용왕의 손에 의해 이 세계가 얼마나 뒤틀려 왔는지를.<end>",
+      "proposed_korean": "후후, 그대의 이름을 알아내는 것쯤은 쉬운 일이지. 다시 나를 찾아오도록 해라. 내가 그대에게 보여 주겠다. 용왕이 이 세계를 얼마나 뒤틀어 왔는지를.<end>",
+      "japanese": "フフ、汝の名を探るなど容易なこと。<line-break>また余を訪ね来るがよい。<line-break>余は汝に見せてやろう。<line-break>竜王の手によって、<line-break>この世界がいかに<line-break>ゆがめられてきたかを。<end>",
+      "english": "Heh. Discovering your name was easy enough. Come and visit me again. I shall show you how the Dragon King has twisted this world.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "JP 竜王の手によって is rendered in pinned English as active 'the Dragon King has twisted this world.' Korean can directly use 용왕이 ... 뒤틀어 왔는지 instead of 손에 의해."
+    },
+    {
+      "id": "210063",
+      "paths": ["translations/korean/messages/msgsec021-part99.toml"],
+      "before_korean": "로스톨 왕국. 광대한 바이아시온 대륙 남부에 영토를 둔 대국이며 정치는 귀족들에 의해 이루어진다. 그 영지 중 하나에 노블이라는 마을이 있다. 지금 이 작은 마을은 폭정에 맞선 반란의 기운에 휩싸여 있었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>",
+      "proposed_korean": "로스톨 왕국. 광대한 바이아시온 대륙 남부에 영토를 둔 대국이며 귀족들이 정치를 맡고 있다. 그 영지 중 하나에 노블이라는 마을이 있다. 지금 이 작은 마을은 폭정에 맞선 반란의 기운에 휩싸여 있었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>",
+      "japanese": "　　　　　　　ロストール王国。<line-break>　　　広大な大地、バイアシオン大陸の<line-break>　　　　南側に領土を持つ大国であり、<line-break>　　政治は、貴族により執り行われている。<line-break>その領地のひとつに、ノーブルという町がある。<line-break>　　　　　今、このちっぽけな町は<line-break>　暴政に対する反乱の気運でつつまれていた。<line-break>　大いなる魂の物語は、ここから始まる……。<end>",
+      "english": "The Kingdom of Rostorl. A great power whose territory lies in the south of the vast Vyashion Continent, it is governed by the nobility. Among its holdings is a town called Noble. Now this tiny town was filled with the stirrings of rebellion against tyranny. The story of a great soul begins here…<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "Pinned English renders the government relation naturally as 'it is governed by the nobility.' Korean 정치는 귀족들에 의해 이루어진다 is literal passive translationese; 귀족들이 정치를 맡고 있다 is natural and equivalent."
+    }
+  ]
+}
