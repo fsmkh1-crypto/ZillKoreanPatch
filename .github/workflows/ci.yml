@@ -37,7 +37,17 @@ jobs:
       - run: python3 tools/korean/audit-korean-equipment-reuse.py
       - run: python3 tools/korean/audit-untranslated-surfaces.py
       - run: python3 tools/korean/audit-korean-glyph-repertoire.py
-      - run: go test ./...
+      - name: Run Go tests
+        run: |
+          set -o pipefail
+          go test ./... 2>&1 | tee /tmp/go-test.log
+      - name: Upload Go test failure log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: go-test-failure-log
+          path: /tmp/go-test.log
+          if-no-files-found: error
       - run: go vet ./...
       - run: python3 -m py_compile tools/korean/*.py
       - run: python3 -m unittest discover -s tools/korean -p 'test_*.py'
