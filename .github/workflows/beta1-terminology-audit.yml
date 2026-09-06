@@ -1,0 +1,35 @@
+name: Beta1 terminology audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - milestone/Beta1
+    paths:
+      - 'docs/audit/beta1-approved-terminology.json'
+      - 'tools/korean/beta1-terminology-audit.py'
+      - '.github/workflows/beta1-terminology-audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Audit approved terminology against current Korean corpus
+        run: python3 tools/korean/beta1-terminology-audit.py --json /tmp/beta1-terminology-audit.json
+      - name: Print compact summary
+        run: |
+          python3 - <<'PY'
+          import json
+          data=json.load(open('/tmp/beta1-terminology-audit.json',encoding='utf-8'))
+          for d in data['decisions']:
+              print(f"TERM {d['japanese']} -> {d['canonical_korean']} source={d['source_hits']} canonical={d['canonical_hits']} legacy={d['legacy_hits']} unrecognized={d['unrecognized_hits']} legacy_by_value={d['legacy_by_value']}")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: beta1-terminology-audit
+          path: /tmp/beta1-terminology-audit.json
+          retention-days: 30
