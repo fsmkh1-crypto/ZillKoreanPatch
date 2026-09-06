@@ -70,7 +70,7 @@ korean = "카츠 씨! 그 검은 뭔가요! 카츠 씨의 신작인가요!?<end>
 
 ["340017"]
 japanese = "<if><value:$29><equal>%0いや、これは<line-break>せがれが初めて打った剣だ。<end>いや、これは<line-break>娘が初めて打った剣だ。<end>"
-korean = "<if><value:$29><equal>%0아니, 이건아들이 처음 만든 검이야.<end>아니, 이건딸이 처음 만든 검이야.<end>"
+korean = "<if><value:$29><equal>%0아니, 이건 아들이 처음 만든 검이야.<end>아니, 이건 딸이 처음 만든 검이야.<end>"
 
 ["340018"]
 japanese = "そっ、そうなんですかっ！？<line-break>ついに<value:$28>さんも<line-break>一人前にっ！<end>"
