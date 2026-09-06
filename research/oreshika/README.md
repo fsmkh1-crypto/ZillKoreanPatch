@@ -55,12 +55,23 @@ To determine whether it uses:
 
 we need either the exact clean source ISO matching the manifest hash or an extracted final `EBOOT.BIN` from the patched output.
 
+## Reusable PSP Koreanization method
+
+The Oreshika work is also preserved as a **general reconnaissance method for future PSP Koreanization projects**.
+
+The standing rule is to inspect, in order, the game's existing text representation, input/OSK path, renderer/font consumer, and save/load serialization before inventing a custom Hangul renderer or CP932 slot map.
+
+If a game-wide 16-bit/Unicode-capable path is actually proven, reuse or extend that path first. If the game is fundamentally CP932/custom-font keyed like Zill O'll, retain the legacy architecture and use slot remapping only where that is the safer fit.
+
+See `PORTABLE_KOREANIZATION_METHOD.md` for the full decision tree, proof requirements, and validation checklist.
+
 See:
 
 - `ANALYSIS.md` — current technical assessment
 - `PACKAGE_EVIDENCE.md` — recovered-package hashes and QA evidence
 - `XDELTA_FORENSICS.md` — VCDIFF/xdelta structural findings
 - `SOURCES.md` — public evidence and development posts
+- `PORTABLE_KOREANIZATION_METHOD.md` — reusable PSP Koreanization reconnaissance and architecture-selection method
 
 ## Branch isolation
 
