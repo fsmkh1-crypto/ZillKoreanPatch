@@ -7,14 +7,12 @@ import tomllib
 from pathlib import Path
 
 LINE_BREAK = "<line-break>"
-SPACE_RE = re.compile(r"\s+")
 SECTION_RE = re.compile(r'^\["([0-9]+)"\]$')
 CONTROL_RE = re.compile(r"<[^>]+>")
 
-# Characters that must not be stranded at the beginning of a display line.
-# This is intentionally broader than sentence-closing punctuation because Korean
-# layouts can contain Japanese-style punctuation/quotes inherited from source
-# structure or deliberate typography.
+# Characters that should not be newly stranded at the beginning of a display
+# line by lexical synchronization. Pre-existing intentional line starts are not
+# retroactively rejected; the guard is about newly-created break artifacts.
 KINSOKU_LINE_START = set(",，、。.!?！？…」』”’)]）］】〉》・~〜─;；:：")
 
 
@@ -23,15 +21,65 @@ def content_only(text: str) -> str:
     return "".join(ch for ch in text.replace(LINE_BREAK, "") if not ch.isspace())
 
 
-def semantic_spacing_key(text: str) -> str:
-    """Compare semantic text while treating a display break as one whitespace run.
+def _gap_signature(text: str) -> tuple[str, set[int], set[int]]:
+    """Return lexical text plus regular-space and line-break gap positions.
 
-    Unlike content_only(), this deliberately preserves whether lexical tokens are
-    separated. It therefore catches stale persisted layouts after edits such as
-    `,다음` -> `, 다음` while still accepting a semantic space represented by a
-    <line-break> in display layout.
+    A gap position N means a separator occurred after lexical character N-1 and
+    before lexical character N. Display line breaks are allowed inside Korean
+    eojeols, while semantic whitespace must remain represented either by a real
+    layout space or by a display line break.
     """
-    return SPACE_RE.sub(" ", text.replace(LINE_BREAK, " ")).strip()
+    chars = []
+    regular_space_gaps = set()
+    line_break_gaps = set()
+    pending_regular = False
+    pending_break = False
+    i = 0
+    while i < len(text):
+        if text.startswith(LINE_BREAK, i):
+            pending_break = True
+            i += len(LINE_BREAK)
+            continue
+        ch = text[i]
+        if ch.isspace():
+            pending_regular = True
+            i += 1
+            continue
+        if chars:
+            gap = len(chars)
+            if pending_regular:
+                regular_space_gaps.add(gap)
+            if pending_break:
+                line_break_gaps.add(gap)
+        chars.append(ch)
+        pending_regular = False
+        pending_break = False
+        i += 1
+    return "".join(chars), regular_space_gaps, line_break_gaps
+
+
+def spacing_equivalent(korean: str, layout: str) -> bool:
+    """Return True when layout preserves semantic whitespace without forbidding
+    legitimate line breaks inside an eojeol.
+
+    Rules:
+    - lexical/control content must match;
+    - every semantic Korean whitespace boundary must be represented in layout by
+      either whitespace or a display break;
+    - layout may add display breaks inside an eojeol;
+    - layout may not add ordinary spaces where Korean has no semantic separator.
+    """
+    k_chars, k_spaces, k_breaks = _gap_signature(korean)
+    l_chars, l_spaces, l_breaks = _gap_signature(layout)
+    if k_chars != l_chars:
+        return False
+    required = k_spaces | k_breaks
+    represented = l_spaces | l_breaks
+    if not required.issubset(represented):
+        return False
+    if not l_spaces.issubset(required):
+        return False
+    return True
 
 
 def changes(korean: str, layout: str):
@@ -63,8 +111,12 @@ def layout_content_with_positions(layout: str):
 
 def _visible_line(line: str) -> str:
     line = line.replace("<end>", "")
-    # Control tokens do not themselves make punctuation legal at line start.
     return CONTROL_RE.sub("", line)
+
+
+def _line_start_char(line: str) -> str:
+    visible = _visible_line(line).lstrip()
+    return visible[0] if visible else ""
 
 
 def assert_layout_postconditions(original: str, result: str) -> None:
@@ -81,12 +133,17 @@ def assert_layout_postconditions(original: str, result: str) -> None:
 
     for index, line in enumerate(after):
         visible = _visible_line(line)
-        if visible and (visible[0].isspace() or visible[-1].isspace()):
+        before_visible = _visible_line(before[index])
+        before_edge_space = bool(before_visible and (before_visible[0].isspace() or before_visible[-1].isspace()))
+        after_edge_space = bool(visible and (visible[0].isspace() or visible[-1].isspace()))
+        if after_edge_space and not before_edge_space:
             raise ValueError(f"layout sync introduced edge whitespace on line {index + 1}")
-        stripped = visible.lstrip()
-        if stripped and stripped[0] in KINSOKU_LINE_START:
+
+        before_start = _line_start_char(before[index])
+        after_start = _line_start_char(line)
+        if after_start in KINSOKU_LINE_START and before_start != after_start:
             raise ValueError(
-                f"layout sync stranded prohibited line-start character {stripped[0]!r} on line {index + 1}"
+                f"layout sync stranded prohibited line-start character {after_start!r} on line {index + 1}"
             )
 
 
@@ -141,7 +198,7 @@ def sync_layout_content(korean: str, layout: str) -> str:
         result = result[:start] + replacement + result[end:]
     if content_only(result) != content_only(korean):
         raise ValueError("content sync did not converge to Korean semantic text")
-    if semantic_spacing_key(result) != semantic_spacing_key(korean):
+    if not spacing_equivalent(korean, result):
         raise ValueError("content sync did not preserve semantic whitespace; invalidate/reflow instead")
     assert_layout_postconditions(layout, result)
     return result
@@ -203,7 +260,7 @@ def main() -> int:
             if not layout:
                 continue
             persisted += 1
-            if semantic_spacing_key(korean) == semantic_spacing_key(layout):
+            if spacing_equivalent(korean, layout):
                 continue
             drift_count += 1
             stale_ids.add(str(key))
