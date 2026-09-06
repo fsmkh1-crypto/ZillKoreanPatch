@@ -1,0 +1,728 @@
+{
+  "version": 1,
+  "purpose": "Beta1 contextual copyedit 006: repair source-line-break word concatenation, two wrong particles and Dyneskal typo",
+  "source_head": "5a7ace8ef25d88fcacd3c802504adfafd7e9c482",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "440039",
+      "paths": [
+        "translations/korean/messages/msgsec044-part99.toml"
+      ],
+      "before_korean": "청룡장군 각하의 엄명에 따라이곳에는 아무도 들일 수 없다. 자, 썩 물러가라!<end>",
+      "proposed_korean": "청룡장군 각하의 엄명에 따라 이곳에는 아무도 들일 수 없다. 자, 썩 물러가라!<end>",
+      "japanese": "青竜将軍閣下の厳命により<line-break>ここには誰も入れられん。　　　<line-break>さあ、散れ散れ！<end>",
+      "english": "By strict order of His Excellency the Azure Dragon General, no one may enter. Now move along!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1410137",
+      "paths": [
+        "translations/korean/messages/msgsec141-part99.toml"
+      ],
+      "before_korean": "앞으로도 변함없이제 곁에 있어 주실 거죠? 변함없는 강함과 멋진 늠름함을, 이 아트레이아에게보여 주실 거죠?<end>",
+      "proposed_korean": "앞으로도 변함없이 제 곁에 있어 주실 거죠? 변함없는 강함과 멋진 늠름함을 이 아트레이아에게 보여 주실 거죠?<end>",
+      "japanese": "これからも、変わらず<line-break>私の隣にいてくださいますよね？　<line-break> <line-break>変わらぬ強さと素敵なりりしさを、<line-break>このアトレイアに<line-break>示してくださいますよね？<end>",
+      "english": "You'll stay by my side just as you always have, won't you? And you'll continue to show this Atleia your unwavering strength and noble bearing, won't you?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "2410007",
+      "paths": [
+        "translations/korean/messages/msgsec241-part99.toml"
+      ],
+      "before_korean": "으음, 무례한 여자 고브. 초면인 우리에게대놓고 업신여기는 고브.<end>",
+      "proposed_korean": "으음, 무례한 여자 고브. 초면인 우리를 대놓고 업신여기는 고브.<end>",
+      "japanese": "むむっ、失敬な女ゴブ。<line-break>初対面の我々に向かって<line-break>あからさまな侮蔑ゴブ。<end>",
+      "english": "Hmph! What an insolent woman, gob. Openly insulting us the moment we meet!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "particle"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Use the object particle with 업신여기다 / consonant-ending 이즈키얄과."
+    },
+    {
+      "id": "550243",
+      "paths": [
+        "translations/korean/messages/msgsec055-part99.toml"
+      ],
+      "before_korean": "아니면 그 노엘이라는여자아이인가?<end>",
+      "proposed_korean": "아니면 그 노엘이라는 여자아이인가?<end>",
+      "japanese": "それとも、あのノエルって<line-break>女の子かな？<end>",
+      "english": "Or was it that girl, Noel?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1680003",
+      "paths": [
+        "translations/korean/messages/msgsec168-part99.toml"
+      ],
+      "before_korean": "카를라가 다가오고 있는데, 궁정의 권력 다툼이냐며어이없어하는 건가? 후후, 나도 어이없다. 하지만 어리석은 줄 알아도, 해야만 하는 일도 있는 법이지.<end>",
+      "proposed_korean": "카를라가 다가오고 있는데 궁정의 권력 다툼이냐며 어이없어하는 건가? 후후, 나도 어이없다. 하지만 어리석은 줄 알아도 해야만 하는 일도 있는 법이지.<end>",
+      "japanese": "カルラが迫っておるのに、<line-break>宮廷の勢力争いかと<line-break>あきれておるのか？<line-break>フフ、私もあきれておる。<line-break>だが、愚かと知っていても、<line-break>やらざるを得ぬ事もある。<end>",
+      "english": "Are you appalled that, with Karula closing in, we are still engaged in a court power struggle? Heh, so am I. But there are things one must do even knowing they are foolish.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "420209",
+      "paths": [
+        "translations/korean/messages/msgsec042-part99.toml"
+      ],
+      "before_korean": "파괴신 울그의 원탁기사아르길샤이어다. 아르길샤이어는 강한 합성괴물을만들어서, 세계를 재미 삼아파괴하려고 하고 있어.<end>",
+      "proposed_korean": "파괴신 울그의 원탁기사 아르길샤이어다. 아르길샤이어는 강한 합성괴물을 만들어서 세계를 재미 삼아 파괴하려고 하고 있어.<end>",
+      "japanese": "破壊神ウルグの円卓騎士<line-break>アーギルシャイアだ。<line-break>　<line-break>アーギルシャイアは、強い合成怪物を<line-break>作って、世界をおもしろ半分に<line-break>破壊しようと考えてやがる。<end>",
+      "english": "Argyleshire, a Knight of the Round Table serving Ulugh, the God of Destruction. She's planning to create a powerful hybrid monster and destroy the world for amusement.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "260146",
+      "paths": [
+        "translations/korean/messages/msgsec026-part99.toml"
+      ],
+      "before_korean": "성배를 가진 고블린 셋은고브고브단이라고 한다며. 그리고 대화도 할 수 있지? 잘 부탁해서 성배를 넘겨받을 수 없을까?<end>",
+      "proposed_korean": "성배를 가진 고블린 셋은 고브고브단이라고 한다며. 그리고 대화도 할 수 있지? 잘 부탁해서 성배를 넘겨받을 수 없을까?<end>",
+      "japanese": "聖杯を持っているゴブリン３匹は<line-break>ゴブゴブ団って名乗ってるんだよね。<line-break>それでね、お話できるんでしょ。<line-break>なんとかお願いして、聖杯を渡して<line-break>もらえないかなぁ。<end>",
+      "english": "The three Goblins with the Grail call themselves the Gob-Gob Gang, right? And they can talk, can't they? Maybe we could ask nicely and persuade them to give us the Grail.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "260210",
+      "paths": [
+        "translations/korean/messages/msgsec026-part99.toml"
+      ],
+      "before_korean": "성배를 가진 고블린 셋은고브고브단이라고 한다며. 그리고 대화도 할 수 있지? 잘 부탁해서 성배를 넘겨받을 수 없을까?<end>",
+      "proposed_korean": "성배를 가진 고블린 셋은 고브고브단이라고 한다며. 그리고 대화도 할 수 있지? 잘 부탁해서 성배를 넘겨받을 수 없을까?<end>",
+      "japanese": "聖杯を持っているゴブリン３匹は<line-break>ゴブゴブ団って名乗ってるんだよね。<line-break>それでね、お話できるんでしょ。<line-break>なんとかお願いして、聖杯を渡して<line-break>もらえないかなぁ。<end>",
+      "english": "The three Goblins with the Grail call themselves the Gob-Gob Gang, right? And they can talk, can't they? Maybe we could ask nicely and somehow persuade them to hand over the Grail.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "920082",
+      "paths": [
+        "translations/korean/messages/msgsec092-part99.toml"
+      ],
+      "before_korean": "미안하구나. 나는 아무래도 이 앞으론 나아갈 수가 없다. 너희끼리 가거라. 또 내 힘이 필요하다면미안하지만 한 번 더 불러 다오.<end>",
+      "proposed_korean": "미안하구나. 나는 아무래도 이 앞으론 나아갈 수가 없다. 너희끼리 가거라. 또 내 힘이 필요하다면 미안하지만 한 번 더 불러 다오.<end>",
+      "japanese": "すまぬ。わしにはどうしても　　　<line-break>この先へ進むことができん。<line-break>お主らだけで行ってくれ。<line-break>また、わしで力になれるなら<line-break>すまんがもう一度呼び出してくれ。<end>",
+      "english": "I'm sorry. I simply cannot go any farther. Go on without me. If I can be of help again, forgive me, but call me back.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "2570009",
+      "paths": [
+        "translations/korean/messages/msgsec257-part99.toml"
+      ],
+      "before_korean": "…이게 옛이야기에나 나오는다르케니스의 흡혈 충동이라는 건가. 괴롭겠군…. 지금까지 계속 혼자 그 고통을안고 살아온 거구나, 너는….<end>",
+      "proposed_korean": "…이게 옛이야기에나 나오는 다르케니스의 흡혈 충동이라는 건가. 괴롭겠군…. 지금까지 계속 혼자 그 고통을 안고 살아온 거구나, 너는….<end>",
+      "japanese": "…こいつが昔話なんかに出てくる<line-break>ダルケニスの吸血衝動ってやつか。<line-break>キツそうだな…。<line-break>今までずっと、ひとりでその苦しみを<line-break>抱えてきたんだな、お前は…。<end>",
+      "english": "So this is that Darkenith urge to drink blood from the old tales. Looks rough... You've been carrying this torment alone all this time, haven't you?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1240171",
+      "paths": [
+        "translations/korean/messages/msgsec124-part99.toml"
+      ],
+      "before_korean": "너도 나처럼오르파우스의 말을 믿는 거지? 그럼 당장 가자고. 너무 꾸물거리다가는, 사룡이 깨어날지도 몰라.<end>",
+      "proposed_korean": "너도 나처럼 오르파우스의 말을 믿는 거지? 그럼 당장 가자고. 너무 꾸물거리다가는 사룡이 깨어날지도 몰라.<end>",
+      "japanese": "お前さんも俺と同じで<line-break>オルファウスの話を信じてるんだろ？<line-break>なら、さっそく行こうじゃないか。<line-break>あんまりぐずぐずしてっと、<line-break>邪竜が目覚めるかもしれんぞ。<end>",
+      "english": "You believe Orphaus just as I do, don't you? Then let's leave at once. If we dawdle too long, the Evil Dragon may awaken.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "630226",
+      "paths": [
+        "translations/korean/messages/msgsec063-part99.toml"
+      ],
+      "before_korean": "벌써 소문이 났을지도모르겠어요.<end>",
+      "proposed_korean": "벌써 소문이 났을지도 모르겠어요.<end>",
+      "japanese": "もう噂になっているかも<line-break>しれなくてよ。<end>",
+      "english": "It may already be making the rounds.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "980172",
+      "paths": [
+        "translations/korean/messages/msgsec098-part99.toml"
+      ],
+      "before_korean": "좋은 아침, <value:$28>. 오늘도 날씨가 좋네. 조심해서 다녀와. 네 여행을자애의 여신 라이라네트께서지켜 주시기를.<end>",
+      "proposed_korean": "좋은 아침, <value:$28>. 오늘도 날씨가 좋네. 조심해서 다녀와. 네 여행을 자애의 여신 라이라네트께서 지켜 주시기를.<end>",
+      "japanese": "おはよう、<value:$28>。<line-break>今日もいい天気だわ。<line-break>気をつけて、行ってらっしゃい。<line-break>あなたの旅を<line-break>慈愛の女神ライラネートが<line-break>お守りになりますように。<end>",
+      "english": "Good morning, <value:$28>. Another beautiful day. Take care, and have a safe journey. May Lailanate, Goddess of Compassion, watch over you on your travels.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "2640046",
+      "paths": [
+        "translations/korean/messages/msgsec264-part99.toml"
+      ],
+      "before_korean": "…아무것도 아니야. 그저 질리온이 무사하기를기도하고 있었을 뿐이야.<end>",
+      "proposed_korean": "…아무것도 아니야. 그저 질리온이 무사하기를 기도하고 있었을 뿐이야.<end>",
+      "japanese": "…何でもないわ。<line-break>ただジリオンが無事でいてくれるよう<line-break>祈っていただけ。<end>",
+      "english": "It's nothing. I was only praying that Zillion is safe.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1370705",
+      "paths": [
+        "translations/korean/messages/msgsec137-part99.toml"
+      ],
+      "before_korean": "당신은 물 속성 상대에게압도적으로 유리하게 싸울 수 있고, 불 속성 피해를크게 줄일 수 있습니다. 이건 매우 유익한 효과입니다.<end>",
+      "proposed_korean": "당신은 물 속성 상대에게 압도적으로 유리하게 싸울 수 있고, 불 속성 피해를 크게 줄일 수 있습니다. 이건 매우 유익한 효과입니다.<end>",
+      "japanese": "あなたは水属性の相手に対して<line-break>圧倒的に有利に戦うことができ、<line-break>　<line-break>火属性のダメージを<line-break>大幅に軽減することができます。<line-break>これは大変有益なことです。<end>",
+      "english": "You would have an overwhelming advantage against a Water-element opponent, while greatly reducing the Fire-element damage you suffer. This can be extremely useful.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1350580",
+      "paths": [
+        "translations/korean/messages/msgsec135-part99.toml"
+      ],
+      "before_korean": "<select><value:$20>%3…오빠는우리에게만은 다정했어. 정말로.<end>정말 걱정돼. 있지, <value:$28>, 정말 아무 정보도 없어?<end>걱정되네…<end>",
+      "proposed_korean": "<select><value:$20>%3…오빠는 우리에게만은 다정했어. 정말로.<end>정말 걱정돼. 있지, <value:$28>, 정말 아무 정보도 없어?<end>걱정되네…<end>",
+      "japanese": "<select><value:$20>%3…お兄ちゃんは<line-break>私たちにだけはやさしかったんだ。<line-break>すごく、ね。<end>すごく心配だよ。<line-break>ねえ、<value:$28>、<line-break>本当に何も情報ない？<end>心配、だな…<end>",
+      "english": "<select><value:$20>%3My brother was only ever kind to us. Very kind.<end>I'm so worried. Hey, <value:$28>, are you sure you haven't heard anything?<end>I'm worried...<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "2590002",
+      "paths": [
+        "translations/korean/messages/msgsec259-part99.toml"
+      ],
+      "before_korean": "통신기라고 합니다. 멀리 떨어져 있어도대화할 수 있는 편리한 물건이죠. 태고 문명의 유물인데, 네모가 숨겨 가지고 있길래빼앗았습니다.<end>",
+      "proposed_korean": "통신기라고 합니다. 멀리 떨어져 있어도 대화할 수 있는 편리한 물건이죠. 태고 문명의 유물인데, 네모가 숨겨 가지고 있길래 빼앗았습니다.<end>",
+      "japanese": "通信機といいます。<line-break>離れた場所にいても<line-break>会話できる便利な物ですよ。<line-break>太古の文明の遺物なんですが、<line-break>ネモが隠し持っていたんで<line-break>取りあげたんです。<end>",
+      "english": "It's called a communicator. A handy device that lets you speak with someone even at a distance. It's a relic of an ancient civilization, but Nemo had it hidden away, so I confiscated it.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "720050",
+      "paths": [
+        "translations/korean/messages/msgsec072-part99.toml"
+      ],
+      "before_korean": "어머, 무서워라. 후훗, 그럼 나도 내가 원하는 걸같은 방법으로 받아 가겠어. 내가 조종하는 절친에게살해당하는 굴욕적인 죽음을 말이야.<end>",
+      "proposed_korean": "어머, 무서워라. 후훗, 그럼 나도 내가 원하는 걸 같은 방법으로 받아 가겠어. 내가 조종하는 절친에게 살해당하는 굴욕적인 죽음을 말이야.<end>",
+      "japanese": "まあ、こわい。<line-break>くすっ、じゃあ、私も私の欲しいものを<line-break>同じ方法でいただくことにするわ。<line-break>私が操っている親友に<line-break>殺されるという屈辱的な死をね。<end>",
+      "english": "My, how frightening. Heh. Then I think I'll help myself to what I want in the same way: your humiliating death at the hands of the best friend under my control.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1860070",
+      "paths": [
+        "translations/korean/messages/msgsec186-part99.toml"
+      ],
+      "before_korean": "제네테스 씨군요. 저는 루루안타. 그리고 <value:$28>.<end>아까는 정말로고마웠어요오.<end>",
+      "proposed_korean": "제네테스 씨군요. 저는 루루안타. 그리고 <value:$28>.<end>아까는 정말로 고마웠어요오.<end>",
+      "japanese": "ゼネテスさんね。<line-break>私はルルアンタ。　　　　　<line-break>それと<value:$28>。<end>さっきは本当に<line-break>ありがとうございましたぁ。<end>",
+      "english": "Xenetes, then. I'm Lulluantha, and this is <value:$28>.<end>Thank you so much for saving us.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "2620002",
+      "paths": [
+        "translations/korean/messages/msgsec262-part99.toml"
+      ],
+      "before_korean": "그 사람, 혹시알노툰의이온즈 씨 아닐까.<end>",
+      "proposed_korean": "그 사람, 혹시 알노툰의 이온즈 씨 아닐까.<end>",
+      "japanese": "その人って、もしかすると<line-break>アルノートゥンの<line-break>イオンズさんじゃないかな。<end>",
+      "english": "Could the man she was looking for be Ions of Alnortun?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1370457",
+      "paths": [
+        "translations/korean/messages/msgsec137-part99.toml"
+      ],
+      "before_korean": "그래서 고블린들의거처를 찾고 있긴 한데, 아직 알아내지 못했어. 그걸 알게 되면, 네 힘도 빌릴 것 같은데, 해 줄래?<end>",
+      "proposed_korean": "그래서 고블린들의 거처를 찾고 있긴 한데, 아직 알아내지 못했어. 그걸 알게 되면 네 힘도 빌릴 것 같은데 해 줄래?<end>",
+      "japanese": "そこで、ゴブリンどもの<line-break>居場所を探っちゃいるんだが、<line-break>まだ突き止められてねえ。<line-break>それがわかったら、<line-break>お前の力も借りると思うが、<line-break>やってくれるか？<end>",
+      "english": "So I've been trying to find out where those goblins are holed up, but no luck yet. Once I track them down, I'll probably need your help. Will you do it?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "1240041",
+      "paths": [
+        "translations/korean/messages/msgsec124-part99.toml"
+      ],
+      "before_korean": "누나, 에스트 녀석한테부탁해서 어둠의 신기를 받아 줘. 그 녀석 누나 부탁이라면 거절 못 해. 하지만 녀석이 어디 있는지 찾는 게힘들단 말이지.<end>",
+      "proposed_korean": "누나, 에스트 녀석한테 부탁해서 어둠의 신기를 받아 줘. 그 녀석 누나 부탁이라면 거절 못 해. 하지만 녀석이 어디 있는지 찾는 게 힘들단 말이지.<end>",
+      "japanese": "姉ちゃん、エストのやつに<line-break>頼んで闇の神器をもらってくれよ。<line-break>あいつ姉ちゃんの頼みなら断れないよ。<line-break>だけど、あいつの居場所を探すのが<line-break>大変なんだよな。<end>",
+      "english": "Sis, ask Est to give us the dark artifact. He could never refuse you. Finding out where he is will be the hard part, though.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "700262",
+      "paths": [
+        "translations/korean/messages/msgsec070-part99.toml"
+      ],
+      "before_korean": "아야! 정말! 그냥 남매끼리 친목을 다지려고얘기하러 온 것뿐이잖아! 왜 바로 손부터 나가는 거야! 바보가 되면 누나 책임이야!<end>",
+      "proposed_korean": "아야! 정말! 그냥 남매끼리 친목을 다지려고 얘기하러 온 것뿐이잖아! 왜 바로 손부터 나가는 거야! 바보가 되면 누나 책임이야!<end>",
+      "japanese": "いったあ！　もう！<line-break>単に姉弟の親睦を深めようと<line-break>会話しに来ただけじゃんかよ！　　　<line-break>どうして、すぐ手が出るかなー！<line-break>バカになったら姉ちゃんのせいだぜ！<end>",
+      "english": "Ow! Come on! I just came over to talk and strengthen our brother-sister bond! Why are you so quick to hit me? If I end up stupid, it'll be your fault!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "560860",
+      "paths": [
+        "translations/korean/messages/msgsec056-part99.toml"
+      ],
+      "before_korean": "나는 그 애와 달리그런 일에 이해가 있거든. 있지, 내 종이 돼서데스기가스를 훨씬 뛰어넘는궁극 생물을 만들어 보지 않을래?<end>",
+      "proposed_korean": "나는 그 애와 달리 그런 일에 이해가 있거든. 있지, 내 종이 돼서 데스기가스를 훨씬 뛰어넘는 궁극 생물을 만들어 보지 않을래?<end>",
+      "japanese": "私はあの娘と違って<line-break>そういうことに理解があるの。<line-break> <line-break>ねえ、私の下僕になって<line-break>デスギガースをはるかに上回る<line-break>究極生物を作ってみないかしら？<end>",
+      "english": "Unlike that girl, I appreciate that sort of thing. How would you like to become my servant and create an Ultimate Life-Form that far surpasses Death Gigas?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "560890",
+      "paths": [
+        "translations/korean/messages/msgsec056-part99.toml"
+      ],
+      "before_korean": "나는 그 애와 달리그런 일에 이해가 있거든. 있지, 내 종이 돼서데스기가스를 훨씬 뛰어넘는궁극 생물을 만들어 보지 않을래?<end>",
+      "proposed_korean": "나는 그 애와 달리 그런 일에 이해가 있거든. 있지, 내 종이 돼서 데스기가스를 훨씬 뛰어넘는 궁극 생물을 만들어 보지 않을래?<end>",
+      "japanese": "私はあの娘と違って<line-break>そういうことに理解があるの。<line-break> <line-break>ねえ、私の下僕になって<line-break>デスギガースをはるかに上回る<line-break>究極生物を作ってみないかしら？<end>",
+      "english": "Unlike that girl, I appreciate that sort of thing. How would you like to become my servant and create an Ultimate Life-Form that far surpasses Death Gigas?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1830037",
+      "paths": [
+        "translations/korean/messages/msgsec183-part99.toml"
+      ],
+      "before_korean": "지금 아큐류스가 딩갈에게공격받을 것 같아서, 용병을 모집하고 있어. 보수는 전투마다 지급한다더군. 어때? 해 볼래?<end>",
+      "proposed_korean": "지금 아큐류스가 딘갈에게 공격받을 것 같아서 용병을 모집하고 있어. 보수는 전투마다 지급한다더군. 어때? 해 볼래?<end>",
+      "japanese": "今、アキュリュースがディンガルに<line-break>攻められそうになっててな、<line-break>傭兵を募集しているんだよ。<line-break>報酬は１戦ごとに払うらしい。<line-break>どうだい？　やってみるかい？<end>",
+      "english": "Aqyurius is in danger of being attacked by Dyneskal and is recruiting mercenaries. Apparently, the pay is per battle. What do you say? Want to give it a try?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation",
+        "terminology"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation. Japanese ディンガル / English Dyneskal identifies established 딘갈; repair 딩갈 typo."
+    },
+    {
+      "id": "1680008",
+      "paths": [
+        "translations/korean/messages/msgsec168-part99.toml"
+      ],
+      "before_korean": "티아나도 레무온을오빠처럼 따르고 있지만, 그 이상의 감정은 없어…. 그 타르튜바 사건으로, 레무온도 드디어 그걸알게 된 모양이야.<end>",
+      "proposed_korean": "티아나도 레무온을 오빠처럼 따르고 있지만 그 이상의 감정은 없어…. 그 타르튜바 사건으로 레무온도 드디어 그걸 알게 된 모양이야.<end>",
+      "japanese": "ティアナもレムオンを<line-break>兄のように慕っているが、<line-break>それ以上の感情はない…。<line-break>あのタルテュバの一件で、<line-break>レムオンにもようやくそれが<line-break>わかったようだ。<end>",
+      "english": "Tiana is fond of Lemghon as an older brother, but she feels nothing more for him. It seems that business with Tartuba finally made Lemghon understand.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "1680015",
+      "paths": [
+        "translations/korean/messages/msgsec168-part99.toml"
+      ],
+      "before_korean": "티아나도 레무온을오빠처럼 따르고 있지만, 그 이상의 감정은 없어…. 그 타르튜바 사건으로, 레무온도 드디어 그걸알게 된 모양이야.<end>",
+      "proposed_korean": "티아나도 레무온을 오빠처럼 따르고 있지만 그 이상의 감정은 없어…. 그 타르튜바 사건으로 레무온도 드디어 그걸 알게 된 모양이야.<end>",
+      "japanese": "ティアナもレムオンを<line-break>兄のように慕っているが、<line-break>それ以上の感情はない…。<line-break>あのタルテュバの一件で、<line-break>レムオンにもようやくそれが<line-break>わかったようだ。<end>",
+      "english": "Tiana is fond of Lemghon as an older brother, but she feels nothing more for him. It seems that business with Tartuba finally made Lemghon understand.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "1360111",
+      "paths": [
+        "translations/korean/messages/msgsec136-part99.toml"
+      ],
+      "before_korean": "현재 봉사님께서 홀로이즈키얄와 그 소년 마도사를추적하고 계십니다.<end>",
+      "proposed_korean": "현재 봉사님께서 홀로 이즈키얄과 그 소년 마도사를 추적하고 계십니다.<end>",
+      "japanese": "現在、封士様が単身<line-break>イズキヤルとその少年魔道士を<line-break>追っているところです。<end>",
+      "english": "The Sealer is now pursuing Izkiyal and the young mage alone.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "particle"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Use the object particle with 업신여기다 / consonant-ending 이즈키얄과."
+    },
+    {
+      "id": "1760104",
+      "paths": [
+        "translations/korean/messages/msgsec176-part99.toml"
+      ],
+      "before_korean": "마지막에 의지할 건 자기 감이야. 나는 그걸 못해서 모험가를그만둬야 했지. 자네는 나보다 훌륭한 모험가가될 것 같구먼.<end>",
+      "proposed_korean": "마지막에 의지할 건 자기 감이야. 나는 그걸 못해서 모험가를 그만둬야 했지. 자네는 나보다 훌륭한 모험가가 될 것 같구먼.<end>",
+      "japanese": "最後に頼るのは自分の勘よぉ。<line-break>わしは、それができんで冒険者を<line-break>やめにゃあいけんようになった。<line-break>われは、わし以上の冒険者に<line-break>なれそうじゃのう。<end>",
+      "english": "In the end, you have to trust your own instincts. I couldn't do that, and it cost me my life as an adventurer. You may well become a better adventurer than I ever was.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1980173",
+      "paths": [
+        "translations/korean/messages/msgsec198-part99.toml"
+      ],
+      "before_korean": "하지만…. 조금만, 정말 조금만 더, 함께 있게 해 주세요. 별로 도움이 되지 못할지도모르지만, 저…. 최선을 다해 노력할게요.<end>",
+      "proposed_korean": "하지만…. 조금만, 정말 조금만 더 함께 있게 해 주세요. 별로 도움이 되지 못할지도 모르지만, 저…. 최선을 다해 노력할게요.<end>",
+      "japanese": "でも…。<line-break>あと、ほんのもう少しだけ、<line-break>ご一緒させてください。<line-break>あまり、お役には立てないかも<line-break>しれませんけど、私…。<line-break>一生懸命、がんばりますから。<end>",
+      "english": "But... please let me stay with you just a little longer. I may not be much help, but... I'll do my very best.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "2310006",
+      "paths": [
+        "translations/korean/messages/msgsec231-part99.toml"
+      ],
+      "before_korean": "…그럼 말할게. 우리, 세라하고 좀처럼 친해지질 못해서곤란하거든.<end>",
+      "proposed_korean": "…그럼 말할게. 우리, 세라하고 좀처럼 친해지질 못해서 곤란하거든.<end>",
+      "japanese": "…そんなら言うけど、俺たち<line-break>セラとなかなかなじめなくて<line-break>困ってんだ。<end>",
+      "english": "Fine, then. The trouble is, we just can't seem to get close to Sera.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1720057",
+      "paths": [
+        "translations/korean/messages/msgsec172-part99.toml"
+      ],
+      "before_korean": "그건 안 됩니다! 이크레문 님은 언젠가 물의 무녀로서정령신을 섬기실 분. 그런 정체 모를 자에게넘기는 것은 결코 허락할 수 없습니다!<end>",
+      "proposed_korean": "그건 안 됩니다! 이크레문 님은 언젠가 물의 무녀로서 정령신을 섬기실 분. 그런 정체 모를 자에게 넘기는 것은 결코 허락할 수 없습니다!<end>",
+      "japanese": "それはなりませぬ！<line-break>イークレムン様はいずれ水の巫女として<line-break>精霊神に仕えるお方。<line-break>そのような得体の知れぬ者に<line-break>渡すことは、決して許されませぬ！<end>",
+      "english": "We cannot allow that! Lady Iiklmn is destined to serve the spirit god as the Priestess of Water. We will never hand her over to some suspicious stranger!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1840042",
+      "paths": [
+        "translations/korean/messages/msgsec184-part99.toml"
+      ],
+      "before_korean": "그건 안 됩니다! 이크레문 님은 언젠가 물의 무녀로서정령신을 섬기실 분. 그런 정체 모를 자에게넘기는 것은 결코 허락할 수 없습니다!<end>",
+      "proposed_korean": "그건 안 됩니다! 이크레문 님은 언젠가 물의 무녀로서 정령신을 섬기실 분. 그런 정체 모를 자에게 넘기는 것은 결코 허락할 수 없습니다!<end>",
+      "japanese": "それはなりませぬ！<line-break>イークレムン様はいずれ水の巫女として<line-break>精霊神に仕えるお方。<line-break>そのような得体の知れぬ者に<line-break>渡すことは、決して許されませぬ！<end>",
+      "english": "Absolutely not! Lady Iiklmn is destined to serve the spirit god as the Priestess of Water. We will never surrender her to some suspicious stranger!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "230009",
+      "paths": [
+        "translations/korean/messages/msgsec023-part99.toml"
+      ],
+      "before_korean": "이미 알지도 모르지만, 얀바이초를가지고 있으면 환각 상태가 돼.<end>",
+      "proposed_korean": "이미 알지도 모르지만 얀바이초를 가지고 있으면 환각 상태가 돼.<end>",
+      "japanese": "もう知ってるかもしれないが、ヤンバイ草を<line-break>持ってると、幻覚状態になっちまうんだ。<end>",
+      "english": "You may already know this, but carrying a Yanbai Herb afflicts you with Hallucination.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "240009",
+      "paths": [
+        "translations/korean/messages/msgsec024-part99.toml"
+      ],
+      "before_korean": "이미 알지도 모르지만, 얀바이초를가지고 있으면 환각 상태가 돼.<end>",
+      "proposed_korean": "이미 알지도 모르지만 얀바이초를 가지고 있으면 환각 상태가 돼.<end>",
+      "japanese": "もう知ってるかもしれないが、ヤンバイ草を<line-break>持ってると、幻覚状態になっちまうんだ。<end>",
+      "english": "You may already know this, but carrying a Yanbai Herb afflicts you with Hallucination.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "1380305",
+      "paths": [
+        "translations/korean/messages/msgsec138-part99.toml"
+      ],
+      "before_korean": "이 가죽 주머니에 얼마간의사례금이 들어 있다. 이걸 전해 줬으면 한다.<end>",
+      "proposed_korean": "이 가죽 주머니에 얼마간의 사례금이 들어 있다. 이걸 전해 줬으면 한다.<end>",
+      "japanese": "この皮袋にいくばくか、<line-break>謝礼が入っている。<line-break>これを渡してきてほしい。<end>",
+      "english": "There is some money in this leather pouch, by way of thanks. I want you to take it to her.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1880105",
+      "paths": [
+        "translations/korean/messages/msgsec188-part99.toml"
+      ],
+      "before_korean": "<value:$28>, 제가 틀린 걸까요? 역시 저 같은 여자에게는해방군 지도자 같은 자리는 감당하기어려운 걸지도 모르겠네요….<end>",
+      "proposed_korean": "<value:$28>, 제가 틀린 걸까요? 역시 저 같은 여자에게는 해방군 지도자 같은 자리는 감당하기 어려운 걸지도 모르겠네요….<end>",
+      "japanese": "<value:$28>、<line-break>わたくし、間違っているのでしょうか？<line-break>　<line-break>やはり、わたくしのような娘には<line-break>解放軍の指導者など務まらないのかも<line-break>しれませんね…。<end>",
+      "english": "<value:$28>, am I wrong? Perhaps a young woman like me truly is unfit to lead the Liberation Army...<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "300118",
+      "paths": [
+        "translations/korean/messages/msgsec030-part99.toml"
+      ],
+      "before_korean": "뭐, 뭐야!? 방금 그 소리는…? 엄청난 소리, 뭔가의 울음소리같았는데….<end>",
+      "proposed_korean": "뭐, 뭐야!? 방금 그 소리는…? 엄청난 소리, 뭔가의 울음소리 같았는데….<end>",
+      "japanese": "な、何！？　今の音は…？<line-break>すごい音、何かの叫び声みたい<line-break>だったけど…。<end>",
+      "english": "W-what was that!? That noise... It sounded like something screaming.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "420160",
+      "paths": [
+        "translations/korean/messages/msgsec042-part99.toml"
+      ],
+      "before_korean": "그런데 나는 이상하게도운명에 선택받은 자라고 듣자마자바로 네가 떠올랐어.<end>",
+      "proposed_korean": "그런데 나는 이상하게도 운명에 선택받은 자라고 듣자마자 바로 네가 떠올랐어.<end>",
+      "japanese": "でも、僕はなぜか<line-break>運命に選ばれた者って聞いて<line-break>すぐに君を思いだしたんだ。<end>",
+      "english": "Still, as soon as I heard “chosen by fate,” for some reason I thought of you.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "2410019",
+      "paths": [
+        "translations/korean/messages/msgsec241-part99.toml"
+      ],
+      "before_korean": "음, 그것도 그렇다 고브. 이런 망상녀를 상대하는 건시간 낭비다 고브. 우리에게는 숭고한 목적이 있다 고브. 무례한 인간들은이쪽에서 무시한다 고브.<end>",
+      "proposed_korean": "음, 그것도 그렇다 고브. 이런 망상녀를 상대하는 건 시간 낭비다 고브. 우리에게는 숭고한 목적이 있다 고브. 무례한 인간들은 이쪽에서 무시한다 고브.<end>",
+      "japanese": "む、それもそうゴブ。<line-break>こんな妄想女にかまっていては<line-break>時間の無駄ゴブ。<line-break>我々には崇高な目的があるゴブ。<line-break>無礼な人間どもは<line-break>こっちから無視するゴブ。<end>",
+      "english": "Hm, you have a point, gob. Wasting time on this deluded woman will get us nowhere. We have a noble purpose! We'll be the ones to ignore these rude humans.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1460019",
+      "paths": [
+        "translations/korean/messages/msgsec146-part99.toml"
+      ],
+      "before_korean": "나는 나대로, 류가 가문의 일원으로서역할을 다하고 있다고 생각해.<end>",
+      "proposed_korean": "나는 나대로 류가 가문의 일원으로서 역할을 다하고 있다고 생각해.<end>",
+      "japanese": "僕は僕なりに、<line-break>リューガ家の一員として<line-break>役割を果たしているつもりだよ。<end>",
+      "english": "In my own way, I believe I'm doing my part as a member of House Ryuga.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing",
+        "punctuation"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row. Remove dependent-clause/object pause commas; retain expressive/vocative punctuation."
+    },
+    {
+      "id": "2340012",
+      "paths": [
+        "translations/korean/messages/msgsec234-part99.toml"
+      ],
+      "before_korean": "웃겼지? 응? 응? 제발 재미있었다고말해 줘어!<end>",
+      "proposed_korean": "웃겼지? 응? 응? 제발 재미있었다고 말해 줘어!<end>",
+      "japanese": "笑えただろ？　なっ？　なっ？<line-break>頼むから面白かったと<line-break>言ってくれーっ！<end>",
+      "english": "It made you laugh, right? Right? Come on! Please, just say it was funny!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "280184",
+      "paths": [
+        "translations/korean/messages/msgsec028-part99.toml"
+      ],
+      "before_korean": "<select><value:$20>%2정말…. 제대로골칫거리를 일으켰군…!<end>야, 이런 데서꾸물거릴 때냐?<end>",
+      "proposed_korean": "<select><value:$20>%2정말…. 제대로 골칫거리를 일으켰군…!<end>야, 이런 데서 꾸물거릴 때냐?<end>",
+      "japanese": "<select><value:$20>%2ったく…。きっちり、<line-break>やっかいごとを起こしやがって…！<end>おい、こんなとこで<line-break>ぼやぼやしてる場合なのかよ？<end>",
+      "english": "<select><value:$20>%2Damn it... You just had to go and stir up trouble, didn't you!<end>Hey, is this really the time to be standing around?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "560190",
+      "paths": [
+        "translations/korean/messages/msgsec056-part99.toml"
+      ],
+      "before_korean": "에잇! 나는 신도 목숨도 버린 남자다! 여동생을 위해서라면 뭐든 팔겠다! 영봉 토르 중턱에고사천사의 아지트가 있다. 놈이 갈 곳은 거기다.<end>",
+      "proposed_korean": "에잇! 나는 신도 목숨도 버린 남자다! 여동생을 위해서라면 뭐든 팔겠다! 영봉 토르 중턱에 고사천사의 아지트가 있다. 놈이 갈 곳은 거기다.<end>",
+      "japanese": "ええい！<line-break>俺は神も命も捨てた男だ！<line-break>妹のためならなんでも売るぞ！<line-break>霊峰トールの中腹に<line-break>告死天使のアジトがある。<line-break>奴の行き場所はそこだ。<end>",
+      "english": "To hell with it! I've forsaken both god and life! For my sister, I'll sell anything! The Angels of Death have a hideout halfway up Sacred Mount Thor. That's where he'll be going.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "930033",
+      "paths": [
+        "translations/korean/messages/msgsec093-part99.toml"
+      ],
+      "before_korean": "이 검은 네게 주마. 내 최고의 검을 지니기에어울리는 건 아마…다른 용사도 검성도 아닌너일 게다. 나는 그렇게 믿는다.<end>",
+      "proposed_korean": "이 검은 네게 주마. 내 최고의 검을 지니기에 어울리는 건 아마… 다른 용사도 검성도 아닌 너일 게다. 나는 그렇게 믿는다.<end>",
+      "japanese": "この剣はお主に進呈しよう。<line-break>わしの最高の剣を持つに<line-break>ふさわしいのは、きっと…<line-break>他の勇者でも剣聖でもなく<line-break>お主じゃろう。<line-break>わしはそう信じておる。<end>",
+      "english": "I shall give this sword to you. The one worthy of bearing my finest sword is surely... not a hero or a Sword Saint, but you. That is what I believe.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    },
+    {
+      "id": "1340085",
+      "paths": [
+        "translations/korean/messages/msgsec134-part99.toml"
+      ],
+      "before_korean": "그럼 출발한다. 이번에도 계속해서광산 내부 지형을 파악하고성광석의 품질을 확인한다.<end>",
+      "proposed_korean": "그럼 출발한다. 이번에도 계속해서 광산 내부 지형을 파악하고 성광석의 품질을 확인한다.<end>",
+      "japanese": "では、出発だ。今回も引き続き<line-break>鉱山内の地形の把握と<line-break>聖光石の質の確認だ。<end>",
+      "english": "Then let's be off. We'll continue surveying the mine's layout and assessing the quality of the Holy Light Stone.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": [
+        "spacing"
+      ],
+      "reason": "Restore word boundaries collapsed across source line breaks; checked complete JP/EN/KO row."
+    }
+  ]
+}
