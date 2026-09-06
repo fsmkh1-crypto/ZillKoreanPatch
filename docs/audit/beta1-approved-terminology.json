@@ -1,0 +1,22 @@
+{
+  "status": "USER_APPROVED_BETA1_CANONICAL_DECISIONS",
+  "notes": "Source-anchored normalization only. Do not blind-replace Korean strings without matching the Japanese identity token.",
+  "decisions": [
+    {"japanese": "ロストール", "english": "Rostorl", "korean": "로스톨", "legacy": ["로스토올"]},
+    {"japanese": "フェルム", "english": "Ferme", "korean": "페름", "legacy": ["펠름"]},
+    {"japanese": "レムオン", "english": "Lemghon", "korean": "레무온", "legacy": ["레몬"]},
+    {"japanese": "アトレイア", "english": "Atleia", "korean": "아트레이아", "legacy": ["아트레아"]},
+    {"japanese": "コーンス", "english": "Konsu", "korean": "콘스", "legacy": ["콘즈", "콘수"]},
+    {"japanese": "ギア", "english": "Gea", "korean": "기어", "legacy": ["기아"]},
+    {"japanese": "石化獣", "english": null, "korean": "석화수", "legacy": []},
+    {"japanese": "ノクサ", "english": "Noxa", "korean": "녹사", "legacy": []},
+    {"japanese": "パルシェン", "english": "Parshen", "korean": "파르셴", "legacy": []},
+    {"japanese": "フリント", "english": null, "korean": "플린트", "legacy": []},
+    {"japanese": "小刀", "english": null, "korean": "소도", "legacy": ["단검"]},
+    {"japanese": "朱雀将軍", "english": null, "korean": "주작장군", "legacy": ["주작 장군"]},
+    {"japanese": "玄武将軍", "english": "Black Tortoise General", "korean": "현무장군", "legacy": ["현무 장군"]}
+  ],
+  "explicitly_not_included": [
+    {"japanese": "拳具", "reason": "Meaning is fist/knuckle weapon class, but final Korean category label has not yet been explicitly approved by the user."}
+  ]
+}
