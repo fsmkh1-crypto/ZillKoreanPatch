@@ -7,11 +7,15 @@ on:
         description: Reviewed copyedit proposal manifest
         required: true
         default: docs/audit/beta1-copyedit-batch001-proposals.json
+      overrides:
+        description: Optional audited override manifest
+        required: false
+        default: docs/audit/beta1-copyedit-batch001-overrides.json
   push:
     branches:
       - milestone/Beta1
     paths:
-      # Bootstrap the first calibration run when this workflow is introduced.
+      # Bootstrap/retry the first calibration run while batch001 is not yet accepted.
       # After batch001 succeeds, remove this push trigger and keep dispatch-only.
       - '.github/workflows/beta1-reviewed-copyedit-apply.yml'
 
@@ -24,6 +28,7 @@ concurrency:
 
 env:
   MANIFEST: ${{ inputs.manifest || 'docs/audit/beta1-copyedit-batch001-proposals.json' }}
+  OVERRIDES: ${{ inputs.overrides || 'docs/audit/beta1-copyedit-batch001-overrides.json' }}
 
 jobs:
   apply:
@@ -40,14 +45,14 @@ jobs:
           cache-dependency-path: go.sum
 
       - name: Apply exact reviewed semantic values
-        run: python3 tools/korean/apply-reviewed-copyedit.py --manifest "$MANIFEST" --json /tmp/copyedit-apply.json
+        run: python3 tools/korean/apply-reviewed-copyedit.py --manifest "$MANIFEST" --overrides "$OVERRIDES" --json /tmp/copyedit-apply.json
 
       - name: Synchronize existing layout lexical content
         run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-sync.txt
 
       - name: Verify reviewed values and zero layout drift
         run: |
-          python3 tools/korean/apply-reviewed-copyedit.py --manifest "$MANIFEST" --verify --json /tmp/copyedit-verify.json
+          python3 tools/korean/apply-reviewed-copyedit.py --manifest "$MANIFEST" --overrides "$OVERRIDES" --verify --json /tmp/copyedit-verify.json
           python3 tools/korean/qa-layout-drift.py
 
       - name: Require batch001 calibration counts
@@ -60,6 +65,8 @@ jobs:
           result = json.load(open('/tmp/copyedit-apply.json', encoding='utf-8'))
           if result['proposed_records'] != 29 or result['changed_records'] != 29:
               raise SystemExit(f"batch001 apply count mismatch: {result}")
+          if result.get('override_records') != 1:
+              raise SystemExit(f"batch001 expected exactly one audited override: {result}")
           text = Path('/tmp/layout-sync.txt').read_text(encoding='utf-8')
           if 'layout_lexical_drift_count=27' not in text or 'layout_lexical_fixed=27' not in text:
               raise SystemExit('batch001 expected exactly 27 persisted-layout lexical synchronizations')
