@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "reviewed_scopes": [
+    {
+      "batch": "001",
+      "kind": "numeric_range",
+      "start": 10000,
+      "end": 10175,
+      "expected_count": 176,
+      "evidence": "documented contextual review scope for Section001 IDs 10000..10175",
+      "note": "All 176 IDs in this range were context-reviewed; approved edits remain sourced from the 001 manifest."
+    }
+  ]
+}

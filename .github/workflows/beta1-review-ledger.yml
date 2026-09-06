@@ -1,0 +1,41 @@
+name: Beta1 review ledger
+
+on:
+  push:
+    branches:
+      - milestone/Beta1
+    paths:
+      - 'docs/audit/beta1-contextual-copyedit-*-reviewed.json'
+      - 'docs/audit/beta1-context-review-scopes.json'
+      - 'tools/korean/build-beta1-review-ledger.py'
+      - '.github/workflows/beta1-review-ledger.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          fetch-depth: 0
+      - name: Build sparse review ledger and coverage summary
+        run: |
+          python3 tools/korean/build-beta1-review-ledger.py
+          git diff --check
+      - name: Commit generated review coverage
+        run: |
+          if git diff --quiet -- docs/audit/beta1-review-ledger.json docs/audit/beta1-review-coverage.md; then
+            echo 'Review ledger already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/audit/beta1-review-ledger.json docs/audit/beta1-review-coverage.md
+          git commit -m 'audit: refresh Beta1 language review ledger'
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
