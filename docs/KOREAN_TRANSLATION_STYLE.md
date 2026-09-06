@@ -2,7 +2,7 @@
 
 This file records the default Korean dialogue, register, terminology, and proper-name policy.
 
-It is a language/style companion to `AGENTS.md` and `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md`. Engine-facing behavior always follows the English-patch-first contract in `AGENTS.md`.
+It is a language/style companion to `AGENTS.md`, `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md`, and the accepted review decisions in `docs/CLAUDE_FULL_REVIEW_DECISION_2026-09-06.md`. Engine-facing behavior always follows the English-patch-first contract in `AGENTS.md`.
 
 ## 1. Register
 
@@ -61,10 +61,12 @@ Avoid mechanical forms such as:
 
 Reconstruct the name from the English spelling plus Japanese pronunciation and choose the natural Korean form.
 
-Confirmed project example:
+Approved project target pending repository-wide migration:
 
 - `ロストール / Rostorl -> 로스톨`
-- Do not use a kana-literal form such as `로스토올`.
+- `로스토올` is the legacy corpus/canonical-table form and is not the intended final target.
+
+This normalization is **not complete** until `translations/terminology/korean-canonical.toml`, every proven same-entity user-visible occurrence, and the residual terminology audit all agree. Until that migration batch is complete, do not report Rostorl terminology consistency as finished merely because this style document names the target.
 
 A long vowel may be reflected when it is genuinely part of the intended name/pronunciation, but it must be justified from the name rather than copied from the kana mark.
 
@@ -143,6 +145,12 @@ Before any terminology-wide replacement, build a mapping containing at least:
 
 Do not use blind text replacement. First enumerate all affected records and confirm that every occurrence refers to the same entity/term and that no control or unrelated substring can be altered.
 
+`translations/terminology/korean-canonical.toml` is a canonical-only table, not a review queue. Do not insert unresolved `REVIEW` candidates into that file unless its schema/tooling is deliberately extended to represent review state.
+
+Current required review candidate:
+
+- `フェルム / Ferme`: Korean corpus contains both `페름` and `펠름`. Keep this `REVIEW`; do not globally normalize either form until same-entity surface enumeration and stronger pronunciation/provenance evidence establish the canonical Korean spelling. `Pelm` is not an English canonical spelling and must not be used as if it were English-patch evidence.
+
 ## 12. Scope of terminology consistency
 
 Once a canonical Korean term is accepted, audit all applicable surfaces, not dialogue alone:
@@ -158,7 +166,22 @@ Once a canonical Korean term is accepted, audit all applicable surfaces, not dia
 
 Do not change immutable Japanese source text.
 
-## 13. Bulk workflow safety
+## 13. Runtime substitution / control classification
+
+Preserve all runtime substitutions and controls exactly, but do not treat every `<value:$XX>` occurrence as the same visual/layout class.
+
+For layout/reflow review distinguish at least:
+
+- `BOUNDED_INLINE` — rendered inline and a worst-case advance is proven by the engine/game contract; `$28` player name is the current confirmed example.
+- `UNBOUNDED_INLINE` — rendered inline but no trustworthy worst-case advance is proven in the current path.
+- `CONTROL_FLOW_OPERAND` — part of expression/select/predicate grammar rather than ordinary rendered inline text.
+- `FIXED_CONTROL` — source-owned fixed control topology that must remain fixed and ordered.
+
+Use authenticated token/projection grammar where available. Regex presence alone is not enough to decide inline-vs-control-flow semantics.
+
+Do not promote `$15/$16/$17/$1A/$1B/$24/$25/$2B` to bounded merely because they are movable. Each needs its own proven measurement/binding contract.
+
+## 14. Bulk workflow safety
 
 - Preserve runtime control tokens exactly.
 - Preserve runtime substitutions such as `<value:$XX>` and printf-style substitutions exactly.
@@ -168,4 +191,4 @@ Do not change immutable Japanese source text.
 - Do not manually copy-edit generated layout as though it were semantic text.
 - If context is genuinely insufficient to choose meaning or a proper-name spelling, leave only that row as `HOLD/REVIEW`; do not stop the whole packet and do not guess.
 
-All bulk work must additionally follow `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md`.
+All bulk work must additionally follow `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md` and the accepted review decisions in `docs/CLAUDE_FULL_REVIEW_DECISION_2026-09-06.md`.
