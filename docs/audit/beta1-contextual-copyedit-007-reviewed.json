@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "purpose": "Beta1 contextual copyedit 007: repair residual source-line-break word concatenation and two source-confirmed unnatural Korean phrasings",
+  "source_head": "cff9f7dbd4d8969abe0a6269368050c6c4b5a032",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "180064",
+      "paths": ["translations/korean/messages/msgsec018-part99.toml"],
+      "before_korean": "찾았다아!! 좋아, 이제 길드에 가져가서보상만 받으면 돼.<end>",
+      "proposed_korean": "찾았다아!! 좋아, 이제 길드에 가져가서 보상만 받으면 돼.<end>",
+      "japanese": "はっけ～ん！！<line-break>よーし、あとはギルドに持ってって<line-break>報酬もらうだけだね。<end>",
+      "english": "Found it! All right, now we just take it to the Guild and collect our reward.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the word boundary collapsed across the source line break; JP and pinned English keep the clause continuous."
+    },
+    {
+      "id": "1400130",
+      "paths": ["translations/korean/messages/msgsec140-part99.toml"],
+      "before_korean": "게다가 목숨을 걸고타르튜바의 주의를 끌고 있어. 대단하네, 빛의 왕녀님은….…아무도 상대해 주지 않는너 같은 사람과는 다르게…. 후훗.<end>",
+      "proposed_korean": "게다가 목숨을 걸고 타르튜바의 주의를 끌고 있어. 대단하네, 빛의 왕녀님은…. …아무도 상대해 주지 않는 너 같은 사람과는 다르게…. 후훗.<end>",
+      "japanese": "その上、命がけで<line-break>タルテュバの注意を引きつけてるよ。<line-break>大したモノだね、光の王女様は…。<line-break>…誰にも相手にされない<line-break>君なんかと違って…。<line-break>くすくす。<end>",
+      "english": "And now he's risking his life to keep Tartuba's attention. How impressive the Princess of Light is... Unlike you, whom no one even notices. Heh heh.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore three boundaries collapsed where authored Japanese line breaks were removed, including the sentence pause before the second ellipsis; preserve the source's mocking rhythm."
+    },
+    {
+      "id": "560145",
+      "paths": ["translations/korean/messages/msgsec056-part99.toml"],
+      "before_korean": "<if><value:$29><equal>%0미안하지만, 지금은 꼬마를상대할 틈이 없어.<end>미안하지만, 지금은 아기 고양이를상대할 틈이 없어.<end>",
+      "proposed_korean": "<if><value:$29><equal>%0미안하지만, 지금은 꼬마를 상대할 틈이 없어.<end>미안하지만, 지금은 아기 고양이를 상대할 틈이 없어.<end>",
+      "japanese": "<if><value:$29><equal>%0悪いけど、今はボウヤに<line-break>構っている暇はないの。<end>悪いけど、今は子猫ちゃんに<line-break>構っている暇はないの。<end>",
+      "english": "<if><value:$29><equal>%0Sorry, boy, but I don't have time for you right now.<end>Sorry, kitten, but I don't have time for you right now.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the object-verb boundary in both conditional branches without changing the control topology."
+    },
+    {
+      "id": "1060012",
+      "paths": ["translations/korean/messages/msgsec106-part99.toml"],
+      "before_korean": "그건 그렇고, 로티의 소극적인 태도는 곤란하군. 그는 순탄한 상황에서는 인격자로행동할 수 있지만, 역경에 대처할 그릇은아닐지도 모르겠어.<end>",
+      "proposed_korean": "그건 그렇고, 로티의 소극적인 태도는 곤란하군. 그는 순탄한 상황에서는 인격자로 행동할 수 있지만, 역경에 대처할 그릇은 아닐지도 모르겠어.<end>",
+      "japanese": "それにしても、<line-break>ロティの弱腰には困ったものだ。　　　<line-break>　<line-break>彼は順境には人格者として<line-break>ふるまえるが、逆境に対処できる器では<line-break>ないかもしれんな。<end>",
+      "english": "Still, Lottie's timidity is troubling. He can conduct himself as a man of character in prosperous times, but he may not have the mettle to face adversity.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore two Korean word boundaries collapsed at Japanese line-break joins; preserve meaning and register."
+    },
+    {
+      "id": "1060029",
+      "paths": ["translations/korean/messages/msgsec106-part99.toml"],
+      "before_korean": "그건 그렇고, 로티 님의 소극적인 태도는 곤란하군. 그는 순탄한 상황에서는 인격자로행동할 수 있지만, 역경에 대처할 그릇은아닐지도 모르겠어.<end>",
+      "proposed_korean": "그건 그렇고, 로티 님의 소극적인 태도는 곤란하군. 그는 순탄한 상황에서는 인격자로 행동할 수 있지만, 역경에 대처할 그릇은 아닐지도 모르겠어.<end>",
+      "japanese": "それにしても、<line-break>ロティ殿の弱腰には困ったものだ。　　<line-break>　<line-break>彼は順境には人格者として<line-break>ふるまえるが、逆境に対処できる器では<line-break>ないかもしれんな。<end>",
+      "english": "Still, Master Lottie's timidity is troubling. He can conduct himself as a man of character in prosperous times, but he may not have the mettle to face adversity.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the same two collapsed boundaries in the honorific variant; preserve the distinct source address."
+    },
+    {
+      "id": "920100",
+      "paths": ["translations/korean/messages/msgsec092-part99.toml"],
+      "before_korean": "카츠, 로치나. 너희의 꿈은 이 내가이어받도록 하마.<end>",
+      "proposed_korean": "카츠, 로치나. 너희의 꿈은 이 내가 이어받도록 하마.<end>",
+      "japanese": "カッツ、ロッチナ。<line-break>お前たちの夢、このわしが<line-break>引き継がせてもらうぞ。<end>",
+      "english": "Katz. Rotchina. I shall carry on your dream.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the subject-verb boundary collapsed across the source line break."
+    },
+    {
+      "id": "720089",
+      "paths": ["translations/korean/messages/msgsec072-part99.toml"],
+      "before_korean": "…너도 그 녀석과결판내야 할 일이 있을 거야. 꾸물거리지 마.<end>",
+      "proposed_korean": "…너도 그 녀석과 결판내야 할 일이 있을 거야. 꾸물거리지 마.<end>",
+      "japanese": "…お前にも、あいつに<line-break>つけるべき、けじめがあるはずだ。<line-break>ぐずぐずするな。<end>",
+      "english": "You have your own score to settle with her. Stop dawdling.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the particle-to-noun boundary; JP and English confirm the intended 'score to settle' construction."
+    },
+    {
+      "id": "640017",
+      "paths": ["translations/korean/messages/msgsec064-part99.toml"],
+      "before_korean": "…그날, 나는풀숲에서 노숙하던행상인 일행을 노렸어.<end>",
+      "proposed_korean": "…그날, 나는 풀숲에서 노숙하던 행상인 일행을 노렸어.<end>",
+      "japanese": "…あの日、俺は<line-break>草むらで野宿している<line-break>旅商人の一行にねらいをつけた<end>",
+      "english": "That day, I set my sights on a band of traveling merchants camped in the grass.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore two word boundaries collapsed at consecutive Japanese line-break joins."
+    },
+    {
+      "id": "670061",
+      "paths": ["translations/korean/messages/msgsec067-part99.toml"],
+      "before_korean": "…네 눈에서는무한한 가능성이 느껴져. 이름이 뭐지?<end>",
+      "proposed_korean": "…네 눈에서는 무한한 가능성이 느껴져. 이름이 뭐지?<end>",
+      "japanese": "…あんたの目には<line-break>無限の可能性を感じる。<line-break>名前はなんて言うんだい？<end>",
+      "english": "I see endless possibilities in your eyes. What's your name?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the particle-to-modifier boundary collapsed across the source line break."
+    },
+    {
+      "id": "1710032",
+      "paths": ["translations/korean/messages/msgsec171-part99.toml"],
+      "before_korean": "나는 이제 명령대로, 지라크에게 가겠다. 너도 이 늙은이를따라올 생각이 있다면, 서방 공략군에 얼굴을 비춰 다오.<end>",
+      "proposed_korean": "나는 이제 명령대로, 지라크에게 가겠다. 너도 이 늙은이를 따라올 생각이 있다면, 서방 공략군에 얼굴을 비춰 다오.<end>",
+      "japanese": "わしは、これから、命令通り、<line-break>ジラークのもとへゆく。<line-break>　<line-break>お主も、この老いぼれに<line-break>つきあう気があったら、<line-break>西方攻略軍に顔を出してくれ。<end>",
+      "english": "Now I shall obey my orders and go to Zsilak. If you feel like keeping this old fool company, come and visit the Western Campaign Army.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the object-verb boundary collapsed across the source line break; leave optional comma style for a later consistency pass."
+    },
+    {
+      "id": "1120054",
+      "paths": ["translations/korean/messages/msgsec112-part99.toml"],
+      "before_korean": "처음 이곳에 끌려왔을 때 이상하게 빛나는 구체가 있는 방으로 데려가졌습니다.<end>",
+      "proposed_korean": "처음 이곳에 끌려왔을 때 이상하게 빛나는 구체가 있는 방으로 끌려갔습니다.<end>",
+      "japanese": "始めにここに連れてこられた時、<line-break>不思議な光る球がある部屋に<line-break>連れて行かれたんです。<end>",
+      "english": "When they first brought us here, they took us to a room with a strange glowing sphere.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness"],
+      "reason": "Replace the unnatural Korean passive 데려가졌습니다 with the natural coercive passive 끌려갔습니다; JP 連れて行かれた and English 'they took us' confirm the passive movement meaning."
+    },
+    {
+      "id": "590081",
+      "paths": ["translations/korean/messages/msgsec059-part99.toml"],
+      "before_korean": "산 넘기로 승리를 눈앞에 둔 딩갈군이었지만 놀라운 속도로 패잔병을 규합한 제네테스에게 허술해진 본진을 찔려 완전히 무너졌다. 살아남은 딩갈 병사들은 이번에는 분단의 산맥 지하에 있는 드워프 왕국을 통과해 딩갈 영토로 퇴각할 수밖에 없었다.<end>",
+      "proposed_korean": "산 넘기로 승리를 눈앞에 둔 딩갈군이었지만 놀라운 속도로 패잔병을 규합한 제네테스에게 수비가 허술해진 본진을 공격당해 완전히 무너졌다. 살아남은 딩갈 병사들은 이번에는 분단의 산맥 지하에 있는 드워프 왕국을 통과해 딩갈 영토로 퇴각할 수밖에 없었다.<end>",
+      "japanese": "　　　　山越えにより勝利を目前とした　　　　<line-break>　　ディンガル軍だったが、恐るべき早さで　　<line-break>　　敗残兵をまとめあげたゼネテスにより　　　<line-break>　手薄となった本陣を突かれ、総崩れとなった。<line-break>　　　　生き残ったディンガル兵は　　　　　　<line-break>　　　　今度は分断の山脈の地下、　　　　　　<line-break>　　　　　ドワーフの王国を抜け　　　　　　　<line-break>　ディンガル領へと撤退を余儀なくされた。　　<end>",
+      "english": "After crossing the mountains, the Dyneskal Army stood on the verge of victory. But Xenetes rallied the defeated remnants with astonishing speed and struck its poorly defended headquarters, sending the entire force into a rout. The surviving Dyneskal soldiers were forced to retreat to Dyneskal territory through the Dwarf kingdom beneath the Dividing Mountains.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness", "translation"],
+      "reason": "Replace literal 본진을 찔려 with source-confirmed military Korean: JP 本陣を突かれ and English 'struck its poorly defended headquarters' support 수비가 허술해진 본진을 공격당해."
+    },
+    {
+      "id": "1160108",
+      "paths": ["translations/korean/messages/msgsec116-part99.toml"],
+      "before_korean": "<value:$28> 님인가요? 몸을 유지하는 마력이약해지고 있는 거겠죠. 요즘은 눈도 잘 보이지 않습니다.<end>",
+      "proposed_korean": "<value:$28> 님인가요? 몸을 유지하는 마력이 약해지고 있는 거겠죠. 요즘은 눈도 잘 보이지 않습니다.<end>",
+      "japanese": "<value:$28>様、ですか？<line-break>　　　　　　　　　　　　　　<line-break>　<line-break>体を維持するための魔力が<line-break>弱まっているのでしょう。<line-break>最近は、目もよく見えません。<end>",
+      "english": "Is that you, <value:$28>? The magic sustaining my body must be growing weaker. Lately, I can hardly see.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["spacing"],
+      "reason": "Restore the subject-predicate boundary collapsed across the source line break while preserving the runtime name substitution."
+    }
+  ]
+}
