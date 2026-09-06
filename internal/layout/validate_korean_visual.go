@@ -97,7 +97,7 @@ func (e *Engine) koreanVisualMetrics(record corpus.Record, text string, id int, 
 		return width, lines, nil
 	}
 	if len(record.Raw) == 0 {
-		return e.measureKoreanProfileText(text, id, mapping)
+		return e.measureKoreanRepositoryProjectedText(text, id, mapping)
 	}
 	return 0, 0, fmt.Errorf("%s: %w", projectionError, err)
 }
@@ -132,6 +132,30 @@ func (e *Engine) measureKoreanProfileText(text string, id int, mapping koreanslo
 	for _, page := range strings.Split(text, "<end>") {
 		lines := strings.Split(page, lineBreak)
 		if strings.TrimSpace(page) != "" { maximumLines = max(maximumLines, len(lines)) }
+		for _, line := range lines {
+			width, err := e.measureKoreanRenderer(line, id, mapping)
+			if err != nil { return 0, 0, err }
+			maximumWidth = max(maximumWidth, width)
+		}
+	}
+	return maximumWidth, maximumLines, nil
+}
+
+// measureKoreanRepositoryProjectedText is the asset-free metric counterpart of
+// message.Project + maxProjectedKoreanWidth/maxProjectedKoreanFragmentLines.
+// Fixed annotated controls and expression operands are excluded from visible
+// width, while derived <line-break> tokens inside semantic fragments still
+// contribute to line counts. This must use the same repository projection
+// grammar as koreanRepositorySourceAware so derivation and post-validation
+// cannot disagree about what the engine actually renders.
+func (e *Engine) measureKoreanRepositoryProjectedText(text string, id int, mapping koreanslots.Mapping) (int, int, error) {
+	fragments, _ := splitRepositoryReflowFragments(text, false)
+	maximumWidth, maximumLines := 0, 0
+	for _, fragment := range fragments {
+		lines := strings.Split(fragment, lineBreak)
+		if fragment != "" {
+			maximumLines = max(maximumLines, len(lines))
+		}
 		for _, line := range lines {
 			width, err := e.measureKoreanRenderer(line, id, mapping)
 			if err != nil { return 0, 0, err }
