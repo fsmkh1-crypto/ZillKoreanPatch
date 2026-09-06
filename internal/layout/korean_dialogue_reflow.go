@@ -28,9 +28,9 @@ var koreanDialogueMovableValueTags = map[string]bool{
 	"<VALUE:$2B>": true,
 }
 
-// Bounded movable substitutions may participate in static C5 reflow because
-// the layout engine can reserve their proven worst-case rendered advance. Do
-// not add an opcode here merely because it is movable: each entry needs an
+// Bounded movable substitutions may be called statically width-safe because
+// the layout engine reserves their proven worst-case rendered advance. Do not
+// add an opcode here merely because it is movable: each entry needs an
 // engine/game-contract bound that is also reflected by Korean measurement.
 var koreanDialogueBoundedInlineValueTags = map[string]bool{
 	"<VALUE:$28>": true, // player name: bounded by playerNameMaxCharacters/EncodedBytes
@@ -57,26 +57,29 @@ func koreanDialogueUnboundedRuntimeSubstitution(id int, text string) bool {
 }
 
 // koreanEnglishDialogueVisualConsumer mirrors the upstream English visual
-// reflow population. Existing narrow_text behavior remains unchanged. C5 and
-// C5-portrait records have explicit dialogue advance limits too; a movable
-// substitution excludes a newly admitted C5-only record only when its inline
-// rendered width is not proven/bounded by the current measurement contract.
-func (e *Engine) koreanEnglishDialogueVisualConsumer(id int, semantic string) bool {
-	if e.narrowText(id) {
-		return true
-	}
-	if !e.has(e.consumers.C5IDs, id) && !e.has(e.consumers.C5PortraitIDs, id) {
-		return false
-	}
-	return !koreanDialogueUnboundedRuntimeSubstitution(id, semantic)
+// reflow population. Runtime-width proof is deliberately NOT an eligibility
+// predicate: upstream English sourceAware reflows movable-substitution fragments
+// too. Korean therefore reflows the statically measurable portion of every
+// verified narrow/C5/C5-portrait dialogue record and tracks unbounded inline
+// substitutions separately as PENDING runtime-width evidence.
+func (e *Engine) koreanEnglishDialogueVisualConsumer(id int, _ string) bool {
+	return e.narrowText(id) || e.has(e.consumers.C5IDs, id) || e.has(e.consumers.C5PortraitIDs, id)
 }
 
 // DeriveKoreanEnglishDialogueLayouts mirrors the upstream English Reflow path
-// for verified narrow dialogue/in-world-guidance and authenticated static C5
-// dialogue consumers. Korean previously mirrored only narrow_text, which
-// allowed C5 and C5-portrait Korean lines to reach the device unbroken even
-// though English applies their explicit advance limits. Canonical Korean is
-// never rewritten: derived breaks live only in the build-local layout map.
+// for verified narrow dialogue/in-world-guidance and authenticated C5 dialogue
+// consumers. Canonical Korean is never rewritten: derived breaks live only in
+// the build-local layout map.
+//
+// Persisted Korean layout is build-owned output, not authored semantic text. An
+// existing layout therefore does not exempt a record from current derivation.
+// If canonical Korean exceeds the consumer limit, derive again from semantic
+// Korean and the current English source-layout hints. This repairs stale/older
+// generated layouts such as 30032/40007 without hand-authoring line breaks.
+//
+// Unbounded inline substitutions remain eligible for static reflow. Their
+// unknown runtime maximum is a separate coverage/PENDING question and must not
+// be converted into a false PASS merely because the static layout fits.
 func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) (map[int]string, int, error) {
 	if source == nil || korean == nil {
 		return nil, 0, fmt.Errorf("Korean English dialogue derivation: nil project")
@@ -90,15 +93,18 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 	}
 	count := 0
 	for _, row := range korean.Entries {
-		if !e.koreanEnglishDialogueVisualConsumer(row.ID, row.Korean) || row.Layout != "" {
+		if !e.koreanEnglishDialogueVisualConsumer(row.ID, row.Korean) {
 			continue
 		}
 		item, ok := source.Find(row.ID)
 		if !ok {
 			return nil, 0, fmt.Errorf("dialogue message %d lacks source", row.ID)
 		}
-		effective := effectiveKoreanText(row, derived)
-		width, _, err := e.koreanWarningMetrics(item.Record, effective, row.ID, mapping)
+
+		// Decide whether reflow is needed from canonical semantic Korean, not from
+		// a previously generated layout that may predate the current contract.
+		semantic := row.Korean
+		width, _, err := e.koreanWarningMetrics(item.Record, semantic, row.ID, mapping)
 		if err != nil {
 			return nil, 0, err
 		}
@@ -108,37 +114,30 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 		}
 
 		var candidate string
-		if e.narrowText(row.ID) && koreanDialogueRuntimeSubstitution(row.ID, effective) {
-			// Preserve the established narrow_text dynamic wrapper. The C5-only
-			// bounded-substitution defect is fixed through the source-aware path
-			// below without broadening this legacy behavior speculatively.
-			candidate, err = e.wrapKoreanVisualToLimit(effective, row.ID, mapping, limit)
-		} else {
-			projection, projectionErr := message.Project(item.Record)
-			switch {
-			case projectionErr == nil:
-				// Authenticated retail builds take the exact same token-derived
-				// SourceLayout path as upstream English Reflow.
-				candidate, err = e.koreanSourceAware(projection, effective, limit, row.ID, mapping)
-			case len(item.Record.Raw) == 0:
-				// Repository checks intentionally run before BindBanks and therefore
-				// have only the canonical Japanese annotated source. Preserve that
-				// asset-free mode, but still feed its source break hints into the
-				// same preferred -> greedy scorer used by the retail path.
-				candidate, err = e.koreanRepositorySourceAware(effective, row.Japanese, limit, row.ID, mapping)
-			default:
-				// Once retail bytes exist, a projection failure is real evidence of
-				// contract drift and must never be hidden by the repository fallback.
-				return nil, 0, fmt.Errorf("message %d Korean dialogue projection: %w", row.ID, projectionErr)
-			}
-			if err == nil && candidate == "" {
-				// Match upstream Reflow: an impossible preferred/greedy derivation
-				// falls back to semantic text and is then rejected by the width audit.
-				candidate = effective
-			}
+		projection, projectionErr := message.Project(item.Record)
+		switch {
+		case projectionErr == nil:
+			// Authenticated retail builds take the exact same token-derived
+			// SourceLayout path as upstream English Reflow.
+			candidate, err = e.koreanSourceAware(projection, semantic, limit, row.ID, mapping)
+		case len(item.Record.Raw) == 0:
+			// Repository checks intentionally run before BindBanks and therefore
+			// have only the canonical Japanese annotated source. Project Korean
+			// against source-owned fixed controls and feed source break hints into
+			// the same preferred -> greedy scorer used by the retail path.
+			candidate, err = e.koreanRepositorySourceAware(semantic, row.Japanese, limit, row.ID, mapping)
+		default:
+			// Once retail bytes exist, a projection failure is real evidence of
+			// contract drift and must never be hidden by the repository fallback.
+			return nil, 0, fmt.Errorf("message %d Korean dialogue projection: %w", row.ID, projectionErr)
 		}
 		if err != nil {
 			return nil, 0, err
+		}
+		if candidate == "" {
+			// Match upstream Reflow: an impossible preferred/greedy derivation
+			// falls back to semantic text and is then rejected by the width audit.
+			candidate = semantic
 		}
 		if !message.PreservesLayoutSemantics(row.Korean, candidate) {
 			return nil, 0, fmt.Errorf("message %d dialogue derived layout changes semantic/control text", row.ID)
@@ -156,10 +155,10 @@ func (e *Engine) DeriveKoreanEnglishDialogueLayouts(source *corpus.Project, kore
 	return derived, count, nil
 }
 
-// AuditKoreanEnglishDialogueResiduals hard-checks the exact record population
-// owned by DeriveKoreanEnglishDialogueLayouts after derivation. It deliberately
-// mirrors the derivation eligibility predicate instead of widening scope to
-// unrelated authoring warnings whose actual consumer contract is not proven.
+// AuditKoreanEnglishDialogueResiduals checks the derivation consumer population
+// after layout generation. It is a STATIC layout residual audit only. Runtime
+// width proof for unbounded inline substitutions is intentionally separate and
+// is reported by AuditKoreanEnglishDialogueCoverage.
 func (e *Engine) AuditKoreanEnglishDialogueResiduals(source *corpus.Project, korean *corpus.KoreanProject, layouts map[int]string, mapping koreanslots.Mapping) (checked int, overflowIDs []int, err error) {
 	if source == nil || korean == nil {
 		return 0, nil, fmt.Errorf("Korean English dialogue residual audit: nil project")
@@ -168,7 +167,7 @@ func (e *Engine) AuditKoreanEnglishDialogueResiduals(source *corpus.Project, kor
 		return 0, nil, fmt.Errorf("Korean English dialogue residual audit: empty renderer mapping")
 	}
 	for _, row := range korean.Entries {
-		if !e.koreanEnglishDialogueVisualConsumer(row.ID, row.Korean) || row.Layout != "" {
+		if !e.koreanEnglishDialogueVisualConsumer(row.ID, row.Korean) {
 			continue
 		}
 		item, ok := source.Find(row.ID)
@@ -278,10 +277,9 @@ func (e *Engine) wrapKoreanVisualParagraphToLimit(text string, id int, mapping k
 			return "", fmt.Errorf("message %d dialogue word exceeds %d units and cannot be whitespace-reflowed: %q (%d units)", id, limit, word, width)
 		}
 
-		// Keep the forensic rule used by the established profile wrapper: never
-		// create a fresh line boundary immediately before a runtime substitution.
-		// Instead move the previous natural-text run together with the value token
-		// by replacing the preceding complete whitespace span.
+		// Legacy wrapper retained for non-dialogue callers/tests. The verified
+		// English-parity dialogue derivation above no longer uses this separate
+		// value-adjacency heuristic; it uses sourceAware for all dialogue classes.
 		if strings.HasPrefix(word, "<value:") {
 			prefix, tail, ok := lastBreakableWhitespaceRun(current)
 			if !ok {
