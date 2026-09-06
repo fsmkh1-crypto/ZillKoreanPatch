@@ -6,9 +6,10 @@ import tomllib
 from collections import Counter
 from pathlib import Path
 
+from korean_morphology import explicit_particle_patterns
+
 CONTROL_RE = re.compile(r"<[^>]+>")
 HANGUL = re.compile(r"[가-힣]")
-AUX_FOLLOW = r"(?=$|[^가-힣]|(?:는|도|만|부터|까지)(?=[^가-힣]|$))"
 
 # User-approved canonical names/terms plus Balor, whose repeated 을/를 error was
 # independently identified during contextual review. This is candidate detection,
@@ -19,35 +20,8 @@ PARTICLE_TARGETS = [
 ]
 
 
-def jongseong_index(syllable: str) -> int:
-    code = ord(syllable)
-    if not (0xAC00 <= code <= 0xD7A3):
-        raise ValueError(f"not a Hangul syllable: {syllable!r}")
-    return (code - 0xAC00) % 28
-
-
-def wrong_particle_pairs(word: str) -> list[tuple[str, str]]:
-    jong = jongseong_index(word[-1])
-    if jong == 0:  # vowel ending
-        return [("이", "가"), ("을", "를"), ("과", "와"), ("은", "는"), ("으로", "로")]
-    pairs = [("가", "이"), ("를", "을"), ("와", "과"), ("는", "은")]
-    # ㄹ-final takes 로; other consonants take 으로.
-    if jong == 8:
-        pairs.append(("으로", "로"))
-    else:
-        pairs.append(("로", "으로"))
-    return pairs
-
-
 def explicit_patterns():
-    patterns = []
-    for word in PARTICLE_TARGETS:
-        for wrong, right in wrong_particle_pairs(word):
-            patterns.append((
-                f"wrong_particle_{word}_{wrong}",
-                re.compile(re.escape(word + wrong) + AUX_FOLLOW),
-                word + right,
-            ))
+    patterns = explicit_particle_patterns(PARTICLE_TARGETS)
     patterns.append(("spacing_moyang_ijiman", re.compile(r"모양 이지만"), "모양이지만"))
     return patterns
 
