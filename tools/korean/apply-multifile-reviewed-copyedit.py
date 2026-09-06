@@ -10,16 +10,23 @@ def main():
  for r in m['records']:
   if controls(r['before_korean'])!=controls(r['proposed_korean']): raise SystemExit(f"control topology differs id={r['id']}")
   for path in r['paths']: byfile.setdefault(path,[]).append(r)
- touched=[];changed=0
+ touched=[];changed=0;mismatches=[];file_work={}
  for rel,recs in byfile.items():
   path=root/rel;text=path.read_text(encoding='utf-8');data=tomllib.loads(text);repl={}
   for r in recs:
    rid=str(r['id']);row=data.get(rid)
-   if not row: raise SystemExit(f'missing id={rid} path={rel}')
+   if not row: mismatches.append({'id':rid,'path':rel,'error':'missing'});continue
    cur=row.get('korean');before=r['before_korean'];after=r['proposed_korean']
    if cur==after: continue
-   if cur!=before: raise SystemExit(f'before mismatch id={rid}: {cur!r}')
+   if cur!=before:
+    mismatches.append({'id':rid,'path':rel,'expected_before':before,'actual':cur});continue
    repl[rid]=after
+  file_work[rel]=(path,text,repl)
+ if mismatches:
+  rendered=json.dumps({'status':'BEFORE_MISMATCH','mismatches':mismatches},ensure_ascii=False,indent=2);print(rendered)
+  if a.json: a.json.write_text(rendered+'\n',encoding='utf-8')
+  raise SystemExit(1)
+ for rel,(path,text,repl) in file_work.items():
   if a.apply and repl:
    lines=text.splitlines(keepends=True);current=None;done=set()
    for i,line in enumerate(lines):
