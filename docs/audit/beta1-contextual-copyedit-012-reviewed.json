@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "purpose": "Beta1 contextual copyedit 012: remove Japanese-carried Korean commas and correct one source-confirmed discourse mistranslation",
+  "source_head": "99c3f2e4320c4b527a7548db434d07aaa41a9ec3",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "1060057",
+      "paths": ["translations/korean/messages/msgsec106-part99.toml"],
+      "before_korean": "…그런데, <value:$28>. 제대로 말렸어야지. 나, 편지를 열어 버렸잖아. 하지만 이미 열었으니 어쩔 수 없지. …뭐가 쓰여 있을까?<end>",
+      "proposed_korean": "…잠깐, <value:$28>! 제대로 말렸어야지. 나, 편지를 열어 버렸잖아. 하지만 이미 열었으니 어쩔 수 없지. …뭐가 쓰여 있을까?<end>",
+      "japanese": "…って、<value:$28>。<line-break>ちゃんと、とめてよ。<line-break>ボク、手紙を開けちゃったじゃないか。<line-break>でも、開けちゃったものは<line-break>仕方がないよね。<line-break>…何が書いてあるのかな？<end>",
+      "english": "Wait, <value:$28>! You were supposed to stop me. Now I've opened the letter. Well, what's done is done, right? I wonder what it says...<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["naturalness", "punctuation"],
+      "reason": "JP sentence-initial …って is a self-interrupting 'wait/hey' turn, not Korean 그런데. The pinned English explicitly renders it 'Wait, <value:$28>!'. Use 잠깐 and an exclamation mark while preserving the runtime control."
+    },
+    {
+      "id": "1340187",
+      "paths": ["translations/korean/messages/msgsec134-part99.toml"],
+      "before_korean": "하지만, 이런 때에 찾아오다니…후후, 뭐, 천명일지도 모르겠군.<end>",
+      "proposed_korean": "하지만 이런 때에 찾아오다니… 후후, 뭐, 천명일지도 모르겠군.<end>",
+      "japanese": "しかし、<line-break>このようなときに来られるとは<line-break>…フフ、まあ、天命かもしれぬな。<end>",
+      "english": "And to arrive at a time like this... Heh. Perhaps it was ordained.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["punctuation", "spacing"],
+      "reason": "Remove the Japanese-carried comma after Korean 하지만 and restore a visible pause after the ellipsis before 후후. Pinned English likewise treats the latter as a new beat."
+    },
+    {
+      "id": "1340190",
+      "paths": ["translations/korean/messages/msgsec134-part99.toml"],
+      "before_korean": "하지만, 이런 때에 찾아오다니…후후, 뭐, 천명일지도 모르겠군.<end>",
+      "proposed_korean": "하지만 이런 때에 찾아오다니… 후후, 뭐, 천명일지도 모르겠군.<end>",
+      "japanese": "しかし、<line-break>このようなときに来られるとは<line-break>…フフ、まあ、天命かもしれぬな。<end>",
+      "english": "And to arrive at a time like this... Heh. Perhaps it was ordained.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["punctuation", "spacing"],
+      "reason": "Same authored duplicate line as 1340187: remove the Japanese-carried comma after 하지만 and restore the pause after the ellipsis."
+    },
+    {
+      "id": "1350080",
+      "paths": ["translations/korean/messages/msgsec135-part99.toml"],
+      "before_korean": "하지만, 그게 나쁜 일인가?<end>",
+      "proposed_korean": "하지만 그게 나쁜 일인가?<end>",
+      "japanese": "　　でも、それが悪いことなのか？<end>",
+      "english": "But is that really such a bad thing?<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["punctuation"],
+      "reason": "The comma mirrors JP でも、 but is unnecessary after Korean 하지만. Pinned English also carries no rhetorical pause after But."
+    },
+    {
+      "id": "1370727",
+      "paths": ["translations/korean/messages/msgsec137-part99.toml"],
+      "before_korean": "그런데, 아까 오시 선생님이 부르셨어요. 그 고블린의 위치를 알아냈대요.<end>",
+      "proposed_korean": "그런데 아까 오시 선생님이 부르셨어요. 그 고블린의 위치를 알아냈대요.<end>",
+      "japanese": "ところで、<line-break>さっきオッシ先生が呼んでたわよ。<line-break>　<line-break>例のゴブリンの居場所が<line-break>わかったんですって。<end>",
+      "english": "Anyway, Master Ossi was asking for you earlier. Apparently, they've found where that goblin is.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["punctuation"],
+      "reason": "Remove the Japanese-carried comma after Korean 그런데; the Korean sentence reads naturally without an inserted pause."
+    },
+    {
+      "id": "1410571",
+      "paths": ["translations/korean/messages/msgsec141-part99.toml"],
+      "before_korean": "그래. 말로만 주장했다면, 학회에서는 상대도 안 해 줄 가설이지. 하지만 여기, 네가 발견한 이 돌이 있어! 잘 조사하면, 더 나아가….<end>",
+      "proposed_korean": "그래. 말로만 주장했다면 학회에서는 상대도 안 해 줄 가설이지. 하지만 여기 네가 발견한 이 돌이 있어! 잘 조사하면 더 나아가….<end>",
+      "japanese": "そう。口で言っただけなら、<line-break>学会では相手にされない説だよね。<line-break> <line-break>だけど、ここに、<line-break>君が見つけたこの石がある！<line-break>よく調べれば、さらに…。<end>",
+      "english": "Right. If all I had were words, no academic society would take the theory seriously. But here we have this stone you found! And if we examine it closely...<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["punctuation", "naturalness"],
+      "reason": "Three commas directly mirror JP clause punctuation. Korean does not need pauses after -다면, 여기, or -하면 here; pinned English also presents each thought as a continuous clause."
+    },
+    {
+      "id": "1460058",
+      "paths": ["translations/korean/messages/msgsec146-part99.toml"],
+      "before_korean": "그런데, <value:$28>. 형에 대해 뭔가 아는 거 없어? 행방불명이라더라. 나한테 한마디도 없이 사라지다니…. 무슨 일이 있었던 걸까….<end>",
+      "proposed_korean": "그런데 <value:$28>. 형에 대해 뭔가 아는 거 없어? 행방불명이라더라. 나한테 한마디도 없이 사라지다니…. 무슨 일이 있었던 걸까….<end>",
+      "japanese": "ところで、<value:$28>。<line-break>兄さんのこと、何か知らない？　　<line-break>　<line-break>行方不明らしいんだ。<line-break>僕に一言もなく姿を消すなんて…。<line-break>何があったんだろう…。<end>",
+      "english": "By the way, <value:$28>, have you heard anything about my brother? Apparently he's gone missing. He vanished without saying a word to me... I wonder what happened.<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["punctuation"],
+      "reason": "Remove only the Japanese-carried comma immediately after Korean 그런데. Runtime-name control and the following address beat remain unchanged."
+    },
+    {
+      "id": "1540109",
+      "paths": ["translations/korean/messages/msgsec154-part99.toml"],
+      "before_korean": "하지만, 그렇게는… 안 돼!<end>",
+      "proposed_korean": "하지만 그렇게는… 안 돼!<end>",
+      "japanese": "だけど、<line-break>そうは…いかない！<end>",
+      "english": "But I won't let that happen!<end>",
+      "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+      "categories": ["punctuation"],
+      "reason": "Remove the comma copied from JP だけど、 after Korean 하지만; the hesitation is already conveyed by the ellipsis later in the line."
+    }
+  ]
+}
