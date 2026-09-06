@@ -1,0 +1,40 @@
+name: Beta1 copyedit corpus export
+
+on:
+  push:
+    branches:
+      - milestone/Beta1
+    paths:
+      - '.github/workflows/beta1-copyedit-corpus-export.yml'
+      - 'tools/korean/export-beta1-copyedit-corpus.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          path: korean
+      - uses: actions/checkout@v6
+        with:
+          repository: HK47196/zill
+          ref: master
+          path: english
+      - name: Export aligned Japanese English Korean corpus
+        working-directory: korean
+        run: |
+          python3 tools/korean/export-beta1-copyedit-corpus.py \
+            --english-root ../english \
+            --jsonl /tmp/beta1-copyedit-corpus.jsonl \
+            --summary /tmp/beta1-copyedit-corpus-summary.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: beta1-copyedit-corpus
+          path: |
+            /tmp/beta1-copyedit-corpus.jsonl
+            /tmp/beta1-copyedit-corpus-summary.json
+          retention-days: 30
