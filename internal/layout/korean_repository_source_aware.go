@@ -12,8 +12,9 @@ import (
 // koreanRepositorySourceAware is the asset-free counterpart of koreanSourceAware.
 // corpus.LoadProject intentionally creates display-only records until BindBanks
 // authenticates retail data, so repository checks have Japanese annotated text
-// but no token projection. Split only on fixed annotated controls, keep source
-// line breaks as SourceLayout hints, and run the same preferred -> greedy scorer.
+// but no token projection. Split only on fixed annotated controls, keep movable
+// substitutions inside their text fragments, preserve source line breaks as
+// SourceLayout hints, and run the same preferred -> greedy scorer.
 // Production Korean builds bind retail banks before this derivation and therefore
 // use koreanSourceAware with the authenticated message.Projection instead.
 func (e *Engine) koreanRepositorySourceAware(semantic, source string, limit, id int, mapping koreanslots.Mapping) (string, error) {
@@ -47,10 +48,10 @@ func (e *Engine) koreanRepositorySourceAware(semantic, source string, limit, id 
 }
 
 // splitRepositoryReflowFragments treats source <line-break> as a movable layout
-// hint and every other known annotated control as a fixed fragment delimiter.
-// This is intentionally narrower than retail token projection: it exists only
-// for asset-free checks where the token-level fixedLineBreaks distinction cannot
-// be authenticated.
+// hint and fixed annotated controls as fragment delimiters. Movable runtime
+// substitutions stay inside the surrounding fragment, matching message.Project's
+// pureMovable/callerMovable projection semantics instead of becoming artificial
+// repository-only boundaries.
 func splitRepositoryReflowFragments(text string, source bool) (fragments, controls []string) {
 	var current strings.Builder
 	for _, part := range splitParts(text) {
@@ -63,6 +64,10 @@ func splitRepositoryReflowFragments(text string, source bool) (fragments, contro
 			continue
 		}
 		if loc := controlTag.FindStringIndex(part); loc != nil && loc[0] == 0 && loc[1] == len(part) {
+			if koreanDialogueMovableValueTags[strings.ToUpper(part)] {
+				current.WriteString(part)
+				continue
+			}
 			fragments = append(fragments, current.String())
 			current.Reset()
 			controls = append(controls, part)
