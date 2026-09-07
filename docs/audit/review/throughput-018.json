@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "batch_id": "018",
+  "scope_id": "S-018",
+  "reviewed_commit": "325780229ca0800fa1c67f01b73e73d1d727f982",
+  "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "source_files": [
+    "translations/korean/messages/msgsec005.toml",
+    "translations/korean/messages/msgsec006.toml"
+  ],
+  "total_ids": 21,
+  "direct_read_ids": 21,
+  "contextual_ids": 20,
+  "rapid_ids": 1,
+  "ordinary_ids": 11,
+  "high_risk_ids": 9,
+  "propagated_ids": 0,
+  "edits": 9,
+  "keeps": 11,
+  "exclusions": 1,
+  "special_ids": ["50014"],
+  "classification_note": "Pilot operational classification only: the sole row meeting the conservative rapid definition is special marker 50014; EDIT rows are counted as high-risk for this pilot; remaining contextual KEEP rows are ordinary. This classification is not ledger coverage evidence.",
+  "review_started_at": "2026-09-07T09:50:51+09:00",
+  "review_ended_at_conservative": "2026-09-07T09:55:48+09:00",
+  "elapsed_review_seconds": 297,
+  "elapsed_review_minutes": 4.95,
+  "overall_seconds_per_id": 14.142857,
+  "overall_ids_per_hour": 254.545455,
+  "seconds_per_id_by_class": {
+    "rapid": null,
+    "ordinary": null,
+    "high_risk": null
+  },
+  "timing_note": "The wall-clock window runs from recorded review start through the first reviewed-manifest commit and therefore conservatively includes source navigation and evidence drafting. Per-class stopwatch timing was not instrumented, so class-specific seconds/ID are intentionally null rather than estimated.",
+  "reviewer": "GPT-5.6 Sol",
+  "review_method": "Sequential dense full-read in source order using JP meaning/context, pinned EN handling/reason, then KO judgment. Automated analysis was discovery-only and did not create KEEP coverage.",
+  "recorded_at": "2026-09-07"
+}
