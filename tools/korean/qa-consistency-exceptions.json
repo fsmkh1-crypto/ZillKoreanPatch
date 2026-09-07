@@ -6,7 +6,6 @@
   {"ids":["560018","1160001","370244"],"category":"different_speaker","reason":"Generic 誰だ？ belongs to different speakers; 누구야?/누구냐? reflects each register."},
   {"ids":["2270022","2110008"],"category":"speaker_emotion","reason":"Short surprise reaction differs by scene intensity; 뭐…!? and 어…!? are intentional contextual renderings."},
   {"ids":["560906","1400209"],"category":"speaker_register","reason":"そうですか…。 is spoken by different characters; 그렇군요/그렇습니까 preserves local formality."},
-  {"ids":["1340197","400257"],"category":"different_speaker","reason":"な、何事だ！？ is used by different speakers; sentence ending differs with character register."},
   {"ids":["370120","280057"],"category":"different_speaker","reason":"なに言ってんだい。 occurs in unrelated dialogue; both natural renderings preserve local voice."},
   {"ids":["330057","550025"],"category":"speaker_register","reason":"なるほど、ね。 is spoken in different relationships; 그렇군/그렇군요 intentionally differ in politeness."},
   {"ids":["1630002","1680010"],"category":"different_speaker","reason":"The greeting is reused by different speakers/events; Angildan's archaic/formal voice differs from the other speaker."},
