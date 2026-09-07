@@ -1,250 +1,198 @@
 # Beta1 Dense Review Pipeline v3 Checkpoint
 
 Date: 2026-09-07
+Status: **Batch 019 COMPLETE / Beta1 INCOMPLETE / Beta2 NOT STARTED**
 
-This document supersedes the v2 review-ledger checkpoint for language-review workflow decisions. Beta2 remains out of scope.
+This is the current dense-review checkpoint. For review-policy details, `docs/BETA1_REVIEW_LEDGER_POLICY.md` and `docs/audit/review/README.md` remain authoritative. Generated coverage is `docs/audit/beta1-review-coverage.md` and must not be hand-edited.
 
-## Current remote baseline
+## Current repository baseline
 
-At Batch 018 completion, the legitimate `milestone/Beta1` head had advanced through the semantic edit application, review-basis registration, and dense-scope coverage refresh. The post-018 remote head observed before this checkpoint update was:
+Repository: `fsmkh1-crypto/ZillKoreanPatch`
+Branch: `milestone/Beta1`
 
-`7a4ee47b6591c18c73ca89e756008c276f472089`
+The legitimate remote HEAD observed immediately before this checkpoint update was:
 
-Never reset legitimate newer commits backward; fetch current remote HEAD before any mutation.
+`c67b9188b8149c49dd65d08e239291f67f8fa395`
 
-Pinned English authority:
+That commit records Batch 019 throughput evidence. This checkpoint commit is intentionally written above it. Always fetch the actual remote HEAD again before any mutation. Never reset legitimate newer commits backward and never force-push.
+
+Pinned English reference:
 
 `HK47196/zill@a98d9ce29f361d666ec23da0dcfd351f24537ffd`
 
-## Authoritative coverage after Batch 018
+English-patch-first rule remains mandatory: determine Japanese meaning/context first, inspect what the pinned English patch did and why, then choose natural Korean. Japanese is the semantic source; English is the implementation/context reference, not a replacement source language. Do not invent Korean-only storage/runtime/reflow exceptions where the English implementation demonstrates the general solution.
+
+## Authoritative coverage after Batch 019
 
 Generated source: `docs/audit/beta1-review-coverage.md`
 
-- accepted Korean IDs: 42,016
-- valid contextual review: 487
-  - historical full-read: 176
-  - dense scope full-read: 11
-  - manifest edit: 300
-  - propagated: 0
-- CONTEXT_STALE: 0
-- LAYOUT_RECHECK: 0
-- contextual UNREVIEWED: 41,529
-- RUNTIME_PENDING full population: 47
+- accepted Korean IDs: **42,016**
+- valid contextual review: **543 (1.292%)**
+  - legacy direct `full_read`: **176**
+  - dense `scope_full_read`: **50**
+  - direct `manifest_edit`: **317**
+  - propagated: **0**
+- `CONTEXT_STALE`: **0**
+- `LAYOUT_RECHECK`: **0**
+- contextual `UNREVIEWED`: **41,473**
+- approved registered manifest records: **317**
+- pending batches lacking registered review basis: **none**
+- full accepted `RUNTIME_PENDING` population: **47**
 
-The 467 pre-v3 review records were migrated by reconstructing their real historical semantic commits. No v2 hash was reinterpreted as a v3 hash.
+Language review and structural state remain separate:
 
-## v3 invalidation model
+`language_basis = SHA256(JP + NUL + pinned EN + NUL + KO)`
 
-Language:
+`structural_basis = SHA256(layout + NUL + physical_consumer_signature)`
 
-`SHA256(JP + NUL + pinned EN + NUL + KO)`
+One changed row can stale only that ID. Structural changes may set `LAYOUT_RECHECK` without erasing valid language coverage.
 
-A mismatch demotes only that ID to `CONTEXT_STALE`.
+## Batch 018 result retained
 
-Structure:
+Batch 018 reviewed `msgsec005.toml` + `msgsec006.toml`, 21 IDs directly.
 
-`SHA256(layout + NUL + physical_consumer_signature)`
+- KEEP 11
+- EDIT 9
+- exclusion 1 (`50014` internal section marker)
+- propagated 0
+- packet SHA256 `9cee205f04bb9952a27850329920fb8bc36661b703efbc01758612031845ab47`
+- heavy edit run `34071663361`
+- semantic commit `f157624fa1abf293453fa885f4c36a750e60ffd9`
+- review-basis commit `3066cda3d36b52c740ea6fe36c34c379ded6b244`
+- KEEP scope run `34071881826`
 
-A mismatch sets `LAYOUT_RECHECK`; unchanged language coverage stays valid. Engine-derived consumer/runtime metadata remains in each ledger row but is orthogonal to language equivalence.
+Batch 018 exposed a real generic layout-audit defect: repeated semantic whitespace boundaries were collapsed by a set-based Python comparison while the Go compiler preserved boundary cardinality. Commit `9b76712bb1cabc30106a9ea4d48efdee8cdcd770` changed `qa-layout-drift.py` to compiler-parity semantic-unit logic. No Korean-only exception was added.
 
-Dense scopes are also stale-checked ID by ID by reconstructing `reviewed_commit`. One changed row never invalidates the rest of a scope.
+Its historical `297 sec / 21 IDs` interval is **not** end-to-end production throughput. It represented the recorded direct-review window and excluded fixed/incident costs. Do not extrapolate either 163 h or 824 h remaining-work estimates from Batch 018.
 
-## Workload measurement
+## Batch 019 production-scale pilot — COMPLETE
 
-Generated source: `docs/audit/beta1-review-distribution.md`
+Reviewed source files, in actual repository/source order:
 
-- rows with non-`<end>` controls: 5,021
-- rows with sentence punctuation: 31,115
-- conservative rapid-scan candidates: 10,407
+1. `translations/korean/messages/msgsec007.toml`
+2. `translations/korean/messages/msgsec007-part99.toml`
+3. `translations/korean/messages/msgsec008-part99.toml`
+4. `translations/korean/messages/msgsec009-part99.toml`
 
-Rapid-scan candidate is only workload triage:
+Important tree fact: ordinary `msgsec008.toml` does **not** exist. Never infer the next filename mechanically; enumerate the actual tree before selecting each new scope.
 
-- visible KO <= 20
-- visible JP <= 20
-- no non-`<end>` controls
-- no sentence punctuation
+Batch 019 population:
 
-It grants zero contextual coverage by itself. `FIXED_BUFFER` is not used as a shortcut.
+- direct-read IDs: **59**
+- contextual IDs credited: **56**
+- KEEP: **39**
+- EDIT: **17**
+- exclusions/internal markers: **3** (`70029`, `80016`, `90011`)
+- propagated: **0**
+- observed EDIT rate over contextual IDs: **17/56 = 30.36%**; pilot statistic only, not a corpus-wide estimate
 
-Visible KO length bins:
+Every selected ID was directly read in source order as:
 
-- 1-10: 9,786
-- 11-20: 8,873
-- 21-40: 11,209
-- 41-80: 8,564
-- 81-160: 2,985
-- 161+: 599
+1. Japanese meaning/context
+2. pinned English treatment and likely reason
+3. current Korean accuracy/naturalness
 
-## Language propagation candidates
+No scanner-only KEEP and no repeated-text propagation was credited.
 
-Candidate equivalence is now exactly:
-
-1. exact Japanese
-2. exact pinned English
-3. exact Korean
-
-Any English mismatch forbids propagation without exception.
-
-Current candidate census:
-
-- unique language signatures: 35,725
-- duplicate groups: 2,667
-- IDs inside duplicate groups: 8,958
-- potential extra IDs after one representative: 6,291
-
-These remain candidate-only and contribute zero propagated coverage until explicit evidence is recorded.
-
-KEEP and EDIT have the same linguistic equivalence signature. KEEP is the harder-to-detect failure mode, so group propagation requires every member's surrounding context to be displayed and propagated KEEP must be over-sampled in second-pass QA. EDIT still passes exact-before manifest and heavy edit gates.
-
-## Deterministic dense review packets
-
-Tool:
-
-`tools/korean/build-beta1-review-packet.py`
-
-Scope evidence:
-
-`docs/audit/review/scope-*.json`
-
-Policy/schema:
-
-`docs/audit/review/README.md`
-
-The actual packet bytes are deterministic UTF-8/LF with fixed field order and numeric ID order. `packet_sha256` is verified by CI by regenerating the packet from `(reviewed_commit, pinned English SHA, exact ID set, source files)`.
-
-Scope KEEP population is reconstructed as:
-
-`ids - edit_ids - exclusions`
-
-No aggregate-only KEEP declaration is allowed.
-
-## KEEP / EDIT CI split
-
-### KEEP-only dense scope
-
-Workflow: `.github/workflows/beta1-review-scope.yml`
-
-- regenerate and verify packet hash
-- reconstruct ID-level language basis
-- rebuild ledger
-- reuse cached structural consumer/runtime evidence
-- no heavy Go/storage rerun merely for unchanged translations
-
-The lightweight path has been run successfully after cached structural evidence was created.
-
-### EDIT
-
-Workflow: `.github/workflows/beta1-reviewed-copyedit-queue.yml`
-
-Still requires:
-
-- exact before-values
-- approved manifest
-- layout invalidation/drift postconditions
-- glyph/font/integrity/terminology/consistency/text-sanity gates
-- pinned-English consumer/storage + effective-layout contract
-- semantic commit
-- rebase against legitimate remote HEAD
-- final post-rebase semantic SHA registration
-- push without force
-
-The queue now has a workflow-level concurrency group; concurrent reviewed batches cannot share the rebase/push window.
-
-The consumer/storage test derives effective English-consumer/dialogue layouts before residual static overflow checks, so deleted persisted layouts are re-derived in the existing heavy edit gate. Do not add a redundant whole-corpus overflow pass for every small edit batch.
-
-## Batch 018 dense full-read pilot — complete
-
-Scope:
-
-- `translations/korean/messages/msgsec005.toml`
-- `translations/korean/messages/msgsec006.toml`
-- 21 IDs read directly in source order
-
-Decisions:
-
-- KEEP: 11
-- EDIT: 9
-- exclusion/special: 1 (`50014`, internal section marker; pinned English intentionally blank)
-- propagated: 0
-- contextual coverage credited: 20
+### Batch 019 EDIT evidence and execution
 
 EDIT IDs:
 
-`50004, 50006, 50008, 50010, 50011, 60001, 60002, 60003, 60004`
+`70002, 70003, 70008, 70009, 70015, 70018, 70026, 80002, 80004, 80008, 80009, 80010, 80011, 80013, 80015, 90001, 90004`
 
-Evidence and execution:
+Key correction classes included:
 
-- edit manifest: `docs/audit/beta1-contextual-copyedit-018-reviewed.json`
-- KEEP scope: `docs/audit/review/scope-018.json`
-- throughput evidence: `docs/audit/review/throughput-018.json`
-- packet SHA256: `9cee205f04bb9952a27850329920fb8bc36661b703efbc01758612031845ab47`
-- heavy edit workflow run: `34071663361`
-- semantic edit commit: `f157624fa1abf293453fa885f4c36a750e60ffd9`
-- review-basis/registry commit: `3066cda3d36b52c740ea6fe36c34c379ded6b244`
-- KEEP scope workflow run: `34071881826`
+- `王者` mistranslated as `왕자` -> champion/winner sense corrected.
+- `他人事ながら` had been rendered as `남 일 같지 않게`, reversing the meaning; corrected to the speaker's detached-but-pleased sense.
+- Korean particle/grammar defects such as `우리에게 쥐어짠` were corrected.
+- missing question punctuation was restored where Japanese/English both establish an actual question.
+- literal Japanese calques such as `간판 아들` and `출발 무대` were naturalized after checking how the English patch avoided literal phrasing.
+- fullwidth numeral `６개국` was normalized to Korean-visible `6개국`.
 
-Every Batch 018 row was directly read as Japanese meaning/context -> pinned English treatment -> Korean. No repeated-text propagation was credited.
+Evidence:
 
-### Batch 018 layout-audit incident
+- manifest: `docs/audit/beta1-contextual-copyedit-019-reviewed.json`
+- queue revision: **20**
+- heavy edit workflow: `34079371354` — **SUCCESS**
+- semantic commit: `ff7e45c0bcc1bdabe4087acf5339a9d6e0c90b0d`
+- review-basis registration: `2c012b9f6180782d9084ebcdc83d814a75c08443`
 
-Editing ID `50006` reduced an ordinary whitespace run from three spaces to one. The persisted layout contained three corresponding consecutive `<line-break>` boundaries. The Go compiler's `internal/message.preservesSemantics` correctly rejected the stale layout, but `tools/korean/qa-layout-drift.py` had represented gap positions as a set and therefore lost repeated-boundary cardinality.
+Heavy gate passed all stages:
 
-Commit `9b76712bb1cabc30106a9ea4d48efdee8cdcd770` fixed the Python audit generically by introducing semantic-unit parsing and a `preserves_layout_semantics()` predicate that mirrors the Go compiler contract. No Korean-only exception was added. This is the required pattern: prefer the general consumer/storage/runtime contract, informed by the pinned English implementation, over a Korean-specific workaround.
+- exact before-value verification
+- control topology preservation
+- reviewed value application
+- stale persisted-layout invalidation/re-derivation
+- zero layout drift
+- changed-file restriction / `git diff --check`
+- Korean glyph/font/integrity/terminology/consistency/text-sanity gates
+- pinned-English consumer/storage/effective-layout contract
+- semantic commit + final post-rebase review-basis registration
 
-### Batch 018 timing interpretation
+### Batch 019 KEEP scope evidence
 
-`docs/audit/review/throughput-018.json` records a measured 297-second direct-review interval for 21 IDs (14.142857 seconds/ID, 254.545455 IDs/hour). That interval must **not** be interpreted as end-to-end Batch 018 wall-clock throughput. It excludes some evidence preparation, CI waiting, and the one-time `50006` audit incident and retry work.
+- scope: `docs/audit/review/scope-019.json`
+- packet SHA256: `42e123c4c4cf456c5d46276134ed3594ad35c4e5338c4172877f56bd2d347889`
+- final dense-scope workflow: `34079651223` — **SUCCESS**
+- coverage refresh commit: `a1d8525de742fe11ea6ffc16141d280eb991bbb4`
 
-Conversely, total observed session time must not be divided by 21 and extrapolated as pure per-ID reading cost because it contains batch-fixed and incident costs. Neither extrapolation is authoritative for the remaining corpus.
+The local session could not reproduce the Git checkouts required to calculate the deterministic packet hash directly. A placeholder hash was therefore used once to let the scope verifier expose its computed actual hash. That deliberate verification run `34079610648` failed only at packet-hash comparison and reported the actual SHA above. The scope was immediately sealed with that SHA and the final scope workflow passed packet regeneration, ledger rebuild, and coverage commit. This was process overhead, not a translation or runtime failure.
 
-The 018 class-specific stopwatch fields remain null because those classes were not timed separately. Do not synthesize missing timings.
+### Batch 019 throughput evidence
 
-018 was deliberately a small pilot and was not representative: 9/21 rows required EDIT, while the observed workload classification was high-risk 9, ordinary 11, rapid 1. No corpus-wide EDIT rate or production schedule may be inferred from this sample.
+File: `docs/audit/review/throughput-019.json`
 
-## Batch 019 measurement and sizing
+The measurement policy was corrected after Batch 018. Do not invent missing stopwatch data.
 
-Batch 019 is the first production-scale dense-review pilot. The abandoned 20-30-ID planning range is not authoritative.
+Actually observed from workflow timestamps:
 
-Scope size should target approximately **250-300 ordinary-ID-equivalent visible review workload**, not blindly 250-300 physical IDs. A state-heavy `<select>`/`<if>` row can represent several ordinary dialogue rows and must be weighted accordingly. Internal subsegments may be used to accumulate review decisions, but CI/evidence fixed overhead should be amortized into one coherent Batch 019 edit queue and one dense KEEP scope where practical.
+- successful heavy edit CI: **45 sec**
+- successful dense scope CI: **24 sec**
+- combined observed successful CI window: **69 sec**
+- hash-oracle incident run: **11 sec**, recorded separately
 
-Batch 019 throughput evidence must distinguish, when actually measured:
+Not separately instrumented, therefore intentionally `null`:
 
-- `wall_clock_seconds`
 - `reading_seconds`
 - `evidence_seconds`
-- `ci_wait_seconds`
-- `incident_seconds`
+- `wall_clock_seconds`
+- class-specific rapid/ordinary/high-risk stopwatch values
 
-Rapid / ordinary / high-risk class-specific stopwatch values may be populated only if those intervals are separately measured. Otherwise they remain null.
+Physical ID count is a poor workload proxy because state-heavy `<select>`/`<if>` IDs contain many visible dialogue states. Future batching should remain workload-aware rather than mechanically target an exact raw ID count.
 
-The Batch 019 EDIT rate is an observed pilot statistic only. It should be used to identify whether the next bottleneck is direct review or the heavy edit queue, not assumed to be the corpus-wide rate.
+## Dense review / propagation rules that remain locked
 
-Batch 019 has **not yet received any KEEP, EDIT, propagated, or exclusion coverage** at this checkpoint. Its actual source scope must be verified from the current branch tree before review; do not infer or invent the file after `msgsec007.toml`.
+- scanners and AI heuristics discover risk but create **zero KEEP coverage** by themselves.
+- exact language propagation signature is Japanese + pinned English + Korean.
+- any pinned-English mismatch forbids propagation.
+- KEEP propagation requires every sibling context to be displayed and checked before credit.
+- propagated KEEP remains separately counted and later over-sampled in second-pass accuracy QA.
+- EDIT propagation still requires exact-before values and all heavy edit gates.
+- final KEEP accuracy audit uses a different reviewer/model; correction rate above 5% expands re-review.
 
-## Second-pass accuracy
+## Beta1 completion requirements remain unchanged
 
-Tool:
+Beta1 is not complete until all four user goals are satisfied:
 
-`tools/korean/sample-beta1-review-audit.py`
+1. whole-dialogue line-break/reflow stability;
+2. excessive comma, bad spacing and punctuation proofreading;
+3. locked B-font readability;
+4. translation/naturalness/names/terminology correction.
 
-Requirements:
+Before declaring completion, valid contextual coverage must reach 100%, `CONTEXT_STALE=0`, all `LAYOUT_RECHECK` must be closed, final persisted-layout/static overflow/glyph/data/terminology/integrity/consumer contracts must pass, source anomalies/runtime-unbounded rows must have dispositions, and the reproducible second-pass KEEP audit must pass. **Do not start Beta2.**
 
-- deterministic seed
-- second reviewer/model must differ from first reviewer when first identity is known
-- propagated KEEP is deliberately over-sampled (default target 50% of the sample when population permits)
-- correction rate >5% requires expanded re-review
+## Next operation: Batch 020
 
-## Next operation: 019 production-scale pilot
+1. fetch the current legitimate `milestone/Beta1` HEAD and recent commits;
+2. read `docs/BETA1_ASTRA_RESUME_NOW.md`, this checkpoint, ledger policy, generated coverage, and review distribution;
+3. enumerate the actual message-file tree after the completed `msgsec009-part99.toml` scope; do not invent filenames;
+4. choose the next coherent source-order workload using roughly 250-300 ordinary-ID-equivalent visible dialogue as a planning target, reducing raw ID count for state-heavy rows;
+5. directly read every selected row JP -> pinned EN -> KO;
+6. inspect all sibling contexts before any propagation;
+7. create exact-before manifest `020` only for approved edits;
+8. update `docs/audit/beta1-copyedit-queue.json` to the next revision to trigger the heavy queue; adding a manifest alone does not trigger it;
+9. create deterministic `scope-020.json` and packet evidence for unchanged rows;
+10. record timing only where actually instrumented; keep unmeasured fields null;
+11. verify heavy EDIT CI, light KEEP scope CI, regenerated official coverage, and final remote HEAD before stopping.
 
-1. fetch current legitimate `milestone/Beta1` HEAD;
-2. enumerate the actual source files after the completed 005/006 scope from the branch tree;
-3. choose a coherent source-order scope totaling roughly 250-300 ordinary-ID-equivalent visible workload;
-4. generate the deterministic JP/EN/KO review basis at that HEAD;
-5. actually read every selected row in source order: Japanese source meaning/context first, pinned English treatment and rationale second, natural Korean judgment third;
-6. inspect all sibling contexts before approving any repeated-text propagation;
-7. record exact-before EDIT evidence separately and apply it through the heavy reviewed-edit queue;
-8. credit unchanged rows only through the deterministic dense KEEP scope;
-9. record separated timing evidence without inventing class timing;
-10. use the resulting EDIT mix and separated costs to size later production scopes.
-
-Track A remains risk-ranked candidate cleanup. Track B remains source-order dense review. The two tracks serve different purposes and must not be conflated.
+Track A risk discovery and Track B source-order dense full-read remain separate. Batch 020 should continue Track B while using Track A findings only as supplementary risk signals.
