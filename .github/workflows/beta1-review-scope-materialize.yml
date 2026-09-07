@@ -115,6 +115,7 @@ jobs:
         run: |
           shopt -s nullglob
           for scope in docs/audit/review/scope-*.json; do
+            case "$scope" in *-request.json) continue ;; esac
             python3 tools/korean/build-beta1-review-packet.py \
               --english-root ../english --scope "$scope" --verify
           done
