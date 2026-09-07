@@ -18,22 +18,21 @@ A row is valid only when its historical review basis still matches current
 `SHA256(JP + NUL + pinned EN + NUL + KO + NUL + layout + NUL + consumer_signature)`.
 Mismatch automatically reports `CONTEXT_STALE` and removes the row from valid coverage.
 
-## Orthogonal flags currently derived
+## Orthogonal flags and strict propagation candidates
 
 - `PERSISTED_LAYOUT`: **27** among ledger rows
 - `ALIAS_GROUP`: **0** among ledger rows
 - `SOURCE_ANOMALY`: **0** among ledger rows
-- `FIXED_BUFFER` / `RUNTIME_PENDING`: **not guessed**; pending integration with a repository-derived consumer/runtime map.
+- `FIXED_BUFFER`: **241** among ledger rows; full accepted population **19380**
+- `RUNTIME_PENDING`: **1** among ledger rows; full accepted population **47**
+- English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
-## Strict propagation candidates (not coverage)
+Strict propagation candidates are derived from exact JP + exact KO + exact persisted layout + pinned-English engine consumer signature + physical alias/storage signature. They are candidates only and contribute zero coverage until explicitly propagated from a directly reviewed representative.
 
-- Unique strict signatures: **36,899**
-- Duplicate strict-signature groups: **1,986**
-- IDs inside such groups: **7,103**
-- Potential extra IDs after one representative review per group: **5,117**
-
-Strict signature requires exact Japanese + exact Korean + exact persisted layout + repository-visible consumer signature.
-These are candidates only; no automatic KEEP propagation is credited.
+- Unique strict signatures: **37351**
+- Duplicate strict-signature groups: **1659**
+- IDs inside such groups: **6324**
+- Potential extra IDs: **4665**
 
 ## Historical edit manifests
 
