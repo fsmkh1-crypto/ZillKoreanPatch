@@ -1,7 +1,7 @@
 # Beta1 next-review candidate packet
 
-start_id: 200405
-candidate_count: 700
+start_id: 300084
+candidate_count: 1200
 pinned_english_sha: a98d9ce29f361d666ec23da0dcfd351f24537ffd
 order: global numeric ID
 note: candidate packet only; creates no review coverage.
@@ -4905,4 +4905,3504 @@ jp_matches_pinned_english: yes
 JP: "ルルアンタを捜してきてくれないか？<line-break>お前がノーブルにいる間中行っていた<line-break>町の外の森に行ったはずだ。<line-break>頼んだよ、<value:$28>。<end>"
 EN: "Could you go find Lulluantha? She should have gone to that forest outside town, the one you visited all the time while you were in Noble. I'm counting on you, <value:$28>.<end>"
 KO: "루루안타를 찾아와 주겠어? 네가 노블에 있는 동안 계속 갔던 마을 밖 숲으로 갔을 거야. 부탁한다, <value:$28>.<end>"
+
+## 330193
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１７<end>"
+EN: "Reserve Message 17<end>"
+KO: "예비 메시지 17<end>"
+
+## 330194
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１８<end>"
+EN: "Reserve Message 18<end>"
+KO: "예비 메시지 18<end>"
+
+## 330195
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１９<end>"
+EN: "Reserve Message 19<end>"
+KO: "예비 메시지 19<end>"
+
+## 330196
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセー２０<end>"
+EN: "Reserve Messa 20<end>"
+KO: "예비 메시지 20<end>"
+
+## 330197
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "これこれ、道具屋は逆方向だよ。<line-break>ルルアンタも待っているんだ。<line-break>あまり意地悪しないでやってくれ。<end>"
+EN: "Now, now, the item shop is the other way. Lulluantha is waiting too, so try not to be too mean, will you?<end>"
+KO: "이봐, 도구점은 반대 방향이야. 릴비도 기다리고 있어. 너무 심술부리지 마.<end>"
+
+## 330198
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3フリントさんも、今日、出発か。<line-break>気をつけてな。<end>ここだけの話だが、この町に<line-break>王妃エリスの隠密が<line-break>入りこんだとのことだ。<line-break>ここのご領主レムオン様と<line-break>エリス王妃は仲がお悪いからな。<line-break>気をつけねばならん。<end>しかし、フリントさんのような<line-break>善人でお金を持っている人が<line-break>よく無事だったな。<line-break>この町の代官ボルボラは強欲で<line-break>手段を選ばない悪い奴…<line-break>おっと、これはここだけの話だ。<end>"
+EN: "<select><value:$20>%3So Flint is leaving today too. Take care.<end>Just between us, I hear a covert agent of Queen Eris has slipped into town. Our lord, Lemghon, and Queen Eris are on bad terms, you see. We'd best be careful.<end>Still, it's a wonder someone as good and wealthy as Flint made it through unscathed. Bolbora, the magistrate of this town, is a greedy scoundrel who'll stop at nothing... Ah, but that's just between us.<end>"
+KO: "<select><value:$20>%3플린트 씨도 오늘 출발하는군. 조심하게.<end>여기서만 하는 얘기인데, 이 마을에 왕비 에리스의 밀정이 들어왔다더군. 이곳 영주 레무온 님과 에리스 왕비는 사이가 좋지 않으니 조심해야 해.<end>하지만 플린트 씨처럼 선량하고 돈도 많은 사람이 용케 무사했군. 이 마을 대관 볼보라는 탐욕스럽고 수단을 가리지 않는 악당… 이런, 이건 여기서만 하는 얘기야.<end>"
+
+## 330199
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>～<line-break>道具屋はこっちだよぉ～！<line-break>早く、早くぅ～！<end>"
+EN: "<value:$28>! The item shop's over here! Hurry, hurry!<end>"
+KO: "<value:$28>~ 도구점은 이쪽이야~! 빨리, 빨리~!<end>"
+
+## 330200
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "あーっ、<value:$28>！<line-break>もう、どこ行ってたのよぉ！<line-break>捜したんだよぉ～。<end>"
+EN: "Ah, <value:$28>! Where have you been? I've been looking for you!<end>"
+KO: "아앗, <value:$28>! 대체 어디 갔던 거야! 찾았잖아~.<end>"
+
+## 330201
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "くっ。<line-break>に、逃げろ！<end>"
+EN: "Gah... R-run!<end>"
+KO: "큭. 도, 도망쳐!<end>"
+
+## 330202
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "用意はできた<end>"
+EN: "Ready.<end>"
+KO: "준비됐다<end>"
+
+## 330203
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "もう少し…<end>"
+EN: "Just a little more…<end>"
+KO: "조금만 더…<end>"
+
+## 330204
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうか。<line-break>それでは、ロストールに向けて<line-break>出発するぞ。<end>"
+EN: "All right. Then we're leaving for Rostorl.<end>"
+KO: "그래. 그럼 로스톨을 향해 출발한다.<end>"
+
+## 330205
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうか。<line-break>それでは、しっかり用意してきなさい。<end>"
+EN: "All right. Then make sure you're fully prepared.<end>"
+KO: "그렇군. 그럼 단단히 준비해서 오게.<end>"
+
+## 330206
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "じゃあ、この辺で<line-break>少し休むことにしよう。<end>"
+EN: "Let's rest here for a while.<end>"
+KO: "그럼 이 근처에서 조금 쉬도록 하자.<end>"
+
+## 330207
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3エリス王妃に会って<line-break>生命のかけらをもらってこい。<line-break>王妃はロストール王宮だ。<end>王妃のいる王宮へは、<line-break>とにかく奥へ奥へと行けばいい。<line-break>頼んだぜ、<value:$28>。<end>急いで戻れ。<line-break>…思ったより、衰弱が激しい。<end>"
+EN: "<select><value:$20>%3Go see Queen Eris and get a Life Fragment from her. You'll find her at the royal palace in Rostorl.<end>To reach the palace where the queen is, just keep heading farther and farther in. I'm counting on you, <value:$28>.<end>Hurry back. ...Much weaker than I thought.<end>"
+KO: "<select><value:$20>%3에리스 왕비를 만나 생명의 조각을 받아 와. 왕비는 로스톨 왕궁에 있어.<end>왕비가 있는 왕궁에는 계속 안쪽으로 가면 돼. 부탁한다, <value:$28>.<end>서둘러 돌아와. …생각보다 쇠약이 심해.<end>"
+
+## 330208
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "この奥にみごとな千年樹が　　　<line-break>見えますじゃろう？<line-break>あすこが広場ですじゃ。<line-break>その広場を右手に行くと貴族街。<line-break>その貴族街のずっとずっと奥が<line-break>王妃様のおられる王宮ですじゃ。<end>"
+EN: "Can you see that magnificent Thousand-Year Tree farther in? That's the square. Turn right there and you'll come to the nobles' quarter. Far, far beyond it is the royal palace, where Her Majesty the Queen resides.<end>"
+KO: "이 안쪽에 멋진 천년수가 보이지요? 저기가 광장입니다. 그 광장에서 오른쪽으로 가면 귀족가. 그리고 그 귀족가 아주 깊숙한 곳이 왕비님이 계시는 왕궁입니다.<end>"
+
+## 330209
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール王宮を知ってるかーい？<line-break>青い紋章の入った柱の間を行けば、　<line-break>貴族街に出るのさー。<line-break>その貴族街のさらに奥に行けば<line-break>王宮に出るのさー。<line-break>遠いから、ボクは行かないけどねー。<end>"
+EN: "Know where Rostorl Palace is? Go between the pillars with the blue crests and you'll come out in the noble quarter. Keep going past the noble quarter and you'll reach the palace. It's too far for me, though, so I'm not going.<end>"
+KO: "로스톨 왕궁 알아~? 파란 문장이 들어간 기둥 사이를 지나면 귀족가가 나와~. 그 귀족가 더 안쪽으로 가면 왕궁이 나오지~. 멀어서 난 안 가지만~.<end>"
+
+## 330210
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "王宮か？<line-break>この道をずっとまっすぐ行けば<line-break>王宮の門に出るよ。<end>"
+EN: "The palace? Follow this road straight ahead and you'll come to the palace gates.<end>"
+KO: "왕궁? 이 길을 계속 곧장 가면 왕궁 문이 나와.<end>"
+
+## 330211
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "まあ、待て。<line-break>何か急ぎの用がありそうだ。<line-break>どうしたのだ？<end>"
+EN: "Wait a moment. You seem to be in a hurry. What's happened?<end>"
+KO: "잠깐, 기다려라. 무언가 급한 용무가 있는 것 같군. 무슨 일이냐?<end>"
+
+## 330212
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "とう！<end>"
+EN: "Hah!<end>"
+KO: "타앗!<end>"
+
+## 330213
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "♪俺が正義だ！　ガルドラ～ン！<line-break>♪正義が俺だ！　ガルドラ～ン！<line-break>♪愛のパンチを　貴様に～！<end>"
+EN: "♪ I am justice! Girldlan! ♪ Justice is me! Girldlan! ♪ Take my punch of love!<end>"
+KO: "♪내가 정의다! 갈드라~안! ♪정의가 나다! 갈드라~안! ♪사랑의 펀치를 네놈에게~!<end>"
+
+## 330214
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "…<value:$28>、<line-break>おやじさんは…亡くなられた。<end>"
+EN: "<value:$28>... your father has passed away.<end>"
+KO: "…<value:$28>, 아버님은… 돌아가셨어.<end>"
+
+## 330215
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ…。えっと、えっと！<line-break>じゃ、じゃあ、ルルアンタ、<line-break><value:$28>を探してくるね！<end>"
+EN: "Oh... um, um! Th-then Lulluantha will go find <value:$28>!<end>"
+KO: "아…. 저기, 저기! 그럼 루루안타가 <value:$28>을 찾아올게!<end>"
+
+## 330216
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "ルルアンタが、私たちと<line-break>一緒に行動するようになって１０年か。<line-break>…あっという間だったな。<line-break>あの子のほほえみは<line-break>母親を亡くした幼い<value:$28>を<line-break>ずいぶん元気づけてくれたよ。<end>"
+EN: "It's been ten years since Lulluantha joined us. It went by in no time. Her smile did so much to cheer up little <value:$28> after the child's mother died.<end>"
+KO: "루루안타가 우리와 함께 다니게 된 지도 10년인가. …순식간이었군. 그 아이의 미소는 어머니를 잃은 어린 <value:$28>에게 큰 힘이 되어 줬어.<end>"
+
+## 330217
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "…そして、私もな。　　　　　　　　　<line-break><line-break><end>"
+EN: "And me as well.<end>"
+KO: "…그리고 나도 말이지.<end>"
+
+## 330218
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "おや、<value:$28>。<line-break>戻ったか。<line-break>ルルアンタは一緒じゃないのか？<end>"
+EN: "Ah, <value:$28>. You're back. Isn't Lulluantha with you?<end>"
+KO: "어라, <value:$28>. 돌아왔구나. 루루안타는 같이 안 왔어?<end>"
+
+## 330219
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうか。<line-break>いや、今、お前を捜しに行ったのだ。<line-break>すれ違ってしまったようだな。<line-break>そろそろ、ロストールへ出発だ。<line-break>悪いが、<value:$28>、<line-break>ルルアンタを捜してきてくれないか？<end>"
+EN: "I see. She just went out looking for you. You must have missed each other. It's nearly time to leave for Rostorl. Sorry to ask, <value:$28>, but would you go find Lulluantha?<end>"
+KO: "그렇군. 아니, 방금 너를 찾으러 갔었어. 엇갈린 모양이군. 슬슬 로스톨로 출발할 때야. 미안하지만 <value:$28>, 루루안타를 찾아와 주지 않겠어?<end>"
+
+## 330220
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前なら大丈夫だろうが、<line-break>十分、注意するんだよ。<line-break>これを持っていきなさい。<end>"
+EN: "I'm sure you'll be all right, but be very careful. Take this with you.<end>"
+KO: "너라면 괜찮겠지만, 충분히 조심하렴. 이걸 가져가.<end>"
+
+## 330221
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "おお、フリントさんとこの<line-break><value:$28>か。<line-break>今日出発かな。<end>"
+EN: "Oh, you're <value:$28>, from Flint's place. Leaving today, are you?<end>"
+KO: "오오, 플린트 씨네 <value:$28>구나. 오늘 출발하나?<end>"
+
+## 330222
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "いつも一緒のおチビちゃんが<line-break>お前を捜しとった。<line-break>町の外の森の方に行ったぞ。<end>"
+EN: "That little one who's always with you was looking for you. Headed toward the woods outside town.<end>"
+KO: "늘 같이 다니는 꼬마가 너를 찾고 있더구나. 마을 밖 숲 쪽으로 갔어.<end>"
+
+## 330223
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0あいかわらず、俺様の目に狂いなし！<line-break>あれがフリントの息子、<line-break><value:$28>だな？<line-break>奴を捕らえ、<line-break>悪の使者フリントから密書を奪う！<line-break>俺様の正義伝説の幕開けだ！<end>あいかわらず、俺様の目に狂いなし！<line-break>あれがフリントの娘、<line-break><value:$28>だな？<line-break>奴を捕らえ、<line-break>悪の使者フリントから密書を奪う！<line-break>俺様の正義伝説の幕開けだ！<end>"
+EN: "<if><value:$29><equal>%0My keen eye is as infallible as ever! That's Flint's son, <value:$28>, isn't it? Seize him and take the Secret Letter from Flint, that agent of evil! Now begins my legend of justice!<end>My keen eye is as infallible as ever! That's Flint's daughter, <value:$28>, isn't it? Seize her and take the Secret Letter from Flint, that agent of evil! Now begins my legend of justice!<end>"
+KO: "<if><value:$29><equal>%0역시 나님의 눈은 틀리지 않았어! 저 녀석이 플린트의 아들 <value:$28>로군? 놈을 붙잡아 악의 사자 플린트에게서 밀서를 빼앗는다! 나님의 정의 전설은 지금부터 시작이다!<end>역시 나님의 눈은 틀리지 않았어! 저 녀석이 플린트의 딸 <value:$28>로군? 놈을 붙잡아 악의 사자 플린트에게서 밀서를 빼앗는다! 나님의 정의 전설은 지금부터 시작이다!<end>"
+
+## 330224
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "歴史よ！　しばし待つがいい！<line-break>ここに究極の勇者ガルドラン様が<line-break>誕生するのだ！　ふひゃひゃひゃひゃ！<end>"
+EN: "History, wait but a moment! For here is born the ultimate Hero, the great Girldlan! Fuhyahyahyahya!<end>"
+KO: "역사여! 잠시 기다려라! 여기 궁극의 용사 갈드란 님이 탄생한다! 푸히야히야히야히야!<end>"
+
+## 330225
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "えっ！？　すれちがっちゃったの？<line-break>それで、<value:$28>は<line-break>わざわざ、捜しにきてくれたんだ…。<end>"
+EN: "What!? We missed each other? And <value:$28> came all this way just to look for me...<end>"
+KO: "뭐!? 엇갈린 거야? 그래서 <value:$28>이 일부러 찾으러 와 준 거구나….<end>"
+
+## 330226
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ゴメンね。<line-break><value:$28>。<end>"
+EN: "I'm sorry, <value:$28>.<end>"
+KO: "…미안해. <value:$28>.<end>"
+
+## 330227
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ありがと。<line-break>やさしいね。<line-break><value:$28>って。<line-break>じゃ、行こ！<line-break>早く戻らないとフリントさん、<line-break>心配してるよぉ！<end>"
+EN: "Thanks. You're so kind, <value:$28>. Come on, let's go! If we don't hurry back, Flint will be worried!<end>"
+KO: "…고마워. 다정하네, <value:$28>. 자, 가자! 빨리 돌아가지 않으면 플린트 씨가 걱정할 거야!<end>"
+
+## 330228
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "ね、<value:$28>。<line-break>宿屋のフリントさんのとこに<line-break>早くもどろうよぉ。<end>"
+EN: "Come on, <value:$28>. Let's hurry back to Flint at the inn.<end>"
+KO: "저기, <value:$28>. 여관의 플린트 씨한테 빨리 돌아가자.<end>"
+
+## 330229
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "ま、ここまで来れば、<line-break>一応は安全だろう。<end>"
+EN: "Well, we should be safe enough now that we've made it this far.<end>"
+KO: "뭐, 여기까지 왔으면, 일단은 안전하겠지.<end>"
+
+## 330230
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "ありがと！<line-break>ルルアンタたち、宿屋にいるの。<line-break>お礼もしたいから、来てね！<end>"
+EN: "Thank you! Lulluantha and the others are at the inn. I want to thank you properly, so come by!<end>"
+KO: "고마워! 루루안타 일행은 여관에 있어. 사례도 하고 싶으니까 와 줘!<end>"
+
+## 330231
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>もお礼！<end>"
+EN: "<value:$28> wants to thank you too!<end>"
+KO: "<value:$28>도 고마워!<end>"
+
+## 330232
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "ハハハ、わかった。<line-break>気が向いたら行くよ。<end>"
+EN: "Ha ha, all right. I'll come if the mood takes me.<end>"
+KO: "하하하, 알았어. 마음 내키면 갈게.<end>"
+
+## 330233
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "きっとだよ！<line-break>ルルアンタ、先に行って<line-break>待ってるから！<end>"
+EN: "You'd better! Lulluantha will go on ahead and wait for you!<end>"
+KO: "꼭 와! 루루안타는 먼저 가서 기다릴게!<end>"
+
+## 330234
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "世話焼きで、<line-break>多少、うるさいくらいだが、<line-break>明るい、いい子だな。<end>"
+EN: "A bit of a busybody, and even a nuisance at times, but cheerful and a good kid.<end>"
+KO: "남 챙기기를 좋아하고 조금 시끄러울 정도지만 밝고 좋은 아이야.<end>"
+
+## 330235
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "宿屋でおやじさんが<line-break>待ってるんだろう？<line-break>早く行ってやるといい。<line-break>俺もあとから<line-break>ちょっと、おやじさんに<line-break>あいさつさせてもらうから。<end>"
+EN: "Your father is waiting at the inn, isn't he? You'd better get back to him. I'll stop by later and pay my respects.<end>"
+KO: "여관에서 아버지가 기다리고 있지? 빨리 가보는 게 좋아. 나도 나중에 아버지께 인사하러 갈 테니까.<end>"
+
+## 330236
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、<line-break>あの人、連れてきてくれたら<line-break>よかったのに。<end>"
+EN: "<value:$28>, I wish you'd brought that person with you.<end>"
+KO: "<value:$28>, 그 사람도 데려왔으면 좋았을 텐데.<end>"
+
+## 330237
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "よ、ジャマするぜ。<end>"
+EN: "Hey. Mind if I barge in?<end>"
+KO: "여어, 방해 좀 할게.<end>"
+
+## 330238
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "あーっ、あの人！<line-break>あの人だよ、フリントさん！<end>"
+EN: "Ah, there! That's the one, Flint!<end>"
+KO: "아, 저 사람! 저 사람이야, 플린트 씨!<end>"
+
+## 330239
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>たちに<line-break>指一本触れさせん！<end>"
+EN: "I won't let you lay a finger on <value:$28> or the others!<end>"
+KO: "<value:$28> 일행에게 손가락 하나 못 대게 하겠다!<end>"
+
+## 330240
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "フリント！<end>"
+EN: "Flint!<end>"
+KO: "플린트!<end>"
+
+## 330241
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様らザコどもなど、<line-break>俺様じきじきに相手するまでもない！<line-break>いでよ！　勇者のおつきのみなさん！<end>"
+EN: "I need not trouble myself with worthless rabble like you! Come forth, all you attendants of the Hero!<end>"
+KO: "네놈들 같은 잡것은 나님이 직접 상대할 필요도 없다! 나와라! 용사의 수행원 여러분!<end>"
+
+## 330242
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "わき役はわき役らしく<line-break>俺様伝説の片隅で<line-break>適当にやられているがいい！<end>"
+EN: "Know your place as minor characters and get yourselves beaten somewhere in the margins of my legend!<end>"
+KO: "조연은 조연답게 내 전설의 한구석에서 적당히 쓰러져 있어라!<end>"
+
+## 330243
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "う…うう…頭が痛い…。<line-break>何が起こった…のだ。<end>"
+EN: "Ugh... my head hurts... What happened?<end>"
+KO: "으… 으으… 머리가 아파…. 무슨 일이… 있었던 거지.<end>"
+
+## 330244
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "む！　さすがは俺様！<line-break>いつの間にか悪漢フリントを<line-break>倒していたとは！！<line-break>やはり、愛と正義は勝つ！<line-break>俺様は、たとえ気を失っていても、<line-break>悪に敗れる男ではないのだ！<end>"
+EN: "Aha! I never cease to amaze myself! To think I defeated that villain Flint without even realizing it! Love and justice always prevail! Even unconscious, I am not a man who can be vanquished by evil!<end>"
+KO: "음! 역시 나야! 어느새 악한 플린트를 쓰러뜨렸다니!! 역시 사랑과 정의는 승리한다! 나는 의식을 잃고 있어도 악에게 지는 남자가 아니다!<end>"
+
+## 330245
+source: translations/korean/messages/msgsec033-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅立ち０６メッセージ終端<end>"
+EN: "Departure 06 message end<end>"
+KO: "여행 출발 06 메시지 끝<end>"
+
+## 340000
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅立ち０７メッセージ<end>"
+EN: ""
+KO: "여행 출발 07 메시지<end>"
+
+## 340001
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、見せてみろ。<end>"
+EN: "All right, let me see it.<end>"
+KO: "좋아, 보여 봐.<end>"
+
+## 340002
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "そこそこ、形になっているな。<line-break>しかし…<end>"
+EN: "Not bad. It's taking shape. But...<end>"
+KO: "그럭저럭 모양은 갖췄군. 하지만….<end>"
+
+## 340003
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "どうもっ！　お疲れっす、カッツさん！<line-break>ウルカーン神殿の者ですっ！<end>"
+EN: "Hello! Hard at work, Katz? I'm from the Temple of Ulkarne!<end>"
+KO: "안녕하세요! 수고 많으십니다, 캇츠 씨! 울칸 신전에서 왔습니다!<end>"
+
+## 340004
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ああ。<end>"
+EN: "...Yeah.<end>"
+KO: "…그래.<end>"
+
+## 340005
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "先日お願いした儀礼用メイス６本っ、<line-break>できていますでしょうかっ！？<end>"
+EN: "Are the six ceremonial maces I ordered the other day ready!?<end>"
+KO: "전에 부탁드린 의식용 메이스 6자루, 완성됐습니까!?<end>"
+
+## 340006
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "あっ！！　あれですねっ！！<end>"
+EN: "Oh! Those!<end>"
+KO: "아!! 저거군요!!<end>"
+
+## 340007
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "す、すごいっ！　さすがカッツさんっ！<line-break>すばらしいできですっ！　感動ですっ！<end>"
+EN: "A-amazing! I knew you could do it, Katz! They're beautifully made! I'm so impressed!<end>"
+KO: "대, 대단해요! 역시 카츠 씨! 훌륭한 완성도예요! 감동이에요!<end>"
+
+## 340008
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "そう言えばっ！　夜明け前の地震は<line-break>すごかったですねっ！<end>"
+EN: "Oh, that reminds me! That earthquake before dawn was incredible, wasn't it?<end>"
+KO: "그러고 보니! 새벽 전 지진은 정말 대단했죠!<end>"
+
+## 340009
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ん…<end>"
+EN: "...Mm.<end>"
+KO: "…응…<end>"
+
+## 340010
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "私は炎竜山の炎が<line-break>復活したのかと思いましたっ！！<end>"
+EN: "I thought the fires of Flame Dragon Mountain had come back to life!<end>"
+KO: "저는 염룡산의 불길이 되살아난 줄 알았습니다!!<end>"
+
+## 340011
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "うーむ…。<end>"
+EN: "Hmm...<end>"
+KO: "으음….<end>"
+
+## 340012
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "あっ、今回のお代ですっ！！<line-break>お受け取りくださいっ！<end>"
+EN: "Oh, here's the payment! Please, take it!<end>"
+KO: "아, 이번 대금입니다!! 받아 주세요!<end>"
+
+## 340013
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、あのっ！<line-break>カッツさんっ！<end>"
+EN: "Um, Katz!<end>"
+KO: "저, 저기요! 캇츠 씨!<end>"
+
+## 340014
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、<line-break>受け取っておけ。<end>"
+EN: "<value:$28>, take it.<end>"
+KO: "<value:$28>, 받아 둬.<end>"
+
+## 340015
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "初めてにしては悪くないが…。<end>"
+EN: "Not bad for a first attempt, but...<end>"
+KO: "처음치고는 나쁘지 않지만….<end>"
+
+## 340016
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "カッツさんっ！<line-break>その剣はなんですかっ！<line-break>カッツさんの新作ですかっ！？<end>"
+EN: "Katz! What's that sword? Is it your latest work!?<end>"
+KO: "카츠 씨! 그 검은 뭔가요! 카츠 씨의 신작인가요!?<end>"
+
+## 340018
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "そっ、そうなんですかっ！？<line-break>ついに<value:$28>さんも<line-break>一人前にっ！<end>"
+EN: "R-really!? So <value:$28> is finally a full-fledged smith too!<end>"
+KO: "저, 정말인가요!? 드디어 <value:$28> 씨도 한 사람 몫을!<end>"
+
+## 340019
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…まだまだ、だな。<end>"
+EN: "...Not even close.<end>"
+KO: "…아직 멀었군.<end>"
+
+## 340020
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "いいか、<value:$28>、<line-break>まず切先だが…<end>"
+EN: "Listen, <value:$28>. First, the point...<end>"
+KO: "좋아, <value:$28>, 우선 검끝부터인데….<end>"
+
+## 340021
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "これだけで見違えるようになる。<line-break>他には…<end>"
+EN: "Fix that alone and it'll look like a different sword. Then there's...<end>"
+KO: "이것만으로도 몰라보게 달라질 거야. 또 다른 건…<end>"
+
+## 340022
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…こんなところか。<line-break>このくらいは、できんと話にならん。<end>"
+EN: "...That should do it. If you can't manage at least this much, you're not ready.<end>"
+KO: "…이 정도인가. 이 정도도 못 하면 이야기가 안 되지.<end>"
+
+## 340023
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "まさか…。いや、今度こそ！<end>"
+EN: "Could it be...? No. This time, it has to be!<end>"
+KO: "설마…. 아니, 이번에는 반드시!<end>"
+
+## 340024
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "煙が…。<line-break>炎竜山が噴火している…。<end>"
+EN: "Smoke... Flame Dragon Mountain is erupting...<end>"
+KO: "연기가…. 염룡산이 분화하고 있어….<end>"
+
+## 340025
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "とっ、ということはっ！<line-break>炎竜山の宝剣伝説が<line-break>よみがえるんですかっ！？<end>"
+EN: "Th-then does that mean the legend of Flame Dragon Mountain's treasured sword will come to life!?<end>"
+KO: "그, 그렇다는 건! 염룡산의 보검 전설이 되살아나는 겁니까!?<end>"
+
+## 340026
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "炎竜山の炎で鍛えた剣は緋色に燃え、<line-break>神をも斬り裂く宝剣となる…。<line-break>　<line-break>待ちかねたぞ、この日を。<line-break>俺たちの夢…緋炎の宝剣を打つ日を。<end>"
+EN: "A sword forged in the fires of Flame Dragon Mountain will blaze crimson and become a treasured blade capable of cleaving even a god... I've waited so long for this day: the day we fulfill our dream of forging the Crimson Flame Sword.<end>"
+KO: "염룡산의 불꽃으로 단련한 검은 진홍빛으로 타올라 신조차 베는 보검이 된다…. 기다렸다, 이 날을. 우리의 꿈… 비염의 보검을 만드는 날을.<end>"
+
+## 340027
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、すぐに支度しろ。<line-break>俺は作業場で準備する。<end>"
+EN: "All right, get ready at once. I'll make preparations in the workshop.<end>"
+KO: "좋아, 바로 준비해. 나는 작업장에서 준비하겠다.<end>"
+
+## 340028
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "でっ、では私はこれで失礼しますっ！<line-break>ありがとうございましたっ！<end>"
+EN: "Th-then I'll be on my way! Thank you very much!<end>"
+KO: "그, 그럼 저는 이만 실례하겠습니다! 감사합니다!<end>"
+
+## 340029
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、準備はいいな。<line-break>行くぞ。山の獣には気をつけろよ。<end>"
+EN: "All right, ready? Let's go. Watch out for the beasts on the mountain.<end>"
+KO: "좋아, 준비됐지. 간다. 산짐승을 조심해.<end>"
+
+## 340030
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、母さんに<line-break>あいさつしていこう。<end>"
+EN: "Let's go say hello to your mother first.<end>"
+KO: "좋아, 엄마한테 인사하고 가자.<end>"
+
+## 340031
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロッチナ…。炎竜山がついに復活した。<line-break>これで宝剣が打てる。<line-break>俺たちの夢がかなうぞ…。<end>"
+EN: "Rotchina... Flame Dragon Mountain has finally awakened. Now the treasured sword can be forged. Our dream is going to come true...<end>"
+KO: "롯치나…. 염룡산이 드디어 부활했어. 이제 보검을 만들 수 있다. 우리 꿈이 이루어지는 거야….<end>"
+
+## 340032
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "それと、今日<line-break><value:$28>が剣を打った。<line-break>見てやってくれ。　　　　　　　<end>"
+EN: "And <value:$28> forged a sword today. Have a look.<end>"
+KO: "그리고 오늘 <value:$28>가 검을 만들었어. 봐 줘.<end>"
+
+## 340033
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "初めてにしてはスジがいい。　　<line-break><value:$28>には才能がある。<line-break>　<line-break>いつか俺たちをも越える、<line-break>大陸一の鍛冶職人になるだろう。<line-break>お前も見守ってやってくれ…。<end>"
+EN: "Not bad for a first attempt. <value:$28> has talent. Someday, our child will surpass even us and become the finest blacksmith on the continent. Watch over our child too...<end>"
+KO: "처음치고는 솜씨가 좋아. <value:$28>에게는 재능이 있어. 언젠가 우리를 뛰어넘어 대륙 최고의 대장장이가 되겠지. 너도 지켜봐 줘….<end>"
+
+## 340034
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロッチナは…、<line-break>お前の母さんは、強い人だった…。　　<line-break>　<line-break>お前を産んですぐに死んだが…、<line-break>…鍛冶職人としても、<line-break>女性としても、尊敬できる人だった…。<end>"
+EN: "Rotchina... your mother was a strong woman. She died soon after giving birth to you, but... I respected her both as a blacksmith and as a woman...<end>"
+KO: "롯치나는… 네 엄마는 강한 사람이었어…. 널 낳고 곧 죽었지만… 대장장이로서도, 여성으로서도 존경할 만한 사람이었지….<end>"
+
+## 340035
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "いつか宝剣を打つことを夢見て<line-break>母さんと俺は、ここに来たんだ…。　　<line-break>　<end>"
+EN: "Your mother and I came here dreaming that one day we'd forge the treasured sword...<end>"
+KO: "언젠가 보검을 만들겠다는 꿈을 품고 엄마와 나는 여기로 왔어….<end>"
+
+## 340036
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "く…っ、何だ？<end>"
+EN: "Urgh... What is it?<end>"
+KO: "큭… 뭐지?<end>"
+
+## 340037
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "この丘にこんな猛獣が…、<line-break>何があったんだ？<end>"
+EN: "A beast like that, here on this hill...? What's happened?<end>"
+KO: "이 언덕에 이런 맹수가… 무슨 일이 있었던 거지?<end>"
+
+## 340038
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロッチナ、俺たちは行くぞ。<line-break>あとで、宝剣を持ってくる。<end>"
+EN: "Rotchina, we're going now. We'll bring the treasured sword back to you.<end>"
+KO: "롯치나, 우리는 간다. 나중에 보검을 가져올게.<end>"
+
+## 340039
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、炎の泉が<line-break>炎竜の炎で満ちている。<end>"
+EN: "Good. The Pool of Fire is brimming with the Flame Dragon's flames.<end>"
+KO: "좋아, 불꽃의 샘이 염룡의 불꽃으로 가득 찼다.<end>"
+
+## 340040
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "さっそく準備だ。<line-break><value:$28>、<line-break>一番赤い炎竜岩を持ってこい。<end>"
+EN: "Let's get to work. <value:$28>, bring me the reddest Flame Dragon Rock.<end>"
+KO: "바로 준비하자. <value:$28>, 가장 붉은 염룡암을 가져와.<end>"
+
+## 340041
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "早く炎竜岩を<line-break>持ってこい。<end>"
+EN: "Hurry up and bring me the Flame Dragon Rock.<end>"
+KO: "빨리 염룡암을 가져와.<end>"
+
+## 340042
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "炎竜岩をカッツに手渡した。<end>"
+EN: "The Flame Dragon Rock was handed to Katz.<end>"
+KO: "염룡암을 카츠에게 건넸다.<end>"
+
+## 340043
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、始めるぞ。<end>"
+EN: "All right, let's begin.<end>"
+KO: "좋아, 시작한다.<end>"
+
+## 340044
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…よし！<end>"
+EN: "...There!<end>"
+KO: "…좋아!<end>"
+
+## 340045
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、大丈夫か！？<end>"
+EN: "<value:$28>, are you all right!?<end>"
+KO: "<value:$28>, 괜찮아!?<end>"
+
+## 340046
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "くっ、こんなときに。<end>"
+EN: "Damn it, not now.<end>"
+KO: "큭, 이럴 때에.<end>"
+
+## 340047
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の剣、緋炎の宝剣よ！<line-break>お前の力を見せてくれ！<end>"
+EN: "Crimson Flame Sword, blade of legend! Show me your power!<end>"
+KO: "전설의 검, 비염의 보검이여! 네 힘을 보여 줘!<end>"
+
+## 340048
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "なに！？　緋炎の宝剣がっ！？<end>"
+EN: "What!? The Crimson Flame Sword!?<end>"
+KO: "뭐!? 비염의 보검이!?<end>"
+
+## 340049
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "が…っ！！<end>"
+EN: "Gah...!<end>"
+KO: "크…윽!!<end>"
+
+## 340050
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>…、大丈夫か？<line-break>怪物は……かはっ！<end>"
+EN: "<value:$28>... are you all right? The monster... Khah!<end>"
+KO: "<value:$28>…, 괜찮아? 괴물은…… 크헉!<end>"
+
+## 340051
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうか…お前が倒したのか…。<end>"
+EN: "So... you defeated it...<end>"
+KO: "그런가… 네가 쓰러뜨렸군….<end>"
+
+## 340052
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の緋炎の宝剣…、俺が打った剣では<line-break>何か…何かが足りなかった…。<line-break>　<line-break>…だが…お前ならいつか、<line-break>真の緋炎の宝剣を打てるはずだ。<end>"
+EN: "The legendary Crimson Flame Sword... There was something... something missing from the sword I forged. But someday... you should be able to forge the true Crimson Flame Sword.<end>"
+KO: "전설의 비염의 보검…. 내가 만든 검에는 뭔가… 뭔가 부족했어…. 하지만… 너라면 언젠가 진정한 비염의 보검을 만들 수 있을 거다.<end>"
+
+## 340053
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "これを…。<end>"
+EN: "Take this...<end>"
+KO: "이걸….<end>"
+
+## 340054
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…分断の山脈の地下にある<line-break>地下王国の刀工デルガドを訪ねろ。<line-break>　<line-break>…きっ…と、<line-break>…力になってくれる、はずだ。<end>"
+EN: "Seek out Dergado, the swordsmith of the Underground Kingdom beneath the Dividing Mountains. He'll... surely be able to help you.<end>"
+KO: "…분단의 산맥 지하에 있는 지하 왕국의 대장장이 델가도를 찾아가…. 분명… 힘이 되어 줄 거야.<end>"
+
+## 340055
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…行け。ここはもうダメだ。<line-break>…俺も…。<end>"
+EN: "Go. This place is finished... and so am I...<end>"
+KO: "…가라. 여긴 이제 안 된다. …나도….<end>"
+
+## 340056
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "頼んだぞ…。俺とロッチナの夢を、<line-break>お前が果たしてくれ。<end>"
+EN: "I'm counting on you... Fulfill the dream Rotchina and I shared.<end>"
+KO: "부탁한다…. 나와 롯치나의 꿈을 네가 이뤄 줘.<end>"
+
+## 340057
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…よし…、<value:$28>…、<line-break>任せたぞ。<end>"
+EN: "...All right, <value:$28>... It's in your hands now.<end>"
+KO: "…좋아…, <value:$28>…, 맡기마.<end>"
+
+## 340058
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ロッチナ…これからはずっと…。<end>"
+EN: "...Rotchina... from now on, forever...<end>"
+KO: "…롯치나… 이제부터는 계속….<end>"
+
+## 340059
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "父の首飾りを母の墓にかける<end>"
+EN: "Place Father's necklace on Mother's grave.<end>"
+KO: "아버지의 목걸이를 어머니 무덤에 걸었다<end>"
+
+## 340060
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "父の首飾りは形見として取っておく<end>"
+EN: "Keep Father's necklace as a memento.<end>"
+KO: "아버지의 목걸이는 유품으로 간직한다<end>"
+
+## 340061
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "父の首飾りを母の墓にかけた。<end>"
+EN: "Placed Father's necklace on Mother's grave.<end>"
+KO: "아버지의 목걸이를 어머니 묘에 걸었다.<end>"
+
+## 340062
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 1 07 바닌 부자매<end>"
+
+## 340063
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ２<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 2 07 바닌 부자매<end>"
+
+## 340064
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ３<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 3 07 바닌 부자매<end>"
+
+## 340065
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ４<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 4 07 바닌 부자매<end>"
+
+## 340066
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ５<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 5 07 바닌 부자매<end>"
+
+## 340067
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ６<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 6 07 바닌 부자매<end>"
+
+## 340068
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ７<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 7 07 바닌 부자매<end>"
+
+## 340069
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ８<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 8 07 바닌 부자매<end>"
+
+## 340070
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ９<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 9 07 바닌 부자매<end>"
+
+## 340071
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１０<line-break>０７バーニン親子鷹<end>"
+EN: ""
+KO: "예비 메시지 10 07 버닌 부자 매.<end>"
+
+## 340072
+source: translations/korean/messages/msgsec034-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅立ち０７メッセージ終端<end>"
+EN: ""
+KO: "여행 출발 07 메시지 끝<end>"
+
+## 350000
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：城門前<end>"
+EN: "Ancient: Outside Castle Gate<end>"
+KO: "엔샨트: 성문 앞<end>"
+
+## 350001
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：謁見の間<end>"
+EN: "Ancient: Audience Chamber<end>"
+KO: "엔샨트: 알현실<end>"
+
+## 350002
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：ベルゼーヴァ執務室<end>"
+EN: "Ancient: Beelzeva's Office<end>"
+KO: "엔샨트: 벨제바 집무실<end>"
+
+## 350003
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：ザギブ執務室<end>"
+EN: "Ancient: Zagiv's Office<end>"
+KO: "엔샨트: 자기브 집무실<end>"
+
+## 350004
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：アンギルダン執務室<end>"
+EN: "Ancient: Angeerdan's Office<end>"
+KO: "엔샨트: 앙길단 집무실<end>"
+
+## 350005
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：皇帝寝室<end>"
+EN: "Ancient: Emperor's Bedchamber<end>"
+KO: "엔샨트: 황제 침실<end>"
+
+## 350006
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：広場<end>"
+EN: "Ancient: Plaza<end>"
+KO: "엔샨트: 광장<end>"
+
+## 350007
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：繁華街<end>"
+EN: "Ancient: Commercial District<end>"
+KO: "엔샨트: 번화가<end>"
+
+## 350008
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：宿屋１Ｆ<end>"
+EN: "Ancient: Inn １Ｆ<end>"
+KO: "엔샨트: 여관 1F<end>"
+
+## 350009
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：宿屋２Ｆ<end>"
+EN: "Ancient: Inn ２Ｆ<end>"
+KO: "엔샨트: 여관 2F<end>"
+
+## 350010
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：宿屋バルコニー<end>"
+EN: "Ancient: Inn Balcony<end>"
+KO: "엔샨트: 여관 발코니<end>"
+
+## 350011
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：鍛冶屋<end>"
+EN: "Ancient: Blacksmith<end>"
+KO: "엔샨트: 대장간<end>"
+
+## 350012
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：道具屋<end>"
+EN: "Ancient: Item Shop<end>"
+KO: "엔샨트: 도구점<end>"
+
+## 350013
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：冒険者ギルド<end>"
+EN: "Ancient: Adventurers' Guild<end>"
+KO: "엔샨트: 모험자 길드<end>"
+
+## 350014
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：酒場<end>"
+EN: "Ancient: Tavern<end>"
+KO: "엔샨트: 술집<end>"
+
+## 350015
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：魔道アカデミー前<end>"
+EN: "Ancient: Outside Arcane Academy<end>"
+KO: "엔샨트: 마도 아카데미 앞<end>"
+
+## 350016
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：魔道アカデミー受付<end>"
+EN: "Ancient: Arcane Academy Reception<end>"
+KO: "엔샨트: 마도 아카데미 접수처<end>"
+
+## 350017
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：帝都の門<end>"
+EN: "Ancient: Imperial Capital Gate<end>"
+KO: "엔샨트: 제도 관문<end>"
+
+## 350018
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：神殿前<end>"
+EN: "Ancient: Outside Temple<end>"
+KO: "엔샨트: 신전 앞<end>"
+
+## 350019
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：神殿内<end>"
+EN: "Ancient: Temple Interior<end>"
+KO: "엔샨트: 신전 안<end>"
+
+## 350020
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：スラム街<end>"
+EN: "Ancient: Slums<end>"
+KO: "엔샨트: 빈민가<end>"
+
+## 350021
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：ゾフォル隠れ家<end>"
+EN: "Ancient: Zofor's Hideout<end>"
+KO: "엔샨트: 조포르 은신처<end>"
+
+## 350022
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：魔道の塔前<end>"
+EN: "Ancient: Outside Arcane Tower<end>"
+KO: "엔샨트: 마도의 탑 앞<end>"
+
+## 350023
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：廃城前<end>"
+EN: "Ancient: Outside Ruined Castle<end>"
+KO: "엔샨트: 폐성 앞<end>"
+
+## 350024
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：港<end>"
+EN: "Ancient: Harbor<end>"
+KO: "엔샨트: 항구<end>"
+
+## 350025
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：墓地<end>"
+EN: "Ancient: Cemetery<end>"
+KO: "엔샨트: 묘지<end>"
+
+## 350026
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：ライラネート神殿内部<end>"
+EN: "Ancient: Inside Lailanate Temple<end>"
+KO: "엔샨트: 라이라네트 신전 내부<end>"
+
+## 350027
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャント：ライラネート神殿前<end>"
+EN: "Ancient: Outside Lailanate Temple<end>"
+KO: "엔샨트: 라이라네트 신전 앞<end>"
+
+## 350028
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：城門前<end>"
+EN: "Rostorl: Outside Castle Gate<end>"
+KO: "로스톨: 성문 앞<end>"
+
+## 350029
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：謁見の間<end>"
+EN: "Rostorl: Audience Chamber<end>"
+KO: "로스톨: 알현실<end>"
+
+## 350030
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：アトレイアの部屋<end>"
+EN: "Rostorl: Atleia's Room<end>"
+KO: "로스톨: 아트레이아의 방<end>"
+
+## 350031
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：エリスの部屋<end>"
+EN: "Rostorl: Eris's Room<end>"
+KO: "로스톨: 에리스의 방<end>"
+
+## 350032
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：ティアナの部屋<end>"
+EN: "Rostorl: Tiana's Room<end>"
+KO: "로스톨: 티아나의 방<end>"
+
+## 350033
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：王宮中庭<end>"
+EN: "Rostorl: Royal Palace Courtyard<end>"
+KO: "로스톨: 왕궁 중정<end>"
+
+## 350034
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：国王寝室<end>"
+EN: "Rostorl: King's Bedchamber<end>"
+KO: "로스톨: 국왕 침실<end>"
+
+## 350035
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：貴族居住区<end>"
+EN: "Rostorl: Noble Quarter<end>"
+KO: "로스톨: 귀족 거주구<end>"
+
+## 350036
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：レムオン邸前<end>"
+EN: "Rostorl: Outside Lemghon's Estate<end>"
+KO: "로스톨: 레무온 저택 앞<end>"
+
+## 350037
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：レムオンの部屋<end>"
+EN: "Rostorl: Lemghon's Room<end>"
+KO: "로스톨: 레무온의 방<end>"
+
+## 350038
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：寝室<end>"
+EN: "Rostorl: Bedroom<end>"
+KO: "로스톨: 침실<end>"
+
+## 350039
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：タルテュバ邸庭<end>"
+EN: "Rostorl: Tartuba Estate Garden<end>"
+KO: "로스톨: 타르튜바 저택 정원<end>"
+
+## 350040
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：タルテュバ邸倉庫<end>"
+EN: "Rostorl: Tartuba Estate Storehouse<end>"
+KO: "로스톨: 타르튜바 저택 창고<end>"
+
+## 350041
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：広場<end>"
+EN: "Rostorl: Plaza<end>"
+KO: "로스톨: 광장<end>"
+
+## 350042
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：大通り<end>"
+EN: "Rostorl: Main Street<end>"
+KO: "로스톨: 대로<end>"
+
+## 350043
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：宿屋１Ｆ<end>"
+EN: "Rostorl: Inn １Ｆ<end>"
+KO: "로스톨: 여관 1F<end>"
+
+## 350044
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：宿屋２Ｆ<end>"
+EN: "Rostorl: Inn ２Ｆ<end>"
+KO: "로스톨: 여관 2F<end>"
+
+## 350045
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：宿屋バルコニー<end>"
+EN: "Rostorl: Inn Balcony<end>"
+KO: "로스톨: 여관 발코니<end>"
+
+## 350046
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：道具屋<end>"
+EN: "Rostorl: Item Shop<end>"
+KO: "로스톨: 도구점<end>"
+
+## 350047
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：鍛冶屋<end>"
+EN: "Rostorl: Blacksmith<end>"
+KO: "로스톨: 대장간<end>"
+
+## 350048
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：冒険者ギルド<end>"
+EN: "Rostorl: Adventurers' Guild<end>"
+KO: "로스톨: 모험자 길드<end>"
+
+## 350049
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：酒場<end>"
+EN: "Rostorl: Tavern<end>"
+KO: "로스톨: 술집<end>"
+
+## 350050
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：平民街<end>"
+EN: "Rostorl: Commoners' Quarter<end>"
+KO: "로스톨: 평민가<end>"
+
+## 350051
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：オッシ道場<end>"
+EN: "Rostorl: Ossi Dojo<end>"
+KO: "로스톨: 오시 도장<end>"
+
+## 350052
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：アイリーン宅居間<end>"
+EN: "Rostorl: Irene's Living Room<end>"
+KO: "로스톨: 아이린 집 거실<end>"
+
+## 350053
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：アイリーン宅寝室<end>"
+EN: "Rostorl: Irene's Bedroom<end>"
+KO: "로스톨: 아이린 집 침실<end>"
+
+## 350054
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：王都の門<end>"
+EN: "Rostorl: Royal Capital Gate<end>"
+KO: "로스톨: 왕도의 문<end>"
+
+## 350055
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：スラム街<end>"
+EN: "Rostorl: Slums<end>"
+KO: "로스톨: 빈민가<end>"
+
+## 350056
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：スラム街の酒場<end>"
+EN: "Rostorl: Slums Tavern<end>"
+KO: "로스톨: 빈민가 술집<end>"
+
+## 350057
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：スラム街の酒場の奥の部屋<end>"
+EN: "Rostorl: Slums Tavern Back Room<end>"
+KO: "로스톨: 슬럼가 술집 안쪽 방<end>"
+
+## 350058
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：男の子の部屋<end>"
+EN: "Rostorl: Boy's Room<end>"
+KO: "로스톨: 남자아이의 방<end>"
+
+## 350059
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストール：女の子の部屋<end>"
+EN: "Rostorl: Girl's Room<end>"
+KO: "로스톨: 여자아이의 방<end>"
+
+## 350060
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：領主邸前<end>"
+EN: "Noble: Outside Lord's Manor<end>"
+KO: "노블: 영주 저택 앞<end>"
+
+## 350061
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：領主邸前２<end>"
+EN: "Noble: Outside Lord's Manor 2<end>"
+KO: "노블: 영주 저택 앞 2<end>"
+
+## 350062
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：レムオンの部屋<end>"
+EN: "Noble: Lemghon's Room<end>"
+KO: "노블: 레무온의 방<end>"
+
+## 350063
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：レムオンの寝室<end>"
+EN: "Noble: Lemghon's Bedroom<end>"
+KO: "노블: 레무온의 침실<end>"
+
+## 350064
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：広場<end>"
+EN: "Noble: Plaza<end>"
+KO: "노블: 광장<end>"
+
+## 350065
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：大通り<end>"
+EN: "Noble: Main Street<end>"
+KO: "노블: 대로<end>"
+
+## 350066
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：宿屋１Ｆ<end>"
+EN: "Noble: Inn 1Ｆ<end>"
+KO: "노블: 여관 1F<end>"
+
+## 350067
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：宿屋２Ｆ<end>"
+EN: "Noble: Inn 2Ｆ<end>"
+KO: "노블: 여관 2F<end>"
+
+## 350068
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：宿屋バルコニー<end>"
+EN: "Noble: Inn Balcony<end>"
+KO: "노블: 여관 발코니<end>"
+
+## 350069
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：道具屋<end>"
+EN: "Noble: Item Shop<end>"
+KO: "노블: 도구점<end>"
+
+## 350070
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：鍛冶屋<end>"
+EN: "Noble: Blacksmith<end>"
+KO: "노블: 대장간<end>"
+
+## 350071
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：冒険者ギルド<end>"
+EN: "Noble: Adventurers' Guild<end>"
+KO: "노블: 모험자 길드<end>"
+
+## 350072
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：農家１<end>"
+EN: "Noble: Farmhouse 1<end>"
+KO: "노블: 농가 1<end>"
+
+## 350073
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：農家２<end>"
+EN: "Noble: Farmhouse 2<end>"
+KO: "노블: 농가 2<end>"
+
+## 350074
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブル：町の城門<end>"
+EN: "Noble: Town Castle Gate<end>"
+KO: "노블: 도시의 문<end>"
+
+## 350075
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：港<end>"
+EN: "Liberdam: Port<end>"
+KO: "리벨덤: 항구<end>"
+
+## 350076
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：居住区<end>"
+EN: "Liberdam: Residential District<end>"
+KO: "리벨덤: 주거구<end>"
+
+## 350077
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：クロイス邸内<end>"
+EN: "Liberdam: Inside Krois Residence<end>"
+KO: "리벨덤: 크로이스 저택 내부<end>"
+
+## 350078
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：クロイス邸寝室<end>"
+EN: "Liberdam: Krois Residence Bedroom<end>"
+KO: "리벨덤: 크로이스 저택 침실<end>"
+
+## 350079
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：アンティノの部屋<end>"
+EN: "Liberdam: Antino's Room<end>"
+KO: "리벨덤: 안티노의 방<end>"
+
+## 350080
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：フゴーの部屋<end>"
+EN: "Liberdam: Hugo's Room<end>"
+KO: "리벨덤: 휴고의 방<end>"
+
+## 350081
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：広場<end>"
+EN: "Liberdam: Plaza<end>"
+KO: "리벨덤: 광장<end>"
+
+## 350082
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：繁華街<end>"
+EN: "Liberdam: Commercial District<end>"
+KO: "리벨덤: 번화가<end>"
+
+## 350083
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：美術館１Ｆ<end>"
+EN: "Liberdam: Art Museum 1Ｆ<end>"
+KO: "리벨덤: 미술관 1F<end>"
+
+## 350084
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：美術館２Ｆ<end>"
+EN: "Liberdam: Art Museum 2Ｆ<end>"
+KO: "리벨덤: 미술관 2F<end>"
+
+## 350085
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：美術館地下室<end>"
+EN: "Liberdam: Art Museum Basement<end>"
+KO: "리벨덤: 미술관 지하실<end>"
+
+## 350086
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：宿屋１Ｆ<end>"
+EN: "Liberdam: Inn 1Ｆ<end>"
+KO: "리벨덤: 여관 1F<end>"
+
+## 350087
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：宿屋２Ｆ<end>"
+EN: "Liberdam: Inn 2Ｆ<end>"
+KO: "리벨덤: 여관 2F<end>"
+
+## 350088
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：宿屋バルコニー<end>"
+EN: "Liberdam: Inn Balcony<end>"
+KO: "리벨덤: 여관 발코니<end>"
+
+## 350089
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：冒険者ギルド<end>"
+EN: "Liberdam: Adventurers' Guild<end>"
+KO: "리벨덤: 모험자 길드<end>"
+
+## 350090
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：酒場<end>"
+EN: "Liberdam: Tavern<end>"
+KO: "리벨덤: 술집<end>"
+
+## 350091
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：闘技場前<end>"
+EN: "Liberdam: Outside Arena<end>"
+KO: "리벨덤: 투기장 앞<end>"
+
+## 350092
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：闘技場受付<end>"
+EN: "Liberdam: Arena Reception<end>"
+KO: "리벨덤: 투기장 접수처<end>"
+
+## 350093
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：闘技場控え室<end>"
+EN: "Liberdam: Arena Waiting Room<end>"
+KO: "리벨덤: 투기장 대기실<end>"
+
+## 350094
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：繁華街２<end>"
+EN: "Liberdam: Commercial District 2<end>"
+KO: "리벨덤: 번화가 2<end>"
+
+## 350095
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：闘技場闘いの場<end>"
+EN: "Liberdam: Arena Battleground<end>"
+KO: "리벨덤: 투기장 경기장<end>"
+
+## 350096
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：街の門<end>"
+EN: "Liberdam: City Gate<end>"
+KO: "리벨덤: 도시의 문<end>"
+
+## 350097
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：スラム街<end>"
+EN: "Liberdam: Slums<end>"
+KO: "리벨덤: 빈민가<end>"
+
+## 350098
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：小さな酒場<end>"
+EN: "Liberdam: Small Tavern<end>"
+KO: "리벨덤: 작은 술집<end>"
+
+## 350099
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：妖しいお店<end>"
+EN: "Liberdam: Shady Shop<end>"
+KO: "리벨덤: 수상한 가게<end>"
+
+## 350100
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：バラック１<end>"
+EN: "Liberdam: Barracks 1<end>"
+KO: "리벨덤: 막사 1<end>"
+
+## 350101
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダム：バラック２<end>"
+EN: "Liberdam: Barracks 2<end>"
+KO: "리벨덤: 막사 2<end>"
+
+## 350102
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：城門前<end>"
+EN: "Rocen: Outside Castle Gate<end>"
+KO: "로센: 성문 앞<end>"
+
+## 350103
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：謁見の間<end>"
+EN: "Rocen: Audience Chamber<end>"
+KO: "로센: 알현실<end>"
+
+## 350104
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：広場<end>"
+EN: "Rocen: Plaza<end>"
+KO: "로센: 광장<end>"
+
+## 350105
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：繁華街<end>"
+EN: "Rocen: Commercial District<end>"
+KO: "로센: 번화가<end>"
+
+## 350106
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：宿屋１Ｆ<end>"
+EN: "Rocen: Inn 1Ｆ<end>"
+KO: "로센: 여관 1F<end>"
+
+## 350107
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：宿屋２Ｆ<end>"
+EN: "Rocen: Inn 2Ｆ<end>"
+KO: "로센: 여관 2F<end>"
+
+## 350108
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：宿屋バルコニー<end>"
+EN: "Rocen: Inn Balcony<end>"
+KO: "로센: 여관 발코니<end>"
+
+## 350109
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：酒場<end>"
+EN: "Rocen: Tavern<end>"
+KO: "로센: 술집<end>"
+
+## 350110
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：冒険者ギルド<end>"
+EN: "Rocen: Adventurers' Guild<end>"
+KO: "로센: 모험자 길드<end>"
+
+## 350111
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：フゴー邸１Ｆ<end>"
+EN: "Rocen: Hugo Residence 1Ｆ<end>"
+KO: "로센: 휴고 저택 1F<end>"
+
+## 350112
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：フゴー邸２Ｆ<end>"
+EN: "Rocen: Hugo Residence 2Ｆ<end>"
+KO: "로센: 휴고 저택 2F<end>"
+
+## 350113
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：フゴー邸３Ｆ<end>"
+EN: "Rocen: Hugo Residence 3Ｆ<end>"
+KO: "로센: 휴고 저택 3F<end>"
+
+## 350114
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：フゴー邸地下<end>"
+EN: "Rocen: Hugo Residence Basement<end>"
+KO: "로센: 휴고 저택 지하<end>"
+
+## 350115
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：闘技場前<end>"
+EN: "Rocen: Outside Arena<end>"
+KO: "로센: 투기장 앞<end>"
+
+## 350116
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：闘技場受付<end>"
+EN: "Rocen: Arena Reception<end>"
+KO: "로센: 투기장 접수처<end>"
+
+## 350117
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：闘技場控え室<end>"
+EN: "Rocen: Arena Waiting Room<end>"
+KO: "로센: 투기장 대기실<end>"
+
+## 350118
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：闘技場通路<end>"
+EN: "Rocen: Arena Passage<end>"
+KO: "로센: 투기장 통로<end>"
+
+## 350119
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：街の門<end>"
+EN: "Rocen: City Gate<end>"
+KO: "로센: 도시의 문<end>"
+
+## 350120
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：鐘楼上部<end>"
+EN: "Rocen: Upper Bell Tower<end>"
+KO: "로센: 종루 상부<end>"
+
+## 350121
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：港<end>"
+EN: "Rocen: Port<end>"
+KO: "로센: 항구<end>"
+
+## 350122
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：地下牢入口前<end>"
+EN: "Rocen: Outside Dungeon Entrance<end>"
+KO: "로센: 지하감옥 입구 앞<end>"
+
+## 350123
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロセン：闘技場闘いの場<end>"
+EN: "Rocen: Arena Battleground<end>"
+KO: "로센: 투기장 경기장<end>"
+
+## 350124
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：天経院入口<end>"
+EN: "Alnortun: Tenkeiin Entrance<end>"
+KO: "알노툰: 천경원 입구<end>"
+
+## 350125
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：天経院前<end>"
+EN: "Alnortun: Outside Tenkeiin<end>"
+KO: "알노툰: 천경원 앞<end>"
+
+## 350126
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：天経院<end>"
+EN: "Alnortun: Tenkeiin<end>"
+KO: "알노툰: 천경원<end>"
+
+## 350127
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：広場<end>"
+EN: "Alnortun: Plaza<end>"
+KO: "알노툰: 광장<end>"
+
+## 350128
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：居住区１<end>"
+EN: "Alnortun: Residential District １<end>"
+KO: "알노툰: 거주구 1<end>"
+
+## 350129
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：居住区２<end>"
+EN: "Alnortun: Residential District ２<end>"
+KO: "알노툰: 거주구 2<end>"
+
+## 350130
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：宿屋１Ｆ<end>"
+EN: "Alnortun: Inn １Ｆ<end>"
+KO: "알노툰: 여관 1F<end>"
+
+## 350131
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：宿屋２Ｆ<end>"
+EN: "Alnortun: Inn ２Ｆ<end>"
+KO: "알노툰: 여관 2F<end>"
+
+## 350132
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：宿屋バルコニー<end>"
+EN: "Alnortun: Inn Balcony<end>"
+KO: "알노툰: 여관 발코니<end>"
+
+## 350133
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：道具屋<end>"
+EN: "Alnortun: Item Shop<end>"
+KO: "알노툰: 도구점<end>"
+
+## 350134
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：鍛冶屋<end>"
+EN: "Alnortun: Blacksmith<end>"
+KO: "알노툰: 대장간<end>"
+
+## 350135
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：冒険者ギルド<end>"
+EN: "Alnortun: Adventurers' Guild<end>"
+KO: "알노툰: 모험자 길드<end>"
+
+## 350136
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：酒場<end>"
+EN: "Alnortun: Tavern<end>"
+KO: "알노툰: 술집<end>"
+
+## 350137
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：街の下門<end>"
+EN: "Alnortun: Lower Gate<end>"
+KO: "알노툰: 도시 아래문<end>"
+
+## 350138
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：昇降機<end>"
+EN: "Alnortun: Lift<end>"
+KO: "알노툰: 승강기<end>"
+
+## 350139
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アルノートゥン：街の上門<end>"
+EN: "Alnortun: Upper Gate<end>"
+KO: "알노툰: 도시 윗문<end>"
+
+## 350140
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：神殿入口<end>"
+EN: "Ulkarne: Temple Entrance<end>"
+KO: "울칸: 신전 입구<end>"
+
+## 350141
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：神殿<end>"
+EN: "Ulkarne: Temple<end>"
+KO: "울칸: 신전<end>"
+
+## 350142
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：広場<end>"
+EN: "Ulkarne: Plaza<end>"
+KO: "울칸: 광장<end>"
+
+## 350143
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：居住区１<end>"
+EN: "Ulkarne: Residential District １<end>"
+KO: "울칸: 거주구 1<end>"
+
+## 350144
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：居住区２<end>"
+EN: "Ulkarne: Residential District ２<end>"
+KO: "울칸: 거주구 2<end>"
+
+## 350145
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：宿屋１Ｆ<end>"
+EN: "Ulkarne: Inn １Ｆ<end>"
+KO: "울칸: 여관 1F<end>"
+
+## 350146
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：宿屋２Ｆ<end>"
+EN: "Ulkarne: Inn ２Ｆ<end>"
+KO: "울칸: 여관 2F<end>"
+
+## 350147
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：宿屋バルコニー<end>"
+EN: "Ulkarne: Inn Balcony<end>"
+KO: "울칸: 여관 발코니<end>"
+
+## 350148
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：道具屋<end>"
+EN: "Ulkarne: Item Shop<end>"
+KO: "울칸: 도구점<end>"
+
+## 350149
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：鍛冶屋<end>"
+EN: "Ulkarne: Blacksmith<end>"
+KO: "울칸: 대장간<end>"
+
+## 350150
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：冒険者ギルド<end>"
+EN: "Ulkarne: Adventurers' Guild<end>"
+KO: "울칸: 모험자 길드<end>"
+
+## 350151
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：民家１<end>"
+EN: "Ulkarne: House １<end>"
+KO: "울칸: 민가 1<end>"
+
+## 350152
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：民家２<end>"
+EN: "Ulkarne: House ２<end>"
+KO: "울칸: 민가 2<end>"
+
+## 350153
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：クロイス邸前<end>"
+EN: "Ulkarne: Outside Krois Manor<end>"
+KO: "울칸: 크로이스 저택 앞<end>"
+
+## 350154
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：クロイス邸内<end>"
+EN: "Ulkarne: Inside Krois Manor<end>"
+KO: "울칸: 크로이스 저택 안<end>"
+
+## 350155
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウルカーン：街の門<end>"
+EN: "Ulkarne: Town Gate<end>"
+KO: "울칸: 도시의 문<end>"
+
+## 350156
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：神殿前広場<end>"
+EN: "Aqyurius: Temple Plaza<end>"
+KO: "아큐류스: 신전 앞 광장<end>"
+
+## 350157
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：神殿<end>"
+EN: "Aqyurius: Temple<end>"
+KO: "아큐류스: 신전<end>"
+
+## 350158
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：居住区<end>"
+EN: "Aqyurius: Residential District<end>"
+KO: "아큐류스: 거주구<end>"
+
+## 350159
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：宿屋１Ｆ<end>"
+EN: "Aqyurius: Inn １Ｆ<end>"
+KO: "아큐류스: 여관 1F<end>"
+
+## 350160
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：宿屋２Ｆ<end>"
+EN: "Aqyurius: Inn ２Ｆ<end>"
+KO: "아큐류스: 여관 2F<end>"
+
+## 350161
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：宿屋バルコニー<end>"
+EN: "Aqyurius: Inn Balcony<end>"
+KO: "아큐류스: 여관 발코니<end>"
+
+## 350162
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：道具屋<end>"
+EN: "Aqyurius: Item Shop<end>"
+KO: "아큐류스: 도구점<end>"
+
+## 350163
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：鍛冶屋<end>"
+EN: "Aqyurius: Blacksmith<end>"
+KO: "아큐류스: 대장간<end>"
+
+## 350164
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：冒険者ギルド<end>"
+EN: "Aqyurius: Adventurers' Guild<end>"
+KO: "아큐류스: 모험자 길드<end>"
+
+## 350165
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：船着き場（中）<end>"
+EN: "Aqyurius: Dock, Interior<end>"
+KO: "아큐류스: 선착장(안)<end>"
+
+## 350166
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：船着き場（外）<end>"
+EN: "Aqyurius: Dock, Exterior<end>"
+KO: "아큐류스: 선착장(밖)<end>"
+
+## 350167
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース：神殿入口<end>"
+EN: "Aqyurius: Temple Entrance<end>"
+KO: "아큐류스: 신전 입구<end>"
+
+## 350168
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：竜の座前<end>"
+EN: "Elz: In Front of the Dragon's Seat<end>"
+KO: "엘즈: 용의 자리 앞<end>"
+
+## 350169
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：竜の座<end>"
+EN: "Elz: Dragon's Seat<end>"
+KO: "엘즈: 용의 자리<end>"
+
+## 350170
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：巫女の道前<end>"
+EN: "Elz: Entrance to the Priestess's Path<end>"
+KO: "엘즈: 무녀의 길 앞<end>"
+
+## 350171
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：彫刻画の道前<end>"
+EN: "Elz: Entrance to the Road of Reliefs<end>"
+KO: "엘즈: 조각화의 길 앞<end>"
+
+## 350172
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：風の民の墓地１<end>"
+EN: "Elz: Cemetery of the Wind People １<end>"
+KO: "엘즈: 바람의 민족 묘지 1<end>"
+
+## 350173
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：広場<end>"
+EN: "Elz: Plaza<end>"
+KO: "엘즈: 광장<end>"
+
+## 350174
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：下都<end>"
+EN: "Elz: Lower City<end>"
+KO: "엘즈: 하도<end>"
+
+## 350175
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：下都２<end>"
+EN: "Elz: Lower City ２<end>"
+KO: "엘즈: 하도 2<end>"
+
+## 350176
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：宿屋１Ｆ<end>"
+EN: "Elz: Inn １Ｆ<end>"
+KO: "엘즈: 여관 1F<end>"
+
+## 350177
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：宿屋２Ｆ<end>"
+EN: "Elz: Inn ２Ｆ<end>"
+KO: "엘즈: 여관 2F<end>"
+
+## 350178
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：宿屋バルコニー<end>"
+EN: "Elz: Inn Balcony<end>"
+KO: "엘즈: 여관 발코니<end>"
+
+## 350179
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：道具屋<end>"
+EN: "Elz: Item Shop<end>"
+KO: "엘즈: 도구점<end>"
+
+## 350180
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：鍛冶屋<end>"
+EN: "Elz: Blacksmith<end>"
+KO: "엘즈: 대장간<end>"
+
+## 350181
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：冒険者ギルド<end>"
+EN: "Elz: Adventurers' Guild<end>"
+KO: "엘즈: 모험자 길드<end>"
+
+## 350182
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：テレジアの家の居間<end>"
+EN: "Elz: Theresia's House, Living Room<end>"
+KO: "엘즈: 테레지아 집 거실<end>"
+
+## 350183
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：テレジアの家の寝室<end>"
+EN: "Elz: Theresia's House, Bedroom<end>"
+KO: "엘즈: 테레지아 집 침실<end>"
+
+## 350184
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：民家１<end>"
+EN: "Elz: House １<end>"
+KO: "엘즈: 민가 1<end>"
+
+## 350185
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：民家２<end>"
+EN: "Elz: House ２<end>"
+KO: "엘즈: 민가 2<end>"
+
+## 350186
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルズ：港<end>"
+EN: "Elz: Port<end>"
+KO: "엘즈: 항구<end>"
+
+## 350187
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：広場<end>"
+EN: "Ladras: Plaza<end>"
+KO: "라드라스: 광장<end>"
+
+## 350188
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：広場の移動の間<end>"
+EN: "Ladras: Plaza Transit Chamber<end>"
+KO: "라드라스: 광장 이동의 방<end>"
+
+## 350189
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：倉庫<end>"
+EN: "Ladras: Warehouse<end>"
+KO: "라드라스: 창고<end>"
+
+## 350190
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：貯水の間<end>"
+EN: "Ladras: Water Reservoir Chamber<end>"
+KO: "라드라스: 저수의 방<end>"
+
+## 350191
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：農場の間<end>"
+EN: "Ladras: Farm Chamber<end>"
+KO: "라드라스: 농장의 방<end>"
+
+## 350192
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：エステルの塔の移動の間<end>"
+EN: "Ladras: Esther's Tower Transit Chamber<end>"
+KO: "라드라스: 에스텔의 탑 이동실<end>"
+
+## 350193
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：エステルの部屋<end>"
+EN: "Ladras: Esther's Room<end>"
+KO: "라드라스: 에스텔의 방<end>"
+
+## 350194
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：エステルの客間<end>"
+EN: "Ladras: Esther's Guest Room<end>"
+KO: "라드라스: 에스텔의 객실<end>"
+
+## 350195
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：塔４の移動の間<end>"
+EN: "Ladras: Tower 4 Transit Chamber<end>"
+KO: "라드라스: 탑 4 이동의 방<end>"
+
+## 350196
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：壊れた塔の上<end>"
+EN: "Ladras: Top of the Broken Tower<end>"
+KO: "라드라스: 무너진 탑 위<end>"
+
+## 350197
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：地下洞窟の移動の間<end>"
+EN: "Ladras: Underground Cavern Transit Chamber<end>"
+KO: "라드라스: 지하 동굴 이동의 방<end>"
+
+## 350198
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：グラジェオン座所<end>"
+EN: "Ladras: Grajeon's Seat<end>"
+KO: "라드라스: 그라제온 거처<end>"
+
+## 350199
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：監視の間の移動の間<end>"
+EN: "Ladras: Watch Chamber Transit Chamber<end>"
+KO: "라드라스: 감시의 방 이동의 방<end>"
+
+## 350200
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：監視の間<end>"
+EN: "Ladras: Watch Chamber<end>"
+KO: "라드라스: 감시의 방<end>"
+
+## 350201
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：塔１の移動の間<end>"
+EN: "Ladras: Tower 1 Transit Chamber<end>"
+KO: "라드라스: 탑 1 이동의 방<end>"
+
+## 350202
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：塔の一室１<end>"
+EN: "Ladras: Tower Room 1<end>"
+KO: "라드라스: 탑의 방 1<end>"
+
+## 350203
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：塔２の移動の間<end>"
+EN: "Ladras: Tower 2 Transit Chamber<end>"
+KO: "라드라스: 탑 2 이동의 방<end>"
+
+## 350204
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：塔の一室２<end>"
+EN: "Ladras: Tower Room 2<end>"
+KO: "라드라스: 탑의 방 2<end>"
+
+## 350205
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：塔３の移動の間<end>"
+EN: "Ladras: Tower 3 Transit Chamber<end>"
+KO: "라드라스: 탑 3 이동의 방<end>"
+
+## 350206
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：塔の一室３<end>"
+EN: "Ladras: Tower Room 3<end>"
+KO: "라드라스: 탑의 방 3<end>"
+
+## 350207
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：入口の移動の間<end>"
+EN: "Ladras: Entrance Transit Chamber<end>"
+KO: "라드라스: 입구 이동의 방<end>"
+
+## 350208
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：中央塔の移動の間<end>"
+EN: "Ladras: Central Tower Transit Chamber<end>"
+KO: "라드라스: 중앙탑 이동의 방<end>"
+
+## 350209
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：制御の間<end>"
+EN: "Ladras: Control Chamber<end>"
+KO: "라드라스: 제어의 방<end>"
+
+## 350210
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：底部の移動の間<end>"
+EN: "Ladras: Bottom Transit Chamber<end>"
+KO: "라드라스: 하부 이동의 방<end>"
+
+## 350211
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス：動力の間<end>"
+EN: "Ladras: Power Chamber<end>"
+KO: "라드라스: 동력의 방<end>"
+
+## 350212
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：地底湖湖畔<end>"
+EN: "Dwarf Kingdom: Underground Lakeshore<end>"
+KO: "드워프 왕국: 지저호 호숫가<end>"
+
+## 350213
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：大空洞<end>"
+EN: "Dwarf Kingdom: Great Cavern<end>"
+KO: "드워프 왕국: 대공동<end>"
+
+## 350214
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：道具屋<end>"
+EN: "Dwarf Kingdom: Item Shop<end>"
+KO: "드워프 왕국: 도구점<end>"
+
+## 350215
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：冒険者ギルド<end>"
+EN: "Dwarf Kingdom: Adventurers' Guild<end>"
+KO: "드워프 왕국: 모험자 길드<end>"
+
+## 350216
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：広場<end>"
+EN: "Dwarf Kingdom: Plaza<end>"
+KO: "드워프 왕국: 광장<end>"
+
+## 350217
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：決闘場<end>"
+EN: "Dwarf Kingdom: Dueling Arena<end>"
+KO: "드워프 왕국: 결투장<end>"
+
+## 350218
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：宿屋１Ｆ<end>"
+EN: "Dwarf Kingdom: Inn 1Ｆ<end>"
+KO: "드워프 왕국: 여관 1F<end>"
+
+## 350219
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：宿屋２Ｆ<end>"
+EN: "Dwarf Kingdom: Inn 2Ｆ<end>"
+KO: "드워프 왕국: 여관 2F<end>"
+
+## 350220
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：宿屋バルコニー<end>"
+EN: "Dwarf Kingdom: Inn Balcony<end>"
+KO: "드워프 왕국: 여관 발코니<end>"
+
+## 350221
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：鍛冶屋<end>"
+EN: "Dwarf Kingdom: Blacksmith<end>"
+KO: "드워프 왕국: 대장간<end>"
+
+## 350222
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：酒場<end>"
+EN: "Dwarf Kingdom: Tavern<end>"
+KO: "드워프 왕국: 술집<end>"
+
+## 350223
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：宿屋外観<end>"
+EN: "Dwarf Kingdom: Outside the Inn<end>"
+KO: "드워프 왕국: 여관 외관<end>"
+
+## 350224
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：鍛冶屋外観<end>"
+EN: "Dwarf Kingdom: Outside the Smithy<end>"
+KO: "드워프 왕국: 대장간 외관<end>"
+
+## 350225
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：酒場外観<end>"
+EN: "Dwarf Kingdom: Outside the Tavern<end>"
+KO: "드워프 왕국: 술집 외관<end>"
+
+## 350226
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ドワーフ王国：決闘場２<end>"
+EN: "Dwarf Kingdom: Dueling Arena 2<end>"
+KO: "드워프 왕국: 결투장 2<end>"
+
+## 350227
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：町外れの林<end>"
+EN: "Terane: Woods Outside Town<end>"
+KO: "테라네: 마을 외곽 숲<end>"
+
+## 350228
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：ナッジの小屋<end>"
+EN: "Terane: Nadge's Hut<end>"
+KO: "테라네: 나지의 오두막<end>"
+
+## 350229
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：広場<end>"
+EN: "Terane: Plaza<end>"
+KO: "테라네: 광장<end>"
+
+## 350230
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：宿屋１Ｆ<end>"
+EN: "Terane: Inn 1Ｆ<end>"
+KO: "테라네: 여관 1F<end>"
+
+## 350231
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：宿屋２Ｆ<end>"
+EN: "Terane: Inn 2Ｆ<end>"
+KO: "테라네: 여관 2F<end>"
+
+## 350232
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：宿屋バルコニー<end>"
+EN: "Terane: Inn Balcony<end>"
+KO: "테라네: 여관 발코니<end>"
+
+## 350233
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：酒場<end>"
+EN: "Terane: Tavern<end>"
+KO: "테라네: 술집<end>"
+
+## 350234
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：冒険者ギルド<end>"
+EN: "Terane: Adventurers' Guild<end>"
+KO: "테라네: 모험자 길드<end>"
+
+## 350235
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：道具屋<end>"
+EN: "Terane: Item Shop<end>"
+KO: "테라네: 도구점<end>"
+
+## 350236
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：鍛冶屋<end>"
+EN: "Terane: Blacksmith<end>"
+KO: "테라네: 대장간<end>"
+
+## 350237
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：教会<end>"
+EN: "Terane: Church<end>"
+KO: "테라네: 교회<end>"
+
+## 350238
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：ボンガの家の前<end>"
+EN: "Terane: Outside Bonga's House<end>"
+KO: "테라네: 봉가의 집 앞<end>"
+
+## 350239
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：ボンガの家<end>"
+EN: "Terane: Bonga's House<end>"
+KO: "테라네: 봉가의 집<end>"
+
+## 350240
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：倉庫<end>"
+EN: "Terane: Warehouse<end>"
+KO: "테라네: 창고<end>"
+
+## 350241
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：伐採場<end>"
+EN: "Terane: Logging Site<end>"
+KO: "테라네: 벌목장<end>"
+
+## 350242
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "テラネ：町の門<end>"
+EN: "Terane: Town Gate<end>"
+KO: "테라네: 도시의 문<end>"
+
+## 350243
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：広場<end>"
+EN: "Amiral: Plaza<end>"
+KO: "아미랄: 광장<end>"
+
+## 350244
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：居住区<end>"
+EN: "Amiral: Residential District<end>"
+KO: "아미랄: 주거구<end>"
+
+## 350245
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：宿屋１Ｆ<end>"
+EN: "Amiral: Inn 1Ｆ<end>"
+KO: "아미랄: 여관 1F<end>"
+
+## 350246
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：宿屋２Ｆ<end>"
+EN: "Amiral: Inn 2Ｆ<end>"
+KO: "아미랄: 여관 2F<end>"
+
+## 350247
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：宿屋バルコニー<end>"
+EN: "Amiral: Inn Balcony<end>"
+KO: "아미랄: 여관 발코니<end>"
+
+## 350248
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：道具屋<end>"
+EN: "Amiral: Item Shop<end>"
+KO: "아미랄: 도구점<end>"
+
+## 350249
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：鍛冶屋<end>"
+EN: "Amiral: Blacksmith<end>"
+KO: "아미랄: 대장간<end>"
+
+## 350250
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：冒険者ギルド<end>"
+EN: "Amiral: Adventurers' Guild<end>"
+KO: "아미랄: 모험자 길드<end>"
+
+## 350251
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：酒場<end>"
+EN: "Amiral: Tavern<end>"
+KO: "아미랄: 술집<end>"
+
+## 350252
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：ロベルト宅居間<end>"
+EN: "Amiral: Roberto's Living Room<end>"
+KO: "아미랄: 로베르토 집 거실<end>"
+
+## 350253
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：ロベルト宅寝室<end>"
+EN: "Amiral: Roberto's Bedroom<end>"
+KO: "아미랄: 로베르토 집 침실<end>"
+
+## 350254
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：民家１<end>"
+EN: "Amiral: House 1<end>"
+KO: "아미랄: 민가 1<end>"
+
+## 350255
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：港<end>"
+EN: "Amiral: Port<end>"
+KO: "아미랄: 항구<end>"
+
+## 350256
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：町の門<end>"
+EN: "Amiral: Town Gate<end>"
+KO: "아미랄: 도시의 문<end>"
+
+## 350257
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：ほこら<end>"
+EN: "Amiral: Shrine<end>"
+KO: "아미랄: 사당<end>"
+
+## 350258
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "アミラル：破壊された家<end>"
+EN: "Amiral: Ruined House<end>"
+KO: "아미랄: 파괴된 집<end>"
+
+## 350259
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ワッシャー砦：広場<end>"
+EN: "Washer Fort: Plaza<end>"
+KO: "왓샤 요새: 광장<end>"
+
+## 350260
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ワッシャー砦：ホール<end>"
+EN: "Washer Fort: Hall<end>"
+KO: "와셔 요새: 홀<end>"
+
+## 350261
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ワッシャー砦：カンダカンの部屋<end>"
+EN: "Washer Fort: Kandakan's Room<end>"
+KO: "왓샤 요새: 칸다칸의 방<end>"
+
+## 350262
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ワッシャー砦：食堂<end>"
+EN: "Washer Fort: Dining Hall<end>"
+KO: "왓샤 요새: 식당<end>"
+
+## 350263
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ワッシャー砦：門<end>"
+EN: "Washer Fort: Gate<end>"
+KO: "왓샤 요새: 문<end>"
+
+## 350264
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ワッシャー砦：港（船なし）<end>"
+EN: "Washer Fort: Port (No Ship)<end>"
+KO: "왓샤 요새: 항구(배 없음)<end>"
+
+## 350265
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫屋敷：猫屋敷前<end>"
+EN: "Cat Manor: Outside Cat Manor<end>"
+KO: "고양이 저택: 저택 앞<end>"
+
+## 350266
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫屋敷：転送室<end>"
+EN: "Cat Manor: Teleportation Room<end>"
+KO: "고양이 저택: 전송실<end>"
+
+## 350267
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫屋敷：居間<end>"
+EN: "Cat Manor: Living Room<end>"
+KO: "고양이 저택: 거실<end>"
+
+## 350268
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫屋敷：寝室<end>"
+EN: "Cat Manor: Bedroom<end>"
+KO: "고양이 저택: 침실<end>"
+
+## 350269
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "共通：町外れの丘<end>"
+EN: "Common: Hill Outside Town<end>"
+KO: "공통: 외곽 언덕<end>"
+
+## 350270
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "賢者の森１<end>"
+EN: "Sage's Forest 1<end>"
+KO: "현자의 숲1<end>"
+
+## 350271
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "賢者の森２<end>"
+EN: "Sage's Forest 2<end>"
+KO: "현자의 숲2<end>"
+
+## 350272
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "賢者の森３<end>"
+EN: "Sage's Forest 3<end>"
+KO: "현자의 숲3<end>"
+
+## 350273
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "賢者の森４<end>"
+EN: "Sage's Forest 4<end>"
+KO: "현자의 숲4<end>"
+
+## 350274
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "賢者の森５<end>"
+EN: "Sage's Forest 5<end>"
+KO: "현자의 숲5<end>"
+
+## 350275
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "死竜の洞窟１<end>"
+EN: "Dead Dragon Cave 1<end>"
+KO: "사룡의 동굴 1<end>"
+
+## 350276
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "死竜の洞窟２<end>"
+EN: "Dead Dragon Cave 2<end>"
+KO: "사룡의 동굴 2<end>"
+
+## 350277
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "死竜の洞窟３<end>"
+EN: "Dead Dragon Cave 3<end>"
+KO: "사룡의 동굴 3<end>"
+
+## 350278
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "死竜の洞窟４<end>"
+EN: "Dead Dragon Cave 4<end>"
+KO: "사룡의 동굴 4<end>"
+
+## 350279
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "死竜の洞窟５<end>"
+EN: "Dead Dragon Cave 5<end>"
+KO: "사룡의 동굴 5<end>"
+
+## 350280
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "死竜の墓場<end>"
+EN: "Dead Dragon Graveyard<end>"
+KO: "사룡의 묘지<end>"
+
+## 350281
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔１<end>"
+EN: "New Moon Tower 1<end>"
+KO: "신월의 탑1<end>"
+
+## 350282
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔２<end>"
+EN: "New Moon Tower 2<end>"
+KO: "신월의 탑2<end>"
+
+## 350283
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔３<end>"
+EN: "New Moon Tower 3<end>"
+KO: "신월의 탑3<end>"
+
+## 350284
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔４<end>"
+EN: "New Moon Tower 4<end>"
+KO: "신월의 탑4<end>"
+
+## 350285
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔５<end>"
+EN: "New Moon Tower 5<end>"
+KO: "신월의 탑5<end>"
+
+## 350286
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔６<end>"
+EN: "New Moon Tower 6<end>"
+KO: "신월의 탑6<end>"
+
+## 350287
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔７<end>"
+EN: "New Moon Tower 7<end>"
+KO: "신월의 탑7<end>"
+
+## 350288
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔８<end>"
+EN: "New Moon Tower 8<end>"
+KO: "신월의 탑8<end>"
+
+## 350289
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "新月の塔：屋上<end>"
+EN: "New Moon Tower: Rooftop<end>"
+KO: "신월의 탑: 옥상<end>"
+
+## 350290
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "乙女の鏡：湖畔１<end>"
+EN: "Maiden's Mirror: Lakeshore 1<end>"
+KO: "소녀의 거울: 호숫가 1<end>"
+
+## 350291
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "乙女の鏡：湖畔２<end>"
+EN: "Maiden's Mirror: Lakeshore 2<end>"
+KO: "소녀의 거울: 호숫가 2<end>"
+
+## 350292
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "乙女の鏡：湖畔３<end>"
+EN: "Maiden's Mirror: Lakeshore 3<end>"
+KO: "소녀의 거울: 호숫가 3<end>"
+
+## 350293
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "乙女の鏡：湖畔４<end>"
+EN: "Maiden's Mirror: Lakeshore 4<end>"
+KO: "소녀의 거울: 호숫가 4<end>"
+
+## 350294
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "乙女の鏡：湖畔５<end>"
+EN: "Maiden's Mirror: Lakeshore 5<end>"
+KO: "소녀의 거울: 호숫가 5<end>"
+
+## 350295
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "乙女の鏡：湖畔６<end>"
+EN: "Maiden's Mirror: Lakeshore 6<end>"
+KO: "소녀의 거울: 호숫가 6<end>"
+
+## 350296
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "夢幻の湖１<end>"
+EN: "Lake of Illusions 1<end>"
+KO: "몽환의 호수1<end>"
+
+## 350297
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "夢幻の湖２<end>"
+EN: "Lake of Illusions 2<end>"
+KO: "몽환의 호수2<end>"
+
+## 350298
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "夢幻の湖３<end>"
+EN: "Lake of Illusions 3<end>"
+KO: "몽환의 호수3<end>"
+
+## 350299
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "夢幻の湖４<end>"
+EN: "Lake of Illusions 4<end>"
+KO: "몽환의 호수4<end>"
+
+## 350300
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "夢幻の湖：白き大地<end>"
+EN: "Lake of Illusions: White Land<end>"
+KO: "몽환의 호수: 흰 대지<end>"
+
+## 350301
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "夢幻の湖：遺跡１<end>"
+EN: "Lake of Illusions: Ruins 1<end>"
+KO: "몽환의 호수: 유적 1<end>"
+
+## 350302
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "夢幻の湖：遺跡２<end>"
+EN: "Lake of Illusions: Ruins 2<end>"
+KO: "몽환의 호수: 유적 2<end>"
+
+## 350303
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "夢幻の湖：遺跡３<end>"
+EN: "Lake of Illusions: Ruins 3<end>"
+KO: "몽환의 호수: 유적 3<end>"
+
+## 350304
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "飢えた者の洞窟１<end>"
+EN: "Cave of the Hungry 1<end>"
+KO: "굶주린 자의 동굴 1<end>"
+
+## 350305
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "飢えた者の洞窟２<end>"
+EN: "Cave of the Hungry 2<end>"
+KO: "굶주린 자의 동굴 2<end>"
+
+## 350306
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "飢えた者の洞窟３<end>"
+EN: "Cave of the Hungry 3<end>"
+KO: "굶주린 자의 동굴 3<end>"
+
+## 350307
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "飢えた者の洞窟４<end>"
+EN: "Cave of the Hungry 4<end>"
+KO: "굶주린 자의 동굴 4<end>"
+
+## 350308
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "飢えた者の洞窟５<end>"
+EN: "Cave of the Hungry 5<end>"
+KO: "굶주린 자의 동굴 5<end>"
+
+## 350309
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "飢えた者の洞窟６<end>"
+EN: "Cave of the Hungry 6<end>"
+KO: "굶주린 자의 동굴 6<end>"
+
+## 350310
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ルンホルスの森１<end>"
+EN: "Runhols Forest 1<end>"
+KO: "룬홀스의 숲 1<end>"
+
+## 350311
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ルンホルスの森２<end>"
+EN: "Runhols Forest 2<end>"
+KO: "룬홀스의 숲 2<end>"
+
+## 350312
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ルンホルスの森３<end>"
+EN: "Runhols Forest 3<end>"
+KO: "룬홀스의 숲 3<end>"
+
+## 350313
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁足の森への道１<end>"
+EN: "Road to the Forbidden Forest 1<end>"
+KO: "금족의 숲으로 가는 길 1<end>"
+
+## 350314
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁足の森への道２<end>"
+EN: "Road to the Forbidden Forest 2<end>"
+KO: "금족의 숲으로 가는 길 2<end>"
+
+## 350315
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁足の森１<end>"
+EN: "Forbidden Forest 1<end>"
+KO: "금족의 숲1<end>"
+
+## 350316
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁足の森２<end>"
+EN: "Forbidden Forest 2<end>"
+KO: "금족의 숲2<end>"
+
+## 350317
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁足の森３<end>"
+EN: "Forbidden Forest 3<end>"
+KO: "금족의 숲3<end>"
+
+## 350318
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁足の森４<end>"
+EN: "Forbidden Forest 4<end>"
+KO: "금족의 숲4<end>"
+
+## 350319
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁足の森５<end>"
+EN: "Forbidden Forest 5<end>"
+KO: "금족의 숲5<end>"
+
+## 350320
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡１<end>"
+EN: "Fortress City Ruins 1<end>"
+KO: "성새도시 터 1<end>"
+
+## 350321
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡２<end>"
+EN: "Fortress City Ruins 2<end>"
+KO: "성새도시 터 2<end>"
+
+## 350322
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡３<end>"
+EN: "Fortress City Ruins 3<end>"
+KO: "성새도시 터 3<end>"
+
+## 350323
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡４<end>"
+EN: "Fortress City Ruins 4<end>"
+KO: "성새도시 터 4<end>"
+
+## 350324
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡５<end>"
+EN: "Fortress City Ruins 5<end>"
+KO: "성새도시 터 5<end>"
+
+## 350325
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡６<end>"
+EN: "Fortress City Ruins 6<end>"
+KO: "성새도시 터 6<end>"
+
+## 350326
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡７<end>"
+EN: "Fortress City Ruins 7<end>"
+KO: "성새도시 터 7<end>"
+
+## 350327
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡８<end>"
+EN: "Fortress City Ruins 8<end>"
+KO: "성새도시 터 8<end>"
+
+## 350328
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡９<end>"
+EN: "Fortress City Ruins 9<end>"
+KO: "성새도시 터 9<end>"
+
+## 350329
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山１<end>"
+EN: "Zegna Mine 1<end>"
+KO: "제그나 광산 1<end>"
+
+## 350330
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山２<end>"
+EN: "Zegna Mine 2<end>"
+KO: "제그나 광산 2<end>"
+
+## 350331
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山３<end>"
+EN: "Zegna Mine 3<end>"
+KO: "제그나 광산 3<end>"
+
+## 350332
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山４<end>"
+EN: "Zegna Mine 4<end>"
+KO: "제그나 광산 4<end>"
+
+## 350333
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山５<end>"
+EN: "Zegna Mine 5<end>"
+KO: "제그나 광산 5<end>"
+
+## 350334
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山６<end>"
+EN: "Zegna Mine 6<end>"
+KO: "제그나 광산 6<end>"
+
+## 350335
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山７<end>"
+EN: "Zegna Mine 7<end>"
+KO: "제그나 광산 7<end>"
+
+## 350336
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山８<end>"
+EN: "Zegna Mine 8<end>"
+KO: "제그나 광산 8<end>"
+
+## 350337
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼグナ鉱山９<end>"
+EN: "Zegna Mine 9<end>"
+KO: "제그나 광산 9<end>"
+
+## 350338
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "求めし者の荒野１<end>"
+EN: "Seekers' Wilderness 1<end>"
+KO: "추구하는 자의 황야 1<end>"
+
+## 350339
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "求めし者の荒野２<end>"
+EN: "Seekers' Wilderness 2<end>"
+KO: "추구하는 자의 황야 2<end>"
+
+## 350340
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "求めし者の荒野３<end>"
+EN: "Seekers' Wilderness 3<end>"
+KO: "추구하는 자의 황야 3<end>"
+
+## 350341
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "求めし者の荒野４<end>"
+EN: "Seekers' Wilderness 4<end>"
+KO: "추구하는 자의 황야 4<end>"
+
+## 350342
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "求めし者の荒野５<end>"
+EN: "Seekers' Wilderness 5<end>"
+KO: "추구하는 자의 황야 5<end>"
+
+## 350343
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "神々の戦場２<end>"
+EN: "Battlefield of the Gods 2<end>"
+KO: "신들의 전장 2<end>"
+
+## 350344
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "未開の森１<end>"
+EN: "Uncharted Forest 1<end>"
+KO: "미개의 숲1<end>"
+
+## 350345
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "未開の森２<end>"
+EN: "Uncharted Forest 2<end>"
+KO: "미개의 숲2<end>"
+
+## 350346
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "未開の森３<end>"
+EN: "Uncharted Forest 3<end>"
+KO: "미개의 숲3<end>"
+
+## 350347
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "未開の森４<end>"
+EN: "Uncharted Forest 4<end>"
+KO: "미개의 숲4<end>"
+
+## 350348
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "未開の森５<end>"
+EN: "Uncharted Forest 5<end>"
+KO: "미개의 숲5<end>"
+
+## 350349
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "未開の森６<end>"
+EN: "Uncharted Forest 6<end>"
+KO: "미개의 숲6<end>"
+
+## 350350
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "未開の森７<end>"
+EN: "Uncharted Forest 7<end>"
+KO: "미개의 숲7<end>"
+
+## 350351
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "偽りの森１<end>"
+EN: "Forest of Deceit 1<end>"
+KO: "거짓의 숲1<end>"
+
+## 350352
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "偽りの森２<end>"
+EN: "Forest of Deceit 2<end>"
+KO: "거짓의 숲2<end>"
+
+## 350353
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "偽りの森３<end>"
+EN: "Forest of Deceit 3<end>"
+KO: "거짓의 숲3<end>"
+
+## 350354
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "偽りの森４<end>"
+EN: "Forest of Deceit 4<end>"
+KO: "거짓의 숲4<end>"
+
+## 350355
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "偽りの森５<end>"
+EN: "Forest of Deceit 5<end>"
+KO: "거짓의 숲5<end>"
+
+## 350356
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島１<end>"
+EN: "Dragon King's Island 1<end>"
+KO: "용왕의 섬1<end>"
+
+## 350357
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島２<end>"
+EN: "Dragon King's Island 2<end>"
+KO: "용왕의 섬2<end>"
+
+## 350358
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島３<end>"
+EN: "Dragon King's Island 3<end>"
+KO: "용왕의 섬3<end>"
+
+## 350359
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島４<end>"
+EN: "Dragon King's Island 4<end>"
+KO: "용왕의 섬4<end>"
+
+## 350360
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島５<end>"
+EN: "Dragon King's Island 5<end>"
+KO: "용왕의 섬5<end>"
+
+## 350361
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島６<end>"
+EN: "Dragon King's Island 6<end>"
+KO: "용왕의 섬6<end>"
+
+## 350362
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島の洞窟１<end>"
+EN: "Dragon King's Island Cave 1<end>"
+KO: "용왕의 섬 동굴 1<end>"
+
+## 350363
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島の洞窟２<end>"
+EN: "Dragon King's Island Cave 2<end>"
+KO: "용왕의 섬 동굴 2<end>"
+
+## 350364
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島の洞窟３<end>"
+EN: "Dragon King's Island Cave 3<end>"
+KO: "용왕의 섬 동굴 3<end>"
+
+## 350365
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王の島の火口<end>"
+EN: "Dragon King's Island Crater<end>"
+KO: "용왕의 섬 화구<end>"
+
+## 350366
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "虹色の山脈１<end>"
+EN: "Rainbow Mountains 1<end>"
+KO: "무지갯빛 산맥 1<end>"
+
+## 350367
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "虹色の山脈２<end>"
+EN: "Rainbow Mountains 2<end>"
+KO: "무지갯빛 산맥 2<end>"
+
+## 350368
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "虹色の山脈３<end>"
+EN: "Rainbow Mountains 3<end>"
+KO: "무지갯빛 산맥 3<end>"
+
+## 350369
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "虹色の山脈４<end>"
+EN: "Rainbow Mountains 4<end>"
+KO: "무지갯빛 산맥 4<end>"
+
+## 350370
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "虹色の山脈５<end>"
+EN: "Rainbow Mountains 5<end>"
+KO: "무지갯빛 산맥 5<end>"
+
+## 350371
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "虹色の山脈６<end>"
+EN: "Rainbow Mountains 6<end>"
+KO: "무지갯빛 산맥 6<end>"
+
+## 350372
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "虹色の山脈７<end>"
+EN: "Rainbow Mountains 7<end>"
+KO: "무지개빛 산맥 7<end>"
+
+## 350373
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜骨の砂漠１<end>"
+EN: "Dragonbone Desert 1<end>"
+KO: "용골 사막 1<end>"
+
+## 350374
+source: translations/korean/messages/msgsec035-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜骨の砂漠２<end>"
+EN: "Dragonbone Desert 2<end>"
+KO: "용골 사막 2<end>"
 
