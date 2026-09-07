@@ -5,6 +5,7 @@ on:
     branches: [milestone/Beta1]
     paths:
       - 'docs/audit/review/scope-*.json'
+      - 'docs/audit/beta1-review-consumer-evidence.json'
       - 'tools/korean/build-beta1-review-packet.py'
       - '.github/workflows/beta1-review-scope.yml'
 
@@ -39,12 +40,12 @@ jobs:
           scopes=(docs/audit/review/scope-*.json)
           if [ ${#scopes[@]} -eq 0 ]; then
             echo 'No dense scopes yet.'
-            exit 0
+          else
+            for scope in "${scopes[@]}"; do
+              python3 tools/korean/build-beta1-review-packet.py \
+                --english-root ../english --scope "$scope" --verify
+            done
           fi
-          for scope in "${scopes[@]}"; do
-            python3 tools/korean/build-beta1-review-packet.py \
-              --english-root ../english --scope "$scope" --verify
-          done
       - name: Rebuild language ledger without heavy Go gates
         working-directory: korean
         run: |
