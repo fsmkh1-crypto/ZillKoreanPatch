@@ -20,21 +20,29 @@ Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`
 Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.
 For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one changed ID never invalidates the rest of its scope.
 
-## Orthogonal flags and strict propagation candidates
+## Orthogonal flags and structural QA
 
 - `PERSISTED_LAYOUT`: **27** among ledger rows
 - `ALIAS_GROUP`: **0** among ledger rows
 - `SOURCE_ANOMALY`: **0** among ledger rows
+- `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
 - `FIXED_BUFFER`: **241** among ledger rows; full accepted population **19380**
 - `RUNTIME_PENDING`: **1** among ledger rows; full accepted population **47**
 - English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
-Strict propagation candidates are derived from exact JP + exact KO + exact persisted layout + pinned-English engine consumer signature + physical alias/storage signature. They are candidates only and contribute zero coverage until explicitly propagated from a directly reviewed representative.
+Consumer/storage/runtime metadata remains in each ledger row for traceability, but it is not part of language propagation equivalence.
 
-- Unique strict signatures: **37351**
-- Duplicate strict-signature groups: **1659**
-- IDs inside such groups: **6324**
-- Potential extra IDs: **4665**
+## Language propagation candidates (not coverage)
+
+Candidate signature is exact Japanese + exact pinned English + exact Korean. EN mismatch is an unconditional split.
+- Unique language signatures: **35,725**
+- Duplicate groups: **2,667**
+- IDs inside duplicate groups: **8,958**
+- Potential extra IDs: **6,291**
+
+## Dense review scopes
+
+- none yet
 
 ## Historical edit manifests
 
