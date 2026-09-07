@@ -1,0 +1,59 @@
+name: Beta1 next review candidate
+
+on:
+  push:
+    branches: [milestone/Beta1]
+    paths:
+      - 'docs/audit/review/candidate-*-request.json'
+      - 'tools/korean/build-beta1-next-review-candidate.py'
+      - '.github/workflows/beta1-next-review-candidate.yml'
+
+concurrency:
+  group: beta1-next-review-candidate
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          path: korean
+          fetch-depth: 0
+      - uses: actions/checkout@v6
+        with:
+          repository: HK47196/zill
+          ref: a98d9ce29f361d666ec23da0dcfd351f24537ffd
+          path: english
+      - name: Build requested candidate packets
+        working-directory: korean
+        run: |
+          shopt -s nullglob
+          for req in docs/audit/review/candidate-*-request.json; do
+            batch=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["batch_id"])' "$req")
+            start=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["start_id"])' "$req")
+            count=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["candidate_count"])' "$req")
+            python3 tools/korean/build-beta1-next-review-candidate.py \
+              --english-root ../english --start-id "$start" --count "$count" \
+              --output "docs/audit/review/candidate-${batch}.md" \
+              --selection-output "docs/audit/review/candidate-${batch}-selection.json"
+          done
+          git diff --check
+      - name: Commit candidate packets
+        working-directory: korean
+        run: |
+          if [ -z "$(git status --porcelain -- docs/audit/review/candidate-*.md docs/audit/review/candidate-*-selection.json)" ]; then
+            echo 'Candidate packets already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/audit/review/candidate-*.md docs/audit/review/candidate-*-selection.json
+          git commit -m 'audit: generate Beta1 next-review candidate packet'
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
