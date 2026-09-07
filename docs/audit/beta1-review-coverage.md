@@ -5,12 +5,12 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **4,751 (11.308%)**
+- Valid contextual review: **4,788 (11.396%)**
   - legacy direct `full_read`: **176**
   - dense `scope_full_read`: **3,713**
-  - direct `manifest_edit`: **862**
+  - direct `manifest_edit`: **899**
   - propagated: **0** (not yet credited)
-- `CONTEXT_STALE`: **37**
+- `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
 - `UNREVIEWED` for contextual purposes: **37,228**
 - Approved registered manifest records (historical, non-deduplicated): **903**
