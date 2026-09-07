@@ -6,8403 +6,8403 @@ pinned_english_sha: a98d9ce29f361d666ec23da0dcfd351f24537ffd
 order: global numeric ID
 note: candidate packet only; creates no review coverage.
 
-## 350375
-source: translations/korean/messages/msgsec035-part99.toml
+## 400114
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "竜骨の砂漠３<end>"
-EN: "Dragonbone Desert 3<end>"
-KO: "용골 사막 3<end>"
+JP: "闇の神器を集める限り、<line-break>お互いまたどこかで会おう。<line-break>その時はよろしくな。<end>"
+EN: "As long as you keep gathering the Dark Artifacts, we'll meet again somewhere. Until then.<end>"
+KO: "어둠의 신기를 모으는 한, 우리 또 어디선가 만나겠지. 그때는 잘 부탁해.<end>"
 
-## 350376
-source: translations/korean/messages/msgsec035-part99.toml
+## 400116
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "竜骨の砂漠４<end>"
-EN: "Dragonbone Desert 4<end>"
-KO: "용골 사막 4<end>"
+JP: "気が付いたようじゃな。<line-break>お主のおかげで、<line-break>こちらの体勢を整えられた。<line-break>礼を言うぞ。<line-break>じゃが、闇の神器は<line-break>わしらがもらう。<end>"
+EN: "So you're awake. Thanks to you, we had time to regroup. You have my gratitude. But we're taking the Dark Artifact.<end>"
+KO: "정신이 든 모양이군. 네 덕분에 이쪽도 태세를 정비할 수 있었다. 고맙다. 하지만 어둠의 신기는 우리가 받겠다.<end>"
 
-## 350377
-source: translations/korean/messages/msgsec035-part99.toml
+## 400117
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "竜骨の砂漠５<end>"
-EN: "Dragonbone Desert 5<end>"
-KO: "용골 사막 5<end>"
+JP: "あいつは、私たちが倒したわ。<end>"
+EN: "We were the ones who defeated that thing.<end>"
+KO: "그 녀석은 우리가 쓰러뜨렸어.<end>"
 
-## 350378
-source: translations/korean/messages/msgsec035-part99.toml
+## 400118
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "竜骨の砂漠６<end>"
-EN: "Dragonbone Desert 6<end>"
-KO: "용골 사막 6<end>"
+JP: "言ったでしょう、<line-break>この件には手を出すなって。<line-break>　<line-break>時間を稼いでくれたことには<line-break>感謝するけど、あなたにはまだ、<line-break>荷が重いんじゃない？<end>"
+EN: "I told you not to get involved in this. I appreciate you buying us time, but isn't this still more than you can handle?<end>"
+KO: "말했잖아, 이 일에는 손대지 말라고. 시간을 벌어 준 건 고맙지만 너한텐 아직 벅찬 일 아니야?<end>"
 
-## 350379
-source: translations/korean/messages/msgsec035-part99.toml
+## 400119
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪竜の断層１<end>"
-EN: "Evil Dragon Rift 1<end>"
-KO: "사룡의 단층 1<end>"
+JP: "これにこりて、もう手を引くことね。<end>"
+EN: "Let that be a lesson to you. Stay out of this from now on.<end>"
+KO: "이번 일로 질렸으면 이제 손 떼.<end>"
 
-## 350380
-source: translations/korean/messages/msgsec035-part99.toml
+## 400120
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪竜の断層２<end>"
-EN: "Evil Dragon Rift 2<end>"
-KO: "사룡의 단층 2<end>"
+JP: "久しぶりね。<end>"
+EN: "It's been a long time.<end>"
+KO: "오랜만이네.<end>"
 
-## 350381
-source: translations/korean/messages/msgsec035-part99.toml
+## 400121
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪竜の断層３<end>"
-EN: "Evil Dragon Rift 3<end>"
-KO: "사룡의 단층 3<end>"
+JP: "闇の神器の探索を依頼された<line-break><value:$28>という冒険者、<line-break>あなただったのね。<end>"
+EN: "So you're <value:$28>, the adventurer hired to find the Dark Artifact.<end>"
+KO: "어둠의 신기 탐색을 의뢰받은 <value:$28>라는 모험자, 당신이었군요.<end>"
 
-## 350382
-source: translations/korean/messages/msgsec035-part99.toml
+## 400122
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪竜の断層４<end>"
-EN: "Evil Dragon Rift 4<end>"
-KO: "사룡의 단층 4<end>"
+JP: "手を引いた方がいいわよ。<line-break>闇の神器…、<line-break>ネメア様もその行方を追っているわ。<line-break>そして、私も<line-break>その旅に同行するつもりよ。<end>"
+EN: "You'd be better off walking away. Lord Nemea is searching for the Dark Artifact too, and I intend to accompany him.<end>"
+KO: "손을 떼는 게 좋아. 어둠의 신기… 네메아 님도 그 행방을 쫓고 있어. 나도 그 여행에 동행할 생각이야.<end>"
 
-## 350383
-source: translations/korean/messages/msgsec035-part99.toml
+## 400123
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪竜の断層５<end>"
-EN: "Evil Dragon Rift 5<end>"
-KO: "사룡의 단층 5<end>"
+JP: "私は、ネメア様直属の<line-break>近衛騎士になったのよ。<line-break>　<line-break>私に生きろと言ったあの人が、<line-break>どんな生を歩むのか<line-break>見届けるためにね。<end>"
+EN: "I've become a knight in Lord Nemea's personal guard. I mean to see how the person who told me to live chooses to live.<end>"
+KO: "나는 네메아 님 직속 근위기사가 됐어. 나더러 살라고 한 그 사람이 어떤 삶을 사는지 지켜보기 위해서.<end>"
 
-## 350384
-source: translations/korean/messages/msgsec035-part99.toml
+## 400124
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪竜の断層６<end>"
-EN: "Evil Dragon Rift 6<end>"
-KO: "사룡의 단층 6<end>"
+JP: "他にも、ボルダンのゼリグ、<line-break>ドワーフのドルドラムが同行するわ。<line-break>強力なパーティーよ。<end>"
+EN: "Zelig of Boldan and Doldrum the Dwarf will be coming too. We'll be a formidable party.<end>"
+KO: "그 밖에도 볼단의 젤리그, 드워프 돌드람이 동행해. 강력한 파티야.<end>"
 
-## 350385
-source: translations/korean/messages/msgsec035-part99.toml
+## 400125
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪竜の断層７<end>"
-EN: "Evil Dragon Rift 7<end>"
-KO: "사룡의 단층 7<end>"
+JP: "あなたが闇の神器を探すつもりなら、<line-break>私たちを敵に回すことになるわ。<line-break>　<line-break>その時は…、<line-break>容赦しないわよ。<end>"
+EN: "If you mean to keep searching for the Dark Artifact, you'll be making enemies of us. If that happens... I won't show you any mercy.<end>"
+KO: "네가 어둠의 신기를 찾겠다면 우리와 적이 되는 거야. 그때는… 봐주지 않을 거야.<end>"
 
-## 350386
-source: translations/korean/messages/msgsec035-part99.toml
+## 400126
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪竜の断層８<end>"
-EN: "Evil Dragon Rift 8<end>"
-KO: "사룡의 단층 8<end>"
+JP: "やあ、<value:$28>。<line-break>こんなところで会うなんて、<line-break>ふふ、うれしい偶然だね。<end>"
+EN: "Hello, <value:$28>. Fancy meeting you here. Heh, what a pleasant surprise.<end>"
+KO: "안녕, <value:$28>. 이런 데서 만나다니, 후후, 기쁜 우연이네.<end>"
 
-## 350387
-source: translations/korean/messages/msgsec035-part99.toml
+## 400127
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "リューンの森１<end>"
-EN: "Ryune Forest 1<end>"
-KO: "리윤의 숲 1<end>"
+JP: "…闇の神器を探しているの？<end>"
+EN: "…Are you looking for the Dark Artifacts?<end>"
+KO: "…어둠의 신기를 찾고 있는 거야?<end>"
 
-## 350388
-source: translations/korean/messages/msgsec035-part99.toml
+## 400128
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "リューンの森２<end>"
-EN: "Ryune Forest 2<end>"
-KO: "리윤의 숲 2<end>"
+JP: "確かに君の言うとおり、　<line-break>僕は闇の神器を<line-break>ひとつ持っているよ。<line-break>でも、今は渡せないよ。<line-break>あれは、きちんと<line-break>研究しなければならない。<end>"
+EN: "You're right. I do have one of the Dark Artifacts. But I can't give it to you yet. It needs to be studied properly.<end>"
+KO: "네 말대로 난 어둠의 신기를 하나 가지고 있어. 하지만 지금은 줄 수 없어. 그건 제대로 연구해야 하거든.<end>"
 
-## 350389
-source: translations/korean/messages/msgsec035-part99.toml
+## 400129
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "リューンの森３<end>"
-EN: "Ryune Forest 3<end>"
-KO: "리윤의 숲 3<end>"
+JP: "闇の神器は全部で１２種類。<line-break>世界中に散らばってて、<line-break>それぞれにすごい威力を秘めてる。<line-break>でもそれは闇の力だ。<line-break>使い方を間違えると<line-break>恐ろしいことになる。<end>"
+EN: "Dark Artifacts come in twelve different forms. They're scattered across the world, and each harbors tremendous power. But theirs is the power of darkness. If they're used the wrong way, something terrible could happen.<end>"
+KO: "어둠의 신기는 모두 12종류. 세계 곳곳에 흩어져 있고 각각 엄청난 힘을 숨기고 있어. 하지만 그건 어둠의 힘이야. 잘못 쓰면 무서운 일이 벌어진다.<end>"
 
-## 350390
-source: translations/korean/messages/msgsec035-part99.toml
+## 400131
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "リューンの森４<end>"
-EN: "Ryune Forest 4<end>"
-KO: "리윤의 숲 4<end>"
+JP: "僕は古代の力を信じる。<line-break>だから、研究を続けるよ。<line-break>　<line-break>きっと、何か他の使い道も<line-break>あるはずだから。<end>"
+EN: "I believe in the power of the ancients. That's why I'll continue my research. There must be some other use for it.<end>"
+KO: "나는 고대의 힘을 믿어. 그러니 연구를 계속할 거야. 분명 다른 용도도 있을 테니까.<end>"
 
-## 350391
-source: translations/korean/messages/msgsec035-part99.toml
+## 400132
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "火山岩地帯１<end>"
-EN: "Volcanic Rock Zone 1<end>"
-KO: "화산암 지대 1<end>"
+JP: "わかってくれるよね？<end>"
+EN: "You understand, don't you?<end>"
+KO: "이해해 줄 거지?<end>"
 
-## 350392
-source: translations/korean/messages/msgsec035-part99.toml
+## 400133
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "火山岩地帯２<end>"
-EN: "Volcanic Rock Zone 2<end>"
-KO: "화산암 지대 2<end>"
+JP: "もちろん<end>"
+EN: "Of course.<end>"
+KO: "물론이지<end>"
 
-## 350393
-source: translations/korean/messages/msgsec035-part99.toml
+## 400134
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "火山岩地帯３<end>"
-EN: "Volcanic Rock Zone 3<end>"
-KO: "화산암 지대 3<end>"
+JP: "時と場合による<end>"
+EN: "It depends on the circumstances.<end>"
+KO: "때와 경우에 따라 달라<end>"
 
-## 350394
-source: translations/korean/messages/msgsec035-part99.toml
+## 400135
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "火山岩地帯４<end>"
-EN: "Volcanic Rock Zone 4<end>"
-KO: "화산암 지대 4<end>"
+JP: "それを聞いて安心したよ。<end>"
+EN: "I'm relieved to hear that.<end>"
+KO: "그 말을 들으니 안심이군.<end>"
 
-## 350395
-source: translations/korean/messages/msgsec035-part99.toml
+## 400136
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "火山岩地帯５<end>"
-EN: "Volcanic Rock Zone 5<end>"
-KO: "화산암 지대 5<end>"
+JP: "古代の魔法力を<line-break>甘く見ているわけではないよ。<line-break>　<line-break>でも、危険だからといって、<line-break>何もわからないまま、<line-break>手放すわけにはいかないよ。<end>"
+EN: "I'm not underestimating ancient magic. But I can't simply give it up just because it's dangerous, not when nothing is known about it yet.<end>"
+KO: "고대 마법의 힘을 얕보는 건 아니야. 그래도 위험하다는 이유만으로 아무것도 모른 채 손에서 놓을 수는 없어.<end>"
 
-## 350396
-source: translations/korean/messages/msgsec035-part99.toml
+## 400137
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "火山岩地帯６<end>"
-EN: "Volcanic Rock Zone 6<end>"
-KO: "화산암 지대 6<end>"
+JP: "ごめんね、<value:$28>。<line-break>残念だけど、今は渡せない。<line-break>　<line-break>何かわかったら<line-break>すぐに君に知らせるから、<line-break>待っててほしい。<end>"
+EN: "I'm sorry, <value:$28>. I wish I could, but I can't give it to you yet. I'll let you know as soon as I discover anything, so please be patient.<end>"
+KO: "미안해, <value:$28>. 아쉽지만 지금은 줄 수 없어. 뭔가 알게 되면 바로 알려 줄 테니 기다려 줘.<end>"
 
-## 350397
-source: translations/korean/messages/msgsec035-part99.toml
+## 400138
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "火山岩地帯７<end>"
-EN: "Volcanic Rock Zone 7<end>"
-KO: "화산암 지대 7<end>"
+JP: "ロストールの貴族街にある<line-break>リューガ邸に時々寄ってみてよ。<line-break>　<line-break>研究に進展があったら<line-break>伝言を残しておくから。<line-break>じゃあ、僕は行くよ。<end>"
+EN: "Stop by the Ryuga residence in Rostorl's noble quarter from time to time. If I make any progress with my research, I'll leave word there. Well, I should be going.<end>"
+KO: "로스톨 귀족가에 있는 류가 저택에 가끔 들러줘. 연구에 진전이 있으면 전언을 남겨둘게. 그럼 난 갈게.<end>"
 
-## 350398
-source: translations/korean/messages/msgsec035-part99.toml
+## 400139
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "地下墓地Ｂ１－１<end>"
-EN: "Underground Cemetery Ｂ1-1<end>"
-KO: "지하 묘지 B1-1<end>"
+JP: "わかった。闇の神器は<line-break>ネメアもねらっているんだね。<line-break>気をつけるよ。<end>"
+EN: "All right. So Nemea is after the Dark Artifacts too. I'll be careful.<end>"
+KO: "알겠어. 어둠의 신기는 네메아도 노리고 있구나. 조심할게.<end>"
 
-## 350399
-source: translations/korean/messages/msgsec035-part99.toml
+## 400141
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "地下墓地Ｂ１－２<end>"
-EN: "Underground Cemetery Ｂ1-2<end>"
-KO: "지하 묘지 B1-2<end>"
+JP: "ネメア様のおっしゃったとおりだな。<end>"
+EN: "Just as Lord Nemea said.<end>"
+KO: "네메아 님 말씀대로군.<end>"
 
-## 350400
-source: translations/korean/messages/msgsec035-part99.toml
+## 400142
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "地下墓地Ｂ１－３<end>"
-EN: "Underground Cemetery Ｂ1-3<end>"
-KO: "지하 묘지 B1-3<end>"
+JP: "この若者は勇敢にも<line-break>ネメア様に挑戦する気らしいぞ。<end>"
+EN: "It seems this brave youth intends to challenge Lord Nemea.<end>"
+KO: "이 젊은이는 용감하게도 네메아 님께 도전할 생각인 모양이다.<end>"
 
-## 350401
-source: translations/korean/messages/msgsec035-part99.toml
+## 400143
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "地下墓地Ｂ１－４<end>"
-EN: "Underground Cemetery Ｂ1-4<end>"
-KO: "지하 묘지 B1-4<end>"
+JP: "お前に先を越されるとは、　　　<line-break>うかつだったな。<end>"
+EN: "Careless of me to let you beat me to it.<end>"
+KO: "네게 선수를 빼앗기다니, 방심했군.<end>"
 
-## 350402
-source: translations/korean/messages/msgsec035-part99.toml
+## 400144
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "地下墓地Ｂ２<end>"
-EN: "Underground Cemetery Ｂ2<end>"
-KO: "지하 묘지 B2<end>"
+JP: "くっ、なんてこと…！<line-break>せっかくここの闇の神器は<line-break>私たちだけに任せてもらえたのに！<end>"
+EN: "Damn it! We finally had sole charge of the Dark Artifact here!<end>"
+KO: "큭, 이럴 수가…! 모처럼 여기의 어둠의 신기는 우리에게만 맡겨졌는데!<end>"
 
-## 350403
-source: translations/korean/messages/msgsec035-part99.toml
+## 400145
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "聖光石の廃鉱１<end>"
-EN: "Old Holy Light Stone Mine 1<end>"
-KO: "성광석 폐광 1<end>"
+JP: "そう功をあせるな、オイフェよ。<end>"
+EN: "Don't be so eager for glory, Aoife.<end>"
+KO: "그렇게 공을 서두르지 마라, 오이페.<end>"
 
-## 350404
-source: translations/korean/messages/msgsec035-part99.toml
+## 400146
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "聖光石の廃鉱２<end>"
-EN: "Old Holy Light Stone Mine 2<end>"
-KO: "성광석 폐광 2<end>"
+JP: "傲慢の首飾りを渡して、<line-break><value:$28>。<end>"
+EN: "Hand over the Necklace of Pride, <value:$28>.<end>"
+KO: "오만의 목걸이를 건네줘, <value:$28>.<end>"
 
-## 350405
-source: translations/korean/messages/msgsec035-part99.toml
+## 400147
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "聖光石の廃鉱３<end>"
-EN: "Old Holy Light Stone Mine 3<end>"
-KO: "성광석 폐광 3<end>"
+JP: "言ったはずよ。<line-break>敵対するなら、殺すって。<end>"
+EN: "I warned you. Stand against me, and I'll kill you.<end>"
+KO: "말했을 텐데. 적대한다면 죽이겠다고.<end>"
 
-## 350406
-source: translations/korean/messages/msgsec035-part99.toml
+## 400148
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "聖光石の廃鉱４<end>"
-EN: "Old Holy Light Stone Mine 4<end>"
-KO: "성광석 폐광 4<end>"
+JP: "…ムキになるな。<end>"
+EN: "Don't get so worked up.<end>"
+KO: "…발끈하지 마.<end>"
 
-## 350407
-source: translations/korean/messages/msgsec035-part99.toml
+## 400149
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "聖光石の廃鉱５<end>"
-EN: "Old Holy Light Stone Mine 5<end>"
-KO: "성광석 폐광 5<end>"
+JP: "ムキになんかなっていないわ！<end>"
+EN: "I am not worked up!<end>"
+KO: "발끈한 거 아니거든!<end>"
 
-## 350408
-source: translations/korean/messages/msgsec035-part99.toml
+## 400150
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "聖光石の廃鉱６<end>"
-EN: "Old Holy Light Stone Mine 6<end>"
-KO: "성광석 폐광 6<end>"
+JP: "感情的になってはいかんぞ。<line-break>それでは、普段の力が発揮できまい。<end>"
+EN: "Don't let your emotions get the better of you. You'll never fight at your best that way.<end>"
+KO: "감정적으로 굴면 안 된다. 그러면 평소 실력을 발휘하지 못해.<end>"
 
-## 350409
-source: translations/korean/messages/msgsec035-part99.toml
+## 400151
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "聖光石の廃鉱７<end>"
-EN: "Old Holy Light Stone Mine 7<end>"
-KO: "성광석 폐광 7<end>"
+JP: "黙ってて、ドルドラム。<line-break>私は大丈夫。<line-break>いつも通り戦えるわ！<end>"
+EN: "Be quiet, Doldrum. I'm fine. I can fight as well as ever!<end>"
+KO: "조용히 해, 돌드람. 난 괜찮아. 평소대로 싸울 수 있어!<end>"
 
-## 350410
-source: translations/korean/messages/msgsec035-part99.toml
+## 400152
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "聖光石の廃鉱８<end>"
-EN: "Old Holy Light Stone Mine 8<end>"
-KO: "성광석 폐광 8<end>"
+JP: "勇ましいな。<line-break>どれ、加勢しよう。<end>"
+EN: "Bold words. Here, I'll lend a hand.<end>"
+KO: "용감하군. 어디, 거들어 주지.<end>"
 
-## 350411
-source: translations/korean/messages/msgsec035-part99.toml
+## 400153
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アハブ１<end>"
-EN: "Ahab 1<end>"
-KO: "아합1<end>"
+JP: "助けはいらないわ。<end>"
+EN: "I don't need any help.<end>"
+KO: "도움은 필요 없어.<end>"
 
-## 350412
-source: translations/korean/messages/msgsec035-part99.toml
+## 400154
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アハブ２<end>"
-EN: "Ahab 2<end>"
-KO: "아합2<end>"
+JP: "…俺の助けもか？<end>"
+EN: "Not even mine?<end>"
+KO: "…내 도움도 말인가?<end>"
 
-## 350413
-source: translations/korean/messages/msgsec035-part99.toml
+## 400155
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アハブ３<end>"
-EN: "Ahab 3<end>"
-KO: "아합3<end>"
+JP: "私ひとりで十分よ。<end>"
+EN: "I can handle this alone.<end>"
+KO: "나 혼자면 충분해.<end>"
 
-## 350414
-source: translations/korean/messages/msgsec035-part99.toml
+## 400156
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アハブ４<end>"
-EN: "Ahab 4<end>"
-KO: "아합4<end>"
+JP: "やれやれ、ほんに勇ましいことだ。<line-break>ならば、高みの見物としゃれ込もう。<line-break>　<line-break><value:$28>、<line-break>うちのオイフェを<line-break>あんまりいじめてくれるなよ。<end>"
+EN: "Good grief, such valor. Very well, I'll enjoy the view from here. <value:$28>, don't be too hard on our Aoife.<end>"
+KO: "이런 이런, 참 용맹하기도 하군. 그렇다면 높은 곳에서 구경이나 해볼까. <value:$28>, 우리 오이페를 너무 괴롭히진 말아줘.<end>"
 
-## 350415
-source: translations/korean/messages/msgsec035-part99.toml
+## 400157
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アハブ５<end>"
-EN: "Ahab 5<end>"
-KO: "아합5<end>"
+JP: "黙ってて、ドルドラム！<line-break>　<line-break>　<line-break>いくわよ！<end>"
+EN: "Be quiet, Doldrum! Here I come!<end>"
+KO: "조용히 해, 돌드람! 간다!<end>"
 
-## 350416
-source: translations/korean/messages/msgsec035-part99.toml
+## 400158
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アハブ６<end>"
-EN: "Ahab 6<end>"
-KO: "아합6<end>"
+JP: "くっ…！<line-break>私が負けるなんて…！！<end>"
+EN: "No...! How could I lose?!<end>"
+KO: "큭…! 내가 지다니…!!<end>"
 
-## 350417
-source: translations/korean/messages/msgsec035-part99.toml
+## 400159
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アハブ７<end>"
-EN: "Ahab 7<end>"
-KO: "아합7<end>"
+JP: "ソリアスの名にかけて<line-break>友情と努力の下に勝利を。<line-break>チームワークは大切じゃな。<line-break><value:$28>よ、<line-break>今回はわしらの負けじゃ。<line-break>ここはおとなしく退くわい。<end>"
+EN: "In the name of Solias: victory through friendship and effort. Teamwork matters, you see. <value:$28>, we've lost this time. We'll withdraw without a fuss.<end>"
+KO: "솔리아스의 이름을 걸고 우정과 노력 아래 승리를. 팀워크는 중요하지. <value:$28>여, 이번에는 우리 패배다. 얌전히 물러나지.<end>"
 
-## 350418
-source: translations/korean/messages/msgsec035-part99.toml
+## 400160
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "古の樹海１<end>"
-EN: "Ancient Forest 1<end>"
-KO: "태고의 수해1<end>"
+JP: "傲慢の首飾りを失った。<end>"
+EN: "Lost the Necklace of Pride.<end>"
+KO: "오만의 목걸이를 잃었다.<end>"
 
-## 350419
-source: translations/korean/messages/msgsec035-part99.toml
+## 400161
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "古の樹海２<end>"
-EN: "Ancient Forest 2<end>"
-KO: "태고의 수해2<end>"
+JP: "次は、負けないわ！！<end>"
+EN: "Next time, I won't lose!<end>"
+KO: "다음엔 지지 않아!!<end>"
 
-## 350420
-source: translations/korean/messages/msgsec035-part99.toml
+## 400162
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "古の樹海３<end>"
-EN: "Ancient Forest 3<end>"
-KO: "태고의 수해3<end>"
+JP: "やれやれ。ま、このくらいの勇み足は<line-break>オイフェならば愛嬌じゃな。<line-break>ゆくぞ、ゼリグ。<end>"
+EN: "Good grief. Still, a little rashness like that is part of Aoife's charm. Come, Zelig.<end>"
+KO: "이런 이런. 뭐, 이 정도의 성급함은 오이페라면 애교지. 가자, 젤리그.<end>"
 
-## 350421
-source: translations/korean/messages/msgsec035-part99.toml
+## 400163
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "古の樹海４<end>"
-EN: "Ancient Forest 4<end>"
-KO: "태고의 수해4<end>"
+JP: "<if><value:$2A><greater-equal>%15ここは、かつての魔王バロルの城じゃ。<line-break>今はバロルは滅びたが、闇の力は<line-break>いまだに城内にあふれているそうじゃ。<line-break>お前さんもよほどの腕なのじゃろうが<line-break>この城の門をくぐるのであれば<line-break>覚悟を決めて行くことじゃな。<end>ここは、かつての魔王バロルの城じゃ。<line-break>今はバロルは滅びたが、闇の力は<line-break>いまだに城内にあふれているそうじゃ。<line-break>お前さんも冒険者なら<line-break>中を探検したいのじゃろうが<line-break>危険すぎる。やめておくことじゃ。<end>"
+EN: "<if><value:$2A><greater-equal>%15This was once the castle of Balor, the Demon King. Balor is no more, but they say the castle is still awash with dark power. Skilled though you may be, if you mean to pass through its gates, you'd best steel yourself first.<end>This was once the castle of Balor, the Demon King. Balor is no more, but they say the castle is still awash with dark power. If you're an adventurer, no doubt you'll want to explore the place, but it's far too dangerous. Best leave it be.<end>"
+KO: "<if><value:$2A><greater-equal>%15여기는 옛 마왕 발로르의 성이야. 지금 발로르는 멸망했지만 어둠의 힘은 아직도 성 안에 넘쳐난다고 해. 자네도 상당한 실력이겠지만 이 성문을 통과하려면 각오를 단단히 해야 할 거야.<end>여기는 옛 마왕 발로르의 성이야. 지금 발로르는 멸망했지만 어둠의 힘은 아직도 성 안에 넘쳐난다고 해. 자네도 모험자라면 안을 탐험하고 싶겠지만 너무 위험해. 그만두는 게 좋아.<end>"
 
-## 350422
-source: translations/korean/messages/msgsec035-part99.toml
+## 400164
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "古の樹海５<end>"
-EN: "Ancient Forest 5<end>"
-KO: "태고의 수해5<end>"
+JP: "ありがとう、それじゃ<end>"
+EN: "Thanks. See you.<end>"
+KO: "고마워, 그럼<end>"
 
-## 350423
-source: translations/korean/messages/msgsec035-part99.toml
+## 400165
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "古の樹海６<end>"
-EN: "Ancient Forest 6<end>"
-KO: "태고의 수해6<end>"
+JP: "強くなるにはどうすればいい？<end>"
+EN: "How can I get stronger?<end>"
+KO: "강해지려면 어떻게 해야 하지?<end>"
 
-## 350424
-source: translations/korean/messages/msgsec035-part99.toml
+## 400166
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "古の樹海７<end>"
-EN: "Ancient Forest 7<end>"
-KO: "태고의 수해7<end>"
+JP: "冒険者として一流になりたいんなら　　　　　　<line-break>ソウルを鍛えていくことだ。<line-break>　<line-break>ソウルってのは、魂の形だな。<line-break>魂の形ってのは、すなわち<line-break>お前が持っている能力の象徴みたいなもんだ。<end>"
+EN: "If you want to become a first-rate adventurer, you'll need to develop your Soul. A Soul is the shape of your spirit―a symbol of the abilities you possess.<end>"
+KO: "모험가로 일류가 되고 싶다면 소울을 단련해 가는 거다. 소울이란 영혼의 형태지. 영혼의 형태란 곧 네가 가진 능력을 상징하는 것 같은 거야.<end>"
 
-## 350425
-source: translations/korean/messages/msgsec035-part99.toml
+## 400167
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "古の樹海８<end>"
-EN: "Ancient Forest 8<end>"
-KO: "태고의 수해8<end>"
+JP: "ソウルを鍛えていくことで、<line-break>お前の魂は形を変えていき、お前の成長を助け、<line-break>いろんな能力を与えてくれるだろうよ。<end>"
+EN: "As you develop your Soul, your spirit will take on new forms, helping you grow and granting you all sorts of abilities.<end>"
+KO: "소울을 단련해 가면 네 영혼은 모습을 바꾸고 네 성장을 도우며 여러 능력을 줄 거야.<end>"
 
-## 350426
-source: translations/korean/messages/msgsec035-part99.toml
+## 400168
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "神々の戦場４<end>"
-EN: "Battlefield of the Gods 4<end>"
-KO: "신들의 전장 4<end>"
+JP: "わかった。ありがとう<end>"
+EN: "Got it. Thanks.<end>"
+KO: "알겠어. 고마워<end>"
 
-## 350427
-source: translations/korean/messages/msgsec035-part99.toml
+## 400169
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "エルフの聖地<end>"
-EN: "Elven Holy Land<end>"
-KO: "엘프의 성지<end>"
+JP: "ソウルはどうやって鍛える？<end>"
+EN: "How do I strengthen my Soul?<end>"
+KO: "소울은 어떻게 단련하지?<end>"
 
-## 350428
-source: translations/korean/messages/msgsec035-part99.toml
+## 400170
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "はざまの塔１<end>"
-EN: "Tower of the Interstice 1<end>"
-KO: "틈새의 탑 1<end>"
+JP: "ソウルを鍛えるには、<line-break>他人のために何かをしてあげればいい。　　<line-break>その心が、ソウルを育てる。<line-break>ま、ギルドのクエストをやりゃあいいのよ。<line-break>そしたら、ソウルが育つ。<line-break>どう育てるかは、お前次第だ。<end>"
+EN: "To develop your Soul, do something for someone else. It's the spirit behind the deed that makes your Soul grow. In other words, take on quests from the Guild. Your Soul will grow, but how it grows is up to you.<end>"
+KO: "소울을 단련하려면 남을 위해 뭔가 해주면 된다. 그 마음이 소울을 키우지. 뭐, 길드 퀘스트를 하면 돼. 그러면 소울이 자란다. 어떻게 키울지는 네게 달렸어.<end>"
 
-## 350429
-source: translations/korean/messages/msgsec035-part99.toml
+## 400171
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "はざまの塔２<end>"
-EN: "Tower of the Interstice 2<end>"
-KO: "틈새의 탑 2<end>"
+JP: "おおざっぱに言うとだな、<line-break>Ｂｒａｖｅは勇敢さを、Ｗｉｌｄは荒々しさを、<line-break>Ｓｅａｒｃｈは探究心を、<line-break>Ｃｏｏｌは冷静さを、<line-break>Ｂｅｌｉｅｆは信心深さを、<line-break>Ｋｉｎｄはやさしさを、魂に与えてくれるのさ。<end>"
+EN: "Broadly speaking, Ｂｒａｖｅ gives your spirit courage; Ｗｉｌｄ, ferocity; Ｓｅａｒｃｈ, curiosity; Ｃｏｏｌ, composure; Ｂｅｌｉｅｆ, faith; and Ｋｉｎｄ, compassion.<end>"
+KO: "대충 말하자면 Brave는 용감함을, Wild는 거침을, Search는 탐구심을, Cool은 냉정함을, Belief는 신앙심을, Kind는 상냥함을 소울에 부여해 주는 거야.<end>"
 
-## 350430
-source: translations/korean/messages/msgsec035-part99.toml
+## 400172
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "はざまの塔３<end>"
-EN: "Tower of the Interstice 3<end>"
-KO: "틈새의 탑 3<end>"
+JP: "ありがとう、よくわかったよ<end>"
+EN: "Thanks, I understand now.<end>"
+KO: "고마워, 잘 알았어.<end>"
 
-## 350431
-source: translations/korean/messages/msgsec035-part99.toml
+## 400173
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "はざまの塔４<end>"
-EN: "Tower of the Interstice 4<end>"
-KO: "틈새의 탑 4<end>"
+JP: "もう少し詳しく教えてほしいな<end>"
+EN: "Could you explain a little more?<end>"
+KO: "조금 더 자세히 알려 줬으면 해<end>"
 
-## 350432
-source: translations/korean/messages/msgsec035-part99.toml
+## 400174
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "はざまの塔５<end>"
-EN: "Tower of the Interstice 5<end>"
-KO: "틈새의 탑 5<end>"
+JP: "Ｂｒａｖｅについて教えてほしい<end>"
+EN: "Tell me about Ｂｒａｖｅ.<end>"
+KO: "Brave에 대해 알려 줬으면 해<end>"
 
-## 350433
-source: translations/korean/messages/msgsec035-part99.toml
+## 400175
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "はざまの塔６<end>"
-EN: "Tower of the Interstice 6<end>"
-KO: "틈새의 탑 6<end>"
+JP: "Ｋｉｎｄについて教えてほしい<end>"
+EN: "Tell me about Ｋｉｎｄ.<end>"
+KO: "Kind에 대해 알려 줬으면 해<end>"
 
-## 350434
-source: translations/korean/messages/msgsec035-part99.toml
+## 400176
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "はざまの塔７<end>"
-EN: "Tower of the Interstice 7<end>"
-KO: "틈새의 탑 7<end>"
+JP: "Ｓｅａｒｃｈについて教えてほしい<end>"
+EN: "Tell me about Ｓｅａｒｃｈ.<end>"
+KO: "Search에 대해 알려 줬으면 해<end>"
 
-## 350435
-source: translations/korean/messages/msgsec035-part99.toml
+## 400177
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "はざまの塔８<end>"
-EN: "Tower of the Interstice 8<end>"
-KO: "틈새의 탑 8<end>"
+JP: "Ｂｅｌｉｅｆについて教えてほしい<end>"
+EN: "Tell me about Ｂｅｌｉｅｆ.<end>"
+KO: "Belief에 대해 알려 줬으면 해<end>"
 
-## 350436
-source: translations/korean/messages/msgsec035-part99.toml
+## 400178
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ロジクーニンの研究室<end>"
-EN: "Rozikunin's Laboratory<end>"
-KO: "로지쿠닌의 연구실<end>"
+JP: "Ｗｉｌｄについて教えてほしい<end>"
+EN: "Tell me about Ｗｉｌｄ.<end>"
+KO: "Wild에 대해 알려 줬으면 해<end>"
 
-## 350437
-source: translations/korean/messages/msgsec035-part99.toml
+## 400179
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "炎竜山１<end>"
-EN: "Flame Dragon Mountain 1<end>"
-KO: "염룡산1<end>"
+JP: "Ｃｏｏｌについて教えてほしい<end>"
+EN: "Tell me about Ｃｏｏｌ.<end>"
+KO: "Cool에 대해 알려 줬으면 해<end>"
 
-## 350438
-source: translations/korean/messages/msgsec035-part99.toml
+## 400180
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "炎竜山２<end>"
-EN: "Flame Dragon Mountain 2<end>"
-KO: "염룡산2<end>"
+JP: "<select><value:$20>%4Ｋｉｎｄはやさしさ。<line-break>つまりは気高く正しい心のことさ。<line-break>勇者なら持っていてほしいよな。　　<line-break>あと、この資質がすぐれている奴には<line-break>弓の使い手が多いんだ。<line-break>パーティのサポート役ってとこだな。<end>Ｋｉｎｄはやさしさ。<line-break>つまりは気高く正しい心のことさ。<line-break>勇者なら持っていてほしいよな。　　<line-break>あと、この資質がすぐれている奴には<line-break>弓の使い手が多いんだ。<line-break>パーティのサポート役ってとこだな。<end>Ｋｉｎｄはやさしさ。<line-break>つまりは気高く正しい心のことさ。<line-break>勇者なら持っていてほしいよな。<line-break>ただ、<line-break>やさしすぎると得られない<line-break>闇のソウルもあるってウワサだぜ。<end>Ｋｉｎｄはやさしさ。<line-break>つまりは気高く正しい心のことさ。<line-break>勇者なら持っていてほしいよな。<line-break>尊敬される戦士になるには<line-break>やっぱ、やさしさや正義の心が<line-break>必要になってくるぜ。<end>"
+EN: "<select><value:$20>%4Ｋｉｎｄ means compassion: a noble and righteous heart. Just the sort of thing you'd want in a hero. Many who excel in this quality are bow users. They tend to support the party.<end>Ｋｉｎｄ means compassion: a noble and righteous heart. Just the sort of thing you'd want in a hero. Many who excel in this quality are bow users. They tend to support the party.<end>Ｋｉｎｄ means compassion: a noble and righteous heart. Just the sort of thing you'd want in a hero. Mind you, there's a rumor that being too kind can keep you from acquiring certain dark Souls.<end>Ｋｉｎｄ means compassion: a noble and righteous heart. Just the sort of thing you'd want in a hero. If you want to become a respected warrior, you'll need kindness and a sense of justice.<end>"
+KO: "<select><value:$20>%4Kind는 상냥함. 즉 고결하고 올바른 마음이지. 용사라면 지녔으면 좋겠지. 그리고 이 자질이 뛰어난 녀석은 활을 쓰는 경우가 많아. 파티의 지원역이라고 할까.<end>Kind는 상냥함. 즉 고결하고 올바른 마음이지. 용사라면 지녔으면 좋겠지. 그리고 이 자질이 뛰어난 녀석은 활을 쓰는 경우가 많아. 파티의 지원역이라고 할까.<end>Kind는 상냥함. 즉 고결하고 올바른 마음이지. 용사라면 지녔으면 좋겠지. 다만 너무 상냥하면 얻을 수 없는 어둠의 소울도 있다는 소문이 있어.<end>Kind는 상냥함. 즉 고결하고 올바른 마음이지. 용사라면 지녔으면 좋겠지. 존경받는 전사가 되려면 역시 상냥함과 정의로운 마음이 필요해.<end>"
 
-## 350439
-source: translations/korean/messages/msgsec035-part99.toml
+## 400181
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "炎竜山３<end>"
-EN: "Flame Dragon Mountain 3<end>"
-KO: "염룡산3<end>"
+JP: "<select><value:$20>%2Ｓｅａｒｃｈは探求心だ。<line-break>知識を求める心は<line-break>魔法を使うには必要だよな。　　<line-break>ただ、魔法を使うには<line-break>さらに精霊力が身についてないと<line-break>ダメなんだ。<end>Ｓｅａｒｃｈは探求心だ。<line-break>知識を求める心は<line-break>魔法を使うには必要だよな。　　　　　　<line-break>賢くなりたきゃ、この資質を上げるんだ。<line-break>さらに冷静さが加われば<line-break>大魔法使いにだってなれるさ。<end>"
+EN: "<select><value:$20>%2Ｓｅａｒｃｈ means curiosity. A thirst for knowledge is essential if you want to use magic. But you'll also need to acquire spirit power before you can cast any spells.<end>Ｓｅａｒｃｈ means curiosity. A thirst for knowledge is essential if you want to use magic. Raise this quality if you want to become wiser. Add composure to it, and you could even become a great mage.<end>"
+KO: "<select><value:$20>%2Search는 탐구심이야. 지식을 추구하는 마음은 마법을 쓰는 데 필요하지. 다만 마법을 쓰려면 정령력도 갖춰야 해.<end>Search는 탐구심이야. 지식을 추구하는 마음은 마법을 쓰는 데 필요하지. 똑똑해지고 싶다면 이 자질을 올려. 거기에 냉정함까지 더하면 대마법사가 될 수도 있어.<end>"
 
-## 350440
-source: translations/korean/messages/msgsec035-part99.toml
+## 400182
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "炎竜山４<end>"
-EN: "Flame Dragon Mountain 4<end>"
-KO: "염룡산4<end>"
+JP: "Ｂｅｌｉｅｆは信仰心だ。<line-break>神に仕える神官や僧侶には<line-break>なくちゃならない資質だよな。<line-break>いやす力が欲しければ、<line-break>信仰心を持つこった。<end>"
+EN: "Ｂｅｌｉｅｆ means faith. It's indispensable for priests and monks in divine service. If you want the power to heal, you need faith.<end>"
+KO: "Belief는 신앙심이다. 신을 섬기는 신관이나 승려에겐 꼭 필요한 자질이지. 치유의 힘을 원한다면 신앙심을 가져라.<end>"
 
-## 350441
-source: translations/korean/messages/msgsec035-part99.toml
+## 400183
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "炎竜山５<end>"
-EN: "Flame Dragon Mountain 5<end>"
-KO: "염룡산5<end>"
+JP: "<select><value:$20>%3Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を<line-break>身につけることができる。<line-break>人間を超えた動物の力は<line-break>きっと役に立つはずさ。<end>Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を<line-break>身につけることができる。<line-break>人間を超えた動物の力は<line-break>きっと役に立つはずさ。<end>Ｗｉｌｄは荒々しさ。<line-break>これで大いなる自然の力を　　　　　　　<line-break>身につけることができる。<line-break>ただ、あんまりガサツじゃ<line-break>身につかないソウルもあるってウワサだ。<line-break>よく考えてから、のばしてくれ。<end>"
+EN: "<select><value:$20>%3Ｗｉｌｄ means ferocity. It allows you to acquire the awesome power of nature. The strength of beasts, surpassing that of humans, is sure to prove useful.<end>Ｗｉｌｄ means ferocity. It allows you to acquire the awesome power of nature. The strength of beasts, surpassing that of humans, is sure to prove useful.<end>Ｗｉｌｄ means ferocity. It allows you to acquire the awesome power of nature. But rumor has it that being too coarse can keep you from acquiring certain Souls, so think carefully before developing it.<end>"
+KO: "<select><value:$20>%3Wild는 거친 성향이야. 이걸로 위대한 자연의 힘을 익힐 수 있어. 인간을 뛰어넘는 동물의 힘은 분명 도움이 될 거야.<end>Wild는 거친 성향이야. 이걸로 위대한 자연의 힘을 익힐 수 있어. 인간을 뛰어넘는 동물의 힘은 분명 도움이 될 거야.<end>Wild는 거친 성향이야. 이걸로 위대한 자연의 힘을 익힐 수 있어. 다만 너무 거칠면 얻지 못하는 소울도 있다는 소문이야. 잘 생각해서 키워 줘.<end>"
 
-## 350442
-source: translations/korean/messages/msgsec035-part99.toml
+## 400184
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "炎竜山６<end>"
-EN: "Flame Dragon Mountain 6<end>"
-KO: "염룡산6<end>"
+JP: "Ｃｏｏｌは冷静さ。<line-break>冷静な判断力は探検家には　　　　　　　<line-break>必要な能力だよな。<line-break>すばやくなりたいときや<line-break>器用になりたいときは<line-break>この資質をのばしてソウルを得るといい。<end>"
+EN: "Ｃｏｏｌ means composure. Sound judgment is essential for an Explorer. If you want to become faster or more dexterous, develop this quality to gain a Soul.<end>"
+KO: "Cool은 냉정함. 침착한 판단력은 탐험가에게 필요한 능력이야. 더 빨라지고 싶거나 손재주를 키우고 싶다면 이 자질을 늘려 소울을 얻으면 돼.<end>"
 
-## 350443
-source: translations/korean/messages/msgsec035-part99.toml
+## 400185
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "鳳凰山１<end>"
-EN: "Phoenix Mountain 1<end>"
-KO: "봉황산1<end>"
+JP: "じゃあな。<line-break>お前の活躍、期待してるぜ。<end>"
+EN: "See you around. I'm expecting great things from you.<end>"
+KO: "그럼 잘 가. 네 활약을 기대하마.<end>"
 
-## 350444
-source: translations/korean/messages/msgsec035-part99.toml
+## 400186
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "鳳凰山２<end>"
-EN: "Phoenix Mountain 2<end>"
-KO: "봉황산2<end>"
+JP: "Ｂｒａｖｅは勇敢さだ。<line-break>力強い戦士には<line-break>これがないと話にならねえよな。　　　　　　　<line-break>だけど勇敢なだけじゃあ、<line-break>いい戦士にはなれないぜ。<line-break>他の資質と組みあわせてのばしていきたいよな。<end>"
+EN: "Ｂｒａｖｅ means courage. A powerful warrior won't get far without it. But courage alone doesn't make a good warrior. You'll want to develop it in combination with other qualities.<end>"
+KO: "Brave는 용감함이야. 힘센 전사에게 이게 없으면 이야기가 안 되지. 하지만 용감하기만 해서는 좋은 전사가 될 수 없어. 다른 자질과 조합해 키워 가고 싶지.<end>"
 
-## 350445
-source: translations/korean/messages/msgsec035-part99.toml
+## 400187
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "鳳凰山３<end>"
-EN: "Phoenix Mountain 3<end>"
-KO: "봉황산3<end>"
+JP: "ラミリー山を探検していると、　　　　<line-break>光る場所が見つかることがある。<line-break>そんな時は、迷わず調べてみるのだ！<line-break>錬剛石が落ちているからな。<line-break>ただし、他の冒険者が拾うこともある。<line-break>早い者勝ちだぞ。<end>"
+EN: "While exploring Mount Ramiri, you may come across a glowing spot. If you do, check it without a second thought! You'll find a Tempering Stone there. Mind you, another adventurer may pick it up first. First come, first served!<end>"
+KO: "라밀리 산을 탐험하다 보면 빛나는 장소를 발견할 때가 있다. 그럴 땐 망설이지 말고 조사해 봐! 연강석이 떨어져 있으니까. 다만 다른 모험자가 주울 수도 있다. 먼저 찾는 사람이 임자다.<end>"
 
-## 350446
-source: translations/korean/messages/msgsec035-part99.toml
+## 400188
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "鳳凰山４<end>"
-EN: "Phoenix Mountain 4<end>"
-KO: "봉황산4<end>"
+JP: "このあいだ先輩に連れられてゼグナ鉱山を<line-break>探検したんだよ。そしたら、光ってる場所が<line-break>あるんで、調べたら錬剛石を見つけたよ。<line-break>先輩の話だと、何週間に１回くらいは<line-break>こんなことがあるらしいよ。<line-break>君も行ってみたらどうだい？<end>"
+EN: "A more experienced adventurer took me exploring Zegna Mine the other day. There was a glowing spot, and when I checked it out, I found a Tempering Stone. The adventurer who took me said that happens about once every few weeks. Why don't you go take a look yourself?<end>"
+KO: "얼마 전 선배와 제그나 광산을 탐험했어. 빛나는 곳이 있길래 조사해 보니 연강석을 찾았지. 선배 말로는 몇 주에 한 번쯤 이런 일이 있대. 너도 한번 가 보는 게 어때?<end>"
 
-## 350447
-source: translations/korean/messages/msgsec035-part99.toml
+## 400189
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "鳳凰山５<end>"
-EN: "Phoenix Mountain 5<end>"
-KO: "봉황산5<end>"
+JP: "この間、聖光石の廃鉱に行ってみたけど<line-break>聖光石は見つからなかったよ。<line-break>かけらなら採れたけどね。<line-break>やっぱり、良質な聖光石ってのは<line-break>採り尽したみたいだね。<end>"
+EN: "I went to the Old Holy Light Stone Mine the other day, but I couldn't find any Holy Light Stone. I did manage to mine a few fragments, though. Looks like all the good-quality stone has already been mined out.<end>"
+KO: "저번에 성광석 폐광에 가 봤는데 성광석은 찾지 못했어. 조각은 캘 수 있었지만. 역시 양질의 성광석은 다 캐낸 모양이네.<end>"
 
-## 350448
-source: translations/korean/messages/msgsec035-part99.toml
+## 400190
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "鳳凰山６<end>"
-EN: "Phoenix Mountain 6<end>"
-KO: "봉황산6<end>"
+JP: "虹色の山脈で光っている場所を見つけたので、<line-break>そこを調べたら錬剛石が落ちていましたぞ。<line-break>あそこで拾ったのは久しぶりですな。<line-break>あと１個残しておいたから、<line-break>急げば、まだ落ちているかもしれませんぞ。<end>"
+EN: "I saw a spot glowing in the Rainbow Mountains, and when I went to take a look, I found some Tempering Stones lying there. It's been a long time since I last picked any up there. I left one behind, so if you hurry, it may still be there.<end>"
+KO: "무지개빛 산맥에서 빛나는 곳을 발견해 조사했더니 연강석이 떨어져 있더군요. 거기서 주운 건 오랜만입니다. 하나는 남겨뒀으니 서두르면 아직 있을지도 모릅니다.<end>"
 
-## 350449
-source: translations/korean/messages/msgsec035-part99.toml
+## 400191
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "北の谷間１<end>"
-EN: "North Valley 1<end>"
-KO: "북쪽 골짜기1<end>"
+JP: "あなた、錬剛石欲しくない？　　　　　　　　<line-break>鳳凰山に１個だけ落ちていたわよ。<line-break>私には必要ない物だから教えてあげるわ。<line-break>錬剛石が落ちている場所は光っていたから<line-break>行ってみればわかると思うわよ。<line-break>でも、誰かに拾われてても文句言わないでね。<end>"
+EN: "Wouldn't you like a Tempering Stone? There was a single piece lying on Phoenix Mountain. I have no use for it, so I thought I'd tell you. The spot where I saw it was glowing, so you should recognize it when you get there. But don't blame me if someone else has already picked it up.<end>"
+KO: "당신, 연강석 갖고 싶지 않아? 봉황산에 하나 떨어져 있더라. 내겐 필요 없는 물건이라 알려 주는 거야. 연강석이 떨어진 곳은 빛나고 있었으니 가 보면 알 거야. 하지만 누가 먼저 주워 갔다고 불평하진 마.<end>"
 
-## 350450
-source: translations/korean/messages/msgsec035-part99.toml
+## 400192
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "北の谷間２<end>"
-EN: "North Valley 2<end>"
-KO: "북쪽 골짜기2<end>"
+JP: "死竜の洞窟を知っているよな。<line-break>あそこに、錬剛石が落ちていることがあるのは<line-break>知っていたかい？<line-break>この間も光っている場所を調べてみたら<line-break>錬剛石が落ちていたよ。<line-break>あと１個くらいは落ちてるんじゃないかな。<end>"
+EN: "You know Dead Dragon Cave, don't you? Did you know you can sometimes find Tempering Stones lying around in there? I checked a spot that was glinting the other day and found one. I wouldn't be surprised if there's another piece still there.<end>"
+KO: "사룡의 동굴은 알고 있지? 거기에 연강석이 떨어져 있을 때가 있다는 건 알고 있었어? 얼마 전에도 빛나는 곳을 조사해 보니 연강석이 떨어져 있더라. 한 개 정도는 더 남아 있지 않을까.<end>"
 
-## 350451
-source: translations/korean/messages/msgsec035-part99.toml
+## 400193
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "北の谷間３<end>"
-EN: "North Valley 3<end>"
-KO: "북쪽 골짜기3<end>"
+JP: "（穴の中に何かが見える…）<end>"
+EN: "(Something is visible inside the hole...)<end>"
+KO: "(구멍 안에 뭔가 보여…)<end>"
 
-## 350452
-source: translations/korean/messages/msgsec035-part99.toml
+## 400194
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "北の谷間４<end>"
-EN: "North Valley 4<end>"
-KO: "북쪽 골짜기4<end>"
+JP: "穴に飛び込みますか？<end>"
+EN: "Jump into the hole?<end>"
+KO: "구멍에 뛰어들까요?<end>"
 
-## 350453
-source: translations/korean/messages/msgsec035-part99.toml
+## 400195
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "谷底の洞窟１<end>"
-EN: "Valley Floor Cave 1<end>"
-KO: "골짜기 밑 동굴 1<end>"
+JP: "（暖炉の火は消えている…。）<end>"
+EN: "(The fire in the hearth has gone out...)<end>"
+KO: "(벽난로 불은 꺼져 있다….)<end>"
 
-## 350454
-source: translations/korean/messages/msgsec035-part99.toml
+## 400196
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "谷底の洞窟２<end>"
-EN: "Valley Floor Cave 2<end>"
-KO: "골짜기 밑 동굴 2<end>"
+JP: "火をつけてみますか？<end>"
+EN: "Would you like to try lighting it?<end>"
+KO: "불을 붙여볼까요?<end>"
 
-## 350455
-source: translations/korean/messages/msgsec035-part99.toml
+## 400197
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "谷底の洞窟３<end>"
-EN: "Valley Floor Cave 3<end>"
-KO: "골짜기 밑 동굴 3<end>"
+JP: "おやじ、剣が古くなってきたから　　<line-break>新しいのを買いたいんだ。<line-break>いい剣はないか？<end>"
+EN: "Old man, my sword's getting worn out. I want to buy a new one. Got any good blades?<end>"
+KO: "아저씨, 검이 낡아 와서 새 걸 사고 싶어. 좋은 검 없어?<end>"
 
-## 350456
-source: translations/korean/messages/msgsec035-part99.toml
+## 400198
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "南の谷間１<end>"
-EN: "South Valley 1<end>"
-KO: "남쪽 골짜기1<end>"
+JP: "あんた、新米冒険者だね？　　　　　<line-break>　<line-break>　<end>"
+EN: "You're a novice adventurer, aren't you?<end>"
+KO: "당신, 신참 모험자지?<end>"
 
-## 350457
-source: translations/korean/messages/msgsec035-part99.toml
+## 400199
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "南の谷間２<end>"
-EN: "South Valley 2<end>"
-KO: "남쪽 골짜기2<end>"
+JP: "え？<line-break>なんで新米だってわかったんだ？　　<line-break>　<end>"
+EN: "What? How could you tell?<end>"
+KO: "어? 내가 신참인 걸 어떻게 알았지?<end>"
 
-## 350458
-source: translations/korean/messages/msgsec035-part99.toml
+## 400200
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "南の谷間３<end>"
-EN: "South Valley 3<end>"
-KO: "남쪽 골짜기3<end>"
+JP: "武器はな、新しく買うよりも、<line-break>強化していった方が強くなるのさ。　<line-break>だから、そう思ったわけだ。<end>"
+EN: "A weapon will grow stronger if you keep improving it instead of buying a new one. That's what gave you away.<end>"
+KO: "무기는 새로 사는 것보다 강화해 나가는 편이 더 강해져. 그래서 그렇게 생각한 거야.<end>"
 
-## 350459
-source: translations/korean/messages/msgsec035-part99.toml
+## 400201
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "南の谷間４<end>"
-EN: "South Valley 4<end>"
-KO: "남쪽 골짜기4<end>"
+JP: "な、なるほど。<line-break>それなら、強化してくれないか。　　<line-break>　<end>"
+EN: "R-right. That makes sense. Then could you improve mine?<end>"
+KO: "그, 그렇군. 그렇다면 강화해 주지 않겠나.<end>"
 
-## 350460
-source: translations/korean/messages/msgsec035-part99.toml
+## 400202
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "南の谷間５<end>"
-EN: "South Valley 5<end>"
-KO: "남쪽 골짜기5<end>"
+JP: "武器の強化には、錬剛石が必要だが、<line-break>持ってるかい？<line-break>　<end>"
+EN: "Improving a weapon takes Tempering Stone. Do you have any?<end>"
+KO: "무기 강화에는 연강석이 필요한데, 가지고 있나?<end>"
 
-## 350461
-source: translations/korean/messages/msgsec035-part99.toml
+## 400203
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "谷間の洞窟１<end>"
-EN: "Valley Cave 1<end>"
-KO: "골짜기 동굴 1<end>"
+JP: "錬剛石？　いや、持ってないな。　　<line-break>その錬剛石って、どうすれば<line-break>手に入るんだ？<end>"
+EN: "Tempering Stone? No, I don't. How do I get some?<end>"
+KO: "연강석? 아니, 없는데. 그 연강석은 어떻게 하면 구할 수 있어?<end>"
 
-## 350462
-source: translations/korean/messages/msgsec035-part99.toml
+## 400204
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "谷間の洞窟２<end>"
-EN: "Valley Cave 2<end>"
-KO: "골짜기 동굴 2<end>"
+JP: "鉱山なんかへ行くと、ときどき<line-break>地面が光っていることがある。<line-break>そこを調べたら見つかるはずだ。　　<line-break>だが、錬剛石はきちんと<line-break>結晶化するまで時間がかかるし、<line-break>他の冒険者もねらってるからな。<end>"
+EN: "In mines and places like that, you'll sometimes see the ground glowing. Search the spot and you should find some. But Tempering Stone takes time to crystallize properly, and other adventurers are after it too.<end>"
+KO: "광산 같은 데 가면 가끔 땅이 빛나는 곳이 있어. 거길 조사하면 찾을 수 있을 거야. 다만 연강석은 제대로 결정화되기까지 시간이 걸리고 다른 모험가들도 노리고 있으니까.<end>"
 
-## 350463
-source: translations/korean/messages/msgsec035-part99.toml
+## 400205
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ラミリー山１<end>"
-EN: "Mount Ramiri 1<end>"
-KO: "라밀리 산 1<end>"
+JP: "なるほど。<line-break>冒険者は何ごとも冒険から　　　　　<line-break>ってことだな。<line-break>それじゃあ、おやじ。<line-break>錬剛石を手に入れたら、また来るよ。<end>"
+EN: "I get it. For an adventurer, everything starts with an adventure. All right, old man. I'll be back once I've found some Tempering Stone.<end>"
+KO: "그렇군. 모험자는 뭐든 모험에서 시작한다는 거네. 그럼 아저씨, 연강석을 손에 넣으면 다시 올게.<end>"
 
-## 350464
-source: translations/korean/messages/msgsec035-part99.toml
+## 400206
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ラミリー山２<end>"
-EN: "Mount Ramiri 2<end>"
-KO: "라밀리 산 2<end>"
+JP: "おう！<line-break>ギアもいるから、貯めとけよ。　　　<line-break>　<end>"
+EN: "Right! You'll need Gea too, so save some up.<end>"
+KO: "좋아! 기어도 필요하니까 모아 둬.<end>"
 
-## 350465
-source: translations/korean/messages/msgsec035-part99.toml
+## 400207
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ラミリー山３<end>"
-EN: "Mount Ramiri 3<end>"
-KO: "라밀리 산 3<end>"
+JP: "だから、錬剛石がとれる山を　　　　<line-break>見つけたら、何度か足を<line-break>運んでみるのがいいだろうな。<end>"
+EN: "So if you find a mountain where Tempering Stone can be found, you'd do well to visit it several times.<end>"
+KO: "그러니 연강석이 나는 산을 찾으면 몇 번쯤 찾아가 보는 게 좋겠지.<end>"
 
-## 350466
-source: translations/korean/messages/msgsec035-part99.toml
+## 400208
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ラミリー山４<end>"
-EN: "Mount Ramiri 4<end>"
-KO: "라밀리 산 4<end>"
-
-## 350467
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラミリー山５<end>"
-EN: "Mount Ramiri 5<end>"
-KO: "라밀리 산 5<end>"
-
-## 350468
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の荒野１<end>"
-EN: "Wind Wasteland 1<end>"
-KO: "바람의 황야1<end>"
-
-## 350469
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の荒野２<end>"
-EN: "Wind Wasteland 2<end>"
-KO: "바람의 황야2<end>"
-
-## 350470
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の荒野３<end>"
-EN: "Wind Wasteland 3<end>"
-KO: "바람의 황야3<end>"
-
-## 350471
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の荒野４<end>"
-EN: "Wind Wasteland 4<end>"
-KO: "바람의 황야4<end>"
-
-## 350472
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の荒野５<end>"
-EN: "Wind Wasteland 5<end>"
-KO: "바람의 황야5<end>"
-
-## 350473
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風泣きの洞窟１<end>"
-EN: "Wind-Wailing Cave 1<end>"
-KO: "바람 우는 동굴 1<end>"
-
-## 350474
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風泣きの洞窟２<end>"
-EN: "Wind-Wailing Cave 2<end>"
-KO: "바람 우는 동굴 2<end>"
-
-## 350475
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風泣きの洞窟３<end>"
-EN: "Wind-Wailing Cave 3<end>"
-KO: "바람 우는 동굴 3<end>"
-
-## 350476
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風泣きの洞窟４<end>"
-EN: "Wind-Wailing Cave 4<end>"
-KO: "바람 우는 동굴 4<end>"
-
-## 350477
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風泣きの洞窟５<end>"
-EN: "Wind-Wailing Cave 5<end>"
-KO: "바람 우는 동굴 5<end>"
-
-## 350478
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風泣きの洞窟６<end>"
-EN: "Wind-Wailing Cave 6<end>"
-KO: "바람 우는 동굴 6<end>"
-
-## 350479
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "紺碧の洞窟１<end>"
-EN: "Azure Cave 1<end>"
-KO: "감청빛 동굴 1<end>"
-
-## 350480
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "紺碧の洞窟２<end>"
-EN: "Azure Cave 2<end>"
-KO: "감청빛 동굴 2<end>"
-
-## 350481
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "紺碧の洞窟３<end>"
-EN: "Azure Cave 3<end>"
-KO: "감청빛 동굴 3<end>"
-
-## 350482
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "紺碧の洞窟４<end>"
-EN: "Azure Cave 4<end>"
-KO: "감청빛 동굴 4<end>"
-
-## 350483
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "紺碧の洞窟５<end>"
-EN: "Azure Cave 5<end>"
-KO: "감청빛 동굴 5<end>"
-
-## 350484
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "紺碧の洞窟６<end>"
-EN: "Azure Cave 6<end>"
-KO: "감청빛 동굴 6<end>"
-
-## 350485
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：山道１<end>"
-EN: "Sacred Mount Thor: Mountain Path 1<end>"
-KO: "영봉 토르: 산길 1<end>"
-
-## 350486
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：山道２<end>"
-EN: "Sacred Mount Thor: Mountain Path 2<end>"
-KO: "영봉 토르: 산길 2<end>"
-
-## 350487
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：山道３<end>"
-EN: "Sacred Mount Thor: Mountain Path 3<end>"
-KO: "영봉 토르: 산길 3<end>"
-
-## 350488
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：山道４<end>"
-EN: "Sacred Mount Thor: Mountain Path 4<end>"
-KO: "영봉 토르: 산길 4<end>"
-
-## 350489
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：山道５<end>"
-EN: "Sacred Mount Thor: Mountain Path 5<end>"
-KO: "영봉 토르: 산길 5<end>"
-
-## 350490
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：山道６<end>"
-EN: "Sacred Mount Thor: Mountain Path 6<end>"
-KO: "영봉 토르: 산길 6<end>"
-
-## 350491
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：山道７<end>"
-EN: "Sacred Mount Thor: Mountain Path 7<end>"
-KO: "영봉 토르: 산길 7<end>"
-
-## 350492
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：ノトゥーン神殿前<end>"
-EN: "Sacred Mount Thor: Outside Notun Temple<end>"
-KO: "영봉 토르: 노툰 신전 앞<end>"
-
-## 350493
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "霊峰トール：ノトゥーン神殿内<end>"
-EN: "Sacred Mount Thor: Inside Notun Temple<end>"
-KO: "영봉 토르: 노툰 신전 안<end>"
-
-## 350494
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "静寂の洞窟１<end>"
-EN: "Cave of Silence 1<end>"
-KO: "정적의 동굴 1<end>"
-
-## 350495
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "静寂の洞窟２<end>"
-EN: "Cave of Silence 2<end>"
-KO: "정적의 동굴 2<end>"
-
-## 350496
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "静寂の洞窟３<end>"
-EN: "Cave of Silence 3<end>"
-KO: "정적의 동굴 3<end>"
-
-## 350497
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "静寂の洞窟４<end>"
-EN: "Cave of Silence 4<end>"
-KO: "정적의 동굴 4<end>"
-
-## 350498
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "静寂の洞窟５<end>"
-EN: "Cave of Silence 5<end>"
-KO: "정적의 동굴 5<end>"
-
-## 350499
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ツィーネの森１<end>"
-EN: "Tsine Forest 1<end>"
-KO: "치네의 숲 1<end>"
-
-## 350500
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ツィーネの森２<end>"
-EN: "Tsine Forest 2<end>"
-KO: "치네의 숲 2<end>"
-
-## 350501
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ツィーネの森３<end>"
-EN: "Tsine Forest 3<end>"
-KO: "치네의 숲 3<end>"
-
-## 350502
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ツィーネの森４<end>"
-EN: "Tsine Forest 4<end>"
-KO: "치네의 숲 4<end>"
-
-## 350503
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シェーヌの森１<end>"
-EN: "Chene Forest 1<end>"
-KO: "셰누의 숲 1<end>"
-
-## 350504
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シェーヌの森２<end>"
-EN: "Chene Forest 2<end>"
-KO: "셰누의 숲 2<end>"
-
-## 350505
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シェーヌの森３<end>"
-EN: "Chene Forest 3<end>"
-KO: "셰누의 숲 3<end>"
-
-## 350506
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シェーヌの森４<end>"
-EN: "Chene Forest 4<end>"
-KO: "셰누의 숲 4<end>"
-
-## 350507
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミューンの森１<end>"
-EN: "Myun Forest 1<end>"
-KO: "뮤운의 숲 1<end>"
-
-## 350508
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミューンの森２<end>"
-EN: "Myun Forest 2<end>"
-KO: "뮤운의 숲 2<end>"
-
-## 350509
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミューンの森３<end>"
-EN: "Myun Forest 3<end>"
-KO: "뮤운의 숲 3<end>"
-
-## 350510
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミューンの森４<end>"
-EN: "Myun Forest 4<end>"
-KO: "뮤운의 숲 4<end>"
-
-## 350511
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミューンの森５<end>"
-EN: "Myun Forest 5<end>"
-KO: "뮤운의 숲 5<end>"
-
-## 350512
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "幻惑の洞窟１<end>"
-EN: "Bewildering Cave 1<end>"
-KO: "환혹의 동굴 1<end>"
-
-## 350513
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "幻惑の洞窟２<end>"
-EN: "Bewildering Cave 2<end>"
-KO: "환혹의 동굴 2<end>"
-
-## 350514
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "幻惑の洞窟３<end>"
-EN: "Bewildering Cave 3<end>"
-KO: "환혹의 동굴 3<end>"
-
-## 350515
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "幻惑の洞窟４<end>"
-EN: "Bewildering Cave 4<end>"
-KO: "환혹의 동굴 4<end>"
-
-## 350516
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "幻惑の洞窟５<end>"
-EN: "Bewildering Cave 5<end>"
-KO: "환혹의 동굴 5<end>"
-
-## 350517
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "幻惑の洞窟６<end>"
-EN: "Bewildering Cave 6<end>"
-KO: "환혹의 동굴 6<end>"
-
-## 350518
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "幻惑の洞窟７<end>"
-EN: "Bewildering Cave 7<end>"
-KO: "환혹의 동굴 7<end>"
-
-## 350519
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔１Ｆ－１<end>"
-EN: "Arcane Tower １Ｆ-1<end>"
-KO: "마도의 탑 1F-1<end>"
-
-## 350520
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔１Ｆ－２<end>"
-EN: "Arcane Tower １Ｆ-2<end>"
-KO: "마도의 탑 1F-2<end>"
-
-## 350521
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔２Ｆ<end>"
-EN: "Arcane Tower ２Ｆ<end>"
-KO: "마도의 탑 2F<end>"
-
-## 350522
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔３Ｆ<end>"
-EN: "Arcane Tower ３Ｆ<end>"
-KO: "마도의 탑 3F<end>"
-
-## 350523
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔４Ｆ<end>"
-EN: "Arcane Tower ４Ｆ<end>"
-KO: "마도의 탑 4F<end>"
-
-## 350524
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔Ｂ１<end>"
-EN: "Arcane Tower Ｂ1<end>"
-KO: "마도의 탑 B1<end>"
-
-## 350525
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔Ｂ２<end>"
-EN: "Arcane Tower Ｂ2<end>"
-KO: "마도의 탑 B2<end>"
-
-## 350526
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔Ｂ３－１<end>"
-EN: "Arcane Tower Ｂ3-1<end>"
-KO: "마도의 탑 B3-1<end>"
-
-## 350527
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔Ｂ３－２<end>"
-EN: "Arcane Tower Ｂ3-2<end>"
-KO: "마도의 탑 B3-2<end>"
-
-## 350528
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔道の塔Ｂ４<end>"
-EN: "Arcane Tower Ｂ4<end>"
-KO: "마도의 탑 B4<end>"
-
-## 350529
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャロームの前<end>"
-EN: "In Front of Shalom<end>"
-KO: "샬롬 앞<end>"
-
-## 350530
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城１<end>"
-EN: "Ruined Castle 1<end>"
-KO: "폐성1<end>"
-
-## 350531
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城２<end>"
-EN: "Ruined Castle 2<end>"
-KO: "폐성2<end>"
-
-## 350532
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城３<end>"
-EN: "Ruined Castle 3<end>"
-KO: "폐성3<end>"
-
-## 350533
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城４<end>"
-EN: "Ruined Castle 4<end>"
-KO: "폐성4<end>"
-
-## 350534
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城５<end>"
-EN: "Ruined Castle 5<end>"
-KO: "폐성5<end>"
-
-## 350535
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城６<end>"
-EN: "Ruined Castle 6<end>"
-KO: "폐성6<end>"
-
-## 350536
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城７<end>"
-EN: "Ruined Castle 7<end>"
-KO: "폐성7<end>"
-
-## 350537
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城８<end>"
-EN: "Ruined Castle 8<end>"
-KO: "폐성8<end>"
-
-## 350538
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城９<end>"
-EN: "Ruined Castle 9<end>"
-KO: "폐성9<end>"
-
-## 350539
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城１０<end>"
-EN: "Ruined Castle 10<end>"
-KO: "폐성10<end>"
-
-## 350540
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "北の地下街道１<end>"
-EN: "Northern Underground Road 1<end>"
-KO: "북쪽 지하가도 1<end>"
-
-## 350541
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "北の地下街道２<end>"
-EN: "Northern Underground Road 2<end>"
-KO: "북쪽 지하가도 2<end>"
-
-## 350542
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "北の地下街道３<end>"
-EN: "Northern Underground Road 3<end>"
-KO: "북쪽 지하가도 3<end>"
-
-## 350543
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "北の地下街道４<end>"
-EN: "Northern Underground Road 4<end>"
-KO: "북쪽 지하가도 4<end>"
-
-## 350544
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "南の地下街道１<end>"
-EN: "Southern Underground Road 1<end>"
-KO: "남쪽 지하가도 1<end>"
-
-## 350545
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "南の地下街道２<end>"
-EN: "Southern Underground Road 2<end>"
-KO: "남쪽 지하가도 2<end>"
-
-## 350546
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "南の地下街道３<end>"
-EN: "Southern Underground Road 3<end>"
-KO: "남쪽 지하가도 3<end>"
-
-## 350547
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "南の地下街道４<end>"
-EN: "Southern Underground Road 4<end>"
-KO: "남쪽 지하가도 4<end>"
-
-## 350548
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "西の地下街道１<end>"
-EN: "Western Underground Road 1<end>"
-KO: "서쪽 지하가도 1<end>"
-
-## 350549
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "西の地下街道２<end>"
-EN: "Western Underground Road 2<end>"
-KO: "서쪽 지하가도 2<end>"
-
-## 350550
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "西の地下街道３<end>"
-EN: "Western Underground Road 3<end>"
-KO: "서쪽 지하가도 3<end>"
-
-## 350551
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "西の地下街道４<end>"
-EN: "Western Underground Road 4<end>"
-KO: "서쪽 지하가도 4<end>"
-
-## 350552
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮１<end>"
-EN: "Training Labyrinth 1<end>"
-KO: "수련의 미궁1<end>"
-
-## 350553
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮２<end>"
-EN: "Training Labyrinth 2<end>"
-KO: "수련의 미궁2<end>"
-
-## 350554
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮３<end>"
-EN: "Training Labyrinth 3<end>"
-KO: "수련의 미궁3<end>"
-
-## 350555
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮４<end>"
-EN: "Training Labyrinth 4<end>"
-KO: "수련의 미궁4<end>"
-
-## 350556
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮５<end>"
-EN: "Training Labyrinth 5<end>"
-KO: "수련의 미궁5<end>"
-
-## 350557
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮６<end>"
-EN: "Training Labyrinth 6<end>"
-KO: "수련의 미궁6<end>"
-
-## 350558
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮７<end>"
-EN: "Training Labyrinth 7<end>"
-KO: "수련의 미궁7<end>"
-
-## 350559
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮８<end>"
-EN: "Training Labyrinth 8<end>"
-KO: "수련의 미궁8<end>"
-
-## 350560
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮９<end>"
-EN: "Training Labyrinth 9<end>"
-KO: "수련의 미궁9<end>"
-
-## 350561
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "練の迷宮１０<end>"
-EN: "Training Labyrinth 10<end>"
-KO: "련의 미궁 10<end>"
-
-## 350562
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：王宮地下通路１<end>"
-EN: "Rostorl: Royal Palace Underground Passage 1<end>"
-KO: "로스톨: 왕궁 지하 통로 1<end>"
-
-## 350563
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：王宮地下通路２<end>"
-EN: "Rostorl: Royal Palace Underground Passage 2<end>"
-KO: "로스톨: 왕궁 지하 통로 2<end>"
-
-## 350564
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：王宮地下通路３<end>"
-EN: "Rostorl: Royal Palace Underground Passage 3<end>"
-KO: "로스톨: 왕궁 지하 통로 3<end>"
-
-## 350565
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：王宮地下通路４<end>"
-EN: "Rostorl: Royal Palace Underground Passage 4<end>"
-KO: "로스톨: 왕궁 지하 통로 4<end>"
-
-## 350566
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：神殿への道１<end>"
-EN: "Ulkarne: Road to the Temple 1<end>"
-KO: "울칸: 신전으로 가는 길 1<end>"
-
-## 350567
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：神殿への道２<end>"
-EN: "Ulkarne: Road to the Temple 2<end>"
-KO: "울칸: 신전으로 가는 길 2<end>"
-
-## 350568
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：灼熱の大洞窟１<end>"
-EN: "Ulkarne: Great Scorching Cavern 1<end>"
-KO: "울칸: 작열의 대동굴 1<end>"
-
-## 350569
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：灼熱の大洞窟２<end>"
-EN: "Ulkarne: Great Scorching Cavern 2<end>"
-KO: "울칸: 작열의 대동굴 2<end>"
-
-## 350570
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：灼熱の大洞窟３<end>"
-EN: "Ulkarne: Great Scorching Cavern 3<end>"
-KO: "울칸: 작열의 대동굴 3<end>"
-
-## 350571
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：灼熱の大洞窟４<end>"
-EN: "Ulkarne: Great Scorching Cavern 4<end>"
-KO: "울칸: 작열의 대동굴 4<end>"
-
-## 350572
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：灼熱の大洞窟５<end>"
-EN: "Ulkarne: Great Scorching Cavern 5<end>"
-KO: "울칸: 작열의 대동굴 5<end>"
-
-## 350573
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：灼熱の大洞窟６<end>"
-EN: "Ulkarne: Great Scorching Cavern 6<end>"
-KO: "울칸: 작열의 대동굴 6<end>"
-
-## 350574
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：火の精霊神の座所<end>"
-EN: "Ulkarne: Seat of the Fire Spirit God<end>"
-KO: "울칸: 불의 정령신 좌소<end>"
-
-## 350575
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：火の守護者の座への道<end>"
-EN: "Ulkarne: Road to the Fire Guardian's Seat<end>"
-KO: "울칸: 불의 수호자 자리로 가는 길<end>"
-
-## 350576
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルカーン：火の守護者の座<end>"
-EN: "Ulkarne: Seat of the Fire Guardian<end>"
-KO: "울칸: 불의 수호자 좌소<end>"
-
-## 350577
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース：水の神殿地下１<end>"
-EN: "Aqyurius: Water Temple Basement 1<end>"
-KO: "아큐류스: 물의 신전 지하 1<end>"
-
-## 350578
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース：水の神殿地下２<end>"
-EN: "Aqyurius: Water Temple Basement 2<end>"
-KO: "아큐류스: 물의 신전 지하 2<end>"
-
-## 350579
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース：水の神殿地下３<end>"
-EN: "Aqyurius: Water Temple Basement 3<end>"
-KO: "아큐류스: 물의 신전 지하 3<end>"
-
-## 350580
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース：水の神殿地下４<end>"
-EN: "Aqyurius: Water Temple Basement 4<end>"
-KO: "아큐류스: 물의 신전 지하 4<end>"
-
-## 350581
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース：水の神殿地下５<end>"
-EN: "Aqyurius: Water Temple Basement 5<end>"
-KO: "아큐류스: 물의 신전 지하 5<end>"
-
-## 350582
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルズ：彫刻画の道１<end>"
-EN: "Elz: Road of Reliefs 1<end>"
-KO: "엘즈: 조각화의 길 1<end>"
-
-## 350583
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルズ：彫刻画の道２<end>"
-EN: "Elz: Road of Reliefs 2<end>"
-KO: "엘즈: 조각화의 길 2<end>"
-
-## 350584
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルズ：彫刻画の道３<end>"
-EN: "Elz: Road of Reliefs 3<end>"
-KO: "엘즈: 조각화의 길 3<end>"
-
-## 350585
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の祭壇への道１<end>"
-EN: "Road to the Wind Altar 1<end>"
-KO: "바람의 제단으로 가는 길 1<end>"
-
-## 350586
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の祭壇への道２<end>"
-EN: "Road to the Wind Altar 2<end>"
-KO: "바람의 제단으로 가는 길 2<end>"
-
-## 350587
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の祭壇への道３<end>"
-EN: "Road to the Wind Altar 3<end>"
-KO: "바람의 제단으로 가는 길 3<end>"
-
-## 350588
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の祭壇への道４<end>"
-EN: "Road to the Wind Altar 4<end>"
-KO: "바람의 제단으로 가는 길 4<end>"
-
-## 350589
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラミリー山６<end>"
-EN: "Mount Ramiri 6<end>"
-KO: "라밀리 산 6<end>"
-
-## 350590
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラミリー山７<end>"
-EN: "Mount Ramiri 7<end>"
-KO: "라밀리 산 7<end>"
-
-## 350591
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラミリー山８<end>"
-EN: "Mount Ramiri 8<end>"
-KO: "라밀리 산 8<end>"
-
-## 350592
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の祭壇<end>"
-EN: "Wind Altar<end>"
-KO: "바람의 제단<end>"
-
-## 350593
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の精霊神の座所<end>"
-EN: "Seat of the Wind Spirit God<end>"
-KO: "바람의 정령신이 머무는 곳<end>"
-
-## 350594
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の守護者の座への道<end>"
-EN: "Road to the Seat of the Wind Guardian<end>"
-KO: "바람의 수호자 자리로 가는 길<end>"
-
-## 350595
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の守護者の座<end>"
-EN: "Seat of the Wind Guardian<end>"
-KO: "바람의 수호자 자리<end>"
-
-## 350596
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：地下洞窟１<end>"
-EN: "Ladras: Underground Cavern 1<end>"
-KO: "라드라스: 지하동굴 1<end>"
-
-## 350597
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：地下洞窟２<end>"
-EN: "Ladras: Underground Cavern 2<end>"
-KO: "라드라스: 지하동굴 2<end>"
-
-## 350598
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：地下洞窟３<end>"
-EN: "Ladras: Underground Cavern 3<end>"
-KO: "라드라스: 지하동굴 3<end>"
-
-## 350599
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：都市通路１<end>"
-EN: "Ladras: City Passage 1<end>"
-KO: "라드라스: 도시 통로 1<end>"
-
-## 350600
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：都市通路２<end>"
-EN: "Ladras: City Passage 2<end>"
-KO: "라드라스: 도시 통로 2<end>"
-
-## 350601
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：都市通路３<end>"
-EN: "Ladras: City Passage 3<end>"
-KO: "라드라스: 도시 통로 3<end>"
-
-## 350602
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：都市通路４<end>"
-EN: "Ladras: City Passage 4<end>"
-KO: "라드라스: 도시 통로 4<end>"
-
-## 350603
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：都市通路５<end>"
-EN: "Ladras: City Passage 5<end>"
-KO: "라드라스: 도시 통로 5<end>"
-
-## 350604
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：都市通路６<end>"
-EN: "Ladras: City Passage 6<end>"
-KO: "라드라스: 도시 통로 6<end>"
-
-## 350605
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "土の精霊神の座所<end>"
-EN: "Seat of the Earth Spirit God<end>"
-KO: "땅의 정령신이 머무는 곳<end>"
-
-## 350606
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "土の守護者の座への道<end>"
-EN: "Road to the Seat of the Earth Guardian<end>"
-KO: "땅의 수호자 자리로 가는 길<end>"
-
-## 350607
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "土の守護者の座<end>"
-EN: "Seat of the Earth Guardian<end>"
-KO: "땅의 수호자 자리<end>"
-
-## 350608
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "テラネ：裏山登山道<end>"
-EN: "Terane: Trail up the Mountain Behind Terane<end>"
-KO: "테라네: 뒷산 등산로<end>"
-
-## 350609
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：アスティアの家前<end>"
-EN: "Oswald: Outside Astia's House<end>"
-KO: "오즈왈드: 아스티아의 집 앞<end>"
-
-## 350610
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：アスティアの家１階<end>"
-EN: "Oswald: Astia's House, First Floor<end>"
-KO: "오즈왈드: 아스티아의 집 1층<end>"
-
-## 350611
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：アスティアの家２階<end>"
-EN: "Oswald: Astia's House, Second Floor<end>"
-KO: "오즈왈드: 아스티아의 집 2층<end>"
-
-## 350612
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：村<end>"
-EN: "Oswald: Village<end>"
-KO: "오즈월드: 마을<end>"
-
-## 350613
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：入り口<end>"
-EN: "Oswald: Entrance<end>"
-KO: "오즈월드: 입구<end>"
-
-## 350614
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：遺跡への道<end>"
-EN: "Oswald: Road to the Ruins<end>"
-KO: "오즈왈드: 유적으로 가는 길<end>"
-
-## 350615
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：遺跡前<end>"
-EN: "Oswald: Outside the Ruins<end>"
-KO: "오즈월드: 유적 앞<end>"
-
-## 350616
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：遺跡屋上<end>"
-EN: "Oswald: Ruins Rooftop<end>"
-KO: "오즈왈드: 유적 옥상<end>"
-
-## 350617
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド：遺跡中<end>"
-EN: "Oswald: Inside the Ruins<end>"
-KO: "오즈월드: 유적 내부<end>"
-
-## 350618
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "砂虫の残骸１<end>"
-EN: "Sandworm Remains 1<end>"
-KO: "사충의 잔해 1<end>"
-
-## 350619
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "砂虫の残骸２<end>"
-EN: "Sandworm Remains 2<end>"
-KO: "사충의 잔해 2<end>"
-
-## 350620
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "砂虫の残骸３<end>"
-EN: "Sandworm Remains 3<end>"
-KO: "사충의 잔해 3<end>"
-
-## 350621
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "砂虫の残骸４<end>"
-EN: "Sandworm Remains 4<end>"
-KO: "사충의 잔해 4<end>"
-
-## 350622
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "地下水脈１<end>"
-EN: "Underground Waterway 1<end>"
-KO: "지하 수맥1<end>"
-
-## 350623
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "地下水脈２<end>"
-EN: "Underground Waterway 2<end>"
-KO: "지하 수맥2<end>"
-
-## 350624
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "地下水脈３<end>"
-EN: "Underground Waterway 3<end>"
-KO: "지하 수맥3<end>"
-
-## 350625
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "地下水脈４<end>"
-EN: "Underground Waterway 4<end>"
-KO: "지하 수맥4<end>"
-
-## 350626
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城１<end>"
-EN: "Old Castle 1<end>"
-KO: "고성1<end>"
-
-## 350627
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城２<end>"
-EN: "Old Castle 2<end>"
-KO: "고성2<end>"
-
-## 350628
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城３<end>"
-EN: "Old Castle 3<end>"
-KO: "고성3<end>"
-
-## 350629
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城４<end>"
-EN: "Old Castle 4<end>"
-KO: "고성4<end>"
-
-## 350630
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城５<end>"
-EN: "Old Castle 5<end>"
-KO: "고성5<end>"
-
-## 350631
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城６<end>"
-EN: "Old Castle 6<end>"
-KO: "고성6<end>"
-
-## 350632
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城７<end>"
-EN: "Old Castle 7<end>"
-KO: "고성7<end>"
-
-## 350633
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城８<end>"
-EN: "Old Castle 8<end>"
-KO: "고성8<end>"
-
-## 350634
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "古城９<end>"
-EN: "Old Castle 9<end>"
-KO: "고성9<end>"
-
-## 350635
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島１<end>"
-EN: "Island of the Dark Gate 1<end>"
-KO: "어둠의 문 섬 1<end>"
-
-## 350636
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島２<end>"
-EN: "Island of the Dark Gate 2<end>"
-KO: "어둠의 문 섬 2<end>"
-
-## 350637
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島３<end>"
-EN: "Island of the Dark Gate 3<end>"
-KO: "어둠의 문 섬 3<end>"
-
-## 350638
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島４<end>"
-EN: "Island of the Dark Gate 4<end>"
-KO: "어둠의 문 섬 4<end>"
-
-## 350639
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島５<end>"
-EN: "Island of the Dark Gate 5<end>"
-KO: "어둠의 문 섬 5<end>"
-
-## 350640
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島６<end>"
-EN: "Island of the Dark Gate 6<end>"
-KO: "어둠의 문 섬 6<end>"
-
-## 350641
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島７<end>"
-EN: "Island of the Dark Gate 7<end>"
-KO: "어둠의 문 섬 7<end>"
-
-## 350642
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島８<end>"
-EN: "Island of the Dark Gate 8<end>"
-KO: "어둠의 문 섬 8<end>"
-
-## 350643
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島９<end>"
-EN: "Island of the Dark Gate 9<end>"
-KO: "어둠의 문 섬 9<end>"
-
-## 350644
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島１０<end>"
-EN: "Island of the Dark Gate 10<end>"
-KO: "어둠의 문 섬 10<end>"
-
-## 350645
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島１<end>"
-EN: "Spray Archipelago 1<end>"
-KO: "물보라 군도 1<end>"
-
-## 350646
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島２<end>"
-EN: "Spray Archipelago 2<end>"
-KO: "물보라 군도 2<end>"
-
-## 350647
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島３<end>"
-EN: "Spray Archipelago 3<end>"
-KO: "물보라 군도 3<end>"
-
-## 350648
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島４<end>"
-EN: "Spray Archipelago 4<end>"
-KO: "물보라 군도 4<end>"
-
-## 350649
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島５<end>"
-EN: "Spray Archipelago 5<end>"
-KO: "물보라 군도 5<end>"
-
-## 350650
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島６<end>"
-EN: "Spray Archipelago 6<end>"
-KO: "물보라 군도 6<end>"
-
-## 350651
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島７<end>"
-EN: "Spray Archipelago 7<end>"
-KO: "물보라 군도 7<end>"
-
-## 350652
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島８<end>"
-EN: "Spray Archipelago 8<end>"
-KO: "물보라 군도 8<end>"
-
-## 350653
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島９<end>"
-EN: "Spray Archipelago 9<end>"
-KO: "물보라 군도 9<end>"
-
-## 350654
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "水の精霊神の座所<end>"
-EN: "Seat of the Water Spirit God<end>"
-KO: "물의 정령신이 머무는 곳<end>"
-
-## 350655
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "水の守護者の座への道<end>"
-EN: "Path to the Seat of the Water Guardian<end>"
-KO: "물의 수호자 자리로 가는 길<end>"
-
-## 350656
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "水の守護者の座<end>"
-EN: "Seat of the Water Guardian<end>"
-KO: "물의 수호자 자리<end>"
-
-## 350657
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク軍本陣前<end>"
-EN: "Outside Zsilak Army Headquarters<end>"
-KO: "지라크군 본진 앞<end>"
-
-## 350658
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク軍陣中<end>"
-EN: "Zsilak Army Camp<end>"
-KO: "지라크군 진영<end>"
-
-## 350659
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノヴィン軍本陣前<end>"
-EN: "Outside Novin Army Headquarters<end>"
-KO: "노빈군 본진 앞<end>"
-
-## 350660
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノヴィン軍陣中<end>"
-EN: "Novin Army Camp<end>"
-KO: "노빈군 진중<end>"
-
-## 350661
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンギルダン軍本陣前<end>"
-EN: "Outside Angeerdan Army Headquarters<end>"
-KO: "앙길단군 본진 앞<end>"
-
-## 350662
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンギルダン軍陣中<end>"
-EN: "Angeerdan Army Camp<end>"
-KO: "앙길단군 진중<end>"
-
-## 350663
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼネテス軍本陣前<end>"
-EN: "Outside Xenetes Army Headquarters<end>"
-KO: "제네테스군 본진 앞<end>"
-
-## 350664
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼネテス軍陣中<end>"
-EN: "Xenetes Army Camp<end>"
-KO: "제네테스군 진중<end>"
-
-## 350665
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ軍本陣前<end>"
-EN: "Outside Karula Army Headquarters<end>"
-KO: "카를라군 본진 앞<end>"
-
-## 350666
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ軍陣中<end>"
-EN: "Karula Army Camp<end>"
-KO: "카를라군 진중<end>"
-
-## 350667
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：解放軍本部<end>"
-EN: "Liberdam: Liberation Army Headquarters<end>"
-KO: "리벨덤: 해방군 본부<end>"
-
-## 350668
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン：解放軍本部<end>"
-EN: "Rocen: Liberation Army Headquarters<end>"
-KO: "로센: 해방군 본부<end>"
-
-## 350669
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンティノの研究所１<end>"
-EN: "Antino's Laboratory 1<end>"
-KO: "안티노의 연구소 1<end>"
-
-## 350670
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンティノの研究所２<end>"
-EN: "Antino's Laboratory 2<end>"
-KO: "안티노의 연구소 2<end>"
-
-## 350671
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンティノの研究所３<end>"
-EN: "Antino's Laboratory 3<end>"
-KO: "안티노의 연구소 3<end>"
-
-## 350672
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンティノの研究所４<end>"
-EN: "Antino's Laboratory 4<end>"
-KO: "안티노의 연구소 4<end>"
-
-## 350673
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンティノの研究所５<end>"
-EN: "Antino's Laboratory 5<end>"
-KO: "안티노의 연구소 5<end>"
-
-## 350674
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンティノの研究所６<end>"
-EN: "Antino's Laboratory 6<end>"
-KO: "안티노의 연구소 6<end>"
-
-## 350675
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ライギロアのアジト１<end>"
-EN: "Raigiloa's Hideout 1<end>"
-KO: "라이기로아의 아지트 1<end>"
-
-## 350676
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ライギロアのアジト２<end>"
-EN: "Raigiloa's Hideout 2<end>"
-KO: "라이기로아의 아지트 2<end>"
-
-## 350677
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ライギロアのアジト３<end>"
-EN: "Raigiloa's Hideout 3<end>"
-KO: "라이기로아의 아지트 3<end>"
-
-## 350678
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ライギロアのアジト４<end>"
-EN: "Raigiloa's Hideout 4<end>"
-KO: "라이기로아의 아지트 4<end>"
-
-## 350679
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ライギロアのアジト５<end>"
-EN: "Raigiloa's Hideout 5<end>"
-KO: "라이기로아의 아지트 5<end>"
-
-## 350680
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "埋蔵金の洞窟１<end>"
-EN: "Buried Treasure Cave 1<end>"
-KO: "매장금의 동굴 1<end>"
-
-## 350681
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "埋蔵金の洞窟２<end>"
-EN: "Buried Treasure Cave 2<end>"
-KO: "매장금의 동굴 2<end>"
-
-## 350682
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "埋蔵金の洞窟３<end>"
-EN: "Buried Treasure Cave 3<end>"
-KO: "매장금의 동굴 3<end>"
-
-## 350683
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "埋蔵金の洞窟４<end>"
-EN: "Buried Treasure Cave 4<end>"
-KO: "매장금의 동굴 4<end>"
-
-## 350684
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "埋蔵金の洞窟５<end>"
-EN: "Buried Treasure Cave 5<end>"
-KO: "매장금의 동굴 5<end>"
-
-## 350685
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪眼の迷宮１<end>"
-EN: "Evil Eye Labyrinth 1<end>"
-KO: "사안의 미궁 1<end>"
-
-## 350686
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪眼の迷宮２<end>"
-EN: "Evil Eye Labyrinth 2<end>"
-KO: "사안의 미궁 2<end>"
-
-## 350687
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪眼の迷宮３<end>"
-EN: "Evil Eye Labyrinth 3<end>"
-KO: "사안의 미궁 3<end>"
-
-## 350688
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪眼の迷宮４<end>"
-EN: "Evil Eye Labyrinth 4<end>"
-KO: "사안의 미궁 4<end>"
-
-## 350689
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪眼の迷宮５<end>"
-EN: "Evil Eye Labyrinth 5<end>"
-KO: "사안의 미궁 5<end>"
-
-## 350690
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "罪深き者の迷宮１<end>"
-EN: "Labyrinth of Sinners 1<end>"
-KO: "죄 많은 자의 미궁 1<end>"
-
-## 350691
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "罪深き者の迷宮２<end>"
-EN: "Labyrinth of Sinners 2<end>"
-KO: "죄 많은 자의 미궁 2<end>"
-
-## 350692
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "罪深き者の迷宮３<end>"
-EN: "Labyrinth of Sinners 3<end>"
-KO: "죄 많은 자의 미궁 3<end>"
-
-## 350693
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "罪深き者の迷宮４<end>"
-EN: "Labyrinth of Sinners 4<end>"
-KO: "죄 많은 자의 미궁 4<end>"
-
-## 350694
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "罪深き者の迷宮５<end>"
-EN: "Labyrinth of Sinners 5<end>"
-KO: "죄 많은 자의 미궁 5<end>"
-
-## 350695
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "罪深き者の迷宮６<end>"
-EN: "Labyrinth of Sinners 6<end>"
-KO: "죄 많은 자의 미궁 6<end>"
-
-## 350696
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "告死天使アジト１<end>"
-EN: "Angels of Death Hideout 1<end>"
-KO: "고사천사 아지트 1<end>"
-
-## 350697
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "告死天使アジト２<end>"
-EN: "Angels of Death Hideout 2<end>"
-KO: "고사천사 아지트 2<end>"
-
-## 350698
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "告死天使アジト３<end>"
-EN: "Angels of Death Hideout 3<end>"
-KO: "고사천사 아지트 3<end>"
-
-## 350699
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "告死天使アジト４<end>"
-EN: "Angels of Death Hideout 4<end>"
-KO: "고사천사 아지트 4<end>"
-
-## 350700
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "告死天使アジト５<end>"
-EN: "Angels of Death Hideout 5<end>"
-KO: "고사천사 아지트 5<end>"
-
-## 350701
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "告死天使アジト６<end>"
-EN: "Angels of Death Hideout 6<end>"
-KO: "고사천사 아지트 6<end>"
-
-## 350702
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "告死天使アジト７<end>"
-EN: "Angels of Death Hideout 7<end>"
-KO: "고사천사 아지트 7<end>"
-
-## 350703
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内１<end>"
-EN: "Ancient Castle Interior 1<end>"
-KO: "엔샨트 성내 1<end>"
-
-## 350704
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内２<end>"
-EN: "Ancient Castle Interior 2<end>"
-KO: "엔샨트 성내 2<end>"
-
-## 350705
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内３<end>"
-EN: "Ancient Castle Interior 3<end>"
-KO: "엔샨트 성내 3<end>"
-
-## 350706
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内４<end>"
-EN: "Ancient Castle Interior 4<end>"
-KO: "엔샨트 성내 4<end>"
-
-## 350707
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内５<end>"
-EN: "Ancient Castle Interior 5<end>"
-KO: "엔샨트 성내 5<end>"
-
-## 350708
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内６<end>"
-EN: "Ancient Castle Interior 6<end>"
-KO: "엔샨트 성내 6<end>"
-
-## 350709
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内７<end>"
-EN: "Ancient Castle Interior 7<end>"
-KO: "엔샨트 성내 7<end>"
-
-## 350710
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内８<end>"
-EN: "Ancient Castle Interior 8<end>"
-KO: "엔샨트 성내 8<end>"
-
-## 350711
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内９<end>"
-EN: "Ancient Castle Interior 9<end>"
-KO: "엔샨트 성내 9<end>"
-
-## 350712
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内１０<end>"
-EN: "Ancient Castle Interior 10<end>"
-KO: "엔샨트 성 내부 10<end>"
-
-## 350713
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内１１<end>"
-EN: "Ancient Castle Interior 11<end>"
-KO: "엔샨트 성내 11<end>"
-
-## 350714
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内１２<end>"
-EN: "Ancient Castle Interior 12<end>"
-KO: "엔샨트 성내 12<end>"
-
-## 350715
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内１３<end>"
-EN: "Ancient Castle Interior 13<end>"
-KO: "엔샨트 성내 13<end>"
-
-## 350716
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント城内１４<end>"
-EN: "Ancient Castle Interior 14<end>"
-KO: "엔샨트 성내 14<end>"
-
-## 350717
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮１５<end>"
-EN: "Leonic's Labyrinth 15<end>"
-KO: "레오닉의 미궁 15<end>"
-
-## 350718
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮１６<end>"
-EN: "Leonic's Labyrinth 16<end>"
-KO: "레오닉의 미궁 16<end>"
-
-## 350719
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮１７<end>"
-EN: "Leonic's Labyrinth 17<end>"
-KO: "레오닉의 미궁 17<end>"
-
-## 350720
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮１８<end>"
-EN: "Leonic's Labyrinth 18<end>"
-KO: "레오닉의 미궁 18<end>"
-
-## 350721
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮１９<end>"
-EN: "Leonic's Labyrinth 19<end>"
-KO: "레오닉의 미궁 19<end>"
-
-## 350722
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮２０<end>"
-EN: "Leonic's Labyrinth 20<end>"
-KO: "레오닉의 미궁 20<end>"
-
-## 350723
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント～ロストール<end>"
-EN: "Ancient-Rostorl<end>"
-KO: "엔샨트~로스톨<end>"
-
-## 350724
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント～リベルダム<end>"
-EN: "Ancient-Liberdam<end>"
-KO: "엔샨트~리벨덤<end>"
-
-## 350725
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント～アルノートゥン<end>"
-EN: "Ancient-Alnortun<end>"
-KO: "엔샨트~알노툰<end>"
-
-## 350726
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント～アキュリュース<end>"
-EN: "Ancient-Aqyurius<end>"
-KO: "엔샨트~아큐류스<end>"
-
-## 350727
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント～テラネ<end>"
-EN: "Ancient-Terane<end>"
-KO: "엔샨트~테라네<end>"
-
-## 350728
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント～ロセン<end>"
-EN: "Ancient-Rocen<end>"
-KO: "엔샨트~로센<end>"
-
-## 350729
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント～ドワーフ王国<end>"
-EN: "Ancient-Dwarf Kingdom<end>"
-KO: "엔샨트~드워프 왕국<end>"
-
-## 350730
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール～リベルダム<end>"
-EN: "Rostorl-Liberdam<end>"
-KO: "로스톨~리벨덤<end>"
-
-## 350731
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール～ノーブル<end>"
-EN: "Rostorl-Noble<end>"
-KO: "로스톨~노블<end>"
-
-## 350732
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール～ドワーフ王国<end>"
-EN: "Rostorl-Dwarf Kingdom<end>"
-KO: "로스톨~드워프 왕국<end>"
-
-## 350733
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブル～リベルダム<end>"
-EN: "Noble-Liberdam<end>"
-KO: "노블~리벨덤<end>"
-
-## 350734
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブル～アミラル<end>"
-EN: "Noble-Amiral<end>"
-KO: "노블~아미랄<end>"
-
-## 350735
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム～ロセン<end>"
-EN: "Liberdam-Rocen<end>"
-KO: "리벨덤~로센<end>"
-
-## 350736
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム～アミラル<end>"
-EN: "Liberdam-Amiral<end>"
-KO: "리벨덤~아미랄<end>"
-
-## 350737
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム～エルズ<end>"
-EN: "Liberdam-Elz<end>"
-KO: "리벨덤~엘즈<end>"
-
-## 350738
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン～ウルカーン<end>"
-EN: "Rocen-Ulkarne<end>"
-KO: "로센~울칸<end>"
-
-## 350739
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン～テラネ<end>"
-EN: "Rocen-Terane<end>"
-KO: "로센~테라네<end>"
-
-## 350740
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン～エルズ<end>"
-EN: "Rocen-Elz<end>"
-KO: "로센~엘즈<end>"
-
-## 350741
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "テラネ～ウルカーン<end>"
-EN: "Terane-Ulkarne<end>"
-KO: "테라네~울칸<end>"
-
-## 350742
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ドワーフ王国～アキュリュース<end>"
-EN: "Dwarf Kingdom-Aqyurius<end>"
-KO: "드워프 왕국~아큐류스<end>"
-
-## 350743
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アルノートゥン～アキュリュース<end>"
-EN: "Alnortun-Aqyurius<end>"
-KO: "알노툰~아큐류스<end>"
-
-## 350744
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アミラル～エルズ<end>"
-EN: "Amiral-Elz<end>"
-KO: "아미랄~엘즈<end>"
-
-## 350745
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：近郊<end>"
-EN: "Rostorl Outskirts<end>"
-KO: "로스톨: 근교<end>"
-
-## 350746
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：丘<end>"
-EN: "Rostorl Hills<end>"
-KO: "로스톨: 언덕<end>"
-
-## 350747
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：丘<end>"
-EN: "Liberdam Hills<end>"
-KO: "리벨덤: 언덕<end>"
-
-## 350748
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "テラネ：丘<end>"
-EN: "Terane Hills<end>"
-KO: "테라네: 언덕<end>"
-
-## 350749
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アミラル：丘<end>"
-EN: "Amiral Hills<end>"
-KO: "아미랄: 언덕<end>"
-
-## 350750
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブル：畑１<end>"
-EN: "Noble Fields 1<end>"
-KO: "노블: 밭 1<end>"
-
-## 350751
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブル：畑２<end>"
-EN: "Noble Fields 2<end>"
-KO: "노블: 밭 2<end>"
-
-## 350752
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブルの林<end>"
-EN: "Noble Grove<end>"
-KO: "노블의 숲<end>"
-
-## 350753
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ドンパドンの船<end>"
-EN: "Donpadon's Ship<end>"
-KO: "돈파돈의 배<end>"
-
-## 350754
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "バルザーの迷宮１<end>"
-EN: "Baltzer's Labyrinth 1<end>"
-KO: "발자르의 미궁 1<end>"
-
-## 350755
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "バルザーの迷宮２<end>"
-EN: "Baltzer's Labyrinth 2<end>"
-KO: "발자르의 미궁 2<end>"
-
-## 350756
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "バルザーの迷宮３<end>"
-EN: "Baltzer's Labyrinth 3<end>"
-KO: "발자르의 미궁 3<end>"
-
-## 350757
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "バルザーの迷宮４<end>"
-EN: "Baltzer's Labyrinth 4<end>"
-KO: "발자르의 미궁 4<end>"
-
-## 350758
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "バルザーの迷宮５<end>"
-EN: "Baltzer's Labyrinth 5<end>"
-KO: "발자르의 미궁 5<end>"
-
-## 350759
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "炎竜山（旅立ち用）１<end>"
-EN: "Flame Dragon Mountain (Departure) 1<end>"
-KO: "염룡산(여행 출발용) 1<end>"
-
-## 350760
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "炎竜山（旅立ち用）２<end>"
-EN: "Flame Dragon Mountain (Departure) 2<end>"
-KO: "염룡산(여행 출발용) 2<end>"
-
-## 350761
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "炎竜山（旅立ち用）３<end>"
-EN: "Flame Dragon Mountain (Departure) 3<end>"
-KO: "염룡산(여행 출발용) 3<end>"
-
-## 350762
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "炎竜山（旅立ち用）４<end>"
-EN: "Flame Dragon Mountain (Departure) 4<end>"
-KO: "염룡산(여행 출발용) 4<end>"
-
-## 350763
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "炎竜山（旅立ち用）５<end>"
-EN: "Flame Dragon Mountain (Departure) 5<end>"
-KO: "염룡산(여행 출발용) 5<end>"
-
-## 350764
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "炎竜山（旅立ち用）６<end>"
-EN: "Flame Dragon Mountain (Departure) 6<end>"
-KO: "염룡산(여행 출발용) 6<end>"
-
-## 350765
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人村：寮内<end>"
-EN: "Thieves' Village: Dormitory Interior<end>"
-KO: "도둑 마을: 기숙사 내부<end>"
-
-## 350766
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人村：広場<end>"
-EN: "Thieves' Village: Square<end>"
-KO: "도둑 마을: 광장<end>"
-
-## 350767
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人村：ロッシマ邸<end>"
-EN: "Thieves' Village: Rossima Estate<end>"
-KO: "도둑 마을: 롯시마 저택<end>"
-
-## 350768
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人村：ロッシマ邸内<end>"
-EN: "Thieves' Village: Inside Rossima Residence<end>"
-KO: "도둑 마을: 롯시마 저택 내부<end>"
-
-## 350769
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：神殿内部<end>"
-EN: "Miis Village: Inside Temple<end>"
-KO: "미이스 마을: 신전 내부<end>"
-
-## 350770
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：神殿前<end>"
-EN: "Miis Village: In Front of Temple<end>"
-KO: "미이스 마을: 신전 앞<end>"
-
-## 350771
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：広場<end>"
-EN: "Miis Village: Plaza<end>"
-KO: "미이스 마을: 광장<end>"
-
-## 350772
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：村外れの森１<end>"
-EN: "Miis Village: Outskirts Forest 1<end>"
-KO: "미이스 마을: 외곽 숲 1<end>"
-
-## 350773
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：村外れの森２<end>"
-EN: "Miis Village: Outskirts Forest 2<end>"
-KO: "미이스 마을: 외곽 숲 2<end>"
-
-## 350774
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：村外れの森３<end>"
-EN: "Miis Village: Outskirts Forest 3<end>"
-KO: "미이스 마을: 외곽 숲 3<end>"
-
-## 350775
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シルヴァ村：神殿前<end>"
-EN: "Silva Village: In Front of Temple<end>"
-KO: "실바 마을: 신전 앞<end>"
-
-## 350776
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シルヴァ村：神殿裏<end>"
-EN: "Silva Village: Behind Temple<end>"
-KO: "실바 마을: 신전 뒤<end>"
-
-## 350777
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シルヴァ村：神殿内部<end>"
-EN: "Silva Village: Inside Temple<end>"
-KO: "실바 마을: 신전 내부<end>"
-
-## 350778
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シルヴァ村：領主邸の一室<end>"
-EN: "Silva Village: Room in the Lord's Manor<end>"
-KO: "실바 마을: 영주 저택 방<end>"
-
-## 350779
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン地下道１<end>"
-EN: "Rocen Underground Passage 1<end>"
-KO: "로센 지하도 1<end>"
-
-## 350780
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン地下道２<end>"
-EN: "Rocen Underground Passage 2<end>"
-KO: "로센 지하도 2<end>"
-
-## 350781
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン地下道３<end>"
-EN: "Rocen Underground Passage 3<end>"
-KO: "로센 지하도 3<end>"
-
-## 350782
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン地下道４<end>"
-EN: "Rocen Underground Passage 4<end>"
-KO: "로센 지하도 4<end>"
-
-## 350783
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン地下道５<end>"
-EN: "Rocen Underground Passage 5<end>"
-KO: "로센 지하도 5<end>"
-
-## 350784
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン地下道６<end>"
-EN: "Rocen Underground Passage 6<end>"
-KO: "로센 지하도 6<end>"
-
-## 350785
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン地下道７<end>"
-EN: "Rocen Underground Passage 7<end>"
-KO: "로센 지하도 7<end>"
-
-## 350786
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン地下道８<end>"
-EN: "Rocen Underground Passage 8<end>"
-KO: "로센 지하도 8<end>"
-
-## 350787
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "異次元の世界１<end>"
-EN: "World of the Other Dimension 1<end>"
-KO: "이차원의 세계 1<end>"
-
-## 350788
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブルの森１<end>"
-EN: "Noble Forest 1<end>"
-KO: "노블의 숲 1<end>"
-
-## 350789
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブルの森２<end>"
-EN: "Noble Forest 2<end>"
-KO: "노블의 숲 2<end>"
-
-## 350790
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブルの森３<end>"
-EN: "Noble Forest 3<end>"
-KO: "노블의 숲 3<end>"
-
-## 350791
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブルの森４<end>"
-EN: "Noble Forest 4<end>"
-KO: "노블의 숲 4<end>"
-
-## 350792
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "異次元の世界６<end>"
-EN: "World of the Other Dimension 6<end>"
-KO: "이차원의 세계 6<end>"
-
-## 350793
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "異次元の世界７<end>"
-EN: "World of the Other Dimension 7<end>"
-KO: "이차원의 세계 7<end>"
-
-## 350794
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "異次元の世界８<end>"
-EN: "World of the Other Dimension 8<end>"
-KO: "이차원의 세계 8<end>"
-
-## 350795
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの隠れ家１<end>"
-EN: "Shalli's Hideout 1<end>"
-KO: "샤리의 은신처 1<end>"
-
-## 350796
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの隠れ家２<end>"
-EN: "Shalli's Hideout 2<end>"
-KO: "샤리의 은신처 2<end>"
-
-## 350797
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの隠れ家３<end>"
-EN: "Shalli's Hideout 3<end>"
-KO: "샤리의 은신처 3<end>"
-
-## 350798
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの隠れ家４<end>"
-EN: "Shalli's Hideout 4<end>"
-KO: "샤리의 은신처 4<end>"
-
-## 350799
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの隠れ家５<end>"
-EN: "Shalli's Hideout 5<end>"
-KO: "샤리의 은신처 5<end>"
-
-## 350800
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島絶景１<end>"
-EN: "Spray Archipelago Vista 1<end>"
-KO: "물보라 군도 절경 1<end>"
-
-## 350801
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島絶景２<end>"
-EN: "Spray Archipelago Vista 2<end>"
-KO: "물보라 군도 절경 2<end>"
-
-## 350802
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "しぶきの群島絶景３<end>"
-EN: "Spray Archipelago Vista 3<end>"
-KO: "물보라 군도 절경 3<end>"
-
-## 350803
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "聖光石の鉱山９<end>"
-EN: "Holy Light Stone Mine 9<end>"
-KO: "성광석 광산 9<end>"
-
-## 350804
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "聖光石の鉱山１０<end>"
-EN: "Holy Light Stone Mine 10<end>"
-KO: "성광석 광산 10<end>"
-
-## 350805
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノヴィン軍防御柵内<end>"
-EN: "Inside the Novin Army Palisade<end>"
-KO: "노빈군 방어책 안<end>"
-
-## 350806
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンギルダン軍防御柵外<end>"
-EN: "Outside the Angeerdan Army Palisade<end>"
-KO: "앙길단군 방어책 밖<end>"
-
-## 350807
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "山越え戦場１<end>"
-EN: "Mountain-Crossing Battlefield 1<end>"
-KO: "산넘이 전장 1<end>"
-
-## 350808
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "山越え戦場２<end>"
-EN: "Mountain-Crossing Battlefield 2<end>"
-KO: "산넘이 전장 2<end>"
-
-## 350809
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ襲撃地点・ザギヴ襲撃<end>"
-EN: "Zagiv Attack Site: Zagiv Attack<end>"
-KO: "자기브 습격 지점·자기브 습격<end>"
-
-## 350810
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ暴走後<end>"
-EN: "After Zagiv's Rampage<end>"
-KO: "자기브 폭주 후<end>"
-
-## 350811
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼグナ鉱山・落とし穴<end>"
-EN: "Zegna Mine: Pitfall<end>"
-KO: "제그나 광산·함정<end>"
-
-## 350812
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "オズワルド・遠景<end>"
-EN: "Oswald: Distant View<end>"
-KO: "오즈월드・원경<end>"
-
-## 350813
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人虎の穴１<end>"
-EN: "Thieves' Den 1<end>"
-KO: "도둑 호랑이굴 1<end>"
-
-## 350814
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人虎の穴２<end>"
-EN: "Thieves' Den 2<end>"
-KO: "도둑 호랑이굴 2<end>"
-
-## 350815
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人虎の穴３<end>"
-EN: "Thieves' Den 3<end>"
-KO: "도둑 호랑이굴 3<end>"
-
-## 350816
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人虎の穴４<end>"
-EN: "Thieves' Den 4<end>"
-KO: "도둑 호랑이굴 4<end>"
-
-## 350817
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人虎の穴５<end>"
-EN: "Thieves' Den 5<end>"
-KO: "도둑 호랑이굴 5<end>"
-
-## 350818
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人虎の穴６<end>"
-EN: "Thieves' Den 6<end>"
-KO: "도둑 호랑이굴 6<end>"
-
-## 350819
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "盗人虎の穴前<end>"
-EN: "In Front of Thieves' Den<end>"
-KO: "도둑 호랑이굴 앞<end>"
-
-## 350820
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮１<end>"
-EN: "Desolate Labyrinth 1<end>"
-KO: "황폐한 미궁 1<end>"
-
-## 350821
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮２<end>"
-EN: "Desolate Labyrinth 2<end>"
-KO: "황폐한 미궁 2<end>"
-
-## 350822
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮３<end>"
-EN: "Desolate Labyrinth 3<end>"
-KO: "황폐한 미궁 3<end>"
-
-## 350823
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮４<end>"
-EN: "Desolate Labyrinth 4<end>"
-KO: "황폐한 미궁 4<end>"
-
-## 350824
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮５<end>"
-EN: "Desolate Labyrinth 5<end>"
-KO: "황폐한 미궁 5<end>"
-
-## 350825
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮６<end>"
-EN: "Desolate Labyrinth 6<end>"
-KO: "황폐한 미궁 6<end>"
-
-## 350826
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮７<end>"
-EN: "Desolate Labyrinth 7<end>"
-KO: "황폐한 미궁 7<end>"
-
-## 350827
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮８<end>"
-EN: "Desolate Labyrinth 8<end>"
-KO: "황폐한 미궁 8<end>"
-
-## 350828
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮９<end>"
-EN: "Desolate Labyrinth 9<end>"
-KO: "황폐한 미궁 9<end>"
-
-## 350829
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮前<end>"
-EN: "In Front of Desolate Labyrinth<end>"
-KO: "황폐한 미궁 앞<end>"
-
-## 350830
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮１<end>"
-EN: "Final Labyrinth 1<end>"
-KO: "최후의 미궁 1<end>"
-
-## 350831
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮２<end>"
-EN: "Final Labyrinth 2<end>"
-KO: "최후의 미궁 2<end>"
-
-## 350832
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮３<end>"
-EN: "Final Labyrinth 3<end>"
-KO: "최후의 미궁 3<end>"
-
-## 350833
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮４<end>"
-EN: "Final Labyrinth 4<end>"
-KO: "최후의 미궁 4<end>"
-
-## 350834
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮５<end>"
-EN: "Final Labyrinth 5<end>"
-KO: "최후의 미궁 5<end>"
-
-## 350835
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮６<end>"
-EN: "Final Labyrinth 6<end>"
-KO: "최후의 미궁 6<end>"
-
-## 350836
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮７<end>"
-EN: "Final Labyrinth 7<end>"
-KO: "최후의 미궁 7<end>"
-
-## 350837
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮８<end>"
-EN: "Final Labyrinth 8<end>"
-KO: "최후의 미궁 8<end>"
-
-## 350838
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮９<end>"
-EN: "Final Labyrinth 9<end>"
-KO: "최후의 미궁 9<end>"
-
-## 350839
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮１０<end>"
-EN: "Final Labyrinth 10<end>"
-KO: "최후의 미궁 10<end>"
-
-## 350840
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮前<end>"
-EN: "Outside Final Labyrinth<end>"
-KO: "최후의 미궁 앞<end>"
-
-## 350841
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの異次元１<end>"
-EN: "Shalli's Other Dimension 1<end>"
-KO: "샤리의 이차원 1<end>"
-
-## 350842
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの異次元２<end>"
-EN: "Shalli's Other Dimension 2<end>"
-KO: "샤리의 이차원 2<end>"
-
-## 350843
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの異次元３<end>"
-EN: "Shalli's Other Dimension 3<end>"
-KO: "샤리의 이차원 3<end>"
-
-## 350844
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの異次元４<end>"
-EN: "Shalli's Other Dimension 4<end>"
-KO: "샤리의 이차원 4<end>"
-
-## 350845
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの異次元５<end>"
-EN: "Shalli's Other Dimension 5<end>"
-KO: "샤리의 이차원 5<end>"
-
-## 350846
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの異次元６<end>"
-EN: "Shalli's Other Dimension 6<end>"
-KO: "샤리의 이차원 6<end>"
-
-## 350847
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの異次元７<end>"
-EN: "Shalli's Other Dimension 7<end>"
-KO: "샤리의 이차원 7<end>"
-
-## 350848
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリの異次元８<end>"
-EN: "Shalli's Other Dimension 8<end>"
-KO: "샤리의 이차원 8<end>"
-
-## 350849
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：闘技場通路<end>"
-EN: "Liberdam: Arena Passage<end>"
-KO: "리벨덤: 투기장 통로<end>"
-
-## 350850
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "山賊の砦１<end>"
-EN: "Bandit Fortress 1<end>"
-KO: "산적의 요새1<end>"
-
-## 350851
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "山賊の砦２<end>"
-EN: "Bandit Fortress 2<end>"
-KO: "산적의 요새2<end>"
-
-## 350852
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "山賊の砦３<end>"
-EN: "Bandit Fortress 3<end>"
-KO: "산적의 요새3<end>"
-
-## 350853
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：広場のアップ<end>"
-EN: "Rostorl: Plaza Close-Up<end>"
-KO: "로스톨: 광장 확대<end>"
-
-## 350854
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "船上<end>"
-EN: "Aboard Ship<end>"
-KO: "선상<end>"
-
-## 350855
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：スラムのアップ<end>"
-EN: "Liberdam: Slums Close-Up<end>"
-KO: "리벨덤: 빈민가 확대<end>"
-
-## 350856
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "竜王の島：竜王の島の火口のアップ<end>"
-EN: "Dragon King's Island: Crater Close-Up<end>"
-KO: "용왕의 섬: 용왕의 섬 화구 확대<end>"
-
-## 350857
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城：廃城４のアップ<end>"
-EN: "Ruined Castle: Ruined Castle 4 Close-Up<end>"
-KO: "폐성: 폐성 4 확대<end>"
-
-## 350858
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の門の島：闇の門<end>"
-EN: "Island of the Dark Gate: Dark Gate<end>"
-KO: "어둠의 문 섬: 어둠의 문<end>"
-
-## 350859
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "精神世界：精神世界<end>"
-EN: "Mental World: Mental World<end>"
-KO: "정신세계: 정신세계<end>"
-
-## 350860
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪竜の断層：邪竜解放時<end>"
-EN: "Evil Dragon Rift: During the Evil Dragon's Release<end>"
-KO: "사룡의 단층: 사룡 해방 시<end>"
-
-## 350861
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪竜解放後<end>"
-EN: "After the Evil Dragon's Release<end>"
-KO: "사룡 해방 후<end>"
-
-## 350862
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "火の精霊神の座所：解放後<end>"
-EN: "Seat of the Fire Spirit God: After Release<end>"
-KO: "불의 정령신 거처: 해방 후<end>"
-
-## 350863
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の精霊神の座所：解放後<end>"
-EN: "Seat of the Wind Spirit God: After Release<end>"
-KO: "바람의 정령신 거처: 해방 후<end>"
-
-## 350864
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼグナ鉱山３：旅立ち用<end>"
-EN: "Zegna Mine 3: Departure<end>"
-KO: "제그나 광산 3: 여행 출발용<end>"
-
-## 350865
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ワッシャー砦：港：船あり<end>"
-EN: "Washer Fort: Port: Ship Present<end>"
-KO: "왓샤 요새: 항구: 배 있음<end>"
-
-## 350866
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス：広場：落下後<end>"
-EN: "Ladras: Plaza: After the Fall<end>"
-KO: "라드라스: 광장: 낙하 후<end>"
-
-## 350867
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "土の精霊神の座所：解放後<end>"
-EN: "Seat of the Earth Spirit God: After Release<end>"
-KO: "대지의 정령신 거처: 해방 후<end>"
-
-## 350868
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "水の精霊神の座所：解放後<end>"
-EN: "Seat of the Water Spirit God: After Release<end>"
-KO: "물의 정령신 거처: 해방 후<end>"
-
-## 350869
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：城門前：夜<end>"
-EN: "Rostorl: Outside the Castle Gate: Night<end>"
-KO: "로스톨: 성문 앞: 밤<end>"
-
-## 350870
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：貴族居住区：夜<end>"
-EN: "Rostorl: Noble Quarter: Night<end>"
-KO: "로스톨: 귀족 거주구: 밤<end>"
-
-## 350871
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：レムオン邸前：夜<end>"
-EN: "Rostorl: Outside Lemghon's Residence: Night<end>"
-KO: "로스톨: 레무온 저택 앞: 밤<end>"
-
-## 350872
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：広場：夜<end>"
-EN: "Rostorl: Plaza: Night<end>"
-KO: "로스톨: 광장: 밤<end>"
-
-## 350873
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：大通り：夜<end>"
-EN: "Rostorl: Main Street: Night<end>"
-KO: "로스톨: 대로: 밤<end>"
-
-## 350874
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：平民街：夜<end>"
-EN: "Rostorl: Commoners' Quarter: Night<end>"
-KO: "로스톨: 평민가: 밤<end>"
-
-## 350875
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：王都の門：夜<end>"
-EN: "Rostorl: Capital Gates: Night<end>"
-KO: "로스톨: 왕도 성문: 밤<end>"
-
-## 350876
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：スラム街：夜<end>"
-EN: "Rostorl: Slums: Night<end>"
-KO: "로스톨: 빈민가: 밤<end>"
-
-## 350877
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：港：崩壊後<end>"
-EN: "Liberdam: Port: After the Collapse<end>"
-KO: "리벨덤: 항구: 붕괴 후<end>"
-
-## 350878
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：広場：崩壊後<end>"
-EN: "Liberdam: Plaza: After the Collapse<end>"
-KO: "리벨덤: 광장: 붕괴 후<end>"
-
-## 350879
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：繁華街：崩壊後<end>"
-EN: "Liberdam: Shopping District: After the Collapse<end>"
-KO: "리벨덤: 번화가: 붕괴 후<end>"
-
-## 350880
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：闘技場前：崩壊後<end>"
-EN: "Liberdam: Outside the Arena: After the Collapse<end>"
-KO: "리벨덤: 투기장 앞: 붕괴 후<end>"
-
-## 350881
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：闘技場闘いの場：崩壊後<end>"
-EN: "Liberdam: Arena Combat Area: After the Collapse<end>"
-KO: "리벨덤: 투기장 전투 장소: 붕괴 후<end>"
-
-## 350882
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：街の門：崩壊後<end>"
-EN: "Liberdam: City Gates: After the Collapse<end>"
-KO: "리벨덤: 성문: 붕괴 후<end>"
-
-## 350883
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：スラム街：崩壊後<end>"
-EN: "Liberdam: Slums: After the Collapse<end>"
-KO: "리벨덤: 빈민가: 붕괴 후<end>"
-
-## 350884
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン：謁見の間：陥落前<end>"
-EN: "Rocen: Audience Chamber: Before the Fall<end>"
-KO: "로센: 알현실: 함락 전<end>"
-
-## 350885
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン：街の門：陥落前<end>"
-EN: "Rocen: City Gates: Before the Fall<end>"
-KO: "로센: 도시의 문: 함락 전<end>"
-
-## 350886
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルズ：竜の座：竜いない<end>"
-EN: "Elz: Dragon's Seat: Dragon Absent<end>"
-KO: "엘즈: 용의 자리: 용 없음<end>"
-
-## 350887
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：広場：崩壊後<end>"
-EN: "Ancient: Plaza: After the Collapse<end>"
-KO: "엔샨트: 광장: 붕괴 후<end>"
-
-## 350888
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：繁華街：崩壊後<end>"
-EN: "Ancient: Shopping District: After the Collapse<end>"
-KO: "엔샨트: 번화가: 붕괴 후<end>"
-
-## 350889
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：帝都の門：崩壊後<end>"
-EN: "Ancient: Imperial Capital Gates: After the Collapse<end>"
-KO: "엔샨트: 제도 관문: 붕괴 후<end>"
-
-## 350890
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：神殿前：崩壊後<end>"
-EN: "Ancient: Outside the Temple: After the Collapse<end>"
-KO: "엔샨트: 신전 앞: 붕괴 후<end>"
-
-## 350891
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：スラム街：崩壊後<end>"
-EN: "Ancient: Slums: After the Collapse<end>"
-KO: "엔샨트: 빈민가: 붕괴 후<end>"
-
-## 350892
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：港：崩壊後<end>"
-EN: "Ancient: Port: After the Collapse<end>"
-KO: "엔샨트: 항구: 붕괴 후<end>"
-
-## 350893
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：スラム街の酒場：夜<end>"
-EN: "Rostorl: Tavern in the Slums: Night<end>"
-KO: "로스톨: 빈민가 술집: 밤<end>"
-
-## 350894
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール：広場のアップ：夜<end>"
-EN: "Rostorl: Plaza Close-Up: Night<end>"
-KO: "로스톨: 광장 확대: 밤<end>"
-
-## 350895
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム：繁華街２：崩壊後<end>"
-EN: "Liberdam: Shopping District 2: After the Collapse<end>"
-KO: "리벨덤: 번화가 2: 붕괴 후<end>"
-
-## 350896
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：神殿前：襲撃後<end>"
-EN: "Miis Village: Outside Temple: After Attack<end>"
-KO: "미이스 마을: 신전 앞: 습격 후<end>"
-
-## 350897
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：広場：襲撃後<end>"
-EN: "Miis Village: Plaza: After Attack<end>"
-KO: "미이스 마을: 광장: 습격 후<end>"
-
-## 350898
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "ミイスの村：神殿前：襲撃後：炎なし<end>"
-EN: "Miis Village: Outside Temple: After Attack: No Flames<end>"
-KO: "미이스 마을: 신전 앞: 습격 후: 불꽃 없음<end>"
-
-## 350899
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮８：鉄扉開き<end>"
-EN: "Leonic Labyrinth 8: Iron Door Open<end>"
-KO: "레오닉의 미궁 8: 철문 열림<end>"
-
-## 350900
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮１２：鉄扉開き<end>"
-EN: "Leonic Labyrinth 12: Iron Door Open<end>"
-KO: "레오닉의 미궁 12: 철문 열림<end>"
-
-## 350901
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "レオニックの迷宮１６：鉄扉開き<end>"
-EN: "Leonic Labyrinth 16: Iron Door Open<end>"
-KO: "레오닉의 미궁 16: 철문 열림<end>"
-
-## 350902
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒れ果てた迷宮８：鉄扉開き<end>"
-EN: "Desolate Labyrinth 8: Iron Door Open<end>"
-KO: "황폐한 미궁 8: 철문 열림<end>"
-
-## 350903
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "最後の迷宮７：鉄扉開き<end>"
-EN: "Final Labyrinth 7: Iron Door Open<end>"
-KO: "마지막 미궁 7: 철문 개방<end>"
-
-## 350904
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "廃城４：鉄扉開き<end>"
-EN: "Ruined Castle 4: Iron Door Open<end>"
-KO: "폐성 4: 철문 열림<end>"
-
-## 350905
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：城門前：崩壊後<end>"
-EN: "Ancient: Outside Castle Gate: After Collapse<end>"
-KO: "엔샨트: 성문 앞: 붕괴 후<end>"
-
-## 350906
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：魔道の塔前：崩壊後<end>"
-EN: "Ancient: Outside Arcane Tower: After Collapse<end>"
-KO: "엔샨트: 마도탑 앞: 붕괴 후<end>"
-
-## 350907
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：廃城前：崩壊後<end>"
-EN: "Ancient: Outside Ruined Castle: After Collapse<end>"
-KO: "엔샨트: 폐성 앞: 붕괴 후<end>"
-
-## 350908
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：墓地：崩壊後<end>"
-EN: "Ancient: Cemetery: After Collapse<end>"
-KO: "엔샨트: 묘지: 붕괴 후<end>"
-
-## 350909
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：ライラネート神殿内：崩壊後<end>"
-EN: "Ancient: Inside Lailanate Temple: After Collapse<end>"
-KO: "엔샨트: 라이라네트 신전 내부: 붕괴 후<end>"
-
-## 350910
-source: translations/korean/messages/msgsec035-part99.toml
-jp_matches_pinned_english: yes
-JP: "エンシャント：ライラネート神殿前：崩壊後<end>"
-EN: "Ancient: Outside Lailanate Temple: After Collapse<end>"
-KO: "엔샨트: 라이라네트 신전 앞: 붕괴 후<end>"
-
-## 360000
-source: translations/korean/messages/msgsec036-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅立ち０９メッセージ<end>"
+JP: "空<end>"
 EN: ""
-KO: "여행 출발 09 메시지<end>"
+KO: "빈칸<end>"
 
-## 360001
-source: translations/korean/messages/msgsec036-part99.toml
+## 400209
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "（…ドアの音。また、母さんか？<line-break>　…まだ夜明け前なのに…<line-break>　いったいどこへ？　　　）　　　<end>"
-EN: "(The door... Was that Mother again? It's not even dawn yet. Where could she be going?)<end>"
-KO: "(…문 소리. 또 엄마인가? …아직 동트기 전인데… 대체 어디로?)<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360002
-source: translations/korean/messages/msgsec036-part99.toml
+## 400210
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "（まさか、　モンスターに<line-break>　操られているんじゃ…。　）　　<end>"
-EN: "(Could a monster be controlling her...?)<end>"
-KO: "(설마 몬스터에게 조종당하고 있는 건…. )<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360003
-source: translations/korean/messages/msgsec036-part99.toml
+## 400211
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "（やっぱり、母さん、<line-break>　いない…。）<end>"
-EN: "(I knew it. Mother's gone...)<end>"
-KO: "(역시 엄마는 없어….)<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360004
-source: translations/korean/messages/msgsec036-part99.toml
+## 400212
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "（遺跡の方へ行く…。<line-break>　…追いかけよう）<end>"
-EN: "(She's heading toward the ruins... I'll follow her.)<end>"
-KO: "(유적 쪽으로 간다…. …뒤쫓자)<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360005
-source: translations/korean/messages/msgsec036-part99.toml
+## 400213
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "まだ、大丈夫ね…。<line-break>光は日に日に強くなるけど、<line-break>復活の兆しはない…。<end>"
-EN: "It's still all right... The light grows stronger by the day, but there's no sign of the resurrection yet...<end>"
-KO: "아직은 괜찮아…. 빛은 날이 갈수록 강해지지만 부활의 징조는 없어….<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360006
-source: translations/korean/messages/msgsec036-part99.toml
+## 400214
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>…。<line-break>ここはお前の来るところではないわ。<line-break>いい？　二度と来ないの。<end>"
-EN: "<value:$28>... You shouldn't be here. Do you understand? Never come back.<end>"
-KO: "<value:$28>…. 여긴 네가 올 곳이 아니야. 알겠지? 다시는 오지 마.<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360007
-source: translations/korean/messages/msgsec036-part99.toml
+## 400215
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "…竜王の覚醒？　…そんな！？ <line-break>運命は…<line-break>変えられない？　　　　　　　<end>"
-EN: "The Dragon King's Awakening...? No! Can destiny really not be changed?<end>"
-KO: "…용왕의 각성? …그럴 수가!? 운명은…바꿀 수 없는 건가?<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360009
-source: translations/korean/messages/msgsec036-part99.toml
+## 400216
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "お前に出会って<line-break>もう１７年になるのね。　　　　　　<line-break>　<line-break>ずっと、こうしていたかったけれど、<line-break>運命はそれを許しては<line-break>くれないようね。<end>"
-EN: "It's been seventeen years since I met you. I wanted us to stay this way forever, but destiny doesn't seem willing to allow it.<end>"
-KO: "너를 만난 지도 벌써 17년이구나. 계속 이렇게 있고 싶었지만 운명은 그걸 허락하지 않는 모양이네.<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360010
-source: translations/korean/messages/msgsec036-part99.toml
+## 400217
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "おいで、<value:$28>。<end>"
-EN: "Come here, <value:$28>.<end>"
-KO: "이리 와, <value:$28>.<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360011
-source: translations/korean/messages/msgsec036-part99.toml
+## 400218
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ごらん、<value:$28>。<line-break>きれいでしょう？　　　　　　　　　<line-break>　<line-break>ここがヴァシュタールの柩と呼ばれ、<line-break>この町が、捧げられる町と呼ばれる、<line-break>そのゆえんが、この光る石なの。<end>"
-EN: "Look, <value:$28>. Beautiful, isn't it? This glowing stone is why this place is called Vashtar's Coffin, and why this town is known as the Town Offered in Sacrifice.<end>"
-KO: "봐, <value:$28>. 아름답지? 여기가 바슈타르의 관이라 불리고 이 마을이 바쳐지는 마을이라 불리는 이유가 바로 이 빛나는 돌이야.<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360012
-source: translations/korean/messages/msgsec036-part99.toml
+## 400219
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>、<line-break>夜が明けるわ…。<end>"
-EN: "<value:$28>, dawn is breaking...<end>"
-KO: "<value:$28>, 날이 밝아 와….<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360013
-source: translations/korean/messages/msgsec036-part99.toml
+## 400220
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "また、戦いの時代が始まる。<line-break>…もう、たくさん。<end>"
-EN: "Another age of war is beginning. I've had enough...<end>"
-KO: "또 전쟁의 시대가 시작되는군. …이제 지긋지긋해.<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360014
-source: translations/korean/messages/msgsec036-part99.toml
+## 400221
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "…バルザー。<end>"
-EN: "...Baltzer.<end>"
-KO: "…발저.<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360015
-source: translations/korean/messages/msgsec036-part99.toml
+## 400222
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0少年よ。この金で<line-break>元気の薬を買ってきてくれぬか。<line-break>慣れぬ地で勝手がわからないのだ。<end>少女よ。この金で<line-break>元気の薬を買ってきてくれぬか。<line-break>慣れぬ地で勝手がわからないのだ。<end>"
-EN: "<if><value:$29><equal>%0Boy, would you buy me some Vitality Medicine with this money? I am unfamiliar with this land and do not know my way around.<end>Girl, would you buy me some Vitality Medicine with this money? I am unfamiliar with this land and do not know my way around.<end>"
-KO: "<if><value:$29><equal>%0소년이여. 이 돈으로 원기약을 사다 주겠느냐. 낯선 땅이라 사정이 익숙하지 않구나.<end>소녀여. 이 돈으로 원기약을 사다 주겠느냐. 낯선 땅이라 사정이 익숙하지 않구나.<end>"
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
 
-## 360016
-source: translations/korean/messages/msgsec036-part99.toml
+## 400223
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "時は来た。<line-break>…それなのに、なぜ時を告げぬ？<line-break>告げるものよ。<end>"
-EN: "The time has come. Why, then, have you not proclaimed it, Proclaimer?<end>"
-KO: "때가 왔다. …그런데 왜 때를 알리지 않지? 고하는 자여.<end>"
+JP: "ネメアが戻った？　　　　　　<line-break>私を見限り城を出たネメアが？<line-break>　<line-break>ふふふ、今頃なんの用か。<line-break>共に魔王バロルを倒したときの<line-break>思い出話でもしに来たか。<end>"
+EN: "Nemea has returned? Nemea, who gave up on me and left the castle? Heh. What business could he have here now? Has he come to reminisce about when we defeated Balor, the Demon King, together?<end>"
+KO: "네메아가 돌아왔다고? 나를 버리고 성을 나갔던 네메아가? 후후후, 이제 와 무슨 일이지. 함께 마왕 발로르를 쓰러뜨렸을 때의추억 이야기라도 하러 왔나.<end>"
 
-## 360017
-source: translations/korean/messages/msgsec036-part99.toml
+## 400224
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "どうしてかしらね。<end>"
-EN: "I wonder why.<end>"
-KO: "왜 그런 걸까.<end>"
+JP: "あるいは…、　　　　　　　　　　　<line-break>戦場で初めて出会われたときの話　　<line-break>かもしれませぬな。<line-break>なんのために戦うのかと陛下が<line-break>問われたとき、民のためにと<line-break>ネメア様は答えられたとか…。<end>"
+EN: "Or perhaps he means to speak of your first meeting on the battlefield. When Your Majesty asked what he fought for, Lord Nemea is said to have answered, “For the people.”<end>"
+KO: "혹은… 전장에서 처음 만났을 때 이야기일지도 모르겠군요. 무엇을 위해 싸우느냐고 폐하께서 물으셨을 때 네메아 님은 백성을 위해서라고 답하셨다고….<end>"
 
-## 360018
-source: translations/korean/messages/msgsec036-part99.toml
+## 400225
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0あの少年か…。<end>あの少女か…。<end>"
-EN: "<if><value:$29><equal>%0That boy...<end>That girl...<end>"
-KO: "<if><value:$29><equal>%0그 소년인가…<end>그 소녀인가…<end>"
+JP: "ほう、そうか。　　　　　　　　　<line-break>そのようなこともあったか。<line-break>くくく…。<line-break>奴らしいではないか。<line-break>魔王を倒す男の言いそうなことだ。<end>"
+EN: "Oh? Is that so? So that happened as well. Heh heh... That does sound like him. Just the sort of thing the man who defeated the Demon King would say.<end>"
+KO: "호오, 그런가. 그런 일도 있었나. 크크…. 녀석답군. 마왕을 쓰러뜨릴 남자가 할 법한 말이야.<end>"
 
-## 360019
-source: translations/korean/messages/msgsec036-part99.toml
+## 400226
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "そうね。<end>"
-EN: "Yes.<end>"
-KO: "그러네.<end>"
+JP: "………………。　　　　　<line-break>　<line-break>　<line-break>ネメア様をお連れしても、<line-break>よろしいでしょうか？<end>"
+EN: "...Shall I bring Lord Nemea before you?<end>"
+KO: "………………. 네메아 님을 모셔 와도 되겠습니까?<end>"
 
-## 360020
-source: translations/korean/messages/msgsec036-part99.toml
+## 400227
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ヴァシュタールを目覚めさせぬのは、<line-break>我らが主への裏切りだぞ。<end>"
-EN: "Refusing to awaken Vashtar is a betrayal of our lord.<end>"
-KO: "바슈타르를 깨우지 않는 건 우리 주인에 대한 배신이다.<end>"
+JP: "よかろう。<line-break>連れてまいれ。<end>"
+EN: "Very well. Bring him in.<end>"
+KO: "좋다. 데려오너라.<end>"
 
-## 360021
-source: translations/korean/messages/msgsec036-part99.toml
+## 400228
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "フフ、裏切り者の私を殺しに来たの？<line-break>円卓騎士バルザー。<end>"
-EN: "Heh. Have you come to kill me for my betrayal, Baltzer, Knight of the Round Table?<end>"
-KO: "후후, 배신자인 나를 죽이러 왔어? 원탁기사 발자르.<end>"
+JP: "ネメア様をお連れしました。<end>"
+EN: "I have brought Lord Nemea.<end>"
+KO: "네메아 님을 모셔 왔습니다.<end>"
 
-## 360023
-source: translations/korean/messages/msgsec036-part99.toml
+## 400229
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "優しいのね。<line-break>でも優しさは弱さよ。<line-break>老いぼれたわね、バルザー。<end>"
-EN: "How kind of you. But kindness is weakness. You've grown old, Baltzer.<end>"
-KO: "상냥하군. 하지만 상냥함은 약함이야. 늙었구나, 발저.<end>"
+JP: "壮健そうでなによりだ、ネメアよ。<line-break>私の治世を確固たるものにするために、<line-break>お前はなんでもしてくれた。<line-break>かつて、余の下した１２の難事を<line-break>こともなく成し遂げてくれた恩は、<line-break>忘れておらんよ。<end>"
+EN: "I am pleased to see you in good health, Nemea. You did everything in your power to secure my reign. I have not forgotten the debt I owe you for accomplishing the Twelve Labors I once set before you with such ease.<end>"
+KO: "건강해 보여 다행이구나, 네메아. 내 치세를 굳건히 하기 위해 너는 무엇이든 해 주었다. 예전에 내가 내린 열두 가지 난제를 아무렇지도 않게 해낸 은혜도 잊지 않았다.<end>"
 
-## 360024
-source: translations/korean/messages/msgsec036-part99.toml
+## 400230
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0お前もな、アスティア。<line-break>私があの少年に近づいたとき、<line-break>お前は動く素振りも見せなかった。　<line-break>あの少年を殺し、お前を<line-break>もとの冷酷な円卓騎士に戻そうとする<line-break>とは思わなかったのか？<end>お前もな、アスティア。<line-break>私があの少女に近づいたとき、<line-break>お前は動く素振りも見せなかった。　<line-break>あの少女を殺し、お前を<line-break>もとの冷酷な円卓騎士に戻そうとする<line-break>とは思わなかったのか？<end>"
-EN: "<if><value:$29><equal>%0As have you, Astia. When I approached that boy, you made no move at all. Did it never occur to you that I might kill him and turn you back into the ruthless Knight of the Round Table you once were?<end>As have you, Astia. When I approached that girl, you made no move at all. Did it never occur to you that I might kill her and turn you back into the ruthless Knight of the Round Table you once were?<end>"
-KO: "<if><value:$29><equal>%0너도 마찬가지다, 아스티아. 내가 그 소년에게 다가갔을 때 넌 움직일 기색조차 보이지 않았다. 내가 그 소년을 죽여 널 예전의 냉혹한 원탁기사로 되돌리려 한다고 생각하지 않았나?<end>너도 마찬가지다, 아스티아. 내가 그 소녀에게 다가갔을 때 넌 움직일 기색조차 보이지 않았다. 내가 그 소녀를 죽여 널 예전의 냉혹한 원탁기사로 되돌리려 한다고 생각하지 않았나?<end>"
+JP: "その恩に免じて、<line-break>ひとつ質問に答えてもらえるか？<line-break>我が友、エリュマルクよ。<end>"
+EN: "In return for that service, will you answer one question, my friend Elmark?<end>"
+KO: "그 은혜를 생각해서, 질문 하나에 답해 주겠나? 나의 벗, 에류마르크여.<end>"
 
-## 360025
-source: translations/korean/messages/msgsec036-part99.toml
+## 400231
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ええ。<line-break>だって、あなたは<line-break>愛を知ってしまったもの。<line-break>失う、ということも…。<end>"
-EN: "Yes. Because you've come to know love―and what it means to lose it...<end>"
-KO: "그래. 넌 사랑을 알아 버렸으니까. 잃는다는 것도….<end>"
+JP: "いいだろう。<line-break>聞こうではないか。<end>"
+EN: "Very well. Let us hear it.<end>"
+KO: "좋다. 들어 보지.<end>"
 
-## 360027
-source: translations/korean/messages/msgsec036-part99.toml
+## 400232
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "今日、ここへ来たのも、<line-break>竜王が吼えたからでしょう。<end>"
-EN: "You came here today because the Dragon King roared, didn't you?<end>"
-KO: "오늘 이곳에 온 것도 용왕이 포효했기 때문이겠지요.<end>"
+JP: "初めてあったときの私の言葉を<line-break>覚えているか？<end>"
+EN: "Do you remember what I said when we first met?<end>"
+KO: "처음 만났을 때 내가 한 말을 기억하나?<end>"
 
-## 360028
-source: translations/korean/messages/msgsec036-part99.toml
+## 400233
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "…運命は変えられぬ。<line-break>お前のしていることは無駄になる。<end>"
-EN: "Destiny cannot be changed. Everything you're doing will come to nothing.<end>"
-KO: "…운명은 바꿀 수 없다. 네가 하는 일은 헛수고가 될 거다.<end>"
+JP: "そんなことか。<line-break>たしか戦場だったと記憶している。<line-break>　<line-break>なんのために戦うのか、<line-break>と問うた余に、民のためにと<line-break>答えたのだったな。<end>"
+EN: "Is that all? I believe it was on a battlefield. I asked what you fought for, and you answered, “For the people.”<end>"
+KO: "그런 일이었나. 분명 전장이었던 걸로 기억한다. 무엇을 위해 싸우느냐는 짐의 물음에 백성을 위해서라고 답했었지.<end>"
 
-## 360030
-source: translations/korean/messages/msgsec036-part99.toml
+## 400234
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "…アスティア、<line-break>私は警告に来ただけだ。<end>"
-EN: "Astia, I came only to warn you.<end>"
-KO: "…아스티아, 나는 경고하러 왔을 뿐이다.<end>"
+JP: "エリュマルク帝は崩御された。<line-break>　<line-break>　<line-break>よって、エリュマルク帝の<line-break>姉上エスリン様の遺児である<line-break>ネメア様があとを継がれる。<end>"
+EN: "Emperor Elmark has passed away. Therefore, Lord Nemea, child of the emperor's late elder sister, Lady Ethlinn, shall succeed him.<end>"
+KO: "에류마르크 황제께서 붕어하셨다. 따라서 황제의 누이 에슬린 님의 유자인 네메아 님께서 뒤를 잇게 된다.<end>"
 
-## 360031
-source: translations/korean/messages/msgsec036-part99.toml
+## 400235
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "己が力を過信するな。<line-break>個の力など運命の前には無力だ。<end>"
-EN: "Do not overestimate your strength. The power of any one person is nothing before destiny.<end>"
-KO: "자신의 힘을 과신하지 마라. 개인의 힘 따위 운명 앞에서는 무력하다.<end>"
+JP: "…世界を手に入れる。<end>"
+EN: "...And take the world for ourselves.<end>"
+KO: "…세계를 손에 넣는다.<end>"
 
-## 360032
-source: translations/korean/messages/msgsec036-part99.toml
+## 400236
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "さぁ、どうかしら？<end>"
-EN: "Who can say?<end>"
-KO: "글쎄, 어떨까?<end>"
+JP: "我らはこれより、<line-break>迫りくる闇の力に<line-break>対抗しうる勢力を作り上げる。<end>"
+EN: "From this moment forward, we shall forge a power capable of standing against the encroaching darkness.<end>"
+KO: "우리는 이제 다가오는 어둠의 힘에 맞설 수 있는 세력을 만들 것이다.<end>"
 
-## 360033
-source: translations/korean/messages/msgsec036-part99.toml
+## 400237
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "…ヴァシュタールの柩に<line-break>向かう者がある。<line-break>　<line-break>奴の気は変幻万化して<line-break>正体をつかませぬ。<line-break>気をつけることだ。<end>"
-EN: "Someone is heading for Vashtar's Coffin. The aura shifts endlessly, making its source impossible to identify. Be on your guard.<end>"
-KO: "…바슈타르의 관으로 향하는 자가 있다. 녀석의 기운은 변화무쌍해 정체를 잡기 어렵다. 조심해라.<end>"
+JP: "かつて、魔王バロルを倒し、　<line-break>勇者と呼ばれた男、ネメアは　　　<line-break>叔父であるエリュマルク帝を退け　　　<line-break>ディンガル帝国の帝位についた。　　　　　<end>"
+EN: "Nemea, the man hailed as a Hero after defeating Balor, the Demon King, deposed his uncle, Emperor Elmark, and ascended the throne of the Dyneskal Empire.<end>"
+KO: "과거 마왕 발로르를 쓰러뜨리고 용사라 불린 남자 네메아는 숙부인 엘류마르크 황제를 몰아내고 딘갈 제국의 제위에 올랐다.<end>"
 
-## 360034
-source: translations/korean/messages/msgsec036-part99.toml
+## 400238
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "（母さんがいない。<line-break>　まさか…、また遺跡へ？）<end>"
-EN: "(Mother's gone. She couldn't have gone back to the ruins... could she?)<end>"
-KO: "(엄마가 없어. 설마… 또 유적으로?)<end>"
+JP: "そして、宰相ベルゼーヴァの　<line-break>指揮の下、豊富な国力を生かして　<line-break>大軍隊を組織。同時に、それを率いる　<line-break>４人の将軍を大抜擢した。　　　<end>"
+EN: "Then, under Chancellor Beelzeva's command, the empire drew on its abundant resources to assemble a vast army. Four generals were chosen in a series of bold appointments to lead it.<end>"
+KO: "그리고 재상 벨제바의 지휘 아래 풍부한 국력을 살려 대군을 조직했다. 동시에 이를 이끌 네 명의 장군을 파격 발탁했다.<end>"
 
-## 360035
-source: translations/korean/messages/msgsec036-part99.toml
+## 400239
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "…きれいだね。<end>"
-EN: "Beautiful, isn't it?<end>"
-KO: "…예쁘네.<end>"
+JP: "魔道アカデミーを首席で卒業した　　<line-break>ザギヴ・ディンガルを　　　　　<line-break>帝国内務統括、玄武将軍に任命、　　<line-break>ベルゼーヴァの下で国内を掌握させ…　<end>"
+EN: "Zagiv Dyneskal, who had graduated at the top of the Academy of Magic, was appointed overseer of the empire's internal affairs and Black Tortoise General, charged with securing control of the realm under Beelzeva...<end>"
+KO: "마도 아카데미를 수석 졸업한 자기브 딘갈을 제국 내무 총괄 현무장군으로 임명, 벨제바 휘하에서 국내를 장악하게 하고…<end>"
 
-## 360036
-source: translations/korean/messages/msgsec036-part99.toml
+## 400240
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "…知りたがってるね？<end>"
-EN: "You want to know, don't you?<end>"
-KO: "…알고 싶어 하지?<end>"
+JP: "さらに、少数種族である<line-break>コーンス族からジラークを登用、<line-break>西方攻略軍総司令、白虎将軍に任じ、<line-break>アキュリュースへの攻撃を命じ…<end>"
+EN: "Next, Zsilak was recruited from the Konsu, a minority people, and appointed commander-in-chief of the western campaign and White Tiger General, with orders to attack Aqyurius...<end>"
+KO: "또한 소수종족인 콘스족에서 지라크를 등용해 서방공략군 총사령, 백호장군으로 임명하고 아큐류스 공격을 명령….<end>"
 
-## 360037
-source: translations/korean/messages/msgsec036-part99.toml
+## 400241
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "今まで信じてきたもの<line-break>ずべてが疑わしくなった。　　<line-break>フフ…そんな顔をしているよ、君。<end>"
-EN: "Everything you've believed until now has become suspect. Heh... It's written all over your face.<end>"
-KO: "지금까지 믿어 온 모든 것이 의심스러워졌군. 후후… 그런 얼굴을 하고 있어, 자네.<end>"
+JP: "無名の兵卒であった　　　　　　<line-break>カルラ・コルキアを青竜将軍に　　　<line-break>抜擢。東方小国家連合、及び　　　　　　<line-break>商業都市リベルダムの攻略を命じ…　　　　　<end>"
+EN: "Karula Korkia, once an unknown rank-and-file soldier, was elevated to Azure Dragon General and ordered to conquer the eastern alliance of small states and the commercial city of Liberdam...<end>"
+KO: "무명의 병졸이던 칼라 콜키아를 청룡장군으로 발탁. 동방 소국가 연합 및 상업도시 리벨덤 공략을 명하고…<end>"
 
-## 360038
-source: translations/korean/messages/msgsec036-part99.toml
+## 400242
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ああ、自己紹介するね。　　　<line-break>僕は東方の博士シャリ。<line-break>　<line-break>そして君は<value:$28>。<line-break>アスティアが１６年前に<line-break>拾った赤ん坊。ウフフアハハ！<end>"
-EN: "Oh, I should introduce myself. I'm Shalli, the Scholar from the East. And you're <value:$28>, the infant Astia found sixteen years ago. Ooh-hoo-hoo, ah-ha-ha!<end>"
-KO: "아, 자기소개할게. 나는 동방의 박사 샤리. 그리고 넌 <value:$28>. 아스티아가 16년 전에 주운 아기지. 우후후아하하!<end>"
+JP: "かつてバロル帝のもとで名をはせた　<line-break>老将アンギルダン・ゼイエンを　　<line-break>南方攻略軍総司令、朱雀将軍に任じ、<line-break>大国ロストールの攻略を命じた。　<end>"
+EN: "The veteran commander Angeerdan Zeien, who had once won renown under Emperor Balor, was appointed commander-in-chief of the Southern Campaign Army and Vermilion Bird General, and ordered to conquer the great power of Rostorl.<end>"
+KO: "과거 발로르 황제 아래서 이름을 떨친 노장 앙길단 제이엔을 남방공략군 총사령, 주작장군으로 임명해 대국 로스톨 공략을 명했다.<end>"
 
-## 360039
-source: translations/korean/messages/msgsec036-part99.toml
+## 400243
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "そーれ。<end>"
-EN: "Here we go!<end>"
-KO: "자아.<end>"
+JP: "ディンガル帝国皇帝　　　　　　<line-break>ネメア・ランガスター・ディンガルは、<line-break>バイアシオン大陸のすべてに　　　　　　<line-break>戦いを挑んだのである。　　　　　　　　　　<end>"
+EN: "Nemea Lancaster Dyneskal, Emperor of the Dyneskal Empire, challenged the whole of the Vyashion Continent to war.<end>"
+KO: "딘갈 제국 황제 네메아 랑가스터 딘갈은 바이아시온 대륙 전체에 전쟁을 선포했다.<end>"
 
-## 360040
-source: translations/korean/messages/msgsec036-part99.toml
+## 400244
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "お母さんのこと、光る石のこと、<line-break>…卵の中身が気になるんだろ？<end>"
-EN: "You want to know about your mother, the glowing stone... and what's inside the egg, don't you?<end>"
-KO: "엄마 일, 빛나는 돌 일, …알 속이 신경 쓰이지?<end>"
+JP: "かくして世界は、　　　　　　　<line-break>激動と混沌の時代を迎え　　　　　　<line-break>大きなうねりを描きはじめた…。　　　　<end>"
+EN: "And so the world entered an age of upheaval and chaos, and a vast tide began to swell...<end>"
+KO: "그리하여 세계는 격동과 혼돈의 시대를 맞아 거대한 소용돌이를 그리기 시작했다….<end>"
 
-## 360041
-source: translations/korean/messages/msgsec036-part99.toml
+## 400245
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ねぇ、僕が卵を割ってあげるよ。<line-break>卵の中身を見せたげる。<end>"
-EN: "I'll crack the egg for you. Then you can see what's inside.<end>"
-KO: "있지, 내가 알을 깨 줄게. 알 속을 보여 줄게.<end>"
+JP: "な、何者だ！<line-break>ディンガル帝国の者か？<end>"
+EN: "W-who are you?! Are you with the Dyneskal Empire?<end>"
+KO: "너, 누구냐! 딩갈 제국 사람인가?<end>"
 
-## 360042
-source: translations/korean/messages/msgsec036-part99.toml
+## 400246
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ね、手伝って？<line-break>君の力が必要なんだ。<line-break>石に、手をかざして。<end>"
-EN: "Will you help me? I need your power. Hold your hand over the stone.<end>"
-KO: "있지, 도와줘. 네 힘이 필요해. 돌에 손을 대.<end>"
+JP: "その方たちは違う。<line-break>心配は無用だ。<end>"
+EN: "No, these people aren't with the Dyneskal Empire. There's no need to worry.<end>"
+KO: "그자들은 다르다. 걱정할 필요 없어.<end>"
 
-## 360043
-source: translations/korean/messages/msgsec036-part99.toml
+## 400247
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>、<line-break>無限のソウルを持つ者よ。<end>"
-EN: "<value:$28>, Bearer of the Infinite Soul.<end>"
-KO: "<value:$28>, 무한한 소울을 지닌 자여.<end>"
+JP: "シェムハザ長老！<end>"
+EN: "Elder Shemhaza!<end>"
+KO: "셈하자 장로님!<end>"
 
-## 360044
-source: translations/korean/messages/msgsec036-part99.toml
+## 400248
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "僕は君に会えてうれしいよ。<end>"
-EN: "I'm so glad to meet you.<end>"
-KO: "널 만나서 기뻐.<end>"
+JP: "この方たちのことならば<line-break>私がよく知っている。<end>"
+EN: "I know these people well.<end>"
+KO: "이분들에 관해서라면 내가 잘 알고 있다.<end>"
 
-## 360045
-source: translations/korean/messages/msgsec036-part99.toml
+## 400249
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "また…、<line-break>目覚めて…しまったのか…？<end>"
-EN: "Have I... awakened again...?<end>"
-KO: "또… 깨어나고 만 건가…?<end>"
+JP: "しかし、このようなときに来られるとは<line-break>…フフ、まあ、天命かもしれぬな。<line-break>　<line-break>私の家においでになるとよい。<line-break>頼みたいこともあるのでな。<end>"
+EN: "Still, for you to arrive at a time like this... Heh. Perhaps it was ordained. Come to my house. There is something I would ask of you.<end>"
+KO: "하지만 이런 때 찾아오다니… 후후, 이것도 천명일지 모르겠군. 내 집으로 오게. 부탁할 일도 있으니.<end>"
 
-## 360046
-source: translations/korean/messages/msgsec036-part99.toml
+## 400250
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "おはよ、破壊神ウルグの円卓騎士<line-break>ヴァシュタール。<end>"
-EN: "Morning, Vashtar―Knight of the Round Table who serves Ulugh, God of Destruction.<end>"
-KO: "좋은 아침, 파괴신 울그의 원탁기사 바슈타르.<end>"
+JP: "この方のことならば少し聞いている。<line-break>信頼に足る方だ。<end>"
+EN: "I've heard something of this person. This is someone we can trust.<end>"
+KO: "이분 이야기는 조금 들었습니다. 신뢰할 만한 분입니다.<end>"
 
-## 360047
-source: translations/korean/messages/msgsec036-part99.toml
+## 400251
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アスティアでは…ない…？<line-break>人間にこのようなことが可能なのか？<end>"
-EN: "You're not... Astia? Is such a thing possible for a human?<end>"
-KO: "아스티아가… 아니라고…? 인간에게 이런 일이 가능한가?<end>"
+JP: "しかし、このようなときに来られるとは<line-break>…フフ、まあ、天命かもしれぬな。<line-break>　<line-break>私はこのウルカーンの長老シェムハザ。<line-break>私の家においでになるとよい。<line-break>頼みたいこともあるのでな。<end>"
+EN: "Still, for you to arrive at a time like this... Heh. Perhaps it was ordained. I am Shemhaza, elder of Ulkarne. Come to my house. There is something I would ask of you.<end>"
+KO: "하지만 이런 때 찾아오다니… 후후, 뭐, 천명일지도 모르겠군. 나는 이 울칸의 장로 셈하자다. 내 집으로 오게. 부탁할 일도 있어서 말이지.<end>"
 
-## 360048
-source: translations/korean/messages/msgsec036-part99.toml
+## 400253
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "なるほど、<line-break>無限のソウルの持ち主か…。<end>"
-EN: "So... the Bearer of the Infinite Soul.<end>"
-KO: "그렇군, 무한의 소울을 지닌 자인가….<end>"
+JP: "束縛の腕輪は、強力な力を持つ<line-break>魔道器だ。利己的な欲望のために<line-break>使ってはならないのだよ。<line-break>神器をあの簒奪者に奪われては、<line-break>いったいどんな災厄を世界に<line-break>もたらすことになるかわからぬ。<end>"
+EN: "The Bracelet of Binding is a magical device of tremendous power. It must never be used to satisfy selfish desires. If that usurper takes the divine artifact, there is no telling what calamity he may bring upon the world.<end>"
+KO: "속박의 팔찌는 강력한 힘을 가진 마도기다. 이기적인 욕망을 위해 써서는 안 돼. 신기가 그 찬탈자 손에 넘어가면 어떤 재앙을 세계에 가져올지 알 수 없다.<end>"
 
-## 360049
-source: translations/korean/messages/msgsec036-part99.toml
+## 400254
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "なぜ、私を呼び覚ました。<end>"
-EN: "Why did you awaken me?<end>"
-KO: "왜 나를 깨운 것이냐.<end>"
+JP: "だから、ネメアとディンガル軍を<line-break>迎え撃つ準備をしているのだよ。<end>"
+EN: "That is why we are preparing to meet Nemea and the Dyneskal Army in battle.<end>"
+KO: "그래서 네메아와 딘갈군을 맞아 싸울 준비를 하고 있는 것이다.<end>"
 
-## 360050
-source: translations/korean/messages/msgsec036-part99.toml
+## 400255
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "破壊神降臨の通路、闇の門を<line-break>開けるのが君の役目でしょ。<line-break>他に芸があるの？<end>"
-EN: "Your job is to open the Dark Gate, the path by which the God of Destruction descends. What else are you good for?<end>"
-KO: "파괴신 강림의 통로인 어둠의 문을 여는 게 네 역할이잖아. 다른 재주라도 있어?<end>"
+JP: "心配は無用だ。古来、ウルカーンは<line-break>防衛戦争で負けたことがない。<line-break>　<line-break>火の巫女ウルが遺したマグマゴーレムが<line-break>どのような侵略者も、退けてきたのだ。<line-break>今、魔道士たちが起動している。<end>"
+EN: "There is no cause for concern. Ulkarne has never lost a defensive war. The Magma Golems left by Priestess of Fire have repelled every invader to come against us. Our mages are activating them now.<end>"
+KO: "걱정할 필요 없다. 예로부터 울칸은 방어전에서 패한 적이 없다. 불의 무녀 울이 남긴 마그마 골렘이 어떤 침략자든 물리쳐 왔다. 지금 마도사들이 기동시키고 있다.<end>"
 
-## 360051
-source: translations/korean/messages/msgsec036-part99.toml
+## 400256
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "人間は<line-break>つくづく度し難いものだ…。　　　<line-break>　<line-break>神去ったこの世界で、<line-break>ウルグ様が復活することが<line-break>どういうことかわかっているのか？<end>"
-EN: "Humans truly are beyond reason... Do you understand what Lord Ulugh's resurrection would mean in this world abandoned by the gods?<end>"
-KO: "인간은 정말 구제하기 어렵군…. 신이 떠난 이 세계에서 울그 님이 부활한다는 게 무슨 뜻인지 알고 있나?<end>"
+JP: "マグマゴーレムにかかれば<line-break>どんな大軍も、ただ死体の山を<line-break>築くために進軍してくるようなものだ。<end>"
+EN: "Any army, no matter how vast, would march against the Magma Golems only to leave behind a mountain of corpses.<end>"
+KO: "마그마 골렘 앞에서는 어떤 대군도 그저 시체의 산을 쌓으러 진군하는 것이나 다름없다.<end>"
 
-## 360052
-source: translations/korean/messages/msgsec036-part99.toml
+## 400257
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "おもしろいことさ。<end>"
-EN: "It would be interesting.<end>"
-KO: "재미있는 일이야.<end>"
+JP: "な、何事だ！？<end>"
+EN: "W-what is happening?!<end>"
+KO: "무, 무슨 일이야!?<end>"
 
-## 360053
-source: translations/korean/messages/msgsec036-part99.toml
+## 400258
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "フッ。よかろう。時は満ちている。<line-break>闇の門を開けるのは、<line-break>開け放つものである私の役目だ。<line-break>だが、まだ、力が足りぬ。<end>"
-EN: "Hmph. Very well. The time is ripe. As the one who opens the way, it is my duty to open the Dark Gate. But I still lack the strength.<end>"
-KO: "후후. 좋다. 때가 무르익었다. 어둠의 문을 여는 건, 문을 열어젖히는 자인 내 역할이다. 하지만 아직 힘이 부족하다.<end>"
+JP: "ち、長老様っ！<line-break>て、敵襲っ！<end>"
+EN: "E-Elder! We're under attack!<end>"
+KO: "자, 장로님! 저, 적습입니다!<end>"
 
-## 360054
-source: translations/korean/messages/msgsec036-part99.toml
+## 400259
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "なーに言ってんの！<line-break>この町を作ったのは、なんのため？　<line-break>たくさん、人間を飼っておいて<line-break>目覚めたときに、ソウルを刈り取って<line-break>力を吸収するためでしょ？<end>"
-EN: "What are you talking about? Why do you think this town was built? It was made to keep all these humans like livestock, so you could reap their Souls when you awoke and absorb their power!<end>"
-KO: "무슨 소리야! 이 마을을 만든 이유가 뭐였는데? 인간을 잔뜩 길러 뒀다가 깨어났을 때 소울을 거둬 힘을 흡수하려고 한 거잖아?<end>"
+JP: "バカな！　早過ぎるぞ！<line-break>だいたい敵接近の報告は受けておらぬ。<line-break>　<line-break>見張りは何をしていた！<line-break>ディンガルの大軍が近づいてきたのに<line-break>まったく、気がつかなかったのか！<end>"
+EN: "Impossible! It is too soon! We have had no report of an enemy approaching. What were the lookouts doing?! Did they somehow fail to notice a vast Dyneskal army bearing down on us?!<end>"
+KO: "말도 안 돼! 너무 빨라! 애초에 적이 접근한다는 보고도 받지 못했다. 망은 뭘 하고 있었나! 딘갈 대군이 다가오는데 전혀 눈치채지 못했단 말인가!<end>"
 
-## 360055
-source: translations/korean/messages/msgsec036-part99.toml
+## 400260
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "さぁ、さくさく住民の魂を　　　　　<line-break>吸い取っちゃってよ。<line-break>ヴァシュタール。<end>"
-EN: "Go on, Vashtar. Hurry up and drain the townspeople's souls.<end>"
-KO: "자, 어서 주민들의 영혼을 빨아들여 버려. 바슈타르.<end>"
+JP: "敵は大軍ではありません！<line-break>て、敵は総勢４騎！<end>"
+EN: "It isn't an army! Th-there are only four riders!<end>"
+KO: "적은 대군이 아닙니다! 저, 적은 총 네 기입니다!<end>"
 
-## 360056
-source: translations/korean/messages/msgsec036-part99.toml
+## 400261
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "ダメだよ、<value:$28>。　　<line-break>せっかく卵を割って、<line-break>中身を見せてあげてるのに…。<line-break>それにね、フフフ、<line-break>割れた卵はもとには戻らないんだ。<end>"
-EN: "No, <value:$28>. I went to all this trouble to crack the egg and show you what's inside... Besides, heh-heh-heh, a broken egg can never be made whole again.<end>"
-KO: "안 돼, <value:$28>. 모처럼 알을 깨서 안을 보여 주고 있는데…. 그리고 후후후, 깨진 알은 원래대로 돌아오지 않아.<end>"
+JP: "４騎！？　バカな！<end>"
+EN: "Four riders?! Absurd!<end>"
+KO: "4기!? 말도 안 돼!<end>"
 
-## 360057
-source: translations/korean/messages/msgsec036-part99.toml
+## 400262
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>、無事？<end>"
-EN: "<value:$28>, are you all right?<end>"
-KO: "<value:$28>, 무사해?<end>"
+JP: "ええい、かまわん！　今出ている<line-break>マグマゴーレムでひねりつぶせ！<end>"
+EN: "Bah, no matter! Have the Magma Golems already deployed crush them!<end>"
+KO: "에잇, 상관없다! 지금 나와 있는 마그마 골렘으로 짓눌러 버려!<end>"
 
-## 360058
-source: translations/korean/messages/msgsec036-part99.toml
+## 400263
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "あー、ズルいー！<line-break>子供のケンカに親が出てきたー！<end>"
-EN: "Hey, no fair! Parents aren't supposed to butt into kids' fights!<end>"
-KO: "아~ 치사해! 애들 싸움에 어른이 끼어들었어!<end>"
+JP: "そ、それが…！<end>"
+EN: "B-but...!<end>"
+KO: "그, 그게…!<end>"
 
-## 360059
-source: translations/korean/messages/msgsec036-part99.toml
+## 400264
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "復活の時に無限のソウルの持ち主が<line-break>生まれあわせているなんて…。<line-break>　<line-break>しかもそれが、<value:$28>、<line-break>お前だなんて…。<end>"
-EN: "To think the Bearer of the Infinite Soul would be born in time for the resurrection... And of all people, it had to be you, <value:$28>...<end>"
-KO: "부활의 때에 무한의 소울을 지닌 자가 태어나 있다니…. 게다가 그게 <value:$28>, 너라니….<end>"
+JP: "私はディンガル皇帝ネメア。<line-break>ウルカーン長老シェムハザに告ぐ。<line-break>　<line-break>これ以上の抵抗はムダだ。<line-break>降伏して束縛の腕輪を渡せば、<line-break>生命の安全は保証しよう。<end>"
+EN: "I am Nemea, Emperor of Dyneskal. Hear me, Shemhaza, Elder of Ulkarne. Further resistance is futile. Surrender and hand over the Bracelet of Binding, and I shall guarantee your safety.<end>"
+KO: "나는 딩갈 황제 네메아다. 울칸 장로 셈하자에게 고한다. 더 이상의 저항은 헛되다. 항복하고 속박의 팔찌를 넘기면, 목숨의 안전은 보장하겠다.<end>"
 
-## 360060
-source: translations/korean/messages/msgsec036-part99.toml
+## 400265
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "破壊神ウルグの円卓騎士<line-break>告げるものアスティアよ。　　　<line-break>お前の背信のもくろみは失敗だ。<line-break>どうあがこうと<line-break>運命には逆らえないということだな。<end>"
-EN: "Astia the Proclaimer, Knight of the Round Table who serves Ulugh, God of Destruction. Your treacherous scheme has failed. Struggle as you will, destiny cannot be defied.<end>"
-KO: "파괴신 울그의 원탁기사, 고하는 자 아스티아여. 네 배신의 계략은 실패다. 아무리 발버둥 쳐도 운명에는 거스를 수 없다는 뜻이지.<end>"
+JP: "皇帝直属遊撃隊、獅子の牙所属<line-break>黒鎧近衛騎士オイフェ以下２名。<line-break>　<line-break>闇の神器、束縛の腕輪を奪取すべく<line-break>突撃します！<end>"
+EN: "Black-Armored Guard Knight Aoife of the Lion's Fang, the Emperor's direct-command mobile unit, accompanied by two others. We are charging in to seize the dark divine artifact, the Bracelet of Binding!<end>"
+KO: "황제 직속 유격대, 사자의 송곳니 소속 흑갑 근위기사 오이페 이하 2명. 어둠의 신기, 속박의 팔찌를 탈취하러 돌격합니다!<end>"
 
-## 360061
-source: translations/korean/messages/msgsec036-part99.toml
+## 400266
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>、逃げなさい！<line-break>この町を出るの！<line-break>私もすぐにあとを追うわ！<end>"
-EN: "Run, <value:$28>! Get out of this town! I'll be right behind you!<end>"
-KO: "<value:$28>, 도망쳐! 이 마을을 떠나! 나도 곧 뒤따라갈게!<end>"
+JP: "バカな！　マグマゴーレムが全滅！？<line-break>し、信じられぬ！<end>"
+EN: "Impossible! All the Magma Golems were destroyed?! I-I cannot believe it!<end>"
+KO: "말도 안 돼! 마그마 골렘이 전멸!? 미, 믿을 수 없어!<end>"
 
-## 360062
-source: translations/korean/messages/msgsec036-part99.toml
+## 400267
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "すぐにあとを追う、だと？<line-break>フッ、笑止な。<line-break>実力を知れ…、背信者アスティアよ。<end>"
-EN: "“Right behind,” you say? Hah. Absurd. Know your limits, Astia the Betrayer.<end>"
-KO: "곧바로 뒤쫓겠다고? 흥, 우습군. 네 실력을 알아라… 배신자 아스티아여.<end>"
+JP: "ディ、ディンガルの騎士？<line-break>しかも、ダークエルフだと！？<end>"
+EN: "A-a knight of Dyneskal? And a Dark Elf at that?!<end>"
+KO: "디, 딘갈의 기사? 게다가 다크엘프라고!?<end>"
 
-## 360063
-source: translations/korean/messages/msgsec036-part99.toml
+## 400268
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "お願い！　逃げて！<end>"
-EN: "Please! Run!<end>"
-KO: "부탁이야! 도망쳐!<end>"
+JP: "私は皇帝直属遊撃隊、獅子の牙所属<line-break>黒鎧近衛騎士オイフェ。<end>"
+EN: "I am Aoife, Black-Armored Guard Knight of the Lion's Fang, the Emperor's direct-command mobile unit.<end>"
+KO: "나는 황제 직속 유격대, 사자의 송곳니 소속 흑갑 근위기사 오이페다.<end>"
 
-## 360064
-source: translations/korean/messages/msgsec036-part99.toml
+## 400269
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "お母さんの言うことを<line-break>聞いといた方がいいよ。　　<line-break>　<line-break>もうすぐここの住民は<line-break>ヴァシュタールに魂を<line-break>吸い取られちゃう。<end>"
-EN: "You'd better listen to your mother. Vashtar is about to drain the souls of everyone in this town.<end>"
-KO: "엄마 말은 듣는 게 좋아. 곧 이곳 주민들은 바슈타르에게 영혼을 빼앗기게 될 거야.<end>"
+JP: "…同じくゼリグ。<end>"
+EN: "And I am Zelig.<end>"
+KO: "…나도 젤리그다.<end>"
 
-## 360065
-source: translations/korean/messages/msgsec036-part99.toml
+## 400270
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "君のお母さんなら大丈夫さ。<line-break>破壊神ウルグに仕える<line-break>円卓騎士のひとりだもん。<line-break>ものすごく強いんだから！<line-break>やられはしないよ。<end>"
-EN: "Your mother will be fine. She's one of the Knights of the Round Table who serve Ulugh, God of Destruction. She's incredibly strong! She won't be beaten.<end>"
-KO: "네 어머니라면 괜찮아. 파괴신 울그를 섬기는 원탁기사 중 한 명이잖아. 엄청 강하니까 당하지 않을 거야!<end>"
+JP: "同じくドルドラム。<line-break>ソリアスに使える神官じゃ。　　　　　<line-break>　<line-break>長老シェムハザ殿、いかな大軍も<line-break>寄せつけぬマグマゴーレムも、<line-break>少数の勇者にはかなわなんだな。<end>"
+EN: "Doldrum, likewise. I am a priest in the service of Solias. Elder Shemhaza, it seems even Magma Golems that can hold any great army at bay are no match for a handful of heroes.<end>"
+KO: "나도 돌드람이다. 솔리아스를 섬기는 신관이지. 장로 셈하자 공, 아무리 대군도 막아내는 마그마 골렘도 소수의 용자에게는 당해내지 못했군.<end>"
 
-## 360066
-source: translations/korean/messages/msgsec036-part99.toml
+## 400271
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "アスティア、君の願い、<line-break>半分だけ、かなえてあげる。<line-break>　<line-break>屋上まで<line-break>この子を運んだげるよ。<line-break>あとは、この子次第さ。<end>"
-EN: "Astia, I'll grant half your wish. I'll carry this child to the roof. What happens after that is up to the child.<end>"
-KO: "아스티아, 네 소원은 절반만 들어줄게. 옥상까지 이 아이를 데려다주지. 그다음은 이 아이에게 달렸어.<end>"
+JP: "マグマゴーレムがあっという間に<line-break>倒され、町の者は皆、<line-break>抵抗する気が失せておる。<line-break>長老、降伏なされ。<line-break>悪いようにはせん。<end>"
+EN: "The Magma Golems were felled in moments, and the townsfolk have lost all will to resist. Surrender, Elder. No harm will come to you.<end>"
+KO: "마그마 골렘이 순식간에 쓰러져 마을 사람들도 모두 저항할 마음을 잃었습니다. 장로님, 항복하십시오. 나쁘게 대하지 않겠습니다.<end>"
 
-## 360067
-source: translations/korean/messages/msgsec036-part99.toml
+## 400272
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "じゃあねぇ！<line-break>がんばってねぇ！<end>"
-EN: "Bye now! Good luck!<end>"
-KO: "그럼 안녕! 힘내!<end>"
+JP: "…仕方ない。降伏しよう。<line-break>束縛の腕輪はここだ。<line-break>取りに来い。<end>"
+EN: "Very well. I surrender. The Bracelet of Binding is here. Come and take it.<end>"
+KO: "…어쩔 수 없군. 항복하지. 속박의 팔찌는 여기 있다. 가져가라.<end>"
 
-## 360068
-source: translations/korean/messages/msgsec036-part99.toml
+## 400273
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0少年よ、見せてもらおう。<line-break>貴様が生き延びるに値する者なのかを。<end>少女よ、見せてもらおう。<line-break>貴様が生き延びるに値する者なのかを。<end>"
-EN: "<if><value:$29><equal>%0Boy, let me see whether you deserve to survive.<end>Girl, let me see whether you deserve to survive.<end>"
-KO: "<if><value:$29><equal>%0소년이여, 보여 줘라. 네가 살아남을 가치가 있는 자인지.<end>소녀여, 보여 줘라. 네가 살아남을 가치가 있는 자인지.<end>"
+JP: "バカめ！<line-break>うかつに近づいてきおって！<line-break>お前たちに渡す気などないわ！<end>"
+EN: "Fools! You came too close without a thought! I never had any intention of giving it to you!<end>"
+KO: "바보 녀석! 경솔하게 다가오다니! 너희에게 넘겨줄 생각은 없다!<end>"
 
-## 360069
-source: translations/korean/messages/msgsec036-part99.toml
+## 400274
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "無なる黒は光無き闇、<line-break>無の壁は無の黒にして世界を絶つ<line-break>…虚無の壁！<end>"
-EN: "Blackness born of nothing is darkness without light. The wall of nothing is the black of nothing, severing the world... Wall of the Void!<end>"
-KO: "무의 검정은 빛 없는 어둠, 무의 벽은 무의 검정으로 세계를 끊는다… 허무의 벽!<end>"
+JP: "くっ…不覚。<end>"
+EN: "Gah... I let my guard down.<end>"
+KO: "큭… 방심했군.<end>"
 
-## 360070
-source: translations/korean/messages/msgsec036-part99.toml
+## 400275
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "システィーナの涙よ、星のかけらよ。<line-break>愚者の胸より疾く来たりて、<line-break>我が力となれ…ソウルリープ！<end>"
-EN: "O tears of Sistina, O shards of stars. Fly swiftly from the fool's breast and become my power... Soul Leap!<end>"
-KO: "시스티나의 눈물이여, 별의 조각이여. 어리석은 자의 가슴보다 빠르게 와서 나의 힘이 되어라… 소울 리프!<end>"
+JP: "闇の神器を使えば<line-break>確かに強くはなるが、<line-break>心が闇に堕ちてしまうのじゃぞ！<end>"
+EN: "A dark divine artifact may indeed make you stronger, but it will drag your heart into darkness!<end>"
+KO: "어둠의 신기를 쓰면 확실히 강해지긴 하지만 마음이 어둠에 빠져 버린다!<end>"
 
-## 360071
-source: translations/korean/messages/msgsec036-part99.toml
+## 400276
+source: translations/korean/messages/msgsec040-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>ー！<end>"
+JP: "神器の力を使ってもこの程度か。<line-break>…つまらぬ男だ。<line-break>　<line-break>このような者が神器を使い<line-break>長老の地位を守るため、<line-break>汲々としていたのか。<end>"
+EN: "Even with the divine artifact's power, this is all you can manage? What a pathetic man. To think someone like you was using it, desperately clinging to your position as elder.<end>"
+KO: "신기의 힘을 써도 이 정도인가. …시시한 남자군. 이런 자가 신기를 이용해 장로의 지위를 지키려고 발버둥쳤단 말인가.<end>"
+
+## 400277
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "あとのことはザギヴに任せる。<line-break>ゆくぞ。<end>"
+EN: "Leave the rest to Zagiv. We are going.<end>"
+KO: "나머지는 자기브에게 맡긴다. 가자.<end>"
+
+## 400278
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "…<value:$28>。<line-break>私のやり方に不服か？<end>"
+EN: "...<value:$28>. Do you object to my methods?<end>"
+KO: "…<value:$28>. 내 방식이 마음에 들지 않나?<end>"
+
+## 400279
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ならば、私と戦え。<line-break>そして、とめてみせよ。<end>"
+EN: "Then fight me. Show me you can stop me.<end>"
+KO: "…그렇다면 나와 싸워라. 그리고 막아 봐라.<end>"
+
+## 400280
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "…また、助けられたわね。<end>"
+EN: "You've saved me again.<end>"
+KO: "…또 도움받았네.<end>"
+
+## 400281
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、勘違いしないで！<line-break>私は恩になんて感じないから！　<line-break>　<line-break>今の私はネメア様の戦士。<line-break>今度会ったとき、もしも敵として<line-break>あなたが現れたなら…。<end>"
+EN: "But don't get the wrong idea! I don't feel indebted to you! I am Lord Nemea's warrior now. If we meet again and you stand before me as an enemy...<end>"
+KO: "하지만 착각하지 마! 난 은혜라고 생각하지 않아! 지금 난 네메아 님의 전사야. 다음에 적으로 당신이 나타난다면…<end>"
+
+## 400282
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "私は、あなたを殺すわ。　　　　<line-break>…それだけ。<line-break><end>"
+EN: "I will kill you. That is all.<end>"
+KO: "난 당신을 죽일 거야. …그뿐이야.<end>"
+
+## 400283
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "おお、また会うたな。<line-break>墓場はお気に入りの場所かな？<line-break>　<line-break><value:$28>、<line-break>何度も会うのも、何かの縁じゃ。<line-break>少し散歩でもせんかね。<end>"
+EN: "Ah, we meet again. Fond of graveyards, are you? <value:$28>, after so many chance meetings, perhaps fate has had a hand in it. Care to join me for a little stroll?<end>"
+KO: "오, 또 만났군. 묘지가 마음에 드는 장소인가? <value:$28>, 몇 번이나 만나는 것도 인연이니 잠깐 산책이라도 하지 않겠나.<end>"
+
+## 400284
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "墓地を散歩するのも<line-break>面白いものでな。　　　　　　<line-break>　<line-break>墓地は人生の終点であり、<line-break>その人間について記された<line-break>大いなる書物でもある。<end>"
+EN: "A walk through a cemetery can be quite interesting. It is the end of a life's journey, but also a great book in which that life is recorded.<end>"
+KO: "묘지를 산책하는 것도 꽤 재미있는 일이지. 묘지는 인생의 종착점이자 그 인간에 대해 기록된 거대한 책이기도 하다.<end>"
+
+## 400285
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "歴史の物言わぬ証人でもあり、<line-break>遺された人間にとっては<line-break>記憶の眠る場所でもある。<end>"
+EN: "It stands as a silent witness to history, and for those left behind, it is where memories lie at rest.<end>"
+KO: "역사의 말없는 증인이기도 하고 남겨진 인간에게는 기억이 잠든 장소이기도 하다.<end>"
+
+## 400287
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "イズ様は暗殺教団、施文院の<line-break>大神官じゃった。これをさらうには<line-break>生命がいくつあっても足りぬ。<line-break>しかも、これは犯罪じゃ。<line-break>勇者の仕事ではない。<line-break>成功しても不名誉なことじゃ。<end>"
+EN: "Iz was the high priest of the Inscription Order, an order of assassins. No number of lives would be enough to abduct Iz. Besides, it was a crime―no work for a hero. Even success would bring dishonor.<end>"
+KO: "이즈 님은 암살 교단 시문원의 대신관이었네. 그 사람을 납치하려면 목숨이 몇 개라도 모자라. 게다가 이건 범죄야. 용사의 일이 아니지. 성공해도 불명예스러운 일이야.<end>"
+
+## 400288
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "…と言っても、ネメア様が断れば、<line-break>皇帝は命令に背いたことを理由に<line-break>処刑してしまうつもりじゃった。<line-break>退くもならず進むもならず<line-break>という状態じゃの。<line-break>ネメア様はどうしたと思う？<end>"
+EN: "Yet if Nemea refused, the emperor intended to have him executed for disobeying an imperial command. He could neither retreat nor go forward. What do you suppose Nemea did?<end>"
+KO: "…라고는 해도 네메아 님이 거절하면 황제는 명령을 거역했다는 이유로 처형할 생각이었지. 물러설 수도, 나아갈 수도 없는 상황이었던 게야. 네메아 님은 어떻게 했을 것 같으냐?<end>"
+
+## 400289
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメア様は皇帝の命に従い<line-break>イズ様をさらったのじゃ。<end>"
+EN: "Nemea obeyed the emperor's command and abducted Iz.<end>"
+KO: "네메아 님은 황제의 명을 따라 이즈 님을 납치한 거야.<end>"
+
+## 400290
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "どんな事情があるのか<line-break>ようわからんが、<line-break>ネメア様はその命に従った。<line-break>エリュマルク帝はイズ様に恋し、<line-break>イズ様を皇后にした。<line-break>しかし、イズ様は心を開かなかった。<end>"
+EN: "I don't rightly know what was behind it, but Nemea obeyed the order. Emperor Elmark fell in love with Iz and made Iz his empress. But Iz never opened up to him.<end>"
+KO: "무슨 사정인지는 잘 모르겠지만 네메아 님은 그 명령에 따랐다. 엘류마르크 황제는 이즈 님을 사랑해 황후로 삼았다. 하지만 이즈 님은 마음을 열지 않았다.<end>"
+
+## 400291
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "その上、イズ様はずっとネメア様ばかり<line-break>見つめておられた。エリュマルク帝は<line-break>ネメア様をいよいよ恨まれた。<line-break>エリュマルク帝はイズ様を嫉妬のあまり<line-break>殺され、イズ様と通じていたとして、<line-break>ネメア様の処刑をお命じになった。<end>"
+EN: "What is more, Iz had eyes only for Nemea. Emperor Elmark's hatred of him deepened. In a jealous rage, the emperor had Iz killed, then ordered Nemea's execution on the charge that he and Iz had been involved.<end>"
+KO: "게다가 이즈 님은 줄곧 네메아 님만 바라보셨습니다. 에류마르크 황제는 네메아 님을 더욱 원망했죠. 황제는 질투 끝에 이즈 님을 죽이고, 이즈 님과 내통했다는 이유로 네메아 님의 처형을 명했습니다.<end>"
+
+## 400292
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "これが、自分をさらったネメア様への、<line-break>イズ様の復讐だったのかもしれぬ。<line-break>…なんにせよ、悲劇的なことじゃ。<end>"
+EN: "Perhaps that was Iz's revenge against Nemea for the abduction. Whatever the truth, it is a tragedy.<end>"
+KO: "이것이 자신을 납치한 네메아 님에 대한 이즈 님의 복수였을지도 모르겠군. …어찌 됐든 비극적인 일이야.<end>"
+
+## 400293
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "また、来なさるとよい。<line-break>ヒマと縁があれば、<line-break>昔語りなどしようほどにの。<end>"
+EN: "Come again sometime. If time and fortune allow, perhaps I'll tell you a tale or two of days gone by.<end>"
+KO: "또 오너라. 시간과 인연이 닿으면 옛이야기라도 해 주마.<end>"
+
+## 400294
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "これでわかった？<line-break>私は、手加減しないわ。<line-break>もう邪魔をしないことね。<end>"
+EN: "Do you understand now? I don't hold back. Don't interfere again.<end>"
+KO: "이제 알겠어? 나는 봐주지 않아. 더는 방해하지 마.<end>"
+
+## 400295
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "すまんな。<line-break>この闇の神器は、<line-break>わしらがもらっていく。<line-break>さあ、行くぞ、<line-break>オイフェ、ゼリグ。<end>"
+EN: "Sorry, but we're taking this Dark Artifact. Come, Aoife, Zelig. We're leaving.<end>"
+KO: "미안하군. 이 어둠의 신기는 우리가 가져가겠다. 자, 가자, 오이페, 젤리그.<end>"
+
+## 400296
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　ディンガル帝国<line-break>帝都エンシャント、謁見の間<end>"
+EN: "The Dyneskal Empire ― Ancient, the Imperial Capital ― Audience Chamber<end>"
+KO: "딩갈 제국 제도 엔샨트, 알현실<end>"
+
+## 400297
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
+
+## 400298
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
+
+## 400299
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
+
+## 400300
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
+
+## 400301
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
+
+## 400302
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
+
+## 400303
+source: translations/korean/messages/msgsec040-part99.toml
+jp_matches_pinned_english: yes
+JP: "空<end>"
+EN: ""
+KO: "빈칸<end>"
+
+## 410000
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメア・ボリューム２開始<end>"
+EN: ""
+KO: "네메아 볼륨 2 시작<end>"
+
+## 410001
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１<end>"
+EN: "(Unused) 1<end>"
+KO: "(미사용) 1<end>"
+
+## 410002
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）２<end>"
+EN: "(Unused) 2<end>"
+KO: "(미사용) 2<end>"
+
+## 410003
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）３<end>"
+EN: "(Unused) 3<end>"
+KO: "(미사용) 3<end>"
+
+## 410004
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）４<end>"
+EN: "(Unused) 4<end>"
+KO: "(미사용) 4<end>"
+
+## 410005
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）５<end>"
+EN: "(Unused) 5<end>"
+KO: "(미사용) 5<end>"
+
+## 410006
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）６<end>"
+EN: "(Unused) 6<end>"
+KO: "(미사용) 6<end>"
+
+## 410007
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）７<end>"
+EN: "(Unused) 7<end>"
+KO: "(미사용) 7<end>"
+
+## 410008
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）８<end>"
+EN: "(Unused) 8<end>"
+KO: "(미사용) 8<end>"
+
+## 410009
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）９<end>"
+EN: "(Unused) 9<end>"
+KO: "(미사용) 9<end>"
+
+## 410010
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１０<end>"
+EN: "(Unused) 10<end>"
+KO: "(미사용)10<end>"
+
+## 410011
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１１<end>"
+EN: "(Unused) 11<end>"
+KO: "(미사용)11<end>"
+
+## 410012
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１２<end>"
+EN: "(Unused) 12<end>"
+KO: "(미사용)12<end>"
+
+## 410013
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１３<end>"
+EN: "(Unused) 13<end>"
+KO: "(미사용)13<end>"
+
+## 410014
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１４<end>"
+EN: "(Unused) 14<end>"
+KO: "(미사용)14<end>"
+
+## 410015
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１５<end>"
+EN: "(Unused) 15<end>"
+KO: "(미사용)15<end>"
+
+## 410016
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１６<end>"
+EN: "(Unused) 16<end>"
+KO: "(미사용)16<end>"
+
+## 410017
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１７<end>"
+EN: "(Unused) 17<end>"
+KO: "(미사용)17<end>"
+
+## 410018
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "（未使用）１８<end>"
+EN: ""
+KO: "(미사용)18<end>"
+
+## 410019
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、<value:$28>様。<line-break>エスト様から　　　　　　　　　　　　<line-break>何か、言づてがあったようです。<line-break>中でレムオン様がお待ちです。<end>"
+EN: "Ah, <value:$28>. It seems Est has sent word. Lemghon is waiting for you inside.<end>"
+KO: "아, <value:$28>님. 에스트 님에게서 뭔가 전갈이 온 모양입니다. 안에서 레무온 님이 기다리고 계십니다.<end>"
+
+## 410020
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>様ですか？<line-break>エスト様からお言づてがあります。　　<line-break>　<line-break>詳しくは、レムオン様が<line-break>聞いているとのことです。<end>中にお入りください。<end>"
+EN: "Are you <value:$28>? There's a message for you from Est. I understand Lemghon has the details.<end>Please, go inside.<end>"
+KO: "<value:$28> 님이십니까? 에스트 님께서 전언을 남기셨습니다. 자세한 내용은 레무온 님께서 듣고 계신다고 합니다.<end>안으로 들어가십시오.<end>"
+
+## 410021
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "エストから、手紙を預かった。<line-break>確かに渡したぞ。<end>"
+EN: "Est entrusted me with a letter. Consider it delivered.<end>"
+KO: "에스트에게 편지를 맡았다. 확실히 전해 줬다.<end>"
+
+## 410022
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　<value:$28>、元気かい？<line-break>　　　　研究は今のところ順調だよ。<line-break><line-break><line-break>　　　闇の神器は、素晴らしい物だよ。<line-break>　　　　所有するだけで、僕の魔力が<line-break>　　　　　　高まっていくんだ。<end>"
+EN: "<value:$28>, how are you? My research is going well so far. The Dark Artifact is remarkable. Simply having it in my possession makes my magical power grow.<end>"
+KO: "<value:$28>, 잘 지내? 연구는 지금까지 순조로워. 어둠의 신기는 정말 대단해. 가지고 있는 것만으로도 내 마력이 점점 높아져.<end>"
+
+## 410023
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　ただ、最近は身の危険を感じるんだ。<line-break>　　　　　　　いつも、誰かに<line-break>　　　　　見られてるような感じがして。<end>"
+EN: "Lately, though, I've begun to feel like I'm in danger. It feels as if someone is always watching me.<end>"
+KO: "다만 요즘은 신변의 위협을 느껴. 늘 누군가에게 감시당하는 것 같은 느낌이 들어서.<end>"
+
+## 410024
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　　でも、僕は負けないよ。<line-break>　　古の魔道技術を取り戻して、人間社会を<line-break>　　より便利で豊かなものにするつもりだよ。<line-break>　<line-break>　　　そういう訳で、まだ、君に闇の神器を<line-break>　　　　　渡すわけにはいかないんだ。<line-break>　　　これを渡すと研究が遅れてしまうからね。<end>"
+EN: "But I won't be defeated. I intend to recover the magical technology of antiquity and use it to make human society more convenient and prosperous. That's why I can't give you the Dark Artifact just yet. Handing it over would delay my research.<end>"
+KO: "하지만 나는 지지 않아. 고대의 마도기술을 되찾아 인간 사회를 더 편리하고 풍요롭게 만들 생각이야. 그래서 아직 네게 어둠의 신기를 넘겨줄 수는 없어. 이걸 넘기면 연구가 늦어지거든.<end>"
+
+## 410025
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　　　　　　追伸<line-break>　　　そういえば、ロセンの地下墓地で<line-break>　　　　面白いものを見つけたんだ。<line-break>　<line-break>　　今度こそ、研究の成果を見せることが<line-break>　　　　　できるかもしれない。<line-break>　　　　　時間があったらおいでよ。<end>"
+EN: "P.S. Speaking of which, I found something interesting in the Underground Cemetery in Rocen. Maybe this time I'll finally be able to show you the results of my research. Come by if you have time.<end>"
+KO: "추신. 그러고 보니 로센의 지하묘지에서 재미있는 걸 찾았어. 이번에는 연구 성과를 보여 줄 수 있을지도 몰라. 시간 있으면 들러 줘.<end>"
+
+## 410026
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　それじゃあ、<value:$28>。<line-break>　　　君に神のご加護がありますように。<line-break>　<line-break>　　　　　　　　　　　　　　　　　　エスト<end>"
+EN: "Goodbye, <value:$28>. May God's protection be with you. Est<end>"
+KO: "그럼, <value:$28>. 신의 가호가 함께하길. 에스트<end>"
+
+## 410027
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺もまだまだ甘いな…。<end>"
+EN: "I've still got a lot to learn...<end>"
+KO: "나도 아직 멀었군….<end>"
+
+## 410028
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ここは、<value:$28>が<line-break>決着をつけるべきだ。　　　　<end>"
+EN: "…<value:$28> should be the one to settle this.<end>"
+KO: "…여기는 <value:$28>이 결판을 내야 해.<end>"
+
+## 410029
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "危ない！　奴はソウルを吸い取って<line-break>回復しようとしている！<line-break>　<line-break>逃げろ！<line-break><value:$28>！<end>"
+EN: "Look out! The enemy's trying to drain Soul to heal! Run, <value:$28>!<end>"
+KO: "위험해! 놈은 소울을 빨아들여 회복하려 하고 있어! 도망쳐, <value:$28>!<end>"
+
+## 410030
+source: translations/korean/messages/msgsec041-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>さんー！<end>"
 EN: "<value:$28>!<end>"
-KO: "<value:$28>!<end>"
+KO: "<value:$28> 씨~!<end>"
 
-## 360072
-source: translations/korean/messages/msgsec036-part99.toml
+## 410031
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "無なる黒は光無き闇、<line-break>無の壁は無の黒にして世界を絶つ<line-break>…虚無の壁！<end>"
-EN: "Blackness born of nothing is darkness without light. The wall of nothing is the black of nothing, severing the world... Wall of the Void!<end>"
-KO: "무의 검정은 빛 없는 어둠, 무의 벽은 무의 검정으로 세계를 끊는다… 허무의 벽!<end>"
+JP: "<value:$28>さん！！<end>"
+EN: "<value:$28>!!<end>"
+KO: "<value:$28> 씨!!<end>"
 
-## 360074
-source: translations/korean/messages/msgsec036-part99.toml
+## 410032
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "…そうよ、私は破壊神に仕える魔人。　<line-break>何千年という時を<line-break>戦いながら生きてきたわ…。<line-break>だけど、お前と過ごした１７年…<line-break>私は初めて安らぎを知った…。<line-break>　<end>"
-EN: "Yes. I am a demon who serves the God of Destruction. I have lived and fought for thousands of years... But in the seventeen years I spent with you, I learned peace for the first time...<end>"
-KO: "…그래, 나는 파괴신을 섬기는 마인. 수천 년을 싸우며 살아왔어…. 하지만 너와 함께한 17년… 나는 처음으로 안식을 알았어….<end>"
+JP: "まて、あれは…、<line-break><value:$28>を回復してやがる…。<end>"
+EN: "Wait―that's healing <value:$28>…<end>"
+KO: "잠깐, 저건… <value:$28>을 회복시키고 있어….<end>"
 
-## 360075
-source: translations/korean/messages/msgsec036-part99.toml
+## 410033
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "お前の無垢な笑顔、安らかな寝顔、<line-break>お前といた一瞬一瞬が私の宝物だった。<end>"
-EN: "Your innocent smile, the peaceful look on your face as you slept... Every moment I spent with you was a treasure to me.<end>"
-KO: "네 순수한 미소, 편안한 잠든 얼굴, 너와 함께한 모든 순간이 내 보물이었어.<end>"
+JP: "バカな！<line-break>神器に支配された者に<line-break>慈しみの心など…！<end>"
+EN: "Impossible! Someone enslaved by an Artifact can't feel compassion…!<end>"
+KO: "말도 안 돼! 신기에 지배된 자에게 자비로운 마음 따윈…!<end>"
 
-## 360076
-source: translations/korean/messages/msgsec036-part99.toml
+## 410035
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "システィーナの涙よ、星のかけらよ。<line-break>愚者の胸より疾く来たりて、<line-break>我が力となれ…ソウルリープ！！<end>"
-EN: "O tears of Sistina, O shards of stars. Fly swiftly from the fool's breast and become my power... Soul Leap!!<end>"
-KO: "시스티나의 눈물이여, 별의 조각이여. 어리석은 자의 가슴보다 빠르게 와서 나의 힘이 되어라… 소울 리프!!<end>"
+JP: "あり得ない。　　　　　　　　<end>"
+EN: "That can't be.<end>"
+KO: "말도 안 돼.<end>"
 
-## 360077
-source: translations/korean/messages/msgsec036-part99.toml
+## 410036
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>、<line-break>強く…生きて…。<end>"
-EN: "<value:$28>... Be strong. Live...<end>"
-KO: "<value:$28>, 강하게… 살아가….<end>"
+JP: "神器の力に支配されたものが、<line-break>心を取り戻すなど…。<end>"
+EN: "How could a heart return to someone enslaved by an Artifact's power…?<end>"
+KO: "신기의 힘에 지배된 자가 마음을 되찾다니….<end>"
 
-## 360078
-source: translations/korean/messages/msgsec036-part99.toml
+## 410037
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0逃げ延びたのか？　　　　　　　<line-break>　<line-break>　<line-break>フッ、あの少年なら、<line-break>私に永遠の眠りをもたらすことが<line-break>できるのかもしれぬな…。<end>逃げ延びたのか？　　　　　　　<line-break>　<line-break>　<line-break>フッ、あの少女こそ、<line-break>私に永遠の眠りをもたらすことが<line-break>できるのかもしれぬな…。<end>"
-EN: "<if><value:$29><equal>%0Did he escape? Hah. Perhaps that boy might grant me eternal Sleep...<end>Did she escape? Hah. Perhaps that girl is the one who might grant me eternal Sleep...<end>"
-KO: "<if><value:$29><equal>%0살아남았나? 훗, 그 소년이라면 내게 영원한 잠을 가져다줄 수 있을지도 모르겠군….<end>살아남았나? 훗, 그 소녀야말로 내게 영원한 잠을 가져다줄 수 있을지도 모르겠군….<end>"
+JP: "…助けに来て…くれたんだね？　　<end>"
+EN: "…You came to save me… didn't you?<end>"
+KO: "…구하러… 와 준 거야?<end>"
 
-## 360079
-source: translations/korean/messages/msgsec036-part99.toml
+## 410038
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "んしょ、んしょ。<line-break>僕も、いいかげん、面倒見がいいよね。<end>"
-EN: "Heave-ho, heave-ho. I really do go out of my way to look after people, don't I?<end>"
-KO: "영차, 영차. 나도 참 남 잘 챙긴다니까.<end>"
+JP: "うれしいよ、君の姿が見られて…。<line-break>さ…早く、僕を…殺して。<end>"
+EN: "I'm glad I got to see you… Now… hurry. Kill me.<end>"
+KO: "기뻐, 네 모습을 볼 수 있어서… 자… 어서, 나를… 죽여줘.<end>"
 
-## 360080
-source: translations/korean/messages/msgsec036-part99.toml
+## 410039
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "いい人に拾われるんだよ。<line-break>じゃね。<end>"
-EN: "Make sure someone nice takes you in. Bye.<end>"
-KO: "좋은 사람한테 주워져야 해. 그럼 안녕.<end>"
+JP: "無限のソウル…？<line-break>バカな。まだ発動していないはず…。<end>"
+EN: "Infinite Soul…? Impossible. It shouldn't have activated yet…<end>"
+KO: "무한의 소울…? 말도 안 돼. 아직 발동하지 않았을 텐데….<end>"
 
-## 360081
-source: translations/korean/messages/msgsec036-part99.toml
+## 410040
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0お兄ちゃん、お兄ちゃん、起きて。<line-break>こんなとこで寝てると<line-break>風邪ひいちゃうよぉ。<end>お姉ちゃん、お姉ちゃん、起きて。<line-break>こんなとこで寝てると<line-break>風邪ひいちゃうよぉ。<end>"
-EN: "<if><value:$29><equal>%0Mister, mister, wake up. You'll catch cold if you sleep out here.<end>Miss, miss, wake up. You'll catch cold if you sleep out here.<end>"
-KO: "<if><value:$29><equal>%0오빠, 오빠, 일어나. 이런 데서 자면 감기 걸려.<end>언니, 언니, 일어나. 이런 데서 자면 감기 걸려.<end>"
+JP: "システィーナの力は…<line-break>闇の神器すらしのぐのか？<end>"
+EN: "Can Sistina's power… surpass even a Dark Artifact?<end>"
+KO: "시스티나의 힘은… 어둠의 신기조차 능가하는 건가?<end>"
 
-## 360082
-source: translations/korean/messages/msgsec036-part99.toml
+## 410041
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0ここ？　ロストール。王国の都だよ。<line-break>お兄ちゃん、どうしたの？<end>ここ？　ロストール。王国の都だよ。<line-break>お姉ちゃん、どうしたの？<end>"
-EN: "<if><value:$29><equal>%0Here? This is Rostorl, the capital of the kingdom. What happened to you, mister?<end>Here? This is Rostorl, the capital of the kingdom. What happened to you, miss?<end>"
-KO: "<if><value:$29><equal>%0여기? 로스톨. 왕국의 수도야. 오빠, 왜 그래?<end>여기? 로스톨. 왕국의 수도야. 언니, 왜 그래?<end>"
+JP: "ノエル、その魔道士を殺せ！　　　<end>"
+EN: "Noel, kill that sorcerer!<end>"
+KO: "노엘, 그 마도사를 죽여!<end>"
 
-## 360083
-source: translations/korean/messages/msgsec036-part99.toml
+## 410042
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0ふぅん。じゃ、お兄ちゃんもあたしと<line-break>おんなじだ。ルルアンタもね、<line-break>お父さんとお母さんいないよ。<line-break>お世話になってたフリントさんも、<line-break>ガルドランって人に襲われて、<line-break>昨日、死んじゃった。<end>ふぅん。じゃ、お姉ちゃんもあたしと<line-break>おんなじだ。ルルアンタもね、<line-break>お父さんとお母さんいないよ。<line-break>お世話になってたフリントさんも、<line-break>ガルドランって人に襲われて、<line-break>昨日、死んじゃった。<end>"
-EN: "<if><value:$29><equal>%0Oh. Then you're just like Lulluantha, mister. Lulluantha doesn't have a mother or father either. And Mr. Flint, who was looking after me, was attacked by someone called Girldlan. He died yesterday.<end>Oh. Then you're just like Lulluantha, miss. Lulluantha doesn't have a mother or father either. And Mr. Flint, who was looking after me, was attacked by someone called Girldlan. He died yesterday.<end>"
-KO: "<if><value:$29><equal>%0흐음. 그럼 오빠도 나랑 똑같네. 루루안타도 아빠랑 엄마가 없어. 신세 지던 플린트 아저씨도 갈드란이라는 사람에게 습격당해서 어제 죽었어.<end>흐음. 그럼 언니도 나랑 똑같네. 루루안타도 아빠랑 엄마가 없어. 신세 지던 플린트 아저씨도 갈드란이라는 사람에게 습격당해서 어제 죽었어.<end>"
+JP: "闇の神器を使って<line-break>世界を滅ぼそうとしている男だぞ！<end>"
+EN: "That man means to destroy the world with a Dark Artifact!<end>"
+KO: "어둠의 신기를 써서 세계를 멸망시키려는 남자라고!<end>"
 
-## 360084
-source: translations/korean/messages/msgsec036-part99.toml
+## 410043
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "うん、ルルアンタ、元気だよ。　　　<line-break>あのね、フリントさんが<line-break>言ってくれたんだ。<line-break>ルルアンタは元気だね、<line-break>ルルアンタが元気だと私も<line-break>うれしくなって元気が出るって。<end>"
-EN: "Yep, Lulluantha's cheerful! You know, Mr. Flint told me, “Lulluantha, you're so cheerful. When you're cheerful, it makes me happy and gives me strength too.”<end>"
-KO: "응, 루루안타는 건강해. 있잖아, 플린트 씨가 말해 줬어. 루루안타는 늘 씩씩하구나, 네가 건강하면 나도 기분이 좋아져서 힘이 난다고.<end>"
+JP: "いいえ。彼はあなたの言うような<line-break>人でありません。<end>"
+EN: "No. He isn't the man you claim he is.<end>"
+KO: "아니요. 그는 당신이 말하는 그런 사람이 아닙니다.<end>"
 
-## 360085
-source: translations/korean/messages/msgsec036-part99.toml
+## 410044
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "だから、ルルアンタ、<line-break>天国のフリントさんが<line-break>喜んでくれるように元気なんだ。　　<end>"
-EN: "So Lulluantha stays cheerful to make Mr. Flint happy up in heaven.<end>"
-KO: "그러니까 루루안타, 천국의 플린트 씨가 기뻐할 수 있게 씩씩하게 지내는 거야.<end>"
+JP: "私を疑うのか？<end>"
+EN: "You doubt me?<end>"
+KO: "날 의심하는 건가?<end>"
 
-## 360086
-source: translations/korean/messages/msgsec036-part99.toml
+## 410045
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0お兄ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>お姉ちゃんも、<line-break>ルルアンタが元気だとうれしいの？<end>"
-EN: "<if><value:$29><equal>%0Does seeing Lulluantha cheerful make you happy too, mister?<end>Does seeing Lulluantha cheerful make you happy too, miss?<end>"
-KO: "<if><value:$29><equal>%0오빠도, 루루안타가 건강하면 기뻐?<end>언니도, 루루안타가 건강하면 기뻐?<end>"
+JP: "だって、ナーシェス、あなた自身、<line-break>自分の言葉を信じてないんだもの。<line-break>　<line-break>レイヴン、神器を<line-break><value:$28>さんに返して。<end>"
+EN: "Because you don't believe your own words, Narscess. Raven, give the Artifact back to <value:$28>.<end>"
+KO: "하지만 나셰스, 당신 자신도 자기 말을 믿지 않잖아. 레이븐, 신기를 <value:$28>님께 돌려줘.<end>"
 
-## 360087
-source: translations/korean/messages/msgsec036-part99.toml
+## 410046
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0うふふ、じゃあ、ルルアンタ、<line-break>お兄ちゃんと一緒にいてあげるね。<line-break>お兄ちゃん、お名前は？<end>うふふ、じゃあ、ルルアンタ、<line-break>お姉ちゃんと一緒にいてあげるね。<line-break>お姉ちゃん、お名前は？<end>"
-EN: "<if><value:$29><equal>%0Hee-hee! Then Lulluantha will stay with you, mister. What's your name?<end>Hee-hee! Then Lulluantha will stay with you, miss. What's your name?<end>"
-KO: "<if><value:$29><equal>%0후후, 그럼 루루안타가 오빠랑 같이 있어 줄게. 오빠, 이름이 뭐야?<end>후후, 그럼 루루안타가 언니랑 같이 있어 줄게. 언니, 이름이 뭐야?<end>"
+JP: "レイヴン、貴様…。<end>"
+EN: "Raven, you…<end>"
+KO: "레이븐, 네놈….<end>"
 
-## 360088
-source: translations/korean/messages/msgsec036-part99.toml
+## 410047
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "じゃ、あらためてぇ…。<line-break>あたしは、ルルアンタ。<line-break>よろしくね、<value:$28>。<end>"
-EN: "Then let's start over. I'm Lulluantha. Nice to meet you, <value:$28>.<end>"
-KO: "그럼 다시 소개할게…. 난 루루안타. 잘 부탁해, <value:$28>.<end>"
+JP: "悪いな。　　　　　　　　　　　　<end>"
+EN: "Sorry.<end>"
+KO: "미안하군.<end>"
 
-## 360089
-source: translations/korean/messages/msgsec036-part99.toml
+## 410048
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 1 09 시작의 땅<end>"
+JP: "お前さんの言っていることは<line-break>正しいんだろうが、納得できない。<end>"
+EN: "You may be right, but I can't accept it.<end>"
+KO: "네가 하는 말이 옳은 것 같긴 한데, 납득할 수 없어.<end>"
 
-## 360090
-source: translations/korean/messages/msgsec036-part99.toml
+## 410049
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ２<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 2 09 시작의 땅<end>"
+JP: "神器はいただく。<line-break>あいつは始末させない。　　　　　<end>"
+EN: "I'm taking the Artifact. And I won't let you dispose of him.<end>"
+KO: "신기는 받아 가겠다. 녀석은 처리하게 두지 않아.<end>"
 
-## 360091
-source: translations/korean/messages/msgsec036-part99.toml
+## 410050
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ３<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 3 09 시작의 땅<end>"
+JP: "！　…この感じ！<end>"
+EN: "That presence…!<end>"
+KO: "! …이 느낌은!<end>"
 
-## 360092
-source: translations/korean/messages/msgsec036-part99.toml
+## 410051
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ４<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 4 09 시작의 땅<end>"
+JP: "あ、あれが…、獅子帝ネメア…。　　<end>"
+EN: "Th-that's… Nemea, the Lion Emperor…<end>"
+KO: "저, 저게… 사자제 네메아….<end>"
 
-## 360093
-source: translations/korean/messages/msgsec036-part99.toml
+## 410052
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ５<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 5 09 시작의 땅<end>"
+JP: "ば、バロル帝が倒されるはずだわ…。<line-break>なんて…い、威圧…感…。<end>"
+EN: "N-no wonder Emperor Balor was defeated… What an… overwhelming presence…<end>"
+KO: "바, 발로르 황제가 쓰러질 만하군… 이 무슨… 위, 위압감…<end>"
 
-## 360094
-source: translations/korean/messages/msgsec036-part99.toml
+## 410053
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ６<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 6 09 시작의 땅<end>"
+JP: "レイヴン！<end>"
+EN: "Raven!<end>"
+KO: "레이븐!<end>"
 
-## 360095
-source: translations/korean/messages/msgsec036-part99.toml
+## 410054
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ７<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 7 09 시작의 땅<end>"
+JP: "レイヴン！　大丈夫？！<end>"
+EN: "Raven! Are you all right?!<end>"
+KO: "레이븐! 괜찮아?!<end>"
 
-## 360096
-source: translations/korean/messages/msgsec036-part99.toml
+## 410055
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ８<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 8 09 시작의 땅<end>"
+JP: "レイヴン！　レイヴン！<line-break>しっかりして！　レイヴン！<end>"
+EN: "Raven! Raven! Stay with me! Raven!<end>"
+KO: "레이븐! 레이븐! 정신 차려! 레이븐!<end>"
 
-## 360097
-source: translations/korean/messages/msgsec036-part99.toml
+## 410056
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ９<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 9 09 시작의 땅<end>"
+JP: "へへ…、へへ…。<end>"
+EN: "Heh… heh…<end>"
+KO: "헤헤…, 헤헤….<end>"
 
-## 360098
-source: translations/korean/messages/msgsec036-part99.toml
+## 410057
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１０<line-break>０９始まりの地<end>"
-EN: ""
-KO: "예비 메시지 10 09 시작의 땅<end>"
+JP: "レイヴン、気がついたのね！<line-break>よかった！<end>"
+EN: "Raven, you're awake! Thank goodness!<end>"
+KO: "레이븐, 정신이 들었구나! 다행이야!<end>"
 
-## 360099
-source: translations/korean/messages/msgsec036-part99.toml
+## 410058
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "旅立ち０９メッセージ終端<end>"
-EN: ""
-KO: "여행 출발 09 메시지 끝<end>"
+JP: "…へへ、<line-break>ざまぁ…ねぇな…、へへ。<end>"
+EN: "Heh… What a sorry sight… heh.<end>"
+KO: "…헤헤, 꼴이… 말이 아니군… 헤헤.<end>"
 
-## 370000
-source: translations/korean/messages/msgsec037-part99.toml
+## 410059
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "旅立ち１１メッセージ<end>"
-EN: ""
-KO: "여행 출발 11 메시지<end>"
+JP: "また、俺を戻してくれたのは、<line-break>あんただったのか…ノエル…。<end>"
+EN: "So it was you who brought me back again… Noel…<end>"
+KO: "또 나를 되돌려준 건 너였나… 노엘…<end>"
 
-## 370001
-source: translations/korean/messages/msgsec037-part99.toml
+## 410060
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "感じる、感じるの…。　　　　　　　　<line-break>　<line-break>私たちにとっていむべき力…　　　　　<line-break>無限のソウルを持つ者を…。<end>"
-EN: "I can feel it... I can feel it... the power we must shun... the Bearer of the Infinite Soul...<end>"
-KO: "느껴져, 느껴져…. 우리에게 있어야 할 힘… 무한의 소울을 지닌 자를….<end>"
+JP: "その様子では、<line-break>神器はネメアに奪われたようだな…。<line-break>　<line-break>ゆくぞ。<line-break>カフィン、レイヴンを助けて行け。<end>"
+EN: "It seems Nemea has taken the Artifact… We're leaving. Coffin, help Raven along.<end>"
+KO: "그 모습으로 보아 신기는 네메아에게 빼앗긴 모양이군…. 가자. 카핀, 레이븐을 도와라.<end>"
 
-## 370002
-source: translations/korean/messages/msgsec037-part99.toml
+## 410061
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "でも、かあさまを閉じこめている<line-break>竜王の手先を避けるにはその力が必要。<line-break>そのあまりにも大きな可能性が。<line-break>その大きさゆえにいむべき希望の力が。<end>"
-EN: "But I need that power to evade the Dragon King's servants, the ones keeping Mother imprisoned. Such boundless potential. A power of hope so great that it must be shunned.<end>"
-KO: "하지만 어머니를 가둔 용왕의 수하를 피하려면 그 힘이 필요해. 너무나 큰 가능성, 그 크기 때문에 두려운 희망의 힘이.<end>"
+JP: "…ありがとう、<value:$28>。<end>"
+EN: "…Thank you, <value:$28>.<end>"
+KO: "…고마워, <value:$28>.<end>"
 
-## 370003
-source: translations/korean/messages/msgsec037-part99.toml
+## 410062
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "お願い、来て…<line-break>私をかあさまのところへ導いて…。　　<end>"
-EN: "Please, come... Lead me to Mother...<end>"
-KO: "부탁이야, 와 줘…. 나를 어머니에게로 인도해 줘….<end>"
+JP: "ううん。あのエルフ以外は<line-break>わかってくれたみたいだし。<line-break>　<line-break>僕はもう大丈夫だよ。<end>"
+EN: "No, it's all right. Everyone but that Elf seems to understand. I'll be fine now.<end>"
+KO: "응. 그 엘프 말고는 다들 이해해 준 것 같고. 난 이제 괜찮아.<end>"
 
-## 370004
-source: translations/korean/messages/msgsec037-part99.toml
+## 410063
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "…あなた、…なのね…。<end>"
-EN: "You... You are, aren't you...?<end>"
-KO: "…당신, …이군요….<end>"
+JP: "あのエルフ、たぶん竜王の使者だよ。<line-break>彼は竜王の命で僕を処理しに来たんだ。<line-break>　<line-break>闇の神器に支配されたものは<line-break>決して元に戻れない。<line-break>君はその僕をソウルでいやしてくれた。<end>"
+EN: "That Elf is probably an envoy of the Dragon King. He came to dispose of me on the Dragon King's orders. No one enslaved by a Dark Artifact can ever return to normal. But you healed me with your Soul.<end>"
+KO: "그 엘프, 아마 용왕의 사자야. 용왕의 명령으로 나를 처리하러 온 거지. 어둠의 신기에 지배된 자는 절대 원래대로 돌아갈 수 없어. 그런데 너는 그런 나를 소울로 치유해 줬어.<end>"
 
-## 370005
-source: translations/korean/messages/msgsec037-part99.toml
+## 410064
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "待ってよー。<line-break><value:$28>ー！<end>"
-EN: "Wait for me! <value:$28>!<end>"
-KO: "기다려~. <value:$28>~!<end>"
+JP: "あのエルフの言ったことが正しいなら、<line-break>君はどんどん強くなる。<line-break>あのネメアさえもしのぐほどにね。　<line-break>だから、気をつけて。<line-break>竜王は自分の箱庭の均衡を崩す者を<line-break>許さないから…。<end>"
+EN: "If that Elf was right, you'll keep growing stronger―strong enough to surpass even Nemea. So be careful. The Dragon King won't forgive anyone who upsets the balance of his little garden…<end>"
+KO: "그 엘프 말이 맞다면 너는 점점 강해질 거야. 그 네메아조차 뛰어넘을 만큼. 그러니까 조심해. 용왕은 자기 정원의 균형을 깨뜨리는 자를 용서하지 않으니까….<end>"
 
-## 370006
-source: translations/korean/messages/msgsec037-part99.toml
+## 410065
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ユリアシュ、お前こそ待て。<end>"
-EN: "You're the one who should wait, Yuriash.<end>"
-KO: "유리아슈, 네가 기다려.<end>"
+JP: "<value:$28>、<line-break>ほんとに嬉しかったよ。　　　　　　　<line-break>　<line-break>僕を闇から救い出してくれたこと、<line-break>そして、救い出してくれたのが<line-break>他ならぬ君だったってこと。<end>"
+EN: "<value:$28>, I was so happy. You saved me from the darkness―and of all people, it was you who saved me.<end>"
+KO: "<value:$28>, 정말 기뻤어. 나를 어둠에서 구해 준 것, 그리고 구해 준 사람이 다름 아닌 너였다는 게.<end>"
 
-## 370007
-source: translations/korean/messages/msgsec037-part99.toml
+## 410066
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ガキじゃねぇんだから、<line-break>チョロチョロ走んじゃねぇ！<end>"
-EN: "You're not a little kid, so quit running all over the place!<end>"
-KO: "애도 아니면서 이리저리 뛰어다니지 마!<end>"
+JP: "僕、もう行くよ。<line-break>…じゃね。<end>"
+EN: "I should go now. See you.<end>"
+KO: "난 이제 갈게. …그럼.<end>"
 
-## 370008
-source: translations/korean/messages/msgsec037-part99.toml
+## 410067
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ご両親に供える花を買ったら、<line-break>とっとと戻って来んだぞ。<end>"
-EN: "Once you've bought the flowers for your parents, get straight back here.<end>"
-KO: "부모님께 바칠 꽃을 샀으면 얼른 돌아와.<end>"
+JP: "…は、早く。だ、ダメだ…。<line-break>これ以上、もたない…！<end>"
+EN: "H-hurry. I can't… I can't hold on any longer…!<end>"
+KO: "…빠, 빨리. 더, 더는 안 돼…. 버틸 수 없어…!<end>"
 
-## 370009
-source: translations/korean/messages/msgsec037-part99.toml
+## 410068
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "わかってる。船長。<end>"
-EN: "I know, Captain.<end>"
-KO: "알고 있어. 선장.<end>"
+JP: "…我らは魔人を討伐したのみだ。<end>"
+EN: "…We came only to slay the demon.<end>"
+KO: "…우리는 마인을 토벌했을 뿐이다.<end>"
 
-## 370010
-source: translations/korean/messages/msgsec037-part99.toml
+## 410069
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "行こう、<value:$28>。<line-break>道具屋さんが花を入れてくれてるわ。<end>"
-EN: "Come on, <value:$28>. The shopkeeper's getting the flowers ready for us.<end>"
-KO: "가자, <value:$28>. 도구점에서 꽃을 넣어 줬어.<end>"
+JP: "おっと、事をかまえるつもりはない。<line-break>おとなしく引き上げさせてくれんかの？<end>"
+EN: "Now, now, we've no wish to start a fight. Won't you let us withdraw in peace?<end>"
+KO: "어이쿠, 싸울 생각은 없다. 얌전히 물러가게 해 주지 않겠나?<end>"
 
-## 370011
-source: translations/korean/messages/msgsec037-part99.toml
+## 410070
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "どうしたんです？　…え、ああ、<line-break>ご霊前に供える花、ですか…。　　　　<end>"
-EN: "Is something wrong? Oh... Flowers to lay before the departed, you mean...?<end>"
-KO: "무슨 일이죠? …아, 영전에 바칠 꽃 말인가요….<end>"
+JP: "いいぜ、ドワーフのおっさん。<end>"
+EN: "Fine by me, old Dwarf.<end>"
+KO: "좋아, 드워프 아저씨.<end>"
 
-## 370012
-source: translations/korean/messages/msgsec037-part99.toml
+## 410071
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "はい、こちらをどうぞ。<line-break>優しく風にそよぐ、ラスラルの花です。<end>"
-EN: "Here you are. A Lasral Flower, swaying gently in the breeze.<end>"
-KO: "네, 여기 있습니다. 부드럽게 바람에 흔들리는 라스랄의 꽃입니다.<end>"
+JP: "こいつを置いていってもいいならな？<end>"
+EN: "Provided you leave this one behind.<end>"
+KO: "이 녀석을 두고 가도 된다면 말이지?<end>"
 
-## 370013
-source: translations/korean/messages/msgsec037-part99.toml
+## 410072
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "しつこいなぁ、あんたも。<line-break>これは貨物船。人は乗せねぇんだ。<end>"
-EN: "You're a persistent one. This is a cargo ship. I don't carry passengers.<end>"
-KO: "끈질기네, 당신도. 이건 화물선이야. 사람은 안 태워.<end>"
+JP: "…いつの間に？<end>"
+EN: "…When did you do that?<end>"
+KO: "…언제 온 거지?<end>"
 
-## 370014
-source: translations/korean/messages/msgsec037-part99.toml
+## 410073
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "…でも、あなたは、<line-break>私を、運んで、くれる…。<end>"
-EN: "But... you will carry me...<end>"
-KO: "…하지만 당신은 나를… 옮겨 주는구나….<end>"
+JP: "…やれやれ、魔人の方が<line-break>えらく簡単に片づいたと思ったが、<line-break>　<line-break>やはり、一働きはせんと<line-break>いかんみたいじゃな。<end>"
+EN: "Good grief. I thought that demon went down rather too easily. Seems I've still got some work to do.<end>"
+KO: "…이런, 마인은 너무 쉽게 정리됐다고 생각했는데 역시 한 번은 힘을 써야 할 모양이군.<end>"
 
-## 370015
-source: translations/korean/messages/msgsec037-part99.toml
+## 410074
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "…でも、俺は…、<line-break>あんたを、運んで、やる…。<end>"
-EN: "But... I... will carry you...<end>"
-KO: "…하지만 나는… 당신을 옮겨 줄게….<end>"
+JP: "どうした？　帰んなよ？<line-break>用事は魔人討伐だけだったんだろ？<end>"
+EN: "What's wrong? Go on, get out of here. You only came to slay the demon, didn't you?<end>"
+KO: "왜 그래? 안 돌아가? 볼일은 마인 토벌뿐이었잖아?<end>"
 
-## 370016
-source: translations/korean/messages/msgsec037-part99.toml
+## 410075
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "…ありがとう。私はメイア、<line-break>分かたれしもの。よろしく…。<end>"
-EN: "Thank you... I am Meia, the Divided One. A pleasure...<end>"
-KO: "…고마워. 나는 메이아, 갈라진 자. 잘 부탁해….<end>"
+JP: "そうはいかないわ。<line-break>用事ができたの。<end>"
+EN: "I can't do that. Something else has come up.<end>"
+KO: "그럴 순 없어. 볼일이 생겼거든.<end>"
 
-## 370017
-source: translations/korean/messages/msgsec037-part99.toml
+## 410077
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "おう、お前らか。<line-break>どうだ。花は買えたか？<end>"
-EN: "Oh, it's you two. Well? Did you get the flowers?<end>"
-KO: "오, 너희들이냐. 어때. 꽃은 샀어?<end>"
+JP: "授業料はその闇の神器で頼むぞい。<end>"
+EN: "That Dark Artifact will do nicely for tuition.<end>"
+KO: "수업료는 그 어둠의 신기로 받지.<end>"
 
-## 370018
-source: translations/korean/messages/msgsec037-part99.toml
+## 410078
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "とっとと買ってこい。<line-break>待っててやるから。<end>"
-EN: "Go buy them, then. I'll wait for you.<end>"
-KO: "얼른 사 와. 기다려 줄 테니까.<end>"
+JP: "<value:$28>、<line-break>詳しいことは知らないが、　　　　　　<line-break>　<line-break>この魔人、あんたと縁があったんだろ？<line-break>あいつらからけじめは<line-break>取っておかないとな！<end>"
+EN: "<value:$28>, I don't know the details, but you had some connection to this demon, didn't you? We can't let them get away without answering for this!<end>"
+KO: "<value:$28>, 자세한 사정은 모르지만 이 마인, 너와 인연이 있었던 거지? 저놈들에게 책임은 물어야겠군!<end>"
 
-## 370019
-source: translations/korean/messages/msgsec037-part99.toml
+## 410079
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "おっし、女房と娘の土産も買ったし、<line-break>船に乗んな。すぐ、出港だ。<end>"
-EN: "Right, I've got presents for the wife and daughter. Get aboard. We sail at once.<end>"
-KO: "좋아, 마누라랑 딸 선물도 샀으니 배에 타. 곧 출항이다.<end>"
+JP: "できの悪い生徒で<line-break>何も学びとれなかったぜ。<line-break>　<line-break>授業料は払わないが、<line-break>いいよな？<end>"
+EN: "I'm a poor student. Didn't learn a thing. So I won't be paying tuition. That's all right with you, isn't it?<end>"
+KO: "형편없는 학생이라 아무것도 배우지 못했어. 수업료는 안 낼 건데, 괜찮지?<end>"
 
-## 370020
-source: translations/korean/messages/msgsec037-part99.toml
+## 410080
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "あぁ、帰りは客が１人増えてな。<line-break>メイアって女の子だ。よろしく頼むわ。<end>"
-EN: "Oh, and we've got one more passenger on the way back. A girl named Meia. Look after her, will you?<end>"
-KO: "아, 돌아오는 길엔 손님이 한 명 늘어서 말이야. 메이아라는 여자애야. 잘 부탁해.<end>"
+JP: "レイヴン！<end>"
+EN: "Raven!<end>"
+KO: "레이븐!<end>"
 
-## 370021
-source: translations/korean/messages/msgsec037-part99.toml
+## 410082
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "おう。確かに、俺は船に他人を　　　<line-break>乗せるのは好きじゃねえ。<line-break>メイアを乗っけたのは…、ええと…、<line-break>…知らねえよ！<line-break>とにかく、そういう気分だったんだ！<end>"
-EN: "Yeah, it's true. I don't like taking strangers aboard. Why'd I let Meia on? Well... How should I know? I just felt like it, that's all!<end>"
-KO: "그래. 확실히 나는 배에 다른 사람을 태우는 걸 좋아하지 않아. 메이아를 태운 건…, 음…, …나도 몰라! 아무튼 그런 기분이었어!<end>"
+JP: "…この感じ…。<end>"
+EN: "…This presence…<end>"
+KO: "…이 느낌….<end>"
 
-## 370022
-source: translations/korean/messages/msgsec037-part99.toml
+## 410083
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "あのメイアって娘を港で見かけたって？<line-break>だから、なんなのよ。<line-break>そんなに気になるんなら、<line-break>話しかけてきたら？<end>"
-EN: "You saw that girl Meia at the harbor? So what? If you're that curious, why not go talk to her?<end>"
-KO: "그 메이아라는 애를 항구에서 봤다고? 그래서 뭐. 그렇게 신경 쓰이면 말 걸어 보지 그래?<end>"
+JP: "エスト・リューガ博士で<line-break>いらっしゃいますね。<end>"
+EN: "You are Dr. Est Ryuga, I presume.<end>"
+KO: "에스트 류가 박사님이시죠.<end>"
 
-## 370023
-source: translations/korean/messages/msgsec037-part99.toml
+## 410084
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "あ…はい…。<line-break>初対面…だと思いますよ。　　　　<line-break>あ…でも、<line-break>それって男の人が女の子に<line-break>声をかけるときのセリフですよね。<end>"
-EN: "Oh... yes. I think this is our first meeting. But... isn't that what a man says when trying to strike up a conversation with a girl?<end>"
-KO: "아… 네…. 초면…인 것 같아요. 아… 그런데 그거 남자가 여자에게 말 걸 때 하는 대사 아닌가요?<end>"
+JP: "あなたは？<end>"
+EN: "Who are you?<end>"
+KO: "당신은?<end>"
 
-## 370024
-source: translations/korean/messages/msgsec037-part99.toml
+## 410085
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "この前、アキュリュースで<line-break>ガルドランという変な方に、<line-break>そうやって声をかけられました。　<end>"
-EN: "A strange gentleman named Girldlan approached me that way in Aqyurius the other day.<end>"
-KO: "지난번 아큐류스에서 갈드란이라는 이상한 분이 그렇게 말을 걸어왔습니다.<end>"
+JP: "世界の行く末を憂う者<line-break>…とでも申しておきましょう。　　　<line-break><line-break>あなたは古代の魔道器を研究解析し、<line-break>人類の生活水準をその恩恵によって<line-break>向上させようとしていらっしゃる。<end>"
+EN: "Let us say I am one who fears for the fate of the world. You study and analyze ancient magical devices, hoping to use their benefits to improve humanity's standard of living.<end>"
+KO: "세계의 앞날을 걱정하는 자… 정도로 해 두죠. 당신은 고대 마도기를 연구·분석하고 그 혜택으로 인류의 생활 수준을 높이려 하고 계십니다.<end>"
 
-## 370025
-source: translations/korean/messages/msgsec037-part99.toml
+## 410086
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "俺が俺がが強そうな人で…。<line-break>ああいう人、苦手です…。<end>"
-EN: "He seemed very full of himself... I don't do well with people like that...<end>"
-KO: "자기주장이 강하고 무서워 보이는 사람이어서…. 그런 사람은 어려워요….<end>"
-
-## 370026
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "あ…ええ、世界を旅しています。<line-break>かあさまを、捜しているんです。<line-break>かあさまのことを知ってる人が<line-break>エルズにいるんです。<line-break>それで、エルズに…<end>"
-EN: "Oh... yes, I am traveling the world. I am looking for Mother. Someone in Elz knows about her, so I was going there...<end>"
-KO: "아… 네, 세계를 여행하고 있어요. 어머니를 찾고 있어요. 어머니를 아는 사람이 엘즈에 있거든요. 그래서 엘즈로…<end>"
-
-## 370027
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "私は、ただ、<line-break>かあさまに会いたいだけ…。<line-break>…なのに、<line-break>…まだ、邪魔するの…？<end>"
-EN: "All I want is to see Mother... Why... are you still trying to stop me?<end>"
-KO: "난 그저 엄마를 만나고 싶을 뿐인데…. …그런데도 아직 방해하는 거야…?<end>"
-
-## 370028
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "海王…。竜王のつかい…。<end>"
-EN: "The Sea King... A servant of the Dragon King...<end>"
-KO: "해왕…. 용왕의 사자….<end>"
-
-## 370029
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "う、わわわああ。<end>"
-EN: "W-whaaa!<end>"
-KO: "으, 와아아아.<end>"
-
-## 370030
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "あわてなくても<line-break>大丈夫です。　　　　　　<line-break>これは、聖なる竜。<line-break>世界を統べる竜王の片腕。<line-break>海の主、海王です。<end>"
-EN: "There is no need to panic. This is a sacred dragon, the right hand of the Dragon King who rules the world: the lord of the sea, the Sea King.<end>"
-KO: "서두르지 않아도 괜찮습니다. 이건 성스러운 용. 세계를 다스리는 용왕의 한 팔, 바다의 주인 해왕입니다.<end>"
-
-## 370031
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "竜の座の<line-break>翔王みたいなもんか…。<end>"
-EN: "So it's like the Soaring King at the Dragon's Seat...<end>"
-KO: "용의 자리의 상왕 같은 건가….<end>"
-
-## 370032
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "普通の人は襲いません。襲うのは<line-break>その怒りにふれた悪人だけです。<end>"
-EN: "It does not attack ordinary people. Only evildoers who incur its wrath.<end>"
-KO: "평범한 사람은 습격하지 않습니다. 그 분노를 산 악인만 습격합니다.<end>"
-
-## 370033
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "すっすっ、すまんっっ！！！<end>"
-EN: "I-I'm sorry!!!<end>"
-KO: "미, 미안하다아아!!!<end>"
-
-## 370034
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ど、どうしたの？　船長。<end>"
-EN: "C-Captain? What's wrong?<end>"
-KO: "왜, 왜 그래? 선장.<end>"
-
-## 370035
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "その海王の怒りにふれたのは<line-break>俺なんだああぁ！<end>"
-EN: "I'm the one who incurred the Sea King's wrath!<end>"
-KO: "그 해왕의 분노를 산 건 나라고오오!<end>"
-
-## 370036
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "えっ！<end>"
-EN: "What?!<end>"
-KO: "엣!<end>"
-
-## 370037
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "に、女房の土産を買ったとき、<line-break>釣りが少し多かったんだが…！<end>"
-EN: "W-when I bought my wife's present, they gave me a little too much change...!<end>"
-KO: "마, 마누라 선물 샀을 때 거스름돈을 좀 많이 받긴 했는데…!<end>"
-
-## 370038
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "はぁ？<end>"
-EN: "What?<end>"
-KO: "하아?<end>"
-
-## 370039
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "俺は、そのまま、<line-break>ごまかしてきちまったんだああああ！！<end>"
-EN: "And I kept quiet and walked away with it!<end>"
-KO: "난 그대로 얼버무리고 말았다고오오오!!<end>"
-
-## 370040
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "海王様、頼む！<line-break>今は見逃してくれ！　　　　　　　<line-break>こいつらを無事エルズに送り届け、<line-break>女房と娘に別れをすましたら、<line-break>絶対に海に飛び込む！<end>"
-EN: "Lord Sea King, please! Spare me for now! Once I've delivered this lot safely to Elz and said farewell to my wife and daughter, I swear I'll throw myself into the sea!<end>"
-KO: "해왕님, 부탁한다! 지금은 눈감아줘! 이들을 무사히 엘즈에 데려다주고 아내와 딸에게 작별한 뒤 반드시 바다에 뛰어들겠다!<end>"
-
-## 370041
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "そのときには、<line-break>俺を八つ裂きにでも<line-break>なんにでもしてくれ！　　　　　　<line-break>だが、今は見逃してくれ！！<line-break>こいつらだけじゃ船は動かせねえ！<line-break>頼む！！　今だけ見逃してくれ！<end>"
-EN: "Then you can tear me limb from limb or do whatever you like! Just spare me now! This lot can't sail the ship alone! Please! Just let me go this once!<end>"
-KO: "그때는 날 갈기갈기 찢든 뭘 하든 마음대로 해! 하지만 지금은 봐줘!! 이 녀석들만으로는 배를 움직일 수 없어! 부탁한다!! 지금만은 봐줘!<end>"
-
-## 370042
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "大丈夫です、船長さん。<line-break>船長さんのせいじゃありません。　<line-break>それに、<line-break>海王はこの船に手を出しません…。<line-break>今だけは…決して…。<end>"
-EN: "It is all right, Captain. This is not your fault. Besides, the Sea King will not touch this ship... Not now... absolutely not.<end>"
-KO: "괜찮아요, 선장님. 선장님 탓이 아니에요. 그리고 해왕은 이 배에 손대지 않아요…. 지금만큼은… 절대로….<end>"
-
-## 370043
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "へ？　なんでだ？<end>"
-EN: "Huh? Why not?<end>"
-KO: "엥? 왜?<end>"
-
-## 370044
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "この方が乗っているからです。<end>"
-EN: "Because this person is aboard.<end>"
-KO: "이분이 타고 있기 때문입니다.<end>"
-
-## 370045
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$28>が乗ってたら、<line-break>な、なんで、大丈夫なのよ。<end>"
-EN: "Why would having <value:$28> aboard make us safe?<end>"
-KO: "<value:$28>이 타고 있으면 왜, 왜 괜찮은 건데.<end>"
-
-## 370046
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "フフ、そうよね。<line-break>海王、様…。<end>"
-EN: "Hehe... Of course. Lord Sea King...<end>"
-KO: "후후, 그렇지. 해왕 님….<end>"
-
-## 370047
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "そう…、<line-break><value:$28>って言うの…。<end>"
-EN: "So... your name is <value:$28>...<end>"
-KO: "그래… <value:$28>라고 하는구나….<end>"
-
-## 370048
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "大丈夫？　<value:$28>。<end>"
-EN: "Are you all right, <value:$28>?<end>"
-KO: "괜찮아? <value:$28>.<end>"
-
-## 370049
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "いったい、なんなのよ。<line-break>あの娘…。<end>"
-EN: "What in the world is that girl...?<end>"
-KO: "대체 뭐야, 저 애는….<end>"
-
-## 370050
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "うぃ～っしゃ、着いた着いた。<end>"
-EN: "All right, here we are!<end>"
-KO: "으이~차, 도착했다 도착했어.<end>"
-
-## 370051
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "船長、ありがとうね。<end>"
-EN: "Thanks, Captain.<end>"
-KO: "선장, 고마워.<end>"
-
-## 370052
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "船長、ありがとよ。<end>"
-EN: "Thanks, Captain.<end>"
-KO: "선장, 고마워.<end>"
-
-## 370053
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "んな～に、礼なぞいらんいらん。<line-break>じゃ、またな小僧ども。<end>"
-EN: "No need to thank me. See you around, you little scamps.<end>"
-KO: "뭐어~ 답례 따윈 됐다, 됐어. 그럼 또 보자, 꼬마들.<end>"
-
-## 370054
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$28>、一緒にお参りに…<line-break>行きましょう。いいでしょ？<end>"
-EN: "<value:$28>, let's go pay our respects together. All right?<end>"
-KO: "<value:$28>, 같이 참배하러… 가요. 괜찮죠?<end>"
-
-## 370055
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$28>、あのさ…、一緒に<line-break>お参りに行かないか？　頼む。<end>"
-EN: "Listen, <value:$28>... Will you come pay your respects with me? Please.<end>"
-KO: "<value:$28>, 있잖아… 같이 참배하러 가지 않을래? 부탁할게.<end>"
-
-## 370056
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…あのときは、<line-break>ほんと、立ち直れないと思った。<end>"
-EN: "Back then, I honestly thought I'd never recover.<end>"
-KO: "…그때는 정말 다시 일어서지 못할 줄 알았어.<end>"
-
-## 370057
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…ううん。時間だけじゃない。<end>"
-EN: "No. It wasn't just time.<end>"
-KO: "…아니. 시간만의 문제가 아니야.<end>"
-
-## 370058
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$28>がそばに<line-break>いてくれたおかげ。<end>"
-EN: "It was because <value:$28> stayed by my side.<end>"
-KO: "<value:$28>이 곁에 있어 준 덕분이야.<end>"
-
-## 370059
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…ありがとう。　　　　　<end>"
-EN: "Thank you.<end>"
-KO: "…고마워.<end>"
-
-## 370060
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…フフ、去年のあたしじゃ<line-break>言えない言葉だよね。<end>"
-EN: "Hehe... I could never have said that a year ago.<end>"
-KO: "…후후, 작년의 나라면 못 했을 말이네.<end>"
-
-## 370061
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "父さんと母さんが、<line-break>エア様の怒りにふれて…　　　<line-break>一族ごとみんな殺されて…。<line-break>私１人だけが生き残って…。<end>"
-EN: "Father and Mother incurred Lady Er's wrath... Our whole clan was slaughtered. I was the only one left alive...<end>"
-KO: "아버지와 어머니가 에아 님의 분노를 사서… 일족 모두가 죽고…. 나 혼자만 살아남아서….<end>"
-
-## 370062
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "わかってる。<end>"
-EN: "I know.<end>"
-KO: "알고 있어.<end>"
-
-## 370063
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "女王エア様は天地千年を見通すお方。<line-break>間違いなど…ない…。<line-break>それに、いまさら、<line-break>本当はどうだったのかなんて…、<line-break>もう、いいから…。<end>"
-EN: "Queen Er can see a thousand years across heaven and earth. She could not... have been wrong. And now, whatever the truth may have been... it doesn't matter anymore.<end>"
-KO: "여왕 에아 님은 천년의 세월을 내다보는 분이야. 틀릴 리가… 없어…. 이제 와서 진실이 어땠는지는… 이제 됐어….<end>"
-
-## 370064
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "あのとき、<value:$28>も<line-break>大変だったのよね。　　　　　　　　<line-break><value:$28>のお父さん<line-break>…イシュベノブおじさんの船が<line-break>行方不明になって…。<end>"
-EN: "You were going through so much then too, <value:$28>. <value:$28>'s father... Uncle Ishbenob's ship had gone missing...<end>"
-KO: "그때 <value:$28>도 힘들었지. <value:$28>의 아버지… 이슈베노브 아저씨의 배가 실종돼서….<end>"
-
-## 370065
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "それなのに、ごめんね。<line-break>あたし、<value:$28>の気持ち、<line-break>考える余裕もなかった。　　　　　　<line-break>ただ、ずっと、<value:$28>に<line-break>当たり散らして…。<end>"
-EN: "And still, I'm sorry. I had no room to think about how <value:$28> felt. All I did was take everything out on <value:$28>...<end>"
-KO: "그런데도 미안해. 나, <value:$28>의 마음을 생각할 여유도 없었어. 그저 계속 <value:$28>에게 화풀이만 하고….<end>"
-
-## 370066
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…それでも、<value:$28>は<line-break>ずっと、あたしについててくれて…。<line-break>わざわざアミラルまで<line-break>お花を買いにいくのにも<line-break>ついてきてくれて…。<end>"
-EN: "Even so, <value:$28> stayed with me the whole time... even came all the way to Amiral just to buy flowers with me...<end>"
-KO: "…그래도 <value:$28>은 계속 나와 함께 있어 줬고…. 일부러 아미랄까지 꽃을 사러 가는 데도 따라와 줬고….<end>"
-
-## 370067
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルズの花はすべて、<line-break>エア様が強大な魔力で作り出したもの。<line-break>美しいけれど、あたし、<line-break>父さんと母さんの墓に<line-break>そんなもの、供えたくない…。<end>"
-EN: "Every flower in Elz was created by Lady Er's immense magic. They're beautiful, but... I don't want to lay anything like that on Father and Mother's grave.<end>"
-KO: "엘즈의 꽃은 모두 에아 님이 강대한 마력으로 만들어낸 거야. 아름답지만 난 아버지와 어머니 무덤에 그런 걸 바치고 싶지 않아…<end>"
-
-## 370068
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ありがとう。<line-break>わがままにつきあってくれて。<line-break>…ほんと、感謝してる。<end>"
-EN: "Thank you for indulging me. I truly am grateful.<end>"
-KO: "고마워. 내 고집에 어울려 줘서. …정말 감사해.<end>"
-
-## 370069
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…ごめん、<line-break>あたし眠っちゃったんだ。<end>"
-EN: "Sorry... I fell asleep.<end>"
-KO: "…미안, 나 잠들어 버렸어.<end>"
-
-## 370070
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…ずっと、そばにいてくれたんだ。<end>"
-EN: "You stayed beside me the whole time.<end>"
-KO: "…계속 곁에 있어 줬구나.<end>"
-
-## 370071
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "そこの者！<end>"
-EN: "You there!<end>"
-KO: "거기 너!<end>"
-
-## 370072
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0…リアの氏族のユリアシュではないか。<line-break>そんな所で何をしておる。<line-break>そなたは風の氏族の一翼を担う<line-break>リアの氏族の最後の生き残り。<line-break>そんなエルズの町家の者など捨てよ。<end>…リアの氏族のユシュアルではないか。<line-break>そんな所で何をしておる。<line-break>そなたは風の氏族の一翼を担う<line-break>リアの氏族の最後の生き残り。<line-break>そんな、エルズの町家の者など捨てよ。<end>"
-EN: "<if><value:$29><equal>%0Why, if it isn't Yuriash of the Ria Clan. What are you doing there? You are the last survivor of the Ria Clan, one of the pillars of the Wind Clan. Abandon that commoner of Elz.<end>Why, if it isn't Yushual of the Ria Clan. What are you doing there? You are the last survivor of the Ria Clan, one of the pillars of the Wind Clan. Abandon that commoner of Elz.<end>"
-KO: "<if><value:$29><equal>%0…리아 씨족의 유리아슈 아닌가. 그런 곳에서 뭘 하고 있느냐. 너는 바람의 씨족 한 축을 맡는 리아 씨족의 마지막 생존자다. 그런 엘즈 마을의 자 따위는 버려라.<end>…리아 씨족의 유슈알 아닌가. 그런 곳에서 뭘 하고 있느냐. 너는 바람의 씨족 한 축을 맡는 리아 씨족의 마지막 생존자다. 그런 엘즈 마을의 자 따위는 버려라.<end>"
-
-## 370073
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "他の風の氏族より男子をいれ、<line-break>リア氏族の復興を果たすことこそ、　　<line-break>肝要ぞ。<line-break>それよりも、<line-break>ここに怪しい者が<line-break>来なんだか？<end>"
-EN: "What matters is bringing a man into the Ria Clan from another clan of the Wind Clan, so that the Ria Clan can be restored. But enough of that. Has anyone suspicious come through here?<end>"
-KO: "다른 바람의 씨족에서 남자를 받아 리아 씨족을 부흥시키는 것이 중요하다. 그보다 여기에 수상한 자가 오지 않았나?<end>"
-
-## 370074
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "竜の座より、<line-break>我ら風の氏族の至宝を<line-break>くせ者が盗んで逃げおったのじゃ。　　<line-break>１５くらいの小娘じゃ。<line-break>我ら風の氏族でも、<line-break>エルズの町民でもない。<end>"
-EN: "An intruder stole the Wind Clan's greatest treasure from the Dragon's Seat and fled. A girl of about fifteen. She belongs neither to the Wind Clan nor to Elz.<end>"
-KO: "용의 자리에서 우리 바람의 씨족 보물을 수상한 자가 훔쳐 달아났다. 열다섯쯤 된 소녀다. 우리 씨족도 엘즈 주민도 아니야.<end>"
-
-## 370075
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "エア様にやられて、手負いじゃ。<line-break>そう遠くまで逃げられぬはず。<line-break>見つけたら、すぐに竜の座に伝えよ。　<end>"
-EN: "Lady Er wounded her. She cannot have gone far. If you find her, inform the Dragon's Seat at once.<end>"
-KO: "에아 님에게 당해 부상당한 상태다. 멀리까지 도망가지는 못했을 터. 발견하면 즉시 용의 자리로 알려라.<end>"
-
-## 370076
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "そなたら反逆者リアの氏族にとって、　<line-break>先のエア様の不興を<line-break>お晴らしするよき機会じゃ。<line-break>さて、反逆者の小娘に<line-break>情けをかけてやったところで、<line-break>行くぞ。<end>"
-EN: "This is a fine chance for you rebels of the Ria Clan to dispel Lady Er's recent displeasure. Well, we have shown the rebel girl enough mercy. Let us go.<end>"
-KO: "그대들 반역자 리아 씨족에게는, 지난번 에아 님의 노여움을 풀어 드릴 좋은 기회다. 자, 반역자의 계집애에게 자비도 베풀어 줬으니, 가자.<end>"
-
-## 370077
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "許せない！！<end>"
-EN: "I can't forgive that!<end>"
-KO: "용서 못 해!!<end>"
-
-## 370078
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "だって…。<end>"
-EN: "But...<end>"
-KO: "하지만….<end>"
-
-## 370079
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…わかった。<end>"
-EN: "All right.<end>"
-KO: "…알았어.<end>"
-
-## 370080
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "誰？<end>"
-EN: "Who's there?<end>"
-KO: "누구?<end>"
-
-## 370081
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "メイア…。<end>"
-EN: "Meia...<end>"
-KO: "메이아….<end>"
-
-## 370082
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "手に持っているものは何？<line-break>もしかして、竜の座から盗んだの？<end>"
-EN: "What are you holding? Did you steal it from the Dragon's Seat?<end>"
-KO: "손에 든 건 뭐야? 설마 용의 자리에서 훔친 거야?<end>"
-
-## 370083
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…かあさまに会うため、<line-break>…必要な…の…。<end>"
-EN: "I need it... to see Mother...<end>"
-KO: "…엄마를 만나려면, …필요한… 거야….<end>"
-
-## 370084
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "返した方がいいわ。　　　　　　　　<end>"
-EN: "You should give it back.<end>"
-KO: "돌려주는 게 좋아.<end>"
-
-## 370085
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "エア様はあなたの居所をつかんでる。<line-break>あなたは逃げられない。<end>"
-EN: "Lady Er knows where you are. You can't escape.<end>"
-KO: "에아 님은 당신의 위치를 알고 있어. 당신은 도망칠 수 없어.<end>"
-
-## 370086
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…か、かあさまに会うため、<line-break>必要なの…。お願い、助けて…。<end>"
-EN: "I-I need it to see Mother... Please, help me...<end>"
-KO: "…어, 엄마를 만나려면 필요해…. 부탁이야, 도와줘….<end>"
-
-## 370087
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "エア様は冷酷よ。　　　　　　　　<end>"
-EN: "Lady Er is merciless.<end>"
-KO: "에아 님은 냉혹해.<end>"
-
-## 370088
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "どんな理由があろうとも、<line-break>自分に逆らう者は決して許さない。<end>"
-EN: "Whatever the reason, she never forgives anyone who defies her.<end>"
-KO: "무슨 이유가 있더라도 자신에게 거역하는 자는 절대 용서하지 않아.<end>"
-
-## 370089
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…お願い…かあさまに…会いたいの…。<line-break>あとで返すから…見逃して…。<end>"
-EN: "Please... I want to see Mother... I'll return it afterward, so please let me go...<end>"
-KO: "…부탁이야… 엄마를… 만나고 싶어…. 나중에 돌려줄 테니까… 눈감아 줘….<end>"
-
-## 370090
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "その身体…。<line-break>あなた、いったい…？<end>"
-EN: "Your body... What are you...?<end>"
-KO: "그 몸…. 당신, 대체…?<end>"
-
-## 370091
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "お願い。助けて…。　　　　　<end>"
-EN: "Please... help me.<end>"
-KO: "부탁이야. 도와줘….<end>"
-
-## 370092
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "はぁ…はぁ…、かあさまに…、<line-break>私、かあさまに…。<end>"
-EN: "Hah... hah... Mother... I... Mother...<end>"
-KO: "하아… 하아… 어머니께… 나, 어머니께….<end>"
-
-## 370093
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間じゃ、ないのね。<end>"
-EN: "You're not human.<end>"
-KO: "인간이 아니구나.<end>"
-
-## 370094
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "助けて…。<line-break>かあさまに…会いたいの…。<end>"
-EN: "Help me... I want to see Mother...<end>"
-KO: "도와줘…. 엄마를… 만나고 싶어….<end>"
-
-## 370095
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…ひどい傷…。<line-break>その身体で竜の座から逃げてきたの？<end>"
-EN: "Those wounds are terrible... You escaped from the Dragon's Seat in that condition?<end>"
-KO: "…심한 상처…. 그 몸으로 용의 자리에서 도망쳐 온 거야?<end>"
-
-## 370096
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "うう…。お願い…。<end>"
-EN: "Please...<end>"
-KO: "으으…. 부탁이야….<end>"
-
-## 370098
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…助けるのね。<end>"
-EN: "You're going to help her.<end>"
-KO: "…구해 주는 거구나.<end>"
-
-## 370099
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "待って、<value:$28>。<end>"
-EN: "Wait, <value:$28>.<end>"
-KO: "기다려, <value:$28>.<end>"
-
-## 370100
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "メイアを…助けましょ。<end>"
-EN: "Let's help Meia.<end>"
-KO: "메이아를… 구하자.<end>"
-
-## 370101
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "たぶん、助けないと、　<line-break>後悔すると…思う。<end>"
-EN: "I think... I'd regret it if we didn't help.<end>"
-KO: "아마 도와주지 않으면 후회할… 것 같아.<end>"
-
-## 370102
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "待て。<end>"
-EN: "Wait.<end>"
-KO: "기다려.<end>"
-
-## 370103
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0リア氏族のユリアシュよ。<line-break>でかした。<line-break>さ、早う、そのくせ者を<line-break>引き渡すのじゃ。<end>リア氏族のユシュアルよ。<line-break>でかした。<line-break>さ、早う、そのくせ者を<line-break>引き渡すのじゃ。<end>"
-EN: "<if><value:$29><equal>%0Yuriash of the Ria Clan. Well done. Now, hurry and hand over that intruder.<end>Yushual of the Ria Clan. Well done. Now, hurry and hand over that intruder.<end>"
-KO: "<if><value:$29><equal>%0리아 씨족의 유리아슈여. 잘했다. 자, 어서 그 수상한 자를 넘겨라.<end>리아 씨족의 유슈알이여. 잘했다. 자, 어서 그 수상한 자를 넘겨라.<end>"
-
-## 370104
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "いやよ。<end>"
-EN: "No.<end>"
-KO: "싫어.<end>"
-
-## 370105
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "なんじゃと？<end>"
-EN: "What did you say?<end>"
-KO: "뭐라고?<end>"
-
-## 370106
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "いやよ、って言ったのよ。<end>"
-EN: "I said no.<end>"
-KO: "싫다고 했잖아.<end>"
-
-## 370107
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "私は心が広い。今の言葉は<line-break>聞かなかったことにしてとらそうぞよ。<line-break>さ、早う、引き渡すのじゃ。<end>"
-EN: "I am magnanimous. I shall pretend I did not hear that. Now hand her over at once.<end>"
-KO: "나는 마음이 넓다. 방금 말은 못 들은 걸로 해 주마. 자, 어서 넘겨라.<end>"
-
-## 370108
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "しつっこいんだよ。オバサン。<end>"
-EN: "You just don't give up, do you, old lady?<end>"
-KO: "끈질기네. 아줌마.<end>"
-
-## 370109
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "オ・バ・サ・ン・じゃとぉ！　　　　　<end>"
-EN: "O-old lady?!<end>"
-KO: "아·줌·마·라고오!<end>"
-
-## 370110
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "こ、小娘がア！<line-break>下手に出ておれば、つけあがりおって。<end>"
-EN: "Y-you insolent little girl! I show you courtesy, and you grow impertinent!<end>"
-KO: "이, 어린 계집애가! 내가 낮춰 말해 줬더니 기어오르는구나.<end>"
-
-## 370111
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "あんだけ言いたいこと言っといて、<line-break>なにが下手だよ、オバサン。<end>"
-EN: "After saying whatever you pleased, you call that being courteous? Old lady.<end>"
-KO: "그렇게 하고 싶은 말 다 해 놓고 뭐가 서툴다는 거야, 아줌마.<end>"
-
-## 370112
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ムキィィイイ！<line-break>一度ならず、二度までも！　　　<line-break>竜の座の者を愚弄するとは！<line-break>エア様に対する反逆も同じじゃ！<line-break>捕らえよ。反逆じゃ！！<end>"
-EN: "Nngyaaaah! Not once, but twice! You dare mock a servant of the Dragon's Seat! That is no different from rebelling against Lady Er! Seize her! This is rebellion!<end>"
-KO: "으키이이이! 한 번도 모자라 두 번씩이나! 용의 자리 사람을 우롱하다니! 에아 님께 반역하는 것과 같다! 잡아라. 반역이다!!<end>"
-
-## 370113
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ハァ、ハァ…。<value:$28>…<line-break>ひとまずあなたの家に隠れましょう…。<end>"
-EN: "Hah... hah... <value:$28>, let us hide at your house for now...<end>"
-KO: "하아, 하아…. <value:$28>… 일단 당신 집에 숨죠….<end>"
-
-## 370114
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼェ、ゼェ…。まいったな…<line-break>とりあえずお前の家で隠れようぜ…。<end>"
-EN: "Hah... hah... What a mess. Let's hide at your place for now...<end>"
-KO: "헉, 헉…. 큰일이군…. 일단 네 집에 숨어 있자….<end>"
-
-## 370115
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "えらい。<end>"
-EN: "Well done.<end>"
-KO: "대단해.<end>"
-
-## 370116
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0<value:$28>、それでこそ、<line-break>あたしとイシュベノブの息子だよ。<end><value:$28>、それでこそ、<line-break>あたしとイシュベノブの娘だよ。<end>"
-EN: "<if><value:$29><equal>%0<value:$28>, that's what I'd expect from a son of Ishbenob and me.<end><value:$28>, that's what I'd expect from a daughter of Ishbenob and me.<end>"
-KO: "<if><value:$29><equal>%0<value:$28>, 그래야나와 이슈베노브의 아들이지.<end><value:$28>, 그래야나와 이슈베노브의 딸이지.<end>"
-
-## 370117
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "あぁ。　　　　　　　　　　　　　　<end>"
-EN: "Yeah.<end>"
-KO: "그래.<end>"
-
-## 370118
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "あの娘の左腕と左脚は鎧でできてた。<line-break>傷の治りも異常に早い。<end>"
-EN: "That girl's left arm and left leg were made of armor. Her wounds healed abnormally fast too.<end>"
-KO: "그 여자애의 왼팔과 왼다리는 갑옷으로 되어 있었어. 상처가 낫는 속도도 비정상적으로 빨라.<end>"
-
-## 370119
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "あんたの言うとおり、　　　　　　　<line-break>あの娘は人間じゃあないね。<end>"
-EN: "You were right. That girl isn't human.<end>"
-KO: "당신 말대로 그 아이는 인간이 아니군.<end>"
-
-## 370120
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "なに言ってんだい。　　　　　　　　　<end>"
-EN: "What are you talking about?<end>"
-KO: "무슨 소리야.<end>"
-
-## 370121
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間だろうが、人間じゃなかろうが、　<line-break>困っていたら、助けてやる。<end>"
-EN: "Human or not, if someone's in trouble, you help.<end>"
-KO: "인간이든 아니든 곤란해하고 있으면 도와준다.<end>"
-
-## 370122
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "それが筋ってもんだろ？　　　　　　　<line-break><end>"
-EN: "That's the right thing to do, isn't it?<end>"
-KO: "그게 도리라는 거잖아?<end>"
-
-## 370123
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "何かしたあとで、ごじゃごじゃ言うなんて<line-break>最悪から２番目の人間がやることだよ。<end>"
-EN: "Doing something and then grumbling about it is what the second-worst kind of person does.<end>"
-KO: "무슨 일을 저질러 놓고 뒤늦게 이러쿵저러쿵 말하는 건 세상에서 두 번째로 최악인 인간이 하는 짓이야.<end>"
-
-## 370124
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "最悪の人間って？<end>"
-EN: "What's the worst kind?<end>"
-KO: "최악의 인간이라고?<end>"
-
-## 370125
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "決まってるじゃないか。　　　<end>"
-EN: "Isn't it obvious?<end>"
-KO: "당연하잖아.<end>"
-
-## 370126
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0ごじゃごじゃ言うだけで、　　<line-break>何もやらない手合いだよ。<line-break>あぁ、悪いけど、ユリアシュ、<line-break>あの娘の様子を見てきとくれ。<end>ごじゃごじゃ言うだけで、　　<line-break>何もやらない手合いだよ。<line-break>あぁ、悪いけど、ユシュアル、<line-break>あの娘の様子を見てきてくれないか。<end>"
-EN: "<if><value:$29><equal>%0The sort who does nothing but grumble. Sorry, Yuriash, but go check on that girl for me.<end>The sort who does nothing but grumble. Sorry, Yushual, but would you go check on that girl?<end>"
-KO: "<if><value:$29><equal>%0말만 떠들어 대고 아무것도 하지 않는 부류지. 아, 미안하지만 유리아슈, 그 아가씨 상태를 좀 보고 와 줘.<end>말만 떠들어 대고 아무것도 하지 않는 부류지. 아, 미안하지만 유슈알, 그 아가씨 상태를 좀 보고 와 주지 않겠니.<end>"
-
-## 370127
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "はい。<end>"
+JP: "ええ。<end>"
 EN: "Yes.<end>"
 KO: "네.<end>"
 
-## 370129
-source: translations/korean/messages/msgsec037-part99.toml
+## 410087
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0何ぐじぐじしてんだい。<line-break>男だろ。<end>何をぐじぐじしてんだい。<line-break>あたしの娘だろ。<end>"
-EN: "<if><value:$29><equal>%0Why are you dithering? You're a man, aren't you?<end>Why are you dithering? You're my daughter, aren't you?<end>"
-KO: "<if><value:$29><equal>%0뭘 그렇게 질질 짜고 있어. 남자잖아.<end>뭘 그렇게 질질 짜고 있어. 내 딸이잖아.<end>"
+JP: "そして、あなたは<line-break>それにある程度成功している。　　　　<line-break>　<line-break>このダンジョンは、失礼だが<line-break>あなたの実力でここまで来られるような<line-break>安全なところではない。<end>"
+EN: "And to some extent, you have succeeded. Forgive me, but this dungeon is far too dangerous for someone of your abilities to have made it this far.<end>"
+KO: "그리고 당신은 어느 정도 성공하고 있습니다. 실례지만 이 던전은 당신의 실력으로 여기까지 올 수 있을 만큼 안전한 곳이 아닙니다.<end>"
 
-## 370130
-source: translations/korean/messages/msgsec037-part99.toml
+## 410088
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "行っといで、<value:$28>。<line-break>あとのことなら、大丈夫さ。<end>"
-EN: "Go on, <value:$28>. Don't worry about things here.<end>"
-KO: "다녀와, <value:$28>. 뒤는 걱정하지 마.<end>"
+JP: "あなたは、魔道器の研究から<line-break>その力を引き出すことに成功し、<line-break>その力でここまで来たのだ。<end>"
+EN: "Your research allowed you to draw power from those magical devices, and you used that power to reach this place.<end>"
+KO: "당신은 마도기를 연구해 그 힘을 끌어내는 데 성공했고, 그 힘으로 여기까지 온 것이다.<end>"
 
-## 370131
-source: translations/korean/messages/msgsec037-part99.toml
+## 410089
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ユリアシュも、あのメイアって娘も<line-break>助けを求めてた<line-break>そしてお前さんはそれに応えた。<line-break>だから、最後まで<line-break>守ってやらなきゃならない。<end>"
-EN: "Yuriash and that girl Meia both asked for help, and you answered. Now you have to protect them to the end.<end>"
-KO: "유리아슈도 그 메이아라는 아이도 도움을 구했지. 그리고 넌 거기에 응했어. 그러니 끝까지 지켜 줘야 해.<end>"
+JP: "その通り…だけど、<line-break>いったい…？<end>"
+EN: "That's true… but what are you getting at?<end>"
+KO: "맞아… 하지만 대체…?<end>"
 
-## 370132
-source: translations/korean/messages/msgsec037-part99.toml
+## 410090
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "それが筋ってもんだろ？　　　　　<line-break>　　<line-break><end>"
-EN: "That's the right thing to do, isn't it?<end>"
-KO: "그게 도리라는 거잖아?<end>"
+JP: "闇の神器…<line-break>先人類が作った究極の魔道器だ…。　　<line-break>　<line-break>あなたは、ある程度までだが、<line-break>その力を抽出することも成功している。<line-break>…違いますか？<end>"
+EN: "A Dark Artifact―the ultimate magical device created by the precursor race… You have even succeeded, to a degree, in extracting its power. Am I wrong?<end>"
+KO: "어둠의 신기… 선인류가 만든 궁극의 마도기다… 당신은 어느 정도지만 그 힘을 추출하는 데도 성공했다. …아닙니까?<end>"
 
-## 370133
-source: translations/korean/messages/msgsec037-part99.toml
+## 410091
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>！<line-break>メイアが！　メイアが！<line-break>突然苦しみ出して、<line-break>顔つきが変わって、<line-break>窓から…出てって…！<end>"
-EN: "<value:$28>! It's Meia! She was suddenly in agony, her expression changed, and then she left through the window...!<end>"
-KO: "<value:$28>! 메이아가! 메이아가! 갑자기 괴로워하더니, 얼굴이 변하고, 창문으로… 나가 버렸어…!<end>"
+JP: "…ええ。<end>"
+EN: "…Yes.<end>"
+KO: "…네.<end>"
 
-## 370134
-source: translations/korean/messages/msgsec037-part99.toml
+## 410092
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "朝から客の多い日だね。<line-break>入っといで。開いてるよ。<end>"
-EN: "It's been a busy morning for visitors. Come in. It's open.<end>"
-KO: "아침부터 손님이 많네. 들어와. 열려 있어.<end>"
+JP: "あなたはその力を、いずれ、<line-break>愚かな人間どもに与えようとする。<line-break>　<line-break>私はそれを<line-break>やめていただきたいのです。<end>"
+EN: "In time, you intend to bestow that power upon the fools of humanity. I must ask you to abandon that purpose.<end>"
+KO: "당신은 언젠가 그 힘을 어리석은 인간들에게 주려 하겠죠. 저는 그러지 않으셨으면 합니다.<end>"
 
-## 370135
-source: translations/korean/messages/msgsec037-part99.toml
+## 410093
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "テレジアさん、大変だ。<line-break>竜の座の連中が、<line-break>兵隊を連れて、どやし込んで来た。<end>"
-EN: "Terezia, we're in trouble. The Dragon's Seat people have stormed in with soldiers.<end>"
-KO: "테레지아 씨, 큰일이야. 용의 좌 녀석들이, 병사들을 끌고 몰려왔어.<end>"
+JP: "どうして？<line-break>それが僕の目的なのに？<end>"
+EN: "Why? That's the whole purpose of my work.<end>"
+KO: "왜? 그게 내 목적인데?<end>"
 
-## 370136
-source: translations/korean/messages/msgsec037-part99.toml
+## 410094
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0ユリアシュ、何をやらかしたんだ？<line-break>連中はお前を差し出せって、<line-break>えらい剣幕だ。<end>ユシュアル、何をやらかしたんだ？<line-break>連中はお前を差し出せって、<line-break>えらい剣幕だ。<end>"
-EN: "<if><value:$29><equal>%0Yuriash, what did you do? They're furious, demanding that we hand you over.<end>Yushual, what did you do? They're furious, demanding that we hand you over.<end>"
-KO: "<if><value:$29><equal>%0유리아슈, 무슨 짓을 한 거야? 놈들이 널 내놓으라고 엄청 화가 났어.<end>유슈알, 무슨 짓을 한 거야? 놈들이 널 내놓으라고 엄청 화가 났어.<end>"
+JP: "それがあるお方の意志だからです。　　<end>"
+EN: "Because that is the will of a person I hold in the highest regard.<end>"
+KO: "그것이 어떤 분의 뜻이기 때문입니다.<end>"
 
-## 370137
-source: translations/korean/messages/msgsec037-part99.toml
+## 410095
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0それで、お前たち、ユリアシュを<line-break>捕まえに来たんじゃないだろうね。<end>それで、お前たち、ユシュアルを<line-break>捕まえに来たんじゃないだろうね。<end>"
-EN: "<if><value:$29><equal>%0You haven't come to arrest Yuriash, have you?<end>You haven't come to arrest Yushual, have you?<end>"
-KO: "<if><value:$29><equal>%0그래서 너희, 유리아슈를 잡으러 온 건 아니겠지.<end>그래서 너희, 유슈알을 잡으러 온 건 아니겠지.<end>"
+JP: "愚かで邪悪な人間に<line-break>高度な魔法文明を与えることは…　　　<end>"
+EN: "To grant an advanced magical civilization to foolish, wicked humanity…<end>"
+KO: "어리석고 사악한 인간에게 고도의 마법 문명을 주는 것은….<end>"
 
-## 370138
-source: translations/korean/messages/msgsec037-part99.toml
+## 410096
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "見損なわないでくだせぇ！<line-break>ドンパドン船長のいいつけでさ。<end>"
-EN: "Don't think so poorly of us! Captain Donpadon sent us.<end>"
-KO: "절 얕보지 마십쇼! 돈파돈 선장의 명령입니다.<end>"
+JP: "ゴブリンに魔剣を与えるよりも<line-break>始末に悪い。<line-break>世界の滅びのもとになる。<end>"
+EN: "…would be worse than giving a magic sword to a Goblin. It would bring about the end of the world.<end>"
+KO: "고블린에게 마검을 쥐여주는 것보다 더 골치 아프다. 세계 멸망의 씨앗이 될 거다.<end>"
 
-## 370139
-source: translations/korean/messages/msgsec037-part99.toml
+## 410097
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0テレジアさんとこに行って、　　<line-break>ユリアシュを守れって。<end>テレジアさんとこに行って、　　<line-break>ユシュアルを守れって。<end>"
-EN: "<if><value:$29><equal>%0He told us to come to Terezia's place and protect Yuriash.<end>He told us to come to Terezia's place and protect Yushual.<end>"
-KO: "<if><value:$29><equal>%0테레지아 씨한테 가서, 유리아슈를 지키라고 해.<end>테레지아 씨한테 가서, 유슈알을 지키라고 해.<end>"
+JP: "人間は文明を得ることで賢くなる。<end>"
+EN: "Civilization will make humanity wiser.<end>"
+KO: "인간은 문명을 얻으며 현명해진다.<end>"
 
-## 370140
-source: translations/korean/messages/msgsec037-part99.toml
+## 410098
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "あと、見慣れない娘もいるはずだから<line-break>そいつも助けてやれって。<end>"
-EN: "He said there should be an unfamiliar girl here too, and to help her as well.<end>"
-KO: "그리고 낯선 여자애도 있을 테니 그 애도 구해 주라고 했어.<end>"
+JP: "いずれ、かつての<line-break>清浄の時代のような時が来る。　　<end>"
+EN: "One day, an age like the ancient Age of Purity will return.<end>"
+KO: "언젠가 예전의 청정한 시대 같은 때가 올 것이다.<end>"
 
-## 370141
-source: translations/korean/messages/msgsec037-part99.toml
+## 410099
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "それから、その娘はわけありだから、<line-break>目を離すなって。<end>"
-EN: "And he said the girl is mixed up in something, so don't take your eyes off her.<end>"
-KO: "그리고 그 아이는 사정이 있으니 눈을 떼지 말라고 했어.<end>"
+JP: "フッ、愚かな…。　　　　　　　　　<end>"
+EN: "Hmph. What folly…<end>"
+KO: "훗, 어리석군….<end>"
 
-## 370143
-source: translations/korean/messages/msgsec037-part99.toml
+## 410100
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "広場で兵士と<line-break>俺ら町のもんが向き合ってます。<line-break>乱闘寸前でさぁ！<end>"
-EN: "The soldiers and townsfolk are facing off in the square. They're about to start brawling!<end>"
-KO: "광장에서 병사들과 우리 마을 사람들이 맞서고 있어요. 난투 직전이에요!<end>"
+JP: "では、どうあっても<line-break>研究をやめていただけないのですね。<end>"
+EN: "Then nothing will persuade you to abandon your research.<end>"
+KO: "그럼 어떻게 해도 연구를 그만둘 생각은 없으신 거군요.<end>"
 
-## 370144
-source: translations/korean/messages/msgsec037-part99.toml
+## 410101
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "竜の座の奴らには<line-break>普段から頭にきてますからねぇ。<line-break>殺気立ってますぜ！<end>"
-EN: "People have been fed up with the Dragon's Seat for ages. They're out for blood!<end>"
-KO: "용의 자리 녀석들은 평소부터 마음에 안 들었거든요. 살기가 넘칩니다!<end>"
+JP: "や、やめるわけには…いかない。<end>"
+EN: "I-I can't abandon it…<end>"
+KO: "그, 그만둘 수는… 없어.<end>"
 
-## 370145
-source: translations/korean/messages/msgsec037-part99.toml
+## 410102
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ダメ！　　　　　　　　　　　<line-break>　<line-break>エルズの人たちは、<line-break>エア様の恐ろしさを知らない。<line-break>刃向かっちゃダメ！<end>"
-EN: "No! The people of Elz don't know how terrifying Lady Er is. They mustn't defy her!<end>"
-KO: "안 돼! 엘즈 사람들은 에아 님이 얼마나 무서운지 몰라. 맞서면 안 돼!<end>"
+JP: "残念です、エスト・リューガ博士　　　<line-break>　<line-break>　<line-break>まぁ、あのお方は、<line-break>あなたが神器の構造に手を触れた時点で<line-break>生かしておく気はなかったのですが。<end>"
+EN: "A pity, Dr. Est Ryuga. Though, in truth, that person had no intention of letting you live from the moment you touched the Artifact's structure.<end>"
+KO: "유감입니다, 에스트 류가 박사. 뭐, 그분은 당신이 신기의 구조에 손을 댄 시점부터 살려 둘 생각이 없었지만요.<end>"
 
-## 370146
-source: translations/korean/messages/msgsec037-part99.toml
+## 410103
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0ユリアシュ！　　　　　　　　<end>ユシュアル！　　　　　　　　<end>"
-EN: "<if><value:$29><equal>%0Yuriash!<end>Yushual!<end>"
-KO: "<if><value:$29><equal>%0유리아슈!<end>유슈알!<end>"
+JP: "ノエル！　レイヴン！　カフィン！<end>"
+EN: "Noel! Raven! Coffin!<end>"
+KO: "노엘! 레이븐! 카핀!<end>"
 
-## 370147
-source: translations/korean/messages/msgsec037-part99.toml
+## 410104
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0<value:$28>、<line-break>早くユリアシュをとめるんだ！<end><value:$28>！<line-break>早くユシュアルをとめるんだ！<end>"
-EN: "<if><value:$29><equal>%0<value:$28>, hurry and stop Yuriash!<end><value:$28>! Hurry and stop Yushual!<end>"
-KO: "<if><value:$29><equal>%0<value:$28>, 빨리 유리아슈를 막아!<end><value:$28>! 빨리 유슈알을 막아!<end>"
+JP: "どうしたの、ナーシェス？<end>"
+EN: "What is it, Narscess?<end>"
+KO: "왜 그래, 나셰스?<end>"
 
-## 370148
-source: translations/korean/messages/msgsec037-part99.toml
+## 410105
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0愚かなるリア氏族のユリアシュが、<line-break>父マシュラウにならって反逆しおった。<line-break>竜の座の追い求めるくせ者を逃がし、<line-break>竜の座の女官たる<line-break>この私を侮辱したのじゃ！<end>愚かなるリア氏族のユシュアルが、<line-break>父マシュラウにならって反逆しおった。<line-break>竜の座の追い求めるくせ者を逃がし、<line-break>竜の座の女官たるこの私を<line-break>侮辱したのじゃ！<end>"
-EN: "<if><value:$29><equal>%0That fool Yuriash of the Ria Clan has rebelled, following the example of Yuriash's father, Mashrau. The intruder pursued by the Dragon's Seat was allowed to escape, and I, a lady-in-waiting of the Dragon's Seat, was insulted!<end>That fool Yushual of the Ria Clan has rebelled, following the example of Yushual's father, Mashrau. The intruder pursued by the Dragon's Seat was allowed to escape, and I, a lady-in-waiting of the Dragon's Seat, was insulted!<end>"
-KO: "<if><value:$29><equal>%0어리석은 리아 씨족의 유리아슈가 아버지 마슈라우를 따라 반역했느니라. 용의 좌가 쫓던 수상한 자를 놓아주고, 용의 좌의 여관인 이 몸을 모욕했도다!<end>어리석은 리아 씨족의 유슈알이 아버지 마슈라우를 따라 반역했느니라. 용의 좌가 쫓던 수상한 자를 놓아주고, 용의 좌의 여관인 이 몸을 모욕했도다!<end>"
+JP: "あの邪悪な魔道士は闇の神器を使って<line-break>この世界を滅ぼそうとしている。<line-break>　<line-break>彼を倒すのだ！<end>"
+EN: "That wicked sorcerer means to destroy this world with a Dark Artifact. Strike him down!<end>"
+KO: "그 사악한 마도사는 어둠의 신기로 이 세계를 멸망시키려 한다. 그를 쓰러뜨려라!<end>"
 
-## 370149
-source: translations/korean/messages/msgsec037-part99.toml
+## 410106
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0おのれら、エルズの町民めが、<line-break>ユリアシュをかくまっているのは　　　<line-break>わかっておる。<line-break>ユリアシュを差し出せ！<line-break>エア様は天地千年を見通すお方。<line-break>隠すとためにならんぞ。<end>おのれら、エルズの町民めが、<line-break>ユシュアルをかくまっているのは　　　<line-break>わかっておる。<line-break>ユシュアルを差し出せ！<line-break>エア様は天地千年を見通すお方。<line-break>隠すとためにならんぞ。<end>"
-EN: "<if><value:$29><equal>%0You wretched townspeople of Elz! I know you are sheltering Yuriash. Hand Yuriash over! Lady Er can see a thousand years across heaven and earth. Hiding a fugitive will only bring trouble upon you.<end>You wretched townspeople of Elz! I know you are sheltering Yushual. Hand Yushual over! Lady Er can see a thousand years across heaven and earth. Hiding a fugitive will only bring trouble upon you.<end>"
-KO: "<if><value:$29><equal>%0이놈들, 엘즈 주민들아. 유리아슈를 숨기고 있다는 건 알고 있다. 유리아슈를 내놓아라! 에아 님은 천년의 앞날까지 내다보시는 분이다. 숨겨 봐야 좋을 것 없다.<end>이놈들, 엘즈 주민들아. 유슈알을 숨기고 있다는 건 알고 있다. 유슈알을 내놓아라! 에아 님은 천년의 앞날까지 내다보시는 분이다. 숨겨 봐야 좋을 것 없다.<end>"
+JP: "ま、待って！<line-break>そんなのウソだ！<end>"
+EN: "W-wait! That's a lie!<end>"
+KO: "자, 잠깐! 그런 건 거짓말이야!<end>"
 
-## 370150
-source: translations/korean/messages/msgsec037-part99.toml
+## 410107
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "エルズの民は自由の民だ。<line-break>脅しなんかに屈しねぇぞ！<end>"
-EN: "The people of Elz are free! We won't bow to threats!<end>"
-KO: "엘즈 사람들은 자유로운 사람들이야. 협박 따위에 굴복하지 않아!<end>"
+JP: "では、お前が持ってたこれはなんだ？<line-break>闇の神器、焦燥の耳飾りではないのか？<end>"
+EN: "Then what is this you were carrying? Is it not the Earring of Impatience, a Dark Artifact?<end>"
+KO: "그럼 네가 갖고 있던 이건 뭐지? 어둠의 신기, 초조의 귀걸이가 아닌가?<end>"
 
-## 370151
-source: translations/korean/messages/msgsec037-part99.toml
+## 410108
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "エア様は本当に恐ろしい。<line-break>ここで逆らえば<line-break>エルズ全体が恐ろしい目に遭う。<end>"
-EN: "Lady Er truly is terrifying. If we defy her here, all of Elz will suffer.<end>"
-KO: "에아 님은 정말 무서워. 여기서 거스르면엘즈 전체가 끔찍한 일을 당하게 돼.<end>"
+JP: "本当にあのハーフエルフが言ってた<line-break>神器があったのね…。<end>"
+EN: "So the Artifact that the Half-Elf mentioned really does exist…<end>"
+KO: "정말 그 하프엘프가 말한 신기가 있었군….<end>"
 
-## 370152
-source: translations/korean/messages/msgsec037-part99.toml
+## 410109
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "逆らわない方が身のためだ。<line-break>ひとつ、ここは、事を穏便に収めよう。<end>"
-EN: "For our own sake, we shouldn't resist. Let's settle this peacefully.<end>"
-KO: "거스르지 않는 게 신상에 좋다. 여기선 일을 조용히 끝내자.<end>"
+JP: "<value:$28>、<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>そこの魔道士は闇の神器を使って<line-break>世界を滅ぼそうとしていたのだ。<line-break>倒したまえ！<end>"
+EN: "<value:$28>, that sorcerer was trying to destroy the world with a Dark Artifact. Strike him down!<end>"
+KO: "<value:$28>, 저 마도사는 어둠의 신기를 써서 세계를 멸망시키려 했다. 쓰러뜨려라!<end>"
 
-## 370153
-source: translations/korean/messages/msgsec037-part99.toml
+## 410110
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "おらおら、どけどけぇ！！<line-break>ドンパドン様のお出ましだ。<end>"
-EN: "Out of the way, all of you! The great Donpadon has arrived!<end>"
-KO: "자자, 비켜라!! 돈파돈 님이 나가신다.<end>"
+JP: "<value:$28>！<line-break>そんなのウソだよ！<line-break>僕を信じて！<end>"
+EN: "<value:$28>! That's a lie! Believe me!<end>"
+KO: "<value:$28>! 그런 건 거짓말이야! 날 믿어!<end>"
 
-## 370154
-source: translations/korean/messages/msgsec037-part99.toml
+## 410111
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "まずいときにバカな奴が…。<line-break>丸く収まりかけていたのに…。<end>"
-EN: "That fool has the worst timing... We almost had this settled peacefully.<end>"
-KO: "하필 이럴 때 바보 같은 녀석이…. 잘 풀릴 뻔했는데….<end>"
+JP: "エストを倒す<end>"
+EN: "Defeat Est<end>"
+KO: "에스트를 쓰러뜨린다<end>"
 
-## 370155
-source: translations/korean/messages/msgsec037-part99.toml
+## 410112
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんだ！　お前ら！　　　　<end>"
-EN: "What's wrong with all of you?!<end>"
-KO: "뭐야! 너희들!<end>"
+JP: "エストを守る<end>"
+EN: "Protect Est<end>"
+KO: "에스트를 지킨다<end>"
 
-## 370156
-source: translations/korean/messages/msgsec037-part99.toml
+## 410113
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "何かと言えばエア様エア様、<line-break>とにかく穏便に穏便にって…<end>"
-EN: "All I hear is “Lady Er, Lady Er,” and “keep the peace, keep the peace”...<end>"
-KO: "무슨 일만 있으면 에아 님, 에아 님. 무조건 온건하게, 온건하게라니….<end>"
+JP: "<value:$28>…？<line-break>そんな…。<end>"
+EN: "<value:$28>…? No…<end>"
+KO: "<value:$28>…? 그럴 수가….<end>"
 
-## 370157
-source: translations/korean/messages/msgsec037-part99.toml
+## 410114
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "こんな奴らの言うことを　　<line-break>聞いてどうするんだ！<end>"
-EN: "Why should we listen to people like this?!<end>"
-KO: "이런 녀석들 말을 들어서 어쩌자는 거야!<end>"
+JP: "協力、感謝する。<line-break>これで世界の均衡は守られた。<end>"
+EN: "You have my thanks. The Balance of the World is preserved.<end>"
+KO: "협력에 감사한다. 이걸로 세계의 균형은 지켜졌다.<end>"
 
-## 370158
-source: translations/korean/messages/msgsec037-part99.toml
+## 410115
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんじゃ？<line-break>この存在自体が無礼な下郎は！<end>"
-EN: "What? Who is this lowborn cur whose very existence is an affront?<end>"
-KO: "뭐냐? 존재 자체가 무례한 하인이로군!<end>"
+JP: "ネメアだ！　　　　　　<end>"
+EN: "It's Nemea!<end>"
+KO: "네메아다!<end>"
 
-## 370159
-source: translations/korean/messages/msgsec037-part99.toml
+## 410116
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "自由を愛するドンパドン船長様だ！　　<line-break>　<line-break>俺はお前ら神様かぶれの無理難題を<line-break>素直に聞けるほどバカじゃねぇんだよ、<line-break>ババァ！<end>"
-EN: "Captain Donpadon, lover of freedom! And I'm not stupid enough to meekly obey the impossible demands of you god-addled fools, you old hag!<end>"
-KO: "자유를 사랑하는 돈파돈 선장님이다! 난 너희 신 흉내나 내는 놈들의 억지를 순순히 들을 만큼 바보가 아니야, 할망구!<end>"
+JP: "<value:$28>、<line-break>神器を…、守ってくれ！<end>"
+EN: "<value:$28>, protect the Artifact… please!<end>"
+KO: "<value:$28>, 신기를… 지켜 줘!<end>"
 
-## 370160
-source: translations/korean/messages/msgsec037-part99.toml
+## 410117
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "バ・バ・ァ！？<line-break>下郎！　ババァともうしたのかッ！！<end>"
-EN: "O-old hag?! Cur! Did you call me an old hag?!<end>"
-KO: "바, 바, 할멈!? 이 천한 놈! 감히 할멈이라고 했느냐!!<end>"
+JP: "フッ、愚かな…。　　　　　　　　　　<end>"
+EN: "Hmph. What folly…<end>"
+KO: "훗, 어리석군….<end>"
 
-## 370161
-source: translations/korean/messages/msgsec037-part99.toml
+## 410118
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "あぁ。何度でも言ってやる。<line-break>ババァババァババァババァ…。<end>"
-EN: "Yeah. I'll say it as many times as you like. Old hag, old hag, old hag, old hag...<end>"
-KO: "그래. 몇 번이고 말해 주지. 할망구 할망구 할망구 할망구….<end>"
+JP: "ノエル、私とレイヴンは<line-break>神器を安全なところまで持って行く。　<end>"
+EN: "Noel, Raven and I will take the Artifact somewhere safe.<end>"
+KO: "노엘, 나와 레이븐은 신기를 안전한 곳까지 가져가겠다.<end>"
 
-## 370162
-source: translations/korean/messages/msgsec037-part99.toml
+## 410119
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "下郎がァ！！　兵ども！！<end>"
-EN: "You cur! Soldiers!<end>"
-KO: "천한 놈이!! 병사들!!<end>"
+JP: "<value:$28>をカフィンと排除し、<line-break>エストという魔道士を退治したまえ！　<end>"
+EN: "You and Coffin will remove <value:$28> and dispose of the sorcerer called Est!<end>"
+KO: "<value:$28>를 카핀과 함께 제거하고, 에스트라는 마도사를 쓰러뜨리게!<end>"
 
-## 370163
-source: translations/korean/messages/msgsec037-part99.toml
+## 410120
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "竜の座にたてつく不届き者を叩き伏せよ！！<line-break>思い知らせてやるのじゃ！！<end>"
-EN: "Strike down these insolent wretches who defy the Dragon's Seat! Teach them their place!<end>"
-KO: "용의 자리에 맞서는 무례한 자를 때려눕혀라!! 똑똑히 깨닫게 해 주마!!<end>"
+JP: "で、でも…。<end>"
+EN: "B-but…<end>"
+KO: "하, 하지만….<end>"
 
-## 370164
-source: translations/korean/messages/msgsec037-part99.toml
+## 410121
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "はーん、おもしれぇ！　　　<end>"
-EN: "Oh, now this is interesting!<end>"
-KO: "하, 재밌는데!<end>"
+JP: "<value:$28>を殺せとは言わん。<line-break>世界全体の人の命がかかっているのだ！<end>"
+EN: "I am not ordering you to kill <value:$28>. The lives of everyone in the world are at stake!<end>"
+KO: "<value:$28>을 죽이라는 말은 하지 않겠다. 세계 전체 사람들의 목숨이 걸려 있다!<end>"
 
-## 370165
-source: translations/korean/messages/msgsec037-part99.toml
+## 410122
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "自由な海の男の気概って奴を<line-break>見せてやろうぜ！　みんな！<end>"
-EN: "Let's show them what free men of the sea are made of, lads!<end>"
-KO: "자유로운 바다 사나이의 기개라는 걸 보여 주자고! 모두!<end>"
+JP: "…ごめんなさい！<line-break><value:$28>さん！<end>"
+EN: "…I'm sorry, <value:$28>!<end>"
+KO: "…미안해요! <value:$28> 씨!<end>"
 
-## 370166
-source: translations/korean/messages/msgsec037-part99.toml
+## 410123
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "くっ、何をやっておる。<line-break>どけ。私が入る！<end>"
-EN: "Tch, what are you doing? Move aside. I shall enter the fray myself!<end>"
-KO: "큭, 뭘 하고 있는 거냐. 비켜. 내가 들어간다!<end>"
+JP: "待って！<value:$28>。<line-break>この人たちを殺さないよね？　ね？<end>"
+EN: "Wait, <value:$28>! You won't kill these people, will you? You won't, right?<end>"
+KO: "잠깐! <value:$28>. 이 사람들 죽이지 않을 거지? 그렇지?<end>"
 
-## 370167
-source: translations/korean/messages/msgsec037-part99.toml
+## 410124
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんだ！　意気地のねぇ！<line-break>超重量級１人入ったぐらいで…。<end>"
-EN: "What's wrong with you cowards? One super-heavyweight joins in and suddenly...<end>"
-KO: "뭐야! 배짱도 없군! 초중량급 하나 들어왔다고….<end>"
+JP: "…やっぱり、<value:$28>さんは<line-break>間違ってなかった…。<end>"
+EN: "…<value:$28> wasn't wrong after all…<end>"
+KO: "…역시 <value:$28>님은 틀리지 않았어….<end>"
 
-## 370168
-source: translations/korean/messages/msgsec037-part99.toml
+## 410125
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "んなこと言ったって、船長ぅ～！<end>"
-EN: "Easy for you to say, Captain!<end>"
-KO: "그런 말 해도, 선장~!<end>"
+JP: "待って！<line-break><value:$28>さん！<end>"
+EN: "Wait, <value:$28>!<end>"
+KO: "기다려! <value:$28> 씨!<end>"
 
-## 370169
-source: translations/korean/messages/msgsec037-part99.toml
+## 410126
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "バカやろ。　　　　　　　　　　<end>"
-EN: "Idiot.<end>"
-KO: "바보 자식.<end>"
+JP: "…ありがとう、<value:$28>。<end>"
+EN: "…Thank you, <value:$28>.<end>"
+KO: "…고마워, <value:$28>.<end>"
 
-## 370170
-source: translations/korean/messages/msgsec037-part99.toml
+## 410127
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0<value:$28>、ユリアシュ、<line-break>早く逃げるんだ。　　　　　　　<end><value:$28>、ユシュアル、<line-break>早く逃げるんだ。　　　　　　　<end>"
-EN: "<if><value:$29><equal>%0<value:$28>, Yuriash, get out of here! Hurry!<end><value:$28>, Yushual, get out of here! Hurry!<end>"
-KO: "<if><value:$29><equal>%0<value:$28>, 유리아슈, 빨리 도망쳐.<end><value:$28>, 유슈알, 빨리 도망쳐.<end>"
+JP: "ううん。あのエルフ以外は<line-break>わかってくれたみたいだし。<line-break>　<line-break>僕はもう大丈夫だよ。<line-break>ここの調査も終わったし、<line-break>もう行くよ。…じゃね。<end>"
+EN: "No, it's all right. Everyone but that Elf seems to understand. I'll be fine now. I've finished investigating this place too, so I'll be going. See you.<end>"
+KO: "아니. 그 엘프 말고는 알아준 것 같고. 난 이제 괜찮아. 이곳 조사도 끝났으니 갈게. …그럼.<end>"
 
-## 370171
-source: translations/korean/messages/msgsec037-part99.toml
+## 410128
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0ユリアシュよ、名乗り出よ！<line-break>さもないと、エルズがどうなるか！　<line-break>たわけた親が、エア様の怒りを買い、<line-break>一族皆殺しにされたそなたなら<line-break>身をもって知っておるはずじゃ。<end>ユシュアルよ、名乗り出よ！<line-break>さもないと、エルズがどうなるか！　<line-break>たわけた親が、エア様の怒りを買い、<line-break>一族皆殺しにされたそなたなら<line-break>身をもって知っておるはずじゃ。<end>"
-EN: "<if><value:$29><equal>%0Yuriash, show yourself! Otherwise, think what will happen to Elz! Your foolish parent incurred Lady Er's wrath, and your entire clan was slaughtered. You, of all people, should know what she is capable of.<end>Yushual, show yourself! Otherwise, think what will happen to Elz! Your foolish parent incurred Lady Er's wrath, and your entire clan was slaughtered. You, of all people, should know what she is capable of.<end>"
-KO: "<if><value:$29><equal>%0유리아슈여, 모습을 드러내라! 그러지 않으면 엘즈가 어떻게 될지 알겠지! 어리석은 부모가 에아 님의 노여움을 사 일족이 몰살당한 너라면 몸소 알고 있을 터다.<end>유슈알이여, 모습을 드러내라! 그러지 않으면 엘즈가 어떻게 될지 알겠지! 어리석은 부모가 에아 님의 노여움을 사 일족이 몰살당한 너라면 몸소 알고 있을 터다.<end>"
+JP: "あのエルフ、たぶん竜王の使者だよ。<line-break>彼は竜王の命で僕を処理しに来たんだ。<line-break>　<line-break>君も気をつけて。<line-break>竜王は自分の箱庭の均衡を崩す者を<line-break>許さないから…。<end>"
+EN: "That Elf is probably an envoy of the Dragon King. He came to dispose of me on the Dragon King's orders. You should be careful too. The Dragon King won't forgive anyone who upsets the balance of his little garden…<end>"
+KO: "그 엘프, 아마 용왕의 사자일 거야. 그는 용왕의 명으로 나를 처리하러 온 거지. 너도 조심해. 용왕은 자기 정원의 균형을 깨는 자를용서하지 않으니까….<end>"
 
-## 370172
-source: translations/korean/messages/msgsec037-part99.toml
+## 410129
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "バカやろ、逃げるんだ。逃げろ。おい！<line-break><value:$28>！！<end>"
-EN: "You idiot, run! Run! Hey! <value:$28>!<end>"
-KO: "바보야, 도망쳐! 도망가! 야! <value:$28>!!<end>"
+JP: "やっぱり待って！　カフィン！<end>"
+EN: "No, wait! Coffin!<end>"
+KO: "역시 기다려! 카핀!<end>"
 
-## 370173
-source: translations/korean/messages/msgsec037-part99.toml
+## 410130
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんじゃ。すべてはそちが元凶か。<end>"
-EN: "What is this? So you are the cause of it all.<end>"
-KO: "뭐냐. 모든 원인은 네놈이었나.<end>"
+JP: "え？<end>"
+EN: "What?<end>"
+KO: "어?<end>"
 
-## 370174
-source: translations/korean/messages/msgsec037-part99.toml
+## 410131
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "そちがあのくせ者の小娘を<line-break>助けようと申したというのじゃな？<end>"
-EN: "I am told it was you who proposed helping that little intruder. Is that so?<end>"
-KO: "그대가 그 수상한 계집아이를 도우려 했다는 것이냐?<end>"
+JP: "やっぱり変。　　　　　　　<end>"
+EN: "Something still isn't right.<end>"
+KO: "역시 이상해.<end>"
 
-## 370175
-source: translations/korean/messages/msgsec037-part99.toml
+## 410132
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ウソよ！　あたしよ！　　　　　　<end>"
-EN: "That's a lie! It was me!<end>"
-KO: "거짓말이야! 나야!<end>"
+JP: "<value:$28>さんが<line-break>悪い人を助けるわけ、ない。<end>"
+EN: "<value:$28> would never help someone evil.<end>"
+KO: "<value:$28>님이 나쁜 사람을 도울 리 없어.<end>"
 
-## 370176
-source: translations/korean/messages/msgsec037-part99.toml
+## 410133
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "あたしが<line-break>メイアを助けようって言ったのよ！<end>"
-EN: "I'm the one who said we should help Meia!<end>"
-KO: "내가 메이아를 도우러 가자고 했어!<end>"
+JP: "もう遅いわ…。　　　　　　　　　　<end>"
+EN: "It's too late now…<end>"
+KO: "이미 늦었어….<end>"
 
-## 370177
-source: translations/korean/messages/msgsec037-part99.toml
+## 410134
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0このガキの仕業かどうかは<line-break>エア様にはすぐわかる。捕らえよ。<end>この小娘の仕業かどうかは<line-break>エア様にはすぐわかる。捕らえよ。<end>"
-EN: "<if><value:$29><equal>%0Lady Er will soon know whether this brat was responsible. Seize this one.<end>Lady Er will soon know whether this girl was responsible. Seize her.<end>"
-KO: "<if><value:$29><equal>%0이 꼬마 짓인지 아닌지는에아 님께서 곧 아실 거다. 잡아라.<end>이 계집애 짓인지 아닌지는에아 님께서 곧 아실 거다. 잡아라.<end>"
+JP: "それにあのハーフエルフが言うように<line-break>本当に神器を持ってたのよ？<end>"
+EN: "Besides, he really did have the Artifact the Half-Elf mentioned.<end>"
+KO: "게다가 그 하프엘프가 말한 대로 정말 신기를 가지고 있었어?<end>"
 
-## 370178
-source: translations/korean/messages/msgsec037-part99.toml
+## 410135
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "風の氏族をたぶらかして、<line-break>竜の座の宝を手に入れようとしたのか。<line-break>金のためならなんでもやる<line-break>自由の民どもの考えそうなことじゃ。<line-break>ヌォッホホホ…。<end>"
-EN: "So you beguiled the Wind Clan to get your hands on the treasure of the Dragon's Seat? Just the sort of scheme the Free People would devise. They will do anything for money. Nwohohoho...<end>"
-KO: "바람의 씨족을 꾀어 용의 자리의 보물을 손에 넣으려 했나. 돈을 위해서라면 뭐든 하는 자유의 민족들이 생각할 법한 일이군. 누옷호호호…<end>"
+JP: "でも…、あ、<value:$28>、<line-break>気がついたのね！<end>"
+EN: "But… Oh, <value:$28>, you're awake!<end>"
+KO: "하지만… 아, <value:$28>, 정신이 들었구나!<end>"
 
-## 370180
-source: translations/korean/messages/msgsec037-part99.toml
+## 410136
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0バカやろ、逃げるんだ。<line-break>逃げろ。おい！　ユリアシュ！！<end>バカやろ、逃げるんだ。<line-break>逃げろ。おい！　ユシュアル！！<end>"
-EN: "<if><value:$29><equal>%0You idiot, run! Run! Hey! Yuriash!<end>You idiot, run! Run! Hey! Yushual!<end>"
-KO: "<if><value:$29><equal>%0바보야, 도망쳐. 도망가. 야! 유리아슈!!<end>바보야, 도망쳐. 도망가. 야! 유슈알!!<end>"
+JP: "待って！<line-break><value:$28>さん！<end>"
+EN: "Wait, <value:$28>!<end>"
+KO: "기다려! <value:$28> 씨!<end>"
 
-## 370181
-source: translations/korean/messages/msgsec037-part99.toml
+## 410138
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ごめんね、船長、<line-break>顔、つぶしちゃって。　　　　　　<line-break>エア様は本当に恐ろしい方なの…。<line-break>みんなに迷惑、<line-break>かけられないから…。<end>"
-EN: "Sorry, Captain. I made you lose face. Lady Er truly is terrifying... I can't bring trouble down on everyone...<end>"
-KO: "미안해요, 선장님. 체면을 구겨 버려서. 에아 님은 정말 무서운 분이에요…. 모두에게 폐를 끼칠 수는 없어서….<end>"
+JP: "<value:$28>、<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>そこの魔道士は闇の神器を使って<line-break>世界を滅ぼそうとしていたのだ。<line-break>倒したまえ！<end>"
+EN: "<value:$28>, that sorcerer was trying to destroy the world with a Dark Artifact. Strike him down!<end>"
+KO: "<value:$28>, 저 마도사는 어둠의 신기를 써서 세계를 멸망시키려 했다. 쓰러뜨려라!<end>"
 
-## 370182
-source: translations/korean/messages/msgsec037-part99.toml
+## 410139
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0俺の顔なんざどうでもいい！<line-break>待て！　ユリアシュ！！<end>俺の顔なんてどうでもいい！<line-break>待て！　ユシュアル！！<end>"
-EN: "<if><value:$29><equal>%0Who cares if I lose face? Wait, Yuriash!<end>Who cares if I lose face? Wait, Yushual!<end>"
-KO: "<if><value:$29><equal>%0내 얼굴 따윈 아무래도 좋아! 기다려! 유리아슈!!<end>내 얼굴 따윈 아무래도 좋아! 기다려! 유슈알!!<end>"
+JP: "そんなのウソだよ！　　　　　　<line-break>僕はエスト・リューガ。<line-break>ただの考古学者。僕を信じて！<end>"
+EN: "That's a lie! I'm Est Ryuga, nothing more than an archaeologist. Believe me!<end>"
+KO: "그건 거짓말이야! 난 에스트 류가. 그냥 고고학자야. 날 믿어 줘!<end>"
 
-## 370183
-source: translations/korean/messages/msgsec037-part99.toml
+## 410140
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "捕らえよ。<end>"
-EN: "Seize this one.<end>"
-KO: "잡아라.<end>"
+JP: "に、兄さん…。<end>"
+EN: "B-brother…<end>"
+KO: "혀, 형….<end>"
 
-## 370184
-source: translations/korean/messages/msgsec037-part99.toml
+## 410141
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "そなた、あそこの無礼者よりは<line-break>賢かったようじゃの。<line-break>その分別がはじめから働けば、<line-break>このようなことにならずに<line-break>すんだものを…。<end>"
-EN: "You seem wiser than that insolent wretch over there. Had you shown such good sense from the beginning, none of this need have happened...<end>"
-KO: "그대는 저 무례한 자보다는 현명했던 모양이군. 그 분별력이 처음부터 있었더라면 이런 일은 없었을 텐데….<end>"
+JP: "協力、感謝する。<line-break>これで世界の均衡は守られた。<end>"
+EN: "You have my thanks. The Balance of the World is preserved.<end>"
+KO: "협력에 감사한다. 이걸로 세계의 균형은 지켜졌다.<end>"
 
-## 370185
-source: translations/korean/messages/msgsec037-part99.toml
+## 410142
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ま、あの親にしてこの子あり　<line-break>というところか。<line-break>ヌォッホホホ…。<end>"
-EN: "Like parent, like child, it seems. Nwohohoho...<end>"
-KO: "뭐, 그 부모에 그 자식이라는 건가. 누오호호호….<end>"
+JP: "ネメアだ！　　　　　　<end>"
+EN: "It's Nemea!<end>"
+KO: "네메아다!<end>"
 
-## 370186
-source: translations/korean/messages/msgsec037-part99.toml
+## 410143
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "…元気で、ね。<end>"
-EN: "...Take care.<end>"
-KO: "…잘 지내.<end>"
+JP: "<value:$28>、<line-break>神器を…、守ってくれ！<end>"
+EN: "<value:$28>, protect the Artifact… please!<end>"
+KO: "<value:$28>, 신기를… 지켜 줘!<end>"
 
-## 370187
-source: translations/korean/messages/msgsec037-part99.toml
+## 410144
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>、<line-break>来ちゃダメ！<end>"
-EN: "Don't come, <value:$28>!<end>"
-KO: "<value:$28>, 오면 안 돼!<end>"
+JP: "ありがとう。<line-break>僕はエスト・リューガ。<line-break>考古学者だよ。君は？<end>"
+EN: "Thank you. I'm Est Ryuga, an archaeologist. And you are?<end>"
+KO: "고마워. 나는 에스트 류가. 고고학자야. 너는?<end>"
 
-## 370188
-source: translations/korean/messages/msgsec037-part99.toml
+## 410145
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0んんー？　そういえば、<line-break>そちもユリアシュと一緒におったの。<line-break>ひっ捕らえよ！<line-break>こやつも共犯、同罪じゃ！<end>んんー？　そういえば、<line-break>そちもユシュアルと一緒におったの。<line-break>ひっ捕らえよ！<line-break>こやつも共犯、同罪じゃ！<end>"
-EN: "<if><value:$29><equal>%0Hmm? Come to think of it, you were with Yuriash as well. Seize this one! An accomplice, and equally guilty!<end>Hmm? Come to think of it, you were with Yushual as well. Seize this one! An accomplice, and equally guilty!<end>"
-KO: "<if><value:$29><equal>%0으음? 그러고 보니 그대도 유리아슈와 함께 있었지. 붙잡아라! 이 녀석도 공범, 같은 죄다!<end>으음? 그러고 보니 그대도 유슈알과 함께 있었지. 붙잡아라! 이 녀석도 공범, 같은 죄다!<end>"
+JP: "そうか！　ふふふふっ。　　　　　　　<line-break>君があの<value:$28>なんだ。<line-break>　<line-break>兄さんからの手紙で聞いてるよ。<line-break>エリエナイ公レムオン・リューガは<line-break>僕の兄さんなんだ。そうか…。君が…。<end>"
+EN: "Oh! Heh heh heh. So you're that <value:$28>. My brother told me about you in a letter. Duke Lemghon Ryuga of Elienai is my brother. So… you're the one…<end>"
+KO: "그렇구나! 후후후. 네가 그 <value:$28>구나. 형님 편지에서 들었어. 에리에나이 공 레무온 류가는 내 형이야. 그렇구나…. 네가….<end>"
 
-## 370189
-source: translations/korean/messages/msgsec037-part99.toml
+## 410146
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "ヌォッホホホ…！　行くぞ。<end>"
-EN: "Nwohohoho...! Let us go.<end>"
-KO: "누오호호호…! 간다.<end>"
+JP: "<value:$28>、<line-break>これからも兄さんをよろしくね。<end>"
+EN: "<value:$28>, please keep looking out for my brother.<end>"
+KO: "<value:$28>, 앞으로도 오빠를 잘 부탁해.<end>"
 
-## 370190
-source: translations/korean/messages/msgsec037-part99.toml
+## 410147
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0<value:$28>、<line-break>ユリアシュはどうしたんだい！？<end><value:$28>、<line-break>ユシュアルはどうしたんだい！？<end>"
-EN: "<if><value:$29><equal>%0<value:$28>, what happened to Yuriash?!<end><value:$28>, what happened to Yushual?!<end>"
-KO: "<if><value:$29><equal>%0<value:$28>, 유리아슈는 어떻게 됐어!?<end><value:$28>, 유슈알은 어떻게 됐어!?<end>"
+JP: "<value:$28>っていうんだ…。<line-break>本当に、ありがとうね。<end>"
+EN: "So your name is <value:$28>… Thank you. Truly.<end>"
+KO: "<value:$28>이라고 하는구나…. 정말 고마워.<end>"
 
-## 370192
-source: translations/korean/messages/msgsec037-part99.toml
+## 410148
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "お前はメイアって娘を<line-break>捜しに行かなくちゃならないよ。<end>"
-EN: "You have to go find that girl Meia.<end>"
-KO: "넌 메이아라는 아이를 찾으러 가야 해.<end>"
+JP: "ナーシェス！<end>"
+EN: "Narscess!<end>"
+KO: "나셰스!<end>"
 
-## 370193
-source: translations/korean/messages/msgsec037-part99.toml
+## 410149
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0<value:$28>、支度しろい！<line-break>メイアを追うんだ。　　　　　<line-break>ユリアシュを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end><value:$28>、支度しな！<line-break>メイアを追うんだ。　　　　　<line-break>ユシュアルを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end>"
-EN: "<if><value:$29><equal>%0Get ready, <value:$28>! Go after Meia. The only way to save Yuriash is to recover the treasure of the Dragon's Seat from her.<end>Get ready, <value:$28>! Go after Meia. The only way to save Yushual is to recover the treasure of the Dragon's Seat from her.<end>"
-KO: "<if><value:$29><equal>%0<value:$28>, 준비해! 메이아를 쫓는다. 유리아슈를 구하려면 메이아에게서 용좌의 보물이라는 걸 되찾는 수밖에 없어.<end><value:$28>, 준비해! 메이아를 쫓는다. 유슈알을 구하려면 메이아에게서 용좌의 보물이라는 걸 되찾는 수밖에 없어.<end>"
+JP: "ノエル、カフィン！<line-break>ネメアだ。奴に神器を渡すな！<end>"
+EN: "Noel! Coffin! It's Nemea. Don't let him have the Artifact!<end>"
+KO: "노엘, 카핀! 네메아다. 녀석에게 신기를 넘기지 마!<end>"
 
-## 370194
-source: translations/korean/messages/msgsec037-part99.toml
+## 410150
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "お前がメイアって娘を助けたこと、<line-break>あたしは正しかったと思ってるよ。　　<line-break>だからこそ、最後まで貫き通して、<line-break>最後まで正しかったことを見せとくれ。<line-break>それが、筋ってもんだろ！<end>"
-EN: "I believe you were right to help that girl Meia. So see it through to the end and prove that it was right. That's only proper!<end>"
-KO: "네가 메이아라는 아이를 구한 건 옳았다고 생각해. 그러니 마지막까지 밀고 나가서 끝까지 옳았다는 걸 보여 줘. 그게 도리잖아!<end>"
+JP: "…<value:$28>か。<end>"
+EN: "…<value:$28>, is it?<end>"
+KO: "…<value:$28>인가.<end>"
 
-## 370195
-source: translations/korean/messages/msgsec037-part99.toml
+## 410151
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "メイアは怪物に乗って島を出たってさ。<line-break>港じゃ、えらい騒ぎだったぜ。<line-break>北西に向かったって話だから<line-break>バイアシオン大陸に行ったに違いねえ。<line-break>心配すんな。すぐ追いつくさ。<end>"
-EN: "They say Meia rode some monster off the island. Caused quite a commotion at the harbor. Word is she headed northwest, so she must have gone to the Vyashion Continent. Don't worry. It won't take long to catch up.<end>"
-KO: "메이아는 괴물을 타고 섬을 나갔대. 항구가 난리였지. 북서쪽으로 향했다니 바이아시온 대륙으로 갔을 게 틀림없어. 걱정 마. 금방 따라잡을 거야.<end>"
+JP: "…私のやり方に<line-break>異議があるようだな。<end>"
+EN: "…It seems you object to my methods.<end>"
+KO: "…내 방식에 불만이 있는 모양이군.<end>"
 
-## 370196
-source: translations/korean/messages/msgsec037-part99.toml
+## 410152
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "おっかさんが恋しいかい、坊や。<end>"
-EN: "Missing your ma, lad?<end>"
-KO: "엄마가 그립니, 꼬마야.<end>"
+JP: "…ならば<line-break>私に挑むがよい。　　　<end>"
+EN: "…Then challenge me.<end>"
+KO: "…그렇다면 나에게 도전해라.<end>"
 
-## 370197
-source: translations/korean/messages/msgsec037-part99.toml
+## 410153
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "そんなせつねぇ顔するねい！<line-break>絶対戻ってくるんだ。　　　　　<line-break>そして、戻ってきたら、きっと、<line-break>前と変わらねぇ生活が待ってる。<end>"
-EN: "Don't look so miserable! Make sure you come back. And when you do, the same old life will be waiting for you.<end>"
-KO: "그렇게 애달픈 표정 짓지 마! 반드시 돌아오는 거야. 그리고 돌아오면 분명 예전과 다름없는 생활이 기다리고 있을 거다.<end>"
+JP: "予備メッセージ１<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 1 네메아·볼륨 2용<end>"
 
-## 370198
-source: translations/korean/messages/msgsec037-part99.toml
+## 410154
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "そうだ。<line-break>ただ１つをのぞいて、<line-break>何も変わらねぇ生活が、な。　　<end>"
-EN: "That's right. Nothing will have changed, except for one thing.<end>"
-KO: "그래. 단 하나를 빼고는 아무것도 달라지지 않은 생활이, 말이지.<end>"
+JP: "予備メッセージ２<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 2 네메아·볼륨 2용<end>"
 
-## 370199
-source: translations/korean/messages/msgsec037-part99.toml
+## 410155
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "わかんねぇのか？　　<end>"
-EN: "Don't you get it?<end>"
-KO: "모르겠냐?<end>"
+JP: "予備メッセージ３<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 3 네메아·볼륨 2용<end>"
 
-## 370200
-source: translations/korean/messages/msgsec037-part99.toml
+## 410156
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "お前さんが男になって<line-break>帰ってくるんだよ！<end>"
-EN: "You'll come home a man!<end>"
-KO: "네가 남자가 되어 돌아오는 거야!<end>"
+JP: "予備メッセージ４<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 4 네메아·볼륨 2용<end>"
 
-## 370201
-source: translations/korean/messages/msgsec037-part99.toml
+## 410157
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$29><equal>%0ほう、あのイシュベノブの息子か…。<line-break>ファナティックも悪戯よの…。<line-break>わらわがエアじゃ。<line-break>無限のソウルを持つ者よ。<end>ほう、あのイシュベノブの娘か…。<line-break>ファナティックも悪戯よの…。<line-break>わらわがエアじゃ。<line-break>無限のソウルを持つ者よ。<end>"
-EN: "<if><value:$29><equal>%0Ah, Ishbenob's son... Fanatic is a mischievous one. I am Er. Bearer of the Infinite Soul.<end>Ah, Ishbenob's daughter... Fanatic is a mischievous one. I am Er. Bearer of the Infinite Soul.<end>"
-KO: "<if><value:$29><equal>%0호오, 그 이슈베노브의 아들이로구나…. 파나틱도 장난이 심하군…. 짐이 에아다. 무한의 소울을 지닌 자여.<end>호오, 그 이슈베노브의 딸이로구나…. 파나틱도 장난이 심하군…. 짐이 에아다. 무한의 소울을 지닌 자여.<end>"
+JP: "予備メッセージ５<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 5 네메아 볼륨 2용<end>"
 
-## 370202
-source: translations/korean/messages/msgsec037-part99.toml
+## 410158
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "フフ、危害は加えぬ。　　　　　　　　<end>"
-EN: "Heh. I shall do you no harm.<end>"
-KO: "후후, 해치지는 않겠다.<end>"
+JP: "予備メッセージ６<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 6 네메아 볼륨 2용<end>"
 
-## 370203
-source: translations/korean/messages/msgsec037-part99.toml
+## 410159
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "海王ですらそなたを傷つけることを恐れ<line-break>船を沈めることをとどまったほどじゃ。<end>"
-EN: "Even the Sea King feared to harm you and refrained from sinking the ship.<end>"
-KO: "해왕조차 그대를 해치는 것을 두려워해 배를 가라앉히는 것을 그만둘 정도였다.<end>"
+JP: "予備メッセージ７<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 7 네메아 볼륨 2용<end>"
 
-## 370204
-source: translations/korean/messages/msgsec037-part99.toml
+## 410160
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "破壊神ウルグの円卓騎士メイアが<line-break>その船に乗っておるのを知りながらな。<end>"
-EN: "Even knowing that Meia, Ulugh the God of Destruction's Knight of the Round Table, was aboard.<end>"
-KO: "파괴신 울그의 원탁기사 메이아가 그 배에 타고 있다는 걸 알면서도 말이야.<end>"
+JP: "予備メッセージ８<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 8 네메아 볼륨 2용<end>"
 
-## 370205
-source: translations/korean/messages/msgsec037-part99.toml
+## 410161
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "フフ、わらわは天地千年を見通す。<line-break>知り得ぬことなどない。<end>"
-EN: "Heh. My sight spans a thousand years of heaven and earth. There is nothing beyond my knowing.<end>"
-KO: "후후, 짐은 천지의 천 년을 내다본다. 알지 못하는 일 따윈 없다.<end>"
+JP: "予備メッセージ９<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 9 네메아 볼륨 2용<end>"
 
-## 370206
-source: translations/korean/messages/msgsec037-part99.toml
+## 410162
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "あわてるな、殺しはせぬ。<end>"
-EN: "Do not be alarmed. I shall not kill you.<end>"
-KO: "당황하지 마라, 죽이진 않는다.<end>"
+JP: "予備メッセージ１０<line-break>ネメア・ボリューム２用<end>"
+EN: ""
+KO: "예비 메시지 10 네메아 볼륨 2용<end>"
 
-## 370207
-source: translations/korean/messages/msgsec037-part99.toml
+## 410163
+source: translations/korean/messages/msgsec041-part99.toml
 jp_matches_pinned_english: yes
-JP: "今は、な。<end>"
-EN: "Not yet.<end>"
-KO: "지금은 말이지.<end>"
+JP: "ネメア・ボリューム２終端<end>"
+EN: ""
+KO: "네메아 볼륨 2 끝<end>"
 
-## 370208
-source: translations/korean/messages/msgsec037-part99.toml
+## 420000
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "ウルグの騎士メイアが盗み出した宝物、<line-break>巫女の証を取り戻すのじゃ。<end>"
-EN: "Recover the treasure stolen by Meia, Ulugh's knight: the Proof of the Priestess.<end>"
-KO: "울그의 기사 메이아가 훔쳐 간 보물, 무녀의 증표를 되찾아라.<end>"
+JP: "リューガ・ボリューム１その１開始<end>"
+EN: ""
+KO: "류가 볼륨1 그 1 시작<end>"
 
-## 370209
-source: translations/korean/messages/msgsec037-part99.toml
+## 420001
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "無論、わらわの命令を<line-break>そなたは拒絶することもできる。<line-break>ただ、わらわは<line-break>そなたが巫女の証を<line-break>持って戻るまでの間…<end>"
-EN: "You may, of course, refuse my command. But until you return bearing the Proof of the Priestess...<end>"
-KO: "물론 나의 명령을 그대가 거절할 수도 있다. 다만 나는 그대가 무녀의 증표를 가지고 돌아올 때까지….<end>"
+JP: "今からロストール王妃エリスと会う。<line-break>奴はファーロスの雌狐の異名をとる<line-break>謀略家だ。とにかく、気をつけろ。<end>"
+EN: "The next meeting is with Queen Eris of Rostorl. She's a master of intrigue, known as the Vixen of Pharos. Whatever you do, keep your guard up.<end>"
+KO: "지금부터 로스톨 왕비 에리스를 만난다. 그 여자는 파로스의 암여우라 불리는 모략가다. 아무튼 조심해.<end>"
 
-## 370210
-source: translations/korean/messages/msgsec037-part99.toml
+## 420002
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "エルズの民を人質とし、<line-break>１人ずつ殺しながら<line-break>そなたの帰りを待つことにする。<end>"
-EN: "I shall hold the people of Elz hostage and kill them one by one while I await your return.<end>"
-KO: "엘즈의 백성을 인질로 삼아 한 명씩 처단하면서 네가 돌아오기를 기다리겠다.<end>"
+JP: "エリスについてもう少し尋ねる<end>"
+EN: "Ask more about Eris<end>"
+KO: "에리스에 대해 조금 더 묻는다<end>"
 
-## 370211
-source: translations/korean/messages/msgsec037-part99.toml
+## 420003
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "フフ、急げよ。<line-break>わらわも無用に殺しとうない。<end>"
-EN: "Heh. Make haste. I have no wish to kill needlessly.<end>"
-KO: "후후, 서둘러라. 나도 쓸데없이 죽이고 싶지는 않다.<end>"
+JP: "うなずく<end>"
+EN: "Nod<end>"
+KO: "고개를 끄덕인다<end>"
 
-## 370212
-source: translations/korean/messages/msgsec037-part99.toml
+## 420004
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "わらわは運命を知ることができる。　<end>"
-EN: "I can see what fate holds.<end>"
-KO: "나는 운명을 알 수 있다.<end>"
+JP: "奴は七竜家の筆頭ファーロス家の出だ。<line-break>ファーロス家は権勢がある家柄でな。<line-break>　<line-break>今の王セルモノーもエリスを妻にして<line-break>ファーロス家の後押しを得、<line-break>王位についたほどだ。<end>"
+EN: "She comes from House Pharos, foremost of the Seven Dragon Houses. House Pharos wields considerable influence. The current king, Selmono, gained the house's backing by marrying Eris, and that support was enough to put him on the throne.<end>"
+KO: "그는 칠룡가의 필두인 파로스 가문 출신이야. 파로스 가문은 권세가 있는 집안이지. 지금의 왕 셀모노도 에리스를 아내로 맞아 파로스 가문의 후원을 얻고 왕위에 올랐을 정도다.<end>"
 
-## 370213
-source: translations/korean/messages/msgsec037-part99.toml
+## 420005
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "すべてが見える。<line-break>すべてが運命と必然の檻の中じゃ。　<end>"
-EN: "I see all. All lies within the cage of fate and necessity.<end>"
-KO: "모든 것이 보인다. 모든 것이 운명과 필연의 우리 안에 있구나.<end>"
+JP: "しかし、実家の力などあの女の謀略に　<line-break>比べれば、大したことはない。<line-break>今の当主ノヴィンは能なしだしな。<line-break>あの女は謀略でふたつの国を滅ぼした。<line-break>おかげで、今や分断の山脈より南は<line-break>すべて、ロストールの勢力下だ。<end>"
+EN: "But her family's power is nothing beside that woman's gift for intrigue. Its current head, Novin, is an incompetent fool. She brought two countries to ruin through her schemes. Now everything south of the Dividing Mountains lies within Rostorl's sphere of influence.<end>"
+KO: "하지만 본가의 힘도 그 여자의 책략에 비하면 대단한 게 아니야. 지금 당주 노빈은 무능하고. 그 여자는 책략으로 두 나라를 멸망시켰지. 덕분에 지금은 분단의 산맥 남쪽 전부가 로스톨 세력권이야.<end>"
 
-## 370214
-source: translations/korean/messages/msgsec037-part99.toml
+## 420006
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "だが、あの者は違う。<line-break>わらわにも、あの者だけは見えぬ。　<end>"
-EN: "But that one is different. That one alone is hidden even from my sight.<end>"
-KO: "하지만 그자는 다르다. 짐에게도 그자만은 보이지 않아.<end>"
+JP: "あの自由都市リベルダムですらも<line-break>有力者であるクロイス家を取り込んで、<line-break>ほぼロストールの勢力下に収めている。<line-break>国内でも、貴族の力をそいで<line-break>王権の強化と中央集権化を進めている。<line-break>これも着実に成果を収めつつある。<end>"
+EN: "Even the Free City Liberdam has been brought almost entirely into Rostorl's sphere of influence by winning over the powerful Krois family. Within Rostorl itself, she is weakening the nobility while strengthening royal authority and centralizing power. Those efforts, too, are steadily bearing fruit.<end>"
+KO: "자유도시 리벨덤조차 유력자인 크로이스 가문을 끌어들여 거의 로스톨 세력권에 넣었다. 국내에서도 귀족의 힘을 약화시키고 왕권 강화와 중앙집권화를 추진 중이지. 그것도 착실히 성과를 내고 있어.<end>"
 
-## 370215
-source: translations/korean/messages/msgsec037-part99.toml
+## 420007
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "あの者こそが運命に支配された世界に<line-break>可能性と希望を与えるのじゃ…。<end>"
-EN: "That one shall bring possibility and hope to a world ruled by fate...<end>"
-KO: "저자가 바로 운명에 지배된 세계에 가능성과 희망을 가져다줄 자다….<end>"
+JP: "そして、奴は娘である王女ティアナを　<line-break>甥であるノヴィンの息子と<line-break>結婚させようとしている。<line-break>つまり、強化された王位を<line-break>ファーロス家に婚姻によって<line-break>継承させようとしているのだ。<end>"
+EN: "And now she intends to marry her daughter, Princess Tiana, to the son of her nephew Novin. In other words, she means to pass the strengthened crown to House Pharos through marriage.<end>"
+KO: "그리고 그는 딸인 티아나 왕녀를 조카 노빈의 아들과 결혼시키려 하고 있다. 즉 강화된 왕위를 혼인을 통해 파로스 가문에 계승시키려는 거다.<end>"
 
-## 370216
-source: translations/korean/messages/msgsec037-part99.toml
+## 420008
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>ー！<end>"
-EN: "<value:$28>!<end>"
-KO: "<value:$28>!<end>"
+JP: "俺はこれに貴族を率いて反対している。<line-break>そのため、エリスとは対立している。<line-break>だから、奴は俺を消そうとやっきだ。<line-break>俺の領地であるノーブルの反乱も<line-break>その一環に過ぎない。これからも、<line-break>どんな罠が控えているかわからん…。<end>"
+EN: "I am leading the nobles in opposition to that plan, which has put me at odds with Eris. That is why she is so determined to dispose of me. The uprising in Noble, my own territory, was merely one part of it. There is no telling what traps may still lie ahead.<end>"
+KO: "나는 귀족들을 이끌고 이에 반대하고 있다. 그 때문에 에리스와 대립 중이지. 그래서 놈은 나를 없애려고 혈안이 되어 있다. 내 영지 노블의 반란도 그 일환일 뿐이야. 앞으로도 어떤 함정이 기다릴지 알 수 없어….<end>"
 
-## 370217
-source: translations/korean/messages/msgsec037-part99.toml
+## 420009
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "ユシュアル、ガキじゃあるまいし、<line-break>チョロチョロ走んじゃねぇ！<end>"
-EN: "Yushual, you're not a little kid! Stop scampering around!<end>"
-KO: "유슈알, 애도 아니면서 이리저리 뛰어다니지 마!<end>"
+JP: "フッ、何も考えずにうなずくか…。<end>"
+EN: "Hmph. So you simply nod without giving it any thought.<end>"
+KO: "훗, 아무 생각 없이 고개를 끄덕이나….<end>"
 
-## 370218
-source: translations/korean/messages/msgsec037-part99.toml
+## 420010
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "わかってるさ。船長。<end>"
-EN: "I know, Captain.<end>"
-KO: "알고 있어, 선장.<end>"
+JP: "まあ、根拠のない頼もしさも　　　<line-break>いいものだ。<end>"
+EN: "Still, there is something reassuring about such utterly baseless confidence.<end>"
+KO: "뭐, 근거 없는 든든함도 나쁘진 않지.<end>"
 
-## 370219
-source: translations/korean/messages/msgsec037-part99.toml
+## 420011
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "道具屋さんが花を入れてくれてるはず。<line-break>行こうぜ、<value:$28>。<end>"
-EN: "The shopkeeper should have the flowers ready. Come on, <value:$28>.<end>"
-KO: "도구점에서 꽃을 넣어 뒀을 거야. 가자, <value:$28>.<end>"
+JP: "お待ちしていた、エリエナイ公。<end>"
+EN: "I have been expecting you, Duke Elienai.<end>"
+KO: "기다리고 있었습니다, 에리에나이 공.<end>"
 
-## 370220
-source: translations/korean/messages/msgsec037-part99.toml
+## 420012
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "あのメイアって娘を港で見かけたって？<line-break>だから、どうしたんだよ。<line-break>気になんなら、話しかけてこいよ。<end>"
-EN: "You saw that girl Meia at the harbor? So what? If you're that curious, go talk to her.<end>"
-KO: "그 메이아라는 아가씨를 항구에서 봤다고? 그래서 어쩌라고. 신경 쓰이면 가서 말 걸어 봐.<end>"
+JP: "そなたの領地で物騒な事件が<line-break>あったと聞くが？<end>"
+EN: "I hear there was a troubling incident in your domain. Is that so?<end>"
+KO: "그대 영지에서 흉흉한 사건이 있었다고 들었는데?<end>"
 
-## 370221
-source: translations/korean/messages/msgsec037-part99.toml
+## 420013
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "ど、どうしたんだよ？　船長。<end>"
-EN: "W-what's wrong, Captain?<end>"
-KO: "왜, 왜 그래? 선장.<end>"
+JP: "さすがにお耳が早い。<line-break>ノーブルの代官ボルボラが死にました。<end>"
+EN: "News travels swiftly to Your Majesty. Bolbora, the governor of Noble, is dead.<end>"
+KO: "역시 소식이 빠르군. 노블의 대관 볼보라가 죽었습니다.<end>"
 
-## 370222
-source: translations/korean/messages/msgsec037-part99.toml
+## 420014
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>が乗ってたら、<line-break>なんで、手を出さないんだよ。<end>"
-EN: "If <value:$28> was aboard, why didn't you attack?<end>"
-KO: "<value:$28>이 타고 있었는데 왜 손을 안 댄 거야.<end>"
+JP: "ほう？<end>"
+EN: "Oh?<end>"
+KO: "호오?<end>"
 
-## 370223
-source: translations/korean/messages/msgsec037-part99.toml
+## 420015
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "大丈夫か？　<value:$28>。<end>"
-EN: "Are you all right, <value:$28>?<end>"
-KO: "괜찮아? <value:$28>.<end>"
+JP: "事故死です。<end>"
+EN: "It was an accident.<end>"
+KO: "사고사입니다.<end>"
 
-## 370224
-source: translations/korean/messages/msgsec037-part99.toml
+## 420016
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "いったいなんなんだ？<line-break>あいつ…。<end>"
-EN: "What in the world was that...?<end>"
-KO: "대체 뭐야? 저 녀석….<end>"
+JP: "フフ、エリエナイ公、<line-break>私は死因までは尋ねてはおらぬが？<end>"
+EN: "Heh. Duke Elienai, I did not ask how he died.<end>"
+KO: "후후, 에리에나이 공. 나는 사인까지 묻지는 않았는데?<end>"
 
-## 370225
-source: translations/korean/messages/msgsec037-part99.toml
+## 420017
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "…あのときは、<line-break>ほんと、立ち直れないと思った。<line-break>今、ここまで立ち直れたのも<line-break>時が流れたってのも<line-break>あるんだろうけど…<end>"
-EN: "Back then, I honestly thought I'd never recover. I suppose time is part of the reason I've come this far, but...<end>"
-KO: "…그때는 정말 다시 일어설 수 없을 줄 알았어. 지금 이렇게까지 회복한 것도 시간이 흘렀기 때문이겠지만….<end>"
+JP: "一応、ご報告申し上げたまで。　　<end>"
+EN: "I merely thought it best to inform you.<end>"
+KO: "일단 보고드렸을 뿐입니다.<end>"
 
-## 370226
-source: translations/korean/messages/msgsec037-part99.toml
+## 420018
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "それよりも何よりも、<line-break><value:$28>が<line-break>そばにいてくれたおかげだよ。　<end>"
-EN: "More than anything, it's because <value:$28> stayed by my side.<end>"
-KO: "무엇보다도 <value:$28>가 곁에 있어 준 덕분이야.<end>"
+JP: "弟エストが処理にあたっています。<line-break>近日中に詳細をご報告できるかと。<end>"
+EN: "My younger brother Est is handling the matter. I expect to have a full report for you shortly.<end>"
+KO: "동생 에스트가 처리하고 있습니다. 조만간 자세한 내용을 보고드릴 수 있을 겁니다.<end>"
 
-## 370227
-source: translations/korean/messages/msgsec037-part99.toml
+## 420019
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "…フフ、去年の俺じゃ　　　　<line-break>言えないセリフだな。<end>"
-EN: "Heh... I could never have said that a year ago.<end>"
-KO: "…후후, 작년의 나라면 못 했을 말이군.<end>"
+JP: "では、それを待とう。　　　　　　　　<line-break>　<line-break>　<line-break>しかし、残念なことよ。<line-break>ボルボラに聞きたいことがあったのだが<line-break>むくろを問いただすわけにもいくまい。<end>"
+EN: "Then I shall wait for it. Still, what a pity. I had questions for Bolbora, but one can hardly interrogate a corpse.<end>"
+KO: "그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만 시체를 붙잡고 캐물을 수도 없으니.<end>"
 
-## 370228
-source: translations/korean/messages/msgsec037-part99.toml
+## 420020
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "父さんと母さんが、<line-break>エア様の怒りにふれて…　　　<end>"
-EN: "My father and mother incurred Lady Er's wrath...<end>"
-KO: "아버지와 어머니가 에아 님의 노여움을 사서….<end>"
+JP: "領主の私に<line-break>答えられることでしたら…。<end>"
+EN: "If they are questions I can answer as his lord...<end>"
+KO: "영주인 제가 답할 수 있는 일이라면….<end>"
 
-## 370229
-source: translations/korean/messages/msgsec037-part99.toml
+## 420021
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "一族ごとみんな滅ぼされて…。<line-break>俺１人だけが生き残って…。<end>"
-EN: "Our entire clan was wiped out. I was the only one left alive...<end>"
-KO: "일족 모두가 몰살당하고…. 나 혼자만 살아남고….<end>"
+JP: "先日、ボルボラが<line-break>これを送りつけてきた。<end>"
+EN: "Bolbora sent me this the other day.<end>"
+KO: "며칠 전 볼보라가 이걸 보내 왔다.<end>"
 
-## 370230
-source: translations/korean/messages/msgsec037-part99.toml
+## 420022
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "…わかってるさ。<end>"
-EN: "...I know.<end>"
-KO: "…알고 있어.<end>"
+JP: "今は亡き、先代のエリエナイ公<line-break>…そなたの父上が女に宛てた書簡だ。<end>"
+EN: "It is a letter addressed to a woman by the late Duke Elienai, your father and predecessor.<end>"
+KO: "지금은 고인이 된 선대 엘리에나이 공… 그대의 아버지가 여자에게 보낸 편지다.<end>"
 
-## 370231
-source: translations/korean/messages/msgsec037-part99.toml
+## 420023
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "女王エア様は天地千年を見通すお方。<line-break>間違いなど…ない…。<line-break>それに、いまさら、<line-break>本当はどうだったのかなんて…、<line-break>もう、いいんだ…。<end>"
-EN: "Queen Er sees a thousand years of heaven and earth. She cannot be... wrong. And at this point, what really happened back then... doesn't matter anymore.<end>"
-KO: "여왕 에아 님은 천년의 세월을 내다보는 분이야. 틀릴 리가… 없어…. 이제 와서 진실이 어땠는지는… 이제 됐어….<end>"
+JP: "女にですと！？<end>"
+EN: "A woman!?<end>"
+KO: "여자한테라고요!?<end>"
 
-## 370232
-source: translations/korean/messages/msgsec037-part99.toml
+## 420024
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "あのとき、<value:$28>も<line-break>大変だったんだよな。　　　　　　<line-break>お父さんの<line-break>…イシュベノブおじさんの船が<line-break>行方不明になって、さ…。<end>"
-EN: "You were going through a lot then too, <value:$28>. Your father's... Uncle Ishbenob's ship had gone missing...<end>"
-KO: "그때 <value:$28>도 힘들었지. 아버지… 이슈베노브 아저씨의 배가 실종돼서 말이야….<end>"
+JP: "こ、これは…なんたること！　　　　　<line-break>貴殿の父上は、妻以外の女性に<line-break>子供を産ませていたようだ。<end>"
+EN: "Th-this is... outrageous! It appears your father sired a child with a woman other than his wife.<end>"
+KO: "이, 이럴 수가…! 그대의 아버지는 아내가 아닌 여자에게 아이를 낳게 한 모양이군.<end>"
 
-## 370233
-source: translations/korean/messages/msgsec037-part99.toml
+## 420025
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "それなのに、ごめんな。<line-break>俺、<value:$28>の気持ち、<line-break>ちっとも考えてやれなかった。　　<line-break>ただ、ずっと、<value:$28>に<line-break>当たり散らして…。<end>"
-EN: "And still, I'm sorry. I never gave a thought to how <value:$28> felt. I just kept taking everything out on <value:$28>...<end>"
-KO: "그런데도 미안해. 난 <value:$28>의 마음을 조금도 생각하지 못했어. 계속 <value:$28>에게 화풀이만 하고….<end>"
+JP: "いや、待て。<line-break>エストの誕生には、我々もかけつけた。<line-break>…ということは、貴殿がその女性の…。<end>"
+EN: "No, wait. We were there for Est's birth. Then that would mean you are that woman's...<end>"
+KO: "아니, 잠깐. 에스트가 태어났을 때 우리도 달려갔어. …그렇다면 그대가 그 여자의….<end>"
 
-## 370234
-source: translations/korean/messages/msgsec037-part99.toml
+## 420026
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "…それでも、<value:$28>は<line-break>ずっと、俺のそばにいてくれて…。<line-break>わざわざアミラルまで<line-break>花を買いにいくのにも<line-break>ついていていくれて…。<end>"
-EN: "Even so, <value:$28> stayed with me all that time... and even came all the way to Amiral with me to buy flowers.<end>"
-KO: "…그래도 <value:$28>은 계속 내 곁에 있어 줬고…. 일부러 아미랄까지 꽃을 사러 가는 데도 따라와 줬고….<end>"
+JP: "故人の恋文をのぞき読むとは<line-break>いい趣味をお持ちですな。<end>"
+EN: "Reading a dead man's love letters. What refined tastes you have.<end>"
+KO: "고인의 연애편지를 훔쳐보다니 참 좋은 취미를 가지셨군요.<end>"
 
-## 370235
-source: translations/korean/messages/msgsec037-part99.toml
+## 420027
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "エルズの花はすべて、<line-break>エア様が強大な魔力で作り出したもの。<line-break>きれいだけど、俺、<line-break>自分の両親の墓に<line-break>そんなもん供えたくない…。<end>"
-EN: "Every flower in Elz was created by Lady Er's immense magic. They're beautiful, but I don't want anything like that on my parents' grave...<end>"
-KO: "엘즈의 꽃은 전부 에아 님이 강대한 마력으로 만든 거야. 예쁘긴 하지만 난 부모님 무덤에 그런 걸 바치고 싶진 않아….<end>"
+JP: "コホン…確かに、<line-break>ファーロス家の当主に<line-break>あるまじき不作法だった。　　　　<line-break>しかし、この手紙から判断すれば<line-break>貴殿は不当にリューガ家当主の座に<line-break>ついたことになる。<end>"
+EN: "Ahem... I admit that was conduct unbecoming the head of House Pharos. However, judging by this letter, you took your place as head of House Ryuga illegitimately.<end>"
+KO: "흠흠… 확실히 파로스 가문의 당주답지 못한 무례였네. 하지만 이 편지로 판단하면 그대는 부당하게 류가 가문 당주 자리에 오른 셈이군.<end>"
 
-## 370236
-source: translations/korean/messages/msgsec037-part99.toml
+## 420028
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "ありがとう、<line-break>…ほんと、感謝してる。<end>"
-EN: "Thank you... I really am grateful.<end>"
-KO: "고마워…. 정말 감사해.<end>"
+JP: "ふふん、エリエナイ公…　　　　　　　<line-break>いや、レムオン。<line-break>これで貴殿も終わりだな。<end>"
+EN: "Hmph. Duke Elienai... No, Lemghon. This is the end of you.<end>"
+KO: "흥, 에리에나이 공… 아니, 레무온. 이걸로 그대도 끝이군.<end>"
 
-## 370237
-source: translations/korean/messages/msgsec037-part99.toml
+## 420029
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "お目覚めかい？　　　　　　　　　　<line-break><value:$28>。<line-break>風邪ひくといけないから、<line-break>起こそうかとも思ったんだが…<line-break>寝顔見てたら、起こしそびれて…な。<end>"
-EN: "You awake, <value:$28>? I thought about waking you so you wouldn't catch cold, but watching you sleep... I missed my chance.<end>"
-KO: "깨어났어? <value:$28>. 감기 들까 봐 깨울까도 했는데… 자는 얼굴을 보고 있으니 깨우지 못했네….<end>"
+JP: "手紙の入手経路を明かさぬまま<line-break>ボルボラが死んだとあっては、<line-break>これを鵜呑みするわけにもいかぬ。<end>"
+EN: "With Bolbora dead before revealing where he obtained the letter, we cannot simply accept it at face value.<end>"
+KO: "편지를 어떻게 입수했는지 밝히지 않은 채 볼보라가 죽었다면 이걸 그대로 믿을 수도 없겠군.<end>"
 
-## 370238
-source: translations/korean/messages/msgsec037-part99.toml
+## 420030
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "他の風の氏族より女子をいれ、<line-break>リア氏族の復興を果たすことこそ、　　<line-break>肝要ぞ。<line-break>例えば、私なぞどうじゃ？<line-break>ヌォホッホッホッホ…！<end>"
-EN: "What matters most is bringing in women from the other Wind Clans and restoring the Ria Clan! How about me, for instance? Nwohohohoho...!<end>"
-KO: "다른 바람의 씨족에서 여자를 받아 리아 씨족을 부흥시키는 게 중요하다. 예를 들면 나 같은 건 어떠냐? 누호호호호…!<end>"
+JP: "しかし、手紙を手に入れた直後の　<line-break>事故死とは…<line-break>　<line-break>偶然にしては、<line-break>できすぎていると思わぬか？<end>"
+EN: "But for him to die in an accident just after obtaining it... Do you not find that rather too convenient to be mere coincidence?<end>"
+KO: "하지만 편지를 손에 넣은 직후 사고사라니…. 우연치고는 너무 잘 맞아떨어진다고 생각하지 않나?<end>"
 
-## 370239
-source: translations/korean/messages/msgsec037-part99.toml
+## 420031
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "ベモラベラモ様…。<end>"
-EN: "Bemoraberamo...<end>"
-KO: "베모라베라모 님….<end>"
+JP: "しかも、ボルボラはノーブルで<line-break>横暴を働き、そなたを困らせていた<line-break>というではないか。<line-break>この上ない幸運であったな。<line-break>エリエナイ公。<end>"
+EN: "And did Bolbora not abuse his authority in Noble, causing you no small trouble? His death was extraordinarily fortunate for you, Duke Elienai.<end>"
+KO: "게다가 볼보라는 노블에서 횡포를 부려 그대를 곤란하게 했다지 않나. 더할 나위 없는 행운이었군, 에리에나이 공.<end>"
 
-## 370240
-source: translations/korean/messages/msgsec037-part99.toml
+## 420032
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "そうじゃ、<line-break>ここに怪しい者が来なんだか？　　　<line-break>竜の座より、<line-break>我ら風の氏族の至宝を<line-break>くせ者が盗んで逃げおったのじゃ。<end>"
-EN: "Ah, yes. Has anyone suspicious come this way? A rogue stole the Wind Clans' greatest treasure from the Dragon's Seat and fled.<end>"
-KO: "그래, 여기에 수상한 자가 오지 않았나? 용의 자리에서 우리 바람의 일족 보물을 수상한 자가 훔쳐 달아났다.<end>"
+JP: "フッ…、おたわむれを。　　　　　　　<line-break>　<line-break>　<line-break>彼は有能な男でした。現にこれまで、<line-break>ボルボラのあとを任せられる者が<line-break>おらず、頭を悩ませておりました。<end>"
+EN: "Heh... You jest. He was a capable man. Indeed, I have been at a loss because no one could be found to take his place.<end>"
+KO: "훗…, 농담도 지나치십니다. 그는 유능한 남자였습니다. 실제로 지금까지 볼보라의 뒤를 맡길 사람이 없어서 골머리를 앓고 있었습니다.<end>"
 
-## 370241
-source: translations/korean/messages/msgsec037-part99.toml
+## 420033
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "１５くらいの小娘じゃ。　　　　　　<line-break>我ら風の氏族でも、<line-break>エルズの町民でもない。<end>"
-EN: "A slip of a girl, about fifteen. She belongs neither to the Wind Clans nor to the townsfolk of Elz.<end>"
-KO: "열다섯쯤 된 어린 여자아이야. 우리 바람의 씨족도 엘즈 주민도 아니야.<end>"
+JP: "ですが、ようやくその結論が<line-break>得られたので、今日はその件について<line-break>お願いに上がった次第です。<line-break>ノーブルの支配を、<line-break>我が妹<value:$28>に<line-break>任せたく存じます。<end>"
+EN: "But I have finally found my answer, and that is why I came today with a request. I would entrust the governance of Noble to my younger sister, <value:$28>.<end>"
+KO: "하지만 드디어 결론을 얻었기에 오늘 그 건으로 부탁드리러 왔습니다. 노블의 지배를 제 동생 <value:$28>에게 맡기고 싶습니다.<end>"
 
-## 370242
-source: translations/korean/messages/msgsec037-part99.toml
+## 420034
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "くっ！！<end>"
-EN: "Ngh!<end>"
-KO: "큭!!<end>"
+JP: "妹？<end>"
+EN: "Your sister?<end>"
+KO: "여동생?<end>"
 
-## 370243
-source: translations/korean/messages/msgsec037-part99.toml
+## 420035
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "とめるな！<end>"
-EN: "Don't stop me!<end>"
-KO: "말리지 마!<end>"
+JP: "ここに連れてまいりました。<end>"
+EN: "I have brought her here.<end>"
+KO: "이곳으로 데려왔습니다.<end>"
 
-## 370244
-source: translations/korean/messages/msgsec037-part99.toml
+## 420036
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "誰だ？<end>"
-EN: "Who are you?<end>"
-KO: "누구냐?<end>"
+JP: "エストの他に兄弟があったとは、<line-break>初耳だが。<end>"
+EN: "This is the first I have heard of you having another sibling besides Est.<end>"
+KO: "에스트 말고도 형제가 있었다니 처음 듣는군.<end>"
 
-## 370245
-source: translations/korean/messages/msgsec037-part99.toml
+## 420037
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "何を持っている？<line-break>まさか、竜の座から盗んだのか？<end>"
-EN: "What are you carrying? You didn't steal it from the Dragon's Seat, did you?<end>"
-KO: "뭘 가지고 있지? 설마 용의 자리에서 훔친 건가?<end>"
+JP: "わけあって、<line-break>公にはしておりませんでした。<line-break>　<line-break>そのわけは…<line-break>申し上げなくとも<line-break>おわかりでしょう。<end>"
+EN: "For certain reasons, I have kept her existence from public knowledge. I need hardly explain what those reasons were.<end>"
+KO: "사정이 있어 공개하지 않았습니다. 그 이유는… 말씀드리지 않아도 아시겠죠.<end>"
 
-## 370246
-source: translations/korean/messages/msgsec037-part99.toml
+## 420038
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "今すぐ返すんだ。　　　　　　　　　<end>"
-EN: "Give it back at once.<end>"
-KO: "지금 당장 돌려줘.<end>"
+JP: "この少女こそ、<line-break>…この手紙にある子供だと？<end>"
+EN: "You mean this girl is the child mentioned in the letter?<end>"
+KO: "이 소녀가… 이 편지에 적힌 아이라고?<end>"
 
-## 370247
-source: translations/korean/messages/msgsec037-part99.toml
+## 420039
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "エア様はお前の居所をつかんでいる。<line-break>逃げられない。<end>"
-EN: "Lady Er knows where you are. You cannot escape.<end>"
-KO: "에아 님은 네 위치를 알고 있다. 도망칠 수 없어.<end>"
+JP: "ボルボラ亡きあとのノーブルを<line-break>統制するために、<line-break>　<line-break>なにとぞ、<line-break>我が妹<value:$28>に<line-break>ノーブルの伯爵の称号を。<end>"
+EN: "To maintain order in Noble after Bolbora's death, I beg you to grant my younger sister, <value:$28>, the title of Countess of Noble.<end>"
+KO: "볼보라가 죽은 뒤 노블을 통제하기 위해 부디 제 동생 <value:$28>에게 노블 백작의 작위를 내려 주십시오.<end>"
 
-## 370248
-source: translations/korean/messages/msgsec037-part99.toml
+## 420040
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "エア様は冷酷だ。　　　　　　　　<end>"
-EN: "Lady Er is merciless.<end>"
-KO: "에아 님은 냉혹하다.<end>"
+JP: "ならん！　ならん！！<line-break>ふざけたことを！<end>"
+EN: "Absolutely not! I will not permit this nonsense!<end>"
+KO: "안 된다! 안 돼!! 터무니없는 소리를!<end>"
 
-## 370249
-source: translations/korean/messages/msgsec037-part99.toml
+## 420041
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "どんな理由があるにせよ、<line-break>自分に逆らう者は決して許さない。<end>"
-EN: "Whatever the reason, she never forgives anyone who defies her.<end>"
-KO: "무슨 이유가 있든 자신에게 거역하는 자는 절대 용서하지 않아.<end>"
+JP: "陛下、<line-break>どうかこの者に伯爵の称号を。<line-break>　<line-break>事情が事情です。<line-break>手続きは追って行うこととし、<line-break>この場で叙任なされては？<end>"
+EN: "Your Majesty, please grant this person the title. Given the circumstances, could the formalities not follow later and the investiture take place here and now?<end>"
+KO: "폐하, 부디 이자에게 백작 작위를. 사정이 사정인 만큼 절차는 나중에 하고 이 자리에서 서임하시는 건 어떻습니까?<end>"
 
-## 370250
-source: translations/korean/messages/msgsec037-part99.toml
+## 420042
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "その身体…。<line-break>お前、いったい…？<end>"
-EN: "That body... What are you?<end>"
-KO: "그 몸…. 너, 대체…?<end>"
+JP: "ああ…。<line-break>王妃がそう言うのであればな…。<line-break>　<line-break><value:$28>と言ったか。<line-break>そなたをロストール王国の伯爵、<line-break>そして、特別に白竜騎士に叙任する。<end>"
+EN: "Very well... If that is the Queen's wish. Your name was <value:$28>, was it not? I hereby appoint you a count of the Kingdom of Rostorl and, by special dispensation, a White Dragon Knight.<end>"
+KO: "아아… 왕비가 그렇게 말한다면… <value:$28>라고 했나. 그대를 로스톨 왕국의 백작, 그리고 특별히 백룡기사로 서임하겠다.<end>"
 
-## 370251
-source: translations/korean/messages/msgsec037-part99.toml
+## 420043
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "人間じゃ、ない…？<end>"
-EN: "You're not human...?<end>"
-KO: "인간이, 아니야…?<end>"
+JP: "騎士の証である盾だ。<line-break>受け取るがよい。<end>"
+EN: "This shield is the badge of your knighthood. Take it.<end>"
+KO: "기사의 증표인 방패다. 받아라.<end>"
 
-## 370252
-source: translations/korean/messages/msgsec037-part99.toml
+## 420044
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "…傷は深いな…。<line-break>その身体で竜の座から逃げてきたのか？<end>"
-EN: "Those wounds are deep... Did you escape from the Dragon's Seat in that condition?<end>"
-KO: "…상처가 깊군…. 그 몸으로 용의 자리에서 도망쳐 온 건가?<end>"
+JP: "迅速なご処置、<line-break>心より感謝いたします。<end>"
+EN: "You have my deepest gratitude for acting so swiftly.<end>"
+KO: "신속한 조치에 진심으로 감사드립니다.<end>"
 
-## 370253
-source: translations/korean/messages/msgsec037-part99.toml
+## 420045
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "助けるのか？<end>"
-EN: "You're going to help?<end>"
-KO: "구할 거야?<end>"
+JP: "リューガ家は、陛下に<line-break>以後、いっそうの忠誠を誓いましょう。<end>"
+EN: "From this day forth, House Ryuga pledges even greater loyalty to Your Majesty.<end>"
+KO: "류가 가문은 앞으로 폐하께 더욱 충성을 맹세하겠습니다.<end>"
 
-## 370254
-source: translations/korean/messages/msgsec037-part99.toml
+## 420046
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "待ってくれ、<value:$28>。<end>"
+JP: "…ふん、ぬけぬけと。<end>"
+EN: "Hmph. Shameless.<end>"
+KO: "…흥, 뻔뻔하게.<end>"
+
+## 420047
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノヴィン閣下。何か？<end>"
+EN: "Lord Novin. Did you say something?<end>"
+KO: "노빈 각하. 무슨 일이십니까?<end>"
+
+## 420048
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "い、いや。ロストールのために、<line-break>せいぜい骨を折ってくれたまえ。<end>"
+EN: "N-no. Do your utmost for Rostorl.<end>"
+KO: "아, 아니. 로스톨을 위해 실컷 고생해 주게.<end>"
+
+## 420049
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "予は疲れた。先に休ませてもらう。<end>"
+EN: "I am weary. I shall retire now.<end>"
+KO: "나는 지쳤다. 먼저 쉬도록 하겠다.<end>"
+
+## 420051
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオン坊やに貸しを作ったまで。　　<line-break>これで懸案の中央集権化を進める法案が<line-break>すんなり元老院を通過する。<end>"
+EN: "I merely put young Lemghon in my debt. Now the bill advancing our long-planned centralization will pass smoothly through the Senate.<end>"
+KO: "레무온 도련님에게 빚을 하나 지워 둔 것뿐이야. 이걸로 현안인 중앙집권화를 추진하는 법안이 원로원을 쉽게 통과하겠지.<end>"
+
+## 420052
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "しかも、腹違いの妹を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>"
+EN: "And once it becomes known that Lemghon concealed a half sister, his standing will suffer considerably.<end>"
+KO: "게다가 배다른 여동생을 숨겼다는 사실까지 알려지면 레무온의 신망은 적잖이 떨어질 터….<end>"
+
+## 420053
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…！　さすがは我が妹よ！<line-break>レムオンめ、そうとは知らずに…。<line-break>　<line-break>ハハハハ！<line-break>小僧めに、一杯食わせてやれて<line-break>せいせいしたわ！<end>"
+EN: "Ah! Brilliant, my sister! And Lemghon never suspected a thing... Hahahaha! It feels splendid to have outwitted that whelp!<end>"
+KO: "…! 역시 내 동생이군! 레무온 녀석, 그것도 모르고…. 하하하하! 그 애송이를 한방 먹여서 속이 다 시원하군!<end>"
+
+## 420054
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という娘…。<end>"
+EN: "Lemghon is no man to overlook something so obvious. What a foolish brother I have. Still, that girl called <value:$28>...<end>"
+KO: "그 정도도 알아채지 못할 남자는 아니겠지. …어리석은 형을 두었군. 그건 그렇고 <value:$28>이라는 여자….<end>"
+
+## 420055
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "無限の可能性を感じさせる…。　　<line-break>あの目の輝きはどうだ。<line-break>　<line-break>フフフ…、<line-break>レムオン坊やも楽しませてくれる。<end>"
+EN: "Such limitless potential... And that light in her eyes. Heh heh... Young Lemghon does know how to entertain me.<end>"
+KO: "무한한 가능성이 느껴지는군…. 저 눈빛을 봐라. 후후후…, 레무온 도련님도 즐겁게 해 주는군.<end>"
+
+## 420056
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "とりあえず、礼を言う。<line-break>おかげで難局を切り抜けられた。<end>"
+EN: "First, you have my thanks. You helped me through a difficult situation.<end>"
+KO: "우선 감사를 표하지. 덕분에 난국을 헤쳐 나올 수 있었다.<end>"
+
+## 420057
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "紹介する。この館の執事だ。<line-break>セバスチャンという。<end>"
+EN: "Let me introduce you. This is Sebastian, the butler of the house.<end>"
+KO: "소개하지. 이 저택의 집사다. 세바스찬이라고 한다.<end>"
+
+## 420058
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "お目にかかり、光栄です。<line-break>ご用はなんなりと<line-break>この私めにお申しつけください。　　　<line-break>大したご用意はできませんが、いつでも<line-break><value:$28>様をお迎えできるよう、<line-break>お待ちいたしております。<end>"
+EN: "It is an honor to meet you. Whatever you may require, you need only ask. I cannot offer anything too grand, but I shall always be waiting, ready to welcome you, <value:$28>.<end>"
+KO: "뵙게 되어 영광입니다. 용무가 있으시면 무엇이든 이 몸에게 말씀해 주십시오. 대단한 준비는 못 해도 언제든 <value:$28>님을 모실 수 있도록 기다리고 있겠습니다.<end>"
+
+## 420059
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "それでは失礼いたします。<end>"
+EN: "Now, if you will excuse me.<end>"
+KO: "그럼 실례하겠습니다.<end>"
+
+## 420060
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "彼の言うことは聞いておいた方がいい。<line-break>この館で一番の権力者だ。フフフ…。<line-break>　<line-break>とにかく、お前はロストールで<line-break>１、２を争う大貴族リューガ家の<line-break>一員となってしまったのだ。<end>"
+EN: "You would do well to heed him. He's the most powerful man in this manor. Heh heh... In any case, you've ended up a member of House Ryuga, one of the two foremost noble houses in Rostorl.<end>"
+KO: "그 사람 말은 들어 두는 게 좋아. 이 저택에서 가장 권력이 센 사람이거든. 후후후…. 어쨌든 넌 로스톨에서 손꼽히는 대귀족 류가 가문의 일원이 되어 버렸어.<end>"
+
+## 420061
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "本来なら処刑されるところ<line-break>だったのだからな。<line-break>そのくらい耐えろ。<line-break>よいな、<line-break>我が妹、<value:$28>よ。<line-break>また、帰ってこい。<end>"
+EN: "By rights, you would have been executed. Put up with that much. Understood, my sister, <value:$28>? Come back again.<end>"
+KO: "원래라면 처형될 일이었다. 그 정도는 견뎌라. 알겠나, 내 여동생 <value:$28>아. 다시 돌아와라.<end>"
+
+## 420062
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…不思議な女だ。<line-break>可能性の女神がいれば、<line-break>あんな感じか…。<line-break>まあいい。バカで退屈な貴族どもには<line-break>飽き飽きしていた。奴がいれば<line-break>脳が腐らずにすみそうだ。<end>"
+EN: "What a strange woman. If there were a goddess of possibility, perhaps that is what she would be like. No matter. I have had my fill of dull-witted, tedious nobles. With her around, perhaps my brain will be spared from rotting.<end>"
+KO: "…신기한 여자군. 가능성의 여신이 있다면 저런 느낌인가…. 뭐 됐어. 멍청하고 따분한 귀족들에게 질려 있었지. 저 녀석이 있으면 머리가 썩지는 않겠어.<end>"
+
+## 420063
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様がノーブルの新しい領主、　　<line-break>ノーブル伯だな！<end>"
+EN: "You're Noble's new lord―the Count of Noble, aren't you?!<end>"
+KO: "네놈이 노블의 새로운 영주, 노블 백작이군!<end>"
+
+## 420064
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前ら貴族のせいで<line-break>姉ちゃんは処刑されたんだ！<line-break>姉ちゃんの仇だ！　死んでもらう！<end>"
+EN: "Damn it! Kill that damned noble!<end>"
+KO: "너희 귀족들 때문에 누나는 처형당했어! 누나의 원수다! 죽어 줘야겠어!<end>"
+
+## 420065
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "くそっ！<line-break>殺せ！　貴族め！<end>"
+EN: "Damn it! Kill that damned noble!<end>"
+KO: "젠장! 죽여! 이 귀족 놈아!<end>"
+
+## 420066
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ね、姉ちゃん？<line-break>処刑されたはず…でも、似てる…。<end>"
+EN: "S-Sis? But you were supposed to have been executed... Still, you look so much like her.<end>"
+KO: "…누, 누나? 처형됐을 텐데… 그래도 닮았어….<end>"
+
+## 420067
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴族とは思えない洗練されない感じ。<line-break>平たく言えばガサツそうなところ…。<line-break>　<line-break>これがエリエナイ公レムオンの妹とは<line-break>とても思えない容姿…。<line-break>雰囲気から姿からそっくりだ…。<end>"
+EN: "You don't have a noble's refinement. To put it bluntly, you seem downright rough. You hardly look like the sister of Lemghon, Duke of Elienai... But your manner, your appearance―everything is just like her.<end>"
+KO: "귀족이라고는 생각하기 어려운 세련되지 않은 느낌. 쉽게 말하면 거칠어 보이는 점…. 이게 에리에나이 공 레무온의 여동생이라곤 믿기 힘든 외모…. 분위기부터 모습까지 꼭 닮았어….<end>"
+
+## 420068
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "いったあ！　間違いないや！<line-break>やっぱり、姉ちゃんだろ！<end>"
+EN: "Ow! That settles it! I knew you were my sister!<end>"
+KO: "아야! 틀림없어! 역시 누나잖아!<end>"
+
+## 420069
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "まったく、すぐ手が出るんだから！<line-break>俺がバカになったらどうすんだよ！<end>"
+EN: "Honestly, you're always so quick to hit me! What if you knock me stupid?!<end>"
+KO: "정말, 걸핏하면 손부터 나간다니까! 내가 바보가 되면 어쩌려고 그래!<end>"
+
+## 420070
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "チャカは少し頭が悪くなった。<line-break>ＩＮＴが１下がった。<end>"
+EN: "Chaka got a little less intelligent. ＩＮＴ decreased by 1.<end>"
+KO: "차카는 조금 머리가 나빠졌다. INT가 1 내려갔다.<end>"
+
+## 420071
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "チャカは少し打たれ強くなった。<line-break>ＶＩＴが１上がった。<end>"
+EN: "Chaka got a little better at taking hits. ＶＩＴ increased by 1.<end>"
+KO: "차카는 조금 더 맷집이 좋아졌다. VIT가 1 올랐다.<end>"
+
+## 420072
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…でも、いったい<line-break>どういうことなんだ？　　<line-break>　<line-break>処刑されたんじゃ<line-break>なかったのか？<line-break>それにノーブル伯って…。<end>"
+EN: "But what in the world is going on? Weren't you executed? And what's this about being the Count of Noble...?<end>"
+KO: "…그런데 대체 어떻게 된 거지? 처형된 게 아니었나? 게다가 노블 백작이라니….<end>"
+
+## 420073
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…なるほどね。<line-break>そういうことだったのか。　　　　　　<line-break>　<line-break>確かに、あのときの俺は<line-break>姉ちゃんが殺されるの一点張りで<line-break>まともに話も聞かなかったろうけどさ。<end>"
+EN: "Oh, so that's what happened. I suppose I was so convinced they were going to kill you that I wouldn't listen to a word anyone said.<end>"
+KO: "…그렇구나. 그런 거였어. 확실히 그때의 나는 누나가 죽는다는 생각밖에 없어서 제대로 이야기도 듣지 않았겠지만.<end>"
+
+## 420074
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "それにしても、殴り倒して置いてくより<line-break>マシなやり方があったはずだと思うぜ？<line-break>姉ちゃん。<end>"
+EN: "Even so, Sis, you could've found a better way than knocking me out and leaving me there.<end>"
+KO: "그래도 때려눕혀 놓고 가는 것보단 나은 방법이 있었을 것 같은데? 누나.<end>"
+
+## 420075
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブルへ帰れって言うんだろうけど、<line-break>俺、帰らないよ。<line-break>　<line-break>もともと、ノーブル伯を殺して<line-break>死ぬつもりだったんだ。<line-break>俺も姉ちゃんと同じ、死人になるよ。<end>"
+EN: "I know you'll tell me to go back to Noble, but I won't. I was planning to kill the Count of Noble and die anyway. Then I'd be one of the dead too, just like you.<end>"
+KO: "노블로 돌아가라고 할 거지? 하지만 나 안 돌아가. 원래 노블 백작을 죽이고 죽을 생각이었어. 나도 누나처럼 죽은 사람이 될 거야.<end>"
+
+## 420076
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃんは<line-break>俺だけ、生かしておくつもりで　　　<line-break>黙って出ていったんだろうけどさ、<line-break>俺はやっぱり、<line-break>ノーブルで生きてるより、<line-break>姉ちゃんと一緒に死んでいたいよ。<end>"
+EN: "I know you slipped away without a word because you wanted me to live. But I'd still rather die with you than go on living in Noble.<end>"
+KO: "누나는 나만 살려 둘 생각으로 말없이 떠난 거겠지만, 난 역시 노블에서 살아 있기보다 누나와 같이 죽고 싶어.<end>"
+
+## 420077
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺も一緒に連れて行ってよ。　　　　　<line-break>そうじゃなきゃ、ノーブル伯の<line-break>正体ばらすぜ。<end>"
+EN: "Take me with you. Otherwise, I'll expose the Count of Noble's true identity.<end>"
+KO: "나도 같이 데려가 줘. 안 그러면 노블 백작의 정체를 까발릴 거야.<end>"
+
+## 420078
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "やったあ！<line-break>やっぱ姉ちゃん、話がわかる！<end>"
+EN: "Yes! I knew you'd see reason, Sis!<end>"
+KO: "해냈다! 역시 누나, 말이 통한다니까!<end>"
+
+## 420079
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、冒険者としてやっていこう！<line-break>これからは自由にさ！<end>"
+EN: "Sis, let's become adventurers! We can live free from now on!<end>"
+KO: "누나, 모험자로 살아가자! 이제부터는 자유롭게!<end>"
+
+## 420080
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "なあ、そうしようぜ、姉ちゃん！　<line-break>世界を股に掛けて旅するんだ！<line-break>　<line-break>そうと決まれば、<line-break>さっそくギルドで冒険者登録だ。<line-break>俺、先にギルド行って待ってるよ！<end>"
+EN: "Come on, Sis, let's do it! We'll travel the whole world! Now that it's settled, we'd better register as adventurers at the Guild. I'll go on ahead and wait for you there!<end>"
+KO: "그래, 그렇게 하자, 누나! 세계를 누비며 여행하는 거야! 정했으면 당장 길드에서 모험자 등록이야. 난 먼저 길드에 가서 기다릴게!<end>"
+
+## 420081
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、それじゃ！<end>"
+EN: "See you there, Sis!<end>"
+KO: "누나, 그럼!<end>"
+
+## 420082
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様がいけにえ…というわけか。<end>"
+EN: "So you're the sacrifice...<end>"
+KO: "네놈이 제물…이라는 건가.<end>"
+
+## 420083
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺たちは……<line-break>姉ちゃんは間違ってない。<line-break>姉ちゃんを殺させはしない！！<end>"
+EN: "We... My sister isn't wrong. I won't let you kill her!!<end>"
+KO: "우리는…… 누나는 틀리지 않았어. 누나를 죽게 두지 않겠어!!<end>"
+
+## 420084
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…即刻、広場で首をはねろ。<end>"
+EN: "Carry out the beheading in the square at once.<end>"
+KO: "…즉시 광장에서 목을 쳐라.<end>"
+
+## 420085
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄さん！<end>"
+EN: "Brother!<end>"
+KO: "형!<end>"
+
+## 420086
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "早くしろ。行け。<end>"
+EN: "Hurry. Go.<end>"
+KO: "서둘러. 가.<end>"
+
+## 420087
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄さん、どうして！<end>"
+EN: "Brother, why?!<end>"
+KO: "형, 어째서!<end>"
+
+## 420088
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…言いたいことは言ったか？<end>"
+EN: "Have you said all you wanted to say?<end>"
+KO: "…할 말은 다 했나?<end>"
+
+## 420089
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "この者が今回の反乱の首謀者、<line-break>チャカでございます。<end>"
+EN: "This is Chaka, the ringleader of the recent rebellion.<end>"
+KO: "이자가 이번 반란의 주모자 차카입니다.<end>"
+
+## 420090
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "人は、恐れるのだ。<end>"
+EN: "People are afraid.<end>"
+KO: "인간은 두려워하는 법이다.<end>"
+
+## 420092
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "生きるために仕方なく<line-break>ボルボラの行いから顔をそむけた。<line-break>これが彼らの言いわけだ。<end>"
+EN: "They had no choice but to look away from what Bolbora was doing if they wanted to survive. That is their excuse.<end>"
+KO: "살기 위해 어쩔 수 없이 볼보라의 행동에서 눈을 돌렸다. 그게 그들의 변명이야.<end>"
+
+## 420093
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "しかし、今ここにボルボラを倒し、<line-break>それが本当にただの言いわけだったと<line-break>証明する者が現れた。<end>"
+EN: "But now someone has appeared who defeated Bolbora and proved that it truly was nothing more than an excuse.<end>"
+KO: "하지만 지금 이곳에 볼보라를 쓰러뜨리고 그것이 정말 단순한 변명에 불과했다는 걸 증명한 자가 나타났다.<end>"
+
+## 420094
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…英雄だ。<line-break>しかし……。<end>"
+EN: "A hero... And yet...<end>"
+KO: "…영웅이다. 하지만…….<end>"
+
+## 420095
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "言いわけを言いわけと認めたくない者は<line-break>英雄を否定する他に<line-break>自分を正当化するすべを持たないのだ。<end>"
+EN: "Those who refuse to admit their excuse was merely an excuse have no way to justify themselves except by denying the hero.<end>"
+KO: "변명을 변명이라고 인정하고 싶지 않은 자는 영웅을 부정하는 것 외에는 자신을 정당화할 방법이 없는 거다.<end>"
+
+## 420096
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "それで、支配する者は<line-break>弱い人たちのために英雄を裁くの？<line-break>それが支配者のなすべきことなの？<end>"
+EN: "So those who rule are to judge a hero for the sake of the weak? Is that what a ruler should do?<end>"
+KO: "그래서 지배하는 자는 약한 사람들을 위해 영웅을 심판하는 거야? 그게 지배자가 해야 할 일이야?<end>"
+
+## 420097
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "未使用<line-break><line-break><end>"
+EN: "Unused<end>"
+KO: "미사용<end>"
+
+## 420098
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…俺はここの領主だ。<line-break>領地の平定を第一に考えねばならん。<end>"
+EN: "I am the lord of this land. Pacifying my domain must come first.<end>"
+KO: "…나는 이곳의 영주다. 영지의 평정을 최우선으로 생각해야 한다.<end>"
+
+## 420099
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺は王都へ帰る。<line-break>あとの細かい処理は任せたぞ。<end>"
+EN: "I'm returning to the royal capital. I leave the remaining details to you.<end>"
+KO: "나는 왕도로 돌아간다. 나머지 세세한 처리는 맡기마.<end>"
+
+## 420100
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄さん…。<end>"
+EN: "Brother...<end>"
+KO: "형….<end>"
+
+## 420101
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん！<line-break>大丈夫だった！？<line-break>　<line-break>いきなり王城になんて連れていかれて<line-break>何かひどいこととか<line-break>されたりしなかった？<end>"
+EN: "Sis! Are you all right? They took you to the royal castle out of nowhere. They didn't do anything awful to you, did they?<end>"
+KO: "누나! 괜찮았어!? 갑자기 왕성으로 끌려가서 무슨 심한 일이라도 당한 건 아니지?<end>"
+
+## 420102
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうか、<line-break>それならよかった…。<end>"
+EN: "Oh, good. I'm glad you're all right...<end>"
+KO: "그런가, 그렇다면 다행이군….<end>"
+
+## 420103
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "あの…<value:$28>さんって人…<line-break>いますか？<end>"
+EN: "Um... is there someone here named <value:$28>?<end>"
+KO: "저기… <value:$28>이라는 분… 계신가요?<end>"
+
+## 420104
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "えっと…、変なおじさんが<line-break>スラムに来いって。<line-break>　<line-break><value:$28>さんに<line-break>そう伝えろって。それじゃ。<end>"
+EN: "Um... some strange old man said to come to the Slums. He told me to give <value:$28> that message. Well, bye.<end>"
+KO: "저기… 이상한 아저씨가 슬럼으로 오라고 했어요. <value:$28>님께 그렇게 전해 달래요. 그럼 이만.<end>"
+
+## 420105
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘ、久しぶりだな…。<end>"
+EN: "Geh-heh. Been a long time...<end>"
+KO: "게헤, 오랜만이군….<end>"
+
+## 420106
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "何で俺が？　って顔だなあ。<line-break>ゲヘヘヘ…、驚く顔もいいねぇ。　<end>"
+EN: "That look says, “Why me?” Geh-heh-heh... You look good surprised, too.<end>"
+KO: "‘왜 내가?’ 하는 얼굴이군. 게헤헤헤… 놀라는 표정도 좋네.<end>"
+
+## 420107
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…っと、待てって。　　　　　　　<line-break>ゲヘヘヘ…。<line-break>　<line-break>俺はもうノーブルの代官じゃねぇ。<line-break>もうお前と敵対する理由もねぇ。ゲヘ、むしろ俺たちは仲間さ…。<end>"
+EN: "Wait, wait... Geh-heh-heh. I'm not the governor of Noble anymore. I've got no reason to be your enemy now. Geh-heh. If anything, we're on the same side...<end>"
+KO: "…잠깐 기다려. 게헤헤… 난 이제 노블의 대관이 아니야. 너와 적대할 이유도 없어. 오히려 우린 동료지…<end>"
+
+## 420108
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオンっていう<line-break>共通の敵を持つ、な…。　　　　　<line-break>　<line-break>お前のクソ憎たらしい弟チャカは<line-break>処刑されたぜ。<line-break>あのレムオンになァ…。<end>"
+EN: "We've got a common enemy: Lemghon. Your insufferable little brother Chaka was executed. By Lemghon himself...<end>"
+KO: "레무온이라는 공통의 적이 있다는 거지…. 네 재수 없는 동생 챠카는 처형됐어. 그 레무온에게 말이야….<end>"
+
+## 420109
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "憎いだろ？　奴が。<line-break>俺と組んで復讐しねぇか？　奴に。<line-break>　<line-break>ねっちりと、ぐっしゃりと、　　　<line-break>えらそうにしてやがる奴の腹を<line-break>えぐるように…。ゲヘヘ。<end>"
+EN: "You hate him, don't you? Why not join me and take revenge? We can make it slow and messy... carve right into the belly of that pompous bastard. Geh-heh-heh.<end>"
+KO: "밉지? 그 녀석이. 나와 손잡고 복수하지 않을래? 그 녀석에게. 끈질기게, 처참하게, 잘난 척하는 녀석의 속을후벼 파듯이…. 게헤헤.<end>"
+
+## 420110
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前と組む気はない<end>"
+EN: "I've no intention of joining you.<end>"
+KO: "너와 손잡을 생각은 없어<end>"
+
+## 420111
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "チャカの仇をとりたい<end>"
+EN: "I want to avenge Chaka.<end>"
+KO: "차카의 원수를 갚고 싶다<end>"
+
+## 420112
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘヘ…、相変わらずだな。　　　<line-break>俺はうれしいぜぇ。<line-break>　<line-break>…お前のその勝ち気なところが、<line-break>俺にはたまらねぇんだ。ゲヘヘ…。<line-break>まぁ、話だけでも聞いていけ。<end>"
+EN: "Geh-heh-heh... You haven't changed. That does make me happy. I can't get enough of that defiant streak of yours. Geh-heh-heh... At least stay and hear me out.<end>"
+KO: "게헤헤… 여전하구나. 난 기뻐. …네 그 지기 싫어하는 성격이 나한텐 못 견디게 좋거든. 게헤헤…. 뭐, 이야기라도 듣고 가.<end>"
+
+## 420114
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘヘヘ…、<line-break>やけに素直じゃねぇか。　　　　　　　<line-break>　<line-break>あのころ、これだけ素直になってりゃ。<line-break>クソ生意気な弟も死なずにすんで<line-break>お互い、幸せだったのにな。ゲヘヘ。<end>"
+EN: "Geh-heh-heh... How unusually obedient of you. If you'd been this obedient back then, your obnoxious little brother would still be alive, and we'd both be happy. Geh-heh.<end>"
+KO: "게헤헤헤…. 꽤 순순하잖아. 그때도 이렇게 말 잘 들었으면 건방진 동생도 안 죽었을 테고 서로 행복했을 텐데 말이지. 게헤헤.<end>"
+
+## 420116
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘ、まあ、こんな手の話は<line-break>どこにでもあるようなもんだがな。　　　<line-break>　<line-break>問題は、先代のエリエナイ公夫人が<line-break>なぜ腹を痛めて産んだエストじゃなく、<line-break>レムオンの方を跡取りにしたのかだ。<end>"
+EN: "Geh-heh. It's the sort of story you hear everywhere. The question is why the previous Duchess of Elienai named Lemghon as heir instead of Est, the child she bore herself.<end>"
+KO: "게헤, 뭐 이런 얘기는 어디에나 있을 법하지만 말이지. 문제는 선대 에리에나이 공 부인이 왜 자기가 낳은 에스트가 아니라 레무온을 후계자로 삼았느냐야.<end>"
+
+## 420117
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘ。俺の悪党のカンだとな、<line-break>ここに奴の泣き所があるはずだ。<line-break>…そこで、お前の出番だ。<end>"
+EN: "Geh-heh. My villain's instincts tell me that's where we'll find his weakness. And that's where you come in.<end>"
+KO: "게헤. 내 악당 감으로는 여기 녀석의 약점이 있을 거야. …그래서 네 차례지.<end>"
+
+## 420118
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオンに仕えろ。<end>"
+EN: "Enter Lemghon's service.<end>"
+KO: "레무온을 섬겨라.<end>"
+
+## 420119
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前はかわいいし、腕も立つ。<line-break>だが、それ以上に不思議な魅力がある。<line-break>　<line-break>なんだかわからねえが、<line-break>そこらのぼんくらどもと違うんだ。<line-break>なんていうか、でけえって感じだな。<end>"
+EN: "You're cute, and you can handle yourself. But more than that, you've got a strange sort of allure. I can't put my finger on it, but you're nothing like the fools around here. There's just something... big about you.<end>"
+KO: "넌 귀엽고 실력도 있어. 그런데 그보다 더 묘한 매력이 있단 말이지. 뭔지는 모르겠지만 그저 그런 멍청이들과는 달라. 뭐랄까, 그릇이 크다는 느낌이야.<end>"
+
+## 420120
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺もお前のそんなところに惹かれて　<line-break>手下にしたいと思ったし<line-break>レムオンもどうやらそんな感じだ。<line-break>レムオンの屋敷へ行け。<line-break>奴に取り入って、泣き所を探るんだ。<line-break>きっと、復讐できる日が来る。<end>"
+EN: "That's what drew me to you and made me want you as my underling, and Lemghon seems to feel the same way. Go to Lemghon's manor. Get on his good side and find his weakness. Your chance for revenge will come.<end>"
+KO: "나도 네 그런 점에 끌려 부하로 삼고 싶었고, 레무온도 아무래도 비슷한 모양이야. 레무온의 저택으로 가. 녀석에게 접근해서 약점을 찾아내. 분명 복수할 날이 올 거야.<end>"
+
+## 420121
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘ、俺の用はそれだけだ。<line-break>また、お前の張りのあるケツを拝めて<line-break>うれしかったぜぇ。ゲヘヘ…じゃあな。<end>"
+EN: "Geh-heh. That's all I wanted. It was good to feast my eyes on that firm ass of yours again. Geh-heh-heh... See you around.<end>"
+KO: "게헤, 내 볼일은 그게 다야. 또 네 탱탱한 엉덩이를 봐서 기뻤다고. 게헤헤… 그럼 간다.<end>"
+
+## 420122
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…もう、ノーブルには戻れないね。<line-break>ボルボラは倒せたけど、なんだか<line-break>変に大きな騒ぎになっちゃったし。<end>"
+EN: "...We can't go back to Noble now. We beat Bolbora, but somehow the whole thing's gotten way out of hand.<end>"
+KO: "…이제 노블로는 돌아갈 수 없겠네. 볼보라는 쓰러뜨렸지만 이상하게 일이 너무 크게 벌어졌잖아.<end>"
+
+## 420123
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、冒険者としてやっていこう！<line-break>これからは自由にさ！<end>"
+EN: "Sis, let's become adventurers! We'll be free from now on!<end>"
+KO: "누나, 모험자로 살아가자! 이제부터는 자유롭게!<end>"
+
+## 420124
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "なあ、そうしようぜ、姉ちゃん！　<line-break>世界を股にかけて旅するんだ！<line-break>　<line-break>そうと決まれば、<line-break>さっそくギルドで冒険者登録だ。<line-break>俺、先にギルド行って待ってるよ！<end>"
+EN: "Come on, Sis, let's do it! We'll travel the world! Then it's settled. First thing, we register as adventurers at the Guild. I'll go on ahead and wait for you there!<end>"
+KO: "그래, 그렇게 하자, 누나! 세계를 누비며 여행하는 거야! 정했으면 당장 길드에서 모험자 등록이야. 난 먼저 길드에 가서 기다릴게!<end>"
+
+## 420125
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "よぉ、<value:$28>、<line-break>しけた面してるな。<end>"
+EN: "Hey, <value:$28>. You look pretty glum.<end>"
+KO: "여, <value:$28>. 시무룩한 얼굴이네.<end>"
+
+## 420126
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "弟さんのことかい？<end>"
+EN: "Is this about your younger brother?<end>"
+KO: "남동생 이야기인가?<end>"
+
+## 420127
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "よぉ、おじょうちゃん、<line-break>ずいぶんしけた面してるな？<line-break>　<line-break>弟でも見殺しにしたのかい？<end>"
+EN: "Hey there, young lady. You look awfully glum. Did you stand by and let your younger brother die or something?<end>"
+KO: "어이, 아가씨. 꽤 죽상이군? 동생이라도 죽게 내버려 둔 건가?<end>"
+
+## 420128
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺はゼネテス、　　　<line-break>冒険者だ。<line-break>　<line-break>あんたの名前は<line-break>聞かなくてもいい…。<line-break>ノーブルの英雄さん。<end>"
+EN: "I'm Xenetes, an adventurer. No need to tell me your name... Hero of Noble.<end>"
+KO: "나는 제네테스, 모험자다. 네 이름은 묻지 않아도 되겠군…. 노블의 영웅 씨.<end>"
+
+## 420129
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "あんたがどんな<line-break>気持ちかは知らない。　　　　　<line-break>　<line-break>だが、人間、つらかろうと<line-break>なんだろうと<line-break>生きて行かなきゃならない。<end>"
+EN: "I don't know how you feel. But no matter how hard it is, a person has to keep living.<end>"
+KO: "네가 어떤 기분인지는 모르겠다. 하지만 인간은 아무리 괴로워도 살아가야 한다.<end>"
+
+## 420130
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "特に、誰かが命がけで<line-break>その命を救ってくれた場合はな。<line-break>そうだろう？<end>"
+EN: "Especially when someone risked death to save you. Right?<end>"
+KO: "특히 누군가가 목숨을 걸고 그 목숨을 구해 줬다면 말이지. 그렇지?<end>"
+
+## 420131
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "冒険者になれよ。　　　　　　　<line-break>自由な冒険者に。<line-break>　<line-break>弟さんも、あんたがいつまでも<line-break>復讐だとか暗いことを考えてるの<line-break>望んじゃいないと思うぜ？<end>"
+EN: "Become an adventurer. A free adventurer. I don't think your younger brother would want you brooding forever over revenge and other dark thoughts, do you?<end>"
+KO: "모험자가 돼. 자유로운 모험자가. 동생도 네가 언제까지나 복수 같은 어두운 생각에 사로잡혀 있길 바라진 않을 거야.<end>"
+
+## 420132
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "しがらみなんて忘れちまえ。<line-break>その方が、ずっとあんたらしい。<line-break>　<line-break>ギルドで冒険者登録をしよう。<line-break>俺はギルドで待ってる。<line-break>ギルドに来てくれ。<end>"
+EN: "Forget all those ties and obligations. That's much more like you. Go register as an adventurer at the Guild. I'll be waiting there. Come to the Guild.<end>"
+KO: "얽매이는 건 잊어버려. 그게 훨씬 너답다. 길드에서 모험자 등록을 하자. 난 길드에서 기다릴게. 길드로 와.<end>"
+
+## 420133
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "冒険者登録するんなら、<line-break>カウンターのギルドのおやじに<line-break>話しかけるんだ。<end>"
+EN: "If you want to register as an adventurer, talk to the man from the Guild at the counter.<end>"
+KO: "모험자 등록을 하려면 카운터에 있는 길드 아저씨에게 말을 걸어.<end>"
+
+## 420134
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "冒険者登録かい。<line-break>ここに名前を記入してくれ。<end>"
+EN: "Here to register as an adventurer? Write your name here.<end>"
+KO: "모험자 등록인가. 여기에 이름을 적어 줘.<end>"
+
+## 420135
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "幻術計振れておらず<line-break>犯罪登録当てはまらず。　　　<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"
+EN: "No reading on the illusion meter, and no match in the criminal registry. Congratulations. You're now registered as an adventurer too.<end>"
+KO: "환술계 수치도 없고 범죄 등록에도 해당하지 않는군. 축하해. 너도 모험자로 등록됐어.<end>"
+
+## 420136
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "これからは、バリバリ仕事して<line-break>名をあげていってくれよ。<line-break>がんばりな！<end>"
+EN: "Now get out there, take on plenty of work, and make a name for yourself. Good luck!<end>"
+KO: "이제부터 팍팍 일해서 이름을 날려 줘. 힘내!<end>"
+
+## 420137
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "やったね。<line-break>仕事、がんばろうね、姉ちゃん。<end>"
+EN: "Great! Let's work hard, sis.<end>"
+KO: "해냈네. 일 열심히 하자, 누나.<end>"
+
+## 420139
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "よ、来てくれたのか。<end>"
+EN: "Hey, you made it.<end>"
+KO: "여어, 와줬구나.<end>"
+
+## 420140
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "冒険者登録するには、まずカウンターの<line-break>ギルドのおやじに話しかけるんだ。<end>"
+EN: "To register as an adventurer, first talk to the man from the Guild at the counter.<end>"
+KO: "모험자 등록을 하려면 우선 카운터에 있는 길드 아저씨에게 말을 걸어.<end>"
+
+## 420141
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "冒険者登録するんなら、カウンターの<line-break>ギルドのおやじに話しかけるんだ。<end>"
+EN: "If you want to register as an adventurer, talk to the man from the Guild at the counter.<end>"
+KO: "모험자 등록을 하려면 카운터에 있는 길드 아저씨에게 말을 걸어.<end>"
+
+## 420142
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "冒険者登録かい。<line-break>ここに名前を記入してくれ。<end>"
+EN: "Here to register as an adventurer? Write your name here.<end>"
+KO: "모험자 등록인가. 여기에 이름을 적어 줘.<end>"
+
+## 420143
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "幻術計振れておらず<line-break>犯罪登録当てはまらず。　　　<line-break>　<line-break>おめでとう。<line-break>あんたも冒険者として<line-break>登録されたよ。<end>"
+EN: "No reading on the illusion meter, and no match in the criminal registry. Congratulations. You're now registered as an adventurer.<end>"
+KO: "환술계 수치도 없고 범죄 등록에도 해당하지 않는군. 축하해. 너도 모험자로 등록됐어.<end>"
+
+## 420144
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "これからは、バリバリ仕事して<line-break>名をあげていってくれよ。<line-break>がんばりな！<end>"
+EN: "Now get out there, take on plenty of work, and make a name for yourself. Good luck!<end>"
+KO: "이제부터 팍팍 일해서 이름을 날려 줘. 힘내!<end>"
+
+## 420145
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "おめでとう。<line-break>これでお前さんも冒険者だ。<end>"
+EN: "Congratulations. Now you're an adventurer too.<end>"
+KO: "축하해. 이제 너도 모험자다.<end>"
+
+## 420146
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "よう、おやじ、何か<line-break>最近おもしろいネタはないか？<end>"
+EN: "Hey, old-timer. Heard anything interesting lately?<end>"
+KO: "여어, 아저씨. 요즘 재미있는 소식 없나?<end>"
+
+## 420147
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうだなあ。<line-break>賢者の森の猫屋敷なんてのはどうだい？<line-break>　<line-break>エンシャントの南東にある<line-break>賢者の森の奥深くには<line-break>猫屋敷って館があるらしいんだ。<end>"
+EN: "Let's see... How about Cat Manor in Sage's Forest? They say there's a mansion called Cat Manor deep in Sage's Forest, southeast of Ancient.<end>"
+KO: "그렇군. 현자의 숲에 있는 고양이 저택은 어때? 엔샨트 남동쪽 현자의 숲 깊숙한 곳에 고양이 저택이라는 관이 있대.<end>"
+
+## 420148
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "だが、この猫屋敷を見た<line-break>冒険者はまだひとりもいないんだ。　　<line-break>おもしろいだろう？<line-break>噂によれば、運命に選ばれた者だけが<line-break>その猫屋敷を発見でき、<line-break>その猫屋敷の中に入れるんだとさ。<end>"
+EN: "But not one adventurer has ever seen Cat Manor. Intriguing, isn't it? Rumor has it that only those chosen by fate can find the manor and enter it.<end>"
+KO: "하지만 그 고양이 저택을 본 모험자는 아직 한 명도 없어. 재미있지? 소문으로는 운명에 선택받은 자만 그 고양이 저택을 발견하고 안으로 들어갈 수 있다더군.<end>"
+
+## 420149
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "どう思う、<line-break><value:$28>？<end>"
+EN: "What do you think, <value:$28>?<end>"
+KO: "어떻게 생각해, <value:$28>?<end>"
+
+## 420150
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "くだらない、ただの噂話ね<end>"
+EN: "Nonsense. It's just a rumor.<end>"
+KO: "시시해, 그냥 소문일 뿐이야<end>"
+
+## 420151
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "おもしろそうね<end>"
+EN: "It sounds interesting.<end>"
+KO: "재미있겠네<end>"
+
+## 420152
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "かもしれない。　　　　　　　　　　<line-break>　<line-break>　<line-break>だが、火のないところに<line-break>煙は立たないとも言う。<line-break>この噂にも何かの実体はあるはずだ。<end>"
+EN: "Perhaps. But as they say, there's no smoke without fire. There must be something behind this rumor.<end>"
+KO: "그럴지도 모르지. 하지만 아니 땐 굴뚝에 연기 나랴는 말도 있어. 이 소문에도 뭔가 실체가 있을 거야.<end>"
+
+## 420153
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "チャカは少し頭が悪くなった。<line-break>チャカのＩＮＴが１下がった。<end>"
+EN: "Chaka got a little stupider. Chaka's ＩＮＴ dropped by 1.<end>"
+KO: "차카는 조금 머리가 나빠졌다. 차카의 INT가 1 내려갔다.<end>"
+
+## 420154
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "チャカは少し打たれ強くなった。<line-break>チャカのＶＩＴが１上がった。<end>"
+EN: "Chaka got a little tougher. Chaka's ＶＩＴ rose by 1.<end>"
+KO: "차카는 조금 더 맷집이 좋아졌다. 차카의 VIT가 1 올랐다.<end>"
+
+## 420155
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "せっかくここまで来たんだ。<line-break>冒険者登録していった方がいい。<line-break>　<line-break>冒険者登録をするためには<line-break>カウンターにいる<line-break>ギルドのおやじに話しかけるんだ。<end>"
+EN: "Since you've come all this way, you might as well register as an adventurer. To do that, talk to the man from the Guild at the counter.<end>"
+KO: "여기까지 왔으니 모험자 등록을 하고 가는 게 좋아. 등록하려면 카운터에 있는 길드 아저씨에게 말을 걸면 돼.<end>"
+
+## 420156
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "やあ、<value:$28>。<line-break>君に伝えたいことがあってさ。　　<line-break>　<line-break>エンシャントの南東にある<line-break>賢者の森の奥深くに<line-break>猫屋敷という館があるらしいんだ。<end>"
+EN: "Hey, <value:$28>. There's something I wanted to tell you. Apparently, deep in Sage's Forest, southeast of Ancient, there's a mansion called Cat Manor.<end>"
+KO: "안녕, <value:$28>. 네게 전하고 싶은 게 있어서. 엔샨트 남동쪽 현자의 숲 깊은 곳에 고양이 저택이라는 저택이 있대.<end>"
+
+## 420157
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "その猫屋敷には<line-break>運命に選ばれた者しか<line-break>たどりつけないんだって。<end>"
+EN: "They say only those chosen by fate can reach Cat Manor.<end>"
+KO: "그 고양이 저택에는 운명에 선택받은 자만 도달할 수 있대.<end>"
+
+## 420158
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、誰もその猫屋敷に<line-break>たどりついた人はいないんだって。<end>"
+EN: "But then, they also say no one's ever made it there.<end>"
+KO: "하지만 아무도 그 고양이 저택에 도착한 사람은 없대.<end>"
+
+## 420159
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんだか、変な噂だよね。<end>"
+EN: "It's a strange rumor, isn't it?<end>"
+KO: "왠지 이상한 소문이네.<end>"
+
+## 420161
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ねえ、<value:$28>。<line-break>賢者の森へ行ってみてよ。<line-break>きっと何かある気がするんだ。<end>"
+EN: "Hey, <value:$28>. Go check out Sage's Forest. I have a feeling there's something there.<end>"
+KO: "저기, <value:$28>. 현자의 숲에 가 봐. 분명 뭔가 있을 것 같아.<end>"
+
+## 420162
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "きっとだよ！<line-break><value:$28>。<end>"
+EN: "I'm sure of it, <value:$28>!<end>"
+KO: "꼭이야! <value:$28>.<end>"
+
+## 420163
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>か。<line-break>最近、エストが連絡もよこさん。<line-break>あいつから何か聞いてないか？<end>"
+EN: "Ah, <value:$28>. Est hasn't been in touch lately. Have you heard anything from Est?<end>"
+KO: "<value:$28>인가. 요즘 에스트가 연락도 없군. 그 녀석한테 뭐 들은 거 없나?<end>"
+
+## 420164
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "何をうつむいている。<line-break>エストに何かあったのか？<end>"
+EN: "Why are you looking down? Has something happened to Est?<end>"
+KO: "왜 고개를 숙이고 있지. 에스트에게 무슨 일이 있었나?<end>"
+
+## 420165
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうか、まあいい。<line-break>これを見ろ。<line-break>エストの机の上にあったメモだ。<end>"
+EN: "I see. Well, never mind. Look at this. It's a note that was on Est's desk.<end>"
+KO: "그런가, 뭐 됐다. 이걸 봐. 에스트의 책상 위에 있던 메모다.<end>"
+
+## 420166
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そこに<line-break>エンシャント、賢者の森、奥に猫屋敷<line-break>とあるだろう？<end>"
+EN: "It says, “Ancient, Sage's Forest, Cat Manor deep within,” doesn't it?<end>"
+KO: "거기에 엔샨트, 현자의 숲, 안쪽에 고양이 저택이라고 적혀 있지?<end>"
+
+## 420167
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "もしかしたら、そのあたりで<line-break>何かの発掘をしているのかもしれん。<line-break>　<line-break>俺は少々忙しい。<line-break>お前がエストを探しに行ってくれ。<end>"
+EN: "There may be some sort of excavation going on around there. I'm rather busy, so I want you to go look for Est.<end>"
+KO: "어쩌면 그 근처에서 뭔가 발굴하고 있을지도 몰라. 난 좀 바쁘니 네가 에스트를 찾으러 가 줘.<end>"
+
+## 420168
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオン様、<line-break>お客様でございます。<end>"
+EN: "Lord Lemghon, you have company.<end>"
+KO: "레무온 님, 손님이 오셨습니다.<end>"
+
+## 420169
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ、今行く。<line-break>では、頼んだぞ。<end>"
+EN: "Yes, I'm coming. I'll leave it to you, then.<end>"
+KO: "그래, 지금 간다. 그럼 부탁한다.<end>"
+
+## 420170
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "おや、お客様のようですね。<line-break>いらっしゃい、ようこそ猫屋敷へ。<line-break>　<line-break>私はここの主オルファウス。<line-break>どうぞ、中へ。<line-break>お茶でも飲みながらお話でも…。<end>"
+EN: "Oh, it seems we have a visitor. Welcome to Cat Manor. I am Orphaus, master of this house. Please, come in. We can talk over a cup of tea...<end>"
+KO: "어라, 손님이군요. 어서 오세요, 고양이 저택에 오신 걸 환영합니다. 저는 이곳의 주인 올파우스. 들어오세요. 차라도 마시며 이야기하죠.<end>"
+
+## 420171
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "フフ、ここには偶然来るなんてことは<line-break>あり得ないのですよ。<line-break>　<line-break>私は運命なんて言葉は嫌いですが<line-break>たぶん、大事な巡り合わせなんですよ。<line-break>さ、どうぞ。<end>"
+EN: "Heh. No one ever comes here by chance. I dislike the word “fate,” but this may well be an important meeting. Please, come in.<end>"
+KO: "후후, 이곳에 우연히 오게 되는 일은 있을 수 없답니다. 저는 운명이라는 말을 싫어하지만 아마 중요한 인연인 거겠죠. 자, 들어오세요.<end>"
+
+## 420172
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、どうするんだ。<line-break>…逃げよっか。<end>"
+EN: "Sis, what do we do? Think we should run?<end>"
+KO: "누나, 어떡할 거야. …도망칠까.<end>"
+
+## 420173
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "いったあ！　もう！<line-break>すぐ殴るんだからなー！<line-break>　<line-break>俺がバカになったら<line-break>姉ちゃんのせいだぜ！<line-break>ほんとに、もう！<end>"
+EN: "Ow! Come on! You're always hitting me! If I turn stupid, it'll be your fault, Sis! Honestly!<end>"
+KO: "아야! 정말! 맨날 때리기나 하고! 내가 바보가 되면 누나 책임이야! 정말이지!<end>"
+
+## 420174
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "チャカは少し頭が悪くなった。<line-break>チャカのＩＮＴが１下がった。<end>"
+EN: "Chaka got a little stupider. Chaka's ＩＮＴ dropped by 1.<end>"
+KO: "차카는 조금 머리가 나빠졌다. 차카의 INT가 1 내려갔다.<end>"
+
+## 420175
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "チャカは少し打たれ強くなった。<line-break>チャカのＶＩＴが１上がった。<end>"
+EN: "Chaka got a little tougher. Chaka's ＶＩＴ rose by 1.<end>"
+KO: "차카는 조금 더 맷집이 좋아졌다. 차카의 VIT가 1 올랐다.<end>"
+
+## 420176
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、待ってよー。<end>"
+EN: "Sis, wait for me!<end>"
+KO: "누나, 기다려 줘ー.<end>"
+
+## 420177
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "なるほど…。<line-break>闇の神器・焦燥の耳飾りですか。<end>"
+EN: "I see... The Dark Artifact known as the Earring of Impatience.<end>"
+KO: "그렇군요…. 어둠의 신기, 초조의 귀걸이입니까.<end>"
+
+## 420178
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "なあ、エストは…、<line-break>エストは治るんだよな。<end>"
+EN: "Hey, Est... Est can be cured, right?<end>"
+KO: "있잖아, 에스트는… 에스트는 낫는 거지?<end>"
+
+## 420179
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の神器の力を得て<line-break>その人が闇に堕ちたのなら、<line-break>原則的に元に戻ることはありません。<end>"
+EN: "If someone gains the power of a Dark Artifact and falls into darkness, ordinarily there is no way to restore that person.<end>"
+KO: "어둠의 신기의 힘을 얻어 그 사람이 어둠에 떨어졌다면 원칙적으로는 원래대로 돌아오지 못합니다.<end>"
+
+## 420180
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そ、そんな…。<line-break>そんなのって！<end>"
+EN: "N-no... That can't be!<end>"
+KO: "그, 그럴 수가…. 그런 건…!<end>"
+
+## 420182
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "誰かのためにという<line-break>行動で大きくなります。<line-break>例えばギルドの仕事などでね。<line-break>そのソウルでいやせるそうです。<line-break>そのエストという人を<line-break>大事に思う誰かさんの思いでね。<end>"
+EN: "It grows when you do things for others―Guild work, for example. Apparently, that Soul can heal Est through the feelings of someone who cares deeply for Est.<end>"
+KO: "누군가를 위한 행동으로 커집니다. 예를 들면 길드의 일 같은 것으로요. 그 소울로 치유할 수 있다고 합니다. 그 에스트라는 사람을 소중히 여기는 누군가의 마음으로 말이죠.<end>"
+
+## 420183
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "無限のソウルの持ち主ならば、<line-break>人のソウル…誰かが誰かを思う心を<line-break>媒介することができます。<line-break>つまり、無限のソウルの持ち主なら<line-break>その誰かに接することでエストを<line-break>救うことができるようになるのです。<end>"
+EN: "The bearer of the Infinite Soul can serve as a conduit for another person's Soul―the feelings one person holds for another. In other words, by bringing the bearer into contact with that person, it becomes possible to save Est.<end>"
+KO: "무한의 소울을 가진 자라면 사람의 소울… 누군가가 누군가를 생각하는 마음을 매개할 수 있습니다. 즉 무한의 소울을 가진 자라면 그 누군가와 접함으로써 에스트를 구할 수 있게 되는 겁니다.<end>"
+
+## 420184
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、無限のソウルの持ち主って…<line-break>そんな奴、簡単に見つかるわけが！<end>"
+EN: "But the bearer of the Infinite Soul... You can't expect to find someone like that so easily!<end>"
+KO: "하지만 무한의 소울을 지닌 자라니… 그런 녀석을 쉽게 찾을 수 있을 리가!<end>"
+
+## 420185
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "少なくとも可能性はゼロじゃない…。<line-break>あきらめたら、ゼロですけどね。<line-break>　<line-break>運命なんて適当ですからね。<line-break>案外、あなたが、無限のソウルの<line-break>持ち主かもしれませんよ。<end>"
+EN: "At least the chance isn't zero. Give up, and it will be. Fate is rather arbitrary, you know. For all we know, you may be the bearer of the Infinite Soul.<end>"
+KO: "적어도 가능성은 0이 아니야…. 포기하면 0이지만. 운명 같은 건 적당하니까. 의외로 당신이 무한의 소울을 가진 자일지도 몰라요.<end>"
+
+## 420186
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…<value:$28>さん。<line-break>　<line-break>　<end>"
+EN: "...<value:$28>.<end>"
+KO: "…<value:$28> 씨.<end>"
+
+## 420187
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "フフ、それに、このことについては<line-break>まだ、よくわかっていないのです。<line-break>　<line-break>無限のソウルとまでいかなくても<line-break>ある程度、ソウルを大きくすれば<line-break>できることなのかもしれない。<end>"
+EN: "Heh. Besides, there is still much we do not understand about this. Perhaps an Infinite Soul isn't necessary. It may be possible once one's Soul has grown sufficiently.<end>"
+KO: "후후, 그리고 이 일은 아직 잘 알려지지 않았습니다. 무한의 소울까지는 아니더라도 어느 정도 소울을 키우면 가능한 일일지도 모릅니다.<end>"
+
+## 420188
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "だから、ギルドで仕事をして<line-break>ソウルを大きく成長させておくのも<line-break>よい方法だと思いますよ。<end>"
+EN: "So it may be a good idea to take jobs at the Guild and build up your Soul.<end>"
+KO: "그러니 길드에서 일을 하며 소울을 크게 성장시켜 두는 것도 좋은 방법이라고 생각합니다.<end>"
+
+## 420189
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "なるほど、大活躍だったんですねえ。<line-break>さすがは無限のソウルの持ち主です。<line-break>　<line-break>ま、ここに来るのが<line-break>巡り合わせというのも<line-break>わかりますねえ。<end>"
+EN: "I see. You've accomplished quite a lot. Just what one would expect of the bearer of the Infinite Soul. Well, I can certainly understand why fate brought you here.<end>"
+KO: "그렇군요, 대활약이셨네요. 역시 무한의 소울의 소유자입니다. 뭐, 여기 오는 게 인연이라는 것도 이해가 되네요.<end>"
+
+## 420190
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "くすっ、すいません。<line-break>年を取ると独り言が多くなって…。<end>"
+EN: "Heh, forgive me. Age does make one prone to talking to oneself.<end>"
+KO: "후훗, 미안합니다. 나이를 먹으니 혼잣말이 많아져서….<end>"
+
+## 420191
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ま、とにかく、今、あなたは<line-break>故郷を追われ、居所がないんですよね。<line-break>　<line-break>どうでしょう。<line-break>あなたさえよければ、<line-break>ここを中心に活動されては？<end>"
+EN: "Well, in any case, you've been driven from your homeland and have nowhere to stay at present, correct? If it suits you, why not make this your base of operations?<end>"
+KO: "…뭐, 어쨌든 지금 당신은 고향에서 쫓겨나 머물 곳이 없죠. 어떻습니까. 당신만 괜찮다면 이곳을 중심으로 활동해 보시는 게?<end>"
+
+## 420192
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "くすっ。<line-break>あなたのその気性、好きですよ。<line-break>　<line-break>見せたいモノがあります。<line-break>来てください。<line-break><value:$28>。<end>"
+EN: "Heh. I like that spirit of yours. There is something I'd like to show you. Come with me, <value:$28>.<end>"
+KO: "후훗. 당신의 그 성격, 마음에 들어요. 보여 주고 싶은 게 있습니다. 와 주세요, <value:$28>.<end>"
+
+## 420193
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…姉ちゃんって大胆だよな。<line-break>行くって言ったんだから<line-break>行ってきなよ。<line-break>俺はここで待ってる。<line-break>なんかあったときには<line-break>駆けつけるから。<end>"
+EN: "You're pretty bold, you know. You said you'd go, so go on. I'll wait here. If anything happens, I'll come running.<end>"
+KO: "…누나는 대담하네. 간다고 했으니 다녀와. 난 여기서 기다릴게. 무슨 일이 생기면 달려갈 테니까.<end>"
+
+## 420194
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ま、それで、微力ながら<line-break>お手伝いしようということで…、<end>"
+EN: "Well, I thought I might offer what little help I can...<end>"
+KO: "뭐, 그래서 미력하나마 도와드리려고….<end>"
+
+## 420195
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "この子でも役立ててもらおうかな、<line-break>と思うんです。<line-break>　<line-break>この転送機は<line-break>世界中のたいていの所から<line-break>仲間を呼び出せるんです。<end>"
+EN: "I thought this little device might be of some use to you. It can summon your companions from almost anywhere in the world.<end>"
+KO: "이 아이도 도움이 되게 해 볼까 합니다. 이 전송기는 세계 대부분의 장소에서 동료를 불러올 수 있어요.<end>"
+
+## 420196
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、姉ちゃん！<line-break>これ、どうなってるんだ？<end>"
+EN: "Hey, sis! What's going on here?<end>"
+KO: "아, 누나! 이거 어떻게 된 거야?<end>"
+
+## 420197
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "逆に、別れたい仲間を、<line-break>望む所に送り出してやることも<line-break>できます。<end>"
+EN: "It can also send any companions you wish to part with wherever they would like to go.<end>"
+KO: "반대로 헤어지고 싶은 동료를 원하는 곳으로 보내 줄 수도 있습니다.<end>"
+
+## 420198
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "たぶん、この子は役に立ちますよ。<end>"
+EN: "This little device will probably prove useful.<end>"
+KO: "아마 이 아이는 도움이 될 겁니다.<end>"
+
+## 420199
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "あなたが将来、旅の途中で人と出会い、<line-break>仲間を増やしたときなんかにね<end>"
+EN: "It should, once you've met people on your travels and gained more companions.<end>"
+KO: "네가 훗날 여행 도중 사람들을 만나고 동료를 늘리게 될 때 같은 경우에 말이지.<end>"
+
+## 420200
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ど、どうなってるんだよ、これ！？<line-break>ね、姉ちゃん！<end>"
+EN: "W-what's going on here?! Sis!<end>"
+KO: "이, 이게 어떻게 된 거야!? 누, 누나!<end>"
+
+## 420201
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "うふふ、<line-break>驚かせてしまってすみません。　　　<line-break>　<line-break>今後は呼び出す前に<line-break>メンバーに都合を確認します。<line-break>もう、こんなことはありませんから。<end>"
+EN: "Hee hee. I'm sorry for startling you. From now on, I'll make sure your companions are available before summoning them. This won't happen again.<end>"
+KO: "후후, 놀라게 해서 죄송합니다. 앞으로는 부르기 전에 멤버 사정을 확인하겠습니다. 이제 이런 일은 없을 거예요.<end>"
+
+## 420202
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…というわけでですねえ。<line-break>　<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
+EN: "So there you have it. If you ever wish to change who travels with you, come to Cat Manor.<end>"
+KO: "…그런 이유로 말이죠. 함께 여행하는 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>"
+
+## 420203
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "で、これだけのモノを提供する代わりに<line-break>ひとつ、頼まれてほしいことがあります。<line-break>聞いてもらえますか。<end>"
+EN: "Now, in return for providing you with all this, I have one favor to ask. Will you hear me out?<end>"
+KO: "그리고 이만큼을 제공하는 대신 한 가지 부탁드리고 싶은 일이 있습니다. 들어 주시겠습니까?<end>"
+
+## 420204
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ありがとうございます。<line-break>では、お話ししましょう。<end>"
+EN: "Thank you. Then let me explain.<end>"
+KO: "감사합니다. 그럼 이야기하죠.<end>"
+
+## 420205
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "先ほどお話しした闇の神器、<line-break>禁断の聖杯に関することですが…。<line-break>じつはその聖杯をねらっている<line-break>魔人がいるんです。<end>"
+EN: "This concerns the Dark Artifact I mentioned earlier: the Forbidden Grail. There is, in fact, a demon after it.<end>"
+KO: "아까 말씀드린 어둠의 신기, 금단의 성배에 관한 일인데요…. 사실 그 성배를 노리는 마인이 있습니다.<end>"
+
+## 420206
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "さっそくですが、<line-break>闇の神器というのを<line-break>ご存じですか？<end>"
+EN: "First, have you heard of the Dark Artifact?<end>"
+KO: "바로 본론인데, 어둠의 신기라는 걸 알고 계십니까?<end>"
+
+## 420207
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の神器は全部で<line-break>１２種類あるんです。<line-break>　<line-break>そのうちのひとつ、禁断の聖杯は<line-break>持ち主に英知を与えることが<line-break>できます。<end>"
+EN: "There are twelve Dark Artifacts in all. One of them, the Forbidden Grail, can grant wisdom to its bearer.<end>"
+KO: "어둠의 신기는 모두 12종류입니다. 그중 하나인 금단의 성배는 소유자에게 지혜를 줄 수 있습니다.<end>"
+
+## 420208
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "その禁断の聖杯をねらっている<line-break>魔人がいるんです。<end>"
+EN: "There is a demon after that Forbidden Grail.<end>"
+KO: "그 금단의 성배를 노리는 마인이 있습니다.<end>"
+
+## 420210
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫がしゃべった！<end>"
+EN: "The cat talked!<end>"
+KO: "고양이가 말했다!<end>"
+
+## 420211
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺は猫じゃない。<line-break>破壊神の円卓騎士のひとりネモだ！　　<line-break>　<line-break>今は、力を封じられて<line-break>こんな姿だがな。<line-break>ま、それはいいとして、とにかくだ。<end>"
+EN: "I'm not a cat. I'm Nemo, one of the God of Destruction's Knights of the Round Table! My power has been sealed away, so I'm stuck like this for now. But never mind that. The point is...<end>"
+KO: "난 고양이가 아니다. 파괴신의 원탁기사 중 하나인 네모다! 지금은 힘을 봉인당해 이런 모습이지만. 뭐, 그건 됐고 아무튼.<end>"
+
+## 420212
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "アーギルシャイアの奴、強い合成怪物を<line-break>作って、世界をおもしろ半分に<line-break>破壊しようと考えてやがる。<end>"
+EN: "That Argyleshire is planning to create a powerful hybrid monster and destroy the world for amusement.<end>"
+KO: "아르길샤이어 녀석, 강한 합성괴물을 만들어 재미 삼아 세계를 파괴하려고 생각하고 있어.<end>"
+
+## 420213
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "アーギルシャイアは、その合成怪物を<line-break>作るための知識を、禁断の聖杯から<line-break>得ようと、ねらっているんです。<end>"
+EN: "Argyleshire is after the Forbidden Grail so she can obtain the knowledge needed to create that hybrid monster.<end>"
+KO: "아르길샤이어는 그 합성괴물을 만들 지식을 금단의 성배에서 얻으려고 노리고 있습니다.<end>"
+
+## 420214
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "彼女は気まぐれで残忍です。<line-break>この前も闇の神器を奪うために<line-break>村ひとつを焼き払ってしまいました。<line-break>そんな悲劇を繰り返さないためにも、<line-break>あなた方に<line-break>聖杯を取ってきてほしいのです。<end>"
+EN: "She is capricious and cruel. Not long ago, she burned an entire village to the ground just to seize a Dark Artifact. To prevent another such tragedy, I want you to retrieve the Grail.<end>"
+KO: "그녀는 변덕스럽고 잔인합니다. 얼마 전에도 어둠의 신기를 빼앗기 위해 마을 하나를 불태웠습니다. 그런 비극을 되풀이하지 않기 위해서라도 여러분이 성배를 가져와 주셨으면 합니다.<end>"
+
+## 420215
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃんの言うとおりだ。<line-break>何か手がかりはないのか？<end>"
+EN: "My sister's right. Do we have any leads?<end>"
+KO: "누나 말이 맞아. 뭔가 단서는 없어?<end>"
+
+## 420216
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "今、聖杯を持っているのは、<line-break>ゴブゴブ団と名乗るゴブリンどもだ。<line-break>　<line-break>聖杯の力で人間の言葉を<line-break>しゃべれるようになってる。<line-break>すぐわかるはずだ。<end>"
+EN: "The Grail is now in the hands of some Goblins calling themselves the Gob-Gob Gang. Its power has taught them to speak the human tongue. You can't miss them.<end>"
+KO: "지금 성배를 가진 건 고브고브단이라 자칭하는 고블린들이다. 성배의 힘으로 인간의 말을 할 수 있게 됐으니 금방 알아볼 거야.<end>"
+
+## 420217
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "くすっ。<end>"
+EN: "Hee.<end>"
+KO: "후훗.<end>"
+
+## 420218
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネモはもとの姿に戻るために<line-break>彼らを操り、聖杯を盗ませたのですが、<end>"
+EN: "Nemo manipulated them into stealing the Grail so he could regain his true form, but...<end>"
+KO: "네모는 원래 모습으로 돌아가기 위해 그들을 조종해 성배를 훔치게 했습니다만,<end>"
+
+## 420219
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "知恵を付けた彼らに見放されて、　　　<line-break>今もこの格好なんです。<end>"
+EN: "Once they gained wisdom, they abandoned him. And so he remains like this.<end>"
+KO: "지혜를 얻은 그들에게 버림받아서 지금도 이 모습인 겁니다.<end>"
+
+## 420220
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "うるさい！　<line-break>とにかく、このままでは<line-break>奴らが危ない。<line-break>それに最悪、アーギルシャイアが、<line-break>奴らがいる町ごと焼き払うことだって<line-break>あり得るんだ。ミイスのときみたいに！<end>"
+EN: "Shut up! The point is, those goblins are in danger. At worst, Argyleshire might burn down the whole town they're in, just like she did at Miis!<end>"
+KO: "시끄러워! 아무튼 이대로라면 녀석들이 위험해. 최악의 경우 아르길샤이어가 녀석들이 있는 도시째 불태울 수도 있어. 미이스 때처럼!<end>"
+
+## 420221
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そういうわけで<line-break>聖杯を取ってきてほしいのです。<line-break>お願いできるでしょうか？<end>"
+EN: "And that is why I want you to retrieve the Grail. May I ask you to do this?<end>"
+KO: "그런 이유로 성배를 가져와 주셨으면 합니다. 부탁드려도 될까요?<end>"
+
+## 420222
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "うふふ。ありがとうございます。　　<line-break>　<line-break>　<line-break>聖杯はここに持ってきてくれれば<line-break>私が預かります。<end>"
+EN: "Hee hee. Thank you. Bring the Grail here, and I will keep it safe.<end>"
+KO: "후후. 감사합니다. 성배는 여기로 가져오시면 제가 보관하겠습니다.<end>"
+
+## 420223
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "もっとも、私が信用できないなら、<line-break>あなたが責任を持って<line-break>預かっていてくれてもかまいません。<line-break>そのあたりの判断は<line-break>あなた方にお任せします。<end>"
+EN: "Of course, if you do not trust me, you may take responsibility for safeguarding it yourself. I leave that decision to you.<end>"
+KO: "물론 저를 믿을 수 없다면 당신이 책임지고 보관해도 괜찮습니다. 그 판단은 여러분께 맡기겠습니다.<end>"
+
+## 420224
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "それにしても、無限のソウルを<line-break>持つ者ですかぁ…。<line-break>　<line-break>竜王が目覚め、闇の門が開き、<line-break>そして無限のソウルの<line-break>持ち主が現れる…。<end>"
+EN: "Still, the Bearer of the Infinite Soul... The Dragon King awakens, the Dark Gate opens, and the Bearer of the Infinite Soul appears...<end>"
+KO: "그나저나 무한의 소울을 지닌 자라…. 용왕이 깨어나고 어둠의 문이 열리며, 무한의 소울을 지닌 자가 나타난다….<end>"
+
+## 420225
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "運命の女神も<line-break>本当にいたずらですねえ。<line-break>くすくす…。<end>"
+EN: "The Goddess of Fate does love her little games. Hee hee...<end>"
+KO: "운명의 여신도 정말 장난꾸러기네요. 후후후….<end>"
+
+## 420226
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…いや、これは失礼しました。<line-break>ただの独り言です。<end>"
+EN: "Ah, forgive me. I was only talking to myself.<end>"
+KO: "…아니, 실례했습니다. 그냥 혼잣말입니다.<end>"
+
+## 420227
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "すみません。<line-break>私ばかり話してしまって。<line-break>質問があればどうぞ。<end>"
+EN: "I'm sorry. I've done all the talking. Please ask if you have any questions.<end>"
+KO: "죄송합니다. 저만 계속 이야기했군요. 질문이 있으시면 말씀하세요.<end>"
+
+## 420228
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "無限のソウルとは<end>"
+EN: "What is the Infinite Soul?<end>"
+KO: "무한의 소울이란<end>"
+
+## 420229
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "転送機について<end>"
+EN: "About the teleportation device<end>"
+KO: "전송기에 대해<end>"
+
+## 420230
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の神器について<end>"
+EN: "About the Dark Artifact<end>"
+KO: "어둠의 신기에 대하여<end>"
+
+## 420231
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネモについて<end>"
+EN: "About Nemo<end>"
+KO: "네모에 대해서<end>"
+
+## 420232
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "アーギルシャイアについて<end>"
+EN: "About Argyleshire<end>"
+KO: "아르길샤이어에 대해서<end>"
+
+## 420233
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "質問はない<end>"
+EN: "No questions<end>"
+KO: "질문은 없다<end>"
+
+## 420234
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "フフ、それは秘密です。　　<line-break>　<line-break>　<line-break>ま、おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
+EN: "Heh heh, that's a secret. You'll understand in time. For now, take on some work at the Guild.<end>"
+KO: "후후, 그건 비밀입니다. 뭐, 차차 알게 될 겁니다. 일단 길드에서 일을 해 주세요.<end>"
+
+## 420235
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "他人のために働くことで、<line-break>魂を成長させていけば<line-break>いずれ、わかってきますよ。<end>"
+EN: "As you work for the sake of others and nurture your soul, the answer will come to you.<end>"
+KO: "다른 사람을 위해 일하며 영혼을 성장시켜 가면 언젠가 알게 될 겁니다.<end>"
+
+## 420236
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "将来、旅の途中で出会った仲間を<line-break>呼び出すための装置です。<line-break>　<line-break>一緒に旅する仲間を<line-break>変更したくなったら<line-break>この猫屋敷に来てください。<end>"
+EN: "It is a device for summoning companions you meet on your future travels. If you ever wish to change who travels with you, come to Cat Manor.<end>"
+KO: "앞으로 여행 중 만난 동료를 불러내기 위한 장치입니다. 함께 여행할 동료를 바꾸고 싶어지면 이 고양이 저택으로 와 주세요.<end>"
+
+## 420237
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "一緒に旅をしたい仲間を呼び出したり、<line-break>別行動を取ることを決めた仲間を<line-break>送り出したりできますよ。<end>"
+EN: "You can summon companions you wish to travel with, or send off those who have decided to go their separate ways.<end>"
+KO: "함께 여행하고 싶은 동료를 불러오거나 따로 행동하기로 한 동료를 돌려보낼 수 있어요.<end>"
+
+## 420238
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "破壊神ウルグの復活に<line-break>用いられた強力な魔道器です。　<line-break>　<line-break>１２種類あるといいます。<line-break>禁断の聖杯は<line-break>その中のひとつですね。<end>"
+EN: "It is a powerful magical artifact once used to resurrect Ulugh, the God of Destruction. There are said to be twelve such artifacts, and the Forbidden Grail is one of them.<end>"
+KO: "파괴신 울그의 부활에 쓰인 강력한 마도기입니다. 12종류가 있다고 하지요. 금단의 성배도 그중 하나입니다.<end>"
+
+## 420239
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯については<line-break>今、ゴブゴブ団という<line-break>３匹のゴブリンが持っています。<line-break>とりあえずは、<line-break>エンシャントを探してみると<line-break>彼らに会えると思いますよ。<end>"
+EN: "The Forbidden Grail is now in the hands of three Goblins called the Gob-Gob Gang. Try searching Ancient for now. I believe you'll find them there.<end>"
+KO: "금단의 성배라면 지금 고브고브단이라는 고블린 셋이 가지고 있습니다. 일단 엔샨트를 찾아보면 그들을 만날 수 있을 거예요.<end>"
+
+## 420240
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ここにいるブサイクな猫です。　　　　<line-break>口は悪いけど、無害ですよ。<line-break>　<line-break>もともとは老人星の精霊で<line-break>天空の賢者とも呼ばれていましたが、<line-break>地上に落ちて、魔人になりました。<end>"
+EN: "That ugly cat over there. He has a foul mouth, but he's harmless. He was once the spirit of the Elder Star and was also known as the Sage of the Heavens, but after falling to earth, he became a demon.<end>"
+KO: "여기 있는 못생긴 고양이예요. 입은 험하지만 무해해요. 원래는 노인성의 정령으로 천공의 현자라고도 불렸지만 지상으로 떨어져 마인이 되었습니다.<end>"
+
+## 420241
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "破壊神の強力な魔人、<line-break>１２人の円卓騎士のひとりで<line-break>名前を知るものの異名を持ちます。<end>"
+EN: "He is one of the God of Destruction's twelve powerful demonic Knights of the Round Table, and bears the epithet \"He Who Knows the Name.\"<end>"
+KO: "파괴신의 강력한 마인, 12인의 원탁기사 중 하나로 '이름을 아는 자'라는 이명을 지녔습니다.<end>"
+
+## 420242
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "円卓騎士には他に<line-break>アーギルシャイアなどがいますね。　　<line-break>　<end>"
+EN: "The other Knights of the Round Table include Argyleshire.<end>"
+KO: "원탁기사에는 그 밖에도 아르길샤이어 등이 있습니다.<end>"
+
+## 420243
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "破壊神ウルグの円卓騎士のひとりです。<line-break>妖艶な美女の姿をしています。<line-break>　<line-break>きわめて、気まぐれで残酷です。<line-break>すでに別の神器を手に入れるために<line-break>ミイスの村を焼き払っています。<end>"
+EN: "She is one of the Knights of the Round Table serving Ulugh, the God of Destruction. She takes the form of a seductive beauty and is exceedingly capricious and cruel. She has already burned Miis Village to the ground to obtain another artifact.<end>"
+KO: "파괴신 울그의 원탁기사 중 하나입니다. 요염한 미녀의 모습을 하고 있습니다. 매우 변덕스럽고 잔혹합니다. 이미 다른 신기를 손에 넣기 위해 미이스 마을을 불태웠습니다.<end>"
+
+## 420244
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "究極生物を作ろうとして、<line-break>その製法を禁断の聖杯から得ようと<line-break>ねらっています。<line-break>円卓騎士には他に<line-break>うちのネモなどがいますね。<line-break>　<end>"
+EN: "She intends to create the Ultimate Life-Form and is after the Forbidden Grail for the knowledge of how to make it. Our Nemo is another of the Knights of the Round Table.<end>"
+KO: "궁극생물을 만들려고 그 제조법을 금단의 성배에서 얻으려 하고 있습니다. 원탁기사로는 그 밖에 우리 네모 등이 있지요.<end>"
+
+## 420245
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうですか。<end>"
+EN: "I see.<end>"
+KO: "그렇습니까.<end>"
+
+## 420246
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ま、そんな感じですかね。<line-break>わかっていただけましたか？<end>"
+EN: "Well, that about covers it. Do you understand?<end>"
+KO: "뭐, 대충 그런 느낌이네요. 이해하셨습니까?<end>"
+
+## 420247
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "聞きたいことがあれば答えますよ。<end>"
+EN: "If you have any questions, I'll be happy to answer them.<end>"
+KO: "궁금한 게 있으면 대답해 드리죠.<end>"
+
+## 420248
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "世界を巡って、人に出会い、<line-break>仲間を作ってください。<line-break>　<line-break>その中で世界は<line-break>様々な顔を見せてくれるでしょう。<line-break>自由な旅を！<end>"
+EN: "Travel the world, meet people, and find companions. Along the way, the world will show you its many faces. Travel freely!<end>"
+KO: "세계를 돌아다니며 사람을 만나고 동료를 만드세요. 그 속에서 세계는 여러 얼굴을 보여 줄 겁니다. 자유로운 여행을!<end>"
+
+## 420249
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうですか…。<line-break>弟さんが…。<end>"
+EN: "I see... Your younger brother...<end>"
+KO: "그렇습니까…. 동생분이….<end>"
+
+## 420250
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "冷たいことを言うようですが、<line-break>あなたはこれから、弟さんの死を<line-break>乗り越えていかねばなりません。<line-break>それはとてもつらいでしょうが、<line-break>これからあなたが何かをなすための<line-break>大事な試練なのだと思いますよ。<end>"
+EN: "This may sound cold, but you must find a way to move forward after your younger brother's death. It will be terribly painful, but I believe it is an important trial, one that will prepare you for whatever you may go on to accomplish.<end>"
+KO: "차갑게 들릴지 모르지만, 당신은 앞으로 동생의 죽음을 이겨 내야 합니다. 몹시 괴롭겠지만 앞으로 당신이 무언가를 이루기 위해 필요한 중요한 시련이라고 생각합니다.<end>"
+
+## 420251
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、<line-break>ソウル、という言葉を<line-break>聞いたことがありますか？<line-break>人は誰でもソウルというものを<line-break>持っています。平たい言葉で言うと<line-break>心のかたち、という感じでしょうか。<end>"
+EN: "<value:$28>, have you ever heard the word “Soul”? Everyone has a Soul. Put simply, you might think of it as the shape of the heart.<end>"
+KO: "<value:$28>, 소울이라는 말을 들어 본 적 있습니까? 사람은 누구나 소울이라는 걸 가지고 있습니다. 쉽게 말하면 마음의 형태 같은 것일까요.<end>"
+
+## 420252
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そして、あなたのソウルはとても大きな<line-break>可能性を秘めている……。あなたは<line-break>無限のソウルを持つ者なのです。<end>"
+EN: "And your Soul holds tremendous potential... You are a Bearer of the Infinite Soul.<end>"
+KO: "그리고 당신의 소울은 아주 큰 가능성을 품고 있습니다……. 당신은 무한의 소울을 지닌 자입니다.<end>"
+
+## 420253
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "これからのあなたの冒険の先には、<line-break>きっとこの世界を動かすような<line-break>大きなうねりがあるはずです。<end>"
+EN: "I am sure a great tide lies somewhere in the adventures ahead, one powerful enough to set this world in motion.<end>"
+KO: "앞으로 당신이 걸어갈 모험의 끝에는 분명 이 세계를 움직일 만큼 큰 소용돌이가 있을 겁니다.<end>"
+
+## 420254
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "どうか、そのうねりに打ち勝って<line-break>新しい時代を切り開いてください。<line-break>…亡くなった弟さんのためにも…。<end>"
+EN: "Please overcome that tide and forge a path into a new age. For the sake of the younger brother you lost, too...<end>"
+KO: "부디 그 거센 흐름을 이겨 내고 새로운 시대를 열어 주세요. …세상을 떠난 남동생을 위해서라도….<end>"
+
+## 420255
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そこで、わたしもささやかながら<line-break>あなたの冒険に<line-break>協力をしたいと思います。<end>"
+EN: "So I would like to offer what little help I can on your journey.<end>"
+KO: "그래서 저도 미약하나마 당신의 모험에 힘을 보태고 싶습니다.<end>"
+
+## 420256
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "逆に、別れた仲間を<line-break>望むところに<line-break>送り返してやれます。<line-break>今後はちゃんと、呼び出す前に<line-break>相手の都合を確認して、<line-break>そっちを優先しますがね。<end>"
+EN: "I can also send companions you've parted ways with back wherever they wish to go. From now on, though, I'll be sure to ask what suits them before summoning them and give that priority.<end>"
+KO: "반대로 헤어진 동료를 원하는 곳으로 돌려보내 줄 수도 있습니다. 앞으로는 부르기 전에 상대 사정을 확인하고 그쪽을 우선하겠습니다.<end>"
+
+## 420257
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "たぶん、この子は　　　　　　　<line-break>役に立ちますよ。<line-break>　<line-break>あなたが将来、<line-break>旅の途中で人と出会い、<line-break>仲間を増やしたときにね。<end>"
+EN: "I expect this one will prove useful someday, once you begin meeting people on your travels and gathering more companions.<end>"
+KO: "아마 이 아이는 도움이 될 겁니다. 앞으로 여행 중 사람을 만나고 동료가 늘어날 때 말이죠.<end>"
+
+## 420258
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "そんなに驚くな。<line-break>俺は猫じゃない。<line-break>破壊神の円卓騎士、ネモ様だ！　　<line-break>今は、力を封じられて<line-break>こんな姿だが、な。<line-break>ま、それはいいとして、とにかく、だ。<end>"
+EN: "Don't look so shocked. I'm not a cat. I am Lord Nemo, a Knight of the Round Table serving the God of Destruction! My power is sealed away, so this is the form I'm stuck in for now. Well, never mind that. The point is...<end>"
+KO: "그렇게 놀라지 마. 나는 고양이가 아니야. 파괴신의 원탁기사 네모 님이다! 지금은 힘이 봉인돼 이런 모습이지만 말이야. 뭐, 그건 됐고, 아무튼.<end>"
+
+## 420259
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "無限の可能性を持っています。<line-break>あなたのソウルがそうです。<line-break><line-break>ま、おいおいわかりますよ。<line-break>とりあえずはギルドで<line-break>仕事をしていってください。<end>"
+EN: "It holds infinite potential. Your Soul, that is. You'll understand in time. For now, take on some work at the Guild.<end>"
+KO: "무한한 가능성을 지니고 있습니다. 당신의 소울이 그렇습니다. 뭐, 차차 알게 될 겁니다. 우선 길드에서 일을 해보세요.<end>"
+
+## 420260
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "素敵な旅をしてください。<line-break>各地を巡り、多くの人と出会い<line-break>世界と交わっていくのです。<line-break>そうすれば、いずれ、<line-break>あなたが何をなすべきかという<line-break>問いへの答は見えてくるでしょう。<end>"
+EN: "Have a wonderful journey. Travel far and wide, meet many people, and engage with the world. In time, the answer to what you should do will become clear.<end>"
+KO: "멋진 여행을 하세요. 여러 지역을 돌고 많은 사람을 만나며 세계와 어울리는 겁니다. 그러다 보면 언젠가 당신이 무엇을 해야 하는지에 대한 답이 보일 겁니다.<end>"
+
+## 420261
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様…　　　　　　<line-break>ノーブルの<value:$28>…。<line-break><line-break>今は忙しい。<line-break>急いで用件を言え。<end>"
+EN: "You... <value:$28> from Noble. I'm busy. State your business, and be quick.<end>"
+KO: "네놈… 노블의 <value:$28>…. 지금은 바쁘다. 용건을 빨리 말해라.<end>"
+
+## 420262
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺の従者になりたいだと？<line-break>正気か？<end>"
+EN: "You want to be my retainer? Have you lost your mind?<end>"
+KO: "내 종자가 되고 싶다고? 제정신이냐?<end>"
+
+## 420263
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…とりあえず、ついてこい。<end>"
+EN: "For now, just come with me.<end>"
+KO: "…일단 따라와.<end>"
+
+## 420264
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "雌狐に…エリス王妃に　　　<line-break>呼ばれているのだ。<end>"
+EN: "The vixen... Queen Eris has summoned me.<end>"
+KO: "암여우… 에리스 왕비에게 불려 가는 중이다.<end>"
+
+## 420265
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブルの<value:$28>か。<line-break>どうした。俺の手下になりに来たか？<end>"
+EN: "So you're <value:$28> from Noble. What is it? Come to be my lackey?<end>"
+KO: "노블의 <value:$28>인가. 왜 왔지? 내 부하가 되러 왔나?<end>"
+
+## 420266
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "今は忙しいのだ。<line-break>急いで用件を言え。<end>"
+EN: "I'm busy. State your business, and be quick.<end>"
+KO: "지금은 바쁘다. 용건을 빨리 말해라.<end>"
+
+## 420267
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "何を口ごもるっている？<line-break>とりあえず、ついてこい。<line-break><line-break>今は急いでいるのだ。<line-break>雌狐に…エリス王妃に<line-break>呼ばれているのでな。<end>"
+EN: "Why are you stammering? Just come with me. I'm in a hurry. The vixen... Queen Eris has summoned me.<end>"
+KO: "뭘 우물거리고 있나? 일단 따라와. 지금은 서둘러야 한다. 암여우… 에리스 왕비에게 불려 가는 중이라서.<end>"
+
+## 420268
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "お帰りなさいませ、<line-break><value:$28>様。<line-break>こたびの旅はいかがでしたか？　　　　　　<line-break>しかし、エスト様も<value:$28>様も<line-break>館でじっとしておられぬ性分…<line-break>レムオン様もさぞやご心配のことでしょう。<end>"
+EN: "Welcome home, <value:$28>. How was your journey? Still, neither Est nor <value:$28> is the sort to sit quietly at the manor. Lemghon must worry terribly about you both.<end>"
+KO: "어서 오십시오, <value:$28> 님. 이번 여행은 어떠셨습니까? 하지만 에스트 님도 <value:$28> 님도 저택에 얌전히 계시는 성격이 아니니… 레무온 님께서도 많이 걱정하시겠군요.<end>"
+
+## 420269
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>様も女性の身なれば、　　<line-break>そろそろ宮廷にデビューなさり、<line-break>よい殿方を見つけてですな…<end>"
+EN: "And since you are a lady, <value:$28>, it is about time you made your debut at court and found yourself a suitable gentleman...<end>"
+KO: "<value:$28>님도 여성의 몸이시니 이제 궁정에 데뷔하시고 좋은 남성을 찾으시는 게….<end>"
+
+## 420270
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "はて…お顔の色がすぐれませんが<line-break>お身体の具合が悪いのではございませんか？<end>"
+EN: "Hmm... You look rather pale. Are you feeling unwell?<end>"
+KO: "어라… 안색이 좋지 않은데 몸이 안 좋으신 건 아닙니까?<end>"
+
+## 420271
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "いいえ、私めにはわかります。<line-break>すぐにでもお休みになってください。<end>"
+EN: "No, I can tell. You must rest at once.<end>"
+KO: "아니요, 저는 압니다. 당장이라도 쉬어주세요.<end>"
+
+## 420272
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "このお屋敷内の一切につきましては、<line-break>亡き先代の大旦那様より<line-break>この私めが仰せつかっております。<end>"
+EN: "The late master of this house entrusted me with overseeing every matter on this estate.<end>"
+KO: "이 저택 안의 모든 일은 돌아가신 선대 대당주님께서 이 몸에게 맡기셨습니다.<end>"
+
+## 420273
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "たとえレムオン様であっても<line-break>私めの言葉に従っていただいております。<line-break>さあ、どうぞ寝室へ。<end>"
+EN: "Even Lemghon follows my instructions in such matters. Now, off to your bedchamber.<end>"
+KO: "레무온 님이라 해도 제 말을 따라 주십니다. 자, 침실로 가시죠.<end>"
+
+## 420274
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "なに！？　<value:$28>が<line-break>寝込んでいるだと？　　　　　　　<line-break><line-break>あの女にもそんなことがあるのか？<end>"
+EN: "What!? <value:$28> is bedridden? Even that woman falls ill?<end>"
+KO: "뭐라고!? <value:$28>이 앓아누웠다고? 그 여자도 그런 일이 있나?<end>"
+
+## 420275
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "あの方は気丈に振る舞っておいでですが、<line-break>実は、繊細なお方でございます。<line-break>俺様天下のレムオン様には<line-break>おわかりにならないのです。<line-break>私めにはわかります。<end>"
+EN: "She puts on a brave face, but in truth she is quite delicate. Of course, the great and mighty Lemghon would never understand. But I do.<end>"
+KO: "그분은 강인하게 행동하고 계시지만 사실 섬세한 분입니다. 천하의 레무온 님께서는 모르시겠지만 저는 압니다.<end>"
+
+## 420276
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "繊細が聞いてあきれる。<line-break>どれ、寝顔でも見にいってやるか。<end>"
+EN: "Delicate? Don't make me laugh. Perhaps I'll go and see what she looks like asleep.<end>"
+KO: "섬세하단 말이 어이가 없군. 어디, 자는 얼굴이나 보러 갈까.<end>"
+
+## 420277
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "さきほどやっと眠りにつかれたのです。<line-break>お休みを妨げませんように…。<end>"
+EN: "She only just managed to fall asleep. Please do not disturb her rest.<end>"
+KO: "방금 겨우 잠드셨습니다. 부디 휴식을 방해하지 마시길….<end>"
+
+## 420278
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "寝汚そうな奴だ。<line-break>殺したって起きぬぞ。<end>"
+EN: "She looks like a heavy sleeper. You could kill her and she still wouldn't wake.<end>"
+KO: "잠버릇이 고약해 보이는 녀석이군. 죽여도 안 일어나겠어.<end>"
+
+## 420279
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "殺せば起きぬのは当たり前でございます。<line-break>どうか、お静かに。<end>"
+EN: "Naturally she would not wake if you killed her. Please keep your voice down.<end>"
+KO: "죽이면 못 일어나는 건 당연합니다. 부디 조용히 해 주십시오.<end>"
+
+## 420280
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "入るぞ、<value:$28>。<end>"
+EN: "I'm coming in, <value:$28>.<end>"
+KO: "들어간다, <value:$28>.<end>"
+
+## 420281
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "眠っているのか…。<end>"
+EN: "So she's asleep...<end>"
+KO: "자고 있는 건가….<end>"
+
+## 420282
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…きれいな…寝顔だ。<end>"
+EN: "She looks... beautiful asleep.<end>"
+KO: "…예쁜… 잠든 얼굴이군.<end>"
+
+## 420283
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "フフ、ハハハ…<line-break>どうしてしまったのだ、俺は。　　　<line-break>　<end>"
+EN: "Heh... Ha ha ha... What has come over me?<end>"
+KO: "후후, 하하하… 내가 어쩌다 이렇게 된 거지.<end>"
+
+## 420284
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺はこの娘を利用したのだぞ？<line-break>それに、この娘の弟を俺は…。<line-break>　<end>"
+EN: "I used this girl. And her brother... I...<end>"
+KO: "나는 이 아이를 이용했어. 게다가 이 아이의 남동생을 나는….<end>"
+
+## 420285
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "なのに、何を血迷っている？　<line-break>…俺は…この娘を…。<end>"
+EN: "And yet, what madness is this? I... this girl...<end>"
+KO: "그런데 왜 정신을 못 차리는 거지? …나는… 이 아이를….<end>"
+
+## 420286
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ふっ。<line-break>くだらぬ。<end>"
+EN: "Hmph. Absurd.<end>"
+KO: "…흥. 시시하군.<end>"
+
+## 420287
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "すっかりお顔の色もよくなられて…。<line-break>これで安心でございます。<end>"
+EN: "You have all your color back. What a relief.<end>"
+KO: "안색도 완전히 좋아지셨군요…. 이제 안심입니다.<end>"
+
+## 420288
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオン様でございますか？　　　　　　<line-break>　<line-break><line-break>一度戻られましたが、<line-break>また急なご用とかでお発ちになりました。<line-break>何か…？<end>"
+EN: "Lemghon? He did return once, but then left again on some urgent business. Was there something you needed?<end>"
+KO: "레무온 님 말씀이십니까? 한 번 돌아오셨지만 급한 용무가 생겨 다시 떠나셨습니다. 무슨 일이라도…?<end>"
+
+## 420289
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "では、行ってらっしゃいませ。<end>"
+EN: "Then have a safe journey.<end>"
+KO: "그럼 다녀오세요.<end>"
+
+## 420290
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは、<value:$28>様、<line-break>お帰りなさいませ。<end>"
+EN: "Ah, <value:$28>. Welcome back.<end>"
+KO: "이런, <value:$28>님. 돌아오셨군요.<end>"
+
+## 420291
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "（確か、誰かがスラムで<line-break>　待っているっんだったっけ…。）<end>"
+EN: "(Wasn't someone waiting in the Slums...?)<end>"
+KO: "(그러고 보니 누군가 슬럼에서 기다리고 있었지…. )<end>"
+
+## 420292
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "ん？<end>"
+EN: "Hm?<end>"
+KO: "응?<end>"
+
+## 420293
+source: translations/korean/messages/msgsec042-part99.toml
+jp_matches_pinned_english: yes
+JP: "待て、<value:$28>。<end>"
 EN: "Wait, <value:$28>.<end>"
-KO: "기다려 줘, <value:$28>.<end>"
+KO: "기다려, <value:$28>.<end>"
 
-## 370255
-source: translations/korean/messages/msgsec037-part99.toml
+## 420294
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "メイアを…助けよう。<end>"
-EN: "Let's... help Meia.<end>"
-KO: "메이아를… 구하자.<end>"
+JP: "遅いよ、姉ちゃん。<line-break>俺、待ちくたびれちゃったよ。<line-break>じゃあ冒険者登録をしよう。<end>"
+EN: "You're late, sis. I've been waiting forever. Come on, let's register as adventurers.<end>"
+KO: "늦었어, 누나. 나 기다리다 지쳤다고. 자, 모험자 등록하자.<end>"
 
-## 370256
-source: translations/korean/messages/msgsec037-part99.toml
+## 420295
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "やだね。<end>"
-EN: "No.<end>"
-KO: "싫은데.<end>"
+JP: "えーっと、エンシャントの近くで<line-break>禁断のゴブリンを探して<line-break>しゃべる聖杯を手に入れる…？？<line-break>だ、ダメだ！　おぼえきれない！<line-break>姉ちゃん、ちゃんとおぼえといて！<line-break>　<end>"
+EN: "Um... Find the Forbidden Goblin near Ancient and get the talking Grail...? N-no, it's no use! I can't remember all that! Sis, make sure you remember it!<end>"
+KO: "그러니까 엔샨트 근처에서 금단의 고블린을 찾아서 말하는 성배를 손에 넣는다…?? 아, 안 돼! 다 못 외우겠어! 누나, 제대로 기억해 둬!<end>"
 
-## 370257
-source: translations/korean/messages/msgsec037-part99.toml
+## 420296
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "いやだって言ったんだ。<end>"
-EN: "I said no.<end>"
-KO: "싫다고 했어.<end>"
+JP: "なあ？　もうずいぶん歩いたけど<line-break>これからどこへ行くんだ？<end>"
+EN: "Hey, we've been walking for ages. Where are we headed now?<end>"
+KO: "있잖아? 꽤 오래 걸었는데 이제 어디로 가는 거야?<end>"
 
-## 370258
-source: translations/korean/messages/msgsec037-part99.toml
+## 420297
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "ほほほほほほほほほほほ！　　<line-break>私のあまりの美しさの前に<line-break>舌をかんだかえ！？<line-break>今の言葉は聞かなかったことに<line-break>してやるぞよ。<line-break>私は心が広い女じゃからのう。<end>"
-EN: "Hohohohohohohohohoho! Has my overwhelming beauty made you bite your tongue? I shall pretend I heard nothing. I am a generous woman, after all.<end>"
-KO: "호호호호호호호호! 내 너무나 아름다운 모습 앞에서 혀를 깨물었느냐!? 방금 말은 못 들은 걸로 해 주마. 나는 마음이 넓은 여자니까.<end>"
+JP: "王城だ。<line-break>　<end>"
+EN: "The royal castle.<end>"
+KO: "왕성이다.<end>"
 
-## 370259
-source: translations/korean/messages/msgsec037-part99.toml
+## 420298
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "もう一度きくぞ。<line-break>引き渡すのじゃな？　　　　　<line-break><end>"
-EN: "I shall ask once more. You will hand her over, yes?<end>"
-KO: "다시 한 번 묻겠다. 넘겨주겠다는 거지?<end>"
+JP: "うぇ～っ！？<line-break>俺、そういうとこ行くのやだなあ…。<end>"
+EN: "Whaaat?! I don't wanna go to a place like that...<end>"
+KO: "으엑~!? 난 그런 데 가기 싫은데….<end>"
 
-## 370260
-source: translations/korean/messages/msgsec037-part99.toml
+## 420299
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "うざいんだよ。オバサン。<end>"
-EN: "You're getting on my nerves, old woman.<end>"
-KO: "짜증 나거든. 아줌마.<end>"
+JP: "貴様は来なくていい。<line-break><value:$28>がいれば充分だ。<end>"
+EN: "You needn't come. <value:$28> will suffice.<end>"
+KO: "넌 오지 않아도 된다. <value:$28>만 있으면 충분해.<end>"
 
-## 370261
-source: translations/korean/messages/msgsec037-part99.toml
+## 420300
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "あんだけ言いたいこと言っといて、<line-break>なにが下手だよ、オバサン。<end>"
-EN: "After saying all that, what do you mean, \"no good at it,\" old woman?<end>"
-KO: "그렇게 하고 싶은 말 다 해 놓고 뭐가 서툴다는 거야, 아줌마.<end>"
+JP: "う…。そう言われるとなんかなあ…。<line-break>　<line-break>　<line-break>けど、そういうことなら<line-break>遠慮なく抜けさせてもらうぜ。<end>"
+EN: "Urgh... When you put it like that... Still, if that's how it is, I'll gladly sit this one out.<end>"
+KO: "으…. 그렇게 말하면 좀 그렇네…. 하지만 그런 거라면 사양 않고 빠져나가겠어.<end>"
 
-## 370262
-source: translations/korean/messages/msgsec037-part99.toml
+## 420301
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "わかった、テレジアおばさん。<end>"
-EN: "All right, Auntie Terezia.<end>"
-KO: "알겠어, 테레지아 아줌마.<end>"
+JP: "じゃあ、俺は街を見て回ってるよ。<line-break>姉ちゃん、気をつけろよな。<end>"
+EN: "I'll go have a look around town, then. You be careful, okay?<end>"
+KO: "그럼 난 마을을 둘러보고 있을게. 누나, 조심해.<end>"
 
-## 370263
-source: translations/korean/messages/msgsec037-part99.toml
+## 420302
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "何をぐじぐじしてんだい。<line-break>あたしの娘だろ。<end>"
-EN: "What are you dithering about? You're my daughter, aren't you?<end>"
-KO: "뭘 꾸물거려. 내 딸이잖아.<end>"
+JP: "行くぞ。<line-break>　<end>"
+EN: "Let's go.<end>"
+KO: "간다.<end>"
 
-## 370264
-source: translations/korean/messages/msgsec037-part99.toml
+## 420303
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "ユシュアルも、あのメイアって娘も<line-break>助けを求めてた。　　　　　　　　　<line-break>そして、お前さんはそれに応えた。<line-break>だから、最後まで責任を持たなきゃ。<line-break>それが筋ってもんだろ？<end>"
-EN: "Yushual and that girl Meia both asked for help, and you answered. Now you have to see it through. That's only proper, isn't it?<end>"
-KO: "유슈알도 그 메이아라는 아이도 도움을 원했어. 그리고 너는 응했지. 그러니 끝까지 책임져야 해. 그게 도리잖아?<end>"
+JP: "ちゃんと話を理解したか？<line-break>わかんねえことがあったら<line-break>そこのオトコオンナによく聞いとけよ。<end>"
+EN: "Did you follow all that? If there's anything you don't understand, make sure you ask that mannish woman over there.<end>"
+KO: "이야기 제대로 이해했어? 모르는 게 있으면 저기 남자인지 여자인지 모를 녀석한테 잘 물어봐.<end>"
 
-## 370265
-source: translations/korean/messages/msgsec037-part99.toml
+## 420304
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "<value:$28>！<line-break>メイアが！　メイアが！<end>"
-EN: "<value:$28>! Meia! Meia...!<end>"
-KO: "<value:$28>! 메이아가! 메이아가!<end>"
+JP: "では行くぞ。<line-break>決して余計な動きはするなよ。<end>"
+EN: "Let's go. And don't try anything.<end>"
+KO: "그럼 간다. 절대로 쓸데없는 행동은 하지 마라.<end>"
 
-## 370266
-source: translations/korean/messages/msgsec037-part99.toml
+## 420305
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "男があわてるんじゃないよ。<line-break>落ち着きな。<end>"
-EN: "A man shouldn't lose his head. Calm down.<end>"
-KO: "남자가 당황해서 쓰나. 진정해.<end>"
+JP: "どこへ行く気だ？<line-break>貴様にはもう少し付き合ってもらうぞ。<end>"
+EN: "Where do you think you're going? You'll be keeping me company a little longer.<end>"
+KO: "어디 갈 생각이지? 네놈은 좀 더 함께해 줘야겠다.<end>"
 
-## 370267
-source: translations/korean/messages/msgsec037-part99.toml
+## 420306
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "メイアが突然苦しみ出して、<line-break>顔つきが変わって、窓から出てって…！<end>"
-EN: "Meia suddenly doubled over in pain, then her face changed, and she went out the window!<end>"
-KO: "메이아가 갑자기 괴로워하더니 얼굴빛이 변하고 창문으로 나가 버렸어…!<end>"
+JP: "<value:$28>は<line-break>ノーブル伯の称号を得た。<end>"
+EN: "<value:$28> received the title of Count of Noble.<end>"
+KO: "<value:$28>은 노블 백작의 칭호를 얻었다.<end>"
 
-## 370268
-source: translations/korean/messages/msgsec037-part99.toml
+## 420307
+source: translations/korean/messages/msgsec042-part99.toml
 jp_matches_pinned_english: yes
-JP: "やれやれ、窓からとは、<line-break>せっかちなお客さんだね。<end>"
-EN: "Good grief. Leaving by the window? What an impatient guest.<end>"
-KO: "이런, 창문으로 들어오다니 성급한 손님이군.<end>"
-
-## 370269
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ダメだ！　　　　　　　　　　<line-break>　<line-break>エルズの人たちは、<line-break>エア様の恐ろしさを知らない。<line-break>刃向かっちゃダメだ！<end>"
-EN: "No! The people of Elz don't know how terrifying Lady Er is. You mustn't defy her!<end>"
-KO: "안 돼! 엘즈 사람들은 에아 님이 얼마나 무서운지 몰라. 맞서면 안 돼!<end>"
-
-## 370270
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウソだ！　俺だ！　　　　　　　　<end>"
-EN: "That's a lie! It was me!<end>"
-KO: "거짓말이다! 나다!<end>"
-
-## 370271
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "俺が<line-break>メイアを助けようって言ったんだ！<end>"
-EN: "I'm the one who said we should help Meia!<end>"
-KO: "내가 메이아를 구하자고 한 거야!<end>"
-
-## 370272
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ごめんな、船長。<line-break>顔つぶしちまって。　　　　　　　　<line-break>エア様は本当に恐ろしいお方なんだ。<line-break>みんなに迷惑、<line-break>かけられないしさ。<end>"
-EN: "Sorry, Captain. I made you lose face. Lady Er truly is terrifying. I can't bring trouble down on everyone else.<end>"
-KO: "미안하군, 선장. 체면을 구겨 버렸네. 에아 님은 정말 무서운 분이야. 모두에게 폐를 끼칠 수도 없고.<end>"
-
-## 370273
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "元気で、な…。<end>"
-EN: "Take care...<end>"
-KO: "잘 지내라….<end>"
-
-## 370274
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "なんだい、泣いてやんのか？<line-break>お前もテレジアの娘じゃねえか！<end>"
-EN: "What's this? Crying, are you? You're Terezia's daughter!<end>"
-KO: "뭐야, 울고 있는 거냐? 너도 테레지아의 딸이잖아!<end>"
-
-## 370275
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "お前だって母ちゃんの武勇伝の<line-break>１つや２つ、聞いてんだろ？<end>"
-EN: "Surely you've heard a tale or two about your ma's exploits?<end>"
-KO: "너도 엄마의 무용담 한두 개쯤은 들었겠지?<end>"
-
-## 370276
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "なんだ、聞いてねえのか！　　　　　　<end>"
-EN: "What, you haven't?<end>"
-KO: "뭐야, 못 들었어!<end>"
-
-## 370277
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "それじゃ、テレジアが名の通った<line-break>女海賊だったってことも知らねえのか？<end>"
-EN: "So you don't even know Terezia was a famous woman pirate?<end>"
-KO: "그럼 테레지아가 이름난 여해적이었다는 것도 모르는 거냐?<end>"
-
-## 370278
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ハハハハ…、そいつはいい！　　　　　<line-break>ハハハハ…！<end>"
-EN: "Ha ha ha... Now that's a good one! Ha ha ha!<end>"
-KO: "하하하하… 그거 좋군! 하하하하…!<end>"
-
-## 370279
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "お前の母ちゃんはな、<line-break>昔、リベルダムに住んでいたんだ。　　<line-break>リベルダムはデカい都市だが、昔から<line-break>住んでる市民と、他の土地から流れて<line-break>きた非市民との間に差別があってな…。<end>"
-EN: "Your ma used to live in Liberdam. It's a big city, but there's always been discrimination between its longtime citizens and the noncitizens who came from elsewhere.<end>"
-KO: "네 엄마는 옛날에 리벨덤에 살았어. 리벨덤은 큰 도시지만 오래전부터 살던 시민과 다른 땅에서 흘러온 비시민 사이에 차별이 있었지….<end>"
-
-## 370280
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "非市民のテレジアは<line-break>そんなのは筋が通らない！ってさ…。　<line-break>そう、お得意のアレだ。<line-break>それで、家を飛び出して<line-break>リベルダムの船を襲う<line-break>海賊になったのさ。<end>"
-EN: "Terezia was a noncitizen, and she said the whole thing wasn't right. You know, that favorite refrain of hers. So she left home and became a pirate, raiding Liberdam's ships.<end>"
-KO: "비시민 테레지아는 그건 말이 안 된다! 고 했지…. 그래, 그 특유의 그거야. 그래서 집을 뛰쳐나와 리벨덤의 배를 습격하는 해적이 된 거야.<end>"
-
-## 370281
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒稼ぎしてた商人どもは<line-break>エルズのテレジアって名を<line-break>聞いただけで震え上がったもんだ。　　<line-break>非市民の間じゃ、<line-break>ちょっとした英雄だった。<line-break>大した女だよ…あいつは…。<end>"
-EN: "The merchants raking in fortunes would tremble at the mere name of Terezia of Elz. Among the noncitizens, she was something of a hero. She was quite a woman...<end>"
-KO: "한몫 단단히 챙기던 상인들은 엘즈의 테레지아라는 이름만 들어도 벌벌 떨었지. 비시민들 사이에선 작은 영웅 같은 존재였어. 대단한 여자였지… 그 녀석은….<end>"
-
-## 370282
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "…しっかしなあ、そのテレジアの娘が<line-break>船の上でベソかくってのは<line-break>どういうこったい？<end>"
-EN: "But what's Terezia's daughter doing blubbering aboard a ship?<end>"
-KO: "…그런데 말이지, 그 테레지아의 딸이 배 위에서 울상을 짓다니 대체 무슨 일이냐?<end>"
-
-## 370283
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "ハハハ！　よぉし、それでいい！　<end>"
-EN: "Ha ha ha! Good! That's more like it!<end>"
-KO: "하하하! 좋아, 그거면 됐어!<end>"
-
-## 370284
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "決して楽しい旅じゃねえだろうが、<line-break>世界を見るいい機会だと思え！<end>"
-EN: "It won't be a pleasant journey, but think of it as your chance to see the world!<end>"
-KO: "결코 즐거운 여행은 아니겠지만 세상을 볼 좋은 기회라고 생각해!<end>"
-
-## 370285
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "そしてテレジアみてえな<line-break>イイ女になって戻ってこい！　　　<end>"
-EN: "Then come back a fine woman, just like Terezia!<end>"
-KO: "그리고 테레지아 같은 멋진 여자가 되어 돌아와!<end>"
-
-## 370286
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "俺たちは、みんな、イイ女になった<line-break>お前の帰りを待ってっからな。<end>"
-EN: "We'll all be waiting for you to come home a fine woman.<end>"
-KO: "우린 모두 멋진 여자가 되어 돌아올 널 기다리고 있을 테니까.<end>"
-
-## 370287
-source: translations/korean/messages/msgsec037-part99.toml
-jp_matches_pinned_english: yes
-JP: "予備メッセージ１<end>"
+JP: "リューガ・ボリューム１その１終端<end>"
 EN: ""
-KO: "예비 메시지 1<end>"
+KO: "류가 볼륨1 그 1 끝<end>"
 
-## 370288
-source: translations/korean/messages/msgsec037-part99.toml
+## 430000
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ２<end>"
+JP: "リューガ・ボリューム１その２開始<end>"
 EN: ""
-KO: "예비 메시지 2<end>"
+KO: "류가 볼륨1 그 2 시작<end>"
 
-## 370289
-source: translations/korean/messages/msgsec037-part99.toml
+## 430001
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ３<end>"
+JP: "エリエナイ公とお見受けする。<end>"
+EN: "You must be Duke Elienai.<end>"
+KO: "엘리에나이 공으로 보이는군.<end>"
+
+## 430002
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…その命、もらった！<end>"
+EN: "Your life is mine!<end>"
+KO: "…그 목숨, 받아가겠다!<end>"
+
+## 430003
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "助けなきゃ！<end>"
+EN: "I've got to help!<end>"
+KO: "구해야 해!<end>"
+
+## 430004
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "物騒だなあ…<end>"
+EN: "This looks dangerous…<end>"
+KO: "흉흉하네…<end>"
+
+## 430005
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんだ？<line-break>貴様もこいつらの仲間か？<end>"
+EN: "What? Are you with this lot too?<end>"
+KO: "뭐지? 네놈도 이 녀석들 패거리냐?<end>"
+
+## 430006
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "フン、<line-break>ただの冒険者か。<end>"
+EN: "Hmph. Just an adventurer.<end>"
+KO: "흥, 그냥 모험가인가.<end>"
+
+## 430007
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "未使用：奴らも生かすな。<end>"
 EN: ""
-KO: "예비 메시지 3<end>"
+KO: "미사용: 놈들도 살려두지 마라.<end>"
 
-## 370290
-source: translations/korean/messages/msgsec037-part99.toml
+## 430008
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ４<end>"
+JP: "…しかし、<line-break>武器は使えるようだな。<line-break>　<end>"
+EN: "Still, you seem to know how to handle a weapon.<end>"
+KO: "…하지만 무기는 쓸 수 있는 모양이군.<end>"
+
+## 430009
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "名は？<end>"
+EN: "Your name?<end>"
+KO: "이름은?<end>"
+
+## 430010
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>か。<line-break>ついてこい。<line-break>俺は急ぎノーブルへ向かう。<line-break>貴様は黙って護衛をしていれば、<line-break>それでいい。<end>"
+EN: "<value:$28>, is it? Come with me. I'm making for Noble, and I'm in a hurry. Just keep quiet and serve as my escort. That's all.<end>"
+KO: "<value:$28>인가. 따라와라. 나는 급히 노블로 간다. 너는 말없이 호위만 하면 된다.<end>"
+
+## 430011
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "金ははずむぞ、冒険者。　　　　　　　<line-break>　<line-break>　<line-break>それとも、人の命がかかっている<line-break>とでも言った方が、その気になるのか？<line-break>貴様のような甘っちょろい冒険者は。<end>"
+EN: "I'll pay you handsomely, adventurer. Or would telling you a life is at stake make you more willing? That might work on a softhearted adventurer like you.<end>"
+KO: "돈은 후하게 주겠다, 모험자. 아니면 사람 목숨이 걸렸다고 해야 의욕이 생기나? 네놈처럼 물러터진 모험자는.<end>"
+
+## 430012
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…引き受けよう<end>"
+EN: "…I'll do it.<end>"
+KO: "…맡지.<end>"
+
+## 430013
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "人をバカにするな！<end>"
+EN: "Don't treat me like an idiot!<end>"
+KO: "사람을 바보 취급하지 마!<end>"
+
+## 430014
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、では行くぞ。<line-break>　<line-break>　<line-break>ただし、足手まといになるようなら<line-break>消えてもらう。そのつもりでいろ。<end>"
+EN: "Good. Then let's go. But if you become a burden, I'll get rid of you. Bear that in mind.<end>"
+KO: "좋아, 그럼 간다. 다만 방해가 된다면 사라져 줘야겠다. 각오해 둬.<end>"
+
+## 430015
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "人の見えないところで<line-break>そんなことをするのは<line-break>感心できんな。<line-break>しかし俺も名乗らずに無礼だったな。<line-break>俺はレムオン。エリエナイ公爵だ。<end>"
+EN: "Doing such a thing where no one can see is hardly commendable. Still, it was discourteous of me not to introduce myself. I am Lemghon, Duke of Elienai.<end>"
+KO: "사람들 눈이 닿지 않는 곳에서 그런 짓을 하는 건 좋지 않군. 하지만 나도 이름을 밝히지 않은 건 무례했지. 나는 레무온. 엘리에나이 공작이다.<end>"
+
+## 430016
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "くっ、遅かったか。　　　　　<line-break>　<line-break>　<line-break>行動開始からここまでに<line-break>さほどの時間は要していないはず…。<line-break>さすがは雌狐の手の者だな。<end>"
+EN: "Damn, too late. It can't have taken long to get this far once the operation began... The she-fox's agents are every bit as capable as expected.<end>"
+KO: "큭, 늦었나. 행동을 시작한 뒤 여기까지 그리 많은 시간이 걸리진 않았을 텐데…. 역시 암여우의 수하답군.<end>"
+
+## 430017
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘヘ、代官である俺様に盾突くとは、<line-break>いい度胸だなアアア！　ゲヘヘヘ…。　<line-break>　<line-break>ま、反乱が起こっちまったからには<line-break>レムオンもおしまいだな。これで、<line-break>俺も代官から晴れてこの地の領主様だ。<end>"
+EN: "Geh heh heh! You've got nerve, defying me, the magistrate! Geh heh heh... Well, now that the rebellion's begun, Lemghon is finished. Now I'll finally be lord of this land instead of its magistrate!<end>"
+KO: "게헤헤, 대관인 이 몸에게 대들다니 배짱 한번 좋구나아아! 게헤헤헤…. 뭐, 반란이 일어난 이상 레무온도 끝장이군. 이제 나도 대관에서 벗어나 당당히 이 땅의 영주님이 되는 거다.<end>"
+
+## 430018
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘヘ…、領主様になるまで、<line-break>俺も死ぬわけにゃいかねえんでな。<line-break>　<line-break>レムオンに面従腹背で密かに王妃様に<line-break>通じ、やっとここまでこぎ着けたんだ。<line-break>ゲヘヘ…、来い、俺のブサイクちゃん！<end>"
+EN: "Geh heh heh... I can't very well die before I become lord, can I? I pretended to serve Lemghon while secretly working with Her Majesty the Queen, and that's how I finally made it this far. Geh heh heh... Come, my ugly little darling!<end>"
+KO: "게헤헤… 영주님이 될 때까지 나도 죽을 순 없거든. 레무온에겐 복종하는 척하면서 몰래 왕비님과 내통해 겨우 여기까지 왔지. 게헤헤… 와라, 내 못난이야!<end>"
+
+## 430019
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゲヘ！　強そうだろ？　かわいいだろ？<line-break>俺が買ってきた戦闘用モンスターは！<line-break>　<line-break>ゲヘヘ、かわいい俺のブサイクちゃん、<line-break>派手に暴れて楽しませてくれよ。<line-break>ゲヘ、ゲヘヘヘヘヘヘ！<end>"
+EN: "Geh heh! Looks strong, doesn't it? Isn't it adorable? That's the combat monster I bought! Geh heh heh! My precious ugly little darling, run wild and put on a good show for me! Geh heh, geh heh heh heh heh heh!<end>"
+KO: "게헷! 강해 보이지? 귀엽지? 내가 사 온 전투용 몬스터 말이야! 게헤헤, 내 귀여운 못난이야, 화끈하게 날뛰면서 즐겁게 해 줘. 게헷, 게헤헤헤헤헤!<end>"
+
+## 430020
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、<line-break>ゆくぞ！<end>"
+EN: "<value:$28>, let's go!<end>"
+KO: "<value:$28>, 간다!<end>"
+
+## 430021
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "レ、レムオン…様。<end>"
+EN: "L-Lord Lemghon...<end>"
+KO: "레, 레무온… 님.<end>"
+
+## 430022
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ボルボラ…、俺の領地で<line-break>好き放題やってくれたようだな。<end>"
+EN: "Bolbora... It seems you've been doing whatever you please in my lands.<end>"
+KO: "볼보라… 내 영지에서 마음대로 해 줬더군.<end>"
+
+## 430023
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "め、め、めっそうもございません！　　<line-break>　<line-break>　<line-break>住民どもが暴れるので仕方なく、<line-break>代官としての責務を果たしたまでです。<line-break>ゲヘヘ…。<end>"
+EN: "N-n-nothing of the sort, my lord! The rabble started rioting, so I had no choice but to fulfill my duties as magistrate. Geh heh heh...<end>"
+KO: "마, 말도 안 됩니다! 주민들이 날뛰어서 어쩔 수 없이 대관으로서 책임을 다했을 뿐입니다. 게헤헤….<end>"
+
+## 430024
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふん…。　　　　　　　　　　　　　<end>"
+EN: "Hmph...<end>"
+KO: "흥….<end>"
+
+## 430025
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "エリスの手下フリントと<line-break>何か示し合わせるのも代官の責務か？<end>"
+EN: "And conspiring with Flint, one of Eris's lackeys―is that part of a magistrate's duty too?<end>"
+KO: "에리스의 부하 플린트와 무언가 짜고 움직이는 것도 대관의 책무인가?<end>"
+
+## 430026
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ…、あ…いえ！<line-break>お、お助けを！<end>"
+EN: "Ah... ah... no! M-mercy!<end>"
+KO: "아… 아… 아니! 도, 도와줘!<end>"
+
+## 430027
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄さん！！<end>"
+EN: "Brother!<end>"
+KO: "형!!<end>"
+
+## 430028
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄さん、とうとうボルボラを…。<end>"
+EN: "Brother, you finally... Bolbora...<end>"
+KO: "형, 드디어 볼보라를….<end>"
+
+## 430029
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "君は…<value:$28>。<line-break>どうしてここに？<end>"
+EN: "You're... <value:$28>. What are you doing here?<end>"
+KO: "너는… <value:$28>. 왜 여기 있지?<end>"
+
+## 430030
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0エスト、お前、<line-break>この男を知っているのか？<end>エスト、お前、<line-break>この女を知っているのか？<end>"
+EN: "<if><value:$29><equal>%0Est, do you know this man?<end>Est, do you know this woman?<end>"
+KO: "<if><value:$29><equal>%0에스트, 너, 이 남자를 알고 있나?<end>에스트, 너, 이 여자를 알고 있나?<end>"
+
+## 430031
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "う、うん。<line-break>…最近知り合った…友人だよ。<end>"
+EN: "Y-yeah. A... friend I met recently.<end>"
+KO: "으, 응. …최근에 알게 된… 친구야.<end>"
+
+## 430032
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "世間は狭いものだな。<end>"
+EN: "It is a small world.<end>"
+KO: "세상 참 좁군.<end>"
+
+## 430033
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "騒ぎの処理は、<line-break>エスト、お前に任せる。<end>"
+EN: "Est, I'll leave you to clean up this mess.<end>"
+KO: "소란 수습은 에스트, 네게 맡긴다.<end>"
+
+## 430034
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ボルボラに似合いの事故でも　　　　<line-break>でっちあげろ。<end>"
+EN: "Fabricate some accident befitting Bolbora.<end>"
+KO: "볼보라에게 어울릴 만한 사고라도 꾸며 내라.<end>"
+
+## 430035
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄さんは？<end>"
+EN: "What about you, Brother?<end>"
+KO: "형은?<end>"
+
+## 430036
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "この件に俺が関わっていたことが<line-break>知れては、やっかいなことになる。　<line-break>　<line-break>ロストールへ引き返し、王妃に会う。<line-break><value:$28>、お前も来るのだ。<end>"
+EN: "If word gets out that I was involved in this, there will be trouble. I'm returning to Rostorl to see the Queen. <value:$28>, you're coming with me.<end>"
+KO: "이 일에 내가 관련됐다는 게 알려지면 골치 아파진다. 로스톨로 돌아가 왕비를 만나겠다. <value:$28>, 너도 와라.<end>"
+
+## 430037
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "言っておくが<line-break>お前に断る自由はない。　　<line-break>　<line-break>まだ仕事は終わっていない。<line-break>無事、王都に着くまでは、<line-break>金も払えん。<end>"
+EN: "Let me make this clear: you don't have the option of refusing. The job isn't over yet, and I can't pay you until we reach the royal capital safely.<end>"
+KO: "말해 두지만 네게 거절할 자유는 없어. 아직 일은 끝나지 않았다. 무사히 왕도에 도착하기 전까진 돈도 줄 수 없어.<end>"
+
+## 430038
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "夜明け前にここを発つ。　　<line-break>しばらく休むのだな。<line-break>　<end>"
+EN: "We leave before dawn. Get some rest until then.<end>"
+KO: "동트기 전에 이곳을 떠난다. 잠시 쉬어 두도록.<end>"
+
+## 430039
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめん、眠ってた？<line-break>君に謝ろうと思って…。　　　　　　　<line-break>　<line-break>僕はこの土地の領主リューガ家の<line-break>人間なんだ。<end>"
+EN: "Sorry, were you asleep? I wanted to apologize to you... I'm a member of the Ryuga family, the lords of this land.<end>"
+KO: "미안, 자고 있었어? 사과하려고…. 나는 이 땅의 영주인 류가 가문의 사람이야.<end>"
+
+## 430040
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも領主の仕事は、兄さんに任せきり。<line-break>僕は自由にやらせてもらってる。<line-break>あんまり、こういうの向いてないしね。<line-break>あ、あの…、昼間はごめんなさい。<line-break>兄さんの態度に腹を立てたよね？<end>"
+EN: "But I leave all the work of governing to my brother. He lets me do as I please. I'm not really suited to that sort of thing anyway. Oh, um... I'm sorry about earlier. My brother's attitude made you angry, didn't it?<end>"
+KO: "하지만 영주의 일은 전부 형에게 맡겼어. 나는 자유롭게 지내고 있지. 이런 건 별로 안 맞기도 하고. 아, 그… 낮에는 미안했어. 형의 태도에 화났지?<end>"
+
+## 430041
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "問題は、これからだ。　　　　<line-break>　<line-break>　<line-break>騒ぎの処理は、お前に任せる。<line-break>ボルボラにお似合いの事故でも<line-break>でっちあげろ。<end>"
+EN: "The real problem is what comes next. I'll leave you to clean up this mess. Fabricate some accident befitting Bolbora.<end>"
+KO: "문제는 이제부터다. 소동의 처리는 네게 맡긴다. 볼보라에게 어울릴 만한 사고라도 꾸며 내라.<end>"
+
+## 430042
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめん、眠ってた？　　　　　　　　　<line-break>　<line-break>　<line-break>あ、僕はエスト。<line-break>一応、この土地の領主、<line-break>リューガ家の人間なんだ。<end>"
+EN: "Sorry, were you asleep? Oh, I'm Est. I'm technically a member of the Ryuga family, the lords of this land.<end>"
+KO: "미안, 자고 있었어? 아, 나는 에스트야. 일단 이 땅의 영주인 류가 가문의 사람이야.<end>"
+
+## 430043
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、領主の仕事は<line-break>みんな兄さんに任せっきり…。<line-break>僕はね、考古学者やってるんだ。　　　<line-break>闇の神器を探して、世界中を旅してる。<line-break>ああ、闇の神器ってのは、<line-break>伝説の破壊神ウルグの…。<end>"
+EN: "But I leave all the governing to my brother... I'm an archaeologist, you see. I travel the world searching for the Dark Artifacts. Oh, the Dark Artifacts―they're the legendary God of Destruction Ulugh's...<end>"
+KO: "하지만 영주의 일은 전부 형에게 맡기고…. 나는 고고학자야. 어둠의 신기를 찾아 세계를 여행하고 있어. 아, 어둠의 신기라는 건 전설의 파괴신 울그의….<end>"
+
+## 430044
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめん、ごめん。<line-break>僕の話をしにきたんじゃなかった。<line-break>　<line-break>君に謝ろうと思って…。<line-break>昼間はごめんなさい。<line-break>兄さんの態度に腹を立てたよね？<end>"
+EN: "Sorry, sorry. I didn't come here to talk about myself. I wanted to apologize to you... I'm sorry about earlier. My brother's attitude made you angry, didn't it?<end>"
+KO: "미안, 미안. 내 이야기를 하러 온 게 아니었어. 네게 사과하려고… 낮에는 미안했어. 형의 태도 때문에 화났지?<end>"
+
+## 430045
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "本当にごめんなさい…。　　　　　　　<line-break>　<line-break>　<line-break>でも、許してほしい…。<line-break>それから…<line-break>兄さんを見捨てないでほしいんだ。<end>"
+EN: "I'm truly sorry... But please, forgive me. And... please don't turn your back on my brother.<end>"
+KO: "정말 미안해…. 하지만 용서해 줬으면 해…. 그리고… 형을 버리지 말아 줘.<end>"
+
+## 430046
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ロストールの王宮では、<line-break>エリス王妃と兄さんの間で<line-break>しれつな権力争いがあってね。　　　　<line-break>エリス王妃は、兄さんの代官ボルボラに<line-break>領地で横暴を働かせて、その責任で<line-break>兄さんを失脚させようとしていたんだ。<end>"
+EN: "At Rostorl's royal court, Queen Eris and my brother are locked in a bitter struggle for power. The queen had Bolbora, my brother's deputy, abuse his authority in the domain so that my brother would take the blame and be brought down.<end>"
+KO: "로스톨 왕궁에서는 에리스 왕비와 형 사이에 치열한 권력 다툼이 있었어. 에리스 왕비는 형의 대관 볼보라에게 영지에서 횡포를 부리게 하고 그 책임으로 형을 실각시키려 했지.<end>"
+
+## 430047
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "王妃は他にも、ボルボラを使って<line-break>兄さんの弱みを探っていたらしい…。　<line-break>　<line-break>兄さんには、<line-break>君みたいな味方が必要なんだ。<line-break>お願いだ。兄さんを守ってほしい。<end>"
+EN: "It seems the queen was also using Bolbora to uncover anything she could use against my brother... He needs an ally like you. Please. I want you to protect him.<end>"
+KO: "왕비는 볼보라를 이용해 형님의 약점도 찾고 있었던 모양이야…. 형님에겐 너 같은 편이 필요해. 부탁이야. 형님을 지켜 줘.<end>"
+
+## 430048
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…それじゃ、僕は行くね。<line-break>おやすみ。<end>"
+EN: "Well, I should go. Good night.<end>"
+KO: "…그럼 난 갈게. 잘 자.<end>"
+
+## 430049
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "お待ちしていた、エリエナイ公。<end>"
+EN: "I have been expecting you, Duke Elienai.<end>"
+KO: "기다리고 있었습니다, 에리에나이 공.<end>"
+
+## 430050
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "そなたの領地で物騒な事件が<line-break>あったときくが？<end>"
+EN: "I hear there was a troubling incident in your domain. Is that so?<end>"
+KO: "그대 영지에서 흉흉한 사건이 있었다고 들었는데?<end>"
+
+## 430051
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "さすがにお耳が早い。<line-break>ノーブルの代官ボルボラが死にました。<end>"
+EN: "News travels swiftly to Your Majesty. Bolbora, the governor of Noble, is dead.<end>"
+KO: "역시 소식이 빠르군. 노블의 대관 볼보라가 죽었습니다.<end>"
+
+## 430052
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ほう？<end>"
+EN: "Oh?<end>"
+KO: "호오?<end>"
+
+## 430053
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "事故死です。<end>"
+EN: "It was an accident.<end>"
+KO: "사고사입니다.<end>"
+
+## 430054
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "フフ、エリエナイ公、<line-break>私は死因までは尋ねてはおらぬが？<end>"
+EN: "Heh. Duke Elienai, I did not ask how he died.<end>"
+KO: "후후, 에리에나이 공. 나는 사인까지 묻지는 않았는데?<end>"
+
+## 430055
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "一応、ご報告申し上げたまで。　　<end>"
+EN: "I merely thought it best to inform you.<end>"
+KO: "일단 보고드렸을 뿐입니다.<end>"
+
+## 430056
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "弟エストが処理にあたっています。<line-break>近日中に詳細をご報告できるかと。<end>"
+EN: "My younger brother Est is handling the matter. I expect to have a full report for you shortly.<end>"
+KO: "동생 에스트가 처리하고 있습니다. 조만간 자세한 내용을 보고드릴 수 있을 겁니다.<end>"
+
+## 430057
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "では、それを待とう。　　　　　　　　<line-break>　<line-break>　<line-break>しかし、残念なことよ。<line-break>ボルボラに聞きたいことがあったのだが<line-break>むくろを問いただすわけにもいくまい。<end>"
+EN: "Then I shall wait for it. Still, what a pity. I had questions for Bolbora, but one can hardly interrogate a corpse.<end>"
+KO: "그럼 그걸 기다리지. 하지만 참 아쉽군. 볼보라에게 묻고 싶은 게 있었지만 시체를 붙잡고 캐물을 수도 없으니.<end>"
+
+## 430058
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "領主の私に<line-break>答えられることでしたら…。<end>"
+EN: "If they are questions I can answer as his lord...<end>"
+KO: "영주인 제가 답할 수 있는 일이라면….<end>"
+
+## 430059
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "先日、ボルボラが<line-break>このようなものを送りつけてきた。<end>"
+EN: "Bolbora sent me this the other day.<end>"
+KO: "며칠 전 볼보라가 이런 걸 보내 왔다.<end>"
+
+## 430060
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "今は亡き、先代のエリエナイ公<line-break>…そなたの父上が女に宛てた書簡だ。<end>"
+EN: "It is a letter addressed to a woman by the late Duke Elienai, your father and predecessor.<end>"
+KO: "지금은 고인이 된 선대 엘리에나이 공… 그대의 아버지가 여자에게 보낸 편지다.<end>"
+
+## 430061
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "女にですと！？<end>"
+EN: "A woman!?<end>"
+KO: "여자한테라고요!?<end>"
+
+## 430062
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "こ、これは…なんたること！　　　　　<line-break>貴殿の父上は、妻以外の女性に<line-break>子供を産ませていたようだ。<end>"
+EN: "Th-this is... outrageous! It appears your father sired a child with a woman other than his wife.<end>"
+KO: "이, 이럴 수가…! 그대의 아버지는 아내가 아닌 여자에게 아이를 낳게 한 모양이군.<end>"
+
+## 430063
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "いや、待て。<line-break>エストの誕生には、我々もかけつけた。<line-break>…ということは、貴殿がその女性の…。<end>"
+EN: "No, wait. We were there for Est's birth. Then that would mean you are that woman's...<end>"
+KO: "아니, 잠깐. 에스트가 태어났을 때 우리도 달려갔어. …그렇다면 그대가 그 여자의….<end>"
+
+## 430064
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "故人の恋文をのぞき読むとは<line-break>いい趣味をお持ちですな。<end>"
+EN: "Reading a dead man's love letters. What refined tastes you have.<end>"
+KO: "고인의 연애편지를 훔쳐보다니 참 좋은 취미를 가지셨군요.<end>"
+
+## 430065
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "コホン…確かに、<line-break>ファーロス家の当主に<line-break>あるまじき不作法だった。　　　　<line-break>しかし、この手紙から判断すれば、<line-break>貴殿は不当にリューガ家当主の座に<line-break>ついたことになる。<end>"
+EN: "Ahem... I admit that was conduct unbecoming the head of House Pharos. However, judging by this letter, you took your place as head of House Ryuga illegitimately.<end>"
+KO: "흠흠… 확실히 파로스 가문의 당주답지 못한 무례였군. 하지만 이 편지로 판단하면 귀공은 부당하게 류가 가문 당주의 자리에 오른 셈이 된다.<end>"
+
+## 430066
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふふん、エリエナイ公…　　　　　　　<line-break>いや、レムオン。<line-break>これで貴殿も終わりだな。<end>"
+EN: "Hmph. Duke Elienai... No, Lemghon. This is the end of you.<end>"
+KO: "흥, 에리에나이 공… 아니, 레무온. 이걸로 그대도 끝이군.<end>"
+
+## 430067
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "手紙の入手経路を明かさぬまま<line-break>ボルボラが死んだとあっては、<line-break>これを鵜呑みするわけにもいかぬ。<end>"
+EN: "With Bolbora dead before revealing where he obtained the letter, we cannot simply accept it at face value.<end>"
+KO: "편지를 어떻게 입수했는지 밝히지 않은 채 볼보라가 죽었다면 이걸 그대로 믿을 수도 없겠군.<end>"
+
+## 430068
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "しかし、手紙を手に入れた直後の　<line-break>事故死とは…<line-break>　<line-break>偶然にしては、<line-break>できすぎていると思わぬか？<end>"
+EN: "But for him to die in an accident just after obtaining it... Do you not find that rather too convenient to be mere coincidence?<end>"
+KO: "하지만 편지를 손에 넣은 직후 사고사라니…. 우연치고는 너무 잘 맞아떨어진다고 생각하지 않나?<end>"
+
+## 430069
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "しかも、ボルボラはノーブルで<line-break>横暴を働き、そなたを困らせていた<line-break>というではないか。<line-break>この上ない幸運であったな。<line-break>エリエナイ公。<end>"
+EN: "And did Bolbora not abuse his authority in Noble, causing you no small trouble? His death was extraordinarily fortunate for you, Duke Elienai.<end>"
+KO: "게다가 볼보라는 노블에서 횡포를 부려 그대를 곤란하게 했다지 않나. 더할 나위 없는 행운이었군, 에리에나이 공.<end>"
+
+## 430070
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "フッ…、おたわむれを。<line-break>　<line-break>　<line-break>彼は有能な男でした。現にこれまで、<line-break>ボルボラのあとを任せられる者が<line-break>おらず、頭を悩ませておりました。<end>"
+EN: "Heh... You jest. He was a capable man. Indeed, I have been at a loss because no one could be found to take his place.<end>"
+KO: "훗…, 농담도 지나치십니다. 그는 유능한 남자였습니다. 실제로 지금까지 볼보라의 뒤를 맡길 사람이 없어서 골머리를 앓고 있었습니다.<end>"
+
+## 430071
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0ですが、ようやくその結論が<line-break>得られたので、今日はその件について<line-break>お願いに上がった次第です。<line-break>ノーブルの支配を、<line-break>我が弟<value:$28>に<line-break>任せたく存じます。<end>ですが、ようやくその結論が<line-break>得られたので、今日はその件について<line-break>お願いに上がった次第です。<line-break>ノーブルの支配を、<line-break>我が妹<value:$28>に<line-break>任せたく存じます。<end>"
+EN: "<if><value:$29><equal>%0But I have finally found my answer, and that is why I came today with a request. I would entrust the governance of Noble to my younger brother, <value:$28>.<end>But I have finally found my answer, and that is why I came today with a request. I would entrust the governance of Noble to my younger sister, <value:$28>.<end>"
+KO: "<if><value:$29><equal>%0하지만 마침내 결론을 내렸기에 오늘 그 일로 부탁드리러 왔습니다. 노블의 통치를 제 남동생 <value:$28>에게 맡기고 싶습니다.<end>하지만 마침내 결론을 내렸기에 오늘 그 일로 부탁드리러 왔습니다. 노블의 통치를 제 여동생 <value:$28>에게 맡기고 싶습니다.<end>"
+
+## 430072
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0弟？<end>妹？<end>"
+EN: "<if><value:$29><equal>%0Your brother?<end>Your sister?<end>"
+KO: "<if><value:$29><equal>%0남동생?<end>여동생?<end>"
+
+## 430073
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ここに連れてまいりました。<end>"
+EN: "I have brought my sibling here.<end>"
+KO: "이곳으로 데려왔습니다.<end>"
+
+## 430074
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0エストの他に兄弟があったとは、<line-break>初耳だが。<end>エストの他に兄弟があったとは、<line-break>初耳だが。<end>"
+EN: "<if><value:$29><equal>%0This is the first I have heard of you having another sibling besides Est.<end>This is the first I have heard of you having another sibling besides Est.<end>"
+KO: "<if><value:$29><equal>%0에스트 말고도 형제가 있었다니, 처음 듣는군.<end>에스트 말고도 형제가 있었다니, 처음 듣는군.<end>"
+
+## 430075
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "わけあって、<line-break>公にはしておりませんでした。<line-break>　<line-break>そのわけは…<line-break>申し上げなくとも<line-break>おわかりでしょう。<end>"
+EN: "For certain reasons, I have kept it from public knowledge. I need hardly explain what those reasons were.<end>"
+KO: "사정이 있어 공개하지 않았습니다. 그 이유는… 말씀드리지 않아도 아시겠죠.<end>"
+
+## 430076
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0この少年こそ、<line-break>…この手紙にある子供だと？<end>この少女こそ、<line-break>…この手紙にある子供だと？<end>"
+EN: "<if><value:$29><equal>%0You mean this boy is the child mentioned in the letter?<end>You mean this girl is the child mentioned in the letter?<end>"
+KO: "<if><value:$29><equal>%0이 소년이야말로, …이 편지에 적힌 아이라고?<end>이 소녀야말로, …이 편지에 적힌 아이라고?<end>"
+
+## 430077
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0ボルボラ亡きあとのノーブルを<line-break>統制するために、<line-break>　<line-break>なにとぞ、<line-break>我が弟<value:$28>に<line-break>ノーブルの伯爵の称号を。<end>ボルボラ亡きあとのノーブルを<line-break>統制するために、<line-break>　<line-break>なにとぞ、<line-break>我が妹<value:$28>に<line-break>ノーブルの伯爵の称号を。<end>"
+EN: "<if><value:$29><equal>%0To maintain order in Noble after Bolbora's death, I beg you to grant my younger brother, <value:$28>, the title of Count of Noble.<end>To maintain order in Noble after Bolbora's death, I beg you to grant my younger sister, <value:$28>, the title of Countess of Noble.<end>"
+KO: "<if><value:$29><equal>%0볼보라가 죽은 뒤의 노블을 통솔하기 위해 부디 제 남동생 <value:$28>에게 노블 백작의 작위를 내려 주십시오.<end>볼보라가 죽은 뒤의 노블을 통솔하기 위해 부디 제 여동생 <value:$28>에게 노블 백작의 작위를 내려 주십시오.<end>"
+
+## 430078
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ならん！　ならん！！<line-break>ふざけたことを！<end>"
+EN: "Absolutely not! I will not permit this nonsense!<end>"
+KO: "안 된다! 안 돼!! 터무니없는 소리를!<end>"
+
+## 430079
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "陛下、<line-break>どうかこの者に伯爵の称号を。<line-break>　<line-break>事情が事情です。<line-break>手続きは追って行うこととし、<line-break>この場で叙任なされては？<end>"
+EN: "Your Majesty, please grant this person the title. Given the circumstances, could the formalities not follow later and the investiture take place here and now?<end>"
+KO: "폐하, 부디 이자에게 백작 작위를. 사정이 사정인 만큼 절차는 나중에 하고 이 자리에서 서임하시는 건 어떻습니까?<end>"
+
+## 430080
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ…。<line-break>王妃がそう言うのであればな…。<line-break>　<line-break><value:$28>と言ったか。<line-break>そなたをロストール王国の伯爵、<line-break>そして、特別に白竜騎士に叙任する。<end>"
+EN: "Very well... If that is the Queen's wish. Your name was <value:$28>, was it not? I hereby appoint you a count of the Kingdom of Rostorl and, by special dispensation, a White Dragon Knight.<end>"
+KO: "아아… 왕비가 그렇게 말한다면… <value:$28>라고 했나. 그대를 로스톨 왕국의 백작, 그리고 특별히 백룡기사로 서임하겠다.<end>"
+
+## 430081
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "騎士の証である盾だ。<line-break>受け取るがよい。<end>"
+EN: "This shield is the badge of your knighthood. Take it.<end>"
+KO: "기사의 증표인 방패다. 받아라.<end>"
+
+## 430082
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "迅速なご処置、心より感謝いたします。<end>"
+EN: "You have my deepest gratitude for acting so swiftly.<end>"
+KO: "신속한 조치에 진심으로 감사드립니다.<end>"
+
+## 430083
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "リューガ家は、陛下に<line-break>以後、いっそうの忠誠を誓いましょう。<end>"
+EN: "From this day forth, House Ryuga pledges even greater loyalty to Your Majesty.<end>"
+KO: "류가 가문은 앞으로 폐하께 더욱 충성을 맹세하겠습니다.<end>"
+
+## 430084
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ふん、ぬけぬけと。<end>"
+EN: "Hmph. Shameless.<end>"
+KO: "…흥, 뻔뻔하게.<end>"
+
+## 430085
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノヴィン閣下。何か？<end>"
+EN: "Lord Novin. Did you say something?<end>"
+KO: "노빈 각하. 무슨 일이십니까?<end>"
+
+## 430086
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "い、いや。ロストールのために、<line-break>せいぜい骨を折ってくれたまえ。<end>"
+EN: "N-no. Do your utmost for Rostorl.<end>"
+KO: "아, 아니. 로스톨을 위해 실컷 고생해 주게.<end>"
+
+## 430087
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "予は疲れた。先に休ませてもらう。<end>"
+EN: "I am weary. I shall retire now.<end>"
+KO: "나는 지쳤다. 먼저 쉬도록 하겠다.<end>"
+
+## 430088
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0なぜ、レムオンの言うなりになる！<line-break>あんな素性も知れぬ男に<line-break>伯爵の称号など…。<end>なぜ、レムオンの言うなりになる！<line-break>あんな素性も知れぬ女に<line-break>伯爵の称号など…。<end>"
+EN: "<if><value:$29><equal>%0Why did you give Lemghon exactly what he wanted? Granting the title of count to a man of unknown origins...<end>Why did you give Lemghon exactly what he wanted? Granting the title of countess to a woman of unknown origins...<end>"
+KO: "<if><value:$29><equal>%0왜 레무온이 하라는 대로 하는 거야! 저런 정체도 모르는 남자에게 백작 작위라니….<end>왜 레무온이 하라는 대로 하는 거야! 저런 정체도 모르는 여자에게 백작 작위라니….<end>"
+
+## 430089
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオン坊やに貸しを作ったまで。　　<line-break>これで懸案の中央集権化を進める法案が<line-break>すんなり元老院を通過する。<end>"
+EN: "I merely put young Lemghon in my debt. Now the bill advancing our long-planned centralization will pass smoothly through the Senate.<end>"
+KO: "레무온 도련님에게 빚을 하나 지워 둔 것뿐이야. 이걸로 현안인 중앙집권화를 추진하는 법안이 원로원을 쉽게 통과하겠지.<end>"
+
+## 430090
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0しかも、腹違いの弟を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>しかも、腹違いの妹を隠していたことが<line-break>知れれば、レムオンの信望は<line-break>少なからず落ちるはず…。<end>"
+EN: "<if><value:$29><equal>%0And once it becomes known that Lemghon concealed a half brother, his standing will suffer considerably.<end>And once it becomes known that Lemghon concealed a half sister, his standing will suffer considerably.<end>"
+KO: "<if><value:$29><equal>%0게다가 이복동생을 숨기고 있었다는 게 알려지면 레무온의 신망은 적잖이 떨어질 터….<end>게다가 이복여동생을 숨기고 있었다는 게 알려지면 레무온의 신망은 적잖이 떨어질 터….<end>"
+
+## 430091
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…！　さすがは我が妹よ！<line-break>レムオンめ、そうとは知らずに…。<line-break>　<line-break>ハハハハ！<line-break>小僧めに、一杯食わせて<line-break>せいせいしたわ！<end>"
+EN: "Ah! Brilliant, my sister! And Lemghon never suspected a thing... Hahahaha! It feels splendid to have outwitted that whelp!<end>"
+KO: "…! 역시 내 여동생이군! 레무온 녀석, 그것도 모르고…. 하하하하! 그 애송이를 한 방 먹여서속이 다 시원하군!<end>"
+
+## 430092
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という少年…。<end>それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break>　<line-break>それにしても、<line-break><value:$28>という娘…。<end>"
+EN: "<if><value:$29><equal>%0Lemghon is no man to overlook something so obvious. What a foolish brother I have. Still, that boy called <value:$28>...<end>Lemghon is no man to overlook something so obvious. What a foolish brother I have. Still, that girl called <value:$28>...<end>"
+KO: "<if><value:$29><equal>%0그 정도를 꿰뚫어 보지 못할 남자는 아닐 텐데. …어리석은 형을 두었군. 그건 그렇고, <value:$28>이라는 소년….<end>그 정도를 꿰뚫어 보지 못할 남자는 아닐 텐데. …어리석은 형을 두었군. 그건 그렇고, <value:$28>이라는 소녀….<end>"
+
+## 430093
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "無限の可能性を感じさせる…。　　<line-break>あの目の輝きはどうだ。<line-break>　<line-break>フフフ…、<line-break>レムオン坊やも楽しませてくれる。<end>"
+EN: "Such limitless potential... And that light in those eyes. Heh heh... Young Lemghon does know how to entertain me.<end>"
+KO: "무한한 가능성이 느껴지는군…. 저 눈빛을 봐라. 후후후…, 레무온 도련님도 즐겁게 해 주는군.<end>"
+
+## 430094
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "とりあえず、礼を言う。<line-break>おかげで難局を切り抜けられた。<end>"
+EN: "First, you have my thanks. You helped me through a difficult situation.<end>"
+KO: "우선 감사를 표하지. 덕분에 난국을 헤쳐 나올 수 있었다.<end>"
+
+## 430095
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "フッ、だから俺は言ったはずだ。<line-break>手助けは無用だとな。<line-break>　<line-break>忠告を無視して、<line-break>俺を助けたのが運の尽きだ。<line-break>いさぎよく、あきらめるがいい。<end>"
+EN: "Hmph. I told you I needed no help. You ignored my warning and saved me, and that sealed your fate. Accept it with good grace.<end>"
+KO: "흥, 그래서 내가 말했잖아. 도움은 필요 없다고. 충고를 무시하고 날 도운 게 네 운명의 끝이다. 깨끗이 포기해.<end>"
+
+## 430096
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "紹介する。この館の執事だ。<line-break>セバスチャンという。<end>"
+EN: "Let me introduce you. This is Sebastian, the butler of the house.<end>"
+KO: "소개하지. 이 저택의 집사다. 세바스찬이라고 한다.<end>"
+
+## 430097
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "お目にかかり、光栄です。<line-break>ご用はなんなりと<line-break>この私めにお申しつけください。　　　<line-break>さしたることもできませんが、いつでも<line-break><value:$28>様をお迎えできるよう、<line-break>ご用意いたしております。<end>"
+EN: "It is an honor to meet you. Whatever you may require, you need only ask. There is little I can do, but I shall keep everything in readiness to welcome you at any time, <value:$28>.<end>"
+KO: "뵙게 되어 영광입니다. 용무가 있으시면 무엇이든 이 몸에게 말씀해 주십시오. 크게 해드릴 수 있는 건 없지만 언제든 <value:$28>님을 맞이할 준비를 하고 있습니다.<end>"
+
+## 430098
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "それでは失礼いたします。<end>"
+EN: "Now, if you will excuse me.<end>"
+KO: "그럼 실례하겠습니다.<end>"
+
+## 430099
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "彼の言うことは聞いておいた方がいい。<line-break>この館で一番の権力者だ。フフフ…。<line-break>　<line-break>とにかく、お前はロストールで<line-break>１、２を争う大貴族リューガ家の<line-break>一員となってしまったのだ。<end>"
+EN: "You would do well to heed him. He's the most powerful man in this manor. Heh heh... In any case, you've ended up a member of House Ryuga, one of the two foremost noble houses in Rostorl.<end>"
+KO: "그 사람 말은 들어 두는 게 좋아. 이 저택에서 가장 권력이 센 사람이거든. 후후후…. 어쨌든 넌 로스톨에서 손꼽히는 대귀족 류가 가문의 일원이 되어 버렸어.<end>"
+
+## 430100
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "言動には細心の注意を払え。　　　　　<line-break>正体がバレそうになったら、<line-break>まっ先に処分してやる。<line-break>自信がないのなら館や王宮には<line-break>極力、近づかないことだ。<line-break>これまでどおり、冒険を続けるがいい。<end>"
+EN: "Take the utmost care in everything you say and do. If your true identity looks likely to be exposed, I'll dispose of you at once. If you lack confidence, stay away from the manor and the royal palace as much as possible. Carry on adventuring as before.<end>"
+KO: "말과 행동에는 세심하게 주의해라. 정체가 들킬 것 같으면 내가 제일 먼저 처리해 주지. 자신 없으면 저택이나 왕궁에는 가급적 가까이 가지 마. 지금까지처럼 모험이나 계속해.<end>"
+
+## 430101
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふっ、俺の見込み違いだったか…。<end>"
+EN: "Hmph. Perhaps I misjudged you...<end>"
+KO: "훗, 내가 잘못 봤나….<end>"
+
+## 430102
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "助けよう<end>"
+EN: "Help him<end>"
+KO: "도와주자<end>"
+
+## 430103
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "構っている暇はない<end>"
+EN: "I don't have time to worry about him<end>"
+KO: "상대하고 있을 틈은 없어<end>"
+
+## 430104
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "どうした？　　　　　　<end>"
+EN: "What is it?<end>"
+KO: "왜 그래?<end>"
+
+## 430105
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "さっきも言ったはずだ。<line-break>俺は急いでいるのだ。<end>"
+EN: "I already told you. I'm in a hurry.<end>"
+KO: "아까도 말했을 텐데. 나는 서두르고 있다.<end>"
+
+## 430106
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "フリントの死についてレムオンを責める<end>"
+EN: "Blame Lemghon for Flint's death<end>"
+KO: "플린트의 죽음에 대해 레무온을 탓한다<end>"
+
+## 430107
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "今は黙っている<end>"
+EN: "Keep quiet for now<end>"
+KO: "지금은 입을 다문다<end>"
+
+## 430108
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前の父親だと？<line-break>知らんな。<end>"
+EN: "Your father? I know nothing about him.<end>"
+KO: "네 아버지라고? 모른다.<end>"
+
+## 430109
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ガルドランが？<line-break>フフフ…、そういうことか。<line-break>　<line-break>フリント…なるほどな。<end>"
+EN: "Girldlan? Heh heh... So that's it. Flint... Now I understand.<end>"
+KO: "갈드란이? 후후후… 그런 건가. 플린트… 그렇군.<end>"
+
+## 430110
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "確かにガルドランは俺が雇った。<line-break>奴に殺されたのなら、<line-break>お前の父親も大した男ではない。<end>"
+EN: "Yes, I hired Girldlan. If he killed your father, your father can't have been much of a man.<end>"
+KO: "갈드란은 확실히 내가 고용했다. 그놈에게 죽었다면 네 아버지도 대단한 남자는 아니었군.<end>"
+
+## 430111
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "仮にガルドランに殺されたのならだ。<line-break>奴が殺した証拠はあるのか？<end>"
+EN: "Assuming Girldlan was the one who killed him. Do you have any proof?<end>"
+KO: "가정해서 갈드란에게 살해당했다 치자. 녀석이 죽였다는 증거는 있나?<end>"
+
+## 430112
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…矢に毒が？<line-break>シロウラギリの毒だと？　　　　　　<line-break>　<line-break>…では間違いない。<line-break>ガルドランの仕業ではない。<line-break>やじりに毒を塗る知恵は奴にはない。<end>"
+EN: "Poison on the arrow? Shirouragiri poison? Then there's no doubt: Girldlan wasn't responsible. He hasn't the wit to poison an arrowhead.<end>"
+KO: "…화살에 독이? 시로우라기리의 독이라고? …그럼 틀림없군. 갈드란의 짓이 아니다. 화살촉에 독을 바를 지혜가 녀석에겐 없어.<end>"
+
+## 430113
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "しかも、シロウラギリの毒…。<line-break>王宮内での暗殺に使われる毒だ。<line-break>ガルドランに扱える代物ではない。　<line-break>まあ、<line-break>俺の言うことを信じるかどうかは、<line-break>お前の勝手だが…。<end>"
+EN: "And Shirouragiri poison, at that... It's used for assassinations within the royal palace. Girldlan could never handle such a thing. Whether you believe me is up to you.<end>"
+KO: "게다가 시로우라기리의 독…. 왕궁 안에서 암살에 쓰이는 독이야. 갈드란이 다룰 만한 물건이 아니지. 뭐, 내 말을 믿을지 말지는 네 마음이지만….<end>"
+
+## 430114
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺も急ぐ。人の命がかかっているのだ。<end>"
+EN: "I must hurry as well. A life is at stake.<end>"
+KO: "나도 서두르겠다. 사람 목숨이 달린 일이야.<end>"
+
+## 430115
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ここでお前を説得する時間もなければ<line-break>ここでお前に命をくれてやる気もない。<end>"
+EN: "I have no time to convince you here, and no intention of giving you my life.<end>"
+KO: "여기서 너를 설득할 시간도 없고, 여기서 네게 목숨을 내줄 생각도 없다.<end>"
+
+## 430116
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "剣で決着をつけよう…。<end>"
+EN: "Let our swords settle this.<end>"
+KO: "검으로 결판내자….<end>"
+
+## 430117
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "こ、こんな時に…？<line-break>くっ、ダメだ…。理性が…！！<line-break>　<line-break>アア…グ…血…グ…<line-break>ウウウ…血…ググ…ガ…<line-break>…ガアアアアアアアアッ！！！<end>"
+EN: "N-now? At a time like this...? Ngh, no... I'm losing control...!! Aah... gh... blood... ngh... Uuugh... blood... grrgh... ga... GAAAAAAAAAAAH!!!<end>"
+KO: "이, 이런 때에…? 큭, 안 돼…. 이성이…!! 아아… 그… 피… 으으… 피… 그그… 가… 가아아아아아!!<end>"
+
+## 430118
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$01><equal>19大丈夫？　<value:$28>。 <end><if><value:$01><equal>5大丈夫かよ？　<value:$28>。 <end><if><value:$01><equal>14大丈夫かの？<line-break><value:$28>。 <end><if><value:$01><equal>3大丈夫かの？<line-break><value:$28>。 <end><if><value:$01><equal>193大丈夫ですか？<line-break><value:$28>さん。<end><if><value:$01><equal>191大丈夫？　<value:$28>。<end>大丈夫？　<value:$28>。 <end>"
+EN: "<if><value:$01><equal>19Are you all right, <value:$28>?<end><if><value:$01><equal>5You all right, <value:$28>?<end><if><value:$01><equal>14Are you all right there, <value:$28>?<end><if><value:$01><equal>3Are you all right there, <value:$28>?<end><if><value:$01><equal>193Are you all right, <value:$28>?<end><if><value:$01><equal>191Are you all right, <value:$28>?<end>Are you all right, <value:$28>?<end>"
+KO: "<if><value:$01><equal>19괜찮아? <value:$28>.<end><if><value:$01><equal>5괜찮냐? <value:$28>.<end><if><value:$01><equal>14괜찮은가? <value:$28>.<end><if><value:$01><equal>3괜찮은가? <value:$28>.<end><if><value:$01><equal>193괜찮으십니까? <value:$28> 씨.<end><if><value:$01><equal>191괜찮아? <value:$28>.<end>괜찮아? <value:$28>.<end>"
+
+## 430119
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$01><equal>19昨日の…アレ…<line-break>なんだったんだろうね。 <end><if><value:$01><equal>15ねえ、昨日の…アレ…<line-break>なんだったんだろうね。 <end><if><value:$01><equal>6昨日の…アレ…<line-break>なんだったのかな。 <end><if><value:$01><equal>4昨日の…アレ…<line-break>なんだったのかな。 <end><if><value:$01><equal>5昨日の…アレ…<line-break>なんだったんだろうな。 <end><if><value:$01><equal>14昨日の…アレ…<line-break>なんじゃったのか…。 <end><if><value:$01><equal>3昨日の…アレ…<line-break>なんじゃったのか…。 <end><if><value:$01><equal>193昨日の…アレ…<line-break>なんだったんでしょう。<end><if><value:$01><equal>191昨日の…アレ…<line-break>なんだったのかしら。<end>昨日の…アレ…<line-break>なんだったんだろうね。 <end>"
+EN: "<if><value:$01><equal>19That... thing yesterday... I wonder what it was.<end><if><value:$01><equal>15Hey, that... thing yesterday... I wonder what it was.<end><if><value:$01><equal>6That... thing yesterday... What could it have been?<end><if><value:$01><equal>4That... thing yesterday... What could it have been?<end><if><value:$01><equal>5That... thing yesterday... Wonder what it was.<end><if><value:$01><equal>14That... thing yesterday... What could it have been?<end><if><value:$01><equal>3That... thing yesterday... What could it have been?<end><if><value:$01><equal>193That... thing yesterday... I wonder what it was.<end><if><value:$01><equal>191That... thing yesterday... What could it have been?<end>That... thing yesterday... I wonder what it was.<end>"
+KO: "<if><value:$01><equal>19어제 그… 일… 대체 뭐였을까.<end><if><value:$01><equal>15있지, 어제 그… 일… 대체 뭐였을까.<end><if><value:$01><equal>6어제 그… 일… 뭐였을까.<end><if><value:$01><equal>4어제 그… 일… 뭐였을까.<end><if><value:$01><equal>5어제 그… 일… 뭐였던 걸까.<end><if><value:$01><equal>14어제 그… 일… 대체 뭐였던 게야….<end><if><value:$01><equal>3어제 그… 일… 대체 뭐였던 게야….<end><if><value:$01><equal>193어제 그… 일… 대체 뭐였을까요.<end><if><value:$01><equal>191어제 그… 일… 대체 뭐였을까.<end>어제 그… 일… 대체 뭐였을까.<end>"
+
+## 430120
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$01><equal>19…<value:$28>、<line-break>ホントに大丈夫？ <end><if><value:$01><equal>4…<value:$28>、<line-break>ホントに大丈夫なの？ <end><if><value:$01><equal>5…<value:$28>、<line-break>ホントに大丈夫かよ？ <end><if><value:$01><equal>14…<value:$28>、<line-break>ホントに大丈夫かの？ <end>…<value:$28>、<line-break><if><value:$01><equal>3ホントに大丈夫かの？ <end><if><value:$01><equal>193…<value:$28>さん、<line-break>ホントに大丈夫ですか？ <end><if><value:$01><equal>191…<value:$28>、<line-break>ホントに大丈夫？ <end>…<value:$28>、<line-break>ホントに大丈夫？ <end>"
+EN: "<if><value:$01><equal>19<value:$28>... Are you sure you're all right?<end><if><value:$01><equal>4<value:$28>... Are you really all right?<end><if><value:$01><equal>5<value:$28>... You sure you're all right?<end><if><value:$01><equal>14<value:$28>... You're really all right, are you?<end><value:$28>...<line-break><if><value:$01><equal>3Are you really all right?<end><if><value:$01><equal>193<value:$28>... Are you really all right?<end><if><value:$01><equal>191<value:$28>... Are you really all right?<end><value:$28>... Are you really all right?<end>"
+KO: "<if><value:$01><equal>19…<value:$28>, 정말 괜찮아?<end><if><value:$01><equal>4…<value:$28>, 정말 괜찮은 거야?<end><if><value:$01><equal>5…<value:$28>, 진짜 괜찮냐?<end><if><value:$01><equal>14…<value:$28>, 정말 괜찮은가?<end>…<value:$28>, <if><value:$01><equal>3정말 괜찮은가?<end><if><value:$01><equal>193…<value:$28> 씨, 정말 괜찮으세요?<end><if><value:$01><equal>191…<value:$28>, 정말 괜찮아?<end>…<value:$28>, 정말 괜찮아?<end>"
+
+## 430121
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "＜未使用＞ねえ、昨日の…アレ…<line-break>なんだったんだろうね。<end>"
 EN: ""
-KO: "예비 메시지 4<end>"
+KO: "<미사용> 있지, 어제 그… 그거… 뭐였을까.<end>"
 
-## 370291
-source: translations/korean/messages/msgsec037-part99.toml
+## 430122
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ５<end>"
+JP: "＜未使用＞昨日の…アレ…<line-break>なんだったのかな。<end>"
 EN: ""
-KO: "예비 메시지 5<end>"
+KO: "<未使用> 어제 그… 그건… 대체 뭐였을까.<end>"
 
-## 370292
-source: translations/korean/messages/msgsec037-part99.toml
+## 430123
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ６<end>"
+JP: "＜未使用＞…<value:$28>、<line-break>ホントに大丈夫なの？<end>"
 EN: ""
-KO: "예비 메시지 6<end>"
+KO: "<未使用> …<value:$28>, 정말 괜찮은 거야?<end>"
 
-## 370293
-source: translations/korean/messages/msgsec037-part99.toml
+## 430124
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ７<end>"
+JP: "＜未使用＞大丈夫かよ？　<value:$28>。<end>"
 EN: ""
-KO: "예비 메시지 7<end>"
+KO: "<미사용> 괜찮아? <value:$28>.<end>"
 
-## 370294
-source: translations/korean/messages/msgsec037-part99.toml
+## 430125
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ８<end>"
+JP: "＜未使用＞昨日の…アレ…<line-break>なんだったんだろうな。<end>"
 EN: ""
-KO: "예비 메시지 8<end>"
+KO: "<未使用> 어제 그… 그건… 대체 뭐였을까.<end>"
 
-## 370295
-source: translations/korean/messages/msgsec037-part99.toml
+## 430126
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ９<end>"
+JP: "＜未使用＞…<value:$28>、<line-break>ホントに大丈夫かよ？<end>"
 EN: ""
-KO: "예비 메시지 9<end>"
+KO: "<未使用> …<value:$28>, 정말 괜찮은 거냐?<end>"
 
-## 370296
-source: translations/korean/messages/msgsec037-part99.toml
+## 430127
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１０<end>"
+JP: "＜未使用＞大丈夫かの？<line-break><value:$28>。<end>"
 EN: ""
-KO: "예비 메시지 10<end>"
+KO: "<미사용> 괜찮은가? <value:$28>.<end>"
 
-## 370297
-source: translations/korean/messages/msgsec037-part99.toml
+## 430128
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１１<end>"
+JP: "＜未使用＞昨日の…アレ…<line-break>なんじゃったのか…。<end>"
 EN: ""
-KO: "예비 메시지 11<end>"
+KO: "<未使用> 어제 그… 그건… 대체 뭐였던 걸까….<end>"
 
-## 370298
-source: translations/korean/messages/msgsec037-part99.toml
+## 430129
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１２<end>"
+JP: "＜未使用＞…<value:$28>、<line-break>ホントに大丈夫かの？<end>"
 EN: ""
-KO: "예비 메시지 12<end>"
+KO: "<未使用> …<value:$28>, 정말 괜찮은 게냐?<end>"
 
-## 370299
-source: translations/korean/messages/msgsec037-part99.toml
+## 430130
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１３<end>"
+JP: "何やってるのよお！　弱いわね。<line-break>いつまでも寝てるんじゃないわよ。<end>"
+EN: "What are you doing? You're so weak! Stop lying around and get up!<end>"
+KO: "뭐 하는 거야! 약하네. 언제까지 누워 있을 거야.<end>"
+
+## 430131
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "まったく、昨日の…アレ…<line-break>いったい、なんなのよぉ！<end>"
+EN: "Honestly, that... thing yesterday... What in the world was it?!<end>"
+KO: "정말, 어제 그… 그거… 대체 뭐였던 거야!<end>"
+
+## 430132
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "待ちなさい。アタクシをおいてくなんて<line-break>下等生物のくせに１００年早くてよぉ！<end>"
+EN: "Wait! You've got another hundred years to go before a lowly creature like you can leave me behind!<end>"
+KO: "기다리세요. 이 몸을 두고 가다니 하등생물 주제에 백 년은 일러요!<end>"
+
+## 430133
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…生きているか。<line-break>ならば、いい。<end>"
+EN: "Still alive. Good.<end>"
+KO: "…살아 있나. 그렇다면 됐다.<end>"
+
+## 430134
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺も急いでいる。　　　　　　　　　　<end>"
+EN: "I'm in a hurry too.<end>"
+KO: "나도 서두르고 있다.<end>"
+
+## 430135
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…さっき、手助けしてくれた礼もある。<line-break>命は助けてやる。さらばだ。<end>"
+EN: "You did help me earlier. In return, I'll spare your life. Farewell.<end>"
+KO: "…아까 도와준 답례도 있지. 목숨은 살려주마. 잘 있어라.<end>"
+
+## 430136
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "くっ、遅かったか。<line-break>フリントは死んだからと油断していた。<line-break><line-break>雌狐の手下でも随一のあの男の手に<line-break>掛かれば、奴自身がこの世から<line-break>いなくなっても…<end>"
+EN: "Damn, too late. I let my guard down because Flint was dead. But that man, the finest of the she-fox's lackeys, even after he was gone from this world...<end>"
+KO: "큭, 늦었나. 플린트가 죽었다고 방심했어. 암여우 부하 중에서도 으뜸인 그 남자가 손을 쓰면, 녀석 자신이 세상에서 사라져도…<end>"
+
+## 430137
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノーブルに反乱が起こるように　　　　<line-break>仕掛けておくことなどたやすい<line-break>ということか！<end>"
+EN: "So he could easily have arranged for a rebellion to break out in Noble!<end>"
+KO: "노블에 반란이 일어나도록 꾸며 두는 것쯤은 쉽다는 거냐!<end>"
+
+## 430138
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0ほう…。　　　　　　　　　　　　<line-break><line-break><line-break>そなたの弟、<value:$28>に<line-break>ノーブルの伯爵の称号を、のぅ…。<end>ほう…。　　　　　　　　　　　　<line-break><line-break><line-break>そなたの妹、<value:$28>に<line-break>ノーブルの伯爵の称号を、のぅ…？<end>"
+EN: "<if><value:$29><equal>%0Hmm... The title of Count of Noble for your younger brother, <value:$28>...<end>Hmm... The title of Countess of Noble for your younger sister, <value:$28>...?<end>"
+KO: "<if><value:$29><equal>%0호오…. 그대의 남동생 <value:$28>에게 노블 백작의 작위를 달라, 이거군….<end>호오…. 그대의 여동생 <value:$28>에게 노블 백작의 작위를 달라, 이거군…?<end>"
+
+## 430139
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "それしきのことが見抜けぬ男では<line-break>あるまい。…愚かな兄を持ったものだ。<line-break><line-break>いや、運命を前にすれば<line-break>すべての人間が愚かなのかもな…。<end>"
+EN: "Lemghon is no man to overlook something so obvious. What a foolish brother I have. No... perhaps all mortals are fools before fate.<end>"
+KO: "그 정도도 꿰뚫어보지 못할 사내는 아니겠지. …어리석은 형을 두었군. 아니, 운명 앞에서는 모든 인간이 어리석은 걸지도 모르겠군…<end>"
+
+## 430140
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$29><equal>%0レムオンも哀れよな。<line-break>自分が放った冒険者ガルドランに<line-break>父であるフリントを殺された者こそが…<line-break>自分の危地を切り抜けるために<line-break>にわかにでっち上げた弟の正体とは。<line-break>…奴の破滅は、決まった。<end>レムオンも哀れよな。<line-break>自分が放った冒険者ガルドランに<line-break>父であるフリントを殺された娘こそが…<line-break>自分の危地を切り抜けるために<line-break>にわかにでっち上げた妹の正体とは。<line-break>…奴の破滅は、決まった。<end>"
+EN: "<if><value:$29><equal>%0Poor Lemghon. The very person whose father, Flint, was killed by the adventurer Girldlan at Lemghon's behest... is the brother he hastily fabricated to escape his predicament. His downfall is assured.<end>Poor Lemghon. The very woman whose father, Flint, was killed by the adventurer Girldlan at Lemghon's behest... is the sister he hastily fabricated to escape his predicament. His downfall is assured.<end>"
+KO: "<if><value:$29><equal>%0레무온도 가엾군. 자신이 보낸 모험자 갈드란에게 아버지 플린트를 잃은 자가… 자신의 위기를 벗어나려고 급히 꾸며 낸 남동생의 정체라니. …놈의 파멸은 정해졌다.<end>레무온도 가엾군. 자신이 보낸 모험자 갈드란에게 아버지 플린트를 잃은 딸이… 자신의 위기를 벗어나려고 급히 꾸며 낸 여동생의 정체라니. …놈의 파멸은 정해졌다.<end>"
+
+## 430142
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "（私は、ここには、戻れない…）<end>"
+EN: "(I can't come back here...)<end>"
+KO: "(나는 여기로 돌아올 수 없어…)<end>"
+
+## 430143
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "まったく話にならん！<end>"
+EN: "Utterly hopeless!<end>"
+KO: "전혀 말이 안 통하는군!<end>"
+
+## 430144
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴族どものことだ。　　　　　　<line-break>無能なうえに視野が狭い。<line-break>　<line-break>都合のよい妄想はできるくせに、<line-break>まっとうな想像力はない。<end>"
+EN: "The nobles. Incompetent and narrow-minded, every last one of them. They can indulge in fantasies that suit them, yet haven't a shred of real imagination.<end>"
+KO: "귀족들이란 말이지. 무능한 데다 시야도 좁아. 자기 편한 망상은 하면서 제대로 된 상상력은 없어.<end>"
+
+## 430146
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "しかし、宮廷で才覚のある人間が、<line-break>雌狐ひとりというのもお寒い話だ。<line-break>　<line-break>このままではロストールも<line-break>長くないぞ。<end>"
+EN: "Still, it is a sorry state of affairs when the vixen is the only capable person at court. At this rate, Rostorl will not last much longer.<end>"
+KO: "하지만 궁정에 재능 있는 인간이 암여우 하나뿐이라는 것도 한심한 얘기군. 이대로라면 로스톨도 오래 못 가.<end>"
+
+## 430147
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、世界を見ろ。<end>"
+EN: "<value:$28>, see the world.<end>"
+KO: "<value:$28>, 세상을 봐라.<end>"
+
+## 430148
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "領主としての雑務は俺がこなす。<line-break>世界を旅し、多くを見るのだ。<end>"
+EN: "I will handle the routine duties of a lord. Travel the world and see all you can.<end>"
+KO: "영주로서의 잡무는 내가 처리하겠다. 세계를 여행하며 많은 것을 보아라.<end>"
+
+## 430149
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺は、従順な部下より<line-break>ともに歩める同志が欲しいのだ。<end>"
+EN: "I do not want an obedient subordinate. I want someone who can walk beside me as a comrade.<end>"
+KO: "나는 순종적인 부하보다 함께 걸어갈 동지가 필요하다.<end>"
+
+## 430150
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "フフッ、俺としたことが…<line-break>しゃべりすぎたな。<end>"
+EN: "Heh. How unlike me... I've said too much.<end>"
+KO: "후후, 나답지 않게… 말을 너무 많이 했군.<end>"
+
+## 430151
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…賊か。<line-break>　<end>"
+EN: "...Bandits?<end>"
+KO: "…도적인가.<end>"
+
+## 430152
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様…。<line-break>助太刀など、無用な。<line-break>　<line-break>むしろこの賊どもも<line-break>俺の手にかかった方が<line-break>一瞬の苦しみで済んだものを。<end>"
+EN: "You... I had no need of your help. In fact, those brigands would have been spared all but an instant's suffering if they had fallen by my hand.<end>"
+KO: "네놈…. 도움 따윈 필요 없다. 차라리 이 도적들도 내 손에 죽었으면 한순간의 고통으로 끝났을 것을.<end>"
+
+## 430153
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ハハハハ！<line-break>まったく、お前らしいな。<end>"
+EN: "...Ha ha ha! That's just like you.<end>"
+KO: "…하하하하! 정말 너답군.<end>"
+
+## 430154
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオン様、<line-break>ゼグナ伯とトゥーゾフ伯がおいでです。<end>"
+EN: "Lord Lemghon, Count Zegna and Count Tuzov have arrived.<end>"
+KO: "레무온 님, 제그나 백작과 투조프 백작이 오셨습니다.<end>"
+
+## 430155
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "くっ、無能な奴らががん首そろえて<line-break>他人の都合も考えずに、のこのこと…。<end>"
+EN: "Damn it. Those incompetent fools, showing up in force without a thought for anyone else's circumstances...<end>"
+KO: "큭, 무능한 놈들이 머리를 맞대고 남의 사정도 생각하지 않은 채 어슬렁거리다니….<end>"
+
+## 430156
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "お引き取りいただきますか？<end>"
+EN: "Shall I send them away?<end>"
+KO: "돌아가시겠습니까?<end>"
+
+## 430157
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "何度追い返したところで、<line-break>こちらの都合を考える脳はないだろう。<end>"
+EN: "No matter how many times we turn them away, they don't have the brains to consider anyone else's circumstances.<end>"
+KO: "몇 번을 쫓아내도 이쪽 사정을 생각할 머리는 없겠지.<end>"
+
+## 430158
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、<line-break>ここで待っていろ。<end>"
+EN: "<value:$28>, wait here.<end>"
+KO: "<value:$28>, 여기서 기다려.<end>"
+
+## 430159
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "（ライギロア伝？<line-break>　…ずいぶん分厚い本だ。）<end>"
+EN: "(The Life of Raigiroa? ...It's quite a thick book.)<end>"
+KO: "(라이기로아 전기? …꽤 두꺼운 책이군.)<end>"
+
+## 430160
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "読んでみよう<end>"
+EN: "Read it<end>"
+KO: "읽어 보자<end>"
+
+## 430161
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "やめておこう<end>"
+EN: "Leave it alone<end>"
+KO: "그만두자<end>"
+
+## 430162
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ライギロア。<line-break>ダルケニスとして生まれた彼は、<line-break>幼くして両親を冒険者に殺され、<line-break>命からがら逃げ延びた。<end>"
+EN: "...Raigiroa. Born a Darkenith, he lost his parents to adventurers at a young age and barely escaped with his life.<end>"
+KO: "…라이기로아. 다르케니스로 태어난 그는 어린 나이에 부모를 모험자에게 잃고 간신히 목숨만 건졌다.<end>"
+
+## 430163
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "かくして、死ととなり合わせの<line-break>孤独な逃避行の彼の生涯が始まる。<line-break>彼は気に入らぬものすべてを<line-break>拳でねじ伏せ、その血をむさぼった。<end>"
+EN: "Thus began his lonely life on the run, forever one step from death. He crushed everything he disliked beneath his fists and gorged himself on its blood.<end>"
+KO: "그렇게 죽음과 맞닿은 고독한 도피의 삶이 시작되었다. 그는 마음에 들지 않는 모든 것을 주먹으로 짓누르고 그 피를 탐했다.<end>"
+
+## 430164
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ある日、癇に障った山賊団をつぶした。<line-break>血を浴びた彼は野獣だった。<line-break>その前に１人の少女が現れた。<line-break>山賊に捕らわれていたのだ。<end>"
+EN: "One day, he destroyed a band of brigands that had gotten on his nerves. Bathed in blood, he was a beast. Then a girl appeared before him. She had been held captive by the brigands.<end>"
+KO: "어느 날 거슬리는 산적단을 박살 냈다. 피를 뒤집어쓴 그는 야수였다. 그 앞에 산적에게 붙잡혀 있던 한 소녀가 나타났다.<end>"
+
+## 430165
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "彼は血をむさぼろうと拳を振り上げた。<line-break>だが、その拳は宙にとどまり、<line-break>少女に振り下ろされることはなかった。<line-break>少女の名をリメルダといった。<end>"
+EN: "He raised his fist to gorge on her blood. But it stopped in midair and never came down upon the girl. Her name was Rimelda.<end>"
+KO: "그는 피를 탐하며 주먹을 치켜들었다. 하지만 그 주먹은 허공에 멈춰 소녀에게 내리쳐지지 않았다. 소녀의 이름은 리멜다였다.<end>"
+
+## 430166
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ライギロアは１人の金持ちを襲った。<line-break>あくどい商法で名の知れた商人だが、<line-break>その経歴が彼を駆り立てたのではない。<line-break>ただ、気に入らなかっただけ、なのだ。<end>"
+EN: "Raigiroa attacked a wealthy man. The merchant was notorious for his unscrupulous dealings, but that was not what drove him to it. He simply did not like the man.<end>"
+KO: "라이기로아는 한 부자를 습격했다. 악덕 상술로 유명한 상인이지만 그 경력이 그를 움직인 건 아니었다. 그저 마음에 들지 않았을 뿐이다.<end>"
+
+## 430167
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "商人の館へ踏み込もうというときに、<line-break>卑屈そうな男が酒を勧めてきた。<line-break>悪徳商人の最期を祝うのだと言う。<line-break>彼は男を殴り、酒だけを飲んだ。<end>"
+EN: "As he was about to storm the merchant's mansion, a cringing man offered him a drink. He said it was to celebrate the corrupt merchant's end. Raigiroa struck the man and drank only the wine.<end>"
+KO: "상인의 저택으로 쳐들어가려는데 비굴해 보이는 남자가 술을 권했다. 악덕 상인의 최후를 축하한다더군. 그는 남자를 때리고 술만 마셨다.<end>"
+
+## 430168
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "酔いも冷めぬまま彼は破壊を楽しんだ。<line-break>そのとき、膝が砕けた。<line-break>身体の力が抜け、取り囲む警備兵の<line-break>姿がゆがむ。<end>"
+EN: "Still drunk, he reveled in destruction. Then his knees gave way. His strength drained from his body, and the guards surrounding him blurred before his eyes.<end>"
+KO: "술도 깨지 않은 채 그는 파괴를 즐겼다. 그때 무릎이 꺾였다. 온몸에서 힘이 빠지고, 둘러싼 경비병들의 모습이 일그러졌다.<end>"
+
+## 430169
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "男のこびた笑顔が脳裏をかすめた。<line-break>毒か…！<line-break>次の瞬間、鈍く冷たい痛みが<line-break>ライギロアを貫いた。<end>"
+EN: "The man's ingratiating smile flashed through his mind. Poison...? The next instant, a dull, cold pain pierced Raigiroa.<end>"
+KO: "남자의 비굴한 미소가 머릿속을 스쳤다. 독인가…! 다음 순간 둔하고 차가운 통증이 라이기로아를 꿰뚫었다.<end>"
+
+## 430170
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "彼は一吼すると、警備兵をなぎ倒し<line-break>鉛のような体を引きずって逃げ出した。<line-break>すさまじい形相、したたる血と汗、<line-break>焦点は宙をさまよい、足はもつれる。<end>"
+EN: "With a roar, he sent the guards flying and fled, dragging his leaden body behind him. His face was contorted, blood and sweat streamed down him, his unfocused eyes wandered, and his feet stumbled.<end>"
+KO: "그는 한 번 포효하더니 경비병을 쓸어버리고 납처럼 무거운 몸을 끌며 도망쳤다. 흉악한 형상, 흐르는 피와 땀, 초점은 허공을 헤매고 다리는 꼬였다.<end>"
+
+## 430171
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "刹那、彼の前に１人の少女が<line-break>立ちふさがった。<line-break>少女のおぼろげな像を網膜に感じながら<line-break>ライギロアは自分の血だまりに沈んだ。<end>"
+EN: "In that instant, a girl stepped into his path. With her faint image lingering in his vision, Raigiroa collapsed into a pool of his own blood.<end>"
+KO: "찰나, 그의 앞을 한 소녀가 가로막았다. 흐릿한 소녀의 모습을 망막에 담은 채 라이기로아는 자신의 핏속에 쓰러졌다.<end>"
+
+## 430172
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ライギロアはベッドの中で目を開けた。<line-break>彼をのぞき込んでいる少女はリメルダ<line-break>だった。彼女の笑顔に、ライギロアは<line-break>自分の中で何かが崩れるのを感じた。<end>"
+EN: "Raigiroa opened his eyes in a bed. The girl looking down at him was Rimelda. Her smile made him feel something inside him crumble.<end>"
+KO: "라이기로아는 침대에서 눈을 떴다. 그를 들여다보는 소녀는 리멜다였다. 그녀의 미소를 보며 라이기로아는 자신 안에서 무언가 무너지는 걸 느꼈다.<end>"
+
+## 430173
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "だが、それを伝える言葉を<line-break>ライギロアは知らなかった。<line-break>人間は嫌いだ…、そう言い残して<line-break>少女の前を去った。<end>"
+EN: "But Raigiroa did not know the words to tell her. He left the girl behind with only the words, 'I hate humans...'<end>"
+KO: "하지만 라이기로아는 그것을 전할 말을 몰랐다. 인간은 싫다… 그렇게 남기고 소녀 앞을 떠났다.<end>"
+
+## 430174
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "リメルダの住む街では、魔道兵器の<line-break>開発が盛んに行われていた。<line-break>強大な力をいむ竜王は、<line-break>これを不遜と考えた。<end>"
+EN: "In the city where Rimelda lived, the development of magical weapons was flourishing. The Dragon King, who abhorred their immense power, considered this an act of insolence.<end>"
+KO: "리멜다가 살던 도시에서는 마도 병기 개발이 활발히 이루어지고 있었다. 강대한 힘을 꺼린 용왕은 이를 불손하다고 여겼다.<end>"
+
+## 430175
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜王はこの街に隕石を落とし、<line-break>見せしめに滅ぼすことを決めた。<end>"
+EN: "The Dragon King decided to drop a meteorite on the city and destroy it as an example to others.<end>"
+KO: "용왕은 이 도시에 운석을 떨어뜨려 본보기로 멸망시키기로 했다.<end>"
+
+## 430176
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "それを知ったライギロアは、街へ戻った。<line-break>ただ、リメルダを救うために…。<line-break>街の中央にある尖塔に登り、<line-break>拳器メテオフィストにソウルを込めた。<end>"
+EN: "When Raigiroa learned of this, he returned to the city―solely to save Rimelda. He climbed the spire at its center and poured Soul into the Meteor Fist.<end>"
+KO: "그 사실을 안 라이기로아는 거리로 돌아왔다. 오직 리멜다를 구하기 위해…. 거리 중앙의 첨탑에 올라 권기 메테오피스트에 소울을 담았다.<end>"
+
+## 430177
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "一吼すると、落ち来る巨大な隕石を、<line-break>拳で受けとめた。<line-break>ライギロアのソウルの防御壁が、<line-break>衝撃波から街を守った。<end>"
+EN: "With a roar, he caught the massive falling meteorite with his fist. Raigiroa's Soul barrier protected the city from the shock waves.<end>"
+KO: "한 번 포효하자 떨어지던 거대한 운석을 주먹으로 받아냈다. 라이기로아의 소울 방벽이 충격파에서 도시를 지켜 냈다.<end>"
+
+## 430178
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ダルケニスに助けられたくない奴は<line-break>ここに残るといい。そのかわり、<line-break>ダルケニスと一緒に死ぬことになる！…<line-break>ライギロアは隕石を支えつつ叫んだ。<end>"
+EN: "Anyone who does not want to be saved by a Darkenith can stay here. But then you will die with this Darkenith! Raigiroa shouted as he held up the meteorite.<end>"
+KO: "…다르케니스에게 도움받고 싶지 않은 자는 여기 남아라. 대신 다르케니스와 함께 죽게 될 거다! …라이기로아는 운석을 떠받치며 외쳤다.<end>"
+
+## 430179
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "街は一瞬にして静まりかえり、<line-break>やがて人々は堰を切って逃げ出した。<line-break>人ひとりいなくなった街を見て、<line-break>ライギロアは自嘲した。そのとき…<end>"
+EN: "The city fell silent in an instant, then the people fled in a flood. Seeing the city empty of every last person, Raigiroa laughed bitterly. Then...<end>"
+KO: "도시는 순식간에 조용해졌고, 이윽고 사람들은 둑이 터지듯 도망치기 시작했다. 텅 빈 도시를 보며 라이기로아는 자조했다. 그때….<end>"
+
+## 430180
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "リメルダが彼の足下に登ってきた。<line-break>…行け。俺は人間が嫌いだ。<line-break>リメルダはかぶりを振る。彼は<line-break>隕石を支える拳に限界を感じていた。<end>"
+EN: "Rimelda climbed up and stood at his feet. Go. I hate humans. Rimelda shook her head. He could feel his fist, which held up the meteorite, reaching its limit.<end>"
+KO: "리멜다가 그의 발밑으로 올라왔다. …가. 난 인간이 싫다. 리멜다는 고개를 저었다. 그는 운석을 떠받치는 주먹이 한계에 다다른 걸 느끼고 있었다.<end>"
+
+## 430181
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "そのとき、宙に竜王の使者が現れた。<line-break>竜王様はお怒りだ。<line-break>使者がライギロアに語りかけた。<line-break>おごりの街に裁きが降らねばならぬ。<end>"
+EN: "Just then, an emissary of the Dragon King appeared in the sky. The Dragon King is angry, the emissary told Raigiroa. Judgment must fall upon this arrogant city.<end>"
+KO: "그때 허공에 용왕의 사자가 나타났다. 용왕 님께서 노하셨다. 사자는 라이기로아에게 말했다. 오만한 도시에 심판이 내려져야 한다고.<end>"
+
+## 430182
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "隕石を逃げゆく罪人どもに投げよ。<line-break>さすれば、お前とその女を救おう。<line-break>ライギロアは使者に唾を吐いた。<line-break>竜王の使者は去った。<end>"
+EN: "Throw the meteorite at those fleeing sinners. Then I will save you and that woman. Raigiroa spat at the emissary, who departed.<end>"
+KO: "운석을 도망치는 죄인들에게 던져라. 그러면 너와 그 여자를 살려 주겠다. 라이기로아는 사자에게 침을 뱉었다. 용왕의 사자는 떠났다.<end>"
+
+## 430183
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ライギロアは片腕でリメルダを<line-break>固く抱きしめると、<line-break>隕石を支える拳に力を込めた。<line-break>無限のソウルの力が隕石を駆けめぐる。<end>"
+EN: "Raigiroa held Rimelda tight in one arm, then poured strength into the fist holding up the meteorite. The power of his Infinite Soul raced through the meteorite.<end>"
+KO: "라이기로아는 한 팔로 리멜다를 굳게 끌어안고 운석을 떠받친 주먹에 힘을 주었다. 무한의 소울의 힘이 운석을 휘감았다.<end>"
+
+## 430184
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "巨大な隕石は砕け、<line-break>砂礫となって街に降り注いだ。<line-break>ライギロアとリメルダは、<line-break>街とともに砂に埋もれていった。<end>"
+EN: "The huge meteorite shattered and rained down on the city as sand and gravel. Raigiroa and Rimelda were buried in the sand along with the city.<end>"
+KO: "거대한 운석은 부서져 모래와 자갈이 되어 도시 위로 쏟아졌다. 라이기로아와 리멜다는 도시와 함께 모래에 묻혀 갔다.<end>"
+
+## 430185
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "少し賢くなった気がする。<line-break>ＩＮＴが１上がった。<end>"
+EN: "I feel a little smarter. INT increased by 1.<end>"
+KO: "조금 똑똑해진 것 같다. INT가 1 올랐다.<end>"
+
+## 430186
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>…、すまぬ。<line-break>急に王宮に行かねばならなくなった。<end>"
+EN: "<value:$28>... Forgive me. I suddenly have to go to the royal palace.<end>"
+KO: "<value:$28>… 미안하다. 갑자기 왕궁에 가야 하게 됐다.<end>"
+
+## 430187
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは、<value:$28>様、<line-break>お帰りなさいませ。　　　　　　　<line-break>　<line-break><value:$28>様、<line-break>よろしければ、私めにも<line-break>冒険のお話など聞かせてください。<end>"
+EN: "Why, <value:$28>. Welcome home. If you don't mind, <value:$28>, I should very much like to hear about your adventures as well.<end>"
+KO: "<value:$28> 님, 어서 오십시오. <value:$28> 님, 괜찮으시다면 제게도 모험 이야기를 들려주시겠습니까.<end>"
+
+## 430188
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ<end>"
+EN: "Yes<end>"
+KO: "아아<end>"
+
+## 430189
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "いや<end>"
+EN: "No<end>"
+KO: "아니<end>"
+
+## 430190
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "さようでございますか。<line-break>それは、大変な旅でございましたね。<line-break>　<line-break><value:$28>様、<line-break>あまり、ご無理はなさいませぬよう<line-break>お願い申しあげます。<end>"
+EN: "Is that so? That must have been quite a journey. Please, <value:$28>, take care not to overtax yourself.<end>"
+KO: "그러셨군요. 참 힘든 여행이셨겠습니다. <value:$28> 님, 너무 무리하지 않으시길 부탁드립니다.<end>"
+
+## 430191
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "おはようございます、<value:$28>様<line-break>今日もよい天気でございますよ。　　　<line-break>　<line-break>それでは、行ってらっしゃいませ。<line-break>竜王様のご加護が<value:$28>様を<line-break>守りますように。<end>"
+EN: "Good morning, <value:$28>. It is fine weather again today. Now then, have a safe journey. May the Dragon King's blessing protect you, <value:$28>.<end>"
+KO: "좋은 아침입니다, <value:$28> 님. 오늘도 좋은 날씨입니다. 그럼 다녀오십시오. 용왕님의 가호가 <value:$28> 님을 지켜 주시길.<end>"
+
+## 430192
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "さようでございますか。<line-break>それでは、いってらっしゃいませ。　　<line-break>　<line-break>あまり、ご無理はなさいませぬよう。<line-break>竜王様のご加護が<value:$28>様を<line-break>守りますように。<end>"
+EN: "Is that so? Then have a safe journey. Please do not overexert yourself. May the Dragon King's blessing protect you, <value:$28>.<end>"
+KO: "그렇습니까. 그럼 다녀오십시오. 너무 무리는 하지 마십시오. 용왕님의 가호가 <value:$28> 님을 지켜 주기를.<end>"
+
+## 430193
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3また、冒険のお話など<line-break>お聞かせくださいませ。<end>世界に出て、<line-break>見聞をお広めになることは<line-break>大変よろしいことと存じます。　　<line-break>私めは、<value:$28>様に<line-break>何か、無限の可能性のようなものを<line-break>感じるのでございます。<end>旅先でエスト様にお会いになったら<line-break>たまには戻っていらっしゃるように<line-break>お伝えください。<line-break>あの方は研究熱心で、<line-break>常に消息が知れません。<line-break>困ったお方でございます。<end>"
+EN: "<select><value:$20>%3Please tell me more about your adventures sometime.<end>I believe it is an excellent thing to go out into the world and broaden your horizons. I sense something like limitless potential in you, <value:$28>.<end>If you happen to meet Lord Est on your travels, please pass along a message: do come back once in a while. Lord Est is forever absorbed in research, and no one ever knows where he is. Quite a troublesome person.<end>"
+KO: "<select><value:$20>%3또 모험 이야기도 들려 주십시오.<end>세상으로 나가 견문을 넓히시는 것은 매우 좋은 일이라 생각합니다. 저는 <value:$28> 님께 무언가 무한한 가능성 같은 것을 느끼고 있습니다.<end>여행지에서 에스트 님을 만나시면 가끔은 돌아오시라고 전해 주십시오. 그분은 연구에 열중하셔서 늘 소식을 알 수가 없습니다. 참 곤란한 분이십니다.<end>"
+
+## 430194
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕は、エスト＝リューガ。<line-break>こう見えても考古学者さ。　　　<line-break>　<line-break>古代の遺物、<line-break>闇の神器を探して旅してるんだ。<line-break>ね、闇の神器って知ってる？<end>"
+EN: "I'm Est Ryuga. Believe it or not, I'm an archaeologist. I travel in search of ancient relics known as the Dark Artifacts. Have you heard of them?<end>"
+KO: "나는 에스트 류가. 이래 봬도 고고학자야. 고대 유물, 어둠의 신기를 찾으며 여행하고 있지. 어둠의 신기라는 거 알아?<end>"
+
+## 430195
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "知ってる<end>"
+EN: "I know about them<end>"
+KO: "알고 있어<end>"
+
+## 430196
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "知らない<end>"
+EN: "No, I don't<end>"
+KO: "몰라<end>"
+
+## 430197
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "本当！？　　　　　　　　　　　　　　<line-break>　<line-break>　<line-break>それじゃ、闇の神器が<line-break>失われた古代の魔法文明によって<line-break>造られたことも、知ってるよね。<end>"
+EN: "Really!? Then you know the Dark Artifacts were created by a lost civilization of ancient magic, right?<end>"
+KO: "정말!? 그럼 어둠의 신기가 사라진 고대 마법 문명에서 만들어졌다는 것도 알고 있지?<end>"
+
+## 430198
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕は、神器から古代の魔道技術を　　　<line-break>解き明かして、みんなの生活に<line-break>役立てたいと思ってる。<line-break>もちろん、今のところ<line-break>古代の魔法文明の技術は<line-break>謎に包まれたままだよ。<end>"
+EN: "I want to unravel the ancient magical technology behind the Artifacts and put it to use improving people's lives. Of course, the technology of that ancient magical civilization is still shrouded in mystery.<end>"
+KO: "난 신기에서 고대의 마도 기술을 밝혀내 모두의 생활에 도움이 되게 하고 싶어. 물론 지금은 고대 마법문명의 기술이 여전히 수수께끼에 싸여 있지만.<end>"
+
+## 430199
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、もしその謎を解明できたなら　　<line-break>人類は、ものすごい力を<line-break>手にすることになる。<line-break>そうすれば、<line-break>みんなの生活が便利になる。<line-break>みんなの暮らしが一気に向上するんだ！<end>"
+EN: "But if that mystery could be solved, humanity would gain tremendous power. Then life would become more convenient for everyone. Everyone's quality of life would improve in no time!<end>"
+KO: "하지만 그 수수께끼를 풀 수 있다면 인류는 엄청난 힘을 손에 넣게 돼. 그러면 모두의 생활이 편리해지고 삶의 수준이 한꺼번에 올라갈 거야!<end>"
+
+## 430200
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "どう？　君も僕の話、<line-break>くだらないと思う？<end>"
+EN: "Well? Do you think it's all nonsense too?<end>"
+KO: "어때? 너도 내 이야기, 시시하다고 생각해?<end>"
+
+## 430201
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "くだらない<end>"
+EN: "It's ridiculous<end>"
+KO: "시시해<end>"
+
+## 430202
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "おもしろかった<end>"
+EN: "It was interesting<end>"
+KO: "재미있었어<end>"
+
+## 430203
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "そう…。残念だな。<end>"
+EN: "Oh... That's disappointing.<end>"
+KO: "그래…. 유감이군.<end>"
+
+## 430204
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、闇の神器を知ってるなんて…<line-break>君の名前を聞いてもいい？<end>"
+EN: "Still, you know about the Dark Artifacts... May I ask your name?<end>"
+KO: "그런데 어둠의 신기를 알고 있다니… 네 이름을 물어봐도 될까?<end>"
+
+## 430205
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>だね？<line-break>それじゃ、また会えるといいね、<line-break><value:$28>。<end>"
+EN: "<value:$28>, right? Well, I hope we meet again, <value:$28>.<end>"
+KO: "<value:$28> 맞지? 그럼 또 만날 수 있으면 좋겠다, <value:$28>.<end>"
+
+## 430206
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "本当？　それじゃ、<line-break>君だけに秘密を教えてあげる。<end>"
+EN: "Really? Then I'll let you in on a secret.<end>"
+KO: "정말? 그럼 너한테만 비밀을 알려 줄게.<end>"
+
+## 430207
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕ね…、ついに闇の神器のひとつを　<line-break>手に入れたんだ。　　　　　　　　<line-break>　<line-break>その力を使いこなす方法も、<line-break>その仕組みも、<line-break>少しずつわかってきた。<end>"
+EN: "You see... I finally got my hands on one of the Dark Artifacts. Little by little, I'm learning how it works―and how to wield its power.<end>"
+KO: "나 말이야… 드디어 어둠의 신기 하나를 손에 넣었어. 그 힘을 쓰는 법도 구조도 조금씩 알게 됐어.<end>"
+
+## 430208
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "フフフ。<line-break>僕の話が現実になるのも、<line-break>そう遠い話じゃないかもしれない。<end>"
+EN: "Heh heh heh. Perhaps it won't be long before everything I've told you becomes a reality.<end>"
+KO: "후후후. 내 이야기가 현실이 되는 것도 그리 먼 이야기는 아닐지 몰라.<end>"
+
+## 430209
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうだ、君の名前を聞いてもいい？<end>"
+EN: "Oh, that's right. May I ask your name?<end>"
+KO: "그래, 네 이름을 물어봐도 될까?<end>"
+
+## 430210
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "うんとね。闇の神器っていうのはね、<line-break>破壊神ウルグを復活させるのに<line-break>使われた、強力な魔道器のことなんだ。<end>"
+EN: "Well, the Dark Artifacts are powerful magical devices that were used to resurrect Ulugh, the God of Destruction.<end>"
+KO: "있잖아. 어둠의 신기라는 건 파괴신 울그를 부활시키는 데 쓰인 강력한 마도기야.<end>"
+
+## 430211
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ものすごい力を秘めていてね。<line-break>それを使えば、僕みたいにひ弱な男でも<line-break>強い戦士や怪物をひとひねりにできる。<end>"
+EN: "They hold tremendous power. With one, even a frail man like me could make short work of a mighty warrior or monster.<end>"
+KO: "엄청난 힘이 숨어 있거든. 그걸 쓰면 나처럼 허약한 남자도 강한 전사나 괴물을 손쉽게 해치울 수 있어.<end>"
+
+## 430212
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ハハ、別に僕は強くなりたくて<line-break>闇の神器を探してるんじゃないよ。　　<line-break>　<line-break>僕はね、古代の魔法文明の力を<line-break>借りたいんだ。<end>"
+EN: "Ha ha, I'm not searching for the Dark Artifacts because I want to become strong. What I want is to harness the power of that ancient magical civilization.<end>"
+KO: "하하, 난 강해지려고 어둠의 신기를 찾는 게 아니야. 고대 마법문명의 힘을 빌리고 싶은 거지.<end>"
+
+## 430213
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の神器はね、<line-break>先人類の進んだ魔法文明の技術で　　　<line-break>造られた物なんだよ。<line-break>その謎を解き明かせたら、<line-break>人類はものすごい力を<line-break>手にすることになる。<end>"
+EN: "The Dark Artifacts were made using the advanced magical technology of the people who came before us. If we could unlock their secrets, humanity would gain tremendous power.<end>"
+KO: "어둠의 신기는 선인류의 발전된 마법문명 기술로 만들어진 물건이야. 그 수수께끼를 풀 수 있다면 인류는 엄청난 힘을 손에 넣게 될 거야.<end>"
+
+## 430214
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうすれば、<line-break>みんなの生活が便利になる。<line-break>みんなの暮らしが一気に向上するんだ！<line-break>どう？　君も僕の話、<line-break>くだらないと思う？<end>"
+EN: "Then life would become more convenient for everyone. Everyone's quality of life would improve in no time! Well? Do you think it's all nonsense too?<end>"
+KO: "그러면 모두의 생활이 편리해져. 모두의 삶이 단숨에 나아지는 거야! 어때? 너도 내 이야기가 시시하다고 생각해?<end>"
+
+## 430215
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "そう…。<line-break>君ならわかってくれそうな<line-break>気がしたんだけど…。<end>"
+EN: "Oh... I thought you might understand.<end>"
+KO: "그래…. 너라면 이해해 줄 것 같았는데….<end>"
+
+## 430216
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "ね、君の名前、<line-break>聞いてもいいかな？<end>"
+EN: "May I ask your name?<end>"
+KO: "저기, 네 이름 물어봐도 될까?<end>"
+
+## 430217
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>だね？<line-break>じゃ、また会えるといいね、<line-break><value:$28>。<end>"
+EN: "<value:$28>, right? Well, I hope we meet again, <value:$28>.<end>"
+KO: "<value:$28> 맞지? 그럼 또 만날 수 있으면 좋겠다, <value:$28>.<end>"
+
+## 430218
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕の話が現実になるのは、<line-break>そう遠い話じゃないかもしれないよ。<line-break>　<end>"
+EN: "It may not be long before what I have been talking about becomes reality.<end>"
+KO: "내 이야기가 현실이 되는 것도 그리 먼 일이 아닐지도 몰라.<end>"
+
+## 430219
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "…賊か。<line-break>　<end>"
+EN: "...Bandits?<end>"
+KO: "…도적인가.<end>"
+
+## 430220
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "リューガ・ボリューム１その２<end>"
 EN: ""
-KO: "예비 메시지 13<end>"
+KO: "류가 볼륨 1 그 2<end>"
 
-## 370300
-source: translations/korean/messages/msgsec037-part99.toml
+## 430221
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１４<end>"
+JP: "フッ、はやるな。<line-break>行くぞ。<end>"
+EN: "Heh. Don't be so hasty. Let's go.<end>"
+KO: "훗, 서두르지 마라. 가자.<end>"
+
+## 430222
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "どこへ行くつもりだ？<line-break>仕事はこれからだぞ。<end>"
+EN: "Where do you think you're going? The job's only just begun.<end>"
+KO: "어디 갈 생각이지? 일은 지금부터다.<end>"
+
+## 430223
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "エスト様からの伝言ですか？<line-break>いえ、聞いていませんが。<end>"
+EN: "A message from Lord Est? No, I haven't heard anything.<end>"
+KO: "에스트 님의 전언 말입니까? 아니요, 듣지 못했습니다.<end>"
+
+## 430224
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "エスト様からの伝言ですか？<line-break>いえ、まだ聞いておりません。　<line-break>　<line-break>日をおいてからもう一度<line-break>来られた方がよろしいでしょう。<end>"
+EN: "Word from Lord Est? No, I haven't heard anything yet. Perhaps you should come back in a few days.<end>"
+KO: "에스트 님의 전언인가요? 아니요, 아직 듣지 못했습니다. 며칠 뒤 다시 오시는 게 좋겠습니다.<end>"
+
+## 430225
+source: translations/korean/messages/msgsec043-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備用メッセージ７<line-break>リューガ・ボリューム１その２<end>"
 EN: ""
-KO: "예비 메시지 14<end>"
+KO: "예비 메시지 7 류가, 볼륨 1 그 2<end>"
 
-## 370301
-source: translations/korean/messages/msgsec037-part99.toml
+## 430226
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１５<end>"
+JP: "予備用メッセージ８<line-break>リューガ・ボリューム１その２<end>"
 EN: ""
-KO: "예비 메시지 15<end>"
+KO: "예비 메시지 8 류가, 볼륨 1 그 2<end>"
 
-## 370302
-source: translations/korean/messages/msgsec037-part99.toml
+## 430227
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１６<end>"
+JP: "予備用メッセージ９<line-break>リューガ・ボリューム１その２<end>"
 EN: ""
-KO: "예비 메시지 16<end>"
+KO: "예비 메시지 9 류가, 볼륨 1 그 2<end>"
 
-## 370303
-source: translations/korean/messages/msgsec037-part99.toml
+## 430228
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１７<end>"
+JP: "予備用メッセージ１０<line-break>リューガ・ボリューム１その２<end>"
 EN: ""
-KO: "예비 메시지 17<end>"
+KO: "예비 메시지 10 류가, 볼륨 1 그 2<end>"
 
-## 370304
-source: translations/korean/messages/msgsec037-part99.toml
+## 430229
+source: translations/korean/messages/msgsec043-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１８<end>"
+JP: "リューガ・ボリューム１その２終端<end>"
 EN: ""
-KO: "예비 메시지 18<end>"
+KO: "류가 볼륨1 그 2 끝<end>"
 
-## 370305
-source: translations/korean/messages/msgsec037-part99.toml
+## 440000
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１９<end>"
+JP: "リューガ・ボリューム３開始<end>"
 EN: ""
-KO: "예비 메시지 19<end>"
+KO: "류가 볼륨 3 시작<end>"
 
-## 370306
-source: translations/korean/messages/msgsec037-part99.toml
+## 440001
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ２０<end>"
-EN: ""
-KO: "예비 메시지 20<end>"
+JP: "お前も来るか？<end>"
+EN: "Are you coming too?<end>"
+KO: "너도 올 건가?<end>"
 
-## 370307
-source: translations/korean/messages/msgsec037-part99.toml
+## 440002
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "旅立ち１１メッセージ終端<end>"
-EN: ""
-KO: "여행 출발 11 메시지 끝<end>"
+JP: "ティアナを訪ねるところだ。<line-break>美人と会うのも悪くなかろう？<line-break>　<line-break>それとも、やきもちを妬く<line-break>女でもできたか？<end>"
+EN: "I'm on my way to see Tiana. Nothing wrong with paying a visit to a beautiful woman, is there? Or have you found yourself a woman who'd get jealous?<end>"
+KO: "티아나를 찾아가는 길이다. 미인을 만나는 것도 나쁘지 않겠지? 아니면 질투할 여자라도 생겼나?<end>"
 
-## 380000
-source: translations/korean/messages/msgsec038-part99.toml
+## 440003
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "旅立ち１１メッセージ<end>"
-EN: ""
-KO: "여행 출발 11 메시지<end>"
+JP: "バカか。本気にするな。<line-break>相手は王女だぞ。<end>"
+EN: "Don't be an idiot. I wasn't serious. She's a princess.<end>"
+KO: "바보냐. 진지하게 받아들이지 마. 상대는 공주라고.<end>"
 
-## 380001
-source: translations/korean/messages/msgsec038-part99.toml
+## 440004
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "さーて、んなことはおいといて<line-break>このネモ様のおしゃべりに<line-break>つきあってくれる気はあるかい？<end>"
-EN: "Well, enough of that. Feel like indulging the great Nemo in a little conversation?<end>"
-KO: "자, 그런 얘기는 제쳐 두고 이 네모 님의 수다에 어울려 줄 생각은 있어?<end>"
+JP: "ティアナ王女を訪ねるところだ。<end>"
+EN: "I'm on my way to see Princess Tiana.<end>"
+KO: "티아나 공주를 찾아가는 길이다.<end>"
 
-## 380002
-source: translations/korean/messages/msgsec038-part99.toml
+## 440005
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "まだ、ネモにきくことがある<end>"
-EN: "I still have something to ask Nemo.<end>"
-KO: "아직 네모에게 물어볼 게 있다<end>"
+JP: "相変わらず気の利かぬ女だ。　　　　<end>"
+EN: "As tactless as ever.<end>"
+KO: "여전히 눈치 없는 여자군.<end>"
 
-## 380003
-source: translations/korean/messages/msgsec038-part99.toml
+## 440006
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "もういい<end>"
-EN: "That's enough.<end>"
-KO: "됐어<end>"
+JP: "男が女のもとを訪れようというのだ。<line-break>遠慮する気にはならないのか？<end>"
+EN: "A man is going to visit a woman. Don't you think you ought to stay behind?<end>"
+KO: "남자가 여자를 찾아가려는 거다. 눈치껏 빠져줄 생각은 안 드나?<end>"
 
-## 380004
-source: translations/korean/messages/msgsec038-part99.toml
+## 440007
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "じゃ、また、来てくれや。<line-break>世界がどうなろうと<line-break>俺はヒマしてっからさ。<end>"
-EN: "Come back anytime. No matter what happens to the world, I'll still have time to kill.<end>"
-KO: "그럼 또 와. 세상이 어떻게 되든 난 한가하니까.<end>"
+JP: "バカか。本気にするな。<end>"
+EN: "Don't be an idiot. I wasn't serious.<end>"
+KO: "바보냐. 진지하게 받아들이지 마.<end>"
 
-## 380005
-source: translations/korean/messages/msgsec038-part99.toml
+## 440008
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "俺は、名前を知るものネモ、<line-break>破壊神の円卓騎士…。<line-break>…って、んなことは知ってるよな。<line-break>じゃあ、この闇の賢者様が<line-break>お前の知らない運命の書に記された<line-break>名前について教えてやろう。<end>"
-EN: "I am Nemo, Knower of Names, a Knight of the Round Table in service to the God of Destruction... But you already know all that, don't you? So let the great Sage of Darkness tell you about the names unknown to you that are written in the Book of Fate.<end>"
-KO: "나는 이름을 아는 자 네모, 파괴신의 원탁기사…. 뭐, 그 정도는 알고 있겠지. 그럼 이 어둠의 현자님이 네가 모르는 운명의 책에 적힌 이름에 대해 가르쳐 주지.<end>"
+JP: "ふふふ…、<value:$28>様って<line-break>本当におもしろい方ですね。<end>"
+EN: "Hee hee... <value:$28>, you really are amusing.<end>"
+KO: "후후후… <value:$28>님은 정말 재미있는 분이시네요.<end>"
 
-## 380006
-source: translations/korean/messages/msgsec038-part99.toml
+## 440009
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "聞くのをやめる<end>"
-EN: "Stop asking questions<end>"
-KO: "듣는 걸 그만둔다<end>"
+JP: "笑わないでやってくれ。　　　　　　<end>"
+EN: "Try not to laugh.<end>"
+KO: "웃지 말아 줘.<end>"
 
-## 380007
-source: translations/korean/messages/msgsec038-part99.toml
+## 440010
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>アイリーン<color:o><end>"
-EN: "<color:h>Irene<color:o><end>"
-KO: "<color:h>아이린<color:o><end>"
+JP: "冗談で言ってるのではない。<line-break>こいつは王宮のしきたりにうといのだ。<end>"
+EN: "I'm not joking. Court etiquette is not exactly a strong suit.<end>"
+KO: "농담으로 하는 말이 아니다. 이 녀석은 왕궁의 관습에 어둡다.<end>"
 
-## 380008
-source: translations/korean/messages/msgsec038-part99.toml
+## 440011
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>アトレイア<color:o><end>"
-EN: "<color:h>Atleia<color:o><end>"
-KO: "<color:h>아트레이아<color:o><end>"
+JP: "でも、無意味なしきたりばかり。<line-break>おじぎの仕方、お食事の席順や作法…。<end>"
+EN: "But those customs are all pointless. How to bow, where everyone sits at dinner, table manners...<end>"
+KO: "하지만 의미 없는 관습뿐이야. 인사하는 법, 식사 자리 순서나 예법….<end>"
 
-## 380009
-source: translations/korean/messages/msgsec038-part99.toml
+## 440012
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>アンギルダン<color:o><end>"
-EN: "<color:h>Angeerdan<color:o><end>"
-KO: "<color:h>앙길단<color:o><end>"
+JP: "フッ、これは意外だ。　　　　　<end>"
+EN: "Hmph. Now that is unexpected.<end>"
+KO: "훗, 이건 뜻밖이군.<end>"
 
-## 380010
-source: translations/korean/messages/msgsec038-part99.toml
+## 440013
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>イークレムン<color:o><end>"
-EN: "<color:h>Iiklmn<color:o><end>"
-KO: "<color:h>이크렘<color:o><end>"
+JP: "いつも、フィアンセ殿の不作法を<line-break>嫌っているではないか？<end>"
+EN: "But haven't you always disliked your betrothed's bad manners?<end>"
+KO: "늘 약혼자의 무례함을 싫어하지 않았나?<end>"
 
-## 380011
-source: translations/korean/messages/msgsec038-part99.toml
+## 440014
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>イーシャ<color:o><end>"
-EN: "<color:h>Iria<color:o><end>"
-KO: "<color:h>이샤<color:o><end>"
+JP: "あれは…<line-break>あの方は度をこえています！<end>"
+EN: "That's different... My betrothed goes too far!<end>"
+KO: "저건… 저분은 너무 지나치십니다!<end>"
 
-## 380012
-source: translations/korean/messages/msgsec038-part99.toml
+## 440015
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>イオンズ<color:o><end>"
-EN: "<color:h>Ions<color:o><end>"
-KO: "<color:h>이온즈<color:o><end>"
+JP: "確かにな。どうせ、昼間から　　<line-break>酒と賭博にあけくれ、<line-break>　<line-break>薄暗い酒場で、女をはべらし、<line-break>鼻の下を伸ばしているのだろう。<line-break>貴族の名を盾にな。<end>"
+EN: "True enough. No doubt your betrothed spends the day drinking and gambling, sitting in some dim tavern surrounded by women and leering at them, all while using a noble title as a shield.<end>"
+KO: "확실히 그렇군. 어차피 낮부터 술과 도박에 빠지고 어두운 술집에서 여자를 끼고 헤벌쭉하고 있겠지. 귀족이라는 이름을 방패 삼아서.<end>"
 
-## 380013
-source: translations/korean/messages/msgsec038-part99.toml
+## 440016
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>ヴァイライラ<color:o><end>"
-EN: "<color:h>Vailaila<color:o><end>"
-KO: "<color:h>바일라이라<color:o><end>"
+JP: "それは違います！<line-break>あの方は、そんな方ではありません！<line-break>　<line-break>ましてや、<line-break>貴族の名をひけらかすなんて…！<end>"
+EN: "That's not true! My betrothed is nothing like that, much less the sort to flaunt a noble title...!<end>"
+KO: "그건 아닙니다! 그분은 그런 분이 아니에요! 하물며 귀족의 이름을 내세우다니…!<end>"
 
-## 380014
-source: translations/korean/messages/msgsec038-part99.toml
+## 440017
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>ヴァン<color:o><end>"
-EN: "<color:h>Van<color:o><end>"
-KO: "<color:h>반<color:o><end>"
+JP: "…ごめんなさい。<line-break>私、何をムキになってるのかしら。<end>"
+EN: "...I'm sorry. Why am I getting so worked up?<end>"
+KO: "…미안해요. 저, 왜 이렇게 흥분한 걸까요.<end>"
 
-## 380015
-source: translations/korean/messages/msgsec038-part99.toml
+## 440018
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>ヴィアリアリ<color:o><end>"
-EN: "<color:h>Vialiali<color:o><end>"
-KO: "<color:h>비아리아리<color:o><end>"
+JP: "何も謝ることなどないさ。　　　　<end>"
+EN: "You have nothing to apologize for.<end>"
+KO: "사과할 건 아무것도 없어.<end>"
 
-## 380016
-source: translations/korean/messages/msgsec038-part99.toml
+## 440019
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>エア<color:o><end>"
-EN: "<color:h>Er<color:o><end>"
-KO: "<color:h>에아<color:o><end>"
+JP: "では失礼する。<line-break>愛しのフィアンセ殿によろしくな。<end>"
+EN: "I'll take my leave, then. Give my regards to your darling betrothed.<end>"
+KO: "그럼 실례하지. 사랑하는 약혼자에게 안부 전해 줘.<end>"
 
-## 380017
-source: translations/korean/messages/msgsec038-part99.toml
+## 440020
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "<color:h>エステル<color:o><end>"
-EN: "<color:h>Esther<color:o><end>"
-KO: "<color:h>에스텔<color:o><end>"
-
-## 380018
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>エスト<color:o><end>"
-EN: "<color:h>Est<color:o><end>"
-KO: "<color:h>에스트<color:o><end>"
-
-## 380019
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>エルファス<color:o><end>"
-EN: "<color:h>Elfas<color:o><end>"
-KO: "<color:h>엘파스<color:o><end>"
-
-## 380020
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>オイフェ<color:o><end>"
-EN: "<color:h>Aoife<color:o><end>"
-KO: "<color:h>오이페<color:o><end>"
-
-## 380021
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>カルラ<color:o><end>"
-EN: "<color:h>Karula<color:o><end>"
-KO: "<color:h>카를라<color:o><end>"
-
-## 380022
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>クリュセイス<color:o><end>"
-EN: "<color:h>Khryuseis<color:o><end>"
-KO: "<color:h>크류세이스<color:o><end>"
-
-## 380023
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ザギヴ<color:o><end>"
-EN: "<color:h>Zagiv<color:o><end>"
-KO: "<color:h>자기브<color:o><end>"
-
-## 380024
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ジリオン<color:o><end>"
-EN: "<color:h>Zillion<color:o><end>"
-KO: "<color:h>질리온<color:o><end>"
-
-## 380025
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ゼネテス<color:o><end>"
-EN: "<color:h>Xenetes<color:o><end>"
-KO: "<color:h>제네테스<color:o><end>"
-
-## 380026
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>セラ<color:o><end>"
-EN: "<color:h>Sera<color:o><end>"
-KO: "<color:h>세라<color:o><end>"
-
-## 380027
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>チャカ<color:o><end>"
-EN: "<color:h>Chaka<color:o><end>"
-KO: "<color:h>차카<color:o><end>"
-
-## 380028
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ティアナ<color:o><end>"
-EN: "<color:h>Tiana<color:o><end>"
-KO: "<color:h>티아나<color:o><end>"
-
-## 380029
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>デルガド<color:o><end>"
-EN: "<color:h>Dergado<color:o><end>"
-KO: "<color:h>델가드<color:o><end>"
-
-## 380030
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ナッジ<color:o><end>"
-EN: "<color:h>Nadge<color:o><end>"
-KO: "<color:h>나지<color:o><end>"
-
-## 380031
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ノエル<color:o><end>"
-EN: "<color:h>Noel<color:o><end>"
-KO: "<color:h>노엘<color:o><end>"
-
-## 380032
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ヒルダリア<color:o><end>"
-EN: "<color:h>Hildaria<color:o><end>"
-KO: "<color:h>힐다리아<color:o><end>"
-
-## 380033
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>フェティ<color:o><end>"
-EN: "<color:h>Fety<color:o><end>"
-KO: "<color:h>페티<color:o><end>"
-
-## 380034
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>フェルム<color:o><end>"
-EN: "<color:h>Ferme<color:o><end>"
-KO: "<color:h>페름<color:o><end>"
-
-## 380035
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>フレア<color:o><end>"
-EN: "<color:h>Flare<color:o><end>"
-KO: "<color:h>플레어<color:o><end>"
-
-## 380036
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ベルゼーヴァ<color:o><end>"
-EN: "<color:h>Beelzeva<color:o><end>"
-KO: "<color:h>벨제바<color:o><end>"
-
-## 380037
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ユーリス<color:o><end>"
-EN: "<color:h>Julls<color:o><end>"
-KO: "<color:h>유리스<color:o><end>"
-
-## 380038
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ルルアンタ<color:o><end>"
-EN: "<color:h>Lulluantha<color:o><end>"
-KO: "<color:h>루루안타<color:o><end>"
-
-## 380039
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>レーグ<color:o><end>"
-EN: "<color:h>Reig<color:o><end>"
-KO: "<color:h>레그<color:o><end>"
-
-## 380040
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>レムオン<color:o><end>"
-EN: "<color:h>Lemghon<color:o><end>"
-KO: "<color:h>레무온<color:o><end>"
-
-## 380041
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>レルラ＝ロントン<color:o><end>"
-EN: "<color:h>Relra-Lonton<color:o><end>"
-KO: "<color:h>렐라=론톤<color:o><end>"
-
-## 380042
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "<color:h>ロイ<color:o><end>"
-EN: "<color:h>Roy<color:o><end>"
-KO: "<color:h>로이<color:o><end>"
-
-## 380043
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "アイリーン、ねえ…。<end>"
-EN: "Irene, huh...<end>"
-KO: "아이린이라, 글쎄….<end>"
-
-## 380044
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "アトレイア、ねえ…。<end>"
-EN: "Atleia, huh...<end>"
-KO: "아트레이아라, 글쎄….<end>"
-
-## 380045
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンギルダン、ねえ…。<end>"
-EN: "Angeerdan, huh...<end>"
-KO: "앙길단이라….<end>"
-
-## 380046
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "イークレムン、ねえ…。<end>"
-EN: "Iiklmn, huh...<end>"
-KO: "이크렘이라….<end>"
-
-## 380047
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ、ねえ…。<end>"
-EN: "Iria, huh...<end>"
-KO: "이샤라, 글쎄….<end>"
-
-## 380048
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "イオンズ、ねえ…。<end>"
-EN: "Ions, huh...<end>"
-KO: "이온즈라, 글쎄….<end>"
-
-## 380049
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァイライラ、ねえ…。<end>"
-EN: "Vailaila, huh...<end>"
-KO: "바일라이라라….<end>"
-
-## 380050
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァン、ねえ…。<end>"
-EN: "Van, huh...<end>"
-KO: "반, 이라….<end>"
-
-## 380051
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴィアリアリ、ねえ…。<end>"
-EN: "Vialiali, huh...<end>"
-KO: "비아리아리라….<end>"
-
-## 380052
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "エア、ねえ…。<end>"
-EN: "Er, huh...<end>"
-KO: "에아, 라….<end>"
-
-## 380053
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "エステル、ねえ…。<end>"
-EN: "Esther, huh...<end>"
-KO: "에스텔이라, 글쎄….<end>"
-
-## 380054
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "エスト、ねえ…。<end>"
-EN: "Est, huh...<end>"
-KO: "에스트, 라….<end>"
-
-## 380055
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルファス、ねえ…。<end>"
-EN: "Elfas, huh...<end>"
-KO: "엘파스라, 글쎄….<end>"
-
-## 380056
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "オイフェ、ねえ…。<end>"
-EN: "Aoife, huh...<end>"
-KO: "오이페라, 글쎄….<end>"
-
-## 380057
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ、ねえ…。<end>"
-EN: "Karula, huh...<end>"
-KO: "카를라, 라….<end>"
-
-## 380058
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "クリュセイス、ねえ…。<end>"
-EN: "Khryuseis, huh...<end>"
-KO: "크류세이스라….<end>"
-
-## 380059
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ、ねえ…。<end>"
-EN: "Zagiv, huh...<end>"
-KO: "자기브, 라….<end>"
-
-## 380060
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ジリオン、ねえ…。<end>"
-EN: "Zillion, huh...<end>"
-KO: "질리온이라, 글쎄….<end>"
-
-## 380061
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼネテス、ねえ…。<end>"
-EN: "Xenetes, huh...<end>"
-KO: "제네테스라, 글쎄….<end>"
-
-## 380062
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "セラ、ねえ…。<end>"
-EN: "Sera, huh...<end>"
-KO: "세라, 라….<end>"
-
-## 380063
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "あんたの弟、ねえ…。<end>"
-EN: "Your younger brother, huh...<end>"
-KO: "네 동생이라, 글쎄….<end>"
-
-## 380064
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ティアナ、ねえ…。<end>"
-EN: "Tiana, huh...<end>"
-KO: "티아나라, 글쎄….<end>"
-
-## 380065
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "デルガド、ねえ…。<end>"
-EN: "Dergado, huh...<end>"
-KO: "델가도라, 글쎄….<end>"
-
-## 380066
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ナッジ、ねえ…。<line-break>いい奴なんだけどなあ…。<end>"
-EN: "Nadge, huh... He's a good guy, but...<end>"
-KO: "나지라…. 좋은 녀석이긴 한데….<end>"
-
-## 380067
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノエル、ねえ…。<end>"
-EN: "Noel, huh...<end>"
-KO: "노엘, 이라….<end>"
-
-## 380068
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヒルダリア、ねえ…。<end>"
-EN: "Hildaria, huh...<end>"
-KO: "힐다리아라, 글쎄….<end>"
-
-## 380069
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "フェティ、ねえ…。<end>"
-EN: "Fety, huh...<end>"
-KO: "페티라, 글쎄….<end>"
-
-## 380070
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "フェルム、ねえ…。<end>"
-EN: "Ferme, huh...<end>"
-KO: "페름이라, 글쎄….<end>"
-
-## 380071
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "フレア、ねえ…。<end>"
-EN: "Flare, huh...<end>"
-KO: "플레어, 라….<end>"
-
-## 380072
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ベルゼーヴァ、ねえ…。<end>"
-EN: "Beelzeva, huh...<end>"
-KO: "벨제바라….<end>"
-
-## 380073
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ユーリス…あのバカ女か…。<end>"
-EN: "Julls... That stupid woman, huh...<end>"
-KO: "유리스… 그 바보 여자 말인가….<end>"
-
-## 380074
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ルルアンタ、ねえ…。<end>"
-EN: "Lulluantha, huh...<end>"
-KO: "루루안타라, 글쎄….<end>"
-
-## 380075
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "レーグ、ねえ…。<end>"
-EN: "Reig, huh...<end>"
-KO: "레그, 라….<end>"
-
-## 380076
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "レムオン、ねえ…。<end>"
-EN: "Lemghon, huh...<end>"
-KO: "레무온이라, 글쎄….<end>"
-
-## 380077
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "レルラ＝ロントン、ねえ…。<end>"
-EN: "Relra-Lonton, huh...<end>"
-KO: "렐라=론톤이라….<end>"
-
-## 380078
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロイ、ねえ…。<end>"
-EN: "Roy, huh...<end>"
-KO: "로이, 라….<end>"
-
-## 380079
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "おっと、こいつは<line-break>お前の知らない名前だったな。<line-break>悪いが教えられないぜ。<end>"
-EN: "Oops. That's a name you don't know yet. Sorry, but I can't tell you anything.<end>"
-KO: "어이쿠, 이건 네가 모르는 이름이었군. 미안하지만 알려 줄 수 없어.<end>"
-
-## 380080
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ま、こんな感じだ。<line-break>参考になったかい？<line-break>ならないようしゃべってるんだが。<line-break>まだ、俺のおしゃべりに<line-break>つきあってくれる気はあるかい？<line-break>ヒマつぶしに何か教えてやれるかもな。<end>"
-EN: "Well, that's about the size of it. Any of that useful? I've been trying to make sure it isn't. Still feel like listening to me ramble? I might teach you something to pass the time.<end>"
-KO: "뭐, 대충 이런 느낌이야. 참고가 됐어? 일부러 안 되게 말하고 있지만. 아직 내 수다에 어울려 줄 생각 있어? 심심풀이로 뭐라도 알려 줄 수 있을지도 몰라.<end>"
-
-## 380081
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "奴とお前とは敵同士だ。<line-break>そこには憎しみしかない。<line-break>まったくいい関係だぜ。<end>"
-EN: "The two of you are enemies. There's nothing but hatred between you. What a wonderful relationship.<end>"
-KO: "놈과 너는 적이다. 거기엔 증오밖에 없어. 정말 좋은 관계군.<end>"
-
-## 380082
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "奴との関係は<line-break>冷え切ってるぜ。<line-break>お前は奴に軽蔑されてるな。<end>"
-EN: "Things between you are ice-cold. You're held in contempt.<end>"
-KO: "그 녀석과의 관계는 완전히 식었군. 너는 녀석에게 경멸당하고 있어.<end>"
-
-## 380083
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ズバリただの知り合いだ。<line-break>お互いに顔を知ってる、それだけだ。<line-break>ったく、つまんねーな。<end>"
-EN: "You're just acquaintances, plain and simple. You recognize each other, and that's all. Boring as hell.<end>"
-KO: "딱 잘라 그냥 아는 사이야. 서로 얼굴을 아는 것뿐이지. 정말 재미없네.<end>"
-
-## 380084
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "チョット好意的になりつつある。<line-break>だが、あくまでもチョット！<line-break>つまりオトモダチ未満な関係だぜ。<end>"
-EN: "You're starting to warm to each other a little. But only a little! In other words, you're not even friends yet.<end>"
-KO: "조금 호의적으로 되어 가고 있다. 하지만 어디까지나 조금! 즉 친구 미만의 관계다.<end>"
-
-## 380085
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "オトモダチ…偽善的なひびきだぜ。<line-break>ま、せいぜい友情ごっこを<line-break>楽しんでくれや。<end>"
-EN: "Friends... What a hypocritical little word. Well, have fun playing at friendship.<end>"
-KO: "친구라… 위선적인 울림이군. 뭐, 기껏 우정놀이를 즐겨 보라고.<end>"
-
-## 380086
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "おいおい、マジか？<line-break>信頼しきってる関係？<line-break>なんかベタついてきてるよなー。<end>"
-EN: "Whoa, seriously? Complete and utter trust? Things are starting to get awfully clingy.<end>"
-KO: "이봐 이봐, 진짜냐? 완전히 믿는 사이? 뭔가 끈적해지고 있는데.<end>"
-
-## 380087
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "…熱いねー。<line-break>俺、そういうのキライなんだよ。<line-break>それって愛って奴？　けっ。<end>"
-EN: "Oh, how passionate. I hate this sort of thing. Is that what they call love? Hah.<end>"
-KO: "…뜨겁네. 난 그런 거 싫어하거든. 그게 사랑이라는 건가? 쳇.<end>"
-
-## 380088
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "…なんかヤバいくらい最強に<line-break>盛り上がってるな、お前ら。<line-break>激烈すぎてヤな感じだぜ。<end>"
-EN: "You two are getting insanely fired up. It's so intense, it's downright unpleasant.<end>"
-KO: "…뭔가 위험할 정도로 최강으로 달아올랐네, 너희들. 너무 격렬해서 기분 나쁠 정도야.<end>"
-
-## 380089
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "そいつなら、死んじまったよ…。<line-break>俺たち魔人と違って、<line-break>お前らって、はかないんだ。<line-break>お前に、もしも今度があるんなら<line-break>今度は奴が死なないですむように<line-break>してやるこった。<end>"
-EN: "That one's dead... Unlike us demons, you people are short-lived. If you ever get another chance, make sure that one survives next time.<end>"
-KO: "그 녀석이라면 죽었어…. 우리 마인과 달리 너희는 덧없지. 네게 다음이 있다면 다음번엔 그 녀석이 죽지 않게 해 줘.<end>"
-
-## 380090
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "こいつはなあ…<line-break>知らないほうがいいこともあるぜ？<line-break>　<line-break>ま、結果を先送りしてる<line-break>だけなんだがな。<end>"
-EN: "This one, huh... Some things are better left unknown, don't you think? Though really, I'm only postponing the outcome.<end>"
-KO: "이건 말이지… 모르는 편이 나은 것도 있어. 뭐, 결과를 미루고 있을 뿐이지만.<end>"
-
-## 380091
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "もういい<end>"
-EN: "That's enough.<end>"
-KO: "됐어<end>"
-
-## 380092
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "アイリーン、ねえ…。<end>"
-EN: "Irene, huh...<end>"
-KO: "아이린이라, 글쎄….<end>"
-
-## 380093
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "アトレイア、ねえ…。<end>"
-EN: "Atleia, huh...<end>"
-KO: "아트레이아라, 글쎄….<end>"
-
-## 380094
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンギルダン、ねえ…。<end>"
-EN: "Angeerdan, huh...<end>"
-KO: "앙길단이라….<end>"
-
-## 380095
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "イークレムン、ねえ…。<end>"
-EN: "Iiklmn, huh...<end>"
-KO: "이크렘이라….<end>"
-
-## 380096
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "イオンズ、ねえ…。<end>"
-EN: "Ions, huh...<end>"
-KO: "이온즈라, 글쎄….<end>"
-
-## 380097
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァイライラ、ねえ…。<end>"
-EN: "Vailaila, huh...<end>"
-KO: "바일라이라라….<end>"
-
-## 380098
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァン、ねえ…。<end>"
-EN: "Van, huh...<end>"
-KO: "반, 이라….<end>"
-
-## 380099
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴィアリアリ、ねえ…。<end>"
-EN: "Vialiali, huh...<end>"
-KO: "비아리아리라….<end>"
-
-## 380100
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "エア、ねえ…。<end>"
-EN: "Er, huh...<end>"
-KO: "에아, 라….<end>"
-
-## 380101
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "エステル、ねえ…。<end>"
-EN: "Esther, huh...<end>"
-KO: "에스텔이라, 글쎄….<end>"
-
-## 380102
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "エスト、ねえ…。<end>"
-EN: "Est, huh...<end>"
-KO: "에스트, 라….<end>"
-
-## 380103
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "オイフェ、ねえ…。<end>"
-EN: "Aoife, huh...<end>"
-KO: "오이페라, 글쎄….<end>"
-
-## 380104
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ、ねえ…。<end>"
-EN: "Karula, huh...<end>"
-KO: "카를라, 라….<end>"
-
-## 380105
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "クリュセイス、ねえ…。<end>"
-EN: "Khryuseis, huh...<end>"
-KO: "크류세이스라….<end>"
-
-## 380106
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ、ねえ…。<end>"
-EN: "Zagiv, huh...<end>"
-KO: "자기브, 라….<end>"
-
-## 380107
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼネテス、ねえ…。<end>"
-EN: "Xenetes, huh...<end>"
-KO: "제네테스라, 글쎄….<end>"
-
-## 380108
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "セラ、ねえ…。<end>"
-EN: "Sera, huh...<end>"
-KO: "세라, 라….<end>"
-
-## 380109
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "あんたの弟、ねえ…。<end>"
-EN: "Your younger brother, huh...<end>"
-KO: "네 동생이라, 글쎄….<end>"
-
-## 380110
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ティアナ、ねえ…。<end>"
-EN: "Tiana, huh...<end>"
-KO: "티아나라, 글쎄….<end>"
-
-## 380111
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "デルガド、ねえ…。<end>"
-EN: "Dergado, huh...<end>"
-KO: "델가도라, 글쎄….<end>"
-
-## 380112
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ナッジ、ねえ…。<line-break>いい奴なんだけどなあ…。<end>"
-EN: "Nadge, huh... He's a good man, but...<end>"
-KO: "나지라…. 좋은 녀석이긴 한데….<end>"
-
-## 380113
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノエル、ねえ…。<end>"
-EN: "Noel, huh...<end>"
-KO: "노엘, 이라….<end>"
-
-## 380114
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヒルダリア、ねえ…。<end>"
-EN: "Hildaria, huh...<end>"
-KO: "힐다리아라, 글쎄….<end>"
-
-## 380115
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "フェティ、ねえ…。<end>"
-EN: "Fety, huh...<end>"
-KO: "페티라, 글쎄….<end>"
-
-## 380116
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "フレア、ねえ…。<end>"
-EN: "Flare, huh...<end>"
-KO: "플레어, 라….<end>"
-
-## 380117
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ベルゼーヴァ、ねえ…。<end>"
-EN: "Beelzeva, huh...<end>"
-KO: "벨제바라….<end>"
-
-## 380118
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ユーリス…あのバカ女か…。<end>"
-EN: "Julls... Oh, that stupid woman.<end>"
-KO: "유리스… 그 바보 여자 말인가….<end>"
-
-## 380119
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ルルアンタ、ねえ…。<end>"
-EN: "Lulluantha, huh...<end>"
-KO: "루루안타라, 글쎄….<end>"
-
-## 380120
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "レーグ、ねえ…。<end>"
-EN: "Reig, huh...<end>"
-KO: "레그, 라….<end>"
-
-## 380121
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "レムオン、ねえ…。<end>"
-EN: "Lemghon, huh...<end>"
-KO: "레무온이라, 글쎄….<end>"
-
-## 380122
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "レルラ＝ロントン、ねえ…。<end>"
-EN: "Relra-Lonton, huh...<end>"
-KO: "렐라=론톤이라….<end>"
-
-## 380123
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロイ、ねえ…。<end>"
-EN: "Roy, huh...<end>"
-KO: "로이, 라….<end>"
-
-## 380124
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "フェティ、ねえ…。<end>"
-EN: "Fety, huh...<end>"
-KO: "페티라, 글쎄….<end>"
-
-## 380125
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルファス、ねえ…。<end>"
-EN: "Elfas, huh...<end>"
-KO: "엘파스라, 글쎄….<end>"
-
-## 380126
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ジリオン、ねえ…。<end>"
-EN: "Zillion, huh...<end>"
-KO: "질리온이라, 글쎄….<end>"
-
-## 380127
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ、ねえ…。<end>"
-EN: "Iria, huh...<end>"
-KO: "이샤라, 글쎄….<end>"
-
-## 380128
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "ま、こんな感じだ。<line-break>参考になったかい？<line-break>ならないようしゃべってるんだが。<line-break>まだ、俺のおしゃべりに<line-break>つきあってくれる気はあるかい？<line-break>ヒマつぶしに何か教えてやれるかもな。<end>"
-EN: "Well, that's about the size of it. Was any of that useful? I've been trying to make sure it wasn't. Still willing to sit through more of my rambling? I might teach you something to pass the time.<end>"
-KO: "뭐, 대충 이런 느낌이야. 참고가 됐어? 일부러 안 되게 말하고 있지만. 아직 내 수다에 어울려 줄 생각 있어? 심심풀이로 뭐라도 알려 줄 수 있을지도 몰라.<end>"
-
-## 380129
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "レムオン<end>"
-EN: "Lemghon<end>"
-KO: "레무온<end>"
-
-## 380130
-source: translations/korean/messages/msgsec038-part99.toml
-jp_matches_pinned_english: yes
-JP: "レムオン、ねえ…。<end>"
+JP: "レムオン様…。<end>"
 EN: "Lemghon...<end>"
-KO: "레무온이라, 글쎄….<end>"
+KO: "레무온 님….<end>"
 
-## 380131
-source: translations/korean/messages/msgsec038-part99.toml
+## 440021
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "イオンズ<end>"
-EN: "Ions<end>"
-KO: "이온즈<end>"
+JP: "みっともないところを<line-break>見せてしまったな。<end>"
+EN: "You've seen me make a sorry spectacle of myself.<end>"
+KO: "꼴사나운 모습을 보여 버렸군.<end>"
 
-## 380132
-source: translations/korean/messages/msgsec038-part99.toml
+## 440022
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "イオンズ、ねえ…。<end>"
-EN: "Ions, huh...<end>"
-KO: "이온즈라, 글쎄….<end>"
+JP: "バカを言え！　ティアナは<line-break>ファーロスの雌狐の娘だ。<line-break>　<line-break>誰がファーロス家の<line-break>血を引く女などに<line-break>心を奪われるものか！<end>"
+EN: "Don't be a fool! Tiana is the daughter of the Vixen of Pharos. As if I could ever lose my heart to a woman with the blood of House Pharos!<end>"
+KO: "헛소리 마라! 티아나는 파로스 여우의 딸이다. 누가 파로스 가문의 피를 이은 여자에게 마음을 빼앗긴단 말이냐!<end>"
 
-## 380133
-source: translations/korean/messages/msgsec038-part99.toml
+## 440023
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "ロイ<end>"
-EN: "Roy<end>"
-KO: "로이<end>"
+JP: "黙れ！　俺は…<end>"
+EN: "Silence! I...<end>"
+KO: "닥쳐! 나는…<end>"
 
-## 380134
-source: translations/korean/messages/msgsec038-part99.toml
+## 440024
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "ロイ、ねえ…。<end>"
-EN: "Roy...<end>"
-KO: "로이, 라….<end>"
+JP: "…そうだ。　　　　　　　　　　　<end>"
+EN: "Yes.<end>"
+KO: "…그래.<end>"
 
-## 380135
-source: translations/korean/messages/msgsec038-part99.toml
+## 440025
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "チャカ、ねえ…。<end>"
-EN: "Chaka, huh...<end>"
-KO: "차카, 라….<end>"
+JP: "…お前の言うとおりだ。<line-break>俺はティアナを好きだった！　　　<end>"
+EN: "You were right. I was in love with Tiana!<end>"
+KO: "…네 말이 맞아. 난 티아나를 좋아했어!<end>"
 
-## 380136
-source: translations/korean/messages/msgsec038-part99.toml
+## 440026
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "こいつはなあ…<line-break>知らないほうがいいこともあるぜ？<line-break>　<line-break>ま、結果を先送りしてる<line-break>だけなんだがな<end>"
-EN: "The thing is... some things are better left unknown, you know? Though that only delays the consequences.<end>"
-KO: "이건 말이지… 모르는 편이 나은 것도 있어. 뭐, 결과를 미루고 있을 뿐이지만.<end>"
+JP: "あんな男と婚約する前から…<line-break>幼いころから、ずっと！　ずっと！<end>"
+EN: "Long before she was betrothed to that man... Ever since childhood―all this time! All this time!<end>"
+KO: "그런 남자와 약혼하기 전부터… 어릴 때부터 줄곧! 줄곧!<end>"
 
-## 380137
-source: translations/korean/messages/msgsec038-part99.toml
+## 440027
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "旅立ち１１メッセージ終端<end>"
+JP: "だが、許されないことだ！　　　　　<line-break>　<line-break>　<line-break>この想いを告げることも、<line-break>いや、こんな気持ちを抱くことすらも<line-break>許されないのだ！<end>"
+EN: "But it cannot be allowed! I mustn't tell her how I feel―no, I mustn't even feel this way!<end>"
+KO: "하지만 용납될 수 없는 일이다! 이 마음을 전하는 것도, 아니, 이런 마음을 품는 것조차 용납되지 않는다!<end>"
+
+## 440028
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "フフ…。満足か？　　<end>"
+EN: "Heh... Satisfied now?<end>"
+KO: "후후…. 만족하나?<end>"
+
+## 440029
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "…俺のこんな姿を見て<line-break>満足か？<end>"
+EN: "Does seeing me like this satisfy you?<end>"
+KO: "…이런 내 모습을 보고 만족하나?<end>"
+
+## 440030
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "すまん…。貴様には…<line-break>つい…甘えてしまう。<end>"
+EN: "I'm sorry... I couldn't help leaning on you.<end>"
+KO: "미안하다…. 네게는… 나도 모르게 기대게 되는군.<end>"
+
+## 440031
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前に見放されたら、俺は…。<end>"
+EN: "If even you turned your back on me, I...<end>"
+KO: "네가 날 버리면, 난….<end>"
+
+## 440032
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "…いや、なんでもない。<line-break>まさに醜態だった。忘れてくれ。<end>"
+EN: "No, it's nothing. That was a disgraceful display. Forget it.<end>"
+KO: "…아니, 아무것도 아니다. 정말 추태였군. 잊어 줘.<end>"
+
+## 440033
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　帝国軍の侵攻をかろうじて食い止めた<line-break>　　　　　ロストール王国だったが、<line-break>　　国家としての勢いはおとろえる一方で<line-break>　　国内でのひずみが表面化し始めていた。<end>"
+EN: "The Kingdom of Rostorl had barely managed to halt the imperial army's advance. But its strength as a nation continued to wane, and internal strains were beginning to surface.<end>"
+KO: "제국군의 침공을 간신히 막아 낸 로스톨 왕국이었지만 국가의 기세는 계속 쇠퇴했고 국내의 균열이 표면화되기 시작했다.<end>"
+
+## 440034
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "王都ロストールからやや南に位置する<line-break>ノーブルの町で、領主に代わって　<line-break>町を治めていた代官ボルボラの暴政に<line-break>領民が蜂起、暴動となった。<line-break>この騒ぎは、領主であるエリエナイ公<line-break>レムオン・リューガの手によって　<line-break>ボルボラが討たれる事で決着したが、<line-break>その裏には、更に大きなうねりがあった。<end>"
+EN: "In Noble, a town a short distance south of the capital, Rostorl, the people rose up against the tyranny of Bolbora, the governor who ruled in their lord's stead, and the uprising erupted into a riot. The unrest ended when Bolbora was slain by the local lord, Duke Lemghon Ryuga of Elienai. Yet behind it all lay an even greater current.<end>"
+KO: "왕도 로스톨에서 조금 남쪽에 있는 노블 마을에서 영주를 대신해 마을을 다스리던 대관 볼보라의 폭정에 주민들이 봉기해 폭동이 일어났다. 이 소동은 영주인 엘리에나이 공 레무온 류가의 손에 볼보라가 토벌되며 일단락됐지만, 그 이면에는 더욱 거대한 흐름이 있었다.<end>"
+
+## 440035
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "今回の騒ぎは、ファーロスの雌狐と<line-break>呼ばれる王妃エリスが、<line-break>政敵であるレムオンの失脚を狙い、<line-break>密偵を使って起こしたものだった。<end>"
+EN: "The unrest had been orchestrated by Queen Eris, known as the Vixen of Pharos. Seeking the downfall of her political rival Lemghon, she had used spies to incite it.<end>"
+KO: "이번 소동은 파로스의 암여우라 불리는 에리스 왕비가 정적인 레무온을 실각시키기 위해 밀정을 써서 일으킨 것이었다.<end>"
+
+## 440036
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "騒ぎを急速に鎮圧したレムオンの手腕は　　　<line-break>鮮やかであったが、この事件が表した　　<line-break>ディンガル帝国との国勢の差は　　　<line-break>隠しきれないものがあった。　　<end>"
+EN: "Lemghon's swift suppression of the unrest was masterful, but the gulf in national strength between Rostorl and the Dyneskal Empire, laid bare by the incident, could not be concealed.<end>"
+KO: "소동을 신속히 진압한 레무온의 수완은 훌륭했지만, 이 사건이 드러낸 딘갈 제국과의 국력 차이는 숨길 수 없었다.<end>"
+
+## 440037
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　長い歴史を持つ大国ロストール。<line-break>　　　　　その国土を照らす日差しは    <line-break>　　　　　　今、確実に赤みを増し      <line-break>　　　　　そっと傾こうとしていた…。  <end>"
+EN: "Rostorl, a great power with a long history. The sunlight bathing its lands was now steadily growing redder, beginning to slant ever so gently...<end>"
+KO: "오랜 역사를 지닌 대국 로스톨. 그 국토를 비추는 햇빛은 지금 확실히 붉은빛을 더하며 조용히 기울어 가고 있었다….<end>"
+
+## 440038
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、<value:$28>将軍！<line-break>ここはロストールの大貴族、<line-break>エリエナイ公レムオンの屋敷です。<line-break>重要な調査が必要なため、<line-break>誰も中に入れるなとの<line-break>青竜将軍閣下よりの厳命であります。<end>"
+EN: "Ah, General <value:$28>! This is the residence of Duke Lemghon of Elienai, one of Rostorl's foremost nobles. An important investigation must be conducted here, and His Excellency the Azure Dragon General has given strict orders that no one be allowed inside.<end>"
+KO: "아, <value:$28> 장군! 이곳은 로스톨의 대귀족, 에리에나이 공 레무온의 저택입니다. 중요한 조사가 필요하여 누구도 들이지 말라는 청룡장군 각하의 엄명이 내려졌습니다.<end>"
+
+## 440040
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは、伯爵様。<line-break>どうぞ、お通りください。<end>"
+EN: "Ah, Count. Please, go right in.<end>"
+KO: "아, 백작님. 지나가십시오.<end>"
+
+## 440042
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "おっと、そんなに恐い顔をするなよ。<end>"
+EN: "Whoa, no need to glare at me like that.<end>"
+KO: "어이, 그렇게 무서운 얼굴 하지 마.<end>"
+
+## 440043
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "今日は、お前に<line-break>いい話を持ってきたんだぜ。<end>"
+EN: "I've got something good for you today.<end>"
+KO: "오늘은 네게 좋은 이야기를 가져왔어.<end>"
+
+## 440044
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "よう、また会ったな。<end>"
+EN: "Hey. Good to see you again.<end>"
+KO: "여어, 또 만났군.<end>"
+
+## 440045
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "今日は、お前に<line-break>いい話を持ってきたんだぜ。<end>"
+EN: "I've got something good for you today.<end>"
+KO: "오늘은 네게 좋은 이야기를 가져왔어.<end>"
+
+## 440046
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "よう。<line-break>俺はツェラシェル。<line-break>もとは天空神ノトゥーンの神官だ。　　<line-break>とは言っても、今じゃ見てのとおりだ。<line-break>まあ、仲よくやろうぜ。<end>"
+EN: "Hey. I'm Zeraschel. I used to be a priest of Notun, the Sky God. Still, you can see what I'm like now. Anyway, let's get along, eh?<end>"
+KO: "여어. 난 체라셸. 원래는 천공신 노툰의 신관이었지. 뭐, 지금은 보다시피고. 잘 지내 보자고.<end>"
+
+## 440047
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "んで、さっそくだが、<line-break>今日はお前に<line-break>いい話を持ってきたんだ。<end>"
+EN: "Now, down to business. I've brought you something good today.<end>"
+KO: "그래서 말인데, 바로 본론으로 들어가서 오늘 네게 좋은 이야기를 하나 가져왔다.<end>"
+
+## 440048
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前もよく知ってるレムオンの話さ。<end>"
+EN: "It's about Lemghon―someone you know well.<end>"
+KO: "네가 잘 아는 레무온 이야기야.<end>"
+
+## 440049
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "何年か前、奴の母親が死んだころ、<line-break>俺は、カミラっていうダルケニス族の<line-break>女性について調べまわってたんだ。<line-break>ってのも、その母親が<line-break>死に際に奴をまくらもとに呼んで<line-break>爆弾発言したらしくてな。<end>"
+EN: "A few years back, around the time his mother died, I was digging into a Darkenith woman named Camilla. Apparently, on her deathbed, his mother called him to her side and dropped quite the bombshell.<end>"
+KO: "몇 년 전 녀석 어머니가 죽을 무렵, 나는 카밀라라는 다르케니스 여자를 조사하고 있었어. 그 어머니가 죽기 전에 녀석을 머리맡으로 불러 폭탄선언을 했다는 모양이거든.<end>"
+
+## 440050
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ほら、よくあるだろ？<line-break>あなたの本当のおかあさんは…<line-break>ってな感じの奴さ。<end>"
+EN: "You know the sort of thing: “Your real mother is...” That kind of bombshell.<end>"
+KO: "있잖아, 흔히 있지? '네 진짜 어머니는…' 같은 이야기 말이야.<end>"
+
+## 440051
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "何が言いたいかはわかったろ？<line-break>で、俺は奴がダルケニスだっていう　<line-break>決定的な証拠が欲しいわけさ。<line-break>で、お前のその立場を上手く使って、<line-break>奴の尻尾をつかんでほしいんだ。<end>"
+EN: "You see where I'm going with this, don't you? I want conclusive proof that he's Darkenith. I need you to make good use of your position and catch him out.<end>"
+KO: "무슨 말인지 알겠지? 나는 놈이 다르케니스라는 결정적인 증거가 필요해. 네 그 위치를 잘 이용해서 놈의 꼬리를 잡아 줬으면 해.<end>"
+
+## 440052
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "うまくいったら、王妃様が<line-break>召し抱えてくださるってよ。<line-break>どうだ？　奴を売る気はないか？<end>"
+EN: "If you pull it off, the Queen will take you into her service. What do you say? Care to sell him out?<end>"
+KO: "잘만 되면 왕비님께서 거둬 주신대. 어때? 그 녀석을 팔 생각 없어?<end>"
+
+## 440053
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふーん。それが答えってわけか。<line-break>ま、いいさ。それなら俺が、<line-break>俺の流儀でやるだけだ。じゃあな。<end>"
+EN: "Hmm. So that's your answer. Fine. Then I'll do it my way. See you around.<end>"
+KO: "흐음. 그게 답이란 거군. 뭐, 좋아. 그렇다면 난 내 방식대로 할 뿐이야. 잘 있어.<end>"
+
+## 440054
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "やっぱり気になる<end>"
+EN: "It's still on my mind.<end>"
+KO: "역시 신경 쓰여<end>"
+
+## 440055
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "関係ない。寝よう<end>"
+EN: "It doesn't matter. Time to sleep.<end>"
+KO: "상관없어. 자자<end>"
+
+## 440056
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "おや、あなたも外出ですか？<line-break>今日は新月のようです。<line-break>どうぞお足元に気をつけて。<end>"
+EN: "Oh, are you heading out as well? It seems there's a new moon tonight. Please watch your step.<end>"
+KO: "어라, 당신도 외출하십니까? 오늘은 초승달이네요. 발밑 조심하세요.<end>"
+
+## 440057
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "おや、もうお戻りですか。<line-break>それでは、おやすみなさいませ。<end>"
+EN: "Oh, you're back already. Well then, good night.<end>"
+KO: "어머, 벌써 돌아오셨습니까. 그럼 안녕히 주무십시오.<end>"
+
+## 440058
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>か。<end>"
+EN: "<value:$28>?<end>"
+KO: "<value:$28>인가.<end>"
+
+## 440059
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ん…？<line-break>あんたは…。<end>"
+EN: "Hm...? You're...<end>"
+KO: "응…? 너는….<end>"
+
+## 440060
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "いや、これは俺がやったんじゃない。　<line-break>　<line-break>　<line-break>酒場で飲んでたら、外を知ってる奴が<line-break>歩いて行ってな。一緒に飲もうと思って<line-break>追ってきたらここについたってわけさ。<end>"
+EN: "No, I didn't do this. I was drinking at the tavern when someone familiar with the outside world walked past. I followed, hoping we could have a drink together, and ended up here.<end>"
+KO: "아니, 이건 내가 한 게 아니야. 술집에서 마시다가 밖을 아는 녀석이 지나가길래 같이 마시려고 따라왔더니 여기였던 거지.<end>"
+
+## 440061
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ。<line-break>確かに何かやばい感じがする。<line-break>…行ってみるか。<end>"
+EN: "Yeah. Something definitely feels wrong. Shall we take a look?<end>"
+KO: "그래. 확실히 뭔가 위험한 느낌이 들어. …가 볼까.<end>"
+
+## 440062
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "そういや自己紹介してなかったっけか。<line-break>俺はゼネテス。まあ一応、冒険者だ。<line-break>　<line-break>お前さんのことは噂に聞いてるぜ。<line-break><value:$28>、だろ？<line-break>ま、これからよろしく。<end>"
+EN: "Come to think of it, I never introduced myself, did I? I'm Xenetes. An adventurer, more or less. I've heard the rumors about you. <value:$28>, right? Anyway, good to meet you.<end>"
+KO: "그러고 보니 소개를 안 했던가. 나는 제네테스. 뭐, 일단 모험자야. 네 소문은 들었어. <value:$28>, 맞지? 앞으로 잘 부탁한다.<end>"
+
+## 440063
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "何だ？　…この匂い…。<line-break>こんな真夜中に、香をたいているのか？<line-break>　<line-break>向こうからか…。<line-break>よし、行くぞ、<value:$28>！<end>"
+EN: "What's that smell...? Is someone burning incense at this hour? It's coming from over there... Come on, <value:$28>!<end>"
+KO: "뭐지? …이 냄새…. 이런 한밤중에 향을 피우고 있는 건가? 저쪽에서군…. 좋아, 가자, <value:$28>!<end>"
+
+## 440064
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "どうした、ふたりとも？<line-break>こんな夜中に騒々しいな。　　　　　　<line-break>　<line-break>まあ、いいさ。<line-break>ちょうどこっちも準備が終わった。<line-break>ほら、そろそろだ。<end>"
+EN: "What's the matter with you two? You're making quite a racket this late at night. No matter. We've just finished preparing as well. Look―it's almost time.<end>"
+KO: "왜 그러지, 둘 다? 이런 한밤중에 시끄럽군. 뭐, 됐다. 마침 이쪽도 준비가 끝났어. 자, 슬슬 때가 됐다.<end>"
+
+## 440065
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "この香の匂い、何だかわかるか？<line-break>これは新月の香っていうシロモノでな。<line-break>　<line-break>まあ、俺たち人間にとっては<line-break>ただの香なんだが、ダルケニス族には<line-break>強力な覚せい作用があってな。<end>"
+EN: "Do you know what that incense is? It's something called Incense of the New Moon. To us humans, it's merely incense, but it has a powerful stimulant effect on the Darkenith.<end>"
+KO: "이 향 냄새가 뭔지 알아? 이건 신월의 향이라는 물건이야. 우리 인간에겐 그냥 향이지만 다르케니스족에게는 강력한 각성 작용이 있어.<end>"
+
+## 440066
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "う…ぐあぁっ…！<end>"
+EN: "Ugh... Gaaah...!<end>"
+KO: "으… 으아악…!<end>"
+
+## 440067
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ほらな。<line-break>こんな風に、ダルケニス族は<line-break>我を忘れてしまうってわけさ。<end>"
+EN: "See? This is what it does. The Darkenith lose all control of themselves.<end>"
+KO: "거 봐. 이런 식으로 다르케니스족은 나를 잊어버린다는 거지.<end>"
+
+## 440068
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウウ…グッ、ググ、ア…アア…<line-break>ガアアアアア！！！！<end>"
+EN: "Uuugh... Ggh, grrgh, a... aaah... GRAAAAAAAH!<end>"
+KO: "우우… 그윽, 그그, 아… 아아… 가아아아아!!!!<end>"
+
+## 440069
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウウグガアアアアッ！！<end>"
+EN: "GRRRAAAAAAAH!<end>"
+KO: "우우그아아아악!!<end>"
+
+## 440070
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "がは…っ！<end>"
+EN: "Gah...!<end>"
+KO: "크학…!<end>"
+
+## 440071
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ガアアァッ！<line-break>血…、血…、血…血！<end>"
+EN: "GRAAAAH! Blood... Blood... blood... Blood!<end>"
+KO: "가아아악! 피… 피… 피… 피!<end>"
+
+## 440072
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄さん！<line-break>大丈夫ですか！？<end>"
+EN: "Brother! Are you all right?!<end>"
+KO: "오빠! 괜찮아요!?<end>"
+
+## 440073
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "こいつっ！！<end>"
+EN: "You bastard!!<end>"
+KO: "이 자식!!<end>"
+
+## 440074
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "よせ、ヴィア。<line-break>無茶して奴と戦うことはない。<end>"
+EN: "Stop, Via. There's no need to do anything reckless by fighting him.<end>"
+KO: "그만둬, 비아. 무리해서 녀석과 싸울 필요는 없어.<end>"
+
+## 440075
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "でもこいつ！<line-break>兄さんを！！<end>"
+EN: "But he...! My brother...!<end>"
+KO: "하지만 이 녀석이! 형을!!<end>"
+
+## 440076
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "そんなことは構うな。<line-break>俺たちの仕事は終わった。<line-break>あとは奴を放っておけばいい。　　　<line-break>このまま街へ出て暴れまわって<line-break>誰かの血でも吸ってくれれば、<line-break>晴れて奴はダルケニスのおたずね者だ。<end>"
+EN: "Never mind that. Our work is done. All we have to do now is leave him alone. If he goes on a rampage through the city and sucks someone's blood, he'll officially be a wanted man among the Darkenith.<end>"
+KO: "그런 건 신경 쓰지 마라. 우리 일은 끝났다. 이제 녀석은 내버려 두면 돼. 그대로 마을에 나가 날뛰며 누군가의 피라도 빨아주면, 당당히 다르케니스의 수배범이 되는 거지.<end>"
+
+## 440077
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "行くぞ、ヴァイ、ヴィア。<end>"
+EN: "We're leaving, Vai, Via.<end>"
+KO: "가자, 바이, 비아.<end>"
+
+## 440078
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "これが俺のやり方だ。<line-break>悪く思うなよ。<end>"
+EN: "This is how I do things. Don't hold it against me.<end>"
+KO: "이게 내 방식이다. 나쁘게 생각하지 마.<end>"
+
+## 440079
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウガァアアア！<line-break>血！　血ィアアアア！！<end>"
+EN: "GRAAAAAH! Blood! BLOOOOOD!!<end>"
+KO: "우가아아아! 피! 피이아아아아!!<end>"
+
+## 440080
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "こりゃ、ちょっとマズイかもな。<line-break>手荒になるが、目を覚まさせてやるか。<end>"
+EN: "This could be trouble. It'll take some rough treatment, but let's snap him out of it.<end>"
+KO: "이거 좀 위험할지도 모르겠군. 거칠게 되겠지만 정신을 차리게 해 줄까.<end>"
+
+## 440081
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "普段のレムオンじゃない。<line-break>気を抜くなよ、<value:$28>！<end>"
+EN: "This isn't the Lemghon we know. Stay sharp, <value:$28>!<end>"
+KO: "평소의 레무온이 아니야. 방심하지 마, <value:$28>!<end>"
+
+## 440082
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "んー…、<line-break>やりすぎたかな？<end>"
+EN: "Hmm... Think I overdid it?<end>"
+KO: "음…, 너무 심했나?<end>"
+
+## 440083
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ま、大丈夫か。<line-break>息してるし、見た目も元に戻ってる。<line-break>しばらくすりゃ気がつくだろう。<line-break>んじゃ、あとは頼むわ。<line-break>任せたぜ、<value:$28>。<end>"
+EN: "Well, he should be fine. He's breathing, and he looks like himself again. He'll probably come around before long. I'll leave the rest to you, <value:$28>.<end>"
+KO: "뭐, 괜찮겠지. 숨도 쉬고 겉모습도 원래대로 돌아왔어. 좀 있으면 정신 차리겠지. 그럼 나머진 부탁한다, <value:$28>.<end>"
+
+## 440084
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "いや、俺は帰っとくわ。<line-break>俺に助けられたなんて知ったら、<line-break>かえって面倒になりそうだからな。<line-break>そんじゃ、おやすみな。<line-break><value:$28>。<end>"
+EN: "No, I think I'll head home. If he finds out I helped him, it'll only make things more complicated. Well then, good night, <value:$28>.<end>"
+KO: "아니, 난 돌아갈게. 내가 도와줬다는 걸 알면 오히려 더 귀찮아질 것 같아서. 그럼 잘 자, <value:$28>.<end>"
+
+## 440085
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "…<value:$28>。<line-break>ここで…何を…？<line-break>　<line-break>！！<end>"
+EN: "<value:$28>... What are you doing here...?!<end>"
+KO: "…<value:$28>. 여기서… 뭘…? !!<end>"
+
+## 440086
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "…貴様。<line-break>見た…のか…！？<end>"
+EN: "You... Did you see...?<end>"
+KO: "…네놈. 봤…느냐…!?<end>"
+
+## 440087
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "…出て行け。<line-break>出ていくのだ。<end>"
+EN: "Leave. Get out of here.<end>"
+KO: "…나가라. 나가도록 해.<end>"
+
+## 440088
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "あんた、聞いたかい？<line-break>レムオン様の話。<end>"
+EN: "Have you heard about Lord Lemghon?<end>"
+KO: "들었어? 레무온 님 이야기.<end>"
+
+## 440089
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんの話？<end>"
+EN: "What story?<end>"
+KO: "무슨 얘기야?<end>"
+
+## 440090
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "聞いた<end>"
+EN: "I have.<end>"
+KO: "들었어<end>"
+
+## 440091
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオン様が、ダルケニスだったってのさ。<line-break>とんでもない話だよ、吸血鬼が大きな顔して<line-break>のさばってたなんてさ。<end>"
+EN: "They say Lord Lemghon was a Darkenith. Can you imagine? A vampire strutting around as if he owned the place!<end>"
+KO: "레무온 님이 다르케니스였다는 거야. 기가 막힌 이야기지, 흡혈귀가 떵떵거리며 활개치고 있었다니.<end>"
+
+## 440092
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "…だろうね。<line-break>町中、その話でもちきりさ。<end>"
+EN: "I should think so. The whole town's talking about it.<end>"
+KO: "…그렇겠지. 온 마을이 그 이야기로 떠들썩해.<end>"
+
+## 440093
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんとも恐ろしいことじゃ。<line-break>国を動かすような大貴族様が<line-break>ダルケニス族じゃったとは…。<line-break>今までも時々人を襲って<line-break>血を吸うていたんじゃろうか…。<line-break>ひえぇぇぇ～。<end>"
+EN: "What a terrifying business. To think that a great noble with enough influence to sway the whole country was one of the Darkenith... Do you suppose people have been attacked and had their blood sucked now and then, all this time...? Eeeeeeek!<end>"
+KO: "참으로 무서운 일이구먼. 나라를 움직이는 대귀족이 다르케니스족이었다니…. 지금까지도 가끔 사람을 습격해 피를 빨았던 걸까…. 히이이익~.<end>"
+
+## 440094
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "ダルケニスを殺すと賞金が出るらしい。<line-break>それでみんなレムオンを捜してるんだ。<line-break>　<line-break>ま、こんな真っ昼間の大通りには<line-break>顔を出すはずはないけどね。<end>"
+EN: "Apparently there's a bounty for killing a Darkenith. That's why everyone's looking for Lemghon. Not that he'd show his face on a main street in broad daylight.<end>"
+KO: "다르케니스를 죽이면 현상금이 나온대. 그래서 모두 레무온을 찾고 있어. 뭐, 이런 대낮의 대로에 얼굴을 내밀 리는 없겠지만.<end>"
+
+## 440095
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "あのレムオン様が<line-break>ダルケニス族だったなんて…。　　　<line-break>　<line-break>でも、たとえダルケニスだろうと、<line-break>公爵様は、公爵様だわ。そうでしょ？<end>"
+EN: "To think Lord Lemghon is one of the Darkenith... But Darkenith or not, His Grace is still His Grace. Isn't that right?<end>"
+KO: "그 레무온 님이 다르케니스족이었다니…. 그래도 다르케니스라 해도 공작님은 공작님이야. 그렇지?<end>"
+
+## 440096
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>様…、<line-break>レムオン様がここしばらく<line-break>お戻りになっておりません。　　　　<line-break>私めに一言もなく、このように長い間<line-break>屋敷を離れられたことは、<line-break>今まで一度もなかったのですが…。<end>"
+EN: "<value:$28>... Master Lemghon has not returned for some time now. Never before has he stayed away from the manor for so long without saying a word to me...<end>"
+KO: "<value:$28> 님…. 레무온 님께서 한동안 돌아오지 않으셨습니다. 제게 한마디도 없이 이렇게 오랫동안 저택을 비우신 적은 지금까지 한 번도 없었는데….<end>"
+
+## 440097
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "近頃街ではよからぬ噂が<line-break>流れておりますが、それしきのことで<line-break>姿を消すようなお方ではないはずです。<line-break>レムオン様の身にいったい何が…。<end>"
+EN: "There have been some troubling rumors going around town of late, but surely he would not disappear over something like that. What could have happened to Master Lemghon...?<end>"
+KO: "요즘 도시에서 좋지 않은 소문이 돌지만 그 정도로 모습을 감출 분은 아닙니다. 레무온 님께 대체 무슨 일이….<end>"
+
+## 440098
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "レムオン様の身にいったい何が…。　<line-break>　<line-break>　<end>"
+EN: "What could have happened to Lord Lemghon...?<end>"
+KO: "레무온 님께 대체 무슨 일이….<end>"
+
+## 440099
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　　…<value:$28>。<line-break>　　　　　…無限のソウルを持つ者。　　　　　<line-break>　　　　　そして、その力ゆえに<line-break>　　　　　世界を混沌に導く者よ…。<end>"
+EN: "…<value:$28>. Bearer of the Infinite Soul. You whose power will plunge the world into chaos…<end>"
+KO: "…<value:$28>. …무한의 소울을 지닌 자. 그리고 그 힘 때문에 세계를 혼돈으로 이끄는 자여….<end>"
+
+## 440100
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　汝の存在はあまりにも危険だ…。　　　<line-break>　　　　　　　均衡と秩序のため、<line-break>　　　　神の代理たる竜王の名において、<line-break>　　　　　　　我は汝を滅せん…。<end>"
+EN: "Your very existence poses too great a danger… For the sake of balance and order, in the name of the Dragon King, divine proxy, I shall destroy you…<end>"
+KO: "그대의 존재는 너무 위험하다… 균형과 질서를 위해 신의 대리자인 용왕의 이름으로 내가 그대를 멸하겠다…<end>"
+
+## 440101
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　　　　　　…なぜだ？　　　　　　　　<line-break>　　　　　　　　…運命の女神よ<line-break>　　　　　　　なぜ、…我を滅ぼし<line-break>　　　　世界を混沌の闇に包まんとする…？<end>"
+EN: "…Why? Goddess of Fate… why do you seek to destroy me and shroud the world in the darkness of chaos…?<end>"
+KO: "…왜냐? …운명의 여신이여, 왜 나를 멸하고 세계를 혼돈의 어둠으로 감싸려 하는가…?<end>"
+
+## 440102
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　余はうつつの身の最後の神であった…。　<line-break>　　　　　　　　人の子よ…。<line-break>　　　　　　すべての神を殺し、<line-break>　　人は自分の足で歩めると言えるのか？<end>"
+EN: "I was the last god embodied in this world… Child of man… After killing all the gods, can humanity truly claim to stand on its own feet?<end>"
+KO: "짐은 현세의 몸을 지닌 마지막 신이었다…. 인간의 아이여…. 모든 신을 죽이고도, 인간은 스스로의 발로 걸을 수 있다고 말할 수 있는가?<end>"
+
+## 440103
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "　　　　　　神去った世に、汝は、　　　　　　<line-break>　　　　　何を試そうというのだ。<line-break>　　　　光と闇の均衡が崩れぬこと、<line-break>　　　　　もはや、かなうまい…。<end>"
+EN: "Now that the gods are gone, what is it you mean to attempt? The balance between light and darkness can no longer be preserved…<end>"
+KO: "신이 떠난 세상에서, 그대는 무엇을 시험하려는가. 빛과 어둠의 균형이 무너지지 않기를 바라는 것은 이제 이루어질 수 없으리라…<end>"
+
+## 440104
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
+EN: "<value:$28> earned the title of Dragonslayer.<end>"
+KO: "<value:$28>는 용살자의 칭호를 얻었다.<end>"
+
+## 440105
+source: translations/korean/messages/msgsec044-part99.toml
+jp_matches_pinned_english: yes
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の２。<end>"
 EN: ""
-KO: "여행 출발 11 메시지 끝<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 2.<end>"
 
-## 390000
-source: translations/korean/messages/msgsec039-part99.toml
+## 440106
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "旅立ち１２メッセージ<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の３。<end>"
 EN: ""
-KO: "여행 출발 12 메시지<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 3.<end>"
 
-## 390001
-source: translations/korean/messages/msgsec039-part99.toml
+## 440107
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の４。<end>"
 EN: ""
-KO: "예비 메시지 1<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 4.<end>"
 
-## 390002
-source: translations/korean/messages/msgsec039-part99.toml
+## 440108
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ２<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の５。<end>"
 EN: ""
-KO: "예비 메시지 2<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 5.<end>"
 
-## 390003
-source: translations/korean/messages/msgsec039-part99.toml
+## 440109
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ３<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の６。<end>"
 EN: ""
-KO: "예비 메시지 3<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 6.<end>"
 
-## 390004
-source: translations/korean/messages/msgsec039-part99.toml
+## 440110
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ４<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の７。<end>"
 EN: ""
-KO: "예비 메시지 4<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 7.<end>"
 
-## 390005
-source: translations/korean/messages/msgsec039-part99.toml
+## 440111
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ５<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の８。<end>"
 EN: ""
-KO: "예비 메시지 5<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 8.<end>"
 
-## 390006
-source: translations/korean/messages/msgsec039-part99.toml
+## 440112
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ６<line-break>予備メッセージ<line-break>予備メッセージ<line-break>予備メッセージ<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の９。<end>"
 EN: ""
-KO: "예비 메시지 6 예비 메시지 예비 메시지 예비 메시지<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 9.<end>"
 
-## 390007
-source: translations/korean/messages/msgsec039-part99.toml
+## 440113
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ７<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の１０。<end>"
 EN: ""
-KO: "예비 메시지 7<end>"
+KO: "엘리에나이 공 레무온 류가다. 예비 메시지 V3의 10.<end>"
 
-## 390008
-source: translations/korean/messages/msgsec039-part99.toml
+## 440114
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ８<end>"
+JP: "エリエナイ公レムオン＝リューガだ。<line-break>予備メッセージＶ３の１。<end>"
 EN: ""
-KO: "예비 메시지 8<end>"
+KO: "엘리에나이 공 레무온=류가다. 예비 메시지 V3의 1.<end>"
 
-## 390009
-source: translations/korean/messages/msgsec039-part99.toml
+## 440115
+source: translations/korean/messages/msgsec044-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ９<end>"
+JP: "リューガ・ボリューム３終端<end>"
 EN: ""
-KO: "예비 메시지 9<end>"
+KO: "류가 볼륨 3 끝<end>"
 
-## 390010
-source: translations/korean/messages/msgsec039-part99.toml
+## 450000
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１０<end>"
+JP: "ガルドラン・ボリューム１その１開始<end>"
 EN: ""
-KO: "예비 메시지 10<end>"
+KO: "갈드란 볼륨1 그 1 시작<end>"
 
-## 390011
-source: translations/korean/messages/msgsec039-part99.toml
+## 450001
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１１<end>"
-EN: ""
-KO: "예비 메시지 11<end>"
+JP: "ねぇ、ガルドラン、だよね。<end>"
+EN: "Hey, you're Girldlan, right?<end>"
+KO: "저기, 갈드란… 맞지?<end>"
 
-## 390012
-source: translations/korean/messages/msgsec039-part99.toml
+## 450002
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１２<end>"
-EN: ""
-KO: "예비 메시지 12<end>"
+JP: "ふっ、俺様のファンか！　　　　　<end>"
+EN: "Ha! A fan of mine!<end>"
+KO: "훗, 내 팬인가!<end>"
 
-## 390013
-source: translations/korean/messages/msgsec039-part99.toml
+## 450003
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１３<end>"
-EN: ""
-KO: "예비 메시지 13<end>"
+JP: "未来の勇者は忙しいが、<line-break>特別に握手に応じてやろう。<end>"
+EN: "The future Hero is a busy man, but I'll make an exception and grant you a handshake.<end>"
+KO: "미래의 용자는 바쁘지만 특별히 악수해 주지.<end>"
 
-## 390014
-source: translations/korean/messages/msgsec039-part99.toml
+## 450004
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "予備メッセージ１４<end>"
-EN: ""
-KO: "예비 메시지 14<end>"
+JP: "さあ！　俺様の熱い魂の鼓動を<line-break>手のひらから思う存分感じてくれ！<end>"
+EN: "Come! Feel the fiery pulse of my soul through my palm to your heart's content!<end>"
+KO: "자! 내 뜨거운 영혼의 고동을 손바닥으로 마음껏 느껴라!<end>"
 
-## 390015
-source: translations/korean/messages/msgsec039-part99.toml
+## 450005
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "旅立ち１２メッセージ終端<end>"
-EN: ""
-KO: "여행 출발 12 메시지 끝<end>"
+JP: "あ、危ないじゃないかっ！　　　　　<end>"
+EN: "H-hey! That was dangerous!<end>"
+KO: "아, 위험하잖아!<end>"
 
-## 400000
-source: translations/korean/messages/msgsec040-part99.toml
+## 450006
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ネメア・ボリューム１開始<end>"
-EN: ""
-KO: "네메아 볼륨 1 시작<end>"
+JP: "俺様が勇者の必殺技、勇者よけで<line-break>よけなかったら、ケガをしていたぞ！<end>"
+EN: "If I hadn't dodged that with the Hero's ultimate move, Hero Dodge, I could have been hurt!<end>"
+KO: "내가 용자의 필살기, 용자 피하기로 피하지 않았다면 다쳤을 거다!<end>"
 
-## 400001
-source: translations/korean/messages/msgsec040-part99.toml
+## 450007
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "あんた、ロストールの西にある<line-break>城塞都市跡に行ったことあるかい？<line-break>　<line-break>実はあの場所で、<line-break>怪現象が起こるって話があってさ。<line-break>ギルドで情報を集めてるんだ。<end>"
-EN: "Have you ever been to the Fortress City Ruins west of Rostorl? There are reports of strange things happening there, and the Guild is gathering information.<end>"
-KO: "당신, 로스톨 서쪽에 있는 성새도시 터에 가 본 적 있어? 사실 거기서 괴현상이 일어난다는 이야기가 있어서 길드에서 정보를 모으고 있어.<end>"
+JP: "ガルドラン！　僕の名はナッジ。<end>"
+EN: "Girldlan! My name is Nadge.<end>"
+KO: "갈드란! 내 이름은 나지다.<end>"
 
-## 400002
-source: translations/korean/messages/msgsec040-part99.toml
+## 450008
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんでも生きてるような黒い闇が　<line-break>現れるってんだが…。<line-break>　<line-break>あんた、もしなんかわかったら<line-break>知らせてくれないか？<line-break>ちゃんと報酬も用意しておくぜ。<end>"
-EN: "They say some kind of blackness appears there, as if it were alive... If you find out anything, could you let me know? There'll be a proper reward in it for you.<end>"
-KO: "뭔가 살아 있는 듯한 검은 어둠이 나타난다는데…. 당신, 뭔가 알아내면알려 주지 않을래? 보수도 제대로 준비해 둘게.<end>"
+JP: "テラネのヴァンを傷つけたこと、<line-break>忘れたとは言わせない！<end>"
+EN: "Don't tell me you've forgotten what you did to Van in Terane!<end>"
+KO: "테라네의 반을 다치게 한 것, 잊었다고는 못 하게 해 주지!<end>"
 
-## 400003
-source: translations/korean/messages/msgsec040-part99.toml
+## 450009
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "お！　城塞都市の噂を突き止めたか！　<line-break>よしよし、聞かせてくれよ。<line-break>　<end>"
-EN: "Oh! You got to the bottom of those rumors about the Fortress City? Good, let's hear it.<end>"
-KO: "오! 요새도시의 소문을 알아냈나! 좋아, 들려줘.<end>"
+JP: "？<end>"
+EN: "?<end>"
+KO: "？<end>"
 
-## 400004
-source: translations/korean/messages/msgsec040-part99.toml
+## 450010
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "へー、円卓騎士バルザーねー。<line-break>そいつ、以前ディンガルを支配していた<line-break>魔王バロルが復活させたヤツだろ？<line-break>結局、バロルは、<line-break>ネメアに倒されちまったが、<line-break>またなんかたくらんでたのかな。<end>"
-EN: "Huh. Baltzer, Knight of the Round Table. He's the one Balor the Demon King, who once ruled Dyneskal, brought back to life, right? Balor was defeated by Nemea in the end, but maybe he'd been plotting something else.<end>"
-KO: "헤에, 원탁기사 발자라. 그 녀석 예전에 딘갈을 지배하던 마왕 발로르가 부활시킨 놈이지? 결국 발로르는 네메아에게 쓰러졌지만 또 뭔가 꾸미고 있었던 건가.<end>"
+JP: "そうか！　　　　　　　　　　　<end>"
+EN: "Aha!<end>"
+KO: "그런가!<end>"
 
-## 400005
-source: translations/korean/messages/msgsec040-part99.toml
+## 450011
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんにせよ、ありがとよ。　　　　　　<line-break><value:$28>。<line-break>　<end>"
-EN: "Anyway, thanks, <value:$28>.<end>"
-KO: "어쨌든 고맙다. <value:$28>.<end>"
+JP: "貴様、未来の勇者の俺様を恐れた<line-break>魔王の刺客だな！<end>"
+EN: "You must be an agent of the Demon King, terrified of me, the future Hero!<end>"
+KO: "네놈, 미래의 용자인 이 몸을 두려워한 마왕의 자객이구나!<end>"
 
-## 400006
-source: translations/korean/messages/msgsec040-part99.toml
+## 450012
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$01><equal>2このことかしら…？<line-break>噂になってる怪現象って。 <end><if><value:$01><equal>4見るからに怪しげかな。<line-break>噂の怪現象って、これかも。 <end><if><value:$01><equal>5ギルドで言ってた怪現象って、<line-break>これじゃねえのか？ <end><if><value:$01><equal>6ねえ、<value:$28>。<line-break>怪現象って、これじゃないかな。 <end><if><value:$01><equal>12空 <end><if><value:$01><equal>13…これだな。<line-break>例の怪奇現象とやらは。 <end><if><value:$01><equal>10姉ちゃん、きっとこれだよ。<line-break>ギルドで言ってた怪現象って。 <end><if><value:$01><equal>14これは奇怪な。<line-break>ギルドで言っていたのは、<line-break>これかの？ <end><if><value:$01><equal>15ギルドで言ってた怪現象って、<line-break>きっとこれだね。 <end><if><value:$01><equal>17ギルドで言ってたとかいう<line-break>怪現象ってこのことね。<line-break>もちろん、アタクシは知っていてよ。 <end><if><value:$01><equal>19ギルドで言ってたのって、<line-break>これかな？<line-break>なんか気持ち悪いね。 <end><if><value:$01><equal>20空 <end><if><value:$01><equal>193ギルドで言っていた怪現象って<line-break>こ、これ…ですよね？<line-break>私、す、すごく怖い…！<end><if><value:$01><equal>191このことかしら？<line-break>ギルドで言ってた怪現象は。<end>ギルドで言ってたの、これだよね。<line-break>うわー、ほんとに怪現象だなー。<line-break>歌の題材になるよ。 <end>"
-EN: "<if><value:$01><equal>2Could this be the strange phenomenon everyone's been talking about...?<end><if><value:$01><equal>4It does look suspicious. Maybe this is the strange phenomenon from the rumors.<end><if><value:$01><equal>5Isn't this the strange phenomenon they were talking about at the Guild?<end><if><value:$01><equal>6Hey, <value:$28>. I think this might be the strange phenomenon.<end><if><value:$01><equal>12<end><if><value:$01><equal>13This is it, then. That so-called strange phenomenon.<end><if><value:$01><equal>10Sis, this has got to be it―the strange phenomenon they mentioned at the Guild.<end><if><value:$01><equal>14How peculiar. Could this be what they spoke of at the Guild?<end><if><value:$01><equal>15This must be the strange phenomenon they mentioned at the Guild.<end><if><value:$01><equal>17So this is that strange phenomenon they supposedly mentioned at the Guild. Of course, I knew that already.<end><if><value:$01><equal>19Could this be what they mentioned at the Guild? It's kind of creepy.<end><if><value:$01><equal>20<end><if><value:$01><equal>193Th-this is the strange phenomenon they mentioned at the Guild... isn't it? I'm s-so scared...!<end><if><value:$01><equal>191Could this be the strange phenomenon they mentioned at the Guild?<end>This is what they mentioned at the Guild, right? Wow, it really is a strange phenomenon. It'd make good material for a song.<end>"
-KO: "<if><value:$01><equal>2이건가…? 소문난 괴현상이.<end><if><value:$01><equal>4보기만 해도 수상하네. 소문의 괴현상이 이건가 봐.<end><if><value:$01><equal>5길드에서 말한 괴현상이 이거 아니야?<end><if><value:$01><equal>6있잖아, <value:$28>. 괴현상이 이거 아닐까.<end><if><value:$01><equal>12공백<end><if><value:$01><equal>13…이거군. 그 괴기현상이라는 게.<end><if><value:$01><equal>10누나, 분명 이거야. 길드에서 말한 괴현상.<end><if><value:$01><equal>14기괴하군. 길드에서 말한 게 이건가?<end><if><value:$01><equal>15길드에서 말한 괴현상이 분명 이거네.<end><if><value:$01><equal>17길드에서 말했다는 괴현상이 이거군. 물론 나는 알고 있었지만.<end><if><value:$01><equal>19길드에서 말한 게 이걸까? 왠지 기분 나빠.<end><if><value:$01><equal>20공백<end><if><value:$01><equal>193길드에서 말한 괴현상이 이, 이거… 맞죠? 저, 저 너무 무서워요…!<end><if><value:$01><equal>191이건가? 길드에서 말한 괴현상이.<end>길드에서 말한 게 이거지. 우와, 진짜 괴현상이네. 노래 소재로 좋겠어.<end>"
+JP: "ちっ、違うよ！　　　　　　　<end>"
+EN: "N-no!<end>"
+KO: "아, 아니야!<end>"
 
-## 400007
-source: translations/korean/messages/msgsec040-part99.toml
+## 450013
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ここにもいないか…。<line-break>バルザーめ…、<line-break>どういうつもりだ。<end>"
-EN: "Not here either... Damn you, Baltzer. What are you up to?<end>"
-KO: "여기에도 없나…. 발자르 녀석… 무슨 생각이지.<end>"
+JP: "僕はお前がテラネで傷つけた<line-break>ヴァンの仇を討ちに来たんだ！<end>"
+EN: "I've come to avenge Van, whom you hurt in Terane!<end>"
+KO: "나는 네가 테라네에서 다치게 한 반의 복수를 하러 왔어!<end>"
 
-## 400008
-source: translations/korean/messages/msgsec040-part99.toml
+## 450014
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "確かに、テラネで不良少年に<line-break>教育的指導をした覚えはあるが、　　<line-break><line-break>まさか、あの少年まで<line-break>魔王の刺客だったとは…！<end>"
+EN: "I do recall administering some corrective discipline to a young delinquent in Terane. But to think that boy was also an agent of the Demon King...!<end>"
+KO: "확실히 테라네에서 불량소년을 교육적으로 지도한 기억은 있지만, 설마 그 소년까지 마왕의 자객이었다니…!<end>"
+
+## 450015
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "許せん！　よくも俺様をだましたな！<line-break>この魔王第二の刺客めぇえ！<end>"
+EN: "Unforgivable! How dare you deceive me! You second agent of the Demon Kiiing!<end>"
+KO: "용서 못 해! 감히 날 속이다니! 이 마왕의 두 번째 자객 녀석아아!<end>"
+
+## 450016
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "違うよ。<line-break>どうしてそんな風になっちゃうんだよ。<line-break><line-break>僕は、ヴァンの仇を…。<end>"
+EN: "No! How did you even come to that conclusion? I'm here to avenge Van...<end>"
+KO: "아니야. 왜 그렇게 되는 거야. 나는 반의 원수를….<end>"
+
+## 450017
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "この期に及んでまだしらを切るとは！<end>"
+EN: "Still feigning ignorance, even now!<end>"
+KO: "이 지경인데도 아직 시치미를 떼다니!<end>"
+
+## 450018
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ウソをついてはいかんと<line-break>お父さんに教えられなかったのか！<end>"
+EN: "Didn't your father teach you not to lie?<end>"
+KO: "거짓말하면 안 된다고 아버지께 배우지 못했나!<end>"
+
+## 450020
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "この未来の勇者ガルドランが<line-break>正義の熱い怒りの魂で、貴様を倒す！<line-break><line-break>食らえ！<line-break>正義の必殺技、暗闇の滴！<end>"
+EN: "I, Girldlan, the future Hero, shall strike you down with the fiery wrath of my righteous soul! Take this! The righteous finishing move: Drop of Darkness!<end>"
+KO: "이 미래의 용자 갈드란이 정의의 뜨거운 분노의 혼으로 네놈을 쓰러뜨리겠다! 받아라! 정의의 필살기, 어둠의 물방울!<end>"
+
+## 450021
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "うわっ！　目が！<end>"
+EN: "Agh! My eyes!<end>"
+KO: "으악! 눈이!<end>"
+
+## 450022
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "コーンスの少年を助ける<end>"
+EN: "Help the Konsu boy<end>"
+KO: "콘스의 소년을 돕는다.<end>"
+
+## 450023
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "冒険者のケンカなので放っておく<end>"
+EN: "Stay out of the fight between adventurers<end>"
+KO: "모험자끼리 싸우는 거니 내버려 둔다<end>"
+
+## 450024
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "くっ、第三の刺客か！<end>"
+EN: "Gah! A third agent!<end>"
+KO: "큭, 세 번째 자객인가!<end>"
+
+## 450025
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様！　あのときの！<line-break>そうか。貴様も魔王の刺客だったのか！<line-break><line-break>あのときは<line-break>腹が減っていて敗れたが、<line-break>今回はそうはいかん。ゆくぞ！<end>"
+EN: "You! From before! Now I see. You were an agent of the Demon King too! I lost last time because I was hungry, but not this time. Have at you!<end>"
+KO: "네놈! 그때의! 그렇군. 네놈도 마왕의 자객이었나! 그때는 배가 고파 패했지만 이번엔 다르다. 간다!<end>"
+
+## 450026
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "き、貴様！　あのときの！<line-break>そうか。貴様も魔王の刺客だったか！<line-break><line-break>他人の大甘な、めくるめく恋愛伝説を<line-break>邪魔するとは、人として許せん！！<line-break>俺様の魂の天誅を加えてやるうう！<end>"
+EN: "Y-you! From before! Now I see. You're an agent of the Demon King too! Anyone who would interfere with someone else's dizzyingly sweet romantic legend is beyond forgiveness! I shall bring down the divine judgment of my soul upon yooou!<end>"
+KO: "네, 네놈! 그때 그 녀석! 그렇군. 네놈도 마왕의 자객이었나! 남의 달콤하고 눈부신 연애전설을 방해하다니 인간으로서 용서 못 한다!! 나님의 영혼의 천벌을 내려 주마아!<end>"
+
+## 450027
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様もどこかで見た覚えがあるが、<line-break>貴様のような奴は覚えてもおらん！<line-break><line-break>俺様は常に前向き！<line-break>未来の勇者は未来しか見ないのだ！<line-break>ゆくぞ！　過去の亡霊め！<end>"
+EN: "I seem to recall seeing you somewhere, but I don't even remember the likes of you! I always look ahead! The future Hero has eyes only for the future! Have at you, specter of the past!<end>"
+KO: "네놈도 어디선가 본 기억은 있지만 너 같은 녀석은 기억도 안 난다! 나는 언제나 앞만 본다! 미래의 용사는 미래만 보는 거다! 간다! 과거의 망령아!<end>"
+
+## 450028
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ば、バカな。この俺様が敗れるのか？<line-break>いや！　俺様はすぐに立ち上がる！<end>"
+EN: "I-impossible. Can even I be defeated? No! I'll be back on my feet in no time!<end>"
+KO: "마, 말도 안 돼. 이 내가 패배한다고? 아니! 나는 곧 다시 일어난다!<end>"
+
+## 450029
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の主人公に逆境は付き物！<line-break>俺様は修行してお前を倒す！　　　<line-break>　<line-break>さらばだ。我が永遠のライバルよ！<line-break>小さな勝利に酔いしれるがいいさ！<line-break>ハハハハ…！<end>"
+EN: "Adversity is part of being a legendary protagonist! I shall train, and then I shall defeat you! Farewell, my eternal rival! Savor your paltry victory while you can! Hahahaha...!<end>"
+KO: "전설의 주인공에게 역경은 따라붙는 법! 나는 수련해서 너를 쓰러뜨리겠다! 잘 있어라, 영원한 라이벌이여! 작은 승리에 취해 있으라고! 하하하하…!<end>"
+
+## 450030
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ガルドラン、待て！<end>"
+EN: "Girldlan, wait!<end>"
+KO: "갈드란, 기다려!<end>"
+
+## 450031
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ねえ、まずはお礼を言わせてよ。<line-break>ありがとう。<line-break><line-break>僕はテラネのナッジ。<line-break>見ての通り、コーンスなんだ。<line-break>君は？<end>"
+EN: "Hey, let me thank you first. Thank you. I'm Nadge, from Terane. As you can see, I'm a Konsu. And you are?<end>"
+KO: "있지, 우선 고맙다는 말부터 할게. 고마워. 난 테라네의 나지. 보다시피 콘스야. 넌?<end>"
+
+## 450032
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>って言うんだね。<line-break>ありがとう、<value:$28>。<line-break><line-break>君がいなければ、やられていた。<line-break>また、あのときのように…。<end>"
+EN: "So your name is <value:$28>. Thank you, <value:$28>. Without you, I'd have been done for. Just like that time...<end>"
+KO: "<value:$28>이라고 하는구나. 고마워, <value:$28>. 네가 없었으면 당했을 거야. 또 그때처럼….<end>"
+
+## 450033
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "力が…欲しい…。<end>"
+EN: "I want... power...<end>"
+KO: "힘이… 필요해….<end>"
+
+## 450034
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔王の刺客め！　とどめだ！<end>"
+EN: "Agent of the Demon King! This is the end!<end>"
+KO: "마왕의 자객놈! 끝장이다!<end>"
+
+## 450035
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "酔っぱらいのケンカだ！<end>"
+EN: "It's a fight between drunks!<end>"
+KO: "취객들 싸움이다!<end>"
+
+## 450036
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "勝った方が殺そうとしているぞ！<end>"
+EN: "The winner's trying to kill the other!<end>"
+KO: "이긴 쪽이 죽이려 하고 있어!<end>"
+
+## 450037
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "人殺し！<end>"
+EN: "Murderer!<end>"
+KO: "살인자!<end>"
+
+## 450038
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "否！　人殺しではない！<line-break>悪者退治だ！　　　　　　　　　　　<line-break>　<line-break>勇者というものは悪者を<line-break>いくら殺しても構わないのだ。<line-break>そして、俺様は未来の勇者ガルド…。<end>"
+EN: "No! It isn't murder! It's vanquishing evildoers! A Hero may kill as many villains as necessary. And I am the future Hero, Girld...<end>"
+KO: "아니다! 살인이 아니다! 악당 퇴치다! 용사라는 건 악당을 아무리 죽여도 괜찮은 거다. 그리고 나님은 미래의 용사 갈드….<end>"
+
+## 450039
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "人殺し！　人殺し！<end>"
+EN: "Murderer! Murderer!<end>"
+KO: "살인자! 살인자!<end>"
+
+## 450040
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "くそっ！<end>"
+EN: "Damn it!<end>"
+KO: "젠장!<end>"
+
+## 450041
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "勇者は…孤独だ！<end>"
+EN: "A Hero... is alone!<end>"
+KO: "용사는… 고독해!<end>"
+
+## 450042
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
 JP: "大丈夫か？<end>"
 EN: "Are you all right?<end>"
 KO: "괜찮아?<end>"
 
-## 400009
-source: translations/korean/messages/msgsec040-part99.toml
+## 450043
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "若くて威勢がいいのもいいが、<line-break>あんまり、無茶するんじゃないぞ。<end>"
+EN: "Being young and full of fire is all well and good, but don't push yourself too far.<end>"
+KO: "젊고 기운 좋은 것도 좋지만 너무 무리하진 마라.<end>"
 
-## 400010
-source: translations/korean/messages/msgsec040-part99.toml
+## 450044
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "う…うん、大丈夫。<line-break>ごめんね、巻き込んじゃって…。　<line-break>　<line-break>…まずは、お礼を言わせて。<line-break>ありがとう。僕はテラネのナッジ。<line-break>見ての通り、コーンスなんだ。<end>"
+EN: "Y-yeah, I'm all right. Sorry I dragged you into this... But first, let me thank you. Thank you. I'm Nadge, from Terane. As you can see, I'm a Konsu.<end>"
+KO: "으… 응, 괜찮아. 미안해, 휘말리게 해서…. …먼저 감사부터 할게. 고마워. 나는 테라네의 나지. 보다시피 콘스야.<end>"
 
-## 400011
-source: translations/korean/messages/msgsec040-part99.toml
+## 450045
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$01><equal>2ね、ネメアさん！？ <end><if><value:$01><equal>4あ！　あの英雄ネメアかも！？ <end><if><value:$01><equal>5あ！　ネメアじゃんか！？ <end><if><value:$01><equal>6あ！　英雄ネメア！？ <end><if><value:$01><equal>12空 <end><if><value:$01><equal>13お前は、<line-break>…ネメアか。 <end><if><value:$01><equal>10ね、ネメア…！？ <end><if><value:$01><equal>14…お主は、<line-break>…ね、ネメアか！？ <end><if><value:$01><equal>15…ね、ネメアさん！？ <end><if><value:$01><equal>17誰よ、誰よ、今度は誰なのよー！<line-break>…って、あなた、ネメア！？ <end><if><value:$01><equal>19あぁ！　ネメアさんだぁ！ <end><if><value:$01><equal>193あ、あなたは<line-break>英雄ネメアさん！？<end><if><value:$01><equal>191あなたは…ネメア！？<end>あ！　英雄ネメアだ！ <end>"
-EN: "<if><value:$01><equal>2N-Nemea!?<end><if><value:$01><equal>4Ah! Could that be the hero Nemea!?<end><if><value:$01><equal>5Ah! It's Nemea!?<end><if><value:$01><equal>6Ah! Nemea the hero!?<end><if><value:$01><equal>12Empty<end><if><value:$01><equal>13You're... Nemea.<end><if><value:$01><equal>10N-Nemea...!?<end><if><value:$01><equal>14You... A-are you Nemea!?<end><if><value:$01><equal>15N-Nemea!?<end><if><value:$01><equal>17Who? Who is it this time!? Wait... you're Nemea!?<end><if><value:$01><equal>19Ah! It's Nemea!<end><if><value:$01><equal>193Y-you're the hero Nemea!?<end><if><value:$01><equal>191You're... Nemea!?<end>Ah! It's the hero Nemea!<end>"
-KO: "<if><value:$01><equal>2네, 네메아 씨!?<end><if><value:$01><equal>4아! 저 영웅 네메아일지도!?<end><if><value:$01><equal>5아! 네메아잖아!?<end><if><value:$01><equal>6아! 영웅 네메아!?<end><if><value:$01><equal>12공백<end><if><value:$01><equal>13너는… 네메아인가.<end><if><value:$01><equal>10네, 네메아…!?<end><if><value:$01><equal>14…그대는… 네, 네메아인가!?<end><if><value:$01><equal>15…네, 네메아 씨!?<end><if><value:$01><equal>17누구야, 누구야, 이번엔 또 누구냐고―! …잠깐, 당신 네메아!?<end><if><value:$01><equal>19아아! 네메아 씨다아!<end><if><value:$01><equal>193다, 당신은 영웅 네메아 씨!?<end><if><value:$01><equal>191당신은… 네메아!?<end>아! 영웅 네메아다!<end>"
+JP: "君は？<end>"
+EN: "And you are?<end>"
+KO: "너는?<end>"
 
-## 400012
-source: translations/korean/messages/msgsec040-part99.toml
+## 450046
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "危ないところだったな。<end>"
-EN: "That was close.<end>"
-KO: "큰일 날 뻔했군.<end>"
+JP: "<value:$28>…<line-break>っていうんだね…。　　　　<line-break><line-break>大丈夫、<value:$28>？<line-break>ケガしてない？<end>"
+EN: "<value:$28>... So that's your name. Are you all right, <value:$28>? Are you hurt?<end>"
+KO: "<value:$28>…이라고 하는구나…. 괜찮아, <value:$28>? 다친 데 없어?<end>"
 
-## 400013
-source: translations/korean/messages/msgsec040-part99.toml
+## 450047
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "そうだ。<line-break>以前話した闇の気配…。<line-break>それが、ここにある。<end>"
-EN: "Yes. That dark presence I mentioned before... It's here.<end>"
-KO: "그래. 전에 말한 어둠의 기척… 그게 여기 있다.<end>"
+JP: "ゴメンね…、ケガさせちゃって。<end>"
+EN: "I'm sorry... You got hurt because of me.<end>"
+KO: "미안… 다치게 해서.<end>"
 
-## 400014
-source: translations/korean/messages/msgsec040-part99.toml
+## 450048
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$01><equal>2破壊神に仕える魔人…？<line-break>そんなヤツがここにいるなんて…。 <end><if><value:$01><equal>4破壊神って、神話に出てくる<line-break>悪者のことだったかな。<line-break>アカデミーで習ったかも。 <end><if><value:$01><equal>5破壊神の円卓騎士！？<line-break>ほんとかよ！？ <end><if><value:$01><equal>6破壊神て…神話に出てくる<line-break>邪神じゃない！<line-break>そんな奴がここにいるの！？ <end><if><value:$01><equal>12空 <end><if><value:$01><equal>13魔人だと…！？<line-break>アーギルシャイアの仲間か！ <end><if><value:$01><equal>10魔人て、オルファウスが<line-break>言ってたヤツの仲間かな？ <end><if><value:$01><equal>14あの破壊神の円卓騎士を<line-break>追っとるとは、<line-break>豪気な冒険をしとるの。 <end><if><value:$01><equal>15破壊神の円卓騎士…。<line-break>そんなにすごい魔人が<line-break>ここにいるなんて…。 <end><if><value:$01><equal>17やーね、魔人？<line-break>まったく、<value:$28>といると<line-break>ろくな目にあわないわ！ <end><if><value:$01><equal>18空 <end><if><value:$01><equal>19魔人だったら、<line-break>私たちも探してるよぉ。<line-break>ね、<value:$28>。 <end><if><value:$01><equal>20空 <end><if><value:$01><equal>193ま、魔人ですか！？<line-break>ま、魔人のいる迷宮なんて<line-break>伝説の勇者さんが挑むところですよね？<line-break>す、すみません！！<line-break>ろ、ロストールのウエイトレスなんかが<line-break>挑んでいい場所じゃありませんよね！？<end><if><value:$01><equal>191破壊神の円卓の騎士…<line-break>そんな恐ろしい相手が、<line-break>ここにいるというの！？<end>魔人に挑むネメアかー。<line-break>いい歌になりそうだなー。<line-break><value:$28>、ついていこうよ。 <end>"
-EN: "<if><value:$01><equal>2A demon serving the God of Destruction...? Someone like that is here...?<end><if><value:$01><equal>4The God of Destruction... Was that the villain from the myths? I think we might have learned about that at the Academy.<end><if><value:$01><equal>5A Knight of the Round Table serving the God of Destruction!? Are you serious!?<end><if><value:$01><equal>6The God of Destruction... Isn't that the evil god from the myths!? Someone like that is here!?<end><if><value:$01><equal>12Empty<end><if><value:$01><equal>13A demon, you say...!? An ally of Argyleshire's!?<end><if><value:$01><equal>10A demon... Could this be an ally of the one Orphaus mentioned?<end><if><value:$01><equal>14Chasing after one of the God of Destruction's Knights of the Round Table, are you? That's quite the daring adventure.<end><if><value:$01><equal>15A Knight of the Round Table serving the God of Destruction... I can't believe such a powerful demon is here...<end><if><value:$01><equal>17Oh, no. A demon? Honestly, nothing good ever happens when I'm with you, <value:$28>!<end><if><value:$01><equal>18Empty<end><if><value:$01><equal>19If it's a demon, we're looking for one too. Aren't we, <value:$28>?<end><if><value:$01><equal>20Empty<end><if><value:$01><equal>193A-a demon!? A labyrinth with a demon in it is the sort of place a legendary hero would take on, isn't it? S-sorry!! A R-Rostorl waitress has no business taking on a place like this, right!?<end><if><value:$01><equal>191A Knight of the Round Table serving the God of Destruction... Are you saying such a terrifying foe is here!?<end>Nemea taking on a demon... That could make a good song. Let's follow him, <value:$28>.<end>"
-KO: "<if><value:$01><equal>2파괴신을 섬기는 마인…? 그런 녀석이 여기에 있다니….<end><if><value:$01><equal>4파괴신이라면 신화에 나오는 악당이었나. 아카데미에서 배웠을지도.<end><if><value:$01><equal>5파괴신의 원탁기사!? 진짜야!?<end><if><value:$01><equal>6파괴신이라니… 신화에 나오는 사신이잖아! 그런 녀석이 여기 있어!?<end><if><value:$01><equal>12공백<end><if><value:$01><equal>13마인이라고…!? 아르길샤이어의 동료인가!<end><if><value:$01><equal>10마인이라면 오르파우스가 말했던 녀석의 동료인가?<end><if><value:$01><equal>14그 파괴신의 원탁기사를 쫓고 있다니, 대단한 모험을 하는구먼.<end><if><value:$01><equal>15파괴신의 원탁기사…. 그런 엄청난 마인이 여기 있다니….<end><if><value:$01><equal>17정말 싫다, 마인이라고? <value:$28>랑 있으면 되는 일이 없어!<end><if><value:$01><equal>18공백<end><if><value:$01><equal>19마인이라면 우리도 찾고 있어어. 그렇지, <value:$28>.<end><if><value:$01><equal>20공백<end><if><value:$01><equal>193마, 마인인가요!? 마, 마인이 있는 미궁은 전설의 용사님이 도전하는 곳이잖아요? 죄, 죄송해요!! 로, 로스톨 웨이트리스 따위가 도전해도 될 곳이 아니죠!?<end><if><value:$01><equal>191파괴신의 원탁기사… 그런 무서운 상대가 여기 있다는 거야!?<end>마인에게 도전하는 네메아라ー. 좋은 노래가 되겠네ー. <value:$28>, 따라가자.<end>"
+JP: "まただ…。僕は…また…。<line-break>くやしい…よ…、力が…欲しい…。<end>"
+EN: "Again... I... again... It's so frustrating... I want strength...<end>"
+KO: "또야…. 난… 또…. 분해… 힘이… 필요해….<end>"
 
-## 400015
-source: translations/korean/messages/msgsec040-part99.toml
+## 450049
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "…バルザーを知っているのか？<end>"
-EN: "...You know Baltzer?<end>"
-KO: "…발자를 알고 있나?<end>"
+JP: "ねえ、<value:$28>。<line-break>唐突だけど、僕を仲間にしてくれない？<line-break><line-break>僕、あのガルドランを倒したい…。<line-break>だけど、くやしいけど、<line-break>僕じゃ、まだまだ、力が足りない…。<end>"
+EN: "Hey, <value:$28>. I know this is sudden, but will you let me join you? I want to defeat Girldlan... But as much as I hate to admit it, I'm nowhere near strong enough yet...<end>"
+KO: "저기, <value:$28>. 갑작스럽지만 나를 동료로 받아 주지 않을래? 나, 그 갈드란을 쓰러뜨리고 싶어…. 하지만 분하게도 아직 내 힘이 부족해….<end>"
 
-## 400016
-source: translations/korean/messages/msgsec040-part99.toml
+## 450050
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "そうか。<line-break>ならば、話が早い。<end>"
-EN: "I see. Then this will be easier to explain.<end>"
-KO: "그런가. 그렇다면 이야기가 빠르군.<end>"
+JP: "ねえ、<value:$28>。<line-break>お願いだよ。僕は強くなりたい。<line-break>僕を連れていってほしいんだ。　　　　<end>"
+EN: "Please, <value:$28>. I want to become stronger. Take me with you.<end>"
+KO: "있잖아, <value:$28>. 부탁이야. 난 강해지고 싶어. 나도 데려가 줘.<end>"
 
-## 400017
-source: translations/korean/messages/msgsec040-part99.toml
+## 450051
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "なぜこの場所に来てしまったのかは<line-break>知らないが、<line-break>ここに長くとどまるのは危険だ。<line-break>ここはバルザーが作り出した異空間。<line-break>先ほどのモンスターもそうだが、<line-break>何が待ちかまえているかわからない。<end>"
-EN: "I don't know how you ended up here, but it's dangerous to stay for long. This is another realm created by Baltzer. As the monster from earlier showed, there's no telling what may be waiting here.<end>"
-KO: "왜 이곳에 오게 됐는지는 모르겠지만 오래 머무는 건 위험해. 여긴 발자가 만든 이공간이야. 아까의 몬스터도 그렇고 무엇이 기다릴지 몰라.<end>"
+JP: "仲間にする<end>"
+EN: "Recruit<end>"
+KO: "동료로 삼는다<end>"
 
-## 400018
-source: translations/korean/messages/msgsec040-part99.toml
+## 450052
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "行動を共にした方が<line-break>安全だと思うが、<line-break>構わないかな？<end>"
-EN: "It would be safer if we traveled together. Would that be all right?<end>"
-KO: "함께 행동하는 편이 안전하다고 생각하는데, 괜찮겠나?<end>"
+JP: "仲間にしない<end>"
+EN: "Don't recruit<end>"
+KO: "동료로 삼지 않는다<end>"
 
-## 400019
-source: translations/korean/messages/msgsec040-part99.toml
+## 450053
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "では、行こう。<line-break>おそらく、バルザーを倒さねば<line-break>この異空間は消えない。<line-break>ヤツのもとにたどり着き<line-break>雌雄を決さねばなるまい。<end>"
-EN: "Then let's go. This other realm likely won't disappear unless we defeat Baltzer. We must reach him and settle this once and for all.<end>"
-KO: "그럼 가자. 아마 발자를 쓰러뜨리지 않으면 이 이공간은 사라지지 않을 거야. 녀석에게 가서 결판을 내야 한다.<end>"
+JP: "あ、ありがとう。僕、がんばるよ。<end>"
+EN: "Oh, thank you. I'll do my best.<end>"
+KO: "고, 고마워. 나 열심히 할게.<end>"
 
-## 400020
-source: translations/korean/messages/msgsec040-part99.toml
+## 450054
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "待っていた…。<end>"
-EN: "I've been waiting...<end>"
-KO: "기다리고 있었어….<end>"
+JP: "わかった。　　　　　　　　　　　<end>"
+EN: "All right.<end>"
+KO: "알겠어.<end>"
 
-## 400021
-source: translations/korean/messages/msgsec040-part99.toml
+## 450055
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "…バルザー。<end>"
-EN: "Baltzer...<end>"
-KO: "…발저.<end>"
+JP: "それじゃ、僕、<value:$28>が<line-break>呼び出してくれるのを待ってるよ。<end>"
+EN: "Then I'll wait for you to call for me, <value:$28>.<end>"
+KO: "그럼 난 <value:$28>이 불러 줄 때까지 기다리고 있을게.<end>"
 
-## 400022
-source: translations/korean/messages/msgsec040-part99.toml
+## 450056
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "勇者ネメアよ。<end>"
-EN: "Nemea the Hero.<end>"
-KO: "용사 네메아여.<end>"
+JP: "ナッジを今すぐに<line-break>仲間に加えますか？<end>"
+EN: "Add Nadge to the party now?<end>"
+KO: "나지를 지금 바로 동료로 맞이하시겠습니까?<end>"
 
-## 400023
-source: translations/korean/messages/msgsec040-part99.toml
+## 450057
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "私はネメアだ。<line-break>勇者ネメアなどではない。<end>"
-EN: "I am Nemea. I am no hero.<end>"
-KO: "나는 네메아다. 용사 네메아 따위가 아니다.<end>"
+JP: "わかった。それじゃ、この町の<line-break>出入り口で合流すればいいんだね。<end>"
+EN: "All right. Then we'll meet at the entrance to town.<end>"
+KO: "알았어. 그럼 이 마을 출입구에서 합류하면 되는 거지.<end>"
 
-## 400024
-source: translations/korean/messages/msgsec040-part99.toml
+## 450058
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "運命に抗おうとする者…。<end>"
-EN: "One who would defy fate...<end>"
-KO: "운명에 맞서려는 자….<end>"
+JP: "わかった。　　　　　　　　　　　<end>"
+EN: "All right.<end>"
+KO: "알겠어.<end>"
 
-## 400025
-source: translations/korean/messages/msgsec040-part99.toml
+## 450059
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "これを勇者と呼ばずして、<line-break>誰を勇者と呼ぶ？<end>"
-EN: "If that is not a hero, then who is?<end>"
-KO: "이걸 용자라 부르지 않으면 누굴 용자라 부르겠나?<end>"
+JP: "それじゃ、僕、<value:$28>が<line-break>呼び出してくれるのを待ってるよ。<end>"
+EN: "Then I'll wait for you to call for me, <value:$28>.<end>"
+KO: "그럼 난 <value:$28>이 불러 줄 때까지 기다리고 있을게.<end>"
 
-## 400026
-source: translations/korean/messages/msgsec040-part99.toml
+## 450060
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "…だが、ムダだ。<line-break>うぬとても運命には逆らえぬ。<end>"
-EN: "But it is futile. Not even you can defy fate.<end>"
-KO: "…하지만 소용없다. 너 역시 운명에는 거스를 수 없어.<end>"
+JP: "そう…。残念だよ。<line-break><value:$28>…。<end>"
+EN: "Oh... That's disappointing, <value:$28>...<end>"
+KO: "그래…. 아쉽네. <value:$28>….<end>"
 
-## 400027
-source: translations/korean/messages/msgsec040-part99.toml
+## 450061
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "我らが主、破壊神ウルグ様は<line-break>必ずや復活される…。<end>"
-EN: "Our master, Ulugh, the God of Destruction, shall surely rise again...<end>"
-KO: "우리의 주인, 파괴신 울그 님은 반드시 부활하신다….<end>"
+JP: "やあ、<value:$28>…。<line-break>ちょっと、聞いてほしいんだ…。<end>"
+EN: "Hi, <value:$28>... There's something I'd like you to hear.<end>"
+KO: "안녕, <value:$28>…. 잠깐 들어 줬으면 해….<end>"
 
-## 400028
-source: translations/korean/messages/msgsec040-part99.toml
+## 450062
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ゆくぞ、<value:$28>。<end>"
+JP: "僕が旅に出た理由…。<end>"
+EN: "It's about why I set out on this journey.<end>"
+KO: "내가 여행을 떠난 이유….<end>"
+
+## 450063
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "この角を見ればわかると思うけど、<line-break>僕はコーンス族。<line-break>もう、滅びつつある種族の…。<end>"
+EN: "You can probably tell from this horn, but I'm one of the Konsu, a people already on the verge of extinction.<end>"
+KO: "이 뿔을 보면 알겠지만, 나는 콘스족이야. 이제 멸망해 가고 있는 종족이지….<end>"
+
+## 450064
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "最近、人間たちの角狩りで、<line-break>ますます数は減る一方なんだ。<end>"
+EN: "Lately, humans have been hunting us for our horns, so our numbers just keep dwindling.<end>"
+KO: "요즘 인간들의 뿔 사냥 때문에 우리 수는 점점 줄어들기만 해.<end>"
+
+## 450065
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕らの角は魔力を増幅するから、<line-break>それを利用して、何か作るんだろうね。<end>"
+EN: "Our horns amplify magical power. I suppose they use them to make something.<end>"
+KO: "우리 뿔은 마력을 증폭시키니까, 그걸 이용해서 뭔가 만들겠지.<end>"
+
+## 450066
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、角は僕らの急所だから<line-break>取られたら死んじゃうんだ！！<end>"
+EN: "But our horns are vital to us. If they're taken, we die!<end>"
+KO: "하지만 뿔은 우리 급소라서 빼앗기면 죽고 말아!!<end>"
+
+## 450067
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ごめん、ちょっと話がそれたね。<line-break>まあ、そんなこともあって、テラネには<line-break>僕しかコーンス族はいなかったんだ。<end>"
+EN: "Sorry, I got a little sidetracked. Anyway, because of all that, I was the only one of my people in Terane.<end>"
+KO: "…미안, 이야기가 좀 샜네. 뭐, 그런 일도 있어서 테라네에는 나 말고 콘스족이 없었어.<end>"
+
+## 450068
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "やっぱり、周りの人たちは僕を<line-break>奇異の目で見て、さけてたよ。<line-break>仕方ないとは思うけどね。<end>"
+EN: "The people around me looked at me strangely and kept their distance. I can't really blame them, though.<end>"
+KO: "역시 주변 사람들은 날 이상한 눈으로 보고 피했어. 어쩔 수 없다고 생각하지만.<end>"
+
+## 450069
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "だけど、ヴァンだけは違ったんだ。<line-break>ヴァンは本当に、純粋に<line-break>友達として僕とつきあってくれた。<end>"
+EN: "But Van was the one exception. He genuinely treated me as a friend.<end>"
+KO: "하지만 반만은 달랐어. 반은 정말 순수하게 친구로서 나와 어울려 줬어.<end>"
+
+## 450070
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、ヴァンは、冒険者とケンカして<line-break>ひどいケガをしてしまったんだ。<line-break>その冒険者が…あのガルドランさ。<end>"
+EN: "But then Van got into a fight with an adventurer and was badly injured. That adventurer was... Girldlan.<end>"
+KO: "하지만 반은 모험가와 싸우다가 크게 다쳤어. 그 모험가가… 갈드란이야.<end>"
+
+## 450071
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "それから僕は、旅に出たんだ。<line-break>もちろん、ヴァンの仇も討ちたい。<line-break>それも旅の理由ではあるんだけど…。<end>"
+EN: "That's when I set out on this journey. Of course I want revenge for what happened to Van. That's part of the reason, but...<end>"
+KO: "그 뒤로 나는 여행을 떠났어. 물론 반의 원수도 갚고 싶어. 그것도 여행의 이유 중 하나지만….<end>"
+
+## 450072
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕は…くやしかったんだ。<line-break>僕自身、とても無力だっていうことが。<line-break>あの時、何もできなかった僕自身が。<end>"
+EN: "I was... so frustrated with myself. I was so powerless. I couldn't do anything back then.<end>"
+KO: "나는… 분했어. 내가 너무 무력하다는 사실이. 그때 아무것도 하지 못했던 나 자신이.<end>"
+
+## 450073
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "だから僕は、力が欲しいんだ。<line-break>大切な人たちを傷つけなくてすむような<line-break>そんな、強い力が…。<end>"
+EN: "That's why I want power. The kind of strength that would mean the people I care about don't get hurt...<end>"
+KO: "그래서 나는 힘을 원해. 소중한 사람들을 다치게 하지 않아도 될 만큼 강한 힘을….<end>"
+
+## 450074
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "よ、よくも、ぬけぬけと！<line-break>ここに顔をだせたものだな！　　　　<line-break>　<line-break>お前らなんかと一緒にいたから…<line-break>かわいそうに、ヴァンはケガをして<line-break>まだ寝込んでいるんだ！　出て行け！<end>"
+EN: "Y-you've got some nerve, showing your faces here! It's because he was with the likes of you... Poor Van was hurt, and he's still bedridden! Get out!<end>"
+KO: "어, 어떻게 뻔뻔하게 여기 얼굴을 내밀 수 있지! 너희와 같이 있었기 때문에… 불쌍한 반은 다쳐서 아직도 누워 있어! 나가!<end>"
+
+## 450075
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ここは私の家なんだ。　　　　　<line-break>お前らの出入りは許さん！<line-break>出て行け！<end>"
+EN: "This is my house! I won't allow the likes of you in here! Get out!<end>"
+KO: "여긴 내 집이다. 너희가 드나드는 건 허락 못 해! 나가!<end>"
+
+## 450076
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "うちの息子は冒険者にひどい目に<line-break>遭わされて、まだ寝込んでいるんだ！<line-break>　<line-break>出て行け！<line-break>冒険者なんか、顔も見たくない！<line-break>出ていってくれ！<end>"
+EN: "Adventurers did something terrible to my son, and he's still bedridden! Get out! I can't stand the sight of adventurers! Just leave!<end>"
+KO: "우리 아들은 모험자에게 심한 꼴을 당해 아직도 누워 있어! 나가! 모험자 따윈 얼굴도 보기 싫어! 나가줘!<end>"
+
+## 450077
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "う、うちのヴァンをどこにやった！<line-break>こっ、この、ひとさらいめ！！<end>"
+EN: "W-where have you taken Van? You... you kidnapping scum!<end>"
+KO: "우, 우리 반을 어디로 데려갔어! 이, 이 유괴범 놈아!!<end>"
+
+## 450078
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様…！<line-break>貴様のせいででヴァンは！！<line-break><line-break>…出て行け！<line-break>私が紳士的なうちに<line-break>出て行くんだ！！<end>"
+EN: "You...! Van... all because of you! Get out! Get out while I'm still willing to be civil!<end>"
+KO: "네놈…! 네놈 때문에 반은!! …나가라! 내가 신사적으로 말할 때 나가!!<end>"
+
+## 450079
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふん！　この厄介者どもが<line-break>今度は冒険者になりました、か？　　<line-break><line-break>うちは巡礼客だけでやってるんでな。<line-break>冒険者を泊める気はないよ。<line-break>お前らなら、なおさらだ。<end>"
+EN: "Hmph! So now you troublemakers are adventurers, are you? We make our living from pilgrims. I've no intention of putting up adventurers, least of all you lot.<end>"
+KO: "흥! 이 골칫덩이들이 이번엔 모험자가 됐다고? 우리 집은 순례객만 받는다. 모험자를 재울 생각은 없어. 너희라면 더더욱 그렇지.<end>"
+
+## 450080
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "貴様…！<line-break>冒険者…！　　　　<line-break><line-break>…出て行け！<line-break>私が紳士的なうちに<line-break>出て行くんだ！！<end>"
+EN: "You...! An adventurer...! Get out! Leave while I'm still being civil!<end>"
+KO: "네놈…! 모험자…! …나가라! 내가 신사적으로 말할 때 나가!!<end>"
+
+## 450081
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "うちは巡礼客だけでやってるんでな。<line-break>冒険者を泊める気はないよ。<end>"
+EN: "We make our living from pilgrims. I've no intention of putting up adventurers.<end>"
+KO: "우린 순례객만 받는다. 모험자를 재울 생각은 없어.<end>"
+
+## 450082
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3ヴァンちゃん、ヴァンちゃん！<line-break>かわいそうに！　かわいそうに！<line-break><line-break>オイオイオイ…！<line-break>グスッ！<line-break>オイオイオイ！　オイオイオイ！<end>ひどいわ！　ひどいわ！　　　　　　　<line-break>神様は間違ってるわ！<line-break>　<line-break>どうしてヴァンちゃんみたいないい子が<line-break>こんな目にあって、あんたみたいな子が<line-break>ピンピンしているの？　おかしいわ！<end>ぐすっ！　どうして？　どうしてなの？<line-break>なんでヴァンちゃんがこんなことになるの？<line-break>　<line-break>ヴァンちゃんがピーマン嫌いだって言ったら、<line-break>ピーマンを台所に入れないほど<line-break>ヴァンちゃんを大事にしてきたのに！<end>"
+EN: "<select><value:$20>%3Van! Oh, Van! My poor baby! My poor baby! Waaaaah...! Sniff! Waaaaah! Waaaaah!<end>It's horrible! Just horrible! God is wrong! Why should a good boy like Van have to suffer like this while a child like you is perfectly fine? It's not right!<end>Sniff! Why? Why did this happen? Why did this have to happen to Van? When Van said he hated green peppers, I cared for him so dearly that I wouldn't even allow them in the kitchen!<end>"
+KO: "<select><value:$20>%3반아, 반아! 불쌍해! 불쌍해! 엉엉엉…! 훌쩍! 엉엉엉! 엉엉엉!<end>너무해! 너무해! 신은 잘못됐어! 왜 반처럼 착한 아이가 이런 꼴을 당하고 너 같은 애가 멀쩡한 거야? 이상하잖아!<end>훌쩍! 왜? 왜 그런 거야? 왜 반이 이렇게 된 거야? 반이 피망 싫다고 하면 피망을 부엌에 들이지 않을 만큼 소중히 키웠는데!<end>"
+
+## 450083
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "お願い！　う、うちのヴァンちゃんを<line-break>ひどい目や、つらい目に遭わせないで！<end>"
+EN: "Please! D-don't let anything horrible happen to my Van! Don't put him through any pain!<end>"
+KO: "부탁이야! 우, 우리 반을 험한 일이나 괴로운 일에 휘말리게 하지 말아 줘!<end>"
+
+## 450084
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンちゃんに苦労させないで。<line-break>ヴァンちゃんがかわいそうでしょ。<end>"
+EN: "Don't make Van suffer. Think of the poor boy.<end>"
+KO: "반을 고생시키지 마. 반이 불쌍하잖아.<end>"
+
+## 450085
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああああ、ヴァンちゃん！　オイオイオイ！<line-break>あなたのせいででヴァンちゃんはあああ！！<line-break>　<line-break>あんなにいい子だったのに…！<line-break>ヴァンちゃんがかわいそうよおお！<line-break>どうしてえええ？　あんないい子があああ！<end>"
+EN: "Aaaaaah, Van! Waaaaah! Because of you, Van...! He was such a good boy...! Poor Van! Whyyyy? Why such a good boy...?<end>"
+KO: "아아아아, 반 짱! 아이고 아이고! 당신 때문에 반 짱이이이!! 그렇게 착한 아이였는데…! 반 짱이 너무 불쌍해애애! 어째서어어? 그렇게 착한 아이가아아!<end>"
+
+## 450086
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3うちのヴァンちゃんは本当にいい子。<line-break>ママの誇りだわ。<line-break>　<line-break>あんたたちみたいな厄介者を見てると<line-break>ホント、それを実感できるわ。<line-break>オホホホホホホ！<end>うちのヴァンちゃんが、最近<line-break>つまらないダジャレを言うようになったのよ。<line-break>　<line-break>このままでは、あなたたちみたいな<line-break>鼻つまみ者になってしまうわ。<line-break>いったいどうしたら…。<end>うちのヴァンちゃんが、最近<line-break>口ごたえをするのよ。<line-break>　<line-break>あなたたちの悪影響ね。<line-break>もう、ヴァンちゃんとつきあわないで<line-break>ヴァンちゃんが不良になるわ。<end>"
+EN: "<select><value:$20>%3Van's such a good boy. Mama's so proud of him. Looking at troublemakers like you really makes me realize it. Ohohohohohoho!<end>Recently, Van's started telling terrible puns. At this rate, he'll turn into an outcast like you. What am I to do...?<end>Recently, Van's started talking back to me. That's your bad influence. Stop associating with Van, or he'll turn into a delinquent.<end>"
+KO: "<select><value:$20>%3우리 반은 정말 착한 아이야. 엄마의 자랑이지. 너희 같은 골칫덩이를 보면 정말 그걸 실감한다니까. 오호호호호호!<end>우리 반이 요즘 시시한 말장난을 하기 시작했어. 이러다 너희 같은 골칫덩이가 되고 말겠어. 대체 어떻게 해야….<end>우리 반이 요즘 말대꾸를 해. 너희의 나쁜 영향이야. 이제 반이랑 어울리지 마. 반이 불량해지겠어.<end>"
+
+## 450087
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああああ、ヴァンちゃん！　オイオイオイ！<line-break>どうしてママを置いて死んじゃったのよお！<line-break>　<line-break>あんなにいい子だったのに…！<line-break>ヴァンちゃんがかわいそうよおお！<line-break>どうしてえええ？　あんないい子があああ！<end>"
+EN: "Aaaaaah, Van! Waaaaah! Why did you have to die and leave Mama behind? You were such a good boy...! Poor Van! Whyyyy? Why did it have to happen to such a good boy?<end>"
+KO: "아아아아, 반 짱! 아이고 아이고! 왜 엄마를 두고 죽어 버린 거야아! 그렇게 착한 아이였는데…! 반 짱이 너무 불쌍해애애! 어째서어어? 그렇게 착한 아이가아아!<end>"
+
+## 450088
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "うちのヴァンちゃんは本当にいい子。<line-break>ママの誇りだわ。<line-break>　<line-break>あんたたちみたいな冒険者を見てると<line-break>ホント、それを実感できるわ。<line-break>オホホホホホホ！<end>"
+EN: "My Van is such a good boy. Mama is so proud of him. Looking at adventurers like you really brings home just how wonderful he is. Ohohohohohoho!<end>"
+KO: "우리 반은 정말 착한 아이야. 엄마의 자랑이지. 너희 같은 모험자를 보면 그걸 정말 실감해. 오호호호호!<end>"
+
+## 450089
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ナッジ…よくも、よくも、<line-break>私たちの前に顔が出せたもんだな！<line-break>　<line-break>お前のせいでヴァンは！<end>"
+EN: "Nadge... How dare you... How dare you show your face to us! Because of you, Van...!<end>"
+KO: "나지… 어떻게, 어떻게 우리 앞에 얼굴을 내밀 수 있지! 너 때문에 반은!<end>"
+
+## 450090
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンに…<line-break>一目だけ会わせてください。<end>"
+EN: "Please... just let me see Van. Just once.<end>"
+KO: "반을…한 번만 만나게 해 주세요.<end>"
+
+## 450091
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "出て行け！<line-break>二度とこの町に姿を見せるんじゃない！<end>"
+EN: "Get out! Don't ever show your face in this town again!<end>"
+KO: "나가! 두 번 다시 이 마을에 모습을 보이지 마!<end>"
+
+## 450092
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ナッジ、お前の仲間か？　　　<line-break>　<line-break>　<line-break>ふん！　いきなり現れて、<line-break>人に襲いかかろうとするなんて<line-break>まるで、野盗だな。<end>"
+EN: "Nadge, is this one of your companions? Hmph! Showing up out of nowhere and trying to attack someone... You're no better than a bandit.<end>"
+KO: "나지, 네 동료냐? 흥! 갑자기 나타나 사람을 덮치려 하다니 완전히 도적놈이군.<end>"
+
+## 450093
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "行こう。<value:$28>。<end>"
 EN: "Let's go, <value:$28>.<end>"
-KO: "간다, <value:$28>.<end>"
+KO: "가자. <value:$28>.<end>"
 
-## 400029
-source: translations/korean/messages/msgsec040-part99.toml
+## 450094
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "フ…フフ…我が事…成れり！<end>"
-EN: "Heh... heh heh... My purpose is fulfilled!<end>"
-KO: "후… 후후… 내 뜻… 이루었도다!<end>"
+JP: "気味が悪い！　　　　　　　<end>"
+EN: "You make my skin crawl!<end>"
+KO: "기분 나빠!<end>"
 
-## 400030
-source: translations/korean/messages/msgsec040-part99.toml
+## 450095
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんだと…？<end>"
-EN: "What...?<end>"
-KO: "뭐라고…?<end>"
+JP: "コーンスなんて、さっさと、<line-break>絶滅してしまえばいいんだ。<end>"
+EN: "I wish the Konsu would just hurry up and go extinct.<end>"
+KO: "콘스 따위는 빨리 멸종해 버리면 돼.<end>"
 
-## 400031
-source: translations/korean/messages/msgsec040-part99.toml
+## 450096
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "死より生まれし獅子…槍の主を殺す。<line-break>我らの主は死の獅子に来る…。<line-break>…妖術宰相ゾフォルの予言だ。<end>"
-EN: "The lion born of death shall slay the Lord of the Spear. Our master shall come to the lion of death... So runs the prophecy of Zofor, the Sorcerous Chancellor.<end>"
-KO: "죽음에서 태어난 사자… 창의 주인을 죽인다. 우리의 주인은 죽음의 사자에게 온다…. …요술 재상 조포르의 예언이다.<end>"
+JP: "ごめんね、<value:$28>。<line-break>僕が一緒にいたばかりに…。<end>"
+EN: "I'm sorry, <value:$28>. This is all because I was with you...<end>"
+KO: "미안해, <value:$28>. 내가 같이 있었던 탓에….<end>"
 
-## 400032
-source: translations/korean/messages/msgsec040-part99.toml
+## 450097
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ああ…。<end>"
-EN: "Yes...<end>"
-KO: "아아….<end>"
+JP: "ヴァンのおじさんはちょっと<line-break>思いこみが強いとこがあって、　　　　<line-break>　<line-break>僕がみなしごだったから、<line-break>前から僕のことを目の敵にしてたんだ。<end>"
+EN: "Van's father tends to get ideas stuck in his head. He'd had it in for me for a long time, just because I was an orphan.<end>"
+KO: "반 아저씨는 조금 생각이 지나친 데가 있어. 내가 고아라서 예전부터 나를 눈엣가시로 여겼거든.<end>"
 
-## 400033
-source: translations/korean/messages/msgsec040-part99.toml
+## 450098
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "フフ…奴の予言は…外れぬ。<line-break>　<line-break>　<line-break>疑うならば、エ、エルズの<line-break>巫女エアに確かめてみるが…よい。<line-break>奴は…天地千年を見通す能力がある。<end>"
-EN: "Heh heh... His prophecy will not fail. If you doubt me, ask E-Er, the priestess of Elz. She has the power to see a thousand years across heaven and earth.<end>"
-KO: "후후… 놈의 예언은… 틀리지 않아. 의심한다면 엘즈의 무녀 에아에게 확인해 봐라…. 놈은 천지 천 년을 내다보는 능력이 있다.<end>"
+JP: "だから君までこんなことに　　　　　　<line-break>巻き込んじゃった。<line-break>…本当にごめんね。<end>"
+EN: "And now I've dragged you into this too. I'm so sorry.<end>"
+KO: "그래서 너까지 이런 일에 휘말리게 했어. …정말 미안해.<end>"
 
-## 400034
-source: translations/korean/messages/msgsec040-part99.toml
+## 450099
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "最期の言葉は、それで終わりか？<end>"
-EN: "Are those your final words?<end>"
-KO: "마지막 말은 그걸로 끝인가?<end>"
+JP: "ヴァンのおじさんが<line-break>僕を嫌ってたわけ？　　　　　　<line-break>　<line-break>…みなしごがいると<line-break>町の雰囲気が悪くなるんだって。<end>"
+EN: "Why did Van's father hate me? He said having an orphan around brought down the whole town.<end>"
+KO: "반 아저씨가 나를 싫어했던 거야? …고아가 있으면 마을 분위기가 나빠진대.<end>"
 
-## 400035
-source: translations/korean/messages/msgsec040-part99.toml
+## 450100
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "確かに、聞いた。<end>"
-EN: "I have heard them.<end>"
-KO: "그래, 들었다.<end>"
+JP: "…コーンスだってのも嫌ってた。<line-break>モンスターみたいで<line-break>気味が悪いんだって。<end>"
+EN: "He hated me for being a Konsu, too. Said I was like a monster and gave him the creeps.<end>"
+KO: "…콘스라는 것도 싫어했어. 몬스터 같아서 기분 나쁘다나 봐.<end>"
 
-## 400036
-source: translations/korean/messages/msgsec040-part99.toml
+## 450101
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "あわてるな。<line-break>バルザーの死によって、<line-break>異空間がその姿を保てなくなったのだ。<line-break>今からテレポートで脱出する。<line-break>私の周りに集まれ。<end>"
-EN: "Do not panic. Baltzer's death has left this other realm unable to retain its form. I will teleport us out. Gather around me.<end>"
-KO: "당황하지 마. 발자의 죽음으로 이 이공간이 형태를 유지할 수 없게 된 거다. 지금부터 텔레포트로 탈출한다. 내 주변으로 모여.<end>"
+JP: "ううん、別にいいんだ。　　　　<end>"
+EN: "No, it's all right.<end>"
+KO: "아니, 딱히 괜찮아.<end>"
 
-## 400037
-source: translations/korean/messages/msgsec040-part99.toml
+## 450102
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "リベルダムまで跳ぶ。<line-break>ゆくぞ。<end>"
-EN: "We're teleporting to Liberdam. Here we go.<end>"
-KO: "리벨덤까지 뛰어간다. 가자.<end>"
+JP: "…ヴァンのおじさんだけが<line-break>そう思ってたわけじゃないから。<end>"
+EN: "Van's father wasn't the only one who felt that way.<end>"
+KO: "…반 아저씨만 그렇게 생각한 건 아니니까.<end>"
 
-## 400038
-source: translations/korean/messages/msgsec040-part99.toml
+## 450103
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "…お前の負けだ。<line-break>破壊神の円卓騎士バルザーよ。<line-break>　<line-break>破壊神ウルグ、復活はさせぬ。<end>"
-EN: "You have lost, Baltzer, Knight of the Round Table serving the God of Destruction. I will not allow Ulugh, the God of Destruction, to rise again.<end>"
-KO: "…네 패배다. 파괴신의 원탁기사 발자르여. 파괴신 울그를 부활시키진 않겠다.<end>"
+JP: "人間はね、自分たちと違うものを<line-break>嫌い、恐がるんだよ。<end>"
+EN: "Humans hate and fear anything different from them.<end>"
+KO: "인간은 자신들과 다른 것을 싫어하고 두려워해.<end>"
 
-## 400039
-source: translations/korean/messages/msgsec040-part99.toml
+## 450104
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "さすがだ…、ネメア。<line-break>　<line-break>　<line-break>破壊神の円卓騎士の中でも<line-break>１、２を争う力を持つ我を<line-break>こうもたやすく倒すとは…な…。<end>"
-EN: "Impressive, Nemea... To think you could defeat me so easily, when I am one of the two mightiest Knights of the Round Table serving the God of Destruction...<end>"
-KO: "역시 대단하군… 네메아. 파괴신의 원탁기사 중에서도 손꼽히는 힘을 가진 나를 이렇게 쉽게 쓰러뜨리다니….<end>"
+JP: "ううん、それは仕方ないと思うんだ。<line-break>僕だって、モンスターとか恐いからさ。<line-break>　<line-break>だけど、ヴァンだけは違ったんだよ…。<end>"
+EN: "No, I think that's only natural. I'm afraid of monsters too. But Van was different...<end>"
+KO: "아니, 그건 어쩔 수 없다고 생각해. 나도 몬스터 같은 건 무섭거든. 하지만 반만은 달랐어….<end>"
 
-## 400040
-source: translations/korean/messages/msgsec040-part99.toml
+## 450105
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "再会のあいさつは抜きだ。<line-break>それより、すぐにここを<line-break>出なければならない。<line-break>バルザーの死により、<line-break>ここはまもなく崩壊するだろう。<end>"
-EN: "We can dispense with the reunion greetings. More importantly, we must leave at once. With Baltzer dead, this place will soon collapse.<end>"
-KO: "재회의 인사는 생략하지. 그보다 바로 여기서 나가야 한다. 발자의 죽음으로 이곳은 곧 붕괴할 거다.<end>"
+JP: "…ごめん。　　　　　　　　　　　　<end>"
+EN: "Sorry.<end>"
+KO: "…미안.<end>"
 
-## 400041
-source: translations/korean/messages/msgsec040-part99.toml
+## 450106
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "以前話した闇の気配が<line-break>まだ残っている。<line-break>これで終わりではないな…。<end>"
-EN: "The dark presence I spoke of before still lingers. This is not over...<end>"
-KO: "전에 말했던 어둠의 기운이 아직 남아 있어. 이걸로 끝난 게 아니군….<end>"
+JP: "僕、こういうの、結構<line-break>慣れてたはずなんだけど、なんか…。<end>"
+EN: "I thought I was used to this by now, but... I don't know.<end>"
+KO: "나, 이런 건 꽤 익숙해졌다고 생각했는데, 왠지….<end>"
 
-## 400042
-source: translations/korean/messages/msgsec040-part99.toml
+## 450107
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "むしろ、<line-break>始まりかもしれん。<end>"
-EN: "It may only be the beginning.<end>"
-KO: "오히려 시작일지도 모르지.<end>"
+JP: "グスッ…。<line-break>かっこわるいよね。　　　　　　　<end>"
+EN: "Sniff... Pretty pathetic, huh?<end>"
+KO: "훌쩍…. 멋없지.<end>"
 
-## 400043
-source: translations/korean/messages/msgsec040-part99.toml
+## 450108
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "あわてるな。<line-break>今からテレポートで脱出する。<line-break>私の周りに集まれ。<end>"
-EN: "Do not panic. I will teleport us out now. Gather around me.<end>"
-KO: "서두르지 마라. 지금부터 텔레포트로 탈출한다. 내 주변으로 모여라.<end>"
+JP: "…ごめん…ひとりに、<line-break>してほしいんだ。<end>"
+EN: "Sorry... I want to be alone.<end>"
+KO: "…미안… 혼자 있게해 줬으면 해.<end>"
 
-## 400044
-source: translations/korean/messages/msgsec040-part99.toml
+## 450109
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$01><equal>2すごい…。<line-break>一瞬で、<line-break>リベルダムに着いたわ。 <end><if><value:$01><equal>6すごい…。<line-break>一瞬で、<line-break>リベルダムに着いちゃった。 <end><if><value:$01><equal>19すっごーい！　すごいすごい！<line-break>一瞬で、<line-break>リベルダムに着いちゃったぁ。 <end><if><value:$01><equal>22すごいなぁ！<line-break>一瞬で、<line-break>リベルダムに着いちゃった。 <end><if><value:$01><equal>193すごいです！<line-break>一瞬で、<line-break>リベルダムに着いちゃいました。<end><if><value:$01><equal>191すごいわね。<line-break>一瞬でリベルダムに着いたわ。<end>すごい…。<line-break>一瞬で、<line-break>リベルダムに…。 <end>"
-EN: "<if><value:$01><equal>2Amazing... We reached Liberdam in an instant.<end><if><value:$01><equal>6Amazing... We made it to Liberdam in an instant.<end><if><value:$01><equal>19Wow! Amazing, amazing! We made it all the way to Liberdam in an instant!<end><if><value:$01><equal>22Wow! We made it to Liberdam in an instant.<end><if><value:$01><equal>193That's amazing! We made it to Liberdam in an instant.<end><if><value:$01><equal>191Amazing. We reached Liberdam in an instant.<end>Amazing... In an instant, Liberdam...<end>"
-KO: "<if><value:$01><equal>2대단해…. 한순간에 리벨덤에 도착했어.<end><if><value:$01><equal>6대단해…. 한순간에 리벨덤에 도착해 버렸어.<end><if><value:$01><equal>19대단해애! 대단해 대단해! 한순간에 리벨덤에 도착해 버렸어어.<end><if><value:$01><equal>22대단하다! 한순간에 리벨덤에 도착해 버렸어.<end><if><value:$01><equal>193대단합니다! 한순간에 리벨덤에 도착해 버렸어요.<end><if><value:$01><equal>191대단하네. 한순간에 리벨덤에 도착했어.<end>대단해…. 한순간에 리벨덤에….<end>"
+JP: "おかえり、<value:$28>。<end>"
+EN: "Welcome back, <value:$28>.<end>"
+KO: "어서 와, <value:$28>.<end>"
 
-## 400045
-source: translations/korean/messages/msgsec040-part99.toml
+## 450110
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ネメアさん、<line-break>ありがとうございました！<end>"
-EN: "Thank you, Nemea!<end>"
-KO: "네메아 씨, 감사합니다!<end>"
+JP: "ヴァンのお父さんも<line-break>ヴァンの言うことは聞くみたいでさ。<line-break>　<line-break>最近、この町で、僕に対する<line-break>風当たりが少なくなったよ。…ヴァンに<line-break>会えなくなったのは、さびしいけど。<end>"
+EN: "It seems Van's father listens to what Van says, too. People around town haven't been giving me such a hard time lately. I do miss seeing Van, though.<end>"
+KO: "반의 아버지도 반의 말은 듣는 모양이야. 요즘 이 마을에서 나를 보는 시선도 좀 누그러졌어. …반을 못 만나게 된 건 쓸쓸하지만.<end>"
 
-## 400046
-source: translations/korean/messages/msgsec040-part99.toml
+## 450112
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "こちらこそ。<end>"
-EN: "No, thank you.<end>"
-KO: "나야말로.<end>"
+JP: "ねえ、<value:$28>…。<line-break>ヴァン、…大丈夫だよね。<end>"
+EN: "Hey, <value:$28>... Van's going to be all right, isn't he?<end>"
+KO: "있잖아, <value:$28>…. 반, …괜찮겠지?<end>"
 
-## 400047
-source: translations/korean/messages/msgsec040-part99.toml
+## 450113
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$01><equal>2それじゃ、町を出るときに<line-break>また会いましょ、<value:$28>。 <end><if><value:$01><equal>15それじゃ、<value:$28>。<line-break>また町を出るときに合流しよう。 <end><if><value:$01><equal>19それじゃ、<value:$28>。<line-break>また町を出るときに合流しようね。 <end><if><value:$01><equal>10それじゃ、姉ちゃん。<line-break>また町を出るときに合流しようぜ。 <end><if><value:$01><equal>193そ、それじゃ、失礼します！<line-break>町を出る時にまた！<end><if><value:$01><equal>191それじゃ、<line-break>町を出るときに合流しましょ。<end>"
-EN: "<if><value:$01><equal>2Well then, I'll see you again when we leave town, <value:$28>.<end><if><value:$01><equal>15All right, <value:$28>. We'll regroup when we leave town.<end><if><value:$01><equal>19All right, <value:$28>. We'll meet up again when we leave town, okay?<end><if><value:$01><equal>10All right, sis. We'll meet up again when we leave town.<end><if><value:$01><equal>193W-well then, if you'll excuse me! See you when we leave town!<end><if><value:$01><equal>191Well then, let's regroup when we leave town.<end>"
-KO: "<if><value:$01><equal>2그럼 마을을 나갈 때 다시 만나자, <value:$28>.<end><if><value:$01><equal>15그럼 <value:$28>. 마을을 나갈 때 다시 합류하자.<end><if><value:$01><equal>19그럼 <value:$28>. 마을을 나갈 때 다시 합류하자.<end><if><value:$01><equal>10그럼, 누나. 마을을 나갈 때 다시 합류하자.<end><if><value:$01><equal>193그, 그럼 실례하겠습니다! 마을을 나갈 때 다시 뵙죠!<end><if><value:$01><equal>191그럼 마을을 나갈 때 합류하자.<end>"
+JP: "ようこそ、<value:$28>。<end>"
+EN: "Welcome, <value:$28>.<end>"
+KO: "어서 와, <value:$28>.<end>"
 
-## 400048
-source: translations/korean/messages/msgsec040-part99.toml
+## 450114
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$01><equal>5ホントにリベルダムだぜ。<line-break>…すげえ。 <end>…ここは、…リベルダム。 <end>"
-EN: "<if><value:$01><equal>5It really is Liberdam. That's... incredible.<end>This is... Liberdam.<end>"
-KO: "<if><value:$01><equal>5진짜 리벨덤이야. …대단해.<end>…여긴, …리벨덤.<end>"
+JP: "…ヴァンのお父さんも<line-break>ヴァンの言うことは聞くみたいでさ。<line-break>　<line-break>最近、この町で、僕に対する<line-break>風当たりが少なくなったよ。…ヴァンに<line-break>会えなくなったのは、さびしいけど。<end>"
+EN: "...It seems Van's father listens to what Van says, too. People around town haven't been giving me such a hard time lately. I do miss seeing Van, though.<end>"
+KO: "…반의 아버지도 반 말은 듣는 모양이야. 요즘 이 마을에서 나를 보는 시선이 덜 차가워졌어. …반을 못 만나게 된 건 쓸쓸하지만.<end>"
 
-## 400049
-source: translations/korean/messages/msgsec040-part99.toml
+## 450115
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$01><equal>5あ、あんた、本物の<line-break>勇者ネメアだったんだな！ <end>…さすがだ。 <end>"
-EN: "<if><value:$01><equal>5Y-you really are Nemea the Hero!<end>Impressive...<end>"
-KO: "<if><value:$01><equal>5너, 너 진짜 용자 네메아였구나!<end>…역시 대단해.<end>"
+JP: "最近、ヴァンのお父さんの風当たりが<line-break>強くって、この町にもいづらいけど…<line-break>　<line-break>ボンガさんが、僕のこと<line-break>理解してもらえるように、町のみんなを<line-break>説得してくれてるから…大丈夫だよ。<end>"
+EN: "Van's father has been making things hard for me lately, so it's getting difficult to stay in this town... But Bonga is trying to convince everyone to accept me, so I'll be all right.<end>"
+KO: "요즘 반 아버지가 너무 차갑게 굴어서 이 마을에 있기도 힘들지만… 봉가 씨가 나를 이해해 달라고 마을 사람들을 설득해 주고 있으니까… 괜찮아.<end>"
 
-## 400050
-source: translations/korean/messages/msgsec040-part99.toml
+## 450116
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "<if><value:$01><equal>5…お、俺、いつか、あんたを<line-break>越えてやるぜ！<line-break>　<line-break>んじゃ、俺はちょっと町を見てくる。<line-break>町を出るときに<line-break>また会おうぜ、<value:$28>！ <end><if><value:$01><equal>14<value:$28>、<line-break>また町を出るときに合流じゃ。 <end>…先に行く。 <end>"
-EN: "<if><value:$01><equal>5I-I'll surpass you one day! Well, I'm going to look around town for a bit. See you again when we leave, <value:$28>!<end><if><value:$01><equal>14We'll regroup when we leave town, <value:$28>.<end>I'll go on ahead.<end>"
-KO: "<if><value:$01><equal>5…나, 언젠가 널 넘어설 거야! 그럼 난 잠깐 도시를 둘러보고 올게. 도시를 나설 때 다시 만나자, <value:$28>!<end><if><value:$01><equal>14<value:$28>, 도시를 나설 때 다시 합류하자.<end>…먼저 간다.<end>"
+JP: "ねえ、<value:$28><line-break>今晩、泊まっていくのかい？<end>"
+EN: "Hey, <value:$28>, are you staying the night?<end>"
+KO: "있잖아, <value:$28>. 오늘 밤 묵고 갈 거야?<end>"
 
-## 400051
-source: translations/korean/messages/msgsec040-part99.toml
+## 450117
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: ""
-KO: "빈칸<end>"
+JP: "泊まっていく<end>"
+EN: "Stay the night<end>"
+KO: "묵고 간다<end>"
 
-## 400052
-source: translations/korean/messages/msgsec040-part99.toml
+## 450118
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ホントにリベルダムだわ…。<line-break>これって、すごいかも！<end>"
-EN: "It really is Liberdam... This might actually be amazing!<end>"
-KO: "정말 리벨덤이네…. 이거, 대단할지도!<end>"
+JP: "泊まっていかない<end>"
+EN: "Don't stay the night<end>"
+KO: "묵고 가지 않는다<end>"
 
-## 400053
-source: translations/korean/messages/msgsec040-part99.toml
+## 450119
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ネメア様、今日は<line-break>ホントに楽しかったです！<end>"
-EN: "Lord Nemea, I had such a wonderful time today!<end>"
-KO: "네메아 님, 오늘 정말 즐거웠어요!<end>"
+JP: "そう、じゃ、ゆっくりしていきなよ。<line-break><value:$28>。<end>"
+EN: "All right, then. Make yourself at home, <value:$28>.<end>"
+KO: "그래, 그럼 천천히 쉬다 가. <value:$28>.<end>"
 
-## 400054
-source: translations/korean/messages/msgsec040-part99.toml
+## 450120
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "…楽しかった？<end>"
-EN: "A wonderful time?<end>"
-KO: "…즐거웠어?<end>"
+JP: "おはよう、<value:$28>。<end>"
+EN: "Good morning, <value:$28>.<end>"
+KO: "좋은 아침, <value:$28>.<end>"
 
-## 400055
-source: translations/korean/messages/msgsec040-part99.toml
+## 450121
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ネメア様、あんまり<line-break>喜んでおられないみたいだわ…。<line-break>ま、いいか。ずらかろっと！<end>"
-EN: "Lord Nemea doesn't seem very pleased... Oh well. Time to clear out!<end>"
-KO: "네메아 님, 별로 기뻐하시는 것 같지 않네…. 뭐, 됐나. 튀자!<end>"
+JP: "そう。<line-break>あんまり無理はしないでね。<end>"
+EN: "All right. Just don't push yourself too hard, okay?<end>"
+KO: "그래. 너무 무리하지는 마.<end>"
 
-## 400056
-source: translations/korean/messages/msgsec040-part99.toml
+## 450122
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "それじゃ、私、町を見てくるわ<line-break>じゃあね、<value:$28>！<end>"
-EN: "I'm going to have a look around town. See you, <value:$28>!<end>"
-KO: "그럼 나, 마을 좀 둘러보고 올게. 안녕, <value:$28>!<end>"
+JP: "それで、ねえ、<value:$28>。<line-break>僕も一緒に旅がしたいんだけど…。<end>"
+EN: "Oh, and <value:$28>... I'd like to travel with you, too.<end>"
+KO: "그래서 말인데, <value:$28>. 나도 같이 여행하고 싶어….<end>"
 
-## 400057
-source: translations/korean/messages/msgsec040-part99.toml
+## 450123
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "あ、<value:$28>様でありますか。<line-break>アンギルダン将軍から承っております！<line-break>　<line-break>ただ、将軍は極秘視察で<line-break>１ケ月は戻ってこられません。<line-break>しばらくしてからまたお越しください。<end>"
-EN: "Ah, would you be <value:$28>? We've received word from General Angeerdan! However, the general is away on a secret inspection and won't return for at least a month. Please come back later.<end>"
-KO: "아, <value:$28> 님이십니까. 앙길단 장군님께 말씀 들었습니다! 다만 장군님은 극비 시찰로 한 달은 돌아오지 않으십니다. 한동안 뒤에 다시 와 주십시오.<end>"
+JP: "ナッジを仲間に入れる<end>"
+EN: "Let Nadge join the party<end>"
+KO: "나지를 동료로 넣는다<end>"
 
-## 400058
-source: translations/korean/messages/msgsec040-part99.toml
+## 450124
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "傭兵志願者か。<line-break>担当は将軍とともに出ていて<line-break>１ケ月は政庁に戻ってこない。　　　　　　<line-break>ひと月以上たってから来るといい。<line-break>その間に強くなっておくことだ。<line-break>戦場で最後に頼れるのは自分の腕だからな。<end>"
-EN: "Here to enlist as a mercenary? The person in charge left with the general and won't be back at the government offices for a month. Come back once the month is up. Use the time to hone your skills. On the battlefield, your own ability is all you can rely on in the end.<end>"
-KO: "용병 지원자인가. 담당자는 장군과 함께 나가서 한 달은 관청으로 돌아오지 않는다. 한 달 이상 지난 뒤에 다시 오도록 해. 그동안 강해져 두는 게 좋을 거다. 전장에서 마지막으로 믿을 수 있는 건 자기 실력이니까.<end>"
+JP: "今のメンバーで旅を続ける<end>"
+EN: "Continue with the current party<end>"
+KO: "현재 멤버로 여행을 계속한다<end>"
 
-## 400059
-source: translations/korean/messages/msgsec040-part99.toml
+## 450125
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "あ、<value:$28>様でありますか。<line-break>アンギルダン将軍は出撃の準備に忙しく、<line-break>政庁においでではありません。<line-break>…これは極秘情報でありますが、<line-break>出撃はあと半月以上先になりそうです。<line-break>しばらくしてからまたお越しください。<end>"
-EN: "Ah, would you be <value:$28>? General Angeerdan is busy preparing to deploy and is not at the government offices. This is highly confidential, but it appears the deployment is still more than half a month away. Please come back later.<end>"
-KO: "아, <value:$28> 님이십니까. 앙길단 장군은 출격 준비로 바빠 정청에 계시지 않습니다. 극비 정보입니다만 출격은 아직 보름 이상 남은 듯합니다. 조금 뒤에 다시 와 주십시오.<end>"
+JP: "それじゃ、僕、がんばるよ。<end>"
+EN: "All right, then. I'll do my best.<end>"
+KO: "그럼 나, 열심히 해볼게.<end>"
 
-## 400060
-source: translations/korean/messages/msgsec040-part99.toml
+## 450126
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "傭兵志願者か。<line-break>担当は将軍とともに出ていて　　<line-break>半月は政庁に戻ってこない。<line-break>半月以上たってから来るといい。<line-break>その間に強くなっておくことだ。<line-break>帝国は武を尊ぶのだ。<end>"
-EN: "Here to enlist as a mercenary? The person in charge left with the general and won't be back at the government offices for half a month. Come back once half a month has passed. Use the time to hone your skills. The Empire prizes martial prowess.<end>"
-KO: "용병 지원자인가. 담당자는 장군과 함께 나가서 보름은 정청에 돌아오지 않는다. 보름 이상 지난 뒤 다시 오도록 해라. 그동안 강해져 있어라. 제국은 무를 숭상한다.<end>"
+JP: "じゃあ今回は見送ることにするよ。<end>"
+EN: "Then I'll sit this one out.<end>"
+KO: "그럼 이번엔 보류할게.<end>"
 
-## 400061
-source: translations/korean/messages/msgsec040-part99.toml
+## 450127
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "へっへっへ！<line-break>コーンスのひとり旅は危ないよ？<line-break>坊ちゃん。<end>"
+EN: "Heh heh heh! It's dangerous for a Konsu to travel alone, young master.<end>"
+KO: "헤헤헤! 콘스가 혼자 여행하면 위험하지? 도련님.<end>"
 
-## 400062
-source: translations/korean/messages/msgsec040-part99.toml
+## 450128
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "もっとも、数が少ないから<line-break>群れをなすこともできないか？<line-break>　<end>"
+EN: "Though I suppose there aren't enough of you left to form a herd.<end>"
+KO: "하지만 수가 적으니 무리를 이루는 것도 못 하나?<end>"
 
-## 400063
-source: translations/korean/messages/msgsec040-part99.toml
+## 450129
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "コーンスだって人間と同じなんだ。<line-break>群れなんて言わないでよ！<line-break>　<end>"
+EN: "Konsu are just like humans! Don't call it a herd!<end>"
+KO: "콘스도 인간과 똑같아. 무리 같은 말 하지 마!<end>"
 
-## 400064
-source: translations/korean/messages/msgsec040-part99.toml
+## 450130
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "へっへっへ、そりゃ悪かった。<line-break>まぁ、こっちにとっては<line-break>ひとりの方が都合がいいがな。<end>"
+EN: "Heh heh heh. My mistake. Still, being alone makes things easier for us.<end>"
+KO: "헤헤헤, 그건 미안했군. 뭐, 우리 쪽에선 혼자인 편이 더 편하지만 말이야.<end>"
 
-## 400065
-source: translations/korean/messages/msgsec040-part99.toml
+## 450131
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "コーンスの坊ちゃん、<line-break>俺たちはあんたの角に用があるんだ。<line-break>　<end>"
+EN: "Listen, Konsu lad, we're here for your horn.<end>"
+KO: "콘스 도련님, 우린 네 뿔에 볼일이 있어.<end>"
 
-## 400066
-source: translations/korean/messages/msgsec040-part99.toml
+## 450132
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "最近はコーンスの数が減って、<line-break>角もえらく貴重品になってるからな。<end>"
+EN: "There aren't many Konsu left these days, so their horns have become mighty valuable.<end>"
+KO: "요즘은 콘스 수가 줄어서 뿔도 아주 귀해졌거든.<end>"
 
-## 400067
-source: translations/korean/messages/msgsec040-part99.toml
+## 450133
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "おそらく、円卓騎士バルザー。<line-break>破壊神に仕える屈強の魔人のものだ。<end>"
-EN: "Most likely, it's Baltzer's. He's a Knight of the Round Table, a mighty demon who serves the God of Destruction.<end>"
-KO: "아마 원탁기사 발자르. 파괴신을 섬기는 강인한 마인의 것일 거다.<end>"
+JP: "しかもリベルダムのアンティノが<line-break>最近大量に欲しがってる。<line-break>がっぽり稼げるのは間違いない。<end>"
+EN: "And lately, Antino of Liberdam has been after them in bulk. We're sure to make a fortune.<end>"
+KO: "게다가 리벨덤의 안티노가 요즘 대량으로 원하고 있어. 크게 벌 수 있는 건 틀림없어.<end>"
 
-## 400068
-source: translations/korean/messages/msgsec040-part99.toml
+## 450134
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "あ、<value:$28>様でありますか。<line-break>アンギルダン将軍は出撃の準備に忙しく、<line-break>政庁においでではありません。<line-break>…これは極秘情報でありますが、<line-break>いよいよのようであります！<line-break>半月以内には出撃の用意が整うとか…。<end>"
-EN: "Ah, would you be <value:$28>? General Angeerdan is busy preparing to deploy and is not at the government offices. This is highly confidential, but it looks as though the time is almost here! I've heard the preparations will be complete within half a month...<end>"
-KO: "아, <value:$28>님이십니까. 앙길단 장군은 출격 준비로 바빠 정청에 계시지 않습니다. …이건 극비 정보입니다만, 드디어 때가 온 모양입니다! 보름 안에는 출격 준비가 갖춰진다고….<end>"
+JP: "というわけだ。<line-break>さ、角をよこしてくれ。<end>"
+EN: "So there you have it. Now hand over that horn.<end>"
+KO: "그런 거다. 자, 뿔을 내놔.<end>"
 
-## 400069
-source: translations/korean/messages/msgsec040-part99.toml
+## 450135
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "傭兵志願者か。<line-break>担当は出ている。また来てくれ。　　　<line-break>だが、いよいよ出番らしいぞ。<line-break>あまり遠出はするなよ。<line-break>護衛も考えて引き受けることだ。<line-break>護衛を連れて戦場には出られんからな。<end>"
-EN: "Here to enlist as a mercenary? The person in charge is out. Come back later. Still, it sounds like it's almost time for you to see action. Don't travel too far, and think carefully before accepting escort work. You can't take someone you're escorting onto the battlefield.<end>"
-KO: "용병 지원자인가. 담당자는 나가 있다. 다시 와라. 하지만 이제 곧 출전할 모양이군. 너무 멀리 나가진 마. 호위도 생각해서 의뢰를 맡도록 해. 호위를 데리고 전장에는 나갈 수 없으니까.<end>"
+JP: "できるわけないじゃないか！<line-break>コーンスは角を折られたら、<line-break>ショック死しちゃうんだよ！？<end>"
+EN: "Of course not! A Konsu will die of shock if you break off the horn!<end>"
+KO: "될 리가 없잖아! 콘스는 뿔이 부러지면 쇼크사한다고!?<end>"
 
-## 400070
-source: translations/korean/messages/msgsec040-part99.toml
+## 450136
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "傭兵志願者か。<line-break>今のところ用はない。<line-break>ま、半月ぐらいあとにまた顔を出せ。<line-break>…しかし、傭兵など必要あるのか？<line-break>まったく、ファーロスのドラ息子様の<line-break>考えることはわからん。<end>"
-EN: "Looking to sign on as a mercenary? We don't need anyone at the moment. Come back in about a fortnight. Though why we need mercenaries at all is beyond me. Damned if I know what that precious wastrel son of Pharos's is thinking.<end>"
-KO: "용병 지원자인가. 지금은 필요 없다. 보름쯤 뒤에 다시 와. …그런데 용병이 정말 필요한 건가? 파로스의 망나니 아드님 생각은 도통 모르겠군.<end>"
+JP: "そんなのはそっちの勝手だ。<line-break>こっちの知ったことじゃないぜ！<end>"
+EN: "That's your problem. We don't give a damn!<end>"
+KO: "그건 너희 사정이지. 우리가 알 바 아니야!<end>"
 
-## 400071
-source: translations/korean/messages/msgsec040-part99.toml
+## 450137
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "これはノーブル伯。<line-break>なにやらお屋敷の方がお探しでした。<line-break>レムオン様のお屋敷に戻られては？<end>"
-EN: "Why, if it isn't the Count of Noble. Someone from the estate was looking for you. Perhaps you should return to Lord Lemghon's estate?<end>"
-KO: "노블 백작님. 저택 쪽에서 찾고 계시던데요. 레무온 님의 저택으로 돌아가 보시는 게 어떻습니까?<end>"
+JP: "金のためなら、なんでもする、<line-break>それが俺たち冒険者だ！<end>"
+EN: "We'll do anything for money. That's what adventurers do!<end>"
+KO: "돈을 위해서라면 뭐든 한다. 그게 우리 모험자다!<end>"
 
-## 400072
-source: translations/korean/messages/msgsec040-part99.toml
+## 450138
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "待て。<end>"
+EN: "Wait.<end>"
+KO: "기다려.<end>"
 
-## 400073
-source: translations/korean/messages/msgsec040-part99.toml
+## 450139
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "こ、こいつは。<end>"
+EN: "Y-you're...<end>"
+KO: "이, 이 녀석은.<end>"
 
-## 400074
-source: translations/korean/messages/msgsec040-part99.toml
+## 450140
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: "Empty<end>"
-KO: "빈칸<end>"
+JP: "ネ、ネメア！？<end>"
+EN: "N-Nemea?!<end>"
+KO: "네, 네메아!?<end>"
 
-## 400075
-source: translations/korean/messages/msgsec040-part99.toml
+## 450141
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: ""
-KO: "빈칸<end>"
+JP: "その少年から角を取って売るより、<line-break>私を倒して、ディンガルの皇帝に<line-break>差し出した方が金になるぞ。<end>"
+EN: "You'd make more money by defeating me and handing me over to the Emperor of Dyneskal than by taking that boy's horn and selling it.<end>"
+KO: "그 소년에게서 뿔을 떼어 팔기보다 나를 쓰러뜨려 딘갈 황제에게 바치는 편이 돈이 더 될 거다.<end>"
 
-## 400076
-source: translations/korean/messages/msgsec040-part99.toml
+## 450142
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: ""
-KO: "빈칸<end>"
+JP: "あなたたちの間では<line-break>私みたいなダークエルフの命にも<line-break>結構な賞金がかかってるんでしょう？<line-break>金のためならなんでもするのが<line-break>冒険者なら、挑戦してみない？<end>"
+EN: "There's quite a bounty among your people on the life of a Dark Elf like me too, isn't there? If adventurers will do anything for money, why not challenge me?<end>"
+KO: "너희 사이에서는 나 같은 다크엘프 목숨에도 꽤 큰 현상금이 걸려 있겠지? 돈을 위해 뭐든 하는 게 모험자라면 도전해 볼래?<end>"
 
-## 400077
-source: translations/korean/messages/msgsec040-part99.toml
+## 450143
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "こちらこそ。<end>"
-EN: "No, thank you.<end>"
-KO: "나야말로.<end>"
+JP: "ひ、ひいいい！<end>"
+EN: "Eeeek!<end>"
+KO: "히, 히이이익!<end>"
 
-## 400078
-source: translations/korean/messages/msgsec040-part99.toml
+## 450144
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: ""
-KO: "빈칸<end>"
+JP: "く、ずらかれ！<end>"
+EN: "R-run for it!<end>"
+KO: "튀, 튀어!<end>"
 
-## 400079
-source: translations/korean/messages/msgsec040-part99.toml
+## 450145
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ホントにリベルダムだわ…。<end>"
-EN: "It really is Liberdam...<end>"
-KO: "정말 리벨덤이네….<end>"
+JP: "…私に挑む者のほうがまれか。<end>"
+EN: "It seems few are willing to challenge me.<end>"
+KO: "…나에게 도전하는 자가 드문 건가.<end>"
 
-## 400081
-source: translations/korean/messages/msgsec040-part99.toml
+## 450146
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "アナタがお礼を言うのよ！<end>"
-EN: "You're the one who should be saying thank you!<end>"
-KO: "당신이 감사하다고 해야지!<end>"
+JP: "大丈夫か？<end>"
+EN: "Are you all right?<end>"
+KO: "괜찮아?<end>"
 
-## 400082
-source: translations/korean/messages/msgsec040-part99.toml
+## 450147
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "高貴なエルフが人間なんかに<line-break>頭下げていいはずないでしょ！<end>"
-EN: "A noble Elf can't possibly bow to a mere human!<end>"
-KO: "고귀한 엘프가 인간 따위에게 고개를 숙여선 안 되잖아!<end>"
+JP: "あ、はい。<end>"
+EN: "Uh, yes.<end>"
+KO: "아, 네.<end>"
 
-## 400083
-source: translations/korean/messages/msgsec040-part99.toml
+## 450148
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "こちらこそ。<end>"
-EN: "No, thank you.<end>"
-KO: "나야말로.<end>"
+JP: "哀しい目だな…。<line-break>復讐のための旅か？<end>"
+EN: "There is sorrow in your eyes. Are you traveling for revenge?<end>"
+KO: "슬픈 눈이군…. 복수를 위한 여행인가?<end>"
 
-## 400084
-source: translations/korean/messages/msgsec040-part99.toml
+## 450149
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "そ、それじゃ、また町を出るときに<line-break>合流するわ！<end>"
-EN: "W-well, I'll regroup with you when we leave town!<end>"
-KO: "그, 그럼 다시 마을을 나갈 때 합류할게!<end>"
+JP: "…はい…。<line-break>おっしゃりたいことはわかります。　<line-break>だけど…。<line-break>僕、くやしいんです。<line-break>僕の力が足りなかったせいで…<line-break>大切な友達が傷ついてしまって…。<end>"
+EN: "Yes... I know what you're going to say. But... I'm so frustrated. A dear friend was hurt because I wasn't strong enough...<end>"
+KO: "…네…. 무슨 말씀을 하고 싶으신지는 알아요. 하지만…. 저, 분해요. 제 힘이 부족해서… 소중한 친구가 다쳐 버려서….<end>"
 
-## 400085
-source: translations/korean/messages/msgsec040-part99.toml
+## 450150
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ここでお別れだな。<line-break>また会おう、<value:$28>。<end>"
-EN: "This is where we part ways. Until we meet again, <value:$28>.<end>"
-KO: "여기서 헤어지는군. 또 만나자, <value:$28>.<end>"
+JP: "そうか。<line-break>ならば、力を求めるとよい。<end>"
+EN: "Then seek strength.<end>"
+KO: "그렇군. 그렇다면 힘을 구하는 게 좋겠어.<end>"
 
-## 400086
-source: translations/korean/messages/msgsec040-part99.toml
+## 450151
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: ""
-KO: "빈칸<end>"
+JP: "え！？　力を求めることを<line-break>いいことだって言うんですか？<line-break>復讐のためなんですよ？<end>"
+EN: "What?! You're saying it's good to seek strength? Even when it's for revenge?<end>"
+KO: "어!? 힘을 추구하는 게 좋은 일이라고요? 복수를 위해서인데요?<end>"
 
-## 400087
-source: translations/korean/messages/msgsec040-part99.toml
+## 450152
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "空<end>"
-EN: ""
-KO: "빈칸<end>"
+JP: "復讐を果たしたときにどうするのか。<line-break>復讐したあとにどうするのか。<line-break>　<line-break>力を求めていく過程で<line-break>それを見極めるのだな。<end>"
+EN: "Decide what you will do when you take your revenge, and what you will do afterward. You must work that out as you seek strength.<end>"
+KO: "복수를 이루었을 때 무엇을 할지, 복수한 뒤 무엇을 할지. 힘을 추구하는 과정에서 그걸 알아내야겠지.<end>"
 
-## 400088
-source: translations/korean/messages/msgsec040-part99.toml
+## 450153
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ネメア様。<line-break>これはやはり…。<end>"
-EN: "Lord Nemea. Then this does mean...<end>"
-KO: "네메아 님. 이건 역시….<end>"
+JP: "僕…。<end>"
+EN: "I...<end>"
+KO: "나….<end>"
 
-## 400089
-source: translations/korean/messages/msgsec040-part99.toml
+## 450154
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "決定的ですね。<end>"
-EN: "That confirms it.<end>"
-KO: "결정적이네요.<end>"
+JP: "…そうだね。<line-break>ネメアさんの言ってたこと<line-break>しっかり受けとめないと。<end>"
+EN: "Yeah... I need to really take what Nemea said to heart.<end>"
+KO: "…그래. 네메아가 말한 걸 제대로 받아들여야겠어.<end>"
 
-## 400090
-source: translations/korean/messages/msgsec040-part99.toml
+## 450155
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ん？　なんだと？<end>"
-EN: "Hm? What did you say?<end>"
-KO: "응? 뭐라고?<end>"
+JP: "なんだと、宿屋の主人！<line-break>この俺様を泊める部屋がないだと！？<line-break>なってない！　基本がなってないぞ！！<end>"
+EN: "What was that, innkeeper? You mean you have no room for me?! Outrageous! You haven't even mastered the basics!<end>"
+KO: "뭐라고, 여관 주인! 이 나님이 묵을 방이 없다고!? 기본이 안 됐어! 기본이 안 됐다고!!<end>"
 
-## 400091
-source: translations/korean/messages/msgsec040-part99.toml
+## 450156
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "残念だ、エリュマルクよ。<end>"
-EN: "What a pity, Elmark.<end>"
-KO: "유감이군, 에류마르크.<end>"
+JP: "…あっ！　お客様！<line-break>勝手にあがられては困ります！<end>"
+EN: "Ah! Sir! You can't just go in there without permission!<end>"
+KO: "아! 손님! 멋대로 들어오시면 곤란합니다!<end>"
 
-## 400092
-source: translations/korean/messages/msgsec040-part99.toml
+## 450157
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ぐ…ぐほっ！<line-break>ネ、ネメ…ア…！<end>"
-EN: "G-gh... N-Ne...mea...!<end>"
-KO: "크… 커헉! 네, 네메…아…!<end>"
+JP: "すべて承知したぞ、宿屋の主人！<line-break>あとは俺様に任せろ！<line-break>　<end>"
+EN: "I understand the situation perfectly, innkeeper! Leave the rest to me!<end>"
+KO: "모두 알겠다, 여관 주인! 나머지는 내게 맡겨라!<end>"
 
-## 400093
-source: translations/korean/messages/msgsec040-part99.toml
+## 450158
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "お前が闇に取り憑かれたことに<line-break>気づけなかった私を許せ…。<end>"
-EN: "Forgive me for failing to see that the darkness had possessed you...<end>"
-KO: "네가 어둠에 홀린 걸 알아채지 못한 나를 용서해라….<end>"
+JP: "知らず知らずとはいえ、未来の勇者の<line-break>束の間の休息を奪う不心得者に<line-break>道理を説いて即刻退室してもらう！<end>"
+EN: "These thoughtless fools may not have known, but they've deprived a future hero of a brief respite! I'll make them see reason and leave the room at once!<end>"
+KO: "몰랐다 해도 미래의 용사가 잠시 쉬는 시간을 빼앗는 몰지각한 자에게 도리를 가르쳐 즉시 퇴실시키겠다!<end>"
 
-## 400094
-source: translations/korean/messages/msgsec040-part99.toml
+## 450159
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ぐ！　お、おのれぇぇ！<line-break>ネメアぁぁぁぁぁ！<end>"
-EN: "Gah! Y-you wretch! Nemeaaaa!<end>"
-KO: "큭! 이, 이놈! 네메아아아아!<end>"
+JP: "さあ、不用意な先客ども！　<line-break>俺様は未来の勇者ガルドランだ！<line-break>温かい寝床を俺様に差し出すがいい！<end>"
+EN: "Now then, you careless guests! I am Girldlan, the future hero! Hand over that warm bed to me!<end>"
+KO: "자, 부주의한 선객들이여! 나님은 미래의 용사 갈드란이다! 따뜻한 잠자리를 나님에게 내놓아라!<end>"
 
-## 400095
-source: translations/korean/messages/msgsec040-part99.toml
+## 450160
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "運命にあらがうため。<line-break>以前から、それがネメア様の答えと、<line-break>エリュマルク帝から聞いておりました。<end>"
-EN: "“To defy fate.” Emperor Elmark told me some time ago that this was Lord Nemea's answer.<end>"
-KO: "운명에 맞서기 위해서. 예전부터 그것이 네메아 님의 답이라고 에류마르크 황제에게 들었습니다.<end>"
+JP: "ガ、ガルドラン！？<end>"
+EN: "G-Girldlan?!<end>"
+KO: "가, 갈드란!?<end>"
 
-## 400096
-source: translations/korean/messages/msgsec040-part99.toml
+## 450161
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "私も同様です。<line-break>しかし、まさか、<line-break>闇の力がこんなところにまで…。<end>"
-EN: "I was told the same. But I never imagined the power of darkness had reached even here...<end>"
-KO: "저도 마찬가지입니다. 하지만 설마 어둠의 힘이 이런 곳까지….<end>"
+JP: "ほう、俺様の名前をドモりながら叫ぶ！<line-break>そんな君は、俺様のファンだな！<end>"
+EN: "Oh? You shout my name and stammer over it! You must be a fan of mine!<end>"
+KO: "호오, 내 이름을 더듬으면서 외치다니! 그런 너는 내 팬이구나!<end>"
 
-## 400097
-source: translations/korean/messages/msgsec040-part99.toml
+## 450162
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "もはや事態は一刻を争うようだな。<line-break>ベルゼーヴァ、用意は整っているな。<end>"
-EN: "It seems there is no longer a moment to lose. Beelzeva, everything is ready, I trust.<end>"
-KO: "이제 상황은 한시가 급한 모양이군. 벨제바, 준비는 됐겠지.<end>"
+JP: "違う！　テラネのナッジだ！<line-break>忘れたとは言わせないぞ。<end>"
+EN: "No! I'm Nadge, from Terane! Don't tell me you've forgotten!<end>"
+KO: "아니야! 테라네의 나지다! 잊었다고는 못 하게 할 거야.<end>"
 
-## 400098
-source: translations/korean/messages/msgsec040-part99.toml
+## 450163
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "は。もちろんです。<end>"
-EN: "Yes. Of course.<end>"
-KO: "네. 물론입니다.<end>"
+JP: "ふぅ…。時々いるのだ…。<line-break>偉大なる俺様の知り合いだと<line-break>名乗る輩が…。<line-break>これも熱狂的ファン心理という奴か！<line-break>困った奴！　末恐ろしい奴！！<line-break>しかし、ウソはいかん！　ウソは！<end>"
+EN: "I get this from time to time... People claiming to know my illustrious self. Is this what they call the psychology of an obsessive fan? What a nuisance! Frightening to think what might become of someone like that! But lying is wrong! Lying!<end>"
+KO: "후우…. 가끔 있지…. 위대한 나와 아는 사이라고 떠드는 녀석이…. 이것도 열광적인 팬심이라는 건가! 곤란한 녀석! 앞날이 무서운 녀석!! 하지만 거짓말은 안 돼! 거짓말은!<end>"
 
-## 400099
-source: translations/korean/messages/msgsec040-part99.toml
+## 450164
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "なぜそれほど<line-break>闇の神器を欲しがるのだ？<end>"
-EN: "Why do you want the Dark Artifact so badly?<end>"
-KO: "왜 그렇게까지 어둠의 신기를 원하는 거지?<end>"
+JP: "俺様のファンといえども、<line-break>将来的に人様に迷惑をかけかねん奴には<line-break>きつ～いお灸をすえてやる！<end>"
+EN: "Fan of mine or not, anyone who might cause trouble for others in the future is in for a very painful lesson!<end>"
+KO: "나님의 팬이라 해도 앞으로 남에게 폐를 끼칠 수 있는 녀석에겐 따끔~한 벌을 내려 주마!<end>"
 
-## 400100
-source: translations/korean/messages/msgsec040-part99.toml
+## 450165
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "あなたには関係ないわ。<line-break>ネメア様が必要としている。<line-break>だから、私たちは手に入れに来たの。<end>"
-EN: "That's none of your concern. Lord Nemea needs it, so we've come to claim it.<end>"
-KO: "당신과는 상관없어. 네메아 님에게 필요해. 그래서 우리가 손에 넣으러 온 거야.<end>"
+JP: "ば、バカな。この俺様が敗れるのか？<line-break>いや！　俺様はすぐに立ち上がる！<end>"
+EN: "I-impossible. Can even I be defeated? No! I'll be back on my feet in no time!<end>"
+KO: "마, 말도 안 돼. 이 내가 패배한다고? 아니! 나는 곧 다시 일어난다!<end>"
 
-## 400101
-source: translations/korean/messages/msgsec040-part99.toml
+## 450166
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "素直に渡さぬのならば、<line-break>力ずくで奪うことになる。<end>"
-EN: "If you will not hand it over willingly, we shall take it by force.<end>"
-KO: "순순히 넘기지 않겠다면 힘으로 빼앗겠다.<end>"
+JP: "伝説の主人公に逆境はつきもの！<line-break>俺様は秘密の特訓をしてお前を倒す！<line-break>さらばだ！　宿命のライバルよ！<end>"
+EN: "Legendary protagonists always face adversity! I'll train in secret and defeat you! Farewell, my fated rival!<end>"
+KO: "전설의 주인공에게 역경은 필수지! 이 몸은 비밀 특훈을 해서 너를 쓰러뜨리겠다! 잘 있어라! 숙명의 라이벌이여!<end>"
 
-## 400102
-source: translations/korean/messages/msgsec040-part99.toml
+## 450167
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "わしらも手荒なマネはしとうない。<line-break>　<line-break>　<line-break>闇の神器さえ手に入れば、<line-break>ウルカーンには、<line-break>軍を派遣することもなかろうて。<end>"
-EN: "We'd rather not resort to violence either. Once we have the Dark Artifact, there should be no need to send an army to Ulkarne.<end>"
-KO: "우리도 거칠게 굴고 싶진 않다. 어둠의 신기만 손에 넣으면 울칸에 군대를 보낼 일도 없겠지.<end>"
+JP: "待て、ガルドラン！<line-break>ヴァンの仇…！<end>"
+EN: "Wait, Girldlan! For Van...!<end>"
+KO: "기다려, 갈드란! 반의 원수…!<end>"
 
-## 400103
-source: translations/korean/messages/msgsec040-part99.toml
+## 450168
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "…仕方あるまい。<line-break>束縛の腕輪はここだ。<line-break>取りに来い。<end>"
-EN: "It seems I have no choice. The Bracelet of Binding is here. Come and take it.<end>"
-KO: "…어쩔 수 없군. 속박의 팔찌는 여기 있다. 가지러 와라.<end>"
+JP: "ふ～っ、逃げられたよ。<line-break>まったく、ガルドランの奴<line-break>どこまでも迷惑な奴だよね。<line-break>でも…、僕が欲しい力って<line-break>あいつを倒すことで<line-break>手に入れられるのかなあ…。<end>"
+EN: "Whew... He got away. Honestly, Girldlan never stops causing trouble. But... will defeating him really give me the power I'm looking for?<end>"
+KO: "후우, 도망쳤네. 정말 갈드란 녀석은 어디까지나 민폐야. 하지만… 내가 원하는 힘은 녀석을 쓰러뜨리면 얻을 수 있는 걸까….<end>"
 
-## 400104
-source: translations/korean/messages/msgsec040-part99.toml
+## 450169
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "う…！<line-break>か、体の自由が…。<end>"
-EN: "Ugh! I-I can't move...<end>"
-KO: "으…! 모, 몸이 말을 안 들어….<end>"
+JP: "楽・勝！<line-break>わかってはいたが、俺様は強い！<line-break>　<line-break>さあ、敗者は退場だ。<line-break>出ていくがいい！<end>"
+EN: "That was easy! I knew it, but I really am strong! Now, the loser exits the stage. Be gone!<end>"
+KO: "낙승! 알고는 있었지만 역시 나는 강하다! 자, 패자는 퇴장이다. 나가라!<end>"
 
-## 400105
-source: translations/korean/messages/msgsec040-part99.toml
+## 450170
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "ぬ！　こ、これは！？<line-break>力が…、抜けていく…。<end>"
-EN: "What? Wh-what is this?! My strength... it's draining away...<end>"
-KO: "으! 이, 이건!? 힘이… 빠져나간다….<end>"
+JP: "お客様、<line-break>本当に申しわけございません。　　<line-break>　<line-break>私どもの部屋でよろしければ<line-break>そちらでお休みになってください。<end>"
+EN: "Please accept my sincerest apologies. If you don't mind using our room, you're welcome to rest there.<end>"
+KO: "손님, 정말 죄송합니다. 저희 방이라도 괜찮으시다면 그쪽에서 쉬어 주세요.<end>"
 
-## 400106
-source: translations/korean/messages/msgsec040-part99.toml
+## 450171
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "バカめ！　うかつに近づいてきたな！<line-break>お前たちに渡す気などないわ！<end>"
-EN: "Fools! You came too close without a second thought! I never had any intention of giving it to you!<end>"
-KO: "바보 같으니! 경솔하게 다가왔구나! 너희에게 넘길 생각은 없다!<end>"
+JP: "コーンスの角は<line-break>本当に高く売れるんだろうな。<end>"
+EN: "Konsu horns really do fetch a high price, right?<end>"
+KO: "콘스의 뿔은 정말 비싸게 팔리는 거지?<end>"
 
-## 400107
-source: translations/korean/messages/msgsec040-part99.toml
+## 450172
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんと！　神器の力を解放しおったか！<line-break>力を吸いつくされる前に<line-break>ふたりを回復せねば！<end>"
-EN: "What?! The artifact's power has been unleashed! I must restore those two before it drains them completely!<end>"
-KO: "뭐라고! 신기의 힘을 해방했는가! 힘을 모두 빨리기 전에 두 사람을 회복시켜야 한다!<end>"
+JP: "ああ、なんでも戦闘用モンスターを作る<line-break>材料になるコーンスの角が、たくさん<line-break>いるらしいですぜ、アニキ。<line-break>リベルダムの武器商人の所に持ってけば<line-break>相当の金になるって！<end>"
+EN: "Yeah. Word is, they need loads of Konsu horns to make combat monsters, boss. Take them to an arms dealer in Liberdam and you'll get a fortune for them!<end>"
+KO: "아, 전투용 몬스터 재료가 되는 콘스의 뿔이 아주 많이 필요하다더군요, 형님. 리벨덤의 무기상에게 가져가면 꽤 큰돈이 된대요!<end>"
 
-## 400108
-source: translations/korean/messages/msgsec040-part99.toml
+## 450173
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "お主、あの怪物の相手を頼む。<line-break>放っておけば、町にまで被害が及ぶ！<end>"
-EN: "Take care of that monster. If we leave it unchecked, the town will be harmed as well!<end>"
-KO: "자네, 저 괴물 상대를 부탁한다. 내버려 두면 마을까지 피해가 번진다!<end>"
+JP: "へへっ、そうか。<line-break>じゃ、しょうがねえな。<line-break>コーンスの兄ちゃんよ。死んでもらおうか。<end>"
+EN: "Heh. That so? Well, can't be helped. You're going to have to die, Konsu.<end>"
+KO: "헤헤, 그래? 그럼 어쩔 수 없지. 콘스 형씨, 죽어 줘야겠어.<end>"
 
-## 400109
-source: translations/korean/messages/msgsec040-part99.toml
+## 450174
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "なんと、わしらの加勢も待たずに<line-break>奴を倒しおったか。大したものだ。<line-break>おかげで助かったわい。<end>"
-EN: "You defeated it without even waiting for our help? Impressive. You saved us a great deal of trouble.<end>"
-KO: "뭐라고, 우리 지원을 기다리지도 않고 놈을 쓰러뜨렸나. 대단하군. 덕분에 살았네.<end>"
+JP: "待てっ！　悪漢ども！<end>"
+EN: "Hold it, villains!<end>"
+KO: "기다려! 악당들!<end>"
 
-## 400110
-source: translations/korean/messages/msgsec040-part99.toml
+## 450175
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "あの時の我の負けは、<line-break>偶然ではなかったということか。<line-break>…おもしろい。<end>"
-EN: "So my defeat that day was no accident. Interesting.<end>"
-KO: "그때 나의 패배가 우연이 아니었다는 건가. …재미있군.<end>"
+JP: "なんだ、貴様！<end>"
+EN: "Who the hell are you?!<end>"
+KO: "뭐냐, 네놈!<end>"
 
-## 400111
-source: translations/korean/messages/msgsec040-part99.toml
+## 450176
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "強くなっている…。<line-break>ネメアが言ったとおり、<line-break>我はすでにこの若者に…。<line-break>いや…、<line-break>そんなバカなことが…！<end>"
-EN: "He's grown stronger... Nemea was right. Against this youth, I already... No. That's impossible!<end>"
-KO: "강해지고 있어…. 네메아가 말한 대로 나는 이미 이 젊은이에게…. 아니… 그럴 리가…!<end>"
+JP: "俺様は未来の勇者ガルドラン！<end>"
+EN: "I am Girldlan, the hero of the future!<end>"
+KO: "이 몸은 미래의 용사 갈드란!<end>"
 
-## 400113
-source: translations/korean/messages/msgsec040-part99.toml
+## 450177
+source: translations/korean/messages/msgsec045-part99.toml
 jp_matches_pinned_english: yes
-JP: "次は…、渡さないわ！<end>"
-EN: "Next time... I won't give it up!<end>"
-KO: "다음엔… 안 넘겨줘!<end>"
+JP: "改！<end>"
+EN: "Change!<end>"
+KO: "개!<end>"
+
+## 450178
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "激！<end>"
+EN: "Fury!<end>"
+KO: "격!<end>"
+
+## 450179
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "烈！<end>"
+EN: "Ferocity!<end>"
+KO: "열!<end>"
+
+## 450180
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "さ、俺様のカッコよすぎるポーズに<line-break>奴らが心を奪われている間に早く！<end>"
+EN: "Now, hurry! While they're enthralled by my impossibly magnificent pose!<end>"
+KO: "자, 내 너무 멋진 포즈에 놈들이 넋을 잃은 사이 빨리!<end>"
+
+## 450181
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "君まで心を奪われていてどうする。<line-break>早く！<end>"
+EN: "What are you doing getting enthralled too? Hurry!<end>"
+KO: "너까지 마음을 빼앗기면 어쩌자는 거야. 빨리!<end>"
+
+## 450182
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "は、はい。<end>"
+EN: "R-right.<end>"
+KO: "네, 네.<end>"
+
+## 450183
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "き、貴様。<line-break>ア然としてしまったではないか！<end>"
+EN: "Y-you! You left me completely dumbstruck!<end>"
+KO: "네, 네놈. 너무 어이가 없어서 말이 안 나오는군!<end>"
+
+## 450184
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "くそっ、コーンスを逃がしやがって…！<line-break>せっかくのお宝を…！<end>"
+EN: "Damn it! You let the Konsu get away! That was our big score!<end>"
+KO: "젠장, 콘스를 놓쳐 버렸어…! 모처럼의 보물을…!<end>"
+
+## 450185
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ぶっ殺してやる！<end>"
+EN: "I'll kill you!<end>"
+KO: "죽여 버리겠어!<end>"
+
+## 450186
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ムダだ！　　　　　　　　　　　　　　<line-break>　<line-break>　<line-break>貴様らごときザコ冒険者では、<line-break>極上の冒険者として日夜絶賛される<line-break>俺様にかなうべくもない！！<end>"
+EN: "Futile! Two-bit adventurers like you could never hope to match me, a peerless adventurer showered with praise day and night!<end>"
+KO: "소용없다! 네놈들 같은 잡졸 모험자로는 최고급 모험자로 밤낮없이 칭송받는 이 몸을 당해낼 수 없다!!<end>"
+
+## 450187
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "そして今！　熱い熱いと評判の<line-break>俺様の魂が、怒りで燃えている！<line-break>熱く！　透き通るほどに、熱く！！<end>"
+EN: "And now! This soul of mine, famed for burning hot, is ablaze with anger! Hot! Burning clear through!!<end>"
+KO: "그리고 지금! 뜨겁기로 소문난 나님의 영혼이 분노로 타오른다! 뜨겁게! 투명할 정도로 뜨겁게!!<end>"
+
+## 450188
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんか。ヤバそうな奴ですぜ。<line-break>アニキ。<end>"
+EN: "Something's not right about this guy, boss.<end>"
+KO: "뭔가 위험해 보이는 놈입니다. 형님.<end>"
+
+## 450189
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ、わかってる。<line-break>なんたってあのポーズだからな…。<line-break>　<end>"
+EN: "Yeah, I know. Just look at that pose.<end>"
+KO: "그래, 알고 있어. 아무래도 그 포즈니까….<end>"
+
+## 450190
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "どうした！？<line-break>さあ、かかってこい！<line-break>自称冒険者の小悪党ども！<end>"
+EN: "What's wrong?! Come on, have at me, you petty crooks who call yourselves adventurers!<end>"
+KO: "왜 그러지!? 자, 덤벼라! 자칭 모험자 악당들아!<end>"
+
+## 450191
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "うるせえ！<line-break>これでも食らいやがれ！！<end>"
+EN: "Shut up! Take this!<end>"
+KO: "시끄러워! 이것도 먹어라!!<end>"
+
+## 450192
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "目つぶし用の粉だ！<line-break>安物だが、お前にはそれで充分だろ！！<end>"
+EN: "Blinding powder! Cheap stuff, but more than enough for you!<end>"
+KO: "눈가림용 가루다! 싸구려지만 네놈한텐 그걸로 충분하겠지!!<end>"
+
+## 450193
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "さーて、コーンスを逃がされた<line-break>腹いせに、ちょっと痛めつけてやるか。<end>"
+EN: "Well then, that Konsu got away, so I think I'll take it out on you for a while.<end>"
+KO: "자아, 콘스를 놓친 분풀이로 조금 두들겨 패 줄까.<end>"
+
+## 450194
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ぬあ！<line-break>目が…、目があああああああ！！<end>"
+EN: "Gaaah! My eyes! My eeeeeeyes!<end>"
+KO: "으악! 눈이… 눈이이이이이이!!<end>"
+
+## 450195
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ガルドランが…！<end>"
+EN: "Girldlan...!<end>"
+KO: "갈드란이…!<end>"
+
+## 450196
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "き、貴様ら！<line-break>なんて卑劣な作戦を…。<line-break>俺様なら絶対こんな手は使わんぞ…。<end>"
+EN: "Y-you scoundrels! What a despicable trick... I would never stoop to such tactics...<end>"
+KO: "이, 이놈들! 이런 비겁한 작전을…. 나라면 절대 이런 수는 쓰지 않는다….<end>"
+
+## 450197
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、<line-break>…ガルドランを助けようよ！<end>"
+EN: "<value:$28>... let's help Girldlan!<end>"
+KO: "<value:$28>, …갈드란을 도와주자!<end>"
+
+## 450198
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "だって、しょうがないじゃない。<line-break>あんな状況なんだよ！<end>"
+EN: "But we have no choice! Look at the state he's in!<end>"
+KO: "그래도 어쩔 수 없잖아. 그런 상황이었단 말이야!<end>"
+
+## 450199
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふぬあああ！<line-break>目が、しみて…痛てええええ！！<end>"
+EN: "Gwaaaah! My eyes are burning! It huuuurts!<end>"
+KO: "으누아아아! 눈이, 따갑고… 아파아아아!!<end>"
+
+## 450200
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "…僕、ガルドランは許せない。　　　　<end>"
+EN: "...I can't forgive Girldlan.<end>"
+KO: "…난 갈드란을 용서할 수 없어.<end>"
+
+## 450201
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "だけど、ガルドランでさえ、<line-break>コーンスを救うために体を張ったんだ！<end>"
+EN: "But even Girldlan put himself in danger to save that Konsu!<end>"
+KO: "하지만 갈드란조차 콘스를 구하려고 몸을 던졌어!<end>"
+
+## 450202
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕は、ガルドランに負けられない。<end>"
+EN: "I can't let Girldlan outdo me.<end>"
+KO: "나는 갈드란에게 질 수 없어.<end>"
+
+## 450203
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "もう二度と、ヴァンの時みたいな<line-break>つらい思いをしたくないから…。<end>"
+EN: "I never want to go through anything as painful as what happened with Van again.<end>"
+KO: "두 번 다시 반 때처럼 괴로운 일을 겪고 싶지 않으니까…<end>"
+
+## 450204
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "だから、ここでコーンスを助けた<line-break>ガルドランを助けなきゃならない！<end>"
+EN: "So I have to save Girldlan, because he saved that Konsu!<end>"
+KO: "그러니까 여기서 콘스를 도운 갈드란을 도와야 해!<end>"
+
+## 450205
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "む、誰かは知らないが、勇者のピンチに<line-break>正義を愛する魂が駆けつけてくれたか！<line-break>　<line-break>正しき魂の諸君！<line-break>ザコは任せたぞ！！<line-break>さらば！<end>"
+EN: "Hmm! I don't know who you are, but souls who cherish justice have rushed to aid a hero in peril! Righteous souls, I leave this rabble to you! Farewell!<end>"
+KO: "음, 누군진 모르지만 용사의 위기에 정의를 사랑하는 영혼이 달려와 줬군! 정의로운 영혼들이여! 잡졸은 맡기겠다!! 그럼 이만!<end>"
+
+## 450206
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "な、なんだお前らは！？<line-break>あのバカの仲間か！？<line-break>　<line-break>わけがわかんねぇが<line-break>やろうってんなら<line-break>相手になってやるぜ！！<end>"
+EN: "W-who the hell are you?! Friends of that idiot?! I don't know what's going on, but if it's a fight you want, you've got one!<end>"
+KO: "뭐, 뭐야 너희!? 저 바보 녀석 패거리냐!? 영문은 모르겠지만 싸우자는 거면 상대해 주마!!<end>"
+
+## 450207
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "くそっ、おぼえてやがれ！<end>"
+EN: "Damn you! You'll pay for this!<end>"
+KO: "젠장, 두고 보자!<end>"
+
+## 450208
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ねえ、<value:$28>。<line-break>　　　　　　　　　　　　　　　　　　<line-break>　<line-break>僕は、町を出てからずっと<line-break>強さってなんなのか迷ってた…。<line-break>だけど、今、わかってきたよ。<end>"
+EN: "You know, <value:$28>... ever since I left town, I've been wondering what it really means to be strong. But I think I'm starting to understand now.<end>"
+KO: "있잖아, <value:$28>. 난 마을을 나온 뒤로 계속 강함이 뭔지 고민했어…. 그런데 이제 조금 알 것 같아.<end>"
+
+## 450209
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕が欲しかったのは、<line-break>ガルドランを倒す強さじゃない。<line-break>　<line-break>何かを守る強さなんだ。<end>"
+EN: "The strength I wanted wasn't the strength to defeat Girldlan. It was the strength to protect something.<end>"
+KO: "내가 원했던 건 갈드란을 쓰러뜨릴 힘이 아니야. 무언가를 지킬 힘이야.<end>"
+
+## 450210
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "お客さん。飲み過ぎだよ。<line-break>店の酒、みーんな、飲んじまった…。<end>"
+EN: "Sir, you've had too much to drink. You drank all the liquor in the bar...<end>"
+KO: "손님, 너무 많이 마셨어. 가게 술을 몽땅 마셔 버렸잖아….<end>"
+
+## 450211
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "…どうせ、どうせ、俺なんか…<end>"
+EN: "...After all, someone like me...<end>"
+KO: "…어차피, 어차피 나 같은 건….<end>"
+
+## 450212
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "世界で一番さ…。<line-break>フヒャヒャヒャヒャ…。　　　<end>"
+EN: "...is the greatest in the world... Heh heh heh heh...<end>"
+KO: "세상에서 제일이지…. 후햐햐햐햐….<end>"
+
+## 450213
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "ダメだこりゃ。何がなんだか<line-break>わかってないよ。お客さん。<end>"
+EN: "This is hopeless. You don't understand a thing, sir.<end>"
+KO: "이거 안 되겠네. 뭐가 뭔지 전혀 모르고 있잖아, 손님.<end>"
+
+## 450215
+source: translations/korean/messages/msgsec045-part99.toml
+jp_matches_pinned_english: yes
+JP: "お客さん。<end>"
+EN: "Sir.<end>"
+KO: "손님.<end>"
 
