@@ -630,7 +630,7 @@ korean = "이런 녀석들 말을 들어서 어쩌자는 거야!<end>"
 
 ["370158"]
 japanese = "なんじゃ？<line-break>この存在自体が無礼な下郎は！<end>"
-korean = "뭐냐? 존재 자체가 무례한 하인이로군!<end>"
+korean = "뭐냐? 존재 자체가 무례한 이 천한 놈은!<end>"
 
 ["370159"]
 japanese = "自由を愛するドンパドン船長様だ！　　<line-break>　<line-break>俺はお前ら神様かぶれの無理難題を<line-break>素直に聞けるほどバカじゃねぇんだよ、<line-break>ババァ！<end>"
@@ -702,11 +702,11 @@ korean = "거짓말이야! 나야!<end>"
 
 ["370176"]
 japanese = "あたしが<line-break>メイアを助けようって言ったのよ！<end>"
-korean = "내가 메이아를 도우러 가자고 했어!<end>"
+korean = "내가 메이아를 도와주자고 했어!<end>"
 
 ["370177"]
 japanese = "<if><value:$29><equal>%0このガキの仕業かどうかは<line-break>エア様にはすぐわかる。捕らえよ。<end>この小娘の仕業かどうかは<line-break>エア様にはすぐわかる。捕らえよ。<end>"
-korean = "<if><value:$29><equal>%0이 꼬마 짓인지 아닌지는에아 님께서 곧 아실 거다. 잡아라.<end>이 계집애 짓인지 아닌지는에아 님께서 곧 아실 거다. 잡아라.<end>"
+korean = "<if><value:$29><equal>%0이 꼬마 짓인지 아닌지는 에아 님께서 곧 아실 거다. 잡아라.<end>이 계집애 짓인지 아닌지는 에아 님께서 곧 아실 거다. 잡아라.<end>"
 
 ["370178"]
 japanese = "風の氏族をたぶらかして、<line-break>竜の座の宝を手に入れようとしたのか。<line-break>金のためならなんでもやる<line-break>自由の民どもの考えそうなことじゃ。<line-break>ヌォッホホホ…。<end>"
@@ -762,7 +762,7 @@ korean = "넌 메이아라는 아이를 찾으러 가야 해.<end>"
 
 ["370193"]
 japanese = "<if><value:$29><equal>%0<value:$28>、支度しろい！<line-break>メイアを追うんだ。　　　　　<line-break>ユリアシュを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end><value:$28>、支度しな！<line-break>メイアを追うんだ。　　　　　<line-break>ユシュアルを助けるには、<line-break>メイアから竜の座の宝って奴を<line-break>取り戻すしかない。<end>"
-korean = "<if><value:$29><equal>%0<value:$28>, 준비해! 메이아를 쫓는다. 유리아슈를 구하려면 메이아에게서 용좌의 보물이라는 걸 되찾는 수밖에 없어.<end><value:$28>, 준비해! 메이아를 쫓는다. 유슈알을 구하려면 메이아에게서 용좌의 보물이라는 걸 되찾는 수밖에 없어.<end>"
+korean = "<if><value:$29><equal>%0<value:$28>, 준비해! 메이아를 쫓아가. 유리아슈를 구하려면 메이아에게서 용의 자리의 보물이라는 걸 되찾는 수밖에 없어.<end><value:$28>, 준비해! 메이아를 쫓아가. 유슈알을 구하려면 메이아에게서 용의 자리의 보물이라는 걸 되찾는 수밖에 없어.<end>"
 
 ["370194"]
 japanese = "お前がメイアって娘を助けたこと、<line-break>あたしは正しかったと思ってるよ。　　<line-break>だからこそ、最後まで貫き通して、<line-break>最後まで正しかったことを見せとくれ。<line-break>それが、筋ってもんだろ！<end>"
@@ -1062,7 +1062,7 @@ korean = "메이아가 갑자기 괴로워하더니 얼굴빛이 변하고 창�
 
 ["370268"]
 japanese = "やれやれ、窓からとは、<line-break>せっかちなお客さんだね。<end>"
-korean = "이런, 창문으로 들어오다니 성급한 손님이군.<end>"
+korean = "이런, 창문으로 나가다니 성급한 손님이군.<end>"
 
 ["370269"]
 japanese = "ダメだ！　　　　　　　　　　<line-break>　<line-break>エルズの人たちは、<line-break>エア様の恐ろしさを知らない。<line-break>刃向かっちゃダメだ！<end>"
