@@ -1,170 +1,139 @@
 # Beta1 Astra resume-now handoff
 
-## Exact stop point: Batch 020 COMPLETE / Batch 021 next
+## Exact stop point: Batch 021 COMPLETE / Batch 022 next
 
-Date: 2026-09-07 UTC. Repository: `fsmkh1-crypto/ZillKoreanPatch`.
+Date: 2026-09-07. Repository: `fsmkh1-crypto/ZillKoreanPatch`.
 Working branch: `milestone/Beta1`. **Beta1 INCOMPLETE. No Beta2.**
 
-Remote HEAD immediately before this documentation checkpoint:
-`84c30b504afbb167551466ab3c4d0e59da2a2ed5` (generated scope coverage).
-This document's commit is above that SHA: fetch actual remote HEAD before mutation.
-Starting baseline: `c9c1f8e0660adbe3a603391ee5ab18ea1a53b6d5`.
-Legitimate structural-refresh commit `4634f4fd145838a886d35f090d7dd37fa8fb2c3e`
-was preserved by the heavy queue's normal rebase. No reset/force-push.
+Always re-fetch actual remote `milestone/Beta1` HEAD before any mutation. This handoff is written above the generated Batch 021 coverage commit `939b3623df0cfb9a61f0ba9cbc862e7ad7f62dc3`; later documentation/CI commits are legitimate and must not be reset away. Never force-push.
 
-Read first, in order:
+Read first:
 
-1. This file.
-2. `docs/BETA1_REVIEW_PIPELINE_V3_CHECKPOINT.md`.
-3. `docs/BETA1_REVIEW_LEDGER_POLICY.md`.
-4. `docs/audit/beta1-review-coverage.md`.
-5. `docs/audit/beta1-review-distribution.md`.
-6. AGENTS, CONTRIBUTING, Korean style/QA and `docs/audit/review/README.md` as required.
-   Older handoffs are historical only. Do not resume006 or reapply018/019/020.
+1. this file
+2. `docs/BETA1_REVIEW_PIPELINE_V3_CHECKPOINT.md`
+3. `docs/BETA1_REVIEW_LEDGER_POLICY.md`
+4. `docs/audit/beta1-review-coverage.md`
+5. `docs/audit/beta1-review-distribution.md`
+6. `docs/audit/review/throughput-021.json` and `scope-021.json` when exact 021 evidence is needed
 
-## Batch 020 work actually completed
+Pinned English reference: `HK47196/zill@a98d9ce29f361d666ec23da0dcfd351f24537ffd`.
+Japanese is semantic authority. For fixes, inspect how the pinned English patch handled the same text/consumer and why, then write natural Korean. Do not mechanically translate English and do not invent Korean-only runtime/storage exceptions where English demonstrates the general solution.
 
-Direct source-order packet read, all states, JP meaning/adjacent context → pinned
-EN handling and reason → KO accuracy/naturalness:
+## Batch 021 work actually completed
 
-- `translations/korean/messages/msgsec010-part99.toml`:100000–100018.
-- `translations/korean/messages/msgsec011-part99.toml`:110000–110033.
-- `translations/korean/messages/msgsec012-part99.toml`:120000–120005.
-- `translations/korean/messages/msgsec013-part99.toml`:130000–130024.
+Direct source-order review:
 
-**84 directly read IDs / approximately281 visible state segments / KEEP53 /
-EDIT27 / internal marker exclusions4 / contextual80 / propagated0.**
-Excluded IDs:100018,110033,120005,130024. These have source section-ending markers
-and blank EN; exclusion from review credit does not delete accepted corpus rows.
-No scanner-only KEEP was credited.
+- `msgsec014-part99.toml`: `140000`–`140021`
+- `msgsec015-part99.toml`: `150000`–`150021`
+- `msgsec016-part99.toml`: `160000`–`160084`
 
-EDIT IDs:
-100002,100003,100004,100005,100006,100009,110001,110002,110004,110006,110011,
-110013,110014,110016,110019,110020,110023,110024,110026,120004,130000,130001,
-130003,130004,130005,130006,130009.
+Result:
 
-Overlapping categories: naturalness15, punctuation5, terminology8, grammar6,
-translation5. No newly classified spacing-only edit. Significant fixes:
+- directly read IDs: **129**
+- approximate visible dialogue/state segments: **236**
+- KEEP: **62**
+- EDIT: **64**
+- internal marker/comment exclusions: **3** (`140021`, `150021`, `160023`)
+- contextual IDs added: **126**
+- propagation: **0**
 
--110011: child is the target of the ordered killing, not the person ordered to obey.
--110004/130005: Japanese 充実 means fulfillment/vigor in context, not Korean 충실.
--120004: puzzlement over Ladras's collapse, not delighted fascination.
--130006: 罰は当たらない is no-harm idiom, not literal punishment.
--100006/110001/110016/110023/130009: predicate/particle/relative-clause repairs.
--Seven directly read Dyneskal IDs normalize 딩갈→딘갈; existing canonical
- ディンガル士官=딘갈 장교 and prior70002 agree. No global propagation.
--130003: 지하도로→지하가도 matches directly read guide/choice labels130010–130013.
+Every selected ID and displayed state was directly read JP -> pinned EN -> KO. No scanner-only KEEP or unread duplicate propagation was credited.
 
-Evidence files:
+Important repair classes:
 
-- `docs/audit/beta1-contextual-copyedit-020-reviewed.json`: exact before/after,
-  JP/EN, pinned English SHA and individual reasons.
-- `docs/audit/review/scope-020.json`: exact ID sets and deterministic packet SHA.
-- `docs/audit/review/notes-020.md`: preflight, direct KEEP context notes and safety.
-- `docs/audit/review/throughput-020.json`: coverage/workload/timing and CI evidence.
-- `docs/audit/beta1-copyedit-queue.json`: revision21, completed020.
+- `딩갈` -> canonical `딘갈` in directly reviewed rows
+- incorrect Korean particles/causatives and awkward literal Japanese constructions
+- speaker-register and punctuation/spacing cleanup
+- runtime `<value>` grammar: hard-coded Korean particles after unknown substituted values were avoided by sentence restructuring, following the English patch's value-neutral handling principle
+- `邪竜` common-noun meaning was distinguished from the `死竜` place-name wording
 
-## Commits and successful validation
+Manifest: `docs/audit/beta1-contextual-copyedit-021-reviewed.json`.
+Queue: `docs/audit/beta1-copyedit-queue.json`, revision **23**, already applied.
+Semantic commit: `d6a497378e1515ab7c55e1333dc2390877a1f037`.
+Review-basis commit: `77529032a81329d9797bd23f149e62ce1452dfbd`.
 
--Queue:`cc03b778d2d471fa4e1e7139851da5352ee2c9ef`.
--Semantic:`1867f6229a4d398bbfecb15327fbf0f8642139b0`.
--Review basis:`d37698270c84a8478e8cd46fff00fab43f8f503d`.
--Scope/notes:`4b91398087a99106debe4a7266fa74f5ca7b3af4`.
--Generated coverage:`84c30b504afbb167551466ab3c4d0e59da2a2ed5`.
+## Validation and one storage incident
 
-Heavy EDIT workflow **34081021753 SUCCESS**:
-exact-before, reviewed apply, stale-layout invalidation postcondition, zero drift,
-allowed-file restriction, glyph/Korean/font/integrity/terminology/consistency/
-text-sanity, pinned-English consumer/storage/effective-layout contract, semantic
-push and review-basis registration all passed.
+Initial heavy run `34083101354` failed only because ID `160063` occupied **152 bytes** in a consumer with a **151-byte** maximum. All earlier apply/layout/Korean QA steps had passed.
 
-Local exact-before/after, immutable JP, all control and numeric literal sequences,
-TOML and absence of semantic line-breaks passed. Remote semantic contents matched
-the locally verified changes; scratch copies alone had an extra trailing blank line.
+The wording was shortened without weakening the contract:
 
-Scope workflow **34081135516 SUCCESS**, first attempt, independently regenerated
-packet from Git history and pinned English and rebuilt generated ledger/coverage.
-No placeholder hash, failing hash-oracle run, or validation bypass was used.
-Packet SHA256:`b200f0d7ede5ed844ea3ab12bb900ef936e4eb1e187685d0474e8161686175e2`.
-Locally this was rendered using the unchanged official render() over SHA-pinned
-fetched TOML. Do not claim a full local dual-Git checkout; CI supplied that proof.
-Structural refresh34081021738 and general queue CI34081021772 also SUCCESS.
-No batch validation failure. No engine/font/parser/workflow code was changed.
+`아주 오래전부터 존재한 폐허...` -> `오래된 폐허...`
 
-Measured GitHub job execution windows: heavy44s, scope20s, sum64s.
-These are CI windows, not measured local idle time or full production throughput.
-Reading/evidence/wall-clock and incident seconds were not separately instrumented
-and are null. Never invent time or extrapolate corpus ETA from raw IDs/hour.
+Final heavy EDIT run: **34083780080 SUCCESS**.
 
-## Current generated coverage and evidence limits
+Successful-run evidence:
 
-Verified at generated commit84c30b50:
+- 64 exact reviewed changes applied
+- persisted layout population 141
+- layout drift 0
+- layouts invalidated 0
+- accepted Korean records 42,016
+- custom renderer glyphs 1,308; bad glyph characters/records 0
+- Korean integrity/terminology/consistency/text-sanity passed
+- pinned-English consumer/storage/effective-layout contract passed
 
-- Accepted42016; valid contextual **623 (1.483%)**, up80 from543.
-- Legacy full_read176; scope_full_read103; manifest_edit344; propagated0.
-- CONTEXT_STALE0; LAYOUT_RECHECK0; pending review-basis batches none.
-- UNREVIEWED41393.
-- RUNTIME_PENDING full population47 (5 among reviewed ledger rows).
+Scope: `docs/audit/review/scope-021.json`.
+Packet SHA256: `af440d9dfc720af08ff1e653fe3d402544ec818e8f7dddcb4173731bf8f63377`.
 
-Glyph QA: installed/custom required **1308**, bad characters0/bad records0;
-raster catalog covers all1308. No new glyph requirement or font-profile change.
-Persisted layout population141; drift0; invalidated0. All84 scope rows lack
-persisted layout. Effective-layout storage test passed; ordinary wrapping remains
-build-owned. Non-verbose Go output did not expose a fresh numeric whole-corpus
-overflow census; do not invent one. Final full-corpus/static overflow proof still
-required after final language edit.
+A placeholder packet hash was used once solely to have the CI verifier expose its deterministic computed hash. Run `34083975845` therefore failed only on the deliberate hash mismatch and made no coverage mutation. The sealed scope then ran successfully:
 
-Repository/static and CI evidence only. No new authenticated retail-asset,
-emulator or real-PSP evidence. Runtime-unbounded47 stays PENDING. No new APK,
-release artifact or APK hash. No branches deleted; U0-first-nonfreeze/U7 preserved.
-Whole corpus review, source-anomaly dispositions, second-pass KEEP accuracy audit,
-final full QA and post-copyedit Android RC are still unfinished.
+- final dense scope run: **34084089156 SUCCESS**
+- generated coverage commit: `939b3623df0cfb9a61f0ba9cbc862e7ad7f62dc3`
 
-## Exact next operation: Batch 021
+Do not treat either the storage retry or the hash-discovery run as an unresolved regression.
 
-No021 edits or scope assertions exist from this session. Fetch actual remote HEAD,
-recent commits, queue and CI again. Do not assume revision21 if concurrent work
-advanced it. If unchanged, next queue revision22 / manifest021.
+## Current authoritative coverage
 
-Next file observed in baseline tree after completed013 is
-`translations/korean/messages/msgsec014-part99.toml`; re-enumerate the current
-tree and read actual files. Then select a coherent workload of roughly200–300
-ordinary visible-dialogue equivalents; physical IDs may be fewer for state-heavy
-records. Read every selected JP/EN/KO row and all states in source order.
-Do not credit a scanner result or an unread duplicate as KEEP.
+From generated `docs/audit/beta1-review-coverage.md` after Batch 021:
 
-Pinned English:`HK47196/zill@a98d9ce29f361d666ec23da0dcfd351f24537ffd`.
-Japanese is semantic authority. Inspect EN's handling/reason, not EN→KO backtranslation.
-Maintain semantic/layout separation and the existing general consumer contract.
-Use the same apply tool and one heavy queue per coherent EDIT batch, then the light
-scope verifier. Recheck actual remote before each write-sensitive phase.
+- accepted: **42,016**
+- valid contextual review: **749 (1.783%)**
+  - legacy direct full_read: 176
+  - dense scope_full_read: 165
+  - direct manifest_edit: 408
+  - propagated: 0
+- `CONTEXT_STALE`: **0**
+- `LAYOUT_RECHECK`: **0**
+- contextual `UNREVIEWED`: **41,267**
+- pending unregistered review-basis batches: **none**
+- full accepted `RUNTIME_PENDING`: **47**
 
-Useful established commands (at a verified checkout):
+## Timing evidence
 
-```sh
-git status --short
-git rev-parse HEAD
-git log -5 --oneline
-git ls-remote origin refs/heads/milestone/Beta1
-python3 tools/korean/build-beta1-review-packet.py --english-root ../english --scope docs/audit/review/scope-021.json --verify
-python3 tools/korean/apply-multifile-reviewed-copyedit.py --manifest docs/audit/beta1-contextual-copyedit-021-reviewed.json
-```
+`docs/audit/review/throughput-021.json` records only what was actually measured.
 
-Do not run021 commands before its reviewed manifest/scope exists. Queue owns apply,
-layout invalidation, glyph/data/font/storage checks and semantic registration;
-scope workflow owns generated ledger/coverage. Never hand-edit those outputs.
+- final heavy job: 47 sec
+- final scope job: 24 sec
+- successful CI total: 71 sec
+- reading/evidence/wall-clock timing: null; no separate stopwatch was maintained
 
-Scratch `/workspace/scratch/fb80d7137d44/batch020` is a four-file review snapshot,
-not a complete Git checkout. Its semantic edits are already published. No unpublished
-semantic work remains. Earlier `Beta1-current`/other scratch repositories are stale;
-do not use their HEAD as current or reset them blindly. Reconstruct from remote.
+Do not convert these CI windows into human review throughput or a corpus ETA.
 
-## Locked goals and decisions
+## Exact next operation: Batch 022
 
-Four goals: whole-dialogue reflow; comma/spacing/punctuation proofreading;
-B-font readability; translation/naturalness/names/terminology quality.
-B font:`10x10 / BearingX1 / advance12 / gamma0.60 / 10px / 72dpi / HintingNone`.
-Keep 로스톨,페름,레무온,아트레이아,콘스,기어,석화수,녹사,파르셴,플린트,소도,
-주작장군,현무장군. Do not substitute D or undo prior terminology decisions.
-Review-policy v3 remains locked, including a different reviewer/model for final
-KEEP accuracy sampling. No force-push, no unrelated branches, no Beta2.
+The next unreviewed source-order ID is **`160085`**. Re-fetch the actual branch and enumerate the current file tree before selecting the rest of the scope; do not infer the next filename mechanically.
+
+Continue with a coherent workload sized by visible/state complexity rather than a fixed raw-ID count. For every selected row, read all states JP -> pinned EN -> KO. Inspect every sibling context before propagation; otherwise keep propagation at zero.
+
+For edits:
+
+1. create exact-before `beta1-contextual-copyedit-022-reviewed.json`;
+2. recheck current queue, then increment beyond revision 23 to trigger the heavy workflow;
+3. do not hand-edit generated ledger/coverage;
+4. create and seal `scope-022.json` with the deterministic packet SHA;
+5. run one heavy EDIT workflow and one dense scope workflow for the coherent batch;
+6. fetch official generated coverage and final remote HEAD before declaring 022 complete.
+
+## Locked Beta1 requirements
+
+Four user goals remain mandatory:
+
+1. whole-dialogue Korean reflow stability
+2. comma/spacing/punctuation proofreading
+3. B-font readability
+4. translation/naturalness/name/terminology correction
+
+B font remains locked at 10x10 / BearingX 1 / advance 12 / gamma 0.60 / 10px / 72dpi / HintingNone.
+
+Beta1 is not finished merely because an APK can build. Before final acceptance, contextual coverage must be completed, stale/layout flags closed, final whole-corpus reflow/storage/glyph/data/font gates passed, runtime/source anomalies dispositioned, a different-reviewer second-pass KEEP accuracy audit passed, and a **new post-copyedit Android Beta1 RC** built and verified. Do not start Beta2.
