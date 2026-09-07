@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "scope_id": "S-018",
+  "batch_id": "018",
+  "kind": "sequential_full_read",
+  "reviewed_commit": "325780229ca0800fa1c67f01b73e73d1d727f982",
+  "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "source_files": [
+    "translations/korean/messages/msgsec005.toml",
+    "translations/korean/messages/msgsec006.toml"
+  ],
+  "ids": [
+    "50000", "50001", "50002", "50003", "50004", "50005", "50006", "50007", "50008", "50009", "50010", "50011", "50012", "50013", "50014",
+    "60000", "60001", "60002", "60003", "60004", "60005"
+  ],
+  "edit_ids": [
+    "50004", "50006", "50008", "50010", "50011", "60001", "60002", "60003", "60004"
+  ],
+  "exclusions": ["50014"],
+  "packet_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "reviewer": "GPT-5.6 Sol",
+  "reviewed_at": "2026-09-07",
+  "review_method": "Sequential source-order dense full-read. For each row: Japanese meaning/context first, then pinned English treatment and its reason, then natural Korean judgment. AI/scanner signals were discovery-only; every ID was directly read."
+}
