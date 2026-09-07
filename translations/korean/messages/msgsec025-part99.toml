@@ -22,7 +22,7 @@ korean = "모험자 여러분께 늘 신세지고 있습니다. 이번 부탁은
 
 ["250005"]
 japanese = "いつも世話になってるな。頼みたいことがある。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>まで行くんだが、<line-break>通り道が危険でな。守ってやってほしいんだ。<line-break>腕のいい冒険者をつけてやってくれ。<line-break>報酬は、<value:$1A>ギアだ。<line-break><value:$1B>日以内に送り届けてくれよ。<end>"
-korean = "늘 신세지고 있군. 부탁할 일이 있어. 이 도시의 <value:$17><value:$16>이 <value:$15>까지 가는데 길이 위험해서 말이야. 지켜 줬으면 해. 실력 좋은 모험가를 붙여 줘. 보수는 <value:$1A>기어다. <value:$1B>일 이내에 무사히 데려다줘.<end>"
+korean = "늘 신세지고 있군. 부탁할 일이 있어. 이 도시의 <value:$17><value:$16>이 <value:$15>까지 가는데 길이 위험해서 말이야. 지켜 줬으면 해. 실력 좋은 모험자를 붙여 줘. 보수는 <value:$1A>기어다. <value:$1B>일 이내에 무사히 데려다줘.<end>"
 
 ["250006"]
 japanese = "世が乱れており、残念ながら旅の道中の安全が<line-break>確保されているとはいえません。<line-break>そこでお願いがございます。<line-break>我が神殿の<value:$17><value:$16>が、<line-break><value:$15>に行く間の護衛です。<line-break><value:$1A>ギアを寸志といたします。<line-break><value:$1B>日以内に目的地まで送り届けてください。<end>"
@@ -30,7 +30,7 @@ korean = "세상이 어지러워 안타깝게도 여행길의 안전이 보장�
 
 ["250007"]
 japanese = "我が宿に泊まられた<line-break><value:$17><value:$16>様を<line-break><value:$15>までお送りください。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に<line-break>お送りくださるようお願いします。<end>"
-korean = "저희 여관에 묵으신<value:$17><value:$16> 님을<value:$15>까지 모셔다 주세요. 사례는 <value:$1A> 기어.<value:$1B>일 이내에모셔다 주시길 바랍니다.<end>"
+korean = "저희 여관에 묵으신 <value:$17><value:$16>님을 <value:$15>까지 모셔다 주세요. 사례는 <value:$1A>기어. <value:$1B>일 이내에 모셔다 주시길 바랍니다.<end>"
 
 ["250008"]
 japanese = "私を<value:$15>まで<line-break>送ってもらえませんか？<line-break>最近は、街道も危険になりましたので、<line-break>護衛をお願いしたいのです。<line-break><value:$1A>ギアのお礼をいたします。<line-break><value:$1B>日以内に送り届けてくださる方、<line-break>待っています。<end>"
