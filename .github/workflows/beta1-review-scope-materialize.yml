@@ -38,6 +38,11 @@ jobs:
           set -euo pipefail
           shopt -s nullglob
           for req in docs/audit/review/scope-requests/*.json; do
+            batch=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["batch_id"])' "$req")
+            if [ -s "docs/audit/review/scope-${batch}.json" ]; then
+              echo "Dense scope ${batch} already exists; preserving immutable reviewed evidence."
+              continue
+            fi
             python3 - "$req" <<'PY'
           import json
           import subprocess
