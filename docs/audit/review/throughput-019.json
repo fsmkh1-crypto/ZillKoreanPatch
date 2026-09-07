@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "batch_id": "019",
+  "scope_id": "S-019",
+  "reviewed_commit": "df0e1bb8a04b670835de1c3692634b67dde55b38",
+  "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "source_files": [
+    "translations/korean/messages/msgsec007.toml",
+    "translations/korean/messages/msgsec007-part99.toml",
+    "translations/korean/messages/msgsec008-part99.toml",
+    "translations/korean/messages/msgsec009-part99.toml"
+  ],
+  "total_ids": 59,
+  "direct_read_ids": 59,
+  "contextual_ids": 56,
+  "edits": 17,
+  "keeps": 39,
+  "exclusions": 3,
+  "special_ids": ["70029", "80016", "90011"],
+  "propagated_ids": 0,
+  "edit_rate_over_contextual_ids": 0.303571,
+  "reading_seconds": null,
+  "evidence_seconds": null,
+  "ci_wait_seconds": 69,
+  "incident_seconds": 11,
+  "wall_clock_seconds": null,
+  "successful_ci_runs": {
+    "heavy_edit": {
+      "run_id": 34079371354,
+      "observed_seconds": 45,
+      "conclusion": "success"
+    },
+    "dense_scope": {
+      "run_id": 34079651223,
+      "observed_seconds": 24,
+      "conclusion": "success"
+    }
+  },
+  "incident": {
+    "kind": "packet_hash_oracle_pass",
+    "run_id": 34079610648,
+    "observed_seconds": 11,
+    "detail": "A deliberately placeholder packet SHA was submitted because the local session could not reproduce the Git checkout required by build-beta1-review-packet.py. The workflow exposed actual SHA 42e123c4c4cf456c5d46276134ed3594ad35c4e5338c4172877f56bd2d347889; scope-019 was immediately sealed with that value and the final scope workflow passed. This is process overhead, not translation-review time."
+  },
+  "packet_sha256": "42e123c4c4cf456c5d46276134ed3594ad35c4e5338c4172877f56bd2d347889",
+  "semantic_commit": "ff7e45c0bcc1bdabe4087acf5339a9d6e0c90b0d",
+  "review_basis_commit": "2c012b9f6180782d9084ebcdc83d814a75c08443",
+  "coverage_commit": "a1d8525de742fe11ea6ffc16141d280eb991bbb4",
+  "classification_note": "Batch 019 was intentionally state-heavy and source-order. Physical ID count is not a reliable proxy for visible dialogue workload. No class-specific stopwatch was instrumented, so rapid/ordinary/high-risk timing is intentionally omitted rather than inferred.",
+  "timing_note": "Only workflow timestamps were independently observable. reading_seconds, evidence_seconds, and end-to-end wall_clock_seconds were not separately instrumented and remain null. ci_wait_seconds is the sum of the successful heavy-edit and dense-scope workflow elapsed windows. incident_seconds is recorded separately and must not be folded into normalized review throughput.",
+  "reviewer": "GPT-5.6 Sol",
+  "review_method": "Sequential source-order dense full-read. Every selected ID was read Japanese meaning/context first, then pinned English treatment/reason, then Korean naturalness/accuracy. Scanner/AI signals were discovery-only; no propagation was credited.",
+  "recorded_at": "2026-09-07"
+}
