@@ -1,0 +1,143 @@
+name: Beta1 review scope materializer
+
+on:
+  push:
+    branches: [milestone/Beta1]
+    paths:
+      - 'docs/audit/review/scope-*-request.json'
+      - 'docs/audit/review/candidate-*-selection.json'
+      - 'docs/audit/beta1-contextual-copyedit-*-reviewed.json'
+      - 'docs/audit/beta1-context-review-commits.json'
+      - 'tools/korean/build-beta1-review-packet.py'
+      - '.github/workflows/beta1-review-scope-materialize.yml'
+
+concurrency:
+  group: beta1-review-scope-materializer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          path: korean
+          fetch-depth: 0
+      - uses: actions/checkout@v6
+        with:
+          repository: HK47196/zill
+          ref: a98d9ce29f361d666ec23da0dcfd351f24537ffd
+          path: english
+      - name: Materialize requested dense scopes with deterministic packet hashes
+        working-directory: korean
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for req in docs/audit/review/scope-*-request.json; do
+            python3 - "$req" <<'PY'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          req_path = Path(sys.argv[1])
+          req = json.loads(req_path.read_text(encoding='utf-8'))
+          batch = str(req['batch_id'])
+          selection_path = Path(f'docs/audit/review/candidate-{batch}-selection.json')
+          manifest_path = Path(f'docs/audit/beta1-contextual-copyedit-{batch}-reviewed.json')
+          mapping_path = Path('docs/audit/beta1-context-review-commits.json')
+          if not selection_path.exists() or not manifest_path.exists():
+              raise SystemExit(f'missing selection or reviewed manifest for batch {batch}')
+          selection = json.loads(selection_path.read_text(encoding='utf-8'))
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          mapping = json.loads(mapping_path.read_text(encoding='utf-8'))
+          reviewed_commit = mapping['semantic_commits'].get(batch)
+          if not reviewed_commit:
+              raise SystemExit(f'missing semantic commit mapping for batch {batch}')
+          ids = [str(x) for x in selection['ids']]
+          edit_ids = [str(r['id']) for r in manifest['records']]
+          if len(ids) != int(selection['candidate_count']) or len(ids) != len(set(ids)):
+              raise SystemExit(f'candidate selection population mismatch for batch {batch}')
+          if not set(edit_ids).issubset(ids):
+              raise SystemExit(f'edit ids are outside candidate selection for batch {batch}')
+          exclusions = req.get('exclusions', [])
+          exclusion_ids = {
+              str(x['id']) if isinstance(x, dict) else str(x)
+              for x in exclusions
+          }
+          if not exclusion_ids.issubset(ids):
+              raise SystemExit(f'exclusions are outside candidate selection for batch {batch}')
+          if set(edit_ids) & exclusion_ids:
+              raise SystemExit(f'edit/exclusion overlap for batch {batch}')
+          scope = {
+              'schema_version': 1,
+              'scope_id': f'S-{batch}',
+              'batch_id': batch,
+              'kind': 'sequential_full_read',
+              'reviewed_commit': reviewed_commit,
+              'english_sha': selection['pinned_english_sha'],
+              'source_files': [str(x) for x in selection['source_paths']],
+              'ids': ids,
+              'edit_ids': edit_ids,
+              'exclusions': exclusions,
+              'packet_sha256': '',
+              'reviewer': req['reviewer'],
+              'reviewed_at': req['reviewed_at'],
+              'review_method': req['review_method'],
+          }
+          tmp = Path(f'docs/audit/review/.scope-{batch}-packet-input.json')
+          tmp.write_text(json.dumps(scope, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+          try:
+              raw = subprocess.check_output([
+                  'python3', 'tools/korean/build-beta1-review-packet.py',
+                  '--english-root', '../english', '--scope', str(tmp)
+              ], text=True, encoding='utf-8')
+              packet = json.loads(raw)
+          finally:
+              tmp.unlink(missing_ok=True)
+          scope['packet_sha256'] = packet['packet_sha256']
+          out = Path(f'docs/audit/review/scope-{batch}.json')
+          out.write_text(json.dumps(scope, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+          print(json.dumps({
+              'status': 'PASS', 'batch': batch, 'id_count': len(ids),
+              'edit_count': len(edit_ids), 'exclusion_count': len(exclusion_ids),
+              'packet_sha256': scope['packet_sha256']
+          }, ensure_ascii=False))
+          PY
+          done
+          git diff --check
+      - name: Verify all dense review packets
+        working-directory: korean
+        run: |
+          shopt -s nullglob
+          for scope in docs/audit/review/scope-*.json; do
+            python3 tools/korean/build-beta1-review-packet.py \
+              --english-root ../english --scope "$scope" --verify
+          done
+      - name: Rebuild language ledger
+        working-directory: korean
+        run: |
+          test -s docs/audit/beta1-review-consumer-evidence.json
+          python3 tools/korean/build-beta1-review-ledger.py --english-root ../english
+          python3 tools/korean/enrich-beta1-review-ledger.py \
+            --consumer-map docs/audit/beta1-review-consumer-evidence.json
+          git diff --check
+      - name: Commit materialized scope and derived coverage
+        working-directory: korean
+        run: |
+          paths=(docs/audit/review/scope-*.json translations/korean/review-ledger.jsonl docs/audit/beta1-review-coverage.md docs/audit/beta1-review-groups.json)
+          if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
+            echo 'Dense scopes and derived ledger already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "${paths[@]}"
+          git commit -m 'audit: materialize Beta1 dense review scope coverage'
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
