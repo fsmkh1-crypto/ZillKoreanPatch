@@ -59,15 +59,11 @@ def _gap_signature(text: str) -> tuple[str, set[int], set[int]]:
 
 
 def spacing_equivalent(korean: str, layout: str) -> bool:
-    """Return True when layout preserves semantic whitespace without forbidding
-    legitimate line breaks inside an eojeol.
+    """Legacy gap-level equivalence used by the exceptional sync helper.
 
-    Rules:
-    - lexical/control content must match;
-    - every semantic Korean whitespace boundary must be represented in layout by
-      either whitespace or a display break;
-    - layout may add display breaks inside an eojeol;
-    - layout may not add ordinary spaces where Korean has no semantic separator.
+    This is intentionally not the authoritative stale-layout predicate because a
+    set of gap positions cannot retain repeated-boundary cardinality. The main
+    audit uses preserves_layout_semantics(), which mirrors the Go compiler.
     """
     k_chars, k_spaces, k_breaks = _gap_signature(korean)
     l_chars, l_spaces, l_breaks = _gap_signature(layout)
@@ -80,6 +76,92 @@ def spacing_equivalent(korean: str, layout: str) -> bool:
     if not l_spaces.issubset(required):
         return False
     return True
+
+
+def semantic_units(text: str) -> list[tuple[str, str]]:
+    """Tokenize exactly like internal/message semanticUnits.
+
+    Annotated controls stay atomic, <line-break> is a layout boundary, Unicode
+    whitespace is semantic whitespace, and every other Unicode code point is one
+    literal unit. Python strings already iterate by Unicode code point, matching
+    the Go rune-level contract for valid UTF-8 source text.
+    """
+    units: list[tuple[str, str]] = []
+    i = 0
+    while i < len(text):
+        match = CONTROL_RE.match(text, i)
+        if match:
+            value = match.group(0)
+            units.append(("boundary" if value == LINE_BREAK else "control", value))
+            i = match.end()
+            continue
+        ch = text[i]
+        units.append(("whitespace" if ch.isspace() else "literal", ch))
+        i += 1
+    return units
+
+
+def preserves_layout_semantics(semantic: str, layout: str) -> bool:
+    """Mirror internal/message.preservesSemantics for preflight invalidation.
+
+    Keeping the Python drift audit and the Go compiler on the same contract is
+    critical: in particular, multiple consecutive layout boundaries require at
+    least the same number of semantic whitespace runes, while one generated
+    boundary may split adjacent ordinary text runes at zero width.
+    """
+    want = semantic_units(semantic)
+    got = semantic_units(layout)
+    want_index = 0
+    got_index = 0
+
+    while got_index < len(got):
+        if want_index < len(want) and want[want_index] == got[got_index]:
+            want_index += 1
+            got_index += 1
+            continue
+
+        if (
+            want_index < len(want)
+            and want[want_index][0] == "whitespace"
+            and got[got_index][0] == "whitespace"
+        ):
+            while want_index < len(want) and want[want_index][0] == "whitespace":
+                want_index += 1
+            while got_index < len(got) and got[got_index][0] == "whitespace":
+                got_index += 1
+            continue
+
+        if got[got_index][0] != "boundary":
+            return False
+
+        boundary_end = got_index
+        while boundary_end < len(got) and got[boundary_end][0] == "boundary":
+            boundary_end += 1
+        boundary_count = boundary_end - got_index
+
+        if want_index < len(want) and want[want_index][0] == "whitespace":
+            whitespace_end = want_index
+            while whitespace_end < len(want) and want[whitespace_end][0] == "whitespace":
+                whitespace_end += 1
+            whitespace_count = whitespace_end - want_index
+            if boundary_count > 1 and boundary_count > whitespace_count:
+                return False
+            want_index = whitespace_end
+            got_index = boundary_end
+            continue
+
+        if (
+            boundary_count == 1
+            and want_index > 0
+            and want_index < len(want)
+            and want[want_index - 1][0] == "literal"
+            and want[want_index][0] == "literal"
+        ):
+            got_index += 1
+            continue
+        return False
+
+    return want_index == len(want)
 
 
 def changes(korean: str, layout: str):
@@ -198,8 +280,8 @@ def sync_layout_content(korean: str, layout: str) -> str:
         result = result[:start] + replacement + result[end:]
     if content_only(result) != content_only(korean):
         raise ValueError("content sync did not converge to Korean semantic text")
-    if not spacing_equivalent(korean, result):
-        raise ValueError("content sync did not preserve semantic whitespace; invalidate/reflow instead")
+    if not preserves_layout_semantics(korean, result):
+        raise ValueError("content sync did not preserve compiler semantic contract; invalidate/reflow instead")
     assert_layout_postconditions(layout, result)
     return result
 
@@ -260,7 +342,7 @@ def main() -> int:
             if not layout:
                 continue
             persisted += 1
-            if spacing_equivalent(korean, layout):
+            if preserves_layout_semantics(korean, layout):
                 continue
             drift_count += 1
             stale_ids.add(str(key))
@@ -268,7 +350,7 @@ def main() -> int:
             ops = changes(korean, layout)
             rendered = "; ".join(f"{tag} korean={a!r} layout={b!r}" for tag, a, b in ops)
             if not rendered:
-                rendered = "whitespace-only semantic drift"
+                rendered = "whitespace/boundary semantic drift"
             print(f"{key}@{rel}: {rendered}")
         if invalidate and stale_ids:
             invalidated += remove_layout_lines(path, stale_ids)
