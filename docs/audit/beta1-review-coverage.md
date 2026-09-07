@@ -5,16 +5,16 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **487 (1.159%)**
+- Valid contextual review: **543 (1.292%)**
   - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **11**
-  - direct `manifest_edit`: **300**
+  - dense `scope_full_read`: **50**
+  - direct `manifest_edit`: **317**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **41,529**
-- Approved registered manifest records (historical, non-deduplicated): **300**
-- Pending batches lacking a registered review basis: **019**
+- `UNREVIEWED` for contextual purposes: **41,473**
+- Approved registered manifest records (historical, non-deduplicated): **317**
+- Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
 Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.
@@ -22,12 +22,12 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 
 ## Orthogonal flags and structural QA
 
-- `PERSISTED_LAYOUT`: **38** among ledger rows
+- `PERSISTED_LAYOUT`: **42** among ledger rows
 - `ALIAS_GROUP`: **0** among ledger rows
 - `SOURCE_ANOMALY`: **0** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
-- `FIXED_BUFFER`: **241** among ledger rows; full accepted population **19380**
-- `RUNTIME_PENDING`: **2** among ledger rows; full accepted population **47**
+- `FIXED_BUFFER`: **244** among ledger rows; full accepted population **19380**
+- `RUNTIME_PENDING`: **4** among ledger rows; full accepted population **47**
 - English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
 Consumer/storage/runtime metadata remains in each ledger row for traceability, but it is not part of language propagation equivalence.
@@ -45,6 +45,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | Scope | IDs | KEEP | EDIT | Excluded | File |
 | --- | ---: | ---: | ---: | ---: | --- |
 | S-018 | 21 | 11 | 9 | 1 | `docs/audit/review/scope-018.json` |
+| S-019 | 59 | 39 | 17 | 3 | `docs/audit/review/scope-019.json` |
 
 ## Historical edit manifests
 
@@ -67,7 +68,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 016 | REGISTERED | 7 | 7 | `docs/audit/beta1-contextual-copyedit-016-reviewed.json` |
 | 017 | REGISTERED | 8 | 8 | `docs/audit/beta1-contextual-copyedit-017-reviewed.json` |
 | 018 | REGISTERED | 9 | 9 | `docs/audit/beta1-contextual-copyedit-018-reviewed.json` |
-| 019 | PENDING_BASIS | 17 | 17 | `docs/audit/beta1-contextual-copyedit-019-reviewed.json` |
+| 019 | REGISTERED | 17 | 17 | `docs/audit/beta1-contextual-copyedit-019-reviewed.json` |
 
 ## Completion/quality rule
 
