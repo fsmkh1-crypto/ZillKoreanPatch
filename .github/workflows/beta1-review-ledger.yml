@@ -1,4 +1,4 @@
-name: Beta1 review ledger v2
+name: Beta1 review ledger structural refresh
 
 on:
   push:
@@ -19,6 +19,10 @@ on:
       - 'tools/korean/enrich-beta1-review-ledger.py'
       - '.github/workflows/beta1-review-ledger.yml'
   workflow_dispatch:
+
+concurrency:
+  group: beta1-review-ledger-structural-refresh
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -41,31 +45,32 @@ jobs:
         with:
           go-version-file: korean/go.mod
           cache-dependency-path: korean/go.sum
-      - name: Export repository-derived runtime evidence
+      - name: Export repository-derived runtime and storage evidence
         working-directory: korean
         run: |
           go test -v ./internal/release -run TestCurrentKoreanCorpusEnglishConsumerStorageContracts -count=1 | tee /tmp/beta1-review-runtime.log
           python3 tools/korean/build-beta1-review-consumer-map.py \
             --english-root ../english \
             --runtime-log /tmp/beta1-review-runtime.log \
-            --output /tmp/beta1-review-consumers.json
-      - name: Build stale-proof review ledger
+            --output docs/audit/beta1-review-consumer-evidence.json
+      - name: Build language-stale-proof review ledger
         working-directory: korean
         run: |
           python3 tools/korean/build-beta1-review-ledger.py --english-root ../english
-          python3 tools/korean/enrich-beta1-review-ledger.py --consumer-map /tmp/beta1-review-consumers.json
+          python3 tools/korean/enrich-beta1-review-ledger.py --consumer-map docs/audit/beta1-review-consumer-evidence.json
           git diff --check
-      - name: Commit generated review coverage
+      - name: Commit generated review evidence
         working-directory: korean
         run: |
-          if [ -z "$(git status --porcelain -- translations/korean/review-ledger.jsonl docs/audit/beta1-review-coverage.md docs/audit/beta1-review-groups.json)" ]; then
+          paths=(translations/korean/review-ledger.jsonl docs/audit/beta1-review-coverage.md docs/audit/beta1-review-groups.json docs/audit/beta1-review-consumer-evidence.json)
+          if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
             echo 'Review ledger already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add translations/korean/review-ledger.jsonl docs/audit/beta1-review-coverage.md docs/audit/beta1-review-groups.json
-          git commit -m 'audit: refresh stale-proof Beta1 review ledger v2'
+          git add "${paths[@]}"
+          git commit -m 'audit: refresh Beta1 review ledger v3 structural evidence'
           git fetch origin milestone/Beta1
           git rebase origin/milestone/Beta1
           git push origin HEAD:milestone/Beta1
