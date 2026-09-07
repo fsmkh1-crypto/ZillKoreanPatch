@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_id": "020",
+  "source_head": "c9c1f8e0660adbe3a603391ee5ab18ea1a53b6d5",
+  "total_ids": 84,
+  "direct_read_ids": 84,
+  "visible_segments_reviewed_estimate": 281,
+  "visible_segment_method": "Count Hangul-bearing pieces separated by <select>/<if>/<end> in directly read packet, excluding four source section markers. Workload approximation, not authenticated runtime or ID coverage.",
+  "contextual_ids": 80,
+  "edits": 27,
+  "keeps": 53,
+  "exclusions": 4,
+  "propagated_ids": 0,
+  "reading_seconds": null,
+  "evidence_seconds": null,
+  "ci_wait_seconds": 64,
+  "incident_seconds": null,
+  "wall_clock_seconds": null,
+  "timing_note": "ci_wait_seconds is the sum of successful GitHub job execution windows, not locally measured idle time. Heavy44s + scope20s. Reading/evidence/end-to-end/incident stopwatch not separately instrumented; nulls must not be inferred as zero.",
+  "workflow_failures": 0,
+  "workflows": {
+    "heavy": {
+      "run_id": 34081021753,
+      "job_id": 101616169194,
+      "started_at": "2026-09-07T03:50:57Z",
+      "completed_at": "2026-09-07T03:51:41Z",
+      "seconds": 44,
+      "conclusion": "success"
+    },
+    "scope": {
+      "run_id": 34081135516,
+      "job_id": 101616483837,
+      "started_at": "2026-09-07T03:52:59Z",
+      "completed_at": "2026-09-07T03:53:19Z",
+      "seconds": 20,
+      "conclusion": "success"
+    },
+    "structural": {
+      "run_id": 34081021738,
+      "conclusion": "success"
+    },
+    "queue_ci": {
+      "run_id": 34081021772,
+      "conclusion": "success"
+    }
+  },
+  "semantic_commit": "1867f6229a4d398bbfecb15327fbf0f8642139b0",
+  "review_basis_commit": "d37698270c84a8478e8cd46fff00fab43f8f503d",
+  "coverage_commit": "84c30b504afbb167551466ab3c4d0e59da2a2ed5",
+  "packet_sha256": "b200f0d7ede5ed844ea3ab12bb900ef936e4eb1e187685d0474e8161686175e2",
+  "coverage_before": 543,
+  "coverage_after": 623,
+  "context_stale": 0,
+  "layout_recheck": 0,
+  "custom_glyphs_before": 1308,
+  "custom_glyphs_after": 1308,
+  "missing_glyph_characters": 0,
+  "persisted_layout_population": 141,
+  "layout_drift": 0,
+  "layouts_invalidated": 0
+}

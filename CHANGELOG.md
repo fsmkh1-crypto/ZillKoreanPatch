@@ -18,6 +18,19 @@ Do not describe a candidate, partial test, or CI-only result as full runtime val
 
 ---
 
+## Beta1 contextual review020 — 2026-09-07 (incomplete)
+
+- Directly reviewed84 source-order IDs (about281 visible state segments):53 KEEP,
+  27 EDIT,4 internal markers excluded. Official coverage rises543→623 of42016.
+- Fixed source-backed meaning errors (killing target, fulfillment, no-harm idiom),
+  Korean grammar/naturalness, question punctuation and scoped terminology drift.
+  JP and pinned EN reasoning is preserved per edit in manifest020; no engine divergence.
+- Existing heavy queue34081021753 and deterministic scope34081135516 SUCCESS.
+  Glyphs1308, layout drift0, CONTEXT_STALE0, LAYOUT_RECHECK0. No new runtime/APK proof.
+- Semantic1867f6229a4d398bbfecb15327fbf0f8642139b0. Exact continuation and limitations:
+  `docs/BETA1_ASTRA_RESUME_NOW.md`; Batch021 next, full Beta1 still incomplete.
+
+
 ## Beta1 contextual copyedit 006 — 2026-09-06 (Beta1 incomplete)
 
 - Applied47 reviewed JP/EN/KO corrections across38 overlay files: collapsed spacing47,

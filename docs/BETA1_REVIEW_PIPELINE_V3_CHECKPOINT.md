@@ -1,5 +1,27 @@
 # Beta1 Dense Review Pipeline v3 Checkpoint
 
+## Current: Batch020 COMPLETE / Batch021 next
+
+Date:2026-09-07. Current exact continuation is `docs/BETA1_ASTRA_RESUME_NOW.md`.
+Batch020 directly read84 IDs, approximately281 visible segments: KEEP53,EDIT27,
+excluded4,contextual80,propagated0. Semantic1867f6229a4d398bbfecb15327fbf0f8642139b0;
+heavy34081021753 SUCCESS; scope34081135516 SUCCESS (packet verified first attempt).
+Generated84c30b504afbb167551466ab3c4d0e59da2a2ed5 proves623/42016 (1.483%):
+full_read176,scope_full_read103,manifest_edit344,UNREVIEWED41393,
+CONTEXT_STALE0,LAYOUT_RECHECK0,pending basis none. Runtime PENDING47 unchanged.
+Glyphs1308; layout drift0; invalidated0; no engine/font changes or runtime/APK proof.
+Queue revision21 points to already applied020; recheck actual queue before021.
+Next observed source file014-part99 must be reverified in current tree.
+Use notes/scope/throughput020 for exact IDs, reasons, timings and workflow evidence.
+The measured64s is successful CI job windows, not end-to-end review time.
+All current user restrictions and v3 policy remain in force. Beta1 incomplete.
+
+---
+
+## Historical checkpoint019 (superseded for current state/next action)
+
+# Beta1 Dense Review Pipeline v3 Checkpoint
+
 Date: 2026-09-07
 Status: **Batch 019 COMPLETE / Beta1 INCOMPLETE / Beta2 NOT STARTED**
 
