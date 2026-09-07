@@ -22,7 +22,7 @@
     "90001", "90004"
   ],
   "exclusions": ["70029", "80016", "90011"],
-  "packet_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "packet_sha256": "42e123c4c4cf456c5d46276134ed3594ad35c4e5338c4172877f56bd2d347889",
   "reviewer": "GPT-5.6 Sol",
   "reviewed_at": "2026-09-07",
   "review_method": "Sequential source-order dense full-read. For every row, Japanese meaning/context was read first, then pinned English treatment and its reason, then the Korean was judged for meaning and naturalness. Every ID was directly read; scanner/AI signals were discovery-only and no propagation was credited."
