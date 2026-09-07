@@ -3,64 +3,8 @@
 start_id: 170094
 candidate_count: 430
 pinned_english_sha: a98d9ce29f361d666ec23da0dcfd351f24537ffd
-order: source-file then numeric ID
+order: global numeric ID
 note: candidate packet only; creates no review coverage.
-
-## 170229
-source: translations/korean/messages/msgsec017-part90.toml
-jp_matches_pinned_english: yes
-JP: "砂の都<end>"
-EN: "City of Sand<end>"
-KO: "모래의 도시<end>"
-
-## 170231
-source: translations/korean/messages/msgsec017-part90.toml
-jp_matches_pinned_english: yes
-JP: "目覚め<end>"
-EN: "Awakening<end>"
-KO: "각성<end>"
-
-## 170244
-source: translations/korean/messages/msgsec017-part90.toml
-jp_matches_pinned_english: yes
-JP: "大都市<end>"
-EN: "Metropolis<end>"
-KO: "대도시<end>"
-
-## 170249
-source: translations/korean/messages/msgsec017-part90.toml
-jp_matches_pinned_english: yes
-JP: "水の都<end>"
-EN: "City of Water<end>"
-KO: "물의 도시<end>"
-
-## 170268
-source: translations/korean/messages/msgsec017-part90.toml
-jp_matches_pinned_english: yes
-JP: "三人組<end>"
-EN: "The Trio<end>"
-KO: "삼인조<end>"
-
-## 170281
-source: translations/korean/messages/msgsec017-part90.toml
-jp_matches_pinned_english: yes
-JP: "悲しみ<end>"
-EN: "Sorrow<end>"
-KO: "슬픔<end>"
-
-## 170285
-source: translations/korean/messages/msgsec017-part90.toml
-jp_matches_pinned_english: yes
-JP: "子守歌<end>"
-EN: "Lullaby<end>"
-KO: "자장가<end>"
-
-## 170286
-source: translations/korean/messages/msgsec017-part90.toml
-jp_matches_pinned_english: yes
-JP: "予言者<end>"
-EN: "Prophet<end>"
-KO: "예언자<end>"
 
 ## 170094
 source: translations/korean/messages/msgsec017-part96.toml
@@ -69,33 +13,12 @@ JP: "カタール<end>"
 EN: "Katar<end>"
 KO: "카타르<end>"
 
-## 170101
-source: translations/korean/messages/msgsec017-part96.toml
+## 170095
+source: translations/korean/messages/msgsec017-part99.toml
 jp_matches_pinned_english: yes
-JP: "ヒンディ<end>"
-EN: "Hindi<end>"
-KO: "힌디<end>"
-
-## 170117
-source: translations/korean/messages/msgsec017-part96.toml
-jp_matches_pinned_english: yes
-JP: "セスタス<end>"
-EN: "Cestus<end>"
-KO: "세스타스<end>"
-
-## 170147
-source: translations/korean/messages/msgsec017-part96.toml
-jp_matches_pinned_english: yes
-JP: "クィラス<end>"
-EN: "Cuirass<end>"
-KO: "퀴라스<end>"
-
-## 170228
-source: translations/korean/messages/msgsec017-part96.toml
-jp_matches_pinned_english: yes
-JP: "黒い巨人<end>"
-EN: "Black Giant<end>"
-KO: "검은 거인<end>"
+JP: "キンドジャール<end>"
+EN: "Kindjal<end>"
+KO: "킨잘<end>"
 
 ## 170096
 source: translations/korean/messages/msgsec017-part97.toml
@@ -103,27 +26,6 @@ jp_matches_pinned_english: yes
 JP: "ククリ<end>"
 EN: "Kukri<end>"
 KO: "쿠크리<end>"
-
-## 170108
-source: translations/korean/messages/msgsec017-part97.toml
-jp_matches_pinned_english: yes
-JP: "カマサ<end>"
-EN: "Kamasa<end>"
-KO: "카마사<end>"
-
-## 170110
-source: translations/korean/messages/msgsec017-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジュル<end>"
-EN: "Jur<end>"
-KO: "주르<end>"
-
-## 170095
-source: translations/korean/messages/msgsec017-part99.toml
-jp_matches_pinned_english: yes
-JP: "キンドジャール<end>"
-EN: "Kindjal<end>"
-KO: "킨잘<end>"
 
 ## 170097
 source: translations/korean/messages/msgsec017-part99.toml
@@ -152,6 +54,13 @@ jp_matches_pinned_english: yes
 JP: "ショートボウ<end>"
 EN: "Shortbow<end>"
 KO: "쇼트 보우<end>"
+
+## 170101
+source: translations/korean/messages/msgsec017-part96.toml
+jp_matches_pinned_english: yes
+JP: "ヒンディ<end>"
+EN: "Hindi<end>"
+KO: "힌디<end>"
 
 ## 170102
 source: translations/korean/messages/msgsec017-part99.toml
@@ -195,12 +104,26 @@ JP: "バトルボウ<end>"
 EN: "Battle Bow<end>"
 KO: "배틀 보우<end>"
 
+## 170108
+source: translations/korean/messages/msgsec017-part97.toml
+jp_matches_pinned_english: yes
+JP: "カマサ<end>"
+EN: "Kamasa<end>"
+KO: "카마사<end>"
+
 ## 170109
 source: translations/korean/messages/msgsec017-part99.toml
 jp_matches_pinned_english: yes
 JP: "バトルナックル<end>"
 EN: "Battle Knuckles<end>"
 KO: "배틀 너클<end>"
+
+## 170110
+source: translations/korean/messages/msgsec017-part97.toml
+jp_matches_pinned_english: yes
+JP: "ジュル<end>"
+EN: "Jur<end>"
+KO: "주르<end>"
 
 ## 170111
 source: translations/korean/messages/msgsec017-part99.toml
@@ -243,6 +166,13 @@ jp_matches_pinned_english: yes
 JP: "ベアーナックル<end>"
 EN: "Bare Knuckle<end>"
 KO: "베어 너클<end>"
+
+## 170117
+source: translations/korean/messages/msgsec017-part96.toml
+jp_matches_pinned_english: yes
+JP: "セスタス<end>"
+EN: "Cestus<end>"
+KO: "세스타스<end>"
 
 ## 170118
 source: translations/korean/messages/msgsec017-part99.toml
@@ -446,6 +376,13 @@ jp_matches_pinned_english: yes
 JP: "ホーバーク<end>"
 EN: "Hauberk<end>"
 KO: "호버크<end>"
+
+## 170147
+source: translations/korean/messages/msgsec017-part96.toml
+jp_matches_pinned_english: yes
+JP: "クィラス<end>"
+EN: "Cuirass<end>"
+KO: "퀴라스<end>"
 
 ## 170148
 source: translations/korean/messages/msgsec017-part99.toml
@@ -1007,12 +944,33 @@ JP: "雷獣<end>"
 EN: "Thunder Beast<end>"
 KO: "뇌수<end>"
 
+## 170228
+source: translations/korean/messages/msgsec017-part96.toml
+jp_matches_pinned_english: yes
+JP: "黒い巨人<end>"
+EN: "Black Giant<end>"
+KO: "검은 거인<end>"
+
+## 170229
+source: translations/korean/messages/msgsec017-part90.toml
+jp_matches_pinned_english: yes
+JP: "砂の都<end>"
+EN: "City of Sand<end>"
+KO: "모래의 도시<end>"
+
 ## 170230
 source: translations/korean/messages/msgsec017-part99.toml
 jp_matches_pinned_english: yes
 JP: "スタッフロール<end>"
 EN: "Credits<end>"
 KO: "스태프 롤<end>"
+
+## 170231
+source: translations/korean/messages/msgsec017-part90.toml
+jp_matches_pinned_english: yes
+JP: "目覚め<end>"
+EN: "Awakening<end>"
+KO: "각성<end>"
 
 ## 170232
 source: translations/korean/messages/msgsec017-part99.toml
@@ -1098,6 +1056,13 @@ JP: "城下<end>"
 EN: "Castle Town<end>"
 KO: "성하<end>"
 
+## 170244
+source: translations/korean/messages/msgsec017-part90.toml
+jp_matches_pinned_english: yes
+JP: "大都市<end>"
+EN: "Metropolis<end>"
+KO: "대도시<end>"
+
 ## 170245
 source: translations/korean/messages/msgsec017-part99.toml
 jp_matches_pinned_english: yes
@@ -1125,6 +1090,13 @@ jp_matches_pinned_english: yes
 JP: "港町<end>"
 EN: "Port Town<end>"
 KO: "항구도시<end>"
+
+## 170249
+source: translations/korean/messages/msgsec017-part90.toml
+jp_matches_pinned_english: yes
+JP: "水の都<end>"
+EN: "City of Water<end>"
+KO: "물의 도시<end>"
 
 ## 170250
 source: translations/korean/messages/msgsec017-part99.toml
@@ -1252,6 +1224,13 @@ JP: "三枚目<end>"
 EN: "Comic Relief<end>"
 KO: "익살꾼<end>"
 
+## 170268
+source: translations/korean/messages/msgsec017-part90.toml
+jp_matches_pinned_english: yes
+JP: "三人組<end>"
+EN: "The Trio<end>"
+KO: "삼인조<end>"
+
 ## 170269
 source: translations/korean/messages/msgsec017-part99.toml
 jp_matches_pinned_english: yes
@@ -1336,6 +1315,13 @@ JP: "孤独<end>"
 EN: "Solitude<end>"
 KO: "고독<end>"
 
+## 170281
+source: translations/korean/messages/msgsec017-part90.toml
+jp_matches_pinned_english: yes
+JP: "悲しみ<end>"
+EN: "Sorrow<end>"
+KO: "슬픔<end>"
+
 ## 170282
 source: translations/korean/messages/msgsec017-part99.toml
 jp_matches_pinned_english: yes
@@ -1356,6 +1342,20 @@ jp_matches_pinned_english: yes
 JP: "祭<end>"
 EN: "Festival<end>"
 KO: "축제<end>"
+
+## 170285
+source: translations/korean/messages/msgsec017-part90.toml
+jp_matches_pinned_english: yes
+JP: "子守歌<end>"
+EN: "Lullaby<end>"
+KO: "자장가<end>"
+
+## 170286
+source: translations/korean/messages/msgsec017-part90.toml
+jp_matches_pinned_english: yes
+JP: "予言者<end>"
+EN: "Prophet<end>"
+KO: "예언자<end>"
 
 ## 170287
 source: translations/korean/messages/msgsec017-part99.toml
@@ -1412,174 +1412,6 @@ jp_matches_pinned_english: yes
 JP: "猫屋敷転送室の雰囲気音<end>"
 EN: "Cat Manor Teleportation Room Ambience<end>"
 KO: "고양이 저택 전송실 환경음<end>"
-
-## 180088
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "栗色の<end>"
-EN: "Chestnut<end>"
-KO: "밤색의<end>"
-
-## 180089
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "金色の<end>"
-EN: "Golden<end>"
-KO: "금빛의<end>"
-
-## 180091
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "優しき<end>"
-EN: "Gentle<end>"
-KO: "다정한<end>"
-
-## 180093
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "信念の<end>"
-EN: "Steadfast<end>"
-KO: "신념의<end>"
-
-## 180094
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "荒ぶる<end>"
-EN: "Raging<end>"
-KO: "사나운<end>"
-
-## 180101
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "不屈の<end>"
-EN: "Indomitable<end>"
-KO: "불굴의<end>"
-
-## 180103
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "気高き<end>"
-EN: "Noble<end>"
-KO: "고결한<end>"
-
-## 180106
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "深紅の<end>"
-EN: "Crimson<end>"
-KO: "진홍의<end>"
-
-## 180109
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "黄金の<end>"
-EN: "Gold<end>"
-KO: "황금의<end>"
-
-## 180111
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "誠心の<end>"
-EN: "Sincere<end>"
-KO: "성심의<end>"
-
-## 180118
-source: translations/korean/messages/msgsec018-part90.toml
-jp_matches_pinned_english: yes
-JP: "大地の<end>"
-EN: "Earth<end>"
-KO: "대지의<end>"
-
-## 180092
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "探求する<end>"
-EN: "Seeking<end>"
-KO: "탐구하는<end>"
-
-## 180095
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "静かなる<end>"
-EN: "Serene<end>"
-KO: "고요한<end>"
-
-## 180105
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "新たなる<end>"
-EN: "New<end>"
-KO: "새로운<end>"
-
-## 180108
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "琥珀色の<end>"
-EN: "Amber<end>"
-KO: "호박색의<end>"
-
-## 180110
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "豪胆なる<end>"
-EN: "Dauntless<end>"
-KO: "대담한<end>"
-
-## 180112
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "求道する<end>"
-EN: "Truth-Seeking<end>"
-KO: "구도하는<end>"
-
-## 180113
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "専心たる<end>"
-EN: "Devoted<end>"
-KO: "전념하는<end>"
-
-## 180114
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "勇猛なる<end>"
-EN: "Valiant<end>"
-KO: "용맹한<end>"
-
-## 180115
-source: translations/korean/messages/msgsec018-part96.toml
-jp_matches_pinned_english: yes
-JP: "冷徹なる<end>"
-EN: "Coolheaded<end>"
-KO: "냉철한<end>"
-
-## 180100
-source: translations/korean/messages/msgsec018-part97.toml
-jp_matches_pinned_english: yes
-JP: "豪腕の<end>"
-EN: "Strong-Armed<end>"
-KO: "괴력의<end>"
-
-## 180116
-source: translations/korean/messages/msgsec018-part97.toml
-jp_matches_pinned_english: yes
-JP: "烈火の<end>"
-EN: "Blazing<end>"
-KO: "작열의<end>"
-
-## 180120
-source: translations/korean/messages/msgsec018-part97.toml
-jp_matches_pinned_english: yes
-JP: "烈たる<end>"
-EN: "Fierce<end>"
-KO: "맹렬한<end>"
-
-## 180121
-source: translations/korean/messages/msgsec018-part97.toml
-jp_matches_pinned_english: yes
-JP: "剛たる<end>"
-EN: "Mighty<end>"
-KO: "강인한<end>"
 
 ## 180000
 source: translations/korean/messages/msgsec018-part99.toml
@@ -2106,12 +1938,61 @@ JP: "青い<end>"
 EN: "Blue<end>"
 KO: "푸른<end>"
 
+## 180088
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "栗色の<end>"
+EN: "Chestnut<end>"
+KO: "밤색의<end>"
+
+## 180089
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "金色の<end>"
+EN: "Golden<end>"
+KO: "금빛의<end>"
+
 ## 180090
 source: translations/korean/messages/msgsec018-part99.toml
 jp_matches_pinned_english: yes
 JP: "猛き<end>"
 EN: "Fierce<end>"
 KO: "용맹한<end>"
+
+## 180091
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "優しき<end>"
+EN: "Gentle<end>"
+KO: "다정한<end>"
+
+## 180092
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "探求する<end>"
+EN: "Seeking<end>"
+KO: "탐구하는<end>"
+
+## 180093
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "信念の<end>"
+EN: "Steadfast<end>"
+KO: "신념의<end>"
+
+## 180094
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "荒ぶる<end>"
+EN: "Raging<end>"
+KO: "사나운<end>"
+
+## 180095
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "静かなる<end>"
+EN: "Serene<end>"
+KO: "고요한<end>"
 
 ## 180096
 source: translations/korean/messages/msgsec018-part99.toml
@@ -2141,12 +2022,33 @@ JP: "風の<end>"
 EN: "Wind<end>"
 KO: "바람의<end>"
 
+## 180100
+source: translations/korean/messages/msgsec018-part97.toml
+jp_matches_pinned_english: yes
+JP: "豪腕の<end>"
+EN: "Strong-Armed<end>"
+KO: "괴력의<end>"
+
+## 180101
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "不屈の<end>"
+EN: "Indomitable<end>"
+KO: "불굴의<end>"
+
 ## 180102
 source: translations/korean/messages/msgsec018-part99.toml
 jp_matches_pinned_english: yes
 JP: "聡き<end>"
 EN: "Clever<end>"
 KO: "총명한<end>"
+
+## 180103
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "気高き<end>"
+EN: "Noble<end>"
+KO: "고결한<end>"
 
 ## 180104
 source: translations/korean/messages/msgsec018-part99.toml
@@ -2155,12 +2057,89 @@ JP: "駆け抜ける<end>"
 EN: "Fleet<end>"
 KO: "달려나간다<end>"
 
+## 180105
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "新たなる<end>"
+EN: "New<end>"
+KO: "새로운<end>"
+
+## 180106
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "深紅の<end>"
+EN: "Crimson<end>"
+KO: "진홍의<end>"
+
 ## 180107
 source: translations/korean/messages/msgsec018-part99.toml
 jp_matches_pinned_english: yes
 JP: "蒼き<end>"
 EN: "Azure<end>"
 KO: "푸른<end>"
+
+## 180108
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "琥珀色の<end>"
+EN: "Amber<end>"
+KO: "호박색의<end>"
+
+## 180109
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "黄金の<end>"
+EN: "Gold<end>"
+KO: "황금의<end>"
+
+## 180110
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "豪胆なる<end>"
+EN: "Dauntless<end>"
+KO: "대담한<end>"
+
+## 180111
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "誠心の<end>"
+EN: "Sincere<end>"
+KO: "성심의<end>"
+
+## 180112
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "求道する<end>"
+EN: "Truth-Seeking<end>"
+KO: "구도하는<end>"
+
+## 180113
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "専心たる<end>"
+EN: "Devoted<end>"
+KO: "전념하는<end>"
+
+## 180114
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "勇猛なる<end>"
+EN: "Valiant<end>"
+KO: "용맹한<end>"
+
+## 180115
+source: translations/korean/messages/msgsec018-part96.toml
+jp_matches_pinned_english: yes
+JP: "冷徹なる<end>"
+EN: "Coolheaded<end>"
+KO: "냉철한<end>"
+
+## 180116
+source: translations/korean/messages/msgsec018-part97.toml
+jp_matches_pinned_english: yes
+JP: "烈火の<end>"
+EN: "Blazing<end>"
+KO: "작열의<end>"
 
 ## 180117
 source: translations/korean/messages/msgsec018-part99.toml
@@ -2169,12 +2148,33 @@ JP: "氷の<end>"
 EN: "Ice<end>"
 KO: "얼음의<end>"
 
+## 180118
+source: translations/korean/messages/msgsec018-part90.toml
+jp_matches_pinned_english: yes
+JP: "大地の<end>"
+EN: "Earth<end>"
+KO: "대지의<end>"
+
 ## 180119
 source: translations/korean/messages/msgsec018-part99.toml
 jp_matches_pinned_english: yes
 JP: "嵐の<end>"
 EN: "Storm<end>"
 KO: "폭풍의<end>"
+
+## 180120
+source: translations/korean/messages/msgsec018-part97.toml
+jp_matches_pinned_english: yes
+JP: "烈たる<end>"
+EN: "Fierce<end>"
+KO: "맹렬한<end>"
+
+## 180121
+source: translations/korean/messages/msgsec018-part97.toml
+jp_matches_pinned_english: yes
+JP: "剛たる<end>"
+EN: "Mighty<end>"
+KO: "강인한<end>"
 
 ## 180122
 source: translations/korean/messages/msgsec018-part99.toml
@@ -2378,328 +2378,6 @@ jp_matches_pinned_english: yes
 JP: "ノーブル伯<end>"
 EN: "Count of Noble<end>"
 KO: "노블 백작<end>"
-
-## 190036
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "闇の王女<end>"
-EN: "Princess of Darkness<end>"
-KO: "어둠의 왕녀<end>"
-
-## 190051
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "朱雀将軍<end>"
-EN: "Vermilion Bird General<end>"
-KO: "주작장군<end>"
-
-## 190081
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "水の巫女<end>"
-EN: "Priestess of Water<end>"
-KO: "물의 무녀<end>"
-
-## 190085
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イオンズ<end>"
-EN: "Ions<end>"
-KO: "이온즈<end>"
-
-## 190090
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イオンズ<end>"
-EN: "Ions<end>"
-KO: "이온즈<end>"
-
-## 190095
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イオンズ<end>"
-EN: "Ions<end>"
-KO: "이온즈<end>"
-
-## 190100
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ<end>"
-EN: "Iria<end>"
-KO: "이샤<end>"
-
-## 190105
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ<end>"
-EN: "Iria<end>"
-KO: "이샤<end>"
-
-## 190110
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ<end>"
-EN: "Iria<end>"
-KO: "이샤<end>"
-
-## 190115
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ<end>"
-EN: "Iria<end>"
-KO: "이샤<end>"
-
-## 190161
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "風の巫女<end>"
-EN: "Priestess of Wind<end>"
-KO: "바람의 무녀<end>"
-
-## 190165
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "エステル<end>"
-EN: "Esther<end>"
-KO: "에스텔<end>"
-
-## 190170
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "エステル<end>"
-EN: "Esther<end>"
-KO: "에스텔<end>"
-
-## 190171
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "地の巫女<end>"
-EN: "Priestess of Earth<end>"
-KO: "땅의 무녀<end>"
-
-## 190175
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "エステル<end>"
-EN: "Esther<end>"
-KO: "에스텔<end>"
-
-## 190176
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "地の巫女<end>"
-EN: "Priestess of Earth<end>"
-KO: "땅의 무녀<end>"
-
-## 190216
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "元救世主<end>"
-EN: "Former Savior<end>"
-KO: "전 구세주<end>"
-
-## 190220
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "オイフェ<end>"
-EN: "Aoife<end>"
-KO: "오이페<end>"
-
-## 190227
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ゴブリン<end>"
-EN: "Goblin<end>"
-KO: "고블린<end>"
-
-## 190250
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "カフィン<end>"
-EN: "Coffin<end>"
-KO: "카핀<end>"
-
-## 190261
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "青竜将軍<end>"
-EN: "Azure Dragon General<end>"
-KO: "청룡장군<end>"
-
-## 190266
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "青竜将軍<end>"
-EN: "Azure Dragon General<end>"
-KO: "청룡장군<end>"
-
-## 190271
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "青竜将軍<end>"
-EN: "Azure Dragon General<end>"
-KO: "청룡장군<end>"
-
-## 190276
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "青竜将軍<end>"
-EN: "Azure Dragon General<end>"
-KO: "청룡장군<end>"
-
-## 190281
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ゴブゴブ団の団長<end>"
-EN: "Leader of the Gob-Gob Gang<end>"
-KO: "고브고브단 단장<end>"
-
-## 190282
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ゴブリン<end>"
-EN: "Goblin<end>"
-KO: "고블린<end>"
-
-## 190286
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "リベルダムのお嬢様<end>"
-EN: "Young Lady of Liberdam<end>"
-KO: "리벨덤의 아가씨<end>"
-
-## 190291
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "解放軍のリーダー<end>"
-EN: "Leader of the Liberation Army<end>"
-KO: "해방군의 지도자<end>"
-
-## 190296
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "閃光の牝鹿<end>"
-EN: "The Flashing Doe<end>"
-KO: "섬광의 암사슴<end>"
-
-## 190301
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "玄武将軍<end>"
-EN: "Black Tortoise General<end>"
-KO: "현무장군<end>"
-
-## 190311
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ディンガル皇帝<end>"
-EN: "Emperor of Dyneskal<end>"
-KO: "딘갈 황제<end>"
-
-## 190316
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "死神皇帝<end>"
-EN: "Death-God Emperor<end>"
-KO: "사신황제<end>"
-
-## 190321
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "打ち勝つもの<end>"
-EN: "The One Who Overcomes<end>"
-KO: "극복하는 자<end>"
-
-## 190326
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "セラの姉<end>"
-EN: "Sera's Older Sister<end>"
-KO: "세라의 언니<end>"
-
-## 190331
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "永遠の少女<end>"
-EN: "Eternal Maiden<end>"
-KO: "영원의 소녀<end>"
-
-## 190336
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "東方の博士<end>"
-EN: "Scholar from the East<end>"
-KO: "동방의 박사<end>"
-
-## 190341
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "おごれる王<end>"
-EN: "Arrogant King<end>"
-KO: "오만한 왕<end>"
-
-## 190346
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "黒の祈り<end>"
-EN: "Black Prayer<end>"
-KO: "검은 기도<end>"
-
-## 190350
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク<end>"
-EN: "Zsilak<end>"
-KO: "지라크<end>"
-
-## 190351
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "白虎将軍<end>"
-EN: "White Tiger General<end>"
-KO: "백호장군<end>"
-
-## 190355
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク<end>"
-EN: "Zsilak<end>"
-KO: "지라크<end>"
-
-## 190360
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク<end>"
-EN: "Zsilak<end>"
-KO: "지라크<end>"
-
-## 190365
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク<end>"
-EN: "Zsilak<end>"
-KO: "지라크<end>"
-
-## 190370
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジリオン<end>"
-EN: "Zillion<end>"
-KO: "질리온<end>"
-
-## 190375
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジリオン<end>"
-EN: "Zillion<end>"
-KO: "질리온<end>"
-
-## 190380
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジリオン<end>"
-EN: "Zillion<end>"
-KO: "질리온<end>"
 
 ## 190000
 source: translations/korean/messages/msgsec019-part99.toml
@@ -2953,6 +2631,13 @@ JP: "アトレイア<end>"
 EN: "Atleia<end>"
 KO: "아트레이아<end>"
 
+## 190036
+source: translations/korean/messages/msgsec019-part97.toml
+jp_matches_pinned_english: yes
+JP: "闇の王女<end>"
+EN: "Princess of Darkness<end>"
+KO: "어둠의 왕녀<end>"
+
 ## 190037
 source: translations/korean/messages/msgsec019-part99.toml
 jp_matches_pinned_english: yes
@@ -3015,4 +2700,319 @@ jp_matches_pinned_english: yes
 JP: "アンギルダン<end>"
 EN: "Angeerdan<end>"
 KO: "앙길단<end>"
+
+## 190046
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "反骨の名将<end>"
+EN: "Renowned Defiant General<end>"
+KO: "반골의 명장<end>"
+
+## 190047
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190048
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　４月　１１日<end>"
+EN: "April 11<end>"
+KO: " 4월 11일<end>"
+
+## 190049
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "真紅のプレートメイルに身を包み大斧を振り回す<line-break>老傭兵。若いころはバロルと共に戦場を駆けめぐ<line-break>り幾千の功をたてたが、バロルが闇に堕ちると意<line-break>見が衝突し、処刑されかけて出奔する。<line-break>バロル死後にエリュマルク帝に請われ、将軍を<line-break>勤めるも諫言が皇帝の怒りをかい、<line-break>またも処刑されかけて出奔し現在に至る。<line-break>　<end>"
+EN: "An elderly mercenary in crimson plate mail who wields a great axe. He fought beside Balor, but fled when Balor fell to darkness. After Balor's death, Emperor Elmark made him a general; his criticism angered the emperor, and he again escaped execution.<end>"
+KO: "진홍빛 플레이트 메일을 두르고 거대한 도끼를 휘두르는 노용병. 젊은 시절 발로르와 함께 전장을 누비며 수천의 공을 세웠으나 발로르가 어둠에 빠지자 의견이 충돌해 처형당할 뻔한 끝에 도망쳤다. 발로르 사후 엘류마르크 황제의 요청으로 장군이 되었지만 간언이 황제의 노여움을 사 다시 처형당할 뻔해 출분했고 현재에 이르렀다.<end>"
+
+## 190050
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンギルダン<end>"
+EN: "Angeerdan<end>"
+KO: "앙길단<end>"
+
+## 190051
+source: translations/korean/messages/msgsec019-part97.toml
+jp_matches_pinned_english: yes
+JP: "朱雀将軍<end>"
+EN: "Vermilion Bird General<end>"
+KO: "주작장군<end>"
+
+## 190052
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190053
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　４月　１１日<end>"
+EN: "April 11<end>"
+KO: " 4월 11일<end>"
+
+## 190054
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "真紅のプレートメイルに身を包み大斧を振り回す<line-break>老将軍。エリュマルク帝のもとを出奔し、傭兵を<line-break>していたが、ネメアの強さに憧れ、ネメアが帝位<line-break>につくと一兵卒で構わないからと仕官する。<line-break>ネメアは彼を重用し、南方攻略軍総司令官の職を<line-break>与える。朱雀将軍アンギルダンの誕生である。<line-break><line-break>　<end>"
+EN: "An elderly general in crimson plate mail who wields a great axe. After fleeing Emperor Elmark, he became a mercenary. Awed by Nemea, he offered his service when Nemea took the throne. Nemea made him supreme commander of the Southern Campaign Army: Angeerdan, Vermilion Bird General.<end>"
+KO: "진홍빛 플레이트 메일을 두르고 거대한 도끼를 휘두르는 노장군. 엘류마르크 황제 곁을 떠나 용병으로 지내다가 네메아의 강함에 매료되어, 네메아가 제위에 오르자 일개 병사라도 좋다며 출사한다. 네메아는 그를 중용해 남방공략군 총사령관의 직책을 맡긴다. 주작장군 앙길단의 탄생이다.<end>"
+
+## 190055
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンギルダン<end>"
+EN: "Angeerdan<end>"
+KO: "앙길단<end>"
+
+## 190056
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "真紅の戦匠<end>"
+EN: "Crimson Master of War<end>"
+KO: "진홍의 전장<end>"
+
+## 190057
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190058
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　４月　１１日<end>"
+EN: "April 11<end>"
+KO: " 4월 11일<end>"
+
+## 190059
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "真紅のプレートメイルに身を包み大斧を振り回す<line-break>ディンガル帝国の朱雀将軍。<line-break>朱雀軍を率いて、不可能と言われた分断の<line-break>山脈越えを成功させる。この史上初の快挙は、<line-break>アンギルダンの山越えとして史書に記される<line-break>こととなる。しかし、ロストール軍を大敗させて<line-break>油断したところをゼネテスに急襲され、<line-break>朱雀軍は壊滅する。<end>"
+EN: "Dyneskal's Vermilion Bird General, clad in crimson plate mail and wielding a great axe. He led his army across the Dividing Mountains, a feat remembered as Angeerdan's Mountain Crossing. After crushing Rostorl's army, Xenetes surprised him and annihilated the Vermilion Bird Army.<end>"
+KO: "진홍빛 플레이트 메일을 두르고 거대한 도끼를 휘두르는 딩갈 제국의 주작장군. 주작군을 이끌고 불가능하다고 여겨졌던 분단의 산맥 횡단에 성공한다. 이 역사상 최초의 위업은 '앙길단의 산 넘기'로 사서에 기록된다. 그러나 로스톨군을 크게 격파한 뒤 방심한 틈에 제네테스의 기습을 받아 주작군은 괴멸한다.<end>"
+
+## 190060
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンティノ<end>"
+EN: "Antino<end>"
+KO: "안티노<end>"
+
+## 190061
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "恐怖の魔獣商<end>"
+EN: "Dread Monster Merchant<end>"
+KO: "공포의 마수상<end>"
+
+## 190062
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190063
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　５月　　２日<end>"
+EN: "May 2<end>"
+KO: " 5월 2일<end>"
+
+## 190064
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダムの有力者で武器商人。<line-break>兵器モンスター開発の第一人者。<line-break>いつも、いやらしい愛想笑いを浮かべている。<line-break>親友のロティと共にディンガル帝国と東方国家の<line-break>間に争いの火種をまいて武器や兵器モンスターを<line-break>売りさばき、大金を得ている。<line-break><line-break>　<end>"
+EN: "An influential figure in Liberdam and an arms merchant. The foremost authority on developing weaponized monsters. He always wears an unpleasant, ingratiating smile. Together with his close friend Lottie, he sows conflict between the Dyneskal Empire and the eastern nations, then makes a fortune selling weapons and weaponized monsters.<end>"
+KO: "리벨덤의 유력자이자 무기상. 병기 몬스터 개발의 일인자다. 언제나 음흉한 웃음을 띠고 있다. 절친 로티와 함께 딘갈 제국과 동방 국가 사이에 분쟁의 불씨를 뿌리고 무기와 병기 몬스터를 팔아 막대한 돈을 벌고 있다.<end>"
+
+## 190065
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンティノ<end>"
+EN: "Antino<end>"
+KO: "안티노<end>"
+
+## 190066
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "浅慮の魔獣商<end>"
+EN: "Shortsighted Monster Merchant<end>"
+KO: "경솔한 마수상<end>"
+
+## 190067
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190068
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　５月　　２日<end>"
+EN: "May 2<end>"
+KO: " 5월 2일<end>"
+
+## 190069
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダムの有力者で武器商人。同じく有力商人<line-break>のロティと共にディンガル帝国と東方国家の間に<line-break>争いの火種をまいてもうけていたが、次第に<line-break>ロティをねたましく思うようになり、暗殺する。<line-break>次にディンガルへリベルダムを売り渡し、地位を<line-break>得ようと画策。ディンガルの青竜将軍カルラと<line-break>手を組むが、結果的にリベルダムも地位も失うこ<line-break>ととなる。<end>"
+EN: "An influential Liberdam arms merchant. He and Lottie profited by sowing conflict between Dyneskal and the eastern nations, but Antino grew jealous and had Lottie killed. He then tried to sell Liberdam to Dyneskal. Though he joined Karula, he lost Liberdam and the status he sought.<end>"
+KO: "리벨덤의 유력자이자 무기상. 같은 유력 상인 로티와 함께 딩갈 제국과 동방 국가 사이에 분쟁의 불씨를 뿌려 이익을 챙겼으나 점차 로티를 시기하게 되어 암살한다. 다음에는 리벨덤을 딩갈에 팔아넘기고 지위를 얻으려 획책해 딩갈의 청룡장군 카를라와 손잡지만, 결과적으로 리벨덤도 지위도 모두 잃게 된다.<end>"
+
+## 190070
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンティノ<end>"
+EN: "Antino<end>"
+KO: "안티노<end>"
+
+## 190071
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "我執の魔獣商<end>"
+EN: "Self-Obsessed Monster Merchant<end>"
+KO: "아집의 마수상<end>"
+
+## 190072
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190073
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　５月　　２日<end>"
+EN: "May 2<end>"
+KO: " 5월 2일<end>"
+
+## 190074
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "リベルダムの有力者。モンスターを軍用に改造し<line-break>各国間に戦争をあおって巨利を得ていた。リベル<line-break>ダムにカルラが迫ると、内通し、地位を保とうと<line-break>したが、カルラに裏切られ、逃亡する。その後、<line-break>魔人アーギルシャイアにさらわれ、究極生物エク<line-break>リプスの開発をさせられる。アーギルシャイアが<line-break>倒された後も失踪して開発を続け、エクリプスを<line-break>完成させたが、その下敷きになって死亡した<end>"
+EN: "A Liberdam arms merchant who profited from weaponized monsters and war. When Karula closed in, he secretly aided her, but she betrayed him. Argyleshire then forced him to develop Eclipse, the Ultimate Life-Form. He completed Eclipse, only to be crushed to death beneath it.<end>"
+KO: "리벨덤의 유력자. 몬스터를 군용으로 개조하고 각국 사이의 전쟁을 부추겨 막대한 이익을 얻었다. 카를라가 리벨덤에 접근하자 내통해 지위를 지키려 했으나 배신당해 도주한다. 이후 마인 아르길샤이어에게 납치되어 궁극생물 이클립스를 개발하게 된다. 아르길샤이어가 쓰러진 뒤에도 자취를 감추고 개발을 계속해 완성했지만 그 아래 깔려 사망했다.<end>"
+
+## 190075
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "イークレムン<end>"
+EN: "Iiklmn<end>"
+KO: "이크레문<end>"
+
+## 190076
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "ミズチと話す娘<end>"
+EN: "Girl Who Speaks with Mizuchi<end>"
+KO: "미즈치와 이야기하는 소녀<end>"
+
+## 190077
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190078
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　７月　２１日<end>"
+EN: "July 21<end>"
+KO: " 7월 21일<end>"
+
+## 190079
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "水の精霊神に仕える巫女。<line-break>水の妖精ミズチと会話することができる不思議な<line-break>少女。心優しく、傷ついたものを見過ごすことが<line-break>できない。<line-break><line-break><line-break><line-break>　<end>"
+EN: "A priestess who serves the Spirit God of Water. A mysterious girl able to converse with Mizuchi, a water spirit. Kindhearted, she cannot turn away from anyone who is hurt.<end>"
+KO: "물의 정령신을 섬기는 무녀. 물의 요정 미즈치와 대화할 수 있는 신비한 소녀. 마음이 상냥해 상처 입은 존재를 그냥 지나치지 못한다.<end>"
+
+## 190080
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "イークレムン<end>"
+EN: "Iiklmn<end>"
+KO: "이크레문<end>"
+
+## 190081
+source: translations/korean/messages/msgsec019-part97.toml
+jp_matches_pinned_english: yes
+JP: "水の巫女<end>"
+EN: "Priestess of Water<end>"
+KO: "물의 무녀<end>"
+
+## 190082
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190083
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　７月　２１日<end>"
+EN: "July 21<end>"
+KO: " 7월 21일<end>"
+
+## 190084
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "水の巫女。初代水の巫女ネイの子孫。<line-break>アキュリュース陥落時に水の巫女として覚醒。<line-break>実はアンギルダンと先代の水の巫女ルフェイ<line-break>との間に生まれた子供である。<line-break>心優しく、傷ついたものを見過ごすことが<line-break>できない性格のため、彼女を慕う人は多い。<line-break>そんな彼女の性格は、敵兵にも尊敬された<line-break>父アンギルダン譲りなのかもしれない。<end>"
+EN: "The Priestess of Water and descendant of Nei, the first Priestess of Water. She awakened when Aqyurius fell. She is the child of Angeerdan and Lufei, the previous Priestess of Water. Her kindness leaves her unable to ignore anyone in need, a trait perhaps inherited from Angeerdan.<end>"
+KO: "물의 무녀. 초대 물의 무녀 네이의 후손. 아큐류스 함락 당시 물의 무녀로 각성했다. 사실 앙길단과 선대 물의 무녀 루페이 사이에서 태어난 아이. 마음이 착하고 다친 이를 외면하지 못하는 성격이라 그녀를 따르는 사람이 많다. 그런 성품은 적병에게도 존경받았던 아버지 앙길단에게서 물려받은 것일지도 모른다.<end>"
+
+## 190085
+source: translations/korean/messages/msgsec019-part97.toml
+jp_matches_pinned_english: yes
+JP: "イオンズ<end>"
+EN: "Ions<end>"
+KO: "이온즈<end>"
+
+## 190086
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "封士<end>"
+EN: "Sealer<end>"
+KO: "봉사<end>"
+
+## 190087
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間<end>"
+EN: "Human<end>"
+KO: "인간<end>"
+
+## 190088
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "　６月　　８日<end>"
+EN: "June 8<end>"
+KO: " 6월 8일<end>"
+
+## 190089
+source: translations/korean/messages/msgsec019-part99.toml
+jp_matches_pinned_english: yes
+JP: "ノトゥーン神官。もとは荒くれ者の傭兵だったが<line-break>アンギルダンに出会ったことにより自分の小ささ<line-break>に気付き、天空神ノトゥーンに仕える神官として<line-break>生きることを決心する。その後、他人の何十倍も<line-break>努力してアルノートゥンで一番の法力を持つ神官<line-break>となった。古代の怪物退治に功があり封士の<line-break>異名を持つ。<line-break>　<end>"
+EN: "A Notun Priest. Once a rough mercenary, he realized his own smallness after meeting Angeerdan and resolved to live as a priest serving Notun, the Sky God. By working many times harder than anyone else, he became the priest with the greatest holy power in Alnortun. His achievements in slaying ancient monsters earned him the title of Sealer.<end>"
+KO: "노툰 신관. 원래 거친 용병이었으나 앙길단을 만나 자신의 작음을 깨닫고 천공신 노툰을 섬기는 신관으로 살기로 결심한다. 이후 남들보다 몇십 배 노력해 알노툰에서 가장 높은 법력을 지닌 신관이 되었다. 고대 괴물 토벌에 공이 있어 봉사라는 별칭을 지닌다.<end>"
+
+## 190090
+source: translations/korean/messages/msgsec019-part97.toml
+jp_matches_pinned_english: yes
+JP: "イオンズ<end>"
+EN: "Ions<end>"
+KO: "이온즈<end>"
 
