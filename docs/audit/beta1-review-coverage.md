@@ -5,16 +5,16 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **4,614 (10.982%)**
+- Valid contextual review: **4,643 (11.051%)**
   - legacy direct `full_read`: **176**
   - dense `scope_full_read`: **3,713**
-  - direct `manifest_edit`: **725**
+  - direct `manifest_edit`: **754**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **37,402**
-- Approved registered manifest records (historical, non-deduplicated): **729**
-- Pending batches lacking a registered review basis: **029**
+- `UNREVIEWED` for contextual purposes: **37,373**
+- Approved registered manifest records (historical, non-deduplicated): **758**
+- Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
 Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.
@@ -86,7 +86,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 026 | REGISTERED | 7 | 7 | `docs/audit/beta1-contextual-copyedit-026-reviewed.json` |
 | 027 | REGISTERED | 67 | 67 | `docs/audit/beta1-contextual-copyedit-027-reviewed.json` |
 | 028 | REGISTERED | 61 | 61 | `docs/audit/beta1-contextual-copyedit-028-reviewed.json` |
-| 029 | PENDING_BASIS | 29 | 29 | `docs/audit/beta1-contextual-copyedit-029-reviewed.json` |
+| 029 | REGISTERED | 29 | 29 | `docs/audit/beta1-contextual-copyedit-029-reviewed.json` |
 
 ## Completion/quality rule
 
