@@ -84,7 +84,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 025 | REGISTERED | 77 | 77 | `docs/audit/beta1-contextual-copyedit-025-reviewed.json` |
 | 026 | REGISTERED | 7 | 7 | `docs/audit/beta1-contextual-copyedit-026-reviewed.json` |
 | 027 | REGISTERED | 67 | 67 | `docs/audit/beta1-contextual-copyedit-027-reviewed.json` |
-| 028 | PENDING_BASIS | 63 | 63 | `docs/audit/beta1-contextual-copyedit-028-reviewed.json` |
+| 028 | PENDING_BASIS | 61 | 61 | `docs/audit/beta1-contextual-copyedit-028-reviewed.json` |
 
 ## Completion/quality rule
 
