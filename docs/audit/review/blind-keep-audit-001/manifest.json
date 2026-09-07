@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "audit_id": "BA-KEEP-001",
+  "korean_head": "730c8ec3e4d8d76596184b68b1a827e27ca1379d",
+  "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "item_count": 200,
+  "context_radius": 2,
+  "packet_sha256": "a1d511b677439b928a650dbfd1e83e488b3b96d65d70caea51535192389277fc",
+  "blinding": {
+    "original_ids_hidden": true,
+    "batch_scope_hidden": true,
+    "source_paths_hidden": true,
+    "reviewer_should_not_search_repository": true
+  }
+}
