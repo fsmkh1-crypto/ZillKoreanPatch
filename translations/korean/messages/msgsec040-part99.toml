@@ -198,7 +198,7 @@ korean = "<if><value:$01><equal>5진짜 리벨덤이야. …대단해.<end>…�
 
 ["400049"]
 japanese = "<if><value:$01><equal>5あ、あんた、本物の<line-break>勇者ネメアだったんだな！ <end>…さすがだ。 <end>"
-korean = "<if><value:$01><equal>5너, 너 진짜 용자 네메아였구나!<end>…역시 대단해.<end>"
+korean = "<if><value:$01><equal>5너, 너 진짜 용사 네메아였구나!<end>…역시 대단해.<end>"
 
 ["400050"]
 japanese = "<if><value:$01><equal>5…お、俺、いつか、あんたを<line-break>越えてやるぜ！<line-break>　<line-break>んじゃ、俺はちょっと町を見てくる。<line-break>町を出るときに<line-break>また会おうぜ、<value:$28>！ <end><if><value:$01><equal>14<value:$28>、<line-break>また町を出るときに合流じゃ。 <end>…先に行く。 <end>"
