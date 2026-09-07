@@ -21,7 +21,7 @@
     "160001", "160002", "160003", "160004", "160005", "160007", "160008", "160009", "160010", "160011", "160012", "160013", "160016", "160019", "160020", "160025", "160027", "160029", "160030", "160031", "160032", "160033", "160034", "160035", "160038", "160041", "160044", "160046", "160047", "160049", "160051", "160053", "160055", "160061", "160063", "160072", "160073", "160076", "160078", "160081"
   ],
   "exclusions": ["140021", "150021", "160023"],
-  "packet_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "packet_sha256": "af440d9dfc720af08ff1e653fe3d402544ec818e8f7dddcb4173731bf8f63377",
   "reviewer": "GPT-5.6 Sol",
   "reviewed_at": "2026-09-07",
   "review_method": "Direct numeric/source-order read: Japanese meaning and adjacent dialogue/state context, then pinned English treatment and its reason, then Korean accuracy/naturalness. All 129 IDs and all displayed states were read. No scanner-only KEEP or propagation. Internal section/comment markers are exclusions only."
