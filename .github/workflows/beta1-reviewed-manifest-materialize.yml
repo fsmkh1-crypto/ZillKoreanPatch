@@ -1,0 +1,54 @@
+name: Beta1 reviewed manifest materializer
+
+on:
+  push:
+    branches: [milestone/Beta1]
+    paths:
+      - 'docs/audit/review/proposals-*.json'
+      - 'tools/korean/materialize-beta1-reviewed-manifest.py'
+      - '.github/workflows/beta1-reviewed-manifest-materialize.yml'
+
+concurrency:
+  group: beta1-reviewed-manifest-materializer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          fetch-depth: 0
+      - name: Materialize reviewed manifests
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for proposal in docs/audit/review/proposals-*.json; do
+            base=$(basename "$proposal")
+            batch=${base#proposals-}
+            batch=${batch%.json}
+            source_head=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["source_head"])' "$proposal")
+            python3 tools/korean/materialize-beta1-reviewed-manifest.py \
+              --proposals "$proposal" \
+              --output "docs/audit/beta1-contextual-copyedit-${batch}-reviewed.json" \
+              --base-sha "$source_head" \
+              --overwrite
+          done
+          git diff --check
+      - name: Commit materialized manifests
+        run: |
+          if [ -z "$(git status --porcelain -- docs/audit/beta1-contextual-copyedit-*-reviewed.json)" ]; then
+            echo 'Reviewed manifests already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/audit/beta1-contextual-copyedit-*-reviewed.json
+          git commit -m 'audit: materialize Beta1 reviewed copyedit manifest'
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
