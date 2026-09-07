@@ -1,126 +1,139 @@
-# Beta1 Review Ledger Policy v2
+# Beta1 Review Ledger Policy v3
 
 ## Authority
 
-`translations/korean/review-ledger.jsonl` is the generated authoritative progress ledger for Beta1 language/context review. `docs/audit/beta1-review-coverage.md` is its generated human-readable summary. Neither file is hand-edited.
+`translations/korean/review-ledger.jsonl` is the generated authoritative progress ledger for Beta1 language/context review. `docs/audit/beta1-review-coverage.md` is its generated summary. Neither is hand-edited.
 
-The retired v1 sparse ledger under `docs/audit/beta1-review-ledger.json` must not be used for progress reporting.
+Historical batch manifests and `docs/audit/review/scope-*.json` are source evidence. Dense scope rules are specified in `docs/audit/review/README.md`.
 
 ## Separate axes
 
-Context review is one axis. Runtime/storage/special-case evidence is orthogonal and must not replace it.
+### Language context state
 
-### `context_state`
+- `CONTEXT_KEEP`: a direct contextual review found no language change necessary at the recorded basis.
+- `CONTEXT_EDIT`: contextual review produced an approved semantic/copyedit change.
+- `CONTEXT_STALE`: the ID's recorded **language** basis no longer matches current JP/EN/KO and therefore contributes zero valid coverage.
+- IDs absent from the sparse ledger are contextually `UNREVIEWED`.
 
-- `CONTEXT_KEEP`: full contextual review found no semantic/copyedit change necessary at the recorded basis.
-- `CONTEXT_EDIT`: contextual review produced an approved semantic/copyedit change at the recorded basis.
-- `CONTEXT_STALE`: the recorded review basis no longer matches the current row and is excluded from valid coverage.
-- IDs absent from the sparse ledger are contextually `UNREVIEWED` unless another authoritative event is registered.
+There is no `AUTO_ONLY` context state. Scanner hits, automated QA, mechanical migrations, and pattern-only checks do not count as contextual coverage.
 
-There is deliberately no `AUTO_ONLY` context state. Automated QA, regex discovery, mechanical migrations and scanner false-positive review are not contextual coverage.
+### Evidence
 
-### `evidence`
+- `full_read`: conservative historical whole-scope read such as 001.
+- `scope_full_read`: deterministic dense packet was actually read; unchanged IDs become KEEP.
+- `manifest_edit`: approved contextual edit manifest.
+- `propagated`: reserved for explicitly recorded repeated-text propagation and always reported separately.
 
-- `full_read`: the entire recorded scope was read contextually.
-- `manifest_edit`: an approved contextual copyedit manifest proves that the edited ID was contextually reviewed.
-- `propagated`: reserved for future strict alias/repeated-text propagation after all propagation preconditions are proven. It is reported separately from direct review.
+### Structural/runtime flags
 
-### `flags[]`
-
-Flags are orthogonal attributes, not progress states. Current generated flags include:
+These do not replace language state:
 
 - `PERSISTED_LAYOUT`
+- `LAYOUT_RECHECK`
 - `ALIAS_GROUP`
 - `SOURCE_ANOMALY`
+- `FIXED_BUFFER`
+- `RUNTIME_PENDING`
 
-`FIXED_BUFFER` and `RUNTIME_PENDING` must be derived from the release-owned English-consumer/runtime contract, never hand-entered or guessed. Until that export is integrated, they are explicitly not credited in the ledger.
+`FIXED_BUFFER` and `RUNTIME_PENDING` come from the release-owned pinned-English consumer/runtime contract, never from manual guesses.
 
-## Stale-proof review basis
+## v3 basis split
 
-Every valid contextual event records the review-time basis and is checked against the current repository on every ledger build.
+Language review and structural QA have different invalidation rules.
 
-The basis is:
+`language_basis = SHA256(Japanese + NUL + pinned English + NUL + Korean)`
 
-`SHA256(Japanese + NUL + pinned English + NUL + Korean + NUL + persisted layout + NUL + consumer_signature)`
+`structural_basis = SHA256(layout + NUL + physical_consumer_signature)`
 
-The English source is pinned to:
+Pinned English:
 
 `HK47196/zill@a98d9ce29f361d666ec23da0dcfd351f24537ffd`
 
-The current conservative consumer signature includes physical overlay paths, alias multiplicity, raw consumer metadata when present, and persisted-layout presence. Consumer-sensitive propagation is not credited until the engine-derived consumer map is available.
+Only `language_basis` mismatch produces `CONTEXT_STALE`. A structural mismatch sets `LAYOUT_RECHECK` and leaves unchanged language coverage valid. Layout/reflow, font, or consumer-contract changes therefore cannot erase language review merely because derived storage presentation changed.
 
-Historical 001-017 bases are reconstructed at their actual semantic commits from `docs/audit/beta1-context-review-commits.json`. If a historical overlay path moved, the builder recovers the row by ID from the historical tree rather than substituting a current path.
+Historical 001-017 rows are migrated by reconstructing their real semantic commits from `docs/audit/beta1-context-review-commits.json`; no old v2 hash is trusted as a v3 language hash. Dense scopes use the same ID-level reconstruction from `reviewed_commit`.
 
-If the current basis differs from the recorded basis, the row becomes `CONTEXT_STALE` automatically and no longer counts toward valid contextual coverage.
+**Scope stale is always ID-granular.** A single changed ID inside a 400-row scope can stale only that ID. The other 399 remain valid if their language bases still match.
 
-## Conservative backfill rule
+## Dense scope and packet evidence
 
-Historical coverage is intentionally understated.
+A dense scope stores the exact ID population, edits, exclusions, `reviewed_commit`, pinned English SHA, reviewer identity, and `packet_sha256`.
 
-| Historical evidence | Ledger treatment |
+The packet generator is deterministic: fixed field order, numeric ID order, UTF-8, LF newlines. Lightweight CI regenerates the packet from `(reviewed_commit, english_sha, id_set, source_files)` and rejects a hash mismatch. Packet SHA is therefore repository-verifiable evidence of what was presented for review, not an unverifiable reviewer assertion.
+
+For a scope:
+
+`KEEP IDs = ids - edit_ids - exclusions`
+
+`edit_ids` obtain `CONTEXT_EDIT` only through the reviewed semantic manifest path. Aggregate KEEP counts without a reconstructable ID set are forbidden.
+
+## Conservative historical backfill
+
+| Historical evidence | Contextual credit |
 | --- | --- |
-| Explicit full-read range such as 001 | `CONTEXT_KEEP` / later `CONTEXT_EDIT` as applicable |
-| Applied contextual manifest | `CONTEXT_EDIT` |
-| Scanner candidate checked only for one pattern | no contextual credit |
-| Scanner false positive | no contextual credit |
-| Mechanical terminology migration | no contextual credit |
-| Automated/static QA only | no contextual credit |
+| Explicit full-read scope | KEEP / later EDIT as applicable |
+| Applied contextual manifest | EDIT |
+| Scanner candidate checked for one pattern | none |
+| Scanner false positive | none |
+| Mechanical terminology migration | none |
+| Automated/static QA | none |
 
 Discovery is not review.
 
-## Automatic basis registration for new edit batches
+## Edit queue and CI split
 
-The reviewed-copyedit queue is responsible for registering the final semantic review basis for contextual batches.
+EDIT commits keep the existing heavy gates: exact before-value, control topology/data integrity, layout-drift postconditions, glyph/font/terminology/text checks, and pinned-English consumer/storage contract.
 
-After all gates pass, it:
+KEEP-only dense scopes do not alter `translations/`. They use lightweight packet regeneration + ledger/basis integrity checks and reuse cached structural consumer/runtime evidence. Heavy Go/storage gates are not rerun merely because unchanged strings were reviewed.
 
-1. creates the semantic commit;
-2. fetches and rebases against the legitimate current `milestone/Beta1` remote head;
-3. captures the final post-rebase semantic SHA;
-4. records that SHA in `docs/audit/beta1-context-review-commits.json` for the batch;
-5. pushes without force.
+The reviewed copyedit workflow has a repository-wide concurrency group and captures the final post-rebase semantic SHA before registering edit basis. No force-push is permitted.
 
-This ordering prevents a pre-rebase SHA from becoming the ledger basis. A manifest/scope whose basis has not yet been registered is reported as pending and contributes zero coverage rather than causing fabricated progress.
+The consumer/storage test remains responsible for effective-layout re-derivation. Canonical rows whose persisted layout was invalidated are re-derived before residual static overflow and English-consumer validation, so a separate duplicate full-corpus overflow pass is not required for every small edit batch.
 
-A future full-read batch with zero semantic edits requires an explicit no-edit review-basis registration mechanism before it may count as KEEP; simply adding a scope is not sufficient.
+## Propagation
 
-## Propagation rule
-
-Repeated Japanese text is an optimization opportunity, not automatic coverage.
-
-A propagated review may count only when all group members match at the review basis on:
+Language-equivalence candidate signature:
 
 1. exact Japanese;
-2. exact Korean;
-3. exact persisted layout;
-4. engine-derived consumer signature;
-5. relevant orthogonal flags.
+2. exact pinned English;
+3. exact Korean.
 
-The representative must itself be directly context-reviewed. Propagated rows must record `propagated_from`, and reports must always split direct and propagated counts.
+Any pinned-English mismatch **forbids propagation without exception** and sends the row to individual review.
 
-Until the engine-derived consumer/flag map is complete, strict duplicate groups are reported only as candidates and contribute zero propagated coverage.
+Layout, consumer, fixed-buffer/runtime class, and physical alias are not language-equivalence inputs, but remain preserved in the ledger for structural QA and later diagnosis.
+
+KEEP and EDIT use the same linguistic equivalence signature. The greater hidden-error risk is propagated KEEP because a bad KEEP creates no semantic diff. Therefore:
+
+- the representative itself must be directly reviewed;
+- every group member's surrounding context must be displayed when approving group propagation;
+- propagated rows record `propagated_from` and are always reported separately;
+- second-pass accuracy QA over-samples propagated KEEP above its population share;
+- EDIT propagation still passes exact-before manifest and all normal edit gates.
+
+No propagation candidate contributes coverage until an explicit propagation evidence record exists.
 
 ## Coverage versus accuracy
 
-Coverage measures how much of the corpus has a currently valid contextual review basis. It does not prove that every KEEP decision was correct.
+Coverage is the count of IDs with currently valid language evidence. Accuracy is measured independently.
 
-Accuracy is checked separately by a reproducible second-pass sample of valid `CONTEXT_KEEP` rows. The default final Beta1 audit target is 200 rows with a recorded deterministic seed. If more than 5% of the sample requires correction, the KEEP population is not considered reliable and expanded re-review is required.
+Final Beta1 uses a reproducible second-pass KEEP audit with a reviewer/model different from the first pass. Target baseline is 200 rows; propagated KEEP is deliberately over-sampled. More than 5% requiring correction triggers expanded re-review.
 
-Final scanner-zero is also insufficient by itself. The final scan must include scanners added after the reviewed batches, and must be paired with the random KEEP audit.
+Scanner-zero is never accepted as whole-corpus proof by itself.
 
-## Beta1 language/reflow completion conditions
+## Completion conditions
 
-Before claiming Beta1 language review complete:
+Before claiming Beta1 language/reflow complete:
 
-- accepted corpus contextual coverage is 100% valid (`KEEP`, `EDIT`, or explicitly proven propagation), with `CONTEXT_STALE = 0`;
+- accepted corpus valid contextual coverage is 100%, with `CONTEXT_STALE = 0`;
+- all `LAYOUT_RECHECK` conditions are closed by current layout/consumer QA;
 - persisted-layout population is revalidated after the final semantic edit;
-- line-start prohibited punctuation, newly empty display rows and edge-whitespace postconditions pass;
-- known source anomalies and the eight Latin-only title records have reachability/localization dispositions;
+- line-start prohibited punctuation, newly empty display rows, and edge-whitespace postconditions pass;
+- known source anomalies and eight Latin-only title records have dispositions;
 - alias consumer consistency passes;
 - runtime-unbounded population has a separate runtime disposition;
-- final whole-corpus overflow is measured after the final edit and is zero for the proven static population;
+- final whole-corpus static overflow is freshly measured after the final edit and is zero for the proven population;
 - glyph/data/terminology/integrity and pinned-English consumer contracts pass;
-- the reproducible KEEP accuracy sample satisfies the accepted threshold;
-- the final scanner set includes newly introduced scanners.
+- reproducible second-pass accuracy audit passes;
+- final scanner set includes scanners added after earlier reviewed batches.
 
 Beta2 does not begin until Beta1 is complete.
