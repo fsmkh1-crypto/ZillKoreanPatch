@@ -6,6 +6,10 @@ on:
     paths:
       - 'docs/audit/beta1-copyedit-queue.json'
 
+concurrency:
+  group: beta1-reviewed-copyedit-queue
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -44,8 +48,8 @@ jobs:
           args=(--manifest "$MANIFEST" --apply --json /tmp/review-apply.json)
           if [ "$ALLOW_COMMA_SPACE" = 1 ]; then args+=(--allow-comma-space-variance); fi
           python3 tools/korean/apply-multifile-reviewed-copyedit.py "${args[@]}"
-      - name: Synchronize persisted layout lexical content
-        run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-sync.txt
+      - name: Invalidate stale persisted layouts for re-derivation
+        run: python3 tools/korean/qa-layout-drift.py --fix | tee /tmp/layout-invalidation.txt
       - name: Verify expected values and zero layout drift
         run: |
           args=(--manifest "$MANIFEST" --json /tmp/review-after.json)
@@ -73,7 +77,7 @@ jobs:
           python3 tools/korean/qa-terminology.py --json /tmp/terminology.json --max-examples 20
           python3 tools/korean/qa-consistency.py --json /tmp/consistency.json --max-examples 20
           python3 tools/korean/qa-text-sanity.py --json /tmp/sanity.json --max-examples 20
-      - name: English-consumer storage contract
+      - name: English-consumer storage and effective-layout contract
         run: go test ./internal/release -run TestCurrentKoreanCorpusEnglishConsumerStorageContracts -count=1
       - name: Commit accepted reviewed batch and register review basis
         run: |
@@ -82,8 +86,9 @@ jobs:
           git add translations/korean/messages
           git commit -m "$COMMIT_MESSAGE"
 
-          # Concurrency-safe ordering: rebase the semantic commit first, then capture
-          # the final SHA that will actually be pushed. Never register a pre-rebase SHA.
+          # Rebase the semantic commit first, then capture the final SHA that will
+          # actually be pushed. The workflow-level concurrency group prevents two
+          # reviewed queue runs from entering this rebase/push window together.
           git fetch origin milestone/Beta1
           git rebase origin/milestone/Beta1
           semantic_sha="$(git rev-parse HEAD)"
