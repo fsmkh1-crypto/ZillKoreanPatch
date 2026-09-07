@@ -35,10 +35,10 @@ Consumer/storage/runtime metadata remains in each ledger row for traceability, b
 ## Language propagation candidates (not coverage)
 
 Candidate signature is exact Japanese + exact pinned English + exact Korean. EN mismatch is an unconditional split.
-- Unique language signatures: **35,725**
-- Duplicate groups: **2,667**
-- IDs inside duplicate groups: **8,958**
-- Potential extra IDs: **6,291**
+- Unique language signatures: **35,726**
+- Duplicate groups: **2,666**
+- IDs inside duplicate groups: **8,956**
+- Potential extra IDs: **6,290**
 
 ## Dense review scopes
 

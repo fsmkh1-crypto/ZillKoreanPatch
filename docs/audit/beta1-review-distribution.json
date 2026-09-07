@@ -1,9 +1,9 @@
 {
   "accepted_ids": 42016,
   "ko_visible_length_bins": {
-    "1-10": 9785,
+    "1-10": 9786,
     "11-20": 8876,
-    "21-40": 11204,
+    "21-40": 11203,
     "41-80": 8567,
     "81-160": 2985,
     "161+": 599
@@ -27,8 +27,8 @@
   "rows_with_non_end_controls": 5021,
   "rows_with_sentence_punctuation": 31114,
   "language_duplicate_group_size_population": {
-    "1": 33058,
-    "2": 4060,
+    "1": 33060,
+    "2": 4058,
     "3": 972,
     "4": 540,
     "5": 285,

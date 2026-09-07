@@ -13,9 +13,9 @@ Rapid-scan candidate means visible KO <= 20 and visible JP <= 20, no non-`<end>`
 
 | Length | KO IDs | JP IDs | FIXED_BUFFER within KO bin |
 | --- | ---: | ---: | ---: |
-| 1-10 | 9,785 | 10,136 | 3,878 |
+| 1-10 | 9,786 | 10,136 | 3,878 |
 | 11-20 | 8,876 | 9,006 | 2,939 |
-| 21-40 | 11,204 | 11,388 | 5,133 |
+| 21-40 | 11,203 | 11,388 | 5,133 |
 | 41-80 | 8,567 | 8,532 | 5,392 |
 | 81-160 | 2,985 | 2,443 | 1,794 |
 | 161+ | 599 | 511 | 244 |
@@ -24,8 +24,8 @@ Rapid-scan candidate means visible KO <= 20 and visible JP <= 20, no non-`<end>`
 
 | Group size | IDs belonging to groups of this size |
 | ---: | ---: |
-| 1 | 33,058 |
-| 2 | 4,060 |
+| 1 | 33,060 |
+| 2 | 4,058 |
 | 3 | 972 |
 | 4 | 540 |
 | 5 | 285 |
