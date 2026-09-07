@@ -35,6 +35,10 @@ jobs:
           shopt -s nullglob
           for req in docs/audit/review/candidate-*-request.json; do
             batch=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["batch_id"])' "$req")
+            if [ -s "docs/audit/review/candidate-${batch}.md" ] && [ -s "docs/audit/review/candidate-${batch}-selection.json" ]; then
+              echo "Candidate ${batch} already exists; preserving immutable review input."
+              continue
+            fi
             start=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["start_id"])' "$req")
             count=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["candidate_count"])' "$req")
             python3 tools/korean/build-beta1-next-review-candidate.py \
