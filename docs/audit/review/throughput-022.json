@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "batch_id": "022",
+  "purpose": "Measured baseline batch for Beta1 contextual-review throughput; no throughput optimization experiment was mixed into the review.",
+  "source_head": "297796d314dd06ee00ce83563349dcdff9a7d7db",
+  "measurement_window": {
+    "started_at_utc": "2026-09-07T05:29:48.028Z",
+    "ended_at_utc": "2026-09-07T05:42:05Z",
+    "wall_clock_seconds": 737.0,
+    "end_condition": "final successful dense-scope workflow completed"
+  },
+  "population": {
+    "direct_read_ids": 135,
+    "contextual_ids": 134,
+    "visible_segments_reviewed_estimate": 134,
+    "edits": 28,
+    "keeps": 106,
+    "exclusions": 1,
+    "exclusion_ids": ["170039"],
+    "propagated_ids": 0,
+    "new_coverage_ids": 131,
+    "already_reviewed_overlap_ids": ["160127", "160129", "160131"]
+  },
+  "timing": {
+    "setup_seconds": 90.0,
+    "reading_seconds": 138.8,
+    "edit_drafting_seconds": 120.0,
+    "evidence_seconds": 207.2,
+    "ci_wait_seconds": 69,
+    "incident_seconds": 19,
+    "unattributed_tooling_and_wait_seconds": 93.0,
+    "timing_note": "Reading was stopwatch-measured from the start to end of the direct JP -> pinned EN -> KO read. Edit drafting was separately timed while finalizing the 28 replacement strings. Evidence time is the explicitly phase-timed manifest/queue/scope construction work and includes connector latency inside those phase boundaries. ci_wait_seconds counts only the two successful final jobs (heavy 43s + final scope 26s), matching the normalized convention used by throughput-021. incident_seconds is the 19s deliberate placeholder packet-hash discovery run; it was process overhead, not a translation/runtime failure. The remaining 93.0s is left explicitly unattributed rather than invented as active review time; it includes branch/file checks, hash sealing, commit/API round trips and other connector/wait overhead within the wall-clock window."
+  },
+  "derived_baseline": {
+    "reading_seconds_per_contextual_id": 1.036,
+    "reading_seconds_per_visible_segment": 1.036,
+    "edit_drafting_seconds_per_edit": 4.286,
+    "evidence_seconds_per_contextual_id": 1.546,
+    "successful_ci_seconds_per_contextual_id": 0.515,
+    "wall_clock_seconds_per_contextual_id": 5.500,
+    "edit_rate_percent": 20.9,
+    "warning": "Do not extrapolate this single batch to the whole remaining corpus. Batch 022 is materially easier than Batch 021 by edit rate (20.9% versus 50.8%) and contains many short location/item/equipment rows. This is the first measured baseline, not an authoritative corpus ETA."
+  },
+  "workflows": {
+    "heavy": {
+      "run_id": 34087495742,
+      "job_id": 101634231593,
+      "seconds": 43,
+      "conclusion": "success",
+      "semantic_commit": "7bc94d24bcb97b11b7373e89286c33b06a4833cb",
+      "review_basis_commit": "39c6bc34d3c58083c6c30c5750e25ebd7068a436"
+    },
+    "scope_hash_discovery": {
+      "run_id": 34087696829,
+      "seconds": 19,
+      "conclusion": "failure",
+      "reason": "Deliberate zero-hash mismatch used only to obtain the CI-reconstructed deterministic packet SHA; no ledger/coverage mutation occurred."
+    },
+    "scope": {
+      "run_id": 34087777067,
+      "job_id": 101635027210,
+      "seconds": 26,
+      "conclusion": "success",
+      "coverage_commit": "61185ae08eb1008f4d7385d436a818d24f9ad990"
+    }
+  },
+  "packet_sha256": "fafa7fba14c0d35e13e319c0faccd32068178fef7091c9fa9483f42feefc50ff",
+  "coverage_before": 749,
+  "coverage_after": 880,
+  "context_stale": 0,
+  "layout_recheck": 0,
+  "persisted_layout_population": 141,
+  "layout_drift": 0,
+  "layouts_invalidated": 0,
+  "custom_renderer_glyphs": 1308,
+  "missing_glyph_characters": 0,
+  "next_source_id": "170095"
+}
