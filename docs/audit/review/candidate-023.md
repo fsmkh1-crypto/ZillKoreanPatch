@@ -6,3013 +6,3013 @@ pinned_english_sha: a98d9ce29f361d666ec23da0dcfd351f24537ffd
 order: global numeric ID
 note: candidate packet only; creates no review coverage.
 
-## 190091
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "封士<end>"
-EN: "Sealer<end>"
-KO: "봉사<end>"
-
-## 190092
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190093
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　６月　　８日<end>"
-EN: "June 8<end>"
-KO: " 6월 8일<end>"
-
-## 190094
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "天空神ノトゥーンに仕える神官。封士の異名を持<line-break>つ。古代の怪物を封印したり、退治したりしても<line-break>憎しみが連鎖するばかりで解決にならないと主張<line-break>し、古代の怪物イズキヤルを説得し、アルノート<line-break>ゥンの町でともに暮らしていくことで、人間と怪<line-break>物の共存の道を模索していた。<line-break>しかし、旅の少年魔術師によって突然イズキヤル<line-break>が凶暴化し、その追跡中に行方不明となる。<end>"
-EN: "A priest of Notun known as the Sealer. He believed slaying or sealing ancient monsters only sustained hatred. After persuading Izkiyal to live among Alnortunians, he sought coexistence between humans and monsters. A traveling boy sorcerer drove Izkiyal mad, and Ions vanished pursuing it.<end>"
-KO: "천공신 노툰을 섬기는 신관으로 봉사라는 별칭을 지녔다. 고대 괴물을 봉인하거나 토벌해도 증오의 연쇄만 이어질 뿐 해결되지 않는다고 주장하며, 고대 괴물 이즈키얄를 설득해 알노툰에서 함께 살게 하여 인간과 괴물의 공존을 모색했다. 그러나 여행 중인 소년 마술사 때문에 이즈키얄가 갑자기 흉폭해져 이를 추적하던 중 행방불명된다.<end>"
-
-## 190095
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イオンズ<end>"
-EN: "Ions<end>"
-KO: "이온즈<end>"
-
-## 190096
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "封士<end>"
-EN: "Sealer<end>"
-KO: "봉사<end>"
-
-## 190097
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190098
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　６月　　８日<end>"
-EN: "June 8<end>"
-KO: " 6월 8일<end>"
-
-## 190099
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノトゥーンに仕える神官。怪物と人類の共存を<line-break>唱え、古の怪物イズキヤルとアルノートゥンの<line-break>人々をともに生活させていた。ディンガル帝国<line-break>白虎将軍ジラークのアルノートゥン進攻を前に<line-break>イズキヤルとともに行方不明となった。<line-break>これにより、アルノートゥンは降伏することに<line-break>なる。イオンズ失踪直前、不審な黒髪の少年を<line-break>目撃したという町の人の証言がある。<end>"
-EN: "A priest of Notun who advocated coexistence between monsters and humanity, and had the ancient monster Izkiyal live among the people of Alnortun. Shortly before White Tiger General Zsilak of the Dyneskal Empire invaded Alnortun, both Ions and Izkiyal disappeared. This led Alnortun to surrender. One resident testified to seeing a suspicious black-haired boy shortly before Ions vanished.<end>"
-KO: "노툰을 섬기는 신관. 괴물과 인류의 공존을 주장하며 고대 괴물 이즈키얄와 알노툰 주민들이 함께 살게 했다. 딩갈 제국 백호장군 지라크의 알노툰 침공을 앞두고 이즈키얄와 함께 행방불명되었고, 이로 인해 알노툰은 항복하게 된다. 이온즈가 사라지기 직전 수상한 검은 머리 소년을 봤다는 주민 증언이 있다.<end>"
-
-## 190100
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ<end>"
-EN: "Iria<end>"
-KO: "이샤<end>"
-
-## 190101
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "謎の冒険者<end>"
-EN: "Mysterious Adventurer<end>"
-KO: "수수께끼의 모험가<end>"
-
-## 190102
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190103
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　７月　２９日<end>"
-EN: "July 29<end>"
-KO: " 7월 29일<end>"
-
-## 190104
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "猫のような動きで敵を翻弄する凄腕の冒険者。<line-break><value:$28>に、ある人物の面影を感じ<line-break>行動を共にするようになる。<line-break>旅の合間に、ほほに傷がある男を捜している。<line-break>秘密が多く、実は壮絶な過去を持っている。<line-break><line-break><line-break><end>"
-EN: "A highly skilled adventurer who confounds enemies with catlike movements. Seeing traces of someone in <value:$28>, she begins traveling alongside the protagonist. Between adventures, she searches for a man with a scar on his cheek. She keeps many secrets and has a harrowing past.<end>"
-KO: "고양이 같은 움직임으로 적을 농락하는 뛰어난 모험자. <value:$28>에게서 어떤 인물의 모습을 느끼고 함께 행동하게 된다. 여행 중에는 뺨에 상처가 있는 남자를 찾고 있다. 비밀이 많으며 사실은 처절한 과거를 지니고 있다.<end>"
-
-## 190105
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ<end>"
-EN: "Iria<end>"
-KO: "이샤<end>"
-
-## 190106
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "愛されし女性<end>"
-EN: "Beloved Woman<end>"
-KO: "사랑받는 여성<end>"
-
-## 190107
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190108
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　７月　２９日<end>"
-EN: "July 29<end>"
-KO: " 7월 29일<end>"
-
-## 190109
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "元はエリスの宝石たちの一員。テジャワの変に<line-break>大きく関わり、そのすえに魂切の鎌でソウルを<line-break>刈られるが、闇の神器・同化の髪飾りの力で<line-break>よみがえる。同化の髪飾りを使い、犠牲となった<line-break>ジリオンを救うため自分の身を捧げようとまで<line-break>するが、<value:$28>の助けや<line-break>シャリの後押しを受けてジリオンを救い出し、<line-break>自身も闇の神器の力から解放された。<end>"
-EN: "Formerly one of Eris's Jewels, she returned to life after the Tejava Incident through the Hair Ornament of Assimilation, a Dark Artifact. She planned to sacrifice herself to save Zillion, but with <value:$28> and Shalli's help, she rescued Zillion and was freed from the artifact's power.<end>"
-KO: "원래 에리스의 보석들 일원. 테자와의 변에 깊이 관여한 끝에 혼절의 낫에 소울을 베였지만 어둠의 신기·동화의 머리장식 힘으로 되살아났다. 희생된 질리온을 구하기 위해 머리장식을 써서 자신의 몸까지 바치려 했으나 <value:$28>의 도움과 샤리의 뒷받침으로 질리온을 구하고 자신도 신기의 힘에서 해방되었다.<end>"
-
-## 190110
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ<end>"
-EN: "Iria<end>"
-KO: "이샤<end>"
-
-## 190111
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "消え去った娘<end>"
-EN: "The Vanished Girl<end>"
-KO: "사라진 소녀<end>"
-
-## 190112
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190113
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　７月　２９日<end>"
-EN: "July 29<end>"
-KO: "7월 29일<end>"
-
-## 190114
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "元はエリスの宝石たちの一員。テジャワの変に<line-break>大きく関わり、そのすえに魂切の鎌でソウルを<line-break>刈られるが、闇の神器・同化の髪飾りの力で<line-break>よみがえる。同化の髪飾りを使い、犠牲となった<line-break>ジリオンを救うため自分の身を捧げ、消滅して<line-break>しまう。<line-break><end>"
-EN: "Formerly one of Eris's Jewels. After playing a major role in the Tejava Incident, her Soul was reaped by the Soul-Severing Scythe, but she returned to life through the power of the Hair Ornament of Assimilation, a Dark Artifact. She sacrificed herself with the ornament to save Zillion and vanished.<end>"
-KO: "원래는 에리스의 보석들 중 한 명. 테자와의 변에 크게 관여했고 그 끝에 혼절의 낫으로 소울을 베이지만, 어둠의 신기·동화의 머리장식의 힘으로 되살아난다. 동화의 머리장식을 사용해 희생된 질리온을 구하기 위해 자신의 몸을 바쳐 소멸한다.<end>"
-
-## 190115
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "イーシャ<end>"
-EN: "Iria<end>"
-KO: "이샤<end>"
-
-## 190116
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "消え去った娘<end>"
-EN: "The Vanished Girl<end>"
-KO: "사라진 소녀<end>"
-
-## 190117
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190118
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　７月　２９日<end>"
-EN: "July 29<end>"
-KO: "7월 29일<end>"
-
-## 190119
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "元はエリスの宝石たちの一員。テジャワの変に<line-break>大きく関わり、そのすえに魂切の鎌でソウルを<line-break>刈られるが、闇の神器・同化の髪飾りの力で<line-break>よみがえる。<line-break><value:$28>と旅を続けるうちにジリオンへ<line-break>の想いが薄れ、<value:$28>への想いが大き<line-break>くなった。そのため同化の髪飾りの力が弱まり、<line-break>消滅してしまった。<end>"
-EN: "Formerly one of Eris's Jewels, she returned to life after the Tejava Incident through the Hair Ornament of Assimilation, a Dark Artifact. As she traveled with <value:$28>, her feelings for Zillion faded and her feelings for <value:$28> grew. The weakened ornament could no longer sustain her, and she vanished.<end>"
-KO: "원래는 에리스의 보석들 일원. 테자와의 변에 깊이 관여한 끝에 혼절의 낫에 소울을 베였지만 어둠의 신기·동화의 머리장식의 힘으로 되살아났다. <value:$28>와 여행을 계속하는 동안 질리온에 대한 마음은 옅어지고 <value:$28>를 향한 마음이 커졌다. 그 때문에 동화의 머리장식의 힘이 약해져 결국 소멸했다.<end>"
-
-## 190120
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァイライラ<end>"
-EN: "Vailaila<end>"
-KO: "바일라이라<end>"
-
-## 190121
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "雌狐のサファイア<end>"
-EN: "Sapphire Vixen<end>"
-KO: "암여우 사파이어<end>"
-
-## 190122
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190123
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　１月　１４日<end>"
-EN: "January 14<end>"
-KO: "1월 14일<end>"
-
-## 190124
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エリス王妃の密偵を務める双子姉妹の姉のほう。<line-break>ツェラシェルの妹。伝令から、密偵、調略まで<line-break>なんでもこなす。また戦ってはすばやい動きで<line-break>敵を翻弄し、闘技場でもかなり上にランキング<line-break>されている実力者である。<line-break>冷静かつ怜悧な性格はサファイアに例えられる<line-break>が、兄想いな性格で、こと兄のことになると<line-break>冷たい人形の仮面が外れるときがある。<end>"
-EN: "The elder of twin sisters serving as Queen Eris's spies, and Zeraschel's younger sister. She handles courier work, espionage, and subversion. Her swift combat ranks highly in the arena. Cool and keen as a sapphire, she nevertheless cares deeply for her brother.<end>"
-KO: "에리스 왕비의 밀정으로 일하는 쌍둥이 자매 중 언니. 체라셸의 여동생. 전령부터 밀정, 조략까지 무엇이든 해낸다. 전투에서도 빠른 움직임으로 적을 농락하며 투기장 순위도 상당히 높은 실력자다. 냉정하고 영리한 성격은 사파이어에 비유되지만 오빠를 무척 아껴, 오빠 일만 얽히면 차가운 인형 같은 가면이 벗겨질 때가 있다.<end>"
-
-## 190125
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァイライラ<end>"
-EN: "Vailaila<end>"
-KO: "바일라이라<end>"
-
-## 190126
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "雌狐のサファイア<end>"
-EN: "Sapphire Vixen<end>"
-KO: "암여우 사파이어<end>"
-
-## 190127
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190128
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　１月　１４日<end>"
-EN: "January 14<end>"
-KO: "1월 14일<end>"
-
-## 190129
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴィアリアリの双子の姉。ヴィアリアリの他には<line-break>家族のない天涯孤独の身でヴィアリアリとより<line-break>そうようにして助け合って生きてきた。<line-break>クーデター前はエリス王妃の下で密偵をしており<line-break>カルラ軍中に「ネメア死す」の流言をばらまいて<line-break>ゼネテス率いるロストール軍の勝利に貢献した。<line-break>直情的な妹に対し、冷静で慎重な性格をしており<line-break><value:$28>にも礼儀正しい対応を心がける。<end>"
-EN: "Vialiali's elder twin sister. Before the coup, she served Queen Eris as a spy and helped Xenetes's army by spreading word of Nemea's death through Karula's forces. Unlike her impulsive sister, she is calm and cautious, and treats <value:$28> courteously.<end>"
-KO: "비아리아리의 쌍둥이 언니. 비아리아리 외에는 가족이 없는 천애고아로, 서로 의지하며 살아왔다. 쿠데타 전에는 에리스 왕비 밑에서 밀정으로 일했고 카를라군에 '네메아 사망'이라는 유언비어를 퍼뜨려 제네테스가 이끄는 로스톨군의 승리에 기여했다. 직선적인 동생과 달리 냉정하고 신중하며 <value:$28>에게도 예의 바르게 대하려 한다.<end>"
-
-## 190130
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァシュタール<end>"
-EN: "Vashtar<end>"
-KO: "바슈타르<end>"
-
-## 190131
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "開け放つもの<end>"
-EN: "The Opener<end>"
-KO: "열어젖히는 자<end>"
-
-## 190132
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔人<end>"
-EN: "Demon<end>"
-KO: "마인<end>"
-
-## 190133
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　４月　２９日<end>"
-EN: "April 29<end>"
-KO: "4월 29일<end>"
-
-## 190134
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "破壊神ウルグの円卓の騎士のひとり。バルザーと<line-break>並ぶ実力者で、アーギルシャイア、アスティア、<line-break>マゴス、ネモらを率いる。<line-break>虚無と闇のはざまと、現世とを結ぶ闇の門を<line-break>開くことができる。<line-break>虚無に落ちた破壊神ウルグの魂は、この門を<line-break>通って現世に戻る。<line-break>　<end>"
-EN: "One of the Knights of the Round Table serving Ulugh, the God of Destruction. A warrior equal to Baltzer, Vashtar commands Argyleshire, Astia, Magos, Nemo, and others. Vashtar can open the Dark Gate, which connects the mortal world to the boundary between the Void and darkness. The soul of Ulugh, the God of Destruction, can return from the Void to the mortal world through this gate.<end>"
-KO: "파괴신 울그의 원탁 기사 중 하나. 발자와 어깨를 나란히 하는 실력자로 아르길샤이어, 아스티아, 마고스, 네모 등을 이끈다. 허무와 어둠의 틈과 현세를 잇는 어둠의 문을 열 수 있다. 허무에 떨어진 파괴신 울그의 영혼은 이 문을 통해 현세로 돌아온다.<end>"
-
-## 190135
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァン<end>"
-EN: "Van<end>"
-KO: "반<end>"
-
-## 190136
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "テラネの暴れん坊<end>"
-EN: "Terane's Troublemaker<end>"
-KO: "테라네의 난폭자<end>"
-
-## 190137
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190138
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　３月　３１日<end>"
-EN: "March 31<end>"
-KO: "3월 31일<end>"
-
-## 190139
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "テラネの町にある宿屋のひとり息子。<line-break>コーンス族の少年ナッジといつもつるんでいる。<line-break>感情の起伏が激しくケンカっ早いのが悪い癖。<line-break>常人には理解できないハイセンスなダジャレを<line-break>連発し、周囲の人の背すじをよく凍りつかせる。<line-break><line-break><line-break>　<end>"
-EN: "The only son of an innkeeper in Terane. He is always hanging around with Nadge, a boy of the Konsu tribe. His volatile temper and readiness to fight are his worst habits. He constantly delivers puns of such refined taste that ordinary people cannot comprehend them, frequently sending chills down the spines of everyone nearby.<end>"
-KO: "테라네 마을 여관의 외아들. 콘스족 소년 나지와 늘 어울려 다닌다. 감정 기복이 심하고 싸움을 잘 거는 것이 나쁜 버릇. 보통 사람은 이해할 수 없는 수준 높은 말장난을 연발해 주변 사람들의 등골을 자주 서늘하게 만든다.<end>"
-
-## 190140
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァン<end>"
-EN: "Van<end>"
-KO: "반<end>"
-
-## 190141
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "友の死に怒る少年<end>"
-EN: "Boy Enraged by a Friend's Death<end>"
-KO: "친구의 죽음에 분노한 소년<end>"
-
-## 190142
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190143
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　３月　３１日<end>"
-EN: "March 31<end>"
-KO: "3월 31일<end>"
-
-## 190144
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "テラネの町にある宿屋のひとり息子。<line-break>コーンス族の少年ナッジといつもつるんでいる。<line-break>感情の起伏が激しくケンカっ早いのが悪い癖。<line-break>常人には理解できないハイセンスなダジャレを<line-break>連発し、周囲の人の背すじをよく凍りつかせる。<line-break>ナッジを倒した<value:$28>に対し<line-break>含むところがあるようだ。<line-break>　<end>"
-EN: "The only son of an innkeeper in Terane. He spends time with Nadge of the Konsu tribe. Hot-tempered and quick to fight, he also makes puns that chill everyone nearby. He bears a grudge against <value:$28> for defeating Nadge.<end>"
-KO: "테라네 마을 여관집의 외아들. 콘스족 소년 나지와 늘 어울려 다닌다. 감정 기복이 심하고 싸움이 빠른 것이 나쁜 버릇. 보통 사람은 이해하기 힘든 고감도 말장난을 연발해 주변 사람들의 등골을 자주 서늘하게 만든다. 나지를 쓰러뜨린 <value:$28>에게 뭔가 감정이 있는 듯하다.<end>"
-
-## 190145
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴィアリアリ<end>"
-EN: "Vialiali<end>"
-KO: "비아리아리<end>"
-
-## 190146
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "雌狐のルビー<end>"
-EN: "Ruby Vixen<end>"
-KO: "암여우의 루비<end>"
-
-## 190147
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190148
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　１月　１４日<end>"
-EN: "January 14<end>"
-KO: "1월 14일<end>"
-
-## 190149
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エリス王妃の密偵を務める双子姉妹の妹のほう。<line-break>調略全般から伝令までこなし、フリント亡きあと<line-break>エリス配下の密偵中で一番の実力を誇っている。<line-break>ツェラシェルの妹。兄想いの性格で、兄の危機に<line-break>は何をさしおいても駆けつける。<line-break>クールで冷静な姉に対してルビーに例えられる。<line-break>直情的でキツい性格をしているが、体の弱い兄を<line-break>心配しているというやさしい面を持っている。<end>"
-EN: "The younger of Queen Eris's twin-sister spies. She handles subversion and courier work and, since Flint's death, is Eris's most capable agent. Zeraschel's younger sister, she rushes to his side whenever he is in danger. Impulsive and sharp-tempered, she is also gentle and worries about her frail brother.<end>"
-KO: "에리스 왕비의 밀정을 맡는 쌍둥이 자매 중 동생. 모략 전반부터 전령까지 맡으며 플린트 사후 에리스 휘하 밀정 중 최고의 실력을 자랑한다. 체라셸의 여동생. 오빠를 아끼는 성격이라 그의 위기에는 무엇보다 먼저 달려간다. 냉정하고 침착한 언니와 대비되어 루비에 비유된다. 직선적이고 성격이 세지만 몸이 약한 오빠를 걱정하는 다정한 면도 있다.<end>"
-
-## 190150
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴィアリアリ<end>"
-EN: "Vialiali<end>"
-KO: "비아리아리<end>"
-
-## 190151
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "雌狐のルビー<end>"
-EN: "Ruby Vixen<end>"
-KO: "암여우의 루비<end>"
-
-## 190152
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190153
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　１月　１４日<end>"
-EN: "January 14<end>"
-KO: "1월 14일<end>"
-
-## 190154
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヴァイライラの双子の妹。ヴァイライラの他には<line-break>家族のない天涯孤独の身でヴァイライラとより<line-break>そうようにして助け合って生きてきた。<line-break>クーデター前はエリス王妃の下で密偵をしており<line-break>カルラ軍中に「ネメア死す」の流言をばらまいて<line-break>ゼネテス率いるロストール軍の勝利に貢献した。<line-break>クールな姉に対し、やや直情的で性格がきついが<line-break><value:$28>の前では甘えん坊な面を見せる。<end>"
-EN: "Vailaila's younger twin sister. Before the coup, she served Queen Eris as a spy and helped Xenetes's army by spreading word of Nemea's death through Karula's forces. More impulsive and sharp-tempered than her elder sister, she shows a clingy side around <value:$28>.<end>"
-KO: "바일라이라의 쌍둥이 여동생. 바일라이라 외에는 가족이 없는 천애고아로 서로 의지하며 살아왔다. 쿠데타 전에는 에리스 왕비 아래서 밀정을 했고 카를라군에 '네메아 사망'이라는 유언비어를 퍼뜨려 제네테스가 이끄는 로스톨군의 승리에 기여했다. 냉정한 언니와 달리 다소 직선적이고 성격이 강하지만 <value:$28> 앞에서는 응석받이 같은 모습도 보인다.<end>"
-
-## 190155
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルグ<end>"
-EN: "Ulugh<end>"
-KO: "울그<end>"
-
-## 190156
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "破壊神<end>"
-EN: "God of Destruction<end>"
-KO: "파괴신<end>"
-
-## 190157
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "神<end>"
-EN: "God<end>"
-KO: "신<end>"
-
-## 190158
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　８月　１７日<end>"
-EN: "August 17<end>"
-KO: "8월 17일<end>"
-
-## 190159
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルグの円卓騎士と呼ばれる１２人の魔人を率い<line-break>破壊をほしいままにする闘神。天空神ノトゥーン<line-break>の次男として生まれ、人間を率い闇の聖母と戦う<line-break>が、彼が愛した少女システィーナを人間に殺され<line-break>たため、彼女の復活を条件に闇の聖母に降った。<line-break>強大な力を持つウルグは、兄である主神バイアス<line-break>を殺し世界を闇で覆ったが異世界から召還された<line-break>軍神ソリアスとの戦いで肉体を失い眠りにつく。<end>"
-EN: "God of battle who commands Ulugh's twelve Knights of the Round Table. Notun's second son, he fought the Dark Mother until humans killed Sistina, whom he loved. He joined the Dark Mother to restore her, killed his brother Vyas, and shrouded the world in darkness. Defeated by Solias, he fell into Sleep.<end>"
-KO: "울그의 원탁기사라 불리는 열두 마인을 거느리고 파괴를 일삼는 투신. 천공신 노툰의 둘째 아들로 태어나 인간을 이끌고 어둠의 성모와 싸웠으나 사랑한 소녀 시스티나가 인간에게 살해되자 그녀의 부활을 조건으로 어둠의 성모에게 굴복했다. 강대한 힘으로 형인 주신 바이아스를 죽이고 세계를 어둠으로 덮었으나 이세계에서 소환된 군신 솔리아스와 싸워 육체를 잃고 잠들었다.<end>"
-
-## 190160
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エア<end>"
-EN: "Er<end>"
-KO: "에아<end>"
-
-## 190161
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "風の巫女<end>"
-EN: "Priestess of Wind<end>"
-KO: "바람의 무녀<end>"
-
-## 190162
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190163
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　６月　１０日<end>"
-EN: "June 10<end>"
-KO: "6월 10일<end>"
-
-## 190164
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の巫女、同時にエルズの支配者。<line-break>魔道王国ラドラス最後の巫女たちのひとり、<line-break>風の巫女エアの末裔。天地千年を見通す水晶球を<line-break>持っており、過去と未来千年のできごとであれば<line-break>知ることができる。<line-break>エルズの町の奥にある翔王のすみか竜の座で<line-break>風の精霊神に仕えている。<line-break>　<end>"
-EN: "The Priestess of Wind and ruler of Elz. She is a descendant of Er, the Priestess of Wind and one of the last priestesses of Magic Kingdom Ladras. Her crystal ball sees a thousand years across heaven and earth, allowing her to know events up to a thousand years in the past or future. She serves the Spirit God of Wind at the Dragon's Seat, the Soaring King's abode deep within Elz.<end>"
-KO: "바람의 무녀이자 동시에 엘즈의 지배자. 마도 왕국 라드라스의 마지막 무녀 중 한 명인 바람의 무녀 에아의 후예다. 천 년의 세월을 내다보는 수정구를 가지고 있어 과거와 미래 천 년의 일을 알 수 있다. 엘즈 안쪽, 비상왕의 거처인 용의 자리에서 바람의 정령신을 섬기고 있다.<end>"
-
-## 190165
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "エステル<end>"
-EN: "Esther<end>"
-KO: "에스텔<end>"
-
-## 190166
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の少女<end>"
-EN: "Girl Adventurer<end>"
-KO: "모험가 소녀<end>"
-
-## 190167
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190168
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　３１日<end>"
-EN: "December 31<end>"
-KO: "12월 31일<end>"
-
-## 190169
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダムを中心に冒険している活発な少女。<line-break>少年のような格好と話し方のために、男だと<line-break>勘違いされることも多い。<line-break>好奇心旺盛で故郷を抜け出しては冒険をして<line-break>いる。<line-break>　<line-break>　<line-break>　<end>"
-EN: "A lively girl who adventures mainly around Liberdam. Because she dresses and speaks like a boy, she is often mistaken for one. Brimming with curiosity, she repeatedly slips away from her homeland in search of adventure.<end>"
-KO: "리벨덤을 중심으로 모험하는 활발한 소녀. 소년 같은 옷차림과 말투 때문에 남자로 오해받는 일도 많다. 호기심이 왕성해 고향을 빠져나와 모험하고 있다.<end>"
-
-## 190170
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "エステル<end>"
-EN: "Esther<end>"
-KO: "에스텔<end>"
-
-## 190171
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "地の巫女<end>"
-EN: "Priestess of Earth<end>"
-KO: "땅의 무녀<end>"
-
-## 190172
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190173
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　３１日<end>"
-EN: "December 31<end>"
-KO: "12월 31일<end>"
-
-## 190174
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "砂漠の一族の長にして地の巫女。<line-break>魔道王国ラドラス最後の巫女たちのひとり、<line-break>地の巫女ズゥの血をひいている。<line-break>砂漠の一族が住むラドラスは魔道の力で、<line-break>生きるのに快適な環境を維持し、食料や水などを<line-break>提供することで、砂漠でも人が生活できるように<line-break>している。<line-break>　<end>"
-EN: "Chief of the Desert Clan and Priestess of Earth. She is descended from Zuu, the Priestess of Earth and one of the last priestesses of Magic Kingdom Ladras. Ladras, home of the Desert Clan, uses magical power to maintain a comfortable living environment and supply food, water, and other necessities, allowing people to live in the desert.<end>"
-KO: "사막 일족의 수장이자 땅의 무녀. 마도왕국 라드라스 최후의 무녀 중 한 명인 땅의 무녀 즈의 피를 잇고 있다. 사막 일족이 사는 라드라스는 마도의 힘으로 생활하기 쾌적한 환경을 유지하고 식량과 물 등을 제공하여 사막에서도 사람이 살아갈 수 있게 한다.<end>"
-
-## 190175
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "エステル<end>"
-EN: "Esther<end>"
-KO: "에스텔<end>"
-
-## 190176
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "地の巫女<end>"
-EN: "Priestess of Earth<end>"
-KO: "땅의 무녀<end>"
-
-## 190177
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190178
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　３１日<end>"
-EN: "December 31<end>"
-KO: "12월 31일<end>"
-
-## 190179
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "地の巫女。シャリは魔道王国ラドラスの４人の巫<line-break>女の子孫であるイークレムン、エステル、フレア<line-break>エアを誘拐し、ラドラスの空中都市を浮上させ<line-break>その力で地上を焼き払おうとした。<line-break>だが、<value:$28>に阻止された。<line-break>エステルは空中都市を不時着させるため、<line-break>ひとり墜落する空中都市に残った。<line-break>その後のエステルの生死は不明である。<end>"
-EN: "The Priestess of Earth. Shalli abducted Iiklmn, Esther, Flare, and Er, descendants of the four priestesses of Magic Kingdom Ladras, then raised the Floating City of Ladras and tried to use its power to burn the surface world. <value:$28> stopped the plan. To make the Floating City perform an emergency landing, Esther remained alone aboard the falling city. Whether she survived is unknown.<end>"
-KO: "땅의 무녀. 샤리는 마도왕국 라드라스의 네 무녀 후손인 이크레문, 에스텔, 플레어, 에아를 납치해 라드라스의 공중도시를 띄우고 그 힘으로 지상을 불태우려 했다. 하지만 <value:$28>에게 저지당했다. 에스텔은 공중도시를 불시착시키기 위해 홀로 추락하는 도시에 남았다. 이후 에스텔의 생사는 불명이다.<end>"
-
-## 190180
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エスト<end>"
-EN: "Est<end>"
-KO: "에스트<end>"
-
-## 190181
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "白面の考古学者<end>"
-EN: "Pale-Faced Archaeologist<end>"
-KO: "흰 얼굴의 고고학자<end>"
-
-## 190182
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190183
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　１月　２６日<end>"
-EN: "January 26<end>"
-KO: "1월 26일<end>"
-
-## 190184
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストールの貴族リューガ家の次男でレムオンの<line-break>異母弟。兄のことを尊敬し、その孤高な振る舞い<line-break>を心配している。考古学者として闇の神器の<line-break>研究をしており、その魔道技術を人類の生活向上<line-break>に役立たせようと考えている。<line-break><line-break><line-break>　<end>"
-EN: "The second son of Rostorl's noble House Ryuga and Lemghon's younger half-brother. He respects his brother but worries about Lemghon's aloof behavior. As an archaeologist, he studies the Dark Artifacts in hopes of using their magical technology to improve human life.<end>"
-KO: "로스톨 귀족 류가 가문의 차남이며 레무온의 이복동생. 형을 존경하며 그 고고한 행동을 걱정한다. 고고학자로서 어둠의 신기를 연구하고 있으며 그 마도기술을 인류 생활 향상에 활용하려 한다.<end>"
-
-## 190185
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エリス<end>"
-EN: "Eris<end>"
-KO: "에리스<end>"
-
-## 190186
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ファーロスの雌狐<end>"
-EN: "Vixen of Pharos<end>"
-KO: "파로스의 암여우<end>"
-
-## 190187
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190188
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　７月　１５日<end>"
-EN: "July 15<end>"
-KO: "7월 15일<end>"
-
-## 190189
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール王国の王妃。名家ファーロス家の出。<line-break>謀略に優れ、２国を滅ぼしロストールに併合する<line-break>という実績を持つ。夫セルモノーも実兄ノヴィン<line-break>も頼りにならないため、国を守るには彼女が謀略<line-break>を用いて他国と戦うしかないのだが、その妖艶で<line-break>悪女的な外見も災いしファーロスの雌狐などと<line-break>呼ばれている。<line-break>　<end>"
-EN: "Queen of Rostorl, born to House Pharos. A gifted schemer, she destroyed two countries and annexed them to Rostorl. Unable to rely on Selmono or Novin, she defended the kingdom through intrigue. Her bewitching, villainous appearance earned her the name Vixen of Pharos.<end>"
-KO: "로스톨 왕국의 왕비. 명문 파로스 가문 출신. 모략에 뛰어나 두 나라를 멸망시키고 로스톨에 병합한 실적이 있다. 남편 셀모노도 친오빠 노빈도 의지가 되지 않아 나라를 지키려면 그녀가 모략을 써서 타국과 싸울 수밖에 없지만, 요염하고 악녀 같은 외모까지 겹쳐 파로스의 암여우라 불린다.<end>"
-
-## 190190
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エリス<end>"
-EN: "Eris<end>"
-KO: "에리스<end>"
-
-## 190191
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ファーロスの雌狐<end>"
-EN: "Vixen of Pharos<end>"
-KO: "파로스의 암여우<end>"
-
-## 190192
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190193
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　７月　１５日<end>"
-EN: "July 15<end>"
-KO: "7월 15일<end>"
-
-## 190194
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール王セルモノーの王妃。ティアナ王女の<line-break>母。ゼネテスは甥にあたる。<line-break>セルモノー王に代わり政治の実権を握っていた。<line-break>貴族をおさえ、王権を強化すべく、貴族の領袖<line-break>エリエナイ公レムオンと政争を繰り広げるが、<line-break>リューガの変で、その命を落とした。<line-break>　<end>"
-EN: "Queen consort of Selmono, King of Rostorl, and mother of Princess Tiana. Xenetes is her nephew. She wielded the true political power in King Selmono's stead. Seeking to curb the nobility and strengthen royal authority, she waged a political struggle against Lemghon, Duke of Elienai and leader of the nobles, but lost her life in the Ryuga Incident.<end>"
-KO: "로스톨 왕 세르모노의 왕비. 티아나 왕녀의 어머니이며 제네테스는 조카다. 세르모노 왕을 대신해 정치 실권을 쥐고 있었다. 귀족을 억누르고 왕권을 강화하기 위해 귀족의 영수 엘리에나이 공 레무온과 정쟁을 벌였으나 류가의 변에서 목숨을 잃었다.<end>"
-
-## 190195
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エリュマルク<end>"
-EN: "Elmark<end>"
-KO: "에류마르크<end>"
-
-## 190196
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ディンガル皇帝<end>"
-EN: "Emperor of Dyneskal<end>"
-KO: "딘갈 황제<end>"
-
-## 190197
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190198
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　６月　２６日<end>"
-EN: "June 26<end>"
-KO: "6월 26일<end>"
-
-## 190199
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪眼帝バロルの末子で、ネメアの叔父にあたる。<line-break>ネメアと共に父を倒したあと、ネメアの推挙で<line-break>皇帝となる。しかし、ネメアの能力に嫉妬を感じ<line-break>殺意を抱くようになり、ネメアに、１２の難事を<line-break>命令する。ネメアはそれらの難事をことごとく<line-break>遂行する。業を煮やしたエリュマルクは、ネメア<line-break>が王妃イズと不義を働いているとして処刑<line-break>しようとするが逃亡されてしまう。<end>"
-EN: "Balor's youngest son and Nemea's uncle. After defeating Balor with Nemea, he became emperor on Nemea's recommendation. Jealous of Nemea, he imposed the Twelve Labors and later falsely accused him of adultery with Queen Iz. Nemea escaped execution.<end>"
-KO: "사안제 발로르의 막내아들이며 네메아의 숙부. 네메아와 함께 아버지를 쓰러뜨린 뒤 네메아의 추천으로 황제가 된다. 그러나 네메아의 능력을 질투해 살의를 품고 열두 가지 난제를 명한다. 네메아가 모두 해결하자 엘류마르크는 네메아가 왕비 이즈와 불륜을 저질렀다는 죄를 씌워 처형하려 하지만 도망치고 만다.<end>"
-
-## 190200
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エリュマルク<end>"
-EN: "Elmark<end>"
-KO: "에류마르크<end>"
-
-## 190201
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇にとりつかれた皇帝<end>"
-EN: "Emperor Possessed by Darkness<end>"
-KO: "어둠에 사로잡힌 황제<end>"
-
-## 190202
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190203
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　６月　２６日<end>"
-EN: "June 26<end>"
-KO: "6월 26일<end>"
-
-## 190204
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪眼帝バロルの末子で、ネメアの叔父にあたる。<line-break>ネメアと共に父を倒したあと、ネメアの推挙で<line-break>皇帝となる。しかし、ネメアの能力への嫉妬心に<line-break>つけ込まれ、闇にとりつかれる。闇に落ちた彼は<line-break>ネメアに１２の難事を命令するが、それらの難事<line-break>をことごとく遂行されてしまう。<line-break>ついには処刑しようとするが逃げられ、挙げ句の<line-break>果てに真実を知ったネメアに殺されてしまう。<end>"
-EN: "Balor's youngest son and Nemea's uncle. After defeating Balor with Nemea, he became emperor on Nemea's recommendation. Jealousy led darkness to possess him; he assigned Nemea the Twelve Labors and tried to execute him. Nemea learned the truth and killed him.<end>"
-KO: "사안제 발로르의 막내아들이며 네메아의 숙부다. 네메아와 함께 아버지를 쓰러뜨린 뒤 네메아의 추천으로 황제가 된다. 그러나 네메아의 능력에 대한 질투를 파고든 어둠에 사로잡힌다. 어둠에 빠진 그는 네메아에게 열두 가지 난제를 명하지만 모두 해결당한다. 끝내 처형하려 하지만 도망치고, 결국 진실을 알게 된 네메아에게 살해된다.<end>"
-
-## 190205
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルファス<end>"
-EN: "Elfas<end>"
-KO: "엘파스<end>"
-
-## 190206
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "救世主<end>"
-EN: "Savior<end>"
-KO: "구세주<end>"
-
-## 190207
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190208
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　２２日<end>"
-EN: "November 22<end>"
-KO: "11월 22일<end>"
-
-## 190209
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "世界各地でこの世の終末を説き、奇跡を起こし、<line-break>自らを神の使者と名乗る謎の男。<line-break>激しい言葉で既存の権力を否定し、その破滅を<line-break>予言するため、権力者の迫害を受けている。<line-break>自分の予言を信じ、神に祈らなければ世界は<line-break>滅びるという彼の主張は、徐々に民衆の間に<line-break>浸透してきているようだ。<line-break>　<end>"
-EN: "A mysterious man who preaches the world's end, performs miracles, and calls himself God's messenger. His attacks on established powers and predictions of their ruin have brought persecution. His prophecy that the world will perish without faith and prayer is spreading among the people.<end>"
-KO: "세계 각지에서 종말을 설파하고 기적을 일으키며 자신을 신의 사자라 칭하는 수수께끼의 남자. 격한 말로 기존 권력을 부정하고 그 파멸을 예언하기 때문에 권력자들에게 박해받고 있다. 자신의 예언을 믿고 신께 기도하지 않으면 세계가 멸망한다는 그의 주장은 점차 민중 사이에 퍼져 가는 듯하다.<end>"
-
-## 190210
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルファス<end>"
-EN: "Elfas<end>"
-KO: "엘파스<end>"
-
-## 190211
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "造られた神<end>"
-EN: "Manufactured God<end>"
-KO: "만들어진 신<end>"
-
-## 190212
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190213
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　２２日<end>"
-EN: "November 22<end>"
-KO: "11월 22일<end>"
-
-## 190214
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "暗殺集団告死天使を操る施文院の長。<line-break>エリュマルクに命ぜられたネメアに、姉イズが<line-break>さらわれ、その時に姉を守りきれなかったのが、<line-break>トラウマになり、闇に降る。<line-break>姉を守れなかったという後悔をシャリにつかれ、<line-break>絶対的な力を求めるよう導かれる。<line-break>結果的にシャリの言うことを何でも聞く絶対的な<line-break>力を持つ「神」にされてしまう。<end>"
-EN: "Head of the Inscription Order, which controls the Angels of Death, a band of assassins. Acting on Elmark's orders, Nemea abducted his elder sister Iz. Traumatized by his failure to protect her, Elfas surrendered to darkness. Shalli preyed on his regret and led him to seek absolute power. In the end, he was turned into a “god” with absolute power who obeyed Shalli's every command.<end>"
-KO: "암살집단 고사천사를 조종하는 시문원의 수장. 엘류마르크의 명을 받은 네메아에게 누나 이즈를 빼앗겼고, 그때 누나를 지키지 못한 일이 상처가 되어 어둠에 빠졌다. 누나를 지키지 못했다는 후회를 샤리에게 이용당해 절대적인 힘을 갈망하도록 유도되었고, 결국 샤리의 말이라면 무엇이든 따르는 절대적인 힘을 지닌 '신'이 되고 만다.<end>"
-
-## 190215
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルファス<end>"
-EN: "Elfas<end>"
-KO: "엘파스<end>"
-
-## 190216
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "元救世主<end>"
-EN: "Former Savior<end>"
-KO: "전 구세주<end>"
-
-## 190217
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190218
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　２２日<end>"
-EN: "November 22<end>"
-KO: "11월 22일<end>"
-
-## 190219
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "かつて、世界の破滅を目論む秘密結社、<line-break>「システィーナの伝導師」の一員であった男。<line-break>エリュマルクに命ぜられたネメアに、姉イズを<line-break>さらわれ、その時、姉を守れなかったことが<line-break>トラウマとなり、闇に降った。<line-break>だが、<value:$28>と出会い、交流を重ねる<line-break>うちに、誰かを大切に思う心を取り戻し、その闇<line-break>を払拭するに至った。<end>"
-EN: "A man who once belonged to the Missionaries of Sistina, a secret society plotting the world's destruction. Acting on Elmark's orders, Nemea abducted his elder sister Iz. Traumatized by his failure to protect her, Elfas surrendered to darkness. But as he spent time with <value:$28>, he regained the capacity to care for someone and finally cast off that darkness.<end>"
-KO: "과거 세계의 파멸을 꾀하는 비밀결사 '시스티나의 전도사' 일원이었던 남자. 엘류마르크의 명을 받은 네메아에게 누나 이즈를 빼앗겼고, 그때 누나를 지키지 못했다는 상처 때문에 어둠에 빠졌다. 하지만 <value:$28>와 만나 교류를 거듭하며 누군가를 소중히 여기는 마음을 되찾고 마침내 그 어둠을 떨쳐 냈다.<end>"
-
-## 190220
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "オイフェ<end>"
-EN: "Aoife<end>"
-KO: "오이페<end>"
-
-## 190221
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "鉄火姫<end>"
-EN: "Fiery Princess<end>"
-KO: "철화희<end>"
-
-## 190222
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ダークエルフ<end>"
-EN: "Dark Elf<end>"
-KO: "다크 엘프<end>"
-
-## 190223
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　１月　２０日<end>"
-EN: "January 20<end>"
-KO: "1월 20일<end>"
-
-## 190224
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルフは強い憎しみや怒りから身体が闇に染まり<line-break>ダークエルフになってしまうことがある。<line-break>彼女は妹を冒険者に殺された事に対する強い怒り<line-break>から、ダークエルフとなった。<line-break>そして、ダークエルフであるために命を狙われる<line-break>立場になる。そこをネメアに救われ、彼が皇帝に<line-break>なると、その側近として仕え、彼と共に闇の神器<line-break>を求める。<end>"
-EN: "Intense hatred or anger can sometimes stain an Elf's body with darkness, turning the Elf into a Dark Elf. Aoife became a Dark Elf through the fury she felt after adventurers killed her younger sister. This made her a target herself. Nemea saved her, and when he became emperor, she entered his service as a close aide and joined him in seeking the Dark Artifacts.<end>"
-KO: "엘프는 강한 증오와 분노로 몸이 어둠에 물들어 다크엘프가 되는 경우가 있다. 그녀는 여동생이 모험자에게 살해된 데 대한 강한 분노로 다크엘프가 되었다. 그 때문에 목숨을 노리는 처지가 되었지만 네메아에게 구원받았고, 그가 황제가 된 뒤 측근으로 섬기며 함께 어둠의 신기를 찾는다.<end>"
-
-## 190225
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "オルナット<end>"
-EN: "Ornut<end>"
-KO: "오르나트<end>"
-
-## 190226
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゴブゴブ団員<end>"
-EN: "Gob-Gob Gang Member<end>"
-KO: "고브고브 단원<end>"
-
-## 190227
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ゴブリン<end>"
-EN: "Goblin<end>"
-KO: "고블린<end>"
-
-## 190228
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　３月　２５日<end>"
-EN: "March 25<end>"
-KO: "3월 25일<end>"
-
-## 190229
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の神器である禁断の聖杯を盗んだとき、<line-break>その魔力で人語をしゃべるようになった３匹の<line-break>ゴブリンのひとり。人語はしゃべれても、元々<line-break>ゴブリンなのであまり賢くはない。特にオルナ<line-break>ットはゴブゴブ団の中でも最もヌけている。<line-break>ちなみにゴブゴブ団は、ガント、マルーン、<line-break>オルナットの３匹のゴブリンで構成される。<line-break>　<end>"
-EN: "One of three Goblins who gained the power of human speech from the Forbidden Grail's magic when they stole the Dark Artifact. Speaking like humans did not make them especially clever, since they were Goblins to begin with. Ornut is the dimmest member of the Gob-Gob Gang. Incidentally, the gang consists of three Goblins: Gant, Maroon, and Ornut.<end>"
-KO: "어둠의 신기인 금단의 성배를 훔쳤을 때 그 마력으로 인간의 말을 하게 된 세 고블린 중 하나. 인간의 말을 할 수 있어도 원래 고블린이라 그다지 영리하지 않다. 특히 오르나트는 고브고브단 중에서도 가장 얼빠진 편이다. 참고로 고브고브단은 간트, 마룬, 오르나트 세 고블린으로 이루어져 있다.<end>"
-
-## 190230
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "オルファウス<end>"
-EN: "Orphaus<end>"
-KO: "오르파우스<end>"
-
-## 190231
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "猫屋敷の賢者様<end>"
-EN: "Sage of Cat Manor<end>"
-KO: "고양이 저택의 현자님<end>"
-
-## 190232
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間？<end>"
-EN: "Human?<end>"
-KO: "인간?<end>"
-
-## 190233
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１０月　１６日<end>"
-EN: "October 16<end>"
-KO: "10월 16일<end>"
-
-## 190234
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "運命に選ばれた者しか入れないと言われる猫屋敷<line-break>に住む謎の男。運命に選ばれ無限のソウルを持つ<line-break><value:$28>に転送器を貸し与えるなど<line-break>色々と協力してくれるので、特に害はなさそうで<line-break>ある。賢者と呼ばれるだけの事はあり、神話や<line-break>魔道王国時代の魔道器などに対する知識は<line-break>かなり深い。年齢不詳で女性のように美しい外見<line-break>をしている。多少お気楽なところがあるようだ。<end>"
-EN: "A mysterious man living in Cat Manor, which admits only those chosen by destiny. He aids <value:$28>, an Infinite Soul, with knowledge and a teleportation device. A sage versed in the magical devices of the Magic Kingdom era, he is of unknown age, beautiful, and somewhat carefree.<end>"
-KO: "운명에 선택받은 자만 들어갈 수 있다는 고양이 저택에 사는 수수께끼의 남자. 운명에 선택되어 무한의 소울을 지닌 <value:$28>에게 전송기를 빌려주는 등 여러모로 협력하므로 특별한 해는 없어 보인다. 현자라 불릴 만큼 신화와 마도왕국 시대의 마도기 등에 대한 지식이 깊다. 나이는 알 수 없고 여성처럼 아름다운 외모를 지녔다. 다소 태평한 면도 있는 듯하다.<end>"
-
-## 190235
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "オルファウス<end>"
-EN: "Orphaus<end>"
-KO: "오르파우스<end>"
-
-## 190236
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "猫屋敷の大賢者様<end>"
-EN: "Great Sage of Cat Manor<end>"
-KO: "고양이 저택의 대현자님<end>"
-
-## 190237
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルフ<end>"
-EN: "Elf<end>"
-KO: "엘프<end>"
-
-## 190238
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１０月　１６日<end>"
-EN: "October 16<end>"
-KO: "10월 16일<end>"
-
-## 190239
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ネメアの育ての親でもあり、その師でもある。<line-break>妖術宰相ゾフォルの予言を信じた魔王バロルに<line-break>よって殺されたエスリンの胎内からネメアを救い<line-break>ハーフエルフゆえに捨てられたケリュネイアと<line-break>一緒に育てる。成長したネメアが、魔王バロルを<line-break>倒すために旅立つと、ケリュネイア、レーグと<line-break>共に参加して、その手助けをする。<line-break>その後、賢者の森の猫屋敷にひっそりと住む。<end>"
-EN: "Nemea's foster parent and teacher. After Balor killed Ethlinn, Orphaus rescued Nemea from her womb and raised him with Ceryneia. He, Ceryneia, and Reig helped Nemea defeat Balor, then Orphaus retired to Cat Manor in Sage's Forest.<end>"
-KO: "네메아의 양부이자 스승. 요술재상 조포르의 예언을 믿은 마왕 발로르에게 살해된 에슬린의 뱃속에서 네메아를 구해 내고, 하프엘프라는 이유로 버려진 케류네이아와 함께 키웠다. 성장한 네메아가 마왕 발로르를 쓰러뜨리기 위해 여행을 떠나자 케류네이아, 레그와 함께 참가해 도왔다. 그 후 현자의 숲 고양이 저택에서 조용히 살아간다.<end>"
-
-## 190240
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "オルファウス<end>"
-EN: "Orphaus<end>"
-KO: "오르파우스<end>"
-
-## 190241
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "クィーダロア<end>"
-EN: "Quidaloa<end>"
-KO: "퀴다로아<end>"
-
-## 190242
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルフ<end>"
-EN: "Elf<end>"
-KO: "엘프<end>"
-
-## 190243
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１０月　１６日<end>"
-EN: "October 16<end>"
-KO: "10월 16일<end>"
-
-## 190244
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "エルフ全体の指導者（クィーダロア）で本名を<line-break>パルシェンと言う。ネメアとケリュネイアの育て<line-break>の親で、魔王バロルとの戦いにも参加した賢者。<line-break>闇の神器のひとつ魂吸いの指輪を奪いに来た<line-break>ネメアとの戦いで、自分の精神を子猫に封じる。<line-break>以後は子猫の姿のままで<value:$28>たちを<line-break>導いていく。<line-break>　<end>"
-EN: "The leader of all Elves, known as the Quidaloa, whose true name is Parshen. A sage who raised Nemea and Ceryneia and fought in the battle against Balor, Demon King. During a battle with Nemea, who had come to seize the Soul-Draining Ring, one of the Dark Artifacts, Orphaus sealed his spirit inside a kitten. From then on, he remains in the kitten's form and guides <value:$28> and the others.<end>"
-KO: "엘프 전체의 지도자(퀴다로아)이며 본명은 파르셴. 네메아와 케류네이아의 양부모이자 마왕 발로르와의 싸움에도 참여했던 현자. 어둠의 신기 중 하나인 혼흡의 반지를 빼앗으러 온 네메아와 싸우다 자신의 정신을 새끼고양이에 봉인한다. 이후 새끼고양이의 모습으로 <value:$28> 일행을 이끌어 간다.<end>"
-
-## 190245
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "カッツ<end>"
-EN: "Katz<end>"
-KO: "캇츠<end>"
-
-## 190246
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "炎の鍛冶工<end>"
-EN: "Smith of Flame<end>"
-KO: "불꽃의 대장장이<end>"
-
-## 190247
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190248
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　６月　１１日<end>"
-EN: "June 11<end>"
-KO: "6월 11일<end>"
-
-## 190249
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロストール生まれの鍛冶工。彼の打つ剣は名剣と<line-break>もてはやされ、当代きっての名工と言われる。<line-break>ドワーフの名工デルガドとは親友。<line-break>デルガドの弟子ロッチナと恋に落ち、結婚。<line-break>炎竜山の宝剣伝説を求め、炎竜山にふたりの小屋<line-break>をかまえる。<line-break>伝説の宝剣を打とうとして、炎竜山の噴火に<line-break>巻き込まれ死亡する。<end>"
-EN: "A Rostorl smith celebrated as his age's finest craftsman and friend of Dwarf smith Dergado. He married Dergado's apprentice Rotchina. Seeking Flame Dragon Mountain's legendary sword, they lived on the mountain, where Katz died forging it during an eruption.<end>"
-KO: "로스톨 출신의 대장장이. 그가 만든 검은 명검으로 칭송받아 당대 최고의 명공이라 불린다. 드워프 명공 델가도와는 절친한 사이. 델가도의 제자 로치나와 사랑에 빠져 결혼하고, 염룡산의 보검 전설을 찾아 둘이 오두막을 짓는다. 전설의 보검을 만들려다 염룡산 분화에 휘말려 사망한다.<end>"
-
-## 190250
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "カフィン<end>"
-EN: "Coffin<end>"
-KO: "카핀<end>"
-
-## 190251
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "真紅の魔法戦士<end>"
-EN: "Crimson Spellsword<end>"
-KO: "진홍의 마법전사<end>"
-
-## 190252
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190253
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　　９日<end>"
-EN: "November 9<end>"
-KO: "11월 9일<end>"
-
-## 190254
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "巧みな剣さばきと多彩な魔法で敵を倒す<line-break>ノエルパーティの魔法剣士。<line-break>毒舌で<value:$28>やレイヴンをからかって<line-break>楽しんでいる。<line-break>ノエルにとっては頼れるお姉さんといった存在。<line-break>　<line-break>　<line-break> <end>"
-EN: "A spellsword in Noel's party who defeats enemies with deft swordplay and a wide array of magic. Sharp-tongued, she enjoys teasing <value:$28> and Raven. To Noel, she is like a dependable older sister.<end>"
-KO: "능숙한 검술과 다양한 마법으로 적을 쓰러뜨리는 노엘 파티의 마법검사. 독설로 <value:$28>와 레이븐을 놀리며 즐긴다. 노엘에게는 믿음직한 언니 같은 존재.<end>"
-
-## 190255
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ガルドラン<end>"
-EN: "Girldlan<end>"
-KO: "갈드란<end>"
-
-## 190256
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "未来の勇者<end>"
-EN: "Future Hero<end>"
-KO: "미래의 용사<end>"
-
-## 190257
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190258
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　２８日<end>"
-EN: "December 28<end>"
-KO: "12월 28일<end>"
-
-## 190259
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "もとはエンシャントの鼻つまみ者。それがある日<line-break>何をトチ狂ったか世界を救う伝説の勇者になる<line-break>べく旅に出る。一説には勇者になってモテモテの<line-break>人生を送るため、一説には世間がガルドランを<line-break>鼻つまみの厄介者だと言っても、きっと最後には<line-break>偉大な男になると信じて死んでいった父に応える<line-break>ためだという。思いこみが強く他人は無視。<line-break>執念深く、妙に運がいいが、ただの三流冒険者。<end>"
-EN: "Once an Ancient pariah, he set out to become the legendary Hero who would save the world. Some say he sought romance; others say he wished to honor his late father. Convinced of his own ideas, tenacious and lucky, he remains a third-rate adventurer.<end>"
-KO: "원래 엔샨트의 골칫거리. 어느 날 무슨 바람이 들었는지 세계를 구하는 전설의 용자가 되겠다며 여행을 떠난다. 용자가 되어 여자들에게 인기 있는 인생을 살기 위해서라는 설도 있고, 세상이 갈드란을 골칫거리라 해도 언젠가 위대한 남자가 되리라 믿고 죽은 아버지의 기대에 보답하기 위해서라는 설도 있다. 자기 확신이 지나치고 남의 말은 무시한다. 집요하고 이상하게 운은 좋지만 실력은 삼류 모험자다.<end>"
-
-## 190260
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ<end>"
-EN: "Karula<end>"
-KO: "카를라<end>"
-
-## 190261
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "青竜将軍<end>"
-EN: "Azure Dragon General<end>"
-KO: "청룡장군<end>"
-
-## 190262
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190263
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　３０日<end>"
-EN: "November 30<end>"
-KO: "11월 30일<end>"
-
-## 190264
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ディンガル帝国東方にある辺境の都市出身。<line-break>リベルダムの武器商人やロストール王妃エリスに<line-break>たきつけられたロセン王国の愚王ペウダが略奪に<line-break>来た際、両親を失う。それ以来、いつでも笑って<line-break>いられるように強くなりたいとこだわるようにな<line-break>る。ネメアによって青竜将軍に任じられると、<line-break>わずか数週間で東方諸国を滅ぼし、ロセン王家の<line-break>人間をすべて処刑する。<end>"
-EN: "Born in eastern Dyneskal, she lost her parents when King Peuda pillaged her city at Liberdam merchants' and Queen Eris's urging. Nemea made her Azure Dragon General. She swiftly destroyed the Eastern Nations and executed Rocen's royal family.<end>"
-KO: "딩갈 제국 동쪽 변방 도시 출신. 리벨덤의 무기상과 로스톨 왕비 에리스에게 부추김을 받은 로센 왕국의 어리석은 왕 페우다가 약탈하러 왔을 때 부모를 잃었다. 그 뒤 언제든 웃을 수 있도록 강해져야 한다는 데 집착하게 된다. 네메아에게 청룡 장군으로 임명된 뒤 불과 몇 주 만에 동방 제국들을 멸망시키고 로센 왕가 사람을 모두 처형한다.<end>"
-
-## 190265
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ<end>"
-EN: "Karula<end>"
-KO: "카를라<end>"
-
-## 190266
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "青竜将軍<end>"
-EN: "Azure Dragon General<end>"
-KO: "청룡장군<end>"
-
-## 190267
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190268
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　３０日<end>"
-EN: "November 30<end>"
-KO: "11월 30일<end>"
-
-## 190269
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ディンガル帝国東方にある辺境の都市出身。<line-break>ロセン王国の愚王ペウダが略奪に来た際、両親を<line-break>失う。ネメアによって青竜将軍に任じられると、<line-break>わずか数週間で東方諸国を滅ぼし、ロセン王家の<line-break>人間をすべて処刑する。次にアンティノを利用し<line-break>て内側から門を開けさせ、難なくリベルダムも占<line-break>領する。自由都市リベルダムは、青竜軍によって<line-break>徹底的に破壊される。<end>"
-EN: "Born in eastern Dyneskal, she lost her parents when King Peuda pillaged her city. As Nemea's Azure Dragon General, she destroyed the Eastern Nations and Rocen's royal house. Using Antino, she took Liberdam and the Azure Dragon Army destroyed it.<end>"
-KO: "딩갈 제국 동쪽 변방 도시 출신. 로센 왕국의 어리석은 왕 페우다가 약탈하러 왔을 때 부모를 잃었다. 네메아에게 청룡 장군으로 임명된 뒤 불과 몇 주 만에 동방 제국들을 멸망시키고 로센 왕가 사람을 모두 처형한다. 다음으로 안티노를 이용해 안에서 성문을 열게 한 뒤 리벨덤도 손쉽게 점령한다. 자유도시 리벨덤은 청룡군에 의해 철저히 파괴된다.<end>"
-
-## 190270
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ<end>"
-EN: "Karula<end>"
-KO: "카를라<end>"
-
-## 190271
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "青竜将軍<end>"
-EN: "Azure Dragon General<end>"
-KO: "청룡장군<end>"
-
-## 190272
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190273
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　３０日<end>"
-EN: "November 30<end>"
-KO: "11월 30일<end>"
-
-## 190274
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ディンガル帝国東方にある辺境の都市出身。<line-break>ネメアによって青竜将軍に任じられると、わずか<line-break>数週間で東方諸国を滅ぼし、ロセン王家の人間を<line-break>すべて処刑する。次に自由都市リベルダムを占領<line-break>し徹底的に破壊する。勢いづく青竜軍は、ついに<line-break>ロストール王国へ進軍する。ゼネテスとの直接対<line-break>決には敗れるものの、ロストールに政変を起こし<line-break>て王妃エリスを排し、ロストールを無力化する。<end>"
-EN: "Born in eastern Dyneskal, she became Nemea's Azure Dragon General, destroyed the Eastern Nations, and occupied then destroyed Liberdam. Defeated by Xenetes in Rostorl, Karula still sparked an upheaval, ousted Queen Eris, and neutralized the kingdom.<end>"
-KO: "딩갈 제국 동방 변경도시 출신. 네메아에게 청룡장군으로 임명된 뒤 몇 주 만에 동방 제국들을 멸하고 로센 왕가 사람들을 모두 처형한다. 이어 자유도시 리벨덤을 점령해 철저히 파괴한다. 기세를 탄 청룡군은 로스톨 왕국으로 진군한다. 제네테스와의 직접 대결에는 패하지만 로스톨에 정변을 일으켜 에리스 왕비를 제거하고 왕국을 무력화한다.<end>"
-
-## 190275
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ<end>"
-EN: "Karula<end>"
-KO: "카를라<end>"
-
-## 190276
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "青竜将軍<end>"
-EN: "Azure Dragon General<end>"
-KO: "청룡장군<end>"
-
-## 190277
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190278
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　３０日<end>"
-EN: "November 30<end>"
-KO: "11월 30일<end>"
-
-## 190279
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ディンガル帝国東方にある辺境の都市出身。<line-break>ネメアによって青竜将軍に任じられると、わずか<line-break>数週間で東方諸国を滅ぼし、続いて自由都市リベ<line-break>ルダムを占領した。用兵ばかりではなく、謀略に<line-break>も長け、ロストール戦ではゼネテスを相手に土を<line-break>つけたものの、戦略的にロストール軍を無力化<line-break>している。<value:$28>とジラークの反乱を<line-break>鎮圧し、以後、行動をともにしている<end>"
-EN: "Born in eastern Dyneskal, she became Nemea's Azure Dragon General, destroyed the Eastern Nations, and occupied Liberdam. Though Xenetes defeated her in Rostorl, she strategically neutralized its army. She and <value:$28> crushed Zsilak's rebellion and travel together.<end>"
-KO: "딩갈 제국 동방의 변경도시 출신. 네메아에게 청룡장군으로 임명된 뒤 불과 몇 주 만에 동방 제국들을 멸하고 이어 자유도시 리벨덤을 점령했다. 용병술뿐 아니라 모략에도 뛰어나 로스톨전에서 제네테스에게 한 차례 패했지만 전략적으로 로스톨군을 무력화했다. <value:$28>와 함께 지라크의 반란을 진압하고 이후 행동을 함께한다.<end>"
-
-## 190280
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ガント<end>"
-EN: "Gant<end>"
-KO: "간트<end>"
-
-## 190281
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ゴブゴブ団の団長<end>"
-EN: "Leader of the Gob-Gob Gang<end>"
-KO: "고브고브단 단장<end>"
-
-## 190282
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ゴブリン<end>"
-EN: "Goblin<end>"
-KO: "고블린<end>"
-
-## 190283
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１０月　　４日<end>"
-EN: "October 4<end>"
-KO: "10월 4일<end>"
-
-## 190284
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の神器である禁断の聖杯を盗んだとき、<line-break>その魔力で人語をしゃべるようになった３匹の<line-break>ゴブリンのひとり。人語はしゃべれても、元々<line-break>ゴブリンなので賢くはない。臆病なくせに虚勢<line-break>を張るタイプ。マルーン、オルナットを率い、<line-break>ゴブゴブ団の団長を務める。首に巻いている<line-break>しゃれたスカーフが彼のチャームポイント。<line-break><end>"
-EN: "One of three Goblins who gained the power of human speech from the Forbidden Grail's magic when they stole the Dark Artifact. Speaking like humans did not make them clever, since they were Goblins to begin with. He is a coward who likes to put on a brave front. He leads Maroon and Ornut as head of the Gob-Gob Gang. The stylish scarf around his neck is his most charming feature.<end>"
-KO: "어둠의 신기인 금단의 성배를 훔쳤을 때 그 마력으로 인간의 말을 하게 된 세 고블린 중 하나. 말을 할 수 있어도 원래 고블린이라 영리하진 않다. 겁이 많으면서 허세를 부리는 타입. 마룬과 오르나트를 이끌며 고브고브단의 단장을 맡는다. 목에 두른 멋진 스카프가 매력 포인트다.<end>"
-
-## 190285
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "クリュセイス<end>"
-EN: "Khryuseis<end>"
-KO: "크류세이스<end>"
-
-## 190286
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "リベルダムのお嬢様<end>"
-EN: "Young Lady of Liberdam<end>"
-KO: "리벨덤의 아가씨<end>"
-
-## 190287
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190288
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　８月　２１日<end>"
-EN: "August 21<end>"
-KO: "8월 21일<end>"
-
-## 190289
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダムの有力商人ロティの娘。<line-break>豪商の娘らしく気位が高くて、わがままである。<line-break>父親を暗殺した犯人が、<value:$28>だと、<line-break>父の親友アンティノに聞かされ、何の疑いもなく<line-break>それを信じる。それゆえ父親の仇を討つために、<line-break><value:$28>を狙う。<line-break>　<line-break>　<end>"
-EN: "The daughter of Lottie, a prominent merchant in Liberdam. As befits the daughter of a wealthy merchant, she is proud and spoiled. Antino, her father's closest friend, told her that <value:$28> assassinated her father, and she believed him without question. She therefore targets <value:$28> to avenge her father.<end>"
-KO: "리벨덤의 유력 상인 로티의 딸. 거상 집안의 딸답게 자존심이 세고 제멋대로다. 아버지를 암살한 범인이 <value:$28>이라고 아버지의 절친 안티노에게 듣고 아무 의심 없이 믿는다. 그래서 아버지의 원수를 갚기 위해 <value:$28>을 노린다.<end>"
-
-## 190290
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "クリュセイス<end>"
-EN: "Khryuseis<end>"
-KO: "크류세이스<end>"
-
-## 190291
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "解放軍のリーダー<end>"
-EN: "Leader of the Liberation Army<end>"
-KO: "해방군의 지도자<end>"
-
-## 190292
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190293
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　８月　２１日<end>"
-EN: "August 21<end>"
-KO: "8월 21일<end>"
-
-## 190294
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダムの有力商人ロティの娘。<line-break>何者かに父ロティが暗殺されると、その跡を継ぎ<line-break>ロセン解放軍のリーダーとなる。なぜなら彼女の<line-break>母親はロセン王ペウダの叔母にあたり、カルラに<line-break>皆殺しにされたロセン王家の血を引く最後の生き<line-break>残りだからである。解放軍のリーダー兼シンボル<line-break>という重責のため、多少気負いすぎて突っ張って<line-break>いるところがある。<end>"
-EN: "Lottie's daughter and successor as leader of the Rocen Liberation Army. Her mother was King Peuda's aunt, making Khryuseis Rocen's last royal descendant after Karula killed the rest. As both the army's leader and symbol, she often forces herself to appear strong.<end>"
-KO: "리벨덤의 유력 상인 로티의 딸. 누군가에게 아버지 로티가 암살되자 뒤를 이어 로센 해방군의 지도자가 된다. 그녀의 어머니가 로센 왕 페우다의 숙모로, 카를라에게 몰살된 로센 왕가의 피를 이은 마지막 생존자이기 때문이다. 해방군의 지도자이자 상징이라는 무거운 책임 때문에 다소 지나치게 긴장하고 강한 척하는 면이 있다.<end>"
-
-## 190295
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ケリュネイア<end>"
-EN: "Ceryneia<end>"
-KO: "케류네이아<end>"
-
-## 190296
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "閃光の牝鹿<end>"
-EN: "The Flashing Doe<end>"
-KO: "섬광의 암사슴<end>"
-
-## 190297
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ハーフエルフ<end>"
-EN: "Half-Elf<end>"
-KO: "하프엘프<end>"
-
-## 190298
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　３月　２２日<end>"
-EN: "March 22<end>"
-KO: "3월 22일<end>"
-
-## 190299
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "かつてネメアと共に魔王バロルを倒した魔術師。<line-break>彼女もネメア同様、オルファウスに拾われ、兄妹<line-break>のように育てられた。彼女は自分と境遇が似てい<line-break>るネメアに、恋愛感情のようなものを抱いていた<line-break>のだが、自分の理想像から離れ、帝位を奪い<line-break>世界統一戦争を起こすなど、血塗られた覇道を<line-break>進んでいくネメアを許せず、それを止めるために<line-break><value:$28>を利用しようとした。<end>"
-EN: "A mage who helped Nemea defeat Balor and was raised with him by Orphaus. She once loved him, but could not forgive his seizure of the throne, war of unification, and bloody rise to power. She tried to use <value:$28> to stop him.<end>"
-KO: "과거 네메아와 함께 마왕 발로르를 쓰러뜨린 마술사. 그녀 역시 네메아처럼 오르파우스에게 거두어져 남매처럼 자랐다. 비슷한 처지의 네메아에게 연정에 가까운 감정을 품었지만, 자신의 이상에서 벗어나 제위를 빼앗고 세계통일전쟁을 일으키는 등 피 묻은 패도를 걷는 네메아를 용서할 수 없어 그를 막기 위해 <value:$28>를 이용하려 했다.<end>"
-
-## 190300
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ<end>"
-EN: "Zagiv<end>"
-KO: "자기브<end>"
-
-## 190301
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "玄武将軍<end>"
-EN: "Black Tortoise General<end>"
-KO: "현무장군<end>"
-
-## 190302
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190303
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　１３日<end>"
-EN: "November 13<end>"
-KO: "11월 13일<end>"
-
-## 190304
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "妖術宰相ゾフォルの「ザギヴが将来ディンガルを<line-break>支配する」という予言に、バロルは彼女を捕らえ<line-break>ウルグの円卓騎士マゴスの餌食にしようとした。<line-break>ネメアがバロルを倒したおかげで命は助かったが<line-break>マゴスはすでに彼女の胎内に入り込み、巣くって<line-break>しまっていた。その後、彼女はさらに強力な<line-break>魔道士となり、ネメアが帝位につくと玄武将軍に<line-break>任じられ、ディンガル帝国の内政を統括する。<end>"
-EN: "After Zofor prophesied that Zagiv would rule Dyneskal, Balor captured her for Magos. Nemea saved her, but Magos had entered her womb. Later, Nemea made her Black Tortoise General and placed her in charge of Dyneskal's domestic affairs.<end>"
-KO: "요술재상 조포르의 '자기브가 장차 딩갈을 지배한다'는 예언에 발로르는 그녀를 잡아 울그의 원탁기사 마고스의 먹이로 삼으려 했다. 네메아가 발로르를 쓰러뜨려 목숨은 건졌지만 마고스는 이미 그녀의 태내에 들어가 자리 잡고 있었다. 이후 더욱 강력한 마도사가 되어 네메아가 제위에 오르자 현무장군으로 임명되어 딩갈 제국의 내정을 총괄한다.<end>"
-
-## 190305
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ<end>"
-EN: "Zagiv<end>"
-KO: "자기브<end>"
-
-## 190306
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "元内務統括<end>"
-EN: "Former Director of Domestic Affairs<end>"
-KO: "전 내무 총괄<end>"
-
-## 190307
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190308
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　１３日<end>"
-EN: "November 13<end>"
-KO: "11월 13일<end>"
-
-## 190309
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "玄武将軍。内務統括としてディンガル帝国の内政<line-break>をつかさどっていたが、政敵、青竜将軍カルラの<line-break>領土を視察に向かったまま行方不明になった。<line-break>宰相ベルゼーヴァは早々に捜索を打ち切った。<line-break>ロセン解放軍に襲われた、カルラによって闇に葬<line-break>られた、冒険者<value:$28>といっしょに<line-break>行動しているのが目撃された、ベルゼーヴァに始<line-break>末された、などの様々な情報が飛びかっている。<end>"
-EN: "The Black Tortoise General and Dyneskal's Director of Domestic Affairs. She disappeared while inspecting rival Karula's territory, and Beelzeva ended the search. Rumors blame the Rocen Liberation Army, Karula, or Beelzeva; another says she travels with <value:$28>.<end>"
-KO: "현무장군. 내무총괄로 딩갈 제국의 내정을 맡았으나 정적 청룡장군 카를라의 영지를 시찰하러 간 뒤 행방불명되었다. 재상 벨제바는 일찍 수색을 중단했다. 로센 해방군에게 습격당했다, 카를라에게 암살됐다, 모험자 <value:$28>와 함께 다니는 것이 목격됐다, 벨제바에게 처리됐다는 등 온갖 정보가 난무한다.<end>"
-
-## 190310
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ<end>"
-EN: "Zagiv<end>"
-KO: "자기브<end>"
-
-## 190311
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ディンガル皇帝<end>"
-EN: "Emperor of Dyneskal<end>"
-KO: "딘갈 황제<end>"
-
-## 190312
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190313
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　１３日<end>"
-EN: "November 13<end>"
-KO: "11월 13일<end>"
-
-## 190314
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ディンガル帝国の内政を司どっていた将軍。<line-break>胎内に巣くう円卓騎士マゴスに操られるまま、<line-break>宰相ベルゼーヴァを排除し、帝位に就く。<line-break>「ザギヴが将来ディンガルを支配する」という<line-break>妖術宰相ゾフォルの預言が的中したのである。<line-break>ザギヴは、エンシャント全住民のソウルを奪い<line-break>ゾフォルやシャリ、闇の王女たちの<line-break>世界を虚無に帰すための計画に協力する。<end>"
-EN: "A Dyneskal general controlled by Magos, the Knight of the Round Table in her womb. She removed Beelzeva and ascended the throne, fulfilling Zofor's prophecy. She stole Ancient's Souls and aided Zofor, Shalli, and the Princesses of Darkness in returning the world to the Void.<end>"
-KO: "딩갈 제국의 내정을 맡았던 장군. 태내에 깃든 원탁기사 마고스에게 조종당한 채 재상 벨제바를 제거하고 제위에 오른다. '자기브가 장차 딩갈을 지배한다'는 요술재상 조포르의 예언이 적중한 셈이다. 자기브는 엔샨트 전 주민의 소울을 빼앗아 조포르, 샤리, 어둠의 왕녀들이 세계를 허무로 돌리려는 계획에 협력한다.<end>"
-
-## 190315
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ<end>"
-EN: "Zagiv<end>"
-KO: "자기브<end>"
-
-## 190316
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "死神皇帝<end>"
-EN: "Death-God Emperor<end>"
-KO: "사신황제<end>"
-
-## 190317
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190318
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　１３日<end>"
-EN: "November 13<end>"
-KO: "11월 13일<end>"
-
-## 190319
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "胎内に巣くう円卓騎士マゴスに操られるまま、<line-break>エンシャント全住民のソウルを奪い、<line-break>ゾフォルやシャリ、闇の王女たちの<line-break>世界を虚無に帰すための計画に協力した。<line-break><value:$28>によってマゴス共々<line-break>倒されたが、奪われたソウルが戻って<line-break>くることは無かった。<line-break><end>"
-EN: "Under the control of Magos, the Knight of the Round Table dwelling in her womb, she stole the Souls of every resident of Ancient and assisted Zofor, Shalli, and the Princesses of Darkness in their plan to return the world to the Void. <value:$28> defeated both her and Magos, but the stolen Souls never returned.<end>"
-KO: "몸속에 깃든 원탁기사 마고스에게 조종당한 채 엔샨트 전 주민의 소울을 빼앗고, 조포르와 샤리, 어둠의 왕녀들이 세계를 허무로 돌리려는 계획에 협력했다. <value:$28>에게 마고스와 함께 쓰러졌지만 빼앗긴 소울은 돌아오지 않았다.<end>"
-
-## 190320
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴ<end>"
-EN: "Zagiv<end>"
-KO: "자기브<end>"
-
-## 190321
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "打ち勝つもの<end>"
-EN: "The One Who Overcomes<end>"
-KO: "극복하는 자<end>"
-
-## 190322
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190323
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１１月　１３日<end>"
-EN: "November 13<end>"
-KO: "11월 13일<end>"
-
-## 190324
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ザギヴはゾフォルに「ディンガルを支配する」と<line-break>預言されていた。それは彼女の体の中にいる魔人<line-break>「棲み付くもの」破壊神の騎士マゴスに体を乗っ<line-break>取られ、その恐怖でディンガルを覆うことに他な<line-break>らなかった。ザギヴは自らの運命におびえていた<line-break>が、<value:$28>とともに旅をするうちに<line-break>運命と対決することを決意し、自らを縛る運命と<line-break>胎内に巣くうマゴスに打ち勝った。<end>"
-EN: "Zofor's prophecy that Zagiv would rule Dyneskal meant Magos, the Indweller, would seize her body and terrorize the empire. Fearing this fate, she resolved to confront it while traveling with <value:$28>. She overcame both destiny and Magos within her womb.<end>"
-KO: "자기브는 조포르에게 '딩갈을 지배한다'는 예언을 받았다. 그것은 그녀의 몸속에 사는 마인 '깃든 자', 파괴신의 기사 마고스에게 육체를 빼앗겨 공포로 딩갈을 뒤덮는다는 뜻이었다. 자기브는 자신의 운명을 두려워했지만 <value:$28>와 여행하면서 운명과 맞서기로 결심하고 자신을 옭아맨 운명과 태내의 마고스를 이겨 냈다.<end>"
-
-## 190325
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "シェスター<end>"
-EN: "Shester<end>"
-KO: "셰스터<end>"
-
-## 190326
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "セラの姉<end>"
-EN: "Sera's Older Sister<end>"
-KO: "세라의 언니<end>"
-
-## 190327
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190328
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　８月　３１日<end>"
-EN: "August 31<end>"
-KO: "8월 31일<end>"
-
-## 190330
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "システィーナ<end>"
-EN: "Sistina<end>"
-KO: "시스티나<end>"
-
-## 190331
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "永遠の少女<end>"
-EN: "Eternal Maiden<end>"
-KO: "영원의 소녀<end>"
-
-## 190332
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190333
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　３月　１８日<end>"
-EN: "March 18<end>"
-KO: "3월 18일<end>"
-
-## 190334
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ウルグが愛した人間の少女システィーナ。<line-break>彼女は人間と自然の共生を願い、自然を破壊し、<line-break>精霊たちに残虐行為を働く人間に融和を説いた。<line-break>だが、敵をかばう彼女に怒った人間たちは彼女を<line-break>殺してしまう。彼女の心は飛び散って星になり、<line-break>そして星の光となって人間や妖精族や魔族を<line-break>含めたすべての生き物の中に溶け込み宿る<line-break>ようになった。それがソウルである。<end>"
-EN: "Ulugh's beloved human girl. She preached reconciliation between humanity and nature, but humans killed her for defending spirits. Her heart became stars, then starlight dwelling in every human, fairy, and demon. That starlight is the Soul.<end>"
-KO: "울그가 사랑한 인간 소녀 시스티나. 인간과 자연의 공생을 바라며 자연을 파괴하고 정령들에게 잔혹한 짓을 하는 인간들에게 화해를 설파했다. 하지만 적을 감싼다며 분노한 인간들은 그녀를 죽였다. 그녀의 마음은 흩어져 별이 되고, 별빛이 되어 인간과 요정족과 마족을 포함한 모든 생명 속에 스며들어 깃들었다. 그것이 소울이다.<end>"
-
-## 190335
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャリ<end>"
-EN: "Shalli<end>"
-KO: "샤리<end>"
-
-## 190336
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "東方の博士<end>"
-EN: "Scholar from the East<end>"
-KO: "동방의 박사<end>"
-
-## 190337
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間？<end>"
-EN: "Human?<end>"
-KO: "인간?<end>"
-
-## 190338
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　２月　１８日<end>"
-EN: "February 18<end>"
-KO: "2월 18일<end>"
-
-## 190339
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "海を越え、はるか東方から来たと称し<line-break>バイアシオン大陸のあちこちに出没する、<line-break>その目的も正体も不明な謎だらけの少年。<line-break>結果や方法の善悪は関係なく、願いをかなえる<line-break>ことに楽しみを感じているようだが…。<line-break>東方の博士と自称するだけあって、<line-break>古代の魔法技術や魔道器に詳しい。<line-break>　<end>"
-EN: "A mysterious boy whose identity and motives are unknown. Claiming to have crossed the sea from the distant East, he appears here and there across the Vyashion Continent. He seems to delight in granting wishes, regardless of whether the means or results are good or evil... True to his self-proclaimed title of Scholar from the East, he is well versed in ancient magical technology and magical devices.<end>"
-KO: "바다를 건너 아득한 동방에서 왔다고 자칭하며 바이아시온 대륙 곳곳에 나타나는, 목적도 정체도 알 수 없는 수수께끼의 소년. 결과나 방법의 선악과 관계없이 소원을 이루어 주는 데 즐거움을 느끼는 듯하다. 동방의 박사를 자칭할 만큼 고대 마법 기술과 마도기에 밝다.<end>"
-
-## 190340
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "シャローム<end>"
-EN: "Shalom<end>"
-KO: "샬롬<end>"
-
-## 190341
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "おごれる王<end>"
-EN: "Arrogant King<end>"
-KO: "오만한 왕<end>"
-
-## 190342
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190343
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　１４日<end>"
-EN: "December 14<end>"
-KO: "12월 14일<end>"
-
-## 190344
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "アルレシアの七王のひとり。同じ七王のひとり<line-break>ディーヴァと魔道王国ラドラスを建国する。<line-break>人類は真の覚醒を経れば神にも等しい超人類に<line-break>なれるという考えにとりつかれ、自らを強大な<line-break>魔力と朽ちることのない肉体を持つ超人類へと<line-break>変える。その強すぎる力を恐れた竜王は、<line-break>彼を魔道の塔に封印する。<line-break>　<end>"
-EN: "One of Alresia's Seven Kings and cofounder of Magic Kingdom Ladras with Diva. Seeking a godlike superhuman race, he transformed himself into an immortal being of immense magical power. Fearing him, the Dragon King sealed him in the Arcane Tower.<end>"
-KO: "아를레시아의 칠왕 중 한 명. 같은 칠왕인 디바와 함께 마도왕국 라드라스를 건국했다. 인류가 진정한 각성을 거치면 신에 필적하는 초인류가 될 수 있다는 사상에 사로잡혀 자신을 강대한 마력과 썩지 않는 육체를 지닌 초인류로 바꾼다. 그 지나치게 강한 힘을 두려워한 용왕은 그를 마도의 탑에 봉인했다.<end>"
-
-## 190345
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ジュサプブロス<end>"
-EN: "Jusabros<end>"
-KO: "주사프브로스<end>"
-
-## 190346
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "黒の祈り<end>"
-EN: "Black Prayer<end>"
-KO: "검은 기도<end>"
-
-## 190347
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ダークエルフ<end>"
-EN: "Dark Elf<end>"
-KO: "다크 엘프<end>"
-
-## 190348
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　６月　　３日<end>"
-EN: "June 3<end>"
-KO: "6월 3일<end>"
-
-## 190349
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "システィーナの伝道師と呼ばれるウルグ復活<line-break>を目論む秘密結社のメンバー。<line-break>次元に穴をあけ、空間をねじ曲げる能力を持つ。<line-break>卑劣な性格で、手段を選ばない。<line-break>ゼグナ鉱山で闇の神器を探索中、ネメアと遭遇。<line-break>倒されかけるが、人質を取り、これを助けようと<line-break>したネメアを次元のはざまに落とした。<line-break>　<end>"
-EN: "A member of the secret society known as the Missionaries of Sistina, which seeks to resurrect Ulugh. He can tear holes in dimensions and warp space. Devious and utterly unscrupulous, he encountered Nemea while searching Zegna Mine for a Dark Artifact. On the verge of defeat, he took a hostage and cast Nemea, who tried to save the captive, into the Interdimensional Rift.<end>"
-KO: "시스티나의 전도사라 불리는 울그 부활을 꾀하는 비밀결사 구성원. 차원에 구멍을 내고 공간을 비트는 능력을 지녔다. 비열한 성격으로 수단과 방법을 가리지 않는다. 제그나 광산에서 어둠의 신기를 탐색하던 중 네메아와 조우한다. 거의 패배할 뻔했으나 인질을 잡고, 이를 구하려던 네메아를 차원의 틈새로 떨어뜨렸다.<end>"
-
-## 190350
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク<end>"
-EN: "Zsilak<end>"
-KO: "지라크<end>"
-
-## 190351
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "白虎将軍<end>"
-EN: "White Tiger General<end>"
-KO: "백호장군<end>"
-
-## 190352
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "コーンス<end>"
-EN: "Konsu<end>"
-KO: "콘스<end>"
-
-## 190353
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　２７日<end>"
-EN: "December 27<end>"
-KO: "12월 27일<end>"
-
-## 190354
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ディンガルの皇帝ネメアは実力のみに登用の基準<line-break>を定め、人間以外の種族であるにも関わらず<line-break>コーンス族のジラークを西方攻略軍総司令<line-break>白虎将軍に任じた。ジラークは、人間に生活圏を<line-break>奪われ、人に紛れて生きる自分のような精霊族が<line-break>少数ゆえに弱い立場に立たされトラブルに<line-break>巻き込まれる現状を憂い、ネメアに人間と精霊族<line-break>が共存する世界誕生の夢を託す。<end>"
-EN: "Nemea appointed Zsilak, though not human, commander of the western conquest army and White Tiger General. Zsilak wanted humans and spiritfolk to coexist, having seen spiritfolk driven from their homes and marginalized by humans. He entrusted that dream to Nemea.<end>"
-KO: "딩갈 황제 네메아는 오직 실력으로 등용 기준을 정해 인간이 아닌 콘스족 지라크를 서방공략군 총사령 백호장군에 임명했다. 지라크는 인간에게 생활권을 빼앗기고 인간들 틈에서 살아가는 자신 같은 정령족이 소수라는 이유로 약한 처지에 놓여 문제에 휘말리는 현실을 걱정하며, 네메아에게 인간과 정령족이 공존하는 세계의 꿈을 맡긴다.<end>"
-
-## 190355
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク<end>"
-EN: "Zsilak<end>"
-KO: "지라크<end>"
-
-## 190356
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "コーンス王<end>"
-EN: "King of the Konsu<end>"
-KO: "콘스 왕<end>"
-
-## 190357
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "コーンス<end>"
-EN: "Konsu<end>"
-KO: "콘스<end>"
-
-## 190358
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　２７日<end>"
-EN: "December 27<end>"
-KO: "12월 27일<end>"
-
-## 190359
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "少数種族コーンス族でありながらネメアによって<line-break>に登用された将軍。ジラークはネメアに人間と<line-break>異種族が平等に暮らせる世界を託していた。<line-break>しかし、ネメア死すの報を受け、ジラークは<line-break>種族平等の夢は破れたと判断し、コーンス族の<line-break>権利を守るべく、反乱を起こした。<line-break>魔力を増幅する鉱石、聖光石があれば数で劣る<line-break>コーンス族にも勝機があると考えたのである。<end>"
-EN: "A Konsu general appointed by Nemea. After hearing of Nemea's death, Zsilak believed racial equality was lost and rebelled to protect Konsu rights. He hoped the magical-power-amplifying Holy Light Stone would give the outnumbered Konsu a chance to win.<end>"
-KO: "소수종족 콘스족이면서 네메아에게 등용된 장군. 지라크는 네메아에게 인간과 이종족이 평등하게 살아가는 세계의 꿈을 맡겼다. 그러나 네메아가 죽었다는 소식을 듣고 종족 평등의 꿈이 깨졌다고 판단해 콘스족의 권리를 지키고자 반란을 일으켰다. 마력을 증폭하는 광석 성광석이 있다면 수적으로 열세인 콘스족에게도 승산이 있다고 본 것이다.<end>"
-
-## 190360
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク<end>"
-EN: "Zsilak<end>"
-KO: "지라크<end>"
-
-## 190361
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "コーンス王<end>"
-EN: "King of the Konsu<end>"
-KO: "콘스 왕<end>"
-
-## 190362
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "コーンス<end>"
-EN: "Konsu<end>"
-KO: "콘스<end>"
-
-## 190363
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　２７日<end>"
-EN: "December 27<end>"
-KO: "12월 27일<end>"
-
-## 190364
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ネメア死すの報を受けたジラークは、コーンス族<line-break>による世界支配を目指しアルノートゥンで反乱を<line-break>起す。魔力を増幅する鉱石聖光石があれば、<line-break>数で劣るコーンス族にも勝機があると考えたので<line-break>ある。しかし、聖光石の鉱脈は破壊神と共に<line-break>世界を破壊した邪竜イシュバアルの眠る地でも<line-break>あった。彼は、聖光石を掘り出そうとして、<line-break>邪竜イシュバアルを目覚めさせてしまう。<end>"
-EN: "After hearing of Nemea's death, Zsilak rebelled in Alnortun to establish Konsu rule. He sought the magical-power-amplifying Holy Light Stone for the outnumbered Konsu. Its vein was Evil Dragon Ishbaal's resting place, and excavation awakened the dragon that once destroyed the world.<end>"
-KO: "네메아가 죽었다는 소식을 들은 지라크는 콘스족의 세계 지배를 목표로 알노툰에서 반란을 일으킨다. 마력을 증폭하는 광석 성광석이 있다면 수가 적은 콘스족에게도 승산이 있다고 생각했다. 그러나 성광석 광맥은 파괴신과 함께 세계를 파괴했던 사룡 이슈바알이 잠든 곳이기도 했다. 그는 성광석을 캐려다 이슈바알을 깨우고 만다.<end>"
-
-## 190365
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク<end>"
-EN: "Zsilak<end>"
-KO: "지라크<end>"
-
-## 190366
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "コーンス王<end>"
-EN: "King of the Konsu<end>"
-KO: "콘스 왕<end>"
-
-## 190367
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "コーンス<end>"
-EN: "Konsu<end>"
-KO: "콘스<end>"
-
-## 190368
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１２月　２７日<end>"
-EN: "December 27<end>"
-KO: "12월 27일<end>"
-
-## 190369
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ネメア死すの報を受けたジラークは、コーンス族<line-break>による世界支配を目指しアルノートゥンで反乱を<line-break>起す。魔力を増幅する鉱石聖光石があれば、<line-break>数で劣るコーンス族にも勝機があると考えたので<line-break>ある。しかし、その夢が叶うことは無かった。<line-break>警備の隙を突かれたジラークは、刺客の刃に倒れ<line-break>コーンス族の反乱はあっけなく鎮圧されることに<line-break>なったのである。<end>"
-EN: "After hearing of Nemea's death, Zsilak rebelled in Alnortun to establish Konsu rule, hoping the Holy Light Stone would aid the outnumbered Konsu. His dream ended when an assassin exploited a security lapse and killed him. The rebellion was easily put down.<end>"
-KO: "네메아가 죽었다는 소식을 들은 지라크는 콘스족의 세계 지배를 목표로 알노툰에서 반란을 일으킨다. 마력을 증폭하는 광석 성광석이 있다면 수적으로 열세인 콘스족에게도 승산이 있다고 생각한 것이다. 그러나 그 꿈은 이루어지지 않았다. 경비의 허점을 찔린 지라크는 자객의 칼날에 쓰러지고 콘스족의 반란은 허무하게 진압되고 만다.<end>"
-
-## 190370
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジリオン<end>"
-EN: "Zillion<end>"
-KO: "질리온<end>"
-
-## 190371
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "解き放たれし剣士<end>"
-EN: "The Unshackled Swordsman<end>"
-KO: "해방된 검사<end>"
-
-## 190372
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190373
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　４月　４日<end>"
-EN: "April 4<end>"
-KO: "　4월 4일<end>"
-
-## 190374
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "アルノートゥンの天経院にあるクリスタルに<line-break>封印されていた元「無限のソウルの持ち主」。<line-break>イーシャを助けるため闇の神器・同化の髪飾りを<line-break>使うが、自らの無限のソウルを犠牲にしたため、<line-break>クリスタルに封印されていた。<value:$28><line-break>とイーシャに助けられた後は、行動を共にする<line-break>ようになる。テジャワの変にも大きく関わり、<line-break>ティアナによくなつかれていた。<end>"
-EN: "A former bearer of an Infinite Soul who was sealed inside a crystal at the Tenkeiin in Alnortun. He used the Dark Artifact known as the Assimilation Hair Ornament to save Iria, but was sealed in the crystal after sacrificing his own Infinite Soul. Once <value:$28> and Iria rescued him, he began traveling with them. He also played a major role in the Tejava Incident, and Tiana was very fond of him.<end>"
-KO: "알노툰 천경원의 크리스털에 봉인되어 있던 전 '무한의 소울 소유자'. 이샤를 구하려 어둠의 신기·동화의 머리장식을 사용했지만 자신의 무한의 소울을 희생했기 때문에 크리스털에 봉인되어 있었다. <value:$28>와 이샤에게 구출된 뒤 함께 행동하게 된다. 테자와의 변에도 깊이 관여했고 티아나가 잘 따랐다.<end>"
-
-## 190375
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジリオン<end>"
-EN: "Zillion<end>"
-KO: "질리온<end>"
-
-## 190376
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "追い求める者<end>"
-EN: "The Seeker<end>"
-KO: "뒤쫓는 자<end>"
-
-## 190377
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190378
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　４月　４日<end>"
-EN: "April 4<end>"
-KO: "　4월 4일<end>"
-
-## 190379
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "アルノートゥンの天経院にあるクリスタルに<line-break>封印されていた剣士。イーシャという女性を<line-break>助けるために自らのソウルを犠牲にし、消滅<line-break>しかけたため、クリスタルに封印されていた。<line-break>復活したが代わりにイーシャが封印されたため<line-break><value:$28>と行動を共にし、<line-break>闇の神器・同化の髪飾りを追い求める。<line-break><end>"
-EN: "A swordsman who was sealed inside a crystal at the Tenkeiin in Alnortun. He sacrificed his Soul to save a woman named Iria and nearly ceased to exist, so he was sealed within the crystal. He was restored, but Iria was sealed in his place. He therefore travels with <value:$28> in pursuit of the Dark Artifact known as the Assimilation Hair Ornament.<end>"
-KO: "알노툰 천경원의 크리스털에 봉인되어 있던 검사. 이샤라는 여성을 구하기 위해 자신의 소울을 희생해 소멸할 위기에 처했기에 크리스털에 봉인되어 있었다. 부활했지만 대신 이샤가 봉인되어 <value:$28>와 행동을 함께하며 어둠의 신기·동화의 머리장식을 쫓는다.<end>"
-
-## 190380
-source: translations/korean/messages/msgsec019-part97.toml
-jp_matches_pinned_english: yes
-JP: "ジリオン<end>"
-EN: "Zillion<end>"
-KO: "질리온<end>"
-
-## 190381
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "永久に眠る剣士<end>"
-EN: "The Swordsman Who Sleeps Forever<end>"
-KO: "영원히 잠든 검사<end>"
-
-## 190382
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "人間<end>"
-EN: "Human<end>"
-KO: "인간<end>"
-
-## 190383
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "　４月　４日<end>"
-EN: "April 4<end>"
-KO: "　4월 4일<end>"
-
-## 190384
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "アルノートゥンの天経院にあるクリスタルに<line-break>封印されていた剣士。イーシャという女性を<line-break>助けるために自らのソウルを犠牲にし、消滅<line-break>しかけたため、クリスタルに封印されていた。<line-break>イーシャが身代りになったことで解放される。<line-break>無限に続く自分とイーシャの自己犠牲の連鎖を<line-break>終わらせるため、自らもクリスタルに入り<line-break>永遠の眠りについた。<end>"
-EN: "A swordsman who was sealed inside a crystal at the Tenkeiin in Alnortun. He sacrificed his Soul to save a woman named Iria and nearly ceased to exist, so he was sealed within the crystal. He was freed when Iria took his place. To end their endless cycle of self-sacrifice, he entered the crystal himself and fell into eternal Sleep.<end>"
-KO: "알노툰 천경원의 크리스털에 봉인되어 있던 검사. 이샤라는 여성을 구하기 위해 자신의 소울을 희생해 소멸할 뻔했기에 크리스털에 봉인되어 있었다. 이샤가 대신 봉인되며 해방되지만, 자신과 이샤 사이에 끝없이 이어지는 자기희생의 연쇄를 끝내기 위해 스스로 다시 크리스털에 들어가 영원한 잠에 든다.<end>"
-
-## 190385
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ジンガ<end>"
-EN: "Jinga<end>"
-KO: "징가<end>"
-
-## 190386
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦鎚王<end>"
-EN: "Warhammer King<end>"
-KO: "전추왕<end>"
-
-## 190387
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ドワーフ<end>"
-EN: "Dwarf<end>"
-KO: "드워프<end>"
-
-## 190388
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "１０月　３０日<end>"
-EN: "October 30<end>"
-KO: "10월 30일<end>"
-
-## 190389
-source: translations/korean/messages/msgsec019-part99.toml
-jp_matches_pinned_english: yes
-JP: "ドワーフ族の王にして彼らのチャンピオン。<line-break>その名を冠したジンガハンマーという強力な<line-break>戦鎚を自在に操る無双の戦士で、若いころには<line-break>リベルダムの闘技場でも大活躍した。<line-break>分断の山脈で南北に分けられた大陸を結ぶ<line-break>のがドワーフ族によって掘られた大トンネルで、<line-break>ドワーフの王国はそこにある。王国内は中立で、<line-break>軍隊が通ることは許されない。<end>"
-EN: "King and champion of the Dwarves, an unmatched warrior wielding the Jinga Hammer. In youth he won acclaim in Liberdam's arena. The Dwarves' tunnel spans the Dividing Mountains; their kingdom within is neutral territory, and no army may pass through.<end>"
-KO: "드워프족의 왕이자 그들의 챔피언. 자신의 이름을 딴 강력한 전투망치 징가 해머를 자유자재로 다루는 무쌍의 전사로, 젊은 시절에는 리벨덤 투기장에서도 크게 활약했다. 분단의 산맥으로 갈라진 대륙 남북을 잇는 대터널은 드워프족이 팠으며 그 안에 드워프 왕국이 있다. 왕국은 중립지대로 군대의 통과가 허용되지 않는다.<end>"
-
-## 200000
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "アイテム<end>"
-EN: "Items<end>"
-KO: "아이템<end>"
-
-## 200001
+## 200405
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: " 魔   法<end>"
-EN: "Magic<end>"
-KO: "마법<end>"
+JP: "何の意匠もなく、常に純白さを保っている腕輪<end>"
+EN: "An unadorned bracelet that remains pure white<end>"
+KO: "아무 문양도 없고 언제나 순백을 유지하는 팔찌<end>"
 
-## 200002
+## 200406
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: " 能力値<end>"
-EN: "Stats<end>"
-KO: " 능력치<end>"
+JP: "何の意匠もなく、ただひたすらに真っ黒な腕輪<end>"
+EN: "An unadorned bracelet of unrelieved black<end>"
+KO: "아무 문양도 없고 그저 새까만 팔찌<end>"
 
-## 200003
+## 200407
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: " 装   備<end>"
-EN: "Equipment<end>"
-KO: "장비<end>"
+JP: "闘士の心得が記された書<end>"
+EN: "The Fighter's Handbook<end>"
+KO: "투사의 마음가짐이 적힌 책<end>"
 
-## 200004
+## 200408
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: " スキル<end>"
-EN: "Skills<end>"
-KO: " 스킬<end>"
+JP: "必勝を期したお守り<end>"
+EN: "An amulet made in hopes of certain victory<end>"
+KO: "필승을 기원한 부적<end>"
 
-## 200005
+## 200409
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: " ソウル<end>"
-EN: "Soul<end>"
-KO: " 소울<end>"
+JP: "盗みのテクニックが書いてある奥義書<end>"
+EN: "A secret manual of thieving techniques<end>"
+KO: "도둑질 기술이 적힌 오의서<end>"
 
-## 200006
+## 200410
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: " 情   報<end>"
-EN: "Information<end>"
-KO: " 정   보<end>"
+JP: "ＳＴＲが１０上昇する首飾り<end>"
+EN: "A necklace that raises ＳＴＲ by 10<end>"
+KO: "STR이 10 상승하는 목걸이<end>"
 
-## 200007
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "システム<end>"
-EN: "System<end>"
-KO: "시스템<end>"
-
-## 200008
+## 200411
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: "ｱﾝﾁﾊｰﾄﾞﾙ<end>"
-EN: "Anti-Hurdle<end>"
-KO: "안티 허들<end>"
+JP: "ＶＩＴが１０上昇する首飾り<end>"
+EN: "A necklace that raises ＶＩＴ by 10<end>"
+KO: "VIT가 10 상승하는 목걸이<end>"
 
-## 200009
+## 200412
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: "ｸｲｯｸｱｰﾂ<end>"
-EN: "Quick Arts<end>"
-KO: "퀵 아츠<end>"
+JP: "ＩＮＴが１０上昇する首飾り<end>"
+EN: "A necklace that raises ＩＮＴ by 10<end>"
+KO: "INT가 10 상승하는 목걸이<end>"
 
-## 200010
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "回復アイテム<end>"
-EN: "Healing Item<end>"
-KO: "회복 아이템<end>"
-
-## 200011
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "攻撃アイテム<end>"
-EN: "Attack Item<end>"
-KO: "공격 아이템<end>"
-
-## 200012
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "状態変化アイテム<end>"
-EN: "Status Effect Item<end>"
-KO: "상태 변화 아이템<end>"
-
-## 200013
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "能力変化アイテム<end>"
-EN: "Stat-Altering Item<end>"
-KO: "능력 변화 아이템<end>"
-
-## 200014
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "武器装備品<end>"
-EN: "Weapons<end>"
-KO: "무기 장비<end>"
-
-## 200015
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "防具装備品<end>"
-EN: "Armor<end>"
-KO: "방어구 장비<end>"
-
-## 200016
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "特殊装備品<end>"
-EN: "Special Equipment<end>"
-KO: "특수 장비<end>"
-
-## 200017
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "イベントアイテム<end>"
-EN: "Event Items<end>"
-KO: "이벤트 아이템<end>"
-
-## 200018
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "魔法を選択<end>"
-EN: "Select Magic<end>"
-KO: "마법 선택<end>"
-
-## 200019
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "スキルを選択<end>"
-EN: "Select a Skill<end>"
-KO: "스킬 선택<end>"
-
-## 200020
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "ソウルポイントを配分<end>"
-EN: "Allocate Soul Points<end>"
-KO: "소울 포인트 배분<end>"
-
-## 200021
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "ソウルを選択<end>"
-EN: "Select a Soul<end>"
-KO: "소울 선택<end>"
-
-## 200022
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "引き受け中の仕事を確認<end>"
-EN: "View Current Jobs<end>"
-KO: "진행 중인 의뢰 확인<end>"
-
-## 200023
-source: translations/korean/messages/msgsec020-part97.toml
-jp_matches_pinned_english: yes
-JP: "相談内容を選択<end>"
-EN: "Select a Consultation Topic<end>"
-KO: "상담 내용 선택<end>"
-
-## 200024
+## 200413
 source: translations/korean/messages/msgsec020-part99.toml
 jp_matches_pinned_english: yes
-JP: "だみぃ2_7<end>"
+JP: "ＭＩＮが１０上昇する首飾り<end>"
+EN: "A necklace that raises ＭＩＮ by 10<end>"
+KO: "MIN이 10 상승하는 목걸이<end>"
+
+## 200414
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＡＧＩが１０上昇する首飾り<end>"
+EN: "A necklace that raises ＡＧＩ by 10<end>"
+KO: "AGI가 10 상승하는 목걸이<end>"
+
+## 200415
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＤＥＸが１０上昇する首飾り<end>"
+EN: "A necklace that raises ＤＥＸ by 10<end>"
+KO: "DEX가 10 상승하는 목걸이<end>"
+
+## 200416
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "眠りの神パーシィの守護で、睡眠を防ぐお守り<end>"
+EN: "An amulet that prevents Sleep through the protection of Percy, God of Slumber<end>"
+KO: "잠의 신 파시의 가호로 수면을 막는 부적<end>"
+
+## 200417
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "麻痺しない柔らかな心と身体をもたらすお守り<end>"
+EN: "An amulet that grants a supple mind and body immune to Paralysis<end>"
+KO: "마비되지 않는 부드러운 마음과 몸을 주는 부적<end>"
+
+## 200418
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "心と身体が石になり閉ざされるのを防ぐお守り<end>"
+EN: "An amulet that prevents the mind and body from being sealed in stone<end>"
+KO: "마음과 몸이 돌이 되어 굳는 것을 막는 부적<end>"
+
+## 200419
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "常に光を放ち目つぶしを防いでくれるお守り<end>"
+EN: "An amulet that constantly shines, preventing blindness<end>"
+KO: "항상 빛을 발해 눈부심을 막아 주는 부적<end>"
+
+## 200420
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "常に平静な心を保ち、迷いを打ち消すお守り<end>"
+EN: "An amulet that keeps the mind calm and dispels confusion<end>"
+KO: "항상 평정심을 유지해 망설임을 떨치는 부적<end>"
+
+## 200421
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "悪しき幻影と自我とを隔ててくれるお守り<end>"
+EN: "An amulet that separates the self from evil illusions<end>"
+KO: "사악한 환영과 자아를 갈라주는 부적<end>"
+
+## 200422
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "あらゆる毒素の抗体を身体にもたらすお守り<end>"
+EN: "An amulet that grants the body antibodies against every toxin<end>"
+KO: "온갖 독소에 대한 항체를 몸에 주는 부적<end>"
+
+## 200423
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "どんな時も言葉を失わないようになるお守り<end>"
+EN: "An amulet that keeps its bearer from ever losing the power of speech<end>"
+KO: "어떤 때에도 말을 잃지 않게 해 주는 부적<end>"
+
+## 200424
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "幸せに生きていこうという願いが詰まったお守り<end>"
+EN: "An amulet filled with the wish for a happy life<end>"
+KO: "행복하게 살아가길 바라는 마음이 담긴 부적<end>"
+
+## 200425
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "どんな苦境でも歩みをゆるめなくなるお守り<end>"
+EN: "An amulet that keeps its bearer moving steadily through any hardship<end>"
+KO: "어떤 역경에서도 걸음을 늦추지 않게 해 주는 부적<end>"
+
+## 200426
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "死の呪いから命の火を守るお守り<end>"
+EN: "An amulet that shields the flame of life from death curses<end>"
+KO: "죽음의 저주에서 생명의 불을 지키는 부적<end>"
+
+## 200427
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "中に城塞が映っている透き通った赤い宝玉<end>"
+EN: "A transparent red orb with the image of a fortress inside<end>"
+KO: "안에 성채가 비치는 투명한 붉은 보옥<end>"
+
+## 200428
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "中心で虹色の光が揺らめいている青い宝玉<end>"
+EN: "A blue orb with iridescent light shimmering at its center<end>"
+KO: "중심에서 무지갯빛 빛이 흔들리는 푸른 보옥<end>"
+
+## 200429
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "常に周りに微風をまとった、純白の羽の髪飾り<end>"
+EN: "A pure-white feather hair ornament wreathed in a constant breeze<end>"
+KO: "항상 미풍을 두른 순백 깃털의 머리장식<end>"
+
+## 200430
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴーレムの腕をくりぬいて作った強固な腕輪<end>"
+EN: "A sturdy bracelet carved from a hollowed-out Golem arm<end>"
+KO: "골렘의 팔을 파내어 만든 견고한 팔찌<end>"
+
+## 200431
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水鳥の羽を聖水に浸して作った髪飾り<end>"
+EN: "A hair ornament made by soaking a waterfowl feather in holy water<end>"
+KO: "물새 깃털을 성수에 담가 만든 머리장식<end>"
+
+## 200432
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "サラマンダーの尻尾を切って紐をつけたもの<end>"
+EN: "A severed Salamander tail fitted with a cord<end>"
+KO: "샐러맨더의 꼬리를 잘라 끈을 단 것<end>"
+
+## 200433
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦神ソリアスが身につけていたといわれる腕輪<end>"
+EN: "A bracelet said to have been worn by War God Solias<end>"
+KO: "전신 솔리아스가 착용했다고 전해지는 팔찌<end>"
+
+## 200434
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "知恵の神ジェドが作ったといわれている指輪<end>"
+EN: "A ring said to have been made by Jed, God of Wisdom<end>"
+KO: "지혜의 신 제드가 만들었다고 전해지는 반지<end>"
+
+## 200435
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "運命神ファナティックのものとされるピアス<end>"
+EN: "An earring said to have belonged to Fanatic, God of Fate<end>"
+KO: "운명의 신 파나틱의 것이라 전해지는 귀걸이<end>"
+
+## 200436
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "天空神ノトゥーンがその力を分け注いだ魔除け<end>"
+EN: "A ward imbued with a portion of the Sky God Notun's power<end>"
+KO: "천공신 노툰이 힘을 나눠 담았다는 액막이<end>"
+
+## 200437
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "大地母神ティラを慕う精霊達が結晶化した護符<end>"
+EN: "A talisman formed when spirits devoted to Tira, the Earth Mother Goddess, crystallized<end>"
+KO: "대지모신 티라를 따르는 정령들이 결정화된 부적<end>"
+
+## 200438
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "剣と盾の意匠が両面に施された分厚いコイン<end>"
+EN: "A thick coin bearing sword-and-shield designs on both faces<end>"
+KO: "검과 방패 문양이 양면에 새겨진 두꺼운 코인<end>"
+
+## 200439
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔道書と杖の意匠が両面に施されたコイン<end>"
+EN: "A coin bearing grimoire-and-staff designs on both faces<end>"
+KO: "마도서와 지팡이 문양이 양면에 새겨진 코인<end>"
+
+## 200440
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "マノンの腕輪を模して作られた指輪<end>"
+EN: "A ring modeled after Manon's Bracelet<end>"
+KO: "마논의 팔찌를 본떠 만든 반지<end>"
+
+## 200441
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の魔道士マノンの造ったタリスマン<end>"
+EN: "A talisman crafted by the legendary mage Manon<end>"
+KO: "전설의 마도사 마논이 만든 탈리스만<end>"
+
+## 200442
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "アイテムを使用します。<end>"
+EN: "Use an item.<end>"
+KO: "아이템을 사용합니다.<end>"
+
+## 200443
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品を見ることができます。<end>"
+EN: "View equipment.<end>"
+KO: "장비품을 볼 수 있습니다.<end>"
+
+## 200444
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "イベントアイテムを見ることができます。<end>"
+EN: "View event items.<end>"
+KO: "이벤트 아이템을 확인할 수 있습니다.<end>"
+
+## 200445
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターのHP、MPや、<line-break>状態異常を回復するアイテムを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates items that restore a character's HP or MP, or cure status ailments.<end>"
+KO: "캐릭터의 HP, MP나 상태 이상을 회복하는 아이템을 나타내는 아이콘입니다.<end>"
+
+## 200446
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中に敵を攻撃するアイテムを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates items used to attack enemies in battle.<end>"
+KO: "전투 중 적을 공격하는 아이템을 나타내는 아이콘입니다.<end>"
+
+## 200447
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中の一時的な能力上昇や、<line-break>敵の状態異常を引き起こす<line-break>アイテムを表すアイコンです。<end>"
+EN: "This icon indicates items that temporarily boost abilities in battle or inflict status ailments on enemies.<end>"
+KO: "전투 중 일시적인 능력 상승이나 적의 상태 이상을 일으키는 아이템을 나타내는 아이콘입니다.<end>"
+
+## 200448
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "それぞれが様々な効果を持つ<line-break>アイテムを表すアイコンです。<end>"
+EN: "This icon indicates items that each have a variety of effects.<end>"
+KO: "각각 다양한 효과를 가진 아이템을 나타내는 아이콘입니다.<end>"
+
+## 200449
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が片手剣であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates one-handed swords.<end>"
+KO: "장비품의 종류가 한손검임을 나타내는 아이콘입니다.<end>"
+
+## 200450
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が両手剣であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates two-handed swords.<end>"
+KO: "장비품의 종류가 양손검임을 나타내는 아이콘입니다.<end>"
+
+## 200451
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が槍であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates spears.<end>"
+KO: "장비품의 종류가 창임을 나타내는 아이콘입니다.<end>"
+
+## 200452
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が斧であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates axes.<end>"
+KO: "장비품의 종류가 도끼임을 나타내는 아이콘입니다.<end>"
+
+## 200453
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が小刀であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates daggers.<end>"
+KO: "장비품의 종류가 소도임을 나타내는 아이콘입니다.<end>"
+
+## 200454
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が弓であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates bows.<end>"
+KO: "장비품의 종류가 활임을 나타내는 아이콘입니다.<end>"
+
+## 200455
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が拳具であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates fist weapons.<end>"
+KO: "장비품의 종류가 권구임을 나타내는 아이콘입니다.<end>"
+
+## 200456
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が盾であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates shields.<end>"
+KO: "장비품의 종류가 방패임을 나타내는 아이콘입니다.<end>"
+
+## 200457
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が布製防具であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates cloth armor.<end>"
+KO: "장비품의 종류가 천 방어구임을 나타내는 아이콘입니다.<end>"
+
+## 200458
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が胸当てであることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates breastplates.<end>"
+KO: "장비품의 종류가 흉갑임을 나타내는 아이콘입니다.<end>"
+
+## 200459
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が胴鎧であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates body armor.<end>"
+KO: "장비품의 종류가 몸통 갑옷임을 나타내는 아이콘입니다.<end>"
+
+## 200460
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が全身鎧であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates full-body armor.<end>"
+KO: "장비품의 종류가 전신 갑옷임을 나타내는 아이콘입니다.<end>"
+
+## 200461
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が装飾品であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates accessories.<end>"
+KO: "장비품의 종류가 장식품임을 나타내는 아이콘입니다.<end>"
+
+## 200462
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "物語を進めていくために必要な<line-break>アイテムを表すアイコンです。<line-break>このアイテムは捨てることができません。<end>"
+EN: "This icon indicates items required to progress through the story. These items cannot be discarded.<end>"
+KO: "이야기를 진행하는 데 필요한 아이템을 나타내는 아이콘입니다. 이 아이템은 버릴 수 없습니다.<end>"
+
+## 200463
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヒットポイント(HP)です。<line-break>キャラクターの物理的耐久力を表します。<line-break>HPが０になると戦闘不能状態になります。<end>"
+EN: "Hit Points (HP) represent a character's physical endurance. A character becomes unable to fight when HP reaches 0.<end>"
+KO: "히트 포인트(HP)입니다. 캐릭터의 물리적 내구력을 나타냅니다. HP가 0이 되면 전투불능 상태가 됩니다.<end>"
+
+## 200464
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "メンタルポイント(MP)です。<line-break>キャラクターの精神的耐久力を表します。<line-break>MPが０になると気絶状態になります。<end>"
+EN: "Mental Points (MP) represent a character's mental endurance. A character falls unconscious when MP reaches 0.<end>"
+KO: "멘탈 포인트(MP)입니다. 캐릭터의 정신적 내구력을 나타냅니다. MP가 0이 되면 기절 상태가 됩니다.<end>"
+
+## 200465
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターが呪い状態であることを<line-break>表すアイコンです。フィジカルパラメータが呪いで半分になります。<end>"
+EN: "This icon indicates that a character is cursed. The curse halves Physical Parameters.<end>"
+KO: "캐릭터가 저주 상태임을 나타내는 아이콘입니다. 피지컬 파라미터가 저주로 절반이 됩니다.<end>"
+
+## 200466
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火の精霊力レベルです。レベルが高いほど、<line-break>高位の火属性魔法を唱えること可能です。<end>"
+EN: "This is the Fire Spirit Power level. Higher levels allow higher-level Fire-element spells to be cast.<end>"
+KO: "불의 정령력 레벨입니다. 레벨이 높을수록 고위 불 속성 마법을 사용할 수 있습니다.<end>"
+
+## 200467
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水の精霊力レベルです。レベルが高いほど、<line-break>高位の水属性魔法を唱えること可能です。<end>"
+EN: "This is the Water Spirit Power level. Higher levels allow higher-level Water-element spells to be cast.<end>"
+KO: "물의 정령력 레벨입니다. 레벨이 높을수록 고위 물 속성 마법을 사용할 수 있습니다.<end>"
+
+## 200468
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土の精霊力レベルです。レベルが高いほど、<line-break>高位の土属性魔法を唱えること可能です。<end>"
+EN: "This is the Earth Spirit Power level. Higher levels allow higher-level Earth-element spells to be cast.<end>"
+KO: "땅의 정령력 레벨입니다. 레벨이 높을수록 고위 땅 속성 마법을 사용할 수 있습니다.<end>"
+
+## 200469
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風の精霊力レベルです。レベルが高いほど、<line-break>高位の風属性魔法を唱えること可能です。<end>"
+EN: "This is the Wind Spirit Power level. Higher levels allow higher-level Wind-element spells to be cast.<end>"
+KO: "바람의 정령력 레벨입니다. 레벨이 높을수록 고위 바람 속성 마법을 사용할 수 있습니다.<end>"
+
+## 200470
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "無属性の魔法であることを表すアイコンです。<end>"
+EN: "This icon indicates non-elemental magic.<end>"
+KO: "무속성 마법임을 나타내는 아이콘입니다.<end>"
+
+## 200471
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性の魔法であることを表すアイコンです。<end>"
+EN: "This icon indicates Fire-element magic.<end>"
+KO: "불 속성 마법임을 나타내는 아이콘입니다.<end>"
+
+## 200472
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性の魔法であることを表すアイコンです。<end>"
+EN: "This icon indicates Water-element magic.<end>"
+KO: "물 속성 마법임을 나타내는 아이콘입니다.<end>"
+
+## 200473
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性の魔法であることを表すアイコンです。<end>"
+EN: "This icon indicates Earth-element magic.<end>"
+KO: "대지 속성 마법임을 나타내는 아이콘입니다.<end>"
+
+## 200474
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性の魔法であることを表すアイコンです。<end>"
+EN: "This icon indicates Wind-element magic.<end>"
+KO: "바람 속성 마법임을 나타내는 아이콘입니다.<end>"
+
+## 200475
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇属性の魔法であることを表すアイコンです。<end>"
+EN: "This icon indicates Dark-element magic.<end>"
+KO: "어둠 속성 마법임을 나타내는 아이콘입니다.<end>"
+
+## 200476
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "聖属性の魔法であることを表すアイコンです。<end>"
+EN: "This icon indicates Holy-element magic.<end>"
+KO: "성 속성 마법임을 나타내는 아이콘입니다.<end>"
+
+## 200477
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヒットポイント(HP)です。<line-break>キャラクターの物理的耐久力を表します。<line-break>HPが０になると戦闘不能状態になります。<end>"
+EN: "Hit Points (HP) represent a character's physical endurance. A character becomes unable to fight when HP reaches 0.<end>"
+KO: "히트 포인트(HP)입니다. 캐릭터의 물리적 내구력을 나타냅니다. HP가 0이 되면 전투불능 상태가 됩니다.<end>"
+
+## 200478
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "メンタルポイント(MP)です。<line-break>キャラクターの精神的耐久力を表します。<line-break>MPが０になると気絶状態になります。<end>"
+EN: "Mental Points (MP) represent a character's mental endurance. A character falls unconscious when MP reaches 0.<end>"
+KO: "멘탈 포인트(MP)입니다. 캐릭터의 정신적 내구력을 나타냅니다. MP가 0이 되면 기절 상태가 됩니다.<end>"
+
+## 200479
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターが呪い状態であることを<line-break>表すアイコンです。フィジカルパラメータが呪いで半分になります。<end>"
+EN: "This icon indicates that a character is cursed. The curse halves Physical Parameters.<end>"
+KO: "캐릭터가 저주 상태임을 나타내는 아이콘입니다. 피지컬 파라미터가 저주로 절반이 됩니다.<end>"
+
+## 200480
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200481
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200482
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200483
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200484
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200485
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "フィールド上で使用するスキルです。<end>"
+EN: "This skill is used in the field.<end>"
+KO: "필드에서 사용하는 스킬입니다.<end>"
+
+## 200486
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "自動的に発動するスキルです。<end>"
+EN: "This skill activates automatically.<end>"
+KO: "자동으로 발동하는 스킬입니다.<end>"
+
+## 200487
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの持っているスキルポイントです。<line-break>これと引き替えにスキルを習得します。<end>"
+EN: "These are the character's Skill Points. Spend them to learn skills.<end>"
+KO: "캐릭터가 가진 스킬 포인트입니다. 이것과 교환해 스킬을 습득합니다.<end>"
+
+## 200488
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヒットポイント(HP)です。<line-break>キャラクターの物理的耐久力を表します。<line-break>HPが０になると戦闘不能状態になります。<end>"
+EN: "Hit Points (HP) represent a character's physical endurance. A character becomes unable to fight when HP reaches 0.<end>"
+KO: "히트 포인트(HP)입니다. 캐릭터의 물리적 내구력을 나타냅니다. HP가 0이 되면 전투불능 상태가 됩니다.<end>"
+
+## 200489
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "メンタルポイント(MP)です。<line-break>キャラクターの精神的耐久力を表します。<line-break>MPが０になると気絶状態になります。<end>"
+EN: "Mental Points (MP) represent a character's mental endurance. A character falls unconscious when MP reaches 0.<end>"
+KO: "멘탈 포인트(MP)입니다. 캐릭터의 정신적 내구력을 나타냅니다. MP가 0이 되면 기절 상태가 됩니다.<end>"
+
+## 200490
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターが呪い状態であることを<line-break>表すアイコンです。フィジカルパラメータが呪いで半分になります。<end>"
+EN: "This icon indicates that a character is cursed. The curse halves Physical Parameters.<end>"
+KO: "캐릭터가 저주 상태임을 나타내는 아이콘입니다. 피지컬 파라미터가 저주로 절반이 됩니다.<end>"
+
+## 200491
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターのレベル(LEVEL)です。<end>"
+EN: "The character's level (LEVEL).<end>"
+KO: "캐릭터의 레벨(LEVEL)입니다.<end>"
+
+## 200492
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの経験値(EXP)です。<end>"
+EN: "The character's experience points (EXP).<end>"
+KO: "캐릭터의 경험치(EXP)입니다.<end>"
+
+## 200493
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "次のレベルまでに必要な経験値です。<end>"
+EN: "The experience points required to reach the next level.<end>"
+KO: "다음 레벨까지 필요한 경험치입니다.<end>"
+
+## 200494
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "筋力(STRENGTH)を表します。<line-break>物理攻撃の威力に影響します。<end>"
+EN: "Represents Strength (STRENGTH). Affects the power of physical attacks.<end>"
+KO: "근력(STRENGTH)을 나타냅니다. 물리 공격의 위력에 영향을 줍니다.<end>"
+
+## 200495
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "生命力(VITALITY)を表します。<line-break>物理的攻撃に対する防御力や、<line-break>HPの増加率に影響します。<end>"
+EN: "Represents Vitality (VITALITY). Affects defense against physical attacks and the rate at which HP increases.<end>"
+KO: "생명력(VITALITY)을 나타냅니다. 물리 공격에 대한 방어력과 HP 증가율에 영향을 줍니다.<end>"
+
+## 200496
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "知力(INTELLIGENCE)を表します。<line-break>精霊属性魔法の威力に影響します。<end>"
+EN: "Represents Intelligence (INTELLIGENCE). Affects the power of Spirit Attribute magic.<end>"
+KO: "지력(INTELLIGENCE)을 나타냅니다. 정령 속성 마법의 위력에 영향을 줍니다.<end>"
+
+## 200497
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "精神力(MIND)を表します。<line-break>精神魔法の威力やMPの増加率に影響します。<end>"
+EN: "Represents Mind (MIND). Affects the power of mental magic and the rate at which MP increases.<end>"
+KO: "정신력(MIND)을 나타냅니다. 정신 마법의 위력과 MP 증가율에 영향을 줍니다.<end>"
+
+## 200498
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敏捷性(AGILITY)を表します。<line-break>行動順位や物理攻撃の命中度に影響します。<end>"
+EN: "Represents Agility (AGILITY). Affects action order and the accuracy of physical attacks.<end>"
+KO: "민첩성(AGILITY)을 나타냅니다. 행동 순서와 물리 공격의 명중도에 영향을 줍니다.<end>"
+
+## 200499
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "器用さ(DEXTERITY)を表します。<line-break>物理攻撃に対する回避度や、<line-break>罠解除能力に影響します。<end>"
+EN: "Represents Dexterity (DEXTERITY). Affects evasion against physical attacks and the ability to disarm traps.<end>"
+KO: "기교(DEXTERITY)를 나타냅니다. 물리 공격 회피도와 함정 해제 능력에 영향을 줍니다.<end>"
+
+## 200500
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの勇敢さを表します。<line-break>戦士系のソウルを宿すために重要となります。<end>"
+EN: "Represents a character's bravery, which is important for harboring warrior-type Souls.<end>"
+KO: "캐릭터의 용감함을 나타냅니다. 전사계 소울을 깃들이는 데 중요합니다.<end>"
+
+## 200501
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの優しさを表します。<line-break>狩人系のソウルを宿すために重要となります。<end>"
+EN: "Represents a character's kindness, which is important for harboring hunter-type Souls.<end>"
+KO: "캐릭터의 상냥함을 나타냅니다. 사냥꾼계 소울을 깃들이는 데 중요합니다.<end>"
+
+## 200502
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの探求心を表します。<line-break>魔術師系のソウルを宿すために重要となります。<end>"
+EN: "Represents a character's inquisitiveness, which is important for harboring mage-type Souls.<end>"
+KO: "캐릭터의 탐구심을 나타냅니다. 마술사 계열 소울을 깃들이는 데 중요합니다.<end>"
+
+## 200503
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの信念を表します。<line-break>神官系のソウルを宿すために重要となります。<end>"
+EN: "Represents a character's conviction, which is important for harboring priest-type Souls.<end>"
+KO: "캐릭터의 신념을 나타냅니다. 신관계 소울을 품는 데 중요합니다.<end>"
+
+## 200504
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの野性を表します。<line-break>獣系のソウルを宿すために重要となります。<end>"
+EN: "Represents a character's wildness, which is important for harboring beast-type Souls.<end>"
+KO: "캐릭터의 야성을 나타냅니다. 짐승계 소울을 품는 데 중요합니다.<end>"
+
+## 200505
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの冷静さを表します。<line-break>盗賊系のソウルを宿すために重要となります。<end>"
+EN: "Represents a character's composure, which is important for harboring thief-type Souls.<end>"
+KO: "캐릭터의 냉정함을 나타냅니다. 도적계 소울을 깃들이는 데 중요합니다.<end>"
+
+## 200506
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターのレベルが上昇した時に、<line-break>各パラメータが上昇する割合を示しています。<end>"
+EN: "Shows the rate at which each parameter increases when the character gains a level.<end>"
+KO: "캐릭터의 레벨이 상승했을 때 각 능력치가 오르는 비율을 나타냅니다.<end>"
+
+## 200507
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200508
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200509
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200510
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200511
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
+EN: "This skill is used in battle with the command represented by this icon.<end>"
+KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
+
+## 200512
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "フィールド上で使用するスキルです。<end>"
+EN: "This skill is used in the field.<end>"
+KO: "필드에서 사용하는 스킬입니다.<end>"
+
+## 200513
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "自動的に発動するスキルです。<end>"
+EN: "This skill activates automatically.<end>"
+KO: "자동으로 발동하는 스킬입니다.<end>"
+
+## 200514
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "キャラクターの持っているスキルポイントです。<line-break>これと引き替えにスキルを習得します。<end>"
+EN: "These are the character's Skill Points. Spend them to learn skills.<end>"
+KO: "캐릭터가 가진 스킬 포인트입니다. 이것과 교환해 스킬을 습득합니다.<end>"
+
+## 200515
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備をはずします。<end>"
+EN: "Remove equipment.<end>"
+KO: "장비를 해제합니다.<end>"
+
+## 200516
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が片手剣であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates one-handed swords.<end>"
+KO: "장비품의 종류가 한손검임을 나타내는 아이콘입니다.<end>"
+
+## 200517
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が両手剣であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates two-handed swords.<end>"
+KO: "장비품의 종류가 양손검임을 나타내는 아이콘입니다.<end>"
+
+## 200518
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が槍であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates spears.<end>"
+KO: "장비품의 종류가 창임을 나타내는 아이콘입니다.<end>"
+
+## 200519
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が斧であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates axes.<end>"
+KO: "장비품의 종류가 도끼임을 나타내는 아이콘입니다.<end>"
+
+## 200520
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が小刀であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates daggers.<end>"
+KO: "장비품의 종류가 소도임을 나타내는 아이콘입니다.<end>"
+
+## 200521
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が弓であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates bows.<end>"
+KO: "장비품의 종류가 활임을 나타내는 아이콘입니다.<end>"
+
+## 200522
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が拳具であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates fist weapons.<end>"
+KO: "장비품의 종류가 권구임을 나타내는 아이콘입니다.<end>"
+
+## 200523
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が盾であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates shields.<end>"
+KO: "장비품의 종류가 방패임을 나타내는 아이콘입니다.<end>"
+
+## 200524
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が布製防具であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates cloth armor.<end>"
+KO: "장비품의 종류가 천 방어구임을 나타내는 아이콘입니다.<end>"
+
+## 200525
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が胸当てであることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates breastplates.<end>"
+KO: "장비품의 종류가 흉갑임을 나타내는 아이콘입니다.<end>"
+
+## 200526
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が胴鎧であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates body armor.<end>"
+KO: "장비품의 종류가 몸통 갑옷임을 나타내는 아이콘입니다.<end>"
+
+## 200527
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が全身鎧であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates full-body armor.<end>"
+KO: "장비품의 종류가 전신 갑옷임을 나타내는 아이콘입니다.<end>"
+
+## 200528
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の種類が装飾品であることを<line-break>表すアイコンです。<end>"
+EN: "This icon indicates accessories.<end>"
+KO: "장비품의 종류가 장식품임을 나타내는 아이콘입니다.<end>"
+
+## 200529
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "物理攻撃の攻撃力を表しています。<line-break>武器の攻撃力と筋力が影響します。<end>"
+EN: "Indicates physical attack power. A weapon's attack power and strength affect this value.<end>"
+KO: "물리 공격의 공격력을 나타냅니다. 무기의 공격력과 근력이 영향을 줍니다.<end>"
+
+## 200530
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "物理攻撃の命中度を表しています。<end>"
+EN: "Indicates the accuracy of physical attacks.<end>"
+KO: "물리 공격의 명중도를 나타냅니다.<end>"
+
+## 200531
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "クリティカル攻撃の起きる<line-break>度合いを表しています。<end>"
+EN: "Indicates the likelihood of landing a critical attack.<end>"
+KO: "치명타 공격이 발생하는 정도를 나타냅니다.<end>"
+
+## 200532
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "物理攻撃に対する防御力を表しています。<end>"
+EN: "Indicates defense against physical attacks.<end>"
+KO: "물리 공격에 대한 방어력을 나타냅니다.<end>"
+
+## 200533
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "物理攻撃に対する回避度を表しています。<end>"
+EN: "Indicates evasion against physical attacks.<end>"
+KO: "물리 공격에 대한 회피력을 나타냅니다.<end>"
+
+## 200534
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘時の素早さを表しています。<line-break>行動順位はこの値で決まります。<line-break>武器や防具の階級によって変化します。<end>"
+EN: "Battle speed. Determines turn order and varies by equipped weapon and armor class.<end>"
+KO: "전투 시의 민첩함을 나타냅니다. 행동 순서는 이 수치로 정해집니다. 무기와 방어구의 등급에 따라 변합니다.<end>"
+
+## 200535
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔法攻撃力と防御力を表します。<line-break>知力と精神力が影響します。<end>"
+EN: "Indicates magical attack power and defense. Intelligence and spirit affect this value.<end>"
+KO: "마법 공격력과 방어력을 나타냅니다. 지력과 정신력이 영향을 줍니다.<end>"
+
+## 200536
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エレメンタル・ステータス。<line-break>どの精霊力を宿しているかを表しています。<end>"
+EN: "Elemental Status. Indicates the elemental power present.<end>"
+KO: "엘리멘털 스테이터스. 어떤 정령력을 품고 있는지를 나타냅니다.<end>"
+
+## 200537
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エレメンタル・キャパシティ。<line-break>どれだけの精霊力を宿すことが<line-break>できるかを表しています。<end>"
+EN: "Elemental Capacity. Indicates how much elemental power can be contained.<end>"
+KO: "엘리멘털 캐퍼시티. 얼마나 많은 정령력을 품을 수 있는지를 나타냅니다.<end>"
+
+## 200538
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品の持っている特性効果を表しています。<line-break>特性効果は武器なら敵への攻撃に、<line-break>防具なら敵の攻撃に対して効果があります。<end>"
+EN: "Indicates an item's special effect: weapons apply it when attacking; armor when attacked.<end>"
+KO: "장비가 가진 특성 효과를 나타냅니다. 특성 효과는 무기라면 적에 대한 공격에, 방어구라면 적의 공격을 받을 때 효과가 있습니다.<end>"
+
+## 200539
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵を眠り状態にします。<line-break>防具なら敵の眠り攻撃を防ぎます。<line-break>眠っている敵は起きるまで攻撃してきません。<end>"
+EN: "Weapons inflict Sleep; armor blocks it. Sleeping enemies cannot attack.<end>"
+KO: "무기라면 적을 수면 상태로 만듭니다. 방어구라면 적의 수면 공격을 막습니다. 잠든 적은 깨어날 때까지 공격하지 않습니다.<end>"
+
+## 200540
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵をマヒ状態にします。<line-break>防具なら敵のマヒ攻撃を防ぎます。<line-break>マヒした敵は動けません。<end>"
+EN: "Weapons inflict Paralysis; armor blocks it. Paralyzed enemies cannot move.<end>"
+KO: "무기라면 적을 마비 상태로 만듭니다. 방어구라면 적의 마비 공격을 막습니다. 마비된 적은 움직일 수 없습니다.<end>"
+
+## 200541
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵を石化状態にします。<line-break>防具なら敵の石化攻撃を防ぎます。<line-break>石化した敵は動けません。<end>"
+EN: "Weapons petrify enemies; armor blocks petrification attacks. Petrified enemies cannot move.<end>"
+KO: "무기라면 적을 석화 상태로 만듭니다. 방어구라면 적의 석화 공격을 막습니다. 석화된 적은 움직일 수 없습니다.<end>"
+
+## 200542
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵を暗闇状態にします。<line-break>防具なら敵の暗闇攻撃を防ぎます。<line-break>暗闇状態の敵は命中度が低下します。<end>"
+EN: "Weapons inflict Blindness; armor blocks it. Blinded enemies have lower accuracy.<end>"
+KO: "무기라면 적을 암흑 상태로 만듭니다. 방어구라면 적의 암흑 공격을 막습니다. 암흑 상태의 적은 명중률이 낮아집니다.<end>"
+
+## 200543
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵を混乱状態にします。<line-break>防具なら敵の混乱攻撃を防ぎます。<line-break>混乱した敵は無差別に攻撃します。<end>"
+EN: "Weapons inflict Confusion; armor blocks it. Confused enemies attack indiscriminately.<end>"
+KO: "무기라면 적을 혼란 상태로 만듭니다. 방어구라면 적의 혼란 공격을 막습니다. 혼란에 빠진 적은 무차별로 공격합니다.<end>"
+
+## 200544
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵を幻覚状態にします。<line-break>防具なら敵の幻覚攻撃を防ぎます。<line-break>幻覚状態の敵は命中度が低下します。<end>"
+EN: "Weapons inflict Hallucination; armor blocks it. Hallucinating enemies have lower accuracy.<end>"
+KO: "무기라면 적을 환각 상태로 만듭니다. 방어구라면 적의 환각 공격을 막습니다. 환각 상태의 적은 명중률이 낮아집니다.<end>"
+
+## 200545
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵を毒状態にします。<line-break>防具なら敵の毒攻撃を防ぎます。<line-break>毒状態の敵は毎ターンダメージを受けます。<end>"
+EN: "Weapons poison enemies; armor blocks it. Poisoned enemies take damage each turn.<end>"
+KO: "무기라면 적을 독 상태로 만듭니다. 방어구라면 적의 독 공격을 막습니다. 독 상태인 적은 매 턴 피해를 받습니다.<end>"
+
+## 200546
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵を沈黙状態にします。<line-break>防具なら敵の沈黙攻撃を防ぎます。<line-break>沈黙した敵は声を出せなくなります。<end>"
+EN: "Weapons inflict Silence; armor blocks silence attacks. Silenced enemies cannot speak.<end>"
+KO: "무기라면 적을 침묵 상태로 만듭니다. 방어구라면 적의 침묵 공격을 막습니다. 침묵 상태의 적은 목소리를 낼 수 없습니다.<end>"
+
+## 200547
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器なら敵を呪い状態にします。<line-break>防具なら敵の呪い攻撃を防ぎます。<line-break>呪われた敵は攻撃力も防御力も半減します。<end>"
+EN: "Weapons curse enemies; armor blocks it. Curse halves enemy attack and defense.<end>"
+KO: "무기라면 적을 저주 상태로 만듭니다. 방어구라면 적의 저주 공격을 막습니다. 저주받은 적은 공격력과 방어력이 절반으로 줄어듭니다.<end>"
+
+## 200548
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＳＴＲを５ポイント上昇させます。<end>"
+EN: "Raises ＳＴＲ by 5 points.<end>"
+KO: "STR을 5포인트 상승시킵니다.<end>"
+
+## 200549
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＶＩＴを５ポイント上昇させます。<end>"
+EN: "Raises ＶＩＴ by 5 points.<end>"
+KO: "VIT를 5포인트 상승시킵니다.<end>"
+
+## 200550
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＩＮＴを５ポイント上昇させます。<end>"
+EN: "Raises ＩＮＴ by 5 points.<end>"
+KO: "INT를 5포인트 상승시킵니다.<end>"
+
+## 200551
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＭＩＮを５ポイント上昇させます。<end>"
+EN: "Raises ＭＩＮ by 5 points.<end>"
+KO: "MIN을 5포인트 상승시킵니다.<end>"
+
+## 200552
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＡＧＩを５ポイント上昇させます。<end>"
+EN: "Raises ＡＧＩ by 5 points.<end>"
+KO: "AGI를 5포인트 상승시킵니다.<end>"
+
+## 200553
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＤＥＸを５ポイント上昇させます。<end>"
+EN: "Raises ＤＥＸ by 5 points.<end>"
+KO: "DEX를 5포인트 상승시킵니다.<end>"
+
+## 200554
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＳＴＲを１０ポイント上昇させます。<end>"
+EN: "Raises ＳＴＲ by 10 points.<end>"
+KO: "STR을 10포인트 상승시킵니다.<end>"
+
+## 200555
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＶＩＴを１０ポイント上昇させます。<end>"
+EN: "Raises ＶＩＴ by 10 points.<end>"
+KO: "VIT를 10포인트 상승시킵니다.<end>"
+
+## 200556
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＩＮＴを１０ポイント上昇させます。<end>"
+EN: "Raises ＩＮＴ by 10 points.<end>"
+KO: "INT를 10포인트 상승시킵니다.<end>"
+
+## 200557
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＭＩＮを１０ポイント上昇させます。<end>"
+EN: "Raises ＭＩＮ by 10 points.<end>"
+KO: "MIN을 10포인트 상승시킵니다.<end>"
+
+## 200558
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＡＧＩを１０ポイント上昇させます。<end>"
+EN: "Raises ＡＧＩ by 10 points.<end>"
+KO: "AGI를 10포인트 상승시킵니다.<end>"
+
+## 200559
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＤＥＸを１０ポイント上昇させます。<end>"
+EN: "Raises ＤＥＸ by 10 points.<end>"
+KO: "DEX를 10포인트 상승시킵니다.<end>"
+
+## 200560
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＳＴＲを２０ポイント上昇させます。<end>"
+EN: "Raises ＳＴＲ by 20 points.<end>"
+KO: "STR을 20포인트 상승시킵니다.<end>"
+
+## 200561
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＶＩＴを２０ポイント上昇させます。<end>"
+EN: "Raises ＶＩＴ by 20 points.<end>"
+KO: "VIT를 20포인트 상승시킵니다.<end>"
+
+## 200562
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＩＮＴを２０ポイント上昇させます。<end>"
+EN: "Raises ＩＮＴ by 20 points.<end>"
+KO: "INT를 20포인트 상승시킵니다.<end>"
+
+## 200563
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＭＩＮを２０ポイント上昇させます。<end>"
+EN: "Raises ＭＩＮ by 20 points.<end>"
+KO: "MIN을 20포인트 상승시킵니다.<end>"
+
+## 200564
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＡＧＩを２０ポイント上昇させます。<end>"
+EN: "Raises ＡＧＩ by 20 points.<end>"
+KO: "AGI를 20포인트 상승시킵니다.<end>"
+
+## 200565
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ＤＥＸを２０ポイント上昇させます。<end>"
+EN: "Raises ＤＥＸ by 20 points.<end>"
+KO: "DEX를 20포인트 상승시킵니다.<end>"
+
+## 200566
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の眠り攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Sleep attacks.<end>"
+KO: "적의 수면 공격을 50% 확률로 회피합니다.<end>"
+
+## 200567
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵のマヒ攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Paralysis attacks.<end>"
+KO: "적의 마비 공격을 50% 확률로 회피합니다.<end>"
+
+## 200568
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の石化攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy petrification attacks.<end>"
+KO: "적의 석화 공격을 50% 확률로 회피합니다.<end>"
+
+## 200569
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の暗闇攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Blindness attacks.<end>"
+KO: "적의 암흑 공격을 50% 확률로 회피합니다.<end>"
+
+## 200570
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の混乱攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Confusion attacks.<end>"
+KO: "적의 혼란 공격을 50% 확률로 회피합니다.<end>"
+
+## 200571
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の幻覚攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Hallucination attacks.<end>"
+KO: "적의 환각 공격을 50% 확률로 회피합니다.<end>"
+
+## 200572
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の毒攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Poison attacks.<end>"
+KO: "적의 독 공격을 50% 확률로 회피합니다.<end>"
+
+## 200573
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の沈黙攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Silence attacks.<end>"
+KO: "적의 침묵 공격을 50% 확률로 회피합니다.<end>"
+
+## 200574
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の呪い攻撃を５０％の確率で回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Curse attacks.<end>"
+KO: "적의 저주 공격을 50% 확률로 회피합니다.<end>"
+
+## 200575
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の速度低下状態を５０％の確率で<line-break>回避します。<end>"
+EN: "Grants a 50% chance to evade enemy speed-reduction effects.<end>"
+KO: "적의 속도 저하 상태를 50% 확률로 회피합니다.<end>"
+
+## 200576
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の死の呪い攻撃を５０％の確率で<line-break>回避します。<end>"
+EN: "Grants a 50% chance to evade enemy Death Curse attacks.<end>"
+KO: "적의 죽음의 저주 공격을 50% 확률로 회피합니다.<end>"
+
+## 200577
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "毎ターン、ＨＰが最大値の５％回復する。<end>"
+EN: "Restores 5% of maximum ＨＰ each turn.<end>"
+KO: "매 턴 HP가 최대치의 5% 회복된다.<end>"
+
+## 200578
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "毎ターン、ＭＰが最大値の３％回復する。<end>"
+EN: "Restores 3% of maximum ＭＰ each turn.<end>"
+KO: "매 턴 MP가 최대치의 3% 회복된다.<end>"
+
+## 200579
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中にＨＰが０になると、<line-break>自動的にＨＰが最大値まで回復します。<line-break>ただし、１度作動すると壊れてしまいます。<end>"
+EN: "If ＨＰ reaches 0 in battle, it is fully restored once. The item then breaks.<end>"
+KO: "전투 중 HP가 0이 되면 자동으로 HP가 최대치까지 회복됩니다. 단, 한 번 작동하면 부서집니다.<end>"
+
+## 200580
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘中にＭＰが０になると、<line-break>自動的にＭＰが最大値まで回復します。<line-break>ただし、１度作動すると壊れてしまいます。<end>"
+EN: "If ＭＰ reaches 0 in battle, it is fully restored once. The item then breaks.<end>"
+KO: "전투 중 MP가 0이 되면 자동으로 MP가 최대치까지 회복됩니다. 단, 한 번 작동하면 부서집니다.<end>"
+
+## 200581
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "５０％の確率でクリティカル攻撃がでます。<end>"
+EN: "Grants a 50% chance of landing a critical attack.<end>"
+KO: "50% 확률로 크리티컬 공격이 발생합니다.<end>"
+
+## 200582
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の火属性攻撃によるダメージを半減します。<end>"
+EN: "Halves damage from enemy Fire-element attacks.<end>"
+KO: "적의 불 속성 공격 피해를 절반으로 줄입니다.<end>"
+
+## 200583
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の水属性攻撃によるダメージを半減します。<end>"
+EN: "Halves damage from enemy Water-element attacks.<end>"
+KO: "적의 물 속성 공격 피해를 절반으로 줄입니다.<end>"
+
+## 200584
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の土属性攻撃によるダメージを半減します。<end>"
+EN: "Halves damage from enemy Earth-element attacks.<end>"
+KO: "적의 대지 속성 공격 피해를 절반으로 줄입니다.<end>"
+
+## 200585
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の風属性攻撃によるダメージを半減します。<end>"
+EN: "Halves damage from enemy Wind-element attacks.<end>"
+KO: "적의 바람 속성 공격 피해를 절반으로 줄입니다.<end>"
+
+## 200586
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の闇属性攻撃によるダメージを半減します。<end>"
+EN: "Halves damage from enemy Dark-element attacks.<end>"
+KO: "적의 어둠 속성 공격 피해를 절반으로 줄입니다.<end>"
+
+## 200587
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の聖属性攻撃によるダメージを半減します。<end>"
+EN: "Halves damage from enemy Holy-element attacks.<end>"
+KO: "적의 성 속성 공격 피해를 절반으로 줄입니다.<end>"
+
+## 200588
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の火属性攻撃によるダメージを０にします。<end>"
+EN: "Reduces damage from enemy Fire-element attacks to 0.<end>"
+KO: "적의 불 속성 공격 피해를 0으로 만듭니다.<end>"
+
+## 200589
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の水属性攻撃によるダメージを０にします。<end>"
+EN: "Reduces damage from enemy Water-element attacks to 0.<end>"
+KO: "적의 물 속성 공격 피해를 0으로 만듭니다.<end>"
+
+## 200590
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の土属性攻撃によるダメージを０にします。<end>"
+EN: "Reduces damage from enemy Earth-element attacks to 0.<end>"
+KO: "적의 대지 속성 공격 피해를 0으로 만듭니다.<end>"
+
+## 200591
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の風属性攻撃によるダメージを０にします。<end>"
+EN: "Reduces damage from enemy Wind-element attacks to 0.<end>"
+KO: "적의 바람 속성 공격 피해를 0으로 만듭니다.<end>"
+
+## 200592
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の闇属性攻撃によるダメージを０にします。<end>"
+EN: "Reduces damage from enemy Dark-element attacks to 0.<end>"
+KO: "적의 어둠 속성 공격 피해를 0으로 만듭니다.<end>"
+
+## 200593
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "敵の聖属性攻撃によるダメージを０にします。<end>"
+EN: "Reduces damage from enemy Holy-element attacks to 0.<end>"
+KO: "적의 성 속성 공격 피해를 0으로 만듭니다.<end>"
+
+## 200594
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備者が戦闘後に獲得するEXPを<line-break>１．５倍します。<end>"
+EN: "Multiplies the EXP gained by the wearer after battle by 1.5.<end>"
+KO: "장비자가 전투 후 획득하는 EXP가 1.5배가 됩니다.<end>"
+
+## 200595
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備者が戦闘後に獲得するスキルポイントを<line-break>１．５倍します。<end>"
+EN: "Multiplies the Skill Points gained by the wearer after battle by 1.5.<end>"
+KO: "장착자가 전투 후 획득하는 스킬 포인트를 1.5배로 만듭니다.<end>"
+
+## 200596
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "パーティーが戦闘後に獲得するギアを<line-break>１．５倍します。<end>"
+EN: "Multiplies the Gea gained by the party after battle by 1.5.<end>"
+KO: "파티가 전투 후 획득하는 기어를 1.5배로 합니다.<end>"
+
+## 200597
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "アクセサリー：フィジカル効果なし<end>"
+EN: "Accessory: No physical effect<end>"
+KO: "액세서리: 피지컬 효과 없음<end>"
+
+## 200598
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "アクセサリー：特例効果なし<end>"
+EN: "Accessory: No special effect<end>"
+KO: "액세서리: 특례 효과 없음<end>"
+
+## 200599
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "アクセサリー：精霊力効果なし<end>"
+EN: "Accessory: No elemental power effect<end>"
+KO: "액세서리: 정령력 효과 없음<end>"
+
+## 200600
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "アクセサリー：ボーナス効果なし<end>"
+EN: "Accessory: No bonus effect<end>"
+KO: "액세서리: 보너스 효과 없음<end>"
+
+## 200601
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "大きいほど攻撃力や防御力が高くなります。<line-break>錬剛石が必要です。<end>"
+EN: "Higher values increase Attack Power and defense. Tempering Stones are required.<end>"
+KO: "클수록 공격력과 방어력이 높아집니다. 연강석이 필요합니다.<end>"
+
+## 200602
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "大きいほど重くなり素早さを低下させますが、<line-break>攻撃力や防御力は上昇します。<end>"
+EN: "Higher values mean more weight and lower Agility, but greater Attack Power and defense.<end>"
+KO: "클수록 무거워져 민첩성이 낮아지지만, 공격력과 방어력은 상승합니다.<end>"
+
+## 200603
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "宿すことのできる精霊力の大きさを表します。<line-break>大きいほど属性効果も高まります。<line-break>錬剛石が必要です。<end>"
+EN: "Indicates how much spirit power can be imbued. Higher values also strengthen elemental effects. Tempering Stones are required.<end>"
+KO: "담을 수 있는 정령력의 크기를 나타냅니다. 클수록 속성 효과도 높아집니다. 연강석이 필요합니다.<end>"
+
+## 200604
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "宿している精霊力の属性を表します。<line-break>錬剛石もお金も必要ありません。<end>"
+EN: "Indicates the element of the spirit power currently imbued. Neither Tempering Stones nor money are required.<end>"
+KO: "깃들어 있는 정령력의 속성을 나타냅니다. 연강석도 돈도 필요하지 않습니다.<end>"
+
+## 200605
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備品につける特殊効果です。<line-break>いずれかの系統を選んでください。<line-break>錬剛石を必要とします。<end>"
+EN: "This is a special effect applied to equipment. Select one of the categories. Tempering Stones are required.<end>"
+KO: "장비에 붙이는 특수 효과입니다. 어느 계통을 선택해 주세요. 연강석이 필요합니다.<end>"
+
+## 200606
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "眠り、マヒ、石化からなる系統です。<line-break>別の系統に変えると効力を失います。<line-break>その場合、最初から鍛え直すことになります。<end>"
+EN: "This category consists of Sleep, Paralysis, and Petrification. Changing to another category causes the effect to lose its potency, which must then be built back up from scratch.<end>"
+KO: "수면, 마비, 석화로 이루어진 계통입니다. 다른 계통으로 바꾸면 효력을 잃습니다. 그 경우 처음부터 다시 단련해야 합니다.<end>"
+
+## 200607
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "暗闇、混乱、幻覚からなる系統です。<line-break>別の系統に変えると効力を失います。<line-break>その場合、最初から鍛え直すことになります。<end>"
+EN: "This category consists of Blindness, Confusion, and Hallucination. Changing to another category causes the effect to lose its potency, which must then be built back up from scratch.<end>"
+KO: "암흑, 혼란, 환각으로 이루어진 계통입니다. 다른 계통으로 바꾸면 효력을 잃습니다. 그 경우 처음부터 다시 단련해야 합니다.<end>"
+
+## 200608
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "毒、沈黙、呪いからなる系統です。<line-break>別の系統に変えると効力を失います。<line-break>その場合、最初から鍛え直すことになります。<end>"
+EN: "This category consists of Poison, Silence, and Curse. Changing to another category causes the effect to lose its potency, which must then be built back up from scratch.<end>"
+KO: "독, 침묵, 저주로 이루어진 계통입니다. 다른 계통으로 바꾸면 효력을 잃습니다. 그 경우 처음부터 다시 단련해야 합니다.<end>"
+
+## 200609
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが１必要です。<end>"
+EN: "Requires Fire element level 1.<end>"
+KO: "불 속성 레벨 1이 필요합니다.<end>"
+
+## 200610
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが３必要です。<end>"
+EN: "Requires Fire element level 3.<end>"
+KO: "불 속성 레벨 3이 필요합니다.<end>"
+
+## 200611
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが４必要です。<end>"
+EN: "Requires Fire element level 4.<end>"
+KO: "불 속성 레벨 4가 필요합니다.<end>"
+
+## 200612
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが１必要です。<end>"
+EN: "Requires Water element level 1.<end>"
+KO: "물 속성 레벨 1이 필요합니다.<end>"
+
+## 200613
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが３必要です。<end>"
+EN: "Requires Water element level 3.<end>"
+KO: "물 속성 레벨 3이 필요합니다.<end>"
+
+## 200614
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが４必要です。<end>"
+EN: "Requires Water element level 4.<end>"
+KO: "물 속성 레벨 4가 필요합니다.<end>"
+
+## 200615
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが１必要です。<end>"
+EN: "Requires Earth element level 1.<end>"
+KO: "대지 속성 레벨 1이 필요합니다.<end>"
+
+## 200616
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが３必要です。<end>"
+EN: "Requires Earth element level 3.<end>"
+KO: "대지 속성 레벨 3이 필요합니다.<end>"
+
+## 200617
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが４必要です。<end>"
+EN: "Requires Earth element level 4.<end>"
+KO: "대지 속성 레벨 4가 필요합니다.<end>"
+
+## 200618
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが１必要です。<end>"
+EN: "Requires Wind element level 1.<end>"
+KO: "바람 속성 레벨 1이 필요합니다.<end>"
+
+## 200619
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが３必要です。<end>"
+EN: "Requires Wind element level 3.<end>"
+KO: "바람 속성 레벨 3이 필요합니다.<end>"
+
+## 200620
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが４必要です。<end>"
+EN: "Requires Wind element level 4.<end>"
+KO: "바람 속성 레벨 4가 필요합니다.<end>"
+
+## 200621
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが２必要です。<end>"
+EN: "Requires Fire element level 2.<end>"
+KO: "불 속성 레벨 2가 필요합니다.<end>"
+
+## 200622
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが２必要です。<end>"
+EN: "Requires Fire element level 2.<end>"
+KO: "불 속성 레벨 2가 필요합니다.<end>"
+
+## 200623
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが２必要です。<end>"
+EN: "Requires Fire element level 2.<end>"
+KO: "불 속성 레벨 2가 필요합니다.<end>"
+
+## 200624
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが５必要です。<end>"
+EN: "Requires Fire element level 5.<end>"
+KO: "불 속성 레벨 5가 필요합니다.<end>"
+
+## 200625
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが７必要です。<end>"
+EN: "Requires Fire element level 7.<end>"
+KO: "불 속성 레벨 7이 필요합니다.<end>"
+
+## 200626
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルが９必要です。<line-break>封印を解く必要があります。<end>"
+EN: "Requires Fire element level 9. The seal must be broken.<end>"
+KO: "불 속성 레벨 9가 필요합니다. 봉인을 풀어야 합니다.<end>"
+
+## 200627
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが２必要です。<end>"
+EN: "Requires Water element level 2.<end>"
+KO: "물 속성 레벨 2가 필요합니다.<end>"
+
+## 200628
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが２必要です。<end>"
+EN: "Requires Water element level 2.<end>"
+KO: "물 속성 레벨 2가 필요합니다.<end>"
+
+## 200629
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが２必要です。<end>"
+EN: "Requires Water element level 2.<end>"
+KO: "물 속성 레벨 2가 필요합니다.<end>"
+
+## 200630
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが５必要です。<end>"
+EN: "Requires Water element level 5.<end>"
+KO: "물 속성 레벨 5가 필요합니다.<end>"
+
+## 200631
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが７必要です。<end>"
+EN: "Requires Water element level 7.<end>"
+KO: "물 속성 레벨 7이 필요합니다.<end>"
+
+## 200632
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルが９必要です。<line-break>封印を解く必要があります。<end>"
+EN: "Requires Water element level 9. The seal must be broken.<end>"
+KO: "물 속성 레벨 9가 필요합니다. 봉인을 풀어야 합니다.<end>"
+
+## 200633
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが２必要です。<end>"
+EN: "Requires Earth element level 2.<end>"
+KO: "대지 속성 레벨 2가 필요합니다.<end>"
+
+## 200634
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが２必要です。<end>"
+EN: "Requires Earth element level 2.<end>"
+KO: "대지 속성 레벨 2가 필요합니다.<end>"
+
+## 200635
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが２必要です。<end>"
+EN: "Requires Earth element level 2.<end>"
+KO: "대지 속성 레벨 2가 필요합니다.<end>"
+
+## 200636
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが５必要です。<end>"
+EN: "Requires Earth element level 5.<end>"
+KO: "대지 속성 레벨 5가 필요합니다.<end>"
+
+## 200637
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが７必要です。<end>"
+EN: "Requires Earth element level 7.<end>"
+KO: "대지 속성 레벨 7이 필요합니다.<end>"
+
+## 200638
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルが９必要です。<line-break>封印を解く必要があります。<end>"
+EN: "Requires Earth element level 9. The seal must be broken.<end>"
+KO: "땅 속성 레벨 9가 필요합니다. 봉인을 풀어야 합니다.<end>"
+
+## 200639
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが２必要です。<end>"
+EN: "Requires Wind element level 2.<end>"
+KO: "바람 속성 레벨 2가 필요합니다.<end>"
+
+## 200640
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが２必要です。<end>"
+EN: "Requires Wind element level 2.<end>"
+KO: "바람 속성 레벨 2가 필요합니다.<end>"
+
+## 200641
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが２必要です。<end>"
+EN: "Requires Wind element level 2.<end>"
+KO: "바람 속성 레벨 2가 필요합니다.<end>"
+
+## 200642
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが５必要です。<end>"
+EN: "Requires Wind element level 5.<end>"
+KO: "바람 속성 레벨 5가 필요합니다.<end>"
+
+## 200643
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが７必要です。<end>"
+EN: "Requires Wind element level 7.<end>"
+KO: "바람 속성 레벨 7이 필요합니다.<end>"
+
+## 200644
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルが９必要です。<line-break>封印を解く必要があります。<end>"
+EN: "Requires Wind element level 9. The seal must be broken.<end>"
+KO: "바람 속성 레벨 9가 필요합니다. 봉인을 풀어야 합니다.<end>"
+
+## 200645
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルと水属性レベルが<line-break>それぞれ６必要です。<end>"
+EN: "Requires level 6 in both the Fire and Water elements.<end>"
+KO: "화속성 레벨과 수속성 레벨이 각각 6 필요합니다.<end>"
+
+## 200646
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火属性レベルと水属性レベルが<line-break>それぞれ８必要です。<end>"
+EN: "Requires level 8 in both the Fire and Water elements.<end>"
+KO: "화속성 레벨과 수속성 레벨이 각각 8 필요합니다.<end>"
+
+## 200647
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルと土属性レベルが<line-break>それぞれ６必要です。<end>"
+EN: "Requires level 6 in both the Water and Earth elements.<end>"
+KO: "수속성 레벨과 토속성 레벨이 각각 6 필요합니다.<end>"
+
+## 200648
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水属性レベルと土属性レベルが<line-break>それぞれ８必要です。<end>"
+EN: "Requires level 8 in both the Water and Earth elements.<end>"
+KO: "수속성 레벨과 토속성 레벨이 각각 8 필요합니다.<end>"
+
+## 200649
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルと風属性レベルが<line-break>それぞれ６必要です。<end>"
+EN: "Requires level 6 in both the Earth and Wind elements.<end>"
+KO: "토속성 레벨과 풍속성 레벨이 각각 6 필요합니다.<end>"
+
+## 200650
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土属性レベルと風属性レベルが<line-break>それぞれ８必要です。<end>"
+EN: "Requires level 8 in both the Earth and Wind elements.<end>"
+KO: "토속성 레벨과 풍속성 레벨이 각각 8 필요합니다.<end>"
+
+## 200651
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルと火属性レベルが<line-break>それぞれ６必要です。<end>"
+EN: "Requires level 6 in both the Wind and Fire elements.<end>"
+KO: "풍속성 레벨과 화속성 레벨이 각각 6 필요합니다.<end>"
+
+## 200652
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風属性レベルと火属性レベルが<line-break>それぞれ８必要です。<end>"
+EN: "Requires level 8 in both the Wind and Fire elements.<end>"
+KO: "풍속성 레벨과 화속성 레벨이 각각 8 필요합니다.<end>"
+
+## 200653
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが７必要です。<end>"
+EN: "Requires level 7 in every element.<end>"
+KO: "모든 속성 레벨이 7 필요합니다.<end>"
+
+## 200654
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが１０必要です。<end>"
+EN: "Requires level 10 in every element.<end>"
+KO: "모든 속성 레벨이 10 필요합니다.<end>"
+
+## 200655
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが１必要です。<end>"
+EN: "Requires level 1 in every element.<end>"
+KO: "모든 속성 레벨이 1 필요합니다.<end>"
+
+## 200656
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが３必要です。<end>"
+EN: "Requires level 3 in every element.<end>"
+KO: "모든 속성 레벨이 3 필요합니다.<end>"
+
+## 200657
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが５必要です。<end>"
+EN: "Requires level 5 in every element.<end>"
+KO: "모든 속성 레벨이 5 필요합니다.<end>"
+
+## 200658
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが７必要です。<end>"
+EN: "Requires level 7 in every element.<end>"
+KO: "모든 속성 레벨이 7 필요합니다.<end>"
+
+## 200659
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが９必要です。<end>"
+EN: "Requires level 9 in every element.<end>"
+KO: "모든 속성 레벨이 9 필요합니다.<end>"
+
+## 200660
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが２必要です。<end>"
+EN: "Requires level 2 in every element.<end>"
+KO: "모든 속성 레벨이 2 필요합니다.<end>"
+
+## 200661
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが４必要です。<end>"
+EN: "Requires level 4 in every element.<end>"
+KO: "모든 속성 레벨이 4 필요합니다.<end>"
+
+## 200662
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが６必要です。<end>"
+EN: "Requires level 6 in every element.<end>"
+KO: "모든 속성 레벨이 6 필요합니다.<end>"
+
+## 200663
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが８必要です。<end>"
+EN: "Requires level 8 in every element.<end>"
+KO: "모든 속성 레벨이 8 필요합니다.<end>"
+
+## 200664
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが９必要です。<end>"
+EN: "Requires level 9 in every element.<end>"
+KO: "모든 속성 레벨이 9 필요합니다.<end>"
+
+## 200665
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが１必要です。<end>"
+EN: "Requires level 1 in every element.<end>"
+KO: "모든 속성 레벨이 1 필요합니다.<end>"
+
+## 200666
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが３必要です。<end>"
+EN: "Requires level 3 in every element.<end>"
+KO: "모든 속성 레벨이 3 필요합니다.<end>"
+
+## 200667
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが５必要です。<end>"
+EN: "Requires level 5 in every element.<end>"
+KO: "모든 속성 레벨이 5 필요합니다.<end>"
+
+## 200668
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが７必要です。<end>"
+EN: "Requires level 7 in every element.<end>"
+KO: "모든 속성 레벨이 7 필요합니다.<end>"
+
+## 200669
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが１０必要です。<line-break>封印を解く必要があります。<end>"
+EN: "Requires level 10 in every element. The seal must be broken.<end>"
+KO: "모든 속성 레벨이 10 필요합니다. 봉인을 해제해야 합니다.<end>"
+
+## 200670
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが２必要です。<end>"
+EN: "Requires level 2 in every element.<end>"
+KO: "모든 속성 레벨이 2 필요합니다.<end>"
+
+## 200671
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが４必要です。<end>"
+EN: "Requires level 4 in every element.<end>"
+KO: "모든 속성 레벨이 4 필요합니다.<end>"
+
+## 200672
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが６必要です。<end>"
+EN: "Requires level 6 in every element.<end>"
+KO: "모든 속성 레벨이 6 필요합니다.<end>"
+
+## 200673
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが８必要です。<end>"
+EN: "Requires level 8 in every element.<end>"
+KO: "모든 속성 레벨이 8 필요합니다.<end>"
+
+## 200674
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すべての属性レベルが１０必要です。<line-break>封印を解く必要があります。<end>"
+EN: "Requires level 10 in every element. The seal must be broken.<end>"
+KO: "모든 속성 레벨이 10 필요합니다. 봉인을 해제해야 합니다.<end>"
+
+## 210000
+source: translations/korean/messages/msgsec021-part99.toml
+jp_matches_pinned_english: yes
+JP: "ダミーメッセージここから<end>"
 EN: ""
-KO: "더미2_7<end>"
+KO: "더미 메시지 여기부터<end>"
 
-## 200025
-source: translations/korean/messages/msgsec020-part99.toml
+## 210001
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "だみぃ2_8<end>"
+JP: "山越え概要<end>"
 EN: ""
-KO: "더미2_8<end>"
+KO: "산 넘기 개요<end>"
 
-## 200026
-source: translations/korean/messages/msgsec020-part96.toml
+## 210002
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "下位の精霊魔法<end>"
-EN: "Lower-tier spirit magic<end>"
-KO: "하위 정령 마법<end>"
+JP: "アンギルダン軍進軍<end>"
+EN: ""
+KO: "앙길단군 진군<end>"
 
-## 200027
-source: translations/korean/messages/msgsec020-part96.toml
+## 210004
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "上位の精霊魔法<end>"
-EN: "Higher-tier spirit magic<end>"
-KO: "상위 정령 마법<end>"
+JP: "アンギルダン敗走<end>"
+EN: ""
+KO: "앙길단 패주<end>"
 
-## 200028
-source: translations/korean/messages/msgsec020-part96.toml
+## 210005
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＨＰ回復系の魔法<end>"
-EN: "Magic that restores ＨＰ<end>"
-KO: "HP 회복 계열 마법<end>"
+JP: "アンギルダン戦死１<end>"
+EN: ""
+KO: "앙길단 전사 1<end>"
 
-## 200029
-source: translations/korean/messages/msgsec020-part96.toml
+## 210006
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "神の力による、浄化と攻撃の魔法<end>"
-EN: "Purification and attack magic powered by divine power<end>"
-KO: "신의 힘으로 정화와 공격을 행하는 마법<end>"
+JP: "２ページ目へ<end>"
+EN: ""
+KO: "2페이지로<end>"
 
-## 200030
-source: translations/korean/messages/msgsec020-part96.toml
+## 210007
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "複合精霊魔法<end>"
-EN: "Combined spirit magic<end>"
-KO: "복합 정령 마법<end>"
+JP: "ロセン陥落<end>"
+EN: ""
+KO: "로센 함락<end>"
 
-## 200031
-source: translations/korean/messages/msgsec020-part96.toml
+## 210008
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "森羅万象の力を結集した最高魔法<end>"
-EN: "The ultimate spell, drawing together the power of all creation<end>"
-KO: "삼라만상의 힘을 결집한 최고위 마법<end>"
+JP: "ネメア帝位につく<end>"
+EN: ""
+KO: "네메아 제위에 오르다<end>"
 
-## 200032
-source: translations/korean/messages/msgsec020-part96.toml
+## 210009
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "邪悪な力による魔法<end>"
-EN: "Magic powered by evil forces<end>"
-KO: "사악한 힘을 이용하는 마법<end>"
+JP: "ノーブルの反乱<end>"
+EN: ""
+KO: "노블의 반란<end>"
 
-## 200033
-source: translations/korean/messages/msgsec020-part96.toml
+## 210010
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "精神、ＭＰに影響を与える魔法<end>"
-EN: "Magic that affects the mind and ＭＰ<end>"
-KO: "정신과 MP에 영향을 주는 마법<end>"
+JP: "空中都市撃沈<end>"
+EN: ""
+KO: "공중도시 격침<end>"
 
-## 200034
-source: translations/korean/messages/msgsec020-part96.toml
+## 210011
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品に属性を付加する魔法<end>"
-EN: "Magic that imbues equipment with an element<end>"
-KO: "장비에 속성을 부여하는 마법<end>"
+JP: "リベルダム陥落<end>"
+EN: ""
+KO: "리벨덤 함락<end>"
 
-## 200035
-source: translations/korean/messages/msgsec020-part96.toml
+## 210012
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "チャージにより発動するスキル<end>"
-EN: "Skills activated by charging<end>"
-KO: "차지로 발동하는 스킬<end>"
+JP: "３ページ目へ<end>"
+EN: ""
+KO: "3페이지로<end>"
 
-## 200036
-source: translations/korean/messages/msgsec020-part96.toml
+## 210013
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "攻撃を行うスキル<end>"
-EN: "Skills used to attack<end>"
-KO: "공격을 가하는 스킬<end>"
+JP: "山越え時（ゼネテス配下）<end>"
+EN: ""
+KO: "산 넘을 때(제네테스 휘하)<end>"
 
-## 200037
-source: translations/korean/messages/msgsec020-part96.toml
+## 210014
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "特殊な行動や、コマンドの補助となるスキル<end>"
-EN: "Skills for special actions and command support<end>"
-KO: "특수 행동이나 명령을 보조하는 스킬<end>"
+JP: "旅立ちＴｕｇ<end>"
+EN: ""
+KO: "여행 출발 Tug<end>"
 
-## 200038
-source: translations/korean/messages/msgsec020-part96.toml
+## 210015
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "究極のソウルにより使用できるスキル<end>"
-EN: "Skills available through Ultimate Soul<end>"
-KO: "궁극의 소울로 사용할 수 있는 스킬<end>"
+JP: "旅立ちＭｅｓｓｅｎｇｅｒ<end>"
+EN: ""
+KO: "여행 출발 Messenger<end>"
 
-## 200039
-source: translations/korean/messages/msgsec020-part96.toml
+## 210016
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "魔法を使用するスキル<end>"
-EN: "Skills that use magic<end>"
-KO: "마법을 사용하는 스킬<end>"
+JP: "旅立ち刃向かうもの<end>"
+EN: ""
+KO: "여행 출발 맞서는 자<end>"
 
-## 200040
-source: translations/korean/messages/msgsec020-part96.toml
+## 210017
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "自動的に効果が発動するスキル<end>"
-EN: "Skills whose effects activate automatically<end>"
-KO: "효과가 자동으로 발동하는 스킬<end>"
+JP: "旅立ちトリゴブ<end>"
+EN: ""
+KO: "여행길 트리 고블린<end>"
 
-## 200041
-source: translations/korean/messages/msgsec020-part96.toml
+## 210018
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ポイント配分<end>"
-EN: "Point Allocation<end>"
-KO: "포인트 배분<end>"
+JP: "４ページ目へ<end>"
+EN: ""
+KO: "4페이지로<end>"
 
-## 200042
-source: translations/korean/messages/msgsec020-part96.toml
+## 210019
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ソウル変更<end>"
-EN: "Change Soul<end>"
-KO: "소울 변경<end>"
+JP: "旅立ちロストメモリー<end>"
+EN: ""
+KO: "여행 출발 로스트 메모리<end>"
 
-## 200043
-source: translations/korean/messages/msgsec020-part96.toml
+## 210020
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ソウルポイント<end>"
-EN: "Soul Points<end>"
-KO: "소울 포인트<end>"
+JP: "アキュリュース陥落Ａ<end>"
+EN: ""
+KO: "아큐류스 함락 A<end>"
 
-## 200044
-source: translations/korean/messages/msgsec020-part96.toml
+## 210021
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ｿｳﾙﾎﾟｲﾝﾄ<end>"
-EN: "Soul Points<end>"
-KO: "소울 포인트<end>"
+JP: "アキュリュース陥落Ｂ<end>"
+EN: ""
+KO: "아큐류스 함락 B<end>"
 
-## 200045
-source: translations/korean/messages/msgsec020-part96.toml
+## 210022
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "Braveにポイントを配分<end>"
-EN: "Allocate Points to Brave<end>"
-KO: "Brave에 포인트 배분<end>"
+JP: "アキュリュース陥落Ｃ<end>"
+EN: ""
+KO: "아큐류스 함락 C<end>"
 
-## 200046
-source: translations/korean/messages/msgsec020-part96.toml
+## 210023
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "Kindにポイントを配分<end>"
-EN: "Allocate Points to Kind<end>"
-KO: "Kind에 포인트 배분<end>"
+JP: "アキュリュース陥落Ｄ<end>"
+EN: ""
+KO: "아큐류스 함락 D<end>"
 
-## 200047
-source: translations/korean/messages/msgsec020-part96.toml
+## 210024
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "Searchにポイントを配分<end>"
-EN: "Allocate Points to Search<end>"
-KO: "Search에 포인트 배분<end>"
+JP: "５ページ目へ<end>"
+EN: ""
+KO: "5페이지로<end>"
 
-## 200048
-source: translations/korean/messages/msgsec020-part96.toml
+## 210025
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "Beliefにポイントを配分<end>"
-EN: "Allocate Points to Belief<end>"
-KO: "Belief에 포인트 배분<end>"
+JP: "アキュリュース陥落Ｅ<end>"
+EN: ""
+KO: "아큐류스 함락 E<end>"
 
-## 200049
-source: translations/korean/messages/msgsec020-part96.toml
+## 210026
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "Wildにポイントを配分<end>"
-EN: "Allocate Points to Wild<end>"
-KO: "Wild에 포인트 배분<end>"
+JP: "アキュリュース陥落Ｆ<end>"
+EN: ""
+KO: "아큐류스 함락 F<end>"
 
-## 200050
-source: translations/korean/messages/msgsec020-part96.toml
+## 210027
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "Coolにポイントを配分<end>"
-EN: "Allocate Points to Cool<end>"
-KO: "Cool에 포인트 배분<end>"
+JP: "アキュリュース陥落Ｇ<end>"
+EN: ""
+KO: "아큐류스 함락 G<end>"
 
-## 200051
-source: translations/korean/messages/msgsec020-part96.toml
+## 210028
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "アイテムを見る<end>"
-EN: "View Items<end>"
-KO: "아이템 보기<end>"
+JP: "カルラ進軍開始<end>"
+EN: ""
+KO: "카를라 진군 개시<end>"
 
-## 200052
-source: translations/korean/messages/msgsec020-part96.toml
+## 210029
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "魔法を見る<end>"
-EN: "View Magic<end>"
-KO: "마법 보기<end>"
+JP: "ゼネテスＶＳカルラＡ<end>"
+EN: ""
+KO: "제네테스 VS 카를라 A<end>"
 
-## 200053
-source: translations/korean/messages/msgsec020-part96.toml
+## 210030
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "パーティーの能力値を表示<end>"
-EN: "View Party Stats<end>"
-KO: "파티 능력치 표시<end>"
+JP: "６ページ目へ<end>"
+EN: ""
+KO: "6페이지로<end>"
 
-## 200054
-source: translations/korean/messages/msgsec020-part96.toml
+## 210031
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備を変更<end>"
-EN: "Change Equipment<end>"
-KO: "장비 변경<end>"
+JP: "ゼネテス奇襲<end>"
+EN: ""
+KO: "제네테스 기습<end>"
 
-## 200055
-source: translations/korean/messages/msgsec020-part96.toml
+## 210032
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "スキルを習得<end>"
-EN: "Learn Skills<end>"
-KO: "스킬 습득<end>"
+JP: "カルラＶＳゼネテスＢ<end>"
+EN: ""
+KO: "카를라 VS 제네테스 B<end>"
 
-## 200056
-source: translations/korean/messages/msgsec020-part96.toml
+## 210033
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ソウルポイント配分と、ソウルの変更<end>"
-EN: "Manage Soul Points/Souls<end>"
-KO: "소울 포인트 배분 및 소울 변경<end>"
+JP: "カルラＶＳゼネテスＣ<end>"
+EN: ""
+KO: "카를라 VS 제네테스 C<end>"
 
-## 200057
-source: translations/korean/messages/msgsec020-part96.toml
+## 210034
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "引き受けている仕事の確認と、相談<end>"
-EN: "Review and Discuss Jobs<end>"
-KO: "맡은 의뢰 확인 및 상담<end>"
+JP: "ジラーク失踪<end>"
+EN: ""
+KO: "지라크 실종<end>"
 
-## 200058
-source: translations/korean/messages/msgsec020-part96.toml
+## 210035
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "セーブ・ロード、人物・歴史の閲覧、環境設定<end>"
-EN: "Saves, Records, Settings<end>"
-KO: "저장·불러오기, 인물·역사 열람, 환경 설정<end>"
+JP: "よび１５<end>"
+EN: ""
+KO: "예비15<end>"
 
-## 200059
-source: translations/korean/messages/msgsec020-part96.toml
+## 210036
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "データのセーブを実行<end>"
-EN: "Save Data<end>"
-KO: "데이터 저장 실행<end>"
+JP: "よび１６<end>"
+EN: ""
+KO: "예비16<end>"
 
-## 200060
-source: translations/korean/messages/msgsec020-part96.toml
+## 210037
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "データのロードを実行<end>"
-EN: "Load Data<end>"
-KO: "데이터 불러오기 실행<end>"
+JP: "よび１７<end>"
+EN: ""
+KO: "예비17<end>"
 
-## 200061
-source: translations/korean/messages/msgsec020-part96.toml
+## 210038
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "人物のデータを閲覧<end>"
-EN: "View Character Data<end>"
-KO: "인물 데이터 열람<end>"
+JP: "よび１８<end>"
+EN: ""
+KO: "예비18<end>"
 
-## 200062
-source: translations/korean/messages/msgsec020-part96.toml
+## 210039
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "事件のデータを閲覧<end>"
-EN: "View Incident Data<end>"
-KO: "사건 데이터 열람<end>"
+JP: "よび１９<end>"
+EN: ""
+KO: "예비19<end>"
 
-## 200063
-source: translations/korean/messages/msgsec020-part96.toml
+## 210040
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "プレイ環境の設定<end>"
-EN: "Configure Game Settings<end>"
-KO: "플레이 환경 설정<end>"
+JP: "よび２０<end>"
+EN: ""
+KO: "예비20<end>"
 
-## 200064
-source: translations/korean/messages/msgsec020-part96.toml
+## 210041
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "メッセージを表示する速さ設定<end>"
-EN: "Set Message Display Speed<end>"
-KO: "메시지 표시 속도 설정<end>"
+JP: "よび２１<end>"
+EN: ""
+KO: "예비21<end>"
 
-## 200065
-source: translations/korean/messages/msgsec020-part96.toml
+## 210042
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "コントローラのボタンを設定<end>"
-EN: "Configure Controller Buttons<end>"
-KO: "컨트롤러 버튼 설정<end>"
+JP: "よび２２<end>"
+EN: ""
+KO: "예비22<end>"
 
-## 200066
-source: translations/korean/messages/msgsec020-part96.toml
+## 210043
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "コントローラの振動のＯＮ／ＯＦＦ設定<end>"
-EN: "Turn Controller Vibration ＯＮ／ＯＦＦ<end>"
-KO: "컨트롤러 진동 ON/OFF 설정<end>"
+JP: "よび２３<end>"
+EN: ""
+KO: "예비23<end>"
 
-## 200067
-source: translations/korean/messages/msgsec020-part96.toml
+## 210044
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "サウンドのステレオ／モノラル設定<end>"
-EN: "Set Sound to Stereo or Mono<end>"
-KO: "사운드 스테레오/모노 설정<end>"
+JP: "よび２４<end>"
+EN: ""
+KO: "예비24<end>"
 
-## 200068
-source: translations/korean/messages/msgsec020-part96.toml
+## 210045
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＢＧＭの音量調節<end>"
-EN: "Adjust ＢＧＭ Volume<end>"
-KO: "BGM 음량 조절<end>"
+JP: "よび２５<end>"
+EN: ""
+KO: "예비25<end>"
 
-## 200069
-source: translations/korean/messages/msgsec020-part96.toml
+## 210046
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＳＥの音量調節<end>"
-EN: "Adjust ＳＥ Volume<end>"
-KO: "효과음 음량 조절<end>"
+JP: "よび２６<end>"
+EN: ""
+KO: "예비26<end>"
 
-## 200070
-source: translations/korean/messages/msgsec020-part96.toml
+## 210047
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "画面の位置と明るさ調節<end>"
-EN: "Adjust Screen Position and Brightness<end>"
-KO: "화면 위치와 밝기 조절<end>"
+JP: "よび２７<end>"
+EN: ""
+KO: "예비27<end>"
 
-## 200071
-source: translations/korean/messages/msgsec020-part96.toml
+## 210048
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "方向キー上下左右で画面位置調整<end>"
-EN: "Use the directional buttons to adjust the screen position<end>"
-KO: "방향키 상하좌우로 화면 위치 조정<end>"
+JP: "よび２８<end>"
+EN: ""
+KO: "예비28<end>"
 
-## 200072
-source: translations/korean/messages/msgsec020-part96.toml
+## 210049
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "セーブファイルを選択"
-EN: "Select a Save File"
-KO: "저장 파일 선택"
+JP: "よび２９<end>"
+EN: ""
+KO: "예비29<end>"
 
-## 200073
-source: translations/korean/messages/msgsec020-part96.toml
+## 210050
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ロードファイルを選択"
-EN: "Select a File to Load"
-KO: "불러올 파일 선택"
+JP: "よび３０<end>"
+EN: ""
+KO: "예비30<end>"
 
-## 200074
-source: translations/korean/messages/msgsec020-part97.toml
+## 210051
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "□隊列変更"
-EN: "□ Change Formation"
-KO: "□진형 변경"
+JP: "よび３１<end>"
+EN: ""
+KO: "예비31<end>"
 
-## 200075
-source: translations/korean/messages/msgsec020-part99.toml
+## 210052
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "□並替"
-EN: "□ Reorder"
-KO: "□정렬"
+JP: "よび３２<end>"
+EN: ""
+KO: "예비32<end>"
 
-## 200077
-source: translations/korean/messages/msgsec020-part99.toml
+## 210053
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "×閉じる　○閉じる"
-EN: "× Close  ○ Close"
-KO: "×닫기　○닫기"
+JP: "よび３３<end>"
+EN: ""
+KO: "예비33<end>"
 
-## 200078
-source: translations/korean/messages/msgsec020-part99.toml
+## 210054
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "□初期化"
-EN: "□ Reset"
-KO: "□초기화"
+JP: "よび３４<end>"
+EN: ""
+KO: "예비34<end>"
 
-## 200080
-source: translations/korean/messages/msgsec020-part97.toml
+## 210055
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ページ切替１<end>"
-EN: "Page Switch 1<end>"
-KO: "페이지 전환 1<end>"
+JP: "よび３５<end>"
+EN: ""
+KO: "예비35<end>"
 
-## 200081
-source: translations/korean/messages/msgsec020-part97.toml
+## 210056
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "クイックヘルプ<end>"
-EN: "Quick Help<end>"
-KO: "빠른 도움말<end>"
+JP: "よび３６<end>"
+EN: ""
+KO: "예비36<end>"
 
-## 200082
-source: translations/korean/messages/msgsec020-part99.toml
+## 210057
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "なし<end>"
-EN: "None<end>"
-KO: "없음<end>"
+JP: "よび３７<end>"
+EN: ""
+KO: "예비37<end>"
 
-## 200083
-source: translations/korean/messages/msgsec020-part99.toml
+## 210058
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "ページ切替２<end>"
-EN: "Page Switch 2<end>"
-KO: "페이지 전환 2<end>"
+JP: "よび３８<end>"
+EN: ""
+KO: "예비38<end>"
 
-## 200084
-source: translations/korean/messages/msgsec020-part97.toml
+## 210059
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "メニュー<end>"
-EN: "Menu<end>"
-KO: "메뉴<end>"
+JP: "よび３９<end>"
+EN: ""
+KO: "예비39<end>"
 
-## 200085
-source: translations/korean/messages/msgsec020-part99.toml
+## 210060
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "決定<end>"
-EN: "Confirm<end>"
-KO: "결정<end>"
+JP: "よび４０<end>"
+EN: ""
+KO: "예비40<end>"
 
-## 200086
-source: translations/korean/messages/msgsec020-part97.toml
+## 210061
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "キャンセル<end>"
-EN: "Cancel<end>"
-KO: "취소<end>"
+JP: "　　　　　　　ディンガル帝国。<line-break>　　広大な大地、バイアシオン大陸において<line-break>　　　南のロストール王国と肩を並べる<line-break>　　　　　　　北の大国である。<line-break>　　　　その片隅にテラネの町がある。<line-break>　時折旅人が立ち寄る他は、変化のない日々と<line-break>　　　　　緑とが続く、のどかな町。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
+EN: "The Dyneskal Empire. A great northern power on the vast Vyashion Continent, it stands as an equal to the Kingdom of Rostorl in the south. In a remote corner of the empire lies the town of Terane, a peaceful place where, apart from the occasional traveler passing through, quiet days and green countryside stretch on unchanged. The story of a great soul begins here…<end>"
+KO: "딩갈 제국. 광대한 대지 바이아시온 대륙에서 남쪽의 로스톨 왕국과 어깨를 나란히 하는 북방의 대국이다. 그 한편에 테라네 마을이 있다. 가끔 여행객이 들르는 것 외에는 변화 없는 나날과 푸른 자연이 이어지는 한적한 마을. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
 
-## 200087
-source: translations/korean/messages/msgsec020-part99.toml
+## 210062
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "特殊<end>"
-EN: "Special<end>"
-KO: "특수<end>"
+JP: "　　　　広大な大地、バイアシオン大陸。<line-break>　　　　　人と、人ならざる者とが　　　<line-break>　　　　　　それぞれの生を営み　　　　<line-break>　　　　　旅と冒険とが息づく世界。　　<line-break>　　　　　大陸の南、ノーブルの町。<line-break>　今日、この地においても、旅の商人の親子が<line-break>　　次の町を目指し、旅立とうとしていた。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
+EN: "The vast Vyashion Continent. A world where humans and nonhumans alike live out their lives, and where journeys and adventures abound. In the south of the continent lies the town of Noble. Here too, a traveling merchant and the merchant's child were preparing that day to set out for the next town. The story of a great soul begins here…<end>"
+KO: "광대한 대지 바이아시온 대륙. 인간과 인간 아닌 자들이 각자의 삶을 살아가고 여행과 모험이 숨 쉬는 세계. 대륙 남쪽, 노블 마을. 오늘 이곳에서도 여행 상인 부자가 다음 도시를 향해 떠나려 하고 있었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
 
-## 200088
-source: translations/korean/messages/msgsec020-part99.toml
+## 210064
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "START<end>"
-EN: "START<end>"
-KO: "START<end>"
+JP: "　　　広大な大地、バイアシオン大陸の南に<line-break>　　　　ロストールという名の王国がある。<line-break>　　その王都ロストールでは、悪質な貴族が<line-break>　　　民衆をいたずら半分に苦しめていた。<line-break>　　　　そして、それと時を同じくして、<line-break>　　　古代の神々にまつわる神器をめぐり<line-break>　闇のしもべたちが動き出そうとしていた…。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
+EN: "In the south of the vast Vyashion Continent lies a kingdom called Rostorl. In its capital, also called Rostorl, malicious nobles tormented the people half for sport. At the same time, servants of darkness were beginning to stir in pursuit of sacred artifacts associated with the ancient gods… The story of a great soul begins here…<end>"
+KO: "광대한 바이아시온 대륙 남쪽에는 로스톨이라는 왕국이 있다. 그 왕도 로스톨에서는 악질 귀족이 장난 삼아 민중을 괴롭히고 있었다. 그리고 때를 같이해 고대 신들과 관련된 신기를 둘러싸고 어둠의 하수인들이 움직이기 시작하려 하고 있었다…. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
 
-## 200089
-source: translations/korean/messages/msgsec020-part97.toml
+## 210065
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "SELECT<end>"
-EN: "SELECT<end>"
-KO: "SELECT<end>"
+JP: "　　　　広大な大地、バイアシオン大陸。<line-break>　　　　　そのあまりの広大さゆえに、<line-break>　　　　地図にも記されず、旅人にさえ<line-break>　　知られることのない、小さな村がある…。<line-break>　　　　　村の名は、ミイスという。<line-break>　　そこにあるのは、小さな神殿と、森と<line-break>　　　穏やかな日常くらいのものだった。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
+EN: "The vast Vyashion Continent. So immense is it that there is a tiny village marked on no map and unknown even to travelers… Its name is Miis. There was little there beyond a small temple, a forest, and the quiet passage of everyday life. The story of a great soul begins here…<end>"
+KO: "광대한 대지 바이아시온 대륙. 너무나 넓어 지도에도 기록되지 않고 여행자에게조차 알려지지 않은 작은 마을이 있다…. 마을의 이름은 미이스. 그곳에는 작은 신전과 숲, 그리고 평온한 일상 정도뿐이었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
 
-## 200090
-source: translations/korean/messages/msgsec020-part97.toml
+## 210066
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "隊列を変更<end>"
-EN: "Change Formation<end>"
-KO: "진형 변경<end>"
+JP: "　　　　　北の大都市、エンシャント。<line-break>　　　広大な大地、バイアシオン大陸の<line-break>　北半分を支配し、南のロストールと対立する<line-break>　　　　ディンガル帝国の首都である。<line-break>　　　　その、にぎやかな街の外れに、<line-break>　　ひっそりとたたずむ、禁忌の塔がある。<line-break>　　今そこで、目覚めようとする者が居た。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
+EN: "Ancient, the great city of the north. It is the capital of the Dyneskal Empire, which rules the northern half of the vast Vyashion Continent and stands opposed to Rostorl in the south. On the outskirts of that bustling city stands a forbidden tower, silent and secluded. And now, someone within was about to awaken. The story of a great soul begins here…<end>"
+KO: "북쪽의 대도시 엔샨트. 광대한 바이아시온 대륙 북반부를 지배하며 남쪽의 로스톨과 대립하는 딩갈 제국의 수도다. 그 번화한 거리 변두리에 조용히 서 있는 금기의 탑이 있다. 지금 그곳에서 깨어나려는 자가 있었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
 
-## 200091
-source: translations/korean/messages/msgsec020-part97.toml
+## 210067
+source: translations/korean/messages/msgsec021-part99.toml
 jp_matches_pinned_english: yes
-JP: "キャラクターを選択<end>"
-EN: "Select Character<end>"
-KO: "캐릭터 선택<end>"
+JP: "ダミーメッセージここまで<end>"
+EN: ""
+KO: "더미 메시지 여기까지<end>"
 
-## 200093
-source: translations/korean/messages/msgsec020-part97.toml
+## 220000
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "眠り５０％回避<end>"
-EN: "50% chance to avoid Sleep<end>"
-KO: "수면 50% 회피<end>"
+JP: "どうやら、この<value:$15>は、<line-break><value:$16>に潜んでいるらしい。<end>"
+EN: "Apparently, this <value:$15> is lurking in <value:$16>.<end>"
+KO: "아무래도 이 <value:$15>은 <value:$16>에 숨어 있는 모양이다.<end>"
 
-## 200094
-source: translations/korean/messages/msgsec020-part97.toml
+## 220001
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "マヒ５０％回避<end>"
-EN: "50% chance to avoid Paralysis<end>"
-KO: "마비 50% 회피<end>"
+JP: "モンスターによる被害が多発しているが、<line-break>エンシャント周辺でも同様の報告があった。<line-break>報告にあった<value:$15>は、人身に被害を<line-break>与え、耕作地を荒らし、放置しかねるとのこと。<line-break>よってここに討伐令を布告するものである。<line-break>期限は、<value:$1B>日以内。見事退治せし者には、<line-break><value:$1A>ギアの賞金を与える。<end>"
+EN: "Reports from Ancient say attacks by <value:$15> have injured people and ravaged farmland. This threat cannot be ignored. An official extermination order is hereby issued. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "몬스터로 인한 피해가 잇따르는 가운데 엔샨트 주변에서도 같은 보고가 들어왔다. 보고된 <value:$15>는 사람에게 피해를 주고 경작지를 황폐화시켜 방치할 수 없다고 한다. 이에 토벌령을 내린다. 기한은 <value:$1B>일 이내. 훌륭히 퇴치한 자에게는 <value:$1A>기어의 상금을 지급한다.<end>"
 
-## 200095
-source: translations/korean/messages/msgsec020-part97.toml
+## 220002
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "石化５０％回避<end>"
-EN: "50% chance to avoid Petrification<end>"
-KO: "석화 50% 회피<end>"
+JP: "街の周辺に<value:$15>が出没するように<line-break>なりました。あまりに狂暴なので、私たちは<line-break>外出するにもおびえながら歩くありさまです。<line-break>そこで、退治してくださる強い方を募集します。<line-break>やっていただけるのなら<value:$1A>ギアを<line-break>進呈しましょう。<line-break><value:$1B>日以内にやりとげてください。<end>"
+EN: "<value:$15> has begun appearing near town. It is so vicious that we are afraid whenever we venture outside. We seek someone strong enough to defeat it. Reward: <value:$1A> Gea. Please complete the job within <value:$1B> days.<end>"
+KO: "도시 주변에 <value:$15>이 출몰하기 시작했습니다. 너무 흉폭해서 저희는 밖에 나갈 때조차 겁에 질려 걸어 다니는 형편입니다. 그래서 퇴치해 주실 강한 분을 모집합니다. 해 주신다면 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 완수해 주세요.<end>"
 
-## 200096
-source: translations/korean/messages/msgsec020-part97.toml
+## 220003
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "暗闇５０％回避<end>"
-EN: "50% chance to avoid Blindness<end>"
-KO: "암흑 50% 회피<end>"
+JP: "我々の研究を阻害する存在がある。<line-break><value:$15>だ。あのモンスターが我々の<line-break>集中力を奪っているのだ。退治する必要がある。<line-break><value:$15>を退治せよ。<line-break>条件として、<value:$1A>ギアの報酬、<line-break><value:$1B>日以内の期限をつける。<end>"
+EN: "Something is interfering with our research: <value:$15>. That monster is ruining our concentration and must be dealt with. Eliminate <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "우리 연구를 방해하는 존재가 있다. <value:$15>이다. 그 몬스터가 우리의 집중력을 빼앗고 있다. 퇴치할 필요가 있다. <value:$15>을 퇴치하라. 조건은 보수 <value:$1A>기어, 기한 <value:$1B>일 이내다.<end>"
 
-## 200097
-source: translations/korean/messages/msgsec020-part97.toml
+## 220004
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "混乱５０％回避<end>"
-EN: "50% chance to avoid Confusion<end>"
-KO: "혼란 50% 회피<end>"
+JP: "みなさまのごひいきのおかげで、<line-break>私どもはたいへん繁盛しております。<line-break>ところが、<value:$15>が現れて、<line-break>材料を採りにくくなってしまいました。<line-break>これでは思うように商売ができません。<line-break>お願いです。<value:$1B>日以内に退治してください。<line-break>報酬は<value:$1A>ギアです。<end>"
+EN: "Thanks to your continued patronage, our business is thriving. Unfortunately, the appearance of <value:$15> has made it difficult to gather materials, and we cannot conduct business as we would like. Please defeat it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "여러분의 성원 덕분에 저희는 크게 번창하고 있습니다. 그런데 <value:$15>이 나타나 재료를 채취하기 어려워졌습니다. 이래서는 장사를 제대로 할 수 없습니다. 부탁드립니다. <value:$1B>일 이내에 퇴치해 주세요. 보수는 <value:$1A>기어입니다.<end>"
 
-## 200098
-source: translations/korean/messages/msgsec020-part97.toml
+## 220005
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "幻覚５０％回避<end>"
-EN: "50% chance to avoid Hallucination<end>"
-KO: "환각 50% 회피<end>"
+JP: "いつも世話になってるな。<line-break>最近、採鉱場に<value:$15>が出るように<line-break>なったんで、仕事に影響がでてきている。<line-break>こいつを倒してほしいんだ。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に退治してくれ。<end>"
+EN: "Thanks for all your help. Lately, <value:$15> has been showing up at the mine and interfering with our work. I want you to take it down. Reward: <value:$1A> Gea. Finish it within <value:$1B> days.<end>"
+KO: "늘 신세지고 있어. 요즘 채굴장에 <value:$15>가 나타나서 일에 지장이 생겼어. 이 녀석을 쓰러뜨려 줘. 사례는 <value:$1A>기어. <value:$1B>일 이내에 퇴치해 줘.<end>"
 
-## 200099
-source: translations/korean/messages/msgsec020-part97.toml
+## 220006
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "毒５０％回避<end>"
-EN: "50% chance to avoid Poison<end>"
-KO: "독 50% 회피<end>"
+JP: "闇の影響を受けて、<value:$15>が凶暴化<line-break>しているようです。このまま放っておいては、<line-break>危険が増すばかりです。<value:$1B>日以内に退治し、<line-break>危険を取りのぞいてください。<line-break><value:$1A>ギアを寸志として進呈しましょう。<line-break>勇敢なる冒険者の魂に、<line-break>神のご加護のあらんことを。<end>"
+EN: "Darkness has driven <value:$15> into a frenzy. The danger will only grow if ignored. Defeat the threat within <value:$1B> days. We offer <value:$1A> Gea as a modest token. May divine protection be upon every brave adventurer.<end>"
+KO: "어둠의 영향을 받아 <value:$15>이 흉폭해진 것 같습니다. 이대로 내버려 두면 위험만 커질 뿐입니다. <value:$1B>일 이내에 퇴치해 위험을 없애 주세요. 사례로 <value:$1A>기어를 드리겠습니다. 용감한 모험가의 영혼에 신의 가호가 있기를.<end>"
 
-## 200100
-source: translations/korean/messages/msgsec020-part97.toml
+## 220007
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "沈黙５０％回避<end>"
-EN: "50% chance to avoid Silence<end>"
-KO: "침묵 50% 회피<end>"
+JP: "我が宿には巡礼の方が大勢いらっしゃいます。<line-break>その巡礼者の方が、道中モンスターに<line-break>襲われることが多いとか。我々としては<line-break>憂慮すべき事態と言えます。<line-break>道中に出る<value:$15>を<line-break>退治してください。お礼は<value:$1A>ギア。<line-break>期限は<value:$1B>日以内です。<end>"
+EN: "Many pilgrims stay at our inn, and we hear that pilgrims are often attacked by monsters on the road. This is a matter of grave concern to us. Please defeat <value:$15>, which appears along the route. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "우리 숙소에는 순례자분들이 많이 묵습니다. 그런데 그분들이 길에서 몬스터에게 습격당하는 일이 많다고 합니다. 저희로서도 걱정스러운 일이지요. 길에 나타나는 <value:$15>을 퇴치해 주세요. 사례는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200101
-source: translations/korean/messages/msgsec020-part97.toml
+## 220008
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "呪い５０％回避<end>"
-EN: "50% chance to avoid Curse<end>"
-KO: "저주 50% 회피<end>"
+JP: "最近、仲間内で声の不調を訴える者が<line-break>多くおります。彼らはのどを傷めています。<line-break>原因を探ると、<value:$15>が悪い空気を<line-break>流しているからだと判明しました。<line-break>モンスターの退治をお願いします。<line-break><value:$1A>ギアのお礼をいたします。<line-break><value:$1B>日以内でお願いします。<end>"
+EN: "Many among our company have recently complained of voice trouble and sore throats. We investigated and discovered that <value:$15> is fouling the air. Please defeat the monster. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "최근 동료들 중 목 상태가 좋지 않다고 호소하는 이가 많습니다. 목을 다친 것이지요. 원인을 알아보니 <value:$15>이 나쁜 공기를 퍼뜨리기 때문이었습니다. 몬스터 퇴치를 부탁드립니다. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내로 부탁합니다.<end>"
 
-## 200102
-source: translations/korean/messages/msgsec020-part97.toml
+## 220009
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "速度低下５０％回避<end>"
-EN: "50% chance to avoid reduced Speed<end>"
-KO: "속도 저하 50% 회피<end>"
+JP: "私たちの奥方連中はよく連れ立って<line-break>街の外まで遊びに行くのだ。<line-break>だが、ここのところ<value:$15>が出るので<line-break>危なくて遊びに行けないと言っておる。<line-break><value:$15>を退治してくれ。<line-break>褒美は<value:$1A>ギアである。<line-break><value:$1B>日以内に退治してほしい。<end>"
+EN: "Our wives often go out together beyond town for leisure. Lately, however, they say it is too dangerous because <value:$15> has been appearing. Eliminate <value:$15>. Reward: <value:$1A> Gea. Complete the hunt within <value:$1B> days.<end>"
+KO: "우리 아내들은 자주 함께 거리 밖까지 놀러 간다. 하지만 요즘 <value:$15>이 나타나 위험해서 나갈 수 없다고 하는군. <value:$15>을 퇴치해 줘. 포상은 <value:$1A>기어다. <value:$1B>일 이내에 처리해 주게.<end>"
 
-## 200103
-source: translations/korean/messages/msgsec020-part97.toml
+## 220010
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "死の呪い５０％回避<end>"
-EN: "50% chance to avoid Death Curse<end>"
-KO: "죽음의 저주 50% 회피<end>"
+JP: "<value:$15>が街の周辺に出没するように<line-break>なりました。たいへん凶暴で、人を見ると<line-break>襲ってきます。私たちにはどうしようも<line-break>ありません。強い冒険者の方にお願いします。<line-break>あいつを倒してください。<line-break><value:$1A>ギアご用意しました。<line-break><value:$1B>日以内にお願いします。<end>"
+EN: "<value:$15> has begun appearing around town. It is extremely vicious and attacks anyone it sees. We are powerless against it, so we appeal to a strong adventurer: please defeat it. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "<value:$15>이 도시 주변에 출몰하기 시작했습니다. 매우 흉폭해서 사람을 보면 덤벼듭니다. 저희 힘으로는 어찌할 수 없습니다. 강한 모험가분께 부탁드립니다. 저놈을 쓰러뜨려 주세요. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
 
-## 200104
-source: translations/korean/messages/msgsec020-part97.toml
+## 220011
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＨＰ５％回復／ターン<end>"
-EN: "Restores 5% ＨＰ per turn<end>"
-KO: "턴당 HP 5% 회복<end>"
+JP: "このごろ村の近くに<value:$15>がよく出て<line-break>くるんで、わしら困っとるんじゃ。こないだも<line-break>村の者が危うくケガをするところじゃった。<line-break>あんたがたにお願いするよ。<line-break>みんなで金を出しあって<line-break><value:$1A>ギア用意したんじゃ。<line-break><value:$1B>日以内に化け物を倒してくれんか。<end>"
+EN: "<value:$15> has been showing up near our village, and we don't know what to do. Just the other day, one of the villagers was nearly hurt. We're asking for your help. Everyone pooled money to offer <value:$1A> Gea. Could you defeat the monster within <value:$1B> days?<end>"
+KO: "요즘 마을 근처에 <value:$15>이 자주 나타나서 우리가 곤란하네. 얼마 전에도 마을 사람이 다칠 뻔했지. 자네들에게 부탁하네. 다 같이 돈을 모아 <value:$1A>기어를 마련했어. <value:$1B>일 이내에 괴물을 쓰러뜨려 주겠나.<end>"
 
-## 200105
-source: translations/korean/messages/msgsec020-part97.toml
+## 220012
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＭＰ３％回復／ターン<end>"
-EN: "Restores 3% ＭＰ per turn<end>"
-KO: "턴당 MP 3% 회복<end>"
+JP: "毎度お世話になっております。<line-break><value:$15>が現れるようになって、<line-break>他の街から仕入れをするのが<line-break>非常に難しくなっています。<line-break>どうかあいつを退治していただけませんか。<line-break>当方としては<value:$1A>ギア用意できます。<line-break><value:$1B>日以内で、ぜひお願いいたします。<end>"
+EN: "Thank you for your continued support. Since <value:$15> began appearing, obtaining goods from other towns has become extremely difficult. Would you kindly eliminate it? We can offer <value:$1A> Gea. Please complete the job within <value:$1B> days.<end>"
+KO: "늘 신세지고 있습니다. <value:$15>이 나타나기 시작하면서 다른 도시에서 물건을 들여오는 일이 매우 어려워졌습니다. 부디 저 녀석을 퇴치해 주시겠습니까. 저희는 <value:$1A>기어를 준비할 수 있습니다. <value:$1B>일 이내로 꼭 부탁드립니다.<end>"
 
-## 200106
-source: translations/korean/messages/msgsec020-part97.toml
+## 220013
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "戦闘不能時に復活する<end>"
-EN: "Revives when incapacitated<end>"
-KO: "전투 불능 시 부활<end>"
+JP: "お前さんたちには格好の仕事だ。<line-break>頼みたいのは<value:$15>の退治だ。<line-break><value:$1A>ギア用意したから、<line-break><value:$1B>日以内で頼むぜ。<line-break>俺たちが材料集めしてるとこいつが襲ってきやが<line-break>るんだ。おかげで商売あがったりさ。お前さんた<line-break>ちが倒してくれりゃまたいい仕事ができるぜ。<end>"
+EN: "Here's a perfect job for you: eliminate <value:$15>. I've got <value:$1A> Gea for you if you finish within <value:$1B> days. The blasted thing attacks us whenever we're out gathering materials. It's ruining our business. Take it down, and we can get back to doing good work.<end>"
+KO: "너희한테 딱 맞는 일이야. 부탁할 건 <value:$15> 퇴치다. <value:$1A>기어를 준비했으니 <value:$1B>일 이내로 부탁해. 우리가 재료를 모으고 있으면 이놈이 덤벼들어서 장사를 망치고 있거든. 너희가 쓰러뜨려 주면 다시 제대로 일할 수 있어.<end>"
 
-## 200107
-source: translations/korean/messages/msgsec020-part97.toml
+## 220014
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "気絶時にＭＰ全回復<end>"
-EN: "Fully restores ＭＰ when stunned<end>"
-KO: "기절 시 MP 전부 회복<end>"
+JP: "最近、<value:$15>が出てましてね。<line-break>うちのお客さんが酔っ払ってうろついてて、<line-break>えらい目にあったらしいんですよ。<line-break>そのお客さん、あいつがいなくならないと落ち着<line-break>いて酒も飲めないって、ぐちってまして…。<line-break><value:$1A>ギア出しますから、<line-break><value:$1B>日以内にあいつを退治してください。<end>"
+EN: "There have been sightings of <value:$15> nearby. A drunken customer had a terrible encounter and now cannot relax over a drink until the threat is gone... I'll pay <value:$1A> Gea if you defeat it within <value:$1B> days.<end>"
+KO: "요즘 <value:$15>이 나타나서 말이죠. 우리 손님이 술에 취해 돌아다니다가 큰일을 당했다더군요. 그 손님이 저놈이 없어지지 않으면 마음 놓고 술도 못 마시겠다며 투덜대고 있어서…. <value:$1A>기어를 드릴 테니 <value:$1B>일 이내에 저놈을 퇴치해 주세요.<end>"
 
-## 200108
-source: translations/korean/messages/msgsec020-part97.toml
+## 220015
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "クリティカル率５０％<end>"
-EN: "50% critical hit rate<end>"
-KO: "치명타 확률 50%<end>"
+JP: "一般の旅行者にとっては、<line-break>旅は安全でなければなりません。しかし、<line-break>このところ<value:$15>が旅行者を襲うよう<line-break>になりました。私どもといたしましてはこれは<line-break>放置できません。冒険者の方々にお願いします。<line-break>退治してください。<value:$1A>ギアの報酬で、<line-break><value:$1B>日以内の期限です。<end>"
+EN: "Travel must be safe for ordinary travelers. Recently, however, <value:$15> has begun attacking people on the road. We cannot let this continue. Adventurers, please eliminate the threat. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "일반 여행객에게 여행은 안전해야 합니다. 하지만 요즘 <value:$15>이 여행객을 습격하기 시작했습니다. 저희로서는 이를 방치할 수 없습니다. 모험가 여러분께 부탁드립니다. 퇴치해 주세요. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200109
-source: translations/korean/messages/msgsec020-part97.toml
+## 220016
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "アイテムを選択<end>"
-EN: "Select an Item<end>"
-KO: "아이템 선택<end>"
+JP: "この街では冒険者はそれほどたたえられて<line-break>いません。冒険者の活躍が知られていない<line-break>からです。<line-break>町の近くの<value:$15>を倒してください。<line-break><value:$1A>ギアさしあげます。<line-break><value:$1B>日以内にお願いします。<line-break>あなた方の活躍を、私が歌にして広めましょう。<end>"
+EN: "Adventurers receive little acclaim in this town because their exploits are not widely known. Defeat <value:$15> near town within <value:$1B> days, and I will pay <value:$1A> Gea. I shall spread word of your deeds in song.<end>"
+KO: "이 도시에서는 모험자가 그다지 칭송받지 못합니다. 모험자의 활약이 알려져 있지 않기 때문이지요. 도시 근처의 <value:$15>을 쓰러뜨려 주세요. <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드립니다. 여러분의 활약은 제가 노래로 만들어 널리 알리겠습니다.<end>"
 
-## 200110
-source: translations/korean/messages/msgsec020-part97.toml
+## 220017
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "捨てる装備品を選択<end>"
-EN: "Select Equipment to Discard<end>"
-KO: "버릴 장비 선택<end>"
+JP: "他の街からの訪問者を迎えるのは、うれしい<line-break>ことだ。私はよく館に客を招待する。ところが<line-break>ひとつ問題がある。道中に<value:$15>が<line-break>現れるらしいのだ。<line-break>そなたらに頼みたい。モンスターを排除して<line-break>くれんか。褒美として<value:$1A>ギアとらそう。<line-break><value:$1B>日以内に頼むぞ。<end>"
+EN: "I often welcome visitors from other towns to my manor, but there have been sightings of <value:$15> along the route. Remove this threat and I shall grant you <value:$1A> Gea. Complete the task within <value:$1B> days.<end>"
+KO: "다른 도시에서 찾아오는 손님을 맞는 건 기쁜 일이다. 나는 자주 저택에 손님을 초대하지. 그런데 한 가지 문제가 있다. 길에 <value:$15>이 나타난다는군. 그대들에게 부탁하고 싶다. 몬스터를 제거해 주지 않겠는가. 포상으로 <value:$1A>기어를 내리겠다. <value:$1B>일 이내에 부탁한다.<end>"
 
-## 200111
-source: translations/korean/messages/msgsec020-part97.toml
+## 220018
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "イベントアイテムを選択<end>"
-EN: "Select an Event Item<end>"
-KO: "이벤트 아이템 선택<end>"
+JP: "<value:$15>が出没しています。<line-break>今のところ被害にあった人はいません。<line-break>しかし、このままでは遠からず傷つけられる人が<line-break>でてくるでしょう。<line-break>そうなる前にモンスターを成敗してください。<line-break><value:$1A>ギアを用立てました。<line-break><value:$1B>日以内に終わらせてください。<end>"
+EN: "<value:$15> has been sighted. No one has been harmed yet, but it will not be long before someone is injured if nothing is done. Defeat the monster before that happens. We have secured a reward of <value:$1A> Gea. Finish the job within <value:$1B> days.<end>"
+KO: "<value:$15>이 출몰하고 있습니다. 아직 피해를 입은 사람은 없습니다. 하지만 이대로라면 머지않아 다치는 사람이 생길 것입니다. 그러기 전에 몬스터를 처치해 주세요. <value:$1A>기어를 마련했습니다. <value:$1B>일 이내에 끝내 주세요.<end>"
 
-## 200112
-source: translations/korean/messages/msgsec020-part97.toml
+## 220019
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "並べ方を選択<end>"
-EN: "Choose a Sort Order<end>"
-KO: "정렬 방식 선택<end>"
+JP: "おいらたちの畑を荒らす奴がいる。<line-break><value:$15>っていうんだ。<line-break>とてもおっかねえ奴で、おいらたちには<line-break>どうしようもないんだ。<line-break>あのモンスターを倒してくれ。<line-break>少ないけど、<value:$1A>ギア用意したぜ。<line-break><value:$1B>日以内に退治するように頼むよ。<end>"
+EN: "Something is tearing up our fields. It's called <value:$15>, and it's far too frightening for us to handle. Please defeat that monster. It isn't much, but we've put together <value:$1A> Gea. We need it done within <value:$1B> days.<end>"
+KO: "우리 밭을 망치는 녀석이 있어. <value:$15>이라는 놈인데 정말 무서운 녀석이라 우리 힘으로는 어쩔 수가 없어. 그 몬스터를 쓰러뜨려 줘. 적지만 <value:$1A>기어를 준비했어. <value:$1B>일 이내에 퇴치해 줘.<end>"
 
-## 200113
-source: translations/korean/messages/msgsec020-part99.toml
+## 220020
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "種類順<end>"
-EN: "By Type<end>"
-KO: "종류순<end>"
+JP: "近頃暴れてる<value:$15>のおかげで、<line-break>材料の仕入れに苦労しています。<line-break><value:$15>退治を依頼します。<line-break><value:$1A>ギア出します。<line-break><value:$1B>日以内にお願いします。<end>"
+EN: "The recent rampages of <value:$15> are making it difficult to procure materials. We request the elimination of <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "요즘 날뛰는 <value:$15> 때문에, 재료를 들여오는 데 애를 먹고 있습니다.<value:$15> 퇴치를 의뢰합니다.<value:$1A> 기어를 드리겠습니다.<value:$1B>일 이내로 부탁합니다.<end>"
 
-## 200114
-source: translations/korean/messages/msgsec020-part99.toml
+## 220021
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "多い順<end>"
-EN: "Most First<end>"
-KO: "많은순<end>"
+JP: "頼みたいのは<value:$15>の退治。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内。<line-break>モンスターのせいで仕事に支障が出てるんでな。<line-break>腕の立つ冒険者に任せる。<line-break>よろしく頼むぞ。<end>"
+EN: "Job: eliminate <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days. The monster is disrupting our work, so I'm leaving this to a capable adventurer. I'm counting on you.<end>"
+KO: "부탁할 건 <value:$15> 퇴치다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내. 몬스터 때문에 일에 지장이 생겨서 말이야. 실력 있는 모험가에게 맡기지. 부탁한다.<end>"
 
-## 200115
-source: translations/korean/messages/msgsec020-part97.toml
+## 220022
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "少ない順<end>"
-EN: "Fewest First<end>"
-KO: "적은 순<end>"
+JP: "たいていの酒場では、客寄せのために吟遊詩人に<line-break>来てもらってるよ。<line-break>異国の珍しい歌や曲にお客さんは大喜びさ。<line-break>でもね、最近<value:$15>が出るもんで、<line-break>街に寄ってくれないことがあるんだ。<line-break>これじゃ困るんで、追い払ってほしいんだ。<line-break>お礼は<value:$1A>ギア。<value:$1B>日以内に頼むよ。<end>"
+EN: "Taverns hire bards to draw crowds with songs from foreign lands. Lately, the presence of <value:$15> has kept some from visiting town. Please drive the threat away. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "대부분의 술집은 손님을 끌려고 음유시인을 부르지. 이국의 진귀한 노래와 연주에 손님들이 아주 좋아해. 그런데 요즘 <value:$15>이 나타나는 바람에 도시로 들르지 않는 경우가 있어. 이래선 곤란하니 쫓아내 줬으면 해. 사례는 <value:$1A>기어. <value:$1B>일 이내에 부탁해.<end>"
 
-## 200116
-source: translations/korean/messages/msgsec020-part99.toml
+## 220023
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "自分で<end>"
-EN: "Manual<end>"
-KO: "직접<end>"
+JP: "毎度ご利用ありがとうございます。今回みなさま<line-break>にお願いしたいのは、旅行者の道中の安全確保で<line-break>す。旅行者の方は、みなさまのようにお強い方ば<line-break>かりではありません。危険は、あらかじめ取りの<line-break>ぞいておきたいのです。退治して欲しいのは、<line-break><value:$15>です。お礼は<value:$1A>ギア<line-break>です。<value:$1B>日以内にお願いします。<end>"
+EN: "Thank you for your continued patronage. This request concerns the safety of travelers on the road. Not every traveler is as strong as you, so we wish to remove known dangers in advance. Please eliminate <value:$15> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "늘 이용해 주셔서 감사합니다. 이번에 부탁드릴 일은 여행자들의 길 안전을 확보하는 것입니다. 여행자들이 모두 여러분처럼 강한 것은 아니니까요. 위험은 미리 제거하고 싶습니다. 퇴치 대상은 <value:$15>입니다. 사례는 <value:$1A>기어이며 <value:$1B>일 이내에 부탁드립니다.<end>"
 
-## 200117
-source: translations/korean/messages/msgsec020-part99.toml
+## 220024
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "使う<end>"
-EN: "Use<end>"
-KO: "사용<end>"
+JP: "このごろ私たちの歌声が通りにくくなりました。<line-break>空気に邪気が含まれてきたせいです。<line-break>原因は、少し前から現れるようになった<line-break><value:$15>です。<line-break>この者の退治を依頼します。<line-break>謝礼として用意できるのは<value:$1A>ギアです。<line-break>期限は<value:$1B>日以内でお願いします。<end>"
+EN: "Our voices have not been carrying well of late because a malign presence has tainted the air. The cause is <value:$15>, which began appearing some time ago. We request its elimination. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "요즘 저희 노랫소리가 잘 퍼지지 않게 됐습니다. 공기에 사기가 섞이기 시작한 탓입니다. 원인은 얼마 전부터 나타난 <value:$15>입니다. 이 자의 퇴치를 의뢰합니다. 사례로 마련할 수 있는 것은 <value:$1A>기어입니다. 기한은 <value:$1B>일 이내로 부탁드립니다.<end>"
 
-## 200118
-source: translations/korean/messages/msgsec020-part99.toml
+## 220025
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "捨てる<end>"
-EN: "Discard<end>"
-KO: "버리기<end>"
+JP: "人や物の移動が自由であるのは商売にとって大切<line-break>です。しかしこのごろ現れる<value:$15>が<line-break>通行の邪魔をするので、商売に悪い影響が出て<line-break>います。勇敢なる冒険者の方々に、倒して<line-break>いただきたいのです。<line-break><value:$1A>ギアを用意しました。<line-break><value:$1B>日以内の解決を望みます。<end>"
+EN: "The free movement of people and goods is vital to commerce. Recently, <value:$15> has been obstructing travel and harming our business. We ask brave adventurers to defeat it. Reward: <value:$1A> Gea. We seek a resolution within <value:$1B> days.<end>"
+KO: "사람과 물자의 이동이 자유로운 것은 장사에 중요합니다. 하지만 요즘 나타나는 <value:$15>이 통행을 방해해 상업에 악영향을 주고 있습니다. 용감한 모험가 여러분께서 쓰러뜨려 주셨으면 합니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 해결해 주시기 바랍니다.<end>"
 
-## 200119
-source: translations/korean/messages/msgsec020-part99.toml
+## 220026
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "ソート<end>"
-EN: "Sort<end>"
-KO: "정렬<end>"
+JP: "近頃、村の近くに<value:$15>が出るのよ。<line-break>私たちは恐くて夜も眠れないわ。<line-break><value:$15>を倒して、<line-break>村の近くから追い払って。<line-break>多くないけど<value:$1A>ギアなら用意できるわ。<line-break><value:$1B>日以内にお願いね。<end>"
+EN: "<value:$15> has been appearing near the village lately. We're so frightened that we can't even sleep at night. Defeat <value:$15> and drive it away from the village. We don't have much, but we can offer <value:$1A> Gea. Please do it within <value:$1B> days.<end>"
+KO: "요즘 마을 근처에 <value:$15>가 나타나. 무서워서 밤에도 잠을 못 자겠어. <value:$15>를 쓰러뜨려 마을 근처에서 쫓아내 줘. 많진 않지만 <value:$1A>기어라면 준비할 수 있어. <value:$1B>일 이내에 부탁해.<end>"
 
-## 200120
-source: translations/korean/messages/msgsec020-part99.toml
+## 220027
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "捨てる<end>"
-EN: "Discard<end>"
-KO: "버리기<end>"
+JP: "冒険者の方々に依頼したいことがございます。<line-break><value:$15>の退治です。<line-break>お礼は<value:$1A>ギア、<line-break>期間は<value:$1B>日以内でどうでしょうか。<line-break>街の外に出ると<value:$15>が襲ってくる<line-break>ので、思うように仕事がはかどらないのです。<end>"
+EN: "We have a request for adventurers: eliminate <value:$15>. We offer <value:$1A> Gea, with a deadline of <value:$1B> days. Whenever we leave town, <value:$15> attacks us, making it impossible to get our work done.<end>"
+KO: "모험자 여러분께 부탁드릴 일이 있습니다. <value:$15> 퇴치입니다. 사례는 <value:$1A>기어, 기간은 <value:$1B>일 이내면 어떨까요. 마을 밖에 나가면 <value:$15>이 습격해 와서 일이 뜻대로 진척되지 않습니다.<end>"
 
-## 200121
-source: translations/korean/messages/msgsec020-part97.toml
+## 220028
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "メッセージを表示する速さ設定<end>"
-EN: "Set Message Display Speed<end>"
-KO: "메시지 표시 속도 설정<end>"
+JP: "闘技場で戦う戦士にゃ武器は重要だからな。<line-break>俺たちもはりきって仕事をしてるんだ。<line-break>けどよ、材料をとりに街の外に出ると<line-break><value:$15>が邪魔しやがる。<line-break>こいつを倒してくれないか。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内が期限だぜ。<end>"
+EN: "Weapons are essential to the warriors who fight in the arena, so we put our hearts into our work. But whenever we leave town to gather materials, <value:$15> gets in our way. Will you take it down? Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "투기장에서 싸우는 전사에겐 무기가 중요하니까 우리도 힘내서 일하고 있어. 그런데 재료를 구하러 마을 밖에 나가면 <value:$15>이 방해해. 이놈 좀 쓰러뜨려 줘. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내야.<end>"
 
-## 200122
-source: translations/korean/messages/msgsec020-part97.toml
+## 220029
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "インストールのＯＮ／ＯＦＦ設定<end>"
-EN: "Turn installation ＯＮ／ＯＦＦ<end>"
-KO: "설치 기능 ON/OFF 설정<end>"
+JP: "闘技場の戦士さんたちのいこいの場だからね。<line-break>とびっきりうまい酒を用意してるよ。うちらは<line-break>遠くまで出かけていい水を運んでくるんだよ。<line-break>最近そこに<value:$15>が現れてさ。<line-break>なかなか水を取りに行けなくなったんだ。<line-break><value:$1A>ギアを払うから、<line-break><value:$1B>日以内にあいつを退治しておくれよ。<end>"
+EN: "Arena warriors come here to unwind, so we serve the finest liquor. We fetch its water from far away, but the presence of <value:$15> now keeps us from collecting it. Defeat the threat within <value:$1B> days for <value:$1A> Gea.<end>"
+KO: "투기장 전사들의 휴식처니까 말이야. 끝내주게 맛있는 술을 준비하고 있어. 우리는 멀리까지 나가 좋은 물을 길어 오는데, 최근 거기에 <value:$15>이 나타났어. 물을 가지러 가기 어려워졌지. <value:$1A>기어를 줄 테니 <value:$1B>일 이내에 저놈을 퇴치해 줘.<end>"
 
-## 200123
-source: translations/korean/messages/msgsec020-part97.toml
+## 220030
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "サウンドのステレオ／モノラル設定<end>"
-EN: "Set Sound to Stereo or Mono<end>"
-KO: "사운드 스테레오/모노 설정<end>"
+JP: "全世界に広がるフゴー宿屋の本店ですから、誇り<line-break>を持ってみなさまをお迎えします。と言いたいの<line-break>ですが、最近街の近くに<value:$15>が出て<line-break>旅行者の方に危害を加えます。<line-break>これではどうぞお越しくださいとは申せません。<line-break><value:$1A>ギアであなた方に退治を依頼します。<line-break><value:$1B>日以内によろしくお願いします。<end>"
+EN: "As the worldwide main branch of Hugo Inn, we take pride in welcoming guests. But attacks by <value:$15> endanger travelers near town, so we can hardly invite anyone to visit. Eliminate the threat within <value:$1B> days for <value:$1A> Gea.<end>"
+KO: "전 세계에 퍼진 휴고 여관의 본점인 만큼 자부심을 가지고 여러분을 맞이하고 싶습니다. 하지만 최근 도시 근처에 <value:$15>가 나타나 여행객들을 해치고 있습니다. 이래서는 편히 찾아와 달라고 말씀드릴 수가 없군요. <value:$1A>기어에 퇴치를 의뢰합니다. <value:$1B>일 이내에 부탁드립니다.<end>"
 
-## 200124
-source: translations/korean/messages/msgsec020-part97.toml
+## 220031
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＢＧＭの音量調節<end>"
-EN: "Adjust ＢＧＭ Volume<end>"
-KO: "BGM 음량 조절<end>"
+JP: "街の近くに住みついている<value:$15>を<line-break>退治してほしい。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内に排除してほしい。<end>"
+EN: "Eliminate <value:$15>, which has settled near town. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "마을 근처에 눌러앉은 <value:$15>을 퇴치해 주길 바란다. 보수는 <value:$1A>기어. <value:$1B>일 안에 제거해 줘.<end>"
 
-## 200125
-source: translations/korean/messages/msgsec020-part97.toml
+## 220032
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＳＥの音量調節<end>"
-EN: "Adjust ＳＥ Volume<end>"
-KO: "효과음 음량 조절<end>"
+JP: "英雄の歌を作るのを競い合っています。<line-break>現在は題材を探している所です。<line-break>どなたかモンスター退治を<line-break>してくださいませんか。<line-break>最近話題の<value:$15>を倒してください。<line-break><value:$1A>ギアお支払いします。<line-break><value:$1B>日以内にお願いします。<end>"
+EN: "We are competing to compose songs about heroes and are currently searching for subjects. Would someone undertake a monster hunt? Defeat the much-discussed <value:$15> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "영웅의 노래 만들기를 겨루고 있습니다. 지금은 소재를 찾는 중입니다. 누군가 몬스터를 퇴치해 주시겠습니까? 요즘 화제인 <value:$15>을 쓰러뜨려 주세요. <value:$1A>기어를 드리겠습니다. <value:$1B>일 안에 부탁합니다.<end>"
 
-## 200126
-source: translations/korean/messages/msgsec020-part97.toml
+## 220033
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "画面の位置と明るさ調節<end>"
-EN: "Adjust Screen Position and Brightness<end>"
-KO: "화면 위치와 밝기 조절<end>"
+JP: "　　　　　　　告<line-break>狂暴なモンスターが人民を傷つけている。<line-break>市井の勇者よ、モンスターに正義の鉄槌を<line-break>下してくれたまえ。<line-break>対象：<value:$15><line-break>期間：<value:$1B>日以内<line-break>報酬：<value:$1A>ギア<end>"
+EN: "NOTICE: A vicious monster is harming the people. Heroes from among the citizenry, bring down the hammer of justice upon it. Target: <value:$15>. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "고시. 흉포한 몬스터가 백성을 해치고 있다. 시정의 용사여, 몬스터에게 정의의 철퇴를 내려 주게. 대상: <value:$15> 기간: <value:$1B>일 이내 보수: <value:$1A>기어<end>"
 
-## 200127
-source: translations/korean/messages/msgsec020-part97.toml
+## 220034
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "設定を反映して完了<end>"
-EN: "Apply settings and finish<end>"
-KO: "설정을 적용하고 완료<end>"
+JP: "子供たちは街の外が好きでしてね。<line-break>しょっちゅう飛び回ってるんですよ。<line-break>でも最近、街の外には<line-break><value:$15>が出るんですよ。<line-break>いつモンスターが子供たちを襲うか心配です。<line-break><value:$1A>ギアさしあげますから、<line-break><value:$1B>日以内にあいつを倒してください。<end>"
+EN: "The children love being outside town and are always running about. But <value:$15> has been appearing there lately, and we fear it may attack them. We offer <value:$1A> Gea to defeat it within <value:$1B> days.<end>"
+KO: "아이들은 도시 밖을 좋아해서 늘 뛰어다니거든요. 그런데 요즘 도시 밖에 <value:$15>이 나타납니다. 언제 몬스터가 아이들을 덮칠지 걱정이에요. <value:$1A>기어를 드릴 테니 <value:$1B>일 이내에 그놈을 쓰러뜨려 주세요.<end>"
 
-## 200128
-source: translations/korean/messages/msgsec020-part97.toml
+## 220035
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "すべての設定を初期の状態に戻す<end>"
-EN: "Restore all default settings<end>"
-KO: "모든 설정을 초기 상태로 되돌리기<end>"
+JP: "夜中のうちに畑が荒らされていることが<line-break>ありまして、夜に見張っていたら、<line-break>これが<value:$15>の仕業でして…。<line-break>この悪者を退治してほしいんです。<line-break><value:$1A>ギアをお礼にさしあげます。<line-break><value:$1B>日以内に頼みますよ。<end>"
+EN: "Our fields have sometimes been ravaged during the night. When we kept watch, we discovered that <value:$15> was responsible... Please eliminate this menace. Reward: <value:$1A> Gea. We need it done within <value:$1B> days.<end>"
+KO: "밤사이 밭이 망가지는 일이 있어서 밤에 지켜봤더니 <value:$15>의 짓이더군요…. 이 악당을 퇴치해 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드려요.<end>"
 
-## 200129
-source: translations/korean/messages/msgsec020-part99.toml
+## 220036
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "片手剣<end>"
-EN: "One-Handed Sword<end>"
-KO: "한손검<end>"
+JP: "近頃、<value:$15>が出ます。<line-break>たいへん物騒なモンスターなので、<line-break>アイテムの材料を集めに行けません。<line-break>どなたか、モンスター退治を<line-break>していただけませんか。<line-break><value:$1A>ギアを支払いましょう。<line-break><value:$1B>日以内にお願いします。<end>"
+EN: "<value:$15> has been appearing lately. It is such a dangerous monster that we cannot go out to gather materials for items. Would someone please eliminate it? Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "요즘 <value:$15>이 나타납니다. 아주 위험한 몬스터라서 아이템 재료를 모으러 갈 수가 없습니다. 누군가 몬스터를 퇴치해 주시겠습니까? <value:$1A>기어를 지급하겠습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
 
-## 200130
-source: translations/korean/messages/msgsec020-part99.toml
+## 220037
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "両手剣<end>"
-EN: "Two-Handed Sword<end>"
-KO: "양손검<end>"
+JP: "求む！　強者！<line-break>恐ろしい<value:$15>の出現で、<line-break>鉱石を取りに行けなくて困ってる。<line-break>誰か腕に覚えのある冒険者がいたらよ、<line-break><value:$15>をやっつけてくれ。<line-break>報酬は、<value:$1A>ギアだ。悪くねぇだろ？<line-break><value:$1B>日以内で頼むぜ。<end>"
+EN: "WANTED: SOMEONE STRONG! The terrifying <value:$15> is keeping us from gathering ore. If you've got the skill, take down <value:$15>. Reward: <value:$1A> Gea. Not bad, eh? Finish within <value:$1B> days.<end>"
+KO: "강자 모집! 무서운 <value:$15>이 나타나 광석을 캐러 갈 수 없어 곤란하다. 실력 있는 모험자가 있다면 <value:$15>을 쓰러뜨려 줘. 보수는 <value:$1A>기어다. 나쁘지 않지? <value:$1B>일 이내로 부탁한다.<end>"
 
-## 200131
-source: translations/korean/messages/msgsec020-part97.toml
+## 220038
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "長柄武器<end>"
-EN: "Polearm<end>"
-KO: "장병기<end>"
+JP: "近頃この街もにぎやかになったね。それはいいこ<line-break>となんだけど、人が増えたら、それを狙うモンス<line-break>ターも増えちゃってさ。うちのお得意さんで襲わ<line-break>れる人も出てきてるのさ。<value:$1B>日以内で、<line-break><value:$15>を倒してくれないかね。<line-break><value:$1A>ギア出すよ。お得意さんには、<line-break>安心して酒を飲みに来てほしいからね。<end>"
+EN: "The town has gotten livelier lately, which is good, but more people have attracted more monsters. Some of our regulars have already been attacked. Could you defeat <value:$15> within <value:$1B> days? I'll pay <value:$1A> Gea. I want our customers to feel safe coming in for a drink.<end>"
+KO: "요즘 이 도시도 꽤 활기차졌지. 좋은 일이긴 한데, 사람이 늘어나니 그걸 노리는 몬스터도 늘었어. 우리 단골 중에도 습격당하는 사람이 생기고 있고. <value:$1B>일 이내에 <value:$15>를 쓰러뜨려 주지 않겠어? <value:$1A>기어 줄게. 단골들이 안심하고 술 마시러 왔으면 하거든.<end>"
 
-## 200132
-source: translations/korean/messages/msgsec020-part99.toml
+## 220039
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "斧<end>"
-EN: "Axe<end>"
-KO: "도끼<end>"
+JP: "フゴー宿屋では、お泊まりいただく方々に、<line-break>安全な旅をお楽しみいただけるよう<line-break>努力いたしております。<line-break>ところが、街の近くを<value:$15>が<line-break>うろついており、とても危険なのです。<line-break>そこで、これを倒していただきたい。<line-break><value:$1A>ギア、<value:$1B>日以内でお願いします。<end>"
+EN: "Hugo Inn strives to ensure that every guest enjoys a safe journey. Unfortunately, <value:$15> has been prowling near town, creating a serious danger. Please defeat it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "휴고 숙박점에서는 투숙객 여러분이 안전한 여행을 즐기실 수 있도록 노력하고 있습니다. 그런데 도시 근처를 <value:$15>이 돌아다녀 매우 위험합니다. 그래서 이를 쓰러뜨려 주셨으면 합니다. <value:$1A>기어, <value:$1B>일 이내로 부탁드립니다.<end>"
 
-## 200133
-source: translations/korean/messages/msgsec020-part99.toml
+## 220040
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "小刀<end>"
-EN: "Dagger<end>"
-KO: "소도<end>"
+JP: "勇敢な戦士の歌を創り上げたいと思います。<line-break>我こそは最強の戦士と自負される方に<line-break>お願いします。<line-break><value:$15>を成敗し、<line-break>その勝利の軌跡を歌にさせてください。<line-break>お礼は<value:$1A>ギアです。<line-break>日限を<value:$1B>日以内と決めさせていただきます。<end>"
+EN: "I wish to compose a song about a brave warrior. This request is for the mightiest warrior among you: defeat <value:$15>, and let me set the story of your victory to song. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "용감한 전사의 노래를 만들고 싶습니다. 자신이야말로 최강의 전사라 자부하는 분께 부탁드립니다. <value:$15>을 쓰러뜨리고 그 승리의 궤적을 노래하게 해 주세요. 사례는 <value:$1A>기어입니다. 기한은 <value:$1B>일 이내로 하겠습니다.<end>"
 
-## 200134
-source: translations/korean/messages/msgsec020-part99.toml
+## 220041
+source: translations/korean/messages/msgsec022-part99.toml
 jp_matches_pinned_english: yes
-JP: "弓<end>"
-EN: "Bow<end>"
-KO: "활<end>"
+JP: "戦士たちよ、<value:$15>を征伐し、<line-break>再びこの地に安寧をもたらしたまえ。<line-break>期限は<value:$1B>日以内。<line-break>報酬は<value:$1A>ギアである。<end>"
+EN: "Warriors, vanquish <value:$15> and restore peace to this land. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "전사들이여, <value:$15>을 토벌하여 다시 이 땅에 평안을 가져오라. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다.<end>"
+
+## 220042
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>が出没しています。<line-break>何が目的なのかわかりません。<line-break>それだけに私たちは恐くて恐くて…。<line-break>みなで集めた<value:$1A>ギアで、<line-break><value:$1B>日以内に退治をお願いできますか。<end>"
+EN: "<value:$15> has been sighted. We have no idea what it wants, which makes it all the more terrifying... Could you eliminate it within <value:$1B> days? Everyone contributed to a reward of <value:$1A> Gea.<end>"
+KO: "<value:$15>이 출몰하고 있습니다. 목적을 몰라 더 무섭습니다…. 모두 모은 <value:$1A>기어로 부탁드립니다. <value:$1B>일 안에 퇴치해 주시겠습니까?<end>"
+
+## 220043
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "私らの畑を荒らす奴がいて困っています。<line-break><value:$15>というモンスターなのですが、<line-break>私らの力では追い返すことができません。<line-break>冒険者の方々に退治をお願いします。<line-break><value:$1A>ギア用意しました。<line-break><value:$1B>日以内にやっつけてしまってください。<end>"
+EN: "A monster called <value:$15> is ravaging our fields, and we cannot drive it away ourselves. Adventurers, please eliminate it within <value:$1B> days. We have prepared a reward of <value:$1A> Gea.<end>"
+KO: "우리 밭을 망치는 녀석이 있어서 곤란합니다. <value:$15>이라는 몬스터인데 우리 힘으로는 쫓아낼 수가 없습니다. 모험가 여러분께 퇴치를 부탁드립니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 해치워 주세요.<end>"
+
+## 220044
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "道具の材料は街の中だけではそろわないことが<line-break>多く、どうしても様々な場所に出なければなり<line-break>ません。<line-break>しかし、近頃、<value:$15>が現れて<line-break>危険なのです。<value:$1A>ギアの報酬で<line-break>あいつを倒していただきたいのですが、<line-break><value:$1B>日以内でお願いできませんか？<end>"
+EN: "The materials needed to make tools often cannot all be found in town, so we must travel to many different places. Recently, however, <value:$15> has appeared and made those journeys dangerous. Would you defeat it within <value:$1B> days for <value:$1A> Gea?<end>"
+KO: "도구 재료는 도시 안에서만 모두 구할 수 없는 경우가 많아 여러 곳으로 나가야 합니다. 그런데 요즘 <value:$15>이 나타나 위험합니다. <value:$1A>기어의 보수로 저 녀석을 쓰러뜨려 주셨으면 하는데 <value:$1B>일 이내에 부탁드려도 될까요?<end>"
+
+## 220045
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "武器の材料集めを邪魔する奴がおる。<line-break><value:$15>じゃ。<line-break>こいつを倒してほしい。<line-break><value:$1A>ギア出せるでの。<line-break><value:$1B>日以内に頼むぞ。<end>"
+EN: "Something is interfering with our efforts to gather weapon materials: <value:$15>. I want it taken down. I can offer <value:$1A> Gea. Finish the job within <value:$1B> days.<end>"
+KO: "무기 재료를 모으는 걸 방해하는 놈이 있다. <value:$15>다. 이놈을 쓰러뜨려 줘. <value:$1A>기어를 내지. <value:$1B>일 안에 부탁한다.<end>"
+
+## 220046
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "モンスターがよく出てね。<line-break>酔っ払った客が、何人も被害にあってるんだ。<line-break>危ないから酔っ払えないなんてことになったら<line-break>商売あがったりだよ。<line-break><value:$15>をやっつけてくれないかね。<line-break><value:$1B>日以内にやってくれるかな。<line-break>報酬は<value:$1A>ギア出すよ。<end>"
+EN: "Monsters have been showing up often, and several drunken customers have already fallen victim. If people can't get drunk because it isn't safe, we'll be out of business! Could you take down <value:$15> within <value:$1B> days? I'll pay <value:$1A> Gea.<end>"
+KO: "몬스터가 자주 나타나서 술 취한 손님들이 여럿 피해를 입었어. 위험해서 술도 마음 놓고 못 마신다면 장사가 되겠어? <value:$15>을 해치워 주지 않겠나? <value:$1B>일 이내로 부탁해. 보수는 <value:$1A>기어를 줄게.<end>"
+
+## 220047
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅の道中に危険が存在するようです。<line-break>先日お客様が<value:$15>に出会われたとの<line-break>ことです。安全な旅を提供するのが私どもの役目<line-break>ですから、対策を立てねばなりません。<line-break>彼らを倒して危険を取り除いてください。<line-break>報酬は<value:$1A>ギア、<line-break>期間は<value:$1B>日以内です。<end>"
+EN: "There appears to be danger along the road. A guest reportedly encountered <value:$15> the other day. Providing safe journeys is our duty, so we must act. Defeat the monsters and remove the threat. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "여행길에 위험이 있는 모양입니다. 얼마 전 손님 한 분이 <value:$15>과 마주쳤다고 합니다. 안전한 여행을 제공하는 것이 저희 역할이니 대책을 세워야 합니다. 그들을 쓰러뜨려 위험을 없애 주세요. 보수는 <value:$1A>기어, 기간은 <value:$1B>일 이내입니다.<end>"
+
+## 220048
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "私たち吟遊詩人は、新たな英雄の歌を作ることが<line-break>喜びです。常に新たな題材を求めているのです。<line-break>近頃、街を騒がしている<value:$15>の退治<line-break>は、歌には絶好の題材です。<line-break>我こそはと思われる冒険者の方、退治をお願いし<line-break>ます。お礼に<value:$1A>ギアお支払いできます。<line-break><value:$1B>日以内にお願いします。<end>"
+EN: "We bards delight in composing heroic songs and always seek fresh material. Defeating <value:$15>, now troubling the town, would make a splendid subject. Prove your courage within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "우리 음유시인에게 새로운 영웅의 노래를 만드는 것은 기쁨입니다. 늘 새로운 소재를 찾고 있지요. 요즘 도시를 떠들썩하게 하는 <value:$15> 퇴치는 노래에 딱 좋은 소재입니다. 자신 있는 모험가라면 퇴치를 부탁드립니다. 사례로 <value:$1A>기어를 드릴 수 있습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
+
+## 220049
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>がうごめいています。<line-break>この邪気を感じさせるモンスターは、<line-break>放置すれば、いつか私たちに害をなすでしょう。<line-break>退治してくださる方を募集します。<line-break>報酬は<value:$1A>ギア。<line-break>期限は<value:$1B>日以内です。<line-break>冒険者の方々の活躍に期待しています。<end>"
+EN: "<value:$15> is stirring. This monster radiates an evil presence and may someday harm us if left unchecked. We seek someone to eliminate it. Reward: <value:$1A> Gea. Deadline: <value:$1B> days. We look forward to seeing what the adventurers can do.<end>"
+KO: "<value:$15>이 꿈틀거리고 있습니다. 이 사악한 기운을 풍기는 몬스터는 방치하면 언젠가 우리에게 해를 끼칠 겁니다. 퇴치해 주실 분을 모집합니다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다. 모험가 여러분의 활약을 기대합니다.<end>"
+
+## 220050
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "恐ろしい奴が現れてね。<value:$15>って<line-break>いうんだ。狂暴だからそのうち何をしでかすか<line-break>わかったもんじゃないよ。そうなる前に、あの<line-break>モンスターを退治しなけりゃならない。<line-break>誰か腕に自身のある人、モンスター退治に行って<line-break>おくれよ。<value:$1A>ギアの謝礼が出せるよ。<line-break><value:$1B>日以内で頼むね。<end>"
+EN: "A terrifying creature called <value:$15> has appeared. It's so vicious that there's no telling what it might do. We must eliminate it before anything happens. If you're confident in your skill, please hunt the monster. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "무서운 놈이 나타났어. <value:$15>이라는 녀석인데, 흉폭해서 무슨 짓을 벌일지 몰라. 그러기 전에 퇴치해야 해. 실력에 자신 있는 사람이라면 몬스터를 잡으러 가 줘. 사례로 <value:$1A>기어를 줄게. <value:$1B>일 이내로 부탁해.<end>"
+
+## 220051
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "近頃は物騒になったわねぇ。<line-break>モンスターが村の周りをうろつくんだもの。<line-break>いやあねぇ。<line-break><value:$15>の退治をお願いできない？<line-break>もちろんお礼は出すわ。<line-break><value:$1A>ギアでどうかしら。<line-break>期限は<value:$1B>日以内ね。<end>"
+EN: "Things have become so dangerous lately. Monsters are prowling around the village. How awful. Could you eliminate <value:$15>? Of course there will be a reward. How does <value:$1A> Gea sound? The deadline is <value:$1B> days.<end>"
+KO: "요즘은 험한 세상이네요. 몬스터가 마을 주위를 돌아다니니 말이에요. 싫다니까요. <value:$15> 퇴치를 부탁드려도 될까요? 물론 사례는 드릴게요. <value:$1A>기어면 어떨까요. 기한은 <value:$1B>일 이내예요.<end>"
+
+## 220052
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "この街の道具屋にとって、山は大事な材料の<line-break>入手先です。その山に近頃化け物がうろつく<line-break>ようになり、材料集めに支障が出ています。<line-break>あなた方に、<value:$15>を退治して<line-break>いただきたいのです。<line-break>受けていただけるなら<value:$1A>ギアさしあげ<line-break>ましょう。<value:$1B>日以内にお願いします。<end>"
+EN: "The mountain is an important source of materials for this town's item shops. A monster has recently begun prowling there, interfering with our gathering. We would like you to eliminate <value:$15>. If you accept, we will pay <value:$1A> Gea. Please finish within <value:$1B> days.<end>"
+KO: "이 도시의 도구점에게 산은 중요한 재료 공급처입니다. 그런데 최근 그 산에 괴물이 돌아다녀 재료 채집에 지장이 생기고 있습니다. 여러분께 <value:$15> 퇴치를 부탁드립니다. 맡아 주신다면 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
+
+## 220053
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>の退治してくれる方募集！！<line-break>お礼は<value:$1A>ギア！<line-break>期限は<value:$1B>日以内！<line-break>奴が邪魔をするせいで仕事がはかどらん。<line-break>退治をしてくれる奴を募集しとる。<line-break>確実に仕留めてくれよ。<end>"
+EN: "WANTED: Someone to eliminate <value:$15>!! Reward: <value:$1A> Gea! Deadline: <value:$1B> days! That thing keeps getting in the way of our work. We need someone to take it down, and make sure the job is finished.<end>"
+KO: "<value:$15>를 퇴치해 줄 사람 모집!! 사례는 <value:$1A>기어! 기한은 <value:$1B>일 이내! 녀석이 방해해서 일이 진척되지 않아. 퇴치해 줄 사람을 찾는다. 확실히 처리해 줘.<end>"
+
+## 220054
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "この街の地酒は大人気さ。うまさの秘密は、<line-break>ある植物を入れてることなんだけどね。<line-break>それがさ、<value:$15>が出るように<line-break>なっちまって、取りにいけないのさ。<line-break>強い人に頼むよ。あいつを倒しておくれ。<line-break><value:$1A>ギア、用意したよ。<line-break><value:$1B>日以内にやってほしいね。<end>"
+EN: "The local liquor is hugely popular. The secret is a certain plant we add to it. But since <value:$15> started appearing, we haven't been able to gather any. We need someone strong to take it down. Reward: <value:$1A> Gea. Please finish within <value:$1B> days.<end>"
+KO: "이 도시의 토속주는 아주 인기야. 맛의 비결은 어떤 식물을 넣는 건데 말이지. 그런데 <value:$15>이 나타나기 시작해서 가지러 갈 수가 없어. 강한 사람에게 부탁할게. 저놈을 쓰러뜨려 줘. <value:$1A>기어 준비했어. <value:$1B>일 이내에 해 줬으면 좋겠네.<end>"
+
+## 220055
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ここは有名な火山の街。我が宿には温泉目的の<line-break>お客様が多数いらっしゃいます。ところが<line-break>最近<value:$15>が出るようになったため、<line-break>お客様が恐がってご来訪なさらないのです。<line-break>彼を倒してください。<line-break><value:$1A>ギアご用意できます。<line-break>期限は<value:$1B>日以内でお願いします。<end>"
+EN: "This is a famous volcanic town, and many guests visit our inn for the hot springs. Since <value:$15> began appearing, however, frightened customers have stopped coming. Please defeat it. We can offer <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "이곳은 유명한 화산 도시입니다. 저희 여관에는 온천을 찾는 손님이 많이 오십니다. 그런데 최근 <value:$15>이 나타나 손님들이 무서워서 찾아오지 않으십니다. 놈을 쓰러뜨려 주세요. <value:$1A>기어를 준비할 수 있습니다. 기한은 <value:$1B>일 이내로 부탁드립니다.<end>"
+
+## 220056
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "歌の素材も鮮度が第一です。古い英雄の歌もいい<line-break>ですが、新しい英雄の歌の方がより新鮮味がある<line-break>というもの。<line-break><value:$15>退治の様子を歌にしたいと考え<line-break>ています。冒険者の方に退治をお願いしたいので<line-break>す。<value:$1A>ギアお支払いします。<line-break><value:$1B>日以内の条件で依頼します。<end>"
+EN: "Freshness matters even in the subject of a song. Old songs about heroes are fine, but new heroes make for fresher material. We wish to sing of the hunt for <value:$15>, so we ask an adventurer to defeat it. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "노래 소재도 신선함이 제일입니다. 옛 영웅의 노래도 좋지만 새로운 영웅의 노래가 더 신선한 법이지요. <value:$15> 퇴치 모습을 노래로 만들고 싶습니다. 모험가분께 퇴치를 부탁드리겠습니다. <value:$1A>기어를 지급합니다. <value:$1B>일 이내라는 조건으로 의뢰합니다.<end>"
+
+## 220057
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "世の乱れによりあまたの異形の者が<line-break>動き出しました。その内のひとつ、<line-break><value:$15>は、アキュリュース周辺で<line-break>活動し、住民を襲っております。<line-break>どうか、<value:$15>を倒し、この街を<line-break>救ってください。報酬は<value:$1A>ギアです。<line-break><value:$1B>日以内に依頼を果たされるよう願います。<end>"
+EN: "These troubled times have stirred countless unnatural beings. Attacks by <value:$15> now plague people near Aqyurius. Please defeat <value:$15> and save the town. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "세상이 어지러워지며 수많은 이형의 존재가 움직이기 시작했습니다. 그중 하나인 <value:$15>은 아큐류스 주변에서 활동하며 주민을 습격하고 있습니다. 부디 <value:$15>을 쓰러뜨리고 이 도시를 구해 주십시오. 보수는 <value:$1A>기어입니다. <value:$1B>일 이내에 의뢰를 완수해 주시길 바랍니다.<end>"
+
+## 220058
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>退治の勇者募集。<line-break><value:$1A>ギアの好条件。<line-break>私たちを苦しめているモンスターを倒してくれる<line-break>方はいませんか。<line-break>腕自慢のあなた、稼ぐチャンスです。<line-break><value:$1B>日以内にできる方、応募待ってます。<end>"
+EN: "HERO WANTED to eliminate <value:$15>. Excellent reward: <value:$1A> Gea. Will no one defeat the monster tormenting us? If you're proud of your skill, this is your chance to earn. Applicants able to finish within <value:$1B> days are welcome.<end>"
+KO: "<value:$15> 퇴치 용사 모집. 보수 <value:$1A>기어라는 좋은 조건. 우리를 괴롭히는 몬스터를 쓰러뜨려 줄 분 없습니까. 실력에 자신 있는 당신, 돈 벌 기회입니다. <value:$1B>일 안에 가능한 분의 지원을 기다립니다.<end>"
+
+## 220059
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "助けて！<line-break><value:$15>が村を襲うの。村の男たちが鋤<line-break>や鍬で戦うけど、今まで戦ったことなんてないか<line-break>ら、モンスターを追い払うだけでも大変なのよ。<line-break>強い冒険者さん、<value:$15>を退治して。<line-break>村のみんなで<value:$1A>ギア集めたから。<line-break>早く、そう<value:$1B>日以内にお願い！<end>"
+EN: "Help! Attacks by <value:$15> threaten our village. Our men have only plows and hoes and no battle experience. They can barely drive the threat away. Please defeat <value:$15>! We pooled <value:$1A> Gea. Hurry! Do it within <value:$1B> days!<end>"
+KO: "도와줘! <value:$15>이 마을을 습격해. 마을 남자들이 쟁기랑 괭이로 싸우고 있지만 싸워 본 적이 없어서 몬스터를 쫓아내는 것조차 힘들어. 강한 모험가님, <value:$15>을 퇴치해 줘. 마을 사람들이 <value:$1A>기어를 모았어. 빨리, 그래 <value:$1B>일 이내에 부탁해!<end>"
+
+## 220060
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "街の外に<value:$15>が出没するんで、<line-break>外出もできない。<line-break>これじゃあ材料を集められない。<line-break>あんた方に頼むよ。あいつを退治してくれ。<line-break><value:$1A>ギア出すよ。<line-break><value:$1B>日以内にやりとげてくれ。<end>"
+EN: "<value:$15> has been appearing outside town, so we can't even go out. That means we can't gather materials. We're asking you to eliminate it. Reward: <value:$1A> Gea. Finish within <value:$1B> days.<end>"
+KO: "마을 밖에 <value:$15>이 나타나서 밖에도 못 나가고 있어. 이래서는 재료를 모을 수가 없어. 당신들에게 부탁할게. 녀석을 퇴치해 줘. <value:$1A>기어를 줄게. <value:$1B>일 이내에 끝내 줘.<end>"
+
+## 220061
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "近頃<value:$15>が現れて材料収集の<line-break>邪魔をしやがるんだ。<line-break>仕事にならんぜ、まったく。<line-break>こいつを倒しちゃくれねえか。<line-break>お礼はするぜ。<value:$1A>ギアだ。<line-break>頼まれてくれるんなら<value:$1B>日以内に<line-break>仕留めてくれ。<end>"
+EN: "<value:$15> has been getting in the way of our material gathering lately. We can't get any work done at all. Will you take it down? I'll make it worth your while: <value:$1A> Gea. If you accept, finish it within <value:$1B> days.<end>"
+KO: "요즘 <value:$15>이 나타나서 재료 채집을 방해하고 있어. 도무지 일을 못 하겠다고. 이놈을 쓰러뜨려 주지 않겠어? 사례는 하지. <value:$1A>기어다. 맡아 준다면 <value:$1B>일 이내에 해치워 줘.<end>"
+
+## 220062
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュース名産、銘酒「水の都」。<line-break>アキュリュースだけでなく他の街から飲みに来る方<line-break>もいるんだよ。でも、材料を取りに行ってた場所<line-break>にモンスターが出るようになってね…。<line-break><value:$15>を倒してくれないかな。<line-break>お礼に<value:$1A>ギア払うよ。<line-break><value:$1B>日以内にお願いできるかな。<end>"
+EN: "Aqyurius's famous liquor, “City of Water,” draws drinkers from other towns as well as our own. But monsters have started appearing where we gather its ingredients... Could you defeat <value:$15>? I'll pay <value:$1A> Gea. Please do it within <value:$1B> days.<end>"
+KO: "아큐류스 명물, 명주 ‘물의 도시’. 아큐류스뿐 아니라 다른 도시에서도 마시러 오는 사람이 있을 정도야. 그런데 재료를 채집하던 곳에 몬스터가 나타나기 시작해서…. <value:$15>을 쓰러뜨려 주지 않을래? 사례로 <value:$1A>기어를 줄게. <value:$1B>일 이내에 부탁할 수 있을까?<end>"
+
+## 220063
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "水の都として名高いアキュリュースですから、観光<line-break>を目的とされるお客様が多数ご来店なさいます。<line-break>しかし、近頃はモンスターが増えて危険だから、<line-break>と旅行をとりやめるお客様もいらっしゃいます。<line-break><value:$15>を倒して、街周辺の安全を確保<line-break>してください。<value:$1A>ギアの報酬で、<line-break>期限は<value:$1B>日以内です。<end>"
+EN: "Aqyurius, the City of Water, attracts many tourists. Lately, some have canceled their trips because monsters make travel too dangerous. Defeat <value:$15> and secure the area around town. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "물의 도시로 이름난 아큐류스라 관광을 목적으로 찾아오시는 손님이 많습니다. 하지만 요즘은 몬스터가 늘어 위험하다며 여행을 취소하는 분도 계십니다. <value:$15>를 쓰러뜨려 도시 주변의 안전을 확보해 주십시오. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
+
+## 220064
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "あなたも英雄の仲間入り！<line-break>我が吟遊詩人ギルドでは、新しい英雄の歌を作る<line-break>ため、歌の題材となってくださる冒険者を募集し<line-break>ています。<value:$1B>日以内に狂暴なことで有名な<line-break><value:$15>を倒していただきます。<line-break>見事成功された方には、<value:$1A>ギアの賞金と<line-break>英雄の歌の題材になる名誉が与えられます。<end>"
+EN: "Become a hero yourself! The Bards' Guild seeks adventurers to inspire new songs about heroes. Defeat the notoriously vicious <value:$15> within <value:$1B> days. Success brings a prize of <value:$1A> Gea and the honor of becoming the subject of a heroic song.<end>"
+KO: "당신도 영웅의 반열에! 저희 음유시인 길드에서는 새로운 영웅의 노래를 만들기 위해 노래의 소재가 되어 주실 모험자를 모집합니다. <value:$1B>일 이내에 흉포하기로 유명한 <value:$15>를 쓰러뜨려 주십시오. 성공하신 분께는 <value:$1A>기어의 상금과 영웅의 노래에 이름을 올리는 명예가 주어집니다.<end>"
+
+## 220065
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "邪悪なる者の気配が感じられます。<line-break><value:$15>を倒し、<line-break>かの地に清浄を取り戻してください。<line-break>お礼として<value:$1A>ギアをお持ちください。<line-break><value:$1B>日以内に果たされることを望みます。<end>"
+EN: "An evil presence can be felt. Defeat <value:$15> and restore purity to that land. Please accept <value:$1A> Gea in gratitude. We hope the task will be fulfilled within <value:$1B> days.<end>"
+KO: "사악한 자의 기운이 느껴집니다. <value:$15>를 쓰러뜨리고 그 땅에 정화를 되찾아 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 이루어 주시길 바랍니다.<end>"
+
+## 220066
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>が悪さをしおる。<line-break>そのおかげでわしらはたいへん迷惑しておる。<line-break>ひとつ懲らしめてやらにゃならん。<line-break>冒険者さん、頼まれてくれんか。<line-break><value:$1A>ギア出す。<line-break><value:$1B>日以内にお願いするぞ。<end>"
+EN: "<value:$15> has been causing trouble, and we're suffering for it. That thing needs to be taught a lesson. Adventurer, will you take the job? I'll pay <value:$1A> Gea. Please finish within <value:$1B> days.<end>"
+KO: "<value:$15>가 말썽을 부려 우리 모두 크게 곤란해하고 있네. 혼 좀 내줘야겠어. 모험가 양반, 맡아 주겠나. <value:$1A>기어를 주지. <value:$1B>일 이내로 부탁하네.<end>"
+
+## 220067
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "荒海の乗りこえる強い船を作るには、丈夫な木材<line-break>が必要さ。この街の外にはいい林があるんで、<line-break>そこから木を切り出してる。だけどよ、最近<line-break><value:$15>が林の近くまで出てくるんで、<line-break>木材の伐採ができなくなっちまった。<line-break>モンスター退治を頼みたい。報酬は<line-break><value:$1A>ギア、期限は<value:$1B>日以内だ。<end>"
+EN: "Ships that cross rough seas need sturdy timber. We cut ours in a forest outside town, but the presence of <value:$15> has halted the logging. Eliminate the threat within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "거친 바다를 헤쳐 나갈 튼튼한 배를 만들려면 질 좋은 목재가 필요해. 도시 밖에 좋은 숲이 있어서 거기서 나무를 베고 있는데, 요즘 <value:$15>이 숲 근처까지 나오는 바람에 벌목을 못 하고 있어. 몬스터 퇴치를 부탁한다. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내다.<end>"
+
+## 220068
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "他の街からやってきた商人と交流することは、<line-break>道具屋である私どもには欠かせないことです。<line-break>ところが最近<value:$15>が出るので、<line-break>他の街の商人がエルズに近づけないのです。<line-break>そこで冒険者の方に退治をお願いしたいのです。<line-break>お礼は<value:$1A>ギアでどうでしょうか。<line-break><value:$1B>日以内にやっつけてしまってください。<end>"
+EN: "As item merchants, we depend on trade with merchants from other towns. Recently, however, <value:$15> has kept them from approaching Elz. We therefore ask an adventurer to eliminate it. How does a reward of <value:$1A> Gea sound? Please finish it within <value:$1B> days.<end>"
+KO: "다른 도시에서 온 상인과 교류하는 일은 도구상인 저희에게 꼭 필요합니다. 그런데 최근 <value:$15>가 나타나 다른 도시 상인들이 엘즈에 접근하지 못하고 있습니다. 그래서 모험자분께 퇴치를 부탁드리고 싶습니다. 보수는 <value:$1A>기어면 어떨까요. <value:$1B>일 이내에 처리해 주십시오.<end>"
+
+## 220069
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "いい武器にゃあいい材料が欠かせねえ。うちは<line-break>近くの鉱山で採ってる上等の材料を使ってるん<line-break>だが、街と鉱山の村の間に<value:$15>が<line-break>出やがって。村の奴がビビって売りにこなく<line-break>なっちまった。まあ無理もねえがな。<line-break>あんたたちに頼む。あんにゃろうを倒してくれ。<line-break><value:$1A>ギアで、<value:$1B>日以内。<end>"
+EN: "Good weapons need fine materials from the nearby mine. But the presence of <value:$15> between town and the mining village has scared off our suppliers. Can't blame them. Take that bastard down within <value:$1B> days for <value:$1A> Gea.<end>"
+KO: "좋은 무기엔 좋은 재료가 빠질 수 없지. 우린 근처 광산에서 캐는 질 좋은 재료를 쓰는데, 도시와 광산 마을 사이에 <value:$15>가 나타났어. 마을 놈들이 겁먹고 팔러 오질 않더군. 뭐, 무리도 아니지만. 너희에게 부탁하지. 그 자식을 쓰러뜨려 줘. <value:$1A>기어에, <value:$1B>일 이내다.<end>"
+
+## 220070
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>っていう強い奴がいるんだよ。<line-break>あたしとお客さんが、そいつを倒せる戦士がいる<line-break>かどうかって賭けをしてるのさ。あたしはいる<line-break>ほうに賭けてるってわけ。それでさ…。<line-break><value:$1A>ギアでそいつを倒しに行ってくれない<line-break>かい？　<value:$1B>日以内で。賭けの期限がもう<line-break>その日までしかないんだよ。よろしくね。<end>"
+EN: "There's a powerful creature called <value:$15>. My customers and I have a wager on whether any warrior can defeat it, and I bet that someone could. So... will you take it down for <value:$1A> Gea? You have <value:$1B> days; the wager ends then. I'm counting on you.<end>"
+KO: "<value:$15>라는 강한 녀석이 있어. 나랑 손님들이 그 녀석을 쓰러뜨릴 전사가 있느냐로 내기를 했지. 난 있다고 걸었고. 그래서 말인데… <value:$1A>기어에 그 녀석을 쓰러뜨리러 가 주지 않을래? <value:$1B>일 이내로. 내기 기한이 딱 그날까지거든. 부탁해.<end>"
+
+## 220071
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ここのところエルズ周辺に<value:$15>が<line-break>出没しております。<line-break>現状のままですと、我がフゴー宿屋のお客様で<line-break>ある旅行者の方に危害が及ぶおそれがあります。<line-break>そこで、退治を依頼します。<line-break><value:$1A>ギアをお支払いします。<line-break><value:$1B>日以内にお願いします。<end>"
+EN: "<value:$15> has recently been sighted around Elz. If the situation continues, travelers staying at our Hugo Inn may come to harm. We therefore request its elimination. Reward: <value:$1A> Gea. Please complete the job within <value:$1B> days.<end>"
+KO: "최근 엘즈 주변에 <value:$15>이 출몰하고 있습니다. 이대로라면 저희 휴고 숙소를 이용하는 여행객들에게 피해가 갈 우려가 있습니다. 그래서 퇴치를 의뢰합니다. <value:$1A>기어를 지급하겠습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
+
+## 220072
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "新しい英雄の歌を創りたいと考えています。<line-break>あなた方に題材になってもらいたいのです。<line-break>威風堂々たるあなた方こそ英雄の歌に<line-break>ふさわしい。<value:$15>を倒して<line-break>そのお話を私に聞かせてください。<line-break>お礼として<value:$1A>ギア進呈しましょう。<line-break><value:$1B>日以内と期限を区切らせていただきます。<end>"
+EN: "I wish to compose a new song about heroes, and I want you to be its subject. Your imposing presence makes you perfect for such a song. Defeat <value:$15>, then tell me the tale. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "새로운 영웅의 노래를 만들고 싶습니다. 여러분을 소재로 삼고 싶군요. 위풍당당한 여러분이야말로 영웅의 노래에 어울립니다. <value:$15>을 쓰러뜨리고 그 이야기를 제게 들려주세요. 사례로 <value:$1A>기어를 드리겠습니다. 기한은 <value:$1B>일 이내입니다.<end>"
+
+## 220073
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス１<end>"
+EN: "Ladras 1<end>"
+KO: "라드라스1<end>"
+
+## 220074
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス２<end>"
+EN: "Ladras 2<end>"
+KO: "라드라스2<end>"
+
+## 220075
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス３<end>"
+EN: "Ladras 3<end>"
+KO: "라드라스3<end>"
+
+## 220076
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス４<end>"
+EN: "Ladras 4<end>"
+KO: "라드라스4<end>"
+
+## 220077
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス５<end>"
+EN: "Ladras 5<end>"
+KO: "라드라스5<end>"
+
+## 220078
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス６<end>"
+EN: "Ladras 6<end>"
+KO: "라드라스6<end>"
+
+## 220079
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス７<end>"
+EN: "Ladras 7<end>"
+KO: "라드라스7<end>"
+
+## 220080
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラス８<end>"
+EN: "Ladras 8<end>"
+KO: "라드라스8<end>"
+
+## 220081
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "国民に害をなすモンスターが徘徊している。<line-break>悪を斬る刃を持つ者に依頼する。<line-break><value:$15>を成敗してくれたまえ。<line-break>報酬は<value:$1A>ギア、<line-break>期限は<value:$1B>日以内である。<end>"
+EN: "A monster that harms the people is roaming about. This request is for one whose blade cuts down evil: strike down <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "국민에게 해를 끼치는 몬스터가 돌아다니고 있다. 악을 베는 칼날을 지닌 자에게 의뢰한다. <value:$15>을 토벌해 주게. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내다.<end>"
+
+## 220082
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "近頃街道にモンスターが出没しています。<line-break>通行人に被害が出る可能性もあります。<line-break>私たちも全力で倒そうとしていますが、<line-break>成功していません。<line-break>倒すために助力をお願いします。<line-break>報酬として<value:$1A>ギアを用意します。<line-break><value:$1B>日以内に倒してください。<end>"
+EN: "Monsters have recently begun appearing on the highway, and travelers may be harmed. We have done everything in our power to defeat them, without success. We ask for your help. Reward: <value:$1A> Gea. Please defeat them within <value:$1B> days.<end>"
+KO: "요즘 가도에 몬스터가 출몰하고 있습니다. 통행인에게 피해가 생길 수도 있습니다. 저희도 전력을 다해 쓰러뜨리려 했지만 성공하지 못했습니다. 퇴치를 도와주세요. 보수로 <value:$1A>기어를 준비하겠습니다. <value:$1B>일 이내에 쓰러뜨려 주세요.<end>"
+
+## 220083
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "わしらは細工物を作るのが好きでの。一日中やっ<line-break>ていても飽きはせん。だが、最近村の近くに<line-break><value:$15>が出るようになって、<line-break>恐ろしゅうて落ち着いて細工できんのじゃ。<line-break>うちの村は年寄りばかりだで誰も戦えんのじゃ。<line-break>お願えするだ。モンスターを追い払ってくれ。<line-break><value:$1A>ギア、<value:$1B>日以内でどうじゃ。<end>"
+EN: "We love making handicrafts all day, but since sightings of <value:$15> began near our village, we're too frightened to work. Only old folk live here, and none can fight. Please drive the threat away within <value:$1B> days for <value:$1A> Gea.<end>"
+KO: "우린 세공품 만드는 걸 좋아해서 하루 종일 해도 질리지 않는다네. 그런데 최근 마을 근처에 <value:$15>가 나타나 무서워서 마음 놓고 세공을 못 하겠어. 우리 마을은 노인뿐이라 싸울 사람도 없고. 부탁하네. 몬스터를 쫓아내 줘. <value:$1A>기어에 <value:$1B>일 이내면 어떻겠나.<end>"
+
+## 220084
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>が出没しています。<line-break>商用で移動しているときにモンスターに出会うの<line-break>は、商売に支障がでますし、たいへん危険です。<line-break>そこで、あらかじめモンスターを排除しておきた<line-break>いと思います。退治をお願いします。<line-break><value:$1A>ギアをお礼としてさしあげます。<line-break>期間は<value:$1B>日以内です。<end>"
+EN: "<value:$15> has been sighted. Encountering a monster while traveling on business is both disruptive and extremely dangerous, so we wish to remove the threat in advance. Please eliminate it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "<value:$15>이 출몰하고 있습니다. 장사 때문에 이동하다 몬스터와 마주치면 영업에 지장이 생길 뿐 아니라 매우 위험합니다. 그래서 미리 몬스터를 제거해 두고 싶습니다. 퇴치를 부탁드립니다. 사례로 <value:$1A>기어를 드리겠습니다. 기한은 <value:$1B>일 이내입니다.<end>"
+
+## 220085
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺たちは、材料集めにあちこちに行くんだがよ。<line-break>最近<value:$15>に出くわすことが<line-break>多くてな。集めた荷物を抱えて戦うのは、<line-break>ちとたいへんなんだよ。<line-break>悪いんだが、奴を倒してくんねぇか？<line-break><value:$1A>ギア用意したからよ。<line-break><value:$1B>日以内に退治してくれ。<end>"
+EN: "We travel all over to gather materials, but lately we keep running into <value:$15>. Fighting while carrying everything we've collected is no easy task. Sorry to ask, but could you take it down? I've put together <value:$1A> Gea. Eliminate it within <value:$1B> days.<end>"
+KO: "우린 재료를 모으려고 여기저기 다니는데 말이야. 요즘 <value:$15>과 마주치는 일이 많아졌어. 모아 둔 짐을 든 채 싸우기는 꽤 힘들거든. 미안하지만 그놈을 쓰러뜨려 주지 않겠어? <value:$1A>기어를 준비했어. <value:$1B>일 이내에 퇴치해 줘.<end>"
+
+## 220086
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "うちには、旅の人が飲みに来ることもよくあるの<line-break>よ。このごろ、「さっきモンスターに出会った、<line-break>ドワーフの国は安全だって聞いてたのに」なんて<line-break>言う旅の人が多くてね。せっかく旅に出たのに、<line-break>そんなこと言わせちゃかわいそうでしょ。<line-break><value:$1A>ギア出すわ。<value:$15>を<line-break>倒してちょうだい。<value:$1B>日以内によろしくね。<end>"
+EN: "Travelers often come here for a drink. Lately, many have said, “I just ran into a monster. I heard the Dwarf country was safe.” It's a shame for anyone who came all this way to feel that way. I'll pay <value:$1A> Gea. Please defeat <value:$15> within <value:$1B> days.<end>"
+KO: "우리 가게엔 여행객들이 술 마시러 자주 와. 요즘은 '방금 몬스터를 만났어요. 드워프 나라는 안전하다더니'라고 하는 사람이 많아서 말이지. 모처럼 여행을 나왔는데 그런 말을 하게 하면 안쓰럽잖아. <value:$1A>기어 줄게. <value:$15>를 쓰러뜨려 줘. <value:$1B>일 이내에 부탁해.<end>"
+
+## 220087
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>が出没しているとの知らせが<line-break>あります。<line-break>このモンスターは狂暴であり、<line-break>旅行者の方の安全がおびやかされています。<line-break>モンスターを退治し安全を確保してください。<line-break>謝礼は<value:$1A>ギア、<line-break>期限は<value:$1B>日以内とします。<end>"
+EN: "We have received reports that <value:$15> has been sighted. This vicious monster threatens the safety of travelers. Eliminate it and secure the area. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "<value:$15>이 출몰한다는 소식이 있습니다. 이 몬스터는 흉폭해 여행자의 안전이 위협받고 있습니다. 몬스터를 퇴치해 안전을 확보해 주세요. 사례는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
+
+## 220088
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "空気に妖気が混ざってきています。原因は、<line-break>近頃この周辺に現れる<value:$15>です。<line-break>澄んだ空気のもとでなければ、<line-break>私たちの歌は本来の美しさを発揮できません。<line-break><value:$15>退治を依頼したいと思います。<line-break><value:$1A>ギアの報酬、<line-break><value:$1B>日以内の期限でいかがでしょうか。<end>"
+EN: "An uncanny presence taints the air, and it comes from <value:$15>. Without clear air, our songs lose their true beauty. Please eliminate <value:$15>. We offer <value:$1A> Gea for completion within <value:$1B> days.<end>"
+KO: "공기에 요기가 섞이기 시작했습니다. 원인은 최근 이 주변에 나타나는 <value:$15>입니다. 맑은 공기 아래가 아니면 우리 노래는 본래의 아름다움을 낼 수 없습니다. <value:$15> 퇴치를 의뢰하고 싶습니다. 보수 <value:$1A>기어, 기한 <value:$1B>일 이내로 어떻습니까?<end>"
+
+## 220089
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "昨今、モンスターによる被害が多発しているが、<line-break>テラネ周辺でも同様の報告があった。<line-break>報告にあった<value:$15>は、人身に被害を<line-break>与え、耕作地を荒らし、放置しかねるとのこと。<line-break>よってここに討伐令を布告するものである。<line-break>期限は、<value:$1B>日以内。見事退治せし者には、<line-break><value:$1A>ギアの賞金を与える。<end>"
+EN: "Reports from Terane say attacks by <value:$15> have injured people and ravaged farmland. This threat cannot be ignored. An official extermination order is hereby issued. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "최근 몬스터 피해가 잇따르는 가운데 테라네 주변에서도 같은 보고가 들어왔다. 보고된 <value:$15>는 사람에게 피해를 주고 경작지를 황폐화시켜 방치할 수 없다고 한다. 이에 토벌령을 내린다. 기한은 <value:$1B>일 이내. 훌륭히 퇴치한 자에게는 <value:$1A>기어의 상금을 지급한다.<end>"
+
+## 220090
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "最近、街の周囲で<value:$15>が暴れて<line-break>います。このままでは、自由に街の外に出る<line-break>こともできず、日々の生活もままなりません。<line-break>どなたか<value:$1B>日以内に、このモンスターを退治<line-break>してくださいませんでしょうか？<line-break>報酬は<value:$1A>ギア用意しています。<line-break>どうかよろしくお願いいたします。<end>"
+EN: "<value:$15> has been rampaging around town. If this continues, we will be unable to venture outside freely or even go about our daily lives. Would someone please eliminate this monster within <value:$1B> days? We have prepared a reward of <value:$1A> Gea. Please help us.<end>"
+KO: "최근 도시 주변에서 <value:$15>이 날뛰고 있습니다. 이대로라면 자유롭게 도시 밖으로 나갈 수도 없어 일상생활도 어렵습니다. 누군가 <value:$1B>일 이내에 이 몬스터를 퇴치해 주시겠습니까? 보수는 <value:$1A>기어를 준비했습니다. 부디 부탁드립니다.<end>"
+
+## 220091
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "最近現れたモンスターが強くて、困っとります。<line-break>なんでも<value:$15>とかいうやつじゃそう<line-break>ですが、わしらでは手に負えませんです。<line-break>ほっとくと畑も村も危ないので、<line-break><value:$1B>日以内に、退治していただきたい。<line-break>お礼はあまりできんですが、できるだけのことは<line-break>するつもりですじゃ。どうかお助けくだされ。<end>"
+EN: "We cannot handle the monster known as <value:$15>. Our fields and village are in danger. Please defeat the threat within <value:$1B> days. We cannot offer much, but we will do all we can to repay you. Please help us.<end>"
+KO: "요즘 나타난 몬스터가 너무 강해서 곤란합니다. <value:$15>라는 놈이라던데 우리 힘으로는 감당할 수가 없습니다. 내버려 두면 밭도 마을도 위험하니 <value:$1B>일 이내에 퇴치해 주셨으면 합니다. 보답은 많이 못 하지만 할 수 있는 만큼은 하겠습니다. 부디 도와주십시오.<end>"
+
+## 220092
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の力が強まり、世界に悪しき気が満ちはじめて<line-break>います。その影響はあまたの生き物にも及んでい<line-break>るようです。巡礼者を脅かす<value:$15>も<line-break>闇にとりつかれた哀れなる命です。<line-break>この悲しき命を、闇の苦痛から救う勇者を捜して<line-break>います。<value:$1B>日以内に、その命を解放して<line-break>くれた者には、お礼をさせていただきます。<end>"
+EN: "Darkness is spreading through the world and corrupting living creatures. Even <value:$15> must be pitied, for darkness causes the threat to pilgrims. We seek a hero to grant release from torment within <value:$1B> days. A reward will be given.<end>"
+KO: "어둠의 힘이 강해져 세계에 사악한 기운이 차오르고 있습니다. 그 영향은 수많은 생명에도 미치고 있는 듯합니다. 순례자를 위협하는 <value:$15> 역시 어둠에 사로잡힌 가엾은 생명입니다. 이 슬픈 생명을 어둠의 고통에서 구해 줄 용자를 찾습니다. <value:$1B>일 이내에 그 생명을 해방해 준 분께 사례하겠습니다.<end>"
+
+## 220093
+source: translations/korean/messages/msgsec022-part99.toml
+jp_matches_pinned_english: yes
+JP: "うちの常連が、モンスターが出たって、<line-break>うるさくってね。酔っぱらいのたわごとですます<line-break>わけにもいかんから、ちょっくら若いのに調べさ<line-break>せたんだが、いたんだよね。やばそうなヤツが。<line-break>で、退治して欲しいんだわ。<line-break><value:$1B>日以内、報酬は、<value:$1A>ギア出すよ。<line-break>よろしくね。<end>"
+EN: "A regular kept making a fuss about a monster. I couldn't dismiss it as drunken nonsense, so I sent a youngster to check. Sure enough, something nasty was out there. Eliminate the threat within <value:$1B> days for <value:$1A> Gea. Thanks.<end>"
+KO: "우리 단골이 몬스터가 나왔다고 하도 시끄럽게 굴어서 말이야. 취객의 헛소리라고 넘길 수도 없어서 젊은 애한테 알아보게 했더니, 정말 있더라고. 꽤 위험해 보이는 놈이. 그래서 퇴치해 줬으면 해. <value:$1B>일 이내, 보수는 <value:$1A>기어야. 잘 부탁해.<end>"
 

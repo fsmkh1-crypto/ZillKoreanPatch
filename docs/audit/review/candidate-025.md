@@ -1,6 +1,6 @@
 # Beta1 next-review candidate packet
 
-start_id: 190091
+start_id: 200405
 candidate_count: 700
 pinned_english_sha: a98d9ce29f361d666ec23da0dcfd351f24537ffd
 order: global numeric ID
