@@ -1,189 +1,355 @@
 #!/usr/bin/env python3
-"""Build the authoritative sparse Beta1 language-review ledger.
+"""Build Beta1 review ledger v2 with stale-proof historical review bases.
 
-The ledger deliberately distinguishes automated coverage from human/contextual
-review. Candidate discovery scans do NOT count as CONTEXT_KEEP. Only explicit
-review scopes and approved copyedit manifests can advance contextual coverage.
+Authoritative principles:
+- contextual state is distinct from automated QA and orthogonal flags;
+- historical review bases are reconstructed at the actual semantic commit;
+- any change to JP/EN/KO/layout/consumer signature invalidates that review;
+- scanner/mechanical-only evidence never becomes CONTEXT_KEEP;
+- propagation is never credited automatically; only strict candidate counts are reported.
 """
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
+import subprocess
 import tomllib
 from collections import defaultdict
 from pathlib import Path
 
 MANIFEST_RE = re.compile(r"beta1-contextual-copyedit-(\d{3})-reviewed\.json$")
-STATUS_ORDER = {"AUTO_ONLY": 0, "CONTEXT_KEEP": 1, "CONTEXT_EDIT": 2}
+ENGLISH_PIN_DEFAULT = "a98d9ce29f361d666ec23da0dcfd351f24537ffd"
 
 
-def load_accepted(root: Path) -> dict[str, list[str]]:
-    accepted: dict[str, list[str]] = defaultdict(list)
-    for path in sorted((root / "translations/korean/messages").glob("*.toml")):
+def git_sha(root: Path) -> str:
+    return subprocess.check_output(["git", "-C", str(root), "rev-parse", "HEAD"], text=True).strip()
+
+
+def git_show_text(root: Path, commit: str, rel: str) -> str:
+    try:
+        return subprocess.check_output(
+            ["git", "-C", str(root), "show", f"{commit}:{rel}"], text=True, encoding="utf-8"
+        )
+    except subprocess.CalledProcessError as exc:
+        raise SystemExit(f"cannot reconstruct {rel} at {commit}: {exc}") from exc
+
+
+def sort_id(rid: str):
+    return (0, int(rid)) if rid.isdigit() else (1, rid)
+
+
+def load_korean_current(root: Path) -> dict[str, list[dict]]:
+    out: dict[str, list[dict]] = defaultdict(list)
+    base = root / "translations/korean/messages"
+    for path in sorted(base.glob("*.toml")):
         data = tomllib.loads(path.read_text(encoding="utf-8"))
         rel = path.relative_to(root).as_posix()
         for rid, row in data.items():
             if isinstance(row, dict) and isinstance(row.get("korean"), str):
-                accepted[str(rid)].append(rel)
-    if not accepted:
-        raise SystemExit("no accepted Korean records found")
-    return dict(accepted)
+                out[str(rid)].append({"path": rel, **row})
+    if not out:
+        raise SystemExit("no Korean accepted rows")
+    return dict(out)
 
 
-def promote(entries: dict[str, dict], rid: str, status: str, batch: str, *, edited: bool) -> None:
-    item = entries.setdefault(rid, {"status": "AUTO_ONLY", "review_batches": [], "edit_batches": []})
-    if STATUS_ORDER[status] > STATUS_ORDER[item["status"]]:
-        item["status"] = status
-    if batch not in item["review_batches"]:
-        item["review_batches"].append(batch)
-    if edited and batch not in item["edit_batches"]:
-        item["edit_batches"].append(batch)
+def canonical_rows(rid: str, rows: list[dict]) -> dict:
+    first = rows[0]
+    for row in rows[1:]:
+        for key in ("japanese", "korean", "layout", "consumer"):
+            if row.get(key, "") != first.get(key, ""):
+                raise SystemExit(f"non-identical alias id={rid} key={key}")
+    return {
+        "id": rid,
+        "paths": sorted(row["path"] for row in rows),
+        "japanese": first.get("japanese", ""),
+        "korean": first.get("korean", ""),
+        "layout": first.get("layout", ""),
+        "consumer": first.get("consumer", ""),
+        "alias_count": len(rows),
+    }
 
 
-def main() -> None:
+def load_english(root: Path) -> dict[str, dict]:
+    out = {}
+    for path in sorted((root / "translations/messages").glob("msgsec*.toml")):
+        data = tomllib.loads(path.read_text(encoding="utf-8"))
+        rel = path.relative_to(root).as_posix()
+        for rid, row in data.items():
+            if not isinstance(row, dict):
+                continue
+            rid = str(rid)
+            if rid in out:
+                raise SystemExit(f"duplicate English id {rid}")
+            out[rid] = {
+                "english": row.get("english", ""),
+                "japanese": row.get("japanese", ""),
+                "path": rel,
+            }
+    return out
+
+
+def historical_row(root: Path, commit: str, rid: str, paths: list[str]) -> dict:
+    found = []
+    for rel in paths:
+        data = tomllib.loads(git_show_text(root, commit, rel))
+        row = data.get(rid)
+        if isinstance(row, dict) and isinstance(row.get("korean"), str):
+            found.append({"path": rel, **row})
+    if not found:
+        raise SystemExit(f"review basis missing id={rid} commit={commit} paths={paths}")
+    return canonical_rows(rid, found)
+
+
+def consumer_signature(row: dict) -> str:
+    """Conservative repository-visible storage/consumer signature.
+
+    Includes physical overlay paths and alias multiplicity. The raw consumer field
+    is included when present. Persisted layout content is hashed separately, while
+    its presence is also represented here. This never grants propagation by itself.
+    """
+    payload = {
+        "paths": row["paths"],
+        "alias_count": row["alias_count"],
+        "raw_consumer": row.get("consumer", ""),
+        "persisted_layout": bool(row.get("layout", "")),
+    }
+    return hashlib.sha256(
+        json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    ).hexdigest()
+
+
+def basis_sha(japanese: str, english: str, korean: str, layout: str, consumer_sig: str) -> str:
+    return hashlib.sha256("\0".join([japanese, english, korean, layout, consumer_sig]).encode("utf-8")).hexdigest()
+
+
+def load_source_anomalies(root: Path) -> set[str]:
+    path = root / "tools/korean/known-source-anomalies.toml"
+    if not path.exists():
+        return set()
+    data = tomllib.loads(path.read_text(encoding="utf-8"))
+    return {str(k) for k, v in data.items() if isinstance(v, dict)}
+
+
+def event_key(event: dict):
+    return (int(event["batch"]) if str(event["batch"]).isdigit() else 10**9, event["evidence"])
+
+
+def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default=".")
+    ap.add_argument("--english-root", required=True, type=Path)
     ap.add_argument("--scopes", default="docs/audit/beta1-context-review-scopes.json")
-    ap.add_argument("--ledger", default="docs/audit/beta1-review-ledger.json")
+    ap.add_argument("--commits", default="docs/audit/beta1-context-review-commits.json")
+    ap.add_argument("--jsonl", default="translations/korean/review-ledger.jsonl")
     ap.add_argument("--summary", default="docs/audit/beta1-review-coverage.md")
+    ap.add_argument("--groups", default="docs/audit/beta1-review-groups.json")
     args = ap.parse_args()
 
     root = Path(args.root).resolve()
-    accepted = load_accepted(root)
-    accepted_ids = set(accepted)
-    scopes_path = root / args.scopes
-    scopes = json.loads(scopes_path.read_text(encoding="utf-8"))
+    english_root = args.english_root.resolve()
+    current_sha = git_sha(root)
 
-    entries: dict[str, dict] = {}
-    scope_rows: list[dict] = []
+    commit_map_doc = json.loads((root / args.commits).read_text(encoding="utf-8"))
+    english_pin = commit_map_doc.get("english_reference_sha", ENGLISH_PIN_DEFAULT)
+    actual_english_sha = git_sha(english_root)
+    if actual_english_sha != english_pin:
+        raise SystemExit(f"English checkout drift: got {actual_english_sha}, expected {english_pin}")
+    semantic_commits = {str(k).zfill(3): str(v) for k, v in commit_map_doc["semantic_commits"].items()}
 
+    current_rows_multi = load_korean_current(root)
+    current = {rid: canonical_rows(rid, rows) for rid, rows in current_rows_multi.items()}
+    english = load_english(english_root)
+    accepted_ids = set(current)
+    anomalies = load_source_anomalies(root)
+
+    events: dict[str, list[dict]] = defaultdict(list)
+    scopes = json.loads((root / args.scopes).read_text(encoding="utf-8"))
     for scope in scopes.get("reviewed_scopes", []):
         batch = str(scope["batch"]).zfill(3)
-        kind = scope["kind"]
-        if kind == "numeric_range":
-            start = int(scope["start"])
-            end = int(scope["end"])
-            ids = [str(i) for i in range(start, end + 1)]
-        elif kind == "ids":
+        if batch not in semantic_commits:
+            raise SystemExit(f"no semantic commit recorded for scope batch {batch}")
+        if scope["kind"] == "numeric_range":
+            ids = [str(i) for i in range(int(scope["start"]), int(scope["end"]) + 1)]
+        elif scope["kind"] == "ids":
             ids = [str(x) for x in scope["ids"]]
         else:
-            raise SystemExit(f"unknown scope kind {kind!r}")
-        missing = [rid for rid in ids if rid not in accepted_ids]
-        if missing:
-            raise SystemExit(f"review scope batch {batch} contains non-accepted IDs: {missing[:10]}")
-        expected = scope.get("expected_count")
-        if expected is not None and len(ids) != int(expected):
-            raise SystemExit(f"review scope batch {batch} expected {expected}, got {len(ids)}")
+            raise SystemExit(f"unknown scope kind {scope['kind']!r}")
+        if scope.get("expected_count") is not None and len(ids) != int(scope["expected_count"]):
+            raise SystemExit(f"scope count mismatch batch {batch}")
         for rid in ids:
-            promote(entries, rid, "CONTEXT_KEEP", batch, edited=False)
-        scope_rows.append({
-            "batch": batch,
-            "kind": kind,
-            "count": len(ids),
-            "evidence": scope.get("evidence", ""),
-            "note": scope.get("note", ""),
-        })
+            if rid not in accepted_ids:
+                raise SystemExit(f"scope {batch} non-accepted id {rid}")
+            events[rid].append({
+                "batch": batch,
+                "evidence": "full_read",
+                "state": "CONTEXT_KEEP",
+                "reviewed_commit": semantic_commits[batch],
+                "paths": current[rid]["paths"],
+            })
 
-    manifests = []
     per_batch = []
     for path in sorted((root / "docs/audit").glob("beta1-contextual-copyedit-*-reviewed.json")):
         m = MANIFEST_RE.search(path.name)
         if not m:
             continue
         batch = m.group(1)
+        if batch not in semantic_commits:
+            raise SystemExit(f"no semantic commit mapping for manifest batch {batch}")
         doc = json.loads(path.read_text(encoding="utf-8"))
-        record_ids = []
+        ids = []
         for rec in doc.get("records", []):
             rid = str(rec["id"])
             if rid not in accepted_ids:
-                raise SystemExit(f"manifest {path.name} references non-accepted ID {rid}")
-            record_ids.append(rid)
-            promote(entries, rid, "CONTEXT_EDIT", batch, edited=True)
-        manifests.append(path.relative_to(root).as_posix())
-        per_batch.append({"batch": batch, "records": len(record_ids), "unique_ids": len(set(record_ids)), "manifest": path.relative_to(root).as_posix()})
+                raise SystemExit(f"manifest {path.name} non-accepted id {rid}")
+            ids.append(rid)
+            events[rid].append({
+                "batch": batch,
+                "evidence": "manifest_edit",
+                "state": "CONTEXT_EDIT",
+                "reviewed_commit": semantic_commits[batch],
+                "paths": list(rec.get("paths") or current[rid]["paths"]),
+            })
+        per_batch.append({
+            "batch": batch,
+            "records": len(ids),
+            "unique_ids": len(set(ids)),
+            "manifest": path.relative_to(root).as_posix(),
+        })
 
-    # Sparse representation: AUTO_ONLY is implicit for every accepted ID not listed.
-    sparse = {}
-    for rid in sorted(entries, key=lambda x: (int(x) if x.isdigit() else 10**30, x)):
-        item = entries[rid]
-        if item["status"] == "AUTO_ONLY":
-            continue
-        item["review_batches"].sort()
-        item["edit_batches"].sort()
-        sparse[rid] = item
+    ledger_rows = []
+    stale_ids = []
+    valid_direct = 0
+    valid_manifest = 0
+    flag_counts = defaultdict(int)
 
-    context_edit = sum(1 for x in sparse.values() if x["status"] == "CONTEXT_EDIT")
-    context_keep = sum(1 for x in sparse.values() if x["status"] == "CONTEXT_KEEP")
-    context_reviewed = context_edit + context_keep
-    auto_only = len(accepted_ids) - context_reviewed
+    for rid in sorted(events, key=sort_id):
+        latest = sorted(events[rid], key=event_key)[-1]
+        hist = historical_row(root, latest["reviewed_commit"], rid, latest["paths"])
+        eng = english.get(rid, {}).get("english", "")
+        hist_sig = consumer_signature(hist)
+        hist_basis = basis_sha(hist["japanese"], eng, hist["korean"], hist["layout"], hist_sig)
 
-    ledger = {
-        "version": 1,
-        "purpose": "Authoritative sparse Beta1 language-review coverage ledger",
-        "accepted_total": len(accepted_ids),
-        "default_status": "AUTO_ONLY",
-        "status_semantics": {
-            "AUTO_ONLY": "Accepted Korean record covered by automated/static QA, but no proven full contextual review is recorded here.",
-            "CONTEXT_KEEP": "Japanese/English/Korean context was explicitly reviewed and no edit was required at that review point.",
-            "CONTEXT_EDIT": "Japanese/English/Korean context was explicitly reviewed and at least one approved contextual copyedit was applied.",
-        },
-        "counting_policy": "Candidate scans and regex discovery do not count as contextual review unless an explicit review scope or approved manifest proves it.",
-        "coverage": {
-            "context_reviewed_unique": context_reviewed,
-            "context_edit_unique": context_edit,
-            "context_keep_unique": context_keep,
-            "auto_only_unique": auto_only,
-            "context_review_percent": round(context_reviewed * 100 / len(accepted_ids), 3),
-        },
-        "explicit_review_scopes": scope_rows,
-        "manifests": manifests,
-        "entries": sparse,
+        cur = current[rid]
+        cur_sig = consumer_signature(cur)
+        cur_basis = basis_sha(cur["japanese"], eng, cur["korean"], cur["layout"], cur_sig)
+        stale = hist_basis != cur_basis
+        state = "CONTEXT_STALE" if stale else latest["state"]
+
+        flags = []
+        if cur["layout"]:
+            flags.append("PERSISTED_LAYOUT")
+        if cur["alias_count"] > 1:
+            flags.append("ALIAS_GROUP")
+        if rid in anomalies:
+            flags.append("SOURCE_ANOMALY")
+        for flag in flags:
+            flag_counts[flag] += 1
+
+        if stale:
+            stale_ids.append(rid)
+        elif latest["evidence"] == "full_read":
+            valid_direct += 1
+        elif latest["evidence"] == "manifest_edit":
+            valid_manifest += 1
+
+        ledger_rows.append({
+            "id": rid,
+            "context_state": state,
+            "evidence": latest["evidence"],
+            "batch_id": latest["batch"],
+            "reviewed_commit": latest["reviewed_commit"],
+            "basis_sha256": hist_basis,
+            "current_basis_sha256": cur_basis,
+            "english_sha": english_pin,
+            "consumer_signature": cur_sig,
+            "flags": flags,
+            "propagated_from": None,
+        })
+
+    valid_context = valid_direct + valid_manifest
+    unreviewed = len(accepted_ids) - valid_context - len(stale_ids)
+
+    groups = defaultdict(list)
+    for rid, row in current.items():
+        key = (row["japanese"], row["korean"], row["layout"], consumer_signature(row))
+        groups[key].append(rid)
+    duplicate_groups = [ids for ids in groups.values() if len(ids) > 1]
+    propagation_candidate_extra = sum(len(ids) - 1 for ids in duplicate_groups)
+    duplicate_member_ids = sum(len(ids) for ids in duplicate_groups)
+
+    group_doc = {
+        "version": 2,
+        "korean_head": current_sha,
+        "english_sha": english_pin,
+        "accepted_ids": len(accepted_ids),
+        "unique_strict_signatures": len(groups),
+        "strict_duplicate_groups": len(duplicate_groups),
+        "strict_duplicate_member_ids": duplicate_member_ids,
+        "strict_propagation_candidate_extra_ids": propagation_candidate_extra,
+        "counting_policy": "Candidate-only. No propagation is credited until a representative is directly reviewed and every member matches exact JP+KO+layout+consumer_signature at that review basis."
     }
+    (root / args.groups).write_text(json.dumps(group_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    ledger_path = root / args.ledger
-    ledger_path.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    out_path = root / args.jsonl
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8") as fh:
+        for row in ledger_rows:
+            fh.write(json.dumps(row, ensure_ascii=False) + "\n")
 
     total_manifest_records = sum(x["records"] for x in per_batch)
     lines = [
-        "# Beta1 Language Review Coverage",
-        "",
-        "> Generated by `tools/korean/build-beta1-review-ledger.py`. Do not hand-edit the generated ledger or this summary.",
-        "",
-        "## Current coverage",
-        "",
+        "# Beta1 Language Review Coverage v2", "",
+        "> Generated. Do not hand-edit `translations/korean/review-ledger.jsonl` or this summary.", "",
+        "## Authoritative current coverage", "",
         f"- Accepted Korean IDs: **{len(accepted_ids):,}**",
-        f"- Proven contextual review, unique IDs: **{context_reviewed:,} ({context_reviewed * 100 / len(accepted_ids):.3f}%)**",
-        f"  - `CONTEXT_EDIT`: **{context_edit:,}**",
-        f"  - `CONTEXT_KEEP`: **{context_keep:,}**",
-        f"- `AUTO_ONLY`: **{auto_only:,}**",
-        f"- Approved manifest records (not de-duplicated across batches): **{total_manifest_records:,}**",
-        "",
-        "## Counting rule",
-        "",
-        "A scanner hit, regex candidate, or automated QA pass is not counted as human/contextual coverage. An ID becomes context-reviewed only when an explicit reviewed scope proves it was read, or an approved contextual-copyedit manifest proves review through an applied edit. This intentionally understates historical coverage rather than inventing KEEP decisions.",
-        "",
-        "## Explicit full-review scopes",
-        "",
+        f"- Valid contextual review: **{valid_context:,} ({valid_context * 100 / len(accepted_ids):.3f}%)**",
+        f"  - direct `full_read`: **{valid_direct:,}**",
+        f"  - direct `manifest_edit`: **{valid_manifest:,}**",
+        "  - propagated: **0** (not yet credited)",
+        f"- `CONTEXT_STALE`: **{len(stale_ids):,}**",
+        f"- `UNREVIEWED` for contextual purposes: **{unreviewed:,}**",
+        f"- Approved manifest records (historical, non-deduplicated): **{total_manifest_records:,}**", "",
+        "A row is valid only when its historical review basis still matches current",
+        "`SHA256(JP + NUL + pinned EN + NUL + KO + NUL + layout + NUL + consumer_signature)`.",
+        "Mismatch automatically reports `CONTEXT_STALE` and removes the row from valid coverage.", "",
+        "## Orthogonal flags currently derived", "",
+        f"- `PERSISTED_LAYOUT`: **{flag_counts['PERSISTED_LAYOUT']:,}** among ledger rows",
+        f"- `ALIAS_GROUP`: **{flag_counts['ALIAS_GROUP']:,}** among ledger rows",
+        f"- `SOURCE_ANOMALY`: **{flag_counts['SOURCE_ANOMALY']:,}** among ledger rows",
+        "- `FIXED_BUFFER` / `RUNTIME_PENDING`: **not guessed**; pending integration with a repository-derived consumer/runtime map.", "",
+        "## Strict propagation candidates (not coverage)", "",
+        f"- Unique strict signatures: **{len(groups):,}**",
+        f"- Duplicate strict-signature groups: **{len(duplicate_groups):,}**",
+        f"- IDs inside such groups: **{duplicate_member_ids:,}**",
+        f"- Potential extra IDs after one representative review per group: **{propagation_candidate_extra:,}**", "",
+        "Strict signature requires exact Japanese + exact Korean + exact persisted layout +",
+        "repository-visible consumer signature (paths, alias multiplicity, raw consumer metadata, persisted-layout state).",
+        "These are candidates only; no automatic KEEP propagation is credited.", "",
+        "## Historical edit manifests", "",
+        "| Batch | Records | Unique IDs | Manifest |", "| --- | ---: | ---: | --- |",
     ]
-    if scope_rows:
-        lines += ["| Batch | Scope | IDs | Evidence |", "| --- | --- | ---: | --- |"]
-        for row in scope_rows:
-            lines.append(f"| {row['batch']} | {row['kind']} | {row['count']:,} | {row['evidence']} |")
-    else:
-        lines.append("None recorded.")
-    lines += ["", "## Approved edit manifests", "", "| Batch | Records | Unique IDs | Manifest |", "| --- | ---: | ---: | --- |"]
     for row in per_batch:
         lines.append(f"| {row['batch']} | {row['records']:,} | {row['unique_ids']:,} | `{row['manifest']}` |")
-    lines += [
-        "",
-        "## Interpretation",
-        "",
-        "This percentage is **proven unique contextual coverage**, not an estimate of translation quality. The true amount historically read may be higher; it is deliberately not credited unless auditable evidence exists. From the next sequential-review batches onward, KEEP IDs should be recorded explicitly so this percentage can become a true whole-corpus progress meter.",
-        "",
-    ]
+    lines += ["", "## Completion/quality rule", "",
+        "Coverage and accuracy are separate. Final Beta1 must additionally run a reproducible",
+        "random second-pass audit of the valid KEEP population (target sample: 200); a correction",
+        "rate above 5% invalidates the assumption that KEEP coverage is reliable and requires expanded re-review.",
+        "Final scanners must include scanners introduced after the reviewed batches; scanner-zero alone is not",
+        "evidence of whole-corpus correctness.", ""]
     (root / args.summary).write_text("\n".join(lines), encoding="utf-8")
+
+    print(json.dumps({
+        "status": "PASS", "schema_version": 2, "accepted": len(accepted_ids),
+        "valid_context": valid_context, "stale": len(stale_ids), "unreviewed": unreviewed,
+        "direct_full_read": valid_direct, "manifest_edit": valid_manifest, "propagated": 0,
+        "strict_duplicate_groups": len(duplicate_groups),
+        "strict_propagation_candidate_extra_ids": propagation_candidate_extra,
+        "stale_ids": stale_ids,
+    }, ensure_ascii=False, indent=2))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
