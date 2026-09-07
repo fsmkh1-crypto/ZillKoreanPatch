@@ -24,9 +24,9 @@ Rapid-scan candidate means visible KO <= 20 and visible JP <= 20, no non-`<end>`
 
 | Group size | IDs belonging to groups of this size |
 | ---: | ---: |
-| 1 | 33,058 |
-| 2 | 4,060 |
-| 3 | 972 |
+| 1 | 33,063 |
+| 2 | 4,058 |
+| 3 | 969 |
 | 4 | 540 |
 | 5 | 285 |
 | 6 | 168 |
