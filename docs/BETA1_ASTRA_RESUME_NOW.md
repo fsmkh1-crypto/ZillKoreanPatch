@@ -1,5 +1,9 @@
 # Beta1 Astra resume-now handoff
 
+> **OPERATING-DIRECTION UPDATE — 2026-09-08**
+>
+> The throughput/review-method decision that was still pending when this handoff was written has now been made. For current Beta1 contextual-review method, batching, throughput optimization, timing, and deferred experiments, **read `docs/BETA1_REVIEW_OPERATING_NOTICE.md` first and treat it as controlling over older throughput discussion in this handoff**. This file remains useful as historical Batch 022 evidence. Its older statements that the throughput decision is still pending are historical, not current direction.
+
 ## Exact stop point: Batch 022 COMPLETE / throughput baseline measured
 
 Date: 2026-09-07. Repository: `fsmkh1-crypto/ZillKoreanPatch`.
@@ -9,13 +13,14 @@ Always re-fetch actual remote `milestone/Beta1` HEAD before any mutation. Never 
 
 Read first:
 
-1. this file
-2. `docs/BETA1_REVIEW_PIPELINE_V3_CHECKPOINT.md`
-3. `docs/BETA1_REVIEW_LEDGER_POLICY.md`
-4. `docs/audit/beta1-review-coverage.md`
-5. `docs/audit/beta1-review-distribution.md`
-6. `docs/audit/review/throughput-022.json`
-7. `docs/audit/review/scope-022.json`
+1. `docs/BETA1_REVIEW_OPERATING_NOTICE.md` — **current operating direction**
+2. this file — historical Batch 022 handoff/baseline
+3. `docs/BETA1_REVIEW_PIPELINE_V3_CHECKPOINT.md`
+4. `docs/BETA1_REVIEW_LEDGER_POLICY.md`
+5. `docs/audit/beta1-review-coverage.md`
+6. `docs/audit/beta1-review-distribution.md`
+7. `docs/audit/review/throughput-022.json`
+8. `docs/audit/review/scope-022.json`
 
 Pinned English reference: `HK47196/zill@a98d9ce29f361d666ec23da0dcfd351f24537ffd`.
 Japanese is semantic authority. For fixes, inspect the pinned English patch handling/reason before writing natural Korean. Do not mechanically translate English and do not invent Korean-only runtime/storage exceptions where English demonstrates the general solution.
@@ -93,6 +98,8 @@ Generated coverage commit: `61185ae08eb1008f4d7385d436a818d24f9ad990`.
 - contextual `UNREVIEWED`: **41,136**
 - pending review-basis batches: **none**
 
+> Historical note: the figures immediately above are the Batch 022 handoff snapshot, not a current-HEAD generated-coverage claim. Always use `docs/audit/beta1-review-coverage.md` at the actual remote HEAD for current totals.
+
 ## Throughput measurement — central evidence for the user's speed question
 
 See `docs/audit/review/throughput-022.json`.
@@ -119,13 +126,13 @@ Derived for this batch only:
 
 Do not treat 5.5 sec/ID as an authoritative whole-corpus rate. Batch 022 was easier than Batch 021, whose EDIT rate was 50.8%, and contains many short location/item/equipment rows. The useful conclusion already supported by measurement is narrower: **successful CI is not the dominant bottleneck**; the previous claim that CI/queue overhead was the main problem was unsupported.
 
-The user asked to use this baseline to decide the actual speed strategy. Do not return to technical-marker tier splitting as if it solved throughput. Evaluate the measured 022 result first.
+Historical note: the throughput-strategy decision is no longer pending. The current decision is documented in `docs/BETA1_REVIEW_OPERATING_NOTICE.md`: preserve direct JP -> pinned EN -> KO review quality, defer EN-first/conditional-JP and parallel linguistic-review shortcuts, and optimize measured operational overhead/phase switching first.
 
 ## Exact next source point
 
-If source-order review resumes, the next accepted Korean row after `170093` is **`170095`**. Re-fetch the actual branch and source file before mutation.
+At the time this handoff was written, the next accepted Korean row after `170093` was **`170095`**. This pointer is historical. Re-fetch the actual branch, generated coverage, current candidate packet, and source tree before any mutation; do not resume from this ID blindly.
 
-Do not automatically start a larger Batch 023 or parallel lanes until the user has evaluated the 022 baseline. The next decision is a throughput-strategy decision, not a denominator-audit task.
+Do not use the old Batch 022 handoff as authority for current batch size or next source position. Follow the current candidate/coverage state and the operating notice. In particular, do not change batch size and pipeline-overhead strategy simultaneously during the next controlled throughput measurement.
 
 ## Locked Beta1 requirements
 
