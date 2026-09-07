@@ -1,4 +1,4 @@
-# Beta1 Language Review Coverage v2
+# Beta1 Language Review Coverage v3
 
 > Generated. Do not hand-edit `translations/korean/review-ledger.jsonl` or this summary.
 
@@ -6,17 +6,19 @@
 
 - Accepted Korean IDs: **42,016**
 - Valid contextual review: **467 (1.111%)**
-  - direct `full_read`: **176**
+  - legacy direct `full_read`: **176**
+  - dense `scope_full_read`: **0**
   - direct `manifest_edit`: **291**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
+- `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
 - `UNREVIEWED` for contextual purposes: **41,549**
 - Approved registered manifest records (historical, non-deduplicated): **291**
 - Pending batches lacking a registered review basis: **none**
 
-A row is valid only when its historical review basis still matches current
-`SHA256(JP + NUL + pinned EN + NUL + KO + NUL + layout + NUL + consumer_signature)`.
-Mismatch automatically reports `CONTEXT_STALE` and removes the row from valid coverage.
+Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
+Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.
+For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one changed ID never invalidates the rest of its scope.
 
 ## Orthogonal flags and strict propagation candidates
 
@@ -57,7 +59,6 @@ Strict propagation candidates are derived from exact JP + exact KO + exact persi
 
 ## Completion/quality rule
 
-Coverage and accuracy are separate. Final Beta1 must additionally run a reproducible random second-pass audit
-of the valid KEEP population (target sample: 200); a correction rate above 5% requires expanded re-review.
-Final scanners must include scanners introduced after the reviewed batches; scanner-zero alone is not evidence
-of whole-corpus correctness.
+Coverage and accuracy are separate. Final Beta1 uses a reproducible second-pass sample of valid KEEP rows.
+The second-pass reviewer/model must differ from first-pass review, and propagated KEEP must be sampled above its population share.
+A correction rate above 5% requires expanded re-review. Scanner-zero alone is never whole-corpus proof.
