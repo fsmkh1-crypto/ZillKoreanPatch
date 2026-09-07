@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "scope_id": "S-019",
+  "batch_id": "019",
+  "kind": "sequential_full_read",
+  "reviewed_commit": "df0e1bb8a04b670835de1c3692634b67dde55b38",
+  "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "source_files": [
+    "translations/korean/messages/msgsec007.toml",
+    "translations/korean/messages/msgsec007-part99.toml",
+    "translations/korean/messages/msgsec008-part99.toml",
+    "translations/korean/messages/msgsec009-part99.toml"
+  ],
+  "ids": [
+    "70000", "70001", "70002", "70003", "70004", "70005", "70006", "70007", "70008", "70009", "70010", "70011", "70012", "70013", "70014", "70015", "70016", "70017", "70018", "70019", "70020", "70021", "70022", "70023", "70024", "70025", "70026", "70027", "70028", "70029",
+    "80000", "80001", "80002", "80003", "80004", "80005", "80006", "80007", "80008", "80009", "80010", "80011", "80012", "80013", "80014", "80015", "80016",
+    "90000", "90001", "90002", "90003", "90004", "90005", "90006", "90007", "90008", "90009", "90010", "90011"
+  ],
+  "edit_ids": [
+    "70002", "70003", "70008", "70009", "70015", "70018", "70026",
+    "80002", "80004", "80008", "80009", "80010", "80011", "80013", "80015",
+    "90001", "90004"
+  ],
+  "exclusions": ["70029", "80016", "90011"],
+  "packet_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "reviewer": "GPT-5.6 Sol",
+  "reviewed_at": "2026-09-07",
+  "review_method": "Sequential source-order dense full-read. For every row, Japanese meaning/context was read first, then pinned English treatment and its reason, then the Korean was judged for meaning and naturalness. Every ID was directly read; scanner/AI signals were discovery-only and no propagation was credited."
+}
