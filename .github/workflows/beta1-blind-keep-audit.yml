@@ -1,0 +1,65 @@
+name: Beta1 blind KEEP audit packet
+
+on:
+  push:
+    branches: [milestone/Beta1]
+    paths:
+      - 'docs/audit/review/blind-keep-audit-001/config.json'
+
+concurrency:
+  group: beta1-blind-keep-audit
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          path: korean
+          fetch-depth: 0
+      - uses: actions/checkout@v6
+        with:
+          repository: HK47196/zill
+          ref: a98d9ce29f361d666ec23da0dcfd351f24537ffd
+          path: english
+      - name: Build deterministic blind packet
+        working-directory: korean
+        run: |
+          python3 tools/korean/build-beta1-blind-keep-audit.py \
+            --english-root ../english \
+            --config docs/audit/review/blind-keep-audit-001/config.json \
+            --output-dir docs/audit/review/blind-keep-audit-001 \
+            --mapping-output /tmp/blind-keep-audit-001-mapping.json
+          git diff --check
+      - name: Upload private reconstruction mapping
+        uses: actions/upload-artifact@v4
+        with:
+          name: blind-keep-audit-001-private-mapping
+          path: /tmp/blind-keep-audit-001-mapping.json
+          if-no-files-found: error
+          retention-days: 30
+      - name: Commit public blind packet
+        working-directory: korean
+        run: |
+          paths=(
+            docs/audit/review/blind-keep-audit-001/packet.md
+            docs/audit/review/blind-keep-audit-001/reviewer-instructions.md
+            docs/audit/review/blind-keep-audit-001/results-template.csv
+            docs/audit/review/blind-keep-audit-001/manifest.json
+          )
+          if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
+            echo 'Blind audit packet already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "${paths[@]}"
+          git commit -m 'audit: generate blind KEEP accuracy packet 001'
+          git fetch origin milestone/Beta1
+          git rebase origin/milestone/Beta1
+          git push origin HEAD:milestone/Beta1
