@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
-"""Build Beta1 review ledger v2 with stale-proof historical review bases.
+"""Build Beta1 review ledger v3 with ID-granular stale-proof language evidence.
 
-Authoritative principles:
-- contextual state is distinct from automated QA and orthogonal flags;
-- historical review bases are reconstructed at the actual semantic commit;
-- any change to JP/EN/KO/layout/consumer signature invalidates that review;
-- scanner/mechanical-only evidence never becomes CONTEXT_KEEP;
-- propagation is never credited automatically; only strict candidate counts are reported.
+Language coverage and runtime/layout structure are deliberately separate:
+- language_basis = SHA256(JP + NUL + pinned EN + NUL + KO)
+- structural_basis = SHA256(layout + NUL + physical consumer signature)
+
+Only language_basis mismatch demotes contextual coverage to CONTEXT_STALE.
+Structural mismatch sets LAYOUT_RECHECK and is closed by layout/consumer QA, not
+by making a reviewer reread unchanged language.
+
+Historical 001-017 evidence is reconstructed at the actual semantic commit.
+New dense-read scope files are also reconstructed per ID at reviewed_commit.
+Scanner/mechanical-only evidence never becomes contextual coverage.
 """
 from __future__ import annotations
 
@@ -41,8 +46,8 @@ def git_paths_for_id(root: Path, commit: str, rid: str) -> list[str]:
     )
     if proc.returncode not in (0, 1):
         raise SystemExit(f"git grep failed id={rid} commit={commit}: {proc.stderr.strip()}")
-    paths = []
     prefix = commit + ":"
+    paths = []
     for line in proc.stdout.splitlines():
         line = line.strip()
         if not line:
@@ -103,9 +108,7 @@ def load_english(root: Path) -> dict[str, dict]:
 
 def historical_row(root: Path, commit: str, rid: str, preferred_paths: list[str]) -> dict:
     found = []
-    attempted = []
     for rel in preferred_paths:
-        attempted.append(rel)
         try:
             data = tomllib.loads(git_show_text(root, commit, rel))
         except subprocess.CalledProcessError:
@@ -114,31 +117,31 @@ def historical_row(root: Path, commit: str, rid: str, preferred_paths: list[str]
         if isinstance(row, dict) and isinstance(row.get("korean"), str):
             found.append({"path": rel, **row})
     if not found:
-        historical_paths = git_paths_for_id(root, commit, rid)
-        for rel in historical_paths:
+        for rel in git_paths_for_id(root, commit, rid):
             data = tomllib.loads(git_show_text(root, commit, rel))
             row = data.get(rid)
             if isinstance(row, dict) and isinstance(row.get("korean"), str):
                 found.append({"path": rel, **row})
     if not found:
-        raise SystemExit(f"review basis missing id={rid} commit={commit} preferred_paths={attempted}")
+        raise SystemExit(f"review basis missing id={rid} commit={commit}")
     return canonical_rows(rid, found)
 
 
-def consumer_signature(row: dict) -> str:
+def physical_consumer_signature(row: dict) -> str:
     payload = {
         "paths": row["paths"],
         "alias_count": row["alias_count"],
         "raw_consumer": row.get("consumer", ""),
-        "persisted_layout": bool(row.get("layout", "")),
     }
-    return hashlib.sha256(
-        json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
-    ).hexdigest()
+    return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
 
 
-def basis_sha(japanese: str, english: str, korean: str, layout: str, consumer_sig: str) -> str:
-    return hashlib.sha256("\0".join([japanese, english, korean, layout, consumer_sig]).encode("utf-8")).hexdigest()
+def language_basis(japanese: str, english: str, korean: str) -> str:
+    return hashlib.sha256("\0".join([japanese, english, korean]).encode("utf-8")).hexdigest()
+
+
+def structural_basis(layout: str, physical_sig: str) -> str:
+    return hashlib.sha256("\0".join([layout, physical_sig]).encode("utf-8")).hexdigest()
 
 
 def load_source_anomalies(root: Path) -> set[str]:
@@ -150,7 +153,42 @@ def load_source_anomalies(root: Path) -> set[str]:
 
 
 def event_key(event: dict):
-    return (int(event["batch"]) if str(event["batch"]).isdigit() else 10**9, event["evidence"])
+    # Dense scope IDs and manifest edits both have an explicit reviewed_commit.
+    # manifest_edit wins a tie so an edited ID is never mislabeled KEEP.
+    evidence_order = {"full_read": 0, "scope_full_read": 1, "manifest_edit": 2}
+    return (int(event.get("batch", "999999")) if str(event.get("batch", "")).isdigit() else 999999,
+            evidence_order.get(event["evidence"], 9))
+
+
+def scope_files(root: Path) -> list[Path]:
+    base = root / "docs/audit/review"
+    return sorted(base.glob("scope-*.json")) if base.exists() else []
+
+
+def validate_scope(doc: dict, path: Path, english_pin: str, accepted_ids: set[str]) -> tuple[list[str], set[str], set[str]]:
+    required = {"schema_version", "scope_id", "kind", "reviewed_commit", "english_sha", "packet_sha256", "reviewer", "ids", "edit_ids", "exclusions"}
+    missing = sorted(required - set(doc))
+    if missing:
+        raise SystemExit(f"scope {path}: missing fields {missing}")
+    if doc["schema_version"] != 1 or doc["kind"] != "sequential_full_read":
+        raise SystemExit(f"scope {path}: unsupported schema/kind")
+    if doc["english_sha"] != english_pin:
+        raise SystemExit(f"scope {path}: English SHA drift")
+    ids = [str(x) for x in doc["ids"]]
+    if len(ids) != len(set(ids)):
+        raise SystemExit(f"scope {path}: duplicate IDs")
+    bad = sorted(set(ids) - accepted_ids, key=sort_id)
+    if bad:
+        raise SystemExit(f"scope {path}: non-accepted IDs {bad[:20]}")
+    edits = {str(x) for x in doc["edit_ids"]}
+    exclusions = {str(x) for x in doc["exclusions"]}
+    if not edits <= set(ids):
+        raise SystemExit(f"scope {path}: edit_ids outside scope")
+    if not exclusions <= set(ids):
+        raise SystemExit(f"scope {path}: exclusions outside scope")
+    if edits & exclusions:
+        raise SystemExit(f"scope {path}: edit/exclusion overlap")
+    return ids, edits, exclusions
 
 
 def main() -> int:
@@ -169,9 +207,8 @@ def main() -> int:
     current_sha = git_sha(root)
     commit_map_doc = json.loads((root / args.commits).read_text(encoding="utf-8"))
     english_pin = commit_map_doc.get("english_reference_sha", ENGLISH_PIN_DEFAULT)
-    actual_english_sha = git_sha(english_root)
-    if actual_english_sha != english_pin:
-        raise SystemExit(f"English checkout drift: got {actual_english_sha}, expected {english_pin}")
+    if git_sha(english_root) != english_pin:
+        raise SystemExit("English checkout drift")
     semantic_commits = {str(k).zfill(3): str(v) for k, v in commit_map_doc["semantic_commits"].items()}
 
     current_rows_multi = load_korean_current(root)
@@ -182,8 +219,10 @@ def main() -> int:
 
     events: dict[str, list[dict]] = defaultdict(list)
     pending_batches = set()
-    scopes = json.loads((root / args.scopes).read_text(encoding="utf-8"))
-    for scope in scopes.get("reviewed_scopes", []):
+
+    # Historical range/ID scopes (currently 001) are conservative proven full reads.
+    legacy_scopes = json.loads((root / args.scopes).read_text(encoding="utf-8"))
+    for scope in legacy_scopes.get("reviewed_scopes", []):
         batch = str(scope["batch"]).zfill(3)
         if batch not in semantic_commits:
             pending_batches.add(batch)
@@ -202,6 +241,21 @@ def main() -> int:
             events[rid].append({"batch": batch, "evidence": "full_read", "state": "CONTEXT_KEEP",
                                 "reviewed_commit": semantic_commits[batch], "paths": current[rid]["paths"]})
 
+    # New dense-read scopes. Stale is ALWAYS evaluated per ID by reconstructing
+    # reviewed_commit, never at scope/packet granularity. edit_ids are omitted here
+    # because their later semantic manifest supplies CONTEXT_EDIT evidence.
+    dense_scope_meta = []
+    for path in scope_files(root):
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        ids, edits, exclusions = validate_scope(doc, path, english_pin, accepted_ids)
+        keep_ids = [rid for rid in ids if rid not in edits and rid not in exclusions]
+        for rid in keep_ids:
+            events[rid].append({"batch": doc.get("batch_id", "999"), "evidence": "scope_full_read", "state": "CONTEXT_KEEP",
+                                "reviewed_commit": doc["reviewed_commit"], "paths": current[rid]["paths"],
+                                "scope_id": doc["scope_id"], "reviewer": doc["reviewer"], "packet_sha256": doc["packet_sha256"]})
+        dense_scope_meta.append({"scope_id": doc["scope_id"], "ids": len(ids), "keeps": len(keep_ids),
+                                 "edits": len(edits), "exclusions": len(exclusions), "path": path.relative_to(root).as_posix()})
+
     per_batch = []
     for path in sorted((root / "docs/audit").glob("beta1-contextual-copyedit-*-reviewed.json")):
         m = MANIFEST_RE.search(path.name)
@@ -212,35 +266,35 @@ def main() -> int:
         ids = [str(rec["id"]) for rec in doc.get("records", [])]
         if batch not in semantic_commits:
             pending_batches.add(batch)
-            per_batch.append({"batch": batch, "records": len(ids), "unique_ids": len(set(ids)),
-                              "manifest": path.relative_to(root).as_posix(), "status": "PENDING_BASIS"})
+            per_batch.append({"batch": batch, "records": len(ids), "unique_ids": len(set(ids)), "manifest": path.relative_to(root).as_posix(), "status": "PENDING_BASIS"})
             continue
         for rec in doc.get("records", []):
             rid = str(rec["id"])
             if rid not in accepted_ids:
                 raise SystemExit(f"manifest {path.name} non-accepted id {rid}")
             events[rid].append({"batch": batch, "evidence": "manifest_edit", "state": "CONTEXT_EDIT",
-                                "reviewed_commit": semantic_commits[batch],
-                                "paths": list(rec.get("paths") or current[rid]["paths"])})
-        per_batch.append({"batch": batch, "records": len(ids), "unique_ids": len(set(ids)),
-                          "manifest": path.relative_to(root).as_posix(), "status": "REGISTERED"})
+                                "reviewed_commit": semantic_commits[batch], "paths": list(rec.get("paths") or current[rid]["paths"])})
+        per_batch.append({"batch": batch, "records": len(ids), "unique_ids": len(set(ids)), "manifest": path.relative_to(root).as_posix(), "status": "REGISTERED"})
 
     ledger_rows = []
     stale_ids = []
-    valid_direct = 0
-    valid_manifest = 0
+    layout_recheck_ids = []
+    valid_full_read = valid_scope = valid_manifest = 0
     flag_counts = defaultdict(int)
 
     for rid in sorted(events, key=sort_id):
         latest = sorted(events[rid], key=event_key)[-1]
         hist = historical_row(root, latest["reviewed_commit"], rid, latest["paths"])
         eng = english.get(rid, {}).get("english", "")
-        hist_sig = consumer_signature(hist)
-        hist_basis = basis_sha(hist["japanese"], eng, hist["korean"], hist["layout"], hist_sig)
+        hist_phys = physical_consumer_signature(hist)
         cur = current[rid]
-        cur_sig = consumer_signature(cur)
-        cur_basis = basis_sha(cur["japanese"], eng, cur["korean"], cur["layout"], cur_sig)
-        stale = hist_basis != cur_basis
+        cur_phys = physical_consumer_signature(cur)
+        hist_lang = language_basis(hist["japanese"], eng, hist["korean"])
+        cur_lang = language_basis(cur["japanese"], eng, cur["korean"])
+        hist_struct = structural_basis(hist["layout"], hist_phys)
+        cur_struct = structural_basis(cur["layout"], cur_phys)
+        stale = hist_lang != cur_lang
+        layout_recheck = hist_struct != cur_struct
         state = "CONTEXT_STALE" if stale else latest["state"]
 
         flags = []
@@ -250,85 +304,112 @@ def main() -> int:
             flags.append("ALIAS_GROUP")
         if rid in anomalies:
             flags.append("SOURCE_ANOMALY")
+        if layout_recheck:
+            flags.append("LAYOUT_RECHECK")
+            layout_recheck_ids.append(rid)
         for flag in flags:
             flag_counts[flag] += 1
 
         if stale:
             stale_ids.append(rid)
         elif latest["evidence"] == "full_read":
-            valid_direct += 1
+            valid_full_read += 1
+        elif latest["evidence"] == "scope_full_read":
+            valid_scope += 1
         else:
             valid_manifest += 1
 
-        ledger_rows.append({"id": rid, "context_state": state, "evidence": latest["evidence"],
-                            "batch_id": latest["batch"], "reviewed_commit": latest["reviewed_commit"],
-                            "basis_sha256": hist_basis, "current_basis_sha256": cur_basis,
-                            "english_sha": english_pin, "consumer_signature": cur_sig,
-                            "flags": flags, "propagated_from": None})
+        ledger_rows.append({
+            "id": rid, "context_state": state, "evidence": latest["evidence"], "batch_id": latest.get("batch"),
+            "scope_id": latest.get("scope_id"), "reviewer": latest.get("reviewer"), "reviewed_commit": latest["reviewed_commit"],
+            "packet_sha256": latest.get("packet_sha256"), "english_sha": english_pin,
+            "language_basis_sha256": hist_lang, "current_language_basis_sha256": cur_lang,
+            "structural_basis_sha256": hist_struct, "current_structural_basis_sha256": cur_struct,
+            "physical_consumer_signature": cur_phys, "flags": flags, "propagated_from": None,
+        })
 
-    valid_context = valid_direct + valid_manifest
+    valid_context = valid_full_read + valid_scope + valid_manifest
     unreviewed = len(accepted_ids) - valid_context - len(stale_ids)
 
+    # Language-equivalence candidates: exact JP + pinned EN + exact KO only.
+    # Structural/runtime metadata is retained in ledger but not used to decide
+    # linguistic equivalence. EN mismatch therefore ALWAYS splits a group.
     groups = defaultdict(list)
     for rid, row in current.items():
-        groups[(row["japanese"], row["korean"], row["layout"], consumer_signature(row))].append(rid)
-    duplicate_groups = [ids for ids in groups.values() if len(ids) > 1]
-    propagation_candidate_extra = sum(len(ids) - 1 for ids in duplicate_groups)
-    duplicate_member_ids = sum(len(ids) for ids in duplicate_groups)
-
-    group_doc = {"version": 2, "korean_head": current_sha, "english_sha": english_pin,
-                 "accepted_ids": len(accepted_ids), "unique_strict_signatures": len(groups),
-                 "strict_duplicate_groups": len(duplicate_groups),
-                 "strict_duplicate_member_ids": duplicate_member_ids,
-                 "strict_propagation_candidate_extra_ids": propagation_candidate_extra,
-                 "pending_review_basis_batches": sorted(pending_batches),
-                 "counting_policy": "Candidate-only. No propagation is credited until a representative is directly reviewed and every member matches exact JP+KO+layout+consumer_signature at that review basis."}
+        groups[(row["japanese"], english.get(rid, {}).get("english", ""), row["korean"])].append(rid)
+    duplicate_groups = [sorted(ids, key=sort_id) for ids in groups.values() if len(ids) > 1]
+    duplicate_groups.sort(key=lambda ids: sort_id(ids[0]))
+    group_doc = {
+        "version": 4, "korean_head": current_sha, "english_sha": english_pin, "accepted_ids": len(accepted_ids),
+        "authority": "language-equivalence candidate = exact JP + exact pinned EN + exact KO; EN mismatch forbids propagation",
+        "unique_language_signatures": len(groups), "duplicate_language_groups": len(duplicate_groups),
+        "duplicate_member_ids": sum(len(ids) for ids in duplicate_groups),
+        "propagation_candidate_extra_ids": sum(len(ids)-1 for ids in duplicate_groups),
+        "pending_review_basis_batches": sorted(pending_batches),
+        "counting_policy": "Candidate-only. KEEP propagation requires representative review with every member context displayed; propagated KEEP is over-sampled in second-pass QA. EDIT uses the same language-equivalence signature plus exact-before manifest gates.",
+        "groups": [{"representative": ids[0], "ids": ids} for ids in duplicate_groups],
+    }
     (root / args.groups).write_text(json.dumps(group_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     out_path = root / args.jsonl
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open("w", encoding="utf-8") as fh:
         for row in ledger_rows:
-            fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+            fh.write(json.dumps(row, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n")
 
     total_manifest_records = sum(x["records"] for x in per_batch if x["status"] == "REGISTERED")
-    lines = ["# Beta1 Language Review Coverage v2", "",
-             "> Generated. Do not hand-edit `translations/korean/review-ledger.jsonl` or this summary.", "",
-             "## Authoritative current coverage", "", f"- Accepted Korean IDs: **{len(accepted_ids):,}**",
-             f"- Valid contextual review: **{valid_context:,} ({valid_context * 100 / len(accepted_ids):.3f}%)**",
-             f"  - direct `full_read`: **{valid_direct:,}**", f"  - direct `manifest_edit`: **{valid_manifest:,}**",
-             "  - propagated: **0** (not yet credited)", f"- `CONTEXT_STALE`: **{len(stale_ids):,}**",
-             f"- `UNREVIEWED` for contextual purposes: **{unreviewed:,}**",
-             f"- Approved registered manifest records (historical, non-deduplicated): **{total_manifest_records:,}**",
-             f"- Pending batches lacking a registered review basis: **{', '.join(sorted(pending_batches)) if pending_batches else 'none'}**", "",
-             "A row is valid only when its historical review basis still matches current",
-             "`SHA256(JP + NUL + pinned EN + NUL + KO + NUL + layout + NUL + consumer_signature)`.",
-             "Mismatch automatically reports `CONTEXT_STALE` and removes the row from valid coverage.", "",
-             "## Orthogonal flags currently derived", "", f"- `PERSISTED_LAYOUT`: **{flag_counts['PERSISTED_LAYOUT']:,}** among ledger rows",
-             f"- `ALIAS_GROUP`: **{flag_counts['ALIAS_GROUP']:,}** among ledger rows",
-             f"- `SOURCE_ANOMALY`: **{flag_counts['SOURCE_ANOMALY']:,}** among ledger rows",
-             "- `FIXED_BUFFER` / `RUNTIME_PENDING`: **not guessed**; pending integration with a repository-derived consumer/runtime map.", "",
-             "## Strict propagation candidates (not coverage)", "", f"- Unique strict signatures: **{len(groups):,}**",
-             f"- Duplicate strict-signature groups: **{len(duplicate_groups):,}**", f"- IDs inside such groups: **{duplicate_member_ids:,}**",
-             f"- Potential extra IDs after one representative review per group: **{propagation_candidate_extra:,}**", "",
-             "Strict signature requires exact Japanese + exact Korean + exact persisted layout + repository-visible consumer signature.",
-             "These are candidates only; no automatic KEEP propagation is credited.", "", "## Historical edit manifests", "",
-             "| Batch | Status | Records | Unique IDs | Manifest |", "| --- | --- | ---: | ---: | --- |"]
+    lines = [
+        "# Beta1 Language Review Coverage v3", "",
+        "> Generated. Do not hand-edit `translations/korean/review-ledger.jsonl` or this summary.", "",
+        "## Authoritative current coverage", "",
+        f"- Accepted Korean IDs: **{len(accepted_ids):,}**",
+        f"- Valid contextual review: **{valid_context:,} ({valid_context * 100 / len(accepted_ids):.3f}%)**",
+        f"  - legacy direct `full_read`: **{valid_full_read:,}**",
+        f"  - dense `scope_full_read`: **{valid_scope:,}**",
+        f"  - direct `manifest_edit`: **{valid_manifest:,}**",
+        "  - propagated: **0** (not yet credited)",
+        f"- `CONTEXT_STALE`: **{len(stale_ids):,}**",
+        f"- `LAYOUT_RECHECK`: **{len(layout_recheck_ids):,}** (orthogonal; does not erase language coverage)",
+        f"- `UNREVIEWED` for contextual purposes: **{unreviewed:,}**",
+        f"- Approved registered manifest records (historical, non-deduplicated): **{total_manifest_records:,}**",
+        f"- Pending batches lacking a registered review basis: **{', '.join(sorted(pending_batches)) if pending_batches else 'none'}**", "",
+        "Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.",
+        "Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.",
+        "For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one changed ID never invalidates the rest of its scope.", "",
+        "## Orthogonal flags currently derived", "",
+        f"- `PERSISTED_LAYOUT`: **{flag_counts['PERSISTED_LAYOUT']:,}** among ledger rows",
+        f"- `ALIAS_GROUP`: **{flag_counts['ALIAS_GROUP']:,}** among ledger rows",
+        f"- `SOURCE_ANOMALY`: **{flag_counts['SOURCE_ANOMALY']:,}** among ledger rows",
+        f"- `LAYOUT_RECHECK`: **{flag_counts['LAYOUT_RECHECK']:,}** among ledger rows", "",
+        "## Language propagation candidates (not coverage)", "",
+        "Candidate signature is exact Japanese + exact pinned English + exact Korean. EN mismatch is an unconditional split.",
+        f"- Unique language signatures: **{len(groups):,}**",
+        f"- Duplicate groups: **{len(duplicate_groups):,}**",
+        f"- IDs inside duplicate groups: **{sum(len(x) for x in duplicate_groups):,}**",
+        f"- Potential extra IDs: **{sum(len(x)-1 for x in duplicate_groups):,}**", "",
+        "## Dense review scopes", "",
+    ]
+    if dense_scope_meta:
+        lines += ["| Scope | IDs | KEEP | EDIT | Excluded | File |", "| --- | ---: | ---: | ---: | ---: | --- |"]
+        for s in dense_scope_meta:
+            lines.append(f"| {s['scope_id']} | {s['ids']:,} | {s['keeps']:,} | {s['edits']:,} | {s['exclusions']:,} | `{s['path']}` |")
+    else:
+        lines.append("- none yet")
+    lines += ["", "## Historical edit manifests", "", "| Batch | Status | Records | Unique IDs | Manifest |", "| --- | --- | ---: | ---: | --- |"]
     for row in per_batch:
         lines.append(f"| {row['batch']} | {row['status']} | {row['records']:,} | {row['unique_ids']:,} | `{row['manifest']}` |")
     lines += ["", "## Completion/quality rule", "",
-              "Coverage and accuracy are separate. Final Beta1 must additionally run a reproducible random second-pass audit",
-              "of the valid KEEP population (target sample: 200); a correction rate above 5% requires expanded re-review.",
-              "Final scanners must include scanners introduced after the reviewed batches; scanner-zero alone is not evidence",
-              "of whole-corpus correctness.", ""]
+              "Coverage and accuracy are separate. Final Beta1 uses a reproducible second-pass sample of valid KEEP rows.",
+              "The second-pass reviewer/model must differ from first-pass review, and propagated KEEP must be sampled above its population share.",
+              "A correction rate above 5% requires expanded re-review. Scanner-zero alone is never whole-corpus proof.", ""]
     (root / args.summary).write_text("\n".join(lines), encoding="utf-8")
 
-    print(json.dumps({"status": "PASS", "schema_version": 2, "accepted": len(accepted_ids),
-                      "valid_context": valid_context, "stale": len(stale_ids), "unreviewed": unreviewed,
-                      "direct_full_read": valid_direct, "manifest_edit": valid_manifest, "propagated": 0,
-                      "pending_review_basis_batches": sorted(pending_batches),
-                      "strict_duplicate_groups": len(duplicate_groups),
-                      "strict_propagation_candidate_extra_ids": propagation_candidate_extra,
+    print(json.dumps({"status": "PASS", "schema_version": 3, "accepted": len(accepted_ids), "valid_context": valid_context,
+                      "stale": len(stale_ids), "layout_recheck": len(layout_recheck_ids), "unreviewed": unreviewed,
+                      "legacy_full_read": valid_full_read, "scope_full_read": valid_scope, "manifest_edit": valid_manifest,
+                      "propagated": 0, "pending_review_basis_batches": sorted(pending_batches),
+                      "duplicate_language_groups": len(duplicate_groups),
+                      "propagation_candidate_extra_ids": sum(len(x)-1 for x in duplicate_groups),
                       "stale_ids": stale_ids}, ensure_ascii=False, indent=2))
     return 0
 
