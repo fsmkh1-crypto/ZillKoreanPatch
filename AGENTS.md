@@ -136,6 +136,9 @@ Before any Korean dialogue copy-editing, translation adjustment, layout/reflow c
 - `docs/KOREAN_TRANSLATION_STYLE.md`
 - `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md`
 - `docs/CLAUDE_FULL_REVIEW_DECISION_2026-09-06.md` while the accepted review blockers remain open
+- **`docs/BETA1_REVIEW_OPERATING_NOTICE.md` for any Beta1 contextual-review, batching, throughput, or review-pipeline work**
+
+For Beta1 contextual review, `docs/BETA1_REVIEW_OPERATING_NOTICE.md` is the current project-owner operating direction. It locks Japanese as semantic authority, keeps direct review in Japanese -> pinned English -> Korean order, defines English as the engine-facing/reference implementation rather than the translation semantic authority, and prioritizes measured operational-overhead compression over new linguistic shortcuts or parallel-review experiments. Older throughput/handoff discussion is historical where it conflicts with that notice.
 
 The pre-flight checklist in `docs/KOREAN_DIALOGUE_QA_PROTOCOL.md` is mandatory per batch/baseline. Repeat it whenever the branch/HEAD/baseline changes, work resumes after handoff, scope changes materially, or concurrent changes are detected. Do not mutate Korean dialogue records until the applicable checklist is complete for the current batch.
 
