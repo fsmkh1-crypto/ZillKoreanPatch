@@ -38,13 +38,15 @@ jobs:
         run: |
           shopt -s nullglob
           scopes=(docs/audit/review/scope-*.json)
-          if [ ${#scopes[@]} -eq 0 ]; then
+          found=0
+          for scope in "${scopes[@]}"; do
+            case "$scope" in *-request.json) continue ;; esac
+            found=1
+            python3 tools/korean/build-beta1-review-packet.py \
+              --english-root ../english --scope "$scope" --verify
+          done
+          if [ "$found" -eq 0 ]; then
             echo 'No dense scopes yet.'
-          else
-            for scope in "${scopes[@]}"; do
-              python3 tools/korean/build-beta1-review-packet.py \
-                --english-root ../english --scope "$scope" --verify
-            done
           fi
       - name: Rebuild language ledger without heavy Go gates
         working-directory: korean
