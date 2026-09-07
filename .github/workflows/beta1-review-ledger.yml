@@ -9,8 +9,14 @@ on:
       - 'docs/audit/beta1-contextual-copyedit-*-reviewed.json'
       - 'docs/audit/beta1-context-review-scopes.json'
       - 'docs/audit/beta1-context-review-commits.json'
+      - 'release/layout/consumer-map.toml'
+      - 'release/layout/categories.toml'
+      - 'internal/layout/**'
+      - 'internal/release/korean_consumer_storage_test.go'
       - 'tools/korean/known-source-anomalies.toml'
       - 'tools/korean/build-beta1-review-ledger.py'
+      - 'tools/korean/build-beta1-review-consumer-map.py'
+      - 'tools/korean/enrich-beta1-review-ledger.py'
       - '.github/workflows/beta1-review-ledger.yml'
   workflow_dispatch:
 
@@ -31,10 +37,23 @@ jobs:
           repository: HK47196/zill
           ref: a98d9ce29f361d666ec23da0dcfd351f24537ffd
           path: english
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: korean/go.mod
+          cache-dependency-path: korean/go.sum
+      - name: Export repository-derived runtime evidence
+        working-directory: korean
+        run: |
+          go test -v ./internal/release -run TestCurrentKoreanCorpusEnglishConsumerStorageContracts -count=1 | tee /tmp/beta1-review-runtime.log
+          python3 tools/korean/build-beta1-review-consumer-map.py \
+            --english-root ../english \
+            --runtime-log /tmp/beta1-review-runtime.log \
+            --output /tmp/beta1-review-consumers.json
       - name: Build stale-proof review ledger
         working-directory: korean
         run: |
           python3 tools/korean/build-beta1-review-ledger.py --english-root ../english
+          python3 tools/korean/enrich-beta1-review-ledger.py --consumer-map /tmp/beta1-review-consumers.json
           git diff --check
       - name: Commit generated review coverage
         working-directory: korean
