@@ -126,7 +126,7 @@ korean = "있지, 우선 고맙다는 말부터 할게. 고마워. 난 테라네
 
 ["450032"]
 japanese = "<value:$28>って言うんだね。<line-break>ありがとう、<value:$28>。<line-break><line-break>君がいなければ、やられていた。<line-break>また、あのときのように…。<end>"
-korean = "<value:$28>이라고 하는구나. 고마워, <value:$28>. 네가 없었으면 당했을 거야. 또 그때처럼….<end>"
+korean = "그래, 이름은 <value:$28>. 고마워, <value:$28>. 네가 없었으면 당했을 거야. 또 그때처럼….<end>"
 
 ["450033"]
 japanese = "力が…欲しい…。<end>"
@@ -182,7 +182,7 @@ korean = "너는?<end>"
 
 ["450046"]
 japanese = "<value:$28>…<line-break>っていうんだね…。　　　　<line-break><line-break>大丈夫、<value:$28>？<line-break>ケガしてない？<end>"
-korean = "<value:$28>…이라고 하는구나…. 괜찮아, <value:$28>? 다친 데 없어?<end>"
+korean = "그래, 이름은 <value:$28>…. 괜찮아, <value:$28>? 다친 데 없어?<end>"
 
 ["450047"]
 japanese = "ゴメンね…、ケガさせちゃって。<end>"
@@ -218,7 +218,7 @@ korean = "알겠어.<end>"
 
 ["450055"]
 japanese = "それじゃ、僕、<value:$28>が<line-break>呼び出してくれるのを待ってるよ。<end>"
-korean = "그럼 난 <value:$28>이 불러 줄 때까지 기다리고 있을게.<end>"
+korean = "그럼 난 부름을 받을 때까지 기다리고 있을게, <value:$28>.<end>"
 
 ["450056"]
 japanese = "ナッジを今すぐに<line-break>仲間に加えますか？<end>"
@@ -234,7 +234,7 @@ korean = "알겠어.<end>"
 
 ["450059"]
 japanese = "それじゃ、僕、<value:$28>が<line-break>呼び出してくれるのを待ってるよ。<end>"
-korean = "그럼 난 <value:$28>이 불러 줄 때까지 기다리고 있을게.<end>"
+korean = "그럼 난 부름을 받을 때까지 기다리고 있을게, <value:$28>.<end>"
 
 ["450060"]
 japanese = "そう…。残念だよ。<line-break><value:$28>…。<end>"
@@ -278,7 +278,7 @@ korean = "하지만 반만은 달랐어. 반은 정말 순수하게 친구로서
 
 ["450070"]
 japanese = "でも、ヴァンは、冒険者とケンカして<line-break>ひどいケガをしてしまったんだ。<line-break>その冒険者が…あのガルドランさ。<end>"
-korean = "하지만 반은 모험가와 싸우다가 크게 다쳤어. 그 모험가가… 갈드란이야.<end>"
+korean = "하지만 반은 모험자와 싸우다가 크게 다쳤어. 그 모험자가… 갈드란이야.<end>"
 
 ["450071"]
 japanese = "それから僕は、旅に出たんだ。<line-break>もちろん、ヴァンの仇も討ちたい。<line-break>それも旅の理由ではあるんだけど…。<end>"
@@ -386,7 +386,7 @@ korean = "미안해, <value:$28>. 내가 같이 있었던 탓에….<end>"
 
 ["450097"]
 japanese = "ヴァンのおじさんはちょっと<line-break>思いこみが強いとこがあって、　　　　<line-break>　<line-break>僕がみなしごだったから、<line-break>前から僕のことを目の敵にしてたんだ。<end>"
-korean = "반 아저씨는 조금 생각이 지나친 데가 있어. 내가 고아라서 예전부터 나를 눈엣가시로 여겼거든.<end>"
+korean = "반의 아버지는 한번 생각하면 잘 바꾸지 않는 데가 있어. 내가 고아라서 예전부터 나를 눈엣가시로 여겼거든.<end>"
 
 ["450098"]
 japanese = "だから君までこんなことに　　　　　　<line-break>巻き込んじゃった。<line-break>…本当にごめんね。<end>"
@@ -394,7 +394,7 @@ korean = "그래서 너까지 이런 일에 휘말리게 했어. …정말 미�
 
 ["450099"]
 japanese = "ヴァンのおじさんが<line-break>僕を嫌ってたわけ？　　　　　　<line-break>　<line-break>…みなしごがいると<line-break>町の雰囲気が悪くなるんだって。<end>"
-korean = "반 아저씨가 나를 싫어했던 거야? …고아가 있으면 마을 분위기가 나빠진대.<end>"
+korean = "반의 아버지가 나를 싫어했던 이유? …고아가 있으면 마을 분위기가 나빠진대.<end>"
 
 ["450100"]
 japanese = "…コーンスだってのも嫌ってた。<line-break>モンスターみたいで<line-break>気味が悪いんだって。<end>"
@@ -406,7 +406,7 @@ korean = "아니, 딱히 괜찮아.<end>"
 
 ["450102"]
 japanese = "…ヴァンのおじさんだけが<line-break>そう思ってたわけじゃないから。<end>"
-korean = "…반 아저씨만 그렇게 생각한 건 아니니까.<end>"
+korean = "…반의 아버지만 그렇게 생각한 건 아니니까.<end>"
 
 ["450103"]
 japanese = "人間はね、自分たちと違うものを<line-break>嫌い、恐がるんだよ。<end>"
@@ -430,7 +430,7 @@ korean = "훌쩍…. 멋없지.<end>"
 
 ["450108"]
 japanese = "…ごめん…ひとりに、<line-break>してほしいんだ。<end>"
-korean = "…미안… 혼자 있게해 줬으면 해.<end>"
+korean = "…미안… 혼자 있게 해 줬으면 해.<end>"
 
 ["450109"]
 japanese = "おかえり、<value:$28>。<end>"
@@ -442,7 +442,7 @@ korean = "반의 아버지도 반의 말은 듣는 모양이야. 요즘 이 마�
 
 ["450111"]
 japanese = "<select><value:$20>%2ヴァンと<value:$28>と僕…<line-break>３人、いつも一緒だよね。ふふふ。<end>最近、ヴァンのお父さんの風当たりが<line-break>強くって、この町にもいづらいけど…<line-break>　<line-break>ボンガさんが、僕らのこと<line-break>理解してもらえるように、<line-break>町のみんなを説得してくれてるから…。<end>"
-korean = "<select><value:$20>%2반과 <value:$28>와 나… 우리 셋은 늘 함께지. 후후.<end>요즘 반의 아버지가 우리를 못마땅해해서 이 마을에 있기도 힘들지만… 봉가 씨가 우리를 이해해 주도록 마을 사람들을 설득해 주고 있으니까….<end>"
+korean = "<select><value:$20>%2반, <value:$28>, 그리고 나… 우리 셋은 늘 함께지. 후후.<end>요즘 반의 아버지가 우리를 못마땅해해서 이 마을에 있기도 힘들지만… 봉가 씨가 우리를 이해해 주도록 마을 사람들을 설득해 주고 있으니까….<end>"
 
 ["450112"]
 japanese = "ねえ、<value:$28>…。<line-break>ヴァン、…大丈夫だよね。<end>"

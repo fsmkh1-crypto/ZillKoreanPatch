@@ -82,11 +82,11 @@ korean = "아, <value:$28>님. 에스트 님에게서 뭔가 전갈이 온 모�
 
 ["410020"]
 japanese = "<value:$28>様ですか？<line-break>エスト様からお言づてがあります。　　<line-break>　<line-break>詳しくは、レムオン様が<line-break>聞いているとのことです。<end>中にお入りください。<end>"
-korean = "<value:$28> 님이십니까? 에스트 님께서 전언을 남기셨습니다. 자세한 내용은 레무온 님께서 듣고 계신다고 합니다.<end>안으로 들어가십시오.<end>"
+korean = "<value:$28> 님이십니까? 에스트 님께서 전언을 남기셨습니다. 자세한 내용은 레무온 님께서 알고 계신다고 합니다.<end>안으로 들어가십시오.<end>"
 
 ["410021"]
 japanese = "エストから、手紙を預かった。<line-break>確かに渡したぞ。<end>"
-korean = "에스트에게 편지를 맡았다. 확실히 전해 줬다.<end>"
+korean = "에스트에게서 편지를 맡았다. 확실히 전해 줬다.<end>"
 
 ["410022"]
 japanese = "　　　　<value:$28>、元気かい？<line-break>　　　　研究は今のところ順調だよ。<line-break><line-break><line-break>　　　闇の神器は、素晴らしい物だよ。<line-break>　　　　所有するだけで、僕の魔力が<line-break>　　　　　　高まっていくんだ。<end>"
@@ -114,7 +114,7 @@ korean = "나도 아직 멀었군….<end>"
 
 ["410028"]
 japanese = "…ここは、<value:$28>が<line-break>決着をつけるべきだ。　　　　<end>"
-korean = "…여기는 <value:$28>이 결판을 내야 해.<end>"
+korean = "…이번 일은 <value:$28>에게 결판을 맡겨야 해.<end>"
 
 ["410029"]
 japanese = "危ない！　奴はソウルを吸い取って<line-break>回復しようとしている！<line-break>　<line-break>逃げろ！<line-break><value:$28>！<end>"
@@ -130,7 +130,7 @@ korean = "<value:$28> 씨!!<end>"
 
 ["410032"]
 japanese = "まて、あれは…、<line-break><value:$28>を回復してやがる…。<end>"
-korean = "잠깐, 저건… <value:$28>을 회복시키고 있어….<end>"
+korean = "잠깐, 저건… <value:$28>의 상태를 회복시키고 있어….<end>"
 
 ["410033"]
 japanese = "バカな！<line-break>神器に支配された者に<line-break>慈しみの心など…！<end>"
@@ -150,7 +150,7 @@ korean = "…구하러… 와 준 거야?<end>"
 
 ["410038"]
 japanese = "うれしいよ、君の姿が見られて…。<line-break>さ…早く、僕を…殺して。<end>"
-korean = "기뻐, 네 모습을 볼 수 있어서… 자… 어서, 나를… 죽여줘.<end>"
+korean = "기뻐, 네 모습을 볼 수 있어서… 빠… 빨리, 나를… 죽여 줘.<end>"
 
 ["410039"]
 japanese = "無限のソウル…？<line-break>バカな。まだ発動していないはず…。<end>"
@@ -470,7 +470,7 @@ korean = "노엘, 나와 레이븐은 신기를 안전한 곳까지 가져가겠
 
 ["410119"]
 japanese = "<value:$28>をカフィンと排除し、<line-break>エストという魔道士を退治したまえ！　<end>"
-korean = "<value:$28>를 카핀과 함께 제거하고, 에스트라는 마도사를 쓰러뜨리게!<end>"
+korean = "카핀과 함께 <value:$28> 쪽을 제거하고, 에스트라는 마도사를 쓰러뜨리게!<end>"
 
 ["410120"]
 japanese = "で、でも…。<end>"
@@ -478,7 +478,7 @@ korean = "하, 하지만….<end>"
 
 ["410121"]
 japanese = "<value:$28>を殺せとは言わん。<line-break>世界全体の人の命がかかっているのだ！<end>"
-korean = "<value:$28>을 죽이라는 말은 하지 않겠다. 세계 전체 사람들의 목숨이 걸려 있다!<end>"
+korean = "<value:$28>의 목숨까지 빼앗으라는 말은 아니다. 세계 전체 사람들의 목숨이 걸려 있다!<end>"
 
 ["410122"]
 japanese = "…ごめんなさい！<line-break><value:$28>さん！<end>"
@@ -506,11 +506,11 @@ korean = "아니. 그 엘프 말고는 알아준 것 같고. 난 이제 괜찮�
 
 ["410128"]
 japanese = "あのエルフ、たぶん竜王の使者だよ。<line-break>彼は竜王の命で僕を処理しに来たんだ。<line-break>　<line-break>君も気をつけて。<line-break>竜王は自分の箱庭の均衡を崩す者を<line-break>許さないから…。<end>"
-korean = "그 엘프, 아마 용왕의 사자일 거야. 그는 용왕의 명으로 나를 처리하러 온 거지. 너도 조심해. 용왕은 자기 정원의 균형을 깨는 자를용서하지 않으니까….<end>"
+korean = "그 엘프, 아마 용왕의 사자일 거야. 그는 용왕의 명으로 나를 처리하러 온 거지. 너도 조심해. 용왕은 자기 정원의 균형을 깨는 자를 용서하지 않으니까….<end>"
 
 ["410129"]
 japanese = "やっぱり待って！　カフィン！<end>"
-korean = "역시 기다려! 카핀!<end>"
+korean = "아니, 잠깐! 카핀!<end>"
 
 ["410130"]
 japanese = "え？<end>"
@@ -570,15 +570,15 @@ korean = "고마워. 나는 에스트 류가. 고고학자야. 너는?<end>"
 
 ["410145"]
 japanese = "そうか！　ふふふふっ。　　　　　　　<line-break>君があの<value:$28>なんだ。<line-break>　<line-break>兄さんからの手紙で聞いてるよ。<line-break>エリエナイ公レムオン・リューガは<line-break>僕の兄さんなんだ。そうか…。君が…。<end>"
-korean = "그렇구나! 후후후. 네가 그 <value:$28>구나. 형님 편지에서 들었어. 에리에나이 공 레무온 류가는 내 형이야. 그렇구나…. 네가….<end>"
+korean = "그렇구나! 후후후. 바로 <value:$28>… 네가 그 사람이구나. 형이 보낸 편지에서 들었어. 에리에나이 공 레무온 류가는 내 형이야. 그렇구나…. 네가….<end>"
 
 ["410146"]
 japanese = "<value:$28>、<line-break>これからも兄さんをよろしくね。<end>"
-korean = "<value:$28>, 앞으로도 오빠를 잘 부탁해.<end>"
+korean = "<value:$28>, 앞으로도 형을 잘 부탁해.<end>"
 
 ["410147"]
 japanese = "<value:$28>っていうんだ…。<line-break>本当に、ありがとうね。<end>"
-korean = "<value:$28>이라고 하는구나…. 정말 고마워.<end>"
+korean = "이름은 <value:$28>…. 정말 고마워.<end>"
 
 ["410148"]
 japanese = "ナーシェス！<end>"
