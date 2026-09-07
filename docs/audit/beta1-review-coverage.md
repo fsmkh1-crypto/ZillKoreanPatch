@@ -11,7 +11,8 @@
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `UNREVIEWED` for contextual purposes: **41,549**
-- Approved manifest records (historical, non-deduplicated): **291**
+- Approved registered manifest records (historical, non-deduplicated): **291**
+- Pending batches lacking a registered review basis: **none**
 
 A row is valid only when its historical review basis still matches current
 `SHA256(JP + NUL + pinned EN + NUL + KO + NUL + layout + NUL + consumer_signature)`.
@@ -36,24 +37,24 @@ These are candidates only; no automatic KEEP propagation is credited.
 
 ## Historical edit manifests
 
-| Batch | Records | Unique IDs | Manifest |
-| --- | ---: | ---: | --- |
-| 002 | 44 | 44 | `docs/audit/beta1-contextual-copyedit-002-reviewed.json` |
-| 003 | 32 | 32 | `docs/audit/beta1-contextual-copyedit-003-reviewed.json` |
-| 004 | 10 | 10 | `docs/audit/beta1-contextual-copyedit-004-reviewed.json` |
-| 005 | 14 | 14 | `docs/audit/beta1-contextual-copyedit-005-reviewed.json` |
-| 006 | 47 | 47 | `docs/audit/beta1-contextual-copyedit-006-reviewed.json` |
-| 007 | 13 | 13 | `docs/audit/beta1-contextual-copyedit-007-reviewed.json` |
-| 008 | 12 | 12 | `docs/audit/beta1-contextual-copyedit-008-reviewed.json` |
-| 009 | 5 | 5 | `docs/audit/beta1-contextual-copyedit-009-reviewed.json` |
-| 010 | 36 | 36 | `docs/audit/beta1-contextual-copyedit-010-reviewed.json` |
-| 011 | 9 | 9 | `docs/audit/beta1-contextual-copyedit-011-reviewed.json` |
-| 012 | 8 | 8 | `docs/audit/beta1-contextual-copyedit-012-reviewed.json` |
-| 013 | 24 | 24 | `docs/audit/beta1-contextual-copyedit-013-reviewed.json` |
-| 014 | 11 | 11 | `docs/audit/beta1-contextual-copyedit-014-reviewed.json` |
-| 015 | 11 | 11 | `docs/audit/beta1-contextual-copyedit-015-reviewed.json` |
-| 016 | 7 | 7 | `docs/audit/beta1-contextual-copyedit-016-reviewed.json` |
-| 017 | 8 | 8 | `docs/audit/beta1-contextual-copyedit-017-reviewed.json` |
+| Batch | Status | Records | Unique IDs | Manifest |
+| --- | --- | ---: | ---: | --- |
+| 002 | REGISTERED | 44 | 44 | `docs/audit/beta1-contextual-copyedit-002-reviewed.json` |
+| 003 | REGISTERED | 32 | 32 | `docs/audit/beta1-contextual-copyedit-003-reviewed.json` |
+| 004 | REGISTERED | 10 | 10 | `docs/audit/beta1-contextual-copyedit-004-reviewed.json` |
+| 005 | REGISTERED | 14 | 14 | `docs/audit/beta1-contextual-copyedit-005-reviewed.json` |
+| 006 | REGISTERED | 47 | 47 | `docs/audit/beta1-contextual-copyedit-006-reviewed.json` |
+| 007 | REGISTERED | 13 | 13 | `docs/audit/beta1-contextual-copyedit-007-reviewed.json` |
+| 008 | REGISTERED | 12 | 12 | `docs/audit/beta1-contextual-copyedit-008-reviewed.json` |
+| 009 | REGISTERED | 5 | 5 | `docs/audit/beta1-contextual-copyedit-009-reviewed.json` |
+| 010 | REGISTERED | 36 | 36 | `docs/audit/beta1-contextual-copyedit-010-reviewed.json` |
+| 011 | REGISTERED | 9 | 9 | `docs/audit/beta1-contextual-copyedit-011-reviewed.json` |
+| 012 | REGISTERED | 8 | 8 | `docs/audit/beta1-contextual-copyedit-012-reviewed.json` |
+| 013 | REGISTERED | 24 | 24 | `docs/audit/beta1-contextual-copyedit-013-reviewed.json` |
+| 014 | REGISTERED | 11 | 11 | `docs/audit/beta1-contextual-copyedit-014-reviewed.json` |
+| 015 | REGISTERED | 11 | 11 | `docs/audit/beta1-contextual-copyedit-015-reviewed.json` |
+| 016 | REGISTERED | 7 | 7 | `docs/audit/beta1-contextual-copyedit-016-reviewed.json` |
+| 017 | REGISTERED | 8 | 8 | `docs/audit/beta1-contextual-copyedit-017-reviewed.json` |
 
 ## Completion/quality rule
 
