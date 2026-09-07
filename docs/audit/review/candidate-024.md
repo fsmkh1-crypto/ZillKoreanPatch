@@ -1,7 +1,7 @@
 # Beta1 next-review candidate packet
 
-start_id: 170094
-candidate_count: 430
+start_id: 190091
+candidate_count: 700
 pinned_english_sha: a98d9ce29f361d666ec23da0dcfd351f24537ffd
 order: global numeric ID
 note: candidate packet only; creates no review coverage.
@@ -3015,4 +3015,1894 @@ jp_matches_pinned_english: yes
 JP: "弓<end>"
 EN: "Bow<end>"
 KO: "활<end>"
+
+## 200135
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "拳器<end>"
+EN: "Fist Weapon<end>"
+KO: "권기<end>"
+
+## 200136
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "盾<end>"
+EN: "Shield<end>"
+KO: "방패<end>"
+
+## 200137
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "布製防具<end>"
+EN: "Cloth Armor<end>"
+KO: "천 방어구<end>"
+
+## 200138
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "胸当て<end>"
+EN: "Breastplate<end>"
+KO: "흉갑<end>"
+
+## 200139
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "胴鎧<end>"
+EN: "Torso Armor<end>"
+KO: "몸통 갑옷<end>"
+
+## 200140
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "全身鎧<end>"
+EN: "Full-Body Armor<end>"
+KO: "전신갑옷<end>"
+
+## 200141
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "アクセサリー<end>"
+EN: "Accessory<end>"
+KO: "액세서리<end>"
+
+## 200142
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "封印されています<end>"
+EN: "This spell is sealed.<end>"
+KO: "봉인되어 있습니다<end>"
+
+## 200143
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "はい<end>"
+EN: "Yes<end>"
+KO: "네<end>"
+
+## 200144
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "いいえ<end>"
+EN: "No<end>"
+KO: "아니요<end>"
+
+## 200145
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "アイテム<end>"
+EN: "Items<end>"
+KO: "아이템<end>"
+
+## 200146
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "装備<end>"
+EN: "Equipment<end>"
+KO: "장비<end>"
+
+## 200147
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "イベント<end>"
+EN: "Events<end>"
+KO: "이벤트<end>"
+
+## 200148
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "選択<end>"
+EN: "Select<end>"
+KO: "선택<end>"
+
+## 200149
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "決定<end>"
+EN: "Confirm<end>"
+KO: "결정<end>"
+
+## 200150
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "キャンセル<end>"
+EN: "Cancel<end>"
+KO: "취소<end>"
+
+## 200151
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "はい<end>"
+EN: "Yes<end>"
+KO: "네<end>"
+
+## 200152
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "いいえ<end>"
+EN: "No<end>"
+KO: "아니요<end>"
+
+## 200153
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "次へ<end>"
+EN: "Next<end>"
+KO: "다음<end>"
+
+## 200154
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戻る<end>"
+EN: "Back<end>"
+KO: "돌아가기<end>"
+
+## 200155
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "表示切替<end>"
+EN: "Switch View<end>"
+KO: "표시 전환<end>"
+
+## 200156
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "戦闘開始<end>"
+EN: "Start Battle<end>"
+KO: "전투 시작<end>"
+
+## 200157
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "種類選択<end>"
+EN: "Select Type<end>"
+KO: "종류 선택<end>"
+
+## 200158
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "対象選択<end>"
+EN: "Select Target<end>"
+KO: "대상 선택<end>"
+
+## 200159
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "隊列変更<end>"
+EN: "Edit Formation<end>"
+KO: "진형 변경<end>"
+
+## 200160
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "人物切替<end>"
+EN: "Switch Member<end>"
+KO: "인물 전환<end>"
+
+## 200161
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "全身表示<end>"
+EN: "Full-Body View<end>"
+KO: "전신 표시<end>"
+
+## 200162
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "扱いやすい片手剣　ダブルブレードで二刀流可能<end>"
+EN: "Easy-to-use one-handed sword. Enables Dual Wielding with Double Blade.<end>"
+KO: "다루기 쉬운 한손검. 더블 블레이드로 이도류 가능<end>"
+
+## 200163
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "両手持ちの大きな剣　少々重いが威力は高い<end>"
+EN: "A large two-handed sword. Slightly heavy, but very powerful.<end>"
+KO: "양손으로 드는 대검. 조금 무겁지만 위력은 높다<end>"
+
+## 200164
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "両手持ちの槍　射程が少し長い<end>"
+EN: "A two-handed spear with slightly longer reach.<end>"
+KO: "양손으로 드는 창. 사거리가 조금 길다<end>"
+
+## 200165
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "両手持ちの斧　最も威力が高い反面、重い<end>"
+EN: "A two-handed axe. It has the highest power, but is also heavy.<end>"
+KO: "양손으로 드는 도끼. 위력이 가장 높지만 무겁다<end>"
+
+## 200166
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "軽く短めの剣　ダブルブレードで二刀流可能<end>"
+EN: "A light, short sword. Enables Dual Wielding with Double Blade.<end>"
+KO: "가볍고 짧은 검. 더블 블레이드로 이도류 가능<end>"
+
+## 200167
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "唯一の飛び道具　遠くから攻撃可能<end>"
+EN: "The only ranged weapon. Can attack from a distance.<end>"
+KO: "유일한 원거리 무기. 먼 곳에서 공격 가능<end>"
+
+## 200168
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "２連続攻撃可能の拳器　クリティカルが出やすい<end>"
+EN: "A fist weapon capable of two consecutive attacks, with a high critical-hit rate.<end>"
+KO: "2회 연속 공격 가능한 권기. 치명타가 잘 발생한다<end>"
+
+## 200169
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "騎士の証たる盾　敵の攻撃を防ぐ<end>"
+EN: "A shield symbolizing knighthood. Blocks enemy attacks.<end>"
+KO: "기사의 증표인 방패. 적의 공격을 막는다<end>"
+
+## 200170
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "布でできた防具　軽いが防御力は低い<end>"
+EN: "Cloth armor. Light, but offers little protection.<end>"
+KO: "천으로 만든 방어구. 가볍지만 방어력은 낮다<end>"
+
+## 200171
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "標準的な胸当て　バランスの良い防具<end>"
+EN: "A standard, well-balanced breastplate.<end>"
+KO: "표준적인 흉갑. 균형 잡힌 방어구<end>"
+
+## 200172
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "上半身を守る胴鎧　前列で戦う冒険者向け<end>"
+EN: "Armor that protects the upper body, suited to adventurers fighting in the front row.<end>"
+KO: "상반신을 보호하는 갑옷. 전열에서 싸우는 모험가용<end>"
+
+## 200173
+source: translations/korean/messages/msgsec020-part97.toml
+jp_matches_pinned_english: yes
+JP: "全身を覆う鎧　重いが防御力は最高<end>"
+EN: "Full-body armor. Heavy, but offers the highest defense.<end>"
+KO: "전신을 덮는 갑옷. 무겁지만 방어력은 최고<end>"
+
+## 200174
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "素手<end>"
+EN: "Unarmed<end>"
+KO: "맨손<end>"
+
+## 200175
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "月の光を宿し、精神を斬ることができる曲刀<end>"
+EN: "A curved sword imbued with moonlight that can cut the spirit.<end>"
+KO: "달빛을 품어 정신까지 벨 수 있는 곡도<end>"
+
+## 200176
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の英雄、剣聖イグザクスが愛用していた剣<end>"
+EN: "A sword once favored by the legendary hero Igzax, the Sword Saint.<end>"
+KO: "전설의 영웅 검성 이그작스가 애용한 검<end>"
+
+## 200177
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "月の満ち欠けの力を秘めた杖　水の力を宿す<end>"
+EN: "A staff holding the power of the moon's phases, imbued with the power of water.<end>"
+KO: "달의 차고 기우는 힘을 품은 지팡이. 물의 힘을 지닌다<end>"
+
+## 200178
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の英雄、剣聖イグザクスが愛用していた剣<end>"
+EN: "A sword once favored by the legendary hero Igzax, the Sword Saint.<end>"
+KO: "전설의 영웅 검성 이그작스가 애용한 검<end>"
+
+## 200179
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "死神が持つような巨大なカマ　扱いが難しい<end>"
+EN: "A huge scythe like one wielded by a god of death. Difficult to handle.<end>"
+KO: "사신이 들 법한 거대한 낫. 다루기 어렵다<end>"
+
+## 200180
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "太陽の輝きを刃に宿した肉厚の短剣<end>"
+EN: "A thick-bladed dagger imbued with the sun's radiance.<end>"
+KO: "태양의 빛을 칼날에 머금은 두꺼운 단검<end>"
+
+## 200181
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゼネテス愛用の大剣<end>"
+EN: "A greatsword favored by Xenetes.<end>"
+KO: "제네테스 애용 대검<end>"
+
+## 200182
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "仇なす者に絶望と破壊をもたらす闇の槍<end>"
+EN: "A dark spear that brings despair and destruction to those who oppose it.<end>"
+KO: "적대하는 자에게 절망과 파괴를 가져오는 어둠의 창<end>"
+
+## 200183
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "精霊の力で「メンタルゲイン」の使用を助ける杖<end>"
+EN: "A staff that uses the power of spirits to aid the use of “Mental Gain.”<end>"
+KO: "정령의 힘으로 「멘탈 게인」 사용을 돕는 지팡이<end>"
+
+## 200184
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "悶え苦しむという意味の名前を持つ小刀<end>"
+EN: "A knife whose name means “writhing in agony.”<end>"
+KO: "몸부림치며 괴로워한다는 뜻의 이름을 가진 소도<end>"
+
+## 200185
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戸惑いという意味の名前を持つ小刀<end>"
+EN: "A knife whose name means “bewilderment.”<end>"
+KO: "당혹이라는 뜻의 이름을 지닌 소도<end>"
+
+## 200186
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "炎の祝福を受けた剣　攻撃するごとに力が溜まる<end>"
+EN: "A sword blessed by fire. Gains power with every attack.<end>"
+KO: "불꽃의 축복을 받은 검. 공격할 때마다 힘이 쌓인다<end>"
+
+## 200187
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "名工カッツの妻ロッチナが鍛えた細身の剣<end>"
+EN: "A slender sword forged by Rotchina, wife of the master smith Katz.<end>"
+KO: "명공 캇츠의 아내 롯치나가 벼린 가느다란 검<end>"
+
+## 200188
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "力強く流れる激流のように敵を突き破る槍<end>"
+EN: "A spear that pierces enemies like a mighty surging torrent.<end>"
+KO: "세차게 흐르는 급류처럼 적을 꿰뚫는 창<end>"
+
+## 200189
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "巨大な岩をも断ち砕く斧<end>"
+EN: "An axe capable of cleaving even enormous boulders.<end>"
+KO: "거대한 바위도 베어 부수는 도끼<end>"
+
+## 200190
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "疾風が突き抜けるように敵を刺し貫く弓<end>"
+EN: "A bow that pierces enemies like a rushing gale.<end>"
+KO: "질풍이 꿰뚫듯 적을 관통하는 활<end>"
+
+## 200191
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "デルガドが鍛えた剣　高い命中率を誇る<end>"
+EN: "A sword forged by Dergado, boasting high accuracy.<end>"
+KO: "델가도가 벼린 검. 높은 명중률을 자랑한다<end>"
+
+## 200192
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "聖なる力で邪気を払う両手剣<end>"
+EN: "A two-handed sword that dispels evil with holy power.<end>"
+KO: "성스러운 힘으로 사기를 물리치는 양손검<end>"
+
+## 200193
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦鎚王ジンガ愛用の鎚　作ったのもジンガ本人<end>"
+EN: "A hammer forged and favored by Jinga, the Warhammer King.<end>"
+KO: "전추왕 징가가 애용한 망치. 만든 것도 징가 본인<end>"
+
+## 200194
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "いばらが絡んだ杖　まれに魔法の威力が高くなる<end>"
+EN: "A staff entwined with thorns. Occasionally increases spell power.<end>"
+KO: "가시덩굴이 얽힌 지팡이. 드물게 마법 위력이 높아진다<end>"
+
+## 200195
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "聖なる力を宿した鎚　肉体と共に精神も攻撃する<end>"
+EN: "A hammer imbued with holy power that attacks both body and spirit.<end>"
+KO: "성스러운 힘을 품은 망치. 육체와 함께 정신도 공격한다<end>"
+
+## 200196
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "イオンズが愛用しているメイス　体力を維持する<end>"
+EN: "A mace favored by Ions. Maintains vitality.<end>"
+KO: "이온즈가 애용하는 메이스. 체력을 유지한다<end>"
+
+## 200197
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "破壊神が使った剣　肉体を蝕み精神を高揚させる<end>"
+EN: "A sword wielded by the God of Destruction. Ravages the body and invigorates the spirit.<end>"
+KO: "파괴신이 썼던 검. 육체를 갉아먹고 정신을 고양한다<end>"
+
+## 200198
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "「メガスラッシュ」が1チャージで使用可能<end>"
+EN: "Allows “Mega Slash” to be used with 1 charge.<end>"
+KO: "「메가 슬래시」를 1차지로 사용 가능<end>"
+
+## 200199
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "英雄アリアロの魂が宿る槍　相手の精神力を奪う<end>"
+EN: "A spear housing the soul of the hero Ariaro. Drains the target's mental power.<end>"
+KO: "영웅 아리아로의 혼이 깃든 창. 상대의 정신력을 빼앗는다<end>"
+
+## 200200
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "「ハイスラッシュ」がチャージ無しで使用可能<end>"
+EN: "Allows “High Slash” to be used without charging.<end>"
+KO: "「하이 슬래시」를 차지 없이 사용 가능<end>"
+
+## 200201
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "精霊を宿した草で編み上げられた衣<end>"
+EN: "A garment woven from spirit-infused grass.<end>"
+KO: "정령이 깃든 풀로 엮어 만든 옷<end>"
+
+## 200202
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔術加工により、高い防御力を持つ胸当て鎧<end>"
+EN: "A magically treated breastplate offering high defense.<end>"
+KO: "마술 가공으로 높은 방어력을 지닌 흉갑<end>"
+
+## 200203
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔道アカデミー特注の、戦闘用婦人服<end>"
+EN: "Women's combat attire custom-made by the Arcane Academy.<end>"
+KO: "마도 아카데미 특주 전투용 여성복<end>"
+
+## 200204
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "黄金の意匠がなされた漆黒の全身鎧<end>"
+EN: "Jet-black full-body armor adorned with golden designs.<end>"
+KO: "황금 장식이 새겨진 칠흑의 전신 갑옷<end>"
+
+## 200205
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ライラネート神殿で清めた糸で編まれた衣<end>"
+EN: "A garment woven from thread purified at Lailanate Temple.<end>"
+KO: "라이라네트 신전에서 정화한 실로 짠 옷<end>"
+
+## 200206
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "虚栄のために華美な装飾がなされた服<end>"
+EN: "Clothing lavishly decorated for vanity's sake.<end>"
+KO: "허영을 위해 화려한 장식이 된 옷<end>"
+
+## 200207
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エルフ族特有の技術で作られた軽いマント<end>"
+EN: "A light cloak made using techniques unique to the Elves.<end>"
+KO: "엘프족 특유의 기술로 만든 가벼운 망토<end>"
+
+## 200208
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "施文院の上級暗殺者のみが着用を許される服<end>"
+EN: "Attire reserved for senior assassins of the Inscription Order.<end>"
+KO: "시문원의 상급 암살자만 착용이 허락된 옷<end>"
+
+## 200209
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "要所要所が金属で補強された革製の鎧<end>"
+EN: "Leather armor reinforced with metal at key points.<end>"
+KO: "요소마다 금속으로 보강된 가죽 갑옷<end>"
+
+## 200210
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "富裕階級の人が旅をする時に身につける外套<end>"
+EN: "A cloak worn by the wealthy when traveling.<end>"
+KO: "부유층이 여행할 때 걸치는 외투<end>"
+
+## 200211
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔法により拘束性を持たせている布製の軽鎧<end>"
+EN: "Light cloth armor magically endowed with binding properties.<end>"
+KO: "마법으로 구속성을 부여한 천제 경갑<end>"
+
+## 200212
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "太陽の輝きを刃に宿した肉厚の短剣<end>"
+EN: "A thick-bladed dagger imbued with the sun's radiance.<end>"
+KO: "태양의 빛을 칼날에 머금은 두꺼운 단검<end>"
+
+## 200213
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "表面に古代文字がびっしりと刻まれている棒杖<end>"
+EN: "A rod densely inscribed with ancient characters across its surface.<end>"
+KO: "표면에 고대문자가 빼곡히 새겨진 장봉<end>"
+
+## 200214
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "「ハイメガスペル」を少ないチャージで使用可能<end>"
+EN: "Allows “High Mega Spell” to be used with fewer charges.<end>"
+KO: "「하이 메가 스펠」을 적은 차지로 사용 가능<end>"
+
+## 200215
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の炎を操り相手の精神力を吸い取る<end>"
+EN: "Controls dark flames to drain the target's mental power.<end>"
+KO: "어둠의 불꽃을 다뤄 상대의 정신력을 흡수<end>"
+
+## 200216
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "穂先に鉤爪のついた長槍<end>"
+EN: "A long spear with a hooked claw on its head.<end>"
+KO: "창끝에 갈고리발톱이 달린 장창<end>"
+
+## 200217
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "木こりが使う、長時間の作業に適した作りの斧<end>"
+EN: "A woodcutter's axe designed for long hours of work.<end>"
+KO: "나무꾼이 쓰는 장시간 작업에 적합한 도끼<end>"
+
+## 200218
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "竜を倒すために作られた剣　気絶と麻痺を防ぐ<end>"
+EN: "A sword made to slay dragons. Prevents Stun and Paralysis.<end>"
+KO: "용을 쓰러뜨리기 위해 만든 검. 기절과 마비를 막는다<end>"
+
+## 200219
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風の力を宿した短剣　行動回数が増える<end>"
+EN: "A dagger imbued with the power of wind. Increases the number of actions.<end>"
+KO: "바람의 힘을 품은 단검. 행동 횟수가 늘어난다<end>"
+
+## 200220
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘の1ターン目に素早さが倍になる<end>"
+EN: "Doubles agility on the first turn of battle.<end>"
+KO: "전투 1턴째에 민첩성이 2배가 된다<end>"
+
+## 200221
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "双頭の竜を模した形をしている拳器<end>"
+EN: "A fist weapon shaped like a two-headed dragon.<end>"
+KO: "쌍두룡을 본떠 만든 권갑<end>"
+
+## 200222
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の英雄、剣聖イグザクスが愛用していた剣<end>"
+EN: "A sword once favored by the legendary hero Igzax, the Sword Saint.<end>"
+KO: "전설의 영웅 검성 이그작스가 애용한 검<end>"
+
+## 200223
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の英雄、剣聖イグザクスが愛用していた剣<end>"
+EN: "A sword once favored by the legendary hero Igzax, the Sword Saint.<end>"
+KO: "전설의 영웅 검성 이그작스가 애용한 검<end>"
+
+## 200224
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "オイフェの妹、エメルの形見　軽くて扱いやすい<end>"
+EN: "A keepsake from Emer, Aoife's younger sister. Light and easy to handle.<end>"
+KO: "오이페의 여동생 에멜의 유품. 가볍고 다루기 쉽다<end>"
+
+## 200225
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "酒場に置いてあったフライパン<end>"
+EN: "A frying pan from a tavern.<end>"
+KO: "술집에 놓여 있던 프라이팬<end>"
+
+## 200226
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "伝説の魔道器　「イクスキュア」の使用を助ける<end>"
+EN: "A legendary arcane device that aids the use of “Ex Cure.”<end>"
+KO: "전설의 마도기. 「익스큐어」 사용을 돕는다<end>"
+
+## 200227
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "炎の力を宿した手袋　精神力を維持する<end>"
+EN: "Gloves imbued with the power of fire. Maintain mental power.<end>"
+KO: "불꽃의 힘을 품은 장갑. 정신력을 유지한다<end>"
+
+## 200228
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ジリオンの父親が遺した剣<end>"
+EN: "A sword left behind by Zillion's father.<end>"
+KO: "질리온의 아버지가 남긴 검<end>"
+
+## 200229
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "「魂切の鎌」の折れた刃先を加工した短剣<end>"
+EN: "A dagger fashioned from the broken blade tip of the “Soul-Cutting Scythe.”<end>"
+KO: "「혼절의 낫」의 부러진 칼끝을 가공한 단검<end>"
+
+## 200230
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "アイリーンが、亡き父から受け継いだ剣<end>"
+EN: "A sword Irene inherited from her late father.<end>"
+KO: "아이린이 돌아가신 아버지에게 물려받은 검<end>"
+
+## 200231
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "「メガバースト」を少ないチャージで使用可能<end>"
+EN: "Allows “Mega Burst” to be used with fewer charges.<end>"
+KO: "「메가 버스트」를 적은 차지로 사용 가능<end>"
+
+## 200232
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水の力を宿した拳器　眠りを誘う効果がある<end>"
+EN: "A fist weapon imbued with the power of water. Can induce Sleep.<end>"
+KO: "물의 힘을 품은 권갑. 잠을 유도하는 효과가 있다<end>"
+
+## 200233
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火の力を宿した拳器　相手を混乱させる<end>"
+EN: "A fist weapon imbued with the power of fire. Inflicts Confusion on the target.<end>"
+KO: "불의 힘을 품은 권기. 상대를 혼란시킨다<end>"
+
+## 200234
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァン愛用の素早い攻撃が可能な拳器<end>"
+EN: "A fist weapon favored by Van, capable of swift attacks.<end>"
+KO: "반이 애용하는 빠른 공격이 가능한 권갑<end>"
+
+## 200235
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ラドラスの遺跡から発掘された短剣<end>"
+EN: "A dagger excavated from the ruins of Ladras.<end>"
+KO: "라드라스 유적에서 발굴된 단검<end>"
+
+## 200236
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土の巫女の正装　大地の攻撃から身を守る<end>"
+EN: "The formal attire of the Priestess of Earth. Protects against earth attacks.<end>"
+KO: "대지의 무녀 정장. 대지 공격으로부터 몸을 지킨다<end>"
+
+## 200237
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "チャカがあり合わせの材料で作った槍<end>"
+EN: "A spear Chaka made from whatever materials were available.<end>"
+KO: "차카가 있는 재료로 만든 창<end>"
+
+## 200238
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "暗闇を招く力を持つ暗黒の鎚<end>"
+EN: "A dark hammer with the power to inflict Blindness.<end>"
+KO: "어둠을 부르는 힘을 지닌 암흑의 망치<end>"
+
+## 200239
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "土の力を宿した軽くて扱いやすい槍<end>"
+EN: "A light, easy-to-handle spear imbued with the power of earth.<end>"
+KO: "대지의 힘이 깃든 가볍고 다루기 쉬운 창<end>"
+
+## 200240
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "身につけた者の心の乱れを防ぐローブ<end>"
+EN: "A robe that keeps the wearer's mind from becoming unsettled.<end>"
+KO: "착용자의 마음의 동요를 막는 로브<end>"
+
+## 200241
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ツィーネの森のエルフに伝わる風の力を宿した槍<end>"
+EN: "A spear imbued with the power of wind, passed down among the Elves of Tsine Forest.<end>"
+KO: "치네의 숲 엘프에게 전해지는 바람의 힘을 품은 창<end>"
+
+## 200242
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "軽くて扱いやすい短剣　眠りを誘う効果がある<end>"
+EN: "A light, easy-to-handle dagger that can induce Sleep.<end>"
+KO: "가볍고 다루기 쉬운 단검. 잠을 유도하는 효과가 있다<end>"
+
+## 200243
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "レルラ＝ロントンが愛用する炎の力を宿した弓<end>"
+EN: "A bow imbued with the power of fire and favored by Relra-Lonton.<end>"
+KO: "렐라=론톤이 애용하는 불꽃의 힘을 품은 활<end>"
+
+## 200244
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "施文院の大神官のみが着ることを許されたローブ<end>"
+EN: "A robe reserved for holders of the rank of High Priest in the Inscription Order.<end>"
+KO: "시문원의 대신관만 입을 수 있는 로브<end>"
+
+## 200245
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "いつも酒場で身につけていたエプロンドレス<end>"
+EN: "An apron dress habitually worn at the tavern.<end>"
+KO: "늘 술집에서 입고 있던 앞치마 드레스<end>"
+
+## 200246
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火の巫女の正装　炎の攻撃から身を守る<end>"
+EN: "The formal attire of the Priestess of Fire. Protects against fire attacks.<end>"
+KO: "불의 무녀 정장. 화염 공격으로부터 몸을 지킨다<end>"
+
+## 200247
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "騎士の武器といえば、片手剣でしょ。<line-break>それに、こいつが一番使いやすいのよ。<end>"
+EN: "For a knight, the weapon has to be a one-handed sword. Besides, this one is the easiest to use.<end>"
+KO: "기사의 무기라면 역시 한손검이지. 게다가 이게 제일 쓰기 편하거든.<end>"
+
+## 200248
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "断る。わしの経験上、斧こそが戦場で<line-break>もっとも役立つ武器じゃからな。<end>"
+EN: "I refuse. In my experience, no weapon is more useful on the battlefield than an axe.<end>"
+KO: "거절한다. 내 경험상 도끼야말로 전장에서 가장 도움이 되는 무기니까.<end>"
+
+## 200249
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ　片手剣<end>"
+EN: "Error message: One-handed sword.<end>"
+KO: "에러 메시지 한손검<end>"
+
+## 200250
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "燃える男ってもんは、拳で相手と<line-break>語り合うもんだぜ、こんちくしょう！<end>"
+EN: "A hot-blooded man talks things out with his fists, damn it!<end>"
+KO: "불타는 사나이라면 주먹으로 상대와 이야기하는 법이지, 이 자식아!<end>"
+
+## 200251
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ダ、ダメだよ、そんなに大きな武器は。<line-break>ボクは小刀でいいから…。<end>"
+EN: "N-no, not a weapon that big. A dagger will do for me...<end>"
+KO: "아, 안 돼, 그렇게 큰 무기는. 난 소도이면 되니까…<end>"
+
+## 200252
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私の弓の腕前を信用していないのか？<end>"
+EN: "Do you not trust my skill with a bow?<end>"
+KO: "내 활 솜씨를 믿지 않는 건가?<end>"
+
+## 200253
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私が武器を持って戦うんですか？<line-break>武器なんて使ったことないんですよ。<end>"
+EN: "You expect me to fight with a weapon? I've never even used one before.<end>"
+KO: "제가 무기를 들고 싸우는 건가요? 무기 같은 건 써 본 적도 없어요.<end>"
+
+## 200254
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ　鎌<end>"
+EN: "Error message: Scythe.<end>"
+KO: "에러 메시지 낫<end>"
+
+## 200255
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん知らないのかよ。<line-break>俺って槍の扱いは、<line-break>なかなかのものなんだぜ。<end>"
+EN: "Didn't you know, miss? I'm pretty handy with a spear.<end>"
+KO: "누나, 몰랐어? 나 창 다루는 솜씨는꽤 괜찮다고.<end>"
+
+## 200256
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "あら、武器なんてなくても大丈夫よ。<line-break>私には魔法の力があるから。<end>"
+EN: "Oh, I'll be fine without a weapon. I have the power of magic, after all.<end>"
+KO: "어머, 무기 같은 건 없어도 괜찮아. 나한텐 마법의 힘이 있으니까.<end>"
+
+## 200257
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "両手剣が俺のトレードマークなんでね。<line-break>他の武器だと偽物扱いされちまうだろ。<end>"
+EN: "A two-handed sword is my trademark. If I used anything else, people would call me a fake.<end>"
+KO: "양손검이 내 트레이드마크라서 말이지. 다른 무기를 들면 가짜 취급받을 거야.<end>"
+
+## 200258
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "片手剣以外、使うつもりはない。<line-break>言いたいことはそれだけだ。<end>"
+EN: "I have no intention of using anything but a one-handed sword. That's all I have to say.<end>"
+KO: "한손검 이외에는 쓸 생각 없다. 하고 싶은 말은 그게 전부다.<end>"
+
+## 200259
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "わしは、戦いに使うなら斧が一番じゃと<line-break>思っとる。他の武器は軽くていかん。<end>"
+EN: "For fighting, I say an axe is best. Other weapons are simply too light.<end>"
+KO: "전투에 쓴다면 도끼가 제일이라고 생각한다. 다른 무기는 너무 가벼워서 안 돼.<end>"
+
+## 200260
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "コーンスの武器は槍が一番だって、<line-break>お爺ちゃんがいってたんだ。<end>"
+EN: "Grandpa said a spear is the best weapon for Konsu.<end>"
+KO: "콘스의 무기는 창이 최고라고 할아버지가 말씀하셨어.<end>"
+
+## 200261
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "槍ではだめか？<line-break>私にはふさわしい武器だと思うのだが。<end>"
+EN: "Would a spear not do? I believe it is a fitting weapon for me.<end>"
+KO: "창은 안 되나? 내게 어울리는 무기라고 생각하는데.<end>"
+
+## 200262
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "こんな武器じゃ、優雅な戦いができない<line-break>じゃない。どうして槍じゃダメなのよ！<end>"
+EN: "I can't fight elegantly with a weapon like this. Why can't I use a spear?!<end>"
+KO: "이런 무기로는 우아한 싸움을 할 수 없잖아. 왜 창은 안 되는 거야!<end>"
+
+## 200263
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "オーノー！　斧にしてんかー。<line-break>兄弟子…ダメでござるか？<end>"
+EN: "Oh no! Make it an axe! Senior disciple... is that not allowed?<end>"
+KO: "오 노! 도끼로 해 주시오. 사형… 안 되는 것이오?<end>"
+
+## 200264
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "そんなに、おっきな武器じゃなくても<line-break>大丈夫だよぉ。小刀でも戦えるからぁ。<end>"
+EN: "I don't need such a biiig weapon. I can fight with a dagger toooo.<end>"
+KO: "그렇게 큰 무기가 아니어도 괜찮아아. 소도로도 싸울 수 있으니까아.<end>"
+
+## 200265
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "…片手剣に…しろ。<end>"
+EN: "...Make it... a one-handed sword.<end>"
+KO: "…한손검으로… 해라.<end>"
+
+## 200266
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺の剣技は二刀流…片手剣でなくては<line-break>意味がない。知らぬわけではあるまい。<end>"
+EN: "My sword technique is Dual Wielding... Without one-handed swords, it's pointless. Surely you know that.<end>"
+KO: "내 검술은 이도류다… 한손검이 아니면 의미가 없어. 모르는 것도 아니겠지.<end>"
+
+## 200267
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "そんなーっ！<line-break>弓の腕前を信じてくれてないなんて…<line-break>ぼく、落ち込んじゃうよ。<end>"
+EN: "No waaay! You don't trust my skill with a bow... Now I'm really bummed out.<end>"
+KO: "그럴 수가아! 내 활 솜씨를 믿어 주지 않는다니…나, 풀이 죽는다고.<end>"
+
+## 200268
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦いではわずかな狂いが命取りになる。<line-break>それを知らぬ君ではあるまい。<end>"
+EN: "Even the slightest deviation can be fatal in battle. Surely you know that.<end>"
+KO: "싸움에서는 아주 작은 어긋남도 목숨을 앗아간다. 그걸 모르는 자네는 아니겠지.<end>"
+
+## 200269
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私たちの仕事は身軽でなければ、<line-break>つとまらないのです。<line-break>申し訳ありません。<end>"
+EN: "Our line of work requires us to travel light. My apologies.<end>"
+KO: "우리 일은 몸이 가벼워야 할 수 있습니다. 죄송합니다.<end>"
+
+## 200270
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "密偵は素早さが命なの。<line-break>重いものは装備したくないな。<end>"
+EN: "Speed is a spy's lifeblood. I don't want to equip anything heavy.<end>"
+KO: "밀정은 민첩함이 생명이야. 무거운 건 장비하고 싶지 않아.<end>"
+
+## 200271
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "こいつとは長い付き合いでの。<line-break>手放す気にはなれんのじゃよ。<end>"
+EN: "This one and I go back a long way. I just can't bring myself to part with it.<end>"
+KO: "이 녀석과는 오래 함께했지. 내놓을 마음은 들지 않는구나.<end>"
+
+## 200272
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ハハ、残念だけどこれは譲れない。<line-break>これは大切なものなんだ。<end>"
+EN: "Ha ha, sorry, but I can't give this up. It's important to me.<end>"
+KO: "하하, 아쉽지만 이건 못 줘. 소중한 물건이거든.<end>"
+
+## 200273
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "死んだ親父も片手剣を使ってきたし、<line-break>俺もずっとこれでやってきた。<line-break>こいつが一番しっくりくるんだ。<end>"
+EN: "My late father used a one-handed sword, and I've always fought with one too. Nothing else feels right.<end>"
+KO: "돌아가신 아버지도 한손검을 쓰셨고 나도 줄곧 이걸 써 왔어. 이게 제일 손에 익어.<end>"
+
+## 200274
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私の体と力に合った武器が小刀なの。<line-break>自分に合った武器を使う…<line-break>それが、冒険者の鉄則ね。<end>"
+EN: "A dagger suits my build and strength. Using the right weapon... that's an adventurer's cardinal rule.<end>"
+KO: "내 몸과 힘에 맞는 무기는 소도이야. 자기한테 맞는 무기를 쓴다… 그게 모험자의 철칙이지.<end>"
+
+## 200275
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "役目を失ったとはいえ私は巫女です。<line-break>これを手放すつもりはありません。<end>"
+EN: "Though I no longer serve in that role, I am still a priestess. I have no intention of parting with this.<end>"
+KO: "역할을 잃었다 해도 저는 무녀입니다. 이걸 놓을 생각은 없습니다.<end>"
+
+## 200276
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>私、これじゃないと戦えません。<end>"
+EN: "I'm sorry. I can't fight with anything else.<end>"
+KO: "미안해요. 저는 이게 아니면 싸울 수 없어요.<end>"
+
+## 200277
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは大切なものなんだ。<line-break>すまないが外すわけにはいかない。<end>"
+EN: "This is important to me. I'm sorry, but I can't take it off.<end>"
+KO: "이건 소중한 물건이야. 미안하지만 뺄 수 없어.<end>"
+
+## 200278
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>ぶぶ…武器を持って戦うなんて、<line-break>ぼ、ぼくにはできません。<end>"
+EN: "Error message: I-I... I can't fight with a w-weapon.<end>"
+KO: "에러 메시지무, 무기를 들고 싸우는 건, 나, 나한텐 못 해요.<end>"
+
+## 200279
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>槍と角は似ている…かもな。<end>"
+EN: "Error message: Spears and horns are alike... maybe.<end>"
+KO: "에러 메시지. 창과 뿔은 닮았을지도 모르지.<end>"
+
+## 200280
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ！<end>"
+EN: "Error message!<end>"
+KO: "에러 메시지!<end>"
+
+## 200281
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ　片手剣<end>"
+EN: "Error message: One-handed sword.<end>"
+KO: "에러 메시지 한손검<end>"
+
+## 200282
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ　小刀手斧<end>"
+EN: "Error message: Dagger Hand Axe.<end>"
+KO: "에러 메시지 소도 손도끼<end>"
+
+## 200283
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200284
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200285
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200286
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "小刀手斧<end>"
+EN: "Dagger Hand Axe.<end>"
+KO: "소도·손도끼<end>"
+
+## 200287
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "小刀手斧<end>"
+EN: "Dagger Hand Axe.<end>"
+KO: "소도·손도끼<end>"
+
+## 200288
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200289
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200290
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200291
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200292
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200293
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200294
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>ロッチナァァァァァァァァア！<end>"
+EN: "Error message: Rotchinaaaaaaaaa!<end>"
+KO: "에러 메시지 로치나아아아아아아아아!<end>"
+
+## 200295
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>プッシュ！　プッシュ！<line-break>小錦つっぱり！<end>"
+EN: "Error message: Push! Push! Konishiki thrust!<end>"
+KO: "에러 메시지. 푸시! 푸시! 코니시키 밀어붙이기!<end>"
+
+## 200296
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "騎士といえば全身鎧だけど…、私には<line-break>胴鎧が戦いやすくっていいみたい。<end>"
+EN: "Knights usually wear full armor, but... I seem to fight better in body armor.<end>"
+KO: "기사라면 전신 갑옷이지만… 나한텐 몸통 갑옷이 싸우기 편한 것 같아.<end>"
+
+## 200297
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦場で最も恐ろしいのは流れ矢じゃ。<line-break>全身鎧でないと、全力で戦えんわい。<end>"
+EN: "Stray arrows are the worst threat on a battlefield. Without full armor, I cannot fight at full strength.<end>"
+KO: "전장에서 가장 무서운 건 유탄이지. 전신 갑옷이 아니면 전력을 다해 싸울 수 없어.<end>"
+
+## 200298
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "布製防具はおしゃれでいいかも！<line-break>でも、太ったのがばれちゃうかな？<end>"
+EN: "Cloth armor might be stylish! But will it show that I've put on weight?<end>"
+KO: "천 방어구는 멋있어서 좋을지도! 하지만 살찐 게 티 나려나?<end>"
+
+## 200299
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "燃える男の防具は、胴鎧って<line-break>決まってんだよ、こんちくしょう！<end>"
+EN: "A hot-blooded man's armor has got to be body armor, damn it!<end>"
+KO: "불타는 남자의 방어구는 흉갑으로 정해져 있다고, 젠장!<end>"
+
+## 200300
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ご、ごめんなさい。ボク、胴鎧以外の<line-break>防具って好きじゃないんだ。<end>"
+EN: "I-I'm sorry. I don't like any armor except body armor.<end>"
+KO: "미, 미안해. 난 몸통 갑옷 외의 방어구는 별로 안 좋아해.<end>"
+
+## 200301
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "あまり指図をしないでもらおう。<line-break>私は胸当て以外、付けるつもりはない。<end>"
+EN: "I would prefer not to be ordered around so much. I have no intention of wearing anything but a breastplate.<end>"
+KO: "지나치게 지시하지 말아줬으면 한다. 나는 흉갑 외에는 착용할 생각이 없어.<end>"
+
+## 200302
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>ははは、重い防具は肩が凝りますから。<line-break>私は布製防具でかまいませんよ。<end>"
+EN: "Error message: Ha ha ha, heavy armor makes my shoulders stiff. Cloth armor will do just fine for me.<end>"
+KO: "에러 메시지. 하하하, 무거운 방어구는 어깨가 결리니까요. 저는 천 방어구면 충분합니다.<end>"
+
+## 200303
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>胸当て以外の防具だと、あたしの<line-break>美しい姿が披露できないじゃない。<end>"
+EN: "Error message: I can't show off my beautiful figure in anything but a breastplate.<end>"
+KO: "에러 메시지. 흉갑 말고 다른 방어구를 입으면 내 아름다운 모습을 보여 줄 수 없잖아.<end>"
+
+## 200304
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、俺にこんなの装備しろって<line-break>いうのかよ。胴鎧にしてくれよな。<end>"
+EN: "Miss, you expect me to equip something like this? Make it body armor, will you?<end>"
+KO: "누나, 나한테 이런 걸 장비하라고? 몸통 갑옷으로 해줘.<end>"
+
+## 200305
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>あら、私に鎧を身につけろって言うの？<line-break>私はあなたと違って頭脳労働専門なのよ。<end>"
+EN: "Error message: Oh, you expect me to wear armor? Unlike you, I specialize in using my brain.<end>"
+KO: "에러 메시지. 어머, 나한테 갑옷을 입으라는 거야? 나는 너와 달리 머리 쓰는 일 전문이거든.<end>"
+
+## 200306
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "冒険者たるもの胴鎧を身につけるべし。<line-break>俺の名言だ。かっこいいだろう？<end>"
+EN: "An adventurer must wear body armor. That's my famous saying. Sounds cool, doesn't it?<end>"
+KO: "모험자라면 몸통 갑옷을 착용해야지. 내 명언이다. 멋지지?<end>"
+
+## 200307
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺は胸当て以外、つけるつもりはない。<line-break>言いたいことはそれだけだ。<end>"
+EN: "I have no intention of wearing anything but a breastplate. That's all I have to say.<end>"
+KO: "난 흉갑 말고는 착용할 생각 없다. 할 말은 그게 전부다.<end>"
+
+## 200308
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "たわけがぁぁ！<line-break>わしは胴鎧しかきれんのじゃ！<end>"
+EN: "You fooool! Body armor is the only kind I can wear!<end>"
+KO: "이 바보가아아! 나는 몸통 갑옷밖에 못 입는단 말이다!<end>"
+
+## 200309
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "防具は胸当てにしろって、<line-break>お爺ちゃんがいってたんだ。<end>"
+EN: "Grandpa said I should wear a breastplate.<end>"
+KO: "방어구는 흉갑으로 하라고 할아버지가 말했어.<end>"
+
+## 200310
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>俺は全身鎧しか身に付けない。<end>"
+EN: "Error message: I wear nothing but full armor.<end>"
+KO: "에러 메시지 나는 전신 갑옷밖에 입지 않는다.<end>"
+
+## 200311
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "もぅ、どうして胸当てじゃダメなのよ！<line-break>ワケを説明しなさい、ワケを！<end>"
+EN: "Honestly, why isn't a breastplate good enough?! Explain yourself! I want a reason!<end>"
+KO: "정말, 왜 흉갑은 안 되는 거야! 이유를 설명해, 이유를!<end>"
+
+## 200312
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "胸当ては、ブレスとあーめーに強いっ！<line-break>兄弟子…いかがでごさるか？<end>"
+EN: "Breastplates are strong against breath and raaain! Senior disciple... what say you?<end>"
+KO: "흉갑은 브레스와 비에 강하다앗! 사형… 어떠신가?<end>"
+
+## 200313
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "お、重いよぉ。布製防具じゃないと<line-break>重すぎて戦えないよぉ。<end>"
+EN: "I-it's heavyyy. Anything but cloth armor is too heavy for me to fight in.<end>"
+KO: "무, 무거워. 천 방어구가 아니면 너무 무거워서 싸울 수 없어.<end>"
+
+## 200314
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "…鎧はいやだ。<end>"
+EN: "...I don't want armor.<end>"
+KO: "…갑옷은 싫어.<end>"
+
+## 200315
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "残念だが、俺の戦い方を理解していない<line-break>ようだな。なぜ、胴鎧なのかを。<end>"
+EN: "Unfortunately, you don't seem to understand how I fight―or why I wear body armor.<end>"
+KO: "유감이지만 내 전투 방식을 이해하지 못한 것 같군. 왜 몸통 갑옷인지 말이야.<end>"
+
+## 200316
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "えーっ！　これを装備するの？<line-break>ぼく、胸当てじゃないとやだなぁ。<end>"
+EN: "What?! I have to equip this? I don't want anything but a breastplate.<end>"
+KO: "에엣! 이걸 장비하는 거야? 난 흉갑이 아니면 싫은데.<end>"
+
+## 200317
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦いではわずかな狂いが命取りになる。<line-break>それを知らぬ君ではあるまい。<end>"
+EN: "Even the slightest deviation can be fatal in battle. Surely you know that.<end>"
+KO: "싸움에서는 아주 작은 어긋남도 목숨을 앗아간다. 그걸 모르는 자네는 아니겠지.<end>"
+
+## 200318
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私たちの仕事は身軽でなければ、<line-break>つとまらないのです。<line-break>申し訳ありません。<end>"
+EN: "Our line of work requires us to travel light. My apologies.<end>"
+KO: "우리 일은 몸이 가벼워야 할 수 있습니다. 죄송합니다.<end>"
+
+## 200319
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "密偵は素早さが命なの。<line-break>重いものは装備したくないな。<end>"
+EN: "Speed is a spy's lifeblood. I don't want to equip anything heavy.<end>"
+KO: "밀정은 민첩함이 생명이야. 무거운 건 장비하고 싶지 않아.<end>"
+
+## 200320
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "防具は全身鎧が一番じゃよ。<line-break>傭兵として戦場に出れば嫌でもわかる<line-break>ことじゃよ。<end>"
+EN: "Full armor is best. Once you've fought as a mercenary, you'll learn that whether you like it or not.<end>"
+KO: "방어구는 전신갑옷이 최고지. 용병으로 전장에 나가 보면 싫어도 알게 될 게다.<end>"
+
+## 200321
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "防御力と機動力。<line-break>戦いではこのバランスが重要なんだ。<line-break>だから、私は胴鎧を使いたい。<end>"
+EN: "Protection and mobility. Their balance is crucial in battle. That's why I want body armor.<end>"
+KO: "방어력과 기동력. 전투에서는 이 균형이 중요해. 그래서 난 몸통 갑옷을 쓰고 싶어.<end>"
+
+## 200322
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "防具？<line-break>俺は、胸当てで十分だ。<end>"
+EN: "Armor? A breastplate is enough for me.<end>"
+KO: "방어구? 난 흉갑이면 충분해.<end>"
+
+## 200323
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "あたしには胸当てがちょうどいいの。<line-break>動きやすいし性に合うのよ。<end>"
+EN: "A breastplate is just right for me. It's easy to move in, and it suits my style.<end>"
+KO: "나한텐 흉갑이 딱 좋아. 움직이기 편하고 성격에도 맞아.<end>"
+
+## 200324
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "…重い鎧で<line-break>あなたも私を縛ろうとするのですか？<end>"
+EN: "...Are you going to bind me in heavy armor too?<end>"
+KO: "…무거운 갑옷으로 당신도 나를 얽매려는 건가요?<end>"
+
+## 200325
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "えっ？　エプロンドレスが似合う？<line-break>そ、それなら私、ずっとこれにします。<end>"
+EN: "What? An apron dress looks good on me? I-in that case, I'll keep wearing this.<end>"
+KO: "네? 에이프런 드레스가 어울린다고요? 그, 그럼 저 계속 이걸 입을게요.<end>"
+
+## 200326
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "このローブは、施文院の大神官だけが、<line-break>着ることを許されるものなんだ。<line-break>換えるわけにはいかないな。<end>"
+EN: "Only the Inscription Order's High Priest may wear this robe. I can't replace it.<end>"
+KO: "이 로브는 시문원의 대신관만 입을 수 있는 거야. 바꿀 수는 없어.<end>"
+
+## 200327
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>布製防具<end>"
+EN: "Error message: Cloth armor.<end>"
+KO: "에러 메시지 천 방어구<end>"
+
+## 200328
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>布製防具<end>"
+EN: "Error message: Cloth armor.<end>"
+KO: "에러 메시지 천 방어구<end>"
+
+## 200329
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>胴鎧<end>"
+EN: "Error message: Body armor.<end>"
+KO: "에러 메시지 갑옷<end>"
+
+## 200330
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>布製防具<end>"
+EN: "Error message: Cloth armor.<end>"
+KO: "에러 메시지 천 방어구<end>"
+
+## 200331
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>布製防具<end>"
+EN: "Error message: Cloth armor.<end>"
+KO: "에러 메시지 천 방어구<end>"
+
+## 200332
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200333
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200334
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200335
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>胴鎧<end>"
+EN: "Error message: Body armor.<end>"
+KO: "에러 메시지 갑옷<end>"
+
+## 200336
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>胴鎧<end>"
+EN: "Error message: Body armor.<end>"
+KO: "에러 메시지 갑옷<end>"
+
+## 200337
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ。<end>"
+EN: "Error message.<end>"
+KO: "에러 메시지.<end>"
+
+## 200338
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200339
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200340
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200341
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>エラーメッセージです。<end>"
+EN: "Sorry. This is an error message.<end>"
+KO: "죄송합니다. 오류 메시지입니다.<end>"
+
+## 200342
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージよ。<line-break>私はもういないの。<end>"
+EN: "It's an error message. I'm not here anymore.<end>"
+KO: "에러 메시지야. 나는 이제 없어.<end>"
+
+## 200343
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>胴鎧<end>"
+EN: "Error message: Body armor.<end>"
+KO: "에러 메시지 갑옷<end>"
+
+## 200344
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージ<line-break>布製防具<end>"
+EN: "Error message: Cloth armor.<end>"
+KO: "에러 메시지 천 방어구<end>"
+
+## 200345
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんね。<line-break>これって私のお気に入りなの。<end>"
+EN: "Sorry. This is a favorite of mine.<end>"
+KO: "미안해. 이건 내가 아끼는 거야.<end>"
+
+## 200346
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "こいつは、共に戦場を駆け回った<line-break>わしの友よ。手放すわけにはいかんな。<end>"
+EN: "This one is my friend, who has raced across the battlefield with me. I cannot part with it.<end>"
+KO: "이 녀석은 나와 함께 전장을 누빈 벗이다. 내놓을 수는 없지.<end>"
+
+## 200347
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私の持ち物を欲しがるなんて…。<line-break>もしかしてマニアかな？　きゃっ！<end>"
+EN: "You want something that belongs to me...? Are you some kind of fanatic? Eek!<end>"
+KO: "내 물건을 탐내다니…. 혹시 마니아인가? 꺅!<end>"
+
+## 200348
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺の装備は、俺が決めるんだ。<line-break>わかったか、こんちくしょう！<end>"
+EN: "I decide what I equip. Got that, damn it?!<end>"
+KO: "내 장비는 내가 정한다. 알겠냐, 이 자식아!<end>"
+
+## 200349
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "そ、そんな、ダメだよ。<line-break>た、たいせつなもの…なん…だ。<end>"
+EN: "N-no, you can't. I-it's... important... to me.<end>"
+KO: "그, 그건 안 돼. 소, 소중한 물건…이야.<end>"
+
+## 200350
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私にも好き嫌いがある…。<line-break>それを気に入っているのだ。<end>"
+EN: "I have my preferences too... and I happen to like that.<end>"
+KO: "나도 호불호가 있어…. 그게 마음에 든다.<end>"
+
+## 200351
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "申しわけないですけど<line-break>私は今の姿が気に入っているので…。<end>"
+EN: "I'm sorry, but I like the way I look now...<end>"
+KO: "죄송하지만 저는 지금 모습이 마음에 들어서요….<end>"
+
+## 200352
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "あたしに、一番似合っているのが、<line-break>これなのよ。わかんないかなぁ？<end>"
+EN: "This is what looks best on me. Can't you see that?<end>"
+KO: "나한테 제일 잘 어울리는 게 이거야. 모르겠어?<end>"
+
+## 200353
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "いくら姉ちゃんの頼みでも、こいつは<line-break>俺ンだよ。勘弁してくれよな。<end>"
+EN: "Even if you're the one asking, miss, this one's mine. Give me a break, okay?<end>"
+KO: "아무리 누나 부탁이라도 이건 내 거야. 봐줘.<end>"
+
+## 200354
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは私のお気に入りのひとつなのよ。<line-break>外すわけにはいかないわ。<end>"
+EN: "This is one of my favorites. I simply can't take it off.<end>"
+KO: "이건 내가 좋아하는 것 중 하나야. 벗을 수는 없어.<end>"
+
+## 200355
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "おっと、こいつは俺のお気に入り<line-break>なんでね。<end>"
+EN: "Whoa there. This one's a favorite of mine.<end>"
+KO: "어이쿠, 이건 내가 아끼는 거라서 말이야.<end>"
+
+## 200356
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは俺のすべて…。<line-break>渡すわけにはいかない。<end>"
+EN: "This is everything to me... I can't give it up.<end>"
+KO: "이건 내 전부야…. 넘겨줄 수 없어.<end>"
+
+## 200357
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "たわけがぁぁ！<line-break>わしのお気に入りを触るでない！<end>"
+EN: "You fooool! Keep your hands off my favorite!<end>"
+KO: "이 멍청한 놈아아! 내 마음에 드는 물건에 손대지 마라!<end>"
+
+## 200358
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんね。僕、それのこと<line-break>気に入っているんだ。<end>"
+EN: "Sorry. I really like that one.<end>"
+KO: "미안. 나, 그거 마음에 들었거든.<end>"
+
+## 200359
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これ以上のものを私は知らないな。<end>"
+EN: "I know of nothing finer than this.<end>"
+KO: "이보다 더 좋은 것은 나도 모른다.<end>"
+
+## 200360
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "高貴なアタクシの持ち物を、あなたに<line-break>渡せですって！　冗談じゃないわ！<end>"
+EN: "You expect one as noble as I am to hand over one of my possessions to you?! Don't be absurd!<end>"
+KO: "고귀한 이 몸의 물건을 당신에게 넘기라고요!? 농담하지 마!<end>"
+
+## 200361
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄弟子、そ、それだけはっ！<line-break>拙者、もっと精進するゆえご勘弁を！<end>"
+EN: "Senior disciple, a-anything but that! I shall devote myself to further training, so please, show mercy!<end>"
+KO: "사형, 그, 그것만은! 소생 더 정진할 테니 용서해주시오!<end>"
+
+## 200362
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "んっとねぇ。それって大事なもの<line-break>なんだぁ。だからはずせないのぉ<end>"
+EN: "Umm, you seeee, that's really important to meee. So I can't take it offf.<end>"
+KO: "음, 그건 소중한 거야. 그래서 뺄 수 없어.<end>"
+
+## 200363
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "………渡せん。<end>"
+EN: "...I cannot hand it over.<end>"
+KO: "………못 넘겨.<end>"
+
+## 200364
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは俺にとって譲れないもの…<line-break>失いたくはない。<end>"
+EN: "This is something I can't give up... I don't want to lose it.<end>"
+KO: "이건 나에게 양보할 수 없는 것…. 잃고 싶지 않아.<end>"
+
+## 200365
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "えーっ！　これをとられちゃったら<line-break>ぼく困るなぁ。だからダメだよ。<end>"
+EN: "What?! I'd be in trouble if you took this away. So no.<end>"
+KO: "에엣! 이걸 빼앗기면 난 곤란해. 그러니까 안 돼.<end>"
+
+## 200366
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦いではわずかな狂いが命取りになる。<line-break>それを知らぬ君ではあるまい。<end>"
+EN: "Even the slightest deviation can be fatal in battle. Surely you know that.<end>"
+KO: "싸움에서는 아주 작은 어긋남도 목숨을 앗아간다. 그걸 모르는 자네는 아니겠지.<end>"
+
+## 200367
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私たちの仕事は身軽でなければ、<line-break>つとまらないのです。<line-break>申し訳ありません。<end>"
+EN: "Our line of work requires us to travel light. My apologies.<end>"
+KO: "우리 일은 몸이 가벼워야 할 수 있습니다. 죄송합니다.<end>"
+
+## 200368
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "密偵は素早さが命なの。<line-break>重いものは装備したくないな。<end>"
+EN: "Speed is a spy's lifeblood. I don't want to equip anything heavy.<end>"
+KO: "밀정은 민첩함이 생명이야. 무거운 건 장비하고 싶지 않아.<end>"
+
+## 200369
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "こいつとは長い付き合いでの。<line-break>手放す気にはなれんのじゃよ。<end>"
+EN: "This one and I go back a long way. I just can't bring myself to part with it.<end>"
+KO: "이 녀석과는 오래 함께했지. 내놓을 마음은 들지 않는구나.<end>"
+
+## 200370
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ハハ、残念だけどこれは譲れない。<line-break>これは大切なものなんだ。<end>"
+EN: "Ha ha, sorry, but I can't give this up. It's important to me.<end>"
+KO: "하하, 아쉽지만 이건 못 줘. 소중한 물건이거든.<end>"
+
+## 200371
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "困ります。それは研究に必要なもの<line-break>なんですから。<end>"
+EN: "That would be a problem. I need it for my research.<end>"
+KO: "곤란합니다. 그건 연구에 필요한 물건이니까요.<end>"
+
+## 200372
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは私の所有物だ。<line-break>好きにさせてもらおう。<end>"
+EN: "This belongs to me. I will do with it as I please.<end>"
+KO: "이건 내 소유물이다. 마음대로 하겠다.<end>"
+
+## 200373
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "さすがに、これは渡せません。<line-break>別の物にしてもらえませんか。<end>"
+EN: "I really can't give you this. Could you choose something else?<end>"
+KO: "아무래도 이건 드릴 수 없습니다. 다른 물건으로 해 주시겠습니까?<end>"
+
+## 200374
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "人間ふぜいに指図されるおぼえはない。<line-break>私のものに触れるな。<end>"
+EN: "I will not be ordered around by a mere human. Do not touch what is mine.<end>"
+KO: "인간 따위에게 지시받을 이유는 없다. 내 물건에 손대지 마라.<end>"
+
+## 200375
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヒュー！　俺の持ち物を欲しがるとは、<line-break>あんた見る目あるぜ。でもやれないな。<end>"
+EN: "Whew! You've got a good eye, wanting something of mine. But I can't give it to you.<end>"
+KO: "휴우! 내 물건을 탐내다니 보는 눈은 있네. 하지만 줄 수는 없어.<end>"
+
+## 200376
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>これは私のお気に入りなんです。<end>"
+EN: "I'm sorry. I'm very fond of this.<end>"
+KO: "미안해요. 이건 제가 아끼는 물건이에요.<end>"
+
+## 200377
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>これは私のお気に入りなんです。<end>"
+EN: "I'm sorry. I'm very fond of this.<end>"
+KO: "미안해요. 이건 제가 아끼는 물건이에요.<end>"
+
+## 200378
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>これは私のお気に入りなんです。<end>"
+EN: "I'm sorry. I'm very fond of this.<end>"
+KO: "미안해요. 이건 제가 아끼는 물건이에요.<end>"
+
+## 200379
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "こりゃあ、まちがっとる。<end>"
+EN: "Well, this ain't right.<end>"
+KO: "이건 잘못됐군.<end>"
+
+## 200380
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "こりゃあ、まちがっとる。<end>"
+EN: "Well, this ain't right.<end>"
+KO: "이건 잘못됐군.<end>"
+
+## 200381
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "そいつをとらないでくれ。<line-break>俺のお気に入りなんだ。<end>"
+EN: "Don't take that one. It's a favorite of mine.<end>"
+KO: "그건 가져가지 마. 내가 아끼는 물건이야.<end>"
+
+## 200382
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "あたしの愛用品が欲しいなんて、目の<line-break>つけ所はいいけど、できない相談だね。<end>"
+EN: "You've got a good eye, wanting something I treasure, but that's out of the question.<end>"
+KO: "내 애장품을 갖고 싶다니 보는 눈은 좋지만, 그 부탁은 들어줄 수 없겠네.<end>"
+
+## 200383
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージだぜ。<line-break>俺はもういないんだからよ。<end>"
+EN: "It's an error message. I'm not here anymore, after all.<end>"
+KO: "에러 메시지다. 난 이제 없으니까 말이야.<end>"
+
+## 200384
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージよ。<line-break>私はもういないの。<end>"
+EN: "It's an error message. I'm not here anymore.<end>"
+KO: "에러 메시지야. 나는 이제 없어.<end>"
+
+## 200385
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージだ。<line-break>俺はもういない。<end>"
+EN: "It's an error message. I'm not here anymore.<end>"
+KO: "오류 메시지다. 나는 이제 없다.<end>"
+
+## 200386
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "エラーメッセージよ。<line-break>私はもういないの。<end>"
+EN: "It's an error message. I'm not here anymore.<end>"
+KO: "에러 메시지야. 나는 이제 없어.<end>"
+
+## 200387
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これを譲るのは、お前を一人前と<line-break>認めたときだ。まだ早い。<end>"
+EN: "I'll hand this over when I consider you fully fledged. It's still too soon.<end>"
+KO: "이걸 넘겨주는 건 널 한 사람 몫을 하는 녀석으로 인정했을 때다. 아직 멀었어.<end>"
+
+## 200388
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうねぇ、あなたの大切なものと<line-break>交換してくれるならいいわよ。<end>"
+EN: "Well, I suppose I could trade it for something precious to you.<end>"
+KO: "글쎄, 네 소중한 것과 바꿔 준다면 괜찮아.<end>"
+
+## 200389
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは私の持ち物です。<line-break>勝手に触らないでください。<end>"
+EN: "This belongs to me. Please don't touch it without permission.<end>"
+KO: "이건 제 물건입니다. 마음대로 만지지 마세요.<end>"
+
+## 200390
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは親父の形見なんだ。<line-break>"
+EN: "This is a keepsake from my late father."
+KO: "이건 아버지의 유품이야. "
+
+## 200391
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "私にとって大切なものなの。<line-break>だから渡すわけにはいかないわ。<end>"
+EN: "This is precious to me. That's why I can't give it to you.<end>"
+KO: "나한테 소중한 물건이야. 그러니 줄 수 없어.<end>"
+
+## 200392
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "…私には、これが必要なのです。<end>"
+EN: "...I need this.<end>"
+KO: "…저에게는 이것이 필요합니다.<end>"
+
+## 200393
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい。<line-break>私、これじゃないと……。<line-break>フライパンって結構強いんですよ。<line-break><end>"
+EN: "I'm sorry. I can't manage without this... Frying pans are surprisingly strong, you know.<end>"
+KO: "미안해요. 전 이게 아니면 안 돼서……. 프라이팬도 제법 강하거든요.<end>"
+
+## 200394
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "これは大切なものなんだ。<line-break>すまないが、手放すわけにはいかない。<line-break><end>"
+EN: "This is important to me. Sorry, but I can't part with it.<end>"
+KO: "이건 소중한 물건이야. 미안하지만 내놓을 수 없어.<end>"
+
+## 200395
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "火の精霊力を集めた指輪<end>"
+EN: "A ring imbued with fire spirit power<end>"
+KO: "불의 정령력을 모은 반지<end>"
+
+## 200396
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "水の精霊力を集めた指輪<end>"
+EN: "A ring imbued with water spirit power<end>"
+KO: "물의 정령력을 모은 반지<end>"
+
+## 200397
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "大地の精霊力を集めた指輪<end>"
+EN: "A ring imbued with earth spirit power<end>"
+KO: "대지의 정령력을 모은 반지<end>"
+
+## 200398
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "風の精霊力を集めた指輪<end>"
+EN: "A ring imbued with wind spirit power<end>"
+KO: "바람의 정령력을 모은 반지<end>"
+
+## 200399
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "聖の精霊力を集めた指輪<end>"
+EN: "A ring imbued with holy spirit power<end>"
+KO: "성스러운 정령력을 모은 반지<end>"
+
+## 200400
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の精霊力を集めた指輪<end>"
+EN: "A ring imbued with dark spirit power<end>"
+KO: "어둠의 정령력을 모은 반지<end>"
+
+## 200401
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "燃え上がる火柱を象った意匠のしてある腕輪<end>"
+EN: "A bracelet adorned with a blazing pillar of flame<end>"
+KO: "타오르는 불기둥을 본뜬 무늬가 새겨진 팔찌<end>"
+
+## 200402
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "流れる氷を象った意匠のしてある腕輪<end>"
+EN: "A bracelet adorned with flowing ice<end>"
+KO: "흐르는 얼음을 본뜬 무늬의 팔찌<end>"
+
+## 200403
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "肥沃な大地の風景が彫られている腕輪<end>"
+EN: "A bracelet engraved with a fertile landscape<end>"
+KO: "비옥한 대지의 풍경이 새겨진 팔찌<end>"
+
+## 200404
+source: translations/korean/messages/msgsec020-part99.toml
+jp_matches_pinned_english: yes
+JP: "すずしげな風を意匠として彫ってある腕輪<end>"
+EN: "A bracelet engraved with a refreshing breeze motif<end>"
+KO: "시원한 바람을 무늬로 새긴 팔찌<end>"
 
