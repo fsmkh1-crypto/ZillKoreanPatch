@@ -4,7 +4,7 @@ on:
   push:
     branches: [milestone/Beta1]
     paths:
-      - 'docs/audit/review/scope-*-request.json'
+      - 'docs/audit/review/scope-requests/*.json'
       - 'docs/audit/review/candidate-*-selection.json'
       - 'docs/audit/beta1-contextual-copyedit-*-reviewed.json'
       - 'docs/audit/beta1-context-review-commits.json'
@@ -37,7 +37,7 @@ jobs:
         run: |
           set -euo pipefail
           shopt -s nullglob
-          for req in docs/audit/review/scope-*-request.json; do
+          for req in docs/audit/review/scope-requests/*.json; do
             python3 - "$req" <<'PY'
           import json
           import subprocess
@@ -115,7 +115,6 @@ jobs:
         run: |
           shopt -s nullglob
           for scope in docs/audit/review/scope-*.json; do
-            case "$scope" in *-request.json) continue ;; esac
             python3 tools/korean/build-beta1-review-packet.py \
               --english-root ../english --scope "$scope" --verify
           done
