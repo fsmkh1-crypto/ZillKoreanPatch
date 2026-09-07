@@ -1,16 +1,14 @@
 {
   "version": 4,
-  "korean_head": "e9083199d3bed3aefa2c5959b85bd586c3c5dad7",
+  "korean_head": "3069d1f0b68a11b1e23c5ef04bc15eda850a1740",
   "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
   "accepted_ids": 42016,
   "authority": "language-equivalence candidate = exact JP + exact pinned EN + exact KO; EN mismatch forbids propagation",
-  "unique_language_signatures": 35726,
-  "duplicate_language_groups": 2666,
-  "duplicate_member_ids": 8956,
-  "propagation_candidate_extra_ids": 6290,
-  "pending_review_basis_batches": [
-    "030"
-  ],
+  "unique_language_signatures": 35729,
+  "duplicate_language_groups": 2664,
+  "duplicate_member_ids": 8951,
+  "propagation_candidate_extra_ids": 6287,
+  "pending_review_basis_batches": [],
   "counting_policy": "Candidate-only. KEEP propagation requires representative review with every member context displayed; propagated KEEP is over-sampled in second-pass QA. EDIT uses the same language-equivalence signature plus exact-before manifest gates.",
   "groups": [
     {
@@ -5226,6 +5224,13 @@
       ]
     },
     {
+      "representative": "400257",
+      "ids": [
+        "400257",
+        "1340197"
+      ]
+    },
+    {
       "representative": "400258",
       "ids": [
         "400258",
@@ -5258,13 +5263,6 @@
       "ids": [
         "400267",
         "1340205"
-      ]
-    },
-    {
-      "representative": "400280",
-      "ids": [
-        "400280",
-        "1340221"
       ]
     },
     {
@@ -5377,13 +5375,6 @@
       ]
     },
     {
-      "representative": "410129",
-      "ids": [
-        "410129",
-        "1340283"
-      ]
-    },
-    {
       "representative": "410130",
       "ids": [
         "410130",
@@ -5391,13 +5382,6 @@
         "840088",
         "1360541",
         "1410031"
-      ]
-    },
-    {
-      "representative": "410146",
-      "ids": [
-        "410146",
-        "1340313"
       ]
     },
     {
@@ -5905,22 +5889,6 @@
       "ids": [
         "440098",
         "1340464"
-      ]
-    },
-    {
-      "representative": "440104",
-      "ids": [
-        "440104",
-        "580066",
-        "950071",
-        "1340039",
-        "1340092",
-        "1340182",
-        "1340675",
-        "1360147",
-        "1360153",
-        "1740099",
-        "1740206"
       ]
     },
     {
@@ -8726,6 +8694,21 @@
       "ids": [
         "580042",
         "580049"
+      ]
+    },
+    {
+      "representative": "580066",
+      "ids": [
+        "580066",
+        "950071",
+        "1340039",
+        "1340092",
+        "1340182",
+        "1340675",
+        "1360147",
+        "1360153",
+        "1740099",
+        "1740206"
       ]
     },
     {
