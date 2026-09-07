@@ -26,7 +26,7 @@ korean = "<if><value:$2C><less-equal>%9봉황산에 산다는 피닉스를 한 �
 
 ["90006"]
 japanese = "<if><value:$2A><less-equal>%49勇者ネメアって知ってるか？　　<line-break>魔王バロルを倒して世界を救った<line-break>英雄なんだぜ。<line-break>俺もあの人みたいになりたくて<line-break>冒険者をやってるんだ。<line-break>なかなか有名になれないけどな。<end><if><value:$2A><less-equal>%120最近、<value:$28>って名の<line-break>冒険者が活躍しているらしいな。<line-break>俺も負けてられねえぜ。<end><value:$28>は化け物かっ！<line-break>どうやったらこんな短期間で<line-break>大陸中に名前が知れ渡るんだ！？<end>"
-korean = "<if><value:$2A><less-equal>%49용자 네메아를 알아? 마왕 발로르를 쓰러뜨리고 세계를 구한 영웅이야. 나도 그 사람처럼 되고 싶어서 모험자를 하고 있어. 좀처럼 유명해지진 않지만.<end><if><value:$2A><less-equal>%120요즘 <value:$28>라는 모험자가 활약한다더라. 나도 질 수 없지.<end><value:$28>는 괴물이냐! 어떻게 이렇게 짧은 시간에 대륙 전체에 이름이 알려진 거야!?<end>"
+korean = "<if><value:$2A><less-equal>%49용사 네메아를 알아? 마왕 발로르를 쓰러뜨리고 세계를 구한 영웅이야. 나도 그 사람처럼 되고 싶어서 모험자를 하고 있어. 좀처럼 유명해지진 않지만.<end><if><value:$2A><less-equal>%120요즘 <value:$28>라는 모험자가 활약한다더라. 나도 질 수 없지.<end><value:$28>는 괴물이냐! 어떻게 이렇게 짧은 시간에 대륙 전체에 이름이 알려진 거야!?<end>"
 
 ["90007"]
 japanese = "<select><value:$20>%2元々ウルカーンは古代魔道王国ラドラスの　　　<line-break>火の巫女ウルと、魔法文明を捨てるという<line-break>彼女の意志に賛同した者たちが造ったのじゃ。<line-break>じゃが長い年月が経って、マグマゴーレム<line-break>を研究して魔法文明をよみがえらせようとする<line-break>魔道士たちが集う都市になってしまったのじゃ。<end>火の巫女フレア様の世話はシェムハザ殿が　　<line-break>しておるんじゃ。そのせいかフレア様のお姿を<line-break>ここ２０年くらい見てない気がするのう。<line-break>しかし、わしが若いころから火の巫女はフレア様<line-break>じゃったが、もうかなりのお年じゃろう、<line-break>いつ代替わりするのかのう。<end>"
