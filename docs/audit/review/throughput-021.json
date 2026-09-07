@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "batch_id": "021",
+  "source_head": "a1e9a23a437348d2f744e46c56bd17723f05cdf2",
+  "total_ids": 129,
+  "direct_read_ids": 129,
+  "visible_segments_reviewed_estimate": 236,
+  "visible_segment_method": "Approximate directly read player-facing/state dialogue segments across msgsec014, msgsec015 and msgsec016 IDs 160000-160084; excludes three internal marker/comment IDs. Workload approximation, not runtime coverage.",
+  "contextual_ids": 126,
+  "edits": 64,
+  "keeps": 62,
+  "exclusions": 3,
+  "propagated_ids": 0,
+  "reading_seconds": null,
+  "evidence_seconds": null,
+  "ci_wait_seconds": 71,
+  "incident_seconds": null,
+  "wall_clock_seconds": null,
+  "timing_note": "ci_wait_seconds counts only the two successful final GitHub jobs: heavy 47s + scope 24s. Reading/evidence/end-to-end time was not separately stopwatch-instrumented. Failed/retry process is documented separately and is not silently folded into normalized throughput.",
+  "workflow_failures": 2,
+  "workflows": {
+    "heavy_initial": {
+      "run_id": 34083101354,
+      "conclusion": "failure",
+      "reason": "ID 160063 used 152 bytes against a 151-byte guild-region storage maximum; all earlier apply/layout/Korean QA gates had passed. The wording was shortened without bypassing the English-consumer storage contract."
+    },
+    "heavy": {
+      "run_id": 34083780080,
+      "job_id": 101623867377,
+      "started_at": "2026-09-07T04:37:20Z",
+      "completed_at": "2026-09-07T04:38:07Z",
+      "seconds": 47,
+      "conclusion": "success"
+    },
+    "scope_hash_discovery": {
+      "run_id": 34083975845,
+      "conclusion": "failure",
+      "reason": "Deliberate placeholder packet hash mismatch used only to obtain CI-reconstructed deterministic packet SHA; no ledger/coverage mutation occurred."
+    },
+    "scope": {
+      "run_id": 34084089156,
+      "job_id": 101624707872,
+      "started_at": "2026-09-07T04:42:19Z",
+      "completed_at": "2026-09-07T04:42:43Z",
+      "seconds": 24,
+      "conclusion": "success"
+    }
+  },
+  "semantic_commit": "d6a497378e1515ab7c55e1333dc2390877a1f037",
+  "review_basis_commit": "77529032a81329d9797bd23f149e62ce1452dfbd",
+  "coverage_commit": "939b3623df0cfb9a61f0ba9cbc862e7ad7f62dc3",
+  "packet_sha256": "af440d9dfc720af08ff1e653fe3d402544ec818e8f7dddcb4173731bf8f63377",
+  "coverage_before": 623,
+  "coverage_after": 749,
+  "context_stale": 0,
+  "layout_recheck": 0,
+  "custom_glyphs_before": 1308,
+  "custom_glyphs_after": 1308,
+  "missing_glyph_characters": 0,
+  "persisted_layout_population": 141,
+  "layout_drift": 0,
+  "layouts_invalidated": 0,
+  "next_source_id": "160085"
+}
