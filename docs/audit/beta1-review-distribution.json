@@ -1,0 +1,232 @@
+{
+  "accepted_ids": 42016,
+  "ko_visible_length_bins": {
+    "1-10": 9786,
+    "11-20": 8873,
+    "21-40": 11209,
+    "41-80": 8564,
+    "81-160": 2985,
+    "161+": 599
+  },
+  "jp_visible_length_bins": {
+    "1-10": 10136,
+    "11-20": 9006,
+    "21-40": 11388,
+    "41-80": 8532,
+    "81-160": 2443,
+    "161+": 511
+  },
+  "fixed_buffer_by_ko_length": {
+    "1-10": 3878,
+    "11-20": 2941,
+    "21-40": 5131,
+    "41-80": 5391,
+    "81-160": 1795,
+    "161+": 244
+  },
+  "rows_with_non_end_controls": 5021,
+  "rows_with_sentence_punctuation": 31115,
+  "language_duplicate_group_size_population": {
+    "1": 33058,
+    "2": 4060,
+    "3": 972,
+    "4": 540,
+    "5": 285,
+    "6": 168,
+    "7": 126,
+    "8": 104,
+    "9": 81,
+    "10": 110,
+    "11": 44,
+    "12": 96,
+    "13": 65,
+    "14": 28,
+    "16": 48,
+    "17": 34,
+    "18": 54,
+    "19": 19,
+    "21": 21,
+    "22": 22,
+    "23": 46,
+    "33": 33,
+    "60": 60,
+    "62": 62,
+    "94": 94,
+    "96": 96,
+    "99": 99,
+    "101": 101,
+    "148": 148,
+    "170": 170,
+    "1172": 1172
+  },
+  "rapid_scan_candidate": {
+    "definition": "visible KO<=20 AND visible JP<=20 AND no non-<end> controls AND no sentence punctuation",
+    "ids": 10407,
+    "duplicate_member_ids_within_candidate": 4202,
+    "note": "workload triage only; never review credit"
+  },
+  "top_consumers": [
+    [
+      "unproven",
+      17169
+    ],
+    [
+      "c5-portrait",
+      15225
+    ],
+    [
+      "verified-narrow-dialogue",
+      6458
+    ],
+    [
+      "bounded-label",
+      1516
+    ],
+    [
+      "c22",
+      697
+    ],
+    [
+      "item-description",
+      420
+    ],
+    [
+      "c5",
+      395
+    ],
+    [
+      "c5-single-page",
+      54
+    ],
+    [
+      "guild-region",
+      42
+    ],
+    [
+      "guild-commentary",
+      40
+    ]
+  ],
+  "top_categories": [
+    [
+      "unknown",
+      26646
+    ],
+    [
+      "dialogue",
+      7477
+    ],
+    [
+      "uncategorized",
+      1959
+    ],
+    [
+      "objective-advice",
+      1597
+    ],
+    [
+      "location-route-label",
+      913
+    ],
+    [
+      "character-profile",
+      705
+    ],
+    [
+      "choice",
+      347
+    ],
+    [
+      "combat-action-name",
+      269
+    ],
+    [
+      "equipment-description",
+      204
+    ],
+    [
+      "general-ui-menu",
+      160
+    ],
+    [
+      "equipment-feedback",
+      148
+    ],
+    [
+      "ability-description",
+      135
+    ],
+    [
+      "equipment-name",
+      120
+    ],
+    [
+      "quest-item-description",
+      112
+    ],
+    [
+      "item-effect-description",
+      104
+    ],
+    [
+      "system-help",
+      103
+    ],
+    [
+      "player-name-option",
+      100
+    ],
+    [
+      "cinematic-text",
+      99
+    ],
+    [
+      "inventory-and-status-help",
+      87
+    ],
+    [
+      "guild-ui-voiced-copy",
+      86
+    ],
+    [
+      "chronicle-entry",
+      80
+    ],
+    [
+      "audio-cue-label",
+      74
+    ],
+    [
+      "ability-requirement",
+      68
+    ],
+    [
+      "epithet-component",
+      65
+    ],
+    [
+      "quest-topic-label",
+      54
+    ],
+    [
+      "notification",
+      53
+    ],
+    [
+      "ability-command-name",
+      51
+    ],
+    [
+      "character-creation-choice",
+      42
+    ],
+    [
+      "character-creation-prompt",
+      34
+    ],
+    [
+      "battle-notification",
+      33
+    ]
+  ]
+}
