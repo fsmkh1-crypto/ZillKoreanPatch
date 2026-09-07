@@ -5,16 +5,16 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **880 (2.094%)**
+- Valid contextual review: **1,310 (3.118%)**
   - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **271**
-  - direct `manifest_edit`: **433**
+  - dense `scope_full_read`: **654**
+  - direct `manifest_edit`: **480**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **41,136**
-- Approved registered manifest records (historical, non-deduplicated): **436**
-- Pending batches lacking a registered review basis: **023**
+- `UNREVIEWED` for contextual purposes: **40,706**
+- Approved registered manifest records (historical, non-deduplicated): **483**
+- Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
 Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.
@@ -27,7 +27,7 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 - `SOURCE_ANOMALY`: **0** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
 - `FIXED_BUFFER`: **309** among ledger rows; full accepted population **19380**
-- `RUNTIME_PENDING`: **8** among ledger rows; full accepted population **47**
+- `RUNTIME_PENDING`: **16** among ledger rows; full accepted population **47**
 - English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
 Consumer/storage/runtime metadata remains in each ledger row for traceability, but it is not part of language propagation equivalence.
@@ -49,6 +49,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | S-020 | 84 | 53 | 27 | 4 | `docs/audit/review/scope-020.json` |
 | S-021 | 129 | 62 | 64 | 3 | `docs/audit/review/scope-021.json` |
 | S-022 | 135 | 106 | 28 | 1 | `docs/audit/review/scope-022.json` |
+| S-023 | 430 | 391 | 39 | 0 | `docs/audit/review/scope-023.json` |
 
 ## Historical edit manifests
 
@@ -75,7 +76,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 020 | REGISTERED | 27 | 27 | `docs/audit/beta1-contextual-copyedit-020-reviewed.json` |
 | 021 | REGISTERED | 64 | 64 | `docs/audit/beta1-contextual-copyedit-021-reviewed.json` |
 | 022 | REGISTERED | 28 | 28 | `docs/audit/beta1-contextual-copyedit-022-reviewed.json` |
-| 023 | PENDING_BASIS | 47 | 47 | `docs/audit/beta1-contextual-copyedit-023-reviewed.json` |
+| 023 | REGISTERED | 47 | 47 | `docs/audit/beta1-contextual-copyedit-023-reviewed.json` |
 
 ## Completion/quality rule
 
