@@ -17,7 +17,7 @@
     "50004", "50006", "50008", "50010", "50011", "60001", "60002", "60003", "60004"
   ],
   "exclusions": ["50014"],
-  "packet_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "packet_sha256": "9cee205f04bb9952a27850329920fb8bc36661b703efbc01758612031845ab47",
   "reviewer": "GPT-5.6 Sol",
   "reviewed_at": "2026-09-07",
   "review_method": "Sequential source-order dense full-read. For each row: Japanese meaning/context first, then pinned English treatment and its reason, then natural Korean judgment. AI/scanner signals were discovery-only; every ID was directly read."
