@@ -18,8 +18,8 @@
   },
   "fixed_buffer_by_ko_length": {
     "1-10": 3878,
-    "11-20": 2940,
-    "21-40": 5132,
+    "11-20": 2939,
+    "21-40": 5133,
     "41-80": 5392,
     "81-160": 1794,
     "161+": 244
@@ -61,7 +61,7 @@
   },
   "rapid_scan_candidate": {
     "definition": "visible KO<=20 AND visible JP<=20 AND no non-<end> controls AND no sentence punctuation",
-    "ids": 10408,
+    "ids": 10409,
     "duplicate_member_ids_within_candidate": 4202,
     "note": "workload triage only; never review credit"
   },

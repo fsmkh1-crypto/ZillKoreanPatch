@@ -5,7 +5,7 @@
 - Accepted IDs: **42,016**
 - Rows with non-`<end>` controls: **5,021**
 - Rows with sentence punctuation: **31,114**
-- Conservative rapid-scan candidates: **10,408**
+- Conservative rapid-scan candidates: **10,409**
 
 Rapid-scan candidate means visible KO <= 20 and visible JP <= 20, no non-`<end>` controls, and no sentence punctuation. `FIXED_BUFFER` is intentionally not used as a shortcut.
 
@@ -14,8 +14,8 @@ Rapid-scan candidate means visible KO <= 20 and visible JP <= 20, no non-`<end>`
 | Length | KO IDs | JP IDs | FIXED_BUFFER within KO bin |
 | --- | ---: | ---: | ---: |
 | 1-10 | 9,785 | 10,136 | 3,878 |
-| 11-20 | 8,876 | 9,006 | 2,940 |
-| 21-40 | 11,204 | 11,388 | 5,132 |
+| 11-20 | 8,876 | 9,006 | 2,939 |
+| 21-40 | 11,204 | 11,388 | 5,133 |
 | 41-80 | 8,567 | 8,532 | 5,392 |
 | 81-160 | 2,985 | 2,443 | 1,794 |
 | 161+ | 599 | 511 | 244 |
