@@ -5,14 +5,14 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **2,781 (6.619%)**
+- Valid contextual review: **3,414 (8.125%)**
   - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **1,941**
+  - dense `scope_full_read`: **2,574**
   - direct `manifest_edit`: **664**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **39,235**
+- `UNREVIEWED` for contextual purposes: **38,602**
 - Approved registered manifest records (historical, non-deduplicated): **668**
 - Pending batches lacking a registered review basis: **none**
 
@@ -26,7 +26,7 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 - `ALIAS_GROUP`: **0** among ledger rows
 - `SOURCE_ANOMALY`: **0** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
-- `FIXED_BUFFER`: **812** among ledger rows; full accepted population **19380**
+- `FIXED_BUFFER`: **1162** among ledger rows; full accepted population **19380**
 - `RUNTIME_PENDING`: **16** among ledger rows; full accepted population **47**
 - English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
@@ -52,6 +52,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | S-023 | 430 | 391 | 39 | 0 | `docs/audit/review/scope-023.json` |
 | S-024 | 700 | 666 | 34 | 0 | `docs/audit/review/scope-024.json` |
 | S-025 | 700 | 623 | 77 | 0 | `docs/audit/review/scope-025.json` |
+| S-027 | 700 | 633 | 67 | 0 | `docs/audit/review/scope-027.json` |
 
 ## Historical edit manifests
 
