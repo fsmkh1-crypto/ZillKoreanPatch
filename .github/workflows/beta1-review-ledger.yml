@@ -17,6 +17,7 @@ on:
       - 'tools/korean/build-beta1-review-ledger.py'
       - 'tools/korean/build-beta1-review-consumer-map.py'
       - 'tools/korean/enrich-beta1-review-ledger.py'
+      - 'tools/korean/analyze-beta1-review-distribution.py'
       - '.github/workflows/beta1-review-ledger.yml'
   workflow_dispatch:
 
@@ -58,11 +59,19 @@ jobs:
         run: |
           python3 tools/korean/build-beta1-review-ledger.py --english-root ../english
           python3 tools/korean/enrich-beta1-review-ledger.py --consumer-map docs/audit/beta1-review-consumer-evidence.json
+          python3 tools/korean/analyze-beta1-review-distribution.py
           git diff --check
       - name: Commit generated review evidence
         working-directory: korean
         run: |
-          paths=(translations/korean/review-ledger.jsonl docs/audit/beta1-review-coverage.md docs/audit/beta1-review-groups.json docs/audit/beta1-review-consumer-evidence.json)
+          paths=(
+            translations/korean/review-ledger.jsonl
+            docs/audit/beta1-review-coverage.md
+            docs/audit/beta1-review-groups.json
+            docs/audit/beta1-review-consumer-evidence.json
+            docs/audit/beta1-review-distribution.json
+            docs/audit/beta1-review-distribution.md
+          )
           if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
             echo 'Review ledger already current.'
             exit 0
