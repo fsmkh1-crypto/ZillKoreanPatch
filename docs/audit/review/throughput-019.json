@@ -12,6 +12,8 @@
   ],
   "total_ids": 59,
   "direct_read_ids": 59,
+  "visible_segments_reviewed_estimate": 224,
+  "visible_segments_note": "Approximate visible dialogue-state segments reviewed across the 59 physical IDs. Official contextual completion remains ID-based; one state-heavy ID still contributes at most one contextual ID. Use this estimate only for workload sizing/throughput interpretation, not ledger coverage.",
   "contextual_ids": 56,
   "edits": 17,
   "keeps": 39,
