@@ -31,27 +31,29 @@ def main():
     ap.add_argument("--selection-output",type=Path,required=True)
     a=ap.parse_args(); root=a.root.resolve(); eroot=a.english_root.resolve()
     covered=set()
-    ledger=root/"translations/korean/review-ledger.jsonl"
-    for line in ledger.read_text(encoding="utf-8").splitlines():
-        if line.strip():
-            row=json.loads(line); covered.add(str(row["id"]))
-    eng=load_english(eroot)
-    start=int(a.start_id)
-    chosen=[]
+    for line in (root/"translations/korean/review-ledger.jsonl").read_text(encoding="utf-8").splitlines():
+        if line.strip(): covered.add(str(json.loads(line)["id"]))
+    eng=load_english(eroot); start=int(a.start_id); pool=[]; seen={}
     for p in sorted((root/"translations/korean/messages").glob("msgsec*.toml"), key=key_path):
         d=tomllib.loads(p.read_text(encoding="utf-8"))
-        for rid,row in sorted(((str(k),v) for k,v in d.items() if isinstance(v,dict) and isinstance(v.get("korean"),str)), key=lambda kv:key_id(kv[0])):
-            if not rid.isdigit() or int(rid)<start or rid in covered: continue
-            er=eng.get(rid,{"japanese":"","english":""})
-            chosen.append({"id":rid,"source_path":str(p.relative_to(root)),"japanese":row.get("japanese",""),"english":er.get("english",""),"korean":row.get("korean",""),"jp_matches_pinned_english":row.get("japanese","")==er.get("japanese","")})
-            if len(chosen)>=a.count: break
-        if len(chosen)>=a.count: break
+        for rid,row in d.items():
+            rid=str(rid)
+            if not isinstance(row,dict) or not isinstance(row.get("korean"),str) or not rid.isdigit() or int(rid)<start or rid in covered: continue
+            item={"id":rid,"source_path":str(p.relative_to(root)),"japanese":row.get("japanese",""),"korean":row.get("korean","")}
+            if rid in seen:
+                prev=seen[rid]
+                if (prev["japanese"],prev["korean"]) != (item["japanese"],item["korean"]): raise SystemExit(f"alias drift id={rid}")
+                continue
+            seen[rid]=item; pool.append(item)
+    pool.sort(key=lambda r:key_id(r["id"])); chosen=pool[:a.count]
     if len(chosen)<a.count: raise SystemExit(f"only {len(chosen)} candidates available")
-    out=["# Beta1 next-review candidate packet","",f"start_id: {a.start_id}",f"candidate_count: {len(chosen)}",f"pinned_english_sha: {PIN}","order: source-file then numeric ID","note: candidate packet only; creates no review coverage.",""]
+    for r in chosen:
+        er=eng.get(r["id"],{"japanese":"","english":""}); r["english"]=er.get("english",""); r["jp_matches_pinned_english"]=r["japanese"]==er.get("japanese","")
+    out=["# Beta1 next-review candidate packet","",f"start_id: {a.start_id}",f"candidate_count: {len(chosen)}",f"pinned_english_sha: {PIN}","order: global numeric ID","note: candidate packet only; creates no review coverage.",""]
     for r in chosen:
         q=lambda s:json.dumps(s,ensure_ascii=False,separators=(",",":"))
         out += [f"## {r['id']}",f"source: {r['source_path']}",f"jp_matches_pinned_english: {'yes' if r['jp_matches_pinned_english'] else 'NO'}",f"JP: {q(r['japanese'])}",f"EN: {q(r['english'])}",f"KO: {q(r['korean'])}",""]
     op=a.output if a.output.is_absolute() else root/a.output; op.parent.mkdir(parents=True,exist_ok=True); op.write_text("\n".join(out)+"\n",encoding="utf-8")
-    sp=a.selection_output if a.selection_output.is_absolute() else root/a.selection_output; sp.parent.mkdir(parents=True,exist_ok=True); sp.write_text(json.dumps({"schema_version":1,"start_id":a.start_id,"candidate_count":len(chosen),"pinned_english_sha":PIN,"ids":[r["id"] for r in chosen],"source_paths":sorted(set(r["source_path"] for r in chosen))},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    sp=a.selection_output if a.selection_output.is_absolute() else root/a.selection_output; sp.parent.mkdir(parents=True,exist_ok=True); sp.write_text(json.dumps({"schema_version":2,"start_id":a.start_id,"candidate_count":len(chosen),"pinned_english_sha":PIN,"order":"global_numeric_id","ids":[r["id"] for r in chosen],"source_paths":sorted(set(r["source_path"] for r in chosen))},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"status":"PASS","count":len(chosen),"first":chosen[0]["id"],"last":chosen[-1]["id"],"files":sorted(set(r["source_path"] for r in chosen))},ensure_ascii=False,indent=2))
 if __name__=="__main__": main()
