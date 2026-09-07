@@ -6,4903 +6,4903 @@ pinned_english_sha: a98d9ce29f361d666ec23da0dcfd351f24537ffd
 order: global numeric ID
 note: candidate packet only; creates no review coverage.
 
-## 200405
-source: translations/korean/messages/msgsec020-part99.toml
+## 250015
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "何の意匠もなく、常に純白さを保っている腕輪<end>"
-EN: "An unadorned bracelet that remains pure white<end>"
-KO: "아무 문양도 없고 언제나 순백을 유지하는 팔찌<end>"
+JP: "旅は安全でなければなりません。<line-break>それを提供するのも私どもの役目です。<line-break>この街から<value:$15>まで行かれる<line-break><value:$17><value:$16>様の護衛を<line-break>お願いします。<line-break><value:$1A>ギアの報酬で、<line-break><value:$1B>日以内が到着の期限です。<end>"
+EN: "Travel should be safe, and providing that safety is part of our duty. Please escort <value:$17><value:$16> from this city to <value:$15>. Reward: <value:$1A> Gea. Arrival deadline: within <value:$1B> days.<end>"
+KO: "여행은 안전해야 합니다. 그 안전을 제공하는 것도 저희 역할입니다. 이 마을에서 <value:$15>까지 가시는 <value:$17><value:$16>님의 호위를 부탁드립니다. 보수는 <value:$1A>기어, 도착 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200406
-source: translations/korean/messages/msgsec020-part99.toml
+## 250016
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "何の意匠もなく、ただひたすらに真っ黒な腕輪<end>"
-EN: "An unadorned bracelet of unrelieved black<end>"
-KO: "아무 문양도 없고 그저 새까만 팔찌<end>"
+JP: "<value:$15>まで行くんだけど、<line-break>危ないから誰か守ってくれませんか？<line-break>お礼に<value:$1A>ギア差し上げます。<line-break><value:$1B>日以内に向こうまで送ってください。<end>"
+EN: "I'm going to <value:$15>, but it's dangerous. Could someone protect me? I'll pay <value:$1A> Gea. Please get me there within <value:$1B> days.<end>"
+KO: "<value:$15>까지 가는데 위험하니 누가 지켜주지 않겠습니까? 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 안에 그곳까지 데려다 주세요.<end>"
 
-## 200407
-source: translations/korean/messages/msgsec020-part99.toml
+## 250017
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "闘士の心得が記された書<end>"
-EN: "The Fighter's Handbook<end>"
-KO: "투사의 마음가짐이 적힌 책<end>"
+JP: "当家の<value:$17><value:$16>の<line-break>護衛を引き受けてくれる者を探している。<line-break>目的地は、<value:$15>である。<line-break>褒美は、<value:$1A>ギアとらせる。<line-break><value:$1B>日以内で、無事に送り届けるように。<end>"
+EN: "I seek someone to escort our house's <value:$17><value:$16>. Destination: <value:$15>. Reward: <value:$1A> Gea. Deliver the traveler safely within <value:$1B> days.<end>"
+KO: "우리 집의 <value:$17><value:$16>의 호위를 맡아 줄 사람을 찾고 있다. 목적지는 <value:$15>이다. 보수는 <value:$1A>기어를 주겠다. <value:$1B>일 이내에 무사히 데려다주도록.<end>"
 
-## 200408
-source: translations/korean/messages/msgsec020-part99.toml
+## 250018
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "必勝を期したお守り<end>"
-EN: "An amulet made in hopes of certain victory<end>"
-KO: "필승을 기원한 부적<end>"
+JP: "市民ギルドの<value:$17><value:$16><line-break>が、どうしてもはずせない用事のために、<line-break><value:$15>に行かねばなりません。<line-break>冒険者の方に護衛をお願いします。<line-break><value:$1A>ギアを用立てました。<line-break><value:$1B>日以内に目的地まで送り届けてください。<end>"
+EN: "The Citizens' Guild's <value:$17><value:$16> must travel to <value:$15> on unavoidable business. We ask an adventurer to serve as escort. We have raised <value:$1A> Gea. Please deliver the traveler to the destination within <value:$1B> days.<end>"
+KO: "시민 길드의 <value:$17><value:$16>가 꼭 처리해야 할 일 때문에 <value:$15>에 가야 합니다. 모험자분께 호위를 부탁드립니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 안에 목적지까지 데려다 주세요.<end>"
 
-## 200409
-source: translations/korean/messages/msgsec020-part99.toml
+## 250019
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "盗みのテクニックが書いてある奥義書<end>"
-EN: "A secret manual of thieving techniques<end>"
-KO: "도둑질 기술이 적힌 오의서<end>"
+JP: "村の<value:$17><value:$16>が、<line-break><value:$15>に行かなきゃなんないんだ。<line-break>通り道には、モンスターとか盗賊とかが<line-break>出てきてとてもおっかないらしい。<line-break>なんとか<value:$1A>ギア用意できたから、<line-break>護衛を頼まれてほしいんだ。<line-break><value:$1B>日以内に着いてくれ。<end>"
+EN: "The village's <value:$17><value:$16> has to go to <value:$15>. They say monsters and bandits appear along the road, and it sounds terrifying. We somehow managed to raise <value:$1A> Gea, so please take the escort job. Get there within <value:$1B> days.<end>"
+KO: "마을의 <value:$17><value:$16>가 <value:$15>까지 가야 해. 길에는 몬스터나 도적 같은 게 나타나서 아주 위험하대. 어떻게든 <value:$1A>기어를 마련했으니 호위를 맡아 줬으면 해. <value:$1B>일 이내에 도착해 줘.<end>"
 
-## 200410
-source: translations/korean/messages/msgsec020-part99.toml
+## 250020
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＳＴＲが１０上昇する首飾り<end>"
-EN: "A necklace that raises ＳＴＲ by 10<end>"
-KO: "STR이 10 상승하는 목걸이<end>"
+JP: "この町の<value:$17><value:$16>が、<line-break><value:$15>に行くことになりました。<line-break>護衛を務めてくださる方を募集します。<line-break><value:$1A>ギアをお礼としてさしあげます。<line-break>到着の期限は、<value:$1B>日以内です。<end>"
+EN: "This town's <value:$17><value:$16> will be traveling to <value:$15>. We are seeking someone to serve as escort. Reward: <value:$1A> Gea. Arrival deadline: within <value:$1B> days.<end>"
+KO: "이 마을의 <value:$17><value:$16>가 <value:$15>에 가게 되었습니다. 호위를 맡아 주실 분을 모집합니다. 사례로 <value:$1A>기어를 드리겠습니다. 도착 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200411
-source: translations/korean/messages/msgsec020-part99.toml
+## 250021
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＶＩＴが１０上昇する首飾り<end>"
-EN: "A necklace that raises ＶＩＴ by 10<end>"
-KO: "VIT가 10 상승하는 목걸이<end>"
+JP: "旅の者の護衛を頼みたい。<line-break><value:$17><value:$16>が、<line-break><value:$15>まで行く。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内。<line-break>道中は戦闘要員がいなければ危険な場所だ。<line-break>あんたたちの腕に期待してるよ。<end>"
+EN: "I need an escort for a traveler. <value:$17><value:$16> is going to <value:$15>. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. The route is dangerous without someone capable of fighting. I'm counting on your skill.<end>"
+KO: "여행자의 호위를 부탁하고 싶다. <value:$17><value:$16>가 <value:$15>까지 간다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다. 가는 길은 전투 요원이 없으면 위험한 곳이다. 너희 실력을 기대하마.<end>"
 
-## 200412
-source: translations/korean/messages/msgsec020-part99.toml
+## 250022
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＩＮＴが１０上昇する首飾り<end>"
-EN: "A necklace that raises ＩＮＴ by 10<end>"
-KO: "INT가 10 상승하는 목걸이<end>"
+JP: "この町の<value:$16>が、<line-break>用事で<value:$15>に行くことになってね。<line-break>物騒だから襲ってくる奴を<line-break>追い払ってくれる人を探してるんだよ。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に連れてってくれる人、<line-break>お願いね。<end>"
+EN: "This town's <value:$16> has business in <value:$15>. With things so dangerous, we're looking for someone to drive off any attackers. Reward: <value:$1A> Gea. Please take the traveler there within <value:$1B> days.<end>"
+KO: "이 마을의 <value:$16>가 볼일 때문에 <value:$15>에 가게 됐어. 요즘 험해서 습격하는 녀석들을 쫓아 줄 사람을 찾고 있지. 사례는 <value:$1A>기어. <value:$1B>일 이내에 데려다줄 사람, 부탁해.<end>"
 
-## 200413
-source: translations/korean/messages/msgsec020-part99.toml
+## 250023
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＭＩＮが１０上昇する首飾り<end>"
-EN: "A necklace that raises ＭＩＮ by 10<end>"
-KO: "MIN이 10 상승하는 목걸이<end>"
+JP: "毎度ご利用ありがとうございます。<line-break><value:$17><value:$16>様が、<line-break><value:$15>に行かれます。<line-break>私どもの調べでは、道中は危険とのこと。<line-break>そこで護衛を依頼したいと思います。<line-break>謝礼として<value:$1A>ギア。<line-break><value:$1B>日以内の到着をお願いします。<end>"
+EN: "Thank you for your continued patronage. <value:$17><value:$16> will be traveling to <value:$15>. Our inquiries indicate that the road is dangerous, so we would like to hire an escort. Reward: <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
+KO: "늘 이용해 주셔서 감사합니다. <value:$17><value:$16>님이 <value:$15>에 가십니다. 조사 결과 길이 위험하다고 합니다. 그래서 호위를 부탁드리고자 합니다. 사례는 <value:$1A>기어. <value:$1B>일 안에 도착해 주세요.<end>"
 
-## 200414
-source: translations/korean/messages/msgsec020-part99.toml
+## 250024
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＡＧＩが１０上昇する首飾り<end>"
-EN: "A necklace that raises ＡＧＩ by 10<end>"
-KO: "AGI가 10 상승하는 목걸이<end>"
+JP: "<value:$15>に行くことになったのですが、<line-break>最近は魔物が多くて危ないと聞いています。<line-break>そこで護衛してくれる方を探しています。<line-break>お礼として<value:$1A>ギアを用意しました。<line-break><value:$1B>日以内に到着できるようお願いします。<end>"
+EN: "I am traveling to <value:$15>, but I hear the recent increase in monsters has made the journey dangerous. I am therefore seeking an escort. Reward: <value:$1A> Gea. Please ensure arrival within <value:$1B> days.<end>"
+KO: "<value:$15>에 가게 됐는데 요즘은 마물이 많아 위험하다고 들었습니다. 그래서 호위해 줄 분을 찾고 있습니다. 사례로 <value:$1A>기어를 준비했습니다. <value:$1B>일 안에 도착할 수 있도록 부탁드립니다.<end>"
 
-## 200415
-source: translations/korean/messages/msgsec020-part99.toml
+## 250025
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "ＤＥＸが１０上昇する首飾り<end>"
-EN: "A necklace that raises ＤＥＸ by 10<end>"
-KO: "DEX가 10 상승하는 목걸이<end>"
+JP: "このたび、自治連の<value:$16>が、<line-break><value:$15>まで出向くことになっています。<line-break>その護衛を依頼したいと思います。<line-break><value:$1A>ギア用意しました。<line-break><value:$1B>日以内に到着してください。<end>"
+EN: "The <value:$16> of the Self-Governance Union will be traveling to <value:$15>. We would like to hire an escort. Reward: <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
+KO: "이번에 자치연의 <value:$16>가 <value:$15>까지 가게 되었습니다. 그 호위를 부탁드리고 싶습니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 도착해 주세요.<end>"
 
-## 200416
-source: translations/korean/messages/msgsec020-part99.toml
+## 250026
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "眠りの神パーシィの守護で、睡眠を防ぐお守り<end>"
-EN: "An amulet that prevents Sleep through the protection of Percy, God of Slumber<end>"
-KO: "잠의 신 파시의 가호로 수면을 막는 부적<end>"
+JP: "村の<value:$17><value:$16>が、<line-break><value:$15>まで出かけるの。でも最近、<line-break>旅行者を襲う奴らの噂をよく聞くの。<line-break>どなたか守ってやってくれませんか？<line-break>少ないけれど、<value:$1A>ギア用意しましたわ。<line-break><value:$1B>日以内に向こうに着けるようにお願いね。<end>"
+EN: "Please escort the village's <value:$17><value:$16> to <value:$15>; travelers have been attacked lately. It's not much, but we offer <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "마을의 <value:$17><value:$16>가 <value:$15>까지 가게 됐어요. 그런데 요즘 여행자를 습격하는 녀석들 소문을 자주 들어요. 누가 좀 지켜 주시겠어요? 많진 않지만 <value:$1A>기어 준비했어요. <value:$1B>일 이내에 도착하도록 부탁드려요.<end>"
 
-## 200417
-source: translations/korean/messages/msgsec020-part99.toml
+## 250027
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "麻痺しない柔らかな心と身体をもたらすお守り<end>"
-EN: "An amulet that grants a supple mind and body immune to Paralysis<end>"
-KO: "마비되지 않는 부드러운 마음과 몸을 주는 부적<end>"
+JP: "冒険者の方々に依頼したいことがございます。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>まで行く間の護衛です。<line-break>お礼は、<value:$1A>ギア。<line-break>到着日限は、<value:$1B>日以内でどうでしょうか。<line-break>途中にはかなりの危険が考えられます。<line-break>よろしくお願いいたします。<end>"
+EN: "I have a request for the adventurers. Please escort this town's <value:$17><value:$16> to <value:$15>. Reward: <value:$1A> Gea. Would an arrival deadline of <value:$1B> days be acceptable? Considerable danger is expected along the way. Thank you.<end>"
+KO: "모험가 여러분께 부탁드릴 일이 있습니다. 이 도시의 <value:$17><value:$16>이 <value:$15>까지 가는 동안의 호위입니다. 사례는 <value:$1A>기어. 도착 기한은 <value:$1B>일 이내면 어떻겠습니까. 도중에 상당한 위험이 예상됩니다. 잘 부탁드립니다.<end>"
 
-## 200418
-source: translations/korean/messages/msgsec020-part99.toml
+## 250028
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "心と身体が石になり閉ざされるのを防ぐお守り<end>"
-EN: "An amulet that prevents the mind and body from being sealed in stone<end>"
-KO: "마음과 몸이 돌이 되어 굳는 것을 막는 부적<end>"
+JP: "<value:$17><value:$16>が、<line-break><value:$15>まで行くんだが、<line-break>何が起こるかわからんから、護衛を頼みたい。<line-break>報酬は、<value:$1A>ギア。<line-break><value:$1B>日以内に着くのが条件だぜ。<end>"
+EN: "<value:$17><value:$16> is traveling to <value:$15>, and there's no telling what might happen, so I want an escort. Reward: <value:$1A> Gea. You have to arrive within <value:$1B> days.<end>"
+KO: "<value:$17><value:$16>가 <value:$15>까지 가는데, 무슨 일이 생길지 모르니 호위를 부탁하고 싶어. 보수는 <value:$1A>기어. <value:$1B>일 이내에 도착하는 게 조건이야.<end>"
 
-## 200419
-source: translations/korean/messages/msgsec020-part99.toml
+## 250029
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "常に光を放ち目つぶしを防いでくれるお守り<end>"
-EN: "An amulet that constantly shines, preventing blindness<end>"
-KO: "항상 빛을 발해 눈부심을 막아 주는 부적<end>"
+JP: "この町の<value:$16>が、<line-break>大事な用事で<value:$15>に出かけるんだ。<line-break>でも、戦いの心得があるわけじゃないから、<line-break>襲ってくる奴がいたらどうしようもないよ。<line-break><value:$1A>ギアを払うから、<line-break><value:$1B>日以内に着けるよう護衛を頼むよ。<end>"
+EN: "This town's <value:$16> is traveling to <value:$15> on important business. Without any combat training, there would be no way to handle an attack. I'll pay <value:$1A> Gea, so provide an escort and arrive within <value:$1B> days.<end>"
+KO: "이 마을의 <value:$16>가 중요한 일로 <value:$15>에 가게 됐어. 하지만 싸울 줄 아는 사람이 아니라 습격당하면 속수무책이야. <value:$1A>기어를 줄 테니 <value:$1B>일 안에 도착하도록 호위해 줘.<end>"
 
-## 200420
-source: translations/korean/messages/msgsec020-part99.toml
+## 250030
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "常に平静な心を保ち、迷いを打ち消すお守り<end>"
-EN: "An amulet that keeps the mind calm and dispels confusion<end>"
-KO: "항상 평정심을 유지해 망설임을 떨치는 부적<end>"
+JP: "旅の方の安全をお守りするのも<line-break>我々フゴー宿屋の使命のひとつです。<line-break>このたび<value:$15>に出向かれる<line-break><value:$17><value:$16>様の<line-break>護衛をお願いします。<line-break><value:$1A>ギアで、引き受けていただけませんか？<line-break><value:$1B>日以内に送り届けてください。<end>"
+EN: "Protecting travelers is one of the missions of Hugo Inn. Please escort <value:$17><value:$16> to <value:$15>. Would you accept the job for <value:$1A> Gea? Complete the journey safely within <value:$1B> days.<end>"
+KO: "여행객의 안전을 지키는 것도 우리 휴고 여관의 사명 중 하나입니다. 이번에 <value:$15>로 가시는 <value:$17><value:$16>님의 호위를 부탁드립니다. <value:$1A>기어에 맡아 주시겠습니까? <value:$1B>일 이내에 데려다주세요.<end>"
 
-## 200421
-source: translations/korean/messages/msgsec020-part99.toml
+## 250031
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "悪しき幻影と自我とを隔ててくれるお守り<end>"
-EN: "An amulet that separates the self from evil illusions<end>"
-KO: "사악한 환영과 자아를 갈라주는 부적<end>"
+JP: "私の<value:$17><value:$16>を<line-break><value:$15>まで無事に送り届けてほしい。<line-break>報酬は、<value:$1A>ギア。<line-break>到着期限は、<value:$1B>日以内とする。<end>"
+EN: "Deliver my <value:$17><value:$16> safely to <value:$15>. Reward: <value:$1A> Gea. Arrival deadline: within <value:$1B> days.<end>"
+KO: "내 <value:$17><value:$16>을 <value:$15>까지 무사히 호송해 주기 바란다. 보수는 <value:$1A>기어. 도착 기한은 <value:$1B>일 이내다.<end>"
 
-## 200422
-source: translations/korean/messages/msgsec020-part99.toml
+## 250032
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "あらゆる毒素の抗体を身体にもたらすお守り<end>"
-EN: "An amulet that grants the body antibodies against every toxin<end>"
-KO: "온갖 독소에 대한 항체를 몸에 주는 부적<end>"
+JP: "<value:$15>まで<line-break>無事に送り届けてもらえませんか？<line-break>お礼は、<value:$1A>ギアです。<line-break><value:$1B>日以内に向こうに着きたいので、<line-break>よろしくお願いします。<end>"
+EN: "Could you deliver me safely to <value:$15>? Reward: <value:$1A> Gea. I want to arrive within <value:$1B> days, so please help.<end>"
+KO: "<value:$15>까지 무사히 데려다주시겠습니까? 사례는 <value:$1A>기어입니다. <value:$1B>일 안에 도착하고 싶으니 부탁드립니다.<end>"
 
-## 200423
-source: translations/korean/messages/msgsec020-part99.toml
+## 250033
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "どんな時も言葉を失わないようになるお守り<end>"
-EN: "An amulet that keeps its bearer from ever losing the power of speech<end>"
-KO: "어떤 때에도 말을 잃지 않게 해 주는 부적<end>"
+JP: "道中の危険を排除する勇者を募集する。<line-break>精強な戦士諸君の応募を心待ちにしている。<line-break>護衛対象：<value:$17><value:$16><line-break>目的地　：<value:$15><line-break>到着期限：<value:$1B>日以内<line-break>報酬　　：<value:$1A>ギア<end>"
+EN: "Heroes wanted to eliminate danger along the road. We eagerly await applications from mighty warriors. Escort target: <value:$17><value:$16>. Destination: <value:$15>. Arrival deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "여정의 위험을 제거할 용사를 모집한다. 정예 전사들의 지원을 기다린다. 호위 대상: <value:$17><value:$16> 목적지: <value:$15> 도착 기한: <value:$1B>일 이내 보수: <value:$1A>기어<end>"
 
-## 200424
-source: translations/korean/messages/msgsec020-part99.toml
+## 250034
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "幸せに生きていこうという願いが詰まったお守り<end>"
-EN: "An amulet filled with the wish for a happy life<end>"
-KO: "행복하게 살아가길 바라는 마음이 담긴 부적<end>"
+JP: "市民ギルドの<value:$16>が、<line-break><value:$15>に行くことになりました。<line-break>道々のことを考えると、<line-break>護衛をつけたほうがいいと思いましてね。<line-break><value:$1A>ギアさしあげますので、<line-break><value:$1B>日以内に連れていってもらえませんか？<end>"
+EN: "The Citizens' Guild's <value:$16> will be traveling to <value:$15>. Considering the road ahead, we believe an escort would be wise. We'll pay <value:$1A> Gea. Could you get the traveler there within <value:$1B> days?<end>"
+KO: "시민 길드의 <value:$16>가 <value:$15>에 가게 되었습니다. 길을 생각하면 호위를 붙이는 편이 좋을 것 같아서요. <value:$1A>기어를 드릴 테니 <value:$1B>일 이내에 데려다주시겠습니까?<end>"
 
-## 200425
-source: translations/korean/messages/msgsec020-part99.toml
+## 250035
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "どんな苦境でも歩みをゆるめなくなるお守り<end>"
-EN: "An amulet that keeps its bearer moving steadily through any hardship<end>"
-KO: "어떤 역경에서도 걸음을 늦추지 않게 해 주는 부적<end>"
+JP: "ちょっと用事がありましてね、<line-break><value:$15>まで人をやらねばなりません。<line-break>でも、途中は危険がいっぱいなんですよ。<line-break>そんなわけで、村の<value:$16>を<line-break>守ってください。<line-break>報酬は、<value:$1A>ギアです。<line-break><value:$1B>日以内に着けるように頼みますよ。<end>"
+EN: "We have some business in <value:$15> and must send someone there, but the road is full of danger. Please protect the village's <value:$16>. Reward: <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
+KO: "볼일이 있어서 <value:$15>까지 사람을 보내야 합니다. 하지만 가는 길은 위험투성이죠. 그러니 마을의 <value:$16>를 지켜 주세요. 보수는 <value:$1A>기어입니다. <value:$1B>일 이내에 도착하도록 부탁합니다.<end>"
 
-## 200426
-source: translations/korean/messages/msgsec020-part99.toml
+## 250036
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "死の呪いから命の火を守るお守り<end>"
-EN: "An amulet that shields the flame of life from death curses<end>"
-KO: "죽음의 저주에서 생명의 불을 지키는 부적<end>"
+JP: "近頃、旅の道程はたいへん物騒です。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>に行くまでの護衛を<line-break>どなたかしていただけませんか。<line-break><value:$1A>ギアを支払いましょう。<line-break><value:$1B>日以内にこなせる方にお願いします。<end>"
+EN: "Travel has become terribly dangerous lately. Would someone please escort this town's <value:$17><value:$16> to <value:$15>? Payment: <value:$1A> Gea. Please accept only if you can complete the job within <value:$1B> days.<end>"
+KO: "요즘 여행길은 매우 위험합니다. 이 마을의 <value:$17><value:$16>가 <value:$15>에 갈 때까지 누군가 호위해 주시겠습니까. <value:$1A>기어를 드리겠습니다. <value:$1B>일 안에 해낼 수 있는 분께 부탁드립니다.<end>"
 
-## 200427
-source: translations/korean/messages/msgsec020-part99.toml
+## 250037
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "中に城塞が映っている透き通った赤い宝玉<end>"
-EN: "A transparent red orb with the image of a fortress inside<end>"
-KO: "안에 성채가 비치는 투명한 붉은 보옥<end>"
+JP: "この町の<value:$17><value:$16>が、<line-break><value:$15>に向かうんだが、<line-break>途中にはモンスターやら盗賊やらが出るんで、<line-break>１人じゃ危なくていけねぇ。<line-break>で、護衛をお願いしてぇんだわ。<line-break><value:$1A>ギア用意したからよ。<line-break><value:$1B>日以内に到着させてやってくれ。<end>"
+EN: "This town's <value:$17><value:$16> is headed to <value:$15>, but monsters and bandits appear along the way, making it too dangerous to travel alone. So I need an escort. I've prepared <value:$1A> Gea. Get the traveler there within <value:$1B> days.<end>"
+KO: "이 도시의 <value:$17><value:$16>가 <value:$15>로 가는데, 가는 길에 몬스터며 도적이며 나타나서 혼자서는 위험해. 그래서 호위를 부탁하고 싶어. <value:$1A>기어를 준비했으니 <value:$1B>일 이내에 도착하게 해 줘.<end>"
 
-## 200428
-source: translations/korean/messages/msgsec020-part99.toml
+## 250038
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "中心で虹色の光が揺らめいている青い宝玉<end>"
-EN: "A blue orb with iridescent light shimmering at its center<end>"
-KO: "중심에서 무지갯빛 빛이 흔들리는 푸른 보옥<end>"
+JP: "<value:$15>にいる人に用事があるんで、<line-break>この町の<value:$16>が<line-break>行くことになったんだ。<line-break>でも、近ごろは街道も危険だからね。<line-break>護衛をつけたいと思うのさ。<line-break><value:$1A>ギア出すよ。<line-break><value:$1B>日以内に連れていってくれよな。<end>"
+EN: "We have business with someone in <value:$15>, so this town's <value:$16> is going there. The highways have been dangerous lately, so I want to arrange an escort. I'll pay <value:$1A> Gea. Get the traveler there within <value:$1B> days.<end>"
+KO: "<value:$15>에 있는 사람에게 볼일이 있어서 이 마을의 <value:$16>가 가게 됐어. 하지만 요즘 길이 위험하잖아. 호위를 붙이고 싶어. <value:$1A>기어를 낼게. <value:$1B>일 안에 데려다줘.<end>"
 
-## 200429
-source: translations/korean/messages/msgsec020-part99.toml
+## 250039
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "常に周りに微風をまとった、純白の羽の髪飾り<end>"
-EN: "A pure-white feather hair ornament wreathed in a constant breeze<end>"
-KO: "항상 미풍을 두른 순백 깃털의 머리장식<end>"
+JP: "<value:$17><value:$16>様が、<line-break>次の目的地<value:$15>に向かわれます。<line-break>そこで、護衛してくださる方を募集します。<line-break>謝礼は、<value:$1A>ギア。<line-break>到着の期限は、<value:$1B>日以内です。<end>"
+EN: "<value:$17><value:$16> will be departing for the next destination, <value:$15>. We are therefore seeking an escort. Reward: <value:$1A> Gea. Arrival deadline: within <value:$1B> days.<end>"
+KO: "<value:$17><value:$16> 님께서 다음 목적지 <value:$15>로 향하십니다. 이에 호위해 주실 분을 모집합니다. 사례금은 <value:$1A>기어, 도착 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200430
-source: translations/korean/messages/msgsec020-part99.toml
+## 250040
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "ゴーレムの腕をくりぬいて作った強固な腕輪<end>"
-EN: "A sturdy bracelet carved from a hollowed-out Golem arm<end>"
-KO: "골렘의 팔을 파내어 만든 견고한 팔찌<end>"
+JP: "護衛をしてくださる方を募っています。<line-break>目的地は<value:$15>です。<line-break><value:$1B>日以内で到着してください。<line-break>お礼は、<value:$1A>ギアです。<end>"
+EN: "Escort wanted. Destination: <value:$15>. Arrival required within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "호위해 주실 분을 모집합니다. 목적지는 <value:$15>입니다. <value:$1B>일 이내에 도착해 주세요. 보수는 <value:$1A>기어입니다.<end>"
 
-## 200431
-source: translations/korean/messages/msgsec020-part99.toml
+## 250041
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "水鳥の羽を聖水に浸して作った髪飾り<end>"
-EN: "A hair ornament made by soaking a waterfowl feather in holy water<end>"
-KO: "물새 깃털을 성수에 담가 만든 머리장식<end>"
+JP: "<value:$17><value:$16>を<line-break><value:$15>まで派遣することになった。<line-break>だが、道程には悪しき者が存在しており、<line-break>使者を害する恐れがある。<line-break>戦士たちよ、この方を無事送ってほしい。<line-break>謝礼は、<value:$1A>ギア。<line-break>到着の期限は、<value:$1B>日以内とする。<end>"
+EN: "<value:$17><value:$16> is to be dispatched to <value:$15>, but evildoers on the road may harm our envoy. Warriors, deliver this person safely. Reward: <value:$1A> Gea. Arrival deadline: within <value:$1B> days.<end>"
+KO: "<value:$17><value:$16>을 <value:$15>까지 파견하게 되었다. 하지만 여정에는 악한 자들이 있어 사자를 해칠 우려가 있다. 전사들이여, 이분을 무사히 데려다주길 바란다. 사례는 <value:$1A>기어. 도착 기한은 <value:$1B>일 이내다.<end>"
 
-## 200432
-source: translations/korean/messages/msgsec020-part99.toml
+## 250042
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "サラマンダーの尻尾を切って紐をつけたもの<end>"
-EN: "A severed Salamander tail fitted with a cord<end>"
-KO: "샐러맨더의 꼬리를 잘라 끈을 단 것<end>"
+JP: "市民ギルドの<value:$16>が、<line-break><value:$15>まで出かけます。<line-break>物騒な世の中ですし、着くまでの間に<line-break>危険がふりかかる恐れがあります。<line-break>そこで、護衛してくれる人を募集します。<line-break><value:$1A>ギアをお礼としてさしあげます。<line-break><value:$1B>日以内に着けるようにお願いします。<end>"
+EN: "The Citizens' Guild's <value:$16> is traveling to <value:$15>. These are dangerous times, and trouble may strike before arrival, so we seek an escort. Reward: <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
+KO: "시민 길드의 <value:$16>이 <value:$15>까지 갑니다. 뒤숭숭한 세상이라 도착할 때까지 위험한 일이 생길 수 있습니다. 그래서 호위해 주실 분을 모집합니다. 사례로 <value:$1A>기어를 드립니다. <value:$1B>일 이내에 도착할 수 있도록 부탁드립니다.<end>"
 
-## 200433
-source: translations/korean/messages/msgsec020-part99.toml
+## 250043
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "戦神ソリアスが身につけていたといわれる腕輪<end>"
-EN: "A bracelet said to have been worn by War God Solias<end>"
-KO: "전신 솔리아스가 착용했다고 전해지는 팔찌<end>"
+JP: "村の<value:$17><value:$16>を<line-break><value:$15>まで行かせることになりました。<line-break>道中は危険なので、護衛をつけねばなりません。<line-break><value:$1A>ギア用意しました。<line-break><value:$1B>日以内に着けるようにお願いします。<end>"
+EN: "The village's <value:$17><value:$16> must travel to <value:$15>. The road is dangerous, so an escort is needed. We have prepared <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
+KO: "마을의 <value:$17><value:$16> 님을 <value:$15>까지 모시게 되었습니다. 길이 위험하므로 호위가 필요합니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 도착하도록 부탁드립니다.<end>"
 
-## 200434
-source: translations/korean/messages/msgsec020-part99.toml
+## 250044
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "知恵の神ジェドが作ったといわれている指輪<end>"
-EN: "A ring said to have been made by Jed, God of Wisdom<end>"
-KO: "지혜의 신 제드가 만들었다고 전해지는 반지<end>"
+JP: "<value:$17><value:$16>が、<line-break><value:$15>まで行きます。<line-break>その護衛を募集しています。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に着くことが条件です。<line-break>よろしくお願いします。<end>"
+EN: "<value:$17><value:$16> is traveling to <value:$15>. We are seeking an escort. Reward: <value:$1A> Gea. Arrival within <value:$1B> days is required. Thank you.<end>"
+KO: "<value:$17><value:$16>가 <value:$15>까지 갑니다. 호위를 모집합니다. 보수는 <value:$1A>기어. <value:$1B>일 이내 도착이 조건입니다. 잘 부탁드립니다.<end>"
 
-## 200435
-source: translations/korean/messages/msgsec020-part99.toml
+## 250045
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "運命神ファナティックのものとされるピアス<end>"
-EN: "An earring said to have belonged to Fanatic, God of Fate<end>"
-KO: "운명의 신 파나틱의 것이라 전해지는 귀걸이<end>"
+JP: "<value:$15>に用事があって、<line-break>この町の<value:$17><value:$16>を<line-break>行かせるんだが、道中の安全が心配でな。<line-break>同行して、守ってやってくれ。<line-break><value:$1A>ギア出せるでの。<line-break>到着が<value:$1B>日以内になるよう頼むぞ。<end>"
+EN: "We have business in <value:$15>, so I'm sending this town's <value:$17><value:$16> there, but I'm worried about safety on the road. Go along and provide protection. I can pay <value:$1A> Gea. Make sure arrival is within <value:$1B> days.<end>"
+KO: "<value:$15>에 볼일이 있어 이 마을의 <value:$17><value:$16>를 보내는데, 길이 안전할지 걱정이군. 동행해서 지켜 줘. <value:$1A>기어를 줄 수 있어. <value:$1B>일 이내에 도착하도록 부탁한다.<end>"
 
-## 200436
-source: translations/korean/messages/msgsec020-part99.toml
+## 250046
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "天空神ノトゥーンがその力を分け注いだ魔除け<end>"
-EN: "A ward imbued with a portion of the Sky God Notun's power<end>"
-KO: "천공신 노툰이 힘을 나눠 담았다는 액막이<end>"
+JP: "<value:$15>に用事があってね。<line-break>この町の<value:$16>が<line-break>行くんだよ。でも、危ないよね。<line-break>最近は、道々何が出るかわからないし。<line-break>護衛についてくれないかね。<line-break><value:$1B>日以内に着かせてやっておくれよ。<line-break>報酬は、<value:$1A>ギア出すよ。<end>"
+EN: "We have business in <value:$15>, so this town's <value:$16> is going there. But it's dangerous, isn't it? These days, you never know what might appear on the road. Could you go along as escort? Get the traveler there within <value:$1B> days. I'll pay <value:$1A> Gea.<end>"
+KO: "<value:$15>에 볼일이 있어서 말이야. 이 도시의 <value:$16>가 가는데 위험하잖아. 요즘 길에서 뭐가 튀어나올지 모르니까. 호위해 주지 않을래? <value:$1B>일 이내에 도착하게 해 줘. 보수는 <value:$1A>기어야.<end>"
 
-## 200437
-source: translations/korean/messages/msgsec020-part99.toml
+## 250047
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "大地母神ティラを慕う精霊達が結晶化した護符<end>"
-EN: "A talisman formed when spirits devoted to Tira, the Earth Mother Goddess, crystallized<end>"
-KO: "대지모신 티라를 따르는 정령들이 결정화된 부적<end>"
+JP: "当宿屋にお泊りの<line-break><value:$17><value:$16>様が、<line-break><value:$15>にお発ちになります。<line-break>護衛してくださる冒険者の方を募集します。<line-break>報酬は、<value:$1A>ギア。<line-break>到着までの期限は、<value:$1B>日以内です。<end>"
+EN: "<value:$17><value:$16>, a guest at our inn, will be departing for <value:$15>. We seek an adventurer to serve as escort. Reward: <value:$1A> Gea. Arrival deadline: within <value:$1B> days.<end>"
+KO: "저희 여관에 묵고 계신 <value:$17><value:$16>님께서 <value:$15>로 출발하십니다. 호위해 주실 모험자를 모집합니다. 보수는 <value:$1A>기어. 도착 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200438
-source: translations/korean/messages/msgsec020-part99.toml
+## 250048
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "剣と盾の意匠が両面に施された分厚いコイン<end>"
-EN: "A thick coin bearing sword-and-shield designs on both faces<end>"
-KO: "검과 방패 문양이 양면에 새겨진 두꺼운 코인<end>"
+JP: "この街から<value:$15>に移ります。<line-break>その際、同行し守っていただきたいのです。<line-break>お礼に<value:$1A>ギアお支払いできます。<line-break><value:$1B>日以内に連れていってくださる方、<line-break>お待ちしています。<end>"
+EN: "I am moving from this city to <value:$15> and would like someone to accompany and protect me. I can pay <value:$1A> Gea. I await someone who can take me there within <value:$1B> days.<end>"
+KO: "이 도시에서 <value:$15>로 이주합니다. 그때 동행하며 지켜 주셨으면 합니다. 사례로 <value:$1A>기어를 드릴 수 있습니다. <value:$1B>일 이내에 데려다주실 분을 기다립니다.<end>"
 
-## 200439
-source: translations/korean/messages/msgsec020-part99.toml
+## 250049
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "魔道書と杖の意匠が両面に施されたコイン<end>"
-EN: "A coin bearing grimoire-and-staff designs on both faces<end>"
-KO: "마도서와 지팡이 문양이 양면에 새겨진 코인<end>"
+JP: "<value:$17><value:$16>を<line-break><value:$15>に派遣することになりました。<line-break>道中の安全を確保するため、<line-break>護衛してくださる方を募集します。<line-break>報酬は、<value:$1A>ギア。<line-break>到着の期限は、<value:$1B>日以内です。<line-break>あなた方の活躍に期待しています。<end>"
+EN: "<value:$17><value:$16> is to be dispatched to <value:$15>. We seek an escort to ensure safe passage. Reward: <value:$1A> Gea. Arrival deadline: within <value:$1B> days. We look forward to seeing what you can do.<end>"
+KO: "<value:$17><value:$16>을 <value:$15>에 파견하게 되었습니다. 도중의 안전을 확보하기 위해 호위해 주실 분을 모집합니다. 보수는 <value:$1A>기어. 도착 기한은 <value:$1B>일 이내입니다. 여러분의 활약을 기대하겠습니다.<end>"
 
-## 200440
-source: translations/korean/messages/msgsec020-part99.toml
+## 250050
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "マノンの腕輪を模して作られた指輪<end>"
-EN: "A ring modeled after Manon's Bracelet<end>"
-KO: "마논의 팔찌를 본떠 만든 반지<end>"
+JP: "この街の<value:$17><value:$16>が、<line-break><value:$15>に住む人に会いに行くんだが、<line-break>あの辺りは、戦いの心得がないと不安だろ。<line-break>腕に自身がある人、護衛を頼まれてくれないか。<line-break><value:$1A>ギアの謝礼が出せる。<line-break><value:$1B>日以内に着けるように頼むよ。<end>"
+EN: "Please escort this city's <value:$17><value:$16> to meet someone in <value:$15>. That area is dangerous for anyone unable to fight. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "이 도시의 <value:$17><value:$16>가 <value:$15>에 사는 사람을 만나러 가는데, 그쪽은 싸울 줄 모르면 불안하잖아. 실력에 자신 있는 사람, 호위를 맡아 주지 않겠어? 사례로 <value:$1A>기어를 줄 수 있어. <value:$1B>일 이내에 도착하도록 부탁해.<end>"
 
-## 200441
-source: translations/korean/messages/msgsec020-part99.toml
+## 250051
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "伝説の魔道士マノンの造ったタリスマン<end>"
-EN: "A talisman crafted by the legendary mage Manon<end>"
-KO: "전설의 마도사 마논이 만든 탈리스만<end>"
+JP: "近頃は物騒になったからねぇ。<line-break>ちょっと出かけるだけでも危なくてねぇ。<line-break>でも、村の<value:$17><value:$16>が<line-break><value:$15>まで行かなくちゃならないのよ。<line-break>護衛をお願いできない？<line-break>お礼は出すわ。<value:$1A>ギアでどうかしら。<line-break><value:$1B>日以内に向こうに着いてね。<end>"
+EN: "Things have grown dangerous lately. Even a short trip can be risky. Still, the village's <value:$17><value:$16> must go to <value:$15>. Could you provide an escort? I can pay <value:$1A> Gea. Please get there within <value:$1B> days.<end>"
+KO: "요즘은 흉흉해서 말이지. 잠깐 나가는 것도 위험해. 그런데 마을의 <value:$17><value:$16>이 <value:$15>까지 가야 하거든. 호위를 부탁해도 될까? 사례는 줄게. <value:$1A>기어면 어떨까. <value:$1B>일 이내에 도착해 줘.<end>"
 
-## 200442
-source: translations/korean/messages/msgsec020-part99.toml
+## 250052
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "アイテムを使用します。<end>"
-EN: "Use an item.<end>"
-KO: "아이템을 사용합니다.<end>"
+JP: "この町の<value:$17><value:$16>が、<line-break>商談で<value:$15>に出かけます。<line-break>護衛を務めてください。<line-break><value:$1A>ギア、<line-break><value:$1B>日以内の到着が条件です。<end>"
+EN: "This town's <value:$17><value:$16> is traveling to <value:$15> for business negotiations. Serve as escort. Reward: <value:$1A> Gea. Arrival required within <value:$1B> days.<end>"
+KO: "이 마을의 <value:$17><value:$16>이 상담을 위해 <value:$15>로 갑니다. 호위를 맡아 주세요. <value:$1A>기어, <value:$1B>일 이내 도착이 조건입니다.<end>"
 
-## 200443
-source: translations/korean/messages/msgsec020-part99.toml
+## 250053
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品を見ることができます。<end>"
-EN: "View equipment.<end>"
-KO: "장비품을 볼 수 있습니다.<end>"
+JP: "<value:$17><value:$16>を<line-break>護衛してくれる方を募集！！<line-break><value:$15>が目的地！<line-break>到着期限は、<value:$1B>日以内！<line-break>お礼は、<value:$1A>ギア！<end>"
+EN: "Escort wanted for <value:$17><value:$16>!! Destination: <value:$15>! Arrival deadline: within <value:$1B> days! Reward: <value:$1A> Gea!<end>"
+KO: "<value:$17><value:$16>을 호위해주실 분 모집!! 목적지는 <value:$15>! 도착 기한은 <value:$1B>일 이내! 보수는 <value:$1A>기어!<end>"
 
-## 200444
-source: translations/korean/messages/msgsec020-part99.toml
+## 250054
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "イベントアイテムを見ることができます。<end>"
-EN: "View event items.<end>"
-KO: "이벤트 아이템을 확인할 수 있습니다.<end>"
+JP: "<value:$15>に用があって、<line-break>この町の<value:$16>が<line-break>行くことになったんだ。<line-break>１人で行かせるのは、不安だからね。<line-break>誰か護衛をしておくれ。<line-break><value:$1A>ギア、用意したよ。<line-break><value:$1B>日以内にやってほしいね。<end>"
+EN: "We have business in <value:$15>, so this town's <value:$16> must go there. I'm uneasy about sending anyone alone, so please provide an escort. I've prepared <value:$1A> Gea. Complete the job within <value:$1B> days.<end>"
+KO: "<value:$15>에 볼일이 있어서 이 마을의 <value:$16>가 가게 됐어. 혼자 보내기는 불안하니 누가 호위해 줬으면 해. <value:$1A>기어를 준비했어. <value:$1B>일 이내에 부탁해.<end>"
 
-## 200445
-source: translations/korean/messages/msgsec020-part99.toml
+## 250055
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "キャラクターのHP、MPや、<line-break>状態異常を回復するアイテムを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates items that restore a character's HP or MP, or cure status ailments.<end>"
-KO: "캐릭터의 HP, MP나 상태 이상을 회복하는 아이템을 나타내는 아이콘입니다.<end>"
+JP: "<value:$15>へ、我が宿にお泊りの<line-break><value:$17><value:$16>様が<line-break>向かわれるそうなので、<line-break>護衛をつける必要があります。<line-break>腕に覚えのある冒険者を募ります。<line-break><value:$1A>ギアご用意できます。<line-break>到着の期限は、<value:$1B>日以内でお願いします。<end>"
+EN: "<value:$17><value:$16>, a guest at our inn, is apparently headed to <value:$15>, so an escort is needed. We seek an adventurer confident in their abilities. Reward: <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
+KO: "<value:$15>로 저희 숙소에 머무르신 <value:$17><value:$16>님이 향하신다 하여 호위를 붙일 필요가 있습니다. 실력 있는 모험자를 모집합니다. <value:$1A>기어를 준비할 수 있습니다. 도착 기한은 <value:$1B>일 이내로 부탁드립니다.<end>"
 
-## 200446
-source: translations/korean/messages/msgsec020-part99.toml
+## 250056
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "戦闘中に敵を攻撃するアイテムを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates items used to attack enemies in battle.<end>"
-KO: "전투 중 적을 공격하는 아이템을 나타내는 아이콘입니다.<end>"
+JP: "旅の道中は安全ではありません。<line-break>我が身を守護する強者がいない限り、<line-break>街から街への移動など不可能であるというもの。<line-break><value:$15>に行く間の護衛を募集します。<line-break><value:$1A>ギアのお礼をします。<line-break><value:$1B>日以内に連れていってくださる方、<line-break>お願いします。<end>"
+EN: "The road is not safe. Traveling from one town to another is all but impossible without someone strong to protect me. I seek an escort to <value:$15>. Reward: <value:$1A> Gea. Please take me there within <value:$1B> days.<end>"
+KO: "여행길은 안전하지 않습니다. 제 몸을 지켜 줄 강자가 없다면 도시에서 도시로 이동하는 건 불가능하지요. <value:$15>로 가는 동안 호위를 모집합니다. <value:$1A>기어를 사례로 드리겠습니다. <value:$1B>일 이내에 데려다주실 분, 부탁드립니다.<end>"
 
-## 200447
-source: translations/korean/messages/msgsec020-part99.toml
+## 250057
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "戦闘中の一時的な能力上昇や、<line-break>敵の状態異常を引き起こす<line-break>アイテムを表すアイコンです。<end>"
-EN: "This icon indicates items that temporarily boost abilities in battle or inflict status ailments on enemies.<end>"
-KO: "전투 중 일시적인 능력 상승이나 적의 상태 이상을 일으키는 아이템을 나타내는 아이콘입니다.<end>"
+JP: "世が乱れ街道が安全でなくなっております。<line-break><value:$15>に人をやるのですが、<line-break>行く手を阻む者がいるやもしれません。<line-break>どうか、使いの<value:$16>を守護し、<line-break>無事使命をまっとうさせてください。<line-break>報酬は、<value:$1A>ギア。<line-break><value:$1B>日以内の到着を希望します。<end>"
+EN: "Highways are unsafe, and enemies may block the way. Please guard our messenger, <value:$16>, on the mission to <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "세상이 어지러워져 가도가 안전하지 않습니다. <value:$15>에 사람을 보내야 하는데 앞길을 막는 자가 있을지도 모릅니다. 부디 심부름꾼 <value:$16>를 지켜 무사히 임무를 완수하게 해 주세요. 보수는 <value:$1A>기어. <value:$1B>일 이내 도착을 바랍니다.<end>"
 
-## 200448
-source: translations/korean/messages/msgsec020-part99.toml
+## 250058
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "それぞれが様々な効果を持つ<line-break>アイテムを表すアイコンです。<end>"
-EN: "This icon indicates items that each have a variety of effects.<end>"
-KO: "각각 다양한 효과를 가진 아이템을 나타내는 아이콘입니다.<end>"
+JP: "<value:$17><value:$16>の護衛募集<line-break><value:$15>までの往路<line-break><value:$1A>ギアの好条件<line-break>旅の道中を護衛してくれる方はいませんか。<line-break>腕自慢のあなた、稼ぐチャンスです。<line-break><value:$1B>日以内に送り届けられる方、待ってます。<end>"
+EN: "Escort wanted: <value:$17><value:$16> to <value:$15>. Excellent pay: <value:$1A> Gea. Skilled applicants only; arrival within <value:$1B> days.<end>"
+KO: "<value:$17><value:$16>의 호위 모집. <value:$15>까지의 여정. <value:$1A>기어의 좋은 조건. 여행길을 호위해 주실 분 없나요? 실력에 자신 있는 당신, 돈 벌 기회입니다. <value:$1B>일 이내에 데려다주실 분을 기다립니다.<end>"
 
-## 200449
-source: translations/korean/messages/msgsec020-part99.toml
+## 250059
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が片手剣であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates one-handed swords.<end>"
-KO: "장비품의 종류가 한손검임을 나타내는 아이콘입니다.<end>"
+JP: "村の<value:$17><value:$16>が、<line-break><value:$15>まで行くの。<line-break>でも、あの辺りはとっても危ないわ。<line-break>強い冒険者さん、護衛をお願い。<line-break>お礼は、<value:$1A>ギア集めたわ。<line-break><value:$1B>日以内に向こうに着かなきゃならないの。<line-break>頼むわね。<end>"
+EN: "The village's <value:$17><value:$16> is going to <value:$15>, but that area is terribly dangerous. Any strong adventurers out there? Please provide an escort. We collected <value:$1A> Gea as a reward. The traveler must arrive within <value:$1B> days. Please help.<end>"
+KO: "마을의 <value:$17><value:$16>가 <value:$15>까지 가야 해. 하지만 그 근처는 아주 위험해. 강한 모험자님, 호위해 줘. 사례로 <value:$1A>기어를 모았어. <value:$1B>일 안에 도착해야 해. 부탁할게.<end>"
 
-## 200450
-source: translations/korean/messages/msgsec020-part99.toml
+## 250060
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が両手剣であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates two-handed swords.<end>"
-KO: "장비품의 종류가 양손검임을 나타내는 아이콘입니다.<end>"
+JP: "物騒な世の中になりまして、<line-break>他の街に行くにしても、護衛をつけなければ、<line-break>危なくなりました。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>に行くまでの護衛を依頼します。<line-break>報酬は、<value:$1A>ギア。<line-break><value:$1B>日以内に送ってあげてください。<end>"
+EN: "These have become dangerous times, and even travel to another town now requires an escort. Please escort this town's <value:$17><value:$16> to <value:$15>. Reward: <value:$1A> Gea. Deliver the traveler within <value:$1B> days.<end>"
+KO: "세상이 흉흉해져서 다른 도시로 가는 것조차 호위 없이는 위험해졌습니다. 이 도시의 <value:$17><value:$16>가 <value:$15>까지 가는 동안 호위를 부탁드립니다. 보수는 <value:$1A>기어. <value:$1B>일 이내에 무사히 데려다주세요.<end>"
 
-## 200451
-source: translations/korean/messages/msgsec020-part99.toml
+## 250061
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が槍であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates spears.<end>"
-KO: "장비품의 종류가 창임을 나타내는 아이콘입니다.<end>"
+JP: "<value:$15>までの街道が、<line-break>やばい雰囲気になってるらしくてな。<line-break>アキュリュース鍛冶屋の<value:$16>を<line-break>護衛しちゃくれねえか。<line-break>お礼は、はずんで<value:$1A>ギアだ。<line-break><value:$1B>日以内に連れてってくれよな。<end>"
+EN: "Word is, the highway to <value:$15> has gotten pretty nasty. Could you escort <value:$16> from the Aqyurius Smithy? I'm offering a generous <value:$1A> Gea. Get the traveler there within <value:$1B> days.<end>"
+KO: "<value:$15>까지 가는 길이 위험해진 모양이야. 아큐류스 대장간의 <value:$16>를 호위해 주지 않을래? 사례는 넉넉히 <value:$1A>기어다. <value:$1B>일 이내에 데려다줘.<end>"
 
-## 200452
-source: translations/korean/messages/msgsec020-part99.toml
+## 250062
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が斧であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates axes.<end>"
-KO: "장비품의 종류가 도끼임을 나타내는 아이콘입니다.<end>"
+JP: "<value:$15>の人と話したいことがある。<line-break>この町の<value:$16>を<line-break>使いに出すんだが、どうやら道中は、<line-break>かなり危険らしい。護衛を頼みたいんだ。<line-break>報酬は、<value:$1A>ギア払うよ。<line-break><value:$1B>日以内で送ってくれ。<end>"
+EN: "I need to speak with someone in <value:$15>. I'm sending this town's <value:$16> as a messenger, but apparently the road is quite dangerous. I need an escort. I'll pay <value:$1A> Gea. Complete the journey within <value:$1B> days.<end>"
+KO: "<value:$15> 사람과 할 이야기가 있어. 이 마을의 <value:$16>를 심부름 보내는데 길이 꽤 위험한 모양이야. 호위를 부탁하고 싶어. 보수는 <value:$1A>기어. <value:$1B>일 이내에 데려다줘.<end>"
 
-## 200453
-source: translations/korean/messages/msgsec020-part99.toml
+## 250063
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が小刀であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates daggers.<end>"
-KO: "장비품의 종류가 소도임을 나타내는 아이콘입니다.<end>"
+JP: "我が宿に泊まられた<line-break><value:$17><value:$16>様を、<line-break><value:$15>まで送り届けてください。<line-break>最近、物騒なので、護衛が必要なのです。<line-break>報酬は、<value:$1A>ギアで、<line-break>期限は、<value:$1B>日以内です。<end>"
+EN: "Please deliver <value:$17><value:$16>, a guest at our inn, to <value:$15>. These are dangerous times, so an escort is necessary. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
+KO: "저희 숙소에 묵으신 <value:$17><value:$16> 님을 <value:$15>까지 모셔다 주세요. 요즘 치안이 좋지 않아 호위가 필요합니다. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200454
-source: translations/korean/messages/msgsec020-part99.toml
+## 250064
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が弓であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates bows.<end>"
-KO: "장비품의 종류가 활임을 나타내는 아이콘입니다.<end>"
+JP: "<value:$15>まで送ってくださる<line-break>冒険者の方を募集しています。<line-break><value:$1B>日以内に目的地に<line-break>到着したいです。<line-break>報酬は、<value:$1A>ギアです。<line-break>屈強な方をお待ちしています。<end>"
+EN: "Adventurer wanted to take me to <value:$15>. I wish to reach the destination within <value:$1B> days. Reward: <value:$1A> Gea. Strong applicants preferred.<end>"
+KO: "<value:$15>까지 데려다주실 모험자를 모집합니다. <value:$1B>일 안에 목적지에 도착하고 싶습니다. 보수는 <value:$1A>기어입니다. 강인한 분을 기다립니다.<end>"
 
-## 200455
-source: translations/korean/messages/msgsec020-part99.toml
+## 250065
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が拳具であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates fist weapons.<end>"
-KO: "장비품의 종류가 권구임을 나타내는 아이콘입니다.<end>"
+JP: "闇の力を強く感じるようになった今、<line-break>我が風の神殿が派遣する使いの旅も、<line-break>安らかであることはかなわぬでしょう。<line-break>神殿の<value:$16>を守護し、<line-break><value:$15>に送り届けてください。<line-break>報酬として、<value:$1A>ギア用意しました。<line-break><value:$1B>日以内に果たされることを望みます。<end>"
+EN: "The Darkness grows strong, and even our envoy faces danger. Guard the Wind Temple's <value:$16> to <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
+KO: "어둠의 힘이 강하게 느껴지는 지금, 우리 바람의 신전에서 파견하는 사자의 여행도 평온할 수는 없겠지요. 신전의 <value:$16>을 지켜 <value:$15>까지 데려다 주세요. 보수로 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 완수해 주시길 바랍니다.<end>"
 
-## 200456
-source: translations/korean/messages/msgsec020-part99.toml
+## 250066
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が盾であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates shields.<end>"
-KO: "장비품의 종류가 방패임을 나타내는 아이콘입니다.<end>"
+JP: "市民ギルドの<value:$16>が<line-break>用事で<value:$15>に出かけるんだが、<line-break>冒険者さん、ひとつ護衛を頼むよ。<line-break><value:$1A>ギア出す。<line-break><value:$1B>日以内に、送り届けてくれ。<end>"
+EN: "The Citizens' Guild's <value:$16> has business in <value:$15>. Adventurer, could you handle the escort? I'll pay <value:$1A> Gea. Deliver the traveler within <value:$1B> days.<end>"
+KO: "시민 길드의 <value:$16>이 볼일이 있어 <value:$15>에 가는데, 모험자 양반, 호위 하나 부탁해. <value:$1A>기어 줄게. <value:$1B>일 안에 데려다 줘.<end>"
 
-## 200457
-source: translations/korean/messages/msgsec020-part99.toml
+## 250067
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が布製防具であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates cloth armor.<end>"
-KO: "장비품의 종류가 천 방어구임을 나타내는 아이콘입니다.<end>"
+JP: "うちんとこの<value:$16>が、<line-break><value:$15>の街まで行くことになってな。<line-break>護衛を頼みたいんだ。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内ってとこだな。<end>"
+EN: "Our <value:$16> has to travel to the city of <value:$15>, and I need an escort. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
+KO: "우리 쪽 <value:$16>이 <value:$15> 마을까지 가게 됐어. 호위를 부탁하고 싶다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
 
-## 200458
-source: translations/korean/messages/msgsec020-part99.toml
+## 250068
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が胸当てであることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates breastplates.<end>"
-KO: "장비품의 종류가 흉갑임을 나타내는 아이콘입니다.<end>"
+JP: "このたび<value:$15>まで、<line-break><value:$17><value:$16>が<line-break>出向くこととなりました。<line-break>道中のことを考えると、護衛が必要です。<line-break><value:$1A>ギアのお礼で、到着は、<value:$1B>日以内<line-break>という条件で、引き受けてくださる方、<line-break>待っています。<end>"
+EN: "<value:$17><value:$16> will be traveling to <value:$15>. Considering the road ahead, an escort is necessary. We offer <value:$1A> Gea, with arrival required within <value:$1B> days. We await someone willing to accept these terms.<end>"
+KO: "이번에 <value:$15>까지 <value:$17><value:$16>가 가게 됐습니다. 도중의 위험을 생각하면 호위가 필요합니다. <value:$1A>기어의 사례, <value:$1B>일 이내 도착이라는 조건으로 맡아 주실 분을 기다립니다.<end>"
 
-## 200459
-source: translations/korean/messages/msgsec020-part99.toml
+## 250069
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が胴鎧であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates body armor.<end>"
-KO: "장비품의 종류가 몸통 갑옷임을 나타내는 아이콘입니다.<end>"
+JP: "<value:$17><value:$16>が、<line-break><value:$15>に用があってよ、<line-break>途中、なんだかおっかねえのが出るらしいんで、<line-break>護衛を頼みたいんだ。<line-break><value:$1A>ギアで、<value:$1B>日以内。<line-break>よろしくな。<end>"
+EN: "<value:$17><value:$16> has business in <value:$15>, and apparently something frightening has been appearing along the way. I need an escort. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. Thanks.<end>"
+KO: "<value:$17><value:$16>가 <value:$15>에 볼일이 있는데 길에 무서운 게 나온다더라. 호위를 부탁하고 싶어. <value:$1A>기어에 <value:$1B>일 이내. 부탁해.<end>"
 
-## 200460
-source: translations/korean/messages/msgsec020-part99.toml
+## 250070
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が全身鎧であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates full-body armor.<end>"
-KO: "장비품의 종류가 전신 갑옷임을 나타내는 아이콘입니다.<end>"
+JP: "この町の<value:$16>が、<line-break><value:$15>にいる人に会いに行くんだ。<line-break>戦いが強いっていうわけじゃなし、<line-break>やっぱり守ってくれる人が必要さね。<line-break><value:$1A>ギアで護衛をしてくれないかい？<line-break>到着は、<value:$1B>日以内で、よろしく頼むよ。<end>"
+EN: "This town's <value:$16> is going to meet someone in <value:$15>. Combat isn't exactly a strong suit, so someone needs to provide protection. Will you serve as escort for <value:$1A> Gea? Please arrive within <value:$1B> days.<end>"
+KO: "이 마을의 <value:$16>가 <value:$15>에 있는 사람을 만나러 가. 싸움을 잘하는 사람도 아니니 지켜 줄 사람이 필요하지. <value:$1A>기어에 호위해 줄래? <value:$1B>일 안에 도착하도록 부탁해.<end>"
 
-## 200461
-source: translations/korean/messages/msgsec020-part99.toml
+## 250071
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "装備品の種類が装飾品であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates accessories.<end>"
-KO: "장비품의 종류가 장식품임을 나타내는 아이콘입니다.<end>"
+JP: "我が宿屋にお泊りの<line-break><value:$17><value:$16>様が、<line-break><value:$15>に向かわれます。<line-break>その方の護衛を依頼します。<line-break><value:$1A>ギアをお支払いいたします。<line-break>到着期限は、<value:$1B>日以内です。<end>"
+EN: "<value:$17><value:$16>, a guest at our inn, will be traveling to <value:$15>. We request an escort. Payment: <value:$1A> Gea. Arrival deadline: within <value:$1B> days.<end>"
+KO: "저희 여관에 묵고 계신 <value:$17><value:$16> 님께서 <value:$15>로 향하십니다. 그분의 호위를 부탁드립니다. <value:$1A>기어를 지급하겠습니다. 도착 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200462
-source: translations/korean/messages/msgsec020-part99.toml
+## 250072
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "物語を進めていくために必要な<line-break>アイテムを表すアイコンです。<line-break>このアイテムは捨てることができません。<end>"
-EN: "This icon indicates items required to progress through the story. These items cannot be discarded.<end>"
-KO: "이야기를 진행하는 데 필요한 아이템을 나타내는 아이콘입니다. 이 아이템은 버릴 수 없습니다.<end>"
+JP: "<value:$15>に行きたいのですが、<line-break>護衛してくださる方を募集します。<line-break>お礼は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内とします。<end>"
+EN: "I wish to travel to <value:$15> and am seeking an escort. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
+KO: "<value:$15>에 가고 싶은데 호위해 주실 분을 모집합니다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 200463
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヒットポイント(HP)です。<line-break>キャラクターの物理的耐久力を表します。<line-break>HPが０になると戦闘不能状態になります。<end>"
-EN: "Hit Points (HP) represent a character's physical endurance. A character becomes unable to fight when HP reaches 0.<end>"
-KO: "히트 포인트(HP)입니다. 캐릭터의 물리적 내구력을 나타냅니다. HP가 0이 되면 전투불능 상태가 됩니다.<end>"
-
-## 200464
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "メンタルポイント(MP)です。<line-break>キャラクターの精神的耐久力を表します。<line-break>MPが０になると気絶状態になります。<end>"
-EN: "Mental Points (MP) represent a character's mental endurance. A character falls unconscious when MP reaches 0.<end>"
-KO: "멘탈 포인트(MP)입니다. 캐릭터의 정신적 내구력을 나타냅니다. MP가 0이 되면 기절 상태가 됩니다.<end>"
-
-## 200465
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターが呪い状態であることを<line-break>表すアイコンです。フィジカルパラメータが呪いで半分になります。<end>"
-EN: "This icon indicates that a character is cursed. The curse halves Physical Parameters.<end>"
-KO: "캐릭터가 저주 상태임을 나타내는 아이콘입니다. 피지컬 파라미터가 저주로 절반이 됩니다.<end>"
-
-## 200466
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火の精霊力レベルです。レベルが高いほど、<line-break>高位の火属性魔法を唱えること可能です。<end>"
-EN: "This is the Fire Spirit Power level. Higher levels allow higher-level Fire-element spells to be cast.<end>"
-KO: "불의 정령력 레벨입니다. 레벨이 높을수록 고위 불 속성 마법을 사용할 수 있습니다.<end>"
-
-## 200467
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水の精霊力レベルです。レベルが高いほど、<line-break>高位の水属性魔法を唱えること可能です。<end>"
-EN: "This is the Water Spirit Power level. Higher levels allow higher-level Water-element spells to be cast.<end>"
-KO: "물의 정령력 레벨입니다. 레벨이 높을수록 고위 물 속성 마법을 사용할 수 있습니다.<end>"
-
-## 200468
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土の精霊力レベルです。レベルが高いほど、<line-break>高位の土属性魔法を唱えること可能です。<end>"
-EN: "This is the Earth Spirit Power level. Higher levels allow higher-level Earth-element spells to be cast.<end>"
-KO: "땅의 정령력 레벨입니다. 레벨이 높을수록 고위 땅 속성 마법을 사용할 수 있습니다.<end>"
-
-## 200469
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風の精霊力レベルです。レベルが高いほど、<line-break>高位の風属性魔法を唱えること可能です。<end>"
-EN: "This is the Wind Spirit Power level. Higher levels allow higher-level Wind-element spells to be cast.<end>"
-KO: "바람의 정령력 레벨입니다. 레벨이 높을수록 고위 바람 속성 마법을 사용할 수 있습니다.<end>"
-
-## 200470
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "無属性の魔法であることを表すアイコンです。<end>"
-EN: "This icon indicates non-elemental magic.<end>"
-KO: "무속성 마법임을 나타내는 아이콘입니다.<end>"
-
-## 200471
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性の魔法であることを表すアイコンです。<end>"
-EN: "This icon indicates Fire-element magic.<end>"
-KO: "불 속성 마법임을 나타내는 아이콘입니다.<end>"
-
-## 200472
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性の魔法であることを表すアイコンです。<end>"
-EN: "This icon indicates Water-element magic.<end>"
-KO: "물 속성 마법임을 나타내는 아이콘입니다.<end>"
-
-## 200473
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性の魔法であることを表すアイコンです。<end>"
-EN: "This icon indicates Earth-element magic.<end>"
-KO: "대지 속성 마법임을 나타내는 아이콘입니다.<end>"
-
-## 200474
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性の魔法であることを表すアイコンです。<end>"
-EN: "This icon indicates Wind-element magic.<end>"
-KO: "바람 속성 마법임을 나타내는 아이콘입니다.<end>"
-
-## 200475
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇属性の魔法であることを表すアイコンです。<end>"
-EN: "This icon indicates Dark-element magic.<end>"
-KO: "어둠 속성 마법임을 나타내는 아이콘입니다.<end>"
-
-## 200476
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "聖属性の魔法であることを表すアイコンです。<end>"
-EN: "This icon indicates Holy-element magic.<end>"
-KO: "성 속성 마법임을 나타내는 아이콘입니다.<end>"
-
-## 200477
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヒットポイント(HP)です。<line-break>キャラクターの物理的耐久力を表します。<line-break>HPが０になると戦闘不能状態になります。<end>"
-EN: "Hit Points (HP) represent a character's physical endurance. A character becomes unable to fight when HP reaches 0.<end>"
-KO: "히트 포인트(HP)입니다. 캐릭터의 물리적 내구력을 나타냅니다. HP가 0이 되면 전투불능 상태가 됩니다.<end>"
-
-## 200478
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "メンタルポイント(MP)です。<line-break>キャラクターの精神的耐久力を表します。<line-break>MPが０になると気絶状態になります。<end>"
-EN: "Mental Points (MP) represent a character's mental endurance. A character falls unconscious when MP reaches 0.<end>"
-KO: "멘탈 포인트(MP)입니다. 캐릭터의 정신적 내구력을 나타냅니다. MP가 0이 되면 기절 상태가 됩니다.<end>"
-
-## 200479
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターが呪い状態であることを<line-break>表すアイコンです。フィジカルパラメータが呪いで半分になります。<end>"
-EN: "This icon indicates that a character is cursed. The curse halves Physical Parameters.<end>"
-KO: "캐릭터가 저주 상태임을 나타내는 아이콘입니다. 피지컬 파라미터가 저주로 절반이 됩니다.<end>"
-
-## 200480
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200481
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200482
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200483
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200484
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200485
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "フィールド上で使用するスキルです。<end>"
-EN: "This skill is used in the field.<end>"
-KO: "필드에서 사용하는 스킬입니다.<end>"
-
-## 200486
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "自動的に発動するスキルです。<end>"
-EN: "This skill activates automatically.<end>"
-KO: "자동으로 발동하는 스킬입니다.<end>"
-
-## 200487
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの持っているスキルポイントです。<line-break>これと引き替えにスキルを習得します。<end>"
-EN: "These are the character's Skill Points. Spend them to learn skills.<end>"
-KO: "캐릭터가 가진 스킬 포인트입니다. 이것과 교환해 스킬을 습득합니다.<end>"
-
-## 200488
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ヒットポイント(HP)です。<line-break>キャラクターの物理的耐久力を表します。<line-break>HPが０になると戦闘不能状態になります。<end>"
-EN: "Hit Points (HP) represent a character's physical endurance. A character becomes unable to fight when HP reaches 0.<end>"
-KO: "히트 포인트(HP)입니다. 캐릭터의 물리적 내구력을 나타냅니다. HP가 0이 되면 전투불능 상태가 됩니다.<end>"
-
-## 200489
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "メンタルポイント(MP)です。<line-break>キャラクターの精神的耐久力を表します。<line-break>MPが０になると気絶状態になります。<end>"
-EN: "Mental Points (MP) represent a character's mental endurance. A character falls unconscious when MP reaches 0.<end>"
-KO: "멘탈 포인트(MP)입니다. 캐릭터의 정신적 내구력을 나타냅니다. MP가 0이 되면 기절 상태가 됩니다.<end>"
-
-## 200490
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターが呪い状態であることを<line-break>表すアイコンです。フィジカルパラメータが呪いで半分になります。<end>"
-EN: "This icon indicates that a character is cursed. The curse halves Physical Parameters.<end>"
-KO: "캐릭터가 저주 상태임을 나타내는 아이콘입니다. 피지컬 파라미터가 저주로 절반이 됩니다.<end>"
-
-## 200491
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターのレベル(LEVEL)です。<end>"
-EN: "The character's level (LEVEL).<end>"
-KO: "캐릭터의 레벨(LEVEL)입니다.<end>"
-
-## 200492
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの経験値(EXP)です。<end>"
-EN: "The character's experience points (EXP).<end>"
-KO: "캐릭터의 경험치(EXP)입니다.<end>"
-
-## 200493
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "次のレベルまでに必要な経験値です。<end>"
-EN: "The experience points required to reach the next level.<end>"
-KO: "다음 레벨까지 필요한 경험치입니다.<end>"
-
-## 200494
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "筋力(STRENGTH)を表します。<line-break>物理攻撃の威力に影響します。<end>"
-EN: "Represents Strength (STRENGTH). Affects the power of physical attacks.<end>"
-KO: "근력(STRENGTH)을 나타냅니다. 물리 공격의 위력에 영향을 줍니다.<end>"
-
-## 200495
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "生命力(VITALITY)を表します。<line-break>物理的攻撃に対する防御力や、<line-break>HPの増加率に影響します。<end>"
-EN: "Represents Vitality (VITALITY). Affects defense against physical attacks and the rate at which HP increases.<end>"
-KO: "생명력(VITALITY)을 나타냅니다. 물리 공격에 대한 방어력과 HP 증가율에 영향을 줍니다.<end>"
-
-## 200496
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "知力(INTELLIGENCE)を表します。<line-break>精霊属性魔法の威力に影響します。<end>"
-EN: "Represents Intelligence (INTELLIGENCE). Affects the power of Spirit Attribute magic.<end>"
-KO: "지력(INTELLIGENCE)을 나타냅니다. 정령 속성 마법의 위력에 영향을 줍니다.<end>"
-
-## 200497
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "精神力(MIND)を表します。<line-break>精神魔法の威力やMPの増加率に影響します。<end>"
-EN: "Represents Mind (MIND). Affects the power of mental magic and the rate at which MP increases.<end>"
-KO: "정신력(MIND)을 나타냅니다. 정신 마법의 위력과 MP 증가율에 영향을 줍니다.<end>"
-
-## 200498
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敏捷性(AGILITY)を表します。<line-break>行動順位や物理攻撃の命中度に影響します。<end>"
-EN: "Represents Agility (AGILITY). Affects action order and the accuracy of physical attacks.<end>"
-KO: "민첩성(AGILITY)을 나타냅니다. 행동 순서와 물리 공격의 명중도에 영향을 줍니다.<end>"
-
-## 200499
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "器用さ(DEXTERITY)を表します。<line-break>物理攻撃に対する回避度や、<line-break>罠解除能力に影響します。<end>"
-EN: "Represents Dexterity (DEXTERITY). Affects evasion against physical attacks and the ability to disarm traps.<end>"
-KO: "기교(DEXTERITY)를 나타냅니다. 물리 공격 회피도와 함정 해제 능력에 영향을 줍니다.<end>"
-
-## 200500
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの勇敢さを表します。<line-break>戦士系のソウルを宿すために重要となります。<end>"
-EN: "Represents a character's bravery, which is important for harboring warrior-type Souls.<end>"
-KO: "캐릭터의 용감함을 나타냅니다. 전사계 소울을 깃들이는 데 중요합니다.<end>"
-
-## 200501
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの優しさを表します。<line-break>狩人系のソウルを宿すために重要となります。<end>"
-EN: "Represents a character's kindness, which is important for harboring hunter-type Souls.<end>"
-KO: "캐릭터의 상냥함을 나타냅니다. 사냥꾼계 소울을 깃들이는 데 중요합니다.<end>"
-
-## 200502
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの探求心を表します。<line-break>魔術師系のソウルを宿すために重要となります。<end>"
-EN: "Represents a character's inquisitiveness, which is important for harboring mage-type Souls.<end>"
-KO: "캐릭터의 탐구심을 나타냅니다. 마술사 계열 소울을 깃들이는 데 중요합니다.<end>"
-
-## 200503
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの信念を表します。<line-break>神官系のソウルを宿すために重要となります。<end>"
-EN: "Represents a character's conviction, which is important for harboring priest-type Souls.<end>"
-KO: "캐릭터의 신념을 나타냅니다. 신관계 소울을 품는 데 중요합니다.<end>"
-
-## 200504
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの野性を表します。<line-break>獣系のソウルを宿すために重要となります。<end>"
-EN: "Represents a character's wildness, which is important for harboring beast-type Souls.<end>"
-KO: "캐릭터의 야성을 나타냅니다. 짐승계 소울을 품는 데 중요합니다.<end>"
-
-## 200505
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの冷静さを表します。<line-break>盗賊系のソウルを宿すために重要となります。<end>"
-EN: "Represents a character's composure, which is important for harboring thief-type Souls.<end>"
-KO: "캐릭터의 냉정함을 나타냅니다. 도적계 소울을 깃들이는 데 중요합니다.<end>"
-
-## 200506
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターのレベルが上昇した時に、<line-break>各パラメータが上昇する割合を示しています。<end>"
-EN: "Shows the rate at which each parameter increases when the character gains a level.<end>"
-KO: "캐릭터의 레벨이 상승했을 때 각 능력치가 오르는 비율을 나타냅니다.<end>"
-
-## 200507
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200508
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200509
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200510
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200511
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中、このアイコンのコマンドで<line-break>使用するスキルです。<end>"
-EN: "This skill is used in battle with the command represented by this icon.<end>"
-KO: "전투 중 이 아이콘의 명령으로 사용하는 스킬입니다.<end>"
-
-## 200512
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "フィールド上で使用するスキルです。<end>"
-EN: "This skill is used in the field.<end>"
-KO: "필드에서 사용하는 스킬입니다.<end>"
-
-## 200513
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "自動的に発動するスキルです。<end>"
-EN: "This skill activates automatically.<end>"
-KO: "자동으로 발동하는 스킬입니다.<end>"
-
-## 200514
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "キャラクターの持っているスキルポイントです。<line-break>これと引き替えにスキルを習得します。<end>"
-EN: "These are the character's Skill Points. Spend them to learn skills.<end>"
-KO: "캐릭터가 가진 스킬 포인트입니다. 이것과 교환해 스킬을 습득합니다.<end>"
-
-## 200515
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備をはずします。<end>"
-EN: "Remove equipment.<end>"
-KO: "장비를 해제합니다.<end>"
-
-## 200516
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が片手剣であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates one-handed swords.<end>"
-KO: "장비품의 종류가 한손검임을 나타내는 아이콘입니다.<end>"
-
-## 200517
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が両手剣であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates two-handed swords.<end>"
-KO: "장비품의 종류가 양손검임을 나타내는 아이콘입니다.<end>"
-
-## 200518
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が槍であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates spears.<end>"
-KO: "장비품의 종류가 창임을 나타내는 아이콘입니다.<end>"
-
-## 200519
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が斧であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates axes.<end>"
-KO: "장비품의 종류가 도끼임을 나타내는 아이콘입니다.<end>"
-
-## 200520
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が小刀であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates daggers.<end>"
-KO: "장비품의 종류가 소도임을 나타내는 아이콘입니다.<end>"
-
-## 200521
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が弓であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates bows.<end>"
-KO: "장비품의 종류가 활임을 나타내는 아이콘입니다.<end>"
-
-## 200522
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が拳具であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates fist weapons.<end>"
-KO: "장비품의 종류가 권구임을 나타내는 아이콘입니다.<end>"
-
-## 200523
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が盾であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates shields.<end>"
-KO: "장비품의 종류가 방패임을 나타내는 아이콘입니다.<end>"
-
-## 200524
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が布製防具であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates cloth armor.<end>"
-KO: "장비품의 종류가 천 방어구임을 나타내는 아이콘입니다.<end>"
-
-## 200525
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が胸当てであることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates breastplates.<end>"
-KO: "장비품의 종류가 흉갑임을 나타내는 아이콘입니다.<end>"
-
-## 200526
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が胴鎧であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates body armor.<end>"
-KO: "장비품의 종류가 몸통 갑옷임을 나타내는 아이콘입니다.<end>"
-
-## 200527
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が全身鎧であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates full-body armor.<end>"
-KO: "장비품의 종류가 전신 갑옷임을 나타내는 아이콘입니다.<end>"
-
-## 200528
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の種類が装飾品であることを<line-break>表すアイコンです。<end>"
-EN: "This icon indicates accessories.<end>"
-KO: "장비품의 종류가 장식품임을 나타내는 아이콘입니다.<end>"
-
-## 200529
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "物理攻撃の攻撃力を表しています。<line-break>武器の攻撃力と筋力が影響します。<end>"
-EN: "Indicates physical attack power. A weapon's attack power and strength affect this value.<end>"
-KO: "물리 공격의 공격력을 나타냅니다. 무기의 공격력과 근력이 영향을 줍니다.<end>"
-
-## 200530
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "物理攻撃の命中度を表しています。<end>"
-EN: "Indicates the accuracy of physical attacks.<end>"
-KO: "물리 공격의 명중도를 나타냅니다.<end>"
-
-## 200531
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "クリティカル攻撃の起きる<line-break>度合いを表しています。<end>"
-EN: "Indicates the likelihood of landing a critical attack.<end>"
-KO: "치명타 공격이 발생하는 정도를 나타냅니다.<end>"
-
-## 200532
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "物理攻撃に対する防御力を表しています。<end>"
-EN: "Indicates defense against physical attacks.<end>"
-KO: "물리 공격에 대한 방어력을 나타냅니다.<end>"
-
-## 200533
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "物理攻撃に対する回避度を表しています。<end>"
-EN: "Indicates evasion against physical attacks.<end>"
-KO: "물리 공격에 대한 회피력을 나타냅니다.<end>"
-
-## 200534
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘時の素早さを表しています。<line-break>行動順位はこの値で決まります。<line-break>武器や防具の階級によって変化します。<end>"
-EN: "Battle speed. Determines turn order and varies by equipped weapon and armor class.<end>"
-KO: "전투 시의 민첩함을 나타냅니다. 행동 순서는 이 수치로 정해집니다. 무기와 방어구의 등급에 따라 변합니다.<end>"
-
-## 200535
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "魔法攻撃力と防御力を表します。<line-break>知力と精神力が影響します。<end>"
-EN: "Indicates magical attack power and defense. Intelligence and spirit affect this value.<end>"
-KO: "마법 공격력과 방어력을 나타냅니다. 지력과 정신력이 영향을 줍니다.<end>"
-
-## 200536
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "エレメンタル・ステータス。<line-break>どの精霊力を宿しているかを表しています。<end>"
-EN: "Elemental Status. Indicates the elemental power present.<end>"
-KO: "엘리멘털 스테이터스. 어떤 정령력을 품고 있는지를 나타냅니다.<end>"
-
-## 200537
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "エレメンタル・キャパシティ。<line-break>どれだけの精霊力を宿すことが<line-break>できるかを表しています。<end>"
-EN: "Elemental Capacity. Indicates how much elemental power can be contained.<end>"
-KO: "엘리멘털 캐퍼시티. 얼마나 많은 정령력을 품을 수 있는지를 나타냅니다.<end>"
-
-## 200538
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品の持っている特性効果を表しています。<line-break>特性効果は武器なら敵への攻撃に、<line-break>防具なら敵の攻撃に対して効果があります。<end>"
-EN: "Indicates an item's special effect: weapons apply it when attacking; armor when attacked.<end>"
-KO: "장비가 가진 특성 효과를 나타냅니다. 특성 효과는 무기라면 적에 대한 공격에, 방어구라면 적의 공격을 받을 때 효과가 있습니다.<end>"
-
-## 200539
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵を眠り状態にします。<line-break>防具なら敵の眠り攻撃を防ぎます。<line-break>眠っている敵は起きるまで攻撃してきません。<end>"
-EN: "Weapons inflict Sleep; armor blocks it. Sleeping enemies cannot attack.<end>"
-KO: "무기라면 적을 수면 상태로 만듭니다. 방어구라면 적의 수면 공격을 막습니다. 잠든 적은 깨어날 때까지 공격하지 않습니다.<end>"
-
-## 200540
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵をマヒ状態にします。<line-break>防具なら敵のマヒ攻撃を防ぎます。<line-break>マヒした敵は動けません。<end>"
-EN: "Weapons inflict Paralysis; armor blocks it. Paralyzed enemies cannot move.<end>"
-KO: "무기라면 적을 마비 상태로 만듭니다. 방어구라면 적의 마비 공격을 막습니다. 마비된 적은 움직일 수 없습니다.<end>"
-
-## 200541
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵を石化状態にします。<line-break>防具なら敵の石化攻撃を防ぎます。<line-break>石化した敵は動けません。<end>"
-EN: "Weapons petrify enemies; armor blocks petrification attacks. Petrified enemies cannot move.<end>"
-KO: "무기라면 적을 석화 상태로 만듭니다. 방어구라면 적의 석화 공격을 막습니다. 석화된 적은 움직일 수 없습니다.<end>"
-
-## 200542
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵を暗闇状態にします。<line-break>防具なら敵の暗闇攻撃を防ぎます。<line-break>暗闇状態の敵は命中度が低下します。<end>"
-EN: "Weapons inflict Blindness; armor blocks it. Blinded enemies have lower accuracy.<end>"
-KO: "무기라면 적을 암흑 상태로 만듭니다. 방어구라면 적의 암흑 공격을 막습니다. 암흑 상태의 적은 명중률이 낮아집니다.<end>"
-
-## 200543
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵を混乱状態にします。<line-break>防具なら敵の混乱攻撃を防ぎます。<line-break>混乱した敵は無差別に攻撃します。<end>"
-EN: "Weapons inflict Confusion; armor blocks it. Confused enemies attack indiscriminately.<end>"
-KO: "무기라면 적을 혼란 상태로 만듭니다. 방어구라면 적의 혼란 공격을 막습니다. 혼란에 빠진 적은 무차별로 공격합니다.<end>"
-
-## 200544
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵を幻覚状態にします。<line-break>防具なら敵の幻覚攻撃を防ぎます。<line-break>幻覚状態の敵は命中度が低下します。<end>"
-EN: "Weapons inflict Hallucination; armor blocks it. Hallucinating enemies have lower accuracy.<end>"
-KO: "무기라면 적을 환각 상태로 만듭니다. 방어구라면 적의 환각 공격을 막습니다. 환각 상태의 적은 명중률이 낮아집니다.<end>"
-
-## 200545
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵を毒状態にします。<line-break>防具なら敵の毒攻撃を防ぎます。<line-break>毒状態の敵は毎ターンダメージを受けます。<end>"
-EN: "Weapons poison enemies; armor blocks it. Poisoned enemies take damage each turn.<end>"
-KO: "무기라면 적을 독 상태로 만듭니다. 방어구라면 적의 독 공격을 막습니다. 독 상태인 적은 매 턴 피해를 받습니다.<end>"
-
-## 200546
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵を沈黙状態にします。<line-break>防具なら敵の沈黙攻撃を防ぎます。<line-break>沈黙した敵は声を出せなくなります。<end>"
-EN: "Weapons inflict Silence; armor blocks silence attacks. Silenced enemies cannot speak.<end>"
-KO: "무기라면 적을 침묵 상태로 만듭니다. 방어구라면 적의 침묵 공격을 막습니다. 침묵 상태의 적은 목소리를 낼 수 없습니다.<end>"
-
-## 200547
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器なら敵を呪い状態にします。<line-break>防具なら敵の呪い攻撃を防ぎます。<line-break>呪われた敵は攻撃力も防御力も半減します。<end>"
-EN: "Weapons curse enemies; armor blocks it. Curse halves enemy attack and defense.<end>"
-KO: "무기라면 적을 저주 상태로 만듭니다. 방어구라면 적의 저주 공격을 막습니다. 저주받은 적은 공격력과 방어력이 절반으로 줄어듭니다.<end>"
-
-## 200548
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＳＴＲを５ポイント上昇させます。<end>"
-EN: "Raises ＳＴＲ by 5 points.<end>"
-KO: "STR을 5포인트 상승시킵니다.<end>"
-
-## 200549
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＶＩＴを５ポイント上昇させます。<end>"
-EN: "Raises ＶＩＴ by 5 points.<end>"
-KO: "VIT를 5포인트 상승시킵니다.<end>"
-
-## 200550
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＩＮＴを５ポイント上昇させます。<end>"
-EN: "Raises ＩＮＴ by 5 points.<end>"
-KO: "INT를 5포인트 상승시킵니다.<end>"
-
-## 200551
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＭＩＮを５ポイント上昇させます。<end>"
-EN: "Raises ＭＩＮ by 5 points.<end>"
-KO: "MIN을 5포인트 상승시킵니다.<end>"
-
-## 200552
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＡＧＩを５ポイント上昇させます。<end>"
-EN: "Raises ＡＧＩ by 5 points.<end>"
-KO: "AGI를 5포인트 상승시킵니다.<end>"
-
-## 200553
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＤＥＸを５ポイント上昇させます。<end>"
-EN: "Raises ＤＥＸ by 5 points.<end>"
-KO: "DEX를 5포인트 상승시킵니다.<end>"
-
-## 200554
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＳＴＲを１０ポイント上昇させます。<end>"
-EN: "Raises ＳＴＲ by 10 points.<end>"
-KO: "STR을 10포인트 상승시킵니다.<end>"
-
-## 200555
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＶＩＴを１０ポイント上昇させます。<end>"
-EN: "Raises ＶＩＴ by 10 points.<end>"
-KO: "VIT를 10포인트 상승시킵니다.<end>"
-
-## 200556
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＩＮＴを１０ポイント上昇させます。<end>"
-EN: "Raises ＩＮＴ by 10 points.<end>"
-KO: "INT를 10포인트 상승시킵니다.<end>"
-
-## 200557
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＭＩＮを１０ポイント上昇させます。<end>"
-EN: "Raises ＭＩＮ by 10 points.<end>"
-KO: "MIN을 10포인트 상승시킵니다.<end>"
-
-## 200558
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＡＧＩを１０ポイント上昇させます。<end>"
-EN: "Raises ＡＧＩ by 10 points.<end>"
-KO: "AGI를 10포인트 상승시킵니다.<end>"
-
-## 200559
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＤＥＸを１０ポイント上昇させます。<end>"
-EN: "Raises ＤＥＸ by 10 points.<end>"
-KO: "DEX를 10포인트 상승시킵니다.<end>"
-
-## 200560
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＳＴＲを２０ポイント上昇させます。<end>"
-EN: "Raises ＳＴＲ by 20 points.<end>"
-KO: "STR을 20포인트 상승시킵니다.<end>"
-
-## 200561
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＶＩＴを２０ポイント上昇させます。<end>"
-EN: "Raises ＶＩＴ by 20 points.<end>"
-KO: "VIT를 20포인트 상승시킵니다.<end>"
-
-## 200562
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＩＮＴを２０ポイント上昇させます。<end>"
-EN: "Raises ＩＮＴ by 20 points.<end>"
-KO: "INT를 20포인트 상승시킵니다.<end>"
-
-## 200563
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＭＩＮを２０ポイント上昇させます。<end>"
-EN: "Raises ＭＩＮ by 20 points.<end>"
-KO: "MIN을 20포인트 상승시킵니다.<end>"
-
-## 200564
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＡＧＩを２０ポイント上昇させます。<end>"
-EN: "Raises ＡＧＩ by 20 points.<end>"
-KO: "AGI를 20포인트 상승시킵니다.<end>"
-
-## 200565
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "ＤＥＸを２０ポイント上昇させます。<end>"
-EN: "Raises ＤＥＸ by 20 points.<end>"
-KO: "DEX를 20포인트 상승시킵니다.<end>"
-
-## 200566
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の眠り攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Sleep attacks.<end>"
-KO: "적의 수면 공격을 50% 확률로 회피합니다.<end>"
-
-## 200567
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵のマヒ攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Paralysis attacks.<end>"
-KO: "적의 마비 공격을 50% 확률로 회피합니다.<end>"
-
-## 200568
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の石化攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy petrification attacks.<end>"
-KO: "적의 석화 공격을 50% 확률로 회피합니다.<end>"
-
-## 200569
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の暗闇攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Blindness attacks.<end>"
-KO: "적의 암흑 공격을 50% 확률로 회피합니다.<end>"
-
-## 200570
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の混乱攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Confusion attacks.<end>"
-KO: "적의 혼란 공격을 50% 확률로 회피합니다.<end>"
-
-## 200571
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の幻覚攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Hallucination attacks.<end>"
-KO: "적의 환각 공격을 50% 확률로 회피합니다.<end>"
-
-## 200572
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の毒攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Poison attacks.<end>"
-KO: "적의 독 공격을 50% 확률로 회피합니다.<end>"
-
-## 200573
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の沈黙攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Silence attacks.<end>"
-KO: "적의 침묵 공격을 50% 확률로 회피합니다.<end>"
-
-## 200574
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の呪い攻撃を５０％の確率で回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Curse attacks.<end>"
-KO: "적의 저주 공격을 50% 확률로 회피합니다.<end>"
-
-## 200575
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の速度低下状態を５０％の確率で<line-break>回避します。<end>"
-EN: "Grants a 50% chance to evade enemy speed-reduction effects.<end>"
-KO: "적의 속도 저하 상태를 50% 확률로 회피합니다.<end>"
-
-## 200576
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の死の呪い攻撃を５０％の確率で<line-break>回避します。<end>"
-EN: "Grants a 50% chance to evade enemy Death Curse attacks.<end>"
-KO: "적의 죽음의 저주 공격을 50% 확률로 회피합니다.<end>"
-
-## 200577
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎ターン、ＨＰが最大値の５％回復する。<end>"
-EN: "Restores 5% of maximum ＨＰ each turn.<end>"
-KO: "매 턴 HP가 최대치의 5% 회복된다.<end>"
-
-## 200578
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎ターン、ＭＰが最大値の３％回復する。<end>"
-EN: "Restores 3% of maximum ＭＰ each turn.<end>"
-KO: "매 턴 MP가 최대치의 3% 회복된다.<end>"
-
-## 200579
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中にＨＰが０になると、<line-break>自動的にＨＰが最大値まで回復します。<line-break>ただし、１度作動すると壊れてしまいます。<end>"
-EN: "If ＨＰ reaches 0 in battle, it is fully restored once. The item then breaks.<end>"
-KO: "전투 중 HP가 0이 되면 자동으로 HP가 최대치까지 회복됩니다. 단, 한 번 작동하면 부서집니다.<end>"
-
-## 200580
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦闘中にＭＰが０になると、<line-break>自動的にＭＰが最大値まで回復します。<line-break>ただし、１度作動すると壊れてしまいます。<end>"
-EN: "If ＭＰ reaches 0 in battle, it is fully restored once. The item then breaks.<end>"
-KO: "전투 중 MP가 0이 되면 자동으로 MP가 최대치까지 회복됩니다. 단, 한 번 작동하면 부서집니다.<end>"
-
-## 200581
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "５０％の確率でクリティカル攻撃がでます。<end>"
-EN: "Grants a 50% chance of landing a critical attack.<end>"
-KO: "50% 확률로 크리티컬 공격이 발생합니다.<end>"
-
-## 200582
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の火属性攻撃によるダメージを半減します。<end>"
-EN: "Halves damage from enemy Fire-element attacks.<end>"
-KO: "적의 불 속성 공격 피해를 절반으로 줄입니다.<end>"
-
-## 200583
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の水属性攻撃によるダメージを半減します。<end>"
-EN: "Halves damage from enemy Water-element attacks.<end>"
-KO: "적의 물 속성 공격 피해를 절반으로 줄입니다.<end>"
-
-## 200584
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の土属性攻撃によるダメージを半減します。<end>"
-EN: "Halves damage from enemy Earth-element attacks.<end>"
-KO: "적의 대지 속성 공격 피해를 절반으로 줄입니다.<end>"
-
-## 200585
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の風属性攻撃によるダメージを半減します。<end>"
-EN: "Halves damage from enemy Wind-element attacks.<end>"
-KO: "적의 바람 속성 공격 피해를 절반으로 줄입니다.<end>"
-
-## 200586
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の闇属性攻撃によるダメージを半減します。<end>"
-EN: "Halves damage from enemy Dark-element attacks.<end>"
-KO: "적의 어둠 속성 공격 피해를 절반으로 줄입니다.<end>"
-
-## 200587
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の聖属性攻撃によるダメージを半減します。<end>"
-EN: "Halves damage from enemy Holy-element attacks.<end>"
-KO: "적의 성 속성 공격 피해를 절반으로 줄입니다.<end>"
-
-## 200588
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の火属性攻撃によるダメージを０にします。<end>"
-EN: "Reduces damage from enemy Fire-element attacks to 0.<end>"
-KO: "적의 불 속성 공격 피해를 0으로 만듭니다.<end>"
-
-## 200589
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の水属性攻撃によるダメージを０にします。<end>"
-EN: "Reduces damage from enemy Water-element attacks to 0.<end>"
-KO: "적의 물 속성 공격 피해를 0으로 만듭니다.<end>"
-
-## 200590
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の土属性攻撃によるダメージを０にします。<end>"
-EN: "Reduces damage from enemy Earth-element attacks to 0.<end>"
-KO: "적의 대지 속성 공격 피해를 0으로 만듭니다.<end>"
-
-## 200591
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の風属性攻撃によるダメージを０にします。<end>"
-EN: "Reduces damage from enemy Wind-element attacks to 0.<end>"
-KO: "적의 바람 속성 공격 피해를 0으로 만듭니다.<end>"
-
-## 200592
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の闇属性攻撃によるダメージを０にします。<end>"
-EN: "Reduces damage from enemy Dark-element attacks to 0.<end>"
-KO: "적의 어둠 속성 공격 피해를 0으로 만듭니다.<end>"
-
-## 200593
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "敵の聖属性攻撃によるダメージを０にします。<end>"
-EN: "Reduces damage from enemy Holy-element attacks to 0.<end>"
-KO: "적의 성 속성 공격 피해를 0으로 만듭니다.<end>"
-
-## 200594
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備者が戦闘後に獲得するEXPを<line-break>１．５倍します。<end>"
-EN: "Multiplies the EXP gained by the wearer after battle by 1.5.<end>"
-KO: "장비자가 전투 후 획득하는 EXP가 1.5배가 됩니다.<end>"
-
-## 200595
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備者が戦闘後に獲得するスキルポイントを<line-break>１．５倍します。<end>"
-EN: "Multiplies the Skill Points gained by the wearer after battle by 1.5.<end>"
-KO: "장착자가 전투 후 획득하는 스킬 포인트를 1.5배로 만듭니다.<end>"
-
-## 200596
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "パーティーが戦闘後に獲得するギアを<line-break>１．５倍します。<end>"
-EN: "Multiplies the Gea gained by the party after battle by 1.5.<end>"
-KO: "파티가 전투 후 획득하는 기어를 1.5배로 합니다.<end>"
-
-## 200597
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "アクセサリー：フィジカル効果なし<end>"
-EN: "Accessory: No physical effect<end>"
-KO: "액세서리: 피지컬 효과 없음<end>"
-
-## 200598
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "アクセサリー：特例効果なし<end>"
-EN: "Accessory: No special effect<end>"
-KO: "액세서리: 특례 효과 없음<end>"
-
-## 200599
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "アクセサリー：精霊力効果なし<end>"
-EN: "Accessory: No elemental power effect<end>"
-KO: "액세서리: 정령력 효과 없음<end>"
-
-## 200600
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "アクセサリー：ボーナス効果なし<end>"
-EN: "Accessory: No bonus effect<end>"
-KO: "액세서리: 보너스 효과 없음<end>"
-
-## 200601
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "大きいほど攻撃力や防御力が高くなります。<line-break>錬剛石が必要です。<end>"
-EN: "Higher values increase Attack Power and defense. Tempering Stones are required.<end>"
-KO: "클수록 공격력과 방어력이 높아집니다. 연강석이 필요합니다.<end>"
-
-## 200602
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "大きいほど重くなり素早さを低下させますが、<line-break>攻撃力や防御力は上昇します。<end>"
-EN: "Higher values mean more weight and lower Agility, but greater Attack Power and defense.<end>"
-KO: "클수록 무거워져 민첩성이 낮아지지만, 공격력과 방어력은 상승합니다.<end>"
-
-## 200603
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "宿すことのできる精霊力の大きさを表します。<line-break>大きいほど属性効果も高まります。<line-break>錬剛石が必要です。<end>"
-EN: "Indicates how much spirit power can be imbued. Higher values also strengthen elemental effects. Tempering Stones are required.<end>"
-KO: "담을 수 있는 정령력의 크기를 나타냅니다. 클수록 속성 효과도 높아집니다. 연강석이 필요합니다.<end>"
-
-## 200604
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "宿している精霊力の属性を表します。<line-break>錬剛石もお金も必要ありません。<end>"
-EN: "Indicates the element of the spirit power currently imbued. Neither Tempering Stones nor money are required.<end>"
-KO: "깃들어 있는 정령력의 속성을 나타냅니다. 연강석도 돈도 필요하지 않습니다.<end>"
-
-## 200605
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "装備品につける特殊効果です。<line-break>いずれかの系統を選んでください。<line-break>錬剛石を必要とします。<end>"
-EN: "This is a special effect applied to equipment. Select one of the categories. Tempering Stones are required.<end>"
-KO: "장비에 붙이는 특수 효과입니다. 어느 계통을 선택해 주세요. 연강석이 필요합니다.<end>"
-
-## 200606
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "眠り、マヒ、石化からなる系統です。<line-break>別の系統に変えると効力を失います。<line-break>その場合、最初から鍛え直すことになります。<end>"
-EN: "This category consists of Sleep, Paralysis, and Petrification. Changing to another category causes the effect to lose its potency, which must then be built back up from scratch.<end>"
-KO: "수면, 마비, 석화로 이루어진 계통입니다. 다른 계통으로 바꾸면 효력을 잃습니다. 그 경우 처음부터 다시 단련해야 합니다.<end>"
-
-## 200607
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "暗闇、混乱、幻覚からなる系統です。<line-break>別の系統に変えると効力を失います。<line-break>その場合、最初から鍛え直すことになります。<end>"
-EN: "This category consists of Blindness, Confusion, and Hallucination. Changing to another category causes the effect to lose its potency, which must then be built back up from scratch.<end>"
-KO: "암흑, 혼란, 환각으로 이루어진 계통입니다. 다른 계통으로 바꾸면 효력을 잃습니다. 그 경우 처음부터 다시 단련해야 합니다.<end>"
-
-## 200608
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "毒、沈黙、呪いからなる系統です。<line-break>別の系統に変えると効力を失います。<line-break>その場合、最初から鍛え直すことになります。<end>"
-EN: "This category consists of Poison, Silence, and Curse. Changing to another category causes the effect to lose its potency, which must then be built back up from scratch.<end>"
-KO: "독, 침묵, 저주로 이루어진 계통입니다. 다른 계통으로 바꾸면 효력을 잃습니다. 그 경우 처음부터 다시 단련해야 합니다.<end>"
-
-## 200609
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが１必要です。<end>"
-EN: "Requires Fire element level 1.<end>"
-KO: "불 속성 레벨 1이 필요합니다.<end>"
-
-## 200610
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが３必要です。<end>"
-EN: "Requires Fire element level 3.<end>"
-KO: "불 속성 레벨 3이 필요합니다.<end>"
-
-## 200611
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが４必要です。<end>"
-EN: "Requires Fire element level 4.<end>"
-KO: "불 속성 레벨 4가 필요합니다.<end>"
-
-## 200612
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが１必要です。<end>"
-EN: "Requires Water element level 1.<end>"
-KO: "물 속성 레벨 1이 필요합니다.<end>"
-
-## 200613
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが３必要です。<end>"
-EN: "Requires Water element level 3.<end>"
-KO: "물 속성 레벨 3이 필요합니다.<end>"
-
-## 200614
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが４必要です。<end>"
-EN: "Requires Water element level 4.<end>"
-KO: "물 속성 레벨 4가 필요합니다.<end>"
-
-## 200615
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが１必要です。<end>"
-EN: "Requires Earth element level 1.<end>"
-KO: "대지 속성 레벨 1이 필요합니다.<end>"
-
-## 200616
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが３必要です。<end>"
-EN: "Requires Earth element level 3.<end>"
-KO: "대지 속성 레벨 3이 필요합니다.<end>"
-
-## 200617
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが４必要です。<end>"
-EN: "Requires Earth element level 4.<end>"
-KO: "대지 속성 레벨 4가 필요합니다.<end>"
-
-## 200618
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが１必要です。<end>"
-EN: "Requires Wind element level 1.<end>"
-KO: "바람 속성 레벨 1이 필요합니다.<end>"
-
-## 200619
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが３必要です。<end>"
-EN: "Requires Wind element level 3.<end>"
-KO: "바람 속성 레벨 3이 필요합니다.<end>"
-
-## 200620
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが４必要です。<end>"
-EN: "Requires Wind element level 4.<end>"
-KO: "바람 속성 레벨 4가 필요합니다.<end>"
-
-## 200621
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが２必要です。<end>"
-EN: "Requires Fire element level 2.<end>"
-KO: "불 속성 레벨 2가 필요합니다.<end>"
-
-## 200622
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが２必要です。<end>"
-EN: "Requires Fire element level 2.<end>"
-KO: "불 속성 레벨 2가 필요합니다.<end>"
-
-## 200623
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが２必要です。<end>"
-EN: "Requires Fire element level 2.<end>"
-KO: "불 속성 레벨 2가 필요합니다.<end>"
-
-## 200624
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが５必要です。<end>"
-EN: "Requires Fire element level 5.<end>"
-KO: "불 속성 레벨 5가 필요합니다.<end>"
-
-## 200625
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが７必要です。<end>"
-EN: "Requires Fire element level 7.<end>"
-KO: "불 속성 레벨 7이 필요합니다.<end>"
-
-## 200626
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルが９必要です。<line-break>封印を解く必要があります。<end>"
-EN: "Requires Fire element level 9. The seal must be broken.<end>"
-KO: "불 속성 레벨 9가 필요합니다. 봉인을 풀어야 합니다.<end>"
-
-## 200627
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが２必要です。<end>"
-EN: "Requires Water element level 2.<end>"
-KO: "물 속성 레벨 2가 필요합니다.<end>"
-
-## 200628
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが２必要です。<end>"
-EN: "Requires Water element level 2.<end>"
-KO: "물 속성 레벨 2가 필요합니다.<end>"
-
-## 200629
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが２必要です。<end>"
-EN: "Requires Water element level 2.<end>"
-KO: "물 속성 레벨 2가 필요합니다.<end>"
-
-## 200630
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが５必要です。<end>"
-EN: "Requires Water element level 5.<end>"
-KO: "물 속성 레벨 5가 필요합니다.<end>"
-
-## 200631
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが７必要です。<end>"
-EN: "Requires Water element level 7.<end>"
-KO: "물 속성 레벨 7이 필요합니다.<end>"
-
-## 200632
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルが９必要です。<line-break>封印を解く必要があります。<end>"
-EN: "Requires Water element level 9. The seal must be broken.<end>"
-KO: "물 속성 레벨 9가 필요합니다. 봉인을 풀어야 합니다.<end>"
-
-## 200633
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが２必要です。<end>"
-EN: "Requires Earth element level 2.<end>"
-KO: "대지 속성 레벨 2가 필요합니다.<end>"
-
-## 200634
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが２必要です。<end>"
-EN: "Requires Earth element level 2.<end>"
-KO: "대지 속성 레벨 2가 필요합니다.<end>"
-
-## 200635
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが２必要です。<end>"
-EN: "Requires Earth element level 2.<end>"
-KO: "대지 속성 레벨 2가 필요합니다.<end>"
-
-## 200636
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが５必要です。<end>"
-EN: "Requires Earth element level 5.<end>"
-KO: "대지 속성 레벨 5가 필요합니다.<end>"
-
-## 200637
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが７必要です。<end>"
-EN: "Requires Earth element level 7.<end>"
-KO: "대지 속성 레벨 7이 필요합니다.<end>"
-
-## 200638
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルが９必要です。<line-break>封印を解く必要があります。<end>"
-EN: "Requires Earth element level 9. The seal must be broken.<end>"
-KO: "땅 속성 레벨 9가 필요합니다. 봉인을 풀어야 합니다.<end>"
-
-## 200639
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが２必要です。<end>"
-EN: "Requires Wind element level 2.<end>"
-KO: "바람 속성 레벨 2가 필요합니다.<end>"
-
-## 200640
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが２必要です。<end>"
-EN: "Requires Wind element level 2.<end>"
-KO: "바람 속성 레벨 2가 필요합니다.<end>"
-
-## 200641
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが２必要です。<end>"
-EN: "Requires Wind element level 2.<end>"
-KO: "바람 속성 레벨 2가 필요합니다.<end>"
-
-## 200642
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが５必要です。<end>"
-EN: "Requires Wind element level 5.<end>"
-KO: "바람 속성 레벨 5가 필요합니다.<end>"
-
-## 200643
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが７必要です。<end>"
-EN: "Requires Wind element level 7.<end>"
-KO: "바람 속성 레벨 7이 필요합니다.<end>"
-
-## 200644
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルが９必要です。<line-break>封印を解く必要があります。<end>"
-EN: "Requires Wind element level 9. The seal must be broken.<end>"
-KO: "바람 속성 레벨 9가 필요합니다. 봉인을 풀어야 합니다.<end>"
-
-## 200645
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルと水属性レベルが<line-break>それぞれ６必要です。<end>"
-EN: "Requires level 6 in both the Fire and Water elements.<end>"
-KO: "화속성 레벨과 수속성 레벨이 각각 6 필요합니다.<end>"
-
-## 200646
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "火属性レベルと水属性レベルが<line-break>それぞれ８必要です。<end>"
-EN: "Requires level 8 in both the Fire and Water elements.<end>"
-KO: "화속성 레벨과 수속성 레벨이 각각 8 필요합니다.<end>"
-
-## 200647
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルと土属性レベルが<line-break>それぞれ６必要です。<end>"
-EN: "Requires level 6 in both the Water and Earth elements.<end>"
-KO: "수속성 레벨과 토속성 레벨이 각각 6 필요합니다.<end>"
-
-## 200648
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "水属性レベルと土属性レベルが<line-break>それぞれ８必要です。<end>"
-EN: "Requires level 8 in both the Water and Earth elements.<end>"
-KO: "수속성 레벨과 토속성 레벨이 각각 8 필요합니다.<end>"
-
-## 200649
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルと風属性レベルが<line-break>それぞれ６必要です。<end>"
-EN: "Requires level 6 in both the Earth and Wind elements.<end>"
-KO: "토속성 레벨과 풍속성 레벨이 각각 6 필요합니다.<end>"
-
-## 200650
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "土属性レベルと風属性レベルが<line-break>それぞれ８必要です。<end>"
-EN: "Requires level 8 in both the Earth and Wind elements.<end>"
-KO: "토속성 레벨과 풍속성 레벨이 각각 8 필요합니다.<end>"
-
-## 200651
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルと火属性レベルが<line-break>それぞれ６必要です。<end>"
-EN: "Requires level 6 in both the Wind and Fire elements.<end>"
-KO: "풍속성 레벨과 화속성 레벨이 각각 6 필요합니다.<end>"
-
-## 200652
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "風属性レベルと火属性レベルが<line-break>それぞれ８必要です。<end>"
-EN: "Requires level 8 in both the Wind and Fire elements.<end>"
-KO: "풍속성 레벨과 화속성 레벨이 각각 8 필요합니다.<end>"
-
-## 200653
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが７必要です。<end>"
-EN: "Requires level 7 in every element.<end>"
-KO: "모든 속성 레벨이 7 필요합니다.<end>"
-
-## 200654
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが１０必要です。<end>"
-EN: "Requires level 10 in every element.<end>"
-KO: "모든 속성 레벨이 10 필요합니다.<end>"
-
-## 200655
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが１必要です。<end>"
-EN: "Requires level 1 in every element.<end>"
-KO: "모든 속성 레벨이 1 필요합니다.<end>"
-
-## 200656
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが３必要です。<end>"
-EN: "Requires level 3 in every element.<end>"
-KO: "모든 속성 레벨이 3 필요합니다.<end>"
-
-## 200657
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが５必要です。<end>"
-EN: "Requires level 5 in every element.<end>"
-KO: "모든 속성 레벨이 5 필요합니다.<end>"
-
-## 200658
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが７必要です。<end>"
-EN: "Requires level 7 in every element.<end>"
-KO: "모든 속성 레벨이 7 필요합니다.<end>"
-
-## 200659
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが９必要です。<end>"
-EN: "Requires level 9 in every element.<end>"
-KO: "모든 속성 레벨이 9 필요합니다.<end>"
-
-## 200660
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが２必要です。<end>"
-EN: "Requires level 2 in every element.<end>"
-KO: "모든 속성 레벨이 2 필요합니다.<end>"
-
-## 200661
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが４必要です。<end>"
-EN: "Requires level 4 in every element.<end>"
-KO: "모든 속성 레벨이 4 필요합니다.<end>"
-
-## 200662
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが６必要です。<end>"
-EN: "Requires level 6 in every element.<end>"
-KO: "모든 속성 레벨이 6 필요합니다.<end>"
-
-## 200663
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが８必要です。<end>"
-EN: "Requires level 8 in every element.<end>"
-KO: "모든 속성 레벨이 8 필요합니다.<end>"
-
-## 200664
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが９必要です。<end>"
-EN: "Requires level 9 in every element.<end>"
-KO: "모든 속성 레벨이 9 필요합니다.<end>"
-
-## 200665
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが１必要です。<end>"
-EN: "Requires level 1 in every element.<end>"
-KO: "모든 속성 레벨이 1 필요합니다.<end>"
-
-## 200666
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが３必要です。<end>"
-EN: "Requires level 3 in every element.<end>"
-KO: "모든 속성 레벨이 3 필요합니다.<end>"
-
-## 200667
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが５必要です。<end>"
-EN: "Requires level 5 in every element.<end>"
-KO: "모든 속성 레벨이 5 필요합니다.<end>"
-
-## 200668
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが７必要です。<end>"
-EN: "Requires level 7 in every element.<end>"
-KO: "모든 속성 레벨이 7 필요합니다.<end>"
-
-## 200669
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが１０必要です。<line-break>封印を解く必要があります。<end>"
-EN: "Requires level 10 in every element. The seal must be broken.<end>"
-KO: "모든 속성 레벨이 10 필요합니다. 봉인을 해제해야 합니다.<end>"
-
-## 200670
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが２必要です。<end>"
-EN: "Requires level 2 in every element.<end>"
-KO: "모든 속성 레벨이 2 필요합니다.<end>"
-
-## 200671
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが４必要です。<end>"
-EN: "Requires level 4 in every element.<end>"
-KO: "모든 속성 레벨이 4 필요합니다.<end>"
-
-## 200672
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが６必要です。<end>"
-EN: "Requires level 6 in every element.<end>"
-KO: "모든 속성 레벨이 6 필요합니다.<end>"
-
-## 200673
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが８必要です。<end>"
-EN: "Requires level 8 in every element.<end>"
-KO: "모든 속성 레벨이 8 필요합니다.<end>"
-
-## 200674
-source: translations/korean/messages/msgsec020-part99.toml
-jp_matches_pinned_english: yes
-JP: "すべての属性レベルが１０必要です。<line-break>封印を解く必要があります。<end>"
-EN: "Requires level 10 in every element. The seal must be broken.<end>"
-KO: "모든 속성 레벨이 10 필요합니다. 봉인을 해제해야 합니다.<end>"
-
-## 210000
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "ダミーメッセージここから<end>"
-EN: ""
-KO: "더미 메시지 여기부터<end>"
-
-## 210001
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "山越え概要<end>"
-EN: ""
-KO: "산 넘기 개요<end>"
-
-## 210002
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンギルダン軍進軍<end>"
-EN: ""
-KO: "앙길단군 진군<end>"
-
-## 210004
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンギルダン敗走<end>"
-EN: ""
-KO: "앙길단 패주<end>"
-
-## 210005
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アンギルダン戦死１<end>"
-EN: ""
-KO: "앙길단 전사 1<end>"
-
-## 210006
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "２ページ目へ<end>"
-EN: ""
-KO: "2페이지로<end>"
-
-## 210007
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "ロセン陥落<end>"
-EN: ""
-KO: "로센 함락<end>"
-
-## 210008
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "ネメア帝位につく<end>"
-EN: ""
-KO: "네메아 제위에 오르다<end>"
-
-## 210009
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "ノーブルの反乱<end>"
-EN: ""
-KO: "노블의 반란<end>"
-
-## 210010
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "空中都市撃沈<end>"
-EN: ""
-KO: "공중도시 격침<end>"
-
-## 210011
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "リベルダム陥落<end>"
-EN: ""
-KO: "리벨덤 함락<end>"
-
-## 210012
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "３ページ目へ<end>"
-EN: ""
-KO: "3페이지로<end>"
-
-## 210013
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "山越え時（ゼネテス配下）<end>"
-EN: ""
-KO: "산 넘을 때(제네테스 휘하)<end>"
-
-## 210014
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅立ちＴｕｇ<end>"
-EN: ""
-KO: "여행 출발 Tug<end>"
-
-## 210015
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅立ちＭｅｓｓｅｎｇｅｒ<end>"
-EN: ""
-KO: "여행 출발 Messenger<end>"
-
-## 210016
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅立ち刃向かうもの<end>"
-EN: ""
-KO: "여행 출발 맞서는 자<end>"
-
-## 210017
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅立ちトリゴブ<end>"
-EN: ""
-KO: "여행길 트리 고블린<end>"
-
-## 210018
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "４ページ目へ<end>"
-EN: ""
-KO: "4페이지로<end>"
-
-## 210019
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅立ちロストメモリー<end>"
-EN: ""
-KO: "여행 출발 로스트 메모리<end>"
-
-## 210020
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース陥落Ａ<end>"
-EN: ""
-KO: "아큐류스 함락 A<end>"
-
-## 210021
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース陥落Ｂ<end>"
-EN: ""
-KO: "아큐류스 함락 B<end>"
-
-## 210022
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース陥落Ｃ<end>"
-EN: ""
-KO: "아큐류스 함락 C<end>"
-
-## 210023
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース陥落Ｄ<end>"
-EN: ""
-KO: "아큐류스 함락 D<end>"
-
-## 210024
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "５ページ目へ<end>"
-EN: ""
-KO: "5페이지로<end>"
-
-## 210025
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース陥落Ｅ<end>"
-EN: ""
-KO: "아큐류스 함락 E<end>"
-
-## 210026
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース陥落Ｆ<end>"
-EN: ""
-KO: "아큐류스 함락 F<end>"
-
-## 210027
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース陥落Ｇ<end>"
-EN: ""
-KO: "아큐류스 함락 G<end>"
-
-## 210028
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラ進軍開始<end>"
-EN: ""
-KO: "카를라 진군 개시<end>"
-
-## 210029
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼネテスＶＳカルラＡ<end>"
-EN: ""
-KO: "제네테스 VS 카를라 A<end>"
-
-## 210030
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "６ページ目へ<end>"
-EN: ""
-KO: "6페이지로<end>"
-
-## 210031
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "ゼネテス奇襲<end>"
-EN: ""
-KO: "제네테스 기습<end>"
-
-## 210032
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラＶＳゼネテスＢ<end>"
-EN: ""
-KO: "카를라 VS 제네테스 B<end>"
-
-## 210033
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "カルラＶＳゼネテスＣ<end>"
-EN: ""
-KO: "카를라 VS 제네테스 C<end>"
-
-## 210034
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "ジラーク失踪<end>"
-EN: ""
-KO: "지라크 실종<end>"
-
-## 210035
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび１５<end>"
-EN: ""
-KO: "예비15<end>"
-
-## 210036
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび１６<end>"
-EN: ""
-KO: "예비16<end>"
-
-## 210037
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび１７<end>"
-EN: ""
-KO: "예비17<end>"
-
-## 210038
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび１８<end>"
-EN: ""
-KO: "예비18<end>"
-
-## 210039
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび１９<end>"
-EN: ""
-KO: "예비19<end>"
-
-## 210040
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２０<end>"
-EN: ""
-KO: "예비20<end>"
-
-## 210041
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２１<end>"
-EN: ""
-KO: "예비21<end>"
-
-## 210042
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２２<end>"
-EN: ""
-KO: "예비22<end>"
-
-## 210043
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２３<end>"
-EN: ""
-KO: "예비23<end>"
-
-## 210044
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２４<end>"
-EN: ""
-KO: "예비24<end>"
-
-## 210045
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２５<end>"
-EN: ""
-KO: "예비25<end>"
-
-## 210046
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２６<end>"
-EN: ""
-KO: "예비26<end>"
-
-## 210047
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２７<end>"
-EN: ""
-KO: "예비27<end>"
-
-## 210048
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２８<end>"
-EN: ""
-KO: "예비28<end>"
-
-## 210049
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび２９<end>"
-EN: ""
-KO: "예비29<end>"
-
-## 210050
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３０<end>"
-EN: ""
-KO: "예비30<end>"
-
-## 210051
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３１<end>"
-EN: ""
-KO: "예비31<end>"
-
-## 210052
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３２<end>"
-EN: ""
-KO: "예비32<end>"
-
-## 210053
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３３<end>"
-EN: ""
-KO: "예비33<end>"
-
-## 210054
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３４<end>"
-EN: ""
-KO: "예비34<end>"
-
-## 210055
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３５<end>"
-EN: ""
-KO: "예비35<end>"
-
-## 210056
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３６<end>"
-EN: ""
-KO: "예비36<end>"
-
-## 210057
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３７<end>"
-EN: ""
-KO: "예비37<end>"
-
-## 210058
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３８<end>"
-EN: ""
-KO: "예비38<end>"
-
-## 210059
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび３９<end>"
-EN: ""
-KO: "예비39<end>"
-
-## 210060
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "よび４０<end>"
-EN: ""
-KO: "예비40<end>"
-
-## 210061
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "　　　　　　　ディンガル帝国。<line-break>　　広大な大地、バイアシオン大陸において<line-break>　　　南のロストール王国と肩を並べる<line-break>　　　　　　　北の大国である。<line-break>　　　　その片隅にテラネの町がある。<line-break>　時折旅人が立ち寄る他は、変化のない日々と<line-break>　　　　　緑とが続く、のどかな町。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
-EN: "The Dyneskal Empire. A great northern power on the vast Vyashion Continent, it stands as an equal to the Kingdom of Rostorl in the south. In a remote corner of the empire lies the town of Terane, a peaceful place where, apart from the occasional traveler passing through, quiet days and green countryside stretch on unchanged. The story of a great soul begins here…<end>"
-KO: "딩갈 제국. 광대한 대지 바이아시온 대륙에서 남쪽의 로스톨 왕국과 어깨를 나란히 하는 북방의 대국이다. 그 한편에 테라네 마을이 있다. 가끔 여행객이 들르는 것 외에는 변화 없는 나날과 푸른 자연이 이어지는 한적한 마을. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
-
-## 210062
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "　　　　広大な大地、バイアシオン大陸。<line-break>　　　　　人と、人ならざる者とが　　　<line-break>　　　　　　それぞれの生を営み　　　　<line-break>　　　　　旅と冒険とが息づく世界。　　<line-break>　　　　　大陸の南、ノーブルの町。<line-break>　今日、この地においても、旅の商人の親子が<line-break>　　次の町を目指し、旅立とうとしていた。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
-EN: "The vast Vyashion Continent. A world where humans and nonhumans alike live out their lives, and where journeys and adventures abound. In the south of the continent lies the town of Noble. Here too, a traveling merchant and the merchant's child were preparing that day to set out for the next town. The story of a great soul begins here…<end>"
-KO: "광대한 대지 바이아시온 대륙. 인간과 인간 아닌 자들이 각자의 삶을 살아가고 여행과 모험이 숨 쉬는 세계. 대륙 남쪽, 노블 마을. 오늘 이곳에서도 여행 상인 부자가 다음 도시를 향해 떠나려 하고 있었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
-
-## 210064
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "　　　広大な大地、バイアシオン大陸の南に<line-break>　　　　ロストールという名の王国がある。<line-break>　　その王都ロストールでは、悪質な貴族が<line-break>　　　民衆をいたずら半分に苦しめていた。<line-break>　　　　そして、それと時を同じくして、<line-break>　　　古代の神々にまつわる神器をめぐり<line-break>　闇のしもべたちが動き出そうとしていた…。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
-EN: "In the south of the vast Vyashion Continent lies a kingdom called Rostorl. In its capital, also called Rostorl, malicious nobles tormented the people half for sport. At the same time, servants of darkness were beginning to stir in pursuit of sacred artifacts associated with the ancient gods… The story of a great soul begins here…<end>"
-KO: "광대한 바이아시온 대륙 남쪽에는 로스톨이라는 왕국이 있다. 그 왕도 로스톨에서는 악질 귀족이 장난 삼아 민중을 괴롭히고 있었다. 그리고 때를 같이해 고대 신들과 관련된 신기를 둘러싸고 어둠의 하수인들이 움직이기 시작하려 하고 있었다…. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
-
-## 210065
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "　　　　広大な大地、バイアシオン大陸。<line-break>　　　　　そのあまりの広大さゆえに、<line-break>　　　　地図にも記されず、旅人にさえ<line-break>　　知られることのない、小さな村がある…。<line-break>　　　　　村の名は、ミイスという。<line-break>　　そこにあるのは、小さな神殿と、森と<line-break>　　　穏やかな日常くらいのものだった。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
-EN: "The vast Vyashion Continent. So immense is it that there is a tiny village marked on no map and unknown even to travelers… Its name is Miis. There was little there beyond a small temple, a forest, and the quiet passage of everyday life. The story of a great soul begins here…<end>"
-KO: "광대한 대지 바이아시온 대륙. 너무나 넓어 지도에도 기록되지 않고 여행자에게조차 알려지지 않은 작은 마을이 있다…. 마을의 이름은 미이스. 그곳에는 작은 신전과 숲, 그리고 평온한 일상 정도뿐이었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
-
-## 210066
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "　　　　　北の大都市、エンシャント。<line-break>　　　広大な大地、バイアシオン大陸の<line-break>　北半分を支配し、南のロストールと対立する<line-break>　　　　ディンガル帝国の首都である。<line-break>　　　　その、にぎやかな街の外れに、<line-break>　　ひっそりとたたずむ、禁忌の塔がある。<line-break>　　今そこで、目覚めようとする者が居た。<line-break>　大いなる魂の物語は、ここから始まる……。<end>"
-EN: "Ancient, the great city of the north. It is the capital of the Dyneskal Empire, which rules the northern half of the vast Vyashion Continent and stands opposed to Rostorl in the south. On the outskirts of that bustling city stands a forbidden tower, silent and secluded. And now, someone within was about to awaken. The story of a great soul begins here…<end>"
-KO: "북쪽의 대도시 엔샨트. 광대한 바이아시온 대륙 북반부를 지배하며 남쪽의 로스톨과 대립하는 딩갈 제국의 수도다. 그 번화한 거리 변두리에 조용히 서 있는 금기의 탑이 있다. 지금 그곳에서 깨어나려는 자가 있었다. 위대한 혼의 이야기는 여기서 시작된다…….<end>"
-
-## 210067
-source: translations/korean/messages/msgsec021-part99.toml
-jp_matches_pinned_english: yes
-JP: "ダミーメッセージここまで<end>"
-EN: ""
-KO: "더미 메시지 여기까지<end>"
-
-## 220000
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "どうやら、この<value:$15>は、<line-break><value:$16>に潜んでいるらしい。<end>"
-EN: "Apparently, this <value:$15> is lurking in <value:$16>.<end>"
-KO: "아무래도 이 <value:$15>은 <value:$16>에 숨어 있는 모양이다.<end>"
-
-## 220001
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "モンスターによる被害が多発しているが、<line-break>エンシャント周辺でも同様の報告があった。<line-break>報告にあった<value:$15>は、人身に被害を<line-break>与え、耕作地を荒らし、放置しかねるとのこと。<line-break>よってここに討伐令を布告するものである。<line-break>期限は、<value:$1B>日以内。見事退治せし者には、<line-break><value:$1A>ギアの賞金を与える。<end>"
-EN: "Reports from Ancient say attacks by <value:$15> have injured people and ravaged farmland. This threat cannot be ignored. An official extermination order is hereby issued. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "몬스터로 인한 피해가 잇따르는 가운데 엔샨트 주변에서도 같은 보고가 들어왔다. 보고된 <value:$15>는 사람에게 피해를 주고 경작지를 황폐화시켜 방치할 수 없다고 한다. 이에 토벌령을 내린다. 기한은 <value:$1B>일 이내. 훌륭히 퇴치한 자에게는 <value:$1A>기어의 상금을 지급한다.<end>"
-
-## 220002
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "街の周辺に<value:$15>が出没するように<line-break>なりました。あまりに狂暴なので、私たちは<line-break>外出するにもおびえながら歩くありさまです。<line-break>そこで、退治してくださる強い方を募集します。<line-break>やっていただけるのなら<value:$1A>ギアを<line-break>進呈しましょう。<line-break><value:$1B>日以内にやりとげてください。<end>"
-EN: "<value:$15> has begun appearing near town. It is so vicious that we are afraid whenever we venture outside. We seek someone strong enough to defeat it. Reward: <value:$1A> Gea. Please complete the job within <value:$1B> days.<end>"
-KO: "도시 주변에 <value:$15>이 출몰하기 시작했습니다. 너무 흉폭해서 저희는 밖에 나갈 때조차 겁에 질려 걸어 다니는 형편입니다. 그래서 퇴치해 주실 강한 분을 모집합니다. 해 주신다면 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 완수해 주세요.<end>"
-
-## 220003
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "我々の研究を阻害する存在がある。<line-break><value:$15>だ。あのモンスターが我々の<line-break>集中力を奪っているのだ。退治する必要がある。<line-break><value:$15>を退治せよ。<line-break>条件として、<value:$1A>ギアの報酬、<line-break><value:$1B>日以内の期限をつける。<end>"
-EN: "Something is interfering with our research: <value:$15>. That monster is ruining our concentration and must be dealt with. Eliminate <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "우리 연구를 방해하는 존재가 있다. <value:$15>이다. 그 몬스터가 우리의 집중력을 빼앗고 있다. 퇴치할 필요가 있다. <value:$15>을 퇴치하라. 조건은 보수 <value:$1A>기어, 기한 <value:$1B>일 이내다.<end>"
-
-## 220004
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "みなさまのごひいきのおかげで、<line-break>私どもはたいへん繁盛しております。<line-break>ところが、<value:$15>が現れて、<line-break>材料を採りにくくなってしまいました。<line-break>これでは思うように商売ができません。<line-break>お願いです。<value:$1B>日以内に退治してください。<line-break>報酬は<value:$1A>ギアです。<end>"
-EN: "Thanks to your continued patronage, our business is thriving. Unfortunately, the appearance of <value:$15> has made it difficult to gather materials, and we cannot conduct business as we would like. Please defeat it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "여러분의 성원 덕분에 저희는 크게 번창하고 있습니다. 그런데 <value:$15>이 나타나 재료를 채취하기 어려워졌습니다. 이래서는 장사를 제대로 할 수 없습니다. 부탁드립니다. <value:$1B>일 이내에 퇴치해 주세요. 보수는 <value:$1A>기어입니다.<end>"
-
-## 220005
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "いつも世話になってるな。<line-break>最近、採鉱場に<value:$15>が出るように<line-break>なったんで、仕事に影響がでてきている。<line-break>こいつを倒してほしいんだ。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に退治してくれ。<end>"
-EN: "Thanks for all your help. Lately, <value:$15> has been showing up at the mine and interfering with our work. I want you to take it down. Reward: <value:$1A> Gea. Finish it within <value:$1B> days.<end>"
-KO: "늘 신세지고 있어. 요즘 채굴장에 <value:$15>가 나타나서 일에 지장이 생겼어. 이 녀석을 쓰러뜨려 줘. 사례는 <value:$1A>기어. <value:$1B>일 이내에 퇴치해 줘.<end>"
-
-## 220006
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の影響を受けて、<value:$15>が凶暴化<line-break>しているようです。このまま放っておいては、<line-break>危険が増すばかりです。<value:$1B>日以内に退治し、<line-break>危険を取りのぞいてください。<line-break><value:$1A>ギアを寸志として進呈しましょう。<line-break>勇敢なる冒険者の魂に、<line-break>神のご加護のあらんことを。<end>"
-EN: "Darkness has driven <value:$15> into a frenzy. The danger will only grow if ignored. Defeat the threat within <value:$1B> days. We offer <value:$1A> Gea as a modest token. May divine protection be upon every brave adventurer.<end>"
-KO: "어둠의 영향을 받아 <value:$15>이 흉폭해진 것 같습니다. 이대로 내버려 두면 위험만 커질 뿐입니다. <value:$1B>일 이내에 퇴치해 위험을 없애 주세요. 사례로 <value:$1A>기어를 드리겠습니다. 용감한 모험가의 영혼에 신의 가호가 있기를.<end>"
-
-## 220007
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "我が宿には巡礼の方が大勢いらっしゃいます。<line-break>その巡礼者の方が、道中モンスターに<line-break>襲われることが多いとか。我々としては<line-break>憂慮すべき事態と言えます。<line-break>道中に出る<value:$15>を<line-break>退治してください。お礼は<value:$1A>ギア。<line-break>期限は<value:$1B>日以内です。<end>"
-EN: "Many pilgrims stay at our inn, and we hear that pilgrims are often attacked by monsters on the road. This is a matter of grave concern to us. Please defeat <value:$15>, which appears along the route. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "우리 숙소에는 순례자분들이 많이 묵습니다. 그런데 그분들이 길에서 몬스터에게 습격당하는 일이 많다고 합니다. 저희로서도 걱정스러운 일이지요. 길에 나타나는 <value:$15>을 퇴치해 주세요. 사례는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 220008
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "最近、仲間内で声の不調を訴える者が<line-break>多くおります。彼らはのどを傷めています。<line-break>原因を探ると、<value:$15>が悪い空気を<line-break>流しているからだと判明しました。<line-break>モンスターの退治をお願いします。<line-break><value:$1A>ギアのお礼をいたします。<line-break><value:$1B>日以内でお願いします。<end>"
-EN: "Many among our company have recently complained of voice trouble and sore throats. We investigated and discovered that <value:$15> is fouling the air. Please defeat the monster. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "최근 동료들 중 목 상태가 좋지 않다고 호소하는 이가 많습니다. 목을 다친 것이지요. 원인을 알아보니 <value:$15>이 나쁜 공기를 퍼뜨리기 때문이었습니다. 몬스터 퇴치를 부탁드립니다. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내로 부탁합니다.<end>"
-
-## 220009
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "私たちの奥方連中はよく連れ立って<line-break>街の外まで遊びに行くのだ。<line-break>だが、ここのところ<value:$15>が出るので<line-break>危なくて遊びに行けないと言っておる。<line-break><value:$15>を退治してくれ。<line-break>褒美は<value:$1A>ギアである。<line-break><value:$1B>日以内に退治してほしい。<end>"
-EN: "Our wives often go out together beyond town for leisure. Lately, however, they say it is too dangerous because <value:$15> has been appearing. Eliminate <value:$15>. Reward: <value:$1A> Gea. Complete the hunt within <value:$1B> days.<end>"
-KO: "우리 아내들은 자주 함께 거리 밖까지 놀러 간다. 하지만 요즘 <value:$15>이 나타나 위험해서 나갈 수 없다고 하는군. <value:$15>을 퇴치해 줘. 포상은 <value:$1A>기어다. <value:$1B>일 이내에 처리해 주게.<end>"
-
-## 220010
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が街の周辺に出没するように<line-break>なりました。たいへん凶暴で、人を見ると<line-break>襲ってきます。私たちにはどうしようも<line-break>ありません。強い冒険者の方にお願いします。<line-break>あいつを倒してください。<line-break><value:$1A>ギアご用意しました。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "<value:$15> has begun appearing around town. It is extremely vicious and attacks anyone it sees. We are powerless against it, so we appeal to a strong adventurer: please defeat it. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "<value:$15>이 도시 주변에 출몰하기 시작했습니다. 매우 흉폭해서 사람을 보면 덤벼듭니다. 저희 힘으로는 어찌할 수 없습니다. 강한 모험가분께 부탁드립니다. 저놈을 쓰러뜨려 주세요. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 220011
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "このごろ村の近くに<value:$15>がよく出て<line-break>くるんで、わしら困っとるんじゃ。こないだも<line-break>村の者が危うくケガをするところじゃった。<line-break>あんたがたにお願いするよ。<line-break>みんなで金を出しあって<line-break><value:$1A>ギア用意したんじゃ。<line-break><value:$1B>日以内に化け物を倒してくれんか。<end>"
-EN: "<value:$15> has been showing up near our village, and we don't know what to do. Just the other day, one of the villagers was nearly hurt. We're asking for your help. Everyone pooled money to offer <value:$1A> Gea. Could you defeat the monster within <value:$1B> days?<end>"
-KO: "요즘 마을 근처에 <value:$15>이 자주 나타나서 우리가 곤란하네. 얼마 전에도 마을 사람이 다칠 뻔했지. 자네들에게 부탁하네. 다 같이 돈을 모아 <value:$1A>기어를 마련했어. <value:$1B>일 이내에 괴물을 쓰러뜨려 주겠나.<end>"
-
-## 220012
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度お世話になっております。<line-break><value:$15>が現れるようになって、<line-break>他の街から仕入れをするのが<line-break>非常に難しくなっています。<line-break>どうかあいつを退治していただけませんか。<line-break>当方としては<value:$1A>ギア用意できます。<line-break><value:$1B>日以内で、ぜひお願いいたします。<end>"
-EN: "Thank you for your continued support. Since <value:$15> began appearing, obtaining goods from other towns has become extremely difficult. Would you kindly eliminate it? We can offer <value:$1A> Gea. Please complete the job within <value:$1B> days.<end>"
-KO: "늘 신세지고 있습니다. <value:$15>이 나타나기 시작하면서 다른 도시에서 물건을 들여오는 일이 매우 어려워졌습니다. 부디 저 녀석을 퇴치해 주시겠습니까. 저희는 <value:$1A>기어를 준비할 수 있습니다. <value:$1B>일 이내로 꼭 부탁드립니다.<end>"
-
-## 220013
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "お前さんたちには格好の仕事だ。<line-break>頼みたいのは<value:$15>の退治だ。<line-break><value:$1A>ギア用意したから、<line-break><value:$1B>日以内で頼むぜ。<line-break>俺たちが材料集めしてるとこいつが襲ってきやが<line-break>るんだ。おかげで商売あがったりさ。お前さんた<line-break>ちが倒してくれりゃまたいい仕事ができるぜ。<end>"
-EN: "Here's a perfect job for you: eliminate <value:$15>. I've got <value:$1A> Gea for you if you finish within <value:$1B> days. The blasted thing attacks us whenever we're out gathering materials. It's ruining our business. Take it down, and we can get back to doing good work.<end>"
-KO: "너희한테 딱 맞는 일이야. 부탁할 건 <value:$15> 퇴치다. <value:$1A>기어를 준비했으니 <value:$1B>일 이내로 부탁해. 우리가 재료를 모으고 있으면 이놈이 덤벼들어서 장사를 망치고 있거든. 너희가 쓰러뜨려 주면 다시 제대로 일할 수 있어.<end>"
-
-## 220014
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "最近、<value:$15>が出てましてね。<line-break>うちのお客さんが酔っ払ってうろついてて、<line-break>えらい目にあったらしいんですよ。<line-break>そのお客さん、あいつがいなくならないと落ち着<line-break>いて酒も飲めないって、ぐちってまして…。<line-break><value:$1A>ギア出しますから、<line-break><value:$1B>日以内にあいつを退治してください。<end>"
-EN: "There have been sightings of <value:$15> nearby. A drunken customer had a terrible encounter and now cannot relax over a drink until the threat is gone... I'll pay <value:$1A> Gea if you defeat it within <value:$1B> days.<end>"
-KO: "요즘 <value:$15>이 나타나서 말이죠. 우리 손님이 술에 취해 돌아다니다가 큰일을 당했다더군요. 그 손님이 저놈이 없어지지 않으면 마음 놓고 술도 못 마시겠다며 투덜대고 있어서…. <value:$1A>기어를 드릴 테니 <value:$1B>일 이내에 저놈을 퇴치해 주세요.<end>"
-
-## 220015
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "一般の旅行者にとっては、<line-break>旅は安全でなければなりません。しかし、<line-break>このところ<value:$15>が旅行者を襲うよう<line-break>になりました。私どもといたしましてはこれは<line-break>放置できません。冒険者の方々にお願いします。<line-break>退治してください。<value:$1A>ギアの報酬で、<line-break><value:$1B>日以内の期限です。<end>"
-EN: "Travel must be safe for ordinary travelers. Recently, however, <value:$15> has begun attacking people on the road. We cannot let this continue. Adventurers, please eliminate the threat. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "일반 여행객에게 여행은 안전해야 합니다. 하지만 요즘 <value:$15>이 여행객을 습격하기 시작했습니다. 저희로서는 이를 방치할 수 없습니다. 모험가 여러분께 부탁드립니다. 퇴치해 주세요. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 220016
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "この街では冒険者はそれほどたたえられて<line-break>いません。冒険者の活躍が知られていない<line-break>からです。<line-break>町の近くの<value:$15>を倒してください。<line-break><value:$1A>ギアさしあげます。<line-break><value:$1B>日以内にお願いします。<line-break>あなた方の活躍を、私が歌にして広めましょう。<end>"
-EN: "Adventurers receive little acclaim in this town because their exploits are not widely known. Defeat <value:$15> near town within <value:$1B> days, and I will pay <value:$1A> Gea. I shall spread word of your deeds in song.<end>"
-KO: "이 도시에서는 모험자가 그다지 칭송받지 못합니다. 모험자의 활약이 알려져 있지 않기 때문이지요. 도시 근처의 <value:$15>을 쓰러뜨려 주세요. <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드립니다. 여러분의 활약은 제가 노래로 만들어 널리 알리겠습니다.<end>"
-
-## 220017
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "他の街からの訪問者を迎えるのは、うれしい<line-break>ことだ。私はよく館に客を招待する。ところが<line-break>ひとつ問題がある。道中に<value:$15>が<line-break>現れるらしいのだ。<line-break>そなたらに頼みたい。モンスターを排除して<line-break>くれんか。褒美として<value:$1A>ギアとらそう。<line-break><value:$1B>日以内に頼むぞ。<end>"
-EN: "I often welcome visitors from other towns to my manor, but there have been sightings of <value:$15> along the route. Remove this threat and I shall grant you <value:$1A> Gea. Complete the task within <value:$1B> days.<end>"
-KO: "다른 도시에서 찾아오는 손님을 맞는 건 기쁜 일이다. 나는 자주 저택에 손님을 초대하지. 그런데 한 가지 문제가 있다. 길에 <value:$15>이 나타난다는군. 그대들에게 부탁하고 싶다. 몬스터를 제거해 주지 않겠는가. 포상으로 <value:$1A>기어를 내리겠다. <value:$1B>일 이내에 부탁한다.<end>"
-
-## 220018
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が出没しています。<line-break>今のところ被害にあった人はいません。<line-break>しかし、このままでは遠からず傷つけられる人が<line-break>でてくるでしょう。<line-break>そうなる前にモンスターを成敗してください。<line-break><value:$1A>ギアを用立てました。<line-break><value:$1B>日以内に終わらせてください。<end>"
-EN: "<value:$15> has been sighted. No one has been harmed yet, but it will not be long before someone is injured if nothing is done. Defeat the monster before that happens. We have secured a reward of <value:$1A> Gea. Finish the job within <value:$1B> days.<end>"
-KO: "<value:$15>이 출몰하고 있습니다. 아직 피해를 입은 사람은 없습니다. 하지만 이대로라면 머지않아 다치는 사람이 생길 것입니다. 그러기 전에 몬스터를 처치해 주세요. <value:$1A>기어를 마련했습니다. <value:$1B>일 이내에 끝내 주세요.<end>"
-
-## 220019
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "おいらたちの畑を荒らす奴がいる。<line-break><value:$15>っていうんだ。<line-break>とてもおっかねえ奴で、おいらたちには<line-break>どうしようもないんだ。<line-break>あのモンスターを倒してくれ。<line-break>少ないけど、<value:$1A>ギア用意したぜ。<line-break><value:$1B>日以内に退治するように頼むよ。<end>"
-EN: "Something is tearing up our fields. It's called <value:$15>, and it's far too frightening for us to handle. Please defeat that monster. It isn't much, but we've put together <value:$1A> Gea. We need it done within <value:$1B> days.<end>"
-KO: "우리 밭을 망치는 녀석이 있어. <value:$15>이라는 놈인데 정말 무서운 녀석이라 우리 힘으로는 어쩔 수가 없어. 그 몬스터를 쓰러뜨려 줘. 적지만 <value:$1A>기어를 준비했어. <value:$1B>일 이내에 퇴치해 줘.<end>"
-
-## 220020
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃暴れてる<value:$15>のおかげで、<line-break>材料の仕入れに苦労しています。<line-break><value:$15>退治を依頼します。<line-break><value:$1A>ギア出します。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "The recent rampages of <value:$15> are making it difficult to procure materials. We request the elimination of <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "요즘 날뛰는 <value:$15> 때문에, 재료를 들여오는 데 애를 먹고 있습니다.<value:$15> 퇴치를 의뢰합니다.<value:$1A> 기어를 드리겠습니다.<value:$1B>일 이내로 부탁합니다.<end>"
-
-## 220021
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "頼みたいのは<value:$15>の退治。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内。<line-break>モンスターのせいで仕事に支障が出てるんでな。<line-break>腕の立つ冒険者に任せる。<line-break>よろしく頼むぞ。<end>"
-EN: "Job: eliminate <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days. The monster is disrupting our work, so I'm leaving this to a capable adventurer. I'm counting on you.<end>"
-KO: "부탁할 건 <value:$15> 퇴치다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내. 몬스터 때문에 일에 지장이 생겨서 말이야. 실력 있는 모험가에게 맡기지. 부탁한다.<end>"
-
-## 220022
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "たいていの酒場では、客寄せのために吟遊詩人に<line-break>来てもらってるよ。<line-break>異国の珍しい歌や曲にお客さんは大喜びさ。<line-break>でもね、最近<value:$15>が出るもんで、<line-break>街に寄ってくれないことがあるんだ。<line-break>これじゃ困るんで、追い払ってほしいんだ。<line-break>お礼は<value:$1A>ギア。<value:$1B>日以内に頼むよ。<end>"
-EN: "Taverns hire bards to draw crowds with songs from foreign lands. Lately, the presence of <value:$15> has kept some from visiting town. Please drive the threat away. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "대부분의 술집은 손님을 끌려고 음유시인을 부르지. 이국의 진귀한 노래와 연주에 손님들이 아주 좋아해. 그런데 요즘 <value:$15>이 나타나는 바람에 도시로 들르지 않는 경우가 있어. 이래선 곤란하니 쫓아내 줬으면 해. 사례는 <value:$1A>기어. <value:$1B>일 이내에 부탁해.<end>"
-
-## 220023
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度ご利用ありがとうございます。今回みなさま<line-break>にお願いしたいのは、旅行者の道中の安全確保で<line-break>す。旅行者の方は、みなさまのようにお強い方ば<line-break>かりではありません。危険は、あらかじめ取りの<line-break>ぞいておきたいのです。退治して欲しいのは、<line-break><value:$15>です。お礼は<value:$1A>ギア<line-break>です。<value:$1B>日以内にお願いします。<end>"
-EN: "Thank you for your continued patronage. This request concerns the safety of travelers on the road. Not every traveler is as strong as you, so we wish to remove known dangers in advance. Please eliminate <value:$15> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "늘 이용해 주셔서 감사합니다. 이번에 부탁드릴 일은 여행자들의 길 안전을 확보하는 것입니다. 여행자들이 모두 여러분처럼 강한 것은 아니니까요. 위험은 미리 제거하고 싶습니다. 퇴치 대상은 <value:$15>입니다. 사례는 <value:$1A>기어이며 <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 220024
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "このごろ私たちの歌声が通りにくくなりました。<line-break>空気に邪気が含まれてきたせいです。<line-break>原因は、少し前から現れるようになった<line-break><value:$15>です。<line-break>この者の退治を依頼します。<line-break>謝礼として用意できるのは<value:$1A>ギアです。<line-break>期限は<value:$1B>日以内でお願いします。<end>"
-EN: "Our voices have not been carrying well of late because a malign presence has tainted the air. The cause is <value:$15>, which began appearing some time ago. We request its elimination. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "요즘 저희 노랫소리가 잘 퍼지지 않게 됐습니다. 공기에 사기가 섞이기 시작한 탓입니다. 원인은 얼마 전부터 나타난 <value:$15>입니다. 이 자의 퇴치를 의뢰합니다. 사례로 마련할 수 있는 것은 <value:$1A>기어입니다. 기한은 <value:$1B>일 이내로 부탁드립니다.<end>"
-
-## 220025
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "人や物の移動が自由であるのは商売にとって大切<line-break>です。しかしこのごろ現れる<value:$15>が<line-break>通行の邪魔をするので、商売に悪い影響が出て<line-break>います。勇敢なる冒険者の方々に、倒して<line-break>いただきたいのです。<line-break><value:$1A>ギアを用意しました。<line-break><value:$1B>日以内の解決を望みます。<end>"
-EN: "The free movement of people and goods is vital to commerce. Recently, <value:$15> has been obstructing travel and harming our business. We ask brave adventurers to defeat it. Reward: <value:$1A> Gea. We seek a resolution within <value:$1B> days.<end>"
-KO: "사람과 물자의 이동이 자유로운 것은 장사에 중요합니다. 하지만 요즘 나타나는 <value:$15>이 통행을 방해해 상업에 악영향을 주고 있습니다. 용감한 모험가 여러분께서 쓰러뜨려 주셨으면 합니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 해결해 주시기 바랍니다.<end>"
-
-## 220026
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃、村の近くに<value:$15>が出るのよ。<line-break>私たちは恐くて夜も眠れないわ。<line-break><value:$15>を倒して、<line-break>村の近くから追い払って。<line-break>多くないけど<value:$1A>ギアなら用意できるわ。<line-break><value:$1B>日以内にお願いね。<end>"
-EN: "<value:$15> has been appearing near the village lately. We're so frightened that we can't even sleep at night. Defeat <value:$15> and drive it away from the village. We don't have much, but we can offer <value:$1A> Gea. Please do it within <value:$1B> days.<end>"
-KO: "요즘 마을 근처에 <value:$15>가 나타나. 무서워서 밤에도 잠을 못 자겠어. <value:$15>를 쓰러뜨려 마을 근처에서 쫓아내 줘. 많진 않지만 <value:$1A>기어라면 준비할 수 있어. <value:$1B>일 이내에 부탁해.<end>"
-
-## 220027
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の方々に依頼したいことがございます。<line-break><value:$15>の退治です。<line-break>お礼は<value:$1A>ギア、<line-break>期間は<value:$1B>日以内でどうでしょうか。<line-break>街の外に出ると<value:$15>が襲ってくる<line-break>ので、思うように仕事がはかどらないのです。<end>"
-EN: "We have a request for adventurers: eliminate <value:$15>. We offer <value:$1A> Gea, with a deadline of <value:$1B> days. Whenever we leave town, <value:$15> attacks us, making it impossible to get our work done.<end>"
-KO: "모험자 여러분께 부탁드릴 일이 있습니다. <value:$15> 퇴치입니다. 사례는 <value:$1A>기어, 기간은 <value:$1B>일 이내면 어떨까요. 마을 밖에 나가면 <value:$15>이 습격해 와서 일이 뜻대로 진척되지 않습니다.<end>"
-
-## 220028
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "闘技場で戦う戦士にゃ武器は重要だからな。<line-break>俺たちもはりきって仕事をしてるんだ。<line-break>けどよ、材料をとりに街の外に出ると<line-break><value:$15>が邪魔しやがる。<line-break>こいつを倒してくれないか。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内が期限だぜ。<end>"
-EN: "Weapons are essential to the warriors who fight in the arena, so we put our hearts into our work. But whenever we leave town to gather materials, <value:$15> gets in our way. Will you take it down? Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "투기장에서 싸우는 전사에겐 무기가 중요하니까 우리도 힘내서 일하고 있어. 그런데 재료를 구하러 마을 밖에 나가면 <value:$15>이 방해해. 이놈 좀 쓰러뜨려 줘. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내야.<end>"
-
-## 220029
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "闘技場の戦士さんたちのいこいの場だからね。<line-break>とびっきりうまい酒を用意してるよ。うちらは<line-break>遠くまで出かけていい水を運んでくるんだよ。<line-break>最近そこに<value:$15>が現れてさ。<line-break>なかなか水を取りに行けなくなったんだ。<line-break><value:$1A>ギアを払うから、<line-break><value:$1B>日以内にあいつを退治しておくれよ。<end>"
-EN: "Arena warriors come here to unwind, so we serve the finest liquor. We fetch its water from far away, but the presence of <value:$15> now keeps us from collecting it. Defeat the threat within <value:$1B> days for <value:$1A> Gea.<end>"
-KO: "투기장 전사들의 휴식처니까 말이야. 끝내주게 맛있는 술을 준비하고 있어. 우리는 멀리까지 나가 좋은 물을 길어 오는데, 최근 거기에 <value:$15>이 나타났어. 물을 가지러 가기 어려워졌지. <value:$1A>기어를 줄 테니 <value:$1B>일 이내에 저놈을 퇴치해 줘.<end>"
-
-## 220030
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "全世界に広がるフゴー宿屋の本店ですから、誇り<line-break>を持ってみなさまをお迎えします。と言いたいの<line-break>ですが、最近街の近くに<value:$15>が出て<line-break>旅行者の方に危害を加えます。<line-break>これではどうぞお越しくださいとは申せません。<line-break><value:$1A>ギアであなた方に退治を依頼します。<line-break><value:$1B>日以内によろしくお願いします。<end>"
-EN: "As the worldwide main branch of Hugo Inn, we take pride in welcoming guests. But attacks by <value:$15> endanger travelers near town, so we can hardly invite anyone to visit. Eliminate the threat within <value:$1B> days for <value:$1A> Gea.<end>"
-KO: "전 세계에 퍼진 휴고 여관의 본점인 만큼 자부심을 가지고 여러분을 맞이하고 싶습니다. 하지만 최근 도시 근처에 <value:$15>가 나타나 여행객들을 해치고 있습니다. 이래서는 편히 찾아와 달라고 말씀드릴 수가 없군요. <value:$1A>기어에 퇴치를 의뢰합니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 220031
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "街の近くに住みついている<value:$15>を<line-break>退治してほしい。<line-break>報酬は<value:$1A>ギア。<line-break><value:$1B>日以内に排除してほしい。<end>"
-EN: "Eliminate <value:$15>, which has settled near town. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "마을 근처에 눌러앉은 <value:$15>을 퇴치해 주길 바란다. 보수는 <value:$1A>기어. <value:$1B>일 안에 제거해 줘.<end>"
-
-## 220032
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "英雄の歌を作るのを競い合っています。<line-break>現在は題材を探している所です。<line-break>どなたかモンスター退治を<line-break>してくださいませんか。<line-break>最近話題の<value:$15>を倒してください。<line-break><value:$1A>ギアお支払いします。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "We are competing to compose songs about heroes and are currently searching for subjects. Would someone undertake a monster hunt? Defeat the much-discussed <value:$15> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "영웅의 노래 만들기를 겨루고 있습니다. 지금은 소재를 찾는 중입니다. 누군가 몬스터를 퇴치해 주시겠습니까? 요즘 화제인 <value:$15>을 쓰러뜨려 주세요. <value:$1A>기어를 드리겠습니다. <value:$1B>일 안에 부탁합니다.<end>"
-
-## 220033
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "　　　　　　　告<line-break>狂暴なモンスターが人民を傷つけている。<line-break>市井の勇者よ、モンスターに正義の鉄槌を<line-break>下してくれたまえ。<line-break>対象：<value:$15><line-break>期間：<value:$1B>日以内<line-break>報酬：<value:$1A>ギア<end>"
-EN: "NOTICE: A vicious monster is harming the people. Heroes from among the citizenry, bring down the hammer of justice upon it. Target: <value:$15>. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "고시. 흉포한 몬스터가 백성을 해치고 있다. 시정의 용사여, 몬스터에게 정의의 철퇴를 내려 주게. 대상: <value:$15> 기간: <value:$1B>일 이내 보수: <value:$1A>기어<end>"
-
-## 220034
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "子供たちは街の外が好きでしてね。<line-break>しょっちゅう飛び回ってるんですよ。<line-break>でも最近、街の外には<line-break><value:$15>が出るんですよ。<line-break>いつモンスターが子供たちを襲うか心配です。<line-break><value:$1A>ギアさしあげますから、<line-break><value:$1B>日以内にあいつを倒してください。<end>"
-EN: "The children love being outside town and are always running about. But <value:$15> has been appearing there lately, and we fear it may attack them. We offer <value:$1A> Gea to defeat it within <value:$1B> days.<end>"
-KO: "아이들은 도시 밖을 좋아해서 늘 뛰어다니거든요. 그런데 요즘 도시 밖에 <value:$15>이 나타납니다. 언제 몬스터가 아이들을 덮칠지 걱정이에요. <value:$1A>기어를 드릴 테니 <value:$1B>일 이내에 그놈을 쓰러뜨려 주세요.<end>"
-
-## 220035
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "夜中のうちに畑が荒らされていることが<line-break>ありまして、夜に見張っていたら、<line-break>これが<value:$15>の仕業でして…。<line-break>この悪者を退治してほしいんです。<line-break><value:$1A>ギアをお礼にさしあげます。<line-break><value:$1B>日以内に頼みますよ。<end>"
-EN: "Our fields have sometimes been ravaged during the night. When we kept watch, we discovered that <value:$15> was responsible... Please eliminate this menace. Reward: <value:$1A> Gea. We need it done within <value:$1B> days.<end>"
-KO: "밤사이 밭이 망가지는 일이 있어서 밤에 지켜봤더니 <value:$15>의 짓이더군요…. 이 악당을 퇴치해 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드려요.<end>"
-
-## 220036
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃、<value:$15>が出ます。<line-break>たいへん物騒なモンスターなので、<line-break>アイテムの材料を集めに行けません。<line-break>どなたか、モンスター退治を<line-break>していただけませんか。<line-break><value:$1A>ギアを支払いましょう。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "<value:$15> has been appearing lately. It is such a dangerous monster that we cannot go out to gather materials for items. Would someone please eliminate it? Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "요즘 <value:$15>이 나타납니다. 아주 위험한 몬스터라서 아이템 재료를 모으러 갈 수가 없습니다. 누군가 몬스터를 퇴치해 주시겠습니까? <value:$1A>기어를 지급하겠습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 220037
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "求む！　強者！<line-break>恐ろしい<value:$15>の出現で、<line-break>鉱石を取りに行けなくて困ってる。<line-break>誰か腕に覚えのある冒険者がいたらよ、<line-break><value:$15>をやっつけてくれ。<line-break>報酬は、<value:$1A>ギアだ。悪くねぇだろ？<line-break><value:$1B>日以内で頼むぜ。<end>"
-EN: "WANTED: SOMEONE STRONG! The terrifying <value:$15> is keeping us from gathering ore. If you've got the skill, take down <value:$15>. Reward: <value:$1A> Gea. Not bad, eh? Finish within <value:$1B> days.<end>"
-KO: "강자 모집! 무서운 <value:$15>이 나타나 광석을 캐러 갈 수 없어 곤란하다. 실력 있는 모험자가 있다면 <value:$15>을 쓰러뜨려 줘. 보수는 <value:$1A>기어다. 나쁘지 않지? <value:$1B>일 이내로 부탁한다.<end>"
-
-## 220038
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃この街もにぎやかになったね。それはいいこ<line-break>となんだけど、人が増えたら、それを狙うモンス<line-break>ターも増えちゃってさ。うちのお得意さんで襲わ<line-break>れる人も出てきてるのさ。<value:$1B>日以内で、<line-break><value:$15>を倒してくれないかね。<line-break><value:$1A>ギア出すよ。お得意さんには、<line-break>安心して酒を飲みに来てほしいからね。<end>"
-EN: "The town has gotten livelier lately, which is good, but more people have attracted more monsters. Some of our regulars have already been attacked. Could you defeat <value:$15> within <value:$1B> days? I'll pay <value:$1A> Gea. I want our customers to feel safe coming in for a drink.<end>"
-KO: "요즘 이 도시도 꽤 활기차졌지. 좋은 일이긴 한데, 사람이 늘어나니 그걸 노리는 몬스터도 늘었어. 우리 단골 중에도 습격당하는 사람이 생기고 있고. <value:$1B>일 이내에 <value:$15>를 쓰러뜨려 주지 않겠어? <value:$1A>기어 줄게. 단골들이 안심하고 술 마시러 왔으면 하거든.<end>"
-
-## 220039
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "フゴー宿屋では、お泊まりいただく方々に、<line-break>安全な旅をお楽しみいただけるよう<line-break>努力いたしております。<line-break>ところが、街の近くを<value:$15>が<line-break>うろついており、とても危険なのです。<line-break>そこで、これを倒していただきたい。<line-break><value:$1A>ギア、<value:$1B>日以内でお願いします。<end>"
-EN: "Hugo Inn strives to ensure that every guest enjoys a safe journey. Unfortunately, <value:$15> has been prowling near town, creating a serious danger. Please defeat it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "휴고 숙박점에서는 투숙객 여러분이 안전한 여행을 즐기실 수 있도록 노력하고 있습니다. 그런데 도시 근처를 <value:$15>이 돌아다녀 매우 위험합니다. 그래서 이를 쓰러뜨려 주셨으면 합니다. <value:$1A>기어, <value:$1B>일 이내로 부탁드립니다.<end>"
-
-## 220040
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "勇敢な戦士の歌を創り上げたいと思います。<line-break>我こそは最強の戦士と自負される方に<line-break>お願いします。<line-break><value:$15>を成敗し、<line-break>その勝利の軌跡を歌にさせてください。<line-break>お礼は<value:$1A>ギアです。<line-break>日限を<value:$1B>日以内と決めさせていただきます。<end>"
-EN: "I wish to compose a song about a brave warrior. This request is for the mightiest warrior among you: defeat <value:$15>, and let me set the story of your victory to song. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "용감한 전사의 노래를 만들고 싶습니다. 자신이야말로 최강의 전사라 자부하는 분께 부탁드립니다. <value:$15>을 쓰러뜨리고 그 승리의 궤적을 노래하게 해 주세요. 사례는 <value:$1A>기어입니다. 기한은 <value:$1B>일 이내로 하겠습니다.<end>"
-
-## 220041
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦士たちよ、<value:$15>を征伐し、<line-break>再びこの地に安寧をもたらしたまえ。<line-break>期限は<value:$1B>日以内。<line-break>報酬は<value:$1A>ギアである。<end>"
-EN: "Warriors, vanquish <value:$15> and restore peace to this land. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "전사들이여, <value:$15>을 토벌하여 다시 이 땅에 평안을 가져오라. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다.<end>"
-
-## 220042
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が出没しています。<line-break>何が目的なのかわかりません。<line-break>それだけに私たちは恐くて恐くて…。<line-break>みなで集めた<value:$1A>ギアで、<line-break><value:$1B>日以内に退治をお願いできますか。<end>"
-EN: "<value:$15> has been sighted. We have no idea what it wants, which makes it all the more terrifying... Could you eliminate it within <value:$1B> days? Everyone contributed to a reward of <value:$1A> Gea.<end>"
-KO: "<value:$15>이 출몰하고 있습니다. 목적을 몰라 더 무섭습니다…. 모두 모은 <value:$1A>기어로 부탁드립니다. <value:$1B>일 안에 퇴치해 주시겠습니까?<end>"
-
-## 220043
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "私らの畑を荒らす奴がいて困っています。<line-break><value:$15>というモンスターなのですが、<line-break>私らの力では追い返すことができません。<line-break>冒険者の方々に退治をお願いします。<line-break><value:$1A>ギア用意しました。<line-break><value:$1B>日以内にやっつけてしまってください。<end>"
-EN: "A monster called <value:$15> is ravaging our fields, and we cannot drive it away ourselves. Adventurers, please eliminate it within <value:$1B> days. We have prepared a reward of <value:$1A> Gea.<end>"
-KO: "우리 밭을 망치는 녀석이 있어서 곤란합니다. <value:$15>이라는 몬스터인데 우리 힘으로는 쫓아낼 수가 없습니다. 모험가 여러분께 퇴치를 부탁드립니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 해치워 주세요.<end>"
-
-## 220044
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "道具の材料は街の中だけではそろわないことが<line-break>多く、どうしても様々な場所に出なければなり<line-break>ません。<line-break>しかし、近頃、<value:$15>が現れて<line-break>危険なのです。<value:$1A>ギアの報酬で<line-break>あいつを倒していただきたいのですが、<line-break><value:$1B>日以内でお願いできませんか？<end>"
-EN: "The materials needed to make tools often cannot all be found in town, so we must travel to many different places. Recently, however, <value:$15> has appeared and made those journeys dangerous. Would you defeat it within <value:$1B> days for <value:$1A> Gea?<end>"
-KO: "도구 재료는 도시 안에서만 모두 구할 수 없는 경우가 많아 여러 곳으로 나가야 합니다. 그런데 요즘 <value:$15>이 나타나 위험합니다. <value:$1A>기어의 보수로 저 녀석을 쓰러뜨려 주셨으면 하는데 <value:$1B>일 이내에 부탁드려도 될까요?<end>"
-
-## 220045
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "武器の材料集めを邪魔する奴がおる。<line-break><value:$15>じゃ。<line-break>こいつを倒してほしい。<line-break><value:$1A>ギア出せるでの。<line-break><value:$1B>日以内に頼むぞ。<end>"
-EN: "Something is interfering with our efforts to gather weapon materials: <value:$15>. I want it taken down. I can offer <value:$1A> Gea. Finish the job within <value:$1B> days.<end>"
-KO: "무기 재료를 모으는 걸 방해하는 놈이 있다. <value:$15>다. 이놈을 쓰러뜨려 줘. <value:$1A>기어를 내지. <value:$1B>일 안에 부탁한다.<end>"
-
-## 220046
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "モンスターがよく出てね。<line-break>酔っ払った客が、何人も被害にあってるんだ。<line-break>危ないから酔っ払えないなんてことになったら<line-break>商売あがったりだよ。<line-break><value:$15>をやっつけてくれないかね。<line-break><value:$1B>日以内にやってくれるかな。<line-break>報酬は<value:$1A>ギア出すよ。<end>"
-EN: "Monsters have been showing up often, and several drunken customers have already fallen victim. If people can't get drunk because it isn't safe, we'll be out of business! Could you take down <value:$15> within <value:$1B> days? I'll pay <value:$1A> Gea.<end>"
-KO: "몬스터가 자주 나타나서 술 취한 손님들이 여럿 피해를 입었어. 위험해서 술도 마음 놓고 못 마신다면 장사가 되겠어? <value:$15>을 해치워 주지 않겠나? <value:$1B>일 이내로 부탁해. 보수는 <value:$1A>기어를 줄게.<end>"
-
-## 220047
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅の道中に危険が存在するようです。<line-break>先日お客様が<value:$15>に出会われたとの<line-break>ことです。安全な旅を提供するのが私どもの役目<line-break>ですから、対策を立てねばなりません。<line-break>彼らを倒して危険を取り除いてください。<line-break>報酬は<value:$1A>ギア、<line-break>期間は<value:$1B>日以内です。<end>"
-EN: "There appears to be danger along the road. A guest reportedly encountered <value:$15> the other day. Providing safe journeys is our duty, so we must act. Defeat the monsters and remove the threat. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "여행길에 위험이 있는 모양입니다. 얼마 전 손님 한 분이 <value:$15>과 마주쳤다고 합니다. 안전한 여행을 제공하는 것이 저희 역할이니 대책을 세워야 합니다. 그들을 쓰러뜨려 위험을 없애 주세요. 보수는 <value:$1A>기어, 기간은 <value:$1B>일 이내입니다.<end>"
-
-## 220048
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "私たち吟遊詩人は、新たな英雄の歌を作ることが<line-break>喜びです。常に新たな題材を求めているのです。<line-break>近頃、街を騒がしている<value:$15>の退治<line-break>は、歌には絶好の題材です。<line-break>我こそはと思われる冒険者の方、退治をお願いし<line-break>ます。お礼に<value:$1A>ギアお支払いできます。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "We bards delight in composing heroic songs and always seek fresh material. Defeating <value:$15>, now troubling the town, would make a splendid subject. Prove your courage within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "우리 음유시인에게 새로운 영웅의 노래를 만드는 것은 기쁨입니다. 늘 새로운 소재를 찾고 있지요. 요즘 도시를 떠들썩하게 하는 <value:$15> 퇴치는 노래에 딱 좋은 소재입니다. 자신 있는 모험가라면 퇴치를 부탁드립니다. 사례로 <value:$1A>기어를 드릴 수 있습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 220049
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>がうごめいています。<line-break>この邪気を感じさせるモンスターは、<line-break>放置すれば、いつか私たちに害をなすでしょう。<line-break>退治してくださる方を募集します。<line-break>報酬は<value:$1A>ギア。<line-break>期限は<value:$1B>日以内です。<line-break>冒険者の方々の活躍に期待しています。<end>"
-EN: "<value:$15> is stirring. This monster radiates an evil presence and may someday harm us if left unchecked. We seek someone to eliminate it. Reward: <value:$1A> Gea. Deadline: <value:$1B> days. We look forward to seeing what the adventurers can do.<end>"
-KO: "<value:$15>이 꿈틀거리고 있습니다. 이 사악한 기운을 풍기는 몬스터는 방치하면 언젠가 우리에게 해를 끼칠 겁니다. 퇴치해 주실 분을 모집합니다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다. 모험가 여러분의 활약을 기대합니다.<end>"
-
-## 220050
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "恐ろしい奴が現れてね。<value:$15>って<line-break>いうんだ。狂暴だからそのうち何をしでかすか<line-break>わかったもんじゃないよ。そうなる前に、あの<line-break>モンスターを退治しなけりゃならない。<line-break>誰か腕に自身のある人、モンスター退治に行って<line-break>おくれよ。<value:$1A>ギアの謝礼が出せるよ。<line-break><value:$1B>日以内で頼むね。<end>"
-EN: "A terrifying creature called <value:$15> has appeared. It's so vicious that there's no telling what it might do. We must eliminate it before anything happens. If you're confident in your skill, please hunt the monster. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "무서운 놈이 나타났어. <value:$15>이라는 녀석인데, 흉폭해서 무슨 짓을 벌일지 몰라. 그러기 전에 퇴치해야 해. 실력에 자신 있는 사람이라면 몬스터를 잡으러 가 줘. 사례로 <value:$1A>기어를 줄게. <value:$1B>일 이내로 부탁해.<end>"
-
-## 220051
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃は物騒になったわねぇ。<line-break>モンスターが村の周りをうろつくんだもの。<line-break>いやあねぇ。<line-break><value:$15>の退治をお願いできない？<line-break>もちろんお礼は出すわ。<line-break><value:$1A>ギアでどうかしら。<line-break>期限は<value:$1B>日以内ね。<end>"
-EN: "Things have become so dangerous lately. Monsters are prowling around the village. How awful. Could you eliminate <value:$15>? Of course there will be a reward. How does <value:$1A> Gea sound? The deadline is <value:$1B> days.<end>"
-KO: "요즘은 험한 세상이네요. 몬스터가 마을 주위를 돌아다니니 말이에요. 싫다니까요. <value:$15> 퇴치를 부탁드려도 될까요? 물론 사례는 드릴게요. <value:$1A>기어면 어떨까요. 기한은 <value:$1B>일 이내예요.<end>"
-
-## 220052
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "この街の道具屋にとって、山は大事な材料の<line-break>入手先です。その山に近頃化け物がうろつく<line-break>ようになり、材料集めに支障が出ています。<line-break>あなた方に、<value:$15>を退治して<line-break>いただきたいのです。<line-break>受けていただけるなら<value:$1A>ギアさしあげ<line-break>ましょう。<value:$1B>日以内にお願いします。<end>"
-EN: "The mountain is an important source of materials for this town's item shops. A monster has recently begun prowling there, interfering with our gathering. We would like you to eliminate <value:$15>. If you accept, we will pay <value:$1A> Gea. Please finish within <value:$1B> days.<end>"
-KO: "이 도시의 도구점에게 산은 중요한 재료 공급처입니다. 그런데 최근 그 산에 괴물이 돌아다녀 재료 채집에 지장이 생기고 있습니다. 여러분께 <value:$15> 퇴치를 부탁드립니다. 맡아 주신다면 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 220053
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>の退治してくれる方募集！！<line-break>お礼は<value:$1A>ギア！<line-break>期限は<value:$1B>日以内！<line-break>奴が邪魔をするせいで仕事がはかどらん。<line-break>退治をしてくれる奴を募集しとる。<line-break>確実に仕留めてくれよ。<end>"
-EN: "WANTED: Someone to eliminate <value:$15>!! Reward: <value:$1A> Gea! Deadline: <value:$1B> days! That thing keeps getting in the way of our work. We need someone to take it down, and make sure the job is finished.<end>"
-KO: "<value:$15>를 퇴치해 줄 사람 모집!! 사례는 <value:$1A>기어! 기한은 <value:$1B>일 이내! 녀석이 방해해서 일이 진척되지 않아. 퇴치해 줄 사람을 찾는다. 확실히 처리해 줘.<end>"
-
-## 220054
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "この街の地酒は大人気さ。うまさの秘密は、<line-break>ある植物を入れてることなんだけどね。<line-break>それがさ、<value:$15>が出るように<line-break>なっちまって、取りにいけないのさ。<line-break>強い人に頼むよ。あいつを倒しておくれ。<line-break><value:$1A>ギア、用意したよ。<line-break><value:$1B>日以内にやってほしいね。<end>"
-EN: "The local liquor is hugely popular. The secret is a certain plant we add to it. But since <value:$15> started appearing, we haven't been able to gather any. We need someone strong to take it down. Reward: <value:$1A> Gea. Please finish within <value:$1B> days.<end>"
-KO: "이 도시의 토속주는 아주 인기야. 맛의 비결은 어떤 식물을 넣는 건데 말이지. 그런데 <value:$15>이 나타나기 시작해서 가지러 갈 수가 없어. 강한 사람에게 부탁할게. 저놈을 쓰러뜨려 줘. <value:$1A>기어 준비했어. <value:$1B>일 이내에 해 줬으면 좋겠네.<end>"
-
-## 220055
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "ここは有名な火山の街。我が宿には温泉目的の<line-break>お客様が多数いらっしゃいます。ところが<line-break>最近<value:$15>が出るようになったため、<line-break>お客様が恐がってご来訪なさらないのです。<line-break>彼を倒してください。<line-break><value:$1A>ギアご用意できます。<line-break>期限は<value:$1B>日以内でお願いします。<end>"
-EN: "This is a famous volcanic town, and many guests visit our inn for the hot springs. Since <value:$15> began appearing, however, frightened customers have stopped coming. Please defeat it. We can offer <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "이곳은 유명한 화산 도시입니다. 저희 여관에는 온천을 찾는 손님이 많이 오십니다. 그런데 최근 <value:$15>이 나타나 손님들이 무서워서 찾아오지 않으십니다. 놈을 쓰러뜨려 주세요. <value:$1A>기어를 준비할 수 있습니다. 기한은 <value:$1B>일 이내로 부탁드립니다.<end>"
-
-## 220056
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "歌の素材も鮮度が第一です。古い英雄の歌もいい<line-break>ですが、新しい英雄の歌の方がより新鮮味がある<line-break>というもの。<line-break><value:$15>退治の様子を歌にしたいと考え<line-break>ています。冒険者の方に退治をお願いしたいので<line-break>す。<value:$1A>ギアお支払いします。<line-break><value:$1B>日以内の条件で依頼します。<end>"
-EN: "Freshness matters even in the subject of a song. Old songs about heroes are fine, but new heroes make for fresher material. We wish to sing of the hunt for <value:$15>, so we ask an adventurer to defeat it. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "노래 소재도 신선함이 제일입니다. 옛 영웅의 노래도 좋지만 새로운 영웅의 노래가 더 신선한 법이지요. <value:$15> 퇴치 모습을 노래로 만들고 싶습니다. 모험가분께 퇴치를 부탁드리겠습니다. <value:$1A>기어를 지급합니다. <value:$1B>일 이내라는 조건으로 의뢰합니다.<end>"
-
-## 220057
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "世の乱れによりあまたの異形の者が<line-break>動き出しました。その内のひとつ、<line-break><value:$15>は、アキュリュース周辺で<line-break>活動し、住民を襲っております。<line-break>どうか、<value:$15>を倒し、この街を<line-break>救ってください。報酬は<value:$1A>ギアです。<line-break><value:$1B>日以内に依頼を果たされるよう願います。<end>"
-EN: "These troubled times have stirred countless unnatural beings. Attacks by <value:$15> now plague people near Aqyurius. Please defeat <value:$15> and save the town. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "세상이 어지러워지며 수많은 이형의 존재가 움직이기 시작했습니다. 그중 하나인 <value:$15>은 아큐류스 주변에서 활동하며 주민을 습격하고 있습니다. 부디 <value:$15>을 쓰러뜨리고 이 도시를 구해 주십시오. 보수는 <value:$1A>기어입니다. <value:$1B>일 이내에 의뢰를 완수해 주시길 바랍니다.<end>"
-
-## 220058
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>退治の勇者募集。<line-break><value:$1A>ギアの好条件。<line-break>私たちを苦しめているモンスターを倒してくれる<line-break>方はいませんか。<line-break>腕自慢のあなた、稼ぐチャンスです。<line-break><value:$1B>日以内にできる方、応募待ってます。<end>"
-EN: "HERO WANTED to eliminate <value:$15>. Excellent reward: <value:$1A> Gea. Will no one defeat the monster tormenting us? If you're proud of your skill, this is your chance to earn. Applicants able to finish within <value:$1B> days are welcome.<end>"
-KO: "<value:$15> 퇴치 용사 모집. 보수 <value:$1A>기어라는 좋은 조건. 우리를 괴롭히는 몬스터를 쓰러뜨려 줄 분 없습니까. 실력에 자신 있는 당신, 돈 벌 기회입니다. <value:$1B>일 안에 가능한 분의 지원을 기다립니다.<end>"
-
-## 220059
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "助けて！<line-break><value:$15>が村を襲うの。村の男たちが鋤<line-break>や鍬で戦うけど、今まで戦ったことなんてないか<line-break>ら、モンスターを追い払うだけでも大変なのよ。<line-break>強い冒険者さん、<value:$15>を退治して。<line-break>村のみんなで<value:$1A>ギア集めたから。<line-break>早く、そう<value:$1B>日以内にお願い！<end>"
-EN: "Help! Attacks by <value:$15> threaten our village. Our men have only plows and hoes and no battle experience. They can barely drive the threat away. Please defeat <value:$15>! We pooled <value:$1A> Gea. Hurry! Do it within <value:$1B> days!<end>"
-KO: "도와줘! <value:$15>이 마을을 습격해. 마을 남자들이 쟁기랑 괭이로 싸우고 있지만 싸워 본 적이 없어서 몬스터를 쫓아내는 것조차 힘들어. 강한 모험가님, <value:$15>을 퇴치해 줘. 마을 사람들이 <value:$1A>기어를 모았어. 빨리, 그래 <value:$1B>일 이내에 부탁해!<end>"
-
-## 220060
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "街の外に<value:$15>が出没するんで、<line-break>外出もできない。<line-break>これじゃあ材料を集められない。<line-break>あんた方に頼むよ。あいつを退治してくれ。<line-break><value:$1A>ギア出すよ。<line-break><value:$1B>日以内にやりとげてくれ。<end>"
-EN: "<value:$15> has been appearing outside town, so we can't even go out. That means we can't gather materials. We're asking you to eliminate it. Reward: <value:$1A> Gea. Finish within <value:$1B> days.<end>"
-KO: "마을 밖에 <value:$15>이 나타나서 밖에도 못 나가고 있어. 이래서는 재료를 모을 수가 없어. 당신들에게 부탁할게. 녀석을 퇴치해 줘. <value:$1A>기어를 줄게. <value:$1B>일 이내에 끝내 줘.<end>"
-
-## 220061
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃<value:$15>が現れて材料収集の<line-break>邪魔をしやがるんだ。<line-break>仕事にならんぜ、まったく。<line-break>こいつを倒しちゃくれねえか。<line-break>お礼はするぜ。<value:$1A>ギアだ。<line-break>頼まれてくれるんなら<value:$1B>日以内に<line-break>仕留めてくれ。<end>"
-EN: "<value:$15> has been getting in the way of our material gathering lately. We can't get any work done at all. Will you take it down? I'll make it worth your while: <value:$1A> Gea. If you accept, finish it within <value:$1B> days.<end>"
-KO: "요즘 <value:$15>이 나타나서 재료 채집을 방해하고 있어. 도무지 일을 못 하겠다고. 이놈을 쓰러뜨려 주지 않겠어? 사례는 하지. <value:$1A>기어다. 맡아 준다면 <value:$1B>일 이내에 해치워 줘.<end>"
-
-## 220062
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "アキュリュース名産、銘酒「水の都」。<line-break>アキュリュースだけでなく他の街から飲みに来る方<line-break>もいるんだよ。でも、材料を取りに行ってた場所<line-break>にモンスターが出るようになってね…。<line-break><value:$15>を倒してくれないかな。<line-break>お礼に<value:$1A>ギア払うよ。<line-break><value:$1B>日以内にお願いできるかな。<end>"
-EN: "Aqyurius's famous liquor, “City of Water,” draws drinkers from other towns as well as our own. But monsters have started appearing where we gather its ingredients... Could you defeat <value:$15>? I'll pay <value:$1A> Gea. Please do it within <value:$1B> days.<end>"
-KO: "아큐류스 명물, 명주 ‘물의 도시’. 아큐류스뿐 아니라 다른 도시에서도 마시러 오는 사람이 있을 정도야. 그런데 재료를 채집하던 곳에 몬스터가 나타나기 시작해서…. <value:$15>을 쓰러뜨려 주지 않을래? 사례로 <value:$1A>기어를 줄게. <value:$1B>일 이내에 부탁할 수 있을까?<end>"
-
-## 220063
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "水の都として名高いアキュリュースですから、観光<line-break>を目的とされるお客様が多数ご来店なさいます。<line-break>しかし、近頃はモンスターが増えて危険だから、<line-break>と旅行をとりやめるお客様もいらっしゃいます。<line-break><value:$15>を倒して、街周辺の安全を確保<line-break>してください。<value:$1A>ギアの報酬で、<line-break>期限は<value:$1B>日以内です。<end>"
-EN: "Aqyurius, the City of Water, attracts many tourists. Lately, some have canceled their trips because monsters make travel too dangerous. Defeat <value:$15> and secure the area around town. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "물의 도시로 이름난 아큐류스라 관광을 목적으로 찾아오시는 손님이 많습니다. 하지만 요즘은 몬스터가 늘어 위험하다며 여행을 취소하는 분도 계십니다. <value:$15>를 쓰러뜨려 도시 주변의 안전을 확보해 주십시오. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 220064
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "あなたも英雄の仲間入り！<line-break>我が吟遊詩人ギルドでは、新しい英雄の歌を作る<line-break>ため、歌の題材となってくださる冒険者を募集し<line-break>ています。<value:$1B>日以内に狂暴なことで有名な<line-break><value:$15>を倒していただきます。<line-break>見事成功された方には、<value:$1A>ギアの賞金と<line-break>英雄の歌の題材になる名誉が与えられます。<end>"
-EN: "Become a hero yourself! The Bards' Guild seeks adventurers to inspire new songs about heroes. Defeat the notoriously vicious <value:$15> within <value:$1B> days. Success brings a prize of <value:$1A> Gea and the honor of becoming the subject of a heroic song.<end>"
-KO: "당신도 영웅의 반열에! 저희 음유시인 길드에서는 새로운 영웅의 노래를 만들기 위해 노래의 소재가 되어 주실 모험자를 모집합니다. <value:$1B>일 이내에 흉포하기로 유명한 <value:$15>를 쓰러뜨려 주십시오. 성공하신 분께는 <value:$1A>기어의 상금과 영웅의 노래에 이름을 올리는 명예가 주어집니다.<end>"
-
-## 220065
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "邪悪なる者の気配が感じられます。<line-break><value:$15>を倒し、<line-break>かの地に清浄を取り戻してください。<line-break>お礼として<value:$1A>ギアをお持ちください。<line-break><value:$1B>日以内に果たされることを望みます。<end>"
-EN: "An evil presence can be felt. Defeat <value:$15> and restore purity to that land. Please accept <value:$1A> Gea in gratitude. We hope the task will be fulfilled within <value:$1B> days.<end>"
-KO: "사악한 자의 기운이 느껴집니다. <value:$15>를 쓰러뜨리고 그 땅에 정화를 되찾아 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 이루어 주시길 바랍니다.<end>"
-
-## 220066
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が悪さをしおる。<line-break>そのおかげでわしらはたいへん迷惑しておる。<line-break>ひとつ懲らしめてやらにゃならん。<line-break>冒険者さん、頼まれてくれんか。<line-break><value:$1A>ギア出す。<line-break><value:$1B>日以内にお願いするぞ。<end>"
-EN: "<value:$15> has been causing trouble, and we're suffering for it. That thing needs to be taught a lesson. Adventurer, will you take the job? I'll pay <value:$1A> Gea. Please finish within <value:$1B> days.<end>"
-KO: "<value:$15>가 말썽을 부려 우리 모두 크게 곤란해하고 있네. 혼 좀 내줘야겠어. 모험가 양반, 맡아 주겠나. <value:$1A>기어를 주지. <value:$1B>일 이내로 부탁하네.<end>"
-
-## 220067
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "荒海の乗りこえる強い船を作るには、丈夫な木材<line-break>が必要さ。この街の外にはいい林があるんで、<line-break>そこから木を切り出してる。だけどよ、最近<line-break><value:$15>が林の近くまで出てくるんで、<line-break>木材の伐採ができなくなっちまった。<line-break>モンスター退治を頼みたい。報酬は<line-break><value:$1A>ギア、期限は<value:$1B>日以内だ。<end>"
-EN: "Ships that cross rough seas need sturdy timber. We cut ours in a forest outside town, but the presence of <value:$15> has halted the logging. Eliminate the threat within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "거친 바다를 헤쳐 나갈 튼튼한 배를 만들려면 질 좋은 목재가 필요해. 도시 밖에 좋은 숲이 있어서 거기서 나무를 베고 있는데, 요즘 <value:$15>이 숲 근처까지 나오는 바람에 벌목을 못 하고 있어. 몬스터 퇴치를 부탁한다. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내다.<end>"
-
-## 220068
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "他の街からやってきた商人と交流することは、<line-break>道具屋である私どもには欠かせないことです。<line-break>ところが最近<value:$15>が出るので、<line-break>他の街の商人がエルズに近づけないのです。<line-break>そこで冒険者の方に退治をお願いしたいのです。<line-break>お礼は<value:$1A>ギアでどうでしょうか。<line-break><value:$1B>日以内にやっつけてしまってください。<end>"
-EN: "As item merchants, we depend on trade with merchants from other towns. Recently, however, <value:$15> has kept them from approaching Elz. We therefore ask an adventurer to eliminate it. How does a reward of <value:$1A> Gea sound? Please finish it within <value:$1B> days.<end>"
-KO: "다른 도시에서 온 상인과 교류하는 일은 도구상인 저희에게 꼭 필요합니다. 그런데 최근 <value:$15>가 나타나 다른 도시 상인들이 엘즈에 접근하지 못하고 있습니다. 그래서 모험자분께 퇴치를 부탁드리고 싶습니다. 보수는 <value:$1A>기어면 어떨까요. <value:$1B>일 이내에 처리해 주십시오.<end>"
-
-## 220069
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "いい武器にゃあいい材料が欠かせねえ。うちは<line-break>近くの鉱山で採ってる上等の材料を使ってるん<line-break>だが、街と鉱山の村の間に<value:$15>が<line-break>出やがって。村の奴がビビって売りにこなく<line-break>なっちまった。まあ無理もねえがな。<line-break>あんたたちに頼む。あんにゃろうを倒してくれ。<line-break><value:$1A>ギアで、<value:$1B>日以内。<end>"
-EN: "Good weapons need fine materials from the nearby mine. But the presence of <value:$15> between town and the mining village has scared off our suppliers. Can't blame them. Take that bastard down within <value:$1B> days for <value:$1A> Gea.<end>"
-KO: "좋은 무기엔 좋은 재료가 빠질 수 없지. 우린 근처 광산에서 캐는 질 좋은 재료를 쓰는데, 도시와 광산 마을 사이에 <value:$15>가 나타났어. 마을 놈들이 겁먹고 팔러 오질 않더군. 뭐, 무리도 아니지만. 너희에게 부탁하지. 그 자식을 쓰러뜨려 줘. <value:$1A>기어에, <value:$1B>일 이내다.<end>"
-
-## 220070
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>っていう強い奴がいるんだよ。<line-break>あたしとお客さんが、そいつを倒せる戦士がいる<line-break>かどうかって賭けをしてるのさ。あたしはいる<line-break>ほうに賭けてるってわけ。それでさ…。<line-break><value:$1A>ギアでそいつを倒しに行ってくれない<line-break>かい？　<value:$1B>日以内で。賭けの期限がもう<line-break>その日までしかないんだよ。よろしくね。<end>"
-EN: "There's a powerful creature called <value:$15>. My customers and I have a wager on whether any warrior can defeat it, and I bet that someone could. So... will you take it down for <value:$1A> Gea? You have <value:$1B> days; the wager ends then. I'm counting on you.<end>"
-KO: "<value:$15>라는 강한 녀석이 있어. 나랑 손님들이 그 녀석을 쓰러뜨릴 전사가 있느냐로 내기를 했지. 난 있다고 걸었고. 그래서 말인데… <value:$1A>기어에 그 녀석을 쓰러뜨리러 가 주지 않을래? <value:$1B>일 이내로. 내기 기한이 딱 그날까지거든. 부탁해.<end>"
-
-## 220071
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "ここのところエルズ周辺に<value:$15>が<line-break>出没しております。<line-break>現状のままですと、我がフゴー宿屋のお客様で<line-break>ある旅行者の方に危害が及ぶおそれがあります。<line-break>そこで、退治を依頼します。<line-break><value:$1A>ギアをお支払いします。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "<value:$15> has recently been sighted around Elz. If the situation continues, travelers staying at our Hugo Inn may come to harm. We therefore request its elimination. Reward: <value:$1A> Gea. Please complete the job within <value:$1B> days.<end>"
-KO: "최근 엘즈 주변에 <value:$15>이 출몰하고 있습니다. 이대로라면 저희 휴고 숙소를 이용하는 여행객들에게 피해가 갈 우려가 있습니다. 그래서 퇴치를 의뢰합니다. <value:$1A>기어를 지급하겠습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 220072
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "新しい英雄の歌を創りたいと考えています。<line-break>あなた方に題材になってもらいたいのです。<line-break>威風堂々たるあなた方こそ英雄の歌に<line-break>ふさわしい。<value:$15>を倒して<line-break>そのお話を私に聞かせてください。<line-break>お礼として<value:$1A>ギア進呈しましょう。<line-break><value:$1B>日以内と期限を区切らせていただきます。<end>"
-EN: "I wish to compose a new song about heroes, and I want you to be its subject. Your imposing presence makes you perfect for such a song. Defeat <value:$15>, then tell me the tale. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "새로운 영웅의 노래를 만들고 싶습니다. 여러분을 소재로 삼고 싶군요. 위풍당당한 여러분이야말로 영웅의 노래에 어울립니다. <value:$15>을 쓰러뜨리고 그 이야기를 제게 들려주세요. 사례로 <value:$1A>기어를 드리겠습니다. 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 220073
-source: translations/korean/messages/msgsec022-part99.toml
+## 250073
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
 JP: "ラドラス１<end>"
 EN: "Ladras 1<end>"
 KO: "라드라스1<end>"
 
-## 220074
-source: translations/korean/messages/msgsec022-part99.toml
+## 250074
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
 JP: "ラドラス２<end>"
 EN: "Ladras 2<end>"
 KO: "라드라스2<end>"
 
-## 220075
-source: translations/korean/messages/msgsec022-part99.toml
+## 250075
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
 JP: "ラドラス３<end>"
 EN: "Ladras 3<end>"
 KO: "라드라스3<end>"
 
-## 220076
-source: translations/korean/messages/msgsec022-part99.toml
+## 250076
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
 JP: "ラドラス４<end>"
 EN: "Ladras 4<end>"
 KO: "라드라스4<end>"
 
-## 220077
-source: translations/korean/messages/msgsec022-part99.toml
+## 250077
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
 JP: "ラドラス５<end>"
 EN: "Ladras 5<end>"
 KO: "라드라스5<end>"
 
-## 220078
-source: translations/korean/messages/msgsec022-part99.toml
+## 250078
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
 JP: "ラドラス６<end>"
 EN: "Ladras 6<end>"
 KO: "라드라스6<end>"
 
-## 220079
-source: translations/korean/messages/msgsec022-part99.toml
+## 250079
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
 JP: "ラドラス７<end>"
 EN: "Ladras 7<end>"
 KO: "라드라스7<end>"
 
-## 220080
-source: translations/korean/messages/msgsec022-part99.toml
+## 250080
+source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
 JP: "ラドラス８<end>"
 EN: "Ladras 8<end>"
 KO: "라드라스8<end>"
 
-## 220081
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "国民に害をなすモンスターが徘徊している。<line-break>悪を斬る刃を持つ者に依頼する。<line-break><value:$15>を成敗してくれたまえ。<line-break>報酬は<value:$1A>ギア、<line-break>期限は<value:$1B>日以内である。<end>"
-EN: "A monster that harms the people is roaming about. This request is for one whose blade cuts down evil: strike down <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "국민에게 해를 끼치는 몬스터가 돌아다니고 있다. 악을 베는 칼날을 지닌 자에게 의뢰한다. <value:$15>을 토벌해 주게. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내다.<end>"
-
-## 220082
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃街道にモンスターが出没しています。<line-break>通行人に被害が出る可能性もあります。<line-break>私たちも全力で倒そうとしていますが、<line-break>成功していません。<line-break>倒すために助力をお願いします。<line-break>報酬として<value:$1A>ギアを用意します。<line-break><value:$1B>日以内に倒してください。<end>"
-EN: "Monsters have recently begun appearing on the highway, and travelers may be harmed. We have done everything in our power to defeat them, without success. We ask for your help. Reward: <value:$1A> Gea. Please defeat them within <value:$1B> days.<end>"
-KO: "요즘 가도에 몬스터가 출몰하고 있습니다. 통행인에게 피해가 생길 수도 있습니다. 저희도 전력을 다해 쓰러뜨리려 했지만 성공하지 못했습니다. 퇴치를 도와주세요. 보수로 <value:$1A>기어를 준비하겠습니다. <value:$1B>일 이내에 쓰러뜨려 주세요.<end>"
-
-## 220083
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "わしらは細工物を作るのが好きでの。一日中やっ<line-break>ていても飽きはせん。だが、最近村の近くに<line-break><value:$15>が出るようになって、<line-break>恐ろしゅうて落ち着いて細工できんのじゃ。<line-break>うちの村は年寄りばかりだで誰も戦えんのじゃ。<line-break>お願えするだ。モンスターを追い払ってくれ。<line-break><value:$1A>ギア、<value:$1B>日以内でどうじゃ。<end>"
-EN: "We love making handicrafts all day, but since sightings of <value:$15> began near our village, we're too frightened to work. Only old folk live here, and none can fight. Please drive the threat away within <value:$1B> days for <value:$1A> Gea.<end>"
-KO: "우린 세공품 만드는 걸 좋아해서 하루 종일 해도 질리지 않는다네. 그런데 최근 마을 근처에 <value:$15>가 나타나 무서워서 마음 놓고 세공을 못 하겠어. 우리 마을은 노인뿐이라 싸울 사람도 없고. 부탁하네. 몬스터를 쫓아내 줘. <value:$1A>기어에 <value:$1B>일 이내면 어떻겠나.<end>"
-
-## 220084
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が出没しています。<line-break>商用で移動しているときにモンスターに出会うの<line-break>は、商売に支障がでますし、たいへん危険です。<line-break>そこで、あらかじめモンスターを排除しておきた<line-break>いと思います。退治をお願いします。<line-break><value:$1A>ギアをお礼としてさしあげます。<line-break>期間は<value:$1B>日以内です。<end>"
-EN: "<value:$15> has been sighted. Encountering a monster while traveling on business is both disruptive and extremely dangerous, so we wish to remove the threat in advance. Please eliminate it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>이 출몰하고 있습니다. 장사 때문에 이동하다 몬스터와 마주치면 영업에 지장이 생길 뿐 아니라 매우 위험합니다. 그래서 미리 몬스터를 제거해 두고 싶습니다. 퇴치를 부탁드립니다. 사례로 <value:$1A>기어를 드리겠습니다. 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 220085
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "俺たちは、材料集めにあちこちに行くんだがよ。<line-break>最近<value:$15>に出くわすことが<line-break>多くてな。集めた荷物を抱えて戦うのは、<line-break>ちとたいへんなんだよ。<line-break>悪いんだが、奴を倒してくんねぇか？<line-break><value:$1A>ギア用意したからよ。<line-break><value:$1B>日以内に退治してくれ。<end>"
-EN: "We travel all over to gather materials, but lately we keep running into <value:$15>. Fighting while carrying everything we've collected is no easy task. Sorry to ask, but could you take it down? I've put together <value:$1A> Gea. Eliminate it within <value:$1B> days.<end>"
-KO: "우린 재료를 모으려고 여기저기 다니는데 말이야. 요즘 <value:$15>과 마주치는 일이 많아졌어. 모아 둔 짐을 든 채 싸우기는 꽤 힘들거든. 미안하지만 그놈을 쓰러뜨려 주지 않겠어? <value:$1A>기어를 준비했어. <value:$1B>일 이내에 퇴치해 줘.<end>"
-
-## 220086
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "うちには、旅の人が飲みに来ることもよくあるの<line-break>よ。このごろ、「さっきモンスターに出会った、<line-break>ドワーフの国は安全だって聞いてたのに」なんて<line-break>言う旅の人が多くてね。せっかく旅に出たのに、<line-break>そんなこと言わせちゃかわいそうでしょ。<line-break><value:$1A>ギア出すわ。<value:$15>を<line-break>倒してちょうだい。<value:$1B>日以内によろしくね。<end>"
-EN: "Travelers often come here for a drink. Lately, many have said, “I just ran into a monster. I heard the Dwarf country was safe.” It's a shame for anyone who came all this way to feel that way. I'll pay <value:$1A> Gea. Please defeat <value:$15> within <value:$1B> days.<end>"
-KO: "우리 가게엔 여행객들이 술 마시러 자주 와. 요즘은 '방금 몬스터를 만났어요. 드워프 나라는 안전하다더니'라고 하는 사람이 많아서 말이지. 모처럼 여행을 나왔는데 그런 말을 하게 하면 안쓰럽잖아. <value:$1A>기어 줄게. <value:$15>를 쓰러뜨려 줘. <value:$1B>일 이내에 부탁해.<end>"
-
-## 220087
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が出没しているとの知らせが<line-break>あります。<line-break>このモンスターは狂暴であり、<line-break>旅行者の方の安全がおびやかされています。<line-break>モンスターを退治し安全を確保してください。<line-break>謝礼は<value:$1A>ギア、<line-break>期限は<value:$1B>日以内とします。<end>"
-EN: "We have received reports that <value:$15> has been sighted. This vicious monster threatens the safety of travelers. Eliminate it and secure the area. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "<value:$15>이 출몰한다는 소식이 있습니다. 이 몬스터는 흉폭해 여행자의 안전이 위협받고 있습니다. 몬스터를 퇴치해 안전을 확보해 주세요. 사례는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 220088
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "空気に妖気が混ざってきています。原因は、<line-break>近頃この周辺に現れる<value:$15>です。<line-break>澄んだ空気のもとでなければ、<line-break>私たちの歌は本来の美しさを発揮できません。<line-break><value:$15>退治を依頼したいと思います。<line-break><value:$1A>ギアの報酬、<line-break><value:$1B>日以内の期限でいかがでしょうか。<end>"
-EN: "An uncanny presence taints the air, and it comes from <value:$15>. Without clear air, our songs lose their true beauty. Please eliminate <value:$15>. We offer <value:$1A> Gea for completion within <value:$1B> days.<end>"
-KO: "공기에 요기가 섞이기 시작했습니다. 원인은 최근 이 주변에 나타나는 <value:$15>입니다. 맑은 공기 아래가 아니면 우리 노래는 본래의 아름다움을 낼 수 없습니다. <value:$15> 퇴치를 의뢰하고 싶습니다. 보수 <value:$1A>기어, 기한 <value:$1B>일 이내로 어떻습니까?<end>"
-
-## 220089
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "昨今、モンスターによる被害が多発しているが、<line-break>テラネ周辺でも同様の報告があった。<line-break>報告にあった<value:$15>は、人身に被害を<line-break>与え、耕作地を荒らし、放置しかねるとのこと。<line-break>よってここに討伐令を布告するものである。<line-break>期限は、<value:$1B>日以内。見事退治せし者には、<line-break><value:$1A>ギアの賞金を与える。<end>"
-EN: "Reports from Terane say attacks by <value:$15> have injured people and ravaged farmland. This threat cannot be ignored. An official extermination order is hereby issued. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "최근 몬스터 피해가 잇따르는 가운데 테라네 주변에서도 같은 보고가 들어왔다. 보고된 <value:$15>는 사람에게 피해를 주고 경작지를 황폐화시켜 방치할 수 없다고 한다. 이에 토벌령을 내린다. 기한은 <value:$1B>일 이내. 훌륭히 퇴치한 자에게는 <value:$1A>기어의 상금을 지급한다.<end>"
-
-## 220090
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "最近、街の周囲で<value:$15>が暴れて<line-break>います。このままでは、自由に街の外に出る<line-break>こともできず、日々の生活もままなりません。<line-break>どなたか<value:$1B>日以内に、このモンスターを退治<line-break>してくださいませんでしょうか？<line-break>報酬は<value:$1A>ギア用意しています。<line-break>どうかよろしくお願いいたします。<end>"
-EN: "<value:$15> has been rampaging around town. If this continues, we will be unable to venture outside freely or even go about our daily lives. Would someone please eliminate this monster within <value:$1B> days? We have prepared a reward of <value:$1A> Gea. Please help us.<end>"
-KO: "최근 도시 주변에서 <value:$15>이 날뛰고 있습니다. 이대로라면 자유롭게 도시 밖으로 나갈 수도 없어 일상생활도 어렵습니다. 누군가 <value:$1B>일 이내에 이 몬스터를 퇴치해 주시겠습니까? 보수는 <value:$1A>기어를 준비했습니다. 부디 부탁드립니다.<end>"
-
-## 220091
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "最近現れたモンスターが強くて、困っとります。<line-break>なんでも<value:$15>とかいうやつじゃそう<line-break>ですが、わしらでは手に負えませんです。<line-break>ほっとくと畑も村も危ないので、<line-break><value:$1B>日以内に、退治していただきたい。<line-break>お礼はあまりできんですが、できるだけのことは<line-break>するつもりですじゃ。どうかお助けくだされ。<end>"
-EN: "We cannot handle the monster known as <value:$15>. Our fields and village are in danger. Please defeat the threat within <value:$1B> days. We cannot offer much, but we will do all we can to repay you. Please help us.<end>"
-KO: "요즘 나타난 몬스터가 너무 강해서 곤란합니다. <value:$15>라는 놈이라던데 우리 힘으로는 감당할 수가 없습니다. 내버려 두면 밭도 마을도 위험하니 <value:$1B>일 이내에 퇴치해 주셨으면 합니다. 보답은 많이 못 하지만 할 수 있는 만큼은 하겠습니다. 부디 도와주십시오.<end>"
-
-## 220092
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "闇の力が強まり、世界に悪しき気が満ちはじめて<line-break>います。その影響はあまたの生き物にも及んでい<line-break>るようです。巡礼者を脅かす<value:$15>も<line-break>闇にとりつかれた哀れなる命です。<line-break>この悲しき命を、闇の苦痛から救う勇者を捜して<line-break>います。<value:$1B>日以内に、その命を解放して<line-break>くれた者には、お礼をさせていただきます。<end>"
-EN: "Darkness is spreading through the world and corrupting living creatures. Even <value:$15> must be pitied, for darkness causes the threat to pilgrims. We seek a hero to grant release from torment within <value:$1B> days. A reward will be given.<end>"
-KO: "어둠의 힘이 강해져 세계에 사악한 기운이 차오르고 있습니다. 그 영향은 수많은 생명에도 미치고 있는 듯합니다. 순례자를 위협하는 <value:$15> 역시 어둠에 사로잡힌 가엾은 생명입니다. 이 슬픈 생명을 어둠의 고통에서 구해 줄 용자를 찾습니다. <value:$1B>일 이내에 그 생명을 해방해 준 분께 사례하겠습니다.<end>"
-
-## 220093
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "うちの常連が、モンスターが出たって、<line-break>うるさくってね。酔っぱらいのたわごとですます<line-break>わけにもいかんから、ちょっくら若いのに調べさ<line-break>せたんだが、いたんだよね。やばそうなヤツが。<line-break>で、退治して欲しいんだわ。<line-break><value:$1B>日以内、報酬は、<value:$1A>ギア出すよ。<line-break>よろしくね。<end>"
-EN: "A regular kept making a fuss about a monster. I couldn't dismiss it as drunken nonsense, so I sent a youngster to check. Sure enough, something nasty was out there. Eliminate the threat within <value:$1B> days for <value:$1A> Gea. Thanks.<end>"
-KO: "우리 단골이 몬스터가 나왔다고 하도 시끄럽게 굴어서 말이야. 취객의 헛소리라고 넘길 수도 없어서 젊은 애한테 알아보게 했더니, 정말 있더라고. 꽤 위험해 보이는 놈이. 그래서 퇴치해 줬으면 해. <value:$1B>일 이내, 보수는 <value:$1A>기어야. 잘 부탁해.<end>"
-
-## 220094
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の方々にはごひいきにしていただき、<line-break>ありがとうございます。日頃のご愛顧に応える<line-break>べく、日々、様々な品を作っていますが、<line-break>最近、<value:$15>が出没し、よい材料を<line-break>採集しにくくなっております。そこで、<line-break>報酬<value:$1A>ギアで、退治を依頼いたします。<line-break><value:$1B>日以内で、お願いできませんでしょうか？<end>"
-EN: "Thank you, adventurers, for your patronage. We make many goods in return, but the presence of <value:$15> makes fine materials hard to gather. We offer <value:$1A> Gea for eliminating the threat within <value:$1B> days.<end>"
-KO: "모험자 여러분께서 늘 찾아 주셔서 감사합니다. 평소의 성원에 보답하고자 여러 물건을 만들고 있습니다만, 최근 <value:$15>가 출몰해 좋은 재료를 채집하기 어려워졌습니다. 그래서 보수 <value:$1A>기어로 퇴치를 의뢰드립니다. <value:$1B>일 이내에 부탁드릴 수 있을까요?<end>"
-
-## 220095
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "優れた武器防具は、良質の材料と腕のいい職人に<line-break>よって作られる。が、最近、現れた<line-break><value:$15>が物騒なヤツでな。危なくて、<line-break>じっくり材料を集められんと、職人どもが困って<line-break>おる。<value:$1B>日以内に退治して欲しいんだが、<line-break><value:$1A>ギアでどうじゃ？　あんたらにしても<line-break>わしらの仕事がうまくいかんのは困るじゃろう。<end>"
-EN: "Fine arms require quality materials and skilled artisans. Since <value:$15> appeared, gathering materials is too dangerous. Eliminate the threat within <value:$1B> days for <value:$1A> Gea. You need our work too.<end>"
-KO: "좋은 무기와 방어구는 좋은 재료와 솜씨 좋은 장인이 있어야 만들어지지. 그런데 최근 나타난 <value:$15>가 흉악한 놈이라 위험해서 제대로 재료를 모을 수 없다고 장인들이 난리다. <value:$1B>일 이내에 퇴치해 줬으면 하는데 <value:$1A>기어면 어떻겠나? 너희도 우리 일이 제대로 안 풀리면 곤란하잖아.<end>"
-
-## 220096
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "最近現れた<value:$15>が、旅人を襲うそう<line-break>です。我がフゴー商会宿屋経営部門としては、<line-break>旅人の安全は何よりも大切なものですので、<line-break>退治を依頼します。<line-break>当方では、報酬として<value:$1A>ギア用意<line-break>いたしております。<line-break><value:$1B>日以内に倒してください。お願いします。<end>"
-EN: "Travelers are being attacked by <value:$15>. Hugo Trading Company's inn division puts their safety first and requests the threat's elimination. Reward: <value:$1A> Gea. Please complete the hunt within <value:$1B> days.<end>"
-KO: "최근 나타난 <value:$15>이 여행자를 습격한다고 합니다. 우리 휴고 상회 숙박사업부로서는 여행자의 안전이 무엇보다 중요하므로 퇴치를 의뢰합니다. 보수로 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 쓰러뜨려 주세요. 부탁드립니다.<end>"
-
-## 220097
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "遠くから珍しい品物を運んでくると、高い値段で<line-break>売れるんだ。他の街からも商人がやって来るんだ<line-break>ぜ。でもよ、最近現れた<value:$15>の<line-break>おかげで、他の街の商人が来れなくなったんだ。<line-break>せっかく高い値をつけてくれるのによ。<line-break><value:$15>を退治してくれ。<line-break>報酬は<value:$1A>ギア。<value:$1B>日以内で頼むぜ。<end>"
-EN: "Distant rarities sell well to visiting merchants. But the presence of <value:$15> keeps them away, costing us dearly. Eliminate <value:$15>. Reward: <value:$1A> Gea. Get it done within <value:$1B> days.<end>"
-KO: "먼 곳에서 희귀한 물건을 가져오면 비싸게 팔 수 있지. 다른 도시에서도 상인들이 찾아오고 말이야. 그런데 최근 나타난 <value:$15> 때문에 다른 도시 상인들이 오질 못하고 있어. 모처럼 좋은 값을 쳐 주는데 말이지. <value:$15>를 퇴치해 줘. 보수는 <value:$1A>기어. <value:$1B>일 이내로 부탁한다.<end>"
-
-## 220098
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "困ったな。<line-break>街の外に<value:$15>が出るんで、<line-break>落ち着いて外出ができないよ。誰かモンスターを<line-break>やっつけてくれる人がいればいいんだけど。<line-break>退治してくれるなら、<value:$1A>ギアは出すね。<line-break><value:$1B>日以内で片付けられればの話だけど。<line-break>頼まれてくれる人はいないのかな。<end>"
-EN: "This is a real problem. There have been sightings of <value:$15> outside town, so I cannot go out without worry. Won't someone defeat the threat? I'll pay <value:$1A> Gea if the job is done within <value:$1B> days. Will no one accept?<end>"
-KO: "곤란하네. 도시 밖에 <value:$15>이 나타나서 마음 놓고 외출할 수가 없어. 누가 몬스터를 해치워 줬으면 좋겠는데. 퇴치해 준다면 <value:$1A>기어는 줄게. <value:$1B>일 이내에 끝낼 수 있다면 말이지. 맡아 줄 사람 없으려나.<end>"
-
-## 220099
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "わしらは畑仕事をして暮らしておる。収穫の時が<line-break>一番の楽しみじゃ。じゃが、ここのところ現れ<line-break>おった<value:$15>が、わしらの畑を荒らし<line-break>てしまうんじゃ。せっかくの、わしらの畑を。<line-break>どなたか、<value:$15>を懲らしめては<line-break>くれんだろうか。<value:$1A>ギアでどうじゃ。<line-break><value:$1B>日以内にやっていただけるかの。<end>"
-EN: "We live by farming, and harvest is our greatest joy. But lately, our precious fields have been ravaged by <value:$15>. Will someone teach <value:$15> a lesson within <value:$1B> days? We can offer <value:$1A> Gea.<end>"
-KO: "우리는 밭일로 살아간다네. 수확철이 가장 큰 즐거움이지. 그런데 요즘 나타난 <value:$15>가 우리 밭을 망쳐 놓고 있네. 소중한 우리 밭을 말이야. 누가 <value:$15>를 혼내 주지 않겠나? <value:$1A>기어면 어떻겠나. <value:$1B>일 이내에 해 줄 수 있겠나?<end>"
-
-## 220100
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度ありがとうございます。<line-break>本日はお願いがあります。<line-break>私どもの商売を妨害するモンスター、<line-break><value:$15>を倒していただきたいのです。<line-break><value:$1A>ギアでいかがでしょう？<line-break><value:$1B>日以内に完了していただければ幸いです。<line-break>では今後ともごひいきに。<end>"
-EN: "Thank you for your continued patronage. We have a request today: please defeat <value:$15> to end the interference with our business. How does <value:$1A> Gea sound? We would appreciate it if you completed the job within <value:$1B> days. We look forward to your continued patronage.<end>"
-KO: "늘 감사합니다. 오늘은 부탁드릴 일이 있습니다. 저희 장사를 방해하는 몬스터 <value:$15>을 쓰러뜨려 주셨으면 합니다. <value:$1A>기어면 어떠신가요? <value:$1B>일 이내에 완료해 주시면 감사하겠습니다. 앞으로도 잘 부탁드립니다.<end>"
-
-## 220101
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "材料を収集するのも俺たちの重要な仕事だ。<line-break>だがここのところ材料収集の作業場に<line-break><value:$15>が出没している。俺たちもたび<line-break>たび襲われるようになった。これではいけない。<line-break>そこで頼む。モンスターを成敗してくれ。<line-break><value:$1A>ギアをお礼として用意した。<line-break>期日は<value:$1B>日以内とさせてもらう。<end>"
-EN: "Gathering materials is vital to our work, but attacks by <value:$15> plague our collection site. This cannot continue. Eliminate the threat within <value:$1B> days. We have prepared <value:$1A> Gea as a reward.<end>"
-KO: "재료를 모으는 것도 우리에겐 중요한 일이다. 그런데 요즘 재료 채집 작업장에 <value:$15>이 출몰해 우리도 여러 차례 습격당했다. 이대로는 안 돼. 부탁한다. 몬스터를 처치해 줘. 사례로 <value:$1A>기어를 준비했다. 기한은 <value:$1B>일 이내다.<end>"
-
-## 220102
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "街から離れた場所に酒の貯蔵庫があるんだが、<line-break>先日酒を取りに行こうとしたところ、<line-break>道中モンスターに襲われ逃げ帰りました。<line-break><value:$1A>ギア出しますから、<line-break><value:$15>をあそこから追い払って<line-break>ください。<value:$1B>日以内でお願いします。<end>"
-EN: "Our liquor storehouse lies some distance from town. An attempt to fetch liquor the other day ended in a monster attack on the road and a hasty retreat. We will pay <value:$1A> Gea if you drive <value:$15> away from there. Please do it within <value:$1B> days.<end>"
-KO: "도시에서 떨어진 곳에 술 저장고가 있는데, 며칠 전 술을 가지러 갔다가 길에서 몬스터에게 습격당해 도망쳐 왔습니다. <value:$1A>기어를 드릴 테니 <value:$15>을 그곳에서 쫓아내 주세요. <value:$1B>일 이내로 부탁합니다.<end>"
-
-## 220103
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "このたび、お得意様である団体様がアミラルの<line-break>我が店にいらっしゃることになりました。<line-break>しかし道中には<value:$15>がいることが<line-break>私どもの調査で判明しました。<line-break>あなた方にお願いしたいのは、そのモンスターの<line-break>退治です。<value:$1A>ギアの謝礼でいかが<line-break>でしょう。<value:$1B>日以内に退治してください。<end>"
-EN: "A valued group of regulars will soon visit our establishment in Amiral. Our investigation found <value:$15> along their route. Please eliminate the threat within <value:$1B> days. Would <value:$1A> Gea be an acceptable reward?<end>"
-KO: "이번에 단골 단체 손님이 아미랄의 저희 가게를 방문하게 되었습니다. 그런데 조사 결과 길목에 <value:$15>이 있다는 사실이 확인됐습니다. 여러분께 부탁드리고 싶은 것은 그 몬스터의 퇴치입니다. 사례로 <value:$1A>기어면 어떻겠습니까. <value:$1B>일 이내에 퇴치해 주세요.<end>"
-
-## 220104
-source: translations/korean/messages/msgsec022-part99.toml
-jp_matches_pinned_english: yes
-JP: "私たちの仕事は、各地のでき事やお話を歌にして<line-break>多くの人に広めること。<line-break>英雄の歌もそのひとつ。<line-break>勇者たるあなた方に依頼します。<line-break><value:$15>を退治してください。<line-break><value:$1A>ギア、<value:$1B>日以内が条件です。<line-break>あなた方のご活躍を、歌にして広めましょう。<end>"
-EN: "We turn events and tales from across the land into songs, including heroic ballads. We ask you, as heroes, to defeat <value:$15>. The terms are <value:$1A> Gea and completion within <value:$1B> days. We will spread your deeds in song.<end>"
-KO: "우리 일은 각지의 사건과 이야기를 노래로 만들어 많은 사람에게 전하는 것입니다. 영웅의 노래도 그중 하나지요. 용자인 여러분께 의뢰합니다. <value:$15>을 퇴치해 주세요. 조건은 <value:$1A>기어, <value:$1B>일 이내입니다. 여러분의 활약을 노래로 널리 알리겠습니다.<end>"
-
-## 230000
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、脱力の腕輪を<line-break>持ってると、ＳＴＲが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying the Bracelet of Weakness drastically lowers ＳＴＲ.<end>"
-KO: "이미 알지도 모르지만 탈력의 팔찌를 가지고 있으면 STR이 극단적으로 낮아져.<end>"
-
-## 230001
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、セヅネの根を<line-break>持ってると、ＶＩＴが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Sezune Root drastically lowers ＶＩＴ.<end>"
-KO: "이미 알지도 모르지만 세즈네의 뿌리를 가지고 있으면 VIT가 극단적으로 낮아져.<end>"
-
-## 230002
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、トヅカネの枝を<line-break>持ってると、ＡＧＩが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Tozukane Branch drastically lowers ＡＧＩ.<end>"
-KO: "이미 알고 있을지도 모르지만 토즈카네의 가지를 가지고 있으면 AGI가 극단적으로 낮아져.<end>"
-
-## 230003
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ヒャンデ鉱を<line-break>持ってると、ＡＧＩが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying Hyande Ore drastically lowers ＡＧＩ.<end>"
-KO: "이미 알지도 모르지만 햔데 광석을 가지고 있으면 AGI가 극단적으로 낮아져.<end>"
-
-## 230004
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、きれぐもの巣を<line-break>持ってると、ＤＥＸが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Kiregumo Nest drastically lowers ＤＥＸ.<end>"
-KO: "이미 알고 있을지도 모르지만 키레구모의 둥지를 가지고 있으면 DEX가 극단적으로 낮아져.<end>"
-
-## 230005
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ヒャンデ砂鉄を<line-break>持ってると、ＤＥＸが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying Hyande Iron Sand drastically lowers ＤＥＸ.<end>"
-KO: "이미 알고 있을지도 모르지만 현데 사철을 가지고 있으면 DEX가 극단적으로 낮아져.<end>"
-
-## 230006
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ハヤスの葉を<line-break>持ってると、ＩＮＴが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Hayasu Leaf drastically lowers ＩＮＴ.<end>"
-KO: "이미 알지도 모르지만 하야스의 잎을 가지고 있으면 INT가 극단적으로 낮아져.<end>"
-
-## 230007
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、キッカネの香草を<line-break>持ってると、ＩＮＴが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Kikkane Herb drastically lowers ＩＮＴ.<end>"
-KO: "이미 알고 있을지도 모르지만, 킷카네의 향초를 가지고 있으면 INT가 극단적으로 떨어져.<end>"
-
-## 230008
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、千年石を<line-break>持ってると、ＭＩＮが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Millennium Stone drastically lowers ＭＩＮ.<end>"
-KO: "이미 알지도 모르지만 천년석을 가지고 있으면 MIN이 극단적으로 낮아져.<end>"
-
-## 230010
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ナジラネの果実を<line-break>持ってると、沈黙状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Najirane Fruit afflicts you with Silence.<end>"
-KO: "이미 알지도 모르지만 나지라네의 열매를 갖고 있으면 침묵 상태가 돼 버려.<end>"
-
-## 230011
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、妖精の粉を<line-break>持ってると、暗闇状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying Fairy Dust afflicts you with Blindness.<end>"
-KO: "이미 알고 있을지도 모르지만, 요정의 가루를 갖고 있으면 암흑 상태가 돼.<end>"
-
-## 230012
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、食心の壷を<line-break>持ってると、幻覚状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Heart-Eating Jar afflicts you with Hallucination.<end>"
-KO: "이미 알고 있을지도 모르지만, 식심의 항아리를 갖고 있으면 환각 상태가 돼.<end>"
-
-## 230013
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ロクシャの墨を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying Roksha Ink afflicts you with Curse.<end>"
-KO: "이미 알지도 모르지만 록샤의 먹을 가지고 있으면 저주 상태가 돼.<end>"
-
-## 230014
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ノロガメを<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Norogame afflicts you with Curse.<end>"
-KO: "이미 알고 있을지도 모르지만, 노로가메를 갖고 있으면 저주 상태가 돼.<end>"
-
-## 230015
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、呪われし杖を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Cursed Staff afflicts you with Curse.<end>"
-KO: "이미 알지도 모르지만, 저주받은 지팡이를가지고 있으면 저주 상태가 돼.<end>"
-
-## 230016
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、魔物の骨を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Monster Bone afflicts you with Curse.<end>"
-KO: "이미 알고 있을지도 모르지만, 마물의 뼈를 갖고 있으면 저주 상태가 돼.<end>"
-
-## 230017
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、深海魚の目玉を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Deep-Sea Fish Eye afflicts you with Curse.<end>"
-KO: "이미 알지도 모르지만 심해어의 눈알을 가지고 있으면 저주 상태가 돼.<end>"
-
-## 230018
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を探してきて欲しい。<line-break>なくなっちまわないように最優先でやってくれ。<end>"
-EN: "I want you to find <value:$15>. Make this your top priority so it doesn't disappear.<end>"
-KO: "<value:$15>을 찾아 줬으면 해. 없어지지 않게 최우선으로 해 줘.<end>"
-
-## 230019
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を探し出し、<line-break>持ち帰る冒険者を募集している。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内である。<line-break>途中、モンスターの襲撃が予想される。<line-break>精強な戦士の応募を期待している。<end>"
-EN: "Seeking an adventurer to find and bring back <value:$15>. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. Monster attacks are expected along the way. Strong, capable fighters are encouraged to apply.<end>"
-KO: "<value:$15>를 찾아 가져올 모험가를 모집한다. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내다. 도중에 몬스터의 습격이 예상된다. 강한 전사의 지원을 바란다.<end>"
-
-## 230020
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を持ち帰ってくださる方を<line-break>募集しています。取りに行きたいのですが、<line-break>モンスターがたくさんいて近づけません。<line-break><value:$1B>日以内にやっていただけたならば、<line-break><value:$1A>ギア進呈いたします。<end>"
-EN: "Seeking someone to bring back <value:$15>. Retrieving it directly would be preferable, but the many monsters make it impossible to get close. Complete the job within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "<value:$15>를 가져와 주실 분을 모집합니다. 직접 가고 싶지만 몬스터가 많아 접근할 수 없습니다. <value:$1B>일 이내에 해 주시면 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 230021
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我々の魔道研究において、<line-break><value:$15>が必要になった。<line-break>至急入手する必要がある。<line-break><value:$15>を探索、入手して帰還せよ。<line-break><value:$1B>日以内を期限とする。<line-break>成功すれば、<value:$1A>ギアの報酬を与える。<end>"
-EN: "Our magical research now requires <value:$15>, and it must be obtained urgently. Search for <value:$15>, secure it, and return. Deadline: within <value:$1B> days. Reward upon success: <value:$1A> Gea.<end>"
-KO: "우리의 마도 연구에 <value:$15>이 필요해졌다. 시급히 입수해야 한다. <value:$15>을 탐색해 입수한 뒤 귀환하라. 기한은 <value:$1B>일 이내. 성공하면 <value:$1A>기어의 보수를 지급한다.<end>"
-
-## 230022
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "日頃はご愛顧をいただきありがとうございます。<line-break>私ども道具屋ギルドは、<value:$15>を<line-break>入手する必要に迫られています。<line-break><value:$15>を探して持ち帰ってください。<line-break><value:$1B>日以内、<value:$1A>ギアの報酬です。<end>"
-EN: "Thank you for your continued patronage. The Item Merchants' Guild urgently needs <value:$15>. Please find <value:$15> and bring it back. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "평소 이용해 주셔서 감사합니다. 저희 도구점 길드는 <value:$15>을 입수해야 하는 상황입니다. <value:$15>을 찾아 가져와 주세요. 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어입니다.<end>"
-
-## 230023
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度どうも。いつも世話になってるね。<line-break>今回の依頼は、<value:$15>の探索なんだ。<line-break>仕事上でこいつが必要になってね。<line-break><value:$1B>日以内に持ち帰ってほしいんだ。<line-break>お礼は、<value:$1A>ギアだ。<end>"
-EN: "Thanks as always. Your help is always appreciated. This time, the request is to find <value:$15>. It's needed for work, so please bring it back within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "늘 고마워. 항상 신세 지고 있네. 이번 의뢰는 <value:$15>를 찾는 일이야. 일 때문에 이게 필요해서 말이지. <value:$1B>일 이내에 가져와 줘. 사례는 <value:$1A>기어야.<end>"
-
-## 230024
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "神殿に救いを求めて来る者に<line-break>分け与えるための品が不足しております。<line-break>材料となる<value:$15>を<line-break>探して持ち帰ってください。<line-break><value:$1A>ギアを寸志として進呈いたします。<line-break><value:$1B>日以内にやりとげるようお願いします。<end>"
-EN: "We are running short of items to distribute to those who come to the temple seeking aid. Please find and bring back <value:$15>, which is needed to make them. We offer a modest reward of <value:$1A> Gea. Please complete the task within <value:$1B> days.<end>"
-KO: "신전에 구원을 구하러 오는 이들에게 나눠 줄 물품이 부족합니다. 재료인 <value:$15>을 찾아 가져와 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 안에 완수해 주십시오.<end>"
-
-## 230025
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が必要になりましたので、<line-break>探して持ち帰ってきていだたきたいのです。<line-break>モンスターが多くいるので、<line-break>充分に注意なさってください。<line-break>お礼は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内です。<end>"
-EN: "Please find and bring back <value:$15>. Many monsters are present, so take great care. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "<value:$15>가 필요하니 찾아서 가져와 주세요. 몬스터가 많으므로 충분히 조심하시고요. 사례는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 230026
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅の途中、大事な<value:$15>を<line-break>なくしてしまいました。探しに行こうにも、<line-break>モンスターがたくさんいた場所なので、<line-break>とても戻る気になれません。<line-break>どうか探して持ち帰ってください。<line-break><value:$1A>ギアのお礼をいたします。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "A precious possession was lost while traveling: <value:$15>. The place was full of monsters, and going back is out of the question. Please find it and bring it back. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "여행 도중 소중한 <value:$15>을 잃어버렸습니다. 찾으러 가고 싶어도 몬스터가 잔뜩 있던 곳이라 도저히 돌아갈 엄두가 나지 않습니다. 부디 찾아서 가져와 주세요. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 230027
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "使いの者が何者かに襲われた。<line-break>幸い無事に逃げ帰ったが、その途中で、<line-break><value:$15>をなくしてしまったようだ。<line-break>この品を見つけ出し、持ち帰ってくれ。<line-break>褒美は、<value:$1A>ギアである。<line-break><value:$1B>日以内に仕事を済ませてほしい。<end>"
-EN: "Our messenger was attacked by someone. Fortunately, the messenger escaped unharmed, but apparently lost <value:$15> along the way. Find the item and bring it back. Reward: <value:$1A> Gea. Complete the job within <value:$1B> days.<end>"
-KO: "심부름꾼이 누군가에게 습격당했다. 다행히 무사히 도망쳐 돌아왔지만 그 과정에서 <value:$15>을 잃어버린 모양이다. 이 물건을 찾아 가져오라. 보상은 <value:$1A>기어다. <value:$1B>일 이내에 일을 끝내 주었으면 한다.<end>"
-
-## 230028
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "自衛用にギルドで独自に作っている武具の材料、<line-break><value:$15>を採ってきて欲しい。<line-break>危険な場所にあるから、気をつけていってくれ。<line-break><value:$1A>ギア用意した。<line-break>期限は、<value:$1B>日以内だ。<end>"
-EN: "Gather and bring back <value:$15>, a material the Guild uses to make its own arms and armor for self-defense. It is found in a dangerous place, so be careful. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "자위용으로 길드에서 자체 제작하는 무구의 재료 <value:$15>를 채취해 와 줘. 위험한 곳에 있으니 조심해서 가. <value:$1A>기어를 준비했다. 기한은 <value:$1B>일 이내다.<end>"
-
-## 230029
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"
-EN: "There's something we need: <value:$15>. Could you find it and bring it back? Please complete the job within <value:$1B> days. Everyone pooled what they could and raised <value:$1A> Gea. Would that do as a reward?<end>"
-KO: "필요한 물건이 있네. <value:$15>인데, 찾아서 가져다주지 않겠나. 미안하지만 <value:$1B>일 이내로 부탁하네. 모두 돈을 모아 <value:$1A>기어를 마련했어. 사례로 이 정도면 어떻겠나.<end>"
-
-## 230030
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度ご利用感謝いたしております。<line-break>このたびはこちらからのお願いになります。<line-break><value:$15>を、発見し入手してください。<line-break><value:$1A>ギアのお礼を用意できます。<line-break><value:$1B>日以内でぜひお願いします。<end>"
-EN: "Thank you for your continued patronage. This time, we have a request for you: please find and obtain <value:$15>. We can offer <value:$1A> Gea as thanks. Please complete the job within <value:$1B> days.<end>"
-KO: "늘 이용해 주셔서 감사합니다. 이번에는 저희 쪽에서 부탁드립니다. <value:$15>를 찾아 입수해 주세요. 사례로 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 꼭 부탁드립니다.<end>"
-
-## 230031
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "お前さんたちでなければできない仕事だぜ。<line-break><value:$15>を探し出し持ち帰ることだ。<line-break><value:$1A>ギア用意した。<value:$1B>日以内で頼む。<line-break>モンスターがうろついてて、危ないからな。<line-break>気をつけろよ。<end>"
-EN: "This is a job only you can handle. Find <value:$15> and bring it back. Reward: <value:$1A> Gea. Get it done within <value:$1B> days. Monsters are roaming the area, so watch yourselves.<end>"
-KO: "너희가 아니면 할 수 없는 일이야. <value:$15>를 찾아 가져오는 거다. <value:$1A>기어 준비했어. <value:$1B>일 이내로 부탁한다. 몬스터가 돌아다녀 위험하니 조심해.<end>"
-
-## 230032
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "頼みたいことがあります。<line-break><value:$15>を探し出して、<line-break>手に入れてきてください。<line-break><value:$1A>ギアで、期日は<value:$1B>日以内です。<line-break>モンスターが多数いる場所での探索なので、<line-break>冒険のプロである冒険者の方にお任せします。<end>"
-EN: "We have a request. Please find and obtain <value:$15>. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. The search area is home to many monsters, so this job is best left to professional adventurers.<end>"
-KO: "부탁드릴 일이 있습니다. <value:$15>을 찾아 확보해 주세요. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다. 몬스터가 많은 곳에서 찾아야 하므로 모험 전문가인 모험자분께 맡기겠습니다.<end>"
-
-## 230033
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我がフゴー商会では、宿屋だけでなく、<line-break>手広い商売をしております。各種材料の調達も<line-break>そのひとつですが、入手困難なものが<line-break>ありまして、その探索をお願いしたいのです。<line-break><value:$15>というものですが、<line-break>報酬<value:$1A>ギアで、<value:$1B>日以内、<line-break>という条件でお願いできませんか？<end>"
-EN: "Hugo Trading Company runs an inn and other businesses. Please find the hard-to-get material <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "저희 휴고 상회는 여관뿐 아니라 폭넓게 장사를 하고 있습니다. 각종 재료 조달도 그중 하나인데 구하기 어려운 것이 있어 탐색을 부탁드리고 싶습니다. <value:$15>이라는 물건입니다. 보수 <value:$1A>기어, <value:$1B>일 이내라는 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230034
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "いや、参りました。街の外にでかけていたら、<line-break>モンスターに出くわしてしまいました。<line-break>なんとか逃げることはできたのですが、大事な<line-break><value:$15>を落としてしまいました。<line-break>探して持ち帰ってくださる冒険者はいませんか。<line-break><value:$1B>日以内にやってくださったのならば、<line-break><value:$1A>ギアさしあげます。<end>"
-EN: "What a mess. Monsters appeared during a trip outside town. Escape was possible, but an important possession was dropped in the process: <value:$15>. Is there an adventurer who can find it and bring it back? Complete the job within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "참 난감하군요. 도시 밖에 나갔다가 몬스터와 마주쳤습니다. 간신히 도망치긴 했지만 소중한 <value:$15>을 떨어뜨리고 말았습니다. 찾아서 가져와 주실 모험가분은 없습니까? <value:$1B>일 이내에 해주신다면 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 230035
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我が邸の高級料理の隠し味<value:$15>を<line-break>持ち帰ってほしい。危険なところにあるのだが、<line-break>貴重な材料ゆえ、ぜひ欲しい。<line-break>褒美として、<value:$1A>ギアとらそう。<line-break><value:$1B>日以内に頼むぞ。<end>"
-EN: "Bring back <value:$15>, the secret ingredient in the fine cuisine served at this estate. It is found in a dangerous place, but it is a precious ingredient and must be obtained. A reward of <value:$1A> Gea shall be granted. Complete the task within <value:$1B> days.<end>"
-KO: "우리 저택의 고급 요리에 넣는 비법 재료 <value:$15>를 가져와 주게. 위험한 곳에 있지만 귀한 재료라 꼭 필요하네. 보상으로 <value:$1A>기어를 주지. <value:$1B>일 이내로 부탁하네.<end>"
-
-## 230036
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "使いの者が、途中でモンスターに襲われ、<line-break>荷物を置いて逃げてきてしまいました。<line-break>荷物の中の<value:$15>だけは、<line-break>とりかえさねばなりません。<line-break>探索を行い、品物を持ち帰ってください。<line-break><value:$1A>ギアを用意しました。<line-break><value:$1B>日以内でお願いします。<end>"
-EN: "Our messenger was attacked by monsters along the way and had to abandon the baggage to escape. At the very least, we must recover <value:$15> from it. Search for the baggage and bring the item back. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "심부름꾼이 길에서 몬스터에게 습격당해 짐을 버리고 도망쳐 왔습니다. 짐 속의 <value:$15>만큼은 반드시 되찾아야 합니다. 수색해서 물건을 가져와 주세요. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내로 부탁드립니다.<end>"
-
-## 230037
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "村の特産品の材料を採ってきてくだされ。<line-break>戦いの素人が採りに行くには<line-break>ちとやっかいな品物での。<line-break><value:$15>というんじゃ。<line-break><value:$1B>日以内に頼むよ。<line-break>あんまり多くはないが、お礼もするつもりじゃ。<end>"
-EN: "Please gather material for one of our village specialties. The item is a bit too troublesome for anyone inexperienced in combat to collect. It is called <value:$15>. Please bring it back within <value:$1B> days. We cannot offer much, but there will be a reward.<end>"
-KO: "마을 특산품의 재료를 채취해 주게. 싸움에 익숙하지 않은 사람이 가지러 가기엔 좀 까다로운 물건이라서 말이야. <value:$15>라는 건데, <value:$1B>일 안에 부탁하네. 많지는 않지만 사례도 할 생각이야.<end>"
-
-## 230038
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を手に入れる必要があります。<line-break>これがあれば商売がうまくいくのです。<line-break><value:$15>を捜し、持ち帰ってください。<line-break>期限は<value:$1B>日以内といたします。<line-break><value:$1A>ギアの報酬をお支払いします。<end>"
-EN: "<value:$15> is needed. With it, business will prosper. Find <value:$15> and bring it back. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>를 구해야 합니다. 이것이 있으면 장사가 잘됩니다. <value:$15>를 찾아 가져와 주세요. 기한은 <value:$1B>일 이내입니다. 보수로 <value:$1A>기어를 지급하겠습니다.<end>"
-
-## 230039
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "依頼したいのは<value:$15>の探索と入手。<line-break>期限は、<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアだ。<line-break>鍛冶屋ギルドにとって重要な材料だ。<line-break>よろしく頼む。<end>"
-EN: "Request: find and obtain <value:$15>. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea. This material is important to the Blacksmiths' Guild. We're counting on you.<end>"
-KO: "의뢰하고 싶은 건 <value:$15>의 탐색과 입수다. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다. 대장장이 길드에 중요한 재료다. 부탁한다.<end>"
-
-## 230040
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "手に入れたいものがあるんだ。<line-break><value:$15>なんだけどね。<line-break>なにしろモンスターがたくさんいるもんでね、<line-break>あたしたちじゃ取りにいけないのさ。<line-break><value:$15>を探して持ってきてもらえる？<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギア払うよ。<end>"
-EN: "There's something we want: <value:$15>. There are so many monsters around that we can't go and get it ourselves. Could you find <value:$15> and bring it back? Complete the job within <value:$1B> days and we'll pay <value:$1A> Gea.<end>"
-KO: "갖고 싶은 물건이 있어. <value:$15>인데 말이야. 몬스터가 워낙 많아서 우리로선 가지러 갈 수가 없어. <value:$15>을 찾아서 가져다줄래? <value:$1B>일 이내에 해 주면 <value:$1A>기어를 줄게.<end>"
-
-## 230041
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が、必要になりました。<line-break>そこで、冒険者の方にお願いしようと思います。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアとさせていただきます。<end>"
-EN: "<value:$15> is now needed, so an adventurer's help is requested. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>이 필요하게 되었습니다. 그래서 모험자분께 부탁드리려 합니다. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어입니다.<end>"
-
-## 230042
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅の途中、モンスターに襲われ、<line-break><value:$15>をなくしてしまいました。<line-break>どうか、モンスターの住みかに向かい、<line-break>取り返してきてください。<line-break>謝礼は、<value:$1A>ギア用意しました。<line-break>期限は、<value:$1B>日以内でお願いします。<end>"
-EN: "An attack by monsters while traveling resulted in the loss of <value:$15>. Please go to the monsters' lair and recover it. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "여행 도중 몬스터에게 습격당해 <value:$15>을 잃어버렸습니다. 부디 몬스터의 소굴로 가서 되찾아 주세요. 사례는 <value:$1A>기어 준비했습니다. 기한은 <value:$1B>일 이내로 부탁드립니다.<end>"
-
-## 230043
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "自治には、ある程度の軍備も必要です。<line-break>このたび装備の充実のために、材料である<line-break><value:$15>が、必要となりました。<line-break><value:$1B>日以内で、探索し、持ち帰ってください。<line-break>報酬は、<value:$1A>ギアです。<end>"
-EN: "A measure of military strength is necessary for self-government. To improve our equipment, we now need <value:$15> as material. Find it and bring it back within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "자치를 위해서는 어느 정도 군비도 필요합니다. 이번에 장비를 충실히 갖추기 위해 재료인 <value:$15>가 필요합니다. <value:$1B>일 안에 찾아서 가져와 주세요. 보수는 <value:$1A>기어입니다.<end>"
-
-## 230044
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "村の女たちが作っている装飾品の材料で、<line-break>必要な物があってな。<line-break><value:$15>なんだが、見つけて<line-break>持ち帰ってもらえんか。<line-break>すまないが、<value:$1B>日以内で頼みたい。<line-break>報酬は、<value:$1A>ギアでどうかな？<end>"
-EN: "We need material for the ornaments made by the women of the village: <value:$15>. Could you find it and bring it back? Please complete the job within <value:$1B> days. How does <value:$1A> Gea sound as a reward?<end>"
-KO: "마을 여자들이 만드는 장식품 재료가 필요해서 말이야. <value:$15>인데 찾아서 가져와 줄 수 있겠나. 미안하지만 <value:$1B>일 이내로 부탁하고 싶어. 보수는 <value:$1A>기어면 어떻겠나?<end>"
-
-## 230045
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "様々な道具を扱う我々にとって、材料の採取は<line-break>欠かせない仕事なのですが、<line-break>外はモンスターが多くて、非常に困っています。<line-break>代わりに材料を採ってきてもらえませんか？<line-break><value:$15>を持ち帰ってください。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
-EN: "Gathering materials is essential to our trade in all kinds of tools, but the many monsters outside have put us in a difficult position. Could you gather material in our place? Please bring back <value:$15> within <value:$1B> days. Would <value:$1A> Gea be acceptable as a reward?<end>"
-KO: "여러 도구를 취급하는 저희에게 재료 채집은 빼놓을 수 없는 일입니다만, 밖에는 몬스터가 많아 매우 곤란합니다. 대신 재료를 채집해 오실 수 있겠습니까? <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어면 어떻겠습니까.<end>"
-
-## 230046
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "あんたたちを見込んで頼みたいことがあるんだ。<line-break><value:$15>の探索と入手だ。<line-break>モンスターがよく出る所らしいから、<line-break>うまくやってくれよ。<line-break><value:$1B>日以内が期限。<line-break>報酬は、<value:$1A>ギアだぜ。<end>"
-EN: "A job for capable hands: find and obtain <value:$15>. Monsters are said to appear often in the area, so handle the job well. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "너희를 믿고 부탁할 일이 있어. <value:$15>를 찾아서 가져오는 거야. 몬스터가 자주 나오는 곳이라니까 잘 해 줘. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다.<end>"
-
-## 230047
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "酒場は、闘技場の戦士さんたちのいこいの場。<line-break>とってもうまい特製の酒を用意してるよ。<line-break>こいつを作るには秘密があってね。<line-break><value:$15>がいるんだが、<line-break>危険なところにあるんだ。<line-break>代わりに採ってきてくれないか？<line-break>報酬は<value:$1A>ギア、<value:$1B>日以内で頼むよ。<end>"
-EN: "The tavern is where the arena fighters come to relax, and we keep a delicious house liquor on hand. Its secret ingredient is <value:$15>, but it is found in a dangerous place. Could you gather it for us? Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "술집은 투기장 전사들의 휴식처지. 아주 맛있는 특제 술을 준비하고 있어. 이걸 만드는 데는 비밀이 있는데 <value:$15>이 필요하거든. 그런데 위험한 곳에 있어. 대신 채집해 오지 않을래? 보수는 <value:$1A>기어, <value:$1B>일 이내로 부탁해.<end>"
-
-## 230048
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我がフゴー商会では、宿屋だけでなく、<line-break>手広い商売をしております。各種材料の調達も<line-break>そのひとつですが、入手困難なものが<line-break>ありまして、その探索をお願いしたいのです。<line-break><value:$15>というものですが、<line-break>報酬<value:$1A>ギアで、<value:$1B>日以内、<line-break>という条件でお願いできませんか？<end>"
-EN: "Hugo Trading Company runs an inn and other businesses. Please find the hard-to-get material <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "저희 휴고 상회는 여관뿐 아니라 폭넓게 장사를 하고 있습니다. 각종 재료 조달도 그중 하나인데 구하기 어려운 것이 있어 탐색을 부탁드리고 싶습니다. <value:$15>이라는 물건입니다. 보수 <value:$1A>기어, <value:$1B>일 이내라는 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230049
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を探し出し、入手してほしい。<line-break>期限は、<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアとする。<end>"
-EN: "Find and obtain <value:$15>. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 찾아 입수해 줬으면 한다. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다.<end>"
-
-## 230050
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "勇敢な冒険者のみなさんへの依頼は、<line-break><value:$15>を探して持ち帰ることです。<line-break>いろいろな使い道があるのですが、<line-break>なんでものどにもいいそうです。<line-break><value:$1B>日以内に持ち帰ってください。<line-break><value:$1A>ギアお支払いします。<end>"
-EN: "Brave adventurers, your task is to find and bring back <value:$15>. It has many uses and is apparently good for the throat as well. Bring it back within <value:$1B> days. Payment: <value:$1A> Gea.<end>"
-KO: "용감한 모험자 여러분께 부탁드릴 일은 <value:$15>을 찾아 가져오는 것입니다. 여러 용도가 있는데 목에도 좋다고 하더군요. <value:$1B>일 이내에 가져와 주세요. <value:$1A>기어를 지급하겠습니다.<end>"
-
-## 230051
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "　　　　　　　　　　　告<line-break>重要な物件<value:$15>を入手したい。<line-break>冒険にたけた勇者よ、困難をしりぞけ探索を行い<line-break><value:$15>を持ち帰ってほしい。<line-break>期間：<value:$1B>日以内<line-break>報酬：<value:$1A>ギア<end>"
-EN: "NOTICE: Important item sought: <value:$15>. A hero skilled in adventuring is sought to overcome the dangers, find <value:$15>, and bring it back. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "고지. 중요 물품 <value:$15>를 입수하고 싶다. 모험에 능한 용사여, 어려움을 물리치고 탐색하여 <value:$15>를 가져와 주기 바란다. 기간: <value:$1B>일 이내. 보수: <value:$1A>기어<end>"
-
-## 230052
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "使いの者が、途中でモンスターに襲われ、<line-break>荷物を置いて逃げてきてしまいました。<line-break>荷物の中の<value:$15>だけは、<line-break>とりかえさねばなりません。<line-break>探索を行い、品物を持ち帰ってください。<line-break><value:$1A>ギアを用意しました。<line-break><value:$1B>日以内でお願いします。<end>"
-EN: "Our messenger was attacked by monsters along the way and had to abandon the baggage to escape. At the very least, we must recover <value:$15> from it. Search for the baggage and bring the item back. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "심부름꾼이 길에서 몬스터에게 습격당해 짐을 버리고 도망쳐 왔습니다. 짐 속의 <value:$15>만큼은 반드시 되찾아야 합니다. 수색해서 물건을 가져와 주세요. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내로 부탁드립니다.<end>"
-
-## 230053
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "村の特産品の材料を採ってきてくだされ。<line-break>戦いの素人が採りに行くには、<line-break>ちとやっかいな品物での。<line-break><value:$15>というんじゃ。<line-break><value:$1B>日以内に頼むよ。<line-break>あんまり多くはないが、お礼もするつもりじゃ。<end>"
-EN: "Please gather material for one of our village specialties. The item is a bit too troublesome for anyone inexperienced in combat to collect. It is called <value:$15>. Please bring it back within <value:$1B> days. We cannot offer much, but there will be a reward.<end>"
-KO: "마을 특산품 재료를 구해 와 주게. 전투 경험 없는 사람이 캐러 가기엔 조금 까다로운 물건이라네. <value:$15>라는 것이야. <value:$1B>일 이내에 부탁하네. 많지는 않지만 사례도 하겠네.<end>"
-
-## 230054
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が、必要になりました。<line-break>しかし、この材料がある場所には、<line-break>モンスターがたくさん住んでいるのです。<line-break>冒険者の方、どなたか、<value:$15>を<line-break>持ち帰ってくださいませんか。<line-break><value:$1A>ギアを支払いましょう。<line-break><value:$1B>日以内にできる方、お願いします。<end>"
-EN: "We need <value:$15>, but many monsters live where this material is found. Would an adventurer please bring back <value:$15>? Payment: <value:$1A> Gea. Applicants must be able to complete the job within <value:$1B> days.<end>"
-KO: "<value:$15>이 필요하게 됐습니다. 하지만 이 재료가 있는 곳에는 몬스터가 아주 많이 살고 있습니다. 모험가분 중 누군가 <value:$15>을 가져와 주시겠습니까? <value:$1A>기어를 지급하겠습니다. <value:$1B>일 이내에 가능하신 분께 부탁드립니다.<end>"
-
-## 230055
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "外はモンスターだらけで、<line-break>武器の材料を手に入れるのも一苦労だ。<line-break>誰か代わりに行ってきちゃあくれねぇか？<line-break><value:$1A>ギア出すぜ。<line-break><value:$1B>日以内に持ってきてくれよ。<end>"
-EN: "The world outside is crawling with monsters, so even obtaining material for weapons is a struggle. Will someone go in our place? Reward: <value:$1A> Gea. Bring it back within <value:$1B> days.<end>"
-KO: "밖은 몬스터투성이라 무기 재료를 구하는 것도 큰일이야. 누가 대신 다녀와 주지 않을래? <value:$1A>기어 줄게. <value:$1B>일 안에 가져와 줘.<end>"
-
-## 230056
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "取ってきてもらいたい物があるんだ。<line-break>ちょっと仕事の都合で必要になってね。<line-break><value:$15>を持って帰ってきてくれんか。<line-break><value:$1A>ギア出すからさ。<line-break><value:$1B>日以内で頼むよ。<end>"
-EN: "There's something we need for work. Bring back <value:$15>, and we'll pay <value:$1A> Gea. Please complete the job within <value:$1B> days.<end>"
-KO: "가져와 줬으면 하는 물건이 있어. 일 때문에 좀 필요해져서 말이야. <value:$15>을 가져와 주겠나. <value:$1A>기어 줄게. <value:$1B>일 이내로 부탁해.<end>"
-
-## 230057
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我がフゴー商会では、宿屋だけでなく、<line-break>手広い商売をしております。各種材料の調達も<line-break>そのひとつですが、入手困難なものが<line-break>ありまして、その探索をお願いしたいのです。<line-break><value:$15>というものですが、<line-break>報酬<value:$1A>ギアで、<value:$1B>日以内、<line-break>という条件でお願いできませんか？<end>"
-EN: "Hugo Trading Company runs an inn and other businesses. Please find the hard-to-get material <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "저희 휴고 상회는 여관뿐 아니라 폭넓게 장사를 하고 있습니다. 각종 재료 조달도 그중 하나인데 구하기 어려운 것이 있어 탐색을 부탁드리고 싶습니다. <value:$15>이라는 물건입니다. 보수 <value:$1A>기어, <value:$1B>일 이내라는 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230058
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "探し物ができました。<value:$15>です。<line-break>いろいろと重宝する材料なんですよ。<line-break>冒険者の方に探し出していただきたいのですが、<line-break><value:$1B>日以内の期限で、<value:$1A>ギアの報酬。<line-break>どうでしょう、やってもらえませんか？<end>"
-EN: "Wanted: <value:$15>. This material has all sorts of useful applications. An adventurer is needed for the search. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea. Will you take the job?<end>"
-KO: "찾을 물건이 생겼습니다. <value:$15>입니다. 여러모로 쓸모 있는 재료거든요. 모험가분께 찾아 달라고 부탁하고 싶은데, 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어입니다. 해 주시겠습니까?<end>"
-
-## 230059
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "この都市の防衛は、傭兵たちの力に頼っている。<line-break>そのため、彼らには、<line-break>常に充実した装備を提供せねばならない。<line-break>冒険者諸君には、武器、防具生産に必要な<line-break><value:$15>を持ち帰ってほしい。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内とする。<end>"
-EN: "This city's defense depends on its mercenaries, so they must always be kept well equipped. Adventurers, bring back <value:$15>, which is needed to produce weapons and armor. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "이 도시의 방위는 용병들의 힘에 의존하고 있다. 따라서 그들에게는 늘 충실한 장비를 제공해야 한다. 모험가 제군은 무기와 방어구 생산에 필요한 <value:$15>을 가져와 주길 바란다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
-
-## 230060
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "いざというときの都市防衛のため、<line-break>ギルドで独自に作っている武具の材料、<line-break><value:$15>を採ってきてもらえませんか？<line-break><value:$1A>ギアの報酬で、<value:$1B>日以内の期限。<line-break>上記の条件でやってもらえませんか？<end>"
-EN: "For the city's defense in times of crisis, could you gather <value:$15>, a material the Guild uses to make its own arms and armor? Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. Will you accept these terms?<end>"
-KO: "만일의 도시 방위를 위해 길드가 자체 제작하는 무구의 재료인 <value:$15>를 채취해 주시겠습니까? 보수 <value:$1A>기어, 기한 <value:$1B>일 이내. 위 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230061
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"
-EN: "There's something we need: <value:$15>. Could you find it and bring it back? Please complete the job within <value:$1B> days. Everyone pooled what they could and raised <value:$1A> Gea. Would that do as a reward?<end>"
-KO: "필요한 물건이 있네. <value:$15>인데, 찾아서 가져다주지 않겠나. 미안하지만 <value:$1B>일 이내로 부탁하네. 모두 돈을 모아 <value:$1A>기어를 마련했어. 사례로 이 정도면 어떻겠나.<end>"
-
-## 230062
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "様々な道具を扱う我々にとって、<line-break>材料の採取は、欠かせない仕事なのですが、<line-break>外はモンスターが多くて、非常に困っています。<line-break>代わりに材料を採ってきてもらえませんか？<line-break><value:$15>を持ち帰ってください。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
-EN: "Gathering materials is essential to our trade in all kinds of tools, but the many monsters outside have put us in a difficult position. Could you gather material in our place? Please bring back <value:$15> within <value:$1B> days. Would <value:$1A> Gea be acceptable as a reward?<end>"
-KO: "여러 도구를 취급하는 저희에게 재료 채집은 빼놓을 수 없는 일입니다만, 밖에는 몬스터가 많아 매우 곤란합니다. 대신 재료를 채집해 오실 수 있겠습니까? <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어면 어떻겠습니까.<end>"
-
-## 230063
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を手に入れたいんじゃ。<line-break>これがないと仕事にならん。<line-break>材料がなくちゃあ、物は作れんからな。<line-break><value:$1A>ギアなら出せるでの。<line-break><value:$1B>日以内に頼むぞ。<end>"
-EN: "<value:$15> is needed. Without it, work grinds to a halt; nothing can be made without materials. A reward of <value:$1A> Gea is available. Bring it back within <value:$1B> days.<end>"
-KO: "<value:$15>을 구하고 싶네. 이게 없으면 일을 못 해. 재료가 없으면 물건을 만들 수 없으니까.<value:$1A> 기어라면 줄 수 있네.<value:$1B>일 이내로 부탁하네.<end>"
-
-## 230064
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "いい酒場には、特製の酒が置いてあるもんさ。<line-break>アルノートゥン酒場でも同様でね。<line-break><value:$15>を使って作るんだが、<line-break>危険な場所にあって、簡単には採ってこれない。<line-break>で、かわりに持ち帰ってほしいんだが、<line-break><value:$1B>日以内にできないかな？<line-break>報酬は、<value:$1A>ギア出すよ。<end>"
-EN: "Every good tavern keeps a house liquor, and Alnortun Tavern is no exception. Ours is made with <value:$15>, but it comes from a dangerous place and is not easy to gather. Could you bring it back for us within <value:$1B> days? Reward: <value:$1A> Gea.<end>"
-KO: "좋은 술집에는 특제 술이 있는 법이지. 알노툰 술집도 마찬가지야. <value:$15>을 써서 만드는데 위험한 곳에 있어서 쉽게 가져올 수가 없어. 대신 가져와 줬으면 하는데 <value:$1B>일 이내로 가능할까? 보수는 <value:$1A>기어 줄게.<end>"
-
-## 230065
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を入手したいと思います。<line-break>ただし、現地には様々な危険が予想されます。<line-break>戦いに秀でた冒険者の方にお任せしたいのです。<line-break>期間は、<value:$1B>日以内で。<line-break>報酬は、<value:$1A>ギアとします。<end>"
-EN: "<value:$15> is wanted, but various dangers are expected at the site. The task should be entrusted to an adventurer skilled in combat. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>을(를) 입수하고 싶습니다. 다만 현지에는 여러 위험이 예상됩니다. 전투에 능한 모험자에게 맡기고 싶습니다. 기간은 <value:$1B>일 이내. 보수는 <value:$1A>기어로 하겠습니다.<end>"
-
-## 230066
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の方にお願いしたいことがあります。<line-break>モンスターから逃げる途中になくしてしまった<line-break><value:$15>を探してください。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアです。<end>"
-EN: "A request for an adventurer: please find <value:$15>, which was lost while fleeing from monsters. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "모험자분께 부탁드릴 일이 있습니다. 몬스터에게서 도망치다 잃어버린 <value:$15>을 찾아 주세요. 기한은 <value:$1B>일 이내. 사례금은 <value:$1A>기어입니다.<end>"
-
-## 230067
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "神殿を訪れる巡礼者たちに、<line-break>旅で役立つ品を渡し、労をねぎらっております。<line-break>しかし、その品の材料の調達に困っています。<line-break><value:$1B>日以内に、<value:$15>を<line-break>持ち帰ってもらえませんか？<line-break>報酬に、<value:$1A>ギア差し上げます。<end>"
-EN: "We give pilgrims visiting the temple useful items for their journeys in recognition of their hardships, but we are struggling to procure the necessary material. Could you bring back <value:$15> within <value:$1B> days? Reward: <value:$1A> Gea.<end>"
-KO: "신전을 찾는 순례자들에게 여행에 도움이 되는 물건을 나눠 드리며 노고를 위로하고 있습니다. 하지만 그 물건 재료를 구하는 데 어려움이 있습니다. <value:$1B>일 이내에 <value:$15>을 가져와 주시겠습니까? 보수로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 230068
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "物探しを手伝ってくれる人はいないかね。<line-break>どうも私たちの手にはあまってしまってね。<line-break><value:$15>を探し出してほしいんだ。<line-break><value:$1B>日以内に見つけてくれたら、<line-break><value:$1A>ギアのお礼を出すよ。<end>"
-EN: "Can anyone help us find something? The task is more than we can handle. We need you to find <value:$15>. Find it within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "물건 찾는 걸 도와줄 사람 없나? 우리 손에는 좀 벅차서 말이야. <value:$15>를 찾아 줬으면 해. <value:$1B>일 안에 찾아오면 <value:$1A>기어를 사례로 주지.<end>"
-
-## 230069
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"
-EN: "There's something we need: <value:$15>. Could you find it and bring it back? Please complete the job within <value:$1B> days. Everyone pooled what they could and raised <value:$1A> Gea. Would that do as a reward?<end>"
-KO: "필요한 물건이 있네. <value:$15>인데, 찾아서 가져다주지 않겠나. 미안하지만 <value:$1B>일 이내로 부탁하네. 모두 돈을 모아 <value:$1A>기어를 마련했어. 사례로 이 정도면 어떻겠나.<end>"
-
-## 230070
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "様々な道具を扱う我々にとって、<line-break>材料の採取は欠かせない仕事なのですが、<line-break>外はモンスターが多くて、非常に困っています。<line-break>かわりに材料を採ってきてもらえませんか？<line-break><value:$15>を持ち帰ってください。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
-EN: "Gathering materials is essential to our trade in all kinds of tools, but the many monsters outside have put us in a difficult position. Could you gather material in our place? Please bring back <value:$15> within <value:$1B> days. Would <value:$1A> Gea be acceptable as a reward?<end>"
-KO: "여러 도구를 취급하는 저희에게 재료 채집은 빼놓을 수 없는 일입니다만, 밖에는 몬스터가 많아 매우 곤란합니다. 대신 재료를 채집해 오실 수 있겠습니까? <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어면 어떻겠습니까.<end>"
-
-## 230071
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>の探索をしてくれる方、募集！<line-break>報酬は、<value:$1A>ギア！<line-break>期限は、<value:$1B>日以内！<line-break><value:$15>がなくなっちまってな。<line-break>こいつがないと武器も防具も作れねぇ。<line-break>頼んだぜ。<end>"
-EN: "Adventurer wanted to find <value:$15>! Reward: <value:$1A> Gea! Deadline: within <value:$1B> days! We've run out of <value:$15>. Without it, we can't make weapons or armor. We're counting on you!<end>"
-KO: "<value:$15>를 찾아 줄 사람 모집! 보수는 <value:$1A>기어! 기한은 <value:$1B>일 이내! <value:$15>가 다 떨어졌어. 이게 없으면 무기도 방어구도 못 만들어. 부탁한다.<end>"
-
-## 230072
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "いい酒場には、特製の酒が置いてあるもんさ。<line-break>ウルカーン酒場でも同様でね。<line-break><value:$15>を使って作るんだが、<line-break>危険な場所にあって、簡単には採ってこれない。<line-break>で、代わりに持ち帰ってほしいんだが、<line-break><value:$1B>日以内にできないかな？<line-break>報酬は、<value:$1A>ギア出すよ。<end>"
-EN: "Every good tavern keeps a house liquor, and Ulkarne Tavern is no exception. Ours is made with <value:$15>, but it comes from a dangerous place and is not easy to gather. Could you bring it back for us within <value:$1B> days? Reward: <value:$1A> Gea.<end>"
-KO: "좋은 술집에는 특제 술이 있는 법이지. 울칸 술집도 마찬가지야. <value:$15>을 써서 만드는데 위험한 곳에 있어서 쉽게 채집할 수가 없어. 대신 가져와 줬으면 하는데 <value:$1B>일 이내에 가능할까? 보수는 <value:$1A>기어를 줄게.<end>"
-
-## 230073
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者のみなさまの力をお借りしたいのです。<line-break><value:$15>を入手したいのですが、<line-break>これがある場所はかなりの危険地帯なのです。<line-break>私どものように冒険に詳しくない者では、<line-break>出向くことはできません。<line-break><value:$1B>日以内に、報酬<value:$1A>で、<line-break>引き受けてもらえませんか？<end>"
-EN: "We would like to ask the adventurers for help. We need <value:$15>, but it is found in a very dangerous area. Those of us with little knowledge of adventuring cannot go there. Would you accept the job for a reward of <value:$1A>, to be completed within <value:$1B> days?<end>"
-KO: "모험가 여러분의 힘을 빌리고 싶습니다. <value:$15>을 구하고 싶은데 그게 있는 곳은 상당히 위험한 지역입니다. 저희처럼 모험에 익숙하지 않은 사람은 갈 수 없습니다. <value:$1B>일 이내, 보수 <value:$1A>기어로 맡아 주시겠습니까?<end>"
-
-## 230074
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の方々、紛失してしまった<line-break><value:$15>の探索をお願いしたいのです。<line-break>期限は、<value:$1B>日以内、<line-break>お礼は、<value:$1A>ギアの条件でどうですか？<line-break>場所はきっと、モンスターに追っかけまわされた<line-break>あの場所です。<line-break>大事な物なので、どうかよろしくお願いします。<end>"
-EN: "Adventurers, please search for the lost item: <value:$15>. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea. It must be where the monsters gave chase. The item is important, so please help.<end>"
-KO: "모험가 여러분, 잃어버린 <value:$15>을 찾아 주셨으면 합니다. 기한은 <value:$1B>일 이내, 사례는 <value:$1A>기어 조건이면 어떻습니까? 장소는 아마 몬스터에게 쫓겨 다녔던 그곳일 겁니다. 소중한 물건이니 꼭 부탁드립니다.<end>"
-
-## 230075
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "神殿を訪れる巡礼者たちに、<line-break>旅で役立つ品を渡し、労をねぎらっております。<line-break>しかし、その品の材料の調達に困っています。<line-break><value:$1B>日以内に、<value:$15>を<line-break>持ち帰ってもらえませんか？<line-break>報酬に、<value:$1A>ギア差し上げます。<end>"
-EN: "We give pilgrims visiting the temple useful items for their journeys in recognition of their hardships, but we are struggling to procure the necessary material. Could you bring back <value:$15> within <value:$1B> days? Reward: <value:$1A> Gea.<end>"
-KO: "신전을 찾는 순례자들에게 여행에 도움이 되는 물건을 나눠 드리며 노고를 위로하고 있습니다. 하지만 그 물건 재료를 구하는 데 어려움이 있습니다. <value:$1B>일 이내에 <value:$15>을 가져와 주시겠습니까? 보수로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 230076
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>探しの冒険者募集！<line-break><value:$1A>ギアの好条件！<line-break><value:$15>を持ち帰ってくれませんか？<line-break>戦いと宝捜しなら任せろというあなた、<line-break>稼ぐチャンスです。<line-break><value:$1B>日以内にできる方、応募待ってます。<end>"
-EN: "Adventurer wanted to find <value:$15>! Excellent reward: <value:$1A> Gea! Could you bring back <value:$15>? If fighting and treasure hunting are your specialties, this is your chance to earn. Apply if you can finish within <value:$1B> days.<end>"
-KO: "<value:$15>를 찾을 모험가 모집! 보수 <value:$1A>기어의 좋은 조건! <value:$15>를 찾아 가져와 주세요. 싸움과 보물찾기라면 자신 있다는 분, 돈 벌 기회입니다. <value:$1B>일 이내 가능한 분을 기다립니다.<end>"
-
-## 230077
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"
-EN: "There's something we need: <value:$15>. Could you find it and bring it back? Please complete the job within <value:$1B> days. Everyone pooled what they could and raised <value:$1A> Gea. Would that do as a reward?<end>"
-KO: "필요한 물건이 있네. <value:$15>인데, 찾아서 가져다주지 않겠나. 미안하지만 <value:$1B>일 이내로 부탁하네. 모두 돈을 모아 <value:$1A>기어를 마련했어. 사례로 이 정도면 어떻겠나.<end>"
-
-## 230078
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "様々な道具を扱う我々にとって、<line-break>材料の採取は欠かせない仕事なのですが、<line-break>外はモンスターが多くて、非常に困っています。<line-break>代わりに材料を採ってきてもらえませんか？<line-break><value:$15>を持ち帰ってください。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
-EN: "Gathering materials is essential to our trade in all kinds of tools, but the many monsters outside have put us in a difficult position. Could you gather material in our place? Please bring back <value:$15> within <value:$1B> days. Would <value:$1A> Gea be acceptable as a reward?<end>"
-KO: "여러 도구를 취급하는 저희에게 재료 채집은 빼놓을 수 없는 일입니다만, 밖에는 몬스터가 많아 매우 곤란합니다. 대신 재료를 채집해 오실 수 있겠습니까? <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어면 어떻겠습니까.<end>"
-
-## 230079
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を手に入れたいんじゃ。<line-break>これがないと仕事にならん。<line-break>材料がなくちゃあ、物は作れんからな。<line-break><value:$1A>ギアなら出せるでの。<line-break><value:$1B>日以内に頼むぞ。<end>"
-EN: "<value:$15> is needed. Without it, work grinds to a halt; nothing can be made without materials. A reward of <value:$1A> Gea is available. Bring it back within <value:$1B> days.<end>"
-KO: "<value:$15>을 구하고 싶네. 이게 없으면 일을 못 해. 재료가 없으면 물건을 만들 수 없으니까.<value:$1A> 기어라면 줄 수 있네.<value:$1B>일 이내로 부탁하네.<end>"
-
-## 230080
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "いい酒場には、特製の酒が置いてあるもんさ。<line-break>アキュリュース酒場でも、同様でね。<line-break><value:$15>を使って作るんだが、<line-break>危険な場所にあって、簡単には採ってこれない。<line-break>で、代わりに持ち帰ってほしいんだが、<line-break><value:$1B>日以内にできないかな？<line-break>報酬は、<value:$1A>ギア出すよ。<end>"
-EN: "Every good tavern keeps a house liquor, and Aqyurius Tavern is no exception. Ours is made with <value:$15>, but it comes from a dangerous place and is not easy to gather. Could you bring it back for us within <value:$1B> days? Reward: <value:$1A> Gea.<end>"
-KO: "좋은 술집에는 특제 술이 있는 법이지. 아큐류스 술집도 마찬가지야. <value:$15>을 써서 만드는데 위험한 곳에 있어서 쉽게 가져올 수가 없어. 대신 가져와 줬으면 하는데 <value:$1B>일 이내로 가능할까? 보수는 <value:$1A>기어 줄게.<end>"
-
-## 230081
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我がフゴー商会では、宿屋だけでなく、<line-break>手広い商売をしております。各種材料の調達も<line-break>そのひとつですが、入手困難なものが<line-break>ありまして、その探索をお願いしたいのです。<line-break><value:$15>というものですが、<line-break>報酬<value:$1A>ギアで、<value:$1B>日以内、<line-break>という条件でお願いできませんか？<end>"
-EN: "Hugo Trading Company runs an inn and other businesses. Please find the hard-to-get material <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "저희 휴고 상회는 여관뿐 아니라 폭넓게 장사를 하고 있습니다. 각종 재료 조달도 그중 하나인데 구하기 어려운 것이 있어 탐색을 부탁드리고 싶습니다. <value:$15>이라는 물건입니다. 보수 <value:$1A>기어, <value:$1B>일 이내라는 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230082
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "探し物ができました。<value:$15>です。<line-break>いろいろと重宝する材料なんですよ。<line-break>冒険者の方に探し出していただきたいのですが、<line-break><value:$1B>日以内の期限で、<value:$1A>ギアの報酬。<line-break>どうでしょう、やってもらえませんか？<end>"
-EN: "Wanted: <value:$15>. This material has all sorts of useful applications. An adventurer is needed for the search. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea. Will you take the job?<end>"
-KO: "찾을 물건이 생겼습니다. <value:$15>입니다. 여러모로 쓸모 있는 재료거든요. 모험가분께 찾아 달라고 부탁하고 싶은데, 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어입니다. 해 주시겠습니까?<end>"
-
-## 230083
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "日々の儀式には様々な品が必要である。<line-break>今回はそのひとつである<value:$15>を<line-break><value:$1B>日以内に持ち帰ってほしい。<line-break>報酬は、<value:$1A>ギアである。<end>"
-EN: "Daily rituals require many different items. This time, bring back <value:$15>, one of those items, within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "매일의 의식에는 여러 물품이 필요하다. 이번에는 그중 하나인 <value:$15>을 <value:$1B>일 이내에 가져와 줬으면 한다. 보수는 <value:$1A>기어다.<end>"
-
-## 230084
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "物探しを手伝ってくれる人はいないかね。<line-break>海を渡らないと手に入らない物でね。<line-break>ちょっと面倒なんだよ。<line-break><value:$15>を探し出してほしいんだ。<line-break><value:$1B>日以内に見つけてくれたら、<line-break><value:$1A>ギアのお礼を出すよ。<end>"
-EN: "Can anyone help with a search? The item can only be obtained by crossing the sea, so the task is rather troublesome. Please find <value:$15>. Find it within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "물건 찾는 걸 도와줄 사람 없나? 바다를 건너야 얻을 수 있는 물건이라 조금 번거롭거든. <value:$15>를 찾아 줬으면 해. <value:$1B>일 안에 찾아오면 <value:$1A>기어를 사례로 주지.<end>"
-
-## 230085
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を持ち帰ってほしい。<line-break>回復用の道具の材料さ。<line-break>報酬は、<value:$1A>ギア。<value:$1B>日以内だ。<line-break>海の上じゃあ、物が足りなくなったら、<line-break>自分らで作らなきゃならねぇ。<line-break>材料の確保は大切なのさ。頼んだぜ。<end>"
-EN: "Bring back <value:$15>. It's material for making recovery items. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. At sea, if supplies run short, we have to make what we need ourselves. Keeping materials on hand matters. We're counting on you.<end>"
-KO: "<value:$15>를 가져와 줬으면 해. 회복용 도구의 재료야. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내. 바다 위에선 물건이 부족하면 직접 만들어야 하니까 재료 확보가 중요해. 부탁한다.<end>"
-
-## 230086
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が切れてしまいました。<line-break>これがなくなってしまうと<line-break>品物を作れなくなってしまいます。<line-break><value:$15>を持ち帰ってださい。<line-break>日限は、<value:$1B>日以内とさせていただきます。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
-EN: "Supplies of <value:$15> have run out. Without it, the goods cannot be made. Please bring back <value:$15>. Deadline: within <value:$1B> days. Would <value:$1A> Gea be acceptable as a reward?<end>"
-KO: "<value:$15>이 떨어졌습니다. 이게 없으면 물건을 만들 수 없습니다. <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내로 하겠습니다. 사례는 <value:$1A>기어면 어떨까요.<end>"
-
-## 230087
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の力をぜひ借りたいんだ。<line-break><value:$15>を入手したいと思ってるんだ。<line-break>だが、俺たちが取りに行ったところで、<line-break>モンスターに追い返されるのがオチだ。<line-break>そこで、あんたたちに頼みたい。<line-break><value:$1B>日以内で頼む。<line-break><value:$1A>ギアの報酬だ。期待してるぜ。<end>"
-EN: "We could really use the adventurers' help. We want to obtain <value:$15>, but if we went ourselves, the monsters would only drive us back. That's why we're asking you. Complete the job within <value:$1B> days. Reward: <value:$1A> Gea. We're counting on you.<end>"
-KO: "모험가들의 힘을 꼭 빌리고 싶어. <value:$15>을 구하고 싶은데 우리가 가지러 가 봤자 몬스터에게 쫓겨날 게 뻔해. 그래서 너희에게 부탁하는 거야. <value:$1B>일 이내로 부탁해. 보수는 <value:$1A>기어다. 기대할게.<end>"
-
-## 230088
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "手に入れたいものがあるんだ。<line-break><value:$15>なんだけどね。<line-break>なにしろモンスターがたくさんいるもんでね、<line-break>あたしたちじゃ取りにいけないのさ。<line-break><value:$15>を探して持ってきてもらえる？<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギア払うよ。<end>"
-EN: "There's something we want: <value:$15>. There are so many monsters around that we can't go and get it ourselves. Could you find <value:$15> and bring it back? Complete the job within <value:$1B> days and we'll pay <value:$1A> Gea.<end>"
-KO: "갖고 싶은 물건이 있어. <value:$15>인데 말이야. 몬스터가 워낙 많아서 우리로선 가지러 갈 수가 없어. <value:$15>을 찾아서 가져다줄래? <value:$1B>일 이내에 해 주면 <value:$1A>기어를 줄게.<end>"
-
-## 230089
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我がフゴー商会では、宿屋だけでなく、<line-break>手広い商売をしております。各種材料の調達も<line-break>そのひとつですが、入手困難なものが<line-break>ありまして、その探索をお願いしたいのです。<line-break><value:$15>というものですが、<line-break>報酬<value:$1A>ギアで、<value:$1B>日以内、<line-break>という条件でお願いできませんか？<end>"
-EN: "Hugo Trading Company runs an inn and other businesses. Please find the hard-to-get material <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "저희 휴고 상회는 여관뿐 아니라 폭넓게 장사를 하고 있습니다. 각종 재료 조달도 그중 하나인데 구하기 어려운 것이 있어 탐색을 부탁드리고 싶습니다. <value:$15>이라는 물건입니다. 보수 <value:$1A>기어, <value:$1B>일 이내라는 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230090
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "勇敢な冒険者のみなさんへの依頼は、<line-break><value:$15>を探して持ち帰ることです。<line-break>いろいろな使い道があるのですが、<line-break>なんでものどにもいいそうです。<line-break><value:$1B>日以内に持ち帰ってください。<line-break><value:$1A>ギアお支払いします。<end>"
-EN: "Brave adventurers, your task is to find and bring back <value:$15>. It has many uses and is apparently good for the throat as well. Bring it back within <value:$1B> days. Payment: <value:$1A> Gea.<end>"
-KO: "용감한 모험자 여러분께 부탁드릴 일은 <value:$15>을 찾아 가져오는 것입니다. 여러 용도가 있는데 목에도 좋다고 하더군요. <value:$1B>일 이내에 가져와 주세요. <value:$1A>기어를 지급하겠습니다.<end>"
-
-## 230091
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス１<end>"
-EN: "Ladras 1<end>"
-KO: "라드라스1<end>"
-
-## 230092
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス２<end>"
-EN: "Ladras 2<end>"
-KO: "라드라스2<end>"
-
-## 230093
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス３<end>"
-EN: "Ladras 3<end>"
-KO: "라드라스3<end>"
-
-## 230094
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス４<end>"
-EN: "Ladras 4<end>"
-KO: "라드라스4<end>"
-
-## 230095
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス５<end>"
-EN: "Ladras 5<end>"
-KO: "라드라스5<end>"
-
-## 230096
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス６<end>"
-EN: "Ladras 6<end>"
-KO: "라드라스6<end>"
-
-## 230097
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス７<end>"
-EN: "Ladras 7<end>"
-KO: "라드라스7<end>"
-
-## 230098
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス８<end>"
-EN: "Ladras 8<end>"
-KO: "라드라스8<end>"
-
-## 230099
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を探し出し、<line-break>持ち帰る冒険者を募集している。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内である。<line-break>途中、モンスターの襲撃が予想される。<line-break>精強な戦士の応募を期待している。<end>"
-EN: "Seeking an adventurer to find and bring back <value:$15>. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. Monster attacks are expected along the way. Strong, capable fighters are encouraged to apply.<end>"
-KO: "<value:$15>를 찾아 가져올 모험가를 모집한다. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내다. 도중에 몬스터의 습격이 예상된다. 강한 전사의 지원을 바란다.<end>"
-
-## 230100
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "物探しを手伝ってくれる人はいないかね。<line-break>どうも私たちの手にはあまってしまってね。<line-break><value:$15>を探し出してほしいんだ。<line-break><value:$1B>日以内に見つけてくれたら、<line-break><value:$1A>ギアのお礼を出すよ。<end>"
-EN: "Can anyone help us find something? The task is more than we can handle. We need you to find <value:$15>. Find it within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "물건 찾는 걸 도와줄 사람 없나? 우리 손에는 좀 벅차서 말이야. <value:$15>를 찾아 줬으면 해. <value:$1B>일 안에 찾아오면 <value:$1A>기어를 사례로 주지.<end>"
-
-## 230101
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "わしらは細工物を作るのが好きでの。<line-break>一日中やっていても飽きはせん。<line-break>今度新しい細工物に挑戦するんじゃが、<line-break>それには<value:$15>が必要なんじゃ。<line-break><value:$1A>ギアで、持ってきてくれんか？<line-break><value:$1B>日以内で頼むぞ。<end>"
-EN: "We love making handicrafts and never tire of it, even after working all day. We are about to try making something new, and we need <value:$15> for it. Could you bring it back for <value:$1A> Gea? Please do so within <value:$1B> days.<end>"
-KO: "우리는 세공품 만드는 걸 좋아해서 말이야. 하루 종일 해도 질리질 않아. 이번에 새 세공품에 도전하려는데 <value:$15>이 필요하네. <value:$1A>기어를 줄 테니 가져다주겠나? <value:$1B>일 이내로 부탁하네.<end>"
-
-## 230102
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度ご利用感謝いたしております。<line-break>このたびはこちらからのお願いになります。<line-break><value:$15>を、発見し入手してください。<line-break><value:$1A>ギアのお礼を用意できます。<line-break><value:$1B>日以内でぜひお願いします。<end>"
-EN: "Thank you for your continued patronage. This time, we have a request for you: please find and obtain <value:$15>. We can offer <value:$1A> Gea as thanks. Please complete the job within <value:$1B> days.<end>"
-KO: "늘 이용해 주셔서 감사합니다. 이번에는 저희 쪽에서 부탁드립니다. <value:$15>를 찾아 입수해 주세요. 사례로 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 꼭 부탁드립니다.<end>"
-
-## 230103
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を手に入れたいんじゃ。<line-break>これがないと仕事にならん。<line-break>材料がなくちゃあ、物は作れんからな。<line-break><value:$1A>ギアなら出せるでの。<line-break><value:$1B>日以内に頼むぞ。<end>"
-EN: "<value:$15> is needed. Without it, work grinds to a halt; nothing can be made without materials. A reward of <value:$1A> Gea is available. Bring it back within <value:$1B> days.<end>"
-KO: "<value:$15>을 구하고 싶네. 이게 없으면 일을 못 해. 재료가 없으면 물건을 만들 수 없으니까.<value:$1A> 기어라면 줄 수 있네.<value:$1B>일 이내로 부탁하네.<end>"
-
-## 230104
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "ドワーフは酒にうるさいからな。<line-break>こっちも特製の酒を用意してやってるのさ。<line-break><value:$15>を使って作るんだが、<line-break>危険な場所にあって、簡単には採ってこれない。<line-break>で、代わりに持ち帰ってほしいんだが、<line-break><value:$1B>日以内にできないかな？<line-break>報酬は、<value:$1A>ギア出すよ。<end>"
-EN: "Dwarves are particular about their liquor, so we keep a special brew for them. It is made with <value:$15>, but the ingredient comes from a dangerous place and is not easy to gather. Could you bring it back for us within <value:$1B> days? Reward: <value:$1A> Gea.<end>"
-KO: "드워프는 술에 까다롭잖아. 그래서 우리도 특제 술을 마련해 주고 있어. <value:$15>을 써서 만드는데 위험한 곳에 있어서 쉽게 채집할 수가 없어. 대신 가져와 줬으면 하는데 <value:$1B>일 이내에 가능할까? 보수는 <value:$1A>기어를 줄게.<end>"
-
-## 230105
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我がフゴー商会では、宿屋だけでなく、<line-break>手広い商売をしております。各種材料の調達も<line-break>そのひとつですが、入手困難なものが<line-break>ありまして、その探索をお願いしたいのです。<line-break><value:$15>というものですが、<line-break>報酬<value:$1A>ギアで、<value:$1B>日以内、<line-break>という条件でお願いできませんか？<end>"
-EN: "Hugo Trading Company runs an inn and other businesses. Please find the hard-to-get material <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "저희 휴고 상회는 여관뿐 아니라 폭넓게 장사를 하고 있습니다. 각종 재료 조달도 그중 하나인데 구하기 어려운 것이 있어 탐색을 부탁드리고 싶습니다. <value:$15>이라는 물건입니다. 보수 <value:$1A>기어, <value:$1B>일 이내라는 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230106
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "探し物ができました。<value:$15>です。<line-break>いろいろと重宝する材料なんですよ。<line-break>冒険者の方に探し出していただきたいのですが、<line-break><value:$1B>日以内の期限で、<value:$1A>ギアの報酬。<line-break>どうでしょう、やってもらえませんか？<end>"
-EN: "Wanted: <value:$15>. This material has all sorts of useful applications. An adventurer is needed for the search. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea. Will you take the job?<end>"
-KO: "찾을 물건이 생겼습니다. <value:$15>입니다. 여러모로 쓸모 있는 재료거든요. 모험가분께 찾아 달라고 부탁하고 싶은데, 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어입니다. 해 주시겠습니까?<end>"
-
-## 230107
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を入手する必要が生じた。<line-break>しかし、モンスターの活発な活動のため、<line-break>探索には、かなりの危険がともなうであろう。<line-break>困難を排除し、すみやかに<line-break><value:$15>を持ち帰る者を募集する。<line-break>期限は、<value:$1B>日以内である。<line-break>入手に成功すれば、<value:$1A>ギアを与える。<end>"
-EN: "<value:$15> is now needed. However, increased monster activity will make the search extremely dangerous. Seeking someone who can overcome the dangers and swiftly bring back <value:$15>. Deadline: within <value:$1B> days. Reward upon success: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 입수할 필요가 생겼다. 그러나 몬스터의 활발한 활동 때문에 탐색에는 상당한 위험이 따를 것이다. 위험을 제거하고 신속히 <value:$15>을 가져올 자를 모집한다. 기한은 <value:$1B>일 이내다. 입수에 성공하면 <value:$1A>기어를 지급한다.<end>"
-
-## 230108
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "物探しを手伝ってくれる人はいないかね。<line-break>どうも私たちの手にはあまってしまってね。<line-break><value:$15>を探し出してほしいんだ。<line-break><value:$1B>日以内に見つけてくれたら、<line-break><value:$1A>ギアのお礼を出すよ。<end>"
-EN: "Can anyone help us find something? The task is more than we can handle. We need you to find <value:$15>. Find it within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "물건 찾는 걸 도와줄 사람 없나? 우리 손에는 좀 벅차서 말이야. <value:$15>를 찾아 줬으면 해. <value:$1B>일 안에 찾아오면 <value:$1A>기어를 사례로 주지.<end>"
-
-## 230109
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が入り用なんですじゃ。<line-break>じゃが、モンスターが大勢いる所になぞ、<line-break>わしらでは取りに行けませんでのう。<line-break>どなたか、<value:$15>を<line-break>探して採ってきていただけませんかの。<line-break><value:$1B>日以内に持ってきてくださらんか。<line-break>お礼もできる限りいたしますじゃ。<end>"
-EN: "We need <value:$15>, but we cannot go where so many monsters gather. Could someone find and gather <value:$15> for us? Please bring it back within <value:$1B> days. We will offer the best reward we can.<end>"
-KO: "<value:$15>이 필요하네. 하지만 몬스터가 잔뜩 있는 곳엔 우리 힘으로 가지 못해서 말이야. 누군가 <value:$15>을 찾아 채집해 오지 않겠나. <value:$1B>일 이내에 가져와 주게. 사례도 가능한 한 하겠네.<end>"
-
-## 230110
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "神殿を訪れる巡礼者たちに、<line-break>旅で役立つ品を渡し、労をねぎらっております。<line-break>その品の材料の調達に困っています。<line-break><value:$1B>日以内に、<value:$15>を<line-break>持ち帰ってもらえませんか？<line-break>報酬に、<value:$1A>ギア差し上げます。<end>"
-EN: "We give pilgrims visiting the temple useful items for their journeys in recognition of their hardships. We are struggling to procure the necessary material. Could you bring back <value:$15> within <value:$1B> days? Reward: <value:$1A> Gea.<end>"
-KO: "신전을 찾는 순례자들에게 여행에 도움이 되는 물건을 드리며 수고를 위로하고 있습니다. 그런데 그 물건의 재료를 구하는 데 어려움이 있습니다. <value:$1B>일 이내에 <value:$15>을 가져와 주시겠습니까? 보수로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 230111
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "酒の調合に、<value:$15>がいるんだよ。<line-break>取りに行こうにも、モンスターが出るんでね。<line-break>で、冒険者に取ってきてもらいたいんだ。<line-break><value:$1B>日以内、<value:$1A>ギアでどうかな。<line-break>よろしくね。<end>"
-EN: "<value:$15> is needed to blend the liquor, but monsters make gathering it impossible. An adventurer is needed to retrieve it. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea. Thanks.<end>"
-KO: "술을 조합하는 데 <value:$15>가 필요해. 직접 가지러 가려니 몬스터가 나오거든. 그래서 모험자가 가져와 줬으면 해. <value:$1B>일 이내, <value:$1A>기어면 어때? 부탁해.<end>"
-
-## 230112
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が切れてしまいました。<line-break>これがなくなってしまうと、<line-break>品物を作れなくなってしまいます。<line-break><value:$15>を持ち帰ってださい。<line-break>日限は、<value:$1B>日以内とさせていただきます。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
-EN: "Supplies of <value:$15> have run out. Without it, the goods cannot be made. Please bring back <value:$15>. Deadline: within <value:$1B> days. Would <value:$1A> Gea be acceptable as a reward?<end>"
-KO: "<value:$15>이 다 떨어졌습니다. 이게 없으면 물건을 만들 수가 없습니다. <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내로 하겠습니다. 사례는 <value:$1A>기어면 어떻습니까.<end>"
-
-## 230113
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の力をぜひ借りたいんだ。<line-break><value:$15>を入手したいと思ってるんだ。<line-break>だが、俺たちが取りに行ったところで、<line-break>モンスターに追い返されるのがオチだ。<line-break>そこで、あんたたちに頼みたい。<line-break><value:$1B>日以内で頼む。<line-break><value:$1A>ギアの報酬だ。期待してるぜ。<end>"
-EN: "We could really use the adventurers' help. We want to obtain <value:$15>, but if we went ourselves, the monsters would only drive us back. That's why we're asking you. Complete the job within <value:$1B> days. Reward: <value:$1A> Gea. We're counting on you.<end>"
-KO: "모험가들의 힘을 꼭 빌리고 싶어. <value:$15>을 구하고 싶은데 우리가 가지러 가 봤자 몬스터에게 쫓겨날 게 뻔해. 그래서 너희에게 부탁하는 거야. <value:$1B>일 이내로 부탁해. 보수는 <value:$1A>기어다. 기대할게.<end>"
-
-## 230114
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我がフゴー商会では、宿屋だけでなく、<line-break>手広い商売をしております。各種材料の調達も<line-break>そのひとつですが、入手困難なものが<line-break>ありまして、その探索をお願いしたいのです。<line-break><value:$15>というものですが、<line-break>報酬<value:$1A>ギアで、<value:$1B>日以内、<line-break>という条件でお願いできませんか？<end>"
-EN: "Hugo Trading Company runs an inn and other businesses. Please find the hard-to-get material <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "저희 휴고 상회는 여관뿐 아니라 폭넓게 장사를 하고 있습니다. 각종 재료 조달도 그중 하나인데 구하기 어려운 것이 있어 탐색을 부탁드리고 싶습니다. <value:$15>이라는 물건입니다. 보수 <value:$1A>기어, <value:$1B>일 이내라는 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230115
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を持ち帰ってほしい。<line-break>回復用の道具の材料さ。<line-break>報酬は、<value:$1A>ギア。<value:$1B>日以内だ。<line-break>海の上じゃあ、物が足りなくなったら、<line-break>自分らで作らなきゃならねぇ。<line-break>材料の確保は、大切なのさ。頼んだぜ。<end>"
-EN: "Bring back <value:$15>. It's material for making recovery items. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. At sea, if supplies run short, we have to make what we need ourselves. Keeping materials on hand matters. We're counting on you.<end>"
-KO: "<value:$15>을 가져와 줘. 회복용 도구의 재료야. 보수는 <value:$1A>기어. <value:$1B>일 이내다. 바다 위에선 물건이 떨어지면 우리가 직접 만들어야 하거든. 재료 확보는 중요해. 부탁한다.<end>"
-
-## 230116
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "自衛用にギルドで独自に作っている武具の材料、<line-break><value:$15>を採ってきて欲しい。<line-break>危険な場所にあるから、気をつけていってくれ。<line-break><value:$1A>ギア用意した。<line-break>期限は、<value:$1B>日以内だ。<end>"
-EN: "Gather and bring back <value:$15>, a material the Guild uses to make its own arms and armor for self-defense. It is found in a dangerous place, so be careful. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "자위용으로 길드에서 자체 제작하는 무구의 재료 <value:$15>를 채취해 와 줘. 위험한 곳에 있으니 조심해서 가. <value:$1A>기어를 준비했다. 기한은 <value:$1B>일 이내다.<end>"
-
-## 230117
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "必要な物があるんじゃ。<line-break><value:$15>なんじゃがの、<line-break>見つけて持ってきてくれんかの。<line-break>すまんが、<value:$1B>日以内にやってもらえんか。<line-break>みなで出しあって<value:$1A>ギア集めたんじゃ。<line-break>お礼は、これでどうかのう。<end>"
-EN: "There's something we need: <value:$15>. Could you find it and bring it back? Please complete the job within <value:$1B> days. Everyone pooled what they could and raised <value:$1A> Gea. Would that do as a reward?<end>"
-KO: "필요한 물건이 있네. <value:$15>인데, 찾아서 가져다주지 않겠나. 미안하지만 <value:$1B>일 이내로 부탁하네. 모두 돈을 모아 <value:$1A>기어를 마련했어. 사례로 이 정도면 어떻겠나.<end>"
-
-## 230118
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>が切れてしまいました。<line-break>これがなくなってしまうと、<line-break>品物を作れなくなってしまいます。<line-break><value:$15>を持ち帰ってださい。<line-break>日限は、<value:$1B>日以内とさせていただきます。<line-break>お礼は、<value:$1A>ギアでどうでしょうか。<end>"
-EN: "Supplies of <value:$15> have run out. Without it, the goods cannot be made. Please bring back <value:$15>. Deadline: within <value:$1B> days. Would <value:$1A> Gea be acceptable as a reward?<end>"
-KO: "<value:$15>이 다 떨어졌습니다. 이게 없으면 물건을 만들 수가 없습니다. <value:$15>을 가져와 주세요. 기한은 <value:$1B>일 이내로 하겠습니다. 사례는 <value:$1A>기어면 어떻습니까.<end>"
-
-## 230119
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "材料を収集するのも俺たちの重要な仕事だ。<line-break>が、危険な場所にあるやつは面倒だ。<line-break>今ほしいのは、<value:$15>なんだが、<line-break>なんとかしてこいつを手に入れたいんだ。<line-break><value:$15>を手に入れてきてくれないか。<line-break><value:$1A>ギアをお礼として用意した。<line-break>期日は、<value:$1B>日以内だ。<end>"
-EN: "Gathering materials is important work for us, but anything found in a dangerous place is troublesome. Right now, we need <value:$15> and must obtain it somehow. Could you obtain <value:$15> for us? Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "재료를 수집하는 것도 우리에게 중요한 일이지. 하지만 위험한 곳에 있는 건 귀찮아. 지금 필요한 건 <value:$15>인데 어떻게든 손에 넣고 싶어. <value:$15>을 구해 와 주지 않을래? 사례로 <value:$1A>기어를 준비했다. 기한은 <value:$1B>일 이내야.<end>"
-
-## 230120
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "手に入れたいものがあるんだ。<line-break><value:$15>なんだけどね。<line-break>なにしろモンスターがたくさんいるもんでね、<line-break>あたしたちじゃ取りにいけないのさ。<line-break><value:$15>を探して持ってきてもらえる？<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギア払うよ。<end>"
-EN: "There's something we want: <value:$15>. There are so many monsters around that we can't go and get it ourselves. Could you find <value:$15> and bring it back? If you do it within <value:$1B> days, we'll pay you <value:$1A> Gea.<end>"
-KO: "갖고 싶은 물건이 있어. <value:$15>인데 말이야. 몬스터가 워낙 많아서 우리로선 가지러 갈 수가 없어. <value:$15>을 찾아서 가져다줄래? <value:$1B>일 이내에 해 주면 <value:$1A>기어를 줄게.<end>"
-
-## 230121
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "我がフゴー商会では、宿屋だけでなく、<line-break>手広い商売をしております。各種材料の調達も<line-break>そのひとつですが、入手困難なものが<line-break>ありまして、その探索をお願いしたいのです。<line-break><value:$15>というものですが、<line-break>報酬<value:$1A>ギアで、<value:$1B>日以内、<line-break>という条件でお願いできませんか？<end>"
-EN: "Hugo Trading Company runs an inn and other businesses. Please find the hard-to-get material <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "저희 휴고 상회는 여관뿐 아니라 폭넓게 장사를 하고 있습니다. 각종 재료 조달도 그중 하나인데 구하기 어려운 것이 있어 탐색을 부탁드리고 싶습니다. <value:$15>이라는 물건입니다. 보수 <value:$1A>기어, <value:$1B>일 이내라는 조건으로 부탁드릴 수 있을까요?<end>"
-
-## 230122
-source: translations/korean/messages/msgsec023-part99.toml
-jp_matches_pinned_english: yes
-JP: "探し物ができました。<value:$15>です。<line-break>いろいろと重宝する材料なんですよ。<line-break>冒険者の方に探し出していただきたいのですが、<line-break><value:$1B>日以内の期限で、<value:$1A>ギアの報酬。<line-break>どうでしょう、やってもらえませんか？<end>"
-EN: "I'm looking for <value:$15>. It's a material with all sorts of useful applications. I'd like an adventurer to find it. Please find it within <value:$1B> days for a reward of <value:$1A> Gea. Will you take the job?<end>"
-KO: "찾을 물건이 생겼습니다. <value:$15>입니다. 여러모로 쓸모 있는 재료거든요. 모험가분께 찾아 달라고 부탁하고 싶은데, 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어입니다. 해 주시겠습니까?<end>"
-
-## 240000
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、脱力の腕輪を<line-break>持ってると、ＳＴＲが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying the Bracelet of Weakness drastically lowers your ＳＴＲ.<end>"
-KO: "이미 알지도 모르지만 탈력의 팔찌를 가지고 있으면 STR이 극단적으로 낮아져.<end>"
-
-## 240001
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、セヅネの根を<line-break>持ってると、ＶＩＴが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Sezune Root drastically lowers your ＶＩＴ.<end>"
-KO: "이미 알지도 모르지만 세즈네의 뿌리를 가지고 있으면 VIT가 극단적으로 낮아져.<end>"
-
-## 240002
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、トヅカネの枝を<line-break>持ってると、ＡＧＩが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Tozukane Branch drastically lowers your ＡＧＩ.<end>"
-KO: "이미 알고 있을지도 모르지만 토즈카네의 가지를 가지고 있으면 AGI가 극단적으로 낮아져.<end>"
-
-## 240003
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ヒャンデ鉱を<line-break>持ってると、ＡＧＩが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying Hyande Ore drastically lowers your ＡＧＩ.<end>"
-KO: "이미 알지도 모르지만 햔데 광석을 가지고 있으면 AGI가 극단적으로 낮아져.<end>"
-
-## 240004
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、きれぐもの巣を<line-break>持ってると、ＤＥＸが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Kiregumo Nest drastically lowers your ＤＥＸ.<end>"
-KO: "이미 알고 있을지도 모르지만 키레구모의 둥지를 가지고 있으면 DEX가 극단적으로 낮아져.<end>"
-
-## 240005
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ヒャンデ砂鉄を<line-break>持ってると、ＤＥＸが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying Hyande Iron Sand drastically lowers your ＤＥＸ.<end>"
-KO: "이미 알고 있을지도 모르지만 현데 사철을 가지고 있으면 DEX가 극단적으로 낮아져.<end>"
-
-## 240006
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ハヤスの葉を<line-break>持ってると、ＩＮＴが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Hayasu Leaf drastically lowers your ＩＮＴ.<end>"
-KO: "이미 알지도 모르지만 하야스의 잎을 가지고 있으면 INT가 극단적으로 낮아져.<end>"
-
-## 240007
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、キッカネの香草を<line-break>持ってると、ＩＮＴが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Kikkane Herb drastically lowers your ＩＮＴ.<end>"
-KO: "이미 알고 있을지도 모르지만, 킷카네의 향초를 가지고 있으면 INT가 극단적으로 떨어져.<end>"
-
-## 240008
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、千年石を<line-break>持ってると、ＭＩＮが極端に低下しちまうんだ。<end>"
-EN: "You may already know this, but carrying a Millennium Stone drastically lowers your ＭＩＮ.<end>"
-KO: "이미 알지도 모르지만 천년석을 가지고 있으면 MIN이 극단적으로 낮아져.<end>"
-
-## 240010
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ナジラネの果実を<line-break>持ってると、沈黙状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Najirane Fruit afflicts you with Silence.<end>"
-KO: "이미 알지도 모르지만 나지라네의 열매를 갖고 있으면 침묵 상태가 돼 버려.<end>"
-
-## 240011
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、妖精の粉を<line-break>持ってると、暗闇状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying Fairy Dust afflicts you with Blindness.<end>"
-KO: "이미 알고 있을지도 모르지만, 요정의 가루를 갖고 있으면 암흑 상태가 돼.<end>"
-
-## 240012
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、食心の壷を<line-break>持ってると、幻覚状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Heart-Eating Jar afflicts you with Hallucination.<end>"
-KO: "이미 알고 있을지도 모르지만, 식심의 항아리를 갖고 있으면 환각 상태가 돼.<end>"
-
-## 240013
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ロクシャの墨を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying Roksha Ink leaves you cursed.<end>"
-KO: "이미 알지도 모르지만 록샤의 먹을 가지고 있으면 저주 상태가 돼.<end>"
-
-## 240014
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、ノロガメを<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Norogame leaves you cursed.<end>"
-KO: "이미 알고 있을지도 모르지만, 노로가메를 갖고 있으면 저주 상태가 돼.<end>"
-
-## 240015
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、呪われし杖を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying the Cursed Staff leaves you cursed.<end>"
-KO: "이미 알지도 모르지만, 저주받은 지팡이를가지고 있으면 저주 상태가 돼.<end>"
-
-## 240016
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、魔物の骨を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Monster Bone leaves you cursed.<end>"
-KO: "이미 알고 있을지도 모르지만, 마물의 뼈를 갖고 있으면 저주 상태가 돼.<end>"
-
-## 240017
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "もう知ってるかもしれないが、深海魚の目玉を<line-break>持ってると、呪い状態になっちまうんだ。<end>"
-EN: "You may already know this, but carrying a Deep-Sea Fish Eye leaves you cursed.<end>"
-KO: "이미 알지도 모르지만 심해어의 눈알을 가지고 있으면 저주 상태가 돼.<end>"
-
-## 240018
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を無事に送り届けて欲しい。<line-break>なるべく早く届けてくれよ。<end>"
-EN: "<value:$15>: Please deliver it safely, and get it there as soon as you can.<end>"
-KO: "<value:$15>을 무사히 데려다줬으면 한다. 되도록 빨리 데려다줘.<end>"
-
-## 240019
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "重要物件である<value:$15>を<line-break><value:$16>まで運搬する者を募集する。<line-break>信頼のおける冒険者に依頼したい。<line-break>期限は<value:$1B>日以内。<line-break>成功報酬は<value:$1A>ギアである。<end>"
-EN: "Seeking a trustworthy adventurer to transport the following important cargo to <value:$16>: <value:$15>. Deadline: within <value:$1B> days. Reward upon success: <value:$1A> Gea.<end>"
-KO: "중요 물품인 <value:$15>을 <value:$16>까지 운반할 사람을 모집한다. 믿을 수 있는 모험자에게 의뢰하고 싶다. 기한은 <value:$1B>일 이내. 성공 보수는 <value:$1A>기어다.<end>"
-
-## 240020
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>の町まで届けなければならない<line-break>品物があります。ですが道中は危険で、<line-break>戦いを知らない者では、無事にたどり<line-break>着けるかどうかわかりません。<line-break>どうか<value:$15>を<value:$16><line-break>まで届けてください。期限は<value:$1B>日以内。<line-break>お礼は<value:$1A>ギアです。<end>"
-EN: "We have goods that must be delivered to the town of <value:$16>, but the road is dangerous. Anyone untrained in combat may not arrive safely. Please deliver <value:$15> to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$16> 도시까지 배달해야 할 물건이 있습니다. 하지만 길이 위험해서 싸움을 모르는 사람이 무사히 도착할 수 있을지 알 수 없습니다. 부디 <value:$15>을 <value:$16>까지 배달해 주세요. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어입니다.<end>"
-
-## 240021
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "品物を<value:$16>まで送る必要がある。<line-break>重要な物ゆえ、奪われるのは避けねばならない。<line-break><value:$1B>日以内に<value:$15>を<line-break><value:$16>まで送り届けよ。<line-break>報酬は<value:$1A>ギアである。<end>"
-EN: "Goods must be sent to <value:$16>. This is important cargo and must not be stolen. Deliver <value:$15> to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "물건을 <value:$16>까지 보내야 한다. 중요한 물건이니 빼앗겨선 안 된다. <value:$1B>일 안에 <value:$15>을 <value:$16>까지 운반하라. 보수는 <value:$1A>기어다.<end>"
-
-## 240022
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度お世話になっております。<line-break>このたびはお願いしたいことがございます。<line-break><value:$15>を<value:$16>まで<line-break>運んでいただきたいのです。<line-break>期限は<value:$1B>日以内とさせていただきます。<line-break><value:$1A>ギアのお礼でどうでしょうか？<end>"
-EN: "Thank you for your continued support. We have a favor to ask: please transport <value:$15> to <value:$16> within <value:$1B> days. Would <value:$1A> Gea be an acceptable reward?<end>"
-KO: "늘 신세지고 있습니다. 이번에 부탁드릴 일이 있습니다. <value:$15>을 <value:$16>까지 운반해 주셨으면 합니다. 기한은 <value:$1B>일 이내입니다. 사례는 <value:$1A>기어면 어떻습니까?<end>"
-
-## 240023
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "いつも世話になってるな。依頼したいのは、<line-break><value:$15>の運搬なんだ。<line-break><value:$16>まで運ばなきゃいけないんだが、<line-break>道中、物騒なのが出るから、<line-break>腕っ節の強い奴に持っていってほしいのよ。<line-break><value:$1B>日以内に頼むぜ。<line-break>礼は、<value:$1A>ギアだ。<end>"
-EN: "Thanks for always helping out. I need <value:$15> taken to <value:$16>. Dangerous characters appear along the way, so I want someone who can handle a fight. Get it there within <value:$1B> days, all right? The reward is <value:$1A> Gea.<end>"
-KO: "늘 신세 지고 있군. 부탁할 건 <value:$15> 운반이야. <value:$16>까지 옮겨야 하는데 도중에 위험한 놈들이 나오니 싸움 좀 하는 녀석에게 맡기고 싶어. <value:$1B>일 이내로 부탁하지. 사례는 <value:$1A>기어다.<end>"
-
-## 240024
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "悲しむべきことに、邪悪な者が徘徊しており、<line-break>旅の道はたいへん危険なものとなっています。<line-break>そのようなおり、<value:$16>に<line-break>届け物をしなければならなくなりました。<line-break>苦境を切り開く力を持つ勇者にお願いします。<line-break><value:$15>を届けてください。<line-break><value:$1B>日以内。お礼は、<value:$1A>ギアです。<end>"
-EN: "Sadly, evildoers roam the land, making travel extremely dangerous. Even so, a delivery must be made to <value:$16>. We ask a hero capable of overcoming such adversity to deliver <value:$15> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "슬프게도 사악한 자들이 배회해 여행길이 매우 위험해졌습니다. 그런 상황에서 <value:$16>에 물건을 전달해야 하게 되었습니다. 곤경을 헤쳐 나갈 힘을 가진 용사께 부탁드립니다. <value:$15>을 전달해 주세요. <value:$1B>일 이내. 사례는 <value:$1A>기어입니다.<end>"
-
-## 240025
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "大事な届け物があります。<line-break>信頼できる冒険者の方に託したいと思います。<line-break><value:$15>を<value:$16>まで<line-break>無事に運んでください。<line-break>お礼は<value:$1A>ギアです。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "We have an important delivery and wish to entrust it to a reliable adventurer. Please carry <value:$15> safely to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "중요한 배달품이 있습니다. 믿을 수 있는 모험가에게 맡기고 싶습니다. <value:$15>를 <value:$16>까지 무사히 운반해 주세요. 사례금은 <value:$1A>기어입니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 240026
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>届けたいのですが、道中は危険なので、<line-break>冒険者の方に頼みたいと考えています。<line-break><value:$1B>日以内に送り届けてください。<line-break><value:$1A>ギアをお礼としてさしあげます。<end>"
-EN: "We need to deliver <value:$15> to <value:$16>, but the road is dangerous, so we would like an adventurer to handle it. Please complete the delivery within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>를 <value:$16>까지 보내고 싶은데 길이 위험해서 모험가에게 부탁하려고 합니다. <value:$1B>일 이내에 전달해 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240027
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>まで<value:$15>を<line-break>運ぶにあたって、しっかりと品物を<line-break>守ってくれる者を募集したい。<line-break><value:$1B>日以内に到着したならば<line-break><value:$1A>ギアの褒美をとらそう。<line-break>大切な物ゆえ、しっかりと頼むぞ。<end>"
-EN: "Seeking someone who can guard <value:$15> properly while transporting it to <value:$16>. Arrive within <value:$1B> days to receive <value:$1A> Gea. This is precious cargo, so take good care of it.<end>"
-KO: "<value:$16>까지 <value:$15>을 운반하면서 물건을 확실히 지켜 줄 사람을 모집한다. <value:$1B>일 이내에 도착하면 <value:$1A>기어의 보상을 주겠다. 중요한 물건이니 잘 부탁한다.<end>"
-
-## 240028
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>の町まで<line-break>届けたいのですが、冒険者の方でどなたか、<line-break>頼まれてはくれませんか。<line-break>お礼は、<value:$1A>ギアです。<line-break><value:$1B>日以内の期限でお願いします。<end>"
-EN: "We need <value:$15> delivered to the town of <value:$16>. Would any adventurer be willing to take the job? Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "<value:$15>을 <value:$16> 마을까지 보내고 싶습니다. 모험자 중 누군가 맡아 주시겠습니까. 사례는 <value:$1A>기어입니다. 기한은 <value:$1B>일 이내로 부탁드립니다.<end>"
-
-## 240029
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>の町まで行って<line-break><value:$15>を届けねばならんがのう。<line-break>危険がまってるかもしれんし、<line-break>ここはひとつ冒険者に頼みたいものじゃ。<line-break>運び屋になって、<value:$1B>日以内に品物を<line-break>届けてくれんかのう。<line-break>少しじゃがお礼もするつもりじゃ。<end>"
-EN: "I need <value:$15> delivered to the town of <value:$16>. There may be danger along the way, so I'd like to leave this to an adventurer. Could you act as courier and deliver the goods within <value:$1B> days? I intend to offer a small reward.<end>"
-KO: "<value:$16> 마을까지 가서 <value:$15>을 전해야 하는데 말이야. 위험이 기다리고 있을지도 모르니 여기서는 모험자에게 부탁하고 싶군. 운반꾼이 되어 <value:$1B>일 이내에 물건을 전해 주겠나? 조금이지만 사례도 하겠네.<end>"
-
-## 240030
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "いつもお世話になっております。<line-break>品物の運搬をお願いしたいと思います。<line-break><value:$15>を<value:$16>まで<line-break>運んでいただきます。<line-break>期限は<value:$1B>日以内。<line-break>謝礼は<value:$1A>ギアです。<end>"
-EN: "Thank you for your continued support. We would like to request a delivery. Please transport <value:$15> to <value:$16> within <value:$1B> days. Compensation: <value:$1A> Gea.<end>"
-KO: "늘 신세지고 있습니다. 물품 운반을 부탁드리고 싶습니다. <value:$15>를 <value:$16>까지 운반해 주세요. 기한은 <value:$1B>일 이내. 사례금은 <value:$1A>기어입니다.<end>"
-
-## 240031
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "戦いと旅を知り尽くしたお前さんたちのために<line-break>用意された仕事だ。<line-break>このロストールから<value:$16>まで<line-break><value:$15>を運んでほしい。<line-break>道のりはけっこう危険だ、気を抜くなよ。<line-break><value:$1A>ギア用意した。<line-break><value:$1B>日以内に頼むぜ。<end>"
-EN: "This job is for adventurers who know travel and combat inside and out. Carry <value:$15> from Rostorl to <value:$16>. The road is quite dangerous, so stay alert. Reward: <value:$1A> Gea. Complete it within <value:$1B> days.<end>"
-KO: "전투와 여행에 익숙한 너희를 위해 준비된 일이야. 이 로스톨에서 <value:$16>까지 <value:$15>을 운반해 줘. 길이 꽤 위험하니 방심하지 마. <value:$1A>기어를 준비했어. <value:$1B>일 안에 부탁한다.<end>"
-
-## 240032
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>届けたいのですが、強盗に奪われないように<line-break>戦うことのできる冒険者の方に<line-break>届けていただこうと思います。<line-break><value:$1B>日以内に到着してください。<line-break><value:$1A>ギアをお礼といたします。<end>"
-EN: "We need <value:$15> delivered to <value:$16> and want a combat-capable adventurer to ensure robbers do not take it. Please arrive within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>까지 보내고 싶습니다만 강도에게 빼앗기지 않도록 싸울 수 있는 모험자에게 맡기려 합니다. <value:$1B>일 이내에 도착해 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240033
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度ご利用ありがとうございます。<line-break>お願いしたいのは、物品の運搬です。<line-break><value:$15>を<value:$16>まで<line-break>運んでいただきたいのです。<line-break>道中、慎重な行動をお願いします。<line-break>期限は<value:$1B>日以内。<line-break>報酬は<value:$1A>ギアです。<end>"
-EN: "Thank you for your continued patronage. We would like <value:$15> transported to <value:$16>. Please proceed with caution along the way. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "늘 이용해 주셔서 감사합니다. 부탁드릴 일은 물품 운반입니다. <value:$15>을 <value:$16>까지 운반해 주세요. 길에서는 신중히 행동해 주십시오. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어입니다.<end>"
-
-## 240034
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "運んでいただきたいものがあります。<line-break><value:$15>です。これは重要な品物で、<line-break>決して失うわけには参りません。<line-break>そこで、強盗に襲われても撃退できる、<line-break>腕の立つ方に運んでいただきます。<line-break><value:$1B>日以内に<value:$16>に届けてください。<line-break>お礼として<value:$1A>ギア用意します。<end>"
-EN: "We need <value:$15> transported. It is important and must not be lost, so we require someone skilled enough to repel any robbers. Deliver it to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "운반해 주셨으면 하는 물건이 있습니다. <value:$15>입니다. 중요한 물건이라 절대로 잃어버릴 수 없습니다. 그래서 강도에게 습격당해도 물리칠 수 있는 실력자에게 맡기려 합니다. <value:$1B>일 이내에 <value:$16>까지 배달해 주세요. 사례로 <value:$1A>기어를 준비하겠습니다.<end>"
-
-## 240035
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>の町の者に<value:$15>を<line-break>届けたい。街道では何が起こるかわからんから<line-break>腕の立つ者に持っていってもらいたい。<line-break><value:$1B>日以内を期限とし、間に合えば、<line-break>褒美として、<value:$1A>ギアとらせる。<end>"
-EN: "I wish to deliver <value:$15> to the town of <value:$16>. Anything could happen on the road, so I want a capable fighter to carry it. The deadline is within <value:$1B> days. Complete the job in time to receive <value:$1A> Gea.<end>"
-KO: "<value:$16> 마을 사람에게 <value:$15>를 전하고 싶다. 가도에서 무슨 일이 생길지 모르니 실력 있는 자가 가져다주면 좋겠다. 기한은 <value:$1B>일 이내. 제때 도착하면 상으로 <value:$1A>기어를 주겠다.<end>"
-
-## 240036
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "今度、<value:$15>を<value:$16>まで<line-break>運搬することになりました。大事な物なので、<line-break>万が一のことがあってはいけません。<line-break>この運搬を請け負ってくれる方を捜しています。<line-break><value:$1B>日以内の期限でできる方、お願いします。<line-break><value:$1A>ギアをお礼としてさしあげます。<end>"
-EN: "We need to transport <value:$15> to <value:$16>. It is important, and nothing can be allowed to happen to it. We are looking for someone to take the job. Please apply if you can complete it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "이번에 <value:$15>을 <value:$16>까지 운반하게 되었습니다. 중요한 물건이니 만일의 사태가 있어선 안 됩니다. 이 운반을 맡아 주실 분을 찾고 있습니다. <value:$1B>일 이내에 가능한 분께 부탁드립니다. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240037
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>の町に、<value:$15>を<line-break>持っていくんだが、おらたちは強くないから、<line-break>途中で襲ってくる奴がいたらどうしようもない。<line-break>だから、戦い慣れしてるあんたたちに<line-break>お願いしたいんだ。<value:$1B>日以内で頼むよ。<line-break><value:$1A>ギア用意してるぜ。<end>"
-EN: "We need to take <value:$15> to the town of <value:$16>, but we're not strong enough to deal with an attack along the way. That's why we're asking those of you with combat experience. Please do it within <value:$1B> days. We've got <value:$1A> Gea for you.<end>"
-KO: "<value:$16> 마을에 <value:$15>을 가져가야 하는데 우린 강하지 않아서 가는 길에 습격당하면 방법이 없어. 그래서 싸움에 익숙한 너희에게 부탁하려고 해. <value:$1B>일 이내로 부탁해. <value:$1A>기어 준비해 뒀어.<end>"
-
-## 240038
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>まで<value:$15>を<line-break>送り届けることになっています。問題なのは、<line-break>道中の安全が確保されていないことです。<line-break>盗賊に奪われでもしたらたいへんですので、<line-break>冒険者の方に運んでいただきたいと思います。<line-break><value:$1B>日以内にお届けください。<line-break><value:$1A>ギアをお礼として用意しています。<end>"
-EN: "We must deliver <value:$15> to <value:$16>, but the road is not secure. It would be disastrous if bandits stole it, so we would like an adventurer to carry it. Please deliver it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$16>까지 <value:$15>을 보내야 합니다. 문제는 길의 안전이 확보되어 있지 않다는 점입니다. 도적에게 빼앗기기라도 하면 큰일이니 모험가분께 운반을 맡기고 싶습니다. <value:$1B>일 이내에 전달해 주세요. 사례로 <value:$1A>기어를 준비했습니다.<end>"
-
-## 240039
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>運んでもらいたい。期限は<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギア。<line-break>道中で襲われて品を失うわけにはいかない。<line-break>腕の立つ冒険者でなければ、頼めないぜ。<end>"
-EN: "I need <value:$15> taken to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea. We can't afford to lose it in an attack along the way, so only a capable adventurer will do.<end>"
-KO: "<value:$15>를 <value:$16>까지 운반해 줬으면 한다. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어. 도중에 습격받아 물건을 잃을 순 없어. 실력 있는 모험가가 아니면 맡길 수 없지.<end>"
-
-## 240040
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>に<line-break>届けるんだがね。聞いた所じゃ、その途中で<line-break>いろいろヤバいのが出るらしいじゃないか。<line-break>あたしたちの代わりに送り届けておくれよ。<line-break>お礼は、<value:$1A>ギアだよ。<line-break><value:$1B>日以内に向こうに着いておくれ。<end>"
-EN: "I need <value:$15> delivered to <value:$16>. From what I've heard, all sorts of dangerous things appear on the way. Deliver it in our place, will you? The reward is <value:$1A> Gea. Arrive within <value:$1B> days.<end>"
-KO: "<value:$15>을 <value:$16>에 보내야 하는데, 듣자 하니 가는 길에 위험한 게 많이 나온다더군. 우리 대신 보내 줘. 사례는 <value:$1A>기어야. <value:$1B>일 이내에 도착해 줘.<end>"
-
-## 240041
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度ご利用ありがとうございます。<line-break>このたび、<value:$16>の町まで<line-break><value:$15>を届けることになりました。<line-break>あなたがたに運搬を依頼します。<line-break><value:$1B>日以内に現地までお届けください。<line-break>謝礼として<value:$1A>ギアさしあげます。<end>"
-EN: "Thank you for your continued patronage. We need <value:$15> delivered to the town of <value:$16> and would like to entrust the transport to you. Please deliver it there within <value:$1B> days. Compensation: <value:$1A> Gea.<end>"
-KO: "늘 이용해 주셔서 감사합니다. 이번에 <value:$16> 마을까지 <value:$15>을 보내게 되었습니다. 여러분께 운반을 의뢰합니다. <value:$1B>일 안에 현지까지 전달해 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240042
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>送ることになりました。<line-break>冒険者の方に運搬をお願いしたいと思います。<line-break><value:$1B>日以内に到着してください。<line-break>謝礼は、<value:$1A>ギア用意しました。<end>"
-EN: "We need to send <value:$15> to <value:$16> and would like an adventurer to transport it. Please arrive within <value:$1B> days. Compensation: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>까지 보내게 되었습니다. 모험자분께 운반을 부탁드리고 싶습니다. <value:$1B>일 이내에 도착해 주세요. 사례는 <value:$1A>기어를 준비했습니다.<end>"
-
-## 240043
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>まで<value:$15>を<line-break>送り届けたいのですが、道中は危険なので、<line-break>旅と戦いに長けた方に運搬をお頼みします。<line-break>謝礼は<value:$1A>ギア用意いたしました。<line-break><value:$1B>日以内に輸送を終えてください。<end>"
-EN: "We need <value:$15> delivered to <value:$16>, but the road is dangerous, so we ask someone skilled in travel and combat to transport it. Compensation: <value:$1A> Gea. Complete the delivery within <value:$1B> days.<end>"
-KO: "<value:$16>까지 <value:$15>을 보내고 싶지만 도중이 위험해 여행과 전투에 능한 분께 운반을 부탁드립니다. 사례금은 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 운송을 끝내 주세요.<end>"
-
-## 240044
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "お届け物があるの。<line-break>でも、向こうの町に行くまでに、モンスターに<line-break>会ったら困るわ。私たちは戦えないもの。<line-break>冒険者さん、<value:$15>を<line-break><value:$16>まで運んで。<line-break><value:$1A>ギア用意したわ。<line-break><value:$1B>日以内に届けてね。<end>"
-EN: "We have a delivery to make, but we'd be in trouble if we met monsters on the way to the other town. We can't fight. Adventurer, please carry <value:$15> to <value:$16> within <value:$1B> days. We have <value:$1A> Gea ready for you.<end>"
-KO: "전해 줄 물건이 있어. 그런데 저쪽 마을까지 가다가 몬스터를 만나면 곤란해. 우린 싸울 수 없잖아. 모험자님, <value:$15>을 <value:$16>까지 옮겨 줘. <value:$1A>기어를 준비했어. <value:$1B>일 안에 전달해 줘.<end>"
-
-## 240045
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の方々にお願いしたいことがございます。<line-break><value:$15>の<value:$16>までの<line-break>運搬です。お礼は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内でどうでしょうか。<line-break>運搬の途中で盗賊が現れないとも限りません。<line-break>どうか慎重な行動をお願いします。<end>"
-EN: "We have a request for adventurers: transport <value:$15> to <value:$16>. The reward is <value:$1A> Gea, and the deadline is within <value:$1B> days. Bandits may appear along the way, so please proceed with caution.<end>"
-KO: "모험자 여러분께 부탁드릴 일이 있습니다. <value:$15>을 <value:$16>까지 운반해 주세요. 사례는 <value:$1A>기어. 기한은 <value:$1B>일 이내가 어떻겠습니까. 운반 도중 도적이 나타나지 않으리란 보장도 없습니다. 부디 신중히 행동해 주세요.<end>"
-
-## 240046
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "いつも世話になってるね。<line-break>今回はお願いしたいことがあるんだ。<line-break><value:$15>を<value:$16>の町に<line-break>届ける用事がある。こいつをやってもらいたい。<line-break><value:$1B>日以内に届けてくれるんなら、<line-break><value:$1A>ギア出すぜ。<end>"
-EN: "Thanks for always helping out. I've got a favor to ask: <value:$15> needs to be delivered to the town of <value:$16>. If you can get it there within <value:$1B> days, I'll pay <value:$1A> Gea.<end>"
-KO: "늘 신세 지고 있네. 이번엔 부탁할 일이 있어. <value:$15>을 <value:$16> 마을까지 전달해야 하는데, 이걸 맡아 줬으면 해. <value:$1B>일 안에 전달해 주면 <value:$1A>기어를 주지.<end>"
-
-## 240047
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "品物を届けてもらいたくてね。<line-break><value:$15>なんだけどさ、<line-break><value:$16>まで、<value:$1B>日以内で運べる？<line-break>引き受けてくれるんなら、<line-break><value:$1A>ギア払うよ。お願いね。<end>"
-EN: "I've got something that needs delivering: <value:$15>. Can you carry it to <value:$16> within <value:$1B> days? If you take the job, I'll pay <value:$1A> Gea. Please?<end>"
-KO: "물건을 배달해 줬으면 해. <value:$15>인데, <value:$16>까지 <value:$1B>일 안에 옮길 수 있어? 맡아 준다면 <value:$1A>기어를 줄게. 부탁해.<end>"
-
-## 240048
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "業務の関係で、<value:$15>を<line-break><value:$16>まで輸送します。<line-break>強奪の危険を回避するため、<line-break>冒険者の方に運搬を依頼いたします。<line-break>期限は<value:$1B>日以内です。<line-break>報酬は、<value:$1A>ギアとさせていただきます。<end>"
-EN: "For business purposes, <value:$15> must be transported to <value:$16>. To avoid the risk of theft, we are commissioning an adventurer to carry it. Deadline: within <value:$1B> days. Compensation: <value:$1A> Gea.<end>"
-KO: "업무상 <value:$15>를 <value:$16>까지 운송합니다. 강탈 위험을 피하기 위해 모험자분께 운반을 의뢰합니다. 기한은 <value:$1B>일 이내이며 보수는 <value:$1A>기어입니다.<end>"
-
-## 240049
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "依頼内容は、<value:$15>を<line-break><value:$16>まで運搬すること。<line-break>期限は<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアである。<end>"
-EN: "Assignment: transport <value:$15> to <value:$16>. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "의뢰 내용은 <value:$15>을 <value:$16>까지 운반하는 것. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다.<end>"
-
-## 240050
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>運んでくださる方を募集しています。<line-break>大事な物なのでどうかよろしくお願いします。<line-break>期限は<value:$1B>日以内で。<line-break>謝礼は、<value:$1A>ギアです。<end>"
-EN: "Seeking someone to carry <value:$15> to <value:$16>. It is important, so please handle it with care. Deadline: within <value:$1B> days. Compensation: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>까지 운반해 주실 분을 찾습니다. 소중한 물건이니 잘 부탁드립니다. 기한은 <value:$1B>일 이내, 사례는 <value:$1A>기어입니다.<end>"
-
-## 240051
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "　　　　　　　　告<line-break>重要な品物の運搬を行う冒険者を募集する。<line-break>迅速かつ正確に任務をこなす者を希望する。<line-break>対象　：<value:$15><line-break>目的地：<value:$16><line-break>期限　：<value:$1B>日以内<line-break>報酬　：<value:$1A>ギア<end>"
-EN: "NOTICE: Adventurer wanted to transport important goods. Applicants must complete the assignment swiftly and accurately. Cargo: <value:$15>. Destination: <value:$16>. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "공고. 중요한 물품을 운반할 모험가를 모집한다. 신속하고 정확하게 임무를 수행할 자를 희망한다. 대상: <value:$15> 목적지: <value:$16> 기한: <value:$1B>일 이내 보수: <value:$1A>기어<end>"
-
-## 240052
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "物騒な世の中です。<value:$15>ひとつ<line-break><value:$16>まで運ぶだけでも、<line-break>無事にすむ保証はありません。<line-break>お強い方にお願いします。<line-break>私たちに代わって運搬を行ってください。<line-break><value:$1B>日以内に運んでください。<line-break>お礼は、<value:$1A>ギア用立てました。<end>"
-EN: "These are dangerous times. There is no guarantee of a safe journey even when carrying <value:$15> to <value:$16>. We need someone strong to transport it in our place. Deliver it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "흉흉한 세상입니다. <value:$15> 하나를 <value:$16>까지 옮기는 일조차 무사히 끝난다는 보장이 없습니다. 강한 분께 부탁드립니다. 저희 대신 운반해 주세요. <value:$1B>일 이내에 옮겨 주십시오. 사례로 <value:$1A>기어를 준비했습니다.<end>"
-
-## 240053
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>まで<value:$15>を<line-break>届けるにしても、簡単には行かんのぉ。<line-break>道中何があるからんし、こんなご時世じゃし。<line-break>そんなわけで、冒険者の方々、わしらに代わって<line-break>届けに行ってもらえんか？<line-break><value:$1B>日以内に着くようお願いしますじゃ。<line-break>お礼は、<value:$1A>ギアでどうかのぉ。<end>"
-EN: "Delivering <value:$15> to <value:$16> won't be easy. There's no telling what might happen along the way in times like these. Adventurers, could you make the delivery for us? Please arrive within <value:$1B> days. Would <value:$1A> Gea be a fair reward?<end>"
-KO: "<value:$16>까지 <value:$15>을 배달하는 것도 쉽지 않구먼. 길에 무슨 일이 생길지 모르고 이런 세상이니 말이야. 그러니 모험가 여러분, 우리 대신 배달해 주지 않겠나? <value:$1B>일 이내에 도착해 주게. 사례는 <value:$1A>기어면 어떻겠나.<end>"
-
-## 240054
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$1A>ギアで、<value:$15>の<line-break><value:$16>までの運搬を<line-break>請け負っていただけませんか。<line-break>日限は<value:$1B>日以内です。<line-break>この運搬は商売上どうしても必要なことで、<line-break>なんにせよ道中が危険なので、<line-break>戦いのできる方でないと頼めないのです。<end>"
-EN: "Would you transport <value:$15> to <value:$16> for <value:$1A> Gea? The deadline is within <value:$1B> days. This delivery is essential to our business, and the road is dangerous, so we can only entrust it to someone capable of fighting.<end>"
-KO: "<value:$1A>기어에 <value:$15>을 <value:$16>까지 운반해 주시겠습니까. 기한은 <value:$1B>일 이내입니다. 이 운반은 장사에 꼭 필요한 일인데 길이 위험해 싸울 수 있는 분이 아니면 부탁드릴 수 없습니다.<end>"
-
-## 240055
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "求む！　配達人！<line-break>商用で<value:$15>を<value:$16>まで<line-break>送らねばなりません。<line-break>それに際し、危険が予想されるため、<line-break>戦いのできる方に配達をお願いしたいのです。<line-break>期限は<value:$1B>日以内です。感謝の気持ちとして、<line-break><value:$1A>ギア用意しました。<end>"
-EN: "COURIER WANTED! We must send <value:$15> to <value:$16> for business. Danger is expected, so we need someone capable of fighting to make the delivery. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "배달원 모집! 업무상 <value:$15>을 <value:$16>까지 보내야 합니다. 도중에 위험이 예상되므로 싸울 수 있는 분께 배달을 부탁드립니다. 기한은 <value:$1B>일 이내입니다. 감사의 뜻으로 <value:$1A>기어를 준비했습니다.<end>"
-
-## 240056
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>の町への届け物があってね。<line-break>こないだ出かけたんだけど、途中でモンスターに<line-break>襲われたんで、戻ってきちゃったのさ。<line-break>あたしたちのかわりに、<value:$15>を<line-break>届けてくれないかね。<value:$1A>ギア出すよ。<line-break><value:$1B>日以内に届けてね。<end>"
-EN: "We have a delivery for the town of <value:$16>. We tried making the trip recently, but monsters attacked us, so we turned back. Could you deliver <value:$15> in our place? We'll pay <value:$1A> Gea. Get it there within <value:$1B> days.<end>"
-KO: "<value:$16> 마을로 보낼 물건이 있는데 말이야. 전에 직접 가다가 중간에 몬스터에게 습격당해서 돌아와 버렸지. 우리 대신 <value:$15>을 가져다주지 않을래? <value:$1A>기어 줄게. <value:$1B>일 이내에 전달해 줘.<end>"
-
-## 240057
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>に<line-break>送り届けることになりました。<line-break>しかし、その道のりには、危険が予想されます。<line-break>そこで、旅と戦いに慣れた冒険者の方に<line-break>運搬を依頼します。謝礼は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内です。<end>"
-EN: "We must deliver <value:$15> to <value:$16>, but danger is expected along the way. We therefore request an adventurer experienced in travel and combat. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "<value:$15>을 <value:$16>에 보내게 되었습니다. 하지만 그 길에는 위험이 예상됩니다. 그래서 여행과 전투에 익숙한 모험자분께 운반을 부탁드립니다. 사례는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 240058
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$1B>日以内に<line-break><value:$16>まで届けていただける方を<line-break>探しています。<line-break><value:$1A>ギアのお礼を用意しています。<line-break>どなたかよろしくお願いします。<end>"
-EN: "Seeking someone who can deliver <value:$15> to <value:$16> within <value:$1B> days. A reward of <value:$1A> Gea is available. Please help.<end>"
-KO: "<value:$15>을 <value:$1B>일 이내에 <value:$16>까지 운반해 주실 분을 찾습니다. 사례로 <value:$1A>기어를 준비했습니다. 부탁드립니다.<end>"
-
-## 240059
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "物品の運搬を請け負う者を募集している。<line-break>我が天経院にとって極めて重要な物品である。<line-break>依頼内容は、<value:$15>の<line-break><value:$16>への運搬。<line-break>期限は<value:$1B>日以内。<line-break>謝礼は、<value:$1A>ギアとする。<end>"
-EN: "Seeking someone to transport goods of the utmost importance to our Tenkeiin. Assignment: carry <value:$15> to <value:$16>. Deadline: within <value:$1B> days. Compensation: <value:$1A> Gea.<end>"
-KO: "물품 운반을 맡을 자를 모집한다. 우리 천경원에 매우 중요한 물품이다. 의뢰 내용은 <value:$15>를 <value:$16>로 운반하는 것. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어로 한다.<end>"
-
-## 240060
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>の町まで<line-break>届けます。最近は物騒ですから、<line-break>戦いを知らない私たちでは危なすぎます。<line-break>私たちに代わって届け物をしてくれませんか？<line-break><value:$1B>日以内に品物を送り届けてください。<line-break><value:$1A>ギアをお礼としてさしあげます。<end>"
-EN: "We need <value:$15> delivered to <value:$16>. These are dangerous times, and we have no combat experience, so the journey is too dangerous for us. Could you make the delivery in our place? Deliver it within <value:$1B> days for a reward of <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16> 마을까지 전달합니다. 요즘 세상이 험해 싸움을 모르는 저희에겐 너무 위험합니다. 대신 물건을 전달해 주시겠습니까? <value:$1B>일 안에 보내 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240061
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "急募　運び屋さん<line-break><value:$15>を送り届けてください。<line-break><value:$16>が目的地です。<line-break><value:$1B>日以内に届けてくださったならば、<line-break><value:$1A>ギアさしあげます。<end>"
-EN: "URGENT: COURIER WANTED. Deliver <value:$15> to <value:$16> within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "긴급 모집 운반원. <value:$15>을 데려다주세요. 목적지는 <value:$16>입니다. <value:$1B>일 안에 데려다주시면 <value:$1A>기어를 드립니다.<end>"
-
-## 240062
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃は町から町への移動も安全ではありません。<line-break>旅の途中で、金目の物を奪われたとの知らせが<line-break>よく入ってきます。<line-break>今回の<value:$15>の<line-break><value:$16>までの運搬は、私どもではなく、<line-break>冒険者の方にお願いしたいと思います。<line-break><value:$1A>ギアで、期限は<value:$1B>日以内です。<end>"
-EN: "Travel between towns is no longer safe. We often hear of valuables being stolen on the road. We would therefore like an adventurer to transport <value:$15> to <value:$16> in our place. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "요즘은 도시에서 도시로 이동하는 것도 안전하지 않습니다. 여행 중 값나가는 물건을 빼앗겼다는 소식도 자주 들립니다. 이번 <value:$15>의 <value:$16>까지의 운반은 저희가 아니라 모험가분께 부탁드리고 싶습니다. <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 240063
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "今度、<value:$16>まで<value:$15>を<line-break>送るんじゃが、何かあったら困るんじゃ。<line-break>冒険者なら襲われても追い払えるじゃろう。<line-break>運搬をやってくれんか。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に頼むぞ。<end>"
-EN: "We need to send <value:$15> to <value:$16>, and it would be a disaster if anything happened. An adventurer should be able to drive off any attackers. Will you transport it? Reward: <value:$1A> Gea. Complete it within <value:$1B> days.<end>"
-KO: "이번에 <value:$16>까지 <value:$15>을 보내려는데 무슨 일이 생기면 곤란하네. 모험자라면 습격당해도 물리칠 수 있겠지. 운반을 맡아 주지 않겠나. 사례는 <value:$1A>기어. <value:$1B>일 이내에 부탁하네.<end>"
-
-## 240064
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>に<value:$15>を<line-break>届けなきゃならん。だけど簡単にはいかん。<line-break>盗賊やらモンスターやらが出るんで、危険でな。<line-break>わしらの代わりに品物を届けてきてくれんか。<line-break><value:$1B>日以内に届けてくれたら、<line-break><value:$1A>ギアのお礼をするよ。<end>"
-EN: "We need <value:$15> delivered to <value:$16>, but it won't be easy. Bandits and monsters make the road dangerous. Could you deliver it in our place? Get it there within <value:$1B> days, and we'll reward you with <value:$1A> Gea.<end>"
-KO: "<value:$16>에 <value:$15>을 보내야 해. 하지만 간단하지 않아. 도적이나 몬스터가 나와서 위험하거든. 우리 대신 물건을 전달해 주겠나. <value:$1B>일 이내에 배달하면 <value:$1A>기어를 사례로 주지.<end>"
-
-## 240065
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>に<line-break>届けなくてはなりません。<line-break>道中、盗賊などに襲われる危険があるため、<line-break>戦いの心得を持つ方々に運搬を依頼します。<line-break><value:$1B>日以内に届けてくださるのならば、<line-break><value:$1A>ギアのお礼をさしあげます。<end>"
-EN: "We must deliver <value:$15> to <value:$16>. As bandits or others may attack along the way, we request transport by adventurers with combat training. Deliver it within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>에 전달해야 합니다. 길에서 도적 등에게 습격당할 위험이 있어 전투에 익숙한 분들께 운반을 의뢰합니다. <value:$1B>일 안에 전달해 주신다면 <value:$1A>기어를 사례로 드리겠습니다.<end>"
-
-## 240066
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>送り届ける用事ができました。<line-break>勇敢な冒険者の方にお願いします。<line-break>品物を無事に送り届けてください。<line-break><value:$1B>日以内に到着してください。<line-break><value:$1A>ギアのお礼をいたします。<end>"
-EN: "We need <value:$15> delivered to <value:$16>. Brave adventurers, please see it safely to its destination within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>를 <value:$16>까지 보내야 합니다. 용감한 모험가에게 부탁드립니다. 물품을 무사히 전달해 주세요. <value:$1B>일 이내에 도착해 주십시오. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240067
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "神殿から<value:$16>まで<value:$15>の<line-break>届け物をいたします。しかし、道中には、<line-break>邪悪な者が待ちかまえているかもしれません。<line-break>品物を確実に届けてくださる方を募集します。<line-break>報酬は、<value:$1A>ギア、<line-break>期限は<value:$1B>日以内。<line-break>成功を期待しております。<end>"
-EN: "The temple is sending <value:$15> to <value:$16>, but evildoers may be lying in wait along the road. Seeking someone who can ensure its delivery. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. We look forward to your success.<end>"
-KO: "신전에서 <value:$16>까지 <value:$15>을 전달합니다. 하지만 도중에 사악한 자가 기다리고 있을지도 모릅니다. 물건을 확실히 전달해 주실 분을 모집합니다. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내. 성공을 기대하겠습니다.<end>"
-
-## 240068
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "大事な品物の<value:$15>を、<line-break><value:$16>まで届けることになってね。<line-break>もし盗賊に奪われてしまったらたいへんなんだ。<line-break>冒険者の人にお願いするよ。<line-break><value:$15>をしっかり届けておくれよ。<line-break><value:$1B>日以内に届けてくれれば、<line-break><value:$1A>ギアのお礼をするよ。<end>"
-EN: "We need to deliver important cargo to <value:$16>: <value:$15>. It would be disastrous if bandits stole it, so we're asking an adventurer. Make sure <value:$15> arrives safely. Deliver it within <value:$1B> days to receive <value:$1A> Gea.<end>"
-KO: "중요한 물건인 <value:$15>을 <value:$16>까지 전하게 됐어. 도적에게 빼앗기면 큰일이지. 모험가에게 부탁할게. <value:$15>을 확실히 전달해 줘. <value:$1B>일 이내에 배달하면 <value:$1A>기어를 사례로 줄게.<end>"
-
-## 240069
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "旅が危なくなっちゃったわね。<line-break>恐いモンスターとか盗賊とかがよくでるから。<line-break>それなのに、今度<value:$16>まで<line-break>届け物をしなきゃならないの。<line-break>かわりに<value:$15>を届けてくれない？<line-break><value:$1B>日以内にやってもらいたいの。<line-break>お礼は、<value:$16>でどうかしら。<end>"
-EN: "Travel has become dangerous, with frightening monsters and bandits appearing so often. Even so, we need to make a delivery to <value:$16>. Could you deliver <value:$15> in our place within <value:$1B> days? How does <value:$16> sound as a reward?<end>"
-KO: "여행이 위험해졌네. 무서운 몬스터나 도적이 자주 나오니까. 그런데도 이번에 <value:$16>까지 물건을 배달해야 해. 대신 <value:$15>을 배달해 주지 않을래? <value:$1B>일 이내에 해 줬으면 해. 사례는 <value:$16>이면 어떨까.<end>"
-
-## 240070
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>届けたいのですが、最近の旅は、危険です。<line-break>危険は回避するのが商売の基本なので、<line-break>腕の立つ冒険者の方に運搬していただくのが<line-break>一番と考えました。期限は<value:$1B>日以内で。<line-break>お礼は、<value:$1A>ギアご用意しました。<end>"
-EN: "We need <value:$15> delivered to <value:$16>, but travel has become dangerous. Avoiding danger is fundamental to business, so we decided a capable adventurer would be the best choice. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>까지 전달하고 싶지만 요즘 여행은 위험합니다. 위험을 피하는 게 장사의 기본이니 실력 좋은 모험자분께 맡기는 게 최선이라 생각했습니다. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어입니다.<end>"
-
-## 240071
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を運んでくれる方募集！！<line-break>お礼は、<value:$1A>ギア！<line-break>目的地は<value:$16>！<line-break>期限は<value:$1B>日以内！<line-break>物品の運搬をしてくれる者を探しておる。<line-break>条件は上記の通りだ。<end>"
-EN: "COURIER WANTED FOR <value:$15>!! Reward: <value:$1A> Gea! Destination: <value:$16>! Deadline: within <value:$1B> days! Seeking someone to transport the goods. Terms are as stated above.<end>"
-KO: "<value:$15>을 운반해 줄 사람 모집!! 사례금은 <value:$1A>기어! 목적지는 <value:$16>! 기한은 <value:$1B>일 이내! 물품을 운반해 줄 사람을 찾고 있다. 조건은 위와 같다.<end>"
-
-## 240072
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>に住んでる人に<line-break><value:$15>を届けることになったんだよ。<line-break>けどね、あたしらじゃあ、途中盗賊に襲われたら<line-break>追い払うことなんてできやしないよ。<line-break>だからさ、強い冒険者さんにお願いするよ。<line-break><value:$15>を運んでおくれよ。<line-break><value:$1B>日以内、<value:$1A>ギアのお礼でどう？<end>"
-EN: "We've got <value:$15> to deliver in <value:$16>, but we can't fight off bandits. Adventurer, please carry <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "<value:$16>에 사는 사람에게 <value:$15>을 전해 주게 됐어. 하지만 우리 같은 사람이 도중에 도적을 만나면 쫓아낼 수가 없지. 그러니 강한 모험가에게 부탁할게. <value:$15>을 운반해 줘. <value:$1B>일 이내, 사례는 <value:$1A>기어면 어때?<end>"
-
-## 240073
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>に運びます。<line-break>運搬を請け負ってくださる方を募ります。<line-break>到着の期限は<value:$1B>日以内でお願いします。<line-break>お礼は、<value:$1A>ギアご用意しました。<end>"
-EN: "We need <value:$15> transported to <value:$16> and are seeking someone to take the job. Please arrive within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>으로 운반합니다. 운송을 맡아 주실 분을 모집합니다. 도착 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어입니다.<end>"
-
-## 240074
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "最近、旅はたいへん危険になってしまいました。<line-break>このたび、<value:$15>を<value:$16>に<line-break>運ぶのですが、道中は危険との噂。<line-break>そこで、旅と戦いを知りつくした冒険者の方に<line-break>運搬を依頼したいと思います。<line-break>到着は<value:$1B>日以内。<line-break><value:$1A>ギアのお礼をします。<end>"
-EN: "Travel is dangerous. Please take <value:$15> to <value:$16>. We need an adventurer skilled in travel and combat. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "요즘 여행은 아주 위험해졌습니다. 이번에 <value:$15>을 <value:$16>로 운반해야 하는데, 길이 위험하다는 소문이 있습니다. 그래서 여행과 전투에 익숙한 모험자에게 운반을 의뢰하고 싶습니다. 도착은 <value:$1B>일 이내. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240075
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "世が乱れており、街道が危険になっています。<line-break>我が水の神殿は、<value:$16>に<line-break><value:$15>を送り届けるのですが、<line-break>悪意を持つ者に奪われる危険も考えられます。<line-break>冒険者の方にお願いいたします。<line-break>どうか、品物を無事にお届けください。<line-break><value:$1A>ギアで、<value:$1B>日以内を希望します。<end>"
-EN: "These troubled times make the roads unsafe. The Water Temple asks you to deliver <value:$15> safely to <value:$16>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "세상이 어지러워져 가도가 위험해졌습니다. 우리 물의 신전은 <value:$16>에 <value:$15>을 보내야 하지만 악의를 품은 자에게 빼앗길 위험도 있습니다. 모험가 여러분께 부탁드립니다. 부디 물품을 무사히 전달해 주세요. <value:$1A>기어의 보수로, <value:$1B>일 이내를 희망합니다.<end>"
-
-## 240076
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を運ぶ人募集<line-break><value:$16>まで<line-break><value:$1A>ギアの好条件<line-break>品物を運搬してくれる方はいませんか。<line-break>旅ならおまかせというあなた、チャンスです。<line-break><value:$1B>日以内に送り届けられる方、待ってます。<end>"
-EN: "COURIER WANTED: Carry <value:$15> to <value:$16> for the excellent reward of <value:$1A> Gea. Confident in your traveling skills? This is your chance! We look forward to hearing from anyone who can deliver it within <value:$1B> days.<end>"
-KO: "<value:$15> 운반할 분 모집. <value:$16>까지, <value:$1A>기어의 좋은 조건입니다. 물건을 운반해 주실 분 없나요? 여행이라면 자신 있다는 당신에게 기회입니다. <value:$1B>일 이내에 보내주실 분을 기다립니다.<end>"
-
-## 240077
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を無事に届けて！<line-break><value:$16>の町まで<value:$15>を<line-break>送り届けなきゃならないの。<line-break>強い冒険者さん、運搬をお願い。<line-break><value:$1A>ギア集めたわ。<line-break><value:$1B>日以内にお願い。<end>"
-EN: "Please deliver <value:$15> safely! We need <value:$15> sent to the town of <value:$16>. Strong adventurer, please handle the transport. I managed to gather <value:$1A> Gea. Please do it within <value:$1B> days.<end>"
-KO: "<value:$15>을 무사히 전해 줘! <value:$16> 마을까지 <value:$15>을 보내야 해. 강한 모험자님, 운반을 부탁해. <value:$1A>기어를 모았어. <value:$1B>일 이내로 부탁해.<end>"
-
-## 240078
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "最近じゃあ他の町に行くにしても危ないです。<line-break>今度の<value:$16>までの<value:$15>の<line-break>運搬も、そう簡単にうまくいくとは思えません。<line-break>旅と戦いなら任せろっていう冒険者の方、<line-break><value:$1B>日以内に届けてください。<line-break>お礼の<value:$1A>ギアを差し上げます。<end>"
-EN: "Even traveling to another town is dangerous these days. I doubt transporting <value:$15> to <value:$16> will be easy. Any adventurer confident in travel and combat, please deliver it within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "요즘은 다른 마을로 가는 것조차 위험합니다. 이번 <value:$16>까지의 <value:$15> 운반도 쉽게 끝날 것 같지 않군요. 여행과 싸움은 자신 있다는 모험자분, <value:$1B>일 이내에 배달해 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240079
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "今度の<value:$15>の運搬なんだが、<line-break>道中、盗賊やモンスターが出るらしい。<line-break>そこで、だ。<value:$16>まで<line-break><value:$15>を持ってっちゃくれないか。<line-break>お礼はするぜ、<value:$1A>ギアでどうだ。<line-break>期限は<value:$1B>日以内だな。<end>"
-EN: "I need <value:$15> transported, but bandits and monsters are said to appear along the way. So, could you take <value:$15> to <value:$16>? I'll reward you. How does <value:$1A> Gea sound? The deadline is within <value:$1B> days.<end>"
-KO: "이번 <value:$15> 운반 말인데, 도중에 도적이나 몬스터가 나온다더군. 그래서 말인데, <value:$16>까지 <value:$15>을 가져다주지 않겠나. 사례는 하지, <value:$1A>기어면 어때. 기한은 <value:$1B>일 이내다.<end>"
-
-## 240080
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>まで<value:$15>を<line-break>届けたいんですよ。一度届けに出たのですが、<line-break>途中モンスターに出くわして逃げてきました。<line-break>冒険者の方に運んでもらいたいと思います。<line-break>お礼として<value:$1A>ギアさしあげます。<line-break>到着は<value:$1B>日以内でお願いします。<end>"
-EN: "We need <value:$15> delivered to <value:$16>. We set out once already, but encountered a monster and fled. We would like an adventurer to carry it instead. Reward: <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
-KO: "<value:$16>까지 <value:$15>을 전하려고 합니다. 한 번 배달하러 나갔다가 중간에 몬스터를 만나 도망쳐 돌아왔어요. 모험가 분께 운반을 부탁하고 싶습니다. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 도착하도록 부탁드립니다.<end>"
-
-## 240081
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "冒険者の皆様、ご利用ありがとうございます。<line-break>このたびの私どもからの依頼は、<line-break><value:$15>の<value:$16>までの<line-break>運搬です。期限は<value:$1B>日以内で、<line-break>お礼は、<value:$1A>ギアとさせていただきます。<end>"
-EN: "Adventurers, thank you for your continued patronage. Our request is to transport <value:$15> to <value:$16>. Deadline: within <value:$1B> days. Compensation: <value:$1A> Gea.<end>"
-KO: "모험가 여러분, 이용해 주셔서 감사합니다. 이번 의뢰는 <value:$15>를 <value:$16>까지 운반하는 일입니다. 기한은 <value:$1B>일 이내이며 사례금은 <value:$1A>기어입니다.<end>"
-
-## 240082
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "大切な<value:$15>を<value:$16>まで<line-break>届けてくださる冒険者を募集しています。<line-break>お礼は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内です。<end>"
-EN: "Seeking an adventurer to deliver important cargo to <value:$16>: <value:$15>. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "소중한 <value:$15>을 <value:$16>까지 전달해 주실 모험자를 모집합니다. 사례는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 240083
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "我が風の神殿が<value:$16>に送る<line-break><value:$15>を守り、<line-break>送り届けてくださる勇者はいませんか。<line-break>お礼として<value:$1A>ギア用意しました。<line-break><value:$1B>日以内に依頼を果たされることを<line-break>望みます。<end>"
-EN: "Is there a hero willing to guard <value:$15> and deliver it from the Wind Temple to <value:$16>? Reward: <value:$1A> Gea. We ask that the commission be completed within <value:$1B> days.<end>"
-KO: "우리 바람의 신전이 <value:$16>로 보내는 <value:$15>를 지켜 운반해 주실 용사는 없습니까. 사례로 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 의뢰를 완수하시길 바랍니다.<end>"
-
-## 240084
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>まで<value:$15>を<line-break>送り届けねばならない。だが、道中は危険だ。<line-break>冒険者さんに運搬をお願いしたい。<line-break><value:$1A>ギアをお礼としよう。<line-break><value:$1B>日以内でよろしく頼む。<end>"
-EN: "We must deliver <value:$15> to <value:$16>, but the road is dangerous. We would like an adventurer to transport it. Reward: <value:$1A> Gea. Please complete it within <value:$1B> days.<end>"
-KO: "<value:$16>까지 <value:$15>을 보내야 한다. 하지만 길은 위험하다. 모험자에게 운반을 부탁하고 싶다. 사례로 <value:$1A>기어를 주겠다. <value:$1B>일 이내로 부탁한다.<end>"
-
-## 240085
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>に送りたい。<line-break>途中何が出てくるかわからんから、<line-break>戦いのできる奴に運んでもらいたいんだ。<line-break>そういうわけで、運搬を頼みたい。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は<value:$1B>日以内ってとこか。<end>"
-EN: "I want to send <value:$15> to <value:$16>. There's no telling what might appear along the way, so I want someone who can fight to carry it. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "<value:$15>을 <value:$16>에 보내고 싶다. 가는 길에 뭐가 나올지 모르니 싸울 수 있는 녀석에게 운반을 맡기고 싶어. 그런 이유로 배달을 부탁한다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내 정도다.<end>"
-
-## 240086
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>に送ります。<line-break>道中の危険を考えると、<line-break>戦いのできる方に頼む必要があります。<line-break>そこで冒険者の方に品物を運んほしいのです。<line-break>期限は<value:$1B>日以内。<line-break>お礼として<value:$1A>ギアを進呈しましょう。<end>"
-EN: "We need to send <value:$15> to <value:$16>. Given the dangers along the road, we require someone capable of fighting and would like an adventurer to transport it. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>에 보냅니다. 도중의 위험을 생각하면 싸울 수 있는 분께 맡길 필요가 있습니다. 그래서 모험자분께 물건 운반을 부탁하고 싶습니다. 기한은 <value:$1B>일 이내. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240087
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を届けなきゃならないんだが、<line-break>なんでも、<value:$16>までの道には<line-break>おっかねえのが出るらしいじゃないか。<line-break>冒険者に頼むのが賢明だ。<line-break><value:$1A>ギア払うよ。<line-break><value:$1B>日以内に到着してくれよな。<end>"
-EN: "I need <value:$15> delivered, but I hear frightening things appear on the road to <value:$16>. Asking an adventurer seems wise. I'll pay <value:$1A> Gea. Arrive within <value:$1B> days.<end>"
-KO: "<value:$15>를 배달해야 하는데 <value:$16>까지 가는 길에 무서운 게 나온다더군. 모험가에게 맡기는 게 현명하겠지. <value:$1A>기어 줄게. <value:$1B>일 이내에 도착해 줘.<end>"
-
-## 240088
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>の届け物で、<value:$16>に<line-break>行かなくちゃならないんだけど。<line-break>戦いが強い人に持っていってもらいたいんだ。<line-break><value:$1A>ギアで品物を運んでくれないかい？<line-break>到着は、<value:$1B>日以内に頼むね。<end>"
-EN: "I need to take <value:$15> to <value:$16>, but I'd like someone strong in combat to carry it. Will you transport the goods for <value:$1A> Gea? Please arrive within <value:$1B> days.<end>"
-KO: "<value:$15>를 <value:$16>까지 배달해야 하는데, 싸움에 강한 사람에게 맡기고 싶어. <value:$1A>기어에 물건을 운반해 줄래? <value:$1B>일 이내에 도착해 줘.<end>"
-
-## 240089
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>送り届けるにあたり、道中の危険をさけるため、<line-break>旅と戦闘に精通した冒険者の方に<line-break>運搬を依頼したいと考えております。<line-break><value:$1A>ギアをお支払いいたします。<line-break>到着期限は、<value:$1B>日以内です。<end>"
-EN: "To avoid the dangers involved in delivering <value:$15> to <value:$16>, we would like to commission an adventurer well versed in travel and combat. Payment: <value:$1A> Gea. Arrival deadline: within <value:$1B> days.<end>"
-KO: "<value:$15>을 <value:$16>까지 보내는 데 도중의 위험을 피하기 위해 여행과 전투에 능숙한 모험자분께 운반을 부탁드리고자 합니다. <value:$1A>기어를 드리겠습니다. 도착 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 240090
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>運搬してくださる方を募集します。<line-break>お礼は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内とします。<end>"
-EN: "Seeking someone to transport <value:$15> to <value:$16>. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "<value:$15>을 <value:$16>까지 운반해 주실 분을 모집합니다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 240091
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス１<end>"
-EN: "Ladras 1<end>"
-KO: "라드라스1<end>"
-
-## 240092
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス２<end>"
-EN: "Ladras 2<end>"
-KO: "라드라스2<end>"
-
-## 240093
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス３<end>"
-EN: "Ladras 3<end>"
-KO: "라드라스3<end>"
-
-## 240094
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス４<end>"
-EN: "Ladras 4<end>"
-KO: "라드라스4<end>"
-
-## 240095
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス５<end>"
-EN: "Ladras 5<end>"
-KO: "라드라스5<end>"
-
-## 240096
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス６<end>"
-EN: "Ladras 6<end>"
-KO: "라드라스6<end>"
-
-## 240097
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス７<end>"
-EN: "Ladras 7<end>"
-KO: "라드라스7<end>"
-
-## 240098
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ラドラス８<end>"
-EN: "Ladras 8<end>"
-KO: "라드라스8<end>"
-
-## 240099
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>送り届ける使いの者を募集する。<line-break>充分注意をするように。道中は危険である。<line-break>到着期限は、<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアである。<end>"
-EN: "Seeking a courier to deliver <value:$15> to <value:$16>. Exercise due caution; the road is dangerous. Arrival deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>까지 보낼 심부름꾼을 구한다. 길은 위험하니 충분히 주의하도록. 도착 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어다.<end>"
-
-## 240100
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "モンスターやら盗賊が出没するため、<line-break>戦いを知らない私たちは、<line-break>他の町へ行くのも楽ではありません。<line-break><value:$16>への<value:$15>の運搬を<line-break>お願いします。報酬は<value:$1A>ギアです。<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "With monsters and bandits roaming about, traveling to other towns is difficult for those of us with no combat experience. Please transport <value:$15> to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "몬스터와 도적이 출몰해서 싸움을 모르는 우리는 다른 마을로 가는 것도 쉽지 않습니다. <value:$16>로 <value:$15>을 운반해 주세요. 보수는 <value:$1A>기어입니다. <value:$1B>일 이내에 부탁드립니다.<end>"
-
-## 240101
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>に届ける物があるんじゃが、<line-break>近頃は物騒じゃて、強くもないわしらじゃあ<line-break>無事に届けられるかどうかもわからん。<line-break>おねげえだ、<value:$15>を届けてくれ。<line-break><value:$1A>ギア出すだ。<line-break><value:$1B>日以内でやってくれんかの。<end>"
-EN: "We have something to deliver to <value:$16>, but these are dangerous times, and we're not strong enough to be sure we can get it there safely. Please deliver <value:$15>. We'll pay <value:$1A> Gea. Could you do it within <value:$1B> days?<end>"
-KO: "<value:$16>에 전할 물건이 있는데 요즘 세상이 험해서 우리처럼 약한 사람은 무사히 옮길 수 있을지 모르겠네. 부탁이야, <value:$15>을 전해 줘. <value:$1A>기어를 내겠네. <value:$1B>일 안에 해 줄 수 있겠나.<end>"
-
-## 240102
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "商用のため、<value:$15>を<line-break><value:$16>まで送り届けます。<line-break>道中、危険が予想されますので、<line-break>戦闘のプロである冒険者の方にお任せします。<line-break>運搬を請け負ってください。<value:$1A>ギアで、<line-break><value:$1B>日以内にお願いします。<end>"
-EN: "For business, <value:$15> must go to <value:$16>. The road is dangerous, so a combat-ready adventurer should carry it. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "상용 때문에 <value:$15>을 <value:$16>까지 보내야 합니다. 도중 위험이 예상되므로 전투의 전문가인 모험자분께 맡기겠습니다. 운반을 맡아 주세요. 보수는 <value:$1A>기어, 기한은 <value:$1B>일 이내입니다.<end>"
-
-## 240103
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>に<line-break>届けることになったんだが、忙しくてな。<line-break>長い日数を割くわけにはいかない。<line-break>そこで、冒険者に運搬を依頼したい。<line-break>お礼として<value:$1A>ギア用意した。<line-break><value:$1B>日以内の期限で頼む。<end>"
-EN: "I need <value:$15> delivered to <value:$16>, but I'm too busy to spare many days. So I'd like an adventurer to transport it. Reward: <value:$1A> Gea. Please complete it within <value:$1B> days.<end>"
-KO: "<value:$15>을 <value:$16>에 전달해야 하는데 바빠서 말이야. 긴 시간을 낼 수가 없어. 그래서 모험자에게 운반을 맡기고 싶다. 사례로 <value:$1A>기어를 준비했다. 기한은 <value:$1B>일 이내로 부탁한다.<end>"
-
-## 240104
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "おかげさんで、商売は繁盛してるよ。<line-break>でも、忙しくってね、<value:$15>を<line-break><value:$16>に届けなきゃならないのに、<line-break>そんな暇も作れないのよ。<line-break><value:$1A>ギア出すわ。<line-break><value:$15>を運んでちょうだい。<line-break><value:$1B>日以内によろしくね。<end>"
-EN: "Thanks to all of you, business is booming. But I'm so busy that I can't find time to deliver <value:$15> to <value:$16>. I'll pay <value:$1A> Gea, so please carry <value:$15> for me within <value:$1B> days.<end>"
-KO: "덕분에 장사는 잘돼. 그런데 너무 바빠서 <value:$15>을 <value:$16>에 보내야 하는데 그럴 시간도 없어. <value:$1A>기어를 줄게. <value:$15>을 운반해 줘. <value:$1B>일 안에 부탁해.<end>"
-
-## 240105
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>までの途中に<line-break>モンスターが出るとの情報が入っています。<line-break>私どもは<value:$15>を<value:$16>まで<line-break>送り届けねばならないのですが、<line-break>道中が危険では難しいでしょう。<line-break>運搬を行ってくださる冒険者の方を募集します。<line-break>条件は、<value:$1A>ギア、<value:$1B>日以内です。<end>"
-EN: "We have received reports of monsters on the road to <value:$16>. We must deliver <value:$15> to <value:$16>, but the danger makes that difficult. Seeking an adventurer to handle the transport. Terms: <value:$1A> Gea, within <value:$1B> days.<end>"
-KO: "<value:$16>까지 가는 길에 몬스터가 출몰한다는 정보가 들어왔습니다. 저희는 <value:$15>을 <value:$16>까지 보내야 하지만 길이 위험해서는 어렵겠지요. 운반해 주실 모험자를 모집합니다. 조건은 <value:$1A>기어, <value:$1B>일 이내입니다.<end>"
-
-## 240106
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>の運搬を依頼します。<line-break><value:$1B>日以内に届けてくだされば、<line-break><value:$1A>ギアのお礼をいたします。<line-break>場所は、<value:$16>です。<line-break>確実に届けてくださいね。<end>"
-EN: "We request the transport of <value:$15>. Deliver it within <value:$1B> days to receive <value:$1A> Gea. The destination is <value:$16>. Please make certain it arrives.<end>"
-KO: "<value:$15>의 운반을 의뢰합니다.<value:$1B>일 이내에 배달해 주시면,<value:$1A> 기어를 사례로 드리겠습니다. 장소는 <value:$16>입니다. 확실히 전달해 주세요.<end>"
-
-## 240107
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を運ぶことなった。<line-break>たいへん重要な物品ゆえ確実に運んでほしい。<line-break>場所は、<value:$16>。<line-break>期限は、<value:$1B>日以内。<line-break>任務を完遂したならば、<line-break>賞金<value:$1A>ギアを与える。<end>"
-EN: "<value:$15> must be transported. It is extremely important, so ensure its safe delivery. Destination: <value:$16>. Deadline: within <value:$1B> days. Complete the mission to receive a prize of <value:$1A> Gea.<end>"
-KO: "<value:$15>를 운반하게 되었다. 매우 중요한 물품이니 확실히 운반해 주길 바란다. 장소는 <value:$16>. 기한은 <value:$1B>일 이내. 임무를 완수하면 상금 <value:$1A>기어를 주겠다.<end>"
-
-## 240108
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>届けたいのですが、今や町の周囲は危険です。<line-break>どなたか<value:$1B>日以内に<line-break>運んでもらえませんか？<line-break>お礼は、<value:$1A>ギア用意しています。<end>"
-EN: "We need <value:$15> delivered to <value:$16>, but the area around town is dangerous now. Could someone transport it within <value:$1B> days? Reward: <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>까지 보내고 싶지만 지금은 마을 주변이 위험합니다. 누군가 <value:$1B>일 안에 운반해 주시겠습니까? 사례로 <value:$1A>기어를 준비했습니다.<end>"
-
-## 240109
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "困ったもんですじゃ。<line-break><value:$16>まで行って<line-break><value:$15>を届けなければなりません。<line-break>あんな危ない所、わしらは通れませんですじゃ。<line-break>どなたかお強い方、わしらの代わりに<line-break>品物を運んでくださらんか。<line-break>できる限りのお礼もいたしますじゃ。<end>"
-EN: "What a predicament. We must go to <value:$16> to deliver <value:$15>, but we cannot pass through such a dangerous place. Could someone strong carry the goods in our place? We will offer the best reward we can.<end>"
-KO: "참 곤란한 일이군요. <value:$16>까지 가서 <value:$15>을 배달해야 합니다. 하지만 그렇게 위험한 곳은 우리 힘으로 지나갈 수가 없어서요. 부디 강한 분께서 우리 대신 물건을 옮겨 주시겠습니까. 가능한 한 사례하겠습니다.<end>"
-
-## 240110
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "世界に悪しき気が満ちています。<line-break>困難を払いのける勇者よ、<line-break><value:$15>を悪の手から守り、<line-break><value:$16>まで運んでください。<line-break><value:$1B>日以内にお届けくださいますよう。<end>"
-EN: "An evil presence fills the world. We ask a hero capable of overcoming adversity to protect <value:$15> from the hands of evil and carry it to <value:$16> within <value:$1B> days.<end>"
-KO: "세상에 사악한 기운이 가득합니다. 고난을 물리치는 용자여, <value:$15>을 악의 손에서 지켜 <value:$16>까지 운반해 주세요. <value:$1B>일 이내에 전해 주시기 바랍니다.<end>"
-
-## 240111
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "近頃、町の外は危なくってね。<line-break>だけど、今度<value:$16>まで<line-break><value:$15>を届けなくっちゃならない。<line-break>で、冒険者さんにやってもらいたいのさ。<line-break><value:$1B>日以内、報酬は、<value:$1A>ギアね。<end>"
-EN: "It's dangerous outside town these days, but we need <value:$15> delivered to <value:$16>. We'd like an adventurer to handle it. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "요즘 마을 밖이 위험하잖아. 그래도 이번에 <value:$16>까지 <value:$15>를 가져다줘야 해. 그래서 모험가한테 부탁하고 싶은 거야. <value:$1B>일 이내, 보수는 <value:$1A>기어야.<end>"
-
-## 240112
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ごひいきにしていただき感謝しております。<line-break>商売上で困った事態が生じました。<line-break><value:$16>までの危険な道のりを通って、<line-break><value:$15>を運ばないとならないのです。<line-break><value:$1B>日以内の期限、<line-break>報酬<value:$1A>ギアで、<line-break>引き受けていただけませんでしょうか。<end>"
-EN: "Thank you for your valued patronage. We've run into a problem with our business: we must carry <value:$15> along the dangerous road to <value:$16>. Would you accept the job for <value:$1A> Gea and complete it within <value:$1B> days?<end>"
-KO: "늘 이용해 주셔서 감사합니다. 장사 때문에 곤란한 일이 생겼습니다. <value:$16>까지 이어지는 위험한 길을 지나 <value:$15>을 운반해야 합니다. 기한은 <value:$1B>일 이내, 보수는 <value:$1A>기어입니다. 맡아 주실 수 있겠습니까?<end>"
-
-## 240113
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>まで<value:$15>を<line-break>持っていかなくてはならないんじゃ。<line-break>だが、困ったことに、道中は危険という話じゃ。<line-break>もし品物が届かなかったりしたら、大変じゃ。<line-break>冒険者よ、<value:$1B>日以内に<line-break>品物を運んでくれんか。<line-break><value:$1A>ギアでどうじゃ。<end>"
-EN: "We must take <value:$15> to <value:$16>, but the road is said to be dangerous. It would be disastrous if the cargo failed to arrive. Adventurer, could you complete the delivery within <value:$1B> days? How does <value:$1A> Gea sound?<end>"
-KO: "<value:$16>까지 <value:$15>을 가져가야 하는데 말이지. 문제는 길이 위험하다는 소문이야. 물건이 도착하지 않으면 큰일이네. 모험자여, <value:$1B>일 이내에 물건을 운반해 주겠나. 보수는 <value:$1A>기어면 어떻겠나.<end>"
-
-## 240114
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "近年のモンスターや盗賊の増加により、<line-break>町と町の間の物品移動は、危険になりました。<line-break>重要な物品の移動には戦闘要員が必要です。<line-break><value:$15>を、<value:$1B>日以内に、<line-break><value:$16>まで運んでください。<line-break><value:$1A>ギアのお礼をいたします。<end>"
-EN: "The recent increase in monsters and bandits has made transporting goods between towns dangerous. Important cargo now requires combat personnel. Carry <value:$15> to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "최근 몬스터와 도적이 늘면서 마을 사이의 물자 이동이 위험해졌습니다. 중요한 물품을 옮기려면 전투 인력이 필요합니다. <value:$15>을 <value:$1B>일 이내에 <value:$16>까지 운반해 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240115
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "ちょっとばかし俺たちを手伝ってくれないか。<line-break><value:$15>を<value:$16>まで運びたい。<line-break><value:$1B>日以内に届けてくれ。<line-break>報酬は、<value:$1A>ギアだ。<line-break>悪くないだろ。じゃあ、頼むぜ。<end>"
-EN: "Could you help us out a little? We need <value:$15> carried to <value:$16> within <value:$1B> days. The reward is <value:$1A> Gea. Not bad, right? We're counting on you.<end>"
-KO: "우리 좀 도와주지 않을래. <value:$15>을 <value:$16>까지 옮기고 싶어. <value:$1B>일 안에 배달해 줘. 보수는 <value:$1A>기어야. 나쁘지 않지? 그럼 부탁한다.<end>"
-
-## 240116
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を<value:$16>まで<line-break>届けなきゃいけないのに、町の外じゃ、<line-break>モンスターとか盗賊が襲ってくる。<line-break>誰か代わりに届け物をしちゃくれないかな。<line-break><value:$1B>日以内にやってくれたら、<line-break><value:$1A>ギアは出すよ。<end>"
-EN: "We need <value:$15> delivered to <value:$16>, but monsters and bandits attack travelers outside town. Could someone make the delivery for us? Complete it within <value:$1B> days, and we'll pay <value:$1A> Gea.<end>"
-KO: "<value:$15>을 <value:$16>까지 가져다줘야 하는데, 마을 밖에서는 몬스터나 도적이 덤벼들어. 누가 대신 전달해 주지 않겠어? <value:$1B>일 이내에 해 주면 <value:$1A>기어를 줄게.<end>"
-
-## 240117
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$16>まで<value:$15>を<line-break>届けてはもらえんだろうか。<line-break>期限は<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアでどうじゃ。<line-break>わしらは畑仕事しか知らん。<line-break>旅とか戦いとかは知らんのじゃ。<line-break>冒険者なら、そういうことは大丈夫じゃろ？<end>"
-EN: "Could you deliver <value:$15> to <value:$16>? The deadline is within <value:$1B> days. How does <value:$1A> Gea sound as a reward? We only know farm work, not travel or combat. An adventurer can handle such things, right?<end>"
-KO: "<value:$16>까지 <value:$15>을 전해 주지 않겠나. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어면 어떻겠나. 우리는 밭일밖에 몰라. 여행이나 전투 같은 건 모르지. 모험가라면 그런 건 괜찮겠지?<end>"
-
-## 240118
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "毎度ありがとうございます。<line-break>本日は、お願いしたいことがございます。<line-break>道中、危険が予想される<value:$16>までの<line-break><value:$15>の運搬です。<line-break>期限は<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアです。<end>"
-EN: "Thank you for your continued patronage. We have a request today: transport <value:$15> along the dangerous road to <value:$16>. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "늘 감사합니다. 오늘은 부탁드릴 일이 있습니다. 도중에 위험이 예상되는 <value:$16>까지 <value:$15>을 운반하는 일입니다. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어입니다.<end>"
-
-## 240119
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "運び屋を探してるんだ。<value:$16>まで<line-break><value:$15>を持ってくっていう仕事だ。<line-break>期限は<value:$1B>日以内。<line-break>報酬は、<value:$1A>ギアだ。<line-break>これだけ見るとぼろいもうけ話だが、<line-break>モンスターやら盗賊やらが出るって話なんだ。<line-break>充分気をつけて行けよ。<end>"
-EN: "I'm looking for a courier. The job is to carry <value:$15> to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea. It looks like easy money at first glance, but monsters and bandits are said to roam the road. Be very careful.<end>"
-KO: "운반할 사람을 찾고 있어. <value:$16>까지 <value:$15>을 가져가는 일이야. 기한은 <value:$1B>일 이내. 보수는 <value:$1A>기어다. 이것만 보면 쉬운 돈벌이지만 몬스터니 도적이니 나온다더군. 충분히 조심해서 가.<end>"
-
-## 240120
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "<value:$15>を運んでくれる方を<line-break>探しています。目的地は、<value:$16>。<line-break>期限は<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギア。<line-break>道中、どんな奴が襲ってくるかわからないため、<line-break>危機を乗り越える力を持った冒険者の方、<line-break>よろしくお願いします。<end>"
-EN: "Seeking someone to carry <value:$15>. Destination: <value:$16>. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea. There is no telling what may attack along the way, so we need an adventurer capable of overcoming danger.<end>"
-KO: "<value:$15>을 운반해 주실 분을 찾습니다. 목적지는 <value:$16>. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어입니다. 길에서 누가 습격할지 모르니 위기를 헤쳐 나갈 힘이 있는 모험자분께 부탁드립니다.<end>"
-
-## 240121
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "大事な品物の運搬なので、危険を避けるため、<line-break>冒険者の方に運搬をお任せしたいと思います。<line-break><value:$15>を<value:$16>まで、<line-break><value:$1B>日以内に運んでください。<line-break><value:$1A>ギアのお礼をいたします。<end>"
-EN: "This is important cargo, so we wish to avoid danger by entrusting it to an adventurer. Carry <value:$15> to <value:$16> within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
-KO: "중요한 물품의 운반이므로 위험을 피하기 위해 모험가에게 맡기고 싶습니다. <value:$15>를 <value:$16>까지 <value:$1B>일 이내에 운반해 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
-
-## 240122
-source: translations/korean/messages/msgsec024-part99.toml
-jp_matches_pinned_english: yes
-JP: "私たちの仕事が歌を歌うことなら、<line-break>冒険者の仕事は、様々な困難を乗り越え、<line-break>人々を助けることです。<line-break><value:$15>を運ぶこの仕事も、そのひとつ。<line-break><value:$16>まで、<value:$1B>日以内で、<line-break><value:$1A>ギアのお礼でどうですか？<end>"
-EN: "If our work is to sing, an adventurer's work is to overcome all manner of hardships and help people. Carrying <value:$15> is one such job. How does <value:$1A> Gea sound for delivery to <value:$16> within <value:$1B> days?<end>"
-KO: "우리의 일이 노래하는 것이라면 모험자의 일은 여러 어려움을 극복하고 사람들을 돕는 것이죠. <value:$15>을 운반하는 이 일도 그중 하나입니다. <value:$16>까지 <value:$1B>일 이내, 사례는 <value:$1A>기어면 어떻습니까?<end>"
-
-## 250000
+## 250081
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "一度も戦闘をしなけりゃ、ボーナスが出る。<line-break>うまくやれよ。<end>"
-EN: "If you avoid fighting altogether, you'll get a bonus. Play it smart.<end>"
-KO: "한 번도 전투하지 않으면 보너스가 나온다. 잘해 봐.<end>"
+JP: "<value:$15>への使いの護衛者を募集する。<line-break>報酬は、<value:$1A>ギア。<line-break>到着期限は、<value:$1B>日以内である。<line-break>屈強な冒険者を待っている。<end>"
+EN: "Escort wanted for a messenger bound for <value:$15>. Reward: <value:$1A> Gea. Arrival deadline: within <value:$1B> days. Strong adventurers preferred.<end>"
+KO: "<value:$15>로 가는 사자의 호위자를 모집한다. 보수는 <value:$1A>기어. 도착 기한은 <value:$1B>일 이내다. 강인한 모험자를 기다린다.<end>"
 
-## 250001
+## 250082
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "我が帝国の<value:$17><value:$16>を<line-break><value:$15>まで<line-break>無事送り届ける護衛者を募集する。<line-break>報酬は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内である。<end>"
-EN: "Escort wanted to deliver the Empire's <value:$17><value:$16> safely to <value:$15>. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
-KO: "우리 제국의 <value:$17><value:$16>을 <value:$15>까지 무사히 호위할 자를 모집한다. 보수는 <value:$1A>기어. 기한은 <value:$1B>일 이내다.<end>"
+JP: "<value:$15>へ行く、<line-break>市民ギルドの<value:$16>の<line-break>護衛をお願いします。<line-break>報酬は、<value:$1A>ギア用意しました。<line-break><value:$1B>日以内に現地に到着する<line-break>必要があるので、期限をお守りください。<end>"
+EN: "Please escort the Citizens' Guild's <value:$16> to <value:$15>. Reward: <value:$1A> Gea. Arrival is required within <value:$1B> days, so observe the deadline.<end>"
+KO: "<value:$15>로 가는 시민 길드의 <value:$16> 호위를 부탁드립니다. 보수는 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 현지에 도착해야 하니 기한을 지켜 주세요.<end>"
 
-## 250002
+## 250083
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "市民ギルドの<value:$17><value:$16><line-break>が、<value:$15>まで行かねばなりません。<line-break>しかし、道中は危険なので、<line-break>護衛してくださる方を募集したいと思います。<line-break><value:$1A>ギアのお礼で、<line-break><value:$1B>日以内にやっていただける方、<line-break>ぜひお願いします。<end>"
-EN: "The Citizens' Guild's <value:$17><value:$16> must travel to <value:$15>, but the road is dangerous. We are seeking an escort. Reward: <value:$1A> Gea. Please complete the journey within <value:$1B> days.<end>"
-KO: "시민 길드의 <value:$17><value:$16>가 <value:$15>까지 가야 합니다. 하지만 길이 위험하므로 호위해 주실 분을 모집합니다. 사례는 <value:$1A>기어, <value:$1B>일 안에 해 주실 분은 꼭 부탁드립니다.<end>"
+JP: "村の<value:$17><value:$16>が、<line-break><value:$15>へ行くんだがの。<line-break>近頃は物騒ゆえ、万一のことがあるかもしれん。<line-break>おねげえするだ。護衛をしてやってくれんか？<line-break><value:$15>に着かせてやってくれ。<line-break><value:$1A>ギア出すだで。<line-break><value:$1B>日以内でやってくれるかの。<end>"
+EN: "Things are dangerous these days. Please escort the village's <value:$17><value:$16> to <value:$15>. Get the traveler safely to <value:$15> within <value:$1B> days. I'll pay <value:$1A> Gea.<end>"
+KO: "마을의 <value:$17><value:$16>가 <value:$15>에 가게 됐는데 말이여. 요즘은 험해서 무슨 일이 생길지 몰라. 부탁 좀 하세. 호위해 주지 않겠나? <value:$15>까지 데려다줘. <value:$1A>기어를 줄 테니 <value:$1B>일 이내에 해 주겠나.<end>"
 
-## 250003
+## 250084
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "道中の護衛をする者を募集する。<line-break>当アカデミーの<value:$17><line-break><value:$16>の<value:$15>までの<line-break>行程に同行し、危険が迫ったならば<line-break>回避してほしい。<line-break>報酬は、<value:$1A>ギア。<line-break><value:$1B>日以内に送り届けてほしい。<end>"
-EN: "Escort wanted. Accompany the Academy's <value:$17><value:$16> on the journey to <value:$15>, avoiding any danger that arises. Reward: <value:$1A> Gea. Safe arrival is required within <value:$1B> days.<end>"
-KO: "여정 중 호위를 맡을 자를 모집한다. 본 아카데미의 <value:$17> <value:$16>가 <value:$15>까지 가는 길에 동행해 위험이 닥치면 막아 주기 바란다. 보수는 <value:$1A>기어. <value:$1B>일 이내에 무사히 데려다주길 바란다.<end>"
+JP: "<value:$17><value:$16>が、<line-break><value:$15>に行くことになりました。<line-break>旅の安全を考えて、冒険者の方に<line-break>護衛をお願いしたいと思います。<line-break><value:$1A>ギアをお礼としてさしあげます。<line-break>期間は、<value:$1B>日以内です。<end>"
+EN: "<value:$17><value:$16> will be traveling to <value:$15>. For safety, we would like an adventurer to serve as escort. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days.<end>"
+KO: "<value:$17><value:$16> 님이 <value:$15>로 가게 되었습니다. 여행의 안전을 위해 모험가에게 호위를 부탁드리고 싶습니다. 사례로 <value:$1A>기어를 드리겠습니다. 기한은 <value:$1B>일 이내입니다.<end>"
 
-## 250004
+## 250085
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "冒険者の方々には、お世話になっております。<line-break>このたびお願いするのは、旅の道中の護衛です。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>まで行く間、<line-break>同行して身を守ってください。<line-break>お礼は、<value:$1A>ギア用意しました。<line-break><value:$1B>日以内に着くようにお願いします。<end>"
-EN: "Thank you, adventurers, for all your help. We now need an escort for a journey. Please accompany and protect this town's <value:$17><value:$16> on the way to <value:$15>. Reward: <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
-KO: "모험자 여러분께 늘 신세지고 있습니다. 이번 부탁은 여행길의 호위입니다. 이 마을의 <value:$17><value:$16>가 <value:$15>까지 가는 동안 동행해 지켜 주세요. 사례는 <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 도착하도록 부탁드립니다.<end>"
+JP: "<value:$15>の街に、<line-break>腕利きの<value:$17><value:$16>を<line-break>派遣することになりました。<line-break>道のりは安全ではないでしょう。<line-break>腕の確かな方にご同行いただきたいと思います。<line-break><value:$1A>ギア用意しました。<line-break><value:$1B>日以内に到着するようお願いします。<end>"
+EN: "We are dispatching the skilled <value:$17><value:$16> to the city of <value:$15>. The road is unlikely to be safe, so we seek a capable companion. Reward: <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
+KO: "<value:$15>의 도시에 유능한 <value:$17><value:$16>을 파견하게 됐습니다. 길은 안전하지 않을 겁니다. 실력이 확실한 분이 동행해 주셨으면 합니다. <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 도착하도록 부탁드립니다.<end>"
 
-## 250005
+## 250086
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "いつも世話になってるな。頼みたいことがある。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>まで行くんだが、<line-break>通り道が危険でな。守ってやってほしいんだ。<line-break>腕のいい冒険者をつけてやってくれ。<line-break>報酬は、<value:$1A>ギアだ。<line-break><value:$1B>日以内に送り届けてくれよ。<end>"
-EN: "Another job for a skilled adventurer: escort this town's <value:$17><value:$16> to <value:$15>; the road is dangerous. Reward: <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "늘 신세지고 있군. 부탁할 일이 있어. 이 도시의 <value:$17><value:$16>이 <value:$15>까지 가는데 길이 위험해서 말이야. 지켜 줬으면 해. 실력 좋은 모험가를 붙여 줘. 보수는 <value:$1A>기어다. <value:$1B>일 이내에 무사히 데려다줘.<end>"
+JP: "いい酒の研究のために<line-break><value:$17><value:$16>が、<line-break><value:$15>に行くことになってね。<line-break>でも道のりは、危険がいっぱい。<line-break>１人じゃ心細いから護衛してもらいたいんだよ。<line-break><value:$1A>ギア出すから、<line-break><value:$1B>日以内に着くようにしてくれ。<end>"
+EN: "<value:$17><value:$16> is traveling to <value:$15> to research good liquor. But the road is full of danger, and traveling alone would be unsettling, so I need an escort. I'll pay <value:$1A> Gea. Make sure the traveler arrives within <value:$1B> days.<end>"
+KO: "좋은 술을 연구하려고 <value:$17><value:$16>이 <value:$15>에 가게 됐어. 그런데 길이 워낙 위험하잖아. 혼자 보내긴 불안해서 호위를 부탁하고 싶어. <value:$1A>기어를 줄 테니 <value:$1B>일 이내에 도착하게 해 줘.<end>"
 
-## 250006
+## 250087
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "世が乱れており、残念ながら旅の道中の安全が<line-break>確保されているとはいえません。<line-break>そこでお願いがございます。<line-break>我が神殿の<value:$17><value:$16>が、<line-break><value:$15>に行く間の護衛です。<line-break><value:$1A>ギアを寸志といたします。<line-break><value:$1B>日以内に目的地まで送り届けてください。<end>"
-EN: "Safe travel cannot be assured. Please escort our temple's <value:$17><value:$16> to <value:$15>. We offer a modest <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "세상이 어지러워 안타깝게도 여행길의 안전이 보장된다고 할 수 없습니다. 그래서 부탁드릴 일이 있습니다. 우리 신전의 <value:$17><value:$16>이 <value:$15>까지 가는 동안 호위해 주십시오. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 목적지까지 무사히 데려다주십시오.<end>"
+JP: "我が宿にお泊りの<line-break><value:$17><value:$16>様の<line-break>護衛をしてください。<line-break><value:$15>まで行かれるそうです。<line-break>謝礼は、<value:$1A>ギア。<line-break>期限は、<value:$1B>日以内です。<line-break>よろしくお願いします。<end>"
+EN: "Please escort <value:$17><value:$16>, a guest at our inn. The guest is traveling to <value:$15>. Reward: <value:$1A> Gea. Deadline: within <value:$1B> days. Thank you.<end>"
+KO: "저희 여관에 묵고 계신 <value:$17><value:$16>님을 호위해 주세요. <value:$15>까지 가신다고 합니다. 사례는 <value:$1A>기어. 기한은 <value:$1B>일 이내입니다. 잘 부탁드립니다.<end>"
 
-## 250007
+## 250088
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "我が宿に泊まられた<line-break><value:$17><value:$16>様を<line-break><value:$15>までお送りください。<line-break>お礼は、<value:$1A>ギア。<line-break><value:$1B>日以内に<line-break>お送りくださるようお願いします。<end>"
-EN: "Please escort <value:$17><value:$16>, a guest at our inn, to <value:$15>. Reward: <value:$1A> Gea. Please complete the journey within <value:$1B> days.<end>"
-KO: "저희 여관에 묵으신<value:$17><value:$16> 님을<value:$15>까지 모셔다 주세요. 사례는 <value:$1A> 기어.<value:$1B>일 이내에모셔다 주시길 바랍니다.<end>"
+JP: "<value:$15>まで行く道のりには、<line-break>数々の苦難が待ちうけていることでしょう。<line-break>困難な旅にのぞむ私をお守りください。<line-break><value:$1A>ギアのお礼をいたします。<line-break><value:$1B>日以内に到着させてください。<end>"
+EN: "Many hardships surely await on the road to <value:$15>. Please protect me on this difficult journey. Reward: <value:$1A> Gea. Get me there within <value:$1B> days.<end>"
+KO: "<value:$15>까지 가는 길에는 수많은 고난이 기다리고 있겠지요. 험난한 여행에 나서는 저를 지켜 주세요. <value:$1A>기어를 사례로 드리겠습니다. <value:$1B>일 안에 도착하게 해 주세요.<end>"
 
-## 250008
+## 250089
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "私を<value:$15>まで<line-break>送ってもらえませんか？<line-break>最近は、街道も危険になりましたので、<line-break>護衛をお願いしたいのです。<line-break><value:$1A>ギアのお礼をいたします。<line-break><value:$1B>日以内に送り届けてくださる方、<line-break>待っています。<end>"
-EN: "Could someone take me to <value:$15>? The highways have grown dangerous lately, so I need an escort. I will pay <value:$1A> Gea. I await someone who can get me there within <value:$1B> days.<end>"
-KO: "저를 <value:$15>까지 데려다주시겠습니까? 요즘은 가도도 위험해져서 호위를 부탁드리고 싶습니다. 사례로 <value:$1A>기어를 드리겠습니다. <value:$1B>일 이내에 데려다주실 분을 기다립니다.<end>"
+JP: "昨今の情勢を考えるに、<line-break>旅の道程には重大な危険が存在するであろう。<line-break>このたび、我が帝国の<value:$16>を<line-break><value:$15>に送るにあたり、<line-break>危険を回避するため、護衛の者を募集したい。<line-break><value:$1B>日以内に到着すること。<line-break>報酬は、<value:$1A>ギアである。<end>"
+EN: "Given the current situation, grave dangers are likely to beset any journey. As the Empire is sending <value:$16> to <value:$15>, we seek an escort to avoid such dangers. Arrival required within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "요즘 정세를 생각하면 여행길에는 중대한 위험이 있을 것이다. 이번에 우리 제국의 <value:$16>를 <value:$15>에 보내게 되어 위험을 피하기 위해 호위할 자를 모집한다. <value:$1B>일 이내에 도착할 것. 보수는 <value:$1A>기어다.<end>"
 
-## 250009
+## 250090
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "ロストールから<value:$15>までの行程には<line-break>多くの危難が待ち構えておる。<line-break>このたび当家の<value:$17><line-break><value:$16>が出向くにあたり、<line-break>腕の立つ者に護衛を頼みたい。<line-break>褒美は、<value:$1A>ギアだ。<line-break><value:$1B>日以内に向こうに着くように頼む。<end>"
-EN: "Many perils await on the road from Rostorl to <value:$15>. As our house's <value:$17><value:$16> must make the journey, I wish to hire a capable escort. Reward: <value:$1A> Gea. Arrival is required within <value:$1B> days.<end>"
-KO: "로스톨에서 <value:$15>까지 가는 길에는 많은 위험이 기다리고 있다. 이번에 우리 집안의 <value:$17><value:$16>가 떠나게 되어 솜씨 좋은 자에게 호위를 부탁하고 싶다. 보상은 <value:$1A>기어다. <value:$1B>일 이내에 그쪽에 도착하도록 부탁한다.<end>"
+JP: "近頃は旅をするにも、街道さえ危険なようです。<line-break><value:$15>に行く<value:$16>には<line-break>護衛をつけてやらなければいけません。<line-break>冒険者の方にお願いします。<line-break>護衛を務めて、<value:$1B>日以内に<line-break>向こうに到着させてやってください。<line-break>お礼は、<value:$1A>ギアです。<end>"
+EN: "Even the highways seem dangerous for travelers these days. <value:$16> needs an escort to <value:$15>. Adventurers, please take the job and ensure arrival within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "요즘은 여행을 하려 해도 가도마저 위험한 모양입니다. <value:$15>으로 가는 <value:$16>에게는 호위를 붙여야 합니다. 모험자 여러분께 부탁드립니다. 호위를 맡아 <value:$1B>일 이내에 그곳에 도착하게 해 주세요. 사례는 <value:$1A>기어입니다.<end>"
 
-## 250010
+## 250091
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "市民ギルドの<value:$17><value:$16><line-break>が、<value:$15>まで出かけます。<line-break>道中は危険と聞いているので、とても心配です。<line-break>強い冒険者の方、護衛をお願いできませんか？<line-break><value:$1A>ギアご用意しました。<line-break><value:$1B>日以内に到着できるようお願いします。<end>"
-EN: "The Citizens' Guild's <value:$17><value:$16> is traveling to <value:$15>. I hear the road is dangerous, and I'm very worried. Would a strong adventurer please serve as escort? I have prepared <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
-KO: "시민 길드의 <value:$17><value:$16>가 <value:$15>까지 떠납니다. 가는 길이 위험하다고 들어 무척 걱정됩니다. 강한 모험자분, 호위를 부탁드릴 수 있을까요? <value:$1A>기어를 준비했습니다. <value:$1B>일 이내에 도착할 수 있도록 부탁드립니다.<end>"
+JP: "わしらが他の街に行きたいと思っても、<line-break>途中で盗賊やらモンスターやらが邪魔します。<line-break>強い人に守ってもらわねば、旅もできんのです。<line-break>村の<value:$17><value:$16>を守って、<line-break><value:$15>まで行ってくださらんか。<line-break><value:$1B>日以内に着いていただきたいのじゃが、<line-break>少しですがお礼はするつもりですじゃ。<end>"
+EN: "Bandits and monsters make travel unsafe. Please guard the village's <value:$17><value:$16> to <value:$15> and arrive within <value:$1B> days. We offer a small reward.<end>"
+KO: "우리가 다른 도시로 가려 해도 도중에 도적이나 몬스터가 방해한다네. 강한 사람에게 보호받지 않으면 여행도 못 하지. 마을의 <value:$17><value:$16>을 지켜서 <value:$15>까지 데려다주지 않겠나. <value:$1B>일 이내에 도착했으면 좋겠네. 적지만 사례도 하겠네.<end>"
 
-## 250011
+## 250092
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "このごろは旅の道中も安全ではないのう。<line-break>強くもない者の一人旅は無謀じゃて。<line-break>じゃが、村の<value:$17><value:$16>が、<line-break><value:$15>まで出向かねばならんのじゃ。<line-break>そこで、あんたがたに護衛を頼みたいのじゃ。<line-break>みなで金を出しあって<value:$1A>ギア用意した。<line-break><value:$1B>日以内に到着させてやってくれんか。<end>"
-EN: "Travel isn't safe these days. Please escort the village's <value:$17><value:$16> to <value:$15>. We pooled <value:$1A> Gea. Deadline: <value:$1B> days.<end>"
-KO: "요즘은 여행길도 안전하지 않구먼. 강하지도 않은 사람이 혼자 여행하는 건 무모하지. 하지만 마을의 <value:$17><value:$16>이 <value:$15>까지 가야 한다네. 그래서 자네들에게 호위를 부탁하고 싶네. 모두 돈을 모아 <value:$1A>기어를 준비했어. <value:$1B>일 이내에 도착하게 해 주지 않겠나.<end>"
+JP: "我が神殿の<value:$16>が、<line-break><value:$15>に出向くにあたり、<line-break>この者を守護して送り届けてくださる勇者を<line-break>探しております。急ぎの用であるため、<line-break><value:$1B>日以内の到着を強く希望します。<line-break>報酬は、<value:$1A>ギアです。<end>"
+EN: "Our temple's <value:$16> is traveling to <value:$15>, and we seek a hero to provide protection and ensure safe arrival. The business is urgent, so arrival within <value:$1B> days is strongly preferred. Reward: <value:$1A> Gea.<end>"
+KO: "우리 신전의 <value:$16>가 <value:$15>에 가게 되어 이 사람을 지켜 무사히 데려다줄 용자를 찾고 있습니다. 급한 일이므로 <value:$1B>일 이내 도착을 강하게 희망합니다. 보수는 <value:$1A>기어입니다.<end>"
 
-## 250012
+## 250093
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "毎度ありがとうございます。<line-break>このたびは私どもからのお願いがございます。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>に出かけるにあたって、<line-break>護衛の方をお願いしたいのです。<line-break>当方としては、<value:$1A>ギアご用意できます。<line-break><value:$1B>日以内に到着してくださるよう願います。<end>"
-EN: "Thank you for your continued patronage. We have a request: this town's <value:$17><value:$16> will be traveling to <value:$15>, and we would like to arrange an escort. We can offer <value:$1A> Gea. Please arrive within <value:$1B> days.<end>"
-KO: "항상 감사합니다. 이번에는 저희 쪽에서 부탁드릴 일이 있습니다. 이 도시의 <value:$17><value:$16>이 <value:$15>에 가는 동안 호위해 주셨으면 합니다. 저희는 <value:$1A>기어를 준비할 수 있습니다. <value:$1B>일 이내에 도착하도록 부탁드립니다.<end>"
+JP: "ヤバいんだよね、最近は。<line-break>町の外が安全じゃないんだ。<line-break>だけど、テラネ酒場の<value:$16>が、<line-break><value:$15>に行かなくっちゃならない。<line-break>そこで、護衛してくれる人を探してるんだ。<line-break><value:$1B>日以内に向こうに着いてほしいな。<line-break>報酬は、<value:$1A>ギアでどうかな？<end>"
+EN: "Things are bad lately. It isn't safe outside town. But Terane Tavern's <value:$16> has to go to <value:$15>, so we're looking for an escort. Please arrive within <value:$1B> days. How does <value:$1A> Gea sound?<end>"
+KO: "요즘 위험하거든. 도시 밖이 안전하지 않아. 그런데 테라네 술집의 <value:$16>이 <value:$15>로 가야 해. 그래서 호위해 줄 사람을 찾고 있어. <value:$1B>일 이내에 도착했으면 해. 보수는 <value:$1A>기어면 어떨까?<end>"
 
-## 250013
+## 250094
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "腕自慢のお前さんたちにうってつけの仕事だ。<line-break>この町の<value:$17><value:$16>が、<line-break><value:$15>に行く間の護衛を依頼したい。<line-break><value:$1A>ギア用意したから、<line-break><value:$1B>日以内にたどりつくよう頼むぜ。<line-break>うまくいかなきゃいい武器が作れなくなる。<line-break>任せたぜ。<end>"
-EN: "A job for skilled fighters: escort this town's <value:$17><value:$16> to <value:$15>. Reward: <value:$1A> Gea. Deadline: <value:$1B> days. If you fail, we can't make good weapons. I'm counting on you.<end>"
-KO: "실력 좋은 너희에게 딱 맞는 일이야. 이 도시의 <value:$17><value:$16>가 <value:$15>에 가는 동안 호위를 맡아 줘. <value:$1A>기어 준비했으니 <value:$1B>일 이내에 도착하게 해 줘. 잘못되면 좋은 무기를 만들 수 없게 돼. 맡길게.<end>"
+JP: "日頃のご愛顧ありがとうございます。<line-break>このたびお願いしたいのは、護衛です。<line-break>テラネ道具店の<value:$16>を<line-break><value:$15>まで護衛してほしいのです。<line-break>到着は、<value:$1B>日以内でお願いいたします。<line-break>お礼は、<value:$1A>ギアでいかがでしょうか。<end>"
+EN: "Thank you for your continued patronage. We need someone to escort Terane Item Shop's <value:$16> to <value:$15>. Please arrive within <value:$1B> days. Would <value:$1A> Gea be an acceptable reward?<end>"
+KO: "평소 이용해 주셔서 감사합니다. 이번에 부탁드리고 싶은 것은 호위입니다. 테라네 도구점의 <value:$16>을 <value:$15>까지 호위해 주세요. 도착은 <value:$1B>일 이내로 부탁드립니다. 사례는 <value:$1A>기어로 어떻습니까?<end>"
 
-## 250014
+## 250095
 source: translations/korean/messages/msgsec025-part99.toml
 jp_matches_pinned_english: yes
-JP: "この町の<value:$17><line-break><value:$16>を<value:$15>まで送り<line-break>届けたいんですよ。<line-break>でも街の外は最近、危ないんですよ。<line-break><value:$1A>ギアをお礼としてさしあげますから、<line-break><value:$1B>日以内に目的地に着けるよう、<line-break>護衛をお願いします。<end>"
-EN: "We need to get this town's <value:$17><value:$16> to <value:$15>, but it's been dangerous outside town lately. We'll pay <value:$1A> Gea, so please provide an escort and reach the destination within <value:$1B> days.<end>"
-KO: "이 마을의 <value:$17><value:$16>을 <value:$15>까지 데려다주고 싶습니다. 하지만 요즘 마을 밖은 위험합니다. 사례로 <value:$1A>기어를 드릴 테니 <value:$1B>일 안에 목적지에 도착할 수 있도록 호위해 주세요.<end>"
+JP: "仕事の都合で、<value:$15>に人をやる。<line-break>この町の<value:$16>だ。<line-break>だが聞く所によると、町の外は危険らしい。<line-break>そこで、冒険者に護衛してもらいたい。<line-break>期限は、<value:$1B>日以内。<line-break>お礼は、<value:$1A>ギアだ。<end>"
+EN: "Business requires us to send someone to <value:$15>: this town's <value:$16>. But according to reports, it is dangerous outside town, so we want an adventurer to serve as escort. Deadline: within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "일 때문에 <value:$15>에 사람을 보낸다. 이 마을의 <value:$16>다. 그런데 듣자 하니 마을 밖은 위험하다더군. 그래서 모험가에게 호위를 부탁하려 한다. 기한은 <value:$1B>일 이내. 사례는 <value:$1A>기어다.<end>"
+
+## 250096
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅は危険ととなりあわせです。<line-break>我が宿屋に宿泊された<line-break><value:$17><value:$16>様、<line-break>この方の行き先である<value:$15>まで<line-break>護衛をお願いします。<line-break><value:$1B>日以内に到着してください。<line-break><value:$1A>ギアのお礼をいたします。<end>"
+EN: "Travel and danger go hand in hand. Please escort <value:$17><value:$16>, a guest at our inn, to <value:$15>. Arrival required within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "여행은 위험과 맞닿아 있습니다. 저희 숙소에 묵으신 <value:$17><value:$16>님을 목적지인 <value:$15>까지 호위해 주십시오. <value:$1B>일 이내에 도착해 주세요. 사례로 <value:$1A>기어를 드리겠습니다.<end>"
+
+## 250097
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "近頃はどこも物騒だ。<line-break>俺たちも腕っぷしには自信があるが、<line-break>それでも１人旅は危ねえな。<line-break>うちの<value:$16>を守って、<line-break><value:$1B>日以内に<value:$15>に行ってくれ。<line-break>報酬は、<value:$1A>ギア出すぜ。<end>"
+EN: "Things have gotten dangerous everywhere lately. We're no slouches in a fight, but even so, traveling alone is risky. Protect our <value:$16> on the way to <value:$15> and arrive within <value:$1B> days. We'll pay <value:$1A> Gea.<end>"
+KO: "요즘은 어디든 험악하지. 우리도 싸움에는 자신 있지만 그래도 혼자 다니는 건 위험해. 우리 <value:$16>를 지켜서 <value:$1B>일 이내에 <value:$15>까지 가 줘. 보수는 <value:$1A>기어 줄게.<end>"
+
+## 250098
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "市民ギルドの<value:$16>が<line-break><value:$15>に行くんだが、<line-break>どうも道中、危険らしい。<line-break>誰か護衛してくれる人がいるといいんだけど。<line-break><value:$1A>ギアは、出しますよ。<line-break><value:$1B>日以内に到着させてくださいね。<line-break>誰かやってくれませんかね。本当に。<end>"
+EN: "It would be good to have someone escort <value:$16> from the Citizens' Guild to <value:$15>, as the road seems dangerous. We'll pay <value:$1A> Gea. Please complete the journey within <value:$1B> days. Won't someone take the job? Please?<end>"
+KO: "시민 길드의 <value:$16>이 <value:$15>로 가는데 길이 꽤 위험하다는군요. 누군가 호위해 주면 좋겠는데. <value:$1A>기어는 드리겠습니다. <value:$1B>일 이내에 도착시켜 주세요. 정말 누가 맡아 주지 않으려나요.<end>"
+
+## 250099
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "村の<value:$17><value:$16>が、<line-break><value:$15>まで行く用事ができての。<line-break>どうしてもはずすわけにはいかないんじゃ。<line-break>そこで護衛を頼みたいんだが、<line-break>誰か引き受けてくれんかの？<line-break>あまり日がないんで、<value:$1B>日以内でな。<line-break>お礼は、<value:$1A>ギアでどうかな？<end>"
+EN: "Unavoidable business will take the village's <value:$17><value:$16> to <value:$15>. I'd like to hire an escort. Would anyone take the job? There isn't much time, so please arrive within <value:$1B> days. How does <value:$1A> Gea sound?<end>"
+KO: "마을의 <value:$17><value:$16>가 <value:$15>까지 갈 일이 생겼네. 꼭 가야만 하는 일이라서 말이야. 그래서 호위를 부탁하고 싶은데 누가 맡아 주겠나? 시간이 많지 않으니 <value:$1B>일 이내로 부탁하네. 사례는 <value:$1A>기어면 어떻겠나?<end>"
+
+## 250100
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "日頃のご愛顧、ありがとうございます。<line-break>この町の<value:$17><value:$16>を<line-break><value:$15>まで護衛していただきたい。<line-break><value:$1B>日以内の到着を希望します。<line-break>報酬は、<value:$1A>ギアです。<end>"
+EN: "Thank you for your continued patronage. We would like someone to escort this town's <value:$17><value:$16> to <value:$15>. Please arrive within <value:$1B> days. The reward is <value:$1A> Gea.<end>"
+KO: "평소 이용해 주셔서 감사합니다. 이 도시의 <value:$17><value:$16>를 <value:$15>까지 호위해 주셨으면 합니다. <value:$1B>일 이내 도착을 희망합니다. 보수는 <value:$1A>기어입니다.<end>"
+
+## 250101
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺たちは仕事の都合で他の街に行くことがある。<line-break>近頃じゃ、道中は安全とはいえねえ。<line-break>何度も危ない目にあってる。護衛が必要だ。<line-break><value:$17><value:$16>が、<line-break><value:$15>に行くんだ。その護衛を頼む。<line-break><value:$1B>日以内に到着してくれ。<line-break>報酬は、<value:$1A>ギア用意したぜ。<end>"
+EN: "Our work takes us to other towns, but roads are unsafe. Escort <value:$17><value:$16> to <value:$15>. Deadline: <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "우린 일 때문에 다른 도시로 갈 때가 있다. 요즘은 길이 안전하지 않아 몇 번이나 위험한 일을 겪었지. 호위가 필요하다. <value:$17><value:$16>가 <value:$15>에 간다. 그 호위를 부탁해. <value:$1B>일 이내에 도착해 줘. 보수는 <value:$1A>기어를 준비했다.<end>"
+
+## 250102
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "この町の<value:$17><value:$16>が、<line-break><value:$15>に出かけます。<line-break>危険があるといけませんので、<line-break>護衛をつけたいと思います。<line-break>どなたか護衛として、同行してください。<line-break><value:$1B>日以内に到着してくだされば、<line-break><value:$1A>ギアを報酬としてさしあげます。<end>"
+EN: "We would like someone to accompany this town's <value:$17><value:$16> to <value:$15> as an escort, in case of danger. Please arrive within <value:$1B> days. The reward will be <value:$1A> Gea.<end>"
+KO: "이 도시의 <value:$17><value:$16>이 <value:$15>로 떠납니다. 위험이 있을 수 있으니 호위를 붙이고 싶습니다. 누군가 호위로 동행해 주세요. <value:$1B>일 이내에 도착해 주시면 <value:$1A>기어를 보수로 드리겠습니다.<end>"
+
+## 250103
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$17><value:$16>様を<line-break><value:$15>まで送ってくださる方を<line-break>募集いたします。<line-break><value:$1B>日以内の到着、<line-break><value:$1A>ギアの報酬という条件で、<line-break>ぜひお願いいたします。<end>"
+EN: "We seek someone to escort <value:$17><value:$16> to <value:$15>. The terms are arrival within <value:$1B> days and a reward of <value:$1A> Gea. We sincerely hope someone will accept.<end>"
+KO: "<value:$17><value:$16> 님을 <value:$15>까지 모셔다 주실 분을 모집합니다. <value:$1B>일 이내 도착, 보수는 <value:$1A>기어라는 조건으로 부탁드립니다.<end>"
+
+## 250104
+source: translations/korean/messages/msgsec025-part99.toml
+jp_matches_pinned_english: yes
+JP: "私たちの仕事は、各地のできごとを歌にして<line-break>多くの人に広めること。街から街へ移動して<line-break>いろいろな場所で歌を歌います。<line-break>次は、<value:$15>に行きたいのですが、<line-break>どなたか護衛をお願いできませんか？<line-break><value:$1B>日以内に連れていってください。<line-break><value:$1A>ギアの報酬を差し上げます。<end>"
+EN: "We turn events into songs and travel town to town performing them. Next we go to <value:$15>. Get us there within <value:$1B> days. Reward: <value:$1A> Gea.<end>"
+KO: "우리 일은 각지의 사건을 노래로 만들어 많은 사람에게 알리는 것입니다. 도시에서 도시로 옮겨 다니며 여러 곳에서 노래하지요. 다음에는 <value:$15>에 가고 싶은데, 누군가 호위를 맡아 주시겠습니까? <value:$1B>일 이내에 데려다 주세요. 보수로 <value:$1A>기어를 드리겠습니다.<end>"
+
+## 260000
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "（ロストールの西にある城塞都市跡で<line-break>　怪現象が起きるという噂がある。<line-break>　その調査を依頼された）<line-break>（怪現象の正体がわかったら、<line-break>　冒険者ギルドに報告へ行かないと<line-break>　いけないな…）<end>"
+EN: "(There are rumors of a strange phenomenon at the Fortress City Ruins west of Rostorl. I was asked to investigate.) (Once I find out what is behind it, I'll have to report back to the Adventurers' Guild...)<end>"
+KO: "(로스톨 서쪽 성새도시 터에서 괴현상이 일어난다는 소문이 있다. 그 조사를 의뢰받았다.) (괴현상의 정체를 알게 되면 모험가 길드에 보고하러 가야 한다….)<end>"
+
+## 260001
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡で目撃されてる<line-break>怪現象のことよね。<line-break><line-break>怪現象の正体を調べたら<line-break>冒険者ギルドに報告するのも<line-break>忘れないようにしないとね。<end>"
+EN: "You mean the strange phenomenon seen at the Fortress City Ruins, right? Once we find out what it really is, we must remember to report back to the Adventurers' Guild.<end>"
+KO: "성채도시 터에서 목격되는 괴현상 말이지. 괴현상의 정체를 조사하면 모험자 길드에 보고하는 것도 잊지 말아야겠네.<end>"
+
+## 260002
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡のモンスターは手強いぞ。<line-break>準備をしっかりして調査にいくべきで<line-break>あろうな。<line-break>怪現象の正体がわかったら、<line-break>冒険者ギルドに報告するよう<line-break>頼まれておることも忘れてはならぬぞ。<end>"
+EN: "The monsters at the Fortress City Ruins are formidable. You should prepare thoroughly before investigating. And once you uncover the truth behind the strange phenomenon, do not forget that you were asked to report back to the Adventurers' Guild.<end>"
+KO: "성새도시 터의 몬스터는 강하다. 충분히 준비해서 조사하러 가는 게 좋겠군. 괴현상의 정체를 알게 되면 모험가 길드에 보고하라는 부탁도 잊지 마라.<end>"
+
+## 260003
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "生きているような黒い闇が<line-break>現れるっていう噂なんですよ。<line-break>やっぱり、調べに行きます？<end>"
+EN: "They say a black darkness that seems alive appears there. Are you going to investigate after all?<end>"
+KO: "살아 있는 것 같은 검은 어둠이 나타난다는 소문이에요. 역시 조사하러 가실 건가요?<end>"
+
+## 260004
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡に現れる黒い闇みたいのの<line-break>正体を調べて、冒険者ギルドに<line-break>報告すればいいだけだろ。<line-break>簡単じゃねえか！<line-break>さっそく出かけようぜ。<line-break>この仕事は楽勝だな。<end>"
+EN: "All we have to do is find out what that thing resembling black darkness at the Fortress City Ruins really is and report it to the Adventurers' Guild. Sounds easy! Let's get going. This job'll be a breeze.<end>"
+KO: "성채도시 터에 나타나는 검은 어둠 같은 것의 정체를 조사해서 모험자 길드에 보고하면 되는 거잖아. 간단하네! 당장 가자. 이 일은 식은 죽 먹기야.<end>"
+
+## 260005
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡に黒い闇みたいな生き物が<line-break>現れるって噂だよね。<line-break>うん、ボクも聞いたことがある。<line-break>ボク、そいつの正体に興味あるな。<line-break>ねえ、調べに行こうよ。<line-break>キミもそいつの正体、知りたいでしょ。<end>"
+EN: "There's a rumor that some creature like black darkness appears at the Fortress City Ruins, right? Yeah, I've heard it too. I'm curious what it really is. Hey, let's go investigate. You want to know too, don't you?<end>"
+KO: "성채도시 유적에 검은 어둠 같은 생물이 나타난다는 소문이지. 응, 나도 들었어. 난 그 정체가 궁금한데. 있잖아, 조사하러 가자. 너도 정체를 알고 싶지?<end>"
+
+## 260006
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡で発生しているという<line-break>怪現象の真相を見極めればいいのね。<line-break>簡単な仕事よ。<end>"
+EN: "So all we have to do is uncover the truth behind the strange phenomenon at the Fortress City Ruins. An easy job.<end>"
+KO: "성채도시 유적에서 일어난다는 괴현상의 진상을 밝혀내면 되는 거네. 간단한 일이야.<end>"
+
+## 260007
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡で起こる怪現象の<line-break>真相を見極めて報告せよという<line-break>お仕事でしたね。<line-break>あそこは古代王国の遺跡ですから、<line-break>確かに、尋常でないものが<line-break>ありそうな場所ではあります。<line-break>お気をつけて、<value:$28>。<end>"
+EN: "Our task was to uncover and report the truth behind the strange phenomenon at the Fortress City Ruins. Those are the ruins of an ancient kingdom, so they certainly seem like the sort of place where something extraordinary might be found. Take care, <value:$28>.<end>"
+KO: "성새도시 터에서 일어나는 괴현상의 진상을 밝혀 보고하라는 일이었죠. 그곳은 고대왕국의 유적이니 확실히 심상치 않은 무언가가 있을 법한 곳입니다. 조심하세요, <value:$28>.<end>"
+
+## 260008
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡？<line-break>そんな活気もないようなとこへ<line-break>わざわざ行くとは、<line-break><value:$28>サンも、<line-break>全くご苦労なこって。<line-break>おまけに、怪現象が起こるんだって？<line-break>おまけ、じゃないか。その正体を<line-break>ギルドに報告する仕事だったね。<end>"
+EN: "The Fortress City Ruins? Going out of your way to visit such a lifeless place? You sure go to a lot of trouble, <value:$28>. And there's a strange phenomenon on top of that? No, wait, that's the whole point. Your job was to find out what it is and report it to the Guild.<end>"
+KO: "성채도시 터? 그렇게 활기도 없는 곳에 일부러 가다니 <value:$28>씨도 참 고생이 많군. 게다가 괴현상까지 일어난다고? 아, 그 괴현상의 정체를 길드에 보고하는 일이었지.<end>"
+
+## 260009
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃんも聞いたのか？<line-break>黒い闇みたいな生き物が現れるって話。<line-break>やっぱり気になるよな。<line-break>正体を調べてきてくれたら、<line-break>報酬を出すって冒険者ギルドの主人も<line-break>言ってたし、調べにいってみようか。<end>"
+EN: "You heard about it too, sis? The story about a creature like black darkness appearing? Hard not to be curious. The master of the Adventurers' Guild said there'd be a reward if we found out what it was, so shall we investigate?<end>"
+KO: "누나도 들었어? 검은 어둠 같은 생물이 나타난다는 이야기. 역시 신경 쓰이지? 정체를 알아 오면 보수를 준다고 모험가 길드 주인도 했으니 조사하러 가 보자.<end>"
+
+## 260010
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡で起こる怪現象を調べる？<line-break><line-break><line-break>…いかにも、命知らずな冒険者の<line-break>やりそうなことね。<end>"
+EN: "Investigate the strange phenomenon at the Fortress City Ruins? ...Yes, that does sound exactly like something a foolhardy adventurer would do.<end>"
+KO: "성새도시 유적에서 일어나는 괴현상을 조사한다고? …과연 목숨 아까운 줄 모르는 모험자다운 일이네.<end>"
+
+## 260011
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡に、黒い闇みたいな<line-break>生き物が現れるって話のことだな。<line-break>けっこう話題になってるぜ。<line-break>俺もギルドの主人に、そいつの正体を<line-break>調べてくれって頼まれちまったよ。<line-break>どうする？　行ってみるかい？<end>"
+EN: "You mean the story about a creature like black darkness appearing at the Fortress City Ruins. It's become quite the topic. The Guild master asked me to find out what it is too. Well? Shall we go?<end>"
+KO: "성채도시 폐허에 검은 어둠 같은 생물이 나타난다는 이야기지. 꽤 화제가 됐어. 나도 길드 주인한테 정체를 조사해 달라는 부탁을 받았거든. 어때, 가 볼래?<end>"
+
+## 260012
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡に、黒い闇のような生き物が<line-break>現れるという噂のことだな。<line-break>俺も気になっていた。<line-break>調べてみる価値はあるかもしれん。<line-break>行ってみるか…。<end>"
+EN: "You mean the rumor that a creature like black darkness appears at the Fortress City Ruins. I was curious about it too. It may be worth investigating. Shall we go...?<end>"
+KO: "성새도시 터에 검은 어둠 같은 생물이 나타난다는 소문 말이지. 나도 신경 쓰였어. 조사해 볼 가치는 있을지 몰라. 가 볼까….<end>"
+
+## 260013
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡に、黒い闇のような生き物が<line-break>現れるという話のことじゃろう。<line-break>お主も耳にしておったか。<line-break>正体をつきとめれば報酬も払うと<line-break>冒険者ギルドは言っておるようじゃ。<line-break>どれ、わしらも調べに行くとするかの。<end>"
+EN: "You mean the story of a creature like black darkness appearing at the Fortress City Ruins. So you had heard it too. Apparently the Adventurers' Guild has offered a reward if we discover its true nature. Well then, let us go investigate it ourselves.<end>"
+KO: "성채도시 유적에 검은 어둠 같은 생물이 나타난다는 이야기겠지. 자네도 들었나. 정체를 밝혀내면 보수도 준다고 모험자 길드에서 말한 모양이야. 어디, 우리도 조사하러 가 보자고.<end>"
+
+## 260014
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "うん。<line-break>城塞都市跡に黒い闇のような生き物が<line-break>現れるって噂のことだね。<line-break><value:$28>も調べに行くつもり？<line-break>正体がわかったら冒険者ギルドに<line-break>報告するのを忘れないでよ。<end>"
+EN: "Right. It's the rumor about a creature like black darkness appearing at the Fortress City Ruins. Are you planning to investigate too, <value:$28>? If you discover what it is, don't forget to report back to the Adventurers' Guild.<end>"
+KO: "응. 성채도시 터에 검은 어둠 같은 생물이 나타난다는 소문 말이지. <value:$28>도 조사하러 갈 생각이야? 정체를 알아내면 모험자 길드에 보고하는 걸 잊지 마.<end>"
+
+## 260016
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "も、もちろん知っているわよ。<line-break>城塞都市跡に、あんたたち人間の<line-break>大好きな宝がたくさんあるのよ。<line-break>それを求めて低能な冒険者が<line-break>ぞろぞろ集まってるわけ。<line-break>わかった！？　もう聞かないでよね！<end>"
+EN: "O-of course I know! The Fortress City Ruins are full of the treasure you humans love so much. That's why dim-witted adventurers flock there in droves. Understand?! Now stop asking me!<end>"
+KO: "무, 물론 알고 있지. 성새도시 터에는 너희 인간들이 좋아하는 보물이 잔뜩 있어. 그걸 노리고 멍청한 모험가들이 우르르 몰려드는 거야. 알겠어!? 이제 그만 물어봐!<end>"
+
+## 260017
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市はロストール城の西、<line-break>つまり城西にあるでござる。<line-break>城塞と城西…。<line-break>今日の拙者、いつになく冴えて<line-break>ござるな。<line-break>兄弟子、いかがでござろう。<end>"
+EN: "The Fortress City lies west of Rostorl Castle―in the castle's west, as it were. Fortress city, castle's west... I am unusually sharp today. What say you, senior disciple?<end>"
+KO: "성새도시는 로스톨 성의 서쪽, 즉 성서쪽에 있소이다. 성새와 성서…. 오늘의 소인은 평소보다 더욱 재치가 넘치는 듯하오. 사형, 어떠시오?<end>"
+
+## 260018
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡に黒い闇のような生き物が<line-break>現れるんだってぇ。<line-break><value:$28>も調べに行くの？<line-break>正体がわかったら教えてねって<line-break>冒険者ギルドのおじさんが言ってたよ。<line-break>忘れずに教えてあげてよ。<end>"
+EN: "They say a creature like black darkness appears at the Fortress City Ruins. Are you going to investigate too, <value:$28>? The man at the Adventurers' Guild said to tell him if you find out what it is. Don't forget, okay?<end>"
+KO: "성새도시 터에 검은 어둠 같은 생물이 나타난대. <value:$28>도 조사하러 가는 거야? 정체를 알게 되면 알려 달라고 모험가 길드 아저씨가 말했어. 잊지 말고 알려 줘.<end>"
+
+## 260019
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "……………。<line-break><line-break><line-break>黒い闇に似た生物が現れるという。<end>"
+EN: "……………. They say a creature resembling black darkness appears there.<end>"
+KO: "……………. 검은 어둠을 닮은 생물이 나타난다고 한다.<end>"
+
+## 260020
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡に闇のように黒い何かが<line-break>うごめいているという噂話は<line-break>俺も耳にした。<line-break>しかし、報酬が出るからと言って<line-break>自分から首を突っ込む奴がいようとは、<line-break>そしてそれがお前とは予想しなかった。<end>"
+EN: "I too have heard the rumor that something as black as darkness writhes in the Fortress City Ruins. Yet even with a reward offered, I never expected anyone to go meddling of their own accord―least of all you.<end>"
+KO: "성채도시 유적에 어둠처럼 검은 무언가가 꿈틀거린다는 소문은 나도 들었다. 하지만 보수가 나온다고 자진해서 끼어드는 사람이 있을 줄은, 더구나 그게 너일 줄은 몰랐군.<end>"
+
+## 260021
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "話題になってるから、知ってるよ。<line-break>城塞都市跡に黒い闇のような生き物が<line-break>現れるって話だよねぇ。<line-break>ぼくも興味あったんだぁ。<line-break><value:$28>、調べに行くの？<line-break>ぼくも連れていってよ。<end>"
+EN: "Of course I know; everyone's talking about it. It's the story about a creature like black darkness appearing at the Fortress City Ruins, right? I was curious too. Are you going to investigate, <value:$28>? Take me with you.<end>"
+KO: "화제가 돼서 알고 있어. 성채도시 터에 검은 어둠 같은 생물이 나타난다는 얘기지? 나도 관심 있었어. <value:$28>, 조사하러 가는 거야? 나도 데려가 줘.<end>"
+
+## 260022
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡にうごめく、<line-break>闇のように黒い何か、か。<line-break><line-break>浅学な連中はそれを<line-break>生き物だとか言っているようだが…<line-break><line-break>フッ、まあ、真相究明は<line-break>命知らずな<value:$28>、<line-break>君にゆだねるとしよう。<end>"
+EN: "Something as black as darkness, writhing in the Fortress City Ruins... The ignorant masses seem to be calling it a creature, but... Hmph. I shall leave the search for truth to you, the foolhardy <value:$28>.<end>"
+KO: "성새도시 터에서 꿈틀거리는, 어둠처럼 검은 무언가라…. 얕은 지식밖에 없는 자들은 그걸 생물이라고 부르는 모양이지만… 훗, 진상 규명은 목숨 아까운 줄 모르는 <value:$28>, 자네에게 맡기지.<end>"
+
+## 260023
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡の噂は私も聞きました。<line-break>黒い闇のような何かがいると…。<line-break>私も、お供いたします。<end>"
+EN: "I have heard the rumors about the Fortress City Ruins too. They say something like black darkness is there... I shall accompany you.<end>"
+KO: "성채도시 터에 대한 소문은 저도 들었습니다. 검은 어둠 같은 무언가가 있다고…. 저도 동행하겠습니다.<end>"
+
+## 260024
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "私も、城塞都市跡は聞いたの。<line-break>闇のような不吉な何かがいるんだって？<line-break>私も行くよ。お兄ちゃん。<end>"
+EN: "I've heard about the Fortress City Ruins too. There's something ominous there, like darkness itself? I'll come too, big brother.<end>"
+KO: "나도 성새도시 터 이야기는 들었어. 어둠 같은 불길한 뭔가가 있다며? 나도 갈게, 오빠.<end>"
+
+## 260025
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡で怪現象が起こる、とな。<line-break>うごめく闇のような何か…。<line-break>ふうむ、どうも嫌な予感がするわい。<end>"
+EN: "A strange phenomenon at the Fortress City Ruins, you say? Something like writhing darkness... Hmm. I have a bad feeling about this.<end>"
+KO: "성채도시 유적에서 괴현상이 일어난다라. 꿈틀거리는 어둠 같은 무언가…. 흐음, 아무래도 불길한 예감이 드는군.<end>"
+
+## 260026
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡で起こる怪現象のことは、<line-break>私もついこの間耳にしたばかりだ。<line-break>冒険者の間では噂らしいな。<line-break>しかし、場所が不気味な古代王国の<line-break>遺跡だというのもあって、<line-break>なかなか腰をあげる者がいない、とも。<line-break>…私か？　まあ、<line-break><value:$28>が行くというなら、<line-break>付き合わんでもないが…。<end>"
+EN: "I only recently heard about the strange phenomenon at the Fortress City Ruins myself. It seems to be a rumor among adventurers. But since the place is the eerie ruin of an ancient kingdom, they say few are willing to make the trip. ...Me? Well, if <value:$28> is going, I suppose I might come along...<end>"
+KO: "성채도시 유적에서 벌어진다는 괴현상은 나도 얼마 전에야 들었다. 모험자들 사이에선 소문이 난 모양이더군. 하지만 음산한 고대 왕국의 유적이라 그런지 좀처럼 나서려는 자가 없다는군. …나 말인가? 뭐, <value:$28>가 간다면 함께 못 갈 것도 없지….<end>"
+
+## 260028
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "城塞都市跡の噂？<line-break>黒い闇みたいな生き物がいるとか、<line-break>怪現象が起きるっていう話ね。<line-break>ギルドから報酬も出るし、<line-break>行ってみる？<end>"
+EN: "The rumor about the Fortress City Ruins? The one about a creature like black darkness and strange phenomena occurring there. The Guild is offering a reward, so shall we go?<end>"
+KO: "성채도시 유적 소문? 검은 어둠 같은 생물이 있다거나 괴현상이 일어난다는 이야기 말이지. 길드에서 보수도 나오니 가 볼래?<end>"
+
+## 260030
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "私もお客さんから<line-break>聞いたことがあります。<line-break>　<line-break>なんでも城塞都市跡に<line-break>黒い闇のようなお化けが出るとか…。<line-break>し、調べにいっちゃうんですか？<end>"
+EN: "I've heard about it from customers too. Apparently a ghost like black darkness appears at the Fortress City Ruins... A-are you really going to investigate?<end>"
+KO: "저도 손님에게 들은 적 있어요. 성새도시 터에 검은 어둠 같은 귀신이 나온다던데…. 조, 조사하러 가실 건가요?<end>"
+
+## 260032
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "（次元のはざまに落ちたネメアを<line-break>　助けるために、大陸の南西にある島へ<line-break>　行かなくてはならない）<end>"
+EN: "(To rescue Nemea from the Interdimensional Rift, I must go to the island southwest of the continent.)<end>"
+KO: "(차원의 틈에 떨어진 네메아를 구하기 위해 대륙 남서쪽에 있는 섬으로 가야 한다.)<end>"
+
+## 260033
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大陸の南西にある島に行けば、<line-break>ネメア様を助けることができるのね？<line-break>行きましょう、<value:$28>！<end>"
+EN: "We can save Nemea if we go to the island southwest of the continent, right? Let's go, <value:$28>!<end>"
+KO: "대륙 남서쪽 섬에 가면 네메아 님을 도울 수 있는 거지? 가자, <value:$28>!<end>"
+
+## 260034
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大陸の南西にある島といえば、<line-break>闇の門の島と呼ばれておる場所じゃ。<line-break>行こうぞ、<value:$28>よ！<end>"
+EN: "The island southwest of the continent is the place called the Island of the Dark Gate. Let us go, <value:$28>!<end>"
+KO: "대륙 남서쪽 섬이라면 어둠의 문의 섬이라 불리는 곳이다. 가자, <value:$28>!<end>"
+
+## 260035
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大陸の西側の海は、民間船はもちろん、<line-break>海賊だって寄りつかない場所ですよ。<line-break>そんな所に行くんですか？<end>"
+EN: "Not even pirates venture into the seas west of the continent, let alone civilian ships. Are you really going to such a place?<end>"
+KO: "대륙 서쪽 바다는 민간선은 물론이고 해적조차 접근하지 않는 곳입니다. 그런 곳에 가시겠다고요?<end>"
+
+## 260036
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "勇者様を俺たちが助けるなんて、<line-break>くぅううううう、燃えるぜぇ！<line-break>行くぜぇ、<value:$28>！<end>"
+EN: "Us, rescuing the Hero? Ooooh, I'm fired up! Let's go, <value:$28>!<end>"
+KO: "용사님을 우리가 돕는다니, 크으으, 불타오른다! 간다, <value:$28>!<end>"
+
+## 260037
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメアを助けることができるのは、<line-break>ボクたちだけなんだ。<line-break>行こうよ、<value:$28>。<line-break>次元のはざまにつながっている<line-break>大陸の南西にある島、<line-break>闇の門の島に！<end>"
+EN: "We're the only ones who can save Nemea. Let's go, <value:$28>―to the Island of the Dark Gate, southwest of the continent, which connects to the Interdimensional Rift!<end>"
+KO: "네메아를 구할 수 있는 건 우리뿐이야. 가자, <value:$28>. 차원의 틈으로 이어진 대륙 남서쪽 섬, 어둠의 문의 섬으로!<end>"
+
+## 260038
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "私はなんとしても、<line-break>ネメア様を救いたいの！<line-break>力を貸して、<value:$28>！<line-break>オルファウスの言っていた<line-break>大陸の南西にある島、<line-break>闇の門の島へ行くのよ！<end>"
+EN: "I want to save Nemea, no matter what! Lend me your strength, <value:$28>! We're going to the island southwest of the continent that Orphaus mentioned: the Island of the Dark Gate!<end>"
+KO: "난 어떻게든 네메아 님을 구하고 싶어! 힘을 빌려 줘, <value:$28>! 올파우스가 말한 대륙 남서쪽 섬, 어둠의 문 섬으로 가자!<end>"
+
+## 260039
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大陸の南西、闇の門の島です。<line-break>困難が待ち受けているでしょうが、<line-break>あなたの力を信じていますよ。<end>"
+EN: "Our destination is the Island of the Dark Gate, southwest of the continent. Hardship doubtless awaits, but I believe in your strength.<end>"
+KO: "대륙 남서쪽, 어둠의 문의 섬입니다. 어려움이 기다리겠지만 당신의 힘을 믿고 있어요.<end>"
+
+## 260040
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "やっぱ、ネメア様がいないと<line-break>ディンガル帝国ってダメなのよ。<line-break>くやしいけど、あたしじゃ力不足なの。<line-break>だから、ネメア様を助けに行くわよ。<line-break>大陸の南西にある島、闇の門の島へね。<line-break><end>"
+EN: "The Dyneskal Empire really is hopeless without Nemea. I hate to admit it, but I'm not strong enough. So we're going to rescue Nemea on the island southwest of the continent: the Island of the Dark Gate.<end>"
+KO: "역시 네메아 님이 없으면 딘갈 제국은 안 돼. 분하지만 나만으론 힘이 부족해. 그러니까 네메아 님을 구하러 가자. 대륙 남서쪽에 있는 섬, 어둠의 문 섬으로.<end>"
+
+## 260041
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大切な事だから確認しとくけど、<line-break>姉ちゃん、オルファウスの話<line-break>忘れてないよな？<line-break>俺たちの目的はネメア救出だぜ。<line-break>そして目的地は大陸の南西にある島だ。<line-break>姉ちゃん、がんばろうな。<end>"
+EN: "This is important, so let's make sure: you haven't forgotten what Orphaus said, have you, sis? Our objective is to rescue Nemea, and our destination is the island southwest of the continent. Let's give it our best.<end>"
+KO: "중요한 일이니까 확인해 둘게. 누나, 오르파우스가 한 이야기 잊지 않았지? 우리 목적은 네메아 구출이야. 그리고 목적지는 대륙 남서쪽의 섬. 누나, 힘내자.<end>"
+
+## 260042
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメア様が…まだ、助かる…？<line-break><line-break><line-break>私からもお願いします、<line-break><value:$28>。<end>"
+EN: "Nemea can... still be saved...? Please, <value:$28>. I beg you.<end>"
+KO: "네메아 님이… 아직 살 수 있어…? 저도 부탁드릴게요, <value:$28>.<end>"
+
+## 260043
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "破壊神の復活を阻止するためにも、<line-break>ネメアを次元のはざまから<line-break>救出しなきゃならんな。<line-break>そのためにゃ、大陸の南西にある島へ<line-break>行けばいいんだろ。<line-break>何が待っているか楽しみじゃないか。<end>"
+EN: "We must rescue Nemea from the Interdimensional Rift, if only to prevent the God of Destruction's return. For that, we go to the island southwest of the continent, right? I can't wait to see what awaits us.<end>"
+KO: "파괴신의 부활을 막기 위해서라도 네메아를 차원의 틈새에서 구해내야겠군. 그러려면 대륙 남서쪽에 있는 섬으로 가면 되는 거지. 뭐가 기다리고 있을지 기대되는군.<end>"
+
+## 260044
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大陸の南西にある島へ行くぞ。<line-break>そこで次元のはざまに落ちた<line-break>ネメアを救うのだ。<end>"
+EN: "We're going to the island southwest of the continent. There we will rescue Nemea, who fell into the Interdimensional Rift.<end>"
+KO: "대륙 남서쪽 섬으로 간다. 거기서 차원의 틈새로 떨어진 네메아를 구하는 거다.<end>"
+
+## 260045
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大陸の南西にある島とは、<line-break>闇の門の島のことかのう。<line-break>ま、行ってみればわかる事じゃな。<line-break>ネメア殿を破壊神ウルグに<line-break>するわけにはいかぬからのう。<line-break>何としても助けるのじゃ。<end>"
+EN: "Could the island southwest of the continent be the Island of the Dark Gate? Well, we shall know once we go. We cannot allow Nemea to become Ulugh, the God of Destruction. We must save him at any cost.<end>"
+KO: "대륙 남서쪽의 섬이라면 어둠의 문 섬인가 보군. 뭐, 가 보면 알겠지. 네메아 공을 파괴신 울그로 만들 순 없어. 어떻게든 구해야 해.<end>"
+
+## 260046
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメアさんを破壊神なんかに<line-break>させちゃいけないよ！<line-break>僕は絶対に助けてみせる。<line-break><value:$28>も<line-break>力を貸してくれるよね。<line-break>行こうよ、闇の門の島へ！<end>"
+EN: "We can't let Nemea become the God of Destruction! I swear I'll save him. You'll lend me your strength too, won't you, <value:$28>? Come on, let's go to the Island of the Dark Gate!<end>"
+KO: "네메아 씨를 파괴신 따위로 만들면 안 돼! 난 반드시 구해낼 거야. <value:$28>도 힘을 빌려줄 거지? 가자, 어둠의 문 섬으로!<end>"
+
+## 260048
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメアなんて興味ないけど、<line-break>破壊神に復活されたりしたら<line-break>アタクシたちエルフは大迷惑よ！<line-break>大陸の南西にある島に行って、<line-break>破壊神の復活を止めさせるわよ！<end>"
+EN: "I have no interest in Nemea, but if the God of Destruction returns, we Elves will be terribly inconvenienced! We're going to the island southwest of the continent to stop that resurrection!<end>"
+KO: "네메아 따윈 관심 없지만 파괴신이 부활하기라도 하면 우리 엘프는 큰 민폐라고! 대륙 남서쪽에 있는 섬으로 가서 파괴신의 부활을 막을 거야!<end>"
+
+## 260049
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメア救出ボゲー<line-break>a<end>"
+EN: "Rescue Nemea Bogee a<end>"
+KO: "네메아 구출 보게이 a<end>"
+
+## 260050
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメアさんを助けないと<line-break>破壊神になっちゃうんでしょ？<line-break>それって絶対にダメだよぉ！<line-break>大陸の南西にある島に行けば<line-break>ネメアさんを助けられるんだよ。<line-break><value:$28>、助けに行くよね？<end>"
+EN: "If we don't save Nemea, he'll become the God of Destruction, right? We absolutely can't let that happen! We can save him by going to the island southwest of the continent. You're going to help, aren't you, <value:$28>?<end>"
+KO: "네메아 씨를 구하지 않으면 파괴신이 되는 거지? 그건 절대 안 돼! 대륙 남서쪽 섬에 가면 네메아 씨를 구할 수 있대. <value:$28>, 구하러 갈 거지?<end>"
+
+## 260051
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "……………。<line-break><line-break><line-break>闇の門の島へ行くぞ。<end>"
+EN: "……………. We're going to the Island of the Dark Gate.<end>"
+KO: "……………. 어둠의 문 섬으로 간다.<end>"
+
+## 260052
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "次元のはざまに落とされてなお<line-break>生を保つとは、さすがは勇者ネメアだ。<line-break>しかし、それが限界か。<line-break>大陸南西の島とやらに向かうぞ、<line-break><value:$28>。<line-break>破壊神など、降臨させてはならん。<end>"
+EN: "Still alive after being cast into the Interdimensional Rift―worthy indeed of Nemea the Hero. But perhaps this is the limit. We leave for that island southwest of the continent, <value:$28>. The God of Destruction must not be allowed to descend.<end>"
+KO: "차원의 틈새에 떨어지고도 살아 있다니 역시 용사 네메아다. 하지만 그것도 한계인가. 대륙 남서쪽의 섬이라는 곳으로 간다, <value:$28>. 파괴신을 강림시킬 순 없다.<end>"
+
+## 260053
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "勇者ネメアが破壊神になったら、<line-break>世界中の吟遊詩人が大騒ぎだよ。<line-break>それは、ぼくとしても困るなぁ。<line-break>大陸南西にある闇の門の島に行って、<line-break>破壊神の復活を阻止しようよ。<line-break>ネメアの救出もできてお得だしね。<end>"
+EN: "If Nemea the Hero becomes the God of Destruction, bards all over the world will make an enormous fuss. That would be a problem for me too. Let's go to the Island of the Dark Gate southwest of the continent and prevent the God of Destruction's return. We get to rescue Nemea too, so it's quite a bargain.<end>"
+KO: "용사 네메아가 파괴신이 되면 전 세계 음유시인들이 난리가 날 거야. 그건 나도 곤란한데. 대륙 남서쪽의 어둠의 문 섬으로 가서 파괴신의 부활을 막자. 네메아도 구할 수 있으니 일석이조고.<end>"
+
+## 260054
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメア様が生きておられる！<line-break>闇の門の島で、まだ…まだ、<line-break>お救いできる！<line-break><value:$28>、頼む！<line-break>何としてもネメア様を<line-break>お救いしてくれ！<end>"
+EN: "Nemea is alive! There is still... still a chance to save him on the Island of the Dark Gate! Please, <value:$28>! Save Nemea, no matter what it takes!<end>"
+KO: "네메아 님이 살아 계셔! 어둠의 문의 섬에서 아직… 아직 구할 수 있어! <value:$28>, 부탁한다! 어떻게든 네메아 님을 구해줘!<end>"
+
+## 260055
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大陸の南西、闇の門の島で、<line-break>ネメアを救出することは、<line-break>破壊神復活を阻止することと一体です。<line-break>迷わず向かいましょう、<line-break><value:$28>様。<end>"
+EN: "Rescuing Nemea on the Island of the Dark Gate, southwest of the continent, is one and the same as preventing the God of Destruction's return. Let us go without hesitation, <value:$28>.<end>"
+KO: "대륙 남서쪽 어둠의 문의 섬에서 네메아를 구출하는 것은 파괴신 부활을 막는 것과 한몸입니다. 망설이지 말고 갑시다, <value:$28>님.<end>"
+
+## 260056
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメアを救出することが、<line-break>破壊神の復活を阻止することに<line-break>なるのね？<line-break>場所は大陸南西にある闇の門の島。<line-break>行こう、お兄ちゃん。<end>"
+EN: "Rescuing Nemea will prevent the God of Destruction's return, right? The place is the Island of the Dark Gate, southwest of the continent. Let's go, big brother.<end>"
+KO: "네메아를 구출하는 게 파괴신 부활을 막는 일이 되는 거지? 장소는 대륙 남서쪽 어둠의 문의 섬. 가자, 오빠.<end>"
+
+## 260057
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "次元のはざまに落とされてなお<line-break>生を保っておるとは…<line-break>やはりネメア、ただものではないわい。<line-break>闇の門の島へ急ぐのじゃ！<end>"
+EN: "Still alive after being cast into the Interdimensional Rift... Nemea truly is extraordinary. Hurry to the Island of the Dark Gate!<end>"
+KO: "차원의 틈에 떨어지고도 살아 있다니… 역시 네메아, 보통 인물이 아니구나. 어둠의 문 섬으로 서두르자!<end>"
+
+## 260058
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "勇者ネメアを救うことが<line-break>破壊神の再臨を阻止することに<line-break>なるとは…。<line-break>この先待っている困難が今までに<line-break>ないものになるだろうことは、<line-break>想像に難くないな…。<end>"
+EN: "To think that saving Nemea the Hero will prevent the God of Destruction's return... It is easy to imagine that the hardships ahead will be unlike any we have faced before...<end>"
+KO: "용자 네메아를 구하는 것이 파괴신의 재림을 막는 일이 될 줄이야…. 앞으로 기다리는 어려움이 지금까지와는 다를 거라는 건 쉽게 짐작할 수 있군….<end>"
+
+## 260059
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "早くネメアを助けて<line-break>破壊神の復活を阻止するんだ。<line-break>　<line-break>大陸南西の島に急ぐぞ。<line-break><value:$28>。<end>"
+EN: "We must hurry, save Nemea, and prevent the God of Destruction's return. Let's get to the island southwest of the continent, <value:$28>.<end>"
+KO: "빨리 네메아를 구해서 파괴신의 부활을 막아야 해. 대륙 남서쪽 섬으로 서두르자. <value:$28>.<end>"
+
+## 260060
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ネメアを助けるために<line-break>闇の門の島に行かなくちゃ…。<line-break>バイアシオン南西のあの島よ…。<line-break>破壊神にさせない為にも<line-break>急がないと。<line-break>行きましょ、<value:$28>！<end>"
+EN: "We have to go to the Island of the Dark Gate to save Nemea... That island southwest of Vyashion... We must hurry to keep him from becoming the God of Destruction. Let's go, <value:$28>!<end>"
+KO: "네메아를 구하려면 어둠의 문의 섬으로 가야 해… 바이아시온 남서쪽 그 섬이야… 파괴신이 되는 걸 막으려면 서둘러야 해. 가자, <value:$28>!<end>"
+
+## 260061
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大陸の南西にある島に行けば、<line-break>ネメアを助けることができると<line-break>オルファウスが言っていました。<end>"
+EN: "Orphaus said we could save Nemea by going to the island southwest of the continent.<end>"
+KO: "대륙 남서쪽 섬으로 가면 네메아를 구할 수 있다고 오르파우스가 말했습니다.<end>"
+
+## 260062
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "大変です！<line-break>ネメアさんが破壊神になっちゃう<line-break>なんて…！<line-break><value:$28>さん！<line-break>急いでオルファウスさんが言っていた、<line-break>大陸の南西にある島へ行きましょう！<end>"
+EN: "This is terrible! Nemea is going to become the God of Destruction...! <value:$28>! Hurry, let's go to the island southwest of the continent that Orphaus mentioned!<end>"
+KO: "큰일이에요! 네메아 씨가 파괴신이 된다니…! <value:$28> 씨! 서둘러 올파우스 씨가 말한 대륙 남서쪽 섬으로 가요!<end>"
+
+## 260063
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕は気が進まない。<line-break>ネメアなんて<line-break>一生次元のはざまにいればいいんだ。<end>"
+EN: "I don't want to go. Nemea can stay in the Interdimensional Rift forever, for all I care.<end>"
+KO: "난 내키지 않아. 네메아 따위평생 차원의 틈에 있으면 돼.<end>"
+
+## 260064
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "（アキュリュースの船着き場にいる<line-break>　女性に、帝国はあの陽より輝く、と<line-break>　合い言葉を言うんだ）<line-break>（そうすればアンギルダンの所へ<line-break>　案内してくれるはず）<end>"
+EN: "(Tell the woman at Aqyurius Wharf the password: “The Empire shines brighter than that sun.”) (Then she should take me to Angeerdan.)<end>"
+KO: "(아큐류스 선착장에 있는 여자에게 '제국은 저 태양보다 빛난다'고 암호를 말하는 거야.)(그러면 앙길단이 있는 곳으로 안내해 줄 거야.)<end>"
+
+## 260065
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "合い言葉を忘れた、ですって？<line-break><value:$28>、世の中にはね、<line-break>取り返しのつかないこともあるのよ。<line-break>………………。<line-break>…もう、今回だけよ。<line-break>帝国はあの陽より輝く、よ。<end>"
+EN: "You forgot the password? <value:$28>, some mistakes in this world cannot be undone. ………………. Fine, but just this once. It's “The Empire shines brighter than that sun.”<end>"
+KO: "암호를 잊었다고? <value:$28>, 세상에는 되돌릴 수 없는 일도 있어. ………… …이번 한 번뿐이야. '제국은 저 태양보다 빛난다'야.<end>"
+
+## 260067
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュースにいる女の人に<line-break>合い言葉を言えばバッチリです！<line-break>でも、合い言葉は忘れちゃいました。<end>"
+EN: "Just tell the woman in Aqyurius the password and everything will be perfect! Except I've forgotten the password.<end>"
+KO: "아큐류스에 있는 여자에게 암호를 말하면 완벽해요! 그런데 암호를 잊어버렸어요.<end>"
+
+## 260068
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ、アキュリュースの船着き場に<line-break>いる女に言う、合い言葉だな。<line-break>もちろんおぼえてるぜ！<line-break>君の瞳はあの陽より輝く、だな。<line-break>昔から言うだろ。<line-break>合い言葉は愛言葉ってな、ぷぷっ。<end>"
+EN: "Oh, the password for the woman at Aqyurius Wharf. Of course I remember! “Your eyes shine brighter than that sun.” You know what they say: the best passphrase is a phrase of passion. Heh heh.<end>"
+KO: "아, 아큐류스 선착장에 있는 여자한테 말하는 암호지. 물론 기억하지! '그대의 눈동자는 저 태양보다 빛난다'였지. 옛말에도 있잖아. 암호는 사랑의 말이라고, 푸풋.<end>"
+
+## 260069
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュースの港にいる<line-break>女性に言う合い言葉だね。<line-break>もちろんボクだって知ってるよ。<line-break>帝国はあの陽より輝く、<line-break>…ま、間違ってないよね？<end>"
+EN: "The password for the woman at the harbor in Aqyurius, right? Of course I know it too. “The Empire shines brighter than that sun”... Th-that's right, isn't it?<end>"
+KO: "아큐류스 항구에 있는 여성에게 말할 암호지. 물론 나도 알고 있어. 제국은 저 태양보다 빛난다, …마, 맞지?<end>"
+
+## 260070
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "情けない…。<line-break>合い言葉を忘れるような人間に、<line-break>任務を受ける資格はないわ！<end>"
+EN: "Pathetic... Anyone who forgets the password has no right to accept the mission!<end>"
+KO: "한심하군…. 암호를 잊어버리는 인간에게 임무를 맡을 자격은 없어!<end>"
+
+## 260071
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "おやおや、合い言葉をお忘れですか？<line-break>いかに私と言えども、それは…。<line-break><line-break>…帝国はあの陽より輝く。<line-break>ですよ。<line-break>思い出しましたか？<end>"
+EN: "Oh dear, have you forgotten the password? Even I cannot possibly... “The Empire shines brighter than that sun.” There. Do you remember now?<end>"
+KO: "이런, 암호를 잊으셨습니까? 아무리 저라도 그건…. …제국은 저 태양보다 빛난다. 입니다. 기억나셨습니까?<end>"
+
+## 260072
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "合い言葉を忘れちゃったの？<line-break>これから志願しようってんなら、<line-break>か～なり致命的だよ、ソレ。<line-break>帝国は…あの陽より輝く。<line-break>思い出した？<end>"
+EN: "You forgot the password? If you're about to volunteer, that's a re-eally serious problem. “The Empire... shines brighter than that sun.” Remember now?<end>"
+KO: "암호를 잊어버렸어? 이제 지원하려는 거라면 꽤 치명적인데. 제국은… 저 태양보다 빛난다. 기억났어?<end>"
+
+## 260073
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "もしかして姉ちゃん、<line-break>合い言葉を忘れちゃったのか？<line-break>ほんと、だらしないよな。<line-break>帝国はあの陽より輝く、だぜ。<line-break>アキュリュースの港にいる<line-break>女性に言えばいいのさ。<end>"
+EN: "Don't tell me you forgot the password, sis. You're hopeless. It's “The Empire shines brighter than that sun.” Just say it to the woman at the harbor in Aqyurius.<end>"
+KO: "설마 누나, 암호를 잊은 거야? 정말 칠칠맞네. '제국은 저 태양보다 빛난다'야. 아큐류스 항구의 여자에게 말하면 돼.<end>"
+
+## 260074
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "合言葉を忘れてしまったの？<line-break>…帝国はあの陽より輝く、よ。<line-break>帝国軍は厳しいから、しっかりね。<end>"
+EN: "You forgot the password? It's “The Empire shines brighter than that sun.” The Imperial Army is strict, so stay sharp.<end>"
+KO: "암호를 잊었어? …'제국은 저 태양보다 빛난다'야. 제국군은 엄격하니까 정신 차려.<end>"
+
+## 260075
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンギルダンのとっつぁんへの<line-break>合い言葉を忘れた、だぁ？<line-break>はははははっ！<line-break>おい、お前も人が悪いぜ、<line-break>どうして俺が、<line-break>それを知ってるってんだよ。<end>"
+EN: "You forgot the password for old man Angeerdan? Hahahahaha! Oh, you're a cruel one. What makes you think I'd know it?<end>"
+KO: "앙길단 아저씨에게 할 암호를 잊었다고? 하하하하! 너도 참 짓궂군. 내가 그걸 어떻게 안다는 거야.<end>"
+
+## 260076
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "帝国はあの陽より輝く、だ。<line-break>アキュリュースの港にいる女性に<line-break>言えば案内してくれるのだろう。<line-break>それにしても、落ちぶれた<line-break>アンギルダンの手助けをするとは、<line-break>お前はつくづく物好きだな。<end>"
+EN: "“The Empire shines brighter than that sun.” Tell it to the woman at the harbor in Aqyurius, and she will guide you. Still, helping Angeerdan after his fall from grace... You truly do have peculiar tastes.<end>"
+KO: "'제국은 저 태양보다 빛난다'다. 아큐류스 항구의 여자에게 말하면 안내해 주겠지. 그나저나 몰락한 앙길단을 돕다니 넌 정말 별난 녀석이군.<end>"
+
+## 260077
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュースの港にいる<line-break>女性に言う合い言葉のことじゃな。<line-break>もちろん知っておるぞ。<line-break>帝国はあの陽より輝く、じゃ。<line-break>見た目は年寄りかもしれんが、<line-break>記憶力は若造に負けぬぞ。<end>"
+EN: "You mean the password for the woman at the harbor in Aqyurius. Of course I know it. “The Empire shines brighter than that sun.” I may look old, but my memory is a match for any youngster's.<end>"
+KO: "아큐류스 항구에 있는 여자에게 말하는 암호 말이지. 물론 알고 있네. '제국은 저 태양보다 빛난다'일세. 겉보기엔 늙었어도 기억력은 젊은이에게 안 져.<end>"
+
+## 260078
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>がアンギルダンさんに<line-break>教えてもらった合い言葉は、<line-break>帝国はあの陽より輝く、だったよね？<line-break>これをアキュリュースの船着き場にいる<line-break>女性に言えば、アンギルダンさんの所に<line-break>案内してくれるはずだよ。<end>"
+EN: "The password Angeerdan taught you was “The Empire shines brighter than that sun,” wasn't it, <value:$28>? Tell it to the woman at Aqyurius Wharf, and she should take you to Angeerdan.<end>"
+KO: "<value:$28>가 앙길단 씨에게 들은 암호는 '제국은 저 태양보다 빛난다'였지? 이걸 아큐류스 선착장에 있는 여자에게 말하면 앙길단 씨한테 안내해 줄 거야.<end>"
+
+## 260079
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "帝国はあの陽より輝く。<line-break>私が教えたということは、<line-break>アンギルダンには内緒だぞ。<end>"
+EN: "“The Empire shines brighter than that sun.” Do not tell Angeerdan that I taught you.<end>"
+KO: "제국은 저 태양보다 빛난다. 내가 가르쳐 줬다는 건 앙길단에겐 비밀이다.<end>"
+
+## 260080
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "なによ！　なによ！<line-break>合い言葉がなんだっていうのよ！<line-break>言えなきゃ死ぬわけじゃないでしょ！<line-break>アタクシのような高貴なエルフは、<line-break>無意味なことを記憶しないように<line-break>しているのよ！　わかったわね！<end>"
+EN: "What?! What?! Who cares about some password?! It's not as if I'll die if I can't say it! A noble Elf like me makes a point of never remembering anything meaningless! Understand?<end>"
+KO: "뭐야! 뭐냐고! 암호가 뭐 어쨌다는 거야! 말 못 한다고 죽는 것도 아니잖아! 나 같은 고귀한 엘프는 의미 없는 건 기억하지 않도록 하고 있다고! 알겠어!<end>"
+
+## 260081
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンギルダンの合い言葉ボゲー<end>"
+EN: "Angeerdan's password Bogee<end>"
+KO: "앙길단의 암호 보게<end>"
+
+## 260082
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンギルダンのお爺ちゃんに<line-break>会いに行く時には合い言葉がいるよぉ。<line-break><value:$28>はおぼえてる？<line-break>帝国はあの陽より輝く、だからね。<line-break>アキュリュースの船着き場で、<line-break>女の人に会ったら言うんだよぉ。<end>"
+EN: "You need a password when you go to see Grandpa Angeerdan. Do you remember it, <value:$28>? It's “The Empire shines brighter than that sun.” Say it when you meet the woman at Aqyurius Wharf.<end>"
+KO: "앙길단 할아버지를 만나러 갈 땐 암호가 필요해. <value:$28>는 기억하지? ‘제국은 저 태양보다 빛난다’야. 아큐류스 선착장에서 여자분을 만나면 말하는 거야.<end>"
+
+## 260083
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "……………。<line-break><line-break><line-break>帝国はあの陽より輝く、だ。<end>"
+EN: "……………. “The Empire shines brighter than that sun.”<end>"
+KO: "……………. 제국은 저 태양보다 빛난다, 다.<end>"
+
+## 260084
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "帝国に通じる合い言葉、だと？<line-break>そんなものを、どうして私が<line-break>知っていると思ったのだ。<line-break>見損なったぞ、<value:$28>。<end>"
+EN: "A password connected to the Empire? Why would you think I knew such a thing? I am disappointed in you, <value:$28>.<end>"
+KO: "제국에 통하는 암호라고? 그런 걸 내가 왜 알고 있을 거라 생각한 거지. 실망이군, <value:$28>.<end>"
+
+## 260085
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュースの港にいる女の人って<line-break>ディンガル諜報部の人だよね？<line-break>合い言葉なんて諜報部って感じだもの。<line-break>ぼくも合い言葉を言ってみたいなぁ。<line-break>帝国はあの陽より輝く、なんて<line-break>普通は言わないもんね。<end>"
+EN: "The woman at the harbor in Aqyurius is with Dyneskal Intelligence, right? Passwords feel very... intelligence agency. I'd like to say one too. People don't normally say things like “The Empire shines brighter than that sun.”<end>"
+KO: "아큐류스 항구에 있는 여자는 딩갈 첩보부 사람이겠지? 암호라니 첩보부 느낌이 나잖아. 나도 암호를 말해 보고 싶다. '제국은 저 태양보다 빛난다'라니, 보통은 그런 말 안 하니까.<end>"
+
+## 260086
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "やれやれ、アンギルダンも、<line-break>物好きな奴だ。<line-break>だが、私は彼とは違うぞ。<line-break>どんなに素質があろうとも、<line-break>合い言葉を忘れるような人間に、<line-break>未来はありはしない。<end>"
+EN: "Good grief. Angeerdan has peculiar tastes. But I am not like him. No matter how much promise someone may show, anyone who forgets a password has no future.<end>"
+KO: "참, 앙길단도 별난 녀석이군. 하지만 난 그와 달라. 아무리 소질이 있어도 암호를 잊어버리는 인간에겐 미래가 없어.<end>"
+
+## 260087
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ディンガル帝国の合い言葉…。<line-break>………………<line-break>あっ、いえ…<line-break><value:$28>様の<line-break>邪魔になるようなことは<line-break>いたしません。<end>"
+EN: "The Dyneskal Empire's password... ……………… Ah, no... I would never do anything that might hinder you, <value:$28>.<end>"
+KO: "딘갈 제국의 암호…. ………… 아, 아닙니다…. <value:$28>님께 방해될 일은 하지 않겠습니다.<end>"
+
+## 260088
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ディンガル帝国の合い言葉かぁ。<line-break>欲しい国一杯ありそう。<line-break>あっ…ごめんなさい。<line-break>お兄ちゃん…<line-break>ヴィアはそんなことしないよ。<end>"
+EN: "The Dyneskal Empire's password... I bet lots of countries would want it. Oh... sorry, big brother. Via would never do that.<end>"
+KO: "딘갈 제국의 암호라…. 탐내는 나라는 많겠네. 아… 미안해. 오빠… 비아는 그런 짓 안 해.<end>"
+
+## 260089
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンギルダンに教えられた合言葉？<line-break>たしか、アキュリュースの港にいる<line-break>女に言えと告げられたアレじゃろう？<line-break>しかし、うーむ、何だったか。<line-break>何せこの歳、すぐ忘れてしまってな。<line-break>ま、思い出したら、その時教えるわい。<end>"
+EN: "The password Angeerdan taught you? That would be the one he told you to say to the woman at the harbor in Aqyurius, yes? But hmm, what was it? At my age, things slip my mind so quickly. Well, I shall tell you when I remember.<end>"
+KO: "앙길단에게 들은 암호? 분명 아큐류스 항구의 여자에게 말하라고 했던 그거겠지? 하지만 뭐였더라. 이 나이가 되니 금방 잊어버리는군. 생각나면 그때 알려 주마.<end>"
+
+## 260090
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンギルダンに教えられた合い言葉を<line-break>忘れてしまったのか？<line-break><line-break>…帝国はあの陽より輝く。<line-break>アキュリュースの港にいる女性に、<line-break>そう伝えるんだったな。<end>"
+EN: "Have you forgotten the password Angeerdan taught you? ...“The Empire shines brighter than that sun.” That was what you were to tell the woman at the harbor in Aqyurius.<end>"
+KO: "앙길단에게 들은 암호를 잊어버린 건가? …제국은 저 태양보다 빛난다. 아큐류스 항구에 있는 여자에게 그렇게 전하면 됐지.<end>"
+
+## 260091
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュースの港にいる女に<line-break>言う合言葉か？ <line-break>帝国はあの陽より輝く、だ。<end>"
+EN: "The password for the woman at the harbor in Aqyurius? “The Empire shines brighter than that sun.”<end>"
+KO: "아큐류스 항구에 있는 여자에게 말할 암호? '제국은 저 태양보다 빛난다'야.<end>"
+
+## 260092
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "アキュリュースの港にいる女性に<line-break>合い言葉を言えばいいのよ。<line-break><line-break>合い言葉は確か…、<line-break>帝国はあの陽より輝く、だったかしら。<end>"
+EN: "You just need to tell the woman at the harbor in Aqyurius the password. I believe it was... “The Empire shines brighter than that sun.”<end>"
+KO: "아큐류스 항구에 있는 여자에게 암호를 말하면 돼. 암호는 분명… 제국은 저 태양보다 빛난다, 였던가.<end>"
+
+## 260094
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "え、合言葉ですか？<line-break>覚えてますよ。<line-break>　<line-break>帝国はあの陽より輝く、です。<line-break>これをアキュリュースの港にいる<line-break>女性に言えばいいんですよ。<end>"
+EN: "What, the password? I remember it. “The Empire shines brighter than that sun.” Just say that to the woman at the harbor in Aqyurius.<end>"
+KO: "암호요? 기억하고 있어요. '제국은 저 태양보다 빛난다'입니다. 이걸 아큐류스 항구에 있는 여성에게 말하면 돼요.<end>"
+
+## 260096
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "（言葉をしゃべるゴブリン。<line-break>　奴ら、いや彼らかな…の持ち去った<line-break>　禁断の聖杯を取り戻さないと）<line-break>（ゴブリンたちは賢者の森へ行くつもり<line-break>　みたいだから追いかけなくちゃ）<end>"
+EN: "(Talking Goblins. I have to recover the Forbidden Grail those Goblins―no, perhaps I should say those fellows―carried off.) (They seem to be heading for Sage's Forest, so I have to follow.)<end>"
+KO: "(말을 하는 고블린. 녀석들, 아니 그들이 가져간 금단의 성배를 되찾아야 해.) (고블린들은 현자의 숲으로 갈 생각인 것 같으니 뒤쫓아야겠다.)<end>"
+
+## 260097
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "あのゴブリン３匹、理由はわからない<line-break>けど賢者の森を目指してるのよね。<line-break><line-break>私たちもぐずぐずせずに賢者の森へ<line-break>急ぎましょ！　絶対に禁断の聖杯を<line-break>取り戻すんだから。<end>"
+EN: "Those three Goblins are heading for Sage's Forest, though we don't know why. We can't dawdle either. Let's hurry to Sage's Forest! We are getting the Forbidden Grail back, no matter what.<end>"
+KO: "그 고블린 셋이 왜인지는 모르겠지만 현자의 숲을 향하고 있잖아. 우리도 꾸물대지 말고 현자의 숲으로 서두르자! 반드시 금단의 성배를 되찾을 거야.<end>"
+
+## 260098
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "話のできるゴブリンのゆくえのう…。<line-break>すまぬが、わしも知らないんじゃ。<line-break><line-break>じゃが、そのゴブリン共はかなり<line-break>目立つはずじゃから、いずれ見つかる<line-break>に違いないわい。<end>"
+EN: "The whereabouts of the talking Goblins...? Forgive me, but I do not know either. Still, those Goblins must stand out considerably, so they are bound to be found eventually.<end>"
+KO: "말이 통하는 고블린의 행방인가…. 미안하지만 나도 모른다. 하지만 그 고블린들은 꽤 눈에 띌 테니 언젠가는 찾게 될 거야.<end>"
+
+## 260099
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "あっ、そのしゃべるゴブリンなら～、<line-break>あっちへ行きましたよ？<end>"
+EN: "Oh, those talking Goblins? They went that way.<end>"
+KO: "아, 그 말하는 고블린이라면 저쪽으로 갔어요?<end>"
+
+## 260100
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "なに、しゃべるゴブリンだって？<line-break>俺だって知らねえぜ。<line-break>お前と五分ゴブ、ってわけだ。<end>"
+EN: "What, talking Goblins? I don't know either. So we're on equal Goblin footing.<end>"
+KO: "뭐, 말하는 고블린이라고? 나도 모른다. 너랑 오십보백보 고브라는 거지.<end>"
+
+## 260101
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "しゃべるゴブリンが禁断の聖杯を<line-break>持って逃げてるんだって？<line-break>早く探さなくっちゃ！<line-break>い、行った先は、ボクにも<line-break>わかんないケドさっ！<end>"
+EN: "Talking Goblins are running off with the Forbidden Grail? We have to find them quickly! I-I don't know where they went either, though!<end>"
+KO: "말하는 고블린이 금단의 성배를 들고 도망쳤다고? 빨리 찾아야 해! 어, 어디로 갔는지는 나도 모르지만!<end>"
+
+## 260102
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "もう忘れたの？<line-break>奴らは賢者の森を目指しているわ。<line-break><line-break>ゴブリンのすることだから、<line-break>理由までは知らないわ。<end>"
+EN: "Have you forgotten already? They're heading for Sage's Forest. They're Goblins, so I have no idea why.<end>"
+KO: "벌써 잊었어? 녀석들은 현자의 숲으로 향하고 있어. 고블린이 하는 일이니 이유까지는 몰라.<end>"
+
+## 260104
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "へえ、しゃべるゴブリンが、<line-break>禁断の聖杯を持って？<line-break><line-break>カモがネギしょってるというか、<line-break>何だかとってもすごい珍獣ぶり。<line-break>カルラさんも探そっかな～。<end>"
+EN: "Oh? Talking Goblins carrying the Forbidden Grail? It's like prey walking around with its own garnish―or simply an exceptionally bizarre rare beast. Maybe Karula should look for them too.<end>"
+KO: "헤에, 말하는 고블린이, 금단의 성배를 가지고 있다고? 호박이 넝쿨째 굴러온달까, 뭔가 엄청 희귀한 생물이네. 카를라도 찾아볼까~.<end>"
+
+## 260105
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、そんなことまで<line-break>俺に聞かないとダメか？<line-break>しょうがねえな…。<line-break>禁断の聖杯持ったゴブリンは、<line-break>賢者の森を目指してんだ。<line-break>頼れる弟がいてよかったな。<end>"
+EN: "Sis, do you really have to ask me even that? Fine... The Goblins with the Forbidden Grail are heading for Sage's Forest. Aren't you glad you have such a dependable little brother?<end>"
+KO: "누나, 그런 것까지 나한테 물어봐야 해? 어쩔 수 없네…. 금단의 성배를 가진 고블린은 현자의 숲으로 향하고 있어. 믿음직한 동생이 있어서 다행이지?<end>"
+
+## 260107
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ほほう、しゃべるゴブリンがねえ。<line-break>俺が聞いたとこでは、賢者の森へ<line-break>行ったとか何とか…。<end>"
+EN: "Well, well, talking Goblins. From what I heard, they went to Sage's Forest, or something like that...<end>"
+KO: "호오, 말하는 고블린이라. 내가 들은 바로는 현자의 숲으로 갔다던가 뭐라던가….<end>"
+
+## 260108
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯を持っているとはいえ、<line-break>ゴブリンごときに煙に巻かれるとは。<line-break>フッ、面白い奴だな。<end>"
+EN: "The Goblins may have the Forbidden Grail, but to let mere Goblins give you the slip... Hmph. You are amusing.<end>"
+KO: "금단의 성배를 가지고 있다 해도 고블린 따위에게 감쪽같이 따돌림당하다니. 흥, 재미있는 녀석이군.<end>"
+
+## 260109
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯を持ち逃げしとる<line-break>ゴブリンどもの行方じゃろう？<line-break>賢者の森とかワシは聞いたが…。<end>"
+EN: "You want to know where the Goblins who stole the Forbidden Grail went, yes? I heard something about Sage's Forest...<end>"
+KO: "금단의 성배를 들고 달아난 고블린들 행방 말이지? 현자의 숲으로 갔다고 들었는데….<end>"
+
+## 260110
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ、そのゴブリンたちなら、<line-break>賢者の森を目指しているらしいよ。<line-break>どうしてかは知らないけど…。<end>"
+EN: "Oh, apparently those Goblins are heading for Sage's Forest. I don't know why, though...<end>"
+KO: "아, 그 고블린들이라면 현자의 숲을 향하고 있는 모양이야. 왜인지는 모르겠지만….<end>"
+
+## 260111
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブリンたちは賢者の森を目指して<line-break>いるらしい。禁断の聖杯は<line-break>取り戻さねばならん。<end>"
+EN: "The Goblins seem to be heading for Sage's Forest. We must recover the Forbidden Grail.<end>"
+KO: "고블린들은 현자의 숲을 목표로 하는 모양이다. 금단의 성배는 되찾아야 해.<end>"
+
+## 260112
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "低能なゴブリンがしゃべるなんて<line-break>生意気よ！　許せないわ！<line-break>高貴なエルフのアタクシが聖杯を<line-break>取り返して、元の低能なゴブリンに<line-break>戻してあげる。<end>"
+EN: "How insolent of those dim-witted Goblins to talk! I will not allow it! I, a noble Elf, shall reclaim the Grail and turn them back into the dim-witted Goblins they were before.<end>"
+KO: "저능한 고블린이 말을 하다니 건방져! 용서 못 해! 고귀한 엘프인 내가 성배를 되찾아서 원래 저능한 고블린으로 돌려놓겠어.<end>"
+
+## 260113
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブリン３匹はどこへ？ボゲー<end>"
+EN: "Where did the three Goblins go? Bogee<end>"
+KO: "고블린 3마리는 어디에? 보게<end>"
+
+## 260114
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "あははっ、あのおもしろい<line-break>ゴブリン３人組のことでしょぉ？<line-break><line-break>えぇとね、ルルアンタ、<line-break>賢者の森へ行ったって聞いたよぉ。<line-break>ふふっ、また会えたらいいなぁ。<end>"
+EN: "Ahaha, you mean that funny trio of Goblins? Let's see... Lulluantha heard they went to Sage's Forest. Hee hee, I hope we meet again.<end>"
+KO: "아하핫, 그 재미있는 고블린 세 명 말이지? 음, 루루안타는 현자의 숲으로 갔다고 들었어. 후훗, 또 만나면 좋겠다.<end>"
+
+## 260115
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ゴブリンごとき雑魚に興味はない。<end>"
+EN: "...I have no interest in weaklings like mere Goblins.<end>"
+KO: "…고블린 따위 잡졸에게 관심은 없다.<end>"
+
+## 260116
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "いかに暇な冒険者と言えど、<line-break>ゴブリンの後を追いかけるなど<line-break>愚かしいとは思わないのか？<end>"
+EN: "Even for an adventurer with time to spare, do you not consider chasing after Goblins foolish?<end>"
+KO: "아무리 한가한 모험자라 해도 고블린의 뒤를 쫓는 건 어리석다고 생각하지 않나?<end>"
+
+## 260117
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "あっ、そのヘンテコなゴブリン！<line-break>さっきそこですれ違ってね、<line-break>惜しいことをしたって思ってたんだ！<line-break>賢者の森が何とかって言ってたけど、<line-break>たどりつけるのかな？<end>"
+EN: "Oh, those strange Goblins! I passed them just over there and thought I'd missed a wonderful opportunity! They said something about Sage's Forest, but I wonder whether they'll make it there.<end>"
+KO: "아, 그 이상한 고블린! 아까 거기서 스쳐 지나갔는데 아깝다고 생각했어! 현자의 숲이 어쩌고 하던데 제대로 도착할 수 있으려나?<end>"
+
+## 260118
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "しゃべるゴブリンたちの<line-break>行った先、だと？<line-break>どいてくれ、私は忙しいのだ。<end>"
+EN: "You ask where the talking Goblins went? Stand aside. I am busy.<end>"
+KO: "말하는 고블린들이간 곳이라고? 비켜라, 나는 바쁘다.<end>"
+
+## 260119
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "さ、さあ…さすがにゴブリンの<line-break>考えていることまでは…。<end>"
+EN: "I-I don't know... Even I cannot say what Goblins are thinking...<end>"
+KO: "글, 글쎄… 아무리 그래도 고블린이 무슨 생각을 하는지까지는….<end>"
+
+## 260120
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "しゃべるゴブリンって珍しいね。<line-break>ヴィアも見てみたいな。<end>"
+EN: "Talking Goblins are rare. Via would like to see them too.<end>"
+KO: "말하는 고블린이라니 신기하네. 비아도 한번 보고 싶어.<end>"
+
+## 260121
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "三匹のゴブリン？　<line-break>ほぉ、なかなか面白いではないか。<line-break><line-break>しゃべるゴブリンとやらも、<line-break>それを必死で追いかけているおぬしもな。<line-break>どれ、わしも手伝ってやろうかのう！<end>"
+EN: "Three Goblins? Oh, how interesting. Both these talking Goblins and your desperate pursuit of them amuse me. Perhaps I shall help you!<end>"
+KO: "세 마리 고블린이라고? 호오, 꽤 재미있지 않느냐. 말하는 고블린도, 그걸 필사적으로 쫓는 너도 말이다. 어디, 나도 도와줄까!<end>"
+
+## 260122
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯によって知恵をつけた<line-break>ゴブリンたちが、賢者の森を<line-break>目指しているんだったな。<line-break>ゴブリンのすることだから、<line-break>意図まではわからないのだが、<line-break>聖杯は取り戻さないとな。<end>"
+EN: "The Goblins who gained wisdom from the Forbidden Grail were heading for Sage's Forest, weren't they? Since they are Goblins, I cannot fathom their intentions, but we must recover the Grail.<end>"
+KO: "금단의 성배로 지혜를 얻은 고블린들이 현자의 숲을 향하고 있었지. 고블린이 하는 일이라 의도까지는 모르겠지만 성배는 되찾아야 해.<end>"
+
+## 260123
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "奴らなら禁断の聖杯を持って<line-break>賢者の森に向かったらしい。<end>"
+EN: "Apparently they took the Forbidden Grail and headed for Sage's Forest.<end>"
+KO: "녀석들이라면 금단의 성배를 들고 현자의 숲으로 향한 모양이야.<end>"
+
+## 260126
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "言葉をしゃべるゴブリンの行方ですか？<line-break>賢者の森を目指してるらしいですよ。<end>"
+EN: "You want to know where the talking Goblins went? Apparently they're heading for Sage's Forest.<end>"
+KO: "말을 하는 고블린의 행방이요? 현자의 숲을 향하고 있는 모양이에요.<end>"
+
+## 260128
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "（ゴブゴブ団を名乗る３匹のゴブリンに<line-break>　奪われた聖杯を取り戻すために<line-break>　アイリーンと旅に出たんだ）<line-break>（冒険者をやってれば、どこかの洞窟で<line-break>　バッタリ出くわすかもしれない。<line-break>　その時のために強くならなきゃ）<end>"
+EN: "(I set out with Irene to recover the Grail stolen by the three Goblins calling themselves the Gob-Gob Gang.) (If I keep working as an adventurer, I may run into them unexpectedly in some cave. I need to grow stronger for that moment.)<end>"
+KO: "(고브고브단을 자칭하는 세 고블린에게 빼앗긴 성배를 되찾으려고 아이린과 여행을 떠났지.) (모험자를 하다 보면 어느 동굴에서 우연히 마주칠 수도 있어. 그때를 위해 강해져야 해.)<end>"
+
+## 260129
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "３匹のゴブリンに奪われた聖杯ね。<line-break>あいつら聖杯のおかげで話ができる<line-break>ようになったって喜んでたけど…。<line-break>私たちだって聖杯を取り戻すまで<line-break>ロストールには帰れないんだからね。<end>"
+EN: "The Grail stolen by those three Goblins. They were delighted that it had given them the ability to talk, but... We cannot return to Rostorl until we recover it.<end>"
+KO: "세 고블린에게 빼앗긴 성배 말이지. 녀석들, 성배 덕분에 말을 할 수 있게 됐다고 좋아했지만…. 우리도 성배를 되찾기 전에는 로스톨로 돌아갈 수 없다고.<end>"
+
+## 260130
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯を持っておるのが、<line-break>ゴブゴブ団なのじゃな。<line-break>話をするゴブリンとはおもしろい。<line-break>妙な必殺技を使うということじゃが、<line-break>な～に、わしがおる以上安心するが<line-break>よいぞ。早く戦いたいものよのう。<end>"
+EN: "So the Gob-Gob Gang has the Forbidden Grail. Talking Goblins―how interesting. I hear they use some peculiar special attacks, but fear not while I am here. I can hardly wait to fight them.<end>"
+KO: "금단의 성배를 가진 게 고브고브단이구나. 말을 하는 고블린이라니 재미있군. 묘한 필살기를 쓴다지만 뭐, 내가 있으니 안심해도 된다. 빨리 싸워 보고 싶구나.<end>"
+
+## 260131
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団って名乗るゴブリンたちが<line-break>持ってるんですよね。それで魔人も<line-break>聖杯をねらっている…。<line-break>私ってけっこう記憶力っていいんです。<line-break>でも、どうしますか？　魔人ってたぶん<line-break>強いですよ。私、逃げちゃうかも…。<end>"
+EN: "The Goblins calling themselves the Gob-Gob Gang have it, right? And a fiend is after the Grail too... I have quite a good memory, you know. But what should we do? The fiend is probably strong. I might run away...<end>"
+KO: "고브고브단이라는 고블린들이 가지고 있는 거죠. 게다가 마인도 성배를 노리고 있고…. 저 기억력 꽤 좋거든요. 그런데 어떻게 할까요? 마인은 아마 강할 텐데. 저, 도망칠지도 몰라요….<end>"
+
+## 260132
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブリンのくせにゴブゴブ団なんて<line-break>かっこいい名前をつけやがって。<line-break>ちょっとくやしいじゃねえか。<line-break>ダジャレを知らない不届き者なら<line-break>聖杯を取り返すついでに<line-break>成敗してしてやるぜ！<end>"
+EN: "They're Goblins, yet they had the nerve to give themselves a cool name like the Gob-Gob Gang. I'm a little jealous. If those insolent fools don't appreciate puns, I'll punish them while we're taking back the Grail!<end>"
+KO: "고블린 주제에 고브고브단이라니 멋진 이름을 붙였잖아. 좀 분하네. 말장난도 모르는 불경한 놈들이라면 성배를 되찾는 김에 혼쭐내 주겠어!<end>"
+
+## 260133
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんの話だと魔人のひとり<line-break>アーギルシャイアもねらっているんだ。<line-break>彼女の方が先に手にいれたりしたら…。<line-break>ゴメン…弱気になっちゃダメだよね。<line-break>彼女より先にゴブリンたちを<line-break>捜し出して、聖杯を取り戻そうよ。<end>"
+EN: "According to Orphaus, one of the fiends, Argyleshire, is after it too. If she gets it first... Sorry. I shouldn't lose heart, should I? Let's find the Goblins before she does and recover the Grail.<end>"
+KO: "오르파우스 씨 말로는 마인 중 하나인 아르길샤이어도 노리고 있대. 그녀가 먼저 손에 넣으면…. 미안, 약해지면 안 되지. 그녀보다 먼저 고블린들을 찾아 성배를 되찾자.<end>"
+
+## 260134
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "持ち主に英知を与える禁断の聖杯。<line-break>その力によって話すことのできるように<line-break>なった３匹のゴブリンを捜すのね？<line-break>お前が魔人アーギルシャイアより先に<line-break>禁断の聖杯を手に入れられるかどうか<line-break>見届けさせてもらうわ。<end>"
+EN: "The Forbidden Grail grants wisdom to its bearer, and its power enabled three Goblins to speak. You are going to find them, yes? I shall watch and see whether you can obtain the Forbidden Grail before the fiend Argyleshire.<end>"
+KO: "주인에게 지혜를 주는 금단의 성배. 그 힘으로 말을 할 수 있게 된 세 마리 고블린을 찾는 거지? 네가 마인 아르길샤이어보다 먼저 금단의 성배를 손에 넣을 수 있을지 지켜보겠어.<end>"
+
+## 260135
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯は、ゴブゴブ団を名乗る<line-break>３匹のゴブリンが持っています。<line-break><line-break>破壊神ウルグの円卓の騎士のひとり<line-break>アーギルシャイアも聖杯を狙って<line-break>いますから早めに手に入れてください。<end>"
+EN: "The Forbidden Grail is in the hands of three Goblins calling themselves the Gob-Gob Gang. Argyleshire, one of the Knights of the Round Table serving Ulugh, the God of Destruction, is also after the Grail, so please recover it quickly.<end>"
+KO: "금단의 성배는 고브고브단을 자칭하는 세 고블린이 가지고 있습니다. 파괴신 울그의 원탁기사 중 한 명인 아르길샤이어도 성배를 노리고 있으니 서둘러 손에 넣어 주십시오.<end>"
+
+## 260136
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団なんてゴブリンの浅知恵<line-break>にしてはいいネーミングセンスよね。<line-break><line-break>だ・け・ど、世界の平和を守るために<line-break>禁断の聖杯を返してもらわないとね。<line-break>魔人なんかには負けないわよ。<end>"
+EN: "For Goblins of such limited wit, “Gob-Gob Gang” shows surprisingly good naming sense. But we still need them to return the Forbidden Grail so we can protect world peace. I won't lose to some fiend.<end>"
+KO: "고브고브단이라니 고블린의 얕은 꾀치고는 작명 센스가 좋네. 하·지·만, 세계의 평화를 지키려면 금단의 성배를 돌려받아야지. 마인 따위한테 질 순 없어.<end>"
+
+## 260137
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃんどうすんだよ。賢者様の頼みを<line-break>聞いてやるのか…いや、聞くんだろな。<line-break>昔っから色男に弱いからな姉ちゃんは。<line-break>それなら早くゴブリンどもを見つけて<line-break>禁断の聖杯とやらを手に入れようぜ。<line-break>魔人が見つけるより先にさ。<end>"
+EN: "What are you going to do, sis? Take the sage up on his request...? No, of course you will. You've always had a weakness for handsome men. In that case, let's hurry and find those Goblins, then get this Forbidden Grail before the fiend finds it.<end>"
+KO: "누나, 어쩔 거야. 현자님 부탁을 들어줄 거야… 아니, 듣겠지. 옛날부터 잘생긴 남자한테 약했으니까. 그럼 빨리 고블린들을 찾아서 금단의 성배를 손에 넣자. 마인이 먼저 찾기 전에.<end>"
+
+## 260138
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯は破壊神を蘇らせるために<line-break>造られた闇の神器のひとつよ。<line-break><line-break>禁断の聖杯には、持ち主に英知を与える<line-break>力があるのよ。ゴブリンが賢くなった<line-break>のも、その力が原因でしょうね。<end>"
+EN: "The Forbidden Grail is one of the dark artifacts created to resurrect the God of Destruction. It has the power to grant wisdom to its bearer. That power must be what made the Goblins intelligent.<end>"
+KO: "금단의 성배는 파괴신을 되살리기 위해 만들어진 어둠의 신기 중 하나야. 금단의 성배에는 소유자에게 지혜를 주는 힘이 있어. 고블린이 똑똑해진 것도 그 힘 때문이겠지.<end>"
+
+## 260139
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブリンどももやっかいな物を奪って<line-break>くれたもんだぜ。<line-break>ま、闇の神器だからなぁ。<line-break>しゃーねーな。魔人に奪われると<line-break>やっかいだからゴブリンどもを見つけて<line-break>聖杯を取り戻すとすっか。<end>"
+EN: "Those Goblins just had to steal something troublesome, didn't they? Well, it is a dark artifact. Can't be helped. It'll be even more trouble if a fiend takes it, so let's find those Goblins and get the Grail back.<end>"
+KO: "고블린 녀석들도 골치 아픈 걸 훔쳐 갔군. 뭐, 어둠의 신기니까. 어쩔 수 없지. 마인에게 빼앗기면 더 골치 아프니 고블린들을 찾아서 성배를 되찾자고.<end>"
+
+## 260140
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔人アーギルシャイア…。<line-break>奴に聖杯を渡すわけにはいかない。<line-break><line-break>なんとしても奴より先に禁断の聖杯を<line-break>手に入れるぞ。これ以上、犠牲者を…<line-break>罪を犯させるわけにはいかないのだ！<end>"
+EN: "The fiend Argyleshire... We cannot let the Grail fall into her hands. Whatever it takes, we will secure the Forbidden Grail first. I cannot let her claim any more victims... commit any more sins!<end>"
+KO: "마인 아르길샤이어…. 놈에게 성배를 넘길 순 없어. 어떻게든 놈보다 먼저 금단의 성배를 손에 넣는다. 더 이상의 희생자를… 더 이상의 죄를 만들게 둘 순 없어!<end>"
+
+## 260141
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウス殿の話では３匹のゴブリン<line-break>…ゴブゴブ団とか名乗っとる<line-break>奴らが持っておるというのじゃな。<line-break>しかも魔人がねらっておるらしいとな。<line-break>ならば、なんとしても魔人より先に<line-break>聖杯を取り戻さんといかんのう。<end>"
+EN: "According to Lord Orphaus, three Goblins have it... fellows calling themselves the Gob-Gob Gang, or some such. And it seems a fiend is after it as well. Then we must recover the Grail before that fiend does, no matter what.<end>"
+KO: "오르파우스 님 말로는 고블린 세 마리… 고브고브단이라 자칭하는 녀석들이 갖고 있다는 게지. 게다가 마인도 노리고 있다더군. 그렇다면 무슨 수를 써서라도 마인보다 먼저 성배를 되찾아야겠구나.<end>"
+
+## 260142
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんにゴブリンたちから<line-break>禁断の聖杯を取り戻してくれるよう<line-break>頼まれたんだよね。<line-break>魔人アーギルシャイアもねらっている<line-break>みたいだし、早くゴブリンたちを見つけ<line-break>ないといけないね。<end>"
+EN: "Orphaus asked us to recover the Forbidden Grail from the Goblins, right? The fiend Argyleshire seems to be after it too, so we need to find the Goblins quickly.<end>"
+KO: "오르파우스 씨에게 고블린들한테서 금단의 성배를 되찾아 달라는 부탁을 받았지. 마인 아르길샤이어도 노리고 있는 것 같으니 빨리 고블린들을 찾아야 해.<end>"
+
+## 260144
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯？　闇の神器？<line-break>高貴なエルフのアタクシが知らない単語<line-break>を並べて困らせようっていうのね。<line-break>残念だったわね。優雅で気品あふれる<line-break>エルフには、人間の粗野で下品な知識は<line-break>不必要なの。わかったかしら？<end>"
+EN: "The Forbidden Grail? A dark artifact? You're trying to fluster noble moi with a string of words I don't know. Too bad. A graceful, refined Elf has no need for the crude, vulgar knowledge of humans. Is that clear?<end>"
+KO: "금단의 성배? 어둠의 신기? 고귀한 엘프인 아타쿠시가 모르는 말을 늘어놓아 곤란하게 만들 셈이네. 유감이야. 우아하고 기품 넘치는 엘프에게 인간의 거칠고 저속한 지식 따윈 필요 없거든. 알겠어?<end>"
+
+## 260145
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "聖杯を狙う魔人など拙者が<line-break>成敗してくれる…。<line-break><line-break>聖杯と成敗がダジャレになって<line-break>いるのですが、どうですかな？<line-break>やっぱり、ダメですか…。<end>"
+EN: "I shall give any fiend after the Grail a grave reckoning... You see, “Grail” and “grave” make a pun. What do you think? No good after all...?<end>"
+KO: "성배를 노리는 마인 따위 소생이 성패하겠소… 성배와 성패가 말장난인데 어떻소? 역시 안 됩니까…<end>"
+
+## 260147
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "………………。<line-break><line-break><line-break>闇の神器のひとつらしいな。<line-break>魔人アーギルシャイアもねらっている。<line-break>ゴブリンどもを捜すのだ。<end>"
+EN: "………………. It appears to be one of the dark artifacts. The fiend Argyleshire is after it as well. Find those Goblins.<end>"
+KO: "………………. 어둠의 신기 중 하나인 모양이군. 마인 아르길샤이어도 노리고 있다. 고블린들을 찾아라.<end>"
+
+## 260148
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "破壊神ウルグを復活させるために<line-break>造られた１２の闇の神器のひとつ…<line-break>ゴブリンもやっかいな物を盗んだな。<line-break>魔人アーギルシャイアに渡すわけにも<line-break>いかない以上、俺たちがゴブリンから<line-break>奪い返すしかないな。<end>"
+EN: "One of the twelve dark artifacts created to resurrect Ulugh, the God of Destruction... Those Goblins stole something truly troublesome. Since we can't let it fall into Argyleshire's hands, we'll have to take it back from them ourselves.<end>"
+KO: "파괴신 울그를 부활시키기 위해 만들어진 12개의 어둠의 신기 중 하나…. 고블린도 골치 아픈 걸 훔쳤군. 마인 아르길샤이어에게 넘길 수도 없으니 우리가 고블린에게서 되찾는 수밖에 없겠어.<end>"
+
+## 260149
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団に奪われし禁断の聖杯。<line-break>闇の神器と呼ばれる聖杯を求め旅を<line-break>する吟遊詩人と勇者…。<line-break>その行く手を阻む魔人アーギルシャイア<line-break>との激しい死闘…うん！　いいよこれ！<line-break>ぼくたち伝説になれるかもしれないね。<end>"
+EN: "The Forbidden Grail, stolen by the Gob-Gob Gang. A bard and a hero journey in search of the Grail known as a dark artifact... A fierce battle to the death against the fiend Argyleshire, who bars the way... Yes! This is good! We might become legends!<end>"
+KO: "고브고브단에게 빼앗긴 금단의 성배. 어둠의 신기라 불리는 성배를 찾아 여행하는 음유시인과 용자…. 그 앞을 가로막는 마인 아르길샤이어와의 격렬한 사투… 좋아! 이거야! 우리 전설이 될지도 몰라.<end>"
+
+## 260150
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯のありかだと？<line-break><line-break><line-break>まあ、ディンガル諜報部を使えば<line-break>造作もなく調べがつくだろうが…<end>"
+EN: "You want to know where the Forbidden Grail is? Well, Dyneskal Intelligence could discover that easily enough, but...<end>"
+KO: "금단의 성배가 있는 곳이라고? 뭐, 딘갈 첩보부를 쓰면 어렵지 않게 알아낼 수 있겠지만….<end>"
+
+## 260151
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "その…ゴブゴブ団？　という方々が、<line-break>禁断の聖杯を持ち逃げしていると。<line-break>やっかいですね…。<end>"
+EN: "These people called the... Gob-Gob Gang? They have absconded with the Forbidden Grail. How troublesome...<end>"
+KO: "그… 고브고브단? 이라는 분들이 금단의 성배를 들고 달아났다고요. 골치 아프군요….<end>"
+
+## 260152
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯って…<line-break>魔人が狙ってるんでしょ？<line-break>そんなの持って動いてるなんて…<line-break>ゴブリンは危険を感じないのかな？<end>"
+EN: "The Forbidden Grail... A fiend is after it, right? Carrying something like that around... Don't the Goblins sense the danger?<end>"
+KO: "금단의 성배라니… 마인이 노리고 있는 거지? 그런 걸 들고 다니다니… 고블린은 위험을 못 느끼는 걸까?<end>"
+
+## 260153
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "かのゴブリンめら、<line-break>さすがに禁断の聖杯の<line-break>恐ろしさまでは知らぬのだろう。<line-break>このままではきゃつらの身を、<line-break>どんな災厄が襲うか知れぬ。<line-break>急ぎ、ゴブリンたちを探し出すのじゃ！<end>"
+EN: "Those Goblins surely do not understand how terrifying the Forbidden Grail truly is. There is no telling what calamity may befall them if this continues. Hurry and find the Goblins!<end>"
+KO: "그 고블린 놈들, 아무래도 금단의 성배가 얼마나 무서운지까지는 모르는 게야. 이대로라면 그들에게 무슨 재앙이 닥칠지 모른다. 서둘러 고블린들을 찾아라!<end>"
+
+## 260154
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "聖杯の力か、あのゴブリンたちは<line-break>行動力も高い。どこで出くわすか、<line-break>わかったものじゃない。<line-break>そのチャンスを逃さないためにも、<line-break>腕を鍛えておかないとな、<line-break><value:$28>。<end>"
+EN: "Maybe it's the Grail's power, but those Goblins certainly get around. There's no telling where we might run into them. We need to keep our skills sharp so we don't miss our chance, <value:$28>.<end>"
+KO: "성배의 힘 때문인지 그 고블린들은 행동력도 좋아. 어디서 마주칠지 알 수가 없어. 기회를 놓치지 않으려면 실력을 갈고닦아 둬야겠지, <value:$28>.<end>"
+
+## 260155
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "放っておくわけにもいかないだろう。<line-break>魔人アーギルシャイアより先に <line-break>ゴブリンたちを見つけるんだ。<end>"
+EN: "We can't just leave this alone. Find the Goblins before the fiend Argyleshire does.<end>"
+KO: "내버려 둘 수도 없잖아. 마인 아르길샤이어보다 먼저 고블린들을 찾아야 해.<end>"
+
+## 260156
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "聖杯を持つゴブリンたちを<line-break>魔人アーギルシャイアより先に<line-break>見つけ出さないと。<line-break>闇の神器を魔人の手に、<line-break>渡すわけにはいかないわ。<end>"
+EN: "We have to find the Goblins carrying the Grail before the fiend Argyleshire does. We can't let a dark artifact fall into a fiend's hands.<end>"
+KO: "성배를 가진 고블린들을 마인 아르길샤이어보다 먼저 찾아야 해. 어둠의 신기를 마인의 손에 넘길 순 없어.<end>"
+
+## 260157
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の神器が魔人アーギルシャイア<line-break>の手に渡ると危険です。 <line-break>　<line-break>探索を急いだ方がいいでしょう。<end>"
+EN: "It would be dangerous for the dark artifact to fall into the fiend Argyleshire's hands. We should hurry our search.<end>"
+KO: "어둠의 신기가 마인 아르길샤이어의 손에 들어가면 위험합니다. 탐색을 서두르는 편이 좋겠죠.<end>"
+
+## 260158
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんのお話だと<line-break>聖杯を持ったゴブリンたちを<line-break>魔人がねらっているらしいです。<line-break>魔人に聖杯を取られちゃう前に<line-break>ゴブリンたちを見つけないとですね！<line-break>でも…どこにいるんでしょう？<end>"
+EN: "According to Orphaus, a fiend is apparently after the Goblins carrying the Grail. We need to find the Goblins before the fiend takes it! But... where could they be?<end>"
+KO: "오르파우스 씨 말로는 성배를 가진 고블린들을 마인이 노리고 있는 모양입니다. 마인에게 성배를 빼앗기기 전에 고블린들을 찾아야겠네요! 하지만… 어디에 있을까요?<end>"
+
+## 260160
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "（猫屋敷のオルファウスと自称魔人の<line-break>　猫ネモの話だと、３匹のゴブリンは<line-break>　エンシャントへ向かったらしい）<line-break>（魔人アーギルシャイアより先に手に<line-break>　入れるためにも、エンシャントへ早く<line-break>　行って町中を捜さなきゃいけない）<end>"
+EN: "(According to Orphaus of Cat Manor and Nemo, the cat who calls himself a fiend, the three Goblins apparently headed for Ancient.) (To get the Grail before the fiend Argyleshire does, I need to hurry to Ancient and search the whole city.)<end>"
+KO: "(고양이 저택의 오르파우스와 자칭 마인인 고양이 네모의 말로는 세 고블린이 엔샨트로 향한 모양이다) (마인 아르길샤이어보다 먼저 손에 넣으려면 엔샨트로 서둘러 가서 마을을 샅샅이 뒤져야 한다)<end>"
+
+## 260161
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんの話だと、あいつら<line-break>エンシャントへ向かったんでしょ。<line-break>宿屋とか酒場とか捜してみましょう。<line-break>町中をうろつくゴブリンなんて<line-break>珍しいもの。絶対に目撃者が<line-break>いるはずよ！<end>"
+EN: "Orphaus said those three headed for Ancient, right? Let's check the inns and taverns. Goblins wandering around the city would be unusual. Someone must have seen them!<end>"
+KO: "오르파우스 씨 말로는 녀석들 엔샨트로 향했다며. 여관이나 술집을 찾아보자. 마을을 돌아다니는 고블린은 드무니까 반드시 목격자가 있을 거야!<end>"
+
+## 260162
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫屋敷の賢者殿の話では、<line-break>ゴブゴブ団を名乗る３匹のしゃべる<line-break>ゴブリンはエンシャントにおるのだな。<line-break>そこまでわかっとるんだ、<line-break>迷うことなくエンシャントを<line-break>捜してみようではないか。<end>"
+EN: "According to the sage of Cat Manor, the three talking Goblins who call themselves the Gob-Gob Gang are in Ancient. Since we know that much, let us waste no time searching Ancient.<end>"
+KO: "고양이 저택 현자님 말로는 고브고브단이라는 세 마리의 말하는 고블린이 엔샨트에 있단 말이지. 거기까지 알았으니 망설이지 말고 엔샨트를 찾아보자.<end>"
+
+## 260163
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんの話だと、<line-break>エンシャントにいるんですよね？<line-break>行ってみましょうよ！<line-break>アーギルシャイアより先に見つけないと<line-break>大変なことになっちゃいますよ。<end>"
+EN: "Orphaus said they're in Ancient, right? Let's go! If we don't find them before Argyleshire, something terrible could happen.<end>"
+KO: "오르파우스 씨 말로는 엔샨트에 있다면서요? 가 봐요! 아르길샤이어보다 먼저 찾지 않으면 큰일이 날 거예요.<end>"
+
+## 260164
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャントへ行ったって話なんだろ。<line-break>だったら行けばいいじゃねえか。<line-break>何を迷う必要があるんだよ。<line-break>もしゴブリンどもがいなかったら<line-break>猫屋敷に帰って、俺らをだました<line-break>エセ賢者をぶん殴ってやる。<end>"
+EN: "We heard they went to Ancient, right? Then let's just go. What's there to hesitate about? If the Goblins aren't there, we'll go back to Cat Manor and beat up that sham sage for tricking us.<end>"
+KO: "엔샨트로 갔다는 이야기잖아. 그럼 가면 되지. 뭘 망설일 필요가 있어. 만약 고블린들이 없으면 고양이 저택으로 돌아가 우릴 속인 가짜 현자를 두들겨 패주면 돼.<end>"
+
+## 260165
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんからエンシャントに<line-break>いるって聞いたんだよね。<line-break>それなら迷う事なんてないよ。<line-break>ボク、賢者様の事は信用してもいいと<line-break>思うよ。べ、別に確信があるわけじゃ<line-break>ないけど…。<end>"
+EN: "Orphaus told us they're in Ancient, right? Then there's nothing to hesitate over. I think we can trust the sage. N-not that I'm completely sure or anything...<end>"
+KO: "오르파우스 씨한테 엔샨트에 있다고 들었잖아. 그럼 고민할 필요 없지. 나, 현자님 말은 믿어도 된다고 생각해. 벼, 별로 확신이 있는 건 아니지만….<end>"
+
+## 260166
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスの言うことには、<line-break>三匹のしゃべるゴブリンは、<line-break>エンシャントにいるらしいわ。<line-break>寄り道していると追い抜くわよ、<line-break><value:$28>。<end>"
+EN: "According to Orphaus, the three talking Goblins are apparently in Ancient. If we keep making detours, we'll be beaten to them, <value:$28>.<end>"
+KO: "오르파우스 말로는 말하는 고블린 셋이 엔샨트에 있는 모양이야. 한눈팔면 추월해 버릴 거야, <value:$28>.<end>"
+
+## 260167
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "おやまあ、まだ出会ってなかったの<line-break>ですか。やれやれ、私の話を聞いて<line-break>なかったのか忘れちゃったのか…。<line-break>まだいるかどうかはわかりませんが<line-break>エンシャントの酒場に<line-break>行ってみましょう。<end>"
+EN: "Oh my, you still haven't found them? Good grief. Either you weren't listening to me, or you've forgotten... I don't know whether they're still there, but let's try the tavern in Ancient.<end>"
+KO: "어이구, 아직도 못 만났나요. 이런, 제 말을 안 들었거나 잊은 건가…. 아직 있을지는 모르지만 엔샨트 술집에 가 보죠.<end>"
+
+## 260168
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "うっそー、せっかく猫屋敷の賢者様に<line-break>教えていただいたのにお忘れに<line-break>なったのですか？<line-break>ああ、なんともったいないことを…。<line-break>しょうがないのでエンシャントの酒場に<line-break>でも行ってみましょう…な～んてね。<end>"
+EN: "No way! You forgot after the sage of Cat Manor was kind enough to tell you? Oh, what a terrible waste... I suppose we'll just have to try the tavern in Ancient or something... Just kidding.<end>"
+KO: "거짓말! 모처럼 고양이 저택의 현자님이 가르쳐 주셨는데 잊어버리신 겁니까? 아아, 이 얼마나 아까운 일인지…. 어쩔 수 없으니 엔샨트 술집에라도 가 보죠…라고 할 줄 알았죠?<end>"
+
+## 260169
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、もう忘れたのかよ。<line-break>まだ若いのにかわいそうになぁ。<line-break>もしかして賢者様に見とれてたのか？<line-break>あっ、ゴメン！　冗談だよ姉ちゃん。<line-break>エンシャントだよ、賢者様の話だと。<line-break>教えたんだからその手を下ろしてよ。<end>"
+EN: "Sis, have you forgotten already? How sad, when you're still so young. Were you too busy admiring the sage? Oh, sorry! I'm joking, Sis. The sage said Ancient. I've told you now, so put that hand down.<end>"
+KO: "누나, 벌써 잊은 거야? 아직 젊은데 안됐네. 혹시 현자님한테 넋을 빼앗긴 거야? 아, 미안! 농담이야 누나. 현자님 말로는 엔샨트래. 알려 줬으니 그 손 좀 내려 줘.<end>"
+
+## 260171
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団を名乗る３匹のゴブリンは<line-break>エンシャントにいるってオルファウスは<line-break>言っていたよな…違ったかな。<line-break>まあ、エンシャントへ行ってみようや。<line-break>酒場とか宿屋とか奴らの行きそうな所を<line-break>中心に捜してみるとしようや。<end>"
+EN: "Orphaus said the three Goblins calling themselves the Gob-Gob Gang were in Ancient... didn't he? Well, let's go to Ancient. We can focus our search on places they're likely to visit, like taverns and inns.<end>"
+KO: "고브고브단이라고 하는 고블린 세 마리가 엔샨트에 있다고 오르파우스가 말했지… 아니었나. 뭐, 엔샨트에 가 보자고. 술집이나 여관처럼 녀석들이 갈 만한 곳을 중심으로 찾아보자.<end>"
+
+## 260172
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャントだ！<line-break>奴らはエンシャントにいると<line-break>オルファウスに聞いたのだろう！<line-break>アーギルシャイアより先にヤツらを<line-break>見つけて禁断の聖杯を手に入れる。<line-break>これ以上、犠牲者は出さない。<end>"
+EN: "Ancient! Orphaus told you they're in Ancient! We'll find them before Argyleshire and secure the Forbidden Grail. There will be no more victims.<end>"
+KO: "엔샨트다! 녀석들이 엔샨트에 있다고 오르파우스에게 들었잖아! 아르길샤이어보다 먼저 녀석들을 찾아 금단의 성배를 손에 넣는다. 더는 희생자를 내지 않겠어.<end>"
+
+## 260173
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "うむ、オルファウス殿はエンシャントを<line-break>捜してみるようおっしゃっておった<line-break>そうじゃが、どうするかの？<line-break>ゴブリンどもも腹も減るし眠くもなる<line-break>であろう。宿屋か酒場あたりがねらい目<line-break>じゃと思うのじゃがどうじゃ？<end>"
+EN: "Hmm. I hear Orphaus advised us to search Ancient. What shall we do? Goblins grow hungry and sleepy too. I think an inn or tavern would be our best bet. What say you?<end>"
+KO: "음, 오르파우스 님이 엔샨트를 찾아보라고 하셨다던데, 어쩔 셈이냐? 고블린 녀석들도 배고프고 잠도 올 테지. 여관이나 술집 근처를 노리는 게 좋을 것 같은데 어떠냐?<end>"
+
+## 260174
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんは、エンシャントを<line-break>捜すように言っていたんだよね？<line-break>助言に従ってエンシャントに行こうよ。<line-break>エンシャントは都会だけど、話のできる<line-break>ゴブリンなんて珍しいから、<line-break>すぐに見つかるんじゃないのかな。<end>"
+EN: "Orphaus said to search Ancient, right? Let's follow that advice and go there. Ancient is a big city, but talking Goblins are so unusual that we might find them right away.<end>"
+KO: "오르파우스 씨는 엔샨트를 찾아보라고 했지? 조언대로 엔샨트에 가 보자. 대도시긴 해도 말하는 고블린은 드물 테니 금방 찾을 수 있지 않을까.<end>"
+
+## 260176
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "高貴なエルフのアタクシが低能で<line-break>不細工極まりないゴブリンどもの<line-break>ことなんて知るわけないでしょ！<line-break>ゴブリンのゴの字を聞いただけで<line-break>優雅なアタクシの耳が汚れてしまうわ！<line-break>二度と口にしないでちょうだい！<end>"
+EN: "Why would a noble Elf such as moi know anything about those witless, hideously ugly Goblins?! Merely hearing the first sound of “Goblin” sullies my elegant ears! Never mention them again!<end>"
+KO: "고귀한 엘프인 이 몸이 멍청하고 못생기기 짝이 없는 고블린들을 알 리 없잖아! 고블린의 고 자만 들어도 우아한 이 몸의 귀가 더러워져! 다시는 입에 올리지 마!<end>"
+
+## 260177
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "兄弟子！<line-break>話すゴブリンなぞ<line-break>見・放しましょうぞ！<line-break>………………。<line-break>修行しなおす所存。<line-break>ごめん！<end>"
+EN: "Senior disciple! Let us aban-don those talking Goblins! ………………. I intend to begin my training anew. Sorry!<end>"
+KO: "사형! 말하는 고블린 따위는 내버려 둡시다! ………………. 다시 수행하겠습니다. 미안!<end>"
+
+## 260178
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんがゴブリンたちは<line-break>エンシャントにいるって<line-break>教えてくれたんでしょ？<line-break>エンシャントは大きな町だから捜すの<line-break>大変かもしれないけど安心していいよ。<line-break>だってルルアンタがついてるもん。<end>"
+EN: "Orphaus told you the Goblins are in Ancient, right? Ancient is a big city, so finding them might be hard, but don't worry. You've got Lulluantha with you!<end>"
+KO: "오르파우스 씨가 고블린들은 엔샨트에 있다고 알려줬지? 엔샨트는 큰 도시라 찾기 힘들 수도 있지만 걱정 마. 루루안타가 함께 있으니까.<end>"
+
+## 260179
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "………………。<line-break><line-break><line-break>エンシャントだ。<line-break>あとは知らん。<end>"
+EN: "………………. Ancient. That's all I know.<end>"
+KO: "………………. 엔샨트다. 그 뒤는 모른다.<end>"
+
+## 260180
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫屋敷の賢者とやらに教えてもらった<line-break>のだろう。忘れてしまったのか？<line-break>確か、エンシャントではなかったか。<line-break>俺もそれ以上のことは知らん。<line-break>あとは自分の力で捜すのだな。<end>"
+EN: "That so-called sage at Cat Manor told you, did he not? Have you forgotten? If I recall correctly, it was Ancient. I know nothing beyond that. You'll have to search on your own.<end>"
+KO: "고양이 저택의 현자에게 들었을 텐데. 잊어버렸나? 분명 엔샨트였던 것 같다. 나도 그 이상은 몰라. 나머지는 네 힘으로 찾아라.<end>"
+
+## 260181
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団を名乗る話すことの<line-break>できるゴブリンたちのことでしょ。<line-break>話ができるゴブリンってすごいよねぇ。<line-break>えっ！　どこにいるのかって？<line-break>オルファウスさんにエンシャントを<line-break>捜せって教えてもらったんでしょ。<end>"
+EN: "You mean the talking Goblins who call themselves the Gob-Gob Gang, right? Goblins that can talk are amazing, aren't they? What? You want to know where they are? Orphaus told you to search Ancient, didn't he?<end>"
+KO: "고브고브단이라고 이름 붙인 말하는 고블린들 말이지? 말할 수 있는 고블린이라니 대단하다. 뭐? 어디 있냐고? 오르파우스 씨한테 엔샨트를 찾아보라고 들었잖아.<end>"
+
+## 260182
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "君は、ゴブリンの行き先まで私に<line-break>聞こうというのかね？<line-break>私はそこまで暇な人間ではない。<end>"
+EN: "You mean to ask me where the Goblins went as well? I am not so idle as that.<end>"
+KO: "자네는 고블린의 행선지까지 나에게 물으려는 건가? 나는 그렇게까지 한가한 사람이 아니다.<end>"
+
+## 260183
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団？<line-break>申し訳ございません。ゴブリンの考える<line-break>ことまでは、ちょっと…。<end>"
+EN: "The Gob-Gob Gang? My apologies. I couldn't begin to guess what a Goblin might be thinking...<end>"
+KO: "고브고브단? 죄송합니다. 고블린이 생각하는 것까지는 좀….<end>"
+
+## 260184
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団なら<line-break>エンシャントへ行ったんだって。<line-break>…目立つよね、あの三匹。<end>"
+EN: "I heard the Gob-Gob Gang went to Ancient. Those three really stand out, don't they...<end>"
+KO: "고브고브단이라면 엔샨트로 갔다더라. …눈에 띄지, 그 셋.<end>"
+
+## 260185
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウス殿の言によるならば、<line-break>ゴブリンめらはエンシャントへ向かった<line-break>そうじゃな。<line-break>エンシャントのような人の多い町中では<line-break>おそらく目立つじゃろうから、<line-break>それだけにわしらも遅れはとれぬぞ。<end>"
+EN: "According to Orphaus, the wretched Goblins headed for Ancient. They will probably stand out in a crowded city like that, which is all the more reason we cannot afford to fall behind.<end>"
+KO: "오르파우스 공의 말에 따르면 고블린 놈들은 엔샨트로 향했다는군. 엔샨트처럼 사람이 많은 도시에서는 아마 눈에 띌 테니 우리도 뒤처질 순 없네.<end>"
+
+## 260186
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫屋敷の賢者様の言うことには、<line-break>ゴブゴブ団はエンシャントへ<line-break>向かったらしいじゃないか。<line-break>人間と同じ思考をするかは<line-break>わからないが、<line-break>酒場や宿屋をあたってみよう。<end>"
+EN: "The sage of Cat Manor apparently said the Gob-Gob Gang headed for Ancient. I don't know whether they think like humans, but let's check the taverns and inns.<end>"
+KO: "고양이 저택의 현자 말로는 고브고브단이 엔샨트로 향했다던데. 인간과 같은 사고방식을 하는지는 모르겠지만 술집이나 여관을 찾아보자.<end>"
+
+## 260187
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "エンシャントに向かったと <line-break>あの猫が言っていたな。<line-break><line-break>酒場やギルドで聞き込みをすれば<line-break>何かわかるかもしれないな。<end>"
+EN: "That cat said they headed for Ancient. If we ask around at the taverns and the Guild, we might learn something.<end>"
+KO: "엔샨트로 향했다고 그 고양이가 말했었지. 술집이나 길드에서 물어보면 뭔가 알 수 있을지도 모르겠군.<end>"
+
+## 260188
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "たしか、エンシャントに<line-break>向かったって言ってたわね。<line-break><line-break>しゃべるゴブリンなんて珍しいから、<line-break>街の人が目撃してるはずだわ。<end>"
+EN: "If I remember correctly, we were told they headed for Ancient. Talking Goblins are so unusual that someone in the city must have seen them.<end>"
+KO: "분명 엔샨트로 향했다고 했지. 말하는 고블린은 드무니까 마을 사람들이 목격했을 거야.<end>"
+
+## 260190
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫さんの話だと、ゴブゴブ団は<line-break>エンシャントに向かったそうです。<line-break>　<line-break>きっと街の人がしゃべるゴブリンたちを<line-break>見かけているはずです。<line-break>色んな人に話を聞いてみましょう！<end>"
+EN: "According to the cat, the Gob-Gob Gang headed for Ancient. Someone in the city must have seen those talking Goblins. Let's ask around!<end>"
+KO: "고양이 씨 말로는 고브고브단이 엔샨트로 향했다고 합니다. 분명 도시 사람들이 말하는 고블린들을 봤을 거예요. 여러 사람에게 물어보죠!<end>"
+
+## 260192
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "（オルファウスにゴブゴブ団を名乗る<line-break>　３匹のゴブリンたちから取り戻す<line-break>　よう頼まれた。闇の神器のひとつ）<line-break>（魔人アーギルシャイアも聖杯を狙って<line-break>　いるので、一刻も早く手に入れないと<line-break>　いけない）<end>"
+EN: "(Orphaus asked me to recover one of the dark artifacts from the three Goblins calling themselves the Gob-Gob Gang.) (The fiend Argyleshire is also after the Grail, so I must obtain it as quickly as possible.)<end>"
+KO: "(오르파우스에게 고브고브단이라 자칭하는 세 고블린에게서 어둠의 신기 중 하나를 되찾아 달라는 부탁을 받았다.) (마인 아르길샤이어도 성배를 노리고 있으니 한시라도 빨리 손에 넣어야 한다.)<end>"
+
+## 260193
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "あの聖杯は闇の神器なんて呼ばれる<line-break>古代の魔道器だったのね…。<line-break>ぐずぐずしていられないわ。<line-break>一刻も早く３匹のゴブリンを見つけて<line-break>聖杯を奪い返すのよ。アーギルシャイア<line-break>なんて魔人より先にね。<end>"
+EN: "So that Grail was an ancient magical device known as a dark artifact... We can't waste time. We have to find the three Goblins at once and take the Grail back before that fiend Argyleshire does.<end>"
+KO: "그 성배는 어둠의 신기라고 불리는 고대 마도기였구나…. 꾸물거릴 수 없어. 한시라도 빨리 세 고블린을 찾아 성배를 되찾아야 해. 아르길샤이어라는 마인보다 먼저.<end>"
+
+## 260194
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯を持っておるのが、<line-break>ゴブゴブ団なのじゃな。<line-break>話をするゴブリンとはおもしろい。<line-break>妙な必殺技を使うということじゃが、<line-break>な～に、わしがおる以上安心するが<line-break>よいぞ。早く戦いたいものよのう。<end>"
+EN: "So the Gob-Gob Gang has the Forbidden Grail. Talking Goblins―how interesting. I hear they use some peculiar finishing moves, but fear not while I am here. I can hardly wait to fight them.<end>"
+KO: "금단의 성배를 가진 게 고브고브단이구나. 말을 하는 고블린이라니 재미있군. 묘한 필살기를 쓴다지만 뭐, 내가 있으니 안심해도 된다. 빨리 싸워 보고 싶구나.<end>"
+
+## 260195
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団って名乗るゴブリンたちが<line-break>持ってるんですよね。それで魔人も<line-break>聖杯をねらっている…。<line-break>私ってけっこう記憶力っていいんです。<line-break>でも、どうしますか？　魔人ってたぶん<line-break>強いですよ。私、逃げちゃうかも…。<end>"
+EN: "The Goblins calling themselves the Gob-Gob Gang have it, right? And a fiend is after the Grail too... I have quite a good memory, you know. But what should we do? The fiend is probably strong. I might run away...<end>"
+KO: "고브고브단이라는 고블린들이 가지고 있는 거죠. 게다가 마인도 성배를 노리고 있고…. 저 기억력 꽤 좋거든요. 그런데 어떻게 할까요? 마인은 아마 강할 텐데. 저, 도망칠지도 몰라요….<end>"
+
+## 260196
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブリンのくせにゴブゴブ団なんて<line-break>かっこいい名前をつけやがって。<line-break>ちょっとくやしいじゃねえか。<line-break>ダジャレを知らない不届き者なら<line-break>聖杯を取り返すついでに<line-break>成敗してしてやるぜ！<end>"
+EN: "They're Goblins, yet they had the nerve to give themselves a cool name like the Gob-Gob Gang. Makes me a little jealous. If those insolent fools don't appreciate puns, I'll punish them while we're taking back the Grail!<end>"
+KO: "고블린 주제에 고브고브단이라니 멋진 이름을 붙였잖아. 좀 분하네. 말장난도 모르는 불경한 놈들이라면 성배를 되찾는 김에 혼쭐내 주겠어!<end>"
+
+## 260197
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんの話だと魔人のひとり<line-break>アーギルシャイアもねらっているんだ。<line-break>彼女の方が先に手にいれたりしたら…。<line-break>ゴメン…弱気になっちゃダメだよね。<line-break>彼女より先にゴブリンたちを<line-break>捜し出して、聖杯を取り戻そうよ。<end>"
+EN: "According to Orphaus, one of the fiends, Argyleshire, is after it too. If she gets it first... Sorry. I shouldn't lose heart, should I? Let's find the Goblins before she does and recover the Grail.<end>"
+KO: "오르파우스 씨 말로는 마인 중 하나인 아르길샤이어도 노리고 있대. 그녀가 먼저 손에 넣으면…. 미안, 약해지면 안 되지. 그녀보다 먼저 고블린들을 찾아 성배를 되찾자.<end>"
+
+## 260198
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "持ち主に英知を与える禁断の聖杯。<line-break>その力によって話すことのできるように<line-break>なった３匹のゴブリンを捜すのね？<line-break>お前が魔人アーギルシャイアより先に<line-break>禁断の聖杯を手に入れられるかどうか<line-break>見届けさせてもらうわ。<end>"
+EN: "The Forbidden Grail grants wisdom to its bearer. You're searching for the three Goblins who gained the power of speech from it, yes? I shall watch and see whether you can obtain the Forbidden Grail before the fiend Argyleshire.<end>"
+KO: "주인에게 지혜를 주는 금단의 성배. 그 힘으로 말을 할 수 있게 된 세 마리 고블린을 찾는 거지? 네가 마인 아르길샤이어보다 먼저 금단의 성배를 손에 넣을 수 있을지 지켜보겠어.<end>"
+
+## 260199
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯は、ゴブゴブ団を名乗る<line-break>３匹のゴブリンが持っています。<line-break><line-break>破壊神ウルグの円卓の騎士のひとり<line-break>アーギルシャイアも聖杯を狙って<line-break>いますから早めに手に入れてください。<end>"
+EN: "The Forbidden Grail is in the hands of three Goblins calling themselves the Gob-Gob Gang. Argyleshire, one of the Knights of the Round Table serving Ulugh, the God of Destruction, is also after the Grail, so please obtain it quickly.<end>"
+KO: "금단의 성배는 고브고브단을 자칭하는 세 고블린이 가지고 있습니다. 파괴신 울그의 원탁기사 중 한 명인 아르길샤이어도 성배를 노리고 있으니 서둘러 손에 넣어 주십시오.<end>"
+
+## 260200
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団なんてゴブリンの浅知恵<line-break>にしてはいいネーミングセンスよね。<line-break><line-break>だ・け・ど、世界の平和を守るために<line-break>禁断の聖杯を返してもらわないとね。<line-break>魔人なんかには負けないわよ。<end>"
+EN: "For Goblins of such limited wit, “Gob-Gob Gang” is a surprisingly good name. But―we need them to return the Forbidden Grail so we can protect world peace. I won't lose to some fiend!<end>"
+KO: "고브고브단이라니 고블린의 얕은 꾀치고는 작명 센스가 좋네. 하·지·만, 세계의 평화를 지키려면 금단의 성배를 돌려받아야지. 마인 따위한테 질 순 없어.<end>"
+
+## 260201
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃんどうすんだよ。賢者様の頼みを<line-break>聞いてやるのか…いや、聞くんだろな。<line-break>昔っから色男に弱いからな姉ちゃんは。<line-break>それなら早くゴブリンどもを見つけて<line-break>禁断の聖杯とやらを手に入れようぜ。<line-break>魔人が見つけるより先にさ。<end>"
+EN: "What're you going to do, Sis? Are you going to do what the sage asked? Well... yeah, of course you are. You've always had a weakness for handsome men. In that case, let's hurry up, find those Goblins, and get this so-called Forbidden Grail before the fiend does.<end>"
+KO: "누나, 어쩔 거야. 현자님 부탁을 들어줄 거야… 아니, 듣겠지. 옛날부터 잘생긴 남자한테 약했으니까. 그럼 빨리 고블린들을 찾아서 금단의 성배를 손에 넣자. 마인이 먼저 찾기 전에.<end>"
+
+## 260202
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯は破壊神を蘇らせるために<line-break>造られた闇の神器のひとつよ。<line-break><line-break>禁断の聖杯には、持ち主に英知を与える<line-break>力があるのよ。ゴブリンが賢くなった<line-break>のも、その力が原因でしょうね。<end>"
+EN: "The Forbidden Grail is one of the dark artifacts created to resurrect the God of Destruction. It has the power to grant wisdom to its bearer. That power is probably what made the Goblins intelligent.<end>"
+KO: "금단의 성배는 파괴신을 되살리기 위해 만들어진 어둠의 신기 중 하나야. 금단의 성배에는 소유자에게 지혜를 주는 힘이 있어. 고블린이 똑똑해진 것도 그 힘 때문이겠지.<end>"
+
+## 260203
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブリンどももやっかいな物を奪って<line-break>くれたもんだぜ。<line-break>ま、闇の神器だからなぁ。<line-break>しゃーねーな。魔人に奪われると<line-break>やっかいだからゴブリンどもを見つけて<line-break>聖杯を取り戻すとすっか。<end>"
+EN: "Those Goblins just had to steal something troublesome, didn't they? Well, it is a dark artifact. Can't be helped. It'll be even more trouble if a fiend takes it, so let's find those Goblins and get the Grail back.<end>"
+KO: "고블린 녀석들도 골치 아픈 걸 훔쳐 갔군. 뭐, 어둠의 신기니까. 어쩔 수 없지. 마인에게 빼앗기면 더 골치 아프니 고블린들을 찾아서 성배를 되찾자고.<end>"
+
+## 260204
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔人アーギルシャイア…。<line-break>奴に聖杯を渡すわけにはいかない。<line-break><line-break>なんとしても奴より先に禁断の聖杯を<line-break>手に入れるぞ。これ以上、犠牲者を…<line-break>罪を犯させるわけにはいかないのだ！<end>"
+EN: "The fiend Argyleshire... We cannot let her have the Grail. Whatever it takes, we will secure the Forbidden Grail before she does. I cannot let her claim any more victims... commit any more sins!<end>"
+KO: "마인 아르길샤이어…. 놈에게 성배를 넘길 순 없어. 어떻게든 놈보다 먼저 금단의 성배를 손에 넣는다. 더 이상의 희생자를… 더 이상의 죄를 만들게 둘 순 없어!<end>"
+
+## 260205
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウス殿の話では３匹のゴブリン<line-break>…ゴブゴブ団とか名乗っとる<line-break>奴らが持っておるというのじゃな。<line-break>しかも魔人がねらっておるらしいとな。<line-break>ならば、なんとしても魔人より先に<line-break>聖杯を取り戻さんといかんのう。<end>"
+EN: "According to Orphaus, three Goblins have it... fellows calling themselves the Gob-Gob Gang, or some such. And it seems a fiend is after it as well. Then we must recover the Grail before that fiend does, no matter what.<end>"
+KO: "오르파우스 님 말로는 고블린 세 마리… 고브고브단이라 자칭하는 녀석들이 갖고 있다는 게지. 게다가 마인도 노리고 있다더군. 그렇다면 무슨 수를 써서라도 마인보다 먼저 성배를 되찾아야겠구나.<end>"
+
+## 260206
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんにゴブリンたちから<line-break>禁断の聖杯を取り戻してくれるよう<line-break>頼まれたんだよね。<line-break>魔人アーギルシャイアもねらっている<line-break>みたいだし、早くゴブリンたちを見つけ<line-break>ないといけないね。<end>"
+EN: "Orphaus asked us to recover the Forbidden Grail from the Goblins, right? It looks like the fiend Argyleshire is after it too, so we need to find the Goblins quickly.<end>"
+KO: "오르파우스 씨에게 고블린들한테서 금단의 성배를 되찾아 달라는 부탁을 받았지. 마인 아르길샤이어도 노리고 있는 것 같으니 빨리 고블린들을 찾아야 해.<end>"
+
+## 260208
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯？　闇の神器？<line-break>高貴なエルフのアタクシが知らない単語<line-break>を並べて困らせようっていうのね。<line-break>残念だったわね。優雅で気品あふれる<line-break>エルフには、人間の粗野で下品な知識は<line-break>不必要なの。わかったかしら？<end>"
+EN: "The Forbidden Grail? A dark artifact? You're trying to trouble noble moi by rattling off words I don't know. Too bad. A graceful, refined Elf has no need for the crude and vulgar knowledge of humans. Is that clear?<end>"
+KO: "금단의 성배? 어둠의 신기? 고귀한 엘프인 아타쿠시가 모르는 말을 늘어놓아 곤란하게 만들 셈이네. 유감이야. 우아하고 기품 넘치는 엘프에게 인간의 거칠고 저속한 지식 따윈 필요 없거든. 알겠어?<end>"
+
+## 260209
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "聖杯を狙う魔人など拙者が<line-break>成敗してくれる…。<line-break><line-break>聖杯と成敗がダジャレになって<line-break>いるのですが、どうですかな？<line-break>やっぱり、ダメですか…。<end>"
+EN: "Any fiend who seeks the Grail shall be assailed by me... You see, “Grail” and “assail” are supposed to make a pun. What do you think? It still doesn't work, does it...<end>"
+KO: "성배를 노리는 마인 따위 소생이 성패하겠소… 성배와 성패가 말장난인데 어떻소? 역시 안 됩니까…<end>"
+
+## 260211
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "………………。<line-break><line-break><line-break>闇の神器のひとつらしいな。<line-break>魔人アーギルシャイアもねらっている。<line-break>ゴブリンどもを捜すのだ。<end>"
+EN: "………………. Apparently, it's one of the dark artifacts. The fiend Argyleshire is after it too. Find those Goblins.<end>"
+KO: "………………. 어둠의 신기 중 하나인 모양이군. 마인 아르길샤이어도 노리고 있다. 고블린들을 찾아라.<end>"
+
+## 260212
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "破壊神ウルグを復活させるために<line-break>造られた１２の闇の神器のひとつ…<line-break>ゴブリンもやっかいな物を盗んだな。<line-break>魔人アーギルシャイアに渡すわけにも<line-break>いかない以上、俺たちがゴブリンから<line-break>奪い返すしかないな。<end>"
+EN: "One of the twelve dark artifacts created to resurrect Ulugh, the God of Destruction... Those Goblins stole something truly troublesome. Since we can't let it fall into the fiend Argyleshire's hands, we'll have to take it back from the Goblins ourselves.<end>"
+KO: "파괴신 울그를 부활시키기 위해 만들어진 12개의 어둠의 신기 중 하나…. 고블린도 골치 아픈 걸 훔쳤군. 마인 아르길샤이어에게 넘길 수도 없으니 우리가 고블린에게서 되찾는 수밖에 없겠어.<end>"
+
+## 260213
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団に奪われし禁断の聖杯。<line-break>闇の神器と呼ばれる聖杯を求め旅を<line-break>する吟遊詩人と勇者…。<line-break>その行く手を阻む魔人アーギルシャイア<line-break>との激しい死闘…うん！　いいよこれ！<line-break>ぼくたち伝説になれるかもしれないね。<end>"
+EN: "The Forbidden Grail, stolen by the Gob-Gob Gang. A bard and a hero journey in search of the Grail known as a dark artifact... A fierce battle to the death with the fiend Argyleshire, who bars the way... Yes! This is good! We might become legends!<end>"
+KO: "고브고브단에게 빼앗긴 금단의 성배. 어둠의 신기라 불리는 성배를 찾아 여행하는 음유시인과 용자…. 그 앞을 가로막는 마인 아르길샤이어와의 격렬한 사투… 좋아! 이거야! 우리 전설이 될지도 몰라.<end>"
+
+## 260214
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔人アーギルシャイアが<line-break>動き出したか…。<line-break><line-break>禁断の聖杯、闇の神器が、<line-break>それほど価値のあるものだと<line-break>証明していることに他ならない。<line-break>我々も、遅れはとれんな。<end>"
+EN: "So the fiend Argyleshire has made a move... That alone proves just how valuable the Forbidden Grail, a dark artifact, must be. We cannot afford to fall behind.<end>"
+KO: "마인 아르길샤이어가 움직이기 시작했나…. 금단의 성배, 어둠의 신기가 그만큼 가치 있는 물건이라는 증거다. 우리도 뒤처질 수 없겠군.<end>"
+
+## 260215
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "禁断の聖杯を持ち逃げしている<line-break>ゴブリンたち、ゴブゴブ団を、<line-break>魔人アーギルシャイアが狙っている…。<line-break>賢者様の言うことに間違いは<line-break>ないでしょう。とすれば、<line-break>かわいそうですが、今頃はきっと…。<end>"
+EN: "The fiend Argyleshire is hunting the Goblins who made off with the Forbidden Grail―the Gob-Gob Gang... The sage is surely not mistaken. If that's true, then regrettably, by now they must surely have...<end>"
+KO: "금단의 성배를 들고 달아난 고블린들, 고브고브단을 마인 아르길샤이어가 노리고 있다…. 현자님의 말이 틀릴 리 없겠지. 그렇다면 안됐지만 지금쯤은 아마….<end>"
+
+## 260216
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "猫屋敷の賢者様のお言葉には<line-break>万に一つの間違いもないんだって。<line-break><line-break>魔人アーギルシャイアが<line-break>禁断の聖杯を狙っているとすると、<line-break>そのゴブリンたち、今頃はきっと…。<end>"
+EN: "They say there isn't even a one-in-ten-thousand chance that the sage of Cat Manor could be wrong. If the fiend Argyleshire is after the Forbidden Grail, then by now those Goblins must surely have...<end>"
+KO: "고양이 저택 현자님의 말씀은 만에 하나도 틀리지 않는대. 마인 아르길샤이어가 금단의 성배를 노린다면 그 고블린들, 지금쯤 분명….<end>"
+
+## 260217
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "むむう、魔人アーギルシャイアまでが<line-break>禁断の聖杯奪取に乗り出したか…。<line-break>ますます三匹の身が案じられるわい。<line-break>どころか、わしらがアーギルシャイアと<line-break>ぶつかる恐れもあるのじゃな。<line-break>気は抜けんぞ、<value:$28>。<end>"
+EN: "Hmm, so even the fiend Argyleshire has set out to seize the Forbidden Grail... That makes me all the more concerned for those three. Worse, there is a chance we may clash with Argyleshire ourselves. Stay alert, <value:$28>.<end>"
+KO: "음, 마인 아르길샤이어까지 금단의 성배 탈취에 나섰는가…. 세 녀석의 신변이 더욱 걱정되는구나. 아니, 우리도 아르길샤이어와 맞닥뜨릴 가능성이 있겠군. 방심하지 마라, <value:$28>.<end>"
+
+## 260218
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団から聖杯を取り返す…。<line-break>猫屋敷のオルファウス様からの<line-break>頼みとあれば、最優先すべきだろう。<line-break>魔人アーギルシャイアも私たちと<line-break>目標としているとすれば、<line-break>気を抜くわけにはいかないな。<end>"
+EN: "Recover the Grail from the Gob-Gob Gang... Since the request comes from Lord Orphaus of Cat Manor, it should be our highest priority. If the fiend Argyleshire shares our objective, we cannot let our guard down.<end>"
+KO: "고브고브단에게서 성배를 되찾는다…. 고양이 저택의 오르파우스 님 부탁이라면 최우선으로 해야겠지. 마인 아르길샤이어도 우리와 같은 목표라면 방심할 수 없어.<end>"
+
+## 260219
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "放っておくわけにもいかないだろう。<line-break>魔人アーギルシャイアより先に <line-break>ゴブリンたちを見つけるんだ。<end>"
+EN: "We can't just leave this alone. Find the Goblins before the fiend Argyleshire does.<end>"
+KO: "내버려 둘 수도 없잖아. 마인 아르길샤이어보다 먼저 고블린들을 찾아야 해.<end>"
+
+## 260220
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "魔人アーギルシャイアの手に<line-break>聖杯が渡ったら大変なことになるわ。<line-break><line-break>とにかく、先にゴブリンたちを<line-break>見つけ出さないと。<end>"
+EN: "It'll be a disaster if the Grail falls into the fiend Argyleshire's hands. In any case, we have to find the Goblins first.<end>"
+KO: "마인 아르길샤이어의 손에 성배가 넘어가면 큰일이야. 일단 먼저 고블린들을 찾아야 해.<end>"
+
+## 260221
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "闇の神器が魔人アーギルシャイア<line-break>の手に渡ると危険です。 <line-break>　<line-break>探索を急いだ方がいいでしょう。<end>"
+EN: "It would be dangerous for the dark artifact to fall into the fiend Argyleshire's hands. We should hurry our search.<end>"
+KO: "어둠의 신기가 마인 아르길샤이어의 손에 들어가면 위험합니다. 탐색을 서두르는 편이 좋겠죠.<end>"
+
+## 260222
+source: translations/korean/messages/msgsec026-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルファウスさんのお話だと<line-break>聖杯を持ったゴブリンたちを<line-break>魔人がねらっているらしいです。<line-break>魔人に聖杯を取られちゃう前に<line-break>ゴブリンたちを見つけないとですね！<line-break>でも…どこにいるんでしょう？<end>"
+EN: "According to Orphaus, a fiend is apparently after the Goblins carrying the Grail. We need to find the Goblins before the fiend takes it! But... where could they be?<end>"
+KO: "오르파우스 씨 말로는 성배를 가진 고블린들을 마인이 노리고 있는 모양입니다. 마인에게 성배를 빼앗기기 전에 고블린들을 찾아야겠네요! 하지만… 어디에 있을까요?<end>"
+
+## 270000
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "ちゃんと用意はできてる？<line-break>しっかりね！<end>"
+EN: "Are you all set? Make sure you're ready!<end>"
+KO: "준비는 제대로 됐어? 정신 바짝 차려!<end>"
+
+## 270001
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "落ち着いてな。<line-break>まずはしっかり準備をするのじゃ。<end>"
+EN: "Stay calm now. First, make sure you're properly prepared.<end>"
+KO: "침착하게. 우선 제대로 준비부터 하게.<end>"
+
+## 270002
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "優勝したらすごいな。<line-break>ひょっとして賞金は山分けかも。<end>"
+EN: "It'd be incredible if you won. We might even split the prize money.<end>"
+KO: "우승하면 대단하겠네. 혹시 상금은 나눠 가질지도 몰라.<end>"
+
+## 270003
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "負けたら承知しねえからな。<line-break>ガツンと行ってこいよ！！<end>"
+EN: "You'd better not lose. Get in there and hit 'em hard!<end>"
+KO: "지면 가만 안 둔다. 한 방 제대로 보여 주고 와!!<end>"
+
+## 270004
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "すごいね、<value:$28>。<line-break>ボクも今度はがんばらなきゃ。<end>"
+EN: "That was amazing, <value:$28>. I'll have to do my best next time too.<end>"
+KO: "대단하네, <value:$28>. 나도 이번엔 열심히 해야겠어.<end>"
+
+## 270005
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦う準備は、調っているの？<line-break>体力は回復しておきなさい。<end>"
+EN: "Are you ready to fight? Make sure you've recovered your strength.<end>"
+KO: "싸울 준비는 됐어? 체력은 회복해 둬.<end>"
+
+## 270007
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "私のために優勝してね。<line-break>私…、待ってる。<line-break>　<line-break>なーんてね。<line-break>ちっとはどきどきした？<end>"
+EN: "Win it for me. I'll be waiting... Just kidding. Did that make your heart race a little?<end>"
+KO: "나를 위해 우승해 줘. 나… 기다릴게. …농담이야. 조금은 두근거렸어?<end>"
+
+## 270008
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "ねえちゃん、大丈夫か？<line-break>ちゃんと体力回復してる？<end>"
+EN: "Sis, you all right? Have you recovered your strength?<end>"
+KO: "누나, 괜찮아? 체력은 제대로 회복했어?<end>"
+
+## 270009
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "あなたに戦神の加護がありますように。<line-break>無理をしちゃダメよ。<end>"
+EN: "May the war god's blessing be upon you. Don't push yourself too hard.<end>"
+KO: "전신의 가호가 함께하길. 무리하면 안 돼.<end>"
+
+## 270010
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "勝敗は時の運、ってな。<line-break>最後まで勝負を捨てるなよ。<end>"
+EN: "Winning or losing comes down to luck. Don't give up until the very end.<end>"
+KO: "승패는 그때그때 운에 달렸지. 끝까지 승부를 포기하지 마.<end>"
+
+## 270011
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "暇つぶしに見にきただけだ。<line-break>期待などしていない。<end>"
+EN: "I only came to pass the time. I expect nothing from you.<end>"
+KO: "심심해서 보러 왔을 뿐이다. 기대는 하지 않는다.<end>"
+
+## 270012
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "準備は終わっとるのか？<line-break>油断せずにな。<end>"
+EN: "Finished getting ready? Don't let your guard down.<end>"
+KO: "준비는 끝났느냐? 방심하지 마라.<end>"
+
+## 270013
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "気をつけてね。<line-break>体力はちゃんと回復してある？<end>"
+EN: "Be careful. Have you fully recovered your strength?<end>"
+KO: "조심해. 체력은 제대로 회복했어?<end>"
+
+## 270015
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "おもしろそうだから見にきてみたけど、<line-break>なんなのこの野蛮さは。最っ低ね。<end>"
+EN: "I came because it sounded interesting, but what is this barbarism? It's utterly vile.<end>"
+KO: "재밌을 것 같아서 구경 왔는데, 뭐야 이 야만스러움은. 최악이네.<end>"
+
+## 270016
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "拙者の代わりにがんばってくだされ。<line-break>お祝いのシャレを考えておきますぞ。<end>"
+EN: "Do your best in my stead. I'll have a celebratory pun ready for you!<end>"
+KO: "소생 대신 힘내 주시게. 축하용 말장난을 생각해 두겠소.<end>"
+
+## 270017
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "がんばってね、<value:$28>。<line-break>ちゃんと準備はした？<end>"
+EN: "Do your best, <value:$28>. Did you get everything ready?<end>"
+KO: "힘내, <value:$28>. 준비는 제대로 했어?<end>"
+
+## 270018
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "うぬの戦い、<line-break>見せてもらおう。<end>"
+EN: "Let me see how you fight.<end>"
+KO: "네 싸움, 지켜보겠다.<end>"
+
+## 270019
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "勝てとまでは言わんがな。<line-break>無様な負け方はするなよ。<end>"
+EN: "I won't insist that you win. Just don't lose disgracefully.<end>"
+KO: "꼭 이기라고까지는 안 하겠다. 꼴사납게 지지는 마라.<end>"
+
+## 270020
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "最後まで勝ち進んだら歌になるなー。<line-break>がんばってね、<value:$28>。<end>"
+EN: "If you make it all the way to the end, there'll be a song in it. Do your best, <value:$28>.<end>"
+KO: "끝까지 이기면 노래로 만들 수 있겠네. 힘내, <value:$28>.<end>"
+
+## 270021
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "無限のソウルの力…<line-break>見せてもらおう。<end>"
+EN: "Let me see the power of the Infinite Soul.<end>"
+KO: "무한한 소울의 힘… 보여 주마.<end>"
+
+## 270022
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦いではわずかな油断が命取りに<line-break>なります。回復は忘れずに。<end>"
+EN: "In battle, the slightest lapse can be fatal. Don't forget to recover your strength.<end>"
+KO: "전투에서는 잠깐의 방심이 목숨을 앗아갑니다. 회복을 잊지 마세요.<end>"
+
+## 270023
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "大丈夫！<line-break><value:$28>なら楽勝だよ。<end>"
+EN: "You'll be fine! This will be easy for you, <value:$28>.<end>"
+KO: "괜찮아! <value:$28>라면 식은 죽 먹기야.<end>"
+
+## 270024
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "まずは深呼吸じゃ。<line-break>雰囲気に飲まれては勝てんからの。<end>"
+EN: "First, take a deep breath. You won't win if you let all this overwhelm you.<end>"
+KO: "우선 심호흡부터 해라. 분위기에 휩쓸리면 이길 수 없으니.<end>"
+
+## 270025
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "恐れることはない。<line-break>お前の実力を見せてやれ。<end>"
+EN: "There is nothing to fear. Show what you can do.<end>"
+KO: "두려워할 것 없다. 네 실력을 보여 줘라.<end>"
+
+## 270029
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "幾多の戦いを経てきたお前にとって<line-break>経験こそ最も頼りになる武器だ。<line-break>それを忘れるな。<end>"
+EN: "You have fought countless battles. Experience is the most reliable weapon you possess. Never forget that.<end>"
+KO: "수많은 싸움을 거쳐 온 네게는 경험이야말로 가장 믿을 만한 무기다. 그걸 잊지 마라.<end>"
+
+## 270030
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "勝利の笑顔で戻ってくるのを<line-break>信じて待ってるわ。<end>"
+EN: "I'll be waiting, certain you'll come back with a victorious smile.<end>"
+KO: "승리의 미소를 지으며 돌아올 거라고 믿고 기다릴게.<end>"
+
+## 270031
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "なぜ役目でない戦いに臨むのか<line-break>私には…理解できていません。<line-break>ですが…どうかご武運を。<end>"
+EN: "I... do not understand why you would take on a battle that is not yours to fight. But... may fortune favor you.<end>"
+KO: "왜 자신의 역할도 아닌 싸움에 나서는지 저는… 이해하지 못하고 있습니다. 하지만… 부디 무운을 빕니다.<end>"
+
+## 270032
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>さん、応援してます。<line-break>でも、無茶はしないでくださいね。<end>"
+EN: "<value:$28>, I'm rooting for you. But please don't take any foolish risks, all right?<end>"
+KO: "<value:$28> 씨, 응원하고 있어요. 하지만 무리는 하지 마세요.<end>"
+
+## 270033
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "君なら大丈夫。<line-break>自分の力を信じるんだ。<end>"
+EN: "You'll be all right. Trust in your own strength.<end>"
+KO: "너라면 괜찮아. 자신의 힘을 믿어.<end>"
+
+## 270037
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "さあ、早く行きなさい。<line-break>あなたには迷う権利すらないのよ。<end>"
+EN: "Now hurry up and go. You don't even have the right to hesitate.<end>"
+KO: "자, 빨리 가. 넌 망설일 권리조차 없어.<end>"
+
+## 270041
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "予選大会<end>"
+EN: "Preliminary Tournament<end>"
+KO: "예선대회<end>"
+
+## 270042
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "決勝大会<end>"
+EN: "Final Tournament<end>"
+KO: "결승대회<end>"
+
+## 270043
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$15>に出る<end>"
+EN: "<value:$15>: Enter<end>"
+KO: "<value:$15>로 나간다<end>"
+
+## 270044
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "ルールを聞く<end>"
+EN: "Ask about the rules<end>"
+KO: "규칙을 듣는다<end>"
+
+## 270045
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "出直す<end>"
+EN: "Come back later<end>"
+KO: "다시 온다<end>"
+
+## 270046
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "説明を終わる<end>"
+EN: "End the explanation<end>"
+KO: "설명을 끝낸다<end>"
+
+## 270047
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "あら、今日の予選大会は、<line-break>もう、終わったのよ。<line-break>また明日、来てちょうだい。<end>"
+EN: "Oh, today's qualifying tournament is already over. Please come back tomorrow.<end>"
+KO: "어머, 오늘 예선 대회는이미 끝났어요. 내일 다시 와 주세요.<end>"
+
+## 270048
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "あら、今年の決勝大会は、<line-break>もう、終わったのよ。<line-break>今月は、大会は開かれないわ。<end>"
+EN: "Oh, this year's final tournament is already over. There won't be any tournaments this month.<end>"
+KO: "어머, 올해 결승대회는 이미 끝났어요. 이번 달에는 대회가 열리지 않아요.<end>"
+
+## 270049
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "ようこそ、強者の集う戦いの場へ。<end>"
+EN: "Welcome to the arena, where the strong gather for battle.<end>"
+KO: "강자들이 모이는 전장에 온 것을 환영한다.<end>"
+
+## 270050
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "優勝者は予選には出場できません。<line-break>そのかわり、８月の決勝大会で、<line-break>防衛戦がありますよ。<line-break>必ず来てくださいね。<line-break>来ないと大変なことになりますよ。<end>"
+EN: "The reigning champion cannot enter the qualifiers. Instead, you'll defend your title at the final tournament in August. Be sure to come. There will be serious consequences if you don't.<end>"
+KO: "우승자는 예선에 출전할 수 없습니다. 대신 8월 결승대회에서 방어전이 있어요. 꼭 와 주세요. 안 오시면 큰일이 납니다.<end>"
+
+## 270051
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>さんは、<line-break>すでに決勝に出場できる権利を<line-break>持っていますよ。<end>"
+EN: "<value:$28>, you already have a place in the finals.<end>"
+KO: "<value:$28> 씨는 이미 결승에 출전할 자격을 갖고 있어요.<end>"
+
+## 270052
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "それでも出場しますか？<end>"
+EN: "Do you still want to participate?<end>"
+KO: "그래도 출전하시겠습니까?<end>"
+
+## 270053
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "おめでとうございます。すごいですね。<line-break>これで<value:$28>さんは、<line-break>決勝大会に出場する権利を得ました。<line-break>決勝大会に参加する気があったら８月に<line-break>ここに来てください。待っていますよ。<line-break>これは勝利賞金です。<end>"
+EN: "Congratulations! That was impressive. You've earned a place in the finals, <value:$28>. If you'd like to compete, come back here in August. We'll be waiting. Here's your prize money.<end>"
+KO: "축하드립니다. 대단하네요. 이제 <value:$28> 씨는 결승대회에 출전할 권리를 얻었습니다. 결승대회에 참가할 생각이라면 8월에 여기로 와 주세요. 기다리고 있겠습니다. 이건 승리 상금입니다.<end>"
+
+## 270054
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "これで<value:$28>さんは、<line-break>決勝大会に出場する権利を得ました。　<line-break><line-break>決勝大会に参加する気があったら８月に<line-break>ここに来てください。<line-break>待っていますよ。<end>"
+EN: "You've earned a place in the finals, <value:$28>. If you'd like to compete, come back here in August. We'll be waiting.<end>"
+KO: "이걸로 <value:$28> 님은, 결승 대회에 출전할 권리를 얻었습니다. 결승 대회에 참가할 생각이 있다면 8월에 여기로 와 주세요. 기다리고 있겠습니다.<end>"
+
+## 270055
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "おめでとうございます。すごいですね。<line-break><value:$28>さんはすでに<line-break>決勝大会に出場する権利がありますね。<line-break>８月に決勝大会がありますからね。<line-break>忘れずに来てくださいね。<line-break>これは、勝利賞金です。<end>"
+EN: "Congratulations! That was impressive. You already have a place in the finals, <value:$28>. They'll be held in August, so don't forget to come. Here's your prize money.<end>"
+KO: "축하드립니다. 대단하네요. <value:$28> 씨는 이미 결승대회 출전 자격이 있습니다. 8월에 결승대회가 있으니 잊지 말고 와 주세요. 이건 승리 상금입니다.<end>"
+
+## 270056
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>さんは<line-break>すでに決勝大会に出場する権利が　<line-break>ありますね。<line-break>８月に決勝大会がありますからね。<line-break>忘れずに来てくださいね。<end>"
+EN: "You already have a place in the finals, <value:$28>. They'll be held in August, so don't forget to come.<end>"
+KO: "<value:$28>님은 이미 결승대회 출전 자격이 있습니다. 8월에 결승대회가 있으니 잊지 말고 와 주세요.<end>"
+
+## 270057
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "残念でしたね。<line-break>これは、勝利賞金です。　<line-break><line-break>また挑戦してくださいね。<end>"
+EN: "That's a shame. Here's your prize money. Please try again.<end>"
+KO: "아쉽네요. 이건 승리 상금입니다. 또 도전해 주세요.<end>"
+
+## 270058
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "また挑戦してくださいね。<end>"
+EN: "Please try again.<end>"
+KO: "또 도전해 주세요.<end>"
+
+## 270059
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "もっと強くなってから、<line-break>来た方がいいですよ。<end>"
+EN: "You should come back when you're stronger.<end>"
+KO: "좀 더 강해진 뒤에 오는 게 좋겠어요.<end>"
+
+## 270060
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "いらっしゃい、チャンプ。<line-break>対戦相手は、もう決まっているわ。<line-break>すぐに控え室に行ってちょうだい。<line-break>連覇、期待しているわよ。<end>"
+EN: "Welcome, champ. Your opponent's already been chosen. Head straight to the waiting room. I'm counting on you to defend your title.<end>"
+KO: "어서 와, 챔프. 상대는 이미 정해졌어. 바로 대기실로 가 줘. 연승 기대할게.<end>"
+
+## 270061
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "決勝大会にようこそ。<line-break>あなたは出場権利を持っているけど、<line-break>どうする？　<end>"
+EN: "Welcome to the finals. You're eligible to compete. What would you like to do?<end>"
+KO: "결승 대회에 어서 오세요. 당신은 출전권이 있는데 어떻게 할래요?<end>"
+
+## 270062
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "いま、決勝大会をやっているの。<line-break>悪いけど、出場権利を持っていない<line-break>人は出られないのよ。<line-break>予選を勝ち抜いて、<line-break>来年こそ出場してね。<end>"
+EN: "The finals are underway right now. Sorry, but you can't enter without qualifying. Win your way through the preliminaries and come back next year.<end>"
+KO: "지금 결승 대회를 하고 있어. 미안하지만 출전권이 없는 사람은 나갈 수 없어. 예선을 통과해서 내년엔 꼭 참가해 줘.<end>"
+
+## 270063
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "すごいわ！　やったじゃない！　<line-break>今日からあなたがチャンプよ！　<line-break><line-break>はい、これは勝利賞金と副賞よ。<line-break>来年もがんばってね。<end>"
+EN: "Amazing! You did it! You're the champ now! Here's your prize money and the bonus prize. Give it your best again next year!<end>"
+KO: "대단해! 해냈잖아! 오늘부터 네가 챔피언이야! 자, 이건 우승 상금과 부상이야. 내년에도 힘내.<end>"
+
+## 270064
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "さすがね。大したものだわ。　<line-break><line-break><line-break>はい、これは勝利賞金と副賞よ。<line-break>来年もがんばってね。<end>"
+EN: "I expected no less. That was impressive. Here's your prize money and the bonus prize. Give it your best again next year.<end>"
+KO: "역시 대단하네. 자, 이건 우승 상금과 부상이야. 내년에도 힘내.<end>"
+
+## 270065
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "残念だったわね。<line-break>まっ、来年もあるわよ。　<line-break><line-break>はい、これは勝利賞金。<line-break>また挑戦してくださいね。<end>"
+EN: "Too bad. Well, there's always next year. Here's your prize money. I hope you'll try again.<end>"
+KO: "아쉬웠네. 뭐, 내년도 있으니까. 자, 이건 승리 상금이야. 또 도전해 줘.<end>"
+
+## 270066
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<line-break>賞金<value:$1A>ギアを手に入れた。<line-break>　<end>"
+EN: "Bounty: <value:$1A> Gea received.<end>"
+KO: "상금 <value:$1A>기어를 손에 넣었다.<end>"
+
+## 270067
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "また挑戦してくださいね。<end>"
+EN: "Please try again sometime.<end>"
+KO: "또 도전해 주세요.<end>"
+
+## 270068
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "もっと強くなって、また来てね。<end>"
+EN: "Come back when you're stronger.<end>"
+KO: "좀 더 강해져서 다시 와.<end>"
+
+## 270069
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "いよいよ、チャンプに挑戦ね。<line-break>がんばってね。期待しているわ。<end>"
+EN: "At last, you're taking on the champ. Good luck. I'm expecting great things from you.<end>"
+KO: "드디어 챔피언에게 도전하는구나. 힘내. 기대하고 있을게.<end>"
+
+## 270070
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "残念だったわね。<line-break>まっ、来年もあるわよ。<end>"
+EN: "What a shame. Well, there's always next year.<end>"
+KO: "아쉽게 됐네. 뭐, 내년도 있으니까.<end>"
+
+## 270071
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "どっちのことが聞きたい？<end>"
+EN: "Which one do you want to hear about?<end>"
+KO: "어느 쪽 이야기를 듣고 싶어?<end>"
+
+## 270072
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "予選は、８人勝抜戦よ。<line-break>８人と連続で戦って、８連勝すれば、<line-break>決勝大会への出場権を得られるわ。<line-break>予選には、何度でも挑戦できるけど、<line-break>１日に１回しか参戦できないから<line-break>気をつけてね。<end>"
+EN: "The qualifiers are an eight-opponent gauntlet. Defeat all eight opponents in a row to earn a place in the final tournament. You can attempt the qualifiers as many times as you like, but you can only enter once per day, so keep that in mind.<end>"
+KO: "예선은 8인 연승전이야. 8명과 연속으로 싸워 8연승하면 결승대회 출전권을 얻어. 예선은 몇 번이고 도전할 수 있지만 하루에 한 번만 참가할 수 있으니 조심해.<end>"
+
+## 270073
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "決勝は、トーナメント戦よ。　　　　　<line-break>開催は毎年８月。<line-break><line-break>１回戦、２回戦、準決勝、決勝と戦い、<line-break>勝ち残れば、チャンプへ挑戦できるわ。<end>"
+EN: "The finals are a knockout tournament held every August. Win the first round, second round, semifinal, and final, and you'll earn the right to challenge the champ.<end>"
+KO: "결승은 토너먼트전이야. 매년 8월에 열려. 1회전, 2회전, 준결승, 결승을 치러 살아남으면 챔피언에게 도전할 수 있어.<end>"
+
+## 270074
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、なんで来なかったのよ！<line-break>まったく、戦いを放棄するなんて、<line-break>闘士としては最低の行為よ。<end>"
+EN: "Hey, why didn't you show up? Honestly, abandoning a fight is the lowest thing a fighter can do.<end>"
+KO: "아, 왜 안 왔어! 정말, 싸움을 포기하다니 투사로서는 최악의 행동이야.<end>"
+
+## 270075
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<line-break>栄光を踏みにじる者の称号を得た。<line-break>　<end>"
+EN: "Obtained the title “One Who Tramples Glory.”<end>"
+KO: "영광을 짓밟는 자의 칭호를 얻었다.<end>"
+
+## 270076
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "どんな事情があったか知らないけれど、<line-break>ここでの戦いは、神聖なものよ。<line-break>それだけは覚えておいてね。<end>"
+EN: "I don't know what your reasons were, but the fighting here is sacred. Don't forget that.<end>"
+KO: "무슨 사정이 있었는지는 모르지만 이곳에서의 싸움은 신성한 것이야. 그것만은 기억해 둬.<end>"
+
+## 270077
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "まさか、レーグに勝ったあなたが、<line-break>負けるなんて……。<line-break>上には上がいるのね。<end>"
+EN: "You beat Reig. I never thought you could lose... I suppose there's always someone stronger.<end>"
+KO: "설마 레그에게 이긴 당신이 지다니……. 위에는 위가 있네요.<end>"
+
+## 270078
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<line-break>元デュエルマスターの称号を得た。<line-break>　<end>"
+EN: "Obtained the title “Former Duel Master.”<end>"
+KO: "전 듀얼 마스터의 칭호를 얻었다.<end>"
+
+## 270079
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "また挑戦してね。<line-break>返り咲きを、楽しみにしてるわ。<end>"
+EN: "Give it another try. I can't wait to see you make a comeback.<end>"
+KO: "또 도전해 줘. 다시 정상에 오르길 기대할게.<end>"
+
+## 270080
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "すごいわ！　さすがね！　<line-break>また、あなたがチャンプよ！<end>"
+EN: "Amazing! I knew you could do it! You're the champ again!<end>"
+KO: "대단해! 역시네! 또 당신이 챔피언이야!<end>"
+
+## 270081
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<line-break>デュエルマスターの称号を得た。<line-break>　<end>"
+EN: "Earned the title of Duel Master.<end>"
+KO: "듀얼 마스터의 칭호를 얻었다.<end>"
+
+## 270082
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "はい、これは勝利賞金と副賞よ。<line-break>来年もがんばってね。<end>"
+EN: "Here you are―your prize money and bonus prize. Do your best again next year.<end>"
+KO: "자, 이건 우승 상금과 부상이야. 내년에도 힘내.<end>"
+
+## 270083
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "この先は試合会場よ。<line-break>回復はここでしておいてね。<line-break><line-break>闘いの準備はいい？<end>"
+EN: "The arena is just ahead. Make sure to heal up here. Are you ready to fight?<end>"
+KO: "이 앞은 경기장이야. 회복은 여기서 해 둬. 싸울 준비는 됐어?<end>"
+
+## 270084
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "準備できている<end>"
+EN: "I'm ready.<end>"
+KO: "준비돼 있다<end>"
+
+## 270085
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "まだできていない<end>"
+EN: "I'm not ready yet.<end>"
+KO: "아직 못 했어<end>"
+
+## 270086
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "じゃあ頑張ってね！<line-break>応援してるから。<end>"
+EN: "Good luck! I'll be cheering for you.<end>"
+KO: "그럼 힘내! 응원할게.<end>"
+
+## 270087
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "別に急がなくても大丈夫よ。<line-break>闘いの準備ができたら教えてね。<end>"
+EN: "There's no need to rush. Let me know when you're ready to fight.<end>"
+KO: "딱히 서두르지 않아도 괜찮아. 싸울 준비가 되면 알려 줘.<end>"
+
+## 270088
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "まだまだだな・・・。<line-break>また出直してこい。<end>"
+EN: "You've still got a long way to go. Come back and try again.<end>"
+KO: "아직 멀었군…. 다시 단련해서 와.<end>"
+
+## 270089
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "この俺が敗れるとは・・・。<end>"
+EN: "To think that I could be defeated...<end>"
+KO: "이 내가 패배하다니….<end>"
+
+## 270090
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "闘技場用テンポラリメッセージ<end>"
+EN: ""
+KO: "투기장용 임시 메시지<end>"
+
+## 270091
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "闘技場用テンポラリメッセージ<end>"
+EN: ""
+KO: "투기장용 임시 메시지<end>"
+
+## 270092
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "闘技場用テンポラリメッセージ<end>"
+EN: ""
+KO: "투기장용 임시 메시지<end>"
+
+## 270093
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘に勝った事にする<end>"
+EN: "Treat the battle as won<end>"
+KO: "전투에서 이긴 것으로 한다<end>"
+
+## 270094
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "戦闘で負けた事にする<end>"
+EN: "Treat the battle as lost<end>"
+KO: "전투에서 진 것으로 한다<end>"
+
+## 270095
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "お覚悟、よろしいですか？<end>"
+EN: "Are you prepared?<end>"
+KO: "각오는 되셨습니까?<end>"
+
+## 270096
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "手加減はナシだからね。<end>"
+EN: "I won't be holding back.<end>"
+KO: "봐주기 없으니까.<end>"
+
+## 270097
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "お主と戦えるとはな。<line-break>年がいもなく、わくわくしおるわ。<line-break>行くぞ、<value:$28>！<end>"
+EN: "To think I'd get the chance to fight you. At my age, I shouldn't be this excited. Here I come, <value:$28>!<end>"
+KO: "너와 싸울 수 있다니. 나잇값도 못하고 가슴이 뛰는군. 간다, <value:$28>!<end>"
+
+## 270098
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "よっ、<value:$28>。<line-break>本気出しちゃ、やーよ。<line-break>お手柔らかにね。<end>"
+EN: "Hey, <value:$28>. Don't go all out on me, now. Be gentle.<end>"
+KO: "여어, <value:$28>. 진심으로 하면 안 돼. 살살 부탁해.<end>"
+
+## 270099
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "よ、<value:$28>。<line-break>いい試合を見せてやろうぜ。<end>"
+EN: "Hey, <value:$28>. Let's put on a good match.<end>"
+KO: "여, <value:$28>. 좋은 시합 보여 주자고.<end>"
+
+## 270100
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "手加減しない。<line-break>負ける気はないからな。<end>"
+EN: "I won't hold back. I don't intend to lose.<end>"
+KO: "봐주지 않겠다. 질 생각도 없으니까.<end>"
+
+## 270102
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふふ、悪くない。<line-break>お前とは、戦ってみたかった。<end>"
+EN: "Heh. Not bad. I've been wanting to fight you.<end>"
+KO: "후후, 나쁘지 않군. 너와는 한번 싸워 보고 싶었어.<end>"
+
+## 270103
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、お前か。<line-break>相手にとって不足はないわね。<end>"
+EN: "So it's you, <value:$28>. A worthy opponent.<end>"
+KO: "<value:$28>, 너였나. 상대로 부족함은 없겠군.<end>"
+
+## 270104
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>！<line-break>お互い全力で行こうぜ！！<end>"
+EN: "<value:$28>! Let's both give it everything we've got!<end>"
+KO: "<value:$28>! 서로 전력으로 가 보자고!!<end>"
+
+## 270105
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "姉ちゃん、勝負だ！<line-break>…俺が勝っても怒るなよな。<end>"
+EN: "Sis, let's fight! Just don't get mad if I win.<end>"
+KO: "누나, 승부다! …내가 이겨도 화내지 마.<end>"
+
+## 270106
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "いくわよ、<value:$28>！<line-break>手加減しないからね。<end>"
+EN: "Here I come, <value:$28>! I won't hold back.<end>"
+KO: "간다, <value:$28>! 봐주지 않을 거야.<end>"
+
+## 270107
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "まいったな、<value:$28>と<line-break>あたるなんて。<line-break>でも、負けないよ！<end>"
+EN: "Of all people, I had to draw <value:$28>. Still, I won't lose!<end>"
+KO: "곤란하네, <value:$28>와 맞붙게 되다니. 그래도 지지 않을 거야!<end>"
+
+## 270108
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "ほう、<value:$28>か。<line-break>お手合わせ願おうかの。<end>"
+EN: "Ah, <value:$28>. Shall we see how our skills compare?<end>"
+KO: "호오, <value:$28>인가. 한판 겨뤄 보자꾸나.<end>"
+
+## 270109
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "師匠、よろしくお願いいたしまする。<line-break>拙者の修行の成果をご覧あれ！<end>"
+EN: "Master, I humbly ask you to spar with me. Behold the fruits of my training!<end>"
+KO: "스승님, 잘 부탁드리옵니다. 소인의 수련 성과를 봐 주십시오!<end>"
+
+## 270110
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>さんといえども<line-break>ここでは手加減なしですよ。<end>"
+EN: "Even against you, <value:$28>, I won't hold back here.<end>"
+KO: "<value:$28>님이라 해도 여기서는 봐주지 않을 겁니다.<end>"
+
+## 270111
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "負けても恥ではない！<line-break>むしろ誇り！<line-break>相手が俺様なのだからな！<end>"
+EN: "There's no shame in losing! Why, it's an honor! Your opponent is none other than me!<end>"
+KO: "져도 부끄러운 일이 아니다! 오히려 자랑이지! 상대가 이 몸이니까!<end>"
+
+## 270112
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "あらん、<value:$28>。<line-break>かわいがってほしいの？<line-break>大丈夫よ。痛くしないから。<end>"
+EN: "Oh my, <value:$28>. Want some special attention? Don't worry. I won't hurt you.<end>"
+KO: "어머, <value:$28>. 귀여움받고 싶어? 괜찮아. 아프게 하진 않을게.<end>"
+
+## 270113
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺の剣を受けきれるかな？<line-break>勝負！<end>"
+EN: "Think you can withstand my blade? Let's fight!<end>"
+KO: "내 검을 받아낼 수 있을까? 승부다!<end>"
+
+## 270114
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "あんたの攻撃はかわしきってみせるよ。<end>"
+EN: "I'll dodge every last one of your attacks.<end>"
+KO: "네 공격은 전부 피해 주겠어.<end>"
+
+## 270115
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "まだまだ若いもんには負けんぞ。<line-break>わしの魔法を見せてやろう。<end>"
+EN: "I'm not about to lose to you youngsters yet. Let me show you my magic.<end>"
+KO: "아직 젊은 것들에게 질 수는 없지. 내 마법을 보여 주마.<end>"
+
+## 270116
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "今日も魔法を思う存分うてるのね。<line-break>ふふふ。ぞくぞくするわ。<end>"
+EN: "I get to cast spells to my heart's content again today. Heh heh heh. What a thrill.<end>"
+KO: "오늘도 마법을 마음껏 쓸 수 있겠네. 후후후. 짜릿해.<end>"
+
+## 270117
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "的確に…急所を…。<line-break>さてさて、あんたの弱点はどこかな？<end>"
+EN: "Strike true... at a vital point... Now then, where might your weak spot be?<end>"
+KO: "정확하게… 급소를…. 자, 네 약점은 어디일까?<end>"
+
+## 270118
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "神よ、私に力をお貸しください。<end>"
+EN: "O god, lend me your strength.<end>"
+KO: "신이여, 제게 힘을 빌려 주십시오.<end>"
+
+## 270119
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺だって修行してきたんだ。<line-break>やってやるさ。<end>"
+EN: "I've been training too. I can do this.<end>"
+KO: "나도 수련해 왔어. 해내고 말겠어.<end>"
+
+## 270120
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "こいつ、強いのか？<line-break>しかし…！<end>"
+EN: "Is this one strong? Still...!<end>"
+KO: "이 녀석, 강한 건가? 하지만…!<end>"
+
+## 270121
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "さて、さて。<line-break>お手柔らかにお願いしますぞ。<end>"
+EN: "Well, now. Do go easy on me.<end>"
+KO: "자, 자. 부디 살살 부탁드립니다.<end>"
+
+## 270122
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "大地の力を君に教えてあげよう。<end>"
+EN: "Let me show you the power of the earth.<end>"
+KO: "대지의 힘을 네게 가르쳐 주지.<end>"
+
+## 270123
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "あたしの炎で、身も心も焦がしてあげるわ。<end>"
+EN: "My flames will scorch your body and soul.<end>"
+KO: "내 불꽃으로 몸도 마음도 태워 주겠어.<end>"
+
+## 270124
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "さあ、風の精霊よ。<line-break>私に力を貸して。<end>"
+EN: "Come, spirits of the wind. Lend me your strength.<end>"
+KO: "자, 바람의 정령이여. 내게 힘을 빌려줘.<end>"
+
+## 270125
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "集中…、集中…。<line-break>今日こそ８人抜くぞー。<end>"
+EN: "Focus... focus... Today I'm taking down eight in a row!<end>"
+KO: "집중… 집중…. 오늘이야말로 8명을 제친다!<end>"
+
+## 270126
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "へへ。よろしくな。<end>"
+EN: "Heh. Let's have a good fight.<end>"
+KO: "헤헤. 잘 부탁한다.<end>"
+
+## 270127
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "<line-break>副賞　錬剛石<value:$1A>個を手に入れた。<line-break>　<end>"
+EN: "Bonus: Acquired Tempering Stone ×<value:$1A>.<end>"
+KO: "부상으로 연강석 <value:$1A>개를 손에 넣었다.<end>"
+
+## 270128
+source: translations/korean/messages/msgsec027-part99.toml
+jp_matches_pinned_english: yes
+JP: "闘技場メッセージはここまで<end>"
+EN: ""
+KO: "투기장 메시지는 여기까지<end>"
+
+## 280000
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅立ち０１メッセージ<end>"
+EN: ""
+KO: "여행 출발 01 메시지<end>"
+
+## 280001
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "それにしても、<line-break>昨日の地震はすごかったね。<line-break><end>"
+EN: "That was quite an earthquake yesterday, wasn't it?<end>"
+KO: "그러고 보니 어제 지진은 정말 대단했지.<end>"
+
+## 280002
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "よう。<end>"
+EN: "Hey.<end>"
+KO: "여어.<end>"
+
+## 280003
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "やあ、ヴァン。<end>"
+EN: "Hi, Van.<end>"
+KO: "안녕, 반.<end>"
+
+## 280004
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "この小屋、<line-break>墜落しちゃうかと思ったよ。<line-break><end>"
+EN: "I thought this whole shack was going to come crashing down.<end>"
+KO: "이 오두막, 추락하는 줄 알았어.<end>"
+
+## 280005
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "しっかし、昨日の地震はまいったよな。<line-break>うちなんか家中グチャグチャさ。<line-break>まったく商売にならないぜ。<end>"
+EN: "Man, that earthquake yesterday was awful. My whole place is a wreck. I can't do any business like this.<end>"
+KO: "그나저나 어제 지진은 정말 난리였지. 우리 집도 온통 엉망이야. 장사도 못 하겠어.<end>"
+
+## 280006
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…しっかし、この小屋、<line-break>よく持ちこたえたよな。<end>"
+EN: "Still, this shack held up surprisingly well.<end>"
+KO: "…그래도 이 오두막, 용케 버텼네.<end>"
+
+## 280007
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "本当によく壊れなかったよね。<line-break>あちこち修理しなきゃならないけど。<line-break>　<line-break>あ、ねえ、<value:$28>。<line-break><end>"
+EN: "I can't believe it didn't fall apart. We'll have to make repairs all over, though. Oh, hey, <value:$28>.<end>"
+KO: "정말 잘도 안 부서졌네. 여기저기 고쳐야 하긴 하지만. 아, 있잖아, <value:$28>.<end>"
+
+## 280008
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ねえ、<value:$28>。<end>"
+EN: "Hey, <value:$28>.<end>"
+KO: "있잖아, <value:$28>.<end>"
+
+## 280009
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ボンガさんの所で<line-break>木を分けてもらおうよ。<end>"
+EN: "Let's see if Bonga can spare us some lumber.<end>"
+KO: "봉가 씨한테 가서 나무를 좀 나눠 달라고 하자.<end>"
+
+## 280010
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンも手伝ってくれるよね？<end>"
+EN: "You'll help too, won't you, Van?<end>"
+KO: "반도 도와줄 거지?<end>"
+
+## 280011
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ちっ、しょうがねえな。<line-break><value:$28>、行こうぜ。<end>"
+EN: "Tch. Fine. Let's go, <value:$28>.<end>"
+KO: "쳇, 어쩔 수 없네. <value:$28>, 가자.<end>"
+
+## 280012
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "じゃ、行こう。<end>"
+EN: "All right, let's go.<end>"
+KO: "그럼, 가자.<end>"
+
+## 280013
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ボンガの家って町の北の外れだろ？<line-break>さっさと行ってこようぜ。<end>"
+EN: "Bonga's house is on the northern edge of town, right? Let's get going.<end>"
+KO: "봉가의 집은 마을 북쪽 끝이잖아? 빨리 다녀오자.<end>"
+
+## 280014
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんだよ、行かないのかよ！？<end>"
+EN: "What, you're not coming?!<end>"
+KO: "뭐야, 안 가는 거야!?<end>"
+
+## 280015
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "まあまあ、<line-break>いいから行こう、ヴァン。<end>"
+EN: "Easy, Van. Let's just go.<end>"
+KO: "자자, 됐으니까 가자, 반.<end>"
+
+## 280016
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ね、やっぱり降りてきたでしょ？<end>"
+EN: "See? You came down, just like I thought.<end>"
+KO: "봐, 역시 내려왔지?<end>"
+
+## 280017
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ハハッ、ホントだ。<line-break>　<line-break>　<line-break><value:$28>、<line-break>お前、ナッジに行動<line-break>読まれてるぜ。<end>"
+EN: "Ha! You did. <value:$28>, Nadge knew exactly what you'd do.<end>"
+KO: "하하, 정말이네. <value:$28>, 너 나지한테 행동을 다 읽히고 있잖아.<end>"
+
+## 280018
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "じゃ、行こうか。<line-break><value:$28>、ヴァン。<end>"
+EN: "All right, <value:$28>, Van. Let's go.<end>"
+KO: "그럼 가자. <value:$28>, 반.<end>"
+
+## 280019
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "その代わり、うちのダンナに　<line-break>弁当を届けてくれないかい？<end>"
+EN: "In return, could you take my husband his lunch?<end>"
+KO: "대신 우리 남편에게 도시락 좀 전해 주지 않을래?<end>"
+
+## 280020
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おや、いらっしゃい、<value:$28>。<line-break>うちのダンナに用があるんだってね。　<line-break>話はナッジから聞いたよ。<end>"
+EN: "Oh, hello, <value:$28>. I hear you've come to see my husband. Nadge told me all about it.<end>"
+KO: "어머, 어서 와, <value:$28>. 우리 남편한테 볼일이 있다지? 이야기는 나지한테 들었어.<end>"
+
+## 280021
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "でも、あいにくうちのダンナだったら、<line-break>仕事だって山に出ちまってるのさ。<line-break><end>"
+EN: "Unfortunately, my husband's gone up the mountain for work.<end>"
+KO: "하지만 공교롭게도 우리 남편이라면 일하러 산에 나가 버렸어.<end>"
+
+## 280022
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "昨日あんな地震があったってのに？<end>"
+EN: "Even after that earthquake yesterday?<end>"
+KO: "어제 그렇게 지진이 났는데도?<end>"
+
+## 280023
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "こら！<line-break>勝手に２階に上がるな！<line-break>そちらにはお客様がいるんだ！<end>"
+EN: "Hey! You can't just go upstairs! We have guests up there!<end>"
+KO: "이봐! 멋대로 2층에 올라가지 마! 저쪽엔 손님이 계신다!<end>"
+
+## 280024
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "イタをもらいに来たのに出かけてイタ。<line-break>…ププッ。<end>"
+EN: "We came for wood, but wouldn't you know it, he'd gone out. Heh heh.<end>"
+KO: "이타를 받으러 왔더니 외출했구나. …푸훗.<end>"
+
+## 280025
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…あ。イタで引っかけてるんだ。<line-break>ふーん。<end>"
+EN: "Oh. A joke on “wood” and “wouldn't.” Huh.<end>"
+KO: "…아. 이타로 낚고 있구나. 흐음.<end>"
+
+## 280026
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "それはそうと、<line-break>ちょっと困ったなぁ…。<end>"
+EN: "Anyway, this puts us in a bit of a bind.<end>"
+KO: "그건 그렇고, 조금 곤란하네….<end>"
+
+## 280027
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "なーに、木材くらい<line-break>私が見てやるよ。　　　　　<end>"
+EN: "Oh, is that all? I can pick out the lumber for you.<end>"
+KO: "뭐, 목재 정도는 내가 봐 줄게.<end>"
+
+## 280028
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "じゃ、これが弁当。　　　　　<line-break>頼んだよ。<end>"
+EN: "Here, this is his lunch. I'm counting on you.<end>"
+KO: "자, 이게 도시락이야. 부탁해.<end>"
+
+## 280029
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あんまりおいしそうだからって<line-break>途中で食べたら承知しないよ。<end>"
+EN: "I don't care how good it looks―if you eat it on the way, you'll answer to me.<end>"
+KO: "너무 맛있어 보인다고 중간에 먹으면 가만 안 둬.<end>"
+
+## 280030
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ちぇ。<line-break>自分で作ってよく言うぜ。<end>"
+EN: "Sheesh. That's rich, coming from the one who made it.<end>"
+KO: "쳇. 자기가 만들어 놓고 잘도 말하네.<end>"
+
+## 280031
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうだ。<line-break>ヴァンはここに残りな。<line-break>小屋の木材選びを手伝ってもらうよ。<end>"
+EN: "Oh, that's right. Van, you stay here. You can help me choose the lumber for the shed.<end>"
+KO: "그래. 반은 여기에 남아. 오두막에 쓸 목재 고르는 걸 도와줘.<end>"
+
+## 280032
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "よう、<line-break>冒険者登録に来たのかい？　　　　<line-break>　<end>"
+EN: "Hey there. Come to register as an adventurer?<end>"
+KO: "이봐, 모험자 등록하러 왔나?<end>"
+
+## 280033
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうかい。<line-break>そのうち冒険者になりたくなったら<line-break>ギルドで冒険者登録するといいぜ。<end>"
+EN: "All right. If you ever decide you want to become an adventurer, come register at the Guild.<end>"
+KO: "그래. 나중에 모험자가 되고 싶어지면 길드에서 모험자 등록을 하면 돼.<end>"
+
+## 280034
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "えーっ！？<end>"
+EN: "What?!<end>"
+KO: "에엣!?<end>"
+
+## 280035
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンは落ち着きがないから、<line-break>山に行ったらきっとケガするしね。<end>"
+EN: "Van can never sit still. He'd only get hurt if he went up the mountain.<end>"
+KO: "반은 차분하지 못하니까 산에 가면 분명 다칠 거야.<end>"
+
+## 280036
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "な、なにをぉぉ！！<end>"
+EN: "Wh-what did you say?!<end>"
+KO: "뭐, 뭐라고오오!!<end>"
+
+## 280037
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "じゃ、裏山にいるうちのダンナに<line-break>弁当を届けとくれ。<line-break>最高の木材を選んどくからね。<end>"
+EN: "Then take this lunch to my husband up on the mountain out back. I'll make sure to pick out the very best lumber.<end>"
+KO: "그럼 뒷산에 있는 우리 남편에게 도시락을 전해 줘. 최고의 목재를 골라 둘게.<end>"
+
+## 280038
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おばさん、ヴァン、よろしくね。<end>"
+EN: "Mrs. Bonga, Van―I'm counting on you.<end>"
+KO: "아줌마, 반, 잘 부탁해.<end>"
+
+## 280039
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ちぇっ…、<line-break>まあ、任せとけよ。<end>"
+EN: "Tch... Fine, leave it to me.<end>"
+KO: "쳇… 뭐, 맡겨 둬.<end>"
+
+## 280040
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "これも持っていきな。<line-break>ケガしたら使うんだよ。<end>"
+EN: "Take this with you, too. Use it if you get hurt.<end>"
+KO: "이것도 가져가. 다치면 써.<end>"
+
+## 280041
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おう。<line-break>誰かと思ったら小僧どもか。<line-break>どうした？<end>"
+EN: "Oh, it's you boys. What's up?<end>"
+KO: "오. 누군가 했더니 꼬맹이들이군. 무슨 일이냐?<end>"
+
+## 280042
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "弁当？<line-break>そうか、ありがとよ。<line-break>んじゃ、ひと休みするか。　<end>"
+EN: "Lunch? Oh, thanks. Then I suppose it's time for a break.<end>"
+KO: "도시락? 그래, 고맙다. 그럼 잠깐 쉬자.<end>"
+
+## 280043
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…そうか、昨日の地震でねえ。<line-break>　<end>"
+EN: "Oh... so it was yesterday's earthquake.<end>"
+KO: "…그런가, 어제 지진 때문에.<end>"
+
+## 280044
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、明日なら小屋の修理を　<line-break>手伝ってやるぜ。<end>"
+EN: "All right, I can help you repair the shed tomorrow.<end>"
+KO: "좋아, 내일이면 오두막 수리를 도와줄게.<end>"
+
+## 280045
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前らだけでやるより<line-break>いくらかマシになるだろう？　<end>"
+EN: "It'll go a little better with my help than if you do it by yourselves, won't it?<end>"
+KO: "너희끼리 하는 것보단 조금은 낫겠지?<end>"
+
+## 280046
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "本当！？　ありがとう。<line-break>助かるよ、ボンガさん。<end>"
+EN: "Really? Thank you! That'll be a huge help, Bonga.<end>"
+KO: "정말!? 고마워. 살았어, 봉가 씨.<end>"
+
+## 280047
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おうよ。<end>"
+EN: "You bet.<end>"
+KO: "그럼.<end>"
+
+## 280048
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ボンガさんって…、<line-break>本当においしそうに食べますね。<end>"
+EN: "Bonga... you really look like you're enjoying that.<end>"
+KO: "…봉가 씨는… 정말 맛있게 드시네요.<end>"
+
+## 280049
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おうよ、<line-break>うちのかみさんのメシは天下一品だ。<line-break>　<line-break>お前らも嫁さんには<line-break>料理上手な娘をもらえよ。<end>"
+EN: "You bet. My wife's cooking is second to none. When you boys get married, make sure you choose girls who can cook.<end>"
+KO: "그래, 우리 마누라 음식은 최고지. 너희도 아내는 요리 잘하는 여자로 얻어라.<end>"
+
+## 280050
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あー<line-break>食った、食った。　<line-break><end>"
+EN: "Ah, I'm stuffed.<end>"
+KO: "아~ 잘 먹었다, 잘 먹었어.<end>"
+
+## 280051
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "すまんが、これを<line-break>かみさんに<line-break>持っていってくれ。<end>"
+EN: "Sorry to ask, but could you take this to my wife?<end>"
+KO: "미안하지만 이걸 아내에게 가져다줘.<end>"
+
+## 280052
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "じゃあ、<line-break>お仕事がんばってくださいね、<line-break>ボンガさん。<end>"
+EN: "Well then, good luck with your work, Bonga.<end>"
+KO: "그럼 일 열심히 하세요, 봉가 씨.<end>"
+
+## 280053
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ、<value:$28>。<line-break>宿屋のヴァンが<line-break>大変なことになったんだって？<end>"
+EN: "Ah, <value:$28>. Is it true Van at the inn is in serious trouble?<end>"
+KO: "아, <value:$28>. 여관의 반에게 큰일이 생겼다며?<end>"
+
+## 280054
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おう、遅かったじゃないか。<end>"
+EN: "Hey, what took you so long?<end>"
+KO: "어이, 늦었잖아.<end>"
+
+## 280055
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "お帰り。ご苦労さまだったね。<line-break>よさそうな木を選んでおいたよ。<end>"
+EN: "Welcome back. Thanks for all your hard work. I've picked out some good wood for you.<end>"
+KO: "어서 와. 수고했어. 좋아 보이는 나무를 골라 뒀어.<end>"
+
+## 280056
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "木こりの奥さんの見立てなら<line-break>間違いないね。<end>"
+EN: "When the woodcutter's wife picks something out, you know it'll be good.<end>"
+KO: "나무꾼 아내의 안목이라면 틀림없지.<end>"
+
+## 280057
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "なに言ってんだい。<end>"
+EN: "Oh, listen to you.<end>"
+KO: "무슨 소릴 하는 거야.<end>"
+
+## 280058
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンも手伝い、ありがとうよ。<end>"
+EN: "And thank you for helping, Van.<end>"
+KO: "반도 도와줘서 고마웠어.<end>"
+
+## 280059
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "まったく、<line-break>さんざんこき使ってくれたぜ。<end>"
+EN: "You sure worked me to the bone.<end>"
+KO: "정말이지, 실컷 부려 먹었군.<end>"
+
+## 280060
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ははは、ありがとう、ヴァン。<end>"
+EN: "Ha ha! Thanks, Van.<end>"
+KO: "하하하, 고마워, 반.<end>"
+
+## 280061
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ま、あの小屋は俺もよく行くし、<line-break>直らないと困るからな。<end>"
+EN: "Well, I use that cabin a lot too. I'd be in trouble if it didn't get fixed.<end>"
+KO: "뭐, 그 오두막은 나도 자주 가니까 안 고쳐지면 곤란하거든.<end>"
+
+## 280062
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "それなんだけど、<line-break>明日、ボンガさんが<line-break>直すの手伝ってくれるって！<end>"
+EN: "About that―Bonga said he'll help us fix it tomorrow!<end>"
+KO: "그건 말이지, 내일 봉가 아저씨가 고치는 걸 도와준대!<end>"
+
+## 280063
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふふっ、あの人なら<line-break>そう言うと思ったよ。　　　　　　　　<line-break>　<line-break>みんな、今日はうちに泊まっていきな。<line-break>夕飯にはごちそうを作ってあげるよ。<end>"
+EN: "Heh, I thought he'd say that. Why don't you all stay here tonight? I'll make you a feast for supper.<end>"
+KO: "후후, 그 사람이라면 그렇게 말할 줄 알았어. 다들 오늘은 우리 집에서 자고 가. 저녁엔 맛있는 걸 만들어 줄게.<end>"
+
+## 280064
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "お、俺もいいの？<end>"
+EN: "I-I can stay too?<end>"
+KO: "나, 나도 괜찮아?<end>"
+
+## 280065
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "夕飯の支度ができるまで<line-break>遊んできな。<line-break>あ、弁当箱は置いていきなよ。<end>"
+EN: "Go play until supper's ready. Oh, and leave the lunch box here.<end>"
+KO: "저녁 준비가 될 때까지 놀다 와. 아, 도시락통은 두고 가.<end>"
+
+## 280066
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "空の弁当箱をボンガ夫人に渡した。<end>"
+EN: "Gave the Empty Lunch Box to Mrs. Bonga.<end>"
+KO: "빈 도시락통을 봉가 부인에게 건넸다.<end>"
+
+## 280067
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "それじゃ、遊んでおいで。<line-break>はいこれ、少ないけど。<end>"
+EN: "Off you go, then. Here―it's not much.<end>"
+KO: "그럼 놀다 와. 자, 이거. 적지만.<end>"
+
+## 280068
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "なに言ってんだい。<line-break>当たり前だろう。<end>"
+EN: "What are you talking about? Of course you can.<end>"
+KO: "무슨 소리야. 당연하잖아.<end>"
+
+## 280069
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "やったぜ！<line-break>こづかいもらえるなんて、<line-break>なんか得した気分だな。<end>"
+EN: "All right! Getting spending money too makes me feel like I've come out ahead.<end>"
+KO: "해냈다! 용돈까지 받다니, 왠지 이득 본 기분이네.<end>"
+
+## 280070
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "うん。<line-break>それに夜はごちそうだなんて、<line-break>楽しみだね。<end>"
+EN: "Yeah. And we're having a feast tonight. I can't wait.<end>"
+KO: "응. 게다가 밤에는 진수성찬이라니 기대되네.<end>"
+
+## 280071
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "よっしゃ！<line-break>町の広場に行ってみようぜ！<line-break>イヤッホー！！<end>"
+EN: "All right! Let's go check out the town square! Yahoo!!<end>"
+KO: "좋았어! 마을 광장에 가 보자! 야호!!<end>"
+
+## 280072
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "こ、小僧～！！<line-break>この誇り高き俺様にぶつかっておいて<line-break>一言もなしか？<end>"
+EN: "Y-you brat! You run into someone as proud as me and don't even say a word?<end>"
+KO: "이, 이 꼬맹이~!! 이 자랑스러운 나님과 부딪치고도 한마디도 없느냐?<end>"
+
+## 280073
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんだよオッサン。　　　　<end>"
+EN: "What's your problem, old man?<end>"
+KO: "뭐야, 아저씨.<end>"
+
+## 280074
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "自分だけの道じゃねえだろ！<line-break>偉そうにしてんじゃねえ！<end>"
+EN: "You don't own the road! Stop acting so important!<end>"
+KO: "너 혼자 쓰는 길도 아니잖아! 잘난 척하지 마!<end>"
+
+## 280075
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "生意気な！<line-break>人として許せん！　　　　　　<line-break>　<line-break>俺様を敵に回すと<line-break>割に合わないことを思い知れ！<end>"
+EN: "Insolent brat! As a human being, I cannot forgive you! You'll learn that making an enemy of me doesn't pay!<end>"
+KO: "건방진! 인간으로서 용서할 수 없다! 나를 적으로 돌린 대가가 얼마나 큰지 깨닫게 해 주마!<end>"
+
+## 280076
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "こっ…の、小僧ども！<line-break>この俺様を２度も転ばせたな！　<line-break>　<line-break>貴様らなど、<line-break>俺様が編み出した伝説の必殺技で<line-break>こらしめてやる！<end>"
+EN: "Y-you brats! You've made me fall twice now! I'll teach you a lesson with the legendary finishing move of my own invention!<end>"
+KO: "이… 꼬맹이들! 이 몸을 두 번이나 넘어뜨렸겠다! 네놈들 따위 내가 만들어낸 전설의 필살기로 혼내주마!<end>"
+
+## 280077
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヘッ。<line-break>偉そうなこと言っておいてよ。<line-break>ザマぁねえな！！<end>"
+EN: "Hah. All that big talk, and look at you now! Pathetic!<end>"
+KO: "흥. 잘난 소리 해 놓고 꼴 좋군!!<end>"
+
+## 280078
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "小っ僧ぉぉぉ！<line-break>いい気になるなよぉぉぉお！！<end>"
+EN: "You little braaat! Don't get carried away!<end>"
+KO: "꼬맹이이이! 우쭐대지 마라아아아!!<end>"
+
+## 280079
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "食らえ！！<line-break>必殺！　無敵復活勇者槍！！<end>"
+EN: "Take this! Finishing Move: Invincible Revival Hero Spear!<end>"
+KO: "받아라!! 필살! 무적 부활 용사창!!<end>"
+
+## 280080
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "子供とて許されると思うな！<end>"
+EN: "Don't think I'll spare you just because you're a child!<end>"
+KO: "아이라고 봐줄 줄 아느냐!<end>"
+
+## 280081
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺様の燃える瞳は…<line-break>悪の火種を見逃さんっ！<end>"
+EN: "My blazing eyes... never miss a single spark of evil!<end>"
+KO: "나의 불타는 눈은… 악의 불씨를 놓치지 않는다!<end>"
+
+## 280082
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンは僕が看てる。<line-break><value:$28>は<line-break>道具屋で薬草を買ってきて。<end>"
+EN: "I'll look after Van. <value:$28>, go buy a Medicinal Herb at the item shop.<end>"
+KO: "반은 내가 돌볼게. <value:$28>는 도구점에서 약초를 사 와.<end>"
+
+## 280083
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああ、<value:$28>。<line-break>宿屋のヴァンが<line-break>大変なことになったんだって？<line-break>代金はいいから、<line-break>早くこの薬草を<line-break>持っていってやれ。<end>"
+EN: "Ah, <value:$28>. Is it true Van at the inn is in serious trouble? Don't worry about paying. Just hurry and take this Medicinal Herb to him.<end>"
+KO: "아, <value:$28>. 여관의 반이 큰일이라며? 돈은 됐으니 빨리 이 약초를 가져다줘.<end>"
+
+## 280084
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンちゃん、しっかりして。<line-break>あなたがいなくなったら…私…。<line-break>オイオイオイオイ。<end>"
+EN: "Van, hold on. If I lost you... I... Waaaaah!<end>"
+KO: "반, 정신 차려. 네가 없어지면… 나…. 으아아아앙.<end>"
+
+## 280085
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28><line-break>…薬草は？　　　<end>"
+EN: "<value:$28>... What about the Medicinal Herb?<end>"
+KO: "<value:$28>… 약초는?<end>"
+
+## 280086
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "うちのヴァンはな、<line-break>この宿屋の大切な跡継ぎなんだ。<line-break>お前たちみたいなノラ犬とは違うんだ！<end>"
+EN: "Our Van is the cherished heir to this inn. He's not some stray dog like you lot!<end>"
+KO: "우리 반은 말이야, 이 여관의 소중한 후계자야. 너희 같은 들개들과는 달라!<end>"
+
+## 280087
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…ああ。<line-break>お前たちと関わったばかりに　　　　　<line-break>ヴァンはこんな目に…。<line-break>出て行け！<line-break>そして二度とヴァンに近づくな！！<line-break>出て行け！<end>"
+EN: "This only happened to Van because he got mixed up with you... Get out! And never go near him again! Get out!<end>"
+KO: "…그래. 너희와 엮인 탓에 반이 이런 꼴을… 나가! 그리고 두 번 다시 반에게 가까이 오지 마!! 나가!<end>"
+
+## 280088
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…気にするな。<line-break>お前らのせいじゃない。　　　　　<line-break>　<end>"
+EN: "Don't worry about it. It wasn't your fault.<end>"
+KO: "…신경 쓰지 마. 너희 탓이 아니야.<end>"
+
+## 280089
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前らともめた<line-break>ガルドランって奴は<line-break>評判の悪い冒険者らしいぞ。　　　<line-break>あの騒ぎで<line-break>もう町を逃げちまったようだがな。<end>"
+EN: "That Girldlan fellow you tangled with is apparently an adventurer with a bad reputation. Seems he's already fled town after all that commotion, though.<end>"
+KO: "너희와 시비가 붙었던 갈드란이라는 녀석은 평판 나쁜 모험자라더군. 그 소동 뒤로는 마을에서 도망친 모양이야.<end>"
+
+## 280090
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ま、今日は疲れたろう。<line-break>納屋に干し草が積んである。<line-break>ふたりとも、そこで休むといい。　<end>"
+EN: "Well, you two must be tired after today. There's hay piled up in the barn. You can sleep there.<end>"
+KO: "뭐, 오늘은 피곤하겠지. 헛간에 건초가 쌓여 있다. 둘 다 거기서 쉬도록 해.<end>"
+
+## 280091
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "楽！　勝！<line-break>　<line-break>　<line-break>思い知ったか。<line-break>俺様と貴様らとでは、<line-break>熱くたぎる心が圧倒的に違うっ！<end>"
+EN: "Too easy! Now do you understand? My heart burns far hotter than yours!<end>"
+KO: "낙! 승! 깨달았느냐. 나와 네놈들은 뜨겁게 끓는 마음부터 압도적으로 다르다!<end>"
+
+## 280092
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ぐあ！　ごふ！<line-break>っくっ…！！<end>"
+EN: "Gah! Guh! Nngh...!<end>"
+KO: "크악! 콜록! 윽…!!<end>"
+
+## 280093
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "う、うう…。ヴァ…ン…。<end>"
+EN: "U-ugh... V... Van...<end>"
+KO: "으, 으으…. 반…아….<end>"
+
+## 280094
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おや、気がついたかい。<line-break>ひどい目にあったねえ。<end>"
+EN: "Oh, you're awake. That was quite an ordeal, wasn't it?<end>"
+KO: "어머, 정신이 들었니. 심하게 당했구나.<end>"
+
+## 280095
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、あの…、<line-break>ヴァン…は…？<end>"
+EN: "Um... where's Van...?<end>"
+KO: "아, 저기…, 반…은…?<end>"
+
+## 280096
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァン…、<line-break>ヴァンの所へ行ってみようよ。<end>"
+EN: "Van... Let's go see him.<end>"
+KO: "반… 반한테 가 보자.<end>"
+
+## 280097
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンちゃん…、しっかりするのよ。<line-break>かわいそうに、痛かったでしょうに…。<end>"
+EN: "Van... stay with me. Oh, you poor thing. That must have hurt...<end>"
+KO: "반아… 정신 차려. 불쌍하게, 많이 아팠겠지….<end>"
+
+## 280098
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…タチの悪い冒険者を相手にするから<line-break>こんな目に…。<line-break>全部、お前らのせいだ！<end>"
+EN: "This is what comes of dealing with vicious adventurers... It's all your fault!<end>"
+KO: "…질 나쁜 모험가를 상대하다가이런 꼴을…. 전부 너희 탓이야!<end>"
+
+## 280099
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "いいか！？<line-break>ヴァンは大事なうちの跡取り息子だ。<line-break>お前らみたいなノラ犬とは違うんだ！<line-break>うちのヴァンにつきまとうな！<line-break>出て行け！<line-break>さあ、もう帰ってくれ！<end>"
+EN: "Listen to me! Van is our precious son and the heir to this inn. He's not some stray dog like you lot! Stay away from him! Get out! Go on, leave us alone!<end>"
+KO: "잘 들어!? 반은 우리 집의 소중한 후계자 아들이야. 너희 같은 들개랑은 달라! 우리 반에게 들러붙지 마! 나가! 자, 이제 돌아가!<end>"
+
+## 280100
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おじさん、ヴァンは、<line-break>ヴァンは大丈夫なんですか？<end>"
+EN: "Mister, is Van... Is Van going to be all right?<end>"
+KO: "아저씨, 반은, 반은 괜찮은 건가요?<end>"
+
+## 280101
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "大丈夫に決まっている！<line-break>けられて熱を出しているだけだ！<line-break>縁起でもないことを言うな！<end>"
+EN: "Of course he is! He was kicked and has a fever, that's all! Don't talk like that!<end>"
+KO: "괜찮은 게 당연하지! 차여서 열이 난 것뿐이야! 재수 없는 소리 하지 마!<end>"
+
+## 280102
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "うあーーーっ！！<end>"
+EN: "Aaaagh!!<end>"
+KO: "으아ーーー앗!!<end>"
+
+## 280103
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ああーっ！　ヴァーーン！！<end>"
+EN: "Aah! Van!!<end>"
+KO: "아아악! 바아안!!<end>"
+
+## 280104
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "フン！　どうだ俺様の愛の槍は！？<line-break>貴様のような悪ガキにはいい薬だ！<end>"
+EN: "Hmph! How do you like my spear of love?! That'll teach a wicked brat like you!<end>"
+KO: "흥! 어떠냐, 이 몸의 사랑의 창은!? 너 같은 악동에겐 좋은 약이지!<end>"
+
+## 280105
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァン、ヴァン！<line-break>ごめんね、僕、動けなかった…。<line-break>僕らが、僕らがすぐに…。<end>"
+EN: "Van! Van! I'm sorry. I couldn't move... We... we'll... right away...<end>"
+KO: "반, 반! 미안해, 나 움직일 수가 없었어…. 우리가, 우리가 곧….<end>"
+
+## 280106
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕、先に行って<line-break>待ってるから！<end>"
+EN: "I'll go on ahead and wait for you!<end>"
+KO: "난 먼저 가서 기다릴게!<end>"
+
+## 280107
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…お前たちふたりとも、<line-break>ヴァンを見殺しにしたんだな！<end>"
+EN: "So the two of you just left Van to die!<end>"
+KO: "…너희 둘 다 반을 죽게 내버려 둔 거구나!<end>"
+
+## 280108
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "違うよ、おじさん！<line-break>僕たちは…<end>"
+EN: "No, mister! We...<end>"
+KO: "아니야, 아저씨! 우리는….<end>"
+
+## 280109
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "いつもはヴァンと友達ぶってるくせに、<line-break>いざってときは知らん顔か？<line-break>くっ…！<end>"
+EN: "You always act like Van's friends, but when it really matters, you look the other way? Damn it...!<end>"
+KO: "평소엔 반의 친구인 척하더니 정작 중요한 때엔 모른 척이냐? 큭…!<end>"
+
+## 280110
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "お前たちは友達なんかじゃあない！<line-break>出て行け！<line-break>二度とヴァンに近づくな！<end>"
+EN: "You're no friends of his! Get out! And never go near Van again!<end>"
+KO: "너희는 친구 같은 게 아니야! 나가! 두 번 다시 반에게 접근하지 마!<end>"
+
+## 280111
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…これだね。　　　　　<end>"
+EN: "...This is it.<end>"
+KO: "…이거네.<end>"
+
+## 280112
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…今日は、もう寝よう。<line-break>　<end>"
+EN: "...Let's call it a night.<end>"
+KO: "…오늘은 이제 자자.<end>"
+
+## 280113
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おはよう。<line-break>ずいぶん早い目覚めだね、<line-break><value:$28>。<line-break>…やっぱり<line-break>眠れなかったんだね…。<end>"
+EN: "Morning. You're up awfully early, <value:$28>. ...You couldn't sleep after all, could you?<end>"
+KO: "좋은 아침. 꽤 일찍 깼네, <value:$28>. …역시 잠을 못 잤구나….<end>"
+
+## 280114
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ねえ。<line-break>僕らでヴァンの仇を<line-break>とりに行こう。<line-break>僕らも冒険者になるんだ。<line-break>ガルドランって奴が冒険者なら<line-break>きっとどこかで会えるよ。<end>"
+EN: "Listen. Let's go avenge Van. We'll become adventurers too. If this Girldlan fellow is an adventurer, we're bound to run into him somewhere.<end>"
+KO: "있지. 우리끼리 반의 원수를 갚으러 가자. 우리도 모험자가 되는 거야. 갈드란이란 녀석이 모험자라면 분명 어디선가 만날 수 있어.<end>"
+
+## 280115
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…僕、<line-break>大切な友達を傷つけられて<line-break>何もできなかったなんて…。<line-break>…くやしいよ。<line-break>もうこんな思いはしたくない。<line-break>もっと強くならなきゃダメなんだ。<end>"
+EN: "...A dear friend of mine was hurt, and I couldn't do a thing. It's so frustrating. I never want to feel this way again. I have to get stronger.<end>"
+KO: "…나, 소중한 친구가 다쳤는데 아무것도 못 했다니… 분해. 다시는 이런 기분 느끼고 싶지 않아. 더 강해져야 해.<end>"
+
+## 280116
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "やっぱりそうか。<line-break>まったく、お前たちって奴は…。<end>"
+EN: "So I was right. Honestly, you lot...<end>"
+KO: "역시 그랬군. 정말이지, 너희들이란….<end>"
+
+## 280117
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…これを持っていけ。<line-break>うちにある物で<line-break>役に立ちそうなのはこれくらいだ。　<end>"
+EN: "...Take this with you. It's about the only thing we have that might be of some use.<end>"
+KO: "…이걸 가져가. 우리 집에 있는 것 중도움이 될 만한 건 이 정도야.<end>"
+
+## 280118
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "仇討ちなんてやめろって言いたいが…<line-break>どうせ、聞きゃあしねえんだろ？<line-break>　<end>"
+EN: "I'd tell you to forget this revenge business... but you wouldn't listen anyway, would you?<end>"
+KO: "복수 따윈 그만두라고 말하고 싶지만…어차피 들어먹지도 않겠지?<end>"
+
+## 280119
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ま、いずれわかるさ。<line-break>力は自分の中の<line-break>正しいことのためだけに使え。　　　<line-break>…今はそれだけを胸に刻んどけ。<line-break>　<line-break>　<end>"
+EN: "Well, you'll understand someday. Use your strength only for what you know is right. For now, just remember that.<end>"
+KO: "뭐, 언젠간 알게 되겠지. 힘은 네 안의 옳은 것을 위해서만 써라. 지금은 그것만 가슴에 새겨 둬.<end>"
+
+## 280120
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "小屋は私たちが<line-break>ピカピカにしとくからね。<line-break>胸を張って行ってきな。<end>"
+EN: "We'll have the cabin sparkling clean for you. Now go, and hold your head high.<end>"
+KO: "오두막은 우리가 반짝반짝하게 해 둘 테니까. 가슴 펴고 다녀와.<end>"
+
+## 280121
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "もしかしたら、<line-break>もう帰って来られないかもね…。<end>"
+EN: "Maybe we won't be able to come back...<end>"
+KO: "어쩌면 이제 돌아오지 못할지도 모르겠네….<end>"
+
+## 280122
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "そうだね、行こうか。<end>"
+EN: "Yeah. Let's go.<end>"
+KO: "그래, 가자.<end>"
+
+## 280123
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァン！　危ない！！<end>"
+EN: "Van! Look out!!<end>"
+KO: "반! 위험해!!<end>"
+
+## 280124
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ナッジ！　どうする？<end>"
+EN: "Nadge! What now?<end>"
+KO: "나지! 어떻게 할래?<end>"
+
+## 280125
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし、行こう！<end>"
+EN: "All right, let's go!<end>"
+KO: "좋아, 가자!<end>"
+
+## 280126
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "気が進まないな…<end>"
+EN: "I don't really feel like it...<end>"
+KO: "내키지 않는데…<end>"
+
+## 280127
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "（…ボンガさんのとこに行って、<line-break>　ボンガさんに、いったい<line-break>　なんて言えばいいんだ…？　）<end>"
+EN: "(...When I get to Bonga's place, what am I supposed to say to him...?)<end>"
+KO: "(…본가 씨에게 가서 대체 뭐라고 말해야 하지…?)<end>"
+
+## 280128
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "（…とにかく<line-break>　まず、ヴァンの所に<line-break>　行かなきゃ…。　　　）<end>"
+EN: "(...Anyway, I have to get to Van first...)<end>"
+KO: "(…아무튼 우선 반에게 가야 해….)<end>"
+
+## 280129
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、ねえ。<line-break>大きな街の方が<line-break>情報が手に入ると思うんだ。<line-break>エンシャントに行こうよ。<line-break>帝国の首都だもの。<line-break>きっとガルドランの行方がわかるよ。<end>"
+EN: "Oh, hey. I think we'd have a better chance of finding information in a big city. Let's go to Ancient. It's the imperial capital, so I'm sure we'll find out where Girldlan is.<end>"
+KO: "아, 있지. 큰 도시 쪽이 정보를 얻기 좋을 것 같아. 엔샨트로 가자. 제국의 수도잖아. 분명 갈드란의 행방을 알 수 있을 거야.<end>"
+
+## 280130
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<if><value:$01><equal>5ヴァンのメッセージです。<end><if><value:$01><equal>15ナッジのメッセージでーす。<end><if><value:$01><equal>16ネメアのメッセージです。<end><if><value:$01><equal>12ゼネテスのメッセージです。<end>それ以外のメッセージです。<end>"
+EN: ""
+KO: "<if><value:$01><equal>5반의 메시지입니다.<end><if><value:$01><equal>15나지의 메시지예요.<end><if><value:$01><equal>16네메아의 메시지입니다.<end><if><value:$01><equal>12제네테스의 메시지입니다.<end>그 외의 메시지입니다.<end>"
+
+## 280131
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あぁっ、待ってよ、ヴァン。<line-break>もう！<end>"
+EN: "Hey, wait up, Van! Come on!<end>"
+KO: "아앗, 기다려, 반. 정말!<end>"
+
+## 280132
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "僕はヴァンを追いかけて<line-break>先に行くから、<line-break><value:$28>もすぐ来てね。<end>"
+EN: "I'm going on ahead to catch up with Van, so hurry after us, <value:$28>, okay?<end>"
+KO: "난 반을 쫓아 먼저 갈 테니까 <value:$28>도 바로 와.<end>"
+
+## 280133
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、<value:$28>。<line-break>ボンガさんの家はこっちだよ。<end>"
+EN: "Oh, <value:$28>. Bonga's house is this way.<end>"
+KO: "아, <value:$28>. 봉가 씨 집은 이쪽이야.<end>"
+
+## 280134
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、何やってんだよ！<line-break>こっちだよ、こっち。<line-break>早く来いよ！<end>"
+EN: "<value:$28>, what are you doing? Over here! This way! Hurry up!<end>"
+KO: "<value:$28>, 뭐 하는 거야! 이쪽이야, 이쪽. 빨리 와!<end>"
+
+## 280135
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "じゃ、行こう、<value:$28>。<end>"
+EN: "Come on, <value:$28>. Let's go.<end>"
+KO: "그럼 가자, <value:$28>.<end>"
+
+## 280136
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "裏山の道には<line-break>モンスターが出るからね。<line-break>一緒に力を合わせて行こう。<end>"
+EN: "There are monsters on the path up the hill, so let's stick together and help each other.<end>"
+KO: "뒷산 길에는 몬스터가 나오니까. 함께 힘을 합쳐 가자.<end>"
+
+## 280137
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、ねえ、<value:$28>。<line-break>ボンガさんがいる裏山は<line-break>奥だよ。<end>"
+EN: "Oh, hey, <value:$28>. Bonga is farther into the hills.<end>"
+KO: "아, 있지, <value:$28>. 봉가 씨가 있는 뒷산은 더 안쪽이야.<end>"
+
+## 280138
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "特大愛妻弁当をボンガに手渡した。<end>"
+EN: "Handed the Extra-Large Wife-Made Bento to Bonga.<end>"
+KO: "특대 사랑꾼 도시락을 봉가에게 건넸다.<end>"
+
+## 280139
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3かみさんのとこに<line-break>弁当箱を持ってってくれ。<line-break>悪いな。<end>俺が手伝えば、<line-break>お前らだけでやるより<line-break>いくらかマシになるだろう？<end>あー、食った食った。<line-break>やっぱ、ウチのかみさんのメシは<line-break>最高だな。<end>"
+EN: "<select><value:$20>%3Take the lunch box to my wife for me, will you? Sorry to trouble you.<end>It'll go a little better with my help than if you do it by yourselves, won't it?<end>Ah, that hit the spot. Nothing beats my wife's cooking.<end>"
+KO: "<select><value:$20>%3마누라한테 도시락통 좀 갖다 줘. 미안하군.<end>내가 도우면 너희끼리 하는 것보단 좀 낫겠지?<end>아, 잘 먹었다. 역시 우리 마누라 밥이 최고야.<end>"
+
+## 280140
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、ヴァン、待ってよ！<line-break>…もう。<end>"
+EN: "Oh, Van, wait up! ...Honestly.<end>"
+KO: "아, 반, 기다려! …정말.<end>"
+
+## 280141
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ねえ、僕らも広場に行こう。<line-break>あの調子じゃ、<line-break>ヴァンが何やらかすか心配だよ。<end>"
+EN: "Come on, let's go to the square too. The way Van's carrying on, I'm worried about what he might get up to.<end>"
+KO: "있지, 우리도 광장에 가자. 저 상태라면 반이 무슨 일을 벌일지 걱정돼.<end>"
+
+## 280142
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3夕飯はまだだよ。<line-break>広場でも行って遊んできな。<end>いくら、私の料理が<line-break>楽しみだからって、<line-break>そう、せっつくもんじゃないよ。<end>ナッジやヴァンはどうしたい？<line-break>お前たちは、３人いつも一緒だろ？<line-break>ほらほら、遊んでおいで。<end>"
+EN: "<select><value:$20>%3Dinner isn't ready yet. Go play in the square.<end>I know you're looking forward to my cooking, but there's no need to pester me.<end>What do Nadge and Van want to do? You three are always together, aren't you? Go on, run along and play.<end>"
+KO: "<select><value:$20>%3저녁은 아직이야. 광장에라도 가서 놀다 와.<end>내 요리가 그렇게 기대된다고 너무 재촉하는 거 아니야.<end>나지랑 반은 어떻게 하고 싶대? 너희 셋은 늘 함께잖아. 자자, 가서 놀고 와.<end>"
+
+## 280143
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3おう、<line-break>弁当箱を届けてくれたかい。<line-break>ありがとよ。<end>オラオラ、<line-break>ヒマなんだったら、<line-break>広場でも行って遊んできな。　　<line-break>いつも、ヴァンやナッジと３人、<line-break>そうしてるじゃないか。<end>うちのかみさんの料理は<line-break>うまいぞ～。<line-break>期待してろよ、小僧。<end>"
+EN: "<select><value:$20>%3Oh, you delivered the lunch box? Thanks.<end>Go on, if you've got nothing to do, run along and play in the square. That's what you, Van, and Nadge always do, isn't it?<end>My wife's a fine cook. You've got something to look forward to, boy.<end>"
+KO: "<select><value:$20>%3오, 도시락통을 전해 줬구나. 고맙다.<end>어이, 한가하면 광장에라도 가서 놀고 와. 늘 반이나 나지와 셋이서 그렇게 하잖아.<end>우리 마누라 요리는 맛있다고~. 기대해라, 꼬맹이.<end>"
+
+## 280144
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァン！<end>"
+EN: "Van!<end>"
+KO: "반!<end>"
+
+## 280145
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "う…う…。<end>"
+EN: "Nngh... nngh...<end>"
+KO: "으…으….<end>"
+
+## 280146
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "早く道具屋へ行って<line-break>薬草を買ってきてよ…。<line-break>ねえ、お願いだよ…。<end>"
+EN: "Hurry to the item shop and buy some Medicinal Herb... Please, I'm begging you...<end>"
+KO: "빨리 도구점에 가서 약초를 사 와…. 응, 부탁이야….<end>"
+
+## 280147
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンは宿屋だ。<line-break>早く行ってやれ。<end>"
+EN: "Van's at the inn. Hurry and get to him.<end>"
+KO: "반은 여관에 있다. 어서 가 봐.<end>"
+
+## 280148
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ヴァンだったら、<line-break>知らせを聞いた宿屋のご亭主が<line-break>宿屋に運んでいったわよ。<end>"
+EN: "Van? The innkeeper heard the news and took him to the inn.<end>"
+KO: "반이라면 소식을 들은 여관 주인이 여관으로 데려갔어.<end>"
+
+## 280150
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "薬草だと！？<line-break>お前たちの薬草など<line-break>いらん！！<end>"
+EN: "Medicinal Herb?! I don't need your Medicinal Herb!<end>"
+KO: "약초라고!? 너희 약초 따위 필요 없다!!<end>"
+
+## 280151
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "善意の薬草は<line-break>ヴァンの父に踏みにじられた。<end>"
+EN: "The Goodwill Herb was trampled by Van's Father.<end>"
+KO: "선의로 준 약초는 반의 아버지에게 짓밟혔다.<end>"
+
+## 280152
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんだ！？<line-break>他人の子に大ケガさせておいて<line-break>その目は！？<end>"
+EN: "What's that look for?! You seriously injured someone else's child!<end>"
+KO: "뭐야!? 남의 아이를 크게 다치게 해 놓고 그 눈빛은!?<end>"
+
+## 280153
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "やめるんだ、<line-break><value:$28>！<end>"
+EN: "Stop, <value:$28>!<end>"
+KO: "그만둬, <value:$28>!<end>"
+
+## 280154
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ちっ。<line-break>まったく、これだから…<end>"
+EN: "Tch. This is exactly why...<end>"
+KO: "쳇. 정말, 이래서야….<end>"
+
+## 280155
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あんたもだ、宿屋のダンナ。<line-break>そのくらいにしておくんだな。<end>"
+EN: "That goes for you too, innkeeper. You've said enough.<end>"
+KO: "당신도 그래, 여관 주인. 그 정도로 해 둬.<end>"
+
+## 280156
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "さ、小僧ども、うちに来い。<end>"
+EN: "Come on, you brats. Come to my place.<end>"
+KO: "자, 꼬맹이들아, 우리 집으로 와.<end>"
+
+## 280158
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "寝ろ。<line-break>明日になれば、騒ぎも収まる。<line-break>今日は寝ちまえ。<end>"
+EN: "Go to sleep. By tomorrow, things will have calmed down. Just get some sleep tonight.<end>"
+KO: "자. 내일이면 소동도 가라앉을 거야. 오늘은 그냥 자.<end>"
+
+## 280159
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3きゃぴっ！　<value:$28>！<line-break>また、おもしろいことしてあそぼーね！<line-break>えひひひひっ！<end>こないだ、ヴァンとやったイタズラ、<line-break>おっもしろかったよねー！<line-break>えっへへへー！<end>お兄ちゃんたちとイタズラするの、<line-break>弟を泣かせる次くらいに<line-break>おもしろいよ！<end>"
+EN: "<select><value:$20>%3Eee! <value:$28>! Let's do something fun again sometime! Hee-hee-hee!<end>That prank we played with Van the other day was so much fun! Hee-hee-hee!<end>Playing pranks with the older boys is almost as much fun as making my little brother cry!<end>"
+KO: "<select><value:$20>%3캬핫! <value:$28>! 또 재밌는 거 하면서 놀자! 에히히히힛!<end>지난번에 반이랑 했던 장난, 진짜 재밌었지! 에헤헤헤!<end>오빠들이랑 장난치는 건 남동생 울리는 것 다음으로 재밌어!<end>"
+
+## 280160
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3おねえちゃんに、<line-break>へんなちえつけないでよ！<line-break>ぼくがひどいめにあうんだから！<end>おねえちゃんが<line-break>どんどんキョーボーになるの、<line-break><value:$28>たちのせいだからね！<end>えーん、えーん！<line-break>おねえちゃんがヴァンのマネして<line-break>ぼくをいじめるよお！<end>"
+EN: "<select><value:$20>%3Stop putting weird ideas in my sister's head! I'm the one who suffers for it!<end><value:$28>, you and the others are why my sister keeps getting more and more vicious!<end>Waaah! My sister's copying Van and picking on me!<end>"
+KO: "<select><value:$20>%3누나한테 이상한 지혜를 가르치지 마! 내가 고생한단 말이야!<end>누나가 점점 난폭해지는 건 <value:$28>들 탓이야!<end>으앙, 으앙! 누나가 반 흉내를 내면서 나를 괴롭혀!<end>"
+
+## 280161
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3お前もナッジも孤児だ。<line-break>だからまあ、気に入らないことも<line-break>多いんだろう。<line-break>お前たちが厄介なことをするのも<line-break>お前たちが悪いんじゃない。<line-break>うんうん、私にはわかってるよ。<end>お前もナッジも孤児だ。<line-break>だからまあ、気に入らないことも　　<line-break>多いんだろう。<line-break>しかも、ナッジときた日には、<line-break>人間じゃない、コーンスだ。<line-break>素直になれんのも仕方ないか。<end>しょうがないのかもしれんが、<line-break>そんなに神官様や宿屋のご亭主に<line-break>反発しなくてもいいんじゃないかね？<line-break>奥に住んでるボンガ夫婦にしか<line-break>心を開かないんじゃ、<line-break>よくないよ。<end>"
+EN: "<select><value:$20>%3You and Nadge are both orphans. I suppose there must be plenty you're unhappy about. It isn't your fault that the two of you keep causing trouble. Yes, yes, I understand.<end>You and Nadge are both orphans. I suppose there must be plenty you're unhappy about. And Nadge isn't even human―he's a Konsu. I suppose it's only natural that he can't be more open about things.<end>Maybe it can't be helped, but do you really need to defy the priest and the innkeeper at every turn? It isn't good to shut everyone out except Bonga and his wife, off at the far end of town.<end>"
+KO: "<select><value:$20>%3너도 나지도 고아지. 그러니 마음에 안 드는 일도 많겠지. 너희가 골칫거리를 일으키는 것도 너희가 나빠서 그런 게 아니야. 그래그래, 난 알아.<end>너도 나지도 고아지. 그러니 마음에 안 드는 일도 많겠지. 게다가 나지는 인간도 아닌 콘스야. 솔직해지지 못하는 것도 어쩔 수 없나.<end>어쩔 수 없는 일일지 몰라도 그렇게 신관님이나 여관 주인에게 반발할 필요가 있을까? 안쪽에 사는 봉가 부부에게만 마음을 여는 건 좋지 않아.<end>"
+
+## 280162
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%4教会で食い物をくすねてたの、<line-break>神官様はあんたらだって言ってたけど、<line-break>あれ、ピクシーの仕業だったんだろ？<line-break>あたしゃ知ってるよ。<line-break>あんたらがそのピクシーを<line-break>街から追い出してくれたってことをさ。<end>教会で食い物をくすねてたの、<line-break>神官様はあんたらだって言ってたけど、　<line-break>あれ、ピクシーの仕業だったんだろ？<line-break>なんで、ちゃんと言いわけしないかねえ。<line-break>そんなんだから、<line-break>厄介者あつかいされるのさ。<end>あたしゃ知ってるよ。<line-break>あんたはちゃんとした子だって。<line-break>ちゃんと街で暮らせばいいのに。　　<line-break>一緒にいるコーンスの子は<line-break>ムリかもしれないけど、<line-break>あんたはちゃんとした人間なんだし。<end>あたしゃ知ってるよ。<line-break>宿屋で女魔道士の着替えのぞいてたの　　<line-break>あんたらじゃないんだろ？<line-break>なんで、ちゃんと言いわけしないかねえ。<line-break>そんなんだから、<line-break>厄介者あつかいされるのさ。<end>"
+EN: "<select><value:$20>%4The priest said you lot were stealing food from the church, but it was that Pixie, wasn't it? I know what really happened. You chased the Pixie out of town for us.<end>The priest said you lot were stealing food from the church, but it was that Pixie, wasn't it? Why didn't you just explain yourselves properly? No wonder everyone treats you like troublemakers.<end>I know you're a good kid. You ought to settle down and live here properly. The Konsu child with you might not be able to, but you're a proper human being.<end>I know it wasn't you lot peeping at the sorceress while she was changing at the inn. Why didn't you just explain yourselves properly? No wonder everyone treats you like troublemakers.<end>"
+KO: "<select><value:$20>%4교회에서 음식을 훔친 걸 신관님은 너희 짓이라고 했지만, 그거 픽시가 한 짓이었지? 난 알고 있어. 너희가 그 픽시를 마을에서 쫓아냈다는 걸.<end>교회에서 음식을 훔친 걸 신관님은 너희 짓이라고 했지만, 그거 픽시가 한 짓이었지? 왜 제대로 해명하지 않는 거니. 그러니까 말썽꾸러기 취급을 받는 거야.<end>난 알고 있어. 넌 제대로 된 아이라는 걸. 그냥 마을에서 살면 좋을 텐데. 같이 있는 콘스 아이는 무리일지 몰라도 넌 제대로 된 인간이잖아.<end>난 알고 있어. 여관에서 여자 마도사의 옷 갈아입는 걸 엿본 게 너희가 아니었지? 왜 제대로 해명하지 않는 거니. 그러니까 말썽꾸러기 취급을 받는 거야.<end>"
+
+## 280163
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3ねえねえ、知ってる？<line-break>おかしなかっこうした<line-break>冒険者がこのテラネに来てさ。　<line-break>俺様は未来の勇者だとか言って。<line-break>なんか目つきが恐いのよ。<line-break>いやねえ、ああいう手合いは。<end>ねえねえ、知ってる？<line-break>昨日の地震のこと、<line-break>いやー、びっくりしたわねえ！　<line-break>大きな獣のほえ声みたいでさ！<line-break>この大陸中が震えたって言うよ！<line-break>すごいわねえ。<end>悪ガキ３人組の残りふたりなら、<line-break>街の奥のボンガの家の方に行ったわよ。<line-break>こっちじゃ、逆方向よ。<end>"
+EN: "<select><value:$20>%3Hey, have you heard? Some adventurer in a ridiculous outfit has come to Terane, going around calling himself a future hero. There's something frightening about the look in his eyes. I can't stand that sort.<end>Hey, have you heard about yesterday's earthquake? Oh, it gave me such a fright! It sounded like some enormous beast roaring! They say the whole continent shook. Can you imagine?<end>If you're looking for the other two in that trio of little troublemakers, they went toward Bonga's house at the far end of town. You're going the wrong way.<end>"
+KO: "<select><value:$20>%3있잖아, 알고 있어? 이상한 차림의 모험자가 이 테라네에 와서는 자기가 미래의 용사라느니 뭐라느니. 눈빛도 무섭더라. 정말 싫어, 그런 부류는.<end>있잖아, 알고 있어? 어제 지진 말이야. 이야, 정말 놀랐지! 큰 짐승이 포효하는 것 같더라! 이 대륙 전체가 흔들렸다잖아! 대단하지.<end>악동 삼인조의 나머지 둘이라면 마을 안쪽 봉가네 집 쪽으로 갔어. 여긴 반대 방향이야.<end>"
+
+## 280164
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ちっ、ヒヨッコ冒険者とのケンカか！<line-break>また、やっかいをしてのけたな。<line-break><value:$28>よ。<line-break>…ったく、また、宿屋のオヤジに、<line-break>冒険者に武器を売るからだとか<line-break>怒鳴られちまうぜ。<end>"
+EN: "Tch! A fight with some greenhorn adventurer? You've gone and caused trouble again, <value:$28>. Damn it, now the innkeeper's going to start shouting at me again for selling weapons to adventurers.<end>"
+KO: "쳇, 풋내기 모험가와 싸움이라니! 또 사고를 쳤구나, <value:$28>. …정말이지, 또 여관 주인한테 모험가에게 무기를 파니까 그렇다며 욕먹겠어.<end>"
+
+## 280165
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3…どんな意味においても、<line-break>気にかけてくれる人や<line-break>帰るべき家があるということは幸せだ。<line-break>わかったようなことを言う<line-break>大人は気に入らないという目だな、<line-break>少年。<end>昨日の大地震が<line-break>私の見当どおりのものだとすれば、<line-break>今日、運命が動き出す者がいるはずだ。<line-break>大人はいつもわかったようなことを言う<line-break>…そう言いたげな顔だな、<line-break>少年。<end>この町の宿屋の亭主が言うように<line-break>私たち冒険者は<line-break>しょせんは根なし草かもしれんな。<end>"
+EN: "<select><value:$20>%3By any measure, it's a blessing to have someone who cares about you and a home to return to. You have the look of a boy who doesn't care for adults talking as though they know everything.<end>If yesterday's great earthquake was what I suspect, then someone's destiny should be set in motion today. Adults always talk as though they know everything... That's what your face says, boy.<end>Perhaps the innkeeper in this town is right. In the end, we adventurers may be nothing more than rootless wanderers.<end>"
+KO: "<select><value:$20>%3…어떤 의미에서든 신경 써 주는 사람과 돌아갈 집이 있다는 건 행복한 일이지. 다 안다는 듯 말하는 어른이 마음에 들지 않는다는 눈빛이군, 소년.<end>어제의 대지진이 내 예상대로라면 오늘 운명이 움직이기 시작하는 자가 있을 거다. 어른들은 늘 다 안다는 듯 말해… 그렇게 말하고 싶은 얼굴이군, 소년.<end>이 마을 여관 주인이 말하듯 우리 모험자는 결국 뿌리 없는 풀 같은 존재일지도 모르겠군.<end>"
+
+## 280166
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ケンカか…。<end>"
+EN: "A fight, eh...<end>"
+KO: "싸움인가….<end>"
+
+## 280167
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "…あの宿屋のバカ息子の友達ね。<line-break>　<line-break>　<line-break>あのヴァンって子に<line-break>言ってちょうだい！<line-break>着替えをのぞかないでって！<end>"
+EN: "...So you're friends with the idiot son from that inn, are you? Tell that Van boy not to peek while I'm changing!<end>"
+KO: "…저 여관집 바보 아들의 친구구나. 반이라는 애한테 전해 줘! 옷 갈아입는 걸 엿보지 말라고!<end>"
+
+## 280168
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "宿屋のあの子が<line-break>冒険者に<line-break>ケガをさせられたんですってね。　<line-break>ひどい目にあったわね。<line-break>冒険者が<line-break>あんな人ばかりだと思わないでね。<end>"
+EN: "I heard the boy from the inn was injured by an adventurer. That must have been awful. Please don't think all adventurers are like that.<end>"
+KO: "여관의 그 아이가 모험자에게 다쳤다면서. 정말 끔찍한 일을 겪었네. 모험자가 다 그런 사람들뿐이라고 생각하진 마.<end>"
+
+## 280169
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おいおい、またもめ事かよ！<line-break>しかも、今度は相手が冒険者だって？<line-break>かんべんしてくれよ！<line-break>これで、また<line-break>宿屋のおやじさんや神官様の<line-break>ギルドへの風当たりが強くなる！<end>"
+EN: "Oh, come on―not more trouble! And this time the other side is an adventurer? Give me a break! Now the innkeeper and the priest will come down even harder on the Guild!<end>"
+KO: "이봐 이봐, 또 싸움이야!? 게다가 이번엔 상대가 모험자라고? 제발 좀 봐줘! 이러면 여관 주인이나 신관님이 길드를 보는 눈이 또 나빠지잖아!<end>"
+
+## 280170
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3ひっ！<line-break>すいません！　すいません！<line-break>もう、のぞきはしねえよ！<line-break>だから、このことは<line-break>どうか内密に…！<end>おうっ若造！　ムリするなよ！<line-break>名を売る前に死んじまっちゃあ<line-break>意味がねえからな！<line-break>…って、あ、あのときの！<line-break>へ、へへ…。<line-break>黙っててくれてて助かるよ。<end>に、にらむなよ…。<end>"
+EN: "<select><value:$20>%3Eek! Sorry! I'm sorry! I won't peep again! So please, keep this between us...!<end>Hey, youngster! Don't push yourself too hard! No point dying before you've made a name for yourself! W-wait, you're the one from before! H-heh... Thanks for keeping quiet about it.<end>D-don't glare at me...<end>"
+KO: "<select><value:$20>%3히익! 죄송합니다! 죄송합니다! 이제 엿보지 않을게요! 그러니 이 일은 부디 비밀로…!<end>오, 젊은이! 무리하지 마! 이름을 날리기도 전에 죽어 버리면 아무 소용 없으니까! …어, 어라, 그때 그! 헤, 헤헤…. 입 다물어 줘서 살았어.<end>노, 노려보지 마….<end>"
+
+## 280171
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おいっ、ここはギルドだぞ！<line-break>こんな所で何してんだ！<line-break>大変なんだろ！<end>"
+EN: "Hey, this is the Guild! What are you doing in a place like this? Aren't you in serious trouble?<end>"
+KO: "이봐, 여긴 길드야! 이런 데서 뭐 하는 거야! 큰일이라며!<end>"
+
+## 280172
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3あんたの連れの男の子…<line-break>あの額の角はコーンスだね？　　　　<line-break>…いや、めずらしい。<line-break>コーンスは魔法が得意な種族なんだ。<line-break>きっとあんたの連れの子も<line-break>魔法が使えるだろう。<end>この町の有力者たちは<line-break>とかく、やっかいごとが嫌いらしいな。<line-break>もめごとの原因になるよそ者もな。<line-break>冒険者へのあつかいが冷たいよ。<line-break>冒険者の王とも言うべきネメアが解放した<line-break>ディンガル帝国領とは思えないほどだ。<end>この町、テラネは<line-break>ディンガル帝国の北部にある　<line-break>小さな町だ。<line-break>ディンガル帝国は魔王バロルに<line-break>支配されていたのだが、<line-break>勇者ネメアに解放されたのだ。<end>"
+EN: "<select><value:$20>%3That boy traveling with you... The horn on his forehead means he's one of the Konsu, doesn't it? Now that's a rare sight. The Konsu are a race with a gift for magic. I'm sure the boy with you can use magic too.<end>It seems the powerful people in this town want nothing to do with trouble―or with outsiders who might cause it. Adventurers get a cold reception here. You'd hardly think this was Dyneskal Empire territory liberated by Nemea, a man who might well be called the king of adventurers.<end>Terane is a small town in the north of the Dyneskal Empire. The empire was once ruled by Balor, Demon King, until it was liberated by the Hero Nemea.<end>"
+KO: "<select><value:$20>%3당신 일행의 남자아이… 이마의 뿔은 콘스족이지? …아니, 보기 드문데. 콘스족은 마법에 능한 종족이야. 분명 그 아이도 마법을 쓸 수 있겠지.<end>이 마을의 유력자들은 어지간히 골칫거리를 싫어하나 봐. 분쟁의 원인이 되는 외지인도 그렇고. 모험자를 대하는 태도가 차가워. 모험자의 왕이라 할 만한 네메아가 해방한 딩갈 제국령이라고는 믿기 어려울 정도야.<end>이 마을 테라네는 딩갈 제국 북부에 있는 작은 마을이야. 딩갈 제국은 마왕 발로르에게 지배당했지만 용자 네메아에게 해방됐지.<end>"
+
+## 280173
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "やれやれ、<line-break>大変なことになったものだ…。<end>"
+EN: "Good grief. What a mess this has become...<end>"
+KO: "이런, 큰일이 벌어졌군….<end>"
+
+## 280174
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "こら！　お前たちだな！<line-break>聖水の盆にゼノプスのオタマジャクシを<line-break>３匹も入れたのは！<end>"
+EN: "Hey! It was you, wasn't it? You're the ones who put three Xenopus tadpoles in the holy-water basin!<end>"
+KO: "이봐! 너희들이지! 성수 대야에 제노프스 올챙이를 세 마리나 넣은 게!<end>"
+
+## 280175
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3いいや、入れたのは５匹だと！？<line-break>数が問題じゃないんだ！<line-break>数が！！<end>お前じゃなくてヴァンの仕業だと？<line-break>ヴァンのお父さんは<line-break>そんなことは絶対ないと言っていたぞ！<end>神も恐れぬばちあたりどもが！<line-break>いつか、ロクでもないことになるに<line-break>決まっている！<end>"
+EN: "<select><value:$20>%3What? You put in five, not three?! That's not the point! The number isn't the issue!<end>You're saying Van did it, not you? Van's father said he'd never do such a thing!<end>Godless little blasphemers! Mark my words, you'll come to a bad end one day!<end>"
+KO: "<select><value:$20>%3아니, 넣은 게 다섯 마리라고!? 숫자가 문제가 아니야! 숫자가!!<end>네가 아니라 반의 짓이라고? 반의 아버지는 절대 그럴 리 없다고 했다!<end>신도 두려워하지 않는 벌 받을 녀석들! 언젠가 반드시 큰일이 날 거다!<end>"
+
+## 280176
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "やはりロクでもないことを　　<line-break>してくれたな！！<line-break>このばちあたりどもが！<line-break>おお、天空神ノトゥーンよ、<line-break>戒めと裁きの神ノトゥーンよ、<line-break>罪深き少年たちに罰を…。<end>"
+EN: "Just as I thought―you've gone and done something terrible! You impious wretches! O Notun, Sky God, Notun, God of Admonition and Judgment, punish these sinful boys...<end>"
+KO: "역시 못된 짓을 해 줬구나!! 이 천벌 받을 것들아! 오, 천공신 노툰이여, 계율과 심판의 신 노툰이여, 죄 많은 소년들에게 벌을….<end>"
+
+## 280177
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3おい、イタズラもほどほどにしろよ。<line-break>それでなくてもここの神官は<line-break>ガミガミ屋なんだからさ。<end>あんまり神官様を刺激するなよ。<line-break>昨日の大地震でいろいろ壊れて、<line-break>おかんむりなんだからさ。<end>ヴァンがあれほど悪さしてても、<line-break>ヴァンのご両親は気づかないんだからな。<line-break>親バカってホントこわいよ。<end>"
+EN: "<select><value:$20>%3Hey, don't take your pranks too far. The priest here is enough of a scold as it is.<end>Try not to provoke the priest. A lot of things were damaged in yesterday's earthquake, and he's already furious.<end>Van gets up to all that mischief, and his parents still don't notice. Doting parents really are frightening.<end>"
+KO: "<select><value:$20>%3야, 장난도 적당히 해. 안 그래도 여기 신관은 잔소리가 심하다고.<end>신관님을 너무 자극하지 마. 어제 대지진으로 이것저것 부서져서 잔뜩 화가 나 있으니까.<end>반이 그렇게 말썽을 부리는데도 부모님은 모르고 계시다니. 자식 바보도 참 무섭다니까.<end>"
+
+## 280178
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "困ったことになったな…。<line-break>よりによって宿屋のヴァンが<line-break>ケガさせられるだなんて…。<end>"
+EN: "This is bad... Of all people, Van from the inn had to be the one who was hurt...<end>"
+KO: "곤란하게 됐군…. 하필 여관의 반이 다치다니….<end>"
+
+## 280179
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%2君と一緒に住んでる彼、<line-break>額に角がついていたね。<line-break>コーンスなんだね？　　　　　　　　<line-break>コーンスは魔法が得意な種族なんだが<line-break>最近、数が減ってきていてね。<line-break>世界を巡礼してても見なくなったよ。<end>この大陸、バイアシオンは<line-break>神話の大陸と呼ばれるほど<line-break>神々の足跡が残されているんだ。<line-break>私はその神々の足跡を訪ねて<line-break>世界中をまわる巡礼船長だ。<line-break>ハハハハ！<end>"
+EN: "<select><value:$20>%2That fellow you live with had a horn on his forehead. He's one of the Konsu, isn't he? The Konsu are a race with a gift for magic, but their numbers have been dwindling lately. Even on my pilgrimages around the world, I hardly see them anymore.<end>So many traces of the gods remain here that this continent, Vyashion, is known as the Continent of Myth. I am a Pilgrim Captain, traveling the world in search of those traces. Ha ha ha ha!<end>"
+KO: "<select><value:$20>%2너와 함께 사는 그 남자아이, 이마에 뿔이 있었지. 콘스인가? 콘스는 마법에 능한 종족인데 요즘 수가 줄어서 세계를 순례하면서도 보기 힘들어졌어.<end>이 대륙 바이아시온은 신화의 대륙이라 불릴 만큼 신들의 흔적이 남아 있어. 나는 그 신들의 발자취를 찾아 세계를 도는 순례선장이지. 하하하하!<end>"
+
+## 280180
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんだ、なんだ？<line-break>いったい何があったんだね？<end>"
+EN: "What's this? What in the world happened?<end>"
+KO: "뭐야, 뭐야? 대체 무슨 일이 있었던 거지?<end>"
+
+## 280181
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3………………。　　　　<line-break>　<line-break>　<line-break>…背中に何も<line-break>入れてないでしょうね？<end>昨日の地震…。<line-break>胸騒ぎがするわ…。<line-break>いったい、なんだったのかしら…。　<line-break>人の力なんて、自然の力に比べれば<line-break>ちっぽけなもの…。<line-break>ただ、祈るしかないのよ。<end>いっつも祈ってばっかりだって<line-break>バカにするけど、<line-break>あなたも神にざんげなさい。<line-break>そうしないと<line-break>いつかバチがあたるわよ！<end>"
+EN: "<select><value:$20>%3...You haven't put anything down my back, have you?<end>Yesterday's earthquake... I have a terrible feeling about it. What in the world was it? Human power is so small beside the power of nature... All we can do is pray.<end>You make fun of me for always praying, but you should confess your sins to God too. If you don't, divine punishment will catch up with you one day!<end>"
+KO: "<select><value:$20>%3………………. …등에 아무것도 넣어 둔 건 아니겠지?<end>어제 지진…. 불길한 예감이 들어…. 대체 뭐였을까…. 인간의 힘은 자연의 힘에 비하면 보잘것없어…. 그저 기도할 수밖에.<end>맨날 기도만 한다고 놀리지만 너도 신께 참회해. 안 그러면 언젠가 벌받을 거야!<end>"
+
+## 280182
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おお、天空神ノトゥーンよ、<line-break>戒めと裁きの神ノトゥーンよ、<line-break>罪深き少年たちに罰を…。<end>"
+EN: "O Notun, Sky God, Notun, God of Admonition and Judgment, punish these sinful boys...<end>"
+KO: "오오, 천공신 노툰이시여, 계율과 심판의 신 노툰이시여, 죄 많은 소년들에게 벌을 내려 주소서….<end>"
+
+## 280183
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3おお、<value:$28>か。<line-break>お前の連れのヴァン公に言っときな。<line-break>うちにゃガキに飲ます酒はねえとよ。<end>おお、<value:$28>か。<line-break>お前さんにはいずれ、俺特製の<line-break>スペシャルティーを飲ましてやるぜ。<end>今日、うちに変な客が来てさ。<line-break>俺様は未来の勇者だとか、<line-break>密書の件は失敗じゃないとか荒れてたよ。<line-break>何かとあんたらは<line-break>やっかいばかり起こすからな。<line-break>あんな奴と関わるんじゃねえぞ！<end>"
+EN: "<select><value:$20>%3Oh, <value:$28>, is it? Tell that Lord Van you're traveling with that I don't serve booze to kids.<end>Ah, <value:$28>. One of these days, I'll treat you to my own special tea.<end>Had a strange customer in here today. Kept ranting about being the Hero of the future and how the Secret Letter business hadn't been a failure. You lot cause enough trouble as it is. Don't get mixed up with someone like that!<end>"
+KO: "<select><value:$20>%3오, <value:$28>인가. 네 일행인 반 공자한테 말해 둬. 우리 집엔 꼬맹이한테 먹일 술은 없다고.<end>오, <value:$28>인가. 너한테는 언젠가 내가 만든 스페셜티를 마시게 해 주지.<end>오늘 우리 가게에 이상한 손님이 와서 말이야. 자기가 미래의 용사라느니, 밀서 건은 실패가 아니라느니 하며 난리를 피웠어. 너희는 툭하면 골칫거리를 일으키잖아. 그런 놈과 엮이지 마라!<end>"
+
+## 280185
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "な、何かあったのですか？<end>"
+EN: "D-Did something happen?<end>"
+KO: "무, 무슨 일 있었나요?<end>"
+
+## 280186
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "外は大騒ぎみたいだけど、<line-break>こんな時でもあのおじいさんの視線が<line-break>腰のあたりにからみつくのよねえ。<end>"
+EN: "It sounds like there's chaos outside, but even now, I can feel that old man's eyes crawling all over my hips.<end>"
+KO: "밖은 난리인 것 같은데 이런 때에도 저 할아버지 시선이 허리 주변에 달라붙네.<end>"
+
+## 280187
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3うむうむ。<line-break>男はの、少し悪いくらいで<line-break>ちょうどええんじゃ。<line-break>お前も将来はわしのような<line-break>立派な大人になれるぞ。<line-break>うむうむ。<end>うむうむ。<line-break>男はの、少しエロいくらいで<line-break>ちょうどええんじゃ。<line-break>お前も将来はわしのような<line-break>立派な大人になれるぞ。<line-break>うむうむ。<end>ああ…。<line-break>わしの毎日はあの娘っ子の<line-break>尻を眺めるだけで過ぎてゆく…。<line-break>まさに極楽…。これぞ至福…。<line-break>天空神ノトゥーン様の天界など<line-break>およびもつかぬわい…。<end>"
+EN: "<select><value:$20>%3Mm-hmm. A man should be a little bit bad. That's just right. You can grow up to be a fine adult like me someday. Mm-hmm.<end>Mm-hmm. A man should be a little lecherous. That's just right. You can grow up to be a fine adult like me someday. Mm-hmm.<end>Ah... My days pass by with nothing to do but gaze at that young girl's backside... Paradise itself... Pure bliss... Even the heavenly realm of Notun, the Sky God, cannot compare...<end>"
+KO: "<select><value:$20>%3음음. 남자는 말이야, 조금 나쁜 정도가 딱 좋은 게야. 너도 장차 나 같은 훌륭한 어른이 될 수 있겠구나. 음음.<end>음음. 남자는 말이야, 조금 야한 정도가 딱 좋은 게야. 너도 장차 나 같은 훌륭한 어른이 될 수 있겠구나. 음음.<end>아아…. 내 하루는 저 아가씨의 엉덩이를 바라보는 것만으로 지나가는구나…. 그야말로 극락…. 이것이야말로 지복…. 천공신 노툰 님의 천계도 이에 미치지 못할 게야….<end>"
+
+## 280188
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふん、大騒ぎしおって。<line-break>大事なのは平常心じゃ。<line-break>むふふふ…。<end>"
+EN: "Hmph. What a commotion they're making. The important thing is to remain calm. Heh heh heh...<end>"
+KO: "흥, 호들갑 떨기는. 중요한 건 평정심이야. 무후후후….<end>"
+
+## 280189
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ふん！<line-break>テラネの町の厄介者の片割れか。<line-break>もうひとりの角つきの方はどうした？<line-break>とにかく、<line-break>うちのヴァンにつきまとうな！<line-break>ヴァンはお前らノラ犬とは違うんだ。<end>"
+EN: "Hmph! So you're one half of Terane's resident pair of troublemakers. Where's the horned one? Never mind. Just stay away from our Van! He's not some stray dog like you lot.<end>"
+KO: "흥! 테라네 마을의 골칫거리 중 하나인가. 다른 뿔 달린 쪽은 어쨌지? 아무튼 우리 반에게 들러붙지 마! 반은 너희 들개들과 달라.<end>"
+
+## 280190
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "あなたたちみたいなのと<line-break>つきあってるから<line-break>最近、ヴァンちゃんがおかしいのよ！<line-break>ひどくつまらないダジャレなんか<line-break>言ったりして…。<line-break>あんな子じゃなかったのに…。<end>"
+EN: "It's because he spends time with the likes of you that Van's been acting so strangely lately! He's even started making dreadful puns... He was never like that before...<end>"
+KO: "너희 같은 애들과 어울리니까 요즘 반이 이상해졌어! 지독하게 재미없는 말장난이나 하고…. 그런 애가 아니었는데….<end>"
+
+## 280191
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "おう、今、手が離せねえんだ。<line-break>また、あとにしてくれ。<line-break>悪いな。<end>"
+EN: "Yeah, I'm tied up right now. Come back later, would you? Sorry.<end>"
+KO: "어, 지금 손을 뗄 수가 없어. 나중에 다시 와줘. 미안하군.<end>"
+
+## 280192
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3おう、<value:$28>。<line-break>たまには、うちのカミサンのとこにも<line-break>ちゃんと顔を出してるか？<end>ヴァンの親御さんは相変わらずだが、<line-break>テラネはお前のふるさとだ。<line-break>ま、ゆっくりしていきな。<end>おう、<value:$28>。<line-break>うちのカミサンの料理が<line-break>恋しくなって戻ってきたのかい？<end>"
+EN: "<select><value:$20>%3Hey, <value:$28>. You do stop by and see the missus once in a while, don't you?<end>Van's parents are the same as ever, but Terane is your hometown. Stay awhile and make yourself at home.<end>Hey, <value:$28>. Did you come back because you missed the missus's cooking?<end>"
+KO: "<select><value:$20>%3오, <value:$28>. 가끔은 우리 마누라한테도 제대로 얼굴 비추고 있냐?<end>반의 부모는 여전하지만 테라네는 네 고향이다. 뭐, 푹 쉬다 가라.<end>오, <value:$28>. 우리 마누라 요리가 그리워서 돌아온 거냐?<end>"
+
+## 280193
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3私の料理はおいしんだよ。<line-break>また、機会があったら<line-break>食べにきておくれよ。<end>うちの人は今日も裏山さ。<line-break>ホントに仕事熱心っていうか、<line-break>なんというか…。<end>宿屋のご亭主に会ったかい？　　　<line-break>あの人も悪い人じゃあ、<line-break>ないんだけどねえ。<line-break>ま、世の中には<line-break>いろいろな人がいるものさ。<line-break>グジグジ気にしちゃあいけないよ。<end>"
+EN: "<select><value:$20>%3My cooking's good, you know. Come back for another meal sometime.<end>My husband's on the hill out back again today. You could say he's really devoted to his work, or... well...<end>Have you met the innkeeper? He's not a bad man, really. It takes all sorts to make a world, you know. Don't let it bother you.<end>"
+KO: "<select><value:$20>%3내 요리는 맛있어. 또 기회가 되면 먹으러 오렴.<end>우리 남편은 오늘도 뒷산에 갔어. 정말 일에 열심이라 해야 할지, 뭐라 해야 할지….<end>여관 주인은 만나 봤니? 그 사람도 나쁜 사람은 아닌데 말이야. 세상엔 여러 사람이 있는 법이지. 끙끙 앓으며 신경 쓸 것 없어.<end>"
+
+## 280194
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "<select><value:$20>%3<value:$28>。<line-break>約束どおり、<line-break>小屋はピカピカにしといたよ。<line-break>　<line-break>よしとくれよ、礼なんて。<line-break>みずくさい。<end>うちの人は今日も裏山さ。<line-break>ホントに仕事熱心っていうか、<line-break>なんというか…。<end><value:$28>。<line-break>なんだか旅に出て、<line-break>少ししまったいい顔になったねえ。<line-break>ま、うちの人には<line-break>まだまだ、かなわないけどね。<end>"
+EN: "<select><value:$20>%3<value:$28>. Just as I promised, I left the cottage sparkling clean. Oh, don't thank me. We're not strangers.<end>My husband's on the hill out back again today. You could say he's really devoted to his work, or... well...<end><value:$28>. Traveling's given you a more mature look. You've still got a long way to go before you can compete with my husband, though.<end>"
+KO: "<select><value:$20>%3<value:$28>. 약속대로 오두막은 반짝반짝하게 청소해 뒀어. 됐어, 감사 인사는. 남처럼 굴지 마.<end>우리 남편은 오늘도 뒷산에 갔어. 정말 일에 열심이라 해야 할지, 뭐라 해야 할지….<end><value:$28>. 여행을 다녀오더니 어딘가 좀 더 야무지고 좋은 얼굴이 됐네. 그래도 우리 남편한테는 아직 한참 못 미치지만.<end>"
+
+## 280195
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "ね、ねえ、<value:$28>。<line-break>じ、地震だよ！！<end>"
+EN: "H-hey, <value:$28>! I-it's an earthquake!!<end>"
+KO: "저, 저기 <value:$28>. 지, 지진이야!!<end>"
+
+## 280196
+source: translations/korean/messages/msgsec028-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅立ち０１メッセージ終端<end>"
+EN: ""
+KO: "여행 출발 01 메시지 끝<end>"
+
+## 290000
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅立ち０２メッセージ<end>"
+EN: ""
+KO: "여행 출발 02 메시지<end>"
+
+## 290001
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１<end>"
+EN: ""
+KO: "예비 메시지 1<end>"
+
+## 290002
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ２<end>"
+EN: ""
+KO: "예비 메시지 2<end>"
+
+## 290003
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ３<end>"
+EN: ""
+KO: "예비 메시지 3<end>"
+
+## 290004
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ４<end>"
+EN: ""
+KO: "예비 메시지 4<end>"
+
+## 290005
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ５<end>"
+EN: ""
+KO: "예비 메시지 5<end>"
+
+## 290006
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ６<line-break>予備メッセージ<line-break>予備メッセージ<line-break>予備メッセージ<end>"
+EN: ""
+KO: "예비 메시지 6 예비 메시지 예비 메시지 예비 메시지<end>"
+
+## 290007
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ７<end>"
+EN: ""
+KO: "예비 메시지 7<end>"
+
+## 290008
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ８<end>"
+EN: ""
+KO: "예비 메시지 8<end>"
+
+## 290009
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ９<end>"
+EN: ""
+KO: "예비 메시지 9<end>"
+
+## 290010
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１０<end>"
+EN: ""
+KO: "예비 메시지 10<end>"
+
+## 290011
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１１<end>"
+EN: ""
+KO: "예비 메시지 11<end>"
+
+## 290012
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１２<end>"
+EN: ""
+KO: "예비 메시지 12<end>"
+
+## 290013
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１３<end>"
+EN: ""
+KO: "예비 메시지 13<end>"
+
+## 290014
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "予備メッセージ１４<end>"
+EN: ""
+KO: "예비 메시지 14<end>"
+
+## 290015
+source: translations/korean/messages/msgsec029-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅立ち０２メッセージ終端<end>"
+EN: ""
+KO: "여행 출발 02 메시지 끝<end>"
+
+## 300000
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "旅立ち０３メッセージ<end>"
+EN: ""
+KO: "여행 출발 03 메시지<end>"
+
+## 300001
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "キヒヒヒ！　もっと暴れろ！<line-break>平民どもを殺せ殺せ殺せエエ！　<line-break>　<line-break>俺は名工カッツの剣を盗まれて、<line-break>ムシャクシャしているんだ。<line-break>もっと派手に暴れろ！　キヒヒ！<end>"
+EN: "Kihihihi! Go on, run wild! Kill the commoners! Kill them, kill them, kill them all! I'm in a foul mood because someone stole my sword, the work of master smith Katz. Make a bigger spectacle of it! Kihihi!<end>"
+KO: "키히히히! 더 날뛰어라! 평민들을 죽여, 죽여, 죽여어어! 나는 명공 카츠의 검을 도둑맞아서 짜증 난다고. 더 화려하게 날뛰어! 키히히!<end>"
+
+## 300002
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "アンティノ、このモンスター買うぞ。<line-break>もっと、もっと持ってこい！<end>"
+EN: "Antino, I'll take this monster. Bring me more! More!<end>"
+KO: "안티노, 이 몬스터 산다. 더, 더 가져와!<end>"
+
+## 300003
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "毎度ありがとうございます、伯爵様。<line-break>　<line-break>　<line-break>（フヒヒ、商品の試験データと　　　<line-break>　金が一度に手に入るわい。）<end>"
+EN: "Thank you for your business, Count. (Heh heh. I'll get test data on the product and the money, all in one go.)<end>"
+KO: "매번 감사합니다, 백작님. (후히히, 상품 시험 데이터와 돈을 한꺼번에 손에 넣는군.)<end>"
+
+## 300004
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "くっ。しっかし、こんなモンスター　<line-break>どっから、わいてきやがったんだ？<line-break>　<line-break>こんだけモンスターが暴れてても<line-break>騎士団の救援はなしか…！　奴ら、<line-break>貴族のことしか眼中にねえからな…。<end>"
+EN: "Damn. Where the hell did all these monsters come from? They're running rampant, and still no help from the knights...! Those bastards only care about the nobles.<end>"
+KO: "큭. 그런데 이런 몬스터들이 대체 어디서 튀어나온 거야? 이렇게 몬스터가 날뛰는데도 기사단 지원은 없나…! 그놈들은 귀족밖에 안중에 없으니까….<end>"
+
+## 300005
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "くそっ！　手強い！<line-break>絶対、街には入れんなよ！<line-break>平民地区は俺たちが守るんだ！<end>"
+EN: "Damn it! They're tough! Don't let them into the city! We're defending the commoners' quarter!<end>"
+KO: "젠장! 만만치 않아! 절대 시내로 들여보내지 마! 평민 지구는 우리가 지킨다!<end>"
+
+## 300007
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>！<line-break>退がれ！　無理すんじゃねえ！<end>"
+EN: "<value:$28>! Get back! Don't push yourself!<end>"
+KO: "<value:$28>! 물러서! 무리하지 마!<end>"
+
+## 300008
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "させないっ！<end>"
+EN: "I won't let you!<end>"
+KO: "그렇게는 못 해!<end>"
+
+## 300009
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "…<value:$28>、<line-break>あなたは、私が守ってあげる…。　　　<line-break>…<value:$28>。<end>"
+EN: "…<value:$28>, I'll protect you… …<value:$28>.<end>"
+KO: "…<value:$28>, 너는 내가 지켜 줄게…. …<value:$28>.<end>"
+
+## 300010
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "起きなさい、<value:$28>！<line-break>もう、昼よ。　　　　　　　　　　　　<line-break>　<end>"
+EN: "Wake up, <value:$28>! It's already noon.<end>"
+KO: "일어나, <value:$28>! 벌써 낮이야.<end>"
+
+## 300011
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ったく、<line-break>世話のやける子なんだからぁ。<end>"
+EN: "Honestly, you're such a handful.<end>"
+KO: "정말, 손이 많이 가는 애라니까.<end>"
+
+## 300012
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "仕方ないわ。昨日、あんなモンスターと<line-break>大立ち回りを演じたばかりですもの。<line-break>　<end>"
+EN: "It can't be helped. You were in a pitched battle with a monster like that only yesterday.<end>"
+KO: "어쩔 수 없어요. 어제 그런 몬스터와 대판 싸운 직후니까요.<end>"
+
+## 300013
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "それよりも、アイリーン、　　　　　　<line-break>あなたは女の子なんですからね。<line-break>　<line-break>危ないことはしちゃダメって、<line-break>母さん、いつも言ってるでしょ？<end>"
+EN: "More importantly, Irene, you're a girl. Your mother is always telling you not to do anything dangerous, isn't she?<end>"
+KO: "그보다 아이린, 넌 여자아이잖니. 위험한 짓은 하면 안 된다고 엄마가 늘 말했지?<end>"
+
+## 300014
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ハ、ハハ。<line-break>あ、それじゃ、お母さん。<line-break>あとは任せたわね。<end>"
+EN: "Ha, haha. Well then, Mother, I'll leave the rest to you.<end>"
+KO: "하, 하하. 그럼 엄마. 나머지는 맡길게.<end>"
+
+## 300015
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "もう、しょうのない子ね。　　　　　　<line-break>いってらっしゃい。<line-break>　<end>"
+EN: "Honestly, what am I going to do with you? Off you go, then.<end>"
+KO: "정말, 어쩔 수 없는 애라니까. 다녀오렴.<end>"
+
+## 300016
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "あら、目が覚めたみたいね、          <line-break><value:$28>。<line-break>　<end>"
+EN: "Oh, it looks like you're awake, <value:$28>.<end>"
+KO: "어머, 정신이 든 모양이네, <value:$28>.<end>"
+
+## 300017
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ちょっと、ベッドから落ちたりして<line-break>何をねぼけてるのよ？<line-break>まったく、しょうがないんだからぁ。<end>"
+EN: "Hey, what are you doing falling out of bed? Are you still half asleep? Honestly, you're hopeless.<end>"
+KO: "잠깐, 침대에서 떨어지기까지 하고 왜 그렇게 잠이 덜 깬 거야? 정말 못 말린다니까.<end>"
+
+## 300018
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "はい、大事な剣。　　　　　　　　　　<line-break>あなたのお父様の形見。<line-break>　<end>"
+EN: "Here, your precious sword. It's a keepsake from your father.<end>"
+KO: "자, 소중한 검이야. 네 아버지의 유품.<end>"
+
+## 300019
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>なら、<line-break>きっとあの娘より強くなれるわ。　　　<line-break>がんばってらっしゃい。<end>"
+EN: "I'm sure you can grow stronger than that girl, <value:$28>. Now off you go, and do your best.<end>"
+KO: "<value:$28>이라면 분명 그 아이보다 강해질 수 있어. 힘내고 와.<end>"
+
+## 300020
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "おう、昨日のケガは大丈夫か？　　　　　　<line-break>　<line-break>　<end>"
+EN: "Hey. That injury from yesterday giving you any trouble?<end>"
+KO: "어이, 어제 다친 곳은 괜찮아?<end>"
+
+## 300021
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "…にしても、あの怪物、いったい<line-break>どっから入り込んで来やがったのか。　　　<line-break>　<line-break>平民地区が怪物に襲われてても<line-break>騎士団の連中、また出てこなかったな。<line-break>平民地区は俺らで守っていかないとな。<end>"
+EN: "Still, where the hell did that monster get in from? The knights didn't show up again, even with the commoners' quarter under attack. Looks like we'll have to defend the commoners' quarter ourselves.<end>"
+KO: "…그런데 그 괴물, 대체 어디서 들어온 거야. 평민 지구가 괴물한테 습격당했는데 기사단 놈들은 또 안 나왔군. 평민 지구는 우리 손으로 지켜야겠어.<end>"
+
+## 300022
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ところでお前、この街で保管されていた　　<line-break>聖杯が盗まれたって話は知ってっか？<line-break>　<end>"
+EN: "By the way, have you heard that the Grail kept here in town was stolen?<end>"
+KO: "그런데 너, 이 도시에서 보관하던 성배가 도둑맞았다는 얘기 알아?<end>"
+
+## 300023
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "おっと、お前には話してなかったか。<line-break>実はな、昨日のモンスター騒ぎの間に、　　<line-break>何者かに聖杯が盗まれちまったんだ。<line-break>で、調べたところ、ちょうどそのころ<line-break>人の言葉をしゃべるゴブリンの３匹組が<line-break>うろついていたことがわかってな。<end>"
+EN: "Oh, hadn't I told you? Someone stole the Grail during yesterday's monster commotion. We looked into it and found out that three Goblins who could speak the human tongue had been prowling around at about the same time.<end>"
+KO: "아, 너한텐 아직 말 안 했던가. 사실 어제 몬스터 소동이 벌어진 사이 누군가 성배를 훔쳐 갔어. 조사해 보니 딱 그 무렵 사람 말을 하는 고블린 세 마리가 돌아다녔다는 걸 알아냈지.<end>"
+
+## 300024
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "よし。んじゃ、頼んだ。<line-break>ま、お前ひとりで十分だろうが…、　　　　<line-break>　<line-break>念のため、お前の幼ななじみも<line-break>あとから行かせる。<line-break>仲よくやるんだぞ。<end>"
+EN: "All right, I'm counting on you. You could probably handle it alone, but just to be safe, I'll send your childhood friend after you. Try to get along.<end>"
+KO: "좋아. 그럼 부탁한다. 뭐, 너 혼자면 충분하겠지만… 혹시 모르니 네 소꿉친구도 뒤따라 보내지. 사이좋게 해.<end>"
+
+## 300025
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "昨日、アイリーンに助けられたこと、　　　<line-break>まーだ、気にしてんのか？<line-break>だったら、ちょうどいいじゃねえか。<line-break>今日はお前がアイリーンを<line-break>助けてやんな。<line-break>それで、貸し借りはなしだ。<end>"
+EN: "Still bothered that Irene had to save you yesterday? Then this works out nicely. Today, you can save her. That'll make you even.<end>"
+KO: "어제 아이린에게 도움받은 거, 아직도 신경 쓰여? 그럼 딱 좋잖아. 오늘은 네가 아이린을 도와줘. 그걸로 빚은 없는 거다.<end>"
+
+## 300026
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "…いつも言ってるはずだぞ。　　　　　　　<line-break>一番大切なのは仲間だってな。<line-break>　<end>"
+EN: "I've told you time and again: nothing matters more than your comrades.<end>"
+KO: "…늘 말했을 텐데. 가장 중요한 건 동료라고.<end>"
+
+## 300027
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ほら、わかったら行ってこい。<line-break>念のため、薬を渡しておこう。<line-break>ケガをしたら、すぐに使うんだ。　　　　　<end>"
+EN: "Now that you understand, get going. Here, take some medicine just in case. If you get hurt, use it right away.<end>"
+KO: "자, 알았으면 다녀와. 혹시 모르니 약을 줄게. 다치면 바로 써.<end>"
+
+## 300028
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>、頼んだぜ。<line-break>　　　　　　　　　　　　　　　　　　　　<line-break>　<end>"
+EN: "I'm counting on you, <value:$28>.<end>"
+KO: "<value:$28>, 부탁한다.<end>"
+
+## 300029
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "や、やめてください！<end>"
+EN: "P-please stop!<end>"
+KO: "그, 그만해 주세요!<end>"
+
+## 300030
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "やめることなどできん！　　　　　　<line-break>　<line-break>　<line-break>未来の勇者の俺様の熱く昂ぶる愛は！<line-break>誰にも…、そう、<line-break>この俺様にすらとめることはできん！<end>"
+EN: "I cannot stop! I am the future Hero, and my hot, surging love cannot be restrained by anyone... yes, not even by me!<end>"
+KO: "그만둘 수는 없다! 미래의 용자인 이 몸의 뜨겁게 타오르는 사랑은! 누구도… 그래, 이 몸조차 멈출 수 없어!<end>"
+
+## 300031
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "困ります、お客さん。<line-break>い、いや…！　触らないで。<end>"
+EN: "Please, don't do this. N-no! Don't touch me!<end>"
+KO: "곤란합니다, 손님. 아, 아니…! 만지지 마세요.<end>"
+
+## 300032
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "俺様とふたりで愛の冒険に旅立つ。<line-break>それが君の運命なんだ！<end>"
+EN: "You and I shall embark together on an adventure of love. It is your destiny!<end>"
+KO: "이 몸과 둘이 사랑의 모험을 떠난다. 그게 네 운명이야!<end>"
+
+## 300033
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "あっ、<value:$28>さん！<line-break>助けてください！<end>"
+EN: "Oh, <value:$28>! Please help me!<end>"
+KO: "아, <value:$28>님! 도와주세요!<end>"
+
+## 300034
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "このお客さん、酔っぱらってて…。<end>"
+EN: "This customer is drunk, and...<end>"
+KO: "이 손님, 취해 있어서….<end>"
+
+## 300035
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんだ貴様ぁ！<line-break>ちょうどいい。<line-break>俺様の愛の伝説のわき役にしてやる！<end>"
+EN: "Who the hell are you?! Perfect timing. I'll make you a supporting player in my legend of love!<end>"
+KO: "뭐냐 네놈! 마침 잘됐다. 나의 사랑의 전설에 조연으로 만들어 주마!<end>"
+
+## 300036
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "こ、こんなはずは…。<line-break>ええい、まだだ！<line-break>俺様の無敵伝説はこれから始まるんだ！<end>"
+EN: "Th-this can't be... Bah, I'm not finished yet! The legend of my invincibility has only just begun!<end>"
+KO: "이, 이럴 리가…. 젠장, 아직이다! 이 몸의 무적 전설은 이제부터 시작이야!<end>"
+
+## 300037
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ありがとうございますっ！<line-break><value:$28>さん、<line-break>ケガはありませんか？<end>"
+EN: "Thank you so much! <value:$28>, are you hurt?<end>"
+KO: "감사합니다! <value:$28> 씨, 다친 데는 없으세요?<end>"
+
+## 300038
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "さすが道場で鍛えているだけあって、<line-break><value:$28>さんは強いですね。<end>"
+EN: "All that training at the dojo has certainly paid off. You're very strong, <value:$28>.<end>"
+KO: "역시 도장에서 단련한 만큼 <value:$28>씨는 강하군요.<end>"
+
+## 300039
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "見ていてくれたか？<line-break>これが俺様の愛の…<line-break>溢れんばかりにほとばしる愛の力！！<end>"
+EN: "Did you see that? That was the power of my love... my boundless, surging love!!<end>"
+KO: "보고 있었나? 이것이 이 몸의 사랑의…넘쳐흐를 듯 솟구치는 사랑의 힘!!<end>"
+
+## 300040
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "恐れずに飛び込んでくるがいい。<line-break>俺様の愛の翼は、<line-break>いつでも君を包み込むぜ！<end>"
+EN: "Come to me without fear. The wings of my love will always enfold you!<end>"
+KO: "두려워 말고 뛰어들어 와. 이 몸의 사랑의 날개는 언제든 너를 감싸 줄 테니까!<end>"
+
+## 300041
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "だ、大丈夫ですかっ？<line-break><value:$28>さん。<end>"
+EN: "A-are you all right, <value:$28>?<end>"
+KO: "괘, 괜찮으세요? <value:$28>님.<end>"
+
+## 300042
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ごめんなさい…私なんかのために。<line-break>…ケガまでさせてしまって…。<end>"
+EN: "I'm sorry... You even got hurt for someone like me.<end>"
+KO: "미안해요… 저 같은 사람 때문에. …다치기까지 하게 해서…<end>"
+
+## 300043
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "はい？<line-break>あ、オッシさんのお酒のお代ですね。<line-break>毎度、ありがとうございましたー。<end>"
+EN: "Yes? Oh, you're paying Ossi's bar tab. Thank you, and come again!<end>"
+KO: "네? 아, 오시 씨 술값이군요. 매번 감사합니다.<end>"
+
+## 300044
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "あっ、<value:$28>さん！<end>"
+EN: "Oh, <value:$28>!<end>"
+KO: "앗, <value:$28> 씨!<end>"
+
+## 300045
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ、あの…。<line-break>先ほどはありがとうございました。<line-break>…あの、このあと…お暇ですか？<end>"
+EN: "Um... Thank you for what you did earlier. I was wondering... are you free after this?<end>"
+KO: "저, 저기…. 아까는 감사합니다. …저, 이 뒤에… 시간 있으세요?<end>"
+
+## 300046
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ご、ごめんなさい。そうですよね。<line-break>…アイリーンさんがいますもんね。<end>"
+EN: "S-sorry. Of course. There's Irene, after all.<end>"
+KO: "죄, 죄송해요. 그렇죠. …아이린 씨가 있으니까요.<end>"
+
+## 300047
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "それじゃあ、<value:$28>さん。<line-break>私は仕事に戻ります。<line-break>たまには酒場に遊びにきてくださいね。<end>"
+EN: "Well then, <value:$28>, I'd better get back to work. Do come by the tavern once in a while.<end>"
+KO: "그럼 <value:$28>님. 저는 일하러 돌아갈게요. 가끔 술집에도 놀러 오세요.<end>"
+
+## 300048
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "遅かったじゃない。<line-break>どこかで女の子でも<line-break>口説いてたんじゃないの？<end>"
+EN: "You're late. What, were you off flirting with some girl?<end>"
+KO: "늦었잖아. 어디서 여자라도 꼬시고 있었던 거 아니야?<end>"
+
+## 300049
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "冗談よ。<line-break>相変わらず子供ねぇ。<end>"
+EN: "I'm joking. You're still such a child.<end>"
+KO: "농담이야. 여전히 어린애네.<end>"
+
+## 300050
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "遅かったじゃない。<line-break>ん？<line-break>どうしたの、そのケガ？<end>"
+EN: "You're late. Hm? How did you get hurt?<end>"
+KO: "늦었잖아. 응? 그 상처는 뭐야?<end>"
+
+## 300051
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "もう…。<line-break>無茶だけはしないでね。　　　<line-break>　<line-break>あなたに、何かあったら<line-break>亡くなったあなたのお父さまに<line-break>申しわけないもん。<end>"
+EN: "Oh, honestly. Just don't do anything reckless, all right? If anything happened to you, how could I ever face your late father?<end>"
+KO: "정말…. 무리만은 하지 마. 네게 무슨 일이 생기면 돌아가신 네 아버지께 면목이 없으니까.<end>"
+
+## 300052
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "それより、話はオッシ先生から<line-break>聞いているわね。ゴブリンはともかく<line-break>聖杯は取り戻さなきゃ。<line-break>ま、<value:$28>がいなくても<line-break>私ひとりで十分なんだけどな。<end>"
+EN: "Anyway, Master Ossi has already filled you in, right? The Goblin business aside, we have to get the Grail back. Still, I could manage perfectly well on my own even without <value:$28>.<end>"
+KO: "그보다 이야기는 오시 선생님에게 들었겠지. 고블린은 둘째치고 성배는 되찾아야 해. 뭐, <value:$28>이 없어도 나 혼자면 충분하지만.<end>"
+
+## 300053
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "くすっ。<line-break>足手まといにだけはならないでね。<end>"
+EN: "Heh. Just don't slow me down.<end>"
+KO: "후훗. 짐만 되지는 마.<end>"
+
+## 300054
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "あ！　<value:$28>！<line-break>　<line-break>　<line-break>きゃーーーーー！！！！！！<line-break>　<line-break>　<end>"
+EN: "Ah! <value:$28>! Aaaaaaaaah!<end>"
+KO: "아! <value:$28>! 꺄아아아아아아!!!!<end>"
+
+## 300055
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "いたたたた…。　　　　　　　<line-break><value:$28>、大丈夫？<line-break>　<line-break>もう、<value:$28>が<line-break>押してくるから、ふたりとも<line-break>穴に落ちちゃったじゃない。<end>"
+EN: "Ow, ow, ow... <value:$28>, are you all right? Honestly, <value:$28>, you kept pushing, and now we've both fallen down a hole.<end>"
+KO: "아야야야…. <value:$28>, 괜찮아? 정말, <value:$28>이 밀어대는 바람에 둘 다 구멍에 떨어졌잖아.<end>"
+
+## 300056
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "それにしても、今のはいったい…？<line-break>まるで、おっきな獣が吼えたみたい…。<line-break>　<line-break>まさか、今のが竜王の覚醒？<line-break>オッシ先生の言ってた<line-break>動乱の時代の幕開け…。<end>"
+EN: "But what in the world was that? It sounded like some enormous beast roaring... Could that have been the Dragon King's Awakening? The dawn of the age of upheaval Master Ossi spoke of...<end>"
+KO: "그런데 방금 그건 대체…? 마치 커다란 짐승이 포효한 것 같았어…. 설마 방금 그게 용왕의 각성? 오시 선생님이 말한 동란의 시대의 개막….<end>"
+
+## 300057
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ちょっと、<value:$28>！<line-break>変なとこ触らないでよ！　　　　　　<line-break>　<line-break>…それにしても、ここ狭いわね。<line-break>それに真っ暗で何も見えないわ。<line-break>　<end>"
+EN: "Hey, <value:$28>! Don't touch me there! Still, it is cramped in here. And so dark I can't see a thing.<end>"
+KO: "잠깐, <value:$28>! 이상한 데 만지지 마! …그나저나 여기 좁네. 게다가 너무 어두워서 아무것도 안 보여.<end>"
+
+## 300058
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "私は全然平気だけど、　　　　　　　<line-break><value:$28>、恐いんでしょう。<line-break>無理しなくてもいいわよ。<line-break>ふふっ、私の家に来たばかりのころ、<line-break>納屋に閉じ込められて<line-break>１時間も大泣きしてたのはどこの誰？<end>"
+EN: "I'm perfectly fine, but you're scared, aren't you, <value:$28>? You don't have to put on a brave face. Hee hee. Who was it who got locked in the barn and bawled for a whole hour, just after coming to my house?<end>"
+KO: "나는 전혀 괜찮은데, <value:$28>, 무서운 거지? 무리하지 않아도 돼. 후후, 우리 집에 막 왔을 때 헛간에 갇혀 한 시간이나 엉엉 울었던 게 누구였더라?<end>"
+
+## 300059
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "くすっ。<line-break>はいはい、子供のころの話よね。　　<line-break>　<line-break>…だんだん目が慣れてきたわ。<end>"
+EN: "Hee hee. All right, all right. You were only a child then. My eyes are starting to adjust.<end>"
+KO: "후훗. 그래그래, 어릴 적 이야기지. …점점 눈이 익숙해지네.<end>"
+
+## 300060
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "上にあがる方法を考えましょう。<line-break>いつまでもこんな所で<line-break>ぐずぐずしていられないわ。<end>"
+EN: "Let's figure out how to get back up. We can't sit around down here forever.<end>"
+KO: "위로 올라갈 방법을 생각하자. 언제까지고 이런 데서 꾸물거릴 순 없어.<end>"
+
+## 300061
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "そっちはどう？<line-break>もう少し探してみましょう。<end>"
+EN: "Any luck over there? Let's keep looking a little longer.<end>"
+KO: "그쪽은 어때? 조금 더 찾아보자.<end>"
+
+## 300062
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "くやしいけど、なすすべなしね。<end>"
+EN: "It's frustrating, but there's nothing we can do.<end>"
+KO: "분하지만 방법이 없네.<end>"
+
+## 300064
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんでも、聖杯の力で<line-break>知恵を得たっていうじゃない。　　　<end>"
+EN: "They say the Grail gave them intelligence.<end>"
+KO: "성배의 힘으로 지혜를 얻었다고 하잖아.<end>"
+
+## 300065
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "…空が青くてきれい。<line-break>そう言えば、最近<line-break>空なんか見てなかったな…。<end>"
+EN: "The sky is so blue and beautiful. Come to think of it, I haven't looked at the sky lately...<end>"
+KO: "…하늘이 파랗고 예쁘다. 그러고 보니 요즘 하늘을 본 적도 없네….<end>"
+
+## 300066
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ねぇ…。<end>"
+EN: "Hey...<end>"
+KO: "있잖아….<end>"
+
+## 300067
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "私ね…騎士になるのが夢なんだ。<end>"
+EN: "You know... my dream is to become a knight.<end>"
+KO: "나… 기사가 되는 게 꿈이야.<end>"
+
+## 300068
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "くすっ。女らしくない夢よねぇ。<line-break>きっと、みんな反対すると思う…。<line-break>　<line-break>だから、もうすぐ家を出るつもり。<line-break>あ、母さんには内緒よ。<end>"
+EN: "Heh. Not a very ladylike dream, is it? I'm sure everyone will be against it... That's why I'm planning to leave home soon. Oh, and don't tell Mother.<end>"
+KO: "후훗. 여자답지 않은 꿈이지. 분명 다들 반대할 거야…. 그래서 곧 집을 나갈 생각이야. 아, 엄마한텐 비밀이야.<end>"
+
+## 300069
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "寒い…。<end>"
+EN: "It's cold...<end>"
+KO: "추워…<end>"
+
+## 300070
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "…<value:$28>、<line-break>本当に助けって来るのかなぁ…。<end>"
+EN: "<value:$28>... I wonder if help's really coming...<end>"
+KO: "…<value:$28>, 정말 도움은 오는 걸까….<end>"
+
+## 300071
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "<value:$28>…。<line-break>　　　　　　　　　　<line-break>　<line-break>あ、空が見えなく…。<line-break>！？<end>"
+EN: "<value:$28>... Oh, I can't see the sky anymore... What!?<end>"
+KO: "<value:$28>…. 아, 하늘이 안 보여….!?<end>"
+
+## 300072
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "下が柔らかくて助かったでゴブ！<end>"
+EN: "Good thing there was something soft to land on, gob!<end>"
+KO: "밑이 푹신해서 살았고블!<end>"
+
+## 300073
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "しかし、ここはどこでゴブ～？<end>"
+EN: "But where are we, gob?<end>"
+KO: "그런데 여긴 어디고블~?<end>"
+
+## 300074
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "げほっ…。なんなのよ！<end>"
+EN: "Cough... What was that!?<end>"
+KO: "콜록…. 뭐야 이게!<end>"
+
+## 300075
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "む？　何か地面が動いたような<line-break>気がするゴブが…。<end>"
+EN: "Hm? It felt as though the ground moved, gob...<end>"
+KO: "응? 땅이 뭔가 움직인 것 같은 기분이 드는데 고브….<end>"
+
+## 300076
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブゴブ団の団長ともあろう者が<line-break>落とし穴にはまってしまうとは…。<end>"
+EN: "To think the leader of the Gob-Gob Gang would fall into a pit trap...<end>"
+KO: "고브고브단 단장이라는 자가 함정에 빠지다니….<end>"
+
+## 300077
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ガント親分、大丈夫でゴブ？<end>"
+EN: "Boss Gant, are you all right, gob?<end>"
+KO: "간트 두목, 괜찮아 고브?<end>"
+
+## 300078
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "オルナット、<line-break>親分じゃなくて団長と呼ぶでゴブ。<end>"
+EN: "Ornut, it's “Leader,” not “Boss,” gob.<end>"
+KO: "오르나트, 두목 말고 단장이라고 부르는 고브.<end>"
+
+## 300079
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "いいかげんに<line-break>私の上からどきなさいよっ！<end>"
+EN: "Get off me already!<end>"
+KO: "이제 그만 내 위에서 비켜!<end>"
+
+## 300080
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブー！<end>"
+EN: "Gooob!<end>"
+KO: "고부~!<end>"
+
+## 300081
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "マルーンがやられたでゴブ！<line-break>誰かいるゴブ～！<end>"
+EN: "Maroon's been attacked, gob! Someone's here, gob!<end>"
+KO: "마룬이 당했다 고브! 누구 없냐 고브~!<end>"
+
+## 300082
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "なんで、<line-break>人間がここにいるゴブ～！<end>"
+EN: "Why is there a human down here, gob!?<end>"
+KO: "왜 인간이 여기에 있는 고블~!<end>"
+
+## 300083
+source: translations/korean/messages/msgsec030-part99.toml
+jp_matches_pinned_english: yes
+JP: "ゴブリン？<line-break>それも言葉をしゃべる！？<end>"
+EN: "A Goblin? And one that can talk!?<end>"
+KO: "고블린? 게다가 말을 한다고!?<end>"
 
