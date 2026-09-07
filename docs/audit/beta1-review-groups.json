@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "korean_head": "71d2905f6ae50e4208e0bd2944b5d760ab152290",
+  "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "accepted_ids": 42016,
+  "unique_strict_signatures": 36899,
+  "strict_duplicate_groups": 1986,
+  "strict_duplicate_member_ids": 7103,
+  "strict_propagation_candidate_extra_ids": 5117,
+  "counting_policy": "Candidate-only. No propagation is credited until a representative is directly reviewed and every member matches exact JP+KO+layout+consumer_signature at that review basis."
+}
