@@ -39,9 +39,20 @@ jobs:
           shopt -s nullglob
           for req in docs/audit/review/scope-requests/*.json; do
             batch=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["batch_id"])' "$req")
-            if [ -s "docs/audit/review/scope-${batch}.json" ]; then
-              echo "Dense scope ${batch} already exists; preserving immutable reviewed evidence."
-              continue
+            scope="docs/audit/review/scope-${batch}.json"
+            if [ -s "$scope" ]; then
+              if python3 - "$req" "$scope" <<'PY'
+          import json, sys
+          req=json.load(open(sys.argv[1],encoding='utf-8'))
+          scope=json.load(open(sys.argv[2],encoding='utf-8'))
+          keys=('reviewer','reviewed_at','review_method','exclusions')
+          raise SystemExit(0 if all(scope.get(k)==req.get(k) for k in keys) else 1)
+          PY
+              then
+                echo "Dense scope ${batch} already exists with current review metadata; preserving immutable evidence."
+                continue
+              fi
+              echo "Dense scope ${batch} review metadata changed; regenerating deterministic evidence."
             fi
             python3 - "$req" <<'PY'
           import json
