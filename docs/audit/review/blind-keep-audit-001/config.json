@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "audit_id": "BA-KEEP-001",
+  "korean_head": "730c8ec3e4d8d76596184b68b1a827e27ca1379d",
+  "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "seed": "f4e9c57ad6b046f29c96812a9aa2e5a4",
+  "context_radius": 2,
+  "expected_measured_count": 106,
+  "dense_control_count": 60,
+  "legacy_control_count": 34
+}
