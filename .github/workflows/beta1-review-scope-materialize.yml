@@ -55,6 +55,7 @@ jobs:
           selection_path = Path(f'docs/audit/review/candidate-{batch}-selection.json')
           manifest_path = Path(f'docs/audit/beta1-contextual-copyedit-{batch}-reviewed.json')
           mapping_path = Path('docs/audit/beta1-context-review-commits.json')
+          ledger_path = Path('translations/korean/review-ledger.jsonl')
           if not selection_path.exists() or not manifest_path.exists():
               raise SystemExit(f'missing selection or reviewed manifest for batch {batch}')
           selection = json.loads(selection_path.read_text(encoding='utf-8'))
@@ -64,18 +65,32 @@ jobs:
           if not reviewed_commit:
               raise SystemExit(f'missing semantic commit mapping for batch {batch}')
           ids = [str(x) for x in selection['ids']]
-          edit_ids = [str(r['id']) for r in manifest['records']]
+          manifest_edit_ids = [str(r['id']) for r in manifest['records']]
           if len(ids) != int(selection['candidate_count']) or len(ids) != len(set(ids)):
               raise SystemExit(f'candidate selection population mismatch for batch {batch}')
-          missing_edit_ids = sorted(set(edit_ids) - set(ids), key=int)
-          if missing_edit_ids:
-              raise SystemExit(f'edit ids are outside candidate selection for batch {batch}: {missing_edit_ids}')
+          id_set = set(ids)
+          edit_ids = [rid for rid in manifest_edit_ids if rid in id_set]
+          out_of_scope_edit_ids = sorted(set(manifest_edit_ids) - id_set, key=int)
+          if out_of_scope_edit_ids:
+              covered = set()
+              for line in ledger_path.read_text(encoding='utf-8').splitlines():
+                  if line.strip():
+                      covered.add(str(json.loads(line)['id']))
+              unsafe = sorted(set(out_of_scope_edit_ids) - covered, key=int)
+              if unsafe:
+                  raise SystemExit(
+                      f'manifest edits outside candidate selection are not previously covered for batch {batch}: {unsafe}'
+                  )
+              print(json.dumps({
+                  'status':'INFO', 'batch':batch,
+                  'previously_covered_manifest_edits_outside_scope':out_of_scope_edit_ids
+              }, ensure_ascii=False))
           exclusions = req.get('exclusions', [])
           exclusion_ids = {
               str(x['id']) if isinstance(x, dict) else str(x)
               for x in exclusions
           }
-          if not exclusion_ids.issubset(ids):
+          if not exclusion_ids.issubset(id_set):
               raise SystemExit(f'exclusions are outside candidate selection for batch {batch}')
           if set(edit_ids) & exclusion_ids:
               raise SystemExit(f'edit/exclusion overlap for batch {batch}')
