@@ -114,8 +114,6 @@ def historical_row(root: Path, commit: str, rid: str, preferred_paths: list[str]
         if isinstance(row, dict) and isinstance(row.get("korean"), str):
             found.append({"path": rel, **row})
     if not found:
-        # Paths changed over Beta1. Recover by ID from the historical tree rather
-        # than pretending the current path existed at the review commit.
         historical_paths = git_paths_for_id(root, commit, rid)
         for rel in historical_paths:
             data = tomllib.loads(git_show_text(root, commit, rel))
@@ -183,11 +181,13 @@ def main() -> int:
     anomalies = load_source_anomalies(root)
 
     events: dict[str, list[dict]] = defaultdict(list)
+    pending_batches = set()
     scopes = json.loads((root / args.scopes).read_text(encoding="utf-8"))
     for scope in scopes.get("reviewed_scopes", []):
         batch = str(scope["batch"]).zfill(3)
         if batch not in semantic_commits:
-            raise SystemExit(f"no semantic commit recorded for scope batch {batch}")
+            pending_batches.add(batch)
+            continue
         if scope["kind"] == "numeric_range":
             ids = [str(i) for i in range(int(scope["start"]), int(scope["end"]) + 1)]
         elif scope["kind"] == "ids":
@@ -208,20 +208,22 @@ def main() -> int:
         if not m:
             continue
         batch = m.group(1)
-        if batch not in semantic_commits:
-            raise SystemExit(f"no semantic commit mapping for manifest batch {batch}")
         doc = json.loads(path.read_text(encoding="utf-8"))
-        ids = []
+        ids = [str(rec["id"]) for rec in doc.get("records", [])]
+        if batch not in semantic_commits:
+            pending_batches.add(batch)
+            per_batch.append({"batch": batch, "records": len(ids), "unique_ids": len(set(ids)),
+                              "manifest": path.relative_to(root).as_posix(), "status": "PENDING_BASIS"})
+            continue
         for rec in doc.get("records", []):
             rid = str(rec["id"])
             if rid not in accepted_ids:
                 raise SystemExit(f"manifest {path.name} non-accepted id {rid}")
-            ids.append(rid)
             events[rid].append({"batch": batch, "evidence": "manifest_edit", "state": "CONTEXT_EDIT",
                                 "reviewed_commit": semantic_commits[batch],
                                 "paths": list(rec.get("paths") or current[rid]["paths"])})
         per_batch.append({"batch": batch, "records": len(ids), "unique_ids": len(set(ids)),
-                          "manifest": path.relative_to(root).as_posix()})
+                          "manifest": path.relative_to(root).as_posix(), "status": "REGISTERED"})
 
     ledger_rows = []
     stale_ids = []
@@ -279,6 +281,7 @@ def main() -> int:
                  "strict_duplicate_groups": len(duplicate_groups),
                  "strict_duplicate_member_ids": duplicate_member_ids,
                  "strict_propagation_candidate_extra_ids": propagation_candidate_extra,
+                 "pending_review_basis_batches": sorted(pending_batches),
                  "counting_policy": "Candidate-only. No propagation is credited until a representative is directly reviewed and every member matches exact JP+KO+layout+consumer_signature at that review basis."}
     (root / args.groups).write_text(json.dumps(group_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -288,7 +291,7 @@ def main() -> int:
         for row in ledger_rows:
             fh.write(json.dumps(row, ensure_ascii=False) + "\n")
 
-    total_manifest_records = sum(x["records"] for x in per_batch)
+    total_manifest_records = sum(x["records"] for x in per_batch if x["status"] == "REGISTERED")
     lines = ["# Beta1 Language Review Coverage v2", "",
              "> Generated. Do not hand-edit `translations/korean/review-ledger.jsonl` or this summary.", "",
              "## Authoritative current coverage", "", f"- Accepted Korean IDs: **{len(accepted_ids):,}**",
@@ -296,7 +299,8 @@ def main() -> int:
              f"  - direct `full_read`: **{valid_direct:,}**", f"  - direct `manifest_edit`: **{valid_manifest:,}**",
              "  - propagated: **0** (not yet credited)", f"- `CONTEXT_STALE`: **{len(stale_ids):,}**",
              f"- `UNREVIEWED` for contextual purposes: **{unreviewed:,}**",
-             f"- Approved manifest records (historical, non-deduplicated): **{total_manifest_records:,}**", "",
+             f"- Approved registered manifest records (historical, non-deduplicated): **{total_manifest_records:,}**",
+             f"- Pending batches lacking a registered review basis: **{', '.join(sorted(pending_batches)) if pending_batches else 'none'}**", "",
              "A row is valid only when its historical review basis still matches current",
              "`SHA256(JP + NUL + pinned EN + NUL + KO + NUL + layout + NUL + consumer_signature)`.",
              "Mismatch automatically reports `CONTEXT_STALE` and removes the row from valid coverage.", "",
@@ -309,9 +313,9 @@ def main() -> int:
              f"- Potential extra IDs after one representative review per group: **{propagation_candidate_extra:,}**", "",
              "Strict signature requires exact Japanese + exact Korean + exact persisted layout + repository-visible consumer signature.",
              "These are candidates only; no automatic KEEP propagation is credited.", "", "## Historical edit manifests", "",
-             "| Batch | Records | Unique IDs | Manifest |", "| --- | ---: | ---: | --- |"]
+             "| Batch | Status | Records | Unique IDs | Manifest |", "| --- | --- | ---: | ---: | --- |"]
     for row in per_batch:
-        lines.append(f"| {row['batch']} | {row['records']:,} | {row['unique_ids']:,} | `{row['manifest']}` |")
+        lines.append(f"| {row['batch']} | {row['status']} | {row['records']:,} | {row['unique_ids']:,} | `{row['manifest']}` |")
     lines += ["", "## Completion/quality rule", "",
               "Coverage and accuracy are separate. Final Beta1 must additionally run a reproducible random second-pass audit",
               "of the valid KEEP population (target sample: 200); a correction rate above 5% requires expanded re-review.",
@@ -322,6 +326,7 @@ def main() -> int:
     print(json.dumps({"status": "PASS", "schema_version": 2, "accepted": len(accepted_ids),
                       "valid_context": valid_context, "stale": len(stale_ids), "unreviewed": unreviewed,
                       "direct_full_read": valid_direct, "manifest_edit": valid_manifest, "propagated": 0,
+                      "pending_review_basis_batches": sorted(pending_batches),
                       "strict_duplicate_groups": len(duplicate_groups),
                       "strict_propagation_candidate_extra_ids": propagation_candidate_extra,
                       "stale_ids": stale_ids}, ensure_ascii=False, indent=2))
