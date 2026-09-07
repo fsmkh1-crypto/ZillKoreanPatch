@@ -67,8 +67,9 @@ jobs:
           edit_ids = [str(r['id']) for r in manifest['records']]
           if len(ids) != int(selection['candidate_count']) or len(ids) != len(set(ids)):
               raise SystemExit(f'candidate selection population mismatch for batch {batch}')
-          if not set(edit_ids).issubset(ids):
-              raise SystemExit(f'edit ids are outside candidate selection for batch {batch}')
+          missing_edit_ids = sorted(set(edit_ids) - set(ids), key=int)
+          if missing_edit_ids:
+              raise SystemExit(f'edit ids are outside candidate selection for batch {batch}: {missing_edit_ids}')
           exclusions = req.get('exclusions', [])
           exclusion_ids = {
               str(x['id']) if isinstance(x, dict) else str(x)
