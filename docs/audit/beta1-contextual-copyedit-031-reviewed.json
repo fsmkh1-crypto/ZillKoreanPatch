@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "purpose": "Source-order contextual review 031 corrections after a full JP-to-pinned-English-to-Korean direct read.",
+  "source_head": "24c265c5ddcc9f14c90bab1c3df29b3a10a68912",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "450232",
+      "paths": ["translations/korean/messages/msgsec045-part99.toml"],
+      "before_korean": "그렇게 <value:$28>이 복수 생각만 하면… 천국의 플린트 씨도 분명 기뻐하지 않을 거야. 응. 가자?<end>",
+      "proposed_korean": "그렇게 복수 생각만 하고 있으면… 천국의 플린트 씨도 분명 기뻐하지 않을 거야, <value:$28>. 응. 가자?<end>"
+    },
+    {
+      "id": "450261",
+      "paths": ["translations/korean/messages/msgsec045-part99.toml"],
+      "before_korean": "잡았어. 하지만 죽일 필요는 없어.<end>",
+      "proposed_korean": "갚았어. 하지만 죽일 필요는 없어.<end>"
+    },
+    {
+      "id": "450292",
+      "paths": ["translations/korean/messages/msgsec045-part99.toml"],
+      "before_korean": "저기, 괜찮다면… <value:$28>와 함께 모험하게 해 주지 않을래?<end>",
+      "proposed_korean": "저기, 괜찮다면… 나도 같이 모험하게 해 주지 않을래, <value:$28>?<end>"
+    },
+    {
+      "id": "450294",
+      "paths": ["translations/korean/messages/msgsec045-part99.toml"],
+      "before_korean": "응, 그럼 난 <value:$28>가 불러 주길 기다릴게.<end>",
+      "proposed_korean": "응, 그럼 난 네가 불러 주길 기다릴게, <value:$28>.<end>"
+    },
+    {
+      "id": "460016",
+      "paths": ["translations/korean/messages/msgsec046-part99.toml"],
+      "before_korean": "하하! 너도 나의 뜨거운 혼을 느끼고 그녀에게 어울리는 남자가 되는구나!<end>",
+      "proposed_korean": "하하! 너도 나의 뜨거운 혼을 느끼고 그녀에게 어울리는 남자가 되어라!<end>"
+    },
+    {
+      "id": "460018",
+      "paths": ["translations/korean/messages/msgsec046-part99.toml"],
+      "before_korean": "확실히…!! 당신이 혹시 은혜를 갚는다는 구실로 그녀에게 접근해서 우리에게 위협이 될지도 몰라!<end>",
+      "proposed_korean": "확실히…!! 당신이 혹시 베푼 은혜를 빌미로 그녀에게 접근해서 우리에게 위협이 될지도 몰라!<end>"
+    },
+    {
+      "id": "460207",
+      "paths": ["translations/korean/messages/msgsec046-part99.toml"],
+      "before_korean": "바로 끼워 줘? 바로 끼워 줘?<end>",
+      "proposed_korean": "바로 껴? 바로 껴?<end>"
+    },
+    {
+      "id": "460208",
+      "paths": ["translations/korean/messages/msgsec046-part99.toml"],
+      "before_korean": "어머나. 약지에 끼워 준다니, 나 부끄럽잖아.<end>",
+      "proposed_korean": "어머나. 약지에 끼다니, 나 부끄럽잖아.<end>"
+    },
+    {
+      "id": "460210",
+      "paths": ["translations/korean/messages/msgsec046-part99.toml"],
+      "before_korean": "꼈어? 끼워 버렸어? 진짜 끼운 거 아냐? 무후후….<end>",
+      "proposed_korean": "꼈어? 껴 버렸어? 진짜 낀 거지? 무후후….<end>"
+    },
+    {
+      "id": "460212",
+      "paths": ["translations/korean/messages/msgsec046-part99.toml"],
+      "before_korean": "<value:$28>은 로지쿠닌에게 억지로 반지를 끼워졌다. 그것도 약지에….<end>",
+      "proposed_korean": "로지쿠닌이 <value:$28>에게 억지로 반지를 끼웠다. 그것도 약지에….<end>"
+    },
+    {
+      "id": "490028",
+      "paths": ["translations/korean/messages/msgsec049-part99.toml"],
+      "before_korean": "5000인가…. 첼라셸을 고용하기엔 조금 부족하군.<end>",
+      "proposed_korean": "5000인가…. 체라셸을 고용하기엔 조금 부족하군.<end>"
+    },
+    {
+      "id": "490065",
+      "paths": ["translations/korean/messages/msgsec049-part99.toml"],
+      "before_korean": "뒤쪽 이야기인데, 릴비는 떠돌이 공연단을 따라갔어. 그런데 이게 문제야. 요즘 일어나는 유괴 사건에 관련된 도적단이 그 공연단을 은신처로 쓰고 있거든.<end>",
+      "proposed_korean": "뒤쪽 이야기인데, 루루안타는 떠돌이 공연단을 따라갔어. 그런데 이게 문제야. 요즘 일어나는 유괴 사건에 관련된 도적단이 그 공연단을 은신처로 쓰고 있거든.<end>"
+    },
+    {
+      "id": "490108",
+      "paths": ["translations/korean/messages/msgsec049-part99.toml"],
+      "before_korean": "그래. 엔샨트로 가자. 서두르면 맞출 수 있어. 준비되면 항구로 가서 배를 타자. 나도 곧 항구로 갈게.<end>",
+      "proposed_korean": "그래. 엔샨트로 가자. 서두르면 아직 따라잡을 수 있어. 준비되면 항구로 가서 배를 타자. 나도 곧 항구로 갈게.<end>"
+    },
+    {
+      "id": "490169",
+      "paths": ["translations/korean/messages/msgsec049-part99.toml"],
+      "before_korean": "괜찮아. 너희도 여기서 확실히 끝내서걱정할 일 없게 해 줄게!<end>",
+      "proposed_korean": "괜찮아. 너희도 여기서 확실히 끝내서 걱정할 일 없게 해 줄게!<end>"
+    },
+    {
+      "id": "490184",
+      "paths": ["translations/korean/messages/msgsec049-part99.toml"],
+      "before_korean": "당신도 그냥 오르파우스로 있으면 되는 거지?<end>",
+      "proposed_korean": "당신도 그냥 오르파우스라고 부르면 되지?<end>"
+    },
+    {
+      "id": "490214",
+      "paths": ["translations/korean/messages/msgsec049-part99.toml"],
+      "before_korean": "후후. 감사합니다! 아, 있잖아 <value:$28>. 릴비가 이 숲에서 나쁜 사람들에게서 도망치다가 길을 잃고 몬스터에게 습격당해 곤란해했을 때,<end>",
+      "proposed_korean": "후후. 감사합니다! 아, 있잖아 <value:$28>. 루루안타가 이 숲에서 나쁜 사람들에게서 도망치다가 길을 잃고 몬스터에게 습격당해 곤란해했을 때,<end>"
+    },
+    {
+      "id": "510078",
+      "paths": ["translations/korean/messages/msgsec051-part99.toml"],
+      "before_korean": "뭐, 정작 필요할 때믿을 만한 녀석이 필요했거든. 네가 용병들 사이에 있는 걸발견해서, 와 달라고 했어. 잘 부탁하지.<end>",
+      "proposed_korean": "뭐, 정작 필요할 때 믿을 만한 녀석이 필요했거든. 네가 용병들 사이에 있는 걸 발견해서, 와 달라고 했어. 잘 부탁하지.<end>"
+    },
+    {
+      "id": "510106",
+      "paths": ["translations/korean/messages/msgsec051-part99.toml"],
+      "before_korean": "…아저씨, 미안하지만 목숨을 받겠다. …로스톨 병사들의 목숨이 걸려 있어서 말이야.<end>",
+      "proposed_korean": "…아저씨, 미안하지만 목숨을 가져가겠다. …로스톨 병사들의 목숨이 걸려 있어서 말이야.<end>"
+    },
+    {
+      "id": "510127",
+      "paths": ["translations/korean/messages/msgsec051-part99.toml"],
+      "before_korean": "하지만 앙길단은 소수 정예로 분단의 산맥을 넘어 대가도 연선의 도시들을 전격적으로 잇달아 점령했다. 분단의 산맥을 군대가 넘은 것은 역사상 전례 없는 위업이다. 이렇게 제국군은 왕도 로스톨 공략에 장군을 걸었다.<end>",
+      "proposed_korean": "하지만 앙길단은 소수 정예로 분단의 산맥을 넘어 대가도 연선의 도시들을 전격적으로 잇달아 점령했다. 분단의 산맥을 군대가 넘은 것은 역사상 전례 없는 위업이다. 이렇게 제국군은 왕도 로스톨 공략을 눈앞에 두었다.<end>"
+    },
+    {
+      "id": "510160",
+      "paths": ["translations/korean/messages/msgsec051-part99.toml"],
+      "before_korean": "이 전투로 총사령 노빈 파로스를 비롯한 귀족들도 많이 목숨을 잃었다. 그것은 로스톨 병사들에게 더한 지옥의 시작을 의미했다.<end>",
+      "proposed_korean": "이 전투로 총사령 노빈 파로스를 비롯한 귀족들도 많이 목숨을 잃었다. 이는 로스톨 병사들에게 또 다른 지옥의 시작을 의미했다.<end>"
+    },
+    {
+      "id": "520117",
+      "paths": ["translations/korean/messages/msgsec052-part99.toml"],
+      "before_korean": "…아저씨, 미안하지만 목숨을 받겠다. …로스톨 병사들의 목숨이 걸려 있어서 말이야.<end>",
+      "proposed_korean": "…아저씨, 미안하지만 목숨을 가져가겠다. …로스톨 병사들의 목숨이 걸려 있어서 말이야.<end>"
+    },
+    {
+      "id": "520157",
+      "paths": ["translations/korean/messages/msgsec052-part99.toml"],
+      "before_korean": "자네… <value:$28>…. 전장을 혼자 사수하는로스톨 귀족이 있다기에와 봤더니, 자네였나!<end>",
+      "proposed_korean": "자네… <value:$28>…. 전장을 혼자 사수하는 로스톨 귀족이 있다기에 와 봤더니, 자네였나!<end>"
+    }
+  ]
+}
