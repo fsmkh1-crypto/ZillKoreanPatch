@@ -1,0 +1,105 @@
+{
+  "batch_id": "033",
+  "semantic_commit": "7c323d219c8ce598e327b7f87e09fa1a584971a9",
+  "execution": "Existing beta1-reviewed-copyedit-apply.yml run steps executed unchanged locally; GitHub connector used for authenticated fast-forward publication because shell push has no credentials.",
+  "initial_run": "FAIL: 13 actionable consistency groups; 12 pre-existing and one newly exposed third farewell occurrence. No failing semantic state published.",
+  "retry": "PASS",
+  "total_edits": 37,
+  "scope_ids": 1200,
+  "scope_edit": 18,
+  "scope_keep": 1182,
+  "supplemental_direct_edits": 19,
+  "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "full_scope_review_provenance": "User handoff explicitly attests previous GPT full direct JP -> pinned EN -> KO read of candidate-033; resuming Codex directly revalidated 13 proposals, neighboring anomaly and each consistency repair in context.",
+  "new_frameworks": false,
+  "heavy_gates": [
+    "exact-before/base ancestry",
+    "exact-after",
+    "control/substitution topology",
+    "layout drift",
+    "persisted layouts",
+    "changed-file whitelist",
+    "git diff --check",
+    "glyph repertoire",
+    "korean-check",
+    "korean-font-check",
+    "qa-integrity",
+    "qa-terminology",
+    "qa-consistency",
+    "qa-consistency-triage",
+    "qa-text-sanity",
+    "TestCurrentKoreanCorpusEnglishConsumerStorageContracts"
+  ],
+  "results": {
+    "copyedit-apply": {
+      "status": "APPLIED_OR_ALREADY_APPLIED",
+      "manifest_sha256": "679aa35020358bc59bb2963425d491aadd812bba50b485901e2aaa8ee7ef0e4a",
+      "manifest_base_sha": "5fbd70b495f6a4e3b32bcb98a928538da6f2fd7c",
+      "current_head_sha": "9b99cad6f2158a7c7ae2f0f3cc0d286f867ceb37",
+      "proposed_records": 37,
+      "changed_records": 23,
+      "already_applied_records": 14,
+      "physical_targets_changed": 23,
+      "already_applied_physical_targets": 14,
+      "override_records": 0,
+      "artifact_sha256": "8179dad8dead88aa48300b65b3a2c0f7050f9af3293af9fd4a8e35a35aacb04a"
+    },
+    "copyedit-verify": {
+      "status": "VERIFIED_APPLIED",
+      "manifest_sha256": "679aa35020358bc59bb2963425d491aadd812bba50b485901e2aaa8ee7ef0e4a",
+      "manifest_base_sha": "5fbd70b495f6a4e3b32bcb98a928538da6f2fd7c",
+      "current_head_sha": "9b99cad6f2158a7c7ae2f0f3cc0d286f867ceb37",
+      "proposed_records": 37,
+      "verified_physical_targets": 37,
+      "changed_records": 0,
+      "already_applied_records": 37,
+      "override_records": 0,
+      "artifact_sha256": "ed2103820a8fea35d432319162ce40e2b2dff7fd19f57c014a9a30f1b4724412"
+    },
+    "persisted-layout-audit": {
+      "status": "READ_ONLY_AUDIT",
+      "persisted_layout_count": 139,
+      "semantic_spacing_drift_count": 0,
+      "comma_no_space_layout_count": 0,
+      "kinsoku_line_start_baseline_count": 6,
+      "digit_comma_space_digit_count": 0,
+      "artifact_sha256": "ea250b25f743c9f41005cdb898aa66f5cd3cf897442e45f94ae252a4f0c1bc45"
+    },
+    "korean-qa-integrity": {
+      "schema": 1,
+      "scope": "translations/korean/messages/msgsec*.toml",
+      "critical_count": 0,
+      "advisory_count": 19,
+      "artifact_sha256": "9ae73fcdda6f2f75fb3aae9f770362d5b860983228a43dbf00e7013663cc3d33"
+    },
+    "korean-qa-terminology": {
+      "schema": 1,
+      "canonical_terms": 75,
+      "matched_occurrences": 9093,
+      "terms_with_hits": 75,
+      "mismatch_count": 0,
+      "artifact_sha256": "39beb00c5b41a3cd8425abea34ce5b6c2e7dca37f941ebbb08fd736ad4976e50"
+    },
+    "korean-qa-consistency": {
+      "schema": 2,
+      "unique_records": 42016,
+      "normalized_source_groups": 34393,
+      "repeated_source_groups": 3456,
+      "repeated_source_records": 11079,
+      "inconsistent_groups": 13,
+      "inconsistent_records": 33,
+      "actionable_inconsistent_groups": 0,
+      "actionable_inconsistent_records": 0,
+      "contextual_exception_groups": 13,
+      "contextual_exception_records": 33,
+      "artifact_sha256": "9907e878a1caffba855b143cc101cae0c235f8e92c65a0e1f093f07c81fbc1a9"
+    },
+    "korean-qa-text-sanity": {
+      "schema": 4,
+      "unique_records": 42016,
+      "finding_count": 0,
+      "artifact_sha256": "f983fb2bdf08f7c80aedb748d84676f7f4c8880099ed953e2fba07865c56beea"
+    }
+  },
+  "timing_note": "Prior full reading/drafting duration unavailable from handoff; not estimated. Local first heavy gate included fresh Go installation/dependency bootstrap; retry was necessary to close a concrete gate failure."
+}
