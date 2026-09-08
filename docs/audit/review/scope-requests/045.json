@@ -1,0 +1,14 @@
+{
+  "batch_id": "045",
+  "candidate_file": "docs/audit/review/candidate-045.md",
+  "candidate_selection_file": "docs/audit/review/candidate-045-selection.json",
+  "reviewed_manifest_file": "docs/audit/beta1-contextual-copyedit-045-reviewed.json",
+  "reviewer": "ChatGPT",
+  "reviewed_at": "2026-09-09",
+  "review_method": "manual_contextual_review_ja_en_ko_full_batch",
+  "total": 1200,
+  "keep": 1185,
+  "edit": 15,
+  "excluded": 0,
+  "notes": "Batch 045 full manual contextual review resumed from the preserved handoff at position 624 / ID 1400283. Positions 1-623 and their 11 confirmed edits were preserved without re-review. Positions 624-1200 were read directly in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Final linguistic triage before existing application gates: KEEP=1185, EDIT=15, excluded=0. No out-of-scope propagation or new QA/workflow logic."
+}
