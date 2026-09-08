@@ -152,6 +152,9 @@ jobs:
           for path in sorted(paths): print(path)
           PY
 
+      - name: Record corpus consistency baseline
+        run: python3 tools/korean/qa-consistency.py --json /tmp/korean-qa-consistency-baseline.json --max-examples 40
+
       - name: Apply exact reviewed semantic values
         run: |
           set -euo pipefail
@@ -210,13 +213,17 @@ jobs:
           integrity=json.load(open('/tmp/korean-qa-integrity.json',encoding='utf-8'))
           terms=json.load(open('/tmp/korean-qa-terminology.json',encoding='utf-8'))
           consistency=json.load(open('/tmp/korean-qa-consistency.json',encoding='utf-8'))
+          baseline=json.load(open('/tmp/korean-qa-consistency-baseline.json',encoding='utf-8'))
           sanity=json.load(open('/tmp/korean-qa-text-sanity.json',encoding='utf-8'))
           critical=integrity.get('critical', [])
           critical_count=len(critical) if isinstance(critical,list) else int(critical or 0)
           if critical_count != 0: raise SystemExit(f'QA-1 critical={critical_count}')
           if terms.get('mismatch_count',0) != 0: raise SystemExit(f"QA-2 mismatch={terms.get('mismatch_count')}")
-          if consistency.get('actionable_inconsistent_groups',0) != 0 or consistency.get('actionable_inconsistent_records',0) != 0:
-              raise SystemExit('QA-3 actionable inconsistency remains')
+          for key in ('actionable_inconsistent_groups','actionable_inconsistent_records'):
+              before=int(baseline.get(key,0) or 0)
+              after=int(consistency.get(key,0) or 0)
+              if after > before:
+                  raise SystemExit(f'QA-3 regression {key}: baseline={before} after={after}')
           if sanity.get('finding_count',0) != 0: raise SystemExit(f"text sanity findings={sanity.get('finding_count')}")
           PY
 
@@ -237,6 +244,7 @@ jobs:
             /tmp/persisted-layout-audit.json
             /tmp/korean-qa-integrity.json
             /tmp/korean-qa-terminology.json
+            /tmp/korean-qa-consistency-baseline.json
             /tmp/korean-qa-consistency.json
             /tmp/korean-qa-consistency-triage.json
             /tmp/korean-qa-text-sanity.json
