@@ -7,8 +7,8 @@
   "reviewed_at": "2026-09-09",
   "review_method": "manual_contextual_review_ja_en_ko_full_batch",
   "total": 1200,
-  "keep": 1168,
-  "edit": 32,
+  "keep": 1169,
+  "edit": 31,
   "excluded": 0,
-  "notes": "Batch 047 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Final linguistic triage before existing application gates: KEEP=1168, EDIT=32, excluded=0. Conservative edits only: semantic reversals, clear mistranslations, established name/term errors, and broken Korean spacing/punctuation. No out-of-scope propagation, new QA logic, or workflow changes."
+  "notes": "Batch 047 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Final linguistic triage: KEEP=1169, EDIT=31, excluded=0. Conservative edits only: semantic reversals, clear mistranslations, established name/term errors, and broken Korean spacing/punctuation. ID 1480037 was deferred to KEEP after application QA-3 showed its punctuation/long-vowel normalization would create a new repeated-source inconsistency against three identical-Japanese records outside this review scope. No out-of-scope propagation, new QA logic, or workflow changes."
 }
