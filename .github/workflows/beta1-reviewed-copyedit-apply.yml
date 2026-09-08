@@ -54,7 +54,7 @@ jobs:
           EVENT_BEFORE: ${{ github.event.before }}
         run: |
           set -euo pipefail
-          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || [ "$GITHUB_EVENT_NAME" = "workflow_call" ]; then
+          if [ -n "$INPUT_MANIFEST" ]; then
             manifest="$INPUT_MANIFEST"
           elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
             before="$EVENT_BEFORE"
@@ -80,7 +80,7 @@ jobs:
               exit 1
             fi
           else
-            echo "unsupported event: $GITHUB_EVENT_NAME" >&2
+            echo "reviewed manifest input is required for event: $GITHUB_EVENT_NAME" >&2
             exit 1
           fi
           test -s "$manifest"
