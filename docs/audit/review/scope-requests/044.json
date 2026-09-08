@@ -7,8 +7,8 @@
   "reviewed_at": "2026-09-08",
   "review_method": "manual_contextual_review_ja_en_ko_full_batch",
   "total": 1200,
-  "keep": 1154,
-  "edit": 46,
+  "keep": 1160,
+  "edit": 40,
   "excluded": 0,
-  "notes": "Batch 044 full manual triage: all 1200 candidate records were read directly in source order with Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as the localization/reference patch. KEEP=1154, EDIT=46, excluded=0. Edits are limited to confirmed semantic errors, Korean grammar/spacing defects, accepted terminology inconsistencies, and clearly unnatural literal renderings. In-batch repeated wording is kept consistent where edited; no unreviewed out-of-scope propagation is performed."
+  "notes": "Batch 044 full manual triage: all 1200 candidate records were read directly in source order with Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as the localization/reference patch. KEEP=1160, EDIT=40, excluded=0. Six initially proposed edits (1370378, 1380379, 1380407, 1380410, 1380446, 1380536) were retained because applying them would create repeated-source inconsistency against records outside this batch; no unreviewed out-of-scope propagation was performed. Remaining edits are limited to confirmed semantic errors, Korean grammar/spacing defects, accepted terminology inconsistencies, and clearly unnatural literal renderings."
 }
