@@ -1,6 +1,10 @@
 name: Beta1 reviewed copyedit apply
 
 on:
+  push:
+    branches: [milestone/Beta1]
+    paths:
+      - 'docs/audit/beta1-contextual-copyedit-*-reviewed.json'
   workflow_dispatch:
     inputs:
       manifest:
@@ -19,7 +23,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  MANIFEST: ${{ inputs.manifest }}
+  INPUT_MANIFEST: ${{ inputs.manifest }}
   OVERRIDES: ${{ inputs.overrides }}
 
 jobs:
@@ -33,6 +37,43 @@ jobs:
         with:
           ref: milestone/Beta1
           fetch-depth: 0
+
+      - name: Resolve reviewed manifest input
+        env:
+          EVENT_BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            manifest="$INPUT_MANIFEST"
+          elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            before="$EVENT_BEFORE"
+            if [[ ! "$before" =~ ^[0-9a-f]{40}$ ]] || [ "$before" = "0000000000000000000000000000000000000000" ]; then
+              echo "push event is missing a usable before SHA" >&2
+              exit 1
+            fi
+            mapfile -t changed < <(
+              git diff --name-only --diff-filter=AM "$before" "$GITHUB_SHA" -- \
+                'docs/audit/beta1-contextual-copyedit-*-reviewed.json'
+            )
+            if [ "${#changed[@]}" -ne 1 ]; then
+              echo "expected exactly one added/modified reviewed manifest, found ${#changed[@]}: ${changed[*]-}" >&2
+              exit 1
+            fi
+            manifest="${changed[0]}"
+            if [[ ! "$manifest" =~ ^docs/audit/beta1-contextual-copyedit-[0-9]{3}-reviewed\.json$ ]]; then
+              echo "cannot derive reviewed manifest from push: $manifest" >&2
+              exit 1
+            fi
+            if [ -n "$OVERRIDES" ]; then
+              echo "overrides are not supported for push-triggered reviewed manifests" >&2
+              exit 1
+            fi
+          else
+            echo "unsupported event: $GITHUB_EVENT_NAME" >&2
+            exit 1
+          fi
+          test -s "$manifest"
+          echo "MANIFEST=$manifest" >> "$GITHUB_ENV"
 
       - uses: actions/setup-go@v7
         with:
