@@ -1,6 +1,17 @@
 name: Beta1 reviewed copyedit apply
 
 on:
+  workflow_call:
+    inputs:
+      manifest:
+        description: Reviewed copyedit manifest
+        required: true
+        type: string
+      overrides:
+        description: Optional audited override manifest for legacy manifest schema
+        required: false
+        default: ''
+        type: string
   push:
     branches: [milestone/Beta1]
     paths:
@@ -43,7 +54,7 @@ jobs:
           EVENT_BEFORE: ${{ github.event.before }}
         run: |
           set -euo pipefail
-          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || [ "$GITHUB_EVENT_NAME" = "workflow_call" ]; then
             manifest="$INPUT_MANIFEST"
           elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
             before="$EVENT_BEFORE"
