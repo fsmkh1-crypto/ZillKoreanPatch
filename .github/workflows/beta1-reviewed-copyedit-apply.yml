@@ -68,6 +68,16 @@ jobs:
           if not m:
               raise SystemExit(f'cannot derive review batch from manifest name: {name}')
           batch=m.group(1)
+          request_path=f'docs/audit/review/scope-requests/{batch}.json'
+          if not os.path.isfile(request_path) or os.path.getsize(request_path) <= 0:
+              raise SystemExit(f'missing scope request for batch {batch}: {request_path}')
+          request=json.load(open(request_path,encoding='utf-8'))
+          if str(request.get('batch_id')) != batch:
+              raise SystemExit(f'scope request batch mismatch: {request.get("batch_id")} != {batch}')
+          required=('reviewer','reviewed_at','review_method')
+          missing=[key for key in required if not request.get(key)]
+          if missing:
+              raise SystemExit(f'scope request missing review metadata: {missing}')
           if multifile:
               source_head=str(data.get('source_head',''))
               if not re.fullmatch(r'[0-9a-f]{40}', source_head):
