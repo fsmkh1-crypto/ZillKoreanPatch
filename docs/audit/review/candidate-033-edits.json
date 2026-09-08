@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "purpose": "Candidate-033 post-read edit proposals after full JP-to-pinned-English-to-Korean contextual review. This is a pre-apply proposal input, not final coverage evidence.",
+  "base_sha": "5fbd70b495f6a4e3b32bcb98a928538da6f2fd7c",
+  "english_reference_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "records": [
+    {
+      "id": "570094",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec057-part99.toml"],
+      "before_korean": "루루안타는 건강하네, 루루안타가 건강하면 나도 기뻐서 힘이 난다고 했어. 그래서 루루안타는 천국의 플린트 씨가 기뻐하도록 늘 건강하게 지내는 거야.<end>",
+      "proposed_korean": "루루안타는 늘 밝구나. 루루안타가 밝으면 나도 기뻐지고 힘이 난다고 했어. 그래서 루루안타는 천국의 플린트 씨가 기뻐하도록 늘 밝게 지내는 거야.<end>"
+    },
+    {
+      "id": "590104",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec059-part99.toml"],
+      "before_korean": "내 방식이마음에 들지 않는 모양이군.<end>",
+      "proposed_korean": "내 방식이 마음에 들지 않는 모양이군.<end>"
+    },
+    {
+      "id": "620034",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec062-part99.toml"],
+      "before_korean": "으, 알겠는 고브!<end>",
+      "proposed_korean": "음, 알겠다 고브!<end>"
+    },
+    {
+      "id": "620052",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec062-part99.toml"],
+      "before_korean": "고브고브단, 이면 되는 거야?<end>",
+      "proposed_korean": "고브고브단이면 되는 거야?<end>"
+    },
+    {
+      "id": "620095",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec062-part99.toml"],
+      "before_korean": "그, 그런~! 너무하잖아고블~!<end>",
+      "proposed_korean": "그, 그런~! 너무하잖아 고브~!<end>"
+    },
+    {
+      "id": "620107",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec062-part99.toml"],
+      "before_korean": "고블린 체질이 되어버렸다 고브~.<end>",
+      "proposed_korean": "고블린 인질이 되어 버렸다 고브~.<end>"
+    },
+    {
+      "id": "620138",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec062-part99.toml"],
+      "before_korean": "배에 타지 마!<end>",
+      "proposed_korean": "배에 타!<end>"
+    },
+    {
+      "id": "620196",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec062-part99.toml"],
+      "before_korean": "올파우스 님! 부탁이다 고브! 우리를 행복하게 해줬으면 한다 고브!<end>",
+      "proposed_korean": "오르파우스 님! 부탁이다 고브! 우리를 행복하게 해줬으면 한다 고브!<end>"
+    },
+    {
+      "id": "620261",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec062-part99.toml"],
+      "before_korean": "하지만 묻지 않아서 다행이야…. 말하지 않고는 견딜 수 없었지만, 물었다면 지금까지와 똑같을 수는 없었을 테니까….<end>",
+      "proposed_korean": "하지만 듣지 못해서 다행이야…. 말하지 않고는 견딜 수 없었지만, 들었다면 지금까지와 똑같을 수는 없었을 테니까….<end>"
+    },
+    {
+      "id": "630010",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec063-part99.toml"],
+      "before_korean": "오오, 다행이구나. 타르튜바에게 들키기 전에숨은 모양이로군.<end>",
+      "proposed_korean": "오오, 다행이구나. 타르튜바에게 들키기 전에 숨은 모양이로군.<end>"
+    },
+    {
+      "id": "630124",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec063-part99.toml"],
+      "before_korean": "나한테는 감사 안 하나?<end>",
+      "proposed_korean": "나한테는 인사 안 하나?<end>"
+    },
+    {
+      "id": "630245",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec063-part99.toml"],
+      "before_korean": "나한테는 감사 안 하나?<end>",
+      "proposed_korean": "나한테는 인사 안 하나?<end>"
+    },
+    {
+      "id": "630256",
+      "decision": "PROPOSED_CHANGE",
+      "paths": ["translations/korean/messages/msgsec063-part99.toml"],
+      "before_korean": "그 사람은 그런 짓을하실 분이 아니에요!<end>",
+      "proposed_korean": "그 사람은 그런 짓을 하실 분이 아니에요!<end>"
+    }
+  ]
+}
