@@ -4,8 +4,8 @@
 
 - Accepted IDs: **42,016**
 - Rows with non-`<end>` controls: **5,021**
-- Rows with sentence punctuation: **31,114**
-- Conservative rapid-scan candidates: **10,409**
+- Rows with sentence punctuation: **31,115**
+- Conservative rapid-scan candidates: **10,408**
 
 Rapid-scan candidate means visible KO <= 20 and visible JP <= 20, no non-`<end>` controls, and no sentence punctuation. `FIXED_BUFFER` is intentionally not used as a shortcut.
 
@@ -15,19 +15,19 @@ Rapid-scan candidate means visible KO <= 20 and visible JP <= 20, no non-`<end>`
 | --- | ---: | ---: | ---: |
 | 1-10 | 9,786 | 10,136 | 3,877 |
 | 11-20 | 8,870 | 9,006 | 2,935 |
-| 21-40 | 11,204 | 11,388 | 5,135 |
-| 41-80 | 8,568 | 8,532 | 5,392 |
-| 81-160 | 2,989 | 2,443 | 1,797 |
+| 21-40 | 11,201 | 11,388 | 5,135 |
+| 41-80 | 8,567 | 8,532 | 5,392 |
+| 81-160 | 2,993 | 2,443 | 1,797 |
 | 161+ | 599 | 511 | 244 |
 
 ## Language duplicate-group population
 
 | Group size | IDs belonging to groups of this size |
 | ---: | ---: |
-| 1 | 33,065 |
+| 1 | 33,069 |
 | 2 | 4,058 |
 | 3 | 972 |
-| 4 | 540 |
+| 4 | 536 |
 | 5 | 280 |
 | 6 | 168 |
 | 7 | 126 |

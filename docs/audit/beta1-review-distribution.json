@@ -3,9 +3,9 @@
   "ko_visible_length_bins": {
     "1-10": 9786,
     "11-20": 8870,
-    "21-40": 11204,
-    "41-80": 8568,
-    "81-160": 2989,
+    "21-40": 11201,
+    "41-80": 8567,
+    "81-160": 2993,
     "161+": 599
   },
   "jp_visible_length_bins": {
@@ -25,12 +25,12 @@
     "161+": 244
   },
   "rows_with_non_end_controls": 5021,
-  "rows_with_sentence_punctuation": 31114,
+  "rows_with_sentence_punctuation": 31115,
   "language_duplicate_group_size_population": {
-    "1": 33065,
+    "1": 33069,
     "2": 4058,
     "3": 972,
-    "4": 540,
+    "4": 536,
     "5": 280,
     "6": 168,
     "7": 126,
@@ -61,7 +61,7 @@
   },
   "rapid_scan_candidate": {
     "definition": "visible KO<=20 AND visible JP<=20 AND no non-<end> controls AND no sentence punctuation",
-    "ids": 10409,
+    "ids": 10408,
     "duplicate_member_ids_within_candidate": 4202,
     "note": "workload triage only; never review credit"
   },
