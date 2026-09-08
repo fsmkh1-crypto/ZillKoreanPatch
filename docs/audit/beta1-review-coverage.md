@@ -5,15 +5,15 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **17,831 (42.439%)**
+- Valid contextual review: **19,031 (45.295%)**
   - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **16,393**
-  - direct `manifest_edit`: **1,262**
+  - dense `scope_full_read`: **17,436**
+  - direct `manifest_edit`: **1,419**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **24,185**
-- Approved registered manifest records (historical, non-deduplicated): **1,268**
+- `UNREVIEWED` for contextual purposes: **22,985**
+- Approved registered manifest records (historical, non-deduplicated): **1,425**
 - Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
@@ -24,7 +24,7 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 
 - `PERSISTED_LAYOUT`: **42** among ledger rows
 - `ALIAS_GROUP`: **0** among ledger rows
-- `SOURCE_ANOMALY`: **0** among ledger rows
+- `SOURCE_ANOMALY`: **1** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
 - `FIXED_BUFFER`: **7641** among ledger rows; full accepted population **19380**
 - `RUNTIME_PENDING`: **30** among ledger rows; full accepted population **47**
@@ -65,6 +65,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | S-037 | 1,200 | 1,172 | 28 | 0 | `docs/audit/review/scope-037.json` |
 | S-038 | 1,200 | 1,157 | 43 | 0 | `docs/audit/review/scope-038.json` |
 | S-039 | 1,200 | 1,161 | 39 | 0 | `docs/audit/review/scope-039.json` |
+| S-040 | 1,200 | 1,043 | 157 | 0 | `docs/audit/review/scope-040.json` |
 
 ## Historical edit manifests
 
@@ -108,6 +109,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 037 | REGISTERED | 28 | 28 | `docs/audit/beta1-contextual-copyedit-037-reviewed.json` |
 | 038 | REGISTERED | 43 | 43 | `docs/audit/beta1-contextual-copyedit-038-reviewed.json` |
 | 039 | REGISTERED | 39 | 39 | `docs/audit/beta1-contextual-copyedit-039-reviewed.json` |
+| 040 | REGISTERED | 157 | 157 | `docs/audit/beta1-contextual-copyedit-040-reviewed.json` |
 
 ## Completion/quality rule
 
