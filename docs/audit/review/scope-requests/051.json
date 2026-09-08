@@ -7,8 +7,8 @@
   "reviewed_at": "2026-09-09",
   "review_method": "manual_contextual_review_ja_en_ko_full_batch",
   "total": 1200,
-  "keep": 1050,
-  "edit": 150,
+  "keep": 1079,
+  "edit": 121,
   "excluded": 0,
-  "notes": "Batch 051 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Initial decisions: KEEP=1050, EDIT=150, excluded=0. Proposal 1880090 was corrected to preserve both runtime <value:$28> substitutions while fixing the Korean object/relationship error. QA-3 non-regression is enforced by the existing reviewed-copyedit apply gate before semantic commit. No out-of-scope propagation, new QA logic, or workflow changes."
+  "notes": "Batch 051 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Final after runtime-topology and QA-3 non-regression: KEEP=1079, EDIT=121, excluded=0. Proposal 1880090 preserves both runtime <value:$28> substitutions. Deferred 29 otherwise-reviewable edits to KEEP because changing only the Batch 051 occurrence would create new repeated-source inconsistencies: 1800064, 1800074, 1800087, 1800091, 1800125, 1840012, 1840033, 1840034, 1840035, 1840046, 1840049, 1840058, 1840060, 1840074, 1840103, 1850066, 1850077, 1860001, 1860044, 1860050, 1880006, 1880140, 1890044, 1890063, 1890076, 1890097, 1890105, 1890107, 1890109. Corrected 1890061 review proposal to preserve the full source meaning while using the context-appropriate kinship term. No out-of-scope propagation, new QA logic, or workflow changes."
 }
