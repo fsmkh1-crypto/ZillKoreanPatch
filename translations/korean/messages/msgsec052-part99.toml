@@ -470,7 +470,7 @@ korean = "네놈이 있는 줄 알았다면 패잔병 섬멸을 우선했을 것
 
 ["520117"]
 japanese = "…とっつぁん、<line-break>悪いが、命をもらう。　　<line-break>　<line-break>…ロストールの兵の<line-break>命がかかっているんでな。<end>"
-korean = "…아저씨, 미안하지만 목숨을 받겠다. …로스톨 병사들의 목숨이 걸려 있어서 말이야.<end>"
+korean = "…아저씨, 미안하지만 목숨을 가져가겠다. …로스톨 병사들의 목숨이 걸려 있어서 말이야.<end>"
 
 ["520118"]
 japanese = "はい、そうですかと<line-break>くれてやるわけにはいかんな。<line-break>　<line-break>こっちも<line-break>ディンガルの兵の命が<line-break>かかっておるのでな！<end>"
@@ -630,7 +630,7 @@ korean = "귀한 신분의 귀족으로 보이는군. 천명은 우리 황제 �
 
 ["520157"]
 japanese = "お主…<value:$28>…。<line-break>　　　　　　　　　　　　　　　<line-break>　<line-break>戦場をひとりで死守する<line-break>ロストール貴族がいると聞いて<line-break>来てみれば、お主じゃったのか！<end>"
-korean = "자네… <value:$28>…. 전장을 혼자 사수하는로스톨 귀족이 있다기에와 봤더니, 자네였나!<end>"
+korean = "자네… <value:$28>…. 전장을 혼자 사수하는 로스톨 귀족이 있다기에 와 봤더니, 자네였나!<end>"
 
 ["520158"]
 japanese = "これも戦場のならい。<line-break>ゆくぞ、<value:$28>！<end>"

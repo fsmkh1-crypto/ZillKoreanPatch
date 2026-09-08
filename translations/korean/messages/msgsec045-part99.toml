@@ -922,7 +922,7 @@ korean = "게다가 갈드란의 활 솜씨는 백발백중이 아니라 백발�
 
 ["450232"]
 japanese = "そんなに、<value:$28>が<line-break>復讐のことばかり考えてると…<line-break><line-break>天国のフリントさんは<line-break>きっとうれしくないと思うよ。<line-break>ね。行こう？<end>"
-korean = "그렇게 <value:$28>이 복수 생각만 하면… 천국의 플린트 씨도 분명 기뻐하지 않을 거야. 응. 가자?<end>"
+korean = "그렇게 복수 생각만 하고 있으면… 천국의 플린트 씨도 분명 기뻐하지 않을 거야, <value:$28>. 응. 가자?<end>"
 
 ["450233"]
 japanese = "待ちかねたぞ！<line-break>我が永遠のライバルよ！<end>"
@@ -1038,7 +1038,7 @@ korean = "내 원수를 갚아 준 게 아니었냐고.<end>"
 
 ["450261"]
 japanese = "とったよ。<line-break>だけど、殺す必要はないよ。<end>"
-korean = "잡았어. 하지만 죽일 필요는 없어.<end>"
+korean = "갚았어. 하지만 죽일 필요는 없어.<end>"
 
 ["450262"]
 japanese = "あいつは俺にこんなケガさせたんだぞ？<line-break>あいつは俺のメンツをつぶしたんだ。<line-break><line-break>ナッジ、<value:$28>、<line-break>お前ら、俺の友達じゃないのかよ？<line-break>友達がこんな目にあっても、お前らは…<end>"
@@ -1162,7 +1162,7 @@ korean = "<value:$28>라고 하는구나. 잘 부탁해, <value:$28>.<end>"
 
 ["450292"]
 japanese = "ねえ、もしよかったら…<line-break><value:$28>と一緒に<line-break>冒険させてもらえないかな？<end>"
-korean = "저기, 괜찮다면… <value:$28>와 함께 모험하게 해 주지 않을래?<end>"
+korean = "저기, 괜찮다면… 나도 같이 모험하게 해 주지 않을래, <value:$28>?<end>"
 
 ["450293"]
 japanese = "僕、強くなりたいんだ…。<line-break>でも、ひとりだと、強さってなんなのか<line-break>見失ってしまいそうで…。<end>"
@@ -1170,7 +1170,7 @@ korean = "나, 강해지고 싶어…. 하지만 혼자 있으면 강함이 뭔�
 
 ["450294"]
 japanese = "うん、それじゃ、僕<line-break><value:$28>が<line-break>呼び出してくれるのを待ってるよ。<end>"
-korean = "응, 그럼 난 <value:$28>가 불러 주길 기다릴게.<end>"
+korean = "응, 그럼 난 네가 불러 주길 기다릴게, <value:$28>.<end>"
 
 ["450295"]
 japanese = "じゃ、よろしくね。<line-break><value:$28>。<end>"
