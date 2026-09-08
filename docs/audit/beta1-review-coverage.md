@@ -5,15 +5,15 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **9,413 (22.403%)**
+- Valid contextual review: **9,450 (22.491%)**
   - legacy direct `full_read`: **176**
   - dense `scope_full_read`: **8,205**
-  - direct `manifest_edit`: **1,032**
+  - direct `manifest_edit`: **1,069**
   - propagated: **0** (not yet credited)
-- `CONTEXT_STALE`: **1**
+- `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **32,602**
-- Approved registered manifest records (historical, non-deduplicated): **1,037**
+- `UNREVIEWED` for contextual purposes: **32,566**
+- Approved registered manifest records (historical, non-deduplicated): **1,074**
 - Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
@@ -26,7 +26,7 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 - `ALIAS_GROUP`: **0** among ledger rows
 - `SOURCE_ANOMALY`: **0** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
-- `FIXED_BUFFER`: **3083** among ledger rows; full accepted population **19380**
+- `FIXED_BUFFER`: **3108** among ledger rows; full accepted population **19380**
 - `RUNTIME_PENDING`: **19** among ledger rows; full accepted population **47**
 - English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
@@ -94,6 +94,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 030 | REGISTERED | 83 | 83 | `docs/audit/beta1-contextual-copyedit-030-reviewed.json` |
 | 031 | REGISTERED | 22 | 22 | `docs/audit/beta1-contextual-copyedit-031-reviewed.json` |
 | 032 | REGISTERED | 29 | 29 | `docs/audit/beta1-contextual-copyedit-032-reviewed.json` |
+| 033 | REGISTERED | 37 | 37 | `docs/audit/beta1-contextual-copyedit-033-reviewed.json` |
 
 ## Completion/quality rule
 
