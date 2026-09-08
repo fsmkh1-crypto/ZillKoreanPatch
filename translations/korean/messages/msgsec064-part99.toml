@@ -58,7 +58,7 @@ korean = "희귀한 사냥감을 쫓았지. 알고 싶어?<end>"
 
 ["640014"]
 japanese = "まぁ、何かしら？<end>"
-korean = "어머, 무슨 일이죠?<end>"
+korean = "어머, 뭘까요?<end>"
 
 ["640015"]
 japanese = "クククク…。<line-break>さすがのティアナも<line-break>これだけはわからないだろうな。<end>"
@@ -106,7 +106,7 @@ korean = "으윽…. 뭐, 뭐냐 네놈은!<end>"
 
 ["640028"]
 japanese = "ひいっ！<line-break>お、俺はタルテュバ様だぞっ！<end>"
-korean = "히익! 내, 내가 타르튜바 님이시다!<end>"
+korean = "히익! 내, 내가 타르튜바 님이다!<end>"
 
 ["640029"]
 japanese = "や、や、やめろっ！<end>"
@@ -138,7 +138,7 @@ korean = "무슨 사정이 있으신가 보군요.<end>"
 
 ["640036"]
 japanese = "…話してくださらなくても　　　　　　<line-break>構いません。<line-break>　<line-break>でも、宮中で私闘を演じては<line-break>罪になります。<line-break>あなたを罪人にはしたくはありません。<end>"
-korean = "…말해 주지 않으셔도 괜찮습니다. 하지만 궁중에서 사투를 벌이면 죄가 됩니다. 당신을 죄인으로 만들고 싶지는 않아요.<end>"
+korean = "…말해 주지 않으셔도 괜찮습니다. 하지만 궁중에서 사적인 싸움을 벌이면 죄가 됩니다. 당신을 죄인으로 만들고 싶지는 않아요.<end>"
 
 ["640037"]
 japanese = "…お願いです。<line-break>あんな真似は二度となさらないで。<end>"
@@ -242,7 +242,7 @@ korean = "모르고 있어…. 전혀… 모르고 있어….<end>"
 
 ["640063"]
 japanese = "今日は…ありがとうございます。<line-break>タルテュバ様に迫られていて<line-break>どうしようかと思っていました。<line-break>…つかれました。<line-break>申しわけありませんが、<line-break>今日はこれで部屋で休みます。<end>"
-korean = "오늘은… 감사합니다. 타르튜바 님께서 다가오셔서 어쩌나 했어요. …지쳤습니다. 죄송하지만 오늘은 이만 방으로 돌아가 쉬겠습니다.<end>"
+korean = "오늘은… 감사합니다. 타르튜바 님께서 집요하게 다가오셔서 어쩌나 했어요. …지쳤습니다. 죄송하지만 오늘은 이만 방으로 돌아가 쉬겠습니다.<end>"
 
 ["640064"]
 japanese = "また、<line-break>いらっしゃったのですね。<end>"
@@ -722,7 +722,7 @@ korean = "레무온 님은 함께 계시지 않군요? 레무온 님은 늘 그�
 
 ["640187"]
 japanese = "本当はやさしいお方なのです。<line-break>ただ、それを表現するのが<line-break>ヘタなのですわ。<end>"
-korean = "사실은 다정한 분이에요. 다만 그걸 표현하는 게서투르실 뿐이죠.<end>"
+korean = "사실은 다정한 분이에요. 다만 그걸 표현하는 게 서투르실 뿐이죠.<end>"
 
 ["640188"]
 japanese = "<if><value:$29><equal>%0ごめんなさい。実の弟でいらっしゃる<line-break><value:$28>様に向かって。<line-break>　<line-break><value:$28>様は、<line-break>私などより、ずっと<line-break>レムオン様をご存じなはずですね。<end>ごめんなさい。実の妹でいらっしゃる<line-break><value:$28>様に向かって。<line-break>　<line-break><value:$28>様は<line-break>私などよりずっと、<line-break>レムオン様をご存じなはずですね。<end>"
@@ -858,7 +858,7 @@ korean = "<value:$28>님… 티아나를 밖으로 데리고 나가 주시겠어
 
 ["640223"]
 japanese = "それが、王女であり<line-break>第一王位継承権を持つ者の<line-break>務めだと思うのです。<end>"
-korean = "그것이 왕녀이자제1왕위 계승권을 가진 자의의무라고 생각합니다.<end>"
+korean = "그것이 왕녀이자 제1왕위 계승권을 가진 자의 의무라고 생각합니다.<end>"
 
 ["640224"]
 japanese = "…やっぱり、お見通しなのですね。<end>"
@@ -922,7 +922,7 @@ korean = "언니도 타르튜바한테 괴롭힘당하면 <value:$28>한테 도�
 
 ["640239"]
 japanese = "えっ、ええ…<end>"
-korean = "어, 어어…<end>"
+korean = "어, 네…<end>"
 
 ["640240"]
 japanese = "じゃあね。<line-break>…お兄ちゃん、うまくやるんだよ。<end>"
@@ -1178,7 +1178,7 @@ korean = "제네테스 씨!<end>"
 
 ["640304"]
 japanese = "うい。どうしたい？<end>"
-korean = "응. 어떻게 하고 싶어?<end>"
+korean = "응. 무슨 일이야?<end>"
 
 ["640305"]
 japanese = "よ、<value:$28>、<line-break>こんなところでデートか。<end>"
@@ -1194,7 +1194,7 @@ korean = "제네테스 씨! 이런 데서 여자애한테 작업 걸 때가 아�
 
 ["640308"]
 japanese = "うーい。<end>"
-korean = "어이.<end>"
+korean = "그래, 그래.<end>"
 
 ["640309"]
 japanese = "あなた！<line-break>ここで何をしているのです？<end>"

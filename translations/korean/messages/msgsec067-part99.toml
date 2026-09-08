@@ -62,7 +62,7 @@ korean = "앞으로도 티아나를 지켜 줬으면 한다.<end>"
 
 ["670015"]
 japanese = "<if><value:$29><equal>%0レムオン坊やの弟君が<line-break>何をしておいでか？<end>レムオン坊やの妹君が<line-break>何をしておいでか？<end>"
-korean = "<if><value:$29><equal>%0레무온 꼬마의 남동생이뭘 하고 있는지?<end>레무온 꼬마의 여동생이뭘 하고 있는지?<end>"
+korean = "<if><value:$29><equal>%0레무온 꼬마의 남동생이 뭘 하고 있는지?<end>레무온 꼬마의 여동생이 뭘 하고 있는지?<end>"
 
 ["670016"]
 japanese = "お母様、私のお客様です。<line-break>失礼なことはおっしゃらないで。<end>"
@@ -222,7 +222,7 @@ korean = "제네테스 씨!<end>"
 
 ["670055"]
 japanese = "うい。どうしたい？<end>"
-korean = "응. 어떻게 하고 싶어?<end>"
+korean = "응. 무슨 일이야?<end>"
 
 ["670056"]
 japanese = "よ、<value:$28>、<line-break>デート？<end>"
@@ -258,7 +258,7 @@ korean = "제네테스 씨! 이런 데서 여자나 꼬실 때가 아니야. 빨
 
 ["670064"]
 japanese = "うーい。<end>"
-korean = "어이.<end>"
+korean = "그래, 그래.<end>"
 
 ["670065"]
 japanese = "あなた…いったいここで<line-break>何をしているのです？<end>"
@@ -274,7 +274,7 @@ korean = "상태가 어때?<end>"
 
 ["670068"]
 japanese = "骨は折れちゃいない。<line-break>問題はショックで<line-break>体温が下がってきていることだな。<end>"
-korean = "뼈가 부러진 건 아니야. 문제는 충격 때문에체온이 내려가고 있다는 거지.<end>"
+korean = "뼈가 부러진 건 아니야. 문제는 충격 때문에 체온이 내려가고 있다는 거지.<end>"
 
 ["670069"]
 japanese = "ゼネテス！<line-break>このような所で何をしているのです。<line-break>まじめに答えてください！<end>"
@@ -382,7 +382,7 @@ korean = "내겐… 힘없는 새에게는 새장 밖에 있을 곳 따위… �
 
 ["670096"]
 japanese = "お手を、お姫さん<end>"
-korean = "손을, 공주님<end>"
+korean = "손을 주세요, 공주님.<end>"
 
 ["670098"]
 japanese = "…あ。<end>"
