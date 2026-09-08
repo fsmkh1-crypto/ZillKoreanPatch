@@ -90,7 +90,7 @@ korean = "         %10u기어<end>"
 
 ["1070024"]
 japanese = "よし、やってみよう<end>"
-korean = "좋아, 해보자<end>"
+korean = "좋아, 해 보자<end>"
 
 ["1070025"]
 japanese = "気が進まないな…<end>"
@@ -122,7 +122,7 @@ korean = "이번 함정 난이도는 <value:$1A>야. 해제에 성공하면 안�
 
 ["1070032"]
 japanese = "左右に移動する判定ラインは<line-break><value:$15>で止まります。<line-break>青色の領域に止まれば解除成功です。<end>"
-korean = "좌우로 움직이는 판정선은 <value:$15>에서 멈춥니다. 파란 영역에 멈추면 해제 성공입니다.<end>"
+korean = "좌우로 움직이는 판정선은 <value:$15>을 누르면 멈춥니다. 파란 영역에 멈추면 해제 성공입니다.<end>"
 
 ["1070033"]
 japanese = "おめでとう。これで箱の中身は<line-break><value:$1A>ギアになったわけだ。<line-break>もう宝箱がいっぱいだよ。<end>"
