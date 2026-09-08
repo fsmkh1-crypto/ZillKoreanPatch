@@ -1,16 +1,14 @@
 {
   "version": 4,
-  "korean_head": "acfb9630632b51cec0dfb5a9cddd888c0c06f3a9",
+  "korean_head": "2d466799961e46afd4d5363001e4d86a48bb3562",
   "english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
   "accepted_ids": 42016,
   "authority": "language-equivalence candidate = exact JP + exact pinned EN + exact KO; EN mismatch forbids propagation",
-  "unique_language_signatures": 35730,
-  "duplicate_language_groups": 2665,
-  "duplicate_member_ids": 8951,
-  "propagation_candidate_extra_ids": 6286,
-  "pending_review_basis_batches": [
-    "039"
-  ],
+  "unique_language_signatures": 35733,
+  "duplicate_language_groups": 2664,
+  "duplicate_member_ids": 8947,
+  "propagation_candidate_extra_ids": 6283,
+  "pending_review_basis_batches": [],
   "counting_policy": "Candidate-only. KEEP propagation requires representative review with every member context displayed; propagated KEEP is over-sampled in second-pass QA. EDIT uses the same language-equivalence signature plus exact-before manifest gates.",
   "groups": [
     {
@@ -7003,8 +7001,7 @@
       "ids": [
         "550331",
         "550365",
-        "560042",
-        "1170030"
+        "560042"
       ]
     },
     {
@@ -7012,13 +7009,6 @@
       "ids": [
         "550366",
         "1170031"
-      ]
-    },
-    {
-      "representative": "550369",
-      "ids": [
-        "550369",
-        "1170041"
       ]
     },
     {
@@ -13750,14 +13740,6 @@
       ]
     },
     {
-      "representative": "1200047",
-      "ids": [
-        "1200047",
-        "1420485",
-        "1420498"
-      ]
-    },
-    {
       "representative": "1200048",
       "ids": [
         "1200048",
@@ -18234,6 +18216,13 @@
       "ids": [
         "1420482",
         "1420495"
+      ]
+    },
+    {
+      "representative": "1420485",
+      "ids": [
+        "1420485",
+        "1420498"
       ]
     },
     {
