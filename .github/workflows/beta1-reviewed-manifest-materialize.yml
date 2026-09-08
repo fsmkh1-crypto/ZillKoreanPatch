@@ -22,6 +22,8 @@ permissions:
 jobs:
   materialize:
     runs-on: ubuntu-latest
+    outputs:
+      batch: ${{ steps.batch.outputs.batch }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -109,3 +111,10 @@ jobs:
           git add "$output"
           git commit -m "audit: materialize Beta1 reviewed copyedit manifest ${BATCH}"
           git push origin HEAD:milestone/Beta1
+
+  apply-reviewed:
+    needs: materialize
+    uses: ./.github/workflows/beta1-reviewed-copyedit-apply.yml
+    with:
+      manifest: docs/audit/beta1-contextual-copyedit-${{ needs.materialize.outputs.batch }}-reviewed.json
+      overrides: ''
