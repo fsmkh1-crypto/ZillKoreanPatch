@@ -7,8 +7,8 @@
   "reviewed_at": "2026-09-09",
   "review_method": "manual_contextual_review_ja_en_ko_full_batch",
   "total": 1200,
-  "keep": 1087,
-  "edit": 113,
+  "keep": 1102,
+  "edit": 98,
   "excluded": 0,
-  "notes": "Batch 052 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Initial manual decision after removing one no-op proposal: KEEP=1087, EDIT=113, excluded=0. Preserved runtime/control tokens. No out-of-scope propagation, new QA logic, or workflow changes. QA-3 non-regression will be used to defer any otherwise-reviewable edit whose isolated application would introduce a new repeated-source inconsistency."
+  "notes": "Batch 052 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Final after no-op and QA-3 non-regression: KEEP=1102, EDIT=98, excluded=0. Removed no-op 1900052. Deferred 15 otherwise-reviewable edits to KEEP because changing only the Batch 052 occurrence would create new repeated-source inconsistencies: 1900061, 1900065, 1910110, 1910164, 1920048, 1920051, 1920052, 1920156, 1920168, 1920182, 1920234, 1920246, 1920249, 1920250, 1920251. Retained 1920164 edit because it aligns the exact repeated source with existing 1410181 and removes an existing QA-3 inconsistency. No out-of-scope propagation, new QA logic, or workflow changes."
 }
