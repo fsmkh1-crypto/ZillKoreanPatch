@@ -1,12 +1,12 @@
 name: Beta1 reviewed manifest materializer
 
 on:
-  push:
-    branches: [milestone/Beta1]
-    paths:
-      - 'docs/audit/review/proposals-*.json'
-      - 'tools/korean/materialize-beta1-reviewed-manifest.py'
-      - '.github/workflows/beta1-reviewed-manifest-materialize.yml'
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Three-digit contextual review batch to materialize
+        required: true
+        type: string
 
 concurrency:
   group: beta1-reviewed-manifest-materializer
@@ -23,32 +23,41 @@ jobs:
         with:
           ref: milestone/Beta1
           fetch-depth: 0
-      - name: Materialize reviewed manifests
+
+      - name: Materialize requested reviewed manifest only
+        env:
+          BATCH: ${{ inputs.batch }}
         run: |
           set -euo pipefail
-          shopt -s nullglob
-          for proposal in docs/audit/review/proposals-*.json; do
-            base=$(basename "$proposal")
-            batch=${base#proposals-}
-            batch=${batch%.json}
-            source_head=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["source_head"])' "$proposal")
-            python3 tools/korean/materialize-beta1-reviewed-manifest.py \
-              --proposals "$proposal" \
-              --output "docs/audit/beta1-contextual-copyedit-${batch}-reviewed.json" \
-              --base-sha "$source_head" \
-              --overwrite
-          done
+          if [[ ! "$BATCH" =~ ^[0-9]{3}$ ]]; then
+            echo "batch must be exactly three digits: $BATCH" >&2
+            exit 1
+          fi
+          proposal="docs/audit/review/proposals-${BATCH}.json"
+          output="docs/audit/beta1-contextual-copyedit-${BATCH}-reviewed.json"
+          test -s "$proposal"
+          source_head="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["source_head"])' "$proposal")"
+          python3 tools/korean/materialize-beta1-reviewed-manifest.py \
+            --proposals "$proposal" \
+            --output "$output" \
+            --base-sha "$source_head" \
+            --overwrite
           git diff --check
-      - name: Commit materialized manifests
+
+      - name: Commit requested reviewed manifest
+        env:
+          BATCH: ${{ inputs.batch }}
         run: |
-          if [ -z "$(git status --porcelain -- docs/audit/beta1-contextual-copyedit-*-reviewed.json)" ]; then
-            echo 'Reviewed manifests already current.'
+          set -euo pipefail
+          output="docs/audit/beta1-contextual-copyedit-${BATCH}-reviewed.json"
+          if [ -z "$(git status --porcelain -- "$output")" ]; then
+            echo "Reviewed manifest ${BATCH} already current."
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/audit/beta1-contextual-copyedit-*-reviewed.json
-          git commit -m 'audit: materialize Beta1 reviewed copyedit manifest'
+          git add "$output"
+          git commit -m "audit: materialize Beta1 reviewed copyedit manifest ${BATCH}"
           git fetch origin milestone/Beta1
           git rebase origin/milestone/Beta1
           git push origin HEAD:milestone/Beta1

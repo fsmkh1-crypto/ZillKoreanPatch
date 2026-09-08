@@ -1,15 +1,7 @@
 name: Beta1 review scope materializer
 
 on:
-  push:
-    branches: [milestone/Beta1]
-    paths:
-      - 'docs/audit/review/scope-requests/*.json'
-      - 'docs/audit/review/candidate-*-selection.json'
-      - 'docs/audit/beta1-contextual-copyedit-*-reviewed.json'
-      - 'docs/audit/beta1-context-review-commits.json'
-      - 'tools/korean/build-beta1-review-packet.py'
-      - '.github/workflows/beta1-review-scope-materialize.yml'
+  workflow_dispatch:
 
 concurrency:
   group: beta1-review-scope-materializer

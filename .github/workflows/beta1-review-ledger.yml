@@ -6,9 +6,6 @@ on:
       - milestone/Beta1
     paths:
       - 'translations/korean/messages/**'
-      - 'docs/audit/beta1-contextual-copyedit-*-reviewed.json'
-      - 'docs/audit/beta1-context-review-scopes.json'
-      - 'docs/audit/beta1-context-review-commits.json'
       - 'release/layout/consumer-map.toml'
       - 'release/layout/categories.toml'
       - 'internal/layout/**'
@@ -30,6 +27,7 @@ permissions:
 
 jobs:
   build:
+    if: "${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'copyedit: apply Beta1 reviewed batch from ') }}"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6

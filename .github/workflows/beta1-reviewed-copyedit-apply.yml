@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       manifest:
-        description: Reviewed copyedit proposal manifest
+        description: Reviewed copyedit manifest
         required: true
       overrides:
-        description: Optional audited override manifest
+        description: Optional audited override manifest for legacy manifest schema
         required: false
         default: ''
 
@@ -25,6 +25,9 @@ env:
 jobs:
   apply:
     runs-on: ubuntu-latest
+    outputs:
+      review_batch: ${{ steps.metadata.outputs.review_batch }}
+      semantic_sha: ${{ steps.commit.outputs.semantic_sha }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -36,38 +39,83 @@ jobs:
           go-version-file: go.mod
           cache-dependency-path: go.sum
 
-      - name: Record validated branch head and target files
+      - name: Record validated branch head, manifest schema, and target files
+        id: metadata
         run: |
+          set -euo pipefail
           git rev-parse HEAD | tee /tmp/copyedit-base-head.txt
           python3 - <<'PY' | tee /tmp/copyedit-target-files.txt
-          import json, os
+          import json, os, re, subprocess
           data=json.load(open(os.environ['MANIFEST'],encoding='utf-8'))
+          records=data.get('records', [])
+          if not isinstance(records, list) or not records:
+              raise SystemExit('manifest has no records')
           default=data.get('korean_file')
           paths=set()
-          for record in data.get('records',[]):
-              if record.get('decision') != 'PROPOSED_CHANGE':
+          multifile=bool(data.get('source_head')) and all(isinstance(r,dict) and isinstance(r.get('paths'),list) and r.get('paths') for r in records)
+          for record in records:
+              if not isinstance(record, dict):
+                  raise SystemExit('manifest contains a non-object record')
+              decision=record.get('decision')
+              if decision not in (None, 'PROPOSED_CHANGE'):
                   continue
               if isinstance(record.get('paths'),list): paths.update(str(p) for p in record['paths'])
               elif record.get('path'): paths.add(str(record['path']))
               elif default: paths.add(str(default))
           if not paths: raise SystemExit('manifest has no proposed target files')
+          name=os.path.basename(os.environ['MANIFEST'])
+          m=re.search(r'beta1-contextual-copyedit-(\d{3})-reviewed\.json$', name)
+          if not m:
+              raise SystemExit(f'cannot derive review batch from manifest name: {name}')
+          batch=m.group(1)
+          if multifile:
+              source_head=str(data.get('source_head',''))
+              if not re.fullmatch(r'[0-9a-f]{40}', source_head):
+                  raise SystemExit('multifile manifest missing valid source_head')
+              pinned='a98d9ce29f361d666ec23da0dcfd351f24537ffd'
+              if data.get('english_reference_sha') != pinned:
+                  raise SystemExit('multifile manifest English reference is not pinned')
+              head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+              if subprocess.run(
+                  ['git','merge-base','--is-ancestor',source_head,head],
+                  stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+              ).returncode != 0:
+                  raise SystemExit(f'manifest source_head {source_head} is not an ancestor of HEAD {head}')
+              if os.environ.get('OVERRIDES'):
+                  raise SystemExit('overrides are not supported for current multifile reviewed manifests')
+          with open(os.environ['GITHUB_ENV'],'a',encoding='utf-8') as f:
+              f.write('MULTIFILE_SCHEMA='+('1' if multifile else '0')+'\n')
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
+              f.write('review_batch='+batch+'\n')
           for path in sorted(paths): print(path)
           PY
 
       - name: Apply exact reviewed semantic values
         run: |
-          args=(--manifest "$MANIFEST" --require-base-sha --json /tmp/copyedit-apply.json)
-          if [ -n "$OVERRIDES" ]; then args+=(--overrides "$OVERRIDES"); fi
-          python3 tools/korean/apply-reviewed-copyedit.py "${args[@]}"
+          set -euo pipefail
+          if [ "$MULTIFILE_SCHEMA" = 1 ]; then
+            python3 tools/korean/apply-multifile-reviewed-copyedit.py \
+              --manifest "$MANIFEST" --apply --json /tmp/copyedit-apply.json
+          else
+            args=(--manifest "$MANIFEST" --require-base-sha --json /tmp/copyedit-apply.json)
+            if [ -n "$OVERRIDES" ]; then args+=(--overrides "$OVERRIDES"); fi
+            python3 tools/korean/apply-reviewed-copyedit.py "${args[@]}"
+          fi
 
       - name: Invalidate stale persisted layouts for build-owned reflow
         run: python3 tools/korean/qa-layout-drift.py --invalidate-drift | tee /tmp/layout-invalidate.txt
 
       - name: Verify reviewed values and zero semantic layout drift
         run: |
-          args=(--manifest "$MANIFEST" --require-base-sha --verify --json /tmp/copyedit-verify.json)
-          if [ -n "$OVERRIDES" ]; then args+=(--overrides "$OVERRIDES"); fi
-          python3 tools/korean/apply-reviewed-copyedit.py "${args[@]}"
+          set -euo pipefail
+          if [ "$MULTIFILE_SCHEMA" = 1 ]; then
+            python3 tools/korean/apply-multifile-reviewed-copyedit.py \
+              --manifest "$MANIFEST" --json /tmp/copyedit-verify.json
+          else
+            args=(--manifest "$MANIFEST" --require-base-sha --verify --json /tmp/copyedit-verify.json)
+            if [ -n "$OVERRIDES" ]; then args+=(--overrides "$OVERRIDES"); fi
+            python3 tools/korean/apply-reviewed-copyedit.py "${args[@]}"
+          fi
           python3 tools/korean/qa-layout-drift.py
           python3 tools/korean/audit-beta1-persisted-layouts.py --json /tmp/persisted-layout-audit.json
 
@@ -134,7 +182,9 @@ jobs:
           retention-days: 30
 
       - name: Commit accepted batch only if remote head is unchanged
+        id: commit
         run: |
+          set -euo pipefail
           BASE_HEAD="$(cat /tmp/copyedit-base-head.txt)"
           git fetch origin milestone/Beta1
           REMOTE_HEAD="$(git rev-parse origin/milestone/Beta1)"
@@ -146,4 +196,13 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           while IFS= read -r path; do git add "$path"; done < /tmp/copyedit-target-files.txt
           git commit -m "copyedit: apply Beta1 reviewed batch from $(basename "$MANIFEST")"
+          semantic_sha="$(git rev-parse HEAD)"
           git push origin HEAD:milestone/Beta1
+          echo "semantic_sha=$semantic_sha" >> "$GITHUB_OUTPUT"
+
+  finalize-evidence:
+    needs: apply
+    uses: ./.github/workflows/beta1-finalize-evidence.yml
+    with:
+      batch: ${{ needs.apply.outputs.review_batch }}
+      semantic_sha: ${{ needs.apply.outputs.semantic_sha }}

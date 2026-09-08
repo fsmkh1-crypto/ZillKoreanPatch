@@ -1,0 +1,300 @@
+name: Beta1 finalize contextual review evidence
+
+on:
+  workflow_call:
+    inputs:
+      batch:
+        description: Three-digit contextual review batch
+        required: true
+        type: string
+      semantic_sha:
+        description: Final semantic commit SHA produced by reviewed copyedit apply
+        required: true
+        type: string
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Three-digit contextual review batch
+        required: true
+        type: string
+      semantic_sha:
+        description: Final semantic commit SHA produced by reviewed copyedit apply
+        required: true
+        type: string
+
+concurrency:
+  group: beta1-finalize-evidence
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    env:
+      BATCH: ${{ inputs.batch }}
+      SEMANTIC_SHA: ${{ inputs.semantic_sha }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          path: korean
+          fetch-depth: 0
+
+      - uses: actions/checkout@v6
+        with:
+          repository: HK47196/zill
+          ref: a98d9ce29f361d666ec23da0dcfd351f24537ffd
+          path: english
+
+      - name: Validate batch, semantic commit, and review evidence inputs
+        working-directory: korean
+        run: |
+          set -euo pipefail
+          if [[ ! "$BATCH" =~ ^[0-9]{3}$ ]]; then
+            echo "batch must be exactly three digits: $BATCH" >&2
+            exit 1
+          fi
+          if [[ ! "$SEMANTIC_SHA" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "semantic_sha must be a full 40-character commit SHA" >&2
+            exit 1
+          fi
+          selection="docs/audit/review/candidate-${BATCH}-selection.json"
+          manifest="docs/audit/beta1-contextual-copyedit-${BATCH}-reviewed.json"
+          request="docs/audit/review/scope-requests/${BATCH}.json"
+          test -s "$selection"
+          test -s "$manifest"
+          test -s "$request"
+          git cat-file -e "${SEMANTIC_SHA}^{commit}"
+          git merge-base --is-ancestor "$SEMANTIC_SHA" HEAD
+          python3 - "$BATCH" "$SEMANTIC_SHA" "$selection" "$manifest" "$request" <<'PY'
+          import json, re, subprocess, sys, tomllib
+          batch, semantic_sha, selection_path, manifest_path, request_path = sys.argv[1:]
+          selection=json.load(open(selection_path,encoding='utf-8'))
+          manifest=json.load(open(manifest_path,encoding='utf-8'))
+          request=json.load(open(request_path,encoding='utf-8'))
+          pinned='a98d9ce29f361d666ec23da0dcfd351f24537ffd'
+          if str(request.get('batch_id')) != batch:
+              raise SystemExit(f'scope request batch mismatch: {request.get("batch_id")} != {batch}')
+          if selection.get('pinned_english_sha') != pinned:
+              raise SystemExit('candidate selection English reference is not pinned')
+          if manifest.get('english_reference_sha') != pinned:
+              raise SystemExit('reviewed manifest English reference is not pinned')
+          source_head=str(manifest.get('source_head',''))
+          if not re.fullmatch(r'[0-9a-f]{40}', source_head):
+              raise SystemExit('reviewed manifest missing valid source_head')
+          if subprocess.run(
+              ['git','merge-base','--is-ancestor',source_head,semantic_sha],
+              stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+          ).returncode != 0:
+              raise SystemExit(f'manifest source_head {source_head} is not an ancestor of semantic commit {semantic_sha}')
+
+          cache={}
+          for record in manifest.get('records',[]):
+              rid=str(record['id'])
+              proposed=record['proposed_korean']
+              paths=record.get('paths') or []
+              if not paths:
+                  raise SystemExit(f'manifest record {rid} has no paths')
+              for path in paths:
+                  if path not in cache:
+                      raw=subprocess.check_output(
+                          ['git','show',f'{semantic_sha}:{path}'],
+                          text=True,encoding='utf-8'
+                      )
+                      cache[path]=tomllib.loads(raw)
+                  row=cache[path].get(rid)
+                  if not isinstance(row,dict):
+                      raise SystemExit(f'semantic commit missing id={rid} path={path}')
+                  if row.get('korean') != proposed:
+                      raise SystemExit(
+                          f'semantic commit does not contain reviewed after-value id={rid} path={path}'
+                      )
+          required=('reviewer','reviewed_at','review_method')
+          missing=[key for key in required if not request.get(key)]
+          if missing:
+              raise SystemExit(f'scope request missing review metadata: {missing}')
+          print(json.dumps({
+              'status':'PASS','batch':batch,'semantic_sha':semantic_sha,
+              'record_count':len(manifest.get('records',[]))
+          },ensure_ascii=False))
+          PY
+
+      - name: Register semantic review basis
+        working-directory: korean
+        run: |
+          python3 - "$BATCH" "$SEMANTIC_SHA" <<'PY'
+          import json, sys
+          from pathlib import Path
+          batch, semantic_sha = sys.argv[1:]
+          path=Path('docs/audit/beta1-context-review-commits.json')
+          doc=json.loads(path.read_text(encoding='utf-8'))
+          commits=doc.setdefault('semantic_commits',{})
+          old=commits.get(batch)
+          if old and old != semantic_sha:
+              raise SystemExit(f'review basis collision batch={batch}: existing={old} new={semantic_sha}')
+          commits[batch]=semantic_sha
+          path.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+
+      - name: Materialize this batch dense scope
+        working-directory: korean
+        run: |
+          python3 - "$BATCH" <<'PY'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          batch = sys.argv[1]
+          req_path = Path(f'docs/audit/review/scope-requests/{batch}.json')
+          selection_path = Path(f'docs/audit/review/candidate-{batch}-selection.json')
+          manifest_path = Path(f'docs/audit/beta1-contextual-copyedit-{batch}-reviewed.json')
+          mapping_path = Path('docs/audit/beta1-context-review-commits.json')
+          ledger_path = Path('translations/korean/review-ledger.jsonl')
+          out = Path(f'docs/audit/review/scope-{batch}.json')
+
+          req = json.loads(req_path.read_text(encoding='utf-8'))
+          selection = json.loads(selection_path.read_text(encoding='utf-8'))
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          mapping = json.loads(mapping_path.read_text(encoding='utf-8'))
+          reviewed_commit = mapping['semantic_commits'].get(batch)
+          if not reviewed_commit:
+              raise SystemExit(f'missing semantic commit mapping for batch {batch}')
+
+          ids = [str(x) for x in selection['ids']]
+          manifest_edit_ids = [str(r['id']) for r in manifest['records']]
+          if len(ids) != int(selection['candidate_count']) or len(ids) != len(set(ids)):
+              raise SystemExit(f'candidate selection population mismatch for batch {batch}')
+          id_set = set(ids)
+          edit_ids = [rid for rid in manifest_edit_ids if rid in id_set]
+          out_of_scope_edit_ids = sorted(set(manifest_edit_ids) - id_set, key=int)
+          if out_of_scope_edit_ids:
+              covered = set()
+              for line in ledger_path.read_text(encoding='utf-8').splitlines():
+                  if line.strip():
+                      covered.add(str(json.loads(line)['id']))
+              unsafe = sorted(set(out_of_scope_edit_ids) - covered, key=int)
+              if unsafe:
+                  raise SystemExit(
+                      f'manifest edits outside candidate selection are not previously covered for batch {batch}: {unsafe}'
+                  )
+
+          exclusions = req.get('exclusions', [])
+          exclusion_ids = {
+              str(x['id']) if isinstance(x, dict) else str(x)
+              for x in exclusions
+          }
+          if not exclusion_ids.issubset(id_set):
+              raise SystemExit(f'exclusions are outside candidate selection for batch {batch}')
+          if set(edit_ids) & exclusion_ids:
+              raise SystemExit(f'edit/exclusion overlap for batch {batch}')
+
+          scope = {
+              'schema_version': 1,
+              'scope_id': f'S-{batch}',
+              'batch_id': batch,
+              'kind': 'sequential_full_read',
+              'reviewed_commit': reviewed_commit,
+              'english_sha': selection['pinned_english_sha'],
+              'source_files': [str(x) for x in selection['source_paths']],
+              'ids': ids,
+              'edit_ids': edit_ids,
+              'exclusions': exclusions,
+              'packet_sha256': '',
+              'reviewer': req['reviewer'],
+              'reviewed_at': req['reviewed_at'],
+              'review_method': req['review_method'],
+          }
+
+          if out.exists():
+              existing=json.loads(out.read_text(encoding='utf-8'))
+              comparable=('reviewed_commit','english_sha','ids','edit_ids','exclusions','reviewer','reviewed_at','review_method')
+              if all(existing.get(key)==scope.get(key) for key in comparable):
+                  print(json.dumps({
+                      'status':'UNCHANGED','batch':batch,
+                      'id_count':len(ids),'edit_count':len(edit_ids)
+                  },ensure_ascii=False))
+                  raise SystemExit(0)
+
+          tmp = Path(f'docs/audit/review/.scope-{batch}-packet-input.json')
+          tmp.write_text(json.dumps(scope,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+          try:
+              raw=subprocess.check_output([
+                  'python3','tools/korean/build-beta1-review-packet.py',
+                  '--english-root','../english','--scope',str(tmp)
+              ],text=True,encoding='utf-8')
+              packet=json.loads(raw)
+          finally:
+              tmp.unlink(missing_ok=True)
+          scope['packet_sha256']=packet['packet_sha256']
+          out.write_text(json.dumps(scope,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+          print(json.dumps({
+              'status':'PASS','batch':batch,'id_count':len(ids),
+              'edit_count':len(edit_ids),'exclusion_count':len(exclusion_ids),
+              'packet_sha256':scope['packet_sha256']
+          },ensure_ascii=False))
+          PY
+          git diff --check
+
+      - name: Determine whether derived evidence needs rebuilding
+        id: evidence
+        working-directory: korean
+        run: |
+          if git diff --quiet -- \
+            docs/audit/beta1-context-review-commits.json \
+            "docs/audit/review/scope-${BATCH}.json"
+          then
+            echo "needs_rebuild=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "needs_rebuild=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify this dense review packet
+        working-directory: korean
+        run: |
+          python3 tools/korean/build-beta1-review-packet.py \
+            --english-root ../english \
+            --scope "docs/audit/review/scope-${BATCH}.json" \
+            --verify
+
+      - name: Rebuild language ledger and coverage once
+        if: steps.evidence.outputs.needs_rebuild == '1'
+        working-directory: korean
+        run: |
+          test -s docs/audit/beta1-review-consumer-evidence.json
+          python3 tools/korean/build-beta1-review-ledger.py --english-root ../english
+          python3 tools/korean/enrich-beta1-review-ledger.py \
+            --consumer-map docs/audit/beta1-review-consumer-evidence.json
+          git diff --check
+
+      - name: Commit finalized evidence only if remote head is unchanged
+        if: steps.evidence.outputs.needs_rebuild == '1'
+        working-directory: korean
+        run: |
+          set -euo pipefail
+          BASE_HEAD="$(git rev-parse HEAD)"
+          git fetch origin milestone/Beta1
+          REMOTE_HEAD="$(git rev-parse origin/milestone/Beta1)"
+          if [ "$REMOTE_HEAD" != "$BASE_HEAD" ]; then
+            echo "remote milestone/Beta1 moved during evidence finalization: base=$BASE_HEAD remote=$REMOTE_HEAD" >&2
+            echo "rerun this workflow with the same batch and semantic_sha" >&2
+            exit 1
+          fi
+          paths=(
+            docs/audit/beta1-context-review-commits.json
+            "docs/audit/review/scope-${BATCH}.json"
+            translations/korean/review-ledger.jsonl
+            docs/audit/beta1-review-coverage.md
+            docs/audit/beta1-review-groups.json
+          )
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "${paths[@]}"
+          if git diff --cached --quiet; then
+            echo 'Finalized evidence already current.'
+            exit 0
+          fi
+          git commit -m "audit: finalize Beta1 contextual review ${BATCH} evidence"
+          git push origin HEAD:milestone/Beta1

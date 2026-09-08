@@ -8,6 +8,7 @@ on:
       - 'work/korean-results/**'
       - 'work/korean-staging/**'
       - 'work/korean-packets/**'
+      - 'docs/audit/**'
   push:
     paths-ignore:
       - 'translations/korean/messages/**'
@@ -15,6 +16,7 @@ on:
       - 'work/korean-results/**'
       - 'work/korean-staging/**'
       - 'work/korean-packets/**'
+      - 'docs/audit/**'
 
 permissions:
   contents: read
