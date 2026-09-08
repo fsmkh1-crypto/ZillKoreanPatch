@@ -1,6 +1,10 @@
 name: Beta1 reviewed manifest materializer
 
 on:
+  push:
+    branches: [milestone/Beta1]
+    paths:
+      - 'docs/audit/review/scope-requests/*.json'
   workflow_dispatch:
     inputs:
       batch:
@@ -24,15 +28,53 @@ jobs:
           ref: milestone/Beta1
           fetch-depth: 0
 
-      - name: Materialize requested reviewed manifest only
+      - name: Resolve requested batch
+        id: batch
         env:
-          BATCH: ${{ inputs.batch }}
+          INPUT_BATCH: ${{ inputs.batch }}
+          EVENT_BEFORE: ${{ github.event.before }}
         run: |
           set -euo pipefail
-          if [[ ! "$BATCH" =~ ^[0-9]{3}$ ]]; then
-            echo "batch must be exactly three digits: $BATCH" >&2
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            batch="$INPUT_BATCH"
+          elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            before="$EVENT_BEFORE"
+            if [[ ! "$before" =~ ^[0-9a-f]{40}$ ]] || [ "$before" = "0000000000000000000000000000000000000000" ]; then
+              echo "push event is missing a usable before SHA" >&2
+              exit 1
+            fi
+            mapfile -t changed < <(
+              git diff --name-only --diff-filter=AM "$before" "$GITHUB_SHA" -- \
+                'docs/audit/review/scope-requests/*.json'
+            )
+            if [ "${#changed[@]}" -ne 1 ]; then
+              echo "expected exactly one added/modified scope request, found ${#changed[@]}: ${changed[*]-}" >&2
+              exit 1
+            fi
+            if [[ ! "${changed[0]}" =~ ^docs/audit/review/scope-requests/([0-9]{3})\.json$ ]]; then
+              echo "cannot derive batch from scope request: ${changed[0]}" >&2
+              exit 1
+            fi
+            batch="${BASH_REMATCH[1]}"
+          else
+            echo "unsupported event: $GITHUB_EVENT_NAME" >&2
             exit 1
           fi
+          if [[ ! "$batch" =~ ^[0-9]{3}$ ]]; then
+            echo "batch must be exactly three digits: $batch" >&2
+            exit 1
+          fi
+          request="docs/audit/review/scope-requests/${batch}.json"
+          proposal="docs/audit/review/proposals-${batch}.json"
+          test -s "$request"
+          test -s "$proposal"
+          echo "batch=$batch" >> "$GITHUB_OUTPUT"
+
+      - name: Materialize requested reviewed manifest only
+        env:
+          BATCH: ${{ steps.batch.outputs.batch }}
+        run: |
+          set -euo pipefail
           proposal="docs/audit/review/proposals-${BATCH}.json"
           output="docs/audit/beta1-contextual-copyedit-${BATCH}-reviewed.json"
           test -s "$proposal"
@@ -46,7 +88,7 @@ jobs:
 
       - name: Commit requested reviewed manifest only if remote head is unchanged
         env:
-          BATCH: ${{ inputs.batch }}
+          BATCH: ${{ steps.batch.outputs.batch }}
         run: |
           set -euo pipefail
           output="docs/audit/beta1-contextual-copyedit-${BATCH}-reviewed.json"
@@ -59,7 +101,7 @@ jobs:
           REMOTE_HEAD="$(git rev-parse origin/milestone/Beta1)"
           if [ "$REMOTE_HEAD" != "$BASE_HEAD" ]; then
             echo "remote milestone/Beta1 moved during manifest materialization: base=$BASE_HEAD remote=$REMOTE_HEAD" >&2
-            echo "rerun this workflow with the same batch" >&2
+            echo "rerun the failed job after confirming the same scope request and proposal are still authoritative" >&2
             exit 1
           fi
           git config user.name 'github-actions[bot]'
