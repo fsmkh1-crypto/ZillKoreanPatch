@@ -7,8 +7,8 @@
   "reviewed_at": "2026-09-08",
   "review_method": "manual_contextual_review_ja_en_ko_full_batch",
   "total": 1200,
-  "keep": 1175,
-  "edit": 25,
+  "keep": 1177,
+  "edit": 23,
   "excluded": 0,
-  "notes": "Batch 043 full manual triage: all 1200 candidate records were read directly in source order with Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as the localization/reference patch. KEEP=1175, EDIT=25, excluded=0. Duplicate or repeated in-batch wording was kept internally consistent where edited; no unreviewed out-of-scope propagation was performed."
+  "notes": "Batch 043 full manual triage: all 1200 candidate records were read directly in source order with Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as the localization/reference patch. KEEP=1177, EDIT=23, excluded=0. Two initially considered edits (1360522 and 1360682) were retained because applying them would create repeated-source inconsistency against records outside this batch; no unreviewed out-of-scope propagation was performed. In-batch repeated wording was kept internally consistent where edited."
 }
