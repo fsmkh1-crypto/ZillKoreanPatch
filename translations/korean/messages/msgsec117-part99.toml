@@ -38,7 +38,7 @@ korean = "아, 맞다. 제 동료를 소개할게요!<end>"
 
 ["1170009"]
 japanese = "<if><value:$29><equal>%0初めまして、ボウヤ。<end>初めまして、子猫ちゃん。<end>"
-korean = "<if><value:$29><equal>%0처음 뵙겠군, 꼬마야.<end>처음 뵙겠어, 아가씨.<end>"
+korean = "<if><value:$29><equal>%0처음 뵙겠군, 꼬마야.<end>처음 뵙겠어, 아기 고양이야.<end>"
 
 ["1170010"]
 japanese = "あ、この人は、カフィンです。<line-break>えと、で、こちらが…<end>"
@@ -122,7 +122,7 @@ korean = "들을 생각이 전혀 없는 것 같네. …강압적인 남자가 �
 
 ["1170030"]
 japanese = "<value:$28>さん！<end>"
-korean = "<value:$28>씨!<end>"
+korean = "<value:$28> 씨!<end>"
 
 ["1170031"]
 japanese = "あ、あ、<value:$28>さん！<end>"
@@ -162,7 +162,7 @@ korean = "시문원이라고? …우리, 귀찮은 녀석들에게 찍혔네.<en
 
 ["1170041"]
 japanese = "えと、…せもんいん？<end>"
-korean = "저기, …세몬인?<end>"
+korean = "저기, …시문원?<end>"
 
 ["1170042"]
 japanese = "施文院とは、天空神ノトゥーンに　<line-break>仕える宗派のひとつだ。<line-break>　<line-break>もともとは、<line-break>各地を巡って邪悪なものを<line-break>封印していたのだ。<end>"
@@ -258,7 +258,7 @@ korean = "뭐, 노엘이 원한다면 다음엔 내 미모로 캐물어 줄게. 
 
 ["1170067"]
 japanese = "そ、そうだな…。<end>"
-korean = "그, 그렇군….<end>"
+korean = "그, 그래….<end>"
 
 ["1170068"]
 japanese = "<if><value:$29><equal>%0ボウヤ、今回もありがと。<line-break>お礼はそのうち、させてもらうから<line-break>期待しててね？<end>子猫ちゃん、今回もありがと。<line-break>お礼はそのうち、させてもらうから<line-break>期待しててね？<end>"

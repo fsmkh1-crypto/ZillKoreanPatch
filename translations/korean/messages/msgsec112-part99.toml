@@ -42,7 +42,7 @@ korean = "안녕, <value:$28>. 이런 때까지 너와 함께라니 정말 운�
 
 ["1120010"]
 japanese = "<if><value:$01><equal>2シャリ！！<line-break>巫女たちはどこにいるの！？ <end><if><value:$01><equal>3巫女は…<line-break>イークレムンはどこにおる！！ <end><if><value:$01><equal>4一度巫女たちが…って、<line-break>巫女たちはどこにいるの？ <end><if><value:$01><equal>5そ、そうだ、巫女だよ！！<line-break>彼女たちはどこにいるんだ！！ <end><if><value:$01><equal>13…言え。<line-break>巫女たちをどこに隠した？ <end><if><value:$01><equal>10あ、そうだ、巫女。<line-break>彼女たちはどこにいるんだよ！！ <end><if><value:$01><equal>14そうじゃ、わしらは<line-break>その娘らを取り戻しに来たんじゃ。<line-break>どこにいるか言うのじゃ！！ <end><if><value:$01><equal>15彼女たち、無事なんだろうね？<line-break>どこにいるんだ、教えろ！！ <end><if><value:$01><equal>17こっちはあんたなんかじゃなくて<line-break>巫女の方に会いたいのよ！<line-break>どこにいるか教えなさいよー！！ <end><if><value:$01><equal>19お姉ちゃんたちをどこに隠したの！？ <end><if><value:$01><equal>27巫女たちをどこに隠した？ <end><if><value:$01><equal>26巫女たちをどこに隠したのじゃ！<end><if><value:$01><equal>193お、教えてください！<line-break>巫女さんたちは<line-break>ど、どこにいるんですか！？<end><if><value:$01><equal>191シャリ！！<line-break>巫女たちをどこにやったの！？<end><if><value:$01><equal>190巫女たちをどこに隠した！！<line-break>答えろ！！<end>その巫女たちの方に<line-break>会いにきたんだ。<line-break>どこにいるか教えなよ！ <end>"
-korean = "<if><value:$01><equal>2샤리!! 무녀들은 어디 있어!?<end><if><value:$01><equal>3무녀는… 이크렘문은 어디 있느냐!!<end><if><value:$01><equal>4아까 무녀들이… 아니, 무녀들은 어디 있어?<end><if><value:$01><equal>5그, 그래, 무녀 말이야!! 그녀들은 어디 있어!!<end><if><value:$01><equal>13…말해. 무녀들을 어디에 숨겼지?<end><if><value:$01><equal>10아, 그래, 무녀. 그녀들은 어디 있는 거야!!<end><if><value:$01><equal>14그래, 우리는 그 아이들을 되찾으러 왔다. 어디 있는지 말하는 게다!!<end><if><value:$01><equal>15그녀들, 무사한 거지? 어디 있어, 말해!!<end><if><value:$01><equal>17우린 너 같은 게 아니라 무녀들을 만나러 온 거야! 어디 있는지 말해!<end><if><value:$01><equal>19언니들을 어디에 숨겼어!?<end><if><value:$01><equal>27무녀들을 어디에 숨겼지?<end><if><value:$01><equal>26무녀들을 어디에 숨긴 게냐!<end><if><value:$01><equal>193가, 가르쳐 주세요! 무녀분들은 어, 어디 계신가요!?<end><if><value:$01><equal>191샤리!! 무녀들을 어디로 데려간 거야!?<end><if><value:$01><equal>190무녀들을 어디에 숨겼지!! 대답해!!<end>그 무녀들을 만나러 왔어. 어디 있는지 말해!<end>"
+korean = "<if><value:$01><equal>2샤리!! 무녀들은 어디 있어!?<end><if><value:$01><equal>3무녀는… 이크레문은 어디 있느냐!!<end><if><value:$01><equal>4아까 무녀들이… 아니, 무녀들은 어디 있어?<end><if><value:$01><equal>5그, 그래, 무녀 말이야!! 그녀들은 어디 있어!!<end><if><value:$01><equal>13…말해. 무녀들을 어디에 숨겼지?<end><if><value:$01><equal>10아, 그래, 무녀. 그녀들은 어디 있는 거야!!<end><if><value:$01><equal>14그래, 우리는 그 아이들을 되찾으러 왔다. 어디 있는지 말하는 게다!!<end><if><value:$01><equal>15그녀들, 무사한 거지? 어디 있어, 말해!!<end><if><value:$01><equal>17우린 너 같은 게 아니라 무녀들을 만나러 온 거야! 어디 있는지 말해!<end><if><value:$01><equal>19언니들을 어디에 숨겼어!?<end><if><value:$01><equal>27무녀들을 어디에 숨겼지?<end><if><value:$01><equal>26무녀들을 어디에 숨긴 게냐!<end><if><value:$01><equal>193가, 가르쳐 주세요! 무녀분들은 어, 어디 계신가요!?<end><if><value:$01><equal>191샤리!! 무녀들을 어디로 데려간 거야!?<end><if><value:$01><equal>190무녀들을 어디에 숨겼지!! 대답해!!<end>그 무녀들을 만나러 왔어. 어디 있는지 말해!<end>"
 
 ["1120011"]
 japanese = "今、彼女たちには、<line-break>この都市の底の動力の間で<line-break>動力になってもらってるよ。<end>"
@@ -166,7 +166,7 @@ korean = "저는 지금까지 이 덧없는 생을 이렇게까지 아깝다고 
 
 ["1120042"]
 japanese = "　　　　　　…<value:$28>さん、<line-break>　　　　　　<value:$28>さん…。<line-break>　　　　　　聞こえますか…私の声…。　　　　<line-break>　<line-break>　　　　　　<value:$28>さん…<line-break>　　　　　　イークレムンです。<line-break>　　　　　　私、うれしいです…。<line-break>　　　あなたがここまで来てくれたことが…。<end>"
-korean = "…<value:$28>님, <value:$28>님…. 들리나요… 제 목소리가…. <value:$28>님… 이크렘입니다. 저, 기뻐요…. 당신이 여기까지 와 주신 것이….<end>"
+korean = "…<value:$28>님, <value:$28>님…. 들리나요… 제 목소리가…. <value:$28>님… 이크레문입니다. 저, 기뻐요…. 당신이 여기까지 와 주신 것이….<end>"
 
 ["1120043"]
 japanese = "　　　　　この空中都市は墜落します。　　　　<line-break>　　　　　ごめんなさい…。今の私は<line-break>　　　　この都市に力を奪われていて、<line-break>　　　　それを防ぐことができません…。<line-break>　　　今の私に残された力でできることは、<line-break>　　　　　あなたをここから瞬間移動で<line-break>　　　　　外へと逃がすことくらいです。<end>"
@@ -174,7 +174,7 @@ korean = "이 공중도시는 추락합니다. 미안해요…. 지금의 저는
 
 ["1120044"]
 japanese = "イークレムン！！<end>"
-korean = "이클레문!!<end>"
+korean = "이크레문!!<end>"
 
 ["1120045"]
 japanese = "　　　　　　　アンギルダン様…。　　　　　　<line-break>　　　　　すいません、私は先に<line-break>　　　　お母様のもとへとまいります。<line-break>　　　　どうか、いつまでもお元気で。<line-break>　　　　　　　　さようなら、<line-break>　　　　　　<value:$28>さん、<line-break>　　　　　　　　さようなら、<line-break>　　　　　　アンギ…、お父様…。<end>"
@@ -190,7 +190,7 @@ korean = "안녕히…. 저는 미즈치들과 어머님 곁으로 가겠습니�
 
 ["1120048"]
 japanese = "<if><value:$01><equal>2空中都市が…<line-break>ラドラスが…落ちたのね。<line-break>　<line-break>………………。 <end><if><value:$01><equal>3おおおおぉぉーーーーー！！　　　　<line-break>イークレムン、<line-break>イークレムンよ…。<line-break>この父を…許してくれ…。<line-break>最後の最後まで、何ひとつ<line-break>父らしいことをしてやれなんだ…！ <end><if><value:$01><equal>4ああっ！！　落ちちゃったわ！<line-break>あそこには…、あの中には……。<line-break>　<line-break>…ダメ。<line-break>悲しすぎて、これ以上は<line-break>言葉にならないかも…。 <end><if><value:$01><equal>5ちくしょう！<line-break>ちくしょう！！<line-break>ちくしょう！！！　　　<line-break>助けられなかった！<line-break>誰も！　何も！<line-break>ち…くしょ……ぉ……！ <end><if><value:$01><equal>13クッ…！ <end><if><value:$01><equal>10うあああああ！！<line-break>ラドラス、落ちちまったぁぁぁ！！<line-break>姉ちゃん！　姉ちゃん！！<line-break>なあ、あの中の人たちは！？<line-break>巫女のみんなは！？<line-break>なあ、姉ちゃん、姉…ちゃん…。 <end><if><value:$01><equal>14ラドラスが…落ちよった…。<line-break>わしらの力が、わしらの力が<line-break>足りんかったばかりに…。<line-break>すまんかったなあ…。<line-break>本当に、すまんかったなあ…。 <end><if><value:$01><equal>15<value:$28>…。<line-break>ラドラスが…落ちたよ…。　<line-break>人が、たくさんの人が…。<line-break>くやしいよ…。<line-break>また、僕が無力なせいで…<line-break>僕には、何もできなかった…。 <end><if><value:$01><equal>17まぁったく！　人間のクセに<line-break>分不相応なものを作るから<line-break>こんなことになるのよ！！<line-break>…まったく…、<line-break>あんなもの作るから…。<line-break>ホントにもう…。 <end><if><value:$01><equal>19イヤだよぉ、<value:$28>！<line-break>ラドラス、落ちちゃったぁ！！<line-break>　<line-break>おねえちゃんたちも<line-break>砂漠の人たちも、死んじゃったぁ！<line-break>ひどいよ、ひどいよ……。 <end><if><value:$01><equal>26イズキヤルだけではのうて<line-break>巫女様方までも<line-break>救えなんだか…！<line-break>シャリ、<line-break>お主のねらいはなんじゃ？<line-break>何をやろうとしておる！？ <end><if><value:$01><equal>27彼らはあれを守るために生まれ<line-break>守るべくして死んだのだ。<line-break>悔いはあるまい。<line-break>それが定め。<line-break>もし、彼らでなければ<line-break>後の世の誰かがああなったのだ。<end><if><value:$01><equal>11あれが…定め…。<line-break>誰も、運命には逆らえない…。 <end><if><value:$01><equal>20………………。 <end><if><value:$01><equal>193そ、そんなことって…。<line-break>私たちだけが助かって…<line-break>あの中にいた人たちが…！<line-break>こんなの…ひどすぎます！！<end><if><value:$01><equal>191…ごめんなさい。<line-break>あたしたちの力が足りなくて…。<line-break>ごめん…ごめんね…。<end><if><value:$01><equal>190くそ！<line-break>俺の力が及ばなかったばかりに！<line-break>すまない！<end>"
-korean = "<if><value:$01><equal>2공중도시가… 라드라스가… 떨어졌어. ……………….<end><if><value:$01><equal>3오오오오오――!! 이크렘문, 이크렘문아…. 이 아비를 용서해다오…. 마지막까지 아비다운 일 하나 해 주지 못했다…!<end><if><value:$01><equal>4아아! 떨어졌어! 저 안에는…. …안 돼. 너무 슬퍼서 더는 말이 안 나와….<end><if><value:$01><equal>5젠장! 젠장!! 젠장!!! 구하지 못했어! 누구도! 아무것도! 제…길……!<end><if><value:$01><equal>13큭…!<end><if><value:$01><equal>10으아아아!! 라드라스가 떨어졌어!! 누나! 누나!! 저 안 사람들은!? 무녀들은!? 누나, 누…나….<end><if><value:$01><equal>14라드라스가… 떨어졌구나…. 우리 힘이 부족해서…. 미안하다…. 정말 미안하다….<end><if><value:$01><equal>15<value:$28>…. 라드라스가… 떨어졌어…. 많은 사람들이…. 분해…. 또 내가 무력해서… 아무것도 못 했어….<end><if><value:$01><equal>17정말! 인간 주제에 분수에 안 맞는 걸 만드니까 이런 일이 되는 거야!! …정말… 그런 걸 만드니까….<end><if><value:$01><equal>19싫어어, <value:$28>! 라드라스가 떨어졌어!! 언니들도 사막 사람들도 죽었어! 너무해, 너무해…….<end><if><value:$01><equal>26이즈키얄뿐 아니라 무녀님들까지 구하지 못했나…! 샤리, 네 목적은 뭐냐? 무슨 짓을 하려는 게냐!?<end><if><value:$01><equal>27그들은 그것을 지키기 위해 태어나 지키다 죽었다. 후회는 없겠지. 그것이 운명. 그들이 아니었다면 훗날 다른 누군가가 그렇게 됐을 것이다.<end><if><value:$01><equal>11저게… 운명…. 누구도 운명에는 거스를 수 없어….<end><if><value:$01><equal>20……………….<end><if><value:$01><equal>193그, 그럴 수가…. 우리만 살아남고 저 안 사람들은…! 이건… 너무해요!!<end><if><value:$01><equal>191…미안해. 우리가 힘이 부족해서…. 미안해… 미안해….<end><if><value:$01><equal>190젠장! 내 힘이 미치지 못해서! 미안하다!<end>"
+korean = "<if><value:$01><equal>2공중도시가… 라드라스가… 떨어졌어. ……………….<end><if><value:$01><equal>3오오오오오――!! 이크레문, 이크레문아…. 이 아비를 용서해다오…. 마지막까지 아비다운 일 하나 해 주지 못했다…!<end><if><value:$01><equal>4아아! 떨어졌어! 저 안에는…. …안 돼. 너무 슬퍼서 더는 말이 안 나와….<end><if><value:$01><equal>5젠장! 젠장!! 젠장!!! 구하지 못했어! 누구도! 아무것도! 제…길……!<end><if><value:$01><equal>13큭…!<end><if><value:$01><equal>10으아아아!! 라드라스가 떨어졌어!! 누나! 누나!! 저 안 사람들은!? 무녀들은!? 누나, 누…나….<end><if><value:$01><equal>14라드라스가… 떨어졌구나…. 우리 힘이 부족해서…. 미안하다…. 정말 미안하다….<end><if><value:$01><equal>15<value:$28>…. 라드라스가… 떨어졌어…. 많은 사람들이…. 분해…. 또 내가 무력해서… 아무것도 못 했어….<end><if><value:$01><equal>17정말! 인간 주제에 분수에 안 맞는 걸 만드니까 이런 일이 되는 거야!! …정말… 그런 걸 만드니까….<end><if><value:$01><equal>19싫어어, <value:$28>! 라드라스가 떨어졌어!! 언니들도 사막 사람들도 죽었어! 너무해, 너무해…….<end><if><value:$01><equal>26이즈키얄뿐 아니라 무녀님들까지 구하지 못했나…! 샤리, 네 목적은 뭐냐? 무슨 짓을 하려는 게냐!?<end><if><value:$01><equal>27그들은 그것을 지키기 위해 태어나 지키다 죽었다. 후회는 없겠지. 그것이 운명. 그들이 아니었다면 훗날 다른 누군가가 그렇게 됐을 것이다.<end><if><value:$01><equal>11저게… 운명…. 누구도 운명에는 거스를 수 없어….<end><if><value:$01><equal>20……………….<end><if><value:$01><equal>193그, 그럴 수가…. 우리만 살아남고 저 안 사람들은…! 이건… 너무해요!!<end><if><value:$01><equal>191…미안해. 우리가 힘이 부족해서…. 미안해… 미안해….<end><if><value:$01><equal>190젠장! 내 힘이 미치지 못해서! 미안하다!<end>"
 
 ["1120049"]
 japanese = "　動力部、不要生命体混入<line-break>　自動排除反応、動作開始<line-break>排除終了条件、生命活動停止<end>"
@@ -350,7 +350,7 @@ korean = "알고 있다. 처음 끌려갔던 제어실, 그곳으로 날아가�
 
 ["1120089"]
 japanese = "ホントに、時間がないみたいだね。<line-break>じゃあ、さっそく始めよう。<line-break>　<line-break>フレアとイークレムンは<line-break>自分たちの精霊の制御球の所に。<line-break>エアは転移の準備をしておいて。<end>"
-korean = "정말 시간이 없는 모양이네. 그럼 바로 시작하자. 플레어와 이크렘은 각자 자기 정령 제어구로 가. 에아는 전이 준비를 해 둬.<end>"
+korean = "정말 시간이 없는 모양이네. 그럼 바로 시작하자. 플레어와 이크레문은 각자 자기 정령 제어구로 가. 에아는 전이 준비를 해 둬.<end>"
 
 ["1120090"]
 japanese = "転移じゃと？<line-break>エステル、何を考えておる？<end>"
@@ -358,7 +358,7 @@ korean = "전이라고? 에스텔, 무슨 생각이냐?<end>"
 
 ["1120091"]
 japanese = "うん、まず、ボクが、せーの！　<line-break>って言ったら、フレアとイークレムンは<line-break>うまく地面に着くように念じて。<line-break>で、地面に着いたらもう一度<line-break>せーの！　って言うから、そしたら<line-break>制御球に、壊れろ！　って念じて。<end>"
-korean = "응, 먼저 내가 '하나, 둘!' 하면 플레어와 이클렘은 잘 땅에 닿도록 마음속으로 빌어 줘. 그리고 땅에 닿으면 내가 다시 '하나, 둘!' 할 테니까 그때 제어구에 '부서져!'라고 빌어.<end>"
+korean = "응, 먼저 내가 '하나, 둘!' 하면 플레어와 이크레문은 잘 땅에 닿도록 마음속으로 빌어 줘. 그리고 땅에 닿으면 내가 다시 '하나, 둘!' 할 테니까 그때 제어구에 '부서져!'라고 빌어.<end>"
 
 ["1120092"]
 japanese = "ここを、動かなくしよう。<line-break>二度と使えないように。<end>"
@@ -510,7 +510,7 @@ korean = "<value:$28>…. 나… 정말로…….<end>"
 
 ["1120129"]
 japanese = "よいか？　エステルよ。<end>"
-korean = "잘 듣거라, 에스텔.<end>"
+korean = "준비됐느냐, 에스텔?<end>"
 
 ["1120130"]
 japanese = "え！！<line-break>あ、あ、あ、ああ、うん。<line-break>よろしくお願い…します。<end>"
@@ -610,7 +610,7 @@ korean = "나의 힘을 나누어 주마. 땅의 무녀인 그대라면 받아�
 
 ["1120154"]
 japanese = "エステルの巫女としての力が<line-break>大きく引き出された。<end>"
-korean = "에스텔의 무녀로서의 힘이 크게 끌어내졌다.<end>"
+korean = "에스텔이 지닌 무녀의 힘이 크게 이끌어내졌다.<end>"
 
 ["1120155"]
 japanese = "すごい…。<line-break>これが、ボクの力…？<end>"
@@ -654,7 +654,7 @@ korean = "그런가. 그렇다면 억지로 강요하진 않겠다. 변덕스러
 
 ["1120165"]
 japanese = "　　　　　うつろいやすき人の子よ。　　　　　<line-break>　　　　　　気が変わったならば<line-break>　　　　　また我を訪ねるがよい。<end>　<line-break>　　　　　　　　　さらばだ。<end>"
-korean = " 변덕스러운 인간의 아이여. 마음이 바뀌었다면 다시 나를 찾아오거라.<end> 잘 가거라.<end>"
+korean = "변덕스러운 인간의 아이여. 마음이 바뀌었다면 다시 나를 찾아오거라.<end>잘 가거라.<end>"
 
 ["1120166"]
 japanese = "フン…地の巫女と<line-break>無限のソウルを持つ者か。<line-break>　<line-break>グラジェオンめ…<line-break>闇の力の高まりを知り、<line-break>我を滅ぼさんと欲したか。<end>"
