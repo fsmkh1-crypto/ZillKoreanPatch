@@ -5,16 +5,16 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **14,232 (33.873%)**
+- Valid contextual review: **15,432 (36.729%)**
   - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **12,904**
-  - direct `manifest_edit`: **1,152**
+  - dense `scope_full_read`: **14,076**
+  - direct `manifest_edit`: **1,180**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **27,784**
-- Approved registered manifest records (historical, non-deduplicated): **1,158**
-- Pending batches lacking a registered review basis: **037**
+- `UNREVIEWED` for contextual purposes: **26,584**
+- Approved registered manifest records (historical, non-deduplicated): **1,186**
+- Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
 Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.
@@ -26,7 +26,7 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 - `ALIAS_GROUP`: **0** among ledger rows
 - `SOURCE_ANOMALY`: **0** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
-- `FIXED_BUFFER`: **5815** among ledger rows; full accepted population **19380**
+- `FIXED_BUFFER`: **6591** among ledger rows; full accepted population **19380**
 - `RUNTIME_PENDING`: **26** among ledger rows; full accepted population **47**
 - English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
@@ -35,10 +35,10 @@ Consumer/storage/runtime metadata remains in each ledger row for traceability, b
 ## Language propagation candidates (not coverage)
 
 Candidate signature is exact Japanese + exact pinned English + exact Korean. EN mismatch is an unconditional split.
-- Unique language signatures: **35,729**
-- Duplicate groups: **2,666**
-- IDs inside duplicate groups: **8,953**
-- Potential extra IDs: **6,287**
+- Unique language signatures: **35,730**
+- Duplicate groups: **2,665**
+- IDs inside duplicate groups: **8,951**
+- Potential extra IDs: **6,286**
 
 ## Dense review scopes
 
@@ -62,6 +62,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | S-034 | 1,200 | 1,170 | 30 | 0 | `docs/audit/review/scope-034.json` |
 | S-035 | 1,200 | 1,175 | 25 | 0 | `docs/audit/review/scope-035.json` |
 | S-036 | 1,200 | 1,172 | 28 | 0 | `docs/audit/review/scope-036.json` |
+| S-037 | 1,200 | 1,172 | 28 | 0 | `docs/audit/review/scope-037.json` |
 
 ## Historical edit manifests
 
@@ -102,7 +103,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 034 | REGISTERED | 31 | 31 | `docs/audit/beta1-contextual-copyedit-034-reviewed.json` |
 | 035 | REGISTERED | 25 | 25 | `docs/audit/beta1-contextual-copyedit-035-reviewed.json` |
 | 036 | REGISTERED | 28 | 28 | `docs/audit/beta1-contextual-copyedit-036-reviewed.json` |
-| 037 | PENDING_BASIS | 29 | 29 | `docs/audit/beta1-contextual-copyedit-037-reviewed.json` |
+| 037 | REGISTERED | 28 | 28 | `docs/audit/beta1-contextual-copyedit-037-reviewed.json` |
 
 ## Completion/quality rule
 
