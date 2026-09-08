@@ -44,7 +44,7 @@ jobs:
             --overwrite
           git diff --check
 
-      - name: Commit requested reviewed manifest
+      - name: Commit requested reviewed manifest only if remote head is unchanged
         env:
           BATCH: ${{ inputs.batch }}
         run: |
@@ -54,10 +54,16 @@ jobs:
             echo "Reviewed manifest ${BATCH} already current."
             exit 0
           fi
+          BASE_HEAD="$(git rev-parse HEAD)"
+          git fetch origin milestone/Beta1
+          REMOTE_HEAD="$(git rev-parse origin/milestone/Beta1)"
+          if [ "$REMOTE_HEAD" != "$BASE_HEAD" ]; then
+            echo "remote milestone/Beta1 moved during manifest materialization: base=$BASE_HEAD remote=$REMOTE_HEAD" >&2
+            echo "rerun this workflow with the same batch" >&2
+            exit 1
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add "$output"
           git commit -m "audit: materialize Beta1 reviewed copyedit manifest ${BATCH}"
-          git fetch origin milestone/Beta1
-          git rebase origin/milestone/Beta1
           git push origin HEAD:milestone/Beta1
