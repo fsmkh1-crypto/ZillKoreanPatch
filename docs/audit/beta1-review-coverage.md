@@ -14,7 +14,7 @@
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
 - `UNREVIEWED` for contextual purposes: **35,002**
 - Approved registered manifest records (historical, non-deduplicated): **986**
-- Pending batches lacking a registered review basis: **none**
+- Pending batches lacking a registered review basis: **031**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
 Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.
@@ -90,6 +90,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 028 | REGISTERED | 61 | 61 | `docs/audit/beta1-contextual-copyedit-028-reviewed.json` |
 | 029 | REGISTERED | 174 | 174 | `docs/audit/beta1-contextual-copyedit-029-reviewed.json` |
 | 030 | REGISTERED | 83 | 83 | `docs/audit/beta1-contextual-copyedit-030-reviewed.json` |
+| 031 | PENDING_BASIS | 22 | 22 | `docs/audit/beta1-contextual-copyedit-031-reviewed.json` |
 
 ## Completion/quality rule
 
