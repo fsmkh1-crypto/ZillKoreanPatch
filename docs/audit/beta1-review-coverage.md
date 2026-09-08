@@ -5,16 +5,16 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **15,432 (36.729%)**
+- Valid contextual review: **15,475 (36.831%)**
   - legacy direct `full_read`: **176**
   - dense `scope_full_read`: **14,076**
-  - direct `manifest_edit`: **1,180**
+  - direct `manifest_edit`: **1,223**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **26,584**
-- Approved registered manifest records (historical, non-deduplicated): **1,186**
-- Pending batches lacking a registered review basis: **038**
+- `UNREVIEWED` for contextual purposes: **26,541**
+- Approved registered manifest records (historical, non-deduplicated): **1,229**
+- Pending batches lacking a registered review basis: **039**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
 Structural drift uses `SHA256(layout + NUL + physical_consumer_signature)` and sets `LAYOUT_RECHECK` only.
@@ -26,7 +26,7 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 - `ALIAS_GROUP`: **0** among ledger rows
 - `SOURCE_ANOMALY`: **0** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
-- `FIXED_BUFFER`: **6591** among ledger rows; full accepted population **19380**
+- `FIXED_BUFFER`: **6606** among ledger rows; full accepted population **19380**
 - `RUNTIME_PENDING`: **26** among ledger rows; full accepted population **47**
 - English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
@@ -104,7 +104,8 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 035 | REGISTERED | 25 | 25 | `docs/audit/beta1-contextual-copyedit-035-reviewed.json` |
 | 036 | REGISTERED | 28 | 28 | `docs/audit/beta1-contextual-copyedit-036-reviewed.json` |
 | 037 | REGISTERED | 28 | 28 | `docs/audit/beta1-contextual-copyedit-037-reviewed.json` |
-| 038 | PENDING_BASIS | 43 | 43 | `docs/audit/beta1-contextual-copyedit-038-reviewed.json` |
+| 038 | REGISTERED | 43 | 43 | `docs/audit/beta1-contextual-copyedit-038-reviewed.json` |
+| 039 | PENDING_BASIS | 39 | 39 | `docs/audit/beta1-contextual-copyedit-039-reviewed.json` |
 
 ## Completion/quality rule
 
