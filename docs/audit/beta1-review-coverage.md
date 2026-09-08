@@ -5,12 +5,12 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **9,414 (22.406%)**
+- Valid contextual review: **9,413 (22.403%)**
   - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **8,206**
+  - dense `scope_full_read`: **8,205**
   - direct `manifest_edit`: **1,032**
   - propagated: **0** (not yet credited)
-- `CONTEXT_STALE`: **0**
+- `CONTEXT_STALE`: **1**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
 - `UNREVIEWED` for contextual purposes: **32,602**
 - Approved registered manifest records (historical, non-deduplicated): **1,037**
@@ -35,10 +35,10 @@ Consumer/storage/runtime metadata remains in each ledger row for traceability, b
 ## Language propagation candidates (not coverage)
 
 Candidate signature is exact Japanese + exact pinned English + exact Korean. EN mismatch is an unconditional split.
-- Unique language signatures: **35,730**
-- Duplicate groups: **2,663**
-- IDs inside duplicate groups: **8,949**
-- Potential extra IDs: **6,286**
+- Unique language signatures: **35,724**
+- Duplicate groups: **2,668**
+- IDs inside duplicate groups: **8,960**
+- Potential extra IDs: **6,292**
 
 ## Dense review scopes
 
