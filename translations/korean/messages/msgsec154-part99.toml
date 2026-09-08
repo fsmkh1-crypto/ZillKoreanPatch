@@ -282,7 +282,7 @@ korean = "어라? 혹시 나를 적으로 돌리겠다는 뜻인가?"
 
 ["1540072"]
 japanese = "ああ。ずるいね、エルファス。<line-break>君は姉さんの代わりを…安らぎを<line-break><value:$28>に求めてるんだ。<end>"
-korean = "그래. 치사하네, 엘파스. 넌 누나의 대신을… 안식을 <value:$28>에게서 찾고 있는 거야.<end>"
+korean = "그래. 치사하네, 엘파스. 넌 <value:$28>에게서 누나를 대신할 존재를… 안식을 찾고 있는 거야.<end>"
 
 ["1540073"]
 japanese = "違う。<value:$28>が…。<line-break>僕にとって大事な存在だからだ。<line-break>　<line-break>僕はただ<value:$28>を<line-break>守りたい…。<end>"
@@ -382,7 +382,7 @@ korean = "조용히 해 줄래, 네메아. 네가 누나에게 한 짓을 내가
 
 ["1540106"]
 japanese = "フッ。いずれすべてが終われば、<line-break>語り合う機会もあるだろう。<line-break>　<line-break>今はただ鬼神となって、奴らの野望を<line-break>粉砕せねばならん。<end>"
-korean = "훗. 언젠가 모든 게 끝나면 서로 이야기할 기회도 있겠지. 지금은 그저 귀신이 되어 놈들의 야망을 분쇄해야 한다.<end>"
+korean = "훗. 언젠가 모든 게 끝나면 서로 이야기할 기회도 있겠지. 지금은 그저 전쟁의 신이 되어 놈들의 야망을 분쇄해야 한다.<end>"
 
 ["1540107"]
 japanese = "奇遇だね。認めたくはないけど<line-break>初めて意見が合った。<line-break>急ごう、<value:$28>。<line-break>今ならまだ間に合う。<line-break>バロルが本来の力を取り戻す前に<line-break>滅ぼすんだ。<end>"
