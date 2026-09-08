@@ -7,8 +7,8 @@
   "reviewed_at": "2026-09-09",
   "review_method": "manual_contextual_review_ja_en_ko_full_batch",
   "total": 1200,
-  "keep": 1126,
-  "edit": 74,
+  "keep": 1131,
+  "edit": 69,
   "excluded": 0,
-  "notes": "Batch 050 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Initial decisions: KEEP=1126, EDIT=74, excluded=0. No out-of-scope propagation, new QA logic, or workflow changes."
+  "notes": "Batch 050 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Final after QA-3 non-regression: KEEP=1131, EDIT=69, excluded=0. Deferred 1720061, 1720064, 1720106, 1720110, and 1780090 to KEEP because their otherwise-correct edits would create new repeated-source inconsistencies with identical Japanese outside batch 050. No out-of-scope propagation, new QA logic, or workflow changes."
 }
