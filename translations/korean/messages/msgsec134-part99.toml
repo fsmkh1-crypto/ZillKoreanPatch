@@ -158,7 +158,7 @@ korean = "…끝나지 않는다…. 이 정도로는… 끝나지 않는다아�
 
 ["1340039"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
-korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
+korean = "<value:$28>, 용살자의 칭호를 얻었다.<end>"
 
 ["1340040"]
 japanese = "…そんな！　　　　　　<line-break>　<line-break>　<line-break>…いえ、<line-break>あなたが再び訪れる日を<line-break>待つことにします。<end>"
@@ -370,7 +370,7 @@ korean = "퓨이~!<end>"
 
 ["1340092"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
-korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
+korean = "<value:$28>, 용살자의 칭호를 얻었다.<end>"
 
 ["1340093"]
 japanese = "おや、そちらの方は………？<line-break>失礼しました！<line-break>お仕事の最中であられましたか。　　　<line-break>我々としましても、そちらの方を陣中へ<line-break>お連れするわけにはまいりません。<line-break>今日は、これで失礼いたします。<end>"
@@ -726,7 +726,7 @@ korean = "말도 안 돼…! 용인 내가 인간 따위에게 패하다니…. 
 
 ["1340182"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
-korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
+korean = "<value:$28>, 용살자의 칭호를 얻었다.<end>"
 
 ["1340183"]
 japanese = "な、何者だ！<line-break>ディンガル帝国の者かっ！<end>"
@@ -882,7 +882,7 @@ korean = "나머지는 재상에게 맡기겠다. 가자.<end>"
 
 ["1340221"]
 japanese = "…また、助けられたわね。<end>"
-korean = "…또 도움받았네.<end>"
+korean = "…또 도움을 받았네.<end>"
 
 ["1340222"]
 japanese = "でも、カン違いしないで！<line-break>私は恩に感じたりしないから！<end>"
@@ -1126,7 +1126,7 @@ korean = "고마워! 이스케이프를 쓸게. 자, <value:$28>, 내 가까이 
 
 ["1340283"]
 japanese = "やっぱり待って！　カフィン！<end>"
-korean = "역시 기다려! 카핀!<end>"
+korean = "아니, 잠깐! 카핀!<end>"
 
 ["1340284"]
 japanese = "え…？<end>"
@@ -1246,7 +1246,7 @@ korean = "그렇구나! 후후후훗. 네가 그 <value:$28>구나. 형에게 �
 
 ["1340313"]
 japanese = "<value:$28>、<line-break>これからも兄さんをよろしくね。<end>"
-korean = "<value:$28>, 앞으로도 오빠를 잘 부탁해.<end>"
+korean = "<value:$28>, 앞으로도 형을 잘 부탁해.<end>"
 
 ["1340314"]
 japanese = "<value:$28>。<line-break>冒険者の君には、これからも<line-break>世界のどこかで会うかもしれないね。<line-break>その時はよろしく。<end>"
@@ -2690,7 +2690,7 @@ korean = "말도 안 돼…! 겨, 겨우 인간의 아이 따위에게 패하다
 
 ["1340675"]
 japanese = "<value:$28>は<line-break>竜殺しの称号を得た。<end>"
-korean = "<value:$28>는 용살자의 칭호를 얻었다.<end>"
+korean = "<value:$28>, 용살자의 칭호를 얻었다.<end>"
 
 ["1340676"]
 japanese = "門の方に向かったぞ！<line-break>追え！<line-break>殺しても構わん！<end>"

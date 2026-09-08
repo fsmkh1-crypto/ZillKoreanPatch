@@ -42,7 +42,7 @@ korean = "멍하니 있으면 안 됩니다. 곧 타르튜바가 옵니다. 자,
 
 ["630010"]
 japanese = "おお、よかった。<line-break>タルテュバに見つかる前に<line-break>隠れられたようじゃの。<end>"
-korean = "오오, 다행이구나. 타르튜바에게 들키기 전에숨은 모양이로군.<end>"
+korean = "오오, 다행이구나. 타르튜바에게 들키기 전에 숨은 모양이로군.<end>"
 
 ["630011"]
 japanese = "タルテュバというのは悪い貴族です。<line-break>貴族にあまりいい人はいませんが、<line-break>タルテュバはその中でも…最低です。<end>"
@@ -498,7 +498,7 @@ korean = "<value:$28>님도.<end>"
 
 ["630124"]
 japanese = "俺には礼はしないのか？<end>"
-korean = "나한테는 감사 안 하나?<end>"
+korean = "나한테는 인사 안 하나?<end>"
 
 ["630125"]
 japanese = "礼儀知らずのお方には<line-break>そんな必要はありませんわ。<end>"
@@ -746,7 +746,7 @@ korean = "<value:$28>님도.<end>"
 
 ["630186"]
 japanese = "俺には礼はしないのか？<end>"
-korean = "나한테는 감사 안 하나?<end>"
+korean = "나한테는 인사 안 하나?<end>"
 
 ["630187"]
 japanese = "礼儀知らずのお方には<line-break>そんな必要はありませんわ。<end>"
@@ -982,7 +982,7 @@ korean = "<value:$28>님도.<end>"
 
 ["630245"]
 japanese = "俺には礼はしないのか？<end>"
-korean = "나한테는 감사 안 하나?<end>"
+korean = "나한테는 인사 안 하나?<end>"
 
 ["630246"]
 japanese = "礼儀知らずのお方には<line-break>そんな必要はありませんわ。<end>"
@@ -1026,7 +1026,7 @@ korean = "그런 말을 하면 또 왕궁의 한가한 녀석들한테 소문거
 
 ["630256"]
 japanese = "あの人は、そんなこと<line-break>なさいませんわ！<end>"
-korean = "그 사람은 그런 짓을하실 분이 아니에요!<end>"
+korean = "그 사람은 그런 짓을 하실 분이 아니에요!<end>"
 
 ["630257"]
 japanese = "…ほう、めずらしいな。<line-break>あの男の肩を持つとは。<end>"

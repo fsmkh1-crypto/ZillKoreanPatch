@@ -30,11 +30,11 @@ korean = "무엇이든 답해 주지. 넌 내 절친 로티의 딸이니까. 무
 
 ["1050007"]
 japanese = "…おじさま。<line-break>先日、わたくしは何者かに　<line-break>命を狙われました。<line-break>幸いにも<value:$28>が<line-break>かけつけてくれたので、<line-break>無事でしたが…。<end>"
-korean = "…아저씨. 며칠 전 저는 누군가에게 목숨을 위협받았습니다. 다행히 <value:$28>이 달려와 줘서 무사했지만….<end>"
+korean = "…아저씨. 며칠 전 저는 누군가에게 목숨을 위협받았습니다. 다행히 <value:$28> 덕분에 무사했지만….<end>"
 
 ["1050008"]
 japanese = "そうか、<value:$28>が<line-break>助けたのか…。<end>"
-korean = "그렇군, <value:$28>이 구한 건가….<end>"
+korean = "그렇군, 구해 준 사람이 <value:$28>인가….<end>"
 
 ["1050009"]
 japanese = "その暗殺者ですが、<line-break>同志のひとりが、おじさまの屋敷で<line-break>見たことのある人物だと言うのです。<line-break>これは、どういうことなのでしょう。<line-break>おじさま、何かおっしゃってください。<line-break>このままでは…<end>"
