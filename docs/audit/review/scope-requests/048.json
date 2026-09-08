@@ -1,0 +1,14 @@
+{
+  "batch_id": "048",
+  "candidate_file": "docs/audit/review/candidate-048.md",
+  "candidate_selection_file": "docs/audit/review/candidate-048-selection.json",
+  "reviewed_manifest_file": "docs/audit/beta1-contextual-copyedit-048-reviewed.json",
+  "reviewer": "ChatGPT",
+  "reviewed_at": "2026-09-09",
+  "review_method": "manual_contextual_review_ja_en_ko_full_batch",
+  "total": 1200,
+  "keep": 1150,
+  "edit": 50,
+  "excluded": 0,
+  "notes": "Batch 048 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Initial final linguistic triage: KEEP=1150, EDIT=50, excluded=0. Conservative edits only: semantic mistranslations, established terminology/name corrections, broken Korean wording, and clear numeric/lexical errors. Previously known repeated-source rows whose correction would require out-of-scope propagation were left KEEP. No new QA logic or workflow changes."
+}
