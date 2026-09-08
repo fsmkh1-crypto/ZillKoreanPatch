@@ -1,0 +1,14 @@
+{
+  "batch_id": "053",
+  "candidate_file": "docs/audit/review/candidate-053.md",
+  "candidate_selection_file": "docs/audit/review/candidate-053-selection.json",
+  "reviewed_manifest_file": "docs/audit/beta1-contextual-copyedit-053-reviewed.json",
+  "reviewer": "ChatGPT",
+  "reviewed_at": "2026-09-09",
+  "review_method": "manual_contextual_review_ja_en_ko_full_batch",
+  "total": 1200,
+  "keep": 1157,
+  "edit": 43,
+  "excluded": 0,
+  "notes": "Batch 053 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as localization reference. Initial high-confidence result: KEEP=1157, EDIT=43, excluded=0. Scope is predominantly internal event-select labels, so style-only variants were conservatively kept. Edits are limited to verifiable name/location/label errors, including Oswald spelling normalization, Eris/Relra name corrections, one-row-shifted Estelle rescue-report location/condition labels, dead-dragon cave naming consistency, Estelle shorthand typos, and missing label colons. No out-of-scope propagation, new QA logic, or workflow changes."
+}
