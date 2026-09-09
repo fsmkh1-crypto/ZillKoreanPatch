@@ -10,7 +10,7 @@ korean = "여어, 당신인가…!<end>"
 
 ["2130002"]
 japanese = "俺は信心深くないが、今のあんたは<line-break>海王様の使いに見えるぜ。<line-break>頼む。相談に乗ってくれ。<end>"
-korean = "난 신앙심이 깊진 않지만 지금의 당신은 해왕님의 사자처럼 보여. 부탁한다. 상담 좀 받아 줘.<end>"
+korean = "난 신앙심이 깊진 않지만 지금의 당신은 해왕님의 사자처럼 보여. 부탁한다. 내 이야기 좀 들어 줘.<end>"
 
 ["2130003"]
 japanese = "あれから何度も森へ出かけてるのに、<line-break>ここんとこ、なぜかフィアに<line-break>会えないんだ。<line-break>思えば最後に会った時、<line-break>どことなく態度がよそよそしくて<line-break>何かおかしい感じはしたんだが…。<end>"
@@ -34,7 +34,7 @@ korean = "나는 이온즈. 인연이 닿아 <value:$28>와 알게 된 신관일
 
 ["2130008"]
 japanese = "どうじゃ、<value:$28>。<line-break>シェーヌの森へ行ってみんか？<end>"
-korean = "어때, <value:$28>. 셰느의 숲에 가 보지 않겠나?<end>"
+korean = "어때, <value:$28>. 셰누의 숲에 가 보지 않겠나?<end>"
 
 ["2130009"]
 japanese = "なあに、構わんじゃろう。<line-break>それほど神経質になることもあるまい。<line-break>　<line-break>むしろ無関係のわしらにならば、<line-break>向こうも警戒せずに<line-break>会ってくれるかもしれん。<line-break>単なる男女の行き違いであれば<line-break>それを確認するだけでもよかろう。<end>"
@@ -62,7 +62,7 @@ korean = "고마워, 신세 졌다. 또 네게 빚을 지게 될 것 같군… �
 
 ["2130015"]
 japanese = "では行くかの、<value:$28>。<line-break>シェーヌの森とやらへ。<end>"
-korean = "그럼 가 볼까, <value:$28>. 셰느의 숲이라는 곳으로.<end>"
+korean = "그럼 가 볼까, <value:$28>. 셰누의 숲이라는 곳으로.<end>"
 
 ["2130016"]
 japanese = "そうか…。<end>"
@@ -70,7 +70,7 @@ korean = "그런가….<end>"
 
 ["2130017"]
 japanese = "いや、いいんだ。<line-break>くだらない話をして悪かった。<line-break>　<line-break>やっぱりこれは俺自身で<line-break>解決しないといけない問題だよな。<line-break>他人に頼るのが間違っていたんだ。<end>"
-korean = "아니, 됐어. 쓸데없는 얘기를 해서 미안해. 역시 이건 내 스스로해결해야 할 문제겠지. 남에게 의지한 게 잘못이었어.<end>"
+korean = "아니, 됐어. 쓸데없는 얘기를 해서 미안해. 역시 이건 내 스스로 해결해야 할 문제겠지. 남에게 의지한 게 잘못이었어.<end>"
 
 ["2130018"]
 japanese = "これまでありがとよ、<line-break><value:$28>。<line-break>じゃあな…。<end>"
