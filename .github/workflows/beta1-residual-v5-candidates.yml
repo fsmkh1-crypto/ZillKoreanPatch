@@ -51,49 +51,68 @@ jobs:
 
           proposals={}
           reasons=defaultdict(list)
-          def propose(rid,before,after,reason):
-              if before==after: return
-              old=proposals.get(rid)
-              if old is not None and old!=after:
-                  raise SystemExit(f'conflicting proposals for {rid}: {old!r} != {after!r}')
+          def set_after(rid, after, reason):
+              before=by_id[rid][0]['korean']
+              old=proposals.get(rid, before)
+              if old == after:
+                  reasons[rid].append(reason)
+                  return
               proposals[rid]=after
               reasons[rid].append(reason)
 
-          # Canonical term/label normalization. Apply only when the Japanese source proves the concept.
+          def mutate(rid, fn, reason):
+              before=by_id[rid][0]['korean']
+              cur=proposals.get(rid,before)
+              after=fn(cur)
+              if after!=cur:
+                  proposals[rid]=after
+                  reasons[rid].append(reason)
+
+          def normalize_atakushi(s):
+              # Preserve the character's marked self-reference without leaving Japanese
+              # or producing broken Korean particles. More natural existing 나/이 몸/우리
+              # renderings elsewhere are intentionally left alone.
+              reps=[
+                  ('이 아타쿠시들이','우리'),('아타쿠시들이','우리'),
+                  ('이 아타쿠시에게','이 몸에게'),('아타쿠시에게','이 몸에게'),
+                  ('이 아타쿠시에겐','이 몸에겐'),('아타쿠시에겐','이 몸에겐'),
+                  ('이 아타쿠시가','이 몸이'),('아타쿠시가','이 몸이'),
+                  ('이 아타쿠시는','이 몸은'),('아타쿠시는','이 몸은'),
+                  ('이 아타쿠시의','이 몸의'),('아타쿠시의','이 몸의'),
+                  ('이 아타쿠시를','이 몸을'),('아타쿠시를','이 몸을'),
+                  ('이 아타쿠시도','이 몸도'),('아타쿠시도','이 몸도'),
+                  ('이 아타쿠시야','이 몸이야'),('아타쿠시야','이 몸이야'),
+                  ('아타쿠시 힘','이 몸의 힘'),('아타쿠시 없이','이 몸 없이'),
+                  ('이 아타쿠시','이 몸'),('아타쿠시','이 몸'),
+              ]
+              for a,b in reps: s=s.replace(a,b)
+              return s
+
+          # Canonical fixed terms/labels. Generic grammar words remain contextual.
           for rid,occs in by_id.items():
-              row=occs[0]; jp=row['japanese']; ko=row['korean']; new=ko
-              if '勇者' in jp and '용자' in new:
-                  new=new.replace('용자','용사'); reasons[rid].append('勇者 canonical -> 용사')
+              jp=occs[0]['japanese']
+              if '勇者' in jp:
+                  mutate(rid,lambda s:s.replace('용자','용사'),'勇者 canonical -> 용사')
               if '竜の座' in jp:
-                  n2=new.replace('용의 좌소','용의 자리').replace('용좌','용의 자리')
-                  if n2!=new: new=n2; reasons[rid].append('竜の座 canonical -> 용의 자리')
-              if '誘拐' in jp and '유괴' in new:
-                  new=new.replace('유괴','납치'); reasons[rid].append('誘拐 canonical -> 납치')
-              if 'ロースペル' in jp and '로 스펠' in new:
-                  new=new.replace('로 스펠','로우 스펠'); reasons[rid].append('ロースペル canonical -> 로우 스펠')
-              if 'アタクシ' in jp and '아타쿠시' in new:
-                  new=new.replace('아타쿠시','이 몸'); reasons[rid].append('literal アタクシ residue -> 이 몸')
-              if '義母' in jp and '양어머니' in new:
-                  new=new.replace('양어머니','새어머니'); reasons[rid].append('義母 in Lemghon family context -> 새어머니')
-              if new!=ko:
-                  proposals[rid]=new
+                  mutate(rid,lambda s:s.replace('용의 좌소','용의 자리').replace('용좌','용의 자리'),'竜の座 canonical -> 용의 자리')
+              if '誘拐' in jp:
+                  mutate(rid,lambda s:s.replace('유괴','납치'),'誘拐 canonical -> 납치')
+              if 'ロースペル' in jp:
+                  mutate(rid,lambda s:s.replace('로 스펠','로우 스펠'),'ロースペル canonical -> 로우 스펠')
+              if 'アタクシ' in jp and '아타쿠시' in proposals.get(rid,occs[0]['korean']):
+                  mutate(rid,normalize_atakushi,'literal アタクシ residue -> marked Korean self-reference')
+              if '義母' in jp:
+                  mutate(rid,lambda s:s.replace('양어머니','새어머니'),'義母 Lemghon-family canonical -> 새어머니')
 
-          # Confirmed Korean-pattern corrections from the blind audit / registry census.
-          def replace_for_all(pattern, repl, reason):
-              for rid,occs in by_id.items():
-                  ko=proposals.get(rid,occs[0]['korean'])
-                  n=ko.replace(pattern,repl)
-                  if n!=ko: propose(rid,occs[0]['korean'],n,reason)
+          # Confirmed registry patterns; these are enumerated before mutation.
+          for rid,occs in by_id.items():
+              jp=occs[0]['japanese']
+              if '大街道沿い' in jp:
+                  mutate(rid,lambda s:s.replace('대가도 연선의 도시','대가도를 따라 늘어선 도시').replace('대가도 연선 도시','대가도를 따라 늘어선 도시').replace('대가도 연변 도시','대가도를 따라 늘어선 도시'),'大街道沿い natural Korean')
+              if ('顔を出' in jp or '顔を見せ' in jp):
+                  mutate(rid,lambda s:s.replace('얼굴을 비췄','얼굴을 비쳤').replace('얼굴 비췄','얼굴 비쳤').replace('얼굴을 비추','얼굴을 비치').replace('얼굴 비추','얼굴 비치'),'顔を出す/見せる idiom -> 얼굴을 비치다')
 
-          replace_for_all('대가도 연선의 도시','대가도를 따라 늘어선 도시','大街道沿い natural Korean')
-          replace_for_all('대가도 연선 도시','대가도를 따라 늘어선 도시','大街道沿い natural Korean')
-          replace_for_all('대가도 연변 도시','대가도를 따라 늘어선 도시','大街道沿い natural Korean')
-          replace_for_all('얼굴을 비추','얼굴을 비치','顔を出す idiom -> 얼굴을 비치다')
-          replace_for_all('얼굴 비추','얼굴 비치','顔を出す idiom -> 얼굴을 비치다')
-          replace_for_all('얼굴을 비췄','얼굴을 비쳤','顔を出す idiom -> 얼굴을 비치다')
-          replace_for_all('얼굴 비췄','얼굴 비쳤','顔を出す idiom -> 얼굴을 비치다')
-
-          # Exact reviewed rows from the completed 200-row blind audit.
+          # Exact rows confirmed by the completed 200-row blind audit.
           manual={
             '10033':'일격필살의 검술을 극한까지 익히고 싶다면 그대에게 필요한 것은 어느 쪽인가?<end>',
             '300024':'좋아. 그럼 부탁한다. 뭐, 너 혼자면 충분하겠지만… 혹시 모르니 네 소꿉친구도 뒤따라 보내지. 사이좋게 지내라.<end>',
@@ -110,27 +129,16 @@ jobs:
             '1710134':'이제 이 앞의 땅도 당신을 받아들일 것입니다. 자, 나아가세요. 그리고 오세요. 제 곁으로…. 저는 물의 정령신 아큐류스…. 무한의 소울을 가진 자여, 자, 나아가세요….<end>',
             '2240001':'흑…, 흑….<end>',
           }
-          # 890201 is handled by literal アタクシ normalization above.
-          for rid,after in manual.items():
-              before=by_id[rid][0]['korean']
-              propose(rid,before,after,'completed blind-audit correction')
+          for rid,after in manual.items(): set_after(rid,after,'completed blind-audit correction')
 
-          # Same source/pattern companions found by census.
-          companions={
+          # Deterministic companions revealed by the same-source/pattern census.
+          fixed={
             '2240006':'흑…, 흑….<end>',
             '270087':'굳이 서두르지 않아도 괜찮아. 싸울 준비가 되면 알려 줘.<end>',
-            '1090025':None,
-            '1330041':None,
-            '1870032':None,
-            '850161':None,
-            '1710009':None,
-            '630156':None,
-            '1540115':None,
-            '1330716':None,
-            '1220080':None,
           }
-          # Deterministic companion replacements where full text need not be handwritten.
-          companion_repls={
+          for rid,after in fixed.items(): set_after(rid,after,'registry companion correction')
+
+          repls={
             '1090025':[('대가도 연변 도시들','대가도를 따라 늘어선 도시들')],
             '1330041':[('야, <value:$28>잖아?','어, <value:$28>잖아?')],
             '1870032':[('나를 숭배하는 딸,','나를 숭배하는 소녀,')],
@@ -139,53 +147,34 @@ jobs:
             '630156':[('또 그 이야기인가요? 레무온 님이라도 화내실 거예요.<end>','또 그 이야기인가요? 계속 그러시면 저도 화낼 거예요, 레무온 님.<end>')],
             '1540115':[('우후후….<end>','후후후….<end>')],
             '1330716':[('칼라 님','카를라 님')],
-            '1220080':[('무례하네.<end>','무례하네.<end>'),('실례할게.<end>','무례하네.<end>')],
+            '1220080':[('실례할게.<end>','무례하네.<end>')],
           }
-          for rid,val in companions.items():
-              before=by_id[rid][0]['korean']
-              if val is not None:
-                  propose(rid,before,val,'registry companion correction')
-                  continue
-              after=proposals.get(rid,before)
-              for a,b in companion_repls[rid]: after=after.replace(a,b)
-              if after!=before: propose(rid,before,after,'exact-source/registry companion correction')
+          for rid,pairs in repls.items():
+              def f(s,pairs=pairs):
+                  for a,b in pairs: s=s.replace(a,b)
+                  return s
+              mutate(rid,f,'exact-source/registry companion correction')
 
-          # Consolidate paths and enforce alias-equivalent before values.
-          records=[]
-          categories=Counter()
+          # Final structural review of the generated candidates.
+          ctrl_re=re.compile(r'<[^>]+>|%(?:\d+|[A-Za-z])')
+          bad_korean=re.compile(r'이 몸(?:가|는|야)|이 이 몸|아타쿠시')
+          records=[]; categories=Counter()
           for rid in sorted(proposals,key=lambda x:(0,int(x)) if x.isdigit() else (1,x)):
-              occs=by_id[rid]
-              before0=occs[0]['korean']
-              if any(o['korean']!=before0 for o in occs):
-                  raise SystemExit(f'alias Korean drift for candidate {rid}')
-              after=proposals[rid]
-              if before0==after: continue
-              records.append({
-                  'id':rid,
-                  'paths':sorted({o['path'] for o in occs}),
-                  'before_korean':before0,
-                  'proposed_korean':after,
-              })
-              for r in set(reasons[rid]): categories[r]+=1
+              occs=by_id[rid]; before=occs[0]['korean']; after=proposals[rid]
+              if any(o['korean']!=before for o in occs): raise SystemExit(f'alias Korean drift {rid}')
+              if before==after: continue
+              if ctrl_re.findall(before)!=ctrl_re.findall(after):
+                  raise SystemExit(f'control/substitution drift {rid}: {ctrl_re.findall(before)} -> {ctrl_re.findall(after)}')
+              if bad_korean.search(after): raise SystemExit(f'malformed/literal atakushi residue {rid}: {after}')
+              records.append({'id':rid,'paths':sorted({o['path'] for o in occs}),'before_korean':before,'proposed_korean':after})
+              for reason in set(reasons[rid]): categories[reason]+=1
 
-          manifest={
-              'version':1,
-              'purpose':'Beta1 residual quality v5 reviewed normalization/correction candidates',
-              'source_head':HEAD,
-              'english_reference_sha':EN,
-              'records':records,
-          }
+          manifest={'version':1,'purpose':'Beta1 residual quality v5 reviewed normalization/correction candidates','source_head':HEAD,'english_reference_sha':EN,'records':records}
           (OUT/'candidate-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
           with (OUT/'candidate-review.csv').open('w',encoding='utf-8-sig',newline='') as f:
-              fields=['id','paths','japanese','before_korean','proposed_korean','reasons']
-              w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
+              fields=['id','paths','japanese','before_korean','proposed_korean','reasons']; w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
               for r in records:
-                  rid=r['id']; w.writerow({
-                      'id':rid,'paths':' | '.join(r['paths']),
-                      'japanese':by_id[rid][0]['japanese'],
-                      'before_korean':r['before_korean'],'proposed_korean':r['proposed_korean'],
-                      'reasons':' | '.join(sorted(set(reasons[rid]))),
-                  })
+                  rid=r['id']; w.writerow({'id':rid,'paths':' | '.join(r['paths']),'japanese':by_id[rid][0]['japanese'],'before_korean':r['before_korean'],'proposed_korean':r['proposed_korean'],'reasons':' | '.join(sorted(set(reasons[rid])))})
           summary={'source_head':HEAD,'english_sha':EN,'candidate_count':len(records),'reason_counts':dict(categories)}
           (OUT/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           print(json.dumps(summary,ensure_ascii=False,indent=2))
