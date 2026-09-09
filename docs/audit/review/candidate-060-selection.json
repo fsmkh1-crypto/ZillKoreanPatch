@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "start_id": "10033",
+  "candidate_count": 15,
+  "pinned_english_sha": "a98d9ce29f361d666ec23da0dcfd351f24537ffd",
+  "order": "global_numeric_id",
+  "ids": [
+    "10033",
+    "300024",
+    "420254",
+    "430023",
+    "450101",
+    "520087",
+    "560608",
+    "620009",
+    "670013",
+    "890201",
+    "1330068",
+    "1370534",
+    "1420107",
+    "1710134",
+    "2240001"
+  ],
+  "source_paths": [
+    "translations/korean/messages/msgsec001.toml",
+    "translations/korean/messages/msgsec030-part99.toml",
+    "translations/korean/messages/msgsec042-part99.toml",
+    "translations/korean/messages/msgsec043-part99.toml",
+    "translations/korean/messages/msgsec045-part99.toml",
+    "translations/korean/messages/msgsec052-part99.toml",
+    "translations/korean/messages/msgsec056-part99.toml",
+    "translations/korean/messages/msgsec062-part99.toml",
+    "translations/korean/messages/msgsec067-part99.toml",
+    "translations/korean/messages/msgsec089-part99.toml",
+    "translations/korean/messages/msgsec133-part99.toml",
+    "translations/korean/messages/msgsec137-part99.toml",
+    "translations/korean/messages/msgsec142-part99.toml",
+    "translations/korean/messages/msgsec171-part99.toml",
+    "translations/korean/messages/msgsec224-part99.toml"
+  ]
+}
