@@ -1,0 +1,17 @@
+name: Beta1 residual v5 run 060
+
+on:
+  push:
+    branches: [audit/beta1-residual-v5]
+    paths:
+      - '.github/workflows/beta1-residual-v5-run-060.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply-060:
+    uses: ./.github/workflows/beta1-reviewed-copyedit-apply.yml
+    with:
+      manifest: docs/audit/beta1-contextual-copyedit-060-reviewed.json
+      overrides: ''
