@@ -1,0 +1,77 @@
+name: Beta1 residual v5 late addendum census
+
+on:
+  push:
+    branches: [audit/beta1-residual-v5]
+    paths:
+      - '.github/workflows/beta1-residual-v5-addendum.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  addendum:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: 2c29f53c8c949e3b10f27ec2ea3044abb2278bec
+          path: korean
+          fetch-depth: 1
+      - name: Scan frozen corpus once for late-addendum patterns
+        run: |
+          python3 - <<'PY'
+          import csv, json, re, tomllib
+          from collections import defaultdict
+          from pathlib import Path
+          root=Path('korean'); out=Path('/tmp/beta1-residual-v5-addendum'); out.mkdir(parents=True,exist_ok=True)
+          rows=[]
+          for path in sorted((root/'translations/korean/messages').rglob('*.toml')):
+              data=tomllib.loads(path.read_text(encoding='utf-8'))
+              for raw_id,row in data.items():
+                  if isinstance(row,dict) and isinstance(row.get('korean'),str):
+                      rows.append({'id':str(raw_id),'path':str(path.relative_to(root)),'japanese':str(row.get('japanese','')),'korean':str(row.get('korean',''))})
+          pats={
+            'value_honorific_no_space': re.compile(r'<value:\$[0-9A-Fa-f]+>(?:씨|님)'),
+            'karula_kalla': re.compile(r'칼라'),
+            'semonin': re.compile(r'세몬인'),
+            'ryuji_general_spaced': re.compile(r'용자\s+장군'),
+            'foster_mother': re.compile(r'양어머니'),
+            'great_highway_yeonbyeon': re.compile(r'대가도\s+연변'),
+            'ddakhi_gwaenchana': re.compile(r'딱히.{0,16}괜찮'),
+            'saijotge_hae': re.compile(r'사이좋게\s+해(?:[.!?…]|<end>)'),
+            'apeuro_ui_ttang': re.compile(r'앞으로의\s+땅'),
+            'sob_wook': re.compile(r'윽…[,，]?\s*윽'),
+            'low_spell_split': re.compile(r'로\s+스펠'),
+            'literal_atakushi': re.compile(r'아타쿠시'),
+            'dragon_seat_old': re.compile(r'용의\s*좌소|용좌'),
+            'yeonseon': re.compile(r'연선'),
+            'face_bichu': re.compile(r'얼굴(?:을)?\s*비추|얼굴(?:을)?\s*비췄'),
+          }
+          hits=[]; summary={}
+          for name,pat in pats.items():
+              hs=[]
+              for r in rows:
+                  if pat.search(r['korean']):
+                      hs.append(r); hits.append({'pattern':name,**r})
+              summary[name]=len(hs)
+          source_checks={
+            'jp_yusha_with_yongja': lambda r:'勇者' in r['japanese'] and '용자' in r['korean'],
+            'jp_yuukai_with_yugoe': lambda r:'誘拐' in r['japanese'] and '유괴' in r['korean'],
+            'jp_gibo_with_yang': lambda r:'義母' in r['japanese'] and '양어머니' in r['korean'],
+            'jp_ryuji_general': lambda r:'竜字将軍' in r['japanese'],
+          }
+          for name,fn in source_checks.items():
+              hs=[r for r in rows if fn(r)]; summary[name]=len(hs)
+              hits.extend({'pattern':name,**r} for r in hs)
+          with (out/'hits.csv').open('w',encoding='utf-8-sig',newline='') as f:
+              w=csv.DictWriter(f,fieldnames=['pattern','id','path','japanese','korean']); w.writeheader(); w.writerows(hits)
+          (out/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: beta1-residual-v5-addendum
+          path: /tmp/beta1-residual-v5-addendum
+          if-no-files-found: error
+          retention-days: 30
