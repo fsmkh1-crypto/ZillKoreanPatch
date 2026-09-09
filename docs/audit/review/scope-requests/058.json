@@ -1,0 +1,14 @@
+{
+  "batch_id": "058",
+  "candidate_file": "docs/audit/review/candidate-058.md",
+  "candidate_selection_file": "docs/audit/review/candidate-058-selection.json",
+  "reviewed_manifest_file": "docs/audit/beta1-contextual-copyedit-058-reviewed.json",
+  "reviewer": "ChatGPT",
+  "reviewed_at": "2026-09-09",
+  "review_method": "manual_contextual_review_ja_en_ko_full_batch",
+  "total": 1200,
+  "keep": 1189,
+  "edit": 11,
+  "excluded": 0,
+  "notes": "Batch 058 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as engine/canonical localization reference. This batch wraps to the low-ID legacy queue after the high-ID tail was exhausted; the material had historical translation/review work but lacked current dense full-read evidence. KEEP=1189, EDIT=11, excluded=0. Edits are limited to clear semantic loss, same-source terminology/name inconsistencies, obvious Korean typo/mistranslation, and a small number of clearly awkward literal renderings where the pinned English patch confirms the intended functional localization. No out-of-scope propagation, new QA logic, workflow changes, or unrelated cleanup."
+}
