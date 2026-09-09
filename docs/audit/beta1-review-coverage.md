@@ -6,14 +6,14 @@
 
 - Accepted Korean IDs: **42,016**
 - Valid contextual review: **42,016 (100.000%)**
-  - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **39,447**
-  - direct `manifest_edit`: **2,393**
+  - legacy direct `full_read`: **175**
+  - dense `scope_full_read`: **39,194**
+  - direct `manifest_edit`: **2,647**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
 - `UNREVIEWED` for contextual purposes: **0**
-- Approved registered manifest records (historical, non-deduplicated): **2,399**
+- Approved registered manifest records (historical, non-deduplicated): **2,659**
 - Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
@@ -22,7 +22,7 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 
 ## Orthogonal flags and structural QA
 
-- `PERSISTED_LAYOUT`: **139** among ledger rows
+- `PERSISTED_LAYOUT`: **136** among ledger rows
 - `ALIAS_GROUP`: **12** among ledger rows
 - `SOURCE_ANOMALY`: **1** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
@@ -35,10 +35,10 @@ Consumer/storage/runtime metadata remains in each ledger row for traceability, b
 ## Language propagation candidates (not coverage)
 
 Candidate signature is exact Japanese + exact pinned English + exact Korean. EN mismatch is an unconditional split.
-- Unique language signatures: **35,731**
-- Duplicate groups: **2,663**
-- IDs inside duplicate groups: **8,948**
-- Potential extra IDs: **6,285**
+- Unique language signatures: **35,726**
+- Duplicate groups: **2,667**
+- IDs inside duplicate groups: **8,957**
+- Potential extra IDs: **6,290**
 
 ## Dense review scopes
 
@@ -85,6 +85,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | S-057 | 1,200 | 1,158 | 42 | 0 | `docs/audit/review/scope-057.json` |
 | S-058 | 1,200 | 1,189 | 11 | 0 | `docs/audit/review/scope-058.json` |
 | S-059 | 1,385 | 1,364 | 21 | 0 | `docs/audit/review/scope-059.json` |
+| S-060 | 15 | 0 | 15 | 0 | `docs/audit/review/scope-060.json` |
 
 ## Historical edit manifests
 
@@ -148,6 +149,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 057 | REGISTERED | 42 | 42 | `docs/audit/beta1-contextual-copyedit-057-reviewed.json` |
 | 058 | REGISTERED | 11 | 11 | `docs/audit/beta1-contextual-copyedit-058-reviewed.json` |
 | 059 | REGISTERED | 23 | 23 | `docs/audit/beta1-contextual-copyedit-059-reviewed.json` |
+| 060 | REGISTERED | 260 | 260 | `docs/audit/beta1-contextual-copyedit-060-reviewed.json` |
 
 ## Completion/quality rule
 
