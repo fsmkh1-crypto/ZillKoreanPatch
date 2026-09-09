@@ -7,8 +7,8 @@
   "reviewed_at": "2026-09-09",
   "review_method": "manual_contextual_review_ja_en_ko_full_batch",
   "total": 1200,
-  "keep": 1156,
-  "edit": 44,
+  "keep": 1158,
+  "edit": 42,
   "excluded": 0,
-  "notes": "Batch 057 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as engine/canonical localization reference. KEEP=1156, EDIT=44, excluded=0. Edits are limited to clear semantic-direction errors, canonical proper-name/place-name corrections, obvious Korean spacing/typos, register outliers, and two source puns whose function can be recreated cleanly in Korean following the English patch's localization approach. No out-of-scope propagation, new QA logic, workflow changes, or unrelated cleanup."
+  "notes": "Batch 057 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as engine/canonical localization reference. KEEP=1158, EDIT=42, excluded=0. Two initially proposed edits (1980105 and 2530009) were removed after QA-3 showed they would introduce repeated-source regressions against existing identical-Japanese records; no out-of-scope propagation was performed. Remaining edits are limited to clear semantic-direction errors, canonical proper-name/place-name corrections, obvious Korean spacing/typos, register outliers, and two source puns whose function can be recreated cleanly in Korean following the English patch's localization approach. No new QA logic, workflow changes, or unrelated cleanup."
 }
