@@ -97,7 +97,7 @@ jobs:
                   mutate(rid,lambda s:s.replace('세몬인','시문원'))
               if '大街道沿い' in jp:
                   mutate(rid,lambda s:s.replace('대가도 연선의 도시','대가도를 따라 늘어선 도시').replace('대가도 연선 도시','대가도를 따라 늘어선 도시').replace('대가도 연변 도시','대가도를 따라 늘어선 도시'))
-              if '顔を出' in jp or '顔を見せ' in jp:
+              if '顔を出' in jp or '顔出' in jp or '顔を見せ' in jp:
                   mutate(rid,lambda s:s.replace('얼굴을 비췄','얼굴을 비쳤').replace('얼굴 비췄','얼굴 비쳤').replace('얼굴을 비추','얼굴을 비치').replace('얼굴 비추','얼굴 비치'))
               if re.search(r'<value:\$[0-9A-Fa-f]+>씨', proposals.get(rid,occs[0]['korean'])):
                   mutate(rid,lambda s:re.sub(r'(<value:\$[0-9A-Fa-f]+>)씨',r'\1 씨',s))
@@ -128,7 +128,6 @@ jobs:
           }
           for rid,after in fixed.items(): set_after(rid,after)
 
-          # Explicitly reject five overcorrection candidates retained during exploration.
           for rid in ('270087','1540115','1330041','850161','1220080'):
               proposals.pop(rid,None)
 
@@ -145,24 +144,12 @@ jobs:
                   raise SystemExit(f'control/substitution drift: {rid}')
               if bad_re.search(after):
                   raise SystemExit(f'malformed/literal atakushi residue: {rid}: {after}')
-              records.append({
-                  'id':rid,
-                  'paths':sorted({o['path'] for o in occs}),
-                  'before_korean':before,
-                  'proposed_korean':after,
-              })
-          if len(records)!=261:
-              raise SystemExit(f'expected 261 final corrections, got {len(records)}')
-          manifest={
-              'version':1,
-              'purpose':'Beta1 residual quality v5 final reviewed corrections',
-              'source_head':SOURCE_HEAD,
-              'english_reference_sha':EN,
-              'records':records,
-          }
+              records.append({'id':rid,'paths':sorted({o['path'] for o in occs}),'before_korean':before,'proposed_korean':after})
+          if len(records)!=260:
+              raise SystemExit(f'expected 260 final corrections, got {len(records)}')
+          manifest={'version':1,'purpose':'Beta1 residual quality v5 final reviewed corrections','source_head':SOURCE_HEAD,'english_reference_sha':EN,'records':records}
           out=Path('docs/audit/beta1-contextual-copyedit-060-reviewed.json')
-          if out.exists():
-              raise SystemExit(f'{out} already exists')
+          if out.exists(): raise SystemExit(f'{out} already exists')
           out.write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
           print(json.dumps({'status':'PASS','records':len(records)},ensure_ascii=False))
           PY
