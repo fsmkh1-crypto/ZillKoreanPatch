@@ -5,15 +5,15 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **38,231 (90.992%)**
+- Valid contextual review: **39,431 (93.848%)**
   - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **35,738**
-  - direct `manifest_edit`: **2,317**
+  - dense `scope_full_read`: **36,896**
+  - direct `manifest_edit`: **2,359**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **3,785**
-- Approved registered manifest records (historical, non-deduplicated): **2,323**
+- `UNREVIEWED` for contextual purposes: **2,585**
+- Approved registered manifest records (historical, non-deduplicated): **2,365**
 - Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
@@ -26,7 +26,7 @@ For dense scopes, the ledger reconstructs each ID at `reviewed_commit`; one chan
 - `ALIAS_GROUP`: **0** among ledger rows
 - `SOURCE_ANOMALY`: **1** among ledger rows
 - `LAYOUT_RECHECK`: **0** among ledger rows; does not invalidate language coverage
-- `FIXED_BUFFER`: **16820** among ledger rows; full accepted population **19380**
+- `FIXED_BUFFER`: **17884** among ledger rows; full accepted population **19380**
 - `RUNTIME_PENDING`: **43** among ledger rows; full accepted population **47**
 - English consumer/category contract SHA-256: `eb64f6fe551f1dd39f3d96db07ff30b698571c1269bf63ac3c5881c44f93be6f`
 
@@ -82,6 +82,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | S-054 | 1,200 | 1,095 | 105 | 0 | `docs/audit/review/scope-054.json` |
 | S-055 | 1,200 | 1,140 | 60 | 0 | `docs/audit/review/scope-055.json` |
 | S-056 | 1,200 | 1,100 | 100 | 0 | `docs/audit/review/scope-056.json` |
+| S-057 | 1,200 | 1,158 | 42 | 0 | `docs/audit/review/scope-057.json` |
 
 ## Historical edit manifests
 
@@ -142,6 +143,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 054 | REGISTERED | 105 | 105 | `docs/audit/beta1-contextual-copyedit-054-reviewed.json` |
 | 055 | REGISTERED | 60 | 60 | `docs/audit/beta1-contextual-copyedit-055-reviewed.json` |
 | 056 | REGISTERED | 100 | 100 | `docs/audit/beta1-contextual-copyedit-056-reviewed.json` |
+| 057 | REGISTERED | 42 | 42 | `docs/audit/beta1-contextual-copyedit-057-reviewed.json` |
 
 ## Completion/quality rule
 
