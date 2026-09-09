@@ -1,0 +1,250 @@
+name: Beta1 final blinded KEEP packets for Claude
+
+on:
+  push:
+    branches: [audit/beta1-final-keep-claude]
+    paths:
+      - '.github/workflows/beta1-final-keep-claude-packet.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout final Korean source
+        uses: actions/checkout@v6
+        with:
+          ref: 2c29f53c8c949e3b10f27ec2ea3044abb2278bec
+          path: korean
+          fetch-depth: 1
+
+      - name: Checkout pinned English patch
+        uses: actions/checkout@v6
+        with:
+          repository: HK47196/zill
+          ref: a98d9ce29f361d666ec23da0dcfd351f24537ffd
+          path: english
+          fetch-depth: 1
+
+      - name: Select final independent KEEP sample with existing sampler
+        working-directory: korean
+        run: |
+          python3 tools/korean/sample-beta1-review-audit.py \
+            --size 200 \
+            --seed beta1-final-keep-audit-v2 \
+            --second-reviewer Claude \
+            --output /tmp/final-keep-sample.json
+
+      - name: Build four blinded 50-item packets
+        run: |
+          python3 - <<'PY'
+          from __future__ import annotations
+          import csv
+          import hashlib
+          import json
+          import tomllib
+          from collections import defaultdict
+          from pathlib import Path
+
+          KO_ROOT = Path('korean')
+          EN_ROOT = Path('english')
+          SOURCE_HEAD = '2c29f53c8c949e3b10f27ec2ea3044abb2278bec'
+          EN_SHA = 'a98d9ce29f361d666ec23da0dcfd351f24537ffd'
+          SEED = 'beta1-final-keep-audit-v2'
+          RADIUS = 2
+
+          sample = json.loads(Path('/tmp/final-keep-sample.json').read_text(encoding='utf-8'))
+          ids = [str(x) for x in sample['ids']]
+          if len(ids) != 200 or len(set(ids)) != 200:
+              raise SystemExit(f'unexpected sample size/uniqueness: {len(ids)} / {len(set(ids))}')
+          if sample.get('sample_propagated_keep') != 0:
+              raise SystemExit('expected propagated KEEP population/sample to be zero for this final audit')
+
+          en = {}
+          for path in sorted((EN_ROOT / 'translations/messages').rglob('*.toml')):
+              data = tomllib.loads(path.read_text(encoding='utf-8'))
+              for raw_id, row in data.items():
+                  if isinstance(row, dict):
+                      rid = str(raw_id)
+                      if rid in en:
+                          raise SystemExit(f'duplicate EN id {rid}')
+                      en[rid] = {
+                          'japanese': str(row.get('japanese', '')),
+                          'english': str(row.get('english', '')),
+                      }
+
+          files = {}
+          occurrences = defaultdict(list)
+          for path in sorted((KO_ROOT / 'translations/korean/messages').rglob('*.toml')):
+              data = tomllib.loads(path.read_text(encoding='utf-8'))
+              rows = []
+              for raw_id, row in data.items():
+                  if not isinstance(row, dict) or not isinstance(row.get('korean'), str):
+                      continue
+                  rid = str(raw_id)
+                  rows.append((rid, row))
+                  occurrences[rid].append((path, len(rows)-1, row))
+              files[path] = rows
+
+          def signature(row):
+              return (
+                  str(row.get('japanese', '')),
+                  str(row.get('korean', '')),
+                  str(row.get('layout', '')),
+                  str(row.get('consumer', '')),
+              )
+
+          canonical = {}
+          for rid in ids:
+              occs = occurrences.get(rid, [])
+              if not occs:
+                  raise SystemExit(f'sampled id missing from Korean messages: {rid}')
+              sig0 = signature(occs[0][2])
+              for p, i, row in occs[1:]:
+                  if signature(row) != sig0:
+                      raise SystemExit(f'alias drift for sampled id {rid}')
+              canonical[rid] = sorted(occs, key=lambda x: str(x[0]))[0]
+
+          def q(s):
+              return json.dumps(str(s), ensure_ascii=False, separators=(',', ':'))
+
+          def render_row(label, rid, row):
+              erow = en.get(rid, {'english': ''})
+              return [
+                  f'**{label}**',
+                  f'- JP: {q(row.get("japanese", ""))}',
+                  f'- EN: {q(erow.get("english", ""))}',
+                  f'- KO: {q(row.get("korean", ""))}',
+              ]
+
+          out = Path('/tmp/public')
+          priv = Path('/tmp/private')
+          out.mkdir(parents=True, exist_ok=True)
+          priv.mkdir(parents=True, exist_ok=True)
+
+          mapping = {
+              'schema_version': 1,
+              'purpose': 'private reconstruction mapping for final independent KEEP audit',
+              'source_head': SOURCE_HEAD,
+              'english_sha': EN_SHA,
+              'seed': SEED,
+              'second_reviewer': 'Claude',
+              'eligible_direct_keep': sample.get('eligible_direct_keep'),
+              'eligible_propagated_keep': sample.get('eligible_propagated_keep'),
+              'sample_direct_keep': sample.get('sample_direct_keep'),
+              'sample_propagated_keep': sample.get('sample_propagated_keep'),
+              'rows': [],
+          }
+
+          instruction = [
+              '# Beta1 independent KEEP audit — blinded packet',
+              '',
+              f'- Korean source HEAD: `{SOURCE_HEAD}`',
+              f'- Pinned English SHA: `{EN_SHA}`',
+              f'- Seed: `{SEED}`',
+              '- Reviewer: Claude (independent second pass)',
+              '',
+              '이 패킷에는 ledger, 실제 ID, 과거 batch/scope, 이전 판정 이유가 포함되어 있지 않다.',
+              '각 항목은 독립적으로 판정하고 진행 중 누계나 전체 합격/실패 여부를 계산하지 않는다.',
+              '',
+              '판정 규칙:',
+              '1. TARGET만 판정한다. BEFORE/AFTER는 문맥 확인용이다.',
+              '2. 일본어(JP)가 의미상 최종 authority다.',
+              '3. pinned EN은 기존 영문패치가 의미/구조/제약을 어떻게 처리했는지 보는 기준이다. 영문을 기계적으로 재번역하지 않는다.',
+              '4. 현재 KO에 실제 수정 가치가 없으면 KEEP.',
+              '5. 실제 수정이 필요하면 SHOULD_EDIT.',
+              '6. SHOULD_EDIT의 error class는 semantic / speaker_register / naturalness / punctuation_spacing 중 하나 이상.',
+              '7. SHOULD_EDIT이면 control tag를 그대로 보존한 전체 corrected Korean 문자열과 짧고 구체적인 근거를 제공한다.',
+              '8. 단순 취향 차이, 과도한 문체 통일, 의미가 맞는 표현의 선호성 교체는 SHOULD_EDIT로 올리지 않는다.',
+              '',
+              '응답은 각 anonymous_id에 대해 verdict, error_classes, proposed_korean, reason을 빠짐없이 기록한다.',
+              '',
+          ]
+
+          packet_hashes = []
+          for packet_idx in range(4):
+              start = packet_idx * 50
+              stop = start + 50
+              lines = instruction.copy()
+              lines += [f'## Packet {packet_idx+1} — items {start+1:03d}–{stop:03d}', '']
+              csv_path = out / f'packet-{packet_idx+1:02d}-results-template.csv'
+              with csv_path.open('w', encoding='utf-8', newline='') as f:
+                  w = csv.writer(f, lineterminator='\n')
+                  w.writerow(['anonymous_id','verdict','error_classes','proposed_korean','reason'])
+                  for ordinal in range(start, stop):
+                      w.writerow([f'A{ordinal+1:03d}','','','',''])
+
+              for ordinal in range(start, stop):
+                  rid = ids[ordinal]
+                  anon = f'A{ordinal+1:03d}'
+                  path, idx, target = canonical[rid]
+                  rows = files[path]
+                  a = max(0, idx - RADIUS)
+                  b = min(len(rows), idx + RADIUS + 1)
+                  lines += [f'### {anon}', '']
+                  for pos in range(a, b):
+                      ctx_id, ctx_row = rows[pos]
+                      if pos == idx:
+                          label = 'TARGET'
+                      elif pos < idx:
+                          label = f'CONTEXT BEFORE {idx-pos}'
+                      else:
+                          label = f'CONTEXT AFTER {pos-idx}'
+                      lines += render_row(label, ctx_id, ctx_row)
+                      lines.append('')
+                  lines += ['---', '']
+                  mapping['rows'].append({
+                      'anonymous_id': anon,
+                      'real_id': rid,
+                      'packet': packet_idx + 1,
+                      'source_path': str(path.relative_to(KO_ROOT)),
+                  })
+
+              text = '\n'.join(lines).rstrip() + '\n'
+              md_path = out / f'packet-{packet_idx+1:02d}.md'
+              md_path.write_text(text, encoding='utf-8', newline='\n')
+              packet_hashes.append({
+                  'packet': packet_idx + 1,
+                  'sha256': hashlib.sha256(text.encode('utf-8')).hexdigest(),
+                  'items': 50,
+              })
+
+          mapping_text = json.dumps(mapping, ensure_ascii=False, indent=2) + '\n'
+          (priv / 'mapping.json').write_text(mapping_text, encoding='utf-8')
+          (priv / 'sample.json').write_text(json.dumps(sample, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          public_manifest = {
+              'schema_version': 1,
+              'source_head': SOURCE_HEAD,
+              'english_sha': EN_SHA,
+              'seed': SEED,
+              'reviewer': 'Claude',
+              'sample_size': 200,
+              'packet_size': 50,
+              'packet_count': 4,
+              'real_ids_withheld_from_reviewer': True,
+              'ledger_withheld_from_reviewer': True,
+              'gate_threshold_withheld_from_reviewer': True,
+              'packets': packet_hashes,
+          }
+          (out / 'manifest.json').write_text(json.dumps(public_manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(public_manifest, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Upload blinded reviewer packets
+        uses: actions/upload-artifact@v4
+        with:
+          name: beta1-final-keep-audit-claude-public
+          path: /tmp/public
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload private reconstruction mapping
+        uses: actions/upload-artifact@v4
+        with:
+          name: beta1-final-keep-audit-claude-private-mapping
+          path: /tmp/private
+          if-no-files-found: error
+          retention-days: 30
