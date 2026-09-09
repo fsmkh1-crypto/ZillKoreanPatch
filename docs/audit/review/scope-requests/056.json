@@ -1,0 +1,14 @@
+{
+  "batch_id": "056",
+  "candidate_file": "docs/audit/review/candidate-056.md",
+  "candidate_selection_file": "docs/audit/review/candidate-056-selection.json",
+  "reviewed_manifest_file": "docs/audit/beta1-contextual-copyedit-056-reviewed.json",
+  "reviewer": "ChatGPT",
+  "reviewed_at": "2026-09-09",
+  "review_method": "manual_contextual_review_ja_en_ko_full_batch",
+  "total": 1200,
+  "keep": 1100,
+  "edit": 100,
+  "excluded": 0,
+  "notes": "Batch 056 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as engine/canonical localization reference. KEEP=1100, EDIT=100, excluded=0. Edits are limited to clear semantic-direction errors, Korean grammar/spacing defects, canonical proper-name corrections, and same-event-family naming outliers. No out-of-scope propagation, new QA logic, workflow changes, or unrelated cleanup."
+}
