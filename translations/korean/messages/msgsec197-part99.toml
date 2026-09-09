@@ -310,7 +310,7 @@ korean = "에아 개심 발생<end>"
 
 ["1970077"]
 japanese = "ルルアンタ誘拐情報入手　発生<end>"
-korean = "루루안타 유괴 정보 입수 발생<end>"
+korean = "루루안타 납치 정보 입수 발생<end>"
 
 ["1970078"]
 japanese = "ルルアンタ準備完了　発生<end>"
@@ -326,7 +326,7 @@ korean = "에아 납치 상태<end>"
 
 ["1970081"]
 japanese = "エア誘拐失敗　発生<end>"
-korean = "에아 유괴 실패 발생<end>"
+korean = "에아 납치 실패 발생<end>"
 
 ["1970082"]
 japanese = "エージェント接触　終了<end>"
@@ -370,7 +370,7 @@ korean = "도적단 보스 사망<end>"
 
 ["1970092"]
 japanese = "エステル誘拐　状態<end>"
-korean = "에스텔 유괴 상태<end>"
+korean = "에스텔 납치 상태<end>"
 
 ["1970093"]
 japanese = "エスト　登場<end>"
@@ -806,7 +806,7 @@ korean = "크류세이스 비난 발생<end>"
 
 ["1970201"]
 japanese = "クリュセイス誘拐　発生<end>"
-korean = "크류세이스 유괴 발생<end>"
+korean = "크류세이스 납치 발생<end>"
 
 ["1970202"]
 japanese = "初仕事の報酬　準備<end>"
@@ -1982,15 +1982,15 @@ korean = "플레어 대화2 발생<end>"
 
 ["1970498"]
 japanese = "フレア誘拐　発生<end>"
-korean = "플레어 유괴 발생<end>"
+korean = "플레어 납치 발생<end>"
 
 ["1970499"]
 japanese = "フレア誘拐失敗　発生<end>"
-korean = "플레어 유괴 실패 발생<end>"
+korean = "플레어 납치 실패 발생<end>"
 
 ["1970500"]
 japanese = "フレア誘拐失敗　終了<end>"
-korean = "플레어 유괴 실패 종료<end>"
+korean = "플레어 납치 실패 종료<end>"
 
 ["1970501"]
 japanese = "ベルゼーヴァ　登場<end>"
@@ -2042,7 +2042,7 @@ korean = "볼보라 전언 발생<end>"
 
 ["1970513"]
 japanese = "本番誘拐ちょっと待って　発生<end>"
-korean = "본편 유괴 잠깐 기다려 발생<end>"
+korean = "본편 납치 잠깐 기다려 발생<end>"
 
 ["1970514"]
 japanese = "マノンの指輪質問続行　許可<end>"
@@ -2126,7 +2126,7 @@ korean = "메이아 재회 발생<end>"
 
 ["1970534"]
 japanese = "メイア誘拐　発生<end>"
-korean = "메이아 유괴 발생<end>"
+korean = "메이아 납치 발생<end>"
 
 ["1970535"]
 japanese = "宿屋を出て　終了<end>"
@@ -2858,7 +2858,7 @@ korean = "갈드란 질주 발생<end>"
 
 ["1970719"]
 japanese = "ルルアンタ誘拐　発生<end>"
-korean = "루루안타 유괴 발생<end>"
+korean = "루루안타 납치 발생<end>"
 
 ["1970721"]
 japanese = "エンシャント陥落　情報<end>"
@@ -3722,11 +3722,11 @@ korean = "에아 대화<end>"
 
 ["1970936"]
 japanese = "イークレムン誘拐　状態<end>"
-korean = "이클렘 유괴 상태<end>"
+korean = "이클렘 납치 상태<end>"
 
 ["1970937"]
 japanese = "フレア誘拐　状態<end>"
-korean = "플레어 유괴 상태<end>"
+korean = "플레어 납치 상태<end>"
 
 ["1970938"]
 japanese = "空中都市飛行　準備<end>"
