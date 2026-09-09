@@ -1,0 +1,186 @@
+name: Beta1 residual v5 publish 060
+
+on:
+  push:
+    branches: [audit/beta1-residual-v5]
+    paths:
+      - '.github/workflows/beta1-residual-v5-publish-060.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current Beta1
+        uses: actions/checkout@v6
+        with:
+          ref: milestone/Beta1
+          path: korean
+          fetch-depth: 0
+
+      - name: Materialize exact reviewed manifest 060
+        working-directory: korean
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from __future__ import annotations
+          import json, re, tomllib
+          from collections import defaultdict
+          from pathlib import Path
+
+          SOURCE_HEAD='2c29f53c8c949e3b10f27ec2ea3044abb2278bec'
+          EN='a98d9ce29f361d666ec23da0dcfd351f24537ffd'
+          by_id=defaultdict(list)
+          for path in sorted(Path('translations/korean/messages').rglob('*.toml')):
+              data=tomllib.loads(path.read_text(encoding='utf-8'))
+              for raw_id,row in data.items():
+                  if not isinstance(row,dict) or not isinstance(row.get('korean'),str):
+                      continue
+                  rid=str(raw_id)
+                  by_id[rid].append({
+                      'path':str(path),
+                      'japanese':str(row.get('japanese','')),
+                      'korean':str(row.get('korean','')),
+                  })
+          if len(by_id)!=42016:
+              raise SystemExit(f'unique id mismatch: {len(by_id)}')
+
+          proposals={}
+          def mutate(rid, fn):
+              before=by_id[rid][0]['korean']
+              cur=proposals.get(rid,before)
+              after=fn(cur)
+              if after!=cur: proposals[rid]=after
+          def set_after(rid,after):
+              if by_id[rid][0]['korean']!=after:
+                  proposals[rid]=after
+
+          def normalize_atakushi(s):
+              reps=[
+                  ('이 아타쿠시들이','우리'),('아타쿠시들이','우리'),
+                  ('이 아타쿠시에겐','이 몸에겐'),('아타쿠시에겐','이 몸에겐'),
+                  ('이 아타쿠시에게','이 몸에게'),('아타쿠시에게','이 몸에게'),
+                  ('이 아타쿠시 없이','이 몸 없이'),('아타쿠시 없이','이 몸 없이'),
+                  ('이 아타쿠시 힘','이 몸의 힘'),('아타쿠시 힘','이 몸의 힘'),
+                  ('이 아타쿠시가','이 몸이'),('아타쿠시가','이 몸이'),
+                  ('이 아타쿠시는','이 몸은'),('아타쿠시는','이 몸은'),
+                  ('이 아타쿠시의','이 몸의'),('아타쿠시의','이 몸의'),
+                  ('이 아타쿠시를','이 몸을'),('아타쿠시를','이 몸을'),
+                  ('이 아타쿠시도','이 몸도'),('아타쿠시도','이 몸도'),
+                  ('이 아타쿠시야','이 몸이야'),('아타쿠시야','이 몸이야'),
+                  ('이 아타쿠시','이 몸'),('아타쿠시','이 몸'),
+              ]
+              for a,b in reps: s=s.replace(a,b)
+              return s
+
+          for rid,occs in by_id.items():
+              jp=occs[0]['japanese']
+              if '勇者' in jp:
+                  mutate(rid,lambda s:s.replace('용자','용사'))
+              if '竜の座' in jp:
+                  mutate(rid,lambda s:s.replace('용의 좌소','용의 자리').replace('용좌','용의 자리'))
+              if '誘拐' in jp:
+                  mutate(rid,lambda s:s.replace('유괴','납치'))
+              if 'ロースペル' in jp:
+                  mutate(rid,lambda s:s.replace('로 스펠','로우 스펠'))
+              if 'アタクシ' in jp and '아타쿠시' in proposals.get(rid,occs[0]['korean']):
+                  mutate(rid,normalize_atakushi)
+              if '義母' in jp:
+                  mutate(rid,lambda s:s.replace('양어머니','새어머니'))
+              if 'カルラ' in jp:
+                  mutate(rid,lambda s:s.replace('칼라','카를라'))
+              if '竜字将軍' in jp:
+                  mutate(rid,lambda s:s.replace('용자 장군','용자장군'))
+              if '施文院' in jp:
+                  mutate(rid,lambda s:s.replace('세몬인','시문원'))
+              if '大街道沿い' in jp:
+                  mutate(rid,lambda s:s.replace('대가도 연선의 도시','대가도를 따라 늘어선 도시').replace('대가도 연선 도시','대가도를 따라 늘어선 도시').replace('대가도 연변 도시','대가도를 따라 늘어선 도시'))
+              if '顔を出' in jp or '顔を見せ' in jp:
+                  mutate(rid,lambda s:s.replace('얼굴을 비췄','얼굴을 비쳤').replace('얼굴 비췄','얼굴 비쳤').replace('얼굴을 비추','얼굴을 비치').replace('얼굴 비추','얼굴 비치'))
+              if re.search(r'<value:\$[0-9A-Fa-f]+>씨', proposals.get(rid,occs[0]['korean'])):
+                  mutate(rid,lambda s:re.sub(r'(<value:\$[0-9A-Fa-f]+>)씨',r'\1 씨',s))
+
+          manual={
+            '10033':'일격필살의 검술을 극한까지 익히고 싶다면 그대에게 필요한 것은 어느 쪽인가?<end>',
+            '300024':'좋아. 그럼 부탁한다. 뭐, 너 혼자면 충분하겠지만… 혹시 모르니 네 소꿉친구도 뒤따라 보내지. 사이좋게 지내라.<end>',
+            '420254':'부디 그 소용돌이를 이겨 내고 새로운 시대를 열어 주세요. …세상을 떠난 남동생을 위해서라도….<end>',
+            '430023':'다, 다, 당치도 않습니다! 주민 놈들이 날뛰어서 어쩔 수 없이 대관으로서 책임을 다했을 뿐입니다. 게헤헤….<end>',
+            '450101':'아니, 괜찮아.<end>',
+            '520087':'분단의 산맥을 넘어 대륙 반대편을 공격하는 전법은 전례 없는 장거였다. 앙길단은 전격적으로 대가도를 따라 늘어선 도시들을 공격해 차례로 점령했고, 왕도 로스톨 공략을 눈앞에 두었다.<end>',
+            '560608':'어, 큰일이다! 좀 지나쳤나…?<end>',
+            '620009':'훗, 마침 잘됐군. 이 몸의 사랑의 전설에 조연으로 넣어 주마!<end>',
+            '670013':'그대, 티아나의 방에도 얼굴을 비쳤던 건가.<end>',
+            '1330068':'후후…… 그대와는 이야기가 안 되는군. <value:$28>여, 어떻게 할 텐가? 그대도 가겠다는 건가?<end>',
+            '1370534':'같은 로우 스펠이라도 배우기 쉬운 것과 어려운 게 있어. 뭐, 레벨이 있다는 거지. 순서대로 말하자면… 세상에는 정령력이라는 게 있고 불, 물, 땅, 바람의 네 속성이 있다.<end>',
+            '1420107':'하, 하지만 그렇게 하시면 두 나라는….<end>',
+            '1710134':'이제 이 앞의 땅도 당신을 받아들일 것입니다. 자, 나아가세요. 그리고 오세요. 제 곁으로…. 저는 물의 정령신 아큐류스…. 무한의 소울을 가진 자여, 자, 나아가세요….<end>',
+            '2240001':'흑…, 흑….<end>',
+          }
+          for rid,after in manual.items(): set_after(rid,after)
+
+          fixed={
+            '2240006':'흑…, 흑….<end>',
+            '1870032':'나를 숭배하는 소녀, 무한의 소울을 지닌 자 노엘이여. 그대의 소원, 분명히 들었다.<end>',
+            '1710009':'예!<end>',
+            '630156':'또 그 이야기인가요? 계속 그러시면 저도 화낼 거예요, 레무온 님.<end>',
+          }
+          for rid,after in fixed.items(): set_after(rid,after)
+
+          # Explicitly reject five overcorrection candidates retained during exploration.
+          for rid in ('270087','1540115','1330041','850161','1220080'):
+              proposals.pop(rid,None)
+
+          ctrl_re=re.compile(r'<[^>]+>|%(?:\d+|[A-Za-z])')
+          bad_re=re.compile(r'이 몸(?:가|는|야)|이 이 몸|아타쿠시')
+          records=[]
+          for rid in sorted(proposals,key=int):
+              occs=by_id[rid]
+              before=occs[0]['korean']; after=proposals[rid]
+              if before==after: continue
+              if any(o['korean']!=before for o in occs):
+                  raise SystemExit(f'alias Korean drift: {rid}')
+              if ctrl_re.findall(before)!=ctrl_re.findall(after):
+                  raise SystemExit(f'control/substitution drift: {rid}')
+              if bad_re.search(after):
+                  raise SystemExit(f'malformed/literal atakushi residue: {rid}: {after}')
+              records.append({
+                  'id':rid,
+                  'paths':sorted({o['path'] for o in occs}),
+                  'before_korean':before,
+                  'proposed_korean':after,
+              })
+          if len(records)!=261:
+              raise SystemExit(f'expected 261 final corrections, got {len(records)}')
+          manifest={
+              'version':1,
+              'purpose':'Beta1 residual quality v5 final reviewed corrections',
+              'source_head':SOURCE_HEAD,
+              'english_reference_sha':EN,
+              'records':records,
+          }
+          out=Path('docs/audit/beta1-contextual-copyedit-060-reviewed.json')
+          if out.exists():
+              raise SystemExit(f'{out} already exists')
+          out.write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+          print(json.dumps({'status':'PASS','records':len(records)},ensure_ascii=False))
+          PY
+          git diff --check
+
+      - name: Commit manifest only if Beta1 head is unchanged
+        working-directory: korean
+        run: |
+          set -euo pipefail
+          BASE_HEAD="$(git rev-parse HEAD)"
+          git fetch origin milestone/Beta1
+          REMOTE_HEAD="$(git rev-parse origin/milestone/Beta1)"
+          if [ "$REMOTE_HEAD" != "$BASE_HEAD" ]; then
+            echo "remote milestone/Beta1 moved: base=$BASE_HEAD remote=$REMOTE_HEAD" >&2
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/audit/beta1-contextual-copyedit-060-reviewed.json
+          git commit -m 'audit: register Beta1 residual reviewed copyedit 060'
+          git push origin HEAD:milestone/Beta1
