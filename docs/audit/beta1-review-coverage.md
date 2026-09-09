@@ -5,15 +5,15 @@
 ## Authoritative current coverage
 
 - Accepted Korean IDs: **42,016**
-- Valid contextual review: **34,631 (82.423%)**
+- Valid contextual review: **35,831 (85.279%)**
   - legacy direct `full_read`: **176**
-  - dense `scope_full_read`: **32,403**
-  - direct `manifest_edit`: **2,052**
+  - dense `scope_full_read`: **33,498**
+  - direct `manifest_edit`: **2,157**
   - propagated: **0** (not yet credited)
 - `CONTEXT_STALE`: **0**
 - `LAYOUT_RECHECK`: **0** (orthogonal; does not erase language coverage)
-- `UNREVIEWED` for contextual purposes: **7,385**
-- Approved registered manifest records (historical, non-deduplicated): **2,058**
+- `UNREVIEWED` for contextual purposes: **6,185**
+- Approved registered manifest records (historical, non-deduplicated): **2,163**
 - Pending batches lacking a registered review basis: **none**
 
 Language stale is ID-granular and uses `SHA256(JP + NUL + pinned EN + NUL + KO)`.
@@ -79,6 +79,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | S-051 | 1,200 | 1,079 | 121 | 0 | `docs/audit/review/scope-051.json` |
 | S-052 | 1,200 | 1,102 | 98 | 0 | `docs/audit/review/scope-052.json` |
 | S-053 | 1,200 | 1,157 | 43 | 0 | `docs/audit/review/scope-053.json` |
+| S-054 | 1,200 | 1,095 | 105 | 0 | `docs/audit/review/scope-054.json` |
 
 ## Historical edit manifests
 
@@ -136,6 +137,7 @@ Candidate signature is exact Japanese + exact pinned English + exact Korean. EN 
 | 051 | REGISTERED | 121 | 121 | `docs/audit/beta1-contextual-copyedit-051-reviewed.json` |
 | 052 | REGISTERED | 98 | 98 | `docs/audit/beta1-contextual-copyedit-052-reviewed.json` |
 | 053 | REGISTERED | 43 | 43 | `docs/audit/beta1-contextual-copyedit-053-reviewed.json` |
+| 054 | REGISTERED | 105 | 105 | `docs/audit/beta1-contextual-copyedit-054-reviewed.json` |
 
 ## Completion/quality rule
 
