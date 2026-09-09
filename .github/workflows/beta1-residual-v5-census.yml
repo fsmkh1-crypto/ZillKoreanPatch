@@ -1,0 +1,228 @@
+name: Beta1 residual language census v5
+
+on:
+  push:
+    branches: [audit/beta1-residual-v5]
+    paths:
+      - '.github/workflows/beta1-residual-v5-census.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  census:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout frozen Korean source
+        uses: actions/checkout@v6
+        with:
+          ref: 2c29f53c8c949e3b10f27ec2ea3044abb2278bec
+          path: korean
+          fetch-depth: 1
+
+      - name: Checkout pinned English patch
+        uses: actions/checkout@v6
+        with:
+          repository: HK47196/zill
+          ref: a98d9ce29f361d666ec23da0dcfd351f24537ffd
+          path: english
+          fetch-depth: 1
+
+      - name: Build residual inventory and audit packet
+        run: |
+          python3 - <<'PY'
+          from __future__ import annotations
+          import csv, json, re, tomllib
+          from collections import Counter, defaultdict
+          from pathlib import Path
+
+          KO_ROOT = Path('korean')
+          EN_ROOT = Path('english')
+          OUT = Path('/tmp/beta1-residual-v5')
+          OUT.mkdir(parents=True, exist_ok=True)
+          SOURCE_HEAD = '2c29f53c8c949e3b10f27ec2ea3044abb2278bec'
+          EN_SHA = 'a98d9ce29f361d666ec23da0dcfd351f24537ffd'
+
+          # Load pinned EN by ID.
+          en = {}
+          for path in sorted((EN_ROOT / 'translations/messages').rglob('*.toml')):
+              data = tomllib.loads(path.read_text(encoding='utf-8'))
+              for raw_id, row in data.items():
+                  if isinstance(row, dict):
+                      en[str(raw_id)] = {
+                          'japanese': str(row.get('japanese', '')),
+                          'english': str(row.get('english', '')),
+                      }
+
+          # Load accepted KO rows, preserving file order for context.
+          records = []
+          by_id = defaultdict(list)
+          file_rows = {}
+          for path in sorted((KO_ROOT / 'translations/korean/messages').rglob('*.toml')):
+              data = tomllib.loads(path.read_text(encoding='utf-8'))
+              rows = []
+              for raw_id, row in data.items():
+                  if not isinstance(row, dict) or not isinstance(row.get('korean'), str):
+                      continue
+                  rid = str(raw_id)
+                  rec = {
+                      'id': rid,
+                      'path': str(path.relative_to(KO_ROOT)),
+                      'japanese': str(row.get('japanese', '')),
+                      'korean': str(row.get('korean', '')),
+                      'layout': str(row.get('layout', '')),
+                      'consumer': str(row.get('consumer', '')),
+                      'english': en.get(rid, {}).get('english', ''),
+                  }
+                  rows.append(rec)
+                  records.append(rec)
+                  by_id[rid].append((path, len(rows)-1, rec))
+              file_rows[path] = rows
+
+          # Count unique IDs, since alias physical rows can exist.
+          unique_ids = sorted(by_id, key=lambda x: (0, int(x)) if x.isdigit() else (1, x))
+          if len(unique_ids) != 42016:
+              raise SystemExit(f'accepted unique ID mismatch: {len(unique_ids)} != 42016')
+
+          # Policy inventory: source concepts whose Korean rendering should be made consistent.
+          policy_terms = {
+              'yusha': '勇者',
+              'ryu_no_za': '竜の座',
+              'atakushi': 'アタクシ',
+              'san_honorific': 'さん',
+              'taiji': '退治',
+              'yuukai': '誘拐',
+              'gibo': '義母',
+              'toru': '採る',
+          }
+
+          policy_rows = []
+          policy_summary = {}
+          for key, jp_term in policy_terms.items():
+              hits = []
+              ko_counter = Counter()
+              for rid in unique_ids:
+                  rec = by_id[rid][0][2]
+                  if jp_term in rec['japanese']:
+                      hits.append(rec)
+                      ko_counter[rec['korean']] += 1
+                      policy_rows.append({'policy': key, 'jp_term': jp_term, **rec})
+              policy_summary[key] = {
+                  'jp_term': jp_term,
+                  'occurrences': len(hits),
+                  'distinct_full_korean_strings': len(ko_counter),
+                  'top_full_korean_strings': ko_counter.most_common(20),
+              }
+
+          with (OUT / 'policy-occurrences.csv').open('w', encoding='utf-8-sig', newline='') as f:
+              fields = ['policy','jp_term','id','path','japanese','english','korean','consumer','layout']
+              w = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore')
+              w.writeheader(); w.writerows(policy_rows)
+
+          # Registry v1 discovery only; hits are candidates, never automatic edits.
+          registry = [
+              ('ko_atakushi', re.compile(r'아타쿠시')),
+              ('ko_yongja', re.compile(r'용자')),
+              ('ko_yongsa', re.compile(r'용사')),
+              ('ko_dragon_seat_jwaso', re.compile(r'용의\s*좌소')),
+              ('ko_dragon_seat_jari', re.compile(r'용의\s*자리')),
+              ('ko_yeonseon', re.compile(r'연선')),
+              ('ko_ddakhi_positive', re.compile(r'딱히.{0,18}(?:괜찮|좋|상관있|문제없)')),
+              ('ko_saijotge_hada', re.compile(r'사이좋게\s*(?:해|하라|하세요|하십시오|하자|하자고)')),
+              ('ko_face_bichuda', re.compile(r'얼굴(?:을|이)?\s*비추')),
+              ('ko_apeuro_ui_place', re.compile(r'앞으로의\s+(?:땅|길|장소|지역|도시|마을|거리|숲|산|탑|성|세계|대륙)')),
+              ('ko_low_spell_split', re.compile(r'로\s+스펠')),
+              ('ko_sob_wook', re.compile(r'윽…[,，]?\s*윽')),
+              ('ko_value28', re.compile(r'<value:\$28>')),
+              ('ko_line_initial_ya', re.compile(r'^(?:…|\.\.\.)?야,')),
+              ('ko_jit', re.compile(r'짓')),
+              ('ko_japanese_kana_residual', re.compile(r'[ぁ-ゖァ-ヺ]')),
+          ]
+
+          registry_rows = []
+          registry_summary = {}
+          for name, pat in registry:
+              ids = []
+              for rid in unique_ids:
+                  rec = by_id[rid][0][2]
+                  if pat.search(rec['korean']):
+                      ids.append(rid)
+                      registry_rows.append({'pattern': name, **rec})
+              registry_summary[name] = {'unique_ids': len(ids), 'ids': ids[:200]}
+
+          with (OUT / 'registry-v1-hits.csv').open('w', encoding='utf-8-sig', newline='') as f:
+              fields = ['pattern','id','path','japanese','english','korean','consumer','layout']
+              w = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore')
+              w.writeheader(); w.writerows(registry_rows)
+
+          # Exact-JP groups with divergent Korean renderings. This is an inventory aid, not an auto-normalizer.
+          jp_groups = defaultdict(list)
+          for rid in unique_ids:
+              rec = by_id[rid][0][2]
+              jp_groups[rec['japanese']].append(rec)
+          divergent = []
+          for jp, rows in jp_groups.items():
+              kos = {r['korean'] for r in rows}
+              if len(rows) > 1 and len(kos) > 1:
+                  for r in rows:
+                      divergent.append({'group_size': len(rows), 'variant_count': len(kos), **r})
+          with (OUT / 'exact-jp-divergent-ko.csv').open('w', encoding='utf-8-sig', newline='') as f:
+              fields = ['group_size','variant_count','id','path','japanese','english','korean','consumer','layout']
+              w = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore')
+              w.writeheader(); w.writerows(divergent)
+
+          # Reconstruct the 15 corrections discovered by the completed blinded audit and include local context.
+          audit_ids = [
+              '10033','300024','420254','430023','450101','520087',
+              '560608','620009','670013','890201','1330068',
+              '1370534','1420107','1710134','2240001',
+          ]
+          packet = [
+              '# Beta1 residual v5 — completed blind-audit correction packet', '',
+              f'- Frozen Korean HEAD: `{SOURCE_HEAD}`',
+              f'- Pinned English: `{EN_SHA}`',
+              '- These are the 15 rows flagged across the completed 200-row independent audit.',
+              '- JP is semantic authority; pinned EN is reference for established handling/structure.', '',
+          ]
+          for rid in audit_ids:
+              occs = by_id.get(rid)
+              if not occs:
+                  raise SystemExit(f'audit id missing: {rid}')
+              path, idx, target = sorted(occs, key=lambda x: str(x[0]))[0]
+              rows = file_rows[path]
+              packet += [f'## ID {rid}', f'- Path: `{target["path"]}`', '']
+              for pos in range(max(0, idx-2), min(len(rows), idx+3)):
+                  r = rows[pos]
+                  label = 'TARGET' if pos == idx else ('BEFORE' if pos < idx else 'AFTER')
+                  packet += [
+                      f'**{label} {r["id"]}**',
+                      f'- JP: {json.dumps(r["japanese"], ensure_ascii=False)}',
+                      f'- EN: {json.dumps(r["english"], ensure_ascii=False)}',
+                      f'- KO: {json.dumps(r["korean"], ensure_ascii=False)}', '',
+                  ]
+              packet += ['---','']
+          (OUT / 'audit-15-context.md').write_text('\n'.join(packet), encoding='utf-8')
+
+          summary = {
+              'schema_version': 1,
+              'source_head': SOURCE_HEAD,
+              'english_sha': EN_SHA,
+              'accepted_unique_ids': len(unique_ids),
+              'physical_korean_rows': len(records),
+              'policy_terms': policy_summary,
+              'registry': registry_summary,
+              'exact_jp_divergent_groups': sum(1 for jp, rows in jp_groups.items() if len(rows) > 1 and len({r['korean'] for r in rows}) > 1),
+              'exact_jp_divergent_rows': len(divergent),
+              'audit_15_ids': audit_ids,
+          }
+          (OUT / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(summary, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Upload census artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: beta1-residual-v5-census
+          path: /tmp/beta1-residual-v5
+          if-no-files-found: error
+          retention-days: 30
