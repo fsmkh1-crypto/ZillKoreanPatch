@@ -1,0 +1,14 @@
+{
+  "batch_id": "057",
+  "candidate_file": "docs/audit/review/candidate-057.md",
+  "candidate_selection_file": "docs/audit/review/candidate-057-selection.json",
+  "reviewed_manifest_file": "docs/audit/beta1-contextual-copyedit-057-reviewed.json",
+  "reviewer": "ChatGPT",
+  "reviewed_at": "2026-09-09",
+  "review_method": "manual_contextual_review_ja_en_ko_full_batch",
+  "total": 1200,
+  "keep": 1156,
+  "edit": 44,
+  "excluded": 0,
+  "notes": "Batch 057 full manual contextual review in source order using Japanese as semantic authority and pinned English a98d9ce29f361d666ec23da0dcfd351f24537ffd as engine/canonical localization reference. KEEP=1156, EDIT=44, excluded=0. Edits are limited to clear semantic-direction errors, canonical proper-name/place-name corrections, obvious Korean spacing/typos, register outliers, and two source puns whose function can be recreated cleanly in Korean following the English patch's localization approach. No out-of-scope propagation, new QA logic, workflow changes, or unrelated cleanup."
+}
