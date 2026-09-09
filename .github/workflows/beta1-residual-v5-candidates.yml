@@ -1,0 +1,200 @@
+name: Beta1 residual v5 candidate materialization
+
+on:
+  push:
+    branches: [audit/beta1-residual-v5]
+    paths:
+      - '.github/workflows/beta1-residual-v5-candidates.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout frozen Korean source
+        uses: actions/checkout@v6
+        with:
+          ref: 2c29f53c8c949e3b10f27ec2ea3044abb2278bec
+          path: korean
+          fetch-depth: 1
+
+      - name: Materialize reviewed residual candidates
+        run: |
+          python3 - <<'PY'
+          from __future__ import annotations
+          import csv, json, re, tomllib
+          from collections import Counter, defaultdict
+          from pathlib import Path
+
+          ROOT=Path('korean')
+          OUT=Path('/tmp/beta1-residual-v5-candidates')
+          OUT.mkdir(parents=True, exist_ok=True)
+          HEAD='2c29f53c8c949e3b10f27ec2ea3044abb2278bec'
+          EN='a98d9ce29f361d666ec23da0dcfd351f24537ffd'
+
+          by_id=defaultdict(list)
+          for path in sorted((ROOT/'translations/korean/messages').rglob('*.toml')):
+              data=tomllib.loads(path.read_text(encoding='utf-8'))
+              for raw_id,row in data.items():
+                  if not isinstance(row,dict) or not isinstance(row.get('korean'),str):
+                      continue
+                  rid=str(raw_id)
+                  by_id[rid].append({
+                      'path':str(path.relative_to(ROOT)),
+                      'japanese':str(row.get('japanese','')),
+                      'korean':str(row.get('korean','')),
+                  })
+          if len(by_id)!=42016:
+              raise SystemExit(f'unique id mismatch {len(by_id)}')
+
+          proposals={}
+          reasons=defaultdict(list)
+          def propose(rid,before,after,reason):
+              if before==after: return
+              old=proposals.get(rid)
+              if old is not None and old!=after:
+                  raise SystemExit(f'conflicting proposals for {rid}: {old!r} != {after!r}')
+              proposals[rid]=after
+              reasons[rid].append(reason)
+
+          # Canonical term/label normalization. Apply only when the Japanese source proves the concept.
+          for rid,occs in by_id.items():
+              row=occs[0]; jp=row['japanese']; ko=row['korean']; new=ko
+              if '勇者' in jp and '용자' in new:
+                  new=new.replace('용자','용사'); reasons[rid].append('勇者 canonical -> 용사')
+              if '竜の座' in jp:
+                  n2=new.replace('용의 좌소','용의 자리').replace('용좌','용의 자리')
+                  if n2!=new: new=n2; reasons[rid].append('竜の座 canonical -> 용의 자리')
+              if '誘拐' in jp and '유괴' in new:
+                  new=new.replace('유괴','납치'); reasons[rid].append('誘拐 canonical -> 납치')
+              if 'ロースペル' in jp and '로 스펠' in new:
+                  new=new.replace('로 스펠','로우 스펠'); reasons[rid].append('ロースペル canonical -> 로우 스펠')
+              if 'アタクシ' in jp and '아타쿠시' in new:
+                  new=new.replace('아타쿠시','이 몸'); reasons[rid].append('literal アタクシ residue -> 이 몸')
+              if '義母' in jp and '양어머니' in new:
+                  new=new.replace('양어머니','새어머니'); reasons[rid].append('義母 in Lemghon family context -> 새어머니')
+              if new!=ko:
+                  proposals[rid]=new
+
+          # Confirmed Korean-pattern corrections from the blind audit / registry census.
+          def replace_for_all(pattern, repl, reason):
+              for rid,occs in by_id.items():
+                  ko=proposals.get(rid,occs[0]['korean'])
+                  n=ko.replace(pattern,repl)
+                  if n!=ko: propose(rid,occs[0]['korean'],n,reason)
+
+          replace_for_all('대가도 연선의 도시','대가도를 따라 늘어선 도시','大街道沿い natural Korean')
+          replace_for_all('대가도 연선 도시','대가도를 따라 늘어선 도시','大街道沿い natural Korean')
+          replace_for_all('대가도 연변 도시','대가도를 따라 늘어선 도시','大街道沿い natural Korean')
+          replace_for_all('얼굴을 비추','얼굴을 비치','顔を出す idiom -> 얼굴을 비치다')
+          replace_for_all('얼굴 비추','얼굴 비치','顔を出す idiom -> 얼굴을 비치다')
+          replace_for_all('얼굴을 비췄','얼굴을 비쳤','顔を出す idiom -> 얼굴을 비치다')
+          replace_for_all('얼굴 비췄','얼굴 비쳤','顔を出す idiom -> 얼굴을 비치다')
+
+          # Exact reviewed rows from the completed 200-row blind audit.
+          manual={
+            '10033':'일격필살의 검술을 극한까지 익히고 싶다면 그대에게 필요한 것은 어느 쪽인가?<end>',
+            '300024':'좋아. 그럼 부탁한다. 뭐, 너 혼자면 충분하겠지만… 혹시 모르니 네 소꿉친구도 뒤따라 보내지. 사이좋게 지내라.<end>',
+            '420254':'부디 그 소용돌이를 이겨 내고 새로운 시대를 열어 주세요. …세상을 떠난 남동생을 위해서라도….<end>',
+            '430023':'다, 다, 당치도 않습니다! 주민 놈들이 날뛰어서 어쩔 수 없이 대관으로서 책임을 다했을 뿐입니다. 게헤헤….<end>',
+            '450101':'아니, 괜찮아.<end>',
+            '520087':'분단의 산맥을 넘어 대륙 반대편을 공격하는 전법은 전례 없는 장거였다. 앙길단은 전격적으로 대가도를 따라 늘어선 도시들을 공격해 차례로 점령했고, 왕도 로스톨 공략을 눈앞에 두었다.<end>',
+            '560608':'어, 큰일이다! 좀 지나쳤나…?<end>',
+            '620009':'훗, 마침 잘됐군. 이 몸의 사랑의 전설에 조연으로 넣어 주마!<end>',
+            '670013':'그대, 티아나의 방에도 얼굴을 비쳤던 건가.<end>',
+            '1330068':'후후…… 그대와는 이야기가 안 되는군. <value:$28>여, 어떻게 할 텐가? 그대도 가겠다는 건가?<end>',
+            '1370534':'같은 로우 스펠이라도 배우기 쉬운 것과 어려운 게 있어. 뭐, 레벨이 있다는 거지. 순서대로 말하자면… 세상에는 정령력이라는 게 있고 불, 물, 땅, 바람의 네 속성이 있다.<end>',
+            '1420107':'하, 하지만 그렇게 하시면 두 나라는….<end>',
+            '1710134':'이제 이 앞의 땅도 당신을 받아들일 것입니다. 자, 나아가세요. 그리고 오세요. 제 곁으로…. 저는 물의 정령신 아큐류스…. 무한의 소울을 가진 자여, 자, 나아가세요….<end>',
+            '2240001':'흑…, 흑….<end>',
+          }
+          # 890201 is handled by literal アタクシ normalization above.
+          for rid,after in manual.items():
+              before=by_id[rid][0]['korean']
+              propose(rid,before,after,'completed blind-audit correction')
+
+          # Same source/pattern companions found by census.
+          companions={
+            '2240006':'흑…, 흑….<end>',
+            '270087':'굳이 서두르지 않아도 괜찮아. 싸울 준비가 되면 알려 줘.<end>',
+            '1090025':None,
+            '1330041':None,
+            '1870032':None,
+            '850161':None,
+            '1710009':None,
+            '630156':None,
+            '1540115':None,
+            '1330716':None,
+            '1220080':None,
+          }
+          # Deterministic companion replacements where full text need not be handwritten.
+          companion_repls={
+            '1090025':[('대가도 연변 도시들','대가도를 따라 늘어선 도시들')],
+            '1330041':[('야, <value:$28>잖아?','어, <value:$28>잖아?')],
+            '1870032':[('나를 숭배하는 딸,','나를 숭배하는 소녀,')],
+            '850161':[('분명 네 평판이 올라갈 거야.','분명 자기브가 널 더 좋게 볼 거야.')],
+            '1710009':[('하핫!<end>','예!<end>')],
+            '630156':[('또 그 이야기인가요? 레무온 님이라도 화내실 거예요.<end>','또 그 이야기인가요? 계속 그러시면 저도 화낼 거예요, 레무온 님.<end>')],
+            '1540115':[('우후후….<end>','후후후….<end>')],
+            '1330716':[('칼라 님','카를라 님')],
+            '1220080':[('무례하네.<end>','무례하네.<end>'),('실례할게.<end>','무례하네.<end>')],
+          }
+          for rid,val in companions.items():
+              before=by_id[rid][0]['korean']
+              if val is not None:
+                  propose(rid,before,val,'registry companion correction')
+                  continue
+              after=proposals.get(rid,before)
+              for a,b in companion_repls[rid]: after=after.replace(a,b)
+              if after!=before: propose(rid,before,after,'exact-source/registry companion correction')
+
+          # Consolidate paths and enforce alias-equivalent before values.
+          records=[]
+          categories=Counter()
+          for rid in sorted(proposals,key=lambda x:(0,int(x)) if x.isdigit() else (1,x)):
+              occs=by_id[rid]
+              before0=occs[0]['korean']
+              if any(o['korean']!=before0 for o in occs):
+                  raise SystemExit(f'alias Korean drift for candidate {rid}')
+              after=proposals[rid]
+              if before0==after: continue
+              records.append({
+                  'id':rid,
+                  'paths':sorted({o['path'] for o in occs}),
+                  'before_korean':before0,
+                  'proposed_korean':after,
+              })
+              for r in set(reasons[rid]): categories[r]+=1
+
+          manifest={
+              'version':1,
+              'purpose':'Beta1 residual quality v5 reviewed normalization/correction candidates',
+              'source_head':HEAD,
+              'english_reference_sha':EN,
+              'records':records,
+          }
+          (OUT/'candidate-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+          with (OUT/'candidate-review.csv').open('w',encoding='utf-8-sig',newline='') as f:
+              fields=['id','paths','japanese','before_korean','proposed_korean','reasons']
+              w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
+              for r in records:
+                  rid=r['id']; w.writerow({
+                      'id':rid,'paths':' | '.join(r['paths']),
+                      'japanese':by_id[rid][0]['japanese'],
+                      'before_korean':r['before_korean'],'proposed_korean':r['proposed_korean'],
+                      'reasons':' | '.join(sorted(set(reasons[rid]))),
+                  })
+          summary={'source_head':HEAD,'english_sha':EN,'candidate_count':len(records),'reason_counts':dict(categories)}
+          (OUT/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+
+      - name: Upload candidate artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: beta1-residual-v5-candidates
+          path: /tmp/beta1-residual-v5-candidates
+          if-no-files-found: error
+          retention-days: 30
